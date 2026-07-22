@@ -1,0 +1,79 @@
+---
+import { v6Icons } from "../data/v6-media";
+
+interface Props {
+  active?: "home" | "partnerstvo" | "cases" | "blog" | "cta";
+}
+
+const { active = "home" } = Astro.props;
+
+const services = [
+  { title: "Продвижение сайта", href: "/#svc-seo" },
+  { title: "Контекстная реклама", href: "/#svc-ads" },
+  { title: "Разработка сайтов", href: "/#svc-web" },
+  { title: "Управление репутацией", href: "/#svc-orm" },
+  { title: "Аудит сайта", href: "/#svc-audit" },
+  { title: "Баннерная реклама", href: "/#svc-banner" },
+  { title: "Техподдержка сайта", href: "/#svc-support" },
+  { title: "Сквозная аналитика", href: "/#svc-analytics" },
+  { title: "Продвижение по трафику", href: "/#svc-traffic" },
+];
+
+const navTop = [
+  { label: "О компании", href: "/#about", key: "home" },
+  { label: "Блог", href: "/#blog", key: "blog" },
+];
+
+const navBottom = [
+  { label: "Наши кейсы", href: "/keysy/", key: "cases" },
+  { label: "Партнерство", href: "/partnerstvo/", key: "partnerstvo" },
+  { label: "Контакты", href: "/#cta", key: "cta" },
+];
+---
+
+<aside id="v6-sidebar" class="v6-sidebar" aria-label="Навигация сайта">
+  <div class="v6-sidebar__head">
+    <a href="/" class="v6-sidebar__logo">
+      <img src={v6Icons.logoMark} alt="" width="44" height="44" />
+      <span class="v6-sidebar__brand">
+        <span class="v6-sidebar__name">ПРАЙМ</span>
+        <span class="v6-sidebar__tagline">Интернет-маркетинг</span>
+      </span>
+    </a>
+    <div class="v6-sidebar__stripe" aria-hidden="true"></div>
+  </div>
+
+  <nav class="v6-nav">
+    {
+      navTop.map((item) => (
+        <a href={item.href} class={active === item.key ? "is-active" : undefined}>
+          {item.label}
+        </a>
+      ))
+    }
+    <details class="v6-nav__group" {...(active === "home" ? { open: true } : {})}>
+      <summary>Наши услуги</summary>
+      <div class="v6-nav__sub">
+        {services.map((s) => <a href={s.href}>{s.title}</a>)}
+      </div>
+    </details>
+    {
+      navBottom.map((item) => (
+        <a href={item.href} class={active === item.key ? "is-active" : undefined}>
+          {item.label}
+        </a>
+      ))
+    }
+  </nav>
+
+  <div class="v6-sidebar__foot">
+    <a href="tel:+74732030124">+7 (473) 203-01-24</a>
+    <a href="mailto:info@prime-ltd.su">info@prime-ltd.su</a>
+    <div class="v6-sidebar__social">
+      <a href="https://vk.com/primeltd" target="_blank" rel="noopener" aria-label="VK">VK</a>
+      <a href="https://t.me/bziksv" target="_blank" rel="noopener" aria-label="Telegram">TG</a>
+    </div>
+  </div>
+</aside>
+
+<div id="v6-backdrop" class="v6-backdrop" aria-hidden="true"></div>

@@ -1,0 +1,14 @@
+{
+  "name": "prime-ltd-su",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev --port 3004",
+    "build": "astro build",
+    "preview": "astro preview --port 3004"
+  },
+  "dependencies": {
+    "astro": "^5.7.0"
+  }
+}

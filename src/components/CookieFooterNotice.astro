@@ -1,0 +1,20 @@
+---
+import { legalDocs } from "../data/legal";
+
+const linkAttrs = {
+  class: "cookie-link",
+  target: "_blank",
+  rel: "nofollow noopener noreferrer",
+} as const;
+---
+
+<div class="cookie-notice">
+  На нашем сайте используются{" "}
+  <a {...linkAttrs} href={legalDocs.cookies}>cookie-файлы</a>
+  {" "}и{" "}
+  <a {...linkAttrs} href={legalDocs.recommendations}>рекомендательные технологии</a>, которые
+  помогают улучшать функциональность, адаптировать рекламу и собирать статистику посещений.
+  Продолжая пользоваться сайтом, вы соглашаетесь с обработкой персональных данных согласно{" "}
+  <a {...linkAttrs} href={legalDocs.privacy}>политике конфиденциальности</a>. Вы можете отключить
+  cookies в настройках браузера.
+</div>

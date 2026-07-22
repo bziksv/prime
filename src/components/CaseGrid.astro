@@ -1,0 +1,45 @@
+---
+import type { CaseStudy } from "../data/cases";
+import { casePath, getCategory } from "../data/cases";
+
+interface Props {
+  cases: CaseStudy[];
+  featuredFirst?: boolean;
+}
+
+const { cases, featuredFirst = false } = Astro.props;
+const list = featuredFirst
+  ? [...cases].sort((a, b) => Number(!!b.featured) - Number(!!a.featured))
+  : cases;
+---
+
+<div class="k-grid">
+  {
+    list.map((c, i) => {
+      const cat = getCategory(c.category);
+      const wide = featuredFirst && c.featured && i === 0;
+      return (
+        <a
+          href={casePath(c)}
+          class:list={["k-card", wide && "k-card--wide"]}
+          style={`--k-accent:${cat?.accent ?? "#20b8d0"}`}
+        >
+          <div class="k-card__media">
+            <img src={c.cover} alt={c.coverAlt} loading="lazy" />
+            <div class="k-card__shade" aria-hidden="true" />
+          </div>
+          <div class="k-card__body">
+            <span class="k-card__cat">{cat?.short}</span>
+            <p class="k-card__metric">
+              <strong>{c.metric}</strong>
+              <span>{c.metricLabel}</span>
+            </p>
+            <h3>{c.title}</h3>
+            <p class="k-card__sum">{c.summary}</p>
+            <span class="k-card__go">Смотреть кейс →</span>
+          </div>
+        </a>
+      );
+    })
+  }
+</div>

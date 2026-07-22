@@ -1,0 +1,320 @@
+---
+import "../../../styles/concept-v6.css";
+import "../../../styles/concept-v6-media.css";
+import "../../../styles/cases.css";
+import CasesLayout from "../../../layouts/CasesLayout.astro";
+import CaseGrid from "../../../components/CaseGrid.astro";
+import {
+  caseStudies,
+  getCase,
+  getCategory,
+  getRelatedCases,
+  categoryPath,
+} from "../../../data/cases";
+
+export function getStaticPaths() {
+  return caseStudies.map((c) => ({
+    params: { category: c.category, slug: c.slug },
+  }));
+}
+
+const { category, slug } = Astro.params;
+const item = getCase(category!, slug!);
+if (!item) {
+  return Astro.redirect("/keysy/");
+}
+
+const cat = getCategory(item.category)!;
+const related = getRelatedCases(item);
+const rich = Boolean(item.intro || item.pains?.length || item.gallery?.length || item.sections?.length);
+---
+
+<CasesLayout
+  title={`${item.title} — кейс ПРАЙМ`}
+  description={`${item.metric} ${item.metricLabel}. ${item.summary}`}
+  breadcrumb={[
+    { label: "Главная", href: "/" },
+    { label: "Кейсы", href: "/keysy/" },
+    { label: cat.title, href: categoryPath(cat.id) },
+    { label: item.client },
+  ]}
+>
+  <section class="k-detail-hero" style={`--k-accent:${cat.accent}`}>
+    <div class="k-detail-hero__bg">
+      <img src={item.cover} alt={item.coverAlt} />
+    </div>
+    <div class="k-detail-hero__shade" aria-hidden="true"></div>
+    <div class="k-detail-hero__inner">
+      <div class="k-tags">
+        <span class="k-tag">{cat.title}</span>
+        {item.services.map((s) => <span class="k-tag">{s}</span>)}
+      </div>
+      <h1>{item.title}</h1>
+      <p class="k-detail-metric">
+        <strong>{item.metric}</strong>
+        <span>{item.metricLabel}</span>
+      </p>
+      <div class="k-detail-hero__meta">
+        <span><strong>{item.client}</strong> · {item.industry}</span>
+        <span>{item.location}</span>
+        <span>{item.period}</span>
+        {
+          item.siteUrl && (
+            <a class="k-detail-hero__site" href={item.siteUrl} target="_blank" rel="noopener">
+              {item.siteUrl.replace(/^https?:\/\//, "")} ↗
+            </a>
+          )
+        }
+      </div>
+    </div>
+  </section>
+
+  {
+    item.intro && (
+      <section class="k-panel k-intro k-reveal">
+        <p class="k-kicker" style="color:var(--text-muted)">О клиенте</p>
+        <p class="k-intro__text">{item.intro}</p>
+      </section>
+    )
+  }
+
+  {
+    item.pains && item.pains.length > 0 && (
+      <section class="k-panel k-reveal">
+        <div class="k-panel__head">
+          <h2>Что было на входе</h2>
+          <p>{item.challenge}</p>
+        </div>
+        <div class="k-pains">
+          {item.pains.map((p, i) => (
+            <article class="k-pain" style={`--k-accent:${cat.accent}`}>
+              <span class="k-pain__n">{String(i + 1).padStart(2, "0")}</span>
+              <h3>{p.title}</h3>
+              <p>{p.text}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    item.gallery && item.gallery.length > 0 && (
+      <section class="k-panel k-reveal">
+        <div class="k-panel__head">
+          <h2>Как выглядит результат</h2>
+          <p>Экраны с боевого проекта</p>
+        </div>
+        <div class="k-gallery">
+          {item.gallery.map((g, i) => (
+            <figure class:list={["k-gallery__item", i === 0 && "k-gallery__item--lead"]}>
+              <button
+                type="button"
+                class="k-zoom"
+                data-lightbox
+                data-src={g.src}
+                data-alt={g.alt}
+                data-caption={g.caption ?? g.alt}
+                aria-label={`Увеличить: ${g.alt}`}
+              >
+                <img src={g.src} alt={g.alt} loading="lazy" />
+                <span class="k-zoom__hint" aria-hidden="true">⛶</span>
+              </button>
+              {g.caption && <figcaption>{g.caption}</figcaption>}
+            </figure>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    item.sections && item.sections.length > 0 ? (
+      <section class="k-story k-reveal">
+        <div class="k-panel__head" style="padding:0 0 1rem">
+          <h2>Подробнее об изменениях</h2>
+          <p>Как собирали решение шаг за шагом</p>
+        </div>
+        {item.sections.map((s, i) => (
+          <article class:list={["k-story__row", i % 2 === 1 && "k-story__row--flip"]}>
+            <div class="k-story__copy">
+              <span class="k-story__n" style={`--k-accent:${cat.accent}`}>
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              <h3>{s.title}</h3>
+              <p>{s.body}</p>
+            </div>
+            {s.image && (
+              <div class="k-story__media">
+                <button
+                  type="button"
+                  class="k-zoom"
+                  data-lightbox
+                  data-src={s.image}
+                  data-alt={s.title}
+                  data-caption={s.title}
+                  aria-label={`Увеличить: ${s.title}`}
+                >
+                  <img src={s.image} alt={s.title} loading="lazy" />
+                  <span class="k-zoom__hint" aria-hidden="true">⛶</span>
+                </button>
+              </div>
+            )}
+          </article>
+        ))}
+      </section>
+    ) : (
+      <div class="k-layout">
+        <section class="k-panel k-reveal">
+          <div class="k-block">
+            <h2>Задача</h2>
+            <p>{item.challenge}</p>
+          </div>
+          <div class="k-block">
+            <h2>Как решали</h2>
+            <ol class="k-steps">
+              {item.approach.map((step, i) => (
+                <li>
+                  <span class="k-steps__n" style={`--k-accent:${cat.accent}`}>
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <span>{step}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+          {item.quote && (
+            <div class="k-block">
+              <blockquote class="k-quote">
+                <p>«{item.quote.text}»</p>
+                <footer>
+                  <strong>{item.quote.author}</strong> — {item.quote.role}
+                </footer>
+              </blockquote>
+            </div>
+          )}
+        </section>
+        <aside class="k-aside k-reveal">
+          <div class="k-panel" style="margin:0">
+            <div class="k-block" style="margin:0;padding:0;border:0">
+              <h2>Результат</h2>
+              <div class="k-kpi">
+                {item.results.map((r) => (
+                  <div class="k-kpi__item">
+                    <strong>{r.value}</strong>
+                    <span>{r.label}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    )
+  }
+
+  {
+    rich && (
+      <div class="k-layout k-reveal">
+        <section class="k-panel" style="margin:0">
+          {item.highlights && item.highlights.length > 0 && (
+            <div class="k-block" style="margin:0;padding:0;border:0">
+              <h2>Что получили</h2>
+              <ul class="k-checks">
+                {item.highlights.map((h) => (
+                  <li>
+                    <span class="k-checks__mark" style={`--k-accent:${cat.accent}`} aria-hidden="true">
+                      ✓
+                    </span>
+                    <span>{h}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {item.quote && (
+            <div class="k-block">
+              <blockquote class="k-quote">
+                <p>«{item.quote.text}»</p>
+                <footer>
+                  <strong>{item.quote.author}</strong> — {item.quote.role}
+                </footer>
+              </blockquote>
+            </div>
+          )}
+        </section>
+        <aside class="k-aside">
+          <div class="k-panel" style="margin:0">
+            <div class="k-block" style="margin:0;padding:0;border:0">
+              <h2>В цифрах</h2>
+              <div class="k-kpi">
+                {item.results.map((r) => (
+                  <div class="k-kpi__item">
+                    <strong>{r.value}</strong>
+                    <span>{r.label}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div class="k-block">
+              <div class="k-meta-card">
+                <dl>
+                  <div>
+                    <dt>Клиент</dt>
+                    <dd>{item.client}</dd>
+                  </div>
+                  <div>
+                    <dt>Отрасль</dt>
+                    <dd>{item.industry}</dd>
+                  </div>
+                  <div>
+                    <dt>Локация</dt>
+                    <dd>{item.location}</dd>
+                  </div>
+                  <div>
+                    <dt>Срок</dt>
+                    <dd>{item.period}</dd>
+                  </div>
+                  {item.siteUrl && (
+                    <div>
+                      <dt>Сайт</dt>
+                      <dd>
+                        <a href={item.siteUrl} target="_blank" rel="noopener">
+                          {item.siteUrl.replace(/^https?:\/\//, "")}
+                        </a>
+                      </dd>
+                    </div>
+                  )}
+                </dl>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    )
+  }
+
+  <section class="k-cta k-reveal">
+    <h2>{item.ctaTitle ?? "Нужен такой же результат?"}</h2>
+    <p>
+      {item.ctaText ??
+        "С 2015 на рынке: за 10+ лет немало агентств закрылось — мы на месте. Разберём нишу за 30 минут и подскажем формат: SEO, Директ или сайт."}
+    </p>
+    <div class="k-cta__actions">
+      <a class="k-btn k-btn--primary" href="/#cta">Оставить заявку</a>
+      <a class="k-btn k-btn--ghost" href={categoryPath(cat.id)}>Ещё {cat.short}</a>
+    </div>
+  </section>
+
+  {
+    related.length > 0 && (
+      <section class="k-panel k-reveal">
+        <div class="k-panel__head">
+          <h2>Другие проекты</h2>
+          <p>Похожие кейсы и соседние направления</p>
+        </div>
+        <CaseGrid cases={related} />
+      </section>
+    )
+  }
+</CasesLayout>

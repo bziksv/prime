@@ -1,0 +1,480 @@
+---
+import "../styles/concept-v6.css";
+import "../styles/concept-v6-media.css";
+import CookieConsent from "../components/CookieConsent.astro";
+import CookieFooterNotice from "../components/CookieFooterNotice.astro";
+import {
+  v6Photos,
+  v6Icons,
+  v6ModuleBanners,
+  v6ServiceIcons,
+  v6PartnerLogos,
+  v6BlogPosts,
+  v6IndustriesFeatured,
+  v6ClientBrands,
+  v6Process,
+  v6Faq,
+  v6PartnershipCerts,
+} from "../data/v6-media";
+import { legalDocs } from "../data/legal";
+import { casesForHome, casePath } from "../data/cases";
+
+const navMain = [
+  { label: "О компании", href: "#about" },
+  { label: "Блог", href: "#blog" },
+  { label: "Наши кейсы", href: "/keysy/" },
+  { label: "Партнерство", href: "/partnerstvo/" },
+  { label: "Контакты", href: "#cta" },
+];
+
+const services = [
+  {
+    title: "Продвижение сайта",
+    desc: "Выводим в ТОП-10 по ключевым словам. Оплата по факту нахождения фраз.",
+    cat: "seo",
+  },
+  {
+    title: "Контекстная реклама",
+    desc: "Реклама в поисковых системах и у партнёров. Снижаем цену за переход, растим звонки.",
+    cat: "ads",
+  },
+  {
+    title: "Разработка сайтов",
+    desc: "Современные коммерческие сайты: услуги и товары под заявки и продажи.",
+    cat: "web",
+  },
+  {
+    title: "Управление репутацией",
+    desc: "Отзывы на Яндекс и Google Картах, сторонние отзовики. Улучшаем образ бренда.",
+    cat: "orm",
+  },
+  {
+    title: "Аудит сайта",
+    desc: "Проверка на требования поисковых систем — находим, что мешает росту в выдаче.",
+    cat: "audit",
+  },
+  {
+    title: "Баннерная реклама",
+    desc: "Визуальные креативы: изображение + текст для привлечения внимания аудитории.",
+    cat: "banner",
+  },
+  {
+    title: "Техподдержка сайта",
+    desc: "Доработки, контент, оплата, счётчики и постоянное сопровождение проекта.",
+    cat: "support",
+  },
+  {
+    title: "Сквозная аналитика",
+    desc: "Связка рекламы, сайта и CRM — видно, какой канал даёт заявки и продажи.",
+    cat: "analytics",
+  },
+  {
+    title: "Продвижение по трафику",
+    desc: "Рост посещаемости с оплатой за переходы клиентов из поисковых систем.",
+    cat: "traffic",
+  },
+];
+
+---
+
+<!doctype html>
+<html lang="ru" data-concept="v6">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="ПРАЙМ — интернет-маркетинг для бизнеса по всей России. SEO с оплатой по факту, контекст, разработка сайтов и аналитика."
+    />
+    <title>ПРАЙМ — интернет-маркетинг</title>
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <meta property="og:image" content={v6Icons.ogCover} />
+    <link rel="preload" as="image" href={v6Photos.heroTeam} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="v6-app">
+      <aside id="v6-sidebar" class="v6-sidebar" aria-label="Навигация сайта">
+        <div class="v6-sidebar__head">
+          <a href="/" class="v6-sidebar__logo">
+            <img src={v6Icons.logoMark} alt="" width="44" height="44" />
+            <span class="v6-sidebar__brand">
+              <span class="v6-sidebar__name">ПРАЙМ</span>
+              <span class="v6-sidebar__tagline">Интернет-маркетинг</span>
+            </span>
+          </a>
+          <div class="v6-sidebar__stripe" aria-hidden="true"></div>
+        </div>
+
+        <nav class="v6-nav">
+          {
+            navMain.slice(0, 2).map((item) => (
+              <a href={item.href}>{item.label}</a>
+            ))
+          }
+          <details class="v6-nav__group" open>
+            <summary>Наши услуги</summary>
+            <div class="v6-nav__sub">
+              {services.map((s) => <a href={`#svc-${s.cat}`}>{s.title}</a>)}
+            </div>
+          </details>
+          {
+            navMain.slice(2).map((item) => (
+              <a href={item.href}>{item.label}</a>
+            ))
+          }
+        </nav>
+
+        <div class="v6-sidebar__foot">
+          <a href="tel:+74732030124">+7 (473) 203-01-24</a>
+          <a href="mailto:info@prime-ltd.su">info@prime-ltd.su</a>
+          <div class="v6-sidebar__social">
+            <a href="https://vk.com/" target="_blank" rel="noopener" aria-label="VK">VK</a>
+            <a href="https://t.me/" target="_blank" rel="noopener" aria-label="Telegram">TG</a>
+          </div>
+        </div>
+      </aside>
+
+      <div id="v6-backdrop" class="v6-backdrop" aria-hidden="true"></div>
+
+      <div class="v6-main">
+        <header class="v6-topbar">
+          <button id="v6-burger" type="button" class="v6-burger" aria-label="Меню">
+            ☰
+          </button>
+          <p class="v6-breadcrumb">
+            <strong>Главная</strong>
+          </p>
+          <a href="#cta" class="v6-btn">Оставить заявку</a>
+        </header>
+
+        <div class="v6-content">
+          <section
+            class="v6-hero v6-hero--media v6-hero--cover"
+            id="about"
+            style={`--v6-hero-bg: url(${v6Photos.heroOffice})`}
+          >
+            <div class="v6-hero__copy">
+              <h1>Интернет-маркетинг для бизнеса по всей России</h1>
+              <p>
+                SEO с оплатой по факту в ТОП-10, контекстная реклама, разработка сайтов
+                и сквозная аналитика — с прозрачной экономикой и понятными отчётами.
+              </p>
+              <div class="v6-hero__kpis">
+                <div>
+                  <strong>
+                    <img class="v6-kpi-badge" src={v6Icons.checkPrime} alt="" width="28" height="28" />
+                    10+ лет
+                  </strong>
+                  <span>на рынке · с 2015</span>
+                </div>
+                <div>
+                  <strong>
+                    <img class="v6-kpi-badge" src={v6Icons.badgeTop100} alt="" width="28" height="28" />
+                    TOP-100
+                  </strong>
+                  <span>агентств по РФ</span>
+                </div>
+                <div>
+                  <strong>
+                    <img class="v6-kpi-badge" src={v6Icons.badgeTop5} alt="" width="28" height="28" />
+                    TOP-5
+                  </strong>
+                  <span>агентств · CMS Magazine</span>
+                </div>
+              </div>
+              <div class="v6-hero__actions">
+                <a href="#cta" class="v6-btn">Бесплатная консультация</a>
+                <a href="#services" class="v6-btn v6-btn--outline">Все услуги</a>
+              </div>
+            </div>
+            <div class="v6-hero__visual" aria-hidden="true">
+              <img class="v6-hero__photo" src={v6Photos.heroTeam} alt="" width="340" height="140" />
+              <img class="v6-hero__dash" src={v6Icons.heroDashboard} alt="" width="340" height="200" />
+            </div>
+          </section>
+
+          <section class="v6-card v6-about-strip">
+            <div class="v6-about-strip__copy">
+              <h2>О компании</h2>
+              <p>
+                ПРАЙМ — агентство интернет-маркетинга с 2015 года. Ведём проекты по всей
+                России: от аудита и стратегии до заявок, звонков и продаж. Фокус на
+                измеримом результате — позиции, трафик, CPL и связка с CRM.
+              </p>
+              <ul class="v6-about-strip__list">
+                <li>Более 10 лет на рынке — без смены вывески</li>
+                <li>Официальные партнёры Яндекс и Google</li>
+                <li>SEO с оплатой по факту нахождения фраз в ТОП-10</li>
+              </ul>
+            </div>
+            <div class="v6-about-strip__certs">
+              {
+                v6PartnershipCerts.map((c) => (
+                  <div class="v6-cert-mini">
+                    <img src={c.logo} alt="" height="28" />
+                    <div>
+                      <strong>{c.title}</strong>
+                      <span>{c.desc}</span>
+                    </div>
+                  </div>
+                ))
+              }
+            </div>
+          </section>
+
+          <section id="services" class="v6-card">
+            <div class="v6-card-head">
+              <h2>Наши услуги</h2>
+              <p>Комплекс или отдельно — под задачи бизнеса</p>
+            </div>
+            <div class="v6-services">
+              {
+                services.map((s) => (
+                  <a href="#cta" class="v6-service" id={`svc-${s.cat}`}>
+                    <img class="v6-service__cover" src={v6ModuleBanners[s.cat]} alt="" loading="lazy" />
+                    <div class="v6-service__body">
+                      <img class="v6-service__icon" src={v6ServiceIcons[s.cat]} alt="" width="48" height="40" />
+                      <h3>{s.title}</h3>
+                      <p>{s.desc}</p>
+                    </div>
+                  </a>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="v6-card v6-flagship v6-flagship--media">
+            <div class="v6-flagship__main">
+              <p class="v6-eyebrow">Флагман · с 2015</p>
+              <h2>Продвижение сайта с оплатой по факту</h2>
+              <p class="v6-muted v6-muted--lg">
+                Модель, с которой мы работаем больше десяти лет: выводим в ТОП-10
+                по ключевым словам. Платите за фразы, которые реально закрепились
+                в выдаче — без абонентской «воды».
+              </p>
+              <a href="#cta" class="v6-btn v6-btn--spaced">Узнать условия</a>
+            </div>
+            <div class="v6-flagship__visual">
+              <img src={v6Icons.seoReport} alt="Отчёт по позициям" width="280" height="180" />
+              <img class="v6-flagship__serp" src={v6Icons.serpMock} alt="Пример выдачи" width="280" height="120" />
+            </div>
+          </section>
+
+          <section class="v6-card">
+            <div class="v6-card-head">
+              <h2>Как мы работаем</h2>
+              <p>Четыре шага от аудита до роста заявок</p>
+            </div>
+            <div class="v6-process">
+              {
+                v6Process.map((step) => (
+                  <article class="v6-process__item">
+                    <span class="v6-process__num">{step.step}</span>
+                    <h3>{step.title}</h3>
+                    <p>{step.desc}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section id="cases" class="v6-card">
+            <div class="v6-card-head">
+              <h2>Наши достижения</h2>
+              <p>По версии CMS Magazine и результатам клиентов</p>
+            </div>
+            <div class="v6-stats v6-stats--media">
+              <div class="v6-stat-card">
+                <img class="v6-stat-card__bg" src={v6Photos.heroWorkspace} alt="" loading="lazy" />
+                <img class="v6-stat-card__badge" src={v6Icons.badgeTop5} alt="" width="36" height="36" />
+                <strong>TOP-5</strong>
+                <span>интернет-маркетинг · CMS Magazine</span>
+              </div>
+              <div class="v6-stat-card">
+                <img class="v6-stat-card__bg" src={v6Photos.flagSeo} alt="" loading="lazy" />
+                <img class="v6-stat-card__badge" src={v6Icons.badgeTop100} alt="" width="36" height="36" />
+                <strong>TOP-100</strong>
+                <span>агентств по РФ</span>
+              </div>
+              <div class="v6-stat-card">
+                <img class="v6-stat-card__bg" src={v6Photos.heroTeam} alt="" loading="lazy" />
+                <img class="v6-stat-card__badge" src={v6Icons.checkPrime} alt="" width="36" height="36" />
+                <strong>70+</strong>
+                <span>клиентов в разных отраслях</span>
+              </div>
+            </div>
+            <div class="v6-cases-grid">
+              {
+                casesForHome().map((c) => (
+                  <a href={casePath(c)} class="v6-case-card">
+                    <img src={c.cover} alt="" loading="lazy" />
+                    <div class="v6-case-card__body">
+                      <span class="v6-case-card__metric">{c.metric}</span>
+                      <h3>{c.client}</h3>
+                      <p>{c.summary}</p>
+                      <em>
+                        {c.services.slice(0, 2).join(" · ")} · {c.period}
+                      </em>
+                    </div>
+                  </a>
+                ))
+              }
+            </div>
+            <p class="v6-muted v6-note">
+              * Рейтинг CMS Magazine — один из старейших сервисов оценки в рунете;
+              на его показатели опираются и гос. тендеры.
+            </p>
+            <div class="v6-cases-actions">
+              <a class="v6-btn" href="/keysy/">Все кейсы</a>
+            </div>
+          </section>
+
+          <section id="partners" class="v6-card v6-clients">
+            <div class="v6-card-head">
+              <h2>Наши клиенты</h2>
+              <p>Более 70 компаний — от автодилеров до медицины и ритейла</p>
+            </div>
+            <div class="v6-clients__rail">
+              {
+                v6ClientBrands.map((b) => (
+                  <figure class="v6-client-logo">
+                    <img src={b.image} alt={b.name} loading="lazy" />
+                  </figure>
+                ))
+              }
+            </div>
+            <div class="v6-clients__foot">
+              <p>Официальные партнёры поисковых систем</p>
+              <div class="v6-clients__certs">
+                {v6PartnerLogos.map((src) => <img src={src} alt="" height="28" />)}
+              </div>
+            </div>
+          </section>
+
+          <section class="v6-card v6-industries-block">
+            <div class="v6-card-head">
+              <h2>Продвижение по направлениям бизнеса</h2>
+              <p>Отраслевой опыт — детали уточняйте по телефону</p>
+            </div>
+            <div class="v6-industries-mosaic">
+              {
+                v6IndustriesFeatured.map((ind) => (
+                  <a href="#cta" class="v6-ind-tile">
+                    <img src={ind.image} alt="" loading="lazy" />
+                    <span>{ind.name}</span>
+                  </a>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="v6-card">
+            <div class="v6-card-head">
+              <h2>Частые вопросы</h2>
+            </div>
+            <div class="v6-faq">
+              {
+                v6Faq.map((item) => (
+                  <details class="v6-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
+          </section>
+
+          <section id="blog" class="v6-card">
+            <div class="v6-card-head">
+              <h2>Блог об интернет-маркетинге</h2>
+              <p>Практика SEO, рекламы и аналитики</p>
+            </div>
+            <div class="v6-blog-grid">
+              {
+                v6BlogPosts.map((post) => (
+                  <a href="#" class="v6-blog-card">
+                    <img src={post.image} alt="" loading="lazy" />
+                    <div class="v6-blog-card__body">
+                      <time datetime="2026">{post.date}</time>
+                      <h3>{post.title}</h3>
+                      <p>{post.excerpt}</p>
+                    </div>
+                  </a>
+                ))
+              }
+            </div>
+          </section>
+
+          <section id="cta" class="v6-card v6-cta-card">
+            <div class="v6-card-head">
+              <h2>Оставить заявку</h2>
+              <p>
+                За 10+ лет рынок агентств сильно проредился — многие закрылись.
+                Мы на месте: те же принципы, измеримый результат.
+              </p>
+            </div>
+            <div class="v6-cta-layout">
+              <div class="v6-cta__visual">
+                <img src={v6Photos.contactOffice} alt="Команда ПРАЙМ" loading="lazy" />
+                <div class="v6-cta__contacts">
+                  <a href="tel:+74732030124">+7 (473) 203-01-24</a>
+                  <a href="mailto:info@prime-ltd.su">info@prime-ltd.su</a>
+                </div>
+                <ul class="v6-cta__points">
+                  <li>С 2015 на рынке интернет-маркетинга</li>
+                  <li>Остались, когда другие ушли</li>
+                  <li>Разбор ниши за 30 минут · без обязательств</li>
+                </ul>
+              </div>
+              <form id="v6-form" class="v6-form">
+                <input type="text" placeholder="Ваше имя" name="name" required />
+                <input type="tel" placeholder="Телефон" name="phone" required />
+                <select name="service">
+                  <option value="">Выберите услугу</option>
+                  {services.map((s) => <option value={s.title}>{s.title}</option>)}
+                </select>
+                <textarea name="message" rows="4" placeholder="Кратко о задаче (необязательно)"></textarea>
+                <label class="v6-form__check">
+                  <input type="checkbox" name="agree" required />
+                  <span>
+                    Согласен на обработку персональных данных в соответствии с нашей{" "}
+                    <a
+                      class="cookie-link"
+                      href={legalDocs.privacy}
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      >политикой</a
+                    >.
+                  </span>
+                </label>
+                <button type="submit" class="v6-btn">Отправить</button>
+              </form>
+            </div>
+            <p id="v6-form-hint" class="v6-form-hint" hidden></p>
+          </section>
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>ПРАЙМ</strong>
+            <p>Интернет-маркетинг · SEO · контекст · разработка</p>
+          </div>
+          <p>© 2015–{new Date().getFullYear()} ПРАЙМ</p>
+          <CookieFooterNotice />
+        </footer>
+      </div>
+    </div>
+
+    <CookieConsent />
+    <script>
+      import "../scripts/concept-v6.ts";
+    </script>
+  </body>
+</html>

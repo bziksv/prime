@@ -1,0 +1,25 @@
+---
+import { caseCategories, categoryPath } from "../data/cases";
+import type { CaseCategoryId } from "../data/cases";
+
+interface Props {
+  active?: CaseCategoryId | "all";
+}
+
+const { active = "all" } = Astro.props;
+---
+
+<nav class="k-filters" aria-label="Категории кейсов">
+  <a href="/keysy/" class:list={["k-filter", active === "all" && "is-active"]}>Все кейсы</a>
+  {
+    caseCategories.map((c) => (
+      <a
+        href={categoryPath(c.id)}
+        class:list={["k-filter", active === c.id && "is-active"]}
+        style={`--k-accent:${c.accent}`}
+      >
+        {c.title}
+      </a>
+    ))
+  }
+</nav>

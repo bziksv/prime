@@ -1,0 +1,74 @@
+---
+import "../../styles/concept-v6.css";
+import "../../styles/concept-v6-media.css";
+import "../../styles/cases.css";
+import CasesLayout from "../../layouts/CasesLayout.astro";
+import CaseFilters from "../../components/CaseFilters.astro";
+import CaseGrid from "../../components/CaseGrid.astro";
+import {
+  caseCategories,
+  getCategory,
+  getCasesByCategory,
+  type CaseCategoryId,
+} from "../../data/cases";
+
+export function getStaticPaths() {
+  return caseCategories.map((c) => ({ params: { category: c.slug } }));
+}
+
+const { category } = Astro.params;
+const cat = getCategory(category!);
+if (!cat) {
+  return Astro.redirect("/keysy/");
+}
+
+const cases = getCasesByCategory(cat.id as CaseCategoryId);
+---
+
+<CasesLayout
+  title={`${cat.title} — кейсы ПРАЙМ`}
+  description={`${cat.lead} Кейсы агентства ПРАЙМ по направлению «${cat.title}».`}
+  breadcrumb={[
+    { label: "Главная", href: "/" },
+    { label: "Кейсы", href: "/keysy/" },
+    { label: cat.title },
+  ]}
+>
+  <section class="k-hero k-hero--cat" style={`--k-accent:${cat.accent}`}>
+    <div class="k-hero__grid" aria-hidden="true"></div>
+    <div class="k-hero__inner">
+      <p class="k-kicker">Направление</p>
+      <h1>{cat.title}</h1>
+      <p class="k-hero__lead">{cat.lead}</p>
+    </div>
+    <div class="k-hero__stats">
+      <div class="k-hero__stat">
+        <strong>{cases.length}</strong>
+        <span>кейсов в разделе</span>
+      </div>
+    </div>
+    <div class="k-hero__stripe" aria-hidden="true"></div>
+  </section>
+
+  <CaseFilters active={cat.id} />
+
+  <section class="k-panel k-reveal">
+    <div class="k-panel__head">
+      <h2>Кейсы · {cat.short}</h2>
+      <p>Результаты по проектам в этом направлении</p>
+    </div>
+    <CaseGrid cases={cases} featuredFirst />
+  </section>
+
+  <section class="k-cta k-reveal">
+    <h2>Обсудим задачу по «{cat.short}»</h2>
+    <p>
+      Более 10 лет в интернет-маркетинге — короткий разбор ниши и прогноз
+      по срокам и экономике канала.
+    </p>
+    <div class="k-cta__actions">
+      <a class="k-btn k-btn--primary" href="/#cta">Оставить заявку</a>
+      <a class="k-btn k-btn--ghost" href="/keysy/">Все кейсы</a>
+    </div>
+  </section>
+</CasesLayout>

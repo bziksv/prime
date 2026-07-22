@@ -1,0 +1,80 @@
+---
+import "../../styles/concept-v6.css";
+import "../../styles/concept-v6-media.css";
+import "../../styles/cases.css";
+import CasesLayout from "../../layouts/CasesLayout.astro";
+import CaseFilters from "../../components/CaseFilters.astro";
+import CaseGrid from "../../components/CaseGrid.astro";
+import { caseStudies, caseCategories } from "../../data/cases";
+
+const featured = caseStudies.filter((c) => c.featured);
+---
+
+<CasesLayout
+  title="Наши кейсы — ПРАЙМ"
+  description="Кейсы ПРАЙМ: SEO с оплатой по факту, контекстная реклама и разработка сайтов. Результаты по заявкам, CPL и ROI."
+  breadcrumb={[{ label: "Главная", href: "/" }, { label: "Кейсы" }]}
+>
+  <section class="k-hero">
+    <div class="k-hero__grid" aria-hidden="true"></div>
+    <div class="k-hero__orb k-hero__orb--1" aria-hidden="true"></div>
+    <div class="k-hero__orb k-hero__orb--2" aria-hidden="true"></div>
+    <div class="k-hero__inner">
+      <p class="k-kicker">Портфолио результатов</p>
+      <h1>Кейсы, где видно <em>цифру</em> — не слайд</h1>
+      <p class="k-hero__lead">
+        SEO, Директ и разработка: реальные проекты с понятной экономикой —
+        позиции, заявки, CPL и ROI. Выберите направление или откройте кейс целиком.
+      </p>
+    </div>
+    <div class="k-hero__stats">
+      <div class="k-hero__stat">
+        <strong>{caseStudies.length}+</strong>
+        <span>разборов в каталоге</span>
+      </div>
+      <div class="k-hero__stat">
+        <strong>{caseCategories.length}</strong>
+        <span>направления услуг</span>
+      </div>
+      <div class="k-hero__stat">
+        <strong>70+</strong>
+        <span>клиентов в работе</span>
+      </div>
+    </div>
+    <div class="k-hero__stripe" aria-hidden="true"></div>
+  </section>
+
+  <CaseFilters active="all" />
+
+  {
+    featured.length > 0 && (
+      <section class="k-panel k-reveal">
+        <div class="k-panel__head">
+          <h2>Избранные результаты</h2>
+          <p>Сильные кейсы — с метрикой на обложке</p>
+        </div>
+        <CaseGrid cases={featured} featuredFirst />
+      </section>
+    )
+  }
+
+  <section class="k-panel k-reveal">
+    <div class="k-panel__head">
+      <h2>Все кейсы</h2>
+      <p>Фильтруйте по SEO, контексту или разработке</p>
+    </div>
+    <CaseGrid cases={caseStudies.filter((c) => !c.featured)} />
+  </section>
+
+  <section class="k-cta k-reveal">
+    <h2>Нужен такой же результат?</h2>
+    <p>
+      С 2015 на рынке: за 10+ лет немало агентств закрылось — мы на месте.
+      Разберём нишу за 30 минут и подскажем формат: SEO, Директ или сайт.
+    </p>
+    <div class="k-cta__actions">
+      <a class="k-btn k-btn--primary" href="/#cta">Оставить заявку</a>
+      <a class="k-btn k-btn--ghost" href="tel:+74732030124">+7 (473) 203-01-24</a>
+    </div>
+  </section>
+</CasesLayout>
