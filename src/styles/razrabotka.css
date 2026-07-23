@@ -160,9 +160,9 @@
 
 @media (max-width: 900px) {
   .w-robot-shell {
-    top: 22%;
-    width: 130%;
-    aspect-ratio: 1.15 / 1;
+    top: 36%;
+    width: 145%;
+    aspect-ratio: 1.05 / 1;
   }
 }
 
@@ -496,13 +496,102 @@
 }
 
 @media (max-width: 959px) {
+  .w-hero {
+    min-height: auto;
+  }
+
+  .w-hero__inner {
+    min-height: auto;
+    gap: 0.85rem;
+    padding-bottom: 1.1rem;
+  }
+
+  .w-hero__top {
+    gap: 0.55rem;
+  }
+
+  .w-hero h1 {
+    font-size: clamp(1.45rem, 7vw, 1.85rem);
+    max-width: none;
+  }
+
+  .w-hero__lead {
+    font-size: 0.84rem;
+    line-height: 1.4;
+  }
+
+  /* Карточки столбиком, между ними окно под робота */
   .w-hero__stage {
-    margin-top: auto;
+    margin-top: 0.35rem;
+    gap: 0;
+    flex: 0 0 auto;
+    min-height: 0;
+    align-items: stretch;
+  }
+
+  .w-hero__stage-gap {
+    display: block;
+    min-height: clamp(180px, 48vw, 260px);
   }
 
   .w-flank--strict,
   .w-flank--concept {
-    max-width: 22rem;
+    max-width: none;
+    width: 100%;
+  }
+
+  .w-flank__label {
+    margin-bottom: 0.35rem;
+  }
+
+  .w-flank--strict .w-flank__plaque,
+  .w-flank--concept .w-flank__card {
+    padding: 0.75rem 0.85rem 0.85rem;
+  }
+
+  .w-flank--strict .w-flank__plaque {
+    background: rgba(18, 21, 26, 0.78);
+    backdrop-filter: blur(8px);
+  }
+
+  .w-flank--strict .w-flank__title,
+  .w-flank--concept .w-flank__title {
+    font-size: 1.15rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .w-flank--strict p:not(.w-flank__title),
+  .w-flank--concept p:not(.w-flank__title) {
+    font-size: 0.74rem;
+    line-height: 1.35;
+  }
+
+  .w-flank__tags {
+    margin-top: 0.55rem;
+  }
+
+  .w-hero__word {
+    top: 48%;
+    font-size: clamp(3.5rem, 22vw, 7rem);
+  }
+}
+
+@media (max-width: 380px) {
+  .w-hero__stage-gap {
+    min-height: 200px;
+  }
+
+  .w-robot-shell {
+    top: 34%;
+    width: 160%;
+  }
+
+  .w-flank__tags {
+    display: none;
+  }
+
+  .w-scroll {
+    display: none;
   }
 }
 
