@@ -16,7 +16,7 @@ const {
   title,
   description,
   breadcrumb,
-  ctaHref = "/#cta",
+  ctaHref = "/kontakty/",
   ctaLabel = "Оставить заявку",
 } = Astro.props;
 ---
@@ -73,20 +73,37 @@ const {
       </div>
     </div>
 
-    <dialog class="k-lightbox" id="k-lightbox" aria-label="Просмотр изображения">
-      <div class="k-lightbox__stage">
-        <button type="button" class="k-lightbox__close" data-lightbox-close aria-label="Закрыть">
-          ×
-        </button>
-        <button type="button" class="k-lightbox__nav k-lightbox__nav--prev" data-lightbox-prev aria-label="Предыдущее">
-          ‹
-        </button>
-        <img class="k-lightbox__img" alt="" />
-        <button type="button" class="k-lightbox__nav k-lightbox__nav--next" data-lightbox-next aria-label="Следующее">
-          ›
-        </button>
+    <dialog class="k-lightbox" id="k-lightbox" aria-label="Просмотр экранов">
+      <div class="k-lightbox__shell">
+        <header class="k-lightbox__top">
+          <p class="k-lightbox__count" data-lightbox-count></p>
+          <button type="button" class="k-lightbox__close" data-lightbox-close aria-label="Закрыть">
+            Закрыть
+          </button>
+        </header>
+
+        <div class="k-lightbox__stage">
+          <button type="button" class="k-lightbox__nav k-lightbox__nav--prev" data-lightbox-prev aria-label="Предыдущее">
+            <span aria-hidden="true">‹</span>
+          </button>
+          <div class="k-lightbox__frame">
+            <div class="k-lightbox__chrome" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="k-lightbox__viewport">
+              <img class="k-lightbox__img" alt="" />
+            </div>
+          </div>
+          <button type="button" class="k-lightbox__nav k-lightbox__nav--next" data-lightbox-next aria-label="Следующее">
+            <span aria-hidden="true">›</span>
+          </button>
+        </div>
+
+        <footer class="k-lightbox__bottom">
+          <p class="k-lightbox__cap" data-lightbox-cap></p>
+          <div class="k-lightbox__thumbs" data-lightbox-thumbs></div>
+        </footer>
       </div>
-      <p class="k-lightbox__cap" hidden></p>
     </dialog>
 
     <CookieConsent />

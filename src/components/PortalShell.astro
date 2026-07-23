@@ -2,32 +2,31 @@
 import { v6Icons } from "../data/v6-media";
 
 interface Props {
-  active?: "home" | "partnerstvo" | "cases" | "blog" | "cta";
+  active?: "home" | "partnerstvo" | "cases" | "kontakty";
+  serviceActive?: string;
 }
 
-const { active = "home" } = Astro.props;
+const { active, serviceActive } = Astro.props;
 
 const services = [
-  { title: "Продвижение сайта", href: "/#svc-seo" },
-  { title: "Контекстная реклама", href: "/#svc-ads" },
-  { title: "Разработка сайтов", href: "/#svc-web" },
-  { title: "Управление репутацией", href: "/#svc-orm" },
-  { title: "Аудит сайта", href: "/#svc-audit" },
-  { title: "Баннерная реклама", href: "/#svc-banner" },
-  { title: "Техподдержка сайта", href: "/#svc-support" },
-  { title: "Сквозная аналитика", href: "/#svc-analytics" },
-  { title: "Продвижение по трафику", href: "/#svc-traffic" },
+  { title: "Продвижение сайта", href: "/prodvizhenie-sayta/", key: "seo" },
+  { title: "Контекстная реклама", href: "/kontekstnaya-reklama/", key: "ads" },
+  { title: "Разработка сайтов", href: "/razrabotka-saytov/", key: "web" },
+  { title: "Управление репутацией", href: "/upravlenie-reputaciej/", key: "orm" },
+  { title: "Аудит сайта", href: "/audit-sayta/", key: "audit" },
+  { title: "Техподдержка сайта", href: "/tehpodderzhka-sayta/", key: "support" },
+  { title: "Сквозная аналитика", href: "/skvoznaya-analitika/", key: "analytics" },
+  { title: "Продвижение по трафику", href: "/prodvizhenie-sayta-po-trafiku/", key: "traffic" },
 ];
 
 const navTop = [
   { label: "О компании", href: "/#about", key: "home" },
-  { label: "Блог", href: "/#blog", key: "blog" },
 ];
 
 const navBottom = [
   { label: "Наши кейсы", href: "/keysy/", key: "cases" },
   { label: "Партнерство", href: "/partnerstvo/", key: "partnerstvo" },
-  { label: "Контакты", href: "/#cta", key: "cta" },
+  { label: "Контакты", href: "/kontakty/", key: "kontakty" },
 ];
 ---
 
@@ -51,10 +50,14 @@ const navBottom = [
         </a>
       ))
     }
-    <details class="v6-nav__group" {...(active === "home" ? { open: true } : {})}>
+    <details class="v6-nav__group" open>
       <summary>Наши услуги</summary>
       <div class="v6-nav__sub">
-        {services.map((s) => <a href={s.href}>{s.title}</a>)}
+        {services.map((s) => (
+          <a href={s.href} class={serviceActive === s.key ? "is-active" : undefined}>
+            {s.title}
+          </a>
+        ))}
       </div>
     </details>
     {

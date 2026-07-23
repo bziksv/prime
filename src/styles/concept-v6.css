@@ -164,12 +164,6 @@
   transform: rotate(180deg);
 }
 
-.v6-nav__group[open] summary {
-  background: var(--accent-soft);
-  border-left-color: var(--accent);
-  color: var(--accent);
-}
-
 .v6-nav__sub {
   padding: 0.25rem 0 0.5rem;
 }
@@ -444,7 +438,7 @@
   width: 100%;
 }
 
-.v6-form input,
+.v6-form input:not([type="checkbox"]),
 .v6-form select,
 .v6-form textarea {
   padding: 0.75rem;

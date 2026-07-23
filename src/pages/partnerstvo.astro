@@ -51,7 +51,8 @@ const marquee = [...partnerCases, ...partnerCases];
         </header>
 
         <div class="v6-content">
-          <section class="p-hero">
+          <section class="p-hero" data-parallax-hero>
+            <div class="p-hero__photo" aria-hidden="true" data-parallax-hero-bg></div>
             <div class="p-hero__orb p-hero__orb--1" aria-hidden="true"></div>
             <div class="p-hero__orb p-hero__orb--2" aria-hidden="true"></div>
             <div class="p-hero__orb p-hero__orb--3" aria-hidden="true"></div>
@@ -121,9 +122,15 @@ const marquee = [...partnerCases, ...partnerCases];
             <div class="p-cases">
               {
                 partnerCases.map((c) => (
-                  <a href="/keysy/" class="p-case">
-                    <strong>{c.name}</strong>
-                    <span>{c.tag}</span>
+                  <a href={c.href} class="p-case" data-parallax-card>
+                    <span class="p-case__media" aria-hidden="true">
+                      <img src={c.image} alt="" loading="lazy" data-parallax-img />
+                    </span>
+                    <span class="p-case__shade" aria-hidden="true"></span>
+                    <span class="p-case__copy">
+                      <strong>{c.name}</strong>
+                      <span>{c.tag}</span>
+                    </span>
                   </a>
                 ))
               }

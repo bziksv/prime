@@ -1,43 +1,25 @@
-/** Визуальные ассеты v6 «Портал» — корпоративный UI, демо-фото Unsplash. */
+/** Визуальные ассеты v6 «Портал» — AI-фото локально (сток запрещён). */
 export const v6Photos = {
-  heroTeam:
-    "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=900&q=80&auto=format&fit=crop",
-  heroOffice:
-    "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=80&auto=format&fit=crop",
-  heroWorkspace:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=900&q=80&auto=format&fit=crop",
-  caseManufacturing:
-    "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&q=80&auto=format&fit=crop",
-  caseAds:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80&auto=format&fit=crop",
-  caseEcom:
-    "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=80&auto=format&fit=crop",
-  flagSeo:
-    "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80&auto=format&fit=crop",
-  contactOffice:
-    "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=700&q=80&auto=format&fit=crop",
-  clientsBanner:
-    "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80&auto=format&fit=crop",
-  compareAfter:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80&auto=format&fit=crop",
-  compareBefore:
-    "https://images.unsplash.com/photo-1557804506-669a69365ba0?w=1000&q=80&auto=format&fit=crop",
-  midCta:
-    "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=80&auto=format&fit=crop",
-  caseB2b:
-    "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=500&q=80&auto=format&fit=crop",
-  industryBuild:
-    "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=80&auto=format&fit=crop",
-  industryBeauty:
-    "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&q=80&auto=format&fit=crop",
-  industryAuto:
-    "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600&q=80&auto=format&fit=crop",
-  industryMed:
-    "https://images.unsplash.com/photo-1519494026892-80bbd2d6df03?w=600&q=80&auto=format&fit=crop",
-  industryEdu:
-    "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80&auto=format&fit=crop",
-  industrySport:
-    "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80&auto=format&fit=crop",
+  heroTeam: "/images/v6/photos/hero-team.jpg",
+  heroOffice: "/images/v6/photos/hero-office.jpg",
+  heroWorkspace: "/images/v6/photos/hero-workspace.jpg",
+  caseManufacturing: "/images/v6/photos/case-manufacturing.jpg",
+  caseAds: "/images/v6/photos/case-ads.jpg",
+  caseEcom: "/images/v6/photos/case-ecom.jpg",
+  flagSeo: "/images/v6/photos/flag-seo.jpg",
+  contactOffice: "/images/v6/photos/contact-cta.jpg",
+  clientsBanner: "/images/v6/photos/clients-banner.jpg",
+  compareAfter: "/images/v6/photos/case-ads.jpg",
+  compareBefore: "/images/v6/photos/compare-before.jpg",
+  midCta: "/images/v6/photos/mid-cta.jpg",
+  caseB2b: "/images/v6/photos/case-b2b.jpg",
+  caseAutoservice: "/images/v6/photos/case-autoservice.jpg",
+  industryBuild: "/images/v6/industries/stroitelstvo.jpg",
+  industryBeauty: "/images/v6/industries/krasota.jpg",
+  industryAuto: "/images/v6/industries/avto.jpg",
+  industryMed: "/images/v6/industries/medicina.jpg",
+  industryEdu: "/images/v6/industries/obrazovanie.jpg",
+  industrySport: "/images/v6/industries/sport.jpg",
 } as const;
 
 export const v6CompareImages = {
@@ -86,16 +68,16 @@ export const v6ShowcaseScreens = [
 ] as const;
 
 export const v6ModuleBanners: Record<string, string> = {
-  seo: "/images/v6/covers/seo.png",
-  ads: "/images/v6/covers/ads.png",
-  web: "/images/v6/covers/web.png",
-  other: "/images/v6/covers/orm.png",
-  orm: "/images/v6/covers/orm.png",
-  audit: "/images/v6/covers/audit.png",
-  banner: "/images/v6/covers/banner.png",
-  support: "/images/v6/covers/support.png",
-  analytics: "/images/v6/covers/analytics.png",
-  traffic: "/images/v6/covers/traffic.png",
+  seo: "/images/v6/covers/seo.svg",
+  ads: "/images/v6/covers/ads.svg",
+  web: "/images/v6/covers/web.svg",
+  other: "/images/v6/covers/orm.svg",
+  orm: "/images/v6/covers/orm.svg",
+  audit: "/images/v6/covers/audit.svg",
+  banner: "/images/v6/covers/banner.svg",
+  support: "/images/v6/covers/support.svg",
+  analytics: "/images/v6/covers/analytics.svg",
+  traffic: "/images/v6/covers/traffic.svg",
 };
 
 export const v6ServiceIcons: Record<string, string> = {
@@ -118,12 +100,12 @@ export const v6PartnerLogos = [
 ] as const;
 
 export const v6ClientAvatars = [
-  "/images/v6/avatar-1.png",
-  "/images/v6/avatar-2.png",
-  "/images/v6/avatar-3.png",
-  "/images/v6/avatar-1.png",
-  "/images/v6/avatar-2.png",
-  "/images/v6/avatar-3.png",
+  "/images/v6/avatar-1.jpg",
+  "/images/v6/avatar-2.jpg",
+  "/images/v6/avatar-3.jpg",
+  "/images/v6/avatar-1.jpg",
+  "/images/v6/avatar-2.jpg",
+  "/images/v6/avatar-3.jpg",
 ] as const;
 
 export const v6BlogPosts = [
@@ -147,7 +129,7 @@ export const v6BlogPosts = [
   },
 ] as const;
 
-/** Все направления — локальные фото, единая сетка без «пустых» карточек. */
+/** Все направления — AI-фото локально, единая сетка без «пустых» карточек. */
 export const v6IndustriesFeatured = [
   { name: "Производство", image: "/images/v6/industries/proizvodstvo.jpg" },
   { name: "Магазины", image: "/images/v6/industries/magaziny.jpg" },
@@ -242,16 +224,21 @@ export const v6AboutPhotos = [
 ] as const;
 
 export const v6ClientBrands = [
-  { name: "KIA Motorland", mark: "KIA", image: "/images/v6/clients/kia.png" },
-  { name: "Subaru", mark: "SB", image: "/images/v6/clients/subaru.png" },
-  { name: "Jeep Воронеж", mark: "JP", image: "/images/v6/clients/jeep.png" },
-  { name: "Barokko", mark: "BR", image: "/images/v6/clients/barokko.png" },
-  { name: "GreenStroy", mark: "GS", image: "/images/v6/clients/greenstroy.png" },
-  { name: "Торгмаг", mark: "ТМ", image: "/images/v6/clients/torgmag.png" },
-  { name: "Volvo", mark: "VL", image: "/images/v6/clients/volvo.png" },
-  { name: "Аквасан", mark: "АК", image: "/images/v6/clients/akvasan.png" },
-  { name: "Альмамед", mark: "АМ", image: "/images/v6/clients/almamed.png" },
-  { name: "Belgee", mark: "BG", image: "/images/v6/clients/belgee.png" },
+  { name: "KIA Мотор Ленд", image: "/images/v6/clients/kia.png" },
+  { name: "Jeep Воронеж", image: "/images/v6/clients/jeep.png" },
+  { name: "Barokko", image: "/images/v6/clients/barokko.png" },
+  { name: "Торгмаг", image: "/images/v6/clients/torgmag.png" },
+  { name: "Volvo Мотор Ленд", image: "/images/v6/clients/volvo.png" },
+  { name: "Аквасан", image: "/images/v6/clients/akvasan.png" },
+  { name: "Альмамед", image: "/images/v6/clients/almamed.png" },
+  { name: "Belgee Прагматика", image: "/images/v6/clients/belgee.png" },
+  { name: "Omoda", image: "/images/v6/clients/omoda.png" },
+  { name: "Geely Мотор Ленд", image: "/images/v6/clients/geely.png" },
+  { name: "Nissan Мотор Ленд", image: "/images/v6/clients/nissan.png" },
+  { name: "Проклимат", image: "/images/v6/clients/proclimate.png" },
+  { name: "Полимер", image: "/images/v6/clients/polimer.png" },
+  { name: "Химоптторг", image: "/images/v6/clients/himopttorg.png" },
+  { name: "Вторма", image: "/images/v6/clients/vtorma.png" },
 ] as const;
 
 export const v6Faq = [
@@ -358,7 +345,6 @@ export const v6IndustryPhotoPool = [
 
 export const v6NavIcons: Record<string, string> = {
   "#about": v6Icons.logoMark,
-  "#blog": v6Icons.seoReport,
   "#cases": v6Icons.screenSeo,
   "#services": v6Icons.heroDashboard,
   "#partners": v6Icons.checkPrime,
@@ -428,21 +414,21 @@ export const v6Team = [
   {
     name: "Анна",
     role: "SEO-стратег",
-    photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&q=80&auto=format&fit=crop",
+    photo: "/images/v6/testimonials/t1.jpg",
   },
   {
     name: "Дмитрий",
     role: "Контекст",
-    photo: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=120&q=80&auto=format&fit=crop",
+    photo: "/images/v6/testimonials/t2.jpg",
   },
   {
     name: "Елена",
     role: "Аналитика",
-    photo: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=120&q=80&auto=format&fit=crop",
+    photo: "/images/v6/testimonials/t3.jpg",
   },
   {
     name: "Павел",
     role: "Разработка",
-    photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&q=80&auto=format&fit=crop",
+    photo: "/images/v6/testimonials/t4.jpg",
   },
 ] as const;

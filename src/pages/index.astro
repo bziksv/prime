@@ -9,7 +9,6 @@ import {
   v6ModuleBanners,
   v6ServiceIcons,
   v6PartnerLogos,
-  v6BlogPosts,
   v6IndustriesFeatured,
   v6ClientBrands,
   v6Process,
@@ -21,11 +20,21 @@ import { casesForHome, casePath } from "../data/cases";
 
 const navMain = [
   { label: "О компании", href: "#about" },
-  { label: "Блог", href: "#blog" },
   { label: "Наши кейсы", href: "/keysy/" },
   { label: "Партнерство", href: "/partnerstvo/" },
-  { label: "Контакты", href: "#cta" },
+  { label: "Контакты", href: "/kontakty/" },
 ];
+
+const serviceHrefs: Record<string, string> = {
+  seo: "/prodvizhenie-sayta/",
+  ads: "/kontekstnaya-reklama/",
+  web: "/razrabotka-saytov/",
+  orm: "/upravlenie-reputaciej/",
+  audit: "/audit-sayta/",
+  support: "/tehpodderzhka-sayta/",
+  analytics: "/skvoznaya-analitika/",
+  traffic: "/prodvizhenie-sayta-po-trafiku/",
+};
 
 const services = [
   {
@@ -52,11 +61,6 @@ const services = [
     title: "Аудит сайта",
     desc: "Проверка на требования поисковых систем — находим, что мешает росту в выдаче.",
     cat: "audit",
-  },
-  {
-    title: "Баннерная реклама",
-    desc: "Визуальные креативы: изображение + текст для привлечения внимания аудитории.",
-    cat: "banner",
   },
   {
     title: "Техподдержка сайта",
@@ -90,7 +94,7 @@ const services = [
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
     <meta property="og:image" content={v6Icons.ogCover} />
-    <link rel="preload" as="image" href={v6Photos.heroTeam} />
+    <link rel="preload" as="image" href={v6Photos.heroOffice} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -121,7 +125,9 @@ const services = [
           <details class="v6-nav__group" open>
             <summary>Наши услуги</summary>
             <div class="v6-nav__sub">
-              {services.map((s) => <a href={`#svc-${s.cat}`}>{s.title}</a>)}
+              {services.map((s) => (
+                <a href={serviceHrefs[s.cat] ?? `#svc-${s.cat}`}>{s.title}</a>
+              ))}
             </div>
           </details>
           {
@@ -135,8 +141,8 @@ const services = [
           <a href="tel:+74732030124">+7 (473) 203-01-24</a>
           <a href="mailto:info@prime-ltd.su">info@prime-ltd.su</a>
           <div class="v6-sidebar__social">
-            <a href="https://vk.com/" target="_blank" rel="noopener" aria-label="VK">VK</a>
-            <a href="https://t.me/" target="_blank" rel="noopener" aria-label="Telegram">TG</a>
+            <a href="https://vk.com/primeltd" target="_blank" rel="noopener" aria-label="VK">VK</a>
+            <a href="https://t.me/bziksv" target="_blank" rel="noopener" aria-label="Telegram">TG</a>
           </div>
         </div>
       </aside>
@@ -156,7 +162,7 @@ const services = [
 
         <div class="v6-content">
           <section
-            class="v6-hero v6-hero--media v6-hero--cover"
+            class="v6-hero v6-hero--cover"
             id="about"
             style={`--v6-hero-bg: url(${v6Photos.heroOffice})`}
           >
@@ -193,10 +199,6 @@ const services = [
                 <a href="#cta" class="v6-btn">Бесплатная консультация</a>
                 <a href="#services" class="v6-btn v6-btn--outline">Все услуги</a>
               </div>
-            </div>
-            <div class="v6-hero__visual" aria-hidden="true">
-              <img class="v6-hero__photo" src={v6Photos.heroTeam} alt="" width="340" height="140" />
-              <img class="v6-hero__dash" src={v6Icons.heroDashboard} alt="" width="340" height="200" />
             </div>
           </section>
 
@@ -237,7 +239,29 @@ const services = [
             <div class="v6-services">
               {
                 services.map((s) => (
-                  <a href="#cta" class="v6-service" id={`svc-${s.cat}`}>
+                  <a
+                    href={
+                      s.cat === "seo"
+                        ? "/prodvizhenie-sayta/"
+                        : s.cat === "ads"
+                          ? "/kontekstnaya-reklama/"
+                          : s.cat === "web"
+                            ? "/razrabotka-saytov/"
+                            : s.cat === "orm"
+                              ? "/upravlenie-reputaciej/"
+                              : s.cat === "audit"
+                                ? "/audit-sayta/"
+                                : s.cat === "support"
+                                  ? "/tehpodderzhka-sayta/"
+                                  : s.cat === "analytics"
+                                    ? "/skvoznaya-analitika/"
+                                    : s.cat === "traffic"
+                                      ? "/prodvizhenie-sayta-po-trafiku/"
+                                      : "#cta"
+                    }
+                    class="v6-service"
+                    id={`svc-${s.cat}`}
+                  >
                     <img class="v6-service__cover" src={v6ModuleBanners[s.cat]} alt="" loading="lazy" />
                     <div class="v6-service__body">
                       <img class="v6-service__icon" src={v6ServiceIcons[s.cat]} alt="" width="48" height="40" />
@@ -259,7 +283,7 @@ const services = [
                 по ключевым словам. Платите за фразы, которые реально закрепились
                 в выдаче — без абонентской «воды».
               </p>
-              <a href="#cta" class="v6-btn v6-btn--spaced">Узнать условия</a>
+              <a href="/prodvizhenie-sayta/" class="v6-btn v6-btn--spaced">Узнать условия</a>
             </div>
             <div class="v6-flagship__visual">
               <img src={v6Icons.seoReport} alt="Отчёт по позициям" width="280" height="180" />
@@ -391,27 +415,6 @@ const services = [
             </div>
           </section>
 
-          <section id="blog" class="v6-card">
-            <div class="v6-card-head">
-              <h2>Блог об интернет-маркетинге</h2>
-              <p>Практика SEO, рекламы и аналитики</p>
-            </div>
-            <div class="v6-blog-grid">
-              {
-                v6BlogPosts.map((post) => (
-                  <a href="#" class="v6-blog-card">
-                    <img src={post.image} alt="" loading="lazy" />
-                    <div class="v6-blog-card__body">
-                      <time datetime="2026">{post.date}</time>
-                      <h3>{post.title}</h3>
-                      <p>{post.excerpt}</p>
-                    </div>
-                  </a>
-                ))
-              }
-            </div>
-          </section>
-
           <section id="cta" class="v6-card v6-cta-card">
             <div class="v6-card-head">
               <h2>Оставить заявку</h2>
@@ -422,7 +425,7 @@ const services = [
             </div>
             <div class="v6-cta-layout">
               <div class="v6-cta__visual">
-                <img src={v6Photos.contactOffice} alt="Команда ПРАЙМ" loading="lazy" />
+                <img src={v6Photos.contactOffice} alt="Офис ПРАЙМ" loading="lazy" />
                 <div class="v6-cta__contacts">
                   <a href="tel:+74732030124">+7 (473) 203-01-24</a>
                   <a href="mailto:info@prime-ltd.su">info@prime-ltd.su</a>

@@ -1,0 +1,295 @@
+---
+import "../styles/concept-v6.css";
+import "../styles/concept-v6-media.css";
+import "../styles/audit.css";
+import PortalShell from "../components/PortalShell.astro";
+import CookieConsent from "../components/CookieConsent.astro";
+import CookieFooterNotice from "../components/CookieFooterNotice.astro";
+import { v6Icons } from "../data/v6-media";
+import { legalDocs } from "../data/legal";
+import {
+  auditPain,
+  auditIncludes,
+  auditDeliverables,
+  auditColumns,
+  auditPricing,
+} from "../data/audit-service";
+---
+
+<!doctype html>
+<html lang="ru" data-concept="v6" data-page="audit">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Аудит сайта: Метрика, юзабилити, конкуренты, техника и контент. Бесплатный мини-аудит и комплексный отчёт 30–79 тыс. ₽."
+    />
+    <title>Аудит сайта — ПРАЙМ</title>
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell serviceActive="audit" />
+
+      <div class="v6-main">
+        <header class="v6-topbar">
+          <button id="v6-burger" type="button" class="v6-burger" aria-label="Меню">☰</button>
+          <p class="v6-breadcrumb">
+            <a href="/">Главная</a> · <strong>Аудит сайта</strong>
+          </p>
+          <a href="#audit-cta" class="v6-btn">Оставить заявку</a>
+        </header>
+
+        <div class="v6-content">
+          <section class="u-hero">
+            <div class="u-hero__glow" aria-hidden="true"></div>
+            <div class="u-hero__copy">
+              <p class="u-brand">ПРАЙ<em>М</em></p>
+              <p class="u-kicker">Протокол диагностики · SEO / UX / техника</p>
+              <h1>
+                Находим, что мешает сайту <span>расти в выдаче</span>
+              </h1>
+              <p class="u-hero__lead">
+                Не чек-лист «для галочки» — разбор метрики, поведения, конкурентов
+                и техники. На выходе: текстовый отчёт и видео от специалиста.
+              </p>
+              <div class="u-hero__actions">
+                <a href="#audit-cta" class="u-btn u-btn--primary">Заказать мини-аудит</a>
+                <a href="#protocol" class="u-btn u-btn--ghost">Что проверяем</a>
+              </div>
+            </div>
+
+            <div class="u-hero__board" aria-hidden="true">
+              <div class="u-xray">
+                <div class="u-xray__grid"></div>
+                <div class="u-xray__scan"></div>
+                <div class="u-xray__frame">
+                  <span class="u-xray__bar"></span>
+                  <span class="u-xray__line u-xray__line--a"></span>
+                  <span class="u-xray__line u-xray__line--b"></span>
+                  <span class="u-xray__block u-xray__block--1"></span>
+                  <span class="u-xray__block u-xray__block--2"></span>
+                  <span class="u-xray__block u-xray__block--3"></span>
+                </div>
+                <div class="u-pin u-pin--a">
+                  <i></i>
+                  <span>видимость</span>
+                  <strong>WARN</strong>
+                </div>
+                <div class="u-pin u-pin--b">
+                  <i></i>
+                  <span>конверсия</span>
+                  <strong>CHECK</strong>
+                </div>
+                <div class="u-pin u-pin--c">
+                  <i></i>
+                  <span>техника</span>
+                  <strong>OK</strong>
+                </div>
+                <div class="u-meter">
+                  <span>site health</span>
+                  <strong data-score-num>0</strong>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="u-section u-reveal">
+            <div class="u-section__head">
+              <p class="u-kicker">Сигналы</p>
+              <h2>Когда аудит нужен прямо сейчас</h2>
+              <p>Три маркера, что «просто подождать» уже не сработает.</p>
+            </div>
+            <div class="u-signals">
+              {
+                auditPain.map((p, i) => (
+                  <article class="u-signal">
+                    <span class="u-signal__idx">0{i + 1}</span>
+                    <h3>{p.title}</h3>
+                    <p>{p.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="u-section u-reveal">
+            <div class="u-section__head">
+              <p class="u-kicker">Состав</p>
+              <h2>Что входит в полный аудит</h2>
+              <p>
+                Специалист разбирает показатели именно вашего сайта — не шаблонный
+                отчёт на всех.
+              </p>
+            </div>
+            <ol class="u-steps">
+              {
+                auditIncludes.map((item, i) => (
+                  <li class="u-step">
+                    <span class="u-step__n">{String(i + 1).padStart(2, "0")}</span>
+                    <div>
+                      <h3>{item.title}</h3>
+                      <p>{item.text}</p>
+                    </div>
+                  </li>
+                ))
+              }
+            </ol>
+            <div class="u-deliv">
+              {
+                auditDeliverables.map((d) => (
+                  <article>
+                    <h3>{d.title}</h3>
+                    <p>{d.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="u-section u-reveal" id="protocol">
+            <div class="u-section__head">
+              <p class="u-kicker">Протокол</p>
+              <h2>На что обращает внимание специалист</h2>
+              <p>Примеры того, что держим в голове при работе с любым сайтом.</p>
+            </div>
+
+            <div class="u-protocol" data-protocol>
+              <div class="u-protocol__tabs" role="tablist" aria-label="Разделы аудита">
+                {
+                  auditColumns.map((col, i) => (
+                    <button
+                      type="button"
+                      class:list={["u-protocol__tab", i === 0 && "is-active"]}
+                      role="tab"
+                      aria-selected={i === 0 ? "true" : "false"}
+                      data-tab={col.id}
+                    >
+                      {col.title}
+                    </button>
+                  ))
+                }
+              </div>
+
+              {
+                auditColumns.map((col, i) => (
+                  <div
+                    class:list={["u-protocol__panel", i === 0 && "is-active"]}
+                    role="tabpanel"
+                    data-panel={col.id}
+                  >
+                    <ul class="u-findings">
+                      {col.items.map((item) => (
+                        <li class="u-finding">
+                          <button type="button" class="u-finding__btn" aria-expanded="false">
+                            <span>{item.title}</span>
+                            <em>+</em>
+                          </button>
+                          <div class="u-finding__body">{item.text}</div>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="u-price u-reveal" id="pricing">
+            <article class="u-offer u-offer--free">
+              <p class="u-offer__stamp">0 ₽</p>
+              <h2>{auditPricing.free.title}</h2>
+              <p>{auditPricing.free.text}</p>
+              <p class="u-offer__note">*{auditPricing.free.note}</p>
+              <a href="#audit-cta" class="u-btn u-btn--ghost">Заказать бесплатно</a>
+            </article>
+            <article class="u-offer u-offer--paid">
+              <p class="u-offer__label">Комплексный</p>
+              <h2>{auditPricing.paid.title}</h2>
+              <p class="u-offer__fig">{auditPricing.paid.price}</p>
+              <p>{auditPricing.paid.text}</p>
+              <p class="u-offer__note">{auditPricing.paid.extra}</p>
+              <a href="#audit-cta" class="u-btn u-btn--primary">Заказать комплексный</a>
+            </article>
+          </section>
+
+          <section id="audit-cta" class="u-cta u-reveal">
+            <div class="u-cta__copy">
+              <p class="u-kicker">Заявка</p>
+              <h2>Есть ли у сайта критические проблемы?</h2>
+              <p>
+                Оставьте заявку — сделаем мини-аудит или рассчитаем комплексный
+                разбор. Получите видео с основными рисками и точками роста.
+              </p>
+              <ul class="u-cta__points">
+                <li>Мини-аудит бесплатно — видео с главными рисками</li>
+                <li>Комплексный отчёт: Метрика, UX, конкуренты, техника</li>
+                <li>План приоритетов — что чинить в первую очередь</li>
+              </ul>
+              <div class="u-cta__contacts">
+                <a href="mailto:info@prime-ltd.su">info@prime-ltd.su</a>
+                <a href="tel:+74732030124">+7 (473) 203-01-24</a>
+              </div>
+            </div>
+            <form id="audit-form" class="u-form">
+              <div class="u-form__row">
+                <input type="text" name="name" placeholder="Ваше имя" required />
+                <input type="tel" name="phone" placeholder="Телефон" required />
+              </div>
+              <div class="u-form__row">
+                <input type="url" name="site" placeholder="Адрес сайта" required />
+                <select name="type">
+                  <option value="">Тип аудита</option>
+                  <option>Бесплатный мини-аудит</option>
+                  <option>Комплексный платный</option>
+                  <option>Оценить SEO-подрядчика</option>
+                </select>
+              </div>
+              <textarea
+                name="message"
+                rows="3"
+                placeholder="Что беспокоит: трафик, заявки, позиции?"
+              ></textarea>
+              <label class="u-form__check">
+                <input type="checkbox" name="agree" required />
+                <span>
+                  Согласен на обработку персональных данных в соответствии с нашей{" "}
+                  <a
+                    class="cookie-link"
+                    href={legalDocs.privacy}
+                    target="_blank"
+                    rel="nofollow noopener noreferrer">политикой</a
+                  >.
+                </span>
+              </label>
+              <button type="submit" class="u-btn u-btn--primary">Отправить заявку</button>
+              <p id="audit-form-hint" class="u-form-hint" hidden></p>
+            </form>
+          </section>
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>ПРАЙМ</strong>
+            <p>Аудит сайта · диагностика · точки роста</p>
+          </div>
+          <p>© 2015–{new Date().getFullYear()} ПРАЙМ</p>
+          <CookieFooterNotice />
+        </footer>
+      </div>
+    </div>
+
+    <CookieConsent />
+    <script>
+      import "../scripts/audit.ts";
+    </script>
+  </body>
+</html>

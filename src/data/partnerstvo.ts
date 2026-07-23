@@ -73,16 +73,66 @@ export const partnerStats = [
 ] as const;
 
 export const partnerCases = [
-  { name: "Кузовной", tag: "Авто" },
-  { name: "Вторма", tag: "Промышленность" },
-  { name: "Кабельмонтаж", tag: "B2B" },
-  { name: "Фортуна", tag: "Услуги" },
-  { name: "Светлячок", tag: "Ритейл" },
-  { name: "Химоптторг", tag: "Поставки" },
-  { name: "Аргумент", tag: "Юристы" },
-  { name: "Сказка", tag: "Дети" },
-  { name: "Барокко", tag: "Красота" },
-  { name: "Моторленд", tag: "Авто" },
+  {
+    name: "Кузовной",
+    tag: "Автосервис",
+    image: "/images/v6/partner-cases/kuzovnoy.jpg",
+    href: "/keysy/seo/motorland-kuzov/",
+  },
+  {
+    name: "Вторма",
+    tag: "Вторсырьё",
+    image: "/images/v6/partner-cases/vtorma.jpg",
+    href: "/keysy/seo/vtorma/",
+  },
+  {
+    name: "Кабельмонтаж",
+    tag: "Электромонтаж",
+    image: "/images/v6/partner-cases/kabelmontazh.jpg",
+    href: "/keysy/seo/kabelmontazh/",
+  },
+  {
+    name: "Фортуна",
+    tag: "Автосервис",
+    image: "/images/v6/partner-cases/fortuna.jpg",
+    href: "/keysy/ads/fortuna-avto/",
+  },
+  {
+    name: "Светлячок",
+    tag: "Детский центр",
+    image: "/images/v6/partner-cases/svetlyachok.jpg",
+    href: "/keysy/seo/det-zentr/",
+  },
+  {
+    name: "Химоптторг",
+    tag: "Химия",
+    image: "/images/v6/partner-cases/himopttorg.jpg",
+    href: "/keysy/seo/himopttorg/",
+  },
+  {
+    name: "Аргумент",
+    tag: "Юристы",
+    image: "/images/v6/partner-cases/argument.jpg",
+    href: "/keysy/web/argument/",
+  },
+  {
+    name: "Сказка",
+    tag: "Кондитерская",
+    image: "/images/v6/partner-cases/skazka.jpg",
+    href: "/keysy/seo/skazka/",
+  },
+  {
+    name: "Барокко",
+    tag: "Шторы",
+    image: "/images/v6/partner-cases/barokko.jpg",
+    href: "/keysy/seo/barokko/",
+  },
+  {
+    name: "Моторленд",
+    tag: "Автосалон",
+    image: "/images/v6/partner-cases/motorland.jpg",
+    href: "/keysy/seo/motorland-kuzov/",
+  },
 ] as const;
 
 export const partnerWhy = [

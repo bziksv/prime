@@ -26,7 +26,28 @@ if (!item) {
 
 const cat = getCategory(item.category)!;
 const related = getRelatedCases(item);
-const rich = Boolean(item.intro || item.pains?.length || item.gallery?.length || item.sections?.length);
+const hasStory = Boolean(
+  item.painLead ||
+    item.pains?.length ||
+    item.plainSpeak?.length ||
+    item.sections?.length ||
+    item.journeyLead,
+);
+const serviceLine = [cat.title, ...item.services].join(" · ");
+const painText = item.painLead || item.challenge;
+const journeyText =
+  item.journeyLead ||
+  "Вот как мы провели клиента от боли до рабочего результата — без воды и «магии».";
+const outcomeText =
+  item.outcomeLead ||
+  "В конце пути — измеримый результат и понятные следующие шаги.";
+
+let chapter = 1;
+const nPain = String(chapter++).padStart(2, "0");
+const nJourney = String(chapter++).padStart(2, "0");
+const nPlain = item.plainSpeak?.length ? String(chapter++).padStart(2, "0") : null;
+const nSteps = item.sections?.length ? String(chapter++).padStart(2, "0") : null;
+const nOutcome = String(chapter++).padStart(2, "0");
 ---
 
 <CasesLayout
@@ -39,282 +60,353 @@ const rich = Boolean(item.intro || item.pains?.length || item.gallery?.length ||
     { label: item.client },
   ]}
 >
-  <section class="k-detail-hero" style={`--k-accent:${cat.accent}`}>
-    <div class="k-detail-hero__bg">
-      <img src={item.cover} alt={item.coverAlt} />
-    </div>
-    <div class="k-detail-hero__shade" aria-hidden="true"></div>
-    <div class="k-detail-hero__inner">
-      <div class="k-tags">
-        <span class="k-tag">{cat.title}</span>
-        {item.services.map((s) => <span class="k-tag">{s}</span>)}
+  <article class="k-case k-case--story" style={`--k-accent:${cat.accent}`}>
+    <header class="k-case-head k-case-head--visual k-reveal">
+      <div class="k-case-head__copy">
+        <p class="k-case-head__line">{serviceLine}</p>
+        <h1>{item.title}</h1>
+        <p class="k-case-head__lead">{item.summary}</p>
+        <div class="k-case-head__bar">
+          <p class="k-case-head__metric">
+            <strong>{item.metric}</strong>
+            <span>{item.metricLabel}</span>
+          </p>
+          <ul class="k-case-head__meta">
+            <li>
+              <span>Клиент</span>
+              <strong>{item.client}</strong>
+            </li>
+            <li>
+              <span>Отрасль</span>
+              <strong>{item.industry}</strong>
+            </li>
+            <li>
+              <span>Срок</span>
+              <strong>{item.period}</strong>
+            </li>
+            {
+              item.siteUrl && (
+                <li>
+                  <span>Сайт</span>
+                  <strong>
+                    <a href={item.siteUrl} target="_blank" rel="noopener">
+                      {item.siteUrl.replace(/^https?:\/\//, "")}
+                    </a>
+                  </strong>
+                </li>
+              )
+            }
+          </ul>
+        </div>
       </div>
-      <h1>{item.title}</h1>
-      <p class="k-detail-metric">
-        <strong>{item.metric}</strong>
-        <span>{item.metricLabel}</span>
-      </p>
-      <div class="k-detail-hero__meta">
-        <span><strong>{item.client}</strong> · {item.industry}</span>
-        <span>{item.location}</span>
-        <span>{item.period}</span>
+      <figure class="k-case-head__visual">
+        <button
+          type="button"
+          class="k-zoom k-case-head__frame"
+          data-lightbox
+          data-src={item.cover}
+          data-alt={item.coverAlt}
+          data-caption={item.coverAlt}
+          aria-label={`Увеличить: ${item.coverAlt}`}
+        >
+          <span class="k-frame__chrome" aria-hidden="true">
+            <i></i><i></i><i></i>
+          </span>
+          <span class="k-case-head__shot">
+            <img src={item.cover} alt={item.coverAlt} />
+          </span>
+        </button>
+        <figcaption>{item.siteUrl ? "Актуальный вид" : item.coverAlt}</figcaption>
+      </figure>
+    </header>
+
+    {
+      item.intro && (
+        <section class="k-story-band k-reveal">
+          <p class="k-story-kicker">О клиенте</p>
+          <p class="k-story-lead">{item.intro}</p>
+        </section>
+      )
+    }
+
+    {/* 01 — Боль */}
+    <section class="k-story k-reveal" aria-labelledby="story-pain">
+      <div class="k-story__head">
+        <span class="k-story__n">{nPain}</span>
+        <div>
+          <h2 id="story-pain">С какой болью пришли</h2>
+          <p>{painText}</p>
+        </div>
+      </div>
+
+      <div class:list={["k-split", !item.before && !item.cover && "k-split--solo"]}>
+        <div class="k-split__copy">
+          {
+            item.pains && item.pains.length > 0 ? (
+              <ol class="k-pain-list">
+                {item.pains.map((p) => (
+                  <li>
+                    <h3>{p.title}</h3>
+                    <p>{p.text}</p>
+                  </li>
+                ))}
+              </ol>
+            ) : (
+              <p class="k-story-body">{item.challenge}</p>
+            )
+          }
+        </div>
         {
-          item.siteUrl && (
-            <a class="k-detail-hero__site" href={item.siteUrl} target="_blank" rel="noopener">
-              {item.siteUrl.replace(/^https?:\/\//, "")} ↗
-            </a>
+          (item.before || item.cover) && (
+            <figure class="k-split__media">
+              <button
+                type="button"
+                class="k-zoom k-frame"
+                data-lightbox
+                data-src={item.before?.src ?? item.cover}
+                data-alt={item.before?.alt ?? item.coverAlt}
+                data-caption={item.before?.caption ?? item.coverAlt}
+                aria-label={`Увеличить: ${item.before?.alt ?? item.coverAlt}`}
+              >
+                <span class="k-frame__chrome" aria-hidden="true">
+                  <i></i><i></i><i></i>
+                </span>
+                <img
+                  src={item.before?.src ?? item.cover}
+                  alt={item.before?.alt ?? item.coverAlt}
+                />
+              </button>
+              <figcaption>{item.before?.caption ?? "Точка старта"}</figcaption>
+            </figure>
           )
         }
       </div>
-    </div>
-  </section>
+    </section>
 
-  {
-    item.intro && (
-      <section class="k-panel k-intro k-reveal">
-        <p class="k-kicker" style="color:var(--text-muted)">О клиенте</p>
-        <p class="k-intro__text">{item.intro}</p>
-      </section>
-    )
-  }
+    {/* 02 — Путь */}
+    <section class="k-story k-reveal" aria-labelledby="story-journey">
+      <div class="k-story__head">
+        <span class="k-story__n">{nJourney}</span>
+        <div>
+          <h2 id="story-journey">Как мы провели</h2>
+          <p>{journeyText}</p>
+        </div>
+      </div>
+      <ol class="k-journey">
+        {
+          item.approach.map((step, i) => (
+            <li>
+              <span class="k-journey__n">{String(i + 1).padStart(2, "0")}</span>
+              <p>{step}</p>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
 
-  {
-    item.pains && item.pains.length > 0 && (
-      <section class="k-panel k-reveal">
-        <div class="k-panel__head">
-          <h2>Что было на входе</h2>
-          <p>{item.challenge}</p>
-        </div>
-        <div class="k-pains">
-          {item.pains.map((p, i) => (
-            <article class="k-pain" style={`--k-accent:${cat.accent}`}>
-              <span class="k-pain__n">{String(i + 1).padStart(2, "0")}</span>
-              <h3>{p.title}</h3>
-              <p>{p.text}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-    )
-  }
-
-  {
-    item.gallery && item.gallery.length > 0 && (
-      <section class="k-panel k-reveal">
-        <div class="k-panel__head">
-          <h2>Как выглядит результат</h2>
-          <p>Экраны с боевого проекта</p>
-        </div>
-        <div class="k-gallery">
-          {item.gallery.map((g, i) => (
-            <figure class:list={["k-gallery__item", i === 0 && "k-gallery__item--lead"]}>
-              <button
-                type="button"
-                class="k-zoom"
-                data-lightbox
-                data-src={g.src}
-                data-alt={g.alt}
-                data-caption={g.caption ?? g.alt}
-                aria-label={`Увеличить: ${g.alt}`}
-              >
-                <img src={g.src} alt={g.alt} loading="lazy" />
-                <span class="k-zoom__hint" aria-hidden="true">⛶</span>
-              </button>
-              {g.caption && <figcaption>{g.caption}</figcaption>}
-            </figure>
-          ))}
-        </div>
-      </section>
-    )
-  }
-
-  {
-    item.sections && item.sections.length > 0 ? (
-      <section class="k-story k-reveal">
-        <div class="k-panel__head" style="padding:0 0 1rem">
-          <h2>Подробнее об изменениях</h2>
-          <p>Как собирали решение шаг за шагом</p>
-        </div>
-        {item.sections.map((s, i) => (
-          <article class:list={["k-story__row", i % 2 === 1 && "k-story__row--flip"]}>
-            <div class="k-story__copy">
-              <span class="k-story__n" style={`--k-accent:${cat.accent}`}>
-                {String(i + 1).padStart(2, "0")}
-              </span>
-              <h3>{s.title}</h3>
-              <p>{s.body}</p>
+    {/* 03 — Простыми словами */}
+    {
+      item.plainSpeak && item.plainSpeak.length > 0 && (
+        <section class="k-story k-reveal" aria-labelledby="story-plain">
+          <div class="k-story__head">
+            <span class="k-story__n">{nPlain}</span>
+            <div>
+              <h2 id="story-plain">Простыми словами</h2>
+              <p>
+                Сложные штуки из брифа — без жаргона. Так мы объясняли клиенту, зачем каждый шаг.
+              </p>
             </div>
-            {s.image && (
-              <div class="k-story__media">
+          </div>
+          <div class="k-plain-grid">
+            {item.plainSpeak.map((row) => (
+              <article class="k-plain">
+                <div class="k-plain__side k-plain__side--tech">
+                  <span class="k-plain__label">Как говорят специалисты</span>
+                  <p>{row.jargon}</p>
+                </div>
+                <div class="k-plain__side k-plain__side--human">
+                  <span class="k-plain__label">Как мы объясняли</span>
+                  <p>{row.plain}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    {/* 04 — Шаги с экранами */}
+    {
+      item.sections && item.sections.length > 0 ? (
+        <section class="k-story k-reveal" aria-labelledby="story-steps">
+          <div class="k-story__head">
+            <span class="k-story__n">{nSteps}</span>
+            <div>
+              <h2 id="story-steps">Что сделали по шагам</h2>
+              <p>Каждый шаг — конкретное изменение. Слева смысл, справа экран.</p>
+            </div>
+          </div>
+          <div class="k-chapters">
+            {item.sections.map((s, i) => (
+              <article class:list={["k-chapter", i % 2 === 1 && "k-chapter--flip"]}>
+                <div class="k-chapter__copy">
+                  <span class="k-chapter__n">{String(i + 1).padStart(2, "0")}</span>
+                  <h3>{s.title}</h3>
+                  <p>{s.body}</p>
+                </div>
+                {s.image && (
+                  <figure
+                    class:list={[
+                      "k-chapter__media",
+                      s.fit === "contain" && "k-chapter__media--contain",
+                    ]}
+                  >
+                    <button
+                      type="button"
+                      class="k-zoom k-frame"
+                      data-lightbox
+                      data-src={s.image}
+                      data-alt={s.title}
+                      data-caption={s.title}
+                      aria-label={`Увеличить: ${s.title}`}
+                    >
+                      <span class="k-frame__chrome" aria-hidden="true">
+                        <i></i><i></i><i></i>
+                      </span>
+                      <img src={s.image} alt={s.title} loading="lazy" />
+                    </button>
+                  </figure>
+                )}
+              </article>
+            ))}
+          </div>
+        </section>
+      ) : (
+        !hasStory &&
+        item.cover && (
+          <figure class="k-case-cover k-reveal">
+            <button
+              type="button"
+              class="k-zoom"
+              data-lightbox
+              data-src={item.cover}
+              data-alt={item.coverAlt}
+              data-caption={item.coverAlt}
+              aria-label={`Увеличить: ${item.coverAlt}`}
+            >
+              <img src={item.cover} alt={item.coverAlt} />
+            </button>
+            <figcaption>{item.coverAlt}</figcaption>
+          </figure>
+        )
+      )
+    }
+
+    {/* Доказательства — коротко, не свалка */}
+    {
+      item.gallery && item.gallery.length > 0 && (
+        <section class="k-story k-story--evidence k-reveal" aria-labelledby="story-proof">
+          <div class="k-story__head">
+            <span class="k-story__n">·</span>
+            <div>
+              <h2 id="story-proof">Ещё кадры с проекта</h2>
+              <p>Не галерея ради галереи — пара экранов, которые закрывают картину.</p>
+            </div>
+          </div>
+          <div class="k-proof">
+            {item.gallery.slice(0, 4).map((g) => (
+              <figure class:list={["k-proof__item", g.fit === "contain" && "k-proof__item--contain"]}>
                 <button
                   type="button"
-                  class="k-zoom"
+                  class="k-zoom k-frame"
                   data-lightbox
-                  data-src={s.image}
-                  data-alt={s.title}
-                  data-caption={s.title}
-                  aria-label={`Увеличить: ${s.title}`}
+                  data-src={g.src}
+                  data-alt={g.alt}
+                  data-caption={g.caption ?? g.alt}
+                  aria-label={`Открыть: ${g.alt}`}
                 >
-                  <img src={s.image} alt={s.title} loading="lazy" />
-                  <span class="k-zoom__hint" aria-hidden="true">⛶</span>
-                </button>
-              </div>
-            )}
-          </article>
-        ))}
-      </section>
-    ) : (
-      <div class="k-layout">
-        <section class="k-panel k-reveal">
-          <div class="k-block">
-            <h2>Задача</h2>
-            <p>{item.challenge}</p>
-          </div>
-          <div class="k-block">
-            <h2>Как решали</h2>
-            <ol class="k-steps">
-              {item.approach.map((step, i) => (
-                <li>
-                  <span class="k-steps__n" style={`--k-accent:${cat.accent}`}>
-                    {String(i + 1).padStart(2, "0")}
+                  <span class="k-frame__chrome" aria-hidden="true">
+                    <i></i><i></i><i></i>
                   </span>
-                  <span>{step}</span>
-                </li>
-              ))}
-            </ol>
+                  <img src={g.src} alt={g.alt} loading="lazy" />
+                </button>
+                {(g.caption || g.alt) && <figcaption>{g.caption ?? g.alt}</figcaption>}
+              </figure>
+            ))}
           </div>
-          {item.quote && (
-            <div class="k-block">
-              <blockquote class="k-quote">
-                <p>«{item.quote.text}»</p>
-                <footer>
-                  <strong>{item.quote.author}</strong> — {item.quote.role}
-                </footer>
-              </blockquote>
-            </div>
-          )}
         </section>
-        <aside class="k-aside k-reveal">
-          <div class="k-panel" style="margin:0">
-            <div class="k-block" style="margin:0;padding:0;border:0">
-              <h2>Результат</h2>
-              <div class="k-kpi">
-                {item.results.map((r) => (
-                  <div class="k-kpi__item">
-                    <strong>{r.value}</strong>
-                    <span>{r.label}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </aside>
-      </div>
-    )
-  }
+      )
+    }
 
-  {
-    rich && (
-      <div class="k-layout k-reveal">
-        <section class="k-panel" style="margin:0">
-          {item.highlights && item.highlights.length > 0 && (
-            <div class="k-block" style="margin:0;padding:0;border:0">
-              <h2>Что получили</h2>
-              <ul class="k-checks">
+    {/* Итог */}
+    <section class="k-story k-story--outcome k-reveal" aria-labelledby="story-outcome">
+      <div class="k-story__head">
+        <span class="k-story__n">{nOutcome}</span>
+        <div>
+          <h2 id="story-outcome">К чему пришли</h2>
+          <p>{outcomeText}</p>
+        </div>
+      </div>
+
+      <div class="k-outcome">
+        {
+          item.highlights && item.highlights.length > 0 && (
+            <div>
+              <h3>Что получили</h3>
+              <ul class="k-case-checks">
                 {item.highlights.map((h) => (
-                  <li>
-                    <span class="k-checks__mark" style={`--k-accent:${cat.accent}`} aria-hidden="true">
-                      ✓
-                    </span>
-                    <span>{h}</span>
-                  </li>
+                  <li>{h}</li>
                 ))}
               </ul>
             </div>
-          )}
-          {item.quote && (
-            <div class="k-block">
-              <blockquote class="k-quote">
+          )
+        }
+        <div>
+          <h3>В цифрах</h3>
+          <div class="k-case-kpi">
+            {item.results.map((r) => (
+              <div>
+                <strong>{r.value}</strong>
+                <span>{r.label}</span>
+              </div>
+            ))}
+          </div>
+          {
+            item.quote && (
+              <blockquote class="k-case-quote">
                 <p>«{item.quote.text}»</p>
                 <footer>
                   <strong>{item.quote.author}</strong> — {item.quote.role}
                 </footer>
               </blockquote>
-            </div>
-          )}
-        </section>
-        <aside class="k-aside">
-          <div class="k-panel" style="margin:0">
-            <div class="k-block" style="margin:0;padding:0;border:0">
-              <h2>В цифрах</h2>
-              <div class="k-kpi">
-                {item.results.map((r) => (
-                  <div class="k-kpi__item">
-                    <strong>{r.value}</strong>
-                    <span>{r.label}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div class="k-block">
-              <div class="k-meta-card">
-                <dl>
-                  <div>
-                    <dt>Клиент</dt>
-                    <dd>{item.client}</dd>
-                  </div>
-                  <div>
-                    <dt>Отрасль</dt>
-                    <dd>{item.industry}</dd>
-                  </div>
-                  <div>
-                    <dt>Локация</dt>
-                    <dd>{item.location}</dd>
-                  </div>
-                  <div>
-                    <dt>Срок</dt>
-                    <dd>{item.period}</dd>
-                  </div>
-                  {item.siteUrl && (
-                    <div>
-                      <dt>Сайт</dt>
-                      <dd>
-                        <a href={item.siteUrl} target="_blank" rel="noopener">
-                          {item.siteUrl.replace(/^https?:\/\//, "")}
-                        </a>
-                      </dd>
-                    </div>
-                  )}
-                </dl>
-              </div>
-            </div>
-          </div>
-        </aside>
-      </div>
-    )
-  }
-
-  <section class="k-cta k-reveal">
-    <h2>{item.ctaTitle ?? "Нужен такой же результат?"}</h2>
-    <p>
-      {item.ctaText ??
-        "С 2015 на рынке: за 10+ лет немало агентств закрылось — мы на месте. Разберём нишу за 30 минут и подскажем формат: SEO, Директ или сайт."}
-    </p>
-    <div class="k-cta__actions">
-      <a class="k-btn k-btn--primary" href="/#cta">Оставить заявку</a>
-      <a class="k-btn k-btn--ghost" href={categoryPath(cat.id)}>Ещё {cat.short}</a>
-    </div>
-  </section>
-
-  {
-    related.length > 0 && (
-      <section class="k-panel k-reveal">
-        <div class="k-panel__head">
-          <h2>Другие проекты</h2>
-          <p>Похожие кейсы и соседние направления</p>
+            )
+          }
         </div>
-        <CaseGrid cases={related} />
-      </section>
-    )
-  }
+      </div>
+    </section>
+
+    <section class="k-case-cta k-reveal">
+      <h2>{item.ctaTitle ?? "Нужен такой же результат?"}</h2>
+      <p>
+        {item.ctaText ??
+          "С 2015 на рынке: за 10+ лет немало агентств закрылось — мы на месте. Разберём нишу за 30 минут и подскажем формат: SEO, Директ или сайт."}
+      </p>
+      <div class="k-case-cta__actions">
+        <a class="k-btn k-btn--primary" href="/kontakty/">Оставить заявку</a>
+        <a class="k-btn k-btn--ghost" href={categoryPath(cat.id)}>Ещё {cat.short}</a>
+      </div>
+    </section>
+
+    {
+      related.length > 0 && (
+        <section class="k-case-block k-reveal">
+          <header class="k-case-block__head">
+            <h2>Другие проекты</h2>
+            <p>Похожие кейсы и соседние направления</p>
+          </header>
+          <CaseGrid cases={related} />
+        </section>
+      )
+    }
+  </article>
 </CasesLayout>
