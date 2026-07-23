@@ -10,10 +10,13 @@ import { legalDocs } from "../data/legal";
 import {
   supportWhy,
   supportServices,
+  supportServiceGroups,
   supportRoles,
   supportTariffs,
   supportPerks,
 } from "../data/support-service";
+
+const maxTariffHours = Math.max(...supportTariffs.map((t) => t.hours));
 ---
 
 <!doctype html>
@@ -50,9 +53,40 @@ import {
         </header>
 
         <div class="v6-content">
-          <section class="p-hero">
+          <section class="p-hero" data-support-hero>
             <div class="p-hero__bg" aria-hidden="true" data-parallax-support-bg></div>
             <div class="p-hero__veil" aria-hidden="true"></div>
+
+            <div class="p-hero__diagrams" aria-hidden="true">
+              <svg class="p-pulse-wave" viewBox="0 0 800 120" preserveAspectRatio="none">
+                <path
+                  class="p-pulse-wave__track"
+                  d="M0 60 H120 L140 60 L155 18 L175 102 L195 60 H320 L340 60 L355 28 L375 92 L395 60 H520 L540 60 L555 22 L575 98 L595 60 H720 L740 60 L755 30 L775 90 L795 60 H800"
+                  fill="none"
+                />
+                <path
+                  class="p-pulse-wave__draw"
+                  d="M0 60 H120 L140 60 L155 18 L175 102 L195 60 H320 L340 60 L355 28 L375 92 L395 60 H520 L540 60 L555 22 L575 98 L595 60 H720 L740 60 L755 30 L775 90 L795 60 H800"
+                  fill="none"
+                />
+              </svg>
+
+              <div class="p-diag p-diag--bars" data-parallax-depth="0.35">
+                <span style="--h:42%"></span>
+                <span style="--h:68%"></span>
+                <span style="--h:54%"></span>
+                <span style="--h:86%"></span>
+                <span style="--h:62%"></span>
+              </div>
+              <div class="p-diag p-diag--donut" data-parallax-depth="0.55">
+                <i></i>
+              </div>
+              <div class="p-diag p-diag--radar" data-parallax-depth="0.25">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
 
             <div class="p-hero__copy">
               <p class="p-brand">ПРАЙ<em>М</em></p>
@@ -69,30 +103,46 @@ import {
               </div>
             </div>
 
-            <div class="p-hero__ops" aria-hidden="true">
+            <div class="p-hero__ops" data-support-ops>
               <div class="p-status">
                 <span class="p-status__pulse"></span>
                 <div>
-                  <strong>UPTIME · OK</strong>
-                  <span>сайт на сопровождении</span>
+                  <strong data-uptime-label>UPTIME · OK</strong>
+                  <span>сайт на сопровождении · <em data-uptime-clock>99.98%</em></span>
                 </div>
               </div>
+
+              <div class="p-spark" aria-hidden="true">
+                <svg viewBox="0 0 240 56" preserveAspectRatio="none" data-spark>
+                  <polyline
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    points="0,40 20,36 40,42 60,28 80,32 100,18 120,24 140,14 160,22 180,12 200,20 220,10 240,16"
+                  ></polyline>
+                </svg>
+                <div class="p-spark__meta">
+                  <span>latency</span>
+                  <strong data-latency>42 ms</strong>
+                </div>
+              </div>
+
               <div class="p-meters" data-support-meters>
-                <div class="p-meter">
+                <div class="p-meter" data-meter="96">
                   <div class="p-meter__top">
                     <span>availability</span>
                     <em>99.9%</em>
                   </div>
                   <div class="p-meter__bar"><i></i></div>
                 </div>
-                <div class="p-meter">
+                <div class="p-meter" data-meter="78">
                   <div class="p-meter__top">
                     <span>hours pool</span>
                     <em>ready</em>
                   </div>
                   <div class="p-meter__bar"><i></i></div>
                 </div>
-                <div class="p-meter">
+                <div class="p-meter" data-meter="64">
                   <div class="p-meter__top">
                     <span>tasks / week</span>
                     <em>steady</em>
@@ -107,17 +157,30 @@ import {
             <div class="p-section__head">
               <h2>Почему выгоднее отдать сайт в профильную команду</h2>
               <p>
-                Найм «своих» часто дороже и медленнее — особенно когда нет опыта
-                контролировать IT-работы.
+                Наведите на карточку — сравните «штат» и поддержку на шкале затрат и сроков.
               </p>
             </div>
-            <div class="p-why">
+            <div class="p-why" data-why>
               {
                 supportWhy.map((item, i) => (
-                  <article>
+                  <article class="p-why__card" data-why-card tabindex="0">
                     <span class="p-why__n">0{i + 1}</span>
                     <h3>{item.title}</h3>
                     <p>{item.text}</p>
+                    <div class="p-why__chart" aria-hidden="true">
+                      <div class="p-why__row">
+                        <span>{item.staffLabel}</span>
+                        <div class="p-why__bar p-why__bar--staff">
+                          <i style={`--w:${item.staff}%`} />
+                        </div>
+                      </div>
+                      <div class="p-why__row">
+                        <span>{item.supportLabel}</span>
+                        <div class="p-why__bar p-why__bar--ok">
+                          <i style={`--w:${item.support}%`} />
+                        </div>
+                      </div>
+                    </div>
                   </article>
                 ))
               }
@@ -127,29 +190,81 @@ import {
           <section class="p-section p-reveal">
             <div class="p-section__head">
               <h2>Что входит в поддержку</h2>
-              <p>От мелких правок до переноса CMS и ускорения — в рамках часов тарифа.</p>
+              <p>Фильтруйте по типу работ — от мелких правок до переноса CMS и ускорения.</p>
             </div>
-            <div class="p-services">
-              {supportServices.map((s) => <div class="p-service">{s}</div>)}
+            <div class="p-service-filters" data-service-filters role="tablist" aria-label="Тип работ">
+              {
+                supportServiceGroups.map((g, i) => (
+                  <button
+                    type="button"
+                    class:list={["p-service-filter", i === 0 && "is-active"]}
+                    role="tab"
+                    aria-selected={i === 0 ? "true" : "false"}
+                    data-filter={g.id}
+                  >
+                    {g.label}
+                  </button>
+                ))
+              }
             </div>
+            <div class="p-services" data-services>
+              {
+                supportServices.map((s) => (
+                  <button
+                    type="button"
+                    class="p-service"
+                    data-group={s.group}
+                    data-service
+                  >
+                    <span class="p-service__dot" aria-hidden="true" />
+                    <span>{s.text}</span>
+                  </button>
+                ))
+              }
+            </div>
+            <p class="p-services__hint" data-services-hint>
+              Фильтр: <strong>все направления</strong>
+            </p>
           </section>
 
-          <div class="p-perks p-reveal">
+          <div class="p-perks p-reveal" data-perks>
             {
               supportPerks.map((perk) => (
-                <article class="p-perk">
+                <article class="p-perk" data-perk={perk.id} tabindex="0">
+                  <div class="p-perk__metric">
+                    <strong>{perk.metric}</strong>
+                    <span>{perk.metricLabel}</span>
+                  </div>
                   <h3>{perk.title}</h3>
                   <p>{perk.text}</p>
+                  <div class="p-perk__viz" aria-hidden="true">
+                    {perk.id === "pm" && <div class="p-perk__ring" />}
+                    {perk.id === "monitor" && (
+                      <svg class="p-perk__wave" viewBox="0 0 120 28">
+                        <path
+                          d="M0 14 H20 L28 6 L36 22 L44 14 H70 L78 8 L86 20 L94 14 H120"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                        />
+                      </svg>
+                    )}
+                    {perk.id === "pool" && (
+                      <div class="p-perk__stack">
+                        <span /><span /><span /><span />
+                      </div>
+                    )}
+                  </div>
                 </article>
               ))
             }
           </div>
 
-          <section class="p-section p-reveal" id="tariffs">
+          <section class="p-section p-reveal" id="tariffs" data-tariffs>
             <div class="p-section__head">
               <h2>Тарифные планы</h2>
               <p>
-                В каждый тариф входят часы работы специалистов:
+                Выберите объём часов — шкала покажет пул. В каждый тариф входят:
                 {supportRoles.map((r, i) => (
                   <>
                     {i === 0 ? " " : i === supportRoles.length - 1 ? " и " : ", "}
@@ -159,25 +274,58 @@ import {
                 .
               </p>
             </div>
+
+            <div class="p-hours" data-hours-gauge aria-hidden="true">
+              <div class="p-hours__top">
+                <span>Пул часов / месяц</span>
+                <strong data-hours-value>10 ч</strong>
+              </div>
+              <div class="p-hours__track">
+                <i data-hours-fill style={`--p:${(10 / maxTariffHours) * 100}%`} />
+              </div>
+              <div class="p-hours__marks">
+                {supportTariffs.map((t) => (
+                  <span>{t.hours}</span>
+                ))}
+              </div>
+            </div>
+
             <div class="p-tariffs">
               {
                 supportTariffs.map((t) => (
                   <article
-                    class:list={["p-tariff", t.featured && "p-tariff--featured"]}
+                    class:list={[
+                      "p-tariff",
+                      t.featured && "p-tariff--featured",
+                      t.featured && "is-selected",
+                    ]}
+                    data-tariff={t.id}
+                    data-hours={t.hours}
+                    data-price={t.price}
+                    data-name={t.name}
+                    tabindex="0"
+                    role="button"
+                    aria-pressed={t.featured ? "true" : "false"}
                   >
                     {t.featured && <span class="p-tariff__badge">Хит</span>}
                     <h3 class="p-tariff__name">{t.name}</h3>
                     <p class="p-tariff__price">{t.price}</p>
                     <p class="p-tariff__hours">
-                      {t.hours} {t.hours === 3 ? "часа" : "часов"} / месяц
+                      {t.hours} {t.hours === 3 ? "часа" : "часов"} / месяц · {t.rate}
                     </p>
-                    <p>PM + мониторинг сайта в каждом тарифе</p>
+                    <p class="p-tariff__fit">{t.fit}</p>
                     <div class="p-tariff__roles">
                       {supportRoles.map((r) => (
                         <span>{r}</span>
                       ))}
                     </div>
-                    <a href="#support-cta" class="p-btn p-btn--line">Оставить заявку</a>
+                    <a
+                      href="#support-cta"
+                      class="p-btn p-btn--line"
+                      data-tariff-cta
+                    >
+                      Выбрать {t.name}
+                    </a>
                   </article>
                 ))
               }
@@ -191,6 +339,9 @@ import {
                 Перезвоним и проконсультируем по тарифу: подберём объём часов под
                 ваши задачи — без раздувания штата.
               </p>
+              <div class="p-cta__pick" data-cta-pick>
+                Выбран тариф: <strong>Т-10 · 21 500 ₽</strong>
+              </div>
               <div class="p-cta__contacts">
                 <a href="mailto:info@prime-ltd.su">info@prime-ltd.su</a>
                 <a href="tel:+74732030124">+7 (473) 203-01-24</a>
@@ -200,10 +351,16 @@ import {
               <input type="text" name="name" placeholder="Ваше имя" required />
               <input type="tel" name="phone" placeholder="Телефон" required />
               <input type="url" name="site" placeholder="Адрес сайта" />
-              <select name="tariff">
-                <option value="">Интересующий тариф</option>
-                {supportTariffs.map((t) => <option>{t.name} · {t.price}</option>)}
-                <option>Не знаю — нужна консультация</option>
+              <select name="tariff" data-tariff-select required>
+                <option value="" disabled>Интересующий тариф</option>
+                {
+                  supportTariffs.map((t) => (
+                    <option value={t.id} selected={t.featured}>
+                      {t.name} · {t.price}
+                    </option>
+                  ))
+                }
+                <option value="consult">Не знаю — нужна консультация</option>
               </select>
               <textarea
                 name="message"

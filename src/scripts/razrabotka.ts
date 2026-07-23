@@ -46,14 +46,18 @@ if (specs) {
     (entries) => {
       entries.forEach((e) => {
         if (!e.isIntersecting) return;
-        countEls.forEach((el) => {
+        specs.dataset.counted = "1";
+        countEls.forEach((el, i) => {
           const to = Number(el.dataset.count || "0");
-          animateCount(el, to, 1100);
+          window.setTimeout(
+            () => animateCount(el, to, 1100),
+            reduceMotion ? 0 : i * 90,
+          );
         });
         specsObs.unobserve(specs);
       });
     },
-    { threshold: 0.35 },
+    { threshold: 0.28 },
   );
   specsObs.observe(specs);
 }
@@ -146,8 +150,140 @@ window.addEventListener(
   "pagehide",
   () => {
     cancelAnimationFrame(liveRaf);
+    cancelAnimationFrame(speedRaf);
   },
   { once: true },
 );
 
+/* —— Speed block parallax (−60%) —— */
+const speed = document.querySelector<HTMLElement>("[data-speed-parallax]");
+const speedMesh = document.querySelector<HTMLElement>("[data-speed-mesh]");
+const speedOrbs = speed
+  ? [...speed.querySelectorAll<HTMLElement>("[data-speed-depth]")]
+  : [];
+const speedFloats = speed
+  ? [...speed.querySelectorAll<HTMLElement>("[data-speed-float]")]
+  : [];
+const speedCards = speed
+  ? [...speed.querySelectorAll<HTMLElement>("[data-speed-card]")]
+  : [];
+
+let speedRaf = 0;
+let speedTX = 0;
+let speedTY = 0;
+let speedCX = 0;
+let speedCY = 0;
+let speedScroll = 0;
+
+const renderSpeed = () => {
+  if (!speed) return;
+  speedCX += (speedTX - speedCX) * 0.12;
+  speedCY += (speedTY - speedCY) * 0.12;
+
+  const rect = speed.getBoundingClientRect();
+  const view = window.innerHeight || 1;
+  const progress = (view - rect.top) / (view + rect.height);
+  speedScroll = Math.max(-1, Math.min(1, (progress - 0.5) * 2));
+
+  speed.style.setProperty("--speed-x", speedCX.toFixed(4));
+  speed.style.setProperty("--speed-y", speedCY.toFixed(4));
+  speed.style.setProperty("--speed-scroll", speedScroll.toFixed(4));
+
+  if (speedMesh) {
+    speedMesh.style.transform = `translate3d(${speedCX * 28}px, ${speedCY * 22 + speedScroll * -36}px, 0) scale(1.12)`;
+  }
+
+  speedOrbs.forEach((orb) => {
+    const depth = Number(orb.dataset.speedDepth || "0.08");
+    orb.style.transform = `translate3d(${speedCX * depth * 280 + speedScroll * depth * -40}px, ${speedCY * depth * 220 + speedScroll * depth * 70}px, 0)`;
+  });
+
+  speedFloats.forEach((el) => {
+    const k = Number(el.dataset.speedFloat || "1");
+    el.style.transform = `translate3d(${speedCX * 42 * k + speedScroll * -18 * k}px, ${speedCY * 30 * k + speedScroll * 24 * k}px, 0)`;
+  });
+
+  speedCards.forEach((card, i) => {
+    const dir = i % 2 === 0 ? 1 : -1;
+    const y = speedScroll * (6 + i * 3) * dir + speedCY * 8;
+    const x = speedCX * (6 + i * 2);
+    card.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+  });
+
+  speedRaf = requestAnimationFrame(renderSpeed);
+};
+
+if (speed && !reduceMotion) {
+  speed.addEventListener("pointermove", (e) => {
+    const r = speed.getBoundingClientRect();
+    speedTX = (e.clientX - r.left) / r.width - 0.5;
+    speedTY = (e.clientY - r.top) / r.height - 0.5;
+  });
+  speed.addEventListener("pointerleave", () => {
+    speedTX = 0;
+    speedTY = 0;
+  });
+  speedRaf = requestAnimationFrame(renderSpeed);
+}
+
 void reduceMotion;
+
+/* —— Phone format swap (Swipe-inspired) —— */
+const device = document.querySelector<HTMLElement>("[data-device]");
+if (device) {
+  const tabs = [...device.querySelectorAll<HTMLButtonElement>("[data-device-tab]")];
+  const panels = [...device.querySelectorAll<HTMLElement>("[data-device-panel]")];
+  const slides = [...device.querySelectorAll<HTMLElement>("[data-phone-slide]")];
+  let index = 0;
+  let timer = 0;
+
+  const show = (next: number) => {
+    index = (next + tabs.length) % tabs.length;
+    tabs.forEach((tab, i) => {
+      const on = i === index;
+      tab.classList.toggle("is-active", on);
+      tab.setAttribute("aria-selected", on ? "true" : "false");
+    });
+    panels.forEach((panel, i) => {
+      const on = i === index;
+      panel.classList.toggle("is-active", on);
+      panel.hidden = !on;
+    });
+    slides.forEach((slide, i) => {
+      slide.classList.toggle("is-active", i === index);
+    });
+  };
+
+  const arm = () => {
+    window.clearInterval(timer);
+    if (reduceMotion || tabs.length < 2) return;
+    timer = window.setInterval(() => show(index + 1), 4200);
+  };
+
+  tabs.forEach((tab, i) => {
+    tab.addEventListener("click", () => {
+      show(i);
+      arm();
+    });
+  });
+
+  const deviceObs = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) arm();
+        else window.clearInterval(timer);
+      });
+    },
+    { threshold: 0.25 },
+  );
+  deviceObs.observe(device);
+
+  document.addEventListener(
+    "visibilitychange",
+    () => {
+      if (document.hidden) window.clearInterval(timer);
+      else arm();
+    },
+    { passive: true },
+  );
+}

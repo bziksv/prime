@@ -707,6 +707,7 @@
 .p-form select,
 .p-form textarea {
   width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
   padding: 0.8rem 0.9rem;
   border-radius: 10px;

@@ -1,5 +1,7 @@
 import "../scripts/concept-v6";
 
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
 const revealEls = document.querySelectorAll(".k-reveal");
 if (revealEls.length) {
   const obs = new IntersectionObserver(
@@ -15,6 +17,82 @@ if (revealEls.length) {
   );
   revealEls.forEach((el) => obs.observe(el));
 }
+
+/* —— Hero: сетка + орбы следят за курсором —— */
+function initHeroMotion() {
+  const heroes = Array.from(document.querySelectorAll<HTMLElement>("[data-k-hero]"));
+  if (!heroes.length) return;
+
+  heroes.forEach((hero) => {
+    const grid = hero.querySelector<HTMLElement>("[data-k-grid]");
+    const glow = hero.querySelector<HTMLElement>("[data-k-glow]");
+    const orbs = Array.from(hero.querySelectorAll<HTMLElement>("[data-k-depth]"));
+    let tx = 0;
+    let ty = 0;
+    let cx = 0;
+    let cy = 0;
+    let raf = 0;
+    let idleT = 0;
+
+    const render = (now: number) => {
+      idleT = now * 0.001;
+      cx += (tx - cx) * 0.16;
+      cy += (ty - cy) * 0.16;
+
+      // Idle только если нет reduce-motion; реакция на мышь — всегда
+      const idleX = reduceMotion ? 0 : Math.sin(idleT * 0.55) * 0.06;
+      const idleY = reduceMotion ? 0 : Math.cos(idleT * 0.42) * 0.045;
+      const x = cx + idleX;
+      const y = cy + idleY;
+
+      hero.style.setProperty("--k-mx", x.toFixed(4));
+      hero.style.setProperty("--k-my", y.toFixed(4));
+      hero.style.setProperty("--k-px", `${((x + 0.5) * 100).toFixed(2)}%`);
+      hero.style.setProperty("--k-py", `${((y + 0.5) * 100).toFixed(2)}%`);
+
+      if (grid) {
+        const rx = y * -18;
+        const ry = x * 22;
+        const rz = x * -10 + y * 5;
+        grid.style.transform = `translate3d(${x * 56}px, ${y * 42}px, 0) rotateX(${rx}deg) rotateY(${ry}deg) rotateZ(${rz}deg) scale(1.18)`;
+      }
+
+      if (glow) {
+        glow.style.transform = `translate3d(${x * 80}px, ${y * 60}px, 0)`;
+        glow.style.opacity = String(0.55 + Math.hypot(x, y) * 0.7);
+      }
+
+      orbs.forEach((orb) => {
+        const depth = Number(orb.dataset.kDepth || "0.5");
+        orb.style.setProperty("--ox", `${(x * depth * 72).toFixed(1)}px`);
+        orb.style.setProperty("--oy", `${(y * depth * 54).toFixed(1)}px`);
+      });
+
+      raf = requestAnimationFrame(render);
+    };
+
+    hero.addEventListener("pointermove", (e) => {
+      const r = hero.getBoundingClientRect();
+      tx = (e.clientX - r.left) / r.width - 0.5;
+      ty = (e.clientY - r.top) / r.height - 0.5;
+    });
+
+    hero.addEventListener("pointerleave", () => {
+      tx = 0;
+      ty = 0;
+    });
+
+    raf = requestAnimationFrame(render);
+
+    window.addEventListener(
+      "pagehide",
+      () => cancelAnimationFrame(raf),
+      { once: true },
+    );
+  });
+}
+
+initHeroMotion();
 
 function initLightbox() {
   const dialog = document.getElementById("k-lightbox");

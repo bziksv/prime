@@ -488,6 +488,23 @@
   }
   .v6-burger {
     display: block;
+    flex-shrink: 0;
+  }
+  .v6-topbar {
+    gap: 0.55rem;
+    padding: 0.65rem 0.75rem;
+  }
+  .v6-breadcrumb {
+    flex: 1 1 auto;
+    min-width: 0;
+    font-size: 0.75rem;
+    line-height: 1.25;
+  }
+  .v6-topbar > .v6-btn {
+    flex-shrink: 0;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.78rem;
+    white-space: nowrap;
   }
   .v6-services {
     grid-template-columns: 1fr;
@@ -501,4 +518,126 @@
   .v6-flagship {
     grid-template-columns: 1fr;
   }
+}
+
+@media (max-width: 360px) {
+  .v6-topbar {
+    gap: 0.4rem;
+    padding: 0.55rem 0.55rem;
+  }
+  .v6-burger {
+    padding: 0.35rem 0.5rem;
+    font-size: 1rem;
+  }
+  .v6-breadcrumb {
+    font-size: 0.68rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .v6-topbar > .v6-btn {
+    padding: 0.45rem 0.55rem;
+    font-size: 0.68rem;
+  }
+}
+
+/* —— Длинные слова в заголовках не вылезают за край —— */
+[data-page] h1,
+[data-page] h2,
+[data-page] .t-cta h2,
+[data-page] .s-cta h2,
+[data-page] .o-cta h2,
+[data-page] .p-cta h2,
+[data-page] .a-cta h2,
+[data-page] .n-cta h2,
+[data-page] .w-cta h2,
+[data-page] .u-cta__copy h2 {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+@media (max-width: 380px) {
+  .t-cta h2,
+  .s-cta h2,
+  .o-cta h2,
+  .p-cta h2,
+  .a-cta h2,
+  .n-cta h2,
+  .w-cta h2,
+  .u-cta__copy h2 {
+    font-size: clamp(1.3rem, 7vw, 1.7rem);
+    letter-spacing: 0.005em;
+  }
+}
+
+/* —— Forms: не вылезают из контейнера на 320px —— */
+.u-form,
+.o-form,
+.s-form,
+.t-form,
+.a-form,
+.n-form,
+.w-form,
+.p-form,
+.v6-form,
+.u-cta,
+.o-cta,
+.s-cta,
+.t-cta,
+.a-cta,
+.n-cta,
+.w-cta,
+.p-cta {
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.u-form input:not([type="checkbox"]),
+.u-form select,
+.u-form textarea,
+.o-form input:not([type="checkbox"]),
+.o-form select,
+.o-form textarea,
+.s-form input:not([type="checkbox"]),
+.s-form select,
+.s-form textarea,
+.t-form input:not([type="checkbox"]),
+.t-form select,
+.t-form textarea,
+.a-form input:not([type="checkbox"]),
+.a-form select,
+.a-form textarea,
+.n-form input:not([type="checkbox"]),
+.n-form select,
+.n-form textarea,
+.n-form .prime-select__trigger,
+.w-form input:not([type="checkbox"]),
+.w-form select,
+.w-form textarea,
+.w-form .prime-select__trigger,
+.p-form input:not([type="checkbox"]),
+.p-form select,
+.p-form textarea,
+.v6-form input:not([type="checkbox"]),
+.v6-form select,
+.v6-form textarea,
+.prime-select,
+.prime-select__trigger {
+  box-sizing: border-box !important;
+  max-width: 100% !important;
+}
+
+.u-form__row,
+.u-cta > *,
+.o-cta > *,
+.s-cta > *,
+.t-cta > *,
+.a-cta > *,
+.n-cta > *,
+.w-cta > *,
+.p-cta > * {
+  min-width: 0;
 }

@@ -1,6 +1,7 @@
 ---
 import "../styles/concept-v6.css";
 import "../styles/concept-v6-media.css";
+import "../styles/home.css";
 import CookieConsent from "../components/CookieConsent.astro";
 import CookieFooterNotice from "../components/CookieFooterNotice.astro";
 import {
@@ -82,7 +83,7 @@ const services = [
 ---
 
 <!doctype html>
-<html lang="ru" data-concept="v6">
+<html lang="ru" data-concept="v6" data-page="home">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -98,7 +99,7 @@ const services = [
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -157,22 +158,60 @@ const services = [
           <p class="v6-breadcrumb">
             <strong>Главная</strong>
           </p>
-          <a href="#cta" class="v6-btn">Оставить заявку</a>
+          <a href="#cta" class="v6-btn home-btn-glow">Оставить заявку</a>
         </header>
 
         <div class="v6-content">
           <section
-            class="v6-hero v6-hero--cover"
+            class="home-hero"
             id="about"
-            style={`--v6-hero-bg: url(${v6Photos.heroOffice})`}
+            data-home-hero
+            style={`--home-hero-bg: url(${v6Photos.heroOffice})`}
           >
-            <div class="v6-hero__copy">
-              <h1>Интернет-маркетинг для бизнеса по всей России</h1>
-              <p>
-                SEO с оплатой по факту в ТОП-10, контекстная реклама, разработка сайтов
-                и сквозная аналитика — с прозрачной экономикой и понятными отчётами.
+            <div class="home-hero__bg" aria-hidden="true" data-home-bg></div>
+            <div class="home-hero__veil" aria-hidden="true"></div>
+
+            <div class="home-hero__mesh" aria-hidden="true">
+              <svg class="home-mesh" viewBox="0 0 640 420" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <radialGradient id="home-mesh-glow" cx="50%" cy="40%" r="55%">
+                    <stop offset="0%" stop-color="rgba(32,184,208,0.32)"></stop>
+                    <stop offset="100%" stop-color="rgba(32,184,208,0)"></stop>
+                  </radialGradient>
+                </defs>
+                <circle class="home-mesh__aura" cx="420" cy="170" r="150" fill="url(#home-mesh-glow)"
+                ></circle>
+                <g class="home-mesh__links">
+                  <path d="M80 70 L180 120 L290 90 L400 150 L520 110"></path>
+                  <path d="M120 220 L210 180 L310 240 L430 200 L560 260"></path>
+                  <path d="M180 120 L210 180 L290 90 L310 240 L400 150 L430 200"></path>
+                </g>
+                <g fill="rgba(241,245,249,0.35)">
+                  <circle cx="80" cy="70" r="3.5"></circle>
+                  <circle class="home-mesh__hot" cx="180" cy="120" r="4.5"></circle>
+                  <circle cx="290" cy="90" r="3.5"></circle>
+                  <circle class="home-mesh__hot home-mesh__hot--2" cx="400" cy="150" r="5"></circle>
+                  <circle cx="520" cy="110" r="3.5"></circle>
+                  <circle cx="120" cy="220" r="3"></circle>
+                  <circle class="home-mesh__hot home-mesh__hot--3" cx="210" cy="180" r="4"></circle>
+                  <circle cx="310" cy="240" r="3.5"></circle>
+                  <circle cx="430" cy="200" r="4"></circle>
+                  <circle cx="560" cy="260" r="3.5"></circle>
+                </g>
+                <circle class="home-mesh__ping" cx="210" cy="180" r="4"></circle>
+                <circle class="home-mesh__ping home-mesh__ping--2" cx="400" cy="150" r="4"></circle>
+                <circle class="home-mesh__ping home-mesh__ping--3" cx="180" cy="120" r="4"></circle>
+              </svg>
+            </div>
+
+            <div class="home-hero__copy">
+              <p class="home-brand">ПРАЙ<em>М</em></p>
+              <h1>Интернет-маркетинг для бизнеса <span>по всей России</span></h1>
+              <p class="home-hero__lead">
+                SEO с оплатой по факту в ТОП-10, контекст, сайты и сквозная аналитика —
+                с прозрачной экономикой и понятными отчётами.
               </p>
-              <div class="v6-hero__kpis">
+              <div class="home-hero__kpis">
                 <div>
                   <strong>
                     <img class="v6-kpi-badge" src={v6Icons.checkPrime} alt="" width="28" height="28" />
@@ -195,14 +234,85 @@ const services = [
                   <span>агентств · CMS Magazine</span>
                 </div>
               </div>
-              <div class="v6-hero__actions">
-                <a href="#cta" class="v6-btn">Бесплатная консультация</a>
+              <div class="home-hero__actions">
+                <a href="#cta" class="v6-btn home-btn-glow">Бесплатная консультация</a>
                 <a href="#services" class="v6-btn v6-btn--outline">Все услуги</a>
+              </div>
+            </div>
+
+            <div class="home-hero__panel" aria-hidden="true">
+              <div class="home-hub">
+                <div class="home-hub__head">
+                  <span class="home-hub__live"><i></i> LIVE HUB</span>
+                  <span>seo → ads → web → leads</span>
+                </div>
+
+                <div class="home-hub__node is-active" data-home-node="0">
+                  <span class="home-hub__dot"></span>
+                  <div>
+                    <strong>SEO</strong>
+                    <span>ТОП-10 · оплата по факту</span>
+                  </div>
+                  <em class="home-hub__hit">hit</em>
+                </div>
+                <div class="home-hub__wire">
+                  <i class="home-hub__packet"></i>
+                  <i class="home-hub__packet home-hub__packet--delay"></i>
+                </div>
+
+                <div class="home-hub__node" data-home-node="1">
+                  <span class="home-hub__dot"></span>
+                  <div>
+                    <strong>Контекст</strong>
+                    <span>Директ · Ads · CPL</span>
+                  </div>
+                  <em class="home-hub__hit">hit</em>
+                </div>
+                <div class="home-hub__wire home-hub__wire--2">
+                  <i class="home-hub__packet"></i>
+                </div>
+
+                <div class="home-hub__node" data-home-node="2">
+                  <span class="home-hub__dot"></span>
+                  <div>
+                    <strong>Сайт</strong>
+                    <span>заявки · звонки · CRM</span>
+                  </div>
+                  <em class="home-hub__hit">hit</em>
+                </div>
+                <div class="home-hub__wire home-hub__wire--3">
+                  <i class="home-hub__packet"></i>
+                  <i class="home-hub__packet home-hub__packet--delay"></i>
+                </div>
+
+                <div class="home-hub__node" data-home-node="3">
+                  <span class="home-hub__dot"></span>
+                  <div>
+                    <strong>Результат</strong>
+                    <span>лиды · продажи · отчёт</span>
+                  </div>
+                  <em class="home-hub__hit">ok</em>
+                </div>
+
+                <div class="home-hub__stats">
+                  <div>
+                    <span>Лиды</span>
+                    <strong data-home-leads>42</strong>
+                  </div>
+                  <div>
+                    <span>CPL</span>
+                    <strong data-home-cpl>380 ₽</strong>
+                  </div>
+                  <div>
+                    <span>ТОП</span>
+                    <strong data-home-top>128</strong>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
 
-          <section class="v6-card v6-about-strip">
+          <section class="v6-card v6-about-strip v6-reveal">
             <div class="v6-about-strip__copy">
               <h2>О компании</h2>
               <p>
@@ -231,7 +341,7 @@ const services = [
             </div>
           </section>
 
-          <section id="services" class="v6-card">
+          <section id="services" class="v6-card v6-reveal">
             <div class="v6-card-head">
               <h2>Наши услуги</h2>
               <p>Комплекс или отдельно — под задачи бизнеса</p>
@@ -240,25 +350,7 @@ const services = [
               {
                 services.map((s) => (
                   <a
-                    href={
-                      s.cat === "seo"
-                        ? "/prodvizhenie-sayta/"
-                        : s.cat === "ads"
-                          ? "/kontekstnaya-reklama/"
-                          : s.cat === "web"
-                            ? "/razrabotka-saytov/"
-                            : s.cat === "orm"
-                              ? "/upravlenie-reputaciej/"
-                              : s.cat === "audit"
-                                ? "/audit-sayta/"
-                                : s.cat === "support"
-                                  ? "/tehpodderzhka-sayta/"
-                                  : s.cat === "analytics"
-                                    ? "/skvoznaya-analitika/"
-                                    : s.cat === "traffic"
-                                      ? "/prodvizhenie-sayta-po-trafiku/"
-                                      : "#cta"
-                    }
+                    href={serviceHrefs[s.cat] ?? "#cta"}
                     class="v6-service"
                     id={`svc-${s.cat}`}
                   >
@@ -274,7 +366,7 @@ const services = [
             </div>
           </section>
 
-          <section class="v6-card v6-flagship v6-flagship--media">
+          <section class="v6-card v6-flagship v6-flagship--media v6-reveal">
             <div class="v6-flagship__main">
               <p class="v6-eyebrow">Флагман · с 2015</p>
               <h2>Продвижение сайта с оплатой по факту</h2>
@@ -283,7 +375,7 @@ const services = [
                 по ключевым словам. Платите за фразы, которые реально закрепились
                 в выдаче — без абонентской «воды».
               </p>
-              <a href="/prodvizhenie-sayta/" class="v6-btn v6-btn--spaced">Узнать условия</a>
+              <a href="/prodvizhenie-sayta/" class="v6-btn v6-btn--spaced home-btn-glow">Узнать условия</a>
             </div>
             <div class="v6-flagship__visual">
               <img src={v6Icons.seoReport} alt="Отчёт по позициям" width="280" height="180" />
@@ -291,7 +383,7 @@ const services = [
             </div>
           </section>
 
-          <section class="v6-card">
+          <section class="v6-card v6-reveal">
             <div class="v6-card-head">
               <h2>Как мы работаем</h2>
               <p>Четыре шага от аудита до роста заявок</p>
@@ -309,7 +401,7 @@ const services = [
             </div>
           </section>
 
-          <section id="cases" class="v6-card">
+          <section id="cases" class="v6-card v6-reveal">
             <div class="v6-card-head">
               <h2>Наши достижения</h2>
               <p>По версии CMS Magazine и результатам клиентов</p>
@@ -356,11 +448,11 @@ const services = [
               на его показатели опираются и гос. тендеры.
             </p>
             <div class="v6-cases-actions">
-              <a class="v6-btn" href="/keysy/">Все кейсы</a>
+              <a class="v6-btn home-btn-glow" href="/keysy/">Все кейсы</a>
             </div>
           </section>
 
-          <section id="partners" class="v6-card v6-clients">
+          <section id="partners" class="v6-card v6-clients v6-reveal">
             <div class="v6-card-head">
               <h2>Наши клиенты</h2>
               <p>Более 70 компаний — от автодилеров до медицины и ритейла</p>
@@ -382,7 +474,7 @@ const services = [
             </div>
           </section>
 
-          <section class="v6-card v6-industries-block">
+          <section class="v6-card v6-industries-block v6-reveal">
             <div class="v6-card-head">
               <h2>Продвижение по направлениям бизнеса</h2>
               <p>Отраслевой опыт — детали уточняйте по телефону</p>
@@ -399,7 +491,7 @@ const services = [
             </div>
           </section>
 
-          <section class="v6-card">
+          <section class="v6-card v6-reveal">
             <div class="v6-card-head">
               <h2>Частые вопросы</h2>
             </div>
@@ -415,7 +507,7 @@ const services = [
             </div>
           </section>
 
-          <section id="cta" class="v6-card v6-cta-card">
+          <section id="cta" class="v6-card v6-cta-card v6-reveal">
             <div class="v6-card-head">
               <h2>Оставить заявку</h2>
               <p>
@@ -447,17 +539,20 @@ const services = [
                 <label class="v6-form__check">
                   <input type="checkbox" name="agree" required />
                   <span>
-                    Согласен на обработку персональных данных в соответствии с нашей{" "}
-                    <a
-                      class="cookie-link"
-                      href={legalDocs.privacy}
-                      target="_blank"
-                      rel="nofollow noopener noreferrer"
-                      >политикой</a
-                    >.
+                    Согласен на обработку персональных данных в соответствии с{" "}
+                    <span class="v6-form__check-link">
+                      нашей{" "}
+                      <a
+                        class="cookie-link"
+                        href={legalDocs.privacy}
+                        target="_blank"
+                        rel="nofollow noopener noreferrer"
+                        >политикой</a
+                      >.
+                    </span>
                   </span>
                 </label>
-                <button type="submit" class="v6-btn">Отправить</button>
+                <button type="submit" class="v6-btn home-btn-glow">Отправить</button>
               </form>
             </div>
             <p id="v6-form-hint" class="v6-form-hint" hidden></p>
@@ -477,7 +572,7 @@ const services = [
 
     <CookieConsent />
     <script>
-      import "../scripts/concept-v6.ts";
+      import "../scripts/home.ts";
     </script>
   </body>
 </html>

@@ -13,6 +13,9 @@ import {
   auditDeliverables,
   auditColumns,
   auditPricing,
+  auditTimeline,
+  auditMarquee,
+  auditStats,
 } from "../data/audit-service";
 ---
 
@@ -49,8 +52,13 @@ import {
         </header>
 
         <div class="v6-content">
-          <section class="u-hero">
-            <div class="u-hero__glow" aria-hidden="true"></div>
+          <section class="u-hero" data-u-hero>
+            <div class="u-hero__atmosphere" aria-hidden="true">
+              <div class="u-hero__mesh" data-u-mesh></div>
+              <div class="u-hero__glow" data-u-glow></div>
+              <p class="u-hero__giant">AUDIT</p>
+            </div>
+
             <div class="u-hero__copy">
               <p class="u-brand">ПРАЙ<em>М</em></p>
               <p class="u-kicker">Протокол диагностики · SEO / UX / техника</p>
@@ -63,44 +71,84 @@ import {
               </p>
               <div class="u-hero__actions">
                 <a href="#audit-cta" class="u-btn u-btn--primary">Заказать мини-аудит</a>
-                <a href="#protocol" class="u-btn u-btn--ghost">Что проверяем</a>
+                <a href="#timeline" class="u-btn u-btn--ghost">Как проходит</a>
               </div>
             </div>
 
-            <div class="u-hero__board" aria-hidden="true">
-              <div class="u-xray">
-                <div class="u-xray__grid"></div>
-                <div class="u-xray__scan"></div>
-                <div class="u-xray__frame">
-                  <span class="u-xray__bar"></span>
-                  <span class="u-xray__line u-xray__line--a"></span>
-                  <span class="u-xray__line u-xray__line--b"></span>
-                  <span class="u-xray__block u-xray__block--1"></span>
-                  <span class="u-xray__block u-xray__block--2"></span>
-                  <span class="u-xray__block u-xray__block--3"></span>
-                </div>
-                <div class="u-pin u-pin--a">
-                  <i></i>
-                  <span>видимость</span>
-                  <strong>WARN</strong>
-                </div>
-                <div class="u-pin u-pin--b">
-                  <i></i>
-                  <span>конверсия</span>
-                  <strong>CHECK</strong>
-                </div>
-                <div class="u-pin u-pin--c">
-                  <i></i>
-                  <span>техника</span>
-                  <strong>OK</strong>
-                </div>
-                <div class="u-meter">
-                  <span>site health</span>
-                  <strong data-score-num>0</strong>
-                </div>
+            <aside class="u-console" data-u-console aria-label="Демо диагностики сайта">
+              <div class="u-console__cursor" data-u-cursor aria-hidden="true"></div>
+              <header class="u-console__head">
+                <span class="u-console__live"><i></i> live scan</span>
+                <span class="u-console__proto">PRIME · PROTOCOL</span>
+              </header>
+              <label class="u-console__url">
+                <span>target</span>
+                <input
+                  type="url"
+                  name="demo-url"
+                  data-u-url
+                  placeholder="https://your-site.ru"
+                  autocomplete="off"
+                  spellcheck="false"
+                  readonly
+                />
+              </label>
+              <div class="u-console__screen">
+                <div class="u-console__scan" data-u-scanline aria-hidden="true"></div>
+                <ul class="u-console__log" data-u-log>
+                  <li data-u-line data-status="idle">Ожидание ввода адреса…</li>
+                  <li data-u-line data-status="info" hidden data-u-line-host>
+                    Соединение с хостом…
+                  </li>
+                  <li data-u-line data-status="info" hidden>Индекс · sitemap · коды ответов</li>
+                  <li data-u-line data-status="warn" hidden>
+                    <em>WARN</em> видимость −18% за 90 дней
+                  </li>
+                  <li data-u-line data-status="check" hidden>
+                    <em>CHECK</em> утечка в воронке заявки
+                  </li>
+                  <li data-u-line data-status="ok" hidden>
+                    <em>OK</em> SSL · зеркала · редиректы
+                  </li>
+                  <li data-u-line data-status="done" hidden>Протокол готов · видео в работе</li>
+                </ul>
               </div>
-            </div>
+              <div class="u-console__meter">
+                <div class="u-console__score">
+                  <span>site health</span>
+                  <strong><span data-score-num>—</span></strong>
+                </div>
+                <div class="u-console__bar" aria-hidden="true">
+                  <i data-score-bar></i>
+                </div>
+                <button type="button" class="u-console__run" data-u-scan disabled>
+                  Сканировать
+                </button>
+              </div>
+            </aside>
           </section>
+
+          <section class="u-stats u-reveal" data-u-stats>
+            {
+              auditStats.map((s, i) => (
+                <div class="u-stat" style={`--i:${i}`}>
+                  <strong>
+                    <span data-count={s.value}>0</span>
+                    {s.suffix}
+                  </strong>
+                  <span>{s.label}</span>
+                </div>
+              ))
+            }
+          </section>
+
+          <div class="u-marquee u-reveal" aria-hidden="true">
+            <div class="u-marquee__track">
+              {[...auditMarquee, ...auditMarquee].map((t) => (
+                <span>{t}</span>
+              ))}
+            </div>
+          </div>
 
           <section class="u-section u-reveal">
             <div class="u-section__head">
@@ -111,13 +159,41 @@ import {
             <div class="u-signals">
               {
                 auditPain.map((p, i) => (
-                  <article class="u-signal">
+                  <article class="u-signal" style={`--i:${i}`}>
                     <span class="u-signal__idx">0{i + 1}</span>
                     <h3>{p.title}</h3>
                     <p>{p.text}</p>
+                    <span class="u-signal__arrow" aria-hidden="true">→</span>
                   </article>
                 ))
               }
+            </div>
+          </section>
+
+          <section class="u-section u-reveal" id="timeline">
+            <div class="u-section__head">
+              <p class="u-kicker">Таймлайн</p>
+              <h2>Как проходит аудит</h2>
+              <p>От заявки до приоритетов — понятный протокол без сюрпризов.</p>
+            </div>
+            <div class="u-timeline" data-u-timeline>
+              <div class="u-timeline__rail" aria-hidden="true">
+                <span class="u-timeline__fill" data-u-timeline-fill></span>
+              </div>
+              <ol class="u-timeline__list">
+                {
+                  auditTimeline.map((step, i) => (
+                    <li class="u-timeline__item" data-u-timeline-item style={`--i:${i}`}>
+                      <span class="u-timeline__dot" aria-hidden="true"></span>
+                      <span class="u-timeline__n">{step.n}</span>
+                      <div>
+                        <h3>{step.title}</h3>
+                        <p>{step.text}</p>
+                      </div>
+                    </li>
+                  ))
+                }
+              </ol>
             </div>
           </section>
 
@@ -133,7 +209,7 @@ import {
             <ol class="u-steps">
               {
                 auditIncludes.map((item, i) => (
-                  <li class="u-step">
+                  <li class="u-step" style={`--i:${i}`}>
                     <span class="u-step__n">{String(i + 1).padStart(2, "0")}</span>
                     <div>
                       <h3>{item.title}</h3>
@@ -145,8 +221,9 @@ import {
             </ol>
             <div class="u-deliv">
               {
-                auditDeliverables.map((d) => (
-                  <article>
+                auditDeliverables.map((d, i) => (
+                  <article class:list={[i === 0 ? "u-deliv--doc" : "u-deliv--video"]} style={`--i:${i}`}>
+                    <span class="u-deliv__icon" aria-hidden="true"></span>
                     <h3>{d.title}</h3>
                     <p>{d.text}</p>
                   </article>
@@ -270,7 +347,9 @@ import {
                   >.
                 </span>
               </label>
-              <button type="submit" class="u-btn u-btn--primary">Отправить заявку</button>
+              <button type="submit" class="u-btn u-btn--primary">
+                <span class="u-btn__label">Отправить заявку</span>
+              </button>
               <p id="audit-form-hint" class="u-form-hint" hidden></p>
             </form>
           </section>

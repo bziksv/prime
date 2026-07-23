@@ -7,30 +7,38 @@ import CaseFilters from "../../components/CaseFilters.astro";
 import CaseGrid from "../../components/CaseGrid.astro";
 import { caseStudies, caseCategories } from "../../data/cases";
 
-const featured = caseStudies.filter((c) => c.featured);
+const featured = caseStudies
+  .filter((c) => c.featured)
+  .sort((a, b) => {
+    if (a.slug === "almamed") return -1;
+    if (b.slug === "almamed") return 1;
+    return 0;
+  });
 ---
 
 <CasesLayout
   title="Наши кейсы — ПРАЙМ"
-  description="Кейсы ПРАЙМ: SEO с оплатой по факту, контекстная реклама и разработка сайтов. Результаты по заявкам, CPL и ROI."
+  description="Актуальные кейсы ПРАЙМ: SEO, контекст и разработка. Свежие результаты по позициям, заявкам, CPL и ROI — не архив десятилетней давности."
   breadcrumb={[{ label: "Главная", href: "/" }, { label: "Кейсы" }]}
 >
-  <section class="k-hero">
-    <div class="k-hero__grid" aria-hidden="true"></div>
-    <div class="k-hero__orb k-hero__orb--1" aria-hidden="true"></div>
-    <div class="k-hero__orb k-hero__orb--2" aria-hidden="true"></div>
+  <section class="k-hero" data-k-hero>
+    <div class="k-hero__grid" data-k-grid aria-hidden="true"></div>
+    <div class="k-hero__glow" data-k-glow aria-hidden="true"></div>
+    <div class="k-hero__orb k-hero__orb--1" data-k-depth="0.55" aria-hidden="true"></div>
+    <div class="k-hero__orb k-hero__orb--2" data-k-depth="0.9" aria-hidden="true"></div>
     <div class="k-hero__inner">
-      <p class="k-kicker">Портфолио результатов</p>
-      <h1>Кейсы, где видно <em>цифру</em> — не слайд</h1>
+      <p class="k-kicker">Актуальные кейсы · не архив</p>
+      <h1>Показываем <em>свежее</em> — цифры, а не слайды из прошлого</h1>
       <p class="k-hero__lead">
-        SEO, Директ и разработка: реальные проекты с понятной экономикой —
-        позиции, заявки, CPL и ROI. Выберите направление или откройте кейс целиком.
+        SEO, Директ и разработка: живые проекты с понятной экономикой —
+        позиции, заявки, CPL и ROI. Без десятилетнего портфолио «для галочки» —
+        только то, что актуально сейчас.
       </p>
     </div>
     <div class="k-hero__stats">
       <div class="k-hero__stat">
         <strong>{caseStudies.length}+</strong>
-        <span>разборов в каталоге</span>
+        <span>актуальных разборов</span>
       </div>
       <div class="k-hero__stat">
         <strong>{caseCategories.length}</strong>
@@ -50,8 +58,8 @@ const featured = caseStudies.filter((c) => c.featured);
     featured.length > 0 && (
       <section class="k-panel k-reveal">
         <div class="k-panel__head">
-          <h2>Избранные результаты</h2>
-          <p>Сильные кейсы — с метрикой на обложке</p>
+          <h2>Свежие сильные результаты</h2>
+          <p>Актуальные кейсы с метрикой на обложке — показываем только свежее</p>
         </div>
         <CaseGrid cases={featured} featuredFirst />
       </section>
@@ -60,8 +68,8 @@ const featured = caseStudies.filter((c) => c.featured);
 
   <section class="k-panel k-reveal">
     <div class="k-panel__head">
-      <h2>Все кейсы</h2>
-      <p>Фильтруйте по SEO, контексту или разработке</p>
+      <h2>Все актуальные кейсы</h2>
+      <p>Фильтр по SEO, контексту или разработке — только свежие разборы</p>
     </div>
     <CaseGrid cases={caseStudies.filter((c) => !c.featured)} />
   </section>

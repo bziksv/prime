@@ -1,0 +1,115 @@
+/* Shared custom select — avoids macOS Chrome native popup offset */
+
+.prime-select {
+  position: relative;
+  display: block;
+}
+
+.prime-select__native,
+.prime-select select[data-w-select],
+.prime-select > select {
+  position: absolute !important;
+  inset: 0;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  z-index: 0;
+}
+
+.prime-select__trigger {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  cursor: pointer;
+  appearance: none;
+  font: inherit;
+}
+
+.prime-select__trigger::after {
+  content: "";
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  opacity: 0.55;
+  transform: rotate(45deg) translateY(-2px);
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.prime-select.is-open .prime-select__trigger::after {
+  transform: rotate(225deg) translateY(-1px);
+}
+
+.prime-select__trigger.is-placeholder {
+  opacity: 0.55;
+}
+
+.prime-select__menu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 0.35rem);
+  z-index: 80;
+  margin: 0;
+  padding: 0.35rem;
+  list-style: none;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: #121820;
+  color: #e8eef5;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+  max-height: 14rem;
+  overflow: auto;
+}
+
+.prime-select--light .prime-select__menu {
+  background: #fff;
+  color: #0f172a;
+  border-color: #e2e8f0;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12);
+}
+
+.prime-select__menu[hidden] {
+  display: none;
+}
+
+.prime-select__option {
+  display: block;
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.prime-select__option:hover,
+.prime-select__option:focus-visible {
+  background: rgba(255, 255, 255, 0.08);
+  outline: none;
+}
+
+.prime-select--light .prime-select__option:hover,
+.prime-select--light .prime-select__option:focus-visible {
+  background: rgba(15, 23, 42, 0.06);
+}
+
+.prime-select__option.is-active {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.prime-select--light .prime-select__option.is-active {
+  background: rgba(20, 150, 173, 0.12);
+}

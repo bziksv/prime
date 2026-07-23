@@ -79,18 +79,20 @@
 - [x] klyaksa — deep `/keysy/seo/klyaksa/` (детский центр)  
 - [x] samsungvrn — deep `/keysy/seo/samsungvrn/` (Сервис Плаза; отдельно от `remont`)  
 - [x] ticiana — deep `/keysy/seo/ticiana/` (премиальные ЛКМ)  
-- [ ] metallinvest (SEO)  
-- [ ] derevyannyie-izdeliya…  
-- [ ] privlechenie…polimer (SEO)  
-- [ ] uc-vrn  
-- [ ] volvo…chernozeme  
-- [ ] ofisy  
+- [x] metallinvest (SEO) — deep `/keysy/seo/metallinvest-seo/` (186 фраз; web — `metallinvest`)  
+- [x] derevyannyie-izdeliya — deep `/keysy/seo/derevyannyie-izdeliya/` (резные лестницы/панели; 43 фразы)  
+- [x] polimer (SEO) — deep `/keysy/seo/polimer-seo/` (3000+ в ТОП; старт ядра 393; web — `polimer`)  
+- [x] uc-vrn — deep `/keysy/seo/uc-vrn/` (ЦЧУЦ; сайт Битрикс + SEO; live uc-vrn.ru)  
+- [x] volvo-chernozeme — deep `/keysy/seo/volvo-chernozeme/` (сайт Bitrix + SEO 87 фраз; Белгород — `volvo-belgorod`)  
+- [x] ofisy — deep `/keysy/ads/ofisy/` (контекст; аренда офисов; запуск 2 дня)  
 - [x] torgmag (SEO) — влит в web-кейс `torgmag`  
-- [ ] milk-for  
-- [ ] …pilomaterialov  
-- [ ] ehk-kovanyie (есть local `vrn-ehk`)  
-- [ ] jeep…  
-- [ ] motor-lend-nissan  
+- [x] milk-for — deep `/keysy/seo/milk-for/` (фильтры для молока; live milkfor.ru)  
+- [x] pilomaterialov — deep `/keysy/seo/pilomaterialov/` (база «Велес»; 30 фраз)  
+- [x] ehk-kovanyie — deep `/keysy/ads/ehk-kovanyie/` (контекст; live vrn-ehk.ru; local `vrn-ehk`)  
+- [x] jeep — deep `/keysy/seo/jeep/` (дилер Воронеж; live jeepvrn.ru)  
+- [x] motor-lend-nissan — deep `/keysy/seo/motor-lend-nissan/` (SEO+контекст; лендинг — `nissan-landing`)  
+
+**Фаза B закрыта.**  
 
 ---
 
@@ -102,21 +104,21 @@
 |-------|----------------|---------|------|
 | `almamed` | да | да | уже deep |
 | `polimer` | да | да | фаза A |
-| `vilmed` | да | нет | фаза C — мед. ИМ |
-| `kosmamed` | да | нет | фаза C |
-| `oftalmag` | да | нет | фаза C |
+| `vilmed` | да | нет | фаза C — deep `/keysy/web/vilmed/` |
+| `kosmamed` | да | нет | фаза C — deep `/keysy/web/kosmamed/` (ex МедМаркет) |
+| `oftalmag` | да | нет | фаза C — deep `/keysy/web/oftalmag/` |
 | `metplus-vrn.ru` | `Описание metplus-vrn` | да (как Металлинвест) | фаза A — deep `metallinvest` |
-| `metprof-vrn` | `Описание metprof` | нет | фаза C |
-| `titlo.ru` + `cabinet.titlo.ru` | да | нет | фаза C |
-| `p.datagon.ru` | да | нет | фаза C |
-| `lagerplus.ru` | — | нет | фаза C |
-| `lormag` | — | нет | фаза C |
-| `medplakaty` | — | нет | фаза C |
-| `doskivrn` | — | нет | фаза C |
-| `setka` | — | нет | фаза C |
-| `vrn-ehk` | — | SEO ЭХК на old | связать с фазой B |
-| `Описание medmarket` | только описание | нет | фаза C если хватит материала |
-| `Описание billiard.guru` | только описание | нет | фаза C |
+| `metprof-vrn` | `Описание metprof` | нет | фаза C — deep `/keysy/web/metprof/` |
+| `titlo.ru` + `cabinet.titlo.ru` | да | нет | фаза C — deep `/keysy/web/titlo/` |
+| `p.datagon.ru` | да | нет | фаза C — deep `/keysy/web/datagon/` |
+| `lagerplus.ru` | — | нет | фаза C — deep `/keysy/web/lagerplus/` |
+| `lormag` | — | нет | фаза C — deep `/keysy/web/lormag/` |
+| `medplakaty` | — | нет | фаза C — deep `/keysy/web/medplakaty/` |
+| `doskivrn` | — | нет | фаза C — deep `/keysy/web/doskivrn/` (сайт «Велес»; SEO — `pilomaterialov`) |
+| `setka` | — | нет | фаза C — deep `/keysy/web/billiard-guru/` (продукт billiard.guru) |
+| `vrn-ehk` | — | SEO/ads ЭХК на old | фаза B — deep `ehk-kovanyie` |
+| `Описание medmarket` | только описание | нет | = kosmamed (ребренд) — deep `kosmamed` |
+| `Описание billiard.guru` | только описание | нет | = setka / billiard.guru — deep `billiard-guru` |
 | `crm.prime-ltd` | — | нет | внутренний — в кейсы только если ок публиковать |
 | `prime-ltd.su` | да | — | это сам сайт, не клиентский кейс |
 
@@ -160,7 +162,8 @@
 
 ## Прогресс
 
-- Deep: Almamed, Insortex, Полимер, Torgmag, Аргумент web/SEO, hobbi36 web/SEO, Металлинвест, Nissan, KaWe, kargo24, Вторма, Rc-Revolt, Светлячок, bel-kuzov, ХимОптТорг, Сказка, Барокко, Respect, Volvo Белгород, Chery, ГринСтрой, Инженер-сервис, Клякса, Samsungvrn, **Тициана**  
-- Deep (+): kabelmontazh, motorland-kuzov, fortuna-avto  
-- **Фаза A (14):** закрыта  
-- Next фаза B: **metallinvest (SEO)**
+- Deep: … doskivrn, **billiard-guru (web, фаза C = setka)**
+- Deep (+): kabelmontazh, motorland-kuzov, fortuna-avto
+- **Фаза A (14):** закрыта
+- **Фаза B:** закрыта
+- **Фаза C:** закрыта (клиентские из projects) · опц. только `crm.prime-ltd`, если ок публиковать

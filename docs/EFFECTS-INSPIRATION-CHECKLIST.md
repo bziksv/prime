@@ -65,7 +65,7 @@
 - Стек: Bitrix, Webasyst, Мультилендинг, Next.js, Astro
 
 ### Взять с референсов
-- [ ] Device-as-viewport + подмена сайта (Swipe) **[!]**
+- [x] Device-as-viewport + подмена сайта (Swipe) **[!]** — `#products` на `/razrabotka-saytov/`
 - [ ] Giant wordmark + animated figure (Matter) **[!]**
 - [ ] Floating cards state-swap (Grow) **[!]**
 - [ ] Before/after drag (Kinetic)
@@ -211,6 +211,8 @@ https://shadcnstudio.com/preview/templates/shadcn-astro-ink-landing-page
 
 ### A10 Matter — [x] 🖼️ `[!]` робот
 **Прямой URL:** https://shadcn-astro-matter-landing-page.vercel.app/
+
+> **Лицензия / прод:** композиция Matter = **inspiration only**. 3D-робота из демо шаблона в прод **не** берём (права демо-ассета неясны). На `/razrabotka-saytov/` стоит **NEXBOT** (Spline Community, **CC0 1.0**) — см. [ASSETS-LICENSES.md](./ASSETS-LICENSES.md).
 
 | Эффект | Где | Поведение |
 |--------|-----|-----------|
@@ -820,7 +822,7 @@ Preview host: `https://themefisher.com/demo?theme=<slug>-astro` (iframe). Для
 ## D. Приоритет внедрения на `/razrabotka-saytov/`
 
 1. **Swipe:** телефон, внутри подмена лендинг → визитка → корп → магазин  
-2. **Matter:** giant «WEB»/«CODE» + idle-фигура  
+2. **Matter (layout only):** giant «WEB»/«CODE» + idle-фигура; **меш в проде = NEXBOT CC0** ([ASSETS-LICENSES.md](./ASSETS-LICENSES.md))  
 3. **Grow:** floating cards с обменом метрик в spectrum  
 4. **Kinetic:** drag strict ↔ live  
 5. **Sonic:** dots-слайдер форматов  

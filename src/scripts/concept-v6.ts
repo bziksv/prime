@@ -1,7 +1,9 @@
 import { initCookieConsent } from "./cookie-consent";
+import { initPrimeSelects } from "./prime-select";
 
 export function initConceptV6() {
   initCookieConsent();
+  initPrimeSelects();
   const sidebar = document.getElementById("v6-sidebar");
   const backdrop = document.getElementById("v6-backdrop");
   const burger = document.getElementById("v6-burger");

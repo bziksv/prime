@@ -43,6 +43,8 @@ npm run dev
 | Файл | Назначение |
 |------|------------|
 | **README.md** | Этот индекс |
+| **ASSETS-LICENSES.md** | Лицензии 3D/stock: NEXBOT CC0, Matter = inspiration only |
+| **EFFECTS-INSPIRATION-CHECKLIST.md** | Каталог эффектов с референсов для `/razrabotka-saytov/` |
 | **the7-agent-notes.md** | Порядок чтения, маркеры `[AGENT]`, правила для ИИ |
 | **prime-homepage-concept-v1.md** | Концепт главной v1 (спокойный B2B) |
 | **prime-homepage-concept-v2.md** | Концепт главной v2 (immersive / motion) |

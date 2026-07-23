@@ -34,19 +34,189 @@ const cases = getCasesByCategory(cat.id as CaseCategoryId);
     { label: cat.title },
   ]}
 >
-  <section class="k-hero k-hero--cat" style={`--k-accent:${cat.accent}`}>
-    <div class="k-hero__grid" aria-hidden="true"></div>
-    <div class="k-hero__inner">
-      <p class="k-kicker">Направление</p>
-      <h1>{cat.title}</h1>
-      <p class="k-hero__lead">{cat.lead}</p>
-    </div>
-    <div class="k-hero__stats">
-      <div class="k-hero__stat">
-        <strong>{cases.length}</strong>
-        <span>кейсов в разделе</span>
+  <section
+    class:list={["k-hero", "k-hero--cat", `k-hero--${cat.id}`]}
+    data-k-hero
+    style={`--k-accent:${cat.accent}`}
+  >
+    <div class="k-hero__grid" data-k-grid aria-hidden="true"></div>
+    <div class="k-hero__glow" data-k-glow aria-hidden="true"></div>
+    <div class="k-hero__copy">
+      <div class="k-hero__inner">
+        <p class="k-kicker">Направление · актуальные кейсы</p>
+        <h1>{cat.title}</h1>
+        <p class="k-hero__lead">{cat.lead}</p>
+      </div>
+      <div class="k-hero__stats">
+        <div class="k-hero__stat">
+          <strong>{cases.length}</strong>
+          <span>кейсов в разделе</span>
+        </div>
       </div>
     </div>
+
+    {
+      cat.id === "seo" && (
+        <div class="k-hero__theme" aria-hidden="true">
+          <div class="k-serp">
+            <div class="k-serp__bar">
+              <span class="k-serp__lens" />
+              <span class="k-serp__query">купить · услуга · город</span>
+              <span class="k-serp__go">Найти</span>
+            </div>
+            <ol class="k-serp__list">
+              <li class="is-top">
+                <em>01</em>
+                <div>
+                  <strong>Ваш сайт — в выдаче</strong>
+                  <span>prime-client.ru · органика</span>
+                </div>
+                <b>ТОП-1</b>
+              </li>
+              <li>
+                <em>02</em>
+                <div>
+                  <strong>Коммерческий запрос</strong>
+                  <span>рост видимости · +трафик</span>
+                </div>
+                <b>ТОП-3</b>
+              </li>
+              <li>
+                <em>03</em>
+                <div>
+                  <strong>Информационный кластер</strong>
+                  <span>сниппеты · CTR</span>
+                </div>
+                <b>ТОП-5</b>
+              </li>
+              <li>
+                <em>04</em>
+                <div>
+                  <strong>Локальная выдача</strong>
+                  <span>карты · отзывы</span>
+                </div>
+                <b>ТОП-10</b>
+              </li>
+            </ol>
+            <div class="k-serp__meter">
+              <span>Видимость</span>
+              <i style="--p:78%" />
+              <strong>+78%</strong>
+            </div>
+          </div>
+          <ul class="k-hero__chips">
+            <li>оплата за ТОП-10</li>
+            <li>позиции</li>
+            <li>заявки</li>
+          </ul>
+        </div>
+      )
+    }
+
+    {
+      cat.id === "ads" && (
+        <div class="k-hero__theme" aria-hidden="true">
+          <div class="k-ads">
+            <div class="k-ads__head">
+              <span class="k-ads__badge">Яндекс Директ</span>
+              <span class="k-ads__live">
+                <i />
+                в эфире
+              </span>
+            </div>
+            <div class="k-ads__card is-hot">
+              <span class="k-ads__label">Реклама</span>
+              <strong>Услуга в вашем городе — запись сегодня</strong>
+              <p>Фикс. цена · выезд · гарантия. Оставьте заявку — перезвоним за 5 минут.</p>
+              <em>client.ru</em>
+            </div>
+            <div class="k-ads__card">
+              <span class="k-ads__label">РСЯ</span>
+              <strong>Акция: −20% на первый заказ</strong>
+              <p>Баннер в сетях · ретаргет · смотрим конверсии, не клики.</p>
+              <em>client.ru/promo</em>
+            </div>
+            <div class="k-ads__metrics">
+              <div>
+                <strong>−38%</strong>
+                <span>CPL</span>
+              </div>
+              <div>
+                <strong>×2.1</strong>
+                <span>звонки</span>
+              </div>
+              <div>
+                <strong>CRM</strong>
+                <span>связка</span>
+              </div>
+            </div>
+          </div>
+          <ul class="k-hero__chips">
+            <li>поиск</li>
+            <li>РСЯ</li>
+            <li>коллтрекинг</li>
+          </ul>
+        </div>
+      )
+    }
+
+    {
+      cat.id === "web" && (
+        <div class="k-hero__theme" aria-hidden="true">
+          <div class="k-web">
+            <div class="k-web__browser">
+              <div class="k-web__chrome">
+                <span /><span /><span />
+                <div class="k-web__url">https://ваш-сайт.ru</div>
+              </div>
+              <div class="k-web__viewport">
+                <div class="k-web__nav">
+                  <b>Brand</b>
+                  <i />
+                </div>
+                <div class="k-web__hero-line">
+                  <em />
+                  <em />
+                </div>
+                <div class="k-web__cta" />
+                <div class="k-web__cards">
+                  <span /><span /><span />
+                </div>
+              </div>
+            </div>
+            <div class="k-web__stack">
+              <div class="k-web__device" title="Мобильная версия">
+                <div class="k-web__device-screen">
+                  <i />
+                  <em />
+                  <em />
+                </div>
+              </div>
+              <div class="k-web__metrics">
+                <div>
+                  <strong>1,5–3</strong>
+                  <span>мес. запуск</span>
+                </div>
+                <div>
+                  <strong>−60%</strong>
+                  <span>часов разработки</span>
+                </div>
+                <div>
+                  <strong>4</strong>
+                  <span>формата сайта</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="k-hero__chips">
+            <li>лендинг</li>
+            <li>магазин</li>
+            <li>mobile-first</li>
+          </ul>
+        </div>
+      )
+    }
+
     <div class="k-hero__stripe" aria-hidden="true"></div>
   </section>
 
@@ -55,7 +225,7 @@ const cases = getCasesByCategory(cat.id as CaseCategoryId);
   <section class="k-panel k-reveal">
     <div class="k-panel__head">
       <h2>Кейсы · {cat.short}</h2>
-      <p>Результаты по проектам в этом направлении</p>
+      <p>Свежие результаты по проектам в этом направлении — не архив</p>
     </div>
     <CaseGrid cases={cases} featuredFirst />
   </section>

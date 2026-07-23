@@ -2425,13 +2425,18 @@ body[data-concept="v6"] {
 
 .v6-ind-tile span {
   position: absolute;
-  left: 1rem;
-  right: 1rem;
-  bottom: 0.9rem;
+  left: 0.85rem;
+  right: 0.85rem;
+  bottom: 0.75rem;
   z-index: 2;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: -0.01em;
+  line-height: 1.2;
+  max-width: calc(100% - 1.7rem);
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 .v6-ind-tile:hover img {
@@ -2445,5 +2450,19 @@ body[data-concept="v6"] {
   height: 3px;
   z-index: 3;
   background: linear-gradient(90deg, var(--brand-p), var(--brand-r), var(--brand-m), var(--brand-e));
+}
+
+@media (max-width: 380px) {
+  .v6-industries-mosaic {
+    gap: 0.5rem;
+  }
+
+  .v6-ind-tile span {
+    left: 0.55rem;
+    right: 0.55rem;
+    bottom: 0.55rem;
+    max-width: calc(100% - 1.1rem);
+    font-size: 0.74rem;
+  }
 }
 

@@ -16,22 +16,22 @@ import {
   webProducts,
   webSpectrum,
   webPlatforms,
+  webProof,
+  webDevice,
 } from "../data/web-service";
 
 const webCases = getCasesByCategory("web").slice(0, 4);
 
-const heroChips = [
-  {
-    title: "Архитектура",
-    text: "готовые блоки UI под бренд — без месяцев дизайна с нуля.",
-    badge: "UI kit",
+const heroFlanks = {
+  strict: {
+    label: "Строгий стиль",
+    text: "Корпоративный сайт без шума: спокойная типографика, сетка, доверие.",
   },
-  {
-    title: "Стек",
-    text: "Bitrix, Webasyst, Next.js, Astro — под задачу бизнеса.",
-    badge: "5 платформ",
+  concept: {
+    label: "Концепт",
+    text: "Живые эффекты, параллакс и 3D — когда сайт должен запомниться.",
   },
-] as const;
+} as const;
 ---
 
 <!doctype html>
@@ -41,7 +41,7 @@ const heroChips = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Разработка сайтов: лендинг, мультилендинг, визитка, корпоратив и магазин. Bitrix, Webasyst, Next.js, Astro — быстрее и дешевле кастома с нуля."
+      .content="Разработка сайтов: лендинг, мультилендинг, визитка, корпоратив и магазин. Bitrix, Webasyst, WordPress, Next.js, Astro, Laravel, Vue, Node.js, 1С — быстрее и дешевле кастома с нуля."
     />
     <title>Разработка сайтов — ПРАЙМ</title>
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
@@ -49,7 +49,7 @@ const heroChips = [
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;800;900&family=Sora:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Orbitron:wght@700;800;900&family=Sora:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -83,31 +83,47 @@ const heroChips = [
 
             <div class="w-hero__inner">
               <div class="w-hero__top">
-                <h1>Сайты, которые<br />собирают заявки</h1>
+                <h1>Сайты, которые<br />собирают заявки или удивляют</h1>
                 <p class="w-hero__lead">
                   Живой 3D и чёткая структура. Лендинги, визитки, корпоративы и
-                  магазины на готовой архитектуре — быстрее и дешевле разработки
-                  «с нуля».
+                  магазины — на готовых блоках или с обычной разработкой под задачу.
                 </p>
               </div>
 
-              <div class="w-hero__spacer" aria-hidden="true"></div>
+              <div class="w-hero__stage">
+                <aside class="w-flank w-flank--strict">
+                  <p class="w-flank__label">{heroFlanks.strict.label}</p>
+                  <div class="w-flank__plaque">
+                    <p class="w-flank__title">
+                      Классика<br />и строгость
+                    </p>
+                    <p>{heroFlanks.strict.text}</p>
+                  </div>
+                </aside>
+
+                <div class="w-hero__stage-gap" aria-hidden="true"></div>
+
+                <aside class="w-flank w-flank--concept" data-hero-concept>
+                  <p class="w-flank__label">{heroFlanks.concept.label}</p>
+                  <div class="w-flank__glow" aria-hidden="true"></div>
+                  <div class="w-flank__card">
+                    <p class="w-flank__title">
+                      Презентации<br />и удивление
+                    </p>
+                    <p>{heroFlanks.concept.text}</p>
+                    <ul class="w-flank__tags" aria-hidden="true">
+                      <li>parallax</li>
+                      <li>3D</li>
+                      <li>motion</li>
+                    </ul>
+                  </div>
+                </aside>
+              </div>
 
               <div class="w-hero__foot">
-                <div class="w-hero__chips">
-                  {
-                    heroChips.map((m) => (
-                      <div class="w-hero__chip">
-                        <strong>{m.title}</strong>
-                        <span>{m.text}</span>
-                        <em>{m.badge}</em>
-                      </div>
-                    ))
-                  }
-                </div>
                 <div class="w-hero__actions">
                   <a href="#web-cta" class="w-btn w-btn--primary">Оставить заявку</a>
-                  <a href="#products" class="w-btn w-btn--ghost">Форматы и цены</a>
+                  <a href="#spectrum" class="w-btn w-btn--ghost">Смотреть стили</a>
                 </div>
                 <a href="#spectrum" class="w-scroll" aria-label="Дальше">
                   <span class="w-scroll__ring">scroll down</span>
@@ -117,24 +133,79 @@ const heroChips = [
             </div>
           </section>
 
-          <div class="w-specs w-reveal" data-specs>
-            <div class="w-specs__item">
-              <strong><span data-count="80">0</span>%</strong>
-              <span>меньше часов на базу</span>
+          <section class="w-proof w-reveal" data-specs aria-labelledby="web-proof-title">
+            <div class="w-proof__head">
+              <p class="w-proof__eyebrow">{webProof.eyebrow}</p>
+              <h2 id="web-proof-title">{webProof.title}</h2>
+              <p class="w-proof__lead">{webProof.lead}</p>
             </div>
-            <div class="w-specs__item">
-              <strong><span data-count="4">0</span></strong>
-              <span>формата сайта</span>
+
+            <div class="w-proof__layout">
+              <article class="w-proof__hero">
+                <p class="w-proof__label">{webProof.hero.label}</p>
+                <p class="w-proof__value" aria-label={`${webProof.hero.prefix}${webProof.hero.value}${webProof.hero.suffix}`}>
+                  <span class="w-proof__prefix">{webProof.hero.prefix}</span>
+                  <span data-count={webProof.hero.value}>0</span>
+                  <span class="w-proof__suffix">{webProof.hero.suffix}</span>
+                </p>
+                <div class="w-proof__copy">
+                  <h3 class="w-proof__title">{webProof.hero.title}</h3>
+                  <p class="w-proof__text">{webProof.hero.text}</p>
+                </div>
+                <div class="w-proof__meter" aria-hidden="true">
+                  <div class="w-proof__meter-track">
+                    <span class="w-proof__meter-fill" data-meter={webProof.hero.meterBase}></span>
+                  </div>
+                  <div class="w-proof__meter-labels">
+                    <span>шаблонная база · {webProof.hero.meterBase}%</span>
+                    <span>донастройка · {webProof.hero.meterTune}%</span>
+                  </div>
+                </div>
+                <ol class="w-proof__steps">
+                  {webProof.hero.steps.map((s) => (
+                    <li>
+                      <span class="w-proof__steps-n">{s.n}</span>
+                      <strong>{s.title}</strong>
+                      <p>{s.text}</p>
+                    </li>
+                  ))}
+                </ol>
+              </article>
+
+              <div class="w-proof__rail">
+                {webProof.items.map((item, i) => (
+                  <article class={`w-proof__card w-proof__card--${i + 1}`}>
+                    <p class="w-proof__label">{item.label}</p>
+                    <p class="w-proof__value">
+                      {item.value != null ? (
+                        <span data-count={item.value}>0</span>
+                      ) : (
+                        <span class="w-proof__word">{item.display}</span>
+                      )}
+                      {item.unit ? <span class="w-proof__suffix">{item.unit}</span> : null}
+                    </p>
+                    <h3 class="w-proof__title">{item.title}</h3>
+                    <p class="w-proof__text">{item.text}</p>
+                    <ul class="w-proof__chips">
+                      {item.chips.map((chip) =>
+                        typeof chip === "string" ? (
+                          <li>{chip}</li>
+                        ) : (
+                          <li class="w-proof__chip" tabindex="0">
+                            <span class="w-proof__chip-label">{chip.label}</span>
+                            <span class="w-proof__tip" role="tooltip">
+                              <strong>{chip.what}</strong>
+                              <em>{chip.how}</em>
+                            </span>
+                          </li>
+                        ),
+                      )}
+                    </ul>
+                  </article>
+                ))}
+              </div>
             </div>
-            <div class="w-specs__item">
-              <strong><span data-count="5">0</span></strong>
-              <span>платформ на выбор</span>
-            </div>
-            <div class="w-specs__item">
-              <strong>недели</strong>
-              <span>срок вместо месяцев</span>
-            </div>
-          </div>
+          </section>
 
           <section class="w-section w-reveal" id="spectrum">
             <div class="w-section__head">
@@ -254,10 +325,19 @@ const heroChips = [
           </section>
 
           <section class="w-section w-reveal">
-            <div class="w-speed">
+            <div class="w-speed" data-speed-parallax>
+              <div class="w-speed__scene" aria-hidden="true">
+                <div class="w-speed__mesh" data-speed-mesh></div>
+                <span class="w-speed__orb w-speed__orb--1" data-speed-depth="0.08"></span>
+                <span class="w-speed__orb w-speed__orb--2" data-speed-depth="0.14"></span>
+                <span class="w-speed__orb w-speed__orb--3" data-speed-depth="0.05"></span>
+                <span class="w-speed__chip w-speed__chip--1" data-speed-float="1">−60%</span>
+                <span class="w-speed__chip w-speed__chip--2" data-speed-float="-1">быстрее</span>
+                <span class="w-speed__chip w-speed__chip--3" data-speed-float="0.7">без «с нуля»</span>
+              </div>
               <div class="w-speed__copy">
                 <p class="w-speed__stat">
-                  <strong>−80%</strong>
+                  <strong>−60%</strong>
                   <span>времени программиста на шаблонной основе</span>
                 </p>
                 <h2>{webSpeed.title}</h2>
@@ -267,7 +347,7 @@ const heroChips = [
               <div class="w-speed__points">
                 {
                   webSpeed.points.map((p) => (
-                    <article>
+                    <article data-speed-card>
                       <h3>{p.title}</h3>
                       <p>{p.text}</p>
                     </article>
@@ -301,7 +381,7 @@ const heroChips = [
             <div class="w-section__head">
               <h2>Платформы и удобство контента</h2>
               <p>
-                Bitrix, Webasyst, мультилендинг, Next.js и Astro — стек под задачу.
+                Bitrix, Webasyst, WordPress, мультилендинг, Next.js, Astro, Laravel, Vue, Node.js и 1С — стек под задачу.
               </p>
             </div>
             <div class="w-marquee" aria-hidden="true">
@@ -333,37 +413,96 @@ const heroChips = [
             </div>
           </section>
 
-          <section class="w-section w-reveal" id="products">
-            <div class="w-section__head">
-              <h2>Форматы и цены</h2>
-              <p>
-                Подберём решение под задачу и дадим доступ к демо — чтобы
-                протестировать функционал до старта.
-              </p>
-            </div>
-            <div class="w-products">
+          <section class="w-device w-reveal" id="products" data-device aria-labelledby="web-device-title">
+            <div class="w-device__copy">
+              <p class="w-device__eyebrow">{webDevice.eyebrow}</p>
+              <h2 id="web-device-title">{webDevice.title}</h2>
+              <p class="w-device__lead">{webDevice.lead}</p>
+
+              <div class="w-device__tabs" role="tablist" aria-label="Форматы сайта">
+                {
+                  webProducts.map((p, i) => (
+                    <button
+                      type="button"
+                      class:list={["w-device__tab", i === 0 && "is-active"]}
+                      role="tab"
+                      id={`device-tab-${p.id}`}
+                      aria-selected={i === 0 ? "true" : "false"}
+                      aria-controls={`device-panel-${p.id}`}
+                      data-device-tab={p.id}
+                      data-device-index={i}
+                    >
+                      <span class="w-device__tab-idx">0{i + 1}</span>
+                      <span class="w-device__tab-body">
+                        <strong>{p.title}</strong>
+                        <em>{p.price}</em>
+                      </span>
+                    </button>
+                  ))
+                }
+              </div>
+
               {
-                webProducts.map((p) => (
-                  <article
-                    class:list={[
-                      "w-product",
-                      p.id === "shop" && "w-product--shop",
-                    ]}
+                webProducts.map((p, i) => (
+                  <div
+                    class:list={["w-device__panel", i === 0 && "is-active"]}
+                    role="tabpanel"
+                    id={`device-panel-${p.id}`}
+                    aria-labelledby={`device-tab-${p.id}`}
+                    data-device-panel={p.id}
+                    hidden={i !== 0}
                   >
-                    <div class="w-product__top">
-                      <h3>{p.title}</h3>
-                      <span class="w-product__price">{p.price}</span>
-                    </div>
                     <p>{p.lead}</p>
-                    <p class="w-product__note">{p.note}</p>
-                    <div class="w-product__tags">
+                    <p class="w-device__note">{p.note}</p>
+                    <div class="w-device__tags">
                       {p.tags.map((t) => (
                         <span>{t}</span>
                       ))}
                     </div>
-                  </article>
+                    <a href="#web-cta" class="w-btn w-btn--primary">Обсудить {p.title.toLowerCase()}</a>
+                  </div>
                 ))
               }
+            </div>
+
+            <div class="w-device__stage" aria-hidden="true">
+              <ul class="w-device__orbit">
+                {webDevice.orbit.map((chip) => (
+                  <li>{chip}</li>
+                ))}
+              </ul>
+
+              {
+                webDevice.floats.map((f, i) => (
+                  <div class={`w-device__float w-device__float--${i + 1}`}>
+                    <strong>{f.value}</strong>
+                    <span>{f.label}</span>
+                  </div>
+                ))
+              }
+
+              <div class="w-phone" data-phone>
+                <div class="w-phone__bezel">
+                  <div class="w-phone__island"></div>
+                  <div class="w-phone__screen">
+                    {
+                      webProducts.map((p, i) => (
+                        <figure
+                          class:list={["w-phone__slide", i === 0 && "is-active"]}
+                          data-phone-slide={p.id}
+                        >
+                          <img src={p.screen} alt="" loading={i === 0 ? "eager" : "lazy"} />
+                          <figcaption>
+                            <span>{p.badge}</span>
+                            <strong>{p.title}</strong>
+                          </figcaption>
+                        </figure>
+                      ))
+                    }
+                  </div>
+                  <div class="w-phone__home"></div>
+                </div>
+              </div>
             </div>
           </section>
 
@@ -399,7 +538,7 @@ const heroChips = [
             )
           }
 
-          <section id="web-cta" class="w-cta w-reveal">
+          <section id="web-cta" class="w-cta">
             <div class="w-cta__copy">
               <div>
                 <h2>Хотите доверить создание сайта надёжным рукам?</h2>
@@ -410,7 +549,7 @@ const heroChips = [
                   <li>Демо шаблона до старта работ</li>
                   <li>Стиль: от строгого до эффектов</li>
                   <li>Лендинг, визитка, корпоратив или магазин</li>
-                  <li>Срок — недели, не месяцы «с нуля»</li>
+                  <li>Срок — 1,5–3 мес. вместо 5–6 «с нуля»</li>
                 </ul>
               </div>
               <div class="w-cta__contacts">
@@ -422,20 +561,26 @@ const heroChips = [
               <input type="text" name="name" placeholder="Ваше имя" required />
               <input type="tel" name="phone" placeholder="Телефон" required />
               <input type="url" name="site" placeholder="Сайт или соцсеть (если есть)" />
-              <select name="type">
-                <option value="">Что нужно</option>
-                <option>Лендинг</option>
-                <option>Сайт-визитка</option>
-                <option>Корпоративный сайт</option>
-                <option>Интернет-магазин</option>
-                <option>Доработка текущего</option>
-              </select>
-              <select name="style">
-                <option value="">Стиль сайта</option>
-                <option>Строгий / корпоративный</option>
-                <option>С эффектами и анимацией</option>
-                <option>Пока не определились</option>
-              </select>
+              <div class="w-select">
+                <span class="w-select__label">Что нужно</span>
+                <select name="type" data-w-select>
+                  <option value="">Что нужно</option>
+                  <option>Лендинг</option>
+                  <option>Сайт-визитка</option>
+                  <option>Корпоративный сайт</option>
+                  <option>Интернет-магазин</option>
+                  <option>Доработка текущего</option>
+                </select>
+              </div>
+              <div class="w-select">
+                <span class="w-select__label">Стиль сайта</span>
+                <select name="style" data-w-select>
+                  <option value="">Стиль сайта</option>
+                  <option>Строгий / корпоративный</option>
+                  <option>С эффектами и анимацией</option>
+                  <option>Пока не определились</option>
+                </select>
+              </div>
               <textarea
                 name="message"
                 rows="3"

@@ -52,9 +52,42 @@ import {
         </header>
 
         <div class="v6-content">
-          <section class="n-hero">
+          <section class="n-hero" data-n-hero>
             <div class="n-hero__bg" aria-hidden="true" data-parallax-analytics-bg></div>
             <div class="n-hero__veil" aria-hidden="true"></div>
+
+            <div class="n-hero__mesh" aria-hidden="true" data-n-mesh>
+              <svg class="n-mesh" viewBox="0 0 640 420" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <radialGradient id="n-mesh-glow" cx="50%" cy="40%" r="55%">
+                    <stop offset="0%" stop-color="rgba(107,124,255,0.35)"></stop>
+                    <stop offset="100%" stop-color="rgba(107,124,255,0)"></stop>
+                  </radialGradient>
+                </defs>
+                <circle class="n-mesh__aura" cx="420" cy="160" r="160" fill="url(#n-mesh-glow)"></circle>
+                <g class="n-mesh__links" fill="none" stroke="rgba(241,243,248,0.18)" stroke-width="1">
+                  <path d="M80 70 L180 120 L290 90 L400 150 L520 110"></path>
+                  <path d="M120 220 L210 180 L310 240 L430 200 L560 260"></path>
+                  <path d="M180 120 L210 180 L290 90 L310 240 L400 150 L430 200"></path>
+                  <path d="M290 90 L310 240 L400 150 L520 110 L560 260"></path>
+                </g>
+                <g class="n-mesh__nodes" fill="#9aa8ff">
+                  <circle cx="80" cy="70" r="3.5"></circle>
+                  <circle cx="180" cy="120" r="4.5" class="n-mesh__node--hot"></circle>
+                  <circle cx="290" cy="90" r="3.5"></circle>
+                  <circle cx="400" cy="150" r="5" class="n-mesh__node--hot"></circle>
+                  <circle cx="520" cy="110" r="3.5"></circle>
+                  <circle cx="120" cy="220" r="3"></circle>
+                  <circle cx="210" cy="180" r="4" class="n-mesh__node--hot"></circle>
+                  <circle cx="310" cy="240" r="3.5"></circle>
+                  <circle cx="430" cy="200" r="4.5" class="n-mesh__node--hot"></circle>
+                  <circle cx="560" cy="260" r="3.5"></circle>
+                </g>
+                <circle class="n-mesh__ping" cx="210" cy="180" r="4"></circle>
+                <circle class="n-mesh__ping n-mesh__ping--2" cx="400" cy="150" r="4"></circle>
+                <circle class="n-mesh__ping n-mesh__ping--3" cx="430" cy="200" r="4"></circle>
+              </svg>
+            </div>
 
             <div class="n-hero__copy">
               <p class="n-brand">ПРАЙ<em>М</em></p>
@@ -66,34 +99,65 @@ import {
                 email с источником. Платите за каналы, которые реально работают.
               </p>
               <div class="n-hero__actions">
-                <a href="#analytics-cta" class="n-btn n-btn--primary">Подключить аналитику</a>
+                <a href="#analytics-cta" class="n-btn n-btn--primary n-btn--glow"
+                  >Подключить аналитику</a
+                >
                 <a href="#plans" class="n-btn n-btn--ghost">Смотреть тарифы</a>
               </div>
             </div>
 
-            <div class="n-hero__flow" aria-hidden="true">
+            <div class="n-hero__flow" aria-hidden="true" data-n-flow>
               <div class="n-flow">
-                <div class="n-flow__node">
+                <div class="n-flow__head">
+                  <span class="n-flow__live"><i></i> LIVE TRACE</span>
+                  <span class="n-flow__tag">ads → site → CRM</span>
+                </div>
+
+                <div class="n-flow__node is-active" data-n-node="0">
                   <span class="n-flow__dot"></span>
                   <div>
                     <strong>Реклама</strong>
                     <span>Директ · Ads · офлайн</span>
                   </div>
+                  <em class="n-flow__hit" data-n-hit>клик</em>
                 </div>
-                <div class="n-flow__wire"></div>
-                <div class="n-flow__node">
+                <div class="n-flow__wire">
+                  <i class="n-flow__packet"></i>
+                  <i class="n-flow__packet n-flow__packet--delay"></i>
+                </div>
+                <div class="n-flow__node" data-n-node="1">
                   <span class="n-flow__dot"></span>
                   <div>
                     <strong>Сайт</strong>
                     <span>визит · форма · звонок</span>
                   </div>
+                  <em class="n-flow__hit" data-n-hit>лид</em>
                 </div>
-                <div class="n-flow__wire n-flow__wire--2"></div>
-                <div class="n-flow__node">
+                <div class="n-flow__wire n-flow__wire--2">
+                  <i class="n-flow__packet"></i>
+                  <i class="n-flow__packet n-flow__packet--delay"></i>
+                </div>
+                <div class="n-flow__node" data-n-node="2">
                   <span class="n-flow__dot"></span>
                   <div>
                     <strong>CRM · сделка</strong>
                     <span>источник → результат</span>
+                  </div>
+                  <em class="n-flow__hit" data-n-hit>sale</em>
+                </div>
+
+                <div class="n-flow__stats">
+                  <div>
+                    <span>ROAS</span>
+                    <strong data-n-roas>4.2×</strong>
+                  </div>
+                  <div>
+                    <span>сделки / сут</span>
+                    <strong data-n-deals>18</strong>
+                  </div>
+                  <div>
+                    <span>атрибуция</span>
+                    <strong data-n-attr>on</strong>
                   </div>
                 </div>
               </div>
@@ -196,7 +260,7 @@ import {
 
           <section id="analytics-cta" class="n-cta n-reveal">
             <div>
-              <h2>Заинтересовало предложение?</h2>
+              <h2>Предложение интересно?</h2>
               <p>
                 Оставьте заявку — свяжемся и подберём тариф под визиты и CRM.
                 Или позвоните: +7 (473) 203-01-24.
@@ -224,14 +288,15 @@ import {
               <label class="n-form__check">
                 <input type="checkbox" name="agree" required />
                 <span>
-                  Согласен на обработку персональных данных в соответствии с нашей{" "}
-                  <a
-                    class="cookie-link"
-                    href={legalDocs.privacy}
-                    target="_blank"
-                    rel="nofollow noopener noreferrer"
-                    >политикой</a
-                  >.
+                  Согласен на обработку персональных данных в соответствии с{" "}
+                  <span class="n-form__check-link"
+                    >нашей{" "}
+                    <a
+                      class="cookie-link"
+                      href={legalDocs.privacy}
+                      target="_blank"
+                      rel="nofollow noopener noreferrer">политикой</a>.</span
+                  >
                 </span>
               </label>
               <button type="submit" class="n-btn n-btn--primary">Отправить заявку</button>

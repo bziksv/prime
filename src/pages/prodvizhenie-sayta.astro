@@ -16,6 +16,7 @@ import {
   seoTariffs,
   seoRegions,
   seoPlainSpeak,
+  seoDemoRanks,
 } from "../data/seo-service";
 
 const seoCases = getCasesByCategory("seo").slice(0, 4);
@@ -29,6 +30,17 @@ const marquee = [
   { t: "С 2015", e: "на рынке" },
 ];
 const marqueeLoop = [...marquee, ...marquee];
+
+const chapters = [
+  { id: "about", label: "Суть" },
+  { id: "work", label: "Работа" },
+  { id: "result", label: "Результат" },
+  { id: "start", label: "Старт" },
+  { id: "pricing", label: "Тарифы" },
+  { id: "advantages", label: "Плюсы" },
+  ...(seoCases.length > 0 ? [{ id: "cases", label: "Кейсы" }] : []),
+  { id: "seo-cta", label: "Заявка" },
+];
 ---
 
 <!doctype html>
@@ -64,25 +76,76 @@ const marqueeLoop = [...marquee, ...marquee];
           <a href="#seo-cta" class="v6-btn">Оставить заявку</a>
         </header>
 
-        <div class="v6-content">
+        <div class="v6-content" data-s-page>
+          <div class="s-progress" aria-hidden="true">
+            <i data-s-progress></i>
+          </div>
+
           <div class="s-night">
-          <section class="s-hero" data-parallax-hero>
+          <section class="s-hero" data-parallax-hero data-s-hero>
             <div class="s-hero__photo" aria-hidden="true" data-parallax-hero-bg></div>
-            <div class="s-hero__orb s-hero__orb--1" aria-hidden="true"></div>
-            <div class="s-hero__orb s-hero__orb--2" aria-hidden="true"></div>
+            <div class="s-hero__orb s-hero__orb--1" aria-hidden="true" data-s-orb></div>
+            <div class="s-hero__orb s-hero__orb--2" aria-hidden="true" data-s-orb></div>
             <div class="s-hero__grid" aria-hidden="true"></div>
+            <p class="s-hero__giant" aria-hidden="true">TOP</p>
+
             <div class="s-hero__inner">
               <p class="s-brand">ПРАЙ<em>М</em></p>
+              <p class="s-kicker">Pay per TOP-10 · без абонентской «воды»</p>
               <h1>Продвижение сайта с оплатой <span>по факту ТОП-10</span></h1>
               <p class="s-hero__lead">
                 Выводим в первую десятку по ключевым запросам. Платите за фразы,
-                которые реально закрепились в выдаче — без абонентской «воды».
+                которые реально закрепились в выдаче.
               </p>
               <div class="s-hero__actions">
                 <a href="#seo-cta" class="s-btn s-btn--primary">Получить расчёт</a>
                 <a href="#pricing" class="s-btn s-btn--ghost">Смотреть тарифы</a>
               </div>
+              <a href="#about" class="s-hero__scroll" data-s-scroll-hint>
+                <span>Листать</span>
+                <i aria-hidden="true"></i>
+              </a>
             </div>
+
+            <aside class="s-rank" data-s-rank aria-label="Демо оплаты по факту ТОП-10">
+              <header class="s-rank__head">
+                <span class="s-rank__live"><i></i> live ranks</span>
+                <span class="s-rank__proto">PRIME · SERP</span>
+              </header>
+
+              <ul class="s-rank__list">
+                {
+                  seoDemoRanks.map((r, i) => (
+                    <li
+                      class="s-rank__row"
+                      data-s-rank-row
+                      data-from={r.from}
+                      data-to={r.to}
+                      style={`--i:${i}`}
+                    >
+                      <span class="s-rank__pos" data-s-rank-pos>#{r.from}</span>
+                      <span class="s-rank__q">{r.q}</span>
+                      <span class="s-rank__badge" data-s-rank-badge>out</span>
+                    </li>
+                  ))
+                }
+              </ul>
+
+              <div class="s-rank__stats">
+                <div>
+                  <span>in TOP-10</span>
+                  <strong><em data-s-rank-in>0</em> / {seoDemoRanks.length}</strong>
+                </div>
+                <div>
+                  <span>billable</span>
+                  <strong data-s-rank-bill>0 фраз</strong>
+                </div>
+              </div>
+              <p class="s-rank__note" data-s-rank-note>
+                Вне ТОП-10 = 0 ₽ · платите только за закреплённые фразы
+              </p>
+            </aside>
+
             <div class="s-hero__stripe" aria-hidden="true"></div>
           </section>
 
@@ -125,8 +188,30 @@ const marqueeLoop = [...marquee, ...marquee];
           </section>
           </div>
 
+          <nav class="s-chapters" data-s-chapters aria-label="Разделы страницы">
+            <div class="s-chapters__inner">
+              <div class="s-chapters__scroller">
+                <div class="s-chapters__track" data-s-chapters-track>
+                  <span class="s-chapters__thumb" data-s-chapters-thumb aria-hidden="true"></span>
+                  {
+                    chapters.map((c, i) => (
+                      <a
+                        href={`#${c.id}`}
+                        class="s-chapters__link"
+                        data-s-chapter={c.id}
+                        data-i={i}
+                      >
+                        {c.label}
+                      </a>
+                    ))
+                  }
+                </div>
+              </div>
+            </div>
+          </nav>
+
           <div class="s-day">
-          <section class="s-section s-reveal">
+          <section class="s-section s-reveal" id="about" data-s-section>
             <div class="s-section__head">
               <h2>Что это и зачем вам</h2>
               <p>
@@ -162,13 +247,14 @@ const marqueeLoop = [...marquee, ...marquee];
             </div>
           </section>
 
-          <section class="s-section s-reveal" id="work">
+          <section class="s-section s-reveal" id="work" data-s-section>
             <div class="s-section__head">
               <h2>Из чего состоит работа</h2>
               <p>Четыре блока — от целей и аудита до внутренней и внешней оптимизации.</p>
             </div>
-            <div class="s-pillars">
-              <div class="s-pillars__nav" role="tablist" aria-label="Этапы SEO">
+            <div class="s-pillars" data-s-pillars>
+              <div class="s-pillars__nav" role="tablist" aria-label="Этапы SEO" data-s-pillars-nav>
+                <span class="s-pillars__thumb" data-s-pillars-thumb aria-hidden="true"></span>
                 {
                   seoPillars.map((p, i) => (
                     <button
@@ -176,8 +262,10 @@ const marqueeLoop = [...marquee, ...marquee];
                       class:list={["s-pillars__btn", { "is-active": i === 0 }]}
                       role="tab"
                       data-pillar={p.id}
+                      data-i={i}
                       aria-selected={i === 0 ? "true" : "false"}
                     >
+                      <em>0{i + 1}</em>
                       {p.title}
                     </button>
                   ))
@@ -204,7 +292,7 @@ const marqueeLoop = [...marquee, ...marquee];
             </div>
           </section>
 
-          <section class="s-section s-section--tint s-reveal">
+          <section class="s-section s-section--tint s-reveal" id="result" data-s-section>
             <div class="s-section__head">
               <h2>В результате от SEO вы получите</h2>
               <p>Три понятных эффекта — не «видимость ради видимости».</p>
@@ -222,7 +310,7 @@ const marqueeLoop = [...marquee, ...marquee];
             </div>
           </section>
 
-          <section class="s-section s-reveal">
+          <section class="s-section s-reveal" id="start" data-s-section>
             <div class="s-section__head">
               <h2>С чего начать</h2>
               <p>Четыре шага — от заявки до коммерческого предложения.</p>
@@ -240,7 +328,7 @@ const marqueeLoop = [...marquee, ...marquee];
             </div>
           </section>
 
-          <section class="s-section s-section--pricing s-reveal" id="pricing">
+          <section class="s-section s-section--pricing s-reveal" id="pricing" data-s-section>
             <div class="s-section__head">
               <h2>Стоимость</h2>
               <p>
@@ -254,13 +342,15 @@ const marqueeLoop = [...marquee, ...marquee];
               фраз в ТОП-10.
             </p>
 
-            <div class="s-regions" role="group" aria-label="Регион тарифа">
+            <div class="s-regions" role="group" aria-label="Регион тарифа" data-s-regions>
+              <span class="s-regions__thumb" data-s-regions-thumb aria-hidden="true"></span>
               {
                 seoRegions.map((r, i) => (
                   <button
                     type="button"
                     class:list={[{ "is-active": i === 0 }]}
                     data-region={r.id}
+                    data-i={i}
                   >
                     {r.label}
                   </button>
@@ -312,7 +402,7 @@ const marqueeLoop = [...marquee, ...marquee];
             </div>
           </section>
 
-          <section class="s-section s-reveal">
+          <section class="s-section s-reveal" id="advantages" data-s-section>
             <div class="s-section__head">
               <h2>Наши преимущества</h2>
               <p>
@@ -334,7 +424,7 @@ const marqueeLoop = [...marquee, ...marquee];
 
           {
             seoCases.length > 0 && (
-              <section class="s-section s-reveal">
+              <section class="s-section s-reveal" id="cases" data-s-section>
                 <div class="s-section__head">
                   <h2>Кейсы по SEO</h2>
                   <p>Реальные проекты с оплатой по позициям и понятными цифрами.</p>
@@ -365,7 +455,7 @@ const marqueeLoop = [...marquee, ...marquee];
           }
           </div>
 
-          <section id="seo-cta" class="s-cta s-reveal">
+          <section id="seo-cta" class="s-cta s-reveal" data-s-section>
             <div class="s-cta__copy">
               <div>
                 <h2>Нужны клиенты из поиска?</h2>

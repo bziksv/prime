@@ -140,7 +140,7 @@ export const v6IndustriesFeatured = [
   { name: "Медицина", image: "/images/v6/industries/medicina.jpg" },
   { name: "Наука и образование", image: "/images/v6/industries/obrazovanie.jpg" },
   { name: "Спорт", image: "/images/v6/industries/sport.jpg" },
-  { name: "Автомобильный", image: "/images/v6/industries/avto.jpg" },
+  { name: "Авто", image: "/images/v6/industries/avto.jpg" },
   { name: "Безопасность", image: "/images/v6/industries/bezopasnost.jpg" },
   { name: "Культура и искусство", image: "/images/v6/industries/kultura.jpg" },
   { name: "Отдых и туризм", image: "/images/v6/industries/turizm.jpg" },
