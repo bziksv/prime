@@ -1,0 +1,625 @@
+{
+  "generatedFrom": "docs/BLOG-MIGRATION-CHECKLIST.md",
+  "wpCategories": [
+    "blog",
+    "seo-poleznosti",
+    "internet-marketing",
+    "smm",
+    "media-servisyi",
+    "kontent-marketing",
+    "kontekstnaya-reklama",
+    "prodvizhenie-po-tematikam-biznesa",
+    "e-mail-marketing",
+    "prodvizhenie-v-kartah-i-spravochnikah",
+    "bez-rubriki",
+    "nashi-servisy"
+  ],
+  "posts": [
+    {
+      "wpSlug": "adres-veb-sayta-struktura-naznachenie-i-vliyanie-na-seo",
+      "astroSlug": "url-adres",
+      "wpId": 64001,
+      "dup": false
+    },
+    {
+      "wpSlug": "analiz-sayta-konkurentov-trafik-prosmotryi-i-reputatsiya",
+      "astroSlug": "analiz-konkurentov",
+      "wpId": 64374,
+      "dup": false
+    },
+    {
+      "wpSlug": "avatarka-dlya-kanala-na-youtube-chto-eto-gde-skachat-kak-sozdat-i-ustanovit",
+      "astroSlug": "avatar-youtube",
+      "wpId": 64953,
+      "dup": false
+    },
+    {
+      "wpSlug": "blokirovka-akkaunta-v-instagram-kak-vernut-dostup-k-stranitse",
+      "astroSlug": "blokirovka-instagram",
+      "wpId": 63553,
+      "dup": false
+    },
+    {
+      "wpSlug": "chem-polezna-statistika-v-instagram",
+      "astroSlug": "statistika-instagram",
+      "wpId": 64340,
+      "dup": false
+    },
+    {
+      "wpSlug": "chto-daet-top-instagram-dlya-prodvizheniya-proekta",
+      "astroSlug": "top-instagram",
+      "wpId": 63957,
+      "dup": false
+    },
+    {
+      "wpSlug": "chto-predstavlyaet-soboy-didzhital-agenstvo-i-ego-napravleniya",
+      "astroSlug": "didzhital-agentstvo",
+      "wpId": 64620,
+      "dup": false
+    },
+    {
+      "wpSlug": "chto-takoe-avtonapolnenie-sayta-i-kak-eto-rabotaet",
+      "astroSlug": "avtonapolnenie-sayta",
+      "wpId": 65290,
+      "dup": false
+    },
+    {
+      "wpSlug": "chto-takoe-dashboard-i-dlya-chego-on-nuzhen",
+      "astroSlug": "dashboard",
+      "wpId": 64584,
+      "dup": false
+    },
+    {
+      "wpSlug": "chto-takoe-serfing-saytov-horoshiy-sposob-zarabotat-ili-pustaya-trata-vremeni",
+      "astroSlug": "serfing-saytov",
+      "wpId": 64288,
+      "dup": false
+    },
+    {
+      "wpSlug": "chto-takoe-ssyilka-klassifikatsiya-naznachenie-i-osobennosti",
+      "astroSlug": "chto-takoe-ssylka",
+      "wpId": 64242,
+      "dup": false
+    },
+    {
+      "wpSlug": "chto-takoe-strayk-na-yutube",
+      "astroSlug": "strayk-youtube",
+      "wpId": 64072,
+      "dup": false
+    },
+    {
+      "wpSlug": "chto-takoe-url-i-chpu-sovetyi-po-ih-optimizatsii-i-nastroyke",
+      "astroSlug": "url-adres",
+      "wpId": 41234,
+      "dup": true
+    },
+    {
+      "wpSlug": "domennoe-imya-pervogo-urovnya-znachenie-vliyanie-na-seo-prodvizhenie-i-trafik",
+      "astroSlug": "domen-pervogo-urovnya",
+      "wpId": 64354,
+      "dup": false
+    },
+    {
+      "wpSlug": "foto-v-instagram-ot-idei-do-realizatsii",
+      "astroSlug": "foto-instagram",
+      "wpId": 63259,
+      "dup": false
+    },
+    {
+      "wpSlug": "gde_besplatno_razmestit_stati_dlya_prodvizheniya_sajta",
+      "astroSlug": "besplatnoe-razmeshchenie-statey",
+      "wpId": 64682,
+      "dup": false
+    },
+    {
+      "wpSlug": "gipertekst-osobennosti-struktura-i-preimushhestva",
+      "astroSlug": "gipertekst",
+      "wpId": 65160,
+      "dup": false
+    },
+    {
+      "wpSlug": "glavnoe-o-kontent-plane",
+      "astroSlug": "kontent-plan",
+      "wpId": 64400,
+      "dup": false
+    },
+    {
+      "wpSlug": "indeksatsiya-logi-servera-i-analiz-povedeniya-poiskovyih-robotov",
+      "astroSlug": "logi-servera",
+      "wpId": 63642,
+      "dup": false
+    },
+    {
+      "wpSlug": "infografika-vidyi-naznachenie-i-primeryi-2",
+      "astroSlug": "infografika",
+      "wpId": 64114,
+      "dup": false
+    },
+    {
+      "wpSlug": "izuchaem-seo-s-nulya-sovetyi-ot-teh-u-kogo-poluchilos-stat-krutyimi-spetsialistami",
+      "astroSlug": "seo-s-nulya",
+      "wpId": 64168,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-nastroit-i-vesti-pryamoy-efir-v-instagram",
+      "astroSlug": "pryamoy-efir-instagram",
+      "wpId": 65359,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-nastroit-kommentarii-v-pablike-vkontakte-podrobnaya-instruktsiya",
+      "astroSlug": "kommentarii-v-pablike-vk",
+      "wpId": 65322,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-nastroit-prodazhu-trafika-i-poluchat-s-etogo-dohod",
+      "astroSlug": "prodazha-trafika",
+      "wpId": 64496,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-nayti-blogera-dlya-reklamyi-v-instagram",
+      "astroSlug": "bloger-dlya-reklamy-instagram",
+      "wpId": 65217,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-ne-oshibitsya-s-vyiborom-pochtovogo-servisa",
+      "astroSlug": "pochtovyy-servis",
+      "wpId": 63420,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-optimizirovat-kategorii-stranits-v-internet-magazine",
+      "astroSlug": "kategorii-internet-magazina",
+      "wpId": 63353,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-organizovat-i-pravilno-ispolzovat-pryamuyu-translyatsiyu-v-instagram-2",
+      "astroSlug": "pryamoy-efir-instagram",
+      "wpId": 64157,
+      "dup": true
+    },
+    {
+      "wpSlug": "kak-podgotovit-i-opublikovat-statyu-v-vk-poshagovaya-instruktsiya",
+      "astroSlug": "statya-vk",
+      "wpId": 63694,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-polzovatsya-optsiey-istoriya-v-profile-vk",
+      "astroSlug": "istorii-vkontakte",
+      "wpId": 65307,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-pravilno-sostavit-opisanie-yutub-kanala",
+      "astroSlug": "opisanie-youtube-kanala",
+      "wpId": 64785,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-pravilno-vesti-gruppu-v-vk",
+      "astroSlug": "raskrutka-gruppy-vk",
+      "wpId": 63891,
+      "dup": true
+    },
+    {
+      "wpSlug": "kak-rabotat-s-ishodnyim-kodom-sayta-v-kakih-sluchayah-eto-nuzhno",
+      "astroSlug": "ishodnyy-kod",
+      "wpId": 63499,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-raskrutit-svoy-kanal-na-yutub-idei-dlya-nachinayushhih-blogerov",
+      "astroSlug": "raskrutka-youtube",
+      "wpId": 64756,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-samostoyatelno-sdelat-unikalnyiy-avatar-dlya-instagram-servisyi-programmyi-istochniki-izobrazheniy",
+      "astroSlug": "avatar-instagram",
+      "wpId": 64970,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-sdelat-i-nastroit-biznes-akkaunt-v-instagram",
+      "astroSlug": "biznes-akkaunt-instagram",
+      "wpId": 65049,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-sdelat-onlayn-oplatu-na-sayte",
+      "astroSlug": "onlayn-oplata",
+      "wpId": 63413,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-sdelat-shablon-dlya-instagram-oformlyaem-postyi-krasivo",
+      "astroSlug": "shablon-instagram",
+      "wpId": 63775,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-smotret-stories-v-instagram-v-rezhime-inkognito",
+      "astroSlug": "stories-instagram-inkognito",
+      "wpId": 64328,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-svyazat-i-otmenit-svyazku-akkaunta-instagram-i-stranitsyi-feysbuk",
+      "astroSlug": "svyazka-instagram-facebook",
+      "wpId": 63605,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-vyivesti-publikatsii-v-top-instagram-naglyadnoe-rukovodstvo",
+      "astroSlug": "top-instagram",
+      "wpId": 64805,
+      "dup": true
+    },
+    {
+      "wpSlug": "kartinka-ssyilka-pravila-sozdaniya-i-razmeshheniya",
+      "astroSlug": "kartinka-ssylka",
+      "wpId": 64212,
+      "dup": false
+    },
+    {
+      "wpSlug": "klikabelnaya-ona-zhe-aktivnaya-ssyilka-protsess-sozdaniya",
+      "astroSlug": "klikabelnaya-ssylka",
+      "wpId": 64449,
+      "dup": false
+    },
+    {
+      "wpSlug": "kontent-plan-dlya-instagram-kontseptsiya-shablonyi-i-primeryi",
+      "astroSlug": "kontent-plan-instagram",
+      "wpId": 65058,
+      "dup": false
+    },
+    {
+      "wpSlug": "kopirayting-osnovnyie-napravleniya-vidyi-stoimost-uslug-trebovaniya-k-ispolnitelyam",
+      "astroSlug": "kopirayting",
+      "wpId": 64733,
+      "dup": false
+    },
+    {
+      "wpSlug": "menedzher-smm-obyazannosti-plyusyi-i-minusyi-sposobyi-osvoeniya-spetsialnosti",
+      "astroSlug": "menedzher-smm",
+      "wpId": 65212,
+      "dup": false
+    },
+    {
+      "wpSlug": "nadezhnyiy-sposob-za-tri-mesyatsa-udvoit-trafik-bloga-perevod",
+      "astroSlug": "obnovlenie-kontenta",
+      "wpId": 63467,
+      "dup": false
+    },
+    {
+      "wpSlug": "oformlyaem-stranitsu-v-instagrame-kak-horosho-splanirovat-vizualnuyu-chast",
+      "astroSlug": "oformlenie-stranicy-instagram",
+      "wpId": 65372,
+      "dup": false
+    },
+    {
+      "wpSlug": "optimizatsiya-konversii-effektivnye-sposoby-povyisit-prodazhi-na-sayte",
+      "astroSlug": "optimizatsiya-konversii",
+      "wpId": 64125,
+      "dup": false
+    },
+    {
+      "wpSlug": "optimizatsiya-stranitsyi-pod-klyuchevoy-zapros",
+      "astroSlug": "optimizatsiya-stranitsy",
+      "wpId": 63919,
+      "dup": false
+    },
+    {
+      "wpSlug": "optimizatsiya-url-pravila-horoshego-tona",
+      "astroSlug": "url-adres",
+      "wpId": 61640,
+      "dup": true
+    },
+    {
+      "wpSlug": "osobennosti-rabotyi-smm-spetsialista",
+      "astroSlug": "menedzher-smm",
+      "wpId": 64185,
+      "dup": true
+    },
+    {
+      "wpSlug": "otchet-klientu-o-hode-reklamnoy-kampanii-9-pravil-vzaimoponimaniya",
+      "astroSlug": "otchet-klientu",
+      "wpId": 63524,
+      "dup": false
+    },
+    {
+      "wpSlug": "parsing-naznachenie-osobennosti-i-kompleksnaya-nastroyka",
+      "astroSlug": "parsing",
+      "wpId": 64509,
+      "dup": false
+    },
+    {
+      "wpSlug": "partizanskiy-marketing-40-instrumentov-dlya-analiza-konkurentov",
+      "astroSlug": "analiz-konkurentov",
+      "wpId": 63804,
+      "dup": true
+    },
+    {
+      "wpSlug": "polnyiy-gayd-po-sozdaniyu-ispolzovaniyu-i-prodvizheniyu-lichnogo-brenda-v-sotsialnyih-setyah",
+      "astroSlug": "lichnyy-brend",
+      "wpId": 64092,
+      "dup": false
+    },
+    {
+      "wpSlug": "post-v-instagram-pravilnaya-struktura-i-zagolovok-dlya-prodayushhego-teksta",
+      "astroSlug": "post-instagram",
+      "wpId": 64769,
+      "dup": false
+    },
+    {
+      "wpSlug": "pravila-nakrutki-laykov-v-instagram-programmyi-i-prilozheniya",
+      "astroSlug": "nakrutka-laykov-instagram",
+      "wpId": 64714,
+      "dup": false
+    },
+    {
+      "wpSlug": "pravilnoe-privetstvie-posetiteley-sayta",
+      "astroSlug": "privetstvie-sayta",
+      "wpId": 63969,
+      "dup": false
+    },
+    {
+      "wpSlug": "prodayushhie-tekstyi-osnovnyie-printsipyi-i-pravila-sostavleniya",
+      "astroSlug": "prodayushchie-teksty",
+      "wpId": 64364,
+      "dup": false
+    },
+    {
+      "wpSlug": "put-k-sovershenstvu-kak-pravilno-prodvigat-internet-magazin",
+      "astroSlug": "prodvizhenie-internet-magazina",
+      "wpId": 64522,
+      "dup": false
+    },
+    {
+      "wpSlug": "rassyilka-soobshheniy-v-vk-osobennosti-realizatsiya-i-tonkosti",
+      "astroSlug": "rassylka-vk",
+      "wpId": 63933,
+      "dup": false
+    },
+    {
+      "wpSlug": "razvivaem-kanala-telegram-s-nulya",
+      "astroSlug": "telegram-kanal",
+      "wpId": 63947,
+      "dup": false
+    },
+    {
+      "wpSlug": "redirekt-sposob-navesti-poryadok-na-sayte",
+      "astroSlug": "redirekt",
+      "wpId": 64063,
+      "dup": false
+    },
+    {
+      "wpSlug": "reklama-v-instagram-vidyi-i-zatratyi-poisk-blogerov-i-kak-sledit-za-ih-effektivnostyu",
+      "astroSlug": "reklama-instagram",
+      "wpId": 64649,
+      "dup": false
+    },
+    {
+      "wpSlug": "reklama-v-sotsialnoy-seti-vkontakte-podrobnaya-instruktsiya-po-sozdaniyu-podklyucheniyu-i-razmeshheniyu",
+      "astroSlug": "reklama-v-pablikah-vk",
+      "wpId": 65116,
+      "dup": false
+    },
+    {
+      "wpSlug": "rol-menedzhera-v-internet-magazine",
+      "astroSlug": "menedzher-internet-magazina",
+      "wpId": 64037,
+      "dup": false
+    },
+    {
+      "wpSlug": "ryinochnyie-otnosheniya-konkurentyi-i-servisyi-analogi-yandeks-market",
+      "astroSlug": "analogi-yandeks-market",
+      "wpId": 60604,
+      "dup": false
+    },
+    {
+      "wpSlug": "samostoyatelnaya-raskrutka-gruppyi-vkontakte-podgotovka-start-sposobyi-uvelicheniya-chisla-podpischikov",
+      "astroSlug": "raskrutka-gruppy-vk",
+      "wpId": 64430,
+      "dup": false
+    },
+    {
+      "wpSlug": "sekretyi-sostavleniya-snippeta-kak-zavoevat-google",
+      "astroSlug": "snippet",
+      "wpId": 63390,
+      "dup": false
+    },
+    {
+      "wpSlug": "semanticheskaya-razmetka-sayta-v-poiskovoy-optimizatsii",
+      "astroSlug": "snippet",
+      "wpId": 47844,
+      "dup": true
+    },
+    {
+      "wpSlug": "seo-analiz-konkurentov-podrobnoe-rukovodstvo",
+      "astroSlug": "analiz-konkurentov",
+      "wpId": 48307,
+      "dup": true
+    },
+    {
+      "wpSlug": "seo-prodvizhenie-sayta-kak-postroit-pravilnuyu-strukturu-i-rabotat-s-ney",
+      "astroSlug": "seo-struktura-sayta",
+      "wpId": 64883,
+      "dup": false
+    },
+    {
+      "wpSlug": "sklikivanie-sposobyi-vyiyavleniya-zashhityi-i-predotvrashheniya",
+      "astroSlug": "sklikivanie",
+      "wpId": 64222,
+      "dup": false
+    },
+    {
+      "wpSlug": "skolko-zarabatyivayut-blogeryi-v-instagrame",
+      "astroSlug": "zarabotok-blogerov-instagram",
+      "wpId": 65239,
+      "dup": false
+    },
+    {
+      "wpSlug": "skrinshotyi-naznachenie-realizatsiya-i-instrumentyi",
+      "astroSlug": "skrinshoty",
+      "wpId": 64129,
+      "dup": false
+    },
+    {
+      "wpSlug": "sobiraem-semanticheskoe-yadro-sayta-pravilno-kak-podobrat-klyuchevyie-slova",
+      "astroSlug": "semanticheskoe-yadro",
+      "wpId": 65348,
+      "dup": false
+    },
+    {
+      "wpSlug": "sohranennaya-kopiya-stranits-v-yandeks-osobennosti-i-naznachenie",
+      "astroSlug": "sohranennaya-kopiya-yandex",
+      "wpId": 64991,
+      "dup": false
+    },
+    {
+      "wpSlug": "soobshheniya-o-podozritelnom-trafike-v-google-prichinyi-sposobyi-ustraneniya-problemyi",
+      "astroSlug": "podozritelnyy-trafik-google",
+      "wpId": 65203,
+      "dup": false
+    },
+    {
+      "wpSlug": "sposobyi-sbrosa-i-smenyi-parolya-pri-vosstanovlenii-dostupa-v-instagram",
+      "astroSlug": "parol-instagram",
+      "wpId": 64573,
+      "dup": false
+    },
+    {
+      "wpSlug": "ssl-sertifikat-naznachenie-osobennosti-klassifikatsiya",
+      "astroSlug": "ssl-sertifikat",
+      "wpId": 64548,
+      "dup": false
+    },
+    {
+      "wpSlug": "tehnicheskiy-seo-audit-sayta-tseli-i-zadachi-vozmozhen-li-samostoyatelnyiy-zapusk-audita",
+      "astroSlug": "tehnicheskiy-seo-audit",
+      "wpId": 63732,
+      "dup": false
+    },
+    {
+      "wpSlug": "telegram-osobennosti-naznachenie-i-sravnenie-s-konkurentami",
+      "astroSlug": "telegram",
+      "wpId": 63877,
+      "dup": false
+    },
+    {
+      "wpSlug": "tseli-i-pravila-razmeshheniya-na-sayte-formyi-obratnoy-svyazi",
+      "astroSlug": "forma-obratnoy-svyazi",
+      "wpId": 64316,
+      "dup": false
+    },
+    {
+      "wpSlug": "url-chto-eto-takoe",
+      "astroSlug": "url-adres",
+      "wpId": 58436,
+      "dup": true
+    },
+    {
+      "wpSlug": "veb-server-v-podrobnostyah",
+      "astroSlug": "veb-server",
+      "wpId": 64932,
+      "dup": false
+    },
+    {
+      "wpSlug": "vidyi-i-sposobyi-opredeleniya-chastotnosti-zaprosov",
+      "astroSlug": "chastotnost-zaprosov",
+      "wpId": 65121,
+      "dup": false
+    },
+    {
+      "wpSlug": "vse-o-klyuchevyih-slovah-na-sayte-ot-teorii-do-praktiki",
+      "astroSlug": "semanticheskoe-yadro",
+      "wpId": 64902,
+      "dup": true
+    },
+    {
+      "wpSlug": "vse-o-verstke-veb-saytov",
+      "astroSlug": "verstka-saytov",
+      "wpId": 65071,
+      "dup": false
+    },
+    {
+      "wpSlug": "vyidelenie-drugih-polzovateley-v-profile-instagram-pravila-sposobyi-ustanovki-polza-otmetok",
+      "astroSlug": "otmetki-instagram",
+      "wpId": 63211,
+      "dup": false
+    },
+    {
+      "wpSlug": "yandeks-dzen-vyibor-temyi-i-monetizatsiya-kontenta",
+      "astroSlug": "yandeks-dzen",
+      "wpId": 63371,
+      "dup": false
+    },
+    {
+      "wpSlug": "yandeks-kassa-yukassa-naznachenie-osobennosti-i-funktsional",
+      "astroSlug": "yukassa",
+      "wpId": 64387,
+      "dup": false
+    },
+    {
+      "wpSlug": "yandeks-toloka-zarabotok-dlya-polzovateley-i-pomoshh-razrabotchikam",
+      "astroSlug": "yandeks-toloka",
+      "wpId": 64302,
+      "dup": false
+    },
+    {
+      "wpSlug": "zakryitie-sayta-ili-ego-chasti-ot-indeksatsii",
+      "astroSlug": "zakrytie-ot-indeksatsii",
+      "wpId": 64236,
+      "dup": false
+    },
+    {
+      "wpSlug": "zaspamlennost-teksta-chto-eto-i-kak-snizit",
+      "astroSlug": "zaspamlennost-teksta",
+      "wpId": 64415,
+      "dup": false
+    },
+    {
+      "wpSlug": "znachenie-viralnogo-ohvata-dlya-prodvizheniya-v-seti-vkontakte",
+      "astroSlug": "viralnyy-ohvat-vk",
+      "wpId": 64017,
+      "dup": false
+    }
+  ],
+  "pages": [
+    {
+      "from": "/contact/",
+      "to": "/kontakty/"
+    },
+    {
+      "from": "/tehnicheskaya-podderzhka-sayta-obsluzhivanie-i-soprovozhdenie-proektov/",
+      "to": "/tehpodderzhka-sayta/"
+    },
+    {
+      "from": "/projects/",
+      "to": "/keysy/"
+    },
+    {
+      "from": "/vakansii/",
+      "to": "/partnerstvo/"
+    },
+    {
+      "from": "/nashi-servisy/",
+      "to": "/"
+    },
+    {
+      "from": "/bannernaya-reklama/",
+      "to": "/kontekstnaya-reklama/"
+    },
+    {
+      "from": "/integratsiya-s-marketpleysami/",
+      "to": "/razrabotka-saytov/"
+    }
+  ]
+}

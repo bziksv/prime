@@ -93,7 +93,26 @@
 - [ ] Локально: `/blog/<slug>/` — TOC, интерактивы, обложка, мобилка
 - [ ] Чеклист миграции: `[x]` + пометка **новый формат** при полном стандарте
 - [ ] `blogNewFormatSlugs` обновлён
+- [ ] **301:** запись в `src/data/blog-redirects.json` (wpSlug, astroSlug, wpId) + `npm run htaccess:blog`
 - [ ] Коммит / деплой — по запросу
+
+---
+
+## 301 редиректы (old WP → Astro)
+
+Источник правды: `src/data/blog-redirects.json`. Генерация: `npm run htaccess:blog` → `public/.htaccess`.
+
+На старом сайте permalink был `/%category%/%postname%/` (часто `/blog/{wp-slug}/`). После деплоя на `prime-ltd.su` Apache (fallback после nginx `try_files`) отдаёт 301:
+
+| Откуда | Куда |
+|--------|------|
+| `/{category}/{wp-slug}/` | `/blog/{astroSlug}/` |
+| `/{wp-slug}/` | `/blog/{astroSlug}/` |
+| `/?p={wpId}` | `/blog/{astroSlug}/` |
+| дубли (`dup`) | на канон `/blog/{astroSlug}/` |
+| часть служебных страниц (`/contact/` → `/kontakty/` и др.) | см. `pages[]` в JSON |
+
+При каждом переносе или пометке `dup` — сразу дописать JSON и перегенерировать `.htaccess`. Не править `.htaccess` вручную.
 
 ---
 
@@ -109,6 +128,9 @@
 | Клиент статьи | `src/scripts/blog-article-interact.ts`, `blog-ui.ts` |
 | Обложка | `public/images/blog/<slug>/cover.jpg` |
 | Прогресс миграции UI | `src/data/blog-migration.ts` |
+| Карта 301 (WP→Astro) | `src/data/blog-redirects.json` |
+| Генератор `.htaccess` | `scripts/generate-blog-htaccess.mjs` (`npm run htaccess:blog`) |
+| Редиректы на хостинге | `public/.htaccess` (копируется в корень деплоя) |
 
 ---
 
@@ -121,6 +143,7 @@
 5. Чеклист + квиз.
 6. Нейтральные упоминания сервисов (если уместно).
 7. Включить в `blogNewFormatSlugs`, прогнать страницу, отметить чеклист.
+8. Добавить 301 в `blog-redirects.json` и `npm run htaccess:blog`.
 
 ---
 

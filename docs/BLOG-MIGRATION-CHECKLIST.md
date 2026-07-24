@@ -16,6 +16,8 @@
 
 Подробнее: правило Cursor `blog-articles` · раздел «Перед переносом: проверка на схожесть».
 
+**301 при переносе:** `src/data/blog-redirects.json` + `npm run htaccess:blog` → `public/.htaccess` (см. конец файла и `BLOG-ARTICLE-STANDARD.md`).
+
 ## Важно
 
 - В БД **нет published**: `draft` 829 + `pending` 1.
@@ -41,7 +43,7 @@
 | Всего записей в БД | 830 |
 | Пригодных (≥800 симв., slug+title) | 813 |
 | Skip / мусор | 17 |
-| Уже на Astro | 45 |
+| Уже на Astro | 85 |
 
 ### По основной рубрике (эвристика)
 
@@ -120,6 +122,50 @@
 - [x] `prodayushchie-teksty` ← WP `prodayushhie-tekstyi-osnovnyie-printsipyi-i-pravila-sostavleniya` (ID 64364, 2021-10-15, SEO) — `/blog/prodayushchie-teksty/` · **новый формат**
 - [x] `domen-pervogo-urovnya` ← WP `domennoe-imya-pervogo-urovnya-znachenie-vliyanie-na-seo-prodvizhenie-i-trafik` (ID 64354, 2021-10-12, SEO) — `/blog/domen-pervogo-urovnya/` · **новый формат**
 - [x] `statistika-instagram` ← WP `chem-polezna-statistika-v-instagram` (ID 64340, 2021-10-08, SMM) — `/blog/statistika-instagram/` · **новый формат**
+- [x] `stories-instagram-inkognito` ← WP `kak-smotret-stories-v-instagram-v-rezhime-inkognito` (ID 64328, 2021-10-05, SMM) — `/blog/stories-instagram-inkognito/` · **новый формат** (риски сторонних сервисов, без каталога ботов)
+- [x] `forma-obratnoy-svyazi` ← WP `tseli-i-pravila-razmeshheniya-na-sayte-formyi-obratnoy-svyazi` (ID 64316, 2021-10-01, SEO) — `/blog/forma-obratnoy-svyazi/` · **новый формат**
+- [x] `yandeks-toloka` ← WP `yandeks-toloka-zarabotok-dlya-polzovateley-i-pomoshh-razrabotchikam` (ID 64302, 2021-09-28, Интернет-маркетинг) — `/blog/yandeks-toloka/` · **новый формат** (актуализация: Toloka.ai / локальные задания)
+- [x] `serfing-saytov` ← WP `chto-takoe-serfing-saytov-horoshiy-sposob-zarabotat-ili-pustaya-trata-vremeni` (ID 64288, 2021-09-24, Интернет-маркетинг) — `/blog/serfing-saytov/` · **новый формат** (без каталога бирж накрутки)
+- [x] `zakrytie-ot-indeksatsii` ← WP `zakryitie-sayta-ili-ego-chasti-ot-indeksatsii` (ID 64236, 2021-09-22, SEO) — `/blog/zakrytie-ot-indeksatsii/` · **новый формат** (без клоакинга/SEOhide)
+- [x] `chto-takoe-ssylka` ← WP `chto-takoe-ssyilka-klassifikatsiya-naznachenie-i-osobennosti` (ID 64242, 2021-09-21, SEO) — `/blog/chto-takoe-ssylka/` · **новый формат** (смежно с `/blog/klikabelnaya-ssylka/`)
+- [x] `sklikivanie` ← WP `sklikivanie-sposobyi-vyiyavleniya-zashhityi-i-predotvrashheniya` (ID 64222, 2021-09-17, Контекстная реклама) — `/blog/sklikivanie/` · **новый формат**
+- [x] `kartinka-ssylka` ← WP `kartinka-ssyilka-pravila-sozdaniya-i-razmeshheniya` (ID 64212, 2021-09-14, SEO) — `/blog/kartinka-ssylka/` · **новый формат**
+- [x] `optimizatsiya-konversii` ← WP `optimizatsiya-konversii-effektivnye-sposoby-povyisit-prodazhi-na-sayte` (ID 64125, 2021-09-13, Интернет-маркетинг) — `/blog/optimizatsiya-konversii/` · **новый формат**
+- [ ] `osobennosti-rabotyi-smm-spetsialista` — **dup** → `/blog/menedzher-smm/` (обязанности, навыки, вход в SMM; канон уже в новом формате)
+- [x] `seo-s-nulya` ← WP `izuchaem-seo-s-nulya-sovetyi-ot-teh-u-kogo-poluchilos-stat-krutyimi-spetsialistami` (ID 64168, 2021-09-09, SEO) — `/blog/seo-s-nulya/` · **новый формат**
+- [ ] `kak-organizovat-i-pravilno-ispolzovat-pryamuyu-translyatsiyu-v-instagram-2` — **dup** → `/blog/pryamoy-efir-instagram/` (подготовка, ведение, разбор эфира; канон уже в новом формате)
+- [x] `skrinshoty` ← WP `skrinshotyi-naznachenie-realizatsiya-i-instrumentyi` (ID 64129, 2021-09-03, Контент-маркетинг) — `/blog/skrinshoty/` · **новый формат**
+- [x] `infografika` ← WP `infografika-vidyi-naznachenie-i-primeryi-2` (ID 64114, 2021-08-31, Контент-маркетинг) — `/blog/infografika/` · **новый формат**
+- [x] `lichnyy-brend` ← WP `polnyiy-gayd-po-sozdaniyu-ispolzovaniyu-i-prodvizheniyu-lichnogo-brenda-v-sotsialnyih-setyah` (ID 64092, 2021-08-27, SMM) — `/blog/lichnyy-brend/` · **новый формат**
+- [x] `redirekt` ← WP `redirekt-sposob-navesti-poryadok-na-sayte` (ID 64063, 2021-08-24, SEO) — `/blog/redirekt/` · **новый формат**
+- [x] `strayk-youtube` ← WP `chto-takoe-strayk-na-yutube` (ID 64072, 2021-08-24, SMM) — `/blog/strayk-youtube/` · **новый формат**
+- [x] `menedzher-internet-magazina` ← WP `rol-menedzhera-v-internet-magazine` (ID 64037, 2021-08-20, Интернет-маркетинг) — `/blog/menedzher-internet-magazina/` · **новый формат**
+- [x] `rassylka-vk` ← WP `rassyilka-soobshheniy-v-vk-osobennosti-realizatsiya-i-tonkosti` (ID 63933, 2021-08-17, SMM) — `/blog/rassylka-vk/` · **новый формат** (без каталога спам-софта)
+- [x] `viralnyy-ohvat-vk` ← WP `znachenie-viralnogo-ohvata-dlya-prodvizheniya-v-seti-vkontakte` (ID 64017, 2021-08-17, SMM) — `/blog/viralnyy-ohvat-vk/` · **новый формат**
+- [x] `url-adres` ← WP `adres-veb-sayta-struktura-naznachenie-i-vliyanie-na-seo` (ID 64001, 2021-08-13, SEO) — `/blog/url-adres/` · **новый формат** (смежно с `/blog/domen-pervogo-urovnya/`, `/blog/seo-struktura-sayta/`)
+- [x] `privetstvie-sayta` ← WP `pravilnoe-privetstvie-posetiteley-sayta` (ID 63969, 2021-08-10, Интернет-маркетинг) — `/blog/privetstvie-sayta/` · **новый формат**
+- [x] `top-instagram` ← WP `chto-daet-top-instagram-dlya-prodvizheniya-proekta` (ID 63957, 2021-08-10, SMM) — `/blog/top-instagram/` · **новый формат**
+- [x] `telegram-kanal` ← WP `razvivaem-kanala-telegram-s-nulya` (ID 63947, 2021-08-06, SMM) — `/blog/telegram-kanal/` · **новый формат**
+- [x] `optimizatsiya-stranitsy` ← WP `optimizatsiya-stranitsyi-pod-klyuchevoy-zapros` (ID 63919, 2021-08-02, SEO) — `/blog/optimizatsiya-stranitsy/` · **новый формат**
+- [ ] `partizanskiy-marketing-40-instrumentov-dlya-analiza-konkurentov` — **dup** → `/blog/analiz-konkurentov/` (каталог SEO/spy-сервисов, не классический партизанский маркетинг; канон уже в новом формате)
+- [ ] `kak-pravilno-vesti-gruppu-v-vk` — **dup** → `/blog/raskrutka-gruppy-vk/` (оформление, контент-план, посты, продвижение; канон уже в новом формате)
+- [x] `telegram` ← WP `telegram-osobennosti-naznachenie-i-sravnenie-s-konkurentami` (ID 63877, 2021-07-27, SMM) — `/blog/telegram/` · **новый формат** (смежно с `/blog/telegram-kanal/`)
+- [x] `shablon-instagram` ← WP `kak-sdelat-shablon-dlya-instagram-oformlyaem-postyi-krasivo` (ID 63775, 2021-07-23, SMM) — `/blog/shablon-instagram/` · **новый формат** (смежно с оформлением профиля / контент-планом)
+- [x] `statya-vk` ← WP `kak-podgotovit-i-opublikovat-statyu-v-vk-poshagovaya-instruktsiya` (ID 63694, 2021-07-20, SMM) — `/blog/statya-vk/` · **новый формат**
+- [x] `logi-servera` ← WP `indeksatsiya-logi-servera-i-analiz-povedeniya-poiskovyih-robotov` (ID 63642, 2021-07-19, SEO) — `/blog/logi-servera/` · **новый формат** (смежно с техаудитом / закрытием от индексации)
+- [x] `svyazka-instagram-facebook` ← WP `kak-svyazat-i-otmenit-svyazku-akkaunta-instagram-i-stranitsyi-feysbuk` (ID 63605, 2021-07-16, SMM) — `/blog/svyazka-instagram-facebook/` · **новый формат**
+- [x] `blokirovka-instagram` ← WP `blokirovka-akkaunta-v-instagram-kak-vernut-dostup-k-stranitse` (ID 63553, 2021-07-13, SMM) — `/blog/blokirovka-instagram/` · **новый формат** (смежно с `/blog/parol-instagram/`)
+- [x] `otchet-klientu` ← WP `otchet-klientu-o-hode-reklamnoy-kampanii-9-pravil-vzaimoponimaniya` (ID 63524, 2021-07-12, Интернет-маркетинг) — `/blog/otchet-klientu/` · **новый формат**
+- [x] `ishodnyy-kod` ← WP `kak-rabotat-s-ishodnyim-kodom-sayta-v-kakih-sluchayah-eto-nuzhno` (ID 63499, 2021-07-09, SEO) — `/blog/ishodnyy-kod/` · **новый формат** (смежно с `/blog/verstka-saytov/`)
+- [x] `obnovlenie-kontenta` ← WP `nadezhnyiy-sposob-za-tri-mesyatsa-udvoit-trafik-bloga-perevod` (ID 63467, 2021-07-08, Контент-маркетинг) — `/blog/obnovlenie-kontenta/` · **новый формат** (без гарантии «×2 за 3 мес.»)
+- [x] `onlayn-oplata` ← WP `kak-sdelat-onlayn-oplatu-na-sayte` (ID 63413, 2021-07-08, Интернет-маркетинг) — `/blog/onlayn-oplata/` · **новый формат** (смежно с `/blog/yukassa/`)
+- [x] `pochtovyy-servis` ← WP `kak-ne-oshibitsya-s-vyiborom-pochtovogo-servisa` (ID 63420, 2021-07-06, Интернет-маркетинг) — `/blog/pochtovyy-servis/` · **новый формат**
+- [x] `snippet` ← WP `sekretyi-sostavleniya-snippeta-kak-zavoevat-google` (ID 63390, 2021-07-05, SEO) — `/blog/snippet/` · **новый формат** (смежно с `/blog/optimizatsiya-stranitsy/`)
+- [x] `kategorii-internet-magazina` ← WP `kak-optimizirovat-kategorii-stranits-v-internet-magazine` (ID 63353, 2021-07-05, SEO) — `/blog/kategorii-internet-magazina/` · **новый формат** (смежно с `/blog/prodvizhenie-internet-magazina/`)
+- [x] `yandeks-dzen` ← WP `yandeks-dzen-vyibor-temyi-i-monetizatsiya-kontenta` (ID 63371, 2021-07-02, Контент-маркетинг) — `/blog/yandeks-dzen/` · **новый формат**
+- [x] `foto-instagram` ← WP `foto-v-instagram-ot-idei-do-realizatsii` (ID 63259, 2021-06-29, SMM) — `/blog/foto-instagram/` · **новый формат** (смежно с шаблонами / оформлением / постом)
+- [x] `otmetki-instagram` ← WP `vyidelenie-drugih-polzovateley-v-profile-instagram-…` (ID 63211, 2021-06-25, SMM) — `/blog/otmetki-instagram/` · **новый формат**
+- [x] `analogi-yandeks-market` ← WP `ryinochnyie-otnosheniya-konkurentyi-i-servisyi-analogi-yandeks-market` (ID 60604, 2021-06-24, Интернет-маркетинг) — `/blog/analogi-yandeks-market/` · **новый формат**
 - [ ] `vse-o-klyuchevyih-slovah-na-sayte-ot-teorii-do-praktiki` — **dup** → `/blog/semanticheskoe-yadro/` (теория ключей + Wordstat + конкуренты; канон уже в новом формате)
 
 ## SEO (297)
@@ -214,96 +260,96 @@
   ID `64354` · 2021-10-12 · ~8k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/domen-pervogo-urovnya/` · **новый формат**
 - [x] `chem-polezna-statistika-v-instagram` — Чем полезна статистика в Инстаграм    
   ID `64340` · 2021-10-08 · ~18k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/statistika-instagram/` · **новый формат** (категория SMM)
-- [ ] `kak-smotret-stories-v-instagram-v-rezhime-inkognito` — Как смотреть Stories в Instagram в режиме инкогнито    
-  ID `64328` · 2021-10-05 · ~13k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `tseli-i-pravila-razmeshheniya-na-sayte-formyi-obratnoy-svyazi` — Цели и правила размещения на сайте формы обратной связи    
-  ID `64316` · 2021-10-01 · ~8k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `yandeks-toloka-zarabotok-dlya-polzovateley-i-pomoshh-razrabotchikam` — Яндекс.Толока – заработок для пользователей и помощь разработчикам    
-  ID `64302` · 2021-09-28 · ~15k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `chto-takoe-serfing-saytov-horoshiy-sposob-zarabotat-ili-pustaya-trata-vremeni` — Что такое серфинг сайтов: хороший способ заработать или пустая трата времени?    
-  ID `64288` · 2021-09-24 · ~10k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `zakryitie-sayta-ili-ego-chasti-ot-indeksatsii` — Закрытие сайта или его части от индексации    
-  ID `64236` · 2021-09-22 · ~14k · SEO
-- [ ] `chto-takoe-ssyilka-klassifikatsiya-naznachenie-i-osobennosti` — Что такое ссылка? Классификация, назначение и особенности    
-  ID `64242` · 2021-09-21 · ~12k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `sklikivanie-sposobyi-vyiyavleniya-zashhityi-i-predotvrashheniya` — Скликивание: способы выявления, защиты и предотвращения    
-  ID `64222` · 2021-09-17 · ~16k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `kartinka-ssyilka-pravila-sozdaniya-i-razmeshheniya` — Картинка-ссылка: правила создания и размещения    
-  ID `64212` · 2021-09-14 · ~7k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `optimizatsiya-konversii-effektivnye-sposoby-povyisit-prodazhi-na-sayte` — Оптимизация конверсии. Эффективные способы повысить продажи на сайте    
-  ID `64125` · 2021-09-13 · ~17k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса
-- [ ] `osobennosti-rabotyi-smm-spetsialista` — Особенности работы SMM-специалиста    
+- [x] `kak-smotret-stories-v-instagram-v-rezhime-inkognito` — Как смотреть Stories в Instagram в режиме инкогнито    
+  ID `64328` · 2021-10-05 · ~13k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/stories-instagram-inkognito/` · **новый формат** (категория SMM; без каталога шпионских ботов)
+- [x] `tseli-i-pravila-razmeshheniya-na-sayte-formyi-obratnoy-svyazi` — Цели и правила размещения на сайте формы обратной связи    
+  ID `64316` · 2021-10-01 · ~8k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/forma-obratnoy-svyazi/` · **новый формат**
+- [x] `yandeks-toloka-zarabotok-dlya-polzovateley-i-pomoshh-razrabotchikam` — Яндекс.Толока – заработок для пользователей и помощь разработчикам    
+  ID `64302` · 2021-09-28 · ~15k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/yandeks-toloka/` · **новый формат** (категория Интернет-маркетинг; Toloka.ai / локальные задания)
+- [x] `chto-takoe-serfing-saytov-horoshiy-sposob-zarabotat-ili-pustaya-trata-vremeni` — Что такое серфинг сайтов: хороший способ заработать или пустая трата времени?    
+  ID `64288` · 2021-09-24 · ~10k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/serfing-saytov/` · **новый формат** (без каталога бирж накрутки)
+- [x] `zakryitie-sayta-ili-ego-chasti-ot-indeksatsii` — Закрытие сайта или его части от индексации    
+  ID `64236` · 2021-09-22 · ~14k · SEO → Astro `/blog/zakrytie-ot-indeksatsii/` · **новый формат** (без клоакинга/SEOhide)
+- [x] `chto-takoe-ssyilka-klassifikatsiya-naznachenie-i-osobennosti` — Что такое ссылка? Классификация, назначение и особенности    
+  ID `64242` · 2021-09-21 · ~12k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/chto-takoe-ssylka/` · **новый формат** (смежно с кликабельной ссылкой)
+- [x] `sklikivanie-sposobyi-vyiyavleniya-zashhityi-i-predotvrashheniya` — Скликивание: способы выявления, защиты и предотвращения    
+  ID `64222` · 2021-09-17 · ~16k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/sklikivanie/` · **новый формат** (категория Контекстная реклама)
+- [x] `kartinka-ssyilka-pravila-sozdaniya-i-razmeshheniya` — Картинка-ссылка: правила создания и размещения    
+  ID `64212` · 2021-09-14 · ~7k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/kartinka-ssylka/` · **новый формат**
+- [x] `optimizatsiya-konversii-effektivnye-sposoby-povyisit-prodazhi-na-sayte` — Оптимизация конверсии. Эффективные способы повысить продажи на сайте    
+  ID `64125` · 2021-09-13 · ~17k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса → Astro `/blog/optimizatsiya-konversii/` · **новый формат** (категория Интернет-маркетинг)
+- [ ] `osobennosti-rabotyi-smm-spetsialista` — Особенности работы SMM-специалиста — **dup** → `/blog/menedzher-smm/`    
   ID `64185` · 2021-09-10 · ~15k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `izuchaem-seo-s-nulya-sovetyi-ot-teh-u-kogo-poluchilos-stat-krutyimi-spetsialistami` — Изучаем SEO с нуля: советы от тех, у кого получилось стать крутыми специалистами    
-  ID `64168` · 2021-09-09 · ~11k · SEO
-- [ ] `kak-organizovat-i-pravilno-ispolzovat-pryamuyu-translyatsiyu-v-instagram-2` — Как организовать и правильно использовать прямую трансляцию в Instagram    
+- [x] `izuchaem-seo-s-nulya-sovetyi-ot-teh-u-kogo-poluchilos-stat-krutyimi-spetsialistami` — Изучаем SEO с нуля: советы от тех, у кого получилось стать крутыми специалистами    
+  ID `64168` · 2021-09-09 · ~11k · SEO → Astro `/blog/seo-s-nulya/` · **новый формат**
+- [ ] `kak-organizovat-i-pravilno-ispolzovat-pryamuyu-translyatsiyu-v-instagram-2` — Как организовать и правильно использовать прямую трансляцию в Instagram — **dup** → `/blog/pryamoy-efir-instagram/`    
   ID `64157` · 2021-09-07 · ~13k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `skrinshotyi-naznachenie-realizatsiya-i-instrumentyi` — Скриншоты. Назначение, реализация и инструменты    
-  ID `64129` · 2021-09-03 · ~8k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `infografika-vidyi-naznachenie-i-primeryi-2` — Инфографика: виды, назначение и примеры    
-  ID `64114` · 2021-08-31 · ~8k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `polnyiy-gayd-po-sozdaniyu-ispolzovaniyu-i-prodvizheniyu-lichnogo-brenda-v-sotsialnyih-setyah` — Полный гайд по созданию, использованию и продвижению личного бренда в социальных сетях    
-  ID `64092` · 2021-08-27 · ~40k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `redirekt-sposob-navesti-poryadok-na-sayte` — Редирект — способ навести порядок на сайте    
-  ID `64063` · 2021-08-24 · ~15k · SEO
-- [ ] `chto-takoe-strayk-na-yutube` — Что такое страйк на Ютубе    
-  ID `64072` · 2021-08-24 · ~13k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `rol-menedzhera-v-internet-magazine` — Роль менеджера в интернет-магазине    
-  ID `64037` · 2021-08-20 · ~10k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `rassyilka-soobshheniy-v-vk-osobennosti-realizatsiya-i-tonkosti` — Рассылка сообщений в VK. Особенности, реализация и тонкости    
-  ID `63933` · 2021-08-17 · ~16k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса
-- [ ] `znachenie-viralnogo-ohvata-dlya-prodvizheniya-v-seti-vkontakte` — Значение вирального охвата для продвижения в сети ВКонтакте    
-  ID `64017` · 2021-08-17 · ~9k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `adres-veb-sayta-struktura-naznachenie-i-vliyanie-na-seo` — Адрес веб-сайта: структура, назначение и влияние на SEO    
-  ID `64001` · 2021-08-13 · ~7k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `pravilnoe-privetstvie-posetiteley-sayta` — Правильное приветствие посетителей сайта    
-  ID `63969` · 2021-08-10 · ~12k · SEO
-- [ ] `chto-daet-top-instagram-dlya-prodvizheniya-proekta` — Что дает ТОП Instagram для продвижения проекта    
-  ID `63957` · 2021-08-10 · ~9k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `razvivaem-kanala-telegram-s-nulya` — Развиваем Telegram-канал с нуля    
-  ID `63947` · 2021-08-06 · ~15k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `optimizatsiya-stranitsyi-pod-klyuchevoy-zapros` — Оптимизация страницы под ключевой запрос    
-  ID `63919` · 2021-08-02 · ~8k · SEO
-- [ ] `partizanskiy-marketing-40-instrumentov-dlya-analiza-konkurentov` — Партизанский маркетинг: 40+ инструментов для анализа конкурентов    
+- [x] `skrinshotyi-naznachenie-realizatsiya-i-instrumentyi` — Скриншоты. Назначение, реализация и инструменты    
+  ID `64129` · 2021-09-03 · ~8k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/skrinshoty/` · **новый формат** (категория Контент-маркетинг)
+- [x] `infografika-vidyi-naznachenie-i-primeryi-2` — Инфографика: виды, назначение и примеры    
+  ID `64114` · 2021-08-31 · ~8k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/infografika/` · **новый формат** (категория Контент-маркетинг)
+- [x] `polnyiy-gayd-po-sozdaniyu-ispolzovaniyu-i-prodvizheniyu-lichnogo-brenda-v-sotsialnyih-setyah` — Полный гайд по созданию, использованию и продвижению личного бренда в социальных сетях    
+  ID `64092` · 2021-08-27 · ~40k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/lichnyy-brend/` · **новый формат** (категория SMM; сжатый evergreen)
+- [x] `redirekt-sposob-navesti-poryadok-na-sayte` — Редирект — способ навести порядок на сайте    
+  ID `64063` · 2021-08-24 · ~15k · SEO → Astro `/blog/redirekt/` · **новый формат**
+- [x] `chto-takoe-strayk-na-yutube` — Что такое страйк на Ютубе    
+  ID `64072` · 2021-08-24 · ~13k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/strayk-youtube/` · **новый формат** (категория SMM)
+- [x] `rol-menedzhera-v-internet-magazine` — Роль менеджера в интернет-магазине    
+  ID `64037` · 2021-08-20 · ~10k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/menedzher-internet-magazina/` · **новый формат** (категория Интернет-маркетинг)
+- [x] `rassyilka-soobshheniy-v-vk-osobennosti-realizatsiya-i-tonkosti` — Рассылка сообщений в VK. Особенности, реализация и тонкости    
+  ID `63933` · 2021-08-17 · ~16k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса → Astro `/blog/rassylka-vk/` · **новый формат** (категория SMM; без каталога спам-софта)
+- [x] `znachenie-viralnogo-ohvata-dlya-prodvizheniya-v-seti-vkontakte` — Значение вирального охвата для продвижения в сети ВКонтакте    
+  ID `64017` · 2021-08-17 · ~9k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/viralnyy-ohvat-vk/` · **новый формат** (категория SMM)
+- [x] `adres-veb-sayta-struktura-naznachenie-i-vliyanie-na-seo` — Адрес веб-сайта: структура, назначение и влияние на SEO    
+  ID `64001` · 2021-08-13 · ~7k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/url-adres/` · **новый формат** (категория SEO)
+- [x] `pravilnoe-privetstvie-posetiteley-sayta` — Правильное приветствие посетителей сайта    
+  ID `63969` · 2021-08-10 · ~12k · SEO → Astro `/blog/privetstvie-sayta/` · **новый формат** (категория Интернет-маркетинг)
+- [x] `chto-daet-top-instagram-dlya-prodvizheniya-proekta` — Что дает ТОП Instagram для продвижения проекта    
+  ID `63957` · 2021-08-10 · ~9k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/top-instagram/` · **новый формат** (категория SMM)
+- [x] `razvivaem-kanala-telegram-s-nulya` — Развиваем Telegram-канал с нуля    
+  ID `63947` · 2021-08-06 · ~15k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/telegram-kanal/` · **новый формат** (категория SMM)
+- [x] `optimizatsiya-stranitsyi-pod-klyuchevoy-zapros` — Оптимизация страницы под ключевой запрос    
+  ID `63919` · 2021-08-02 · ~8k · SEO → Astro `/blog/optimizatsiya-stranitsy/` · **новый формат**
+- [ ] `partizanskiy-marketing-40-instrumentov-dlya-analiza-konkurentov` — **dup** → `/blog/analiz-konkurentov/` (40+ инструментов анализа конкурентов / spy-SEO; канон уже в новом формате)
   ID `63804` · 2021-08-02 · ~40k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса
-- [ ] `kak-pravilno-vesti-gruppu-v-vk` — Как правильно вести группу в ВК    
+- [ ] `kak-pravilno-vesti-gruppu-v-vk` — **dup** → `/blog/raskrutka-gruppy-vk/` (оформление, контент-план, ведение, продвижение; канон уже в новом формате)
   ID `63891` · 2021-07-30 · ~23k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `telegram-osobennosti-naznachenie-i-sravnenie-s-konkurentami` — Telegram. Особенности, назначение и сравнение с конкурентами    
-  ID `63877` · 2021-07-27 · ~26k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `kak-sdelat-shablon-dlya-instagram-oformlyaem-postyi-krasivo` — Как сделать шаблон для Инстаграм. Оформляем посты красиво.    
-  ID `63775` · 2021-07-23 · ~28k · SEO · Интернет-маркетинг · Медиа сервисы
+- [x] `telegram-osobennosti-naznachenie-i-sravnenie-s-konkurentami` — Telegram. Особенности, назначение и сравнение с конкурентами    
+  ID `63877` · 2021-07-27 · ~26k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/telegram/` · **новый формат** (категория SMM; смежно с `/blog/telegram-kanal/`)
+- [x] `kak-sdelat-shablon-dlya-instagram-oformlyaem-postyi-krasivo` — Как сделать шаблон для Инстаграм. Оформляем посты красиво.    
+  ID `63775` · 2021-07-23 · ~28k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/shablon-instagram/` · **новый формат** (категория SMM; смежно с `/blog/oformlenie-stranicy-instagram/`)
 - [x] `tehnicheskiy-seo-audit-sayta-tseli-i-zadachi-vozmozhen-li-samostoyatelnyiy-zapusk-audita` — Технический SEO-аудит сайта. Цели и задачи. Возможен ли самостоятельный запуск аудита    
   ID `63732` · 2021-07-22 · ~17k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса → Astro `/blog/tehnicheskiy-seo-audit/`
-- [ ] `kak-podgotovit-i-opublikovat-statyu-v-vk-poshagovaya-instruktsiya` — Как подготовить и опубликовать статью в VK: пошаговая инструкция    
-  ID `63694` · 2021-07-20 · ~13k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `indeksatsiya-logi-servera-i-analiz-povedeniya-poiskovyih-robotov` — Индексация, логи сервера и анализ поведения поисковых роботов    
-  ID `63642` · 2021-07-19 · ~23k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса
-- [ ] `kak-svyazat-i-otmenit-svyazku-akkaunta-instagram-i-stranitsyi-feysbuk` — Как связать и отменить связку аккаунта Инстаграм и страницы Фейсбук    
-  ID `63605` · 2021-07-16 · ~14k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `blokirovka-akkaunta-v-instagram-kak-vernut-dostup-k-stranitse` — Блокировка аккаунта в Instagram. Как вернуть доступ к странице    
-  ID `63553` · 2021-07-13 · ~12k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `otchet-klientu-o-hode-reklamnoy-kampanii-9-pravil-vzaimoponimaniya` — Отчет клиенту о ходе рекламной кампании: 9 правил взаимопонимания    
-  ID `63524` · 2021-07-12 · ~10k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса
-- [ ] `kak-rabotat-s-ishodnyim-kodom-sayta-v-kakih-sluchayah-eto-nuzhno` — Как работать с исходным кодом сайта. В каких случаях это нужно    
-  ID `63499` · 2021-07-09 · ~14k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `nadezhnyiy-sposob-za-tri-mesyatsa-udvoit-trafik-bloga-perevod` — Надежный способ за три месяца удвоить трафик блога (перевод)    
-  ID `63467` · 2021-07-08 · ~19k · SEO · Интернет-маркетинг · Контент-маркетинг
-- [ ] `kak-sdelat-onlayn-oplatu-na-sayte` — Как сделать онлайн-оплату на сайте    
-  ID `63413` · 2021-07-08 · ~14k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса
-- [ ] `kak-ne-oshibitsya-s-vyiborom-pochtovogo-servisa` — Как не ошибиться с выбором почтового сервиса    
-  ID `63420` · 2021-07-06 · ~30k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `sekretyi-sostavleniya-snippeta-kak-zavoevat-google` — Секреты составления сниппета. Как завоевать Google    
-  ID `63390` · 2021-07-05 · ~14k · SEO · Интернет-маркетинг
-- [ ] `kak-optimizirovat-kategorii-stranits-v-internet-magazine` — Как оптимизировать категории страниц в интернет-магазине    
-  ID `63353` · 2021-07-05 · ~16k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса
-- [ ] `yandeks-dzen-vyibor-temyi-i-monetizatsiya-kontenta` — «Яндекс.Дзен»: выбор темы и монетизация контента    
-  ID `63371` · 2021-07-02 · ~10k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `foto-v-instagram-ot-idei-do-realizatsii` — Фото в Instagram: от идеи до реализации    
-  ID `63259` · 2021-06-29 · ~37k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `vyidelenie-drugih-polzovateley-v-profile-instagram-pravila-sposobyi-ustanovki-polza-otmetok` — Выделение других пользователей в профиле Инстаграм: правила, способы установки, польза отметок    
-  ID `63211` · 2021-06-25 · ~14k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `ryinochnyie-otnosheniya-konkurentyi-i-servisyi-analogi-yandeks-market` — Рыночные отношения. Конкуренты и сервисы-аналоги «Яндекс.Маркет»    
-  ID `60604` · 2021-06-24 · ~10k · SEO · Интернет-маркетинг
+- [x] `kak-podgotovit-i-opublikovat-statyu-v-vk-poshagovaya-instruktsiya` — Как подготовить и опубликовать статью в VK: пошаговая инструкция    
+  ID `63694` · 2021-07-20 · ~13k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/statya-vk/` · **новый формат** (категория SMM)
+- [x] `indeksatsiya-logi-servera-i-analiz-povedeniya-poiskovyih-robotov` — Индексация, логи сервера и анализ поведения поисковых роботов    
+  ID `63642` · 2021-07-19 · ~23k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса → Astro `/blog/logi-servera/` · **новый формат**
+- [x] `kak-svyazat-i-otmenit-svyazku-akkaunta-instagram-i-stranitsyi-feysbuk` — Как связать и отменить связку аккаунта Инстаграм и страницы Фейсбук    
+  ID `63605` · 2021-07-16 · ~14k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/svyazka-instagram-facebook/` · **новый формат** (категория SMM)
+- [x] `blokirovka-akkaunta-v-instagram-kak-vernut-dostup-k-stranitse` — Блокировка аккаунта в Instagram. Как вернуть доступ к странице    
+  ID `63553` · 2021-07-13 · ~12k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/blokirovka-instagram/` · **новый формат** (категория SMM)
+- [x] `otchet-klientu-o-hode-reklamnoy-kampanii-9-pravil-vzaimoponimaniya` — Отчет клиенту о ходе рекламной кампании: 9 правил взаимопонимания    
+  ID `63524` · 2021-07-12 · ~10k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса → Astro `/blog/otchet-klientu/` · **новый формат** (категория Интернет-маркетинг)
+- [x] `kak-rabotat-s-ishodnyim-kodom-sayta-v-kakih-sluchayah-eto-nuzhno` — Как работать с исходным кодом сайта. В каких случаях это нужно    
+  ID `63499` · 2021-07-09 · ~14k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/ishodnyy-kod/` · **новый формат**
+- [x] `nadezhnyiy-sposob-za-tri-mesyatsa-udvoit-trafik-bloga-perevod` — Надежный способ за три месяца удвоить трафик блога (перевод)    
+  ID `63467` · 2021-07-08 · ~19k · SEO · Интернет-маркетинг · Контент-маркетинг → Astro `/blog/obnovlenie-kontenta/` · **новый формат** (категория Контент-маркетинг; без гарантии сроков)
+- [x] `kak-sdelat-onlayn-oplatu-na-sayte` — Как сделать онлайн-оплату на сайте    
+  ID `63413` · 2021-07-08 · ~14k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса → Astro `/blog/onlayn-oplata/` · **новый формат** (категория Интернет-маркетинг; смежно с `/blog/yukassa/`)
+- [x] `kak-ne-oshibitsya-s-vyiborom-pochtovogo-servisa` — Как не ошибиться с выбором почтового сервиса    
+  ID `63420` · 2021-07-06 · ~30k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/pochtovyy-servis/` · **новый формат** (категория Интернет-маркетинг)
+- [x] `sekretyi-sostavleniya-snippeta-kak-zavoevat-google` — Секреты составления сниппета. Как завоевать Google    
+  ID `63390` · 2021-07-05 · ~14k · SEO · Интернет-маркетинг → Astro `/blog/snippet/` · **новый формат**
+- [x] `kak-optimizirovat-kategorii-stranits-v-internet-magazine` — Как оптимизировать категории страниц в интернет-магазине    
+  ID `63353` · 2021-07-05 · ~16k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса → Astro `/blog/kategorii-internet-magazina/` · **новый формат**
+- [x] `yandeks-dzen-vyibor-temyi-i-monetizatsiya-kontenta` — «Яндекс.Дзен»: выбор темы и монетизация контента    
+  ID `63371` · 2021-07-02 · ~10k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/yandeks-dzen/` · **новый формат** (категория Контент-маркетинг)
+- [x] `foto-v-instagram-ot-idei-do-realizatsii` — Фото в Instagram: от идеи до реализации    
+  ID `63259` · 2021-06-29 · ~37k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/foto-instagram/` · **новый формат** (категория SMM)
+- [x] `vyidelenie-drugih-polzovateley-v-profile-instagram-pravila-sposobyi-ustanovki-polza-otmetok` — Выделение других пользователей в профиле Инстаграм: правила, способы установки, польза отметок    
+  ID `63211` · 2021-06-25 · ~14k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/otmetki-instagram/` · **новый формат** (категория SMM)
+- [x] `ryinochnyie-otnosheniya-konkurentyi-i-servisyi-analogi-yandeks-market` — Рыночные отношения. Конкуренты и сервисы-аналоги «Яндекс.Маркет»    
+  ID `60604` · 2021-06-24 · ~10k · SEO · Интернет-маркетинг → Astro `/blog/analogi-yandeks-market/` · **новый формат** (категория Интернет-маркетинг)
 - [ ] `nastroyka-bazovyih-instrumentov-1s-bitriks-dlya-seo-optimizatsii-upravlenie-robots-txt-i-plaginami` — Настройка базовых инструментов 1С Битрикс для SEO-оптимизации, управление robots. txt и плагинами    
   ID `63232` · 2021-06-22 · ~13k · SEO
 - [ ] `printsip-rabotyi-schyotchika-prosmotrov-vkontakte` — Принцип работы счётчика просмотров ВКонтакте    
@@ -406,7 +452,7 @@
   ID `61602` · 2021-02-12 · ~10k · SEO · Интернет-маркетинг
 - [ ] `kak-provodit-analiz-prodvizheniya-saytov-konkurentov` — Как проводить анализ продвижения сайтов конкурентов    
   ID `61710` · 2021-02-11 · ~8k · SEO
-- [ ] `optimizatsiya-url-pravila-horoshego-tona` — Оптимизация URL. Правила хорошего тона    
+- [ ] `optimizatsiya-url-pravila-horoshego-tona` — **dup** → `/blog/url-adres/` (ЧПУ, читаемость, SEO-влияние; канон уже в новом формате)
   ID `61640` · 2021-02-08 · ~10k · SEO
 - [ ] `pravila-pokupki-ssyilok-dlya-prodvizheniya-sayta-i-vyibora-ploshhadok-donorov` — Правила покупки ссылок для продвижения сайта и выбора площадок-доноров    
   ID `60897` · 2021-02-05 · ~9k · SEO
@@ -638,9 +684,9 @@
   ID `49089` · 2019-04-24 · ~7k · SEO
 - [ ] `snizhenie-pokazatelya-otkazov-na-sayte` — Снижение показателя отказов на сайте    
   ID `48917` · 2019-04-08 · ~25k · SEO
-- [ ] `seo-analiz-konkurentov-podrobnoe-rukovodstvo` — SEO-анализ конкурентов: подробное руководство    
+- [ ] `seo-analiz-konkurentov-podrobnoe-rukovodstvo` — **dup** → `/blog/analiz-konkurentov/` (SEO-анализ конкурентов; канон уже в новом формате)
   ID `48307` · 2019-02-28 · ~26k · SEO
-- [ ] `semanticheskaya-razmetka-sayta-v-poiskovoy-optimizatsii` — Семантическая разметка сайта в поисковой оптимизации    
+- [ ] `semanticheskaya-razmetka-sayta-v-poiskovoy-optimizatsii` — **dup** → `/blog/snippet/` (schema.org / JSON-LD / rich results; канон уже в новом формате)
   ID `47844` · 2019-02-11 · ~21k · SEO
 - [ ] `servisyi-dlya-rabotyi-s-semantikoy-analiza-konkurentov-i-proverki-ssyilok` — Сервисы для работы с семантикой, анализа конкурентов и проверки ссылок    
   ID `47441` · 2019-01-24 · ~14k · SEO
@@ -692,7 +738,7 @@
   ID `41698` · 2017-12-19 · ~9k · SEO
 - [ ] `kak-seo-sposobstvuet-uspeshnomu-biznesu` — Как SEO способствует успешному бизнесу    
   ID `41256` · 2017-11-18 · ~3k · SEO
-- [ ] `chto-takoe-url-i-chpu-sovetyi-po-ih-optimizatsii-i-nastroyke` — Что такое URL и ЧПУ. Советы по их оптимизации и настройке.    
+- [ ] `chto-takoe-url-i-chpu-sovetyi-po-ih-optimizatsii-i-nastroyke` — **dup** → `/blog/url-adres/` (URL/ЧПУ + советы; редиректы/canonical — также `/blog/redirekt/`)
   ID `41234` · 2017-11-13 · ~7k · SEO
 - [ ] `sobiraem-semanticheskoe-yadro-ot-sbora-markerov-do-klasterizatsii` — Собираем семантическое ядро: от сбора маркеров до кластеризации    
   ID `40902` · 2017-10-17 · ~18k · SEO
@@ -773,9 +819,9 @@
   ID `58683` · 2020-10-20 · ~6k · Интернет-маркетинг
 - [ ] `operatory-poiska-google-znakomstvo-s-yazykom-zaprosov-i-ego-principami-raboty` — Операторы поиска Google: знакомство с языком запросов и его принципами работы    
   ID `58478` · 2020-10-06 · ~14k · Интернет-маркетинг
-- [ ] `url-chto-eto-takoe` — URL — что это такое?    
+- [ ] `url-chto-eto-takoe` — **dup** → `/blog/url-adres/` (устройство URL и улучшение адресов; канон уже в новом формате)
   ID `58436` · 2020-10-01 · ~10k · Интернет-маркетинг
-- [ ] `polnoe-rukovodstvo-po-google-tag-manager` — Полное руководство по Google Tag Manager    
+- [ ] `polnoe-rukovodstvo-po-google-tag-manager` — Полное руководство по Google Tag Manager
   ID `58412` · 2020-10-01 · ~18k · Интернет-маркетинг
 - [ ] `vidy-i-pravila-razrabotki-struktury-sajta` — Виды и правила разработки структуры сайта    
   ID `58342` · 2020-09-25 · ~7k · Интернет-маркетинг
@@ -1525,7 +1571,7 @@
 
 ## Контент-маркетинг (51)
 
-- [ ] `kak-vyivesti-publikatsii-v-top-instagram-naglyadnoe-rukovodstvo` — Как вывести публикации в «топ» Instagram. Наглядное руководство    
+- [ ] `kak-vyivesti-publikatsii-v-top-instagram-naglyadnoe-rukovodstvo` — **dup** → `/blog/top-instagram/` (как попасть в топ/рекомендации + риски накрутки; канон уже в новом формате; также `/blog/nakrutka-laykov-instagram/`)
   ID `64805` · 2021-12-14 · ~18k · Интернет-маркетинг · Контент-маркетинг · Медиа сервисы
 - [ ] `kak-polnostyu-posmotret-avatarku-v-instagrame` — Как полностью посмотреть аватарку в инстаграме    
   ID `59571` · 2020-12-10 · ~10k · Интернет-маркетинг · Контент-маркетинг
@@ -1815,4 +1861,11 @@
 3. Положить JSON в `src/data/blog-posts/`, картинки в `public/images/blog/<slug>/`.
 4. Добавить в `src/data/blog.ts` → `blogPosts`.
 5. Отметить `[x]` здесь и указать URL `/blog/<slug>/`.
+6. **301:** дописать `src/data/blog-redirects.json` (`wpSlug` = WP `post_name`, `astroSlug`, `wpId`; для `dup` — только редирект на канон) → `npm run htaccess:blog`.
+
+### Редиректы
+
+- Карта: `src/data/blog-redirects.json` (сейчас все перенесённые + `dup`).
+- Файл на проде: `public/.htaccess` (Apache AllowOverride; nginx `try_files` → fallback на Apache).
+- Старый permalink WP: `/%category%/%postname%/`. Не править `.htaccess` руками — только через генератор.
 

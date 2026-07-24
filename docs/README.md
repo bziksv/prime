@@ -44,8 +44,8 @@ npm run dev
 |------|------------|
 | **README.md** | Этот индекс |
 | **ASSETS-LICENSES.md** | Лицензии 3D/stock: NEXBOT CC0, Matter = inspiration only |
-| **BLOG-MIGRATION-CHECKLIST.md** | Чеклист всех статей блога из old WP → `/blog/` |
-| **BLOG-ARTICLE-STANDARD.md** | Как собирать статью в **новом формате** (интерактивы, обложка, вычитка, анти-реклама) |
+| **BLOG-MIGRATION-CHECKLIST.md** | Очередь WP → Astro; 301: `src/data/blog-redirects.json` → `public/.htaccess` |
+| **BLOG-ARTICLE-STANDARD.md** | Как собирать статью в **новом формате** (интерактивы, обложка, вычитка, анти-реклама, **301**) |
 | **CASES-MIGRATION-CHECKLIST.md** | Чеклист миграции кейсов |
 | **EFFECTS-INSPIRATION-CHECKLIST.md** | Каталог эффектов с референсов для `/razrabotka-saytov/` |
 | **the7-agent-notes.md** | Порядок чтения, маркеры `[AGENT]`, правила для ИИ |

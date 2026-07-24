@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "astro dev --port 3004",
     "build": "astro build",
-    "preview": "astro preview --port 3004"
+    "preview": "astro preview --port 3004",
+    "htaccess:blog": "node scripts/generate-blog-htaccess.mjs"
   },
   "dependencies": {
     "@splinetool/runtime": "^1.12.98",

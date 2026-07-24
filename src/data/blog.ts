@@ -43,6 +43,46 @@ import analizKonkurentov from "./blog-posts/analiz-konkurentov.json";
 import prodayushchieTeksty from "./blog-posts/prodayushchie-teksty.json";
 import domenPervogoUrovnya from "./blog-posts/domen-pervogo-urovnya.json";
 import statistikaInstagram from "./blog-posts/statistika-instagram.json";
+import storiesInstagramInkognito from "./blog-posts/stories-instagram-inkognito.json";
+import formaObratnoySvyazi from "./blog-posts/forma-obratnoy-svyazi.json";
+import yandeksToloka from "./blog-posts/yandeks-toloka.json";
+import serfingSaytov from "./blog-posts/serfing-saytov.json";
+import zakrytieOtIndeksatsii from "./blog-posts/zakrytie-ot-indeksatsii.json";
+import chtoTakoeSsylka from "./blog-posts/chto-takoe-ssylka.json";
+import sklikivanie from "./blog-posts/sklikivanie.json";
+import kartinkaSsylka from "./blog-posts/kartinka-ssylka.json";
+import optimizatsiyaKonversii from "./blog-posts/optimizatsiya-konversii.json";
+import seoSNulya from "./blog-posts/seo-s-nulya.json";
+import skrinshoty from "./blog-posts/skrinshoty.json";
+import infografika from "./blog-posts/infografika.json";
+import lichnyyBrend from "./blog-posts/lichnyy-brend.json";
+import redirekt from "./blog-posts/redirekt.json";
+import straykYoutube from "./blog-posts/strayk-youtube.json";
+import menedzherInternetMagazina from "./blog-posts/menedzher-internet-magazina.json";
+import rassylkaVk from "./blog-posts/rassylka-vk.json";
+import viralnyyOhvatVk from "./blog-posts/viralnyy-ohvat-vk.json";
+import urlAdres from "./blog-posts/url-adres.json";
+import privetstvieSayta from "./blog-posts/privetstvie-sayta.json";
+import topInstagram from "./blog-posts/top-instagram.json";
+import telegramKanal from "./blog-posts/telegram-kanal.json";
+import optimizatsiyaStranitsy from "./blog-posts/optimizatsiya-stranitsy.json";
+import telegram from "./blog-posts/telegram.json";
+import shablonInstagram from "./blog-posts/shablon-instagram.json";
+import statyaVk from "./blog-posts/statya-vk.json";
+import logiServera from "./blog-posts/logi-servera.json";
+import svyazkaInstagramFacebook from "./blog-posts/svyazka-instagram-facebook.json";
+import blokirovkaInstagram from "./blog-posts/blokirovka-instagram.json";
+import otchetKlientu from "./blog-posts/otchet-klientu.json";
+import ishodnyyKod from "./blog-posts/ishodnyy-kod.json";
+import obnovlenieKontenta from "./blog-posts/obnovlenie-kontenta.json";
+import onlaynOplata from "./blog-posts/onlayn-oplata.json";
+import pochtovyyServis from "./blog-posts/pochtovyy-servis.json";
+import snippet from "./blog-posts/snippet.json";
+import kategoriiInternetMagazina from "./blog-posts/kategorii-internet-magazina.json";
+import yandeksDzen from "./blog-posts/yandeks-dzen.json";
+import fotoInstagram from "./blog-posts/foto-instagram.json";
+import otmetkiInstagram from "./blog-posts/otmetki-instagram.json";
+import analogiYandeksMarket from "./blog-posts/analogi-yandeks-market.json";
 
 export type BlogListItem = {
   intro?: string | null;
@@ -269,6 +309,46 @@ export const blogPosts: BlogPost[] = [
   sanitizePost(prodayushchieTeksty as BlogPost),
   sanitizePost(domenPervogoUrovnya as BlogPost),
   sanitizePost(statistikaInstagram as BlogPost),
+  sanitizePost(storiesInstagramInkognito as BlogPost),
+  sanitizePost(formaObratnoySvyazi as BlogPost),
+  sanitizePost(yandeksToloka as BlogPost),
+  sanitizePost(serfingSaytov as BlogPost),
+  sanitizePost(zakrytieOtIndeksatsii as BlogPost),
+  sanitizePost(chtoTakoeSsylka as BlogPost),
+  sanitizePost(sklikivanie as BlogPost),
+  sanitizePost(kartinkaSsylka as BlogPost),
+  sanitizePost(optimizatsiyaKonversii as BlogPost),
+  sanitizePost(seoSNulya as BlogPost),
+  sanitizePost(skrinshoty as BlogPost),
+  sanitizePost(infografika as BlogPost),
+  sanitizePost(lichnyyBrend as BlogPost),
+  sanitizePost(redirekt as BlogPost),
+  sanitizePost(straykYoutube as BlogPost),
+  sanitizePost(menedzherInternetMagazina as BlogPost),
+  sanitizePost(rassylkaVk as BlogPost),
+  sanitizePost(viralnyyOhvatVk as BlogPost),
+  sanitizePost(urlAdres as BlogPost),
+  sanitizePost(privetstvieSayta as BlogPost),
+  sanitizePost(topInstagram as BlogPost),
+  sanitizePost(telegramKanal as BlogPost),
+  sanitizePost(optimizatsiyaStranitsy as BlogPost),
+  sanitizePost(telegram as BlogPost),
+  sanitizePost(shablonInstagram as BlogPost),
+  sanitizePost(statyaVk as BlogPost),
+  sanitizePost(logiServera as BlogPost),
+  sanitizePost(svyazkaInstagramFacebook as BlogPost),
+  sanitizePost(blokirovkaInstagram as BlogPost),
+  sanitizePost(otchetKlientu as BlogPost),
+  sanitizePost(ishodnyyKod as BlogPost),
+  sanitizePost(obnovlenieKontenta as BlogPost),
+  sanitizePost(onlaynOplata as BlogPost),
+  sanitizePost(pochtovyyServis as BlogPost),
+  sanitizePost(snippet as BlogPost),
+  sanitizePost(kategoriiInternetMagazina as BlogPost),
+  sanitizePost(yandeksDzen as BlogPost),
+  sanitizePost(fotoInstagram as BlogPost),
+  sanitizePost(otmetkiInstagram as BlogPost),
+  sanitizePost(analogiYandeksMarket as BlogPost),
 ].sort((a, b) => b.date.localeCompare(a.date));
 
 export function getBlogPost(slug: string): BlogPost | undefined {
@@ -583,6 +663,166 @@ export function getArticleCta(post: BlogPost): { title: string; text: string } {
       title: "Нужен SMM с опорой на цифры?",
       text: "Соберём контент и отчётность по охвату, сохранениям и заявкам — не только по лайкам.",
     },
+    "stories-instagram-inkognito": {
+      title: "Нужен SMM без серых схем?",
+      text: "Настроим контент и приватность историй по правилам площадки — без шпионских сервисов.",
+    },
+    "forma-obratnoy-svyazi": {
+      title: "Нужны заявки с сайта?",
+      text: "Соберём формы, уведомления и путь лида до менеджера — без потерянных писем в спаме.",
+    },
+    "yandeks-toloka": {
+      title: "Нужна разметка данных или оценка интерфейса?",
+      text: "Подскажем сценарий исследования и контроль качества — без иллюзий «лёгких денег» с биржи.",
+    },
+    "serfing-saytov": {
+      title: "Нужен живой трафик, а не накрутка?",
+      text: "Соберём SEO и рекламу под заявки — без серфинга и пустых визитов в Метрике.",
+    },
+    "zakrytie-ot-indeksatsii": {
+      title: "Нужно навести порядок в индексе?",
+      text: "Разберём robots, noindex и дубли — без клоакинга и забытых запретов на проде.",
+    },
+    "chto-takoe-ssylka": {
+      title: "Нужна перелинковка и ссылочная стратегия?",
+      text: "Соберём внутреннюю сетку и аккуратный внешний контур — без покупного спама.",
+    },
+    "sklikivanie": {
+      title: "Нужна контекстная реклама без слива бюджета?",
+      text: "Настроим Директ и Google Ads с контролем площадок и аномалий — без паники на каждый отказ.",
+    },
+    "kartinka-ssylka": {
+      title: "Нужны баннеры и кликабельные блоки на сайте?",
+      text: "Сверстаем лёгкие креативы со ссылками — без тяжёлых картинок и битых href.",
+    },
+    "optimizatsiya-konversii": {
+      title: "Нужно поднять конверсию сайта?",
+      text: "Разберём воронку, формы и гипотезы тестов — без слепой смены цвета кнопки.",
+    },
+    "seo-s-nulya": {
+      title: "Нужен SEO под ключ, а не «курс в голове»?",
+      text: "Соберём ядро, структуру и план работ — с реалистичными сроками по позициям.",
+    },
+    "skrinshoty": {
+      title: "Нужны понятные гайды и баг-репорты?",
+      text: "Поможем оформить инструкции и материалы поддержки — со скринами без утечки ПДн.",
+    },
+    "infografika": {
+      title: "Нужна наглядная подача сложной темы?",
+      text: "Соберём структуру инфографики под ваш оффер — без шума и мелкого шрифта.",
+    },
+    "lichnyy-brend": {
+      title: "Нужен личный бренд эксперта?",
+      text: "Соберём нишу, площадку и контент-микс — с метриками до заявок, не только до лайков.",
+    },
+    "redirekt": {
+      title: "Нужно навести порядок в URL?",
+      text: "Настроим 301/склейку зеркал и карту переносов — без цепочек и редиректов мимо смысла.",
+    },
+    "strayk-youtube": {
+      title: "Нужен YouTube без сюрпризов от модерации?",
+      text: "Поможем с оформлением и контент-рамкой канала — с опорой на актуальные правила площадки.",
+    },
+    "menedzher-internet-magazina": {
+      title: "Нужны продажи и сервис в интернет-магазине?",
+      text: "Настроим воронку заявок, CRM и скрипты ответа — чтобы менеджер закрывал заказы, а не тушил пожары.",
+    },
+    "rassylka-vk": {
+      title: "Нужна рассылка в VK без банов?",
+      text: "Настроим opt-in и тексты для сообщества — без холодного спама и серого софта.",
+    },
+    "viralnyy-ohvat-vk": {
+      title: "Нужен контент, который разносят?",
+      text: "Соберём рубрики и форматы под репосты — без ставки только на провокацию.",
+    },
+    "url-adres": {
+      title: "Нужны ЧПУ и порядок в URL?",
+      text: "Приведём адреса, зеркала и редиректы в порядок — без мифа, что ключ в URL сам выведет в ТОП.",
+    },
+    "privetstvie-sayta": {
+      title: "Первый экран не цепляет?",
+      text: "Соберём оффер, CTA и спокойный UX на главной — без агрессивных попапов и чата через секунду.",
+    },
+    "top-instagram": {
+      title: "Нужен охват в рекомендациях?",
+      text: "Усилим контент и вовлечённость под Discover — без накрутки лайков и серых схем.",
+    },
+    "telegram-kanal": {
+      title: "Запускаете Telegram-канал?",
+      text: "Соберём оформление, рубрики и план посевов — без накрутки подписчиков.",
+    },
+    "optimizatsiya-stranitsy": {
+      title: "Посадочные слабые под запросы?",
+      text: "Проработаем Title, тексты и перелинковку — без переспама и мифа про «ключ в каждом абзаце».",
+    },
+    "telegram": {
+      title: "Нужен Telegram в воронке?",
+      text: "Подскажем, где канал и боты дают смысл — и свяжем с сайтом и трафиком.",
+    },
+    "shablon-instagram": {
+      title: "Лента выглядит хаотично?",
+      text: "Соберём бренд-кит и шаблоны постов — единый стиль без перерисовки с нуля.",
+    },
+    "statya-vk": {
+      title: "Нужны лонгриды в VK?",
+      text: "Настроим формат статей в сообществе: обложки, рубрики и анонсы под вашу ЦА.",
+    },
+    "logi-servera": {
+      title: "Роботы плохо обходят сайт?",
+      text: "Разберём access-логи и бюджет обхода — найдём дубли, 404 и лишний crawl.",
+    },
+    "svyazka-instagram-facebook": {
+      title: "Нужна связка Instagram и Facebook?",
+      text: "Поможем настроить Центр аккаунтов и профессиональный профиль под ваши задачи — без лишних обещаний.",
+    },
+    "blokirovka-instagram": {
+      title: "Аккаунт Instagram ограничили?",
+      text: "Подскажем порядок обжалования и усиления защиты — без посредников «гарантия разбана».",
+    },
+    "otchet-klientu": {
+      title: "Отчёты по рекламе путают клиента?",
+      text: "Соберём понятную структуру: цели и деньги сначала, KPI и next steps — без простыни жаргона.",
+    },
+    "ishodnyy-kod": {
+      title: "Нужно проверить, что отдаёт страница?",
+      text: "Поможем с техаудитом: meta, разметка, ошибки в коде — без лишней магии.",
+    },
+    "obnovlenie-kontenta": {
+      title: "Старые статьи перестали давать трафик?",
+      text: "Приоритизируем архив и обновим сильные URL — без обещаний «×2 за три месяца всем».",
+    },
+    "onlayn-oplata": {
+      title: "Нужна оплата на сайте?",
+      text: "Подскажем модель: агрегатор или эквайринг, касса и безопасный checkout — без устаревших прайсов.",
+    },
+    "pochtovyy-servis": {
+      title: "Путаетесь в выборе почты?",
+      text: "Поможем выбрать постоянный ящик и политику безопасности — без одноразовок для важного.",
+    },
+    "snippet": {
+      title: "Сниппеты в выдаче слабые?",
+      text: "Проработаем Title, description и разметку под rich results — без мифа, что schema сама выводит в ТОП.",
+    },
+    "kategorii-internet-magazina": {
+      title: "Категории магазина не собирают спрос?",
+      text: "Соберём дерево разделов и тексты под кластеры — без пустых посадочных «ради ключа».",
+    },
+    "yandeks-dzen": {
+      title: "Думаете про канал в Дзене?",
+      text: "Поможем с нишей, рубриками и связкой с сайтом — без устаревших порогов монетизации.",
+    },
+    "foto-instagram": {
+      title: "Лента слабая по визуалу?",
+      text: "Соберём идеи съёмки и единый стиль кадров под оффер — без копирования чужих лент.",
+    },
+    "otmetki-instagram": {
+      title: "Коллаборации без путаницы в тегах?",
+      text: "Настроим сценарии отметок и связку аккаунтов — без спама никами и сомнительных планировщиков.",
+    },
+    "analogi-yandeks-market": {
+      title: "Каналы сбыта кроме Маркета?",
+      text: "Разберём юнит-экономику и фиды под площадки — без каталога мёртвых агрегаторов.",
+    },
   };
   if (bySlug[post.slug]) return bySlug[post.slug];
   if (post.category === "SEO") {
@@ -785,6 +1025,166 @@ export function getCoverCaption(post: BlogPost): { title: string; subtitle: stri
     "statistika-instagram": {
       title: "Статистика Instagram",
       subtitle: "Охват, сохранения, аудитория",
+    },
+    "stories-instagram-inkognito": {
+      title: "Stories «инкогнито»",
+      subtitle: "Риски сервисов и приватность",
+    },
+    "forma-obratnoy-svyazi": {
+      title: "Форма обратной связи",
+      subtitle: "Цели, поля, размещение",
+    },
+    "yandeks-toloka": {
+      title: "Толока",
+      subtitle: "Задания, рейтинг, ожидания",
+    },
+    "serfing-saytov": {
+      title: "Серфинг сайтов",
+      subtitle: "Микрооплата и риски для SEO",
+    },
+    "zakrytie-ot-indeksatsii": {
+      title: "Закрытие от индексации",
+      subtitle: "robots, noindex, дубли",
+    },
+    "chto-takoe-ssylka": {
+      title: "Что такое ссылка",
+      subtitle: "Виды, анкоры, SEO",
+    },
+    "sklikivanie": {
+      title: "Скликивание",
+      subtitle: "Кликфрод в Директе и Ads",
+    },
+    "kartinka-ssylka": {
+      title: "Картинка-ссылка",
+      subtitle: "Кликабельное изображение",
+    },
+    "optimizatsiya-konversii": {
+      title: "Оптимизация конверсии",
+      subtitle: "CR, воронка, гипотезы",
+    },
+    "seo-s-nulya": {
+      title: "SEO с нуля",
+      subtitle: "Путь новичка и практика",
+    },
+    "skrinshoty": {
+      title: "Скриншоты",
+      subtitle: "ПК, телефон, аннотации",
+    },
+    "infografika": {
+      title: "Инфографика",
+      subtitle: "Виды и понятный макет",
+    },
+    "lichnyy-brend": {
+      title: "Личный бренд",
+      subtitle: "Ниша, контент, площадка",
+    },
+    "redirekt": {
+      title: "Редирект",
+      subtitle: "301, 302, склейка URL",
+    },
+    "strayk-youtube": {
+      title: "Страйк на YouTube",
+      subtitle: "Правила, статус, апелляция",
+    },
+    "menedzher-internet-magazina": {
+      title: "Менеджер интернет-магазина",
+      subtitle: "Обязанности и рост",
+    },
+    "rassylka-vk": {
+      title: "Рассылка VK",
+      subtitle: "Opt-in без спама",
+    },
+    "viralnyy-ohvat-vk": {
+      title: "Виральный охват VK",
+      subtitle: "Репосты и темы",
+    },
+    "url-adres": {
+      title: "URL-адрес сайта",
+      subtitle: "Структура и SEO",
+    },
+    "privetstvie-sayta": {
+      title: "Приветствие на сайте",
+      subtitle: "Первый экран без раздражения",
+    },
+    "top-instagram": {
+      title: "ТОП Instagram",
+      subtitle: "Рекомендации и охват",
+    },
+    "telegram-kanal": {
+      title: "Telegram-канал",
+      subtitle: "Запуск с нуля",
+    },
+    "optimizatsiya-stranitsy": {
+      title: "Оптимизация страницы",
+      subtitle: "On-page под запрос",
+    },
+    "telegram": {
+      title: "Telegram",
+      subtitle: "Возможности и сравнение",
+    },
+    "shablon-instagram": {
+      title: "Шаблоны Instagram",
+      subtitle: "Сетка и единый стиль",
+    },
+    "statya-vk": {
+      title: "Статья ВКонтакте",
+      subtitle: "Редактор и публикация",
+    },
+    "logi-servera": {
+      title: "Логи сервера",
+      subtitle: "Обход роботами",
+    },
+    "svyazka-instagram-facebook": {
+      title: "Связка Instagram и Facebook",
+      subtitle: "Центр аккаунтов",
+    },
+    "blokirovka-instagram": {
+      title: "Блокировка Instagram",
+      subtitle: "Доступ и обжалование",
+    },
+    "otchet-klientu": {
+      title: "Отчёт клиенту",
+      subtitle: "9 правил по рекламе",
+    },
+    "ishodnyy-kod": {
+      title: "Исходный код сайта",
+      subtitle: "Просмотр и SEO-осмотр",
+    },
+    "obnovlenie-kontenta": {
+      title: "Обновление контента",
+      subtitle: "Трафик со старых статей",
+    },
+    "onlayn-oplata": {
+      title: "Онлайн-оплата",
+      subtitle: "Эквайринг и агрегатор",
+    },
+    "pochtovyy-servis": {
+      title: "Почтовый сервис",
+      subtitle: "Как выбрать ящик",
+    },
+    "snippet": {
+      title: "Сниппет в поиске",
+      subtitle: "Title и rich results",
+    },
+    "kategorii-internet-magazina": {
+      title: "Категории интернет-магазина",
+      subtitle: "SEO разделов каталога",
+    },
+    "yandeks-dzen": {
+      title: "Яндекс Дзен",
+      subtitle: "Тема и монетизация",
+    },
+    "foto-instagram": {
+      title: "Фото для Instagram",
+      subtitle: "Идея и композиция",
+    },
+    "otmetki-instagram": {
+      title: "Отметки в Instagram",
+      subtitle: "Stories и коллаборации",
+    },
+    "analogi-yandeks-market": {
+      title: "Аналоги Яндекс Маркета",
+      subtitle: "Каналы и критерии",
     },
   };
   return (
