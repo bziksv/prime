@@ -670,7 +670,7 @@
 
 @media (min-width: 960px) {
   .w-proof__layout {
-    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1.7fr) minmax(260px, 0.95fr);
     gap: 0.85rem;
     align-items: stretch;
   }
@@ -679,6 +679,7 @@
 .w-proof__hero,
 .w-proof__card {
   position: relative;
+  box-sizing: border-box;
   padding: clamp(0.95rem, 1.6vw, 1.25rem);
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(255, 255, 255, 0.03);
@@ -691,13 +692,14 @@
   gap: 0.5rem 1.1rem;
   min-height: 0;
   height: 100%;
-  align-content: space-between;
+  align-content: stretch;
+  overflow: hidden;
 }
 
 @media (min-width: 720px) {
   .w-proof__hero {
     grid-template-columns: auto minmax(0, 1fr);
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto minmax(0, 1fr);
     grid-template-areas:
       "label label"
       "value copy"
@@ -710,7 +712,12 @@
   .w-proof__hero > .w-proof__value { grid-area: value; align-self: center; }
   .w-proof__hero > .w-proof__copy { grid-area: copy; align-self: center; }
   .w-proof__hero > .w-proof__meter { grid-area: meter; }
-  .w-proof__hero > .w-proof__steps { grid-area: steps; }
+  .w-proof__hero > .w-proof__steps {
+    grid-area: steps;
+    align-self: stretch;
+    align-content: end;
+    height: 100%;
+  }
 }
 
 .w-proof__copy {
@@ -739,20 +746,17 @@
 @media (min-width: 960px) {
   .w-proof__rail {
     grid-template-rows: repeat(3, minmax(0, 1fr));
+    height: 100%;
   }
 
-  .w-proof__card--1 {
-    transform: rotate(-0.7deg) translateX(0.2rem);
-  }
-  .w-proof__card--2 {
-    transform: rotate(0.85deg) translateX(-0.1rem);
-  }
+  .w-proof__card--1,
+  .w-proof__card--2,
   .w-proof__card--3 {
-    transform: rotate(-0.45deg) translateX(0.3rem);
+    transform: none;
   }
 
   .w-proof__card:hover {
-    transform: rotate(0deg) translateY(-3px);
+    transform: translateY(-3px);
     border-color: rgba(45, 212, 191, 0.35);
     background: rgba(255, 255, 255, 0.055);
     transition: transform 0.35s ease, border-color 0.35s ease, background 0.35s ease;

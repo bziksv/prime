@@ -44,6 +44,8 @@ npm run dev
 |------|------------|
 | **README.md** | Этот индекс |
 | **ASSETS-LICENSES.md** | Лицензии 3D/stock: NEXBOT CC0, Matter = inspiration only |
+| **BLOG-MIGRATION-CHECKLIST.md** | Чеклист всех статей блога из old WP → `/blog/` |
+| **CASES-MIGRATION-CHECKLIST.md** | Чеклист миграции кейсов |
 | **EFFECTS-INSPIRATION-CHECKLIST.md** | Каталог эффектов с референсов для `/razrabotka-saytov/` |
 | **the7-agent-notes.md** | Порядок чтения, маркеры `[AGENT]`, правила для ИИ |
 | **prime-homepage-concept-v1.md** | Концепт главной v1 (спокойный B2B) |

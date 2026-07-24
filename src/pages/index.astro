@@ -19,9 +19,11 @@ import {
 import { legalDocs } from "../data/legal";
 import { casesForHome, casePath } from "../data/cases";
 
-const navMain = [
-  { label: "О компании", href: "#about" },
+const navTop = [{ label: "О компании", href: "#about" }];
+
+const navBottom = [
   { label: "Наши кейсы", href: "/keysy/" },
+  { label: "Блог", href: "/blog/" },
   { label: "Партнерство", href: "/partnerstvo/" },
   { label: "Контакты", href: "/kontakty/" },
 ];
@@ -119,7 +121,7 @@ const services = [
 
         <nav class="v6-nav">
           {
-            navMain.slice(0, 2).map((item) => (
+            navTop.map((item) => (
               <a href={item.href}>{item.label}</a>
             ))
           }
@@ -132,7 +134,7 @@ const services = [
             </div>
           </details>
           {
-            navMain.slice(2).map((item) => (
+            navBottom.map((item) => (
               <a href={item.href}>{item.label}</a>
             ))
           }

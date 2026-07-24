@@ -1,0 +1,112 @@
+---
+import "../../styles/concept-v6.css";
+import "../../styles/concept-v6-media.css";
+import "../../styles/blog.css";
+import PortalShell from "../../components/PortalShell.astro";
+import CookieConsent from "../../components/CookieConsent.astro";
+import CookieFooterNotice from "../../components/CookieFooterNotice.astro";
+import { v6Icons } from "../../data/v6-media";
+import { blogPosts, formatBlogDate } from "../../data/blog";
+
+const featured = blogPosts[0];
+---
+
+<!doctype html>
+<html lang="ru" data-concept="v6" data-page="blog">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Блог ПРАЙМ: статьи про SEO, семантику, контекст и интернет-маркетинг — практика агентства."
+    />
+    <title>Блог — ПРАЙМ</title>
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell active="blog" />
+
+      <div class="v6-main">
+        <header class="v6-topbar">
+          <button id="v6-burger" type="button" class="v6-burger" aria-label="Меню">☰</button>
+          <p class="v6-breadcrumb">
+            <a href="/">Главная</a> · <strong>Блог</strong>
+          </p>
+          <a href="/kontakty/" class="v6-btn">Оставить заявку</a>
+        </header>
+
+        <div class="v6-content">
+          <section class="b-hero">
+            <p class="b-hero__kicker">Материалы агентства</p>
+            <h1>Блог</h1>
+            <p class="b-hero__lead">
+              Практические статьи по SEO и маркетингу — из опыта проектов ПРАЙМ.
+              Раздел наполняем постепенно: сейчас открываем с одной рабочей записи
+              со старого сайта.
+            </p>
+          </section>
+
+          {
+            featured ? (
+              <a href={`/blog/${featured.slug}/`} class="b-featured">
+                <div class="b-featured__media">
+                  <img src={featured.cover} alt="" loading="eager" />
+                </div>
+                <div class="b-featured__body">
+                  <div class="b-featured__meta">
+                    <span class="b-featured__cat">{featured.category}</span>
+                    <time datetime={featured.date}>{formatBlogDate(featured.date)}</time>
+                  </div>
+                  <h2>{featured.title}</h2>
+                  <p>{featured.excerpt}</p>
+                  <span class="b-featured__more">Читать статью →</span>
+                </div>
+              </a>
+            ) : (
+              <p class="b-empty">Пока нет опубликованных записей.</p>
+            )
+          }
+
+          {
+            blogPosts.length > 1 ? (
+              <div class="v6-blog-grid">
+                {blogPosts.slice(1).map((post) => (
+                  <a href={`/blog/${post.slug}/`} class="v6-blog-card">
+                    <img src={post.cover} alt="" loading="lazy" />
+                    <div class="v6-blog-card__body">
+                      <time datetime={post.date}>{formatBlogDate(post.date)}</time>
+                      <h3>{post.title}</h3>
+                      <p>{post.excerpt}</p>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            ) : null
+          }
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>ПРАЙМ</strong>
+            <p>Блог · SEO · маркетинг</p>
+          </div>
+          <p>© 2015–{new Date().getFullYear()} ПРАЙМ</p>
+          <CookieFooterNotice />
+        </footer>
+      </div>
+    </div>
+
+    <CookieConsent />
+    <script>
+      import "../../scripts/concept-v6.ts";
+    </script>
+  </body>
+</html>

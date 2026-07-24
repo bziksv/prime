@@ -1,0 +1,119 @@
+---
+import "../../styles/concept-v6.css";
+import "../../styles/concept-v6-media.css";
+import "../../styles/blog.css";
+import PortalShell from "../../components/PortalShell.astro";
+import CookieConsent from "../../components/CookieConsent.astro";
+import CookieFooterNotice from "../../components/CookieFooterNotice.astro";
+import { v6Icons } from "../../data/v6-media";
+import { blogPosts, formatBlogDate, getBlogPost } from "../../data/blog";
+
+export function getStaticPaths() {
+  return blogPosts.map((post) => ({ params: { slug: post.slug } }));
+}
+
+const { slug } = Astro.params;
+const post = getBlogPost(slug!);
+if (!post) {
+  throw new Error(`Blog post not found: ${slug}`);
+}
+---
+
+<!doctype html>
+<html lang="ru" data-concept="v6" data-page="blog">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={post.excerpt} />
+    <title>{post.title} — Блог ПРАЙМ</title>
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell active="blog" />
+
+      <div class="v6-main">
+        <header class="v6-topbar">
+          <button id="v6-burger" type="button" class="v6-burger" aria-label="Меню">☰</button>
+          <p class="v6-breadcrumb">
+            <a href="/">Главная</a> · <a href="/blog/">Блог</a> ·{" "}
+            <strong>{post.category}</strong>
+          </p>
+          <a href="/kontakty/" class="v6-btn">Оставить заявку</a>
+        </header>
+
+        <div class="v6-content">
+          <article class="b-article-hero">
+            <div class="b-article-hero__cover">
+              <img src={post.cover} alt="" />
+            </div>
+            <div class="b-article-hero__meta">
+              <span class="b-article-hero__cat">{post.category}</span>
+              <time datetime={post.date}>{formatBlogDate(post.date)}</time>
+            </div>
+            <h1>{post.title}</h1>
+            {post.lead.map((p) => <p class="b-article-hero__lead">{p}</p>)}
+          </article>
+
+          <div class="v6-card" style="padding: 1.35rem 1.4rem 1.5rem">
+            <div class="b-article">
+              {
+                post.sections.map((section) => (
+                  <section>
+                    {section.level <= 2 ? (
+                      <h2>{section.title}</h2>
+                    ) : (
+                      <h3>{section.title}</h3>
+                    )}
+                    {section.paras.map((p) => (
+                      <p>{p}</p>
+                    ))}
+                    {section.lists.map((list) => (
+                      <div class="b-article__list-block">
+                        {list.intro ? <p class="b-article__list-intro">{list.intro}</p> : null}
+                        <ul>
+                          {list.items.map((item) => (
+                            <li>{item}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </section>
+                ))
+              }
+
+              <div class="b-article__cta">
+                <h2>Нужна семантика под ваш сайт?</h2>
+                <p>
+                  Соберём ядро, кластеры и посадочные — как в этой статье, только под вашу нишу.
+                </p>
+                <a href="/kontakty/" class="v6-btn">Обсудить задачу</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>ПРАЙМ</strong>
+            <p>Блог · SEO · маркетинг</p>
+          </div>
+          <p>© 2015–{new Date().getFullYear()} ПРАЙМ</p>
+          <CookieFooterNotice />
+        </footer>
+      </div>
+    </div>
+
+    <CookieConsent />
+    <script>
+      import "../../scripts/concept-v6.ts";
+    </script>
+  </body>
+</html>

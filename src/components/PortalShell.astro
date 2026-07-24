@@ -2,7 +2,7 @@
 import { v6Icons } from "../data/v6-media";
 
 interface Props {
-  active?: "home" | "partnerstvo" | "cases" | "kontakty";
+  active?: "home" | "partnerstvo" | "cases" | "kontakty" | "blog";
   serviceActive?: string;
 }
 
@@ -25,6 +25,7 @@ const navTop = [
 
 const navBottom = [
   { label: "Наши кейсы", href: "/keysy/", key: "cases" },
+  { label: "Блог", href: "/blog/", key: "blog" },
   { label: "Партнерство", href: "/partnerstvo/", key: "partnerstvo" },
   { label: "Контакты", href: "/kontakty/", key: "kontakty" },
 ];
