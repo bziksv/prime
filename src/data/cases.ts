@@ -5421,7 +5421,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "insortex",
     category: "web",
-    title: "Разработка сайта insortex.ru",
+    title: "Сайт Инсортекс — сортировочное оборудование",
     client: "Инсортекс",
     industry: "Сортировочное оборудование",
     location: "Россия",
@@ -5429,7 +5429,7 @@ export const caseStudies: CaseStudy[] = [
     metric: "1,5 мес.",
     metricLabel: "от нуля до запуска",
     summary:
-      "Сайт с нуля для поставщика сортировочного оборудования: B2B-структура, каталог, кастомные блоки и задел под SEO.",
+      "Свежий сайт с нуля для поставщика сортировочного оборудования: B2B-структура, каталог, кастомные блоки и задел под SEO.",
     cover: "/images/cases/insortex/main-1.jpg",
     coverAlt: "Главная страница insortex.ru",
     services: ["Разработка", "UX", "SEO"],
@@ -5533,7 +5533,7 @@ export const caseStudies: CaseStudy[] = [
     ],
     ctaTitle: "Нужен сайт?",
     ctaText: "Доверьте создание нашим специалистам — от лендинга до каталога с заявками.",
-    featured: false,
+    featured: true,
   },
   {
     slug: "argument",

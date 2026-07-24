@@ -264,3 +264,50 @@ function initLightbox() {
 }
 
 initLightbox();
+
+/* —— Показать ещё в сетке кейсов —— */
+function initCaseLoadMore() {
+  document.querySelectorAll<HTMLElement>("[data-case-grid]").forEach((wrap) => {
+    const btn = wrap.querySelector<HTMLButtonElement>("[data-case-more]");
+    const countEl = wrap.querySelector<HTMLElement>("[data-case-more-count]");
+    if (!btn) return;
+
+    const cols = Math.max(1, Number(wrap.dataset.cols || "3"));
+    const step = Math.max(cols, Number(wrap.dataset.step || "9"));
+    let shown = Number(wrap.dataset.shown || "0");
+    const total = Number(wrap.dataset.total || "0");
+
+    const align = (n: number) => {
+      if (n >= total) return total;
+      return Math.min(total, Math.ceil(n / cols) * cols);
+    };
+
+    const paint = () => {
+      const cards = Array.from(wrap.querySelectorAll<HTMLElement>("[data-case-card]"));
+      cards.forEach((card, i) => {
+        const hide = i >= shown;
+        card.hidden = hide;
+        card.classList.toggle("is-collapsed", hide);
+      });
+      const left = Math.max(0, total - shown);
+      if (countEl) countEl.textContent = left > 0 ? `ещё ${left}` : "";
+      if (left <= 0) {
+        btn.hidden = true;
+        wrap.querySelector<HTMLElement>(".k-more-wrap")?.remove();
+      } else {
+        btn.hidden = false;
+      }
+      wrap.dataset.shown = String(shown);
+    };
+
+    btn.addEventListener("click", () => {
+      shown = align(shown + step);
+      paint();
+    });
+
+    shown = align(shown);
+    paint();
+  });
+}
+
+initCaseLoadMore();

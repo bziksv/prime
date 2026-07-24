@@ -58,27 +58,30 @@ function initTocSpy(root: HTMLElement) {
 
   if (!sections.length) return;
 
+  let activeId = "";
+
   const setActive = (id: string) => {
+    if (id === activeId) return;
+    activeId = id;
     links.forEach((a) => {
-      const on = a.getAttribute("href") === `#${id}`;
-      a.classList.toggle("is-active", on);
+      a.classList.toggle("is-active", a.getAttribute("href") === `#${id}`);
     });
   };
 
-  const io = new IntersectionObserver(
-    (entries) => {
-      const visible = entries
-        .filter((e) => e.isIntersecting)
-        .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
-      if (visible[0]?.target?.id) setActive(visible[0].target.id);
-    },
-    {
-      rootMargin: "-20% 0px -55% 0px",
-      threshold: [0.1, 0.25, 0.5],
-    },
-  );
+  /** Last TOC section whose top crossed the reading line (under sticky topbar). */
+  const update = () => {
+    const line = 120; // ~topbar + progress
+    let current = sections[0]!;
+    for (const s of sections) {
+      if (s.el.getBoundingClientRect().top <= line) current = s;
+      else break;
+    }
+    setActive(current.el.id);
+  };
 
-  sections.forEach(({ el }) => io.observe(el));
+  update();
+  window.addEventListener("scroll", update, { passive: true });
+  window.addEventListener("resize", update);
 }
 
 function initChecklist(root: HTMLElement) {

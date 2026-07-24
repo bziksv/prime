@@ -5,41 +5,86 @@ import { casePath, getCategory } from "../data/cases";
 interface Props {
   cases: CaseStudy[];
   featuredFirst?: boolean;
+  /** Сколько карточек показать сразу (0 = все) */
+  initialVisible?: number;
+  /** Сколько догружать по кнопке */
+  step?: number;
 }
 
-const { cases, featuredFirst = false } = Astro.props;
+const COLS = 3;
+
+const { cases, featuredFirst = false, initialVisible = 0, step = 9 } = Astro.props;
 const list = featuredFirst
   ? [...cases].sort((a, b) => Number(!!b.featured) - Number(!!a.featured))
   : cases;
+
+/** Wide только без пагинации — иначе ломает ряды по 3 */
+const allowWide = featuredFirst && initialVisible <= 0;
+
+function alignToCols(n: number, total: number) {
+  if (n <= 0 || n >= total) return total;
+  return Math.min(total, Math.ceil(n / COLS) * COLS);
+}
+
+const alignedStep = Math.max(COLS, Math.ceil(step / COLS) * COLS);
+const limit =
+  initialVisible > 0 ? alignToCols(initialVisible, list.length) : list.length;
+const hasMore = list.length > limit;
 ---
 
-<div class="k-grid">
+<div
+  class="k-grid-wrap"
+  data-case-grid
+  data-step={alignedStep}
+  data-cols={COLS}
+  data-shown={Math.min(limit, list.length)}
+  data-total={list.length}
+>
+  <div class="k-grid">
+    {
+      list.map((c, i) => {
+        const cat = getCategory(c.category);
+        const wide = allowWide && c.featured && i === 0;
+        const collapsed = hasMore && i >= limit;
+        return (
+          <a
+            href={casePath(c)}
+            class:list={["k-card", wide && "k-card--wide", collapsed && "is-collapsed"]}
+            style={`--k-accent:${cat?.accent ?? "#20b8d0"}`}
+            data-case-card
+            hidden={collapsed}
+          >
+            <div class="k-card__media">
+              <img src={c.cover} alt={c.coverAlt} loading={i < 6 ? "eager" : "lazy"} />
+              <div class="k-card__shade" aria-hidden="true" />
+            </div>
+            <div class="k-card__body">
+              <span class="k-card__cat">{cat?.short}</span>
+              <p class="k-card__metric">
+                <strong>{c.metric}</strong>
+                <span>{c.metricLabel}</span>
+              </p>
+              <p class="k-card__client">{c.client}</p>
+              <h3>{c.title}</h3>
+              <p class="k-card__sum">{c.summary}</p>
+              <span class="k-card__go">Смотреть кейс →</span>
+            </div>
+          </a>
+        );
+      })
+    }
+  </div>
+
   {
-    list.map((c, i) => {
-      const cat = getCategory(c.category);
-      const wide = featuredFirst && c.featured && i === 0;
-      return (
-        <a
-          href={casePath(c)}
-          class:list={["k-card", wide && "k-card--wide"]}
-          style={`--k-accent:${cat?.accent ?? "#20b8d0"}`}
-        >
-          <div class="k-card__media">
-            <img src={c.cover} alt={c.coverAlt} loading="lazy" />
-            <div class="k-card__shade" aria-hidden="true" />
-          </div>
-          <div class="k-card__body">
-            <span class="k-card__cat">{cat?.short}</span>
-            <p class="k-card__metric">
-              <strong>{c.metric}</strong>
-              <span>{c.metricLabel}</span>
-            </p>
-            <h3>{c.title}</h3>
-            <p class="k-card__sum">{c.summary}</p>
-            <span class="k-card__go">Смотреть кейс →</span>
-          </div>
-        </a>
-      );
-    })
+    hasMore ? (
+      <div class="k-more-wrap">
+        <button type="button" class="k-more" data-case-more>
+          Показать ещё
+          <span data-case-more-count>
+            ещё {list.length - limit}
+          </span>
+        </button>
+      </div>
+    ) : null
   }
 </div>

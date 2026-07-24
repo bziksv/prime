@@ -10,9 +10,12 @@ import { caseStudies, caseCategories } from "../../data/cases";
 const featured = caseStudies
   .filter((c) => c.featured)
   .sort((a, b) => {
-    if (a.slug === "almamed") return -1;
-    if (b.slug === "almamed") return 1;
-    return 0;
+    const rank = (slug: string) => {
+      if (slug === "insortex") return 0;
+      if (slug === "almamed") return 1;
+      return 2;
+    };
+    return rank(a.slug) - rank(b.slug);
   });
 ---
 
@@ -71,7 +74,7 @@ const featured = caseStudies
       <h2>Все актуальные кейсы</h2>
       <p>Фильтр по SEO, контексту или разработке — только свежие разборы</p>
     </div>
-    <CaseGrid cases={caseStudies.filter((c) => !c.featured)} />
+    <CaseGrid cases={caseStudies.filter((c) => !c.featured)} initialVisible={9} step={9} />
   </section>
 
   <section class="k-cta k-reveal">

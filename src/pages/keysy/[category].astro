@@ -227,7 +227,7 @@ const cases = getCasesByCategory(cat.id as CaseCategoryId);
       <h2>Кейсы · {cat.short}</h2>
       <p>Свежие результаты по проектам в этом направлении — не архив</p>
     </div>
-    <CaseGrid cases={cases} featuredFirst />
+    <CaseGrid cases={cases} featuredFirst initialVisible={9} step={9} />
   </section>
 
   <section class="k-cta k-reveal">
