@@ -83,6 +83,60 @@ import yandeksDzen from "./blog-posts/yandeks-dzen.json";
 import fotoInstagram from "./blog-posts/foto-instagram.json";
 import otmetkiInstagram from "./blog-posts/otmetki-instagram.json";
 import analogiYandeksMarket from "./blog-posts/analogi-yandeks-market.json";
+import seoBitrix from "./blog-posts/seo-bitrix.json";
+import prosmotryVk from "./blog-posts/prosmotry-vk.json";
+import karuselInstagram from "./blog-posts/karusel-instagram.json";
+import httpsSeo from "./blog-posts/https-seo.json";
+import biznesVInstagram from "./blog-posts/biznes-v-instagram.json";
+import snizhenieTrafika from "./blog-posts/snizhenie-trafika.json";
+import pikselVk from "./blog-posts/piksel-vk.json";
+import pinterestSkachat from "./blog-posts/pinterest-skachat.json";
+import razblokirovkaInstagram from "./blog-posts/razblokirovka-instagram.json";
+import tekstLendinga from "./blog-posts/tekst-lendinga.json";
+import blogInstagram from "./blog-posts/blog-instagram.json";
+import filtryPoiskovikov from "./blog-posts/filtry-poiskovikov.json";
+import proverkaUnikalnosti from "./blog-posts/proverka-unikalnosti.json";
+import shapkaYoutube from "./blog-posts/shapka-youtube.json";
+import domenRf from "./blog-posts/domen-rf.json";
+import instagramSKompyutera from "./blog-posts/instagram-s-kompyutera.json";
+import knopkiYoutube from "./blog-posts/knopki-youtube.json";
+import ssylkiNaForumah from "./blog-posts/ssylki-na-forumah.json";
+import lending from "./blog-posts/lending.json";
+import samostoyatelnoeSeo from "./blog-posts/samostoyatelnoe-seo.json";
+import metrikaUstanovka from "./blog-posts/metrika-ustanovka.json";
+import youtubeMonetizaciya from "./blog-posts/youtube-monetizaciya.json";
+import reklamnyyKabinet from "./blog-posts/reklamnyy-kabinet.json";
+import htaccess301 from "./blog-posts/htaccess-301.json";
+import futerSayta from "./blog-posts/futer-sayta.json";
+import oblachnyyServis from "./blog-posts/oblachnyy-servis.json";
+import paginatsiya from "./blog-posts/paginatsiya.json";
+import bityeSsylki from "./blog-posts/bitye-ssylki.json";
+import kontentMenedzher from "./blog-posts/kontent-menedzher.json";
+import regionalnoeSeo from "./blog-posts/regionalnoe-seo.json";
+import klyuchiGoogleAds from "./blog-posts/klyuchi-google-ads.json";
+import telegramBoty from "./blog-posts/telegram-boty.json";
+import stavkiDirekt from "./blog-posts/stavki-direkt.json";
+import molodoySayt from "./blog-posts/molodoy-sayt.json";
+import oshibka502 from "./blog-posts/oshibka-502.json";
+import feykStranitsa from "./blog-posts/feyk-stranitsa.json";
+import lichnyyKabinet from "./blog-posts/lichnyy-kabinet.json";
+import spetsrazmeshchenieDirekt from "./blog-posts/spetsrazmeshchenie-direkt.json";
+import viralnyyKontent from "./blog-posts/viralnyy-kontent.json";
+import pokupkaSsylok from "./blog-posts/pokupka-ssylok.json";
+import nishaSayta from "./blog-posts/nisha-sayta.json";
+import internetPortal from "./blog-posts/internet-portal.json";
+import kodStatusaHttp from "./blog-posts/kod-statusa-http.json";
+import kod200 from "./blog-posts/kod-200.json";
+import videoreklamaYoutube from "./blog-posts/videoreklama-youtube.json";
+import vebStranitsa from "./blog-posts/veb-stranitsa.json";
+import klyuchiInternetMagazin from "./blog-posts/klyuchi-internet-magazin.json";
+import analitikaKontentMarketinga from "./blog-posts/analitika-kontent-marketinga.json";
+import bazyDannyhSayta from "./blog-posts/bazy-dannyh-sayta.json";
+import dubliStranits from "./blog-posts/dubli-stranits.json";
+import tegH1 from "./blog-posts/teg-h1.json";
+import googleBiznes from "./blog-posts/google-biznes.json";
+import protokolHttp from "./blog-posts/protokol-http.json";
+import adaptivnyySayt from "./blog-posts/adaptivnyy-sayt.json";
 
 export type BlogListItem = {
   intro?: string | null;
@@ -349,6 +403,60 @@ export const blogPosts: BlogPost[] = [
   sanitizePost(fotoInstagram as BlogPost),
   sanitizePost(otmetkiInstagram as BlogPost),
   sanitizePost(analogiYandeksMarket as BlogPost),
+  sanitizePost(seoBitrix as BlogPost),
+  sanitizePost(prosmotryVk as BlogPost),
+  sanitizePost(karuselInstagram as BlogPost),
+  sanitizePost(httpsSeo as BlogPost),
+  sanitizePost(biznesVInstagram as BlogPost),
+  sanitizePost(snizhenieTrafika as BlogPost),
+  sanitizePost(pikselVk as BlogPost),
+  sanitizePost(pinterestSkachat as BlogPost),
+  sanitizePost(razblokirovkaInstagram as BlogPost),
+  sanitizePost(tekstLendinga as BlogPost),
+  sanitizePost(blogInstagram as BlogPost),
+  sanitizePost(filtryPoiskovikov as BlogPost),
+  sanitizePost(proverkaUnikalnosti as BlogPost),
+  sanitizePost(shapkaYoutube as BlogPost),
+  sanitizePost(domenRf as BlogPost),
+  sanitizePost(instagramSKompyutera as BlogPost),
+  sanitizePost(knopkiYoutube as BlogPost),
+  sanitizePost(ssylkiNaForumah as BlogPost),
+  sanitizePost(lending as BlogPost),
+  sanitizePost(samostoyatelnoeSeo as BlogPost),
+  sanitizePost(metrikaUstanovka as BlogPost),
+  sanitizePost(youtubeMonetizaciya as BlogPost),
+  sanitizePost(reklamnyyKabinet as BlogPost),
+  sanitizePost(htaccess301 as BlogPost),
+  sanitizePost(futerSayta as BlogPost),
+  sanitizePost(oblachnyyServis as BlogPost),
+  sanitizePost(paginatsiya as BlogPost),
+  sanitizePost(bityeSsylki as BlogPost),
+  sanitizePost(kontentMenedzher as BlogPost),
+  sanitizePost(regionalnoeSeo as BlogPost),
+  sanitizePost(klyuchiGoogleAds as BlogPost),
+  sanitizePost(telegramBoty as BlogPost),
+  sanitizePost(stavkiDirekt as BlogPost),
+  sanitizePost(molodoySayt as BlogPost),
+  sanitizePost(oshibka502 as BlogPost),
+  sanitizePost(feykStranitsa as BlogPost),
+  sanitizePost(lichnyyKabinet as BlogPost),
+  sanitizePost(spetsrazmeshchenieDirekt as BlogPost),
+  sanitizePost(viralnyyKontent as BlogPost),
+  sanitizePost(pokupkaSsylok as BlogPost),
+  sanitizePost(nishaSayta as BlogPost),
+  sanitizePost(internetPortal as BlogPost),
+  sanitizePost(kodStatusaHttp as BlogPost),
+  sanitizePost(kod200 as BlogPost),
+  sanitizePost(videoreklamaYoutube as BlogPost),
+  sanitizePost(vebStranitsa as BlogPost),
+  sanitizePost(klyuchiInternetMagazin as BlogPost),
+  sanitizePost(analitikaKontentMarketinga as BlogPost),
+  sanitizePost(bazyDannyhSayta as BlogPost),
+  sanitizePost(dubliStranits as BlogPost),
+  sanitizePost(tegH1 as BlogPost),
+  sanitizePost(googleBiznes as BlogPost),
+  sanitizePost(protokolHttp as BlogPost),
+  sanitizePost(adaptivnyySayt as BlogPost),
 ].sort((a, b) => b.date.localeCompare(a.date));
 
 export function getBlogPost(slug: string): BlogPost | undefined {
@@ -823,6 +931,222 @@ export function getArticleCta(post: BlogPost): { title: string; text: string } {
       title: "Каналы сбыта кроме Маркета?",
       text: "Разберём юнит-экономику и фиды под площадки — без каталога мёртвых агрегаторов.",
     },
+    "seo-bitrix": {
+      title: "Битрикс тормозит SEO-настройку?",
+      text: "Проверим robots, мета-шаблоны и дубли — без установки плагинов «на всякий случай».",
+    },
+    "prosmotry-vk": {
+      title: "Охваты постов VK непонятны?",
+      text: "Настроим чтение статистики и контент-план по цифрам — без накрутки просмотров.",
+    },
+    "karusel-instagram": {
+      title: "Карусели не собирают листы?",
+      text: "Соберём сценарий слайдов и стиль серии — без коллажей «всё в одном кадре».",
+    },
+    "https-seo": {
+      title: "Переезд на HTTPS пугает?",
+      text: "Склеим зеркала и проверим 301/sitemap — без мифа, что сертификат сам даёт ТОП.",
+    },
+    "biznes-v-instagram": {
+      title: "Бизнес в Instagram без системы?",
+      text: "Соберём оффер, рубрики и ритм контента — без зоопарка устаревших SMM-софтов.",
+    },
+    "snizhenie-trafika": {
+      title: "Органика просела?",
+      text: "Разберём канал и причину просадки — без паники и обещаний «завтра само вернётся».",
+    },
+    "piksel-vk": {
+      title: "Ретаргетинг VK без пикселя?",
+      text: "Поставим пиксель и сегменты воронки — без устаревших клик-путей по кабинету.",
+    },
+    "pinterest-skachat": {
+      title: "Референсы с Pinterest в хаосе?",
+      text: "Настроим доски идей и легальный процесс съёмки — без копирования чужих файлов в рекламу.",
+    },
+    "razblokirovka-instagram": {
+      title: "Нужно снять блок в Instagram?",
+      text: "Подскажем, где список заблокированных и как не путать с баном аккаунта.",
+    },
+    "tekst-lendinga": {
+      title: "Лендинг не конвертит?",
+      text: "Соберём оффер, блоки доказательств и CTA — без переспама ключами.",
+    },
+    "blog-instagram": {
+      title: "Стартуете блог в Instagram?",
+      text: "Поможем с нишей, шапкой и ритмом — без накрутки и пустых ежедневных постов.",
+    },
+    "filtry-poiskovikov": {
+      title: "Позиции режет фильтр?",
+      text: "Диагностируем причину и план белых правок — без схем «обхода» алгоритмов.",
+    },
+    "proverka-unikalnosti": {
+      title: "Тексты с биржи «плавают»?",
+      text: "Настроим процесс проверки уникальности и брифы авторам — без гонки за 100% любой ценой.",
+    },
+    "shapka-youtube": {
+      title: "Канал выглядит «пусто»?",
+      text: "Соберём шапку, аватар и описание в одной системе — без стока и чужих картинок.",
+    },
+    "domen-rf": {
+      title: "Выбираете зону .рф?",
+      text: "Подскажем зеркала, SSL и канонический адрес — без мифов про «не ранжируется».",
+    },
+    "instagram-s-kompyutera": {
+      title: "Постить с ПК неудобно?",
+      text: "Настроим веб и Business Suite для команды — без сомнительных десктоп-клиентов.",
+    },
+    "knopki-youtube": {
+      title: "Навигация по роликам хромает?",
+      text: "Настроим карточки и конечные заставки — без устаревших аннотаций и спама поверх кадра.",
+    },
+    "ssylki-na-forumah": {
+      title: "Форумный спам уже пробовали?",
+      text: "Соберём точечный крауд без простыней ссылок — и усилим контент на своём сайте.",
+    },
+    "lending": {
+      title: "Посадочная не конвертит?",
+      text: "Соберём каркас лендинга и оффер — без лишней навигации и воды.",
+    },
+    "samostoyatelnoe-seo": {
+      title: "Продвигаете сайт сами?",
+      text: "Дадим порядок работ на первый месяц — без мифа про ТОП за неделю.",
+    },
+    "metrika-ustanovka": {
+      title: "Метрика молчит?",
+      text: "Проверим установку счётчика на CMS и цели — чтобы визиты и заявки были в отчёте.",
+    },
+    "youtube-monetizaciya": {
+      title: "Думаете о доходе с YouTube?",
+      text: "Разберём модели монетизации и пороги по актуальным правилам — без мифов про лёгкие миллионы.",
+    },
+    "reklamnyy-kabinet": {
+      title: "Запускаете первую рекламу?",
+      text: "Поможем собрать кабинет, цели и посадочную — без хаоса в кампаниях.",
+    },
+    "htaccess-301": {
+      title: "Редиректы в .htaccess путают?",
+      text: "Напишем безопасные 301 без циклов — со склейкой https и переносом URL.",
+    },
+    "futer-sayta": {
+      title: "Подвал сайта как свалка?",
+      text: "Соберём футер: контакты, юрблок и навигацию — без переспама ключами.",
+    },
+    "oblachnyy-servis": {
+      title: "Выбираете облако для команды?",
+      text: "Подскажем модель сервиса и базовую безопасность доступов — без лишней сложности.",
+    },
+    "paginatsiya": {
+      title: "Пагинация плодит дубли?",
+      text: "Настроим нумерацию и индексацию каталога — без тысяч пустых page=N.",
+    },
+    "bitye-ssylki": {
+      title: "Много 404 на сайте?",
+      text: "Найдём битые ссылки и соберём карту правок/301 — без слива всего на главную.",
+    },
+    "kontent-menedzher": {
+      title: "Ищете контент-менеджера?",
+      text: "Поможем с ролью, ТЗ и процессом публикаций — или возьмём наполнение на себя.",
+    },
+    "regionalnoe-seo": {
+      title: "Нужен ТОП в своём городе?",
+      text: "Соберём региональные посадочные и локальные сигналы — без фейковых адресов.",
+    },
+    "klyuchi-google-ads": {
+      title: "Ключи в Google Ads в хаосе?",
+      text: "Соберём структуру групп и минус-слова — под оффер и экономику клика.",
+    },
+    "telegram-boty": {
+      title: "Нужен бот в Telegram?",
+      text: "Спроектируем сценарий заявок и FAQ — без серых накруток.",
+    },
+    "stavki-direkt": {
+      title: "Ставки в Директе жгут бюджет?",
+      text: "Настроим стратегии и контроль запросов — с опорой на конверсии, не на «первое место».",
+    },
+    "molodoy-sayt": {
+      title: "Сайт новый — позиций нет?",
+      text: "Дадим порядок работ на первые месяцы — без накрутки ПФ и пустых обещаний.",
+    },
+    "oshibka-502": {
+      title: "Сайт отдаёт 502?",
+      text: "Поможем с диагностикой хостинга и логов — чтобы страницы снова открывались.",
+    },
+    "feyk-stranitsa": {
+      title: "Нашли клон бренда?",
+      text: "Подскажем, как зафиксировать фейк и куда жаловаться — без серых схем «в ответ».",
+    },
+    "lichnyy-kabinet": {
+      title: "Нужен личный кабинет?",
+      text: "Спроектируем роли, вход и интеграции — под ваш сценарий, не «для галочки».",
+    },
+    "spetsrazmeshchenie-direkt": {
+      title: "Гонитесь за «спецразмещением»?",
+      text: "Переведём цель на аукцион, качество объявлений и CPA — по актуальному Директу.",
+    },
+    "viralnyy-kontent": {
+      title: "Хотите органический шеринг?",
+      text: "Соберём форматы с шансом на репосты — без накрутки и пустых гарантий вируса.",
+    },
+    "pokupka-ssylok": {
+      title: "Думаете покупать ссылки?",
+      text: "Оценим риски и качество доноров — без пакетов «100 ссылок за неделю».",
+    },
+    "nisha-sayta": {
+      title: "Выбираете нишу сайта?",
+      text: "Сверим спрос, маржу и конкуренцию — без устаревших рейтингов «прибыльных тем».",
+    },
+    "internet-portal": {
+      title: "Думаете про портал?",
+      text: "Поможем отличить портал от сайта услуг и спроектировать MVP разделов — без зоопарка полупустых витрин.",
+    },
+    "kod-statusa-http": {
+      title: "Статусы ответов в хаосе?",
+      text: "Разберём коды и настроим проверку после релизов — без soft 404 и длинных цепочек.",
+    },
+    "kod-200": {
+      title: "Всё «200», а в индексе мусор?",
+      text: "Проверим soft 404 и канонику — чтобы успех ответа совпадал с полезной страницей.",
+    },
+    "videoreklama-youtube": {
+      title: "Думаете про рекламу на YouTube?",
+      text: "Соберём тест креативов и замер заявок — без лозунгов «самая эффективная реклама».",
+    },
+    "veb-stranitsa": {
+      title: "Путаетесь в сообщениях браузера?",
+      text: "Разберём, что значит «устарела / недоступна / перемещена» — и что чинить на сайте.",
+    },
+    "klyuchi-internet-magazin": {
+      title: "Семантика магазина в хаосе?",
+      text: "Соберём ядро под категории и карточки — без копипаста конкурентов и пустых фильтр-URL.",
+    },
+    "analitika-kontent-marketinga": {
+      title: "Контент без понятных KPI?",
+      text: "Соберём метрики под цель редакции — охваты, лиды и стоимость материала, без культа лайков.",
+    },
+    "bazy-dannyh-sayta": {
+      title: "Бэкап сайта под вопросом?",
+      text: "Проверим, что копируется БД и файлы — и что восстановление реально работает.",
+    },
+    "dubli-stranits": {
+      title: "В индексе куча копий URL?",
+      text: "Найдём системные дубли и склеим канон — без «всё на главную».",
+    },
+    "teg-h1": {
+      title: "H1 на страницах в хаосе?",
+      text: "Наведём иерархию заголовков и формулировки — без переспама и пяти H1 в шаблоне.",
+    },
+    "google-biznes": {
+      title: "Нет карточки на Google Maps?",
+      text: "Поможем завести и подтвердить профиль компании с нормальным NAP и отзывами.",
+    },
+    "protokol-http": {
+      title: "Путаете HTTP и HTTPS?",
+      text: "Разложим протокол, статусы и шифрование — без мифа «HTTPS = ТОП».",
+    },
+    "adaptivnyy-sayt": {
+      title: "Сайт «ломается» на телефоне?",
+      text: "Проверим адаптив ключевых шаблонов и сценарий заявки с мобильного.",
+    },
   };
   if (bySlug[post.slug]) return bySlug[post.slug];
   if (post.category === "SEO") {
@@ -1185,6 +1509,222 @@ export function getCoverCaption(post: BlogPost): { title: string; subtitle: stri
     "analogi-yandeks-market": {
       title: "Аналоги Яндекс Маркета",
       subtitle: "Каналы и критерии",
+    },
+    "seo-bitrix": {
+      title: "SEO в 1С-Битрикс",
+      subtitle: "robots и мета",
+    },
+    "prosmotry-vk": {
+      title: "Просмотры ВКонтакте",
+      subtitle: "Счётчик и охваты",
+    },
+    "karusel-instagram": {
+      title: "Карусель Instagram",
+      subtitle: "Несколько фото в посте",
+    },
+    "https-seo": {
+      title: "HTTPS и SEO",
+      subtitle: "Переезд без потери",
+    },
+    "biznes-v-instagram": {
+      title: "Бизнес в Instagram",
+      subtitle: "Ведение проекта",
+    },
+    "snizhenie-trafika": {
+      title: "Падение трафика",
+      subtitle: "Диагностика причин",
+    },
+    "piksel-vk": {
+      title: "Пиксель ВКонтакте",
+      subtitle: "Ретаргетинг на сайте",
+    },
+    "pinterest-skachat": {
+      title: "Сохранить с Pinterest",
+      subtitle: "ПК, телефон, права",
+    },
+    "razblokirovka-instagram": {
+      title: "Разблокировка в Instagram",
+      subtitle: "Чёрный список",
+    },
+    "tekst-lendinga": {
+      title: "Текст лендинга",
+      subtitle: "Оффер и CTA",
+    },
+    "blog-instagram": {
+      title: "Блог в Instagram",
+      subtitle: "Старт для новичка",
+    },
+    "filtry-poiskovikov": {
+      title: "Фильтры поисковиков",
+      subtitle: "Диагностика и белый SEO",
+    },
+    "proverka-unikalnosti": {
+      title: "Проверка уникальности",
+      subtitle: "Тексты без копипаста",
+    },
+    "shapka-youtube": {
+      title: "Шапка YouTube",
+      subtitle: "Баннер канала",
+    },
+    "domen-rf": {
+      title: "Домен .рф",
+      subtitle: "Кириллица и SEO",
+    },
+    "instagram-s-kompyutera": {
+      title: "Instagram с компьютера",
+      subtitle: "Веб и Suite",
+    },
+    "knopki-youtube": {
+      title: "Кнопки YouTube",
+      subtitle: "Карточки и заставки",
+    },
+    "ssylki-na-forumah": {
+      title: "Ссылки на форумах",
+      subtitle: "Крауд без спама",
+    },
+    "lending": {
+      title: "Лендинг",
+      subtitle: "Посадочная страница",
+    },
+    "samostoyatelnoe-seo": {
+      title: "SEO своими руками",
+      subtitle: "Порядок работ",
+    },
+    "metrika-ustanovka": {
+      title: "Установка Метрики",
+      subtitle: "Счётчик на CMS",
+    },
+    "youtube-monetizaciya": {
+      title: "Монетизация YouTube",
+      subtitle: "Канал и доход",
+    },
+    "reklamnyy-kabinet": {
+      title: "Рекламный кабинет",
+      subtitle: "Старт кампаний",
+    },
+    "htaccess-301": {
+      title: "301 в .htaccess",
+      subtitle: "Частые правила",
+    },
+    "futer-sayta": {
+      title: "Футер сайта",
+      subtitle: "Подвал и навигация",
+    },
+    "oblachnyy-servis": {
+      title: "Облачный сервис",
+      subtitle: "Виды и безопасность",
+    },
+    "paginatsiya": {
+      title: "Пагинация",
+      subtitle: "Списки и SEO",
+    },
+    "bitye-ssylki": {
+      title: "Битые ссылки",
+      subtitle: "Поиск и ремонт",
+    },
+    "kontent-menedzher": {
+      title: "Контент-менеджер",
+      subtitle: "Роль и навыки",
+    },
+    "regionalnoe-seo": {
+      title: "Региональное SEO",
+      subtitle: "Продвижение в городе",
+    },
+    "klyuchi-google-ads": {
+      title: "Ключи Google Ads",
+      subtitle: "Подбор и статистика",
+    },
+    "telegram-boty": {
+      title: "Боты Telegram",
+      subtitle: "Сценарии и команды",
+    },
+    "stavki-direkt": {
+      title: "Ставки в Директе",
+      subtitle: "Управление показами",
+    },
+    "molodoy-sayt": {
+      title: "Молодой сайт",
+      subtitle: "Старт продвижения",
+    },
+    "oshibka-502": {
+      title: "Ошибка 502",
+      subtitle: "Bad Gateway",
+    },
+    "feyk-stranitsa": {
+      title: "Фейк-страница",
+      subtitle: "Как распознать",
+    },
+    "lichnyy-kabinet": {
+      title: "Личный кабинет",
+      subtitle: "Зачем и что внутри",
+    },
+    "spetsrazmeshchenie-direkt": {
+      title: "Спецразмещение",
+      subtitle: "Директ тогда и сейчас",
+    },
+    "viralnyy-kontent": {
+      title: "Виральный контент",
+      subtitle: "Шеринг и охват",
+    },
+    "pokupka-ssylok": {
+      title: "Покупка ссылок",
+      subtitle: "Риски и качество",
+    },
+    "nisha-sayta": {
+      title: "Ниша для сайта",
+      subtitle: "Как выбрать тему",
+    },
+    "internet-portal": {
+      title: "Интернет-портал",
+      subtitle: "Структура и виды",
+    },
+    "kod-statusa-http": {
+      title: "Код статуса HTTP",
+      subtitle: "Классы и проверка",
+    },
+    "kod-200": {
+      title: "Код ответа 200",
+      subtitle: "OK и индексация",
+    },
+    "videoreklama-youtube": {
+      title: "Видеореклама YouTube",
+      subtitle: "Стоит ли запускать",
+    },
+    "veb-stranitsa": {
+      title: "Веб-страница",
+      subtitle: "Основы и ошибки",
+    },
+    "klyuchi-internet-magazin": {
+      title: "Ключи для магазина",
+      subtitle: "Подбор и кластеры",
+    },
+    "analitika-kontent-marketinga": {
+      title: "Метрики контента",
+      subtitle: "Аналитика редакции",
+    },
+    "bazy-dannyh-sayta": {
+      title: "Базы данных сайта",
+      subtitle: "Организация и бэкапы",
+    },
+    "dubli-stranits": {
+      title: "Дубли страниц",
+      subtitle: "Поиск и склейка",
+    },
+    "teg-h1": {
+      title: "Тег H1",
+      subtitle: "Иерархия заголовков",
+    },
+    "google-biznes": {
+      title: "Google Бизнес",
+      subtitle: "Карточка на карте",
+    },
+    "protokol-http": {
+      title: "Протокол HTTP",
+      subtitle: "Запрос и ответ",
+    },
+    "adaptivnyy-sayt": {
+      title: "Адаптивный сайт",
+      subtitle: "Под размер экрана",
     },
   };
   return (

@@ -6,6 +6,10 @@
 Список «новый формат»: `blogNewFormatSlugs` в `src/data/blog-migration.ts`.  
 Очередь переноса: `docs/BLOG-MIGRATION-CHECKLIST.md`.
 
+### Пачка за ход
+
+`продолжайN`: **N — учёт пользователя**. Агент за один ход берёт **строго 2** пункта очереди (статья или `dup`). Не ускорять пачками 3+. Текст не ужимать: ориентир 5–7 H2 и развёрнутые абзацы (не «три коротких блока»).
+
 ---
 
 ## 0. Схожесть с уже перенесённым / соседними черновиками
@@ -102,11 +106,16 @@
 
 Источник правды: `src/data/blog-redirects.json`. Генерация: `npm run htaccess:blog` → `public/.htaccess`.
 
-На старом сайте permalink был `/%category%/%postname%/` (часто `/blog/{wp-slug}/`). После деплоя на `prime-ltd.su` Apache (fallback после nginx `try_files`) отдаёт 301:
+На старом сайте (`old.prime-ltd.su`) permalink: `/%category%/%postname%/`. Дочерние рубрики (`seo-poleznosti`, `smm` и др.) висят под `blog`, поэтому канон бывает одно- или двухуровневым:
+
+- `/blog/{wp-slug}/` — в permalink взята родительская `blog`;
+- `/blog/seo-poleznosti/{wp-slug}/` (и аналоги) — взята дочерняя рубрика (в путь входит родитель).
+
+После деплоя на `prime-ltd.su` Apache (fallback после nginx `try_files`) отдаёт 301:
 
 | Откуда | Куда |
 |--------|------|
-| `/{category}/{wp-slug}/` | `/blog/{astroSlug}/` |
+| `/{category}/…/{wp-slug}/` (0+ сегментов из `wpCategories`) | `/blog/{astroSlug}/` |
 | `/{wp-slug}/` | `/blog/{astroSlug}/` |
 | `/?p={wpId}` | `/blog/{astroSlug}/` |
 | дубли (`dup`) | на канон `/blog/{astroSlug}/` |

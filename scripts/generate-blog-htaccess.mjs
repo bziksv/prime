@@ -47,9 +47,10 @@ for (const post of data.posts) {
   const astro = post.astroSlug.replace(/[^a-z0-9_-]/gi, "");
   if (!wp || !astro) continue;
   const mark = post.dup ? " # dup" : "";
-  // Optional WP category prefix: /blog/slug/ or /seo-poleznosti/slug/ or /slug/
+  // WP permalink /%category%/%postname%/: leaf or nested (child of blog →
+  // /blog/seo-poleznosti/slug/). Also bare /slug/ and single /seo-poleznosti/slug/.
   lines.push(
-    `RewriteRule ^(?:(?:${catGroup})/)?${wp}/?$ /blog/${astro}/ [R=301,L]${mark}`,
+    `RewriteRule ^(?:(?:${catGroup})/)*${wp}/?$ /blog/${astro}/ [R=301,L]${mark}`,
   );
 }
 lines.push("");
