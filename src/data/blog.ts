@@ -164,6 +164,36 @@ import uznatCms from "./blog-posts/uznat-cms.json";
 import rozygryshInstagram from "./blog-posts/rozygrysh-instagram.json";
 import googleSearchConsole from "./blog-posts/google-search-console.json";
 import avtorskiePravaInstagram from "./blog-posts/avtorskie-prava-instagram.json";
+import golosovoyPoisk from "./blog-posts/golosovoy-poisk.json";
+import statistikaGoogleProdazhi from "./blog-posts/statistika-google-prodazhi.json";
+import toshnotaTeksta from "./blog-posts/toshnota-teksta.json";
+import opisanieTovara from "./blog-posts/opisanie-tovara.json";
+import metrikaTseli from "./blog-posts/metrika-tseli.json";
+import googleAnalyticsTseli from "./blog-posts/google-analytics-tseli.json";
+import screamingFrog from "./blog-posts/screaming-frog.json";
+import podderzhkaYandeks from "./blog-posts/podderzhka-yandeks.json";
+import nazvanieInternetMagazina from "./blog-posts/nazvanie-internet-magazina.json";
+import autrich from "./blog-posts/autrich.json";
+import programmySeo from "./blog-posts/programmy-seo.json";
+import operatoryPoiska from "./blog-posts/operatory-poiska.json";
+import saytySatellity from "./blog-posts/sayty-satellity.json";
+import saytNeVTop from "./blog-posts/sayt-ne-v-top.json";
+import yandeksVebmaster from "./blog-posts/yandeks-vebmaster.json";
+import trendySeo from "./blog-posts/trendy-seo.json";
+import tochkiVhoda from "./blog-posts/tochki-vhoda.json";
+import vnutrennyayaPerelinkovka from "./blog-posts/vnutrennyaya-perelinkovka.json";
+import nakrutkaPf from "./blog-posts/nakrutka-pf.json";
+import dlinaSeoTeksta from "./blog-posts/dlina-seo-teksta.json";
+import wordpressBezopasnost from "./blog-posts/wordpress-bezopasnost.json";
+import wordpressSeoPlaginy from "./blog-posts/wordpress-seo-plaginy.json";
+import seoKopirayting from "./blog-posts/seo-kopirayting.json";
+import vebAnalitik from "./blog-posts/veb-analitik.json";
+import chromeRasshireniyaSeo from "./blog-posts/chrome-rasshireniya-seo.json";
+import otzyvyDlyaProdazh from "./blog-posts/otzyvy-dlya-prodazh.json";
+import brendovyyTrafik from "./blog-posts/brendovyy-trafik.json";
+import diplinking from "./blog-posts/diplinking.json";
+import seoOshibki from "./blog-posts/seo-oshibki.json";
+import kannibalizatsiyaZaprosov from "./blog-posts/kannibalizatsiya-zaprosov.json";
 
 export type BlogListItem = {
   intro?: string | null;
@@ -511,6 +541,36 @@ export const blogPosts: BlogPost[] = [
   sanitizePost(rozygryshInstagram as BlogPost),
   sanitizePost(googleSearchConsole as BlogPost),
   sanitizePost(avtorskiePravaInstagram as BlogPost),
+  sanitizePost(golosovoyPoisk as BlogPost),
+  sanitizePost(statistikaGoogleProdazhi as BlogPost),
+  sanitizePost(toshnotaTeksta as BlogPost),
+  sanitizePost(opisanieTovara as BlogPost),
+  sanitizePost(metrikaTseli as BlogPost),
+  sanitizePost(googleAnalyticsTseli as BlogPost),
+  sanitizePost(screamingFrog as BlogPost),
+  sanitizePost(podderzhkaYandeks as BlogPost),
+  sanitizePost(nazvanieInternetMagazina as BlogPost),
+  sanitizePost(autrich as BlogPost),
+  sanitizePost(programmySeo as BlogPost),
+  sanitizePost(operatoryPoiska as BlogPost),
+  sanitizePost(saytySatellity as BlogPost),
+  sanitizePost(saytNeVTop as BlogPost),
+  sanitizePost(yandeksVebmaster as BlogPost),
+  sanitizePost(trendySeo as BlogPost),
+  sanitizePost(tochkiVhoda as BlogPost),
+  sanitizePost(vnutrennyayaPerelinkovka as BlogPost),
+  sanitizePost(nakrutkaPf as BlogPost),
+  sanitizePost(dlinaSeoTeksta as BlogPost),
+  sanitizePost(wordpressBezopasnost as BlogPost),
+  sanitizePost(wordpressSeoPlaginy as BlogPost),
+  sanitizePost(seoKopirayting as BlogPost),
+  sanitizePost(vebAnalitik as BlogPost),
+  sanitizePost(chromeRasshireniyaSeo as BlogPost),
+  sanitizePost(otzyvyDlyaProdazh as BlogPost),
+  sanitizePost(brendovyyTrafik as BlogPost),
+  sanitizePost(diplinking as BlogPost),
+  sanitizePost(seoOshibki as BlogPost),
+  sanitizePost(kannibalizatsiyaZaprosov as BlogPost),
 ].sort((a, b) => b.date.localeCompare(a.date));
 
 export function getBlogPost(slug: string): BlogPost | undefined {
@@ -1309,6 +1369,126 @@ export function getArticleCta(post: BlogPost): { title: string; text: string } {
       title: "Жалобы на музыку и фото в ленте?",
       text: "Настроим легальный контент и разбор претензий — без обхода прав.",
     },
+    "golosovoy-poisk": {
+      title: "Сайт не отвечает на голосовые запросы?",
+      text: "Усилим FAQ, скорость и разговорные кластеры — без отдельного «культа голосового SEO».",
+    },
+    "statistika-google-prodazhi": {
+      title: "Спрос в Google есть, а плана продаж нет?",
+      text: "Сведём Planner, Trends и Analytics в цикл: ключи → сезон → посадочные → цели.",
+    },
+    "toshnota-teksta": {
+      title: "Тошнота и плотность ключей путают ТЗ?",
+      text: "Разложим классическую/академическую тошноту и коридоры для авторов — без культа процента.",
+    },
+    "opisanie-tovara": {
+      title: "Карточки товаров не конвертят?",
+      text: "Соберём описания: сценарий, свойства, характеристики и аргумент «почему у вас».",
+    },
+    "metrika-tseli": {
+      title: "В Метрике визиты есть, целей нет?",
+      text: "Настроим URL-цели, reachGoal и составную воронку — с проверкой срабатывания.",
+    },
+    "google-analytics-tseli": {
+      title: "В GA4 трафик есть, конверсий нет?",
+      text: "Сведём ключевые события: thank-you, формы и воронку — без легаси Universal.",
+    },
+    "screaming-frog": {
+      title: "Нужен технический обход сайта?",
+      text: "Прогоним Screaming Frog: статусы, мета, дубли и битые URL — с приоритетами правок.",
+    },
+    "podderzhka-yandeks": {
+      title: "Непонятный статус в Вебмастере?",
+      text: "Поможем собрать тикет в поддержку Яндекса: факты, скрины и что проверить до письма.",
+    },
+    "nazvanie-internet-magazina": {
+      title: "Не можете назвать интернет-магазин?",
+      text: "Соберём шорт-лист имён: ЦА, домен, уникальность и быстрый опрос — без копирования чужих брендов.",
+    },
+    "autrich": {
+      title: "Биржи дают слабых доноров?",
+      text: "Настроим аутрич: тематические площадки, письма редакциям и проверка публикаций без спама.",
+    },
+    "programmy-seo": {
+      title: "Потонули в SEO-сервисах?",
+      text: "Соберём стек по задачам: семантика, аналитика, краул и ссылки — без лишних подписок.",
+    },
+    "operatory-poiska": {
+      title: "Нужен быстрый срез индекса вручную?",
+      text: "Разберём операторы site/intitle/inurl для проверки дублей и разделов — без устаревших команд.",
+    },
+    "sayty-satellity": {
+      title: "Подрядчик предлагает «свою сеть»?",
+      text: "Разберём риски сателлитов и безопасный план без фермы доменов — контент, техника, точечные упоминания.",
+    },
+    "sayt-ne-v-top": {
+      title: "Сайт есть, а ТОПа нет?",
+      text: "Пройдём диагностику: индекс, техника, контент, фильтры — с реалистичными сроками подготовки и набора позиций.",
+    },
+    "yandeks-vebmaster": {
+      title: "Вебмастер молчит или пугает ошибками?",
+      text: "Разберём сводку, индекс и запросы в Яндекс Вебмастере — и что править на сайте до тикета в поддержку.",
+    },
+    "trendy-seo": {
+      title: "Выдача забирает клики?",
+      text: "Разберём zero-click и смысловой поиск: какие страницы усилить и что измерить в Вебмастере/GSC.",
+    },
+    "tochki-vhoda": {
+      title: "Не ясно, какие URL бьют конкуренты?",
+      text: "Снимем точки входа и запросы с сильных посадочных — и закроем дыры в вашем ядре.",
+    },
+    "vnutrennyaya-perelinkovka": {
+      title: "Страницы есть, а связи слабые?",
+      text: "Настроим внутреннюю перелинковку: меню, контекст, приоритетные URL — без спама анкоров.",
+    },
+    "nakrutka-pf": {
+      title: "Подрядчик предлагает «подкрутить ПФ»?",
+      text: "Разберём риски накрутки и белый план: UX, контент, сниппеты и цели в аналитике.",
+    },
+    "dlina-seo-teksta": {
+      title: "Не ясно, сколько писать на страницу?",
+      text: "Снимем ориентир по ТОП конкурентов и соберём ТЗ по объёму — без воды ради знаков.",
+    },
+    "wordpress-bezopasnost": {
+      title: "WordPress после взлома или «на всякий»?",
+      text: "Пройдём чеклист: обновления, доступы, плагины, бэкапы и HTTPS — без паники и лишних плагинов.",
+    },
+    "wordpress-seo-plaginy": {
+      title: "В каталоге WP глаза разбежались?",
+      text: "Соберём минимальный SEO-стек: один комбайн, редиректы и скорость — без зоопарка расширений.",
+    },
+    "seo-kopirayting": {
+      title: "Тексты есть, а поиска нет?",
+      text: "Соберём ТЗ и чеклист SEO-копирайтинга: интент, LSI, структура — без переспама ключей.",
+    },
+    "veb-analitik": {
+      title: "Нужен аналитик или только «отчёт из Метрики»?",
+      text: "Разберём роль веб-аналитика: цели, гипотезы и KPI — чтобы цифры вели к решениям, а не к файлу.",
+    },
+    "chrome-rasshireniya-seo": {
+      title: "Тормозите на ручном аудите в браузере?",
+      text: "Соберём минимум расширений Chrome под SEO: срез страницы, UTM, семантика — без зоопарка аддонов.",
+    },
+    "otzyvy-dlya-prodazh": {
+      title: "Карточка есть, а отзывов почти нет?",
+      text: "Настроим процесс сбора отзывов и ответов на картах — без накрутки и «купленных пятёрок».",
+    },
+    "brendovyy-trafik": {
+      title: "Небрендовая выдача прыгает, бренд не растёт?",
+      text: "Разберём долю брендового трафика и план узнаваемости: контент, карты, защита в рекламе.",
+    },
+    "diplinking": {
+      title: "Реклама ведёт на главную приложения?",
+      text: "Настроим deeplink и deferred: клик сразу на акцию или товар — без потери конверсии в меню.",
+    },
+    "seo-oshibki": {
+      title: "Аудит полный ошибок, с чего начать?",
+      text: "Разберём приоритет: сниппеты, ссылки, HTTPS и заголовки — без зелёных баллов ради галочки.",
+    },
+    "kannibalizatsiya-zaprosov": {
+      title: "Несколько URL прыгают по одной фразе?",
+      text: "Найдём каннибализацию и склеим кластер: один канон, чистые title и перелинковка.",
+    },
   };
   if (bySlug[post.slug]) return bySlug[post.slug];
   if (post.category === "SEO") {
@@ -1995,6 +2175,126 @@ export function getCoverCaption(post: BlogPost): { title: string; subtitle: stri
     "avtorskie-prava-instagram": {
       title: "Авторские права Instagram",
       subtitle: "Музыка и фото",
+    },
+    "golosovoy-poisk": {
+      title: "Голосовой поиск",
+      subtitle: "FAQ, long-tail и мобилка",
+    },
+    "statistika-google-prodazhi": {
+      title: "Статистика Google",
+      subtitle: "Planner, Trends, Analytics",
+    },
+    "toshnota-teksta": {
+      title: "Тошнота текста",
+      subtitle: "Плотность ключей и метрики",
+    },
+    "opisanie-tovara": {
+      title: "Описание товара",
+      subtitle: "Карточка интернет-магазина",
+    },
+    "metrika-tseli": {
+      title: "Цели в Метрике",
+      subtitle: "URL, события, воронка",
+    },
+    "google-analytics-tseli": {
+      title: "Конверсии GA4",
+      subtitle: "Ключевые события",
+    },
+    "screaming-frog": {
+      title: "Screaming Frog",
+      subtitle: "Краулер и техаудит",
+    },
+    "podderzhka-yandeks": {
+      title: "Поддержка Яндекса",
+      subtitle: "Справка, Вебмастер, тикет",
+    },
+    "nazvanie-internet-magazina": {
+      title: "Название ИМ",
+      subtitle: "Нейминг и домен",
+    },
+    "autrich": {
+      title: "Аутрич",
+      subtitle: "Площадки и гостевые",
+    },
+    "programmy-seo": {
+      title: "Программы для SEO",
+      subtitle: "Стек по задачам",
+    },
+    "operatory-poiska": {
+      title: "Операторы поиска",
+      subtitle: "site, intitle, filetype",
+    },
+    "sayty-satellity": {
+      title: "Сайты-сателлиты",
+      subtitle: "Риски, не инструкция",
+    },
+    "sayt-ne-v-top": {
+      title: "Почему не в ТОПе",
+      subtitle: "10 частых причин",
+    },
+    "yandeks-vebmaster": {
+      title: "Яндекс Вебмастер",
+      subtitle: "Подключение и отчёты",
+    },
+    "trendy-seo": {
+      title: "Тренды SEO",
+      subtitle: "Zero-click и смысл",
+    },
+    "tochki-vhoda": {
+      title: "Точки входа",
+      subtitle: "EP конкурентов",
+    },
+    "vnutrennyaya-perelinkovka": {
+      title: "Перелинковка",
+      subtitle: "Анкоры и схемы",
+    },
+    "nakrutka-pf": {
+      title: "Накрутка ПФ",
+      subtitle: "Риски, не инструкция",
+    },
+    "dlina-seo-teksta": {
+      title: "Длина SEO-текста",
+      subtitle: "Ориентир по ТОП",
+    },
+    "wordpress-bezopasnost": {
+      title: "WordPress: защита",
+      subtitle: "Чеклист безопасности",
+    },
+    "wordpress-seo-plaginy": {
+      title: "SEO-плагины WP",
+      subtitle: "Комбайн и точечные",
+    },
+    "seo-kopirayting": {
+      title: "SEO-копирайтинг",
+      subtitle: "LSI и чеклист",
+    },
+    "veb-analitik": {
+      title: "Веб-аналитик",
+      subtitle: "Роль и карьера",
+    },
+    "chrome-rasshireniya-seo": {
+      title: "Chrome для SEO",
+      subtitle: "Расширения",
+    },
+    "otzyvy-dlya-prodazh": {
+      title: "Отзывы для продаж",
+      subtitle: "Порог доверия",
+    },
+    "brendovyy-trafik": {
+      title: "Брендовый трафик",
+      subtitle: "Спрос по имени",
+    },
+    "diplinking": {
+      title: "Диплинкинг",
+      subtitle: "Сразу в нужный экран",
+    },
+    "seo-oshibki": {
+      title: "SEO-ошибки",
+      subtitle: "Типичные промахи",
+    },
+    "kannibalizatsiya-zaprosov": {
+      title: "Каннибализация",
+      subtitle: "Один запрос — один URL",
     },
   };
   return (

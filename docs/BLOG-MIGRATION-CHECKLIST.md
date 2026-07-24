@@ -45,7 +45,7 @@
 | Всего записей в БД | 830 |
 | Пригодных (≥800 симв., slug+title) | 813 |
 | Skip / мусор | 17 |
-| Уже на Astro | 166 |
+| Уже на Astro | 196 |
 
 ### По основной рубрике (эвристика)
 
@@ -589,86 +589,86 @@
   ID `57436` · 2020-08-07 · ~14k · SEO · **dup** → `/blog/samostoyatelnoe-seo/` (чеклист продвижения: семантика, посадочные, гео, аналитика; CTA/лендинги — также смежные каноны)
 - [x] `tegi-alt-i-title-dlya-izobrazheniy` — Теги alt и title для изображений    
   ID `57647` · 2020-08-03 · ~4k · SEO · **dup** → `/blog/alt-img/` (alt/title у img уже в каноне)
-- [ ] `optimizaciya_pod_golosovoj_poisk` — Оптимизация под голосовой поиск — новый тренд мобильных устройств и поисковых систем    
-  ID `57618` · 2020-08-01 · ~16k · SEO · Интернет-маркетинг · Контент-маркетинг
-- [ ] `kak-statistika-v-google-mozhet-povliyat-na-prodazhi-i-kak-eto-ispolzovat` — Как статистика в Google может повлиять на продажи и как это использовать    
-  ID `57591` · 2020-07-30 · ~11k · SEO · Интернет-маркетинг · Контент-маркетинг
-- [ ] `toshnota-teksta-kak-proverit-plotnost-klyuchevyih-slov` — Тошнота текста. Как проверить плотность ключевых слов    
-  ID `57569` · 2020-07-30 · ~4k · SEO · Интернет-маркетинг · Контент-маркетинг
-- [ ] `zaspamlennost-teksta-instrukciya-ot-do-ya` — Заспамленность текста: инструкция от А до Я    
-  ID `57516` · 2020-07-28 · ~9k · SEO · Контент-маркетинг
-- [ ] `kak-napisat-krutoe-opisanie-dlya-internet-magazina-iskusstvo-slova-v-kartochkah-tovarov` — Как написать крутое описание для интернет-магазина: искусство слова в карточках товаров    
-  ID `57510` · 2020-07-27 · ~7k · SEO · Интернет-маркетинг · Контент-маркетинг
-- [ ] `nastraivaem-tseli-v-metrike-vmeste` — Настраиваем цели в Метрике вместе    
-  ID `57335` · 2020-07-15 · ~18k · SEO
-- [ ] `dostupnoe-rukovodstvo-po-google-analytics-kak-nastroit-tseli` — Доступное руководство по Google Analytics: как настроить цели    
-  ID `57220` · 2020-07-09 · ~18k · SEO
-- [ ] `screaming-frog-seo-spider-dlya-tehnicheskogo-audita-sayta` — Screaming Frog SEO spider для технического аудита сайта    
-  ID `57186` · 2020-07-07 · ~14k · SEO · Интернет-маркетинг
-- [ ] `chto-takoe-ankornyie-i-bezankornyie-ssyilki-i-kak-ih-pravilno-ispolzovat` — Что такое анкорные и безанкорные ссылки, и как их правильно использовать    
-  ID `57161` · 2020-07-03 · ~10k · SEO
-- [ ] `kak-obratitsya-v-sluzhbu-podderzhki-yandeks-za-pomoshhyu` — Как обратиться в службу поддержки Яндекс за помощью    
-  ID `57004` · 2020-06-25 · ~11k · SEO · Интернет-маркетинг
-- [ ] `internet-magazin-kak-pridumat-nazvanie` — Интернет магазин: как придумать название    
-  ID `56331` · 2020-03-27 · ~12k · SEO · Интернет-маркетинг
-- [ ] `autrich-nayti-ploshhadki-dlya-statey-i-ssyilok` — Аутрич: найти площадки для статей и ссылок    
-  ID `55811` · 2020-03-06 · ~51k · SEO
-- [ ] `programmyi-dlya-seo-prodvizheniya-sayta` — Программы для SEO продвижения сайта    
-  ID `55855` · 2020-03-05 · ~9k · SEO
-- [ ] `analiz-site-konkurent` — 20 инструментов для анализа сайтов конкурентов    
-  ID `55733` · 2020-03-04 · ~30k · SEO · Интернет-маркетинг
-- [ ] `kak-ispolzovat-v-seo-operatory-poiskovyh-sistem` — Как использовать в SEO операторы поисковых систем    
-  ID `55612` · 2020-03-03 · ~30k · SEO
-- [ ] `chto-takoe-vnutrennie-dubli-stranits` — Что такое внутренние дубли страниц?    
-  ID `55258` · 2020-02-06 · ~26k · SEO
-- [ ] `saiti-satelliti-dlya-seo` — Сайты сателлиты для SEO    
-  ID `55195` · 2020-02-05 · ~6k · SEO
-- [ ] `10-prichin-pochemu-sayt-ne-mozhet-popast-v-top` — 10 причин, почему сайт не может попасть в ТОП    
-  ID `55035` · 2020-01-31 · ~20k · SEO · Интернет-маркетинг
-- [ ] `chem-grozit-dublirovanie-kontenta-na-sayte` — Чем грозит дублирование контента на сайте    
-  ID `54965` · 2020-01-27 · ~9k · SEO
-- [ ] `yandeks-vebmaster-polnoe-rukovodstvo` — Яндекс.Вебмастер: полное руководство    
-  ID `54811` · 2020-01-23 · ~24k · SEO
-- [ ] `trendyi-v-seo-i-rekomendatsii` — Тренды в SEO и рекомендации    
-  ID `54785` · 2020-01-21 · ~13k · SEO
-- [ ] `kak-nayti-tochki-vhoda-na-saytyi-konkurentov` — Как найти точки входа на сайты конкурентов    
-  ID `54738` · 2020-01-20 · ~9k · SEO
-- [ ] `sovetyi-po-vnutrenney-perelinkovki-sayta` — Советы по внутренней перелинковки сайта    
-  ID `54593` · 2020-01-15 · ~18k · SEO
-- [ ] `kak-ne-popastsya-na-nakrutke-povedencheskih-faktorov` — Как не попасться на накрутке поведенческих факторов    
-  ID `54335` · 2020-01-10 · ~8k · SEO
-- [ ] `kakaya-nuzhna-dlina-seo-teksta` — Какая нужна длина seo текста    
-  ID `54315` · 2020-01-09 · ~9k · SEO
-- [ ] `rekomendacii-po-zashhite-sayta-na-wordpress` — Рекомендации по защите сайта на WordPress    
-  ID `54237` · 2019-12-27 · ~16k · SEO
-- [ ] `luchshie-seo-plaginyi-dlya-wordpress` — Лучшие seo-плагины для wordpress    
-  ID `53623` · 2019-12-16 · ~20k · SEO
-- [ ] `kak-sdelat-rasshirennyiy-snippet-podrobnoe-rukovodstvo` — Как сделать расширенный сниппет: подробное руководство    
-  ID `53426` · 2019-12-10 · ~17k · SEO
-- [ ] `polnyiy-gayd-po-seo-kopiraytingu-s-primerami` — Полный гайд по СЕО-копирайтингу с примерами    
-  ID `53281` · 2019-12-07 · ~28k · SEO
-- [ ] `professiya-web-analitik` — Профессия web аналитик    
-  ID `52884` · 2019-12-04 · ~16k · SEO
-- [ ] `chto-takoe-kod-otveta-servera` — Что такое код ответа сервера    
-  ID `52695` · 2019-11-29 · ~14k · SEO
-- [ ] `10-rasshireniy-google-chrome-dlya-seo-spetsialistov` — 10 расширений Google Chrome для SEO-специалистов    
-  ID `52478` · 2019-11-14 · ~11k · SEO
-- [ ] `obzor-instrumentov-dlya-sozdaniya-semanticheskogo-yadra` — Обзор инструментов для создания семантического ядра    
-  ID `52246` · 2019-10-28 · ~13k · SEO
-- [ ] `kak-uznat-cms-sayta` — Как узнать cms сайта    
-  ID `51935` · 2019-10-02 · ~11k · SEO
-- [ ] `skolko-otzyivov-nuzhno-kompanii-chtobyi-effektivno-prodavat` — Сколько отзывов нужно компании, чтобы эффективно продавать    
-  ID `51876` · 2019-09-26 · ~11k · SEO
-- [ ] `brendovyiy-trafik-chto-eto-i-kak-povyisit` — Брендовый трафик - что это и как повысить    
-  ID `51732` · 2019-09-19 · ~18k · SEO
-- [ ] `poshagovoe-seo-prodvizhenie-sayta-samostoyatelno` — Пошаговое seo продвижение сайта самостоятельно    
-  ID `51390` · 2019-09-02 · ~8k · SEO
-- [ ] `diplinking-v-reklamnoy-kampanii-kak-ispolzovat` — Диплинкинг в рекламной кампании: как использовать    
-  ID `51199` · 2019-08-20 · ~8k · SEO
-- [ ] `samyie-rasprostranennyie-seo-oshibki` — Самые распространенные SEO-ошибки    
-  ID `51156` · 2019-08-19 · ~19k · SEO
-- [ ] `kak-borotsya-s-kannibalizatsiey-klyuchevyih-slov` — Как бороться с каннибализацией ключевых слов    
-  ID `50918` · 2019-08-08 · ~11k · SEO
+- [x] `optimizaciya_pod_golosovoj_poisk` — Оптимизация под голосовой поиск — новый тренд мобильных устройств и поисковых систем    
+  ID `57618` · 2020-08-01 · ~16k · SEO · Интернет-маркетинг · Контент-маркетинг → Astro `/blog/golosovoy-poisk/` · **новый формат** (канон; соседние WP про голос — сюда)
+- [x] `kak-statistika-v-google-mozhet-povliyat-na-prodazhi-i-kak-eto-ispolzovat` — Как статистика в Google может повлиять на продажи и как это использовать    
+  ID `57591` · 2020-07-30 · ~11k · SEO · Интернет-маркетинг · Контент-маркетинг → Astro `/blog/statistika-google-prodazhi/` · **новый формат** (Planner/Trends/спрос; воронка GA — `/blog/google-analytics/`)
+- [x] `toshnota-teksta-kak-proverit-plotnost-klyuchevyih-slov` — Тошнота текста. Как проверить плотность ключевых слов    
+  ID `57569` · 2020-07-30 · ~4k · SEO · Интернет-маркетинг · Контент-маркетинг → Astro `/blog/toshnota-teksta/` · **новый формат**
+- [x] `zaspamlennost-teksta-instrukciya-ot-do-ya` — Заспамленность текста: инструкция от А до Я    
+  ID `57516` · 2020-07-28 · ~9k · SEO · Контент-маркетинг · **dup** → `/blog/zaspamlennost-teksta/` (определение, Text.ru/Advego/PR-CY, снижение переспама уже в каноне; тошнота/плотность — `/blog/toshnota-teksta/`)
+- [x] `kak-napisat-krutoe-opisanie-dlya-internet-magazina-iskusstvo-slova-v-kartochkah-tovarov` — Как написать крутое описание для интернет-магазина: искусство слова в карточках товаров    
+  ID `57510` · 2020-07-27 · ~7k · SEO · Интернет-маркетинг · Контент-маркетинг → Astro `/blog/opisanie-tovara/` · **новый формат**
+- [x] `nastraivaem-tseli-v-metrike-vmeste` — Настраиваем цели в Метрике вместе    
+  ID `57335` · 2020-07-15 · ~18k · SEO → Astro `/blog/metrika-tseli/` · **новый формат** (актуальный `ym(...reachGoal)`; установка счётчика — `/blog/metrika-ustanovka/`)
+- [x] `dostupnoe-rukovodstvo-po-google-analytics-kak-nastroit-tseli` — Доступное руководство по Google Analytics: как настроить цели    
+  ID `57220` · 2020-07-09 · ~18k · SEO → Astro `/blog/google-analytics-tseli/` · **новый формат** (GA4 key events; поведение ИМ — `/blog/google-analytics/`)
+- [x] `screaming-frog-seo-spider-dlya-tehnicheskogo-audita-sayta` — Screaming Frog SEO spider для технического аудита сайта    
+  ID `57186` · 2020-07-07 · ~14k · SEO · Интернет-маркетинг → Astro `/blog/screaming-frog/` · **новый формат** (методология аудита — `/blog/tehnicheskiy-seo-audit/`)
+- [x] `chto-takoe-ankornyie-i-bezankornyie-ssyilki-i-kak-ih-pravilno-ispolzovat` — Что такое анкорные и безанкорные ссылки, и как их правильно использовать    
+  ID `57161` · 2020-07-03 · ~10k · SEO · **dup** → `/blog/chto-takoe-ssylka/` (анкор/безанкор уже в каноне; профиль анкоров — также `/blog/ssylochnyy-profil/`)
+- [x] `kak-obratitsya-v-sluzhbu-podderzhki-yandeks-za-pomoshhyu` — Как обратиться в службу поддержки Яндекс за помощью    
+  ID `57004` · 2020-06-25 · ~11k · SEO · Интернет-маркетинг → Astro `/blog/podderzhka-yandeks/` · **новый формат** (без устаревших телефонов; не обещаем ручной ТОП)
+- [x] `internet-magazin-kak-pridumat-nazvanie` — Интернет магазин: как придумать название    
+  ID `56331` · 2020-03-27 · ~12k · SEO · Интернет-маркетинг → Astro `/blog/nazvanie-internet-magazina/` · **новый формат**
+- [x] `autrich-nayti-ploshhadki-dlya-statey-i-ssyilok` — Аутрич: найти площадки для статей и ссылок    
+  ID `55811` · 2020-03-06 · ~51k · SEO → Astro `/blog/autrich/` · **новый формат** (без схем Википедии и «плохих ссылок»; гостевые — также `/blog/besplatnoe-razmeshchenie-statey/`)
+- [x] `programmyi-dlya-seo-prodvizheniya-sayta` — Программы для SEO продвижения сайта    
+  ID `55855` · 2020-03-05 · ~9k · SEO → Astro `/blog/programmy-seo/` · **новый формат**
+- [x] `analiz-site-konkurent` — 20 инструментов для анализа сайтов конкурентов    
+  ID `55733` · 2020-03-04 · ~30k · SEO · Интернет-маркетинг · **dup** → `/blog/analiz-konkurentov/` (каталог spy/SEO-сервисов; метод анализа уже в каноне; стек SEO — `/blog/programmy-seo/`)
+- [x] `kak-ispolzovat-v-seo-operatory-poiskovyh-sistem` — Как использовать в SEO операторы поисковых систем    
+  ID `55612` · 2020-03-03 · ~30k · SEO → Astro `/blog/operatory-poiska/` · **новый формат** (канон; соседний WP про операторы Google — сюда)
+- [x] `chto-takoe-vnutrennie-dubli-stranits` — Что такое внутренние дубли страниц?    
+  ID `55258` · 2020-02-06 · ~26k · SEO · **dup** → `/blog/dubli-stranits/` (типы, поиск, 301/canonical/noindex уже в каноне)
+- [x] `saiti-satelliti-dlya-seo` — Сайты сателлиты для SEO    
+  ID `55195` · 2020-02-05 · ~6k · SEO → Astro `/blog/sayty-satellity/` · **новый формат** (только риски; без инструкций по сети/PBN)
+- [x] `10-prichin-pochemu-sayt-ne-mozhet-popast-v-top` — 10 причин, почему сайт не может попасть в ТОП    
+  ID `55035` · 2020-01-31 · ~20k · SEO · Интернет-маркетинг → Astro `/blog/sayt-ne-v-top/` · **новый формат** (подготовка ≠ ТОП 2–6 мес.)
+- [x] `chem-grozit-dublirovanie-kontenta-na-sayte` — Чем грозит дублирование контента на сайте    
+  ID `54965` · 2020-01-27 · ~9k · SEO · **dup** → `/blog/dubli-stranits/` (риски, поиск и устранение внутренних дублей уже в каноне; соседние «насколько опасны» / «что такое внутренние дубли» — туда же)
+- [x] `yandeks-vebmaster-polnoe-rukovodstvo` — Яндекс.Вебмастер: полное руководство    
+  ID `54811` · 2020-01-23 · ~24k · SEO → Astro `/blog/yandeks-vebmaster/` · **новый формат** (UI меняется; ИКС/Турбо — с оговорками; тикеты — `/blog/podderzhka-yandeks/`)
+- [x] `trendyi-v-seo-i-rekomendatsii` — Тренды в SEO и рекомендации    
+  ID `54785` · 2020-01-21 · ~13k · SEO → Astro `/blog/trendy-seo/` · **новый формат** (zero-click, смысл; без привязки к «году»)
+- [x] `kak-nayti-tochki-vhoda-na-saytyi-konkurentov` — Как найти точки входа на сайты конкурентов    
+  ID `54738` · 2020-01-20 · ~9k · SEO → Astro `/blog/tochki-vhoda/` · **новый формат** (без продвижения конкретных «серых» кабинетов; анализ конкурентов — также `/blog/analiz-konkurentov/`)
+- [x] `sovetyi-po-vnutrenney-perelinkovki-sayta` — Советы по внутренней перелинковки сайта    
+  ID `54593` · 2020-01-15 · ~18k · SEO → Astro `/blog/vnutrennyaya-perelinkovka/` · **новый формат** (структура — также `/blog/seo-struktura-sayta/`)
+- [x] `kak-ne-popastsya-na-nakrutke-povedencheskih-faktorov` — Как не попасться на накрутке поведенческих факторов    
+  ID `54335` · 2020-01-10 · ~8k · SEO → Astro `/blog/nakrutka-pf/` · **новый формат** (только риски; без инструкций по накрутке)
+- [x] `kakaya-nuzhna-dlina-seo-teksta` — Какая нужна длина seo текста    
+  ID `54315` · 2020-01-09 · ~9k · SEO → Astro `/blog/dlina-seo-teksta/` · **новый формат**
+- [x] `rekomendacii-po-zashhite-sayta-na-wordpress` — Рекомендации по защите сайта на WordPress    
+  ID `54237` · 2019-12-27 · ~16k · SEO → Astro `/blog/wordpress-bezopasnost/` · **новый формат** (общая безопасность — `/blog/bezopasnost-sayta/`)
+- [x] `luchshie-seo-plaginyi-dlya-wordpress` — Лучшие seo-плагины для wordpress    
+  ID `53623` · 2019-12-16 · ~20k · SEO → Astro `/blog/wordpress-seo-plaginy/` · **новый формат**
+- [x] `kak-sdelat-rasshirennyiy-snippet-podrobnoe-rukovodstvo` — Как сделать расширенный сниппет: подробное руководство    
+  ID `53426` · 2019-12-10 · ~17k · SEO · **dup** → `/blog/snippet/` (rich results, schema/JSON-LD, валидаторы уже в каноне)
+- [x] `polnyiy-gayd-po-seo-kopiraytingu-s-primerami` — Полный гайд по СЕО-копирайтингу с примерами    
+  ID `53281` · 2019-12-07 · ~28k · SEO → Astro `/blog/seo-kopirayting/` · **новый формат** (общее про виды текстов — `/blog/kopirayting/`)
+- [x] `professiya-web-analitik` — Профессия web аналитик    
+  ID `52884` · 2019-12-04 · ~16k · SEO → Astro `/blog/veb-analitik/` · **новый формат**
+- [x] `chto-takoe-kod-otveta-servera` — Что такое код ответа сервера    
+  ID `52695` · 2019-11-29 · ~14k · SEO · **dup** → `/blog/kod-statusa-http/` (классы 1xx–5xx, проверка, SEO; 200/502 — смежные)
+- [x] `10-rasshireniy-google-chrome-dlya-seo-spetsialistov` — 10 расширений Google Chrome для SEO-специалистов    
+  ID `52478` · 2019-11-14 · ~11k · SEO → Astro `/blog/chrome-rasshireniya-seo/` · **новый формат** (каталог меняется; без культа ТОПа)
+- [x] `obzor-instrumentov-dlya-sozdaniya-semanticheskogo-yadra` — Обзор инструментов для создания семантического ядра    
+  ID `52246` · 2019-10-28 · ~13k · SEO · **dup** → `/blog/semanticheskoe-yadro/` (Wordstat / Key Collector / сервисы сбора СЯ; канон + `programmy-seo`)
+- [x] `kak-uznat-cms-sayta` — Как узнать cms сайта    
+  ID `51935` · 2019-10-02 · ~11k · SEO · **dup** → `/blog/uznat-cms/` (канон уже в новом формате; сосед `kak-uznat-cms-sayta-2`)
+- [x] `skolko-otzyivov-nuzhno-kompanii-chtobyi-effektivno-prodavat` — Сколько отзывов нужно компании, чтобы эффективно продавать    
+  ID `51876` · 2019-09-26 · ~11k · SEO → Astro `/blog/otzyvy-dlya-prodazh/` · **новый формат**
+- [x] `brendovyiy-trafik-chto-eto-i-kak-povyisit` — Брендовый трафик - что это и как повысить    
+  ID `51732` · 2019-09-19 · ~18k · SEO → Astro `/blog/brendovyy-trafik/` · **новый формат**
+- [x] `poshagovoe-seo-prodvizhenie-sayta-samostoyatelno` — Пошаговое seo продвижение сайта самостоятельно    
+  ID `51390` · 2019-09-02 · ~8k · SEO · **dup** → `/blog/samostoyatelnoe-seo/` (DIY-план: ядро, техника, ссылки, ПФ; канон уже в новом формате)
+- [x] `diplinking-v-reklamnoy-kampanii-kak-ispolzovat` — Диплинкинг в рекламной кампании: как использовать    
+  ID `51199` · 2019-08-20 · ~8k · SEO → Astro `/blog/diplinking/` · **новый формат** (deeplink / deferred в рекламе приложений)
+- [x] `samyie-rasprostranennyie-seo-oshibki` — Самые распространенные SEO-ошибки    
+  ID `51156` · 2019-08-19 · ~19k · SEO → Astro `/blog/seo-oshibki/` · **новый формат** (мета, H1, ссылки, разметка, HTTPS; сосед `oshibki-v-seo-…` — сверить при переносе)
+- [x] `kak-borotsya-s-kannibalizatsiey-klyuchevyih-slov` — Как бороться с каннибализацией ключевых слов    
+  ID `50918` · 2019-08-08 · ~11k · SEO → Astro `/blog/kannibalizatsiya-zaprosov/` · **новый формат**
 - [ ] `analiz-ssyilochnoy-massyi-podrobnoe-rukovodstvo` — Анализ ссылочной массы — подробное руководство    
   ID `50641` · 2019-07-26 · ~12k · SEO
 - [ ] `vnutrennie-faktoryi-ranzhirovaniya-optimizatsiya-dlya-poiskovyih-sistem` — Внутренние факторы ранжирования — оптимизация для поисковых систем    
