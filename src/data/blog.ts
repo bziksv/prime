@@ -137,6 +137,33 @@ import tegH1 from "./blog-posts/teg-h1.json";
 import googleBiznes from "./blog-posts/google-biznes.json";
 import protokolHttp from "./blog-posts/protokol-http.json";
 import adaptivnyySayt from "./blog-posts/adaptivnyy-sayt.json";
+import bezopasnostSayta from "./blog-posts/bezopasnost-sayta.json";
+import dlinaTitle from "./blog-posts/dlina-title.json";
+import metrikaNeRabotaet from "./blog-posts/metrika-ne-rabotaet.json";
+import sohranitFotoInstagram from "./blog-posts/sohranit-foto-instagram.json";
+import vstavkaJavascript from "./blog-posts/vstavka-javascript.json";
+import seoMalyyBiznes from "./blog-posts/seo-malyy-biznes.json";
+import navigatsiyaSayta from "./blog-posts/navigatsiya-sayta.json";
+import kartaSayta from "./blog-posts/karta-sayta.json";
+import ssylochnyyProfil from "./blog-posts/ssylochnyy-profil.json";
+import kanonicheskiyTeg from "./blog-posts/kanonicheskiy-teg.json";
+import napolnenieSayta from "./blog-posts/napolnenie-sayta.json";
+import seoVkontakte from "./blog-posts/seo-vkontakte.json";
+import openGraph from "./blog-posts/open-graph.json";
+import googleAnalytics from "./blog-posts/google-analytics.json";
+import razmerStranitsy from "./blog-posts/razmer-stranitsy.json";
+import katalogiSaytov from "./blog-posts/katalogi-saytov.json";
+import otkazySayta from "./blog-posts/otkazy-sayta.json";
+import yandeksXml from "./blog-posts/yandeks-xml.json";
+import ssylkiTelegram from "./blog-posts/ssylki-telegram.json";
+import kartinkiVnimanie from "./blog-posts/kartinki-vnimanie.json";
+import baidu from "./blog-posts/baidu.json";
+import cookies from "./blog-posts/cookies.json";
+import altImg from "./blog-posts/alt-img.json";
+import uznatCms from "./blog-posts/uznat-cms.json";
+import rozygryshInstagram from "./blog-posts/rozygrysh-instagram.json";
+import googleSearchConsole from "./blog-posts/google-search-console.json";
+import avtorskiePravaInstagram from "./blog-posts/avtorskie-prava-instagram.json";
 
 export type BlogListItem = {
   intro?: string | null;
@@ -457,6 +484,33 @@ export const blogPosts: BlogPost[] = [
   sanitizePost(googleBiznes as BlogPost),
   sanitizePost(protokolHttp as BlogPost),
   sanitizePost(adaptivnyySayt as BlogPost),
+  sanitizePost(bezopasnostSayta as BlogPost),
+  sanitizePost(dlinaTitle as BlogPost),
+  sanitizePost(metrikaNeRabotaet as BlogPost),
+  sanitizePost(sohranitFotoInstagram as BlogPost),
+  sanitizePost(vstavkaJavascript as BlogPost),
+  sanitizePost(seoMalyyBiznes as BlogPost),
+  sanitizePost(navigatsiyaSayta as BlogPost),
+  sanitizePost(kartaSayta as BlogPost),
+  sanitizePost(ssylochnyyProfil as BlogPost),
+  sanitizePost(kanonicheskiyTeg as BlogPost),
+  sanitizePost(napolnenieSayta as BlogPost),
+  sanitizePost(seoVkontakte as BlogPost),
+  sanitizePost(openGraph as BlogPost),
+  sanitizePost(googleAnalytics as BlogPost),
+  sanitizePost(razmerStranitsy as BlogPost),
+  sanitizePost(katalogiSaytov as BlogPost),
+  sanitizePost(otkazySayta as BlogPost),
+  sanitizePost(yandeksXml as BlogPost),
+  sanitizePost(ssylkiTelegram as BlogPost),
+  sanitizePost(kartinkiVnimanie as BlogPost),
+  sanitizePost(baidu as BlogPost),
+  sanitizePost(cookies as BlogPost),
+  sanitizePost(altImg as BlogPost),
+  sanitizePost(uznatCms as BlogPost),
+  sanitizePost(rozygryshInstagram as BlogPost),
+  sanitizePost(googleSearchConsole as BlogPost),
+  sanitizePost(avtorskiePravaInstagram as BlogPost),
 ].sort((a, b) => b.date.localeCompare(a.date));
 
 export function getBlogPost(slug: string): BlogPost | undefined {
@@ -1147,6 +1201,114 @@ export function getArticleCta(post: BlogPost): { title: string; text: string } {
       title: "Сайт «ломается» на телефоне?",
       text: "Проверим адаптив ключевых шаблонов и сценарий заявки с мобильного.",
     },
+    "bezopasnost-sayta": {
+      title: "Безопасность сайта под вопросом?",
+      text: "Проверим обновления, доступы и бэкапы — без «серых» сканеров чужих сайтов.",
+    },
+    "dlina-title": {
+      title: "Title обрезается в выдаче?",
+      text: "Перепишем заголовки под смысл и видимую длину — без простыни ключей.",
+    },
+    "metrika-ne-rabotaet": {
+      title: "Метрика молчит или врёт?",
+      text: "Пройдём диагностику: код, кэш, цели и Вебвизор — без лишней переустановки счётчика.",
+    },
+    "sohranit-foto-instagram": {
+      title: "Нужен архив фото из Instagram?",
+      text: "Разберём штатные способы для своего контента — без фишинговых «скачивателей».",
+    },
+    "vstavka-javascript": {
+      title: "Нужно вставить счётчик или виджет?",
+      text: "Подскажем, куда класть JS в CMS и конструкторе — без дублей и потери после кэша.",
+    },
+    "seo-malyy-biznes": {
+      title: "SEO при скромном бюджете?",
+      text: "Расставим приоритеты: локальный спрос, скорость и сильные посадочные — без гонки за ВЧ.",
+    },
+    "navigatsiya-sayta": {
+      title: "Пользователи теряются на сайте?",
+      text: "Наведём меню, крошки и путь к заявке — без простыни пунктов «ради SEO».",
+    },
+    "karta-sayta": {
+      title: "Нет нормального sitemap.xml?",
+      text: "Соберём XML-карту канонических URL и подключим в Вебмастер — без мусора фильтров.",
+    },
+    "ssylochnyy-profil": {
+      title: "Ссылочный профиль выглядит мутно?",
+      text: "Снимем срез доноров и анкоров, сравним с конкурентами и отделим шум от смысла.",
+    },
+    "kanonicheskiy-teg": {
+      title: "Дубли без понятного канона?",
+      text: "Настроим rel=canonical и согласуем с 301/sitemap — без склейки всего на главную.",
+    },
+    "napolnenie-sayta": {
+      title: "Сайт пустой или тонкий?",
+      text: "Соберём темы, ТЗ и ритм публикаций под спрос — без грабберов и копипаста.",
+    },
+    "seo-vkontakte": {
+      title: "Паблик не находят в поиске?",
+      text: "Упакуем название, описание и контент VK под выдачу и свяжем с сайтом.",
+    },
+    "open-graph": {
+      title: "Превью ссылок в соцсетях кривое?",
+      text: "Настроим Open Graph: заголовок, описание и картинка без сюрпризов кэша.",
+    },
+    "google-analytics": {
+      title: "В магазине цифры есть, а ясности нет?",
+      text: "Разберём воронку и сегменты в GA — от просмотра товара до покупки.",
+    },
+    "razmer-stranitsy": {
+      title: "Страницы тяжёлые и долго грузятся?",
+      text: "Снимем вес в DevTools и урежем картинки/JS — без культа «100 баллов».",
+    },
+    "katalogi-saytov": {
+      title: "Каталоги и справочники без спама?",
+      text: "Отберём живые площадки, сведём NAP и уберём мусорные регистрации.",
+    },
+    "otkazy-sayta": {
+      title: "Посетители уходят с первого экрана?",
+      text: "Разберём отказы по посадочным: скорость, оффер, навигация — без культа одной цифры.",
+    },
+    "yandeks-xml": {
+      title: "Старый Яндекс.XML отвалился?",
+      text: "Подскажем миграцию на Search API и безопасный мониторинг без парсеров HTML.",
+    },
+    "ssylki-telegram": {
+      title: "Путаетесь в ссылках t.me?",
+      text: "Соберём URL на канал, чат и профиль — с invite и без битых QR.",
+    },
+    "kartinki-vnimanie": {
+      title: "Визуал не цепляет и выглядит стоком?",
+      text: "Настроим контраст, смысл кадра и превью — без клише «улыбка продаёт».",
+    },
+    "baidu": {
+      title: "Нужен выход в поиск Китая?",
+      text: "Оценим, нужен ли Baidu, и соберём легальный контур без серых аккаунтов.",
+    },
+    "cookies": {
+      title: "Cookies и согласие запутывают?",
+      text: "Разложим типы cookie, флаги безопасности и баннер без «фейкового Accept».",
+    },
+    "alt-img": {
+      title: "Alt у картинок пустой или с переспамом?",
+      text: "Настроим осмысленные alt и уберём культ title у img.",
+    },
+    "uznat-cms": {
+      title: "Не понятно, на чём сайт конкурента?",
+      text: "Определим CMS по коду и сервисам — без сканов и взлома.",
+    },
+    "rozygrysh-instagram": {
+      title: "Розыгрыш без доверия к итогу?",
+      text: "Настроим честный random, список участников и фиксацию результата.",
+    },
+    "google-search-console": {
+      title: "Нет ясности по индексу в Google?",
+      text: "Подключим Search Console, sitemap и разбор ошибок покрытия.",
+    },
+    "avtorskie-prava-instagram": {
+      title: "Жалобы на музыку и фото в ленте?",
+      text: "Настроим легальный контент и разбор претензий — без обхода прав.",
+    },
   };
   if (bySlug[post.slug]) return bySlug[post.slug];
   if (post.category === "SEO") {
@@ -1725,6 +1887,114 @@ export function getCoverCaption(post: BlogPost): { title: string; subtitle: stri
     "adaptivnyy-sayt": {
       title: "Адаптивный сайт",
       subtitle: "Под размер экрана",
+    },
+    "bezopasnost-sayta": {
+      title: "Безопасность сайта",
+      subtitle: "Угрозы и защита",
+    },
+    "dlina-title": {
+      title: "Длина Title",
+      subtitle: "Заголовок сниппета",
+    },
+    "metrika-ne-rabotaet": {
+      title: "Метрика не работает",
+      subtitle: "Диагностика счётчика",
+    },
+    "sohranit-foto-instagram": {
+      title: "Сохранить фото Instagram",
+      subtitle: "Архив и права",
+    },
+    "vstavka-javascript": {
+      title: "Вставка JavaScript",
+      subtitle: "CMS и конструкторы",
+    },
+    "seo-malyy-biznes": {
+      title: "SEO для малого бизнеса",
+      subtitle: "Приоритеты на старте",
+    },
+    "navigatsiya-sayta": {
+      title: "Навигация сайта",
+      subtitle: "Меню и путь к цели",
+    },
+    "karta-sayta": {
+      title: "Карта сайта",
+      subtitle: "XML и HTML",
+    },
+    "ssylochnyy-profil": {
+      title: "Ссылочный профиль",
+      subtitle: "Доноры и анкоры",
+    },
+    "kanonicheskiy-teg": {
+      title: "Канонический тег",
+      subtitle: "rel=canonical",
+    },
+    "napolnenie-sayta": {
+      title: "Наполнение сайта",
+      subtitle: "Контент и публикации",
+    },
+    "seo-vkontakte": {
+      title: "SEO ВКонтакте",
+      subtitle: "Поиск и сообщество",
+    },
+    "open-graph": {
+      title: "Open Graph",
+      subtitle: "Превью при шаринге",
+    },
+    "google-analytics": {
+      title: "Google Analytics",
+      subtitle: "Поведение в магазине",
+    },
+    "razmer-stranitsy": {
+      title: "Размер страницы",
+      subtitle: "Вес и ускорение",
+    },
+    "katalogi-saytov": {
+      title: "Каталоги сайтов",
+      subtitle: "Справочники и карты",
+    },
+    "otkazy-sayta": {
+      title: "Отказы на сайте",
+      subtitle: "Удержание посетителей",
+    },
+    "yandeks-xml": {
+      title: "Яндекс.XML",
+      subtitle: "Search API вместо XML",
+    },
+    "ssylki-telegram": {
+      title: "Ссылки Telegram",
+      subtitle: "t.me и приглашения",
+    },
+    "kartinki-vnimanie": {
+      title: "Картинки и внимание",
+      subtitle: "Визуал в контенте",
+    },
+    "baidu": {
+      title: "Baidu",
+      subtitle: "Поиск в Китае",
+    },
+    "cookies": {
+      title: "Cookies",
+      subtitle: "Браузер и приватность",
+    },
+    "alt-img": {
+      title: "Alt и title у img",
+      subtitle: "Доступность и SEO",
+    },
+    "uznat-cms": {
+      title: "Как узнать CMS",
+      subtitle: "Код и детекторы",
+    },
+    "rozygrysh-instagram": {
+      title: "Розыгрыш и random",
+      subtitle: "Честный выбор победителя",
+    },
+    "google-search-console": {
+      title: "Google Search Console",
+      subtitle: "Индекс и отчёты",
+    },
+    "avtorskie-prava-instagram": {
+      title: "Авторские права Instagram",
+      subtitle: "Музыка и фото",
     },
   };
   return (

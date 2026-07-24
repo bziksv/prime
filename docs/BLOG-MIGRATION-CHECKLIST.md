@@ -45,7 +45,7 @@
 | Всего записей в БД | 830 |
 | Пригодных (≥800 симв., slug+title) | 813 |
 | Skip / мусор | 17 |
-| Уже на Astro | 139 |
+| Уже на Astro | 166 |
 
 ### По основной рубрике (эвристика)
 
@@ -505,90 +505,90 @@
   ID `59668` · 2020-12-10 · ~4k · SEO · **dup** → `/blog/snippet/` (как валидатор Яндекса и микроразметка; канон rich results / schema)
 - [x] `adaptatsiya-sayta-pod-razmer-ekrana` — Адаптация сайта под размер экрана    
   ID `59558` · 2020-12-08 · ~15k · SEO · Интернет-маркетинг → Astro `/blog/adaptivnyy-sayt/` · **новый формат**
-- [ ] `kak-vzlamyivayut-saytyi-sql-inektsii-i-drugie-sposobyi` — Как взламывают сайты: SQL инъекции и другие способы    
-  ID `59437` · 2020-11-26 · ~15k · SEO · Интернет-маркетинг
-- [ ] `kak-rasschitat-optimalnuyu-dlinu-dlya-title` — Как рассчитать оптимальную длину для Title    
-  ID `59420` · 2020-11-23 · ~8k · SEO · Интернет-маркетинг
-- [ ] `razbiraemsya-pochemu-perestaet-rabotat-metrika-na-sayte` — Разбираемся, почему перестает работать метрика на сайте    
-  ID `59318` · 2020-11-19 · ~4k · SEO
-- [ ] `kak-sohranit-foto-iz-instagrama` — Как сохранить фото из Инстаграма    
-  ID `59079` · 2020-11-17 · ~12k · SEO
-- [ ] `kak-vstavit-fragment-koda-javascript-na-sajt-naglyadnaya-instrukciya` — Как вставить фрагмент кода JavaScript на сайт. Наглядная инструкция    
-  ID `59020` · 2020-11-13 · ~13k · SEO
-- [ ] `sovetyi-po-seo-dlya-malogo-biznesa` — Советы по СЕО для малого бизнеса    
-  ID `58949` · 2020-11-13 · ~15k · SEO
-- [ ] `redirekt-osobennosti-sposoby-primeneniya-nastrojka` — Редирект: особенности, способы применения, настройка    
-  ID `58996` · 2020-11-12 · ~13k · SEO
-- [ ] `optimizatsionnyiy-protsess-sayta-s-kazhdyim-razom-vse-luchshe` — Оптимизационный процесс сайта: с каждым разом все лучше    
-  ID `58825` · 2020-11-06 · ~15k · SEO
-- [ ] `poiskovyie-filtryi-yandeksa-vozmozhnyie-problemyi-i-ih-reshenie` — Поисковые фильтры Яндекса: возможные проблемы и их решение    
-  ID `58835` · 2020-11-02 · ~18k · SEO · Интернет-маркетинг
-- [ ] `vse-chto-nuzhno-znat-o-navigacii-sajta` — Все, что нужно знать о навигации сайта    
-  ID `58819` · 2020-10-30 · ~7k · SEO · Интернет-маркетинг
-- [ ] `dlya-chego-nuzhna-karta-sayta-i-kak-ee-sozdat-podrobnaya-instruktsiya` — Для чего нужна карта сайта и как ее создать: подробная инструкция    
-  ID `58771` · 2020-10-29 · ~9k · SEO · Интернет-маркетинг
-- [ ] `chto-takoe-klasterizatsiya-semanticheskogo-yadra-i-zaprosov-poiskovyih-sistem` — Что такое кластеризация семантического ядра и запросов поисковых систем?    
-  ID `58724` · 2020-10-26 · ~15k · SEO
-- [ ] `analiz-ssyilochnogo-profilya-veb-stranitsyi-za-polchasa` — Анализ ссылочного профиля веб-страницы за полчаса    
-  ID `58644` · 2020-10-23 · ~17k · SEO · Контент-маркетинг
-- [ ] `razbiraem-kanonicheskie-tegi-s-nulya-instruktsiya-dlya-novichkov` — Разбираем канонические теги с нуля: инструкция для новичков    
-  ID `58628` · 2020-10-20 · ~16k · SEO
-- [ ] `kak-perenapravit-na-sayt-trafik-iz-sotsialnyih-setey-razbiraem-open-graph-2` — Как наполнить сайт: поиск уникального контента и правила публикации    
-  ID `58638` · 2020-10-19 · ~17k · SEO · Интернет-маркетинг · Контент-маркетинг
-- [ ] `samostoyatelnoe-seo-prodvizhenie-soobshestv-vkontakte-svyaz-poiskovoj-optimizacii-i-smm` — Самостоятельное SEO-продвижение сообществ ВКонтакте: связь поисковой оптимизации и SMM    
-  ID `58615` · 2020-10-15 · ~13k · SEO · Интернет-маркетинг
-- [ ] `kak-perenapravit-na-sayt-trafik-iz-sotsialnyih-setey-razbiraem-open-graph` — Как перенаправить на сайт трафик из социальных сетей: разбираем Open Graph    
-  ID `58607` · 2020-10-15 · ~7k · SEO · Интернет-маркетинг
-- [ ] `primenyaem-google-analytics-dlya-izucheniya-povedeniya-klientov-internet-magazina` — Применяем Google Analytics для изучения поведения клиентов интернет-магазина    
-  ID `58530` · 2020-10-13 · ~16k · SEO · Интернет-маркетинг
-- [ ] `statistika-v-tsifrah-kak-uznat-razmer-veb-stranitsyi` — Статистика в цифрах: как узнать размер веб-страницы    
-  ID `58573` · 2020-10-12 · ~6k · SEO
-- [ ] `planiruem-arhitekturu-sayta-15-sovetov-dlya-gramotnoy-seo-optimizatsii` — Планируем архитектуру сайта: 15 советов для грамотной seo оптимизации    
-  ID `58492` · 2020-10-09 · ~26k · SEO
-- [ ] `prodvizhenie-sayta-s-pomoshhyu-registratsii-v-internet-katalogah` — Продвижение сайта с помощью регистрации в интернет-каталогах    
-  ID `58517` · 2020-10-08 · ~12k · SEO · Интернет-маркетинг
-- [ ] `chto-takoe-lending-osnovyi-samostoyatelnogo-prodvizheniya` — Что такое лендинг: основы самостоятельного продвижения    
-  ID `58308` · 2020-09-21 · ~12k · SEO · Интернет-маркетинг
-- [ ] `kak-uderzhat-posetitelya-na-sayte-glavnyie-prichinyi-otkazov` — Как удержать посетителя на сайте. Главные причины отказов    
-  ID `58250` · 2020-09-17 · ~11k · SEO · Интернет-маркетинг
-- [ ] `yandeks-xml-osobennosti-nastroyka-i-primenenie` — Яндекс.XML – Особенности, настройка и применение    
-  ID `58197` · 2020-09-15 · ~9k · SEO
-- [ ] `uchimsya-delitsya-ssyilkami-v-telegram-na-profil-kanal-ili-chat` — Учимся делиться ссылками в Телеграм: на профиль, канал или чат    
-  ID `58036` · 2020-09-15 · ~9k · SEO · SMM · Медиа сервисы
-- [ ] `kak-privlech-vnimanie-polzovatelya-kartinkoy` — Как привлечь внимание пользователя картинкой    
-  ID `58166` · 2020-09-11 · ~9k · SEO · Интернет-маркетинг
-- [ ] `byistryiy-i-besplatnyiy-sposob-sobrat-klyuchevyie-slova` — Быстрый и бесплатный способ собрать ключевые слова    
-  ID `57903` · 2020-09-08 · ~9k · SEO
-- [ ] `karta-sayta-naznachenie-i-sposobyi-primeneniya` — Карта сайта. Назначение и способы применения    
-  ID `58141` · 2020-09-07 · ~4k · SEO
-- [ ] `kak-zaregistrirovatsya-v-baidu-glavnyie-servisyi-dlya-prodvizheniya` — Как зарегистрироваться в Baidu. Главные сервисы для продвижения    
-  ID `58099` · 2020-09-03 · ~18k · SEO
-- [ ] `cookies-v-brauzere-naznachenie-funktsional-i-bezopasnost` — Cookies в браузере. Назначение, функционал и безопасность    
-  ID `58033` · 2020-08-31 · ~4k · SEO
-- [ ] `napisanie-avtorskih-materialov-v-yandeks-dzen-kak-uchest-vse-nyuansyi` — Написание авторских материалов в Яндекс.Дзен. Как учесть все нюансы.    
-  ID `57978` · 2020-08-28 · ~10k · SEO · SMM · Медиа сервисы
-- [ ] `vspomogatelnyie-atributyi-tega-img-kak-zapolnyat-alt-i-title` — Вспомогательные атрибуты тега img. Как заполнять alt и title    
-  ID `58008` · 2020-08-27 · ~3k · SEO
-- [ ] `uvelichenie-prodazh-v-e-commerce-s-pomoshhyu-seo-7-effektivnyih-sposobov` — Увеличение продаж в e-commerce с помощью SEO : 7 эффективных способов    
-  ID `57821` · 2020-08-25 · ~16k · SEO
-- [ ] `kak-uznat-cms-sayta-2` — Как узнать CMS сайта?    
-  ID `57947` · 2020-08-24 · ~8k · SEO · Интернет-маркетинг
-- [ ] `kak-rabotaet-generator-sluchaynyih-chisel-dlya-rozyigryisha-v-instagram-kak-vyiigrat-v-takom-konkurse` — Как работает генератор случайных чисел для розыгрыша в Инстаграм: как выиграть в таком конкурсе    
-  ID `57957` · 2020-08-21 · ~19k · SEO
-- [ ] `novyiy-sayt-rukovodstvo-po-prodvizheniyu` — Новый сайт. Руководство по продвижению.    
-  ID `57881` · 2020-08-21 · ~16k · SEO
-- [ ] `kak-okazatsya-v-tope-zaprosov-na-yutub` — Как оказаться в топе запросов на Ютуб?    
-  ID `57917` · 2020-08-20 · ~7k · SEO
-- [ ] `chto-takoe-google-webmaster` — Что такое Google Webmaster?    
-  ID `57898` · 2020-08-17 · ~5k · SEO
-- [ ] `statistika-i-analiz-kak-uznat-poseshhaemost-chuzhogo-sayta` — Статистика и анализ. Как узнать посещаемость чужого сайта    
-  ID `57842` · 2020-08-13 · ~9k · SEO
-- [ ] `avtorskie-prava-v-instagram-proveryaem-muzyiku-fotografii-i-obhodim-blokirovku` — Авторские права в Instagram: проверяем музыку, фотографии и обходим блокировку    
-  ID `57732` · 2020-08-07 · ~17k · SEO
-- [ ] `13-rabotayushhih-idey-dlya-effektivnogo-seo-prodvizheniya` — 13 работающих идей для эффективного SEO-продвижения    
-  ID `57436` · 2020-08-07 · ~14k · SEO
-- [ ] `tegi-alt-i-title-dlya-izobrazheniy` — Теги alt и title для изображений    
-  ID `57647` · 2020-08-03 · ~4k · SEO
+- [x] `kak-vzlamyivayut-saytyi-sql-inektsii-i-drugie-sposobyi` — Как взламывают сайты: SQL инъекции и другие способы    
+  ID `59437` · 2020-11-26 · ~15k · SEO · Интернет-маркетинг → Astro `/blog/bezopasnost-sayta/` · **новый формат** (оборона, без инструкций атаки)
+- [x] `kak-rasschitat-optimalnuyu-dlinu-dlya-title` — Как рассчитать оптимальную длину для Title    
+  ID `59420` · 2020-11-23 · ~8k · SEO · Интернет-маркетинг → Astro `/blog/dlina-title/` · **новый формат**
+- [x] `razbiraemsya-pochemu-perestaet-rabotat-metrika-na-sayte` — Разбираемся, почему перестает работать метрика на сайте    
+  ID `59318` · 2020-11-19 · ~4k · SEO → Astro `/blog/metrika-ne-rabotaet/` · **новый формат**
+- [x] `kak-sohranit-foto-iz-instagrama` — Как сохранить фото из Инстаграма    
+  ID `59079` · 2020-11-17 · ~12k · SEO → Astro `/blog/sohranit-foto-instagram/` · **новый формат** (SMM; legal Meta авто)
+- [x] `kak-vstavit-fragment-koda-javascript-na-sajt-naglyadnaya-instrukciya` — Как вставить фрагмент кода JavaScript на сайт. Наглядная инструкция    
+  ID `59020` · 2020-11-13 · ~13k · SEO → Astro `/blog/vstavka-javascript/` · **новый формат**
+- [x] `sovetyi-po-seo-dlya-malogo-biznesa` — Советы по СЕО для малого бизнеса    
+  ID `58949` · 2020-11-13 · ~15k · SEO → Astro `/blog/seo-malyy-biznes/` · **новый формат**
+- [x] `redirekt-osobennosti-sposoby-primeneniya-nastrojka` — Редирект: особенности, способы применения, настройка    
+  ID `58996` · 2020-11-12 · ~13k · SEO · **dup** → `/blog/redirekt/` (типы 301/302, настройка, проверка; код `.htaccess` — также `/blog/htaccess-301/`)
+- [x] `optimizatsionnyiy-protsess-sayta-s-kazhdyim-razom-vse-luchshe` — Оптимизационный процесс сайта: с каждым разом все лучше    
+  ID `58825` · 2020-11-06 · ~15k · SEO · **dup** → `/blog/optimizatsiya-konversii/` (цикл гипотез/тестов/CRO; канон уже в новом формате)
+- [x] `poiskovyie-filtryi-yandeksa-vozmozhnyie-problemyi-i-ih-reshenie` — Поисковые фильтры Яндекса: возможные проблемы и их решение    
+  ID `58835` · 2020-11-02 · ~18k · SEO · Интернет-маркетинг · **dup** → `/blog/filtry-poiskovikov/` (белая диагностика; без «обхода» фильтров)
+- [x] `vse-chto-nuzhno-znat-o-navigacii-sajta` — Все, что нужно знать о навигации сайта    
+  ID `58819` · 2020-10-30 · ~7k · SEO · Интернет-маркетинг → Astro `/blog/navigatsiya-sayta/` · **новый формат**
+- [x] `dlya-chego-nuzhna-karta-sayta-i-kak-ee-sozdat-podrobnaya-instruktsiya` — Для чего нужна карта сайта и как ее создать: подробная инструкция    
+  ID `58771` · 2020-10-29 · ~9k · SEO · Интернет-маркетинг → Astro `/blog/karta-sayta/` · **новый формат** (канон; соседние WP про sitemap — сюда)
+- [x] `chto-takoe-klasterizatsiya-semanticheskogo-yadra-i-zaprosov-poiskovyih-sistem` — Что такое кластеризация семантического ядра и запросов поисковых систем?    
+  ID `58724` · 2020-10-26 · ~15k · SEO · **dup** → `/blog/semanticheskoe-yadro/` (кластеризация soft/hard и привязка к URL уже в каноне)
+- [x] `analiz-ssyilochnogo-profilya-veb-stranitsyi-za-polchasa` — Анализ ссылочного профиля веб-страницы за полчаса    
+  ID `58644` · 2020-10-23 · ~17k · SEO · Контент-маркетинг → Astro `/blog/ssylochnyy-profil/` · **новый формат** (канон; соседний WP про ссылочную массу — сюда)
+- [x] `razbiraem-kanonicheskie-tegi-s-nulya-instruktsiya-dlya-novichkov` — Разбираем канонические теги с нуля: инструкция для новичков    
+  ID `58628` · 2020-10-20 · ~16k · SEO → Astro `/blog/kanonicheskiy-teg/` · **новый формат** (канон; `rel-canonical-…` — сюда)
+- [x] `kak-perenapravit-na-sayt-trafik-iz-sotsialnyih-setey-razbiraem-open-graph-2` — Как наполнить сайт: поиск уникального контента и правила публикации    
+  ID `58638` · 2020-10-19 · ~17k · SEO · Интернет-маркетинг · Контент-маркетинг → Astro `/blog/napolnenie-sayta/` · **новый формат** (slug WP про OG ошибочный; тема — наполнение)
+- [x] `samostoyatelnoe-seo-prodvizhenie-soobshestv-vkontakte-svyaz-poiskovoj-optimizacii-i-smm` — Самостоятельное SEO-продвижение сообществ ВКонтакте: связь поисковой оптимизации и SMM    
+  ID `58615` · 2020-10-15 · ~13k · SEO · Интернет-маркетинг → Astro `/blog/seo-vkontakte/` · **новый формат** (угол — поиск; раскрутка подписчиков — `/blog/raskrutka-gruppy-vk/`)
+- [x] `kak-perenapravit-na-sayt-trafik-iz-sotsialnyih-setey-razbiraem-open-graph` — Как перенаправить на сайт трафик из социальных сетей: разбираем Open Graph    
+  ID `58607` · 2020-10-15 · ~7k · SEO · Интернет-маркетинг → Astro `/blog/open-graph/` · **новый формат** (канон; соседние WP про OG — сюда)
+- [x] `primenyaem-google-analytics-dlya-izucheniya-povedeniya-klientov-internet-magazina` — Применяем Google Analytics для изучения поведения клиентов интернет-магазина    
+  ID `58530` · 2020-10-13 · ~16k · SEO · Интернет-маркетинг → Astro `/blog/google-analytics/` · **новый формат** (канон поведения ecommerce; узкие гайды GA — сверка позже)
+- [x] `statistika-v-tsifrah-kak-uznat-razmer-veb-stranitsyi` — Статистика в цифрах: как узнать размер веб-страницы    
+  ID `58573` · 2020-10-12 · ~6k · SEO → Astro `/blog/razmer-stranitsy/` · **новый формат**
+- [x] `planiruem-arhitekturu-sayta-15-sovetov-dlya-gramotnoy-seo-optimizatsii` — Планируем архитектуру сайта: 15 советов для грамотной seo оптимизации    
+  ID `58492` · 2020-10-09 · ~26k · SEO · **dup** → `/blog/seo-struktura-sayta/` (иерархия, хабы, крошки, URL, фасеты — уже в каноне + навигация/sitemap)
+- [x] `prodvizhenie-sayta-s-pomoshhyu-registratsii-v-internet-katalogah` — Продвижение сайта с помощью регистрации в интернет-каталогах    
+  ID `58517` · 2020-10-08 · ~12k · SEO · Интернет-маркетинг → Astro `/blog/katalogi-saytov/` · **новый формат**
+- [x] `chto-takoe-lending-osnovyi-samostoyatelnogo-prodvizheniya` — Что такое лендинг: основы самостоятельного продвижения    
+  ID `58308` · 2020-09-21 · ~12k · SEO · Интернет-маркетинг · **dup** → `/blog/lending/` (посадочная, блоки, цели; текст оффера — `/blog/tekst-lendinga/`)
+- [x] `kak-uderzhat-posetitelya-na-sayte-glavnyie-prichinyi-otkazov` — Как удержать посетителя на сайте. Главные причины отказов    
+  ID `58250` · 2020-09-17 · ~11k · SEO · Интернет-маркетинг → Astro `/blog/otkazy-sayta/` · **новый формат**
+- [x] `yandeks-xml-osobennosti-nastroyka-i-primenenie` — Яндекс.XML – Особенности, настройка и применение    
+  ID `58197` · 2020-09-15 · ~9k · SEO → Astro `/blog/yandeks-xml/` · **новый формат** (XML закрыт → Search API; без PoC парсера HTML)
+- [x] `uchimsya-delitsya-ssyilkami-v-telegram-na-profil-kanal-ili-chat` — Учимся делиться ссылками в Телеграм: на профиль, канал или чат    
+  ID `58036` · 2020-09-15 · ~9k · SEO · SMM · Медиа сервисы → Astro `/blog/ssylki-telegram/` · **новый формат**
+- [x] `kak-privlech-vnimanie-polzovatelya-kartinkoy` — Как привлечь внимание пользователя картинкой    
+  ID `58166` · 2020-09-11 · ~9k · SEO · Интернет-маркетинг → Astro `/blog/kartinki-vnimanie/` · **новый формат** (угол — внимание/дизайн; кликабельность — `/blog/kartinka-ssylka/`)
+- [x] `byistryiy-i-besplatnyiy-sposob-sobrat-klyuchevyie-slova` — Быстрый и бесплатный способ собрать ключевые слова    
+  ID `57903` · 2020-09-08 · ~9k · SEO · **dup** → `/blog/semanticheskoe-yadro/` (сбор ключей, матрицы идей, Wordstat/инструменты уже в каноне)
+- [x] `karta-sayta-naznachenie-i-sposobyi-primeneniya` — Карта сайта. Назначение и способы применения    
+  ID `58141` · 2020-09-07 · ~4k · SEO · **dup** → `/blog/karta-sayta/` (XML/HTML sitemap уже в каноне)
+- [x] `kak-zaregistrirovatsya-v-baidu-glavnyie-servisyi-dlya-prodvizheniya` — Как зарегистрироваться в Baidu. Главные сервисы для продвижения    
+  ID `58099` · 2020-09-03 · ~18k · SEO → Astro `/blog/baidu/` · **новый формат** (без серых схем регистрации)
+- [x] `cookies-v-brauzere-naznachenie-funktsional-i-bezopasnost` — Cookies в браузере. Назначение, функционал и безопасность    
+  ID `58033` · 2020-08-31 · ~4k · SEO → Astro `/blog/cookies/` · **новый формат**
+- [x] `napisanie-avtorskih-materialov-v-yandeks-dzen-kak-uchest-vse-nyuansyi` — Написание авторских материалов в Яндекс.Дзен. Как учесть все нюансы.    
+  ID `57978` · 2020-08-28 · ~10k · SEO · SMM · Медиа сервисы · **dup** → `/blog/yandeks-dzen/` (темы, правила, уникальность, длина уже в каноне)
+- [x] `vspomogatelnyie-atributyi-tega-img-kak-zapolnyat-alt-i-title` — Вспомогательные атрибуты тега img. Как заполнять alt и title    
+  ID `58008` · 2020-08-27 · ~3k · SEO → Astro `/blog/alt-img/` · **новый формат**
+- [x] `uvelichenie-prodazh-v-e-commerce-s-pomoshhyu-seo-7-effektivnyih-sposobov` — Увеличение продаж в e-commerce с помощью SEO : 7 эффективных способов    
+  ID `57821` · 2020-08-25 · ~16k · SEO · **dup** → `/blog/prodvizhenie-internet-magazina/` (техника, структура, семантика, HTTPS/скорость уже в каноне)
+- [x] `kak-uznat-cms-sayta-2` — Как узнать CMS сайта?    
+  ID `57947` · 2020-08-24 · ~8k · SEO · Интернет-маркетинг → Astro `/blog/uznat-cms/` · **новый формат** (канон; `kak-uznat-cms-sayta` — сюда)
+- [x] `kak-rabotaet-generator-sluchaynyih-chisel-dlya-rozyigryisha-v-instagram-kak-vyiigrat-v-takom-konkurse` — Как работает генератор случайных чисел для розыгрыша в Инстаграм: как выиграть в таком конкурсе    
+  ID `57957` · 2020-08-21 · ~19k · SEO → Astro `/blog/rozygrysh-instagram/` · **новый формат** (угол — честный отбор; без «как выиграть»)
+- [x] `novyiy-sayt-rukovodstvo-po-prodvizheniyu` — Новый сайт. Руководство по продвижению.    
+  ID `57881` · 2020-08-21 · ~16k · SEO · **dup** → `/blog/molodoy-sayt/` (запуск и продвижение нового/молодого сайта; план DIY — также `/blog/samostoyatelnoe-seo/`)
+- [x] `kak-okazatsya-v-tope-zaprosov-na-yutub` — Как оказаться в топе запросов на Ютуб?    
+  ID `57917` · 2020-08-20 · ~7k · SEO · **dup** → `/blog/raskrutka-youtube/` (поиск/ключи и рост канала уже в каноне)
+- [x] `chto-takoe-google-webmaster` — Что такое Google Webmaster?    
+  ID `57898` · 2020-08-17 · ~5k · SEO → Astro `/blog/google-search-console/` · **новый формат** (актуальное имя Search Console)
+- [x] `statistika-i-analiz-kak-uznat-poseshhaemost-chuzhogo-sayta` — Статистика и анализ. Как узнать посещаемость чужого сайта    
+  ID `57842` · 2020-08-13 · ~9k · SEO · **dup** → `/blog/analiz-konkurentov/` (оценки трафика, SimilarWeb и расхождения сервисов уже в каноне)
+- [x] `avtorskie-prava-v-instagram-proveryaem-muzyiku-fotografii-i-obhodim-blokirovku` — Авторские права в Instagram: проверяем музыку, фотографии и обходим блокировку    
+  ID `57732` · 2020-08-07 · ~17k · SEO → Astro `/blog/avtorskie-prava-instagram/` · **новый формат** (без инструкций по обходу блокировок)
+- [x] `13-rabotayushhih-idey-dlya-effektivnogo-seo-prodvizheniya` — 13 работающих идей для эффективного SEO-продвижения    
+  ID `57436` · 2020-08-07 · ~14k · SEO · **dup** → `/blog/samostoyatelnoe-seo/` (чеклист продвижения: семантика, посадочные, гео, аналитика; CTA/лендинги — также смежные каноны)
+- [x] `tegi-alt-i-title-dlya-izobrazheniy` — Теги alt и title для изображений    
+  ID `57647` · 2020-08-03 · ~4k · SEO · **dup** → `/blog/alt-img/` (alt/title у img уже в каноне)
 - [ ] `optimizaciya_pod_golosovoj_poisk` — Оптимизация под голосовой поиск — новый тренд мобильных устройств и поисковых систем    
   ID `57618` · 2020-08-01 · ~16k · SEO · Интернет-маркетинг · Контент-маркетинг
 - [ ] `kak-statistika-v-google-mozhet-povliyat-na-prodazhi-i-kak-eto-ispolzovat` — Как статистика в Google может повлиять на продажи и как это использовать    
