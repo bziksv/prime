@@ -215,6 +215,28 @@ import retargeting from "./blog-posts/retargeting.json";
 import poiskovyePodskazki from "./blog-posts/poiskovye-podskazki.json";
 import zerkaloSayta from "./blog-posts/zerkalo-sayta.json";
 import hlebnyeKroshki from "./blog-posts/hlebnye-kroshki.json";
+import algoritmKorolyov from "./blog-posts/algoritm-korolyov.json";
+import strategiiYandeksDirekt from "./blog-posts/strategii-yandeks-direkt.json";
+import relevantnostSayta from "./blog-posts/relevantnost-sayta.json";
+import sotssetiDlyaBiznesa from "./blog-posts/sotsseti-dlya-biznesa.json";
+import ctrFaktorGoogle from "./blog-posts/ctr-faktor-google.json";
+import chtoTakoeSeo from "./blog-posts/chto-takoe-seo.json";
+import chtoTakoeVebSayt from "./blog-posts/chto-takoe-veb-sayt.json";
+import cpmIliCpc from "./blog-posts/cpm-ili-cpc.json";
+import tenevoyBanInstagram from "./blog-posts/tenevoy-ban-instagram.json";
+import ssylkiVkontakte from "./blog-posts/ssylki-vkontakte.json";
+import kommentariiInstagram from "./blog-posts/kommentarii-instagram.json";
+import razmeryBannera from "./blog-posts/razmery-bannera.json";
+import otsenkaStoimostiSayta from "./blog-posts/otsenka-stoimosti-sayta.json";
+import tsenaKlikaYandeks from "./blog-posts/tsena-klika-yandeks.json";
+import linkedin from "./blog-posts/linkedin.json";
+import reklamaOdnoklassniki from "./blog-posts/reklama-odnoklassniki.json";
+import roiMarketinga from "./blog-posts/roi-marketinga.json";
+import prodvizhenieBrenda from "./blog-posts/prodvizhenie-brenda.json";
+import gruppaFacebook from "./blog-posts/gruppa-facebook.json";
+import startInternetMagazina from "./blog-posts/start-internet-magazina.json";
+import ymlFayl from "./blog-posts/yml-fayl.json";
+import googleTagManager from "./blog-posts/google-tag-manager.json";
 
 export type BlogListItem = {
   intro?: string | null;
@@ -613,6 +635,28 @@ export const blogPosts: BlogPost[] = [
   sanitizePost(poiskovyePodskazki as BlogPost),
   sanitizePost(zerkaloSayta as BlogPost),
   sanitizePost(hlebnyeKroshki as BlogPost),
+  sanitizePost(algoritmKorolyov as BlogPost),
+  sanitizePost(strategiiYandeksDirekt as BlogPost),
+  sanitizePost(relevantnostSayta as BlogPost),
+  sanitizePost(sotssetiDlyaBiznesa as BlogPost),
+  sanitizePost(ctrFaktorGoogle as BlogPost),
+  sanitizePost(chtoTakoeSeo as BlogPost),
+  sanitizePost(chtoTakoeVebSayt as BlogPost),
+  sanitizePost(cpmIliCpc as BlogPost),
+  sanitizePost(tenevoyBanInstagram as BlogPost),
+  sanitizePost(ssylkiVkontakte as BlogPost),
+  sanitizePost(kommentariiInstagram as BlogPost),
+  sanitizePost(razmeryBannera as BlogPost),
+  sanitizePost(otsenkaStoimostiSayta as BlogPost),
+  sanitizePost(tsenaKlikaYandeks as BlogPost),
+  sanitizePost(linkedin as BlogPost),
+  sanitizePost(reklamaOdnoklassniki as BlogPost),
+  sanitizePost(roiMarketinga as BlogPost),
+  sanitizePost(prodvizhenieBrenda as BlogPost),
+  sanitizePost(gruppaFacebook as BlogPost),
+  sanitizePost(startInternetMagazina as BlogPost),
+  sanitizePost(ymlFayl as BlogPost),
+  sanitizePost(googleTagManager as BlogPost),
 ].sort((a, b) => b.date.localeCompare(a.date));
 
 export function getBlogPost(slug: string): BlogPost | undefined {
@@ -1615,6 +1659,50 @@ export function getArticleCta(post: BlogPost): { title: string; text: string } {
       title: "Из поиска попали вглубь каталога?",
       text: "Настроим хлебные крошки: UX, перелинковка и разметка для сниппета.",
     },
+    "algoritm-korolyov": {
+      title: "После апдейта «смысл важнее ключей»?",
+      text: "Разберём, что обещал «Королёв» и как работать от интента, а не от тошноты.",
+    },
+    "strategii-yandeks-direkt": {
+      title: "Стратегии Директа без понятного CPA?",
+      text: "Сведём цели, экономику и режим оптимизации — без лотереи ставок.",
+    },
+    "relevantnost-sayta": {
+      title: "Страницы не совпадают с запросами?",
+      text: "Проверим интент, текст и технику — усилим релевантность без переспама.",
+    },
+    "sotsseti-dlya-biznesa": {
+      title: "Соцсети есть, а доверия нет?",
+      text: "Соберём канал под аудиторию: контент, ответы и связка с заявками.",
+    },
+    "ctr-faktor-google": {
+      title: "CTR в выдаче «не тот»?",
+      text: "Разберём сниппеты и интент — без накрутки кликов и пустых обещаний.",
+    },
+    "chto-takoe-seo": {
+      title: "SEO всё ещё «тёмная магия»?",
+      text: "Объясним простыми словами: этапы, сроки и что зависит от бизнеса.",
+    },
+    "chto-takoe-veb-sayt": {
+      title: "Нужен сайт, но непонятно какой?",
+      text: "Подберём тип и способ создания под задачу — без лишней сложности.",
+    },
+    "cpm-ili-cpc": {
+      title: "Путаете показы и клики в бюджете?",
+      text: "Разложим CPM и CPC под вашу цель — охват или заявки.",
+    },
+    "tenevoy-ban-instagram": {
+      title: "Охваты «пропали», а блок не висит?",
+      text: "Разберём симптомы «теневого» ограничения и безопасный план действий.",
+    },
+    "ssylki-vkontakte": {
+      title: "Ссылки в VK выглядят «криво»?",
+      text: "Настроим упоминания, превью сайта и точные URL постов.",
+    },
+    "kommentarii-instagram": {
+      title: "Комменты есть, ответов нет?",
+      text: "Настроим модерацию и сценарии ответов — без накрутки диалогов.",
+    },
   };
   if (bySlug[post.slug]) return bySlug[post.slug];
   if (post.category === "SEO") {
@@ -2505,6 +2593,50 @@ export function getCoverCaption(post: BlogPost): { title: string; subtitle: stri
     "hlebnye-kroshki": {
       title: "Хлебные крошки",
       subtitle: "Навигация и SEO",
+    },
+    "algoritm-korolyov": {
+      title: "Алгоритм «Королёв»",
+      subtitle: "Смысл вместо тошноты",
+    },
+    "strategii-yandeks-direkt": {
+      title: "Стратегии Директа",
+      subtitle: "Цели и CPA важнее кнопки",
+    },
+    "relevantnost-sayta": {
+      title: "Релевантность сайта",
+      subtitle: "Смысл важнее плотности",
+    },
+    "sotsseti-dlya-biznesa": {
+      title: "Соцсети для бизнеса",
+      subtitle: "Доверие и сервис",
+    },
+    "ctr-faktor-google": {
+      title: "CTR и Google",
+      subtitle: "Не накрутка, а сниппет",
+    },
+    "chto-takoe-seo": {
+      title: "Что такое SEO",
+      subtitle: "Без магии ТОП",
+    },
+    "chto-takoe-veb-sayt": {
+      title: "Что такое сайт",
+      subtitle: "Виды и создание",
+    },
+    "cpm-ili-cpc": {
+      title: "CPM или CPC",
+      subtitle: "Показы vs клики",
+    },
+    "tenevoy-ban-instagram": {
+      title: "Теневой бан Instagram",
+      subtitle: "Мифы и что делать",
+    },
+    "ssylki-vkontakte": {
+      title: "Ссылки ВКонтакте",
+      subtitle: "Упоминания и превью",
+    },
+    "kommentarii-instagram": {
+      title: "Комментарии Instagram",
+      subtitle: "Ответы и модерация",
     },
   };
   return (

@@ -45,7 +45,7 @@
 | Всего записей в БД | 830 |
 | Пригодных (≥800 симв., slug+title) | 813 |
 | Skip / мусор | 17 |
-| Уже на Astro | 217 |
+| Уже на Astro | 239 |
 
 ### По основной рубрике (эвристика)
 
@@ -753,89 +753,89 @@
   ID `41234` · 2017-11-13 · ~7k · SEO · **dup** → `/blog/url-adres/` (URL/ЧПУ + советы; редиректы/canonical — также `/blog/redirekt/`)
 - [x] `sobiraem-semanticheskoe-yadro-ot-sbora-markerov-do-klasterizatsii` — Собираем семантическое ядро: от сбора маркеров до кластеризации    
   ID `40902` · 2017-10-17 · ~18k · SEO · **dup** → `/blog/semanticheskoe-yadro/` (сбор, типы запросов, soft/hard — в каноне)
-- [ ] `golosovoy-poisk` — Голосовой поиск - новый тренд мобильных устройств и поисковых систем.    
-  ID `40868` · 2017-10-16 · ~5k · SEO · Медиа сервисы
-- [ ] `neyronnyie-seti-yandeksa-chego-zhdat-ot-korolyova` — Нейронные сети Яндекса. Чего ждать от "Королёва"    
-  ID `40713` · 2017-08-30 · ~4k · SEO
-- [ ] `novosti-yandeks-direkta-myi-otklyuchaem-poslednyuyu-normalnuyu-strategiyu-dlya-novichkov` — Новости Яндекс Директа - мы отключаем последнюю нормальную стратегию для новичков!    
-  ID `39967` · 2017-07-02 · ~3k · SEO
-- [ ] `prostyimi-slovami-o-relevantnosti-sayta` — Простыми словами о релевантности сайта    
-  ID `38732` · 2017-05-10 · ~12k · SEO
-- [ ] `pochemu-vashemu-biznesu-nuzhnyi-sots-seti` — Почему вашему бизнесу нужны соц.сети?    
-  ID `38510` · 2017-03-06 · ~5k · SEO
-- [ ] `tak-li-strashen-https-kak-ego-malyuyut` — Так ли страшен https, как его малюют?    
-  ID `38487` · 2017-02-15 · ~6k · SEO
-- [ ] `ustanovka-schetchika-yandeks-metriki-na-wordpress-joomla-i-bitrix` — Установка счетчика Яндекс Метрики на Wordpress, Joomla и Bitrix    
-  ID `38436` · 2017-01-23 · ~9k · SEO
-- [ ] `vashi-klientyi-uzhe-ishhut-vas-v-yandekse-a-nahodyat` — Ваши клиенты уже ищут вас в Яндексе. А находят?    
-  ID `38207` · 2016-11-29 · ~25k · SEO
-- [ ] `yavlyaetsya-li-ctr-faktorom-ranzhirovaniya-google` — Является ли CTR фактором ранжирования Google?    
-  ID `37796` · 2016-10-05 · ~34k · SEO
-- [ ] `vnutrennyaya-optimisaciya` — Внутренняя оптимизация сайта - просто о сложном    
-  ID `37646` · 2016-09-09 · ~26k · SEO
-- [ ] `chto-takoe-seo-prodvizhenie` — Что такое SEO продвижение или Будь вне конкуренции    
-  ID `36979` · 2016-05-31 · ~7k · SEO
+- [x] `golosovoy-poisk` — Голосовой поиск - новый тренд мобильных устройств и поисковых систем.    
+  ID `40868` · 2017-10-16 · ~5k · SEO · Медиа сервисы · **dup** → `/blog/golosovoy-poisk/` (оптимизация под голос — в каноне; этот WP — история/тренд)
+- [x] `neyronnyie-seti-yandeksa-chego-zhdat-ot-korolyova` — Нейронные сети Яндекса. Чего ждать от "Королёва"    
+  ID `40713` · 2017-08-30 · ~4k · SEO → Astro `/blog/algoritm-korolyov/` · **новый формат** (исторический апдейт + актуальные выводы)
+- [x] `novosti-yandeks-direkta-myi-otklyuchaem-poslednyuyu-normalnuyu-strategiyu-dlya-novichkov` — Новости Яндекс Директа - мы отключаем последнюю нормальную стратегию для новичков!    
+  ID `39967` · 2017-07-02 · ~3k · SEO → Astro `/blog/strategii-yandeks-direkt/` · **новый формат** (исторический контекст + цели/CPA)
+- [x] `prostyimi-slovami-o-relevantnosti-sayta` — Простыми словами о релевантности сайта    
+  ID `38732` · 2017-05-10 · ~12k · SEO → Astro `/blog/relevantnost-sayta/` · **новый формат**
+- [x] `pochemu-vashemu-biznesu-nuzhnyi-sots-seti` — Почему вашему бизнесу нужны соц.сети?    
+  ID `38510` · 2017-03-06 · ~5k · SEO → Astro `/blog/sotsseti-dlya-biznesa/` · **новый формат** (SMM; дисклеймер Meta авто)
+- [x] `tak-li-strashen-https-kak-ego-malyuyut` — Так ли страшен https, как его малюют?    
+  ID `38487` · 2017-02-15 · ~6k · SEO · **dup** → `/blog/ssl-sertifikat/` (HTTPS + виды SSL уже в каноне; SEO-переезд — `/blog/https-seo/`)
+- [x] `ustanovka-schetchika-yandeks-metriki-na-wordpress-joomla-i-bitrix` — Установка счетчика Яндекс Метрики на Wordpress, Joomla и Bitrix    
+  ID `38436` · 2017-01-23 · ~9k · SEO · **dup** → `/blog/metrika-ustanovka/` (WP/Joomla/Bitrix уже в каноне)
+- [x] `vashi-klientyi-uzhe-ishhut-vas-v-yandekse-a-nahodyat` — Ваши клиенты уже ищут вас в Яндексе. А находят?    
+  ID `38207` · 2016-11-29 · ~25k · SEO · **dup** → `/blog/seo-malyy-biznes/` (продажный лендинг SEO; смысл — спрос в поиске для бизнеса)
+- [x] `yavlyaetsya-li-ctr-faktorom-ranzhirovaniya-google` — Является ли CTR фактором ранжирования Google?    
+  ID `37796` · 2016-10-05 · ~34k · SEO → Astro `/blog/ctr-faktor-google/` · **новый формат** (без накрутки; сниппет/интент)
+- [x] `vnutrennyaya-optimisaciya` — Внутренняя оптимизация сайта - просто о сложном    
+  ID `37646` · 2016-09-09 · ~26k · SEO · **dup** → `/blog/vnutrennie-faktory/` (on-page карта уже в каноне)
+- [x] `chto-takoe-seo-prodvizhenie` — Что такое SEO продвижение или Будь вне конкуренции    
+  ID `36979` · 2016-05-31 · ~7k · SEO → Astro `/blog/chto-takoe-seo/` · **новый формат** (подготовка ≠ ТОП 2–6 мес.)
 
 ## Интернет-маркетинг (155)
 
-- [ ] `znakomimsya-s-veb-saytom` — Знакомимся с веб-сайтом    
-  ID `63379` · 2021-07-02 · ~11k · Интернет-маркетинг
-- [ ] `kak-voyti-v-instagram-esli-zabyil-login-i-parol-chto-delat-kak-pomenyat-ili-vosstanovit-staryie` — Как войти в Инстаграм, если забыл логин и пароль что делать, как поменять или восстановить старые    
-  ID `63332` · 2021-06-30 · ~23k · Интернет-маркетинг
-- [ ] `kakaya-oplata-effektivnee-za-pokazyi-kontenta-ili-za-perehodyi-po-ssyilkam` — Какая оплата эффективнее: за показы контента или за переходы по ссылкам    
-  ID `63303` · 2021-06-29 · ~13k · Интернет-маркетинг
-- [ ] `kak-odnovremenno-zagruzit-neskolko-fotografiy-ili-video-v-instagram` — Как одновременно загрузить несколько фотографий или видео в Инстаграм    
-  ID `63289` · 2021-06-25 · ~9k · Интернет-маркетинг
-- [ ] `tenevoy-ban-v-instagram-kto-tuda-popadaet-i-kak-vyiyti` — Теневой бан в Instagram: кто туда попадает и как выйти    
-  ID `63249` · 2021-06-23 · ~8k · Интернет-маркетинг
-- [ ] `vyikladyivaem-stories-v-instagram-s-pk-dostupnyie-sposobyi` — Выкладываем stories в Инстаграм с ПК: доступные способы    
-  ID `63168` · 2021-06-18 · ~14k · Интернет-маркетинг
-- [ ] `kak-sozdat-i-otpravit-krasivuyu-ssyilku-vkontakte-podrobnoe-rukovodstvo` — Как создать и отправить красивую ссылку ВКонтакте: подробное руководство    
-  ID `63110` · 2021-06-16 · ~12k · Интернет-маркетинг
-- [ ] `kommentarii-v-socseti-instagram_-vse-svedeniya_-kotorie-nujno-znat-lyudyam_-rabotayuschim-s-etoi-platformoi` — Комментарии в соцсети Инстаграм: все сведения, которые нужно знать людям, работающим с этой платформой    
-  ID `62766` · 2021-05-28 · ~16k · Интернет-маркетинг
-- [ ] `instagram_-napisanie-prodayuschego-posta-na-konkretnih-primerah` — Инстаграм: написание продающего поста на конкретных примерах    
-  ID `62710` · 2021-05-27 · ~15k · Интернет-маркетинг
-- [ ] `sposobyi-i-polza-otmetok-drugih-polzovateley-v-instagram` — Выделение других пользователей в профиле Инстаграм: правила, способы установки, польза отметок    
-  ID `62560` · 2021-04-30 · ~11k · Интернет-маркетинг
-- [ ] `klassifikatsiya-poiskovyih-zaprosov-po-chastote-ispolzovaniya` — Классификация поисковых запросов по частоте использования    
-  ID `62289` · 2021-04-05 · ~6k · Интернет-маркетинг
-- [ ] `prodvizhenie-sayta-cherez-vechnyie-ssyilki-s-pomoshhyu-servisa-gogetlinks` — Продвижение сайта через вечные ссылки с помощью сервиса GoGetLinks    
-  ID `62201` · 2021-03-25 · ~8k · Интернет-маркетинг
-- [ ] `mediakontent-na-chuzhom-sayte-kak-uznat-razmeryi-bannera-v-pikselyah` — Медиаконтент на чужом сайте. Как узнать размеры баннера в пикселях    
-  ID `61854` · 2021-03-01 · ~4k · Интернет-маркетинг
-- [ ] `otsenka-stoimosti-sayta-s-pomoshhyu-onlayn-servisov` — Оценка стоимости сайта с помощью онлайн-сервисов    
-  ID `61863` · 2021-02-25 · ~6k · Интернет-маркетинг
-- [ ] `tsena-klika-v-yandeks-kak-rasschitat-podhodyashhuyu-stavku` — Цена клика в «Яндекс». Как рассчитать подходящую ставку    
-  ID `61756` · 2021-02-19 · ~5k · Интернет-маркетинг
-- [ ] `uchimsya-polzovatsya-plannerom-ot-google-instruktsiya` — Учимся пользоваться планнером от Google: инструкция    
-  ID `60152` · 2020-12-18 · ~7k · Интернет-маркетинг
-- [ ] `linkedin-udobnaya-sotsialnaya-set-dlya-korporativnogo-ispolzovaniya` — LinkedIn: удобная социальная сеть для корпоративного использования    
-  ID `60134` · 2020-12-17 · ~11k · Интернет-маркетинг
-- [ ] `reklama-v-odnoklassnikah-nastroyka-auditoriya-otklik` — Реклама в «Одноклассниках». Настройка, аудитория, отклик    
-  ID `59916` · 2020-12-16 · ~6k · Интернет-маркетинг
-- [ ] `rasschityivaem-effektivnost-marketingovoy-strategii-podrobnyiy-obzor-s-formulami` — Рассчитываем эффективность маркетинговой стратегии: подробный обзор с формулами    
-  ID `59663` · 2020-12-07 · ~8k · Интернет-маркетинг
-- [ ] `kak-nachat-prodvigat-brend` — Как начать продвигать бренд    
-  ID `59444` · 2020-12-04 · ~12k · Интернет-маркетинг
-- [ ] `delaem-uspeshnuyu-gruppu-v-facebook-neskolko-prostyih-shagov` — Делаем успешную группу в Facebook: несколько простых шагов    
-  ID `59590` · 2020-12-03 · ~16k · Интернет-маркетинг
-- [ ] `10-krutyh-knig-o-tom-kak-otkryt-svoj-internet-magazin` — 10 крутых книг о том, как открыть свой интернет-магазин    
-  ID `58955` · 2020-11-10 · ~8k · Интернет-маркетинг
-- [ ] `izuchaem-koshelek-ne-prostoj-elektronnyj` — Изучаем кошелек не простой, а электронный    
-  ID `58758` · 2020-10-27 · ~6k · Интернет-маркетинг
-- [ ] `domen-naznachenie-vyibor-registratsiya` — Домен: назначение, выбор, регистрация    
-  ID `58676` · 2020-10-22 · ~8k · Интернет-маркетинг
-- [ ] `kak-svyazany-internet-magaziny-i-yandeks-vse-o-yml-fajle` — Как связаны интернет-магазины и Яндекс: все о YML-файле    
-  ID `58683` · 2020-10-20 · ~6k · Интернет-маркетинг
-- [ ] `operatory-poiska-google-znakomstvo-s-yazykom-zaprosov-i-ego-principami-raboty` — Операторы поиска Google: знакомство с языком запросов и его принципами работы    
-  ID `58478` · 2020-10-06 · ~14k · Интернет-маркетинг
-- [ ] `url-chto-eto-takoe` — **dup** → `/blog/url-adres/` (устройство URL и улучшение адресов; канон уже в новом формате)
+- [x] `znakomimsya-s-veb-saytom` — Знакомимся с веб-сайтом    
+  ID `63379` · 2021-07-02 · ~11k · Интернет-маркетинг → Astro `/blog/chto-takoe-veb-sayt/` · **новый формат**
+- [x] `kak-voyti-v-instagram-esli-zabyil-login-i-parol-chto-delat-kak-pomenyat-ili-vosstanovit-staryie` — Как войти в Инстаграм, если забыл логин и пароль что делать, как поменять или восстановить старые    
+  ID `63332` · 2021-06-30 · ~23k · Интернет-маркетинг · **dup** → `/blog/parol-instagram/` (сброс/вход/взлом уже в каноне; дисклеймер Meta)
+- [x] `kakaya-oplata-effektivnee-za-pokazyi-kontenta-ili-za-perehodyi-po-ssyilkam` — Какая оплата эффективнее: за показы контента или за переходы по ссылкам    
+  ID `63303` · 2021-06-29 · ~13k · Интернет-маркетинг → Astro `/blog/cpm-ili-cpc/` · **новый формат**
+- [x] `kak-odnovremenno-zagruzit-neskolko-fotografiy-ili-video-v-instagram` — Как одновременно загрузить несколько фотографий или видео в Инстаграм    
+  ID `63289` · 2021-06-25 · ~9k · Интернет-маркетинг · **dup** → `/blog/karusel-instagram/` (мультизагрузка/карусель уже в каноне)
+- [x] `tenevoy-ban-v-instagram-kto-tuda-popadaet-i-kak-vyiyti` — Теневой бан в Instagram: кто туда попадает и как выйти    
+  ID `63249` · 2021-06-23 · ~8k · Интернет-маркетинг → Astro `/blog/tenevoy-ban-instagram/` · **новый формат** (без серых схем; дисклеймер Meta авто)
+- [x] `vyikladyivaem-stories-v-instagram-s-pk-dostupnyie-sposobyi` — Выкладываем stories в Инстаграм с ПК: доступные способы    
+  ID `63168` · 2021-06-18 · ~14k · Интернет-маркетинг · **dup** → `/blog/instagram-s-kompyutera/` (публикация с ПК; без эмуляторов/серых клиентов)
+- [x] `kak-sozdat-i-otpravit-krasivuyu-ssyilku-vkontakte-podrobnoe-rukovodstvo` — Как создать и отправить красивую ссылку ВКонтакте: подробное руководство    
+  ID `63110` · 2021-06-16 · ~12k · Интернет-маркетинг → Astro `/blog/ssylki-vkontakte/` · **новый формат**
+- [x] `kommentarii-v-socseti-instagram_-vse-svedeniya_-kotorie-nujno-znat-lyudyam_-rabotayuschim-s-etoi-platformoi` — Комментарии в соцсети Инстаграм: все сведения, которые нужно знать людям, работающим с этой платформой    
+  ID `62766` · 2021-05-28 · ~16k · Интернет-маркетинг → Astro `/blog/kommentarii-instagram/` · **новый формат** (дисклеймер Meta авто)
+- [x] `instagram_-napisanie-prodayuschego-posta-na-konkretnih-primerah` — Инстаграм: написание продающего поста на конкретных примерах    
+  ID `62710` · 2021-05-27 · ~15k · Интернет-маркетинг · **dup** → `/blog/post-instagram/` (структура продающего поста уже в каноне)
+- [x] `sposobyi-i-polza-otmetok-drugih-polzovateley-v-instagram` — Выделение других пользователей в профиле Инстаграм: правила, способы установки, польза отметок    
+  ID `62560` · 2021-04-30 · ~11k · Интернет-маркетинг · **dup** → `/blog/otmetki-instagram/` (канон уже есть; близкий WP `vyidelenie-drugih…` тоже туда)
+- [x] `klassifikatsiya-poiskovyih-zaprosov-po-chastote-ispolzovaniya` — Классификация поисковых запросов по частоте использования    
+  ID `62289` · 2021-04-05 · ~6k · Интернет-маркетинг · **dup** → `/blog/chastotnost-zaprosov/` (ВЧ/СЧ/НЧ уже в каноне)
+- [x] `prodvizhenie-sayta-cherez-vechnyie-ssyilki-s-pomoshhyu-servisa-gogetlinks` — Продвижение сайта через вечные ссылки с помощью сервиса GoGetLinks    
+  ID `62201` · 2021-03-25 · ~8k · Интернет-маркетинг · **dup** → `/blog/pokupka-ssylok/` (риски платных ссылок; без гайда GoGetLinks/накрутки)
+- [x] `mediakontent-na-chuzhom-sayte-kak-uznat-razmeryi-bannera-v-pikselyah` — Медиаконтент на чужом сайте. Как узнать размеры баннера в пикселях    
+  ID `61854` · 2021-03-01 · ~4k · Интернет-маркетинг → Astro `/blog/razmery-bannera/` · **новый формат**
+- [x] `otsenka-stoimosti-sayta-s-pomoshhyu-onlayn-servisov` — Оценка стоимости сайта с помощью онлайн-сервисов    
+  ID `61863` · 2021-02-25 · ~6k · Интернет-маркетинг → Astro `/blog/otsenka-stoimosti-sayta/` · **новый формат** (без культа ТИЦ/PR; калькуляторы = ориентир)
+- [x] `tsena-klika-v-yandeks-kak-rasschitat-podhodyashhuyu-stavku` — Цена клика в «Яндекс». Как рассчитать подходящую ставку    
+  ID `61756` · 2021-02-19 · ~5k · Интернет-маркетинг → Astro `/blog/tsena-klika-yandeks/` · **новый формат** (CPC из CPA×CR; рядом `stavki-direkt`)
+- [x] `uchimsya-polzovatsya-plannerom-ot-google-instruktsiya` — Учимся пользоваться планнером от Google: инструкция    
+  ID `60152` · 2020-12-18 · ~7k · Интернет-маркетинг · **dup** → `/blog/statistika-google-prodazhi/` (Keyword Planner уже в каноне)
+- [x] `linkedin-udobnaya-sotsialnaya-set-dlya-korporativnogo-ispolzovaniya` — LinkedIn: удобная социальная сеть для корпоративного использования    
+  ID `60134` · 2020-12-17 · ~11k · Интернет-маркетинг → Astro `/blog/linkedin/` · **новый формат** (без устаревших цен Premium)
+- [x] `reklama-v-odnoklassnikah-nastroyka-auditoriya-otklik` — Реклама в «Одноклассниках». Настройка, аудитория, отклик    
+  ID `59916` · 2020-12-16 · ~6k · Интернет-маркетинг → Astro `/blog/reklama-odnoklassniki/` · **новый формат** (без устаревших px; кабинет сверять актуальный)
+- [x] `rasschityivaem-effektivnost-marketingovoy-strategii-podrobnyiy-obzor-s-formulami` — Рассчитываем эффективность маркетинговой стратегии: подробный обзор с формулами    
+  ID `59663` · 2020-12-07 · ~8k · Интернет-маркетинг → Astro `/blog/roi-marketinga/` · **новый формат** (ROI/ROMI; исправлен миф «100% = порог»)
+- [x] `kak-nachat-prodvigat-brend` — Как начать продвигать бренд    
+  ID `59444` · 2020-12-04 · ~12k · Интернет-маркетинг → Astro `/blog/prodvizhenie-brenda/` · **новый формат** (SMART/SWOT; SEO сроки 2–6 мес.)
+- [x] `delaem-uspeshnuyu-gruppu-v-facebook-neskolko-prostyih-shagov` — Делаем успешную группу в Facebook: несколько простых шагов    
+  ID `59590` · 2020-12-03 · ~16k · Интернет-маркетинг → Astro `/blog/gruppa-facebook/` · **новый формат** (информационно; дисклеймер Meta авто)
+- [x] `10-krutyh-knig-o-tom-kak-otkryt-svoj-internet-magazin` — 10 крутых книг о том, как открыть свой интернет-магазин    
+  ID `58955` · 2020-11-10 · ~8k · Интернет-маркетинг → Astro `/blog/start-internet-magazina/` · **новый формат** (чеклист запуска; без «миллион за день»)
+- [x] `izuchaem-koshelek-ne-prostoj-elektronnyj` — Изучаем кошелек не простой, а электронный    
+  ID `58758` · 2020-10-27 · ~6k · Интернет-маркетинг · **dup** → `/blog/onlayn-oplata/` (эквайринг/кошельки; без ТОП Qiwi/WebMoney 2020)
+- [x] `domen-naznachenie-vyibor-registratsiya` — Домен: назначение, выбор, регистрация    
+  ID `58676` · 2020-10-22 · ~8k · Интернет-маркетинг · **dup** → `/blog/domen-pervogo-urovnya/` (уровни/выбор зоны; канон уже есть)
+- [x] `kak-svyazany-internet-magaziny-i-yandeks-vse-o-yml-fajle` — Как связаны интернет-магазины и Яндекс: все о YML-файле    
+  ID `58683` · 2020-10-20 · ~6k · Интернет-маркетинг → Astro `/blog/yml-fayl/` · **новый формат**
+- [x] `operatory-poiska-google-znakomstvo-s-yazykom-zaprosov-i-ego-principami-raboty` — Операторы поиска Google: знакомство с языком запросов и его принципами работы    
+  ID `58478` · 2020-10-06 · ~14k · Интернет-маркетинг · **dup** → `/blog/operatory-poiska/` (site:/intitle:/inurl: уже в каноне)
+- [x] `url-chto-eto-takoe` — **dup** → `/blog/url-adres/` (устройство URL и улучшение адресов; канон уже в новом формате)
   ID `58436` · 2020-10-01 · ~10k · Интернет-маркетинг
-- [ ] `polnoe-rukovodstvo-po-google-tag-manager` — Полное руководство по Google Tag Manager
-  ID `58412` · 2020-10-01 · ~18k · Интернет-маркетинг
-- [ ] `vidy-i-pravila-razrabotki-struktury-sajta` — Виды и правила разработки структуры сайта    
-  ID `58342` · 2020-09-25 · ~7k · Интернет-маркетинг
+- [x] `polnoe-rukovodstvo-po-google-tag-manager` — Полное руководство по Google Tag Manager
+  ID `58412` · 2020-10-01 · ~18k · Интернет-маркетинг → Astro `/blog/google-tag-manager/` · **новый формат** (GA4/Preview; без UA-скринов)
+- [x] `vidy-i-pravila-razrabotki-struktury-sajta` — Виды и правила разработки структуры сайта    
+  ID `58342` · 2020-09-25 · ~7k · Интернет-маркетинг · **dup** → `/blog/seo-struktura-sayta/` (иерархии + семантика уже в каноне)
 - [ ] `veb-prilozhenie-funkcii-i-zadachi` — Веб-приложение: функции и задачи    
   ID `58312` · 2020-09-22 · ~11k · Интернет-маркетинг
 - [ ] `veb-servisy-chto-eto-takoe-osobennosti-arhitektura-celi` — Веб-сервисы. Что это такое, особенности, архитектура, цели    
