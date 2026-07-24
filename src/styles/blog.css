@@ -1040,6 +1040,47 @@
   color: var(--text);
 }
 
+/* Правовой дисклеймер Meta — в стилистике блога (navy/teal), не pink WP */
+.b-post__legal {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0.15rem 0 0;
+  padding: 1.05rem 1.15rem 1.1rem;
+  border-radius: 16px;
+  border: 1px solid rgba(30, 74, 122, 0.16);
+  border-left: 3px solid var(--primary, #1e4a7a);
+  background:
+    radial-gradient(460px 160px at 0% 0%, rgba(30, 74, 122, 0.08), transparent 55%),
+    radial-gradient(380px 140px at 100% 100%, rgba(13, 148, 136, 0.06), transparent 50%),
+    #fff;
+  box-shadow: 0 1px 0 rgba(15, 23, 42, 0.03);
+}
+
+.b-post__legal-kicker {
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #0f766e;
+}
+
+.b-post__legal-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--primary, #1e4a7a);
+}
+
+.b-post__legal-text {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--text-muted, #475569);
+}
+
 .b-post__layout {
   display: grid;
   gap: 1.15rem;
@@ -1425,6 +1466,151 @@
   font-size: 0.94rem;
   line-height: 1.5;
   color: var(--text);
+}
+
+.b-post__table-wrap {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.b-post__table-caption {
+  margin: 0;
+  font-size: 0.88rem;
+  font-weight: 650;
+  color: var(--text-muted);
+}
+
+.b-post__table-scroll {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.b-post__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+  line-height: 1.4;
+}
+
+.b-post__table th,
+.b-post__table td {
+  padding: 0.55rem 0.7rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.b-post__table th {
+  font-weight: 700;
+  background: #f8fafc;
+  color: var(--primary, #1e4a7a);
+  white-space: nowrap;
+}
+
+.b-post__table tr:last-child td {
+  border-bottom: 0;
+}
+
+.b-post__note {
+  display: grid;
+  gap: 0.35rem;
+  padding: 0.85rem 1rem;
+  border-radius: 12px;
+  border-left: 3px solid #0d9488;
+  background: rgba(13, 148, 136, 0.06);
+}
+
+.b-post__note-title {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #0f766e;
+}
+
+.b-post__note p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.b-post__note--legal {
+  border: 1px solid rgba(30, 74, 122, 0.16);
+  border-left: 3px solid var(--primary, #1e4a7a);
+  background:
+    radial-gradient(420px 140px at 0% 0%, rgba(30, 74, 122, 0.07), transparent 55%),
+    #fff;
+}
+
+.b-post__note--legal .b-post__note-title {
+  color: var(--primary, #1e4a7a);
+  text-transform: none;
+  letter-spacing: -0.02em;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+}
+
+.b-post__note--legal p {
+  color: var(--text-muted, #475569);
+}
+
+.b-post__links {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1rem;
+}
+
+.b-post__links a {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #0f766e;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(15, 118, 110, 0.35);
+}
+
+.b-post__links a:hover {
+  border-bottom-color: #0f766e;
+}
+
+.b-faq {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.b-faq__item {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+  padding: 0.15rem 0.9rem 0.15rem;
+}
+
+.b-faq__item summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.75rem 0;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--primary, #1e4a7a);
+}
+
+.b-faq__item summary::-webkit-details-marker {
+  display: none;
+}
+
+.b-faq__item[open] summary {
+  border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+  margin-bottom: 0.35rem;
+}
+
+.b-faq__item p {
+  margin: 0 0 0.85rem;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--text-muted);
 }
 
 .b-post__cta {

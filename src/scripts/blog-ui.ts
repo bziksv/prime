@@ -265,7 +265,7 @@ function initArticle() {
   });
 
   qsa<HTMLAnchorElement>("[data-share]", root).forEach((a) => {
-    const net = a.dataset.share as "tg" | "vk" | "wa" | undefined;
+    const net = a.dataset.share as "tg" | "vk" | undefined;
     if (!net) return;
     a.href = shareUrl(net, url, title);
   });

@@ -6,7 +6,7 @@ import { blogPosts } from "./blog";
  * Два разных счётчика:
  * - `migrated` — контент уже на Astro (текст + обложка)
  * - `newFormat` — статьи, которые уже сверстали в целевом «новом формате»
- *   (сейчас 0: перенос ≠ редизайн)
+ *   (чеклист + квиз + вычитка; см. docs/BLOG-ARTICLE-STANDARD.md)
  *
  * totals — из чеклиста (old WP), обновлять при пересборке чеклиста.
  */
@@ -21,10 +21,54 @@ export const blogMigrationTotals = {
 
 /**
  * Slug статей, уже переведённых в целевой новый формат вёрстки.
- * Пока пусто — перенос на Astro сам по себе сюда не попадает.
  */
-export const blogNewFormatSlugs: string[] = ["semanticheskoe-yadro"];
-
+export const blogNewFormatSlugs: string[] = [
+  "semanticheskoe-yadro",
+  "seo-struktura-sayta",
+  "tehnicheskiy-seo-audit",
+  "chastotnost-zaprosov",
+  "sohranennaya-kopiya-yandex",
+  "avtonapolnenie-sayta",
+  "podozritelnyy-trafik-google",
+  "oformlenie-stranicy-instagram",
+  "pryamoy-efir-instagram",
+  "kommentarii-v-pablike-vk",
+  "istorii-vkontakte",
+  "menedzher-smm",
+  "zarabotok-blogerov-instagram",
+  "bloger-dlya-reklamy-instagram",
+  "reklama-v-pablikah-vk",
+  "gipertekst",
+  "biznes-akkaunt-instagram",
+  "verstka-saytov",
+  "kontent-plan-instagram",
+  "avatar-youtube",
+  "avatar-instagram",
+  "veb-server",
+  "didzhital-agentstvo",
+  "opisanie-youtube-kanala",
+  "post-instagram",
+  "raskrutka-youtube",
+  "kopirayting",
+  "nakrutka-laykov-instagram",
+  "besplatnoe-razmeshchenie-statey",
+  "reklama-instagram",
+  "ssl-sertifikat",
+  "dashboard",
+  "parol-instagram",
+  "prodvizhenie-internet-magazina",
+  "prodazha-trafika",
+  "parsing",
+  "klikabelnaya-ssylka",
+  "raskrutka-gruppy-vk",
+  "zaspamlennost-teksta",
+  "kontent-plan",
+  "yukassa",
+  "analiz-konkurentov",
+  "prodayushchie-teksty",
+  "domen-pervogo-urovnya",
+  "statistika-instagram",
+];
 /** Основная рубрика в чеклисте (эвристика по WP) */
 export const blogMigrationByCategory: { name: string; count: number }[] = [
   { name: "SEO", count: 297 },

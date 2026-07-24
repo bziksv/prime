@@ -10,7 +10,6 @@ import BlogQuiz from "../../components/blog/BlogQuiz.astro";
 import { v6Icons } from "../../data/v6-media";
 import {
   blogPosts,
-  formatBlogDate,
   formatReadingTime,
   formatViews,
   getArticleCta,
@@ -53,6 +52,31 @@ const toc = post.sections
     index,
   }))
   .filter((s) => s.level <= 2);
+
+if (post.faq?.length) {
+  toc.push({
+    id: "faq",
+    title: "Частые вопросы",
+    level: 2,
+    index: post.sections.length,
+  });
+}
+
+const faqJsonLd =
+  post.faq && post.faq.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: post.faq.map((item) => ({
+          "@type": "Question",
+          name: item.q,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: item.a,
+          },
+        })),
+      }
+    : null;
 ---
 
 <!doctype html>
@@ -70,6 +94,11 @@ const toc = post.sections
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    {
+      faqJsonLd ? (
+        <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+      ) : null
+    }
   </head>
   <body>
     <div class="v6-app">
@@ -104,7 +133,7 @@ const toc = post.sections
           <article class:list={["b-post", isNewFormat && "b-post--new"]}>
             <header class="b-post__hero">
               <div class="b-post__cover">
-                <img src={`${post.cover}?v=3`} alt="" />
+                <img src={`${post.cover}?v=4`} alt="" />
                 <div class="b-post__cover-caption" aria-hidden="true">
                   <p class="b-post__cover-title">{coverCaption.title}</p>
                   <p class="b-post__cover-sub">{coverCaption.subtitle}</p>
@@ -126,7 +155,6 @@ const toc = post.sections
                   >
                     {post.category}
                   </a>
-                  <time datetime={post.date}>{formatBlogDate(post.date)}</time>
                   <span>{formatReadingTime(reading)}</span>
                   <span>
                     <span data-blog-views>{formatViews(baseViews)}</span> просмотров
@@ -134,6 +162,17 @@ const toc = post.sections
                 </div>
                 <h1>{post.title}</h1>
                 {post.lead.map((p) => <p class="b-post__lead">{p}</p>)}
+                {
+                  post.legalNotice ? (
+                    <aside class="b-post__legal" role="note">
+                      <p class="b-post__legal-kicker">Правовая информация</p>
+                      {post.legalNotice.title ? (
+                        <p class="b-post__legal-title">{post.legalNotice.title}</p>
+                      ) : null}
+                      <p class="b-post__legal-text">{post.legalNotice.text}</p>
+                    </aside>
+                  ) : null
+                }
 
                 <div class="b-share">
                   <span class="b-share__label">Поделиться</span>
@@ -152,12 +191,6 @@ const toc = post.sections
                       data-share="vk"
                       target="_blank"
                       rel="noopener noreferrer">VK</a
-                    >
-                    <a
-                      class="b-share__btn"
-                      data-share="wa"
-                      target="_blank"
-                      rel="noopener noreferrer">WhatsApp</a
                     >
                   </div>
                   <p class="b-share__status" data-share-status hidden></p>
@@ -185,12 +218,13 @@ const toc = post.sections
                 {
                   post.sections.map((section, index) => {
                     const id = getSectionId(section.title, index);
-                    const showQuiz =
-                      interact &&
-                      section.title.includes(interact.quizAfterTitleIncludes);
+                    const quizzes =
+                      interact?.quizzes.filter((q) =>
+                        section.title.includes(q.afterTitleIncludes),
+                      ) ?? [];
                     const showChecklist =
                       interact &&
-                      section.title.includes(interact.checklistAfterTitleIncludes);
+                      section.title.includes(interact.checklist.afterTitleIncludes);
                     return (
                       <>
                         <section class="b-post__section" id={id}>
@@ -214,15 +248,63 @@ const toc = post.sections
                               </ul>
                             </div>
                           ))}
+                          {(section.tables ?? []).map((table) => (
+                            <div class="b-post__table-wrap">
+                              {table.caption ? (
+                                <p class="b-post__table-caption">{table.caption}</p>
+                              ) : null}
+                              <div class="b-post__table-scroll">
+                                <table class="b-post__table">
+                                  <thead>
+                                    <tr>
+                                      {table.headers.map((h) => (
+                                        <th scope="col">{h}</th>
+                                      ))}
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    {table.rows.map((row) => (
+                                      <tr>
+                                        {row.map((cell) => (
+                                          <td>{cell}</td>
+                                        ))}
+                                      </tr>
+                                    ))}
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          ))}
+                          {(section.notes ?? []).map((note) => (
+                            <aside
+                              class:list={[
+                                "b-post__note",
+                                note.kind === "legal" && "b-post__note--legal",
+                              ]}
+                              role={note.kind === "legal" ? "note" : undefined}
+                            >
+                              <p class="b-post__note-title">{note.title}</p>
+                              <p>{note.text}</p>
+                            </aside>
+                          ))}
+                          {(section.links ?? []).length ? (
+                            <p class="b-post__links">
+                              {section.links!.map((link) => (
+                                <a href={link.href} download={link.href.endsWith(".csv") || undefined}>
+                                  {link.label}
+                                </a>
+                              ))}
+                            </p>
+                          ) : null}
                         </section>
 
-                        {showQuiz ? (
+                        {quizzes.map((quiz) => (
                           <BlogQuiz
-                            title={interact.quiz.title}
-                            lead={interact.quiz.lead}
-                            questions={interact.quiz.questions}
+                            title={quiz.title}
+                            lead={quiz.lead}
+                            questions={quiz.questions}
                           />
-                        ) : null}
+                        ))}
 
                         {showChecklist ? (
                           <BlogChecklist
@@ -235,6 +317,22 @@ const toc = post.sections
                       </>
                     );
                   })
+                }
+
+                {
+                  post.faq?.length ? (
+                    <section class="b-post__section b-post__faq" id="faq">
+                      <h2>Частые вопросы</h2>
+                      <div class="b-faq">
+                        {post.faq.map((item) => (
+                          <details class="b-faq__item">
+                            <summary>{item.q}</summary>
+                            <p>{item.a}</p>
+                          </details>
+                        ))}
+                      </div>
+                    </section>
+                  ) : null
                 }
 
                 <div class="b-post__cta">

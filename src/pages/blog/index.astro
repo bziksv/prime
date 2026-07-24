@@ -8,7 +8,6 @@ import CookieFooterNotice from "../../components/CookieFooterNotice.astro";
 import { v6Icons } from "../../data/v6-media";
 import {
   blogPosts,
-  formatBlogDate,
   formatReadingTime,
   formatViews,
   getBlogCategories,
@@ -219,7 +218,6 @@ const migration = getBlogMigrationProgress();
                 <div class="b-featured__body">
                   <div class="b-featured__meta">
                     <span class="b-featured__cat">{featured.category}</span>
-                    <time class="b-meta-chip" datetime={featured.date}>{formatBlogDate(featured.date)}</time>
                     <span class="b-meta-chip">{formatReadingTime(getReadingMinutes(featured))}</span>
                     <span class="b-meta-chip">{formatViews(getBaseViews(featured))} просм.</span>
                   </div>

@@ -322,13 +322,12 @@ export async function sharePost(opts: {
 }
 
 export function shareUrl(
-  network: "tg" | "vk" | "wa",
+  network: "tg" | "vk",
   url: string,
   title: string,
 ): string {
   const u = encodeURIComponent(url);
   const t = encodeURIComponent(title);
   if (network === "tg") return `https://t.me/share/url?url=${u}&text=${t}`;
-  if (network === "vk") return `https://vk.com/share.php?url=${u}&title=${t}`;
-  return `https://wa.me/?text=${t}%20${u}`;
+  return `https://vk.com/share.php?url=${u}&title=${t}`;
 }
