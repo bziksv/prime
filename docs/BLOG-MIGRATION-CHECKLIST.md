@@ -45,7 +45,7 @@
 | Всего записей в БД | 830 |
 | Пригодных (≥800 симв., slug+title) | 813 |
 | Skip / мусор | 17 |
-| Уже на Astro | 196 |
+| Уже на Astro | 217 |
 
 ### По основной рубрике (эвристика)
 
@@ -669,90 +669,90 @@
   ID `51156` · 2019-08-19 · ~19k · SEO → Astro `/blog/seo-oshibki/` · **новый формат** (мета, H1, ссылки, разметка, HTTPS; сосед `oshibki-v-seo-…` — сверить при переносе)
 - [x] `kak-borotsya-s-kannibalizatsiey-klyuchevyih-slov` — Как бороться с каннибализацией ключевых слов    
   ID `50918` · 2019-08-08 · ~11k · SEO → Astro `/blog/kannibalizatsiya-zaprosov/` · **новый формат**
-- [ ] `analiz-ssyilochnoy-massyi-podrobnoe-rukovodstvo` — Анализ ссылочной массы — подробное руководство    
-  ID `50641` · 2019-07-26 · ~12k · SEO
-- [ ] `vnutrennie-faktoryi-ranzhirovaniya-optimizatsiya-dlya-poiskovyih-sistem` — Внутренние факторы ранжирования — оптимизация для поисковых систем    
-  ID `50465` · 2019-07-17 · ~10k · SEO
-- [ ] `kak-viyavit-tselevuyu-auditoriyu` — Как выявить целевую аудиторию    
-  ID `50374` · 2019-07-12 · ~11k · SEO
-- [ ] `chto-takoe-kloaking-v-seo` — Что такое клоакинг в seo    
-  ID `50295` · 2019-07-09 · ~5k · SEO
-- [ ] `kak-proverit-otsenit-effektivnost-seo` — Как проверить, оценить эффективность SEO    
-  ID `50219` · 2019-07-03 · ~12k · SEO
-- [ ] `kirillicheskiy-domen-plyusyi-i-minusyi` — Кириллический домен: плюсы и минусы    
-  ID `50006` · 2019-06-25 · ~7k · SEO
-- [ ] `osobennosti-prodvizheniya-sayta-po-neskolkim-regionam` — Особенности продвижения сайта по нескольким регионам    
-  ID `49979` · 2019-06-24 · ~12k · SEO
-- [ ] `kommercheskie-faktoryi-v-seo-prodvizhenii` — Коммерческие факторы в seo продвижении    
-  ID `49939` · 2019-06-20 · ~13k · SEO
-- [ ] `exel-i-google-tablitsyi-dlya-seo-spetsialistov` — Exel и Google таблицы для SEO специалистов    
-  ID `49332` · 2019-05-24 · ~16k · SEO
-- [ ] `optimizatsiya-stranits-paginatsii-internet-magazina` — Оптимизация страниц пагинации интернет-магазина    
-  ID `49228` · 2019-05-13 · ~6k · SEO
-- [ ] `kak-optimizirovat-sayt-pod-golosovoy-poisk` — Как оптимизировать сайт под голосовой поиск    
-  ID `49138` · 2019-04-29 · ~9k · SEO
-- [ ] `vliyaet-li-kontekstnaya-reklama-na-seo` — Влияет ли контекстная реклама на seo?    
-  ID `49089` · 2019-04-24 · ~7k · SEO
-- [ ] `snizhenie-pokazatelya-otkazov-na-sayte` — Снижение показателя отказов на сайте    
-  ID `48917` · 2019-04-08 · ~25k · SEO
-- [ ] `seo-analiz-konkurentov-podrobnoe-rukovodstvo` — **dup** → `/blog/analiz-konkurentov/` (SEO-анализ конкурентов; канон уже в новом формате)
+- [x] `analiz-ssyilochnoy-massyi-podrobnoe-rukovodstvo` — Анализ ссылочной массы — подробное руководство    
+  ID `50641` · 2019-07-26 · ~12k · SEO · **dup** → `/blog/ssylochnyy-profil/` (анкоры, доноры, динамика массы — в каноне)
+- [x] `vnutrennie-faktoryi-ranzhirovaniya-optimizatsiya-dlya-poiskovyih-sistem` — Внутренние факторы ранжирования — оптимизация для поисковых систем    
+  ID `50465` · 2019-07-17 · ~10k · SEO → Astro `/blog/vnutrennie-faktory/` · **новый формат** (on-page карта; аудит — `/blog/tehnicheskiy-seo-audit/`)
+- [x] `kak-viyavit-tselevuyu-auditoriyu` — Как выявить целевую аудиторию    
+  ID `50374` · 2019-07-12 · ~11k · SEO → Astro `/blog/tselevaya-auditoriya/` · **новый формат** (сосед `gde-i-kak-zatsepit-tselevuyu-auditoriyu` — сверить при переносе)
+- [x] `chto-takoe-kloaking-v-seo` — Что такое клоакинг в seo    
+  ID `50295` · 2019-07-09 · ~5k · SEO → Astro `/blog/kloaking/` · **новый формат** (риски/диагностика, без инструкций по обходу)
+- [x] `kak-proverit-otsenit-effektivnost-seo` — Как проверить, оценить эффективность SEO    
+  ID `50219` · 2019-07-03 · ~12k · SEO → Astro `/blog/effektivnost-seo/` · **новый формат**
+- [x] `kirillicheskiy-domen-plyusyi-i-minusyi` — Кириллический домен: плюсы и минусы    
+  ID `50006` · 2019-06-25 · ~7k · SEO · **dup** → `/blog/domen-rf/` (IDN/punycode, плюсы-минусы кириллицы — в каноне `.рф`)
+- [x] `osobennosti-prodvizheniya-sayta-po-neskolkim-regionam` — Особенности продвижения сайта по нескольким регионам    
+  ID `49979` · 2019-06-24 · ~12k · SEO · **dup** → `/blog/regionalnoe-seo/` (поддомены/папки/мультигород — в каноне)
+- [x] `kommercheskie-faktoryi-v-seo-prodvizhenii` — Коммерческие факторы в seo продвижении    
+  ID `49939` · 2019-06-20 · ~13k · SEO → Astro `/blog/kommercheskie-faktory/` · **новый формат**
+- [x] `exel-i-google-tablitsyi-dlya-seo-spetsialistov` — Exel и Google таблицы для SEO специалистов    
+  ID `49332` · 2019-05-24 · ~16k · SEO → Astro `/blog/excel-google-tablitsy/` · **новый формат** (сосед `neskolko-poleznyih-funktsiy-v-google-tablitsah` — сверить при переносе)
+- [x] `optimizatsiya-stranits-paginatsii-internet-magazina` — Оптимизация страниц пагинации интернет-магазина    
+  ID `49228` · 2019-05-13 · ~6k · SEO · **dup** → `/blog/paginatsiya/` (canonical/pageall/prev-next — в каноне)
+- [x] `kak-optimizirovat-sayt-pod-golosovoy-poisk` — Как оптимизировать сайт под голосовой поиск    
+  ID `49138` · 2019-04-29 · ~9k · SEO · **dup** → `/blog/golosovoy-poisk/` (разговорные НЧ, FAQ, локальность — в каноне)
+- [x] `vliyaet-li-kontekstnaya-reklama-na-seo` — Влияет ли контекстная реклама на seo?    
+  ID `49089` · 2019-04-24 · ~7k · SEO → Astro `/blog/kontekst-i-seo/` · **новый формат**
+- [x] `snizhenie-pokazatelya-otkazov-na-sayte` — Снижение показателя отказов на сайте    
+  ID `48917` · 2019-04-08 · ~25k · SEO · **dup** → `/blog/otkazy-sayta/` (bounce rate, причины, правки — в каноне; сосед `kak-uderzhat-posetitelya…` уже туда)
+- [x] `seo-analiz-konkurentov-podrobnoe-rukovodstvo` — **dup** → `/blog/analiz-konkurentov/` (SEO-анализ конкурентов; канон уже в новом формате; 301 уже в redirects)    
   ID `48307` · 2019-02-28 · ~26k · SEO
-- [ ] `semanticheskaya-razmetka-sayta-v-poiskovoy-optimizatsii` — **dup** → `/blog/snippet/` (schema.org / JSON-LD / rich results; канон уже в новом формате)
+- [x] `semanticheskaya-razmetka-sayta-v-poiskovoy-optimizatsii` — **dup** → `/blog/snippet/` (schema.org / JSON-LD / rich results; канон уже в новом формате; 301 уже в redirects)    
   ID `47844` · 2019-02-11 · ~21k · SEO
-- [ ] `servisyi-dlya-rabotyi-s-semantikoy-analiza-konkurentov-i-proverki-ssyilok` — Сервисы для работы с семантикой, анализа конкурентов и проверки ссылок    
-  ID `47441` · 2019-01-24 · ~14k · SEO
-- [ ] `prodvizhenie-v-google-moy-biznes` — Продвижение в Google Мой Бизнес    
-  ID `47384` · 2019-01-22 · ~14k · SEO
-- [ ] `otlichiya-prodvizheniya-v-yandex-i-google` — Отличия продвижения в Yandex и Google    
-  ID `47252` · 2019-01-14 · ~21k · SEO
-- [ ] `predprazdnichnyiy-retargeting-4-takticheskih-priema-dlya-kampaniy` — Предпраздничный ретаргетинг: 4 тактических приема для кампаний    
-  ID `47098` · 2018-12-26 · ~13k · SEO
-- [ ] `11-etapov-seo-prodvizheniya-sayta` — 11 этапов SEO-продвижения сайта    
-  ID `47010` · 2018-12-21 · ~23k · SEO
-- [ ] `stoit-li-otkazyivatsya-ot-seo-prodvizheniya-sayta` — Стоит ли отказываться от SEO продвижения сайта    
-  ID `46750` · 2018-12-10 · ~18k · SEO
-- [ ] `instrumentyi-veb-analitiki` — Инструменты веб-аналитики    
-  ID `46473` · 2018-11-16 · ~12k · SEO
-- [ ] `kartyi-sayta-kakie-byivayut-osobennosti-sostavleniya-poisk-i-ustranenie-oshibok` — Карты сайта: какие бывают, особенности составления, поиск и устранение ошибок    
-  ID `46313` · 2018-11-08 · ~14k · SEO
-- [ ] `effektivnost-mobilnoy-reklamyi-v-google-issledovanie` — Эффективность мобильной рекламы в Google. Исследование    
-  ID `46074` · 2018-10-23 · ~3k · SEO
-- [ ] `3-strategii-dlya-prodvizheniya-sayta` — 3 стратегии для продвижения сайта    
-  ID `45793` · 2018-10-02 · ~21k · SEO
-- [ ] `kak-rabotat-s-user-intent-v-seo` — Как работать с USER INTENT в SEO?    
-  ID `45237` · 2018-08-29 · ~8k · SEO
-- [ ] `avtomaticheskie-rekomendatsii-na-turbo-stranitsah-yandeksa` — Автоматические рекомендации на Турбо-страницах Яндекса    
-  ID `45115` · 2018-08-21 · ~7k · SEO
-- [ ] `mobilnyiy-poisk-v-sovremennom-seo` — Мобильный поиск в современном SEO    
-  ID `44935` · 2018-08-14 · ~15k · SEO
-- [ ] `uvelichenie-konversii-12-oshibok-na-sayte` — Увеличение конверсии. 12 ошибок на сайте    
-  ID `44231` · 2018-07-13 · ~15k · SEO
-- [ ] `oshibki-v-seo-kotoryie-dopuskayut-bolshinstvo-kompaniy` — Ошибки в SEO, которые допускают большинство компаний    
-  ID `43778` · 2018-06-19 · ~8k · SEO
-- [ ] `optimizatsiya-izobrazheniy-atributyi-alt-i-title` — Оптимизация изображений: Атрибуты Alt и Title    
-  ID `43642` · 2018-06-09 · ~8k · SEO
-- [ ] `utm-metki-chto-eto-takoe-i-zachem-oni-nujni` — UTM-метки: что это такое и зачем они нужны?    
-  ID `42755` · 2018-04-20 · ~11k · SEO
-- [ ] `dublikatyi-stranits-chto-eto-takoe-kak-nayti-i-udalit` — Дубликаты страниц. Что это такое, как найти и удалить.    
-  ID `42622` · 2018-04-11 · ~13k · SEO
-- [ ] `301-redirekt` — 301 редирект    
-  ID `42322` · 2018-03-30 · ~11k · SEO
-- [ ] `retargeting-chto-eto-takoe-ego-osobennosti-i-otlichiya-ot-targetinga` — Ретаргетинг. Что это такое. Его особенности и отличия от таргетинга    
-  ID `42299` · 2018-03-28 · ~10k · SEO
-- [ ] `poiskovyie-podskazki-chto-eto-osobennosti-primeneniya-i-vliyanie-na-seo` — Поисковые подсказки. Что это, особенности применения и влияние на SEO    
-  ID `41988` · 2018-02-19 · ~15k · SEO
-- [ ] `tipyi-i-vidyi-vnutrenney-perelinkovki-sayta` — Типы и виды внутренней перелинковки сайта    
-  ID `41910` · 2018-02-09 · ~4k · SEO
-- [ ] `zerkalo-sajta-chto-ehto-takoe` — Зеркало сайта. Что это такое, как делается и проверяется    
-  ID `41895` · 2018-02-01 · ~8k · SEO
-- [ ] `chto-takoe-hlebnyie-kroshki-zachem-oni-nuzhnyi-voobshhe-i-dlya-seo-v-chastnosti-sovetyi-po-ih-pravilnomu-oformleniyu` — Что такое "хлебные крошки", зачем они нужны вообще и для SEO в частности, советы по их правильному оформлению    
-  ID `41698` · 2017-12-19 · ~9k · SEO
-- [ ] `kak-seo-sposobstvuet-uspeshnomu-biznesu` — Как SEO способствует успешному бизнесу    
-  ID `41256` · 2017-11-18 · ~3k · SEO
-- [ ] `chto-takoe-url-i-chpu-sovetyi-po-ih-optimizatsii-i-nastroyke` — **dup** → `/blog/url-adres/` (URL/ЧПУ + советы; редиректы/canonical — также `/blog/redirekt/`)
-  ID `41234` · 2017-11-13 · ~7k · SEO
-- [ ] `sobiraem-semanticheskoe-yadro-ot-sbora-markerov-do-klasterizatsii` — Собираем семантическое ядро: от сбора маркеров до кластеризации    
-  ID `40902` · 2017-10-17 · ~18k · SEO
+- [x] `servisyi-dlya-rabotyi-s-semantikoy-analiza-konkurentov-i-proverki-ssyilok` — Сервисы для работы с семантикой, анализа конкурентов и проверки ссылок    
+  ID `47441` · 2019-01-24 · ~14k · SEO · **dup** → `/blog/programmy-seo/` (стек инструментов; PPC-расширения из WP — смежно `/blog/chrome-rasshireniya-seo/`, `/blog/stavki-direkt/`)
+- [x] `prodvizhenie-v-google-moy-biznes` — Продвижение в Google Мой Бизнес    
+  ID `47384` · 2019-01-22 · ~14k · SEO · **dup** → `/blog/google-biznes/` (Business Profile / Maps — в каноне)
+- [x] `otlichiya-prodvizheniya-v-yandex-i-google` — Отличия продвижения в Yandex и Google    
+  ID `47252` · 2019-01-14 · ~21k · SEO → Astro `/blog/seo-yandex-google/` · **новый формат** (сравнение движков для РФ; WP уходил в «Запад vs Рунет»)
+- [x] `predprazdnichnyiy-retargeting-4-takticheskih-priema-dlya-kampaniy` — Предпраздничный ретаргетинг: 4 тактических приема для кампаний    
+  ID `47098` · 2018-12-26 · ~13k · SEO → Astro `/blog/prazdnichnyy-retargeting/` · **новый формат** (рубрика Контекстная реклама; соседние WP про ретаргет — сверить)
+- [x] `11-etapov-seo-prodvizheniya-sayta` — 11 этапов SEO-продвижения сайта    
+  ID `47010` · 2018-12-21 · ~23k · SEO · **dup** → `/blog/samostoyatelnoe-seo/` (поэтапный план работ — в каноне)
+- [x] `stoit-li-otkazyivatsya-ot-seo-prodvizheniya-sayta` — Стоит ли отказываться от SEO продвижения сайта    
+  ID `46750` · 2018-12-10 · ~18k · SEO → Astro `/blog/seo-posle-topa/` · **новый формат** (поддержка после ТОПа)
+- [x] `instrumentyi-veb-analitiki` — Инструменты веб-аналитики    
+  ID `46473` · 2018-11-16 · ~12k · SEO → Astro `/blog/instrumenty-veb-analitiki/` · **новый формат** (профессия — `/blog/veb-analitik/`)
+- [x] `kartyi-sayta-kakie-byivayut-osobennosti-sostavleniya-poisk-i-ustranenie-oshibok` — Карты сайта: какие бывают, особенности составления, поиск и устранение ошибок    
+  ID `46313` · 2018-11-08 · ~14k · SEO · **dup** → `/blog/karta-sayta/` (XML/HTML/image/news — в каноне)
+- [x] `effektivnost-mobilnoy-reklamyi-v-google-issledovanie` — Эффективность мобильной рекламы в Google. Исследование    
+  ID `46074` · 2018-10-23 · ~3k · SEO → Astro `/blog/mobilnaya-reklama-google/` · **новый формат** (рубрика Контекстная реклама; бенчмарки без устаревших $ как нормы)
+- [x] `3-strategii-dlya-prodvizheniya-sayta` — 3 стратегии для продвижения сайта    
+  ID `45793` · 2018-10-02 · ~21k · SEO → Astro `/blog/strategiya-prodvizheniya/` · **новый формат** (выбор стратегии под состояние; DIY — `/blog/samostoyatelnoe-seo/`)
+- [x] `kak-rabotat-s-user-intent-v-seo` — Как работать с USER INTENT в SEO?    
+  ID `45237` · 2018-08-29 · ~8k · SEO → Astro `/blog/user-intent/` · **новый формат**
+- [x] `avtomaticheskie-rekomendatsii-na-turbo-stranitsah-yandeksa` — Автоматические рекомендации на Турбо-страницах Яндекса    
+  ID `45115` · 2018-08-21 · ~7k · SEO → Astro `/blog/turbo-stranitsy/` · **новый формат** (технология отключена; акцент на свой mobile)
+- [x] `mobilnyiy-poisk-v-sovremennom-seo` — Мобильный поиск в современном SEO    
+  ID `44935` · 2018-08-14 · ~15k · SEO → Astro `/blog/mobilnyy-poisk/` · **новый формат** (адаптив — `/blog/adaptivnyy-sayt/`)
+- [x] `uvelichenie-konversii-12-oshibok-na-sayte` — Увеличение конверсии. 12 ошибок на сайте    
+  ID `44231` · 2018-07-13 · ~15k · SEO · **dup** → `/blog/optimizatsiya-konversii/` (CTA, карточки, формы, доверие — в каноне CRO)
+- [x] `oshibki-v-seo-kotoryie-dopuskayut-bolshinstvo-kompaniy` — Ошибки в SEO, которые допускают большинство компаний    
+  ID `43778` · 2018-06-19 · ~8k · SEO · **dup** → `/blog/seo-oshibki/` (H1, разметка, структура/ссылки, скорость — в каноне)
+- [x] `optimizatsiya-izobrazheniy-atributyi-alt-i-title` — Оптимизация изображений: Атрибуты Alt и Title    
+  ID `43642` · 2018-06-09 · ~8k · SEO · **dup** → `/blog/alt-img/` (alt/title у img — в каноне)
+- [x] `utm-metki-chto-eto-takoe-i-zachem-oni-nujni` — UTM-метки: что это такое и зачем они нужны?    
+  ID `42755` · 2018-04-20 · ~11k · SEO → Astro `/blog/utm-metki/` · **новый формат** (рубрика Интернет-маркетинг; соседние WP про UTM — сюда)
+- [x] `dublikatyi-stranits-chto-eto-takoe-kak-nayti-i-udalit` — Дубликаты страниц. Что это такое, как найти и удалить.    
+  ID `42622` · 2018-04-11 · ~13k · SEO · **dup** → `/blog/dubli-stranits/` (типы, поиск, склейка — в каноне)
+- [x] `301-redirekt` — 301 редирект    
+  ID `42322` · 2018-03-30 · ~11k · SEO · **dup** → `/blog/redirekt/` (теория 301; примеры `.htaccess` — `/blog/htaccess-301/`)
+- [x] `retargeting-chto-eto-takoe-ego-osobennosti-i-otlichiya-ot-targetinga` — Ретаргетинг. Что это такое. Его особенности и отличия от таргетинга    
+  ID `42299` · 2018-03-28 · ~10k · SEO → Astro `/blog/retargeting/` · **новый формат** (рубрика Контекстная реклама; праздничные приёмы — `/blog/prazdnichnyy-retargeting/`)
+- [x] `poiskovyie-podskazki-chto-eto-osobennosti-primeneniya-i-vliyanie-na-seo` — Поисковые подсказки. Что это, особенности применения и влияние на SEO    
+  ID `41988` · 2018-02-19 · ~15k · SEO → Astro `/blog/poiskovye-podskazki/` · **новый формат** (без накруток саджеста)
+- [x] `tipyi-i-vidyi-vnutrenney-perelinkovki-sayta` — Типы и виды внутренней перелинковки сайта    
+  ID `41910` · 2018-02-09 · ~4k · SEO · **dup** → `/blog/vnutrennyaya-perelinkovka/` (иерархия/цикл/схемы под частотность — в каноне)
+- [x] `zerkalo-sajta-chto-ehto-takoe` — Зеркало сайта. Что это такое, как делается и проверяется    
+  ID `41895` · 2018-02-01 · ~8k · SEO → Astro `/blog/zerkalo-sayta/` · **новый формат** (код `.htaccess` — `/blog/htaccess-301/`)
+- [x] `chto-takoe-hlebnyie-kroshki-zachem-oni-nuzhnyi-voobshhe-i-dlya-seo-v-chastnosti-sovetyi-po-ih-pravilnomu-oformleniyu` — Что такое "хлебные крошки", зачем они нужны вообще и для SEO в частности, советы по их правильному оформлению    
+  ID `41698` · 2017-12-19 · ~9k · SEO → Astro `/blog/hlebnye-kroshki/` · **новый формат** (сниппет — `/blog/snippet/`; сосед про крошки — сюда)
+- [x] `kak-seo-sposobstvuet-uspeshnomu-biznesu` — Как SEO способствует успешному бизнесу    
+  ID `41256` · 2017-11-18 · ~3k · SEO · **dup** → `/blog/seo-malyy-biznes/` (зачем SEO бизнесу / приоритеты — в каноне)
+- [x] `chto-takoe-url-i-chpu-sovetyi-po-ih-optimizatsii-i-nastroyke` — Что такое URL и ЧПУ. Советы по их оптимизации и настройке.    
+  ID `41234` · 2017-11-13 · ~7k · SEO · **dup** → `/blog/url-adres/` (URL/ЧПУ + советы; редиректы/canonical — также `/blog/redirekt/`)
+- [x] `sobiraem-semanticheskoe-yadro-ot-sbora-markerov-do-klasterizatsii` — Собираем семантическое ядро: от сбора маркеров до кластеризации    
+  ID `40902` · 2017-10-17 · ~18k · SEO · **dup** → `/blog/semanticheskoe-yadro/` (сбор, типы запросов, soft/hard — в каноне)
 - [ ] `golosovoy-poisk` — Голосовой поиск - новый тренд мобильных устройств и поисковых систем.    
   ID `40868` · 2017-10-16 · ~5k · SEO · Медиа сервисы
 - [ ] `neyronnyie-seti-yandeksa-chego-zhdat-ot-korolyova` — Нейронные сети Яндекса. Чего ждать от "Королёва"    

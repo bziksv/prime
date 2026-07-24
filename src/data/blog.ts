@@ -194,6 +194,27 @@ import brendovyyTrafik from "./blog-posts/brendovyy-trafik.json";
 import diplinking from "./blog-posts/diplinking.json";
 import seoOshibki from "./blog-posts/seo-oshibki.json";
 import kannibalizatsiyaZaprosov from "./blog-posts/kannibalizatsiya-zaprosov.json";
+import vnutrennieFaktory from "./blog-posts/vnutrennie-faktory.json";
+import tselevayaAuditoriya from "./blog-posts/tselevaya-auditoriya.json";
+import kloaking from "./blog-posts/kloaking.json";
+import effektivnostSeo from "./blog-posts/effektivnost-seo.json";
+import kommercheskieFaktory from "./blog-posts/kommercheskie-faktory.json";
+import excelGoogleTablitsy from "./blog-posts/excel-google-tablitsy.json";
+import kontekstISeo from "./blog-posts/kontekst-i-seo.json";
+import seoYandexGoogle from "./blog-posts/seo-yandex-google.json";
+import prazdnichnyyRetargeting from "./blog-posts/prazdnichnyy-retargeting.json";
+import seoPosleTopa from "./blog-posts/seo-posle-topa.json";
+import instrumentyVebAnalitiki from "./blog-posts/instrumenty-veb-analitiki.json";
+import mobilnayaReklamaGoogle from "./blog-posts/mobilnaya-reklama-google.json";
+import strategiyaProdvizheniya from "./blog-posts/strategiya-prodvizheniya.json";
+import userIntent from "./blog-posts/user-intent.json";
+import turboStranitsy from "./blog-posts/turbo-stranitsy.json";
+import mobilnyyPoisk from "./blog-posts/mobilnyy-poisk.json";
+import utmMetki from "./blog-posts/utm-metki.json";
+import retargeting from "./blog-posts/retargeting.json";
+import poiskovyePodskazki from "./blog-posts/poiskovye-podskazki.json";
+import zerkaloSayta from "./blog-posts/zerkalo-sayta.json";
+import hlebnyeKroshki from "./blog-posts/hlebnye-kroshki.json";
 
 export type BlogListItem = {
   intro?: string | null;
@@ -571,6 +592,27 @@ export const blogPosts: BlogPost[] = [
   sanitizePost(diplinking as BlogPost),
   sanitizePost(seoOshibki as BlogPost),
   sanitizePost(kannibalizatsiyaZaprosov as BlogPost),
+  sanitizePost(vnutrennieFaktory as BlogPost),
+  sanitizePost(tselevayaAuditoriya as BlogPost),
+  sanitizePost(kloaking as BlogPost),
+  sanitizePost(effektivnostSeo as BlogPost),
+  sanitizePost(kommercheskieFaktory as BlogPost),
+  sanitizePost(excelGoogleTablitsy as BlogPost),
+  sanitizePost(kontekstISeo as BlogPost),
+  sanitizePost(seoYandexGoogle as BlogPost),
+  sanitizePost(prazdnichnyyRetargeting as BlogPost),
+  sanitizePost(seoPosleTopa as BlogPost),
+  sanitizePost(instrumentyVebAnalitiki as BlogPost),
+  sanitizePost(mobilnayaReklamaGoogle as BlogPost),
+  sanitizePost(strategiyaProdvizheniya as BlogPost),
+  sanitizePost(userIntent as BlogPost),
+  sanitizePost(turboStranitsy as BlogPost),
+  sanitizePost(mobilnyyPoisk as BlogPost),
+  sanitizePost(utmMetki as BlogPost),
+  sanitizePost(retargeting as BlogPost),
+  sanitizePost(poiskovyePodskazki as BlogPost),
+  sanitizePost(zerkaloSayta as BlogPost),
+  sanitizePost(hlebnyeKroshki as BlogPost),
 ].sort((a, b) => b.date.localeCompare(a.date));
 
 export function getBlogPost(slug: string): BlogPost | undefined {
@@ -1489,6 +1531,90 @@ export function getArticleCta(post: BlogPost): { title: string; text: string } {
       title: "Несколько URL прыгают по одной фразе?",
       text: "Найдём каннибализацию и склеим кластер: один канон, чистые title и перелинковка.",
     },
+    "vnutrennie-faktory": {
+      title: "Сайт «сырой», с чего усилить on-page?",
+      text: "Разберём внутренние факторы: контент, структура, HTTPS, скорость и перелинковка — по приоритету.",
+    },
+    "tselevaya-auditoriya": {
+      title: "Реклама и тексты бьют мимо?",
+      text: "Соберём портрет ЦА и сегменты: задачи, анти-портрет и связка с ядром и посадочными.",
+    },
+    "kloaking": {
+      title: "Подозрение на подмену страницы?",
+      text: "Проверим расхождение для бота и человека — без серых схем, с фокусом на безопасность.",
+    },
+    "effektivnost-seo": {
+      title: "Непонятно, работает ли SEO?",
+      text: "Соберём KPI: органика, бренд/небренд, позиции и экономика — без паники из‑за суточных скачков.",
+    },
+    "kommercheskie-faktory": {
+      title: "В ТОПе слабые карточки и нет доверия?",
+      text: "Усилим коммерческие факторы: контакты, условия, ассортимент и блоки «о компании».",
+    },
+    "excel-google-tablitsy": {
+      title: "Ядро в хаосе выгрузок?",
+      text: "Настроим шаблон Excel/Sheets: чистка, дубли, минусы и связка запрос→URL.",
+    },
+    "kontekst-i-seo": {
+      title: "Крутите Директ и ждёте органический ТОП?",
+      text: "Разведём мифы: прямого буста нет — соберём связку рекламы и SEO без накрутки ПФ.",
+    },
+    "seo-yandex-google": {
+      title: "Яндекс и Google ведут себя по-разному?",
+      text: "Сверим акценты: семантика, коммерция, локальность и кабинеты — один сайт, два движка.",
+    },
+    "prazdnichnyy-retargeting": {
+      title: "Праздничный трафик есть, покупок мало?",
+      text: "Соберём ретаргет: соцсегмент, интересы, медийка и каскад — отдельной кампанией под дедлайн.",
+    },
+    "seo-posle-topa": {
+      title: "Уже в ТОПе — отключаем SEO?",
+      text: "Нет: настроим поддержку — сниппеты, конверсия, расширение ядра и контроль конкурентов.",
+    },
+    "instrumenty-veb-analitiki": {
+      title: "Счётчик стоит, а решений нет?",
+      text: "Разложим инструменты аналитики: цели, счётчики vs логи, Метрика/GA и ритм отчётов.",
+    },
+    "mobilnaya-reklama-google": {
+      title: "Мобильный CTR «как у всех» не сходится?",
+      text: "Разведём Search и Display, научимся читать бенчмарки и считать CPA в своём кабинете.",
+    },
+    "strategiya-prodvizheniya": {
+      title: "SEO-план «как у всех» не заходит?",
+      text: "Соберём стратегию под возраст сайта, контент, ссылки и технику — без копипаста чужого чеклиста.",
+    },
+    "user-intent": {
+      title: "Ключ есть, а позиции и заявки нет?",
+      text: "Разберём интент по выдаче и разведём конфликтующие намерения по разным URL.",
+    },
+    "turbo-stranitsy": {
+      title: "Турбо отключили — куда девать мобильный UX?",
+      text: "Разберём наследие Турбо и автоленты и перенесём скорость с рекомендации на свой сайт.",
+    },
+    "mobilnyy-poisk": {
+      title: "В ТОПе на ПК, а с телефона пусто?",
+      text: "Сверим мобильную выдачу, адаптив и скорость — без устаревших «ускорителей» вместо сайта.",
+    },
+    "utm-metki": {
+      title: "Реклама есть, а в отчётах каша?",
+      text: "Разметим UTM: source, medium, campaign и единый словарь значений для команды.",
+    },
+    "retargeting": {
+      title: "Были на сайте — и пропали?",
+      text: "Соберём ретаргет: сегменты, типы кампаний и отличие от холодного таргетинга.",
+    },
+    "poiskovye-podskazki": {
+      title: "Ядро собрали, а хвосты спроса нет?",
+      text: "Разберём саджест Яндекса и Google как источник формулировок — без накруток.",
+    },
+    "zerkalo-sayta": {
+      title: "www и без www живут отдельно в индексе?",
+      text: "Склеим зеркала 301, выберем канон и проверим главное зеркало в вебмастерах.",
+    },
+    "hlebnye-kroshki": {
+      title: "Из поиска попали вглубь каталога?",
+      text: "Настроим хлебные крошки: UX, перелинковка и разметка для сниппета.",
+    },
   };
   if (bySlug[post.slug]) return bySlug[post.slug];
   if (post.category === "SEO") {
@@ -2295,6 +2421,90 @@ export function getCoverCaption(post: BlogPost): { title: string; subtitle: stri
     "kannibalizatsiya-zaprosov": {
       title: "Каннибализация",
       subtitle: "Один запрос — один URL",
+    },
+    "vnutrennie-faktory": {
+      title: "Внутренние факторы",
+      subtitle: "On-page без мистики",
+    },
+    "tselevaya-auditoriya": {
+      title: "Целевая аудитория",
+      subtitle: "Портрет и сегменты",
+    },
+    "kloaking": {
+      title: "Клоакинг",
+      subtitle: "Подмена = риск",
+    },
+    "effektivnost-seo": {
+      title: "Эффективность SEO",
+      subtitle: "KPI и отчётность",
+    },
+    "kommercheskie-faktory": {
+      title: "Коммерческие факторы",
+      subtitle: "Доверие к покупке",
+    },
+    "excel-google-tablitsy": {
+      title: "Excel и Sheets",
+      subtitle: "Чистка семантики",
+    },
+    "kontekst-i-seo": {
+      title: "Контекст и SEO",
+      subtitle: "Связка каналов",
+    },
+    "seo-yandex-google": {
+      title: "Яндекс и Google",
+      subtitle: "Отличия SEO",
+    },
+    "prazdnichnyy-retargeting": {
+      title: "Праздничный ретаргет",
+      subtitle: "4 приёма",
+    },
+    "seo-posle-topa": {
+      title: "SEO после ТОПа",
+      subtitle: "Зачем поддержка",
+    },
+    "instrumenty-veb-analitiki": {
+      title: "Инструменты аналитики",
+      subtitle: "Счётчики и логи",
+    },
+    "mobilnaya-reklama-google": {
+      title: "Мобильная реклама Google",
+      subtitle: "Как читать цифры",
+    },
+    "strategiya-prodvizheniya": {
+      title: "Стратегия продвижения",
+      subtitle: "Под состояние сайта",
+    },
+    "user-intent": {
+      title: "User intent в SEO",
+      subtitle: "Намерение запроса",
+    },
+    "turbo-stranitsy": {
+      title: "Турбо-страницы",
+      subtitle: "После отключения",
+    },
+    "mobilnyy-poisk": {
+      title: "Мобильный поиск",
+      subtitle: "Выдача и UX",
+    },
+    "utm-metki": {
+      title: "UTM-метки",
+      subtitle: "Разметка ссылок",
+    },
+    "retargeting": {
+      title: "Ретаргетинг",
+      subtitle: "Vs таргетинг",
+    },
+    "poiskovye-podskazki": {
+      title: "Поисковые подсказки",
+      subtitle: "Саджест для SEO",
+    },
+    "zerkalo-sayta": {
+      title: "Зеркало сайта",
+      subtitle: "Склейка и проверка",
+    },
+    "hlebnye-kroshki": {
+      title: "Хлебные крошки",
+      subtitle: "Навигация и SEO",
     },
   };
   return (
