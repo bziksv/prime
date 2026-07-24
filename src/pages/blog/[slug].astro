@@ -5,8 +5,25 @@ import "../../styles/blog.css";
 import PortalShell from "../../components/PortalShell.astro";
 import CookieConsent from "../../components/CookieConsent.astro";
 import CookieFooterNotice from "../../components/CookieFooterNotice.astro";
+import BlogChecklist from "../../components/blog/BlogChecklist.astro";
+import BlogQuiz from "../../components/blog/BlogQuiz.astro";
 import { v6Icons } from "../../data/v6-media";
-import { blogPosts, formatBlogDate, getBlogPost } from "../../data/blog";
+import {
+  blogPosts,
+  formatBlogDate,
+  formatReadingTime,
+  formatViews,
+  getArticleCta,
+  getBaseViews,
+  getBlogPost,
+  getCoverCaption,
+  getPostNeighbors,
+  getReadingMinutes,
+  getRelatedPosts,
+  getSectionId,
+} from "../../data/blog";
+import { blogNewFormatSlugs } from "../../data/blog-migration";
+import { getBlogInteract } from "../../data/blog-interact";
 
 export function getStaticPaths() {
   return blogPosts.map((post) => ({ params: { slug: post.slug } }));
@@ -17,6 +34,25 @@ const post = getBlogPost(slug!);
 if (!post) {
   throw new Error(`Blog post not found: ${slug}`);
 }
+
+const reading = getReadingMinutes(post);
+const baseViews = getBaseViews(post);
+const pageUrl = new URL(`/blog/${post.slug}/`, Astro.site ?? "https://prime-ltd.su").href;
+const cta = getArticleCta(post);
+const coverCaption = getCoverCaption(post);
+const { prev, next } = getPostNeighbors(post.slug);
+const related = getRelatedPosts(post, 3);
+const isNewFormat = blogNewFormatSlugs.includes(post.slug);
+const interact = getBlogInteract(post.slug);
+
+const toc = post.sections
+  .map((section, index) => ({
+    id: getSectionId(section.title, index),
+    title: section.title,
+    level: section.level,
+    index,
+  }))
+  .filter((s) => s.level <= 2);
 ---
 
 <!doctype html>
@@ -49,55 +85,208 @@ if (!post) {
           <a href="/kontakty/" class="v6-btn">Оставить заявку</a>
         </header>
 
-        <div class="v6-content">
-          <article class="b-article-hero">
-            <div class="b-article-hero__cover">
-              <img src={post.cover} alt="" />
+        <div
+          class="v6-content"
+          data-blog-article
+          data-slug={post.slug}
+          data-base-views={baseViews}
+          data-title={post.title}
+          data-url={pageUrl}
+          data-reading-minutes={reading}
+        >
+          <div class="b-read-progress" data-read-progress hidden>
+            <div class="b-read-progress__track" aria-hidden="true">
+              <span data-read-bar></span>
             </div>
-            <div class="b-article-hero__meta">
-              <span class="b-article-hero__cat">{post.category}</span>
-              <time datetime={post.date}>{formatBlogDate(post.date)}</time>
-            </div>
-            <h1>{post.title}</h1>
-            {post.lead.map((p) => <p class="b-article-hero__lead">{p}</p>)}
-          </article>
+            <p class="b-read-progress__meta" data-read-left></p>
+          </div>
 
-          <div class="v6-card" style="padding: 1.35rem 1.4rem 1.5rem">
-            <div class="b-article">
+          <article class:list={["b-post", isNewFormat && "b-post--new"]}>
+            <header class="b-post__hero">
+              <div class="b-post__cover">
+                <img src={`${post.cover}?v=3`} alt="" />
+                <div class="b-post__cover-caption" aria-hidden="true">
+                  <p class="b-post__cover-title">{coverCaption.title}</p>
+                  <p class="b-post__cover-sub">{coverCaption.subtitle}</p>
+                </div>
+              </div>
+
+              <div class="b-post__intro">
+                {
+                  isNewFormat ? (
+                    <p class="b-post__badge">Новый формат</p>
+                  ) : (
+                    <p class="b-post__badge b-post__badge--migrated">Перенос</p>
+                  )
+                }
+                <div class="b-post__meta">
+                  <a
+                    class="b-post__cat"
+                    href={`/blog/?cat=${encodeURIComponent(post.category)}`}
+                  >
+                    {post.category}
+                  </a>
+                  <time datetime={post.date}>{formatBlogDate(post.date)}</time>
+                  <span>{formatReadingTime(reading)}</span>
+                  <span>
+                    <span data-blog-views>{formatViews(baseViews)}</span> просмотров
+                  </span>
+                </div>
+                <h1>{post.title}</h1>
+                {post.lead.map((p) => <p class="b-post__lead">{p}</p>)}
+
+                <div class="b-share">
+                  <span class="b-share__label">Поделиться</span>
+                  <div class="b-share__actions">
+                    <button type="button" class="b-share__btn" data-share-native>
+                      Скопировать ссылку
+                    </button>
+                    <a
+                      class="b-share__btn"
+                      data-share="tg"
+                      target="_blank"
+                      rel="noopener noreferrer">Telegram</a
+                    >
+                    <a
+                      class="b-share__btn"
+                      data-share="vk"
+                      target="_blank"
+                      rel="noopener noreferrer">VK</a
+                    >
+                    <a
+                      class="b-share__btn"
+                      data-share="wa"
+                      target="_blank"
+                      rel="noopener noreferrer">WhatsApp</a
+                    >
+                  </div>
+                  <p class="b-share__status" data-share-status hidden></p>
+                </div>
+              </div>
+            </header>
+
+            <div class="b-post__layout">
               {
-                post.sections.map((section) => (
-                  <section>
-                    {section.level <= 2 ? (
-                      <h2>{section.title}</h2>
-                    ) : (
-                      <h3>{section.title}</h3>
-                    )}
-                    {section.paras.map((p) => (
-                      <p>{p}</p>
-                    ))}
-                    {section.lists.map((list) => (
-                      <div class="b-article__list-block">
-                        {list.intro ? <p class="b-article__list-intro">{list.intro}</p> : null}
-                        <ul>
-                          {list.items.map((item) => (
-                            <li>{item}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    ))}
-                  </section>
-                ))
+                toc.length > 2 ? (
+                  <nav class="b-toc" aria-label="Содержание">
+                    <p class="b-toc__title">Содержание</p>
+                    <ol>
+                      {toc.map((item) => (
+                        <li>
+                          <a href={`#${item.id}`}>{item.title}</a>
+                        </li>
+                      ))}
+                    </ol>
+                  </nav>
+                ) : null
               }
 
-              <div class="b-article__cta">
-                <h2>Нужна семантика под ваш сайт?</h2>
-                <p>
-                  Соберём ядро, кластеры и посадочные — как в этой статье, только под вашу нишу.
-                </p>
-                <a href="/kontakty/" class="v6-btn">Обсудить задачу</a>
+              <div class="b-post__body">
+                {
+                  post.sections.map((section, index) => {
+                    const id = getSectionId(section.title, index);
+                    const showQuiz =
+                      interact &&
+                      section.title.includes(interact.quizAfterTitleIncludes);
+                    const showChecklist =
+                      interact &&
+                      section.title.includes(interact.checklistAfterTitleIncludes);
+                    return (
+                      <>
+                        <section class="b-post__section" id={id}>
+                          {section.level <= 2 ? (
+                            <h2>{section.title}</h2>
+                          ) : (
+                            <h3>{section.title}</h3>
+                          )}
+                          {section.paras.map((p) => (
+                            <p>{p}</p>
+                          ))}
+                          {section.lists.map((list) => (
+                            <div class="b-post__list">
+                              {list.intro ? (
+                                <p class="b-post__list-intro">{list.intro}</p>
+                              ) : null}
+                              <ul>
+                                {list.items.map((item) => (
+                                  <li>{item}</li>
+                                ))}
+                              </ul>
+                            </div>
+                          ))}
+                        </section>
+
+                        {showQuiz ? (
+                          <BlogQuiz
+                            title={interact.quiz.title}
+                            lead={interact.quiz.lead}
+                            questions={interact.quiz.questions}
+                          />
+                        ) : null}
+
+                        {showChecklist ? (
+                          <BlogChecklist
+                            title={interact.checklist.title}
+                            lead={interact.checklist.lead}
+                            items={interact.checklist.items}
+                            storageKey={`prime-blog-checklist-${post.slug}`}
+                          />
+                        ) : null}
+                      </>
+                    );
+                  })
+                }
+
+                <div class="b-post__cta">
+                  <h2>{cta.title}</h2>
+                  <p>{cta.text}</p>
+                  <a href="/kontakty/" class="v6-btn">Обсудить задачу</a>
+                </div>
               </div>
             </div>
-          </div>
+
+            <nav class="b-post__pager" aria-label="Другие статьи">
+              {
+                prev ? (
+                  <a href={`/blog/${prev.slug}/`} class="b-post__pager-link">
+                    <span>Ранее</span>
+                    <strong>{prev.title}</strong>
+                  </a>
+                ) : (
+                  <span class="b-post__pager-link is-empty"></span>
+                )
+              }
+              {
+                next ? (
+                  <a href={`/blog/${next.slug}/`} class="b-post__pager-link b-post__pager-link--next">
+                    <span>Далее</span>
+                    <strong>{next.title}</strong>
+                  </a>
+                ) : (
+                  <span class="b-post__pager-link is-empty"></span>
+                )
+              }
+            </nav>
+
+            {
+              related.length ? (
+                <section class="b-related">
+                  <h2>Ещё по теме</h2>
+                  <div class="b-related__grid">
+                    {related.map((r) => (
+                      <a href={`/blog/${r.slug}/`} class="b-related__card">
+                        <img src={r.cover} alt="" loading="lazy" />
+                        <div>
+                          <span>{r.category}</span>
+                          <strong>{r.title}</strong>
+                        </div>
+                      </a>
+                    ))}
+                  </div>
+                </section>
+              ) : null
+            }
+          </article>
         </div>
 
         <footer class="v6-footer">
@@ -114,6 +303,7 @@ if (!post) {
     <CookieConsent />
     <script>
       import "../../scripts/concept-v6.ts";
+      import "../../scripts/blog-ui.ts";
     </script>
   </body>
 </html>

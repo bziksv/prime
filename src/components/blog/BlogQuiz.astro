@@ -1,0 +1,53 @@
+---
+import type { BlogQuizQuestion } from "../../data/blog-interact";
+
+type Props = {
+  title: string;
+  lead: string;
+  questions: BlogQuizQuestion[];
+};
+
+const { title, lead, questions } = Astro.props;
+---
+
+<section
+  class="b-widget b-quiz"
+  data-blog-quiz
+  aria-labelledby="b-quiz-title"
+>
+  <div class="b-widget__head">
+    <p class="b-widget__kicker">Проверьте себя</p>
+    <h2 id="b-quiz-title">{title}</h2>
+    <p class="b-widget__lead">{lead}</p>
+  </div>
+
+  <div class="b-quiz__list">
+    {
+      questions.map((q, qi) => (
+        <fieldset class="b-quiz__q" data-quiz-q={q.id} data-correct={q.correct}>
+          <legend>
+            <span class="b-quiz__num">{qi + 1}</span>
+            {q.question}
+          </legend>
+          <div class="b-quiz__options">
+            {q.options.map((opt, oi) => (
+              <label class="b-quiz__opt">
+                <input type="radio" name={`quiz-${q.id}`} value={oi} />
+                <span>{opt}</span>
+              </label>
+            ))}
+          </div>
+          <p class="b-quiz__explain" data-quiz-explain hidden>
+            {q.explain}
+          </p>
+        </fieldset>
+      ))
+    }
+  </div>
+
+  <div class="b-quiz__footer">
+    <button type="button" class="v6-btn" data-quiz-check>Проверить ответы</button>
+    <button type="button" class="b-share__btn" data-quiz-reset hidden>Пройти ещё раз</button>
+    <p class="b-quiz__score" data-quiz-score hidden></p>
+  </div>
+</section>

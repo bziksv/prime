@@ -1,0 +1,53 @@
+---
+import type { BlogChecklistItem } from "../../data/blog-interact";
+
+type Props = {
+  title: string;
+  lead: string;
+  items: BlogChecklistItem[];
+  storageKey: string;
+};
+
+const { title, lead, items, storageKey } = Astro.props;
+---
+
+<section
+  class="b-widget b-checklist"
+  data-blog-checklist
+  data-storage-key={storageKey}
+  aria-labelledby="b-checklist-title"
+>
+  <div class="b-widget__head">
+    <p class="b-widget__kicker">Практика</p>
+    <h2 id="b-checklist-title">{title}</h2>
+    <p class="b-widget__lead">{lead}</p>
+  </div>
+
+  <div class="b-checklist__progress">
+    <div class="b-checklist__bar" aria-hidden="true">
+      <span data-checklist-bar></span>
+    </div>
+    <p class="b-checklist__count">
+      <span data-checklist-done>0</span> / {items.length} готово
+    </p>
+  </div>
+
+  <ul class="b-checklist__list">
+    {
+      items.map((item) => (
+        <li>
+          <label class="b-checklist__item">
+            <input type="checkbox" data-checklist-item={item.id} />
+            <span>{item.label}</span>
+          </label>
+        </li>
+      ))
+    }
+  </ul>
+
+  <div class="b-checklist__actions">
+    <button type="button" class="b-share__btn" data-checklist-reset>
+      Сбросить
+    </button>
+  </div>
+</section>

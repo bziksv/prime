@@ -6,8 +6,9 @@
 
 - В БД **нет published**: `draft` 829 + `pending` 1.
 - На старом сайте раздел `/blog/` — рубрикатор; сами статьи лежат черновиками в админке.
-- Уже вынесено на Astro: **1** запись.
-- Ниже — **пригодные к переносу** (есть slug, заголовок, контент ≥ 800 символов HTML). Остальное — в конце как skip.
+- Уже вынесено на Astro: **3** записи (контент перенесён; отдельный редизайн формата — позже). Счётчик на `/blog/` ← `src/data/blog.ts` + `src/data/blog-migration.ts`.
+    - Ниже — **пригодные к переносу** (есть slug, заголовок, контент ≥ 800 символов HTML). Остальное — в конце как skip.
+    - Сводка для UI: `eligible`/`skip` из чеклиста, `done` = число постов в Astro (перенос, не «новый формат»).
 
 ## Статус на новом сайте
 
@@ -25,7 +26,7 @@
 | Всего записей в БД | 830 |
 | Пригодных (≥800 симв., slug+title) | 813 |
 | Skip / мусор | 17 |
-| Уже на Astro | 1 |
+| Уже на Astro | 3 |
 
 ### По основной рубрике (эвристика)
 
@@ -59,7 +60,9 @@
 
 ## Перенесённые
 
-- [x] `semanticheskoe-yadro` ← WP `sobiraem-semanticheskoe-yadro-sayta-pravilno-kak-podobrat-klyuchevyie-slova` (ID 65348, 2022-03-01, SEO) — `/blog/semanticheskoe-yadro/`
+- [x] `semanticheskoe-yadro` ← WP `sobiraem-semanticheskoe-yadro-sayta-pravilno-kak-podobrat-klyuchevyie-slova` (ID 65348, 2022-03-01, SEO) — `/blog/semanticheskoe-yadro/` · **новый формат**
+- [x] `seo-struktura-sayta` ← WP `seo-prodvizhenie-sayta-kak-postroit-pravilnuyu-strukturu-i-rabotat-s-ney` (ID 64883, 2021-12-27, SEO) — `/blog/seo-struktura-sayta/` · перенос
+- [x] `tehnicheskiy-seo-audit` ← WP `tehnicheskiy-seo-audit-sayta-tseli-i-zadachi-vozmozhen-li-samostoyatelnyiy-zapusk-audita` (ID 63732, 2021-07-22, SEO) — `/blog/tehnicheskiy-seo-audit/` · перенос
 
 ## SEO (297)
 
@@ -107,8 +110,8 @@
   ID `64620` · 2021-12-29 · ~19k · SEO · Интернет-маркетинг · Медиа сервисы
 - [ ] `vse-o-klyuchevyih-slovah-na-sayte-ot-teorii-do-praktiki` — Все о ключевых словах на сайте: от теории до практики    
   ID `64902` · 2021-12-28 · ~12k · SEO · SMM · Интернет-маркетинг
-- [ ] `seo-prodvizhenie-sayta-kak-postroit-pravilnuyu-strukturu-i-rabotat-s-ney` — SEO-продвижение сайта: как построить правильную структуру и работать с ней    
-  ID `64883` · 2021-12-27 · ~18k · SEO
+- [x] `seo-prodvizhenie-sayta-kak-postroit-pravilnuyu-strukturu-i-rabotat-s-ney` — SEO-продвижение сайта: как построить правильную структуру и работать с ней    
+  ID `64883` · 2021-12-27 · ~18k · SEO → Astro `/blog/seo-struktura-sayta/`
 - [ ] `kak-pravilno-sostavit-opisanie-yutub-kanala` — Как правильно составить описание Ютуб-канала    
   ID `64785` · 2021-12-10 · ~18k · SEO · Интернет-маркетинг · Медиа сервисы
 - [ ] `post-v-instagram-pravilnaya-struktura-i-zagolovok-dlya-prodayushhego-teksta` — Пост в Инстаграм: правильная структура и заголовок для продающего текста    
@@ -211,8 +214,8 @@
   ID `63877` · 2021-07-27 · ~26k · SEO · Интернет-маркетинг · Медиа сервисы
 - [ ] `kak-sdelat-shablon-dlya-instagram-oformlyaem-postyi-krasivo` — Как сделать шаблон для Инстаграм. Оформляем посты красиво.    
   ID `63775` · 2021-07-23 · ~28k · SEO · Интернет-маркетинг · Медиа сервисы
-- [ ] `tehnicheskiy-seo-audit-sayta-tseli-i-zadachi-vozmozhen-li-samostoyatelnyiy-zapusk-audita` — Технический SEO-аудит сайта. Цели и задачи. Возможен ли самостоятельный запуск аудита    
-  ID `63732` · 2021-07-22 · ~17k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса
+- [x] `tehnicheskiy-seo-audit-sayta-tseli-i-zadachi-vozmozhen-li-samostoyatelnyiy-zapusk-audita` — Технический SEO-аудит сайта. Цели и задачи. Возможен ли самостоятельный запуск аудита    
+  ID `63732` · 2021-07-22 · ~17k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса → Astro `/blog/tehnicheskiy-seo-audit/`
 - [ ] `kak-podgotovit-i-opublikovat-statyu-v-vk-poshagovaya-instruktsiya` — Как подготовить и опубликовать статью в VK: пошаговая инструкция    
   ID `63694` · 2021-07-20 · ~13k · SEO · Интернет-маркетинг · Медиа сервисы
 - [ ] `indeksatsiya-logi-servera-i-analiz-povedeniya-poiskovyih-robotov` — Индексация, логи сервера и анализ поведения поисковых роботов    
