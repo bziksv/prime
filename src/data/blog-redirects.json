@@ -16,21 +16,39 @@
   ],
   "posts": [
     {
+      "wpSlug": "10-faktorov-dlya-uluchsheniya-povedencheskih-faktorov",
+      "astroSlug": "povedencheskie-faktory",
+      "wpId": 45152,
+      "dup": false
+    },
+    {
       "wpSlug": "10-krutyh-knig-o-tom-kak-otkryt-svoj-internet-magazin",
       "astroSlug": "start-internet-magazina",
       "wpId": 58955,
       "dup": false
     },
     {
-      "wpSlug": "10-rasprostranennyih-redirektov-301-v-htaccess",
-      "astroSlug": "htaccess-301",
-      "wpId": 62415,
+      "wpSlug": "10-oshibok-pri-vedenii-reklamnoy-kampanii",
+      "astroSlug": "oshibki-reklamnoy-kampanii",
+      "wpId": 44774,
       "dup": false
     },
     {
       "wpSlug": "10-prichin-pochemu-sayt-ne-mozhet-popast-v-top",
       "astroSlug": "sayt-ne-v-top",
       "wpId": 55035,
+      "dup": false
+    },
+    {
+      "wpSlug": "10-punktov-kotoryie-nelzya-ignorirovat-pri-sozdanii-internet-magazina",
+      "astroSlug": "sozdanie-internet-magazina",
+      "wpId": 44101,
+      "dup": false
+    },
+    {
+      "wpSlug": "10-rasprostranennyih-redirektov-301-v-htaccess",
+      "astroSlug": "htaccess-301",
+      "wpId": 62415,
       "dup": false
     },
     {
@@ -46,10 +64,46 @@
       "dup": true
     },
     {
+      "wpSlug": "11-tipov-problemnyih-klientov-i-kak-s-nimi-vzaimodeystvovat",
+      "astroSlug": "problemnye-klienty",
+      "wpId": 44469,
+      "dup": false
+    },
+    {
+      "wpSlug": "12-samyih-populyarnyih-tendentsiy-veb-dizayna-2018",
+      "astroSlug": "tendentsii-veb-dizayna",
+      "wpId": 43427,
+      "dup": false
+    },
+    {
       "wpSlug": "13-rabotayushhih-idey-dlya-effektivnogo-seo-prodvizheniya",
       "astroSlug": "samostoyatelnoe-seo",
       "wpId": 57436,
       "dup": true
+    },
+    {
+      "wpSlug": "18-oshibok-v-yuzabiliti-internet-magazinov",
+      "astroSlug": "yuzabiliti-internet-magazina",
+      "wpId": 45291,
+      "dup": false
+    },
+    {
+      "wpSlug": "19-veshhey-kotoryie-nuzhno-proverit-pered-zapuskom-sayta",
+      "astroSlug": "pered-zapuskom-sayta",
+      "wpId": 44492,
+      "dup": false
+    },
+    {
+      "wpSlug": "20-deystvennyih-sposobov-po-uvelicheniyu-prodazh-na-vashem-sayte",
+      "astroSlug": "prodazhi-internet-magazin",
+      "wpId": 43481,
+      "dup": true
+    },
+    {
+      "wpSlug": "20-sposobov-uvelichit-prodazhi-v-internet-magazine",
+      "astroSlug": "prodazhi-internet-magazin",
+      "wpId": 53621,
+      "dup": false
     },
     {
       "wpSlug": "3-strategii-dlya-prodvizheniya-sayta",
@@ -62,6 +116,42 @@
       "astroSlug": "redirekt",
       "wpId": 42322,
       "dup": true
+    },
+    {
+      "wpSlug": "5-rekomendatsiy-dlya-omnikanalnogo-kontent-marketinga",
+      "astroSlug": "omnikanalnyy-kontent-marketing",
+      "wpId": 51450,
+      "dup": false
+    },
+    {
+      "wpSlug": "50-elementov-bez-kotoryih-vash-sayt-obrechyon-na-proval",
+      "astroSlug": "cheklist-sayta",
+      "wpId": 45640,
+      "dup": false
+    },
+    {
+      "wpSlug": "6-kognitivnyih-iskazheniy-kotoryie-vliyayut-na-vyibor-pokupatelya",
+      "astroSlug": "kognitivnye-iskazheniya",
+      "wpId": 47608,
+      "dup": false
+    },
+    {
+      "wpSlug": "7-oshibok-v-optimizatsii-internet-magazinov",
+      "astroSlug": "oshibki-internet-magazina",
+      "wpId": 49232,
+      "dup": false
+    },
+    {
+      "wpSlug": "8-instrumentov-prodvizheniya-dlya-offlayn-biznesa",
+      "astroSlug": "prodvizhenie-offlayn-biznesa",
+      "wpId": 51319,
+      "dup": false
+    },
+    {
+      "wpSlug": "8-klyuchevyih-tochek-rosta-kotoryie-srabotayut-dlya-lyubogo-sayta",
+      "astroSlug": "tochki-rosta-sayta",
+      "wpId": 51778,
+      "dup": false
     },
     {
       "wpSlug": "adaptatsiya-sayta-pod-razmer-ekrana",
@@ -98,6 +188,12 @@
       "astroSlug": "ssylochnyy-profil",
       "wpId": 50641,
       "dup": true
+    },
+    {
+      "wpSlug": "antitrendi-v-marketinge-kotorie-davno-v-proshlom",
+      "astroSlug": "antitrendy-marketinga",
+      "wpId": 55373,
+      "dup": false
     },
     {
       "wpSlug": "autrich-nayti-ploshhadki-dlya-statey-i-ssyilok",
@@ -160,16 +256,22 @@
       "dup": true
     },
     {
-      "wpSlug": "chem-polezna-statistika-v-instagram",
-      "astroSlug": "statistika-instagram",
-      "wpId": 64340,
-      "dup": false
+      "wpSlug": "celevaya-auditoriya-kak-opredelit",
+      "astroSlug": "tselevaya-auditoriya",
+      "wpId": 55488,
+      "dup": true
     },
     {
       "wpSlug": "chem-grozit-dublirovanie-kontenta-na-sayte",
       "astroSlug": "dubli-stranits",
       "wpId": 54965,
       "dup": true
+    },
+    {
+      "wpSlug": "chem-polezna-statistika-v-instagram",
+      "astroSlug": "statistika-instagram",
+      "wpId": 64340,
+      "dup": false
     },
     {
       "wpSlug": "chto-daet-top-instagram-dlya-prodvizheniya-proekta",
@@ -196,15 +298,39 @@
       "dup": true
     },
     {
+      "wpSlug": "chto-takoe-assotsiirovannyie-konversii",
+      "astroSlug": "assotsiirovannye-konversii",
+      "wpId": 54148,
+      "dup": false
+    },
+    {
+      "wpSlug": "chto-takoe-avtomatizirovannaya-voronka-prodazh",
+      "astroSlug": "avtovoronka",
+      "wpId": 50776,
+      "dup": false
+    },
+    {
       "wpSlug": "chto-takoe-avtonapolnenie-sayta-i-kak-eto-rabotaet",
       "astroSlug": "avtonapolnenie-sayta",
       "wpId": 65290,
       "dup": false
     },
     {
+      "wpSlug": "chto-takoe-bezankoraya-ssyilka-otlichie-ot-ankora-primeryi-sostavleniya-dlya-prodvizheniya-sayta",
+      "astroSlug": "chto-takoe-ssylka",
+      "wpId": 57793,
+      "dup": true
+    },
+    {
       "wpSlug": "chto-takoe-dashboard-i-dlya-chego-on-nuzhen",
       "astroSlug": "dashboard",
       "wpId": 64584,
+      "dup": false
+    },
+    {
+      "wpSlug": "chto-takoe-favikon-i-dlya-chego-on-nuzhen",
+      "astroSlug": "favikon",
+      "wpId": 42981,
       "dup": false
     },
     {
@@ -223,6 +349,18 @@
       "wpSlug": "chto-takoe-hlebnyie-kroshki-zachem-oni-nuzhnyi-voobshhe-i-dlya-seo-v-chastnosti-sovetyi-po-ih-pravilnomu-oformleniyu",
       "astroSlug": "hlebnye-kroshki",
       "wpId": 41698,
+      "dup": false
+    },
+    {
+      "wpSlug": "chto-takoe-i-dlya-chego-nuzhen-brendbuk",
+      "astroSlug": "aydentika-brenda",
+      "wpId": 47359,
+      "dup": true
+    },
+    {
+      "wpSlug": "chto-takoe-infopovod",
+      "astroSlug": "infopovod",
+      "wpId": 55904,
       "dup": false
     },
     {
@@ -250,6 +388,18 @@
       "dup": true
     },
     {
+      "wpSlug": "chto-takoe-nativnaya-reklama-plyusyi-i-minusyi",
+      "astroSlug": "nativnaya-reklama",
+      "wpId": 52037,
+      "dup": true
+    },
+    {
+      "wpSlug": "chto-takoe-saytyi-affiliatyi-kak-izbezhat-nalozhenie-affiliat-filtra-i-proverit-ego-nalichie",
+      "astroSlug": "affiliat-filtr",
+      "wpId": 41828,
+      "dup": false
+    },
+    {
       "wpSlug": "chto-takoe-seo-prodvizhenie",
       "astroSlug": "chto-takoe-seo",
       "wpId": 36979,
@@ -259,6 +409,12 @@
       "wpSlug": "chto-takoe-serfing-saytov-horoshiy-sposob-zarabotat-ili-pustaya-trata-vremeni",
       "astroSlug": "serfing-saytov",
       "wpId": 64288,
+      "dup": false
+    },
+    {
+      "wpSlug": "chto-takoe-serm-kogda-on-neobhodim-i-kak-ispolzovat",
+      "astroSlug": "serm",
+      "wpId": 42245,
       "dup": false
     },
     {
@@ -346,9 +502,27 @@
       "dup": true
     },
     {
+      "wpSlug": "effektivnoe-vovlechenie-polzovateley-za-5-shagov",
+      "astroSlug": "vovlechenie-polzovateley",
+      "wpId": 42937,
+      "dup": false
+    },
+    {
       "wpSlug": "effektivnost-mobilnoy-reklamyi-v-google-issledovanie",
       "astroSlug": "mobilnaya-reklama-google",
       "wpId": 46074,
+      "dup": false
+    },
+    {
+      "wpSlug": "effektivnyiy-kviz-sayt",
+      "astroSlug": "kviz-sayt",
+      "wpId": 54462,
+      "dup": false
+    },
+    {
+      "wpSlug": "elektronnaya-kniga-dlya-tselevoy-auditorii-kak-sdelat-byistro-bez-dizaynera",
+      "astroSlug": "elektronnaya-kniga",
+      "wpId": 48426,
       "dup": false
     },
     {
@@ -358,9 +532,33 @@
       "dup": false
     },
     {
+      "wpSlug": "faktoryi-uspeshnogo-prodvizheniya-internet-magazina",
+      "astroSlug": "prodvizhenie-internet-magazina",
+      "wpId": 50834,
+      "dup": true
+    },
+    {
+      "wpSlug": "formyi-zahvata-kak-sdelat-na-sayte",
+      "astroSlug": "formy-zahvata",
+      "wpId": 51667,
+      "dup": false
+    },
+    {
       "wpSlug": "foto-v-instagram-ot-idei-do-realizatsii",
       "astroSlug": "foto-instagram",
       "wpId": 63259,
+      "dup": false
+    },
+    {
+      "wpSlug": "gde-i-kak-zatsepit-tselevuyu-auditoriyu",
+      "astroSlug": "sem-kasaniy",
+      "wpId": 53736,
+      "dup": false
+    },
+    {
+      "wpSlug": "gde-luchshe-razmestit-lending",
+      "astroSlug": "razmeshchenie-lendinga",
+      "wpId": 52195,
       "dup": false
     },
     {
@@ -382,6 +580,12 @@
       "dup": false
     },
     {
+      "wpSlug": "giperlokalnyiy-targeting-dlya-biznesa",
+      "astroSlug": "giperlokalnyy-targeting",
+      "wpId": 51656,
+      "dup": false
+    },
+    {
       "wpSlug": "gipertekst-osobennosti-struktura-i-preimushhestva",
       "astroSlug": "gipertekst",
       "wpId": 65160,
@@ -400,6 +604,12 @@
       "dup": true
     },
     {
+      "wpSlug": "golosovoy-poisk-strategii-dlya-uvelicheniya-pribyili",
+      "astroSlug": "golosovoy-poisk",
+      "wpId": 49475,
+      "dup": true
+    },
+    {
       "wpSlug": "gramotno-napisannyiy-tekst-lendinga-pravila-osobennosti-sostavleniya",
       "astroSlug": "tekst-lendinga",
       "wpId": 62965,
@@ -409,6 +619,12 @@
       "wpSlug": "html-teg-h1-oformlenie-optimizatsiya-i-ierarhiya-v-seo",
       "astroSlug": "teg-h1",
       "wpId": 60384,
+      "dup": false
+    },
+    {
+      "wpSlug": "http-zagolovki-chto-eto-i-kak-ispolzovat",
+      "astroSlug": "http-zagolovki",
+      "wpId": 54384,
       "dup": false
     },
     {
@@ -442,9 +658,27 @@
       "dup": false
     },
     {
+      "wpSlug": "internet-magazin-pochemu-pokupateli-brosayut-korzinu",
+      "astroSlug": "broshennaya-korzina",
+      "wpId": 49046,
+      "dup": false
+    },
+    {
+      "wpSlug": "internet-magazin-sposobyi-uvelichit-sredniy-chek",
+      "astroSlug": "sredniy-chek",
+      "wpId": 53961,
+      "dup": false
+    },
+    {
       "wpSlug": "internet-portal-struktura-naznachenie-klassifikatsiya",
       "astroSlug": "internet-portal",
       "wpId": 61551,
+      "dup": false
+    },
+    {
+      "wpSlug": "it-professiya-project-manager",
+      "astroSlug": "project-manager",
+      "wpId": 53349,
       "dup": false
     },
     {
@@ -460,15 +694,39 @@
       "dup": false
     },
     {
+      "wpSlug": "kak-besplatno-nayti-konkurentov-po-klyuchevyim-slovam-i-zachem-eto-nuzhno",
+      "astroSlug": "analiz-konkurentov",
+      "wpId": 53504,
+      "dup": true
+    },
+    {
       "wpSlug": "kak-borotsya-s-kannibalizatsiey-klyuchevyih-slov",
       "astroSlug": "kannibalizatsiya-zaprosov",
       "wpId": 50918,
       "dup": false
     },
     {
+      "wpSlug": "kak-i-zachem-uchastvovat-v-tenderah",
+      "astroSlug": "uchastie-v-tenderah",
+      "wpId": 51251,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-iskat-potrebitelskie-insaytyi-13-sposobov",
+      "astroSlug": "potrebitelskiy-insayt",
+      "wpId": 50350,
+      "dup": false
+    },
+    {
       "wpSlug": "kak-ispolzovat-v-seo-operatory-poiskovyh-sistem",
       "astroSlug": "operatory-poiska",
       "wpId": 55612,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-izbezhat-professionalnogo-vyigoraniya-u-sotrudnikov",
+      "astroSlug": "vygoranie-sotrudnikov",
+      "wpId": 49613,
       "dup": false
     },
     {
@@ -502,9 +760,21 @@
       "dup": false
     },
     {
+      "wpSlug": "kak-nastroit-retargeting-v-instagram-i-facebook",
+      "astroSlug": "retargeting-meta",
+      "wpId": 54388,
+      "dup": false
+    },
+    {
       "wpSlug": "kak-nayti-blogera-dlya-reklamyi-v-instagram",
       "astroSlug": "bloger-dlya-reklamy-instagram",
       "wpId": 65217,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-nayti-marketologa",
+      "astroSlug": "nayti-marketologa",
+      "wpId": 50679,
       "dup": false
     },
     {
@@ -532,10 +802,22 @@
       "dup": false
     },
     {
+      "wpSlug": "kak-ocenit-ehffektivnost-videoreklamy",
+      "astroSlug": "effektivnost-videoreklamy",
+      "wpId": 49180,
+      "dup": false
+    },
+    {
       "wpSlug": "kak-odnovremenno-zagruzit-neskolko-fotografiy-ili-video-v-instagram",
       "astroSlug": "karusel-instagram",
       "wpId": 63289,
       "dup": true
+    },
+    {
+      "wpSlug": "kak-oformit-glavnuyu-stranitsu-internet-magazina",
+      "astroSlug": "glavnaya-internet-magazina",
+      "wpId": 52215,
+      "dup": false
     },
     {
       "wpSlug": "kak-oformit-shapku-profilya-v-instagram-krasivo",
@@ -568,9 +850,27 @@
       "dup": true
     },
     {
+      "wpSlug": "kak-organizovat-onlayn-obuchenie-sotrudnikov",
+      "astroSlug": "onlayn-obuchenie",
+      "wpId": 52012,
+      "dup": false
+    },
+    {
       "wpSlug": "kak-organizovat-rabotu-s-postami-v-instagram-s-kompyutera",
       "astroSlug": "instagram-s-kompyutera",
       "wpId": 62790,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-otvetit-na-negativnyiy-otzyiv-ob-avtoservise",
+      "astroSlug": "negativnyy-otzyv",
+      "wpId": 52846,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-pavilno-pozdravit-klienta-s-dnem-rojdeniya",
+      "astroSlug": "pozdravlenie-klienta",
+      "wpId": 57100,
       "dup": false
     },
     {
@@ -598,6 +898,24 @@
       "dup": false
     },
     {
+      "wpSlug": "kak-popast-v-blok-byistryih-otvetov-google",
+      "astroSlug": "bystrye-otvety-google",
+      "wpId": 50503,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-pravilno-poschitat-konversiyu",
+      "astroSlug": "optimizatsiya-konversii",
+      "wpId": 52066,
+      "dup": true
+    },
+    {
+      "wpSlug": "kak-pravilno-predostavit-otchet-effektivnosti-reklamyi",
+      "astroSlug": "otchet-klientu",
+      "wpId": 50885,
+      "dup": true
+    },
+    {
       "wpSlug": "kak-pravilno-sostavit-opisanie-yutub-kanala",
       "astroSlug": "opisanie-youtube-kanala",
       "wpId": 64785,
@@ -610,15 +928,45 @@
       "dup": true
     },
     {
+      "wpSlug": "kak-primenit-lestnitsu-uznavaemosti-hanta",
+      "astroSlug": "lestnitsa-hanta",
+      "wpId": 54930,
+      "dup": false
+    },
+    {
       "wpSlug": "kak-privlech-vnimanie-polzovatelya-kartinkoy",
       "astroSlug": "kartinki-vnimanie",
       "wpId": 58166,
       "dup": false
     },
     {
+      "wpSlug": "kak-prodvigat-mobilnyie-prilozheniya-i-igryi",
+      "astroSlug": "prodvizhenie-prilozheniy",
+      "wpId": 52232,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-prognozirovat-trafik-poiskovyih-kampaniy-v-google-ads",
+      "astroSlug": "prognoz-trafika-google-ads",
+      "wpId": 50307,
+      "dup": false
+    },
+    {
       "wpSlug": "kak-proverit-otsenit-effektivnost-seo",
       "astroSlug": "effektivnost-seo",
       "wpId": 50219,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-proverit-poseshhaemost-chuzhogo-sayta",
+      "astroSlug": "analiz-konkurentov",
+      "wpId": 51489,
+      "dup": true
+    },
+    {
+      "wpSlug": "kak-provesti-audit-reklamnoy-kampanii",
+      "astroSlug": "audit-reklamnoy-kampanii",
+      "wpId": 50263,
       "dup": false
     },
     {
@@ -664,6 +1012,12 @@
       "dup": false
     },
     {
+      "wpSlug": "kak-razvivaetsya-performance-marketing",
+      "astroSlug": "performance-marketing",
+      "wpId": 50821,
+      "dup": false
+    },
+    {
       "wpSlug": "kak-samostoyatelno-sdelat-unikalnyiy-avatar-dlya-instagram-servisyi-programmyi-istochniki-izobrazheniy",
       "astroSlug": "avatar-instagram",
       "wpId": 64970,
@@ -679,6 +1033,12 @@
       "wpSlug": "kak-sdelat-interesnyim-i-populyarnyim-svoy-profil-v-instagrame",
       "astroSlug": "blog-instagram",
       "wpId": 62844,
+      "dup": true
+    },
+    {
+      "wpSlug": "kak-sdelat-mikrorazmetku-teoriya-i-praktika",
+      "astroSlug": "snippet",
+      "wpId": 51563,
       "dup": true
     },
     {
@@ -730,6 +1090,30 @@
       "dup": false
     },
     {
+      "wpSlug": "kak-sostavit-effektivnoe-kommercheskoe-predlozhenie",
+      "astroSlug": "kommercheskoe-predlozhenie",
+      "wpId": 48732,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-sostavit-kpi-dlya-menedzhera-po-prodazham",
+      "astroSlug": "kpi-menedzhera-prodazh",
+      "wpId": 49541,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-sostavit-tehnicheskoe-zadanie-na-sozdanie-sayta",
+      "astroSlug": "tz-na-sayt",
+      "wpId": 53522,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-sotrudniki-google-otsenivayut-saytyi",
+      "astroSlug": "google-assessory",
+      "wpId": 45175,
+      "dup": false
+    },
+    {
       "wpSlug": "kak-sozdat-i-otpravit-krasivuyu-ssyilku-vkontakte-podrobnoe-rukovodstvo",
       "astroSlug": "ssylki-vkontakte",
       "wpId": 63110,
@@ -740,6 +1124,12 @@
       "astroSlug": "statistika-google-prodazhi",
       "wpId": 57591,
       "dup": false
+    },
+    {
+      "wpSlug": "kak-struktura-sayta-vliyaet-na-prodvizhenie",
+      "astroSlug": "seo-struktura-sayta",
+      "wpId": 46509,
+      "dup": true
     },
     {
       "wpSlug": "kak-svyazany-internet-magaziny-i-yandeks-vse-o-yml-fajle",
@@ -754,10 +1144,28 @@
       "dup": false
     },
     {
+      "wpSlug": "kak-uderzhat-klienta-na-sayte",
+      "astroSlug": "otkazy-sayta",
+      "wpId": 51974,
+      "dup": true
+    },
+    {
       "wpSlug": "kak-uderzhat-posetitelya-na-sayte-glavnyie-prichinyi-otkazov",
       "astroSlug": "otkazy-sayta",
       "wpId": 58250,
       "dup": false
+    },
+    {
+      "wpSlug": "kak-uvelichit-poseshhaemost-sayta",
+      "astroSlug": "poseshhaemost-sayta",
+      "wpId": 42545,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-uvelichit-vremya-sessii-na-sayte",
+      "astroSlug": "otkazy-sayta",
+      "wpId": 51961,
+      "dup": true
     },
     {
       "wpSlug": "kak-uznat-cms-sayta",
@@ -811,6 +1219,12 @@
       "wpSlug": "kak-zaregistrirovatsya-v-baidu-glavnyie-servisyi-dlya-prodvizheniya",
       "astroSlug": "baidu",
       "wpId": 58099,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-zashhitit-sayt-ot-parsinga",
+      "astroSlug": "zashchita-ot-parsinga",
+      "wpId": 50543,
       "dup": false
     },
     {
@@ -922,9 +1336,27 @@
       "dup": false
     },
     {
+      "wpSlug": "kontent-strategiya-za-odin-den-s-infografikoy",
+      "astroSlug": "kontent-plan",
+      "wpId": 51912,
+      "dup": true
+    },
+    {
       "wpSlug": "kopirayting-osnovnyie-napravleniya-vidyi-stoimost-uslug-trebovaniya-k-ispolnitelyam",
       "astroSlug": "kopirayting",
       "wpId": 64733,
+      "dup": false
+    },
+    {
+      "wpSlug": "kraud-marketing-chto-eto-takoe-kak-pravilno-ispolzovat-vliyanie-na-seo",
+      "astroSlug": "kraud-marketing",
+      "wpId": 42089,
+      "dup": false
+    },
+    {
+      "wpSlug": "kto-takoy-akkaunt-menedzher-i-chem-on-zanimaetsya",
+      "astroSlug": "akkaunt-menedzher",
+      "wpId": 49452,
       "dup": false
     },
     {
@@ -946,15 +1378,15 @@
       "dup": false
     },
     {
-      "wpSlug": "menedzher-smm-obyazannosti-plyusyi-i-minusyi-sposobyi-osvoeniya-spetsialnosti",
-      "astroSlug": "menedzher-smm",
-      "wpId": 65212,
-      "dup": false
-    },
-    {
       "wpSlug": "mediakontent-na-chuzhom-sayte-kak-uznat-razmeryi-bannera-v-pikselyah",
       "astroSlug": "razmery-bannera",
       "wpId": 61854,
+      "dup": false
+    },
+    {
+      "wpSlug": "menedzher-smm-obyazannosti-plyusyi-i-minusyi-sposobyi-osvoeniya-spetsialnosti",
+      "astroSlug": "menedzher-smm",
+      "wpId": 65212,
       "dup": false
     },
     {
@@ -967,6 +1399,12 @@
       "wpSlug": "mobilnyiy-poisk-v-sovremennom-seo",
       "astroSlug": "mobilnyy-poisk",
       "wpId": 44935,
+      "dup": false
+    },
+    {
+      "wpSlug": "na-kakie-metriki-smotret-chtobyi-ponimat-chto-vasha-reklama-rabotaet",
+      "astroSlug": "metriki-reklamy",
+      "wpId": 52086,
       "dup": false
     },
     {
@@ -1000,10 +1438,22 @@
       "dup": false
     },
     {
+      "wpSlug": "nastrojka_skvoznoj_analitiki_google_data_studio_instrukciya_i_otchet",
+      "astroSlug": "looker-studio",
+      "wpId": 56594,
+      "dup": false
+    },
+    {
       "wpSlug": "nastroyka-bazovyih-instrumentov-1s-bitriks-dlya-seo-optimizatsii-upravlenie-robots-txt-i-plaginami",
       "astroSlug": "seo-bitrix",
       "wpId": 63232,
       "dup": false
+    },
+    {
+      "wpSlug": "neskolko-poleznyih-funktsiy-v-google-tablitsah",
+      "astroSlug": "excel-google-tablitsy",
+      "wpId": 57668,
+      "dup": true
     },
     {
       "wpSlug": "neyronnyie-seti-yandeksa-chego-zhdat-ot-korolyova",
@@ -1022,6 +1472,18 @@
       "astroSlug": "molodoy-sayt",
       "wpId": 57881,
       "dup": true
+    },
+    {
+      "wpSlug": "nuzhen-li-https-nebolshomu-internet-magazinu",
+      "astroSlug": "ssl-sertifikat",
+      "wpId": 51846,
+      "dup": true
+    },
+    {
+      "wpSlug": "nuzhen-li-vam-monitoring-pozitsiy-sayta-v-vyidache",
+      "astroSlug": "monitoring-pozitsiy",
+      "wpId": 46242,
+      "dup": false
     },
     {
       "wpSlug": "oblachnyiy-servis-preimushhestva-raznovidnosti-i-bezopasnost",
@@ -1096,16 +1558,40 @@
       "dup": true
     },
     {
+      "wpSlug": "organizatsiya-rabotyi-udalennyih-sotrudnikov",
+      "astroSlug": "udalennaya-rabota",
+      "wpId": 53343,
+      "dup": false
+    },
+    {
+      "wpSlug": "oshibka-500-chto-eto-takoe-kak-eyo-najti-i-kak-s-nej-spravitsya",
+      "astroSlug": "oshibka-500",
+      "wpId": 57416,
+      "dup": false
+    },
+    {
       "wpSlug": "oshibka-502-znachenie-i-rasshifrovka",
       "astroSlug": "oshibka-502",
       "wpId": 62016,
       "dup": false
     },
     {
+      "wpSlug": "oshibki-na-lendingah-kotorye-otpugivayut-posetiteley",
+      "astroSlug": "lending",
+      "wpId": 49789,
+      "dup": true
+    },
+    {
       "wpSlug": "oshibki-v-seo-kotoryie-dopuskayut-bolshinstvo-kompaniy",
       "astroSlug": "seo-oshibki",
       "wpId": 43778,
       "dup": true
+    },
+    {
+      "wpSlug": "osnovnyie-istochniki-trafika-na-sayt",
+      "astroSlug": "istochniki-trafika",
+      "wpId": 54190,
+      "dup": false
     },
     {
       "wpSlug": "osobennosti-prodvizheniya-sayta-po-neskolkim-regionam",
@@ -1150,9 +1636,21 @@
       "dup": true
     },
     {
+      "wpSlug": "performance-marketing-chto-eto-takoe-ego-tseli-i-instrumentyi",
+      "astroSlug": "performance-marketing",
+      "wpId": 42106,
+      "dup": true
+    },
+    {
       "wpSlug": "piksel-vkontakte-chto-eto-i-kak-s-nim-rabotat",
       "astroSlug": "piksel-vk",
       "wpId": 63072,
+      "dup": false
+    },
+    {
+      "wpSlug": "planirovanie-i-sozdanie-marketingovoy-strategii",
+      "astroSlug": "marketingovaya-strategiya",
+      "wpId": 51993,
       "dup": false
     },
     {
@@ -1168,6 +1666,12 @@
       "dup": false
     },
     {
+      "wpSlug": "pochemu-vasha-nativnaya-reklama-ne-rabotayet",
+      "astroSlug": "nativnaya-reklama",
+      "wpId": 56088,
+      "dup": false
+    },
+    {
       "wpSlug": "pochemu-vashemu-biznesu-nuzhnyi-sots-seti",
       "astroSlug": "sotsseti-dlya-biznesa",
       "wpId": 38510,
@@ -1177,6 +1681,12 @@
       "wpSlug": "podbor-klyuchevyih-slov-v-google-adwords-kontseptsiya-statistika-i-realizatsiya",
       "astroSlug": "klyuchi-google-ads",
       "wpId": 62079,
+      "dup": false
+    },
+    {
+      "wpSlug": "podrobnaya-instruktsiya-po-rabote-s-aydentikoy-brenda",
+      "astroSlug": "aydentika-brenda",
+      "wpId": 53074,
       "dup": false
     },
     {
@@ -1210,6 +1720,12 @@
       "dup": false
     },
     {
+      "wpSlug": "polzovatelskiy-intent-chto-takoe-i-kak-s-nim-rabotat",
+      "astroSlug": "intent-sotsialnye-prodazhi",
+      "wpId": 45316,
+      "dup": false
+    },
+    {
       "wpSlug": "posadochnaya-stranitsa-lending-chto-eto-takoe-i-kak-ee-pravilno-oformit",
       "astroSlug": "lending",
       "wpId": 62618,
@@ -1225,6 +1741,18 @@
       "wpSlug": "post-v-instagram-pravilnaya-struktura-i-zagolovok-dlya-prodayushhego-teksta",
       "astroSlug": "post-instagram",
       "wpId": 64769,
+      "dup": false
+    },
+    {
+      "wpSlug": "povedencheskie-faktoryi-chto-eto-takoe-kakie-byivayut-i-sovetyi-po-ih-uluchsheniyu",
+      "astroSlug": "povedencheskie-faktory",
+      "wpId": 41817,
+      "dup": true
+    },
+    {
+      "wpSlug": "povyishenie-prodazh-s-pomoshhyu-tochek-kontakta-s-pokupatelem",
+      "astroSlug": "tochki-kontakta",
+      "wpId": 54815,
       "dup": false
     },
     {
@@ -1250,6 +1778,12 @@
       "astroSlug": "karusel-instagram",
       "wpId": 63163,
       "dup": false
+    },
+    {
+      "wpSlug": "pravilnaya-struktura-lendinga",
+      "astroSlug": "lending",
+      "wpId": 43554,
+      "dup": true
     },
     {
       "wpSlug": "pravilnoe-privetstvie-posetiteley-sayta",
@@ -1282,10 +1816,40 @@
       "dup": false
     },
     {
+      "wpSlug": "printsipyi-korporativnogo-obucheniya-i-motivatsii-personala",
+      "astroSlug": "korporativnoe-obuchenie",
+      "wpId": 51120,
+      "dup": false
+    },
+    {
+      "wpSlug": "printsipyi-sozdaniya-effektivnogo-reklamnogo-bannera",
+      "astroSlug": "reklamnyy-banner",
+      "wpId": 55522,
+      "dup": false
+    },
+    {
+      "wpSlug": "priznaki-ustarevshego-sayta",
+      "astroSlug": "ustarevshiy-sayt",
+      "wpId": 48249,
+      "dup": false
+    },
+    {
+      "wpSlug": "problemyi-vnedreniya-skvoznoy-analitiki",
+      "astroSlug": "skvoznaya-analitika",
+      "wpId": 52385,
+      "dup": false
+    },
+    {
       "wpSlug": "prodayushhie-tekstyi-osnovnyie-printsipyi-i-pravila-sostavleniya",
       "astroSlug": "prodayushchie-teksty",
       "wpId": 64364,
       "dup": false
+    },
+    {
+      "wpSlug": "prodvizhenie-molodogo-sayta",
+      "astroSlug": "molodoy-sayt",
+      "wpId": 52802,
+      "dup": true
     },
     {
       "wpSlug": "prodvizhenie-sayta-cherez-vechnyie-ssyilki-s-pomoshhyu-servisa-gogetlinks",
@@ -1312,6 +1876,12 @@
       "dup": true
     },
     {
+      "wpSlug": "professiya-it-kto-takoy-linkbilder",
+      "astroSlug": "linkbilder",
+      "wpId": 53607,
+      "dup": false
+    },
+    {
       "wpSlug": "professiya-kontent-menedzher-obyazannosti-navyiki-i-progress",
       "astroSlug": "kontent-menedzher",
       "wpId": 62189,
@@ -1327,6 +1897,12 @@
       "wpSlug": "professiya-web-analitik",
       "astroSlug": "veb-analitik",
       "wpId": 52884,
+      "dup": false
+    },
+    {
+      "wpSlug": "prognoz-trafika-sayta",
+      "astroSlug": "prognoz-trafika",
+      "wpId": 52117,
       "dup": false
     },
     {
@@ -1426,6 +2002,12 @@
       "dup": false
     },
     {
+      "wpSlug": "roas-rentabelnost-zatrat-na-reklamu",
+      "astroSlug": "roas",
+      "wpId": 48389,
+      "dup": false
+    },
+    {
       "wpSlug": "rol-menedzhera-v-internet-magazine",
       "astroSlug": "menedzher-internet-magazina",
       "wpId": 64037,
@@ -1441,6 +2023,18 @@
       "wpSlug": "s-chego-nachinaetsya-sayt-podrobnee-o-veb-stranitse",
       "astroSlug": "veb-stranitsa",
       "wpId": 61335,
+      "dup": false
+    },
+    {
+      "wpSlug": "s-pomoshhyu-kakih-9-sredstv-mozhno-privlech-gostya-sayta-k-napisaniyu-ego-mneniya",
+      "astroSlug": "otzyvy-dlya-prodazh",
+      "wpId": 52145,
+      "dup": true
+    },
+    {
+      "wpSlug": "saiti-satelliti-dlya-seo",
+      "astroSlug": "sayty-satellity",
+      "wpId": 55195,
       "dup": false
     },
     {
@@ -1462,15 +2056,15 @@
       "dup": false
     },
     {
-      "wpSlug": "saiti-satelliti-dlya-seo",
-      "astroSlug": "sayty-satellity",
-      "wpId": 55195,
-      "dup": false
-    },
-    {
       "wpSlug": "samyie-rasprostranennyie-seo-oshibki",
       "astroSlug": "seo-oshibki",
       "wpId": 51156,
+      "dup": false
+    },
+    {
+      "wpSlug": "sarafannoe-radio-v-internet-marketinge",
+      "astroSlug": "sarafannoe-radio",
+      "wpId": 54698,
       "dup": false
     },
     {
@@ -1484,6 +2078,12 @@
       "astroSlug": "screaming-frog",
       "wpId": 57186,
       "dup": false
+    },
+    {
+      "wpSlug": "sekretyi-remarketingovyih-kampaniy-dlya-uluchsheniya-rezultata",
+      "astroSlug": "retargeting",
+      "wpId": 51428,
+      "dup": true
     },
     {
       "wpSlug": "sekretyi-sostavleniya-snippeta-kak-zavoevat-google",
@@ -1564,6 +2164,24 @@
       "dup": false
     },
     {
+      "wpSlug": "skript-sajta-chto-eto",
+      "astroSlug": "skript-sayta",
+      "wpId": 57347,
+      "dup": false
+    },
+    {
+      "wpSlug": "skvoznaya-analitika-v-pomoshh-biznesu",
+      "astroSlug": "skvoznaya-analitika",
+      "wpId": 47485,
+      "dup": true
+    },
+    {
+      "wpSlug": "sms-rassyilka-s-chego-nachat",
+      "astroSlug": "sms-rassylka",
+      "wpId": 52517,
+      "dup": false
+    },
+    {
       "wpSlug": "snizhenie-pokazatelya-otkazov-na-sayte",
       "astroSlug": "otkazy-sayta",
       "wpId": 48917,
@@ -1600,9 +2218,21 @@
       "dup": false
     },
     {
+      "wpSlug": "sovetyi-po-sozdaniyu-interaktivnogo-kontenta",
+      "astroSlug": "interaktivnyy-kontent",
+      "wpId": 54201,
+      "dup": false
+    },
+    {
       "wpSlug": "sovetyi-po-vnutrenney-perelinkovki-sayta",
       "astroSlug": "vnutrennyaya-perelinkovka",
       "wpId": 54593,
+      "dup": false
+    },
+    {
+      "wpSlug": "sozdanie-pravilnoy-kartochki-tovara-na-sayte",
+      "astroSlug": "kartochka-tovara",
+      "wpId": 49635,
       "dup": false
     },
     {
@@ -1708,6 +2338,12 @@
       "dup": false
     },
     {
+      "wpSlug": "trafik-est-lidov-net-pochemu-tak",
+      "astroSlug": "trafik-bez-lidov",
+      "wpId": 48680,
+      "dup": false
+    },
+    {
       "wpSlug": "trendyi-v-seo-i-rekomendatsii",
       "astroSlug": "trendy-seo",
       "wpId": 54785,
@@ -1750,6 +2386,12 @@
       "dup": true
     },
     {
+      "wpSlug": "upravlyaem-kontentom-zachem-nuzhna-adminka-sayta",
+      "astroSlug": "adminka-sayta",
+      "wpId": 58067,
+      "dup": false
+    },
+    {
       "wpSlug": "url-chto-eto-takoe",
       "astroSlug": "url-adres",
       "wpId": 58436,
@@ -1765,6 +2407,12 @@
       "wpSlug": "utm-metki-chto-eto-takoe-i-zachem-oni-nujni",
       "astroSlug": "utm-metki",
       "wpId": 42755,
+      "dup": false
+    },
+    {
+      "wpSlug": "utp-chto-eto-i-kak-sostavit",
+      "astroSlug": "utp",
+      "wpId": 55102,
       "dup": false
     },
     {
@@ -1798,9 +2446,21 @@
       "dup": true
     },
     {
+      "wpSlug": "veb-prilozhenie-funkcii-i-zadachi",
+      "astroSlug": "veb-prilozhenie",
+      "wpId": 58312,
+      "dup": false
+    },
+    {
       "wpSlug": "veb-server-v-podrobnostyah",
       "astroSlug": "veb-server",
       "wpId": 64932,
+      "dup": false
+    },
+    {
+      "wpSlug": "veb-servisy-chto-eto-takoe-osobennosti-arhitektura-celi",
+      "astroSlug": "veb-servisy",
+      "wpId": 58144,
       "dup": false
     },
     {
@@ -1822,9 +2482,21 @@
       "dup": true
     },
     {
+      "wpSlug": "vidyi-besplatnoy-reklamyi-v-internet",
+      "astroSlug": "besplatnaya-reklama",
+      "wpId": 55952,
+      "dup": false
+    },
+    {
       "wpSlug": "vidyi-i-sposobyi-opredeleniya-chastotnosti-zaprosov",
       "astroSlug": "chastotnost-zaprosov",
       "wpId": 65121,
+      "dup": false
+    },
+    {
+      "wpSlug": "vidyi-virusnogo-marketinga-v-seti",
+      "astroSlug": "virusnyy-marketing",
+      "wpId": 54171,
       "dup": false
     },
     {
@@ -1840,6 +2512,12 @@
       "dup": false
     },
     {
+      "wpSlug": "vliyanie-reytinga-i-otzyivov-na-prodazhi-i-seo",
+      "astroSlug": "otzyvy-dlya-prodazh",
+      "wpId": 53719,
+      "dup": true
+    },
+    {
       "wpSlug": "vnutrennie-faktoryi-ranzhirovaniya-optimizatsiya-dlya-poiskovyih-sistem",
       "astroSlug": "vnutrennie-faktory",
       "wpId": 50465,
@@ -1850,6 +2528,12 @@
       "astroSlug": "vnutrennie-faktory",
       "wpId": 37646,
       "dup": true
+    },
+    {
+      "wpSlug": "vrednyie-sovetyi-dlya-rukovoditeley",
+      "astroSlug": "vrednye-sovety-rukovoditelyam",
+      "wpId": 50132,
+      "dup": false
     },
     {
       "wpSlug": "vse-chto-nuzhno-znat-o-navigacii-sajta",
@@ -1882,9 +2566,21 @@
       "dup": false
     },
     {
+      "wpSlug": "vybor-domennogo-imeni-kakoj-variant-luchshe-com-ru-ili-rf",
+      "astroSlug": "domen-pervogo-urovnya",
+      "wpId": 58000,
+      "dup": true
+    },
+    {
       "wpSlug": "vyibiraya-nishu-dlya-sayta-vyibor-tematiki-i-napravleniya",
       "astroSlug": "nisha-sayta",
       "wpId": 61201,
+      "dup": false
+    },
+    {
+      "wpSlug": "vyibor-tsvetovoy-shemyi-dlya-internet-magazina",
+      "astroSlug": "tsvet-internet-magazina",
+      "wpId": 43023,
       "dup": false
     },
     {
@@ -1939,6 +2635,18 @@
       "wpSlug": "youtube-istoriya-naznachenie-i-monetizatsiya",
       "astroSlug": "youtube-monetizaciya",
       "wpId": 62438,
+      "dup": false
+    },
+    {
+      "wpSlug": "zachem-kompaniyam-sozdavat-svoy-blog",
+      "astroSlug": "korporativnyy-blog",
+      "wpId": 51030,
+      "dup": false
+    },
+    {
+      "wpSlug": "zachem-nuzhnyi-promoaktsii",
+      "astroSlug": "promoaktsii",
+      "wpId": 50055,
       "dup": false
     },
     {

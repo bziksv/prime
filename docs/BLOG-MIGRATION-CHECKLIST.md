@@ -45,7 +45,7 @@
 | Всего записей в БД | 830 |
 | Пригодных (≥800 симв., slug+title) | 813 |
 | Skip / мусор | 17 |
-| Уже на Astro | 239 |
+| Уже на Astro | 283 |
 
 ### По основной рубрике (эвристика)
 
@@ -836,242 +836,242 @@
   ID `58412` · 2020-10-01 · ~18k · Интернет-маркетинг → Astro `/blog/google-tag-manager/` · **новый формат** (GA4/Preview; без UA-скринов)
 - [x] `vidy-i-pravila-razrabotki-struktury-sajta` — Виды и правила разработки структуры сайта    
   ID `58342` · 2020-09-25 · ~7k · Интернет-маркетинг · **dup** → `/blog/seo-struktura-sayta/` (иерархии + семантика уже в каноне)
-- [ ] `veb-prilozhenie-funkcii-i-zadachi` — Веб-приложение: функции и задачи    
-  ID `58312` · 2020-09-22 · ~11k · Интернет-маркетинг
-- [ ] `veb-servisy-chto-eto-takoe-osobennosti-arhitektura-celi` — Веб-сервисы. Что это такое, особенности, архитектура, цели    
-  ID `58144` · 2020-09-08 · ~4k · Интернет-маркетинг
-- [ ] `vybor-domennogo-imeni-kakoj-variant-luchshe-com-ru-ili-rf` — Выбор доменного имени. Какой вариант лучше: com, ru или рф    
-  ID `58000` · 2020-09-03 · ~9k · Интернет-маркетинг
-- [ ] `upravlyaem-kontentom-zachem-nuzhna-adminka-sayta` — Управляем контентом: зачем нужна админка сайта    
-  ID `58067` · 2020-09-01 · ~5k · Интернет-маркетинг
-- [ ] `chto-takoe-bezankoraya-ssyilka-otlichie-ot-ankora-primeryi-sostavleniya-dlya-prodvizheniya-sayta` — Что такое безанкорая ссылка? Отличие от анкора, примеры составления для продвижения сайта    
-  ID `57793` · 2020-08-10 · ~3k · Интернет-маркетинг
-- [ ] `neskolko-poleznyih-funktsiy-v-google-tablitsah` — Несколько полезных функций в Google таблицах    
-  ID `57668` · 2020-08-06 · ~10k · Интернет-маркетинг
-- [ ] `oshibka-500-chto-eto-takoe-kak-eyo-najti-i-kak-s-nej-spravitsya` — Ошибка 500: что это такое, как её найти и как с ней справиться    
-  ID `57416` · 2020-07-21 · ~4k · Интернет-маркетинг
-- [ ] `skript-sajta-chto-eto` — Скрипт сайта – что это?    
-  ID `57347` · 2020-07-16 · ~5k · Интернет-маркетинг
-- [ ] `kak-pavilno-pozdravit-klienta-s-dnem-rojdeniya` — Как правильно поздравить клиента с Днем Рождения    
-  ID `57100` · 2020-06-29 · ~10k · Интернет-маркетинг
-- [ ] `nastrojka_skvoznoj_analitiki_google_data_studio_instrukciya_i_otchet` — Настройка сквозной аналитики Google Data Studio    
-  ID `56594` · 2020-05-13 · ~23k · Интернет-маркетинг
-- [ ] `pochemu-vasha-nativnaya-reklama-ne-rabotayet` — Почему ваша нативная реклама не работает?    
-  ID `56088` · 2020-03-18 · ~14k · Интернет-маркетинг
-- [ ] `vidyi-besplatnoy-reklamyi-v-internet` — Виды бесплатной рекламы в интернет    
-  ID `55952` · 2020-03-16 · ~20k · Интернет-маркетинг
-- [ ] `chto-takoe-infopovod` — Что такое инфоповод?    
-  ID `55904` · 2020-03-12 · ~20k · Интернет-маркетинг
-- [ ] `printsipyi-sozdaniya-effektivnogo-reklamnogo-bannera` — Принципы создания эффективного рекламного баннера    
-  ID `55522` · 2020-02-28 · ~18k · Интернет-маркетинг
-- [ ] `celevaya-auditoriya-kak-opredelit` — Целевая аудитория: как определить    
-  ID `55488` · 2020-02-27 · ~24k · Интернет-маркетинг
-- [ ] `antitrendi-v-marketinge-kotorie-davno-v-proshlom` — Антитренды в маркетинге, которые давно в прошлом    
-  ID `55373` · 2020-02-10 · ~19k · Интернет-маркетинг
-- [ ] `utp-chto-eto-i-kak-sostavit` — УТП - что это и как составить    
-  ID `55102` · 2020-02-03 · ~24k · Интернет-маркетинг
-- [ ] `kak-primenit-lestnitsu-uznavaemosti-hanta` — Как применить лестницу узнаваемости Ханта    
-  ID `54930` · 2020-01-24 · ~5k · Интернет-маркетинг
-- [ ] `povyishenie-prodazh-s-pomoshhyu-tochek-kontakta-s-pokupatelem` — Повышение продаж с помощью точек контакта с покупателем    
-  ID `54815` · 2020-01-22 · ~23k · Интернет-маркетинг
-- [ ] `sarafannoe-radio-v-internet-marketinge` — Сарафанное радио в интернет маркетинге    
-  ID `54698` · 2020-01-17 · ~14k · Интернет-маркетинг
-- [ ] `effektivnyiy-kviz-sayt` — Эффективный квиз сайт    
-  ID `54462` · 2020-01-14 · ~13k · Интернет-маркетинг
-- [ ] `http-zagolovki-chto-eto-i-kak-ispolzovat` — HTTP заголовки - что это и как использовать    
-  ID `54384` · 2020-01-13 · ~14k · Интернет-маркетинг
-- [ ] `kak-nastroit-retargeting-v-instagram-i-facebook` — Как настроить ретаргетинг в Instagram и Facebook    
-  ID `54388` · 2020-01-13 · ~13k · Интернет-маркетинг
-- [ ] `sovetyi-po-sozdaniyu-interaktivnogo-kontenta` — Советы по созданию интерактивного контента    
-  ID `54201` · 2019-12-26 · ~11k · Интернет-маркетинг
-- [ ] `osnovnyie-istochniki-trafika-na-sayt` — Основные источники трафика на сайт    
-  ID `54190` · 2019-12-26 · ~16k · Интернет-маркетинг
-- [ ] `vidyi-virusnogo-marketinga-v-seti` — Виды вирусного маркетинга в сети    
-  ID `54171` · 2019-12-25 · ~11k · Интернет-маркетинг
-- [ ] `chto-takoe-assotsiirovannyie-konversii` — Что такое ассоциированные конверсии    
-  ID `54148` · 2019-12-25 · ~16k · Интернет-маркетинг
-- [ ] `internet-magazin-sposobyi-uvelichit-sredniy-chek` — Интернет магазин: способы увеличить средний чек    
-  ID `53961` · 2019-12-21 · ~9k · Интернет-маркетинг
-- [ ] `gde-i-kak-zatsepit-tselevuyu-auditoriyu` — Где и как зацепить целевую аудиторию    
-  ID `53736` · 2019-12-17 · ~9k · Интернет-маркетинг
-- [ ] `vliyanie-reytinga-i-otzyivov-na-prodazhi-i-seo` — Влияние рейтинга и отзывов на продажи и SEO    
-  ID `53719` · 2019-12-17 · ~9k · Интернет-маркетинг
-- [ ] `20-sposobov-uvelichit-prodazhi-v-internet-magazine` — 20 способов увеличить продажи в интернет-магазине    
-  ID `53621` · 2019-12-16 · ~12k · Интернет-маркетинг
-- [ ] `professiya-it-kto-takoy-linkbilder` — Профессия IT: кто такой линкбилдер    
-  ID `53607` · 2019-12-13 · ~10k · Интернет-маркетинг
-- [ ] `kak-sostavit-tehnicheskoe-zadanie-na-sozdanie-sayta` — Как составить техническое задание на создание сайта    
-  ID `53522` · 2019-12-11 · ~10k · Интернет-маркетинг
-- [ ] `kak-besplatno-nayti-konkurentov-po-klyuchevyim-slovam-i-zachem-eto-nuzhno` — Как бесплатно найти конкурентов по ключевым словам и зачем это нужно    
-  ID `53504` · 2019-12-11 · ~7k · Интернет-маркетинг
-- [ ] `it-professiya-project-manager` — IT профессия: Project Manager    
-  ID `53349` · 2019-12-09 · ~9k · Интернет-маркетинг
-- [ ] `organizatsiya-rabotyi-udalennyih-sotrudnikov` — Организация работы удаленных сотрудников    
-  ID `53343` · 2019-12-09 · ~10k · Интернет-маркетинг
-- [ ] `podrobnaya-instruktsiya-po-rabote-s-aydentikoy-brenda` — Подробная инструкция по работе с айдентикой бренда    
-  ID `53074` · 2019-12-06 · ~24k · Интернет-маркетинг
-- [ ] `kak-otvetit-na-negativnyiy-otzyiv-ob-avtoservise` — Как ответить на негативный отзыв об автосервисе    
-  ID `52846` · 2019-12-04 · ~11k · Интернет-маркетинг
-- [ ] `prodvizhenie-molodogo-sayta` — Продвижение молодого сайта    
-  ID `52802` · 2019-12-03 · ~11k · Интернет-маркетинг
-- [ ] `sms-rassyilka-s-chego-nachat` — Смс-рассылка: с чего начать    
-  ID `52517` · 2019-11-15 · ~10k · Интернет-маркетинг
-- [ ] `problemyi-vnedreniya-skvoznoy-analitiki` — Проблемы внедрения сквозной аналитики    
-  ID `52385` · 2019-11-12 · ~20k · Интернет-маркетинг
-- [ ] `kak-prodvigat-mobilnyie-prilozheniya-i-igryi` — Как продвигать мобильные приложения и игры    
-  ID `52232` · 2019-10-24 · ~12k · Интернет-маркетинг
-- [ ] `kak-oformit-glavnuyu-stranitsu-internet-magazina` — Как оформить главную страницу интернет-магазина    
-  ID `52215` · 2019-10-23 · ~10k · Интернет-маркетинг
-- [ ] `gde-luchshe-razmestit-lending` — Где лучше разместить лендинг?    
-  ID `52195` · 2019-10-21 · ~10k · Интернет-маркетинг
-- [ ] `s-pomoshhyu-kakih-9-sredstv-mozhno-privlech-gostya-sayta-k-napisaniyu-ego-mneniya` — С помощью каких 9 средств можно привлечь гостя сайта к написанию его мнения    
-  ID `52145` · 2019-10-18 · ~10k · Интернет-маркетинг
-- [ ] `prognoz-trafika-sayta` — Прогноз трафика сайта    
-  ID `52117` · 2019-10-17 · ~10k · Интернет-маркетинг
-- [ ] `na-kakie-metriki-smotret-chtobyi-ponimat-chto-vasha-reklama-rabotaet` — На какие метрики смотреть, чтобы понимать, что ваша реклама работает    
-  ID `52086` · 2019-10-15 · ~11k · Интернет-маркетинг
-- [ ] `kak-pravilno-poschitat-konversiyu` — Как правильно посчитать конверсию    
-  ID `52066` · 2019-10-14 · ~12k · Интернет-маркетинг
-- [ ] `chto-takoe-nativnaya-reklama-plyusyi-i-minusyi` — Что такое нативная реклама:плюсы и минусы    
-  ID `52037` · 2019-10-11 · ~11k · Интернет-маркетинг
-- [ ] `kak-organizovat-onlayn-obuchenie-sotrudnikov` — Как организовать онлайн-обучение сотрудников    
-  ID `52012` · 2019-10-10 · ~11k · Интернет-маркетинг
-- [ ] `planirovanie-i-sozdanie-marketingovoy-strategii` — Планирование и создание маркетинговой стратегии    
-  ID `51993` · 2019-10-07 · ~14k · Интернет-маркетинг
-- [ ] `kak-uderzhat-klienta-na-sayte` — Как удержать клиента на сайте    
-  ID `51974` · 2019-10-04 · ~4k · Интернет-маркетинг
-- [ ] `kak-uvelichit-vremya-sessii-na-sayte` — Как увеличить время сессии на сайте    
-  ID `51961` · 2019-10-03 · ~4k · Интернет-маркетинг
-- [ ] `kontent-strategiya-za-odin-den-s-infografikoy` — Контент-стратегия за один день с инфографикой    
-  ID `51912` · 2019-10-01 · ~5k · Интернет-маркетинг
-- [ ] `nuzhen-li-https-nebolshomu-internet-magazinu` — Нужен ли https небольшому интернет-магазину    
-  ID `51846` · 2019-09-25 · ~10k · Интернет-маркетинг
-- [ ] `8-klyuchevyih-tochek-rosta-kotoryie-srabotayut-dlya-lyubogo-sayta` — 8 ключевых точек роста, которые сработают для любого сайта    
-  ID `51778` · 2019-09-20 · ~12k · Интернет-маркетинг
-- [ ] `formyi-zahvata-kak-sdelat-na-sayte` — Формы захвата - как сделать на сайте    
-  ID `51667` · 2019-09-17 · ~19k · Интернет-маркетинг
-- [ ] `giperlokalnyiy-targeting-dlya-biznesa` — Гиперлокальный таргетинг для бизнеса    
-  ID `51656` · 2019-09-16 · ~16k · Интернет-маркетинг
-- [ ] `kak-sdelat-mikrorazmetku-teoriya-i-praktika` — Как сделать микроразметку - теория и практика    
-  ID `51563` · 2019-09-11 · ~25k · Интернет-маркетинг
-- [ ] `kak-proverit-poseshhaemost-chuzhogo-sayta` — Как проверить посещаемость чужого сайта    
-  ID `51489` · 2019-09-09 · ~10k · Интернет-маркетинг
-- [ ] `5-rekomendatsiy-dlya-omnikanalnogo-kontent-marketinga` — 5 рекомендаций для омниканального контент-маркетинга    
-  ID `51450` · 2019-09-06 · ~17k · Интернет-маркетинг
-- [ ] `sekretyi-remarketingovyih-kampaniy-dlya-uluchsheniya-rezultata` — Секреты ремаркетинговых кампаний для улучшения результата    
-  ID `51428` · 2019-09-05 · ~9k · Интернет-маркетинг
-- [ ] `8-instrumentov-prodvizheniya-dlya-offlayn-biznesa` — 8 инструментов продвижения для оффлайн-бизнеса    
-  ID `51319` · 2019-08-29 · ~19k · Интернет-маркетинг
-- [ ] `kak-i-zachem-uchastvovat-v-tenderah` — Как и зачем участвовать в тендерах    
-  ID `51251` · 2019-08-22 · ~13k · Интернет-маркетинг
-- [ ] `printsipyi-korporativnogo-obucheniya-i-motivatsii-personala` — Принципы корпоративного обучения и мотивации персонала    
-  ID `51120` · 2019-08-16 · ~14k · Интернет-маркетинг
-- [ ] `zachem-kompaniyam-sozdavat-svoy-blog` — Зачем компаниям создавать свой блог    
-  ID `51030` · 2019-08-14 · ~18k · Интернет-маркетинг
-- [ ] `kak-pravilno-predostavit-otchet-effektivnosti-reklamyi` — Как правильно предоставить отчет эффективности рекламы    
-  ID `50885` · 2019-08-06 · ~11k · Интернет-маркетинг
-- [ ] `kak-razvivaetsya-performance-marketing` — Как развивается performance-маркетинг    
-  ID `50821` · 2019-08-05 · ~17k · Интернет-маркетинг
-- [ ] `faktoryi-uspeshnogo-prodvizheniya-internet-magazina` — Факторы успешного продвижения интернет магазина    
-  ID `50834` · 2019-08-02 · ~7k · Интернет-маркетинг
-- [ ] `chto-takoe-avtomatizirovannaya-voronka-prodazh` — Что такое автоматизированная воронка продаж    
-  ID `50776` · 2019-08-01 · ~19k · Интернет-маркетинг
-- [ ] `kak-nayti-marketologa` — Как найти маркетолога?    
-  ID `50679` · 2019-07-29 · ~9k · Интернет-маркетинг
-- [ ] `kak-zashhitit-sayt-ot-parsinga` — Как защитить сайт от парсинга    
-  ID `50543` · 2019-07-22 · ~16k · Интернет-маркетинг
-- [ ] `kak-popast-v-blok-byistryih-otvetov-google` — Как попасть в блок быстрых ответов Google?    
-  ID `50503` · 2019-07-19 · ~18k · Интернет-маркетинг
-- [ ] `kak-iskat-potrebitelskie-insaytyi-13-sposobov` — Как искать потребительские инсайты: 13 способов    
-  ID `50350` · 2019-07-11 · ~14k · Интернет-маркетинг
-- [ ] `kak-prognozirovat-trafik-poiskovyih-kampaniy-v-google-ads` — Как прогнозировать трафик поисковых кампаний в Google Ads    
-  ID `50307` · 2019-07-10 · ~20k · Интернет-маркетинг
-- [ ] `kak-provesti-audit-reklamnoy-kampanii` — Как провести аудит рекламной кампании    
-  ID `50263` · 2019-07-08 · ~10k · Интернет-маркетинг
-- [ ] `vrednyie-sovetyi-dlya-rukovoditeley` — Вредные советы для руководителей    
-  ID `50132` · 2019-07-01 · ~11k · Интернет-маркетинг
-- [ ] `zachem-nuzhnyi-promoaktsii` — Зачем нужны промоакции    
-  ID `50055` · 2019-06-28 · ~16k · Интернет-маркетинг
-- [ ] `oshibki-na-lendingah-kotorye-otpugivayut-posetiteley` — Ошибки на лендингах, которые отпугивают посетителей    
-  ID `49789` · 2019-06-13 · ~10k · Интернет-маркетинг
-- [ ] `sozdanie-pravilnoy-kartochki-tovara-na-sayte` — Создание правильной карточки товара на сайте    
-  ID `49635` · 2019-06-10 · ~12k · Интернет-маркетинг
-- [ ] `kak-izbezhat-professionalnogo-vyigoraniya-u-sotrudnikov` — Как избежать профессионального выгорания у сотрудников    
-  ID `49613` · 2019-06-07 · ~9k · Интернет-маркетинг
-- [ ] `kak-sostavit-kpi-dlya-menedzhera-po-prodazham` — Как составить KPI для менеджера по продажам    
-  ID `49541` · 2019-06-04 · ~15k · Интернет-маркетинг
-- [ ] `golosovoy-poisk-strategii-dlya-uvelicheniya-pribyili` — Голосовой поиск: Стратегии для увеличения прибыли    
-  ID `49475` · 2019-05-30 · ~16k · Интернет-маркетинг
-- [ ] `kto-takoy-akkaunt-menedzher-i-chem-on-zanimaetsya` — Кто такой аккаунт-менеджер и чем он занимается?    
-  ID `49452` · 2019-05-30 · ~8k · Интернет-маркетинг
-- [ ] `7-oshibok-v-optimizatsii-internet-magazinov` — 7 ошибок в оптимизации интернет-магазинов    
-  ID `49232` · 2019-05-16 · ~24k · Интернет-маркетинг
-- [ ] `kak-ocenit-ehffektivnost-videoreklamy` — Как оценить эффективность видеорекламы    
-  ID `49180` · 2019-05-06 · ~18k · Интернет-маркетинг
-- [ ] `internet-magazin-pochemu-pokupateli-brosayut-korzinu` — Интернет-магазин: почему покупатели бросают корзину    
-  ID `49046` · 2019-04-19 · ~18k · Интернет-маркетинг
-- [ ] `kak-sostavit-effektivnoe-kommercheskoe-predlozhenie` — Как составить эффективное коммерческое предложение    
-  ID `48732` · 2019-03-26 · ~10k · Интернет-маркетинг
-- [ ] `trafik-est-lidov-net-pochemu-tak` — Трафик есть, лидов нет. Почему так?    
-  ID `48680` · 2019-03-25 · ~15k · Интернет-маркетинг
-- [ ] `elektronnaya-kniga-dlya-tselevoy-auditorii-kak-sdelat-byistro-bez-dizaynera` — Электронная книга для целевой аудитории: как сделать быстро, без дизайнера    
-  ID `48426` · 2019-03-07 · ~20k · Интернет-маркетинг
-- [ ] `roas-rentabelnost-zatrat-na-reklamu` — ROAS: рентабельность затрат на рекламу    
-  ID `48389` · 2019-03-04 · ~12k · Интернет-маркетинг
-- [ ] `priznaki-ustarevshego-sayta` — Признаки устаревшего сайта    
-  ID `48249` · 2019-02-25 · ~20k · Интернет-маркетинг
-- [ ] `6-kognitivnyih-iskazheniy-kotoryie-vliyayut-na-vyibor-pokupatelya` — 6 когнитивных искажений, которые влияют на выбор покупателя    
-  ID `47608` · 2019-01-30 · ~16k · Интернет-маркетинг
-- [ ] `skvoznaya-analitika-v-pomoshh-biznesu` — Сквозная аналитика в помощь бизнесу    
-  ID `47485` · 2019-01-28 · ~17k · Интернет-маркетинг
-- [ ] `chto-takoe-i-dlya-chego-nuzhen-brendbuk` — Что такое и для чего нужен брендбук?    
-  ID `47359` · 2019-01-17 · ~10k · Интернет-маркетинг
-- [ ] `kak-struktura-sayta-vliyaet-na-prodvizhenie` — Как структура сайта влияет на продвижение    
-  ID `46509` · 2018-11-21 · ~9k · Интернет-маркетинг
-- [ ] `nuzhen-li-vam-monitoring-pozitsiy-sayta-v-vyidache` — Нужен ли вам мониторинг позиций сайта в выдаче?    
-  ID `46242` · 2018-10-30 · ~13k · Интернет-маркетинг
-- [ ] `50-elementov-bez-kotoryih-vash-sayt-obrechyon-na-proval` — 50 элементов, без которых ваш сайт обречён на провал    
-  ID `45640` · 2018-09-24 · ~18k · Интернет-маркетинг
-- [ ] `polzovatelskiy-intent-chto-takoe-i-kak-s-nim-rabotat` — Пользовательский интент: что такое и как с ним работать    
-  ID `45316` · 2018-09-04 · ~13k · Интернет-маркетинг
-- [ ] `18-oshibok-v-yuzabiliti-internet-magazinov` — 18 ошибок в юзабилити интернет-магазинов    
-  ID `45291` · 2018-08-31 · ~23k · Интернет-маркетинг
-- [ ] `kak-sotrudniki-google-otsenivayut-saytyi` — Как сотрудники Google оценивают сайты    
-  ID `45175` · 2018-08-27 · ~20k · Интернет-маркетинг
-- [ ] `10-faktorov-dlya-uluchsheniya-povedencheskih-faktorov` — 10 факторов для улучшения поведенческих факторов    
-  ID `45152` · 2018-08-23 · ~19k · Интернет-маркетинг
-- [ ] `10-oshibok-pri-vedenii-reklamnoy-kampanii` — 10 ошибок при ведении рекламной кампании    
-  ID `44774` · 2018-08-06 · ~19k · Интернет-маркетинг
-- [ ] `19-veshhey-kotoryie-nuzhno-proverit-pered-zapuskom-sayta` — 19 вещей, которые нужно проверить перед запуском сайта    
-  ID `44492` · 2018-07-20 · ~30k · Интернет-маркетинг
-- [ ] `11-tipov-problemnyih-klientov-i-kak-s-nimi-vzaimodeystvovat` — 11 типов проблемных клиентов и как с ними взаимодействовать    
-  ID `44469` · 2018-07-19 · ~14k · Интернет-маркетинг
-- [ ] `10-punktov-kotoryie-nelzya-ignorirovat-pri-sozdanii-internet-magazina` — 10 пунктов, которые нельзя игнорировать при создании интернет-магазина    
-  ID `44101` · 2018-07-12 · ~13k · Интернет-маркетинг
-- [ ] `pravilnaya-struktura-lendinga` — Правильная структура лендинга    
-  ID `43554` · 2018-06-07 · ~8k · Интернет-маркетинг
-- [ ] `20-deystvennyih-sposobov-po-uvelicheniyu-prodazh-na-vashem-sayte` — 20 действенных способов по увеличению продаж на вашем сайте    
-  ID `43481` · 2018-06-05 · ~18k · Интернет-маркетинг
-- [ ] `12-samyih-populyarnyih-tendentsiy-veb-dizayna-2018` — 12 самых популярных тенденций веб-дизайна 2018    
-  ID `43427` · 2018-05-29 · ~16k · Интернет-маркетинг
-- [ ] `vyibor-tsvetovoy-shemyi-dlya-internet-magazina` — Выбор цветовой схемы для интернет-магазина    
-  ID `43023` · 2018-05-16 · ~12k · Интернет-маркетинг
-- [ ] `chto-takoe-favikon-i-dlya-chego-on-nuzhen` — Что такое фавикон и для чего он нужен?    
-  ID `42981` · 2018-05-10 · ~10k · Интернет-маркетинг
-- [ ] `effektivnoe-vovlechenie-polzovateley-za-5-shagov` — Эффективное вовлечение пользователей за 5 шагов    
-  ID `42937` · 2018-05-07 · ~8k · Интернет-маркетинг
-- [ ] `kak-uvelichit-poseshhaemost-sayta` — Как увеличить посещаемость сайта    
-  ID `42545` · 2018-04-10 · ~9k · Интернет-маркетинг
-- [ ] `chto-takoe-serm-kogda-on-neobhodim-i-kak-ispolzovat` — Что такое SERM. Когда он необходим и как использовать    
-  ID `42245` · 2018-03-21 · ~11k · Интернет-маркетинг
-- [ ] `performance-marketing-chto-eto-takoe-ego-tseli-i-instrumentyi` — Performance маркетинг: что это такое, его цели и инструменты    
-  ID `42106` · 2018-03-07 · ~12k · Интернет-маркетинг
-- [ ] `kraud-marketing-chto-eto-takoe-kak-pravilno-ispolzovat-vliyanie-na-seo` — Крауд-маркетинг: что это такое, как правильно использовать. Влияние на SEO    
-  ID `42089` · 2018-03-06 · ~10k · Интернет-маркетинг
-- [ ] `chto-takoe-saytyi-affiliatyi-kak-izbezhat-nalozhenie-affiliat-filtra-i-proverit-ego-nalichie` — Что такое сайты-аффилиаты, как избежать наложения аффилиат-фильтра и проверить его наличие    
-  ID `41828` · 2018-01-24 · ~10k · Интернет-маркетинг
-- [ ] `povedencheskie-faktoryi-chto-eto-takoe-kakie-byivayut-i-sovetyi-po-ih-uluchsheniyu` — Поведенческие факторы. Что это такое, какие бывают и советы по их улучшению    
-  ID `41817` · 2018-01-22 · ~7k · Интернет-маркетинг
+- [x] `veb-prilozhenie-funkcii-i-zadachi` — Веб-приложение: функции и задачи    
+  ID `58312` · 2020-09-22 · ~11k · Интернет-маркетинг → Astro `/blog/veb-prilozhenie/` · **новый формат**
+- [x] `veb-servisy-chto-eto-takoe-osobennosti-arhitektura-celi` — Веб-сервисы. Что это такое, особенности, архитектура, цели    
+  ID `58144` · 2020-09-08 · ~4k · Интернет-маркетинг → Astro `/blog/veb-servisy/` · **новый формат** (REST/API; без культа UDDI)
+- [x] `vybor-domennogo-imeni-kakoj-variant-luchshe-com-ru-ili-rf` — Выбор доменного имени. Какой вариант лучше: com, ru или рф    
+  ID `58000` · 2020-09-03 · ~9k · Интернет-маркетинг · **dup** → `/blog/domen-pervogo-urovnya/` (зоны; детали `.рф` — `/blog/domen-rf/`)
+- [x] `upravlyaem-kontentom-zachem-nuzhna-adminka-sayta` — Управляем контентом: зачем нужна админка сайта    
+  ID `58067` · 2020-09-01 · ~5k · Интернет-маркетинг → Astro `/blog/adminka-sayta/` · **новый формат**
+- [x] `chto-takoe-bezankoraya-ssyilka-otlichie-ot-ankora-primeryi-sostavleniya-dlya-prodvizheniya-sayta` — Что такое безанкорая ссылка? Отличие от анкора, примеры составления для продвижения сайта    
+  ID `57793` · 2020-08-10 · ~3k · Интернет-маркетинг · **dup** → `/blog/chto-takoe-ssylka/` (анкор/безанкор; соседний WP уже на тот же канон)
+- [x] `neskolko-poleznyih-funktsiy-v-google-tablitsah` — Несколько полезных функций в Google таблицах    
+  ID `57668` · 2020-08-06 · ~10k · Интернет-маркетинг · **dup** → `/blog/excel-google-tablitsy/`
+- [x] `oshibka-500-chto-eto-takoe-kak-eyo-najti-i-kak-s-nej-spravitsya` — Ошибка 500: что это такое, как её найти и как с ней справиться    
+  ID `57416` · 2020-07-21 · ~4k · Интернет-маркетинг → Astro `/blog/oshibka-500/` · **новый формат** (рядом с `/blog/oshibka-502/`)
+- [x] `skript-sajta-chto-eto` — Скрипт сайта – что это?    
+  ID `57347` · 2020-07-16 · ~5k · Интернет-маркетинг → Astro `/blog/skript-sayta/` · **новый формат** (вставка сниппетов — `/blog/vstavka-javascript/`)
+- [x] `kak-pavilno-pozdravit-klienta-s-dnem-rojdeniya` — Как правильно поздравить клиента с Днем Рождения    
+  ID `57100` · 2020-06-29 · ~10k · Интернет-маркетинг → Astro `/blog/pozdravlenie-klienta/` · **новый формат**
+- [x] `nastrojka_skvoznoj_analitiki_google_data_studio_instrukciya_i_otchet` — Настройка сквозной аналитики Google Data Studio    
+  ID `56594` · 2020-05-13 · ~23k · Интернет-маркетинг → Astro `/blog/looker-studio/` · **новый формат** (Data Studio → Looker Studio; дашборд — `/blog/dashboard/`)
+- [x] `pochemu-vasha-nativnaya-reklama-ne-rabotayet` — Почему ваша нативная реклама не работает?    
+  ID `56088` · 2020-03-18 · ~14k · Интернет-маркетинг → Astro `/blog/nativnaya-reklama/` · **новый формат** (сосед `chto-takoe-nativnaya-reklama-…` — сверить при переносе)
+- [x] `vidyi-besplatnoy-reklamyi-v-internet` — Виды бесплатной рекламы в интернет    
+  ID `55952` · 2020-03-16 · ~20k · Интернет-маркетинг → Astro `/blog/besplatnaya-reklama/` · **новый формат** (без гайдов по массфолловингу/спаму; гостевые — `/blog/besplatnoe-razmeshchenie-statey/`)
+- [x] `chto-takoe-infopovod` — Что такое инфоповод?    
+  ID `55904` · 2020-03-12 · ~20k · Интернет-маркетинг → Astro `/blog/infopovod/` · **новый формат**
+- [x] `printsipyi-sozdaniya-effektivnogo-reklamnogo-bannera` — Принципы создания эффективного рекламного баннера    
+  ID `55522` · 2020-02-28 · ~18k · Интернет-маркетинг → Astro `/blog/reklamnyy-banner/` · **новый формат** (размеры — `/blog/razmery-bannera/`)
+- [x] `celevaya-auditoriya-kak-opredelit` — Целевая аудитория: как определить    
+  ID `55488` · 2020-02-27 · ~24k · Интернет-маркетинг · **dup** → `/blog/tselevaya-auditoriya/` (канон уже в новом формате; сосед WP `kak-viyavit-tselevuyu-auditoriyu`)
+- [x] `antitrendi-v-marketinge-kotorie-davno-v-proshlom` — Антитренды в маркетинге, которые давно в прошлом    
+  ID `55373` · 2020-02-10 · ~19k · Интернет-маркетинг → Astro `/blog/antitrendy-marketinga/` · **новый формат**
+- [x] `utp-chto-eto-i-kak-sostavit` — УТП - что это и как составить    
+  ID `55102` · 2020-02-03 · ~24k · Интернет-маркетинг → Astro `/blog/utp/` · **новый формат**
+- [x] `kak-primenit-lestnitsu-uznavaemosti-hanta` — Как применить лестницу узнаваемости Ханта    
+  ID `54930` · 2020-01-24 · ~5k · Интернет-маркетинг → Astro `/blog/lestnitsa-hanta/` · **новый формат** (уровни awareness / Шварц)
+- [x] `povyishenie-prodazh-s-pomoshhyu-tochek-kontakta-s-pokupatelem` — Повышение продаж с помощью точек контакта с покупателем    
+  ID `54815` · 2020-01-22 · ~23k · Интернет-маркетинг → Astro `/blog/tochki-kontakta/` · **новый формат** (не путать с `/blog/tochki-vhoda/`)
+- [x] `sarafannoe-radio-v-internet-marketinge` — Сарафанное радио в интернет маркетинге    
+  ID `54698` · 2020-01-17 · ~14k · Интернет-маркетинг → Astro `/blog/sarafannoe-radio/` · **новый формат**
+- [x] `effektivnyiy-kviz-sayt` — Эффективный квиз сайт    
+  ID `54462` · 2020-01-14 · ~13k · Интернет-маркетинг → Astro `/blog/kviz-sayt/` · **новый формат** (сосед `vse_chto_neobhodimo_znat_o_kviz_marketinge` — сверить при переносе)
+- [x] `http-zagolovki-chto-eto-i-kak-ispolzovat` — HTTP заголовки - что это и как использовать    
+  ID `54384` · 2020-01-13 · ~14k · Интернет-маркетинг → Astro `/blog/http-zagolovki/` · **новый формат** (протокол — `/blog/protokol-http/`)
+- [x] `kak-nastroit-retargeting-v-instagram-i-facebook` — Как настроить ретаргетинг в Instagram и Facebook
+  ID `54388` · 2020-01-13 · ~13k · Интернет-маркетинг → Astro `/blog/retargeting-meta/` · **новый формат** (типы аудиторий; без UI Ads Manager; рядом `/blog/retargeting/`; Meta legalNotice)
+- [x] `sovetyi-po-sozdaniyu-interaktivnogo-kontenta` — Советы по созданию интерактивного контента
+  ID `54201` · 2019-12-26 · ~11k · Интернет-маркетинг → Astro `/blog/interaktivnyy-kontent/` · **новый формат** (рядом `/blog/kviz-sayt/`)
+- [x] `osnovnyie-istochniki-trafika-na-sayt` — Основные источники трафика на сайт
+  ID `54190` · 2019-12-26 · ~16k · Интернет-маркетинг → Astro `/blog/istochniki-trafika/` · **новый формат** (органика: подготовка ≠ ТОП 2–6 мес.)
+- [x] `vidyi-virusnogo-marketinga-v-seti` — Виды вирусного маркетинга в сети
+  ID `54171` · 2019-12-25 · ~11k · Интернет-маркетинг → Astro `/blog/virusnyy-marketing/` · **новый формат** (рядом `/blog/viralnyy-kontent/`; без накрутки просмотров)
+- [x] `chto-takoe-assotsiirovannyie-konversii` — Что такое ассоциированные конверсии
+  ID `54148` · 2019-12-25 · ~16k · Интернет-маркетинг → Astro `/blog/assotsiirovannye-konversii/` · **новый формат** (без устаревшего UI UA; атрибуция по смыслу)
+- [x] `internet-magazin-sposobyi-uvelichit-sredniy-chek` — Интернет магазин: способы увеличить средний чек
+  ID `53961` · 2019-12-21 · ~9k · Интернет-маркетинг → Astro `/blog/sredniy-chek/` · **новый формат**
+- [x] `gde-i-kak-zatsepit-tselevuyu-auditoriyu` — Где и как зацепить целевую аудиторию
+  ID `53736` · 2019-12-17 · ~9k · Интернет-маркетинг → Astro `/blog/sem-kasaniy/` · **новый формат** (не дубль `/blog/tselevaya-auditoriya/` — тут цепочка касаний)
+- [x] `vliyanie-reytinga-i-otzyivov-na-prodazhi-i-seo` — Влияние рейтинга и отзывов на продажи и SEO
+  ID `53719` · 2019-12-17 · ~9k · Интернет-маркетинг · **dup** → `/blog/otzyvy-dlya-prodazh/` (рейтинг, сбор, SEO/карты — в каноне)
+- [x] `20-sposobov-uvelichit-prodazhi-v-internet-magazine` — 20 способов увеличить продажи в интернет-магазине
+  ID `53621` · 2019-12-16 · ~12k · Интернет-маркетинг → Astro `/blog/prodazhi-internet-magazin/` · **новый формат** (рядом AOV/CRO; без «включите 20 сразу»)
+- [x] `professiya-it-kto-takoy-linkbilder` — Профессия IT: кто такой линкбилдер
+  ID `53607` · 2019-12-13 · ~10k · Интернет-маркетинг → Astro `/blog/linkbilder/` · **новый формат** (рядом `/blog/autrich/`, `/blog/pokupka-ssylok/`; без промо курсов и пакетного спама)
+- [x] `kak-sostavit-tehnicheskoe-zadanie-na-sozdanie-sayta` — Как составить техническое задание на создание сайта
+  ID `53522` · 2019-12-11 · ~10k · Интернет-маркетинг → Astro `/blog/tz-na-sayt/` · **новый формат**
+- [x] `kak-besplatno-nayti-konkurentov-po-klyuchevyim-slovam-i-zachem-eto-nuzhno` — Как бесплатно найти конкурентов по ключевым словам и зачем это нужно
+  ID `53504` · 2019-12-11 · ~7k · Интернет-маркетинг · **dup** → `/blog/analiz-konkurentov/` (поиск конкурентов по семантике/видимости — в каноне; без культа одного сервиса)
+- [x] `it-professiya-project-manager` — IT профессия: Project Manager
+  ID `53349` · 2019-12-09 · ~9k · Интернет-маркетинг → Astro `/blog/project-manager/` · **новый формат**
+- [x] `organizatsiya-rabotyi-udalennyih-sotrudnikov` — Организация работы удаленных сотрудников
+  ID `53343` · 2019-12-09 · ~10k · Интернет-маркетинг → Astro `/blog/udalennaya-rabota/` · **новый формат**
+- [x] `podrobnaya-instruktsiya-po-rabote-s-aydentikoy-brenda` — Подробная инструкция по работе с айдентикой бренда
+  ID `53074` · 2019-12-06 · ~24k · Интернет-маркетинг → Astro `/blog/aydentika-brenda/` · **новый формат** (рядом `/blog/prodvizhenie-brenda/`)
+- [x] `kak-otvetit-na-negativnyiy-otzyiv-ob-avtoservise` — Как ответить на негативный отзыв об автосервисе
+  ID `52846` · 2019-12-04 · ~11k · Интернет-маркетинг → Astro `/blog/negativnyy-otzyv/` · **новый формат** (рядом `/blog/otzyvy-dlya-prodazh/`)
+- [x] `prodvizhenie-molodogo-sayta` — Продвижение молодого сайта
+  ID `52802` · 2019-12-03 · ~11k · Интернет-маркетинг · **dup** → `/blog/molodoy-sayt/` (молодой сайт / старт SEO — в каноне; WP — устаревший listicle «10 инструментов»)
+- [x] `sms-rassyilka-s-chego-nachat` — Смс-рассылка: с чего начать
+  ID `52517` · 2019-11-15 · ~10k · Интернет-маркетинг → Astro `/blog/sms-rassylka/` · **новый формат** (согласие/своя база; без холодного спама)
+- [x] `problemyi-vnedreniya-skvoznoy-analitiki` — Проблемы внедрения сквозной аналитики
+  ID `52385` · 2019-11-12 · ~20k · Интернет-маркетинг → Astro `/blog/skvoznaya-analitika/` · **новый формат** (витрина — `/blog/looker-studio/`; ROMI — `/blog/roi-marketinga/`)
+- [x] `kak-prodvigat-mobilnyie-prilozheniya-i-igryi` — Как продвигать мобильные приложения и игры
+  ID `52232` · 2019-10-24 · ~12k · Интернет-маркетинг → Astro `/blog/prodvizhenie-prilozheniy/` · **новый формат** (рядом `/blog/mobilnaya-reklama-google/`, `/blog/diplinking/`)
+- [x] `kak-oformit-glavnuyu-stranitsu-internet-magazina` — Как оформить главную страницу интернет-магазина
+  ID `52215` · 2019-10-23 · ~10k · Интернет-маркетинг → Astro `/blog/glavnaya-internet-magazina/` · **новый формат** (рядом `/blog/start-internet-magazina/`, `/blog/futer-sayta/`)
+- [x] `gde-luchshe-razmestit-lending` — Где лучше разместить лендинг?
+  ID `52195` · 2019-10-21 · ~10k · Интернет-маркетинг → Astro `/blog/razmeshchenie-lendinga/` · **новый формат** (блоки/оффер — `/blog/lending/`, `/blog/tekst-lendinga/`)
+- [x] `s-pomoshhyu-kakih-9-sredstv-mozhno-privlech-gostya-sayta-k-napisaniyu-ego-mneniya` — С помощью каких 9 средств можно привлечь гостя сайта к написанию его мнения
+  ID `52145` · 2019-10-18 · ~10k · Интернет-маркетинг · **dup** → `/blog/otzyvy-dlya-prodazh/` (просьба отзыва, QR/SMS, стимулы — в каноне; без listicle «9 способов»)
+- [x] `prognoz-trafika-sayta` — Прогноз трафика сайта
+  ID `52117` · 2019-10-17 · ~10k · Интернет-маркетинг → Astro `/blog/prognoz-trafika/` · **новый формат** (потенциал ≠ срок ТОП 2–6 мес.; Ads-прогноз — отдельный пункт очереди)
+- [x] `na-kakie-metriki-smotret-chtobyi-ponimat-chto-vasha-reklama-rabotaet` — На какие метрики смотреть, чтобы понимать, что ваша реклама работает
+  ID `52086` · 2019-10-15 · ~11k · Интернет-маркетинг → Astro `/blog/metriki-reklamy/` · **новый формат** (ROMI — `/blog/roi-marketinga/`; CR — `/blog/optimizatsiya-konversii/`)
+- [x] `kak-pravilno-poschitat-konversiyu` — Как правильно посчитать конверсию
+  ID `52066` · 2019-10-14 · ~12k · Интернет-маркетинг · **dup** → `/blog/optimizatsiya-konversii/` (формула CR и воронка — в каноне; атрибуция — `/blog/assotsiirovannye-konversii/`)
+- [x] `chto-takoe-nativnaya-reklama-plyusyi-i-minusyi` — Что такое нативная реклама:плюсы и минусы
+  ID `52037` · 2019-10-11 · ~11k · Интернет-маркетинг · **dup** → `/blog/nativnaya-reklama/` (определение, качество, маркировка — в каноне про ошибки нативки)
+- [x] `kak-organizovat-onlayn-obuchenie-sotrudnikov` — Как организовать онлайн-обучение сотрудников
+  ID `52012` · 2019-10-10 · ~11k · Интернет-маркетинг → Astro `/blog/onlayn-obuchenie/` · **новый формат** (рядом `/blog/udalennaya-rabota/`)
+- [x] `planirovanie-i-sozdanie-marketingovoy-strategii` — Планирование и создание маркетинговой стратегии
+  ID `51993` · 2019-10-07 · ~14k · Интернет-маркетинг → Astro `/blog/marketingovaya-strategiya/` · **новый формат** (бренд/SMART — `/blog/prodvizhenie-brenda/`; ROMI — `/blog/roi-marketinga/`; SEO-план — `/blog/strategiya-prodvizheniya/`)
+- [x] `kak-uderzhat-klienta-na-sayte` — Как удержать клиента на сайте
+  ID `51974` · 2019-10-04 · ~4k · Интернет-маркетинг · **dup** → `/blog/otkazy-sayta/` (удержание/отказы — в каноне; сосед `kak-uvelichit-vremya-sessii…` — сверить отдельно)
+- [x] `kak-uvelichit-vremya-sessii-na-sayte` — Как увеличить время сессии на сайте
+  ID `51961` · 2019-10-03 · ~4k · Интернет-маркетинг · **dup** → `/blog/otkazy-sayta/` (короткий пересказ удержания/ПФ; почти дубль `kak-uderzhat-klienta…`)
+- [x] `kontent-strategiya-za-odin-den-s-infografikoy` — Контент-стратегия за один день с инфографикой
+  ID `51912` · 2019-10-01 · ~5k · Интернет-маркетинг · **dup** → `/blog/kontent-plan/` (темы/график/семантика — в каноне; без «стратегии за 1 день» как обещания)
+- [x] `nuzhen-li-https-nebolshomu-internet-magazinu` — Нужен ли https небольшому интернет-магазину
+  ID `51846` · 2019-09-25 · ~10k · Интернет-маркетинг · **dup** → `/blog/ssl-sertifikat/` (HTTPS/SSL и мифы — в каноне; SEO-переезд — `/blog/https-seo/`)
+- [x] `8-klyuchevyih-tochek-rosta-kotoryie-srabotayut-dlya-lyubogo-sayta` — 8 ключевых точек роста, которые сработают для любого сайта
+  ID `51778` · 2019-09-20 · ~12k · Интернет-маркетинг → Astro `/blog/tochki-rosta-sayta/` · **новый формат** (не путать с `/blog/tochki-kontakta/`, `/blog/tochki-vhoda/`; ТОП 2–6 мес.)
+- [x] `formyi-zahvata-kak-sdelat-na-sayte` — Формы захвата - как сделать на сайте
+  ID `51667` · 2019-09-17 · ~19k · Интернет-маркетинг → Astro `/blog/formy-zahvata/` · **новый формат** (базовая ОС — `/blog/forma-obratnoy-svyazi/`)
+- [x] `giperlokalnyiy-targeting-dlya-biznesa` — Гиперлокальный таргетинг для бизнеса
+  ID `51656` · 2019-09-16 · ~16k · Интернет-маркетинг → Astro `/blog/giperlokalnyy-targeting/` · **новый формат** (без культа Wi‑Fi/MAC-радаров; privacy; рядом `/blog/regionalnoe-seo/`)
+- [x] `kak-sdelat-mikrorazmetku-teoriya-i-praktika` — Как сделать микроразметку - теория и практика
+  ID `51563` · 2019-09-11 · ~25k · Интернет-маркетинг · **dup** → `/blog/snippet/` (schema.org / JSON-LD / rich results уже в каноне; OG/Twitter — там же)
+- [x] `kak-proverit-poseshhaemost-chuzhogo-sayta` — Как проверить посещаемость чужого сайта
+  ID `51489` · 2019-09-09 · ~10k · Интернет-маркетинг · **dup** → `/blog/analiz-konkurentov/` (оценки трафика/счётчики — как у `statistika-i-analiz-kak-uznat-poseshhaemost-chuzhogo-sayta`)
+- [x] `5-rekomendatsiy-dlya-omnikanalnogo-kontent-marketinga` — 5 рекомендаций для омниканального контент-маркетинга
+  ID `51450` · 2019-09-06 · ~17k · Интернет-маркетинг → Astro `/blog/omnikanalnyy-kontent-marketing/` · **новый формат** (рядом `/blog/kontent-plan/`, `/blog/tochki-kontakta/`)
+- [x] `sekretyi-remarketingovyih-kampaniy-dlya-uluchsheniya-rezultata` — Секреты ремаркетинговых кампаний для улучшения результата
+  ID `51428` · 2019-09-05 · ~9k · Интернет-маркетинг · **dup** → `/blog/retargeting/` (стандартный/динамический ремаркетинг уже в каноне; праздничные приёмы — `/blog/prazdnichnyy-retargeting/`)
+- [x] `8-instrumentov-prodvizheniya-dlya-offlayn-biznesa` — 8 инструментов продвижения для оффлайн-бизнеса
+  ID `51319` · 2019-08-29 · ~19k · Интернет-маркетинг → Astro `/blog/prodvizhenie-offlayn-biznesa/` · **новый формат** (без культа MAC-радара; рядом `/blog/giperlokalnyy-targeting/`, `/blog/sms-rassylka/`)
+- [x] `kak-i-zachem-uchastvovat-v-tenderah` — Как и зачем участвовать в тендерах
+  ID `51251` · 2019-08-22 · ~13k · Интернет-маркетинг → Astro `/blog/uchastie-v-tenderah/` · **новый формат** (обзор для B2B/агентств; не юрконсультация; красные флаги фиктивных закупок)
+- [x] `printsipyi-korporativnogo-obucheniya-i-motivatsii-personala` — Принципы корпоративного обучения и мотивации персонала
+  ID `51120` · 2019-08-16 · ~14k · Интернет-маркетинг → Astro `/blog/korporativnoe-obuchenie/` · **новый формат** (не dup `/blog/onlayn-obuchenie/` — там формат; здесь система и мотивация)
+- [x] `zachem-kompaniyam-sozdavat-svoy-blog` — Зачем компаниям создавать свой блог
+  ID `51030` · 2019-08-14 · ~18k · Интернет-маркетинг → Astro `/blog/korporativnyy-blog/` · **новый формат** (рядом `/blog/kontent-plan/`, `/blog/analitika-kontent-marketinga/`)
+- [x] `kak-pravilno-predostavit-otchet-effektivnosti-reklamyi` — Как правильно предоставить отчет эффективности рекламы
+  ID `50885` · 2019-08-06 · ~11k · Интернет-маркетинг · **dup** → `/blog/otchet-klientu/` (понятный отчёт клиенту; Data Studio/таблицы — также `/blog/looker-studio/`)
+- [x] `kak-razvivaetsya-performance-marketing` — Как развивается performance-маркетинг
+  ID `50821` · 2019-08-05 · ~17k · Интернет-маркетинг → Astro `/blog/performance-marketing/` · **новый формат** (без устаревших % рынка как факта; WP `42106` «что это» → dup сюда)
+- [x] `faktoryi-uspeshnogo-prodvizheniya-internet-magazina` — Факторы успешного продвижения интернет магазина
+  ID `50834` · 2019-08-02 · ~7k · Интернет-маркетинг · **dup** → `/blog/prodvizhenie-internet-magazina/` (ассортимент, карточки, витрина, коммерческие факторы — в каноне; без псевдо-% ранжирования)
+- [x] `chto-takoe-avtomatizirovannaya-voronka-prodazh` — Что такое автоматизированная воронка продаж
+  ID `50776` · 2019-08-01 · ~19k · Интернет-маркетинг → Astro `/blog/avtovoronka/` · **новый формат** (рядом `/blog/formy-zahvata/`, `/blog/retargeting/`; Instagram-автоворонка WP — сверить позже)
+- [x] `kak-nayti-marketologa` — Как найти маркетолога?
+  ID `50679` · 2019-07-29 · ~9k · Интернет-маркетинг → Astro `/blog/nayti-marketologa/` · **новый формат** (рядом `/blog/didzhital-agentstvo/`; без культа «10 000 часов»)
+- [x] `kak-zashhitit-sayt-ot-parsinga` — Как защитить сайт от парсинга
+  ID `50543` · 2019-07-22 · ~16k · Интернет-маркетинг → Astro `/blog/zashchita-ot-parsinga/` · **новый формат** (не dup `/blog/parsing/` — там суть сбора; здесь защита; без обхода антибота и без PBN-советов)
+- [x] `kak-popast-v-blok-byistryih-otvetov-google` — Как попасть в блок быстрых ответов Google?
+  ID `50503` · 2019-07-19 · ~18k · Интернет-маркетинг → Astro `/blog/bystrye-otvety-google/` · **новый формат** (не dup `/blog/snippet/` — там title/rich results; здесь featured snippet; AI Overviews учтены)
+- [x] `kak-iskat-potrebitelskie-insaytyi-13-sposobov` — Как искать потребительские инсайты: 13 способов
+  ID `50350` · 2019-07-11 · ~14k · Интернет-маркетинг → Astro `/blog/potrebitelskiy-insayt/` · **новый формат** (позже WP `insayt-kak-marketingovyiy-instrument` — сверить на dup)
+- [x] `kak-prognozirovat-trafik-poiskovyih-kampaniy-v-google-ads` — Как прогнозировать трафик поисковых кампаний в Google Ads
+  ID `50307` · 2019-07-10 · ~20k · Интернет-маркетинг → Astro `/blog/prognoz-trafika-google-ads/` · **новый формат** (не dup `/blog/prognoz-trafika/` — там SEO; здесь Ads/Планировщик)
+- [x] `kak-provesti-audit-reklamnoy-kampanii` — Как провести аудит рекламной кампании
+  ID `50263` · 2019-07-08 · ~10k · Интернет-маркетинг → Astro `/blog/audit-reklamnoy-kampanii/` · **новый формат** (рядом `/blog/metriki-reklamy/`, `/blog/otchet-klientu/`)
+- [x] `vrednyie-sovetyi-dlya-rukovoditeley` — Вредные советы для руководителей
+  ID `50132` · 2019-07-01 · ~11k · Интернет-маркетинг → Astro `/blog/vrednye-sovety-rukovoditelyam/` · **новый формат** (антипаттерны; рядом `/blog/korporativnoe-obuchenie/`)
+- [x] `zachem-nuzhnyi-promoaktsii` — Зачем нужны промоакции
+  ID `50055` · 2019-06-28 · ~16k · Интернет-маркетинг → Astro `/blog/promoaktsii/` · **новый формат** (опросы 2019 — ориентир; Meta legalNotice; без культа вечного дампа)
+- [x] `oshibki-na-lendingah-kotorye-otpugivayut-posetiteley` — Ошибки на лендингах, которые отпугивают посетителей
+  ID `49789` · 2019-06-13 · ~10k · Интернет-маркетинг · **dup** → `/blog/lending/` (ошибки оффера, первого экрана, CTA и доказательств уже в каноне; текст — `/blog/tekst-lendinga/`)
+- [x] `sozdanie-pravilnoy-kartochki-tovara-na-sayte` — Создание правильной карточки товара на сайте
+  ID `49635` · 2019-06-10 · ~12k · Интернет-маркетинг → Astro `/blog/kartochka-tovara/` · **новый формат** (не dup `/blog/opisanie-tovara/` — там текст; здесь структура страницы; позже WP «подробная инструкция» — сверить)
+- [x] `kak-izbezhat-professionalnogo-vyigoraniya-u-sotrudnikov` — Как избежать профессионального выгорания у сотрудников
+  ID `49613` · 2019-06-07 · ~9k · Интернет-маркетинг → Astro `/blog/vygoranie-sotrudnikov/` · **новый формат** (рядом `/blog/vrednye-sovety-rukovoditelyam/`; без культа «медитация вместо плана»)
+- [x] `kak-sostavit-kpi-dlya-menedzhera-po-prodazham` — Как составить KPI для менеджера по продажам
+  ID `49541` · 2019-06-04 · ~15k · Интернет-маркетинг → Astro `/blog/kpi-menedzhera-prodazh/` · **новый формат** (контроль накрутки; рядом `/blog/metriki-reklamy/`)
+- [x] `golosovoy-poisk-strategii-dlya-uvelicheniya-pribyili` — Голосовой поиск: Стратегии для увеличения прибыли
+  ID `49475` · 2019-05-30 · ~16k · Интернет-маркетинг · **dup** → `/blog/golosovoy-poisk/` (локальные карточки, разговорные запросы, мобильность — в каноне; устаревшие % «56% голосом» — не тащим)
+- [x] `kto-takoy-akkaunt-menedzher-i-chem-on-zanimaetsya` — Кто такой аккаунт-менеджер и чем он занимается?
+  ID `49452` · 2019-05-30 · ~8k · Интернет-маркетинг → Astro `/blog/akkaunt-menedzher/` · **новый формат** (не dup `/blog/project-manager/` — PM vs аккаунт; рядом `/blog/otchet-klientu/`)
+- [x] `7-oshibok-v-optimizatsii-internet-magazinov` — 7 ошибок в оптимизации интернет-магазинов
+  ID `49232` · 2019-05-16 · ~24k · Интернет-маркетинг → Astro `/blog/oshibki-internet-magazina/` · **новый формат** (не dup `/blog/prodvizhenie-internet-magazina/` — там общий контур; здесь скрытые UX/фильтры/попапы; сосед `/blog/yuzabiliti-internet-magazina/`)
+- [x] `kak-ocenit-ehffektivnost-videoreklamy` — Как оценить эффективность видеорекламы
+  ID `49180` · 2019-05-06 · ~18k · Интернет-маркетинг → Astro `/blog/effektivnost-videoreklamy/` · **новый формат** (не dup `/blog/videoreklama-youtube/` — там «стоит ли»; здесь медиа/бренд/бизнес-метрики; устаревшие пороги Brand Lift — смягчены)
+- [x] `internet-magazin-pochemu-pokupateli-brosayut-korzinu` — Интернет-магазин: почему покупатели бросают корзину
+  ID `49046` · 2019-04-19 · ~18k · Интернет-маркетинг → Astro `/blog/broshennaya-korzina/` · **новый формат** (не dup `/blog/oshibki-internet-magazina/` — там каталог/фильтры; здесь чекаут; % abandonment смягчены)
+- [x] `kak-sostavit-effektivnoe-kommercheskoe-predlozhenie` — Как составить эффективное коммерческое предложение
+  ID `48732` · 2019-03-26 · ~10k · Интернет-маркетинг → Astro `/blog/kommercheskoe-predlozhenie/` · **новый формат** (не dup `/blog/kommercheskie-faktory/` — SEO-факторы ≠ КП; рядом `/blog/utp/`)
+- [x] `trafik-est-lidov-net-pochemu-tak` — Трафик есть, лидов нет. Почему так?
+  ID `48680` · 2019-03-25 · ~15k · Интернет-маркетинг → Astro `/blog/trafik-bez-lidov/` · **новый формат** (не dup `/blog/optimizatsiya-konversii/` — там CRO в целом; здесь оффер/выгода/CTA; рядом `/blog/utp/`)
+- [x] `elektronnaya-kniga-dlya-tselevoy-auditorii-kak-sdelat-byistro-bez-dizaynera` — Электронная книга для целевой аудитории: как сделать быстро, без дизайнера
+  ID `48426` · 2019-03-07 · ~20k · Интернет-маркетинг → Astro `/blog/elektronnaya-kniga/` · **новый формат** (лид-магнит; без стока; тарифы Canva смягчены; ПДн при сборе контактов)
+- [x] `roas-rentabelnost-zatrat-na-reklamu` — ROAS: рентабельность затрат на рекламу
+  ID `48389` · 2019-03-04 · ~12k · Интернет-маркетинг → Astro `/blog/roas/` · **новый формат** (не dup `/blog/roi-marketinga/` — ROI/ROMI vs ROAS; B2B + сквозная)
+- [x] `priznaki-ustarevshego-sayta` — Признаки устаревшего сайта
+  ID `48249` · 2019-02-25 · ~20k · Интернет-маркетинг → Astro `/blog/ustarevshiy-sayt/` · **новый формат** (не dup `/blog/adaptivnyy-sayt/` — там только мобильность; Flash/скорость/IA; без гарантий ТОП)
+- [x] `6-kognitivnyih-iskazheniy-kotoryie-vliyayut-na-vyibor-pokupatelya` — 6 когнитивных искажений, которые влияют на выбор покупателя
+  ID `47608` · 2019-01-30 · ~16k · Интернет-маркетинг → Astro `/blog/kognitivnye-iskazheniya/` · **новый формат** (этичный фрейм; без культа тёмных паттернов; устаревшие % CTR/охвата смягчены)
+- [x] `skvoznaya-analitika-v-pomoshh-biznesu` — Сквозная аналитика в помощь бизнесу
+  ID `47485` · 2019-01-28 · ~17k · Интернет-маркетинг · **dup** → `/blog/skvoznaya-analitika/` (ROI, каналы, CRM/коллтрекинг, точки роста — в каноне; кейсы OWOX не тащим)
+- [x] `chto-takoe-i-dlya-chego-nuzhen-brendbuk` — Что такое и для чего нужен брендбук?
+  ID `47359` · 2019-01-17 · ~10k · Интернет-маркетинг · **dup** → `/blog/aydentika-brenda/` (брендбук/гайдлайн, разделы, зачем команде и подрядчикам — в каноне; айдентика шире визуала)
+- [x] `kak-struktura-sayta-vliyaet-na-prodvizhenie` — Как структура сайта влияет на продвижение
+  ID `46509` · 2018-11-21 · ~9k · Интернет-маркетинг · **dup** → `/blog/seo-struktura-sayta/` (семантика, уровни, фильтры, UX — в каноне; как соседние WP про структуру)
+- [x] `nuzhen-li-vam-monitoring-pozitsiy-sayta-v-vyidache` — Нужен ли вам мониторинг позиций сайта в выдаче?
+  ID `46242` · 2018-10-30 · ~13k · Интернет-маркетинг → Astro `/blog/monitoring-pozitsiy/` · **новый формат** (позиции ≠ единственный KPI; ТОП 2–6 мес.; без гарантий даты)
+- [x] `50-elementov-bez-kotoryih-vash-sayt-obrechyon-na-proval` — 50 элементов, без которых ваш сайт обречён на провал
+  ID `45640` · 2018-09-24 · ~18k · Интернет-маркетинг → Astro `/blog/cheklist-sayta/` · **новый формат** (приоритеты, не паника «50 или провал»; ПДн/HTTPS; рядом `/blog/ustarevshiy-sayt/`)
+- [x] `polzovatelskiy-intent-chto-takoe-i-kak-s-nim-rabotat` — Пользовательский интент: что такое и как с ним работать
+  ID `45316` · 2018-09-04 · ~13k · Интернет-маркетинг → Astro `/blog/intent-sotsialnye-prodazhi/` · **новый формат** (не dup `/blog/user-intent/` — SEO-запрос ≠ социнтент; Meta-дисклеймер; этика без спама)
+- [x] `18-oshibok-v-yuzabiliti-internet-magazinov` — 18 ошибок в юзабилити интернет-магазинов
+  ID `45291` · 2018-08-31 · ~23k · Интернет-маркетинг → Astro `/blog/yuzabiliti-internet-magazina/` · **новый формат** (не dup `/blog/oshibki-internet-magazina/` — там каталог/фильтры; здесь чекаут/карточка/формы)
+- [x] `kak-sotrudniki-google-otsenivayut-saytyi` — Как сотрудники Google оценивают сайты
+  ID `45175` · 2018-08-27 · ~20k · Интернет-маркетинг → Astro `/blog/google-assessory/` · **новый формат** (QRG/E-E-A-T/YMYL; оценка ≠ прямой ранжирующий клик асессора)
+- [x] `10-faktorov-dlya-uluchsheniya-povedencheskih-faktorov` — 10 факторов для улучшения поведенческих факторов
+  ID `45152` · 2018-08-23 · ~19k · Интернет-маркетинг → Astro `/blog/povedencheskie-faktory/` · **новый формат** (канон ПФ; без накрутки; сосед `povedencheskie-faktoryi-chto-eto…` — сюда; рядом `/blog/nakrutka-pf/`, `/blog/otkazy-sayta/`)
+- [x] `10-oshibok-pri-vedenii-reklamnoy-kampanii` — 10 ошибок при ведении рекламной кампании
+  ID `44774` · 2018-08-06 · ~19k · Интернет-маркетинг → Astro `/blog/oshibki-reklamnoy-kampanii/` · **новый формат** (не dup `/blog/audit-reklamnoy-kampanii/` — там процесс аудита; здесь типовые ошибки ведения)
+- [x] `19-veshhey-kotoryie-nuzhno-proverit-pered-zapuskom-sayta` — 19 вещей, которые нужно проверить перед запуском сайта
+  ID `44492` · 2018-07-20 · ~30k · Интернет-маркетинг → Astro `/blog/pered-zapuskom-sayta/` · **новый формат** (техчеклист релиза; не dup `/blog/cheklist-sayta/` — там бизнес-элементы; AMP смягчён)
+- [x] `11-tipov-problemnyih-klientov-i-kak-s-nimi-vzaimodeystvovat` — 11 типов проблемных клиентов и как с ними взаимодействовать    
+  ID `44469` · 2018-07-19 · ~14k · Интернет-маркетинг → Astro `/blog/problemnye-klienty/` · **новый формат**
+- [x] `10-punktov-kotoryie-nelzya-ignorirovat-pri-sozdanii-internet-magazina` — 10 пунктов, которые нельзя игнорировать при создании интернет-магазина    
+  ID `44101` · 2018-07-12 · ~13k · Интернет-маркетинг → Astro `/blog/sozdanie-internet-magazina/` · **новый формат** (не dup `/blog/start-internet-magazina/` и `/blog/oshibki-internet-magazina/` — там старт/книги и SEO-ловушки каталога; здесь базовый чеклист витрины; устаревшие % мобильного смягчены)
+- [x] `pravilnaya-struktura-lendinga` — Правильная структура лендинга    
+  ID `43554` · 2018-06-07 · ~8k · Интернет-маркетинг · **dup** → `/blog/lending/` (каркас блоков, первый экран, ЦА/УТП, FAQ/возражения, CTA уже в каноне; текст оффера — `/blog/tekst-lendinga/`)
+- [x] `20-deystvennyih-sposobov-po-uvelicheniyu-prodazh-na-vashem-sayte` — 20 действенных способов по увеличению продаж на вашем сайте    
+  ID `43481` · 2018-06-05 · ~18k · Интернет-маркетинг · **dup** → `/blog/prodazhi-internet-magazin/` (тот же контур рычагов, что у канона из `20-sposobov-uvelichit-prodazhi-v-internet-magazine`; Instagram/Facebook в каноне через legalNotice)
+- [x] `12-samyih-populyarnyih-tendentsiy-veb-dizayna-2018` — 12 самых популярных тенденций веб-дизайна 2018    
+  ID `43427` · 2018-05-29 · ~16k · Интернет-маркетинг → Astro `/blog/tendentsii-veb-dizayna/` · **новый формат** (ретроспектива; «обязательный» InVision/анимация смягчены)
+- [x] `vyibor-tsvetovoy-shemyi-dlya-internet-magazina` — Выбор цветовой схемы для интернет-магазина    
+  ID `43023` · 2018-05-16 · ~12k · Интернет-маркетинг → Astro `/blog/tsvet-internet-magazina/` · **новый формат** (не dup `/blog/aydentika-brenda/` — там система бренда; здесь палитра витрины; «85%» и «манипуляции» смягчены)
+- [x] `chto-takoe-favikon-i-dlya-chego-on-nuzhen` — Что такое фавикон и для чего он нужен?    
+  ID `42981` · 2018-05-10 · ~10k · Интернет-маркетинг → Astro `/blog/favikon/` · **новый формат** (современные PNG/SVG; «рост посещаемости от иконки» и чужие галереи смягчены)
+- [x] `effektivnoe-vovlechenie-polzovateley-za-5-shagov` — Эффективное вовлечение пользователей за 5 шагов    
+  ID `42937` · 2018-05-07 · ~8k · Интернет-маркетинг → Astro `/blog/vovlechenie-polzovateley/` · **новый формат** (не dup `/blog/povedencheskie-faktory/` — там SEO-ПФ; Aberdeen «+80%» смягчено)
+- [x] `kak-uvelichit-poseshhaemost-sayta` — Как увеличить посещаемость сайта    
+  ID `42545` · 2018-04-10 · ~9k · Интернет-маркетинг → Astro `/blog/poseshhaemost-sayta/` · **новый формат** (не dup `/blog/istochniki-trafika/` — там каталог каналов; здесь подготовка + старт; SEO-сроки: подготовка ≠ ТОП 2–6 мес.; Facebook → legalNotice)
+- [x] `chto-takoe-serm-kogda-on-neobhodim-i-kak-ispolzovat` — Что такое SERM. Когда он необходим и как использовать    
+  ID `42245` · 2018-03-21 · ~11k · Интернет-маркетинг → Astro `/blog/serm/` · **новый формат** (этичный SERM без накрутки отзывов; дубль WP `56797` позже → сюда)
+- [x] `performance-marketing-chto-eto-takoe-ego-tseli-i-instrumentyi` — Performance маркетинг: что это такое, его цели и инструменты    
+  ID `42106` · 2018-03-07 · ~12k · Интернет-маркетинг · **dup** → `/blog/performance-marketing/` (канон из `kak-razvivaetsya-performance-marketing`; каналы, KPI, данные уже там)
+- [x] `kraud-marketing-chto-eto-takoe-kak-pravilno-ispolzovat-vliyanie-na-seo` — Крауд-маркетинг: что это такое, как правильно использовать. Влияние на SEO    
+  ID `42089` · 2018-03-06 · ~10k · Интернет-маркетинг → Astro `/blog/kraud-marketing/` · **новый формат** (не dup `/blog/ssylki-na-forumah/` — там только форумы; без накрутки отзывов и мифа про «безанкор на 2 мес.»)
+- [x] `chto-takoe-saytyi-affiliatyi-kak-izbezhat-nalozhenie-affiliat-filtra-i-proverit-ego-nalichie` — Что такое сайты-аффилиаты, как избежать наложения аффилиат-фильтра и проверить его наличие    
+  ID `41828` · 2018-01-24 · ~10k · Интернет-маркетинг → Astro `/blog/affiliat-filtr/` · **новый формат** (не dup `/blog/sayty-satellity/` — там ссылочные сетки; без советов «прятать» владельцев)
+- [x] `povedencheskie-faktoryi-chto-eto-takoe-kakie-byivayut-i-sovetyi-po-ih-uluchsheniyu` — Поведенческие факторы. Что это такое, какие бывают и советы по их улучшению    
+  ID `41817` · 2018-01-22 · ~7k · Интернет-маркетинг · **dup** → `/blog/povedencheskie-faktory/` (канон; накрутка в исходнике отвергнута)
 - [ ] `agregatoryi-kontenta-chto-eto-takoe-zachem-oni-nuzhnyi-i-prichinyi-ih-populyarnosti` — Агрегаторы контента. Что это такое, зачем они нужны и причины их популярности.    
   ID `41805` · 2017-12-29 · ~7k · Интернет-маркетинг
 - [ ] `chto-takoe-yuzabiliti-rekomendatsii-po-uluchsheniyu-yuzabiliti-sayta` — Что такое юзабилити. Рекомендации по улучшению юзабилити сайта.    

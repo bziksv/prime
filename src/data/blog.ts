@@ -237,6 +237,96 @@ import gruppaFacebook from "./blog-posts/gruppa-facebook.json";
 import startInternetMagazina from "./blog-posts/start-internet-magazina.json";
 import ymlFayl from "./blog-posts/yml-fayl.json";
 import googleTagManager from "./blog-posts/google-tag-manager.json";
+import vebPrilozhenie from "./blog-posts/veb-prilozhenie.json";
+import vebServisy from "./blog-posts/veb-servisy.json";
+import adminkaSayta from "./blog-posts/adminka-sayta.json";
+import oshibka500 from "./blog-posts/oshibka-500.json";
+import skriptSayta from "./blog-posts/skript-sayta.json";
+import pozdravlenieKlienta from "./blog-posts/pozdravlenie-klienta.json";
+import lookerStudio from "./blog-posts/looker-studio.json";
+import nativnayaReklama from "./blog-posts/nativnaya-reklama.json";
+import besplatnayaReklama from "./blog-posts/besplatnaya-reklama.json";
+import infopovod from "./blog-posts/infopovod.json";
+import reklamnyyBanner from "./blog-posts/reklamnyy-banner.json";
+import antitrendyMarketinga from "./blog-posts/antitrendy-marketinga.json";
+import utp from "./blog-posts/utp.json";
+import lestnitsaHanta from "./blog-posts/lestnitsa-hanta.json";
+import tochkiKontakta from "./blog-posts/tochki-kontakta.json";
+import sarafannoeRadio from "./blog-posts/sarafannoe-radio.json";
+import kvizSayt from "./blog-posts/kviz-sayt.json";
+import httpZagolovki from "./blog-posts/http-zagolovki.json";
+import retargetingMeta from "./blog-posts/retargeting-meta.json";
+import interaktivnyyKontent from "./blog-posts/interaktivnyy-kontent.json";
+import istochnikiTrafika from "./blog-posts/istochniki-trafika.json";
+import virusnyyMarketing from "./blog-posts/virusnyy-marketing.json";
+import assotsiirovannyeKonversii from "./blog-posts/assotsiirovannye-konversii.json";
+import sredniyChek from "./blog-posts/sredniy-chek.json";
+import semKasaniy from "./blog-posts/sem-kasaniy.json";
+import prodazhiInternetMagazin from "./blog-posts/prodazhi-internet-magazin.json";
+import linkbilder from "./blog-posts/linkbilder.json";
+import tzNaSayt from "./blog-posts/tz-na-sayt.json";
+import projectManager from "./blog-posts/project-manager.json";
+import udalennayaRabota from "./blog-posts/udalennaya-rabota.json";
+import aydentikaBrenda from "./blog-posts/aydentika-brenda.json";
+import negativnyyOtzyv from "./blog-posts/negativnyy-otzyv.json";
+import smsRassylka from "./blog-posts/sms-rassylka.json";
+import skvoznayaAnalitika from "./blog-posts/skvoznaya-analitika.json";
+import prodvizheniePrilozheniy from "./blog-posts/prodvizhenie-prilozheniy.json";
+import glavnayaInternetMagazina from "./blog-posts/glavnaya-internet-magazina.json";
+import razmeshchenieLendinga from "./blog-posts/razmeshchenie-lendinga.json";
+import prognozTrafika from "./blog-posts/prognoz-trafika.json";
+import metrikiReklamy from "./blog-posts/metriki-reklamy.json";
+import onlaynObuchenie from "./blog-posts/onlayn-obuchenie.json";
+import marketingovayaStrategiya from "./blog-posts/marketingovaya-strategiya.json";
+import tochkiRostaSayta from "./blog-posts/tochki-rosta-sayta.json";
+import formyZahvata from "./blog-posts/formy-zahvata.json";
+import giperlokalnyyTargeting from "./blog-posts/giperlokalnyy-targeting.json";
+import omnikanalnyyKontentMarketing from "./blog-posts/omnikanalnyy-kontent-marketing.json";
+import prodvizhenieOfflaynBiznesa from "./blog-posts/prodvizhenie-offlayn-biznesa.json";
+import uchastieVTenderah from "./blog-posts/uchastie-v-tenderah.json";
+import korporativnoeObuchenie from "./blog-posts/korporativnoe-obuchenie.json";
+import korporativnyyBlog from "./blog-posts/korporativnyy-blog.json";
+import performanceMarketing from "./blog-posts/performance-marketing.json";
+import avtovoronka from "./blog-posts/avtovoronka.json";
+import naytiMarketologa from "./blog-posts/nayti-marketologa.json";
+import zashchitaOtParsinga from "./blog-posts/zashchita-ot-parsinga.json";
+import bystryeOtvetyGoogle from "./blog-posts/bystrye-otvety-google.json";
+import potrebitelskiyInsayt from "./blog-posts/potrebitelskiy-insayt.json";
+import prognozTrafikaGoogleAds from "./blog-posts/prognoz-trafika-google-ads.json";
+import auditReklamnoyKampanii from "./blog-posts/audit-reklamnoy-kampanii.json";
+import vrednyeSovetyRukovoditelyam from "./blog-posts/vrednye-sovety-rukovoditelyam.json";
+import promoaktsii from "./blog-posts/promoaktsii.json";
+import kartochkaTovara from "./blog-posts/kartochka-tovara.json";
+import vygoranieSotrudnikov from "./blog-posts/vygoranie-sotrudnikov.json";
+import kpiMenedzheraProdazh from "./blog-posts/kpi-menedzhera-prodazh.json";
+import akkauntMenedzher from "./blog-posts/akkaunt-menedzher.json";
+import oshibkiInternetMagazina from "./blog-posts/oshibki-internet-magazina.json";
+import effektivnostVideoreklamy from "./blog-posts/effektivnost-videoreklamy.json";
+import broshennayaKorzina from "./blog-posts/broshennaya-korzina.json";
+import kommercheskoePredlozhenie from "./blog-posts/kommercheskoe-predlozhenie.json";
+import trafikBezLidov from "./blog-posts/trafik-bez-lidov.json";
+import elektronnayaKniga from "./blog-posts/elektronnaya-kniga.json";
+import roas from "./blog-posts/roas.json";
+import ustarevshiySayt from "./blog-posts/ustarevshiy-sayt.json";
+import kognitivnyeIskazheniya from "./blog-posts/kognitivnye-iskazheniya.json";
+import monitoringPozitsiy from "./blog-posts/monitoring-pozitsiy.json";
+import cheklistSayta from "./blog-posts/cheklist-sayta.json";
+import intentSotsialnyeProdazhi from "./blog-posts/intent-sotsialnye-prodazhi.json";
+import yuzabilitiInternetMagazina from "./blog-posts/yuzabiliti-internet-magazina.json";
+import googleAssessory from "./blog-posts/google-assessory.json";
+import povedencheskieFaktory from "./blog-posts/povedencheskie-faktory.json";
+import oshibkiReklamnoyKampanii from "./blog-posts/oshibki-reklamnoy-kampanii.json";
+import peredZapuskomSayta from "./blog-posts/pered-zapuskom-sayta.json";
+import problemnyeKlienty from "./blog-posts/problemnye-klienty.json";
+import sozdanieInternetMagazina from "./blog-posts/sozdanie-internet-magazina.json";
+import tendentsiiVebDizayna from "./blog-posts/tendentsii-veb-dizayna.json";
+import tsvetInternetMagazina from "./blog-posts/tsvet-internet-magazina.json";
+import favikon from "./blog-posts/favikon.json";
+import vovlecheniePolzovateley from "./blog-posts/vovlechenie-polzovateley.json";
+import poseshhaemostSayta from "./blog-posts/poseshhaemost-sayta.json";
+import serm from "./blog-posts/serm.json";
+import kraudMarketing from "./blog-posts/kraud-marketing.json";
+import affiliatFiltr from "./blog-posts/affiliat-filtr.json";
 
 export type BlogListItem = {
   intro?: string | null;
@@ -657,6 +747,96 @@ export const blogPosts: BlogPost[] = [
   sanitizePost(startInternetMagazina as BlogPost),
   sanitizePost(ymlFayl as BlogPost),
   sanitizePost(googleTagManager as BlogPost),
+  sanitizePost(vebPrilozhenie as BlogPost),
+  sanitizePost(vebServisy as BlogPost),
+  sanitizePost(adminkaSayta as BlogPost),
+  sanitizePost(oshibka500 as BlogPost),
+  sanitizePost(skriptSayta as BlogPost),
+  sanitizePost(pozdravlenieKlienta as BlogPost),
+  sanitizePost(lookerStudio as BlogPost),
+  sanitizePost(nativnayaReklama as BlogPost),
+  sanitizePost(besplatnayaReklama as BlogPost),
+  sanitizePost(infopovod as BlogPost),
+  sanitizePost(reklamnyyBanner as BlogPost),
+  sanitizePost(antitrendyMarketinga as BlogPost),
+  sanitizePost(utp as BlogPost),
+  sanitizePost(lestnitsaHanta as BlogPost),
+  sanitizePost(tochkiKontakta as BlogPost),
+  sanitizePost(sarafannoeRadio as BlogPost),
+  sanitizePost(kvizSayt as BlogPost),
+  sanitizePost(httpZagolovki as BlogPost),
+  sanitizePost(retargetingMeta as BlogPost),
+  sanitizePost(interaktivnyyKontent as BlogPost),
+  sanitizePost(istochnikiTrafika as BlogPost),
+  sanitizePost(virusnyyMarketing as BlogPost),
+  sanitizePost(assotsiirovannyeKonversii as BlogPost),
+  sanitizePost(sredniyChek as BlogPost),
+  sanitizePost(semKasaniy as BlogPost),
+  sanitizePost(prodazhiInternetMagazin as BlogPost),
+  sanitizePost(linkbilder as BlogPost),
+  sanitizePost(tzNaSayt as BlogPost),
+  sanitizePost(projectManager as BlogPost),
+  sanitizePost(udalennayaRabota as BlogPost),
+  sanitizePost(aydentikaBrenda as BlogPost),
+  sanitizePost(negativnyyOtzyv as BlogPost),
+  sanitizePost(smsRassylka as BlogPost),
+  sanitizePost(skvoznayaAnalitika as BlogPost),
+  sanitizePost(prodvizheniePrilozheniy as BlogPost),
+  sanitizePost(glavnayaInternetMagazina as BlogPost),
+  sanitizePost(razmeshchenieLendinga as BlogPost),
+  sanitizePost(prognozTrafika as BlogPost),
+  sanitizePost(metrikiReklamy as BlogPost),
+  sanitizePost(onlaynObuchenie as BlogPost),
+  sanitizePost(marketingovayaStrategiya as BlogPost),
+  sanitizePost(tochkiRostaSayta as BlogPost),
+  sanitizePost(formyZahvata as BlogPost),
+  sanitizePost(giperlokalnyyTargeting as BlogPost),
+  sanitizePost(omnikanalnyyKontentMarketing as BlogPost),
+  sanitizePost(prodvizhenieOfflaynBiznesa as BlogPost),
+  sanitizePost(uchastieVTenderah as BlogPost),
+  sanitizePost(korporativnoeObuchenie as BlogPost),
+  sanitizePost(korporativnyyBlog as BlogPost),
+  sanitizePost(performanceMarketing as BlogPost),
+  sanitizePost(avtovoronka as BlogPost),
+  sanitizePost(naytiMarketologa as BlogPost),
+  sanitizePost(zashchitaOtParsinga as BlogPost),
+  sanitizePost(bystryeOtvetyGoogle as BlogPost),
+  sanitizePost(potrebitelskiyInsayt as BlogPost),
+  sanitizePost(prognozTrafikaGoogleAds as BlogPost),
+  sanitizePost(auditReklamnoyKampanii as BlogPost),
+  sanitizePost(vrednyeSovetyRukovoditelyam as BlogPost),
+  sanitizePost(promoaktsii as BlogPost),
+  sanitizePost(kartochkaTovara as BlogPost),
+  sanitizePost(vygoranieSotrudnikov as BlogPost),
+  sanitizePost(kpiMenedzheraProdazh as BlogPost),
+  sanitizePost(akkauntMenedzher as BlogPost),
+  sanitizePost(oshibkiInternetMagazina as BlogPost),
+  sanitizePost(effektivnostVideoreklamy as BlogPost),
+  sanitizePost(broshennayaKorzina as BlogPost),
+  sanitizePost(kommercheskoePredlozhenie as BlogPost),
+  sanitizePost(trafikBezLidov as BlogPost),
+  sanitizePost(elektronnayaKniga as BlogPost),
+  sanitizePost(roas as BlogPost),
+  sanitizePost(ustarevshiySayt as BlogPost),
+  sanitizePost(kognitivnyeIskazheniya as BlogPost),
+  sanitizePost(monitoringPozitsiy as BlogPost),
+  sanitizePost(cheklistSayta as BlogPost),
+  sanitizePost(intentSotsialnyeProdazhi as BlogPost),
+  sanitizePost(yuzabilitiInternetMagazina as BlogPost),
+  sanitizePost(googleAssessory as BlogPost),
+  sanitizePost(povedencheskieFaktory as BlogPost),
+  sanitizePost(oshibkiReklamnoyKampanii as BlogPost),
+  sanitizePost(peredZapuskomSayta as BlogPost),
+  sanitizePost(problemnyeKlienty as BlogPost),
+  sanitizePost(sozdanieInternetMagazina as BlogPost),
+  sanitizePost(tendentsiiVebDizayna as BlogPost),
+  sanitizePost(tsvetInternetMagazina as BlogPost),
+  sanitizePost(favikon as BlogPost),
+  sanitizePost(vovlecheniePolzovateley as BlogPost),
+  sanitizePost(poseshhaemostSayta as BlogPost),
+  sanitizePost(serm as BlogPost),
+  sanitizePost(kraudMarketing as BlogPost),
+  sanitizePost(affiliatFiltr as BlogPost),
 ].sort((a, b) => b.date.localeCompare(a.date));
 
 export function getBlogPost(slug: string): BlogPost | undefined {
@@ -1267,9 +1447,357 @@ export function getArticleCta(post: BlogPost): { title: string; text: string } {
       title: "Сайт новый — позиций нет?",
       text: "Дадим порядок работ на первые месяцы — без накрутки ПФ и пустых обещаний.",
     },
+    "oshibka-500": {
+      title: "Сайт отдаёт 500?",
+      text: "Поможем разобрать логи и последнее изменение — чтобы страницы снова открывались.",
+    },
     "oshibka-502": {
       title: "Сайт отдаёт 502?",
       text: "Поможем с диагностикой хостинга и логов — чтобы страницы снова открывались.",
+    },
+    "skript-sayta": {
+      title: "Нужна вставка скриптов без каши?",
+      text: "Поможем с тегами, скоростью и безопасностью — без сомнительных «SEO-скриптов».",
+    },
+    "pozdravlenie-klienta": {
+      title: "Нужна аккуратная CRM-коммуникация?",
+      text: "Поможем с тоном писем и автоматизацией касаний — без спама «дорогому клиенту».",
+    },
+    "looker-studio": {
+      title: "Нужен понятный маркетинговый дашборд?",
+      text: "Соберём KPI и источники в одном отчёте — с опорой на CRM, а не только на клики.",
+    },
+    "nativnaya-reklama": {
+      title: "Нативка не заходит?",
+      text: "Разберём бриф, тон площадки и интеграцию — без фальшивого восторга в постах.",
+    },
+    "besplatnaya-reklama": {
+      title: "Ищете каналы на старте без бюджета?",
+      text: "Подскажем честные точки входа и посадочную — без серых накруток и спама.",
+    },
+    "infopovod": {
+      title: "Нужен инфоповод под запуск?",
+      text: "Поможем упаковать новость и каналы — без токсичного хайпа ради охвата.",
+    },
+    "reklamnyy-banner": {
+      title: "Баннеры не кликают?",
+      text: "Соберём оффер, креатив и посадочную — с тестами, а не с мигающим GIF «на удачу».",
+    },
+    "antitrendy-marketinga": {
+      title: "Маркетинг буксует на старых приёмах?",
+      text: "Разберём каналы и воронку — без спама, холодного давления и кросспоста «везде одинаково».",
+    },
+    "utp": {
+      title: "Нужно ясное УТП?",
+      text: "Сформулируем отличие под вашу ЦА — без воды «качество и индивидуальный подход».",
+    },
+    "lestnitsa-hanta": {
+      title: "Реклама не попадает в температуру аудитории?",
+      text: "Разложим сообщения по ступеням осознания — от проблемы до оффера.",
+    },
+    "tochki-kontakta": {
+      title: "Теряете клиентов на стыках?",
+      text: "Соберём карту касаний и цепочки — от рекламы до сервиса после покупки.",
+    },
+    "sarafannoe-radio": {
+      title: "Мало рекомендаций от клиентов?",
+      text: "Настроим момент просьбы об отзыве и реферальный контур — без фейков.",
+    },
+    "kviz-sayt": {
+      title: "Думаете над квиз-лендингом?",
+      text: "Соберём вопросы, итог и передачу в CRM — без пустой «игры ради телефона».",
+    },
+    "http-zagolovki": {
+      title: "Нужны security-заголовки без поломки сайта?",
+      text: "Настроим HSTS, CSP и базовый набор — с проверкой виджетов на staging.",
+    },
+    "retargeting-meta": {
+      title: "Ретаргет не возвращает заявки?",
+      text: "Соберём сегменты по сайту, CRM и вовлечённости — без устаревших кликов по кабинету.",
+    },
+    "interaktivnyy-kontent": {
+      title: "Нужен интерактив на сайте?",
+      text: "Подберём тест, калькулятор или конфигуратор под задачу — без «вау» ради галочки.",
+    },
+    "istochniki-trafika": {
+      title: "Не понятно, какой канал крутить?",
+      text: "Соберём план тестов источников под нишу и маржу — без погони за «бесплатным навсегда».",
+    },
+    "virusnyy-marketing": {
+      title: "Хотите виральный охват без накрутки?",
+      text: "Сформулируем идею, формат и посев — без гарантий «вируса под ключ».",
+    },
+    "assotsiirovannye-konversii": {
+      title: "Режете бюджет по last click?",
+      text: "Разберём пути к покупке и роли каналов — без слепого отключения «верхней» воронки.",
+    },
+    "sredniy-chek": {
+      title: "Хотите поднять средний чек?",
+      text: "Соберём кросс-селл, пороги и комплекты под маржу — без фейковой срочности.",
+    },
+    "sem-kasaniy": {
+      title: "Одного канала мало до заявки?",
+      text: "Соберём цепочку касаний под digital-день ЦА — без магии «ровно семь баннеров».",
+    },
+    "prodazhi-internet-magazin": {
+      title: "Продажи магазина стоят?",
+      text: "Найдём узкое место воронки и рычаги роста — без чеклиста «включите всё сразу».",
+    },
+    "linkbilder": {
+      title: "Нужен линкбилдинг без спама?",
+      text: "Выстроим упоминания и площадки под качество — без пакетов «100 ссылок за неделю».",
+    },
+    "tz-na-sayt": {
+      title: "Заказываете сайт без ТЗ?",
+      text: "Соберём бриф и требования так, чтобы результат совпал с ожиданиями — без вечных правок «не то имели в виду».",
+    },
+    "project-manager": {
+      title: "Проекты буксуют без координации?",
+      text: "Выстроим роли, статусы и риски — без «менеджера, который только пишет в чат».",
+    },
+    "akkaunt-menedzher": {
+      title: "Клиенты теряются после сделки?",
+      text: "Выстроим сопровождение аккаунта — цели, отчёты и upsale без давления «продать всё».",
+    },
+    "oshibki-internet-magazina": {
+      title: "Магазин «работает», а продажи буксуют?",
+      text: "Найдём скрытые UX/SEO ошибки каталога — фильтры, дубли, фото и первый экран.",
+    },
+    "effektivnost-videoreklamy": {
+      title: "Видео крутится, а эффекта не видно?",
+      text: "Соберём панель метрик под задачу ролика — от viewability до вклада в продажи.",
+    },
+    "broshennaya-korzina": {
+      title: "Корзину наполняют, а не покупают?",
+      text: "Упростим чекаут и снимем сюрпризы по цене/доставке — без иллюзии нулевого abandonment.",
+    },
+    "kommercheskoe-predlozhenie": {
+      title: "КП не дают ответов?",
+      text: "Соберём структуру под холод/тепло/горячих — с ценой, выгодой и ясным CTA.",
+    },
+    "trafik-bez-lidov": {
+      title: "Трафик есть, заявок нет?",
+      text: "Усилим оффер, выгоды и CTA на посадочной — без закупки кликов «в пустоту».",
+    },
+    "elektronnaya-kniga": {
+      title: "Нужен лид-магнит без дизайнера?",
+      text: "Соберём ebook из вашего опыта — PDF, структура и раздача с согласием на контакт.",
+    },
+    "roas": {
+      title: "Не понятно, окупается ли реклама?",
+      text: "Посчитаем ROAS рядом с маржой и ROMI — без чужих «идеальных» коэффициентов.",
+    },
+    "ustarevshiy-sayt": {
+      title: "Сайт выглядит и работает «из прошлого»?",
+      text: "Пройдём чеклист: структура, мобильность, скорость и бренд — до бюджета на картинки.",
+    },
+    "kognitivnye-iskazheniya": {
+      title: "Оффер «логичный», а покупают иначе?",
+      text: "Разберём искажения выбора и усилим оффер этично — без фейковых таймеров.",
+    },
+    "monitoring-pozitsiy": {
+      title: "Гонитесь только за ТОП в отчёте?",
+      text: "Свяжем позиции с трафиком и деньгами — без гарантий даты и культа одной выдачи.",
+    },
+    "cheklist-sayta": {
+      title: "Сайт «есть», а базы не хватает?",
+      text: "Пройдём чеклист: техника, доверие и путь к заявке — без паники из 50 пунктов.",
+    },
+    "intent-sotsialnye-prodazhi": {
+      title: "Лиды «просят совет» в соцсетях?",
+      text: "Настроим работу с намерениями — быстрый ответ и CRM без спама в личку.",
+    },
+    "yuzabiliti-internet-magazina": {
+      title: "Магазин неудобный на пути к оплате?",
+      text: "Уберём трение в поиске, карточке и чекауте — без обязательного «ещё одного приложения».",
+    },
+    "google-assessory": {
+      title: "Боитесь «оценки Google»?",
+      text: "Разберём логику асессоров и E-E-A-T — без мифа, что rater лично ставит ТОП.",
+    },
+    "povedencheskie-faktory": {
+      title: "ПФ просели, хочется «накрутить»?",
+      text: "Улучшим UX и сниппет легально — без схем накрутки и пустых гарантий.",
+    },
+    "oshibki-reklamnoy-kampanii": {
+      title: "Контекст жжёт бюджет без толку?",
+      text: "Найдём типичные ошибки запуска и ведения — спрос, ключи, гео и лимиты.",
+    },
+    "pered-zapuskom-sayta": {
+      title: "Запускаете сайт «как есть»?",
+      text: "Пройдём техчеклист: индексация, скорость, мобильность и аналитика до рекламы.",
+    },
+    "problemnye-klienty": {
+      title: "Сложные клиенты съедают команду?",
+      text: "Соберём скрипты и правила эскалации под ваши каналы продаж.",
+    },
+    "sozdanie-internet-magazina": {
+      title: "Делаете витрину «на глаз»?",
+      text: "Закроем дизайн, каталог, оплату, поиск и скорость до запуска рекламы.",
+    },
+    "tendentsii-veb-dizayna": {
+      title: "Обновляете UI ради тренда?",
+      text: "Отделим полезные приёмы от моды сезона — под вашу воронку и скорость.",
+    },
+    "tsvet-internet-magazina": {
+      title: "Палитра витрины спорит с брендом?",
+      text: "Соберём схему: база, акцент CTA и читаемость на мобиле.",
+    },
+    "favikon": {
+      title: "Во вкладке пустой квадрат?",
+      text: "Соберём фавикон из айдентики и подключим корректно во всех браузерах.",
+    },
+    "vovlechenie-polzovateley": {
+      title: "Трафик есть, вовлечения нет?",
+      text: "Разберём источники, пассивность, обратную связь и освоение продукта.",
+    },
+    "poseshhaemost-sayta": {
+      title: "Посещаемость стоит на месте?",
+      text: "Соберём базу сайта и белые каналы роста — без чёрных схем.",
+    },
+    "serm": {
+      title: "В выдаче по бренду один негатив?",
+      text: "Настроим мониторинг и этичный SERM: ответы, свои площадки, сервис.",
+    },
+    "kraud-marketing": {
+      title: "Крауд превратился в спам?",
+      text: "Соберём точечные ответы в живых обсуждениях — без простыней ссылок.",
+    },
+    "affiliat-filtr": {
+      title: "Несколько сайтов режут друг друга в выдаче?",
+      text: "Проверим признаки аффилиатов и разведём проекты без клонов под одни ключи.",
+    },
+    "udalennaya-rabota": {
+      title: "Удалёнка превращается в хаос?",
+      text: "Настроим задачи, ритм статусов и найм по результату — без тотальной слежки.",
+    },
+    "aydentika-brenda": {
+      title: "Бренд выглядит по-разному везде?",
+      text: "Соберём палитру, логотип и правила брендбука — без хаоса носителей.",
+    },
+    "negativnyy-otzyv": {
+      title: "Негатив в отзывах бьёт по заявкам?",
+      text: "Настроим тон ответов и разбор кейсов — без агрессии и пустых отписок.",
+    },
+    "sms-rassylka": {
+      title: "Запускаете SMS-рассылку?",
+      text: "Соберём сценарии, базу с согласием и измерение — без спама по чужим номерам.",
+    },
+    "skvoznaya-analitika": {
+      title: "Нужна сквозная аналитика?",
+      text: "Свяжем рекламу, коллтрекинг и CRM до ROMI — без дашборда на кривых данных.",
+    },
+    "prodvizhenie-prilozheniy": {
+      title: "Растите установки приложения?",
+      text: "Соберём креативы, сегменты и диплинки — с упором на retention, не только CPI.",
+    },
+    "glavnaya-internet-magazina": {
+      title: "Главная ИМ не продаёт?",
+      text: "Соберём шапку, витрину и путь в каталог — без визуального шума и простыни «о нас».",
+    },
+    "razmeshchenie-lendinga": {
+      title: "Не знаете, куда повесить лендинг?",
+      text: "Сравним домен, поддомен и страницу на сайте — под оффер и канал трафика.",
+    },
+    "prognoz-trafika": {
+      title: "Нужен прогноз SEO-трафика?",
+      text: "Оценим потенциал по ядру и сценариям позиций — без «точной» гарантии визитов.",
+    },
+    "metriki-reklamy": {
+      title: "Непонятно, работает ли реклама?",
+      text: "Соберём метрики по воронке от CTR до CPA и LTV — без оценки только по кликам.",
+    },
+    "onlayn-obuchenie": {
+      title: "Онлайн-обучение «не заходит»?",
+      text: "Соберём сценарий, практику и фидбек — без серии скучных вебинаров ради галочки.",
+    },
+    "marketingovaya-strategiya": {
+      title: "Маркетинг без плана?",
+      text: "Соберём цель, каналы и календарь KPI — без хаотичных акций «на глаз».",
+    },
+    "tochki-rosta-sayta": {
+      title: "Рост сайта вышел на плато?",
+      text: "Найдём рычаги: семантика, CRO, скорость и каналы — без мифа «всё уже выжато».",
+    },
+    "formy-zahvata": {
+      title: "Лиды утекают без контакта?",
+      text: "Соберём формы под цели — с согласием на ПДн и без роя попапов.",
+    },
+    "giperlokalnyy-targeting": {
+      title: "Клиенты ходят мимо точки?",
+      text: "Настроим гиперлокал в кабинете — без серых схем сбора MAC у конкурентов.",
+    },
+    "omnikanalnyy-kontent-marketing": {
+      title: "Каналы спорят друг с другом?",
+      text: "Соберём единый путь и контент — без «ещё одной соцсети ради галочки».",
+    },
+    "prodvizhenie-offlayn-biznesa": {
+      title: "Точка есть, клиентов мало?",
+      text: "Настроим карты, отзывы и гиперлокал — с замером визитов, без культа MAC-радара.",
+    },
+    "uchastie-v-tenderah": {
+      title: "Смотрите в сторону тендеров?",
+      text: "Поможем оценить закупку и упаковать заявку — без гонки за демпингом в минус.",
+    },
+    "korporativnoe-obuchenie": {
+      title: "Обучение не заходит?",
+      text: "Соберём систему, цели и роль эксперта — без приказа «учитесь с понедельника».",
+    },
+    "korporativnyy-blog": {
+      title: "Блог без цели?",
+      text: "Зафиксируем KPI и редплан — без проекта «как у всех» ради галочки.",
+    },
+    "performance-marketing": {
+      title: "Реклама без экономики?",
+      text: "Соберём performance-контур: KPI, каналы и данные — без культа «дешёвого клика».",
+    },
+    "avtovoronka": {
+      title: "Лиды теряются между касаниями?",
+      text: "Соберём автоворонку: ступени, сценарии и замер — без мифа «бот заменит всех».",
+    },
+    "nayti-marketologa": {
+      title: "Ищете маркетолога?",
+      text: "Поможем сформулировать бриф и KPI — агентство или инхаус под задачу, не «на авось».",
+    },
+    "zashchita-ot-parsinga": {
+      title: "Каталог снимают боты?",
+      text: "Настроим лимиты и антибот без войны с поисковыми роботами и без убийства UX.",
+    },
+    "bystrye-otvety-google": {
+      title: "Хотите блок быстрого ответа?",
+      text: "Соберём вопросительные long-tail и структуру ответа — без гарантии «нулевой позиции».",
+    },
+    "potrebitelskiy-insayt": {
+      title: "Креатив бьёт мимо?",
+      text: "Найдём конфликт «хочу…, но…» на данных и отзывах — без общих демографических штампов.",
+    },
+    "prognoz-trafika-google-ads": {
+      title: "Нужен медиаплан поиска?",
+      text: "Оценим спрос и бюджет в Ads с допущениями — без обещания «точных» кликов из Планировщика.",
+    },
+    "audit-reklamnoy-kampanii": {
+      title: "Реклама не бьёт KPI?",
+      text: "Разберём технику и экономику аккаунта — с планом правок, а не только списком ошибок.",
+    },
+    "vrednye-sovety-rukovoditelyam": {
+      title: "Команда выгорает от стиля руководства?",
+      text: "Разберём антипаттерны и соберём рабочие ритуалы — без культа «я всегда прав».",
+    },
+    "promoaktsii": {
+      title: "Промо съедает маржу?",
+      text: "Подберём механику под цель — скидка, подарок или розыгрыш без вечного дампа цены.",
+    },
+    "kartochka-tovara": {
+      title: "Карточки не дожимают покупку?",
+      text: "Соберём медиа, цену и CTA — чтобы решение не срывалось на «ещё посмотрю».",
+    },
+    "vygoranie-sotrudnikov": {
+      title: "Команда выгорает?",
+      text: "Настроим нагрузку, фидбек и границы — без «медитации вместо адекватного плана».",
+    },
+    "kpi-menedzhera-prodazh": {
+      title: "Продажи без понятных KPI?",
+      text: "Соберём метрики и бонусы под маржу — без потолка и накрутки «друзей в клиенты».",
     },
     "feyk-stranitsa": {
       title: "Нашли клон бренда?",
@@ -2202,9 +2730,357 @@ export function getCoverCaption(post: BlogPost): { title: string; subtitle: stri
       title: "Молодой сайт",
       subtitle: "Старт продвижения",
     },
+    "oshibka-500": {
+      title: "Ошибка 500",
+      subtitle: "Internal Server Error",
+    },
     "oshibka-502": {
       title: "Ошибка 502",
       subtitle: "Bad Gateway",
+    },
+    "skript-sayta": {
+      title: "Скрипт сайта",
+      subtitle: "Клиент и сервер",
+    },
+    "pozdravlenie-klienta": {
+      title: "Поздравление клиента",
+      subtitle: "Email, SMS, B2B",
+    },
+    "looker-studio": {
+      title: "Looker Studio",
+      subtitle: "Отчёты и дашборды",
+    },
+    "nativnaya-reklama": {
+      title: "Нативная реклама",
+      subtitle: "Почему не работает",
+    },
+    "besplatnaya-reklama": {
+      title: "Бесплатная реклама",
+      subtitle: "Что работает на старте",
+    },
+    "infopovod": {
+      title: "Инфоповод",
+      subtitle: "Новость для маркетинга",
+    },
+    "reklamnyy-banner": {
+      title: "Рекламный баннер",
+      subtitle: "Оффер и креатив",
+    },
+    "antitrendy-marketinga": {
+      title: "Антитренды маркетинга",
+      subtitle: "Что заменить",
+    },
+    "utp": {
+      title: "УТП",
+      subtitle: "Как сформулировать",
+    },
+    "lestnitsa-hanta": {
+      title: "Лестница Ханта",
+      subtitle: "5 уровней осознания",
+    },
+    "tochki-kontakta": {
+      title: "Точки контакта",
+      subtitle: "Путь клиента",
+    },
+    "sarafannoe-radio": {
+      title: "Сарафанное радио",
+      subtitle: "Рекомендации клиентов",
+    },
+    "kviz-sayt": {
+      title: "Квиз-сайт",
+      subtitle: "Опрос для заявок",
+    },
+    "http-zagolovki": {
+      title: "HTTP-заголовки",
+      subtitle: "Безопасность ответа",
+    },
+    "retargeting-meta": {
+      title: "Ретаргет Meta",
+      subtitle: "Типы аудиторий",
+    },
+    "interaktivnyy-kontent": {
+      title: "Интерактивный контент",
+      subtitle: "Тесты и калькуляторы",
+    },
+    "istochniki-trafika": {
+      title: "Источники трафика",
+      subtitle: "Каналы на сайт",
+    },
+    "virusnyy-marketing": {
+      title: "Вирусный маркетинг",
+      subtitle: "Виды и форматы",
+    },
+    "assotsiirovannye-konversii": {
+      title: "Ассоциированные конверсии",
+      subtitle: "Путь к покупке",
+    },
+    "sredniy-chek": {
+      title: "Средний чек",
+      subtitle: "AOV магазина",
+    },
+    "sem-kasaniy": {
+      title: "7 касаний",
+      subtitle: "Цепочка до заявки",
+    },
+    "prodazhi-internet-magazin": {
+      title: "Продажи магазина",
+      subtitle: "Рычаги роста",
+    },
+    "linkbilder": {
+      title: "Линкбилдер",
+      subtitle: "Профессия в SEO",
+    },
+    "tz-na-sayt": {
+      title: "ТЗ на сайт",
+      subtitle: "Бриф и требования",
+    },
+    "project-manager": {
+      title: "Project Manager",
+      subtitle: "Роль в IT",
+    },
+    "udalennaya-rabota": {
+      title: "Удалённая работа",
+      subtitle: "Как организовать",
+    },
+    "aydentika-brenda": {
+      title: "Айдентика бренда",
+      subtitle: "Цвет, шрифт, форма",
+    },
+    "negativnyy-otzyv": {
+      title: "Негативный отзыв",
+      subtitle: "Как отвечать",
+    },
+    "sms-rassylka": {
+      title: "SMS-рассылка",
+      subtitle: "Старт без спама",
+    },
+    "skvoznaya-analitika": {
+      title: "Сквозная аналитика",
+      subtitle: "Ошибки внедрения",
+    },
+    "prodvizhenie-prilozheniy": {
+      title: "Продвижение приложений",
+      subtitle: "Установки и retention",
+    },
+    "glavnaya-internet-magazina": {
+      title: "Главная ИМ",
+      subtitle: "Структура страницы",
+    },
+    "razmeshchenie-lendinga": {
+      title: "Размещение лендинга",
+      subtitle: "Домен или сайт",
+    },
+    "prognoz-trafika": {
+      title: "Прогноз трафика",
+      subtitle: "Потенциал SEO",
+    },
+    "metriki-reklamy": {
+      title: "Метрики рекламы",
+      subtitle: "Воронка и KPI",
+    },
+    "onlayn-obuchenie": {
+      title: "Онлайн-обучение",
+      subtitle: "Сотрудники и HR",
+    },
+    "marketingovaya-strategiya": {
+      title: "Маркетинговая стратегия",
+      subtitle: "План и KPI",
+    },
+    "tochki-rosta-sayta": {
+      title: "Точки роста сайта",
+      subtitle: "Когда плато",
+    },
+    "formy-zahvata": {
+      title: "Формы захвата",
+      subtitle: "Лиды с сайта",
+    },
+    "giperlokalnyy-targeting": {
+      title: "Гиперлокальный таргетинг",
+      subtitle: "Реклама рядом",
+    },
+    "omnikanalnyy-kontent-marketing": {
+      title: "Омниканальный контент",
+      subtitle: "Мульти vs омни",
+    },
+    "prodvizhenie-offlayn-biznesa": {
+      title: "Продвижение офлайн",
+      subtitle: "Карты и локал",
+    },
+    "uchastie-v-tenderah": {
+      title: "Участие в тендерах",
+      subtitle: "Закупки B2B",
+    },
+    "korporativnoe-obuchenie": {
+      title: "Корпоративное обучение",
+      subtitle: "Система и мотивация",
+    },
+    "korporativnyy-blog": {
+      title: "Корпоративный блог",
+      subtitle: "Зачем и с чего",
+    },
+    "performance-marketing": {
+      title: "Performance-маркетинг",
+      subtitle: "Результат и KPI",
+    },
+    "avtovoronka": {
+      title: "Автоворонка продаж",
+      subtitle: "Путь и сценарии",
+    },
+    "nayti-marketologa": {
+      title: "Как найти маркетолога",
+      subtitle: "Найм и KPI",
+    },
+    "zashchita-ot-parsinga": {
+      title: "Защита от парсинга",
+      subtitle: "Лимиты и антибот",
+    },
+    "bystrye-otvety-google": {
+      title: "Быстрые ответы Google",
+      subtitle: "Featured snippet",
+    },
+    "potrebitelskiy-insayt": {
+      title: "Потребительский инсайт",
+      subtitle: "Мотив и конфликт",
+    },
+    "prognoz-trafika-google-ads": {
+      title: "Прогноз трафика Ads",
+      subtitle: "Поиск и бюджет",
+    },
+    "audit-reklamnoy-kampanii": {
+      title: "Аудит рекламной кампании",
+      subtitle: "Техника и KPI",
+    },
+    "vrednye-sovety-rukovoditelyam": {
+      title: "Вредные советы руководителям",
+      subtitle: "Антипаттерны",
+    },
+    "promoaktsii": {
+      title: "Промоакции",
+      subtitle: "Зачем и какие",
+    },
+    "kartochka-tovara": {
+      title: "Карточка товара",
+      subtitle: "Структура и CTA",
+    },
+    "vygoranie-sotrudnikov": {
+      title: "Выгорание сотрудников",
+      subtitle: "Профилактика",
+    },
+    "kpi-menedzhera-prodazh": {
+      title: "KPI менеджера продаж",
+      subtitle: "Метрики и бонусы",
+    },
+    "akkaunt-menedzher": {
+      title: "Аккаунт-менеджер",
+      subtitle: "Роль и обязанности",
+    },
+    "oshibki-internet-magazina": {
+      title: "Ошибки интернет-магазина",
+      subtitle: "7 скрытых промахов",
+    },
+    "effektivnost-videoreklamy": {
+      title: "Эффективность видеорекламы",
+      subtitle: "Метрики по слоям",
+    },
+    "broshennaya-korzina": {
+      title: "Брошенная корзина",
+      subtitle: "Причины и правки",
+    },
+    "kommercheskoe-predlozhenie": {
+      title: "Коммерческое предложение",
+      subtitle: "Структура КП",
+    },
+    "trafik-bez-lidov": {
+      title: "Трафик без лидов",
+      subtitle: "Оффер и CTA",
+    },
+    "elektronnaya-kniga": {
+      title: "Электронная книга",
+      subtitle: "Ebook без дизайнера",
+    },
+    "roas": {
+      title: "ROAS",
+      subtitle: "Доход на рекламу",
+    },
+    "ustarevshiy-sayt": {
+      title: "Устаревший сайт",
+      subtitle: "Признаки и правки",
+    },
+    "kognitivnye-iskazheniya": {
+      title: "Когнитивные искажения",
+      subtitle: "Психология выбора",
+    },
+    "monitoring-pozitsiy": {
+      title: "Мониторинг позиций",
+      subtitle: "Когда это KPI",
+    },
+    "cheklist-sayta": {
+      title: "Чеклист сайта",
+      subtitle: "Обязательные элементы",
+    },
+    "intent-sotsialnye-prodazhi": {
+      title: "Интент в соцсетях",
+      subtitle: "Social selling",
+    },
+    "yuzabiliti-internet-magazina": {
+      title: "Юзабилити ИМ",
+      subtitle: "18 UX-ошибок",
+    },
+    "google-assessory": {
+      title: "Асессоры Google",
+      subtitle: "E-E-A-T и YMYL",
+    },
+    "povedencheskie-faktory": {
+      title: "Поведенческие факторы",
+      subtitle: "UX без накрутки",
+    },
+    "oshibki-reklamnoy-kampanii": {
+      title: "Ошибки рекламной кампании",
+      subtitle: "10 типичных промахов",
+    },
+    "pered-zapuskom-sayta": {
+      title: "Перед запуском сайта",
+      subtitle: "Техчеклист релиза",
+    },
+    "problemnye-klienty": {
+      title: "Проблемные клиенты",
+      subtitle: "11 типажей сервиса",
+    },
+    "sozdanie-internet-magazina": {
+      title: "Создание интернет-магазина",
+      subtitle: "10 пунктов витрины",
+    },
+    "tendentsii-veb-dizayna": {
+      title: "Тенденции веб-дизайна",
+      subtitle: "Ретроспектива 2018",
+    },
+    "tsvet-internet-magazina": {
+      title: "Цвет интернет-магазина",
+      subtitle: "Палитра витрины",
+    },
+    "favikon": {
+      title: "Фавикон",
+      subtitle: "Иконка сайта",
+    },
+    "vovlechenie-polzovateley": {
+      title: "Вовлечение пользователей",
+      subtitle: "5 шагов стратегии",
+    },
+    "poseshhaemost-sayta": {
+      title: "Посещаемость сайта",
+      subtitle: "Как увеличить трафик",
+    },
+    "serm": {
+      title: "SERM",
+      subtitle: "Репутация в поиске",
+    },
+    "kraud-marketing": {
+      title: "Крауд-маркетинг",
+      subtitle: "Сообщества и SEO",
+    },
+    "affiliat-filtr": {
+      title: "Аффилиат-фильтр",
+      subtitle: "Сайты-аффилиаты",
     },
     "feyk-stranitsa": {
       title: "Фейк-страница",
