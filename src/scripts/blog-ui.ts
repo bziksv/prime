@@ -477,13 +477,15 @@ function initArticle() {
   if (!root) return;
 
   const slug = root.dataset.slug!;
+  const baseViews = Number(root.dataset.baseViews || "0");
   const viewsEl = qs<HTMLElement>("[data-blog-views]", root);
   const viewsWrap = qs<HTMLElement>("[data-blog-views-wrap]", root);
 
+  // Don't SSR the seed number — it flashes then jumps after POST. Show only the live total.
   void recordBlogView(slug).then((views) => {
-    // Local `astro dev` has no PHP — keep SSR seed. On Apache, replace with live total.
-    if (views == null) return;
-    if (viewsEl) viewsEl.textContent = formatViews(views);
+    const n = views ?? (baseViews > 0 ? baseViews : null);
+    if (n == null) return;
+    if (viewsEl) viewsEl.textContent = formatViews(n);
     if (viewsWrap) viewsWrap.hidden = false;
   });
 

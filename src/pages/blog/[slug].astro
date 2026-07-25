@@ -118,6 +118,7 @@ const faqJsonLd =
           class="v6-content"
           data-blog-article
           data-slug={post.slug}
+          data-base-views={baseViews}
           data-title={post.title}
           data-url={pageUrl}
           data-reading-minutes={reading}
@@ -155,8 +156,8 @@ const faqJsonLd =
                     {post.category}
                   </a>
                   <span>{formatReadingTime(reading)}</span>
-                  <span data-blog-views-wrap>
-                    <span data-blog-views>{formatViews(baseViews)}</span> просмотров
+                  <span data-blog-views-wrap hidden>
+                    <span data-blog-views></span> просмотров
                   </span>
                 </div>
                 <h1>{post.title}</h1>
