@@ -11,9 +11,7 @@ import { v6Icons } from "../../data/v6-media";
 import {
   blogPosts,
   formatReadingTime,
-  formatViews,
   getArticleCta,
-  getBaseViews,
   getBlogPost,
   getCoverCaption,
   getPostNeighbors,
@@ -35,7 +33,6 @@ if (!post) {
 }
 
 const reading = getReadingMinutes(post);
-const baseViews = getBaseViews(post);
 const pageUrl = new URL(`/blog/${post.slug}/`, Astro.site ?? "https://prime-ltd.su").href;
 const cta = getArticleCta(post);
 const coverCaption = getCoverCaption(post);
@@ -118,7 +115,6 @@ const faqJsonLd =
           class="v6-content"
           data-blog-article
           data-slug={post.slug}
-          data-base-views={baseViews}
           data-title={post.title}
           data-url={pageUrl}
           data-reading-minutes={reading}
@@ -156,8 +152,8 @@ const faqJsonLd =
                     {post.category}
                   </a>
                   <span>{formatReadingTime(reading)}</span>
-                  <span>
-                    <span data-blog-views>{formatViews(baseViews)}</span> просмотров
+                  <span data-blog-views-wrap>
+                    <span data-blog-views>…</span> просмотров
                   </span>
                 </div>
                 <h1>{post.title}</h1>

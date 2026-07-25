@@ -9,16 +9,16 @@ import { v6Icons } from "../../data/v6-media";
 import {
   blogPosts,
   formatReadingTime,
-  formatViews,
   getBlogCategories,
   getReadingMinutes,
-  getBaseViews,
 } from "../../data/blog";
 import { getBlogMigrationProgress } from "../../data/blog-migration";
 
 const categories = getBlogCategories();
 const featured = blogPosts[0];
-const migration = getBlogMigrationProgress();
+/** Дашборд миграции только в `astro dev` — на проде (build) не рендерится. */
+const showMigrateDashboard = import.meta.env.DEV;
+const migration = showMigrateDashboard ? getBlogMigrationProgress() : null;
 ---
 
 <!doctype html>
@@ -90,7 +90,9 @@ const migration = getBlogMigrationProgress();
             </div>
           </section>
 
-          <section class="b-migrate" aria-label="Прогресс переноса блога">
+          {
+            showMigrateDashboard && migration ? (
+          <section class="b-migrate" aria-label="Прогресс переноса блога (только localhost)">
             <div class="b-migrate__head">
               <div>
                 <p class="b-migrate__kicker">Миграция со старого сайта</p>
@@ -100,6 +102,10 @@ const migration = getBlogMigrationProgress();
                   целевую вёрстку статей ещё не делали.
                 </p>
               </div>
+              <p class="b-migrate__local-badge" title="Блок виден только в astro dev, на проде отсутствует">
+                <span aria-hidden="true">●</span>
+                LOCAL ONLY · не на проде
+              </p>
             </div>
 
             <div class="b-migrate__tracks">
@@ -156,7 +162,8 @@ const migration = getBlogMigrationProgress();
               </div>
             </div>
             <p class="b-migrate__note">
-              Skip / мусор в чеклисте: {migration.skip}. Новый формат пока не начат — счётчик 0.
+              Skip / мусор в чеклисте: {migration.skip}. Этот дашборд рендерится только
+              в <code>astro dev</code> — в production-сборке блока нет.
             </p>
 
             <div class="b-migrate__cats" aria-label="Рубрики в чеклисте">
@@ -175,7 +182,108 @@ const migration = getBlogMigrationProgress();
                 ) : null
               }
             </div>
+
+            <div class="b-migrate__articles" data-migrate-articles>
+              <div class="b-migrate__articles-head">
+                <h3 class="b-migrate__articles-title">Перенесённые статьи</h3>
+                <div class="b-migrate__articles-meta">
+                  <span class="b-migrate__local-badge b-migrate__local-badge--sm">
+                    LOCAL ONLY
+                  </span>
+                  <span class="b-migrate__articles-count" data-migrate-count>
+                    {migration.articles.length}
+                  </span>
+                </div>
+              </div>
+
+              <div class="b-migrate__tools">
+                <label class="b-migrate__search">
+                  <span class="visually-hidden">Поиск по перенесённым статьям</span>
+                  <input
+                    type="search"
+                    data-migrate-search
+                    placeholder="Семантика, Instagram, охват…"
+                    autocomplete="off"
+                    spellcheck="false"
+                  />
+                  <button
+                    type="button"
+                    class="b-migrate__search-clear"
+                    data-migrate-search-clear
+                    hidden
+                    aria-label="Очистить поиск"
+                  >
+                    ×
+                  </button>
+                </label>
+                <label class="b-migrate__sort">
+                  <span class="visually-hidden">Сортировка</span>
+                  <select data-migrate-sort>
+                    <option value="relevance">По релевантности</option>
+                    <option value="title-asc" selected>Название А→Я</option>
+                    <option value="title-desc">Название Я→А</option>
+                    <option value="words-desc">Слов: больше → меньше</option>
+                    <option value="words-asc">Слов: меньше → больше</option>
+                    <option value="date-desc">Сначала новые</option>
+                    <option value="date-asc">Сначала старые</option>
+                  </select>
+                </label>
+              </div>
+              <p class="b-migrate__tools-hint" data-migrate-status>
+                Умный поиск: смысл, опечатки и синонимы · сортировка без пагинации
+              </p>
+
+              <div class="b-migrate__articles-scroll" tabindex="0">
+                <table class="b-migrate__table">
+                  <thead>
+                    <tr>
+                      <th scope="col">
+                        <button type="button" class="b-migrate__th-btn" data-migrate-sort-btn="title">
+                          Название
+                        </button>
+                      </th>
+                      <th scope="col">Ссылка</th>
+                      <th scope="col">
+                        <button type="button" class="b-migrate__th-btn" data-migrate-sort-btn="words">
+                          Слов
+                        </button>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody data-migrate-tbody>
+                    {
+                      migration.articles.map((a) => (
+                        <tr
+                          data-slug={a.slug}
+                          data-title={a.title}
+                          data-words={a.words}
+                          data-date={a.date}
+                          data-category={a.category}
+                        >
+                          <td>
+                            <a href={a.href}>{a.title}</a>
+                          </td>
+                          <td>
+                            <a class="b-migrate__path" href={a.href}>{a.href}</a>
+                          </td>
+                          <td>
+                            <span class="b-migrate__words">
+                              {a.words.toLocaleString("ru-RU")}
+                            </span>
+                          </td>
+                        </tr>
+                      ))
+                    }
+                  </tbody>
+                </table>
+                <p class="b-migrate__empty" data-migrate-empty hidden>
+                  Ничего не нашли. Попробуйте другое слово или очистите поиск.
+                </p>
+              </div>
+            </div>
           </section>
+            ) : null
+          }
 
           <div class="b-toolbar">
             <div class="b-cats" role="group" aria-label="Рубрики">
@@ -219,7 +327,6 @@ const migration = getBlogMigrationProgress();
                   <div class="b-featured__meta">
                     <span class="b-featured__cat">{featured.category}</span>
                     <span class="b-meta-chip">{formatReadingTime(getReadingMinutes(featured))}</span>
-                    <span class="b-meta-chip">{formatViews(getBaseViews(featured))} просм.</span>
                   </div>
                   <h2>{featured.title}</h2>
                   <p>{featured.excerpt}</p>
@@ -235,6 +342,12 @@ const migration = getBlogMigrationProgress();
           }
 
           <div class="b-grid" data-blog-grid></div>
+          <div class="b-more" data-blog-more hidden>
+            <button type="button" class="b-more__btn" data-blog-more-btn>
+              Показать ещё
+            </button>
+            <p class="b-more__meta" data-blog-more-meta></p>
+          </div>
           <p class="b-empty" data-blog-empty hidden></p>
         </div>
 

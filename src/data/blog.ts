@@ -327,6 +327,245 @@ import poseshhaemostSayta from "./blog-posts/poseshhaemost-sayta.json";
 import serm from "./blog-posts/serm.json";
 import kraudMarketing from "./blog-posts/kraud-marketing.json";
 import affiliatFiltr from "./blog-posts/affiliat-filtr.json";
+import agregatoryKontenta from "./blog-posts/agregatory-kontenta.json";
+import yuzabiliti from "./blog-posts/yuzabiliti.json";
+import denVPrime from "./blog-posts/den-v-prime.json";
+import vidyReklamy from "./blog-posts/vidy-reklamy.json";
+import kluchiYoutube from "./blog-posts/kluchi-youtube.json";
+import ga4 from "./blog-posts/ga4.json";
+import adblock from "./blog-posts/adblock.json";
+import nakrutkaZriteleyYoutube from "./blog-posts/nakrutka-zriteley-youtube.json";
+import temaWordpress from "./blog-posts/tema-wordpress.json";
+import vebArhiv from "./blog-posts/veb-arhiv.json";
+import vodyanoyZnak from "./blog-posts/vodyanoy-znak.json";
+import yandeksDisk from "./blog-posts/yandeks-disk.json";
+import montazhYoutube from "./blog-posts/montazh-youtube.json";
+import magnetSsylka from "./blog-posts/magnet-ssylka.json";
+import virtualnyyNomer from "./blog-posts/virtualnyy-nomer.json";
+import parsingPython from "./blog-posts/parsing-python.json";
+import jsonFormat from "./blog-posts/json.json";
+import amp from "./blog-posts/amp.json";
+import parsingEmail from "./blog-posts/parsing-email.json";
+import crm from "./blog-posts/crm.json";
+import metaDescription from "./blog-posts/meta-description.json";
+import parsingAuditorii from "./blog-posts/parsing-auditorii.json";
+import crello from "./blog-posts/crello.json";
+import chromeRasshireniyaMarketing from "./blog-posts/chrome-rasshireniya-marketing.json";
+import canva from "./blog-posts/canva.json";
+import uskorenieWordpress from "./blog-posts/uskorenie-wordpress.json";
+import pwa from "./blog-posts/pwa.json";
+import yandeksSpravochnik from "./blog-posts/yandeks-spravochnik.json";
+import logotip from "./blog-posts/logotip.json";
+import googleAnalyticsNastroyka from "./blog-posts/google-analytics-nastroyka.json";
+import googleOtzyvyKlientov from "./blog-posts/google-otzyvy-klientov.json";
+import ipTelefoniya from "./blog-posts/ip-telefoniya.json";
+import voronkaProdazhGtm from "./blog-posts/voronka-prodazh-gtm.json";
+import retargetingDirekt from "./blog-posts/retargeting-direkt.json";
+import googleKalendar from "./blog-posts/google-kalendar.json";
+import vebvizor from "./blog-posts/vebvizor.json";
+import googleAlerts from "./blog-posts/google-alerts.json";
+import istoriyaDomena from "./blog-posts/istoriya-domena.json";
+import cmsInternetMagazina from "./blog-posts/cms-internet-magazina.json";
+import facebookAds from "./blog-posts/facebook-ads.json";
+import abTestyReklamy from "./blog-posts/ab-testy-reklamy.json";
+import novogodnyayaRasprodazha from "./blog-posts/novogodnyaya-rasprodazha.json";
+import tilda from "./blog-posts/tilda.json";
+import strategiiGoogleAds from "./blog-posts/strategii-google-ads.json";
+import adaptivnyeMediynyeObyavleniya from "./blog-posts/adaptivnye-mediynye-obyavleniya.json";
+import proverkaIndeksatsii from "./blog-posts/proverka-indeksatsii.json";
+import minusSlovaDirekt from "./blog-posts/minus-slova-direkt.json";
+import videosetYandeksa from "./blog-posts/videoset-yandeksa.json";
+import kontentMarketingMetrika from "./blog-posts/kontent-marketing-metrika.json";
+import googleMerchantCenter from "./blog-posts/google-merchant-center.json";
+import yandeksIks from "./blog-posts/yandeks-iks.json";
+import mobileFirstIndeks from "./blog-posts/mobile-first-indeks.json";
+import perenosDirektaGoogleAds from "./blog-posts/perenos-direkta-google-ads.json";
+import yandeksDialogi from "./blog-posts/yandeks-dialogi.json";
+import interfeysYandeksDirekt from "./blog-posts/interfeys-yandeks-direkt.json";
+import metrikaPosetiteli from "./blog-posts/metrika-posetiteli.json";
+import vzveshennyyCtrDirekt from "./blog-posts/vzveshennyy-ctr-direkt.json";
+import skorostSayta from "./blog-posts/skorost-sayta.json";
+import yandeksMarket from "./blog-posts/yandeks-market.json";
+import turgenev from "./blog-posts/turgenev.json";
+import proksiServer from "./blog-posts/proksi-server.json";
+import pochtaDlyaDomena from "./blog-posts/pochta-dlya-domena.json";
+import wordstat from "./blog-posts/wordstat.json";
+import menedzherParoley from "./blog-posts/menedzher-paroley.json";
+import wordpressAdmin from "./blog-posts/wordpress-admin.json";
+import yandeksBrauzer from "./blog-posts/yandeks-brauzer.json";
+import robotsTxtJoomla from "./blog-posts/robots-txt-joomla.json";
+import modxLocal from "./blog-posts/modx-local.json";
+import obzorBrauzerov from "./blog-posts/obzor-brauzerov.json";
+import robotsTxtWordpress from "./blog-posts/robots-txt-wordpress.json";
+import wordpressPlaginy from "./blog-posts/wordpress-plaginy.json";
+import bitrixPublichnyyRazdel from "./blog-posts/bitrix-publichnyy-razdel.json";
+import bitrixSvoystvaInfoblokov from "./blog-posts/bitrix-svoystva-infoblokov.json";
+import registratsiyaDomena from "./blog-posts/registratsiya-domena.json";
+import bitrixAdmin from "./blog-posts/bitrix-admin.json";
+import hosting from "./blog-posts/hosting.json";
+import metrikaKarty from "./blog-posts/metrika-karty.json";
+import wordpressUstanovka from "./blog-posts/wordpress-ustanovka.json";
+import bitrixPlyusyMinusy from "./blog-posts/bitrix-plyusy-minusy.json";
+import yandeksAuditorii from "./blog-posts/yandeks-auditorii.json";
+import obzorCms from "./blog-posts/obzor-cms.json";
+import obratnyyZvonok from "./blog-posts/obratnyy-zvonok.json";
+import instagramDirect from "./blog-posts/instagram-direct.json";
+import instagramDirectGid from "./blog-posts/instagram-direct-gid.json";
+import shautInstagram from "./blog-posts/shaut-instagram.json";
+import ssylkaInstagram from "./blog-posts/ssylka-instagram.json";
+import skachatStoriesInstagram from "./blog-posts/skachat-stories-instagram.json";
+import ideiStorisVk from "./blog-posts/idei-storis-vk.json";
+import aktivnostVk from "./blog-posts/aktivnost-vk.json";
+import ohvatInstagram from "./blog-posts/ohvat-instagram.json";
+import vzaimopiar from "./blog-posts/vzaimopiar.json";
+import otlozhennyyPostingInstagram from "./blog-posts/otlozhennyy-posting-instagram.json";
+import privetstvieVk from "./blog-posts/privetstvie-vk.json";
+import generatorNikov from "./blog-posts/generator-nikov.json";
+import ohvatPodpischikovVk from "./blog-posts/ohvat-podpischikov-vk.json";
+import podpisFotoInstagram from "./blog-posts/podpis-foto-instagram.json";
+import spamVk from "./blog-posts/spam-vk.json";
+import urlYoutube from "./blog-posts/url-youtube.json";
+import vovlechennostInstagram from "./blog-posts/vovlechennost-instagram.json";
+import soobshhestvaVk from "./blog-posts/soobshhestva-vk.json";
+import keisyFacebookAds from "./blog-posts/keisy-facebook-ads.json";
+import zakazchikiKopiraytera from "./blog-posts/zakazchiki-kopiraytera.json";
+import naytiChelovekaInstagram from "./blog-posts/nayti-cheloveka-instagram.json";
+import postFacebook from "./blog-posts/post-facebook.json";
+import videoStoriesInstagram from "./blog-posts/video-stories-instagram.json";
+import udalenieAkkauntaInstagram from "./blog-posts/udalenie-akkaunta-instagram.json";
+import geymifikatsiyaSocseti from "./blog-posts/geymifikatsiya-socseti.json";
+import arhivInstagram from "./blog-posts/arhiv-instagram.json";
+import ssylkaStoriesInstagram from "./blog-posts/ssylka-stories-instagram.json";
+import zarabotokGruppyVk from "./blog-posts/zarabotok-gruppy-vk.json";
+import neskolkoStoriesInstagram from "./blog-posts/neskolko-stories-instagram.json";
+import emodzi from "./blog-posts/emodzi.json";
+import vovlechennostSocseti from "./blog-posts/vovlechennost-socseti.json";
+import sekretnyyChatTelegram from "./blog-posts/sekretnyy-chat-telegram.json";
+import pinterest from "./blog-posts/pinterest.json";
+import vtoroyAkkauntInstagram from "./blog-posts/vtoroy-akkaunt-instagram.json";
+import prosmotryStoriesInstagram from "./blog-posts/prosmotry-stories-instagram.json";
+import promoInstagram from "./blog-posts/promo-instagram.json";
+import zakrytyyAkkauntInstagram from "./blog-posts/zakrytyy-akkaunt-instagram.json";
+import prosmotrZakrytogoAkkaunta from "./blog-posts/prosmotr-zakrytogo-akkaunta.json";
+import sohranenieEfiraInstagram from "./blog-posts/sohranenie-efira-instagram.json";
+import muzykaStoriesInstagram from "./blog-posts/muzyka-stories-instagram.json";
+import rekomendatsiiTiktok from "./blog-posts/rekomendatsii-tiktok.json";
+import nazvanieAuditoriiInstagram from "./blog-posts/nazvanie-auditorii-instagram.json";
+import nastroikaReklamyInstagram from "./blog-posts/nastroika-reklamy-instagram.json";
+import reklamaTiktok from "./blog-posts/reklama-tiktok.json";
+import oshibkiSmm from "./blog-posts/oshibki-smm.json";
+import analitikaTelegram from "./blog-posts/analitika-telegram.json";
+import udalenieBotovInstagram from "./blog-posts/udalenie-botov-instagram.json";
+import ssylkiVInstagram from "./blog-posts/ssylki-v-instagram.json";
+import bazaEmailSocseti from "./blog-posts/baza-email-socseti.json";
+import verifikatsiyaInstagram from "./blog-posts/verifikatsiya-instagram.json";
+import socsetiISeo from "./blog-posts/socseti-i-seo.json";
+import naymSmm from "./blog-posts/naym-smm.json";
+import novostnoySayt from "./blog-posts/novostnoy-sayt.json";
+import vremyaPostaInstagram from "./blog-posts/vremya-posta-instagram.json";
+import inflyuenserMarketing from "./blog-posts/inflyuenser-marketing.json";
+import vidyKontentaSocseti from "./blog-posts/vidy-kontenta-socseti.json";
+import triggernyeRassylki from "./blog-posts/triggernye-rassylki.json";
+import chatBotVk from "./blog-posts/chat-bot-vk.json";
+import ideiStoriesInstagram from "./blog-posts/idei-stories-instagram.json";
+import heshtegiInstagram from "./blog-posts/heshtegi-instagram.json";
+import smmStrategiya from "./blog-posts/smm-strategiya.json";
+import rassylkaWhatsapp from "./blog-posts/rassylka-whatsapp.json";
+import sotsialnyeSeti from "./blog-posts/sotsialnye-seti.json";
+import dekorativnyyShriftInstagram from "./blog-posts/dekorativnyy-shrift-instagram.json";
+import whatsappVInstagram from "./blog-posts/whatsapp-v-instagram.json";
+import lid from "./blog-posts/lid.json";
+import oblozhkaVk from "./blog-posts/oblozhka-vk.json";
+import istoriyaPoiskaInstagram from "./blog-posts/istoriya-poiska-instagram.json";
+import taymkodYoutube from "./blog-posts/taymkod-youtube.json";
+import yumoney from "./blog-posts/yumoney.json";
+import gaiq from "./blog-posts/gaiq.json";
+import metategi from "./blog-posts/metategi.json";
+import vebInterfeys from "./blog-posts/veb-interfeys.json";
+import messendzher from "./blog-posts/messendzher.json";
+import ftp from "./blog-posts/ftp.json";
+import runet from "./blog-posts/runet.json";
+import htmlSeo from "./blog-posts/html-seo.json";
+import adultTrafik from "./blog-posts/adult-trafik.json";
+import negativnoeSeo from "./blog-posts/negativnoe-seo.json";
+import poiskovyeSistemy from "./blog-posts/poiskovye-sistemy.json";
+import rsyaMetrika from "./blog-posts/rsya-metrika.json";
+import posmotretAvatarInstagram from "./blog-posts/posmotret-avatar-instagram.json";
+import glavnayaStranitsa from "./blog-posts/glavnaya-stranitsa.json";
+import zapuskInternetMagazina from "./blog-posts/zapusk-internet-magazina.json";
+import napominanieKlientu from "./blog-posts/napominanie-klientu.json";
+import kontentINativnaya from "./blog-posts/kontent-i-nativnaya.json";
+import tekstGlavnoyStranitsy from "./blog-posts/tekst-glavnoy-stranitsy.json";
+import kakNapisatStatyu from "./blog-posts/kak-napisat-statyu.json";
+import rss from "./blog-posts/rss.json";
+import tzKopiraytera from "./blog-posts/tz-kopiraytera.json";
+import zagolovki4u from "./blog-posts/zagolovki-4u.json";
+import oKompanii from "./blog-posts/o-kompanii.json";
+import avtovoronkaInstagram from "./blog-posts/avtovoronka-instagram.json";
+import avtovoronkaVk from "./blog-posts/avtovoronka-vk.json";
+import prodayushchiyKontent from "./blog-posts/prodayushchiy-kontent.json";
+import mixedContent from "./blog-posts/mixed-content.json";
+import eatKopirayting from "./blog-posts/eat-kopirayting.json";
+import slogan from "./blog-posts/slogan.json";
+import tekstyUzkayaTematika from "./blog-posts/teksty-uzkaya-tematika.json";
+import videoObzorTovara from "./blog-posts/video-obzor-tovara.json";
+import zashchitaKontenta from "./blog-posts/zashchita-kontenta.json";
+import matritsaKontenta from "./blog-posts/matritsa-kontenta.json";
+import videokontent from "./blog-posts/videokontent.json";
+import bystreePisatStati from "./blog-posts/bystree-pisat-stati.json";
+import longrid from "./blog-posts/longrid.json";
+import strukturaStati from "./blog-posts/struktura-stati.json";
+import stranitsaKontaktov from "./blog-posts/stranitsa-kontaktov.json";
+import prizyvKDeystviyu from "./blog-posts/prizyv-k-deystviyu.json";
+import ideiKontentProdvizheniya from "./blog-posts/idei-kontent-prodvizheniya.json";
+import vizualizatsiyaDannyih from "./blog-posts/vizualizatsiya-dannyih.json";
+import temyDlyaStatey from "./blog-posts/temy-dlya-statey.json";
+import gostevoyPost from "./blog-posts/gostevoy-post.json";
+import besplatnyeSsylki from "./blog-posts/besplatnye-ssylki.json";
+import kontentnoeProdvizhenie from "./blog-posts/kontentnoe-prodvizhenie.json";
+import kontentB2b from "./blog-posts/kontent-b2b.json";
+import kartinkiSeo from "./blog-posts/kartinki-seo.json";
+import klyuchiYandeksDirekt from "./blog-posts/klyuchi-yandeks-direkt.json";
+import byudzhetYandeksDirekt from "./blog-posts/byudzhet-yandeks-direkt.json";
+import mediaplan from "./blog-posts/mediaplan.json";
+import analizReklamnoyKampanii from "./blog-posts/analiz-reklamnoy-kampanii.json";
+import saytPeredReklamoy from "./blog-posts/sayt-pered-reklamoy.json";
+import googlePartner from "./blog-posts/google-partner.json";
+import planirovshchikRezultatovGoogle from "./blog-posts/planirovshchik-rezultatov-google.json";
+import adaptivnyyShablonDirekt from "./blog-posts/adaptivnyy-shablon-direkt.json";
+import zabluzhdeniyaKonteksta from "./blog-posts/zabluzhdeniya-konteksta.json";
+import moderatsiyaFacebookAds from "./blog-posts/moderatsiya-facebook-ads.json";
+import targetVk from "./blog-posts/target-vk.json";
+import kogortnyyAnaliz from "./blog-posts/kogortnyy-analiz.json";
+import tipyKampaniyGoogleAds from "./blog-posts/tipy-kampaniy-google-ads.json";
+import analizKonkurentovKontekst from "./blog-posts/analiz-konkurentov-kontekst.json";
+import moderatsiyaMeditsina from "./blog-posts/moderatsiya-meditsina.json";
+import podryadchikKontekst from "./blog-posts/podryadchik-kontekst.json";
+import tipySsylok from "./blog-posts/tipy-ssylok.json";
+import algoritmyGoogle from "./blog-posts/algoritmy-google.json";
+import zagolovkiH1H6 from "./blog-posts/zagolovki-h1-h6.json";
+import oshibkiNastroykiKonteksta from "./blog-posts/oshibki-nastroyki-konteksta.json";
+import indeksatsiyaSayta from "./blog-posts/indeksatsiya-sayta.json";
+import bidder from "./blog-posts/bidder.json";
+import klassifikatsiyaZaprosov from "./blog-posts/klassifikatsiya-zaprosov.json";
+import rasshirenieTsenyGoogle from "./blog-posts/rasshirenie-tseny-google.json";
+import brifKontekst from "./blog-posts/brif-kontekst.json";
+import maloPokazov from "./blog-posts/malo-pokazov.json";
+import formatyIzobrazheniyRsya from "./blog-posts/formaty-izobrazheniy-rsya.json";
+import badenBaden from "./blog-posts/baden-baden.json";
+import minusinsk from "./blog-posts/minusinsk.json";
+import auktsionDirekt from "./blog-posts/auktsion-direkt.json";
+import vyborDomena from "./blog-posts/vybor-domena.json";
+import primeryEmailRassylok from "./blog-posts/primery-email-rassylok.json";
+import emailMarketing2020 from "./blog-posts/email-marketing-2020.json";
+import instrumentyMarketologa from "./blog-posts/instrumenty-marketologa.json";
+import emailStrategiya from "./blog-posts/email-strategiya.json";
+import tekstEmailRassylki from "./blog-posts/tekst-email-rassylki.json";
+import emailDlyaBiznesa from "./blog-posts/email-dlya-biznesa.json";
+import verstkaEmail from "./blog-posts/verstka-email.json";
+import oformlenieEmail from "./blog-posts/oformlenie-email.json";
+import pushUvedomleniya from "./blog-posts/push-uvedomleniya.json";
+import uderzhaniePodpischikov from "./blog-posts/uderzhanie-podpischikov.json";
 
 export type BlogListItem = {
   intro?: string | null;
@@ -418,8 +657,9 @@ export type BlogSearchDoc = {
 };
 
 /** Remove leaked WP newlines / junk from migrated text */
-export function cleanBlogText(s: string): string {
-  return s
+export function cleanBlogText(s: string | null | undefined): string {
+  if (s == null) return "";
+  return String(s)
     .replace(/\\n/g, " ")
     .replace(/\n+/g, " ")
     .replace(/\s{2,}/g, " ")
@@ -484,11 +724,19 @@ function sanitizePost(post: BlogPost): BlogPost {
         headers: (t.headers ?? []).map(cleanBlogText),
         rows: (t.rows ?? []).map((row) => (row ?? []).map(cleanBlogText)),
       })),
-      notes: s.notes?.map((n) => ({
-        title: cleanBlogText(n.title),
-        text: cleanBlogText(n.text),
-        kind: n.kind === "legal" ? "legal" : "tip",
-      })),
+      notes: s.notes?.map((n) => {
+        const raw =
+          typeof n.text === "string"
+            ? n.text
+            : Array.isArray((n as { paras?: unknown }).paras)
+              ? ((n as { paras: string[] }).paras ?? []).filter(Boolean).join(" ")
+              : "";
+        return {
+          title: cleanBlogText(n.title) || "Важно",
+          text: cleanBlogText(raw),
+          kind: n.kind === "legal" ? "legal" : "tip",
+        };
+      }),
       links: s.links?.map((l) => ({
         label: cleanBlogText(l.label),
         href: (l.href ?? "").trim(),
@@ -837,6 +1085,245 @@ export const blogPosts: BlogPost[] = [
   sanitizePost(serm as BlogPost),
   sanitizePost(kraudMarketing as BlogPost),
   sanitizePost(affiliatFiltr as BlogPost),
+  sanitizePost(agregatoryKontenta as BlogPost),
+  sanitizePost(yuzabiliti as BlogPost),
+  sanitizePost(denVPrime as BlogPost),
+  sanitizePost(vidyReklamy as BlogPost),
+  sanitizePost(kluchiYoutube as BlogPost),
+  sanitizePost(ga4 as BlogPost),
+  sanitizePost(adblock as BlogPost),
+  sanitizePost(nakrutkaZriteleyYoutube as BlogPost),
+  sanitizePost(temaWordpress as BlogPost),
+  sanitizePost(vebArhiv as BlogPost),
+  sanitizePost(vodyanoyZnak as BlogPost),
+  sanitizePost(yandeksDisk as BlogPost),
+  sanitizePost(montazhYoutube as BlogPost),
+  sanitizePost(magnetSsylka as BlogPost),
+  sanitizePost(virtualnyyNomer as BlogPost),
+  sanitizePost(parsingPython as BlogPost),
+  sanitizePost(jsonFormat as BlogPost),
+  sanitizePost(amp as BlogPost),
+  sanitizePost(parsingEmail as BlogPost),
+  sanitizePost(crm as BlogPost),
+  sanitizePost(metaDescription as BlogPost),
+  sanitizePost(parsingAuditorii as BlogPost),
+  sanitizePost(crello as BlogPost),
+  sanitizePost(chromeRasshireniyaMarketing as BlogPost),
+  sanitizePost(canva as BlogPost),
+  sanitizePost(uskorenieWordpress as BlogPost),
+  sanitizePost(pwa as BlogPost),
+  sanitizePost(yandeksSpravochnik as BlogPost),
+  sanitizePost(logotip as BlogPost),
+  sanitizePost(googleAnalyticsNastroyka as BlogPost),
+  sanitizePost(googleOtzyvyKlientov as BlogPost),
+  sanitizePost(ipTelefoniya as BlogPost),
+  sanitizePost(voronkaProdazhGtm as BlogPost),
+  sanitizePost(retargetingDirekt as BlogPost),
+  sanitizePost(googleKalendar as BlogPost),
+  sanitizePost(vebvizor as BlogPost),
+  sanitizePost(googleAlerts as BlogPost),
+  sanitizePost(istoriyaDomena as BlogPost),
+  sanitizePost(cmsInternetMagazina as BlogPost),
+  sanitizePost(facebookAds as BlogPost),
+  sanitizePost(abTestyReklamy as BlogPost),
+  sanitizePost(novogodnyayaRasprodazha as BlogPost),
+  sanitizePost(tilda as BlogPost),
+  sanitizePost(strategiiGoogleAds as BlogPost),
+  sanitizePost(adaptivnyeMediynyeObyavleniya as BlogPost),
+  sanitizePost(proverkaIndeksatsii as BlogPost),
+  sanitizePost(minusSlovaDirekt as BlogPost),
+  sanitizePost(videosetYandeksa as BlogPost),
+  sanitizePost(kontentMarketingMetrika as BlogPost),
+  sanitizePost(googleMerchantCenter as BlogPost),
+  sanitizePost(yandeksIks as BlogPost),
+  sanitizePost(mobileFirstIndeks as BlogPost),
+  sanitizePost(perenosDirektaGoogleAds as BlogPost),
+  sanitizePost(yandeksDialogi as BlogPost),
+  sanitizePost(interfeysYandeksDirekt as BlogPost),
+  sanitizePost(metrikaPosetiteli as BlogPost),
+  sanitizePost(vzveshennyyCtrDirekt as BlogPost),
+  sanitizePost(skorostSayta as BlogPost),
+  sanitizePost(yandeksMarket as BlogPost),
+  sanitizePost(turgenev as BlogPost),
+  sanitizePost(proksiServer as BlogPost),
+  sanitizePost(pochtaDlyaDomena as BlogPost),
+  sanitizePost(wordstat as BlogPost),
+  sanitizePost(menedzherParoley as BlogPost),
+  sanitizePost(wordpressAdmin as BlogPost),
+  sanitizePost(yandeksBrauzer as BlogPost),
+  sanitizePost(robotsTxtJoomla as BlogPost),
+  sanitizePost(modxLocal as BlogPost),
+  sanitizePost(obzorBrauzerov as BlogPost),
+  sanitizePost(robotsTxtWordpress as BlogPost),
+  sanitizePost(wordpressPlaginy as BlogPost),
+  sanitizePost(bitrixPublichnyyRazdel as BlogPost),
+  sanitizePost(bitrixSvoystvaInfoblokov as BlogPost),
+  sanitizePost(registratsiyaDomena as BlogPost),
+  sanitizePost(bitrixAdmin as BlogPost),
+  sanitizePost(hosting as BlogPost),
+  sanitizePost(metrikaKarty as BlogPost),
+  sanitizePost(wordpressUstanovka as BlogPost),
+  sanitizePost(bitrixPlyusyMinusy as BlogPost),
+  sanitizePost(yandeksAuditorii as BlogPost),
+  sanitizePost(obzorCms as BlogPost),
+  sanitizePost(obratnyyZvonok as BlogPost),
+  sanitizePost(instagramDirect as BlogPost),
+  sanitizePost(instagramDirectGid as BlogPost),
+  sanitizePost(shautInstagram as BlogPost),
+  sanitizePost(ssylkaInstagram as BlogPost),
+  sanitizePost(skachatStoriesInstagram as BlogPost),
+  sanitizePost(ideiStorisVk as BlogPost),
+  sanitizePost(aktivnostVk as BlogPost),
+  sanitizePost(ohvatInstagram as BlogPost),
+  sanitizePost(vzaimopiar as BlogPost),
+  sanitizePost(otlozhennyyPostingInstagram as BlogPost),
+  sanitizePost(privetstvieVk as BlogPost),
+  sanitizePost(generatorNikov as BlogPost),
+  sanitizePost(ohvatPodpischikovVk as BlogPost),
+  sanitizePost(podpisFotoInstagram as BlogPost),
+  sanitizePost(spamVk as BlogPost),
+  sanitizePost(urlYoutube as BlogPost),
+  sanitizePost(vovlechennostInstagram as BlogPost),
+  sanitizePost(soobshhestvaVk as BlogPost),
+  sanitizePost(keisyFacebookAds as BlogPost),
+  sanitizePost(zakazchikiKopiraytera as BlogPost),
+  sanitizePost(naytiChelovekaInstagram as BlogPost),
+  sanitizePost(postFacebook as BlogPost),
+  sanitizePost(videoStoriesInstagram as BlogPost),
+  sanitizePost(udalenieAkkauntaInstagram as BlogPost),
+  sanitizePost(geymifikatsiyaSocseti as BlogPost),
+  sanitizePost(arhivInstagram as BlogPost),
+  sanitizePost(ssylkaStoriesInstagram as BlogPost),
+  sanitizePost(zarabotokGruppyVk as BlogPost),
+  sanitizePost(neskolkoStoriesInstagram as BlogPost),
+  sanitizePost(emodzi as BlogPost),
+  sanitizePost(vovlechennostSocseti as BlogPost),
+  sanitizePost(sekretnyyChatTelegram as BlogPost),
+  sanitizePost(pinterest as BlogPost),
+  sanitizePost(vtoroyAkkauntInstagram as BlogPost),
+  sanitizePost(prosmotryStoriesInstagram as BlogPost),
+  sanitizePost(promoInstagram as BlogPost),
+  sanitizePost(zakrytyyAkkauntInstagram as BlogPost),
+  sanitizePost(prosmotrZakrytogoAkkaunta as BlogPost),
+  sanitizePost(sohranenieEfiraInstagram as BlogPost),
+  sanitizePost(muzykaStoriesInstagram as BlogPost),
+  sanitizePost(rekomendatsiiTiktok as BlogPost),
+  sanitizePost(nazvanieAuditoriiInstagram as BlogPost),
+  sanitizePost(nastroikaReklamyInstagram as BlogPost),
+  sanitizePost(reklamaTiktok as BlogPost),
+  sanitizePost(oshibkiSmm as BlogPost),
+  sanitizePost(analitikaTelegram as BlogPost),
+  sanitizePost(udalenieBotovInstagram as BlogPost),
+  sanitizePost(ssylkiVInstagram as BlogPost),
+  sanitizePost(bazaEmailSocseti as BlogPost),
+  sanitizePost(verifikatsiyaInstagram as BlogPost),
+  sanitizePost(socsetiISeo as BlogPost),
+  sanitizePost(naymSmm as BlogPost),
+  sanitizePost(novostnoySayt as BlogPost),
+  sanitizePost(vremyaPostaInstagram as BlogPost),
+  sanitizePost(inflyuenserMarketing as BlogPost),
+  sanitizePost(vidyKontentaSocseti as BlogPost),
+  sanitizePost(triggernyeRassylki as BlogPost),
+  sanitizePost(chatBotVk as BlogPost),
+  sanitizePost(ideiStoriesInstagram as BlogPost),
+  sanitizePost(heshtegiInstagram as BlogPost),
+  sanitizePost(smmStrategiya as BlogPost),
+  sanitizePost(rassylkaWhatsapp as BlogPost),
+  sanitizePost(sotsialnyeSeti as BlogPost),
+  sanitizePost(dekorativnyyShriftInstagram as BlogPost),
+  sanitizePost(whatsappVInstagram as BlogPost),
+  sanitizePost(lid as BlogPost),
+  sanitizePost(oblozhkaVk as BlogPost),
+  sanitizePost(istoriyaPoiskaInstagram as BlogPost),
+  sanitizePost(taymkodYoutube as BlogPost),
+  sanitizePost(yumoney as BlogPost),
+  sanitizePost(gaiq as BlogPost),
+  sanitizePost(metategi as BlogPost),
+  sanitizePost(vebInterfeys as BlogPost),
+  sanitizePost(messendzher as BlogPost),
+  sanitizePost(ftp as BlogPost),
+  sanitizePost(runet as BlogPost),
+  sanitizePost(htmlSeo as BlogPost),
+  sanitizePost(adultTrafik as BlogPost),
+  sanitizePost(negativnoeSeo as BlogPost),
+  sanitizePost(poiskovyeSistemy as BlogPost),
+  sanitizePost(rsyaMetrika as BlogPost),
+  sanitizePost(posmotretAvatarInstagram as BlogPost),
+  sanitizePost(glavnayaStranitsa as BlogPost),
+  sanitizePost(zapuskInternetMagazina as BlogPost),
+  sanitizePost(napominanieKlientu as BlogPost),
+  sanitizePost(kontentINativnaya as BlogPost),
+  sanitizePost(tekstGlavnoyStranitsy as BlogPost),
+  sanitizePost(kakNapisatStatyu as BlogPost),
+  sanitizePost(rss as BlogPost),
+  sanitizePost(tzKopiraytera as BlogPost),
+  sanitizePost(zagolovki4u as BlogPost),
+  sanitizePost(oKompanii as BlogPost),
+  sanitizePost(avtovoronkaInstagram as BlogPost),
+  sanitizePost(avtovoronkaVk as BlogPost),
+  sanitizePost(prodayushchiyKontent as BlogPost),
+  sanitizePost(mixedContent as BlogPost),
+  sanitizePost(eatKopirayting as BlogPost),
+  sanitizePost(slogan as BlogPost),
+  sanitizePost(tekstyUzkayaTematika as BlogPost),
+  sanitizePost(videoObzorTovara as BlogPost),
+  sanitizePost(zashchitaKontenta as BlogPost),
+  sanitizePost(matritsaKontenta as BlogPost),
+  sanitizePost(videokontent as BlogPost),
+  sanitizePost(bystreePisatStati as BlogPost),
+  sanitizePost(longrid as BlogPost),
+  sanitizePost(strukturaStati as BlogPost),
+  sanitizePost(stranitsaKontaktov as BlogPost),
+  sanitizePost(prizyvKDeystviyu as BlogPost),
+  sanitizePost(ideiKontentProdvizheniya as BlogPost),
+  sanitizePost(vizualizatsiyaDannyih as BlogPost),
+  sanitizePost(temyDlyaStatey as BlogPost),
+  sanitizePost(gostevoyPost as BlogPost),
+  sanitizePost(besplatnyeSsylki as BlogPost),
+  sanitizePost(kontentnoeProdvizhenie as BlogPost),
+  sanitizePost(kontentB2b as BlogPost),
+  sanitizePost(kartinkiSeo as BlogPost),
+  sanitizePost(klyuchiYandeksDirekt as BlogPost),
+  sanitizePost(byudzhetYandeksDirekt as BlogPost),
+  sanitizePost(mediaplan as BlogPost),
+  sanitizePost(analizReklamnoyKampanii as BlogPost),
+  sanitizePost(saytPeredReklamoy as BlogPost),
+  sanitizePost(googlePartner as BlogPost),
+  sanitizePost(planirovshchikRezultatovGoogle as BlogPost),
+  sanitizePost(adaptivnyyShablonDirekt as BlogPost),
+  sanitizePost(zabluzhdeniyaKonteksta as BlogPost),
+  sanitizePost(moderatsiyaFacebookAds as BlogPost),
+  sanitizePost(targetVk as BlogPost),
+  sanitizePost(kogortnyyAnaliz as BlogPost),
+  sanitizePost(tipyKampaniyGoogleAds as BlogPost),
+  sanitizePost(analizKonkurentovKontekst as BlogPost),
+  sanitizePost(moderatsiyaMeditsina as BlogPost),
+  sanitizePost(podryadchikKontekst as BlogPost),
+  sanitizePost(tipySsylok as BlogPost),
+  sanitizePost(algoritmyGoogle as BlogPost),
+  sanitizePost(zagolovkiH1H6 as BlogPost),
+  sanitizePost(oshibkiNastroykiKonteksta as BlogPost),
+  sanitizePost(indeksatsiyaSayta as BlogPost),
+  sanitizePost(bidder as BlogPost),
+  sanitizePost(klassifikatsiyaZaprosov as BlogPost),
+  sanitizePost(rasshirenieTsenyGoogle as BlogPost),
+  sanitizePost(brifKontekst as BlogPost),
+  sanitizePost(maloPokazov as BlogPost),
+  sanitizePost(formatyIzobrazheniyRsya as BlogPost),
+  sanitizePost(badenBaden as BlogPost),
+  sanitizePost(minusinsk as BlogPost),
+  sanitizePost(auktsionDirekt as BlogPost),
+  sanitizePost(vyborDomena as BlogPost),
+  sanitizePost(primeryEmailRassylok as BlogPost),
+  sanitizePost(emailMarketing2020 as BlogPost),
+  sanitizePost(instrumentyMarketologa as BlogPost),
+  sanitizePost(emailStrategiya as BlogPost),
+  sanitizePost(tekstEmailRassylki as BlogPost),
+  sanitizePost(emailDlyaBiznesa as BlogPost),
+  sanitizePost(verstkaEmail as BlogPost),
+  sanitizePost(oformlenieEmail as BlogPost),
+  sanitizePost(pushUvedomleniya as BlogPost),
+  sanitizePost(uderzhaniePodpischikov as BlogPost),
 ].sort((a, b) => b.date.localeCompare(a.date));
 
 export function getBlogPost(slug: string): BlogPost | undefined {
@@ -903,10 +1390,14 @@ export function getPostPlainText(post: BlogPost): string {
   return parts.join("\n");
 }
 
+/** Слова в теле статьи (title + lead + sections + FAQ). */
+export function getPostWordCount(post: BlogPost): number {
+  return getPostPlainText(post).split(/\s+/).filter(Boolean).length;
+}
+
 /** ~180 wpm for RU longreads */
 export function getReadingMinutes(post: BlogPost): number {
-  const words = getPostPlainText(post).split(/\s+/).filter(Boolean).length;
-  return Math.max(1, Math.ceil(words / 180));
+  return Math.max(1, Math.ceil(getPostWordCount(post) / 180));
 }
 
 export function formatReadingTime(minutes: number): string {
@@ -1635,6 +2126,302 @@ export function getArticleCta(post: BlogPost): { title: string; text: string } {
       title: "Делаете витрину «на глаз»?",
       text: "Закроем дизайн, каталог, оплату, поиск и скорость до запуска рекламы.",
     },
+    "zapusk-internet-magazina": {
+      title: "Запускаете интернет-магазин с нуля?",
+      text: "Соберём этапы: план, поставки, платформа, оплата и спрос — без «магазина за вечер».",
+    },
+    "napominanie-klientu": {
+      title: "Клиенты исчезают после покупки?",
+      text: "Настроим мягкие поводы вернуться: триггеры, корзина, праздники — без спама.",
+    },
+    "kontent-i-nativnaya": {
+      title: "Путаете контент и нативку?",
+      text: "Разложим роли: свои активы и платные интеграции — с маркировкой и KPI.",
+    },
+    "tekst-glavnoy-stranitsy": {
+      title: "Главная забита штампами?",
+      text: "Перепишем оффер без «лучших» и «инновационных» — коротко и с фактами.",
+    },
+    "kak-napisat-statyu": {
+      title: "Статья не складывается?",
+      text: "Соберём цель, план и редактуру — без текста ради объёма.",
+    },
+    "rss": {
+      title: "Нужна лента обновлений?",
+      text: "Настроим RSS/фид для блога и подписчиков — без устаревших «сжигателей» ради галочки.",
+    },
+    "tz-kopiraytera": {
+      title: "Тексты приходят мимо брифа?",
+      text: "Соберём ТЗ: цель, ЦА, факты и приёмка — меньше правок «на вкус».",
+    },
+    "zagolovki-4u": {
+      title: "Заголовки не цепляют?",
+      text: "Соберём 4U: польза, отличие, конкретика и честная срочность.",
+    },
+    "o-kompanii": {
+      title: "«О компании» звучит шаблоном?",
+      text: "Перепишем факты и доказательства — без биографии ради объёма.",
+    },
+    "avtovoronka-instagram": {
+      title: "Воронка в Instagram буксует?",
+      text: "Соберём сценарий профиля и Direct — без серого спама.",
+    },
+    "avtovoronka-vk": {
+      title: "Сообщения VK не конвертят?",
+      text: "Соберём opt-in цепочку сообщества — с замером ступеней.",
+    },
+    "prodayushchiy-kontent": {
+      title: "Лента не продаёт?",
+      text: "Соберём микс оффера и пользы — с планом и честным CTA.",
+    },
+    "mixed-content": {
+      title: "HTTPS есть, замок ругается?",
+      text: "Найдём mixed content и починим http-ресурсы на ключевых шаблонах.",
+    },
+    "eat-kopirayting": {
+      title: "Тексты без доверия?",
+      text: "Соберём E-E-A-T: автор, факты и честный оффер — особенно для YMYL.",
+    },
+    "slogan": {
+      title: "Слоган не цепляет?",
+      text: "Соберём короткую правдивую фразу — без генератора ради галочки.",
+    },
+    "teksty-uzkaya-tematika": {
+      title: "Узкая ниша, слабые тексты?",
+      text: "Соберём факты, язык новичка и экспертность — без воды.",
+    },
+    "video-obzor-tovara": {
+      title: "Карточка без видео?",
+      text: "Снимем короткий обзор топ-SKU — свет, ракурсы и CTA рядом.",
+    },
+    "zashchita-kontenta": {
+      title: "Тексты воруют?",
+      text: "Настроим мониторинг копий и порядок действий — без культа правого клика.",
+    },
+    "matritsa-kontenta": {
+      title: "Посты без логики?",
+      text: "Соберём матрицу: этап пути, цель, канал и формат — потом календарь.",
+    },
+    "videokontent": {
+      title: "Видео ради галочки?",
+      text: "Выберем формат под задачу — сценарий, свет и CTA без студии «на всё».",
+    },
+    "bystree-pisat-stati": {
+      title: "Статьи пишутся вечность?",
+      text: "Соберём темп: план, фокус-блок и правка после черновика.",
+    },
+    "longrid": {
+      title: "Нужен глубокий материал?",
+      text: "Соберём лонгрид: сюжет, структура и вёрстка под дочитывание.",
+    },
+    "struktura-stati": {
+      title: "Статья без каркаса?",
+      text: "Разложим H2/H3 под вопросы читателя — без шаблона «на всё».",
+    },
+    "stranitsa-kontaktov": {
+      title: "Контакты как квест?",
+      text: "Соберём страницу: NAP, карта, кликабельная связь и форма без свалки.",
+    },
+    "prizyv-k-deystviyu": {
+      title: "Кнопка есть — заявок нет?",
+      text: "Сформулируем CTA под цель страницы и замерим клики без фальшивого дефицита.",
+    },
+    "idei-kontent-prodvizheniya": {
+      title: "Блог без тем?",
+      text: "Подберём форматы: how-to, гайды, кейсы и разбор мифов под ваш спрос.",
+    },
+    "vizualizatsiya-dannyih": {
+      title: "Отчёты в Excel-хаосе?",
+      text: "Соберём дашборд: источники, метрики и инструмент под команду.",
+    },
+    "temy-dlya-statey": {
+      title: "Не о чем писать?",
+      text: "Соберём бэклог тем: вопросы ЦА, семантика и углы без копипаста.",
+    },
+    "gostevoy-post": {
+      title: "Нужна площадка для гостевого?",
+      text: "Отберём доноров по аудитории и качеству — без ссылочного спама.",
+    },
+    "besplatnye-ssylki": {
+      title: "Ссылки без бюджета?",
+      text: "Разберём честные источники упоминаний — без прогонов и фейковых аккаунтов.",
+    },
+    "kontentnoe-prodvizhenie": {
+      title: "Контент не двигает сайт?",
+      text: "Сверим 8 опор: польза, ключи без спама, обновления и план.",
+    },
+    "kontent-b2b": {
+      title: "B2B без доказательств?",
+      text: "Соберём отзывы, кейсы и понятную связь — без пустых % из чужих обзоров.",
+    },
+    "kartinki-seo": {
+      title: "Картинки тормозят сайт?",
+      text: "Подберём визуал, вес и alt — без стока и переспама в имени файла.",
+    },
+    "klyuchi-yandeks-direkt": {
+      title: "Сколько ключей в Директе?",
+      text: "Соберём ядро под цель: поиск и РСЯ раздельно, без «магического N».",
+    },
+    "byudzhet-yandeks-direkt": {
+      title: "Считаете бюджет Директа?",
+      text: "Прикинем старт от CPA и конверсии — без чужой «минималки».",
+    },
+    "mediaplan": {
+      title: "Собираете медиаплан?",
+      text: "Сведём каналы, бюджет и KPI в одну рабочую таблицу.",
+    },
+    "analiz-reklamnoy-kampanii": {
+      title: "Разбираете кампанию?",
+      text: "Пройдём срезы Метрики и Analytics — от ключей до посадочных.",
+    },
+    "sayt-pered-reklamoy": {
+      title: "Боитесь слить бюджет?",
+      text: "Проверим сайт до запуска: цели, формы, оффер и мобилка.",
+    },
+    "google-partner": {
+      title: "Целитесь в Google Partner?",
+      text: "Разберём сертификацию и пороги — без устаревших цифр из статей.",
+    },
+    "planirovshchik-rezultatov-google": {
+      title: "Планируете бюджет в Ads?",
+      text: "Соберём сценарии Performance Planner под ваш CPA.",
+    },
+    "adaptivnyy-shablon-direkt": {
+      title: "Делаете креатив в Директе?",
+      text: "Соберём адаптивный шаблон под разные блоки без пачки макетов.",
+    },
+    "zabluzhdeniya-konteksta": {
+      title: "Спорите о мифах PPC?",
+      text: "Разберём 15 стереотипов — от ТОП-1 до «утроим бюджет».",
+    },
+    "moderatsiya-facebook-ads": {
+      title: "Отклонили объявление Meta?",
+      text: "Пройдём типичные причины модерации и «тишины» показов.",
+    },
+    "target-vk": {
+      title: "Запускаете таргет VK?",
+      text: "Соберём формат, ЦА и лимит — без устаревших клик-путей.",
+    },
+    "kogortnyy-analiz": {
+      title: "Смотрите удержание каналов?",
+      text: "Разберём когорты: LTV и ROI во времени, не только «вчера».",
+    },
+    "tipy-kampaniy-google-ads": {
+      title: "Выбираете тип кампании Ads?",
+      text: "Сведём поиск, КМС, видео и товары под вашу воронку.",
+    },
+    "analiz-konkurentov-kontekst": {
+      title: "Смотрите конкурентов до запуска?",
+      text: "Разберём выдачу, объявления и лендинги — без копипаста бюджета.",
+    },
+    "moderatsiya-meditsina": {
+      title: "Медицина в Директе и Ads?",
+      text: "Проверим формулировки и сайт под модерацию — без серых обходов.",
+    },
+    "podryadchik-kontekst": {
+      title: "Выбираете подрядчика по контексту?",
+      text: "Соберём KPI, доступы и рамку отчётов — чтобы видеть результат, а не клики.",
+    },
+    "tipy-ssylok": {
+      title: "Строите ссылочный профиль?",
+      text: "Разложим типы ссылок и каналы — без линкоферм и пакетного спама.",
+    },
+    "algoritmy-google": {
+      title: "Растёте в Google без риска?",
+      text: "Сверим контент, ссылки и mobile с логикой апдейтов — без «обхода» фильтров.",
+    },
+    "zagolovki-h1-h6": {
+      title: "Правите H1–H6 на сайте?",
+      text: "Соберём иерархию и ключи без переспама — под интент и сниппет.",
+    },
+    "oshibki-nastroyki-konteksta": {
+      title: "Проверяете настройку контекста?",
+      text: "Пройдём чеклист расширений, гео и посадочных — до слива бюджета.",
+    },
+    "indeksatsiya-sayta": {
+      title: "Страницы не в индексе?",
+      text: "Проверим обход, robots и панели вебмастеров — без прогонов «ради паука».",
+    },
+    "bidder": {
+      title: "Нужен биддер для ставок?",
+      text: "Сверим правила и лимиты с экономикой кампании — или обойдёмся стратегиями кабинета.",
+    },
+    "klassifikatsiya-zaprosov": {
+      title: "Разбираете семантику по интенту?",
+      text: "Разложим запросы по целям и гео — до сборки посадочных.",
+    },
+    "rasshirenie-tseny-google": {
+      title: "Добавляете цены в Google Ads?",
+      text: "Настроим расширение под каталог и сверим с посадочной — без устаревшего UI 2017.",
+    },
+    "brif-kontekst": {
+      title: "Готовите бриф на контекст?",
+      text: "Соберём цели, бюджет и KPI на одной странице — до споров в отчётах.",
+    },
+    "malo-pokazov": {
+      title: "Статус «Мало показов» в Директе?",
+      text: "Пересоберём НЧ-группы и минуса — чтобы хвост снова показывался.",
+    },
+    "formaty-izobrazheniy-rsya": {
+      title: "Креативы для РСЯ?",
+      text: "Доберём размеры под слоты сети — по актуальной справке, не по гайду 2017.",
+    },
+    "baden-baden": {
+      title: "Тексты под риском переспама?",
+      text: "Уберём переоптимизацию и усилим смысл — без культа LSI и «снятия фильтра».",
+    },
+    "minusinsk": {
+      title: "Просадка после ссылочных закупок?",
+      text: "Разберём профиль и уберём контролируемый мусор — без новых пачек «для снятия Минусинска».",
+    },
+    "auktsion-direkt": {
+      title: "Клики дорожают без роста заявок?",
+      text: "Разберём аукцион, качество объявлений и CPA — без ценовых войн и «подпорок».",
+    },
+    "vybor-domena": {
+      title: "Выбираете имя сайта?",
+      text: "Подберём зону и короткое уникальное имя — с проверкой истории до оплаты.",
+    },
+    "primery-email-rassylok": {
+      title: "Письма не открывают?",
+      text: "Разберём оффер, тон и CTA по сильным приёмам — без копирования чужих макетов.",
+    },
+    "email-marketing-2020": {
+      title: "Email «застыл» на дайджестах?",
+      text: "Соберём мобильную вёрстку, триггеры и связку с CRM — без культа AMP из обзоров 2020.",
+    },
+    "instrumenty-marketologa": {
+      title: "Стек сервисов раздулся?",
+      text: "Соберём минимальный набор freemium под KPI — без вечной охоты за «бесплатным навсегда».",
+    },
+    "email-strategiya": {
+      title: "Рассылки без плана?",
+      text: "Соберём стратегию: исследование, карта писем, пилот и тесты — с opt-in базой.",
+    },
+    "tekst-email-rassylki": {
+      title: "Письма открывают, но не кликают?",
+      text: "Разберём цель, язык сегмента и CTA — без кликбейта и «простыни» без действия.",
+    },
+    "email-dlya-biznesa": {
+      title: "Не ясно, нужен ли email?",
+      text: "Сверим тип бизнеса, B2B/B2C и этап роста — и решим, где канал даст повторные касания.",
+    },
+    "verstka-email": {
+      title: "Письмо разъезжается в Outlook?",
+      text: "Соберём табличный HTML и тесты по клиентам — без ставки на «как в браузере».",
+    },
+    "oformlenie-email": {
+      title: "Макет письма не читается?",
+      text: "Выстроим иерархию, модули и единый стиль серии — с ясным CTA сверху.",
+    },
+    "push-uvedomleniya": {
+      title: "Нужен ещё один канал возврата?",
+      text: "Настроим Web Push с нормальным запросом разрешения — без спама во всплывающих окнах.",
+    },
+    "uderzhanie-podpischikov": {
+      title: "Растёт число отписок?",
+      text: "Разберём частоту, мобильный вид и страницу отказа — чтобы база осталась живой.",
+    },
     "tendentsii-veb-dizayna": {
       title: "Обновляете UI ради тренда?",
       text: "Отделим полезные приёмы от моды сезона — под вашу воронку и скорость.",
@@ -1667,6 +2454,658 @@ export function getArticleCta(post: BlogPost): { title: string; text: string } {
       title: "Несколько сайтов режут друг друга в выдаче?",
       text: "Проверим признаки аффилиатов и разведём проекты без клонов под одни ключи.",
     },
+    "agregatory-kontenta": {
+      title: "Запускаете контент-агрегатор?",
+      text: "Соберём архитектуру, источники и фильтры — без копипаста и пустых автостраниц.",
+    },
+    "yuzabiliti": {
+      title: "Сайт неудобный — заявки не идут?",
+      text: "Пройдём сценарии, формы и мобильный путь — без косметики вместо конверсии.",
+    },
+    "den-v-prime": {
+      title: "Хотите понять, как мы работаем?",
+      text: "Расскажем про процессы SEO и рекламы — без мифа про «одну кнопку».",
+    },
+    "vidy-reklamy": {
+      title: "Неясно, какой канал рекламы взять?",
+      text: "Разложим SEO, контекст и таргет под вашу нишу и бюджет.",
+    },
+    "kluchi-youtube": {
+      title: "Видео не находят по поиску?",
+      text: "Соберём семантику под ролики: заголовки, описания, НЧ — без спама тегами.",
+    },
+    "ga4": {
+      title: "Переезжаете на GA4?",
+      text: "Настроим события, ключевые конверсии и проверку в DebugView — без путаницы с UA.",
+    },
+    "adblock": {
+      title: "Цифры в аналитике «дырявые»?",
+      text: "Разберём влияние блокировщиков и как корректно читать отчёты.",
+    },
+    "nakrutka-zriteley-youtube": {
+      title: "Онлайн на стриме «накрутили»?",
+      text: "Разберём риски и белый план набора живой аудитории эфира.",
+    },
+    "tema-wordpress": {
+      title: "Выбираете тему для блога на WP?",
+      text: "Пройдём критерии скорости, гибкости и проверки на staging.",
+    },
+    "veb-arhiv": {
+      title: "Нужна старая версия страницы?",
+      text: "Покажем, как искать снимки в Wayback и что нельзя копировать чужое.",
+    },
+    "vodyanoy-znak": {
+      title: "Спорите, ставить ли watermark?",
+      text: "Разберём защиту, бренд и когда лучше превью без знака.",
+    },
+    "yandeks-disk": {
+      title: "Нужно облако под файлы команды?",
+      text: "Настроим структуру папок и ссылки — без свалки на всём диске.",
+    },
+    "montazh-youtube": {
+      title: "Ролики «сырые» и зритель уходит?",
+      text: "Соберём пайплайн монтажа и подберём редактор под ваш уровень.",
+    },
+    "magnet-ssylka": {
+      title: "Нужно понять magnet URI?",
+      text: "Разберём структуру хэша и риски загрузок — без пиратских схем.",
+    },
+    "virtualnyy-nomer": {
+      title: "Нужна облачная телефония?",
+      text: "Подберём виртуальные линии под коллтрекинг и поддержку — без серых SMS-номеров.",
+    },
+    "parsing-python": {
+      title: "Нужен парсер под задачу?",
+      text: "Подскажем стек и границы сбора — без обхода антибота и серых схем.",
+    },
+    "json": {
+      title: "Путаетесь в JSON и API?",
+      text: "Разберём формат и безопасный разбор ответов — без eval и устаревших трюков.",
+    },
+    "amp": {
+      title: "Думаете, без AMP нет мобильного SEO?",
+      text: "Разберём, зачем формат был нужен и куда переносить скорость сейчас — на свой сайт.",
+    },
+    "parsing-email": {
+      title: "Хотите «спарсить базу» под рассылку?",
+      text: "Покажем риски и легальный набор контактов — без каталогов парсеров почты.",
+    },
+    "crm": {
+      title: "CRM не приживается в отделе?",
+      text: "Подберём систему под воронку и интеграции — без веры в чужой «топ года».",
+    },
+    "meta-description": {
+      title: "Сниппеты не цепляют клик?",
+      text: "Напишем description под интент — без переспама и кликбейта.",
+    },
+    "parsing-auditorii": {
+      title: "Хотите «спарсить» аудиторию конкурента?",
+      text: "Разберём риски и легальные сегменты — без каталогов парсеров.",
+    },
+    "crello": {
+      title: "Нужен визуал для соцсетей без студии?",
+      text: "Подскажем, когда хватает VistaCreate/Crello, а когда — дизайнер.",
+    },
+    "chrome-rasshireniya-marketing": {
+      title: "Браузер тормозит от десятка плагинов?",
+      text: "Соберём короткий стек расширений под маркетинг — без устаревшего топ-25.",
+    },
+    "canva": {
+      title: "Делаете макеты в Canva?",
+      text: "Разберём плюсы конструктора и границы — без иллюзии «дизайнер не нужен».",
+    },
+    "uskorenie-wordpress": {
+      title: "WordPress тормозит на мобильном?",
+      text: "Найдём узкие места: хостинг, тема, плагины и картинки — без гонки за 100/100.",
+    },
+    "pwa": {
+      title: "Думаете про PWA вместо приложения?",
+      text: "Разберём, когда манифест и Service Worker окупаются — без магии SEO.",
+    },
+    "yandeks-spravochnik": {
+      title: "Нет карточки в Яндекс Картах?",
+      text: "Поможем завести и наполнить организацию — с единым NAP и без накрутки отзывов.",
+    },
+    "logotip": {
+      title: "Логотип выглядит случайно?",
+      text: "Соберём знак и правила применения — без хаоса в Canva и чужих копий.",
+    },
+    "google-analytics-nastroyka": {
+      title: "GA4 ещё не стоит на сайте?",
+      text: "Поставим свойство, поток и тег — без гайдов эпохи Universal Analytics.",
+    },
+    "google-otzyvy-klientov": {
+      title: "Нужны отзывы после заказа в Google?",
+      text: "Подключим Customer Reviews по правилам Merchant Center — без накрутки.",
+    },
+    "ip-telefoniya": {
+      title: "Связь в офисе и колл-центре буксует?",
+      text: "Подберём IP-телефонию под очереди и CRM — без ложной экономии на канале.",
+    },
+    "voronka-prodazh-gtm": {
+      title: "Не видно, где рвётся checkout?",
+      text: "Разметим события воронки через GTM и соберём обрывы в GA4 — без гайдов UA.",
+    },
+    "retargeting-direkt": {
+      title: "Ретаргет в Директе жрёт бюджет?",
+      text: "Разберём сегменты Метрики, площадки и креативы — без чужих порогов CTR.",
+    },
+    "google-kalendar": {
+      title: "Встречи и дедлайны в хаосе?",
+      text: "Настроим слои Google Календаря, доступы и рабочие часы под команду.",
+    },
+    "vebvizor": {
+      title: "Цифры есть, а почему уходят — нет?",
+      text: "Включим Вебвизор и разберём сессии на болевых URL — без просмотра всего подряд.",
+    },
+    "google-alerts": {
+      title: "Не видите, что пишут про бренд?",
+      text: "Настроим Google Alerts на упоминания и темы — без шума из слишком общих запросов.",
+    },
+    "istoriya-domena": {
+      title: "Покупаете б/у или дроп-домен?",
+      text: "Проверим архив, ссылки и индекс до оплаты — без мифа «старый домен = ТОП».",
+    },
+    "cms-internet-magazina": {
+      title: "Не уверены, какую CMS взять под магазин?",
+      text: "Разберём минусы Bitrix, Magento, OpenCart, Woo и CS-Cart под ваш каталог.",
+    },
+    "facebook-ads": {
+      title: "Нужен разбор рекламы в экосистеме Meta?",
+      text: "Разложим цели, аудитории и пиксель — без FOMO и цифр охвата 2018 года.",
+    },
+    "ab-testy-reklamy": {
+      title: "Объявления спорят, а бюджета жалко?",
+      text: "Настроим A/B в Директе и Google Ads — решение по CPA, не по CTR за день.",
+    },
+    "novogodnyaya-rasprodazha": {
+      title: "Готовите новогоднюю акцию в контексте?",
+      text: "Соберём прогноз, отдельные кампании и выход после праздников — без чужих графиков США.",
+    },
+    "tilda": {
+      title: "Нужен лендинг на конструкторе?",
+      text: "Соберём структуру и публикацию на Tilda — без мифа «ТОП за два дня».",
+    },
+    "strategii-google-ads": {
+      title: "Автоставки в Google Ads путают?",
+      text: "Выберем класс стратегии под KPI — без каталога кнопок 2018 года.",
+    },
+    "adaptivnye-mediynye-obyavleniya": {
+      title: "RDA в КМС выглядит криво?",
+      text: "Соберём ассеты, кропы и превью — без «залил и забыл».",
+    },
+    "proverka-indeksatsii": {
+      title: "Не ясно, в индексе ли страницы?",
+      text: "Сверим Вебмастер, GSC и site: — и найдём, что блокирует обход.",
+    },
+    "minus-slova-direkt": {
+      title: "Директ кликает мимо оффера?",
+      text: "Соберём минус-слова и кросс-минусовку — без слепых универсальных списков.",
+    },
+    "videoset-yandeksa": {
+      title: "Запускаете видео в Яндексе?",
+      text: "Соберём формат, аудиторию и замер — без опоры на чужие CPV 2018 года.",
+    },
+    "kontent-marketing-metrika": {
+      title: "Контент есть, а цифр нет?",
+      text: "Соберём цели и отчёты Метрики под блог — без культа отказов и лайков.",
+    },
+    "google-merchant-center": {
+      title: "Запускаете товарку в Google?",
+      text: "Соберём фид, Merchant Center и кампанию — без устаревших скринов AdWords.",
+    },
+    "yandeks-iks": {
+      title: "В аудите ещё требуют «прокачать ИКС»?",
+      text: "Переведём задачу на Вебмастер и индекс URL — без гонки за устаревшим баллом.",
+    },
+    "mobile-first-indeks": {
+      title: "Mobile-версия урезана?",
+      text: "Сверим паритет с десктопом под Googlebot Smartphone — без паники из гайдов 2018-го.",
+    },
+    "perenos-direkta-google-ads": {
+      title: "Переносите Директ в Google Ads?",
+      text: "Адаптируем ключи, минусы и тексты — без слепой заливки Excel.",
+    },
+    "yandeks-dialogi": {
+      title: "Нужен чат из поиска Яндекса?",
+      text: "Проверим статус продукта, операторов и CRM — без мёртвой кнопки в выдаче.",
+    },
+    "interfeys-yandeks-direkt": {
+      title: "Путаетесь в кабинете Директа?",
+      text: "Настроим работу отчётами и фильтрами — без устаревших кликов из беты 2018.",
+    },
+    "metrika-posetiteli": {
+      title: "Длинный цикл сделки в Метрике?",
+      text: "Разберём профили посетителей и путь до цели — без путаницы с «Аудиторией».",
+    },
+    "vzveshennyy-ctr-direkt": {
+      title: "Сравниваете объявления только по CTR?",
+      text: "Добавим wCTR и конверсии — без коронации креатива за верхнюю позицию.",
+    },
+    "skorost-sayta": {
+      title: "Сайт тормозит на мобильном?",
+      text: "Снимем lab/field и закроем LCP или TTFB — без культа 100 баллов PageSpeed.",
+    },
+    "yandeks-market": {
+      title: "Выходите на Яндекс Маркет?",
+      text: "Подготовим сайт, YML и доставку под модерацию — без устаревших цифр аудитории.",
+    },
+    "turgenev": {
+      title: "Тексты пахнут переспамом?",
+      text: "Прогоним через риски «Тургенева» и вычитим воду — без культа нулевого балла.",
+    },
+    "proksi-server": {
+      title: "Нужен прокси в инфраструктуре?",
+      text: "Разберём forward и reverse — без серых списков IP и обхода чужих банов.",
+    },
+    "pochta-dlya-domena": {
+      title: "Нужна почта на своём домене?",
+      text: "Подберём провайдера и MX/SPF/DKIM — без устаревших «1000 ящиков бесплатно».",
+    },
+    "wordstat": {
+      title: "Собираете семантику в Wordstat?",
+      text: "Настроим маркеры, операторы и ядро — без культа «голой» частоты и ТОП за месяц.",
+    },
+    "menedzher-paroley": {
+      title: "Пароли расползлись по чатам?",
+      text: "Внедрим менеджер и правила доступа — без устаревшего ТОП-3 и цен 2018 года.",
+    },
+    "wordpress-admin": {
+      title: "Не можете войти в WordPress?",
+      text: "Разберём wp-admin, сброс пароля и типичные сбои — без логина admin «по умолчанию».",
+    },
+    "yandeks-brauzer": {
+      title: "Ставите Яндекс Браузер?",
+      text: "Покажем официальную установку и разбор ошибок — без серых «загрузчиков».",
+    },
+    "robots-txt-joomla": {
+      title: "Robots.txt на Joomla шумит?",
+      text: "Соберём правила под вашу версию CMS — без слепого копипаста шаблона 3.3.",
+    },
+    "modx-local": {
+      title: "Ставите MODX на локаль?",
+      text: "Проведём через хост, БД и setup — без мифов про «лимит 5000 страниц».",
+    },
+    "obzor-brauzerov": {
+      title: "Выбираете браузер под задачи?",
+      text: "Сравним классы по сценариям — без чемпиона из обзора 2018 года.",
+    },
+    "robots-txt-wordpress": {
+      title: "Robots.txt на WordPress путает обход?",
+      text: "Соберём правила без запрета всего wp-content и слепого закрытия категорий.",
+    },
+    "wordpress-plaginy": {
+      title: "Нужно поставить плагин WordPress?",
+      text: "Проведём через каталог, ZIP и FTP — без склада «популярного» на всякий случай.",
+    },
+    "bitrix-publichnyy-razdel": {
+      title: "Путаетесь в панели Битрикс на сайте?",
+      text: "Разберём публичную панель и режим правки — без скринов устаревшей редакции.",
+    },
+    "bitrix-svoystva-infoblokov": {
+      title: "Свойства инфоблока не видны на сайте?",
+      text: "Разберём DISPLAY_PROPERTIES и типы вывода — без слепого копипаста сниппетов.",
+    },
+    "registratsiya-domena": {
+      title: "Регистрируете домен?",
+      text: "Проведём через регистратора, NS и оплату — без устаревших скринов кабинета.",
+    },
+    "bitrix-admin": {
+      title: "Не можете войти в Битрикс?",
+      text: "Разберём /bitrix/admin и сброс пароля — без путаницы с панелью на сайте.",
+    },
+    hosting: {
+      title: "Выбираете хостинг для сайта?",
+      text: "Подскажем тип и критерии — без мифов «аптайм = ТОП» и заказных рейтингов.",
+    },
+    "metrika-karty": {
+      title: "Карты Метрики не дают гипотез?",
+      text: "Разберём клики, формы и связку с Вебвизором — без устаревших скринов кабинета.",
+    },
+    "wordpress-ustanovka": {
+      title: "Ставите WordPress на хостинг?",
+      text: "Проведём через БД, файлы и мастер установки — без гайдов про PHP 4.3.",
+    },
+    "bitrix-plyusy-minusy": {
+      title: "Выбираете Битрикс или сомневаетесь?",
+      text: "Разберём плюсы, минусы и TCO — без рейтингов 2017 и мифа «CMS = ТОП».",
+    },
+    "yandeks-auditorii": {
+      title: "Путаетесь в аудиториях Директа?",
+      text: "Разберём сегменты, Крипту и ретаргет — без чужих «+35% к конверсии».",
+    },
+    "obzor-cms": {
+      title: "Выбираете CMS для сайта?",
+      text: "Сверим задачу и TCO по популярным движкам — без рейтинга «№1 навсегда».",
+    },
+    "obratnyy-zvonok": {
+      title: "Нужен обратный звонок с сайта?",
+      text: "Подскажем форму или виджет и замер в Метрике — без агрессивных попапов.",
+    },
+    "instagram-direct": {
+      title: "Direct превращается в спам или тишину?",
+      text: "Настроим приветствия и SLA ответа — без массовых холодных рассылок.",
+    },
+    "instagram-direct-gid": {
+      title: "Путаетесь в чатах Direct?",
+      text: "Покажем базовые действия мессенджера — без серых рассылок и устаревших скринов.",
+    },
+    "shaut-instagram": {
+      title: "Планируете шаут или SFS?",
+      text: "Разберём обмен упоминаниями и отбор партнёров — без мифа «бесплатно = рост».",
+    },
+    "ssylka-instagram": {
+      title: "Нужна ссылка на профиль Instagram?",
+      text: "Покажем, как скопировать URL и куда ставить — без мифа «ссылка = продажи».",
+    },
+    "skachat-stories-instagram": {
+      title: "Сохраняете Stories?",
+      text: "Разберём архив и Актуальное для своих — без каталога сомнительных скачивателей.",
+    },
+    "idei-storis-vk": {
+      title: "Нужны идеи для сторис VK?",
+      text: "Соберём форматы под нишу — без пустых челленджей «на тысячи просмотров».",
+    },
+    "aktivnost-vk": {
+      title: "Проверяете входы или ER группы VK?",
+      text: "Разведём сессии безопасности и статистику сообщества — без паники из‑за IP.",
+    },
+    "ohvat-instagram": {
+      title: "Не понимаете, куда делся охват?",
+      text: "Разберём reach vs показы и белый рост — без накрутки и ложных гарантий.",
+    },
+    vzaimopiar: {
+      title: "Договариваетесь о взаимопиаре?",
+      text: "Поможем с форматом и партнёрами — без серых бирж накрутки.",
+    },
+    "otlozhennyy-posting-instagram": {
+      title: "Нужна очередь постов в Instagram?",
+      text: "Настроим план и слоты — без серых автопостеров и кражи чужого контента.",
+    },
+    "privetstvie-vk": {
+      title: "Новички теряются в группе VK?",
+      text: "Соберём приветствие и CTA — без культа одного виджета.",
+    },
+    "generator-nikov": {
+      title: "Не можете подобрать свободный ник?",
+      text: "Соберём варианты и проверку на площадке — без мифа «генератор бронирует везде».",
+    },
+    "ohvat-podpischikov-vk": {
+      title: "Охват подписчиков VK проседает?",
+      text: "Разберём метрику и доставку до базы — без накрутки и пустых гарантий.",
+    },
+    "podpis-foto-instagram": {
+      title: "Не знаете, что писать под фото?",
+      text: "Соберём подписи под кадр и тон профиля — без гендерных клише и культа хештегов.",
+    },
+    "spam-vk": {
+      title: "Завалило спамом во ВКонтакте?",
+      text: "Покажем жалобы и защиту аккаунта — без серых рассыльщиков «для роста».",
+    },
+    "url-youtube": {
+      title: "Нужна читаемая ссылка на канал YouTube?",
+      text: "Разберём @handle и смену URL — без устаревших скринов и мифа «любой ник сразу».",
+    },
+    "vovlechennost-instagram": {
+      title: "Не понимаете свой ER в Instagram?",
+      text: "Разберём формулы и рост без накрутки — без культа чужих «обязательных 3%».",
+    },
+    "soobshhestva-vk": {
+      title: "Не знаете, какой тип сообщества VK взять?",
+      text: "Разведём паблик, группу и мероприятие — без устаревших мифов и каталога ботов.",
+    },
+    "keisy-facebook-ads": {
+      title: "Разбираете чужие кейсы Facebook Ads?",
+      text: "Вытащим уроки по цели, тестам и лендингу — без копирования чужого ROI как гарантии.",
+    },
+    "zakazchiki-kopiraytera": {
+      title: "Ищете заказчиков на тексты?",
+      text: "Соберём портфолио и каналы поиска — без демпинга и спам-откликов.",
+    },
+    "nayti-cheloveka-instagram": {
+      title: "Не можете найти человека в Instagram?",
+      text: "Покажем поиск по нику, имени и контактам — без сомнительных «деанон»-сервисов.",
+    },
+    "post-facebook": {
+      title: "Публикации в Facebook не заходят?",
+      text: "Разберём форматы, настройки и продвижение поста — без устаревших скринов кнопок.",
+    },
+    "video-stories-instagram": {
+      title: "Видео в Stories мылится после выгрузки?",
+      text: "Подготовим 9:16 и сценарий публикации — без серых сейверов чужих историй.",
+    },
+    "udalenie-akkaunta-instagram": {
+      title: "Закрываете аккаунт Instagram?",
+      text: "Разведём паузу, смену типа профиля и полное удаление — без устаревших скринов.",
+    },
+    "geymifikatsiya-socseti": {
+      title: "Геймификация не даёт вовлечения?",
+      text: "Соберём простые механики под ЦА — без халявных репостов и каталога серых ботов.",
+    },
+    "arhiv-instagram": {
+      title: "Нужно спрятать пост, но не удалять?",
+      text: "Покажем архив публикаций и возврат в профиль — отдельно от Stories и корзины.",
+    },
+    "ssylka-stories-instagram": {
+      title: "Нужна ссылка в Stories?",
+      text: "Разберём стикер Link и альтернативы — без мифа про «свайп и ровно 10k».",
+    },
+    "zarabotok-gruppy-vk": {
+      title: "Монетизируете группу VK?",
+      text: "Соберём прайс и форматы размещений — без накрутки и чужих «средних зарплат».",
+    },
+    "neskolko-stories-instagram": {
+      title: "Нужна серия Stories, а не один кадр?",
+      text: "Покажем пакет из галереи и порядок кадров — без эмуляторов и серых расширений.",
+    },
+    "emodzi": {
+      title: "Эмодзи в текстах бесят или помогают?",
+      text: "Подберём меру под ЦА — без спама в каждом слове и мифа про ТОП за счёт иконок.",
+    },
+    "vovlechennost-socseti": {
+      title: "Подписчики есть, а диалога нет?",
+      text: "Соберём поводы к ответу и ритм публикаций — без накрутки и чужих «норм ER».",
+    },
+    "sekretnyy-chat-telegram": {
+      title: "Нужна более закрытая переписка в Telegram?",
+      text: "Разберём секретный чат и таймер — без мифа об абсолютной неуязвимости.",
+    },
+    "pinterest": {
+      title: "Разбираете Pinterest с нуля?",
+      text: "Объясним пины, доски и сценарии для идей и трафика — без гарантий продаж.",
+    },
+    "vtoroy-akkaunt-instagram": {
+      title: "Нужен второй профиль Instagram?",
+      text: "Покажем, когда разделять ленты и как добавить аккаунт — без серых мультиклиентов.",
+    },
+    "prosmotry-stories-instagram": {
+      title: "Мало просмотров Stories?",
+      text: "Соберём крючок, диалог и меру в серии — без накрутки просмотров.",
+    },
+    "promo-instagram": {
+      title: "Запускаете промо поста в Instagram?",
+      text: "Настроим цель и бюджет Promote — без путаницы с розничными «промоакциями».",
+    },
+    "zakrytyy-akkaunt-instagram": {
+      title: "Нужен закрытый профиль Instagram?",
+      text: "Настроим приватность и разберём заявки — без путаницы с удалением аккаунта.",
+    },
+    "prosmotr-zakrytogo-akkaunta": {
+      title: "Интересует закрытый аккаунт?",
+      text: "Разберём штатный запрос на подписку — без «взломов» и сомнительных приложений.",
+    },
+    "sohranenie-efira-instagram": {
+      title: "Нужно сохранить эфир Instagram?",
+      text: "Настроим сценарий записи и публикации после Live — без сомнительных сейверов.",
+    },
+    "muzyka-stories-instagram": {
+      title: "Музыка в Stories не находится?",
+      text: "Подскажем штатный стикер и легальный звук в редакторе — без фишинг-обходов.",
+    },
+    "rekomendatsii-tiktok": {
+      title: "Хотите в рекомендации TikTok?",
+      text: "Соберём хук, удержание и серию форматов — без накрутки и устаревших хештегов.",
+    },
+    "nazvanie-auditorii-instagram": {
+      title: "Путаетесь в названиях аудиторий Ads?",
+      text: "Соберём схему имён сегментов для Promote и кабинета — без масслайка.",
+    },
+    "nastroika-reklamy-instagram": {
+      title: "Запускаете таргет Instagram в Meta Ads?",
+      text: "Соберём цель, плейсменты и тестовый бюджет — без устаревших скринов ставок.",
+    },
+    "reklama-tiktok": {
+      title: "Тестируете TikTok Ads?",
+      text: "Соберём вертикальный креатив и цель кампании — без цифр бюджета из 2020.",
+    },
+    "oshibki-smm": {
+      title: "SMM не даёт заявок?",
+      text: "Разберём стратегию, ритм и ЦА — без мифа про «соцсигналы в ТОП».",
+    },
+    "analitika-telegram": {
+      title: "Путаете просмотры Telegram с ER?",
+      text: "Настроим чтение Insights и UTM — без накрутки «глаза».",
+    },
+    "udalenie-botov-instagram": {
+      title: "Много ботов в подписчиках?",
+      text: "Разберём порционную чистку и отказ от накрутки — без автосервисов с паролем.",
+    },
+    "ssylki-v-instagram": {
+      title: "Нужны клики из Instagram на сайт?",
+      text: "Соберём шапку, Stories и UTM — без зоопарка устаревших обходов.",
+    },
+    "baza-email-socseti": {
+      title: "Собираете email из соцсетей?",
+      text: "Настроим форму с согласием и оффер «вне ленты» — без парсинга чужих адресов.",
+    },
+    "verifikatsiya-instagram": {
+      title: "Нужна галочка Instagram?",
+      text: "Разберём, когда верификация уместна и чем опасны посредники «под ключ».",
+    },
+    "socseti-i-seo": {
+      title: "Соцсети не двигают SEO?",
+      text: "Свяжем паблик с посадочными и UTM — без мифов про «вес лайков».",
+    },
+    "naym-smm": {
+      title: "Ищете SMM-специалиста?",
+      text: "Поможем сформулировать KPI и ТЗ на отбор — без гарантий «10k за месяц».",
+    },
+    "novostnoy-sayt": {
+      title: "Новостной сайт буксует в поиске?",
+      text: "Разберём технику, рубрики и дистрибуцию — без обещания мгновенного ТОПа.",
+    },
+    "vremya-posta-instagram": {
+      title: "Не попадаете в пик аудитории?",
+      text: "Сверим слоты со статистикой и контент-планом — без чужих «идеальных часов».",
+    },
+    "inflyuenser-marketing": {
+      title: "Думаете про рекламу у блогеров?",
+      text: "Поможем отделить тест с замером от «моды в смете» и накрученных баз.",
+    },
+    "vidy-kontenta-socseti": {
+      title: "Лента только из акций?",
+      text: "Соберём микс типов контента под нишу — без жёсткой схемы «треть продаж».",
+    },
+    "triggernye-rassylki": {
+      title: "Нужны письма по событиям?",
+      text: "Настроим welcome и корзину с согласием — без спама и парсинга базы.",
+    },
+    "chat-bot-vk": {
+      title: "Сообщения ВК захлёстывают?",
+      text: "Соберём FAQ-бота с выходом на оператора — без спам-рассылок.",
+    },
+    "idei-stories-instagram": {
+      title: "Stories без идей?",
+      text: "Разложим форматы на неделю: польза, диалог и CTA без пустых челленджей.",
+    },
+    "heshtegi-instagram": {
+      title: "Метки не дают охват?",
+      text: "Соберём рабочий пул хештегов и гео под локальный оффер — без спама на 30 тегов.",
+    },
+    "smm-strategiya": {
+      title: "SMM без курса?",
+      text: "Свяжем цели ленты с бизнесом и расставим приоритеты — без wishlist на всё сразу.",
+    },
+    "rassylka-whatsapp": {
+      title: "WhatsApp без спама?",
+      text: "Настроим opt-in и шаблоны через официальный контур — без купленных баз.",
+    },
+    "sotsialnye-seti": {
+      title: "С какой сети начать?",
+      text: "Выберем площадки под задачу и аудиторию — без копирования чужого «ТОП-10».",
+    },
+    "dekorativnyy-shrift-instagram": {
+      title: "Шапка Instagram выглядит шумно?",
+      text: "Соберём ясный оффер и аккуратный визуал — без каши из Unicode и приложений с паролем.",
+    },
+    "whatsapp-v-instagram": {
+      title: "Нужен WhatsApp из шапки Instagram?",
+      text: "Соберём wa.me, оффер в био и маршрут ответа — без зоопарка мультиссылок.",
+    },
+    "lid": {
+      title: "Лиды есть, а сделок мало?",
+      text: "Зафиксируем определение лида, CRM и качество канала — без гонки за дешёвым CPL.",
+    },
+    "oblozhka-vk": {
+      title: "Шапка сообщества VK серая?",
+      text: "Соберём обложку с оффером и безопасной зоной — без устаревших пиксельных сеток.",
+    },
+    "istoriya-poiska-instagram": {
+      title: "Не хотите светить недавний поиск?",
+      text: "Подскажем гигиену аккаунта и очистку истории — без «чистильщиков» с паролем.",
+    },
+    "taymkod-youtube": {
+      title: "Длинный ролик без оглавления?",
+      text: "Соберём главы в описании и ссылки с временем — без устаревших скринов Studio.",
+    },
+    "yumoney": {
+      title: "Нужен кошелёк, а не эквайринг?",
+      text: "Разведём ЮMoney и ЮKassa, лимиты и идентификацию — без скринов 2021 года.",
+    },
+    "gaiq": {
+      title: "Нужен сертификат по Analytics?",
+      text: "Подскажем актуальный путь через Skillshop и практику GA4 — без зубрёжки старого GAIQ.",
+    },
+    "metategi": {
+      title: "Метатеги в каше?",
+      text: "Разложим title, description и robots — без культа keywords и «секретов ТОП».",
+    },
+    "veb-interfeys": {
+      title: "Путаете сайт и веб-интерфейс?",
+      text: "Объясним почту, панели хостинга и кабинеты — без путаницы с API.",
+    },
+    "messendzher": {
+      title: "Какой мессенджер для клиентов?",
+      text: "Выберем канал под ЦА и регламент ответа — без спама и зоопарка иконок.",
+    },
+    "ftp": {
+      title: "Нужен доступ к файлам на хостинге?",
+      text: "Настроим SFTP/клиент и аккуратный обмен — без открытого FTP и потери бэкапа.",
+    },
+    "runet": {
+      title: "Выходите на русскоязычную аудиторию?",
+      text: "Соберём каналы, домены и тон под Рунет — без стереотипов из обзоров 2020.",
+    },
+    "html-seo": {
+      title: "Вёрстка мешает SEO?",
+      text: "Проверим title, H1 и DOM — без мифа, что валидатор сам выводит в ТОП.",
+    },
+    "adult-trafik": {
+      title: "Смотрите в сторону adult-трафика?",
+      text: "Разберём термин и риски — без серых схем и обхода блокировок.",
+    },
+    "negativnoe-seo": {
+      title: "Боитесь атак на сайт в поиске?",
+      text: "Настроим мониторинг и защиту — без «способов забанить конкурента».",
+    },
+    "poiskovye-sistemy": {
+      title: "Смотрите только Яндекс и Google?",
+      text: "Покажем карту поисковиков и когда трогать Bing — без устаревших долей рынка.",
+    },
+    "rsya-metrika": {
+      title: "Монетизируете сайт в РСЯ?",
+      text: "Свяжем доход и аудиторию в Метрике — без скринов кабинета 2018.",
+    },
     "udalennaya-rabota": {
       title: "Удалёнка превращается в хаос?",
       text: "Настроим задачи, ритм статусов и найм по результату — без тотальной слежки.",
@@ -1694,6 +3133,14 @@ export function getArticleCta(post: BlogPost): { title: string; text: string } {
     "glavnaya-internet-magazina": {
       title: "Главная ИМ не продаёт?",
       text: "Соберём шапку, витрину и путь в каталог — без визуального шума и простыни «о нас».",
+    },
+    "glavnaya-stranitsa": {
+      title: "Главная не цепляет?",
+      text: "Соберём оффер, CTA и каркас блоков — без слайдера ради слайдера.",
+    },
+    "posmotret-avatar-instagram": {
+      title: "Нужен аккуратный Instagram*?",
+      text: "Поможем с оформлением профиля и аватаром — без серых «viewer»-сервисов.",
     },
     "razmeshchenie-lendinga": {
       title: "Не знаете, куда повесить лендинг?",
@@ -2866,6 +4313,14 @@ export function getCoverCaption(post: BlogPost): { title: string; subtitle: stri
       title: "Главная ИМ",
       subtitle: "Структура страницы",
     },
+    "glavnaya-stranitsa": {
+      title: "Главная страница",
+      subtitle: "Оффер и внимание",
+    },
+    "posmotret-avatar-instagram": {
+      title: "Аватар Instagram",
+      subtitle: "Как посмотреть целиком",
+    },
     "razmeshchenie-lendinga": {
       title: "Размещение лендинга",
       subtitle: "Домен или сайт",
@@ -3050,6 +4505,302 @@ export function getCoverCaption(post: BlogPost): { title: string; subtitle: stri
       title: "Создание интернет-магазина",
       subtitle: "10 пунктов витрины",
     },
+    "zapusk-internet-magazina": {
+      title: "Запуск интернет-магазина",
+      subtitle: "От плана до рекламы",
+    },
+    "napominanie-klientu": {
+      title: "Напоминание клиенту",
+      subtitle: "Мягкие поводы вернуться",
+    },
+    "kontent-i-nativnaya": {
+      title: "Контент и нативка",
+      subtitle: "В чём разница",
+    },
+    "tekst-glavnoy-stranitsy": {
+      title: "Текст на главной",
+      subtitle: "Чего лучше не писать",
+    },
+    "kak-napisat-statyu": {
+      title: "Как написать статью",
+      subtitle: "Алгоритм для новичков",
+    },
+    "rss": {
+      title: "RSS сайта",
+      subtitle: "Зачем и как подключить",
+    },
+    "tz-kopiraytera": {
+      title: "ТЗ копирайтеру",
+      subtitle: "Бриф без сюрпризов",
+    },
+    "zagolovki-4u": {
+      title: "4U-заголовки",
+      subtitle: "Польза и конкретика",
+    },
+    "o-kompanii": {
+      title: "Раздел «О компании»",
+      subtitle: "Факты вместо штампов",
+    },
+    "avtovoronka-instagram": {
+      title: "Автоворонка Instagram",
+      subtitle: "Сценарий и Direct",
+    },
+    "avtovoronka-vk": {
+      title: "Автоворонка ВКонтакте",
+      subtitle: "Сообщения сообщества",
+    },
+    "prodayushchiy-kontent": {
+      title: "Продающий контент",
+      subtitle: "Виды и план в соцсетях",
+    },
+    "mixed-content": {
+      title: "Mixed content",
+      subtitle: "HTTP на HTTPS-сайте",
+    },
+    "eat-kopirayting": {
+      title: "E-E-A-T копирайтинг",
+      subtitle: "Экспертиза и доверие",
+    },
+    "slogan": {
+      title: "Слоган компании",
+      subtitle: "Короткая фраза бренда",
+    },
+    "teksty-uzkaya-tematika": {
+      title: "Тексты на узкую тему",
+      subtitle: "Факты и язык новичка",
+    },
+    "video-obzor-tovara": {
+      title: "Видеообзор товара",
+      subtitle: "Съёмка для карточки",
+    },
+    "zashchita-kontenta": {
+      title: "Защита контента",
+      subtitle: "От копирования текстов",
+    },
+    "matritsa-kontenta": {
+      title: "Матрица контента",
+      subtitle: "Этап, цель, канал",
+    },
+    "videokontent": {
+      title: "Видеоконтент",
+      subtitle: "Форматы и виды",
+    },
+    "bystree-pisat-stati": {
+      title: "Быстрее писать статьи",
+      subtitle: "Темп без потери качества",
+    },
+    "longrid": {
+      title: "Лонгрид",
+      subtitle: "Глубина и вёрстка",
+    },
+    "struktura-stati": {
+      title: "Структура статьи",
+      subtitle: "H1–H3 и логика",
+    },
+    "stranitsa-kontaktov": {
+      title: "Страница контактов",
+      subtitle: "NAP, карта, связь",
+    },
+    "prizyv-k-deystviyu": {
+      title: "Призыв к действию",
+      subtitle: "CTA без манипуляций",
+    },
+    "idei-kontent-prodvizheniya": {
+      title: "Идеи контента",
+      subtitle: "Форматы для продвижения",
+    },
+    "vizualizatsiya-dannyih": {
+      title: "Визуализация данных",
+      subtitle: "Дашборды и отчёты",
+    },
+    "temy-dlya-statey": {
+      title: "Темы для статей",
+      subtitle: "Где брать идеи",
+    },
+    "gostevoy-post": {
+      title: "Гостевой пост",
+      subtitle: "Выбор площадки",
+    },
+    "besplatnye-ssylki": {
+      title: "Бесплатные ссылки",
+      subtitle: "Без серых схем",
+    },
+    "kontentnoe-prodvizhenie": {
+      title: "Контентное продвижение",
+      subtitle: "8 опор качества",
+    },
+    "kontent-b2b": {
+      title: "Контент для B2B",
+      subtitle: "5 рабочих типов",
+    },
+    "kartinki-seo": {
+      title: "Картинки для SEO",
+      subtitle: "Вес, alt, источники",
+    },
+    "klyuchi-yandeks-direkt": {
+      title: "Ключи в Директе",
+      subtitle: "Объём ядра под цель",
+    },
+    "byudzhet-yandeks-direkt": {
+      title: "Бюджет Директа",
+      subtitle: "Минимум без мифов",
+    },
+    "mediaplan": {
+      title: "Медиаплан",
+      subtitle: "Каналы, бюджет, KPI",
+    },
+    "analiz-reklamnoy-kampanii": {
+      title: "Анализ РК",
+      subtitle: "Чек-лист срезов",
+    },
+    "sayt-pered-reklamoy": {
+      title: "Сайт перед рекламой",
+      subtitle: "Чек-лист без слива",
+    },
+    "google-partner": {
+      title: "Google Partner",
+      subtitle: "Статус без мифов",
+    },
+    "planirovshchik-rezultatov-google": {
+      title: "Планировщик результатов",
+      subtitle: "Сценарии бюджета Ads",
+    },
+    "adaptivnyy-shablon-direkt": {
+      title: "Адаптивный шаблон Директа",
+      subtitle: "Креатив под блоки",
+    },
+    "zabluzhdeniya-konteksta": {
+      title: "Заблуждения о контексте",
+      subtitle: "15 мифов PPC",
+    },
+    "moderatsiya-facebook-ads": {
+      title: "Модерация Facebook Ads",
+      subtitle: "Почему отклонили",
+    },
+    "target-vk": {
+      title: "Таргет ВКонтакте",
+      subtitle: "Настройка по шагам",
+    },
+    "kogortnyy-analiz": {
+      title: "Когортный анализ",
+      subtitle: "Удержание и LTV",
+    },
+    "tipy-kampaniy-google-ads": {
+      title: "Типы кампаний Google Ads",
+      subtitle: "Форматы под задачу",
+    },
+    "analiz-konkurentov-kontekst": {
+      title: "Конкуренты в контексте",
+      subtitle: "До запуска РК",
+    },
+    "moderatsiya-meditsina": {
+      title: "Модерация медрекламы",
+      subtitle: "Директ и Google Ads",
+    },
+    "podryadchik-kontekst": {
+      title: "Подрядчик по контексту",
+      subtitle: "Как проверить работу",
+    },
+    "tipy-ssylok": {
+      title: "Типы ссылок",
+      subtitle: "Каналы линкбилдинга",
+    },
+    "algoritmy-google": {
+      title: "Алгоритмы Google",
+      subtitle: "Рост без санкций",
+    },
+    "zagolovki-h1-h6": {
+      title: "Заголовки H1–H6",
+      subtitle: "Иерархия для SEO",
+    },
+    "oshibki-nastroyki-konteksta": {
+      title: "Ошибки настройки контекста",
+      subtitle: "Чеклист до масштаба",
+    },
+    "indeksatsiya-sayta": {
+      title: "Индексация сайта",
+      subtitle: "Как страницы попадают в базу",
+    },
+    "bidder": {
+      title: "Биддер для контекста",
+      subtitle: "Автоставки с умом",
+    },
+    "klassifikatsiya-zaprosov": {
+      title: "Классификация запросов",
+      subtitle: "По целям и осям",
+    },
+    "rasshirenie-tseny-google": {
+      title: "Расширение «Цены» Ads",
+      subtitle: "Прайс в объявлении",
+    },
+    "brif-kontekst": {
+      title: "Бриф на контекст",
+      subtitle: "Цели до запуска",
+    },
+    "malo-pokazov": {
+      title: "Мало показов в Директе",
+      subtitle: "Как вернуть НЧ",
+    },
+    "formaty-izobrazheniy-rsya": {
+      title: "Форматы картинок РСЯ",
+      subtitle: "Размеры под слоты",
+    },
+    "baden-baden": {
+      title: "Баден-Баден и тексты",
+      subtitle: "Без переспама",
+    },
+    "minusinsk": {
+      title: "Минусинск и ссылки",
+      subtitle: "Качество доноров",
+    },
+    "auktsion-direkt": {
+      title: "Аукцион Директа",
+      subtitle: "Ставка и качество",
+    },
+    "vybor-domena": {
+      title: "Как выбрать домен",
+      subtitle: "Имя и зона",
+    },
+    "primery-email-rassylok": {
+      title: "Примеры email-писем",
+      subtitle: "Приёмы брендов",
+    },
+    "email-marketing-2020": {
+      title: "Email: уроки 2020",
+      subtitle: "Мобилка и CRM",
+    },
+    "instrumenty-marketologa": {
+      title: "Инструменты маркетолога",
+      subtitle: "Freemium-стек",
+    },
+    "email-strategiya": {
+      title: "Email-стратегия",
+      subtitle: "От аудита до тестов",
+    },
+    "tekst-email-rassylki": {
+      title: "Текст email-рассылки",
+      subtitle: "5 шагов к CTA",
+    },
+    "email-dlya-biznesa": {
+      title: "Email для бизнеса",
+      subtitle: "Кому канал нужен",
+    },
+    "verstka-email": {
+      title: "Вёрстка HTML-писем",
+      subtitle: "Таблицы и тесты",
+    },
+    "oformlenie-email": {
+      title: "Оформление рассылки",
+      subtitle: "Иерархия и стиль",
+    },
+    "push-uvedomleniya": {
+      title: "Push-уведомления",
+      subtitle: "Браузер и события",
+    },
+    "uderzhanie-podpischikov": {
+      title: "Удержание подписчиков",
+      subtitle: "Меньше отписок",
+    },
     "tendentsii-veb-dizayna": {
       title: "Тенденции веб-дизайна",
       subtitle: "Ретроспектива 2018",
@@ -3081,6 +4832,658 @@ export function getCoverCaption(post: BlogPost): { title: string; subtitle: stri
     "affiliat-filtr": {
       title: "Аффилиат-фильтр",
       subtitle: "Сайты-аффилиаты",
+    },
+    "agregatory-kontenta": {
+      title: "Агрегаторы контента",
+      subtitle: "Типы и запуск",
+    },
+    "yuzabiliti": {
+      title: "Юзабилити сайта",
+      subtitle: "Удобство и конверсия",
+    },
+    "den-v-prime": {
+      title: "День в PRIME",
+      subtitle: "Из жизни агентства",
+    },
+    "vidy-reklamy": {
+      title: "Виды рекламы",
+      subtitle: "Что приводит клиентов",
+    },
+    "kluchi-youtube": {
+      title: "Ключи для YouTube",
+      subtitle: "Семантика под видео",
+    },
+    "ga4": {
+      title: "Google Analytics 4",
+      subtitle: "События вместо UA",
+    },
+    "adblock": {
+      title: "AdBlock",
+      subtitle: "Блокировщик рекламы",
+    },
+    "nakrutka-zriteley-youtube": {
+      title: "Накрутка зрителей YouTube",
+      subtitle: "Риски стрима",
+    },
+    "tema-wordpress": {
+      title: "Тема WordPress",
+      subtitle: "Выбор для блога",
+    },
+    "veb-arhiv": {
+      title: "Веб-архив",
+      subtitle: "Wayback Machine",
+    },
+    "vodyanoy-znak": {
+      title: "Водяной знак",
+      subtitle: "Watermark на фото",
+    },
+    "yandeks-disk": {
+      title: "Яндекс Диск",
+      subtitle: "Облако для файлов",
+    },
+    "montazh-youtube": {
+      title: "Монтаж для YouTube",
+      subtitle: "Редакторы и пайплайн",
+    },
+    "magnet-ssylka": {
+      title: "Магнет-ссылка",
+      subtitle: "Magnet URI",
+    },
+    "virtualnyy-nomer": {
+      title: "Виртуальный номер",
+      subtitle: "Облачная телефония",
+    },
+    "parsing-python": {
+      title: "Парсинг на Python",
+      subtitle: "Старт для новичка",
+    },
+    "json": {
+      title: "JSON",
+      subtitle: "Формат данных",
+    },
+    "amp": {
+      title: "AMP-страницы",
+      subtitle: "Нужны ли сейчас",
+    },
+    "parsing-email": {
+      title: "Парсинг email",
+      subtitle: "Риски и альтернативы",
+    },
+    "crm": {
+      title: "CRM-система",
+      subtitle: "Как выбрать",
+    },
+    "meta-description": {
+      title: "Meta description",
+      subtitle: "Тег и сниппет",
+    },
+    "parsing-auditorii": {
+      title: "Парсинг аудитории",
+      subtitle: "Риски и альтернативы",
+    },
+    "crello": {
+      title: "Crello / VistaCreate",
+      subtitle: "Онлайн-редактор",
+    },
+    "chrome-rasshireniya-marketing": {
+      title: "Chrome для маркетинга",
+      subtitle: "Расширения по задачам",
+    },
+    "canva": {
+      title: "Canva",
+      subtitle: "Плюсы и минусы",
+    },
+    "uskorenie-wordpress": {
+      title: "Ускорение WordPress",
+      subtitle: "Хостинг и плагины",
+    },
+    "pwa": {
+      title: "PWA",
+      subtitle: "Веб как приложение",
+    },
+    "yandeks-spravochnik": {
+      title: "Яндекс Справочник",
+      subtitle: "Карточка организации",
+    },
+    "logotip": {
+      title: "Логотип компании",
+      subtitle: "Типы и критерии",
+    },
+    "google-analytics-nastroyka": {
+      title: "Настройка GA4",
+      subtitle: "Для новичков",
+    },
+    "google-otzyvy-klientov": {
+      title: "Google Отзывы клиентов",
+      subtitle: "Customer Reviews",
+    },
+    "ip-telefoniya": {
+      title: "IP-телефония",
+      subtitle: "VoIP для бизнеса",
+    },
+    "voronka-prodazh-gtm": {
+      title: "Воронка через GTM",
+      subtitle: "События checkout",
+    },
+    "retargeting-direkt": {
+      title: "Ретаргет в Директе",
+      subtitle: "Сегменты и РСЯ",
+    },
+    "google-kalendar": {
+      title: "Google Календарь",
+      subtitle: "Для работы",
+    },
+    "vebvizor": {
+      title: "Яндекс Вебвизор",
+      subtitle: "Записи сессий",
+    },
+    "google-alerts": {
+      title: "Google Alerts",
+      subtitle: "Мониторинг упоминаний",
+    },
+    "istoriya-domena": {
+      title: "История домена",
+      subtitle: "Перед покупкой",
+    },
+    "cms-internet-magazina": {
+      title: "CMS для магазина",
+      subtitle: "Минусы платформ",
+    },
+    "facebook-ads": {
+      title: "Facebook Ads",
+      subtitle: "Логика канала",
+    },
+    "ab-testy-reklamy": {
+      title: "A/B в контексте",
+      subtitle: "Директ и Google Ads",
+    },
+    "novogodnyaya-rasprodazha": {
+      title: "Новогодняя распродажа",
+      subtitle: "Директ и Google Ads",
+    },
+    "tilda": {
+      title: "Сайт на Tilda",
+      subtitle: "Лендинг по шагам",
+    },
+    "strategii-google-ads": {
+      title: "Стратегии Google Ads",
+      subtitle: "Smart Bidding",
+    },
+    "adaptivnye-mediynye-obyavleniya": {
+      title: "Адаптивные RDA",
+      subtitle: "Медийка Google Ads",
+    },
+    "proverka-indeksatsii": {
+      title: "Проверка индексации",
+      subtitle: "Google и Яндекс",
+    },
+    "minus-slova-direkt": {
+      title: "Минус-слова в Директе",
+      subtitle: "Чистка спроса",
+    },
+    "videoset-yandeksa": {
+      title: "Видеосеть Яндекса",
+      subtitle: "Форматы и оценка",
+    },
+    "kontent-marketing-metrika": {
+      title: "Контент в Метрике",
+      subtitle: "Отчёты и цели",
+    },
+    "google-merchant-center": {
+      title: "Google Merchant Center",
+      subtitle: "Фид и Shopping",
+    },
+    "yandeks-iks": {
+      title: "Яндекс ИКС",
+      subtitle: "История метрики",
+    },
+    "mobile-first-indeks": {
+      title: "Mobile-First Index",
+      subtitle: "Индекс Google",
+    },
+    "perenos-direkta-google-ads": {
+      title: "Директ → Google Ads",
+      subtitle: "Перенос кампаний",
+    },
+    "yandeks-dialogi": {
+      title: "Чат в Яндексе",
+      subtitle: "Диалоги с компанией",
+    },
+    "interfeys-yandeks-direkt": {
+      title: "Интерфейс Директа",
+      subtitle: "Работа от статистики",
+    },
+    "metrika-posetiteli": {
+      title: "Посетители в Метрике",
+      subtitle: "Профили и цикл",
+    },
+    "vzveshennyy-ctr-direkt": {
+      title: "Взвешенный CTR",
+      subtitle: "Директ и креативы",
+    },
+    "skorost-sayta": {
+      title: "Скорость сайта",
+      subtitle: "Замер и CWV",
+    },
+    "yandeks-market": {
+      title: "Яндекс Маркет",
+      subtitle: "Размещение магазина",
+    },
+    "turgenev": {
+      title: "Сервис Тургенев",
+      subtitle: "Риск переоптимизации",
+    },
+    "proksi-server": {
+      title: "Прокси-сервер",
+      subtitle: "Forward и reverse",
+    },
+    "pochta-dlya-domena": {
+      title: "Почта для домена",
+      subtitle: "MX и корпоративный ящик",
+    },
+    "wordstat": {
+      title: "Яндекс Wordstat",
+      subtitle: "Статистика запросов",
+    },
+    "menedzher-paroley": {
+      title: "Менеджер паролей",
+      subtitle: "Как выбрать",
+    },
+    "wordpress-admin": {
+      title: "Админка WordPress",
+      subtitle: "Вход и восстановление",
+    },
+    "yandeks-brauzer": {
+      title: "Яндекс Браузер",
+      subtitle: "Установка",
+    },
+    "robots-txt-joomla": {
+      title: "Robots.txt для Joomla",
+      subtitle: "Правила обхода",
+    },
+    "modx-local": {
+      title: "MODX локально",
+      subtitle: "Установка на OSPanel",
+    },
+    "obzor-brauzerov": {
+      title: "Обзор браузеров",
+      subtitle: "Как выбрать",
+    },
+    "robots-txt-wordpress": {
+      title: "Robots.txt для WordPress",
+      subtitle: "Правила обхода",
+    },
+    "wordpress-plaginy": {
+      title: "Плагины WordPress",
+      subtitle: "Как установить",
+    },
+    "bitrix-publichnyy-razdel": {
+      title: "Публичный раздел Битрикс",
+      subtitle: "Панель и правка",
+    },
+    "bitrix-svoystva-infoblokov": {
+      title: "Свойства инфоблоков",
+      subtitle: "Вывод в шаблоне",
+    },
+    "registratsiya-domena": {
+      title: "Регистрация домена",
+      subtitle: "У регистратора",
+    },
+    "bitrix-admin": {
+      title: "Админка Битрикс",
+      subtitle: "Вход и восстановление",
+    },
+    hosting: {
+      title: "Хостинг",
+      subtitle: "Типы и выбор",
+    },
+    "metrika-karty": {
+      title: "Карты Метрики",
+      subtitle: "Клики и формы",
+    },
+    "wordpress-ustanovka": {
+      title: "Установка WordPress",
+      subtitle: "На хостинг",
+    },
+    "bitrix-plyusy-minusy": {
+      title: "Плюсы и минусы Битрикс",
+      subtitle: "Когда уместен",
+    },
+    "yandeks-auditorii": {
+      title: "Аудитории Яндекса",
+      subtitle: "Крипта и сегменты",
+    },
+    "obzor-cms": {
+      title: "Обзор CMS",
+      subtitle: "Какой движок взять",
+    },
+    "obratnyy-zvonok": {
+      title: "Обратный звонок",
+      subtitle: "Форма и виджет",
+    },
+    "instagram-direct": {
+      title: "Direct Instagram",
+      subtitle: "Приветствия без спама",
+    },
+    "instagram-direct-gid": {
+      title: "Direct: как пользоваться",
+      subtitle: "Мессенджер в приложении",
+    },
+    "shaut-instagram": {
+      title: "Шаут в Instagram",
+      subtitle: "SFS и обмен",
+    },
+    "ssylka-instagram": {
+      title: "Ссылка на Instagram",
+      subtitle: "URL профиля",
+    },
+    "skachat-stories-instagram": {
+      title: "Сохранить Stories",
+      subtitle: "Архив и осторожность",
+    },
+    "idei-storis-vk": {
+      title: "Идеи Stories VK",
+      subtitle: "Форматы вовлечения",
+    },
+    "aktivnost-vk": {
+      title: "Активность ВК",
+      subtitle: "Сессии и группа",
+    },
+    "ohvat-instagram": {
+      title: "Охват Instagram",
+      subtitle: "Reach и показы",
+    },
+    vzaimopiar: {
+      title: "Взаимопиар",
+      subtitle: "Обмен без серых схем",
+    },
+    "otlozhennyy-posting-instagram": {
+      title: "Отложенный постинг",
+      subtitle: "Очередь в Instagram",
+    },
+    "privetstvie-vk": {
+      title: "Приветствие VK",
+      subtitle: "Гости и подписчики",
+    },
+    "generator-nikov": {
+      title: "Генератор ников",
+      subtitle: "Свободный логин",
+    },
+    "ohvat-podpischikov-vk": {
+      title: "Охват подписчиков VK",
+      subtitle: "Доставка до базы",
+    },
+    "podpis-foto-instagram": {
+      title: "Подпись к фото",
+      subtitle: "Текст в Instagram",
+    },
+    "spam-vk": {
+      title: "Спам VK",
+      subtitle: "Жалоба и защита",
+    },
+    "url-youtube": {
+      title: "URL канала YouTube",
+      subtitle: "Короткая ссылка",
+    },
+    "vovlechennost-instagram": {
+      title: "Вовлечённость Instagram",
+      subtitle: "ER и анализ",
+    },
+    "soobshhestva-vk": {
+      title: "Сообщества VK",
+      subtitle: "Паблик, группа, ивент",
+    },
+    "keisy-facebook-ads": {
+      title: "Кейсы Facebook Ads",
+      subtitle: "Ошибки и уроки",
+    },
+    "zakazchiki-kopiraytera": {
+      title: "Заказчики копирайтеру",
+      subtitle: "Поиск клиентов",
+    },
+    "nayti-cheloveka-instagram": {
+      title: "Найти в Instagram",
+      subtitle: "Поиск человека",
+    },
+    "post-facebook": {
+      title: "Публикация в Facebook",
+      subtitle: "Форматы и настройки",
+    },
+    "video-stories-instagram": {
+      title: "Видео в Stories",
+      subtitle: "Публикация и качество",
+    },
+    "udalenie-akkaunta-instagram": {
+      title: "Удаление Instagram",
+      subtitle: "Пауза и закрытие",
+    },
+    "geymifikatsiya-socseti": {
+      title: "Геймификация",
+      subtitle: "Механики в соцсетях",
+    },
+    "arhiv-instagram": {
+      title: "Архив Instagram",
+      subtitle: "Скрыть пост",
+    },
+    "ssylka-stories-instagram": {
+      title: "Ссылка в Stories",
+      subtitle: "Стикер и CTA",
+    },
+    "zarabotok-gruppy-vk": {
+      title: "Заработок на группе VK",
+      subtitle: "Реклама и партнёрки",
+    },
+    "neskolko-stories-instagram": {
+      title: "Несколько Stories",
+      subtitle: "Серия подряд",
+    },
+    "emodzi": {
+      title: "Эмодзи",
+      subtitle: "Маркетинг и тон",
+    },
+    "vovlechennost-socseti": {
+      title: "Вовлечённость в соцсетях",
+      subtitle: "От подписчиков к диалогу",
+    },
+    "sekretnyy-chat-telegram": {
+      title: "Секретный чат Telegram",
+      subtitle: "E2E и таймер",
+    },
+    "pinterest": {
+      title: "Pinterest",
+      subtitle: "Пины и доски",
+    },
+    "vtoroy-akkaunt-instagram": {
+      title: "Второй аккаунт Instagram",
+      subtitle: "Зачем и как добавить",
+    },
+    "prosmotry-stories-instagram": {
+      title: "Просмотры Stories",
+      subtitle: "Рост без накрутки",
+    },
+    "promo-instagram": {
+      title: "Промоакция Instagram",
+      subtitle: "Буст поста",
+    },
+    "zakrytyy-akkaunt-instagram": {
+      title: "Закрытый аккаунт",
+      subtitle: "Приватность",
+    },
+    "prosmotr-zakrytogo-akkaunta": {
+      title: "Просмотр закрытого",
+      subtitle: "Только легально",
+    },
+    "sohranenie-efira-instagram": {
+      title: "Сохранение эфира",
+      subtitle: "После Live",
+    },
+    "muzyka-stories-instagram": {
+      title: "Музыка в Stories",
+      subtitle: "Стикер и звук",
+    },
+    "rekomendatsii-tiktok": {
+      title: "Рекомендации TikTok",
+      subtitle: "For You",
+    },
+    "nazvanie-auditorii-instagram": {
+      title: "Название аудитории",
+      subtitle: "Ярлыки Ads",
+    },
+    "nastroika-reklamy-instagram": {
+      title: "Реклама Instagram",
+      subtitle: "Через Meta Ads",
+    },
+    "reklama-tiktok": {
+      title: "Реклама TikTok",
+      subtitle: "Ads Manager",
+    },
+    "oshibki-smm": {
+      title: "Ошибки SMM",
+      subtitle: "Что ломает рост",
+    },
+    "analitika-telegram": {
+      title: "Аналитика Telegram",
+      subtitle: "Просмотры и охват",
+    },
+    "udalenie-botov-instagram": {
+      title: "Боты в Instagram",
+      subtitle: "Чистка базы",
+    },
+    "ssylki-v-instagram": {
+      title: "Ссылки в Instagram",
+      subtitle: "Шапка и Stories",
+    },
+    "baza-email-socseti": {
+      title: "Email из соцсетей",
+      subtitle: "База с согласием",
+    },
+    "verifikatsiya-instagram": {
+      title: "Верификация Instagram",
+      subtitle: "Синяя галочка",
+    },
+    "socseti-i-seo": {
+      title: "Соцсети и SEO",
+      subtitle: "Трафик и бренд",
+    },
+    "naym-smm": {
+      title: "Найм SMM",
+      subtitle: "Как выбрать специалиста",
+    },
+    "novostnoy-sayt": {
+      title: "Новостной сайт",
+      subtitle: "SEO и дистрибуция",
+    },
+    "vremya-posta-instagram": {
+      title: "Время поста Instagram",
+      subtitle: "Слоты под аудиторию",
+    },
+    "inflyuenser-marketing": {
+      title: "Инфлюенсер-маркетинг",
+      subtitle: "Мода или инструмент",
+    },
+    "vidy-kontenta-socseti": {
+      title: "Виды контента",
+      subtitle: "Микс для соцсетей",
+    },
+    "triggernye-rassylki": {
+      title: "Триггерные рассылки",
+      subtitle: "Письма по событиям",
+    },
+    "chat-bot-vk": {
+      title: "Чат-бот ВКонтакте",
+      subtitle: "FAQ и заявки",
+    },
+    "idei-stories-instagram": {
+      title: "Идеи Stories Instagram",
+      subtitle: "Форматы на неделю",
+    },
+    "heshtegi-instagram": {
+      title: "Хештеги и гео Instagram",
+      subtitle: "Метки без спама",
+    },
+    "smm-strategiya": {
+      title: "SMM-стратегия",
+      subtitle: "Цели и приоритеты",
+    },
+    "rassylka-whatsapp": {
+      title: "Рассылка WhatsApp",
+      subtitle: "API и согласие",
+    },
+    "sotsialnye-seti": {
+      title: "Социальные сети",
+      subtitle: "История и виды",
+    },
+    "dekorativnyy-shrift-instagram": {
+      title: "Декоративный шрифт Instagram",
+      subtitle: "Био и текст на фото",
+    },
+    "whatsapp-v-instagram": {
+      title: "WhatsApp в Instagram",
+      subtitle: "Ссылка wa.me в шапке",
+    },
+    "lid": {
+      title: "Что такое лид",
+      subtitle: "Контакт и качество",
+    },
+    "oblozhka-vk": {
+      title: "Обложка сообщества VK",
+      subtitle: "Макет и загрузка",
+    },
+    "istoriya-poiska-instagram": {
+      title: "История поиска Instagram",
+      subtitle: "Просмотр и очистка",
+    },
+    "taymkod-youtube": {
+      title: "Таймкод YouTube",
+      subtitle: "Главы и ссылка с временем",
+    },
+    "yumoney": {
+      title: "ЮMoney",
+      subtitle: "Кошелёк и лимиты",
+    },
+    "gaiq": {
+      title: "GAIQ и сертификация GA",
+      subtitle: "История и Skillshop",
+    },
+    "metategi": {
+      title: "Метатеги",
+      subtitle: "Title, description, robots",
+    },
+    "veb-interfeys": {
+      title: "Веб-интерфейс",
+      subtitle: "Браузер как панель управления",
+    },
+    "messendzher": {
+      title: "Мессенджер",
+      subtitle: "Чаты и бизнес-каналы",
+    },
+    "ftp": {
+      title: "FTP и SFTP",
+      subtitle: "Файлы сайта с компьютера",
+    },
+    "runet": {
+      title: "Рунет",
+      subtitle: "Сегмент и особенности",
+    },
+    "html-seo": {
+      title: "HTML и SEO",
+      subtitle: "Разметка для поиска",
+    },
+    "adult-trafik": {
+      title: "Adult-трафик",
+      subtitle: "Термин и риски",
+    },
+    "negativnoe-seo": {
+      title: "Негативное SEO",
+      subtitle: "Угрозы и защита",
+    },
+    "poiskovye-sistemy": {
+      title: "Поисковые системы",
+      subtitle: "Не только Яндекс и Google",
+    },
+    "rsya-metrika": {
+      title: "РСЯ в Метрике",
+      subtitle: "Денежные показатели",
     },
     "feyk-stranitsa": {
       title: "Фейк-страница",

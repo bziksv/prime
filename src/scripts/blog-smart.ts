@@ -260,39 +260,49 @@ export function formatReadingTime(minutes: number): string {
   return `${n} мин чтения`;
 }
 
-const VIEWS_KEY = "prime-blog-views-v1";
+const VIEWS_API = "/api/blog-views.php";
 
-export function readStoredViews(): Record<string, number> {
+export type BlogViewsResponse = {
+  slug: string;
+  views: number;
+  counted?: boolean;
+};
+
+/** Read views without incrementing (null if API unavailable). */
+export async function fetchBlogViews(slug: string): Promise<number | null> {
   try {
-    const raw = localStorage.getItem(VIEWS_KEY);
-    if (!raw) return {};
-    const parsed = JSON.parse(raw) as Record<string, number>;
-    return parsed && typeof parsed === "object" ? parsed : {};
+    const res = await fetch(`${VIEWS_API}?slug=${encodeURIComponent(slug)}`, {
+      credentials: "same-origin",
+      headers: { Accept: "application/json" },
+    });
+    if (!res.ok) return null;
+    const data = (await res.json()) as BlogViewsResponse;
+    return typeof data.views === "number" ? data.views : null;
   } catch {
-    return {};
+    return null;
   }
 }
 
-export function getDisplayViews(slug: string, baseViews: number): number {
-  const stored = readStoredViews()[slug] ?? 0;
-  return baseViews + stored;
-}
-
-/** Count a unique view once per browser per day */
-export function bumpView(slug: string): number {
-  const dayKey = `prime-blog-seen-${slug}`;
-  const today = new Date().toISOString().slice(0, 10);
+/**
+ * Record a view (server: once per browser/day via cookie) and return total.
+ * Returns null if PHP API is missing (e.g. local `astro dev`).
+ */
+export async function recordBlogView(slug: string): Promise<number | null> {
   try {
-    if (localStorage.getItem(dayKey) === today) {
-      return readStoredViews()[slug] ?? 0;
-    }
-    localStorage.setItem(dayKey, today);
-    const all = readStoredViews();
-    all[slug] = (all[slug] ?? 0) + 1;
-    localStorage.setItem(VIEWS_KEY, JSON.stringify(all));
-    return all[slug];
+    const res = await fetch(VIEWS_API, {
+      method: "POST",
+      credentials: "same-origin",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ slug }),
+    });
+    if (!res.ok) return null;
+    const data = (await res.json()) as BlogViewsResponse;
+    return typeof data.views === "number" ? data.views : null;
   } catch {
-    return 0;
+    return null;
   }
 }
 

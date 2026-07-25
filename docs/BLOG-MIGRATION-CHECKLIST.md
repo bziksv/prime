@@ -45,7 +45,7 @@
 | Всего записей в БД | 830 |
 | Пригодных (≥800 симв., slug+title) | 813 |
 | Skip / мусор | 17 |
-| Уже на Astro | 283 |
+| Уже на Astro | 404 |
 
 ### По основной рубрике (эвристика)
 
@@ -108,6 +108,7 @@
 - [x] `kopirayting` ← WP `kopirayting-osnovnyie-napravleniya-vidyi-stoimost-uslug-trebovaniya-k-ispolnitelyam` (ID 64733, 2021-11-30, SEO) — `/blog/kopirayting/` · **новый формат**
 - [x] `nakrutka-laykov-instagram` ← WP `pravila-nakrutki-laykov-v-instagram-programmyi-i-prilozheniya` (ID 64714, 2021-11-26, SMM) — `/blog/nakrutka-laykov-instagram/` · **новый формат**
 - [x] `besplatnoe-razmeshchenie-statey` ← WP `gde_besplatno_razmestit_stati_dlya_prodvizheniya_sajta` (ID 64682, 2021-11-23, SEO) — `/blog/besplatnoe-razmeshchenie-statey/` · **новый формат**
+- [x] `dekorativnyy-shrift-instagram` ← WP `kak-ispolzovat-dekorativnyiy-shrift-v-instagrame` (ID 64674, 2021-11-22, SMM) — `/blog/dekorativnyy-shrift-instagram/` · **новый формат**
 - [x] `reklama-instagram` ← WP `reklama-v-instagram-vidyi-i-zatratyi-poisk-blogerov-i-kak-sledit-za-ih-effektivnostyu` (ID 64649, 2021-11-19, SMM) — `/blog/reklama-instagram/` · **новый формат**
 - [x] `ssl-sertifikat` ← WP `ssl-sertifikat-naznachenie-osobennosti-klassifikatsiya` (ID 64548, 2021-11-15, SEO) — `/blog/ssl-sertifikat/` · **новый формат**
 - [x] `dashboard` ← WP `chto-takoe-dashboard-i-dlya-chego-on-nuzhen` (ID 64584, 2021-11-13, Интернет-маркетинг) — `/blog/dashboard/` · **новый формат**
@@ -116,6 +117,7 @@
 - [x] `prodazha-trafika` ← WP `kak-nastroit-prodazhu-trafika-i-poluchat-s-etogo-dohod` (ID 64496, 2021-11-06, Интернет-маркетинг) — `/blog/prodazha-trafika/` · **новый формат**
 - [x] `parsing` ← WP `parsing-naznachenie-osobennosti-i-kompleksnaya-nastroyka` (ID 64509, 2021-11-05, SEO) — `/blog/parsing/` · **новый формат**
 - [x] `klikabelnaya-ssylka` ← WP `klikabelnaya-ona-zhe-aktivnaya-ssyilka-protsess-sozdaniya` (ID 64449, 2021-11-02, SEO) — `/blog/klikabelnaya-ssylka/` · **новый формат**
+- [x] `whatsapp-v-instagram` ← WP `kak-zakrepit-nomer-whatsapp-v-profile-instagram-instruktsiya` (ID 64452, 2021-11-02, SMM) — `/blog/whatsapp-v-instagram/` · **новый формат**
 - [x] `raskrutka-gruppy-vk` ← WP `samostoyatelnaya-raskrutka-gruppyi-vkontakte-podgotovka-start-sposobyi-uvelicheniya-chisla-podpischikov` (ID 64430, 2021-11-02, SMM) — `/blog/raskrutka-gruppy-vk/` · **новый формат**
 - [x] `zaspamlennost-teksta` ← WP `zaspamlennost-teksta-chto-eto-i-kak-snizit` (ID 64415, 2021-10-29, SEO) — `/blog/zaspamlennost-teksta/` · **новый формат**
 - [x] `kontent-plan` ← WP `glavnoe-o-kontent-plane` (ID 64400, 2021-10-26, Контент-маркетинг) — `/blog/kontent-plan/` · **новый формат** (общее; смежно с `/blog/kontent-plan-instagram/`)
@@ -138,6 +140,7 @@
 - [ ] `kak-organizovat-i-pravilno-ispolzovat-pryamuyu-translyatsiyu-v-instagram-2` — **dup** → `/blog/pryamoy-efir-instagram/` (подготовка, ведение, разбор эфира; канон уже в новом формате)
 - [x] `skrinshoty` ← WP `skrinshotyi-naznachenie-realizatsiya-i-instrumentyi` (ID 64129, 2021-09-03, Контент-маркетинг) — `/blog/skrinshoty/` · **новый формат**
 - [x] `infografika` ← WP `infografika-vidyi-naznachenie-i-primeryi-2` (ID 64114, 2021-08-31, Контент-маркетинг) — `/blog/infografika/` · **новый формат**
+- [x] `lid` ← WP `chto-takoe-lid-lead` (ID 64107, 2021-08-30, Интернет-маркетинг) — `/blog/lid/` · **новый формат**
 - [x] `lichnyy-brend` ← WP `polnyiy-gayd-po-sozdaniyu-ispolzovaniyu-i-prodvizheniyu-lichnogo-brenda-v-sotsialnyih-setyah` (ID 64092, 2021-08-27, SMM) — `/blog/lichnyy-brend/` · **новый формат**
 - [x] `redirekt` ← WP `redirekt-sposob-navesti-poryadok-na-sayte` (ID 64063, 2021-08-24, SEO) — `/blog/redirekt/` · **новый формат**
 - [x] `strayk-youtube` ← WP `chto-takoe-strayk-na-yutube` (ID 64072, 2021-08-24, SMM) — `/blog/strayk-youtube/` · **новый формат**
@@ -155,12 +158,14 @@
 - [x] `shablon-instagram` ← WP `kak-sdelat-shablon-dlya-instagram-oformlyaem-postyi-krasivo` (ID 63775, 2021-07-23, SMM) — `/blog/shablon-instagram/` · **новый формат** (смежно с оформлением профиля / контент-планом)
 - [x] `statya-vk` ← WP `kak-podgotovit-i-opublikovat-statyu-v-vk-poshagovaya-instruktsiya` (ID 63694, 2021-07-20, SMM) — `/blog/statya-vk/` · **новый формат**
 - [x] `logi-servera` ← WP `indeksatsiya-logi-servera-i-analiz-povedeniya-poiskovyih-robotov` (ID 63642, 2021-07-19, SEO) — `/blog/logi-servera/` · **новый формат** (смежно с техаудитом / закрытием от индексации)
+- [x] `oblozhka-vk` ← WP `kak-pridumat-narisovat-i-dobavit-oblozhku-v-soobshhestvo-v-vk` (ID 63632, 2021-07-16, SMM) — `/blog/oblozhka-vk/` · **новый формат**
 - [x] `svyazka-instagram-facebook` ← WP `kak-svyazat-i-otmenit-svyazku-akkaunta-instagram-i-stranitsyi-feysbuk` (ID 63605, 2021-07-16, SMM) — `/blog/svyazka-instagram-facebook/` · **новый формат**
 - [x] `blokirovka-instagram` ← WP `blokirovka-akkaunta-v-instagram-kak-vernut-dostup-k-stranitse` (ID 63553, 2021-07-13, SMM) — `/blog/blokirovka-instagram/` · **новый формат** (смежно с `/blog/parol-instagram/`)
 - [x] `otchet-klientu` ← WP `otchet-klientu-o-hode-reklamnoy-kampanii-9-pravil-vzaimoponimaniya` (ID 63524, 2021-07-12, Интернет-маркетинг) — `/blog/otchet-klientu/` · **новый формат**
 - [x] `ishodnyy-kod` ← WP `kak-rabotat-s-ishodnyim-kodom-sayta-v-kakih-sluchayah-eto-nuzhno` (ID 63499, 2021-07-09, SEO) — `/blog/ishodnyy-kod/` · **новый формат** (смежно с `/blog/verstka-saytov/`)
 - [x] `obnovlenie-kontenta` ← WP `nadezhnyiy-sposob-za-tri-mesyatsa-udvoit-trafik-bloga-perevod` (ID 63467, 2021-07-08, Контент-маркетинг) — `/blog/obnovlenie-kontenta/` · **новый формат** (без гарантии «×2 за 3 мес.»)
 - [x] `onlayn-oplata` ← WP `kak-sdelat-onlayn-oplatu-na-sayte` (ID 63413, 2021-07-08, Интернет-маркетинг) — `/blog/onlayn-oplata/` · **новый формат** (смежно с `/blog/yukassa/`)
+- [x] `istoriya-poiska-instagram` ← WP `udalenie-istorii-zaprosov-iz-instagram` (ID 63449, 2021-07-07, SMM) — `/blog/istoriya-poiska-instagram/` · **новый формат**
 - [x] `pochtovyy-servis` ← WP `kak-ne-oshibitsya-s-vyiborom-pochtovogo-servisa` (ID 63420, 2021-07-06, Интернет-маркетинг) — `/blog/pochtovyy-servis/` · **новый формат**
 - [x] `snippet` ← WP `sekretyi-sostavleniya-snippeta-kak-zavoevat-google` (ID 63390, 2021-07-05, SEO) — `/blog/snippet/` · **новый формат** (смежно с `/blog/optimizatsiya-stranitsy/`)
 - [x] `kategorii-internet-magazina` ← WP `kak-optimizirovat-kategorii-stranits-v-internet-magazine` (ID 63353, 2021-07-05, SEO) — `/blog/kategorii-internet-magazina/` · **новый формат** (смежно с `/blog/prodvizhenie-internet-magazina/`)
@@ -168,6 +173,21 @@
 - [x] `foto-instagram` ← WP `foto-v-instagram-ot-idei-do-realizatsii` (ID 63259, 2021-06-29, SMM) — `/blog/foto-instagram/` · **новый формат** (смежно с шаблонами / оформлением / постом)
 - [x] `otmetki-instagram` ← WP `vyidelenie-drugih-polzovateley-v-profile-instagram-…` (ID 63211, 2021-06-25, SMM) — `/blog/otmetki-instagram/` · **новый формат**
 - [x] `analogi-yandeks-market` ← WP `ryinochnyie-otnosheniya-konkurentyi-i-servisyi-analogi-yandeks-market` (ID 60604, 2021-06-24, Интернет-маркетинг) — `/blog/analogi-yandeks-market/` · **новый формат**
+- [x] `pochta-dlya-domena` ← WP `pochta-dlya-domena` (ID 42689, 2018-04-17, Медиа сервисы) — `/blog/pochta-dlya-domena/` · **новый формат**
+- [x] `proksi-server` ← WP `chto-takoe-proksi-server` (ID 42841, 2018-04-25, Медиа сервисы) — `/blog/proksi-server/` · **новый формат**
+- [x] `wordstat` ← WP `chto-takoe-vordstat` (ID 42501, 2018-04-06, Медиа сервисы) — `/blog/wordstat/` · **новый формат**
+- [x] `menedzher-paroley` ← WP `top-3-menedzherov-paroley` (ID 42468, 2018-04-06, Медиа сервисы) — `/blog/menedzher-paroley/` · **новый формат**
+- [x] `wordpress-admin` ← WP `kak-zayti-v-admin-panel-wordpress` (ID 42274, 2018-03-23, Медиа сервисы) — `/blog/wordpress-admin/` · **новый формат**
+- [x] `yandeks-brauzer` ← WP `kak-ustanovit-yandeks-brauzer` (ID 42215, 2018-03-19, Медиа сервисы) — `/blog/yandeks-brauzer/` · **новый формат**
+- [x] `robots-txt-joomla` ← WP `robots-txt-dlya-joomla` (ID 42024, 2018-02-26, Медиа сервисы) — `/blog/robots-txt-joomla/` · **новый формат**
+- [x] `modx-local` ← WP `ustanovka-modx-revolution-na-lokalnyiy-veb-server` (ID 41943, 2018-02-14, Медиа сервисы) — `/blog/modx-local/` · **новый формат**
+- [x] `obzor-brauzerov` ← WP `obzor-brauzerov-preimushhestva-nedostatki-rekomendatsii-po-vyiboru` (ID 41933, 2018-02-14, Медиа сервисы) — `/blog/obzor-brauzerov/` · **новый формат**
+- [x] `robots-txt-wordpress` ← WP `pravilnyiy-robots-txt-dlya-wordpress` (ID 41853, 2018-01-29, Медиа сервисы) — `/blog/robots-txt-wordpress/` · **новый формат**
+- [x] `wordpress-plaginy` ← WP `ustanovka-plaginov-vordpress` (ID 41677, 2017-12-14, Медиа сервисы) — `/blog/wordpress-plaginy/` · **новый формат**
+- [x] `bitrix-publichnyy-razdel` ← WP `elementyi-upravleniya-publichnogo-razdela-bitrix` (ID 41608, 2017-12-13, Медиа сервисы) — `/blog/bitrix-publichnyy-razdel/` · **новый формат**
+- [x] `bitrix-svoystva-infoblokov` ← WP `vyivod-svoystv-infoblokov-1s-bitriks` (ID 41520, 2017-12-12, Медиа сервисы) — `/blog/bitrix-svoystva-infoblokov/` · **новый формат**
+- [x] `registratsiya-domena` ← WP `instruktsiya-po-registratsii-domena-na-reg-ru` (ID 41214, 2017-11-13, Медиа сервисы) — `/blog/registratsiya-domena/` · **новый формат**
+- [x] `bitrix-admin` ← WP `kak-zayti-v-admin-panel-bitriks` (ID 41087, 2017-11-09, Медиа сервисы) — `/blog/bitrix-admin/` · **новый формат**
 - [x] `seo-bitrix` ← WP `nastroyka-bazovyih-instrumentov-1s-bitriks-…` (ID 63232, 2021-06-22, SEO) — `/blog/seo-bitrix/` · **новый формат** (смежно с `/blog/zakrytie-ot-indeksatsii/`)
 - [x] `prosmotry-vk` ← WP `printsip-rabotyi-schyotchika-prosmotrov-vkontakte` (ID 63196, 2021-06-22, SMM) — `/blog/prosmotry-vk/` · **новый формат**
 - [x] `karusel-instagram` ← WP `pravila-rabotyi-s-instagram-kak-dobavlyat-srazu-neskolko-fotografiy` (ID 63163, 2021-06-18, SMM) — `/blog/karusel-instagram/` · **новый формат**
@@ -293,7 +313,7 @@
   ID `64185` · 2021-09-10 · ~15k · SEO · Интернет-маркетинг · Медиа сервисы
 - [x] `izuchaem-seo-s-nulya-sovetyi-ot-teh-u-kogo-poluchilos-stat-krutyimi-spetsialistami` — Изучаем SEO с нуля: советы от тех, у кого получилось стать крутыми специалистами    
   ID `64168` · 2021-09-09 · ~11k · SEO → Astro `/blog/seo-s-nulya/` · **новый формат**
-- [ ] `kak-organizovat-i-pravilno-ispolzovat-pryamuyu-translyatsiyu-v-instagram-2` — Как организовать и правильно использовать прямую трансляцию в Instagram — **dup** → `/blog/pryamoy-efir-instagram/`    
+- [x] `kak-organizovat-i-pravilno-ispolzovat-pryamuyu-translyatsiyu-v-instagram-2` — Как организовать и правильно использовать прямую трансляцию в Instagram — **dup** → `/blog/pryamoy-efir-instagram/`    
   ID `64157` · 2021-09-07 · ~13k · SEO · Интернет-маркетинг · Медиа сервисы
 - [x] `skrinshotyi-naznachenie-realizatsiya-i-instrumentyi` — Скриншоты. Назначение, реализация и инструменты    
   ID `64129` · 2021-09-03 · ~8k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/skrinshoty/` · **новый формат** (категория Контент-маркетинг)
@@ -877,7 +897,7 @@
 - [x] `sarafannoe-radio-v-internet-marketinge` — Сарафанное радио в интернет маркетинге    
   ID `54698` · 2020-01-17 · ~14k · Интернет-маркетинг → Astro `/blog/sarafannoe-radio/` · **новый формат**
 - [x] `effektivnyiy-kviz-sayt` — Эффективный квиз сайт    
-  ID `54462` · 2020-01-14 · ~13k · Интернет-маркетинг → Astro `/blog/kviz-sayt/` · **новый формат** (сосед `vse_chto_neobhodimo_znat_o_kviz_marketinge` — сверить при переносе)
+  ID `54462` · 2020-01-14 · ~13k · Интернет-маркетинг → Astro `/blog/kviz-sayt/` · **новый формат** (сосед `vse_chto_neobhodimo_znat_o_kviz_marketinge` → dup сюда)
 - [x] `http-zagolovki-chto-eto-i-kak-ispolzovat` — HTTP заголовки - что это и как использовать    
   ID `54384` · 2020-01-13 · ~14k · Интернет-маркетинг → Astro `/blog/http-zagolovki/` · **новый формат** (протокол — `/blog/protokol-http/`)
 - [x] `kak-nastroit-retargeting-v-instagram-i-facebook` — Как настроить ретаргетинг в Instagram и Facebook
@@ -975,7 +995,7 @@
 - [x] `faktoryi-uspeshnogo-prodvizheniya-internet-magazina` — Факторы успешного продвижения интернет магазина
   ID `50834` · 2019-08-02 · ~7k · Интернет-маркетинг · **dup** → `/blog/prodvizhenie-internet-magazina/` (ассортимент, карточки, витрина, коммерческие факторы — в каноне; без псевдо-% ранжирования)
 - [x] `chto-takoe-avtomatizirovannaya-voronka-prodazh` — Что такое автоматизированная воронка продаж
-  ID `50776` · 2019-08-01 · ~19k · Интернет-маркетинг → Astro `/blog/avtovoronka/` · **новый формат** (рядом `/blog/formy-zahvata/`, `/blog/retargeting/`; Instagram-автоворонка WP — сверить позже)
+  ID `50776` · 2019-08-01 · ~19k · Интернет-маркетинг → Astro `/blog/avtovoronka/` · **новый формат** (рядом `/blog/formy-zahvata/`, `/blog/retargeting/`; Instagram/VK-автоворонки → `/blog/avtovoronka-instagram/`, `/blog/avtovoronka-vk/`)
 - [x] `kak-nayti-marketologa` — Как найти маркетолога?
   ID `50679` · 2019-07-29 · ~9k · Интернет-маркетинг → Astro `/blog/nayti-marketologa/` · **новый формат** (рядом `/blog/didzhital-agentstvo/`; без культа «10 000 часов»)
 - [x] `kak-zashhitit-sayt-ot-parsinga` — Как защитить сайт от парсинга
@@ -1072,747 +1092,804 @@
   ID `41828` · 2018-01-24 · ~10k · Интернет-маркетинг → Astro `/blog/affiliat-filtr/` · **новый формат** (не dup `/blog/sayty-satellity/` — там ссылочные сетки; без советов «прятать» владельцев)
 - [x] `povedencheskie-faktoryi-chto-eto-takoe-kakie-byivayut-i-sovetyi-po-ih-uluchsheniyu` — Поведенческие факторы. Что это такое, какие бывают и советы по их улучшению    
   ID `41817` · 2018-01-22 · ~7k · Интернет-маркетинг · **dup** → `/blog/povedencheskie-faktory/` (канон; накрутка в исходнике отвергнута)
-- [ ] `agregatoryi-kontenta-chto-eto-takoe-zachem-oni-nuzhnyi-i-prichinyi-ih-populyarnosti` — Агрегаторы контента. Что это такое, зачем они нужны и причины их популярности.    
-  ID `41805` · 2017-12-29 · ~7k · Интернет-маркетинг
-- [ ] `chto-takoe-yuzabiliti-rekomendatsii-po-uluchsheniyu-yuzabiliti-sayta` — Что такое юзабилити. Рекомендации по улучшению юзабилити сайта.    
-  ID `40780` · 2017-09-11 · ~7k · Интернет-маркетинг
-- [ ] `pochemu-moy-sayt-ne-v-tope` — Почему мой сайт не в ТОПе?    
-  ID `40761` · 2017-09-07 · ~10k · Интернет-маркетинг
-- [ ] `trendyi-prodvizheniya-sayta-2017` — Тренды продвижения сайта 2017    
-  ID `39002` · 2017-06-01 · ~5k · Интернет-маркетинг
-- [ ] `6-besplatnyih-sposobov-prodvizheniya-vashego-biznesa` — 6 бесплатных способов продвижения вашего бизнеса    
-  ID `38266` · 2016-12-05 · ~8k · Интернет-маркетинг
-- [ ] `kakomu-seoshniku-zhit-horosho-nemnogo-o-prime` — Какому сеошнику жить хорошо. Немного о PRIME    
-  ID `38164` · 2016-11-25 · ~7k · Интернет-маркетинг
-- [ ] `zachem-vashemu-saytu-nuzhno-byit-mobilnyim` — Зачем вашему сайту нужно быть мобильным?    
-  ID `38093` · 2016-10-25 · ~6k · Интернет-маркетинг
-- [ ] `vidyi-reklamyi-v-internete-chto-prinosit-vam-klientov` — Виды рекламы в интернете. Что приносит вам клиентов?    
-  ID `37282` · 2016-08-23 · ~8k · Интернет-маркетинг
+- [x] `agregatoryi-kontenta-chto-eto-takoe-zachem-oni-nuzhnyi-i-prichinyi-ih-populyarnosti` — Агрегаторы контента. Что это такое, зачем они нужны и причины их популярности.    
+  ID `41805` · 2017-12-29 · ~7k · Интернет-маркетинг → Astro `/blog/agregatory-kontenta/` · **новый формат** (типы, права на источники, SEO-архитектура; ТОП 2–6 мес. ≠ день релиза)
+- [x] `chto-takoe-yuzabiliti-rekomendatsii-po-uluchsheniyu-yuzabiliti-sayta` — Что такое юзабилити. Рекомендации по улучшению юзабилити сайта.    
+  ID `40780` · 2017-09-11 · ~7k · Интернет-маркетинг → Astro `/blog/yuzabiliti/` · **новый формат** (не dup `/blog/yuzabiliti-internet-magazina/` — там чекаут ИМ; здесь общий контур)
+- [x] `pochemu-moy-sayt-ne-v-tope` — Почему мой сайт не в ТОПе?    
+  ID `40761` · 2017-09-07 · ~10k · Интернет-маркетинг · **dup** → `/blog/sayt-ne-v-top/` (причины вне ТОПа / фильтры / техника / семантика — в каноне; подготовка ≠ ТОП 2–6 мес.)
+- [x] `trendyi-prodvizheniya-sayta-2017` — Тренды продвижения сайта 2017    
+  ID `39002` · 2017-06-01 · ~5k · Интернет-маркетинг · **dup** → `/blog/trendy-seo/` (качество контента, mobile, смысл; канон без привязки к «году»; Баден-Баден — исторический фон)
+- [x] `6-besplatnyih-sposobov-prodvizheniya-vashego-biznesa` — 6 бесплатных способов продвижения вашего бизнеса    
+  ID `38266` · 2016-12-05 · ~8k · Интернет-маркетинг · **dup** → `/blog/besplatnaya-reklama/` (блог/email/видео/соцсети/форумы/события — каналы без медиабюджета в каноне)
+- [x] `kakomu-seoshniku-zhit-horosho-nemnogo-o-prime` — Какому сеошнику жить хорошо. Немного о PRIME    
+  ID `38164` · 2016-11-25 · ~7k · Интернет-маркетинг → Astro `/blog/den-v-prime/` · **новый формат** (офисный скетч; не оргчарт; подготовка ≠ ТОП 2–6 мес.)
+- [x] `zachem-vashemu-saytu-nuzhno-byit-mobilnyim` — Зачем вашему сайту нужно быть мобильным?    
+  ID `38093` · 2016-10-25 · ~6k · Интернет-маркетинг · **dup** → `/blog/adaptivnyy-sayt/` (зачем мобильность, m. vs адаптив, SEO/UX — в каноне)
+- [x] `vidyi-reklamyi-v-internete-chto-prinosit-vam-klientov` — Виды рекламы в интернете. Что приносит вам клиентов?    
+  ID `37282` · 2016-08-23 · ~8k · Интернет-маркетинг → Astro `/blog/vidy-reklamy/` · **новый формат** (SEO/контекст/таргет/тизеры/баннеры; без гарантий ТОП; подготовка ≠ ТОП 2–6 мес.)
 
 ## Медиа сервисы (95)
 
-- [ ] `blog-v-instagram-kak-prodvigat` — Блог в Инстаграм: как продвигать    
-  ID `58957` · 2020-11-17 · ~17k · Интернет-маркетинг · Медиа сервисы
-- [ ] `kak-podobrat-klyuchevyie-slova-v-youtube-semanticheskoe-yadro-i-kotiki` — Как подобрать ключевые слова в YouTube: семантическое ядро и котики    
-  ID `58870` · 2020-11-10 · ~11k · Интернет-маркетинг · Медиа сервисы
-- [ ] `chto-izmenilos-v-novoy-google-analytics` — Что изменилось в новой Google Analytics?    
-  ID `58574` · 2020-10-16 · ~7k · Интернет-маркетинг · Медиа сервисы
-- [ ] `chto-takoe-adblock` — Что такое AdBlock    
-  ID `58403` · 2020-09-29 · ~7k · Медиа сервисы
-- [ ] `nakrutka-zriteley-na-yutub-translyatsiyah` — Накрутка зрителей на Ютуб трансляциях    
-  ID `58325` · 2020-09-29 · ~11k · Медиа сервисы
-- [ ] `10-rekomendatsiy-dlya-vyibora-temyi-v-blog-wordpress` — 10 рекомендаций для выбора темы в блог WordPress    
-  ID `58270` · 2020-09-22 · ~13k · Интернет-маркетинг · Медиа сервисы
-- [ ] `chto-takoe-veb-arhiv` — Что такое веб-архив    
-  ID `58256` · 2020-09-17 · ~10k · Интернет-маркетинг · Медиа сервисы
-- [ ] `chto-takoe-vodyanoj-znak-na-foto` — Что такое водяной знак на фото    
-  ID `58219` · 2020-09-16 · ~9k · Медиа сервисы
-- [ ] `chto-takoe-yandeks-disk` — Что такое Яндекс Диск?    
-  ID `57865` · 2020-08-20 · ~6k · Медиа сервисы
-- [ ] `redaktirovanie-i-montazh-video-dlya-yutub` — Редактирование и монтаж видео для ютуб    
-  ID `57794` · 2020-08-18 · ~16k · Медиа сервисы
-- [ ] `chto-soboj-predstavlyaet-magnet-ssylka` — Что собой представляет магнет-ссылка?    
-  ID `57684` · 2020-08-06 · ~10k · Медиа сервисы
-- [ ] `virtualnyiy-nomer-telefona-sozdanie-i-ispolzovanie` — Виртуальный номер телефона: создание и использование    
-  ID `57409` · 2020-07-21 · ~9k · Медиа сервисы
-- [ ] `parsing-saytov-s-pomoshhyu-python-plyusyi-i-minusyi-kratkaya-instruktsiya-dlya-chaynikov` — Парсинг сайтов с помощью python: плюсы и минусы, краткая инструкция для чайников    
-  ID `56344` · 2020-03-27 · ~32k · Медиа сервисы
-- [ ] `json_chto_eto_takoe_kak-otkryt_gde_ispolzuetsya` — JSON: что это такое, как открыть, где используется?    
-  ID `56308` · 2020-03-26 · ~22k · Медиа сервисы
-- [ ] `chto_takoe_amp_stranicy_google_i_kak_ih_sozdat` — Что такое AMP страницы Google и как их создать?    
-  ID `55924` · 2020-03-13 · ~17k · Медиа сервисы
-- [ ] `parsing-email-adresov` — Парсинг email адресов    
-  ID `55610` · 2020-03-03 · ~18k · Медиа сервисы
-- [ ] `reyting-crm-sistem` — Рейтинг CRM-систем    
-  ID `55478` · 2020-02-26 · ~14k · Медиа сервисы
-- [ ] `chto_takoe_meta_teg_description_i_ego_vliyanie_na_seo` — Что такое мета тег description и его влияние на SEO    
-  ID `55451` · 2020-02-26 · ~7k · Медиа сервисы
-- [ ] `parsing_auditorii_chto_eto_i_kak_osushchestvit` — Парсинг аудитории: что это и как осуществить?    
-  ID `55444` · 2020-02-25 · ~16k · Медиа сервисы
-- [ ] `graficheskiy-servis-crello` — Графический сервис Crello    
-  ID `54628` · 2020-01-16 · ~3k · Медиа сервисы
-- [ ] `rasshireniya-chrome-dlya-internet-marketinga` — Расширения Chrome для интернет маркетинга    
-  ID `54537` · 2020-01-15 · ~25k · Медиа сервисы
-- [ ] `prosto-o-funktsionale-plyusah-i-nedostatkah-graficheskogo-redaktora-canva` — Просто о функционале, плюсах и недостатках графического редактора Canva    
-  ID `52531` · 2019-11-18 · ~11k · Медиа сервисы
-- [ ] `nastroyka-google-analytics-dlya-internet-magazina` — Настройка Google Analytics для интернет-магазина    
-  ID `52280` · 2019-11-05 · ~13k · Медиа сервисы
-- [ ] `kak-uskorit-sayt-na-vordpress` — Как ускорить сайт на вордпресс    
-  ID `51893` · 2019-09-27 · ~11k · Медиа сервисы
-- [ ] `chto-takoe-pwa-prilozheniya` — Что такое PWA-приложения    
-  ID `51535` · 2019-09-10 · ~9k · Медиа сервисы
-- [ ] `yandeks-spravochnik-chto-eto-i-kak-s-nim-rabotat` — Яндекс.Справочник: что это и как с ним работать    
-  ID `51286` · 2019-08-27 · ~15k · Медиа сервисы
-- [ ] `kak-sdelat-logotip-dlya-kompanii` — Как сделать логотип для компании    
-  ID `51267` · 2019-08-26 · ~14k · Медиа сервисы
-- [ ] `kak-nastroit-google-analytics-instruktsiya-dlya-novichkov` — Как настроить Google Analytics — инструкция для новичков    
-  ID `51035` · 2019-08-15 · ~32k · Медиа сервисы
-- [ ] `google-otzyivyi-klientov-rukovodstvo-po-nastroyke` — Google Отзывы клиентов — руководство по настройке    
-  ID `50940` · 2019-08-09 · ~13k · Медиа сервисы
-- [ ] `kak-nastroit-ip-telefoniyu` — Как настроить ip телефонию    
-  ID `50577` · 2019-07-23 · ~11k · Медиа сервисы
-- [ ] `nastroyka-voronki-prodazh-cherez-google-tag-manager` — Настройка воронки продаж через Google Tag Manager    
-  ID `50428` · 2019-07-16 · ~12k · Медиа сервисы
-- [ ] `optimizatsiya-retargetinga-v-yandeks-direkte-segmentyi-ploshhadki-i-obyavleniya` — Оптимизация ретаргетинга в Яндекс.Директе: сегменты, площадки и объявления    
-  ID `50182` · 2019-07-03 · ~12k · Медиа сервисы
-- [ ] `turbo-stranitsyi-yandeksa-chto-eto-i-kak-vnedrit` — Турбо-страницы Яндекса — что это и как внедрить    
-  ID `50029` · 2019-06-27 · ~11k · Медиа сервисы
-- [ ] `chem-polezen-dlya-biznesa-yandeks-spravochnik` — Чем полезен для бизнеса яндекс справочник    
-  ID `49956` · 2019-06-21 · ~14k · Медиа сервисы
-- [ ] `google-kalendar-dlya-optimizatsii-rabochego-protsessa` — Google календарь для оптимизации рабочего процесса    
-  ID `49914` · 2019-06-19 · ~11k · Медиа сервисы
-- [ ] `yandeks-vebvizor-kak-nastroit` — Яндекс Вебвизор - как настроить    
-  ID `49886` · 2019-06-18 · ~12k · Медиа сервисы
-- [ ] `google-alerts-chto-eto-i-kak-primenyat` — Google Alerts - что это и как применять    
-  ID `49514` · 2019-06-03 · ~13k · Медиа сервисы
-- [ ] `proverka-istorii-domena-pered-pokupkoy-kak-i-dlya-chego` — Проверка истории домена перед покупкой: как и для чего    
-  ID `49398` · 2019-05-27 · ~8k · Медиа сервисы
-- [ ] `programmyi-dlya-montazha-video` — Программы для монтажа видео    
-  ID `48872` · 2019-04-05 · ~17k · Медиа сервисы
-- [ ] `nedostatki-populyarnyih-cms-internet-magazinov-magento-1c-bitriks-cs-cart-opencart-woocommerce` — Недостатки популярных CMS интернет-магазинов: Magento, 1C-Битрикс, CS-Cart, OpenCart, WooCommerce    
-  ID `48587` · 2019-03-15 · ~14k · Медиа сервисы
-- [ ] `pochemu-nuzhno-pryamo-seychas-nachat-rabotat-s-facebook-ads` — Почему нужно прямо сейчас начать работать с Facebook Ads    
-  ID `48051` · 2019-02-18 · ~13k · Медиа сервисы
-- [ ] `provedenie-a-b-testov-v-yandeks-direkte-i-google-ads-rukovodstvo` — Проведение А/Б-тестов в Яндекс.Директе и Google Ads. Руководство.    
-  ID `47756` · 2019-02-07 · ~28k · Медиа сервисы
-- [ ] `novogodnyaya-aktsiya-ili-rasprodazha-v-yandeks-direkte-i-google-ads` — Новогодняя акция или распродажа в Яндекс.Директе и Google Ads    
-  ID `47182` · 2019-01-10 · ~17k · Медиа сервисы
-- [ ] `kak-sozdat-sayt-na-tilde-poshagovoe-rukovodstvo` — Как создать сайт на Тильде: пошаговое руководство    
-  ID `47095` · 2018-12-28 · ~11k · Медиа сервисы
-- [ ] `avtomaticheskie-strategii-google-ads-kak-vyibrat-nuzhnuyu` — Автоматические стратегии Google Ads. Как выбрать нужную?    
-  ID `46946` · 2018-12-25 · ~25k · Медиа сервисы
-- [ ] `shest-sovetov-dlya-rabotyi-s-adaptivnyimi-mediynyimi-obyavleniyami-v-google-ads` — Шесть советов для работы с адаптивными медийными объявлениями в Google Ads    
-  ID `46794` · 2018-12-17 · ~19k · Медиа сервисы
-- [ ] `yandeks-zapustil-koldunshhik-turbo-stranits` — Яндекс запустил колдунщик Турбо-страниц    
-  ID `46683` · 2018-12-04 · ~1k · Медиа сервисы
-- [ ] `proverka-indeksatsii-sayta-v-google-i-yandeks` — Проверка индексации сайта в Google и Яндекс    
-  ID `46632` · 2018-11-30 · ~14k · Медиа сервисы
-- [ ] `turbo-stranitsyi-yandeks-direkta-polnoe-rukovodstvo-po-nastroyke` — Турбо-страницы Яндекс.Директа: полное руководство по настройке    
-  ID `46554` · 2018-11-26 · ~14k · Медиа сервисы
-- [ ] `kak-pravilno-nastroit-minus-slova-v-yandeks-direkt` — Как правильно настроить минус-слова в Яндекс.Директ    
-  ID `46189` · 2018-10-25 · ~7k · Медиа сервисы
-- [ ] `reklama-v-videoseti-yandeksa-tsifryi-i-tendentsii` — Реклама в Видеосети Яндекса, цифры и тенденции    
-  ID `46040` · 2018-10-18 · ~19k · Медиа сервисы
-- [ ] `analiz-rezultatov-kontent-marketinga-s-pomoshhyu-yandeks-metriki` — Анализ результатов контент-маркетинга с помощью Яндекс.Метрики    
-  ID `45971` · 2018-10-15 · ~13k · Медиа сервисы
-- [ ] `razmeshhenie-magazina-v-google-merchant-center` — Размещение магазина в Google Merchant Center    
-  ID `45712` · 2018-09-26 · ~10k · Медиа сервисы
-- [ ] `yandeks-iks-novyiy-pokazatel-kachestva-saytov` — Яндекс ИКС: новый показатель качества сайтов    
-  ID `45511` · 2018-09-19 · ~15k · Медиа сервисы
-- [ ] `mobile-first-indeks-google` — Mobile first индекс google    
-  ID `45495` · 2018-09-18 · ~12k · Медиа сервисы
-- [ ] `perenos-kampaniy-iz-direkta-v-google-ads` — Перенос кампаний из «Директа» в Google Ads    
-  ID `45428` · 2018-09-12 · ~15k · Медиа сервисы
-- [ ] `chat-v-yandekse-dlya-vseh-saytov` — Чат в Яндексе для всех сайтов    
-  ID `44958` · 2018-08-15 · ~1k · Медиа сервисы
-- [ ] `dan-start-provedeniyu-beta-testa-novogo-yandeks-direkta` — Новый Яндекс.Директ. Бета-тестирование    
-  ID `44845` · 2018-08-08 · ~9k · Медиа сервисы
-- [ ] `analiz-vneshnih-ssyilok-sayta-10-poleznyih-instrumentov` — Анализ внешних ссылок сайта. 10 полезных инструментов    
-  ID `44710` · 2018-08-01 · ~14k · Медиа сервисы
-- [ ] `sozdanie-logotipa-20-besplatnyih-instrumentov` — Создание логотипа. 20 бесплатных инструментов    
-  ID `44611` · 2018-07-26 · ~20k · Медиа сервисы
-- [ ] `podrobnyie-otchyotyi-o-kazhdom-posetitele-v-yandeks-metrike` — Подробные отчёты о каждом посетителе в Яндекс.Метрике    
-  ID `44422` · 2018-07-17 · ~6k · Медиа сервисы
-- [ ] `yandeks-nachal-pokazyivat-reyting-organizatsii-v-snippetah-sayta` — Яндекс начал показывать рейтинг организации в сниппетах сайта    
-  ID `44041` · 2018-07-11 · ~2k · Медиа сервисы
-- [ ] `v-yandeks-direkte-poyavilis-novyie-metriki-klikabelnosti` — В Яндекс Директе появились новые метрики кликабельности    
-  ID `43959` · 2018-07-05 · ~3k · Медиа сервисы
-- [ ] `kak-proverit-skorost-zagruzki-sayta-10-servisov` — Как проверить скорость загрузки сайта? 10 сервисов    
-  ID `43758` · 2018-06-15 · ~13k · Медиа сервисы
-- [ ] `razmeshhenie-magazina-v-yandeks-markete` — Размещение магазина в Яндекс.Маркете    
-  ID `43718` · 2018-06-13 · ~8k · Медиа сервисы
-- [ ] `cms-dlya-internet-magazina` — CMS для интернет магазина    
-  ID `43179` · 2018-05-18 · ~14k · Медиа сервисы
-- [ ] `internet-ekvairing` — Интернет эквайринг    
-  ID `42887` · 2018-05-04 · ~11k · Медиа сервисы
-- [ ] `novyiy-servis-turgenev` — Новый сервис Тургенев    
-  ID `42873` · 2018-04-27 · ~9k · Медиа сервисы
-- [ ] `chto-takoe-proksi-server` — Что такое прокси-сервер?    
-  ID `42841` · 2018-04-25 · ~7k · Медиа сервисы
-- [ ] `yandeks-predstavil-obnovlennyiy-interfeys-direkta` — Яндекс представил обновленный интерфейс Директа    
-  ID `42726` · 2018-04-19 · ~2k · Медиа сервисы
-- [ ] `pochta-dlya-domena` — Почта для домена    
-  ID `42689` · 2018-04-17 · ~8k · Медиа сервисы
-- [ ] `yandeks-kassa` — Яндекс. Касса    
-  ID `42664` · 2018-04-16 · ~15k · Медиа сервисы
-- [ ] `chto-takoe-vordstat` — Что такое Вордстат    
-  ID `42501` · 2018-04-06 · ~9k · Медиа сервисы
-- [ ] `top-3-menedzherov-paroley` — ТОП-3 менеджеров паролей    
-  ID `42468` · 2018-04-06 · ~9k · Медиа сервисы
-- [ ] `kak-dobavit-sayt-v-yandeks-spravochnik` — Как добавить сайт в Яндекс.Справочник    
-  ID `42392` · 2018-04-05 · ~8k · Медиа сервисы
-- [ ] `kak-zayti-v-admin-panel-wordpress` — Как зайти в админ панель Wordpress    
-  ID `42274` · 2018-03-23 · ~11k · Медиа сервисы
-- [ ] `kak-ustanovit-yandeks-brauzer` — Как установить Яндекс браузер?    
-  ID `42215` · 2018-03-19 · ~9k · Медиа сервисы
-- [ ] `robots-txt-dlya-joomla` — Правильный Robots.txt для Joomla    
-  ID `42024` · 2018-02-26 · ~13k · Медиа сервисы
-- [ ] `ustanovka-modx-revolution-na-lokalnyiy-veb-server` — Установка ModX Revolution на локальный веб-сервер    
-  ID `41943` · 2018-02-14 · ~7k · Медиа сервисы
-- [ ] `obzor-brauzerov-preimushhestva-nedostatki-rekomendatsii-po-vyiboru` — Обзор браузеров: преимущества, недостатки, рекомендации по выбору    
-  ID `41933` · 2018-02-14 · ~9k · Медиа сервисы
-- [ ] `pravilnyiy-robots-txt-dlya-wordpress` — Правильный robots.txt для Wordpress    
-  ID `41853` · 2018-01-29 · ~12k · Медиа сервисы
-- [ ] `zapret-indeksatsii-v-fayle-robots-txt` — Запрет индексации в файле robots.txt    
-  ID `41744` · 2017-12-28 · ~11k · Медиа сервисы
-- [ ] `ustanovka-plaginov-vordpress` — Выбор, установка и настройка плагинов на WordPress    
-  ID `41677` · 2017-12-14 · ~5k · Медиа сервисы
-- [ ] `elementyi-upravleniya-publichnogo-razdela-bitrix` — Элементы управления публичного раздела Битрикс    
-  ID `41608` · 2017-12-13 · ~12k · Медиа сервисы
-- [ ] `vyivod-svoystv-infoblokov-1s-bitriks` — Вывод свойств инфоблоков 1С Битрикс    
-  ID `41520` · 2017-12-12 · ~5k · Медиа сервисы
-- [ ] `instruktsiya-po-registratsii-domena-na-reg-ru` — Инструкция по регистрации домена на REG.ru    
-  ID `41214` · 2017-11-13 · ~7k · Медиа сервисы
-- [ ] `kak-zayti-v-admin-panel-bitriks` — Как зайти в админ панель битрикс?    
-  ID `41087` · 2017-11-09 · ~9k · Медиа сервисы
-- [ ] `nastroyka-tseley-v-yandeks-metrike` — Настройка целей в Яндекс.Метрике    
-  ID `41066` · 2017-11-09 · ~7k · Медиа сервисы
-- [ ] `chto-takoe-hosting-kak-vyibrat-na-chto-smotret-osobennosti` — Что такое хостинг. Как выбрать, на что смотреть, особенности.    
-  ID `40718` · 2017-08-30 · ~7k · Медиа сервисы
-- [ ] `teplovyie-kartyi-i-vebvizor-v-yandeks-metrike` — Тепловые карты и вебвизор в Яндекс.Метрике    
-  ID `38723` · 2017-05-10 · ~9k · Медиа сервисы
-- [ ] `kak-ustanovit-wordpress` — Как установить Wordpress    
-  ID `38620` · 2017-04-20 · ~5k · Медиа сервисы
-- [ ] `plyusyi-i-minusyi-cms-bitix` — Плюсы и минусы CMS Bitrix    
-  ID `38557` · 2017-04-06 · ~5k · Медиа сервисы
-- [ ] `servis-podbora-tselevoy-auditorii-v-yandekse` — Как работает сервис подбора целевой аудитории в Яндексе    
-  ID `38472` · 2017-01-31 · ~7k · Медиа сервисы
-- [ ] `obzor-cms-sistem-upravleniy-saytom` — Обзор CMS - систем управлений сайтом    
-  ID `38403` · 2017-01-10 · ~15k · Медиа сервисы
-- [ ] `zachem-nuzhen-vidzhet-obratnogo-zvonka-na-sayte` — Зачем нужен виджет обратного звонка на сайте?    
-  ID `38076` · 2016-10-24 · ~6k · Медиа сервисы
+- [x] `blog-v-instagram-kak-prodvigat` — Блог в Инстаграм: как продвигать    
+  ID `58957` · 2020-11-17 · ~17k · Интернет-маркетинг · Медиа сервисы · **dup** → `/blog/blog-instagram/` (старт/темы/оформление/рост блога; монетизация — `/blog/zarabotok-blogerov-instagram/`; ТОП/рекомендации — `/blog/top-instagram/`; Meta — legalNotice)
+- [x] `kak-podobrat-klyuchevyie-slova-v-youtube-semanticheskoe-yadro-i-kotiki` — Как подобрать ключевые слова в YouTube: семантическое ядро и котики    
+  ID `58870` · 2020-11-10 · ~11k · Интернет-маркетинг · Медиа сервисы → Astro `/blog/kluchi-youtube/` · **новый формат** (не dup `/blog/raskrutka-youtube/` — там общий старт канала; здесь семантика ролика; удержание > набивка тегов)
+- [x] `chto-izmenilos-v-novoy-google-analytics` — Что изменилось в новой Google Analytics?    
+  ID `58574` · 2020-10-16 · ~7k · Интернет-маркетинг · Медиа сервисы → Astro `/blog/ga4/` · **новый формат** (не dup `/blog/google-analytics/` — там поведение ИМ; цели — `/blog/google-analytics-tseli/`)
+- [x] `chto-takoe-adblock` — Что такое AdBlock    
+  ID `58403` · 2020-09-29 · ~7k · Медиа сервисы → Astro `/blog/adblock/` · **новый формат** (пауза/исключения; влияние на аналитику; без обхода paywall)
+- [x] `nakrutka-zriteley-na-yutub-translyatsiyah` — Накрутка зрителей на Ютуб трансляциях    
+  ID `58325` · 2020-09-29 · ~11k · Медиа сервисы → Astro `/blog/nakrutka-zriteley-youtube/` · **новый формат** (антигайд: риски/альтернативы; без каталога софта и схем накрутки)
+- [x] `10-rekomendatsiy-dlya-vyibora-temyi-v-blog-wordpress` — 10 рекомендаций для выбора темы в блог WordPress    
+  ID `58270` · 2020-09-22 · ~13k · Интернет-маркетинг · Медиа сервисы → Astro `/blog/tema-wordpress/` · **новый формат** (критерии выбора; без топа тем года)
+- [x] `chto-takoe-veb-arhiv` — Что такое веб-архив    
+  ID `58256` · 2020-09-17 · ~10k · Интернет-маркетинг · Медиа сервисы → Astro `/blog/veb-arhiv/` · **новый формат** (Wayback; без «красть контент с expired-доменов»; кэш Яндекса — `/blog/sohranennaya-kopiya-yandex/`)
+- [x] `chto-takoe-vodyanoj-znak-na-foto` — Что такое водяной знак на фото    
+  ID `58219` · 2020-09-16 · ~9k · Медиа сервисы → Astro `/blog/vodyanoy-znak/` · **новый формат** (watermark ≠ юрзащита; без устаревших UI-инструкций сервисов)
+- [x] `chto-takoe-yandeks-disk` — Что такое Яндекс Диск?    
+  ID `57865` · 2020-08-20 · ~6k · Медиа сервисы → Astro `/blog/yandeks-disk/` · **новый формат** (облако/ссылки; квоты — сверка с тарифами, не цифры 2020)
+- [x] `redaktirovanie-i-montazh-video-dlya-yutub` — Редактирование и монтаж видео для ютуб    
+  ID `57794` · 2020-08-18 · ~16k · Медиа сервисы → Astro `/blog/montazh-youtube/` · **новый формат** (пайплайн + классы редакторов; не каталог софта/блогеров 2020; раскрутка — `/blog/raskrutka-youtube/`)
+- [x] `chto-soboj-predstavlyaet-magnet-ssylka` — Что собой представляет магнет-ссылка?    
+  ID `57684` · 2020-08-06 · ~10k · Медиа сервисы → Astro `/blog/magnet-ssylka/` · **новый формат** (техника magnet URI; без пиратских каталогов/обхода блокировок)
+- [x] `virtualnyiy-nomer-telefona-sozdanie-i-ispolzovanie` — Виртуальный номер телефона: создание и использование    
+  ID `57409` · 2020-07-21 · ~9k · Медиа сервисы → Astro `/blog/virtualnyy-nomer/` · **новый формат** (бизнес/коллтрекинг; без гайдов мультиаккаунтов и публичных SMS-витрин)
+- [x] `parsing-saytov-s-pomoshhyu-python-plyusyi-i-minusyi-kratkaya-instruktsiya-dlya-chaynikov` — Парсинг сайтов с помощью python: плюсы и минусы, краткая инструкция для чайников
+  ID `56344` · 2020-03-27 · ~32k · Медиа сервисы → Astro `/blog/parsing-python/` · **новый формат** (не dup `/blog/parsing/` — там смысл; здесь стек Python; без обхода антибота/User-Agent)
+- [x] `json_chto_eto_takoe_kak-otkryt_gde_ispolzuetsya` — JSON: что это такое, как открыть, где используется?
+  ID `56308` · 2020-03-26 · ~22k · Медиа сервисы → Astro `/blog/json/` · **новый формат** (синтаксис + безопасный parse; без eval/JSONP как рекомендации)
+- [x] `chto_takoe_amp_stranicy_google_i_kak_ih_sozdat` — Что такое AMP страницы Google и как их создать?
+  ID `55924` · 2020-03-13 · ~17k · Медиа сервисы → Astro `/blog/amp/` · **новый формат** (не must-have; акцент на свой mobile; устаревшие бенчмарки/«ставь плагин» смягчены)
+- [x] `parsing-email-adresov` — Парсинг email адресов
+  ID `55610` · 2020-03-03 · ~18k · Медиа сервисы → Astro `/blog/parsing-email/` · **новый формат** (риски и opt-in; без каталогов парсеров и гайдов сбора чужих адресов)
+- [x] `reyting-crm-sistem` — Рейтинг CRM-систем
+  ID `55478` · 2020-02-26 · ~14k · Медиа сервисы → Astro `/blog/crm/` · **новый формат** (критерии выбора; без вечного топа/цен 2020 и Gartner как истины)
+- [x] `chto_takoe_meta_teg_description_i_ego_vliyanie_na_seo` — Что такое мета тег description и его влияние на SEO
+  ID `55451` · 2020-02-26 · ~7k · Медиа сервисы → Astro `/blog/meta-description/` · **новый формат** (не dup `/blog/snippet/` — там сниппет целиком; здесь тег; без «гарантии ТОП» и жёстких 240 символов)
+- [x] `parsing_auditorii_chto_eto_i_kak_osushchestvit` — Парсинг аудитории: что это и как осуществить?
+  ID `55444` · 2020-02-25 · ~16k · Медиа сервисы → Astro `/blog/parsing-auditorii/` · **новый формат** (не dup `/blog/tselevaya-auditoriya/`; без каталогов парсеров и гайдов выгрузки; Meta-дисклеймер авто)
+- [x] `graficheskiy-servis-crello` — Графический сервис Crello
+  ID `54628` · 2020-01-16 · ~3k · Медиа сервисы → Astro `/blog/crello/` · **новый формат** (ребрендинг VistaCreate; без устаревших цифр тарифов и «лайки гарантированы»)
+- [x] `rasshireniya-chrome-dlya-internet-marketinga` — Расширения Chrome для интернет маркетинга
+  ID `54537` · 2020-01-15 · ~25k · Медиа сервисы → Astro `/blog/chrome-rasshireniya-marketing/` · **новый формат** (не dup `/blog/chrome-rasshireniya-seo/` — там SEO-срез; здесь маркетинг-рутина; без топ-25 и Alexa)
+- [x] `prosto-o-funktsionale-plyusah-i-nedostatkah-graficheskogo-redaktora-canva` — Просто о функционале, плюсах и недостатках графического редактора Canva
+  ID `52531` · 2019-11-18 · ~11k · Медиа сервисы → Astro `/blog/canva/` · **новый формат** (рядом `/blog/crello/`; без устаревших лимитов тарифа)
+
+- [x] `nastroyka-google-analytics-dlya-internet-magazina` — Настройка Google Analytics для интернет-магазина
+  ID `52280` · 2019-11-05 · ~13k · Медиа сервисы · **dup** → `/blog/google-analytics/` (ecommerce-отчёты/воронка уже в каноне; цели — `/blog/google-analytics-tseli/`, GA4 — `/blog/ga4/`)
+- [x] `kak-uskorit-sayt-na-vordpress` — Как ускорить сайт на вордпресс
+  ID `51893` · 2019-09-27 · ~11k · Медиа сервисы → Astro `/blog/uskorenie-wordpress/` · **новый формат** (хостинг/тема/плагины; без культа PageSpeed и чужих кейсов 2019)
+- [x] `chto-takoe-pwa-prilozheniya` — Что такое PWA-приложения
+  ID `51535` · 2019-09-10 · ~9k · Медиа сервисы → Astro `/blog/pwa/` · **новый формат** (манифест/SW; без «PWA = ТОП в Google»)
+- [x] `yandeks-spravochnik-chto-eto-i-kak-s-nim-rabotat` — Яндекс.Справочник: что это и как с ним работать
+  ID `51286` · 2019-08-27 · ~15k · Медиа сервисы → Astro `/blog/yandeks-spravochnik/` · **новый формат** (кабинет эволюционирует → Яндекс Бизнес; NAP; без накрутки отзывов; смежные WP позже — сверка на dup)
+- [x] `kak-sdelat-logotip-dlya-kompanii` — Как сделать логотип для компании
+  ID `51267` · 2019-08-26 · ~14k · Медиа сервисы → Astro `/blog/logotip/` · **новый формат** (не dup `/blog/aydentika-brenda/` — там система; здесь знак; без устаревших % типов)
+- [x] `kak-nastroit-google-analytics-instruktsiya-dlya-novichkov` — Как настроить Google Analytics — инструкция для новичков
+  ID `51035` · 2019-08-15 · ~32k · Медиа сервисы → Astro `/blog/google-analytics-nastroyka/` · **новый формат** (GA4 с нуля; не dup `/blog/ga4/` — там отличия модели; без UA-скриптов)
+- [x] `google-otzyivyi-klientov-rukovodstvo-po-nastroyke` — Google Отзывы клиентов — руководство по настройке
+  ID `50940` · 2019-08-09 · ~13k · Медиа сервисы → Astro `/blog/google-otzyvy-klientov/` · **новый формат** (Customer Reviews ≠ Maps; без гарантий CTR и жёстких порогов 2019)
+- [x] `kak-nastroit-ip-telefoniyu` — Как настроить ip телефонию
+  ID `50577` · 2019-07-23 · ~11k · Медиа сервисы → Astro `/blog/ip-telefoniya/` · **новый формат** (не dup `/blog/virtualnyy-nomer/` — там DID; здесь VoIP/АТС; без «−15% всем»)
+- [x] `nastroyka-voronki-prodazh-cherez-google-tag-manager` — Настройка воронки продаж через Google Tag Manager
+  ID `50428` · 2019-07-16 · ~12k · Медиа сервисы → Astro `/blog/voronka-prodazh-gtm/` · **новый формат** (не dup `/blog/google-tag-manager/` — там контейнер; здесь события checkout/GA4; без UA virtual page)
+- [x] `optimizatsiya-retargetinga-v-yandeks-direkte-segmentyi-ploshhadki-i-obyavleniya` — Оптимизация ретаргетинга в Яндекс.Директе: сегменты, площадки и объявления
+  ID `50182` · 2019-07-03 · ~12k · Медиа сервисы → Astro `/blog/retargeting-direkt/` · **новый формат** (не dup `/blog/retargeting/` — там база; здесь Директ/Метрика/площадки; без жёстких CTR/отказов 2019)
+- [x] `turbo-stranitsyi-yandeksa-chto-eto-i-kak-vnedrit` — Турбо-страницы Яндекса — что это и как внедрить
+  ID `50029` · 2019-06-27 · ~11k · Медиа сервисы · **dup** → `/blog/turbo-stranitsy/` (не переносим; 301 на канон; внедрение/плюсы Турбо уже закрыты, технология отключена)
+- [x] `chem-polezen-dlya-biznesa-yandeks-spravochnik` — Чем полезен для бизнеса яндекс справочник
+  ID `49956` · 2019-06-21 · ~14k · Медиа сервисы · **dup** → `/blog/yandeks-spravochnik/` (не переносим; 301 на канон; польза/регистрация/карточка уже в каноне)
+
+- [x] `google-kalendar-dlya-optimizatsii-rabochego-protsessa` — Google календарь для оптимизации рабочего процесса
+  ID `49914` · 2019-06-19 · ~11k · Медиа сервисы → Astro `/blog/google-kalendar/` · **новый формат** (Meet вместо Hangouts; не dup контент-плана)
+- [x] `yandeks-vebvizor-kak-nastroit` — Яндекс Вебвизор - как настроить
+  ID `49886` · 2019-06-18 · ~12k · Медиа сервисы → Astro `/blog/vebvizor/` · **новый формат** (не dup `/blog/metrika-ne-rabotaet/` — там диагностика; здесь включение/выборка; без 1.0/2.0 и жёстких лимитов 2019; теплокарты WP позже — сверка на dup)
+
+- [x] `google-alerts-chto-eto-i-kak-primenyat` — Google Alerts - что это и как применять
+  ID `49514` · 2019-06-03 · ~13k · Медиа сервисы → Astro `/blog/google-alerts/` · **новый формат** (не «ускоритель SEO»; без Google+; лимиты не фиксируем)
+- [x] `proverka-istorii-domena-pered-pokupkoy-kak-i-dlya-chego` — Проверка истории домена перед покупкой: как и для чего
+  ID `49398` · 2019-05-27 · ~8k · Медиа сервисы → Astro `/blog/istoriya-domena/` · **новый формат** (не dup `/blog/veb-arhiv/` — там инструмент; здесь чеклист покупки; без «дроп = ТОП»)
+- [x] `programmyi-dlya-montazha-video` — Программы для монтажа видео
+  ID `48872` · 2019-04-05 · ~17k · Медиа сервисы · **dup** → `/blog/montazh-youtube/` (не переносим; 301 на канон; каталог Movavi/Premiere/Vegas уже закрыт классами редакторов)
+- [x] `nedostatki-populyarnyih-cms-internet-magazinov-magento-1c-bitriks-cs-cart-opencart-woocommerce` — Недостатки популярных CMS интернет-магазинов: Magento, 1C-Битрикс, CS-Cart, OpenCart, WooCommerce
+  ID `48587` · 2019-03-15 · ~14k · Медиа сервисы → Astro `/blog/cms-internet-magazina/` · **новый формат** (не dup `/blog/uznat-cms/`; без прайсов 2019; CMS ≠ ТОП)
+- [x] `pochemu-nuzhno-pryamo-seychas-nachat-rabotat-s-facebook-ads` — Почему нужно прямо сейчас начать работать с Facebook Ads
+  ID `48051` · 2019-02-18 · ~13k · Медиа сервисы → Astro `/blog/facebook-ads/` · **новый формат** (инфо-тон, без FOMO; не dup `/blog/retargeting-meta/`; без цифр охвата 2018; Meta legalNotice)
+- [x] `provedenie-a-b-testov-v-yandeks-direkte-i-google-ads-rukovodstvo` — Проведение А/Б-тестов в Яндекс.Директе и Google Ads. Руководство.
+  ID `47756` · 2019-02-07 · ~28k · Медиа сервисы → Astro `/blog/ab-testy-reklamy/` · **новый формат** (не dup CRO A/B; решение по CPA/ROI; без скринов ротации 2019)
+
+- [x] `novogodnyaya-aktsiya-ili-rasprodazha-v-yandeks-direkte-i-google-ads` — Новогодняя акция или распродажа в Яндекс.Директе и Google Ads
+  ID `47182` · 2019-01-10 · ~17k · Медиа сервисы → Astro `/blog/novogodnyaya-rasprodazha/` · **новый формат** (не dup `/blog/prazdnichnyy-retargeting/`; без NRF/США как нормы; акция ≠ гарантия продаж)
+- [x] `kak-sozdat-sayt-na-tilde-poshagovoe-rukovodstvo` — Как создать сайт на Тильде: пошаговое руководство
+  ID `47095` · 2018-12-28 · ~11k · Медиа сервисы → Astro `/blog/tilda/` · **новый формат** (без «ТОП за 2 дня»; сток только с лицензией; конструктор ≠ SEO)
+
+- [x] `avtomaticheskie-strategii-google-ads-kak-vyibrat-nuzhnuyu` — Автоматические стратегии Google Ads. Как выбрать нужную?
+  ID `46946` · 2018-12-25 · ~25k · Медиа сервисы → Astro `/blog/strategii-google-ads/` · **новый формат** (не dup Директа; Smart Bidding по цели; без каталога кнопок 2018)
+- [x] `shest-sovetov-dlya-rabotyi-s-adaptivnyimi-mediynyimi-obyavleniyami-v-google-ads` — Шесть советов для работы с адаптивными медийными объявлениями в Google Ads
+  ID `46794` · 2018-12-17 · ~19k · Медиа сервисы → Astro `/blog/adaptivnye-mediynye-obyavleniya/` · **новый формат** (RDA; без таблицы CTR 2018; спеки — из справки)
+
+- [x] `yandeks-zapustil-koldunshhik-turbo-stranits` — Яндекс запустил колдунщик Турбо-страниц
+  ID `46683` · 2018-12-04 · ~1k · Медиа сервисы · **dup** → `/blog/turbo-stranitsy/` (не переносим; 301 на канон; короткий анонс Турбо, технология отключена)
+- [x] `proverka-indeksatsii-sayta-v-google-i-yandeks` — Проверка индексации сайта в Google и Яндекс
+  ID `46632` · 2018-11-30 · ~14k · Медиа сервисы → Astro `/blog/proverka-indeksatsii/` · **новый формат** (не dup `/blog/zakrytie-ot-indeksatsii/`; обход ≠ индекс; без «ровно 2 недели»)
+
+- [x] `turbo-stranitsyi-yandeks-direkta-polnoe-rukovodstvo-po-nastroyke` — Турбо-страницы Яндекс.Директа: полное руководство по настройке
+  ID `46554` · 2018-11-26 · ~14k · Медиа сервисы · **dup** → `/blog/turbo-stranitsy/` (не переносим; 301 на канон; Турбо в Директе отключены, гайд настройки устарел)
+- [x] `kak-pravilno-nastroit-minus-slova-v-yandeks-direkt` — Как правильно настроить минус-слова в Яндекс.Директ
+  ID `46189` · 2018-10-25 · ~7k · Медиа сервисы → Astro `/blog/minus-slova-direkt/` · **новый формат** (уровни, кросс, РСЯ; без слепых «универсальных списков»)
+
+- [x] `reklama-v-videoseti-yandeksa-tsifryi-i-tendentsii` — Реклама в Видеосети Яндекса, цифры и тенденции
+  ID `46040` · 2018-10-18 · ~19k · Медиа сервисы → Astro `/blog/videoset-yandeksa/` · **новый формат** (форматы, VTR, таргетинг; CPV/доли 2018 — исторический фон)
+- [x] `analiz-rezultatov-kontent-marketinga-s-pomoshhyu-yandeks-metriki` — Анализ результатов контент-маркетинга с помощью Яндекс.Метрики
+  ID `45971` · 2018-10-15 · ~13k · Медиа сервисы → Astro `/blog/kontent-marketing-metrika/` · **новый формат** (отчёты Метрики; KPI — см. analitika-kontent-marketinga)
+- [x] `razmeshhenie-magazina-v-google-merchant-center` — Размещение магазина в Google Merchant Center
+  ID `45712` · 2018-09-26 · ~10k · Медиа сервисы → Astro `/blog/google-merchant-center/` · **новый формат** (фид, сайт, Ads; AdWords/AdSense из WP актуализированы)
+- [x] `yandeks-iks-novyiy-pokazatel-kachestva-saytov` — Яндекс ИКС: новый показатель качества сайтов
+  ID `45511` · 2018-09-19 · ~15k · Медиа сервисы → Astro `/blog/yandeks-iks/` · **новый формат** (тИЦ→ИКС как история; сейчас — Вебмастер, не бейдж)
+- [x] `mobile-first-indeks-google` — Mobile first индекс google
+  ID `45495` · 2018-09-18 · ~12k · Медиа сервисы → Astro `/blog/mobile-first-indeks/` · **новый формат** (индексация/паритет; выдача — mobilnyy-poisk)
+- [x] `perenos-kampaniy-iz-direkta-v-google-ads` — Перенос кампаний из «Директа» в Google Ads
+  ID `45428` · 2018-09-12 · ~15k · Медиа сервисы → Astro `/blog/perenos-direkta-google-ads/` · **новый формат** (соответствия, минусы, проверка; без слепых телепортов 2018)
+- [x] `chat-v-yandekse-dlya-vseh-saytov` — Чат в Яндексе для всех сайтов
+  ID `44958` · 2018-08-15 · ~1k · Медиа сервисы → Astro `/blog/yandeks-dialogi/` · **новый формат** (чат из поиска; статус продукта — со справкой; не дубль форм на сайте)
+- [x] `dan-start-provedeniyu-beta-testa-novogo-yandeks-direkta` — Новый Яндекс.Директ. Бета-тестирование
+  ID `44845` · 2018-08-08 · ~9k · Медиа сервисы → Astro `/blog/interfeys-yandeks-direkt/` · **новый формат** (бета 2018 как история; принцип «от статистики»)
+- [x] `analiz-vneshnih-ssyilok-sayta-10-poleznyih-instrumentov` — Анализ внешних ссылок сайта. 10 полезных инструментов
+  ID `44710` · 2018-08-01 · ~14k · Медиа сервисы · **dup** → `/blog/ssylochnyy-profil/` (не переносим; 301 на канон; listicle Ahrefs/Serpstat/…; метод аудита уже в каноне)
+- [x] `sozdanie-logotipa-20-besplatnyih-instrumentov` — Создание логотипа. 20 бесплатных инструментов
+  ID `44611` · 2018-07-26 · ~20k · Медиа сервисы · **dup** → `/blog/logotip/` (не переносим; 301 на канон; 20 конструкторов устарели; путь Canva/фриланс/студия — в каноне)
+- [x] `podrobnyie-otchyotyi-o-kazhdom-posetitele-v-yandeks-metrike` — Подробные отчёты о каждом посетителе в Яндекс.Метрике
+  ID `44422` · 2018-07-17 · ~6k · Медиа сервисы → Astro `/blog/metrika-posetiteli/` · **новый формат** (профили/lifecycle; Вебвизор — смежно)
+- [x] `yandeks-nachal-pokazyivat-reyting-organizatsii-v-snippetah-sayta` — Яндекс начал показывать рейтинг организации в сниппетах сайта
+  ID `44041` · 2018-07-11 · ~2k · Медиа сервисы · **dup** → `/blog/yandeks-spravochnik/` (не переносим; 301 на канон; короткий анонс рейтинга/отзывов в выдаче)
+- [x] `v-yandeks-direkte-poyavilis-novyie-metriki-klikabelnosti` — В Яндекс Директе появились новые метрики кликабельности
+  ID `43959` · 2018-07-05 · ~3k · Медиа сервисы → Astro `/blog/vzveshennyy-ctr-direkt/` · **новый формат** (wCTR / объём трафика; без культа сырого CTR)
+- [x] `kak-proverit-skorost-zagruzki-sayta-10-servisov` — Как проверить скорость загрузки сайта? 10 сервисов
+  ID `43758` · 2018-06-15 · ~13k · Медиа сервисы → Astro `/blog/skorost-sayta/` · **новый формат** (lab/field, CWV; не listicle из 10 сервисов 2018; WP-ускорение — uskorenie-wordpress)
+- [x] `razmeshhenie-magazina-v-yandeks-markete` — Размещение магазина в Яндекс.Маркете
+  ID `43718` · 2018-06-13 · ~8k · Медиа сервисы → Astro `/blog/yandeks-market/` · **новый формат** (требования, YML, модерация; аналоги — analogi-yandeks-market)
+- [x] `cms-dlya-internet-magazina` — CMS для интернет магазина
+  ID `43179` · 2018-05-18 · ~14k · Медиа сервисы · **dup** → `/blog/cms-internet-magazina/` (не переносим; 301 на канон; выбор CMS ИМ / минусы платформ уже в каноне)
+- [x] `internet-ekvairing` — Интернет эквайринг
+  ID `42887` · 2018-05-04 · ~11k · Медиа сервисы · **dup** → `/blog/onlayn-oplata/` (не переносим; 301 на канон; эквайринг/агрегатор уже в каноне; UI Тинькофф/Сбер 2018 устарел)
+- [x] `novyiy-servis-turgenev` — Новый сервис Тургенев
+  ID `42873` · 2018-04-27 · ~9k · Медиа сервисы → Astro `/blog/turgenev/` · **новый формат** (риски переоптимизации; не = Баден-Баден; тошнота — toshnota-teksta)
+- [x] `chto-takoe-proksi-server` — Что такое прокси-сервер?
+  ID `42841` · 2018-04-25 · ~7k · Медиа сервисы → Astro `/blog/proksi-server/` · **новый формат** (forward/reverse; без обхода банов и серых списков)
+- [x] `yandeks-predstavil-obnovlennyiy-interfeys-direkta` — Яндекс представил обновленный интерфейс Директа
+  ID `42726` · 2018-04-19 · ~2k · Медиа сервисы · **dup** → `/blog/interfeys-yandeks-direkt/` (не переносим; 301 на канон; короткий анонс UI/беты 2018)
+- [x] `pochta-dlya-domena` — Почта для домена
+  ID `42689` · 2018-04-17 · ~8k · Медиа сервисы → Astro `/blog/pochta-dlya-domena/` · **новый формат** (MX/SPF/DKIM; без устаревших «1000 ящиков»; смежно с pochtovyy-servis)
+- [x] `yandeks-kassa` — Яндекс. Касса
+  ID `42664` · 2018-04-16 · ~15k · Медиа сервисы · **dup** → `/blog/yukassa/` (не переносим; 301 на канон; гайд 2018, канон уже в новом формате)
+- [x] `chto-takoe-vordstat` — Что такое Вордстат
+  ID `42501` · 2018-04-06 · ~9k · Медиа сервисы → Astro `/blog/wordstat/` · **новый формат** (операторы/регионы/сезон; без культа «голой» частоты; смежно с chastotnost-zaprosov / semanticheskoe-yadro)
+- [x] `top-3-menedzherov-paroley` — ТОП-3 менеджеров паролей
+  ID `42468` · 2018-04-06 · ~9k · Медиа сервисы → Astro `/blog/menedzher-paroley/` · **новый формат** (критерии выбора; без устаревшего ТОП-3 и цен 2018)
+- [x] `kak-dobavit-sayt-v-yandeks-spravochnik` — Как добавить сайт в Яндекс.Справочник
+  ID `42392` · 2018-04-05 · ~8k · Медиа сервисы · **dup** → `/blog/yandeks-spravochnik/` (не переносим; 301 на канон; добавление/подтверждение/филиалы уже в каноне; UI sprav 2018 устарел)
+- [x] `kak-zayti-v-admin-panel-wordpress` — Как зайти в админ панель Wordpress
+  ID `42274` · 2018-03-23 · ~11k · Медиа сервисы → Astro `/blog/wordpress-admin/` · **новый формат** (wp-admin/вход/сброс; без культа логина admin и слепого MD5; смежно с adminka-sayta)
+- [x] `kak-ustanovit-yandeks-brauzer` — Как установить Яндекс браузер?
+  ID `42215` · 2018-03-19 · ~9k · Медиа сервисы → Astro `/blog/yandeks-brauzer/` · **новый формат** (официальный установщик; без серых загрузчиков; UI мастера устаревает)
+- [x] `robots-txt-dlya-joomla` — Правильный Robots.txt для Joomla
+  ID `42024` · 2018-02-26 · ~13k · Медиа сервисы → Astro `/blog/robots-txt-joomla/` · **новый формат** (директивы + осторожный шаблон; не слепой копипаст Joomla 3.3; Host≠зеркало; смежно с zakrytie-ot-indeksatsii)
+- [x] `ustanovka-modx-revolution-na-lokalnyiy-veb-server` — Установка ModX Revolution на локальный веб-сервер
+  ID `41943` · 2018-02-14 · ~7k · Медиа сервисы → Astro `/blog/modx-local/` · **новый формат** (OSPanel/хост/БД/setup; без мифа «5000 страниц»; UI панели устаревает)
+- [x] `obzor-brauzerov-preimushhestva-nedostatki-rekomendatsii-po-vyiboru` — Обзор браузеров: преимущества, недостатки, рекомендации по выбору
+  ID `41933` · 2018-02-14 · ~9k · Медиа сервисы → Astro `/blog/obzor-brauzerov/` · **новый формат** (критерии выбора; Edge уже Chromium; не = установка yandeks-brauzer)
+- [x] `pravilnyiy-robots-txt-dlya-wordpress` — Правильный robots.txt для Wordpress
+  ID `41853` · 2018-01-29 · ~12k · Медиа сервисы → Astro `/blog/robots-txt-wordpress/` · **новый формат** (без Disallow всего wp-content/категорий; Host≠зеркало; смежно с zakrytie-ot-indeksatsii / robots-txt-joomla)
+- [x] `zapret-indeksatsii-v-fayle-robots-txt` — Запрет индексации в файле robots.txt
+  ID `41744` · 2017-12-28 · ~11k · Медиа сервисы · **dup** → `/blog/zakrytie-ot-indeksatsii/` (не переносим; 301 на канон; Disallow/Allow/meta/ошибки уже в каноне; устаревший список ботов)
+- [x] `ustanovka-plaginov-vordpress` — Выбор, установка и настройка плагинов на WordPress
+  ID `41677` · 2017-12-14 · ~5k · Медиа сервисы → Astro `/blog/wordpress-plaginy/` · **новый формат** (каталог/ZIP/FTP; не = wordpress-seo-plaginy; без «нулл»-плагинов)
+- [x] `elementyi-upravleniya-publichnogo-razdela-bitrix` — Элементы управления публичного раздела Битрикс
+  ID `41608` · 2017-12-13 · ~12k · Медиа сервисы → Astro `/blog/bitrix-publichnyy-razdel/` · **новый формат** (панель/режим правки; не = seo-bitrix; UI редакции устаревает)
+- [x] `vyivod-svoystv-infoblokov-1s-bitriks` — Вывод свойств инфоблоков 1С Битрикс
+  ID `41520` · 2017-12-12 · ~5k · Медиа сервисы → Astro `/blog/bitrix-svoystva-infoblokov/` · **новый формат** (DISPLAY_PROPERTIES/типы; без слепого копипаста; не = публичная панель)
+- [x] `instruktsiya-po-registratsii-domena-na-reg-ru` — Инструкция по регистрации домена на REG.ru
+  ID `41214` · 2017-11-13 · ~7k · Медиа сервисы → Astro `/blog/registratsiya-domena/` · **новый формат** (процесс у регистратора; REG.ru как пример; не = выбор TLD; UI/оплата устаревают)
+- [x] `kak-zayti-v-admin-panel-bitriks` — Как зайти в админ панель битрикс?
+  ID `41087` · 2017-11-09 · ~9k · Медиа сервисы → Astro `/blog/bitrix-admin/` · **новый формат** (/bitrix/admin/вход/сброс; не = публичная панель; смежно с wordpress-admin)
+- [x] `nastroyka-tseley-v-yandeks-metrike` — Настройка целей в Яндекс.Метрике
+  ID `41066` · 2017-11-09 · ~7k · Медиа сервисы · **dup** → `/blog/metrika-tseli/` (не переносим; 301 на канон; типы целей/URL/события/составные уже в каноне; установка счётчика — metrika-ustanovka)
+- [x] `chto-takoe-hosting-kak-vyibrat-na-chto-smotret-osobennosti` — Что такое хостинг. Как выбрать, на что смотреть, особенности.
+  ID `40718` · 2017-08-30 · ~7k · Медиа сервисы → Astro `/blog/hosting/` · **новый формат** (shared/VPS/cloud; без «аптайм = ТОП»; рейтинги с оговоркой; ПДн — ориентир, не юрконсультация)
+- [x] `teplovyie-kartyi-i-vebvizor-v-yandeks-metrike` — Тепловые карты и вебвизор в Яндекс.Метрике
+  ID `38723` · 2017-05-10 · ~9k · Медиа сервисы → Astro `/blog/metrika-karty/` · **новый формат** (карты кликов/ссылок/форм; не dup `/blog/vebvizor/` — там сессии; без IE8 и лимитов 2017; Вебвизор — ссылка на канон)
+- [x] `kak-ustanovit-wordpress` — Как установить Wordpress
+  ID `38620` · 2017-04-20 · ~5k · Медиа сервисы → Astro `/blog/wordpress-ustanovka/` · **новый формат** (БД/файлы/install.php/автоустановщик; без PHP 4.3 и культа Total Commander; CMS ≠ ТОП)
+- [x] `plyusyi-i-minusyi-cms-bitix` — Плюсы и минусы CMS Bitrix
+  ID `38557` · 2017-04-06 · ~5k · Медиа сервисы → Astro `/blog/bitrix-plyusy-minusy/` · **новый формат** (не dup `/blog/cms-internet-magazina/` — там минусы пятёрки ИМ; без рейтингов/прайсов 2017; CMS ≠ ТОП)
+- [x] `servis-podbora-tselevoy-auditorii-v-yandekse` — Как работает сервис подбора целевой аудитории в Яндексе
+  ID `38472` · 2017-01-31 · ~7k · Медиа сервисы → Astro `/blog/yandeks-auditorii/` · **новый формат** (Крипта/сегменты/ретаргет; не dup `/blog/tselevaya-auditoriya/` и не dup `/blog/retargeting-direkt/`; без «+35%» и серых баз)
+- [x] `obzor-cms-sistem-upravleniy-saytom` — Обзор CMS - систем управлений сайтом
+  ID `38403` · 2017-01-10 · ~15k · Медиа сервисы → Astro `/blog/obzor-cms/` · **новый формат** (WP/Joomla/Битрикс/Drupal/MODX/DLE; не dup cms-internet-magazina / bitrix-plyusy-minusy; без рейтингов 2017; CMS ≠ ТОП)
+- [x] `zachem-nuzhen-vidzhet-obratnogo-zvonka-na-sayte` — Зачем нужен виджет обратного звонка на сайте?
+  ID `38076` · 2016-10-24 · ~6k · Медиа сервисы → Astro `/blog/obratnyy-zvonok/` · **новый формат** (форма vs виджет; без CallbackKILLER-промо и агрессивных попапов; замер в Метрике)
 
 ## SMM (94)
 
-- [ ] `kak-nastrit-privetstvie-i-massovyu-rassilku-v-instagram` — Как настроить приветствия и массовую рассылку в Instagram    
-  ID `64867` · 2021-12-24 · ~20k · SMM · Интернет-маркетинг · Медиа сервисы
-- [ ] `vse-o-rabote-servisa-direkt-v-prilozhenii-instagram` — Все о работе сервиса Директ в приложении Instagram    
-  ID `64832` · 2021-12-21 · ~23k · SMM · Интернет-маркетинг · Медиа сервисы
-- [ ] `sposobyi-organizatsii-plyusyi-i-minusyi-shauta-v-instagrame` — Способы организации, плюсы и минусы шаута в Инстаграме    
-  ID `57776` · 2021-04-08 · ~5k · SMM
-- [ ] `dobavlyaem-odnovremenno-neskolko-istoriy-v-instagram-2` — Добавляем одновременно несколько историй в Инстаграм    
-  ID `58081` · 2021-04-08 · ~6k · SMM
-- [ ] `kak-skachat-istoriyu-s-instagrama` — Как скачать историю с Инстаграма    
-  ID `61768` · 2021-03-01 · ~12k · SMM
-- [ ] `idei-dlya-storis-vk` — Идеи для сторис ВК    
-  ID `61421` · 2021-01-28 · ~14k · SMM
-- [ ] `kak-posmotret-istoriyu-aktivnosti-stranitsyi-i-povyisit-effektivnost-gruppyi-v-vk` — Как посмотреть историю активности страницы и повысить эффективность группы в ВК    
-  ID `61378` · 2021-01-27 · ~11k · SMM
-- [ ] `chto-takoe-ohvat-v-instagram` — Что такое охват в Инстаграм    
-  ID `61331` · 2021-01-26 · ~10k · SMM
-- [ ] `kak-rabotaet-vzaimopiar-osobennosti-tonkosti-i-dogovorennosti` — Как работает взаимопиар: особенности, тонкости и договоренности    
-  ID `61198` · 2021-01-21 · ~8k · SMM · Интернет-маркетинг
-- [ ] `otlozhennyiy-posting-v-instagram` — Отложенный постинг в Instagram    
-  ID `61164` · 2021-01-18 · ~13k · SMM
-- [ ] `privetstvie-v-soobshhestve-vk-kak-vstrechat-gostey-i-podpischikov` — Приветствие в сообществе VK. Как встречать гостей и подписчиков    
-  ID `60629` · 2020-12-30 · ~10k · SMM
-- [ ] `onlayn-generator-nikov-chto-delat-esli-vse-variantyi-uzhe-zanyatyi` — Онлайн-генератор ников: что делать, если все варианты уже заняты    
-  ID `60333` · 2020-12-25 · ~11k · SMM
-- [ ] `kak-uvelichit-ohvat-podpischikov-vkontakte` — Как увеличить охват подписчиков ВКонтакте    
-  ID `59081` · 2020-12-23 · ~7k · SMM
-- [ ] `chto-napisat-pod-foto-v-instagrame` — Что написать под фото в Инстаграме?    
-  ID `60199` · 2020-12-18 · ~23k · SMM
-- [ ] `chto-takoe-spam-v-gruppah-i-soobshheniyah-vk-kak-on-sozdaetsya-i-kak-pravilno-pozhalovatsya-na-nego` — Что такое спам в группах и сообщениях ВК, как он создается, и как правильно пожаловаться на него    
-  ID `59046` · 2020-11-24 · ~7k · SMM
-- [ ] `kak-izmenit-url-adres-kanala-na-youtube-instrukciya-po-primeneniyu` — Как изменить URL-адрес канала на YouTube. Инструкция по применению    
-  ID `59209` · 2020-11-18 · ~6k · SMM · Интернет-маркетинг
-- [ ] `vovlechennost-v-instagram-statisticheskij-analiz-profilya-v-socseti` — Вовлеченность в Instagram. Статистический анализ профиля в соцсети    
-  ID `59061` · 2020-11-17 · ~13k · SMM · Интернет-маркетинг
-- [ ] `kak-samostoyatelno-sdelat-kartu-sayta-v-formate-xml-ispolzuem-generator` — Как самостоятельно сделать карту сайта в формате xml: используем генератор    
-  ID `58936` · 2020-11-09 · ~9k · SMM · Интернет-маркетинг
-- [ ] `soobshestva-vkontakte-chto-eto-i-kak-ih-ispolzovat` — Сообщества ВКонтакте: что это и как их использовать    
-  ID `58894` · 2020-11-06 · ~16k · SMM · Интернет-маркетинг
-- [ ] `31-sovet-dlya-nachala-biznesa-v-instagrame` — 31 совет для начала бизнеса в Инстаграме    
-  ID `58862` · 2020-11-04 · ~23k · SMM
-- [ ] `reklamnyie-kampanii-na-facebook-kotoryie-dobilis-uspeha-5-primerov` — Рекламные кампании на Facebook, которые добились успеха: 5 примеров    
-  ID `58843` · 2020-11-03 · ~17k · SMM · Контент-маркетинг
-- [ ] `poisk-zakazchikov-dlya-kopiraytera-sposobyi-i-sovetyi` — Поиск заказчиков для копирайтера: способы и советы    
-  ID `58793` · 2020-10-30 · ~39k · SMM · Контент-маркетинг
-- [ ] `kak-nayti-cheloveka-v-instagram` — Как найти человека в Instagram    
-  ID `58769` · 2020-10-29 · ~6k · SMM
-- [ ] `kak-delat-publikatsii-v-feysbuke-poetapnoe-rukovodstvo` — Как делать публикации в Фейсбуке: поэтапное руководство    
-  ID `58720` · 2020-10-27 · ~14k · SMM
-- [ ] `vse-o-video-istoriyah-v-instagram` — Все о видео-историях в Инстаграм    
-  ID `58177` · 2020-10-08 · ~14k · SMM
-- [ ] `sposobyi-udaleniya-obyichnogo-ili-biznes-profilya-v-instagram` — Способы удаления обычного или бизнес профиля в Инстаграм    
-  ID `58461` · 2020-10-06 · ~8k · SMM
-- [ ] `kak-effektivno-prodvigat-svoy-brend-s-pomoshhyu-geymifikatsii-v-sotsialnyih-setyah` — Как эффективно продвигать свой бренд с помощью геймификации в социальных сетях    
-  ID `58351` · 2020-10-02 · ~16k · SMM
-- [ ] `arhiv-v-instagram-kak-skryit-publikatsiyu` — Архив в Instagram: как скрыть публикацию    
-  ID `58375` · 2020-09-28 · ~11k · SMM
-- [ ] `kak-skopirovat-ssyilku-na-instagram` — Как скопировать ссылку на Инстаграм    
-  ID `58240` · 2020-09-17 · ~5k · SMM
-- [ ] `kak-sdelat-svayp-v-istorii-instagram` — Как сделать свайп в истории Инстаграм    
-  ID `58149` · 2020-09-11 · ~16k · SMM
-- [ ] `effektivnyiy-zarabotok-na-gruppe-v-vk` — Эффективный заработок на группе в VK    
-  ID `58019` · 2020-09-11 · ~10k · SMM
-- [ ] `dobavlyaem-odnovremenno-neskolko-istoriy-v-instagram` — Добавляем одновременно несколько историй в Инстаграм    
-  ID `57922` · 2020-09-02 · ~17k · SMM
-- [ ] `pokazy-v-instagram-chto-eto-takoe-i-kakoe-oni-imeyut-znachenie` — Показы в Инстаграм: что это такое и какое они имеют значение    
-  ID `58002` · 2020-08-27 · ~10k · SMM
-- [ ] `emodzi-chto-eto-i-kak-imi-polzovatsya` — Эмодзи. Что это и как ими пользоваться    
-  ID `57990` · 2020-08-25 · ~7k · SMM · Интернет-маркетинг · Контент-маркетинг
-- [ ] `kak-ponyat-chto-vas-zablokiroval-instagram-i-chto-s-etim-delat` — Как понять что вас заблокировал Инстаграм и что с этим делать    
-  ID `57854` · 2020-08-14 · ~13k · SMM
-- [ ] `sposoby-organizacii-plyusy-i-minusy-shauta-v-instagrame` — Способы организации, плюсы и минусы шаута в Инстаграме    
-  ID `57770` · 2020-08-14 · ~6k · SMM
-- [ ] `povyishenie-vovlechennosti-v-sotsialnyih-setyah-prevrashhenie-podpischikov-v-fanatov` — Повышение вовлеченности в социальных сетях: превращение подписчиков в фанатов    
-  ID `57495` · 2020-08-14 · ~20k · SMM
-- [ ] `kak-dobavit-ssilku-v-instagram-stories` — Как добавить ссылку в Инстаграм сторис    
-  ID `57805` · 2020-08-12 · ~17k · SMM
-- [ ] `kak-otmetit-akkaunt-v-instagram` — Как отметить аккаунт в Инстаграм    
-  ID `57686` · 2020-08-06 · ~16k · SMM
-- [ ] `sekretnyj-chat-v-telegram-struktura-funkcii` — Секретный чат в Telegram: структура, функции    
-  ID `57653` · 2020-08-05 · ~8k · SMM
-- [ ] `interesno-o-populyarnom-resurse-pinterest` — Интересно о популярном ресурсе Pinterest    
-  ID `57425` · 2020-08-04 · ~9k · SMM
-- [ ] `kak-sozdat-vtoroy-akkaunt-v-instagram-i-dlya-chego-on-nuzhen` — Как создать второй аккаунт в Инстаграм и для чего он нужен    
-  ID `57531` · 2020-07-29 · ~12k · SMM
-- [ ] `6-shagov-k-uvelicheniyu-prosmotrov-istoriy-v-instagram` — 6 шагов к увеличению просмотров историй в Instagram    
-  ID `57389` · 2020-07-24 · ~9k · SMM
-- [ ] `lichnyj-blog-instagram-kak-pereklyuchit-na-nego-akkaunt` — Личный блог Instagram: как переключить на него аккаунт    
-  ID `57483` · 2020-07-23 · ~21k · SMM
-- [ ] `chto-takoe-promoaktsiya-v-instagram` — Что такое промоакция в Инстаграм    
-  ID `57448` · 2020-07-22 · ~17k · SMM
-- [ ] `kak-zakryit-akkaunt-v-instagrame` — Как закрыть аккаунт в Инстаграме    
-  ID `57354` · 2020-07-17 · ~16k · SMM
-- [ ] `kak-posmotret-publikatsii-zakryitogo-akkaunta-v-instagram` — Как посмотреть публикации закрытого аккаунта в Инстаграм    
-  ID `57306` · 2020-07-13 · ~17k · SMM
-- [ ] `kak-sohranit-pryamoy-efir-igtv-v-instagram` — Как сохранить прямой эфир IGTV в Инстаграм    
-  ID `57287` · 2020-07-10 · ~17k · SMM
-- [ ] `kak-dobavit-muziku-v-storis-instagram` — Как добавить музыку в сторис Инстаграм    
-  ID `57238` · 2020-07-09 · ~19k · SMM
-- [ ] `chto_takoe_serm_kogda_on_neobhodim_i_kak_ispolzovat` — Что такое SERM. Когда он необходим и как использовать    
-  ID `56797` · 2020-06-17 · ~17k · SMM
-- [ ] `kak_popast_v_rekomendacii_tik_tok_algoritm_ranzhirovaniya` — Как попасть в рекомендации тик ток: алгоритм ранжирования 2020    
-  ID `56767` · 2020-05-25 · ~8k · SMM
-- [ ] `kak_osushchestvit_parsing_auditorii_instagram_teoriya_i_prakticheskie_rekomendacii` — Как осуществить парсинг аудитории Инстаграм: теория и практические рекомендации    
-  ID `56526` · 2020-05-04 · ~11k · SMM
-- [ ] `nazvanie-auditorii-v-instagram-chto-pisat-dlya-prodvizheniya` — Название аудитории в Инстаграм: что писать для продвижения    
-  ID `56487` · 2020-04-27 · ~9k · SMM
-- [ ] `kak-nastroit-reklamu-v-instagrame-cherez-feysbuk` — Как настроить рекламу в Инстаграме через Фейсбук    
-  ID `56479` · 2020-04-27 · ~16k · SMM
-- [ ] `kak-zapustit-reklamu-v-tiktok` — Как запустить рекламу в TikTok    
-  ID `56471` · 2020-04-27 · ~9k · SMM · Медиа сервисы
-- [ ] `rasprostranennye-oshybky-pry-proodvizheniy-cherez-socsety` — Распространённые ошибки при продвижении через соцсети    
-  ID `56001` · 2020-03-13 · ~12k · SMM
-- [ ] `analitika-kanala-v-telegram` — Аналитика канала в телеграм    
-  ID `55363` · 2020-02-10 · ~12k · SMM
-- [ ] `kak-udalit-botov-v-instagram` — Как удалить ботов в Инстаграм    
-  ID `55220` · 2020-02-06 · ~18k · SMM
-- [ ] `cms-obzor-populyarnyih-v-2019` — CMS - обзор популярных в 2019    
-  ID `54856` · 2020-01-22 · ~30k · SMM
-- [ ] `instruktsiya-po-dobavleniyu-ssyilok-v-instagram` — Инструкция по добавлению ссылок в инстаграм    
-  ID `54756` · 2020-01-20 · ~17k · SMM
-- [ ] `kak-sobrat-bazu-podpischikov-v-sotssetyah` — Как собрать базу подписчиков в соцсетях    
-  ID `54337` · 2020-01-10 · ~15k · SMM
-- [ ] `kak-privlech-podpischikov-na-youtube-kanal` — Как привлечь подписчиков на Youtube канал    
-  ID `54057` · 2019-12-24 · ~11k · SMM
-- [ ] `verifikatsiya-akkaunta-instagram-instruktsiya-po-polucheniyu` — Верификация аккаунта instagram: инструкция по получению    
-  ID `53468` · 2019-12-10 · ~16k · SMM
-- [ ] `5-sposobov-povyisit-ohvat-istoriy-v-instagram` — 5 способов повысить охват историй в Instagram    
-  ID `52567` · 2019-11-22 · ~9k · SMM
-- [ ] `vliyanie-sotssetey-na-prodvizhenie-sayta` — Влияние соцсетей на продвижение сайта    
-  ID `52362` · 2019-11-11 · ~5k · SMM
-- [ ] `otlichiya-biznes-akkaunta-instagram-ot-obyichnogo` — Отличия бизнес-аккаунта инстаграм от обычного    
-  ID `51706` · 2019-09-18 · ~9k · SMM
-- [ ] `kak-rasschitat-koeffitsient-vovlechennosti-dlya-sotssetey` — Как рассчитать коэффициент вовлеченности для соцсетей    
-  ID `51411` · 2019-09-03 · ~12k · SMM
-- [ ] `ishhem-smmshhika-pravilno` — Ищем СММщика правильно    
-  ID `50479` · 2019-07-18 · ~8k · SMM
-- [ ] `kak-prodvigat-novostnoy-sayt` — Как продвигать новостной сайт    
-  ID `50392` · 2019-07-15 · ~18k · SMM
-- [ ] `vyibiraem-luchshee-vremya-dlya-posta-v-instagram` — Выбираем лучшее время для поста в инстаграм    
-  ID `50092` · 2019-06-29 · ~16k · SMM
-- [ ] `inflyuenseryi-dan-mode-ili-deystvennyiy-instrument-reklamyi` — Инфлюенсеры – дань моде или действенный инструмент рекламы    
-  ID `49656` · 2019-06-11 · ~15k · SMM
-- [ ] `gruppa-i-stranitsa-v-feysbuke-v-chem-raznitsa` — Группа и страница в Фейсбуке - в чем разница    
-  ID `49020` · 2019-04-16 · ~13k · SMM
-- [ ] `kontent-dlya-sotssetey-osnovnyie-vidyi` — Контент для соцсетей: основные виды    
-  ID `48770` · 2019-04-01 · ~12k · SMM
-- [ ] `tri-soveta-po-vyiboru-mest-dlya-videoreklamyi-na-youtube` — Три совета по выбору мест для видеорекламы на YouTube    
-  ID `48799` · 2019-03-29 · ~6k · SMM
-- [ ] `tegi-dlya-yutub-kanala-kak-podobrat-pravilno` — Теги для ютуб канала: как подобрать правильно    
-  ID `48489` · 2019-03-13 · ~15k · SMM
-- [ ] `rassyilka-vkontakte` — Рассылка ВКонтакте    
-  ID `48541` · 2019-03-11 · ~10k · SMM
-- [ ] `kak-sobrat-statistiku-akkaunta-v-instagram` — Как собрать статистику аккаунта в Инстаграм    
-  ID `48005` · 2019-02-14 · ~15k · SMM
-- [ ] `triggernyie-rassyilki-chto-eto-i-kak-ispolzovat` — Триггерные рассылки: что это и как использовать    
-  ID `47707` · 2019-02-05 · ~16k · SMM
-- [ ] `dizayn-instagram-17-proverennyih-instrumentov` — Дизайн Инстаграм: 17 проверенных инструментов    
-  ID `47645` · 2019-02-01 · ~19k · SMM
-- [ ] `chat-bot-vkontakte-kak-sozdat-i-dlya-chego-on-nuzhen` — Чат бот вконтакте. Как создать и для чего он нужен?    
-  ID `46901` · 2018-12-19 · ~13k · SMM
-- [ ] `idei-dlya-instagram-stories` — Идеи для Instagram Stories    
-  ID `46264` · 2018-11-07 · ~18k · SMM
-- [ ] `kak-optimizirovat-youtube-kanal` — Как оптимизировать YouTube-канал    
-  ID `46117` · 2018-11-02 · ~15k · SMM
-- [ ] `40-sovetov-dlya-prodvizheniya-v-instagram` — 40 советов для продвижения в Instagram    
-  ID `45897` · 2018-10-09 · ~13k · SMM
-- [ ] `heshtegi-i-geotegi-dlya-prodvizheniya-biznes-profilya-v-instagram` — Хэштеги и геотеги для продвижения бизнес-профиля в Instagram    
-  ID `45880` · 2018-10-05 · ~13k · SMM
-- [ ] `kontrol-onlayn-reputatsii-instruktsiya-dlya-smm-spetsialistov` — Контроль онлайн-репутации: инструкция для SMM специалистов    
-  ID `45729` · 2018-09-28 · ~17k · SMM
-- [ ] `pravila-2018-goda-effektivnoy-rabotyi-v-instagram` — Правила 2018 года эффективной работы в Instagram    
-  ID `45361` · 2018-09-10 · ~18k · SMM
-- [ ] `v-facebook-poyavilis-novyie-instrumentyi-dlya-reklamyi` — В Facebook появились новые инструменты для рекламы    
-  ID `44698` · 2018-07-26 · ~3k · SMM
-- [ ] `targetirovannaya-reklama-v-facebook-6-naglyadnyih-primerov` — Таргетированная реклама в Facebook: 6 наглядных примеров    
-  ID `43820` · 2018-06-22 · ~12k · SMM
-- [ ] `5-sovetov-po-sozdaniyu-smm-strategii` — 5 советов по созданию SMM-стратегии    
-  ID `43447` · 2018-06-01 · ~9k · SMM
-- [ ] `prodvizhenie-v-instagram-samostoyatelno` — Продвижение в Instagram самостоятельно    
-  ID `43324` · 2018-05-23 · ~8k · SMM
-- [ ] `poiskovaya-optimizatsiya-youtube-video-4-instrumenta` — Поисковая оптимизация YouTube видео: 4 инструмента    
-  ID `43303` · 2018-05-21 · ~9k · SMM
-- [ ] `uvelichivaem-trafik-iz-sotsialnyih-setey-s-pomoshhyu-protokola-open-graph` — Увеличиваем трафик из социальных сетей с помощью протокола Open Graph    
-  ID `40823` · 2017-09-20 · ~5k · SMM
-- [ ] `novyiy-mobilnyiy-operator-vk-mobile-alternativa-ili-autsayder-s-rozhdeniya` — Новый мобильный оператор VK Mobile – альтернатива или аутсайдер с рождения?    
-  ID `39050` · 2017-06-06 · ~5k · SMM
-- [ ] `pochemu-nuzhno-ustanovit-blok-sots-ssyilok-na-sayt` — Почему нужно установить блок соц.ссылок на сайт?    
-  ID `38493` · 2017-02-18 · ~4k · SMM
+- [x] `kak-nastrit-privetstvie-i-massovyu-rassilku-v-instagram` — Как настроить приветствия и массовую рассылку в Instagram
+  ID `64867` · 2021-12-24 · ~20k · SMM · Интернет-маркетинг · Медиа сервисы → Astro `/blog/instagram-direct/` · **новый формат** (приветствия/SLA; без каталога спам-сервисов, масслайка и холодных рассылок; Meta legalNotice авто)
+- [x] `vse-o-rabote-servisa-direkt-v-prilozhenii-instagram` — Все о работе сервиса Директ в приложении Instagram
+  ID `64832` · 2021-12-21 · ~23k · SMM · Интернет-маркетинг · Медиа сервисы → Astro `/blog/instagram-direct-gid/` · **новый формат** (как пользоваться мессенджером; не dup `/blog/instagram-direct/` — там авто/спам; без каталога серых утилит; Meta legalNotice авто)
+- [x] `sposobyi-organizatsii-plyusyi-i-minusyi-shauta-v-instagrame` — Способы организации, плюсы и минусы шаута в Инстаграме
+  ID `57776` · 2021-04-08 · ~5k · SMM → Astro `/blog/shaut-instagram/` · **новый формат** (SFS/обмен; без мифа «бесплатно = рост»; сосед draft `sposoby-organizacii-…` ID 57770 — сверка на dup)
+- [x] `dobavlyaem-odnovremenno-neskolko-istoriy-v-instagram-2` — Добавляем одновременно несколько историй в Инстаграм
+  ID `58081` · 2021-04-08 · ~6k · SMM → Astro `/blog/ssylka-instagram/` · **новый формат** (title≠body в WP: текст про URL профиля, не про мульти-сторис; канон нескольких stories — ID `57922` `dobavlyaem-odnovremenno-neskolko-istoriy-v-instagram`; Meta legalNotice авто)
+- [x] `kak-skachat-istoriyu-s-instagrama` — Как скачать историю с Инстаграма
+  ID `61768` · 2021-03-01 · ~12k · SMM → Astro `/blog/skachat-stories-instagram/` · **новый формат** (свои: архив/Актуальное; чужие — право/этика; без каталога сейверов; не dup `/blog/sohranit-foto-instagram/`; Meta legalNotice авто)
+- [x] `idei-dlya-storis-vk` — Идеи для сторис ВК
+  ID `61421` · 2021-01-28 · ~14k · SMM → Astro `/blog/idei-storis-vk/` · **новый формат** (банк форматов; не dup `/blog/istorii-vkontakte/` — там публикация; без гарантий «тысячи просмотров» и токсичных эстафет)
+- [x] `kak-posmotret-istoriyu-aktivnosti-stranitsyi-i-povyisit-effektivnost-gruppyi-v-vk` — Как посмотреть историю активности страницы и повысить эффективность группы в ВК
+  ID `61378` · 2021-01-27 · ~11k · SMM → Astro `/blog/aktivnost-vk/` · **новый формат** (сессии входа ≠ ER группы; без «IP = взлом»; не dup raskrutka-gruppy-vk)
+- [x] `chto-takoe-ohvat-v-instagram` — Что такое охват в Инстаграм
+  ID `61331` · 2021-01-26 · ~10k · SMM → Astro `/blog/ohvat-instagram/` · **новый формат** (reach vs показы; не dup `/blog/statistika-instagram/`; без накрутки/каталога сейверов; Meta legalNotice авто)
+- [x] `kak-rabotaet-vzaimopiar-osobennosti-tonkosti-i-dogovorennosti` — Как работает взаимопиар: особенности, тонкости и договоренности
+  ID `61198` · 2021-01-21 · ~8k · SMM · Интернет-маркетинг → Astro `/blog/vzaimopiar/` · **новый формат** (шире шаута; без бирж накрутки; договорённости и замер заявок)
+- [x] `otlozhennyiy-posting-v-instagram` — Отложенный постинг в Instagram
+  ID `61164` · 2021-01-18 · ~13k · SMM → Astro `/blog/otlozhennyy-posting-instagram/` · **новый формат** (нативное планирование Meta; без каталога серых автопостеров/парсинга; не dup kontent-plan; Meta legalNotice авто)
+- [x] `privetstvie-v-soobshhestve-vk-kak-vstrechat-gostey-i-podpischikov` — Приветствие в сообществе VK. Как встречать гостей и подписчиков
+  ID `60629` · 2020-12-30 · ~10k · SMM → Astro `/blog/privetstvie-vk/` · **новый формат** (текст/CTA; без культа SpyCat и «молниеносного роста»; виджеты устаревают)
+- [x] `onlayn-generator-nikov-chto-delat-esli-vse-variantyi-uzhe-zanyatyi` — Онлайн-генератор ников: что делать, если все варианты уже заняты
+  ID `60333` · 2020-12-25 · ~11k · SMM → Astro `/blog/generator-nikov/` · **новый формат** (идеи + проверка на площадке; без каталога генераторов и «брони везде»; Meta legalNotice авто)
+- [x] `kak-uvelichit-ohvat-podpischikov-vkontakte` — Как увеличить охват подписчиков ВКонтакте
+  ID `59081` · 2020-12-23 · ~7k · SMM → Astro `/blog/ohvat-podpischikov-vk/` · **новый формат** (охват базы ≠ вирал; без накрутки; смежно viralnyy-ohvat-vk / raskrutka-gruppy-vk)
+- [x] `chto-napisat-pod-foto-v-instagrame` — Что написать под фото в Инстаграме?
+  ID `60199` · 2020-12-18 · ~23k · SMM → Astro `/blog/podpis-foto-instagram/` · **новый формат** (подпись ≠ продающий пост; без гендерных клише и культа хештегов; Meta legalNotice авто)
+- [x] `chto-takoe-spam-v-gruppah-i-soobshheniyah-vk-kak-on-sozdaetsya-i-kak-pravilno-pozhalovatsya-na-nego` — Что такое спам в группах и сообщениях ВК, как он создается, и как правильно пожаловаться на него
+  ID `59046` · 2020-11-24 · ~7k · SMM → Astro `/blog/spam-vk/` · **новый формат** (жалоба/взлом; без каталога серых рассыльщиков; не dup zaspamlennost-teksta; смежно rassylka-vk)
+- [x] `kak-izmenit-url-adres-kanala-na-youtube-instrukciya-po-primeneniyu` — Как изменить URL-адрес канала на YouTube. Инструкция по применению
+  ID `59209` · 2020-11-18 · ~6k · SMM · Интернет-маркетинг → Astro `/blog/url-youtube/` · **новый формат** (кастомный URL/@handle; без скринов 2020; пороги сверять со справкой; не dup opisanie-youtube)
+- [x] `vovlechennost-v-instagram-statisticheskij-analiz-profilya-v-socseti` — Вовлеченность в Instagram. Статистический анализ профиля в соцсети
+  ID `59061` · 2020-11-17 · ~13k · SMM · Интернет-маркетинг → Astro `/blog/vovlechennost-instagram/` · **новый формат** (ER-формулы; без культа «3%» и накрутки; смежно statistika/ohvat; Meta legalNotice авто)
+- [x] `kak-samostoyatelno-sdelat-kartu-sayta-v-formate-xml-ispolzuem-generator` — Как самостоятельно сделать карту сайта в формате xml: используем генератор
+  ID `58936` · 2020-11-09 · ~9k · SMM · Интернет-маркетинг · **dup** → `/blog/karta-sayta/` (XML sitemap, теги, генераторы/плагины уже в каноне; соседние WP про карту — туда же)
+- [x] `soobshestva-vkontakte-chto-eto-i-kak-ih-ispolzovat` — Сообщества ВКонтакте: что это и как их использовать
+  ID `58894` · 2020-11-06 · ~16k · SMM · Интернет-маркетинг → Astro `/blog/soobshhestva-vk/` · **новый формат** (паблик/группа/ивент; без каталога ботов и «гарантии продаж»; не dup raskrutka-gruppy-vk)
+- [x] `31-sovet-dlya-nachala-biznesa-v-instagrame` — 31 совет для начала бизнеса в Инстаграме
+  ID `58862` · 2020-11-04 · ~23k · SMM · **dup** → `/blog/biznes-v-instagram/` (старт, ниши, ЦА, контент-план и ведение уже в каноне; список «31 совет» — пересказ того же каркаса + устаревшие цифры)
+- [x] `reklamnyie-kampanii-na-facebook-kotoryie-dobilis-uspeha-5-primerov` — Рекламные кампании на Facebook, которые добились успеха: 5 примеров
+  ID `58843` · 2020-11-03 · ~17k · SMM · Контент-маркетинг → Astro `/blog/keisy-facebook-ads/` · **новый формат** (ошибки + уроки кейсов; чужой ROI не гарантия; не dup facebook-ads; Meta legalNotice авто)
+- [x] `poisk-zakazchikov-dlya-kopiraytera-sposobyi-i-sovetyi` — Поиск заказчиков для копирайтера: способы и советы
+  ID `58793` · 2020-10-30 · ~39k · SMM · Контент-маркетинг → Astro `/blog/zakazchiki-kopiraytera/` · **новый формат** (категория Контент-маркетинг; портфолио/каналы/отклик; без каталога групп и демпинга; не dup kopirayting)
+- [x] `kak-nayti-cheloveka-v-instagram` — Как найти человека в Instagram
+  ID `58769` · 2020-10-29 · ~6k · SMM → Astro `/blog/nayti-cheloveka-instagram/` · **новый формат** (ник/поиск/контакты; без деанон-сервисов; смежно ssylka-instagram; Meta legalNotice авто)
+- [x] `kak-delat-publikatsii-v-feysbuke-poetapnoe-rukovodstvo` — Как делать публикации в Фейсбуке: поэтапное руководство
+  ID `58720` · 2020-10-27 · ~14k · SMM → Astro `/blog/post-facebook/` · **новый формат** (профиль/группа/страница, форматы, отложка, буст; не dup gruppa-facebook; Meta legalNotice авто)
+- [x] `vse-o-video-istoriyah-v-instagram` — Все о видео-историях в Инстаграм
+  ID `58177` · 2020-10-08 · ~14k · SMM → Astro `/blog/video-stories-instagram/` · **новый формат** (публикация/качество 9:16; без серых сейверов; не dup skachat-stories-instagram; Meta legalNotice авто)
+- [x] `sposobyi-udaleniya-obyichnogo-ili-biznes-profilya-v-instagram` — Способы удаления обычного или бизнес профиля в Инстаграм
+  ID `58461` · 2020-10-06 · ~8k · SMM → Astro `/blog/udalenie-akkaunta-instagram/` · **новый формат** (пауза / бизнес→личный / удаление; UI → справка Meta; не dup biznes-akkaunt; Meta legalNotice авто)
+- [x] `kak-effektivno-prodvigat-svoy-brend-s-pomoshhyu-geymifikatsii-v-sotsialnyih-setyah` — Как эффективно продвигать свой бренд с помощью геймификации в социальных сетях
+  ID `58351` · 2020-10-02 · ~16k · SMM → Astro `/blog/geymifikatsiya-socseti/` · **новый формат** (механики/ЦА/форматы; без каталога серых ботов и гарантий виральности; не dup kviz-sayt)
+- [x] `arhiv-v-instagram-kak-skryit-publikatsiyu` — Архив в Instagram: как скрыть публикацию
+  ID `58375` · 2020-09-28 · ~11k · SMM → Astro `/blog/arhiv-instagram/` · **новый формат** (архив постов ленты: скрыть/вернуть; не dup skachat-stories / sohranit-foto; Meta legalNotice авто)
+- [x] `kak-skopirovat-ssyilku-na-instagram` — Как скопировать ссылку на Инстаграм
+  ID `58240` · 2020-09-17 · ~5k · SMM · **dup** → `/blog/ssylka-instagram/` (браузер/приложение/URL по нику уже в каноне; тот же каркас)
+- [x] `kak-sdelat-svayp-v-istorii-instagram` — Как сделать свайп в истории Инстаграм
+  ID `58149` · 2020-09-11 · ~16k · SMM → Astro `/blog/ssylka-stories-instagram/` · **новый формат** (стикер Link / CTA вместо устаревшего swipe; порог 10k смягчён; смежно будущему `kak-dobavit-ssilku-v-instagram-stories`; Meta legalNotice авто)
+- [x] `effektivnyiy-zarabotok-na-gruppe-v-vk` — Эффективный заработок на группе в VK
+  ID `58019` · 2020-09-11 · ~10k · SMM → Astro `/blog/zarabotok-gruppy-vk/` · **новый формат** (монетизация админа; без накрутки и чужих «средних зарплат»; не dup reklama-v-pablikah / raskrutka-gruppy-vk)
+- [x] `dobavlyaem-odnovremenno-neskolko-istoriy-v-instagram` — Добавляем одновременно несколько историй в Инстаграм
+  ID `57922` · 2020-09-02 · ~17k · SMM → Astro `/blog/neskolko-stories-instagram/` · **новый формат** (канон мульти-сторис; пакет/нарезка/порядок; без эмуляторов; сосед `-2` → ssylka-instagram; Meta legalNotice авто)
+- [x] `pokazy-v-instagram-chto-eto-takoe-i-kakoe-oni-imeyut-znachenie` — Показы в Инстаграм: что это такое и какое они имеют значение
+  ID `58002` · 2020-08-27 · ~10k · SMM · **dup** → `/blog/ohvat-instagram/` (охват vs показы + белый рост уже в каноне; WP-каталог накрутки не переносим)
+- [x] `emodzi-chto-eto-i-kak-imi-polzovatsya` — Эмодзи. Что это и как ими пользоваться
+  ID `57990` · 2020-08-25 · ~7k · SMM · Интернет-маркетинг · Контент-маркетинг → Astro `/blog/emodzi/` · **новый формат** (категория Контент-маркетинг; мера/ЦА/сниппеты без гарантий CTR и ТОПа)
+- [x] `kak-ponyat-chto-vas-zablokiroval-instagram-i-chto-s-etim-delat` — Как понять что вас заблокировал Инстаграм и что с этим делать
+  ID `57854` · 2020-08-14 · ~13k · SMM · **dup** → `/blog/blokirovka-instagram/` (платформенные лимиты/бан уже в каноне; серые советы про прокси/массфолловинг не переносим; user-block — см. также razblokirovka)
+- [x] `sposoby-organizacii-plyusy-i-minusy-shauta-v-instagrame` — Способы организации, плюсы и минусы шаута в Инстаграме
+  ID `57770` · 2020-08-14 · ~6k · SMM · **dup** → `/blog/shaut-instagram/` (канон ID `57776` `sposobyi-organizatsii-…`; тот же SFS/плюсы-минусы)
+- [x] `povyishenie-vovlechennosti-v-sotsialnyih-setyah-prevrashhenie-podpischikov-v-fanatov` — Повышение вовлеченности в социальных сетях: превращение подписчиков в фанатов
+  ID `57495` · 2020-08-14 · ~20k · SMM → Astro `/blog/vovlechennost-socseti/` · **новый формат** (кросс-сетевые рычаги; без культа «нормы ER» и накрутки; не dup vovlechennost-instagram)
+- [x] `kak-dobavit-ssilku-v-instagram-stories` — Как добавить ссылку в Инстаграм сторис
+  ID `57805` · 2020-08-12 · ~17k · SMM · **dup** → `/blog/ssylka-stories-instagram/` (почти тот же текст, что у `kak-sdelat-svayp-…` / канон стикера Link)
+- [x] `kak-otmetit-akkaunt-v-instagram` — Как отметить аккаунт в Инстаграм
+  ID `57686` · 2020-08-06 · ~16k · SMM · **dup** → `/blog/otmetki-instagram/` (отметки в постах/Stories, правила и ошибки уже в каноне)
+- [x] `sekretnyj-chat-v-telegram-struktura-funkcii` — Секретный чат в Telegram: структура, функции
+  ID `57653` · 2020-08-05 · ~8k · SMM → Astro `/blog/sekretnyy-chat-telegram/` · **новый формат** (E2E/таймер; без мифа об абсолютной защите; не dup telegram overview)
+- [x] `interesno-o-populyarnom-resurse-pinterest` — Интересно о популярном ресурсе Pinterest
+  ID `57425` · 2020-08-04 · ~9k · SMM → Astro `/blog/pinterest/` · **новый формат** (обзор pin/board/repin; не dup pinterest-skachat; без устаревших демоцифр)
+- [x] `kak-sozdat-vtoroy-akkaunt-v-instagram-i-dlya-chego-on-nuzhen` — Как создать второй аккаунт в Инстаграм и для чего он нужен
+  ID `57531` · 2020-07-29 · ~12k · SMM → Astro `/blog/vtoroy-akkaunt-instagram/` · **новый формат** (роли лент + добавление в приложении; не dup biznes-akkaunt; Meta legalNotice авто)
+- [x] `6-shagov-k-uvelicheniyu-prosmotrov-istoriy-v-instagram` — 6 шагов к увеличению просмотров историй в Instagram
+  ID `57389` · 2020-07-24 · ~9k · SMM → Astro `/blog/prosmotry-stories-instagram/` · **новый формат** (крючок/диалог/мера; без накрутки; не dup neskolko-stories; Meta legalNotice авто)
+- [x] `lichnyj-blog-instagram-kak-pereklyuchit-na-nego-akkaunt` — Личный блог Instagram: как переключить на него аккаунт
+  ID `57483` · 2020-07-23 · ~21k · SMM → Astro `/blog/blog-instagram/` · **dup** (старт блога; переключение типа — в biznes-akkaunt-instagram)
+- [x] `chto-takoe-promoaktsiya-v-instagram` — Что такое промоакция в Инстаграм
+  ID `57448` · 2020-07-22 · ~17k · SMM → Astro `/blog/promo-instagram/` · **новый формат** (Promote/буст поста; не dup promoaktsii ритейл; Meta legalNotice авто)
+
+- [x] `kak-zakryit-akkaunt-v-instagrame` — Как закрыть аккаунт в Инстаграме
+  ID `57354` · 2020-07-17 · ~16k · SMM → Astro `/blog/zakrytyy-akkaunt-instagram/` · **новый формат** (приватный профиль ≠ удаление; не dup udalenie-akkaunta; Meta legalNotice авто)
+- [x] `kak-posmotret-publikatsii-zakryitogo-akkaunta-v-instagram` — Как посмотреть публикации закрытого аккаунта в Инстаграм
+  ID `57306` · 2020-07-13 · ~17k · SMM → Astro `/blog/prosmotr-zakrytogo-akkaunta/` · **новый формат** (только запрос; без взлома/фейков/viewer-apps; Meta legalNotice авто)
+
+- [x] `kak-sohranit-pryamoy-efir-igtv-v-instagram` — Как сохранить прямой эфир IGTV в Инстаграм
+  ID `57287` · 2020-07-10 · ~17k · SMM → Astro `/blog/sohranenie-efira-instagram/` · **новый формат** (свой Live; IGTV устарел; без сейверов чужих; не dup pryamoy-efir; Meta legalNotice авто)
+- [x] `kak-dobavit-muziku-v-storis-instagram` — Как добавить музыку в сторис Инстаграм
+  ID `57238` · 2020-07-09 · ~19k · SMM → Astro `/blog/muzyka-stories-instagram/` · **новый формат** (стикер Music + легальный редактор; без фишинг-обходов региона; Meta legalNotice авто)
+
+- [x] `chto_takoe_serm_kogda_on_neobhodim_i_kak_ispolzovat` — Что такое SERM. Когда он необходим и как использовать
+  ID `56797` · 2020-06-17 · ~17k · SMM · **dup** → `/blog/serm/` (канон из `chto-takoe-serm-…` ID 42245)
+- [x] `kak_popast_v_rekomendacii_tik_tok_algoritm_ranzhirovaniya` — Как попасть в рекомендации тик ток: алгоритм ранжирования 2020
+  ID `56767` · 2020-05-25 · ~8k · SMM → Astro `/blog/rekomendatsii-tiktok/` · **новый формат** (For You: удержание/сигналы; без устаревших хештегов 2020 и накрутки)
+
+- [x] `kak_osushchestvit_parsing_auditorii_instagram_teoriya_i_prakticheskie_rekomendacii` — Как осуществить парсинг аудитории Инстаграм: теория и практические рекомендации
+  ID `56526` · 2020-05-04 · ~11k · SMM · **dup** → `/blog/parsing-auditorii/` (риски выгрузки + легальные альтернативы уже в каноне; без каталога парсеров)
+- [x] `nazvanie-auditorii-v-instagram-chto-pisat-dlya-prodvizheniya` — Название аудитории в Инстаграм: что писать для продвижения
+  ID `56487` · 2020-04-27 · ~9k · SMM → Astro `/blog/nazvanie-auditorii-instagram/` · **новый формат** (внутренние ярлыки Ads/Promote; без масслайка/Tooligram; Meta legalNotice авто)
+
+- [x] `kak-nastroit-reklamu-v-instagrame-cherez-feysbuk` — Как настроить рекламу в Инстаграме через Фейсбук
+  ID `56479` · 2020-04-27 · ~16k · SMM → Astro `/blog/nastroika-reklamy-instagram/` · **новый формат** (Meta Ads → плейсменты IG; не dup reklama-instagram/facebook-ads/promo; Meta legalNotice авто)
+- [x] `kak-zapustit-reklamu-v-tiktok` — Как запустить рекламу в TikTok
+  ID `56471` · 2020-04-27 · ~9k · SMM · Медиа сервисы → Astro `/blog/reklama-tiktok/` · **новый формат** (Ads Manager + креатив; без $500/Vigo 2018; не dup rekomendatsii-tiktok)
+
+- [x] `rasprostranennye-oshybky-pry-proodvizheniy-cherez-socsety` — Распространённые ошибки при продвижении через соцсети
+  ID `56001` · 2020-03-13 · ~12k · SMM → Astro `/blog/oshibki-smm/` · **новый формат** (стратегия/ритм/ЦА; без мифа «соцсигналы = ТОП»; не dup vovlechennost-socseti)
+- [x] `analitika-kanala-v-telegram` — Аналитика канала в телеграм
+  ID `55363` · 2020-02-10 · ~12k · SMM → Astro `/blog/analitika-telegram/` · **новый формат** (просмотры ≠ ER; Insights/UTM; не dup telegram-kanal)
+
+- [x] `kak-udalit-botov-v-instagram` — Как удалить ботов в Инстаграм
+  ID `55220` · 2020-02-06 · ~18k · SMM → Astro `/blog/udalenie-botov-instagram/` · **новый формат** (порционная чистка; без каталога автоочистителей; не dup nakrutka-laykov; Meta legalNotice авто)
+- [x] `cms-obzor-populyarnyih-v-2019` — CMS - обзор популярных в 2019
+  ID `54856` · 2020-01-22 · ~30k · SMM · **dup** → `/blog/obzor-cms/` (канон WP/Joomla/Битрикс/Drupal/MODX; рейтинги 2019 не переносим)
+
+- [x] `instruktsiya-po-dobavleniyu-ssyilok-v-instagram` — Инструкция по добавлению ссылок в инстаграм
+  ID `54756` · 2020-01-20 · ~17k · SMM → Astro `/blog/ssylki-v-instagram/` · **новый формат** (bio/link-in-bio/Stories/кнопки; не dup ssylka-instagram / ssylka-stories; Meta legalNotice авто)
+- [x] `kak-sobrat-bazu-podpischikov-v-sotssetyah` — Как собрать базу подписчиков в соцсетях
+  ID `54337` · 2020-01-10 · ~15k · SMM → Astro `/blog/baza-email-socseti/` · **новый формат** (email с согласием; без парсинга; аннотации YT смягчены; смежно formy-zahvata)
+
+- [x] `kak-privlech-podpischikov-na-youtube-kanal` — Как привлечь подписчиков на Youtube канал
+  ID `54057` · 2019-12-24 · ~11k · SMM · **dup** → `/blog/raskrutka-youtube/` (ритм/ключи/коллабы/CTA уже в каноне; смежно knopki-youtube)
+- [x] `verifikatsiya-akkaunta-instagram-instruktsiya-po-polucheniyu` — Верификация аккаунта instagram: инструкция по получению
+  ID `53468` · 2019-12-10 · ~16k · SMM → Astro `/blog/verifikatsiya-instagram/` · **новый формат** (галочка ≠ охват; Meta Verified; без посредников; Meta legalNotice авто)
+
+- [x] `5-sposobov-povyisit-ohvat-istoriy-v-instagram` — 5 способов повысить охват историй в Instagram
+  ID `52567` · 2019-11-22 · ~9k · SMM · **dup** → `/blog/prosmotry-stories-instagram/` (удержание/интерактивы/мера серии уже в каноне; смежно 6-shagov→тот же канон; Meta legalNotice в каноне)
+- [x] `vliyanie-sotssetey-na-prodvizhenie-sayta` — Влияние соцсетей на продвижение сайта
+  ID `52362` · 2019-11-11 · ~5k · SMM → Astro `/blog/socseti-i-seo/` · **новый формат** (трафик/бренд/ПФ; без мифа «лайк=ТОП»; тИЦ/PR сняты; SEO-сроки: подг.≠ТОП)
+- [x] `otlichiya-biznes-akkaunta-instagram-ot-obyichnogo` — Отличия бизнес-аккаунта инстаграм от обычного
+  ID `51706` · 2019-09-18 · ~9k · SMM · **dup** → `/blog/biznes-akkaunt-instagram/` (личный/бизнес/про; статистика и переключение уже в каноне; Meta legalNotice в каноне)
+- [x] `kak-rasschitat-koeffitsient-vovlechennosti-dlya-sotssetey` — Как рассчитать коэффициент вовлеченности для соцсетей
+  ID `51411` · 2019-09-03 · ~12k · SMM · **dup** → `/blog/vovlechennost-socseti/` (ER/диалог без культа «нормы»; формулы IG — `/blog/vovlechennost-instagram/`)
+- [x] `ishhem-smmshhika-pravilno` — Ищем СММщика правильно
+  ID `50479` · 2019-07-18 · ~8k · SMM → Astro `/blog/naym-smm/` · **новый формат** (найм ≠ обязанности menedzher-smm; без каталога устаревших сервисов; Meta legalNotice авто)
+- [x] `kak-prodvigat-novostnoy-sayt` — Как продвигать новостной сайт
+  ID `50392` · 2019-07-15 · ~18k · SMM → Astro `/blog/novostnoy-sayt/` · **новый формат** (свежесть/техника/дистрибуция; SEO-сроки: подг.≠ТОП; соцсигналы смягчены)
+- [x] `vyibiraem-luchshee-vremya-dlya-posta-v-instagram` — Выбираем лучшее время для поста в инстаграм
+  ID `50092` · 2019-06-29 · ~16k · SMM → Astro `/blog/vremya-posta-instagram/` · **новый формат** (своя статистика ≠ чужие таблицы; без серых автопостеров; смежно otlozhennyy-posting; Meta legalNotice авто)
+- [x] `inflyuenseryi-dan-mode-ili-deystvennyiy-instrument-reklamyi` — Инфлюенсеры – дань моде или действенный инструмент рекламы
+  ID `49656` · 2019-06-11 · ~15k · SMM → Astro `/blog/inflyuenser-marketing/` · **новый формат** (мода vs замер; не dup bloger-dlya-reklamy; устаревшие % смягчены; Meta legalNotice авто)
+- [x] `gruppa-i-stranitsa-v-feysbuke-v-chem-raznitsa` — Группа и страница в Фейсбуке - в чем разница
+  ID `49020` · 2019-04-16 · ~13k · SMM · **dup** → `/blog/gruppa-facebook/` (Page vs Group, профиль/мероприятия уже в каноне; Meta legalNotice в каноне)
+- [x] `kontent-dlya-sotssetey-osnovnyie-vidyi` — Контент для соцсетей: основные виды
+  ID `48770` · 2019-04-01 · ~12k · SMM → Astro `/blog/vidy-kontenta-socseti/` · **новый формат** (5 типов; без догмы «1/3 продаж»; смежно kontent-plan; Meta legalNotice авто)
+- [x] `tri-soveta-po-vyiboru-mest-dlya-videoreklamyi-na-youtube` — Три совета по выбору мест для видеорекламы на YouTube
+  ID `48799` · 2019-03-29 · ~6k · SMM · **dup** → `/blog/videoreklama-youtube/` (плейсменты/минус нерелевантного уже в логике запуска; смежно effektivnost-videoreklamy)
+- [x] `tegi-dlya-yutub-kanala-kak-podobrat-pravilno` — Теги для ютуб канала: как подобрать правильно
+  ID `48489` · 2019-03-13 · ~15k · SMM · **dup** → `/blog/kluchi-youtube/` (ключи/теги/заголовок/описание; карточки — knopki-youtube; рост — raskrutka-youtube)
+- [x] `rassyilka-vkontakte` — Рассылка ВКонтакте
+  ID `48541` · 2019-03-11 · ~10k · SMM · **dup** → `/blog/rassylka-vk/` (цели/правила сообщений без спам-софта уже в каноне; смежно spam-vk)
+- [x] `kak-sobrat-statistiku-akkaunta-v-instagram` — Как собрать статистику аккаунта в Инстаграм
+  ID `48005` · 2019-02-14 · ~15k · SMM · **dup** → `/blog/statistika-instagram/` (инсайты/метрики; WP-каталог сторонних сервисов не переносим; Meta legalNotice в каноне)
+- [x] `triggernyie-rassyilki-chto-eto-i-kak-ispolzovat` — Триггерные рассылки: что это и как использовать
+  ID `47707` · 2019-02-05 · ~16k · SMM → Astro `/blog/triggernye-rassylki/` · **новый формат** (категория E-mail маркетинг; welcome/корзина/реанимация; без парсинга; смежно broshennaya-korzina)
+- [x] `dizayn-instagram-17-proverennyih-instrumentov` — Дизайн Инстаграм: 17 проверенных инструментов
+  ID `47645` · 2019-02-01 · ~19k · SMM · **dup** → `/blog/shablon-instagram/` (сетка/шаблоны/Canva уже в каноне; каталог 17 приложений 2019 не переносим; смежно oformlenie/canva; Meta в каноне)
+- [x] `chat-bot-vkontakte-kak-sozdat-i-dlya-chego-on-nuzhen` — Чат бот вконтакте. Как создать и для чего он нужен?
+  ID `46901` · 2018-12-19 · ~13k · SMM → Astro `/blog/chat-bot-vk/` · **новый формат** (FAQ/заявки/handoff; без спам-рассылок; смежно telegram-boty, rassylka-vk)
+- [x] `idei-dlya-instagram-stories` — Идеи для Instagram Stories
+  ID `46264` · 2018-11-07 · ~18k · SMM → Astro `/blog/idei-stories-instagram/` · **новый формат** (банк форматов; без «охвата ×3»; смежно prosmotry/idei-storis-vk; Meta legalNotice)
+
+- [x] `kak-optimizirovat-youtube-kanal` — Как оптимизировать YouTube-канал
+  ID `46117` · 2018-11-02 · ~15k · SMM · **dup** → `/blog/raskrutka-youtube/` (ключи/описание/оформление/плейлисты уже в каноне и смежных: kluchi, opisanie, shapka/avatar; не переносим каталог Keywordtool/Key Collector 2018)
+- [x] `40-sovetov-dlya-prodvizheniya-v-instagram` — 40 советов для продвижения в Instagram
+  ID `45897` · 2018-10-09 · ~13k · SMM · **dup** → `/blog/biznes-v-instagram/` (чеклист ЦА/контент/Stories/реклама уже в каноне; как «31 совет»; Meta в каноне)
+
+- [x] `heshtegi-i-geotegi-dlya-prodvizheniya-biznes-profilya-v-instagram` — Хэштеги и геотеги для продвижения бизнес-профиля в Instagram
+  ID `45880` · 2018-10-05 · ~13k · SMM → Astro `/blog/heshtegi-instagram/` · **новый формат** (подбор/лимиты/гео; без «30 тегов = ТОП»; смежно biznes-v-instagram; Meta legalNotice)
+- [x] `kontrol-onlayn-reputatsii-instruktsiya-dlya-smm-spetsialistov` — Контроль онлайн-репутации: инструкция для SMM специалистов
+  ID `45729` · 2018-09-28 · ~17k · SMM · **dup** → `/blog/serm/` (ORM/SERM, мониторинг, отзывы; контент-план/Alerts — смежные каноны; без устаревших % BrightLocal)
+
+- [x] `pravila-2018-goda-effektivnoy-rabotyi-v-instagram` — Правила 2018 года эффективной работы в Instagram
+  ID `45361` · 2018-09-10 · ~18k · SMM · **dup** → `/blog/biznes-v-instagram/` (контент/Stories/блогеры/анти-накрутка уже в каноне и смежных; не переносим «правила 2018» и схему масслайкинга через парсер VK)
+- [x] `v-facebook-poyavilis-novyie-instrumentyi-dlya-reklamyi` — В Facebook появились новые инструменты для рекламы
+  ID `44698` · 2018-07-26 · ~3k · SMM · **dup** → `/blog/facebook-ads/` (новость про UI Ads Manager 2018; кабинет/креатив в каноне; Meta в каноне)
+
+- [x] `targetirovannaya-reklama-v-facebook-6-naglyadnyih-primerov` — Таргетированная реклама в Facebook: 6 наглядных примеров
+  ID `43820` · 2018-06-22 · ~12k · SMM · **dup** → `/blog/keisy-facebook-ads/` (креатив/ретаргет/CTA уже в каноне кейсов; чужие баннеры 2018 не переносим; Meta в каноне)
+- [x] `5-sovetov-po-sozdaniyu-smm-strategii` — 5 советов по созданию SMM-стратегии
+  ID `43447` · 2018-06-01 · ~9k · SMM → Astro `/blog/smm-strategiya/` · **новый формат** (цели→задачи→приоритеты→сроки→анализ; смежно marketingovaya-strategiya, oshibki-smm)
+
+- [x] `prodvizhenie-v-instagram-samostoyatelno` — Продвижение в Instagram самостоятельно
+  ID `43324` · 2018-05-23 · ~8k · SMM · **dup** → `/blog/biznes-v-instagram/` (оформление/контент/хештеги/конкурсы уже в каноне и смежных; не переносим каталог платных «накрутчиков»; Meta в каноне)
+- [x] `poiskovaya-optimizatsiya-youtube-video-4-instrumenta` — Поисковая оптимизация YouTube видео: 4 инструмента
+  ID `43303` · 2018-05-21 · ~9k · SMM · **dup** → `/blog/kluchi-youtube/` (Trends/подсказки/теги/удержание уже в каноне; каталог Ubersuggest/VidIQ 2018 не переносим)
+
+- [x] `uvelichivaem-trafik-iz-sotsialnyih-setey-s-pomoshhyu-protokola-open-graph` — Увеличиваем трафик из социальных сетей с помощью протокола Open Graph
+  ID `40823` · 2017-09-20 · ~5k · SMM · **dup** → `/blog/open-graph/` (канон OG; соседние WP про протокол — туда же)
+- [x] `novyiy-mobilnyiy-operator-vk-mobile-alternativa-ili-autsayder-s-rozhdeniya` — Новый мобильный оператор VK Mobile – альтернатива или аутсайдер с рождения?
+  ID `39050` · 2017-06-06 · ~5k · SMM · **dup** → `/blog/soobshhestva-vk/` (устаревшая новость про тариф МегаФон «VK Mobile» 2017; не переносим; 301 на канон про VK)
+
+- [x] `pochemu-nuzhno-ustanovit-blok-sots-ssyilok-na-sayt` — Почему нужно установить блок соц.ссылок на сайт?
+  ID `38493` · 2017-02-18 · ~4k · SMM · **dup** → `/blog/open-graph/` (превью при шаринге уже в каноне; код Яндекс.Поделиться/Google+ 2017 не переносим)
 
 ## Блог (52)
 
-- [ ] `shablonyi-dlya-instagram-stories-klassifikatsiya-idei-i-primeryi` — Шаблоны для Instagram Stories. Классификация, идеи и примеры    
-  ID `65333` · 2022-03-01 · ~16k · —
-- [ ] `skachivaem-roliki-iz-instagrama-obzor-vozmozhnostey` — Скачиваем ролики из Инстаграма: обзор возможностей    
-  ID `65310` · 2022-02-21 · ~17k · —
-- [ ] `insayt-kak-marketingovyiy-instrument-dlya-chego-on-nuzhen-i-kak-ispolzuetsya` — Инсайт как маркетинговый инструмент: для чего он нужен и как используется    
-  ID `65282` · 2022-02-14 · ~9k · —
-- [ ] `nastroyka-massovyih-rassyilok-v-whatsapp` — Настройка массовых рассылок в WhatsApp    
-  ID `65229` · 2022-02-01 · ~13k · —
-- [ ] `sotsialnyie-seti-istoriya-poyavleniya-vidyi-samyie-krupnyie-platformyi-tendentsii-razvitiya` — Социальные сети: история появления, виды, самые крупные платформы, тенденции развития    
-  ID `65134` · 2022-01-27 · ~27k · —
-- [ ] `kak-hlebnyimi-kroshkami-uluchshit-ranzhirovanie-sayta` — Как хлебными крошками улучшить ранжирование сайта    
-  ID `65085` · 2022-01-17 · ~6k · —
-- [ ] `sekrety-platnoj-i-besplatnoj-reklamy-gruppy-v-vk` — Секреты платной и бесплатной рекламы группы в ВК    
-  ID `65004` · 2022-01-11 · ~20k · —
-- [ ] `chto-nuzhno-znat-o-trafike-v-internete` — Что нужно знать о трафике в интернете    
+- [x] `shablonyi-dlya-instagram-stories-klassifikatsiya-idei-i-primeryi` — Шаблоны для Instagram Stories. Классификация, идеи и примеры
+  ID `65333` · 2022-03-01 · ~16k · — · **dup** → `/blog/shablon-instagram/` (единый стиль/Canva; форматы — `/blog/idei-stories-instagram/`; каталог Spark/Unfold не переносим; Meta в каноне)
+
+- [x] `skachivaem-roliki-iz-instagrama-obzor-vozmozhnostey` — Скачиваем ролики из Инстаграма: обзор возможностей
+  ID `65310` · 2022-02-21 · ~17k · — · **dup** → `/blog/skachat-stories-instagram/` (свои/права/этика; каталог сейверов и обход закрытых аккаунтов не переносим; Meta в каноне)
+- [x] `insayt-kak-marketingovyiy-instrument-dlya-chego-on-nuzhen-i-kak-ispolzuetsya` — Инсайт как маркетинговый инструмент: для чего он нужен и как используется
+  ID `65282` · 2022-02-14 · ~9k · — · **dup** → `/blog/potrebitelskiy-insayt/` (определение/применение/примеры уже в каноне; как foreshadowed в lead канона)
+
+- [x] `nastroyka-massovyih-rassyilok-v-whatsapp` — Настройка массовых рассылок в WhatsApp
+  ID `65229` · 2022-02-01 · ~13k · — → Astro `/blog/rassylka-whatsapp/` · **новый формат** (категория SMM; Business API/согласие; без купленных баз; Meta legalNotice)
+- [x] `sotsialnyie-seti-istoriya-poyavleniya-vidyi-samyie-krupnyie-platformyi-tendentsii-razvitiya` — Социальные сети: история появления, виды, самые крупные платформы, тенденции развития
+  ID `65134` · 2022-01-27 · ~27k · — → Astro `/blog/sotsialnye-seti/` · **новый формат** (категория SMM; без устаревших MAU/Google+; смежно sotsseti-dlya-biznesa; Meta legalNotice)
+
+- [x] `kak-hlebnyimi-kroshkami-uluchshit-ranzhirovanie-sayta` — Как хлебными крошками улучшить ранжирование сайта
+  ID `65085` · 2022-01-17 · ~6k · — · **dup** → `/blog/hlebnye-kroshki/` (навигация/типы/разметка уже в каноне; соседний WP про крошки)
+- [x] `sekrety-platnoj-i-besplatnoj-reklamy-gruppy-v-vk` — Секреты платной и бесплатной рекламы группы в ВК
+  ID `65004` · 2022-01-11 · ~20k · — · **dup** → `/blog/raskrutka-gruppy-vk/` (таргет/посевы/конкурсы/взаимопиар уже в каноне и reklama-v-pablikah-vk; схемы фейков/инвайтинга не переносим)
+
+- [x] `chto-nuzhno-znat-o-trafike-v-internete` — Что нужно знать о трафике в интернете
   ID `64957` · 2021-12-30 · ~12k · —
-- [ ] `prodvigaem-svoy-kanal-na-youtube-vse-o-klyuchah` — Продвигаем свой канал на YouTube: все о ключах    
+  → dup `/blog/istochniki-trafika/` (смесь «трафика» МБ/сек и посещаемости; каталог NetWorx/BitMeter не переносим)
+- [x] `prodvigaem-svoy-kanal-na-youtube-vse-o-klyuchah` — Продвигаем свой канал на YouTube: все о ключах
   ID `64854` · 2021-12-21 · ~19k · —
-- [ ] `kak-udalit-nakruchennyih-podpischikov-iz-instagrama-neskolko-sposobov` — Как удалить накрученных подписчиков из Инстаграма: несколько способов    
+  → dup `/blog/kluchi-youtube/`
+- [x] `kak-udalit-nakruchennyih-podpischikov-iz-instagrama-neskolko-sposobov` — Как удалить накрученных подписчиков из Инстаграма: несколько способов
   ID `64819` · 2021-12-16 · ~22k · —
-- [ ] `kak-provesti-rozyigryish-v-instagram-naglyadnaya-instruktsiya` — Как провести розыгрыш в Instagram. Наглядная инструкция    
+  → dup `/blog/udalenie-botov-instagram/` (Instaplus/OML/SocialKit не переносим)
+- [x] `kak-provesti-rozyigryish-v-instagram-naglyadnaya-instruktsiya` — Как провести розыгрыш в Instagram. Наглядная инструкция    
   ID `64796` · 2021-12-13 · ~19k · —
-- [ ] `sposobyi-vosstanovleniya-akkaunta-v-instagram-chto-delat-esli-profil-zablokirovali-ili-udalili` — Способы восстановления аккаунта в Инстаграм: что делать, если профиль заблокировали или удалили    
+  → dup `/blog/rozygrysh-instagram/` (механика + честный RNG; каталог YouToGift/Giveawation не переносим)
+- [x] `sposobyi-vosstanovleniya-akkaunta-v-instagram-chto-delat-esli-profil-zablokirovali-ili-udalili` — Способы восстановления аккаунта в Инстаграм: что делать, если профиль заблокировали или удалили    
   ID `64697` · 2021-11-25 · ~20k · —
-- [ ] `kak-ispolzovat-dekorativnyiy-shrift-v-instagrame` — Как использовать декоративный шрифт в Инстаграме    
-  ID `64674` · 2021-11-22 · ~10k · —
-- [ ] `kak-pridumat-nikneym-v-instagram` — Как придумать никнейм в Инстаграм    
+  → dup `/blog/blokirovka-instagram/` (хаб бан/взлом; пароль — `/blog/parol-instagram/`, удаление/пауза — `/blog/udalenie-akkaunta-instagram/`)
+- [x] `kak-ispolzovat-dekorativnyiy-shrift-v-instagrame` — Как использовать декоративный шрифт в Инстаграме    
+  ID `64674` · 2021-11-22 · ~10k · — → Astro `/blog/dekorativnyy-shrift-instagram/` · **новый формат** (Unicode vs текст на фото; без каталога Fonts/AppForType; Meta legalNotice авто)
+- [x] `kak-pridumat-nikneym-v-instagram` — Как придумать никнейм в Инстаграм    
   ID `64633` · 2021-11-19 · ~19k · —
-- [ ] `kak-zakrepit-nomer-whatsapp-v-profile-instagram-instruktsiya` — Как закрепить номер WhatsApp в профиле Instagram. Инструкция    
-  ID `64452` · 2021-11-02 · ~22k · —
-- [ ] `zolotaya-kollektsiya-seo-plaginov-dlya-wordpress-prichudyi-optimizatsii` — Золотая коллекция SEO-плагинов для WordPress. Причуды оптимизации    
+  → dup `/blog/generator-nikov/` (советы + проверка занятости; SninXO/nick-name.ru не переносим)
+- [x] `kak-zakrepit-nomer-whatsapp-v-profile-instagram-instruktsiya` — Как закрепить номер WhatsApp в профиле Instagram. Инструкция    
+  ID `64452` · 2021-11-02 · ~22k · — → Astro `/blog/whatsapp-v-instagram/` · **новый формат** (wa.me + text=; без каталога Taplink/Hipolink; Meta legalNotice авто)
+- [x] `zolotaya-kollektsiya-seo-plaginov-dlya-wordpress-prichudyi-optimizatsii` — Золотая коллекция SEO-плагинов для WordPress. Причуды оптимизации    
   ID `64141` · 2021-09-06 · ~20k · —
-- [ ] `chto-takoe-lid-lead` — Что такое лид lead    
-  ID `64107` · 2021-08-30 · ~10k · —
-- [ ] `kak-organizovat-i-pravilno-ispolzovat-pryamuyu-translyatsiyu-v-instagram` — Как организовать и правильно использовать прямую трансляцию в Instagram    
+  → dup `/blog/wordpress-seo-plaginy/` (каталог 70+ и спиннеры не переносим; канон — один комбайн + точечные)
+- [x] `chto-takoe-lid-lead` — Что такое лид lead    
+  ID `64107` · 2021-08-30 · ~10k · — → Astro `/blog/lid/` · **новый формат** (определение/теплота/CPL; без скупки баз; смежно trafik-bez-lidov / formy-zahvata)
+- [x] `kak-organizovat-i-pravilno-ispolzovat-pryamuyu-translyatsiyu-v-instagram` — Как организовать и правильно использовать прямую трансляцию в Instagram    
   ID `64052` · 2021-08-20 · ~11k · —
-- [ ] `infografika-vidyi-naznachenie-i-primeryi` — Инфографика: виды, назначение и примеры    
+  → dup `/blog/pryamoy-efir-instagram/` (как `-2`; сохранение — `/blog/sohranenie-efira-instagram/`)
+- [x] `infografika-vidyi-naznachenie-i-primeryi` — Инфографика: виды, назначение и примеры    
   ID `64011` · 2021-08-16 · ~7k · —
-- [ ] `menedzher-internet-magazina-kto-eto-i-chem-zanimaetsya` — Менеджер интернет-магазина: кто это и чем занимается?    
+  → dup `/blog/infografika/` (канон — `…-primeryi-2`)
+- [x] `menedzher-internet-magazina-kto-eto-i-chem-zanimaetsya` — Менеджер интернет-магазина: кто это и чем занимается?    
   ID `63985` · 2021-08-12 · ~9k · —
-- [ ] `oshibki-servera-klassifikatsiya-i-rasshifrovka` — Ошибки сервера. Классификация и расшифровка    
+  → dup `/blog/menedzher-internet-magazina/` (канон — `rol-menedzhera-v-internet-magazine`)
+- [x] `oshibki-servera-klassifikatsiya-i-rasshifrovka` — Ошибки сервера. Классификация и расшифровка    
   ID `63903` · 2021-07-30 · ~9k · —
-- [ ] `nakrutka-podpischikov-v-instagram-kak-nayti-zhivuyu-auditoriyu` — Накрутка подписчиков в Instagram: как найти «живую» аудиторию    
+  → dup `/blog/kod-statusa-http/` (5xx; точечно `/blog/oshibka-500/`, `/blog/oshibka-502/`)
+- [x] `nakrutka-podpischikov-v-instagram-kak-nayti-zhivuyu-auditoriyu` — Накрутка подписчиков в Instagram: как найти «живую» аудиторию    
   ID `63847` · 2021-07-26 · ~20k · —
-- [ ] `prodayushhiy-post-dlya-sotssetey-vidyi-printsipyi-sostavleniya-primeryi` — Продающий пост для соцсетей: виды, принципы составления, примеры    
+  → dup `/blog/nakrutka-laykov-instagram/` (антигайд; платные программы/боты не переносим; оформление — `/blog/oformlenie-stranicy-instagram/`)
+- [x] `prodayushhiy-post-dlya-sotssetey-vidyi-printsipyi-sostavleniya-primeryi` — Продающий пост для соцсетей: виды, принципы составления, примеры    
   ID `63757` · 2021-07-22 · ~11k · —
-- [ ] `kak-nakrutit-podpischikov-v-instagram-top-10-luchshih-programm-i-servisov` — Как накрутить подписчиков в Instagram: ТОП-10 лучших программ и сервисов    
+  → dup `/blog/post-instagram/` (общий каркас; копирайт — `/blog/prodayushchie-teksty/`)
+- [x] `kak-nakrutit-podpischikov-v-instagram-top-10-luchshih-programm-i-servisov` — Как накрутить подписчиков в Instagram: ТОП-10 лучших программ и сервисов    
   ID `63689` · 2021-07-20 · ~17k · —
-- [ ] `kak-pridumat-narisovat-i-dobavit-oblozhku-v-soobshhestvo-v-vk` — Как придумать, нарисовать и добавить обложку в сообщество в VK    
-  ID `63632` · 2021-07-16 · ~10k · —
-- [ ] `kak-v-instagram-nakrutit-prosmotryi-na-video-i-storis-razbiraem-besplatnyie-i-platnyie-sposobyi` — Как в Инстаграм накрутить просмотры на видео и сторис: разбираем бесплатные и платные способы    
+  → dup `/blog/nakrutka-laykov-instagram/` (каталог сервисов/прокси не переносим)
+- [x] `kak-pridumat-narisovat-i-dobavit-oblozhku-v-soobshhestvo-v-vk` — Как придумать, нарисовать и добавить обложку в сообщество в VK    
+  ID `63632` · 2021-07-16 · ~10k · — → Astro `/blog/oblozhka-vk/` · **новый формат** (безопасная зона; размеры — по справке VK; без устаревшей сетки пикселей)
+- [x] `kak-v-instagram-nakrutit-prosmotryi-na-video-i-storis-razbiraem-besplatnyie-i-platnyie-sposobyi` — Как в Инстаграм накрутить просмотры на видео и сторис: разбираем бесплатные и платные способы    
   ID `63595` · 2021-07-15 · ~13k · —
-- [ ] `polnyiy-gayd-po-organizatsii-i-provedeniyu-sovmestnogo-efira-s-dvuh-akkauntov` — Полный гайд по организации и проведению совместного эфира с двух аккаунтов    
+  → dup `/blog/nakrutka-laykov-instagram/` (каталог сервисов не переносим; органика — `/blog/prosmotry-stories-instagram/`)
+- [x] `polnyiy-gayd-po-organizatsii-i-provedeniyu-sovmestnogo-efira-s-dvuh-akkauntov` — Полный гайд по организации и проведению совместного эфира с двух аккаунтов    
   ID `63575` · 2021-07-14 · ~23k · —
-- [ ] `domen-elektronnoy-pochtyi-naznachenie-realizatsiya-i-vyibor` — Домен электронной почты: назначение, реализация и выбор    
+  → dup `/blog/pryamoy-efir-instagram/` (блок «Совместные эфиры» + общий каркас Live)
+- [x] `domen-elektronnoy-pochtyi-naznachenie-realizatsiya-i-vyibor` — Домен электронной почты: назначение, реализация и выбор    
   ID `63529` · 2021-07-12 · ~7k · —
-- [ ] `udalenie-istorii-zaprosov-iz-instagram` — Удаление истории запросов из Instagram    
-  ID `63449` · 2021-07-07 · ~3k · —
-- [ ] `chto-takoe-taym-kod-na-youtube` — Что такое Тайм-код на Youtube    
-  ID `62656` · 2021-05-25 · ~7k · —
-- [ ] `yandex-koshelek-chto-eto-i-kak-polzovatsya` — Яндекс кошелек: что это и как пользоваться    
-  ID `62575` · 2021-04-30 · ~8k · —
-- [ ] `ekzamen-po-gaiq-detalno-o-poluchenii-sertifikata` — Экзамен по GAIQ. Детально о получении сертификата    
-  ID `62314` · 2021-04-08 · ~5k · —
-- [ ] `katalog-saytov-dmoz-registratsiya-trebovaniya-i-osobennosti` — Каталог сайтов DMOZ: регистрация, требования и особенности    
+  → dup `/blog/pochtovyy-servis/` (каталог Яндекс/Mail/Gmail; свой домен — также `/blog/pochta-dlya-domena/`)
+- [x] `udalenie-istorii-zaprosov-iz-instagram` — Удаление истории запросов из Instagram    
+  ID `63449` · 2021-07-07 · ~3k · — → Astro `/blog/istoriya-poiska-instagram/` · **новый формат** (логика очистки; UI не заучиваем; Meta legalNotice авто)
+- [x] `chto-takoe-taym-kod-na-youtube` — Что такое Тайм-код на Youtube    
+  ID `62656` · 2021-05-25 · ~7k · — → Astro `/blog/taymkod-youtube/` · **новый формат** (главы/`t=`; Studio UI не заучиваем)
+- [x] `yandex-koshelek-chto-eto-i-kak-polzovatsya` — Яндекс кошелек: что это и как пользоваться    
+  ID `62575` · 2021-04-30 · ~8k · — → Astro `/blog/yumoney/` · **новый формат** (не путать с `/blog/yukassa/`; лимиты/UI — справка)
+- [x] `ekzamen-po-gaiq-detalno-o-poluchenii-sertifikata` — Экзамен по GAIQ. Детально о получении сертификата    
+  ID `62314` · 2021-04-08 · ~5k · — → Astro `/blog/gaiq/` · **новый формат** (GAIQ исторический; актуальный путь — Skillshop/GA4; без дампов ответов)
+- [x] `katalog-saytov-dmoz-registratsiya-trebovaniya-i-osobennosti` — Каталог сайтов DMOZ: регистрация, требования и особенности    
   ID `62182` · 2021-03-23 · ~4k · —
-- [ ] `metategi-i-poiskovoe-prodvizhenie-naznachenie-realizatsiya-i-sekretyi` — Метатеги и поисковое продвижение: назначение, реализация и секреты    
-  ID `62162` · 2021-03-18 · ~7k · —
-- [ ] `statisticheskiy-servis-yandeks-wordstat-naznachenie-i-instrumentyi` — Статистический сервис «Яндекс.WordStat»: назначение и инструменты    
+  → dup `/blog/katalogi-saytov/` (DMOZ закрыт; живые каталоги/карты — в каноне)
+- [x] `metategi-i-poiskovoe-prodvizhenie-naznachenie-realizatsiya-i-sekretyi` — Метатеги и поисковое продвижение: назначение, реализация и секреты    
+  ID `62162` · 2021-03-18 · ~7k · — → Astro `/blog/metategi/` · **новый формат** (хаб title/description/robots; keywords без культа; смежно dlina-title / meta-description)
+- [x] `statisticheskiy-servis-yandeks-wordstat-naznachenie-i-instrumentyi` — Статистический сервис «Яндекс.WordStat»: назначение и инструменты    
   ID `62125` · 2021-03-15 · ~3k · —
-- [ ] `veb-interfeys-v-internete-realizatsiya-i-naznachenie` — Веб-интерфейс в интернете. Реализация и назначение    
-  ID `62093` · 2021-03-11 · ~5k · —
-- [ ] `chto-takoe-messendzher` — Что такое мессенджер    
-  ID `60988` · 2021-01-15 · ~21k · —
-- [ ] `kak-prodvigat-i-optimizirovat-svoy-sayt-s-wordpress` — Как продвигать и оптимизировать свой сайт с WordPress    
+  → dup `/blog/wordstat/` (сервис, операторы, частотность уже в каноне)
+- [x] `veb-interfeys-v-internete-realizatsiya-i-naznachenie` — Веб-интерфейс в интернете. Реализация и назначение    
+  ID `62093` · 2021-03-11 · ~5k · — → Astro `/blog/veb-interfeys/` · **новый формат** (почта/роутер/хостинг/облако; не путать с юзабилити сайта)
+- [x] `chto-takoe-messendzher` — Что такое мессенджер    
+  ID `60988` · 2021-01-15 · ~21k · — → Astro `/blog/messendzher/` · **новый формат** (обзор каналов; без устаревших «млрд»; Meta legalNotice авто)
+- [x] `kak-prodvigat-i-optimizirovat-svoy-sayt-s-wordpress` — Как продвигать и оптимизировать свой сайт с WordPress    
   ID `60922` · 2021-01-14 · ~10k · —
-- [ ] `chto-takoe-ftp-protokol-i-kak-s-ego-pomoshhyu-rabotat-s-saytom` — Что такое FTP-протокол и как с его помощью работать с сайтом    
-  ID `59556` · 2020-11-30 · ~4k · —
-- [ ] `rel-canonical-kak-i-zachem-propisyivat-kanonicheskiy-teg-v-ishodnom-kode` — Rel Canonical – как и зачем прописывать канонический тег в исходном коде    
+  → dup `/blog/wordpress-seo-plaginy/` (Yoast/AIOSEO/карта плагинов; скрины Yoast не переносим)
+- [x] `chto-takoe-ftp-protokol-i-kak-s-ego-pomoshhyu-rabotat-s-saytom` — Что такое FTP-протокол и как с его помощью работать с сайтом    
+  ID `59556` · 2020-11-30 · ~4k · — → Astro `/blog/ftp/` · **новый формат** (SFTP/FTPS предпочтительнее; UI клиента не заучиваем)
+- [x] `rel-canonical-kak-i-zachem-propisyivat-kanonicheskiy-teg-v-ishodnom-kode` — Rel Canonical – как и зачем прописывать канонический тег в исходном коде    
   ID `59059` · 2020-11-16 · ~5k · —
-- [ ] `funktsii-i-vozmozhnosti-google-analytics` — Функции и возможности Google Analytics    
+  → dup `/blog/kanonicheskiy-teg/` (уже отмечен каноном в чеклисте)
+- [x] `funktsii-i-vozmozhnosti-google-analytics` — Функции и возможности Google Analytics    
   ID `58889` · 2020-11-05 · ~4k · —
-- [ ] `runet-harakteristiki-i-osobennosti` — Рунет: характеристики и особенности    
-  ID `58599` · 2020-10-13 · ~7k · —
-- [ ] `osnovyi-montazha-kak-nalozhit-muzyiku-na-video-na-youtube` — Основы монтажа. Как наложить музыку на видео на YouTube    
+  → dup `/blog/google-analytics/` (возможности/аудит; установка — `/blog/google-analytics-nastroyka/`, цели — `/blog/google-analytics-tseli/`)
+- [x] `runet-harakteristiki-i-osobennosti` — Рунет: характеристики и особенности    
+  ID `58599` · 2020-10-13 · ~7k · — → Astro `/blog/runet/` · **новый формат** (без устаревшей статистики и стереотипов ЦА)
+- [x] `osnovyi-montazha-kak-nalozhit-muzyiku-na-video-na-youtube` — Основы монтажа. Как наложить музыку на видео на YouTube    
   ID `58473` · 2020-10-05 · ~5k · —
-- [ ] `kak-html-pomogaet-v-seo-i-pochemu-vazhno-znat-yazyik-razmetki-giperteksta` — Как HTML помогает в SEO и почему важно знать язык разметки гипертекста    
-  ID `58340` · 2020-09-28 · ~10k · —
-- [ ] `chto-takoe-adult-trafik` — Что такое adult-трафик?    
-  ID `58334` · 2020-09-24 · ~6k · —
-- [ ] `kak-otpravit-lichnoe-soobshhenie-v-direkt-instagrama-cherez-kompyuter` — Как отправить личное сообщение в директ Инстаграма через компьютер    
+  → dup `/blog/montazh-youtube/` (редактор/звук; «обход авторских» не переносим)
+- [x] `kak-html-pomogaet-v-seo-i-pochemu-vazhno-znat-yazyik-razmetki-giperteksta` — Как HTML помогает в SEO и почему важно знать язык разметки гипертекста    
+  ID `58340` · 2020-09-28 · ~10k · — → Astro `/blog/html-seo/` · **новый формат** (структура/head/body; без «невалидный код = бан»)
+- [x] `chto-takoe-adult-trafik` — Что такое adult-трафик?    
+  ID `58334` · 2020-09-24 · ~6k · — → Astro `/blog/adult-trafik/` · **новый формат** (термин + риски; TGP/CJ/обход блокировок не переносим)
+- [x] `kak-otpravit-lichnoe-soobshhenie-v-direkt-instagrama-cherez-kompyuter` — Как отправить личное сообщение в директ Инстаграма через компьютер    
   ID `57595` · 2020-07-30 · ~10k · —
-- [ ] `kak-zabanit-sayt-konkurenta-v-yandekse` — Как забанить сайт конкурента в Яндексе    
-  ID `57477` · 2020-07-23 · ~6k · —
-- [ ] `poiskovye-sistemy-ne-ogranichivajutsja-google-i-yandeksom` — Поисковые системы не ограничиваются Google и Яндексом    
-  ID `57088` · 2020-06-26 · ~13k · —
-- [ ] `denezhnyie-pokazateli-rsya-v-yandeks-metrike` — Денежные показатели РСЯ в Яндекс.Метрике    
-  ID `43971` · 2018-07-06 · ~5k · —
-- [ ] `seo-slovar-ili-seo-wiki` — SEO-словарь или SEO-WIKI    
+  → dup `/blog/instagram-direct-gid/` (Direct; ПК/веб — также `/blog/instagram-s-kompyutera/`; без серых клиентов)
+- [x] `kak-zabanit-sayt-konkurenta-v-yandekse` — Как забанить сайт конкурента в Яндексе    
+  ID `57477` · 2020-07-23 · ~6k · — → Astro `/blog/negativnoe-seo/` · **новый формат** (защита от негативного SEO; атаки/DDoS/взлом не учим)
+- [x] `poiskovye-sistemy-ne-ogranichivajutsja-google-i-yandeksom` — Поисковые системы не ограничиваются Google и Яндексом    
+  ID `57088` · 2020-06-26 · ~13k · — → Astro `/blog/poiskovye-sistemy/` · **новый формат** (карта игроков; доли/мёртвые бренды не заучиваем)
+- [x] `denezhnyie-pokazateli-rsya-v-yandeks-metrike` — Денежные показатели РСЯ в Яндекс.Метрике    
+  ID `43971` · 2018-07-06 · ~5k · — → Astro `/blog/rsya-metrika/` · **новый формат** (доход издателя; UI подключения — справка)
+- [x] `seo-slovar-ili-seo-wiki` — SEO-словарь или SEO-WIKI    
   ID `39217` · 2017-06-16 · ~1k · —
-- [ ] `chto-takoe-seo-optimizatsiya` — Что такое SEO оптимизация    
+  → dup `/blog/chto-takoe-seo/` (контент WP битый/пустой; канон введения в SEO)
+- [x] `chto-takoe-seo-optimizatsiya` — Что такое SEO оптимизация    
   ID `38606` · 2017-04-17 · ~6k · —
-- [ ] `optimizirovat-nelzya-pod-filtr-postavte-zapyatuyu-sami` — Оптимизировать нельзя под фильтр – поставьте запятую сами    
+  → dup `/blog/chto-takoe-seo/` (уже есть `chto-takoe-seo-prodvizhenie` → тот же канон)
+- [x] `optimizirovat-nelzya-pod-filtr-postavte-zapyatuyu-sami` — Оптимизировать нельзя под фильтр – поставьте запятую сами    
   ID `36828` · 2016-05-07 · ~20k · —
+  → dup `/blog/filtry-poiskovikov/` (АГС/Минусинск/ПФ/аффилиаты; без «обхода» фильтров)
 
 ## Контент-маркетинг (51)
 
-- [ ] `kak-vyivesti-publikatsii-v-top-instagram-naglyadnoe-rukovodstvo` — **dup** → `/blog/top-instagram/` (как попасть в топ/рекомендации + риски накрутки; канон уже в новом формате; также `/blog/nakrutka-laykov-instagram/`)
+- [x] `kak-vyivesti-publikatsii-v-top-instagram-naglyadnoe-rukovodstvo` — Как вывести публикации в «топ» Instagram. Наглядное руководство    
   ID `64805` · 2021-12-14 · ~18k · Интернет-маркетинг · Контент-маркетинг · Медиа сервисы
-- [ ] `kak-polnostyu-posmotret-avatarku-v-instagrame` — Как полностью посмотреть аватарку в инстаграме    
+  → dup `/blog/top-instagram/` (рекомендации/охват; накрутка — `/blog/nakrutka-laykov-instagram/`; редирект уже был)
+- [x] `kak-polnostyu-posmotret-avatarku-v-instagrame` — Как полностью посмотреть аватарку в инстаграме → `/blog/posmotret-avatar-instagram/`
   ID `59571` · 2020-12-10 · ~10k · Интернет-маркетинг · Контент-маркетинг
-- [ ] `glavnaya-stranitsa-sayta-kak-dobitsya-chtobyi-ona-privlekla-obshhee-vnimanie` — Главная страница сайта: как добиться, чтобы она привлекла общее внимание    
+- [x] `glavnaya-stranitsa-sayta-kak-dobitsya-chtobyi-ona-privlekla-obshhee-vnimanie` — Главная страница сайта: как добиться, чтобы она привлекла общее внимание → `/blog/glavnaya-stranitsa/`
   ID `59378` · 2020-12-01 · ~9k · Интернет-маркетинг · Контент-маркетинг
-- [ ] `sozdanie-internet-magazina-ot-nachala-do-kontsa` — Создание интернет-магазина от начала до конца    
+- [x] `sozdanie-internet-magazina-ot-nachala-do-kontsa` — Создание интернет-магазина от начала до конца → `/blog/zapusk-internet-magazina/`
   ID `59274` · 2020-11-20 · ~31k · Интернет-маркетинг · Контент-маркетинг
-- [ ] `nenavyazchivo-napominaem-klientu-o-sebe-sposobyi-i-sovetyi` — Ненавязчиво напоминаем клиенту о себе: способы и советы    
+- [x] `nenavyazchivo-napominaem-klientu-o-sebe-sposobyi-i-sovetyi` — Ненавязчиво напоминаем клиенту о себе: способы и советы → `/blog/napominanie-klientu/`
   ID `59022` · 2020-11-12 · ~10k · Интернет-маркетинг · Контент-маркетинг
-- [ ] `kak-sostavit-kartochku-tovara-dlya-internet-magazina-podrobnaya-instruktsiya` — Как составить карточку товара для интернет-магазина: подробная инструкция    
+- [x] `kak-sostavit-kartochku-tovara-dlya-internet-magazina-podrobnaya-instruktsiya` — Как составить карточку товара для интернет-магазина: подробная инструкция → dup `/blog/kartochka-tovara/`
   ID `58280` · 2020-09-25 · ~21k · Интернет-маркетинг · Контент-маркетинг
-- [ ] `otlichiya-kontent-marketinga-i-estestvennoy-reklamyi` — Отличия контент-маркетинга и естественной рекламы    
+- [x] `otlichiya-kontent-marketinga-i-estestvennoy-reklamyi` — Отличия контент-маркетинга и естественной рекламы → `/blog/kontent-i-nativnaya/`
   ID `58229` · 2020-09-18 · ~13k · Интернет-маркетинг · Контент-маркетинг
-- [ ] `chto-takoe-seo-tekst-prichudy-internet-prodvizheniya` — Что такое SEO-текст. Причуды интернет-продвижения    
+- [x] `chto-takoe-seo-tekst-prichudy-internet-prodvizheniya` — Что такое SEO-текст. Причуды интернет-продвижения → dup `/blog/seo-kopirayting/`
   ID `58152` · 2020-09-10 · ~8k · Контент-маркетинг
-- [ ] `kak-besplatno-prodvigat-sayt-8-rabochih-idey` — Как бесплатно продвигать сайт: 8 рабочих идей    
+- [x] `kak-besplatno-prodvigat-sayt-8-rabochih-idey` — Как бесплатно продвигать сайт: 8 рабочих идей → dup `/blog/besplatnaya-reklama/`
   ID `57710` · 2020-08-11 · ~17k · Интернет-маркетинг · Контент-маркетинг
-- [ ] `protokol_open_graph` — Микроразметка open graph: что это, как и зачем внедрять    
+- [x] `protokol_open_graph` — Микроразметка open graph: что это, как и зачем внедрять → dup `/blog/open-graph/`
   ID `57636` · 2020-08-01 · ~8k · Контент-маркетинг
-- [ ] `glavnaya-stranitsa-sayta-kakie-tekstyi-ne-nuzhno-razmeshhat` — Главная страница сайта. Какие тексты не нужно размещать    
+- [x] `glavnaya-stranitsa-sayta-kakie-tekstyi-ne-nuzhno-razmeshhat` — Главная страница сайта. Какие тексты не нужно размещать → `/blog/tekst-glavnoy-stranitsy/`
   ID `57375` · 2020-07-20 · ~13k · Контент-маркетинг
-- [ ] `chto-takoe-klyuchevye-slova-i-kak-ih-pravilno-ispolzovat-v-tekste` — Что такое ключевые слова и как их правильно использовать в тексте    
+- [x] `chto-takoe-klyuchevye-slova-i-kak-ih-pravilno-ispolzovat-v-tekste` — Что такое ключевые слова и как их правильно использовать в тексте → dup `/blog/seo-kopirayting/`
   ID `57276` · 2020-07-09 · ~10k · Контент-маркетинг
-- [ ] `kak-napisat-kachestvennuyu-statyu-poshagovaya-instrukciya-i-poleznye-sovety-dlya-novichkov` — Как написать качественную статью: пошаговая инструкция и полезные советы для новичков    
+- [x] `kak-napisat-kachestvennuyu-statyu-poshagovaya-instrukciya-i-poleznye-sovety-dlya-novichkov` — Как написать качественную статью: пошаговая инструкция и полезные советы для новичков → `/blog/kak-napisat-statyu/`
   ID `57170` · 2020-07-06 · ~15k · Контент-маркетинг
-- [ ] `sdelat-tekst-unikalnym-kak-sozdavat-nepovtorimyj-kontent` — Сделать текст уникальным: как создавать неповторимый контент    
+- [x] `sdelat-tekst-unikalnym-kak-sozdavat-nepovtorimyj-kontent` — Сделать текст уникальным: как создавать неповторимый контент → dup `/blog/proverka-unikalnosti/`
   ID `57137` · 2020-07-01 · ~15k · Контент-маркетинг
-- [ ] `dlya-chego-nujen-rss-saita` — Для чего нужен RSS сайта?    
+- [x] `dlya-chego-nujen-rss-saita` — Для чего нужен RSS сайта? → `/blog/rss/`
   ID `57119` · 2020-06-30 · ~10k · Контент-маркетинг
-- [ ] `kak-gramotno-sostavit-tz-dlya-kopiraitera` — Сделать невозможное: как грамотно составить ТЗ для копирайтера    
+- [x] `kak-gramotno-sostavit-tz-dlya-kopiraitera` — Сделать невозможное: как грамотно составить ТЗ для копирайтера → `/blog/tz-kopiraytera/`
   ID `56938` · 2020-06-24 · ~9k · Интернет-маркетинг · Контент-маркетинг
-- [ ] `4u_zagolovki_chto_eto-takoe_primery_kak_napisat_samostoyatelno` — 4U заголовки: что это такое, примеры, как написать самостоятельно    
+- [x] `4u_zagolovki_chto_eto-takoe_primery_kak_napisat_samostoyatelno` — 4U заголовки: что это такое, примеры, как написать самостоятельно → `/blog/zagolovki-4u/`
   ID `56919` · 2020-06-24 · ~16k · Контент-маркетинг
-- [ ] `kak-pravilno-napysat-razdel-o-kompanii` — Как правильно написать раздел «О компании»    
+- [x] `kak-pravilno-napysat-razdel-o-kompanii` — Как правильно написать раздел «О компании» → `/blog/o-kompanii/`
   ID `56884` · 2020-06-23 · ~8k · Контент-маркетинг
-- [ ] `vse_chto_neobhodimo_znat_o_kviz_marketinge` — Все что необходимо знать о квиз-маркетинге    
+- [x] `vse_chto_neobhodimo_znat_o_kviz_marketinge` — Все что необходимо знать о квиз-маркетинге → `/blog/kviz-sayt/` (dup)
   ID `56449` · 2020-04-24 · ~13k · Контент-маркетинг
-- [ ] `avtovoronka-v-instagram-chto-eto-kak-sozdat-i-nastroit` — Автоворонка в Инстаграм - что это, как создать и настроить?    
-  ID `56442` · 2020-04-15 · ~15k · Контент-маркетинг
-- [ ] `avtovoronka_v_vkontakte_chto_eto_kak_sozdat_i_nastroit` — Автоворонка в Вконтакте - что это, как создать и настроить?    
+- [x] `avtovoronka-v-instagram-chto-eto-kak-sozdat-i-nastroit` — Автоворонка в Инстаграм - что это, как создать и настроить? → `/blog/avtovoronka-instagram/`
+  ID `56442` · 2020-04-15 · ~15k · Контент-маркетинг · Meta legalNotice
+- [x] `avtovoronka_v_vkontakte_chto_eto_kak_sozdat_i_nastroit` — Автоворонка в Вконтакте - что это, как создать и настроить? → `/blog/avtovoronka-vk/`
   ID `56438` · 2020-04-15 · ~10k · Контент-маркетинг
-- [ ] `kak_sozdat_snippet_s_vysokim_ctr` — Как создать сниппет с высоким ctr    
+- [x] `kak_sozdat_snippet_s_vysokim_ctr` — Как создать сниппет с высоким ctr → `/blog/snippet/` (dup)
   ID `56409` · 2020-04-15 · ~13k · Контент-маркетинг
-- [ ] `chto-takoe-prodayushhiy-kontent-vidyi-primeryi-kontent-plan` — Что такое продающий контент: виды, примеры, контент-план    
-  ID `56377` · 2020-04-06 · ~22k · Контент-маркетинг
-- [ ] `mixed-content-ili-kak-smeshannyiy-kontent-vliyaet-na-seo` — Mixed content или как смешанный контент влияет на SEO    
+- [x] `chto-takoe-prodayushhiy-kontent-vidyi-primeryi-kontent-plan` — Что такое продающий контент: виды, примеры, контент-план → `/blog/prodayushchiy-kontent/`
+  ID `56377` · 2020-04-06 · ~22k · Контент-маркетинг · Meta legalNotice
+- [x] `mixed-content-ili-kak-smeshannyiy-kontent-vliyaet-na-seo` — Mixed content или как смешанный контент влияет на SEO → `/blog/mixed-content/`
   ID `55552` · 2020-03-02 · ~20k · Контент-маркетинг
-- [ ] `osobennosti-e-a-t-kopiraytinga` — Особенности E-A-T копирайтинга    
-  ID `55067` · 2020-01-29 · ~12k · Контент-маркетинг
-- [ ] `kak-pridumat-slogan-dlya-kompanii-reklamyi` — Как придумать слоган для компании, рекламы    
+- [x] `osobennosti-e-a-t-kopiraytinga` — Особенности E-A-T копирайтинга → `/blog/eat-kopirayting/`
+  ID `55067` · 2020-01-29 · ~12k · Контент-маркетинг · (E-E-A-T; рядом `/blog/google-assessory/`)
+- [x] `kak-pridumat-slogan-dlya-kompanii-reklamyi` — Как придумать слоган для компании, рекламы → `/blog/slogan/`
   ID `54670` · 2020-01-17 · ~23k · Контент-маркетинг
-- [ ] `kak-pisat-horoshie-tekstyi-na-uzkuyu-tematiku` — Как писать хорошие тексты на узкую тематику    
+- [x] `kak-pisat-horoshie-tekstyi-na-uzkuyu-tematiku` — Как писать хорошие тексты на узкую тематику → `/blog/teksty-uzkaya-tematika/`
   ID `54460` · 2020-01-14 · ~18k · Контент-маркетинг
-- [ ] `kak-gramotno-napisat-pravilnoe-tz-na-tekstovyiy-kontent` — Как грамотно написать правильное ТЗ на текстовый контент    
+- [x] `kak-gramotno-napisat-pravilnoe-tz-na-tekstovyiy-kontent` — Как грамотно написать правильное ТЗ на текстовый контент → `/blog/tz-kopiraytera/` (dup)
   ID `54461` · 2020-01-14 · ~18k · Контент-маркетинг
-- [ ] `tovar-v-internet-magazine-kak-snyat-video-obzor` — Товар в интернет магазине: как снять видео обзор    
+- [x] `tovar-v-internet-magazine-kak-snyat-video-obzor` — Товар в интернет магазине: как снять видео обзор → `/blog/video-obzor-tovara/`
   ID `53953` · 2019-12-21 · ~7k · Контент-маркетинг
-- [ ] `kak-zashhitit-tekstovyiy-kontent-na-sayte` — Как защитить текстовый контент на сайте    
+- [x] `kak-zashhitit-tekstovyiy-kontent-na-sayte` — Как защитить текстовый контент на сайте → `/blog/zashchita-kontenta/`
   ID `53944` · 2019-12-21 · ~7k · Контент-маркетинг
-- [ ] `kak-sozdat-matritsu-kontenta-dlya-regulyarnyih-publikatsiy` — Как создать матрицу контента для регулярных публикаций?    
+- [x] `kak-sozdat-matritsu-kontenta-dlya-regulyarnyih-publikatsiy` — Как создать матрицу контента для регулярных публикаций? → `/blog/matritsa-kontenta/`
   ID `53895` · 2019-12-20 · ~16k · Контент-маркетинг
-- [ ] `videokontent-formatyi-i-vidyi` — Видеоконтент: форматы и виды    
+- [x] `videokontent-formatyi-i-vidyi` — Видеоконтент: форматы и виды → `/blog/videokontent/`
   ID `53877` · 2019-12-20 · ~22k · Контент-маркетинг
-- [ ] `kak-byistree-pisat-stati` — Как быстрее писать статьи    
+- [x] `kak-byistree-pisat-stati` — Как быстрее писать статьи → `/blog/bystree-pisat-stati/`
   ID `53765` · 2019-12-18 · ~11k · Контент-маркетинг
-- [ ] `longrid-chto-eto-i-kak-sdelat` — Лонгрид: что это и как сделать?    
+- [x] `longrid-chto-eto-i-kak-sdelat` — Лонгрид: что это и как сделать? → `/blog/longrid/`
   ID `52728` · 2019-12-02 · ~17k · Контент-маркетинг
-- [ ] `gramotnaya-struktura-stati-na-sayte` — Грамотная структура статьи на сайте    
+- [x] `gramotnaya-struktura-stati-na-sayte` — Грамотная структура статьи на сайте → `/blog/struktura-stati/`
   ID `52546` · 2019-11-20 · ~8k · Контент-маркетинг
-- [ ] `kak-oformit-stranitsu-kontaktov-na-saite` — Как оформить страницу контактов на сайте    
+- [x] `kak-oformit-stranitsu-kontaktov-na-saite` — Как оформить страницу контактов на сайте → `/blog/stranitsa-kontaktov/`
   ID `52344` · 2019-11-07 · ~9k · Контент-маркетинг
-- [ ] `kak-sostavit-tz-dlya-kopiraytera` — Как составить тз для копирайтера    
+- [x] `kak-sostavit-tz-dlya-kopiraytera` — Как составить тз для копирайтера → `/blog/tz-kopiraytera/` (dup)
   ID `52097` · 2019-10-16 · ~8k · Контент-маркетинг
-- [ ] `kak-effektivno-napisat-prizyiv-k-deystviyu` — Как эффективно написать призыв к действию    
+- [x] `kak-effektivno-napisat-prizyiv-k-deystviyu` — Как эффективно написать призыв к действию → `/blog/prizyv-k-deystviyu/`
   ID `51218` · 2019-08-21 · ~13k · Контент-маркетинг
-- [ ] `idei-dlya-kontentnogo-prodvizheniya-sayta` — Идеи для контентного продвижения сайта    
+- [x] `idei-dlya-kontentnogo-prodvizheniya-sayta` — Идеи для контентного продвижения сайта → `/blog/idei-kontent-prodvizheniya/`
   ID `50988` · 2019-08-13 · ~9k · Контент-маркетинг
-- [ ] `tseplyayushhie-zagolovki-10-sposobov-sozdaniya` — Цепляющие заголовки: 10 способов создания    
+- [x] `tseplyayushhie-zagolovki-10-sposobov-sozdaniya` — Цепляющие заголовки: 10 способов создания → `/blog/zagolovki-4u/` (dup)
   ID `50898` · 2019-08-07 · ~5k · Контент-маркетинг
-- [ ] `infografika-dlya-sayta-kak-sdelat-samomu` — Инфографика для сайта: как сделать самому    
+- [x] `infografika-dlya-sayta-kak-sdelat-samomu` — Инфографика для сайта: как сделать самому → `/blog/infografika/` (dup)
   ID `50614` · 2019-07-24 · ~13k · Контент-маркетинг
-- [ ] `effektivnyie-zagolovki-kak-pisat-pravilno` — Эффективные заголовки: как писать правильно    
+- [x] `effektivnyie-zagolovki-kak-pisat-pravilno` — Эффективные заголовки: как писать правильно → `/blog/zagolovki-4u/` (dup)
   ID `50156` · 2019-07-02 · ~13k · Контент-маркетинг
-- [ ] `7-servisov-dlya-vizualizatsii-dannyih` — 7 сервисов для визуализации данных    
+- [x] `7-servisov-dlya-vizualizatsii-dannyih` — 7 сервисов для визуализации данных → `/blog/vizualizatsiya-dannyih/`
   ID `49862` · 2019-06-17 · ~16k · Контент-маркетинг
-- [ ] `temyi-dlya-publikatsii-statey-kak-i-gde-nayti` — Темы для публикации статей: как и где найти    
+- [x] `temyi-dlya-publikatsii-statey-kak-i-gde-nayti` — Темы для публикации статей: как и где найти → `/blog/temy-dlya-statey/`
   ID `49790` · 2019-06-14 · ~11k · Контент-маркетинг
-- [ ] `gostevoy-post-kak-nayti-kachestvennyie-saytyi-donoryi` — Гостевой пост: как найти качественные сайты-доноры    
+- [x] `gostevoy-post-kak-nayti-kachestvennyie-saytyi-donoryi` — Гостевой пост: как найти качественные сайты-доноры → `/blog/gostevoy-post/`
   ID `48972` · 2019-04-11 · ~9k · Контент-маркетинг
-- [ ] `ssyilki-na-sayt-besplatno-kak-i-gde-vzyat` — Ссылки на сайт бесплатно: как и где взять    
+- [x] `ssyilki-na-sayt-besplatno-kak-i-gde-vzyat` — Ссылки на сайт бесплатно: как и где взять → `/blog/besplatnye-ssylki/`
   ID `48624` · 2019-03-21 · ~12k · Контент-маркетинг
-- [ ] `8-sovetov-po-kontentnomu-prodvizheniyu-saytov` — 8 советов по контентному продвижению сайтов    
+- [x] `8-sovetov-po-kontentnomu-prodvizheniyu-saytov` — 8 советов по контентному продвижению сайтов → `/blog/kontentnoe-prodvizhenie/`
   ID `44990` · 2018-08-17 · ~30k · Контент-маркетинг
-- [ ] `5-pobednyih-tipov-kontenta-dlya-b2b-brendov` — 5 победных типов контента для B2B брендов    
+- [x] `5-pobednyih-tipov-kontenta-dlya-b2b-brendov` — 5 победных типов контента для B2B брендов → `/blog/kontent-b2b/`
   ID `43013` · 2018-05-14 · ~7k · Контент-маркетинг
-- [ ] `4u-zagolovki` — 4u заголовки    
+- [x] `4u-zagolovki` — 4u заголовки → `/blog/zagolovki-4u/` (dup)
   ID `42767` · 2018-04-20 · ~10k · Контент-маркетинг
-- [ ] `kartinki-dlya-seo-gde-iskat-kak-pravilno-razmeshchat-i-optimizirovat` — Картинки для SEO. Где искать, как правильно размещать и оптимизировать    
+- [x] `kartinki-dlya-seo-gde-iskat-kak-pravilno-razmeshchat-i-optimizirovat` — Картинки для SEO. Где искать, как правильно размещать и оптимизировать → `/blog/kartinki-seo/`
   ID `41272` · 2017-11-21 · ~8k · Контент-маркетинг
-- [ ] `kak-napisat-kachestvennyiy-seo-tekst-na-sayt-esli-vyi-ne-seoshnik` — Как написать качественный SEO-текст на сайт, если вы не сеошник?    
+- [x] `kak-napisat-kachestvennyiy-seo-tekst-na-sayt-esli-vyi-ne-seoshnik` — Как написать качественный SEO-текст на сайт, если вы не сеошник? → `/blog/seo-kopirayting/` (dup)
   ID `38536` · 2017-03-20 · ~40k · Контент-маркетинг
 
 ## Контекстная реклама (46)
 
-- [ ] `reklamnaya-kampaniya-cherez-yandeks-direkt-opredelyaem-kolichestvo-klyuchevyih-slov` — Рекламная кампания через Яндекс.Директ: определяем количество ключевых слов    
+- [x] `reklamnaya-kampaniya-cherez-yandeks-direkt-opredelyaem-kolichestvo-klyuchevyih-slov` — Рекламная кампания через Яндекс.Директ: определяем количество ключевых слов → `/blog/klyuchi-yandeks-direkt/`
   ID `59602` · 2020-12-02 · ~15k · Интернет-маркетинг · Контекстная реклама
-- [ ] `kak-vybrat-pravilnuyu-strategiyu-v-yandeks-direkt` — Как выбрать правильную стратегию в Яндекс.Директ    
+- [x] `kak-vybrat-pravilnuyu-strategiyu-v-yandeks-direkt` — Как выбрать правильную стратегию в Яндекс.Директ → `/blog/strategii-yandeks-direkt/` (dup)
   ID `59189` · 2020-11-19 · ~14k · Интернет-маркетинг · Контекстная реклама
-- [ ] `sekrety-prodvizheniya-minimalnyj-byudzhet-dlya-yandeksdirekt` — Секреты продвижения. Минимальный бюджет для Яндекс.Директ    
+- [x] `sekrety-prodvizheniya-minimalnyj-byudzhet-dlya-yandeksdirekt` — Секреты продвижения. Минимальный бюджет для Яндекс.Директ → `/blog/byudzhet-yandeks-direkt/` · **новый формат**
   ID `58698` · 2020-10-22 · ~20k · Интернет-маркетинг · Контекстная реклама
-- [ ] `vse-o-description-kolichestvo-simvolov-zaprosy-tipografika` — Все о description: количество символов, запросы, типографика    
+- [x] `vse-o-description-kolichestvo-simvolov-zaprosy-tipografika` — Все о description: количество символов, запросы, типографика → `/blog/meta-description/` (dup)
   ID `57872` · 2020-08-18 · ~9k · Интернет-маркетинг · Контекстная реклама · Продвижение по тематикам бизнеса
-- [ ] `mediaplan-kak-instrument-upravleniya-reklamnoj-kampaniej` — Медиаплан как инструмент управления рекламной кампанией    
+- [x] `mediaplan-kak-instrument-upravleniya-reklamnoj-kampaniej` — Медиаплан как инструмент управления рекламной кампанией → `/blog/mediaplan/` · **новый формат**
   ID `57777` · 2020-08-15 · ~15k · Интернет-маркетинг · Контекстная реклама · Продвижение по тематикам бизнеса
-- [ ] `kak-sozdat-retargeting-v-instagram` — Как создать ретаргетинг в Инстаграм?    
+- [x] `kak-sozdat-retargeting-v-instagram` — Как создать ретаргетинг в Инстаграм? → `/blog/retargeting-meta/` (dup)
   ID `56514` · 2020-04-30 · ~7k · Контекстная реклама
-- [ ] `kak-sozdat-retargeting-vkontakte` — Как создать ретаргетинг вконтакте?    
+- [x] `kak-sozdat-retargeting-vkontakte` — Как создать ретаргетинг вконтакте? → `/blog/piksel-vk/` (dup)
   ID `56493` · 2020-04-29 · ~15k · Контекстная реклама
-- [ ] `chek-list-analiz-reklamnoy-kampanii-v-yandeks-direkt-i-google-ads` — Чек-лист. Анализ рекламной кампании в Яндекс.Директ и Google Ads    
+- [x] `chek-list-analiz-reklamnoy-kampanii-v-yandeks-direkt-i-google-ads` — Чек-лист. Анализ рекламной кампании в Яндекс.Директ и Google Ads → `/blog/analiz-reklamnoy-kampanii/` · **новый формат**
   ID `56124` · 2020-03-25 · ~53k · Контекстная реклама
-- [ ] `audit-kontekstnoy-reklamyi-cheklist-dlya-novichka` — Аудит контекстной рекламы. Чеклист для новичка    
+- [x] `audit-kontekstnoy-reklamyi-cheklist-dlya-novichka` — Аудит контекстной рекламы. Чеклист для новичка → `/blog/audit-reklamnoy-kampanii/` (dup)
   ID `56166` · 2020-03-24 · ~14k · Контекстная реклама
-- [ ] `kak-ne-slit-byudzhet-pri-zapuske-reklamyi` — Как не слить бюджет при запуске рекламы?    
+- [x] `kak-ne-slit-byudzhet-pri-zapuske-reklamyi` — Как не слить бюджет при запуске рекламы? → `/blog/sayt-pered-reklamoy/` · **новый формат**
   ID `56059` · 2020-03-18 · ~40k · Контекстная реклама
-- [ ] `kak-poluchit-partnerstvo-ot-google` — Как получить партнерство от Google    
+- [x] `kak-poluchit-partnerstvo-ot-google` — Как получить партнерство от Google → `/blog/google-partner/` · **новый формат**
   ID `55311` · 2020-02-07 · ~17k · Контекстная реклама
-- [ ] `kak-rabotat-s-planirovshchikom-rezultatov-v-google-ads` — Как работать с планировщиком результатов в Google Ads    
+- [x] `kak-rabotat-s-planirovshchikom-rezultatov-v-google-ads` — Как работать с планировщиком результатов в Google Ads → `/blog/planirovshchik-rezultatov-google/` · **новый формат**
   ID `55153` · 2020-02-05 · ~16k · Контекстная реклама
-- [ ] `chto-takoe-adaptivnyiy-shablon-v-yandeks-direkte` — Что такое адаптивный шаблон в Яндекс Директе    
+- [x] `chto-takoe-adaptivnyiy-shablon-v-yandeks-direkte` — Что такое адаптивный шаблон в Яндекс Директе → `/blog/adaptivnyy-shablon-direkt/` · **новый формат**
   ID `54630` · 2020-01-16 · ~11k · Контекстная реклама
-- [ ] `kak-borotsya-s-sklikivaniem-reklamyi` — Как бороться с скликиванием рекламы    
+- [x] `kak-borotsya-s-sklikivaniem-reklamyi` — Как бороться с скликиванием рекламы → `/blog/sklikivanie/` (dup)
   ID `54542` · 2020-01-15 · ~10k · Контекстная реклама
-- [ ] `kontekstnaya-reklama-15-zabluzhdeniy-ot-kotoryih-pora-izbavitsya` — Контекстная реклама: 15 заблуждений, от которых пора избавиться    
+- [x] `kontekstnaya-reklama-15-zabluzhdeniy-ot-kotoryih-pora-izbavitsya` — Контекстная реклама: 15 заблуждений, от которых пора избавиться → `/blog/zabluzhdeniya-konteksta/` · **новый формат**
   ID `54386` · 2020-01-13 · ~26k · Контекстная реклама
-- [ ] `11-prichin-pochemu-facebook-ne-nravitsya-vashe-obyavlenie` — 11 причин, почему Facebook не нравится ваше объявление    
+- [x] `11-prichin-pochemu-facebook-ne-nravitsya-vashe-obyavlenie` — 11 причин, почему Facebook не нравится ваше объявление → `/blog/moderatsiya-facebook-ads/` · **новый формат**
   ID `54278` · 2020-01-09 · ~15k · Контекстная реклама
-- [ ] `nastroyka-targetirovannoy-reklamyi-vkontakte-poshagovaya-instruktsiya` — Настройка таргетированной рекламы «ВКонтакте»: пошаговая инструкция    
+- [x] `nastroyka-targetirovannoy-reklamyi-vkontakte-poshagovaya-instruktsiya` — Настройка таргетированной рекламы «ВКонтакте»: пошаговая инструкция → `/blog/target-vk/` · **новый формат**
   ID `54078` · 2019-12-24 · ~19k · Контекстная реклама
-- [ ] `kogortnyiy-analiz-v-marketinge-chto-eto-i-zachem-nuzhen` — Когортный анализ в маркетинге: что это и зачем нужен    
+- [x] `kogortnyiy-analiz-v-marketinge-chto-eto-i-zachem-nuzhen` — Когортный анализ в маркетинге: что это и зачем нужен → `/blog/kogortnyy-analiz/` · **новый формат**
   ID `53865` · 2019-12-23 · ~16k · Контекстная реклама
-- [ ] `kakie-byivayut-reklamnyie-kampanii-v-google-ads-i-chto-oni-iz-sebya-predstavlyayut` — Какие бывают рекламные кампании в Google Ads и что они из себя представляют    
+- [x] `kakie-byivayut-reklamnyie-kampanii-v-google-ads-i-chto-oni-iz-sebya-predstavlyayut` — Какие бывают рекламные кампании в Google Ads и что они из себя представляют → `/blog/tipy-kampaniy-google-ads/` · **новый формат**
   ID `53849` · 2019-12-19 · ~10k · Контекстная реклама
-- [ ] `kak-proanalizirovat-konkurentov-do-zapuska-kontekstnoy-reklamyi` — Как проанализировать конкурентов до запуска контекстной рекламы    
+- [x] `kak-proanalizirovat-konkurentov-do-zapuska-kontekstnoy-reklamyi` — Как проанализировать конкурентов до запуска контекстной рекламы → `/blog/analiz-konkurentov-kontekst/` · **новый формат**
   ID `52258` · 2019-10-30 · ~15k · Контекстная реклама
-- [ ] `kak-proyti-moderatsiyu-kontekstnoy-reklamyi-v-meditsinskoy-tematike` — Как пройти модерацию контекстной рекламы в медицинской тематике    
+- [x] `kak-proyti-moderatsiyu-kontekstnoy-reklamyi-v-meditsinskoy-tematike` — Как пройти модерацию контекстной рекламы в медицинской тематике → `/blog/moderatsiya-meditsina/` · **новый формат**
   ID `51635` · 2019-09-13 · ~11k · Контекстная реклама
-- [ ] `kak-ne-oshibitsya-v-poiske-podryadchika-po-kontekstnoy-reklame` — Как не ошибиться в поиске подрядчика по контекстной рекламе    
+- [x] `kak-ne-oshibitsya-v-poiske-podryadchika-po-kontekstnoy-reklame` — Как не ошибиться в поиске подрядчика по контекстной рекламе → `/blog/podryadchik-kontekst/` · **новый формат**
   ID `46692` · 2018-12-06 · ~9k · Контекстная реклама
-- [ ] `tipyi-ssyilok-i-gde-ih-mozhno-poluchit` — Типы ссылок и где их можно получить    
+- [x] `tipyi-ssyilok-i-gde-ih-mozhno-poluchit` — Типы ссылок и где их можно получить → `/blog/tipy-ssylok/` · **новый формат**
   ID `46383` · 2018-11-13 · ~24k · Контекстная реклама
-- [ ] `poiskovyie-algoritmyi-kak-podnyatsya-v-vyidache-ne-popav-pod-sanktsii-google` — Поисковые алгоритмы: как подняться в выдаче, не попав под санкции Google    
+- [x] `poiskovyie-algoritmyi-kak-podnyatsya-v-vyidache-ne-popav-pod-sanktsii-google` — Поисковые алгоритмы: как подняться в выдаче, не попав под санкции Google → `/blog/algoritmy-google/` · **новый формат**
   ID `45578` · 2018-09-20 · ~13k · Контекстная реклама
-- [ ] `tehnicheskaya-storona-zagolovkov-i-kak-ih-pravilno-ispolzovat` — Техническая сторона заголовков и как их правильно использовать    
+- [x] `tehnicheskaya-storona-zagolovkov-i-kak-ih-pravilno-ispolzovat` — Техническая сторона заголовков и как их правильно использовать → `/blog/zagolovki-h1-h6/` · **новый формат**
   ID `44780` · 2018-08-03 · ~9k · Контекстная реклама
-- [ ] `oshibki-po-nastroyke-kontekstnoy-reklamyi` — Ошибки по настройке контекстной рекламы    
+- [x] `oshibki-po-nastroyke-kontekstnoy-reklamyi` — Ошибки по настройке контекстной рекламы → `/blog/oshibki-nastroyki-konteksta/` · **новый формат**
   ID `43885` · 2018-07-02 · ~11k · Контекстная реклама
-- [ ] `kak-pridumat-zagolovki-s-vyisokim-ctr` — Как придумать заголовки с высоким CTR?    
+- [x] `kak-pridumat-zagolovki-s-vyisokim-ctr` — Как придумать заголовки с высоким CTR? → `/blog/zagolovki-4u/` (dup)
   ID `43868` · 2018-06-26 · ~18k · Контекстная реклама
-- [ ] `chto-takoe-indeksatsiya-sayta` — Что такое индексация сайта    
+- [x] `chto-takoe-indeksatsiya-sayta` — Что такое индексация сайта → `/blog/indeksatsiya-sayta/` · **новый формат**
   ID `42165` · 2018-03-16 · ~13k · Контекстная реклама
-- [ ] `bidderyi-chto-eto-takoe-dostoinstva-i-nedostatki-kak-vyibrat-bid-menedzher` — Биддеры. Что это такое, достоинства и недостатки. Как выбрать Бид-менеджер.    
+- [x] `bidderyi-chto-eto-takoe-dostoinstva-i-nedostatki-kak-vyibrat-bid-menedzher` — Биддеры. Что это такое, достоинства и недостатки. Как выбрать Бид-менеджер. → `/blog/bidder/` · **новый формат**
   ID `42147` · 2018-03-14 · ~10k · Контекстная реклама
-- [ ] `konversiya-sayta-chto-eto-takoe-kakie-pokazateli-ne-menee-vazhnyi-sovetyi-po-ee-uvelicheniyu` — Конверсия сайта. Что это такое, какие показатели не менее важны, советы по ее увеличению.    
+- [x] `konversiya-sayta-chto-eto-takoe-kakie-pokazateli-ne-menee-vazhnyi-sovetyi-po-ee-uvelicheniyu` — Конверсия сайта. Что это такое, какие показатели не менее важны, советы по ее увеличению. → `/blog/optimizatsiya-konversii/` (dup)
   ID `41659` · 2017-12-13 · ~10k · Контекстная реклама
-- [ ] `meta-tegi-keywords-i-description-chto-eto-za-tegi-kakoy-u-nih-byil-funktsional-i-pochemu-segodnya-pro-nih-mozhno-zabyit` — Мета-теги keywords и description. Что это за теги, какой у них был функционал и почему сегодня про них можно забыть    
+- [x] `meta-tegi-keywords-i-description-chto-eto-za-tegi-kakoy-u-nih-byil-funktsional-i-pochemu-segodnya-pro-nih-mozhno-zabyit` — Мета-теги keywords и description. Что это за теги, какой у них был функционал и почему сегодня про них можно забыть → `/blog/metategi/` (dup)
   ID `41311` · 2017-11-28 · ~5k · Контекстная реклама
-- [ ] `chto-takoe-vhozhdeniya-klyuchevyih-slov-v-tekst-kakie-byivayut-ih-plotnost-i-rekomendatsii-po-ispolzovaniyu` — Что такое вхождения ключевых слов в текст. Какие бывают, их плотность и рекомендации по использованию.    
+- [x] `chto-takoe-vhozhdeniya-klyuchevyih-slov-v-tekst-kakie-byivayut-ih-plotnost-i-rekomendatsii-po-ispolzovaniyu` — Что такое вхождения ключевых слов в текст. Какие бывают, их плотность и рекомендации по использованию. → `/blog/toshnota-teksta/` (dup)
   ID `40925` · 2017-10-27 · ~6k · Контекстная реклама
-- [ ] `klassifikatsiya-poiskovyih-zaprosov-po-tselyam` — Классификация поисковых запросов по целям    
+- [x] `klassifikatsiya-poiskovyih-zaprosov-po-tselyam` — Классификация поисковых запросов по целям → `/blog/klassifikatsiya-zaprosov/` · **новый формат**
   ID `40838` · 2017-09-28 · ~15k · Контекстная реклама
-- [ ] `kakuyu-strategiyu-naznacheniya-stavok-v-adwords-vyibrat` — Какую стратегию назначения ставок в AdWords выбрать    
+- [x] `kakuyu-strategiyu-naznacheniya-stavok-v-adwords-vyibrat` — Какую стратегию назначения ставок в AdWords выбрать → `/blog/strategii-google-ads/` (dup)
   ID `38993` · 2017-05-27 · ~9k · Контекстная реклама
-- [ ] `novoe-rasshirenie-tsenyi-v-google-adwords` — Новое расширение «Цены» в Google AdWords    
+- [x] `novoe-rasshirenie-tsenyi-v-google-adwords` — Новое расширение «Цены» в Google AdWords → `/blog/rasshirenie-tseny-google/` · **новый формат**
   ID `38977` · 2017-05-27 · ~3k · Контекстная реклама
-- [ ] `brif-na-kontekstnuyu-reklamu-prostyimi-slovami` — Бриф на контекстную рекламу простыми словами    
+- [x] `brif-na-kontekstnuyu-reklamu-prostyimi-slovami` — Бриф на контекстную рекламу простыми словами → `/blog/brif-kontekst/` · **новый формат**
   ID `38952` · 2017-05-19 · ~8k · Контекстная реклама
-- [ ] `kak-izbavitsya-ot-statusa-malo-pokazov` — Как избавиться от статуса "Мало Показов"    
+- [x] `kak-izbavitsya-ot-statusa-malo-pokazov` — Как избавиться от статуса "Мало Показов" → `/blog/malo-pokazov/` · **новый формат**
   ID `38820` · 2017-05-17 · ~5k · Контекстная реклама
-- [ ] `novyie-formatyi-izobrazheniy-v-rsya` — Новые форматы изображений в РСЯ    
+- [x] `novyie-formatyi-izobrazheniy-v-rsya` — Новые форматы изображений в РСЯ → `/blog/formaty-izobrazheniy-rsya/` · **новый формат**
   ID `38743` · 2017-05-15 · ~5k · Контекстная реклама
-- [ ] `obzor-servisa-google-analytics` — Обзор сервиса Google Analytics    
+- [x] `obzor-servisa-google-analytics` — Обзор сервиса Google Analytics → `/blog/google-analytics/` (dup)
   ID `38711` · 2017-05-10 · ~9k · Контекстная реклама
-- [ ] `chto-takoe-tits-i-s-chem-ego-edyat` — Что такое ТИЦ и с чем его едят    
+- [x] `chto-takoe-tits-i-s-chem-ego-edyat` — Что такое ТИЦ и с чем его едят → `/blog/yandeks-iks/` (dup)
   ID `38699` · 2017-05-05 · ~7k · Контекстная реклама
-- [ ] `chto-takoe-utm-metki` — Что такое UTM-метки    
+- [x] `chto-takoe-utm-metki` — Что такое UTM-метки → `/blog/utm-metki/` (dup)
   ID `38669` · 2017-05-03 · ~7k · Контекстная реклама
-- [ ] `novyiy-algoritm-yandeksa-baden-baden-i-lsi-kopirayting` — Новый алгоритм Яндекса Баден-Баден и LSI копирайтинг    
+- [x] `novyiy-algoritm-yandeksa-baden-baden-i-lsi-kopirayting` — Новый алгоритм Яндекса Баден-Баден и LSI копирайтинг → `/blog/baden-baden/` · **новый формат**
   ID `38653` · 2017-04-27 · ~6k · Контекстная реклама
-- [ ] `algoritm-yandeksa-minusinsk-filtr-za-pokupnyie-ssyilki` — Алгоритм Яндекса - Минусинск, фильтр за покупные ссылки    
+- [x] `algoritm-yandeksa-minusinsk-filtr-za-pokupnyie-ssyilki` — Алгоритм Яндекса - Минусинск, фильтр за покупные ссылки → `/blog/minusinsk/`
   ID `38637` · 2017-04-25 · ~7k · Контекстная реклама
-- [ ] `38634` — Алгоритм Яндекса - Минусинск, фильтр за покупные ссылки    
+- [x] `38634` — Алгоритм Яндекса - Минусинск, фильтр за покупные ссылки → `/blog/minusinsk/` (dup)
   ID `38634` · 2017-04-25 · ~7k · Контекстная реклама
-- [ ] `printsipyi-rabotyi-auktsiona-yandeks-direkta-i-metodyi-konkurentnoy-borbyi-v-kontekstnoy-reklame` — Принципы работы аукциона Яндекс.Директ и методы конкурентной борьбы в контекстной рекламе    
+- [x] `printsipyi-rabotyi-auktsiona-yandeks-direkta-i-metodyi-konkurentnoy-borbyi-v-kontekstnoy-reklame` — Принципы работы аукциона Яндекс.Директ и методы конкурентной борьбы в контекстной рекламе → `/blog/auktsion-direkt/`
   ID `38591` · 2017-04-10 · ~7k · Контекстная реклама
-- [ ] `kak-vyibrat-domennoe-imya-sayta` — Как выбрать доменное имя сайта?    
+- [x] `kak-vyibrat-domennoe-imya-sayta` — Как выбрать доменное имя сайта? → `/blog/vybor-domena/`
   ID `38455` · 2017-01-25 · ~11k · Контекстная реклама
 
 ## E-mail маркетинг (13)
 
-- [ ] `tehnologiya-ftp-serverov` — Технология FTP-серверов    
-  ID `56886` · 2020-06-25 · ~5k · E-mail маркетинг
-- [ ] `chto_takoe_pochta_dlya_domena_i_kak_ee_nastroit` — Что такое почта для домена и как ее настроить    
-  ID `56861` · 2020-06-23 · ~18k · E-mail маркетинг
-- [ ] `10-interesnyih-email-rassyilok-ot-zarubezhnyih-brendov` — 10 интересных email-рассылок от зарубежных брендов    
+- [x] `tehnologiya-ftp-serverov` — Технология FTP-серверов → `/blog/ftp/` (dup)
+  ID `56886` · 2020-06-25 · ~5k · E-mail маркетинг · **dup** → `/blog/ftp/` (протокол, клиент, загрузка файлов сайта)
+- [x] `chto_takoe_pochta_dlya_domena_i_kak_ee_nastroit` — Что такое почта для домена и как ее настроить → `/blog/pochta-dlya-domena/` (dup)
+  ID `56861` · 2020-06-23 · ~18k · E-mail маркетинг · **dup** → `/blog/pochta-dlya-domena/` (корпоративные адреса, настройка)
+- [x] `10-interesnyih-email-rassyilok-ot-zarubezhnyih-brendov` — 10 интересных email-рассылок от зарубежных брендов → `/blog/primery-email-rassylok/`
   ID `56034` · 2020-03-20 · ~11k · E-mail маркетинг
-- [ ] `email-marketing-v-2020-godu` — Email-маркетинг в 2020 году    
+- [x] `email-marketing-v-2020-godu` — Email-маркетинг в 2020 году → `/blog/email-marketing-2020/`
   ID `55675` · 2020-03-04 · ~12k · E-mail маркетинг
-- [ ] `besplatnyie-instrumentyi-dlya-marketologov` — Бесплатные инструменты для маркетологов    
+- [x] `besplatnyie-instrumentyi-dlya-marketologov` — Бесплатные инструменты для маркетологов → `/blog/instrumenty-marketologa/`
   ID `53820` · 2019-12-19 · ~19k · E-mail маркетинг
-- [ ] `rukovodstvo-po-email-strategii` — Руководство по email стратегии    
+- [x] `rukovodstvo-po-email-strategii` — Руководство по email стратегии → `/blog/email-strategiya/`
   ID `53535` · 2019-12-13 · ~23k · E-mail маркетинг
-- [ ] `kak-sdelat-ubeditelnyiy-tekst-email-rassyilki` — Как сделать убедительный текст email-рассылки    
+- [x] `kak-sdelat-ubeditelnyiy-tekst-email-rassyilki` — Как сделать убедительный текст email-рассылки → `/blog/tekst-email-rassylki/`
   ID `51798` · 2019-09-24 · ~12k · E-mail маркетинг
-- [ ] `email-marketing-kakomu-biznesu-on-nuzhen` — Email-маркетинг: какому бизнесу он нужен?    
+- [x] `email-marketing-kakomu-biznesu-on-nuzhen` — Email-маркетинг: какому бизнесу он нужен? → `/blog/email-dlya-biznesa/`
   ID `51594` · 2019-09-12 · ~15k · E-mail маркетинг
-- [ ] `rukovodstvo-po-verstke-pisem-dlya-rassyilki` — Руководство по верстке писем для рассылки    
+- [x] `rukovodstvo-po-verstke-pisem-dlya-rassyilki` — Руководство по верстке писем для рассылки → `/blog/verstka-email/`
   ID `51363` · 2019-08-30 · ~30k · E-mail маркетинг
-- [ ] `sovetyi-po-oformleniyu-email-rassyilki` — Советы по оформлению email рассылки    
+- [x] `sovetyi-po-oformleniyu-email-rassyilki` — Советы по оформлению email рассылки → `/blog/oformlenie-email/`
   ID `50711` · 2019-07-30 · ~19k · E-mail маркетинг
-- [ ] `push-uvedomleniya-chto-eto-i-kak-ispolzovat` — Push-уведомления: что это и как использовать?    
+- [x] `push-uvedomleniya-chto-eto-i-kak-ispolzovat` — Push-уведомления: что это и как использовать? → `/blog/push-uvedomleniya/`
   ID `49566` · 2019-06-05 · ~13k · E-mail маркетинг
-- [ ] `kak-sdelat-sms-rassyilku` — Как сделать смс рассылку    
-  ID `48151` · 2019-02-22 · ~31k · E-mail маркетинг
-- [ ] `kak-uderzhat-podpischikov-effektivnyie-idei-i-sovetyi` — Как удержать подписчиков? Эффективные идеи и советы    
+- [x] `kak-sdelat-sms-rassyilku` — Как сделать смс рассылку → `/blog/sms-rassylka/` (dup)
+  ID `48151` · 2019-02-22 · ~31k · E-mail маркетинг · **dup** → `/blog/sms-rassylka/` (запуск, база, согласие, оператор/агрегатор)
+- [x] `kak-uderzhat-podpischikov-effektivnyie-idei-i-sovetyi` — Как удержать подписчиков? Эффективные идеи и советы → `/blog/uderzhanie-podpischikov/`
   ID `43377` · 2018-05-25 · ~6k · E-mail маркетинг
 
 ## Продвижение в картах и справочниках (5)
 
-- [ ] `instruktsia-kak-bystro-popast-na-google-karty` — Инструкция: Как быстро попасть на Google Карты    
-  ID `56186` · 2020-03-25 · ~15k · Продвижение в картах и справочниках
+- [x] `instruktsia-kak-bystro-popast-na-google-karty` — Инструкция: Как быстро попасть на Google Карты → `/blog/google-biznes/` (dup)
+  ID `56186` · 2020-03-25 · ~15k · Продвижение в картах и справочниках · **dup** → `/blog/google-biznes/` (Business Profile / Maps — в каноне)
 - [ ] `kak-udalit-otzyiv-na-2gis` — Как удалить отзыв на 2ГИС    
   ID `54034` · 2019-12-23 · ~9k · Продвижение в картах и справочниках
 - [ ] `zakryitie-yandeks-kataloga` — Закрытие Яндекс каталога    

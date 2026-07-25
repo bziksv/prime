@@ -6,4 +6,8 @@ dist/
 .env.*
 !.env.example
 
+# Blog view counters (runtime JSON on Apache)
+public/data/blog-views/*.json
+public/data/blog-views/.rate/
+
 .cursor/

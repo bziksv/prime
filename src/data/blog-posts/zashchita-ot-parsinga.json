@@ -110,11 +110,11 @@
     "Защита от парсинга — про удорожание сбора и сохранение UX/SEO, а не про «невидимый сайт». Начните с лимитов и мониторинга, добавьте капчу по риску и не блокируйте белых краулеров вместе с вредителями."
   ],
   "related": [
+    "zashchita-kontenta",
     "parsing",
     "avtonapolnenie-sayta",
     "feyk-stranitsa",
     "ssl-sertifikat",
-    "analiz-konkurentov",
-    "screaming-frog"
+    "analiz-konkurentov"
   ]
 }
