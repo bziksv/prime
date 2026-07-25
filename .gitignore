@@ -6,8 +6,9 @@ dist/
 .env.*
 !.env.example
 
-# Blog view counters (runtime JSON on Apache)
+# Blog view counters (runtime JSON on Apache; seed.json is committed)
 public/data/blog-views/*.json
+!public/data/blog-views/seed.json
 public/data/blog-views/.rate/
 
 .cursor/

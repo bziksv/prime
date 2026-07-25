@@ -9,6 +9,8 @@ import { v6Icons } from "../../data/v6-media";
 import {
   blogPosts,
   formatReadingTime,
+  formatViews,
+  getBaseViews,
   getBlogCategories,
   getReadingMinutes,
 } from "../../data/blog";
@@ -327,6 +329,7 @@ const migration = showMigrateDashboard ? getBlogMigrationProgress() : null;
                   <div class="b-featured__meta">
                     <span class="b-featured__cat">{featured.category}</span>
                     <span class="b-meta-chip">{formatReadingTime(getReadingMinutes(featured))}</span>
+                    <span class="b-meta-chip">{formatViews(getBaseViews(featured))} просм.</span>
                   </div>
                   <h2>{featured.title}</h2>
                   <p>{featured.excerpt}</p>

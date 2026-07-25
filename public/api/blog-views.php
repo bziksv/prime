@@ -50,20 +50,62 @@ function bv_path(string $dir, string $slug): string
     return $dir . '/' . $slug . '.json';
 }
 
-function bv_read_views(string $path): int
+function bv_seed_map(string $dir): array
+{
+    static $map = null;
+    if (is_array($map)) {
+        return $map;
+    }
+    $map = [];
+    $seedPath = $dir . '/seed.json';
+    if (!is_file($seedPath)) {
+        return $map;
+    }
+    $raw = file_get_contents($seedPath);
+    if ($raw === false || $raw === '') {
+        return $map;
+    }
+    $data = json_decode($raw, true);
+    if (!is_array($data)) {
+        return $map;
+    }
+    foreach ($data as $slug => $views) {
+        if (is_string($slug) && (is_int($views) || is_float($views) || is_string($views))) {
+            $map[$slug] = max(0, (int) $views);
+        }
+    }
+    return $map;
+}
+
+function bv_seed_views(string $dir, string $slug): int
+{
+    $map = bv_seed_map($dir);
+    return $map[$slug] ?? 0;
+}
+
+function bv_read_views(string $path): ?int
 {
     if (!is_file($path)) {
-        return 0;
+        return null;
     }
     $raw = file_get_contents($path);
     if ($raw === false || $raw === '') {
-        return 0;
+        return null;
     }
     $data = json_decode($raw, true);
     if (!is_array($data) || !isset($data['v'])) {
-        return 0;
+        return null;
     }
     return max(0, (int) $data['v']);
+}
+
+function bv_get_views(string $dir, string $slug): int
+{
+    $live = bv_read_views(bv_path($dir, $slug));
+    if ($live !== null) {
+        return $live;
+    }
+    return bv_seed_views($dir, $slug);
 }
 
 function bv_write_views(string $path, int $views): void
@@ -84,7 +126,7 @@ function bv_write_views(string $path, int $views): void
 }
 
 /** Atomic read/increment with flock on the slug file. */
-function bv_increment(string $path): int
+function bv_increment(string $path, int $initial = 0): int
 {
     $fh = fopen($path, 'c+');
     if ($fh === false) {
@@ -96,7 +138,7 @@ function bv_increment(string $path): int
     }
     rewind($fh);
     $raw = stream_get_contents($fh);
-    $views = 0;
+    $views = $initial;
     if (is_string($raw) && $raw !== '') {
         $data = json_decode($raw, true);
         if (is_array($data) && isset($data['v'])) {
@@ -206,7 +248,7 @@ if ($method === 'GET') {
         if (!bv_valid_slug($slug)) {
             bv_fail(400, 'invalid slug');
         }
-        bv_ok(['slug' => $slug, 'views' => bv_read_views(bv_path($dataDir, $slug))]);
+        bv_ok(['slug' => $slug, 'views' => bv_get_views($dataDir, $slug)]);
     }
 
     if (isset($_GET['slugs']) && is_string($_GET['slugs'])) {
@@ -219,7 +261,7 @@ if ($method === 'GET') {
             if (!bv_valid_slug($slug)) {
                 continue;
             }
-            $out[$slug] = bv_read_views(bv_path($dataDir, $slug));
+            $out[$slug] = bv_get_views($dataDir, $slug);
         }
         bv_ok(['views' => $out]);
     }
@@ -242,12 +284,13 @@ if ($method === 'POST') {
     if (bv_has_cookie($slug)) {
         bv_ok([
             'slug' => $slug,
-            'views' => bv_read_views($path),
+            'views' => bv_get_views($dataDir, $slug),
             'counted' => false,
         ]);
     }
 
-    $views = bv_increment($path);
+    $initial = bv_seed_views($dataDir, $slug);
+    $views = bv_increment($path, $initial);
     bv_set_cookie($slug);
     bv_ok([
         'slug' => $slug,

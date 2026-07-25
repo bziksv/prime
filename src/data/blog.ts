@@ -566,6 +566,9 @@ import verstkaEmail from "./blog-posts/verstka-email.json";
 import oformlenieEmail from "./blog-posts/oformlenie-email.json";
 import pushUvedomleniya from "./blog-posts/push-uvedomleniya.json";
 import uderzhaniePodpischikov from "./blog-posts/uderzhanie-podpischikov.json";
+import blogViewsSeed from "./blog-views-seed.json";
+
+const viewsSeed = blogViewsSeed as Record<string, number>;
 
 export type BlogListItem = {
   intro?: string | null;
@@ -1405,24 +1408,9 @@ export function formatReadingTime(minutes: number): string {
   return `${n} мин чтения`;
 }
 
-function hashSlug(slug: string): number {
-  let h = 2166136261;
-  for (let i = 0; i < slug.length; i++) {
-    h ^= slug.charCodeAt(i);
-    h = Math.imul(h, 16777619);
-  }
-  return h >>> 0;
-}
-
-/** Stable baseline views (no backend). Grows with age of the post. */
+/** Seeded baseline (50–200). Live total comes from PHP counter when available. */
 export function getBaseViews(post: BlogPost): number {
-  const published = new Date(`${post.date}T12:00:00`).getTime();
-  const days = Math.max(
-    1,
-    Math.floor((Date.now() - published) / 86_400_000),
-  );
-  const salt = hashSlug(post.slug) % 180;
-  return 240 + Math.floor(days * 1.35) + salt;
+  return viewsSeed[post.slug] ?? 0;
 }
 
 export function formatViews(n: number): string {

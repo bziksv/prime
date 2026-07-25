@@ -67,6 +67,7 @@ function renderList(
           <div class="b-card__meta">
             <span class="b-card__cat">${escapeHtml(doc.category)}</span>
             <span class="b-meta-chip">${formatReadingTime(doc.readingMinutes)}</span>
+            <span class="b-meta-chip">${formatViews(doc.baseViews)} просм.</span>
           </div>
           <h3>${escapeHtml(doc.title)}</h3>
           <p class="b-card__snippet">${snippet}</p>
@@ -480,10 +481,8 @@ function initArticle() {
   const viewsWrap = qs<HTMLElement>("[data-blog-views-wrap]", root);
 
   void recordBlogView(slug).then((views) => {
-    if (views == null) {
-      if (viewsWrap) viewsWrap.hidden = true;
-      return;
-    }
+    // Local `astro dev` has no PHP — keep SSR seed. On Apache, replace with live total.
+    if (views == null) return;
     if (viewsEl) viewsEl.textContent = formatViews(views);
     if (viewsWrap) viewsWrap.hidden = false;
   });
