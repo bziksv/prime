@@ -1,0 +1,120 @@
+---
+import "../styles/concept-v6.css";
+import "../styles/concept-v6-media.css";
+import PortalShell from "../components/PortalShell.astro";
+import CookieConsent from "../components/CookieConsent.astro";
+import CookieFooterNotice from "../components/CookieFooterNotice.astro";
+import { v6Icons } from "../data/v6-media";
+---
+
+<!doctype html>
+<html lang="ru" data-concept="v6" data-page="404">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <meta
+      name="description"
+      content="Страница не найдена. Вернитесь на главную ПРАЙМ или откройте услуги, кейсы и блог."
+    />
+    <title>404 — страница не найдена — ПРАЙМ</title>
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <style>
+      .e404 {
+        display: grid;
+        gap: 1.25rem;
+        max-width: 40rem;
+        padding: 2.5rem 0 3rem;
+      }
+      .e404__code {
+        margin: 0;
+        font-family: var(--font-display, inherit);
+        font-size: clamp(4rem, 12vw, 7rem);
+        font-weight: 800;
+        line-height: 0.9;
+        letter-spacing: -0.06em;
+        color: var(--accent, #0d9488);
+      }
+      .e404 h1 {
+        margin: 0;
+        font-family: var(--font-display, inherit);
+        font-size: clamp(1.6rem, 3vw, 2.2rem);
+        font-weight: 700;
+        letter-spacing: -0.03em;
+      }
+      .e404 p {
+        margin: 0;
+        color: var(--text-muted, #64748b);
+        font-size: 1.05rem;
+        line-height: 1.55;
+      }
+      .e404__actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.65rem;
+        margin-top: 0.5rem;
+      }
+      .e404__links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem 1.25rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 0.92rem;
+      }
+      .e404__links a {
+        color: var(--accent, #0d9488);
+        text-decoration: none;
+      }
+      .e404__links a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell />
+
+      <div class="v6-main">
+        <header class="v6-topbar">
+          <button id="v6-burger" type="button" class="v6-burger" aria-label="Меню">☰</button>
+          <p class="v6-breadcrumb">
+            <a href="/">Главная</a> · <strong>404</strong>
+          </p>
+          <a href="/kontakty/" class="v6-btn">Связаться</a>
+        </header>
+
+        <div class="v6-content">
+          <section class="e404" aria-labelledby="e404-title">
+            <p class="e404__code" aria-hidden="true">404</p>
+            <h1 id="e404-title">Такой страницы нет</h1>
+            <p>
+              Ссылка устарела или адрес набран с ошибкой. Ниже — рабочие разделы
+              сайта, или вернитесь на главную.
+            </p>
+            <div class="e404__actions">
+              <a href="/" class="v6-btn">На главную</a>
+              <a href="/keysy/" class="v6-btn v6-btn--outline">Кейсы</a>
+              <a href="/blog/" class="v6-btn v6-btn--outline">Блог</a>
+            </div>
+            <ul class="e404__links">
+              <li><a href="/prodvizhenie-sayta/">Продвижение сайта</a></li>
+              <li><a href="/kontekstnaya-reklama/">Контекст</a></li>
+              <li><a href="/razrabotka-saytov/">Разработка</a></li>
+              <li><a href="/kontakty/">Контакты</a></li>
+            </ul>
+          </section>
+
+          <CookieFooterNotice />
+        </div>
+      </div>
+    </div>
+
+    <CookieConsent />
+    <script>
+      import "../scripts/concept-v6";
+    </script>
+  </body>
+</html>

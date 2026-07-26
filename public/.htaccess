@@ -5,6 +5,9 @@
 # Posts: 830 · Pages: 7
 # =============================================================================
 
+# Branded Astro 404 (dist/404.html)
+ErrorDocument 404 /404.html
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
