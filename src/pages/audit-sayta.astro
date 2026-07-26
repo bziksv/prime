@@ -17,7 +17,27 @@ import {
   auditTimeline,
   auditMarquee,
   auditStats,
+  auditOutcomes,
+  auditNos,
+  auditFaq,
 } from "../data/audit-service";
+
+const pageTitle = "Аудит сайта — ПРАЙМ";
+const pageDescription =
+  "Аудит сайта: Метрика, юзабилити, конкуренты, техника и контент. Бесплатный мини-аудит и комплексный отчёт 30–79 тыс. ₽.";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: auditFaq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
 ---
 
 <!doctype html>
@@ -25,14 +45,11 @@ import {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Аудит сайта: Метрика, юзабилити, конкуренты, техника и контент. Бесплатный мини-аудит и комплексный отчёт 30–79 тыс. ₽."
-    />
-    <title>Аудит сайта — ПРАЙМ</title>
+    <meta name="description" content={pageDescription} />
+    <title>{pageTitle}</title>
     <SiteSeo
-      title="Аудит сайта — ПРАЙМ"
-      description="Аудит сайта: Метрика, юзабилити, конкуренты, техника и контент. Бесплатный мини-аудит и комплексный отчёт 30–79 тыс. ₽."
+      title={pageTitle}
+      description={pageDescription}
       path="/audit-sayta/"
     />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
@@ -43,6 +60,7 @@ import {
       href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   </head>
   <body>
     <div class="v6-app">
@@ -302,6 +320,60 @@ import {
               <p class="u-offer__note">{auditPricing.paid.extra}</p>
               <a href="#audit-cta" class="u-btn u-btn--primary">Заказать комплексный</a>
             </article>
+          </section>
+
+          <section class="u-section u-reveal">
+            <div class="u-section__head">
+              <p class="u-kicker">Результат</p>
+              <h2>Что даёт аудит на практике</h2>
+              <p>Понятные приоритеты — не простыня «исправьте 200 пунктов».</p>
+            </div>
+            <div class="u-outcomes">
+              {
+                auditOutcomes.map((item) => (
+                  <article class="u-outcome">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="u-section u-reveal">
+            <div class="u-section__head">
+              <p class="u-kicker">Честно</p>
+              <h2>Чего не обещаем</h2>
+              <p>Аудит — диагностика, не волшебный выход в ТОП.</p>
+            </div>
+            <div class="u-nos">
+              {
+                auditNos.map((item) => (
+                  <article class="u-no">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="u-section u-reveal" id="faq">
+            <div class="u-section__head">
+              <p class="u-kicker">FAQ</p>
+              <h2>Частые вопросы</h2>
+              <p>Форматы, цена, доступы и связь с продвижением.</p>
+            </div>
+            <div class="u-faq">
+              {
+                auditFaq.map((item) => (
+                  <details class="u-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
           </section>
 
           <section id="audit-cta" class="u-cta u-reveal">
