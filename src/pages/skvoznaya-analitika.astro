@@ -16,7 +16,27 @@ import {
   analyticsExtra,
   analyticsPlans,
   analyticsNote,
+  analyticsOutcomes,
+  analyticsNos,
+  analyticsFaq,
 } from "../data/analytics-service";
+
+const pageTitle = "Сквозная аналитика — ПРАЙМ";
+const pageDescription =
+  "Сквозная аналитика Roistat: реклама → сайт → CRM. Коллтрекинг, формы, email. Видно, какой канал даёт заявки и продажи. Интеграция и настройка.";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: analyticsFaq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
 ---
 
 <!doctype html>
@@ -24,14 +44,11 @@ import {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Сквозная аналитика Roistat: реклама → сайт → CRM. Коллтрекинг, формы, email. Видно, какой канал даёт заявки и продажи. Интеграция и настройка."
-    />
-    <title>Сквозная аналитика — ПРАЙМ</title>
+    <meta name="description" content={pageDescription} />
+    <title>{pageTitle}</title>
     <SiteSeo
-      title="Сквозная аналитика — ПРАЙМ"
-      description="Сквозная аналитика Roistat: реклама → сайт → CRM. Коллтрекинг, формы, email. Видно, какой канал даёт заявки и продажи. Интеграция и настройка."
+      title={pageTitle}
+      description={pageDescription}
       path="/skvoznaya-analitika/"
     />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
@@ -43,6 +60,7 @@ import {
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,700;1,6..12,400&family=Oxanium:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   </head>
   <body>
     <div class="v6-app">
@@ -262,6 +280,57 @@ import {
               }
             </div>
             <p class="n-note">{analyticsNote}</p>
+          </section>
+
+          <section class="n-section n-reveal">
+            <div class="n-section__head">
+              <h2>Что меняется после внедрения</h2>
+              <p>Не ещё один отчёт — связка, по которой можно резать и усиливать бюджет.</p>
+            </div>
+            <div class="n-outcomes">
+              {
+                analyticsOutcomes.map((item) => (
+                  <article class="n-outcome">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="n-section n-reveal">
+            <div class="n-section__head">
+              <h2>Чего не обещаем</h2>
+              <p>Чтобы сквозная аналитика не звучала как «волшебная кнопка».</p>
+            </div>
+            <div class="n-nos">
+              {
+                analyticsNos.map((item) => (
+                  <article class="n-no">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="n-section n-reveal" id="faq">
+            <div class="n-section__head">
+              <h2>Частые вопросы</h2>
+              <p>Метрика, CRM, коллтрекинг и сроки внедрения.</p>
+            </div>
+            <div class="n-faq">
+              {
+                analyticsFaq.map((item) => (
+                  <details class="n-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
           </section>
 
           <section id="analytics-cta" class="n-cta n-reveal">
