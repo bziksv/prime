@@ -164,6 +164,7 @@ const services = [
   </head>
   <body>
     <div class="v6-app">
+      <a class="v6-skip" href="#main">К содержанию</a>
       <aside id="v6-sidebar" class="v6-sidebar" aria-label="Навигация сайта">
         <div class="v6-sidebar__head">
           <a href="/" class="v6-sidebar__logo">
@@ -209,7 +210,7 @@ const services = [
 
       <div id="v6-backdrop" class="v6-backdrop" aria-hidden="true"></div>
 
-      <div class="v6-main">
+      <main id="main" class="v6-main">
         <header class="v6-topbar">
           <button id="v6-burger" type="button" class="v6-burger" aria-label="Меню" aria-controls="v6-sidebar" aria-expanded="false">
             ☰
@@ -649,7 +650,7 @@ const services = [
           <p>© 2015–{new Date().getFullYear()} ПРАЙМ</p>
           <CookieFooterNotice />
         </footer>
-      </div>
+      </main>
     </div>
 
     <CookieConsent />

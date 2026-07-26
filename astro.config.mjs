@@ -1,19 +1,22 @@
-import { readdirSync, readFileSync } from "node:fs";
+import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 
-/** blog slug → ISO date from post JSON (for sitemap lastmod) */
+/** blog path → lastmod ISO (max of JSON date and file mtime) — matches Article schema */
 function loadBlogLastmod() {
   const dir = join(process.cwd(), "src/data/blog-posts");
   const map = new Map();
   for (const file of readdirSync(dir)) {
     if (!file.endsWith(".json")) continue;
+    const filePath = join(dir, file);
     try {
-      const data = JSON.parse(readFileSync(join(dir, file), "utf8"));
-      if (data?.slug && data?.date) {
-        map.set(`/blog/${data.slug}/`, String(data.date));
-      }
+      const data = JSON.parse(readFileSync(filePath, "utf8"));
+      if (!data?.slug || !data?.date) continue;
+      const published = String(data.date);
+      const mtime = statSync(filePath).mtime.toISOString().slice(0, 10);
+      const lastmod = mtime > published ? mtime : published;
+      map.set(`/blog/${data.slug}/`, lastmod);
     } catch {
       /* skip bad file */
     }

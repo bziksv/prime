@@ -1,5 +1,12 @@
 /* Blog — list + article, portal v6 */
 
+[data-page="blog"] {
+  --font: "Manrope", system-ui, sans-serif;
+  --font-body: "Manrope", system-ui, sans-serif;
+  --font-display: "Unbounded", "Manrope", system-ui, sans-serif;
+  font-family: var(--font-body);
+}
+
 .b-hero {
   position: relative;
   margin: 0 0 1.25rem;

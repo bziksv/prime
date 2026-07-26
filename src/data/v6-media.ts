@@ -49,6 +49,7 @@ export const v6Icons = {
   seoReport: "/images/v6/seo-report.svg",
   officeMap: "/images/v6/office-map.svg",
   ogCover: "/images/v6/og-cover.jpg",
+  appleTouchIcon: "/images/v6/apple-touch-icon.png",
   checkPrime: "/images/v6/check-prime.svg",
   sparkMini: "/images/v6/spark-mini.svg",
   iconSeo: "/images/v6/icon-seo.svg",
