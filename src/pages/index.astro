@@ -52,6 +52,19 @@ const websiteJsonLd = {
   publisher: { "@type": "Organization", name: "ПРАЙМ" },
 };
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: v6Faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
+
 const navTop = [{ label: "О компании", href: "#about" }];
 
 const navBottom = [
@@ -140,6 +153,7 @@ const services = [
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
     <script type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} />
     <script type="application/ld+json" set:html={JSON.stringify(websiteJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
     <link rel="preload" as="image" href={v6Photos.heroOffice} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

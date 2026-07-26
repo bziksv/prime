@@ -9,6 +9,41 @@ import SiteSeo from "../components/SiteSeo.astro";
 import { v6Icons } from "../data/v6-media";
 import { legalDocs } from "../data/legal";
 import { contacts, contactServices } from "../data/contacts";
+
+const pageTitle = "Контакты — ПРАЙМ";
+const pageDescription = `Контакты ПРАЙМ: ${contacts.address}, ${contacts.phone}, ${contacts.email}`;
+
+const localBusinessJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  name: "ПРАЙМ",
+  url: "https://prime-ltd.su/",
+  image: `https://prime-ltd.su${v6Icons.logoMark}`,
+  email: contacts.email,
+  telephone: contacts.phone,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: contacts.addressShort,
+    addressLocality: contacts.city,
+    postalCode: contacts.postal,
+    addressCountry: "RU",
+  },
+  areaServed: "RU",
+  sameAs: contacts.socials.map((s) => s.href),
+};
+
+const contactPageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  name: pageTitle,
+  url: "https://prime-ltd.su/kontakty/",
+  description: pageDescription,
+  mainEntity: {
+    "@type": "Organization",
+    name: "ПРАЙМ",
+    url: "https://prime-ltd.su/",
+  },
+};
 ---
 
 <!doctype html>
@@ -16,14 +51,11 @@ import { contacts, contactServices } from "../data/contacts";
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content={`Контакты ПРАЙМ: ${contacts.address}, ${contacts.phone}, ${contacts.email}`}
-    />
-    <title>Контакты — ПРАЙМ</title>
+    <meta name="description" content={pageDescription} />
+    <title>{pageTitle}</title>
     <SiteSeo
-      title="Контакты — ПРАЙМ"
-      description={`Контакты ПРАЙМ: ${contacts.address}, ${contacts.phone}, ${contacts.email}`}
+      title={pageTitle}
+      description={pageDescription}
       path="/kontakty/"
     />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
@@ -34,6 +66,8 @@ import { contacts, contactServices } from "../data/contacts";
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json" set:html={JSON.stringify(localBusinessJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(contactPageJsonLd)} />
   </head>
   <body>
     <div class="v6-app">
