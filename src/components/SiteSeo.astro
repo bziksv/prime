@@ -6,6 +6,9 @@ interface Props {
   image?: string;
   type?: "website" | "article";
   noindex?: boolean;
+  /** ISO date (YYYY-MM-DD or full) for og:article */
+  publishedTime?: string;
+  modifiedTime?: string;
 }
 
 const {
@@ -15,11 +18,23 @@ const {
   image = "/images/v6/og-cover.jpg",
   type = "website",
   noindex = false,
+  publishedTime,
+  modifiedTime,
 } = Astro.props;
 
 const origin = Astro.site?.origin ?? "https://prime-ltd.su";
 const url = new URL(path.startsWith("/") ? path : `/${path}`, origin).href;
 const imageUrl = image.startsWith("http") ? image : new URL(image, origin).href;
+
+function toIsoDay(value?: string): string | undefined {
+  if (!value) return undefined;
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return value;
+  return d.toISOString();
+}
+
+const publishedIso = toIsoDay(publishedTime);
+const modifiedIso = toIsoDay(modifiedTime || publishedTime);
 ---
 
 <link rel="canonical" href={url} />
@@ -31,6 +46,16 @@ const imageUrl = image.startsWith("http") ? image : new URL(image, origin).href;
 <meta property="og:description" content={description} />
 <meta property="og:url" content={url} />
 <meta property="og:image" content={imageUrl} />
+{
+  type === "article" && publishedIso ? (
+    <meta property="article:published_time" content={publishedIso} />
+  ) : null
+}
+{
+  type === "article" && modifiedIso ? (
+    <meta property="article:modified_time" content={modifiedIso} />
+  ) : null
+}
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />

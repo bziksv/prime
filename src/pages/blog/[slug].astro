@@ -24,6 +24,8 @@ import {
 import { blogNewFormatSlugs } from "../../data/blog-migration";
 import { getBlogInteract } from "../../data/blog-interact";
 import { breadcrumbJsonLd } from "../../lib/breadcrumb-jsonld";
+import { existsSync, statSync } from "node:fs";
+import { join } from "node:path";
 
 export function getStaticPaths() {
   return blogPosts.map((post) => ({ params: { slug: post.slug } }));
@@ -66,6 +68,12 @@ if (post.faq?.length) {
 const pageTitle = `${post.title} — Блог ПРАЙМ`;
 const coverPath = post.cover.split("?")[0] || post.cover;
 
+const postJsonPath = join(process.cwd(), "src/data/blog-posts", `${post.slug}.json`);
+const fileMtime = existsSync(postJsonPath)
+  ? statSync(postJsonPath).mtime.toISOString().slice(0, 10)
+  : post.date;
+const dateModified = fileMtime > post.date ? fileMtime : post.date;
+
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -73,7 +81,7 @@ const articleJsonLd = {
   description: post.excerpt,
   image: new URL(coverPath, Astro.site ?? "https://prime-ltd.su").href,
   datePublished: post.date,
-  dateModified: post.date,
+  dateModified,
   mainEntityOfPage: pageUrl,
   author: {
     "@type": "Organization",
@@ -133,6 +141,8 @@ const crumbsLd = breadcrumbJsonLd(
       path={postPath}
       image={coverPath}
       type="article"
+      publishedTime={post.date}
+      modifiedTime={dateModified}
     />
     <link
       rel="alternate"
@@ -162,7 +172,7 @@ const crumbsLd = breadcrumbJsonLd(
 
       <div class="v6-main">
         <header class="v6-topbar">
-          <button id="v6-burger" type="button" class="v6-burger" aria-label="Меню">☰</button>
+          <button id="v6-burger" type="button" class="v6-burger" aria-label="Меню" aria-controls="v6-sidebar" aria-expanded="false">☰</button>
           <p class="v6-breadcrumb">
             <a href="/">Главная</a> · <a href="/blog/">Блог</a> ·{" "}
             <strong>{post.category}</strong>

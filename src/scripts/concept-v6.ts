@@ -8,6 +8,10 @@ export function initConceptV6() {
   const sidebar = document.getElementById("v6-sidebar");
   const backdrop = document.getElementById("v6-backdrop");
   const burger = document.getElementById("v6-burger");
+  const main = document.querySelector<HTMLElement>(".v6-main");
+
+  const focusableSelector =
+    'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
 
   const toggle = (open: boolean) => {
     sidebar?.classList.toggle("is-open", open);
@@ -18,6 +22,14 @@ export function initConceptV6() {
       burger.setAttribute("aria-label", open ? "Закрыть меню" : "Меню");
     }
     backdrop?.setAttribute("aria-hidden", open ? "false" : "true");
+    if (main) {
+      if (open) main.setAttribute("inert", "");
+      else main.removeAttribute("inert");
+    }
+    if (open) {
+      const first = sidebar?.querySelector<HTMLElement>(focusableSelector);
+      first?.focus();
+    }
   };
 
   if (burger) {
@@ -32,9 +44,25 @@ export function initConceptV6() {
   backdrop?.addEventListener("click", () => toggle(false));
 
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && sidebar?.classList.contains("is-open")) {
+    if (!sidebar?.classList.contains("is-open")) return;
+    if (e.key === "Escape") {
       toggle(false);
       burger?.focus();
+      return;
+    }
+    if (e.key !== "Tab" || !sidebar) return;
+    const nodes = [...sidebar.querySelectorAll<HTMLElement>(focusableSelector)].filter(
+      (el) => !el.hasAttribute("disabled") && el.offsetParent !== null,
+    );
+    if (!nodes.length) return;
+    const first = nodes[0];
+    const last = nodes[nodes.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first.focus();
     }
   });
 

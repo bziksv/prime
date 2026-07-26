@@ -36,6 +36,9 @@ lines.push("  Header set Referrer-Policy \"strict-origin-when-cross-origin\"");
 lines.push(
   "  Header set Permissions-Policy \"camera=(), microphone=(), geolocation=(), payment=()\"",
 );
+lines.push(
+  '  Header always set Strict-Transport-Security "max-age=31536000"',
+);
 lines.push("</IfModule>");
 lines.push("");
 lines.push("<IfModule mod_rewrite.c>");
