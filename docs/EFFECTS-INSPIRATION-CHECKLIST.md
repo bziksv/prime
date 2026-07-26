@@ -66,16 +66,16 @@
 
 ### Взять с референсов
 - [x] Device-as-viewport + подмена сайта (Swipe) **[!]** — `#products` на `/razrabotka-saytov/`
-- [ ] Giant wordmark + animated figure (Matter) **[!]**
-- [ ] Floating cards state-swap (Grow) **[!]**
-- [ ] Before/after drag (Kinetic)
-- [ ] Rotating headline word (Flow / Brandly)
-- [ ] Product dots slider (Sonic)
-- [ ] Phone mock gallery (Kinto / Swipe)
-- [ ] Orbiting icons + ripples (Brandly)
-- [ ] Button expressive click (Ink)
-- [ ] Horizontal feature rail (Plasma)
-- [ ] Energy beam atmosphere (Neural)
+- [x] Giant wordmark + animated figure (Matter) **[!]** — outlined «ПРАЙМ» + NEXBOT CC0
+- [x] Floating cards state-swap (Grow) **[!]** — spectrum live float cards
+- [x] Before/after drag (Kinetic) — `#spectrum` compare slider
+- [x] Rotating headline word (Flow / Brandly) — hero H1 chip + proof skeleton boot
+- [x] Product dots slider (Sonic) — `#products` dots under phone
+- [x] Phone mock gallery (Kinto / Swipe) — 3 телефона в `#products`
+- [x] Orbiting icons + ripples (Brandly) — орбита + pulse rings
+- [x] Button expressive click (Ink) — `data-ink-btn` ripple
+- [x] Horizontal feature rail (Plasma) — стек платформ со стрелками
+- [x] Energy beam atmosphere (Neural) — вертикальный beam в hero
 
 ---
 
@@ -821,13 +821,15 @@ Preview host: `https://themefisher.com/demo?theme=<slug>-astro` (iframe). Для
 
 ## D. Приоритет внедрения на `/razrabotka-saytov/`
 
-1. **Swipe:** телефон, внутри подмена лендинг → визитка → корп → магазин  
-2. **Matter (layout only):** giant «WEB»/«CODE» + idle-фигура; **меш в проде = NEXBOT CC0** ([ASSETS-LICENSES.md](./ASSETS-LICENSES.md))  
-3. **Grow:** floating cards с обменом метрик в spectrum  
-4. **Kinetic:** drag strict ↔ live  
-5. **Sonic:** dots-слайдер форматов  
-6. **Flow/Brandly:** rotating word в H1 + skeleton boot  
-7. **Ink:** expressive button click на CTA  
+1. ~~**Swipe:** телефон, внутри подмена лендинг → визитка → корп → магазин~~ ✅  
+2. ~~**Matter (layout only):** giant outlined «ПРАЙМ» + idle-фигура; **меш = NEXBOT CC0**~~ ✅  
+3. ~~**Grow:** floating cards с обменом метрик в spectrum~~ ✅  
+4. ~~**Kinetic:** drag strict ↔ live~~ ✅  
+5. ~~**Sonic:** dots-слайдер форматов~~ ✅  
+6. ~~**Flow/Brandly:** rotating word в H1 + skeleton boot~~ ✅  
+7. ~~**Ink:** expressive button click на CTA~~ ✅  
+
+Очередь «Взять с референсов» для `/razrabotka-saytov/` — **закрыта**.
 
 ---
 

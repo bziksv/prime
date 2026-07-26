@@ -63,12 +63,21 @@ const heroFlanks = {
           <p class="v6-breadcrumb">
             <a href="/">Главная</a> · <strong>Разработка сайтов</strong>
           </p>
-          <a href="#web-cta" class="v6-btn">Оставить заявку</a>
+          <a href="#web-cta" class="v6-btn" data-ink-btn>Оставить заявку</a>
         </header>
 
         <div class="v6-content v6-content--web">
           <section class="w-hero" data-web-hero>
-            <p class="w-hero__word" aria-hidden="true">ПРАЙМ</p>
+            <div class="w-hero__beam" aria-hidden="true" data-hero-beam>
+              <span class="w-hero__beam-glow"></span>
+              <span class="w-hero__beam-core"></span>
+              <span class="w-hero__beam-noise"></span>
+            </div>
+
+            <p class="w-hero__word" aria-hidden="true" data-hero-wordmark>
+              <span class="w-hero__word-outline">ПРАЙМ</span>
+              <span class="w-hero__word-ghost">ПРАЙМ</span>
+            </p>
 
             <div class="w-robot-shell" data-robot-shell>
               <div class="w-robot-shell__loader" aria-hidden="true">
@@ -83,7 +92,17 @@ const heroFlanks = {
 
             <div class="w-hero__inner">
               <div class="w-hero__top">
-                <h1>Сайты, которые<br />собирают заявки или удивляют</h1>
+                <h1>
+                  Сайты, которые<br />
+                  <span class="w-hero__rotate" aria-live="polite">
+                    <span
+                      class="w-hero__rotate-word is-in"
+                      data-rotate-word
+                      data-rotate-words="собирают заявки|удивляют|продают|запоминаются"
+                      >собирают заявки</span
+                    >
+                  </span>
+                </h1>
                 <p class="w-hero__lead">
                   Живой 3D и чёткая структура. Лендинги, визитки, корпоративы и
                   магазины — на готовых блоках или с обычной разработкой под задачу.
@@ -122,7 +141,7 @@ const heroFlanks = {
 
               <div class="w-hero__foot">
                 <div class="w-hero__actions">
-                  <a href="#web-cta" class="w-btn w-btn--primary">Оставить заявку</a>
+                  <a href="#web-cta" class="w-btn w-btn--primary" data-ink-btn>Оставить заявку</a>
                   <a href="#spectrum" class="w-btn w-btn--ghost">Смотреть стили</a>
                 </div>
                 <a href="#spectrum" class="w-scroll" aria-label="Дальше">
@@ -212,10 +231,63 @@ const heroFlanks = {
               <h2>{webSpectrum.title}</h2>
               <p>{webSpectrum.lead}</p>
             </div>
-            <div class="w-spectrum">
-              <article class="w-demo w-demo--strict">
-                <p class="w-demo__label">{webSpectrum.strict.label}</p>
-                <div class="w-demo__frame" aria-hidden="true">
+
+            <div class="w-compare" data-compare>
+              <div class="w-compare__stage" data-compare-stage>
+                <div class="w-compare__layer w-compare__layer--live" data-demo-live>
+                  <div class="w-live">
+                    <div class="w-live__mesh" data-live-mesh>
+                      <div class="w-live__mesh-inner"></div>
+                    </div>
+                    <div class="w-live__orb w-live__orb--a" data-depth="0.04"><i></i></div>
+                    <div class="w-live__orb w-live__orb--b" data-depth="0.08"><i></i></div>
+                    <div class="w-live__orb w-live__orb--c" data-depth="0.12"><i></i></div>
+                    <div
+                      class="w-live__float w-live__float--a"
+                      data-float
+                      data-swap-card
+                      data-slot="a"
+                    >
+                      <div class="w-live__float-inner" data-swap-face>
+                        <span data-swap-value>+46%</span>
+                        <small data-swap-label>к заявкам</small>
+                      </div>
+                    </div>
+                    <div
+                      class="w-live__float w-live__float--b"
+                      data-float
+                      data-swap-card
+                      data-slot="b"
+                    >
+                      <div class="w-live__float-inner" data-swap-face>
+                        <span data-swap-value>TOP</span>
+                        <small data-swap-label>в выдаче</small>
+                      </div>
+                    </div>
+                    <div class="w-live__stage" data-live-stage>
+                      <p class="w-live__kicker">Живой блок</p>
+                      <h4 class="w-live__title">Двигайте курсором</h4>
+                      <div class="w-chart" data-chart>
+                        <span style="--h:38%"></span>
+                        <span style="--h:52%"></span>
+                        <span style="--h:44%"></span>
+                        <span style="--h:68%"></span>
+                        <span style="--h:81%"></span>
+                        <span style="--h:96%"></span>
+                      </div>
+                      <div class="w-live__stat">
+                        <strong data-live-count="128">0</strong>
+                        <span>заявок / мес.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="w-compare__layer w-compare__layer--strict"
+                  data-compare-before
+                  style="--compare: 52%"
+                >
                   <div class="w-strict">
                     <header class="w-strict__bar">
                       <strong class="w-strict__logo">ACME · B2B</strong>
@@ -249,57 +321,42 @@ const heroFlanks = {
                     </div>
                   </div>
                 </div>
-                <h3>{webSpectrum.strict.title}</h3>
-                <p>{webSpectrum.strict.text}</p>
-              </article>
 
-              <article class="w-demo w-demo--live">
-                <p class="w-demo__label">{webSpectrum.live.label}</p>
-                <div
-                  class="w-demo__frame w-demo__frame--live"
-                  aria-hidden="true"
-                  data-demo-live
-                >
-                  <div class="w-live">
-                    <div class="w-live__mesh" data-live-mesh>
-                      <div class="w-live__mesh-inner"></div>
-                    </div>
-                    <div class="w-live__orb w-live__orb--a" data-depth="0.04"><i></i></div>
-                    <div class="w-live__orb w-live__orb--b" data-depth="0.08"><i></i></div>
-                    <div class="w-live__orb w-live__orb--c" data-depth="0.12"><i></i></div>
-                    <div class="w-live__float w-live__float--a" data-float>
-                      <div class="w-live__float-inner">
-                        <span>+46%</span>
-                        <small>к заявкам</small>
-                      </div>
-                    </div>
-                    <div class="w-live__float w-live__float--b" data-float>
-                      <div class="w-live__float-inner">
-                        <span>TOP</span>
-                        <small>в выдаче</small>
-                      </div>
-                    </div>
-                    <div class="w-live__stage" data-live-stage>
-                      <p class="w-live__kicker">Живой блок</p>
-                      <h4 class="w-live__title">Двигайте курсором</h4>
-                      <div class="w-chart" data-chart>
-                        <span style="--h:38%"></span>
-                        <span style="--h:52%"></span>
-                        <span style="--h:44%"></span>
-                        <span style="--h:68%"></span>
-                        <span style="--h:81%"></span>
-                        <span style="--h:96%"></span>
-                      </div>
-                      <div class="w-live__stat">
-                        <strong data-live-count="128">0</strong>
-                        <span>заявок / мес.</span>
-                      </div>
-                    </div>
-                  </div>
+                <div class="w-compare__handle" data-compare-handle style="left: 52%">
+                  <button
+                    type="button"
+                    class="w-compare__knob"
+                    data-compare-knob
+                    role="slider"
+                    aria-valuemin="10"
+                    aria-valuemax="90"
+                    aria-valuenow="52"
+                    aria-label="Сравнить строгий стиль и эффекты"
+                  >
+                    <span aria-hidden="true">↔</span>
+                  </button>
                 </div>
-                <h3>{webSpectrum.live.title}</h3>
-                <p>{webSpectrum.live.text}</p>
-              </article>
+
+                <p class="w-compare__badge w-compare__badge--strict" aria-hidden="true">
+                  {webSpectrum.strict.label}
+                </p>
+                <p class="w-compare__badge w-compare__badge--live" aria-hidden="true">
+                  {webSpectrum.live.label}
+                </p>
+              </div>
+
+              <div class="w-compare__copy">
+                <article>
+                  <p class="w-demo__label w-demo__label--muted">{webSpectrum.strict.label}</p>
+                  <h3>{webSpectrum.strict.title}</h3>
+                  <p>{webSpectrum.strict.text}</p>
+                </article>
+                <article>
+                  <p class="w-demo__label">{webSpectrum.live.label}</p>
+                  <h3>{webSpectrum.live.title}</h3>
+                  <p>{webSpectrum.live.text}</p>
+                </article>
+              </div>
             </div>
           </section>
 
@@ -391,15 +448,32 @@ const heroFlanks = {
                 ))}
               </div>
             </div>
-            <div class="w-platforms">
-              {
-                webPlatforms.map((p) => (
-                  <article>
-                    <h3>{p.name}</h3>
-                    <p>{p.text}</p>
-                  </article>
-                ))
-              }
+
+            <div class="w-rail" data-rail>
+              <div class="w-rail__toolbar">
+                <p class="w-rail__hint">Листайте стек</p>
+                <div class="w-rail__nav">
+                  <button type="button" class="w-rail__btn" data-rail-prev aria-label="Назад">
+                    ←
+                  </button>
+                  <button type="button" class="w-rail__btn" data-rail-next aria-label="Вперёд">
+                    →
+                  </button>
+                </div>
+              </div>
+              <div class="w-rail__viewport" data-rail-viewport>
+                <div class="w-rail__track" data-rail-track>
+                  {
+                    webPlatforms.map((p, i) => (
+                      <article class="w-rail__card" data-rail-card style={`--i:${i}`}>
+                        <span class="w-rail__idx">{String(i + 1).padStart(2, "0")}</span>
+                        <h3>{p.name}</h3>
+                        <p>{p.text}</p>
+                      </article>
+                    ))
+                  }
+                </div>
+              </div>
             </div>
             <div class="w-cms">
               {
@@ -459,17 +533,29 @@ const heroFlanks = {
                         <span>{t}</span>
                       ))}
                     </div>
-                    <a href="#web-cta" class="w-btn w-btn--primary">Обсудить {p.title.toLowerCase()}</a>
+                    <a href="#web-cta" class="w-btn w-btn--primary" data-ink-btn>Обсудить {p.title.toLowerCase()}</a>
                   </div>
                 ))
               }
             </div>
 
             <div class="w-device__stage" aria-hidden="true">
+              <div class="w-device__pulse" data-orbit-pulse>
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+
               <ul class="w-device__orbit">
-                {webDevice.orbit.map((chip) => (
-                  <li>{chip}</li>
-                ))}
+                {
+                  webDevice.orbit.map((chip, i) => (
+                    <li>
+                      <span class="w-device__orbit-ripple"></span>
+                      <span class="w-device__orbit-icon">{["◇", "▣", "◎", "◈", "⬡", "✦", "▣", "◇"][i] ?? "◆"}</span>
+                      <span class="w-device__orbit-label">{chip}</span>
+                    </li>
+                  ))
+                }
               </ul>
 
               {
@@ -481,27 +567,75 @@ const heroFlanks = {
                 ))
               }
 
-              <div class="w-phone" data-phone>
-                <div class="w-phone__bezel">
-                  <div class="w-phone__island"></div>
-                  <div class="w-phone__screen">
-                    {
-                      webProducts.map((p, i) => (
-                        <figure
-                          class:list={["w-phone__slide", i === 0 && "is-active"]}
-                          data-phone-slide={p.id}
-                        >
-                          <img src={p.screen} alt="" loading={i === 0 ? "eager" : "lazy"} />
-                          <figcaption>
-                            <span>{p.badge}</span>
-                            <strong>{p.title}</strong>
-                          </figcaption>
-                        </figure>
-                      ))
-                    }
+              <div class="w-phone-gallery" data-phone-gallery>
+                <div class="w-phone w-phone--ghost w-phone--left">
+                  <div class="w-phone__bezel">
+                    <div class="w-phone__island"></div>
+                    <div class="w-phone__screen">
+                      <img
+                        data-phone-ghost="prev"
+                        src={webProducts[webProducts.length - 1].screen}
+                        alt=""
+                        loading="lazy"
+                      />
+                    </div>
+                    <div class="w-phone__home"></div>
                   </div>
-                  <div class="w-phone__home"></div>
                 </div>
+
+                <div class="w-phone w-phone--ghost w-phone--right">
+                  <div class="w-phone__bezel">
+                    <div class="w-phone__island"></div>
+                    <div class="w-phone__screen">
+                      <img
+                        data-phone-ghost="next"
+                        src={webProducts[1].screen}
+                        alt=""
+                        loading="lazy"
+                      />
+                    </div>
+                    <div class="w-phone__home"></div>
+                  </div>
+                </div>
+
+                <div class="w-phone w-phone--main" data-phone>
+                  <div class="w-phone__bezel">
+                    <div class="w-phone__island"></div>
+                    <div class="w-phone__screen">
+                      {
+                        webProducts.map((p, i) => (
+                          <figure
+                            class:list={["w-phone__slide", i === 0 && "is-active"]}
+                            data-phone-slide={p.id}
+                          >
+                            <img src={p.screen} alt="" loading={i === 0 ? "eager" : "lazy"} />
+                            <figcaption>
+                              <span>{p.badge}</span>
+                              <strong>{p.title}</strong>
+                            </figcaption>
+                          </figure>
+                        ))
+                      }
+                    </div>
+                    <div class="w-phone__home"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="w-device__dots" role="tablist" aria-label="Форматы в телефоне">
+                {
+                  webProducts.map((p, i) => (
+                    <button
+                      type="button"
+                      class:list={["w-device__dot", i === 0 && "is-active"]}
+                      role="tab"
+                      aria-selected={i === 0 ? "true" : "false"}
+                      aria-controls={`device-panel-${p.id}`}
+                      aria-label={p.title}
+                      data-device-dot={i}
+                    />
+                  ))
+                }
               </div>
             </div>
           </section>
@@ -598,7 +732,7 @@ const heroFlanks = {
                   >.
                 </span>
               </label>
-              <button type="submit" class="w-btn w-btn--primary">Отправить заявку</button>
+              <button type="submit" class="w-btn w-btn--primary" data-ink-btn>Отправить заявку</button>
               <p id="web-form-hint" class="w-form-hint" hidden></p>
             </form>
           </section>
