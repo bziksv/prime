@@ -28,6 +28,16 @@ lines.push("");
 lines.push("# Branded Astro 404 (dist/404.html)");
 lines.push("ErrorDocument 404 /404.html");
 lines.push("");
+lines.push("# --- Security headers (keep in generator — file is fully rewritten) ---");
+lines.push("<IfModule mod_headers.c>");
+lines.push("  Header set X-Content-Type-Options \"nosniff\"");
+lines.push("  Header set X-Frame-Options \"SAMEORIGIN\"");
+lines.push("  Header set Referrer-Policy \"strict-origin-when-cross-origin\"");
+lines.push(
+  "  Header set Permissions-Policy \"camera=(), microphone=(), geolocation=(), payment=()\"",
+);
+lines.push("</IfModule>");
+lines.push("");
 lines.push("<IfModule mod_rewrite.c>");
 lines.push("RewriteEngine On");
 lines.push("RewriteBase /");

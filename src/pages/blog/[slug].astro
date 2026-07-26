@@ -23,6 +23,7 @@ import {
 } from "../../data/blog";
 import { blogNewFormatSlugs } from "../../data/blog-migration";
 import { getBlogInteract } from "../../data/blog-interact";
+import { breadcrumbJsonLd } from "../../lib/breadcrumb-jsonld";
 
 export function getStaticPaths() {
   return blogPosts.map((post) => ({ params: { slug: post.slug } }));
@@ -104,6 +105,19 @@ const faqJsonLd =
         })),
       }
     : null;
+
+const postPath = `/blog/${post.slug}/`;
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: "Главная", href: "/" },
+    { label: "Блог", href: "/blog/" },
+    { label: post.title },
+  ],
+  {
+    origin: Astro.site?.origin ?? "https://prime-ltd.su",
+    currentPath: postPath,
+  },
+);
 ---
 
 <!doctype html>
@@ -116,7 +130,7 @@ const faqJsonLd =
     <SiteSeo
       title={pageTitle}
       description={post.excerpt}
-      path={`/blog/${post.slug}/`}
+      path={postPath}
       image={coverPath}
       type="article"
     />
@@ -135,6 +149,7 @@ const faqJsonLd =
       rel="stylesheet"
     />
     <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
     {
       faqJsonLd ? (
         <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />

@@ -16,12 +16,26 @@ import {
   getReadingMinutes,
 } from "../../data/blog";
 import { getBlogMigrationProgress } from "../../data/blog-migration";
+import { breadcrumbJsonLd } from "../../lib/breadcrumb-jsonld";
 
 const categories = getBlogCategories();
 const featured = blogPosts[0];
 /** Дашборд миграции только в `astro dev` — на проде (build) не рендерится. */
 const showMigrateDashboard = import.meta.env.DEV;
 const migration = showMigrateDashboard ? getBlogMigrationProgress() : null;
+
+const blogDescription = `Блог ПРАЙМ: ${blogPosts.length} статей про SEO, семантику, контекст, SMM и интернет-маркетинг — практика агентства.`;
+const blogOgImage = (featured?.cover || "").split("?")[0] || undefined;
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: "Главная", href: "/" },
+    { label: "Блог" },
+  ],
+  {
+    origin: Astro.site?.origin ?? "https://prime-ltd.su",
+    currentPath: "/blog/",
+  },
+);
 ---
 
 <!doctype html>
@@ -29,15 +43,13 @@ const migration = showMigrateDashboard ? getBlogMigrationProgress() : null;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Блог ПРАЙМ: статьи про SEO, семантику, контекст и интернет-маркетинг — практика агентства."
-    />
+    <meta name="description" content={blogDescription} />
     <title>Блог — ПРАЙМ</title>
     <SiteSeo
       title="Блог — ПРАЙМ"
-      description="Блог ПРАЙМ: статьи про SEO, семантику, контекст и интернет-маркетинг — практика агентства."
+      description={blogDescription}
       path="/blog/"
+      image={blogOgImage}
     />
     <link
       rel="alternate"
@@ -53,6 +65,7 @@ const migration = showMigrateDashboard ? getBlogMigrationProgress() : null;
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
   </head>
   <body>
     <div class="v6-app">

@@ -4,6 +4,7 @@ import CookieConsent from "../components/CookieConsent.astro";
 import CookieFooterNotice from "../components/CookieFooterNotice.astro";
 import SiteSeo from "../components/SiteSeo.astro";
 import { v6Icons } from "../data/v6-media";
+import { breadcrumbJsonLd } from "../lib/breadcrumb-jsonld";
 
 interface Props {
   title: string;
@@ -24,6 +25,11 @@ const {
   ctaHref = "/kontakty/",
   ctaLabel = "Оставить заявку",
 } = Astro.props;
+
+const crumbsLd = breadcrumbJsonLd(breadcrumb, {
+  origin: Astro.site?.origin ?? "https://prime-ltd.su",
+  currentPath: path,
+});
 ---
 
 <!doctype html>
@@ -34,6 +40,7 @@ const {
     <meta name="description" content={description} />
     <title>{title}</title>
     <SiteSeo title={title} description={description} path={path} image={image} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
