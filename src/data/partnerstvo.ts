@@ -131,7 +131,7 @@ export const partnerCases = [
     name: "Моторленд",
     tag: "Автосалон",
     image: "/images/v6/partner-cases/motorland.jpg",
-    href: "/keysy/seo/motorland-kuzov/",
+    href: "/keysy/seo/motor-lend-nissan/",
   },
 ] as const;
 
