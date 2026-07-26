@@ -113,16 +113,7 @@ const serviceLd = serviceJsonLd({
 
         <div class="v6-content v6-content--web">
           <section class="w-hero" data-web-hero>
-            <div class="w-hero__beam" aria-hidden="true" data-hero-beam>
-              <span class="w-hero__beam-glow"></span>
-              <span class="w-hero__beam-core"></span>
-              <span class="w-hero__beam-noise"></span>
-            </div>
-
-            <p class="w-hero__word" aria-hidden="true" data-hero-wordmark>
-              <span class="w-hero__word-outline">ПРАЙМ</span>
-              <span class="w-hero__word-ghost">ПРАЙМ</span>
-            </p>
+            <p class="w-hero__word" aria-hidden="true">ПРАЙМ</p>
 
             <div class="w-robot-shell" data-robot-shell>
               <div class="w-robot-shell__loader" aria-hidden="true">
@@ -218,7 +209,10 @@ const serviceLd = serviceJsonLd({
                 </div>
                 <div class="w-proof__meter" aria-hidden="true">
                   <div class="w-proof__meter-track">
-                    <span class="w-proof__meter-fill" data-meter={webProof.hero.meterBase}></span>
+                    <span
+                      class="w-proof__meter-fill"
+                      style={`--meter-pct: ${webProof.hero.meterBase}%`}
+                    ></span>
                   </div>
                   <div class="w-proof__meter-labels">
                     <span>шаблонная база · {webProof.hero.meterBase}%</span>
@@ -277,9 +271,54 @@ const serviceLd = serviceJsonLd({
               <p>{webSpectrum.lead}</p>
             </div>
 
-            <div class="w-compare" data-compare>
-              <div class="w-compare__stage" data-compare-stage>
-                <div class="w-compare__layer w-compare__layer--live" data-demo-live>
+            <div class="w-spectrum">
+              <article class="w-demo w-demo--strict">
+                <p class="w-demo__label w-demo__label--muted">{webSpectrum.strict.label}</p>
+                <div class="w-demo__frame" aria-hidden="true">
+                  <div class="w-strict">
+                    <header class="w-strict__bar">
+                      <strong class="w-strict__logo">ACME · B2B</strong>
+                      <nav>
+                        <span>О нас</span>
+                        <span>Услуги</span>
+                        <span>Контакты</span>
+                      </nav>
+                    </header>
+                    <div class="w-strict__hero">
+                      <p class="w-strict__kicker">Корпоративный сайт</p>
+                      <h4>Промышленные поставки<br />без лишнего шума</h4>
+                      <p class="w-strict__lead">
+                        Чёткая структура. Спокойная типографика. Никакой анимации.
+                      </p>
+                      <span class="w-strict__btn">Оставить заявку</span>
+                    </div>
+                    <div class="w-strict__row">
+                      <div>
+                        <em>01</em>
+                        <span>Аудит</span>
+                      </div>
+                      <div>
+                        <em>02</em>
+                        <span>Поставка</span>
+                      </div>
+                      <div>
+                        <em>03</em>
+                        <span>Сервис</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h3>{webSpectrum.strict.title}</h3>
+                <p>{webSpectrum.strict.text}</p>
+              </article>
+
+              <article class="w-demo w-demo--live">
+                <p class="w-demo__label">{webSpectrum.live.label}</p>
+                <div
+                  class="w-demo__frame w-demo__frame--live"
+                  aria-hidden="true"
+                  data-demo-live
+                >
                   <div class="w-live">
                     <div class="w-live__mesh" data-live-mesh>
                       <div class="w-live__mesh-inner"></div>
@@ -327,81 +366,9 @@ const serviceLd = serviceJsonLd({
                     </div>
                   </div>
                 </div>
-
-                <div
-                  class="w-compare__layer w-compare__layer--strict"
-                  data-compare-before
-                  style="--compare: 52%"
-                >
-                  <div class="w-strict">
-                    <header class="w-strict__bar">
-                      <strong class="w-strict__logo">ACME · B2B</strong>
-                      <nav>
-                        <span>О нас</span>
-                        <span>Услуги</span>
-                        <span>Контакты</span>
-                      </nav>
-                    </header>
-                    <div class="w-strict__hero">
-                      <p class="w-strict__kicker">Корпоративный сайт</p>
-                      <h4>Промышленные поставки<br />без лишнего шума</h4>
-                      <p class="w-strict__lead">
-                        Чёткая структура. Спокойная типографика. Никакой анимации.
-                      </p>
-                      <span class="w-strict__btn">Оставить заявку</span>
-                    </div>
-                    <div class="w-strict__row">
-                      <div>
-                        <em>01</em>
-                        <span>Аудит</span>
-                      </div>
-                      <div>
-                        <em>02</em>
-                        <span>Поставка</span>
-                      </div>
-                      <div>
-                        <em>03</em>
-                        <span>Сервис</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="w-compare__handle" data-compare-handle style="left: 52%">
-                  <button
-                    type="button"
-                    class="w-compare__knob"
-                    data-compare-knob
-                    role="slider"
-                    aria-valuemin="10"
-                    aria-valuemax="90"
-                    aria-valuenow="52"
-                    aria-label="Сравнить строгий стиль и эффекты"
-                  >
-                    <span aria-hidden="true">↔</span>
-                  </button>
-                </div>
-
-                <p class="w-compare__badge w-compare__badge--strict" aria-hidden="true">
-                  {webSpectrum.strict.label}
-                </p>
-                <p class="w-compare__badge w-compare__badge--live" aria-hidden="true">
-                  {webSpectrum.live.label}
-                </p>
-              </div>
-
-              <div class="w-compare__copy">
-                <article>
-                  <p class="w-demo__label w-demo__label--muted">{webSpectrum.strict.label}</p>
-                  <h3>{webSpectrum.strict.title}</h3>
-                  <p>{webSpectrum.strict.text}</p>
-                </article>
-                <article>
-                  <p class="w-demo__label">{webSpectrum.live.label}</p>
-                  <h3>{webSpectrum.live.title}</h3>
-                  <p>{webSpectrum.live.text}</p>
-                </article>
-              </div>
+                <h3>{webSpectrum.live.title}</h3>
+                <p>{webSpectrum.live.text}</p>
+              </article>
             </div>
           </section>
 
