@@ -101,6 +101,7 @@ $brand = lead_clean((string) ($payload['brand'] ?? ''), 120);
 $crm = lead_clean((string) ($payload['crm'] ?? ''), 80);
 $region = lead_clean((string) ($payload['region'] ?? ''), 80);
 $tariff = lead_clean((string) ($payload['tariff'] ?? ''), 80);
+$style = lead_clean((string) ($payload['style'] ?? ''), 120);
 $message = lead_clean((string) ($payload['message'] ?? ''), 2000);
 $page = lead_clean((string) ($payload['page'] ?? ''), 200);
 $source = lead_clean((string) ($payload['source'] ?? ''), 80);
@@ -139,6 +140,7 @@ $lines = [
     "CRM: " . ($crm !== '' ? $crm : '—'),
     "Регион: " . ($region !== '' ? $region : '—'),
     "Тариф: " . ($tariff !== '' ? $tariff : '—'),
+    "Стиль: " . ($style !== '' ? $style : '—'),
     "Страница: " . ($page !== '' ? "https://prime-ltd.su{$page}" : '—'),
     "Источник: " . ($source !== '' ? $source : '—'),
     "IP: {$ip}",
@@ -179,6 +181,7 @@ $logName = $dataDir . '/' . date('Ymd-His') . '-' . substr(hash('sha256', $ip . 
             'crm' => $crm,
             'region' => $region,
             'tariff' => $tariff,
+            'style' => $style,
             'page' => $page,
             'source' => $source,
             'ip' => $ip,

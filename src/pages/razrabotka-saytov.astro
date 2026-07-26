@@ -19,6 +19,7 @@ import {
   webPlatforms,
   webProof,
   webDevice,
+  webFaq,
 } from "../data/web-service";
 
 const webCases = getCasesByCategory("web").slice(0, 4);
@@ -33,6 +34,23 @@ const heroFlanks = {
     text: "Живые эффекты, параллакс и 3D — когда сайт должен запомниться.",
   },
 } as const;
+
+const pageTitle = "Разработка сайтов — ПРАЙМ";
+const pageDescription =
+  "Разработка сайтов: лендинг, мультилендинг, визитка, корпоратив и магазин. Bitrix, Webasyst, WordPress, Next.js, Astro, Laravel, Vue, Node.js, 1С — быстрее и дешевле кастома с нуля.";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: webFaq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
 ---
 
 <!doctype html>
@@ -40,14 +58,11 @@ const heroFlanks = {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Разработка сайтов: лендинг, мультилендинг, визитка, корпоратив и магазин. Bitrix, Webasyst, WordPress, Next.js, Astro, Laravel, Vue, Node.js, 1С — быстрее и дешевле кастома с нуля."
-    />
-    <title>Разработка сайтов — ПРАЙМ</title>
+    <meta name="description" content={pageDescription} />
+    <title>{pageTitle}</title>
     <SiteSeo
-      title="Разработка сайтов — ПРАЙМ"
-      description="Разработка сайтов: лендинг, мультилендинг, визитка, корпоратив и магазин. Bitrix, Webasyst, WordPress, Next.js, Astro, Laravel, Vue, Node.js, 1С — быстрее и дешевле кастома с нуля."
+      title={pageTitle}
+      description={pageDescription}
       path="/razrabotka-saytov/"
     />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
@@ -58,6 +73,7 @@ const heroFlanks = {
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Orbitron:wght@700;800;900&family=Sora:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   </head>
   <body>
     <div class="v6-app">
@@ -677,6 +693,23 @@ const heroFlanks = {
               </section>
             )
           }
+
+          <section class="w-section w-reveal" id="faq">
+            <div class="w-section__head">
+              <h2>Частые вопросы</h2>
+              <p>Шаблоны, сроки, форматы, стек и демо до старта.</p>
+            </div>
+            <div class="w-faq">
+              {
+                webFaq.map((item) => (
+                  <details class="w-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
+          </section>
 
           <section id="web-cta" class="w-cta">
             <div class="w-cta__copy">

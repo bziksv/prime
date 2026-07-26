@@ -8,6 +8,7 @@ type LeadPayload = {
   crm: string;
   region: string;
   tariff: string;
+  style: string;
   message: string;
   page: string;
   source: string;
@@ -111,6 +112,7 @@ export function bindLeadForm(opts: BindLeadFormOptions): void {
       crm: field(fd, "crm"),
       region: regionLabels[regionRaw] || regionRaw,
       tariff: tariffLabels[tariffRaw] || tariffRaw,
+      style: field(fd, "style"),
       message: field(fd, "message"),
       page: location.pathname,
       source,
