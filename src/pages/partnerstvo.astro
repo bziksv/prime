@@ -14,9 +14,29 @@ import {
   partnerStats,
   partnerCases,
   partnerWhy,
+  partnerOutcomes,
+  partnerNos,
+  partnerFaq,
 } from "../data/partnerstvo";
 
 const marquee = [...partnerCases, ...partnerCases];
+
+const pageTitle = "Партнерство — ПРАЙМ";
+const pageDescription =
+  "Партнёрство с ПРАЙМ: рекомендуйте интернет-маркетинг, получайте процент. Прозрачные отчёты, договор и выплаты раз в месяц.";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: partnerFaq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
 ---
 
 <!doctype html>
@@ -24,14 +44,11 @@ const marquee = [...partnerCases, ...partnerCases];
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Партнёрство с ПРАЙМ: рекомендуйте интернет-маркетинг, получайте процент. Прозрачные отчёты, договор и выплаты раз в месяц."
-    />
-    <title>Партнерство — ПРАЙМ</title>
+    <meta name="description" content={pageDescription} />
+    <title>{pageTitle}</title>
     <SiteSeo
-      title="Партнерство — ПРАЙМ"
-      description="Партнёрство с ПРАЙМ: рекомендуйте интернет-маркетинг, получайте процент. Прозрачные отчёты, договор и выплаты раз в месяц."
+      title={pageTitle}
+      description={pageDescription}
       path="/partnerstvo/"
     />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
@@ -42,6 +59,7 @@ const marquee = [...partnerCases, ...partnerCases];
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   </head>
   <body>
     <div class="v6-app">
@@ -186,6 +204,57 @@ const marquee = [...partnerCases, ...partnerCases];
                     <span class="p-stat__label">{s.label}</span>
                     <p class="p-stat__desc">{s.desc}</p>
                   </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="p-section p-reveal">
+            <div class="p-section__head">
+              <h2>Что получаете как партнёр</h2>
+              <p>Доход с рекомендаций — без ведения проектов и «серых» схем.</p>
+            </div>
+            <div class="p-outcomes">
+              {
+                partnerOutcomes.map((item) => (
+                  <article class="p-outcome">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="p-section p-reveal">
+            <div class="p-section__head">
+              <h2>Чего здесь нет</h2>
+              <p>Чтобы партнёрство не путали с MLM и обещаниями «с первого звонка».</p>
+            </div>
+            <div class="p-nos">
+              {
+                partnerNos.map((item) => (
+                  <article class="p-no">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="p-section p-reveal" id="faq">
+            <div class="p-section__head">
+              <h2>Частые вопросы</h2>
+              <p>Кто подходит, как платим и нужно ли вести проект самому.</p>
+            </div>
+            <div class="p-faq">
+              {
+                partnerFaq.map((item) => (
+                  <details class="p-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
                 ))
               }
             </div>
