@@ -12,6 +12,7 @@ import {
   getRelatedCases,
   categoryPath,
 } from "../../../data/cases";
+import { caseJsonLd } from "../../../lib/case-jsonld";
 
 export function getStaticPaths() {
   return caseStudies.map((c) => ({
@@ -49,12 +50,23 @@ const nJourney = String(chapter++).padStart(2, "0");
 const nPlain = item.plainSpeak?.length ? String(chapter++).padStart(2, "0") : null;
 const nSteps = item.sections?.length ? String(chapter++).padStart(2, "0") : null;
 const nOutcome = String(chapter++).padStart(2, "0");
+
+const pagePath = casePath(item);
+const pageDescription = `${item.metric} ${item.metricLabel}. ${item.summary}`;
+const caseLd = caseJsonLd({
+  name: item.title,
+  description: pageDescription,
+  path: pagePath,
+  image: item.cover,
+  client: item.client,
+  origin: Astro.site?.origin ?? "https://prime-ltd.su",
+});
 ---
 
 <CasesLayout
   title={`${item.title} — кейс ПРАЙМ`}
-  description={`${item.metric} ${item.metricLabel}. ${item.summary}`}
-  path={casePath(item)}
+  description={pageDescription}
+  path={pagePath}
   image={item.cover}
   breadcrumb={[
     { label: "Главная", href: "/" },
@@ -63,6 +75,7 @@ const nOutcome = String(chapter++).padStart(2, "0");
     { label: item.client },
   ]}
 >
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(caseLd)} />
   <article class="k-case k-case--story" style={`--k-accent:${cat.accent}`}>
     <header class="k-case-head k-case-head--visual k-reveal">
       <div class="k-case-head__copy">

@@ -1,8 +1,8 @@
 # =============================================================================
 # prime-ltd.su — generated redirects (do not edit by hand)
-# Source: src/data/blog-redirects.json
+# Source: src/data/blog-redirects.json + cases-redirects.json
 # Regenerate: node scripts/generate-blog-htaccess.mjs
-# Posts: 830 · Pages: 11
+# Posts: 830 · Pages: 11 · Projects: 42
 # =============================================================================
 
 # Branded Astro 404 (dist/404.html)
@@ -38,6 +38,50 @@ RewriteRule ^feed/?$ /blog/rss.xml [R=301,L]
 RewriteRule ^blog/feed/?$ /blog/rss.xml [R=301,L]
 RewriteRule ^sitemap\.xml/?$ /sitemap-index.xml [R=301,L]
 RewriteRule ^sitemap_index\.xml/?$ /sitemap-index.xml [R=301,L]
+
+# --- Legacy WP portfolio: /project/{slug}/ → /keysy/... ---
+RewriteRule ^project/razrabotka-sajta-insortex-ru/?$ /keysy/web/insortex/ [R=301,L]
+RewriteRule ^project/modernizatsiya-torgmagvrn-ru/?$ /keysy/web/torgmag/ [R=301,L]
+RewriteRule ^project/dorabotka-internet-magazina-santehniki-polimer/?$ /keysy/web/polimer/ [R=301,L]
+RewriteRule ^project/dorabotka-internet-magazina-meditsinskoy-tehniki-almamed/?$ /keysy/web/almamed/ [R=301,L]
+RewriteRule ^project/razrabotka-novogo-sayta-argument/?$ /keysy/web/argument/ [R=301,L]
+RewriteRule ^project/obnovlenie-internet-magazina-hobbi36/?$ /keysy/web/hobbi36/ [R=301,L]
+RewriteRule ^project/razrabotka-novogo-saita-metallinvest/?$ /keysy/web/metallinvest/ [R=301,L]
+RewriteRule ^project/razrabotka-lendinga-nissan/?$ /keysy/web/nissan-landing/ [R=301,L]
+RewriteRule ^project/razrabotka-saita-kawe/?$ /keysy/web/kawe/ [R=301,L]
+RewriteRule ^project/razrabotka-sayta-kargo24-su/?$ /keysy/web/kargo24/ [R=301,L]
+RewriteRule ^project/kuzovnoy-tseh-motor-lend/?$ /keysy/seo/motorland-kuzov/ [R=301,L]
+RewriteRule ^project/voronezhvtorma-neobyichnyiy-sposob-reklamyi-pererabatyivayushhego-predpriyatiya/?$ /keysy/seo/vtorma/ [R=301,L]
+RewriteRule ^project/prodvizhenie-sayta-kabelmontazh/?$ /keysy/seo/kabelmontazh/ [R=301,L]
+RewriteRule ^project/fortuna-avto-kontekst/?$ /keysy/ads/fortuna-avto/ [R=301,L]
+RewriteRule ^project/rc-revolt/?$ /keysy/seo/rc-revolt/ [R=301,L]
+RewriteRule ^project/det-zentr/?$ /keysy/seo/det-zentr/ [R=301,L]
+RewriteRule ^project/bel-kuzov/?$ /keysy/seo/bel-kuzov/ [R=301,L]
+RewriteRule ^project/himopttorg/?$ /keysy/seo/himopttorg/ [R=301,L]
+RewriteRule ^project/argument/?$ /keysy/seo/argument-seo/ [R=301,L]
+RewriteRule ^project/skazka/?$ /keysy/seo/skazka/ [R=301,L]
+RewriteRule ^project/barokko/?$ /keysy/seo/barokko/ [R=301,L]
+RewriteRule ^project/respect/?$ /keysy/seo/respect/ [R=301,L]
+RewriteRule ^project/hobby36/?$ /keysy/seo/hobby36/ [R=301,L]
+RewriteRule ^project/volvo-belgorod/?$ /keysy/seo/volvo-belgorod/ [R=301,L]
+RewriteRule ^project/mychery/?$ /keysy/seo/mychery/ [R=301,L]
+RewriteRule ^project/greenstroy36/?$ /keysy/seo/greenstroy36/ [R=301,L]
+RewriteRule ^project/remont/?$ /keysy/seo/remont/ [R=301,L]
+RewriteRule ^project/klyaksa/?$ /keysy/seo/klyaksa/ [R=301,L]
+RewriteRule ^project/samsungvrn/?$ /keysy/seo/samsungvrn/ [R=301,L]
+RewriteRule ^project/ticiana/?$ /keysy/seo/ticiana/ [R=301,L]
+RewriteRule ^project/metallinvest/?$ /keysy/seo/metallinvest-seo/ [R=301,L]
+RewriteRule ^project/derevyannyie-izdeliya-ruchnoy-rabotyi-maksimum-klientov-iz-interneta/?$ /keysy/seo/derevyannyie-izdeliya/ [R=301,L]
+RewriteRule ^project/privlechenie-klientov-dlya-kompanii-ooo-polimer/?$ /keysy/seo/polimer-seo/ [R=301,L]
+RewriteRule ^project/uc-vrn/?$ /keysy/seo/uc-vrn/ [R=301,L]
+RewriteRule ^project/volvo-prodvizheniya-shvedskogo-avtoproma-v-chernozeme/?$ /keysy/seo/volvo-chernozeme/ [R=301,L]
+RewriteRule ^project/ofisy/?$ /keysy/ads/ofisy/ [R=301,L]
+RewriteRule ^project/torgmag/?$ /keysy/web/torgmag/ [R=301,L]
+RewriteRule ^project/milk-for/?$ /keysy/seo/milk-for/ [R=301,L]
+RewriteRule ^project/privlechenie-klientov-iz-poiska-dlya-bazyi-pilomaterialov/?$ /keysy/seo/pilomaterialov/ [R=301,L]
+RewriteRule ^project/kontekstnaya-reklama-dlya-ehk-kovanyie-izdeliya/?$ /keysy/ads/ehk-kovanyie/ [R=301,L]
+RewriteRule ^project/jeep-moshhnoe-prodvizhenie-dlya-moshhnogo-brenda/?$ /keysy/seo/jeep/ [R=301,L]
+RewriteRule ^project/motor-lend-nissan/?$ /keysy/seo/motor-lend-nissan/ [R=301,L]
 
 # --- Blog posts: /{category}/{wp-slug}/ and /{wp-slug}/ → /blog/{astro}/ ---
 # Categories: blog|seo-poleznosti|internet-marketing|smm|media-servisyi|kontent-marketing|kontekstnaya-reklama|prodvizhenie-po-tematikam-biznesa|e-mail-marketing|prodvizhenie-v-kartah-i-spravochnikah|bez-rubriki|nashi-servisy

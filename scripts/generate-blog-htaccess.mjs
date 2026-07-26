@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 /**
- * Generates public/.htaccess 301 rules from src/data/blog-redirects.json
+ * Generates public/.htaccess 301 rules from:
+ *   - src/data/blog-redirects.json
+ *   - src/data/cases-redirects.json (/project/{slug}/)
  * Run: node scripts/generate-blog-htaccess.mjs
  */
 import { readFileSync, writeFileSync } from "node:fs";
@@ -11,6 +13,9 @@ const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const data = JSON.parse(
   readFileSync(join(root, "src/data/blog-redirects.json"), "utf8"),
 );
+const casesData = JSON.parse(
+  readFileSync(join(root, "src/data/cases-redirects.json"), "utf8"),
+);
 
 const cats = (data.wpCategories || [])
   .map((c) => c.replace(/[^a-z0-9_-]/gi, ""))
@@ -20,9 +25,11 @@ const catGroup = cats.join("|");
 const lines = [];
 lines.push("# =============================================================================");
 lines.push("# prime-ltd.su — generated redirects (do not edit by hand)");
-lines.push("# Source: src/data/blog-redirects.json");
+lines.push("# Source: src/data/blog-redirects.json + cases-redirects.json");
 lines.push("# Regenerate: node scripts/generate-blog-htaccess.mjs");
-lines.push(`# Posts: ${data.posts.length} · Pages: ${(data.pages || []).length}`);
+lines.push(
+  `# Posts: ${data.posts.length} · Pages: ${(data.pages || []).length} · Projects: ${(casesData.projects || []).length}`,
+);
 lines.push("# =============================================================================");
 lines.push("");
 lines.push("# Branded Astro 404 (dist/404.html)");
@@ -63,6 +70,20 @@ for (const page of data.pages || []) {
   lines.push(`RewriteRule ^${esc}/?$ ${to} [R=301,L]`);
 }
 lines.push("");
+lines.push("# --- Legacy WP portfolio: /project/{slug}/ → /keysy/... ---");
+const seenProjects = new Set();
+for (const project of casesData.projects || []) {
+  const from = String(project.from || "")
+    .replace(/^\//, "")
+    .replace(/\/$/, "")
+    .replace(/^project\//, "");
+  const to = project.to;
+  if (!from || !to || seenProjects.has(from)) continue;
+  seenProjects.add(from);
+  const esc = from.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  lines.push(`RewriteRule ^project/${esc}/?$ ${to} [R=301,L]`);
+}
+lines.push("");
 lines.push("# --- Blog posts: /{category}/{wp-slug}/ and /{wp-slug}/ → /blog/{astro}/ ---");
 lines.push(`# Categories: ${catGroup}`);
 for (const post of data.posts) {
@@ -97,4 +118,6 @@ lines.push("");
 
 const outPath = join(root, "public/.htaccess");
 writeFileSync(outPath, lines.join("\n"), "utf8");
-console.log(`Wrote ${outPath} (${data.posts.length} posts, ${(data.pages || []).length} pages)`);
+console.log(
+  `Wrote ${outPath} (${data.posts.length} posts, ${(data.pages || []).length} pages, ${seenProjects.size} projects)`,
+);

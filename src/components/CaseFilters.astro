@@ -10,13 +10,20 @@ const { active = "all" } = Astro.props;
 ---
 
 <nav class="k-filters" aria-label="Категории кейсов">
-  <a href="/keysy/" class:list={["k-filter", active === "all" && "is-active"]}>Все кейсы</a>
+  <a
+    href="/keysy/"
+    class:list={["k-filter", active === "all" && "is-active"]}
+    aria-current={active === "all" ? "page" : undefined}
+  >
+    Все кейсы
+  </a>
   {
     caseCategories.map((c) => (
       <a
         href={categoryPath(c.id)}
         class:list={["k-filter", active === c.id && "is-active"]}
         style={`--k-accent:${c.accent}`}
+        aria-current={active === c.id ? "page" : undefined}
       >
         {c.title}
       </a>

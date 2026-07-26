@@ -46,7 +46,11 @@ const navBottom = [
   <nav class="v6-nav">
     {
       navTop.map((item) => (
-        <a href={item.href} class={active === item.key ? "is-active" : undefined}>
+        <a
+          href={item.href}
+          class={active === item.key ? "is-active" : undefined}
+          aria-current={active === item.key ? "page" : undefined}
+        >
           {item.label}
         </a>
       ))
@@ -55,7 +59,11 @@ const navBottom = [
       <summary>Наши услуги</summary>
       <div class="v6-nav__sub">
         {services.map((s) => (
-          <a href={s.href} class={serviceActive === s.key ? "is-active" : undefined}>
+          <a
+            href={s.href}
+            class={serviceActive === s.key ? "is-active" : undefined}
+            aria-current={serviceActive === s.key ? "page" : undefined}
+          >
             {s.title}
           </a>
         ))}
@@ -63,7 +71,11 @@ const navBottom = [
     </details>
     {
       navBottom.map((item) => (
-        <a href={item.href} class={active === item.key ? "is-active" : undefined}>
+        <a
+          href={item.href}
+          class={active === item.key ? "is-active" : undefined}
+          aria-current={active === item.key ? "page" : undefined}
+        >
           {item.label}
         </a>
       ))
