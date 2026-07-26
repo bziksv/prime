@@ -15,6 +15,25 @@ const isLightBg = (bg: string) => {
   return luma > 0.55;
 };
 
+const labelTextFor = (select: HTMLSelectElement): string => {
+  if (select.getAttribute("aria-label")) {
+    return select.getAttribute("aria-label")!.trim();
+  }
+  if (select.id) {
+    const byFor = document.querySelector(`label[for="${CSS.escape(select.id)}"]`);
+    if (byFor?.textContent?.trim()) return byFor.textContent.trim();
+  }
+  const wrapLabel = select.closest("label");
+  if (wrapLabel) {
+    const clone = wrapLabel.cloneNode(true) as HTMLElement;
+    clone.querySelectorAll("select, input, textarea, button").forEach((el) => el.remove());
+    const t = clone.textContent?.trim();
+    if (t) return t;
+  }
+  const first = select.options[0]?.textContent?.trim();
+  return first || "Выберите значение";
+};
+
 const enhanceSelect = (select: HTMLSelectElement) => {
   if (select.dataset.primeSelect === "off") return;
   if (select.closest("[data-prime-select-ui]")) return;
@@ -42,11 +61,18 @@ const enhanceSelect = (select: HTMLSelectElement) => {
   const light = isLightBg(cs.backgroundColor);
   if (light) wrap.classList.add("prime-select--light");
 
+  const menuId = `${select.id || `prime-select-${Math.random().toString(36).slice(2, 8)}`}-listbox`;
+  const triggerId = select.id ? `${select.id}-trigger` : `${menuId}-trigger`;
+
   const trigger = document.createElement("button");
   trigger.type = "button";
+  trigger.id = triggerId;
   trigger.className = "prime-select__trigger";
   trigger.setAttribute("aria-haspopup", "listbox");
   trigger.setAttribute("aria-expanded", "false");
+  trigger.setAttribute("aria-controls", menuId);
+  trigger.setAttribute("aria-label", labelTextFor(select));
+  if (select.required) trigger.setAttribute("aria-required", "true");
   trigger.style.padding = cs.padding;
   trigger.style.borderRadius = cs.borderRadius;
   trigger.style.border = cs.border;
@@ -56,19 +82,49 @@ const enhanceSelect = (select: HTMLSelectElement) => {
   trigger.style.minHeight = cs.height === "auto" ? "" : cs.height;
   trigger.style.boxShadow = cs.boxShadow;
 
+  if (select.id) {
+    document.querySelectorAll(`label[for="${CSS.escape(select.id)}"]`).forEach((label) => {
+      label.setAttribute("for", triggerId);
+    });
+  }
+
   const menu = document.createElement("ul");
+  menu.id = menuId;
   menu.className = "prime-select__menu";
   menu.hidden = true;
   menu.setAttribute("role", "listbox");
+  menu.setAttribute("tabindex", "-1");
+
+  const optionButtons = () =>
+    [...menu.querySelectorAll<HTMLButtonElement>(".prime-select__option")];
 
   const sync = () => {
     const opt = select.options[select.selectedIndex];
     const label = opt?.textContent?.trim() || "";
     trigger.textContent = label;
     trigger.classList.toggle("is-placeholder", !select.value);
-    menu.querySelectorAll<HTMLButtonElement>(".prime-select__option").forEach((btn) => {
-      btn.classList.toggle("is-active", btn.dataset.value === select.value);
+    trigger.setAttribute("aria-invalid", select.validity.valid ? "false" : "true");
+    optionButtons().forEach((btn) => {
+      const active = btn.dataset.value === select.value;
+      btn.classList.toggle("is-active", active);
+      btn.setAttribute("aria-selected", active ? "true" : "false");
     });
+  };
+
+  const focusOption = (index: number) => {
+    const buttons = optionButtons();
+    if (!buttons.length) return;
+    const i = ((index % buttons.length) + buttons.length) % buttons.length;
+    buttons[i]?.focus();
+  };
+
+  const selectValue = (value: string) => {
+    select.value = value;
+    select.dispatchEvent(new Event("change", { bubbles: true }));
+    select.dispatchEvent(new Event("input", { bubbles: true }));
+    sync();
+    close();
+    trigger.focus();
   };
 
   [...select.options].forEach((opt) => {
@@ -80,13 +136,8 @@ const enhanceSelect = (select: HTMLSelectElement) => {
     btn.setAttribute("role", "option");
     btn.dataset.value = opt.value;
     btn.textContent = opt.textContent;
-    btn.addEventListener("click", () => {
-      select.value = opt.value;
-      select.dispatchEvent(new Event("change", { bubbles: true }));
-      sync();
-      close();
-      trigger.focus();
-    });
+    btn.disabled = opt.disabled;
+    btn.addEventListener("click", () => selectValue(opt.value));
     li.appendChild(btn);
     menu.appendChild(li);
   });
@@ -97,7 +148,7 @@ const enhanceSelect = (select: HTMLSelectElement) => {
     trigger.setAttribute("aria-expanded", "false");
   };
 
-  const open = () => {
+  const open = (focusIndex?: number) => {
     document.querySelectorAll(".prime-select.is-open").forEach((el) => {
       if (el === wrap) return;
       el.classList.remove("is-open");
@@ -109,11 +160,58 @@ const enhanceSelect = (select: HTMLSelectElement) => {
     wrap.classList.add("is-open");
     menu.hidden = false;
     trigger.setAttribute("aria-expanded", "true");
+    const buttons = optionButtons();
+    const activeIdx = buttons.findIndex((b) => b.dataset.value === select.value);
+    focusOption(focusIndex ?? (activeIdx >= 0 ? activeIdx : 0));
   };
 
   trigger.addEventListener("click", () => {
     if (menu.hidden) open();
     else close();
+  });
+
+  trigger.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault();
+      if (menu.hidden) open(e.key === "ArrowUp" ? optionButtons().length - 1 : 0);
+      else focusOption(e.key === "ArrowDown" ? 0 : optionButtons().length - 1);
+    } else if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      if (menu.hidden) open();
+      else close();
+    } else if (e.key === "Escape") {
+      close();
+    }
+  });
+
+  menu.addEventListener("keydown", (e) => {
+    const buttons = optionButtons();
+    const current = buttons.indexOf(document.activeElement as HTMLButtonElement);
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      focusOption(current + 1);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      focusOption(current - 1);
+    } else if (e.key === "Home") {
+      e.preventDefault();
+      focusOption(0);
+    } else if (e.key === "End") {
+      e.preventDefault();
+      focusOption(buttons.length - 1);
+    } else if (e.key === "Escape") {
+      e.preventDefault();
+      close();
+      trigger.focus();
+    } else if (e.key === "Tab") {
+      close();
+    }
+  });
+
+  select.addEventListener("invalid", (e) => {
+    e.preventDefault();
+    sync();
+    trigger.focus();
   });
 
   wrap.addEventListener(SYNC, sync);
@@ -125,7 +223,10 @@ const enhanceSelect = (select: HTMLSelectElement) => {
   });
 
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") close();
+    if (e.key === "Escape" && wrap.classList.contains("is-open")) {
+      close();
+      trigger.focus();
+    }
   });
 };
 

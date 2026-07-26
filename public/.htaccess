@@ -2,7 +2,7 @@
 # prime-ltd.su — generated redirects (do not edit by hand)
 # Source: src/data/blog-redirects.json
 # Regenerate: node scripts/generate-blog-htaccess.mjs
-# Posts: 830 · Pages: 7
+# Posts: 830 · Pages: 11
 # =============================================================================
 
 # Branded Astro 404 (dist/404.html)
@@ -34,6 +34,10 @@ RewriteRule ^vakansii/?$ /partnerstvo/ [R=301,L]
 RewriteRule ^nashi-servisy/?$ / [R=301,L]
 RewriteRule ^bannernaya-reklama/?$ /kontekstnaya-reklama/ [R=301,L]
 RewriteRule ^integratsiya-s-marketpleysami/?$ /razrabotka-saytov/ [R=301,L]
+RewriteRule ^feed/?$ /blog/rss.xml [R=301,L]
+RewriteRule ^blog/feed/?$ /blog/rss.xml [R=301,L]
+RewriteRule ^sitemap\.xml/?$ /sitemap-index.xml [R=301,L]
+RewriteRule ^sitemap_index\.xml/?$ /sitemap-index.xml [R=301,L]
 
 # --- Blog posts: /{category}/{wp-slug}/ and /{wp-slug}/ → /blog/{astro}/ ---
 # Categories: blog|seo-poleznosti|internet-marketing|smm|media-servisyi|kontent-marketing|kontekstnaya-reklama|prodvizhenie-po-tematikam-biznesa|e-mail-marketing|prodvizhenie-v-kartah-i-spravochnikah|bez-rubriki|nashi-servisy

@@ -5048,6 +5048,22 @@
     {
       "from": "/integratsiya-s-marketpleysami/",
       "to": "/razrabotka-saytov/"
+    },
+    {
+      "from": "/feed/",
+      "to": "/blog/rss.xml"
+    },
+    {
+      "from": "/blog/feed/",
+      "to": "/blog/rss.xml"
+    },
+    {
+      "from": "/sitemap.xml",
+      "to": "/sitemap-index.xml"
+    },
+    {
+      "from": "/sitemap_index.xml",
+      "to": "/sitemap-index.xml"
     }
   ]
 }

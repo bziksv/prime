@@ -19,6 +19,7 @@ import {
   ormPricing,
 } from "../data/orm-service";
 import { breadcrumbJsonLd } from "../lib/breadcrumb-jsonld";
+import { serviceJsonLd } from "../lib/service-jsonld";
 
 const pageTitle = "Управление репутацией — ПРАЙМ";
 const pageDescription =
@@ -47,6 +48,14 @@ const crumbsLd = breadcrumbJsonLd(
   },
 );
 
+const serviceLd = serviceJsonLd({
+  name: "Управление репутацией",
+  description: pageDescription,
+  path: "/upravlenie-reputaciej/",
+  serviceType: "Управление репутацией",
+  origin: Astro.site?.origin ?? "https://prime-ltd.su",
+});
+
 ---
 
 <!doctype html>
@@ -72,6 +81,7 @@ const crumbsLd = breadcrumbJsonLd(
     />
     <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
     <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(serviceLd)} />
   </head>
   <body>
     <div class="v6-app">

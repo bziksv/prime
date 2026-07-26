@@ -22,6 +22,7 @@ import {
   seoFaq,
 } from "../data/seo-service";
 import { breadcrumbJsonLd } from "../lib/breadcrumb-jsonld";
+import { serviceJsonLd } from "../lib/service-jsonld";
 
 const seoCases = getCasesByCategory("seo").slice(0, 4);
 
@@ -74,6 +75,14 @@ const crumbsLd = breadcrumbJsonLd(
     currentPath: "/prodvizhenie-sayta/",
   },
 );
+const serviceLd = serviceJsonLd({
+  name: "Продвижение сайта",
+  description: pageDescription,
+  path: "/prodvizhenie-sayta/",
+  serviceType: "SEO-продвижение сайта",
+  origin: Astro.site?.origin ?? "https://prime-ltd.su",
+});
+
 ---
 
 <!doctype html>
@@ -99,6 +108,7 @@ const crumbsLd = breadcrumbJsonLd(
     />
     <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
     <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(serviceLd)} />
   </head>
   <body>
     <div class="v6-app">

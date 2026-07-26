@@ -20,6 +20,7 @@ import {
   supportFaq,
 } from "../data/support-service";
 import { breadcrumbJsonLd } from "../lib/breadcrumb-jsonld";
+import { serviceJsonLd } from "../lib/service-jsonld";
 
 const maxTariffHours = Math.max(...supportTariffs.map((t) => t.hours));
 
@@ -50,6 +51,14 @@ const crumbsLd = breadcrumbJsonLd(
   },
 );
 
+const serviceLd = serviceJsonLd({
+  name: "Техподдержка сайта",
+  description: pageDescription,
+  path: "/tehpodderzhka-sayta/",
+  serviceType: "Техподдержка сайта",
+  origin: Astro.site?.origin ?? "https://prime-ltd.su",
+});
+
 ---
 
 <!doctype html>
@@ -75,6 +84,7 @@ const crumbsLd = breadcrumbJsonLd(
     />
     <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
     <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(serviceLd)} />
   </head>
   <body>
     <div class="v6-app">

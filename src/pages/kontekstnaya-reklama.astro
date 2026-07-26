@@ -21,6 +21,7 @@ import {
   adsFaq,
 } from "../data/ads-service";
 import { breadcrumbJsonLd } from "../lib/breadcrumb-jsonld";
+import { serviceJsonLd } from "../lib/service-jsonld";
 
 const adsCases = getCasesByCategory("ads").slice(0, 4);
 
@@ -51,6 +52,14 @@ const crumbsLd = breadcrumbJsonLd(
   },
 );
 
+const serviceLd = serviceJsonLd({
+  name: "Контекстная реклама",
+  description: pageDescription,
+  path: "/kontekstnaya-reklama/",
+  serviceType: "Контекстная реклама",
+  origin: Astro.site?.origin ?? "https://prime-ltd.su",
+});
+
 ---
 
 <!doctype html>
@@ -76,6 +85,7 @@ const crumbsLd = breadcrumbJsonLd(
     />
     <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
     <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(serviceLd)} />
   </head>
   <body>
     <div class="v6-app">
