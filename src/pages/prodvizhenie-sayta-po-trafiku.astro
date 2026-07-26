@@ -362,19 +362,47 @@ const faqJsonLd = {
               </div>
             </div>
             <form id="traffic-form" class="t-form">
-              <input type="text" name="name" placeholder="Ваше имя" required />
-              <input type="tel" name="phone" placeholder="Телефон" required />
-              <input type="url" name="site" placeholder="Адрес сайта" required />
-              <select name="region" data-t-region required>
+              <label class="visually-hidden" for="traffic-name">Ваше имя</label>
+              <input
+                id="traffic-name"
+                type="text"
+                name="name"
+                placeholder="Ваше имя"
+                autocomplete="name"
+                required
+              />
+              <label class="visually-hidden" for="traffic-phone">Телефон</label>
+              <input
+                id="traffic-phone"
+                type="tel"
+                name="phone"
+                placeholder="Телефон"
+                autocomplete="tel"
+                required
+              />
+              <label class="visually-hidden" for="traffic-site">Адрес сайта</label>
+              <input
+                id="traffic-site"
+                type="url"
+                name="site"
+                placeholder="Адрес сайта"
+                autocomplete="url"
+                required
+              />
+              <label class="visually-hidden" for="traffic-region">Регион продвижения</label>
+              <select id="traffic-region" name="region" data-t-region required>
                 <option value="" disabled>Регион продвижения</option>
                 <option value="region">Регионы РФ · от 3 ₽</option>
                 <option value="capital" selected>Москва / СПб · от 5 ₽</option>
                 <option value="multi">Несколько регионов</option>
               </select>
+              <label class="visually-hidden" for="traffic-message">Ниша и трафик</label>
               <textarea
+                id="traffic-message"
                 name="message"
                 rows="3"
-                placeholder="Ниша и примерно какой трафик хотите"></textarea>
+                placeholder="Ниша и примерно какой трафик хотите"
+              ></textarea>
               <label class="t-form__check">
                 <input type="checkbox" name="agree" required />
                 <span>

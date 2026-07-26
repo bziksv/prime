@@ -396,19 +396,54 @@ const faqJsonLd = {
             </div>
             <form id="audit-form" class="u-form">
               <div class="u-form__row">
-                <input type="text" name="name" placeholder="Ваше имя" required />
-                <input type="tel" name="phone" placeholder="Телефон" required />
+                <div>
+                  <label class="visually-hidden" for="audit-name">Ваше имя</label>
+                  <input
+                    id="audit-name"
+                    type="text"
+                    name="name"
+                    placeholder="Ваше имя"
+                    autocomplete="name"
+                    required
+                  />
+                </div>
+                <div>
+                  <label class="visually-hidden" for="audit-phone">Телефон</label>
+                  <input
+                    id="audit-phone"
+                    type="tel"
+                    name="phone"
+                    placeholder="Телефон"
+                    autocomplete="tel"
+                    required
+                  />
+                </div>
               </div>
               <div class="u-form__row">
-                <input type="url" name="site" placeholder="Адрес сайта" required />
-                <select name="type">
-                  <option value="">Тип аудита</option>
-                  <option>Бесплатный мини-аудит</option>
-                  <option>Комплексный платный</option>
-                  <option>Оценить SEO-подрядчика</option>
-                </select>
+                <div>
+                  <label class="visually-hidden" for="audit-site">Адрес сайта</label>
+                  <input
+                    id="audit-site"
+                    type="url"
+                    name="site"
+                    placeholder="Адрес сайта"
+                    autocomplete="url"
+                    required
+                  />
+                </div>
+                <div>
+                  <label class="visually-hidden" for="audit-type">Тип аудита</label>
+                  <select id="audit-type" name="type">
+                    <option value="">Тип аудита</option>
+                    <option>Бесплатный мини-аудит</option>
+                    <option>Комплексный платный</option>
+                    <option>Оценить SEO-подрядчика</option>
+                  </select>
+                </div>
               </div>
+              <label class="visually-hidden" for="audit-message">Что беспокоит</label>
               <textarea
+                id="audit-message"
                 name="message"
                 rows="3"
                 placeholder="Что беспокоит: трафик, заявки, позиции?"

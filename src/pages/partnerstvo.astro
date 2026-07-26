@@ -273,17 +273,47 @@ const faqJsonLd = {
               </div>
             </div>
             <form id="partner-form" class="p-form">
-              <input type="text" name="name" placeholder="Ваше имя" required />
-              <input type="tel" name="phone" placeholder="Телефон" required />
-              <input type="email" name="email" placeholder="Email" />
-              <select name="type">
+              <label class="visually-hidden" for="partner-name">Ваше имя</label>
+              <input
+                id="partner-name"
+                type="text"
+                name="name"
+                placeholder="Ваше имя"
+                autocomplete="name"
+                required
+              />
+              <label class="visually-hidden" for="partner-phone">Телефон</label>
+              <input
+                id="partner-phone"
+                type="tel"
+                name="phone"
+                placeholder="Телефон"
+                autocomplete="tel"
+                required
+              />
+              <label class="visually-hidden" for="partner-email">Email</label>
+              <input
+                id="partner-email"
+                type="email"
+                name="email"
+                placeholder="Email"
+                autocomplete="email"
+              />
+              <label class="visually-hidden" for="partner-type">Формат сотрудничества</label>
+              <select id="partner-type" name="type">
                 <option value="">Формат сотрудничества</option>
                 <option>Рекомендации клиентов</option>
                 <option>Агентство / подрядчик</option>
                 <option>Фриланс / консультант</option>
                 <option>Другое</option>
               </select>
-              <textarea name="message" rows="3" placeholder="Коротко о себе и аудитории"></textarea>
+              <label class="visually-hidden" for="partner-message">О себе и аудитории</label>
+              <textarea
+                id="partner-message"
+                name="message"
+                rows="3"
+                placeholder="Коротко о себе и аудитории"
+              ></textarea>
               <label class="p-form__check">
                 <input type="checkbox" name="agree" required />
                 <span>

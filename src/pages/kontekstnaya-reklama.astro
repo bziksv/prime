@@ -334,23 +334,54 @@ const faqJsonLd = {
               </div>
             </div>
             <form id="ads-form" class="a-form">
-              <input type="text" name="name" placeholder="Ваше имя" required />
-              <input type="tel" name="phone" placeholder="Телефон" required />
-              <input type="url" name="site" placeholder="Адрес сайта" />
-              <select name="system">
+              <label class="visually-hidden" for="ads-name">Ваше имя</label>
+              <input
+                id="ads-name"
+                type="text"
+                name="name"
+                placeholder="Ваше имя"
+                autocomplete="name"
+                required
+              />
+              <label class="visually-hidden" for="ads-phone">Телефон</label>
+              <input
+                id="ads-phone"
+                type="tel"
+                name="phone"
+                placeholder="Телефон"
+                autocomplete="tel"
+                required
+              />
+              <label class="visually-hidden" for="ads-site">Адрес сайта</label>
+              <input
+                id="ads-site"
+                type="url"
+                name="site"
+                placeholder="Адрес сайта"
+                autocomplete="url"
+              />
+              <label class="visually-hidden" for="ads-system">Рекламная система</label>
+              <select id="ads-system" name="system">
                 <option value="">Интересует</option>
                 <option>Яндекс.Директ</option>
                 <option>Google Ads</option>
                 <option>Обе системы</option>
               </select>
-              <select name="budget">
+              <label class="visually-hidden" for="ads-budget">Медиабюджет в месяц</label>
+              <select id="ads-budget" name="budget">
                 <option value="">Медиабюджет в месяц</option>
                 <option>до 100 000 ₽</option>
                 <option>100–300 000 ₽</option>
                 <option>свыше 300 000 ₽</option>
                 <option>Пока не определили</option>
               </select>
-              <textarea name="message" rows="3" placeholder="Ниша и задача — коротко"></textarea>
+              <label class="visually-hidden" for="ads-message">Ниша и задача</label>
+              <textarea
+                id="ads-message"
+                name="message"
+                rows="3"
+                placeholder="Ниша и задача — коротко"
+              ></textarea>
               <label class="a-form__check">
                 <input type="checkbox" name="agree" required />
                 <span>

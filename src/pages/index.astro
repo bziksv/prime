@@ -588,13 +588,36 @@ const services = [
                 </ul>
               </div>
               <form id="v6-form" class="v6-form">
-                <input type="text" placeholder="Ваше имя" name="name" required />
-                <input type="tel" placeholder="Телефон" name="phone" required />
-                <select name="service">
+                <label class="visually-hidden" for="home-name">Ваше имя</label>
+                <input
+                  id="home-name"
+                  type="text"
+                  name="name"
+                  placeholder="Ваше имя"
+                  autocomplete="name"
+                  required
+                />
+                <label class="visually-hidden" for="home-phone">Телефон</label>
+                <input
+                  id="home-phone"
+                  type="tel"
+                  name="phone"
+                  placeholder="Телефон"
+                  autocomplete="tel"
+                  required
+                />
+                <label class="visually-hidden" for="home-service">Услуга</label>
+                <select id="home-service" name="service">
                   <option value="">Выберите услугу</option>
                   {services.map((s) => <option value={s.title}>{s.title}</option>)}
                 </select>
-                <textarea name="message" rows="4" placeholder="Кратко о задаче (необязательно)"></textarea>
+                <label class="visually-hidden" for="home-message">Кратко о задаче</label>
+                <textarea
+                  id="home-message"
+                  name="message"
+                  rows="4"
+                  placeholder="Кратко о задаче (необязательно)"
+                ></textarea>
                 <label class="v6-form__check">
                   <input type="checkbox" name="agree" required />
                   <span>

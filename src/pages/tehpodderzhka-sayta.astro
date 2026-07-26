@@ -426,10 +426,34 @@ const faqJsonLd = {
               </div>
             </div>
             <form id="support-form" class="p-form">
-              <input type="text" name="name" placeholder="Ваше имя" required />
-              <input type="tel" name="phone" placeholder="Телефон" required />
-              <input type="url" name="site" placeholder="Адрес сайта" />
-              <select name="tariff" data-tariff-select required>
+              <label class="visually-hidden" for="support-name">Ваше имя</label>
+              <input
+                id="support-name"
+                type="text"
+                name="name"
+                placeholder="Ваше имя"
+                autocomplete="name"
+                required
+              />
+              <label class="visually-hidden" for="support-phone">Телефон</label>
+              <input
+                id="support-phone"
+                type="tel"
+                name="phone"
+                placeholder="Телефон"
+                autocomplete="tel"
+                required
+              />
+              <label class="visually-hidden" for="support-site">Адрес сайта</label>
+              <input
+                id="support-site"
+                type="url"
+                name="site"
+                placeholder="Адрес сайта"
+                autocomplete="url"
+              />
+              <label class="visually-hidden" for="support-tariff">Интересующий тариф</label>
+              <select id="support-tariff" name="tariff" data-tariff-select required>
                 <option value="" disabled>Интересующий тариф</option>
                 {
                   supportTariffs.map((t) => (
@@ -440,10 +464,13 @@ const faqJsonLd = {
                 }
                 <option value="consult">Не знаю — нужна консультация</option>
               </select>
+              <label class="visually-hidden" for="support-message">Задачи на сопровождении</label>
               <textarea
+                id="support-message"
                 name="message"
                 rows="3"
-                placeholder="Какие задачи на сопровождении?"></textarea>
+                placeholder="Какие задачи на сопровождении?"
+              ></textarea>
               <label class="p-form__check">
                 <input type="checkbox" name="agree" required />
                 <span>

@@ -346,20 +346,47 @@ const faqJsonLd = {
               </div>
             </div>
             <form id="analytics-form" class="n-form">
-              <input type="text" name="name" placeholder="Ваше имя" required />
-              <input type="tel" name="phone" placeholder="Телефон" required />
-              <input type="url" name="site" placeholder="Адрес сайта" />
-              <select name="crm">
+              <label class="visually-hidden" for="analytics-name">Ваше имя</label>
+              <input
+                id="analytics-name"
+                type="text"
+                name="name"
+                placeholder="Ваше имя"
+                autocomplete="name"
+                required
+              />
+              <label class="visually-hidden" for="analytics-phone">Телефон</label>
+              <input
+                id="analytics-phone"
+                type="tel"
+                name="phone"
+                placeholder="Телефон"
+                autocomplete="tel"
+                required
+              />
+              <label class="visually-hidden" for="analytics-site">Адрес сайта</label>
+              <input
+                id="analytics-site"
+                type="url"
+                name="site"
+                placeholder="Адрес сайта"
+                autocomplete="url"
+              />
+              <label class="visually-hidden" for="analytics-crm">CRM / учёт</label>
+              <select id="analytics-crm" name="crm">
                 <option value="">CRM / учёт</option>
                 <option>Bitrix24</option>
                 <option>amoCRM</option>
                 <option>1С</option>
                 <option>Другая / пока нет</option>
               </select>
+              <label class="visually-hidden" for="analytics-message">Каналы и объём трафика</label>
               <textarea
+                id="analytics-message"
                 name="message"
                 rows="3"
-                placeholder="Каналы и объём трафика — коротко"></textarea>
+                placeholder="Каналы и объём трафика — коротко"
+              ></textarea>
               <label class="n-form__check">
                 <input type="checkbox" name="agree" required />
                 <span>

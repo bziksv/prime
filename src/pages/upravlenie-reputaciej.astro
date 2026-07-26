@@ -282,10 +282,34 @@ const faqJsonLd = {
               </div>
             </div>
             <form id="orm-form" class="o-form">
-              <input type="text" name="name" placeholder="Ваше имя" required />
-              <input type="tel" name="phone" placeholder="Телефон" required />
-              <input type="text" name="brand" placeholder="Название компании / бренд" />
-              <select name="focus">
+              <label class="visually-hidden" for="orm-name">Ваше имя</label>
+              <input
+                id="orm-name"
+                type="text"
+                name="name"
+                placeholder="Ваше имя"
+                autocomplete="name"
+                required
+              />
+              <label class="visually-hidden" for="orm-phone">Телефон</label>
+              <input
+                id="orm-phone"
+                type="tel"
+                name="phone"
+                placeholder="Телефон"
+                autocomplete="tel"
+                required
+              />
+              <label class="visually-hidden" for="orm-brand">Название компании / бренд</label>
+              <input
+                id="orm-brand"
+                type="text"
+                name="brand"
+                placeholder="Название компании / бренд"
+                autocomplete="organization"
+              />
+              <label class="visually-hidden" for="orm-focus">Приоритет</label>
+              <select id="orm-focus" name="focus">
                 <option value="">Что приоритетнее</option>
                 <option>Аудит и стратегия</option>
                 <option>Работа с негативом</option>
@@ -293,10 +317,13 @@ const faqJsonLd = {
                 <option>Обучение команды</option>
                 <option>Комплекс</option>
               </select>
+              <label class="visually-hidden" for="orm-message">Где болит сильнее</label>
               <textarea
+                id="orm-message"
                 name="message"
                 rows="3"
-                placeholder="Где болит сильнее — карты, отзовики, поиск?"></textarea>
+                placeholder="Где болит сильнее — карты, отзовики, поиск?"
+              ></textarea>
               <label class="o-form__check">
                 <input type="checkbox" name="agree" required />
                 <span>

@@ -141,14 +141,43 @@ const contactPageJsonLd = {
                 <p>Коротко опишите задачу — перезвоним в рабочий день</p>
               </div>
               <form id="v6-form" class="v6-form">
-                <input type="text" name="name" placeholder="Ваше имя" required />
-                <input type="tel" name="phone" placeholder="Телефон" required />
-                <input type="email" name="email" placeholder="Email (необязательно)" />
-                <select name="service">
+                <label class="visually-hidden" for="contact-name">Ваше имя</label>
+                <input
+                  id="contact-name"
+                  type="text"
+                  name="name"
+                  placeholder="Ваше имя"
+                  autocomplete="name"
+                  required
+                />
+                <label class="visually-hidden" for="contact-phone">Телефон</label>
+                <input
+                  id="contact-phone"
+                  type="tel"
+                  name="phone"
+                  placeholder="Телефон"
+                  autocomplete="tel"
+                  required
+                />
+                <label class="visually-hidden" for="contact-email">Email</label>
+                <input
+                  id="contact-email"
+                  type="email"
+                  name="email"
+                  placeholder="Email (необязательно)"
+                  autocomplete="email"
+                />
+                <label class="visually-hidden" for="contact-service">Услуга</label>
+                <select id="contact-service" name="service">
                   <option value="">Выберите услугу</option>
                   {contactServices.map((s) => <option value={s}>{s}</option>)}
                 </select>
-                <textarea name="message" rows="4" placeholder="Сообщение (необязательно)"
+                <label class="visually-hidden" for="contact-message">Сообщение</label>
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  rows="4"
+                  placeholder="Сообщение (необязательно)"
                 ></textarea>
                 <label class="v6-form__check">
                   <input type="checkbox" name="agree" required />

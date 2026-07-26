@@ -731,12 +731,35 @@ const faqJsonLd = {
               </div>
             </div>
             <form id="web-form" class="w-form">
-              <input type="text" name="name" placeholder="Ваше имя" required />
-              <input type="tel" name="phone" placeholder="Телефон" required />
-              <input type="url" name="site" placeholder="Сайт или соцсеть (если есть)" />
+              <label class="visually-hidden" for="web-name">Ваше имя</label>
+              <input
+                id="web-name"
+                type="text"
+                name="name"
+                placeholder="Ваше имя"
+                autocomplete="name"
+                required
+              />
+              <label class="visually-hidden" for="web-phone">Телефон</label>
+              <input
+                id="web-phone"
+                type="tel"
+                name="phone"
+                placeholder="Телефон"
+                autocomplete="tel"
+                required
+              />
+              <label class="visually-hidden" for="web-site">Сайт или соцсеть</label>
+              <input
+                id="web-site"
+                type="url"
+                name="site"
+                placeholder="Сайт или соцсеть (если есть)"
+                autocomplete="url"
+              />
               <div class="w-select">
-                <span class="w-select__label">Что нужно</span>
-                <select name="type" data-w-select>
+                <label class="w-select__label" for="web-type">Что нужно</label>
+                <select id="web-type" name="type" data-w-select>
                   <option value="">Что нужно</option>
                   <option>Лендинг</option>
                   <option>Сайт-визитка</option>
@@ -746,18 +769,21 @@ const faqJsonLd = {
                 </select>
               </div>
               <div class="w-select">
-                <span class="w-select__label">Стиль сайта</span>
-                <select name="style" data-w-select>
+                <label class="w-select__label" for="web-style">Стиль сайта</label>
+                <select id="web-style" name="style" data-w-select>
                   <option value="">Стиль сайта</option>
                   <option>Строгий / корпоративный</option>
                   <option>С эффектами и анимацией</option>
                   <option>Пока не определились</option>
                 </select>
               </div>
+              <label class="visually-hidden" for="web-message">Ниша и задача</label>
               <textarea
+                id="web-message"
                 name="message"
                 rows="3"
-                placeholder="Ниша и задача — коротко"></textarea>
+                placeholder="Ниша и задача — коротко"
+              ></textarea>
               <label class="w-form__check">
                 <input type="checkbox" name="agree" required />
                 <span>

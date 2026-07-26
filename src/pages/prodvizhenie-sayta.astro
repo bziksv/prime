@@ -534,16 +534,46 @@ const faqJsonLd = {
               </div>
             </div>
             <form id="seo-form" class="s-form">
-              <input type="text" name="name" placeholder="Ваше имя" required />
-              <input type="tel" name="phone" placeholder="Телефон" required />
-              <input type="url" name="site" placeholder="Адрес сайта" />
-              <select name="region">
+              <label class="visually-hidden" for="seo-name">Ваше имя</label>
+              <input
+                id="seo-name"
+                type="text"
+                name="name"
+                placeholder="Ваше имя"
+                autocomplete="name"
+                required
+              />
+              <label class="visually-hidden" for="seo-phone">Телефон</label>
+              <input
+                id="seo-phone"
+                type="tel"
+                name="phone"
+                placeholder="Телефон"
+                autocomplete="tel"
+                required
+              />
+              <label class="visually-hidden" for="seo-site">Адрес сайта</label>
+              <input
+                id="seo-site"
+                type="url"
+                name="site"
+                placeholder="Адрес сайта"
+                autocomplete="url"
+              />
+              <label class="visually-hidden" for="seo-region">Регион продвижения</label>
+              <select id="seo-region" name="region">
                 <option value="">Регион продвижения</option>
                 <option>Регионы РФ</option>
                 <option>Москва и Московская область</option>
                 <option>Санкт-Петербург и Ленинградская область</option>
               </select>
-              <textarea name="message" rows="3" placeholder="Ниша и задача — коротко"></textarea>
+              <label class="visually-hidden" for="seo-message">Ниша и задача</label>
+              <textarea
+                id="seo-message"
+                name="message"
+                rows="3"
+                placeholder="Ниша и задача — коротко"
+              ></textarea>
               <label class="s-form__check">
                 <input type="checkbox" name="agree" required />
                 <span>
