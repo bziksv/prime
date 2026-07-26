@@ -11,4 +11,8 @@ public/data/blog-views/*.json
 !public/data/blog-views/seed.json
 public/data/blog-views/.rate/
 
+# Lead form logs (runtime on Apache)
+public/data/leads/*.json
+public/data/leads/.rate/
+
 .cursor/

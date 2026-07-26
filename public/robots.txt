@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://prime-ltd.su/sitemap-index.xml
+# RSS: https://prime-ltd.su/blog/rss.xml

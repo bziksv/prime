@@ -1,4 +1,5 @@
 import "./concept-v6";
+import { bindLeadForm } from "./lead-form";
 
 const sleep = (ms: number) => new Promise<void>((r) => window.setTimeout(r, ms));
 
@@ -125,18 +126,19 @@ if (initialPlan) selectPlan(initialPlan);
 
 /* —— Form —— */
 const form = document.getElementById("traffic-form") as HTMLFormElement | null;
-const hint = document.getElementById("traffic-form-hint");
-form?.addEventListener("submit", (e) => {
-  e.preventDefault();
-  if (hint) {
-    hint.hidden = false;
-    hint.textContent =
-      "Спасибо! Заявка на продвижение по трафику принята — свяжемся с вами.";
-    hint.style.color = "var(--t-mint, #2dd4bf)";
-  }
-  form.reset();
-  if (initialPlan) selectPlan(initialPlan);
-});
+if (form) {
+  bindLeadForm({
+    form,
+    hint: document.getElementById("traffic-form-hint"),
+    successMessage:
+      "Спасибо! Заявка на продвижение по трафику принята — свяжемся с вами.",
+    source: "prodvizhenie-sayta-po-trafiku",
+    successColor: "var(--t-mint, #2dd4bf)",
+    onSuccess: () => {
+      if (initialPlan) selectPlan(initialPlan);
+    },
+  });
+}
 
 /* —— Hero parallax (pointer + scroll) —— */
 const hero = document.querySelector<HTMLElement>("[data-t-hero]");

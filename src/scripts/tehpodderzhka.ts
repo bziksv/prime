@@ -1,4 +1,5 @@
 import "./concept-v6";
+import { bindLeadForm } from "./lead-form";
 
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -242,25 +243,20 @@ if (initialCard) selectTariff(initialCard);
 
 /* —— Form —— */
 const form = document.getElementById("support-form") as HTMLFormElement | null;
-const hint = document.getElementById("support-form-hint");
-form?.addEventListener("submit", (e) => {
-  e.preventDefault();
-  const picked = tariffSelect?.value || "";
-  if (hint) {
-    hint.hidden = false;
-    hint.textContent = "Спасибо! Заявка на техподдержку принята — свяжемся с вами.";
-    hint.style.color = "var(--p-lime, #b8f000)";
-  }
-  form.reset();
-  // после reset вернуть выбранный тариф в селект
-  if (picked && tariffSelect) {
-    tariffSelect.value = picked;
-    const card = document.querySelector<HTMLElement>(`[data-tariff="${picked}"]`);
-    if (card) selectTariff(card);
-  } else if (initialCard) {
-    selectTariff(initialCard);
-  }
-});
+if (form) {
+  bindLeadForm({
+    form,
+    hint: document.getElementById("support-form-hint"),
+    successMessage: "Спасибо! Заявка на техподдержку принята — свяжемся с вами.",
+    source: "tehpodderzhka-sayta",
+    successColor: "var(--p-lime, #b8f000)",
+    onSuccess: () => {
+      const card =
+        document.querySelector<HTMLElement>(".p-tariff.is-selected") || initialCard;
+      if (card) selectTariff(card);
+    },
+  });
+}
 
 /* —— Scroll parallax photo —— */
 if (!reduceMotion) {

@@ -1,4 +1,5 @@
 import "./concept-v6";
+import { bindLeadForm } from "./lead-form";
 
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -384,13 +385,12 @@ document.querySelectorAll<HTMLButtonElement>(".u-finding__btn").forEach((btn) =>
 });
 
 const form = document.getElementById("audit-form") as HTMLFormElement | null;
-const hint = document.getElementById("audit-form-hint");
-form?.addEventListener("submit", (e) => {
-  e.preventDefault();
-  if (hint) {
-    hint.hidden = false;
-    hint.textContent = "Спасибо! Заявка на аудит принята — свяжемся с вами.";
-    hint.style.color = "var(--u-ok, #1f8a6e)";
-  }
-  form.reset();
-});
+if (form) {
+  bindLeadForm({
+    form,
+    hint: document.getElementById("audit-form-hint"),
+    successMessage: "Спасибо! Заявка на аудит принята — свяжемся с вами.",
+    source: "audit-sayta",
+    successColor: "var(--u-ok, #1f8a6e)",
+  });
+}

@@ -1,4 +1,5 @@
 import "./concept-v6";
+import { bindLeadForm } from "./lead-form";
 
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -17,16 +18,15 @@ const revealObs = new IntersectionObserver(
 revealEls.forEach((el) => revealObs.observe(el));
 
 const form = document.getElementById("analytics-form") as HTMLFormElement | null;
-const hint = document.getElementById("analytics-form-hint");
-form?.addEventListener("submit", (e) => {
-  e.preventDefault();
-  if (hint) {
-    hint.hidden = false;
-    hint.textContent = "Спасибо! Заявка на сквозную аналитику принята — свяжемся с вами.";
-    hint.style.color = "var(--n-rose, #ff2d6a)";
-  }
-  form.reset();
-});
+if (form) {
+  bindLeadForm({
+    form,
+    hint: document.getElementById("analytics-form-hint"),
+    successMessage: "Спасибо! Заявка на сквозную аналитику принята — свяжемся с вами.",
+    source: "skvoznaya-analitika",
+    successColor: "var(--n-rose, #ff2d6a)",
+  });
+}
 
 const hero = document.querySelector<HTMLElement>("[data-n-hero]");
 const photo = document.querySelector<HTMLElement>("[data-parallax-analytics-bg]");

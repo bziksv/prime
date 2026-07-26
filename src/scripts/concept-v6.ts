@@ -1,5 +1,6 @@
 import { initCookieConsent } from "./cookie-consent";
 import { initPrimeSelects } from "./prime-select";
+import { bindLeadForm } from "./lead-form";
 
 export function initConceptV6() {
   initCookieConsent();
@@ -32,16 +33,14 @@ export function initConceptV6() {
   }
 
   const form = document.getElementById("v6-form") as HTMLFormElement | null;
-  const hint = document.getElementById("v6-form-hint");
-  form?.addEventListener("submit", (e) => {
-    e.preventDefault();
-    if (hint) {
-      hint.hidden = false;
-      hint.textContent = "Спасибо! Заявка принята.";
-      hint.style.color = "var(--primary)";
-    }
-    form.reset();
-  });
+  if (form) {
+    bindLeadForm({
+      form,
+      hint: document.getElementById("v6-form-hint"),
+      successMessage: "Спасибо! Заявка принята — свяжемся с вами.",
+      source: "home-or-contacts",
+    });
+  }
 }
 
 initConceptV6();

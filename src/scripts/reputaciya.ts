@@ -1,4 +1,5 @@
 import "./concept-v6";
+import { bindLeadForm } from "./lead-form";
 
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -17,16 +18,15 @@ const revealObs = new IntersectionObserver(
 revealEls.forEach((el) => revealObs.observe(el));
 
 const form = document.getElementById("orm-form") as HTMLFormElement | null;
-const hint = document.getElementById("orm-form-hint");
-form?.addEventListener("submit", (e) => {
-  e.preventDefault();
-  if (hint) {
-    hint.hidden = false;
-    hint.textContent = "Спасибо! Заявка по репутации принята — свяжемся с вами.";
-    hint.style.color = "var(--o-gold, #c9a06a)";
-  }
-  form.reset();
-});
+if (form) {
+  bindLeadForm({
+    form,
+    hint: document.getElementById("orm-form-hint"),
+    successMessage: "Спасибо! Заявка по репутации принята — свяжемся с вами.",
+    source: "upravlenie-reputaciej",
+    successColor: "var(--o-gold, #c9a06a)",
+  });
+}
 
 if (!reduceMotion) {
   const photo = document.querySelector<HTMLElement>("[data-parallax-orm-bg]");

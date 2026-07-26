@@ -1,4 +1,5 @@
 import "./concept-v6";
+import { bindLeadForm } from "./lead-form";
 
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -51,16 +52,15 @@ if (statsRoot) {
 }
 
 const form = document.getElementById("partner-form") as HTMLFormElement | null;
-const hint = document.getElementById("partner-form-hint");
-form?.addEventListener("submit", (e) => {
-  e.preventDefault();
-  if (hint) {
-    hint.hidden = false;
-    hint.textContent = "Спасибо! Заявка на партнёрство принята.";
-    hint.style.color = "var(--brand-e)";
-  }
-  form.reset();
-});
+if (form) {
+  bindLeadForm({
+    form,
+    hint: document.getElementById("partner-form-hint"),
+    successMessage: "Спасибо! Заявка на партнёрство принята.",
+    source: "partnerstvo",
+    successColor: "var(--brand-e)",
+  });
+}
 
 /* —— Parallax: hero + case tiles —— */
 if (!reduceMotion) {

@@ -1,4 +1,5 @@
 import "./concept-v6";
+import { bindLeadForm } from "./lead-form";
 
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -17,16 +18,15 @@ const revealObs = new IntersectionObserver(
 revealEls.forEach((el) => revealObs.observe(el));
 
 const form = document.getElementById("web-form") as HTMLFormElement | null;
-const hint = document.getElementById("web-form-hint");
-form?.addEventListener("submit", (e) => {
-  e.preventDefault();
-  if (hint) {
-    hint.hidden = false;
-    hint.textContent = "Спасибо! Заявка на разработку принята — свяжемся с вами.";
-    hint.style.color = "var(--w-accent-bright, #2dd4bf)";
-  }
-  form.reset();
-});
+if (form) {
+  bindLeadForm({
+    form,
+    hint: document.getElementById("web-form-hint"),
+    successMessage: "Спасибо! Заявка на разработку принята — свяжемся с вами.",
+    source: "razrabotka-saytov",
+    successColor: "var(--w-accent-bright, #2dd4bf)",
+  });
+}
 
 const animateCount = (el: HTMLElement, to: number, ms = 1200) => {
   const start = performance.now();

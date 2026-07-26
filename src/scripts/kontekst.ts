@@ -1,4 +1,5 @@
 import "./concept-v6";
+import { bindLeadForm } from "./lead-form";
 
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -17,16 +18,15 @@ const revealObs = new IntersectionObserver(
 revealEls.forEach((el) => revealObs.observe(el));
 
 const form = document.getElementById("ads-form") as HTMLFormElement | null;
-const hint = document.getElementById("ads-form-hint");
-form?.addEventListener("submit", (e) => {
-  e.preventDefault();
-  if (hint) {
-    hint.hidden = false;
-    hint.textContent = "Спасибо! Заявка на контекст принята — свяжемся с вами.";
-    hint.style.color = "var(--a-ember, #c45a12)";
-  }
-  form.reset();
-});
+if (form) {
+  bindLeadForm({
+    form,
+    hint: document.getElementById("ads-form-hint"),
+    successMessage: "Спасибо! Заявка на контекст принята — свяжемся с вами.",
+    source: "kontekstnaya-reklama",
+    successColor: "var(--a-ember, #c45a12)",
+  });
+}
 
 if (!reduceMotion) {
   const visual = document.querySelector<HTMLElement>("[data-parallax-ads]");

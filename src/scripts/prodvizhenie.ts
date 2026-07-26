@@ -1,4 +1,5 @@
 import "./concept-v6";
+import { bindLeadForm } from "./lead-form";
 
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -153,16 +154,15 @@ window.addEventListener("resize", () => {
 
 /* —— Form —— */
 const form = document.getElementById("seo-form") as HTMLFormElement | null;
-const hint = document.getElementById("seo-form-hint");
-form?.addEventListener("submit", (e) => {
-  e.preventDefault();
-  if (hint) {
-    hint.hidden = false;
-    hint.textContent = "Спасибо! Заявка на продвижение принята — свяжемся с вами.";
-    hint.style.color = "var(--s-cyan, #20b8d0)";
-  }
-  form.reset();
-});
+if (form) {
+  bindLeadForm({
+    form,
+    hint: document.getElementById("seo-form-hint"),
+    successMessage: "Спасибо! Заявка на продвижение принята — свяжемся с вами.",
+    source: "prodvizhenie-sayta",
+    successColor: "var(--s-cyan, #20b8d0)",
+  });
+}
 
 /* —— Chapters scrollspy + progress + side dots —— */
 const chaptersTrack = document.querySelector<HTMLElement>("[data-s-chapters-track]");
