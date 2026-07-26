@@ -6,10 +6,17 @@ type LeadPayload = {
   site: string;
   brand: string;
   crm: string;
+  region: string;
   message: string;
   page: string;
   source: string;
   company: string;
+};
+
+const regionLabels: Record<string, string> = {
+  region: "Регионы РФ",
+  capital: "Москва / СПб",
+  multi: "Несколько регионов",
 };
 
 export type BindLeadFormOptions = {
@@ -82,6 +89,7 @@ export function bindLeadForm(opts: BindLeadFormOptions): void {
     if (btn) btn.disabled = true;
 
     const fd = new FormData(form);
+    const regionRaw = field(fd, "region");
     const payload: LeadPayload = {
       name: field(fd, "name"),
       phone: field(fd, "phone"),
@@ -90,6 +98,7 @@ export function bindLeadForm(opts: BindLeadFormOptions): void {
       site: field(fd, "site"),
       brand: field(fd, "brand"),
       crm: field(fd, "crm"),
+      region: regionLabels[regionRaw] || regionRaw,
       message: field(fd, "message"),
       page: location.pathname,
       source,

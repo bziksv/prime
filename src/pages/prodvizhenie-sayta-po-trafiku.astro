@@ -18,9 +18,28 @@ import {
   trafficStats,
   trafficMarquee,
   trafficDemoKeys,
+  trafficNos,
+  trafficFaq,
 } from "../data/traffic-service";
 
 const chartBars = [18, 22, 28, 34, 42, 48, 55, 62, 71, 78, 86, 94];
+
+const pageTitle = "Продвижение по трафику — ПРАЙМ";
+const pageDescription =
+  "Продвижение сайта по трафику: оплата за переходы из поиска по списку фраз. Регионы от 3 ₽, Москва и СПб от 5 ₽ за переход. Базовый трафик до старта не учитывается.";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: trafficFaq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
 ---
 
 <!doctype html>
@@ -28,14 +47,11 @@ const chartBars = [18, 22, 28, 34, 42, 48, 55, 62, 71, 78, 86, 94];
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Продвижение сайта по трафику: оплата за переходы из поиска по списку фраз. Регионы от 3 ₽, Москва и СПб от 5 ₽ за переход. Базовый трафик до старта не учитывается."
-    />
-    <title>Продвижение по трафику — ПРАЙМ</title>
+    <meta name="description" content={pageDescription} />
+    <title>{pageTitle}</title>
     <SiteSeo
-      title="Продвижение по трафику — ПРАЙМ"
-      description="Продвижение сайта по трафику: оплата за переходы из поиска по списку фраз. Регионы от 3 ₽, Москва и СПб от 5 ₽ за переход. Базовый трафик до старта не учитывается."
+      title={pageTitle}
+      description={pageDescription}
       path="/prodvizhenie-sayta-po-trafiku/"
     />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
@@ -47,6 +63,7 @@ const chartBars = [18, 22, 28, 34, 42, 48, 55, 62, 71, 78, 86, 94];
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Teko:wght@400;500;600&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   </head>
   <body>
     <div class="v6-app">
@@ -291,6 +308,42 @@ const chartBars = [18, 22, 28, 34, 42, 48, 55, 62, 71, 78, 86, 94];
               }
             </div>
             <p class="t-note">{trafficPricingNote}</p>
+          </section>
+
+          <section class="t-section t-reveal">
+            <div class="t-section__head">
+              <p class="t-kicker">Честно</p>
+              <h2>Чего не путаем и не обещаем</h2>
+              <p>Чтобы модель «оплата за переходы» не смешивалась с ТОП-10.</p>
+            </div>
+            <div class="t-nos">
+              {
+                trafficNos.map((item) => (
+                  <article class="t-no">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="t-section t-reveal" id="faq">
+            <div class="t-section__head">
+              <p class="t-kicker">FAQ</p>
+              <h2>Частые вопросы</h2>
+              <p>Отличие от ТОП, базовый трафик, первые месяцы и цена за переход.</p>
+            </div>
+            <div class="t-faq">
+              {
+                trafficFaq.map((item) => (
+                  <details class="t-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
           </section>
 
           <section id="traffic-cta" class="t-cta t-reveal">
