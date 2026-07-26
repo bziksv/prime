@@ -59,9 +59,15 @@ const byId = data.posts
   .filter((p) => p.wpId)
   .sort((a, b) => a.wpId - b.wpId);
 for (const post of byId) {
-  const astro = post.astroSlug.replace(/[^a-z0-9_-]/gi, "");
+  let dest = String(post.to || "").trim();
+  if (!dest) {
+    const astro = String(post.astroSlug || "").replace(/[^a-z0-9_-]/gi, "");
+    if (!astro) continue;
+    dest = `/blog/${astro}/`;
+  }
+  if (!dest.startsWith("/")) dest = `/${dest}`;
   lines.push(`RewriteCond %{QUERY_STRING} (^|&)p=${post.wpId}(&|$)`);
-  lines.push(`RewriteRule ^$ /blog/${astro}/? [R=301,L]`);
+  lines.push(`RewriteRule ^$ ${dest}? [R=301,L]`);
 }
 lines.push("</IfModule>");
 lines.push("");

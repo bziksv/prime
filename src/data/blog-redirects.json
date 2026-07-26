@@ -148,22 +148,81 @@
       "dup": true
     },
     {
+      "wpSlug": "",
+      "astroSlug": "malo-pokazov",
+      "wpId": 38810,
+      "dup": true,
+      "note": "no-slug draft: мало показов в Директе"
+    },
+    {
       "wpSlug": "40-sovetov-dlya-prodvizheniya-v-instagram",
       "astroSlug": "biznes-v-instagram",
       "wpId": 45897,
       "dup": true
     },
     {
-      "wpSlug": "4u-zagolovki",
-      "astroSlug": "zagolovki-4u",
-      "wpId": 42767,
-      "dup": true
+      "wpSlug": "",
+      "astroSlug": "",
+      "wpId": 40709,
+      "dup": true,
+      "to": "/blog/",
+      "note": "no-slug trash: empty post"
+    },
+    {
+      "wpSlug": "",
+      "astroSlug": "",
+      "wpId": 40716,
+      "dup": true,
+      "to": "/blog/",
+      "note": "no-slug trash: empty post"
+    },
+    {
+      "wpSlug": "",
+      "astroSlug": "open-graph",
+      "wpId": 40819,
+      "dup": true,
+      "note": "no-slug empty draft: Open Graph (канон; сосед 40823)"
+    },
+    {
+      "wpSlug": "",
+      "astroSlug": "metrika-tseli",
+      "wpId": 41064,
+      "dup": true,
+      "note": "no-slug empty draft: цели Метрики (канон; сосед 41066)"
+    },
+    {
+      "wpSlug": "",
+      "astroSlug": "",
+      "wpId": 41673,
+      "dup": true,
+      "to": "/blog/",
+      "note": "no-slug trash: empty post"
+    },
+    {
+      "wpSlug": "",
+      "astroSlug": "modx-local",
+      "wpId": 41938,
+      "dup": true,
+      "note": "no-slug empty draft: ModX local (канон ID 41943)"
+    },
+    {
+      "wpSlug": "",
+      "astroSlug": "turbo-stranitsy",
+      "wpId": 46552,
+      "dup": true,
+      "note": "no-slug draft: Турбо Директа (канон/dup ID 46554)"
     },
     {
       "wpSlug": "4u_zagolovki_chto_eto-takoe_primery_kak_napisat_samostoyatelno",
       "astroSlug": "zagolovki-4u",
       "wpId": 56919,
       "dup": false
+    },
+    {
+      "wpSlug": "4u-zagolovki",
+      "astroSlug": "zagolovki-4u",
+      "wpId": 42767,
+      "dup": true
     },
     {
       "wpSlug": "5-pobednyih-tipov-kontenta-dlya-b2b-brendov",
@@ -196,6 +255,58 @@
       "dup": false
     },
     {
+      "wpSlug": "",
+      "astroSlug": "",
+      "wpId": 55132,
+      "dup": true,
+      "to": "/blog/",
+      "note": "no-slug trash: empty post"
+    },
+    {
+      "wpSlug": "",
+      "astroSlug": "",
+      "wpId": 55191,
+      "dup": true,
+      "to": "/blog/",
+      "note": "no-slug trash: empty post"
+    },
+    {
+      "wpSlug": "",
+      "astroSlug": "",
+      "wpId": 57121,
+      "dup": true,
+      "to": "/blog/",
+      "note": "no-slug trash: шаблон черновика"
+    },
+    {
+      "wpSlug": "",
+      "astroSlug": "chto-takoe-ssylka",
+      "wpId": 57188,
+      "dup": true,
+      "note": "no-slug draft: анкорные/безанкорные ссылки"
+    },
+    {
+      "wpSlug": "",
+      "astroSlug": "adminka-sayta",
+      "wpId": 58077,
+      "dup": true,
+      "note": "no-slug draft: зачем нужна админка сайта"
+    },
+    {
+      "wpSlug": "",
+      "astroSlug": "seo-struktura-sayta",
+      "wpId": 58519,
+      "dup": true,
+      "note": "no-slug draft: архитектура сайта / SEO (канон seo-struktura-sayta)"
+    },
+    {
+      "wpSlug": "",
+      "astroSlug": "ftp",
+      "wpId": 59477,
+      "dup": true,
+      "note": "no-slug draft: FTP-протокол (канон ID 59556)"
+    },
+    {
       "wpSlug": "6-besplatnyih-sposobov-prodvizheniya-vashego-biznesa",
       "astroSlug": "besplatnaya-reklama",
       "wpId": 38266,
@@ -212,6 +323,21 @@
       "astroSlug": "prosmotry-stories-instagram",
       "wpId": 57389,
       "dup": false
+    },
+    {
+      "wpSlug": "",
+      "astroSlug": "reklama-odnoklassniki",
+      "wpId": 60088,
+      "dup": true,
+      "note": "no-slug draft: реклама в Одноклассниках"
+    },
+    {
+      "wpSlug": "",
+      "astroSlug": "",
+      "wpId": 67162,
+      "dup": true,
+      "to": "/blog/",
+      "note": "no-slug trash: пустой черновик 77 симв."
     },
     {
       "wpSlug": "7-oshibok-v-optimizatsii-internet-magazinov",
@@ -358,15 +484,15 @@
       "dup": false
     },
     {
-      "wpSlug": "avtovoronka-v-instagram-chto-eto-kak-sozdat-i-nastroit",
-      "astroSlug": "avtovoronka-instagram",
-      "wpId": 56442,
-      "dup": false
-    },
-    {
       "wpSlug": "avtovoronka_v_vkontakte_chto_eto_kak_sozdat_i_nastroit",
       "astroSlug": "avtovoronka-vk",
       "wpId": 56438,
+      "dup": false
+    },
+    {
+      "wpSlug": "avtovoronka-v-instagram-chto-eto-kak-sozdat-i-nastroit",
+      "astroSlug": "avtovoronka-instagram",
+      "wpId": 56442,
       "dup": false
     },
     {
@@ -460,15 +586,45 @@
       "dup": true
     },
     {
+      "wpSlug": "chem-polezen-dlya-biznesa-yandeks-spravochnik",
+      "astroSlug": "yandeks-spravochnik",
+      "wpId": 49956,
+      "dup": true
+    },
+    {
+      "wpSlug": "chem-polezen-google-analytics-dlya-onlaynovyih-magazinov",
+      "astroSlug": "google-analytics",
+      "wpId": 55000,
+      "dup": true
+    },
+    {
       "wpSlug": "chem-polezna-statistika-v-instagram",
       "astroSlug": "statistika-instagram",
       "wpId": 64340,
       "dup": false
     },
     {
-      "wpSlug": "chem-polezen-dlya-biznesa-yandeks-spravochnik",
-      "astroSlug": "yandeks-spravochnik",
-      "wpId": 49956,
+      "wpSlug": "chto_takoe_amp_stranicy_google_i_kak_ih_sozdat",
+      "astroSlug": "amp",
+      "wpId": 55924,
+      "dup": false
+    },
+    {
+      "wpSlug": "chto_takoe_meta_teg_description_i_ego_vliyanie_na_seo",
+      "astroSlug": "meta-description",
+      "wpId": 55451,
+      "dup": false
+    },
+    {
+      "wpSlug": "chto_takoe_pochta_dlya_domena_i_kak_ee_nastroit",
+      "astroSlug": "pochta-dlya-domena",
+      "wpId": 56861,
+      "dup": true
+    },
+    {
+      "wpSlug": "chto_takoe_serm_kogda_on_neobhodim_i_kak_ispolzovat",
+      "astroSlug": "serm",
+      "wpId": 56797,
       "dup": true
     },
     {
@@ -826,30 +982,6 @@
       "dup": false
     },
     {
-      "wpSlug": "chto_takoe_amp_stranicy_google_i_kak_ih_sozdat",
-      "astroSlug": "amp",
-      "wpId": 55924,
-      "dup": false
-    },
-    {
-      "wpSlug": "chto_takoe_meta_teg_description_i_ego_vliyanie_na_seo",
-      "astroSlug": "meta-description",
-      "wpId": 55451,
-      "dup": false
-    },
-    {
-      "wpSlug": "chto_takoe_pochta_dlya_domena_i_kak_ee_nastroit",
-      "astroSlug": "pochta-dlya-domena",
-      "wpId": 56861,
-      "dup": true
-    },
-    {
-      "wpSlug": "chto_takoe_serm_kogda_on_neobhodim_i_kak_ispolzovat",
-      "astroSlug": "serm",
-      "wpId": 56797,
-      "dup": true
-    },
-    {
       "wpSlug": "cms-dlya-internet-magazina",
       "astroSlug": "cms-internet-magazina",
       "wpId": 43179,
@@ -1054,6 +1186,12 @@
       "dup": true
     },
     {
+      "wpSlug": "gde_besplatno_razmestit_stati_dlya_prodvizheniya_sajta",
+      "astroSlug": "besplatnoe-razmeshchenie-statey",
+      "wpId": 64682,
+      "dup": false
+    },
+    {
       "wpSlug": "gde-i-kak-zatsepit-tselevuyu-auditoriyu",
       "astroSlug": "sem-kasaniy",
       "wpId": 53736,
@@ -1066,10 +1204,16 @@
       "dup": false
     },
     {
-      "wpSlug": "gde_besplatno_razmestit_stati_dlya_prodvizheniya_sajta",
-      "astroSlug": "besplatnoe-razmeshchenie-statey",
-      "wpId": 64682,
-      "dup": false
+      "wpSlug": "generator-klyuchevyih-fraz",
+      "astroSlug": "semanticheskoe-yadro",
+      "wpId": 41330,
+      "dup": true
+    },
+    {
+      "wpSlug": "generator-komponovshhik-utm-metok",
+      "astroSlug": "utm-metki",
+      "wpId": 41583,
+      "dup": true
     },
     {
       "wpSlug": "geograficheskie-tonkosti-kak-prodvigat-sayt-v-regionah",
@@ -1096,12 +1240,6 @@
       "dup": false
     },
     {
-      "wpSlug": "glavnoe-o-kontent-plane",
-      "astroSlug": "kontent-plan",
-      "wpId": 64400,
-      "dup": false
-    },
-    {
       "wpSlug": "glavnaya-stranitsa-sayta-kak-dobitsya-chtobyi-ona-privlekla-obshhee-vnimanie",
       "astroSlug": "glavnaya-stranitsa",
       "wpId": 59378,
@@ -1111,6 +1249,12 @@
       "wpSlug": "glavnaya-stranitsa-sayta-kakie-tekstyi-ne-nuzhno-razmeshhat",
       "astroSlug": "tekst-glavnoy-stranitsy",
       "wpId": 57375,
+      "dup": false
+    },
+    {
+      "wpSlug": "glavnoe-o-kontent-plane",
+      "astroSlug": "kontent-plan",
+      "wpId": 64400,
       "dup": false
     },
     {
@@ -1340,6 +1484,24 @@
       "astroSlug": "json",
       "wpId": 56308,
       "dup": false
+    },
+    {
+      "wpSlug": "kak_osushchestvit_parsing_auditorii_instagram_teoriya_i_prakticheskie_rekomendacii",
+      "astroSlug": "parsing-auditorii",
+      "wpId": 56526,
+      "dup": true
+    },
+    {
+      "wpSlug": "kak_popast_v_rekomendacii_tik_tok_algoritm_ranzhirovaniya",
+      "astroSlug": "rekomendatsii-tiktok",
+      "wpId": 56767,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak_sozdat_snippet_s_vysokim_ctr",
+      "astroSlug": "snippet",
+      "wpId": 56409,
+      "dup": true
     },
     {
       "wpSlug": "kak-besplatno-nayti-konkurentov-po-klyuchevyim-slovam-i-zachem-eto-nuzhno",
@@ -1576,15 +1738,15 @@
       "dup": false
     },
     {
-      "wpSlug": "kak-ne-oshibitsya-v-poiske-podryadchika-po-kontekstnoy-reklame",
-      "astroSlug": "podryadchik-kontekst",
-      "wpId": 46692,
-      "dup": false
-    },
-    {
       "wpSlug": "kak-ne-oshibitsya-s-vyiborom-pochtovogo-servisa",
       "astroSlug": "pochtovyy-servis",
       "wpId": 63420,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-ne-oshibitsya-v-poiske-podryadchika-po-kontekstnoy-reklame",
+      "astroSlug": "podryadchik-kontekst",
+      "wpId": 46692,
       "dup": false
     },
     {
@@ -1843,6 +2005,12 @@
       "wpSlug": "kak-primenit-lestnitsu-uznavaemosti-hanta",
       "astroSlug": "lestnitsa-hanta",
       "wpId": 54930,
+      "dup": false
+    },
+    {
+      "wpSlug": "kak-prisvoit-region-saytu",
+      "astroSlug": "region-sayta",
+      "wpId": 39981,
       "dup": false
     },
     {
@@ -2158,6 +2326,12 @@
       "dup": false
     },
     {
+      "wpSlug": "kak-sozdat-chat-v-telegram",
+      "astroSlug": "chat-telegram",
+      "wpId": 59089,
+      "dup": false
+    },
+    {
       "wpSlug": "kak-sozdat-i-otpravit-krasivuyu-ssyilku-vkontakte-podrobnoe-rukovodstvo",
       "astroSlug": "ssylki-vkontakte",
       "wpId": 63110,
@@ -2228,6 +2402,12 @@
       "astroSlug": "udalenie-botov-instagram",
       "wpId": 64819,
       "dup": true
+    },
+    {
+      "wpSlug": "kak-udalit-otzyiv-na-2gis",
+      "astroSlug": "otzyv-2gis",
+      "wpId": 54034,
+      "dup": false
     },
     {
       "wpSlug": "kak-uderzhat-klienta-na-sayte",
@@ -2404,24 +2584,6 @@
       "dup": false
     },
     {
-      "wpSlug": "kak_osushchestvit_parsing_auditorii_instagram_teoriya_i_prakticheskie_rekomendacii",
-      "astroSlug": "parsing-auditorii",
-      "wpId": 56526,
-      "dup": true
-    },
-    {
-      "wpSlug": "kak_popast_v_rekomendacii_tik_tok_algoritm_ranzhirovaniya",
-      "astroSlug": "rekomendatsii-tiktok",
-      "wpId": 56767,
-      "dup": false
-    },
-    {
-      "wpSlug": "kak_sozdat_snippet_s_vysokim_ctr",
-      "astroSlug": "snippet",
-      "wpId": 56409,
-      "dup": true
-    },
-    {
       "wpSlug": "kakaya-nuzhna-dlina-seo-teksta",
       "astroSlug": "dlina-seo-teksta",
       "wpId": 54315,
@@ -2455,6 +2617,12 @@
       "wpSlug": "kakuyu-strategiyu-naznacheniya-stavok-v-adwords-vyibrat",
       "astroSlug": "strategii-google-ads",
       "wpId": 38993,
+      "dup": true
+    },
+    {
+      "wpSlug": "kalkulyator-konversii-roi",
+      "astroSlug": "roi-marketinga",
+      "wpId": 41353,
       "dup": true
     },
     {
@@ -3106,6 +3274,12 @@
       "dup": false
     },
     {
+      "wpSlug": "parsing_auditorii_chto_eto_i_kak_osushchestvit",
+      "astroSlug": "parsing-auditorii",
+      "wpId": 55444,
+      "dup": false
+    },
+    {
       "wpSlug": "parsing-email-adresov",
       "astroSlug": "parsing-email",
       "wpId": 55610,
@@ -3121,12 +3295,6 @@
       "wpSlug": "parsing-saytov-s-pomoshhyu-python-plyusyi-i-minusyi-kratkaya-instruktsiya-dlya-chaynikov",
       "astroSlug": "parsing-python",
       "wpId": 56344,
-      "dup": false
-    },
-    {
-      "wpSlug": "parsing_auditorii_chto_eto_i_kak_osushchestvit",
-      "astroSlug": "parsing-auditorii",
-      "wpId": 55444,
       "dup": false
     },
     {
@@ -3544,10 +3712,28 @@
       "dup": false
     },
     {
+      "wpSlug": "prosto-o-funktsionale-plyusah-i-nedostatkah-graficheskogo-redaktora-canva",
+      "astroSlug": "canva",
+      "wpId": 52531,
+      "dup": false
+    },
+    {
+      "wpSlug": "prostyimi-slovami-o-relevantnosti-sayta",
+      "astroSlug": "relevantnost-sayta",
+      "wpId": 38732,
+      "dup": false
+    },
+    {
       "wpSlug": "protokol_open_graph",
       "astroSlug": "open-graph",
       "wpId": 57636,
       "dup": true
+    },
+    {
+      "wpSlug": "protokol-http-chto-eto-i-dlya-chego-on-nujen",
+      "astroSlug": "protokol-http",
+      "wpId": 60275,
+      "dup": false
     },
     {
       "wpSlug": "provedenie-a-b-testov-v-yandeks-direkte-i-google-ads-rukovodstvo",
@@ -3565,24 +3751,6 @@
       "wpSlug": "proverka-istorii-domena-pered-pokupkoy-kak-i-dlya-chego",
       "astroSlug": "istoriya-domena",
       "wpId": 49398,
-      "dup": false
-    },
-    {
-      "wpSlug": "prosto-o-funktsionale-plyusah-i-nedostatkah-graficheskogo-redaktora-canva",
-      "astroSlug": "canva",
-      "wpId": 52531,
-      "dup": false
-    },
-    {
-      "wpSlug": "prostyimi-slovami-o-relevantnosti-sayta",
-      "astroSlug": "relevantnost-sayta",
-      "wpId": 38732,
-      "dup": false
-    },
-    {
-      "wpSlug": "protokol-http-chto-eto-i-dlya-chego-on-nujen",
-      "astroSlug": "protokol-http",
-      "wpId": 60275,
       "dup": false
     },
     {
@@ -4300,6 +4468,18 @@
       "dup": false
     },
     {
+      "wpSlug": "tseli-i-pravila-razmeshheniya-na-sayte-formyi-obratnoy-svyazi",
+      "astroSlug": "forma-obratnoy-svyazi",
+      "wpId": 64316,
+      "dup": false
+    },
+    {
+      "wpSlug": "tsena-klika-v-yandeks-kak-rasschitat-podhodyashhuyu-stavku",
+      "astroSlug": "tsena-klika-yandeks",
+      "wpId": 61756,
+      "dup": false
+    },
+    {
       "wpSlug": "tseplyayushhie-zagolovki-10-sposobov-sozdaniya",
       "astroSlug": "zagolovki-4u",
       "wpId": 50898,
@@ -4316,18 +4496,6 @@
       "astroSlug": "turbo-stranitsy",
       "wpId": 50029,
       "dup": true
-    },
-    {
-      "wpSlug": "tseli-i-pravila-razmeshheniya-na-sayte-formyi-obratnoy-svyazi",
-      "astroSlug": "forma-obratnoy-svyazi",
-      "wpId": 64316,
-      "dup": false
-    },
-    {
-      "wpSlug": "tsena-klika-v-yandeks-kak-rasschitat-podhodyashhuyu-stavku",
-      "astroSlug": "tsena-klika-yandeks",
-      "wpId": 61756,
-      "dup": false
     },
     {
       "wpSlug": "uchimsya-delat-idealnyie-fotografii-dlya-instagram",
@@ -4582,6 +4750,12 @@
       "dup": false
     },
     {
+      "wpSlug": "vse_chto_neobhodimo_znat_o_kviz_marketinge",
+      "astroSlug": "kviz-sayt",
+      "wpId": 56449,
+      "dup": true
+    },
+    {
       "wpSlug": "vse-chto-nuzhno-znat-o-navigacii-sajta",
       "astroSlug": "navigatsiya-sayta",
       "wpId": 58819,
@@ -4622,12 +4796,6 @@
       "astroSlug": "video-stories-instagram",
       "wpId": 58177,
       "dup": false
-    },
-    {
-      "wpSlug": "vse_chto_neobhodimo_znat_o_kviz_marketinge",
-      "astroSlug": "kviz-sayt",
-      "wpId": 56449,
-      "dup": true
     },
     {
       "wpSlug": "vspomogatelnyie-atributyi-tega-img-kak-zapolnyat-alt-i-title",
@@ -4675,6 +4843,12 @@
       "wpSlug": "vyivod-svoystv-infoblokov-1s-bitriks",
       "astroSlug": "bitrix-svoystva-infoblokov",
       "wpId": 41520,
+      "dup": false
+    },
+    {
+      "wpSlug": "yandeks-direkt-zapustil-rasshirennyiy-geotargeting",
+      "astroSlug": "geotargeting-direkt",
+      "wpId": 38694,
       "dup": false
     },
     {
@@ -4795,6 +4969,12 @@
       "wpSlug": "zakryitie-sayta-ili-ego-chasti-ot-indeksatsii",
       "astroSlug": "zakrytie-ot-indeksatsii",
       "wpId": 64236,
+      "dup": false
+    },
+    {
+      "wpSlug": "zakryitie-yandeks-kataloga",
+      "astroSlug": "yandeks-katalog",
+      "wpId": 42129,
       "dup": false
     },
     {

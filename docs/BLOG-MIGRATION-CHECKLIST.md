@@ -24,7 +24,7 @@
 
 - В БД **нет published**: `draft` 829 + `pending` 1.
 - На старом сайте раздел `/blog/` — рубрикатор; сами статьи лежат черновиками в админке.
-- Уже вынесено на Astro: **23** записей. Счётчик на `/blog/` ← `src/data/blog.ts` + `src/data/blog-migration.ts`.
+- Уже вынесено на Astro: **573** записей (+ 301 на каноны для dup). Счётчик на `/blog/` ← `src/data/blog.ts` + `src/data/blog-migration.ts`.
     - Ниже — **пригодные к переносу** (есть slug, заголовок, контент ≥ 800 символов HTML). Остальное — в конце как skip.
     - Сводка для UI: `eligible`/`skip` из чеклиста, `done` = число постов в Astro (перенос, не «новый формат»).
 
@@ -44,8 +44,8 @@
 |---------|------:|
 | Всего записей в БД | 830 |
 | Пригодных (≥800 симв., slug+title) | 813 |
-| Skip / мусор | 17 |
-| Уже на Astro | 404 |
+| Skip / мусор | 17 (все закрыты: 10 dup + 7 → `/blog/`) |
+| Уже на Astro | 573 |
 
 ### По основной рубрике (эвристика)
 
@@ -135,9 +135,9 @@
 - [x] `sklikivanie` ← WP `sklikivanie-sposobyi-vyiyavleniya-zashhityi-i-predotvrashheniya` (ID 64222, 2021-09-17, Контекстная реклама) — `/blog/sklikivanie/` · **новый формат**
 - [x] `kartinka-ssylka` ← WP `kartinka-ssyilka-pravila-sozdaniya-i-razmeshheniya` (ID 64212, 2021-09-14, SEO) — `/blog/kartinka-ssylka/` · **новый формат**
 - [x] `optimizatsiya-konversii` ← WP `optimizatsiya-konversii-effektivnye-sposoby-povyisit-prodazhi-na-sayte` (ID 64125, 2021-09-13, Интернет-маркетинг) — `/blog/optimizatsiya-konversii/` · **новый формат**
-- [ ] `osobennosti-rabotyi-smm-spetsialista` — **dup** → `/blog/menedzher-smm/` (обязанности, навыки, вход в SMM; канон уже в новом формате)
+- [x] `osobennosti-rabotyi-smm-spetsialista` — **dup** → `/blog/menedzher-smm/` (обязанности, навыки, вход в SMM; канон уже в новом формате)
 - [x] `seo-s-nulya` ← WP `izuchaem-seo-s-nulya-sovetyi-ot-teh-u-kogo-poluchilos-stat-krutyimi-spetsialistami` (ID 64168, 2021-09-09, SEO) — `/blog/seo-s-nulya/` · **новый формат**
-- [ ] `kak-organizovat-i-pravilno-ispolzovat-pryamuyu-translyatsiyu-v-instagram-2` — **dup** → `/blog/pryamoy-efir-instagram/` (подготовка, ведение, разбор эфира; канон уже в новом формате)
+- [x] `kak-organizovat-i-pravilno-ispolzovat-pryamuyu-translyatsiyu-v-instagram-2` — **dup** → `/blog/pryamoy-efir-instagram/` (подготовка, ведение, разбор эфира; канон уже в новом формате)
 - [x] `skrinshoty` ← WP `skrinshotyi-naznachenie-realizatsiya-i-instrumentyi` (ID 64129, 2021-09-03, Контент-маркетинг) — `/blog/skrinshoty/` · **новый формат**
 - [x] `infografika` ← WP `infografika-vidyi-naznachenie-i-primeryi-2` (ID 64114, 2021-08-31, Контент-маркетинг) — `/blog/infografika/` · **новый формат**
 - [x] `lid` ← WP `chto-takoe-lid-lead` (ID 64107, 2021-08-30, Интернет-маркетинг) — `/blog/lid/` · **новый формат**
@@ -152,8 +152,8 @@
 - [x] `top-instagram` ← WP `chto-daet-top-instagram-dlya-prodvizheniya-proekta` (ID 63957, 2021-08-10, SMM) — `/blog/top-instagram/` · **новый формат**
 - [x] `telegram-kanal` ← WP `razvivaem-kanala-telegram-s-nulya` (ID 63947, 2021-08-06, SMM) — `/blog/telegram-kanal/` · **новый формат**
 - [x] `optimizatsiya-stranitsy` ← WP `optimizatsiya-stranitsyi-pod-klyuchevoy-zapros` (ID 63919, 2021-08-02, SEO) — `/blog/optimizatsiya-stranitsy/` · **новый формат**
-- [ ] `partizanskiy-marketing-40-instrumentov-dlya-analiza-konkurentov` — **dup** → `/blog/analiz-konkurentov/` (каталог SEO/spy-сервисов, не классический партизанский маркетинг; канон уже в новом формате)
-- [ ] `kak-pravilno-vesti-gruppu-v-vk` — **dup** → `/blog/raskrutka-gruppy-vk/` (оформление, контент-план, посты, продвижение; канон уже в новом формате)
+- [x] `partizanskiy-marketing-40-instrumentov-dlya-analiza-konkurentov` — **dup** → `/blog/analiz-konkurentov/` (каталог SEO/spy-сервисов, не классический партизанский маркетинг; канон уже в новом формате)
+- [x] `kak-pravilno-vesti-gruppu-v-vk` — **dup** → `/blog/raskrutka-gruppy-vk/` (оформление, контент-план, посты, продвижение; канон уже в новом формате)
 - [x] `telegram` ← WP `telegram-osobennosti-naznachenie-i-sravnenie-s-konkurentami` (ID 63877, 2021-07-27, SMM) — `/blog/telegram/` · **новый формат** (смежно с `/blog/telegram-kanal/`)
 - [x] `shablon-instagram` ← WP `kak-sdelat-shablon-dlya-instagram-oformlyaem-postyi-krasivo` (ID 63775, 2021-07-23, SMM) — `/blog/shablon-instagram/` · **новый формат** (смежно с оформлением профиля / контент-планом)
 - [x] `statya-vk` ← WP `kak-podgotovit-i-opublikovat-statyu-v-vk-poshagovaya-instruktsiya` (ID 63694, 2021-07-20, SMM) — `/blog/statya-vk/` · **новый формат**
@@ -196,8 +196,8 @@
 - [x] `snizhenie-trafika` ← WP `pochemu-u-sayta-snizhaetsya-trafik-…` (ID 63087, 2021-06-15, SEO) — `/blog/snizhenie-trafika/` · **новый формат**
 - [x] `piksel-vk` ← WP `piksel-vkontakte-chto-eto-i-kak-s-nim-rabotat` (ID 63072, 2021-06-15, SMM) — `/blog/piksel-vk/` · **новый формат**
 - [x] `pinterest-skachat` ← WP `kak-skachat-kartinki-s-pinterest-…` (ID 63051, 2021-06-14, SMM) — `/blog/pinterest-skachat/` · **новый формат**
-- [ ] `uchimsya-delat-idealnyie-fotografii-dlya-instagram` — **dup** → `/blog/foto-instagram/` (композиция/свет/обработка для IG; канон уже в новом формате)
-- [ ] `vse-o-klyuchevyih-slovah-na-sayte-ot-teorii-do-praktiki` — **dup** → `/blog/semanticheskoe-yadro/` (теория ключей + Wordstat + конкуренты; канон уже в новом формате)
+- [x] `uchimsya-delat-idealnyie-fotografii-dlya-instagram` — **dup** → `/blog/foto-instagram/` (композиция/свет/обработка для IG; канон уже в новом формате)
+- [x] `vse-o-klyuchevyih-slovah-na-sayte-ot-teorii-do-praktiki` — **dup** → `/blog/semanticheskoe-yadro/` (теория ключей + Wordstat + конкуренты; канон уже в новом формате)
 
 ## SEO (297)
 
@@ -243,8 +243,8 @@
   ID `64932` · 2021-12-30 · ~15k · SEO · SMM · Медиа сервисы → Astro `/blog/veb-server/` · **новый формат** (категория SEO)
 - [x] `chto-predstavlyaet-soboy-didzhital-agenstvo-i-ego-napravleniya` — Что представляет собой диджитал-агенство и его направления    
   ID `64620` · 2021-12-29 · ~19k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/didzhital-agentstvo/` · **новый формат** (категория Интернет-маркетинг)
-- [ ] `vse-o-klyuchevyih-slovah-na-sayte-ot-teorii-do-praktiki` — Все о ключевых словах на сайте: от теории до практики    
-  ID `64902` · 2021-12-28 · ~12k · SEO · SMM · Интернет-маркетинг · **dup** → `/blog/semanticheskoe-yadro/` (не переносим)
+- [x] `vse-o-klyuchevyih-slovah-na-sayte-ot-teorii-do-praktiki` — Все о ключевых словах на сайте: от теории до практики    
+  ID `64902` · 2021-12-28 · ~12k · SEO · SMM · Интернет-маркетинг · **dup** → `/blog/semanticheskoe-yadro/` (не переносим) · редирект в `blog-redirects.json`
 - [x] `seo-prodvizhenie-sayta-kak-postroit-pravilnuyu-strukturu-i-rabotat-s-ney` — SEO-продвижение сайта: как построить правильную структуру и работать с ней    
   ID `64883` · 2021-12-27 · ~18k · SEO → Astro `/blog/seo-struktura-sayta/`
 - [x] `kak-pravilno-sostavit-opisanie-yutub-kanala` — Как правильно составить описание Ютуб-канала    
@@ -309,8 +309,8 @@
   ID `64212` · 2021-09-14 · ~7k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/kartinka-ssylka/` · **новый формат**
 - [x] `optimizatsiya-konversii-effektivnye-sposoby-povyisit-prodazhi-na-sayte` — Оптимизация конверсии. Эффективные способы повысить продажи на сайте    
   ID `64125` · 2021-09-13 · ~17k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса → Astro `/blog/optimizatsiya-konversii/` · **новый формат** (категория Интернет-маркетинг)
-- [ ] `osobennosti-rabotyi-smm-spetsialista` — Особенности работы SMM-специалиста — **dup** → `/blog/menedzher-smm/`    
-  ID `64185` · 2021-09-10 · ~15k · SEO · Интернет-маркетинг · Медиа сервисы
+- [x] `osobennosti-rabotyi-smm-spetsialista` — Особенности работы SMM-специалиста — **dup** → `/blog/menedzher-smm/`    
+  ID `64185` · 2021-09-10 · ~15k · SEO · Интернет-маркетинг · Медиа сервисы · редирект в `blog-redirects.json`
 - [x] `izuchaem-seo-s-nulya-sovetyi-ot-teh-u-kogo-poluchilos-stat-krutyimi-spetsialistami` — Изучаем SEO с нуля: советы от тех, у кого получилось стать крутыми специалистами    
   ID `64168` · 2021-09-09 · ~11k · SEO → Astro `/blog/seo-s-nulya/` · **новый формат**
 - [x] `kak-organizovat-i-pravilno-ispolzovat-pryamuyu-translyatsiyu-v-instagram-2` — Как организовать и правильно использовать прямую трансляцию в Instagram — **dup** → `/blog/pryamoy-efir-instagram/`    
@@ -341,10 +341,10 @@
   ID `63947` · 2021-08-06 · ~15k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/telegram-kanal/` · **новый формат** (категория SMM)
 - [x] `optimizatsiya-stranitsyi-pod-klyuchevoy-zapros` — Оптимизация страницы под ключевой запрос    
   ID `63919` · 2021-08-02 · ~8k · SEO → Astro `/blog/optimizatsiya-stranitsy/` · **новый формат**
-- [ ] `partizanskiy-marketing-40-instrumentov-dlya-analiza-konkurentov` — **dup** → `/blog/analiz-konkurentov/` (40+ инструментов анализа конкурентов / spy-SEO; канон уже в новом формате)
-  ID `63804` · 2021-08-02 · ~40k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса
-- [ ] `kak-pravilno-vesti-gruppu-v-vk` — **dup** → `/blog/raskrutka-gruppy-vk/` (оформление, контент-план, ведение, продвижение; канон уже в новом формате)
-  ID `63891` · 2021-07-30 · ~23k · SEO · Интернет-маркетинг · Медиа сервисы
+- [x] `partizanskiy-marketing-40-instrumentov-dlya-analiza-konkurentov` — **dup** → `/blog/analiz-konkurentov/` (40+ инструментов анализа конкурентов / spy-SEO; канон уже в новом формате)
+  ID `63804` · 2021-08-02 · ~40k · SEO · Интернет-маркетинг · Продвижение по тематикам бизнеса · редирект в `blog-redirects.json`
+- [x] `kak-pravilno-vesti-gruppu-v-vk` — **dup** → `/blog/raskrutka-gruppy-vk/` (оформление, контент-план, ведение, продвижение; канон уже в новом формате)
+  ID `63891` · 2021-07-30 · ~23k · SEO · Интернет-маркетинг · Медиа сервисы · редирект в `blog-redirects.json`
 - [x] `telegram-osobennosti-naznachenie-i-sravnenie-s-konkurentami` — Telegram. Особенности, назначение и сравнение с конкурентами    
   ID `63877` · 2021-07-27 · ~26k · SEO · Интернет-маркетинг · Медиа сервисы → Astro `/blog/telegram/` · **новый формат** (категория SMM; смежно с `/blog/telegram-kanal/`)
 - [x] `kak-sdelat-shablon-dlya-instagram-oformlyaem-postyi-krasivo` — Как сделать шаблон для Инстаграм. Оформляем посты красиво.    
@@ -1890,55 +1890,55 @@
 
 - [x] `instruktsia-kak-bystro-popast-na-google-karty` — Инструкция: Как быстро попасть на Google Карты → `/blog/google-biznes/` (dup)
   ID `56186` · 2020-03-25 · ~15k · Продвижение в картах и справочниках · **dup** → `/blog/google-biznes/` (Business Profile / Maps — в каноне)
-- [ ] `kak-udalit-otzyiv-na-2gis` — Как удалить отзыв на 2ГИС    
-  ID `54034` · 2019-12-23 · ~9k · Продвижение в картах и справочниках
-- [ ] `zakryitie-yandeks-kataloga` — Закрытие Яндекс каталога    
-  ID `42129` · 2018-03-13 · ~4k · Продвижение в картах и справочниках
-- [ ] `kak-prisvoit-region-saytu` — Как присвоить регион сайту?    
-  ID `39981` · 2017-07-04 · ~5k · Продвижение в картах и справочниках
-- [ ] `yandeks-direkt-zapustil-rasshirennyiy-geotargeting` — Яндекс.Директ запустил расширенный геотаргетинг    
-  ID `38694` · 2017-05-05 · ~3k · Продвижение в картах и справочниках
+- [x] `kak-udalit-otzyiv-na-2gis` — Как удалить отзыв на 2ГИС → `/blog/otzyv-2gis/`
+  ID `54034` · 2019-12-23 · ~9k · Продвижение в картах и справочниках → Astro `/blog/otzyv-2gis/` · **новый формат**
+- [x] `zakryitie-yandeks-kataloga` — Закрытие Яндекс каталога → `/blog/yandeks-katalog/`
+  ID `42129` · 2018-03-13 · ~4k · Продвижение в картах и справочниках → Astro `/blog/yandeks-katalog/` · **новый формат**
+- [x] `kak-prisvoit-region-saytu` — Как присвоить регион сайту? → `/blog/region-sayta/`
+  ID `39981` · 2017-07-04 · ~5k · Продвижение в картах и справочниках → Astro `/blog/region-sayta/` · **новый формат** (не dup `/blog/regionalnoe-seo/` — там стратегия мультигорода; здесь механика региона)
+- [x] `yandeks-direkt-zapustil-rasshirennyiy-geotargeting` — Яндекс.Директ запустил расширенный геотаргетинг → `/blog/geotargeting-direkt/`
+  ID `38694` · 2017-05-05 · ~3k · Продвижение в картах и справочниках → Astro `/blog/geotargeting-direkt/` · **новый формат** (не dup `/blog/giperlokalnyy-targeting/` — там радиус у точки; здесь гео кампаний Директа)
 
 ## Наши Сервисы (3)
 
-- [ ] `kalkulyator-konversii-roi` — Калькулятор конверсии ROI    
-  ID `41353` · 2017-12-12 · ~8k · Наши Сервисы
-- [ ] `generator-komponovshhik-utm-metok` — Генератор / Компоновщик UTM-меток    
-  ID `41583` · 2017-12-12 · ~6k · Наши Сервисы
-- [ ] `generator-klyuchevyih-fraz` — Генератор ключевых фраз    
-  ID `41330` · 2017-12-01 · ~7k · Наши Сервисы
+- [x] `kalkulyator-konversii-roi` — Калькулятор конверсии ROI → `/blog/roi-marketinga/` (dup)
+  ID `41353` · 2017-12-12 · ~8k · Наши Сервисы · **dup** → `/blog/roi-marketinga/` (формулы ROI/ROMI, примеры, нюансы — в каноне; отдельный виджет-калькулятор на Astro не переносим)
+- [x] `generator-komponovshhik-utm-metok` — Генератор / Компоновщик UTM-меток → `/blog/utm-metki/` (dup)
+  ID `41583` · 2017-12-12 · ~6k · Наши Сервисы · **dup** → `/blog/utm-metki/` (параметры UTM, правила, Метрика/GA — в каноне; встроенный компоновщик WP не переносим)
+- [x] `generator-klyuchevyih-fraz` — Генератор ключевых фраз → `/blog/semanticheskoe-yadro/` (dup)
+  ID `41330` · 2017-12-01 · ~7k · Наши Сервисы · **dup** → `/blog/semanticheskoe-yadro/` (ключи, типы запросов, СЯ — в каноне; WP-виджет генератора не переносим; Wordstat — `/blog/wordstat/`)
 
 ## Без рубрики (2)
 
-- [ ] `kak-sozdat-chat-v-telegram` — Как создать чат в Телеграм    
-  ID `59089` · 2020-11-16 · ~11k · Без рубрики
-- [ ] `chem-polezen-google-analytics-dlya-onlaynovyih-magazinov` — Чем полезен Google Analytics для онлайновых магазинов?    
-  ID `55000` · 2020-01-27 · ~13k · Без рубрики
+- [x] `kak-sozdat-chat-v-telegram` — Как создать чат в Телеграм → `/blog/chat-telegram/`
+  ID `59089` · 2020-11-16 · ~11k · Без рубрики → Astro `/blog/chat-telegram/` · **новый формат** (не dup `/blog/telegram-kanal/` / `/blog/sekretnyy-chat-telegram/` — канал и секретный 1‑на‑1; здесь создание группы)
+- [x] `chem-polezen-google-analytics-dlya-onlaynovyih-magazinov` — Чем полезен Google Analytics для онлайновых магазинов? → `/blog/google-analytics/` (dup)
+  ID `55000` · 2020-01-27 · ~13k · Без рубрики · **dup** → `/blog/google-analytics/` (поведение ИМ, воронка, ecommerce — в каноне; цели UA→GA4 — `/blog/google-analytics-tseli/`; модель GA4 — `/blog/ga4/`)
 
 ## Skip / не переносим
 
-Всего: **17** (нет slug/title или контент &lt; 800 символов).  
+Всего: **17** исходных skip — **закрыты**: **10** → **dup** на канон, **7** → хаб `/blog/` по `?p={id}`. Очередь skip пуста.  
 Почти-дубли уже перенесённых статей помечаются в основном списке статусом **`dup → <канон>`**, а не обязательно здесь.
 
 <details><summary>Список skip</summary>
 
-- skip ID `67162` · 2025-09-16 · `(no-slug)` · — · 77 симв.
-- skip ID `60088` · 2020-12-14 · `(no-slug)` · Реклама в «Одноклассниках». Настройка, аудитория, отклик · 5694 симв.
-- skip ID `59477` · 2020-11-26 · `(no-slug)` · Что такое FTP-протокол и как с его помощью работать с сайтом · 4498 симв.
-- skip ID `58519` · 2020-10-08 · `(no-slug)` · Планируем архитектуру сайта: 15 советов для грамотной seo оптимизации · 334 симв.
-- skip ID `58077` · 2020-09-02 · `(no-slug)` · Управляем контентом: зачем нужна админка сайта · 5505 симв.
-- skip ID `57188` · 2020-07-07 · `(no-slug)` · Что такое анкорные и безанкорные ссылки, и как их правильно использовать · 8760 симв.
-- skip ID `57121` · 2020-06-30 · `(no-slug)` · Черновик, для создания новой записи. Копируем его · 129 симв.
-- skip ID `55191` · 2020-02-05 · `(no-slug)` · — · 0 симв.
-- skip ID `55132` · 2020-01-31 · `(no-slug)` · — · 0 симв.
-- skip ID `38810` · 2020-01-24 · `(no-slug)` · Как избавиться от статуса Мало Показов в Яндекс Директ · 5109 симв.
-- skip ID `46552` · 2018-11-23 · `(no-slug)` · Турбо-страницы Яндекс.Директа: полное руководство по настройке · 475 симв.
-- skip ID `41938` · 2018-02-14 · `(no-slug)` · Установка ModX Revolution на локальный веб-сервер · 0 симв.
-- skip ID `41673` · 2017-12-14 · `(no-slug)` · — · 0 симв.
-- skip ID `41064` · 2017-11-09 · `(no-slug)` · Настройка целей в Яндекс.Метрике · 0 симв.
-- skip ID `40819` · 2017-09-20 · `(no-slug)` · Увеличиваем трафик из социальных сетей с помощью протокола Open Graph · 0 симв.
-- skip ID `40716` · 2017-08-30 · `(no-slug)` · — · 0 симв.
-- skip ID `40709` · 2017-08-30 · `(no-slug)` · — · 0 симв.
+- skip→hub ID `67162` · 2025-09-16 · `(no-slug)` · пустой черновик · **→** `/blog/` (`?p=67162`)
+- skip→dup ID `60088` · 2020-12-14 · `(no-slug)` · Реклама в «Одноклассниках»… · **dup** → `/blog/reklama-odnoklassniki/` (`?p=60088`)
+- skip→dup ID `59477` · 2020-11-26 · `(no-slug)` · FTP-протокол · **dup** → `/blog/ftp/` (`?p=59477`)
+- skip→dup ID `58519` · 2020-10-08 · `(no-slug)` · Архитектура сайта / SEO · **dup** → `/blog/seo-struktura-sayta/` (`?p=58519`)
+- skip→dup ID `58077` · 2020-09-02 · `(no-slug)` · Админка сайта · **dup** → `/blog/adminka-sayta/` (`?p=58077`)
+- skip→dup ID `57188` · 2020-07-07 · `(no-slug)` · Анкорные/безанкорные ссылки · **dup** → `/blog/chto-takoe-ssylka/` (`?p=57188`)
+- skip→hub ID `57121` · 2020-06-30 · `(no-slug)` · шаблон черновика · **→** `/blog/` (`?p=57121`)
+- skip→hub ID `55191` · 2020-02-05 · `(no-slug)` · пустой · **→** `/blog/` (`?p=55191`)
+- skip→hub ID `55132` · 2020-01-31 · `(no-slug)` · пустой · **→** `/blog/` (`?p=55132`)
+- skip→dup ID `38810` · 2020-01-24 · `(no-slug)` · Мало показов в Директе · **dup** → `/blog/malo-pokazov/` (`?p=38810`)
+- skip→dup ID `46552` · 2018-11-23 · `(no-slug)` · Турбо Директа · **dup** → `/blog/turbo-stranitsy/` (`?p=46552`)
+- skip→dup ID `41938` · 2018-02-14 · `(no-slug)` · ModX local · **dup** → `/blog/modx-local/` (`?p=41938`)
+- skip→hub ID `41673` · 2017-12-14 · `(no-slug)` · пустой · **→** `/blog/` (`?p=41673`)
+- skip→dup ID `41064` · 2017-11-09 · `(no-slug)` · Цели Метрики · **dup** → `/blog/metrika-tseli/` (`?p=41064`)
+- skip→dup ID `40819` · 2017-09-20 · `(no-slug)` · Open Graph · **dup** → `/blog/open-graph/` (`?p=40819`)
+- skip→hub ID `40716` · 2017-08-30 · `(no-slug)` · пустой · **→** `/blog/` (`?p=40716`)
+- skip→hub ID `40709` · 2017-08-30 · `(no-slug)` · пустой · **→** `/blog/` (`?p=40709`)
 
 </details>
 

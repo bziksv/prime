@@ -591,6 +591,11 @@ export const blogNewFormatSlugs: string[] = [
   "oformlenie-email",
   "push-uvedomleniya",
   "uderzhanie-podpischikov",
+  "otzyv-2gis",
+  "yandeks-katalog",
+  "region-sayta",
+  "geotargeting-direkt",
+  "chat-telegram",
 ];
 /** Основная рубрика в чеклисте (эвристика по WP) */
 export const blogMigrationByCategory: { name: string; count: number }[] = [

@@ -566,6 +566,11 @@ import verstkaEmail from "./blog-posts/verstka-email.json";
 import oformlenieEmail from "./blog-posts/oformlenie-email.json";
 import pushUvedomleniya from "./blog-posts/push-uvedomleniya.json";
 import uderzhaniePodpischikov from "./blog-posts/uderzhanie-podpischikov.json";
+import otzyv2gis from "./blog-posts/otzyv-2gis.json";
+import yandeksKatalog from "./blog-posts/yandeks-katalog.json";
+import regionSayta from "./blog-posts/region-sayta.json";
+import geotargetingDirekt from "./blog-posts/geotargeting-direkt.json";
+import chatTelegram from "./blog-posts/chat-telegram.json";
 import blogViewsSeed from "./blog-views-seed.json";
 
 const viewsSeed = blogViewsSeed as Record<string, number>;
@@ -1327,6 +1332,11 @@ export const blogPosts: BlogPost[] = [
   sanitizePost(oformlenieEmail as BlogPost),
   sanitizePost(pushUvedomleniya as BlogPost),
   sanitizePost(uderzhaniePodpischikov as BlogPost),
+  sanitizePost(otzyv2gis as BlogPost),
+  sanitizePost(yandeksKatalog as BlogPost),
+  sanitizePost(regionSayta as BlogPost),
+  sanitizePost(geotargetingDirekt as BlogPost),
+  sanitizePost(chatTelegram as BlogPost),
 ].sort((a, b) => b.date.localeCompare(a.date));
 
 export function getBlogPost(slug: string): BlogPost | undefined {
@@ -5904,6 +5914,26 @@ export function getCoverCaption(post: BlogPost): { title: string; subtitle: stri
     "kommentarii-instagram": {
       title: "Комментарии Instagram",
       subtitle: "Ответы и модерация",
+    },
+    "otzyv-2gis": {
+      title: "Отзыв на 2ГИС",
+      subtitle: "Что реально можно сделать",
+    },
+    "yandeks-katalog": {
+      title: "Яндекс.Каталог закрыт",
+      subtitle: "Чем заменить регистрацию",
+    },
+    "region-sayta": {
+      title: "Регион сайта",
+      subtitle: "Вебмастер, карта, контакты",
+    },
+    "geotargeting-direkt": {
+      title: "Геотаргетинг в Директе",
+      subtitle: "Поиск, сети, расширенные опции",
+    },
+    "chat-telegram": {
+      title: "Чат в Telegram",
+      subtitle: "Создать группу и настроить",
     },
   };
   return (
