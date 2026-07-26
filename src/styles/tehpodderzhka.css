@@ -540,6 +540,15 @@
   margin-bottom: 1.75rem;
 }
 
+.p-kicker {
+  margin: 0 0 0.45rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--p-forest);
+}
+
 .p-section__head h2 {
   margin: 0 0 0.55rem;
   font-family: var(--font-display);
