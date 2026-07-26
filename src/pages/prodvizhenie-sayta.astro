@@ -18,6 +18,8 @@ import {
   seoRegions,
   seoPlainSpeak,
   seoDemoRanks,
+  seoNos,
+  seoFaq,
 } from "../data/seo-service";
 
 const seoCases = getCasesByCategory("seo").slice(0, 4);
@@ -40,8 +42,26 @@ const chapters = [
   { id: "pricing", label: "Тарифы" },
   { id: "advantages", label: "Плюсы" },
   ...(seoCases.length > 0 ? [{ id: "cases", label: "Кейсы" }] : []),
+  { id: "faq", label: "FAQ" },
   { id: "seo-cta", label: "Заявка" },
 ];
+
+const pageTitle = "Продвижение сайта — ПРАЙМ";
+const pageDescription =
+  "SEO-продвижение сайта с оплатой по факту ТОП-10. Аналитика, аудит, внутренняя и внешняя оптимизация. Подготовка ~1 мес., выход в ТОП планово 2–6 мес. Тарифы для регионов, Москвы и СПб.";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: seoFaq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
 ---
 
 <!doctype html>
@@ -49,14 +69,11 @@ const chapters = [
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="SEO-продвижение сайта с оплатой по факту ТОП-10. Аналитика, аудит, внутренняя и внешняя оптимизация. Тарифы для регионов, Москвы и СПб."
-    />
-    <title>Продвижение сайта — ПРАЙМ</title>
+    <meta name="description" content={pageDescription} />
+    <title>{pageTitle}</title>
     <SiteSeo
-      title="Продвижение сайта — ПРАЙМ"
-      description="SEO-продвижение сайта с оплатой по факту ТОП-10. Аналитика, аудит, внутренняя и внешняя оптимизация. Тарифы для регионов, Москвы и СПб."
+      title={pageTitle}
+      description={pageDescription}
       path="/prodvizhenie-sayta/"
     />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
@@ -68,6 +85,7 @@ const chapters = [
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   </head>
   <body>
     <div class="v6-app">
@@ -459,6 +477,40 @@ const chapters = [
               </section>
             )
           }
+
+          <section class="s-section s-reveal" id="honest" data-s-section>
+            <div class="s-section__head">
+              <h2>Чего не обещаем</h2>
+              <p>Чтобы «запуск» не читался как гарантия ТОП-10 через месяц.</p>
+            </div>
+            <div class="s-nos">
+              {
+                seoNos.map((item) => (
+                  <article class="s-no">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="s-section s-reveal" id="faq" data-s-section>
+            <div class="s-section__head">
+              <h2>Частые вопросы</h2>
+              <p>Оплата по факту, сроки ТОП, отличие от трафика и тарифы.</p>
+            </div>
+            <div class="s-faq">
+              {
+                seoFaq.map((item) => (
+                  <details class="s-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
+          </section>
           </div>
 
           <section id="seo-cta" class="s-cta s-reveal" data-s-section>
@@ -471,7 +523,7 @@ const chapters = [
                 </p>
                 <ul class="s-cta__points">
                   <li>Разбор ниши и конкуренции в вашем регионе</li>
-                  <li>Оценка ядра и сроков выхода в ТОП-10</li>
+                  <li>Подготовка ~1 мес. · ТОП планово 2–6 мес.</li>
                   <li>Расчёт тарифа — без скрытых «пакетов»</li>
                   <li>Оплата по факту позиций, не «за процесс»</li>
                 </ul>
