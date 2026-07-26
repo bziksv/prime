@@ -3,6 +3,8 @@ type LeadPayload = {
   phone: string;
   email: string;
   service: string;
+  site: string;
+  brand: string;
   message: string;
   page: string;
   source: string;
@@ -83,7 +85,9 @@ export function bindLeadForm(opts: BindLeadFormOptions): void {
       name: field(fd, "name"),
       phone: field(fd, "phone"),
       email: field(fd, "email"),
-      service: field(fd, "service") || field(fd, "type"),
+      service: field(fd, "service") || field(fd, "type") || field(fd, "focus"),
+      site: field(fd, "site"),
+      brand: field(fd, "brand"),
       message: field(fd, "message"),
       page: location.pathname,
       source,

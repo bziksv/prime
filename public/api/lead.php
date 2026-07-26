@@ -96,6 +96,8 @@ $name = lead_clean((string) ($payload['name'] ?? ''), 80);
 $phone = lead_clean((string) ($payload['phone'] ?? ''), 40);
 $email = lead_clean((string) ($payload['email'] ?? ''), 120);
 $service = lead_clean((string) ($payload['service'] ?? ''), 120);
+$site = lead_clean((string) ($payload['site'] ?? ''), 200);
+$brand = lead_clean((string) ($payload['brand'] ?? ''), 120);
 $message = lead_clean((string) ($payload['message'] ?? ''), 2000);
 $page = lead_clean((string) ($payload['page'] ?? ''), 200);
 $source = lead_clean((string) ($payload['source'] ?? ''), 80);
@@ -128,7 +130,9 @@ $lines = [
     "Имя: {$name}",
     "Телефон: {$phone}",
     "Email: " . ($email !== '' ? $email : '—'),
-    "Услуга: " . ($service !== '' ? $service : '—'),
+    "Услуга / фокус: " . ($service !== '' ? $service : '—'),
+    "Сайт: " . ($site !== '' ? $site : '—'),
+    "Бренд: " . ($brand !== '' ? $brand : '—'),
     "Страница: " . ($page !== '' ? "https://prime-ltd.su{$page}" : '—'),
     "Источник: " . ($source !== '' ? $source : '—'),
     "IP: {$ip}",
@@ -164,6 +168,8 @@ $logName = $dataDir . '/' . date('Ymd-His') . '-' . substr(hash('sha256', $ip . 
             'phone' => $phone,
             'email' => $email,
             'service' => $service,
+            'site' => $site,
+            'brand' => $brand,
             'page' => $page,
             'source' => $source,
             'ip' => $ip,

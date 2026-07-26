@@ -13,8 +13,28 @@ import {
   ormPillars,
   ormPlatforms,
   ormSteps,
+  ormOutcomes,
+  ormNos,
+  ormFaq,
   ormPricing,
 } from "../data/orm-service";
+
+const pageTitle = "Управление репутацией — ПРАЙМ";
+const pageDescription =
+  "Управление репутацией: аудит, стратегия, мониторинг негатива и формирование позитивного имиджа на Яндекс и Google Картах и отзовиках. Без накрутки отзывов.";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: ormFaq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
 ---
 
 <!doctype html>
@@ -22,14 +42,11 @@ import {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Управление репутацией: аудит, стратегия, мониторинг негатива и формирование позитивного имиджа на Яндекс и Google Картах и отзовиках."
-    />
-    <title>Управление репутацией — ПРАЙМ</title>
+    <meta name="description" content={pageDescription} />
+    <title>{pageTitle}</title>
     <SiteSeo
-      title="Управление репутацией — ПРАЙМ"
-      description="Управление репутацией: аудит, стратегия, мониторинг негатива и формирование позитивного имиджа на Яндекс и Google Картах и отзовиках."
+      title={pageTitle}
+      description={pageDescription}
       path="/upravlenie-reputaciej/"
     />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
@@ -41,6 +58,7 @@ import {
       href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Outfit:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   </head>
   <body>
     <div class="v6-app">
@@ -184,12 +202,63 @@ import {
             </div>
           </section>
 
+          <section class="o-section o-reveal">
+            <div class="o-section__head">
+              <h2>Что меняется на практике</h2>
+              <p>Не «звёздочки ради отчёта», а система, которую видно клиенту и команде.</p>
+            </div>
+            <div class="o-outcomes">
+              {
+                ormOutcomes.map((item) => (
+                  <article class="o-outcome">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="o-section o-reveal">
+            <div class="o-section__head">
+              <h2>Чего не делаем</h2>
+              <p>Чтобы не путать управление репутацией с серыми схемами.</p>
+            </div>
+            <div class="o-nos">
+              {
+                ormNos.map((item) => (
+                  <article class="o-no">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
           <section class="o-price o-reveal">
             <div>
               <h2>{ormPricing.title}</h2>
               <p>{ormPricing.text}</p>
             </div>
             <p class="o-price__mark">После разбора ниши и площадок</p>
+          </section>
+
+          <section class="o-section o-reveal" id="faq">
+            <div class="o-section__head">
+              <h2>Частые вопросы</h2>
+              <p>Коротко о сроках, площадках и том, с чего начать.</p>
+            </div>
+            <div class="o-faq">
+              {
+                ormFaq.map((item) => (
+                  <details class="o-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
           </section>
 
           <section id="orm-cta" class="o-cta o-reveal">
