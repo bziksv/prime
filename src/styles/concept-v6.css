@@ -223,6 +223,13 @@
   border-bottom: 1px solid var(--border);
 }
 
+/* Sticky topbar must not cover in-page anchors */
+.v6-content > section[id],
+.v6-content [id$="-cta"],
+.home-hero[id] {
+  scroll-margin-top: 5.5rem;
+}
+
 .v6-burger {
   display: none;
   background: none;

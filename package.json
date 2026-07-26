@@ -10,6 +10,7 @@
     "htaccess:blog": "node scripts/generate-blog-htaccess.mjs"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
     "@splinetool/runtime": "^1.12.98",
     "astro": "^5.7.0"
   }
