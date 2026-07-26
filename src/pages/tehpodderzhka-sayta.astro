@@ -15,9 +15,29 @@ import {
   supportRoles,
   supportTariffs,
   supportPerks,
+  supportOutcomes,
+  supportNos,
+  supportFaq,
 } from "../data/support-service";
 
 const maxTariffHours = Math.max(...supportTariffs.map((t) => t.hours));
+
+const pageTitle = "Техподдержка сайта — ПРАЙМ";
+const pageDescription =
+  "Техподдержка и сопровождение сайта: доработки, контент, дизайн, оплаты, ускорение. Тарифы от 3 до 50 часов с персональным PM и мониторингом.";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: supportFaq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
 ---
 
 <!doctype html>
@@ -25,14 +45,11 @@ const maxTariffHours = Math.max(...supportTariffs.map((t) => t.hours));
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Техподдержка и сопровождение сайта: доработки, контент, дизайн, оплаты, ускорение. Тарифы от 3 до 50 часов с персональным PM и мониторингом."
-    />
-    <title>Техподдержка сайта — ПРАЙМ</title>
+    <meta name="description" content={pageDescription} />
+    <title>{pageTitle}</title>
     <SiteSeo
-      title="Техподдержка сайта — ПРАЙМ"
-      description="Техподдержка и сопровождение сайта: доработки, контент, дизайн, оплаты, ускорение. Тарифы от 3 до 50 часов с персональным PM и мониторингом."
+      title={pageTitle}
+      description={pageDescription}
       path="/tehpodderzhka-sayta/"
     />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
@@ -44,6 +61,7 @@ const maxTariffHours = Math.max(...supportTariffs.map((t) => t.hours));
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   </head>
   <body>
     <div class="v6-app">
@@ -333,6 +351,60 @@ const maxTariffHours = Math.max(...supportTariffs.map((t) => t.hours));
                       Выбрать {t.name}
                     </a>
                   </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="p-section p-reveal">
+            <div class="p-section__head">
+              <p class="p-kicker">Результат</p>
+              <h2>Что меняется с сопровождением</h2>
+              <p>Не штат на ФОТ — предсказуемый пул часов и одна точка входа.</p>
+            </div>
+            <div class="p-outcomes">
+              {
+                supportOutcomes.map((item) => (
+                  <article class="p-outcome">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="p-section p-reveal">
+            <div class="p-section__head">
+              <p class="p-kicker">Честно</p>
+              <h2>Чего не обещаем</h2>
+              <p>Чтобы тариф поддержки не путали с разработкой «с нуля» и безлимитом.</p>
+            </div>
+            <div class="p-nos">
+              {
+                supportNos.map((item) => (
+                  <article class="p-no">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="p-section p-reveal" id="faq">
+            <div class="p-section__head">
+              <p class="p-kicker">FAQ</p>
+              <h2>Частые вопросы</h2>
+              <p>Часы, выбор тарифа, разовые задачи и CMS.</p>
+            </div>
+            <div class="p-faq">
+              {
+                supportFaq.map((item) => (
+                  <details class="p-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
                 ))
               }
             </div>

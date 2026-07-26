@@ -7,6 +7,7 @@ type LeadPayload = {
   brand: string;
   crm: string;
   region: string;
+  tariff: string;
   message: string;
   page: string;
   source: string;
@@ -17,6 +18,15 @@ const regionLabels: Record<string, string> = {
   region: "Регионы РФ",
   capital: "Москва / СПб",
   multi: "Несколько регионов",
+};
+
+const tariffLabels: Record<string, string> = {
+  t3: "Т-3",
+  t5: "Т-5",
+  t10: "Т-10",
+  t20: "Т-20",
+  t50: "Т-50",
+  consult: "Консультация",
 };
 
 export type BindLeadFormOptions = {
@@ -90,6 +100,7 @@ export function bindLeadForm(opts: BindLeadFormOptions): void {
 
     const fd = new FormData(form);
     const regionRaw = field(fd, "region");
+    const tariffRaw = field(fd, "tariff");
     const payload: LeadPayload = {
       name: field(fd, "name"),
       phone: field(fd, "phone"),
@@ -99,6 +110,7 @@ export function bindLeadForm(opts: BindLeadFormOptions): void {
       brand: field(fd, "brand"),
       crm: field(fd, "crm"),
       region: regionLabels[regionRaw] || regionRaw,
+      tariff: tariffLabels[tariffRaw] || tariffRaw,
       message: field(fd, "message"),
       page: location.pathname,
       source,
