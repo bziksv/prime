@@ -3,7 +3,7 @@
   "title": "Что изменилось в Google Analytics 4: от сессий к событиям",
   "date": "2020-10-16",
   "category": "Интернет-маркетинг",
-  "cover": "/images/blog/ga4/cover.jpg",
+  "cover": "/images/blog/ga4/cover.webp",
   "excerpt": "Чем GA4 отличается от Universal Analytics: событийная модель, сайт и приложение в одном свойстве, enhanced measurements, аудитории и исследования. Без ностальгии по UA и без скринов кнопок 2020 года.",
   "lead": [
     "Google Analytics 4 сменил привычную логику Universal Analytics: вместо «хитов и сессий как главной оси» — события и параметры. Сайт и приложение можно смотреть в одной схеме данных.",

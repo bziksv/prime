@@ -3,7 +3,7 @@
   "title": "SEO в 1С-Битрикс: robots, мета и базовая настройка",
   "date": "2021-06-22",
   "category": "SEO",
-  "cover": "/images/blog/seo-bitrix/cover.jpg",
+  "cover": "/images/blog/seo-bitrix/cover.webp",
   "excerpt": "Что даёт встроенный SEO-модуль 1С-Битрикс, как аккуратно работать с robots.txt, шаблонами мета и счётчиками — без каталога платных модулей Marketplace как единственного решения.",
   "lead": [
     "1С-Битрикс закрывает много задач «из коробки», но SEO само себя не настроит: нужны robots/sitemap, шаблоны title/description, ЧПУ, счётчики и контроль дублей.",

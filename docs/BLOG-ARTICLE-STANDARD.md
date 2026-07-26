@@ -44,7 +44,7 @@
 
 ### 3. Обложка
 
-- [ ] AI-картинка в `public/images/blog/<slug>/cover.jpg` (**сток запрещён** — см. `image-assets`)
+- [ ] AI-картинка в `public/images/blog/<slug>/cover.webp` (**сток запрещён** — см. `image-assets`)
 - [ ] Тематика статьи, не абстрактный «офис»
 - [ ] **Без текста на картинке** (EN/RU): заголовок только через `getCoverCaption` оверлеем в вёрстке
 - [ ] Safe zone ~15% от краёв — превью карточки режет `object-fit: cover`
@@ -136,7 +136,7 @@
 | Шаблон | `src/pages/blog/[slug].astro` |
 | Стили | `src/styles/blog.css` |
 | Клиент статьи | `src/scripts/blog-article-interact.ts`, `blog-ui.ts` |
-| Обложка | `public/images/blog/<slug>/cover.jpg` |
+| Обложка | `public/images/blog/<slug>/cover.webp` |
 | Прогресс миграции UI | `src/data/blog-migration.ts` |
 | Карта 301 (WP→Astro) | `src/data/blog-redirects.json` |
 | Генератор `.htaccess` | `scripts/generate-blog-htaccess.mjs` (`npm run htaccess:blog`) |

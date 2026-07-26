@@ -3,7 +3,7 @@
   "title": "Как настроить Google Analytics 4: инструкция для новичков",
   "date": "2019-08-15",
   "category": "Интернет-маркетинг",
-  "cover": "/images/blog/google-analytics-nastroyka/cover.jpg",
+  "cover": "/images/blog/google-analytics-nastroyka/cover.webp",
   "excerpt": "Базовая настройка GA4: аккаунт, свойство, поток данных, установка тега или GTM, проверка в DebugView и что сделать сразу после — без скринов Universal Analytics.",
   "lead": [
     "Чтобы видеть трафик и события, нужен Google-аккаунт, свойство GA4, поток данных сайта и код/тег на страницах. Старые гайды про «UA-XXXX и представления» устарели: ниже — логика GA4 для новичка.",

@@ -3,7 +3,7 @@
   "title": "Воронка продаж через GTM: события и узкие места checkout",
   "date": "2019-07-16",
   "category": "Интернет-маркетинг",
-  "cover": "/images/blog/voronka-prodazh-gtm/cover.jpg",
+  "cover": "/images/blog/voronka-prodazh-gtm/cover.webp",
   "excerpt": "Как разметить воронку e‑commerce через Google Tag Manager и смотреть обрывы в GA4: шаги каталог → корзина → checkout → заказ, события вместо устаревших «виртуальных страниц» Universal Analytics.",
   "lead": [
     "Воронка продаж в аналитике — это не «магическая кнопка в GTM», а согласованная цепочка шагов покупки и события, по которым видно, где люди отваливаются.",

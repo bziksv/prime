@@ -3,7 +3,7 @@
   "title": "Ошибка 502 Bad Gateway: что значит и что делать",
   "date": "2021-03-02",
   "category": "SEO",
-  "cover": "/images/blog/oshibka-502/cover.jpg",
+  "cover": "/images/blog/oshibka-502/cover.webp",
   "excerpt": "Что означает HTTP 502 Bad Gateway, типичные причины на сайте и хостинге и пошаговый порядок диагностики — без паники и «магических» плагинов.",
   "lead": [
     "502 Bad Gateway значит: прокси или шлюз (часто nginx/CDN) не получил корректный ответ от upstream-сервера (PHP, Apache, приложение).",

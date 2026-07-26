@@ -3,7 +3,7 @@
   "title": "Как установить плагин WordPress: каталог, ZIP и FTP",
   "date": "2017-12-14",
   "category": "Интернет-маркетинг",
-  "cover": "/images/blog/wordpress-plaginy/cover.jpg",
+  "cover": "/images/blog/wordpress-plaginy/cover.webp",
   "excerpt": "Три способа поставить плагин на WordPress: поиск в админке, загрузка ZIP и копирование в wp-content/plugins — без культа «чем больше установок, тем лучше» и без склада неподдерживаемых расширений.",
   "lead": [
     "Плагины расширяют WordPress: SEO, формы, кэш, магазин. Ставят их из каталога в админке, загрузкой ZIP или через FTP в `wp-content/plugins`, затем активируют.",

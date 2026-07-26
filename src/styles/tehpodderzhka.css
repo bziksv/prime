@@ -87,7 +87,7 @@
 .p-hero__bg {
   position: absolute;
   inset: -6% -3%;
-  background: url("/images/v6/photos/support-hero.jpg") center / cover;
+  background: url("/images/v6/photos/support-hero.webp") center / cover;
   opacity: 0.42;
   transform: scale(1.06);
   will-change: transform;

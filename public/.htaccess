@@ -26,6 +26,12 @@ RewriteRule ^docs/politics-prime-ltd\.png$ /docs/politics-prime-ltd.webp [R=301,
 RewriteRule ^docs/cookies-prime-ltd\.png$ /docs/cookies-prime-ltd.webp [R=301,L]
 RewriteRule ^docs/rules-recommendation-prime-ltd\.png$ /docs/rules-recommendation-prime-ltd.webp [R=301,L]
 
+# --- Content images: legacy jpg/png/gif → webp (if webp exists) ---
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} ^/(.+)\.(jpe?g|png|gif)$ [NC]
+RewriteCond %{DOCUMENT_ROOT}/%1.webp -f
+RewriteRule ^(.+)\.(jpe?g|png|gif)$ /$1.webp [R=301,L,NC]
+
 # --- Legacy service / utility pages (old WP) ---
 RewriteRule ^contact/?$ /kontakty/ [R=301,L]
 RewriteRule ^tehnicheskaya-podderzhka-sayta-obsluzhivanie-i-soprovozhdenie-proektov/?$ /tehpodderzhka-sayta/ [R=301,L]

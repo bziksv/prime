@@ -71,7 +71,7 @@
   inset: -8% 0;
   z-index: 0;
   background:
-    url("/images/v6/photos/partner-hero.jpg")
+    url("/images/v6/photos/partner-hero.webp")
       center / cover;
   transform: translate3d(0, 0, 0);
   will-change: transform;

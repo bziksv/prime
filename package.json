@@ -7,7 +7,8 @@
     "dev": "astro dev --port 3004",
     "build": "astro build",
     "preview": "astro preview --port 3004",
-    "htaccess:blog": "node scripts/generate-blog-htaccess.mjs"
+    "htaccess:blog": "node scripts/generate-blog-htaccess.mjs",
+    "images:webp": "node scripts/convert-images-to-webp.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

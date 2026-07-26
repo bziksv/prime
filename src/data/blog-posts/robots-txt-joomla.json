@@ -3,7 +3,7 @@
   "title": "Robots.txt для Joomla: правила и осторожный шаблон",
   "date": "2018-02-26",
   "category": "SEO",
-  "cover": "/images/blog/robots-txt-joomla/cover.jpg",
+  "cover": "/images/blog/robots-txt-joomla/cover.webp",
   "excerpt": "Как устроен robots.txt на Joomla: User-agent, Allow/Disallow, Sitemap, служебные пути — без культа шаблона Joomla 3.3 и устаревшей директивы Host как единственного зеркала.",
   "lead": [
     "Файл `robots.txt` лежит в корне сайта (`https://сайт/robots.txt`) и подсказывает роботам, какие пути лучше не обходить. На Joomla им обычно закрывают `/administrator/`, служебные каталоги и мусорные параметры URL.",

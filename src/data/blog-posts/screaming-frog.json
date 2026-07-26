@@ -3,7 +3,7 @@
   "title": "Screaming Frog SEO Spider: технический обход сайта",
   "date": "2020-07-07",
   "category": "SEO",
-  "cover": "/images/blog/screaming-frog/cover.jpg",
+  "cover": "/images/blog/screaming-frog/cover.webp",
   "excerpt": "Как провести технический обход сайта в Screaming Frog: настройки краулера, коды ответа, title/H1, картинки, перелинковка, битые URL и выгрузка в Excel — без культа «одной кнопки аудита».",
   "lead": [
     "Screaming Frog SEO Spider — десктопный краулер: обходит ваш сайт как робот и собирает URL, статусы, мета, заголовки, ссылки и вес страниц. Бесплатная версия закрывает базовый аудит; платная снимает лимит URL и даёт интеграции.",

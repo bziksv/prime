@@ -3,7 +3,7 @@
   "title": "Установка MODX Revolution на локальный сервер",
   "date": "2018-02-14",
   "category": "Интернет-маркетинг",
-  "cover": "/images/blog/modx-local/cover.jpg",
+  "cover": "/images/blog/modx-local/cover.webp",
   "excerpt": "Как поставить MODX Revolution локально: дистрибутив, виртуальный хост, база MySQL и мастер setup — на примере OSPanel/Open Server, без устаревших лимитов «не больше 5000 страниц».",
   "lead": [
     "Локальная установка MODX Revolution нужна, чтобы собрать сайт на своём компьютере до выкладки на хостинг: править шаблоны, чанки и сниппеты без риска для боевого домена.",

@@ -192,7 +192,7 @@
 .a-hero__photo {
   position: absolute;
   inset: 0;
-  background: url("/images/v6/photos/ads-hero.jpg") center / cover;
+  background: url("/images/v6/photos/ads-hero.webp") center / cover;
   transform: scale(1.06);
   will-change: transform;
 }

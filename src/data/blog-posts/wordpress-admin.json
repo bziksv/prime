@@ -3,7 +3,7 @@
   "title": "Как зайти в админку WordPress и восстановить доступ",
   "date": "2018-03-23",
   "category": "Интернет-маркетинг",
-  "cover": "/images/blog/wordpress-admin/cover.jpg",
+  "cover": "/images/blog/wordpress-admin/cover.webp",
   "excerpt": "Вход в wp-admin и wp-login.php, восстановление пароля по почте, сброс через хостинг и типичные сбои из‑за кэша — без советов оставлять логин admin.",
   "lead": [
     "Админка WordPress — панель, где публикуют записи, правят страницы и ставят плагины. Обычно вход: `https://ваш-сайт.ru/wp-admin/` или `/wp-login.php`.",

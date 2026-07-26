@@ -59,6 +59,12 @@ lines.push(
   "RewriteRule ^docs/rules-recommendation-prime-ltd\\.png$ /docs/rules-recommendation-prime-ltd.webp [R=301,L]",
 );
 lines.push("");
+lines.push("# --- Content images: legacy jpg/png/gif → webp (if webp exists) ---");
+lines.push("RewriteCond %{REQUEST_FILENAME} !-f");
+lines.push("RewriteCond %{REQUEST_URI} ^/(.+)\\.(jpe?g|png|gif)$ [NC]");
+lines.push("RewriteCond %{DOCUMENT_ROOT}/%1.webp -f");
+lines.push("RewriteRule ^(.+)\\.(jpe?g|png|gif)$ /$1.webp [R=301,L,NC]");
+lines.push("");
 lines.push("# --- Legacy service / utility pages (old WP) ---");
 const seenPages = new Set();
 for (const page of data.pages || []) {

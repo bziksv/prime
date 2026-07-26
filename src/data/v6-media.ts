@@ -1,25 +1,25 @@
 /** Визуальные ассеты v6 «Портал» — AI-фото локально (сток запрещён). */
 export const v6Photos = {
-  heroTeam: "/images/v6/photos/hero-team.jpg",
-  heroOffice: "/images/v6/photos/hero-office.jpg",
-  heroWorkspace: "/images/v6/photos/hero-workspace.jpg",
-  caseManufacturing: "/images/v6/photos/case-manufacturing.jpg",
-  caseAds: "/images/v6/photos/case-ads.jpg",
-  caseEcom: "/images/v6/photos/case-ecom.jpg",
-  flagSeo: "/images/v6/photos/flag-seo.jpg",
-  contactOffice: "/images/v6/photos/contact-cta.jpg",
-  clientsBanner: "/images/v6/photos/clients-banner.jpg",
-  compareAfter: "/images/v6/photos/case-ads.jpg",
-  compareBefore: "/images/v6/photos/compare-before.jpg",
-  midCta: "/images/v6/photos/mid-cta.jpg",
-  caseB2b: "/images/v6/photos/case-b2b.jpg",
-  caseAutoservice: "/images/v6/photos/case-autoservice.jpg",
-  industryBuild: "/images/v6/industries/stroitelstvo.jpg",
-  industryBeauty: "/images/v6/industries/krasota.jpg",
-  industryAuto: "/images/v6/industries/avto.jpg",
-  industryMed: "/images/v6/industries/medicina.jpg",
-  industryEdu: "/images/v6/industries/obrazovanie.jpg",
-  industrySport: "/images/v6/industries/sport.jpg",
+  heroTeam: "/images/v6/photos/hero-team.webp",
+  heroOffice: "/images/v6/photos/hero-office.webp",
+  heroWorkspace: "/images/v6/photos/hero-workspace.webp",
+  caseManufacturing: "/images/v6/photos/case-manufacturing.webp",
+  caseAds: "/images/v6/photos/case-ads.webp",
+  caseEcom: "/images/v6/photos/case-ecom.webp",
+  flagSeo: "/images/v6/photos/flag-seo.webp",
+  contactOffice: "/images/v6/photos/contact-cta.webp",
+  clientsBanner: "/images/v6/photos/clients-banner.webp",
+  compareAfter: "/images/v6/photos/case-ads.webp",
+  compareBefore: "/images/v6/photos/compare-before.webp",
+  midCta: "/images/v6/photos/mid-cta.webp",
+  caseB2b: "/images/v6/photos/case-b2b.webp",
+  caseAutoservice: "/images/v6/photos/case-autoservice.webp",
+  industryBuild: "/images/v6/industries/stroitelstvo.webp",
+  industryBeauty: "/images/v6/industries/krasota.webp",
+  industryAuto: "/images/v6/industries/avto.webp",
+  industryMed: "/images/v6/industries/medicina.webp",
+  industryEdu: "/images/v6/industries/obrazovanie.webp",
+  industrySport: "/images/v6/industries/sport.webp",
 } as const;
 
 export const v6CompareImages = {
@@ -37,7 +37,7 @@ export const v6PhotoBand = [
 ] as const;
 
 export const v6Icons = {
-  logoMark: "/images/v6/logo-mark.png",
+  logoMark: "/images/v6/logo-mark.webp",
   heroDashboard: "/images/v6/hero-dashboard.svg",
   screenSeo: "/images/v6/screen-seo.svg",
   screenAds: "/images/v6/screen-ads.svg",
@@ -48,7 +48,7 @@ export const v6Icons = {
   serpMock: "/images/v6/serp-mock.svg",
   seoReport: "/images/v6/seo-report.svg",
   officeMap: "/images/v6/office-map.svg",
-  ogCover: "/images/v6/og-cover.jpg",
+  ogCover: "/images/v6/og-cover.webp",
   appleTouchIcon: "/images/v6/apple-touch-icon.png",
   checkPrime: "/images/v6/check-prime.svg",
   sparkMini: "/images/v6/spark-mini.svg",
@@ -101,12 +101,12 @@ export const v6PartnerLogos = [
 ] as const;
 
 export const v6ClientAvatars = [
-  "/images/v6/avatar-1.jpg",
-  "/images/v6/avatar-2.jpg",
-  "/images/v6/avatar-3.jpg",
-  "/images/v6/avatar-1.jpg",
-  "/images/v6/avatar-2.jpg",
-  "/images/v6/avatar-3.jpg",
+  "/images/v6/avatar-1.webp",
+  "/images/v6/avatar-2.webp",
+  "/images/v6/avatar-3.webp",
+  "/images/v6/avatar-1.webp",
+  "/images/v6/avatar-2.webp",
+  "/images/v6/avatar-3.webp",
 ] as const;
 
 export const v6BlogPosts = [
@@ -132,21 +132,21 @@ export const v6BlogPosts = [
 
 /** Все направления — AI-фото локально, единая сетка без «пустых» карточек. */
 export const v6IndustriesFeatured = [
-  { name: "Производство", image: "/images/v6/industries/proizvodstvo.jpg" },
-  { name: "Магазины", image: "/images/v6/industries/magaziny.jpg" },
-  { name: "Бизнес / B2B", image: "/images/v6/industries/b2b.jpg" },
-  { name: "Строительство", image: "/images/v6/industries/stroitelstvo.jpg" },
-  { name: "Красота и здоровье", image: "/images/v6/industries/krasota.jpg" },
-  { name: "Транспорт", image: "/images/v6/industries/transport.jpg" },
-  { name: "Медицина", image: "/images/v6/industries/medicina.jpg" },
-  { name: "Наука и образование", image: "/images/v6/industries/obrazovanie.jpg" },
-  { name: "Спорт", image: "/images/v6/industries/sport.jpg" },
-  { name: "Авто", image: "/images/v6/industries/avto.jpg" },
-  { name: "Безопасность", image: "/images/v6/industries/bezopasnost.jpg" },
-  { name: "Культура и искусство", image: "/images/v6/industries/kultura.jpg" },
-  { name: "Отдых и туризм", image: "/images/v6/industries/turizm.jpg" },
-  { name: "Реклама и полиграфия", image: "/images/v6/industries/reklama.jpg" },
-  { name: "Семья и дети", image: "/images/v6/industries/semya.jpg" },
+  { name: "Производство", image: "/images/v6/industries/proizvodstvo.webp" },
+  { name: "Магазины", image: "/images/v6/industries/magaziny.webp" },
+  { name: "Бизнес / B2B", image: "/images/v6/industries/b2b.webp" },
+  { name: "Строительство", image: "/images/v6/industries/stroitelstvo.webp" },
+  { name: "Красота и здоровье", image: "/images/v6/industries/krasota.webp" },
+  { name: "Транспорт", image: "/images/v6/industries/transport.webp" },
+  { name: "Медицина", image: "/images/v6/industries/medicina.webp" },
+  { name: "Наука и образование", image: "/images/v6/industries/obrazovanie.webp" },
+  { name: "Спорт", image: "/images/v6/industries/sport.webp" },
+  { name: "Авто", image: "/images/v6/industries/avto.webp" },
+  { name: "Безопасность", image: "/images/v6/industries/bezopasnost.webp" },
+  { name: "Культура и искусство", image: "/images/v6/industries/kultura.webp" },
+  { name: "Отдых и туризм", image: "/images/v6/industries/turizm.webp" },
+  { name: "Реклама и полиграфия", image: "/images/v6/industries/reklama.webp" },
+  { name: "Семья и дети", image: "/images/v6/industries/semya.webp" },
 ] as const;
 
 export const v6ResultsWall = [
@@ -225,21 +225,21 @@ export const v6AboutPhotos = [
 ] as const;
 
 export const v6ClientBrands = [
-  { name: "KIA Мотор Ленд", image: "/images/v6/clients/kia.png" },
-  { name: "Jeep Воронеж", image: "/images/v6/clients/jeep.png" },
-  { name: "Barokko", image: "/images/v6/clients/barokko.png" },
-  { name: "Торгмаг", image: "/images/v6/clients/torgmag.png" },
-  { name: "Volvo Мотор Ленд", image: "/images/v6/clients/volvo.png" },
-  { name: "Аквасан", image: "/images/v6/clients/akvasan.png" },
-  { name: "Альмамед", image: "/images/v6/clients/almamed.png" },
-  { name: "Belgee Прагматика", image: "/images/v6/clients/belgee.png" },
-  { name: "Omoda", image: "/images/v6/clients/omoda.png" },
-  { name: "Geely Мотор Ленд", image: "/images/v6/clients/geely.png" },
-  { name: "Nissan Мотор Ленд", image: "/images/v6/clients/nissan.png" },
-  { name: "Проклимат", image: "/images/v6/clients/proclimate.png" },
-  { name: "Полимер", image: "/images/v6/clients/polimer.png" },
-  { name: "Химоптторг", image: "/images/v6/clients/himopttorg.png" },
-  { name: "Вторма", image: "/images/v6/clients/vtorma.png" },
+  { name: "KIA Мотор Ленд", image: "/images/v6/clients/kia.webp" },
+  { name: "Jeep Воронеж", image: "/images/v6/clients/jeep.webp" },
+  { name: "Barokko", image: "/images/v6/clients/barokko.webp" },
+  { name: "Торгмаг", image: "/images/v6/clients/torgmag.webp" },
+  { name: "Volvo Мотор Ленд", image: "/images/v6/clients/volvo.webp" },
+  { name: "Аквасан", image: "/images/v6/clients/akvasan.webp" },
+  { name: "Альмамед", image: "/images/v6/clients/almamed.webp" },
+  { name: "Belgee Прагматика", image: "/images/v6/clients/belgee.webp" },
+  { name: "Omoda", image: "/images/v6/clients/omoda.webp" },
+  { name: "Geely Мотор Ленд", image: "/images/v6/clients/geely.webp" },
+  { name: "Nissan Мотор Ленд", image: "/images/v6/clients/nissan.webp" },
+  { name: "Проклимат", image: "/images/v6/clients/proclimate.webp" },
+  { name: "Полимер", image: "/images/v6/clients/polimer.webp" },
+  { name: "Химоптторг", image: "/images/v6/clients/himopttorg.webp" },
+  { name: "Вторма", image: "/images/v6/clients/vtorma.webp" },
 ] as const;
 
 export const v6Faq = [
@@ -415,21 +415,21 @@ export const v6Team = [
   {
     name: "Анна",
     role: "SEO-стратег",
-    photo: "/images/v6/testimonials/t1.jpg",
+    photo: "/images/v6/testimonials/t1.webp",
   },
   {
     name: "Дмитрий",
     role: "Контекст",
-    photo: "/images/v6/testimonials/t2.jpg",
+    photo: "/images/v6/testimonials/t2.webp",
   },
   {
     name: "Елена",
     role: "Аналитика",
-    photo: "/images/v6/testimonials/t3.jpg",
+    photo: "/images/v6/testimonials/t3.webp",
   },
   {
     name: "Павел",
     role: "Разработка",
-    photo: "/images/v6/testimonials/t4.jpg",
+    photo: "/images/v6/testimonials/t4.webp",
   },
 ] as const;

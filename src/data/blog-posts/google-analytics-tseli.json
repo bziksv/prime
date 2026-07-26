@@ -3,7 +3,7 @@
   "title": "Цели и конверсии в Google Analytics (GA4)",
   "date": "2020-07-09",
   "category": "Интернет-маркетинг",
-  "cover": "/images/blog/google-analytics-tseli/cover.jpg",
+  "cover": "/images/blog/google-analytics-tseli/cover.webp",
   "excerpt": "Как настроить конверсии в Google Analytics 4: ключевые события, thank-you URL, вовлечённость и клики — соответствие старым «целям» Universal и проверка отчётов.",
   "lead": [
     "В Universal Analytics «цели» были отдельным конструктором (страница, длительность, страницы/сессия, событие). В GA4 логика другая: почти всё — события, а важные помечают как ключевые события / конверсии. Смысл тот же: измерить заявку, покупку, thank-you и микроконверсии.",

@@ -3,7 +3,7 @@
   "title": "SSL-сертификат: зачем нужен, виды и как выбрать",
   "date": "2021-11-15",
   "category": "SEO",
-  "cover": "/images/blog/ssl-sertifikat/cover.jpg",
+  "cover": "/images/blog/ssl-sertifikat/cover.webp",
   "excerpt": "Что такое SSL/TLS-сертификат, чем HTTPS отличается от HTTP, какие бывают типы (DV, OV, EV, wildcard), Let's Encrypt и на что смотреть при выборе.",
   "lead": [
     "SSL-сертификат (сегодня говорят чаще TLS) нужен, чтобы браузер установил шифрованное соединение по HTTPS. Без него формы, кабинеты и оплата выглядят небезопасно — и поисковики это учитывают.",

@@ -95,7 +95,7 @@
 .t-hero__bg {
   position: absolute;
   inset: -6% -3%;
-  background: url("/images/v6/photos/traffic-hero.jpg") center / cover;
+  background: url("/images/v6/photos/traffic-hero.webp") center / cover;
   opacity: 0.32;
   transform: scale(1.06);
   will-change: transform;
@@ -561,10 +561,17 @@
   color: var(--t-mint);
 }
 
-.t-stat span {
+.t-stat > span {
   font-size: 0.82rem;
   color: var(--t-muted);
   line-height: 1.35;
+}
+
+.t-stat strong [data-count] {
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  letter-spacing: inherit;
 }
 
 /* —— MARQUEE —— */

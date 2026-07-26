@@ -3,7 +3,7 @@
   "title": "Как установить WordPress на хостинг",
   "date": "2017-04-20",
   "category": "Интернет-маркетинг",
-  "cover": "/images/blog/wordpress-ustanovka/cover.jpg",
+  "cover": "/images/blog/wordpress-ustanovka/cover.webp",
   "excerpt": "Установка WordPress: требования к хостингу, база данных, загрузка файлов, мастер install.php и первые настройки — без PHP 4.3 из гайдов 2017 и культа Total Commander.",
   "lead": [
     "WordPress ставят на хостинг с PHP и MySQL/MariaDB: создаёте базу, кладёте файлы в корень сайта и проходите мастер установки. Дальше — логин в админку, постоянные ссылки, обновления.",

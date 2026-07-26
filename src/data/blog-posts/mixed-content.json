@@ -3,7 +3,7 @@
   "title": "Mixed content: смешанный HTTP на HTTPS-сайте и SEO",
   "date": "2020-03-02",
   "category": "Контент-маркетинг",
-  "cover": "/images/blog/mixed-content/cover.jpg",
+  "cover": "/images/blog/mixed-content/cover.webp",
   "excerpt": "Что такое mixed content на HTTPS-сайте: активный и пассивный HTTP-контент, чем мешает, как найти в DevTools и как убрать — без культа «зелёного замочка» и устаревших скринов Chrome.",
   "lead": [
     "Mixed content — когда страница открыта по HTTPS, а часть ресурсов (картинки, скрипты, стили, iframe) подгружается по HTTP. Браузер предупреждает, блокирует активное содержимое — ломается вид и доверие.",

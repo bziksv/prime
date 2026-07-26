@@ -89,7 +89,7 @@
 .n-hero__bg {
   position: absolute;
   inset: -6% -3%;
-  background: url("/images/v6/photos/analytics-hero.jpg") center / cover;
+  background: url("/images/v6/photos/analytics-hero.webp") center / cover;
   opacity: 0.4;
   transform: scale(1.06);
   will-change: transform;

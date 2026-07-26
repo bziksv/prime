@@ -3,7 +3,7 @@
   "title": "Метатеги и SEO: title, description, robots и keywords",
   "date": "2021-03-18",
   "category": "SEO",
-  "cover": "/images/blog/metategi/cover.jpg",
+  "cover": "/images/blog/metategi/cover.webp",
   "excerpt": "Что такое метатеги HTML: зачем title и description, как robots управляет индексацией, почему keywords почти не нужны — без «секретов ТОП» и устаревших лимитов символов.",
   "lead": [
     "Метатеги — служебные поля в `<head>` страницы: они не рисуют блок на экране, но помогают браузеру и поисковику понять документ. Для SEO чаще всего говорят о title, description и директивах robots; keywords давно вторичны.",

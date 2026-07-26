@@ -3,7 +3,7 @@
   "title": "Вёрстка писем для рассылки: HTML без сюрпризов",
   "date": "2019-08-30",
   "category": "E-mail маркетинг",
-  "cover": "/images/blog/verstka-email/cover.jpg",
+  "cover": "/images/blog/verstka-email/cover.webp",
   "excerpt": "Как верстать HTML-письма: почему таблицы вместо div, ограничения CSS, адаптив, картинки, Outlook и тесты в клиентах — без мифа «кривая вёрстка = сразу в спам».",
   "lead": [
     "Красивый макет в Figma не гарантирует одинаковый вид в Gmail, Яндекс.Почте, Apple Mail и Outlook. Почтовые клиенты режут CSS по-разному — поэтому email-вёрстка живёт по своим правилам.",

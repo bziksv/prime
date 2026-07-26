@@ -3,7 +3,7 @@
   "title": "Robots.txt для WordPress: правила без слепого шаблона",
   "date": "2018-01-29",
   "category": "SEO",
-  "cover": "/images/blog/robots-txt-wordpress/cover.jpg",
+  "cover": "/images/blog/robots-txt-wordpress/cover.webp",
   "excerpt": "Как настроить robots.txt на WordPress: wp-admin, служебные пути, Sitemap, проверка в Вебмастере — без запрета всего wp-content и слепого закрытия категорий.",
   "lead": [
     "Файл `robots.txt` в корне WordPress подсказывает роботам, какие пути лучше не обходить. Универсального «идеала на все сайты» нет: мешают ЧПУ, плагины SEO и то, какие разделы вы хотите в поиске.",

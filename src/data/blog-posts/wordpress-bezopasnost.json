@@ -3,7 +3,7 @@
   "title": "Защита сайта на WordPress: практичный чеклист",
   "date": "2019-12-27",
   "category": "SEO",
-  "cover": "/images/blog/wordpress-bezopasnost/cover.jpg",
+  "cover": "/images/blog/wordpress-bezopasnost/cover.webp",
   "excerpt": "Как снизить риск взлома WordPress: обновления, пароли, вход, плагины и темы, бэкапы, HTTPS, 2FA и ограничение прав — без инструкций по атаке.",
   "lead": [
     "WordPress популярен — и поэтому часто в прицеле: дыры в ядре, плагинах и темах, слабые пароли, открытый wp-admin. Взлом бьёт по SEO: спам, редиректы, вирусы в выдаче, потеря доверия.",
