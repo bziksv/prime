@@ -191,17 +191,19 @@ const serviceLd = serviceJsonLd({
             {
               trafficStats.map((s, i) => (
                 <div class="t-stat" style={`--i:${i}`}>
-                  <strong>
+                  <strong class="t-stat__value">
                     {"display" in s && s.display ? (
                       s.display
                     ) : (
                       <>
-                        <span data-count={s.value}>0</span>
-                        {s.suffix}
+                        <span class="t-stat__num" data-count={s.value}>
+                          0
+                        </span>
+                        <span class="t-stat__unit">{s.suffix}</span>
                       </>
                     )}
                   </strong>
-                  <span>{s.label}</span>
+                  <span class="t-stat__label">{s.label}</span>
                 </div>
               ))
             }

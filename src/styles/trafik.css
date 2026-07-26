@@ -541,9 +541,9 @@
   transition-delay: calc(var(--i, 0) * 0.05s);
 }
 
-.t-stat strong {
+.t-stat__value {
   display: block;
-  margin-bottom: 0.25rem;
+  margin: 0 0 0.25rem;
   font-family: var(--font-display);
   font-size: clamp(1.8rem, 3vw, 2.3rem);
   font-weight: 600;
@@ -552,26 +552,27 @@
   color: var(--t-coral);
 }
 
-.t-stat:nth-child(2) strong,
-.t-stat:nth-child(4) strong {
+.t-stat:nth-child(2) .t-stat__value,
+.t-stat:nth-child(4) .t-stat__value {
   color: var(--t-ink);
 }
 
-.t-stat:nth-child(3) strong {
+.t-stat:nth-child(3) .t-stat__value {
   color: var(--t-mint);
 }
 
-.t-stat > span {
+.t-stat__num,
+.t-stat__unit {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+.t-stat__label {
+  display: block;
   font-size: 0.82rem;
   color: var(--t-muted);
   line-height: 1.35;
-}
-
-.t-stat strong [data-count] {
-  font-size: inherit;
-  font-weight: inherit;
-  color: inherit;
-  letter-spacing: inherit;
 }
 
 /* —— MARQUEE —— */
