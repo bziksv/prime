@@ -2,11 +2,14 @@
 import PortalShell from "../components/PortalShell.astro";
 import CookieConsent from "../components/CookieConsent.astro";
 import CookieFooterNotice from "../components/CookieFooterNotice.astro";
+import SiteSeo from "../components/SiteSeo.astro";
 import { v6Icons } from "../data/v6-media";
 
 interface Props {
   title: string;
   description: string;
+  path: string;
+  image?: string;
   breadcrumb: { label: string; href?: string }[];
   ctaHref?: string;
   ctaLabel?: string;
@@ -15,6 +18,8 @@ interface Props {
 const {
   title,
   description,
+  path,
+  image,
   breadcrumb,
   ctaHref = "/kontakty/",
   ctaLabel = "Оставить заявку",
@@ -28,6 +33,7 @@ const {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <title>{title}</title>
+    <SiteSeo title={title} description={description} path={path} image={image} />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

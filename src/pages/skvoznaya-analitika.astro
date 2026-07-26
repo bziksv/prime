@@ -5,6 +5,7 @@ import "../styles/analitika.css";
 import PortalShell from "../components/PortalShell.astro";
 import CookieConsent from "../components/CookieConsent.astro";
 import CookieFooterNotice from "../components/CookieFooterNotice.astro";
+import SiteSeo from "../components/SiteSeo.astro";
 import { v6Icons } from "../data/v6-media";
 import { legalDocs } from "../data/legal";
 import {
@@ -28,6 +29,11 @@ import {
       content="Сквозная аналитика Roistat: реклама → сайт → CRM. Коллтрекинг, формы, email. Видно, какой канал даёт заявки и продажи. Интеграция и настройка."
     />
     <title>Сквозная аналитика — ПРАЙМ</title>
+    <SiteSeo
+      title="Сквозная аналитика — ПРАЙМ"
+      description="Сквозная аналитика Roistat: реклама → сайт → CRM. Коллтрекинг, формы, email. Видно, какой канал даёт заявки и продажи. Интеграция и настройка."
+      path="/skvoznaya-analitika/"
+    />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
     <link rel="preload" as="image" href="/images/v6/photos/analytics-hero.jpg" />

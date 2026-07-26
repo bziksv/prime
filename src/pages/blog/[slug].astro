@@ -5,6 +5,7 @@ import "../../styles/blog.css";
 import PortalShell from "../../components/PortalShell.astro";
 import CookieConsent from "../../components/CookieConsent.astro";
 import CookieFooterNotice from "../../components/CookieFooterNotice.astro";
+import SiteSeo from "../../components/SiteSeo.astro";
 import BlogChecklist from "../../components/blog/BlogChecklist.astro";
 import BlogQuiz from "../../components/blog/BlogQuiz.astro";
 import { v6Icons } from "../../data/v6-media";
@@ -61,6 +62,33 @@ if (post.faq?.length) {
   });
 }
 
+const pageTitle = `${post.title} — Блог ПРАЙМ`;
+const coverPath = post.cover.split("?")[0] || post.cover;
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: post.title,
+  description: post.excerpt,
+  image: new URL(coverPath, Astro.site ?? "https://prime-ltd.su").href,
+  datePublished: post.date,
+  dateModified: post.date,
+  mainEntityOfPage: pageUrl,
+  author: {
+    "@type": "Organization",
+    name: "ПРАЙМ",
+    url: "https://prime-ltd.su/",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "ПРАЙМ",
+    logo: {
+      "@type": "ImageObject",
+      url: new URL(v6Icons.logoMark, Astro.site ?? "https://prime-ltd.su").href,
+    },
+  },
+};
+
 const faqJsonLd =
   post.faq && post.faq.length
     ? {
@@ -84,7 +112,14 @@ const faqJsonLd =
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={post.excerpt} />
-    <title>{post.title} — Блог ПРАЙМ</title>
+    <title>{pageTitle}</title>
+    <SiteSeo
+      title={pageTitle}
+      description={post.excerpt}
+      path={`/blog/${post.slug}/`}
+      image={coverPath}
+      type="article"
+    />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -93,6 +128,7 @@ const faqJsonLd =
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
     {
       faqJsonLd ? (
         <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />

@@ -5,6 +5,7 @@ import "../styles/prodvizhenie.css";
 import PortalShell from "../components/PortalShell.astro";
 import CookieConsent from "../components/CookieConsent.astro";
 import CookieFooterNotice from "../components/CookieFooterNotice.astro";
+import SiteSeo from "../components/SiteSeo.astro";
 import { v6Icons } from "../data/v6-media";
 import { legalDocs } from "../data/legal";
 import { getCasesByCategory } from "../data/cases";
@@ -53,6 +54,11 @@ const chapters = [
       content="SEO-продвижение сайта с оплатой по факту ТОП-10. Аналитика, аудит, внутренняя и внешняя оптимизация. Тарифы для регионов, Москвы и СПб."
     />
     <title>Продвижение сайта — ПРАЙМ</title>
+    <SiteSeo
+      title="Продвижение сайта — ПРАЙМ"
+      description="SEO-продвижение сайта с оплатой по факту ТОП-10. Аналитика, аудит, внутренняя и внешняя оптимизация. Тарифы для регионов, Москвы и СПб."
+      path="/prodvizhenie-sayta/"
+    />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
     <link rel="preload" as="image" href="/images/v6/photos/seo-hero.jpg" />

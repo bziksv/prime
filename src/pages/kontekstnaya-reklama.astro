@@ -5,6 +5,7 @@ import "../styles/kontekst.css";
 import PortalShell from "../components/PortalShell.astro";
 import CookieConsent from "../components/CookieConsent.astro";
 import CookieFooterNotice from "../components/CookieFooterNotice.astro";
+import SiteSeo from "../components/SiteSeo.astro";
 import { v6Icons } from "../data/v6-media";
 import { legalDocs } from "../data/legal";
 import { getCasesByCategory } from "../data/cases";
@@ -31,6 +32,11 @@ const adsCases = getCasesByCategory("ads").slice(0, 4);
       content="Контекстная реклама в Яндекс.Директе и Google Ads: стратегия, минус-слова, UTM, ставки. Ведение от 6 000 ₽ — по медиабюджету, не процент от пополнения. Два отдельных счёта."
     />
     <title>Контекстная реклама — ПРАЙМ</title>
+    <SiteSeo
+      title="Контекстная реклама — ПРАЙМ"
+      description="Контекстная реклама в Яндекс.Директе и Google Ads: стратегия, минус-слова, UTM, ставки. Ведение от 6 000 ₽ — по медиабюджету, не процент от пополнения. Два отдельных счёта."
+      path="/kontekstnaya-reklama/"
+    />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
     <link rel="preload" as="image" href="/images/v6/photos/ads-hero.jpg" />

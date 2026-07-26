@@ -5,6 +5,7 @@ import "../../styles/blog.css";
 import PortalShell from "../../components/PortalShell.astro";
 import CookieConsent from "../../components/CookieConsent.astro";
 import CookieFooterNotice from "../../components/CookieFooterNotice.astro";
+import SiteSeo from "../../components/SiteSeo.astro";
 import { v6Icons } from "../../data/v6-media";
 import {
   blogPosts,
@@ -33,6 +34,11 @@ const migration = showMigrateDashboard ? getBlogMigrationProgress() : null;
       content="Блог ПРАЙМ: статьи про SEO, семантику, контекст и интернет-маркетинг — практика агентства."
     />
     <title>Блог — ПРАЙМ</title>
+    <SiteSeo
+      title="Блог — ПРАЙМ"
+      description="Блог ПРАЙМ: статьи про SEO, семантику, контекст и интернет-маркетинг — практика агентства."
+      path="/blog/"
+    />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

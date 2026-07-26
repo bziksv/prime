@@ -5,6 +5,7 @@ import "../styles/partnerstvo.css";
 import PortalShell from "../components/PortalShell.astro";
 import CookieConsent from "../components/CookieConsent.astro";
 import CookieFooterNotice from "../components/CookieFooterNotice.astro";
+import SiteSeo from "../components/SiteSeo.astro";
 import { v6Icons } from "../data/v6-media";
 import { legalDocs } from "../data/legal";
 import {
@@ -28,6 +29,11 @@ const marquee = [...partnerCases, ...partnerCases];
       content="Партнёрство с ПРАЙМ: рекомендуйте интернет-маркетинг, получайте процент. Прозрачные отчёты, договор и выплаты раз в месяц."
     />
     <title>Партнерство — ПРАЙМ</title>
+    <SiteSeo
+      title="Партнерство — ПРАЙМ"
+      description="Партнёрство с ПРАЙМ: рекомендуйте интернет-маркетинг, получайте процент. Прозрачные отчёты, договор и выплаты раз в месяц."
+      path="/partnerstvo/"
+    />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

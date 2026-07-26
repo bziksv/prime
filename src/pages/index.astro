@@ -4,6 +4,7 @@ import "../styles/concept-v6-media.css";
 import "../styles/home.css";
 import CookieConsent from "../components/CookieConsent.astro";
 import CookieFooterNotice from "../components/CookieFooterNotice.astro";
+import SiteSeo from "../components/SiteSeo.astro";
 import {
   v6Photos,
   v6Icons,
@@ -18,6 +19,38 @@ import {
 } from "../data/v6-media";
 import { legalDocs } from "../data/legal";
 import { casesForHome, casePath } from "../data/cases";
+import { contacts } from "../data/contacts";
+
+const homeTitle = "ПРАЙМ — интернет-маркетинг";
+const homeDescription =
+  "ПРАЙМ — интернет-маркетинг для бизнеса по всей России. SEO с оплатой по факту, контекст, разработка сайтов и аналитика.";
+
+const orgJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "ПРАЙМ",
+  url: "https://prime-ltd.su/",
+  logo: `https://prime-ltd.su${v6Icons.logoMark}`,
+  email: contacts.email,
+  telephone: contacts.phone,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: contacts.addressShort,
+    addressLocality: contacts.city,
+    postalCode: contacts.postal,
+    addressCountry: "RU",
+  },
+  sameAs: contacts.socials.map((s) => s.href),
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "ПРАЙМ",
+  url: "https://prime-ltd.su/",
+  description: homeDescription,
+  publisher: { "@type": "Organization", name: "ПРАЙМ" },
+};
 
 const navTop = [{ label: "О компании", href: "#about" }];
 
@@ -89,31 +122,18 @@ const services = [
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="ПРАЙМ — интернет-маркетинг для бизнеса по всей России. SEO с оплатой по факту, контекст, разработка сайтов и аналитика."
+    <meta name="description" content={homeDescription} />
+    <title>{homeTitle}</title>
+    <SiteSeo
+      title={homeTitle}
+      description={homeDescription}
+      path="/"
+      image={v6Icons.ogCover}
     />
-    <title>ПРАЙМ — интернет-маркетинг</title>
-    <link rel="canonical" href="https://prime-ltd.su/" />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="ru_RU" />
-    <meta property="og:site_name" content="ПРАЙМ" />
-    <meta property="og:title" content="ПРАЙМ — интернет-маркетинг" />
-    <meta
-      property="og:description"
-      content="ПРАЙМ — интернет-маркетинг для бизнеса по всей России. SEO с оплатой по факту, контекст, разработка сайтов и аналитика."
-    />
-    <meta property="og:url" content="https://prime-ltd.su/" />
-    <meta property="og:image" content={`https://prime-ltd.su${v6Icons.ogCover}`} />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="ПРАЙМ — интернет-маркетинг" />
-    <meta
-      name="twitter:description"
-      content="SEO, контекст, сайты и аналитика для бизнеса по всей России."
-    />
-    <meta name="twitter:image" content={`https://prime-ltd.su${v6Icons.ogCover}`} />
+    <script type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(websiteJsonLd)} />
     <link rel="preload" as="image" href={v6Photos.heroOffice} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

@@ -6,6 +6,7 @@ import CasesLayout from "../../../layouts/CasesLayout.astro";
 import CaseGrid from "../../../components/CaseGrid.astro";
 import {
   caseStudies,
+  casePath,
   getCase,
   getCategory,
   getRelatedCases,
@@ -53,6 +54,8 @@ const nOutcome = String(chapter++).padStart(2, "0");
 <CasesLayout
   title={`${item.title} — кейс ПРАЙМ`}
   description={`${item.metric} ${item.metricLabel}. ${item.summary}`}
+  path={casePath(item)}
+  image={item.cover}
   breadcrumb={[
     { label: "Главная", href: "/" },
     { label: "Кейсы", href: "/keysy/" },

@@ -7,6 +7,7 @@ import CaseFilters from "../../components/CaseFilters.astro";
 import CaseGrid from "../../components/CaseGrid.astro";
 import {
   caseCategories,
+  categoryPath,
   getCategory,
   getCasesByCategory,
   type CaseCategoryId,
@@ -28,6 +29,7 @@ const cases = getCasesByCategory(cat.id as CaseCategoryId);
 <CasesLayout
   title={`${cat.title} — кейсы ПРАЙМ`}
   description={`${cat.lead} Кейсы агентства ПРАЙМ по направлению «${cat.title}».`}
+  path={categoryPath(cat.id)}
   breadcrumb={[
     { label: "Главная", href: "/" },
     { label: "Кейсы", href: "/keysy/" },

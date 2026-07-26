@@ -5,6 +5,7 @@ import "../styles/trafik.css";
 import PortalShell from "../components/PortalShell.astro";
 import CookieConsent from "../components/CookieConsent.astro";
 import CookieFooterNotice from "../components/CookieFooterNotice.astro";
+import SiteSeo from "../components/SiteSeo.astro";
 import { v6Icons } from "../data/v6-media";
 import { legalDocs } from "../data/legal";
 import {
@@ -32,6 +33,11 @@ const chartBars = [18, 22, 28, 34, 42, 48, 55, 62, 71, 78, 86, 94];
       content="Продвижение сайта по трафику: оплата за переходы из поиска по списку фраз. Регионы от 3 ₽, Москва и СПб от 5 ₽ за переход. Базовый трафик до старта не учитывается."
     />
     <title>Продвижение по трафику — ПРАЙМ</title>
+    <SiteSeo
+      title="Продвижение по трафику — ПРАЙМ"
+      description="Продвижение сайта по трафику: оплата за переходы из поиска по списку фраз. Регионы от 3 ₽, Москва и СПб от 5 ₽ за переход. Базовый трафик до старта не учитывается."
+      path="/prodvizhenie-sayta-po-trafiku/"
+    />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
     <link rel="preload" as="image" href="/images/v6/photos/traffic-hero.jpg" />

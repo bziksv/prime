@@ -5,6 +5,7 @@ import "../styles/audit.css";
 import PortalShell from "../components/PortalShell.astro";
 import CookieConsent from "../components/CookieConsent.astro";
 import CookieFooterNotice from "../components/CookieFooterNotice.astro";
+import SiteSeo from "../components/SiteSeo.astro";
 import { v6Icons } from "../data/v6-media";
 import { legalDocs } from "../data/legal";
 import {
@@ -29,6 +30,11 @@ import {
       content="Аудит сайта: Метрика, юзабилити, конкуренты, техника и контент. Бесплатный мини-аудит и комплексный отчёт 30–79 тыс. ₽."
     />
     <title>Аудит сайта — ПРАЙМ</title>
+    <SiteSeo
+      title="Аудит сайта — ПРАЙМ"
+      description="Аудит сайта: Метрика, юзабилити, конкуренты, техника и контент. Бесплатный мини-аудит и комплексный отчёт 30–79 тыс. ₽."
+      path="/audit-sayta/"
+    />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

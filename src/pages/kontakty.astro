@@ -5,6 +5,7 @@ import "../styles/kontakty.css";
 import PortalShell from "../components/PortalShell.astro";
 import CookieConsent from "../components/CookieConsent.astro";
 import CookieFooterNotice from "../components/CookieFooterNotice.astro";
+import SiteSeo from "../components/SiteSeo.astro";
 import { v6Icons } from "../data/v6-media";
 import { legalDocs } from "../data/legal";
 import { contacts, contactServices } from "../data/contacts";
@@ -20,6 +21,11 @@ import { contacts, contactServices } from "../data/contacts";
       content={`Контакты ПРАЙМ: ${contacts.address}, ${contacts.phone}, ${contacts.email}`}
     />
     <title>Контакты — ПРАЙМ</title>
+    <SiteSeo
+      title="Контакты — ПРАЙМ"
+      description={`Контакты ПРАЙМ: ${contacts.address}, ${contacts.phone}, ${contacts.email}`}
+      path="/kontakty/"
+    />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

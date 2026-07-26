@@ -5,6 +5,7 @@ import "../styles/razrabotka.css";
 import PortalShell from "../components/PortalShell.astro";
 import CookieConsent from "../components/CookieConsent.astro";
 import CookieFooterNotice from "../components/CookieFooterNotice.astro";
+import SiteSeo from "../components/SiteSeo.astro";
 import { v6Icons } from "../data/v6-media";
 import { legalDocs } from "../data/legal";
 import { getCasesByCategory } from "../data/cases";
@@ -41,9 +42,14 @@ const heroFlanks = {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      .content="Разработка сайтов: лендинг, мультилендинг, визитка, корпоратив и магазин. Bitrix, Webasyst, WordPress, Next.js, Astro, Laravel, Vue, Node.js, 1С — быстрее и дешевле кастома с нуля."
+      content="Разработка сайтов: лендинг, мультилендинг, визитка, корпоратив и магазин. Bitrix, Webasyst, WordPress, Next.js, Astro, Laravel, Vue, Node.js, 1С — быстрее и дешевле кастома с нуля."
     />
     <title>Разработка сайтов — ПРАЙМ</title>
+    <SiteSeo
+      title="Разработка сайтов — ПРАЙМ"
+      description="Разработка сайтов: лендинг, мультилендинг, визитка, корпоратив и магазин. Bitrix, Webasyst, WordPress, Next.js, Astro, Laravel, Vue, Node.js, 1С — быстрее и дешевле кастома с нуля."
+      path="/razrabotka-saytov/"
+    />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

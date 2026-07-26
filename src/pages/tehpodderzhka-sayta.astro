@@ -5,6 +5,7 @@ import "../styles/tehpodderzhka.css";
 import PortalShell from "../components/PortalShell.astro";
 import CookieConsent from "../components/CookieConsent.astro";
 import CookieFooterNotice from "../components/CookieFooterNotice.astro";
+import SiteSeo from "../components/SiteSeo.astro";
 import { v6Icons } from "../data/v6-media";
 import { legalDocs } from "../data/legal";
 import {
@@ -29,6 +30,11 @@ const maxTariffHours = Math.max(...supportTariffs.map((t) => t.hours));
       content="Техподдержка и сопровождение сайта: доработки, контент, дизайн, оплаты, ускорение. Тарифы от 3 до 50 часов с персональным PM и мониторингом."
     />
     <title>Техподдержка сайта — ПРАЙМ</title>
+    <SiteSeo
+      title="Техподдержка сайта — ПРАЙМ"
+      description="Техподдержка и сопровождение сайта: доработки, контент, дизайн, оплаты, ускорение. Тарифы от 3 до 50 часов с персональным PM и мониторингом."
+      path="/tehpodderzhka-sayta/"
+    />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
     <link rel="preload" as="image" href="/images/v6/photos/support-hero.jpg" />
