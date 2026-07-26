@@ -42,6 +42,13 @@ lines.push("<IfModule mod_rewrite.c>");
 lines.push("RewriteEngine On");
 lines.push("RewriteBase /");
 lines.push("");
+lines.push("# --- Legal docs: PNG → lighter WebP ---");
+lines.push("RewriteRule ^docs/politics-prime-ltd\\.png$ /docs/politics-prime-ltd.webp [R=301,L]");
+lines.push("RewriteRule ^docs/cookies-prime-ltd\\.png$ /docs/cookies-prime-ltd.webp [R=301,L]");
+lines.push(
+  "RewriteRule ^docs/rules-recommendation-prime-ltd\\.png$ /docs/rules-recommendation-prime-ltd.webp [R=301,L]",
+);
+lines.push("");
 lines.push("# --- Legacy service / utility pages (old WP) ---");
 const seenPages = new Set();
 for (const page of data.pages || []) {

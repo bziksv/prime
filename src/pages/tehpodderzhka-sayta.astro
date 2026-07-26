@@ -19,6 +19,7 @@ import {
   supportNos,
   supportFaq,
 } from "../data/support-service";
+import { breadcrumbJsonLd } from "../lib/breadcrumb-jsonld";
 
 const maxTariffHours = Math.max(...supportTariffs.map((t) => t.hours));
 
@@ -38,6 +39,17 @@ const faqJsonLd = {
     },
   })),
 };
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: "Главная", href: "/" },
+    { label: "Техподдержка сайта" },
+  ],
+  {
+    origin: Astro.site?.origin ?? "https://prime-ltd.su",
+    currentPath: "/tehpodderzhka-sayta/",
+  },
+);
+
 ---
 
 <!doctype html>
@@ -62,6 +74,7 @@ const faqJsonLd = {
       rel="stylesheet"
     />
     <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
   </head>
   <body>
     <div class="v6-app">

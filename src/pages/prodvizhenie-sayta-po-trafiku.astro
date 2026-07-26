@@ -21,6 +21,7 @@ import {
   trafficNos,
   trafficFaq,
 } from "../data/traffic-service";
+import { breadcrumbJsonLd } from "../lib/breadcrumb-jsonld";
 
 const chartBars = [18, 22, 28, 34, 42, 48, 55, 62, 71, 78, 86, 94];
 
@@ -40,6 +41,17 @@ const faqJsonLd = {
     },
   })),
 };
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: "Главная", href: "/" },
+    { label: "Продвижение по трафику" },
+  ],
+  {
+    origin: Astro.site?.origin ?? "https://prime-ltd.su",
+    currentPath: "/prodvizhenie-sayta-po-trafiku/",
+  },
+);
+
 ---
 
 <!doctype html>
@@ -64,6 +76,7 @@ const faqJsonLd = {
       rel="stylesheet"
     />
     <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
   </head>
   <body>
     <div class="v6-app">

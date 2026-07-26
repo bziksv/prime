@@ -21,6 +21,7 @@ import {
   auditNos,
   auditFaq,
 } from "../data/audit-service";
+import { breadcrumbJsonLd } from "../lib/breadcrumb-jsonld";
 
 const pageTitle = "Аудит сайта — ПРАЙМ";
 const pageDescription =
@@ -38,6 +39,17 @@ const faqJsonLd = {
     },
   })),
 };
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: "Главная", href: "/" },
+    { label: "Аудит сайта" },
+  ],
+  {
+    origin: Astro.site?.origin ?? "https://prime-ltd.su",
+    currentPath: "/audit-sayta/",
+  },
+);
+
 ---
 
 <!doctype html>
@@ -61,6 +73,7 @@ const faqJsonLd = {
       rel="stylesheet"
     />
     <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
   </head>
   <body>
     <div class="v6-app">

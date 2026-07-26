@@ -18,6 +18,7 @@ import {
   ormFaq,
   ormPricing,
 } from "../data/orm-service";
+import { breadcrumbJsonLd } from "../lib/breadcrumb-jsonld";
 
 const pageTitle = "Управление репутацией — ПРАЙМ";
 const pageDescription =
@@ -35,6 +36,17 @@ const faqJsonLd = {
     },
   })),
 };
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: "Главная", href: "/" },
+    { label: "Управление репутацией" },
+  ],
+  {
+    origin: Astro.site?.origin ?? "https://prime-ltd.su",
+    currentPath: "/upravlenie-reputaciej/",
+  },
+);
+
 ---
 
 <!doctype html>
@@ -59,6 +71,7 @@ const faqJsonLd = {
       rel="stylesheet"
     />
     <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
   </head>
   <body>
     <div class="v6-app">

@@ -94,6 +94,11 @@ export function bindLeadForm(opts: BindLeadFormOptions): void {
 
   ensureHoneypot(form);
 
+  if (hint) {
+    hint.setAttribute("role", "status");
+    hint.setAttribute("aria-live", "polite");
+  }
+
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
     const btn = form.querySelector<HTMLButtonElement>('button[type="submit"]');

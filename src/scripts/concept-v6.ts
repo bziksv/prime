@@ -13,13 +13,30 @@ export function initConceptV6() {
     sidebar?.classList.toggle("is-open", open);
     backdrop?.classList.toggle("is-open", open);
     document.body.style.overflow = open ? "hidden" : "";
+    if (burger) {
+      burger.setAttribute("aria-expanded", open ? "true" : "false");
+      burger.setAttribute("aria-label", open ? "Закрыть меню" : "Меню");
+    }
+    backdrop?.setAttribute("aria-hidden", open ? "false" : "true");
   };
+
+  if (burger) {
+    burger.setAttribute("aria-controls", "v6-sidebar");
+    burger.setAttribute("aria-expanded", "false");
+  }
 
   burger?.addEventListener("click", () => {
     toggle(!sidebar?.classList.contains("is-open"));
   });
 
   backdrop?.addEventListener("click", () => toggle(false));
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && sidebar?.classList.contains("is-open")) {
+      toggle(false);
+      burger?.focus();
+    }
+  });
 
   sidebar?.querySelectorAll("a").forEach((a) => {
     a.addEventListener("click", () => {

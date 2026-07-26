@@ -21,6 +21,7 @@ import {
   seoNos,
   seoFaq,
 } from "../data/seo-service";
+import { breadcrumbJsonLd } from "../lib/breadcrumb-jsonld";
 
 const seoCases = getCasesByCategory("seo").slice(0, 4);
 
@@ -62,6 +63,17 @@ const faqJsonLd = {
     },
   })),
 };
+
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: "Главная", href: "/" },
+    { label: "Продвижение сайта" },
+  ],
+  {
+    origin: Astro.site?.origin ?? "https://prime-ltd.su",
+    currentPath: "/prodvizhenie-sayta/",
+  },
+);
 ---
 
 <!doctype html>
@@ -86,6 +98,7 @@ const faqJsonLd = {
       rel="stylesheet"
     />
     <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
   </head>
   <body>
     <div class="v6-app">

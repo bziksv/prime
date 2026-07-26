@@ -9,6 +9,7 @@ import SiteSeo from "../components/SiteSeo.astro";
 import { v6Icons } from "../data/v6-media";
 import { legalDocs } from "../data/legal";
 import { contacts, contactServices } from "../data/contacts";
+import { breadcrumbJsonLd } from "../lib/breadcrumb-jsonld";
 
 const pageTitle = "Контакты — ПРАЙМ";
 const pageDescription = `Контакты ПРАЙМ: ${contacts.address}, ${contacts.phone}, ${contacts.email}`;
@@ -44,6 +45,17 @@ const contactPageJsonLd = {
     url: "https://prime-ltd.su/",
   },
 };
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: "Главная", href: "/" },
+    { label: "Контакты" },
+  ],
+  {
+    origin: Astro.site?.origin ?? "https://prime-ltd.su",
+    currentPath: "/kontakty/",
+  },
+);
+
 ---
 
 <!doctype html>
@@ -68,6 +80,7 @@ const contactPageJsonLd = {
     />
     <script type="application/ld+json" set:html={JSON.stringify(localBusinessJsonLd)} />
     <script type="application/ld+json" set:html={JSON.stringify(contactPageJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
   </head>
   <body>
     <div class="v6-app">

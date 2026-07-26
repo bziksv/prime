@@ -18,6 +18,7 @@ import {
   partnerNos,
   partnerFaq,
 } from "../data/partnerstvo";
+import { breadcrumbJsonLd } from "../lib/breadcrumb-jsonld";
 
 const marquee = [...partnerCases, ...partnerCases];
 
@@ -37,6 +38,17 @@ const faqJsonLd = {
     },
   })),
 };
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: "Главная", href: "/" },
+    { label: "Партнерство" },
+  ],
+  {
+    origin: Astro.site?.origin ?? "https://prime-ltd.su",
+    currentPath: "/partnerstvo/",
+  },
+);
+
 ---
 
 <!doctype html>
@@ -60,6 +72,7 @@ const faqJsonLd = {
       rel="stylesheet"
     />
     <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
   </head>
   <body>
     <div class="v6-app">
