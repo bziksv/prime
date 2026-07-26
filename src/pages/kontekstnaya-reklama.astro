@@ -17,9 +17,28 @@ import {
   adsPricing,
   adsPricingTiers,
   adsPricingInclude,
+  adsOutcomes,
+  adsFaq,
 } from "../data/ads-service";
 
 const adsCases = getCasesByCategory("ads").slice(0, 4);
+
+const pageTitle = "Контекстная реклама — ПРАЙМ";
+const pageDescription =
+  "Контекстная реклама в Яндекс.Директе и Google Ads: стратегия, минус-слова, UTM, ставки. Ведение от 6 000 ₽ — по медиабюджету, не процент от пополнения. Два отдельных счёта.";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: adsFaq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
 ---
 
 <!doctype html>
@@ -27,14 +46,11 @@ const adsCases = getCasesByCategory("ads").slice(0, 4);
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Контекстная реклама в Яндекс.Директе и Google Ads: стратегия, минус-слова, UTM, ставки. Ведение от 6 000 ₽ — по медиабюджету, не процент от пополнения. Два отдельных счёта."
-    />
-    <title>Контекстная реклама — ПРАЙМ</title>
+    <meta name="description" content={pageDescription} />
+    <title>{pageTitle}</title>
     <SiteSeo
-      title="Контекстная реклама — ПРАЙМ"
-      description="Контекстная реклама в Яндекс.Директе и Google Ads: стратегия, минус-слова, UTM, ставки. Ведение от 6 000 ₽ — по медиабюджету, не процент от пополнения. Два отдельных счёта."
+      title={pageTitle}
+      description={pageDescription}
       path="/kontekstnaya-reklama/"
     />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
@@ -46,6 +62,7 @@ const adsCases = getCasesByCategory("ads").slice(0, 4);
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Syne:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   </head>
   <body>
     <div class="v6-app">
@@ -261,6 +278,40 @@ const adsCases = getCasesByCategory("ads").slice(0, 4);
               </section>
             )
           }
+
+          <section class="a-section a-reveal">
+            <div class="a-section__head">
+              <h2>Что получаете на практике</h2>
+              <p>Не «показы ради отчёта», а управляемый канал заявок из поиска.</p>
+            </div>
+            <div class="a-outcomes">
+              {
+                adsOutcomes.map((item) => (
+                  <article class="a-outcome">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="a-section a-reveal" id="faq">
+            <div class="a-section__head">
+              <h2>Частые вопросы</h2>
+              <p>Тарифы, системы, сроки и сайт под рекламу.</p>
+            </div>
+            <div class="a-faq">
+              {
+                adsFaq.map((item) => (
+                  <details class="a-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
+          </section>
 
           <section id="ads-cta" class="a-cta a-reveal">
             <div class="a-cta__copy">
