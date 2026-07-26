@@ -19,16 +19,16 @@
 
 | Страница | PAGE-ID | Приоритет | Статус |
 |----------|---------|-----------|--------|
-| Главная | PAGE-HOME | P0 | [ ] |
-| Услуги (каталог) | PAGE-SERVICES | P0 | [ ] |
-| Услуга × N | PAGE-SERVICE | P0 | [ ] |
-| О компании | PAGE-ABOUT | P1 | [ ] |
-| Кейсы (список) | PAGE-CASES | P1 | [ ] |
-| Кейс × N | PAGE-CASE | P1 | [ ] |
-| Контакты | PAGE-CONTACT | P0 | [ ] |
-| Блог | PAGE-BLOG | P2 | [ ] |
-| Статья | PAGE-POST | P2 | [ ] |
-| Тарифы | PAGE-PRICING | P3 | [ ] |
+| Главная | PAGE-HOME | P0 | [x] live `/` |
+| Услуги (каталог) | PAGE-SERVICES | P0 | [x] блок `#services` на главной + меню |
+| Услуга × N | PAGE-SERVICE | P0 | [x] 8 service pages |
+| О компании | PAGE-ABOUT | P1 | [x] `#about` на главной |
+| Кейсы (список) | PAGE-CASES | P1 | [x] `/keysy/` |
+| Кейс × N | PAGE-CASE | P1 | [x] `/keysy/<cat>/<slug>/` |
+| Контакты | PAGE-CONTACT | P0 | [x] `/kontakty/` |
+| Блог | PAGE-BLOG | P2 | [x] `/blog/` |
+| Статья | PAGE-POST | P2 | [x] `/blog/<slug>/` |
+| Тарифы | PAGE-PRICING | P3 | [ ] нет отдельной страницы (цены в услугах) |
 
 Чертежи секций → `the7-page-blueprints.md`.
 
@@ -92,19 +92,20 @@
 ## Фазы внедрения
 
 ### Фаза 0 — Подготовка
-- [ ] Брендбук / логотип
-- [ ] Тексты RU (или EN)
-- [ ] Скрины в `docs/archive/` [см. the7-offline-archive.md]
+- [x] Брендбук / логотип
+- [x] Тексты RU
+- [~] Скрины в `docs/archive/` [см. the7-offline-archive.md] — по мере надобности
 
 ### Фаза 1 — MVP (P0)
-- [ ] PAGE-HOME, PAGE-SERVICES, PAGE-SERVICE (шаблон), PAGE-CONTACT
-- [ ] LINE-BUSINESS tokens в CSS
+- [x] PAGE-HOME, PAGE-SERVICES, PAGE-SERVICE (шаблон), PAGE-CONTACT
+- [x] LINE-BUSINESS tokens в CSS (concept-v6)
 
 ### Фаза 2 — P1
-- [ ] PAGE-ABOUT, PAGE-CASES, PAGE-CASE (2 шаблона)
+- [x] PAGE-ABOUT (`#about`), PAGE-CASES, PAGE-CASE
 
 ### Фаза 3 — P2/P3
-- [ ] Blog, Pricing
+- [x] Blog
+- [ ] Pricing (отдельная страница не нужна — тарифы в услугах)
 
 ---
 

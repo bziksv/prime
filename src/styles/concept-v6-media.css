@@ -1817,6 +1817,7 @@ body[data-concept="v6"] {
 .v6-about-strip {
   display: grid;
   gap: 1.25rem;
+  scroll-margin-top: 5.5rem;
 }
 
 @media (min-width: 800px) {
