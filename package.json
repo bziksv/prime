@@ -5,8 +5,9 @@
   "private": true,
   "scripts": {
     "dev": "astro dev --port 3004",
-    "build": "astro build",
+    "build": "NODE_OPTIONS=--max-old-space-size=1024 astro build",
     "preview": "astro preview --port 3004",
+    "deploy:prod": "bash scripts/deploy-prod.sh",
     "htaccess:blog": "node scripts/generate-blog-htaccess.mjs",
     "images:webp": "node scripts/convert-images-to-webp.mjs"
   },

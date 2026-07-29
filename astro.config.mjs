@@ -32,6 +32,18 @@ export default defineConfig({
   server: {
     port: 3004,
   },
+  // Keep page render serial — safer on the shared VPS (MySQL + zram already tight).
+  build: {
+    concurrency: 1,
+  },
+  vite: {
+    build: {
+      // Fewer parallel file ops → lower peak RSS during Rollup.
+      rollupOptions: {
+        maxParallelFileOps: 5,
+      },
+    },
+  },
   integrations: [
     sitemap({
       filter: (page) => !page.includes("/404"),
