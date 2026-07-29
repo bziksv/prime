@@ -115,10 +115,10 @@
 | `lormag` | — | нет | фаза C — deep `/keysy/web/lormag/` |
 | `medplakaty` | — | нет | фаза C — deep `/keysy/web/medplakaty/` |
 | `doskivrn` | — | нет | фаза C — deep `/keysy/web/doskivrn/` (сайт «Велес»; SEO — `pilomaterialov`) |
-| `setka` | — | нет | фаза C — deep `/keysy/web/billiard-guru/` (продукт billiard.guru) |
+| `setka` | — | нет | фаза C — deep `/keysy/web/billiard-guru/` + bots `/keysy/bots/billiard-guru-bot/` |
 | `vrn-ehk` | — | SEO/ads ЭХК на old | фаза B — deep `ehk-kovanyie` |
 | `Описание medmarket` | только описание | нет | = kosmamed (ребренд) — deep `kosmamed` |
-| `Описание billiard.guru` | только описание | нет | = setka / billiard.guru — deep `billiard-guru` |
+| `Описание billiard.guru` | только описание | нет | = setka / billiard.guru — deep `billiard-guru` + `billiard-guru-bot` |
 | `crm.prime-ltd` | — | нет | внутренний — в кейсы только если ок публиковать |
 | `prime-ltd.su` | да | — | это сам сайт, не клиентский кейс |
 
@@ -162,7 +162,7 @@
 
 ## Прогресс
 
-- Deep: … doskivrn, **billiard-guru (web, фаза C = setka)**
+- Deep: … doskivrn, **billiard-guru (web)** + **billiard-guru-bot (bots)**
 - Deep (+): kabelmontazh, motorland-kuzov, fortuna-avto
 - **Фаза A (14):** закрыта
 - **Фаза B:** закрыта

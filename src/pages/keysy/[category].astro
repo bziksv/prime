@@ -219,6 +219,60 @@ const cases = getCasesByCategory(cat.id as CaseCategoryId);
       )
     }
 
+    {
+      cat.id === "bots" && (
+        <div class="k-hero__theme" aria-hidden="true">
+          <div class="k-bots">
+            <div class="k-bots__phone">
+              <div class="k-bots__notch" />
+              <div class="k-bots__chat">
+                <div class="k-bots__head">
+                  <span class="k-bots__avatar" />
+                  <div>
+                    <strong>Ваш бот</strong>
+                    <em>в сети</em>
+                  </div>
+                </div>
+                <div class="k-bots__bubble k-bots__bubble--in">
+                  Добро пожаловать — выберите действие
+                </div>
+                <div class="k-bots__menu">
+                  <span>Запись</span>
+                  <span>Статус</span>
+                  <span>Поддержка</span>
+                </div>
+                <div class="k-bots__bubble k-bots__bubble--out">
+                  Запись на завтра, 18:00
+                </div>
+                <div class="k-bots__bubble k-bots__bubble--in is-ok">
+                  Готово · напоминание придёт сюда
+                </div>
+              </div>
+            </div>
+            <div class="k-bots__metrics">
+              <div>
+                <strong>24/7</strong>
+                <span>в мессенджере</span>
+              </div>
+              <div>
+                <strong>0</strong>
+                <span>отдельных приложений</span>
+              </div>
+              <div>
+                <strong>CRM</strong>
+                <span>связка</span>
+              </div>
+            </div>
+          </div>
+          <ul class="k-hero__chips">
+            <li>Telegram</li>
+            <li>уведомления</li>
+            <li>записи</li>
+          </ul>
+        </div>
+      )
+    }
+
     <div class="k-hero__stripe" aria-hidden="true"></div>
   </section>
 

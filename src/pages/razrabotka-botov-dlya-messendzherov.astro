@@ -1,0 +1,486 @@
+---
+import "../styles/concept-v6.css";
+import "../styles/concept-v6-media.css";
+import "../styles/boty.css";
+import PortalShell from "../components/PortalShell.astro";
+import CookieConsent from "../components/CookieConsent.astro";
+import CookieFooterNotice from "../components/CookieFooterNotice.astro";
+import SiteSeo from "../components/SiteSeo.astro";
+import { v6Icons } from "../data/v6-media";
+import { legalDocs } from "../data/legal";
+import { getCasesByCategory } from "../data/cases";
+import {
+  botsProblem,
+  botsChaos,
+  botsClean,
+  botsPillars,
+  botsPlatforms,
+  botsFlow,
+  botsSteps,
+  botsOutcomes,
+  botsNos,
+  botsFaq,
+  botsPricing,
+} from "../data/bots-service";
+import { breadcrumbJsonLd } from "../lib/breadcrumb-jsonld";
+import { serviceJsonLd } from "../lib/service-jsonld";
+
+const botsCases = getCasesByCategory("bots").slice(0, 4);
+
+const pageTitle = "Разработка ботов для мессенджеров — ПРАЙМ";
+const pageDescription =
+  "Разработка ботов для Telegram и мессенджеров: сценарии, меню, уведомления, запись и связка с сайтом или CRM. Без спама и серых схем.";
+
+const rail = [
+  "Telegram",
+  "Меню",
+  "Уведомления",
+  "Запись",
+  "Вход",
+  "CRM",
+  "Webhook",
+  "WhatsApp",
+  "Кабинет",
+  "Без приложения",
+];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: botsFaq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: "Главная", href: "/" },
+    { label: "Разработка ботов для мессенджеров" },
+  ],
+  {
+    origin: Astro.site?.origin ?? "https://prime-ltd.su",
+    currentPath: "/razrabotka-botov-dlya-messendzherov/",
+  },
+);
+
+const serviceLd = serviceJsonLd({
+  name: "Разработка ботов для мессенджеров",
+  description: pageDescription,
+  path: "/razrabotka-botov-dlya-messendzherov/",
+  serviceType: "Разработка чат-ботов",
+  origin: Astro.site?.origin ?? "https://prime-ltd.su",
+});
+---
+
+<!doctype html>
+<html lang="ru" data-concept="v6" data-page="bots">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={pageDescription} />
+    <title>{pageTitle}</title>
+    <SiteSeo
+      title={pageTitle}
+      description={pageDescription}
+      path="/razrabotka-botov-dlya-messendzherov/"
+    />
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <link rel="preload" as="image" href="/images/v6/photos/bots-hero.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(serviceLd)} />
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell serviceActive="bots" />
+
+      <main id="main" class="v6-main">
+        <header class="v6-topbar">
+          <button id="v6-burger" type="button" class="v6-burger" aria-label="Меню" aria-controls="v6-sidebar" aria-expanded="false">☰</button>
+          <p class="v6-breadcrumb">
+            <a href="/">Главная</a> · <strong>Боты для мессенджеров</strong>
+          </p>
+          <a href="#bots-cta" class="v6-btn">Оставить заявку</a>
+        </header>
+
+        <div class="v6-content v6-content--bots">
+          <section class="b-hero">
+            <div class="b-hero__bg" aria-hidden="true" data-parallax-bots-bg></div>
+            <div class="b-hero__veil" aria-hidden="true"></div>
+            <div class="b-hero__grid" aria-hidden="true"></div>
+
+            <div class="b-hero__copy">
+              <p class="b-brand">ПРАЙ<em>М</em></p>
+              <h1>
+                Боты, которые ведут сервис <span>там, где клиент</span>
+              </h1>
+              <p class="b-hero__lead">
+                Telegram и другие каналы: меню, уведомления, запись и вход —
+                без отдельного приложения, со связкой с сайтом или CRM.
+              </p>
+              <div class="b-hero__actions">
+                <a href="#bots-cta" class="b-btn b-btn--primary">Обсудить бота</a>
+                <a href="#compare" class="b-btn b-btn--ghost">Как это выглядит</a>
+              </div>
+            </div>
+
+            <div class="b-hero__stage" aria-hidden="true">
+              <div class="b-chat" data-bots-chat>
+                <div class="b-chat__bar">
+                  <span class="b-chat__dot"></span>
+                  <div>
+                    <strong>Ваш бот</strong>
+                    <em>в сети</em>
+                  </div>
+                </div>
+                <div class="b-chat__thread">
+                  <div class="b-chat__bubble b-chat__bubble--in" data-chat-step>
+                    Добро пожаловать — выберите действие
+                  </div>
+                  <div class="b-chat__menu" data-chat-step>
+                    <span>Запись</span>
+                    <span>Статус</span>
+                    <span>Поддержка</span>
+                  </div>
+                  <div class="b-chat__bubble b-chat__bubble--out" data-chat-step>
+                    Запись на завтра, 18:00
+                  </div>
+                  <div class="b-chat__bubble b-chat__bubble--in b-chat__bubble--ok" data-chat-step>
+                    Готово · напоминание придёт сюда
+                  </div>
+                  <div class="b-chat__typing" data-chat-typing>
+                    <i></i><i></i><i></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="b-rail" aria-hidden="true">
+            <div class="b-rail__track">
+              {[...rail, ...rail].map((item) => <span>{item}</span>)}
+            </div>
+          </div>
+
+          <div class="b-pad">
+            <section class="b-section b-reveal" id="compare">
+              <div class="b-section__head">
+                <h2>Групповой чат vs бот</h2>
+                <p>{botsProblem.lead}</p>
+              </div>
+              <div class="b-compare">
+                <article class="b-board b-board--chaos">
+                  <p class="b-board__label">Как сейчас</p>
+                  <div class="b-board__stack">
+                    {botsChaos.map((line) => <div class="b-noise">{line}</div>)}
+                  </div>
+                  <p class="b-board__note">{botsProblem.distort}</p>
+                </article>
+                <article class="b-board b-board--clean">
+                  <p class="b-board__label">С ботом</p>
+                  <div class="b-board__stack">
+                    {
+                      botsClean.map((row) =>
+                        row.role === "menu" ? (
+                          <div class="b-clean-menu">
+                            {row.items.map((item) => (
+                              <span>{item}</span>
+                            ))}
+                          </div>
+                        ) : (
+                          <div
+                            class:list={[
+                              "b-clean-line",
+                              row.role === "bot" ? "b-clean-line--bot" : "b-clean-line--user",
+                            ]}
+                          >
+                            {row.text}
+                          </div>
+                        ),
+                      )
+                    }
+                  </div>
+                  <p class="b-board__note">{botsProblem.trust}</p>
+                </article>
+              </div>
+            </section>
+
+            <section class="b-section b-reveal" id="pillars">
+              <div class="b-section__head">
+                <h2>Что собираем</h2>
+                <p>Сценарии, пуши, интеграции и админка — под задачу, не «универсальный чат».</p>
+              </div>
+              <div class="b-pillars">
+                {
+                  botsPillars.map((p) => (
+                    <article class="b-pillar">
+                      <span class="b-pillar__n">{p.n}</span>
+                      <h3>{p.title}</h3>
+                      <p>{p.text}</p>
+                    </article>
+                  ))
+                }
+              </div>
+            </section>
+
+            <section class="b-section b-reveal">
+              <div class="b-section__head">
+                <h2>Каналы и связки</h2>
+                <p>От Telegram до CRM — без серых обходов площадок.</p>
+              </div>
+              <div class="b-platforms">
+                {
+                  botsPlatforms.map((p) => (
+                    <article class="b-platform">
+                      <span class="b-platform__tag">{p.tag}</span>
+                      <h3>{p.title}</h3>
+                      <p>{p.text}</p>
+                    </article>
+                  ))
+                }
+              </div>
+            </section>
+
+            <section class="b-section b-reveal">
+              <div class="b-section__head">
+                <h2>Один продукт, три точки</h2>
+                <p>{botsProblem.cycle}</p>
+              </div>
+              <div class="b-flow">
+                <div class="b-flow__node">
+                  <strong>{botsFlow[0].title}</strong>
+                  <span>{botsFlow[0].text}</span>
+                </div>
+                <div class="b-flow__arrow" aria-hidden="true">→</div>
+                <div class="b-flow__node">
+                  <strong>{botsFlow[1].title}</strong>
+                  <span>{botsFlow[1].text}</span>
+                </div>
+                <div class="b-flow__arrow" aria-hidden="true">→</div>
+                <div class="b-flow__node">
+                  <strong>{botsFlow[2].title}</strong>
+                  <span>{botsFlow[2].text}</span>
+                </div>
+              </div>
+            </section>
+
+            <section class="b-section b-reveal">
+              <div class="b-section__head">
+                <h2>Как выстраиваем работу</h2>
+                <p>От задачи и каналов до запуска и доработок по факту.</p>
+              </div>
+              <div class="b-steps">
+                {
+                  botsSteps.map((s) => (
+                    <article class="b-step">
+                      <span class="b-step__n">Шаг {s.n}</span>
+                      <h3>{s.title}</h3>
+                      <p>{s.text}</p>
+                    </article>
+                  ))
+                }
+              </div>
+            </section>
+
+            {
+              botsCases.length > 0 && (
+                <section class="b-section b-reveal">
+                  <div class="b-section__head">
+                    <h2>Кейсы по ботам</h2>
+                    <p>Реальные продукты со слоем в мессенджере.</p>
+                  </div>
+                  <div class="b-cases">
+                    {botsCases.map((c) => (
+                      <a href={`/keysy/${c.category}/${c.slug}/`} class="b-case">
+                        <span class="b-case__media" aria-hidden="true">
+                          <img src={c.cover} alt="" loading="lazy" />
+                        </span>
+                        <span class="b-case__shade" aria-hidden="true" />
+                        <span class="b-case__copy">
+                          <strong>{c.title}</strong>
+                          <span>
+                            {c.metric} · {c.metricLabel}
+                          </span>
+                        </span>
+                      </a>
+                    ))}
+                  </div>
+                  <p style="margin-top:1.25rem">
+                    <a class="b-btn--line" href="/keysy/bots/">
+                      Все кейсы по ботам
+                    </a>
+                  </p>
+                </section>
+              )
+            }
+
+            <section class="b-section b-reveal">
+              <div class="b-section__head">
+                <h2>Что меняется</h2>
+                <p>Не «бот ради галочки» — канал сервиса рядом с сайтом.</p>
+              </div>
+              <div class="b-outcomes">
+                {
+                  botsOutcomes.map((item) => (
+                    <article class="b-outcome">
+                      <h3>{item.title}</h3>
+                      <p>{item.text}</p>
+                    </article>
+                  ))
+                }
+              </div>
+            </section>
+
+            <section class="b-section b-reveal">
+              <div class="b-section__head">
+                <h2>Чего не делаем</h2>
+                <p>Чтобы не путать бота со спам-рассылкой.</p>
+              </div>
+              <div class="b-nos">
+                {
+                  botsNos.map((item) => (
+                    <article class="b-no">
+                      <h3>{item.title}</h3>
+                      <p>{item.text}</p>
+                    </article>
+                  ))
+                }
+              </div>
+            </section>
+
+            <section class="b-price b-reveal">
+              <div>
+                <h2>{botsPricing.title}</h2>
+                <p>{botsPricing.text}</p>
+              </div>
+              <p class="b-price__mark">После разбора сценариев</p>
+            </section>
+
+            <section class="b-section b-reveal" id="faq">
+              <div class="b-section__head">
+                <h2>Частые вопросы</h2>
+                <p>Каналы, сроки, CRM и роль менеджера.</p>
+              </div>
+              <div class="b-faq">
+                {
+                  botsFaq.map((item) => (
+                    <details class="b-faq__item">
+                      <summary>{item.q}</summary>
+                      <p>{item.a}</p>
+                    </details>
+                  ))
+                }
+              </div>
+            </section>
+
+            <section id="bots-cta" class="b-cta b-reveal">
+              <div class="b-cta__copy">
+                <div>
+                  <h2>Нужен бот под ваш сервис?</h2>
+                  <p>
+                    Разберём канал, сценарии и связку с сайтом или CRM —
+                    и предложим план без обязательств.
+                  </p>
+                  <ul class="b-cta__points">
+                    <li>Telegram и официальные API</li>
+                    <li>Меню, уведомления, записи, вход</li>
+                    <li>Связка с сайтом и CRM</li>
+                    <li>Разбор задачи за 30 минут</li>
+                  </ul>
+                </div>
+                <div class="b-cta__contacts">
+                  <a href="mailto:info@prime-ltd.su">info@prime-ltd.su</a>
+                  <a href="tel:+74732030124">+7 (473) 203-01-24</a>
+                </div>
+              </div>
+              <form id="bots-form" class="b-form">
+                <label class="visually-hidden" for="bots-name">Ваше имя</label>
+                <input
+                  id="bots-name"
+                  type="text"
+                  name="name"
+                  placeholder="Ваше имя"
+                  autocomplete="name"
+                  required
+                />
+                <label class="visually-hidden" for="bots-phone">Телефон</label>
+                <input
+                  id="bots-phone"
+                  type="tel"
+                  name="phone"
+                  placeholder="Телефон"
+                  autocomplete="tel"
+                  required
+                />
+                <label class="visually-hidden" for="bots-brand">Компания / продукт</label>
+                <input
+                  id="bots-brand"
+                  type="text"
+                  name="brand"
+                  placeholder="Компания / продукт"
+                  autocomplete="organization"
+                />
+                <label class="visually-hidden" for="bots-focus">Приоритет</label>
+                <select id="bots-focus" name="focus">
+                  <option value="">Что приоритетнее</option>
+                  <option>Заявки и квалификация лида</option>
+                  <option>Запись / брони</option>
+                  <option>Уведомления и статусы</option>
+                  <option>Вход и кабинет через бота</option>
+                  <option>Комплекс · сайт + бот</option>
+                </select>
+                <label class="visually-hidden" for="bots-message">Кратко о задаче</label>
+                <textarea
+                  id="bots-message"
+                  name="message"
+                  rows="3"
+                  placeholder="Канал, сценарии, есть ли сайт или CRM?"
+                ></textarea>
+                <label class="b-form__check">
+                  <input type="checkbox" name="agree" required />
+                  <span>
+                    Согласен на обработку персональных данных в соответствии с нашей{" "}
+                    <a
+                      class="cookie-link"
+                      href={legalDocs.privacy}
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      >политикой</a
+                    >.
+                  </span>
+                </label>
+                <button type="submit" class="b-btn b-btn--primary">Отправить заявку</button>
+                <p id="bots-form-hint" class="b-form-hint" hidden></p>
+              </form>
+            </section>
+          </div>
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>ПРАЙМ</strong>
+            <p>Боты для мессенджеров · Telegram · интеграции</p>
+          </div>
+          <p>© 2015–{new Date().getFullYear()} ПРАЙМ</p>
+          <CookieFooterNotice />
+        </footer>
+      </main>
+    </div>
+
+    <CookieConsent />
+    <script>
+      import "../scripts/boty.ts";
+    </script>
+  </body>
+</html>

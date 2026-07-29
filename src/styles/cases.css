@@ -217,10 +217,11 @@
   z-index: 1;
 }
 
-/* —— Category themes: SEO SERP + Ads Direct + Web —— */
+/* —— Category themes: SEO SERP + Ads Direct + Web + Bots —— */
 .k-hero--seo,
 .k-hero--ads,
-.k-hero--web {
+.k-hero--web,
+.k-hero--bots {
   min-height: min(56vh, 460px);
   justify-content: center;
   gap: 1.5rem;
@@ -247,10 +248,18 @@
     linear-gradient(145deg, #061218 0%, #0c1e28 55%, #08141c 100%);
 }
 
+.k-hero--bots {
+  background:
+    radial-gradient(ellipse 55% 70% at 92% 42%, color-mix(in srgb, var(--k-accent) 38%, transparent), transparent 58%),
+    radial-gradient(ellipse 42% 50% at 8% 82%, rgba(43, 168, 224, 0.18), transparent 55%),
+    linear-gradient(145deg, #071018 0%, #0c1824 55%, #09141c 100%);
+}
+
 @media (min-width: 900px) {
   .k-hero--seo,
   .k-hero--ads,
-  .k-hero--web {
+  .k-hero--web,
+  .k-hero--bots {
     display: grid;
     grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
     align-items: center;
@@ -259,19 +268,23 @@
 
   .k-hero--seo .k-hero__stats,
   .k-hero--ads .k-hero__stats,
-  .k-hero--web .k-hero__stats {
+  .k-hero--web .k-hero__stats,
+  .k-hero--bots .k-hero__stats {
     margin-top: 1.5rem;
   }
 
   .k-hero--seo .k-hero__stripe,
   .k-hero--ads .k-hero__stripe,
   .k-hero--web .k-hero__stripe,
+  .k-hero--bots .k-hero__stripe,
   .k-hero--seo .k-hero__grid,
   .k-hero--ads .k-hero__grid,
   .k-hero--web .k-hero__grid,
+  .k-hero--bots .k-hero__grid,
   .k-hero--seo .k-hero__glow,
   .k-hero--ads .k-hero__glow,
-  .k-hero--web .k-hero__glow {
+  .k-hero--web .k-hero__glow,
+  .k-hero--bots .k-hero__glow {
     grid-column: 1 / -1;
   }
 }
@@ -285,7 +298,8 @@
 
 .k-serp,
 .k-ads,
-.k-web {
+.k-web,
+.k-bots {
   position: relative;
   padding: 0.85rem;
   border-radius: 18px;
@@ -826,6 +840,140 @@
   text-align: right;
 }
 
+/* Bots / messengers panel */
+.k-bots__phone {
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: #0a121a;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4);
+}
+
+.k-bots__notch {
+  width: 42%;
+  height: 8px;
+  margin: 0.45rem auto 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.k-bots__chat {
+  padding: 0.65rem 0.75rem 0.85rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.k-bots__head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.k-bots__avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 30%, #fff 0 12%, transparent 13%),
+    linear-gradient(145deg, var(--k-accent), color-mix(in srgb, var(--k-accent) 45%, #0a1620));
+  flex-shrink: 0;
+}
+
+.k-bots__head strong {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0.02em;
+}
+
+.k-bots__head em {
+  display: block;
+  font-style: normal;
+  font-size: 0.58rem;
+  color: color-mix(in srgb, var(--k-accent) 85%, #fff);
+}
+
+.k-bots__bubble {
+  max-width: 92%;
+  padding: 0.45rem 0.65rem;
+  border-radius: 12px;
+  font-size: 0.68rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+.k-bots__bubble--in {
+  justify-self: start;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.88);
+  border-bottom-left-radius: 4px;
+}
+
+.k-bots__bubble--out {
+  justify-self: end;
+  background: color-mix(in srgb, var(--k-accent) 55%, #0a1620);
+  color: #fff;
+  border-bottom-right-radius: 4px;
+}
+
+.k-bots__bubble.is-ok {
+  border-color: color-mix(in srgb, var(--k-accent) 45%, transparent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--k-accent) 25%, transparent);
+}
+
+.k-bots__menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.k-bots__menu span {
+  padding: 0.28rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid color-mix(in srgb, var(--k-accent) 35%, transparent);
+}
+
+.k-bots__metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.35rem;
+  margin-top: 0.65rem;
+}
+
+.k-bots__metrics div {
+  padding: 0.45rem 0.4rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+}
+
+.k-bots__metrics strong {
+  display: block;
+  font-family: var(--k-display);
+  font-size: 0.85rem;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.k-bots__metrics span {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.55rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
+}
+
 .k-hero__chips {
   list-style: none;
   margin: 0.75rem 0 0;
@@ -850,7 +998,8 @@
 @media (max-width: 899px) {
   .k-hero--seo .k-hero__theme,
   .k-hero--ads .k-hero__theme,
-  .k-hero--web .k-hero__theme {
+  .k-hero--web .k-hero__theme,
+  .k-hero--bots .k-hero__theme {
     width: 100%;
     margin: 0;
   }
@@ -864,6 +1013,7 @@
   .k-serp,
   .k-ads,
   .k-web,
+  .k-bots,
   .k-serp__meter i::after,
   .k-ads__live i {
     animation: none;

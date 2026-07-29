@@ -1,3 +1,5 @@
+import { auditGoalFromType, reachGoals, ymGoals } from "./metrika";
+
 type LeadPayload = {
   name: string;
   phone: string;
@@ -37,6 +39,14 @@ export type BindLeadFormOptions = {
   source?: string;
   errorColor?: string;
   successColor?: string;
+  /**
+   * Цель(и) Метрики после успешной отправки.
+   * По умолчанию — zajavka_s_formy; для аудита можно передать резолвер.
+   */
+  metrikaGoals?:
+    | string
+    | string[]
+    | ((payload: LeadPayload) => string | string[] | undefined);
   /** Runs after a successful submit and form.reset(). */
   onSuccess?: () => void;
 };
@@ -78,6 +88,21 @@ async function postLead(payload: LeadPayload): Promise<{ ok: boolean; error?: st
     };
   }
   return { ok: true };
+}
+
+function resolveMetrikaGoals(
+  opts: BindLeadFormOptions,
+  payload: LeadPayload,
+): string[] {
+  const raw = opts.metrikaGoals;
+  if (typeof raw === "function") {
+    const v = raw(payload);
+    if (!v) return [ymGoals.form];
+    return Array.isArray(v) ? v : [v];
+  }
+  if (Array.isArray(raw)) return raw.length ? raw : [ymGoals.form];
+  if (typeof raw === "string" && raw) return [raw];
+  return [ymGoals.form];
 }
 
 /** Wire a CTA form to the PHP lead endpoint. */
@@ -134,6 +159,7 @@ export function bindLeadForm(opts: BindLeadFormOptions): void {
         hint.style.color = result.ok ? successColor : errorColor;
       }
       if (result.ok) {
+        reachGoals(resolveMetrikaGoals(opts, payload));
         form.reset();
         onSuccess?.();
       }
@@ -149,3 +175,6 @@ export function bindLeadForm(opts: BindLeadFormOptions): void {
     }
   });
 }
+
+export { auditGoalFromType, ymGoals };
+

@@ -1,5 +1,5 @@
 import "./concept-v6";
-import { bindLeadForm } from "./lead-form";
+import { auditGoalFromType, bindLeadForm, ymGoals } from "./lead-form";
 
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -392,5 +392,9 @@ if (form) {
     successMessage: "Спасибо! Заявка на аудит принята — свяжемся с вами.",
     source: "audit-sayta",
     successColor: "var(--u-ok, #1f8a6e)",
+    metrikaGoals: (payload) => [
+      ymGoals.form,
+      auditGoalFromType(payload.service),
+    ],
   });
 }
