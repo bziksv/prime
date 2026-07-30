@@ -31,6 +31,8 @@ export default defineConfig({
   site: "https://prime-ltd.su",
   server: {
     port: 3004,
+    // Bind IPv4 — otherwise preview/dev may listen only on [::1] and 127.0.0.1 fails.
+    host: "127.0.0.1",
   },
   // Keep page render serial — safer on the shared VPS (MySQL + zram already tight).
   build: {

@@ -1561,7 +1561,7 @@ export function getArticleCta(post: BlogPost): { title: string; text: string } {
       text: "Соберём офферы, структуру и CTA — в связке с контент-планом и оформлением профиля.",
     },
     "raskrutka-youtube": {
-      title: "Нужен рост YouTube-канала?",
+      title: "Нужен рост Ютуб-канала?",
       text: "Соберём нишу, контент-план и упаковку канала — без обещаний «вирус за неделю».",
     },
     "kopirayting": {
@@ -3800,7 +3800,7 @@ export function getCoverCaption(post: BlogPost): { title: string; subtitle: stri
       subtitle: "Структура, заголовок, CTA",
     },
     "raskrutka-youtube": {
-      title: "Раскрутка YouTube",
+      title: "Раскрутка Ютуба",
       subtitle: "Ниша, ролики, рост канала",
     },
     "kopirayting": {
@@ -5008,8 +5008,8 @@ export function getCoverCaption(post: BlogPost): { title: string; subtitle: stri
       subtitle: "Smart Bidding",
     },
     "adaptivnye-mediynye-obyavleniya": {
-      title: "Адаптивные RDA",
-      subtitle: "Медийка Google Ads",
+      title: "Адаптивные объявления",
+      subtitle: "Медийка в Гугл Рекламе",
     },
     "proverka-indeksatsii": {
       title: "Проверка индексации",
@@ -5664,7 +5664,7 @@ export function getCoverCaption(post: BlogPost): { title: string; subtitle: stri
       subtitle: "Индекс и отчёты",
     },
     "avtorskie-prava-instagram": {
-      title: "Авторские права Instagram",
+      title: "Авторские права",
       subtitle: "Музыка и фото",
     },
     "golosovoy-poisk": {
