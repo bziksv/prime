@@ -1,0 +1,17 @@
+# Heavy build / deps — keep Cursor from indexing
+node_modules/
+dist/
+.astro/
+
+# Runtime / generated data
+public/data/blog-views/
+public/data/leads/
+
+# OCR / temp notes
+docs/tmp/
+
+# Heavy 3D / media (do NOT blanket-ignore *.webp — blocks cover installs)
+public/spline/
+*.splinecode
+*.mp4
+*.webm

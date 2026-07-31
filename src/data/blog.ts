@@ -2386,7 +2386,7 @@ export function getArticleCta(post: BlogPost): { title: string; text: string } {
     },
     "email-marketing-2020": {
       title: "Email «застыл» на дайджестах?",
-      text: "Соберём мобильную вёрстку, триггеры и связку с CRM — без культа AMP из обзоров 2020.",
+      text: "Соберём мобильную вёрстку, триггеры и связку с CRM — без культа экспериментального интерактива.",
     },
     "instrumenty-marketologa": {
       title: "Стек сервисов раздулся?",
@@ -4764,8 +4764,8 @@ export function getCoverCaption(post: BlogPost): { title: string; subtitle: stri
       subtitle: "Приёмы брендов",
     },
     "email-marketing-2020": {
-      title: "Email: уроки 2020",
-      subtitle: "Мобилка и CRM",
+      title: "Почтовый маркетинг",
+      subtitle: "Мобилка, триггеры, CRM",
     },
     "instrumenty-marketologa": {
       title: "Инструменты маркетолога",

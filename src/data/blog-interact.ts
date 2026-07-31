@@ -9508,18 +9508,18 @@ export const blogInteractBySlug: Record<string, BlogInteractConfig> = {
         { id: "html", label: "Есть обычный HTML-fallback" },
         { id: "trigger", label: "Есть хотя бы один триггерный сценарий" },
         { id: "crm", label: "Понятна связка с CRM/сайтом" },
-        { id: "no-amp", label: "Нет ставки только на AMP-интерактив" },
+        { id: "no-amp", label: "Нет ставки только на экспериментальный интерактив" },
       ],
     },
     quizzes: [
       {
         afterTitleIncludes: "Персонализация и сегменты",
-        title: "Мини-тест: уроки 2020",
+        title: "Мини-тест: практика email",
         lead: "Два вопроса.",
         questions: [
           {
             id: "em1",
-            question: "AMP в письмах…",
+            question: "Сложный интерактив в письмах…",
             options: [
               "Обязателен для всех ESP",
               "Опционален, нужен HTML-запасной вариант",
