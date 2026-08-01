@@ -1072,8 +1072,8 @@
   ID `43554` · 2018-06-07 · ~8k · Интернет-маркетинг · **dup** → `/blog/lending/` (каркас блоков, первый экран, ЦА/УТП, FAQ/возражения, CTA уже в каноне; текст оффера — `/blog/tekst-lendinga/`)
 - [x] `20-deystvennyih-sposobov-po-uvelicheniyu-prodazh-na-vashem-sayte` — 20 действенных способов по увеличению продаж на вашем сайте    
   ID `43481` · 2018-06-05 · ~18k · Интернет-маркетинг · **dup** → `/blog/prodazhi-internet-magazin/` (тот же контур рычагов, что у канона из `20-sposobov-uvelichit-prodazhi-v-internet-magazine`; Instagram/Facebook в каноне через legalNotice)
-- [x] `12-samyih-populyarnyih-tendentsiy-veb-dizayna-2018` — 12 самых популярных тенденций веб-дизайна 2018    
-  ID `43427` · 2018-05-29 · ~16k · Интернет-маркетинг → Astro `/blog/tendentsii-veb-dizayna/` · **новый формат** (ретроспектива; «обязательный» InVision/анимация смягчены)
+- [x] `12-samyih-populyarnyih-tendentsiy-veb-dizayna-2018` — 12 самых популярных тенденций веб-дизайна 2018
+  ID `43427` · 2018-05-29 · ~16k · Интернет-маркетинг → Astro `/blog/tendentsii-veb-dizayna/` · **новый формат** (без привязки к году; фильтр трендов, анимация, цвет/тип, данные, ИИ, mobile-first, инструменты)
 - [x] `vyibor-tsvetovoy-shemyi-dlya-internet-magazina` — Выбор цветовой схемы для интернет-магазина    
   ID `43023` · 2018-05-16 · ~12k · Интернет-маркетинг → Astro `/blog/tsvet-internet-magazina/` · **новый формат** (не dup `/blog/aydentika-brenda/` — там система бренда; здесь палитра витрины; «85%» и «манипуляции» смягчены)
 - [x] `chto-takoe-favikon-i-dlya-chego-on-nuzhen` — Что такое фавикон и для чего он нужен?    

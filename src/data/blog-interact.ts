@@ -14776,7 +14776,7 @@ export const blogInteractBySlug: Record<string, BlogInteractConfig> = {
   },
   "tendentsii-veb-dizayna": {
     checklist: {
-      afterTitleIncludes: "Анимация, цвет, данные и типографика",
+      afterTitleIncludes: "Как выбирать тренды без погони за модой",
       title: "Перед внедрением тренда",
       lead: "Не ради моды.",
       items: [
@@ -14790,7 +14790,7 @@ export const blogInteractBySlug: Record<string, BlogInteractConfig> = {
     },
     quizzes: [
       {
-        afterTitleIncludes: "Асимметрия, инструменты, email и e-com",
+        afterTitleIncludes: "Инструменты, email и e-com",
         title: "Мини-тест: тренды дизайна",
         lead: "Два вопроса.",
         questions: [
@@ -14808,12 +14808,12 @@ export const blogInteractBySlug: Record<string, BlogInteractConfig> = {
           },
           {
             id: "tvd2",
-            question: "Гнаться за «унификатором» тулов 2018 года…",
+            question: "Выбор дизайн-инструмента важнее всего для…",
             options: [
-              "Важнее единого процесса в команде",
-              "Обязательно ради SEO",
-              "Заменяет mobile-first",
-              "Гарантирует рост конверсии",
+              "Единого процесса и библиотеки компонентов в команде",
+              "Гарантии роста SEO",
+              "Замены mobile-first",
+              "Автоматического роста конверсии",
             ],
             correct: 0,
             explain: "Стек меняется; процесс и компоненты важнее анонсов.",

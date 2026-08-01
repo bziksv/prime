@@ -15,7 +15,6 @@ import {
   getArticleCta,
   getBaseViews,
   getBlogPost,
-  getCoverCaption,
   getPostNeighbors,
   getReadingMinutes,
   getRelatedPosts,
@@ -41,7 +40,6 @@ const reading = getReadingMinutes(post);
 const baseViews = getBaseViews(post);
 const pageUrl = new URL(`/blog/${post.slug}/`, Astro.site ?? "https://prime-ltd.su").href;
 const cta = getArticleCta(post);
-const coverCaption = getCoverCaption(post);
 const { prev, next } = getPostNeighbors(post.slug);
 const related = getRelatedPosts(post, 3);
 const isNewFormat = blogNewFormatSlugs.includes(post.slug);
@@ -201,11 +199,7 @@ const crumbsLd = breadcrumbJsonLd(
           <article class:list={["b-post", isNewFormat && "b-post--new"]}>
             <header class="b-post__hero">
               <div class="b-post__cover">
-                <img src={`${coverPath}?v=5`} alt="" />
-                <div class="b-post__cover-caption" aria-hidden="true">
-                  <p class="b-post__cover-title">{coverCaption.title}</p>
-                  <p class="b-post__cover-sub">{coverCaption.subtitle}</p>
-                </div>
+                <img src={`${coverPath}?v=6`} alt="" />
               </div>
 
               <div class="b-post__intro">
