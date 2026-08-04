@@ -200,22 +200,49 @@
   width: 72px;
   height: 72px;
   border-radius: 50%;
-  background:
-    conic-gradient(var(--p-lime) 0 72%, rgba(238, 243, 239, 0.12) 0);
+  border: none;
+  background: rgba(13, 26, 20, 0.72);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
   display: grid;
   place-items: center;
+  overflow: visible;
+  box-shadow: 0 0 0 1px rgba(238, 243, 239, 0.1);
+}
+
+.p-diag__donut-svg {
+  width: 64px;
+  height: 64px;
+  display: block;
+  transform-origin: 50% 50%;
   animation: p-donut-spin 12s linear infinite;
 }
 
-.p-diag--donut i {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  background: rgba(13, 26, 20, 0.92);
+.p-diag__donut-track,
+.p-diag__donut-value {
+  fill: none;
+  stroke-width: 10;
+  stroke-linecap: round;
+}
+
+.p-diag__donut-track {
+  stroke: rgba(238, 243, 239, 0.16);
+}
+
+.p-diag__donut-value {
+  stroke: var(--p-lime);
+  /* r=26 → circumference ≈ 163.36; ~72% arc */
+  stroke-dasharray: 117.6 45.76;
+  stroke-dashoffset: 0;
+  transform: rotate(-90deg);
+  transform-origin: 36px 36px;
+  filter: drop-shadow(0 0 6px rgba(184, 240, 0, 0.35));
 }
 
 @keyframes p-donut-spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .p-diag--radar {
