@@ -8,10 +8,10 @@ export const instagramSKompyuteraEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/instagram-s-kompyutera/cover-en.webp",
   excerpt:
-    "How to publish a post or Reels on Instagram from a PC via the official web and Business Suite — without a catalog of shady clients and emulators.",
+    "How to publish a post or Reels on Instagram from a PC via the official web app and Business Suite — without a catalog of shady clients and emulators.",
   lead: [
-    "Instagram is built for the phone, but a computer is handy for planning the grid, uploading camera photos, and scheduling for a business account.",
-    "Below — official working paths and what to avoid. Third-party “clients” that ask for login/password add ban and leak risk.",
+    "Instagram is built for the phone, but a computer is handy for planning the grid, uploading camera photos, and scheduling for a business profile.",
+    "Stick to the official path — and skip what you don’t need. Third-party “clients” that ask for your login and password add ban and leak risk.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -24,19 +24,19 @@ export const instagramSKompyuteraEn: BlogPost = {
     },
     {
       q: "Do you need BlueStacks?",
-      a: "Usually no. An emulator is a workaround with extra software. Start with the official web.",
+      a: "Usually no. An emulator is a workaround with extra software. Start with the official web app.",
     },
     {
-      q: "Why not recommend old apps like Gramblr/Flume?",
+      q: "Why not recommend old apps like Gramblr or Flume?",
       a: "Many are outdated, ask for the password, and break the rules. Ban risk outweighs the benefit.",
     },
     {
       q: "How do you schedule posts?",
-      a: "Via Business Suite / official scheduling for a linked professional account. Third-party schedulers only if you trust them and they use Meta’s API.",
+      a: "Via Business Suite or official scheduling for a linked professional account. Third-party schedulers only if you trust them and they use Meta’s API.",
     },
     {
       q: "Can you edit and delete from a PC?",
-      a: "Yes, in the web and Suite: open the post → actions menu. Exact items depend on content type.",
+      a: "Yes, in the web app and Suite: open the post → actions menu. Exact items depend on content type.",
     },
     {
       q: "Which files should you prep before upload?",
@@ -44,7 +44,7 @@ export const instagramSKompyuteraEn: BlogPost = {
     },
     {
       q: "Is it safe to let an assistant post?",
-      a: "Grant roles through the official cabinet with only the access needed. Don’t share the main password in chat; revoke access when the work ends.",
+      a: "Grant roles through the official Meta tools with only the access needed. Don’t share the main password in chat; revoke access when the work ends.",
     },
   ],
   sections: [
@@ -52,9 +52,9 @@ export const instagramSKompyuteraEn: BlogPost = {
       title: "Official web",
       level: 2,
       paras: [
-        "Open Instagram in a browser under your account. Creating a post or Reels is usually under Create — upload a file from disk, add a caption, and check the final preview before publish.",
-        "For personal scenarios that’s often enough. If there’s no button, refresh, check the browser is current, and confirm account type. The UI changes — don’t rely on old screenshots or hunt for workaround extensions.",
-        "A computer is great for camera photos, long captions, and co-prep. Still preview the final publish on a phone: tiny cover text and bad crops show up clearer there.",
+        "Open Instagram in a browser under your account. Creating a post or Reels is usually under Create — upload a file from disk, add a caption, and check the final preview before you publish.",
+        "For personal use that’s often enough. If there’s no button, refresh, make sure the browser is current, and confirm account type. The UI changes — don’t lean on old screenshots or hunt for workaround extensions.",
+        "A computer is great for camera photos, long captions, and co-prep. Still preview the final post on a phone: tiny cover text and bad crops show up clearer there.",
       ],
       lists: [
         {
@@ -78,9 +78,9 @@ export const instagramSKompyuteraEn: BlogPost = {
       title: "Prep materials before publishing",
       level: 2,
       paras: [
-        "Build a final folder: publish source, cover, text, links, tags, and proof of rights for images or music. That cuts rush, typos, and shipping a draft file instead of the final.",
+        "Build a final folder: publish source, cover, text, links, tags, and proof of rights for images or music. That cuts rush edits, typos, and uploading a draft file instead of the final.",
         "Write the caption so the first lines explain the topic without promises you can’t keep. Break long text into paragraphs, add context for the link or CTA, and check mentions. Don’t paste the same hashtag set on every post.",
-        "If a client or partner is in the post, agree text, dates, and asset access in advance. Fixing after publish doesn’t always restore reach and can create a reputation issue.",
+        "If a client or partner is in the post, agree on text, dates, and asset access in advance. Fixing after publish doesn’t always restore reach and can create a reputation issue.",
       ],
       lists: [
         {
@@ -99,7 +99,7 @@ export const instagramSKompyuteraEn: BlogPost = {
       title: "Business Suite and scheduling",
       level: 2,
       paras: [
-        "Official tools for a professional account let you create and schedule from a computer if the profile is linked to the cabinet and you have the right permissions. Features depend on content type and can change.",
+        "Official tools for a professional account let you create and schedule from a computer if the profile is linked in Meta Business Suite and you have the right permissions. Features depend on content type and can change.",
         "Scheduling shouldn’t become an auto-feed with no reaction to events. Leave buffer for review, approval, and audience replies. A steady calendar beats a queue of empty daily posts.",
         "For a team, assign roles — don’t share one password with everyone. That simplifies auditing and lets you revoke a contractor quickly after the project.",
       ],
@@ -108,7 +108,7 @@ export const instagramSKompyuteraEn: BlogPost = {
           intro: "Before scheduling:",
           items: [
             "account type is professional;",
-            "cabinet access rights are set;",
+            "Business Suite access rights are set;",
             "files are the right size with no third-party watermarks;",
             "CTA and links are checked.",
           ],
@@ -125,15 +125,15 @@ export const instagramSKompyuteraEn: BlogPost = {
       title: "Check the post after it goes live",
       level: 2,
       paras: [
-        "Open the published piece on computer and phone. Confirm the image isn’t cropped badly, the caption has no typos, tags go to the right accounts, and the profile link matches the CTA.",
+        "Open the published post on computer and phone. Confirm the image isn’t cropped badly, the caption has no typos, tags go to the right accounts, and the profile link matches the CTA.",
         "Early comments and questions show whether the idea is clear. Reply with substance — don’t fake engagement with identical replies or mass actions.",
-        "Log the result in the content plan: topic, format, date, goal, and reaction takeaway. Over a few weeks that beats remembering which post “felt lucky.”",
+        "Log the result in the content plan: topic, format, date, goal, and a short takeaway. Over a few weeks that beats remembering which post “felt lucky.”",
       ],
       lists: [],
       notes: [
         {
           title: "Practice",
-          text: "Copy and post structure matter more than the upload method. A computer saves prep time, but doesn’t replace editing, visual checks, and audience dialogue.",
+          text: "Copy and post structure matter more than the upload method. A computer saves prep time, but doesn’t replace editing, visual checks, and talking with your audience.",
         },
       ],
     },
@@ -170,11 +170,11 @@ export const instagramSKompyuteraEn: BlogPost = {
       ],
     },
     {
-      title: "Organize team work",
+      title: "Organize teamwork",
       level: 2,
       paras: [
         "For regular publishing, split ownership: who preps visuals, who writes, who approves facts, who publishes and answers comments. Even in a small team this prevents doubles, accidental posts, and lost context.",
-        "Use one calendar and a folder of approved assets. A post card only needs goal, topic, format, deadline, owner, and a link to sources. That’s not bureaucracy — it’s how you ship steadily.",
+        "Use one calendar and a folder of approved assets. A post card only needs goal, topic, format, deadline, owner, and a link to sources. That’s not bureaucracy — it’s how you publish steadily.",
         "Review access regularly, especially after a contractor change. Official roles and two-factor auth beat one shared login for everyone.",
       ],
       lists: [],

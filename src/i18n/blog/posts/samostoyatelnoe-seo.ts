@@ -10,8 +10,8 @@ export const samostoyatelnoeSeoEn: BlogPost = {
   excerpt:
     "A step-by-step DIY SEO plan for a site owner: prep, tech, keywords, content, and off-site factors — without “TOP in a week” promises or buying spam links.",
   lead: [
-    "You can promote a site yourself: it’s work and discipline, not a “secret button.” Beginners often grab links and forget tech, the keyword set, and pages.",
-    "Below — work order and links to deeper pieces. Getting a commercial set into TOP is planned in months, not days.",
+    "You can promote a site yourself: it’s work and discipline, not a “secret button.” Beginners often rush into links and forget tech, the keyword set, and pages.",
+    "Here’s a practical work order plus links to deeper guides. Getting a commercial keyword set into the TOP is planned in months, not days.",
   ],
   faq: [
     {
@@ -19,23 +19,23 @@ export const samostoyatelnoeSeoEn: BlogPost = {
       a: "For a simple site and a local niche — yes, if you have time to learn. Tough competitive topics more often need a specialist.",
     },
     {
-      q: "What to start with in month one?",
+      q: "What should I start with in month one?",
       a: "Indexing, Webmaster/Search Console, analytics, tech, a draft keyword set, and priority landings. Not buying links.",
     },
     {
-      q: "When to expect TOP-10?",
+      q: "When should I expect TOP-10?",
       a: "Site prep takes weeks. Building positions across the set is planned for 2–6 months of work. Prep ≠ TOP date.",
     },
     {
-      q: "Do you need to buy links?",
+      q: "Do I need to buy links?",
       a: "Mass buying is a risk. Content and natural mentions first; links — deliberately and with quality.",
     },
     {
       q: "How is this different from “SEO from zero”?",
-      a: "That piece is a path into the profession. This one is an owner checklist of work steps.",
+      a: "That article is a path into the profession. This one is an owner checklist of work steps.",
     },
     {
-      q: "How often to check results?",
+      q: "How often should I check results?",
       a: "Tech and critical errors — regularly; positions and traffic — usually monthly. Judge dynamics by query clusters and inquiries, not one phrase.",
     },
   ],

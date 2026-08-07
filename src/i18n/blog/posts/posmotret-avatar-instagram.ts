@@ -10,11 +10,11 @@ export const posmotretAvatarInstagramEn: BlogPost = {
   excerpt:
     "How to see an Instagram avatar larger: the feed, the web client, and sensible methods — without a catalog of shady “viewer” services and apps that ask for your password.",
   lead: [
-    "In the app the avatar sits in a tiny circle: a one-tap enlarge often isn’t there. People usually find the photo in the feed/Stories or open the profile in a browser and view the image separately.",
-    "Below — practical methods without grey “magnifiers.” Third-party sites and apps that ask for a username and pull files from Instagram* often break the rules and can be risky for the account. This material is informational.",
+    "In the app the avatar sits in a tiny circle: a one-tap enlarge often isn’t there. People usually find the photo in the feed or Stories, or open the profile in a browser and view the image separately.",
+    "We cover practical methods without gray “magnifiers.” Third-party sites and apps that ask for a username and pull files from Instagram* often break the rules and can be risky for the account. This material is informational.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -35,19 +35,19 @@ export const posmotretAvatarInstagramEn: BlogPost = {
       a: "No. Don’t enter your Instagram* password into unknown “magnifiers.”",
     },
     {
-      q: "Avatar of a private account?",
+      q: "Can I view the avatar of a private account?",
       a: "Without access to the profile you won’t see it properly. We don’t cover bypassing private accounts.",
     },
     {
-      q: "Quality after zooming in the browser?",
+      q: "Does quality hold up after zooming in the browser?",
       a: "The browser doesn’t magically upscale: if the source is small, zoom looks soft. That’s not a service bug.",
     },
     {
-      q: "Link to making your own avatar?",
+      q: "Where can I read about making my own avatar?",
       a: "Different job: how to build a recognizable profile image — in a separate article.",
     },
     {
-      q: "Does it work from a PC?",
+      q: "Does it work from a PC as well?",
       a: "Yes, Instagram* web is easier for “open image” and save. See also the piece on Instagram from a computer.",
     },
   ],
@@ -57,7 +57,7 @@ export const posmotretAvatarInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "Many people set an avatar from a post or republish it. Scroll the grid and Highlights — sometimes the full-size file is already public.",
-        "Upside: no third-party tools. Downside: the photo may be missing, and searching takes time.",
+        "Plus: no third-party tools. Minus: the photo may be missing, and searching takes time.",
       ],
       lists: [],
     },
@@ -87,7 +87,7 @@ export const posmotretAvatarInstagramEn: BlogPost = {
       title: "What to avoid",
       level: 2,
       paras: [
-        "Online “viewers” by username: often grey parsing, ads, phishing.",
+        "Online “viewers” by username: often gray parsing, ads, phishing.",
         "Mobile apps that “download any avatar” and ask for a password or suspicious permissions.",
         "Services for viewing private profiles — outside the rules and ethics; we don’t describe them.",
       ],
@@ -95,9 +95,9 @@ export const posmotretAvatarInstagramEn: BlogPost = {
         {
           intro: "Red flags:",
           items: [
-            "ask for the Instagram* password;",
-            "promise “HD 4K upscale” of someone else’s avatar;",
-            "bypass a private account;",
+            "ask for the Instagram* password",
+            "promise “HD 4K upscale” of someone else’s avatar",
+            "bypass a private account",
             "unknown developer with no data policy.",
           ],
         },

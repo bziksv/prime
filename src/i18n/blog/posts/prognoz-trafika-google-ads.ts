@@ -5,13 +5,13 @@ export const prognozTrafikaGoogleAdsEn: BlogPost = {
   slug: "prognoz-trafika-google-ads",
   title: "Traffic forecast for Google Ads search campaigns",
   date: "2019-07-10",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/prognoz-trafika-google-ads/cover-en.webp",
   excerpt:
     "How to estimate search demand and budget in Google Ads: gathering keywords in Keyword Planner, cleaning, CTR/CPC by groups, and a budget formula — without the illusion of an exact media plan.",
   lead: [
     "Before launching search in Google Ads it helps to know: is there enough demand for the goal, what order of clicks, and which budget covers the niche. Keyword Planner and a spreadsheet with assumptions give a range — not a guarantee.",
-    "Below — stages: gather, clean, frequency, CTR, CPC, budget. An organic forecast is in a separate piece; the Ads UI changes, the calculation logic stays.",
+    "The stages are gather, clean, frequency, CTR, CPC, budget. An organic forecast is in a separate piece; the Ads UI changes, the calculation logic stays.",
   ],
   faq: [
     {
@@ -27,15 +27,15 @@ export const prognozTrafikaGoogleAdsEn: BlogPost = {
       a: "The tool often narrows variant output. Gathering one seed at a time is usually fuller — an old observation; verify on your topic.",
     },
     {
-      q: "Which CTR should you assume?",
+      q: "Which CTR should I assume?",
       a: "Not a universal “15% for everyone”. Take fact from similar campaigns/niche or calculate by groups (brand / commercial / info).",
     },
     {
-      q: "Budget formula?",
+      q: "Is there a simple budget formula?",
       a: "Simplified: impressions × CTR × CPC. Then CR and average order value for revenue/CPA. Group queries with different economics.",
     },
     {
-      q: "Do you need goals before the media plan?",
+      q: "Do I need goals before the media plan?",
       a: "Yes. Without KPIs the plan becomes “how many clicks we’ll buy”, not “will we hit CPA/ROMI”.",
     },
   ],
@@ -73,9 +73,9 @@ export const prognozTrafikaGoogleAdsEn: BlogPost = {
         {
           intro: "Assumptions at the start:",
           items: [
-            "not a goal of “absolute top only”;",
-            "the campaign will be set up well;",
-            "bid adjustments refine after launch;",
+            "not a goal of “absolute top only”",
+            "the campaign will be set up well",
+            "bid adjustments refine after launch",
             "a budget range beats one figure.",
           ],
         },

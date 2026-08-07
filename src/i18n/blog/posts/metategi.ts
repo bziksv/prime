@@ -11,12 +11,12 @@ export const metategiEn: BlogPost = {
     "What HTML meta tags are: why title and description matter, how robots control indexing, why keywords barely help — without “TOP secrets” or outdated character limits.",
   lead: [
     "Meta tags are machine-facing fields in the page `<head>`: they don’t draw a block on screen, but help the browser and search engine understand the document. For SEO people usually mean title, description, and robots directives; keywords have long been secondary.",
-    "Below — a map of the tags, what actually affects SERPs and snippets, and what to leave alone. We don’t copy hard “exactly N characters = TOP” rules or 2021 CMS screenshots: truncation length floats, plugin UIs change.",
+    "A map of the tags, what actually affects SERPs and snippets, and what to leave alone. We don’t copy hard “exactly N characters = TOP” rules or 2021 CMS screenshots: truncation length floats, plugin UIs change.",
   ],
   faq: [
     {
-      q: "Do meta tags alone rank you in the TOP?",
-      a: "No. Title and content help relevance and snippet clicks; ranking is broader — the page, links, tech, behavior.",
+      q: "Do meta tags alone put a page in the TOP?",
+      a: "No. Title and content help relevance and snippet clicks; ranking is broader — the page, links, tech, behavior. Prep and on-page work aren’t the same as holding TOP positions, which are planned over months (typically 2–6).",
     },
     {
       q: "How is title different from H1?",
@@ -39,12 +39,12 @@ export const metategiEn: BlogPost = {
       a: "In the theme template, an SEO plugin, or CMS fields. Button paths depend on the system — check current Help, not a 2021 screenshot.",
     },
     {
-      q: "One title for the whole site?",
-      a: "Bad idea: money URLs need unique wording for each page’s intent.",
+      q: "Should one title cover the whole site?",
+      a: "No: commercial URLs need unique wording for each page’s intent.",
     },
     {
-      q: "What to read next?",
-      a: "Separate pieces: title length, meta description, closing from index, snippets, and Open Graph.",
+      q: "What should I read next?",
+      a: "Separate pieces: title length, meta description, excluding pages from the index, snippets, and Open Graph.",
     },
   ],
   sections: [
@@ -59,10 +59,10 @@ export const metategiEn: BlogPost = {
         {
           intro: "Basic indexing minimum:",
           items: [
-            "a unique title;",
-            "a meaningful description;",
-            "a clear H1 and body text;",
-            "correct robots directives if the page shouldn’t rank.",
+            "a unique title",
+            "a meaningful description",
+            "a clear H1 and body text",
+            "correct robots directives if the page shouldn’t rank",
           ],
         },
       ],
@@ -79,11 +79,11 @@ export const metategiEn: BlogPost = {
       links: [
         {
           label: "Title length",
-          href: "/blog/dlina-title/",
+          href: "/en/blog/dlina-title/",
         },
         {
           label: "The H1 tag",
-          href: "/blog/teg-h1/",
+          href: "/en/blog/teg-h1/",
         },
       ],
     },
@@ -91,14 +91,14 @@ export const metategiEn: BlogPost = {
       title: "Description",
       level: 2,
       paras: [
-        "Meta description is a candidate for the text under the headline in the snippet. It usually isn’t a direct ranking “score”; it works indirectly via CTR and click expectations.",
+        "Meta description is a candidate for the text under the headline in the snippet. It usually isn’t a direct ranking score; it works indirectly via CTR and click expectations.",
         "State the benefit and match the page. Clickbait the URL doesn’t deliver hurts trust.",
       ],
       lists: [],
       links: [
         {
           label: "Meta description in depth",
-          href: "/blog/meta-description/",
+          href: "/en/blog/meta-description/",
         },
         {
           label: "Snippets in search results",
@@ -112,7 +112,7 @@ export const metategiEn: BlogPost = {
       paras: [
         "Meta robots (and the HTTP header) set whether to index the page and follow links: `noindex`, `nofollow`, combinations, `all`/`none` in older cheat sheets.",
         "Don’t confuse with Disallow in robots.txt: blocking a path in txt may keep the crawler away; putting noindex on HTML means the page may still be crawled but shouldn’t enter the index (when handled correctly).",
-        "Utility pages, duplicates, carts, thin filters — typical close candidates. Don’t noindex commercial landings “just in case.”",
+        "Utility pages, duplicates, carts, thin filters — typical candidates to noindex. Don’t noindex commercial landings “just in case.”",
       ],
       lists: [],
       notes: [
@@ -132,15 +132,15 @@ export const metategiEn: BlogPost = {
       title: "Keywords and other myths",
       level: 2,
       paras: [
-        "Meta keywords once tried to feed engines a query list. Today for major systems they barely affect rankings; stuffing keywords achieves nothing.",
-        "Same for “secret” meta that supposedly boost PageRank: ignore it. Put effort into content, internal links, speed, and the snippet.",
+        "Meta keywords once tried to feed engines a keyword list. Today for major systems they barely affect rankings; stuffing keywords achieves nothing.",
+        "Same for “secret” meta that supposedly boost PageRank: ignore it. Put your effort into content, internal links, speed, and the snippet.",
         "For social sharing, look at Open Graph / Twitter Cards separately from the search description.",
       ],
       lists: [],
       links: [
         {
           label: "Open Graph",
-          href: "/blog/open-graph/",
+          href: "/en/blog/open-graph/",
         },
       ],
     },
@@ -155,7 +155,7 @@ export const metategiEn: BlogPost = {
       lists: [],
     },
     {
-      title: "What to remember",
+      title: "Takeaways",
       level: 2,
       paras: [
         "Meta tags are a machine layer in `<head>`; for SEO the core is title, description, and sensible robots.",
@@ -166,7 +166,7 @@ export const metategiEn: BlogPost = {
     },
   ],
   closing: [
-    "Walk five money URLs: unique title, honest description, no accidental noindex — faster than hunting a “secret” meta keywords tag.",
+    "Walk five commercial URLs: unique title, honest description, no accidental noindex — faster than hunting a “secret” meta keywords tag.",
   ],
   related: [
     "meta-description",

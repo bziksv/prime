@@ -3,128 +3,128 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for obnovlenie-kontenta — same structure as RU JSON. */
 export const obnovlenieKontentaEn: BlogPost = {
   slug: "obnovlenie-kontenta",
-  title: "Refreshing old blog posts: how to regain and grow traffic",
+  title: "How to refresh old blog posts and win traffic back",
   date: "2021-07-08",
   category: "Content marketing",
   cover: "/images/blog/obnovlenie-kontenta/cover-en.webp",
   excerpt:
-    "How to find posts with potential, prioritize updates, strengthen copy and UX, fix tech, and promote the piece again — without promising “×2 in 3 months for everyone.”",
+    "Find posts that still have search demand, decide what to update first, improve the writing and the page, then promote again — without promising “2× traffic in 90 days for every site.”",
   lead: [
-    "Part of blog traffic sits in already published articles: they’re relevant to queries but outdated, dropped in the SERP, or lose to fresher competitors. Refreshing that content often pays off faster than writing everything from scratch.",
-    "Below — a working process: pick URLs, set priorities, improve copy and tech, reseeding. Figures like “+139% in a quarter” are one methodology case, not a guarantee for every site. For commercial SEO, TOP growth is planned over months; informational URLs with some visibility can move sooner.",
+    "A lot of blog traffic is already sitting in articles you published years ago. They still match real searches, but the copy is stale, competitors outrank you, or the page slipped down the results. Refreshing those URLs often beats writing everything from scratch.",
+    "Below is a practical workflow: pick the right URLs, prioritize, improve the content and the technical basics, then ask search engines to recrawl. Numbers like “+139% in a quarter” come from one team’s case study — not a forecast for your site. Ranking gains after content work are planned over months; prep alone is not an overnight jump to page one.",
   ],
   faq: [
     {
-      q: "Can you promise double traffic in 3 months?",
-      a: "Not as a universal rule. In cases with a strong base and pages “almost in TOP,” quarterly growth can be noticeable. For new sites without a core and links, those timelines aren’t realistic.",
+      q: "Can you promise double traffic in three months?",
+      a: "Not as a universal rule. Sites with a solid archive and pages already near page one can see a clear lift within a quarter. Brand-new sites with no keyword base and no links should not plan on those timelines.",
     },
     {
-      q: "What should you update first?",
-      a: "Pages with impressions/clicks but average position outside the top; useful for conversion; topics where intent hasn’t changed. Dead content with no demand is a candidate to merge or noindex — not for cosmetic polish.",
+      q: "What should I update first?",
+      a: "Pages that get impressions or clicks but sit outside the top results; pages that already convert; topics where search intent hasn’t changed. Dead URLs with no demand belong in a merge or noindex pile — not a cosmetic rewrite.",
     },
     {
-      q: "Should you set the publish date to “today”?",
-      a: "Carefully: a fake date bump without real edits looks manipulative. Better an honest last updated / actual refresh and a sitemap signal.",
+      q: "Should I change the publish date to today?",
+      a: "Only if the update is real. Bumping the date with no substance looks manipulative. Prefer an honest “last updated” line, a real refresh, and a sitemap signal.",
     },
     {
-      q: "How is this different from writing a new article?",
-      a: "You strengthen a URL with history and links. A new article is needed when intent differs or the old URL can’t be saved.",
+      q: "How is this different from publishing a new article?",
+      a: "You strengthen a URL that already has history and links. Write something new when the intent is different or the old URL can’t be saved.",
     },
     {
-      q: "Which tools?",
-      a: "Search Console / webmaster tools, analytics, a rankings export (Ahrefs, Keys.so and peers), manual TOP-10 review. Exact services and UI change.",
+      q: "Which tools help with content updates?",
+      a: "Search Console (or your local webmaster tools), analytics, a rankings export (Ahrefs, Keys.so, and similar), plus a manual look at the current top 10. Exact product names and UIs change — the workflow doesn’t.",
     },
   ],
   sections: [
     {
-      title: "Why refresh instead of only writing new",
+      title: "Why refresh old posts instead of only writing new ones",
       level: 2,
       paras: [
-        "A new blog grows slowly: months to a stable effect. Projects with an archive often have strong texts with falling clicks — cheaper to “pull up” than ignore.",
-        "In public content-team cases, organic growth of tens to a hundred percent in a quarter was tied to an update package, not one post. Scale depends on niche, competition, and edit quality.",
+        "A new blog usually takes months before organic traffic feels stable. If you already have an archive, strong pieces with falling clicks are often cheaper to revive than to ignore.",
+        "In published content-team case studies, double-digit to triple-digit organic growth in a quarter usually came from a package of updates — not one heroic post. How far you get depends on the niche, the competition, and how thorough the edits are.",
       ],
       lists: [
         {
           intro: "Good candidates:",
           items: [
-            "impressions exist, but position is outside the top;",
-            "the topic is still searched;",
-            "the page drives leads/subscribes;",
-            "competitors already beat you on freshness.",
+            "impressions are there, but the average position is outside the top results",
+            "people still search the topic",
+            "the page already drives leads or sign-ups",
+            "competitors beat you on freshness.",
           ],
         },
       ],
       notes: [
         {
           title: "Timelines",
-          text: "Prep and an update package take weeks to months of work. Steady traffic and ranking growth is planned month to month; a “guaranteed ×2 by a date” in a contract is not acceptable.",
+          text: "Building an update package takes weeks to a few months of work. Steady traffic and ranking growth is planned over 2–6 months. A contract that “guarantees 2× by a fixed date” is not acceptable.",
         },
       ],
     },
     {
-      title: "How to pick and prioritize URLs",
+      title: "How to choose and prioritize URLs",
       level: 2,
       paras: [
-        "Export from Search Console / webmaster tools: clicks, impressions, average position. Filter pages that are “close to success” or have impressions without clicks due to a weak snippet.",
-        "For each, add the main query, demand, and competition score (from an SEO tool). Simple priority heuristic: higher demand with relatively low difficulty — earlier in the queue. Tune impression thresholds to your blog’s size.",
+        "Export clicks, impressions, and average position from Search Console or your webmaster tools. Keep pages in striking distance of page one, and pages with impressions but almost no clicks because the snippet is weak.",
+        "For each URL, add the main query, demand, and a competition score from an SEO tool. Simple rule: higher demand with relatively low difficulty goes earlier in the queue. Set impression thresholds to match the size of your blog.",
       ],
       lists: [
         {
-          intro: "A useful table has:",
+          intro: "A useful tracking table includes:",
           items: [
-            "URL and title;",
-            "impressions / clicks / position;",
-            "target query;",
-            "demand and difficulty scores;",
-            "yes/no conversion value;",
+            "URL and title",
+            "impressions / clicks / position",
+            "target query",
+            "demand and difficulty scores",
+            "whether the page matters for conversion (yes/no)",
             "update status.",
           ],
         },
       ],
     },
     {
-      title: "How to improve the piece",
+      title: "How to improve the article",
       level: 2,
       paras: [
-        "Compare the page with today’s TOP-10: what’s missing in depth, structure, examples, dates, and facts. Strengthen the copy, add missing blocks, cut fluff, refresh screenshots and numbers.",
-        "UX: subheads, lists, TOC, whitespace — so people finish reading. Tech: broken links, HTTPS, alt, image weight, title/description length, mobile readiness.",
+        "Compare the page with today’s top 10: what’s missing on depth, structure, examples, dates, and facts. Strengthen the copy, add the gaps, cut filler, and refresh screenshots and numbers.",
+        "For readers: clear subheads, lists, a table of contents, and enough breathing room that people finish the piece. For tech: fix broken links, confirm HTTPS, write alt text, shrink heavy images, check title/description length, and make sure the page works on mobile.",
       ],
       lists: [
         {
-          intro: "Three edit layers:",
+          intro: "Three layers of edits:",
           items: [
-            "meaning and completeness vs competitors;",
-            "readability and retention;",
+            "meaning and completeness versus competitors",
+            "readability and how long people stay",
             "technical hygiene of the URL.",
           ],
         },
       ],
       links: [
         {
-          label: "Page optimization for a query",
+          label: "On-page optimization for a query",
           href: "/en/blog/optimizatsiya-stranitsy/",
         },
         {
-          label: "Keyword spam in text",
+          label: "Keyword stuffing in copy",
           href: "/en/blog/zaspamlennost-teksta/",
         },
       ],
     },
     {
-      title: "Seeding and monitoring",
+      title: "Promote the update and watch the results",
       level: 2,
       paras: [
-        "After publishing the update, tell the audience: socials, topical communities, internal links from new materials. A mass “we updated a post” blast without value often just noise — better a short benefit teaser.",
-        "Watch positions and clicks for 4–12 weeks. If nothing moves — revisit intent, snippet, or competition. A regular “once a quarter, review the top archive” cycle supports traffic better than one-off sprints.",
+        "After you publish the refresh, tell people: social posts, topic communities, and internal links from newer articles. A mass “we updated a post” blast with no value is usually just noise — lead with a short benefit instead.",
+        "Watch rankings and clicks for 4–12 weeks. If nothing moves, revisit intent, the snippet, or the competitive set. A quarterly pass over your best archive URLs protects traffic better than one-off sprints.",
       ],
       lists: [
         {
           intro: "After the update:",
           items: [
-            "refresh internal links to this URL;",
-            "check the SERP snippet in 1–2 weeks;",
-            "log before/after metrics;",
-            "schedule the next URL package.",
+            "point more internal links at this URL",
+            "check the search snippet in 1–2 weeks",
+            "log before/after metrics",
+            "schedule the next batch of URLs.",
           ],
         },
       ],

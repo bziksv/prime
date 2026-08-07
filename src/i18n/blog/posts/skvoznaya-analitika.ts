@@ -5,13 +5,13 @@ export const skvoznayaAnalitikaEn: BlogPost = {
   slug: "skvoznaya-analitika",
   title: "End-to-end analytics: rollout problems and how to dodge them",
   date: "2019-11-12",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/skvoznaya-analitika/cover-en.webp",
   excerpt:
     "Why end-to-end analytics matters, when it pays off, and which mistakes break ROMI: CRM without discipline, incomplete channels, borrowed attribution, and rushing setup.",
   lead: [
     "End-to-end analytics answers not “how many clicks”, but “which ad ruble returned profit”. That means ad accounts, the site, call tracking, and CRM meet in one loop — not five “eyeball” spreadsheets.",
-    "Below — what you connect, when rollout is still early, and typical traps: dirty CRM, missing channels, one-size settings, and overvaluing old touches. A dashboard without deals is not end-to-end analytics.",
+    "We cover what you connect, when rollout is still early, and typical traps: messy CRM, missing channels, one-size-fits-all settings, and overweighting early touches. A dashboard without deals isn’t end-to-end analytics.",
   ],
   faq: [
     {
@@ -19,19 +19,19 @@ export const skvoznayaAnalitikaEn: BlogPost = {
       a: "Web analytics sees visits and on-site goals. End-to-end adds spend, calls/chats, and deal amounts from CRM — to ROMI and LTV, not only to a lead.",
     },
     {
-      q: "Is Looker Studio enough?",
-      a: "As a storefront — yes. As the only “end-to-end” layer — no: without CRM join and correct UTM the report stays site analytics.",
+      q: "Is Looker Studio enough for end-to-end analytics?",
+      a: "As a front-end view — yes. As the only “end-to-end” layer — no: without CRM join and correct UTM the report stays site analytics.",
     },
     {
-      q: "When is rollout too early?",
+      q: "When is an end-to-end rollout too early?",
       a: "With a tiny budget and a couple of campaigns, careful UTM, goals, and a manual weekly rollup are cheaper than an expensive loop “for show”. Payback threshold is individual.",
     },
     {
-      q: "Why nothing works without CRM?",
+      q: "Why does nothing work without CRM?",
       a: "Revenue and deal status live in CRM. If managers don’t create leads and don’t write amounts, the system honestly shows garbage.",
     },
     {
-      q: "Which attribution model is “right”?",
+      q: "Which attribution model is the “right” one?",
       a: "The one that matches your deal cycle and campaign goal. Brand awareness and a promo spike weight channels differently.",
     },
     {
@@ -95,7 +95,7 @@ export const skvoznayaAnalitikaEn: BlogPost = {
       level: 2,
       paras: [
         "By hand: exports from ad accounts, call tracking, and CRM into spreadsheets. Cheap at the start, expensive in people and error risk. Fine as a pilot, scales poorly.",
-        "Through a warehouse (e.g. BigQuery) and BI: streams/exports → ROMI/LTV calcs → storefront in Looker Studio or Power BI. Flexible at volume; needs skills and pipeline care.",
+        "Through a warehouse (e.g. BigQuery) and BI: streams/exports → ROMI/LTV calcs → dashboard in Looker Studio or Power BI. Flexible at volume; needs skills and pipeline care.",
         "A ready call-tracking / marketing platform: faster start, less flexibility. Check CRM integrations and needed attribution models before the contract.",
       ],
       lists: [

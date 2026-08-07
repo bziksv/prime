@@ -46,6 +46,7 @@ export const GET: APIRoute = () => {
     <language>ru-ru</language>
     <lastBuildDate>${lastBuild}</lastBuildDate>
     <atom:link href="${SITE}/blog/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="${SITE}/en/blog/rss.xml" rel="alternate" hreflang="en" type="application/rss+xml" />
 ${items}
   </channel>
 </rss>

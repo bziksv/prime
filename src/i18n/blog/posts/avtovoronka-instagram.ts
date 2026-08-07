@@ -5,33 +5,33 @@ export const avtovoronkaInstagramEn: BlogPost = {
   slug: "avtovoronka-instagram",
   title: "Instagram autofunnel: scenario, Direct, and policy limits",
   date: "2020-04-15",
-  category: "Content marketing",
+  category: "Digital marketing",
   cover: "/images/blog/avtovoronka-instagram/cover-en.webp",
   excerpt:
-    "How to build an Instagram autofunnel: profile, lead magnet, touch chain, and Direct — without cold spam, grey bots, or “conversion will grow by itself.”",
+    "How to build an Instagram autofunnel: profile, lead magnet, touch chain, and Direct — without cold spam, gray bots, or “conversion will grow by itself.”",
   lead: [
     "An Instagram autofunnel is a mapped path: someone saw content or an ad → showed interest → got value → reached a lead or purchase. Some steps can be automated (greeting, reminder); hard questions stay human.",
-    "The basic funnel logic is in the general piece. Here — platform nuances: profile, content, Direct, and what not to do. UI and available auto-replies change; use the scenario and rules as the guide, not 2020 screenshots.",
+    "The basic funnel logic is in the general piece. On Instagram the levers are profile, content, Direct, and careful auto-replies — not mass DMs or shady “autofunnels.” UI labels change; use the scenario and rules as the guide, not 2020 screenshots.",
   ],
   legalNotice: {
     title: "Dear readers!",
-    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+    text: "This article is for information only and is not an invitation to use the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
-      q: "How is this different from a general autofunnel?",
+      q: "How is an Instagram autofunnel different from a general one?",
       a: "Same scheme (touch → warm-up → offer). On Instagram the profile, Stories/Reels, and Direct dialogue matter more; an email chain is optional.",
     },
     {
-      q: "Can I blast an offer to all followers in Direct?",
+      q: "Can you blast an offer to all followers in Direct?",
       a: "Cold mass spam breaks the rules and annoys people. Message those who started the chat or clearly opted in under the ToS.",
     },
     {
-      q: "Do I need third-party “autofunnels” with mass liking?",
+      q: "Do you need third-party “autofunnels” with mass liking?",
       a: "We don’t recommend them. Limit and restriction risk outweighs the upside. Use only tools within platform rules.",
     },
     {
-      q: "Which businesses does it fit?",
+      q: "Which businesses does an Instagram autofunnel fit?",
       a: "More often services, info products, and medium/long cycles. Impulse e-com with a huge catalog is harder to force into one chain.",
     },
     {
@@ -39,11 +39,11 @@ export const avtovoronkaInstagramEn: BlogPost = {
       a: "Not always. Hot demand can work with a short offer. A product matrix is a tool, not dogma.",
     },
     {
-      q: "When do you need a manager?",
+      q: "When do you need a manager in the funnel?",
       a: "The pricier and more complex the deal — the earlier. Automation doesn’t replace a consult.",
     },
     {
-      q: "Where do I start?",
+      q: "Where should you start with an Instagram autofunnel?",
       a: "Path map and drop-off measurement → clear profile and CTA → Direct/content scenario → test on small traffic.",
     },
   ],
@@ -59,7 +59,7 @@ export const avtovoronkaInstagramEn: BlogPost = {
       links: [
         {
           label: "Autofunnel: basics",
-          href: "/blog/avtovoronka/",
+          href: "/en/blog/avtovoronka/",
         },
       ],
     },
@@ -117,7 +117,7 @@ export const avtovoronkaInstagramEn: BlogPost = {
       links: [
         {
           label: "Direct without spam",
-          href: "/blog/instagram-direct/",
+          href: "/en/blog/instagram-direct/",
         },
       ],
     },

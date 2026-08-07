@@ -8,10 +8,10 @@ export const tenevoyBanInstagramEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/tenevoy-ban-instagram/cover-en.webp",
   excerpt:
-    "What people call an Instagram shadow ban: when posts barely show in hashtags and recommendations, how that differs from a full block, and how to lower risk without gray schemes.",
+    "What people call an Instagram shadow ban: when posts barely show in hashtags and recommendations, how that differs from a full block, and how to lower risk without shady schemes.",
   lead: [
     "In industry slang a “shadow ban” means reach drops and a post barely appears under hashtags or outside followers — while the account still works. Help Center often has no official status with that name: some cases are bugs, feed personalization, or rule limits.",
-    "Below — how to tell symptoms from a full block, which myths hurt, and what to do legally. No growth-hack or mass-action recipes. Meta product disclaimer is on the page.",
+    "This guide covers how to tell symptoms from a full block, which myths hurt, and what to do within the rules. No growth-hack or mass-action recipes. See the Meta product disclaimer on this page.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -27,11 +27,11 @@ export const tenevoyBanInstagramEn: BlogPost = {
       a: "With a block you often can’t sign in or see a clear restriction. In a “shadow” scenario the profile is open, but reach and tag search are weak. See the Instagram bans article.",
     },
     {
-      q: "How long does it last?",
+      q: "How long does a shadowban last?",
       a: "No fixed term. Sometimes symptoms fade in hours–days after a glitch or a pause in risky actions. “Always exactly 72 hours” is a myth.",
     },
     {
-      q: "Should you use third-party “shadowban detectors”?",
+      q: "Should I use third-party “shadowban detectors”?",
       a: "Careful: many are useless or phishing. Safer: manual check from another account and compare reach stats.",
     },
     {
@@ -43,7 +43,7 @@ export const tenevoyBanInstagramEn: BlogPost = {
       a: "No: they raise restriction risk. Don’t use them.",
     },
     {
-      q: "What to do first?",
+      q: "What should I do first?",
       a: "Remove shady apps, check hashtags, lower spam pace, improve content; for a clear violation — official support.",
     },
     {
@@ -63,7 +63,7 @@ export const tenevoyBanInstagramEn: BlogPost = {
       notes: [
         {
           title: "Important",
-          text: "Don’t confuse it with a full block or with an “action blocked” limit. Different scenarios, different actions.",
+          text: "Don’t mix it up with a full block or with an “action blocked” limit. Different scenarios, different actions.",
           kind: "tip",
         },
       ],
@@ -123,7 +123,7 @@ export const tenevoyBanInstagramEn: BlogPost = {
       title: "What to do",
       level: 2,
       paras: [
-        "Disconnect gray apps and change the password if contractors had access. Drop questionable hashtags; check tags in search (empty results for a tag is a bad sign). Lower spam pace for a few days.",
+        "Disconnect shady apps and change the password if contractors had access. Drop questionable hashtags; check tags in search (empty results for a tag is a bad sign). Lower spam pace for a few days.",
         "Then quality: decent photos/video, useful captions, varied relevant tags, Stories and regularity without fake engagement. If the account is clearly limited by rules — write official support, not “guaranteed unban” chats.",
       ],
       lists: [
@@ -145,7 +145,7 @@ export const tenevoyBanInstagramEn: BlogPost = {
         },
         {
           label: "Unblocking Instagram",
-          href: "/blog/razblokirovka-instagram/",
+          href: "/en/blog/razblokirovka-instagram/",
         },
         {
           label: "Instagram insights",
@@ -154,7 +154,7 @@ export const tenevoyBanInstagramEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Practice",
+          title: "Tip",
           text: "Sustainable growth comes from content and following the rules — not hunting a “3-day shadow-ban lift” scheme from chats.",
           kind: "tip",
         },

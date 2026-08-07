@@ -5,13 +5,13 @@ export const antitrendyMarketingaEn: BlogPost = {
   slug: "antitrendy-marketinga",
   title: "Marketing anti-trends: what’s outdated and what works instead",
   date: "2020-02-10",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/antitrendy-marketinga/cover-en.webp",
   excerpt:
-    "Which marketing tactics already underperform: one channel, spam SMS, stock “with a smile,” cold calls without consent, cross-posting everywhere — and what to use instead without hype “trends for TOP.”",
+    "Which marketing tactics already underperform: one channel, spam SMS, stock “with a smile,” cold calls without consent, cross-posting everywhere — and what to use instead without hype about “trends for TOP.”",
   lead: [
     "Some familiar tactics aren’t “banned by physics” — they just cost too much: they annoy the audience, break trust, or burn time with no measurable result. Call them anti-trends — not because “nobody does this,” but because betting on them as the growth core usually loses.",
-    "Below — typical traps and working alternatives. Trends don’t put a site in the TOP by themselves: rankings for the core come from systemic work; planned timeline is months after SEO starts — not swapping an image in a post.",
+    "Trends don’t put a site in the TOP by themselves: rankings for the core come from systemic work; the planned timeline is 2–6 months after SEO starts — not swapping an image in a post. Below: typical traps and working alternatives.",
   ],
   faq: [
     {
@@ -19,11 +19,11 @@ export const antitrendyMarketingaEn: BlogPost = {
       a: "No. SMS with consent, useful email, even a precise cold B2B touch can work. An anti-trend is using the method as the only one — without segmentation or value.",
     },
     {
-      q: "Is one website enough?",
+      q: "Is one website enough for marketing?",
       a: "The site is the hub, but traffic and trust come from several touches: search, ads, content, partners, reputation. One channel = a fragile model.",
     },
     {
-      q: "Is stock totally forbidden?",
+      q: "Is stock photography totally forbidden?",
       a: "Quality visuals are fine if they don’t look like “catalog smiles.” Live team/product photos usually beat template stock.",
     },
     {
@@ -31,7 +31,7 @@ export const antitrendyMarketingaEn: BlogPost = {
       a: "No consent or portrait, a pushy script, shady lists — plus personal-data risks.",
     },
     {
-      q: "Do I need to be on every social network?",
+      q: "Do you need to be on every social network?",
       a: "No. Better 1–2 platforms where the audience is, with format-fit content, than the same cross-post everywhere.",
     },
     {
@@ -40,7 +40,7 @@ export const antitrendyMarketingaEn: BlogPost = {
     },
     {
       q: "What replaces “hard sell in the face”?",
-      a: "A funnel: value → trust → offer. UVP, content, cases, service — not pressure on first contact.",
+      a: "A funnel: value → trust → offer. USP, content, cases, service — not pressure on first contact.",
     },
   ],
   sections: [
@@ -66,7 +66,7 @@ export const antitrendyMarketingaEn: BlogPost = {
       links: [
         {
           label: "What SEO is",
-          href: "/blog/chto-takoe-seo/",
+          href: "/en/blog/chto-takoe-seo/",
         },
         {
           label: "Free advertising at the start",
@@ -145,7 +145,7 @@ export const antitrendyMarketingaEn: BlogPost = {
       links: [
         {
           label: "Target audience",
-          href: "/blog/tselevaya-auditoriya/",
+          href: "/en/blog/tselevaya-auditoriya/",
         },
       ],
     },
@@ -153,7 +153,7 @@ export const antitrendyMarketingaEn: BlogPost = {
       title: "What loses power — and what to use instead",
       level: 2,
       paras: [
-        "“Old” channels (TV, indiscriminate teasers, spam email) weaken not by themselves, but when there’s no precise audience and offer. Internet channels aren’t magic either: without audience, UVP, and landing, budget burns the same way.",
+        "“Old” channels (TV, indiscriminate teasers, spam email) weaken not by themselves, but when there’s no precise audience and offer. Internet channels aren’t magic either: without audience, USP, and landing, budget burns the same way.",
         "Email and notifications stay useful with segmentation and value. Context, targeting, content, maps, careful creator integrations are tools; results come from the product and measurement — not a list of trendy formats.",
       ],
       lists: [

@@ -5,25 +5,25 @@ export const prodazhaTrafikaEn: BlogPost = {
   slug: "prodazha-trafika",
   title: "Selling traffic: how to monetize site visits",
   date: "2021-11-06",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/prodazha-trafika/cover-en.webp",
   excerpt:
     "What selling traffic means: CPC, CPM, CPA, search/display ads, teasers, banners, and direct advertisers. How to find buyers without killing UX.",
   lead: [
     "Selling traffic means you give advertisers a share of your audience’s attention for pay: per impression, click, or conversion. It’s a revenue channel for media and sites with real visits — not a “passive million” button.",
-    "Below — payment models, formats, finding buyers, and risks. Networks and exchanges change — check current rules and traffic quality.",
+    "Payment models, formats, finding buyers, and risks — in that order. Networks and exchanges change, so check current rules and traffic quality.",
   ],
   faq: [
     {
-      q: "Do I need my own site?",
+      q: "Do I need my own site to sell traffic?",
       a: "Usually yes: you sell your property’s audience. Without a site you’re left with affiliate/arbitrage models — different risks.",
     },
     {
-      q: "CPC, CPM, and CPA — what’s the difference?",
+      q: "What’s the difference between CPC, CPM, and CPA?",
       a: "CPC — pay per click; CPM — per impressions (usually per 1,000); CPA — per action (lead, purchase, signup).",
     },
     {
-      q: "How much can you earn?",
+      q: "How much can I earn selling traffic?",
       a: "Depends on niche, geo, audience quality, and format. Old “cents per click” are not a price list — run your own tests and watch eCPM.",
     },
     {
@@ -55,10 +55,10 @@ export const prodazhaTrafikaEn: BlogPost = {
         {
           intro: "What to check in a deal:",
           items: [
-            "audience topic and geo;",
-            "payment model and minimum payout;",
-            "prohibited-content rules;",
-            "site speed and UX after placing blocks;",
+            "audience topic and geo",
+            "payment model and minimum payout",
+            "prohibited-content rules",
+            "site speed and UX after placing blocks",
             "reporting: impressions, clicks, actions.",
           ],
         },
@@ -76,9 +76,9 @@ export const prodazhaTrafikaEn: BlogPost = {
         {
           intro: "Payment schemes:",
           items: [
-            "CPC — easy to count, depends on CTR;",
-            "CPM — income from volume and viewability;",
-            "CPA — closer to the advertiser’s result;",
+            "CPC — easy to count, depends on CTR",
+            "CPM — income from volume and viewability",
+            "CPA — closer to the advertiser’s result",
             "flat / package — direct deals.",
           ],
         },
@@ -109,10 +109,10 @@ export const prodazhaTrafikaEn: BlogPost = {
         {
           intro: "Hygiene rules:",
           items: [
-            "don’t cover the content entirely with ads;",
-            "don’t use misleading teasers;",
-            "don’t sell fake traffic;",
-            "follow network rules — or risk a site ban;",
+            "don’t cover the content entirely with ads",
+            "don’t use misleading teasers",
+            "don’t sell fake traffic",
+            "follow network rules — or risk a site ban",
             "measure not only revenue but bounce rate and depth.",
           ],
         },

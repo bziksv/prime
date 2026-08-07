@@ -5,17 +5,17 @@ export const sklikivanieEn: BlogPost = {
   slug: "sklikivanie",
   title: "Ad click fraud: signs, protection in Yandex Direct and Google Ads",
   date: "2021-09-17",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/sklikivanie/cover-en.webp",
   excerpt:
     "What click fraud is, how to tell it from a weak campaign, which defenses exist in Yandex Direct and Google Ads, and what to do if you suspect fraud.",
   lead: [
     "Click fraud is artificial clicks on ads that burn budget without target actions. It’s done by hand, scripts, or botnets; sometimes against a competitor, sometimes to inflate a publisher.",
-    "Below — click-fraud signs, first steps, built-in Direct and Google Ads protection, and how not to confuse fraud with a weak offer. Loss figures from old reviews show problem scale — not your forecast.",
+    "We cover click-fraud signs, first steps, built-in Direct and Google Ads protections, and how to tell fraud apart from a weak offer. Loss figures from old roundups show scale—not your forecast.",
   ],
   faq: [
     {
-      q: "Do you pay for invalid clicks?",
+      q: "Do I pay for invalid clicks?",
       a: "Platforms filter some clicks automatically and don’t charge for them. Disputed cases are reviewed on request; if confirmed, they adjust. There’s no 100% “before click” protection.",
     },
     {
@@ -23,16 +23,16 @@ export const sklikivanieEn: BlogPost = {
       a: "No. More often the offer, landing, season, broad keywords, or irrelevant traffic are to blame. Look at 1–3 weeks of data and the funnel — not one day.",
     },
     {
-      q: "What’s the first move on a click spike?",
+      q: "What’s the first move when I see a click spike?",
       a: "Pause or hard-limit the campaign, check geo/devices/placements against settings, save report screenshots, and contact support when anomalies are clear.",
     },
     {
-      q: "Does an IP blacklist help?",
+      q: "Does an IP blacklist help against click fraud?",
       a: "As a supplement — yes, against repeats from known addresses. Against a distributed botnet IP blocks are limited. Platform filters, placement exclusions, and campaign quality matter more.",
     },
     {
       q: "Does session replay prove click fraud?",
-      a: "It shows on-site behavior after the click. A short visit also happens with a live accidental click. For fraud look at the combo: cabinet anomaly + odd geo/IP + bounce pattern.",
+      a: "It shows on-site behavior after the click. A short visit also happens with a live accidental click. For fraud look at the combo: account anomaly + odd geo/IP + bounce pattern.",
     },
   ],
   sections: [
@@ -75,13 +75,13 @@ export const sklikivanieEn: BlogPost = {
       notes: [
         {
           title: "Practice",
-          text: "Cross-check the ads cabinet with Analytics via UTM. A gap “clicks exist — almost no sessions” is a reason to dig deeper, but first verify tagging and reporting lag.",
+          text: "Cross-check the ads account with Analytics via UTM. A gap “clicks exist — almost no sessions” is a reason to dig deeper, but first verify tagging and reporting lag.",
         },
       ],
       links: [
         {
           label: "Suspicious Google traffic",
-          href: "/blog/podozritelnyy-trafik-google/",
+          href: "/en/blog/podozritelnyy-trafik-google/",
         },
       ],
     },
@@ -97,7 +97,7 @@ export const sklikivanieEn: BlogPost = {
           items: [
             "pause or a hard daily cap;",
             "reports by placement, region, device, hour;",
-            "exclude suspicious placements / IPs (within cabinet limits);",
+            "exclude suspicious placements / IPs (within account limits);",
             "contact Direct / Google Ads support with facts;",
             "after the review — restart with tighter keywords and bids.",
           ],
@@ -109,7 +109,7 @@ export const sklikivanieEn: BlogPost = {
       level: 2,
       paras: [
         "Both systems run automatic invalid-click filters: repeats, bot-like patterns, anomalies. Some clicks are cut before charging; some are adjusted later — check invalid-click reports.",
-        "Google Ads (formerly AdWords) combines prevention and complaint review. Direct also shows filtered stats and placement-limit tools. Exact blacklist limits and report names change — follow the cabinet help.",
+        "Google Ads (formerly AdWords) combines prevention and complaint review. Direct also shows filtered stats and placement-limit tools. Exact blacklist limits and report names change — follow the account help.",
       ],
       lists: [
         {
@@ -161,13 +161,13 @@ export const sklikivanieEn: BlogPost = {
             "anomaly monitoring by hour and placement;",
             "regular exclusion of junk display placements;",
             "ad → page consistency;",
-            "budget caps and alerts in the cabinet/analytics.",
+            "budget caps and alerts in the account/analytics.",
           ],
         },
       ],
     },
     {
-      title: "Short takeaway",
+      title: "Bottom line",
       level: 2,
       paras: [
         "Click fraud is real, but not every ROAS drop is an attack. Watch the signal combo, use Direct and Google Ads filters, cut budget fast on anomalies, and check campaign quality in parallel. Support tickets — with facts, not emotions.",

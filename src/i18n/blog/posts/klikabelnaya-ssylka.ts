@@ -11,7 +11,7 @@ export const klikabelnayaSsylkaEn: BlogPost = {
     "How an active link differs from plain text, how to create one in HTML and an editor, nuances in social apps and Word. Anchor text, target, and common mistakes.",
   lead: [
     "A clickable (active) link opens another URL on click. An inactive one is just an address string you copy by hand. On the web you almost always want real active links.",
-    "Below — HTML markup, visual editors, and a short note on social apps and documents. Hypertext theory is a separate article; this is the “how to make it” practice.",
+    "HTML markup, visual editors, and a short note on social apps and documents — the practical how-to. Hypertext theory is a separate article.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const klikabelnayaSsylkaEn: BlogPost = {
       a: "One click instead of copy-paste into the address bar. More convenient and fewer typos.",
     },
     {
-      q: "What’s the minimum HTML?",
+      q: "What’s the minimum HTML for a link?",
       a: "`<a href=\"https://example.com/\">Link text</a>`. For a new tab add `target=\"_blank\"` and preferably `rel=\"noopener\"`.",
     },
     {

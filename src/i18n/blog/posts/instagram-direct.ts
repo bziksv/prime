@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for instagram-direct — same structure as RU JSON. */
 export const instagramDirectEn: BlogPost = {
   slug: "instagram-direct",
-  title: "Greetings and messages in Instagram* Direct: how to do it without spam",
+  title: "Instagram* Direct greetings and messages — without the spam",
   date: "2021-12-24",
   category: "SMM",
   cover: "/images/blog/instagram-direct/cover-en.webp",
   excerpt:
-    "Auto-greetings and chat in Instagram* Direct: why they matter, which scenarios fit, and why cold mass DMs and bots risk the account — without a catalog of grey tools.",
+    "Auto-replies and chat in Instagram* Direct: why they matter, which setups work, and why cold mass DMs and bots put the account at risk — without a roundup of shady tools.",
   lead: [
-    "Direct is a leads and service channel: someone wrote after an ad or Story, you reply fast and on point. Auto-greetings and templates speed the reply; cold mass DMs to strangers lead to reports and limits.",
-    "Below — working dialogue scenarios and safety boundaries. Instagram* UI and access to “official” auto-replies change; we don’t recommend third-party tools for mass liking and messaging other people’s accounts. Meta* product disclaimer is on the page.",
+    "Direct is a lead and support channel: someone messages after an ad or Story, you answer fast and clearly. Auto-greetings and templates speed that up; cold mass DMs to strangers get you reported and limited.",
+    "Real conversations and a clear safety line matter more than blast volume. Instagram* UI and access to official auto-replies change; we don’t recommend third-party tools for mass-liking or messaging other people’s accounts. The Meta* product notice is on the page.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -19,42 +19,42 @@ export const instagramDirectEn: BlogPost = {
   },
   faq: [
     {
-      q: "Can you advertise to everyone in Direct?",
-      a: "Cold mass spam breaks the rules and annoys people. Write to those who started the chat or clearly agreed to messages under platform rules.",
+      q: "Can you pitch everyone in Direct?",
+      a: "Cold mass spam breaks the rules and annoys people. Message people who started the chat or clearly opted in under the platform’s rules.",
     },
     {
       q: "How is an auto-greeting different from a broadcast?",
-      a: "A greeting answers an inbound message or an event where the person started contact. A blunt blast to thousands of strangers is a different risk and a different ethic.",
+      a: "A greeting replies to an inbound message or an event where the person reached out first. A cold blast to thousands of strangers is a different risk — and a different ethic.",
     },
     {
-      q: "Do mass liking and mass following help sales?",
-      a: "They usually raise the risk of limits and shadow restrictions. Grow with content, ads, and service in chats — see the shadowban piece.",
+      q: "Do mass-liking and mass-following help sales?",
+      a: "They usually raise the risk of limits and shadow restrictions. Grow with content, ads, and solid chat support — see the shadowban article.",
     },
     {
       q: "Do you need a business account?",
-      a: "For commerce and Insights — yes, a professional/business mode is more convenient. Profile type setup is in a separate piece.",
+      a: "For commerce and Insights — yes, a professional/business profile is easier to run. Profile type setup is covered in a separate article.",
     },
     {
-      q: "Third-party broadcast tools from 2021 roundups?",
-      a: "We don’t catalog or recommend them. Many break platform rules; prices and brands age. Only evaluate tools inside ToS and the law.",
+      q: "What about third-party broadcast tools from old 2021 roundups?",
+      a: "We don’t list or recommend them. Many break platform rules; prices and brands go stale. Only evaluate tools that stay inside the Terms of Service and the law.",
     },
   ],
   sections: [
     {
-      title: "Why business needs Direct",
+      title: "Why businesses use Direct",
       level: 2,
       paras: [
-        "Leads, order clarifications, bookings, sending a price list and files — often faster than a site form. First-reply speed decides whether the lead goes to a competitor.",
-        "A greeting sets the tone: who you are, how you help, what to write back to get a consult. That’s service — not “close at any cost.”",
+        "Leads, order questions, bookings, price lists, and files — often faster than a site form. How fast you reply decides whether the lead goes to a competitor.",
+        "A greeting sets the tone: who you are, how you help, and what to write back to book a consult. That’s service — not “sell at any cost.”",
       ],
       lists: [
         {
-          intro: "Normal jobs for the channel:",
+          intro: "What this channel is good for:",
           items: [
             "reply to inbound interest;",
-            "clarify an order after an ad/Story;",
+            "clarify an order after an ad or Story;",
             "send terms and a site link;",
-            "collect a contact for a call/CRM;",
+            "collect a contact for a call or CRM;",
             "support existing customers.",
           ],
         },
@@ -71,11 +71,11 @@ export const instagramDirectEn: BlogPost = {
       ],
     },
     {
-      title: "Auto-greeting: what fits",
+      title: "Auto-greeting: what works",
       level: 2,
       paras: [
-        "A short reply to inbound: thank them, name the topic, ask one clarifying question, state reply hours. Keep saved replies (quick replies) for common questions.",
-        "If the cabinet has official automation tools or approved partners — use them per platform Help. Don’t confuse that with bots that message thousands of cold profiles.",
+        "Keep the inbound reply short: thank them, name the topic, ask one clarifying question, and state your reply hours. Save quick replies for common questions.",
+        "If the account has official automation tools or approved partners — use them per platform Help. Don’t confuse that with bots that DM thousands of cold profiles.",
       ],
       lists: [
         {
@@ -83,7 +83,7 @@ export const instagramDirectEn: BlogPost = {
           items: [
             "who you are / the brand;",
             "how you can help;",
-            "what to write back (1 question);",
+            "what to write back (one question);",
             "expected human reply time;",
             "no ALL CAPS and fake “today only −90%.”",
           ],
@@ -91,11 +91,11 @@ export const instagramDirectEn: BlogPost = {
       ],
     },
     {
-      title: "Mass broadcasts: risks",
+      title: "Mass broadcasts: the risks",
       level: 2,
       paras: [
-        "Users report spam; moderation watches abnormal activity. Outcome — warnings, action limits, temporary blocks, and account loss.",
-        "Even a “soft” template blasted to hundreds of strangers often goes unread. It’s cheaper to put budget into content, ads, and fast replies to warm leads.",
+        "People report spam; moderation watches abnormal activity. Outcomes include warnings, action limits, temporary blocks, and losing the account.",
+        "Even a “soft” template blasted to hundreds of strangers often goes unread. You’re better off putting budget into content, ads, and fast replies to warm leads.",
       ],
       lists: [
         {
@@ -104,7 +104,7 @@ export const instagramDirectEn: BlogPost = {
             "cold Direct with no request;",
             "identical templates in batches;",
             "third-party bots that bypass limits;",
-            "pairing with mass like and mass follow;",
+            "pairing with mass-like and mass-follow;",
             "bought “warmup” lists.",
           ],
         },
@@ -112,7 +112,7 @@ export const instagramDirectEn: BlogPost = {
       notes: [
         {
           title: "Common mistake",
-          text: "Confusing “service automation” with “buy reach via spam.” The first is reply speed to your own people; the second is someone else’s rules and blocks.",
+          text: "Mixing up “service automation” with “buy reach via spam.” The first is reply speed for people who already contacted you; the second is someone else’s rules — and blocks.",
           kind: "tip",
         },
       ],
@@ -128,20 +128,20 @@ export const instagramDirectEn: BlogPost = {
       ],
     },
     {
-      title: "How to run it without grey schemes",
+      title: "How to run it without shady shortcuts",
       level: 2,
       paras: [
-        "Assign someone for Direct, set an SLA (e.g. reply in N minutes during business hours), keep templates for common questions and a handoff to CRM.",
-        "In Stories and posts give a clear CTA: “write the word PRICE” — the person starts the chat. Then walk a question script — not a cold blast.",
+        "Assign someone to Direct, set an SLA (for example, reply within N minutes during business hours), keep templates for common questions, and hand leads off to CRM.",
+        "In Stories and posts, give a clear CTA: “DM the word PRICE” — so the person starts the chat. Then follow a question script — not a cold blast.",
       ],
       lists: [
         {
-          intro: "Working minimum:",
+          intro: "Baseline setup:",
           items: [
             "who replies and when;",
-            "templates + live follow-up;",
-            "lead tracking (sheet/CRM);",
-            "ban on third-party “boost” tools;",
+            "templates plus live follow-up;",
+            "lead tracking (sheet or CRM);",
+            "no third-party “boost” tools;",
             "measure: replies → leads → sales.",
           ],
         },
@@ -161,17 +161,17 @@ export const instagramDirectEn: BlogPost = {
       title: "Message copy",
       level: 2,
       paras: [
-        "Polite, correct, on point. One ask: answer a question, pick a service, go to the site. Long walls and caps lock kill replies.",
-        "Personalization is about the reason for contact (“you asked about delivery”) — not a name from a scraper pasted into spam.",
+        "Stay polite, clear, and concise. One ask: answer a question, pick a service, or go to the site. Long walls and caps lock kill replies.",
+        "Personalization is about why they contacted you (“you asked about delivery”) — not a scraped name pasted into spam.",
       ],
       lists: [],
     },
     {
-      title: "If you’re looking at third-party software",
+      title: "If you’re eyeing third-party software",
       level: 2,
       paras: [
-        "Old roundups were full of utility names and “from $X” prices. The market and rules changed; some tools push straight ToS violations.",
-        "Criteria if you evaluate a tool at all: platform rule compliance, account access (don’t give passwords to shady sites), logging, no mass actions, a legal entity and a contract. When in doubt — only manual Direct and official cabinets.",
+        "Old roundups were packed with tool names and “from $X” prices. The market and rules changed; some tools push straight Terms of Service violations.",
+        "If you evaluate a tool at all, check: platform rule compliance, account access (don’t give passwords to shady sites), logging, no mass actions, and a real company with a contract. When in doubt — stick to manual Direct and official Meta tools.",
       ],
       lists: [],
     },
@@ -179,14 +179,14 @@ export const instagramDirectEn: BlogPost = {
       title: "What to remember",
       level: 2,
       paras: [
-        "Direct is strong as a service channel for warm contacts. Auto-greetings and templates — fine; cold mass spam and mass liking — not.",
-        "Reply speed and a clear offer beat a grey-price “broadcast + following” pack.",
+        "Direct works best as support for warm contacts. Auto-greetings and templates are fine; cold mass spam and mass-liking are not.",
+        "Reply speed and a clear offer beat a cheap “broadcast + follow” package.",
       ],
       lists: [],
     },
   ],
   closing: [
-    "Set a fast honest reply in Direct, templates for common questions, and lead tracking — so messages help sales. Leave cold mass broadcasts to competitors who don’t mind losing the account.",
+    "Set up fast, honest replies in Direct, templates for common questions, and lead tracking — so messages help sales. Leave cold mass broadcasts to competitors who don’t mind losing the account.",
   ],
   related: [
     "instagram-direct-gid",

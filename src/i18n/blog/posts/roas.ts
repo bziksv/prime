@@ -5,25 +5,25 @@ export const roasEn: BlogPost = {
   slug: "roas",
   title: "ROAS: return on ad spend",
   date: "2019-03-04",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/roas/cover-en.webp",
   excerpt:
-    "ROAS = ad revenue / ad spend: how it differs from ROI/ROMI, how to calculate it, why include creative in costs, and why in B2B without end-to-end analytics the metric lies.",
+    "ROAS = ad revenue / ad spend: how it differs from ROI/ROMI (return on marketing investment), how to calculate it, why include creative in costs, and why in B2B without end-to-end analytics the metric lies.",
   lead: [
     "ROAS (return on ad spend) shows how much revenue you get per unit of ad budget. It’s a tactical money metric for a campaign — not a strategy substitute and not the “only brand KPI”.",
-    "Below — the formula, difference from ROI/ROMI, an example of comparing campaigns, and B2B specifics where the deal often sits outside the ad account. A “good” ROAS depends on margin and goal: there’s no universal “4:1 for everyone”.",
+    "We walk through the formula, how it differs from ROI/ROMI, a campaign comparison example, and B2B cases where the deal often closes outside the ad account. A “good” ROAS depends on margin and goal—there’s no universal “4:1 for everyone.”",
   ],
   faq: [
     {
       q: "Are ROAS and ROI the same?",
-      a: "No. ROAS is usually revenue / ad spend (sometimes as 4:1 or 400%). ROI/ROMI accounts for profit vs investment and sits closer to strategic payback.",
+      a: "No. ROAS is usually revenue / ad spend (sometimes as 4:1 or 400%). ROI/ROMI (return on marketing investment) accounts for profit vs investment and sits closer to strategic payback.",
     },
     {
       q: "What ROAS counts as good?",
       a: "The one where after margin, returns, and operating costs you still get the profit you need. A thin-margin startup may need a higher ratio than mature e-com.",
     },
     {
-      q: "What to include in costs?",
+      q: "What should I include in costs?",
       a: "Media budget and, honestly, creative/landing work without which ads don’t live. Otherwise ROAS is inflated.",
     },
     {
@@ -31,11 +31,11 @@ export const roasEn: BlogPost = {
       a: "No. Many clicks with low revenue make weak ROAS. Compare campaigns on money — not only CTR.",
     },
     {
-      q: "How to calculate ROAS in B2B?",
+      q: "How do I calculate ROAS in B2B?",
       a: "You need the chain ads → lead → deal in CRM (end-to-end analytics). Otherwise you see clicks, not payment.",
     },
     {
-      q: "Is ROAS 2:1 profit?",
+      q: "Is ROAS 2:1 the same as profit?",
       a: "It’s “two units of revenue per one unit of ad spend”. Profit depends on margin: at 30% margin, 2:1 can be a loss.",
     },
   ],
@@ -74,7 +74,7 @@ export const roasEn: BlogPost = {
       title: "Comparing campaigns and B2B",
       level: 2,
       paras: [
-        "A campaign with many clicks on the same budget can lose on ROAS to a narrower but “money” one. For reach watch impressions; for profit — revenue per spend.",
+        "A campaign with many clicks on the same budget can lose on ROAS to a narrower but higher-revenue one. For reach watch impressions; for profit — revenue per spend.",
         "In e-com the link is simpler: order and amount often show in analytics. In B2B leads go to telephony/CRM, the cycle is long — without end-to-end stitching, account ROAS will be understated or random.",
         "Budget decision: amplify what hits target ROAS at the lead quality you need; don’t confuse a brand job (reach) with a performance job (revenue).",
       ],

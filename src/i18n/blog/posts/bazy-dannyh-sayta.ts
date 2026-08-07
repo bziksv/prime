@@ -5,21 +5,21 @@ export const bazyDannyhSaytaEn: BlogPost = {
   slug: "bazy-dannyh-sayta",
   title: "Website databases: organization and backup",
   date: "2021-01-15",
-  category: "SEO",
+  category: "Hosting",
   cover: "/images/blog/bazy-dannyh-sayta/cover-en.webp",
   excerpt:
     "What a site database stores, how it differs from files on disk, why backups matter, and how not to lose orders, users, and content after a failure or hack.",
   lead: [
     "A site isn’t only HTML and images. Most live data (products, orders, users, CMS settings) sits in a database. Losing theme files hurts; losing the DB with no backup often means losing business history.",
-    "Below — how the DB relates to site files, why it exists, which risks matter, and how to approach backups without a cult of “once a year on a USB stick”.",
+    "A site database holds content, users, and settings — separate from theme and media files. Back it up with the files, not “once a year on a USB stick.” Hosting snapshots help but don’t replace your own copies.",
   ],
   faq: [
     {
-      q: "How does a DB differ from files on hosting?",
+      q: "How does a database differ from files on hosting?",
       a: "Files are code, templates, media. The DB is structured records: posts, SKUs, orders, options. Recovery needs both layers.",
     },
     {
-      q: "Which DBMS do sites use most?",
+      q: "Which database systems do sites use most?",
       a: "Classic CMSs — often MySQL/MariaDB. PostgreSQL and others appear; follow CMS and hosting docs.",
     },
     {
@@ -27,23 +27,23 @@ export const bazyDannyhSaytaEn: BlogPost = {
       a: "No. Without a DB dump you restore an empty or stale shell without orders and content.",
     },
     {
-      q: "How often to back up?",
+      q: "How often should you back up the database?",
       a: "Depends on change rate: a store with orders — more often (daily/hourly); a brochure site — less. Critical: a fresh copy before CMS updates and migrations.",
     },
     {
-      q: "Where to store copies?",
-      a: "Not only on the same server disk. Need a second contour: another host, object storage, company policy — with a restore test.",
+      q: "Where should you store database backups?",
+      a: "Not only on the same server disk. Need a second layer: another host, object storage, company policy — with a restore test.",
     },
     {
-      q: "Host backup = I can stop thinking?",
+      q: "If the host backs up, can you stop thinking about it?",
       a: "Handy as insurance, but check retention, what it includes (files+DB), and whether you can restore yourself. Don’t rely blindly.",
     },
     {
-      q: "Does the DB affect SEO directly?",
+      q: "Does the database affect SEO directly?",
       a: "Indirectly: slow queries and outages cut UX and crawl. Content duplicates are more about URLs and templates than table names. Tech audit and logs are sibling topics.",
     },
     {
-      q: "Can you edit the DB by hand in phpMyAdmin?",
+      q: "Can you edit the database by hand in phpMyAdmin?",
       a: "Only if you understand the schema and have a fresh backup. A typo in the orders table costs more than an edit via the CMS admin.",
     },
   ],

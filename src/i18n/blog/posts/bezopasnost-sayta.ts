@@ -5,17 +5,17 @@ export const bezopasnostSaytaEn: BlogPost = {
   slug: "bezopasnost-sayta",
   title: "How sites get hacked and how to defend: SQL injection and other threats",
   date: "2020-11-26",
-  category: "SEO",
+  category: "Hosting",
   cover: "/images/blog/bezopasnost-sayta/cover-en.webp",
   excerpt:
     "Threats typical for sites and stores: SQL injection, XSS, brute force, vulnerable plugins. How to think about defense and what to do after compromise — without attack how-tos.",
   lead: [
     "Sites aren’t hacked “for sport” — it’s about data, spam, malware redirects, or ransomware. For an owner in plain terms: someone exploits a code hole, a weak password, or a forgotten plugin.",
-    "Below — an overview of common threats (including SQL injection) and practical defense. This is about protection and recovery, not how to attack. DB backups and HTTPS are covered in related articles.",
+    "Site security is about protection and recovery — not how to attack. Common threats include SQL injection, weak admin passwords, and outdated plugins. DB backups and HTTPS are covered in related articles.",
   ],
   faq: [
     {
-      q: "What is SQL injection in plain words?",
+      q: "What is SQL injection in plain English?",
       a: "An attacker slips a fragment into a form field or URL so the database runs an unwanted query. Defense — parameterized queries, input validation, CMS updates.",
     },
     {
@@ -23,19 +23,19 @@ export const bezopasnostSaytaEn: BlogPost = {
       a: "No. HTTPS encrypts the channel. Injections and app holes are another layer: code, ORM, DB permissions.",
     },
     {
-      q: "Why is a hack bad for SEO?",
+      q: "Why is a site hack bad for SEO?",
       a: "Spam pages, malicious redirects, content theft, unsafe-site lists, trust and traffic drop.",
     },
     {
-      q: "Is hosting antivirus enough?",
+      q: "Is hosting antivirus enough for security?",
       a: "Useful as part of a stack, not the only measure. You need updates, strong passwords, least privilege, backups, and monitoring.",
     },
     {
-      q: "What to do right after a suspected breach?",
+      q: "What should you do right after a suspected breach?",
       a: "Rotate access, put the site in maintenance if needed, restore from a clean backup, update CMS/plugins, check email and webmaster tools for malware notices.",
     },
     {
-      q: "Do you need a WAF?",
+      q: "Do you need a web application firewall (WAF)?",
       a: "For stores and public forms often yes (hosting/CDN level). It doesn’t replace fixing vulnerable code.",
     },
     {
@@ -43,7 +43,7 @@ export const bezopasnostSaytaEn: BlogPost = {
       a: "Surface checkers give hints, not a guarantee. A serious audit needs a specialist; aggressive scanning of others’ sites without permission is unacceptable.",
     },
     {
-      q: "Are WordPress plugins the main risk?",
+      q: "Are WordPress plugins the main security risk?",
       a: "Often yes: forgotten and unchecked extensions. Install fewer, update, remove unused, take from trusted sources.",
     },
   ],

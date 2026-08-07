@@ -8,26 +8,26 @@ export const seoPosleTopaEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/seo-posle-topa/cover-en.webp",
   excerpt:
-    "When the site is already in TOP, turning SEO off is early: snippets, conversion, core expansion, tech, and competitors. What to do on maintenance without the myth “we made it — can switch off”.",
+    "When the site is already in the TOP, turning SEO off is early: snippets, conversion, core expansion, tech, and competitors. What to do on maintenance without the myth “we made it — can switch off”.",
   lead: [
-    "Prep and core TOP buildup planned take months. When ranks and traffic appear, the question hits: keep paying or “enough”? Turning SEO off entirely means handing growth to competitors: the SERP and the site don’t freeze.",
-    "Below — why support after TOP matters and what to focus on: conversion, snippets, visibility, landing behavior, demand expansion, and tech freshness. This isn’t an “eternal retainer for a checkbox” — it’s a clear hold-and-grow track.",
+    "Prep and building the core into the TOP are planned over months. When ranks and traffic appear, the question hits: keep paying or “enough”? Turning SEO off entirely means handing growth to competitors: the SERP and the site don’t freeze.",
+    "We cover why support after you hit the TOP matters—and what to focus on: conversion, snippets, visibility, landing behavior, demand expansion, and tech freshness. This isn’t an endless retainer just to check a box; it’s a clear hold-and-grow plan.",
   ],
   faq: [
     {
-      q: "Can you stop SEO completely?",
-      a: "You can freeze development, but without monitoring tech, snippets, and competitors will eat the result. Minimum — cabinets, errors, key URLs.",
+      q: "Can I stop SEO completely?",
+      a: "You can freeze development, but without monitoring, tech issues, weak snippets, and competitors will eat the result. At minimum — accounts, errors, key URLs.",
     },
     {
-      q: "How long to wait for TOP before judging effect?",
-      a: "Prep — weeks–month; core ranking buildup planned 2–6 months after start. Judge cluster dynamics and leads, not one phrase.",
+      q: "How long should I wait for TOP before judging the effect?",
+      a: "Prep — weeks to a month; core ranking buildup planned 2–6 months after start. Judge cluster dynamics and leads, not one phrase.",
     },
     {
-      q: "After TOP what matters more — links or conversion?",
-      a: "Often conversion and snippet CTR: the same traffic yields more leads. Links — point-wise, not spam “for the checkbox”.",
+      q: "After reaching the TOP, what matters more — links or conversion?",
+      a: "Often conversion and snippet CTR: the same traffic yields more leads. Links — selectively, not spam “for the checkbox”.",
     },
     {
-      q: "Need new copy if already in TOP-10?",
+      q: "Do I need new copy if I’m already in TOP-10?",
       a: "Yes for new clusters and refreshing outdated pages. Competitors keep writing — standing still means falling behind.",
     },
     {
@@ -35,16 +35,16 @@ export const seoPosleTopaEn: BlogPost = {
       a: "The accent shifts: less “from scratch”, more CTR, CRO, core expansion, release tech, and reacting to updates.",
     },
     {
-      q: "How to know support budget pays off?",
+      q: "How do I know the support budget pays off?",
       a: "Watch organic leads/revenue, TOP share, organic CPA vs ads, and the cost of downtime on a drop.",
     },
     {
-      q: "What if TOP is only on informational queries?",
+      q: "What if TOP rankings are only on informational queries?",
       a: "Don’t drop SEO: finish commercial landings and the core — otherwise “traffic without money”.",
     },
     {
       q: "Can support be replaced with paid search only?",
-      a: "Paid covers cash fast but costs more over distance. A channel mix is stronger than “turning organic off”.",
+      a: "Paid covers cash fast but costs more over time. A channel mix is stronger than “turning organic off”.",
     },
   ],
   sections: [
@@ -53,7 +53,7 @@ export const seoPosleTopaEn: BlogPost = {
       level: 2,
       paras: [
         "Ranks aren’t stable: competitors, algorithms, snippets, and your site after releases change. Without monitoring it’s easy to lose months of visibility buildup.",
-        "SEO after TOP is holding and squeezing economics: more clicks from the same places, more leads from the same visits, new demand clusters.",
+        "SEO after the TOP is holding and squeezing economics: more clicks from the same places, more leads from the same visits, new demand clusters.",
       ],
       lists: [
         {

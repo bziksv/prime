@@ -11,28 +11,28 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
     "When to block pages from indexing, how robots.txt, meta robots, and X-Robots-Tag differ, how to remove duplicates and utility sections — without cloaking or outdated tricks.",
   lead: [
     "Not everything on a site should enter the index: utility sections, drafts, filter duplicates, test subdomains. Blocking from indexing is a normal SEO tool — not a hide-and-seek game to trick robots.",
-    "Below — why close URLs, which methods work in 2026, and what to avoid (JS cloaking, “hiding” content from bots). The backbone is robots.txt, meta robots / X-Robots-Tag, canonical, and response codes.",
+    "Why you block URLs, which methods work in 2026, and what to avoid (JS cloaking, “hiding” content from bots). The backbone is robots.txt, meta robots / X-Robots-Tag, canonical, and response codes.",
   ],
   faq: [
     {
       q: "Does robots.txt forbid indexing?",
-      a: "No: Disallow asks not to crawl a URL. The page can still appear in results via links without a snippet. For “don’t index,” meta robots / X-Robots-Tag noindex (when crawlable) or closed access is more reliable.",
+      a: "No: Disallow asks not to crawl a URL. The page can still appear in results via links without a snippet. For “don’t index,” meta robots / X-Robots-Tag noindex (when crawlable) or restricted access is more reliable.",
     },
     {
       q: "How is noindex different from Disallow?",
-      a: "Disallow — don’t crawl. noindex — may crawl, but don’t put in the index (or remove). Often combined on purpose: utility URLs closed from crawl and with noindex.",
+      a: "Disallow — don’t crawl. noindex — may crawl, but don’t put in the index (or remove). Often combined on purpose: utility URLs blocked from crawl and with noindex.",
     },
     {
-      q: "Do you still need the old Yandex <noindex> tag?",
+      q: "Do I still need the old Yandex <noindex> tag?",
       a: "Obsolete practice. The modern standard is meta name=\"robots\" content=\"noindex\" and/or the HTTP header X-Robots-Tag.",
     },
     {
-      q: "How do I close the whole site during development?",
+      q: "How do I block the whole site during development?",
       a: "Better password / IP allowlist / a separate staging host. Temporary noindex on all pages is OK, but easy to forget to remove. Don’t rely on robots.txt alone.",
     },
     {
       q: "Can I hide text from robots with JavaScript?",
-      a: "Not as an SEO tactic. Showing different content to people and bots is cloaking — sanction risk. Needed content is either in the index, or the page is honestly closed.",
+      a: "Not as an SEO tactic. Showing different content to people and bots is cloaking — sanction risk. Needed content is either in the index, or the page is honestly blocked.",
     },
   ],
   sections: [
@@ -40,7 +40,7 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
       title: "When to block from indexing",
       level: 2,
       paras: [
-        "The goal is not to pollute the index or compete with yourself via duplicates. Close what shouldn’t answer search demand.",
+        "The goal is not to pollute the index or compete with yourself via duplicates. Block what shouldn’t answer search demand.",
       ],
       lists: [
         {
@@ -57,7 +57,7 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
       links: [
         {
           label: "Technical SEO audit",
-          href: "/blog/tehnicheskiy-seo-audit/",
+          href: "/en/blog/tehnicheskiy-seo-audit/",
         },
       ],
     },
@@ -65,7 +65,7 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
       title: "robots.txt: crawl rules, not “index magic”",
       level: 2,
       paras: [
-        "The `/robots.txt` file sets crawl rules per User-agent. It’s handy for closing folders (`/admin/`, `/cgi-bin/`), utility scripts, and sometimes heavy sections from extra crawling.",
+        "The `/robots.txt` file sets crawl rules per User-agent. It’s handy for blocking folders (`/admin/`, `/cgi-bin/`), utility scripts, and sometimes heavy sections from extra crawling.",
         "Limit: a crawl ban ≠ a guarantee of absence from the index. If search already knows the URL, Disallow can block delivering noindex.",
       ],
       lists: [
@@ -73,7 +73,7 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
           intro: "Practice:",
           items: [
             "don’t block CSS/JS needed to render key pages;",
-            "check the file after deploy (a Disalllow typo breaks crawl);",
+            "check the file after deploy (a Disallow typo breaks crawl);",
             "for “whole site” on production almost never use `Disallow: /` without a hard need.",
           ],
         },
@@ -106,7 +106,7 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
       links: [
         {
           label: "Cached page copy",
-          href: "/blog/sohranennaya-kopiya-yandex/",
+          href: "/en/blog/sohranennaya-kopiya-yandex/",
         },
       ],
     },
@@ -115,7 +115,7 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
       level: 2,
       paras: [
         "Duplicates are better not “hidden forever,” but collapsed to one URL: 301, `rel=\"canonical\"`, unified params. robots/noindex is a backup if the duplicate can’t be removed yet.",
-        "A section or folder is closed with robots rules and/or a meta template on all section URLs. A subdomain is a separate host for search: set rules there too.",
+        "A section or folder is blocked with robots rules and/or a meta template on all section URLs. A subdomain is a separate host for search: set rules there too.",
       ],
       tables: [
         {
@@ -136,7 +136,7 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
       level: 2,
       paras: [
         "Individual outbound links get `rel=\"nofollow\"` / `sponsored` / `ugc` by meaning — that isn’t “blocking the site from indexing.” Images: `noimageindex` is rarely needed; more important not to steal photos and to serve sensible sizes.",
-        "Old guides suggested `<noindex>`, SEOhide, and Base64/JS-encoded blocks “so the bot doesn’t see them.” Don’t: that’s cloaking and a fragile scheme. Show needed content the same to everyone, or honestly close the URL.",
+        "Old guides suggested `<noindex>`, SEOhide, and Base64/JS-encoded blocks “so the bot doesn’t see them.” Don’t: that’s cloaking and a fragile scheme. Show needed content the same to everyone, or honestly block the URL.",
       ],
       lists: [
         {
@@ -152,7 +152,7 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
       notes: [
         {
           title: "Common mistake",
-          text: "Closing important services in robots during development and not opening them after release. Symptom — “the site exists, search is empty.”",
+          text: "Blocking important services in robots during development and not opening them after release. Symptom — “the site exists, search is empty.”",
         },
       ],
     },
@@ -160,8 +160,9 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
       title: "Server responses and passwords",
       level: 2,
       paras: [
-        "403/401 with auth is a hard close: the robot won’t get content. 410 — “gone forever.” 404 — “not found” (OK for temporary holes; for moves prefer 301).",
+        "403/401 with auth is a hard block: the robot won’t get content. 410 — “gone forever.” 404 — “not found” (OK for temporary holes; for moves prefer 301).",
         "A password on staging beats hoping for robots: random links and scanners won’t drag a draft into the index.",
+        "Opening pages after launch is part of prep — not a ranking shortcut. Core keyword positions typically build over 2–6 months once the right URLs are crawlable and indexed.",
       ],
       lists: [],
     },

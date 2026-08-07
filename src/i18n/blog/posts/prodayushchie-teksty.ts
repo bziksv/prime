@@ -11,7 +11,7 @@ export const prodayushchieTekstyEn: BlogPost = {
     "How to write sales copy: audience and product, tone, headline, intro, arguments, price, and a CTA without clichés.",
   lead: [
     "Sales copy drives an action: a lead, a purchase, a call. Readers rarely care that “the company is growing” — they care which problem the offer solves.",
-    "Below — principles, structure from headline to CTA, and ways to talk about price. Social posts and general copywriting have sibling articles; here — a commercial-text frame.",
+    "The focus is principles, structure from headline to CTA, and ways to talk about price. Social posts and general copywriting have sibling articles; this piece is the commercial-text frame.",
   ],
   faq: [
     {
@@ -19,19 +19,19 @@ export const prodayushchieTekstyEn: BlogPost = {
       a: "Info explains a topic. Sales copy closes a pain/benefit and ends with a clear next step.",
     },
     {
-      q: "Do you need a rigid AIDA scheme?",
+      q: "Do I need a rigid AIDA framework?",
       a: "As a frame — yes (attention → interest → desire → action). You don’t have to label the blocks with letters in the text.",
     },
     {
-      q: "Can you hide the downsides?",
+      q: "Can I hide the downsides?",
       a: "Honesty wins. Limits said calmly build trust; lies kill conversion on the next step.",
     },
     {
-      q: "How to write about a high price?",
+      q: "How do I write about a high price?",
       a: "Break it into clear units, compare with an alternative, show value and what’s included. Don’t fake a discount.",
     },
     {
-      q: "How much fluff is OK?",
+      q: "How much fluff is OK in sales copy?",
       a: "Almost none. Facts, benefits, proof, CTA. Lyric only if it truly warms the audience.",
     },
   ],
@@ -46,10 +46,10 @@ export const prodayushchieTekstyEn: BlogPost = {
         {
           intro: "Basics:",
           items: [
-            "clear audience and scenario;",
-            "accurate product facts;",
-            "benefits instead of bare features;",
-            "coherence and tact;",
+            "clear audience and scenario",
+            "accurate product facts",
+            "benefits instead of bare features",
+            "coherence and tact",
             "one main CTA.",
           ],
         },
@@ -65,9 +65,9 @@ export const prodayushchieTekstyEn: BlogPost = {
         {
           intro: "Before the draft:",
           items: [
-            "who reads and which action you need;",
-            "which pain/desire;",
-            "how you differ from peers;",
+            "who reads and which action you need",
+            "which pain/desire",
+            "how you differ from peers",
             "what proof you have (cases, numbers, guarantees).",
           ],
         },
@@ -99,12 +99,12 @@ export const prodayushchieTekstyEn: BlogPost = {
         {
           intro: "Article frame:",
           items: [
-            "headline with a benefit;",
-            "reader’s problem;",
-            "solution and product;",
-            "proof;",
-            "price and terms;",
-            "CTA: call / leave a request / buy.",
+            "headline with a benefit",
+            "reader’s problem",
+            "solution and product",
+            "proof",
+            "price and terms",
+            "CTA: call / get in touch / buy.",
           ],
         },
       ],
@@ -125,9 +125,9 @@ export const prodayushchieTekstyEn: BlogPost = {
         {
           intro: "Moves without manipulation:",
           items: [
-            "price per day/month on a long term;",
-            "what’s included in the sum;",
-            "compare with the cost of the problem unsolved;",
+            "price per day/month on a long term",
+            "what’s included in the sum",
+            "compare with the cost of the problem unsolved",
             "clear payment and refund terms.",
           ],
         },

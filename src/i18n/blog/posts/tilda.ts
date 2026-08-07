@@ -5,13 +5,13 @@ export const tildaEn: BlogPost = {
   slug: "tilda",
   title: "How to build a site on Tilda: structure, content, and publish",
   date: "2018-12-28",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/tilda/cover-en.webp",
   excerpt:
     "How to assemble a landing on Tilda: block structure, copy and visuals, Zero Block vs standard layout, SEO basics, domain, and checks — without promising a “ready site in two days” for every project.",
   lead: [
     "Tilda is a block website builder: good for landings, simple multi-page sites, and fast prototypes. A large catalog or heavy 1C logic often hits platform limits.",
-    "Below — a work order using a landing example: structure → content → design → build → SEO and QA. Tilda’s UI changes; follow the meaning of steps, not 2018 screenshots. “Two days” is a guide for a simple landing with ready copy — not a guarantee.",
+    "Use this work order using a landing example: structure → content → design → build → SEO and QA. Tilda’s UI changes; follow the meaning of steps, not 2018 screenshots. “Two days” is a guide for a simple landing with ready copy — not a guarantee.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const tildaEn: BlogPost = {
       a: "For a small assortment and simple payments — often yes. For a large catalog and complex integrations, look at specialized CMS.",
     },
     {
-      q: "Do you need a designer?",
+      q: "Do I need a designer?",
       a: "Templates and careful content are enough to start. A unique grid needs Zero Block or a designer if the brand requires it.",
     },
     {
@@ -127,7 +127,7 @@ export const tildaEn: BlogPost = {
       title: "SEO basics, domain, and tests",
       level: 2,
       paras: [
-        "Set H1/H2, title and description (separate for search and sharing if the cabinet allows). Enable indexing, connect the domain, add counters.",
+        "Set H1/H2, title and description (separate for search and sharing if the ads account allows). Enable indexing, connect the domain, add counters.",
         "If you collect personal data — document and consent. Run a speed/display checklist and send a test lead. Tilda’s SEO hint panel is a helper, not a promotion strategy.",
       ],
       links: [

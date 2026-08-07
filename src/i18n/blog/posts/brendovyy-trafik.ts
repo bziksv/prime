@@ -11,39 +11,39 @@ export const brendovyyTrafikEn: BlogPost = {
     "What counts as branded traffic, why it matters for business and SEO, how to grow name awareness, and how to measure the share in analytics and Search Console.",
   lead: [
     "Branded traffic is visits from queries with the company name, product, or a stable “brand” spelling (including typos and transliteration). These are people already looking for you — not “service + city” at random.",
-    "Below — why it’s useful, how to grow it with content, maps, ads, and PR, and how to count it in analytics. Brand doesn’t replace site semantics and tech; it’s a separate demand and resilience layer.",
+    "Branded traffic — people searching your name — signals trust and cushions algorithm swings. Grow it with content, maps, ads, and PR; measure it in analytics. Brand doesn’t replace on-site keywords and tech; it’s a separate demand layer. It doesn’t put commercial queries in TOP in a month.",
   ],
   faq: [
     {
-      q: "Is branded traffic the same as direct?",
+      q: "Is branded traffic the same as direct visits?",
       a: "Not only. Direct is typing a URL or using a bookmark. Brand is more often seen in search: queries with the brand name. Some direct visits are “branded” in meaning, but reports treat them as different cuts.",
     },
     {
-      q: "Does it guarantee TOP on commercial queries?",
+      q: "Does branded traffic guarantee TOP on commercial queries?",
       a: "No. A strong brand helps CTR and resilience, but non-brand ranks depend on pages, competition, and work. Prep — about a month; TOP for the core planned 2–6 months.",
     },
     {
-      q: "What brand share is normal?",
+      q: "What brand traffic share is normal?",
       a: "Depends on niche and stage. A known local player’s share is higher; a new site’s is lower. Watch the trend and brand conversion — not an “average % from an article”.",
     },
     {
-      q: "Do you need paid search on the brand?",
+      q: "Do you need paid search on the brand name?",
       a: "Often yes — as protection from competitors bidding on your name. Plus control of the snippet and landing.",
     },
     {
-      q: "How to tell brand from a transactional query?",
+      q: "How do you tell brand from a transactional query?",
       a: "There’s a name/trademark/stable brand product. “Buy windows Voronezh” isn’t brand; “Acme Windows Voronezh” is branded (or mixed).",
     },
     {
-      q: "Is SimilarWeb required?",
-      a: "No. For your own data, Metrica, Analytics, and Search Console / Webmaster are enough. SimilarWeb is a rough read of other sites.",
+      q: "Is SimilarWeb required to measure brand traffic?",
+      a: "No. For your own data, Metrika, Analytics, and Search Console / Webmaster are enough. SimilarWeb is a rough read of other sites.",
     },
     {
-      q: "Does the founder’s personal brand count?",
+      q: "Does the founder’s personal brand count as branded traffic?",
       a: "Yes, if people search the person’s name for the company/services. That’s an adjacent track — see the personal brand article.",
     },
     {
-      q: "Can you fake branded queries?",
+      q: "Can you fake branded search queries?",
       a: "No point and high risk. Brand growth is awareness and repeat touches — not bots on a key.",
     },
   ],
@@ -163,8 +163,8 @@ export const brendovyyTrafikEn: BlogPost = {
       title: "How to measure branded traffic",
       level: 2,
       paras: [
-        "In Yandex Metrica, look at search-phrase / source reports: a segment or filter on the name, transliteration, and common variants. Cross-check goals — brand conversion is usually higher.",
-        "In Google Search Console (Performance → query filter) set a list of brand variants. In Google Analytics — Organic Search + query filter if query data is available; otherwise lean on GSC + Metrica.",
+        "In Yandex Metrika, look at search-phrase / source reports: a segment or filter on the name, transliteration, and common variants. Cross-check goals — brand conversion is usually higher.",
+        "In Google Search Console (Performance → query filter) set a list of brand variants. In Google Analytics — Organic Search + query filter if query data is available; otherwise lean on GSC + Metrika.",
       ],
       lists: [
         {
@@ -179,7 +179,7 @@ export const brendovyyTrafikEn: BlogPost = {
       ],
       links: [
         {
-          label: "Goals in Metrica",
+          label: "Goals in Metrika",
           href: "/en/blog/metrika-tseli/",
         },
         {

@@ -5,33 +5,33 @@ export const metrikiReklamyEn: BlogPost = {
   slug: "metriki-reklamy",
   title: "Ad metrics: what to watch to know a campaign is working",
   date: "2019-10-15",
-  category: "Internet marketing",
+  category: "Paid search",
   cover: "/images/blog/metriki-reklamy/cover-en.webp",
   excerpt:
     "Which metrics to watch by funnel stage: CTR and CPC at the entrance, on-site behavior, CPA/CPO/CR at conversion, average order value and LTV — without judging ads by clicks alone.",
   lead: [
-    "Ads “work” when they lead to money or a business goal — not when there are “lots of impressions”. To see that, read metrics by funnel steps: interest → site → action → repeat purchases.",
-    "Below — a working set: CTR/CPC, bounce and engagement, CPA/CPO/CR, average order value and LTV. ROMI formulas and end-to-end CRM joins are in neighboring pieces; here — what to watch at each stage.",
+    "Ads “work” when they lead to money or a business goal — not when there are “lots of impressions.” To see that, read metrics by funnel steps: interest → site → action → repeat purchases.",
+    "A working set: CTR/CPC, bounce and engagement, CPA/CPO/CR, average order value and LTV (lifetime value). ROMI (return on marketing investment) formulas and end-to-end CRM joins are in related articles; start with the funnel read.",
   ],
   faq: [
     {
-      q: "Is watching only CTR enough?",
+      q: "Is watching only CTR enough for ads?",
       a: "No. High CTR with expensive empty clicks and zero leads is a failure. CTR is interest in the ad — not profit.",
     },
     {
-      q: "Are CPA and CPO the same?",
+      q: "Are CPA and CPO the same metric?",
       a: "Close, but not always. CPA is cost per target action (lead, install). CPO is cost per order. You define the goal.",
     },
     {
-      q: "Why does a high bounce kill “good” ads?",
+      q: "Why does a high bounce rate kill “good” ads?",
       a: "People click and leave at once: misclick, irrelevant offer, or a weak landing. Fixing the site is often cheaper than pouring more budget.",
     },
     {
-      q: "Compare display and search with one KPI?",
+      q: "Can I compare display and search with one KPI?",
       a: "Carefully. Display is more often reach and awareness; search is hot demand. Look at the channel’s role in the funnel and assisted paths.",
     },
     {
-      q: "Why LTV if you have CPA?",
+      q: "Why track LTV if I already have CPA?",
       a: "CPA says what acquisition cost. LTV says what a client brings over their life. Acceptable CPA rises when repeat purchases are strong.",
     },
     {
@@ -45,15 +45,15 @@ export const metrikiReklamyEn: BlogPost = {
       level: 2,
       paras: [
         "It’s handy to split the user path into reach, engagement, conversion, and loyalty. Each stage has its question: did they notice, get interested, take the target action, come back.",
-        "Without a frame it’s easy to optimize a “pretty” metric on the wrong floor — e.g. chase banner CTR while the lead form is broken.",
+        "Without a frame it’s easy to optimize a “pretty” metric at the wrong stage — e.g. chase banner CTR while the lead form is broken.",
       ],
       lists: [
         {
           intro: "Stages and focus:",
           items: [
-            "reach — meeting the offer;",
-            "engagement — click and interest on the site;",
-            "conversion — lead/order;",
+            "reach — meeting the offer",
+            "engagement — click and interest on the site",
+            "conversion — lead/order",
             "loyalty — repeat and LTV.",
           ],
         },
@@ -70,9 +70,9 @@ export const metrikiReklamyEn: BlogPost = {
         {
           intro: "If CTR dropped, check:",
           items: [
-            "audience and offer match;",
-            "creative readability;",
-            "seasonality and competitors;",
+            "audience and offer match",
+            "creative readability",
+            "seasonality and competitors",
             "landing match to the promise.",
           ],
         },

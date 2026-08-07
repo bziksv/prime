@@ -5,21 +5,21 @@ export const lidEn: BlogPost = {
   slug: "lid",
   title: "What a lead is: contact, quality, and the funnel",
   date: "2021-08-30",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/lid/cover-en.webp",
   excerpt:
     "A lead in marketing is a potential customer with a contact and interest: how it differs from audience and traffic, cold/warm/hot, capture channels, CPL, and why buying someone else’s lists is a mistake.",
   lead: [
     "A lead is a person or company that showed interest in the offer and left a way to connect: a form, a call, a chat, a signup with consent. Not a payment yet — but a reason for the next sales step.",
-    "Below — definition, “temperature,” channels, and metrics. We don’t cover buying others’ contacts without consent: that’s a legal, reputation, and deal-quality risk.",
+    "Definition, how warm the lead is, channels, and metrics are below. We don’t cover buying others’ contacts without consent: that’s a legal, reputation, and deal-quality risk.",
   ],
   faq: [
     {
-      q: "Are lead and target audience the same?",
+      q: "Are a lead and a target audience the same?",
       a: "No. Audience is who could fit. A lead is who already responded and gave a contact (or another target action by your rules).",
     },
     {
-      q: "Lead vs traffic?",
+      q: "How does a lead differ from traffic?",
       a: "Traffic is visits. A lead is a request/contact from those visits (or offline). You can have many clicks and zero leads.",
     },
     {
@@ -28,10 +28,10 @@ export const lidEn: BlogPost = {
     },
     {
       q: "What are MQL and SQL?",
-      a: "Common labels: marketing qualified — interest confirmed by marketing; sales qualified — sales accepted it. Thresholds differ by company.",
+      a: "Common labels: marketing qualified (MQL) — interest confirmed by marketing; sales qualified (SQL) — sales accepted it. Thresholds differ by company.",
     },
     {
-      q: "What is CPL?",
+      q: "What is CPL (cost per lead)?",
       a: "Cost per lead: cost to acquire one lead. Watch it with quality (share of qualified, conversion to deal), or cheap junk beats an expensive order.",
     },
     {
@@ -86,7 +86,7 @@ export const lidEn: BlogPost = {
       links: [
         {
           label: "Traffic exists, no leads",
-          href: "/blog/trafik-bez-lidov/",
+          href: "/en/blog/trafik-bez-lidov/",
         },
       ],
     },
@@ -111,11 +111,11 @@ export const lidEn: BlogPost = {
       links: [
         {
           label: "Capture forms",
-          href: "/blog/formy-zahvata/",
+          href: "/en/blog/formy-zahvata/",
         },
         {
           label: "Callback",
-          href: "/blog/obratnyy-zvonok/",
+          href: "/en/blog/obratnyy-zvonok/",
         },
       ],
     },
@@ -141,17 +141,17 @@ export const lidEn: BlogPost = {
       level: 2,
       paras: [
         "CPL = channel spend / leads by your definition. Compare channels only with the same lead definition.",
-        "Lead → deal conversion and average check show quality. Without a CRM it’s guesswork.",
-        "Marketing ROI/ROMI looks at money, not “pretty” requests. Process KPIs (leads, response speed) and cash payback are different levels.",
+        "Lead → deal conversion and average order value show quality. Without a CRM it’s guesswork.",
+        "Marketing ROI / ROMI (return on marketing investment) looks at money, not “pretty” requests. Process KPIs (leads, response speed) and cash payback are different levels.",
       ],
       links: [
         {
           label: "Marketing ROI",
-          href: "/blog/roi-marketinga/",
+          href: "/en/blog/roi-marketinga/",
         },
         {
           label: "End-to-end analytics",
-          href: "/blog/skvoznaya-analitika/",
+          href: "/en/blog/skvoznaya-analitika/",
         },
       ],
     },

@@ -11,12 +11,12 @@ export const runetEn: BlogPost = {
     "Runet is the Russian-language / Russia-facing segment of the internet: .ru and .рф domains, Cyrillic content, search and service ecosystems — traits without outdated stats and stereotypes.",
   lead: [
     "Runet usually means the Russian and, more broadly, Russian-language segment of the internet: content in Russian, familiar domains (.ru, .рф, partly .su), and local service ecosystems. The border isn’t rigid: a .com site can still be “about Runet” if the audience and language are Russian.",
-    "Below — segment traits that matter for marketing and product. We don’t copy “millions of sites” figures or everyday stereotypes from 2020 roundups as facts for today.",
+    "Here are the segment traits that matter for marketing and product. We don’t recycle “millions of sites” figures or 2020 stereotypes as today’s facts.",
   ],
   faq: [
     {
       q: "Is Runet only the .ru domain?",
-      a: "No. It’s more about language, audience, and familiar platforms. You’ll see .рф, .com, regional TLDs, and services without a classic “own site.”",
+      a: "No. It’s more about language, audience, and familiar platforms. You’ll see .рф, .com, regional TLDs, and services without a classic website of their own.",
     },
     {
       q: "How does it differ from the “global” internet?",
@@ -81,9 +81,9 @@ export const runetEn: BlogPost = {
       title: "Content and services",
       level: 2,
       paras: [
-        "Beyond websites the segment includes mail, clouds, streaming, marketplaces, government services, and apps — “the internet” isn’t just a storefront on hosting.",
+        "Beyond websites the segment includes mail, clouds, streaming, marketplaces, government services, and apps — “the internet” isn’t just a site on hosting.",
         "Portal ecosystems (search + mail + news + services) were historically strong. Today users often live in apps, but a “start with Yandex/search” habit remains for part of the audience.",
-        "For SEO and ads that means: Russian semantics, snippets for local SERPs, and separate hypotheses for Yandex and Google.",
+        "For SEO and ads that means: Russian keywords, snippets for local SERPs, and separate hypotheses for Yandex and Google.",
       ],
       lists: [],
       links: [
@@ -93,7 +93,7 @@ export const runetEn: BlogPost = {
         },
         {
           label: "Social media for business",
-          href: "/blog/sotsseti-dlya-biznesa/",
+          href: "/en/blog/sotsseti-dlya-biznesa/",
         },
       ],
     },
@@ -101,7 +101,7 @@ export const runetEn: BlogPost = {
       title: "Search and advertising",
       level: 2,
       paras: [
-        "Local search engines and ad cabinets are tuned for language, maps, and regional commercial factors. A global “US SEO” template without adaptation often underperforms.",
+        "Local search engines and ad accounts are tuned for language, maps, and regional commercial factors. A global “US SEO” template without adaptation often underperforms.",
         "Don’t lean on myths like “women only search in translit” — that’s a stereotype from old roundups, not a research method. Use your Wordstat/GSC and surveys.",
       ],
       lists: [],
@@ -114,11 +114,11 @@ export const runetEn: BlogPost = {
       links: [
         {
           label: "Yandex Wordstat",
-          href: "/blog/wordstat/",
+          href: "/en/blog/wordstat/",
         },
         {
           label: "SEO for Yandex and Google",
-          href: "/blog/seo-yandex-google/",
+          href: "/en/blog/seo-yandex-google/",
         },
       ],
     },
@@ -132,7 +132,7 @@ export const runetEn: BlogPost = {
       lists: [],
     },
     {
-      title: "What to remember",
+      title: "Key takeaways",
       level: 2,
       paras: [
         "Runet is about audience and language more than one domain.",
@@ -143,7 +143,7 @@ export const runetEn: BlogPost = {
     },
   ],
   closing: [
-    "Define who you treat as your “Runet audience” (geo, language, channels) and check site and ads against that contour — more useful than arguing over the word “Runet.”",
+    "Define who you treat as your “Runet audience” (geo, language, channels) and check site and ads against that audience frame — more useful than arguing over the word “Runet.”",
   ],
   related: [
     "domen-rf",

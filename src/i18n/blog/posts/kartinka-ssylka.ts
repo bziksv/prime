@@ -11,7 +11,7 @@ export const kartinkaSsylkaEn: BlogPost = {
     "How to wrap an image in a link in HTML and an editor, why alt matters, why your own files beat hotlinking, and how not to kill page speed with banners.",
   lead: [
     "An image link is a picture that leads to a URL on click: a banner, a header logo, a gallery preview. In HTML that’s `<a href=\"…\"><img …></a>`.",
-    "Below — when to do it, how to mark up the code, which attributes matter, and how an image link differs from a text link for SEO and UX. Link types basics are in sibling articles.",
+    "Use it when the visual is the affordance (logo, banner, preview); mark it up cleanly and don’t skip alt. Link-type basics are nearby — this is the image-link pattern for SEO and UX.",
   ],
   faq: [
     {

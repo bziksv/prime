@@ -302,14 +302,14 @@ const seoEn: SeoContent = {
   breadcrumbHome: "Home",
   breadcrumbCurrent: "Website SEO",
   menuLabel: "Menu",
-  ctaTop: "Submit a request",
+  ctaTop: "Talk to us",
   brandBefore: "PRIM",
   brandAccent: "E",
   kicker: "Pay per TOP-10 · no retainer fluff",
   heroTitleBefore: "Website SEO paid ",
   heroTitleAccent: "for TOP-10 results",
   heroLead:
-    "We grow Google TOP-10 visibility for the keywords that matter. You pay for phrases that actually stick in the SERP.",
+    "We grow Google TOP-10 visibility for the keywords that drive your business. You pay only for search terms that hold the first page.",
   heroCtaPrimary: "Get a quote",
   heroCtaSecondary: "See packages",
   heroScroll: "Scroll",
@@ -333,41 +333,42 @@ const seoEn: SeoContent = {
     { t: "Since 2015", e: "in market" },
   ],
   chapters: [
-    { id: "about", label: "Idea" },
+    { id: "about", label: "Approach" },
     { id: "work", label: "Work" },
     { id: "result", label: "Results" },
     { id: "start", label: "Start" },
     { id: "pricing", label: "Pricing" },
-    { id: "advantages", label: "Pros" },
+    { id: "advantages", label: "Why us" },
     { id: "faq", label: "FAQ" },
-    { id: "seo-cta", label: "Request" },
+    { id: "seo-cta", label: "Contact" },
   ],
-  modelTitle: "Not guesswork — project delivery",
+  modelTitle: "Not guesswork — a delivery model",
   modelLead:
-    "SEO is a piece of digital marketing: with a clear process you get better rankings, traffic and sales. Larger sites need deeper work. Here’s exactly what we do.",
+    "SEO is part of digital marketing. With a clear process you get better rankings, more traffic, and more sales. Larger sites need deeper work. Here’s exactly how we run it.",
   modelMetrics: [
     { value: "TOP-10", label: "pay for ranked phrases" },
     { value: "4 mo.", label: "starter package period" },
     { value: "since 2015", label: "model in practice" },
   ],
-  aboutTitle: "What it is and why it matters",
+  aboutTitle: "How we approach SEO",
   aboutLead:
-    "On-page and off-page work aimed at TOP-10 — more visits, leads and calls. For broader reach we often pair SEO with Google Ads.",
+    "On-page and off-page work aimed at TOP-10 — more visits, leads, and calls. For broader reach we often pair SEO with Google Ads.",
   aboutCopy: [
-    "Many treat SEO as magic: you pay, someone “tweaks things,” and rankings come and go. In practice it’s a method: audit, keyword research, on-site fixes, authority work and ongoing rank tracking.",
-    "We don’t push keywords nobody searches. The core is demand that brings customers — not vanity phrases for a pretty report.",
+    "A lot of teams treat SEO like magic: you pay, someone “tweaks things,” and rankings drift in and out. In reality it’s a method — audit, keyword research, on-site fixes, authority work, and steady rank tracking.",
+    "We don’t chase keywords nobody searches. The focus is demand that brings customers — not vanity terms padded into a pretty report.",
   ],
-  workTitle: "What the work includes",
-  workLead: "Four blocks — from goals and audit to on-page and off-page optimization.",
+  workTitle: "What’s included",
+  workLead:
+    "Four stages, from goals and audit through on-page and off-page work.",
   pillarsAria: "SEO stages",
   pillars: [
     {
       id: "analytics",
       title: "Analytics",
-      lead: "Goals, competitors, budget and keyword core — before the first on-site edit.",
+      lead: "Goals, competitors, budget, and keyword research — locked before the first on-site edit.",
       items: [
-        "Define goals and what drives them",
-        "Competitor analysis: links, queries, traffic",
+        "Define goals and what actually drives them",
+        "Competitor analysis: links, search terms, traffic",
         "Campaign budget estimate",
         "Keyword research with demand and competition scoring",
         "Google ranking analysis for your niche",
@@ -376,20 +377,20 @@ const seoEn: SeoContent = {
     {
       id: "audit",
       title: "Audit",
-      lead: "First we find what blocks rankings — then we run promotion.",
+      lead: "First we find what holds rankings back — then we start the SEO work.",
       items: [
         "SEO review of on-page and off-page factors",
         "Technical audit: indexing and speed issues",
-        "Usability review — friction for potential buyers",
+        "Usability review — friction that keeps buyers from converting",
       ],
     },
     {
       id: "internal",
       title: "On-page optimization",
-      lead: "Pages, copy, code and analytics — so Google and people read the site the same way.",
+      lead: "Pages, copy, code, and analytics — so Google and people read the site the same way.",
       items: [
-        "Keyword clustering and entry points",
-        "Content optimized for target queries",
+        "Keyword clustering and landing-page mapping",
+        "Content optimized for target search terms",
         "Internal linking across relevant pages",
         "Code and speed improvements",
         "robots.txt, responsive layout, Google Analytics",
@@ -398,7 +399,7 @@ const seoEn: SeoContent = {
     {
       id: "external",
       title: "Off-page optimization",
-      lead: "Careful authority growth: links, articles, directories and maps.",
+      lead: "Careful authority growth: links, articles, directories, and maps.",
       items: [
         "Competitor backlink profile audit",
         "Natural link-building strategy",
@@ -409,50 +410,50 @@ const seoEn: SeoContent = {
     },
   ],
   resultTitle: "What you get from SEO",
-  resultLead: "Three clear outcomes — not “visibility for visibility’s sake.”",
+  resultLead: "Three clear outcomes — not visibility for its own sake.",
   outcomes: [
     {
       title: "More sales",
-      text: "A site in TOP-10 meaningfully increases potential buyers from search.",
+      text: "A site in TOP-10 meaningfully increases buyers coming from search.",
     },
     {
       title: "Traffic growth",
-      text: "Brand awareness plus new customers who were already looking for what you sell.",
+      text: "Stronger brand presence plus new customers already looking for what you sell.",
     },
     {
       title: "Audience focus",
-      text: "You get interested visitors — not random traffic for a vanity report.",
+      text: "You get interested visitors — not random traffic padded into a vanity report.",
     },
   ],
   startTitle: "How we start",
-  startLead: "Four steps — from request to a commercial proposal.",
+  startLead: "Four steps from first conversation to a clear proposal.",
   steps: [
     {
       n: "01",
-      title: "Request",
-      text: "Submit the form — we start with a conversation about the goal.",
+      title: "Talk to us",
+      text: "Fill out the form — we start with a conversation about the goal.",
     },
     {
       n: "02",
       title: "Site and demand review",
-      text: "We check technical readiness and search demand. Not everything should be promoted — we’ll say so plainly.",
+      text: "We check technical readiness and search demand. Not every keyword is worth chasing — we’ll say so plainly.",
     },
     {
       n: "03",
       title: "Priorities and scope",
-      text: "We set goals, directions and the order of work.",
+      text: "We set goals, focus areas, and the order of work.",
     },
     {
       n: "04",
       title: "Proposal",
-      text: "We lock actions that solve your needs — with clear economics.",
+      text: "We lock a plan that solves the need — with clear economics.",
     },
   ],
   pricingTitle: "Pricing",
   pricingLead:
-    "Quotes are individual: niche and competition in your market. A local service business and industrial B2B need different budgets. Below — starting package ranges.",
+    "Quotes are custom: niche and competition in your market. A local service business and industrial B2B need different budgets. Starting package ranges are below.",
   priceNote:
-    "* First 4 months on the package rate. After that — pay for days phrases stay in TOP-10.",
+    "* First 4 months on the package rate. After that, you pay for the days phrases stay in TOP-10.",
   regionsAria: "Market tier",
   regions: [
     { id: "region", label: "Local markets" },
@@ -460,12 +461,12 @@ const seoEn: SeoContent = {
     { id: "spb", label: "Mid-tier metros" },
   ],
   tariffs: [
-    enTariff(seoTariffs[0], { region: 160, msk: 280, spb: 220 }, "Per ads package"),
-    enTariff(seoTariffs[1], { region: 210, msk: 390, spb: 330 }, "Per ads package"),
-    enTariff(seoTariffs[2], { region: 280, msk: 500, spb: 450 }, "Per ads package"),
-    enTariff(seoTariffs[3], { region: 400, msk: 800, spb: 600 }, "1 ad system included"),
-    enTariff(seoTariffs[4], { region: 540, msk: 1070, spb: 800 }, "2 ad systems included"),
-    enTariff(seoTariffs[5], { region: 670, msk: 1330, spb: 1000 }, "3 ad systems included"),
+    enTariff(seoTariffs[0], { region: 480, msk: 840, spb: 660 }, "Per ads package"),
+    enTariff(seoTariffs[1], { region: 630, msk: 1170, spb: 990 }, "Per ads package"),
+    enTariff(seoTariffs[2], { region: 840, msk: 1500, spb: 1350 }, "Per ads package"),
+    enTariff(seoTariffs[3], { region: 1200, msk: 2400, spb: 1800 }, "1 ad system included"),
+    enTariff(seoTariffs[4], { region: 1620, msk: 3210, spb: 2400 }, "2 ad systems included"),
+    enTariff(seoTariffs[5], { region: 2010, msk: 3990, spb: 3000 }, "3 ad systems included"),
   ],
   tariffFeatured: "Popular",
   tariffPhrasesSuffix: "phrases",
@@ -474,47 +475,47 @@ const seoEn: SeoContent = {
   tariffContent: "Content",
   tariffTech: "Support",
   tariffAds: "Ads",
-  tariffCta: "Request this package",
+  tariffCta: "Get this package",
   plainSpeak: [
     {
-      jargon: "Keyword core",
+      jargon: "Keyword set",
       plain:
-        "The list of phrases people actually search. We build it with demand scoring — no junk keys “for the report.”",
+        "The list of search terms people actually type. We build it with demand scoring — no junk keywords “for the report.”",
     },
     {
       jargon: "On-page optimization",
       plain:
-        "We fix pages, copy, speed and structure so Google understands what the site is about.",
+        "We fix pages, copy, speed, and structure so Google understands what the site is about.",
     },
     {
       jargon: "Pay for TOP-10",
       plain:
-        "After the starter period you pay for days a phrase holds the first page. No position — no charge for it.",
+        "After the starter period you pay for the days a phrase holds the first page. No position — no charge for it.",
     },
   ],
   advantagesTitle: "Why teams choose us",
   advantagesLead:
-    "The goal is maximum return on budget. Cross-niche experience helps deliver results without overspend.",
+    "The goal is maximum return on budget. Cross-niche experience helps us deliver without overspend.",
   advantages: [
     {
       title: "Pay for results",
-      text: "You pay for queries that are actually in TOP-10 — by day, no rounding and no empty retainer.",
+      text: "You pay for search terms that are actually in TOP-10 — by day, no rounding and no empty retainer.",
     },
     {
       title: "Site safety",
-      text: "Cloud backups: if needed we can restore the site on another host.",
+      text: "Cloud backups: if needed, we can restore the site on another host.",
     },
     {
       title: "Straight talk",
-      text: "Simple contracts, clear reports, interest in long-term growth — not a one-off invoice.",
+      text: "Simple contracts, clear reports, and a stake in long-term growth — not a one-off invoice.",
     },
     {
-      title: "Working queries only",
-      text: "We don’t sell phrases nobody searches. TOP work goes to keys that bring customers.",
+      title: "Demand-backed keywords only",
+      text: "We don’t sell phrases nobody searches. TOP work goes to keywords that bring customers.",
     },
     {
       title: "Project support",
-      text: "Content and technical support: edits, copy and small feature fixes within the package.",
+      text: "Content and technical support: edits, copy, and small feature fixes within the package.",
     },
   ],
   showCases: false,
@@ -526,23 +527,23 @@ const seoEn: SeoContent = {
   nos: [
     {
       title: "We don’t mix prep with TOP-10",
-      text: "In about a month we usually prepare the site for promotion. Core phrases reaching TOP-10 is planned over 2–6 months after work starts, with month-to-month gains.",
+      text: "In about a month we usually prepare the site and get SEO underway. Core phrases reaching TOP-10 is planned over 2–6 months after work starts, with month-to-month gains.",
     },
     {
       title: "We don’t sell junk keywords",
-      text: "The core gets queries with demand and business meaning — not report fillers nobody searches.",
+      text: "The keyword set gets search terms with real demand and business meaning — not report fillers nobody searches.",
     },
     {
       title: "No “pay for process” retainer",
-      text: "After the starter period you pay for days a phrase is actually in TOP-10. No position — no charge for it.",
+      text: "After the starter period you pay for the days a phrase is actually in TOP-10. No position — no charge for it.",
     },
   ],
   faqTitle: "FAQ",
-  faqLead: "Pay-for-results billing, TOP timelines, traffic SEO and packages.",
+  faqLead: "Pay-for-results billing, TOP timelines, traffic SEO, and packages.",
   faq: [
     {
       q: "What does pay-for-TOP-10 mean?",
-      a: "After the package starter period you pay for days an agreed phrase holds the first page. No position for that phrase — no charge for it. No “hospital average” rounding.",
+      a: "After the package starter period you pay for the days an agreed phrase holds the first page. No position for that phrase — no charge for it. No blended averages that hide the misses.",
     },
     {
       q: "How long to reach TOP-10?",
@@ -550,7 +551,7 @@ const seoEn: SeoContent = {
     },
     {
       q: "How is this different from traffic-based SEO?",
-      a: "Here you pay for TOP-10 positions on agreed phrases. In a traffic model you pay for growth in search visits across a keyword list. Choice depends on the goal: precise queries or broader reach.",
+      a: "Here you pay for TOP-10 positions on agreed phrases. In a traffic model you pay for growth in search visits across a keyword list. Choice depends on the goal: precise search terms or broader reach.",
     },
     {
       q: "What’s in the starter package period?",
@@ -558,12 +559,12 @@ const seoEn: SeoContent = {
     },
     {
       q: "What drives the price?",
-      a: "Market competition tier and core size (packages T-50…T-500). Packages include support, backups and on-page/off-page work within the plan.",
+      a: "Market competition tier and keyword-set size (packages T-50…T-500). Packages include support, backups, and on-page/off-page work within the plan.",
     },
   ],
   ctaTitle: "Need customers from Google Search?",
   ctaLead:
-    "You have a site — and you need leads. Leave your contacts: we’ll review the niche, say what’s realistically promotable, and send a quote.",
+    "You have a site — and you need leads. Share your details: we’ll review the niche, tell you what’s realistically worth ranking for, and send a quote.",
   ctaPoints: [
     "Niche and competition review for your market",
     "Prep ~1 month · TOP planned over 2–6 months",
@@ -582,8 +583,8 @@ const seoEn: SeoContent = {
   formMessage: "Niche and goal — briefly",
   formAgreeBefore: "I agree to personal data processing under our",
   formAgreePolicy: "privacy policy",
-  formSubmit: "Submit request",
-  formSuccess: "Thanks! Your SEO request is in — we’ll get back to you.",
+  formSubmit: "Get a quote",
+  formSuccess: "Thanks! Your SEO inquiry is in — we’ll get back to you.",
   formSource: "en-seo",
   footerBrand: "PRIME",
   footerTagline: "Website SEO · pay for TOP-10 results",

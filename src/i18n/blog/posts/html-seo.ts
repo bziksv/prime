@@ -10,20 +10,20 @@ export const htmlSeoEn: BlogPost = {
   excerpt:
     "How HTML helps SEO: document structure, title and meta, headings, links, and code validity — without the myth that “broken HTML = a ban,” plus links to related guides.",
   lead: [
-    "HTML is the page markup language: tags tell browsers and bots where the heading, text, link, and image are. CSS handles presentation. For SEO, clear structure matters — not a “secret TOP tag.”",
-    "Below — why an SEO specialist needs basic HTML, which nodes to check in `<head>` and `<body>`, and how validity really helps. We don’t copy hard “one code error = deindexed”: bots are tolerant, but messy markup hurts people and parsing.",
+    "HTML is the page markup language: tags tell browsers and bots where the heading, text, link, and image are. CSS handles presentation. For SEO, clear structure matters — not a “secret ranking tag.”",
+    "An SEO specialist still needs basic HTML: what lives in `<head>` and `<body>`, and how validity really helps. We don’t claim “one code error = deindexed”: bots are tolerant, but messy markup hurts UX and snippets.",
   ],
   faq: [
     {
-      q: "Must SEO learn HTML from scratch?",
+      q: "Must an SEO learn HTML from scratch?",
       a: "The basics — yes: head/body, title, meta, h1–h3, a, img, lists. Deep frontend isn’t required if you have a developer.",
     },
     {
       q: "Does CSS affect rankings?",
-      a: "Indirectly: readability, CLS, mobile UX. Pretty gradients alone aren’t a TOP factor. Don’t hide key text only in an image with no alternative.",
+      a: "Indirectly: readability, CLS, mobile UX. Pretty gradients alone aren’t a ranking factor. Don’t hide key text only in an image with no alternative.",
     },
     {
-      q: "Invalid HTML = a filter?",
+      q: "Does invalid HTML mean a filter?",
       a: "Not an automatic sentence. But broken layout breaks snippets, accessibility, and sometimes indexable text. Fix what’s critical.",
     },
     {
@@ -39,7 +39,7 @@ export const htmlSeoEn: BlogPost = {
       a: "Structured data usually lives as JSON-LD or microdata inside HTML. Separate topic; HTML is the host page.",
     },
     {
-      q: "Is lang on html required?",
+      q: "Is the lang attribute on html required?",
       a: "Desirable: helps the browser and accessibility. Not an SEO “magic button,” but good hygiene.",
     },
     {
@@ -69,10 +69,10 @@ export const htmlSeoEn: BlogPost = {
         {
           intro: "Minimum for a money page:",
           items: [
-            "one meaningful H1;",
-            "a unique title;",
-            "description that matches the URL;",
-            "text in HTML, not only on a banner;",
+            "one meaningful H1",
+            "a unique title",
+            "description that matches the URL",
+            "text in HTML, not only on a banner",
             "working internal links.",
           ],
         },
@@ -84,7 +84,7 @@ export const htmlSeoEn: BlogPost = {
         },
         {
           label: "The H1 tag",
-          href: "/blog/teg-h1/",
+          href: "/en/blog/teg-h1/",
         },
       ],
     },
@@ -100,15 +100,15 @@ export const htmlSeoEn: BlogPost = {
       links: [
         {
           label: "Meta description",
-          href: "/blog/meta-description/",
+          href: "/en/blog/meta-description/",
         },
         {
           label: "Title length",
-          href: "/blog/dlina-title/",
+          href: "/en/blog/dlina-title/",
         },
         {
           label: "Canonical tag",
-          href: "/blog/kanonicheskiy-teg/",
+          href: "/en/blog/kanonicheskiy-teg/",
         },
       ],
     },
@@ -123,13 +123,13 @@ export const htmlSeoEn: BlogPost = {
       lists: [],
       notes: [
         {
-          title: "A validator ≠ TOP rankings",
-          text: "An HTML validator run is useful hygiene. A green check doesn’t guarantee positions; critical red structure errors are worth fixing.",
+          title: "A validator ≠ rankings",
+          text: "An HTML validator run is useful hygiene. A green check doesn’t guarantee positions; critical red structure errors are worth fixing. Prep is weeks of work; core TOP growth is planned for 2–6 months — not “fixed tags, ranked tomorrow.”",
         },
       ],
     },
     {
-      title: "What to remember",
+      title: "Key takeaways",
       level: 2,
       paras: [
         "HTML sets meaning and structure for people and bots.",

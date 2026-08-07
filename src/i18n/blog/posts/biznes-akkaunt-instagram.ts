@@ -11,31 +11,31 @@ export const biznesAkkauntInstagramEn: BlogPost = {
     "How an Instagram business or professional profile differs from a personal one: insights, contacts, ads. How to switch account type and what to avoid.",
   lead: [
     "For commerce on Instagram you usually need a business or professional profile: insights, contact buttons, access to ad tools. A personal blog without sales can stay regular.",
-    "Menu item names change (sometimes “professional account”). Below — what the settings mean and a checklist, not clickbait based on 2020 screenshots.",
+    "Menu item names change (sometimes “professional account”). Below: what the settings mean and a checklist — not clickbait based on 2020 screenshots.",
   ],
   legalNotice: {
     title: "Dear readers!",
-    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+    text: "This article is for information only and is not an invitation to use the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
-      q: "Are business and professional the same?",
+      q: "Are Instagram business and professional accounts the same?",
       a: "In essence it’s a mode for creators and companies with expanded insights and tools. Check exact labels in account settings.",
     },
     {
-      q: "Is a Facebook link required?",
+      q: "Is a Facebook Page link required?",
       a: "It used to be often required. Now it depends on region and goals (especially ads). If the step exists — follow the in-app wizard; if not — set up what’s available.",
     },
     {
-      q: "What does business mode add over personal?",
+      q: "What does business mode add over a personal account?",
       a: "Insights, header contacts, a category, and easier ways to run and analyze promotion.",
     },
     {
-      q: "Can you switch back to personal?",
+      q: "Can you switch back to a personal account?",
       a: "Usually yes, via account type settings. Some insights data may become unavailable.",
     },
     {
-      q: "Is a business account enough without design?",
+      q: "Is a business account enough without profile design?",
       a: "No. Account type is the base; offer, avatar, and feed style still decide whether someone stays. See the profile design article.",
     },
   ],
@@ -60,7 +60,7 @@ export const biznesAkkauntInstagramEn: BlogPost = {
       ],
       links: [
         {
-          label: "Instagram page design",
+          label: "Instagram profile design",
           href: "/en/blog/oformlenie-stranicy-instagram/",
         },
       ],
@@ -103,7 +103,7 @@ export const biznesAkkauntInstagramEn: BlogPost = {
             "a category close to the offer;",
             "contact buttons (call, email, DM, address);",
             "a current website or landing;",
-            "one tone with the About block.",
+            "one tone with the bio.",
           ],
         },
       ],

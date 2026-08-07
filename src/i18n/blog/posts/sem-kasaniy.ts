@@ -5,13 +5,13 @@ export const semKasaniyEn: BlogPost = {
   slug: "sem-kasaniy",
   title: "The 7-touch theory: where and how to reach the audience",
   date: "2019-12-17",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/sem-kasaniy/cover-en.webp",
   excerpt:
     "Why one channel isn’t enough: a user’s digital day, the 7-touch hypothesis, and how to build a chain of display, search, social, and retarget to a lead — without a magical “exactly seven”.",
   lead: [
     "In a day a person touches dozens of screens: messengers, email, search, video, social, niche sites. Pure search takes a small share of online time — one “perfect” ad is often not enough for an unknown brand to be bought on the first click.",
-    "The 7-touch hypothesis says: several meaningful interactions are needed before the goal action. It’s a guide, not a law of physics. Below — where to catch attention through the day and how to link channels. Who your audience is — in a separate article; here — how to reach them.",
+    "The 7-touch hypothesis says several meaningful interactions are needed before the goal action. It’s a guide, not a law of physics. Here’s where to catch attention through the day and how to link channels. Who your audience is belongs in a separate article; here we focus on how to reach them.",
   ],
   faq: [
     {
@@ -27,7 +27,7 @@ export const semKasaniyEn: BlogPost = {
       a: "No. Time share in search is small, but intent is high. Search often closes the deal after warming in other channels.",
     },
     {
-      q: "Where to start the mix?",
+      q: "Where should I start the channel mix?",
       a: "With offer and tracking: UTMs, goals, retarget segments. Then 2–3 channels for the audience — not “every platform at once”.",
     },
     {
@@ -35,7 +35,7 @@ export const semKasaniyEn: BlogPost = {
       a: "As an expansion of a warm seed — yes. As the only channel without offer and landing — rarely.",
     },
     {
-      q: "How do you measure synergy?",
+      q: "How do I measure synergy?",
       a: "Look at assisted conversions, paths, and CPA before/after the channel mix — not only last click in one account.",
     },
   ],
@@ -108,7 +108,7 @@ export const semKasaniyEn: BlogPost = {
           href: "/en/blog/tochki-kontakta/",
         },
         {
-          label: "Hunt’s ladder",
+          label: "Hunt’s hierarchy",
           href: "/en/blog/lestnitsa-hanta/",
         },
       ],

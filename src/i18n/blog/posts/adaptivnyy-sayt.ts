@@ -3,63 +3,63 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for adaptivnyy-sayt — same structure as RU JSON. */
 export const adaptivnyySaytEn: BlogPost = {
   slug: "adaptivnyy-sayt",
-  title: "Adapting a site to screen size: why and how",
+  title: "Making a site work across screen sizes: why and how",
   date: "2020-12-08",
   category: "SEO",
   cover: "/images/blog/adaptivnyy-sayt/cover-en.webp",
   excerpt:
-    "What a responsive site is, how it differs from a separate mobile version, why it matters for SEO and UX, adaptation stages, and how to test across screens.",
+    "What a responsive site is, how it differs from a separate mobile version, why it matters for SEO and UX, the build stages, and how to test across screens.",
   lead: [
-    "Most visits come from smartphones: people browse the catalog on a phone and often submit a lead there too. A site that “floats” or needs horizontal scrolling loses both users and quality signals for search.",
-    "Below — what screen adaptation means, how responsive differs from a separate m-site, business and SEO goals, process, and checks. Layout as a craft is a related article; here the focus is mobility.",
+    "Most visits come from smartphones: people browse the catalog on a phone and often send a lead from there too. A site that “floats” or needs horizontal scrolling loses both users and quality signals for search.",
+    "Responsive design keeps one URL and lets the layout adjust to width — unlike a separate m-site. For business that means conversion on a small screen; for SEO, mobile-first indexing expects a usable phone experience. Layout craft is a related article; here the focus is mobile UX.",
   ],
   faq: [
     {
-      q: "Are responsive and a mobile version the same?",
-      a: "Not always. Responsive means one URL and markup that adjusts to width. A “mobile version” often means a separate subdomain/template (m.) — less often the default strategy today.",
+      q: "Are responsive design and a mobile version the same?",
+      a: "Not always. Responsive means one URL and markup that adjusts to width. A “mobile version” often means a separate subdomain or template (m.) — less often the default strategy today.",
     },
     {
-      q: "Is viewport required?",
-      a: "Yes for normal phone scaling: meta viewport in `<head>`. Without it the page is often a tiny desktop thumbnail.",
+      q: "Is a viewport meta tag required?",
+      a: "Yes for normal phone scaling: meta viewport in `<head>`. Without it the page often renders as a tiny desktop thumbnail.",
     },
     {
-      q: "Does responsive affect SEO?",
+      q: "Does responsive design affect SEO?",
       a: "Yes — indirectly and strongly: usability, speed, bounce, mobile-first indexing. A broken mobile view risks visibility and conversion.",
     },
     {
-      q: "Is “shrinking” desktop in CSS enough?",
-      a: "No. You need content priority, large tap targets, readable type, usable forms, sometimes a different block order.",
+      q: "Is shrinking the desktop layout in CSS enough?",
+      a: "No. You need content priority, large tap targets, readable type, usable forms, and sometimes a different block order.",
     },
     {
       q: "Do you need AMP?",
       a: "Not required for most commercial sites. First get responsive and speed right; AMP is a separate choice for narrow cases.",
     },
     {
-      q: "How to check responsive quickly?",
-      a: "DevTools device mode + real phones, PageSpeed/Lighthouse mobile, review key templates (home, category, product, form).",
+      q: "How do you check responsive design quickly?",
+      a: "DevTools device mode plus real phones, PageSpeed/Lighthouse mobile, and a pass over key templates (home, category, product, form).",
     },
     {
       q: "Do people still build a separate m.site?",
-      a: "Sometimes in legacy. Downsides: duplicate URLs, redirects, content drift. Prefer responsive on one canonical.",
+      a: "Sometimes in legacy setups. Downsides: duplicate URLs, redirects, content drift. Prefer responsive on one canonical.",
     },
     {
-      q: "Does responsive mean a fast site?",
-      a: "Not automatically. Heavy images and scripts kill mobile UX even with a “pretty” grid. Compress media and cut excess.",
+      q: "Does responsive design mean a fast site?",
+      a: "Not automatically. Heavy images and scripts kill mobile UX even with a clean grid. Compress media and cut excess.",
     },
   ],
   sections: [
     {
-      title: "What mobile adaptation means",
+      title: "What making the site work on mobile means",
       level: 2,
       paras: [
-        "Screen-size adaptation means the layout and UI stay readable and usable on phone, tablet, and desktop. Usually that’s responsive: one URL, CSS media queries / a modern grid, flexible images.",
-        "The goal isn’t “fit everything tiny” — it’s to keep the journey: find a service/product → understand the offer → call or submit without fighting the menu and form.",
+        "Screen-size fit means the layout and UI stay readable and usable on phone, tablet, and desktop. Usually that’s responsive: one URL, CSS media queries or a modern grid, flexible images.",
+        "The goal isn’t “fit everything tiny” — it’s to keep the journey: find a service or product → understand the offer → call or send a request without fighting the menu and form.",
       ],
       lists: [
         {
-          intro: "Signs of solid responsive:",
+          intro: "Signs of solid responsive design:",
           items: [
-            "no horizontal scroll “to nowhere”;",
+            "no pointless horizontal scrolling;",
             "text readable without zoom;",
             "buttons and links easy to tap;",
             "menus and filters open predictably;",
@@ -78,12 +78,12 @@ export const adaptivnyySaytEn: BlogPost = {
       title: "Why it matters for business and SEO",
       level: 2,
       paras: [
-        "Commerce: part of the purchase path starts on mobile. If the product page or form is awkward — the lead goes to a competitor with decent UX.",
-        "Search has long judged mobile experience (mobile-first). A slow or broken mobile page hurts crawl and behavior more than “one more keyword in H1”.",
+        "Commerce: part of the purchase path starts on mobile. If the product page or form is awkward, the lead goes to a competitor with decent UX.",
+        "Search has long judged mobile experience (mobile-first). A slow or broken mobile page hurts crawl and behavior more than “one more keyword in H1.”",
       ],
       lists: [
         {
-          intro: "Adaptation goals:",
+          intro: "Goals of responsive design:",
           items: [
             "don’t lose phone traffic;",
             "keep conversion on a small screen;",
@@ -103,8 +103,8 @@ export const adaptivnyySaytEn: BlogPost = {
       title: "Responsive or a separate mobile version",
       level: 2,
       paras: [
-        "Responsive site: one address; content and SEO signals don’t multiply. A separate mobile version (often `m.`) — a second template and drift risk: different copy, forgotten noindex, redirect chains.",
-        "A separate m. rarely makes sense (heavy legacy, special apps). For a new project and most CMS — responsive + lighter blocks if needed, not a second site.",
+        "Responsive site: one address; content and SEO signals don’t multiply. A separate mobile version (often `m.`) means a second template and drift risk — different copy, forgotten noindex, redirect chains.",
+        "A separate m. rarely makes sense (heavy legacy, special apps). For a new project and most CMS setups, use responsive plus lighter blocks if needed — not a second site.",
       ],
       lists: [
         {
@@ -141,10 +141,10 @@ export const adaptivnyySaytEn: BlogPost = {
       ],
     },
     {
-      title: "How sites are adapted in practice",
+      title: "How teams build responsive in practice",
       level: 2,
       paras: [
-        "Start with priority templates: home, key landings, catalog, product, cart/form, blog. Set breakpoints, rebuild grid, type, spacing, nav (burger isn’t a dump of the whole desktop).",
+        "Start with priority templates: home, key landings, catalog, product, cart/form, blog. Set breakpoints, rebuild grid, type, spacing, nav (a burger isn’t a dump of the whole desktop menu).",
         "Images — srcset/sizes, compression, don’t load desktop 4K on 360px. Tables and wide blocks — container scroll or a simplified view without breaking the whole layout.",
       ],
       lists: [
@@ -168,11 +168,11 @@ export const adaptivnyySaytEn: BlogPost = {
       ],
     },
     {
-      title: "Benefits of solid responsive",
+      title: "Benefits of solid responsive design",
       level: 2,
       paras: [
         "One site is easier for marketing and engineering. Ads and SEO point to the same URLs. Users don’t jump between a “full” and a “lite” version with different pricing.",
-        "For the team fewer surprises: edit the offer once, check two–three widths — not sync two CMS instances.",
+        "For the team, fewer surprises: edit the offer once, check two or three widths — not sync two CMS instances.",
       ],
       lists: [
         {
@@ -187,10 +187,10 @@ export const adaptivnyySaytEn: BlogPost = {
       ],
     },
     {
-      title: "How to test adaptation",
+      title: "How to test across screens",
       level: 2,
       paras: [
-        "Don’t stop at one iPhone in the emulator. Check mid-range Android widths, landscape, real networks (3G/LTE). Test phone clicks, input masks, sticky CTAs, whether chat covers “Submit”.",
+        "Don’t stop at one iPhone in the emulator. Check mid-range Android widths, landscape, real networks (3G/LTE). Test phone taps, input masks, sticky CTAs, and whether chat covers the send button.",
         "Automation: Lighthouse mobile, a crawler with a mobile user-agent if needed, screenshot review of key URLs after release. After a CMS theme change — full template pass again.",
       ],
       lists: [
@@ -210,7 +210,7 @@ export const adaptivnyySaytEn: BlogPost = {
         {
           title: "Common mistake",
           kind: "tip",
-          text: "Calling responsive done because “DevTools looks like a phone”. A real finger and a real form keyboard are a required second pass.",
+          text: "Calling responsive done because “DevTools looks like a phone.” A real finger and a real form keyboard are a required second pass.",
         },
       ],
       links: [

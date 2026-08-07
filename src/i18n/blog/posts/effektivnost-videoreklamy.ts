@@ -5,17 +5,17 @@ export const effektivnostVideoreklamyEn: BlogPost = {
   slug: "effektivnost-videoreklamy",
   title: "How to measure video ad effectiveness: media, brand, and business metrics",
   date: "2019-05-06",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/effektivnost-videoreklamy/cover-en.webp",
   excerpt:
     "Video ad metrics by layer: impressions and viewability, VTR/CPV, reach and frequency; Brand Lift and surveys; conversions, promo codes, and assisted paths — without worshipping one CTR.",
   lead: [
     "You can’t honestly judge a video campaign by CTR alone: an impression ≠ a view, a view ≠ brand interest, interest ≠ a sale. The creative’s job (awareness or performance) sets the metric set.",
-    "Below — three layers: media (delivery and attention), marketing (brand perception), business (conversions and sales contribution). CPM figures / Brand Lift thresholds and survey prices from old guides go stale — check current platform terms; in RF also account for which ad accounts are available at launch time.",
+    "Three layers: media (delivery and attention), marketing (brand perception), business (conversions and sales contribution). CPM figures / Brand Lift thresholds and survey prices from old guides go stale — check current platform terms; in RF also account for which ad accounts are available at launch time.",
   ],
   faq: [
     {
-      q: "Is watching CPV enough?",
+      q: "Is watching CPV enough on its own?",
       a: "No. CPV says what a contact costs — not whether the viewer remembered the brand or bought.",
     },
     {
@@ -27,15 +27,15 @@ export const effektivnostVideoreklamyEn: BlogPost = {
       a: "Useful on large brand buys. On small budgets it’s often unavailable or pointless — then watch brand search, direct visits, surveys, and downstream conversions.",
     },
     {
-      q: "How do you link video to sales?",
+      q: "How do I link video to sales?",
       a: "Conversion tracking in the ad account, UTM + analytics, promo codes in the creative, assisted conversions and (where available) an end-to-end model. Last-click alone often undervalues video.",
     },
     {
-      q: "High VTR — good campaign?",
+      q: "Does a high VTR mean a good campaign?",
       a: "Completion matters, but the viewer may have stayed distracted without skipping. Tie it to brand and the business goal.",
     },
     {
-      q: "Compare YouTube and other video networks head-to-head?",
+      q: "Can I compare YouTube and other video networks head-to-head?",
       a: "Carefully: different auctions, formats, and attribution. Compare contribution to your funnel — not “which platform is better in the abstract”.",
     },
   ],
@@ -52,9 +52,9 @@ export const effektivnostVideoreklamyEn: BlogPost = {
         {
           intro: "Minimum at the start:",
           items: [
-            "campaign goal: brand / traffic / conversion;",
-            "frequency caps so you don’t burn the audience;",
-            "reporting on viewability and completions, not clicks only;",
+            "campaign goal: brand / traffic / conversion",
+            "frequency caps so you don’t burn the audience",
+            "reporting on viewability and completions, not clicks only",
             "creative with early brand appearance.",
           ],
         },
@@ -76,7 +76,7 @@ export const effektivnostVideoreklamyEn: BlogPost = {
       paras: [
         "Brand Lift and similar studies compare awareness/preference/intent among exposed vs unexposed. Useful on large budgets; launch thresholds and stats collection windows are set by the platform — confirm what’s current.",
         "“No Lift” often means weak creative: brand late or invisible, little identity, heavy “noise” from TV/other channels. Fix — earlier logo and message, frequency and targeting tweaks.",
-        "DIY surveys (panel-style tools and peers) are cheaper than lift studies but separate “exposed” worse. Handy before launch or for hypotheses — not as the campaign’s only KPI.",
+        "DIY surveys (panel-style tools and similar tools) are cheaper than lift studies but separate “exposed” worse. Handy before launch or for hypotheses — not as the campaign’s only KPI.",
       ],
       notes: [
         {
@@ -98,8 +98,8 @@ export const effektivnostVideoreklamyEn: BlogPost = {
         {
           intro: "Put in one table:",
           items: [
-            "media: reach, frequency, viewability, VTR, CPV;",
-            "brand: lift/surveys/brand search (if available);",
+            "media: reach, frequency, viewability, VTR, CPV",
+            "brand: lift/surveys/brand search (if available)",
             "business: conversions, promo codes, assisted paths, ROAS/CPA.",
           ],
         },
@@ -117,7 +117,7 @@ export const effektivnostVideoreklamyEn: BlogPost = {
     },
   ],
   closing: [
-    "Judge video ads in layers: first delivery and attention, then brand, then money. One metric won’t tell the campaign story — build a panel for the creative’s job and keep platform metrics current.",
+    "Judge video ads in layers: first delivery and attention, then brand, then money. One metric won't tell the campaign story — build a panel for the creative’s job and keep platform metrics current.",
   ],
   related: [
     "videoreklama-youtube",

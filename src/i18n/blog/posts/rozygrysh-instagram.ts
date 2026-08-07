@@ -11,7 +11,7 @@ export const rozygryshInstagramEn: BlogPost = {
     "How fair random works for social giveaways: why use a generator, how to lock the result, which tools to use, and what to avoid — without “how to win” tips.",
   lead: [
     "Giveaways on Instagram* and other networks often pick a winner with a random number or a giveaway tool. For the audience, transparency matters: participant list, method, and a public screenshot/recording.",
-    "Below — how fair selection works, where to apply RNG, how an organizer runs a giveaway. We don’t cover spam schemes or “guaranteed wins” — that’s cheating participants and a ban risk.",
+    "We cover how fair selection works, where RNG fits, and how an organizer should run a giveaway. We don’t cover spam schemes or “guaranteed wins”—that’s cheating participants and a ban risk.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -19,7 +19,7 @@ export const rozygryshInstagramEn: BlogPost = {
   },
   faq: [
     {
-      q: "Why a generator if you can just point at someone?",
+      q: "Why use a generator if you can just point at someone?",
       a: "So the result is reproducible and checkable: a number from the list + public random. Otherwise people suspect a fix.",
     },
     {
@@ -27,19 +27,19 @@ export const rozygryshInstagramEn: BlogPost = {
       a: "For public giveaways, tools with a log/screenshot are handy. Main point — announce the method upfront and don’t change rules after start.",
     },
     {
-      q: "Can you win “by a system”?",
+      q: "Can I win “by a system”?",
       a: "Fair RNG gives participants no system. “Always win” tips are usually about spam or cheating — don’t use them.",
     },
     {
-      q: "Do you need a dedicated giveaway bot?",
+      q: "Do I need a dedicated giveaway bot?",
       a: "Handy with thousands of comments: collect participants + random. Check platform rules and account access.",
     },
     {
-      q: "What to put in the terms?",
+      q: "What should I put in the terms?",
       a: "Deadline, who can enter, how comments/reposts count, how the winner is chosen, where results are posted.",
     },
     {
-      q: "Several winners?",
+      q: "What if there are several winners?",
       a: "Decide upfront: without repeats or with return to the pool. Generate several unique numbers from the range.",
     },
     {
@@ -47,7 +47,7 @@ export const rozygryshInstagramEn: BlogPost = {
       a: "It strongly builds trust. Minimum — a tool screenshot + a numbered participant table.",
     },
     {
-      q: "Only for Instagram*?",
+      q: "Is this only for Instagram*?",
       a: "Same logic for VK, Telegram, and a site: list → random → lock the result.",
     },
   ],
@@ -61,7 +61,7 @@ export const rozygryshInstagramEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Process upsides:",
+          intro: "Process benefits:",
           items: [
             "transparency;",
             "fewer conflicts;",

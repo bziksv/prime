@@ -11,7 +11,7 @@ export const operatoryPoiskaEn: BlogPost = {
     "How to use Google and Yandex operators in SEO: site:, intitle:, inurl:, filetype: and combos — for index, duplicates, and research, without outdated “magic” commands.",
   lead: [
     "Operators (query language) refine results: pages of one site, a word in the title, a PDF, an exact phrase. For SEO that’s a quick manual slice of the index and competitors — slower than an API/crawler, but with no subscription.",
-    "Below — syntax, practical operators, and scenarios: index checks, duplicates, files, internal linking. Some old Google commands weakened or vanished (`related:`, `cache:` behavior changes) — always verify on the live SERP. This isn’t an audit replacement or a “TOP button”.",
+    "Use them for index checks, duplicates, files, and competitor slices. Some old Google commands weakened or vanished — check current Help before trusting a 2015 cheat sheet.",
   ],
   faq: [
     {
@@ -31,19 +31,19 @@ export const operatoryPoiskaEn: BlogPost = {
       a: "Yes: `site:example.com intitle:\"delivery\" -cart`. Mind spaces/quotes; test short queries.",
     },
     {
-      q: "related: for finding donors?",
+      q: "Is related: useful for finding link donors?",
       a: "The operator is unstable/weakened. For sites, prefer topical search, outreach, and backlink tools.",
     },
     {
-      q: "Is this legal?",
+      q: "Is using search operators legal?",
       a: "Yes for researching public SERPs of your and others’ sites. Don’t use operators as cover for hacking, scraping against rules, or spam.",
     },
     {
-      q: "Why operators if you have Screaming Frog?",
+      q: "Why use operators if you have Screaming Frog?",
       a: "A crawler sees your HTML. Operators show what’s already in the search index — a different slice.",
     },
     {
-      q: "Will operators raise rankings?",
+      q: "Will search operators raise rankings?",
       a: "No. They’re diagnostics. Fixes and content are separate; TOP for the core is planned 2–6 months after work starts.",
     },
   ],
@@ -59,10 +59,10 @@ export const operatoryPoiskaEn: BlogPost = {
         {
           intro: "Basic moves:",
           items: [
-            "`\"exact phrase\"`;",
-            "`-minusword`;",
-            "`OR` / `|` for alternatives;",
-            "`*` as a wildcard (where it still works);",
+            "`\"exact phrase\"`",
+            "`-minusword`",
+            "`OR` / `|` for alternatives",
+            "`*` as a wildcard (where it still works)",
             "parentheses for grouping.",
           ],
         },
@@ -115,8 +115,8 @@ export const operatoryPoiskaEn: BlogPost = {
         {
           intro: "Practice for RU:",
           items: [
-            "site: slice in both search engines;",
-            "Webmaster + GSC as sources of truth;",
+            "site: slice in both search engines",
+            "Webmaster + GSC as sources of truth",
             "Yandex Help on query language — before rare operators.",
           ],
         },
@@ -143,10 +143,10 @@ export const operatoryPoiskaEn: BlogPost = {
         {
           intro: "Practical checks:",
           items: [
-            "new section appears in results;",
-            "no pile of duplicate titles;",
-            "cart/account not indexed;",
-            "extra files aren’t sitting in search;",
+            "new section appears in results",
+            "no pile of duplicate titles",
+            "cart/account not indexed",
+            "extra files aren’t sitting in search",
             "www and non-www don’t double (after gluing).",
           ],
         },
@@ -173,9 +173,9 @@ export const operatoryPoiskaEn: BlogPost = {
         {
           intro: "Ethical boundaries:",
           items: [
-            "research the public SERP;",
-            "don’t scrape aggressively against rules;",
-            "don’t hunt “holes” for hacking;",
+            "research the public SERP",
+            "don’t scrape aggressively against rules",
+            "don’t hunt “holes” for hacking",
             "don’t build strategy on dead operators.",
           ],
         },
@@ -202,9 +202,9 @@ export const operatoryPoiskaEn: BlogPost = {
         {
           intro: "Checklist after a check:",
           items: [
-            "log the query and a screenshot;",
-            "cross-check Webmaster/GSC;",
-            "open a fix ticket;",
+            "log the query and a screenshot",
+            "cross-check Webmaster/GSC",
+            "open a fix ticket",
             "rerun site:/intitle: after the fix.",
           ],
         },

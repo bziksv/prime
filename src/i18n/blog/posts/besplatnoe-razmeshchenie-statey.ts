@@ -11,15 +11,15 @@ export const besplatnoeRazmeshchenieStateyEn: BlogPost = {
     "Guest posts and media placements for links and traffic: how to prep the piece, where to pitch, typical editorial rules, and uniqueness mistakes.",
   lead: [
     "Free article placement is mostly guest posts and expert pieces on other sites: traffic, brand mention, and sometimes a link. It’s not a “magic TOP-10 button” — it’s content marketing and careful link growth.",
-    "Below — how to prep the copy, site criteria, and media types. Editorial rules change — check current guidelines on the site before you send.",
+    "Guest and free placements work when the copy helps the outlet’s readers — not when it’s a thin SEO dump. Prep the piece, pick fitting sites, and check current editorial guidelines before you send. TOP isn’t a batch of emails in a month.",
   ],
   faq: [
     {
-      q: "Publish on your site first or elsewhere?",
+      q: "Should you publish on your site first or elsewhere?",
       a: "If it’s the same text — your site first, wait for indexing, then an adapted/guest version. Otherwise search may treat your original as a copy.",
     },
     {
-      q: "How many articles do you need for growth?",
+      q: "How many guest articles do you need for growth?",
       a: "Quality and topical fit beat a pile of weak texts. One strong piece on a trusted medium beats a dozen filler posts.",
     },
     {
@@ -27,11 +27,11 @@ export const besplatnoeRazmeshchenieStateyEn: BlogPost = {
       a: "Usually no, or only natively. Editors cut “buy from us” — they keep expertise, a case, and a careful link in the author bio/byline.",
     },
     {
-      q: "Does placement guarantee search rankings?",
+      q: "Does free placement guarantee search rankings?",
       a: "No. Links and traffic feed overall promotion. Reaching TOP for the core is planned over months of work — not one publication.",
     },
     {
-      q: "Where do you find outlets?",
+      q: "Where do you find outlets for free placement?",
       a: "Industry media, product blogs, marketer communities, PR platforms for experts. The list below is guidance, not an eternal catalog.",
     },
   ],
@@ -113,7 +113,7 @@ export const besplatnoeRazmeshchenieStateyEn: BlogPost = {
       title: "Outlet types and examples",
       level: 2,
       paras: [
-        "Below — resource types that historically took expert marketing and digital copy. Terms, fees, and contacts change — open “for authors” / “editorial” on the current site version.",
+        "Resource types that historically took expert marketing and digital copy still vary by outlet. Terms, fees, and contacts change — open “for authors” / “editorial” on the current site version.",
       ],
       lists: [
         {
@@ -147,7 +147,7 @@ export const besplatnoeRazmeshchenieStateyEn: BlogPost = {
       title: "Typical editorial requirements",
       level: 2,
       paras: [
-        "The set looks similar almost everywhere — strictness and topics differ.",
+        "The set looks similar almost everywhere it’s strictness and topics differ.",
       ],
       lists: [
         {

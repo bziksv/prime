@@ -5,17 +5,17 @@ export const googleAnalyticsNastroykaEn: BlogPost = {
   slug: "google-analytics-nastroyka",
   title: "How to set up Google Analytics 4: a beginner’s guide",
   date: "2019-08-15",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/google-analytics-nastroyka/cover-en.webp",
   excerpt:
     "Basic GA4 setup: account, property, data stream, installing the tag or GTM, checking in DebugView, and what to do right after — without Universal Analytics screenshots.",
   lead: [
     "To see traffic and events you need a Google account, a GA4 property, a website data stream, and code/tag on pages. Old guides about “UA-XXXX and views” are outdated: below is GA4 logic for beginners.",
-    "The cabinet UI changes — rely on Google’s help and the meaning of the steps. Goals/key events, ecommerce, and differences from UA are in neighboring pieces.",
+    "The Analytics UI changes — rely on Google’s help and the meaning of the steps. Goals/key events, ecommerce, and differences from UA are in related articles.",
   ],
   faq: [
     {
-      q: "Should you still set up Universal Analytics?",
+      q: "Should I still set up Universal Analytics?",
       a: "Not as the foundation. Create GA4. Don’t copy old instructions with “views” and analytics.js.",
     },
     {
@@ -23,11 +23,11 @@ export const googleAnalyticsNastroykaEn: BlogPost = {
       a: "Both work. GTM is easier when there are many tags (Ads, pixels, events). For one counter, gtag.js on the site is fine.",
     },
     {
-      q: "How many properties can you create?",
+      q: "How many properties can I create?",
       a: "Account/property limits are in current Google help. At the start — one GA4 property per site (or a site+app pair by task).",
     },
     {
-      q: "When do data appear?",
+      q: "When does data appear?",
       a: "Realtime/DebugView — almost immediately after a correct install. Full reports lag; don’t expect “like yesterday in UA” in the first minute.",
     },
     {
@@ -47,9 +47,9 @@ export const googleAnalyticsNastroykaEn: BlogPost = {
         {
           intro: "Hierarchy in short:",
           items: [
-            "account — organization;",
-            "GA4 property — data container;",
-            "stream — site or app;",
+            "account — organization",
+            "GA4 property — data container",
+            "stream — site or app",
             "measurement ID (G-XXXX) — for the tag.",
           ],
         },
@@ -73,9 +73,9 @@ export const googleAnalyticsNastroykaEn: BlogPost = {
         {
           intro: "Install check:",
           items: [
-            "Realtime shows you on the site;",
-            "DebugView sees events while debugging;",
-            "no second identical counter;",
+            "Realtime shows you on the site",
+            "DebugView sees events while debugging",
+            "no second identical counter",
             "internal IPs can be excluded later.",
           ],
         },
@@ -98,10 +98,10 @@ export const googleAnalyticsNastroykaEn: BlogPost = {
         {
           intro: "Beginner order:",
           items: [
-            "tag works in Realtime;",
-            "2–5 key events marked;",
-            "the team has property access;",
-            "cookie/consent policy accounted for;",
+            "tag works in Realtime",
+            "2–5 key events marked",
+            "the team has property access",
+            "cookie/consent policy accounted for",
             "plan: ecommerce or goals — via the links below.",
           ],
         },

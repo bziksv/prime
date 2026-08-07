@@ -11,7 +11,7 @@ export const karuselInstagramEn: BlogPost = {
     "How to build an Instagram post from several photos or videos, why a carousel beats a collage, slide order and a unified style — without outdated click-paths or services that download others’ content.",
   lead: [
     "A carousel is a post with several slides: the user swipes the dots under the preview. Use it for product angles, a step-by-step guide, or before/after without a tiny collage.",
-    "Below — why the format, assembly logic, and typical mistakes. In-app buttons change; slide order and a unified style matter more than menu screenshots.",
+    "The format works when slides tell one story — assemble carefully and avoid common mistakes. In-app buttons change; slide order and a unified style matter more than menu screenshots.",
   ],
   legalNotice: {
     title: "Dear readers!",

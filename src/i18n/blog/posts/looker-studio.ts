@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for looker-studio — same structure as RU JSON. */
 export const lookerStudioEn: BlogPost = {
   slug: "looker-studio",
-  title: "Looker Studio (Google Data Studio): reports and end-to-end analytics",
+  title: "Looker Studio (Google Data Studio): reports and full-funnel analytics",
   date: "2020-05-13",
-  category: "Internet marketing",
+  category: "Analytics",
   cover: "/images/blog/looker-studio/cover-en.webp",
   excerpt:
-    "What Looker Studio (formerly Google Data Studio) is: how to build dashboards, connect sources, and how visualization differs from true end-to-end analytics with CRM.",
+    "What Looker Studio (formerly Google Data Studio) is: how to build dashboards, connect sources, and how visualization differs from true full-funnel analytics with CRM.",
   lead: [
     "Looker Studio (before 2022 — Google Data Studio) is a free report builder: tables, charts, and filters on top of data from analytics, spreadsheets, and ad accounts.",
-    "Below — how the product works, how to assemble a marketing dashboard, and where the line is: Data Studio alone doesn’t “turn on end-to-end analytics” without linking spend, the site, and CRM. UI and connectors change — lean on the logic, not 2020 screenshots.",
+    "It’s a presentation layer, not a magic full-funnel switch: without linking spend, the site, and CRM, pretty charts stay site analytics. UI and connectors change — lean on the logic, not 2020 screenshots.",
   ],
   faq: [
     {
@@ -23,7 +23,7 @@ export const lookerStudioEn: BlogPost = {
       a: "No. Analytics (GA4) and Yandex Metrica collect events. Looker Studio draws reports from already collected data and other sources.",
     },
     {
-      q: "Can you do end-to-end analytics only in Looker Studio?",
+      q: "Can I do full-funnel analytics only in Looker Studio?",
       a: "Visualization — yes. An end-to-end “ads → lead → payment” picture — only if sources already have spend, leads, and revenue with shared keys (client id, phone, order id).",
     },
     {
@@ -31,11 +31,11 @@ export const lookerStudioEn: BlogPost = {
       a: "Live connectors, link sharing, team filters. Excel is still handy for one-off summaries and complex hand-built models.",
     },
     {
-      q: "Do you need BigQuery?",
+      q: "Do I need BigQuery?",
       a: "Not always. For a start, GA4/sheets/ad connectors are enough. BigQuery and ETL help with large volumes, unsampled history, and complex joins.",
     },
     {
-      q: "Why don’t report numbers “match”?",
+      q: "Why don’t Looker Studio numbers match other reports?",
       a: "Different attribution models, sampling, time zones, duplicate UTMs, leads off-site (chat, phone). Cross-check with CRM and raw ad accounts.",
     },
     {
@@ -82,7 +82,7 @@ export const lookerStudioEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Minimum end-to-end contour:",
+          intro: "Minimum full-funnel setup:",
           items: [
             "spend from ad accounts;",
             "site behavior and goals (Metrica / GA4);",
@@ -114,7 +114,7 @@ export const lookerStudioEn: BlogPost = {
       title: "How to build the first report",
       level: 2,
       paras: [
-        "You need a Google account and source access. Create a report → connect a source (e.g. GA4 or Google Sheets) → add 3–5 visuals for one goal: not “every metric in the world”, but business questions.",
+        "You need a Google account and source access. Create a report → connect a source (e.g. GA4 or Google Sheets) → add 3–5 visuals for one goal: not “every metric in the world,” but business questions.",
         "Menu labels change. Orient on: data source, report page, chart/table, metric and dimension, date filter, email access.",
       ],
       lists: [

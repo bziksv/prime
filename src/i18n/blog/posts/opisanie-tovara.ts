@@ -5,13 +5,13 @@ export const opisanieTovaraEn: BlogPost = {
   slug: "opisanie-tovara",
   title: "Product description on an ecommerce card",
   date: "2020-07-27",
-  category: "Content marketing",
+  category: "E-commerce",
   cover: "/images/blog/opisanie-tovara/cover-en.webp",
   excerpt:
-    "How to write a product-card description: photos and copy, emotion without fluff, features and specs, structure and SEO — so the buyer finds price arguments and places the order.",
+    "How to write a product-card description: photos and copy, emotion without empty filler, features and specs, structure and SEO — so the buyer finds price arguments and places the order.",
   lead: [
     "The product card is where a purchase decision most often breaks or locks in. A strong photo catches the eye; the text must answer doubts: why do I need this, what justifies the price, why your store is easier than the next tab.",
-    "Below — the roles of image and copy, how to write benefits and features, which specs must be on the card, and how to layout the block without a wall of text. The general selling-copy frame is in a sibling article; here the focus is the ecommerce SKU card.",
+    "Image and copy share the job: the photo stops the scroll, the text closes doubts. Write benefits and specs that fit the card without clutter.",
   ],
   faq: [
     {
@@ -19,11 +19,11 @@ export const opisanieTovaraEn: BlogPost = {
       a: "For impulse cheap items sometimes yes. At a high price, size/configuration choice, and competitor comparison — text is required.",
     },
     {
-      q: "Write with “emotion” or only specs?",
+      q: "Should you write with emotion or only specs?",
       a: "Both layers: a short use scenario + facts (material, size, kit). Emotion alone without properties doesn’t close doubts.",
     },
     {
-      q: "Can I copy the manufacturer’s description?",
+      q: "Can you copy the manufacturer’s description?",
       a: "Duplicate risk and identical cards across sellers. Better uniqueize for your audience and add what competitors lack (shipping, warranty, bundles).",
     },
     {
@@ -31,19 +31,19 @@ export const opisanieTovaraEn: BlogPost = {
       a: "Naturally — name, type, key attributes. Don’t turn a paragraph into a comma-separated query list.",
     },
     {
-      q: "How many characters?",
+      q: "How many characters should a product description have?",
       a: "As many as close choice questions. Often: 2–4 sentence lead + specs list + “why us”. Don’t pad with water.",
     },
     {
-      q: "What’s required for apparel/footwear?",
+      q: "What’s required for apparel and footwear cards?",
       a: "Size chart, material, care, fit/width, model height when needed — everything that drives chat messages and sends people to a competitor.",
     },
     {
-      q: "Will the description alone get TOP?",
+      q: "Will the description alone get you into the TOP?",
       a: "It’s part of page quality and conversion. Card prep — weeks; organic growth for the core — month to month, planned 2–6 months after work starts.",
     },
     {
-      q: "How does a card differ from a landing?",
+      q: "How does a product card differ from a landing page?",
       a: "A card is a compact SKU choice in a catalog. A landing is one offer on a long page. Techniques overlap; volume and structure differ.",
     },
   ],
@@ -59,8 +59,8 @@ export const opisanieTovaraEn: BlogPost = {
         {
           intro: "Three jobs of the description:",
           items: [
-            "remove “do I need this” doubt;",
-            "justify price and contents;",
+            "remove “do I need this” doubt",
+            "justify price and contents",
             "nudge the order specifically with you.",
           ],
         },
@@ -83,9 +83,9 @@ export const opisanieTovaraEn: BlogPost = {
         {
           intro: "Visual minimum next to copy:",
           items: [
-            "hero angle and 2–3 details;",
-            "in-use photo if it fits;",
-            "readable captions/alt without stuffing;",
+            "hero angle and 2–3 details",
+            "in-use photo if it fits",
+            "readable captions/alt without stuffing",
             "consistent style across a card series.",
           ],
         },
@@ -112,9 +112,9 @@ export const opisanieTovaraEn: BlogPost = {
         {
           intro: "How to write the scenario:",
           items: [
-            "who buys and in what situation;",
-            "which pain/desire we close;",
-            "1–2 sensory details without fluff;",
+            "who buys and in what situation",
+            "which pain/desire we close",
+            "1–2 sensory details without empty filler",
             "hand-off to facts and the feature list.",
           ],
         },
@@ -138,10 +138,10 @@ export const opisanieTovaraEn: BlogPost = {
         {
           intro: "Argument frame:",
           items: [
-            "who the product is for;",
-            "which job it solves;",
-            "key features → benefits;",
-            "differences from typical alternatives;",
+            "who the product is for",
+            "which job it solves",
+            "key features → benefits",
+            "differences from typical alternatives",
             "purchase terms with you.",
           ],
         },
@@ -164,10 +164,10 @@ export const opisanieTovaraEn: BlogPost = {
         {
           intro: "Required specs block:",
           items: [
-            "sizes / weight / volume;",
-            "materials and care;",
-            "what’s in the box;",
-            "compatibility and limits;",
+            "sizes / weight / volume",
+            "materials and care",
+            "what’s in the box",
+            "compatibility and limits",
             "warranty and return terms (short + link).",
           ],
         },
@@ -190,18 +190,18 @@ export const opisanieTovaraEn: BlogPost = {
       title: "Strong-card checklist",
       level: 2,
       paras: [
-        "Before publish check: emotion/scenario without fluff, features covered, full specs list, reasons to buy from you, clear CTA (add to cart / order / get a quote). An original “hook” fits if it helps choice — not if it distracts.",
+        "Before publish check: emotion/scenario without empty filler, features covered, full specs list, reasons to buy from you, clear CTA (add to cart / order / get a quote). An original “hook” fits if it helps choice — not if it distracts.",
         "A perfect description doesn’t guarantee TOP by itself — it lifts conversion and page quality. Next come assortment, price, shipping, and the catalog SEO track.",
       ],
       lists: [
         {
           intro: "Before going live:",
           items: [
-            "lead answers “why me”;",
-            "specs are complete;",
-            "no factory copy-paste one-to-one (or consciously improved);",
-            "keys feel natural;",
-            "mobile readability;",
+            "lead answers “why me”",
+            "specs are complete",
+            "no factory copy-paste one-to-one (or consciously improved)",
+            "keys feel natural",
+            "mobile readability",
             "photo and copy aligned.",
           ],
         },

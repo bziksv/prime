@@ -3,19 +3,19 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for tendentsii-veb-dizayna — same structure as RU JSON. */
 export const tendentsiiVebDizaynaEn: BlogPost = {
   slug: "tendentsii-veb-dizayna",
-  title: "Web design trends: what to ship — and what gets in the way",
+  title: "Web design trends: what to adopt — and what gets in the way",
   date: "2018-05-29",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/tendentsii-veb-dizayna/cover-en.webp",
   excerpt:
     "How to pick web design trends without chasing fashion: animation, color and type, data storytelling, AI in UI, illustrations, mobile-first, asymmetry, tools, email and e-com — with focus on the user path and speed.",
   lead: [
-    "Web design trends are useful as a library of techniques — not a mandatory “ship everything” checklist. Some ideas are already normal (mobile-first, micro-interactions); some stay seasonal fashion or noise for effect.",
-    "Below — how to pick techniques for the business job: animation, color and type, on-screen data, AI in the interface, illustrations, grid and tools. A risk-and-decision map — not a list of “required” gimmicks.",
+    "Web design trends are useful as a library of techniques — not a mandatory “adopt everything” checklist. Some ideas are already normal (mobile-first, micro-interactions); some stay seasonal fashion or noise for effect.",
+    "This guide covers how to pick techniques for the business job: animation, color and type, on-screen data, AI in the interface, illustrations, grid and tools. A risk-and-decision map — not a list of “required” gimmicks.",
   ],
   faq: [
     {
-      q: "Should you chase trends every season?",
+      q: "Should I chase trends every season?",
       a: "No. Job, audience, and speed first. A trend fits if it strengthens the path and doesn’t break mobile UX.",
     },
     {
@@ -35,7 +35,7 @@ export const tendentsiiVebDizaynaEn: BlogPost = {
       a: "Rarely. Conversion leans more on offer, trust, speed, and a clear CTA than asymmetry for its own sake.",
     },
     {
-      q: "Should you put an AI chat on every page?",
+      q: "Should I put an AI chat on every page?",
       a: "Only if it closes a real path (matching, FAQ, order status). A “bot for the bot” with no operator and knowledge base lowers trust.",
     },
     {
@@ -90,7 +90,7 @@ export const tendentsiiVebDizaynaEn: BlogPost = {
       title: "Color, typography, and visual character",
       level: 2,
       paras: [
-        "Bold palettes help you stand out if brand and niche can handle them. Color pickers are handy for experiments; “neon everywhere” without contrast checks risks readability and accessibility.",
+        "Bold palettes help you stand out if brand and niche can handle them. Color pickers are useful for experiments; “neon everywhere” without contrast checks risks readability and accessibility.",
         "Typography sets the tone: sans and serif paired, custom faces, large headlines. On mobile, readability beats effect; heavy web fonts cut speed — load them on purpose and limit weights.",
         "Storefront palette and identity system are related: here the focus is that a trend doesn’t break hierarchy and CTA.",
       ],

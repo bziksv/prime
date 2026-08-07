@@ -252,6 +252,7 @@ export const v6ClientBrandsLatin = [
   { name: "Volvo", image: "/images/v6/clients/latin/volvo.webp?v=6" },
   { name: "AlmaMed", image: "/images/v6/clients/latin/almamed.webp?v=7" },
   { name: "VilMed", image: "/images/v6/clients/latin/vilmed.webp?v=1" },
+  { name: "Polymer", image: "/images/v6/clients/latin/polimer.webp?v=1" },
   { name: "Belgee", image: "/images/v6/clients/latin/belgee.webp?v=6" },
   { name: "OMODA", image: "/images/v6/clients/latin/omoda.webp?v=6" },
   { name: "Geely", image: "/images/v6/clients/latin/geely.webp?v=6" },

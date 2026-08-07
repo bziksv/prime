@@ -11,23 +11,23 @@ export const seoMalyyBiznesEn: BlogPost = {
     "Practical SEO priorities for small business: local demand, speed, clear pages, semantics without gigantomania. No “TOP in a week” myth and no enterprise budget.",
   lead: [
     "A small business doesn’t need “SEO like a marketplace”. It needs a clear site for real client queries, decent speed, local visibility, and an honest horizon: prep — weeks; ranking growth — planned months (often 2–6 after work starts).",
-    "Below — what to focus on with a modest budget and what not to do. A DIY owner checklist is in the self-SEO article; here — priorities specifically for small business.",
+    "We cover what to prioritize on a modest budget—and what not to do. A DIY owner checklist is in the self-SEO article; here we focus on small-business priorities.",
   ],
   faq: [
     {
-      q: "Where to start if the budget is small?",
+      q: "Where should I start if the budget is small?",
       a: "With tech and clarity: mobile, speed, contacts, 5–15 priority landings for demand, Google/Yandex business listings. Then content and links as capacity allows.",
     },
     {
-      q: "How soon will we hit TOP?",
+      q: "How soon will I hit the TOP?",
       a: "You can prep the site in weeks. Sustained commercial-core TOP is planned for 2–6 months of systematic work — not “launch = TOP”.",
     },
     {
-      q: "Do you need thousands of keywords?",
+      q: "Do I need thousands of keywords?",
       a: "No. A small project needs real intent coverage and strong pages more than a sheet of long-tails with no demand in your area.",
     },
     {
-      q: "Are socials enough instead of SEO?",
+      q: "Are social channels enough instead of SEO?",
       a: "Social is another channel. Search catches people intending to “find a service/product”. Usually you need both, by role.",
     },
     {
@@ -35,7 +35,7 @@ export const seoMalyyBiznesEn: BlogPost = {
       a: "Useful for the snippet (organization, product, FAQ — by type), but it doesn’t replace copy and links. Page meaning first, then schema.",
     },
     {
-      q: "Buy links in bulk?",
+      q: "Should I buy links in bulk?",
       a: "Mass buying for “volume” is risky. Prefer local mentions, partners, maps, useful content.",
     },
     {
@@ -43,7 +43,7 @@ export const seoMalyyBiznesEn: BlogPost = {
       a: "That article is an entry to the craft. This one is small-business owner priorities: what to do first with limited hands and budget.",
     },
     {
-      q: "Is a blog mandatory?",
+      q: "Is a blog mandatory for small business SEO?",
       a: "Not always. If you cover services with landings and local demand — the blog is secondary. Write when you have expertise and capacity to maintain it.",
     },
   ],
@@ -52,7 +52,7 @@ export const seoMalyyBiznesEn: BlogPost = {
       title: "Realistic expectations for small business",
       level: 2,
       paras: [
-        "SEO is a cumulative channel: tech and structure → demand-led content → authority and behavior. “Pick keywords overnight and be in TOP by morning” doesn’t work.",
+        "SEO is a cumulative channel: tech and structure → demand-led content → authority and behavior. “Pick keywords overnight and be in the TOP by morning” doesn’t work.",
         "Plan stages: get the site in order (weeks), then regularly strengthen priority URLs. Rankings and calls grow unevenly — watch clusters, not one phrase.",
       ],
       lists: [
@@ -63,7 +63,7 @@ export const seoMalyyBiznesEn: BlogPost = {
             "pages exist for main services/areas;",
             "map listings are filled;",
             "search leads start accumulating;",
-            "core in TOP grows month to month.",
+            "core in the TOP grows month to month.",
           ],
         },
       ],
@@ -109,7 +109,7 @@ export const seoMalyyBiznesEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Local minimum:",
+          intro: "Local essentials:",
           items: [
             "service pages + geo if you truly work there;",
             "Google Business / Yandex Business;",
@@ -133,14 +133,14 @@ export const seoMalyyBiznesEn: BlogPost = {
       title: "Semantics without gigantomania",
       level: 2,
       paras: [
-        "Collect demand markers: how clients name the service, plus city. Cluster into real pages — don’t spawn thin URLs “for every tail”.",
+        "Collect demand markers: how clients name the service, plus city. Cluster into real pages — don’t create thin URLs “for every tail”.",
         "How people speak matters more than bureaucratic wording. Check suggestions, keyword tools, on-site search, sales questions.",
       ],
       lists: [
         {
           intro: "SMB practice:",
           items: [
-            "15–50 priority phrases to start is fine;",
+            "15–50 priority keywords to start is fine;",
             "one page — one main intent;",
             "services with margin and demand first;",
             "a blog — only if you can keep a cadence.",

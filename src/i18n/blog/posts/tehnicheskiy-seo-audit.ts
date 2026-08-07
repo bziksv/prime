@@ -10,7 +10,7 @@ export const tehnicheskiySeoAuditEn: BlogPost = {
   excerpt:
     "Why a technical SEO audit matters, what to check, and whether you can run a basic audit yourself.",
   lead: [
-    "If the site “won’t move” despite content and ads spend, it’s often not “SERP magic” but tech: indexing, speed, duplicates, status codes, mobile layout.",
+    "If the site stalls despite content and ad spend, it’s often not “SERP magic” but tech: indexing, speed, duplicates, status codes, mobile layout.",
     "We’ll cover how a technical audit differs from other checks, what you can inspect yourself, and when it’s smarter to hand the work to specialists.",
   ],
   faq: [
@@ -23,11 +23,11 @@ export const tehnicheskiySeoAuditEn: BlogPost = {
       a: "Tech is the foundation. Separately you review semantics, copy, links, and usability. Without tech, even a strong keyword core rarely converts into stable rankings.",
     },
     {
-      q: "Can you audit yourself?",
+      q: "Can I audit yourself?",
       a: "A basic loop — yes: webmaster panels, a crawler, PageSpeed/CWV, robots and sitemap checks. Deep niche and priority work is usually faster with an experienced specialist.",
     },
     {
-      q: "Where to start if time is short?",
+      q: "Where should I start if time is short?",
       a: "Indexing and duplicates, 4xx/5xx, redirects, mobile version, LCP/INP speed, HTTPS, and access to key landings.",
     },
     {
@@ -37,7 +37,7 @@ export const tehnicheskiySeoAuditEn: BlogPost = {
   ],
   sections: [
     {
-      title: "Site audit. Introduction",
+      title: "What a technical audit is for",
       level: 2,
       paras: [
         "An audit is a systematic review of the site: tech, structure, content, usability, and search visibility. The goal — see if the resource is ready for promotion or needs fixes first.",
@@ -50,7 +50,7 @@ export const tehnicheskiySeoAuditEn: BlogPost = {
       level: 2,
       paras: [
         "The main job is to gather facts about the site’s state and weak spots — not to “find someone to blame.”",
-        "Afterwards you prioritize fixes: what blocks indexing and conversion now, what can wait. Demand, competition, and UX are assessed too — but those are neighboring loops next to pure tech.",
+        "Afterwards you prioritize fixes: what blocks indexing and conversion now, what can wait. Demand, competition, and UX are assessed too — but those are related loops next to pure tech.",
       ],
       lists: [
         {
@@ -106,7 +106,7 @@ export const tehnicheskiySeoAuditEn: BlogPost = {
       notes: [
         {
           title: "Common mistake",
-          text: "Dumping brand metrics, the link profile, and “ranking factors” into “tech” all at once. Those are neighboring report blocks; first remove what breaks crawl and indexing.",
+          text: "Dumping brand metrics, the link profile, and “ranking factors” into “tech” all at once. Those are related report blocks; first remove what breaks crawl and indexing.",
         },
       ],
       tables: [
@@ -228,7 +228,7 @@ export const tehnicheskiySeoAuditEn: BlogPost = {
       title: "What to do after the audit",
       level: 2,
       paras: [
-        "An audit without implementation is just a PDF. Next: close critical issues, then structure and landing semantics, then content and growth work.",
+        "An audit without implementation is just a PDF. Next: fix critical issues, then structure and landing semantics, then content and growth work.",
       ],
       lists: [],
       links: [
@@ -238,7 +238,7 @@ export const tehnicheskiySeoAuditEn: BlogPost = {
         },
         {
           label: "SEO site structure",
-          href: "/blog/seo-struktura-sayta/",
+          href: "/en/blog/seo-struktura-sayta/",
         },
       ],
     },

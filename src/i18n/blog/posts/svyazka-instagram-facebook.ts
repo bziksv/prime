@@ -10,8 +10,8 @@ export const svyazkaInstagramFacebookEn: BlogPost = {
   excerpt:
     "Why link Instagram to Facebook via Accounts Center, what a professional profile gives you, how to unlink, and which cross-posting expectations are outdated.",
   lead: [
-    "Linking Instagram and Facebook matters when you use ecosystem business tools: a Page, Ads Manager, shared settings in Accounts Center. It’s not a “must-hack for everyone” — it’s a setup for a task.",
-    "Below — why people link, the usual connect and unlink flow. Menu labels change; if it doesn’t match 2021 screenshots, follow Meta Help and the in-app wizard.",
+    "Linking Instagram and Facebook matters when you use ecosystem business tools: a Page, Ads Manager, shared settings in Accounts Center. It isn’t required for everyone — it’s a setup for a specific job.",
+    "This piece covers why people link accounts, plus the usual connect and unlink flow. Menu labels change; if it doesn’t match 2021 screenshots, follow Meta Help and the in-app wizard.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -23,7 +23,7 @@ export const svyazkaInstagramFacebookEn: BlogPost = {
       a: "Not always. The requirement used to appear more often. Now it depends on region and scenario (especially ads). See also the Instagram business account article.",
     },
     {
-      q: "How many Facebook Pages can you attach?",
+      q: "How many Facebook Pages can I attach?",
       a: "Limits have changed: one main Page per profile is often convenient. To switch — unlink the current connection in Accounts Center first.",
     },
     {
@@ -35,7 +35,7 @@ export const svyazkaInstagramFacebookEn: BlogPost = {
       a: "Linked logins sometimes simplify recovery, but they’re not a password, 2FA, or session-control substitute. The myth “linked = never banned” is false.",
     },
     {
-      q: "Where do you unlink accounts?",
+      q: "Where do I unlink accounts?",
       a: "Usually in Accounts Center from Instagram or Facebook: profile → remove from center / disconnect. Check current UI labels.",
     },
   ],
@@ -49,7 +49,7 @@ export const svyazkaInstagramFacebookEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Realistic upsides:",
+          intro: "Realistic pros:",
           items: [
             "easier to run ads and a Page in one ecosystem;",
             "Instagram professional mode with insights and contacts;",
@@ -97,7 +97,7 @@ export const svyazkaInstagramFacebookEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Practice",
+          title: "Tip",
           text: "Don’t approve suspicious “link account” prompts from third-party apps. Only the official Instagram/Facebook wizard.",
         },
       ],
@@ -112,7 +112,7 @@ export const svyazkaInstagramFacebookEn: BlogPost = {
       lists: [],
       links: [
         {
-          label: "Instagram page design",
+          label: "Instagram profile design",
           href: "/en/blog/oformlenie-stranicy-instagram/",
         },
         {

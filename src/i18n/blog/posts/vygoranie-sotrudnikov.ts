@@ -5,13 +5,13 @@ export const vygoranieSotrudnikovEn: BlogPost = {
   slug: "vygoranie-sotrudnikov",
   title: "Employee burnout: how to lower the risk",
   date: "2019-06-07",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/vygoranie-sotrudnikov/cover-en.webp",
   excerpt:
-    "Burnout prevention in a team: trust and feedback, healthy humor, clear tasks, breaks and workload boundaries — without the cult of “meditation instead of pay”.",
+    "Burnout prevention in a team: trust and feedback, healthy humor, clear tasks, breaks and workload boundaries — without the cult of \"meditation instead of pay.\"",
   lead: [
-    "Burnout is not “laziness” or personal weakness. It’s exhaustion from chronic stress, unclear goals, overload, and missing recognition. For business that means turnover, sick leave, and quality drop.",
-    "Below — practical prevention levers: trust, culture, stress reduction. Figures from individual studies are a guide, not a guarantee of “+50% productivity” from one joke.",
+    "Burnout isn't laziness or a personal weakness. It's exhaustion from chronic stress, unclear goals, overload, and missing recognition. For the business that means turnover, sick leave, and a drop in quality.",
+    "What actually helps on the prevention side: trust, culture, and stress reduction. Figures from individual studies are a guide, not a guarantee of \"+50% productivity\" from one joke.",
   ],
   faq: [
     {
@@ -20,23 +20,23 @@ export const vygoranieSotrudnikovEn: BlogPost = {
     },
     {
       q: "Are parties and memes enough?",
-      a: "No. Humor helps the atmosphere, but doesn’t replace clear tasks, fair load, and fair pay.",
+      a: "No. Humor helps the atmosphere, but it doesn't replace clear tasks, fair load, and fair pay.",
     },
     {
       q: "Is a flexible schedule required?",
-      a: "Not everywhere. What matters is predictable recovery: breaks, limits on “forever crunch”, and the right to disconnect off-shift where possible.",
+      a: "Not everywhere. What matters is predictable recovery: breaks, limits on endless crunch, and the right to disconnect off-shift where possible.",
     },
     {
       q: "Will meditation save the team?",
-      a: "It can be a personal tool. It doesn’t replace fixing overload, a toxic management style, or impossible KPIs.",
+      a: "It can be a personal tool. It doesn't replace fixing overload, a toxic management style, or impossible KPIs.",
     },
     {
       q: "How is burnout linked to trust?",
-      a: "Where you can’t err or raise a problem, people stay silent until they break. Feedback and recognition lower that risk.",
+      a: "Where people can't make mistakes or raise problems, they stay silent until they break. Feedback and recognition lower that risk.",
     },
     {
       q: "What should a manager do at the first signs?",
-      a: "Clarify load and priorities, cut useless multitasking, give rest/redistribution — don’t “motivate” with shame.",
+      a: "Clarify load and priorities, cut useless multitasking, give rest or redistribute work — don't \"motivate\" with shame.",
     },
   ],
   sections: [
@@ -44,17 +44,17 @@ export const vygoranieSotrudnikovEn: BlogPost = {
       title: "Trust and meaning at work",
       level: 2,
       paras: [
-        "Recognizing wins, honest feedback, hard but doable tasks (a “stress challenge”, not an impossible plan), freedom within the role, and visible growth — the prevention base.",
-        "Managers do better not playing “infallible”: owning their mistakes lowers fear culture. Skill growth (training, task rotation) retains people better than “we’re a family” slogans.",
+        "Recognizing wins, honest feedback, hard but doable tasks (a stretch, not an impossible plan), freedom within the role, and visible growth — that's the prevention base.",
+        "Managers do better not playing infallible: owning mistakes lowers fear culture. Skill growth (training, task rotation) retains people better than \"we're a family\" slogans.",
       ],
       lists: [
         {
           intro: "Trust minimum:",
           items: [
-            "regular feedback and recognition;",
-            "a clear goal for the task;",
-            "influence on your own work area;",
-            "a development track, not only routine.",
+            "regular feedback and recognition",
+            "a clear goal for each task",
+            "influence on your own work area",
+            "a development track, not only routine",
           ],
         },
       ],
@@ -70,11 +70,11 @@ export const vygoranieSotrudnikovEn: BlogPost = {
       ],
     },
     {
-      title: "Culture without toxic “fun”",
+      title: "Culture without toxic \"fun\"",
       level: 2,
       paras: [
-        "Kind humor and self-irony lower tension and help ideas surface without self-censorship. Drop jokes at the expense of gender, religion, politics, or someone’s vulnerability.",
-        "“Positivity” doesn’t cancel exhaustion from 12-hour shifts. Load and clarity first — memes second.",
+        "Kind humor and self-irony lower tension and help ideas surface without self-censorship. Drop jokes at the expense of gender, religion, politics, or someone's vulnerability.",
+        "\"Positivity\" doesn't cancel exhaustion from 12-hour shifts. Load and clarity first — memes second.",
       ],
     },
     {
@@ -82,12 +82,12 @@ export const vygoranieSotrudnikovEn: BlogPost = {
       level: 2,
       paras: [
         "People need to know what they do and why. Flexible hours (where it fits), regular short breaks, less pointless multitasking and endless notifications — practical moves.",
-        "Nonstop work raises anxiety and errors. Protect deep-work blocks and evening boundaries, especially remote.",
+        "Nonstop work raises anxiety and errors. Protect deep-work blocks and evening boundaries, especially on remote teams.",
       ],
       notes: [
         {
           title: "Meditation and personal practices",
-          text: "Short breathing/meditation pauses help some people. They’re an add-on to org measures — not a substitute for pay, headcount, and a realistic plan.",
+          text: "Short breathing or meditation breaks help some people. They're an add-on to organizational measures — not a substitute for pay, headcount, and a realistic plan.",
           kind: "tip",
         },
       ],
@@ -104,7 +104,7 @@ export const vygoranieSotrudnikovEn: BlogPost = {
     },
   ],
   closing: [
-    "Burnout prevention is trust, clear tasks, and recovery — not “one more team-building”. Remove chronic overload and toxic rituals — productivity and retention rise on their own.",
+    "Burnout prevention is trust, clear tasks, and recovery — not \"one more team-building.\" Remove chronic overload and toxic rituals, and productivity and retention improve on their own.",
   ],
   related: [
     "vrednye-sovety-rukovoditelyam",

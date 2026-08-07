@@ -8,31 +8,31 @@ export const canvaEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/canva/cover-en.webp",
   excerpt:
-    "Who Canva fits, what the free plan can do, where the builder is weaker than Photoshop, and how to keep one style in social without promising “you’ll never need a designer”.",
+    "Who Canva fits, what the free plan covers, where it falls short of Photoshop, and how to keep one visual style in social without promising you’ll never need a designer.",
   lead: [
-    "Canva is a template-based online editor: posts, stories, decks, simple print. Drag-and-drop instead of Photoshop’s steep learning curve — that’s why marketers, SMM, and small business like it.",
-    "Below — strengths, limits, and when to still call a designer. We don’t lock “N thousand templates” or old free-plan limits: check the current account. A neighboring product class is VistaCreate (formerly Crello).",
+    "Canva is a template-based online editor for posts, Stories, decks, and simple print. Drag-and-drop instead of Photoshop’s learning curve — which is why marketers, SMM teams, and small businesses like it.",
+    "Below: strengths, limits, and when you still want a designer. We don’t lock old free-plan limits or “N thousand templates” — check your current account. A close alternative is VistaCreate (formerly Crello).",
   ],
   faq: [
     {
       q: "Does Canva replace a designer?",
-      a: "For regular content in one style — often yes. Complex brand, packaging, non-standard layout — a professional’s zone.",
+      a: "For regular content in one style — often yes. Complex brand work, packaging, or non-standard layouts still need a professional.",
     },
     {
-      q: "How is it different from Crello / VistaCreate?",
-      a: "Same class: templates and export for formats. Choose by habit, library, team price, and how well your script/fonts work.",
+      q: "How does Canva differ from Crello / VistaCreate?",
+      a: "Same class: templates and export for common formats. Choose by habit, library, team pricing, and how well your language and fonts work.",
     },
     {
       q: "Is the free version enough?",
-      a: "For tests and simple layouts often yes. Brand kit, some stock, resize, and deeper team work — usually on paid plans.",
+      a: "For tests and simple layouts, often yes. Brand Kit, some stock, Magic Resize, and deeper team features usually sit on paid plans.",
     },
     {
-      q: "Can you make a logo in Canva?",
-      a: "Drafts and variants — yes. A final logo with a guideline and applications is better from a designer and locked in identity.",
+      q: "Can I make a logo in Canva?",
+      a: "Drafts and variants — yes. A final logo with guidelines and real-world uses is better from a designer and locked into your identity.",
     },
     {
-      q: "Why are letters showing as boxes?",
-      a: "The font doesn’t support your script (e.g. Cyrillic). Pick fonts that include it from the list or upload licensed ones of your own.",
+      q: "Why do letters show up as boxes?",
+      a: "The font doesn’t support your writing system (for example, Cyrillic). Pick fonts that include it, or upload licensed fonts you own.",
     },
   ],
   sections: [
@@ -40,8 +40,8 @@ export const canvaEn: BlogPost = {
       title: "Who Canva is for and why",
       level: 2,
       paras: [
-        "You need posts, covers, banners, and decks without a studio for every frame. Template → your text and photos → export PNG/JPG/PDF.",
-        "Non-professional designers, bloggers, SMM, and small-business ads win — when speed and one visual rhythm matter more than a unique illustration from scratch.",
+        "You need posts, covers, banners, and decks without a studio for every frame. Pick a template → swap in your text and photos → export PNG, JPG, or PDF.",
+        "People who aren’t full-time designers — bloggers, SMM, small-business ads — win when speed and a consistent visual rhythm matter more than a unique illustration from scratch.",
       ],
       lists: [
         {
@@ -49,31 +49,31 @@ export const canvaEn: BlogPost = {
           items: [
             "social content;",
             "simple banners and posters;",
-            "presentations and commercial proposals;",
+            "presentations and sales decks;",
             "print drafts (flyer, business card).",
           ],
         },
       ],
       links: [
         {
-          label: "Crello / VistaCreate",
+          label: "Crello / VistaCreate overview",
           href: "/en/blog/crello/",
         },
       ],
     },
     {
-      title: "Builder upsides",
+      title: "What Canva does well",
       level: 2,
       paras: [
-        "Low entry barrier: drag-and-drop, ready color and font combos, element and stock libraries. Cloud save and team collaboration.",
-        "Mobile apps sync drafts. You can build a set of “your” templates with logo and palette — the feed looks coherent without a new random layout every day.",
+        "Low barrier: drag-and-drop, ready color and font combos, element and stock libraries. Cloud save and team collaboration.",
+        "Mobile apps sync drafts. You can build a set of “your” templates with logo and palette — the feed stays coherent without a new random layout every day.",
       ],
       lists: [
         {
           intro: "What people usually value:",
           items: [
-            "fast start without Photoshop;",
-            "formats for platforms;",
+            "a fast start without Photoshop;",
+            "formats sized for each platform;",
             "team access;",
             "export at the quality you need;",
             "reusing layouts.",
@@ -82,8 +82,8 @@ export const canvaEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Practice",
-          text: "Set up a Brand Kit (colors, logo, fonts) — even on a minimal plan, brand discipline beats a “pretty someone else’s template”.",
+          title: "Practice tip",
+          text: "Set up a Brand Kit (colors, logo, fonts) — even on a minimal plan, brand discipline beats a pretty template that looks like someone else’s brand.",
           kind: "tip",
         },
       ],
@@ -93,26 +93,26 @@ export const canvaEn: BlogPost = {
           href: "/en/blog/aydentika-brenda/",
         },
         {
-          label: "Instagram template",
+          label: "Instagram templates",
           href: "/en/blog/shablon-instagram/",
         },
       ],
     },
     {
-      title: "Downsides and limits",
+      title: "Limits and when it falls short",
       level: 2,
       paras: [
         "This isn’t a “draw from scratch” editor: heavy retouch, vector identity, and non-standard layout hit a ceiling. Some conveniences (resize, premium stock) are on paid plans; terms change.",
-        "Non-Latin scripts need a font check. You need stable internet: everything is in the cloud. Auto-posting to social doesn’t cancel a content plan and post meaning.",
+        "Non-Latin scripts need a font check. You need a stable internet connection — everything lives in the cloud. Auto-posting to social doesn’t replace a content plan or a clear message in each post.",
       ],
       lists: [
         {
           intro: "When to call a designer:",
           items: [
-            "final logo and guideline;",
+            "final logo and guidelines;",
             "packaging and complex print;",
             "a campaign with a unique visual language;",
-            "layouts where the template “screams another brand”.",
+            "layouts where the template still screams another brand.",
           ],
         },
       ],
@@ -125,7 +125,7 @@ export const canvaEn: BlogPost = {
     },
   ],
   closing: [
-    "Canva speeds up marketing visual production on templates — if you keep brand discipline and honest expectations. For unique identity and complex carriers, leave room for a designer; for a neighboring online editor, see the VistaCreate/Crello overview.",
+    "Canva speeds up marketing visuals on templates — if you keep brand discipline and honest expectations. For unique identity and complex formats, leave room for a designer; for a neighboring online editor, see the VistaCreate / Crello overview.",
   ],
   related: [
     "crello",

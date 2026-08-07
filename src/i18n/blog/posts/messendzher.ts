@@ -10,8 +10,8 @@ export const messendzherEn: BlogPost = {
   excerpt:
     "A messenger is an app or web client for instant messages, calls, and files. How WhatsApp*, Telegram, and workplace chats differ — and how to roll them out without spam.",
   lead: [
-    "A messenger is a program or web client for instant messaging over the internet: text, media, files, often calls and groups. Both people need the same service and a network.",
-    "Below — what the format means, a look at popular apps without a cult of “billions of users from a 2021 article,” and how companies adopt them. Audience numbers and UI change — check current data. Meta* products are mentioned for information only.",
+    "A messenger is a program or web client for instant messaging over the internet: text, media, files, often calls and groups. Both people need the same service and a network connection.",
+    "What the format means, a look at popular apps without treating “billions of users from a 2021 article” as gospel, and how companies adopt them. Audience numbers and UI change — check current data. Meta* products are mentioned for information only.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -20,19 +20,19 @@ export const messendzherEn: BlogPost = {
   faq: [
     {
       q: "How is a messenger different from SMS?",
-      a: "It rides on data/Wi‑Fi, usually cheaper and richer in media. SMS stays a fallback and for service codes.",
+      a: "It runs over data/Wi‑Fi, usually cheaper and richer in media. SMS stays a fallback and for service codes.",
     },
     {
       q: "Can I message from WhatsApp* into Telegram?",
-      a: "No: chats don’t mix across messengers. Both people need the same service.",
+      a: "No: chats don’t cross messengers. Both people need the same service.",
     },
     {
       q: "Does a browser version count as a messenger?",
       a: "Yes, if it’s the official web client of the same service. Often it needs a phone link or a separate sign-in.",
     },
     {
-      q: "What should a business pick?",
-      a: "Wherever customers and the team already are: often Telegram, WhatsApp*, or a workplace suite by niche. Don’t spawn five channels without a reply playbook.",
+      q: "What messenger should a business pick?",
+      a: "Wherever customers and the team already are: often Telegram, WhatsApp*, or a workplace suite by niche. Don’t open five channels without a reply playbook.",
     },
     {
       q: "Is a work chat the same as a personal messenger?",
@@ -47,7 +47,7 @@ export const messendzherEn: BlogPost = {
       a: "No. Chats are a channel. Deals, statuses, and ownership belong in CRM or a shared tracker.",
     },
     {
-      q: "Do you need a separate Facebook Messenger*?",
+      q: "Do I need a separate Facebook Messenger*?",
       a: "If the audience is there and you can answer. Mind platform rules and jurisdiction; this article is informational.",
     },
   ],
@@ -58,7 +58,7 @@ export const messendzherEn: BlogPost = {
       paras: [
         "After install or sign-in you see a chat list. Messages go to the service’s servers (or another architecture) and reach the other person when they’re online.",
         "Typical kit: text, photo/video, documents, read receipts, groups, sometimes channels, bots, calls. Exact features depend on the product and version.",
-        "A separate class is on-site live-chat widgets: still chat, but inside your domain and support flow — not a “world” messenger.",
+        "A separate class is on-site live-chat widgets: still chat, but inside your domain and support flow — not a consumer “world” messenger.",
       ],
       lists: [],
     },
@@ -83,15 +83,15 @@ export const messendzherEn: BlogPost = {
       links: [
         {
           label: "WhatsApp in Instagram*",
-          href: "/blog/whatsapp-v-instagram/",
+          href: "/en/blog/whatsapp-v-instagram/",
         },
         {
           label: "WhatsApp* broadcasts",
-          href: "/blog/rassylka-whatsapp/",
+          href: "/en/blog/rassylka-whatsapp/",
         },
         {
           label: "Telegram bots",
-          href: "/blog/telegram-boty/",
+          href: "/en/blog/telegram-boty/",
         },
       ],
     },
@@ -107,38 +107,38 @@ export const messendzherEn: BlogPost = {
         {
           intro: "Mini playbook:",
           items: [
-            "hours and reply speed;",
-            "what you may promise in chat;",
-            "where leads go;",
-            "who owns the corporate number/bot;",
-            "no spam broadcasts without consent.",
+            "hours and reply speed",
+            "what you may promise in chat",
+            "where leads go",
+            "who owns the corporate number/bot",
+            "no spam broadcasts without consent",
           ],
         },
       ],
       links: [
         {
           label: "CRM",
-          href: "/blog/crm/",
+          href: "/en/blog/crm/",
         },
         {
           label: "Callback and contact channels",
-          href: "/blog/obratnyy-zvonok/",
+          href: "/en/blog/obratnyy-zvonok/",
         },
       ],
     },
     {
-      title: "Mistakes",
+      title: "Common mistakes",
       level: 2,
       paras: [
         "Spamming strangers’ numbers “because the messenger is free.”",
         "Five channels with no owner and no CRM — chaos, not omnichannel.",
         "Storing passwords and client card data in the chat.",
-        "Expecting “we plugged in WhatsApp* — sales grew by themselves” without an offer and reply speed.",
+        "Expecting “we added WhatsApp* — sales grew by themselves” without an offer and reply speed.",
       ],
       lists: [],
     },
     {
-      title: "What to remember",
+      title: "Takeaways",
       level: 2,
       paras: [
         "A messenger is instant chat over the internet inside one service.",

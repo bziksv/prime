@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for regionalnoe-seo — same structure as RU JSON. */
 export const regionalnoeSeoEn: BlogPost = {
   slug: "regionalnoe-seo",
-  title: "Regional SEO: how to promote a site in the regions",
+  title: "Regional SEO: promoting a site in local markets",
   date: "2021-03-18",
   category: "SEO",
   cover: "/images/blog/regionalnoe-seo/cover-en.webp",
   excerpt:
-    "How regional SEO differs from nationwide work, how to set region signals in Webmaster and on the site, and how to run 2–3 cities without confusion.",
+    "How regional SEO differs from nationwide work, how to set region signals in Webmaster and on the site, and how to run two or three cities without confusion.",
   lead: [
     "Regional SEO targets search in specific cities and areas: local queries, maps, contacts, and landings for branches or service zones.",
-    "Below — the difference from federal SEO, setup, city pages, maps, and common mistakes. Regional TOP is planned months of work — not a “region checkbox” in a panel.",
+    "It’s a different game from nationwide SEO—signals, city pages, maps, and the mistakes that waste months. Ranking locally is planned over months, not a single “region” toggle in a panel.",
   ],
   faq: [
     {
@@ -19,45 +19,45 @@ export const regionalnoeSeoEn: BlogPost = {
       a: "No. You need content, contacts, commercial factors, and often separate landings. The panel is one signal among many.",
     },
     {
-      q: "How do you push 2–3 cities?",
+      q: "How do I promote two or three cities?",
       a: "Separate pages (or another agreed scheme), unique copy and NAP — not copy-paste with city-name find/replace.",
     },
     {
-      q: "Is Google regional too?",
+      q: "Does regional SEO apply to Google as well?",
       a: "Yes — location and local signals matter. Tools and maps differ; the “locality + relevance” logic is the same.",
     },
     {
-      q: "Do you need reviews and maps?",
+      q: "Do I need reviews and map listings?",
       a: "For local business — often critical: maps, directories, consistent NAP, replies to reviews.",
     },
     {
-      q: "Can one text cover every city?",
+      q: "Can one page cover every city?",
       a: "Poor idea. Reflect real services, cases, addresses, delivery terms — don’t only swap the city name.",
     },
     {
-      q: "Subdomains city.site.com or folders /city/?",
+      q: "Should I use subdomains (city.site.com) or folders (/city/)?",
       a: "Both exist. Uniqueness, ties to the main site, and avoiding thin templates matter more than a “magic” URL scheme.",
     },
     {
-      q: "What about services with no office (travel / delivery)?",
+      q: "What about services with no office (travel or delivery)?",
       a: "State the service area honestly; city pages only where you really work. A fake address hurts more than an honest “zone”.",
     },
     {
-      q: "When to expect results?",
-      a: "Page prep — roughly around a month. TOP for a city keyword set is planned 2–6 months after work starts — no date guarantee.",
+      q: "When should I expect results?",
+      a: "Page prep usually takes about a month. Ranking a city keyword set in the TOP is planned for 2–6 months after work starts—with no date guarantee.",
     },
   ],
   sections: [
     {
-      title: "Region vs the whole country",
+      title: "Local vs nationwide",
       level: 2,
       paras: [
-        "A nationwide query is broader and more competitive. A regional one brings “nearby” audience, so it often converts to a visit or call — and needs different semantics: “service + city”, districts, metro, delivery across the area.",
-        "Locality isn’t a word in the title; it’s a bundle of signals: real presence or service zone, a branch page, contacts, maps, reviews, and clear terms for that city.",
+        "A nationwide query is broader and more competitive. A regional one brings a “nearby” audience, so it often converts to a visit or call—and needs different keywords: “service + city,” districts, metro, delivery across the area.",
+        "Locality isn’t a word in the title; it’s a bundle of signals: real presence or service area, a branch page, contacts, maps, reviews, and clear terms for that city.",
       ],
       lists: [
         {
-          intro: "What strengthens a region:",
+          intro: "What strengthens local relevance:",
           items: [
             "address and phone on the site;",
             "contacts / branch page;",
@@ -70,25 +70,25 @@ export const regionalnoeSeoEn: BlogPost = {
       links: [
         {
           label: "Google Business Profile",
-          href: "/blog/google-biznes/",
+          href: "/en/blog/google-biznes/",
         },
       ],
     },
     {
-      title: "Semantics and commercial factors",
+      title: "Keywords and commercial factors",
       level: 2,
       paras: [
-        "Build a geo-dependent core: not only “service + Voronezh”, but districts, “near me”, local brand wording. Cluster: one landing — one main city/service intent, without cannibalization between branches.",
-        "For local SERPs, commercial factors often beat “one more paragraph”: price cues, payment options, guarantees, venue photos, hours, who takes the order.",
+        "Build a location-based keyword set: not only “service + city,” but districts, “near me,” and local brand wording. Cluster so one landing maps to one main city/service intent—without cannibalization between branches.",
+        "For local SERPs, commercial factors often beat “one more paragraph”: price cues, payment options, guarantees, venue photos, hours, and who takes the order.",
       ],
       lists: [
         {
-          intro: "Into the core and onto the page:",
+          intro: "Include in your keyword set and on the page:",
           items: [
             "service + city / district;",
             "delivery and lead times by zone;",
             "branch differences (if any);",
-            "no fake “all cities in the country” in one text.",
+            "no fake “we serve every city in the country” on one page.",
           ],
         },
       ],
@@ -99,7 +99,7 @@ export const regionalnoeSeoEn: BlogPost = {
         },
         {
           label: "Keyword cannibalization",
-          href: "/blog/kannibalizatsiya-zaprosov/",
+          href: "/en/blog/kannibalizatsiya-zaprosov/",
         },
       ],
     },
@@ -107,8 +107,8 @@ export const regionalnoeSeoEn: BlogPost = {
       title: "How to set region and site",
       level: 2,
       paras: [
-        "Set the region in Yandex Webmaster where it applies, and align it with the real business — not “Moscow” if you only work in the region. Build landings, check commercial blocks, and analytics with city breakdown when needed.",
-        "Prep — tech, structure, contacts, copy, and CTAs — usually takes about a month. That’s starting the work, not a promise of instant rankings.",
+        "Set the region in Yandex Webmaster where it applies, and align it with the real business—not “Moscow” if you only serve the region. Build landings, check commercial blocks, and break analytics out by city when needed.",
+        "Prep—tech, structure, contacts, copy, and CTAs—usually takes about a month. That’s starting the work, not a promise of instant rankings.",
       ],
       lists: [
         {
@@ -131,7 +131,7 @@ export const regionalnoeSeoEn: BlogPost = {
       notes: [
         {
           title: "Timelines",
-          text: "Prep of regional pages — weeks. Building TOP for a city core — planned 2–6 months after promotion starts.",
+          text: "Prep of regional pages — weeks. Building rankings for a city core is planned for 2–6 months after promotion starts.",
         },
       ],
     },
@@ -140,11 +140,11 @@ export const regionalnoeSeoEn: BlogPost = {
       level: 2,
       paras: [
         "A separate page makes sense when the city has a real difference: office, team, delivery zone, assortment, cases, or prices. The user should find more than an auto-replaced place name.",
-        "Put NAP in a consistent form, directions, hours, and a clear CTA. Those details should match maps. Don’t spawn dozens of thin URLs “for every village” you never visit.",
+        "Put NAP in a consistent form, directions, hours, and a clear CTA. Those details should match maps. Don’t create dozens of thin URLs “for every village” you never visit.",
       ],
       lists: [
         {
-          intro: "Landing contents:",
+          intro: "What belongs on the landing:",
           items: [
             "real contacts;",
             "services and terms for the city;",
@@ -161,7 +161,10 @@ export const regionalnoeSeoEn: BlogPost = {
           rows: [
             ["Office / warehouse in the city", "Separate page + map"],
             ["Regular delivery / on-site visits", "Zone page with terms"],
-            ["One-off order from a nearby area", "Don’t spawn a URL for the keyword"],
+            [
+              "One-off order from a nearby area",
+              "Don’t create a URL for the keyword",
+            ],
             ["Network of 2–3 branches", "A page each + shared NAP control"],
           ],
         },
@@ -176,19 +179,19 @@ export const regionalnoeSeoEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Local minimum:",
+          intro: "Local essentials:",
           items: [
             "Yandex Maps / Google Business Profile (by audience);",
             "2GIS and niche directories — by vertical;",
             "ask for a review after a successful deal;",
-            "reply to negatives without a fight.",
+            "reply to negatives without escalating.",
           ],
         },
       ],
       links: [
         {
           label: "Reviews for sales",
-          href: "/blog/otzyvy-dlya-prodazh/",
+          href: "/en/blog/otzyvy-dlya-prodazh/",
         },
       ],
     },
@@ -197,7 +200,7 @@ export const regionalnoeSeoEn: BlogPost = {
       level: 2,
       paras: [
         "Avoid fake addresses, doorway “city1…city50” pages, hidden city-list text, and thin templates. Local SERPs reward usefulness — not a simulated office.",
-        "Don’t promise TOP in every region after a panel toggle. Rankings grow month by month; the planned horizon for a core is 2–6 months after promotion starts.",
+        "Don’t promise top rankings in every region after a panel toggle. Rankings grow month by month; the planned horizon for a core is 2–6 months after promotion starts.",
       ],
       lists: [
         {
@@ -205,7 +208,7 @@ export const regionalnoeSeoEn: BlogPost = {
           items: [
             "checkbox address with no office;",
             "copy-paste with city swap;",
-            "TOP promises in all regions at once;",
+            "top-ranking promises in all regions at once;",
             "indexing thousands of filter URLs as “districts”.",
           ],
         },
@@ -226,7 +229,7 @@ export const regionalnoeSeoEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "City report:",
+          intro: "City report metrics:",
           items: [
             "core visibility;",
             "landing traffic;",
@@ -238,8 +241,8 @@ export const regionalnoeSeoEn: BlogPost = {
       ],
       links: [
         {
-          label: "Goals in Metrika",
-          href: "/blog/metrika-tseli/",
+          label: "Goals in Yandex Metrica",
+          href: "/en/blog/metrika-tseli/",
         },
       ],
     },

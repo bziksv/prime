@@ -10,41 +10,40 @@ export const analitikaTelegramEn: BlogPost = {
   excerpt:
     "How to read Telegram channel stats: how views differ from reach, which metrics to watch in Insights and third-party tools — without the outdated “Telegram has no analytics.”",
   lead: [
-    "On a Telegram post the eye counter is views — not a magic ER. Mixing up “reach = views = engagement” breaks how you judge channels and ad buys.",
-    "Below — how the basic numbers work, what to add from official channel stats and external summaries, and why buying views is useless for business. Launching a channel is a separate article.",
+    "On a Telegram post the view counter shows opens, not magical ER. Mixing “reach = views = engagement” breaks channel and ad-buy evaluation.",
+    "Official channel Insights (when available) plus UTM to the site cover most jobs; third-party catalogs help when you buy seeds. Buying views is useless for business. Launching a channel is covered separately.",
   ],
   faq: [
     {
       q: "Are post views unique people?",
-      a: "Not always one-to-one: repeat opens can grow the counter. For ads, watch dynamics and share of subscribers — not a single “eye” number.",
+      a: "Not always one-to-one: reopening can increase the counter. For ads, watch dynamics and share of subscribers — not a single “eye” figure.",
     },
     {
-      q: "Is there official analytics?",
-      a: "Channels with enough subscribers get Insights (reach, growth, sources — the set depends on the version). Check Telegram’s help.",
+      q: "Is there official Telegram analytics?",
+      a: "Channels with enough subscribers get Insights (reach, growth, sources — the set depends on version). Check Telegram Help.",
     },
     {
-      q: "Can I count classic ER like on Instagram?",
+      q: "Can you compute classic ER like on Instagram?",
       a: "Partly: reactions, comments (if enabled), forwards/shares. Fix your own formula and compare the channel to itself.",
     },
     {
-      q: "Do I need TGStat and peers?",
-      a: "Handy for comparing channels and buying ads. Don’t give them admin access without need; for your own channel Insights + a spreadsheet often suffice.",
+      q: "Do you need TGStat and similar tools?",
+      a: "Handy for comparing channels and buys. Don’t give them admin access without need; for your own channel Insights + a spreadsheet often suffice.",
     },
     {
-      q: "Should I buy views?",
-      a: "No: they distort metrics, wreck ad pricing and trust. Better a strong post and honest seeding.",
+      q: "Should you buy Telegram views?",
+      a: "No: they distort metrics, wreck ad pricing, and trust. Better a strong post and an honest seed.",
     },
   ],
   sections: [
     {
-      title: "Why Telegram analytics feel “different”",
+      title: "Why Telegram analytics feels “different”",
       level: 2,
       paras: [
-        "A channel is an author feed: no familiar like grid like IG in 2015. You do get post views, reactions, optional comments, and forwards.",
-        "Old guides said “there’s no stats” — that’s no longer true for many channels. Base: post counter + Insights + external catalogs when needed.",
-        "Chats and channels count differently: in a chat messages and active members matter; in a channel — view-through and base growth.",
+        "A channel is an author feed: no familiar like grid like IG 2015. You do get post views, reactions, optional comments, and forwards.",
+        "Old guides said “there’s no stats” — that’s no longer true for many channels. Base: post counter + Insights + external catalogs by task.",
+        "Chats and channels measure differently: in a chat, messages and active members matter; in a channel — watch-through and base growth.",
       ],
-      lists: [],
       links: [
         {
           label: "Telegram channel from scratch",
@@ -53,18 +52,20 @@ export const analitikaTelegramEn: BlogPost = {
       ],
     },
     {
-      title: "Views and reach: don’t mix them up",
+      title: "Views and reach: don’t mix them",
       level: 2,
       paras: [
-        "The post counter grows from opens. One person can add several views on reopens — bake in a margin of error.",
-        "Reach (when available in Insights) is closer to “how many people saw” over a period. For ads, compare post views to subscriber count: an abnormally high % on a dead base is a view-buying red flag.",
-        "Average weekly post views beat a one-off “record” after a seed.",
+        "The post counter grows from opens. One person can add several views on revisits — bake in a margin of error.",
+        "Reach (when available in Insights) is closer to “how many people saw” over a period. For ads, compare post views to subscriber count: an abnormally high % on a dead base is a fake-views red flag.",
+        "Average views over a week beat a one-off “record” after a seed.",
       ],
-      lists: [],
       notes: [
         {
+          kind: "tip",
           title: "Important",
-          text: "Don’t blindly divide “eye” by subscribers and call it ER: without reactions/forwards that’s view share, not engagement.",
+          paras: [
+            "Don’t blindly divide views by subscribers and call it ER: without reactions/forwards that’s a view share, not engagement.",
+          ],
         },
       ],
     },
@@ -75,7 +76,7 @@ export const analitikaTelegramEn: BlogPost = {
         "Subscriber growth/churn and where they came from (if Insights shows sources).",
         "Views by post type: long breakdown vs short announcement vs creative.",
         "Reactions and forwards — a “saved / sent to a friend” signal.",
-        "Link clicks — via UTM to the site or bot, or the channel only “likes itself” with no leads.",
+        "Link clicks — via UTM to the site or bot, otherwise the channel “likes itself” with no leads.",
       ],
       lists: [
         {
@@ -93,35 +94,32 @@ export const analitikaTelegramEn: BlogPost = {
       title: "External metrics and ads",
       level: 2,
       paras: [
-        "Catalogs like TGStat compute ERR, citability, mentions — useful when buying ads from channels. Check data freshness and sample.",
-        "Before seeding, look at view history: a steady “saw” after each post is healthier than a permanent ceiling on every post at once.",
-        "Your own complex KPIs (“gross rating” indexes) from old articles can be simplified: view share of the base + reactions + clicks.",
+        "Catalogs like TGStat compute ERR, citation, mentions — handy when buying ads from channels. Check data freshness and sample.",
+        "Before a seed, look at view history: a steady “sawtooth” after each post is healthier than a permanent ceiling on every post at once.",
+        "Complex DIY KPIs from old articles can be simplified: view share of base + reactions + clicks.",
       ],
-      lists: [],
     },
     {
-      title: "Typical mistakes reading the numbers",
+      title: "Typical number-reading mistakes",
       level: 2,
       paras: [
-        "Treating hundreds of millions of messenger users as your audience — no; look at the channel’s niche.",
+        "Treating hundreds of millions of messenger users as your audience — no; look at the channel niche.",
         "Judging a channel only by subscriber count without views and audience quality.",
-        "Comparing an ad post in “prime time” to organic on Friday night with no time adjustment.",
+        "Comparing a prime-time ad post with Friday-evening organic without adjusting for time.",
       ],
-      lists: [],
     },
     {
-      title: "What to remember",
+      title: "Takeaways",
       level: 2,
       paras: [
-        "The “eye” is post views; engagement is counted separately.",
-        "Insights + UTM cover 80% of tasks without exotic formulas.",
-        "Buying views breaks both analytics and ad pricing.",
+        "The view counter is post opens; engagement is counted separately.",
+        "Insights + UTM cover 80% of jobs without exotic formulas.",
+        "Fake views break both analytics and ad pricing.",
       ],
-      lists: [],
     },
   ],
   closing: [
-    "Once a week write down median views and 2–3 takeaways by rubrics — enough to steer content faster than hunting for a “perfect index” from someone else’s table.",
+    "Once a week write down median views and two or three takeaways by column — enough to fix content faster than hunting a “perfect index” from someone else’s spreadsheet.",
   ],
   related: [
     "telegram-kanal",

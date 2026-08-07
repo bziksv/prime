@@ -5,17 +5,17 @@ export const saytPeredReklamoyEn: BlogPost = {
   slug: "sayt-pered-reklamoy",
   title: "Don’t burn the budget: check the site before launching ads",
   date: "2020-03-18",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/sayt-pered-reklamoy/cover-en.webp",
   excerpt:
     "A site checklist before Yandex Direct and Google Ads: goals and KPIs, forms and thank-you pages, analytics, first screen, trust, mobile, and lead delivery — so you don’t burn clicks on a raw landing.",
   lead: [
     "If paid search brings “zero leads,” the ad account isn’t always the only culprit: people click and hit an unclear offer, a broken form, or a site with no goals in analytics. Tweaking bids on a raw landing is the fastest way to burn budget.",
-    "Below — the order for checking a site before launching Direct/Ads. We don’t promise “conversion ×N in a couple of days” from old cases; an honest pass through the checklist is usually cheaper than a week of blind media spend. Account mistakes live in neighboring pieces.",
+    "Here’s a practical order for checking a site before you launch Direct/Ads. We don’t promise “conversion ×N in a couple of days” from old case studies; an honest checklist pass is usually cheaper than a week of blind spend. Common account mistakes are covered in related articles.",
   ],
   faq: [
     {
-      q: "Where do I start if ads are already running?",
+      q: "Where should I start if ads are already running?",
       a: "Pause or set a minimal limit + a quick audit of goals, forms, and the first screen. Otherwise you keep paying for the same bounce.",
     },
     {
@@ -23,7 +23,7 @@ export const saytPeredReklamoyEn: BlogPost = {
       a: "One tied to money: leads by cost, revenue within an ROAS ceiling. CTR and click count are secondary.",
     },
     {
-      q: "Is a thank-you page required?",
+      q: "Do I need a thank-you page?",
       a: "A handy way to capture a form submit as one goal. Alternative — a submit event; what matters is unambiguous lead tracking.",
     },
     {
@@ -35,12 +35,12 @@ export const saytPeredReklamoyEn: BlogPost = {
       a: "It helps tab recognition; don’t count on it in the Direct auction. Priority — offer, form, mobile.",
     },
     {
-      q: "Does this replace campaign setup?",
+      q: "Does a site check replace campaign setup?",
       a: "No. It’s a filter: “can we send traffic yet?” Keywords, negatives, and bids are separate.",
     },
     {
-      q: "How many hours for fixes?",
-      a: "Critical holes (forms, goals, mobile CTA) are often closed in days, not months. Cosmetics follow KPI priority.",
+      q: "Are critical fixes usually done in days?",
+      a: "Critical holes (forms, goals, mobile CTA) are often fixed in days, not months. Cosmetics follow KPI priority.",
     },
   ],
   sections: [
@@ -65,7 +65,7 @@ export const saytPeredReklamoyEn: BlogPost = {
       links: [
         {
           label: "Ad metrics",
-          href: "/blog/metriki-reklamy/",
+          href: "/en/blog/metriki-reklamy/",
         },
       ],
     },
@@ -116,7 +116,7 @@ export const saytPeredReklamoyEn: BlogPost = {
       title: "Trust, navigation, prices, and service",
       level: 2,
       paras: [
-        "Menus and sections must be unambiguous: a person from an ad shouldn’t have to guess the IA. Promos — large and honest (new/old price, gift terms), not tiny grey type.",
+        "Menus and sections must be unambiguous: a person from an ad shouldn’t have to guess the IA. Promos — large and honest (new/old price, gift terms), not tiny gray type.",
         "Openness: about the company, production, cases, certificates — what lowers “fly-by-night” fear. Prices current and in a clear currency; if “price on request” — explain why and offer a quick estimate.",
         "Product/object photos without blur and stock swaps. Reviews — a separate block or in the card. Delivery and payment, FAQ, contacts (clickable +phone on mobile), hours — the basic service layer without which ads feed bounces.",
       ],
@@ -151,11 +151,11 @@ export const saytPeredReklamoyEn: BlogPost = {
       links: [
         {
           label: "Ad campaign mistakes",
-          href: "/blog/oshibki-reklamnoy-kampanii/",
+          href: "/en/blog/oshibki-reklamnoy-kampanii/",
         },
         {
           label: "Yandex Direct budget",
-          href: "/blog/byudzhet-yandeks-direkt/",
+          href: "/en/blog/byudzhet-yandeks-direkt/",
         },
       ],
     },

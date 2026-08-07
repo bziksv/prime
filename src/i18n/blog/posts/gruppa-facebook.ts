@@ -11,7 +11,7 @@ export const gruppaFacebookEn: BlogPost = {
     "How to approach a company presence on Facebook: Page vs community, content, moderation, and promotion — an informational breakdown without urging you to use the platform.",
   lead: [
     "Facebook has historically been used as a company showcase, a channel for international audiences, and a link to Meta advertising tools. For some niches, engagement and B2B context matter more than “mass reach like VK”.",
-    "Below — the logic of launching a Page/Group, content, keeping activity alive, and how paid promotion differs from organic. The UI changes; this material is informational. The Meta products disclaimer is on the page.",
+    "Below we cover Page vs Group setup, content, keeping activity alive, and how paid promotion differs from organic. The UI changes; this material is informational. The Meta products disclaimer is on the page.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -19,7 +19,7 @@ export const gruppaFacebookEn: BlogPost = {
   },
   faq: [
     {
-      q: "Page or Group?",
+      q: "Should you use a Page or a Group?",
       a: "A Page is the official brand profile and ads base. A Group is a community with discussions. Teams often run a Page; add a Group when participant dialogue is needed.",
     },
     {
@@ -36,14 +36,14 @@ export const gruppaFacebookEn: BlogPost = {
     },
     {
       q: "How do you measure success?",
-      a: "Not likes alone: saves, on-topic comments, clicks, leads, dialogue quality. For ads — CPA/ROMI.",
+      a: "Not likes alone: saves, on-topic comments, clicks, leads, dialogue quality. For ads — CPA and ROMI (return on marketing investment).",
     },
     {
       q: "Do you need paid ads immediately?",
       a: "First set up the Page, offer, and landing. Ads amplify a working chain — they don’t rescue an empty profile.",
     },
     {
-      q: "What about moderation?",
+      q: "How should you moderate a Group?",
       a: "Clear spam, answer questions, fix community rules. An abandoned Page hurts trust more than having none.",
     },
   ],
@@ -52,16 +52,16 @@ export const gruppaFacebookEn: BlogPost = {
       title: "Why a business Facebook presence",
       level: 2,
       paras: [
-        "The platform fits where the audience already sits: international contacts, professional discussion, the ecosystem ads account. Broad geography helps export and remote services.",
+        "The platform fits where the audience already sits: international contacts, professional discussion, the Meta Ads account. Broad geography helps export and remote services.",
         "Don’t confuse “many users worldwide” with “your audience is here”. First check where your clients and partners live, and which access limits apply to your team.",
       ],
       lists: [
         {
           intro: "Typical jobs:",
           items: [
-            "brand showcase and company news;",
-            "support and Q&A;",
-            "leads to the site / messenger;",
+            "brand showcase and company news",
+            "support and Q&A",
+            "leads to the site / messenger",
             "hiring and employer brand in some niches.",
           ],
         },
@@ -78,9 +78,9 @@ export const gruppaFacebookEn: BlogPost = {
         {
           intro: "Minimum at launch:",
           items: [
-            "filled About and category;",
-            "link to site / landing;",
-            "3–5 useful starter posts;",
+            "filled About and category",
+            "link to site / landing",
+            "3–5 useful starter posts",
             "someone responsible for comment replies.",
           ],
         },
@@ -105,7 +105,7 @@ export const gruppaFacebookEn: BlogPost = {
       level: 2,
       paras: [
         "Organic: useful content, employee mentions, partner shares, joining relevant discussions without spam. Fake reaction inflation doesn’t replace demand.",
-        "Paid promotion makes sense when offer, audience, and landing are clear. Count lead cost and lead quality — not reach alone. Ads Manager UI and service availability depend on region — follow current help.",
+        "Paid promotion makes sense when offer, audience, and landing are clear. Count lead cost and lead quality — not reach alone. Ads Manager UI and service availability depend on region — follow current Help.",
       ],
       links: [
         {

@@ -5,13 +5,13 @@ export const tsvetInternetMagazinaEn: BlogPost = {
   slug: "tsvet-internet-magazina",
   title: "Choosing a color scheme for an online store",
   date: "2018-05-16",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/tsvet-internet-magazina/cover-en.webp",
   excerpt:
     "How to pick a storefront palette: link to brand and product, audience, color wheel, CTA accent, and readability — without the myth that “color alone lifts conversion by tens of percent”.",
   lead: [
     "Storefront color shapes brand perception and button visibility — it doesn’t replace demand, price, and service. Changing a CTA shade sometimes moves conversion in an A/B — and often gives zero if the offer is weak.",
-    "Below — a practical frame: one scheme with the brand, fit to niche and audience, 2–3 colors + a “loud” accent, text contrast. Figures like “in 85% of cases color decides the purchase” from old reviews aren’t used as fact — a subjective guide.",
+    "Use this practical frame: one scheme with the brand, fit to niche and audience, 2–3 colors + a “loud” accent, text contrast. Figures like “in 85% of cases color decides the purchase” from old reviews aren’t used as fact — a subjective guide.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const tsvetInternetMagazinaEn: BlogPost = {
       a: "No. Offer, stock, price, delivery, and trust first. CTA color is a test hypothesis — not magic.",
     },
     {
-      q: "How many colors in the palette?",
+      q: "How many colors should be in the palette?",
       a: "Usually 2–3: base, support, accent. More — risk of visual noise on the catalog.",
     },
     {
@@ -27,11 +27,11 @@ export const tsvetInternetMagazinaEn: BlogPost = {
       a: "A common stereotype (finance, IT), not a law. Check niche, competitors, and your identity; validate with the real audience.",
     },
     {
-      q: "How to align site and ads?",
+      q: "How do I align site and ads colors?",
       a: "One palette across storefront, banners, and packaging reduces the “another company” feel. Mismatches hurt recognition.",
     },
     {
-      q: "Link to brand identity?",
+      q: "How does this link to brand identity?",
       a: "The store palette is part of identity. If logo and ads share colors and the shop doesn’t — the brand falls apart.",
     },
   ],

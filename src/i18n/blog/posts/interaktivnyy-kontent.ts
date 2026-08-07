@@ -5,13 +5,13 @@ export const interaktivnyyKontentEn: BlogPost = {
   slug: "interaktivnyy-kontent",
   title: "Interactive content: tests, calculators, and visuals",
   date: "2019-12-26",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/interaktivnyy-kontent/cover-en.webp",
   excerpt:
     "How to make interactive content useful: tests and surveys, calculators, configurators, timelines — and why usefulness beats a “wow” effect.",
   lead: [
     "Interactive content engages stronger than a static article: the user answers, calculates, runs a scenario, and gets a personal outcome. That cuts bounce and gives segmentation data — if the format fits the business.",
-    "Below — main types (tests, calculators, visual interactives, scales) and quality criteria. A separate quiz-landing breakdown is in a neighboring article.",
+    "Tests, calculators, visual interactives, and scales work when the outcome feels personal — not when the form is a gimmick. A deeper quiz-landing breakdown is in a related article.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const interaktivnyyKontentEn: BlogPost = {
       a: "Higher engagement and a “personal” result feeling. Without usefulness it’s a toy: time on page grows, leads don’t.",
     },
     {
-      q: "Which format to pick first?",
+      q: "Which format should you pick first?",
       a: "The one that closes the client’s job: price/time estimate, option match, knowledge check. An entertainment test — if brand and niche can carry it.",
     },
     {
@@ -36,7 +36,7 @@ export const interaktivnyyKontentEn: BlogPost = {
     },
     {
       q: "Can you overdo it?",
-      a: "Yes: a heavy widget on every page, a complex calculator with no job, a survey for its own sake. Usefulness beats animation.",
+      a: "Yes: a heavy widget on every page, a complex calculator with no job, a survey just because. Usefulness beats animation.",
     },
   ],
   sections: [
@@ -45,11 +45,11 @@ export const interaktivnyyKontentEn: BlogPost = {
       level: 2,
       paras: [
         "Static text is read; interactive makes people act. For content marketing it’s a way to hold attention and collect preference signals — if the scenario fits the niche.",
-        "Differentiation from competitors works when the format truly helps choose, calculate, or understand — not just “there’s a slider”.",
+        "Differentiation from competitors works when the format truly helps choose, calculate, or understand — not just “there’s a slider.”",
       ],
       lists: [
         {
-          intro: "Upsides when used well:",
+          intro: "Benefits when used well:",
           items: [
             "higher engagement and time on site;",
             "data for segments and the sales script;",
@@ -63,7 +63,7 @@ export const interaktivnyyKontentEn: BlogPost = {
       title: "Tests, surveys, and quizzes",
       level: 2,
       paras: [
-        "The most familiar format: a few questions → a result or “like most people”. Easy completion lowers the barrier; social comparison boosts finish rates.",
+        "The most familiar format: a few questions → a result or “like most people.” Easy completion lowers the barrier; social comparison boosts finish rates.",
         "For business, linking questions to the offer matters more: service match, job type, purchase readiness. An empty “which fruit are you” with no product path gets clicks, not leads.",
       ],
       lists: [
@@ -88,7 +88,7 @@ export const interaktivnyyKontentEn: BlogPost = {
       title: "Calculators",
       level: 2,
       paras: [
-        "An online estimate closes the pain “how much will this cost / how long will it take”. Mortgage, delivery, print run, renovation time — the user gets a number without a call and more often leaves a contact for clarification.",
+        "An online estimate closes the pain “how much will this cost / how long will it take.” Mortgage, delivery, print run, renovation time — the user gets a number without a call and more often leaves a contact for clarification.",
         "A good calculator is transparent about assumptions: what’s in the sum, which fields are required, where a consult is needed. A complex “black box” cuts trust.",
       ],
       lists: [
@@ -107,7 +107,7 @@ export const interaktivnyyKontentEn: BlogPost = {
       title: "Visual interactives and configurators",
       level: 2,
       paras: [
-        "Before/after sliders, maps, 3D previews, build-your-spec tools — formats where the user turns parameters and sees change. A car, furniture, or plan configurator turns an abstract catalog into “my option”.",
+        "Before/after sliders, maps, 3D previews, build-your-spec tools — formats where the user turns parameters and sees change. A car, furniture, or plan configurator turns an abstract catalog into “my option.”",
         "Build cost is higher than a builder test, but the tool can live for years if product and options stay stable.",
       ],
     },
@@ -123,8 +123,8 @@ export const interaktivnyyKontentEn: BlogPost = {
       title: "What matters more than “wow”",
       level: 2,
       paras: [
-        "Design and animation help, but don’t save a format off-topic. Pick interactive for the audience’s job; measure completions and conversion — not only “pretty in the deck”.",
-        "The downside is time and sometimes budget to build. The upside is differentiation and lasting traffic to a strong tool. Start with one strong scenario, not a zoo of widgets.",
+        "Design and animation help, but don’t save a format off-topic. Pick interactive for the audience’s job; measure completions and conversion — not only “pretty in the deck.”",
+        "The downside is time and sometimes budget to build. The benefit is differentiation and lasting traffic to a strong tool. Start with one strong scenario, not a zoo of widgets.",
       ],
       notes: [
         {

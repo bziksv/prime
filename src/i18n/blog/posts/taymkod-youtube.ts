@@ -11,7 +11,7 @@ export const taymkodYoutubeEn: BlogPost = {
     "What a YouTube timecode is: chapters in the description, clickable markers, a URL with a time parameter — and why viewers and channels benefit, without outdated Studio screenshots.",
   lead: [
     "A YouTube timecode is a time marker in a video: `1:23` in the description or a link that opens at that second. On long uploads it’s a table of contents — not an “algorithm secret.”",
-    "Below — why add chapters, how to format the description, how to copy a timed URL, and what effect to expect. Studio menus change; use current YouTube Help as the source of truth.",
+    "This piece covers why chapters help, how to format the description, how to copy a timed URL, and what effect to expect. Studio menus change; use current YouTube Help as the source of truth.",
   ],
   faq: [
     {
@@ -23,7 +23,7 @@ export const taymkodYoutubeEn: BlogPost = {
       a: "For automatic chapters you usually need a first marker at zero and several items. Check current YouTube Help — limits get updated.",
     },
     {
-      q: "What time format?",
+      q: "What time format should I use?",
       a: "Often `M:SS` or `H:MM:SS` at the start of a description line, then the block title. Example: `0:00 Intro` / `2:15 Case breakdown`.",
     },
     {
@@ -73,7 +73,7 @@ export const taymkodYoutubeEn: BlogPost = {
           href: "/en/blog/opisanie-youtube-kanala/",
         },
         {
-          label: "Channel growth",
+          label: "Growing a YouTube channel",
           href: "/en/blog/raskrutka-youtube/",
         },
       ],
@@ -100,7 +100,7 @@ export const taymkodYoutubeEn: BlogPost = {
       paras: [
         "To drop someone on a fragment, send a URL with a time marker. On desktop the player usually has “copy link at current time.”",
         "Manually you can add a time parameter to the video URL (seconds or `1m30s` — depends how YouTube accepts links in your client). Test the link in incognito.",
-        "Handy for comments, messengers, and blog posts: “bug fix starts at 4:12.”",
+        "Useful for comments, messengers, and blog posts: “bug fix starts at 4:12.”",
       ],
       lists: [
         {
@@ -125,8 +125,8 @@ export const taymkodYoutubeEn: BlogPost = {
       lists: [],
       links: [
         {
-          label: "Editing for YouTube",
-          href: "/blog/montazh-youtube/",
+          label: "YouTube video editing",
+          href: "/en/blog/montazh-youtube/",
         },
         {
           label: "Video buttons and elements",

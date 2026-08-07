@@ -5,13 +5,13 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
   slug: "optimizatsiya-konversii",
   title: "Website conversion optimization: how to measure and what to test",
   date: "2021-09-13",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/optimizatsiya-konversii/cover-en.webp",
   excerpt:
     "What conversion rate is, how to calculate it, how to work the funnel, and which hypotheses to test: forms, CTAs, speed, trust — without myths about “average internet conversion.”",
   lead: [
     "Conversion is the share of visitors who complete a target action: a lead, a purchase, a call, a signup. It’s measured in percent and improved with focused edits — not “more ad budget.”",
-    "Below — the formula, the funnel, UX and content hypotheses, A/B tests. “Average niche conversion” figures from old reviews are order-of-magnitude cues, not a norm for your site.",
+    "Measure the funnel, then test UX and content hypotheses — including A/B when volume allows. “Average niche conversion” figures from old reviews are rough cues, not your KPI.",
   ],
   faq: [
     {
@@ -19,11 +19,11 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
       a: "Target actions ÷ visits (or sessions) × 100%. Fix what counts as the goal and measure in one tool (Analytics / GA4 / CRM).",
     },
     {
-      q: "What conversion is “normal”?",
+      q: "What conversion rate is “normal”?",
       a: "It depends on niche, traffic, and deal complexity. Compare yourself to yourself: week to week, channel to channel — not to someone else’s “9% on social.”",
     },
     {
-      q: "Traffic first or conversion?",
+      q: "Should you fix traffic first or conversion?",
       a: "With expensive traffic and a leaky funnel, fix conversion first. With tiny traffic A/B is pointless — grow volume and remove obvious barriers in parallel.",
     },
     {
@@ -47,8 +47,8 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
         {
           intro: "Example:",
           items: [
-            "3000 landing visits;",
-            "150 signups;",
+            "3000 landing visits",
+            "150 signups",
             "CR = 150 ÷ 3000 × 100% = 5%.",
           ],
         },
@@ -59,15 +59,15 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
       level: 2,
       paras: [
         "Without knowing the audience and offer, a CTA color change rarely saves you. First: who arrives, what the ad/search promise is, whether the landing matches.",
-        "In analytics (GA4 and peers) watch sources, devices, exit pages, goals. “Sticky” content leads to a commercial step without bait-and-switch.",
+        "In analytics (GA4 and similar) watch sources, devices, exit pages, goals. “Sticky” content leads to a commercial step without bait-and-switch.",
       ],
       lists: [
         {
           intro: "If pages don’t hold:",
           items: [
-            "refresh meaning and proof;",
-            "fix broken links and forms;",
-            "clarify the CTA;",
+            "refresh meaning and proof",
+            "fix broken links and forms",
+            "clarify the CTA",
             "cut visual noise.",
           ],
         },
@@ -90,8 +90,8 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
         {
           intro: "Align product and audience:",
           items: [
-            "offer = audience pain;",
-            "price and timeline clear before the form;",
+            "offer = audience pain",
+            "price and timeline clear before the form",
             "a next step without “fill 12 fields.”",
           ],
         },
@@ -120,8 +120,8 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
         {
           intro: "Form practice:",
           items: [
-            "name + contact + gist;",
-            "hints and validation errors;",
+            "name + contact + gist",
+            "hints and validation errors",
             "thank-you with a real SLA.",
           ],
         },
@@ -149,7 +149,7 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
       lists: [],
     },
     {
-      title: "Short takeaway",
+      title: "Takeaways",
       level: 2,
       paras: [
         "Conversion optimization is a loop: goal → data → hypothesis → edit → measure. Count CR honestly, fix the funnel and trust, don’t copy someone else’s percentages. Ads without a converting landing only make the click more expensive.",

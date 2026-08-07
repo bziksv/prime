@@ -10,17 +10,17 @@ export const googleBiznesEn: BlogPost = {
   excerpt:
     "How to appear in Google Maps and the local pack: Google Business Profile, verification, data, photos, and reviews — without outdated “Google My Business 2020” screenshots.",
   lead: [
-    "Local Google search often shows a map and business cards next to the regular SERP. To be found for “service + city” and on the map, you need a correct company profile — today Google Business Profile (older UIs were called Google My Business).",
-    "Below — launch logic: account, create profile, verify, fill, and maintain. Menu names change — follow Google help and the profile cabinet, not screenshots from old articles.",
+    "Local Google search often shows a map and business cards next to the regular results. To show up for “service + city” and on the map, you need a correct company profile — today that means Google Business Profile (older UIs were called Google My Business).",
+    "The flow is straightforward: create a Google account, claim or create the profile, verify ownership, fill it out, and keep it current. Menu names change — follow Google Help and the profile dashboard, not screenshots from old articles.",
   ],
   faq: [
     {
-      q: "Are Google My Business and Business Profile the same?",
-      a: "In essence yes: evolution of the name and UI for the Maps / local-pack card. Same idea — a managed business profile.",
+      q: "Are Google My Business and Business Profile the same thing?",
+      a: "In essence yes: the name and UI evolved for the Maps / local-pack card. Same idea — a managed business profile.",
     },
     {
-      q: "Do you need a website?",
-      a: "Preferably: a site link builds trust and a path to the lead. Without a site a profile can sometimes be created, but in many niches site + map work stronger together.",
+      q: "Do you need a website for the listing?",
+      a: "Preferably: a site link builds trust and a path to the lead. You can sometimes create a profile without a site, but in many niches site + map work stronger together.",
     },
     {
       q: "How is the profile verified?",
@@ -28,7 +28,7 @@ export const googleBiznesEn: BlogPost = {
     },
     {
       q: "Can one profile cover several addresses?",
-      a: "Usually each physical location needs its own profile (or a location group per Google’s rules). Don’t “stitch in” addresses that aren’t yours.",
+      a: "Usually each physical location needs its own profile (or a location group per Google’s rules). Don’t add addresses that aren’t yours.",
     },
     {
       q: "Does the profile affect regular site SEO?",
@@ -39,12 +39,12 @@ export const googleBiznesEn: BlogPost = {
       a: "Name, Address, Phone — consistent name, address, and phone on the site, in the profile, and in directories. Mismatches hurt trust.",
     },
     {
-      q: "Do you need reviews?",
+      q: "Should I ask customers for reviews?",
       a: "Yes — honest reviews and replies matter in the local pack. Buying ratings breaks the rules and is risky.",
     },
     {
-      q: "Yandex directories instead of Google?",
-      a: "In some markets you often need both layers for different audiences. They’re different cabinets; one “export” doesn’t replace NAP consistency.",
+      q: "Should I use Yandex directories instead of Google?",
+      a: "In some markets you often need both layers for different audiences. They’re different dashboards; one “export” doesn’t replace NAP consistency.",
     },
   ],
   sections: [
@@ -59,9 +59,9 @@ export const googleBiznesEn: BlogPost = {
         {
           intro: "Especially useful for:",
           items: [
-            "offline locations (cafés, clinics, services);",
-            "travel services with a service area;",
-            "B2C with “near me” queries;",
+            "offline locations (cafés, clinics, services)",
+            "field or on-site services with a service area",
+            "B2C with “near me” queries",
             "chains with several branches (per Google’s rules).",
           ],
         },
@@ -72,15 +72,15 @@ export const googleBiznesEn: BlogPost = {
       level: 2,
       paras: [
         "You need a Google account — preferably a company one shared with several owners via manager roles, not a personal login of someone who will leave.",
-        "Creating a profile: name as on the storefront, category, address or service area, contacts. Don’t stuff keywords into the name (“Best iPhone repair cheap”) — against the rules and can lead to limits.",
+        "When you create a profile: use the name as on the storefront, pick a category, add an address or service area, and contacts. Don’t stuff keywords into the name (“Best iPhone repair cheap”) — that breaks the rules and can lead to limits.",
       ],
       lists: [
         {
           intro: "Before verification:",
           items: [
-            "check whether a listing for your place already exists (claim it);",
-            "match NAP with the site;",
-            "pick primary and secondary categories honestly;",
+            "check whether a listing for your place already exists (claim it)",
+            "match NAP with the site",
+            "pick primary and secondary categories honestly",
             "store access in the company password manager.",
           ],
         },
@@ -89,7 +89,7 @@ export const googleBiznesEn: BlogPost = {
         {
           title: "Important",
           kind: "tip",
-          text: "Creation UI and menu items update. If the path doesn’t match a 2020 article — start from Maps / “Business Profile” search / Google help.",
+          text: "Creation UI and menu items update. If the path doesn’t match a 2020 article — start from Maps / “Business Profile” search / Google Help.",
         },
       ],
     },
@@ -97,15 +97,15 @@ export const googleBiznesEn: BlogPost = {
       title: "Verifying the business",
       level: 2,
       paras: [
-        "Until the profile is verified, full management and display are limited. Google offers a verification method available for your case — follow the cabinet steps and don’t buy “gray verification” from middlemen.",
+        "Until the profile is verified, full management and display are limited. Google offers a verification method available for your case — follow the account steps and don’t buy “gray verification” from middlemen.",
         "After verification keep the listing “open” with correct hours: mismatch with reality hits reviews and trust faster than an “imperfect SEO description”.",
       ],
       lists: [
         {
           intro: "Practice:",
           items: [
-            "don’t ignore verification emails/notifications;",
-            "log verification date and owner;",
+            "don’t ignore verification emails/notifications",
+            "log verification date and owner",
             "on legal entity/address change, update per the rules — don’t spawn a duplicate listing without need.",
           ],
         },
@@ -116,17 +116,17 @@ export const googleBiznesEn: BlogPost = {
       level: 2,
       paras: [
         "Description without stuffing, services/products, attributes (accessibility, payment), hours, phone, website, action button. Photos: facade, interior, team, work — your own, not stock.",
-        "Match the site: same name, address, phone as in the footer and contacts. UTM on the site link — optional, for analytics of map clicks.",
+        "Match the site: same name, address, phone as in the footer and contacts. UTM on the site link is optional, for analytics of map clicks.",
       ],
       lists: [
         {
           intro: "Minimum for a strong listing:",
           items: [
-            "NAP without typos;",
-            "current hours and holidays;",
-            "categories that match reality;",
-            "site / messenger / call;",
-            "10+ decent photos;",
+            "NAP without typos",
+            "current hours and holidays",
+            "categories that match reality",
+            "site / messenger / call",
+            "10+ decent photos",
             "replies to reviews.",
           ],
         },
@@ -149,9 +149,9 @@ export const googleBiznesEn: BlogPost = {
         {
           intro: "Regularly:",
           items: [
-            "monitor new reviews;",
-            "check NAP quarterly;",
-            "fresh photos every few months;",
+            "monitor new reviews",
+            "check NAP quarterly",
+            "fresh photos every few months",
             "audit employee access rights.",
           ],
         },
@@ -168,9 +168,9 @@ export const googleBiznesEn: BlogPost = {
         {
           intro: "Don’t:",
           items: [
-            "buy “100 reviews tomorrow”;",
-            "create a second listing “for SEO”;",
-            "list a coworking address if you aren’t there;",
+            "buy “100 reviews tomorrow”",
+            "create a second listing “for SEO”",
+            "list a coworking address if you aren’t there",
             "forget to revoke access from former contractors.",
           ],
         },
@@ -179,12 +179,12 @@ export const googleBiznesEn: BlogPost = {
         {
           title: "Practice",
           kind: "tip",
-          text: "In markets with strong Yandex Maps usage, plan that directory too — audiences differ. NAP consistency across layers beats racing for one platform. Local TOP is still months of work, not a profile checkbox.",
+          text: "In markets with strong Yandex Maps usage, plan that directory too — audiences differ. NAP consistency across layers beats racing for one platform. Local ranking growth is still months of work, not a profile checkbox.",
         },
       ],
       links: [
         {
-          label: "Promoting an online store (adjacent)",
+          label: "Promoting an online store",
           href: "/en/blog/prodvizhenie-internet-magazina/",
         },
       ],

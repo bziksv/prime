@@ -11,15 +11,15 @@ export const shapkaYoutubeEn: BlogPost = {
     "Why a channel needs a banner, which safe zones matter on TV and phone, how to pick a style, and how to update branding in YouTube Studio.",
   lead: [
     "A YouTube banner is the wide cover above the videos on the channel page. It won’t “push you into recommendations” by itself, but it helps people recognize the brand and grasp the topic in seconds.",
-    "Below — the banner’s role, image criteria, and how to change the look. Avatar and channel description live in related posts.",
+    "We cover the banner’s role, image criteria, and how to change the look. Avatar and channel description are covered in related posts.",
   ],
   faq: [
     {
-      q: "Does the banner boost views?",
+      q: "Does the banner boost views by itself?",
       a: "Indirectly: it builds trust and recognition when someone lands on the channel. Growth comes from content, titles, and retention — not one image.",
     },
     {
-      q: "What size should you prepare?",
+      q: "What size should I prepare?",
       a: "YouTube’s guide is a wide banner (often 2560×1440 px) with a centered “safe area.” Check current limits in Studio Help — they update.",
     },
     {
@@ -27,19 +27,19 @@ export const shapkaYoutubeEn: BlogPost = {
       a: "The avatar is the round icon everywhere. The banner is only the wide cover on the channel page.",
     },
     {
-      q: "Can you use random photos from the web?",
+      q: "Can I use random photos from the web?",
       a: "Only with rights you own. Someone else’s frame without a license risks claims.",
     },
     {
-      q: "Do you need text on the banner?",
+      q: "Do I need text on the banner?",
       a: "A short slogan or niche — yes. Tiny price lists and long paragraphs don’t read on mobile.",
     },
     {
-      q: "How often should you change the banner?",
+      q: "How often should I change the banner?",
       a: "When positioning, the channel program, or a major seasonal campaign changes. Frequent swaps without reason hurt recognition.",
     },
     {
-      q: "Can you make the banner in an online editor?",
+      q: "Can I make the banner in an online editor?",
       a: "Yes if it lets you set the right size, work with the safe area, and use images you have rights to.",
     },
   ],

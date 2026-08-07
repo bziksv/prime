@@ -3,20 +3,20 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for google-assessory — same structure as RU JSON. */
 export const googleAssessoryEn: BlogPost = {
   slug: "google-assessory",
-  title: "How Google raters score sites: quality, E-E-A-T, and YMYL",
+  title: "How Google quality raters score sites: quality, E-E-A-T, and YMYL",
   date: "2018-08-27",
-  category: "Internet marketing",
+  category: "SEO",
   cover: "/images/blog/google-assessory/cover-en.webp",
   excerpt:
-    "Quality Rater Guidelines: why raters exist, why their score isn’t a ranking, page purpose, E-E-A-T, YMYL, author reputation, and what breaks trust — without the myth that a rater personally put you in TOP.",
+    "Quality Rater Guidelines: why quality raters exist, why their score isn’t a ranking, page purpose, E-E-A-T, YMYL, author reputation, and what breaks trust — without the myth that a rater personally put you in the top results.",
   lead: [
-    "Quality raters manually score pages against Google’s Search Quality Rater Guidelines. Their ratings help improve algorithms — they don’t put your URL in TOP directly.",
-    "Below — the scoring logic: page purpose, experience/expertise/authoritativeness/trust (E-E-A-T), YMYL topics, author reputation, and typical reasons for a low score. The guide updates — check the current version; old “164 pages” figures don’t matter.",
+    "Quality raters manually score pages against Google’s Search Quality Rater Guidelines. Their ratings help improve algorithms — they don’t put your URL in the top results directly.",
+    "Scoring logic: page purpose, experience/expertise/authoritativeness/trust (E-E-A-T), YMYL topics, author reputation, and typical reasons for a low score. The guide updates — check the current version, not a 2019 PDF.",
   ],
   faq: [
     {
       q: "Does a rater rank my site?",
-      a: "No. The score indirectly trains systems. There’s no direct “rater gave a 5 → TOP”.",
+      a: "No. The score indirectly trains systems. There’s no direct “rater gave a 5 → a ranking boost”.",
     },
     {
       q: "What is E-E-A-T?",
@@ -27,7 +27,7 @@ export const googleAssessoryEn: BlogPost = {
       a: "Your Money or Your Life: topics where a mistake hits health, money, or safety. Expertise requirements are higher there.",
     },
     {
-      q: "Do you need an author page?",
+      q: "Do I need an author page?",
       a: "For expert and news pieces it’s useful: who wrote it, what qualification, how to reach the editors. Empty “Admin” barely helps.",
     },
     {
@@ -41,21 +41,21 @@ export const googleAssessoryEn: BlogPost = {
   ],
   sections: [
     {
-      title: "Why raters exist and what they look at",
+      title: "Why quality raters exist and what they look at",
       level: 2,
       paras: [
         "A rater has instructions and a job: understand why the page exists, whether it’s useful, whether it matches the query (when scoring relevance), and whether the source can be trusted.",
-        "The link to ranking is indirect: accumulated ratings help train and check algorithms. Knowing the criteria is useful as a quality checklist — not a “secret TOP lever”.",
+        "The link to ranking is indirect: accumulated ratings help train and check algorithms. Knowing the criteria is useful as a quality checklist — not a “secret ranking lever”.",
         "The main anchor is purpose and usefulness. A page with no value, with deceit, or with harm gets the lowest score regardless of word count.",
       ],
       lists: [
         {
           intro: "Base scoring axes:",
           items: [
-            "purpose and usefulness;",
-            "E-E-A-T of the main content;",
-            "amount and quality of content for the job;",
-            "information about the site and authors;",
+            "purpose and usefulness",
+            "E-E-A-T of the main content",
+            "amount and quality of content for the job",
+            "information about the site and authors",
             "reputation of the site and creators.",
           ],
         },
@@ -108,7 +108,7 @@ export const googleAssessoryEn: BlogPost = {
     },
   ],
   closing: [
-    "Google raters score usefulness, trust, and fit to page purpose — they don’t “sell” rankings. Lean on E-E-A-T and honest content, especially in YMYL, and remember: the algorithm learns from ratings, but it doesn’t rank by hand.",
+    "Google quality raters score usefulness, trust, and fit to page purpose — they don’t “sell” rankings. Lean on E-E-A-T and honest content, especially in YMYL, and remember: the algorithm learns from ratings, but it doesn’t rank by hand.",
   ],
   related: [
     "eat-kopirayting",

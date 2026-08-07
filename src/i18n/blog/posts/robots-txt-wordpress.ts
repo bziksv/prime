@@ -11,7 +11,7 @@ export const robotsTxtWordpressEn: BlogPost = {
     "How to set robots.txt on WordPress: wp-admin, system paths, Sitemap, Webmaster checks — without banning all of wp-content or blindly closing categories.",
   lead: [
     "The `robots.txt` file in the WordPress root tells bots which paths are better not to crawl. There is no universal “ideal for every site”: pretty permalinks, SEO plugins, and which sections you want in search get in the way.",
-    "Below — working WP logic and a careful frame. Old templates with `Disallow: /wp-` on all content, closing `/category/`, and a Host cult must not be copied: you can easily ban CSS/JS or needed listings. Disallow ≠ noindex — see the deindexing canon.",
+    "Here’s working WordPress logic with a careful frame. Don’t copy old templates that `Disallow: /wp-` everything, block `/category/`, or treat Host as sacred—you can easily block CSS/JS or useful listings. Disallow ≠ noindex; see the deindexing guide.",
   ],
   faq: [
     {
@@ -19,20 +19,20 @@ export const robotsTxtWordpressEn: BlogPost = {
       a: "In the site root: `https://site/robots.txt`. Some rules may be served virtually by core/a plugin — check what actually answers at the URL.",
     },
     {
-      q: "Can you close all of /wp-content?",
+      q: "Can I block all of /wp-content?",
       a: "Usually no: themes, styles, and scripts needed for rendering live there. More often you close plugins/cache surgically and leave uploads open.",
     },
     {
-      q: "Should you ban /category/ and /tag/?",
+      q: "Should I ban /category/ and /tag/?",
       a: "Only if listings are truly junk for your strategy. For many blogs categories are normal landings. Don’t copy a ban “because the 2018 template said so.”",
     },
     {
-      q: "Is Host required?",
+      q: "Is the Host directive required?",
       a: "Historically for Yandex. Today 301s and an HTTPS mirror matter more. Don’t replace redirects with a Host line.",
     },
     {
-      q: "How is this different from robots for Joomla?",
-      a: "Same directives, different system paths. General closing principles — in the indexing article.",
+      q: "How is this different from robots.txt for Joomla?",
+      a: "Same directives, different system paths. General deindexing principles — in the indexing article.",
     },
   ],
   sections: [
@@ -76,13 +76,13 @@ export const robotsTxtWordpressEn: BlogPost = {
       notes: [
         {
           title: "Disallow ≠ “remove from the index”",
-          text: "If a URL is already in the SERP, a crawl ban can block serving noindex. To drop from the index use meta robots / X-Robots-Tag and the deindexing canon.",
+          text: "If a URL is already in the SERP, a crawl ban can block serving noindex. To drop from the index use meta robots / X-Robots-Tag and the deindexing guide.",
           kind: "tip",
         },
       ],
     },
     {
-      title: "Landmarks for WordPress paths",
+      title: "Path landmarks for WordPress",
       level: 2,
       paras: [
         "Base: close admin and core, don’t mute uploads and theme files without cause, point Sitemap over HTTPS. Account for the pretty-permalink prefix (`/blog/`, shop) in masks.",
@@ -93,17 +93,11 @@ export const robotsTxtWordpressEn: BlogPost = {
           caption: "Common paths",
           headers: ["Path", "Note"],
           rows: [
-            [
-              "/wp-admin/",
-              "Close crawl; ajax — Allow if needed",
-            ],
+            ["/wp-admin/", "Close crawl; ajax — Allow if needed"],
             ["/wp-includes/", "System core"],
             ["/wp-content/plugins/", "Usually closed"],
             ["/wp-content/uploads/", "Often left open"],
-            [
-              "/wp-content/themes/",
-              "Don’t cut blindly: CSS/JS needed",
-            ],
+            ["/wp-content/themes/", "Don’t cut blindly: CSS/JS needed"],
             ["Sitemap:", "HTTPS URL of the XML map"],
           ],
         },
@@ -159,8 +153,8 @@ export const robotsTxtWordpressEn: BlogPost = {
       title: "Takeaways",
       level: 2,
       paras: [
-        "On WordPress robots.txt is surgical crawl hygiene — not “close all wp- and categories.” Sitemap over HTTPS, panel checks, no Host cult.",
-        "General Disallow/noindex theory — in the deindexing canon; the Joomla template — in the related article.",
+        "On WordPress robots.txt is surgical crawl hygiene — not “close all wp- and categories.” Sitemap over HTTPS, panel checks, no Host directive obsession.",
+        "General Disallow/noindex theory — in the deindexing guide; the Joomla template — in the related article.",
       ],
     },
   ],

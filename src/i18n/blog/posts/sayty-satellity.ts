@@ -11,7 +11,7 @@ export const saytySatellityEn: BlogPost = {
     "What satellite sites mean in SEO, why they were built historically, risks to the main domain, and what to use instead of network schemes — without PBN build instructions.",
   lead: [
     "Satellites are helper sites made for links, traffic, or “crowding out” competitors in the SERP in favor of the main project. In classic SEO that’s a high-risk scheme: algorithms and moderation easily connect the network, and sanctions hit money and the main domain’s reputation.",
-    "Below — what people meant by satellites, which types showed up, why the scheme breaks, and what to do instead of a network. This is a risk overview — not a guide on “how to build and successfully run” a multi-level grid.",
+    "We cover what people meant by satellites, which types showed up, why the scheme breaks, and what to do instead of a network. This is a risk overview—not a guide on “how to build and run” a multi-site grid.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const saytySatellityEn: BlogPost = {
       a: "If the network exists to pass link equity and manipulate rankings — yes, that’s manipulation by intent. A separate useful brand project with a live audience is another story; it isn’t called a satellite in the spam sense.",
     },
     {
-      q: "Can you “carefully” keep a network and not get caught?",
+      q: "Can I “carefully” keep a network and not get caught?",
       a: "There’s no reliable guarantee. Shared patterns (hosting, templates, anchors, owners, outbound links) surface over time. Betting on stealth is a bad business strategy.",
     },
     {
@@ -31,7 +31,7 @@ export const saytySatellityEn: BlogPost = {
       a: "Don’t grow it. Assess risk with an SEO: which domains are indexed, how they tie to the main site, whether filters apply. Often it’s wiser to unwind spam outbound ties and strengthen the main site with content and tech.",
     },
     {
-      q: "Will satellites get a young site into TOP faster?",
+      q: "Will satellites get a young site into the TOP faster?",
       a: "Not as a plan. Prep and getting indexed are one thing; building core rankings takes months. An “accelerator” network more often brings sanctions than lasting TOP.",
     },
     {
@@ -53,7 +53,7 @@ export const saytySatellityEn: BlogPost = {
       level: 2,
       paras: [
         "In SEO slang a satellite is a site that exists not for standalone audience value, but to help the main one: pass links, spill traffic, occupy SERP spots next to commercial queries. Often it’s a network of several (or dozens) domains with similar topics and weak content.",
-        "Historically the scheme was popular when link equity and “density” of your own domains in TOP looked like a simple lever. Today search engines see related networks, template content, and unnatural link profiles better — so betting on satellites for a legitimate business rarely pays for the risk.",
+        "Historically the scheme was popular when link equity and “density” of your own domains in the TOP looked like a simple lever. Today search engines see related networks, template content, and unnatural link profiles better — so betting on satellites for a legitimate business rarely pays for the risk.",
       ],
       lists: [
         {
@@ -141,7 +141,7 @@ export const saytySatellityEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "What to watch in the profile:",
+          intro: "What to check in the profile:",
           items: [
             "share of links from related/lookalike domains;",
             "anchor list (commercial-anchor stuffing);",
@@ -158,7 +158,7 @@ export const saytySatellityEn: BlogPost = {
       ],
     },
     {
-      title: "What to do instead of a network",
+      title: "What to do instead of a satellite network",
       level: 2,
       paras: [
         "Strengthen one (or several real) products: structure, copy, speed, mobile, goal analytics. For mentions — partner pieces, industry media, maps and directories where clients are, targeted outreach without spam exchanges.",
@@ -191,7 +191,7 @@ export const saytySatellityEn: BlogPost = {
       title: "If contractors already pitch the scheme",
       level: 2,
       paras: [
-        "Promises of “our network”, “guaranteed TOP in a month via links”, and an “invisible farm” are a reason to change vendors. An honest plan separates site prep from ranking buildup: prep may take about a month; a noticeable share of the core in TOP is planned over months of work — usually a 2–6 month horizon after work starts, with no date guarantee.",
+        "Promises of “our network”, “guaranteed TOP in a month via links”, and an “invisible farm” are a reason to change vendors. An honest plan separates site prep from ranking buildup: prep may take about a month; a solid share of the core in the TOP is planned over months of work — usually a 2–6 month horizon after work starts, with no date guarantee.",
         "Ask for transparency: what exactly happens on your domain, which KPIs (traffic, leads, core share), which risks. Network schemes in contracts often hide as “content sites” — clarify who owns the domains and why they exist.",
       ],
       lists: [

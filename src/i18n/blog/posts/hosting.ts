@@ -5,13 +5,13 @@ export const hostingEn: BlogPost = {
   slug: "hosting",
   title: "What hosting is and how to choose a provider",
   date: "2017-08-30",
-  category: "Internet marketing",
+  category: "Hosting",
   cover: "/images/blog/hosting/cover-en.webp",
   excerpt:
-    "Hosting in plain language: why a site needs a server, how shared, VPS, dedicated, and cloud differ, and what to check when choosing — without “uptime = TOP” myths and paid rankings.",
+    "Hosting in plain language: why a site needs a server, how shared, VPS, dedicated, and cloud differ, and what to check when choosing — without “uptime = rankings” myths and paid rankings.",
   lead: [
     "Hosting is placing the site’s files and databases on a server that answers visitor requests around the clock. Without it a domain is only a name: there is nowhere to serve the content from.",
-    "Below — hosting types and selection criteria for the job. Plans, panels, and SLAs change; use the current contract and support, not 2017 screenshots.",
+    "Shared, VPS, dedicated, and cloud fit different loads — pick by stack, traffic, and who will administer. Plans, panels, and SLAs change; use the current contract and support, not 2017 screenshots.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const hostingEn: BlogPost = {
       a: "No. A domain is a name in DNS. Hosting is where the site and DB live. You can buy them from different companies and link them via NS.",
     },
     {
-      q: "Free hosting for a business?",
+      q: "Is free hosting OK for a business?",
       a: "For a throwaway “try it” card it sometimes works. For commerce — risk of the provider’s ads, limits, weak accountability, and thin support.",
     },
     {
@@ -27,11 +27,11 @@ export const hostingEn: BlogPost = {
       a: "A brochure site and a small blog often live on shared. A store, CRM, or traffic spikes — closer to VPS/cloud with clear resources.",
     },
     {
-      q: "Does 99.9% uptime guarantee TOP?",
-      a: "No. Availability helps users and crawl, but rankings are a separate story: content, demand, competition. Site prep ≠ TOP in a month. TOP is planned over 2–6 months of work.",
+      q: "Does 99.9% uptime guarantee rankings?",
+      a: "No. Availability helps users and crawl, but rankings are a separate story: content, demand, competition. Site prep ≠ rankings in a month. Ranking growth is planned over 2–6 months of work.",
     },
     {
-      q: "Where to store personal data?",
+      q: "Where should I store personal data?",
       a: "If you process personal data of Russian residents, account for localization rules and the provider contract. That is a legal/security zone, not an “obvious plan checkbox.”",
     },
   ],
@@ -65,10 +65,10 @@ export const hostingEn: BlogPost = {
         {
           intro: "Typical free downsides:",
           items: [
-            "small quotas and resource queues;",
-            "provider ads or redirects;",
-            "weak accountability for data;",
-            "CMS and cron limits;",
+            "small quotas and resource queues",
+            "provider ads or redirects",
+            "weak accountability for data",
+            "CMS and cron limits",
             "painful migration when the project grows.",
           ],
         },
@@ -86,9 +86,9 @@ export const hostingEn: BlogPost = {
         {
           intro: "Roughly by job:",
           items: [
-            "brochure / blog — shared;",
-            "store, Bitrix, spikes — VPS or managed cloud;",
-            "high load and your own stack — dedicated/cloud;",
+            "brochure / blog — shared",
+            "store, Bitrix, spikes — VPS or managed cloud",
+            "high load and your own stack — dedicated/cloud",
             "your own hardware — colocation.",
           ],
         },
@@ -105,18 +105,18 @@ export const hostingEn: BlogPost = {
       title: "What to check when choosing",
       level: 2,
       paras: [
-        "Start with site type and growth: brochure, catalog, store, account area. Then stack (PHP/Node, DB version), whether you need root, who administers.",
+        "Start with site type and growth: brochure, catalog, store, customer account area. Then stack (PHP/Node, DB version), whether you need root, who administers.",
         "Provider age and reputation help, but rankings can be paid — read fresh support and incident reviews, not only “place in a top list.”",
       ],
       lists: [
         {
           intro: "Practical checklist:",
           items: [
-            "uptime and SLA in the contract, not only in ads;",
-            "latency and data-center geography vs your audience;",
-            "backups: frequency, retention, restore test;",
-            "panel, SSH, mail, SSL, inode/CPU limits;",
-            "24/7 support and language;",
+            "uptime and SLA in the contract, not only in ads",
+            "latency and data-center geography vs your audience",
+            "backups: frequency, retention, restore test",
+            "panel, SSH, mail, SSL, inode/CPU limits",
+            "24/7 support and language",
             "renewal price, not only the first month.",
           ],
         },
@@ -126,7 +126,7 @@ export const hostingEn: BlogPost = {
       title: "Speed, uptime, and search",
       level: 2,
       paras: [
-        "Slow TTFB and frequent 5xx hurt conversion and crawl. Guides like “server response under 200 ms” are a useful engineering target, not a TOP-10 magic formula.",
+        "Slow TTFB and frequent 5xx hurt conversion and crawl. Guides like “server response under 200 ms” are a useful engineering target, not a top 10 magic formula.",
         "Search engines care about availability and page experience, but hosting alone does not “rank you.” First a stable server response and correct HTTPS, then content and demand. Ranking work is planned over months, not a one-month flip.",
       ],
       links: [

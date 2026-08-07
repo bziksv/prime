@@ -8,10 +8,10 @@ export const dekorativnyyShriftInstagramEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/dekorativnyy-shrift-instagram/cover-en.webp",
   excerpt:
-    "How to get “pretty” text in the Instagram* header and on images: Unicode styles, editors, non-Latin scripts, readability, and risks — without a catalog of outdated apps.",
+    "How to get “pretty” text in the Instagram* bio and on images: Unicode styles, editors, non-Latin scripts, readability, and risks — without a catalog of outdated apps.",
   lead: [
-    "Instagram* itself has no typeface picker in bio and captions: bold, italic, and “handwritten” looks usually come from Unicode characters or text baked into an image.",
-    "Below — where that fits, how to paste a style without giving your password to third-party “Font for Instagram*” tools, why non-Latin scripts often break, and when décor hurts reach and trust. Meta* disclaimer is on the page.",
+    "Instagram* itself has no typeface picker in the bio or captions: bold, italic, and “handwritten” looks usually come from Unicode characters or text baked into an image.",
+    "Where that fits, how to paste a style without handing your password to third-party “Font for Instagram*” tools, why non-Latin scripts often break, and when décor hurts reach and trust. The Meta* disclaimer is on the page.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -24,46 +24,46 @@ export const dekorativnyyShriftInstagramEn: BlogPost = {
     },
     {
       q: "Why does non-Latin text turn into “squares”?",
-      a: "Many generators are Latin-only. Some styles don’t include Cyrillic or other scripts — on another device the character won’t render.",
+      a: "Many generators are Latin-only. Some styles don’t include Cyrillic or other scripts — on another device the character simply won’t render.",
     },
     {
       q: "Does a decorative font affect reach?",
-      a: "Not as an “algorithm secret.” It may slightly boost header noticeability — or cut readability and trust. Content and audience decide.",
+      a: "Not as an “algorithm secret.” It may make the header a bit more noticeable — or it may cut readability and trust. Content and audience decide.",
     },
     {
       q: "Are Fonts for Instagram* apps safe?",
-      a: "Generators that only copy text are usually fine. Tools that ask for Instagram* login/password risk account theft. Don’t enter a password for a font.",
+      a: "Generators that only copy text are usually fine. Tools that ask for Instagram* login and password risk account theft. Don’t enter a password just for a font.",
     },
     {
       q: "How is bio text different from text on a photo?",
-      a: "In bio — Unicode or plain letters. On a post/Story — a real typeface in an editor (Canva, Snapseed, and peers): that’s an image, not a profile field.",
+      a: "In the bio, you’re using Unicode or plain letters. On a post or Story, you use a real typeface in an editor (Canva, Snapseed, and similar tools): that’s an image, not a profile field.",
     },
     {
       q: "How many styles are normal in the header?",
       a: "One accent on a headline or CTA is enough. Every word in a different “font” reads worse and looks spammy.",
     },
     {
-      q: "Do you need invisible characters for “centering”?",
-      a: "People sometimes use invisible/space Unicode to shift lines. Behavior varies by client — don’t treat the trick as a brand standard.",
+      q: "Do I need invisible characters for “centering”?",
+      a: "People sometimes use invisible or space Unicode to shift lines. Behavior varies by client — don’t treat the trick as a brand standard.",
     },
     {
       q: "Does décor help sales?",
-      a: "Only if it strengthens a clear offer. Pretty mush without “who you are / what you give / where to write” doesn’t convert.",
+      a: "Only if it strengthens a clear offer. Pretty mush without “who you are / what you offer / where to write” doesn’t convert.",
     },
   ],
   sections: [
     {
-      title: "What you can actually “dress up”",
+      title: "What you can actually dress up",
       level: 2,
       paras: [
-        "Header (name and About): people most often paste Unicode styles — 𝖇𝖔𝖑𝖉, 𝓬𝓾𝓻𝓼𝓲𝓿𝓮, and similar sets. Bio length is limited; décor eats the character “budget” faster than plain text.",
-        "Post captions and comments: same trick, but a long decorative paragraph tires fast. Better an accent on the headline or CTA.",
-        "Images, carousels, highlight covers, and Stories: real editor fonts work here. More reliable for Cyrillic/brand than Unicode in the bio.",
+        "Name and bio: people most often paste Unicode styles — 𝖇𝖔𝖑𝖉, 𝓬𝓾𝓻𝓼𝓲𝓿𝓮, and similar sets. Bio length is limited; décor burns through the character budget faster than plain text.",
+        "Post captions and comments: same trick, but a long decorative paragraph tires people out. Better to accent the headline or CTA.",
+        "Images, carousels, highlight covers, and Stories: real editor fonts work here. More reliable for Cyrillic and brand work than Unicode in the bio.",
       ],
       lists: [],
       notes: [
         {
-          title: "Don’t confuse with feed design",
+          title: "Don’t confuse this with feed design",
           text: "A unified grid style, avatar, and header structure are a separate topic. A decorative font is just one trick inside text or a layout.",
         },
       ],
@@ -73,24 +73,24 @@ export const dekorativnyyShriftInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "A generator swaps ordinary letters for other Unicode code points that many devices draw as “bold” or “script.” Instagram* doesn’t apply a CSS font — it just shows the characters.",
-        "Typical path: open a web or mobile generator → type a phrase → copy → paste into Edit profile or a caption. App names change every year; the “copied text” pattern matters more than a utility brand.",
-        "Before publishing, open the profile on another device (iOS and Android): rare styles look different on one OS or fall into “tofu” (□).",
+        "Typical path: open a web or mobile generator → type a phrase → copy → paste into Edit profile or a caption. App names change every year; the “copied text” pattern matters more than the utility’s brand.",
+        "Before you publish, open the profile on another device (iOS and Android): rare styles look different on one OS or fall into “tofu” (□).",
       ],
       lists: [
         {
           intro: "When Unicode fits:",
           items: [
-            "a short accent in the name or first bio line;",
-            "highlighting one CTA (“book,” “price list”);",
-            "a light blog where the tone allows play.",
+            "a short accent in the name or first bio line",
+            "highlighting one CTA (“book,” “price list”)",
+            "a light blog where the tone allows some play",
           ],
         },
         {
-          intro: "When better not to use:",
+          intro: "When you’re better off skipping it:",
           items: [
-            "long addresses, prices, legal wording;",
-            "B2B with a conservative audience;",
-            "the whole About block in one script style.",
+            "long addresses, prices, legal wording",
+            "B2B with a conservative audience",
+            "the whole bio in one script style",
           ],
         },
       ],
@@ -100,14 +100,14 @@ export const dekorativnyyShriftInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "Many “fancy font” sets are incomplete for Cyrillic and other non-Latin alphabets. Check every letter — or part of the word vanishes for a follower.",
-        "Screen readers and some clients voice decorative characters poorly. Duplicate critical meaning (niche, city, phone in text) in plain type.",
+        "Screen readers and some clients voice decorative characters poorly. Duplicate critical meaning (niche, city, phone) in plain type.",
         "In-app search and OCR on images don’t replace a clear offer in plain letters in the bio. Décor is a shell — not a platform SEO hack.",
       ],
       lists: [],
       notes: [
         {
           title: "Common mistake",
-          text: "The whole About block in one script style. On a small screen it’s mush: people don’t get who you are in three seconds and leave.",
+          text: "The whole bio in one script style. On a small screen it’s mush: people don’t get who you are in three seconds and leave.",
         },
       ],
     },
@@ -115,28 +115,28 @@ export const dekorativnyyShriftInstagramEn: BlogPost = {
       title: "Text on images",
       level: 2,
       paras: [
-        "For posts and Stories it’s safer to overlay text in an editor: Canva, Figma, Snapseed, built-in Story text stickers, and peers. Pick a typeface with your script, size, and contrast.",
-        "Keep 1–2 font pairs in the brand kit — like feed templates. A jumping typeface set every week breaks recognition more than a “boring” unified style.",
-        "Leave margins: grid previews and platform UI crop edges. A large headline + short subhead reads better than a tiny wall of text.",
+        "For posts and Stories it’s safer to overlay text in an editor: Canva, Figma, Snapseed, built-in Story text stickers, and similar tools. Pick a typeface with your script, size, and contrast.",
+        "Keep one or two font pairs in the brand kit — same idea as feed templates. A jumping typeface set every week breaks recognition more than a “boring” unified style.",
+        "Leave margins: grid previews and platform UI crop the edges. A large headline plus a short subhead reads better than a tiny wall of text.",
       ],
       lists: [
         {
           intro: "Mini layout rules:",
           items: [
-            "enough text/background contrast;",
-            "no more than two accents per frame;",
-            "faces and logo not covered by letters;",
-            "readable on a phone without zoom.",
+            "enough text-to-background contrast",
+            "no more than two accents per frame",
+            "faces and logo not covered by letters",
+            "readable on a phone without zoom",
           ],
         },
       ],
     },
     {
-      title: "Safety and outdated “TOP apps”",
+      title: "Safety and outdated “top apps” lists",
       level: 2,
       paras: [
-        "Old roundups pushed dozens of utilities with store ratings and local prices. The list ages fast: apps rename, change policy, and monetization.",
-        "Don’t download “font unlock” tools that ask for Instagram* password or session. Clipboard is enough to generate text.",
+        "Old roundups pushed dozens of utilities with store ratings and local prices. The list ages fast: apps rename, change policy, and switch monetization.",
+        "Don’t download “font unlock” tools that ask for Instagram* password or session. A clipboard is enough to generate text.",
         "Paid editors with solid script support make sense if you regularly make covers. A one-off post usually fits Canva or built-in Story text.",
       ],
       lists: [],
@@ -148,33 +148,33 @@ export const dekorativnyyShriftInstagramEn: BlogPost = {
       ],
     },
     {
-      title: "How to fit it into the header without harm",
+      title: "How to fit it into the profile without harm",
       level: 2,
       paras: [
-        "First draft in plain text: who you are, benefit, geo/hours, CTA and link (if available). Then — one decorative accent.",
+        "First draft the bio in plain text: who you are, the benefit, geo/hours, CTA, and link (if you have one). Then add one decorative accent.",
         "Profile name and username should stay recognizable: a too “broken” display name makes you hard to find in chats and mentions.",
-        "Combine with emoji moderately: décor and pictograms compete for attention. List structure beats a carnival of styles.",
+        "Combine with emoji in moderation: décor and pictograms compete for attention. Clear structure beats a carnival of styles.",
       ],
       lists: [
         {
-          intro: "Quick order:",
+          intro: "Quick order of operations:",
           items: [
-            "write the meaning without décor;",
-            "pick one Unicode style or keep the bio plain;",
-            "check iOS + Android;",
-            "match avatar and highlight covers;",
-            "in a week, see whether the CTA is read (link clicks, Direct).",
+            "write the meaning without décor",
+            "pick one Unicode style or keep the bio plain",
+            "check iOS and Android",
+            "match avatar and highlight covers",
+            "in a week, see whether the CTA is read (link clicks, DMs)",
           ],
         },
       ],
     },
     {
-      title: "What to remember",
+      title: "Key takeaways",
       level: 2,
       paras: [
         "A “pretty font” on Instagram* is either Unicode in text fields or a real typeface on an image. The platform doesn’t offer a bio font menu.",
         "Script coverage, readability, and safety beat an app catalog. One accent beats a wall of décor.",
-        "Header meaning and a unified feed visual sell better than an exotic letter in every word.",
+        "Bio meaning and a unified feed visual sell better than an exotic letter in every word.",
       ],
       lists: [],
     },

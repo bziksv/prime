@@ -5,18 +5,18 @@ export const udalennayaRabotaEn: BlogPost = {
   slug: "udalennaya-rabota",
   title: "Remote work for employees: how to organize it without chaos",
   date: "2019-12-09",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/udalennaya-rabota/cover-en.webp",
   excerpt:
     "How to run a remote team: hiring outside the office, managing by outcomes, communication and task tools, motivation and team feeling — without total surveillance.",
   lead: [
-    "Remote work stopped being a “backup for people who didn’t get an office seat”. For many roles the result doesn’t depend on a desk in an open space: you need clear tasks, communication, and agreements on deadlines.",
-    "Below — why companies use a distributed model, how to manage without micromanagement, which classes of tools hold the process, and how not to lose team feeling. Share-of-remote stats by year float — principles of organization matter more.",
+    "Remote work stopped being a backup for people who didn’t get an office seat. For many roles the result doesn’t depend on a desk in an open space: you need clear tasks, communication, and agreements on deadlines.",
+    "A distributed model widens the hiring pool and can cut rent — but only if you manage by outcomes, keep one shared tool stack, and protect team feeling without micromanagement. Share-of-remote stats by year float; principles of organization matter more.",
   ],
   faq: [
     {
       q: "Is remote always cheaper than an office?",
-      a: "Often you save on rent and geo salaries. But you need strong processes, onboarding, and sometimes hardware/software — otherwise “cheap” is eaten by chaos.",
+      a: "Often you save on rent and location-based salaries. But you need strong processes, onboarding, and sometimes hardware or software — otherwise “cheap” is eaten by chaos.",
     },
     {
       q: "How do you control people you can’t see?",
@@ -24,11 +24,11 @@ export const udalennayaRabotaEn: BlogPost = {
     },
     {
       q: "Do you need the whole staff in one city?",
-      a: "Not for every function. Searching across the country / a shared-language market widens the pool of strong candidates.",
+      a: "Not for every function. Searching across the country or a shared-language market widens the pool of strong candidates.",
     },
     {
       q: "Which roles fit remote worse?",
-      a: "Where you need constant physical access to equipment, a warehouse, or a sales floor. Office digital roles usually adapt better.",
+      a: "Roles that need constant physical access to equipment, a warehouse, or a sales floor. Office digital roles usually adapt better.",
     },
     {
       q: "Are daily sync calls required?",
@@ -44,14 +44,14 @@ export const udalennayaRabotaEn: BlogPost = {
       title: "Why companies go remote",
       level: 2,
       paras: [
-        "A wider hiring funnel: not only “an hour to the office”, but strong specialists in regions and abroad when language is shared. Some roles never needed a capital open space.",
-        "Saving on square meters helps, but the main win is access to people and flexibility. The myth “remote = unserious” is outdated: durable remote usually demands above-average discipline.",
+        "A wider hiring funnel: not only “an hour to the office,” but strong specialists in regions and abroad when language is shared. Some roles never needed a capital open space.",
+        "Saving on square meters helps, but the main win is access to people and flexibility. The myth that remote means unserious is outdated: durable remote usually demands above-average discipline.",
       ],
       lists: [
         {
           intro: "Who often likes the model:",
           items: [
-            "people who stay in their city / with family;",
+            "people who stay in their city or with family;",
             "people who combine work with moves;",
             "companies with a digital product and clear KPIs.",
           ],
@@ -70,7 +70,7 @@ export const udalennayaRabotaEn: BlogPost = {
           intro: "Minimum transparency:",
           items: [
             "goals and “done” criteria;",
-            "a board / task list with owners;",
+            "a board or task list with owners;",
             "a short status rhythm;",
             "risk escalation without drama.",
           ],
@@ -118,7 +118,7 @@ export const udalennayaRabotaEn: BlogPost = {
       title: "Motivation and team feeling",
       level: 2,
       paras: [
-        "A remote person can more easily feel like a “contractor outside the culture”. Shared rituals help: result demos, visible wins, onboarding, occasional offline meetups if budget allows.",
+        "A remote person can more easily feel like a contractor outside the culture. Shared rituals help: result demos, visible wins, onboarding, occasional offline meetups if budget allows.",
         "Team-building for its own sake without clear work won’t save you. Process and respect for outcomes first — social formats second.",
       ],
     },
@@ -127,7 +127,7 @@ export const udalennayaRabotaEn: BlogPost = {
       level: 2,
       paras: [
         "An attractive remote role gets many applications: competition is higher, but you can pick stronger. Honestly describe time zones, sync windows, tools, and KPIs.",
-        "Not everyone works well without external control — it’s fair to filter that on probation by results, not by “was online 9 to 6”.",
+        "Not everyone works well without external control — it’s fair to filter that on probation by results, not by “was online 9 to 6.”",
       ],
       lists: [
         {

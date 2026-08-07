@@ -5,29 +5,29 @@ export const vebArhivEn: BlogPost = {
   slug: "veb-arhiv",
   title: "What a web archive is: Wayback Machine and why you need it",
   date: "2020-09-17",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/veb-arhiv/cover-en.webp",
   excerpt:
-    "How Internet Archive / Wayback Machine works: find an old page version, understand snapshot gaps, restore your content legally, and limit archiving via robots — without schemes to “steal texts from other domains”.",
+    "How Internet Archive / Wayback Machine works: find an old page version, understand snapshot gaps, restore your content legally, and limit archiving via robots — without schemes to “steal texts from other domains.”",
   lead: [
     "A web archive stores historical page snapshots. The best-known public service is the Wayback Machine on archive.org: a bot periodically saves URL copies you can open “as it was” on a chosen date.",
-    "Below — how to view a site’s history, why a snapshot sometimes is missing, and what to do if you need to recover your old content. You can’t just move others’ materials from the archive to a new domain “to avoid paying authors” — that’s a copyright question.",
+    "Use it to view a site’s history, recover your own deleted content, or check a domain before buying — not to move others’ materials onto a new domain “to avoid paying authors.” That’s a copyright question, and gaps in the calendar are normal.",
   ],
   faq: [
     {
-      q: "Is this the same as Yandex/Google cache?",
+      q: "Is this the same as Yandex or Google cache?",
       a: "Related in idea, different service. Search cache is a fresh snapshot for the index; Wayback is a long snapshot history, often with gaps.",
     },
     {
       q: "Why isn’t the site in the archive?",
-      a: "Not crawled yet, blocked by robots/exclusions, removed after a rights complaint, or the owner requested deletion. Not every URL gets archived.",
+      a: "Not crawled yet, blocked by robots or exclusions, removed after a rights complaint, or the owner requested deletion. Not every URL gets archived.",
     },
     {
       q: "Can you restore a whole site with one click?",
       a: "Rarely perfectly: some assets, forms, and scripts weren’t saved. For your project — manual transfer of key pages or specialized exports; vet third-party “restorers” for risk.",
     },
     {
-      q: "How to forbid archiving?",
+      q: "How do you forbid archiving?",
       a: "Via archive-bot rules in robots.txt and/or Internet Archive exclusion tools. There’s no absolute “never” guarantee, but for many cases it’s enough.",
     },
     {

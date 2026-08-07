@@ -5,13 +5,13 @@ export const feykStranitsaEn: BlogPost = {
   slug: "feyk-stranitsa",
   title: "Fake page: what it is and how to spot it",
   date: "2021-02-26",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/feyk-stranitsa/cover-en.webp",
   excerpt:
     "What counts as a fake page or fake account, why scammers build them, and how to verify authenticity — without how-tos for making forgeries.",
   lead: [
     "A fake page is a counterfeit site, landing, or profile that pretends to be a brand, store, or person. The goal is usually fraud, data theft, or black PR.",
-    "Below — how to spot a forgery and protect a brand. We don’t cover building fakes for spam or scams — and we don’t recommend it.",
+    "How to spot a forgery and protect a brand. We don’t cover building fakes for spam or scams — and we don’t recommend it.",
   ],
   faq: [
     {
@@ -19,15 +19,15 @@ export const feykStranitsaEn: BlogPost = {
       a: "They’re sometimes confused. Doorways are search spam. A fake page is more often brand/payment impersonation. Both are harmful and risky.",
     },
     {
-      q: "How do you check a store site?",
+      q: "How do I check a store site?",
       a: "Domain and WHOIS age, contacts, off-site reviews, matching company details, HTTPS, and no odd redirects to payment.",
     },
     {
-      q: "What if you find a brand fake?",
+      q: "What if I find a brand fake?",
       a: "Save the URL and screenshots, complain to host/registry/platform, warn customers, involve lawyers if there’s damage.",
     },
     {
-      q: "Fake social account?",
+      q: "What about a fake social account?",
       a: "Check creation date, avatar, chat pushing “pay off-platform”, report to the network’s support.",
     },
     {
@@ -35,11 +35,11 @@ export const feykStranitsaEn: BlogPost = {
       a: "Not as a clean strategy. Forgeries and cloaking lead to bans and legal risk.",
     },
     {
-      q: "Can you trust HTTPS on an unknown site?",
+      q: "Can I trust HTTPS on an unknown site?",
       a: "HTTPS protects the connection — it doesn’t prove the seller is honest. Check domain, company details, and independent reviews.",
     },
     {
-      q: "Should you tell clients about a found clone?",
+      q: "Should I tell clients about a found clone?",
       a: "Yes. A short warning in official channels, the one correct domain — and don’t publish extra details that help attackers.",
     },
   ],
@@ -55,9 +55,9 @@ export const feykStranitsaEn: BlogPost = {
         {
           intro: "Typical kinds:",
           items: [
-            "online-store clone;",
-            "fake “payment” / support;",
-            "counterfeit brand profile;",
+            "online-store clone",
+            "fake “payment” / support",
+            "counterfeit brand profile",
             "phishing “log into account” form.",
           ],
         },
@@ -74,9 +74,9 @@ export const feykStranitsaEn: BlogPost = {
         {
           intro: "Red flags:",
           items: [
-            "typos in the domain;",
-            "no phone/address — or someone else’s;",
-            "pressure to “pay in 5 minutes”;",
+            "typos in the domain",
+            "no phone/address — or someone else’s",
+            "pressure to “pay in 5 minutes”",
             "a form asking for email/bank passwords outside the bank.",
           ],
         },
@@ -93,9 +93,9 @@ export const feykStranitsaEn: BlogPost = {
         {
           intro: "Practice:",
           items: [
-            "consistent NAP and company details;",
-            "a staff email for fake reports;",
-            "quick replies to clients on social;",
+            "consistent NAP and company details",
+            "a staff email for fake reports",
+            "quick replies to clients on social",
             "no homemade “fake storefronts” for SEO.",
           ],
         },
@@ -118,9 +118,9 @@ export const feykStranitsaEn: BlogPost = {
         {
           intro: "Safe check order:",
           items: [
-            "don’t open payment from an unexpected link;",
-            "match domain and details to an official source;",
-            "look for reviews off the seller’s page;",
+            "don’t open payment from an unexpected link",
+            "match domain and details to an official source",
+            "look for reviews off the seller’s page",
             "report the suspicion to the real brand owner.",
           ],
         },
@@ -137,9 +137,9 @@ export const feykStranitsaEn: BlogPost = {
         {
           intro: "In the report include:",
           items: [
-            "what object and rights are impersonated;",
-            "links to the official site and accounts;",
-            "proof of misleading content;",
+            "what object and rights are impersonated",
+            "links to the official site and accounts",
+            "proof of misleading content",
             "a contact for reply from the brand owner.",
           ],
         },

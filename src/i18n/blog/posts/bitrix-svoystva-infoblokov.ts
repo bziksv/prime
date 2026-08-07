@@ -5,21 +5,21 @@ export const bitrixSvoystvaInfoblokovEn: BlogPost = {
   slug: "bitrix-svoystva-infoblokov",
   title: "Outputting infoblock properties in 1C-Bitrix",
   date: "2017-12-12",
-  category: "Internet marketing",
+  category: "Websites",
   cover: "/images/blog/bitrix-svoystva-infoblokov/cover-en.webp",
   excerpt:
     "How to show an infoblock element’s properties in a Bitrix component template: DISPLAY_PROPERTIES, string/list/file/link types — without blindly pasting outdated snippets.",
   lead: [
     "Infoblock properties (SKU, file, list, element link) live in the admin; on the site you output them in the component template — most often in the result’s `template.php`.",
-    "Below — `$arResult` logic and display keys. Exact syntax and API depend on Bitrix version and component type; check official docs and don’t copy 2017 snippets without testing on your project. You need basic PHP and HTML.",
+    "Infoblock properties surface in templates via `$arResult` and display keys. Exact syntax and API depend on Bitrix version and component type — check official docs and don’t copy 2017 snippets without testing. You need basic PHP and HTML.",
   ],
   faq: [
     {
-      q: "Where do you edit the output?",
+      q: "Where do you edit property output in the template?",
       a: "Usually in the needed component template (often `template.php` under `bitrix/templates/...` or the site template). Prefer a component template copy, not core edits.",
     },
     {
-      q: "What is DISPLAY_PROPERTIES?",
+      q: "What is DISPLAY_PROPERTIES in Bitrix?",
       a: "An array of element properties prepared for display: name, value(s), type. Handy for card/list output.",
     },
     {
@@ -28,10 +28,10 @@ export const bitrixSvoystvaInfoblokovEn: BlogPost = {
     },
     {
       q: "How is this different from the public-section bar?",
-      a: "The bar edits content visually. Here — the template and property output code by a developer.",
+      a: "The bar edits content visually. This piece covers the template and property output code by a developer.",
     },
     {
-      q: "Can you do it without PHP?",
+      q: "Can you output properties without PHP?",
       a: "Some properties show via stock component parameters. Complex formats still need a template or custom code.",
     },
   ],

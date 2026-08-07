@@ -5,13 +5,13 @@ export const kvizSaytEn: BlogPost = {
   slug: "kviz-sayt",
   title: "Quiz site: when you need one and how to make it effective",
   date: "2020-01-14",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/kviz-sayt/cover-en.webp",
   excerpt:
     "What a quiz site and a landing quiz are: gamification, when a multi-step survey beats a long page, a build algorithm, and builder vs agency.",
   lead: [
     "A quiz site (or a quiz block on a landing) is a step-by-step survey in game form: the user answers questions, gets a personal result or calculation, and the business gets a segment and a contact.",
-    "It isn’t a “newest replacement for every landing” — it’s a format for a job: warm colder traffic and collect a lead without a wall of text. Below — when it works, how to build it, and what to watch.",
+    "It isn’t a “newest replacement for every landing” — it’s a format for a job: warm up colder traffic and collect a lead without a wall of copy. When it works, how to build it, and what to watch — below.",
   ],
   faq: [
     {
@@ -23,15 +23,15 @@ export const kvizSaytEn: BlogPost = {
       a: "Several steps, a sense of progress, a personal outcome. A form is fields right away; a quiz is a dialogue with a result.",
     },
     {
-      q: "For which step of Hunt’s ladder?",
+      q: "Which step of Hunt’s awareness ladder does it fit?",
       a: "Often for people still choosing a solution (middle steps). On steps 4–5 a short offer without a long survey is sometimes enough.",
     },
     {
       q: "How many questions is normal?",
-      a: "Usually 4–8 on point. Ten “for looks” raise drop-off. Every question should affect the offer or qualification.",
+      a: "Usually 4–8 clearly. Ten “for looks” raise drop-off. Every question should affect the offer or qualification.",
     },
     {
-      q: "Builder or agency?",
+      q: "Should I use a builder or an agency?",
       a: "A simple test — a builder. Complex calculation, brand design, CRM integrations — more often a contractor. Stake and cost of error decide.",
     },
     {
@@ -49,7 +49,7 @@ export const kvizSaytEn: BlogPost = {
       level: 2,
       paras: [
         "It’s a landing (separate URL or block) where instead of a long text the user runs a mini scenario: questions → branching logic → outcome (selection, calculation, recommendation) → contact form.",
-        "Landings didn’t disappear: a quiz adapts to “learn the need and give an answer”. Poor classic-page conversion is a reason to test a quiz hypothesis — not to blindly copy someone else’s template.",
+        "Landings didn’t disappear: a quiz adapts to “learn the need and give an answer.” Poor classic-page conversion is a reason to test a quiz hypothesis — not to blindly copy someone else’s template.",
       ],
       lists: [
         {
@@ -64,7 +64,7 @@ export const kvizSaytEn: BlogPost = {
       ],
       links: [
         {
-          label: "Awareness ladder",
+          label: "Awareness ladder (Hunt’s ladder)",
           href: "/en/blog/lestnitsa-hanta/",
         },
         {
@@ -90,9 +90,9 @@ export const kvizSaytEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Signals “worth testing”:",
+          intro: "Signals it’s worth testing:",
           items: [
-            "clients have many types of jobs;",
+            "customers have many types of jobs;",
             "managers spend time on first-line qualification;",
             "drop-offs on a long form;",
             "ads bring mixed-temperature traffic.",
@@ -132,7 +132,7 @@ export const kvizSaytEn: BlogPost = {
           href: "/en/blog/tselevaya-auditoriya/",
         },
         {
-          label: "USP",
+          label: "USP (unique selling proposition)",
           href: "/en/blog/utp/",
         },
       ],
@@ -142,7 +142,7 @@ export const kvizSaytEn: BlogPost = {
       level: 2,
       paras: [
         "A builder speeds up a hypothesis: a day or two for a draft with a clear audience. An agency or custom build — when you need brand, complex logic, calculations, integrations, and ownership of ad conversion.",
-        "There’s no absolute “always DIY / always contractor”. With a high media budget, a bad quiz costs more than saving on a template.",
+        "There’s no absolute “always DIY / always contractor.” With a high media budget, a bad quiz costs more than saving on a template.",
       ],
     },
     {
@@ -167,6 +167,6 @@ export const kvizSaytEn: BlogPost = {
     },
   ],
   closing: [
-    "A quiz site strengthens the funnel when questions and outcome tie to the client’s job. Build short logic, measure steps, and hand answers to sales — or it stays a “pretty game”.",
+    "A quiz site strengthens the funnel when questions and outcome tie to the customer’s job. Build short logic, measure steps, and hand answers to sales — or it stays a “pretty game.”",
   ],
 };

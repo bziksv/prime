@@ -5,37 +5,37 @@ export const metrikaUstanovkaEn: BlogPost = {
   slug: "metrika-ustanovka",
   title: "Installing Yandex Metrica on a website",
   date: "2021-04-27",
-  category: "SEO",
+  category: "Analytics",
   cover: "/images/blog/metrika-ustanovka/cover-en.webp",
   excerpt:
     "Where to paste the Yandex Metrica code in WordPress, Bitrix, Joomla, and site builders: counter in head / via plugin, visit checks, and common mistakes.",
   lead: [
     "Yandex Metrica counts visits, goals, and behavior. Without a counter you’re blind in ads and SEO reports.",
-    "Below — where to place the code on popular CMS platforms and how to confirm data is flowing. Panel UIs change — look for “counters” / “Analytics.”",
+    "Where to place the code on popular CMS platforms and how to confirm data is flowing. Panel UIs change — look for “counters” / “Analytics.”",
   ],
   faq: [
     {
-      q: "Where do you paste the code?",
+      q: "Where do I paste the Metrica code?",
       a: "Usually in `<head>` on all pages or via a tag manager. On a CMS — a plugin / “scripts in head” field.",
     },
     {
-      q: "Is footer-only enough?",
+      q: "Is putting the code only in the footer enough?",
       a: "Better follow Yandex’s recommendation — as early as possible in head, so short visits aren’t lost.",
     },
     {
-      q: "Do subdomains need a separate counter?",
+      q: "Do subdomains need a separate Metrica counter?",
       a: "Depends on the job. Often one counter with a host filter; sometimes separate ones for different projects.",
     },
     {
-      q: "Why no visits after install?",
+      q: "Why are there no visits after I install Metrica?",
       a: "Cache, a blocker, code missing on some templates, a typo in the ID, or the site only open locally to you.",
     },
     {
-      q: "Does Metrica replace Webmaster?",
+      q: "Does Metrica replace Yandex Webmaster?",
       a: "No. Metrica is user behavior. Webmaster is indexing and search messages.",
     },
     {
-      q: "Should you install Metrica via a tag manager?",
+      q: "Should I install Metrica via a tag manager?",
       a: "Handy when the site has many marketing tags and someone owns the container. For a simple site, correctly pasting the official counter code into the template is enough.",
     },
   ],
@@ -44,15 +44,15 @@ export const metrikaUstanovkaEn: BlogPost = {
       title: "General principle",
       level: 2,
       paras: [
-        "Create a counter in the Metrica cabinet, copy the code, and deploy it on every site template. Enable click map / Session Replay as needed and set goals.",
+        "Create a counter in the Metrica account, copy the code, and deploy it on every site template. Enable click map / Session Replay as needed and set goals.",
       ],
       lists: [
         {
           intro: "After pasting:",
           items: [
-            "open the site in incognito;",
-            "check “online” / visits in the cabinet;",
-            "clear CMS and CDN cache;",
+            "open the site in incognito",
+            "check “online” / visits in the account",
+            "clear CMS and CDN cache",
             "check mobile and desktop versions.",
           ],
         },
@@ -62,15 +62,15 @@ export const metrikaUstanovkaEn: BlogPost = {
       title: "WordPress, Bitrix, and others",
       level: 2,
       paras: [
-        "WordPress: a Metrica plugin or paste into the theme/child theme / “scripts in head.” Bitrix: support settings / Metrica or header template. Joomla and builders (Wix and peers) — custom code / marketing field.",
+        "WordPress: a Metrica plugin or paste into the theme/child theme / “scripts in head.” Bitrix: support settings / Metrica or header template. Joomla and builders (Wix and similar) — custom code / marketing field.",
       ],
       lists: [
         {
           intro: "Safety rules:",
           items: [
-            "don’t edit a parent theme without a child;",
-            "one main counter, no duplicates;",
-            "Metrica cabinet access — only for needed people;",
+            "don’t edit a parent theme without a child",
+            "one main counter, no duplicates",
+            "Metrica account access — only for needed people",
             "cookie/analytics consent — per your jurisdiction.",
           ],
         },
@@ -78,7 +78,7 @@ export const metrikaUstanovkaEn: BlogPost = {
       notes: [
         {
           title: "Plugins",
-          text: "Plugin names and menu items change. What matters is that the counter ID matches the cabinet and the code is on live pages.",
+          text: "Plugin names and menu items change. What matters is that the counter ID matches the account and the code is on live pages.",
         },
       ],
     },
@@ -92,9 +92,9 @@ export const metrikaUstanovkaEn: BlogPost = {
         {
           intro: "Debug checklist:",
           items: [
-            "view page source — is `mc.yandex` / the Metrica tag there;",
-            "no Adblock blocking during the test;",
-            "correct counter ID;",
+            "view page source — is `mc.yandex` / the Metrica tag there",
+            "no Adblock blocking during the test",
+            "correct counter ID",
             "goals and UTM for ads.",
           ],
         },
@@ -110,16 +110,16 @@ export const metrikaUstanovkaEn: BlogPost = {
       title: "Creating a counter and base settings",
       level: 2,
       paras: [
-        "In the Metrica cabinet create a counter for the exact site domain, set the time zone, and check access rights. Take the code from that counter’s UI: don’t copy a fragment from an old project, even if both sites belong to one company.",
+        "In the Metrica account create a counter for the exact site domain, set the time zone, and check access rights. Take the code from that counter’s UI: don’t copy a fragment from an old project, even if both sites belong to one company.",
         "Turn on extra tools deliberately. Session Replay and maps help study behavior, but before use check personal-data rules, field masking, and visitor notice requirements in your jurisdiction.",
       ],
       lists: [
         {
           intro: "Before deploy prepare:",
           items: [
-            "owner access to the cabinet;",
-            "a list of domains and subdomains to track;",
-            "a developer contact or CMS access;",
+            "owner access to the account",
+            "a list of domains and subdomains to track",
+            "a developer contact or CMS access",
             "rules for processing analytics data.",
           ],
         },
@@ -136,9 +136,9 @@ export const metrikaUstanovkaEn: BlogPost = {
         {
           intro: "Useful goals:",
           items: [
-            "successful form submit;",
-            "order complete or thank-you page;",
-            "click on phone or messenger;",
+            "successful form submit",
+            "order complete or thank-you page",
+            "click on phone or messenger",
             "download of an important file if it’s part of the funnel.",
           ],
         },
@@ -155,9 +155,9 @@ export const metrikaUstanovkaEn: BlogPost = {
         {
           intro: "If there’s no data, check in order:",
           items: [
-            "counter ID correctness;",
-            "tag presence on the problem page;",
-            "CMS cache, CDN, and script optimizers;",
+            "counter ID correctness",
+            "tag presence on the problem page",
+            "CMS cache, CDN, and script optimizers",
             "ad blocker in the tester’s browser.",
           ],
         },

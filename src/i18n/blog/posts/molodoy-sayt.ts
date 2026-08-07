@@ -11,39 +11,39 @@ export const molodoySaytEn: BlogPost = {
     "Where to start SEO for a new site: tech, content, commercial factors, and realistic timelines — without behavioral gaming or “bypass competitor” secrets.",
   lead: [
     "A young site rarely outranks strong competitors in a week. First: index, tech, clear service pages, and trust — then demand growth.",
-    "Below — work order, commercial signals, trust, and common traps. We don’t cover behavioral-factor gaming or gray schemes — and we don’t recommend them.",
+    "Work order, commercial signals, trust, and common traps follow. We don’t cover gaming behavioral signals or gray-hat schemes — and we don’t recommend those tactics. Site prep ≠ TOP: rankings for the keyword set are planned over 2–6 months after SEO starts.",
   ],
   faq: [
     {
-      q: "Is there a “sandbox”?",
-      a: "There’s no eternal “young = don’t rank” filter as a button. A new domain still needs time for crawl, trust, and useful signals.",
+      q: "Is there a young-site “sandbox” filter?",
+      a: "There’s no endless “young = don’t rank” filter as a button. A new domain still needs time for crawl, trust, and useful signals.",
     },
     {
-      q: "What to do in month one?",
-      a: "Indexing, Metrika/Webmaster, tech, a keyword core, 5–15 strong landings, contacts, and commercial blocks.",
+      q: "What should I do in month one?",
+      a: "Indexing, Metrika/Webmaster, tech, a keyword set, 5–15 strong landings, contacts, and commercial blocks.",
     },
     {
-      q: "Should you game behavioral metrics?",
+      q: "Should I game behavioral metrics?",
       a: "No. Sanction risk. Improve UX and attract real traffic: content, ads, PR.",
     },
     {
-      q: "When to expect TOP?",
+      q: "When should I expect TOP rankings?",
       a: "Prep — weeks (~a month as a guide). Noticeable ranking gains for the core — planned 2–6 months after work starts.",
     },
     {
-      q: "Buy links right away?",
+      q: "Should I buy links right away?",
       a: "Not first. Your own content and site hygiene first; links — selective and quality.",
     },
     {
-      q: "How many pages to start?",
+      q: "How many pages should I start with?",
       a: "No universal number. Priority services/categories and answers to frequent questions, then expand by demand.",
     },
     {
-      q: "Do you need paid search?",
+      q: "Do I need paid search?",
       a: "It can bring first leads and demand data if economics work. It doesn’t replace SEO, but it tests offer and landings.",
     },
     {
-      q: "New domain or aged with history?",
+      q: "Should I pick a new domain or an aged one with history?",
       a: "A clean aged domain can speed the start; a “dirty” one is worse than new. Check sanctions and link profile before buying.",
     },
   ],
@@ -53,16 +53,16 @@ export const molodoySaytEn: BlogPost = {
       level: 2,
       paras: [
         "Close critical tech, open the site to bots, build a core, make a structure. Without that, content and links run idle.",
-        "Every important page should answer a concrete query and be a few clicks away. Don’t spawn dozens of similar URLs for volume — they cannibalize each other and complicate crawl.",
+        "Every important page should answer a concrete query and be a few clicks away. Don’t create dozens of similar URLs for volume — they cannibalize each other and complicate crawl.",
       ],
       lists: [
         {
           intro: "Start:",
           items: [
-            "https, speed, mobile;",
-            "sitemap and indexing;",
-            "semantics and priorities;",
-            "Title/H1 templates without clones;",
+            "https, speed, mobile",
+            "sitemap and indexing",
+            "semantics and priorities",
+            "Title/H1 templates without clones",
             "Webmaster and Metrika.",
           ],
         },
@@ -89,10 +89,10 @@ export const molodoySaytEn: BlogPost = {
         {
           intro: "Stronger than “behavioral secrets”:",
           items: [
-            "a clear offer;",
-            "cases and facts;",
-            "fast forms;",
-            "honest reviews and company details;",
+            "a clear offer",
+            "cases and facts",
+            "fast forms",
+            "honest reviews and company details",
             "a contacts page without a quest.",
           ],
         },
@@ -115,9 +115,9 @@ export const molodoySaytEn: BlogPost = {
         {
           intro: "Analytics minimum:",
           items: [
-            "counter and lead/call goals;",
-            "Webmaster + sitemap;",
-            "a priority URL list to monitor;",
+            "counter and lead/call goals",
+            "Webmaster + sitemap",
+            "a priority URL list to monitor",
             "a weekly look at crawl errors.",
           ],
         },
@@ -125,7 +125,7 @@ export const molodoySaytEn: BlogPost = {
       links: [
         {
           label: "Goals in Metrika",
-          href: "/blog/metrika-tseli/",
+          href: "/en/blog/metrika-tseli/",
         },
         {
           label: "Yandex Webmaster",
@@ -144,9 +144,9 @@ export const molodoySaytEn: BlogPost = {
         {
           intro: "To see progress:",
           items: [
-            "indexing of priority pages;",
-            "share of target queries in visibility;",
-            "organic and inquiries by channel;",
+            "indexing of priority pages",
+            "share of target queries in visibility",
+            "organic and inquiries by channel",
             "pages with growing impressions but weak conversion.",
           ],
         },
@@ -174,9 +174,9 @@ export const molodoySaytEn: BlogPost = {
         {
           intro: "Clean early signals:",
           items: [
-            "profiles on maps and directories;",
-            "cases with client consent;",
-            "expert comments;",
+            "profiles on maps and directories",
+            "cases with client consent",
+            "expert comments",
             "content worth linking to.",
           ],
         },
@@ -184,11 +184,11 @@ export const molodoySaytEn: BlogPost = {
       links: [
         {
           label: "Buying links: risks",
-          href: "/blog/pokupka-ssylok/",
+          href: "/en/blog/pokupka-ssylok/",
         },
         {
           label: "Behavioral gaming: risks",
-          href: "/blog/nakrutka-pf/",
+          href: "/en/blog/nakrutka-pf/",
         },
       ],
     },
@@ -203,10 +203,10 @@ export const molodoySaytEn: BlogPost = {
         {
           intro: "Do:",
           items: [
-            "competitor analysis by meaning;",
-            "regular analytics;",
-            "improve pages with bounce;",
-            "patience and iterations;",
+            "competitor analysis by meaning",
+            "regular analytics",
+            "improve pages with bounce",
+            "patience and iterations",
             "an explicit no to gray “accelerators”.",
           ],
         },
@@ -229,9 +229,9 @@ export const molodoySaytEn: BlogPost = {
         {
           intro: "Alongside SEO it fits to:",
           items: [
-            "test the offer in Direct/Ads at a sane CPA;",
-            "map cards;",
-            "selective expert publishes;",
+            "test the offer in Direct/Ads at a sane CPA",
+            "map cards",
+            "selective expert publishes",
             "not — link packs “for TOP”.",
           ],
         },
@@ -239,7 +239,7 @@ export const molodoySaytEn: BlogPost = {
       links: [
         {
           label: "Brand traffic",
-          href: "/blog/brendovyy-trafik/",
+          href: "/en/blog/brendovyy-trafik/",
         },
       ],
     },

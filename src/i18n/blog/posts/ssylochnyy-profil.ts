@@ -8,10 +8,10 @@ export const ssylochnyyProfilEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/ssylochnyy-profil/cover-en.webp",
   excerpt:
-    "How to quickly assess backlinks for a page and domain: donors, anchors, toxicity, dynamics, and competitor comparison — without “TOP in a week” magic.",
+    "How to quickly assess backlinks for a page and domain: referring domains, anchors, toxicity, trends, and competitor comparison — without “TOP in a week” magic.",
   lead: [
-    "A backlink profile isn’t “how many backlinks are in the report” — it’s a picture: who links, from which domains and IPs, with which anchors, how natural it looks, and what to do with obvious junk.",
-    "Below — a practical ~30–60 minute order: take a snapshot, compare with competitors, separate noise from signal. Tool numbers diverge — trends and quality matter more than chasing one metric.",
+    "A backlink profile isn’t “how many backlinks are in the report.” It’s a picture: who links, from which domains and IPs, with which anchors, how natural it looks, and what to do with obvious junk.",
+    "In 30–60 minutes you can take a snapshot, compare with competitors, and separate noise from signal. Tool numbers diverge — trends and quality matter more than chasing one metric.",
   ],
   faq: [
     {
@@ -20,19 +20,19 @@ export const ssylochnyyProfilEn: BlogPost = {
     },
     {
       q: "Which tool is mandatory?",
-      a: "No single one is “truth”. Ahrefs, Majestic, Semrush, Serpstat, webmaster panels — different indexes. To start, one paid tool + Search Console is enough; with budget, cross-check two sources.",
+      a: "No single one is “truth.” Ahrefs, Majestic, Semrush, Serpstat, webmaster panels — different indexes. To start, one paid tool plus Search Console is enough; with budget, cross-check two sources.",
     },
     {
       q: "Is link count the main metric?",
-      a: "Referring domains/roots and donor quality usually matter more than thousands of links from one satellite.",
+      a: "Referring domains or roots and donor quality usually matter more than thousands of links from one satellite.",
     },
     {
-      q: "Should you disavow everything “toxic”?",
-      a: "Don’t mass-disavow “just in case”. First remove what you control (your networks, bought junk). Disavow — surgically and deliberately.",
+      q: "Should I disavow everything “toxic”?",
+      a: "Don’t mass-disavow “just in case.” First remove what you control (your networks, bought junk). Use Disavow surgically and deliberately.",
     },
     {
       q: "What does the anchor list show?",
-      a: "Skew toward commercial keywords, brand, URL, “click here” — a signal of naturalness or over-optimization risk.",
+      a: "Skew toward commercial keywords, brand, URL, or “click here” — a signal of naturalness or over-optimization risk.",
     },
     {
       q: "Why compare with a competitor?",
@@ -40,11 +40,11 @@ export const ssylochnyyProfilEn: BlogPost = {
     },
     {
       q: "Is half an hour realistic?",
-      a: "For a screen — yes: summary, top donors, anchors, spam flags, dynamics. A deep audit of thousands of links — hours and exports.",
+      a: "For a screen — yes: summary, top donors, anchors, spam flags, dynamics. A deep audit of thousands of links takes hours and exports.",
     },
     {
       q: "Do links guarantee growth?",
-      a: "No. Without content, tech, and relevance, links barely heal. The profile is one signal next to page quality. Planned TOP growth is still months of work — not a backlink checkbox.",
+      a: "No. Without content, tech, and relevance, links barely help. The profile is one signal next to page quality. Planned TOP growth still takes months of work — not a backlink checkbox. Prep and cleanup are not the same as ranking in the TOP.",
     },
   ],
   sections: [
@@ -52,8 +52,8 @@ export const ssylochnyyProfilEn: BlogPost = {
       title: "What’s in a “profile” and why audit",
       level: 2,
       paras: [
-        "A profile usually covers: volume and growth of links/domains, donor types (media, directories, forums, guest posts, UGC), anchors, dofollow/nofollow share, geography, and “suspicious” clusters (same IP/C-class, template sites).",
-        "Audit before promotion, after a spike/drop, when buying a domain, and when you suspect negatives or an old “link” tail.",
+        "A profile usually covers: volume and growth of links/domains, donor types (media, directories, forums, guest posts, UGC), anchors, dofollow/nofollow share, geography, and suspicious clusters (same IP/C-class, template sites).",
+        "Audit before promotion, after a spike or drop, when buying a domain, and when you suspect negatives or an old link tail.",
       ],
       lists: [
         {
@@ -71,8 +71,8 @@ export const ssylochnyyProfilEn: BlogPost = {
       title: "Data snapshot: where to start",
       level: 2,
       paras: [
-        "Enter the domain (and a specific URL if needed) in your chosen tool. For the whole site use a mode that covers subpaths, not only the homepage. Lock the report date — compare dynamics in a month.",
-        "In parallel open Search Console / webmaster tools: external links there are incomplete, but useful as “what the engine definitely saw”.",
+        "Enter the domain (and a specific URL if needed) in your chosen tool. For the whole site, use a mode that covers subpaths, not only the homepage. Lock the report date — compare dynamics in a month.",
+        "In parallel, open Search Console / webmaster tools: external links there are incomplete, but useful as “what the engine definitely saw.”",
       ],
       lists: [
         {
@@ -98,14 +98,14 @@ export const ssylochnyyProfilEn: BlogPost = {
       title: "Donor quality and spam signals",
       level: 2,
       paras: [
-        "A good niche donor: live traffic/brand, topical proximity, normal indexing, a contextual link. A bad one: template “300-word articles”, farms, hacked sites, endless link directories, a sharp spike from identical templates.",
+        "A good niche donor: live traffic or brand, topical proximity, normal indexing, a contextual link. A bad one: template “300-word articles,” farms, hacked sites, endless link directories, a sharp spike from identical templates.",
         "Review the top and the tail: sometimes “pretty” numbers sit on dozens of junk domains. Separately check IP/hosting clusters — mass links from one network look unnatural.",
       ],
       lists: [
         {
           intro: "Red flags:",
           items: [
-            "growth explosion without PR/content;",
+            "growth explosion without PR or content;",
             "anchors = pure commercial keywords in batches;",
             "donors with noindex / not in search;",
             "one CMS theme on hundreds of “sites”;",
@@ -124,8 +124,8 @@ export const ssylochnyyProfilEn: BlogPost = {
       title: "Anchors, traffic, and the target page",
       level: 2,
       paras: [
-        "Anchor list: a healthy mix of brand, URL, neutral (“here”, “source”), and a moderate keyword share. If 80% is “buy X cheap” from different domains, risk is higher than a calm branded profile.",
-        "For an important landing, see where links actually go: homepage, article, product. Sometimes the “domain profile” is strong while the target URL has almost no mentions — then work content and internal links, not only acquisition.",
+        "Anchor list: a healthy mix of brand, URL, neutral (“here,” “source”), and a moderate keyword share. If 80% is “buy X cheap” from different domains, risk is higher than a calm branded profile.",
+        "For an important landing, see where links actually go: homepage, article, product. Sometimes the domain profile is strong while the target URL has almost no mentions — then work content and internal links, not only acquisition.",
       ],
       lists: [
         {
@@ -149,8 +149,8 @@ export const ssylochnyyProfilEn: BlogPost = {
       title: "Competitor comparison",
       level: 2,
       paras: [
-        "Take 2–3 URLs/domains from TOP for target queries. Compare referring-domain order of magnitude, branded-anchor share, media and industry sites. Goal — niche “norm”, not copying spam.",
-        "If a competitor is stronger via old editorial links, your plan is content and mentions — not a link exchange. If everyone has tons of directories — judge whether that still works in your niche or it’s legacy.",
+        "Take 2–3 URLs or domains from the TOP for target queries. Compare referring-domain order of magnitude, branded-anchor share, media and industry sites. Goal — niche “norm,” not copying spam.",
+        "If a competitor is stronger via old editorial links, your plan is content and mentions — not a link exchange. If everyone has tons of directories, judge whether that still works in your niche or it’s legacy.",
       ],
       lists: [
         {
@@ -174,8 +174,8 @@ export const ssylochnyyProfilEn: BlogPost = {
       title: "What to do after the screen",
       level: 2,
       paras: [
-        "Split actions: (1) remove/close controlled junk; (2) strengthen the page and internal links; (3) a plan for natural mentions; (4) monthly monitoring. Don’t mix “buy 500 links” with an audit — different jobs.",
-        "Treat this as the canonical quick profile screen among related link-mass posts: same depth, angle — fast screening.",
+        "Split actions: (1) remove or fix controlled junk; (2) strengthen the page and internal links; (3) a plan for natural mentions; (4) monthly monitoring. Don’t mix “buy 500 links” with an audit — different jobs.",
+        "Treat this as the canonical quick profile screen among related link-mass posts: same depth, angle — fast screening. Remember: preparing the profile is not the same as landing in the TOP; ranking gains are planned over 2–6 months.",
       ],
       lists: [
         {
@@ -191,9 +191,9 @@ export const ssylochnyyProfilEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Practice",
+          title: "Tip",
           kind: "tip",
-          text: "A link report without conclusions as tasks is scrap paper. Every flag → owner and deadline.",
+          text: "A link report without conclusions as tasks is scrap paper. Every flag needs an owner and a deadline.",
         },
       ],
       links: [

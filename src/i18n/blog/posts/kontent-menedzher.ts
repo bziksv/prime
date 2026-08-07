@@ -11,11 +11,11 @@ export const kontentMenedzherEn: BlogPost = {
     "What a content manager is, how the role differs from copywriter and SMM, which duties and skills matter, and how to start a career.",
   lead: [
     "A content manager owns filling and order of materials on the site and related channels: plan, publish, edits, briefing authors, and quality control on the live page.",
-    "Below — duties, skills, the publish process, and entering the profession. SMM and pure copywriting are neighboring roles — not full synonyms.",
+    "Duties, skills, the publish process, and how to break into the field are below. SMM and straight copywriting are related roles — not full synonyms.",
   ],
   faq: [
     {
-      q: "Is this the same as a copywriter?",
+      q: "Is a content manager the same as a copywriter?",
       a: "Not always. A copywriter writes. A content manager often also plans, publishes, and watches structure and deadlines.",
     },
     {
@@ -23,11 +23,11 @@ export const kontentMenedzherEn: BlogPost = {
       a: "SMM is stronger in social and community. A content manager more often owns site, blog, catalog, CMS.",
     },
     {
-      q: "Do you need SEO?",
+      q: "Do I need SEO skills?",
       a: "Basics — yes: Title, headings, internal links, briefs for authors. Deep SEO usually belongs to a specialist.",
     },
     {
-      q: "How to start with no experience?",
+      q: "How do I start with no experience?",
       a: "CMS in practice, literacy, a portfolio of publishes, an internship, or a small site end-to-end.",
     },
     {
@@ -35,7 +35,7 @@ export const kontentMenedzherEn: BlogPost = {
       a: "Yes, often. You need deadline discipline, transparent task status, and careful handoff of materials.",
     },
     {
-      q: "Do you need to code?",
+      q: "Do I need to code?",
       a: "Usually no. Understanding HTML, CMS, and template limits helps brief a developer and verify a publish.",
     },
     {
@@ -43,8 +43,8 @@ export const kontentMenedzherEn: BlogPost = {
       a: "Plan adherence, publish quality without critical errors, updating stale pages, sometimes traffic/conversions — by team agreement.",
     },
     {
-      q: "Can you combine with SMM?",
-      a: "In a small team — yes, but priorities must be explicit: otherwise site and social stay forever “half done.”",
+      q: "Can I combine this role with SMM?",
+      a: "In a small team — yes, but priorities must be explicit: otherwise site and social stay forever half-finished.",
     },
   ],
   sections: [
@@ -52,7 +52,7 @@ export const kontentMenedzherEn: BlogPost = {
       title: "Who a content manager is",
       level: 2,
       paras: [
-        "A role at the edge of editorial and production: take an idea to a working page. You don’t have to write every text yourself — what matters is the material ships on time, in the right format, without layout breaks.",
+        "A role at the edge of editorial and production: take an idea to a working page. You don’t have to write every text yourself — what matters is the material goes live on time, in the right format, without layout breaks.",
         "In an agency the focus is often client sites and blogs; in a product — help, releases, knowledge base; in e-commerce — cards, category copy, banners. The core is the same: content lives predictably in the CMS.",
       ],
       lists: [
@@ -168,7 +168,7 @@ export const kontentMenedzherEn: BlogPost = {
       level: 2,
       paras: [
         "Gather 5–10 examples: articles, cards, laid-out sections. Start as junior, assistant, or running a small site — live publishes teach faster than courses alone.",
-        "In a portfolio show the task, structure, checks, and your role. Employers then see not only text, but the ability to ship a working page.",
+        "In a portfolio show the task, structure, checks, and your role. Employers then see not only text, but the ability to publish a working page.",
       ],
       lists: [
         {
@@ -208,7 +208,7 @@ export const kontentMenedzherEn: BlogPost = {
         },
         {
           label: "SEO copywriting",
-          href: "/blog/seo-kopirayting/",
+          href: "/en/blog/seo-kopirayting/",
         },
       ],
     },

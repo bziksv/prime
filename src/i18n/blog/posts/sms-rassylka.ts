@@ -5,13 +5,13 @@ export const smsRassylkaEn: BlogPost = {
   slug: "sms-rassylka",
   title: "SMS campaigns: where to start and how not to become spam",
   date: "2019-11-15",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/sms-rassylka/cover-en.webp",
   excerpt:
     "How to launch SMS: channel jobs, your own list and consent, picking an operator/aggregator, short copy, frequency, opt-out, and measurement — without cold spam to bought numbers.",
   lead: [
     "SMS arrives fast: one phone, and messages are often read almost immediately. That’s why the channel is strong for reminders, order statuses, and short offers — and just as easily turns into annoying spam.",
-    "Below — why SMS sits next to email, which jobs it covers, how to choose a send platform, and the launch stages. We don’t treat cold lists without consent as a strategy: that’s a risk of blocks, complaints, and reputation damage.",
+    "We cover why SMS sits next to email, which jobs it covers, how to choose a send platform, and the launch stages. Cold lists without consent aren’t a strategy—that’s a path to blocks, complaints, and reputation damage.",
   ],
   faq: [
     {
@@ -19,23 +19,23 @@ export const smsRassylkaEn: BlogPost = {
       a: "Not always. SMS gets opened faster; email holds more meaning and is cheaper at volume. They often work as a pair: SMS for urgent, email for nurture and longer value.",
     },
     {
-      q: "Can you message everyone from an “operator list”?",
+      q: "Can I message everyone from an “operator list”?",
       a: "Ads without consent are a legal and reputation risk. Safer: your own customer list with clear consent and an easy opt-out.",
     },
     {
-      q: "Operator or aggregator?",
+      q: "Should I use an operator or an aggregator?",
       a: "An operator is one carrier path; an aggregator is several carriers from one dashboard. Check the contract, sender name, reports, and how numbers are stored.",
     },
     {
-      q: "How do you measure effect?",
+      q: "How do I measure effect?",
       a: "Promo codes, a dedicated number / call tracking, short links with UTM, unsubscribe and complaint share — not only “delivered”.",
     },
     {
-      q: "How often should you send?",
+      q: "How often should I send SMS?",
       a: "Rarely and on purpose. Frequent promo SMS annoy more than email. Respect time zones and night hours.",
     },
     {
-      q: "Do you need an opt-out?",
+      q: "Do I need an opt-out link?",
       a: "Yes. Give a simple way to unsubscribe and honor it immediately — that’s both law and common sense.",
     },
   ],

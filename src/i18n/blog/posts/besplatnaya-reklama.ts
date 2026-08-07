@@ -3,27 +3,27 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for besplatnaya-reklama — same structure as RU JSON. */
 export const besplatnayaReklamaEn: BlogPost = {
   slug: "besplatnaya-reklama",
-  title: "Free online advertising: what actually works at the start",
+  title: "Free online advertising: what actually works when you’re starting out",
   date: "2020-03-16",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/besplatnaya-reklama/cover-en.webp",
   excerpt:
     "Which “free” advertising channels make sense: media and a news hook, aggregators, expert content, partnerships, listings — and which grey schemes to leave alone.",
   lead: [
     "Fully free promotion doesn’t exist: you pay with money or time. At the start without a budget, what matters are channels where you can earn attention honestly — content, partnerships, demand platforms.",
-    "Below — workable directions and limits. We don’t cover “how to inflate” or mass bot activity: that’s ban and reputation risk. Social networks are mentioned informationally, without urging use of specific platforms.",
+    "“Free ads” usually means sweat equity: organic posts, useful content, partners — not a zero-cost unlimited channel. We don’t cover “how to inflate” or mass bot activity: that’s ban and reputation risk.",
   ],
   faq: [
     {
-      q: "Is there advertising with zero cost at all?",
+      q: "Is there advertising with truly zero cost?",
       a: "There may be no media spend, but time and skill are always required. “Free” usually means “without a media budget.”",
     },
     {
-      q: "Are paid search and social ads free?",
+      q: "Are paid search and social ads ever free?",
       a: "No. Those are paid channels. At the end of the article — only as a next step when a minimal budget appears.",
     },
     {
-      q: "Do forums and classifieds help?",
+      q: "Do forums and classifieds help as free ads?",
       a: "Sometimes for local and niche demand. Spam gets removed; useful answers and proper listings by platform rules are valued.",
     },
     {
@@ -31,15 +31,15 @@ export const besplatnayaReklamaEn: BlogPost = {
       a: "Not as a strategy. Mass automated actions break platform rules and often end in account limits.",
     },
     {
-      q: "Cold email without consent?",
+      q: "Is cold email without consent a good idea?",
       a: "A bad idea: spam, complaints, legal risk. Write to people who gave a contact and consent, or use careful personal outreach within the law.",
     },
     {
-      q: "What to choose first?",
+      q: "What should you choose first for free promotion?",
       a: "A site/landing + clear offer, expert content, profiles on relevant aggregators, and one platform where your audience already is.",
     },
     {
-      q: "Does this replace SEO?",
+      q: "Does free advertising replace SEO?",
       a: "No. Organic search is a separate long track. “Free” channels can give first touches, but they don’t cancel site work.",
     },
   ],
@@ -154,7 +154,7 @@ export const besplatnayaReklamaEn: BlogPost = {
       title: "When to add budget and a site",
       level: 2,
       paras: [
-        "As soon as a minimal budget appears, the pair “clear landing + paid search/display or careful social ads” is usually more stable than pure “free” chaos. A blog and SEO give cheaper visits over distance, but that’s months of work — not a week.",
+        "As soon as a minimal budget appears, the pair “clear landing + paid search/display or careful social ads” is usually more stable than pure “free” chaos. A blog and SEO give cheaper visits over time, but that’s months of work — not a week.",
         "Count your hours. If a day goes to unpredictable channels and an hour of ads pays for itself with a lead — reallocate effort.",
       ],
       lists: [
@@ -172,7 +172,7 @@ export const besplatnayaReklamaEn: BlogPost = {
       links: [
         {
           label: "What SEO is",
-          href: "/blog/chto-takoe-seo/",
+          href: "/en/blog/chto-takoe-seo/",
         },
         {
           label: "Native ads: mistakes",

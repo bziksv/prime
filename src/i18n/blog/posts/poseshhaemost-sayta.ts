@@ -5,17 +5,17 @@ export const poseshhaemostSaytaEn: BlogPost = {
   slug: "poseshhaemost-sayta",
   title: "How to increase website traffic",
   date: "2018-04-10",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/poseshhaemost-sayta/cover-en.webp",
   excerpt:
-    "Start with an audit (speed, filters, navigation, content), then white-hat channels: SEO, title, email, images, social — without black-hat schemes or promising “traffic in a month = TOP”.",
+    "Start with an audit (speed, filters, navigation, content), then white-hat channels: SEO, title, email, images, social — without black-hat schemes or promising that “traffic in a month means TOP rankings.”",
   lead: [
     "There’s no universal answer to “how to raise traffic”: channels are many, and a site without basics wastes any visit. Put the resource in order first, then grow sources.",
-    "Below — prep and practical white-hat methods. SEO is “free” only without paying per click: you pay with time. Prep takes weeks/~a month; core terms into TOP are planned over 2–6 months — not “1–2 months after a couple of posts”.",
+    "We cover prep and practical white-hat methods. SEO is “free” only without paying per click: you pay with time. Prep takes weeks or about a month; core terms into TOP are planned over 2–6 months — not “1–2 months after a couple of posts.”",
   ],
   faq: [
     {
-      q: "Where to start with almost no budget?",
+      q: "Where should I start with almost no budget?",
       a: "With tech and content for real demand (often long-tail), plus one channel you can run. Don’t spray across everything at once.",
     },
     {
@@ -31,17 +31,17 @@ export const poseshhaemostSaytaEn: BlogPost = {
       a: "Organic often fades fast; audience quality can still be high. Commerce usually needs ads plus owned channels (email, site).",
     },
     {
-      q: "Do you need a forum on the site?",
+      q: "Do I need a forum on the site?",
       a: "Not required. FAQ, a blog, and up-to-date service pages are often more useful than a dead forum.",
     },
   ],
   sections: [
     {
-      title: "Site prep first",
+      title: "Prepare the site first",
       level: 2,
       paras: [
         "Speed: people rarely wait forever; a slow site hurts behavior and ads. Comfortable seconds matter more than chasing an abstract score — check on mobile.",
-        "Check for sanctions or a sharp drop after violations (over-optimization, click fraud, malware). Filters and algorithms hit visibility harder than “one more banner”.",
+        "Check for sanctions or a sharp drop after violations (over-optimization, click fraud, malware). Filters and algorithms hit visibility harder than “one more banner.”",
         "Navigation and structure: sections by meaning, clear menu, current content. Blog/news and FAQ — if you can keep them alive; RSS and email — to bring readers back.",
         "Design and cross-browser: the template shouldn’t break layouts across screens. Unique design isn’t required to start, but outdated and awkward UI drives people away.",
       ],
@@ -49,10 +49,10 @@ export const poseshhaemostSaytaEn: BlogPost = {
         {
           intro: "Mini-audit before promotion:",
           items: [
-            "speed of key pages;",
-            "mobile navigation;",
-            "no mass 404s / broken forms;",
-            "something to read/buy without stale prices;",
+            "speed of key pages",
+            "mobile navigation",
+            "no mass 404s / broken forms",
+            "something to read/buy without stale prices",
             "counters and goals configured.",
           ],
         },
@@ -77,7 +77,7 @@ export const poseshhaemostSaytaEn: BlogPost = {
         "Consent-based email keeps and returns people; several lists make sense with different content, not copy-paste. List growth is a process, not a one-day explosion.",
         "Image optimization: meaningful names/alt, compression, image-search traffic as an extra channel — not a substitute for text landings.",
         "Social (VK and peers): useful for reach and touches; mind platform rules and local regulation. Facebook and peers — with a caveat on service status. Organic “tail” is usually shorter than SEO.",
-        "Long-term leverage is the quality of the site and content itself. Build channel strategy for the niche; full source overview is in the neighboring piece.",
+        "Long-term leverage is the quality of the site and content itself. Build channel strategy for the niche; full source overview is in the companion article.",
       ],
       links: [
         {

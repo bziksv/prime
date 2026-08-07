@@ -5,13 +5,13 @@ export const napominanieKlientuEn: BlogPost = {
   slug: "napominanie-klientu",
   title: "Gently remind clients you’re here: channels and occasions",
   date: "2020-11-12",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/napominanie-klientu/cover-en.webp",
   excerpt:
     "How to softly win attention back: useful push, email and triggers, abandoned cart, holidays, and review requests — with consent and without “you haven’t visited in a while” spam.",
   lead: [
     "Selling once is half the job. The emotion of a purchase fades fast: you need a fitting reason to remind people you’re here — not a stream of “come visit us.”",
-    "Below — channels and informational occasions. Trigger, cart, and greeting details live in related guides; here — how not to slide into nagging. Marketing messages only with consent and a clear unsubscribe.",
+    "The difference between a gentle reminder and nagging is the occasion: usefulness, status, a holiday, a cart left behind. Trigger, cart, and greeting details live in related guides; here we focus on tone and frequency so you don’t burn the list.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -23,31 +23,31 @@ export const napominanieKlientuEn: BlogPost = {
       a: "Triggers are event mechanics. Here — the broader logic of a “gentle occasion” across channels, including push and the offline meaning of holidays.",
     },
     {
-      q: "Push without an app?",
+      q: "Can you send push notifications without an app?",
       a: "Classic app-push comes from an app. On the site, web-push is possible with browser permission; same rules: useful, rare, not a hard “buy now” in every ping.",
     },
     {
-      q: "When to write about an abandoned cart?",
-      a: "Usually hours–days, a series of 1–3 emails — not “in a month and a half.” Follow your funnel and consent to communicate.",
+      q: "When should you write about an abandoned cart?",
+      a: "Usually hours to a few days, in a series of 1–3 emails — not “in a month and a half.” Follow your funnel and consent to communicate.",
     },
     {
-      q: "Can I take birthdays from social without consent?",
-      a: "You shouldn’t. A birthday is personal data: only what the client left at signup/form and allowed you to use.",
+      q: "Can you take birthdays from social profiles without consent?",
+      a: "You shouldn’t. A birthday is personal data: only what the client left at signup or in a form and allowed you to use.",
     },
     {
-      q: "Is “you haven’t visited in a while” fine?",
+      q: "Is a “you haven’t visited in a while” message fine?",
       a: "It often annoys. Better: usefulness, a meaningful bonus, a service update, or a question about their experience.",
     },
     {
-      q: "Do you need retargeting?",
+      q: "Do you also need retargeting?",
       a: "Yes as a complement to email, not instead of service. See retargeting materials.",
     },
     {
-      q: "WhatsApp* and SMS?",
+      q: "Do WhatsApp* and SMS reminders work too?",
       a: "Only with consent and in a channel where the client already expects service messages. Otherwise — complaint and block risk.",
     },
     {
-      q: "What matters more than creative?",
+      q: "What matters more than the creative?",
       a: "Fit and frequency. One useful ping beats ten “cute” spam messages.",
     },
   ],
@@ -72,8 +72,8 @@ export const napominanieKlientuEn: BlogPost = {
         {
           intro: "A good push:",
           items: [
-            "usefulness or care, not a hard offer;",
-            "specifics without a wall of text;",
+            "usefulness or care, not a hard offer",
+            "specifics without a wall of text",
             "tied to what the person already did in the product.",
           ],
         },
@@ -84,18 +84,18 @@ export const napominanieKlientuEn: BlogPost = {
       level: 2,
       paras: [
         "After a purchase or a long pause, a win-back email with care and a bonus (shipping, promo) works — not the whole catalog.",
-        "Abandoned cart: remind that items are waiting; if the price changed — say so. Launch the series relatively fast (hours–days); test tone and offer. More in the abandonment piece.",
-        "Loyal clients can get closed bonuses — a “special status” feel without pressure.",
+        "Abandoned cart: remind that items are waiting; if the price changed — say so. Launch the series relatively fast (hours to days); test tone and offer. More in the abandonment piece.",
+        "Loyal clients can get exclusive bonuses — a “special status” feel without pressure.",
       ],
       lists: [],
       links: [
         {
           label: "Trigger emails",
-          href: "/blog/triggernye-rassylki/",
+          href: "/en/blog/triggernye-rassylki/",
         },
         {
-          label: "Abandoned cart",
-          href: "/blog/broshennaya-korzina/",
+          label: "Abandoned cart emails",
+          href: "/en/blog/broshennaya-korzina/",
         },
       ],
     },
@@ -111,27 +111,27 @@ export const napominanieKlientuEn: BlogPost = {
       links: [
         {
           label: "Greeting a client",
-          href: "/blog/pozdravlenie-klienta/",
+          href: "/en/blog/pozdravlenie-klienta/",
         },
         {
           label: "Retargeting",
-          href: "/blog/retargeting/",
+          href: "/en/blog/retargeting/",
         },
       ],
     },
     {
-      title: "What to remember",
+      title: "Takeaways",
       level: 2,
       paras: [
         "Consent and usefulness first, offer second.",
-        "Close cart and pause with fresh-timed triggers — not “in a month and a half.”",
+        "Handle cart and pause with fresh-timed triggers — not “in a month and a half.”",
         "Don’t harvest birthdays from other people’s profiles against the rules.",
       ],
       lists: [],
     },
   ],
   closing: [
-    "Pick one channel and one occasion per week for the “dormant” segment — measure replies and complaints before scaling frequency.",
+    "Pick one channel and one occasion per week for the dormant segment — measure replies and complaints before scaling frequency.",
   ],
   related: [
     "triggernye-rassylki",

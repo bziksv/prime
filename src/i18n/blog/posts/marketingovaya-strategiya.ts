@@ -5,13 +5,13 @@ export const marketingovayaStrategiyaEn: BlogPost = {
   slug: "marketingovaya-strategiya",
   title: "Planning and building a marketing strategy",
   date: "2019-10-07",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/marketingovaya-strategiya/cover-en.webp",
   excerpt:
-    "How to assemble a marketing strategy: goal and KPIs, audience, channels, content, and a schedule — without chaotic “by eye” campaigns and without swapping strategy for a single SEO plan.",
+    "How to assemble a marketing strategy: goal and KPIs, audience, channels, content, and a schedule — without chaotic gut-feel campaigns and without swapping strategy for a single SEO plan.",
   lead: [
-    "Without a plan, marketing often slides into situational posts and one-off promos. A strategy locks the goal, stages, channels, and ways to measure — so the team moves in sync, not “wherever yesterday worked”.",
-    "Below — a frame: why a plan, how to set a measurable goal, understand the audience, pick platforms, tie content to the brand, and hang deadlines. ROMI evaluation and site SEO strategy are neighboring topics.",
+    "Without a plan, marketing often slides into situational posts and one-off promos. A strategy locks the goal, stages, channels, and ways to measure — so the team moves in sync, not “wherever yesterday worked.”",
+    "Set a measurable goal, know the audience, pick platforms you can run well, tie content to the brand, and put deadlines on the calendar. ROMI (return on marketing investment) and site SEO strategy are related topics.",
   ],
   faq: [
     {
@@ -23,19 +23,19 @@ export const marketingovayaStrategiyaEn: BlogPost = {
       a: "An SEO strategy is about search and the site. Marketing is broader: brand, content, ads, email, offline — with shared KPIs.",
     },
     {
-      q: "How many goals at once?",
+      q: "How many goals should I set at once?",
       a: "One main goal for the campaign period plus 2–3 intermediate ones. “Awareness + sales + PR + survey” with no priority dilutes the budget.",
     },
     {
-      q: "Do you need SMART goals?",
+      q: "Do I need SMART goals?",
       a: "Yes: specifics, a metric, a deadline, realism. “Become better known” without a number can’t be measured.",
     },
     {
-      q: "Where to start if there are many channels?",
+      q: "Where should I start if there are many channels?",
       a: "With audience and goal, then 1–2 strong channels you already know. Scale after the first measurable results.",
     },
     {
-      q: "How do you know the plan worked?",
+      q: "How do I know the plan worked?",
       a: "Check KPIs set before launch: leads, sales, mentions, CR. Money via ROMI; the customer path via assisted conversions when the cycle is long.",
     },
   ],
@@ -63,7 +63,7 @@ export const marketingovayaStrategiyaEn: BlogPost = {
       level: 2,
       paras: [
         "First state the end result: product launch, awareness, audience growth, an event, collecting reviews. Then break it into intermediate tasks and metrics: pre-orders, deals, mentions, CR after click, profit.",
-        "The wording must be specific and dated: not “raise awareness”, but “grow metric X by date”. Realism matters: if you had no email list or press contacts, don’t bake in thousands of pre-sales and dozens of media pieces at once.",
+        "The wording must be specific and dated: not “raise awareness,” but “grow metric X by date.” Realism matters: if you had no email list or press contacts, don’t bake in thousands of pre-sales and dozens of media pieces at once.",
       ],
       lists: [
         {

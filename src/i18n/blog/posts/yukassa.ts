@@ -5,13 +5,13 @@ export const yukassaEn: BlogPost = {
   slug: "yukassa",
   title: "YooKassa (Yandex.Checkout): what it is and why a store needs it",
   date: "2021-10-22",
-  category: "Internet marketing",
+  category: "E-commerce",
   cover: "/images/blog/yukassa/cover-en.webp",
   excerpt:
     "What YooKassa (formerly Yandex.Checkout) is: online payments, pay-by-link invoices, cloud cash registers. How merchants connect and what to check in tariffs.",
   lead: [
     "YooKassa (formerly Yandex.Checkout) is a payment aggregator: a store or service takes card and other payments without building bank acquiring from scratch.",
-    "Below — what the product does, a typical onboarding path, and what to watch in the contract. Fees, methods, and the cabinet UI change — always check current terms on the YooKassa site.",
+    "Fees, methods, and the dashboard UI change — always check current terms on the YooKassa site. What the product does, a typical onboarding path, and what to watch in the contract.",
   ],
   faq: [
     {
@@ -19,12 +19,12 @@ export const yukassaEn: BlogPost = {
       a: "Yes — a rebrand of one payment product. Older contracts and articles may still use the old name.",
     },
     {
-      q: "Who is it for?",
+      q: "Who is YooKassa for?",
       a: "Sole traders and companies that need online pay: shops, services, subscriptions, pay-by-link invoices. Individuals without a business status usually need a different setup.",
     },
     {
       q: "Does it replace an online cash register?",
-      a: "The aggregator takes the payment; Russian receipt rules (54-FZ) are closed by a cash register (including partner cloud KKT). Confirm the stack for your scheme with your accountant.",
+      a: "The aggregator takes the payment; Russian receipt rules (54-FZ) are handled by a cash register (including partner cloud KKT). Confirm the stack for your scheme with your accountant.",
     },
     {
       q: "What is the fee?",
@@ -32,7 +32,7 @@ export const yukassaEn: BlogPost = {
     },
     {
       q: "Can I invoice without a website?",
-      a: "Often yes: a payment link / invoice to the client with a notification. Handy for services and one-off payments.",
+      a: "Often yes: a payment link or invoice to the client with a notification. Handy for services and one-off payments.",
     },
   ],
   sections: [
@@ -40,8 +40,8 @@ export const yukassaEn: BlogPost = {
       title: "What YooKassa does",
       level: 2,
       paras: [
-        "It’s a middle layer between your site/invoice and payment methods: the buyer pays, you see the status in the cabinet, and funds land on your settlement account under the contract rules.",
-        "Besides an “Pay” button on the site there are pay-by-link invoices, B2B flows, recurring charges (when enabled), and modules for popular shops and CMS platforms.",
+        "It’s a middle layer between your site or invoice and payment methods: the buyer pays, you see the status in the dashboard, and funds land on your settlement account under the contract rules.",
+        "Besides a Pay button on the site there are pay-by-link invoices, B2B flows, recurring charges (when enabled), and modules for popular shops and CMS platforms.",
       ],
       lists: [],
     },
@@ -49,13 +49,13 @@ export const yukassaEn: BlogPost = {
       title: "Who needs it and why",
       level: 2,
       paras: [
-        "Online retail and services need to take money without wiring every bank separately. An aggregator gives one cabinet, stats, and ready modules for common platforms.",
+        "Online retail and services need to take money without wiring every bank separately. An aggregator gives one dashboard, stats, and ready modules for common platforms.",
       ],
       lists: [
         {
           intro: "Typical jobs:",
           items: [
-            "checkout on a product page / cart;",
+            "checkout on a product page or cart;",
             "an invoice or link in a messenger;",
             "payment status tracking;",
             "tie-in with an online cash register for receipts.",
@@ -67,8 +67,8 @@ export const yukassaEn: BlogPost = {
       title: "Pros and limits",
       level: 2,
       paras: [
-        "Pros: fast path to accepting pay, many methods under one contract, cabinet and API/modules, invoices without a full storefront.",
-        "Limits: a fee per payment, moderation and business requirements, dependence on cabinet/API uptime. Tariffs and option sets — only from the current price list.",
+        "Pros: fast path to accepting pay, many methods under one contract, dashboard and API or modules, invoices without a full storefront.",
+        "Limits: a fee per payment, moderation and business requirements, dependence on dashboard and API uptime. Tariffs and option sets — only from the current price list.",
       ],
       lists: [
         {
@@ -93,14 +93,14 @@ export const yukassaEn: BlogPost = {
       title: "How merchants connect",
       level: 2,
       paras: [
-        "Usual path: apply / sign up → questionnaire and docs → contract → shop setup in the cabinet → module or API → test payment → live.",
+        "Usual path: apply or sign up → questionnaire and docs → contract → shop setup in the dashboard → module or API → test payment → live.",
       ],
       lists: [
         {
           intro: "What to prepare:",
           items: [
             "sole trader or company details;",
-            "description of goods/services and a site (if any);",
+            "description of goods or services and a site (if any);",
             "CMS access or a developer;",
             "clarity on whether you need a cloud cash register.",
           ],
@@ -111,7 +111,7 @@ export const yukassaEn: BlogPost = {
       title: "Store tie-in and receipts",
       level: 2,
       paras: [
-        "Payment without fiscalization doesn’t close cash-register law if your scheme falls under it. YooKassa and partners help with cloud KKT — pick the scheme with your accountant.",
+        "Payment without fiscalization doesn’t satisfy cash-register law if your scheme falls under it. YooKassa and partners help with cloud KKT — pick the scheme with your accountant.",
         "After go-live check a test and live payment, client emails, refunds, and order status display.",
       ],
       lists: [],

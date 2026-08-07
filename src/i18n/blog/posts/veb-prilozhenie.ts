@@ -5,17 +5,17 @@ export const vebPrilozhenieEn: BlogPost = {
   slug: "veb-prilozhenie",
   title: "Web application: how it differs from a site and why business needs it",
   date: "2020-09-22",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/veb-prilozhenie/cover-en.webp",
   excerpt:
     "What a web app is, how it differs from a showcase site, how the browser–server chain works, and when business needs an account, cart, or SPA — not only a landing page.",
   lead: [
     "A web application is a program in the browser: the user doesn’t only read pages — they act: search, fill forms, buy, work in an account. Data lives on the server; the UI opens by URL.",
-    "Below — differences from a “simple site”, static vs dynamic, interface types, and typical business scenarios. This is not a framework-picking guide and not a substitute for a development brief.",
+    "A brochure site is almost static; a store, browser CRM, or personal account already behaves like an app — state, roles, operations. This isn’t a framework-picking guide or a substitute for a development brief.",
   ],
   faq: [
     {
-      q: "Are a site and a web app the same?",
+      q: "Are a site and a web app the same thing?",
       a: "They overlap. A brochure site is almost static. A store, browser CRM, or personal account is already an app: state, roles, operations.",
     },
     {
@@ -24,22 +24,22 @@ export const vebPrilozhenieEn: BlogPost = {
     },
     {
       q: "What is an SPA?",
-      a: "Single Page Application: the UI updates without a full reload. Handy for accounts; for SEO and analytics you still need correct URLs and hits.",
+      a: "Single Page Application: the UI updates without a full reload. Useful for accounts; for SEO and analytics you still need correct URLs and hits.",
     },
     {
       q: "Is Ajax required?",
       a: "Not as a “2010s brand”, but as an idea: load data without redrawing the whole page. Today the same is done with fetch/API and modern frameworks.",
     },
     {
-      q: "When is a landing enough?",
+      q: "When is a landing page enough?",
       a: "When the job is to explain an offer and collect a lead. If you need orders, roles, calculations, integrations — design it as an application.",
     },
     {
       q: "Does this affect SEO?",
-      a: "Yes: indexable URLs, speed, SSR/prerender when needed matter. A “pretty account” with no public landings doesn’t deliver TOP by itself.",
+      a: "Yes: indexable URLs, speed, SSR/prerender when needed matter. A “pretty account” with no public landings doesn’t deliver TOP by itself — commercial visibility is planned for 2–6 months after promotion starts.",
     },
     {
-      q: "Where to start buying development?",
+      q: "Where should I start when buying development?",
       a: "With user scenarios and roles — not the stack. Then data, integrations, access rights, and acceptance criteria.",
     },
   ],
@@ -70,7 +70,7 @@ export const vebPrilozhenieEn: BlogPost = {
       ],
     },
     {
-      title: "The technical side without stack worship",
+      title: "The technical side without framework dogma",
       level: 2,
       paras: [
         "Browser and server can run on different OSes and languages — a web plus. What matters isn’t “which framework is trendy”, but contracts: API, security, response speed, clear errors.",

@@ -5,21 +5,21 @@ export const projectManagerEn: BlogPost = {
   slug: "project-manager",
   title: "Project manager in IT: duties, skills, and how people enter the role",
   date: "2019-12-09",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/project-manager/cover-en.webp",
   excerpt:
     "Who a project manager is in IT: why the role exists, typical duties and skills, and how people enter the profession — without “high salary right after a weekend course” promises.",
   lead: [
     "A project manager owns the path from idea to outcome: timeline, team, stakeholder agreements, and a clear status. Even strong developers and designers without coordination often pull the project in different directions.",
-    "Below — what a PM does in IT, daily work, which qualities matter, and common entry paths. Salaries and grade titles float on the market — check current openings; here we cover the substance of the job.",
+    "What a PM does in IT, daily work, which qualities matter, and common entry paths. Salaries and grade titles float on the market — check current openings; this piece is about the substance of the job.",
   ],
   faq: [
     {
-      q: "Is a PM the same as a tech lead?",
+      q: "Is a project manager the same as a tech lead?",
       a: "Not always. A tech lead usually owns engineering craft and people. A PM owns project goals, timeline, communications, and risks as a whole.",
     },
     {
-      q: "Do you need a technical background?",
+      q: "Do I need a technical background?",
       a: "It helps a lot to understand constraints and spot risks. You can enter without IT experience, but you’ll need to learn the team’s and product’s language quickly.",
     },
     {
@@ -59,10 +59,10 @@ export const projectManagerEn: BlogPost = {
         {
           intro: "Basic cycle:",
           items: [
-            "agree goals and project boundaries;",
-            "assemble / clarify the team and roles;",
-            "run the plan and statuses;",
-            "escalate risks in time;",
+            "agree goals and project boundaries",
+            "assemble / clarify the team and roles",
+            "run the plan and statuses",
+            "escalate risks in time",
             "deliver the result and close loose ends.",
           ],
         },
@@ -85,10 +85,10 @@ export const projectManagerEn: BlogPost = {
         {
           intro: "What to level up:",
           items: [
-            "task framing and “done” criteria;",
-            "estimating and tracking dates;",
-            "risks and scope-change work;",
-            "meeting facilitation;",
+            "task framing and “done” criteria",
+            "estimating and tracking dates",
+            "risks and scope-change work",
+            "meeting facilitation",
             "basic understanding of IT delivery.",
           ],
         },

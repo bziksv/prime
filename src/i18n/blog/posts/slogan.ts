@@ -11,35 +11,35 @@ export const sloganEn: BlogPost = {
     "Brand and ad slogans: why they matter, how they differ from a USP, what to avoid, and how to craft a short line without “two-click” generators and empty promises.",
   lead: [
     "A slogan is a short line next to the name and logo: mood, promise, or difference that’s easy to repeat. It doesn’t replace the offer and isn’t required for every company.",
-    "Below — when a slogan helps, types by meaning and form, what to avoid, and a simple build method. A USP is about “why you”; a slogan is more about memory and tone. Generators give drafts, not strategy.",
+    "We cover when a slogan helps, types by meaning and form, what to avoid, and a simple way to build one. A USP is about “why you”; a slogan is more about memory and tone. Generators give drafts, not strategy.",
   ],
   faq: [
     {
-      q: "Is a slogan = USP?",
-      a: "Not always. A USP is a concrete difference for choosing. A slogan can be image (“mood”) or closer to the offer. See the USP piece.",
+      q: "Is a slogan the same as a USP?",
+      a: "Not always. A USP is a concrete difference for choosing. A slogan can be image (“mood”) or closer to the offer. See the USP article.",
     },
     {
       q: "Is a slogan required?",
       a: "No. Sometimes a clear name and USP on the first screen are enough. A slogan strengthens the brand if you actually use it everywhere.",
     },
     {
-      q: "How many words is normal?",
+      q: "How many words is normal for a slogan?",
       a: "Aim short — often up to 5–8 words. Clarity and speakability matter more than a word count.",
     },
     {
-      q: "Will an online generator help?",
+      q: "Will an online slogan generator help?",
       a: "As a brainstorm start — sometimes. A final without brief, audience, and promise checks is almost always weak.",
     },
     {
-      q: "Can you rhyme?",
+      q: "Can I use rhyme in a slogan?",
       a: "Yes, if the rhyme carries meaning. Clunky “rhyme for rhyme’s sake” slogans sound cheap.",
     },
     {
-      q: "Who should write it?",
+      q: "Who should write the slogan?",
       a: "A team with a brief, an agency, or a strong copywriter after learning the business. A “pretty line that misses the brand” is worse than plain truth.",
     },
     {
-      q: "Do you need to register it?",
+      q: "Do I need to register the slogan?",
       a: "For commercial use, uniqueness and trademark/conflict checks matter — especially for big campaigns. Ask brand counsel when unsure.",
     },
   ],
@@ -67,7 +67,7 @@ export const sloganEn: BlogPost = {
         },
         {
           label: "Logo",
-          href: "/blog/logotip/",
+          href: "/en/blog/logotip/",
         },
       ],
     },
@@ -109,7 +109,7 @@ export const sloganEn: BlogPost = {
       ],
     },
     {
-      title: "What to remember",
+      title: "Key takeaways",
       level: 2,
       paras: [
         "Truth about brand and audience first — then pretty wording.",

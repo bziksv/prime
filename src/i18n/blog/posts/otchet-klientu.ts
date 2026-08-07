@@ -5,21 +5,21 @@ export const otchetKlientuEn: BlogPost = {
   slug: "otchet-klientu",
   title: "Client ad campaign report: 9 rules",
   date: "2021-07-12",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/otchet-klientu/cover-en.webp",
   excerpt:
     "How to deliver an ad report so the client understands the result: goals and ROI first, shared KPIs, a dashboard summary, a glossary, and details in an appendix — without “elf” jargon.",
   lead: [
     "A campaign report isn’t only numbers from the ad account — it’s a way to agree on the picture: what worked, what didn’t, and what to do next. Bad presentation breaks trust even with decent results.",
-    "Below — nine mutual-understanding rules: from transparency and structure to a glossary and “non-ad” business metrics. Ad-account tools change; report logic beats the BI brand name.",
+    "Transparency, structure, a glossary, and business metrics beat a CTR dump. Ad-account tools change — report meaning first, screenshots second.",
   ],
   faq: [
     {
-      q: "Start the report with CTR or with money?",
+      q: "Should you start the report with CTR or with money?",
       a: "With business goals and money outcomes (leads, sales, ROI/ROAS — whatever the brief locked). CTR and clicks explain; they don’t replace.",
     },
     {
-      q: "Do you need a dashboard?",
+      q: "Do you need a dashboard for client reports?",
       a: "A one-screen summary — yes: vs the previous period and an answer to “are we on goal?” A full dashboard — by agreement; see the separate article.",
     },
     {
@@ -27,11 +27,11 @@ export const otchetKlientuEn: BlogPost = {
       a: "As in the contract: weekly / biweekly / monthly. What matters is the same structure and metric definitions from report to report.",
     },
     {
-      q: "What if results are weak?",
+      q: "What if campaign results are weak?",
       a: "Show the facts, cause hypotheses, and a fix plan. Hiding a miss is worse than an honest breakdown.",
     },
     {
-      q: "Must examples be Google Ads?",
+      q: "Do report examples have to be from Google Ads?",
       a: "No. The same rules for Yandex Direct and other accounts: summary → blocks → details; calls and offline as a separate line if the platform doesn’t see them.",
     },
   ],
@@ -47,10 +47,10 @@ export const otchetKlientuEn: BlogPost = {
         {
           intro: "In the report header:",
           items: [
-            "period and channels;",
-            "goal (leads / sales / traffic);",
-            "actual vs plan;",
-            "1–3 main takeaways;",
+            "period and channels",
+            "goal (leads / sales / traffic)",
+            "actual vs plan",
+            "1–3 main takeaways",
             "what we do next period.",
           ],
         },
@@ -82,10 +82,10 @@ export const otchetKlientuEn: BlogPost = {
         {
           intro: "Handy KPI classification:",
           items: [
-            "reach and cost per contact;",
-            "clicks and traffic quality;",
-            "conversions and CPA/CPL;",
-            "revenue and ROI/ROAS;",
+            "reach and cost per contact",
+            "clicks and traffic quality",
+            "conversions and CPA/CPL",
+            "revenue and ROI/ROAS",
             "supporting: ER, bounce, depth.",
           ],
         },
@@ -114,9 +114,9 @@ export const otchetKlientuEn: BlogPost = {
         {
           intro: "Before sending:",
           items: [
-            "read it with the client’s eyes;",
-            "check period and currency;",
-            "confirm conclusions follow from the numbers;",
+            "read it with the client’s eyes",
+            "check period and currency",
+            "confirm conclusions follow from the numbers",
             "there are next steps, not only “see the Excel.”",
           ],
         },

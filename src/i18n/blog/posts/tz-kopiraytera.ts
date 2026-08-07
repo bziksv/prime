@@ -8,43 +8,43 @@ export const tzKopirayteraEn: BlogPost = {
   category: "Content marketing",
   cover: "/images/blog/tz-kopiraytera/cover-en.webp",
   excerpt:
-    "Copywriter brief: goal, audience, outline, facts, stop-list, and acceptance criteria for sales, SEO, and homepage copy — without treating “95% uniqueness” as the only KPI.",
+    "A copywriter brief that covers goal, audience, outline, facts, stop-list, and acceptance criteria — for sales, SEO, and homepage copy, without treating “95% uniqueness” as the only KPI.",
   lead: [
-    "Weak copy often grows from a vague order: “write about wallpaper, make it nice, add keywords.” The clearer the brief, the fewer revisions — even with an average writer.",
-    "Below — why a brief matters, a frame for selling copy, homepage and SEO nuances, and basic acceptance rules. Copywriting types and hiring live in the general piece; writing yourself — in the article algorithm.",
+    "Weak copy often starts with a vague order: “write about wallpaper, make it nice, add keywords.” A clear brief cuts revisions — even with a mid-level writer.",
+    "A solid brief locks the goal, audience, must-have facts, and how you’ll accept the draft. Types of copy and how to hire live in our general copywriting guide; if you’re writing yourself, use the article-writing algorithm instead.",
   ],
   faq: [
     {
       q: "Can I skip a brief on a freelance marketplace?",
-      a: "You’ll get “something,” not what the business needs. A short brief saves money on rewrites.",
+      a: "You can, but you’ll usually get generic copy — not what the business needs. A short brief costs less than a rewrite cycle.",
     },
     {
-      q: "What’s required in every brief?",
-      a: "Goal, audience, length/format, tone, must-have facts, stop-list, acceptance criteria, and deadline.",
+      q: "What should every brief include?",
+      a: "Goal, audience, length and format, tone, must-have facts, a stop-list, acceptance criteria, and a deadline.",
     },
     {
       q: "Do I need keywords in the brief?",
-      a: "For SEO pages — yes: cluster, preferred forms, where they fit. Without a core and intent, a keyword list is almost useless.",
+      a: "For SEO pages — yes: the cluster, preferred forms, and where they belong. Without a core and intent, a keyword list is almost useless.",
     },
     {
-      q: "What uniqueness % should I require?",
-      a: "A checker score is not religion. No copy-paste and real usefulness matter more. Put uniqueness-tool numbers as a check, not the only KPI.",
+      q: "What uniqueness score should I require?",
+      a: "A checker percentage isn’t gospel. No copy-paste and real usefulness matter more. Treat uniqueness-tool numbers as a check, not the only KPI.",
     },
     {
       q: "How many characters should I specify?",
-      a: "Match the page job — not “more is better.” Often 2–4k characters with spaces for a block; longer only if real depth is needed.",
+      a: "Match the page job — not “more is better.” Often 2–4k characters with spaces for a block; go longer only when you need real depth.",
     },
     {
-      q: "Who writes the brief: marketing or SEO?",
+      q: "Who should write the brief — marketing or SEO?",
       a: "Better together: offer and audience from marketing, cluster and page type from SEO.",
     },
     {
       q: "How is this different from the “Copywriting” article?",
-      a: "There — text types and choosing a writer. Here — how to assemble the brief itself.",
+      a: "That piece covers text types and choosing a writer. This one is about assembling the brief itself.",
     },
     {
       q: "Do I need style examples?",
-      a: "Yes: 1–2 links to “do this” and “don’t do this” strongly align tone.",
+      a: "Yes. One or two “do this” and “don’t do this” links align tone faster than adjectives alone.",
     },
   ],
   sections: [
@@ -52,28 +52,28 @@ export const tzKopirayteraEn: BlogPost = {
       title: "Why a detailed brief",
       level: 2,
       paras: [
-        "It locks expectations before work starts: fewer “I meant something else.”",
-        "You get an acceptable result faster and cheaper than waiting for a “perfect” author with no brief.",
-        "It gives acceptance criteria: revisions on substance, not endless taste debates.",
+        "It locks expectations before work starts, so you hear fewer “I meant something else.”",
+        "You reach an acceptable draft faster and cheaper than waiting for a “perfect” author with no brief.",
+        "It gives acceptance criteria: you revise on substance, not endless taste debates.",
       ],
       lists: [],
     },
     {
-      title: "Frame for selling copy",
+      title: "Framework for sales copy",
       level: 2,
       paras: [
-        "Collect offer pros/cons from sales or marketing. Lock the goal (lead, trial, call), audience, a draft outline with headings, theses, and questions the text must answer.",
-        "Add stop-rules (fluff, clichés, promises you can’t keep) and how you differ from competitors / leaders — in your own words and facts.",
+        "Collect offer pros and cons from sales or marketing. Lock the goal (lead, trial, call), the audience, a draft outline with headings, theses, and the questions the text must answer.",
+        "Add stop-rules (fluff, clichés, promises you can’t keep) and how you differ from competitors — in your own words and with real facts.",
       ],
       lists: [
         {
           intro: "Minimum blocks in the brief:",
           items: [
             "goal and CTA;",
-            "reader portrait;",
+            "reader persona;",
             "outline / H2s;",
             "must-have facts and figures;",
-            "objection questionnaire;",
+            "objection checklist;",
             "stop-words and banned tactics;",
             "length, tone, deadline, revision limit.",
           ],
@@ -82,7 +82,7 @@ export const tzKopirayteraEn: BlogPost = {
       notes: [
         {
           title: "Logic example",
-          text: "Language school: goal — book a level test; audience — people who studied before; outline — problem → benefit of knowing the language → why know your level → CTA; no openers like “everyone knows…”",
+          text: "Language school: goal is to book a level test; audience is people who studied before; outline runs problem → benefit of knowing the language → why know your level → CTA; ban openers like “everyone knows…”",
         },
       ],
     },
@@ -90,7 +90,7 @@ export const tzKopirayteraEn: BlogPost = {
       title: "Homepage and SEO copy",
       level: 2,
       paras: [
-        "Homepage: give advantage theses, services, facts, reviews, client FAQ, and competitor notes yourself — don’t expect the writer to “Google the brand soul.” See also the homepage-copy piece.",
+        "Homepage: hand over advantage theses, services, facts, reviews, client FAQ, and competitor notes yourself — don’t expect the writer to invent the brand from a Google search. See also the homepage-copy article.",
         "SEO: attach the cluster, page intent, and placement guidance without stuffing. An SEO consult before the brief saves rewrites.",
       ],
       lists: [],
@@ -101,7 +101,7 @@ export const tzKopirayteraEn: BlogPost = {
         },
         {
           label: "SEO copywriting",
-          href: "/blog/seo-kopirayting/",
+          href: "/en/blog/seo-kopirayting/",
         },
         {
           label: "Semantic core",
@@ -113,7 +113,7 @@ export const tzKopirayteraEn: BlogPost = {
       title: "Basic acceptance requirements",
       level: 2,
       paras: [
-        "Structure: subheads, lists, readable paragraphs. Tone: company voice / impersonal; “you” form consistent throughout.",
+        "Structure: subheads, lists, readable paragraphs. Tone: company voice or impersonal; keep the “you” form consistent throughout.",
         "Check uniqueness with the tool named in the brief, but don’t chase 100% at the cost of meaning. Attach style references in advance.",
       ],
       lists: [],
@@ -133,14 +133,14 @@ export const tzKopirayteraEn: BlogPost = {
       level: 2,
       paras: [
         "Brief = goal + audience + facts + stop-list + acceptance.",
-        "For homepage and SEO the brief is thicker than “just an article.”",
-        "Anti-plagiarism % is a guide, not the only goal.",
+        "For homepage and SEO pages the brief is thicker than “just an article.”",
+        "An anti-plagiarism percentage is a guide, not the only goal.",
       ],
       lists: [],
     },
   ],
   closing: [
-    "Before the next order, fill one brief template against a past successful page — and reuse it as a checklist for future copy.",
+    "Before the next order, fill one brief template against a past successful page — then reuse it as a checklist for future copy.",
   ],
   related: [
     "kopirayting",

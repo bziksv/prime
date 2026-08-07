@@ -11,7 +11,7 @@ export const tegH1En: BlogPost = {
     "Why H1 matters, how it differs from Title, how to build H1–H6 hierarchy, where to put keywords, and how to check headings on a page without stuffing.",
   lead: [
     "H1 is the main visible page heading: it sets the topic for people and helps search understand the document. It isn’t a “magic TOP-1 tag” — it’s part of a clear structure with Title, subheads, and body copy.",
-    "Below — how to style H1, how it differs from Title, how to build H2–H6 hierarchy, typical CMS mistakes, and a quick check. Broader on-page work is in the page-optimization article; here the focus is headings.",
+    "This guide covers how to style H1, how it differs from Title, how to build an H2–H6 hierarchy, typical CMS mistakes, and a quick check. Broader on-page work is in the page-optimization article; here the focus is headings.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const tegH1En: BlogPost = {
       a: "Guide: one meaningful H1 for the main content. Multiple H1s in the template (logo, widgets) are better removed — they confuse people and markup.",
     },
     {
-      q: "Must Title and H1 match word for word?",
+      q: "Must the Title and H1 match word for word?",
       a: "No. Shared meaning, different wording is better: Title for the snippet, H1 for the on-page screen.",
     },
     {
@@ -27,7 +27,7 @@ export const tegH1En: BlogPost = {
       a: "A clear sense of the query/service helps — not exact-match at any cost. Readability beats density.",
     },
     {
-      q: "Can you style a div like a heading without H1?",
+      q: "Can I style a div like a heading without H1?",
       a: "Visually yes; for SEO and accessibility it’s worse. A heading should be a real HTML heading by meaning.",
     },
     {
@@ -39,7 +39,7 @@ export const tegH1En: BlogPost = {
       a: "Both help topic understanding. For SERP clicks, Title/snippet matter more; for understanding the page on-site — H1 and structure.",
     },
     {
-      q: "How do you check H1?",
+      q: "How do I check H1?",
       a: "View source / extension / crawler: look for `<h1>`. In DevTools it’s easy to see if the heading is hidden or duplicated.",
     },
     {
@@ -82,12 +82,12 @@ export const tegH1En: BlogPost = {
       ],
       lists: [
         {
-          intro: "Practice:",
+          intro: "Practical tips:",
           items: [
             "Title shorter and “for the click”;",
             "H1 more natural “for reading”;",
             "don’t cram five commercial tails into both;",
-            "brand in Title where it fits; in H1 if it’s part of the offer.",
+            "brand in Title where it works; in H1 if it’s part of the offer.",
           ],
         },
       ],
@@ -137,7 +137,7 @@ export const tegH1En: BlogPost = {
           items: [
             "reflects page intent;",
             "doesn’t clone Title verbatim;",
-            "no city×service×“cheap”×“24/7” in one line without need;",
+            "no city×service×“cheap”×“24/7” in one line unnecessarily;",
             "aligned with the first paragraph.",
           ],
         },
@@ -169,7 +169,7 @@ export const tegH1En: BlogPost = {
       ],
       links: [
         {
-          label: "Website layout",
+          label: "Website layout basics",
           href: "/en/blog/verstka-saytov/",
         },
       ],

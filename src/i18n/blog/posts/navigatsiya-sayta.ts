@@ -8,10 +8,10 @@ export const navigatsiyaSaytaEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/navigatsiya-sayta/cover-en.webp",
   excerpt:
-    "What usable navigation means: menus, breadcrumbs, footer, catalog filters. Types, how not to lose the user, and how navigation ties to SEO and leads.",
+    "What usable navigation means: menus, breadcrumbs, footer, catalog filters. How to keep users from getting lost — and how navigation ties to SEO and leads.",
   lead: [
     "Navigation is the system of moves across the site: menu, links, breadcrumbs, search, filters. If a person finds a service or product on autopilot, navigation works. If they wander and leave — you lose UX and part of the SEO signal.",
-    "Below — requirements for usable navigation, main types, and the conversion link. URL structure and section semantics are in the SEO structure article; here the focus is user orientation.",
+    "Below: what “usable” looks like in practice, the main navigation types, and how a clearer path lifts conversion. URL structure and section meaning for SEO are covered in the SEO structure piece.",
   ],
   faq: [
     {
@@ -19,32 +19,32 @@ export const navigatsiyaSaytaEn: BlogPost = {
       a: "Structure is the logic of sections and URLs. Navigation is how users walk them: menu, breadcrumbs, internal links, search.",
     },
     {
-      q: "How many items in the main menu?",
-      a: "Aim for 5–7 clear sections. Short and clear beats a “sheet” of 20 equal-weight items.",
+      q: "How many items belong in the main menu?",
+      a: "Aim for 5–7 clear sections. Short and clear beats a sheet of 20 equal-weight items.",
     },
     {
       q: "Do you need breadcrumbs?",
-      a: "Yes for catalogs and nested sections: orientation + extra internal links. On a one-pager they’re often excess.",
+      a: "Yes for catalogs and nested sections: orientation plus extra internal links. On a one-pager they’re often excess.",
     },
     {
       q: "Does the menu affect SEO?",
       a: "Yes indirectly: internal links, crawl, topic clarity. But “a keyword in every menu item” is a path to spam.",
     },
     {
-      q: "Is a burger on desktop okay?",
+      q: "Is a hamburger menu okay on desktop?",
       a: "On phone — yes. On a wide screen hiding everything important behind an icon often cuts section discovery.",
     },
     {
-      q: "Is the footer navigation?",
+      q: "Does the footer count as navigation?",
       a: "Yes, secondary: contacts, legal links, section map. Don’t duplicate the main menu as a giant list for SEO.",
     },
     {
-      q: "Are catalog filters navigation or duplicates?",
+      q: "Are catalog filters navigation — or duplicate pages?",
       a: "For the user — navigation. For SEO you need an indexing policy, or endless URLs. See duplicates and pagination.",
     },
     {
-      q: "How to check navigation?",
-      a: "“Find service / product / contacts” scenarios on phone and desktop, session replay, support questions “where is your…”.",
+      q: "How do you check navigation quality?",
+      a: "Run “find service / product / contacts” scenarios on phone and desktop, review session replay, and listen to support questions like “where is your…”.",
     },
   ],
   sections: [
@@ -59,10 +59,10 @@ export const navigatsiyaSaytaEn: BlogPost = {
         {
           intro: "Quality criteria:",
           items: [
-            "the goal is found in 1–3 clicks;",
-            "items read without explanations;",
-            "the current section is visually clear;",
-            "search and contacts are in view;",
+            "the goal is found in 1–3 clicks",
+            "items read without explanations",
+            "the current section is visually clear",
+            "search and contacts are in view",
             "no dead ends or broken links in the menu.",
           ],
         },
@@ -85,10 +85,10 @@ export const navigatsiyaSaytaEn: BlogPost = {
         {
           intro: "Common set:",
           items: [
-            "main menu;",
-            "breadcrumbs (catalog);",
-            "search;",
-            "footer with contacts;",
+            "main menu",
+            "breadcrumbs (catalog)",
+            "search",
+            "footer with contacts",
             "persistent lead/phone link.",
           ],
         },
@@ -104,16 +104,16 @@ export const navigatsiyaSaytaEn: BlogPost = {
       title: "Menu and information architecture",
       level: 2,
       paras: [
-        "Menu items reflect real client jobs, not the company’s org chart. Vague “Products / Solutions / About” beats less than “Services / Pricing / Cases / Contacts” if that’s how people look.",
+        "Menu items reflect real client jobs, not the company’s org chart. Vague “Products / Solutions / About” is weaker than “Services / Pricing / Cases / Contacts” if that’s how people look.",
         "Keep nesting shallow: two–three levels max for most SMBs. Deep “sub-sub-sections” hide pages from bots and people.",
       ],
       lists: [
         {
           intro: "Anti-patterns:",
           items: [
-            "an “More” item with half the site;",
-            "identical names for different sections;",
-            "menu as images only, no text;",
+            "an “More” item with half the site",
+            "identical names for different sections",
+            "menu as images only, no text",
             "links to empty “coming soon” pages.",
           ],
         },
@@ -123,16 +123,16 @@ export const navigatsiyaSaytaEn: BlogPost = {
       title: "Catalog: search, filters, pagination",
       level: 2,
       paras: [
-        "In e-commerce navigation also means on-site search and facets. They should speed choice — not spawn thousands of indexed copies of one listing.",
+        "In e-commerce navigation also means on-site search and facets. They should speed choice — not create thousands of indexed copies of one listing.",
         "Align UX and SEO: which filter combos are indexed, which are closed, how canonical and pagination behave.",
       ],
       lists: [
         {
           intro: "Align with the team:",
           items: [
-            "which filters become landings;",
-            "what’s in noindex / canonical;",
-            "is there “clear filters”;",
+            "which filters become landings",
+            "what’s in noindex / canonical",
+            "is there a “clear filters” control",
             "does the mobile menu break with open facets.",
           ],
         },
@@ -152,16 +152,16 @@ export const navigatsiyaSaytaEn: BlogPost = {
       title: "Navigation and conversion",
       level: 2,
       paras: [
-        "The shorter the path to a lead/purchase, the fewer losses. Navigation doesn’t replace the offer, but it removes friction: “where’s pricing”, “how to contact”, “do you deliver to my city”.",
+        "The shorter the path to a lead or purchase, the fewer losses. Navigation doesn’t replace the offer, but it removes friction: “where’s pricing,” “how to contact,” “do you deliver to my city.”",
         "Watch session replay and click maps: if people hunt in the footer for what’s missing in the header — move the important stuff up.",
       ],
       lists: [
         {
           intro: "Conversion boosters:",
           items: [
-            "clickable phone in the header;",
-            "lead button on key screens;",
-            "breadcrumbs and “back to catalog”;",
+            "clickable phone in the header",
+            "lead button on key screens",
+            "breadcrumbs and “back to catalog”",
             "don’t cover the menu with an aggressive chat.",
           ],
         },
@@ -188,10 +188,10 @@ export const navigatsiyaSaytaEn: BlogPost = {
         {
           intro: "Release checklist:",
           items: [
-            "main sections in 1 click from home;",
-            "logo goes home;",
-            "mobile menu closes and doesn’t break scroll;",
-            "no duplicate items;",
+            "main sections in 1 click from home",
+            "logo goes home",
+            "mobile menu closes and doesn’t break scroll",
+            "no duplicate items",
             "contacts found in ≤2 clicks.",
           ],
         },

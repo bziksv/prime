@@ -5,17 +5,17 @@ export const kontentINativnayaEn: BlogPost = {
   slug: "kontent-i-nativnaya",
   title: "Content marketing vs native advertising: what’s the difference",
   date: "2020-09-18",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/kontent-i-nativnaya/cover-en.webp",
   excerpt:
     "How content marketing differs from native (natural) ads: owned channels and a long funnel vs paid integrations in someone else’s environment — and how to combine them without mixing terms.",
   lead: [
     "Both formats deliver value and don’t look like a screaming banner — so people often confuse them. In practice they have a different “owner” of the surface, payment model, and time horizon.",
-    "Below — working definitions and when to use which. Integration mistakes live in a separate native-ads piece; planning and omnichannel — in neighboring guides. We don’t copy Taboola/Outbrain CPC and reach figures from 2020 roundups: check current cabinets and your analytics.",
+    "Practical definitions and when to use which are below. Integration mistakes live in a separate native-ads article; planning and omnichannel — in related guides. We don’t copy Taboola/Outbrain CPC and reach figures from 2020 roundups: check current accounts and your analytics.",
   ],
   faq: [
     {
-      q: "Are they the same thing?",
+      q: "Are content marketing and native advertising the same thing?",
       a: "No. Content marketing is a system of useful materials on your (and long-term linked) channels. Native is a paid piece in the format of someone else’s platform.",
     },
     {
@@ -23,27 +23,27 @@ export const kontentINativnayaEn: BlogPost = {
       a: "In many texts yes: the same as native advertising. Don’t confuse it with unpaid “organic” SEO.",
     },
     {
-      q: "Can you skip an “ad” label?",
+      q: "Can I skip an “ad” label?",
       a: "No. Native is still advertising: clear labeling is required by law. “Natural” is about tone and usefulness — not disguise.",
     },
     {
-      q: "What to choose at the start?",
+      q: "What should I choose at the start?",
       a: "First your own content and offer (site, blog, email). Add native when you have somewhere to send people and something to show.",
     },
     {
-      q: "Does native kill banner blindness?",
+      q: "Does native advertising kill banner blindness?",
       a: "Partly: the format is closer to editorial. A bad integration still annoys — see typical mistakes.",
     },
     {
       q: "Is content marketing always free?",
-      a: "No. Writing and promoting cost time/money. “Free” only means “not pay-per-placement on someone else’s site.”",
+      a: "No. Writing and promoting cost time and money. “Free” only means “not pay-per-placement on someone else’s site.”",
     },
     {
-      q: "Do you need networks like Taboola?",
+      q: "Do I need networks like Taboola?",
       a: "Optional for scaling recommendation units. Not required if you work with media and creators directly.",
     },
     {
-      q: "How do you measure?",
+      q: "How do I measure each channel?",
       a: "Content — engagement, leads, assisted conversions over the campaign horizon. Native — also placement/click cost and traffic quality to the landing.",
     },
   ],
@@ -79,13 +79,13 @@ export const kontentINativnayaEn: BlogPost = {
       notes: [
         {
           title: "Don’t confuse with SEO",
-          text: "“Natural” search results aren’t the same as native ads. SEO and content often work together, but that’s a separate contour.",
+          text: "“Natural” search results aren’t the same as native ads. SEO and content often work together, but that’s a separate track.",
         },
       ],
       links: [
         {
           label: "Native advertising mistakes",
-          href: "/blog/nativnaya-reklama/",
+          href: "/en/blog/nativnaya-reklama/",
         },
         {
           label: "Content plan",
@@ -99,17 +99,17 @@ export const kontentINativnayaEn: BlogPost = {
       paras: [
         "Native fits when you want to catch an audience on other platforms and bring them to your material or offer — once the landing and offer are ready.",
         "Content marketing is needed so there’s somewhere to send people and something to retain them with: without owned assets, native leads into a void.",
-        "In combination: native → your longread/case → subscription/lead. Terms stop being synonyms and start working as roles.",
+        "In combination: native → your long-form piece/case → subscription/lead. Terms stop being synonyms and start working as roles.",
       ],
       lists: [],
       links: [
         {
           label: "Omnichannel content marketing",
-          href: "/blog/omnikanalnyy-kontent-marketing/",
+          href: "/en/blog/omnikanalnyy-kontent-marketing/",
         },
         {
           label: "Content marketing analytics",
-          href: "/blog/analitika-kontent-marketinga/",
+          href: "/en/blog/analitika-kontent-marketinga/",
         },
       ],
     },

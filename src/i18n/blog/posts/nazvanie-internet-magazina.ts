@@ -5,13 +5,13 @@ export const nazvanieInternetMagazinaEn: BlogPost = {
   slug: "nazvanie-internet-magazina",
   title: "How to name an online store",
   date: "2020-03-27",
-  category: "Internet marketing",
+  category: "E-commerce",
   cover: "/images/blog/nazvanie-internet-magazina/cover-en.webp",
   excerpt:
-    "How to pick a name for an online store: audience and assortment, domain, sound, uniqueness, and conflict checks — without promising that “the name = TOP”.",
+    "How to pick a name for an online store: audience and assortment, domain, sound, uniqueness, and conflict checks — without promising that “the name = TOP.”",
   lead: [
     "The name is the first thing people see in search, ads, and the site header. A weak name turns them away before the catalog: hard to say, unclear what you sell, looks like someone else’s brand.",
-    "Below — why the name affects marketing, ten practical naming rules, and how to vet candidates. Niche and assortment are in sibling pieces; here the focus is storefront naming. A strong name doesn’t replace SEO: core rankings build over months after prep.",
+    "A strong name won’t replace assortment, price, and shipping — but it does affect CTR, word of mouth, and brand search. Below are practical naming rules and how to vet candidates before you fall in love with one.",
   ],
   faq: [
     {
@@ -19,11 +19,11 @@ export const nazvanieInternetMagazinaEn: BlogPost = {
       a: "Yes if it sounds natural (“Pump World”). Stuffing “buy cheap city” into a brand hurts trust — and often the domain.",
     },
     {
-      q: "How many words is optimal?",
-      a: "Usually 1–3. Long constructions are hard to remember and don’t fit a logo/domain.",
+      q: "How many words is optimal in a name?",
+      a: "Usually 1–3. Long constructions are hard to remember and don’t fit a logo or domain.",
     },
     {
-      q: "Latin or local script?",
+      q: "Should you use Latin or local script?",
       a: "Depends on the audience. Domains are often Latin; the brand can be in the local language with a clean translit for the URL.",
     },
     {
@@ -31,20 +31,20 @@ export const nazvanieInternetMagazinaEn: BlogPost = {
       a: "Yes if it builds trust and doesn’t clash with others’ marks. A first name alone is harder to remember because of namesakes.",
     },
     {
-      q: "What to check beyond “we like it”?",
+      q: "What should you check beyond “we like it”?",
       a: "Free domain, social handles, brand search, trademarks/competitors, saying it aloud, and a short audience poll.",
     },
     {
-      q: "Is geography required in the name?",
+      q: "Is geography required in the store name?",
       a: "Only if it’s an advantage (local service, origin). Otherwise it limits scale.",
     },
     {
-      q: "Will the name alone get TOP?",
+      q: "Will the name alone get you into the TOP?",
       a: "No. It’s brand and CTR. Storefront prep — weeks; TOP for the core is planned 2–6 months after work starts.",
     },
     {
-      q: "What if the name is taken?",
-      a: "Don’t copy. Look for a synonym/neologism or another angle. Confusion and claim risk beat “saving on creative”.",
+      q: "What if the store name is already taken?",
+      a: "Don’t copy. Look for a synonym/neologism or another angle. Confusion and claim risk beat “saving on creative.”",
     },
   ],
   sections: [
@@ -52,23 +52,23 @@ export const nazvanieInternetMagazinaEn: BlogPost = {
       title: "Why the name matters for a store",
       level: 2,
       paras: [
-        "In search and ads the user decides in a split second: “is this about my product?” An awkward or ambiguous name cuts CTR before the landing. Offline, people say it on the phone and recommend it to friends — a hard letter string gets lost.",
+        "In search and ads the user decides in a split second: “is this about my product?” An awkward or ambiguous name cuts CTR before the landing. Offline, people say it on the phone and recommend it to friends — a hard letter string falls off.",
         "A strong name doesn’t replace assortment, price, and shipping. But a weak name constantly scrapes communication: people ask again, confuse you with a competitor, can’t find you in brand search.",
       ],
       lists: [
         {
           intro: "What a good name gives:",
           items: [
-            "a clear niche signal;",
-            "easier to remember and dictate;",
-            "alignment with domain and logo;",
+            "a clear niche signal",
+            "easier to remember and dictate",
+            "alignment with domain and logo",
             "less confusion with other brands.",
           ],
         },
       ],
       links: [
         {
-          label: "Ecommerce promotion",
+          label: "E-commerce promotion",
           href: "/en/blog/prodvizhenie-internet-magazina/",
         },
         {
@@ -88,9 +88,9 @@ export const nazvanieInternetMagazinaEn: BlogPost = {
         {
           intro: "Questions before brainstorming:",
           items: [
-            "who is the main buyer;",
-            "which 3 words describe the assortment;",
-            "tone: strict, warm, playful;",
+            "who is the main buyer",
+            "which 3 words describe the assortment",
+            "tone: strict, warm, playful",
             "will you expand categories in a year.",
           ],
         },
@@ -107,9 +107,9 @@ export const nazvanieInternetMagazinaEn: BlogPost = {
         {
           intro: "Sound checklist:",
           items: [
-            "easy to dictate;",
-            "no embarrassing sound-alikes;",
-            "short translit for the domain;",
+            "easy to dictate",
+            "no embarrassing sound-alikes",
+            "short translit for the domain",
             "fits logo and favicon.",
           ],
         },
@@ -129,17 +129,17 @@ export const nazvanieInternetMagazinaEn: BlogPost = {
       title: "Uniqueness and legal hygiene",
       level: 2,
       paras: [
-        "Don’t copy someone else’s brand “almost like the leader”. Check search, marketplaces, socials, and open trademark registries. This isn’t a lawyer consult, but it cuts obvious conflicts.",
+        "Don’t copy someone else’s brand “almost like the leader.” Check search, marketplaces, socials, and open trademark registries. This isn’t a lawyer consult, but it cuts obvious conflicts.",
         "A surname in the name adds a “face behind the store” if you’re ready to build a personal brand. Otherwise a neutral store name is safer.",
       ],
       lists: [
         {
           intro: "Minimum checks:",
           items: [
-            "exact-name search;",
-            "free social handles;",
-            "free domain;",
-            "no confusion with a big niche player;",
+            "exact-name search",
+            "free social handles",
+            "free domain",
+            "no confusion with a big niche player",
             "poll 5–10 people from the audience.",
           ],
         },
@@ -169,9 +169,9 @@ export const nazvanieInternetMagazinaEn: BlogPost = {
         {
           intro: "Quick association test:",
           items: [
-            "what someone thinks without the site;",
-            "which products they expect;",
-            "any negativity/ambiguity;",
+            "what someone thinks without the site",
+            "which products they expect",
+            "any negativity/ambiguity",
             "whether they’d click in search.",
           ],
         },
@@ -181,18 +181,18 @@ export const nazvanieInternetMagazinaEn: BlogPost = {
       title: "How to pick from a shortlist",
       level: 2,
       paras: [
-        "Gather 10–15 options → filter by domain and conflicts → keep 3 → show the audience and team without spoiling “our favorite”. Watch which name people repeat unprompted.",
-        "Lock spelling, translit, inflection rules. Next — logo, header, consistency in ads. Do catalog SEO and content on the promotion plan — don’t rely on “naming magic”.",
+        "Gather 10–15 options → filter by domain and conflicts → keep 3 → show the audience and team without spoiling “our favorite.” Watch which name people repeat unprompted.",
+        "Lock spelling, translit, inflection rules. Next — logo, header, consistency in ads. Do catalog SEO and content on the promotion plan — don’t rely on “naming magic.”",
       ],
       lists: [
         {
           intro: "Final checklist:",
           items: [
-            "clear to the audience;",
-            "tied to assortment;",
-            "domain and socials OK;",
-            "unique and conflict-free;",
-            "easy to pronounce;",
+            "clear to the audience",
+            "tied to assortment",
+            "domain and socials OK",
+            "unique and conflict-free",
+            "easy to pronounce",
             "validated by a poll.",
           ],
         },
@@ -203,7 +203,7 @@ export const nazvanieInternetMagazinaEn: BlogPost = {
           href: "/en/blog/opisanie-tovara/",
         },
         {
-          label: "Young site",
+          label: "Young site SEO",
           href: "/en/blog/molodoy-sayt/",
         },
       ],
@@ -211,7 +211,7 @@ export const nazvanieInternetMagazinaEn: BlogPost = {
         {
           title: "Timelines",
           kind: "tip",
-          text: "Naming — days/weeks at launch. TOP for queries — a separate horizon after work on the site.",
+          text: "Naming takes days or weeks at launch. TOP for queries is a separate horizon — planned 2–6 months after work on the site starts.",
         },
       ],
     },

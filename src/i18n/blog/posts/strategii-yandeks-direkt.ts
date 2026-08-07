@@ -5,13 +5,13 @@ export const strategiiYandeksDirektEn: BlogPost = {
   slug: "strategii-yandeks-direkt",
   title: "Yandex Direct strategies: start from economics, not the button name",
   date: "2017-07-02",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/strategii-yandeks-direkt/cover-en.webp",
   excerpt:
     "Why Direct’s “simple strategy for beginners” is fading, why goals and CPA matter, and how to pick a strategy from economics — not auction fear.",
   lead: [
     "In July 2017 Direct turned off the “Show in the block at minimum price” strategy — the one many used to “just try” without calculating CPA. Since then the UI and strategy names have changed again.",
-    "The lasting takeaway isn’t about a 2017 button: without a clear lead/order cost and business feedback, automation and manual bids run blind. Below — how to think about strategies today.",
+    "The lasting takeaway isn’t about a 2017 button: without a clear lead or order cost and business feedback, automation and manual bids run blind. Strategy choice should start from economics, not a nostalgic button name.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const strategiiYandeksDirektEn: BlogPost = {
       a: "The “Show in the block at minimum price” strategy — a beginner-friendly “be in the block cheaper” mode. As a separate “magic” button it left; auction logic and auto-strategies continue.",
     },
     {
-      q: "Can you run Direct “without numbers”?",
+      q: "Can I run Direct “without numbers”?",
       a: "You can spend budget. You can’t manage the result. Minimum: goal action, lead/order price, margin.",
     },
     {
@@ -28,19 +28,19 @@ export const strategiiYandeksDirektEn: BlogPost = {
     },
     {
       q: "Where should a beginner start now?",
-      a: "A narrow core, a clear landing, Metrica goals, and a budget cap. Not “hit the simplest strategy and hope”.",
+      a: "A narrow core, a clear landing, Yandex Metrika goals, and a budget cap. Not “hit the simplest strategy and hope.”",
     },
     {
-      q: "Is “calls yes/no” enough?",
+      q: "Is “calls yes/no” enough as a KPI?",
       a: "As a signal — yes. As the only KPI — weak: you need cost per inquiry, lead quality, and a link to sales.",
     },
     {
-      q: "Link to premium placement?",
+      q: "Should I chase premium placement?",
       a: "Block height isn’t the goal. Economics is. See the premium placement post.",
     },
     {
-      q: "When to call a specialist?",
-      a: "When budget is material and nobody inside connects bids, analytics, and sales. Otherwise optimization stalls at “we’re fine / paid search doesn’t work”.",
+      q: "When should I call a specialist?",
+      a: "When budget is material and nobody inside connects bids, analytics, and sales. Otherwise optimization stalls at “we’re fine / paid search doesn’t work.”",
     },
     {
       q: "Does the right strategy guarantee leads?",
@@ -58,7 +58,7 @@ export const strategiiYandeksDirektEn: BlogPost = {
       notes: [
         {
           title: "Historical context",
-          text: "2017 strategy names and cabinet screens are an archive. Set campaigns from current Direct help and your Metrica goals — not screenshots from old articles.",
+          text: "2017 strategy names and ads account screens are an archive. Set campaigns from current Direct help and your Yandex Metrika goals — not screenshots from old articles.",
           kind: "tip",
         },
       ],
@@ -93,7 +93,7 @@ export const strategiiYandeksDirektEn: BlogPost = {
         {
           intro: "Minimum set before launch:",
           items: [
-            "Metrica goal (and proof it fires);",
+            "Yandex Metrika goal (and proof it fires);",
             "estimate of acceptable lead cost;",
             "landing for the query cluster;",
             "negatives and non-target traffic control;",
@@ -107,7 +107,7 @@ export const strategiiYandeksDirektEn: BlogPost = {
           href: "/en/blog/spetsrazmeshchenie-direkt/",
         },
         {
-          label: "UTM tags",
+          label: "UTM tags explained",
           href: "/en/blog/utm-metki/",
         },
         {
@@ -121,11 +121,11 @@ export const strategiiYandeksDirektEn: BlogPost = {
       level: 2,
       paras: [
         "Even a strong specialist is helpless if CRM only says “someone called” without statuses and amounts. Cleaner lead and sales data means more precise bids and auto-strategies.",
-        "A strategy distributes budget. Campaign result = demand × offer × landing × accounting. A cabinet button doesn’t replace that chain.",
+        "A strategy distributes budget. Campaign result = demand × offer × landing × accounting. A ads account button doesn’t replace that chain.",
       ],
       notes: [
         {
-          title: "Practice",
+          title: "Tip",
           text: "Don’t chase a strategy name from someone else’s case. Match conversion volume, sales-cycle length, and goal quality — then pick the optimization mode.",
           kind: "tip",
         },

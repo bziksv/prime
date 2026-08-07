@@ -11,7 +11,7 @@ export const telegramEn: BlogPost = {
     "What Telegram can do: chats, channels, bots, cloud, and security. Pros and cons, comparison with other messengers, and why a business channel helps — without outdated “forever” stats.",
   lead: [
     "Telegram is a cross-platform messenger: personal and group chats, channels, bots, large files, and sync between phone and desktop. For marketing it’s also a media surface with direct delivery into notifications.",
-    "Below — purpose, strengths and weaknesses, comparison with other messengers, and business scenarios. Limits and features update — check current numbers in Telegram Help. How to run a channel from scratch is in a separate article.",
+    "This overview covers purpose, strengths and weaknesses, how it compares with other messengers, and business scenarios. Limits and features update — check current numbers in Telegram Help. How to run a channel from scratch is in a separate article.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -110,7 +110,7 @@ export const telegramEn: BlogPost = {
       level: 2,
       paras: [
         "A channel is a news and offer storefront with push. Bots — leads, FAQ, order status, simple funnels. Growing subscribers almost always needs external sources and ads in related channels.",
-        "Don’t confuse “we have a messenger” with a marketing strategy: you need rubrics, tone, measurement, and dialogue support.",
+        "Don’t mix up “we have a messenger” with a marketing strategy: you need rubrics, tone, measurement, and dialogue support.",
       ],
       lists: [
         {

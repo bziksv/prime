@@ -11,7 +11,7 @@ export const kanonicheskiyTegEn: BlogPost = {
     "What rel=canonical is, how it differs from 301 and noindex, how to set the canon in HTML and HTTP, typical mistakes, and when the tag doesn’t help.",
   lead: [
     "`rel=\"canonical\"` tells search engines the preferred URL among available copies or near-variants of a page. It’s not a “delete duplicate” button — a preference signal that can be ignored when signals strongly conflict.",
-    "Below — syntax, why it matters for duplicates, absolute URL rules, how it differs from redirects and noindex, and typical mistakes. Treat this as the canonical take on Rel Canonical among related posts.",
+    "Get the syntax right, use absolute URLs, and don’t confuse canonical with redirects or noindex. Treat this as the canonical take on rel=canonical among related posts.",
   ],
   faq: [
     {
@@ -19,19 +19,19 @@ export const kanonicheskiyTegEn: BlogPost = {
       a: "Not always instantly and not like a 301. It states a preference. With conflicting signals the bot may choose otherwise.",
     },
     {
-      q: "When 301, when canonical?",
+      q: "When should I use a 301 vs canonical?",
       a: "If the old URL shouldn’t open — 301. If both addresses are needed for people (filters, print, UTM landing) but one should be indexed — often canonical. See the redirects article.",
     },
     {
-      q: "Where to put the tag?",
+      q: "Where should I put the canonical tag?",
       a: "In HTML `<head>`: `<link rel=\"canonical\" href=\"https://example.com/page/\">`. Alternative — HTTP `Link` header with rel=canonical for non-HTML.",
     },
     {
-      q: "Can href be relative?",
+      q: "Can the canonical href be relative?",
       a: "Prefer absolute with https and the final host. Relative paths more often break when templates are copied.",
     },
     {
-      q: "Several canonicals on a page?",
+      q: "Can a page have several canonical tags?",
       a: "No. One preferred. Several different ones — conflict and chaos for the bot.",
     },
     {
@@ -39,7 +39,7 @@ export const kanonicheskiyTegEn: BlogPost = {
       a: "Often yes: it explicitly locks the page canon and helps with parameters and CMS templates.",
     },
     {
-      q: "Canonical instead of noindex?",
+      q: "Should I use canonical instead of noindex?",
       a: "Different tools. noindex — “don’t index this document”. Canonical — “prefer that URL”. Don’t confuse with Disallow in robots.txt.",
     },
     {
@@ -193,7 +193,7 @@ export const kanonicheskiyTegEn: BlogPost = {
       level: 2,
       paras: [
         "If the SERP shows the “wrong” URL — check: which canonical is in the code, where internal links go, any redirect chains, what’s in the sitemap. In Search Console / webmaster tools compare the bot-selected canon vs the one you declared.",
-        "Mass duplicates without tags, a canon pointing to a thin low-authority page, or an unavailable canon while the duplicate is open — typical reasons for “tag is there, no effect”.",
+        "Mass duplicates without tags, a canclearlying to a thin low-authority page, or an unavailable canon while the duplicate is open — typical reasons for “tag is there, no effect”.",
       ],
       lists: [
         {

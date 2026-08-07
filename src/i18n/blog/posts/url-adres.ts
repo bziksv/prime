@@ -11,7 +11,7 @@ export const urlAdresEn: BlogPost = {
     "What a URL is, which parts make up a page address, how to write readable slugs, and how much the path really affects SEO — without the myth “keyword in URL = TOP.”",
   lead: [
     "A URL (Uniform Resource Locator) is a resource address on the web: a page, image, or file. In the address bar the browser shows scheme, host, and path; people and robots use them to see where they landed.",
-    "Below — URL anatomy, how to write clear addresses, and what SEO actually gains. A readable path helps click and navigation, but it doesn’t replace content, site structure, and tech.",
+    "A readable path helps clicks and navigation, but it doesn’t replace content, site structure, or technical SEO. Know the anatomy, write clear slugs, and treat the URL as one weak signal — not a ranking cheat code.",
   ],
   faq: [
     {
@@ -19,20 +19,20 @@ export const urlAdresEn: BlogPost = {
       a: "A domain is the host name (`example.com`). A URL is the full page address: protocol + host + path + sometimes params (`https://example.com/services/seo/`). See also the top-level domain article.",
     },
     {
-      q: "What is a human-readable URL (ЧПУ)?",
+      q: "What is a human-readable (pretty) URL?",
       a: "A slug people can read: words instead of `?id=123`. Easier to read in a snippet and share the link.",
     },
     {
       q: "Do you need keywords in the URL?",
-      a: "A short meaningful path helps. Stuffing the URL with keywords hurts UX and can look manipulative. Exact-match in domain/path isn’t a cheat boost anymore.",
+      a: "A short meaningful path helps. Stuffing the URL with keywords hurts UX and can look manipulative. Exact-match in domain or path isn’t a cheat boost anymore.",
     },
     {
       q: "Is HTTPS required?",
       a: "Yes for a normal site: trust, cookies, browser and search requirements. Plain HTTP is outdated and risky.",
     },
     {
-      q: "Does a URL alone get you to TOP?",
-      a: "No. It’s one technical/UX signal. Site prep and ranking growth are different timelines — see the prep vs TOP rule.",
+      q: "Does a URL alone get you into the TOP?",
+      a: "No. It’s one technical and UX signal. Site prep and ranking growth are different timelines — cleaning URLs is prep; commercial TOP is planned for 2–6 months after promotion starts.",
     },
   ],
   sections: [
@@ -87,7 +87,7 @@ export const urlAdresEn: BlogPost = {
       notes: [
         {
           title: "Common confusion",
-          text: "“Auth” in old URL schemes (user:pass@host) is almost unused on the web and unsafe. Login to an account is a separate page/form — not part of a “pretty” public address.",
+          text: "“Auth” in old URL schemes (user:pass@host) is almost unused on the web and unsafe. Login to an account is a separate page or form — not part of a “pretty” public address.",
         },
       ],
       links: [
@@ -101,13 +101,13 @@ export const urlAdresEn: BlogPost = {
       title: "How to write a clear address",
       level: 2,
       paras: [
-        "People remember short readable paths. Random IDs and long queries without need hurt sharing and the snippet.",
+        "People remember short readable paths. Random IDs and unnecessarily long queries hurt sharing and the snippet.",
       ],
       lists: [
         {
           intro: "Practical rules:",
           items: [
-            "Latin or a clean translit scheme, no mixed case chaos;",
+            "Latin or a clean transliteration scheme, no mixed-case chaos;",
             "hyphens instead of spaces and underscores;",
             "short path: section → page, without extra nesting;",
             "page meaning in the path (`/services/seo/`), not a keyword string;",
@@ -130,7 +130,7 @@ export const urlAdresEn: BlogPost = {
       links: [
         {
           label: "SEO site structure",
-          href: "/blog/seo-struktura-sayta/",
+          href: "/en/blog/seo-struktura-sayta/",
         },
         {
           label: "Redirect",
@@ -161,7 +161,7 @@ export const urlAdresEn: BlogPost = {
       notes: [
         {
           title: "Timelines",
-          text: "Cleaning up URLs is part of site prep. Getting a commercial core into TOP is months of work after promotion starts — not the result of one address edit.",
+          text: "Cleaning up URLs is part of site prep. Getting a commercial core into TOP is planned for 2–6 months after promotion starts — not the result of one address edit.",
         },
       ],
     },

@@ -5,33 +5,33 @@ export const aydentikaBrendaEn: BlogPost = {
   slug: "aydentika-brenda",
   title: "Brand identity: color, type, form, and the brand book",
   date: "2019-12-06",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/aydentika-brenda/cover-en.webp",
   excerpt:
     "What brand identity is, how it differs from branding and corporate style, what the foundation is (color, type, form), and how to build it without carrier chaos.",
   lead: [
     "Brand identity is the system of visual and meaning signals that make a brand recognizable without a prompt: name, logo, colors, typefaces, shapes, and rules in a brand book. It’s not “a picture for the website”, but a set of elements across carriers — from a sign to an avatar.",
-    "Below — what the foundation is made of, how identity differs from branding and corporate style, and the usual development stages. Channel brand promotion is a neighboring topic; here — a recognizable look.",
+    "Brand identity is the recognizable look — logo, color, type, and rules — not only a pretty mark. It differs from branding (the whole strategy) and from a thin “corporate style” PDF. Promoting the brand in channels is a neighboring topic.",
   ],
   faq: [
     {
-      q: "Is identity just the logo?",
+      q: "Is brand identity just the logo?",
       a: "The logo is part of it. You also need a palette, typography, shapes, tone, and application rules across carriers.",
     },
     {
-      q: "How is it different from corporate style?",
+      q: "How is identity different from corporate style?",
       a: "Corporate style more often means the visual set. Identity is broader: naming, values expressed in carriers, and a system for managing the look (brand book).",
     },
     {
-      q: "And branding?",
+      q: "How is identity different from branding?",
       a: "Branding works on perception and positioning as a whole. Identity is the tool that makes that perception recognizable visually and by feel.",
     },
     {
-      q: "Does a small business need a full identity?",
+      q: "Does a small business need a full brand identity?",
       a: "Not always “corporate scale”. A minimum is name, logo, 2–3 colors, typefaces, and “how not to break it” rules. Scale grows with channels.",
     },
     {
-      q: "Why a brand book?",
+      q: "Why do you need a brand book?",
       a: "So contractors and staff don’t each draw “their own brand”. Inside — mission/tone (as needed), visuals, and application instructions.",
     },
     {

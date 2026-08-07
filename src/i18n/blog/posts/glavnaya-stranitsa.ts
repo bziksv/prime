@@ -5,13 +5,13 @@ export const glavnayaStranitsaEn: BlogPost = {
   slug: "glavnaya-stranitsa",
   title: "Website homepage: attract attention without confusing people",
   date: "2020-12-01",
-  category: "Internet marketing",
+  category: "Websites",
   cover: "/images/blog/glavnaya-stranitsa/cover-en.webp",
   excerpt:
     "What a homepage needs: who you are, what you offer, how you differ; header, blocks, CTA, and footer — without a wall of text or outdated “pretty design for design’s sake.”",
   lead: [
     "The homepage is the entry point: in seconds people should know where they landed, what value they get, and what to click next. Beauty without clarity annoys as much as an outdated look.",
-    "Below — a frame for a corporate/services site. A separate store-front breakdown is in the e‑commerce homepage piece; which phrases not to put on the homepage — in the homepage-copy article.",
+    "A frame for a corporate/services site. A separate store-front breakdown is in the e‑commerce homepage piece; which phrases not to put on the homepage — in the homepage-copy article.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const glavnayaStranitsaEn: BlogPost = {
       a: "No. It introduces and directs. Services, cases, pricing, blog — on their own URLs, or you get a wall of text.",
     },
     {
-      q: "How much copy?",
+      q: "How much copy does the homepage need?",
       a: "Keep it short: offer, 3–5 benefits, trust, CTA. Details belong on inner pages.",
     },
     {
@@ -31,8 +31,8 @@ export const glavnayaStranitsaEn: BlogPost = {
       a: "In the header and/or first screen — visible on mobile. A footer duplicate is fine.",
     },
     {
-      q: "SEO on the homepage?",
-      a: "Brand, navigation, internal links. Don’t dump the whole commercial keyword core here — landings matter more for many queries.",
+      q: "Does SEO matter on the homepage?",
+      a: "Brand, navigation, internal links. Don't dump the whole commercial keyword core here — landings matter more for many queries.",
     },
     {
       q: "How often should it update?",
@@ -59,9 +59,9 @@ export const glavnayaStranitsaEn: BlogPost = {
         {
           intro: "Minimum on the first screen:",
           items: [
-            "the offer in plain words;",
-            "a visible CTA;",
-            "navigation to key sections;",
+            "the offer in plain words",
+            "a visible CTA",
+            "navigation to key sections",
             "a contact or messenger.",
           ],
         },
@@ -80,11 +80,11 @@ export const glavnayaStranitsaEn: BlogPost = {
       links: [
         {
           label: "Site footer",
-          href: "/blog/futer-sayta/",
+          href: "/en/blog/futer-sayta/",
         },
         {
           label: "Online store homepage",
-          href: "/blog/glavnaya-internet-magazina/",
+          href: "/en/blog/glavnaya-internet-magazina/",
         },
       ],
     },
@@ -108,7 +108,7 @@ export const glavnayaStranitsaEn: BlogPost = {
       links: [
         {
           label: "Usability",
-          href: "/blog/yuzabiliti/",
+          href: "/en/blog/yuzabiliti/",
         },
       ],
     },
@@ -129,12 +129,12 @@ export const glavnayaStranitsaEn: BlogPost = {
         },
         {
           label: "H1",
-          href: "/blog/teg-h1/",
+          href: "/en/blog/teg-h1/",
         },
       ],
     },
     {
-      title: "What to remember",
+      title: "Key takeaways",
       level: 2,
       paras: [
         "The homepage explains and leads on — it doesn’t tell the whole biography.",

@@ -5,13 +5,13 @@ export const vebServerEn: BlogPost = {
   slug: "veb-server",
   title: "Web server: what it is, how it works, and Apache vs Nginx vs IIS",
   date: "2021-12-30",
-  category: "SEO",
+  category: "Hosting",
   cover: "/images/blog/veb-server/cover-en.webp",
   excerpt:
     "What a web server is in plain words: browser request, page response, hosting role, HTTPS, Apache/Nginx/IIS, and local stacks for development.",
   lead: [
-    "A web server takes a browser request and returns a page, file, or error. It’s both software (Apache, Nginx, IIS) and the machine/cloud where it runs.",
-    "Below — how it works, what makes up the “domain → server → site” chain, and what to watch when picking a stack. No cult of outdated local packages.",
+    "A web server takes a browser request and returns a page, file, or error. It’s both software (Apache, Nginx, IIS) and the machine or cloud where it runs.",
+    "Follow the chain from domain to DNS to HTTPS response, then pick Apache, Nginx, or IIS for the job — not nostalgia for outdated local packages.",
   ],
   faq: [
     {
@@ -33,6 +33,10 @@ export const vebServerEn: BlogPost = {
     {
       q: "What is a local server for development?",
       a: "An environment on your PC (Docker, OpenServer, XAMPP and analogues) to run the site without deploying to production.",
+    },
+    {
+      q: "Does the web server alone get you into TOP?",
+      a: "No. A healthy server keeps the site reachable and fast enough for people and crawlers. Rankings still need content and promotion — TOP planned for 2–6 months after start.",
     },
   ],
   sections: [
@@ -161,7 +165,7 @@ export const vebServerEn: BlogPost = {
       links: [
         {
           label: "Technical SEO audit",
-          href: "/blog/tehnicheskiy-seo-audit/",
+          href: "/en/blog/tehnicheskiy-seo-audit/",
         },
       ],
     },

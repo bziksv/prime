@@ -5,13 +5,13 @@ export const formaObratnoySvyaziEn: BlogPost = {
   slug: "forma-obratnoy-svyazi",
   title: "Website feedback form: goals, fields, and placement rules",
   date: "2021-10-01",
-  category: "SEO",
+  category: "Websites",
   cover: "/images/blog/forma-obratnoy-svyazi/cover-en.webp",
   excerpt:
     "Why you need a feedback form, which fields to use, where to place the block, how to fight spam, and how to raise the share of completed requests.",
   lead: [
     "A feedback form is a simple module: name, contact, request gist. In practice it drives leads, response speed, and trust in the site.",
-    "Below — form goals, field structure, where to place the block, antispam, and handling rules. Focus on clear UX and message delivery — not “another widget for the checklist.”",
+    "Form goals, field structure, placement, antispam, and handling rules — with a focus on clear UX and message delivery, not “another widget for the checklist.”",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const formaObratnoySvyaziEn: BlogPost = {
       a: "On Contacts, on a service card, and at the end of strong landings. On a landing — next to the offer. Duplicating a full form on every page usually adds noise.",
     },
     {
-      q: "How many fields?",
+      q: "How many fields should the form have?",
       a: "The minimum for the job: name + phone or email + gist. Extra required fields cut conversion; details can wait until after first contact.",
     },
     {
@@ -27,11 +27,11 @@ export const formaObratnoySvyaziEn: BlogPost = {
       a: "Both work. More reliable: write to CMS/CRM + email/notification to the manager. Make sure mail doesn’t land in spam.",
     },
     {
-      q: "Do you need a captcha?",
+      q: "Do I need a captcha?",
       a: "Yes if there’s spam. Modern bots beat simple image captchas — better honeypot, rate-limit, server checks, and current protection (incl. invisible captcha from a provider).",
     },
     {
-      q: "What to show after submit?",
+      q: "What should I show after submit?",
       a: "A short confirmation and a real reply window (“we reply in business hours within N hours”). Promising “within an hour” without a process kills trust.",
     },
   ],
@@ -46,10 +46,10 @@ export const formaObratnoySvyaziEn: BlogPost = {
         {
           intro: "Typical jobs:",
           items: [
-            "questions, complaints, suggestions;",
-            "product or service requests;",
-            "callback;",
-            "contact capture for a list (with personal-data consent);",
+            "questions, complaints, suggestions",
+            "product or service requests",
+            "callback",
+            "contact capture for a list (with personal-data consent)",
             "lead qualification surveys (topic, budget, region).",
           ],
         },
@@ -66,8 +66,8 @@ export const formaObratnoySvyaziEn: BlogPost = {
         {
           intro: "Check at launch:",
           items: [
-            "a test request reaches the inbox and/or CRM;",
-            "a backup channel (messenger/phone) exists if mail fails;",
+            "a test request reaches the inbox and/or CRM",
+            "a backup channel (messenger/phone) exists if mail fails",
             "send errors are logged on the server.",
           ],
         },
@@ -89,11 +89,11 @@ export const formaObratnoySvyaziEn: BlogPost = {
         {
           intro: "Common set:",
           items: [
-            "name;",
-            "email and/or phone;",
-            "topic (dropdown);",
-            "message / task description;",
-            "optional attachment (size and format limits);",
+            "name",
+            "email and/or phone",
+            "topic (dropdown)",
+            "message / task description",
+            "optional attachment (size and format limits)",
             "personal-data processing consent checkbox.",
           ],
         },
@@ -121,10 +121,10 @@ export const formaObratnoySvyaziEn: BlogPost = {
         {
           intro: "Working placements:",
           items: [
-            "Contacts;",
-            "service and category cards;",
-            "end of a blog article with an offer;",
-            "landing — by the CTA;",
+            "Contacts",
+            "service and category cards",
+            "end of a blog article with an offer",
+            "landing — by the CTA",
             "modal on click (don’t pop aggressively on entry).",
           ],
         },
@@ -146,9 +146,9 @@ export const formaObratnoySvyaziEn: BlogPost = {
         {
           intro: "Antispam minimum:",
           items: [
-            "server checks, not only JS;",
-            "honeypot or invisible captcha;",
-            "submit rate limit;",
+            "server checks, not only JS",
+            "honeypot or invisible captcha",
+            "submit rate limit",
             "filter links/stop-words in the message (carefully, avoid false positives).",
           ],
         },
@@ -164,10 +164,10 @@ export const formaObratnoySvyaziEn: BlogPost = {
         {
           intro: "What strengthens the form:",
           items: [
-            "few required fields;",
-            "mobile layout and large inputs;",
-            "a reply-time promise you keep;",
-            "a backup channel (phone, messenger);",
+            "few required fields",
+            "mobile layout and large inputs",
+            "a reply-time promise you keep",
+            "a backup channel (phone, messenger)",
             "a polite auto-reply and a real manager response.",
           ],
         },

@@ -11,7 +11,7 @@ export const ssylkaInstagramEn: BlogPost = {
     "How to get an Instagram* profile URL: from the browser, from the app, and manually by username — where to paste the link and what it doesn’t guarantee.",
   lead: [
     "An Instagram* profile link is for the site, business card, ads, and chat: the person lands straight on the account. The format is simple — an address like `https://www.instagram.com/username/`.",
-    "Below — how to copy the URL and where to put it. The “three dots” menu and labels change; the idea stays. Meta* product disclaimer is on the page. (The original WP title mentioned “several Stories,” but the body was about the profile link — we keep the actual content.)",
+    "Copying the URL takes a minute; placing it where people actually click matters more. The three-dot menu and labels change; the idea stays. A Meta* product disclaimer is on the page.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -19,23 +19,23 @@ export const ssylkaInstagramEn: BlogPost = {
   },
   faq: [
     {
-      q: "How is it different from a link in Stories?",
-      a: "A profile URL opens the whole account. A Story link/sticker is a separate mechanic with account-type limits.",
+      q: "How is a profile link different from a link in Stories?",
+      a: "A profile URL opens the whole account. A Story link or sticker is a separate mechanic with account-type limits.",
     },
     {
-      q: "Username with capital letters?",
-      a: "In the URL, use the login as it appears in the profile address. Don’t invent spaces or characters by eye — copy from the address bar.",
+      q: "Does username capitalization matter?",
+      a: "In the URL, use the login as it appears in the profile address. Don’t invent spaces or characters — copy from the address bar.",
     },
     {
       q: "Will the link bring followers by itself?",
       a: "No. It only opens the profile. You need an offer, design, and traffic. More external links ≠ automatic sales growth.",
     },
     {
-      q: "Can you shorten the link?",
+      q: "Can I shorten the profile link?",
       a: "Yes, via short URLs — but for trust a full official address is often better, especially in ads and on the site.",
     },
     {
-      q: "Where else to get a contact?",
+      q: "Where else can I get a contact?",
       a: "On a business profile — contact buttons, WhatsApp*/email where available. See profile design and business account.",
     },
   ],
@@ -68,11 +68,11 @@ export const ssylkaInstagramEn: BlogPost = {
       lists: [],
       links: [
         {
-          label: "Profile design",
+          label: "Instagram* profile design",
           href: "/en/blog/oformlenie-stranicy-instagram/",
         },
         {
-          label: "Business account",
+          label: "Instagram* business account",
           href: "/en/blog/biznes-akkaunt-instagram/",
         },
       ],
@@ -124,7 +124,7 @@ export const ssylkaInstagramEn: BlogPost = {
       ],
     },
     {
-      title: "What to remember",
+      title: "Key takeaways",
       level: 2,
       paras: [
         "A profile link is an account address, not promotion magic. Copy from browser or app and verify the tap.",

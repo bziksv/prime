@@ -10,8 +10,8 @@ export const razmerStranitsyEn: BlogPost = {
   excerpt:
     "What page “weight” means, how to see transfer size in DevTools and tools, why heavy pages hurt UX and SEO, and what to compress first.",
   lead: [
-    "Page size (weight) is how many bytes the browser downloads to show the document: HTML, CSS, JS, images, fonts, third-party widgets. The larger the volume and the worse the compression, the longer people wait on a weak connection.",
-    "Below — why measure weight, how to see it in a minute, and what usually gives the fastest win. This is speed hygiene — not “TOP thanks to KB”.",
+    "Page weight is how many bytes the browser downloads to show the document: HTML, CSS, JS, images, fonts, third-party widgets. The larger the volume and the worse the compression, the longer people wait on a weak connection.",
+    "Why to measure weight, how to see it in a minute, and what usually gives the fastest win. This is speed hygiene, not a TOP guarantee.",
   ],
   faq: [
     {
@@ -19,8 +19,8 @@ export const razmerStranitsyEn: BlogPost = {
       a: "No. Look at total transfer size of all document resources (and cache vs network). HTML is often tiny next to images and JS.",
     },
     {
-      q: "What’s a normal weight?",
-      a: "Depends on type. For a landing on 3G, aim for reasonable hundreds of KB–a couple of MB — not tens of megabytes without need. LCP/INP and field data matter more than one number.",
+      q: "What’s a normal page weight?",
+      a: "Depends on type. For a landing on 3G, aim for reasonable hundreds of KB–a couple of MB — not tens of megabytes without a real need. LCP/INP and field data matter more than one number.",
     },
     {
       q: "Where to look in the browser?",
@@ -59,9 +59,9 @@ export const razmerStranitsyEn: BlogPost = {
         {
           intro: "When measuring is mandatory:",
           items: [
-            "after a redesign / new template;",
-            "before ad spend on a landing;",
-            "if mobile bounce grows;",
+            "after a redesign / new template",
+            "before ad spend on a landing",
+            "if mobile bounce grows",
             "when someone says “the site is slow”.",
           ],
         },
@@ -78,9 +78,9 @@ export const razmerStranitsyEn: BlogPost = {
         {
           intro: "Mini ritual:",
           items: [
-            "incognito + disable cache;",
-            "mobile user-agent / throttling;",
-            "lock top-10 resources by Size;",
+            "incognito + disable cache",
+            "mobile user-agent / throttling",
+            "lock top-10 resources by Size",
             "repeat on a key landing and product page.",
           ],
         },
@@ -110,10 +110,10 @@ export const razmerStranitsyEn: BlogPost = {
         {
           intro: "In the report look for:",
           items: [
-            "total page weight;",
-            "images without compression/modern formats;",
-            "unused CSS/JS;",
-            "blocking scripts in head;",
+            "total page weight",
+            "images without compression/modern formats",
+            "unused CSS/JS",
+            "blocking scripts in head",
             "extra redirects.",
           ],
         },
@@ -130,10 +130,10 @@ export const razmerStranitsyEn: BlogPost = {
         {
           intro: "Typical top offenders:",
           items: [
-            "images > 200–300 KB without need;",
-            "hero as PNG instead of WebP/AVIF;",
-            "all of jQuery UI for one button;",
-            "social widgets and live chat;",
+            "images > 200–300 KB without a real need",
+            "hero as PNG instead of WebP/AVIF",
+            "all of jQuery UI for one button",
+            "social widgets and live chat",
             "unminified bundles.",
           ],
         },
@@ -150,10 +150,10 @@ export const razmerStranitsyEn: BlogPost = {
         {
           intro: "Sprint checklist:",
           items: [
-            "compress hero and product cards;",
-            "enable server compression;",
-            "defer non-critical JS;",
-            "remove 1–2 extra widgets;",
+            "compress hero and product cards",
+            "enable server compression",
+            "defer non-critical JS",
+            "remove 1–2 extra widgets",
             "remeasure DevTools before/after.",
           ],
         },
@@ -176,9 +176,9 @@ export const razmerStranitsyEn: BlogPost = {
         {
           intro: "Playbook:",
           items: [
-            "reference URLs and their limits;",
-            "an owner for assets;",
-            "ban “upload a 5MB photo to content” without compression;",
+            "reference URLs and their limits",
+            "an owner for assets",
+            "ban “upload a 5MB photo content” without compression",
             "quarterly re-audit.",
           ],
         },

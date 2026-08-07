@@ -11,7 +11,7 @@ export const htaccess301En: BlogPost = {
     "Practical permanent 301 examples in Apache .htaccess: https, www, trailing slash, page and domain moves — plus when a redirect isn’t needed.",
   lead: [
     "On Apache, `.htaccess` is often used for permanent 301s: merge mirrors, move a URL, strip “tails.” A bad rule can take the site down — edit with a backup.",
-    "Below — typical scenarios and caution. Theory of 301/302 codes — in the redirect piece; nginx uses different syntax.",
+    "Below are typical scenarios and a few cautions. Theory of 301/302 codes lives in the redirect piece; nginx uses different syntax.",
   ],
   faq: [
     {
@@ -19,11 +19,11 @@ export const htaccess301En: BlogPost = {
       a: "Usually in the site root (or the virtual host directory). Not every host enables `AllowOverride`.",
     },
     {
-      q: "Will it work on nginx?",
+      q: "Will these rules work on nginx?",
       a: "Not as-is. On nginx you write `return 301` / `rewrite` in the server config.",
     },
     {
-      q: "301 or 302 in the examples?",
+      q: "Should the examples use 301 or 302?",
       a: "For permanent moves — 301. Temporary promos — 302/307.",
     },
     {
@@ -31,11 +31,11 @@ export const htaccess301En: BlogPost = {
       a: "Carefully: order matters, loops are easy. Test one at a time.",
     },
     {
-      q: "Redirect instead of deleting a page?",
+      q: "Should I redirect instead of deleting a page?",
       a: "If there’s a close-in-meaning URL — yes. If the topic is gone — better 404/410 than “everything to home.”",
     },
     {
-      q: "How to check the status code?",
+      q: "How do I check the status code?",
       a: "Open response headers via DevTools, `curl -I`, or a checker. Test the original URL without a browser-cached redirect.",
     },
   ],
@@ -50,8 +50,8 @@ export const htaccess301En: BlogPost = {
         {
           intro: "Signs it’s time:",
           items: [
-            "old URLs in Webmaster with 404 after a move;",
-            "two mirrors in the index;",
+            "old URLs in Webmaster with 404 after a move",
+            "two mirrors in the index",
             "external links to outdated paths.",
           ],
         },
@@ -74,9 +74,9 @@ export const htaccess301En: BlogPost = {
         {
           intro: "Before going live:",
           items: [
-            "backup the current `.htaccess`;",
-            "test on staging;",
-            "check chains (one hop);",
+            "backup the current `.htaccess`",
+            "test on staging",
+            "check chains (one hop)",
             "verify with `curl -I` or similar.",
           ],
         },
@@ -92,15 +92,15 @@ export const htaccess301En: BlogPost = {
       title: "When a redirect isn’t needed",
       level: 2,
       paras: [
-        "Don’t dump all junk to home — it blurs meaning. Don’t duplicate 301 and canonical on conflicting URLs without need. Don’t leave A→B→C.",
+        "Don’t dump all junk to home — it blurs meaning. Don’t duplicate 301 and canonical on conflicting URLs without need. Don’t leave A→B→C chains.",
       ],
       lists: [
         {
           intro: "Mistakes:",
           items: [
-            "redirect loops;",
-            "a temporary 302 forever;",
-            "editing production without a backup;",
+            "redirect loops",
+            "a temporary 302 forever",
+            "editing production without a backup",
             "forgotten HTTP after enabling HTTPS.",
           ],
         },
@@ -117,9 +117,9 @@ export const htaccess301En: BlogPost = {
         {
           intro: "In the migration map include:",
           items: [
-            "full old and target URL;",
-            "rule purpose — domain, section, or single page;",
-            "expected 301 code;",
+            "full old and target URL",
+            "rule purpose — domain, section, or single page",
+            "expected 301 code",
             "deploy date and test result.",
           ],
         },
@@ -136,9 +136,9 @@ export const htaccess301En: BlogPost = {
         {
           intro: "Be especially careful with:",
           items: [
-            "rules that redirect the whole domain;",
-            "regex with broad matches;",
-            "duplicate settings in a CDN or hosting panel;",
+            "rules that redirect the whole domain",
+            "regex with broad matches",
+            "duplicate settings in a CDN or hosting panel",
             "automatic CMS and plugin rules.",
           ],
         },
@@ -155,9 +155,9 @@ export const htaccess301En: BlogPost = {
         {
           intro: "Acceptance checklist:",
           items: [
-            "no loops or multiple sequential redirects;",
-            "parameters kept only where needed;",
-            "destination returns 200 and is crawlable;",
+            "no loops or multiple sequential redirects",
+            "parameters kept only where needed",
+            "destination returns 200 and is crawlable",
             "important old URLs checked selectively and in bulk.",
           ],
         },

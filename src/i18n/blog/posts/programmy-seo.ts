@@ -11,11 +11,11 @@ export const programmySeoEn: BlogPost = {
     "Which tools you need for SEO: semantics, analytics, copy checks, tech audit, links, and extensions — a stack by task without a cult of “one all-in-one” or instant TOP promises.",
   lead: [
     "SEO is a set of jobs, not one button. Each job has its tool class: building a keyword core, on-site behavior, copy checks, technical crawls, backlink slices, webmaster panels.",
-    "Below — a practical stack by area. Service names and trial limits change — check current plans on their sites. Competitor analysis as a method is a separate article; here the focus is tooling. Software doesn’t replace strategy: core rankings build over months after prep.",
+    "A practical stack by area beats chasing one “magic” tool. Service names and trial limits change — check current plans on their sites. Competitor analysis as a method is a separate article; here the focus is tooling. Software doesn’t replace strategy: core rankings build over 2–6 months after prep.",
   ],
   faq: [
     {
-      q: "Do you need a paid all-in-one from day one?",
+      q: "Do I need a paid all-in-one from day one?",
       a: "No. At the start Wordstat, Webmaster, Metrica/GA, and a free crawler often suffice. Add paid tools when you hit limits.",
     },
     {
@@ -23,7 +23,7 @@ export const programmySeoEn: BlogPost = {
       a: "Wordstat is Yandex frequency data. Key Collector and peers are a workstation: export, grouping, negatives, batch work.",
     },
     {
-      q: "Screaming Frog or an online audit?",
+      q: "Should I use Screaming Frog or an online audit?",
       a: "A desktop crawler is handy for your site and exports. Online tools — for quick slices and the cloud. Teams often use both.",
     },
     {
@@ -31,7 +31,7 @@ export const programmySeoEn: BlogPost = {
       a: "It’s content hygiene. Uniqueness doesn’t guarantee TOP, but copy-paste and stuffing hurt.",
     },
     {
-      q: "Is Ahrefs alone enough?",
+      q: "Is Ahrefs alone enough for SEO?",
       a: "Strong on links and organic, but for an RU core you still need Wordstat/local tools and your own counters.",
     },
     {
@@ -39,7 +39,7 @@ export const programmySeoEn: BlogPost = {
       a: "As one tool in the lineup — yes, neutrally. No featured promo and no “best of all” claims.",
     },
     {
-      q: "Will software put you in TOP in a week?",
+      q: "Will software put me in TOP in a week?",
       a: "No. Tools speed up data gathering. Prep — weeks; TOP for the core is planned 2–6 months after work starts.",
     },
     {
@@ -59,10 +59,10 @@ export const programmySeoEn: BlogPost = {
         {
           intro: "Starter minimum:",
           items: [
-            "Wordstat + a spreadsheet;",
-            "Yandex Webmaster / Google Search Console;",
-            "Metrica and/or GA4;",
-            "a crawler (Screaming Frog or peer);",
+            "Wordstat + a spreadsheet",
+            "Yandex Webmaster / Google Search Console",
+            "Metrica and/or GA4",
+            "a crawler (Screaming Frog or peer)",
             "copy checks against the brief.",
           ],
         },
@@ -85,10 +85,10 @@ export const programmySeoEn: BlogPost = {
         {
           intro: "Typical set:",
           items: [
-            "Wordstat;",
-            "Key Collector or a cloud peer;",
-            "Serpstat / Keys.so / Semrush — by budget;",
-            "Trends + Planner for the Google track;",
+            "Wordstat",
+            "Key Collector or a cloud peer",
+            "Serpstat / Keys.so / Semrush — by budget",
+            "Trends + Planner for the Google track",
             "a cluster spreadsheet.",
           ],
         },
@@ -122,9 +122,9 @@ export const programmySeoEn: BlogPost = {
         {
           intro: "The link-up:",
           items: [
-            "Metrica / GA4;",
-            "goals and events;",
-            "Webmaster / Search Console;",
+            "Metrica / GA4",
+            "goals and events",
+            "Webmaster / Search Console",
             "BI/dashboard when needed.",
           ],
         },
@@ -155,9 +155,9 @@ export const programmySeoEn: BlogPost = {
         {
           intro: "For the editorial team:",
           items: [
-            "uniqueness in the chosen tool;",
-            "nausea/spamminess inside the brief corridor;",
-            "read aloud;",
+            "uniqueness in the chosen tool",
+            "nausea/spamminess inside the brief corridor",
+            "read aloud",
             "alignment with cluster intent.",
           ],
         },
@@ -188,10 +188,10 @@ export const programmySeoEn: BlogPost = {
         {
           intro: "Tech stack:",
           items: [
-            "crawler;",
-            "Webmaster + GSC;",
-            "redirect checks;",
-            "log analysis when needed;",
+            "crawler",
+            "Webmaster + GSC",
+            "redirect checks",
+            "log analysis when needed",
             "recrawl after fixes.",
           ],
         },
@@ -222,9 +222,9 @@ export const programmySeoEn: BlogPost = {
         {
           intro: "External track:",
           items: [
-            "a backlink tool;",
-            "rank tracking;",
-            "an extension for meta/redirects;",
+            "a backlink tool",
+            "rank tracking",
+            "an extension for meta/redirects",
             "a visibility-change sheet.",
           ],
         },

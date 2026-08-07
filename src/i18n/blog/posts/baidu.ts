@@ -10,8 +10,8 @@ export const baiduEn: BlogPost = {
   excerpt:
     "When you need Baidu, how Chinese search differs from Yandex/Google, which ecosystem services matter for SEO, and how to approach registration without grey schemes.",
   lead: [
-    "Baidu is the main search engine in mainland China. If the audience is in the PRC, familiar Google/Yandex and a Western stack are often unavailable or secondary: you need local hosting/licenses, Chinese content, and the Baidu ecosystem.",
-    "Below — local SEO specifics, an overview of key services, and a realistic take on registration. No verification-bypass how-tos or grey “phone numbers”.",
+    "Baidu is the main search engine in mainland China. If the audience is in the PRC, the usual Google/Yandex and Western stack is often unavailable or secondary: you need local hosting/licenses, Chinese content, and the Baidu ecosystem.",
+    "Baidu SEO for the PRC market isn’t “Google with Chinese letters”: local services, ICP, and verification rules differ. Below: realistic registration and key tools — no verification-bypass how-tos or grey “phone numbers.”",
   ],
   faq: [
     {
@@ -19,31 +19,31 @@ export const baiduEn: BlogPost = {
       a: "Usually no. It makes sense when entering the Chinese market, partners, or an audience inside the firewall.",
     },
     {
-      q: "Why not “just like Google”?",
+      q: "Why can’t you treat Baidu “just like Google”?",
       a: "Different SERP, language, speed requirements from inside China; ICP and local infrastructure are often needed. A Western site “from outside” loads poorly.",
     },
     {
-      q: "Will a Russian phone number work for an account?",
+      q: "Will a Russian phone number work for a Baidu account?",
       a: "Registration and verification are often tied to local rules and may fail. Plan legal corporate access — not grey schemes.",
     },
     {
-      q: "What is Baidu Webmaster?",
-      a: "A webmaster cabinet: indexing, errors, sitemap — similar in spirit to Webmaster/GSC, but in the Baidu ecosystem.",
+      q: "What is Baidu Webmaster Tools?",
+      a: "A webmaster account: indexing, errors, sitemap — similar in spirit to Webmaster/GSC, but in the Baidu ecosystem.",
     },
     {
-      q: "Are Baike and Zhidao required?",
+      q: "Are Baike and Zhidao required for SEO?",
       a: "Not always. Baike is an encyclopedia; Zhidao is Q&A. Useful for brand and demand if content is quality and follows platform rules.",
     },
     {
-      q: "Do you need Chinese on the site?",
+      q: "Do you need Chinese content on the site?",
       a: "Yes for Baidu organic. Quick machine translation usually loses to local editing.",
     },
     {
-      q: "Is Baidu ads separate?",
-      a: "Yes: paid formats have their own cabinet and budget. Organic and paid aren’t interchangeable.",
+      q: "Are Baidu ads separate from organic SEO?",
+      a: "Yes: paid formats have their own account and budget. Organic and paid aren’t interchangeable.",
     },
     {
-      q: "How long until effect?",
+      q: "How long until Baidu SEO shows effect?",
       a: "Same as elsewhere: site prep ≠ TOP. Index and visibility grow over months of steady work — planned TOP often 2–6 months after prep, not a registration checkbox.",
     },
   ],
@@ -72,7 +72,7 @@ export const baiduEn: BlogPost = {
       level: 2,
       paras: [
         "Official path: an account via current Baidu forms, verification per service rules, then access to needed products (Webmaster and others). UIs and requirements change — follow Baidu help, not 2018–2020 guides.",
-        "Grey methods (“someone else’s number”, bypassing checks) risk blocks, lost access, and legal trouble. Business needs transparent access and a cabinet owner.",
+        "Grey methods (“someone else’s number”, bypassing checks) risk blocks, lost access, and legal trouble. Business needs transparent access and a account owner.",
       ],
       lists: [
         {
@@ -142,7 +142,7 @@ export const baiduEn: BlogPost = {
       level: 2,
       paras: [
         "Design the funnel inside China: messengers, local payment and support platforms. Western GA may be unavailable to the audience — use locally allowed analytics and server logs.",
-        "Build semantics for Chinese demand — not a calque of a Russian core.",
+        "Build semantics for Chinese demand — not a literal copy of a Russian keyword list.",
       ],
       lists: [
         {
@@ -185,7 +185,7 @@ export const baiduEn: BlogPost = {
         {
           title: "Practice",
           kind: "tip",
-          text: "Site reachability from China and language first, then Baidu cabinets — or you optimize emptiness.",
+          text: "Site reachability from China and language first, then Baidu accounts — or you optimize emptiness.",
         },
       ],
     },

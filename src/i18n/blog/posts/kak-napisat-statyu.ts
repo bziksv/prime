@@ -8,10 +8,10 @@ export const kakNapisatStatyuEn: BlogPost = {
   category: "Content marketing",
   cover: "/images/blog/kak-napisat-statyu/cover-en.webp",
   excerpt:
-    "Step by step: goal and audience, structure, draft, editing, and careful SEO — without magic and without “text for text’s sake.”",
+    "Step by step: goal and audience, structure, draft, editing, and careful SEO — without magic and without writing just to fill space.",
   lead: [
     "A good article doesn’t start by opening Word — it starts with answers: for whom, why, what value the reader leaves with. Without that, even correct prose stays empty.",
-    "Below — a working algorithm for beginners and clients who write themselves. Copywriting types and hiring an author live in the general piece; search nuances of keywords — in SEO copywriting.",
+    "A practical process for beginners and clients who write their own copy. Copywriting types and hiring an author live in the general article; keyword nuances for search are in SEO copywriting.",
   ],
   faq: [
     {
@@ -40,7 +40,7 @@ export const kakNapisatStatyuEn: BlogPost = {
     },
     {
       q: "How is this different from SEO copywriting?",
-      a: "Here — the general article process. There — semantics, related terms, and typical SEO mistakes.",
+      a: "This article is the general writing process. Keyword research, related terms, and typical SEO mistakes live elsewhere.",
     },
     {
       q: "Do real-life examples help?",
@@ -119,10 +119,10 @@ export const kakNapisatStatyuEn: BlogPost = {
       links: [
         {
           label: "SEO copywriting",
-          href: "/blog/seo-kopirayting/",
+          href: "/en/blog/seo-kopirayting/",
         },
         {
-          label: "Keyword research / semantic core",
+          label: "Keyword research / keyword set",
           href: "/en/blog/semanticheskoe-yadro/",
         },
       ],

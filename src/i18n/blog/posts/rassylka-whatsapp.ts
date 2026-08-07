@@ -8,18 +8,18 @@ export const rassylkaWhatsappEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/rassylka-whatsapp/cover-en.webp",
   excerpt:
-    "How a business can message on WhatsApp* legally: manual broadcast lists, official Business API, templates and sessions — without bought number lists or grey “agency” senders. Meta* disclaimer on the page.",
+    "How a business can message on WhatsApp* legally: manual broadcast lists, official Business API, templates and sessions — without bought number lists or gray “agency” senders. Meta* disclaimer on the page.",
   lead: [
     "WhatsApp* for business is a channel for service and marketing messages to people who agreed to hear from you. Mass spam to strangers breaks trust and hits platform rules.",
-    "Below — when a manual app broadcast is enough, why Business API and templates matter, and which topics you must not promote. We don’t treat “billions of users” or 2022 menu screenshots as fixed norms: check current WhatsApp Business rules. Meta* disclaimer is on the page.",
+    "When a manual app broadcast is enough, why Business API and templates matter, and which topics you must not promote. Don’t treat “billions of users” or 2022 menu screenshots as fixed norms: check current WhatsApp Business rules.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. WhatsApp* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
-      q: "Can you advertise to everyone in the phone book?",
+      q: "Can I advertise to everyone in the phone book?",
       a: "Only if people expect messages from you and it doesn’t break platform rules or advertising/personal-data law. Cold spam to other people’s contacts leads to blocks and complaints.",
     },
     {
@@ -27,15 +27,15 @@ export const rassylkaWhatsappEn: BlogPost = {
       a: "Scale, templates, CRM integrations, reporting. A manual list suits small volume to your own warm contacts.",
     },
     {
-      q: "Do you need business verification?",
+      q: "Do I need business verification?",
       a: "For full API work and profile trust — follow current WhatsApp/Meta requirements. Without confirmation some options stay unavailable.",
     },
     {
-      q: "Should you buy a “number base” from an agency?",
+      q: "Should I buy a “number base” from an agency?",
       a: "Not as a strategy. Opaque lists without consent = spam, complaints, and brand risk. Work with your own opt-in base.",
     },
     {
-      q: "How is it different from SMS?",
+      q: "How is WhatsApp different from SMS?",
       a: "Different channel and rules. Consent and usefulness logic is the same; choose where the customer actually replies. See also the SMS piece.",
     },
   ],
@@ -51,7 +51,7 @@ export const rassylkaWhatsappEn: BlogPost = {
       links: [
         {
           label: "SMS broadcasts",
-          href: "/blog/sms-rassylka/",
+          href: "/en/blog/sms-rassylka/",
         },
         {
           label: "VK community broadcasts",
@@ -64,16 +64,16 @@ export const rassylkaWhatsappEn: BlogPost = {
       level: 2,
       paras: [
         "In WhatsApp* you can build a recipient list from your contacts and send one message to the group (broadcast UI wording depends on the app version).",
-        "Upside — control and no “agency” layer. Downside — manual work, limited to your contact book, harder scale and analytics.",
+        "Plus — control and no “agency” layer. Downside — manual work, limited to your contact book, harder scale and analytics.",
         "Forwarding limits and anti-spam mechanics change: don’t build a process on bypassing restrictions.",
       ],
       lists: [
         {
           intro: "Minimum before send:",
           items: [
-            "recipients expect messages from the brand;",
-            "copy is short, with value or a status update;",
-            "there is a way to opt out / not write again after a block;",
+            "recipients expect messages from the brand",
+            "copy is short, with value or a status update",
+            "there is a way to opt out / not write again after a block",
             "don’t mix personal chats and an ad stream without a clear label.",
           ],
         },
@@ -91,7 +91,7 @@ export const rassylkaWhatsappEn: BlogPost = {
       notes: [
         {
           title: "Important",
-          text: "We don’t describe grey senders or “bases from a telecom payment.” The legal path is consent, your own base, official API, or manual work with warm contacts.",
+          text: "We don’t describe gray senders or “bases from a telecom payment.” The legal path is consent, your own base, official API, or manual work with warm contacts.",
         },
       ],
     },
@@ -107,11 +107,11 @@ export const rassylkaWhatsappEn: BlogPost = {
       links: [
         {
           label: "VK chatbots",
-          href: "/blog/chat-bot-vk/",
+          href: "/en/blog/chat-bot-vk/",
         },
         {
           label: "Trigger campaigns",
-          href: "/blog/triggernye-rassylki/",
+          href: "/en/blog/triggernye-rassylki/",
         },
       ],
     },

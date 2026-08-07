@@ -5,13 +5,13 @@ export const assotsiirovannyeKonversiiEn: BlogPost = {
   slug: "assotsiirovannye-konversii",
   title: "Assisted conversions: why the path to purchase matters",
   date: "2019-12-25",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/assotsiirovannye-konversii/cover-en.webp",
   excerpt:
     "What assisted conversions are, how they differ from first and last click, how not to kill “helper” channels, and how to read attribution in analytics without outdated menu screenshots.",
   lead: [
-    "A purchase rarely happens from one touch. Someone saw an ad, read reviews, came back via brand search, and only then ordered. If you watch only “last click”, helper channels look useless — and budget gets cut in the wrong place.",
-    "Assisted conversions are the contribution of touches that were on the path but weren’t the final deal source. Below — conversion-type logic, why attribution models matter, and how not to err when shifting budget. Analytics UIs change; report meaning beats clicks on old menu items.",
+    "A purchase rarely happens from one touch. Someone saw an ad, read reviews, came back via brand search, and only then ordered. If you watch only “last click,” helper channels look useless — and budget gets cut in the wrong place.",
+    "Assisted conversions credit touches that were on the path but weren’t the final deal source. Attribution models decide how credit is split. Analytics UIs change; report meaning beats clicks on old menu items.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const assotsiirovannyeKonversiiEn: BlogPost = {
       a: "“Regular” in reports often = the last paid/non-direct click before the goal. Assisted = the channel was earlier in the chain and helped reach the purchase, but didn’t close it alone.",
     },
     {
-      q: "Is that the same as attribution?",
+      q: "Is assisted conversion the same as attribution?",
       a: "Related. Assisted conversions are the fact a channel joined the path. Attribution models are rules for splitting credit across touches.",
     },
     {
@@ -27,16 +27,16 @@ export const assotsiirovannyeKonversiiEn: BlogPost = {
       a: "Brand search and direct visits often “take” the sale, while discovery started with content, display, or a social post. Cut the top of the funnel — and “last” conversions fall too.",
     },
     {
-      q: "Where to look in Metrica and Google Analytics?",
+      q: "Where should you look in Yandex Metrica and Google Analytics?",
       a: "In sections on sources, goals, and conversion models/paths (names change). The point: touch chains and model comparison — not one “conversions” column.",
     },
     {
-      q: "Do assisted conversions always mean spend more?",
+      q: "Do assisted conversions always mean you should spend more?",
       a: "No. Check quality, cost, and role in the chain. A channel can “light up” in paths yet bring noisy traffic.",
     },
     {
-      q: "Link to SEO?",
-      a: "Organic is often first touch, assisted, and last. Cutting SEO over a weak last click is a common mistake on a long sales cycle.",
+      q: "How do assisted conversions relate to SEO?",
+      a: "Organic is often first touch, assisted, and last. Cutting SEO over a weak last click is a common mistake on a long sales cycle. Prep isn’t TOP — competitive visibility typically builds over 2–6 months of work.",
     },
   ],
   sections: [
@@ -114,7 +114,7 @@ export const assotsiirovannyeKonversiiEn: BlogPost = {
       title: "How to read it in analytics",
       level: 2,
       paras: [
-        "Google Analytics historically had multi-channel funnels and model comparison; in current versions the logic is the same — paths and attribution, different section names. In Yandex Metrica look at source attribution models (last transition, first transition, etc.) and goal reports.",
+        "Google Analytics historically had multi-channel funnels and model comparison; in current versions the logic is the same — paths and attribution, different section names. In Yandex Metrika look at source attribution models (last transition, first transition, etc.) and goal reports.",
         "Linking ad accounts to analytics matters so campaigns don’t vanish into “(not set)”. Without goals (purchase, lead), talking about assisted conversions is pointless.",
       ],
       lists: [
@@ -148,7 +148,7 @@ export const assotsiirovannyeKonversiiEn: BlogPost = {
       title: "What to do in practice",
       level: 2,
       paras: [
-        "List top channels by last click and top by path participation. Where the gap is large — don’t cut at once: check creatives, landings, and quality. Sometimes a channel “helps” but is expensive — then narrow, don’t kill.",
+        "List top channels by last click and top by path participation. Where the gap is large — don’t cut at once: check creatives, landing pages, and quality. Sometimes a channel “helps” but is expensive — then narrow, don’t kill.",
         "For SEO and content an assisted role is often normal: they warm, and the deal closes via brand or retarget. Keep a channel mix, not a war of reports.",
       ],
       links: [

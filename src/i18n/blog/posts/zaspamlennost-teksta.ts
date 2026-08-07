@@ -11,7 +11,7 @@ export const zaspamlennostTekstaEn: BlogPost = {
     "What keyword stuffing and text “nausea” mean, how excess keywords hurt readability and SEO, which tools check density, and how to fix stuffing without fluff.",
   lead: [
     "Keyword stuffing is when keywords and same-root repeats pile up so high the copy reads for a bot, not a person. Search engines dislike it; people bounce even faster.",
-    "Below — how stuffing shows up, why Advego/text.ru get used, and how to lower density without turning the article into a watery mess. Tool scores are a brief guideline, not a ranking law.",
+    "How stuffing shows up, why Advego and text.ru get used, and how to lower density without turning the article into thin filler. Tool scores are a brief guideline, not a ranking law.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const zaspamlennostTekstaEn: BlogPost = {
       a: "On text.ru the usual advice is “don’t go to extremes”; briefs often ask for a moderate zone (roughly up to ~45–50% on their scale). Match the specific tool’s method — scales differ.",
     },
     {
-      q: "Does Advego nausea = a search ban?",
+      q: "Does Advego nausea equal a search ban?",
       a: "No direct formula. High classic/academic nausea signals “lots of repeats”. The engine’s decision is broader: meaning, behavior, page quality.",
     },
     {
@@ -60,7 +60,8 @@ export const zaspamlennostTekstaEn: BlogPost = {
       level: 2,
       paras: [
         "Relevance matters, but search judges quality: usefulness, uniqueness, on-page behavior. Stuffing cuts trust and UX — bounce rises.",
-        "Ranking uses many signals; a third-party “nausea %” isn’t plugged in directly. The tool is an editor’s helper.",
+        "Ranking uses many signals; a third-party “nausea %” isn’t plugged in directly. The tool is an editor’s helper — not a guarantee of TOP.",
+        "Clean copy is part of prep. Core keyword positions typically build over 2–6 months of work after launch prep; lowering stuffing helps readability and behavior, but it isn’t a shortcut to rankings.",
       ],
       lists: [],
     },

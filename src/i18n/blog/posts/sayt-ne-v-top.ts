@@ -3,31 +3,31 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for sayt-ne-v-top — same structure as RU JSON. */
 export const saytNeVTopEn: BlogPost = {
   slug: "sayt-ne-v-top",
-  title: "Why the site isn’t in TOP: 10 common reasons",
+  title: "Why your site isn’t in the TOP: 10 common reasons",
   date: "2020-01-31",
   category: "SEO",
   cover: "/images/blog/sayt-ne-v-top/cover-en.webp",
   excerpt:
-    "Ten reasons pages don’t hold TOP-10: age, filters, content, tech, UX, security, hosting, domain, code, and the instant-results myth — with prep and ranking timelines.",
+    "Ten reasons pages don’t hold top-10 rankings: age, filters, content, tech, UX, security, hosting, domain, code, and the instant-results myth — with prep and ranking timelines.",
   lead: [
-    "Interesting copy and a convenient menu are necessary but not enough. A site can “not be in TOP” because it’s young, under a filter, weak on tech, hard for people, or because people expect miracles in a week.",
-    "Below — ten common reasons and what to check. Important: preparing a project for promotion (tech, semantics, copy) takes weeks or about a month; a noticeable share of the core in TOP is a different horizon — usually 2–6 months after work starts, growing month to month, with no date guarantee.",
+    "Good copy and a clear menu are necessary but not enough. A site can stay out of the TOP because it’s young, under a filter, weak on tech, hard for people, or because people expect miracles in a week.",
+    "Here are ten common reasons and what to check. Important: preparing a project for promotion (tech, keywords, copy) usually takes weeks or about a month; a solid share of the core in the TOP is a different horizon—typically 2–6 months after work starts, improving month to month, with no guaranteed date.",
   ],
   faq: [
     {
-      q: "Can you “hit TOP” in a month?",
-      a: "In ~a month it’s realistic to prep the site and start work. TOP for a commercial core more often takes 2–6 months of buildup. “Launch = TOP-10” is a harmful myth.",
+      q: "Can I hit the TOP in a month?",
+      a: "In about a month it’s realistic to prep the site and start work. Ranking a commercial core in the TOP more often takes 2–6 months of buildup. “Launch = top 10” is a harmful myth.",
     },
     {
       q: "Does the sandbox officially exist?",
       a: "Search engines don’t promise a separate “sandbox mode” for everyone. In practice new domains gather trust and signals longer — that’s normal, not a CMS bug.",
     },
     {
-      q: "If content is unique, is TOP guaranteed?",
+      q: "If my content is unique, is a TOP ranking guaranteed?",
       a: "No. You need intent, structure, tech, competition, and time. Uniqueness is a base — not a ticket to the top ten.",
     },
     {
-      q: "How do you know a filter is to blame?",
+      q: "How do I know a filter is to blame?",
       a: "A sharp drop across a query group, Webmaster/GSC messages, backlink-profile anomalies. Don’t diagnose from one phrase — watch dynamics and reports.",
     },
     {
@@ -39,11 +39,11 @@ export const saytNeVTopEn: BlogPost = {
       a: "Frequent downtime, slow TTFB, and geo far from the audience hurt crawl and UX. It isn’t a “penalty for the host brand” — it’s availability and speed.",
     },
     {
-      q: "Are hyphen / IDN / digit domains a sentence?",
+      q: "Are hyphen, IDN, or digit domains a dead end?",
       a: "Not always. Domain history, brand, query match, and trust matter more. Renaming for “prettiness” without 301s is a separate risk.",
     },
     {
-      q: "Where to start diagnosis?",
+      q: "Where should I start diagnosis?",
       a: "Indexing and panel errors → tech (speed, mobile, status codes) → content and semantics → links/filters → UX and conversion. In parallel lock the work timeline: prep ≠ TOP.",
     },
   ],
@@ -210,10 +210,10 @@ export const saytNeVTopEn: BlogPost = {
       ],
     },
     {
-      title: "10. Expecting instant TOP",
+      title: "10. Expecting instant rankings",
       level: 2,
       paras: [
-        "The most common “reason” is really wrong expectations. Prep: semantics, copy, tech, analytics — about a month (sometimes 2–6 weeks). Ranking buildup: planned 2–6 months after work starts; a noticeable chunk of the core more often near 2–3 months, the rest later — “as it goes”, not a calendar guarantee.",
+        "The most common “reason” is really wrong expectations. Prep: keywords, copy, tech, analytics — about a month (sometimes 2–6 weeks). Ranking buildup: planned 2–6 months after work starts; a noticeable chunk of the core more often near 2–3 months, the rest later — “as it goes”, not a calendar guarantee.",
         "If a vendor promises turnkey TOP-10 “in 30 days” with no caveats on competition and stages — red flag. An honest report shows core-share growth and/or leads month to month — not one magic date.",
       ],
       lists: [

@@ -5,13 +5,13 @@ export const tochkiKontaktaEn: BlogPost = {
   slug: "tochki-kontakta",
   title: "Customer touchpoints: how to find them and strengthen sales",
   date: "2020-01-22",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/tochki-kontakta/cover-en.webp",
   excerpt:
     "What touchpoints are: online and offline, positive and negative, how to map the customer journey and link touches into a chain before and after purchase.",
   lead: [
     "A touchpoint is any contact between brand and person: site, ad, call, chat, email, storefront, review. Sales grow not from “one more banner,” but when the touch chain is consistent and doesn’t break at a weak link.",
-    "Below — where to find points, how to score them, and how to assemble a customer path. Don’t confuse this with SEO “entry points” from search competitors — that’s a different job.",
+    "We show where to find points, how to score them, and how to assemble a customer path. Don’t mix this up with SEO “entry points” from search competitors — that’s a different job.",
   ],
   faq: [
     {
@@ -35,7 +35,7 @@ export const tochkiKontaktaEn: BlogPost = {
       a: "Depends on the business. Often the joints decide: ads → site → call → visit. A weak link zeroes out the strong ones.",
     },
     {
-      q: "How do you prioritize?",
+      q: "How do I prioritize?",
       a: "By impact on leads/revenue and touch frequency. In high competition go deeper; in a narrow niche focus on 5–7 critical ones.",
     },
     {
@@ -66,7 +66,7 @@ export const tochkiKontaktaEn: BlogPost = {
       links: [
         {
           label: "SEO entry points",
-          href: "/blog/tochki-vhoda/",
+          href: "/en/blog/tochki-vhoda/",
         },
         {
           label: "Feedback form",
@@ -157,7 +157,7 @@ export const tochkiKontaktaEn: BlogPost = {
         },
         {
           label: "Word of mouth",
-          href: "/blog/sarafannoe-radio/",
+          href: "/en/blog/sarafannoe-radio/",
         },
       ],
     },

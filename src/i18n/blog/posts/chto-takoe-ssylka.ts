@@ -8,10 +8,10 @@ export const chtoTakoeSsylkaEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/chto-takoe-ssylka/cover-en.webp",
   excerpt:
-    "Hyperlinks in HTML: internal and external, absolute and relative, anchors and bare links, nofollow. How links help navigation and site crawl.",
+    "Hyperlinks in HTML: internal and external, absolute and relative, anchors and bare URLs, nofollow. How links help navigation and site crawl.",
   lead: [
-    "A link (hyperlink) is a page element that leads to another URL: an article, a file, an anchor, or an external site. In HTML that’s the `<a href=\"…\">` tag.",
-    "Below — what a link looks like, which types exist, why anchors matter, and how links tie to crawl and SEO. How to make text clickable is a separate article; here — a concept map.",
+    "A link (hyperlink) is a page element that leads to another URL: an article, a file, an on-page anchor, or an external site. In HTML that’s the `<a href=\"…\">` tag.",
+    "This article covers what a link looks like, which types exist, why anchors matter, and how links tie into crawling and SEO. How to make text clickable is a separate piece; here it’s a concept map.",
   ],
   faq: [
     {
@@ -20,14 +20,14 @@ export const chtoTakoeSsylkaEn: BlogPost = {
     },
     {
       q: "What is an anchor?",
-      a: "The text (or text substitute) between `<a>` and `</a>` that people click. “Buy a pump” is an anchor; a bare `https://…` is often called a bare/unanchored link.",
+      a: "The text (or text substitute) between `<a>` and `</a>` that people click. “Buy a pump” is an anchor; a bare `https://…` is often called a bare or unanchored link.",
     },
     {
       q: "Is nofollow required on every external link?",
       a: "No. Use `nofollow` / `sponsored` / `ugc` by meaning (ads, UGC, untrusted URLs). Useful editorial links to sources are normal practice.",
     },
     {
-      q: "Why internal linking?",
+      q: "Why does internal linking matter?",
       a: "Navigation for users and hints for robots about which URLs matter. Without internal links, deep pages are harder to find.",
     },
     {
@@ -41,7 +41,7 @@ export const chtoTakoeSsylkaEn: BlogPost = {
       level: 2,
       paras: [
         "Basic form: `<a href=\"https://example.com/page/\">Link text</a>`. The `href` attribute is required for the jump; between the tags is the anchor. Inside can be an image instead of text.",
-        "Robots follow links like a map: discover URLs, queue crawl, index on success. Without links (and a sitemap) new pages are found worse.",
+        "Robots follow links like a map: discover URLs, queue crawl, index on success. Without links (and a sitemap) new pages are found more slowly.",
       ],
       lists: [
         {
@@ -88,11 +88,11 @@ export const chtoTakoeSsylkaEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "More SEO slang terms:",
+          intro: "More SEO slang:",
           items: [
             "“natural” inbound — no pay for placement;",
             "bought / grey — filter risk zone;",
-            "redirect — server/script moves to another URL (equity and meaning depend on 301/302).",
+            "redirect — server or script moves to another URL (equity and meaning depend on 301/302).",
           ],
         },
       ],
@@ -102,7 +102,7 @@ export const chtoTakoeSsylkaEn: BlogPost = {
       level: 2,
       paras: [
         "An anchor helps people see where the click goes and gives robots context. Stuffing the exact keyword into every anchor looks unnatural.",
-        "Bare links — “here,” “more,” a naked URL, a logo. They help navigation and a natural profile; you don’t “push” a page with keywords alone.",
+        "Bare links — “here,” “more,” a naked URL, a logo. They help navigation and a natural profile; you don’t push a page with keywords alone.",
       ],
       lists: [
         {
@@ -120,14 +120,14 @@ export const chtoTakoeSsylkaEn: BlogPost = {
       title: "nofollow and placement",
       level: 2,
       paras: [
-        "`rel=\"nofollow\"` (and `sponsored`, `ugc`) tell search not to treat the link as an editorial endorsement. It’s not a forever PageRank off-switch, but an important signal for ads and user content.",
+        "`rel=\"nofollow\"` (and `sponsored`, `ugc`) tell search not to treat the link as an editorial endorsement. It isn’t a forever PageRank off-switch, but an important signal for ads and user content.",
         "Internal linking usually stays follow: you define the structure. Outbound to sources and partners — by meaning; mass “nofollow everything” isn’t required.",
       ],
       lists: [
         {
           intro: "Working hygiene:",
           items: [
-            "internal mesh to important services and articles;",
+            "internal links to important services and articles;",
             "outbound — on purpose, without link spam;",
             "inbound — donor quality over quantity;",
             "check broken links after migrations.",
@@ -143,7 +143,7 @@ export const chtoTakoeSsylkaEn: BlogPost = {
       links: [
         {
           label: "SEO site structure",
-          href: "/blog/seo-struktura-sayta/",
+          href: "/en/blog/seo-struktura-sayta/",
         },
       ],
     },
@@ -151,7 +151,7 @@ export const chtoTakoeSsylkaEn: BlogPost = {
       title: "Short takeaway",
       level: 2,
       paras: [
-        "A link is a basic web and crawl element. Tell apart internal/external, absolute/relative, anchored/bare. For SEO you need live internal linking, sane anchors, and caution with bought links. How to make a URL clickable — in the active-link article.",
+        "A link is a basic web and crawl element. Tell apart internal/external, absolute/relative, anchored/bare. For SEO you need live internal linking, sane anchors, and caution with bought links. How to make a URL clickable — in the clickable-link article.",
       ],
       lists: [],
     },

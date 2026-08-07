@@ -5,13 +5,13 @@ export const googleKalendarEn: BlogPost = {
   slug: "google-kalendar",
   title: "Google Calendar for work: how to organize meetings and tasks",
   date: "2019-06-19",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/google-kalendar/cover-en.webp",
   excerpt:
     "How to use Google Calendar at work: multiple calendars by purpose, meetings with guests, video, attachments, working hours, and sharing — without outdated clicks and Hangouts.",
   lead: [
-    "Google Calendar is a planner for meetings, reminders, and focus blocks in the Google ecosystem. It works for solo and teams: shared calendars, invites, Drive attachments, working hours.",
-    "Below — practical settings for a work flow. Menu labels and button names change; follow the meaning of features, not a 2019 screenshot. Video meetings today usually go through Google Meet, not Hangouts.",
+    "Google Calendar is a planner for meetings, reminders, and focus blocks in the Google ecosystem. It works for solo operators and teams: shared calendars, invites, Drive attachments, working hours.",
+    "The settings below fit a typical work flow. Menu labels and button names change; follow the meaning of features, not a 2019 screenshot. Video meetings today usually go through Google Meet, not Hangouts.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const googleKalendarEn: BlogPost = {
       a: "For a simple day — yes. When clients, internal calls, and personal mix, several colored calendars plus a visibility filter work better.",
     },
     {
-      q: "Do you need Workspace?",
+      q: "Do I need Google Workspace?",
       a: "Basic planning works on a regular account. Some corporate options (appointment slots, access policies) are on work/school plans — check Google’s current list.",
     },
     {
@@ -27,12 +27,12 @@ export const googleKalendarEn: BlogPost = {
       a: "Google Meet: add a meeting link to the calendar event.",
     },
     {
-      q: "Is this a content plan for a blog?",
-      a: "No. Calendar is about time and meetings. An editorial publishing plan is in a separate content-plan article.",
+      q: "Is this the same as a content plan for a blog?",
+      a: "No. Calendar is about time and meetings. An editorial publishing plan lives in a separate content-plan article.",
     },
     {
-      q: "Can you open a calendar to the whole company?",
-      a: "Yes, via sharing settings. Give edit rights only to people who must change events; others — free/busy view.",
+      q: "Can I open a calendar to the whole company?",
+      a: "Yes, via sharing settings. Give edit rights only to people who must change events; others get free/busy view.",
     },
   ],
   sections: [
@@ -47,10 +47,10 @@ export const googleKalendarEn: BlogPost = {
         {
           intro: "A typical set:",
           items: [
-            "client meetings;",
-            "internal syncs;",
-            "deep work (focus blocks);",
-            "recurring reminders;",
+            "client meetings",
+            "internal syncs",
+            "deep work (focus blocks)",
+            "recurring reminders",
             "personal events (optionally a hidden layer).",
           ],
         },
@@ -73,10 +73,10 @@ export const googleKalendarEn: BlogPost = {
         {
           intro: "Before sending the invite:",
           items: [
-            "a clear subject and meeting goal;",
-            "timezone and duration;",
-            "video link or address;",
-            "agenda in the description;",
+            "a clear subject and meeting goal",
+            "timezone and duration",
+            "video link or address",
+            "agenda in the description",
             "needed attachments already on the event.",
           ],
         },
@@ -92,7 +92,7 @@ export const googleKalendarEn: BlogPost = {
       notes: [
         {
           title: "Important",
-          text: "Don’t put personal-data documents in a shared calendar “just in case”. Drive access and event access are different contours.",
+          text: "Don’t put personal-data documents in a shared calendar “just in case”. Drive access and event access are separate permission layers.",
           kind: "tip",
         },
       ],
@@ -108,9 +108,9 @@ export const googleKalendarEn: BlogPost = {
         {
           intro: "Agency / freelance practice:",
           items: [
-            "set working hours;",
-            "leave a buffer between meetings;",
-            "deep-work blocks without invites;",
+            "set working hours",
+            "leave a buffer between meetings",
+            "deep-work blocks without invites",
             "a separate calendar for sales / interviews.",
           ],
         },
@@ -127,9 +127,9 @@ export const googleKalendarEn: BlogPost = {
         {
           intro: "Sharing minimum:",
           items: [
-            "don’t make a personal calendar public without need;",
-            "editors — selectively;",
-            "for externals — a separate calendar or one-off invites;",
+            "don’t make a personal calendar public without need",
+            "editors — selectively",
+            "for externals — a separate calendar or one-off invites",
             "periodically revoke access for people who left.",
           ],
         },

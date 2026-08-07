@@ -5,13 +5,13 @@ export const kartochkaTovaraEn: BlogPost = {
   slug: "kartochka-tovara",
   title: "Product page: structure, photos, price, and the Buy button",
   date: "2019-06-10",
-  category: "Internet marketing",
+  category: "E-commerce",
   cover: "/images/blog/kartochka-tovara/cover-en.webp",
   excerpt:
     "How to build an ecommerce product page: required blocks, photos and video, description, price with CTA, delivery, and reviews — so the purchase decision doesn’t stall.",
   lead: [
     "The SKU page is where a visitor decides “I’ll take it” or “I’ll look more”. Home and catalog lead in; the product page needs facts, trust, and a clear next step.",
-    "Below — page frame, media requirements, price and button, reviews. How to write description copy is a separate piece; here the focus is the full card, not copy alone.",
+    "The page needs a clear frame, solid media, visible price and Buy, plus reviews. How to write description copy is a separate article; this focuses on the full product card, not copy alone.",
   ],
   faq: [
     {
@@ -27,7 +27,7 @@ export const kartochkaTovaraEn: BlogPost = {
       a: "In e-com usually no: a hidden price raises bounce. Exceptions — B2B “on request” with a clear reason.",
     },
     {
-      q: "Where to put Buy?",
+      q: "Where should I put the Buy button?",
       a: "Next to price, above the fold on mobile; duplicate on long pages. One primary button beats five competing ones.",
     },
     {
@@ -35,7 +35,7 @@ export const kartochkaTovaraEn: BlogPost = {
       a: "Yes if they’re real. Fakes hurt. Buyer photos and store replies to negatives help.",
     },
     {
-      q: "Does this replace category SEO?",
+      q: "Does the product page replace category SEO?",
       a: "No. The product page covers a model/SKU; categories capture group demand. You need both layers.",
     },
   ],
@@ -44,8 +44,8 @@ export const kartochkaTovaraEn: BlogPost = {
       title: "What must be on the page",
       level: 2,
       paras: [
-        "Minimum: full name, price, a visible order button, photos, key specs, payment/delivery terms, a way to contact. Plus reviews and stock/ship time when that drives choice.",
-        "UX guides: familiar store patterns (prototypicality), a clear path to buy (intuitiveness), enough proof (persuasiveness). A template for its own sake with no data won’t convert.",
+        "Minimum: full name, price, a visible order button, photos, key specs, payment/delivery terms, a way to contact. Plus reviews and stock and shipping time when that drives choice.",
+        "UX guides: familiar store patterns (prototypicality), a clear path to buy (intuitiveness), enough proof (persuasiveness). A template just because with no data won’t convert.",
       ],
       lists: [
         {

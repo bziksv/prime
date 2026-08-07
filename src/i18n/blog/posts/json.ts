@@ -5,13 +5,13 @@ export const jsonEn: BlogPost = {
   slug: "json",
   title: "JSON: what it is, how to open it, and where it’s used",
   date: "2020-03-26",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/json/cover-en.webp",
   excerpt:
     "What JSON is: a text format for data exchange, object and array syntax, Ajax, parse vs eval safety, and how to open a .json file.",
   lead: [
     "JSON (JavaScript Object Notation) is a text format for exchanging structured data between programs and languages. It comes from the JavaScript ecosystem but doesn’t depend on the language: Python, PHP, Go, mobile apps, and APIs all read it.",
-    "Below — why JSON matters on sites, how the syntax works, how to open a file, and why you mustn’t feed a foreign response into `eval`. Old IE version lists and outdated editors are skipped as noise.",
+    "JSON shows up in APIs, configs, and feeds — learn the syntax, how to open a file, and why you mustn’t feed a foreign response into `eval`. Old IE version lists and outdated editors are skipped as noise.",
   ],
   faq: [
     {
@@ -57,7 +57,7 @@ export const jsonEn: BlogPost = {
       links: [
         {
           label: "HTTP headers",
-          href: "/blog/http-zagolovki/",
+          href: "/en/blog/http-zagolovki/",
         },
       ],
     },
@@ -67,7 +67,7 @@ export const jsonEn: BlogPost = {
       paras: [
         "Two frames: object `{ \"key\": value }` and array `[ value1, value2 ]`. Object keys are quoted strings. Values: string, number, `true`/`false`, `null`, nested object or array.",
         "Store phones and leading zeros as strings: `\"84959000000\"`, not numbers — or you lose the format. Strict JSON doesn’t allow a trailing comma after the last element.",
-        "Spaces and line breaks help humans; over the wire you often ship a compact one-liner — same meaning.",
+        "Spaces and line breaks help humans; over the wire you often send a compact one-liner — same meaning.",
       ],
       lists: [
         {
@@ -110,7 +110,7 @@ export const jsonEn: BlogPost = {
       links: [
         {
           label: "Site security",
-          href: "/blog/bezopasnost-sayta/",
+          href: "/en/blog/bezopasnost-sayta/",
         },
       ],
     },
@@ -119,7 +119,7 @@ export const jsonEn: BlogPost = {
       level: 2,
       paras: [
         "The file is plain UTF-8 text. VS Code, Cursor, Notepad++, Sublime, or a system text editor is enough. IDEs highlight brackets and flag syntax errors.",
-        "Heavy “all-in-one” tools like old XML editors aren’t required. For a quick check, use the editor’s formatter and online validators — don’t paste production secrets there.",
+        "Heavy all-in-one tools like old XML editors aren’t required. For a quick check, use the editor’s formatter and online validators — don’t paste production secrets there.",
       ],
       lists: [
         {
@@ -128,14 +128,14 @@ export const jsonEn: BlogPost = {
             "an editor with JSON highlighting;",
             "pretty-print for reading;",
             "validation before shipping a feed/config;",
-            "diff in git, not blind edits “on the server.”",
+            "diff in git, not blind edits on the server.",
           ],
         },
       ],
       links: [
         {
           label: "YML file for Market",
-          href: "/blog/yml-fayl/",
+          href: "/en/blog/yml-fayl/",
         },
       ],
     },

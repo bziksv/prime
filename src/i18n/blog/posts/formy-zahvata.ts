@@ -5,13 +5,13 @@ export const formyZahvataEn: BlogPost = {
   slug: "formy-zahvata",
   title: "Lead capture forms on a site: types, goals, and how not to annoy",
   date: "2019-09-17",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/formy-zahvata/cover-en.webp",
   excerpt:
     "Lead forms on a site: why they exist, closed/open/double layouts, signup, callback, calculator, and chat scenarios — with personal-data consent and without popup spam.",
   lead: [
     "Traffic without a contact often ends in “I’ll think and forget”. A capture form (lead form) collects consent and a way to reach someone so you can return with an offer — not hope for a random revisit.",
-    "Below — form types, job-based scenarios, and rules so the module helps instead of annoying. The basic “question/lead” form is also in the feedback piece; here the focus is capturing a lead for different goals.",
+    "Form types, job-based scenarios, and rules so the module helps instead of annoying. The basic “question/lead” form is also in the feedback piece; here the focus is capturing a lead for different goals.",
   ],
   faq: [
     {
@@ -19,11 +19,11 @@ export const formyZahvataEn: BlogPost = {
       a: "Close. “Feedback” is more about a question/complaint. “Capture” is about getting a contact for nurture and sales. In practice it’s one module — goal and fields change.",
     },
     {
-      q: "How many fields should you put?",
+      q: "How many fields should I put?",
       a: "The minimum for the next step. For a callback a phone is often enough; an operator can clarify the name. Extra required fields cut conversion.",
     },
     {
-      q: "Do you need an exit pop-up?",
+      q: "Do I need an exit pop-up?",
       a: "Only if there’s real value (discount, checklist). Empty “wait!” annoys and raises bounce.",
     },
     {
@@ -77,9 +77,9 @@ export const formyZahvataEn: BlogPost = {
         {
           intro: "What to check in every scenario:",
           items: [
-            "one main form goal;",
-            "clear button copy;",
-            "personal-data processing consent;",
+            "one main form goal",
+            "clear button copy",
+            "personal-data processing consent",
             "who answers the lead and how fast.",
           ],
         },

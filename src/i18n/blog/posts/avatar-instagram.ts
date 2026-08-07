@@ -8,34 +8,34 @@ export const avatarInstagramEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/avatar-instagram/cover-en.webp",
   excerpt:
-    "How to choose and make an Instagram avatar: photo or drawing, readability in a circle, editors, and replacing the image without rights issues.",
+    "How to choose and create an Instagram avatar: photo or drawing, readability in a circle, editors, and replacing the image without rights headaches.",
   lead: [
     "An Instagram avatar is the first thing people see in the feed, Stories, and comments. On a tiny circle a face, logo, or simple mark must read clearly.",
-    "Below — criteria for commerce and blogs, how to build the image yourself, and what to avoid. This is about creating the avatar; the full profile is covered in the design article.",
+    "Commerce and blogs need different cues: logo vs face, readable at thumbnail size, no cluttered text. This piece is about creating the avatar; the full profile is covered in the design article.",
   ],
   legalNotice: {
     title: "Dear readers!",
-    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+    text: "This article is for information only and is not an invitation to use the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
-      q: "Photo or logo?",
-      a: "A personal blog — usually a face. A brand and shop — a logo or service mark. The main thing is recognition at small size.",
+      q: "Should you use a photo or a logo?",
+      a: "For a personal blog — usually a face. For a brand or shop — a logo or service mark. What matters is recognition at small size.",
     },
     {
-      q: "Do you need text on the avatar?",
-      a: "Usually no: letters in a 40 px circle turn into mush. Put text in the name and About.",
+      q: "Do you need text on the Instagram avatar?",
+      a: "Usually no: letters in a 40 px circle turn into an unreadable blur. Put text in the name and bio.",
     },
     {
-      q: "Can you take stock images?",
+      q: "Can you use stock images for an avatar?",
       a: "Only with a license that allows it. Other people’s photos without rights are a risk. Safer: your photo, logo, or generation with clear rights.",
     },
     {
-      q: "What file size?",
-      a: "A high-resolution square (guide 1080×1080 and up). Exact limits — in the app help.",
+      q: "What file size should the avatar be?",
+      a: "A high-resolution square (guide 1080×1080 and up). Exact limits are in the app Help.",
     },
     {
-      q: "How often should you change the avatar?",
+      q: "How often should you change the Instagram avatar?",
       a: "Rarely. Frequent changes break recognition. Exception — a rebrand or seasonal offer with a return to the main mark.",
     },
   ],
@@ -44,8 +44,8 @@ export const avatarInstagramEn: BlogPost = {
       title: "Why an avatar “works”",
       level: 2,
       paras: [
-        "For commerce the image should answer in a second: who you are and what the profile is about. A pretty frame isn’t enough — it must tie to the offer.",
-        "For a personal account “just to have one” the bar is softer; for a brand the avatar is part of packaging.",
+        "For commerce, the image should answer in a second: who you are and what the profile is about. A pretty frame isn’t enough — it must tie to the offer.",
+        "For a personal account “just so it exists” the bar is softer; for a brand the avatar is part of packaging.",
       ],
       lists: [
         {
@@ -60,7 +60,7 @@ export const avatarInstagramEn: BlogPost = {
       ],
       links: [
         {
-          label: "Instagram page design",
+          label: "Instagram profile design",
           href: "/en/blog/oformlenie-stranicy-instagram/",
         },
       ],
@@ -69,7 +69,7 @@ export const avatarInstagramEn: BlogPost = {
       title: "Photo avatar",
       level: 2,
       paras: [
-        "Portrait to chest/face, even light, calm background. Living expression, no grimace. A product in frame — only if it doesn’t fight the face and still reads small.",
+        "Portrait to chest/face, even light, calm background. A natural expression — skip the grimace. A product in frame — only if it doesn’t fight the face and still reads small.",
       ],
       lists: [
         {

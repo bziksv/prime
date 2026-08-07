@@ -5,22 +5,22 @@ export const yumoneyEn: BlogPost = {
   slug: "yumoney",
   title: "YooMoney (Yandex.Wallet): what it is and how to use it",
   date: "2021-04-30",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/yumoney/cover-en.webp",
   excerpt:
     "YooMoney (formerly Yandex.Money / Yandex.Wallet): an e-wallet for payments and transfers, ID levels, top-ups and withdrawals — without outdated screenshots or mixing it up with YooKassa.",
   lead: [
-    "YooMoney is an e-wallet for online payments and transfers (historically Yandex.Money / “Yandex.Wallet”). It’s a user’s account — not a payment aggregator for an online store.",
-    "Below — what the wallet is for, how it differs from YooKassa, ID levels, and the logic of top-ups and withdrawals. Fees, limits, and menus change — check the YooMoney cabinet and Help.",
+    "YooMoney is an e-wallet for online payments and transfers (historically Yandex.Money or Yandex.Wallet). It’s a user’s account — not a payment aggregator for an online store.",
+    "Fees, limits, and menus change — check the YooMoney dashboard and Help. What the wallet is for, how it differs from YooKassa, ID levels, and the logic of top-ups and withdrawals.",
   ],
   faq: [
     {
       q: "Are YooMoney and Yandex.Wallet the same?",
-      a: "Essentially yes: the product was renamed. Older texts and client habits still say “Yandex.Money” / “wallet.”",
+      a: "Essentially yes: the product was renamed. Older texts and client habits still say Yandex.Money or wallet.",
     },
     {
-      q: "How is it different from YooKassa?",
-      a: "YooKassa takes payments on a business site. YooMoney is a personal/client wallet for paying and sending money. A shop usually needs Checkout (Kassa), not the owner’s personal wallet.",
+      q: "How is YooMoney different from YooKassa?",
+      a: "YooKassa takes payments on a business site. YooMoney is a personal or client wallet for paying and sending money. A shop usually needs Checkout (Kassa), not the owner’s personal wallet.",
     },
     {
       q: "Why identify yourself?",
@@ -28,15 +28,15 @@ export const yumoneyEn: BlogPost = {
     },
     {
       q: "Do I need a Yandex account?",
-      a: "Sign-in is usually tied to a Yandex account / linked profile. Don’t use someone else’s login for money.",
+      a: "Sign-in is usually tied to a Yandex account or linked profile. Don’t use someone else’s login for money.",
     },
     {
-      q: "Can I pay in stores?",
-      a: "Yes, where they accept YooMoney / linked methods. Points and limits — in the app and with the merchant.",
+      q: "Can I pay in stores with YooMoney?",
+      a: "Yes, where they accept YooMoney or linked methods. Points and limits — in the app and with the merchant.",
     },
     {
       q: "How do I withdraw to a card?",
-      a: "After the required ID level — transfer to a bank card or other methods in the cabinet. Fee and timing depend on the method.",
+      a: "After the required ID level — transfer to a bank card or other methods in the dashboard. Fee and timing depend on the method.",
     },
     {
       q: "Is it safe to keep large sums?",
@@ -44,7 +44,7 @@ export const yumoneyEn: BlogPost = {
     },
     {
       q: "Is it enough to take payments on a website?",
-      a: "For a full online store you usually connect a payment aggregator (e.g. YooKassa) under a sole trader/company contract. A personal wallet is a different scenario with different limits.",
+      a: "For a full online store you usually connect a payment aggregator (e.g. YooKassa) under a sole trader or company contract. A personal wallet is a different scenario with different limits.",
     },
   ],
   sections: [
@@ -54,7 +54,7 @@ export const yumoneyEn: BlogPost = {
       paras: [
         "The wallet holds electronic money and lets you pay for services, send to people and businesses, and sometimes cash out to a card — within service rules and the law.",
         "Historically the brand was Yandex.Money; communication now usually says YooMoney. For the user it’s the same idea: a digital account with app and web.",
-        "Don’t confuse it with acquiring: “take payments as a legal entity from a site” and “pay from your own wallet” are different products.",
+        "Don’t confuse it with acquiring: take payments as a legal entity from a site and pay from your own wallet are different products.",
       ],
       lists: [],
       links: [
@@ -72,15 +72,15 @@ export const yumoneyEn: BlogPost = {
       title: "Sign-up and login",
       level: 2,
       paras: [
-        "Opening goes through a Yandex account / the form on the YooMoney site or app: phone for confirmations, password, terms acceptance.",
-        "After creating it, find the account/wallet number in the cabinet — some top-up channels need it. Exact UI paths change.",
-        "Turn on available protections right away: SMS/app confirmation, device control, a strong Yandex account password.",
+        "Opening goes through a Yandex account or the form on the YooMoney site or app: phone for confirmations, password, terms acceptance.",
+        "After creating it, find the account or wallet number in the dashboard — some top-up channels need it. Exact UI paths change.",
+        "Turn on available protections right away: SMS or app confirmation, device control, a strong Yandex account password.",
       ],
       lists: [],
       notes: [
         {
           title: "Don’t memorize old screenshots",
-          text: "2021 guides with a “checkbox by the balance” are often outdated. Find the account number and top-up in the current menu or YooMoney Help.",
+          text: "2021 guides with a checkbox by the balance are often outdated. Find the account number and top-up in the current menu or YooMoney Help.",
         },
       ],
     },
@@ -88,9 +88,9 @@ export const yumoneyEn: BlogPost = {
       title: "Top-up, transfer, withdrawal",
       level: 2,
       paras: [
-        "Top-up: bank card, bank transfer, sometimes terminals and other wallets — list and fees in “Top up.”",
+        "Top-up: bank card, bank transfer, sometimes terminals and other wallets — list and fees in Top up.",
         "Transfer: pick the recipient (phone, account, card — what’s available), amount, confirm. Check the fee before sending.",
-        "Card withdrawal and cash-out usually need a higher ID status. Anonymous/minimal levels cut limits hard.",
+        "Card withdrawal and cash-out usually need a higher ID status. Anonymous or minimal levels cut limits hard.",
       ],
       lists: [
         {
@@ -110,7 +110,7 @@ export const yumoneyEn: BlogPost = {
       paras: [
         "The service splits identity-check levels (confirm status names in Help). Higher level — wider operations and limits.",
         "For business and freelance, plan ahead: withdrawing fees may need passport data and verification time.",
-        "Don’t copy “2021 article” limit numbers — use current figures in the cabinet.",
+        "Don’t copy 2021 article limit numbers — use current figures in the dashboard.",
       ],
       lists: [],
     },
@@ -118,8 +118,8 @@ export const yumoneyEn: BlogPost = {
       title: "Security",
       level: 2,
       paras: [
-        "Don’t enter password and codes on “wallet recovery” sites from email. Official login — only via a trusted domain/app.",
-        "Don’t dictate SMS codes to “support” in a messenger. Bank/wallet staff never ask for the full password.",
+        "Don’t enter password and codes on wallet recovery sites from email. Official login — only via a trusted domain or app.",
+        "Don’t dictate SMS codes to support in a messenger. Bank and wallet staff never ask for the full password.",
         "On a shared computer, sign out; on a phone — screen lock and a separate profile if others use the device.",
       ],
       lists: [],
@@ -130,7 +130,7 @@ export const yumoneyEn: BlogPost = {
       paras: [
         "For a client paying an order — YooMoney fits if the seller accepts it.",
         "For a store taking hundreds of payments with receipts — look at an aggregator like YooKassa and receipt rules (e.g. 54-FZ in Russia), not the founder’s personal wallet.",
-        "Mixing “send money to a sole trader’s wallet with no contract” creates accounting and legal risk — that’s not just a “handy button.”",
+        "Mixing “send money to a sole trader’s wallet” with no contract creates accounting and legal risk — that’s not just a handy button.",
       ],
       lists: [],
     },
@@ -140,7 +140,7 @@ export const yumoneyEn: BlogPost = {
       paras: [
         "YooMoney is a user wallet; YooKassa is business payment acceptance.",
         "ID unlocks withdrawals and limits; terms live only in current Help.",
-        "Login security beats “life hacks” for topping up via outdated terminal networks.",
+        "Login security beats life hacks for topping up via outdated terminal networks.",
       ],
       lists: [],
     },

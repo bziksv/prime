@@ -5,17 +5,17 @@ export const googleAlertsEn: BlogPost = {
   slug: "google-alerts",
   title: "Google Alerts: how to track mentions and topics",
   date: "2019-06-03",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/google-alerts/cover-en.webp",
   excerpt:
     "What Google Alerts is: email alerts for Google search queries. How to set it up, what brand and content tasks it covers, and where the limits are — without “speed up SEO” promises or dead social networks.",
   lead: [
     "Google Alerts is a free notification service: you set a query, Google emails a digest of new results it found on that topic.",
-    "Below — who it’s useful for, how to create an alert, and which business scenarios make sense. It’s Google SERP monitoring, not a full social listening suite and not a site-analytics replacement. UI labels may differ — orient on alerts.google.com and the meaning of settings.",
+    "Who it’s useful for, how to create an alert, and which business scenarios make sense. It’s Google SERP monitoring, not a full social listening suite and not a site-analytics replacement. UI labels may differ by account.",
   ],
   faq: [
     {
-      q: "Is Alerts paid?",
+      q: "Is Google Alerts a paid product?",
       a: "The basic service is free. Limits on alert count and frequency are in current Google Help.",
     },
     {
@@ -24,10 +24,10 @@ export const googleAlertsEn: BlogPost = {
     },
     {
       q: "Does it replace an SEO audit?",
-      a: "No. Alerts helps notice mentions and topic news; it doesn’t fix tech or put you in the TOP.",
+      a: "No. Alerts helps notice mentions and topic news; it doesn’t fix tech or put you in the top results.",
     },
     {
-      q: "Do you need a Google account?",
+      q: "Do I need a Google account?",
       a: "Easier from an account: simpler to edit the alert list. Email still gets confirmation/digests.",
     },
     {
@@ -47,10 +47,10 @@ export const googleAlertsEn: BlogPost = {
         {
           intro: "Typical tasks:",
           items: [
-            "brand and domain mentions;",
-            "reviews and write-ups by company name;",
-            "niche and competitor news (watch volume);",
-            "new materials on a key topic;",
+            "brand and domain mentions",
+            "reviews and write-ups by company name",
+            "niche and competitor news (watch volume)",
+            "new materials on a key topic",
             "watching copycats / URL mentions.",
           ],
         },
@@ -67,10 +67,10 @@ export const googleAlertsEn: BlogPost = {
         {
           intro: "Practical settings:",
           items: [
-            "start with 3–7 important queries, not “a thousand keys”;",
-            "for brand — exact name and spelling variants;",
-            "exclude your site with `-site:` when needed;",
-            "language and region for your audience;",
+            "start with 3–7 important queries, not “a thousand keys”",
+            "for brand — exact name and spelling variants",
+            "exclude your site with `-site:` when needed",
+            "language and region for your audience",
             "frequency for topic volume (noisy topics — digest).",
           ],
         },
@@ -94,10 +94,10 @@ export const googleAlertsEn: BlogPost = {
         {
           intro: "Example wordings (idea):",
           items: [
-            "exact brand name in quotes;",
-            "brand + “review” / “overview”;",
-            "niche topic + language limit;",
-            "`site:example.com` — if you watch someone else’s section;",
+            "exact brand name in quotes",
+            "brand + “review” / “overview”",
+            "niche topic + language limit",
+            "`site:example.com` — if you watch someone else’s section",
             "`-site:your-domain` — external mentions.",
           ],
         },
@@ -124,9 +124,9 @@ export const googleAlertsEn: BlogPost = {
         {
           intro: "What Alerts doesn’t replace:",
           items: [
-            "real-time social listening;",
-            "GA4/Metrika reports;",
-            "index checks in Webmaster / Search Console;",
+            "real-time social listening",
+            "GA4/Metrika reports",
+            "index checks in Webmaster / Search Console",
             "full enterprise media monitoring.",
           ],
         },

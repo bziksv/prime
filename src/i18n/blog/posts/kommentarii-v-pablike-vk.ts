@@ -10,8 +10,8 @@ export const kommentariiVPablikeVkEn: BlogPost = {
   excerpt:
     "How to manage comments in a VK community: open or close discussion, wall types, filters, manual moderation, and reply-feed control.",
   lead: [
-    "Comments in a VKontakte community are both fuel for reach and a source of toxicity. Below — how to pick wall mode, filters, and a moderation workflow without clinging to outdated menu buttons.",
-    "Items in Community management move around: follow the meaning of settings and current VK help, not “the third checkbox on the left”.",
+    "Comments in a VKontakte community are both fuel for reach and a source of toxicity. Wall mode, filters, and a clear moderation workflow matter more than outdated menu screenshots.",
+    "Items in Community management move around: follow the meaning of settings and current VK help, not “the third checkbox on the left.”",
   ],
   faq: [
     {
@@ -28,7 +28,7 @@ export const kommentariiVPablikeVkEn: BlogPost = {
     },
     {
       q: "Where do I see all community comments?",
-      a: "In community management related to comments/activity: reply timeline, replies as the community, and filter-deleted items in the operations history.",
+      a: "In community management related to comments and activity: reply timeline, replies as the community, and filter-deleted items in the operations history.",
     },
     {
       q: "How do I turn comments back on?",
@@ -41,7 +41,7 @@ export const kommentariiVPablikeVkEn: BlogPost = {
       level: 2,
       paras: [
         "Discussion under posts boosts engagement and gives the algorithm signals. Without rules the wall becomes a dump: spam, insults, flood, provocations.",
-        "The admin’s job isn’t “shut everyone’s mouth” — it’s to set a frame: who writes, what passes automatically, what a human reviews.",
+        "The admin’s job isn’t to silence everyone — it’s to set a frame: who writes, what passes automatically, what a human reviews.",
       ],
       lists: [
         {
@@ -117,7 +117,7 @@ export const kommentariiVPablikeVkEn: BlogPost = {
       notes: [
         {
           title: "Common mistake",
-          text: "Turn on a filter “and forget”. A week later toxic threads still appear — a filter doesn’t replace community rules and a responsible moderator.",
+          text: "Turn on a filter and forget it. A week later toxic threads still appear — a filter doesn’t replace community rules and a responsible moderator.",
         },
       ],
     },
@@ -126,7 +126,7 @@ export const kommentariiVPablikeVkEn: BlogPost = {
       level: 2,
       paras: [
         "Community management has a combined comment feed: subscriber replies, threads, replies as the community. Handy when several admins need to see who answers what.",
-        "Thread follow works for regular users too: reply under a post — you get notifications on replies to you. Admins should pin responsible topics to people.",
+        "Thread follow works for regular users too: reply under a post — you get notifications on replies to you. Admins should assign responsible topics to people.",
       ],
       lists: [
         {

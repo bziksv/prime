@@ -5,21 +5,21 @@ export const logotipEn: BlogPost = {
   slug: "logotip",
   title: "How to make a company logo: types and criteria",
   date: "2019-08-26",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/logotip/cover-en.webp",
   excerpt:
     "Why you need a logo, where it lives, how a mark, wordmark, and combo differ, and how to choose a path: builder, freelance, studio — without outdated “market percentage” claims.",
   lead: [
     "A logo is a short visual brand anchor: a mark, a word, or both. It doesn’t replace product and service, but helps people recognize the company on the site, in ads, and on packaging.",
-    "Below — why a logo at the start, which types exist, “works / doesn’t work” criteria, and how to order or draft one. Full color, type, and brand-book system — in the identity piece.",
+    "Get one early, pick a type that fits the name and carriers, and decide builder vs freelance vs studio by how serious the brand is. Full color, type, and brand-book system — in the identity article.",
   ],
   faq: [
     {
-      q: "Is a logo = brand identity?",
+      q: "Is a logo the same as brand identity?",
       a: "No. The logo is a part. You still need palette, fonts, and rules for carriers. Otherwise the mark “floats” in every layout.",
     },
     {
-      q: "Can you make a logo in Canva?",
+      q: "Can I make a logo in Canva?",
       a: "Drafts and variants — yes. A final mark with rights, vector, and guideline is better closed with a designer — especially if the brand is serious.",
     },
     {
@@ -27,8 +27,8 @@ export const logotipEn: BlogPost = {
       a: "A guide is 2–3 main ones. Complex gradients and a “rainbow” scale poorly to print and favicon.",
     },
     {
-      q: "Do you need trademark registration?",
-      a: "For a serious brand — yes, separately from “the logo file”. Legal registration ≠ ordering a layout from a designer.",
+      q: "Do I need trademark registration?",
+      a: "For a serious brand — yes, separately from “the logo file.” Legal registration ≠ ordering a layout from a designer.",
     },
     {
       q: "What matters more — uniqueness or simplicity?",
@@ -125,7 +125,7 @@ export const logotipEn: BlogPost = {
     },
   ],
   closing: [
-    "A logo works when it’s simple, recognizable, and aligned with carriers — not when it’s “the most creative in the feed”. Pick the type for the brand, close rights and sources, and gather palette and rules into identity.",
+    "A logo works when it’s simple, recognizable, and aligned with carriers — not when it’s “the most creative in the feed.” Pick the type for the brand, close rights and sources, and gather palette and rules into identity.",
   ],
   related: [
     "aydentika-brenda",

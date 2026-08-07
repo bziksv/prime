@@ -11,7 +11,7 @@ export const turboStranitsyEn: BlogPost = {
     "What Turbo pages and the auto recommendations feed were, why the tech was retired, and what to rely on for mobile UX and monetization now — your own responsive site.",
   lead: [
     "Yandex Turbo pages sped up mobile SERP via lightweight copies in search infrastructure. The auto recommendations feed suggested similar articles and could lift depth on media and blogs.",
-    "By 2025 Turbo in search and related products was wound down: mobile networks and decent responsive sites made a separate “accelerator” less necessary. Below — what the auto feed did (for history and migrations) and where to put effort now.",
+    "By 2025 Turbo in search and related products had shut down: mobile networks and solid responsive sites made a separate “accelerator” less necessary. We cover what the auto feed did (for history and migrations) and where to put effort now.",
   ],
   faq: [
     {
@@ -27,7 +27,7 @@ export const turboStranitsyEn: BlogPost = {
       a: "Media, content portals, and informational blogs with an article stream. Commercial service landings — weaker as a main format.",
     },
     {
-      q: "Should you delete old Turbo feeds?",
+      q: "Should I delete old Turbo feeds?",
       a: "Usually no urgent manual cleanup: sections were turned off centrally. Check that traffic and ads are tied to the main site.",
     },
     {
@@ -35,7 +35,7 @@ export const turboStranitsyEn: BlogPost = {
       a: "Responsive design, Core Web Vitals / mobile speed, light templates, CDN if needed. A separate “search format” is no longer a strategy.",
     },
     {
-      q: "What about AMP?",
+      q: "What about AMP as an alternative?",
       a: "Not required for most commercial sites. Own mobile UX first; AMP is a narrow case, not a default Turbo substitute.",
     },
     {
@@ -43,7 +43,7 @@ export const turboStranitsyEn: BlogPost = {
       a: "Yandex indicated shutdown shouldn’t break traffic distribution to sites if the mobile version is fine. Risk is bad mobile UX, not missing Turbo.",
     },
     {
-      q: "Display ads on Turbo?",
+      q: "Can I show display ads on Turbo pages?",
       a: "Move monetization to your site’s mobile pages (network formats on your URLs). Don’t build new blocks on dead tech.",
     },
   ],
@@ -57,7 +57,7 @@ export const turboStranitsyEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Claimed upsides of the Turbo era:",
+          intro: "Claimed pros of the Turbo era:",
           items: [
             "fast first screen on a phone;",
             "depth growth via “read more”;",
@@ -122,7 +122,7 @@ export const turboStranitsyEn: BlogPost = {
       level: 2,
       paras: [
         "On your site: “read also” blocks, cluster internal linking, infinite scroll or related widgets by tags/embeddings — under your design and analytics.",
-        "Measure depth and revenue on main URLs in Metrica: goals, scroll, finish reading, related clicks. More controllable than depending on a search format.",
+        "Measure depth and revenue on main URLs in Yandex Metrika: goals, scroll, finish reading, related clicks. More controllable than depending on a search format.",
       ],
       lists: [
         {
@@ -130,7 +130,7 @@ export const turboStranitsyEn: BlogPost = {
           items: [
             "related after the article;",
             "in-text internal links;",
-            "handy mobile TOC/nav;",
+            "useful mobile TOC/nav;",
             "ad formats on your own pages.",
           ],
         },

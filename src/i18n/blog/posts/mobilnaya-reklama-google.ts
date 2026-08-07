@@ -5,45 +5,45 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
   slug: "mobilnaya-reklama-google",
   title: "Mobile ads in Google: how to read the numbers",
   date: "2018-10-23",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/mobilnaya-reklama-google/cover-en.webp",
   excerpt:
     "How CTR, CVR, CPC, and CPA differ for mobile Search vs Display, why industry benchmarks age fast, and how to measure efficiency in your own account.",
   lead: [
-    "Mobile ads in Google aren’t “one average market rate” — Search and Display have different economics, plus a wide spread by niche. Public studies (including older WordStream-style reviews across verticals) give order-of-magnitude ranges, not your CPA.",
-    "Below — how to read those benchmarks, how Search differs from Display on mobile, and the minimum metrics to track yourself. Don’t copy 2010s dollar figures from someone else’s PDF into a 2020s media plan without recalculating.",
+    "Mobile ads in Google aren’t “one average market rate” — Search and Display have different economics, plus a wide spread by niche. Public studies (including older WordStream-style reviews across verticals) give approximate ranges, not your CPA.",
+    "How to read those benchmarks, how Search differs from Display on mobile, and the minimum metrics to track yourself. Don’t paste 2010s dollar figures from old roundups into today’s plan.",
   ],
   faq: [
     {
-      q: "Why is Search CTR higher than Display?",
+      q: "Why is Search CTR usually higher than Display?",
       a: "Search has a query and intent. Display shows in content/apps — fewer clicks; cheaper reach and different jobs.",
     },
     {
-      q: "Can you treat someone else’s average CPC as the norm?",
-      a: "Not as dogma. Watch your niche, region, ad quality, and landing. A benchmark is order-of-magnitude, not an SLA.",
+      q: "Can I treat someone else’s average CPC as the norm?",
+      a: "Not as dogma. Watch your niche, region, ad quality, and landing. A benchmark is approximate, not an SLA.",
     },
     {
-      q: "Is mobile CVR always worse than desktop?",
-      a: "Often lower on complex forms, but not a law. Simplify checkout and call; compare device slices in the cabinet.",
+      q: "Is mobile conversion rate always worse than desktop?",
+      a: "Often lower on complex forms, but not a law. Simplify checkout and call; compare device slices in the account.",
     },
     {
-      q: "Mix Search and Display in one campaign?",
+      q: "Should I mix Search and Display in one campaign?",
       a: "Better separate: different goals, bids, and creatives. Otherwise optimization “eats” one channel with the other.",
     },
     {
-      q: "What matters more — CTR or CPA?",
-      a: "For business — CPA/ROMI and lead quality. High CTR with expensive empty clicks is useless.",
+      q: "What matters more for mobile ads — CTR or CPA?",
+      a: "For business — CPA / ROMI (return on marketing investment) and lead quality. High CTR with expensive empty clicks is useless.",
     },
     {
-      q: "Need separate ads for mobile?",
+      q: "Do I need separate ads for mobile?",
       a: "Often yes: shorter offer, call/messenger emphasis, fast landing. Validate in experiments.",
     },
     {
-      q: "How often to refresh benchmarks?",
-      a: "Yours — continuously in the cabinet. External studies — background only; market and auction shift.",
+      q: "How often should I refresh mobile ad benchmarks?",
+      a: "Yours — continuously in the account. External studies — background only; market and auction shift.",
     },
     {
-      q: "Is this tied to SEO?",
+      q: "Is mobile ad performance tied to SEO?",
       a: "Not directly. Indirectly: the same landings and mobile UX affect organic and ads.",
     },
   ],
@@ -52,16 +52,16 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
       title: "What people usually call “efficiency”",
       level: 2,
       paras: [
-        "Base set: CTR (clickability), CVR (click-to-conversion), CPC (cost per click), CPA (cost per goal). Sometimes mobile traffic share and lead quality.",
+        "Base set: CTR (click-through rate), CVR (click-to-conversion), CPC (cost per click), CPA (cost per goal). Sometimes mobile traffic share and lead quality.",
         "Multi-industry studies often show: Search delivers clearly higher CTR and CVR at a pricier click; Display — low CTR, cheap click, and another job profile (reach, retarget, top of funnel).",
       ],
       lists: [
         {
           intro: "Don’t mix:",
           items: [
-            "Search campaigns and Display;",
-            "brand and non-brand queries;",
-            "mobile and desktop without a slice;",
+            "Search campaigns and Display",
+            "brand and non-brand queries",
+            "mobile and desktop without a slice",
             "someone else’s average $ and your region/currency.",
           ],
         },
@@ -82,11 +82,11 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Practice in the cabinet:",
+          intro: "Practice in the account:",
           items: [
-            "separate campaigns/budgets;",
-            "own goals (lead vs reach);",
-            "frequency and placements in Display;",
+            "separate campaigns/budgets",
+            "own goals (lead vs reach)",
+            "frequency and placements in Display",
             "mobile-friendly landing for both.",
           ],
         },
@@ -109,9 +109,9 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
         {
           intro: "Before launch lock:",
           items: [
-            "goal action and its value;",
-            "max CPA;",
-            "mobile share in your niche;",
+            "goal action and its value",
+            "max CPA",
+            "mobile share in your niche",
             "Search vs Display hypothesis.",
           ],
         },
@@ -128,9 +128,9 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
         {
           intro: "Mini report:",
           items: [
-            "spend / clicks / CTR mobile;",
-            "conversions and CPA;",
-            "top ads and landings;",
+            "spend / clicks / CTR mobile",
+            "conversions and CPA",
+            "top ads and landings",
             "decisions: bid, negatives, creative, UX.",
           ],
         },
@@ -157,9 +157,9 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
         {
           intro: "Order:",
           items: [
-            "mobile landing;",
-            "goals in analytics;",
-            "test Search, then Display/retarget;",
+            "mobile landing",
+            "goals in analytics",
+            "test Search, then Display/retarget",
             "don’t confuse ad CPA with an SEO TOP promise.",
           ],
         },
@@ -173,7 +173,7 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
       notes: [
         {
           title: "About studies",
-          text: "CTR/CPC/CPA summaries from older English reports illustrate order of magnitude. For planning use fresh data from your cabinet and region.",
+          text: "CTR/CPC/CPA summaries from older English reports illustrate rough ranges. For planning use fresh data from your account and region.",
           kind: "tip",
         },
       ],

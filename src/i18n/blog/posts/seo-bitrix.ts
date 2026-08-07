@@ -11,7 +11,7 @@ export const seoBitrixEn: BlogPost = {
     "What the built-in 1C-Bitrix SEO module gives you, how to handle robots.txt, meta templates, and counters carefully — without treating Marketplace paid modules as the only solution.",
   lead: [
     "1C-Bitrix covers many jobs out of the box, but SEO doesn’t configure itself: you need robots/sitemap, title/description templates, clean URLs, counters, and duplicate control.",
-    "Below — a baseline contour for a Bitrix portal. Menu items and module names shift between editions — follow the current admin UI and docs.",
+    "Here’s a baseline SEO setup for a Bitrix portal. Menu labels and module names shift between editions—follow the current admin UI and docs.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const seoBitrixEn: BlogPost = {
       a: "For a start often yes: meta, properties, some reports. Take paid modules only for a specific gap — not “a pack for SEO.”",
     },
     {
-      q: "Edit robots.txt in Bitrix by hand?",
+      q: "Should I edit robots.txt in Bitrix by hand?",
       a: "Yes, if the template/module serves a wrong file. After edits, check in Webmaster tools. See also the closing from indexing article.",
     },
     {
@@ -31,7 +31,7 @@ export const seoBitrixEn: BlogPost = {
       a: "Here — CMS settings. A tech audit looks at server responses, speed, and the index more broadly, not only the Bitrix panel.",
     },
     {
-      q: "Can you promote a site with modules alone?",
+      q: "Can I promote a site with modules alone?",
       a: "No. Modules help manage fields; rankings come from content, links, tech, and demand.",
     },
   ],
@@ -131,7 +131,7 @@ export const seoBitrixEn: BlogPost = {
           intro: "After baseline setup:",
           items: [
             "reconcile sitemap with the index;",
-            "close service duplicates;",
+            "noindex service duplicates;",
             "smoke-test key card templates;",
             "lock a Bitrix update checklist.",
           ],

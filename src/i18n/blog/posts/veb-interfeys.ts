@@ -5,33 +5,33 @@ export const vebInterfeysEn: BlogPost = {
   slug: "veb-interfeys",
   title: "Web interface: what it is and where you meet it",
   date: "2021-03-11",
-  category: "Blog",
+  category: "Digital marketing",
   cover: "/images/blog/veb-interfeys/cover-en.webp",
   excerpt:
     "What a web interface is: using a service in the browser instead of a local app — mail, hosting panel, router, cloud. Why teams build it that way, and why it isn’t “just a website.”",
   lead: [
     "A web interface is the set of browser pages through which a person controls a service or a device on a server: buttons, forms, menus, status. It isn’t necessarily a company’s public site — it’s an access shell.",
-    "Below — the meaning of the term and typical examples: webmail, router panel, hosting, cloud. Commercial-site usability and a store account are related; here the focus is the idea of web UI itself.",
+    "Think webmail, a router panel, hosting control, or a cloud console: actions happen in the browser without a thick install. Commercial-site usability and a store account are related; here the focus is the idea of web UI itself.",
   ],
   faq: [
     {
       q: "Is a web interface the same as a website?",
-      a: "A site is a special case. Web UI is broader: hosting admin, billing cabinet, router settings page are web UI too.",
+      a: "A site is a special case. Web UI is broader: hosting admin, billing ads account, router settings page are web UI too.",
     },
     {
       q: "How does it differ from a desktop app?",
       a: "Logic and data live on the server (or in firmware with HTTP access); the client needs a browser and a network, not a thick install — though desktop clients haven’t disappeared.",
     },
     {
-      q: "Is it the same as an API / web service?",
-      a: "No. An API is a contract for programs. A web interface is for people. Many products ship both.",
+      q: "Is it the same as an API or web service?",
+      a: "No. An API is a contract for programs. A web interface is for people. Many products offer both.",
     },
     {
       q: "Is opening a router panel safe?",
       a: "Only on a trusted network, after changing the factory password, and without exposing admin to the open internet unprotected.",
     },
     {
-      q: "Are Plesk / cPanel web interfaces?",
+      q: "Are Plesk and cPanel web interfaces?",
       a: "Yes: graphical hosting control panels in the browser.",
     },
     {
@@ -40,11 +40,11 @@ export const vebInterfeysEn: BlogPost = {
     },
     {
       q: "How does this relate to a site account?",
-      a: "A customer account is a typical web UI. A separate piece covers account jobs in marketing and product.",
+      a: "A customer account is a typical web UI. A separate article covers account jobs in marketing and product.",
     },
     {
       q: "Does it affect SEO?",
-      a: "Public pages — yes, under the usual rules. Closed cabinets are usually noindex; SEO is secondary there.",
+      a: "Public pages — yes, under the usual rules. Closed dashboards are usually noindex; SEO is secondary there.",
     },
   ],
   sections: [
@@ -59,11 +59,11 @@ export const vebInterfeysEn: BlogPost = {
       links: [
         {
           label: "Web services and APIs",
-          href: "/blog/veb-servisy/",
+          href: "/en/blog/veb-servisy/",
         },
         {
           label: "Customer account",
-          href: "/blog/lichnyy-kabinet/",
+          href: "/en/blog/lichnyy-kabinet/",
         },
       ],
     },
@@ -88,7 +88,7 @@ export const vebInterfeysEn: BlogPost = {
       paras: [
         "Routers and some cameras expose settings over HTTP(S): open a LAN gateway address, sign in, change Wi‑Fi and DHCP.",
         "People used to edit via Telnet/CLI more often. A web shell lowers the bar but doesn’t remove caution: factory passwords and “admin on the open internet” are a bad idea.",
-        "Exact URL and login are on the sticker / model manual — don’t copy someone else’s screenshots.",
+        "Exact URL and login are on the sticker or model manual — don’t copy someone else’s screenshots.",
       ],
       lists: [],
     },
@@ -103,12 +103,12 @@ export const vebInterfeysEn: BlogPost = {
       links: [
         {
           label: "Hosting",
-          href: "/blog/hosting/",
+          href: "/en/blog/hosting/",
         },
       ],
     },
     {
-      title: "Cloud storage and cabinets",
+      title: "Cloud storage and dashboards",
       level: 2,
       paras: [
         "A drive in the browser, cloud billing, a SaaS console — again web UI: files, permissions, quotas without installing a client (the client is optional).",
@@ -118,11 +118,11 @@ export const vebInterfeysEn: BlogPost = {
       links: [
         {
           label: "Yandex Disk",
-          href: "/blog/yandeks-disk/",
+          href: "/en/blog/yandeks-disk/",
         },
         {
           label: "Website usability",
-          href: "/blog/yuzabiliti/",
+          href: "/en/blog/yuzabiliti/",
         },
       ],
     },
@@ -130,9 +130,9 @@ export const vebInterfeysEn: BlogPost = {
       title: "What to remember",
       level: 2,
       paras: [
-        "A web interface means controlling a service/device through the browser.",
+        "A web interface means controlling a service or device through the browser.",
         "Examples: mail, router, hosting panel, cloud, account area.",
-        "Don’t confuse it with an API for programs or a public marketing site with no actions.",
+        "Don’t mix it up with an API for programs or a public marketing site with no actions.",
       ],
       lists: [],
     },

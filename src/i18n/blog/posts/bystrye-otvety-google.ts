@@ -5,37 +5,37 @@ export const bystryeOtvetyGoogleEn: BlogPost = {
   slug: "bystrye-otvety-google",
   title: "Google featured snippets: how to get in and what to watch",
   date: "2019-07-19",
-  category: "Internet marketing",
+  category: "SEO",
   cover: "/images/blog/bystrye-otvety-google/cover-en.webp",
   excerpt:
     "How Google’s featured snippet block works: formats, the role of question long-tails, answer structure on the page — with no “position zero” guarantee and an eye on AI Overviews.",
   lead: [
     "A featured snippet is a highlighted Google results block with a short answer from a page: paragraph, list, table, sometimes video. People often call it “position zero”, though it’s not a classic top-ten slot.",
-    "Below — what raises the odds, how to gather question long-tails, and how to format the answer. Title/description and schema are in the snippet piece; the SERP changes (including AI Overviews) — no guarantees.",
+    "Featured snippets and quick answers favor clear question long-tails and a crisp answer block near the top. Title/description and schema are in the snippet piece; the SERP changes (including AI Overviews) — no guarantees. Prep isn’t TOP; visibility builds over months of work.",
   ],
   faq: [
     {
-      q: "Is this the same as a regular snippet?",
+      q: "Is a featured snippet the same as a regular snippet?",
       a: "No. A regular snippet is title + description on a result. A featured snippet is a separate answer block, often above organic.",
     },
     {
-      q: "Do you need to be in TOP-3?",
+      q: "Do you need to be in TOP-3 for a featured snippet?",
       a: "Pages already visible for the query are taken more often, but not always #1. Without relevance and basic visibility the odds are weak.",
     },
     {
-      q: "How many characters in the answer?",
+      q: "How many characters should the answer block have?",
       a: "A cue is a short paragraph (about 40–60 words), not a wall of text. Exact limits float; what matters is a clear answer right under the question.",
     },
     {
-      q: "Is FAQ markup enough?",
+      q: "Is FAQ markup enough to win a featured snippet?",
       a: "FAQPage can unlock another rich type. For a featured snippet the on-page text and structure matter more than JSON-LD alone.",
     },
     {
-      q: "What about AI Overviews?",
+      q: "What about AI Overviews versus featured snippets?",
       a: "Google tests and shows summarized answers. Classic featured snippets aren’t gone everywhere, but competition for zero-click grew. Watch Search Console and the SERP for your core.",
     },
     {
-      q: "Is long-tail alone enough?",
+      q: "Is long-tail keyword targeting alone enough?",
       a: "Question low-frequency queries are a good entry. You still need a full piece, clear structure, and value after the click.",
     },
   ],

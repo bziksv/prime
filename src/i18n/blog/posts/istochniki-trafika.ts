@@ -5,22 +5,22 @@ export const istochnikiTrafikaEn: BlogPost = {
   slug: "istochniki-trafika",
   title: "Main website traffic sources: what to test",
   date: "2019-12-26",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/istochniki-trafika/cover-en.webp",
   excerpt:
     "A channel overview: organic, paid search, directories and aggregators, classifieds, social, email, display and ad networks — pros, cons, and a sane test order.",
   lead: [
-    "There’s no “magic” traffic source: channels differ in speed, cost, and control. Beginners often grab a fresh lifehack without a landing or lead tracking — then conclude “the channel doesn’t work”.",
-    "Below — main source families, strengths and weaknesses. Choice depends on niche, average check, and sales cycle; there’s no universal “best channel” ranking.",
+    "There’s no magic traffic source: channels differ in speed, cost, and control. Beginners often grab a fresh tip without a landing or lead tracking — then conclude “the channel doesn’t work.”",
+    "Each source family has strengths and weaknesses. The right mix depends on niche, average order value, and sales cycle; there’s no universal “best channel” ranking.",
   ],
   faq: [
     {
-      q: "Which channel to start with?",
+      q: "Which channel should you start with?",
       a: "Wherever you can validate demand fastest on your budget: often paid search or niche classifieds/aggregators. Prep organic in parallel — it ramps longer.",
     },
     {
       q: "Is organic free?",
-      a: "No pay-per-click — yes, but you pay with work and time. Site prep — about a month; core TOP growth is planned for 2–6 months, not “tomorrow after publish”.",
+      a: "No pay-per-click — yes, but you pay with work and time. Site prep takes about a month; climbing TOP for the keyword set is planned for 2–6 months — not “tomorrow after you publish.”",
     },
     {
       q: "Does paid search always burn budget?",
@@ -28,7 +28,7 @@ export const istochnikiTrafikaEn: BlogPost = {
     },
     {
       q: "Are social networks free traffic?",
-      a: "Organic posts rarely feed commerce alone. A community needs content; ads need budget. Don’t confuse “create a group” with “get leads”.",
+      a: "Organic posts rarely feed commerce alone. A community needs content; ads need budget. Don’t confuse “create a group” with “get leads.”",
     },
     {
       q: "Why email if you have ads?",
@@ -36,7 +36,7 @@ export const istochnikiTrafikaEn: BlogPost = {
     },
     {
       q: "How do you know a channel is yours?",
-      a: "Not by “everyone does it”, but by CPA/ROMI and lead quality after an honest test with a goal and UTMs.",
+      a: "Not by “everyone does it,” but by CPA/ROMI and lead quality after an honest test with a goal and UTMs.",
     },
   ],
   sections: [
@@ -44,15 +44,15 @@ export const istochnikiTrafikaEn: BlogPost = {
       title: "Organic search",
       level: 2,
       paras: [
-        "Search on a semantic core: pages answer queries, the site is technically healthy, content is maintained. It’s a long game: slow ramp, then inertia if quality doesn’t slip.",
-        "Don’t expect instant TOP after edits. First prep (tech, copy, structure — about a month), then ranking growth planned for 2–6 months. Without new materials and fixes, positions weaken over time.",
+        "Search on a keyword set: pages answer queries, the site is technically healthy, content is maintained. It’s a long game: slow ramp, then inertia if quality doesn’t slip.",
+        "Don’t expect instant TOP after edits. First prep (tech, copy, structure — about a month), then ranking growth planned over 2–6 months. Without new materials and fixes, positions weaken over time.",
       ],
       lists: [
         {
           intro: "Pros / cons:",
           items: [
             "+ no pay-per-click; effect can last years;",
-            "− slow start; harder to “turn the volume tap”;",
+            "− slow start; harder to turn the volume tap;",
             "− needs ongoing work and SERP competition.",
           ],
         },
@@ -115,7 +115,7 @@ export const istochnikiTrafikaEn: BlogPost = {
       title: "Classified boards",
       level: 2,
       paras: [
-        "Classifieds — demand for goods and services “here and now”. In niches with a high check and expensive paid search they sometimes deliver a cheaper lead with a solid listing and manager reply.",
+        "Classifieds — demand for goods and services here and now. In niches with a high check and expensive paid search they sometimes deliver a cheaper lead with a solid listing and manager reply.",
         "A free basic format hits competition fast; in-platform promotion is a separate budget. Results are less predictable than a search-ads account.",
       ],
     },
@@ -123,8 +123,8 @@ export const istochnikiTrafikaEn: BlogPost = {
       title: "Social: community and ads",
       level: 2,
       paras: [
-        "Two different contours. Community — long content and trust; creating a group alone isn’t traffic. Social ads — fast reach by interests and lookalike logic, but not for every B2B purchase with a narrow decision-maker.",
-        "Count lead cost and dialogue quality, not only followers. Organic without regular posts “goes to sleep” even with a loyal base.",
+        "Two different tracks. Community — long content and trust; creating a group alone isn’t traffic. Social ads — fast reach by interests and lookalike logic, but not for every B2B purchase with a narrow decision-maker.",
+        "Count lead cost and dialogue quality, not only followers. Organic without regular posts goes to sleep even with a loyal base.",
       ],
       lists: [
         {
@@ -133,7 +133,7 @@ export const istochnikiTrafikaEn: BlogPost = {
             "+ community: low cash entry barrier;",
             "+ ads: fast creative and offer tests;",
             "− content and moderation take time;",
-            "− not every product is found via “interests”.",
+            "− not every product is found via interests.",
           ],
         },
       ],
@@ -148,7 +148,7 @@ export const istochnikiTrafikaEn: BlogPost = {
       title: "Email lists and newsletters",
       level: 2,
       paras: [
-        "Consent-based email: content (news, usefulness) and triggers (abandoned cart, post-purchase, reactivation). It’s a repeat-touch channel, not a “magic source of new people off the street”.",
+        "Consent-based email: content (news, usefulness) and triggers (abandoned cart, post-purchase, reactivation). It’s a repeat-touch channel, not a magic source of new people off the street.",
         "Lists take months to build (lead magnet, forms, quiz); launching a series to a ready list takes days. Unsubscribes are normal: inflow should beat outflow.",
       ],
       lists: [
@@ -168,7 +168,7 @@ export const istochnikiTrafikaEn: BlogPost = {
       level: 2,
       paras: [
         "Banners and articles on third-party sites, teaser and display networks, network remarketing. Direct placements are harder to measure; networks give an account and stats, but less control over the specific publisher site.",
-        "Network retarget chases people who already visited — it strengthens the funnel, it doesn’t replace first contact. Compare to search by CPA, not “pretty reach”.",
+        "Network retarget chases people who already visited — it strengthens the funnel, it doesn’t replace first contact. Compare to search by CPA, not “pretty reach.”",
       ],
       links: [
         {
@@ -186,7 +186,7 @@ export const istochnikiTrafikaEn: BlogPost = {
       level: 2,
       paras: [
         "Landing, offer, and lead tracking first — then channel budget. Test sequentially or with narrow parallel hypotheses; lock UTMs and test length in advance.",
-        "One channel rarely covers everything: organic and the list build assets; paid channels give speed. The outcome is a mix under margin — not “every channel at once on pennies”.",
+        "One channel rarely covers everything: organic and the list build assets; paid channels give speed. The outcome is a mix under margin — not every channel at once on a shoestring.",
       ],
       notes: [
         {
@@ -204,7 +204,7 @@ export const istochnikiTrafikaEn: BlogPost = {
     },
   ],
   closing: [
-    "Traffic sources differ in speed and cost of error. Prep measurement, test 1–2 niche-fit channels, and scale what delivers quality leads — without chasing “free forever”.",
+    "Traffic sources differ in speed and cost of error. Prep measurement, test 1–2 niche-fit channels, and scale what delivers quality leads — without chasing “free forever.”",
   ],
   related: [
     "brendovyy-trafik",

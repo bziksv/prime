@@ -11,20 +11,20 @@ export const uznatCmsEn: BlogPost = {
     "How to identify a site engine from HTML, meta generator, paths, cookies, and online detectors — and what to do if the CMS is hidden or custom.",
   lead: [
     "Knowing a competitor’s or another project’s CMS helps estimate the stack, plugins, and typical SEO limits. That’s open-signal reconnaissance — not hacking.",
-    "Below — manual code review, what to check in robots and URLs, online detectors, and why “nothing found” often means custom or a well-hidden generator.",
+    "Start with HTML and Network paths, cross-check robots and cookies, then confirm with one or two detectors. “Nothing found” often means custom code or a well-hidden generator — not a broken tool.",
   ],
   faq: [
     {
       q: "Why know the CMS?",
-      a: "To understand URL templates, typical SEO modules, how fast edits ship, and risks (outdated plugins). For a bid — estimate work complexity.",
+      a: "To understand URL templates, typical SEO modules, how fast edits go live, and risks (outdated plugins). For a bid — estimate work complexity.",
     },
     {
       q: "Is it legal?",
-      a: "Reading public HTML/headers is normal practice. Breaking into admin, brute force, and exploits — no.",
+      a: "Reading public HTML and headers is normal practice. Breaking into admin, brute force, and exploits are not.",
     },
     {
       q: "Is meta generator always there?",
-      a: "No. WordPress and others often disable it. Missing generator doesn’t mean “not a CMS”.",
+      a: "No. WordPress and others often disable it. Missing generator doesn’t mean “not a CMS.”",
     },
     {
       q: "Which CMS get detected most?",
@@ -32,7 +32,7 @@ export const uznatCmsEn: BlogPost = {
     },
     {
       q: "Do tools get it wrong?",
-      a: "Yes. Cross-check 2 sources and the code by eye. Custom Laravel/Next may show as “unknown”.",
+      a: "Yes. Cross-check two sources and the code by eye. Custom Laravel/Next may show as “unknown.”",
     },
     {
       q: "Does robots.txt help?",
@@ -43,7 +43,7 @@ export const uznatCmsEn: BlogPost = {
       a: "Names like `PHPSESSID`, `BITRIX_SM_…`, `wp-settings-` are hints, not a verdict.",
     },
     {
-      q: "If nothing is visible?",
+      q: "What if nothing is visible?",
       a: "Likely custom, headless, or heavily cleaned markers. Then look at the stack via JS bundles and server headers — carefully, without vulnerability scanning.",
     },
   ],
@@ -71,7 +71,7 @@ export const uznatCmsEn: BlogPost = {
         {
           title: "Common mistake",
           kind: "tip",
-          text: "Seeing jQuery and deciding it’s a “jQuery engine”. A library ≠ a CMS.",
+          text: "Seeing jQuery and deciding it’s a “jQuery engine.” A library ≠ a CMS.",
         },
       ],
       links: [
@@ -86,7 +86,7 @@ export const uznatCmsEn: BlogPost = {
       level: 2,
       paras: [
         "`/robots.txt` and the sitemap sometimes contain admin paths or system directories. Pretty URLs like `/index.php?route=` hint at OpenCart; `/blog/2020/05/post/` often WP — but not always.",
-        "`X-Powered-By`, cookie names, login redirects — extra clues. Don’t confuse the web server (nginx) with the CMS.",
+        "`X-Powered-By`, cookie names, login redirects — extra clues. Don’t mix up the web server (nginx) with the CMS.",
       ],
       lists: [
         {
@@ -109,12 +109,12 @@ export const uznatCmsEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Practice:",
+          intro: "Practical tips:",
           items: [
             "run the URL in 1–2 tools;",
             "confirm with code markers;",
             "record a version only if it’s explicit;",
-            "don’t scan the admin with vulnerability scanners “while you’re at it”.",
+            "don’t scan the admin with vulnerability scanners “while you’re at it.”",
           ],
         },
       ],
@@ -167,7 +167,7 @@ export const uznatCmsEn: BlogPost = {
       level: 2,
       paras: [
         "The goal is to understand the platform for analysis and scoping. Don’t use CMS knowledge to hunt holes, guess passwords, or attack. For your own site, check the admin and hosting docs — more reliable than any detector.",
-        "In a client report write: “markers X look like Y; confirm with access”.",
+        "In a client report write: “markers X look like Y; confirm with access.”",
       ],
       lists: [
         {
@@ -183,7 +183,7 @@ export const uznatCmsEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Practice",
+          title: "Tip",
           kind: "tip",
           text: "“Detect CMS” ≠ get access. Public markers are the ceiling of legal recon.",
         },

@@ -8,10 +8,10 @@ export const mobilnyyPoiskEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/mobilnyy-poisk/cover-en.webp",
   excerpt:
-    "How the mobile SERP differs from desktop, why check ranks and UX on a phone, adaptive vs m-site, and what to do with speed after the Turbo/AMP hype faded.",
+    "How the mobile SERP differs from desktop, why check ranks and UX on a phone, responsive vs m-site, and what to do with speed after the Turbo/AMP hype faded.",
   lead: [
-    "A large share of search traffic comes from smartphones. Mobile-first indexing and separate blocks in the mobile SERP make “PC-only checks” a blind spot: ranks, snippets, and phone usability can diverge from desktop.",
-    "Below — SERP differences, how to check and adapt the site, when adaptive is enough and when speed needs focus, and how not to build strategy on outdated accelerators like Turbo.",
+    "A large share of search traffic comes from smartphones. Mobile-first indexing and separate blocks in the mobile SERP make “desktop-only checks” a blind spot: ranks, snippets, and phone usability can diverge from desktop.",
+    "SERP differences, how to check and adapt the site, when responsive is enough and when speed needs focus, and how not to build strategy on outdated AMP-style acceleration formats.",
   ],
   faq: [
     {
@@ -19,32 +19,32 @@ export const mobilnyyPoiskEn: BlogPost = {
       a: "Not always. Different devices, behavior, and blocks (including quick answers, maps). Ranks for one query can differ.",
     },
     {
-      q: "Is Mobile-First mandatory?",
+      q: "Is Mobile-First Index mandatory?",
       a: "For Google the mobile version has long been the indexing base. In Yandex mobility is in the formula too. Broken smartphone UX = risk.",
     },
     {
-      q: "Adaptive or a separate m-site?",
-      a: "Default: adaptive on one URL. A separate m. is legacy with duplicate and drift risks.",
+      q: "Should I use responsive design or a separate m-site?",
+      a: "Default: responsive on one URL. A separate m. is legacy with duplicate and drift risks.",
     },
     {
-      q: "Do you need Turbo pages?",
+      q: "Do I need Turbo pages?",
       a: "No: the format is off in search. Invest in speed and responsive on your own site.",
     },
     {
-      q: "Does everyone need AMP?",
+      q: "Does every site need AMP?",
       a: "No. Correct mobile and Core Web Vitals first; AMP — point-wise.",
     },
     {
-      q: "How often to pull mobile ranks?",
+      q: "How often should I pull mobile rankings?",
       a: "On the priority core — regularly (weekly / after updates). Watch cluster dynamics, not one phrase.",
     },
     {
-      q: "Is a Mobile-Friendly test enough?",
+      q: "Is a Mobile-Friendly test enough for mobile SEO?",
       a: "That’s the base. Add speed, real phones, forms, and key templates in mobile analytics.",
     },
     {
-      q: "When to expect growth from mobile fixes?",
-      a: "UX and conversion can improve fast. Competitive-core ranks — planned months of work, not “TOP next week”.",
+      q: "When should I expect growth from mobile fixes?",
+      a: "UX and conversion can improve fast. Competitive-core rankings are planned for 2–6 months after systematic work starts — not “TOP next week.”",
     },
   ],
   sections: [
@@ -59,9 +59,9 @@ export const mobilnyyPoiskEn: BlogPost = {
         {
           intro: "Risks of “desktop only”:",
           items: [
-            "different ranks and snippets;",
-            "high bounce on smartphone;",
-            "lost local and “on the go” queries;",
+            "different ranks and snippets",
+            "high bounce on smartphone",
+            "lost local and “on the go” queries",
             "weak conversion from the phone.",
           ],
         },
@@ -84,9 +84,9 @@ export const mobilnyyPoiskEn: BlogPost = {
         {
           intro: "Watch separately:",
           items: [
-            "mobile vs desktop ranks;",
-            "snippet CTR on smartphone;",
-            "local and “near me” queries;",
+            "mobile vs desktop ranks",
+            "snippet CTR on smartphone",
+            "local and “near me” queries",
             "featured/quick answers on info clusters.",
           ],
         },
@@ -109,10 +109,10 @@ export const mobilnyyPoiskEn: BlogPost = {
         {
           intro: "Practice:",
           items: [
-            "mobile slice in Metrica/GA;",
-            "audit of main templates;",
-            "HTTPS and a proper viewport;",
-            "Search Console / Webmaster — mobile errors;",
+            "mobile slice in Metrica/GA",
+            "audit of main templates",
+            "HTTPS and a proper viewport",
+            "Search Console / Webmaster — mobile errors",
             "regular mobile rank pulls on the core.",
           ],
         },
@@ -136,7 +136,7 @@ export const mobilnyyPoiskEn: BlogPost = {
       ],
     },
     {
-      title: "Adaptive or a separate mobile version",
+      title: "Responsive design or a separate mobile version",
       level: 2,
       paras: [
         "Adaptive (responsive): one URL, layout by screen width. Easier to maintain, fewer duplicates, the usual path for CMS.",
@@ -146,9 +146,9 @@ export const mobilnyyPoiskEn: BlogPost = {
         {
           intro: "Why adaptive more often:",
           items: [
-            "one canonical URL;",
-            "less content drift;",
-            "faster to ship on an existing CMS;",
+            "one canonical URL",
+            "less content drift",
+            "faster to ship on an existing CMS",
             "simpler analytics and links.",
           ],
         },
@@ -171,9 +171,9 @@ export const mobilnyyPoiskEn: BlogPost = {
         {
           intro: "Speed focus:",
           items: [
-            "LCP/INP on mobile;",
-            "hero and above-the-fold weight;",
-            "defer what’s extra;",
+            "LCP/INP on mobile",
+            "hero and above-the-fold weight",
+            "defer what’s extra",
             "CDN for geography/peaks.",
           ],
         },
@@ -200,9 +200,9 @@ export const mobilnyyPoiskEn: BlogPost = {
         {
           intro: "Rhythm:",
           items: [
-            "weekly: mobile errors in cabinets;",
-            "per release: smoke key URLs on a phone;",
-            "monthly: mobile ranks on the core + CR;",
+            "weekly: mobile errors in accounts",
+            "per release: smoke key URLs on a phone",
+            "monthly: mobile ranks on the core + CR",
             "quarterly: speed of top landings.",
           ],
         },

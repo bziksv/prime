@@ -6,13 +6,13 @@ export const cmsInternetMagazinaEn: BlogPost = {
   title:
     "CMS for an online store: downsides of Bitrix, Magento, OpenCart, WooCommerce, and CS-Cart",
   date: "2019-03-15",
-  category: "Internet marketing",
+  category: "E-commerce",
   cover: "/images/blog/cms-internet-magazina/cover-en.webp",
   excerpt:
-    "How to pick a CMS for an online store with typical downsides in mind: 1C-Bitrix, Magento, OpenCart, WooCommerce, and CS-Cart — without 2019 price lists and the myth “the engine alone ranks you in the TOP”.",
+    "How to pick a CMS for an online store with typical downsides in mind: 1C-Bitrix, Magento, OpenCart, WooCommerce, and CS-Cart — without 2019 price lists and the myth that the engine alone ranks you in the TOP.",
   lead: [
-    "A store CMS is the admin for catalog, orders, payments, and content. Every popular platform has strengths and a compromise cost: license, hosting, SEO hygiene, customization, team.",
-    "Below — typical downsides of the five platforms most often asked about on RU projects. We don’t copy 2019 license figures or “module for $N”: check current vendor pricing. The engine doesn’t replace SEO and UX; core rankings take planned months of work — not “installed OpenCart = TOP”.",
+    "A store CMS is the admin for catalog, orders, payments, and content. Every popular platform has strengths and a cost trade-off: license, hosting, SEO hygiene, customization, team.",
+    "This guide covers typical downsides of the five platforms teams ask about most on RU projects. We don’t copy 2019 license figures or “module for $N”: check current vendor pricing. The engine doesn’t replace SEO and UX; rankings on the keyword set take a planned 2–6 months of work — not “installed OpenCart = TOP.”",
   ],
   faq: [
     {
@@ -21,19 +21,19 @@ export const cmsInternetMagazinaEn: BlogPost = {
     },
     {
       q: "Is a free CMS always cheaper?",
-      a: "Entry is often cheaper; finish work costs more: modules, hosting, security, a developer. Count TCO over 1–2 years.",
+      a: "Entry is often cheaper; finish work costs more: modules, hosting, security, a developer. Count TCO (total cost of ownership) over 1–2 years.",
     },
     {
       q: "What matters more for SEO — CMS or content?",
       a: "Content, tech, and links beat the engine brand. The CMS must not get in the way: clean URLs, speed, indexing, structured data.",
     },
     {
-      q: "How do you detect a competitor’s CMS?",
-      a: "From open HTML/path clues — in a separate article. Not by hacking the admin.",
+      q: "How do I detect a competitor’s CMS?",
+      a: "From open HTML and path clues — covered in a separate article. Not by hacking the admin.",
     },
     {
-      q: "Change CMS after launch?",
-      a: "Expensive and risky for SEO/URLs. Better to choose closer to requirements at the start than “migrate in a year”.",
+      q: "Should I change CMS after launch?",
+      a: "Expensive and risky for SEO and URLs. Better to choose closer to requirements at the start than migrate in a year.",
     },
   ],
   sections: [
@@ -51,7 +51,7 @@ export const cmsInternetMagazinaEn: BlogPost = {
             "SKU count and filters;",
             "payment / shipping / 1C integrations;",
             "who edits the catalog daily;",
-            "budget for licenses + build + hosting;",
+            "budget for licenses, build, and hosting;",
             "SEO plan: clean URLs, canonicals, speed.",
           ],
         },
@@ -115,7 +115,7 @@ export const cmsInternetMagazinaEn: BlogPost = {
       level: 2,
       paras: [
         "Entry pluses: easy start and a large community. Downsides: SEO hygiene (duplicates, canonicals, clean URLs) often needs modules and careful setup; free themes vary in quality; on large catalogs performance hits hosting and code limits.",
-        "“Doesn’t work with search” as an absolute is overstated. It works if you close tech; without that you easily get junk URLs and duplicates.",
+        "“Doesn’t work with search” as an absolute is overstated. It works if you handle the tech; without that you easily get junk URLs and duplicates.",
       ],
       lists: [
         {
@@ -124,7 +124,7 @@ export const cmsInternetMagazinaEn: BlogPost = {
             "canonicals and duplicates;",
             "clean URLs and redirects after modules;",
             "security updates;",
-            "catalog size / load limits.",
+            "catalog size and load limits.",
           ],
         },
       ],
@@ -133,7 +133,7 @@ export const cmsInternetMagazinaEn: BlogPost = {
       title: "WooCommerce",
       level: 2,
       paras: [
-        "A store as a WordPress plugin: familiar ecosystem and lots of extensions. Downsides: “free” quickly sprouts paid modules; plugin conflicts; hosting load with a heavy theme and cache “as it happened”.",
+        "A store as a WordPress plugin: familiar ecosystem and lots of extensions. Downsides: “free” quickly sprouts paid modules; plugin conflicts; hosting load with a heavy theme and cache set up ad hoc.",
         "Payments and local RU flows need a separate check — don’t copy a Western box without testing. An old “third of the market” share isn’t an argument for your case.",
       ],
       lists: [
@@ -142,7 +142,7 @@ export const cmsInternetMagazinaEn: BlogPost = {
           items: [
             "plugin zoo;",
             "speed on shared hosting;",
-            "WP + plugins security;",
+            "WP plus plugins security;",
             "hard checkout customization.",
           ],
         },
@@ -152,7 +152,7 @@ export const cmsInternetMagazinaEn: BlogPost = {
       title: "CS-Cart",
       level: 2,
       paras: [
-        "A commercial CMS with strong store features “in the base”. Downsides: license and option price, support/update model (terms change — read the contract), some paid modules.",
+        "A commercial CMS with strong store features in the base package. Downsides: license and option price, support and update model (terms change — read the contract), some paid modules.",
         "Checkout UX and required order fields affect conversion more than the CMS brand: budget funnel testing, not only price comparison.",
       ],
       notes: [
@@ -167,8 +167,8 @@ export const cmsInternetMagazinaEn: BlogPost = {
       title: "How to choose without fanaticism",
       level: 2,
       paras: [
-        "Gather requirements → cut platforms that clearly can’t do integrations → compare TCO and developer availability → prototype catalog and checkout.",
-        "For SEO, clean URLs, speed, index, and content beat “which CMS is trendy”. Changing the engine later is almost always more expensive than choosing well now.",
+        "Gather requirements → cut platforms that clearly can’t do the integrations → compare TCO and developer availability → prototype catalog and checkout.",
+        "For SEO, clean URLs, speed, index, and content beat “which CMS is trendy.” Changing the engine later is almost always more expensive than choosing well now.",
       ],
       links: [
         {
@@ -183,7 +183,7 @@ export const cmsInternetMagazinaEn: BlogPost = {
     },
   ],
   closing: [
-    "Bitrix, Magento, OpenCart, WooCommerce, and CS-Cart have different entry costs and different pitfalls. Choose for catalog, 1C, and the support team — and budget SEO/speed into the project instead of hoping the “right engine” alone brings TOP rankings.",
+    "Bitrix, Magento, OpenCart, WooCommerce, and CS-Cart have different entry costs and different pitfalls. Choose for catalog, 1C, and the support team — and budget SEO and speed into the project instead of hoping the “right engine” alone brings TOP rankings.",
   ],
   related: [
     "start-internet-magazina",

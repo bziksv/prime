@@ -10,8 +10,8 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
   excerpt:
     "When several site pages fight for one query, why it hurts, how to spot the conflict, and what to do: merge, separate intents, or strengthen one URL.",
   lead: [
-    "Query cannibalization is when several URLs on one site are optimized for the same (or almost the same) phrase and block each other in the SERP. Search can’t tell which document is primary; link equity and clicks get smeared.",
-    "Below — consequences, prevention at the core stage, how to find the conflict, and how to treat it. A related topic is page duplicates; cannibalization is more about competing intents than copy-pasted HTML alone.",
+    "Query cannibalization is when several URLs on one site are optimized for the same (or almost the same) phrase and block each other in the SERP. Search engines can’t tell which document is primary; link equity and clicks get smeared.",
+    "Consequences show up in unstable rankings; prevent it during keyword research, find conflicts early, and fix them cleanly. Page duplicates are related; cannibalization is more about competing intents than copy-pasted HTML alone.",
   ],
   faq: [
     {
@@ -24,7 +24,7 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
     },
     {
       q: "Does search always keep one page?",
-      a: "It often shows one, but the pick may be “the wrong one”. Sometimes both are weaker than competitors without cannibalization. Check Webmaster/GSC and the SERP.",
+      a: "It often shows one, but the pick may be the wrong one. Sometimes both are weaker than competitors without cannibalization. Check Webmaster/GSC and the SERP.",
     },
     {
       q: "Does a 301 to the homepage help?",
@@ -35,15 +35,15 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
       a: "Category vs cards vs tags: different roles. Don’t push 10 lookalike listings with one head term. SKU/attributes in title help tell cards apart, but don’t replace clustering.",
     },
     {
-      q: "Canonical instead of deletion?",
+      q: "Can I use canonical instead of deletion?",
       a: "If both URLs are needed for users but only one should index: canonical + indexing settings. If the URL is obsolete — 301.",
     },
     {
-      q: "How not to create the problem upfront?",
+      q: "How do I avoid creating the problem upfront?",
       a: "Core clustering: one main intent — one landing. Unique title/description. Strong internal linking to the cluster canon.",
     },
     {
-      q: "Is it a quick fix?",
+      q: "Is cannibalization a quick fix?",
       a: "Diagnosis — days. Merges and reindexing — weeks. In parallel the site is prepared for promotion; TOP for the core — planned 2–6 months of work, not “after one redirect”.",
     },
   ],
@@ -103,7 +103,7 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
       title: "How to prevent it at the start",
       level: 2,
       paras: [
-        "Semantic core and clustering before mass publish: one landing — one main intent. Title and description unique. Section and blog map aligned.",
+        "Keyword research and clustering before mass publish: one landing — one main intent. Title and description unique. Section and blog map aligned.",
         "Don’t spawn “almost identical” landings for every key variation. Better one strong URL with a natural long-tail than ten thin copies.",
       ],
       lists: [
@@ -119,7 +119,7 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
       ],
       links: [
         {
-          label: "Semantic core",
+          label: "Keyword research",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {

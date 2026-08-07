@@ -658,34 +658,44 @@
 }
 
 .v6-service {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   overflow: hidden;
   padding: 0 !important;
 }
 
 .v6-service__cover {
   width: 100%;
-  height: 108px;
-  /* fill = no crop; cover was clipping SEO/Ads labels at the top */
-  object-fit: fill;
-  object-position: left top;
+  height: 120px;
+  object-fit: cover;
+  object-position: left 58%;
   display: block;
+  flex-shrink: 0;
   background: linear-gradient(135deg, #0f172a, #20b8d0);
 }
 
 .v6-service__body {
-  padding: 1rem 1.1rem 1.1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1.15rem 1.1rem 1.15rem;
+  padding-right: 3.75rem;
   position: relative;
 }
 
 .v6-service__icon {
   position: absolute;
   right: 0.75rem;
-  top: -28px;
-  width: 48px;
+  top: -22px;
+  width: 44px;
+  height: auto;
   border: 1px solid var(--border);
   border-radius: 8px;
   background: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+  pointer-events: none;
 }
 
 .v6-flagship--media {

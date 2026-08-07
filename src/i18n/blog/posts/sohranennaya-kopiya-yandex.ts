@@ -11,7 +11,7 @@ export const sohranennayaKopiyaYandexEn: BlogPost = {
     "What Yandex cache is, how to open a saved copy, why it may be missing, and whether that affects SEO.",
   lead: [
     "A cached copy is a snapshot of a page the search engine once indexed and stored. You can open it even if the live site is temporarily down.",
-    "Below — how the copy helps a webmaster, how to open it in Yandex and Google, why the menu item may disappear from the SERP, and whether you should panic.",
+    "We cover how the cached copy helps a webmaster, how to open it in Yandex and Google, why the menu item may vanish from the SERP, and whether you should panic.",
   ],
   faq: [
     {
@@ -23,7 +23,7 @@ export const sohranennayaKopiyaYandexEn: BlogPost = {
       a: "There is no direct ranking factor “cache exists → higher TOP.” Indexing, availability, and page quality matter more.",
     },
     {
-      q: "Why is there no copy in the SERP?",
+      q: "Why is there no cached copy in the SERP?",
       a: "Often because of meta robots noarchive, cache delays/glitches, or UI quirks. Sometimes the page is simply crawled rarely.",
     },
     {
@@ -31,7 +31,7 @@ export const sohranennayaKopiyaYandexEn: BlogPost = {
       a: "Not instantly: days or more. To check freshness, look at the snapshot date and status in Yandex Webmaster / Search Console.",
     },
     {
-      q: "Why isn’t cache a backup?",
+      q: "Why isn’t the cache a backup?",
       a: "Cache isn’t a full site copy (templates, DB, settings). It’s a content safety net and a diagnostic tool — not a backup strategy.",
     },
   ],

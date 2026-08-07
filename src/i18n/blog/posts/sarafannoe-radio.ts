@@ -5,13 +5,13 @@ export const sarafannoeRadioEn: BlogPost = {
   slug: "sarafannoe-radio",
   title: "Word of mouth in internet marketing: how to earn recommendations",
   date: "2020-01-17",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/sarafannoe-radio/cover-en.webp",
   excerpt:
     "How word of mouth works online: exceed expectations, become memorable, ask for a review, partnerships, influencers, and coverage — without fake engagement or fake recommendations.",
   lead: [
     "Word of mouth is when others talk about you: clients, partners, review authors. For business it’s warm traffic with high trust: such leads often decide faster and stay longer.",
-    "Product quality alone isn’t enough: people recommend what is easy and pleasant to talk about. Below — honest ways to stimulate recommendations without buying fake reviews or inflated ratings.",
+    "Product quality alone isn’t enough: people recommend what is easy and pleasant to talk about. Here are honest ways to spark recommendations without buying fake reviews or inflated ratings.",
   ],
   faq: [
     {
@@ -23,7 +23,7 @@ export const sarafannoeRadioEn: BlogPost = {
       a: "The source is a third person, not an ad account. Ads can amplify reach; trust in a recommendation is usually higher.",
     },
     {
-      q: "Can you ask for a review?",
+      q: "Can I ask for a review?",
       a: "Yes — after a successful outcome and without pressure. Give a link and a short prompt; don’t buy bulk “five-star” packs.",
     },
     {
@@ -31,15 +31,15 @@ export const sarafannoeRadioEn: BlogPost = {
       a: "Yes, if the benefit is clear to both sides and people already like the product. Weak product + bonus = one-off promo hunters.",
     },
     {
-      q: "Do you need influencers and reviews?",
+      q: "Do I need influencers and reviews?",
       a: "It makes sense with a relevant audience and honest integration. Buying a “review” without disclosure risks reputation and advertising rules.",
     },
     {
-      q: "How do you measure it?",
+      q: "How do I measure it?",
       a: "Ask “how did you hear about us,” promo codes/UTM for referrals, share of repeats, and NPS/recommendation asks.",
     },
     {
-      q: "Link to touchpoints?",
+      q: "Does this connect to touchpoints?",
       a: "Bad service at any touch kills word of mouth. Experience chain first, then the ask to recommend.",
     },
   ],
@@ -86,7 +86,7 @@ export const sarafannoeRadioEn: BlogPost = {
       title: "Ask: reviews and referrals",
       level: 2,
       paras: [
-        "Many are happy but silent. After closing the job, politely ask for a review or a recommendation to peers. Say where to write — and don’t bargain over the rating.",
+        "Many are happy but silent. After answering the job, politely ask for a review or a recommendation to peers. Say where to write — and don’t bargain over the rating.",
         "A referral program works when the benefit is transparent and the product is already liked. Watch for abuse and the quality of referred leads.",
       ],
       lists: [

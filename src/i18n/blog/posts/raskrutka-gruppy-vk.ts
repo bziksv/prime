@@ -11,15 +11,15 @@ export const raskrutkaGruppyVkEn: BlogPost = {
     "How to grow a VK community yourself: name, content, design, live audience growth methods, and why fake followers are dangerous.",
   lead: [
     "A VK community grows when the niche and offer are clear, content is regular, and acquisition comes from value and ads — not bots. The start is hardest; after the first live followers, retention and replies matter more.",
-    "Below — prep, naming, content, design, and growth channels. VK menus change — follow the meaning, not button screenshots.",
+    "Prep, naming, content, design, and growth channels. VK menus change — follow the meaning, not button screenshots.",
   ],
   faq: [
     {
-      q: "How many posts per day?",
+      q: "How many posts per day are enough?",
       a: "Not a mandatory “6”. Better 1–3 solid slots you can sustain than spam for frequency.",
     },
     {
-      q: "Do fake followers help?",
+      q: "Do fake followers actually help?",
       a: "No: sanction risk, dead audience, and ER collapse. Advertisers and algorithms notice.",
     },
     {
@@ -27,11 +27,11 @@ export const raskrutkaGruppyVkEn: BlogPost = {
       a: "The name should be clear and pronounceable. A moderate keyword is fine; stuffing related forms is not.",
     },
     {
-      q: "What to do before ads?",
+      q: "What should I do before running ads?",
       a: "Design, 10–15 ready posts, a pinned offer, contacts, and a clear audience definition.",
     },
     {
-      q: "How is this different from seeding in other publics?",
+      q: "How is this different from seeding in other communities?",
       a: "Here you grow your own asset. Seeding is posting on others’ pages — see a separate article.",
     },
   ],
@@ -47,9 +47,9 @@ export const raskrutkaGruppyVkEn: BlogPost = {
         {
           intro: "Minimum before scaling:",
           items: [
-            "clear niche and offer in the description;",
-            "cover and avatar in one style;",
-            "a post backlog and draft content plan;",
+            "clear niche and offer in the description",
+            "cover and avatar in one style",
+            "a post backlog and draft content plan",
             "contact / products / services buttons — as needed.",
           ],
         },
@@ -66,9 +66,9 @@ export const raskrutkaGruppyVkEn: BlogPost = {
         {
           intro: "Name criteria:",
           items: [
-            "clear in a second;",
-            "no legally risky third-party trademarks;",
-            "easy to say and find in search;",
+            "clear in a second",
+            "no legally risky third-party trademarks",
+            "easy to say and find in search",
             "if trends shift — careful tweaks, not weekly chaos.",
           ],
         },
@@ -85,9 +85,9 @@ export const raskrutkaGruppyVkEn: BlogPost = {
         {
           intro: "Content rules:",
           items: [
-            "fit the niche and audience;",
-            "mix of value, engagement, and soft sells;",
-            "unique, quality media;",
+            "fit the niche and audience",
+            "mix of value, engagement, and soft sells",
+            "unique, quality media",
             "follow laws and platform rules.",
           ],
         },
@@ -113,9 +113,9 @@ export const raskrutkaGruppyVkEn: BlogPost = {
         {
           intro: "What to check:",
           items: [
-            "cover with offer/benefit;",
-            "readable section menu;",
-            "background and widgets without visual noise;",
+            "cover with offer/benefit",
+            "readable section menu",
+            "background and widgets without visual noise",
             "pinned post with a CTA.",
           ],
         },
@@ -125,14 +125,14 @@ export const raskrutkaGruppyVkEn: BlogPost = {
       title: "How to attract subscribers",
       level: 2,
       paras: [
-        "Paid: VK targeting, seeding, collabs. Organic: value, recommendations, cross-posts on your properties, contests without “follow 20 publics”.",
+        "Paid: VK targeting, seeding, collabs. Organic: value, recommendations, cross-posts on your properties, contests without “follow 20 communities”.",
       ],
       lists: [
         {
           intro: "Fake growth — separately:",
           items: [
-            "auto-services promise fast growth;",
-            "risks: bans, shadow limits, dead accounts;",
+            "auto-services promise fast growth",
+            "risks: bans, shadow limits, dead accounts",
             "ER drops — ads and reach suffer.",
           ],
         },

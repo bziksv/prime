@@ -5,13 +5,13 @@ export const temaWordpressEn: BlogPost = {
   slug: "tema-wordpress",
   title: "How to choose a WordPress theme for a blog: 10 practical criteria",
   date: "2020-09-22",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/tema-wordpress/cover-en.webp",
   excerpt:
     "What to check when picking a WordPress theme: blog needs, flexibility, speed, mobile, code, child theme, plugin compatibility — without a “best themes of the year” catalog.",
   lead: [
     "A theme sets the blog’s frame: how posts are read, how archives look, how easily you change blocks without breaking layout. A pretty demo site ≠ a usable theme on your content.",
-    "Below — selection criteria and checks before installing on production. Marketplace names and “2020 tops” go stale; what matters are updates, code, and fit for the blog’s jobs.",
+    "These are the selection criteria and checks before installing on production. Marketplace names and “2020 tops” go stale; what matters are updates, code, and fit for the blog’s jobs.",
   ],
   faq: [
     {
@@ -19,19 +19,19 @@ export const temaWordpressEn: BlogPost = {
       a: "Not always. Check updates, reviews, code cleanliness, and needed templates. A free theme with support often beats an abandoned “premium”.",
     },
     {
-      q: "Do you need a custom theme?",
+      q: "Do I need a custom theme?",
       a: "If you need unique design and complex structure — maybe. For a personal/expert blog a solid ready theme + child is often enough.",
     },
     {
       q: "What is a child theme?",
-      a: "A separate layer on top of the parent: style/template edits don’t burn when the parent updates. Handy for safe customizations.",
+      a: "A separate layer on top of the parent: style/template edits don’t burn when the parent updates. Useful for safe customizations.",
     },
     {
       q: "Does the theme affect SEO?",
       a: "Indirectly: speed, mobile, clean markup, sensible headings, and structured data. “SEO” in the theme name without tech won’t help.",
     },
     {
-      q: "Can you switch themes on a live site?",
+      q: "Can I switch themes on a live site?",
       a: "Yes, but staging first: menus, widgets, post templates, and custom fields can break. Match the template files you actually use.",
     },
   ],
@@ -86,7 +86,7 @@ export const temaWordpressEn: BlogPost = {
             "mobile view of key templates;",
             "speed with real content;",
             "no third-party hidden links;",
-            "menus, sidebar, forms in place;",
+            "menus, sidebar, forms ready;",
             "SEO plugin and counters alive.",
           ],
         },

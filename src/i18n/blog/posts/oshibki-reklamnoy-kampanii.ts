@@ -5,29 +5,29 @@ export const oshibkiReklamnoyKampaniiEn: BlogPost = {
   slug: "oshibki-reklamnoy-kampanii",
   title: "10 mistakes when running a paid search campaign",
   date: "2018-08-06",
-  category: "Internet marketing",
+  category: "Paid search",
   cover: "/images/blog/oshibki-reklamnoy-kampanii/cover-en.webp",
   excerpt:
     "Paid search with no demand, no competitor review, unrealistic budget, limits, weak keywords, irrelevant ads, geo, extensions, no ongoing management, and mixing Search with Display.",
   lead: [
     "Typical paid-search mistakes burn budget before you even get clean stats: advertising what nobody searches, keywords “by gut feel”, one account setup for Search and Display at once.",
-    "Below — ten misses from audit practice and how to avoid them. Google Ads / similar UIs change; the checklist meaning stays. Budget figures and a “normal” test window depend on the niche — a guide, not dogma.",
+    "Ten misses we keep seeing in audits — and how to avoid them. Google Ads and similar UIs change; the checklist logic still applies. Budget figures and “must-have” settings from old guides need a current check.",
   ],
   faq: [
     {
-      q: "No search demand — what then?",
+      q: "No search demand — what should you do then?",
       a: "Don’t burn search ads on zero-query topics. Look at display, social, content, and interest networks — if the product is new or niche.",
     },
     {
-      q: "How much do you need for a test?",
+      q: "How much budget do you need for a test?",
       a: "Often weeks to a couple of months with a sane daily cap to see stats. “Max leads for pennies from day one” is unrealistic in a competitive niche.",
     },
     {
-      q: "One keyword — one ad?",
+      q: "Should you use one keyword per ad?",
       a: "Aim for high relevance between cluster and ad. The rigid “exactly one keyword” formula is outdated in smart campaigns, but the meaning is the same: don’t dump everything in one pile.",
     },
     {
-      q: "Search and Display together?",
+      q: "Should you run Search and Display together?",
       a: "Usually split: different semantics, creatives, bids, and KPIs. Mixing breaks optimization.",
     },
     {
@@ -35,7 +35,7 @@ export const oshibkiReklamnoyKampaniiEn: BlogPost = {
       a: "Yes where available: they raise visibility and add info. Check current types in the account.",
     },
     {
-      q: "Can you “set and forget”?",
+      q: "Can you set ads and forget them?",
       a: "No. You need negatives, cleaning off-target traffic, creative tests, and limit control — or budget leaks.",
     },
   ],
@@ -52,9 +52,9 @@ export const oshibkiReklamnoyKampaniiEn: BlogPost = {
         {
           intro: "Before you start:",
           items: [
-            "are there real queries;",
-            "what competitors promise;",
-            "what daily cap and test KPI;",
+            "are there real queries",
+            "what competitors promise",
+            "what daily cap and test KPI",
             "landing handles mobile traffic.",
           ],
         },

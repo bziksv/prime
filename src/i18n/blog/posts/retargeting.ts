@@ -5,13 +5,13 @@ export const retargetingEn: BlogPost = {
   slug: "retargeting",
   title: "Retargeting: what it is and how it differs from targeting",
   date: "2018-03-28",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/retargeting/cover-en.webp",
   excerpt:
     "Retargeting brings back people who already visited: cart, product view, visit without action. How it differs from targeting, which types exist, and how not to annoy the audience.",
   lead: [
-    "Retargeting (remarketing) shows ads to people who already touched the site or app but didn’t finish the goal. Targeting finds a new audience by gender, geo, interests; retarget works with a “warm” base.",
-    "Below — how it looks in practice, campaign types, where to set it up, and typical risks. Holiday tactics are in a separate post; here is the base.",
+    "Retargeting (remarketing) shows ads to people who already touched the site or app but didn’t finish the goal. Targeting finds a new audience by gender, geo, interests; retargeting works with a “warm” base.",
+    "We cover how it works in practice, campaign types, where to set it up, and typical risks. Holiday tactics are a separate post; this is the foundation.",
   ],
   faq: [
     {
@@ -20,39 +20,39 @@ export const retargetingEn: BlogPost = {
     },
     {
       q: "How does it differ from targeting?",
-      a: "Targeting selects an audience in the network. Retarget — people who already were with you (site, app, list). Often a pair: attract first, then bring back.",
+      a: "Targeting selects an audience in the network. Retargeting reaches people who already were with you (site, app, list). Often a pair: attract first, then bring back.",
     },
     {
-      q: "Do you need a counter?",
-      a: "Yes: Metrica, ad-system pixel/tag, events (cart, view). Without data segments are empty.",
+      q: "Do I need an analytics counter?",
+      a: "Yes: Metrica, ad-system pixel/tag, events (cart, view). Without data, segments are empty.",
     },
     {
-      q: "What is dynamic retarget?",
+      q: "What is dynamic retargeting?",
       a: "Showing specific products/services the person viewed, not a generic store banner. Usually stronger than “just the logo”.",
     },
     {
-      q: "Why does the ad annoy people?",
+      q: "Why do retargeting ads annoy people?",
       a: "Frequent shows of one creative and no exclusion of buyers. Cap frequency, refresh the offer, exclude conversions.",
     },
     {
-      q: "How long to wait for effect?",
+      q: "How long until I see an effect?",
       a: "Depends on audience size and offer. Expect weeks to gather stats; don’t wait for “magic in 3 days”.",
     },
     {
-      q: "Is retarget only for stores?",
+      q: "Is retargeting only for stores?",
       a: "No. Services, B2B, content — segments by key-URL visits and unfinished leads.",
     },
     {
-      q: "Link to SEO?",
-      a: "Not directly. Indirectly: the same landings and offer affect organic and retarget CR.",
+      q: "Does it connect to SEO?",
+      a: "Not directly. Indirectly: the same landings and offer affect organic and retargeting conversion rate.",
     },
   ],
   sections: [
     {
-      title: "How it looks",
+      title: "How it looks in practice",
       level: 2,
       paras: [
-        "A visitor viewed a product, added to cart, and left. The “cart without purchase” segment gets ads with that product or a discount — on Yandex Advertising Network sites, search, social, or display, depending on the cabinet.",
+        "A visitor viewed a product, added to cart, and left. The “cart without purchase” segment gets ads with that product or a discount — on Yandex Advertising Network sites, search, social, or display, depending on the account.",
         "The point isn’t to “chase everyone”, but a relevant reminder at the funnel stage where interest already showed.",
       ],
       lists: [
@@ -60,7 +60,7 @@ export const retargetingEn: BlogPost = {
           intro: "Typical loop:",
           items: [
             "counter records the action;",
-            "segment in audiences/cabinet;",
+            "segment in audiences/account;",
             "separate retarget campaign;",
             "offer by stage (view / cart / abandoned form).",
           ],
@@ -105,7 +105,7 @@ export const retargetingEn: BlogPost = {
           headers: ["", "Targeting", "Retargeting"],
           rows: [
             ["Audience", "New by conditions", "Already on site/in CRM"],
-            ["Job", "Attract", "Return / close"],
+            ["Job", "Attract", "Return / convert"],
             ["Data", "Interests, geo, look-alike", "Events, lists, pixel"],
           ],
         },
@@ -140,7 +140,7 @@ export const retargetingEn: BlogPost = {
       title: "Where you set it up",
       level: 2,
       paras: [
-        "Yandex Direct + Metrica/Audiences, Google Ads + tag, social cabinets with their pixel. One base: site code, goals, segments, a campaign not mixed with cold search.",
+        "Yandex Direct + Metrica/Audiences, Google Ads + tag, social ad accounts with their pixel. One base: site code, goals, segments, a campaign not mixed with cold search.",
         "First gather visit volume and correct events — otherwise audiences are too small to learn.",
       ],
       lists: [
@@ -171,7 +171,7 @@ export const retargetingEn: BlogPost = {
       level: 2,
       paras: [
         "A pushy identical banner hurts the brand. Retarget doesn’t see an offline purchase — the person already bought from a competitor while the ad still “catches up”.",
-        "Exclude buyers, rotate creatives, limit segment lifetime. Measure by segment CPA/ROMI, not “I feel we see our banner a lot”.",
+        "Exclude buyers, rotate creatives, limit segment lifetime. Measure by segment CPA/ROMI (return on marketing investment), not “I feel we see our banner a lot”.",
       ],
       notes: [
         {

@@ -5,13 +5,13 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
   slug: "statistika-google-prodazhi",
   title: "Google stats for sales: Keyword Planner, Trends, and Analytics",
   date: "2020-07-30",
-  category: "Internet marketing",
+  category: "Analytics",
   cover: "/images/blog/statistika-google-prodazhi/cover-en.webp",
   excerpt:
     "How to use Keyword Planner, Google Trends, and Analytics to gauge demand, seasonality, and channel performance — for SEO, ads, and sales forecasting.",
   lead: [
-    "Search and analytics numbers don’t “sell by themselves”, but they help with three jobs: what to push on the site, when to amp ads, and which queries actually lead to money. In Google’s stack that usually means Keyword Planner, Trends, and Analytics (today’s GA4 logic).",
-    "Below — why search stats matter in marketing, how to read Planner and Trends without worshipping “exact” impression thousands, where Analytics fits, and when third-party collectors help. For an RU audience, Yandex Wordstat stays a required parallel track next to Google — see also the core and frequency articles.",
+    "Search and analytics numbers don’t “sell by themselves,” but they help with three jobs: what to push on the site, when to boost ads, and which queries actually lead to money. In Google’s stack that usually means Keyword Planner, Trends, and Analytics (today’s GA4 logic).",
+    "We cover why search stats matter in marketing, how to read Planner and Trends without treating “exact” impression counts as gospel, where Analytics fits, and when third-party collectors help. For an RU audience, Yandex Wordstat stays a required parallel track next to Google — see also the core and frequency articles.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
       a: "No. Planner helps for Google Ads and Google demand estimates. For Yandex, use Wordstat. An RU project usually needs both.",
     },
     {
-      q: "Do you need an active ad budget?",
+      q: "Do I need an active ad budget?",
       a: "Full Planner features are easier with a Google Ads account. Without campaigns some estimates are coarser — allow for error and cross-check other sources.",
     },
     {
@@ -27,12 +27,12 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
       a: "No. It’s relative interest (index up to 100) over time and regions. For volumes use Planner/Wordstat and your own data.",
     },
     {
-      q: "Can you launch a new product from Trends alone?",
-      a: "Trends shows rising interest in a theme/category. For a new SKU with no queries, check adjacent categories, then your sales and brand search.",
+      q: "Can I launch a new product from Trends alone?",
+      a: "Trends shows rising interest in a theme or category. For a new SKU with no queries, check adjacent categories, then your sales and brand search.",
     },
     {
       q: "How is this different from a GA store deep-dive?",
-      a: "Here the focus is demand and planning (Planner + Trends + Analytics’ role). Ecommerce funnel behavior is in the separate Google Analytics piece.",
+      a: "Here the focus is demand and planning (Planner + Trends + Analytics’ role). Ecommerce funnel behavior is in the separate Google Analytics article.",
     },
     {
       q: "How accurate are Planner numbers?",
@@ -40,11 +40,11 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
     },
     {
       q: "Are third-party tools required?",
-      a: "No. Handy for export and clustering. Paid licenses pay off with regular core work — not “for one spreadsheet”.",
+      a: "No. Useful for export and clustering. Paid licenses pay off with regular core work — not “for one spreadsheet.”",
     },
     {
       q: "How does this tie to sales?",
-      a: "Search demand → site and ad themes → traffic → conversions in Analytics/CRM. Without “query → landing → goal”, stats stay a picture.",
+      a: "Search demand → site and ad themes → traffic → conversions in Analytics/CRM. Without “query → landing → goal,” stats stay a picture.",
     },
   ],
   sections: [
@@ -52,8 +52,8 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
       title: "Why marketing needs search stats",
       level: 2,
       paras: [
-        "Three practical uses: gather and prioritize site semantics, prep a Google Ads start, gauge seasonality and regional demand before buying/promos. Without numbers it’s easy to spend on a pretty empty theme.",
-        "Example: a bike-accessories shop. Planner suggests volumes and close phrasing, Trends shows which months interest rises, Analytics shows which queries and channels already fill the cart. Decisions feed the content plan, bids, and assortment.",
+        "Three practical uses: gather and prioritize site semantics, prep a Google Ads start, gauge seasonality and regional demand before buying or promos. Without numbers it’s easy to spend on a pretty theme with no demand.",
+        "Example: a bike-accessories shop. Planner suggests volumes and related wording, Trends shows which months interest rises, Analytics shows which queries and channels already fill the cart. Decisions feed the content plan, bids, and assortment.",
       ],
       lists: [
         {
@@ -80,7 +80,7 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
       title: "Google Keyword Planner: demand and the core",
       level: 2,
       paras: [
-        "In Google Ads open Keyword Planner: ideas by product/site and forecasts for a phrase list. Watch average impressions, competition, bid guides, and wording variants. Numbers are planning estimates — not “truth to the unit”.",
+        "In Google Ads open Keyword Planner: ideas by product/site and forecasts for a keyword list. Watch average impressions, competition, bid guides, and wording variants. Numbers are planning estimates — not gospel down to the last digit.",
         "Set geo and language. Negatives and filters cut junk (“used”, competitor brands). Remember match types: broad estimates include variations — for a precise core, cluster by hand or in a collector.",
       ],
       lists: [
@@ -110,7 +110,7 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
             ["Impressions / month", "Demand guide, often a range"],
             ["Competition", "Ads density — not “SEO difficulty”"],
             ["Bid", "Auction forecast — not organic cost"],
-            ["Phrase variants", "Cluster and negative ideas"],
+            ["Keyword variants", "Cluster and negative ideas"],
           ],
         },
       ],
@@ -119,14 +119,14 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
       title: "Google Trends: seasonality and regions",
       level: 2,
       paras: [
-        "Trends shows relative interest in a topic: handy for comparing seasons, regions, and close categories. Peak “100” is the max in the selected period — not absolute visits. For bikes, interest may rise before “logical” spring — plan stock and creatives with lead time.",
+        "Trends shows relative interest in a topic: useful for comparing seasons, regions, and close categories. Peak “100” is the max in the selected period — not absolute visits. For bikes, interest may rise before “logical” spring — plan stock and creatives with lead time.",
         "For new products without a direct query, watch the parent category and adjacent themes. A sharp spike with no sales base is a reason to check hype and durability — not to scale buying immediately.",
       ],
       lists: [
         {
           intro: "Practical Trends scenarios:",
           items: [
-            "when to amp ads and content;",
+            "when to boost ads and content;",
             "which regions look stronger;",
             "comparing two product categories;",
             "checking a “dead” season;",
@@ -136,9 +136,9 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Practice",
+          title: "Tip",
           kind: "tip",
-          text: "Cross-check Trends with your sales and stock: search leads or lags the receipt — depends on the niche.",
+          text: "Cross-check Trends with your sales and stock: search often leads or lags actual purchases — depends on the niche.",
         },
       ],
     },
@@ -157,7 +157,7 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
             "UTMs on ads consistent;",
             "landings match key intent;",
             "weekly channel and conversion review;",
-            "content-fix hypotheses for weak URLs.",
+            "content-plan hypotheses for weak URLs.",
           ],
         },
       ],
@@ -177,7 +177,7 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
       level: 2,
       paras: [
         "Key Collector and peers help with export, grouping, and several sources at once. License cost pays off with regular core work. A one-off project often needs only Wordstat + Planner + a spreadsheet.",
-        "Don’t chase “exact Google query counts” from grey SERP parsers — fragile and risky. Prefer official APIs/consoles and your own ad data.",
+        "Don’t chase “exact Google query counts” from shady SERP scrapers — fragile and risky. Prefer official APIs/consoles and your own ad data.",
       ],
       lists: [
         {
@@ -201,8 +201,8 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
       title: "From numbers to sales: a working loop",
       level: 2,
       paras: [
-        "Gather candidates in Planner/Wordstat → filter intent → check season in Trends → assign landings and offers → ship content/Ads → measure in Analytics and CRM. Iteration beats one perfect spreadsheet.",
-        "SEO landing prep — weeks; organic growth for the core — month to month, planned 2–6 months to noticeable TOP. Ads give a faster learning sample on keys, but don’t replace page quality.",
+        "Gather candidates in Planner/Wordstat → filter intent → check season in Trends → assign landings and offers → publish content and run Ads → measure in Analytics and CRM. Iteration beats one perfect spreadsheet.",
+        "SEO landing prep — weeks; organic growth for the core — month to month, planned 2–6 months to noticeable TOP. Ads give a faster learning sample on keywords, but don’t replace page quality.",
       ],
       lists: [
         {
@@ -211,7 +211,7 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
             "core and negatives;",
             "season and region;",
             "landing per cluster;",
-            "goal in the counter;",
+            "goal in analytics;",
             "review in 1–2 weeks and adjust.",
           ],
         },

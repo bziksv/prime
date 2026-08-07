@@ -5,13 +5,13 @@ export const prodvizheniePrilozheniyEn: BlogPost = {
   slug: "prodvizhenie-prilozheniy",
   title: "How to promote mobile apps and games",
   date: "2019-10-24",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/prodvizhenie-prilozheniy/cover-en.webp",
   excerpt:
     "App and game promotion: creatives and playables, category-interest targeting, event-based remarketing, deep links, and retention metrics — without racing only for installs.",
   lead: [
     "Stores are crowded: an install alone is not a business. You need users who stay and pay — or complete the target action inside the app.",
-    "Below — working levers: interactive creatives, precise targeting, retention via remarketing, deep links to the right screen, and a metrics stack. Other people’s 2010s case numbers are order-of-magnitude cues, not your plan.",
+    "Working levers include interactive creatives, precise targeting, retention via remarketing, deep links to the right screen, and a metrics stack. Other people’s 2010s case numbers are order-of-magnitude cues, not your plan.",
   ],
   faq: [
     {
@@ -23,19 +23,19 @@ export const prodvizheniePrilozheniyEn: BlogPost = {
       a: "They often lift engagement for games, but cost more to produce and aren’t universal. Compare CPI/CPA and user quality, not only CTR.",
     },
     {
-      q: "Installs or retention — which matters more?",
+      q: "Do installs or retention matter more?",
       a: "For business — retention and value. Cheap installs that churn on day 1 burn the budget.",
     },
     {
-      q: "Why deep links?",
+      q: "Why do deep links matter?",
       a: "So ads land on the right screen (promo, product), not a bare hub. Without the app — a deferred deep link via the store.",
     },
     {
-      q: "Remarketing after the app is deleted?",
+      q: "Should I run remarketing after the app is deleted?",
       a: "Some MMPs/networks can work with event and ID audiences within platform rules. Follow policies and consent.",
     },
     {
-      q: "Is one social network enough?",
+      q: "Is one social network enough for app promotion?",
       a: "Sometimes for a test. Scale usually needs several sources and hard unit-economics comparison.",
     },
   ],
@@ -51,9 +51,9 @@ export const prodvizheniePrilozheniyEn: BlogPost = {
         {
           intro: "What to check in the creative:",
           items: [
-            "a clear hook in the first seconds;",
-            "vertical for mobile feed;",
-            "one offer / one action;",
+            "a clear hook in the first seconds",
+            "vertical for mobile feed",
+            "one offer / one action",
             "a link to the post-install screen.",
           ],
         },
@@ -95,9 +95,9 @@ export const prodvizheniePrilozheniyEn: BlogPost = {
         {
           intro: "Remarketing jobs:",
           items: [
-            "bring back “sleepers”;",
-            "finish an incomplete action;",
-            "raise LTV of payers;",
+            "bring back “sleepers”",
+            "finish an incomplete action",
+            "raise LTV of payers",
             "don’t hammer those who bought recently.",
           ],
         },
@@ -134,9 +134,9 @@ export const prodvizheniePrilozheniyEn: BlogPost = {
         {
           intro: "Minimum metrics:",
           items: [
-            "CPI / cost of the target event;",
-            "retention D1 and D7;",
-            "CR to payment or key action;",
+            "CPI / cost of the target event",
+            "retention D1 and D7",
+            "CR to payment or key action",
             "organic share after a paid spike.",
           ],
         },

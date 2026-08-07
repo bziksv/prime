@@ -11,7 +11,7 @@ export const topInstagramEn: BlogPost = {
     "What it means to appear in hashtag results, Explore, and Instagram recommendations, which engagement signals matter, and why buying likes hurts more than it helps.",
   lead: [
     "“TOP” on Instagram is informal shorthand for visible placements: the top of a tag feed, Explore / recommendation blocks where the algorithm surfaces posts with strong audience response. For business that’s extra reach beyond followers.",
-    "Below — which signals count, why that reach helps, and why a sharp like-buy spike is a bad bet. UI labels change; engagement logic matters more than button screenshots.",
+    "We cover which signals count, why that reach helps, and why a sharp like-buy spike is a bad bet. UI labels change; engagement logic matters more than button screenshots.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -23,7 +23,7 @@ export const topInstagramEn: BlogPost = {
       a: "It’s more a set of surfaces: search by tag/place, recommendations, similar accounts. In-app names change; the point is the same — people who don’t follow you still see the post.",
     },
     {
-      q: "How many likes do you need to get in?",
+      q: "How many likes do I need to get in?",
       a: "There’s no fixed threshold. They compare against competition for the tag/niche and the speed of live reactions. Narrow topics are often more reachable than mass tags.",
     },
     {
@@ -35,7 +35,7 @@ export const topInstagramEn: BlogPost = {
       a: "Saves, comments, shares/sends, watch-through — signals the content is useful. Steady growth from your audience beats a bot spike.",
     },
     {
-      q: "Do you need geotags?",
+      q: "Do I need geotags?",
       a: "For local business (salon, cafe, service) — yes: they help “nearby” discovery. For a pure online niche, geo is secondary.",
     },
   ],
@@ -132,7 +132,7 @@ export const topInstagramEn: BlogPost = {
       ],
       links: [
         {
-          label: "Instagram page design",
+          label: "Instagram profile design",
           href: "/en/blog/oformlenie-stranicy-instagram/",
         },
         {

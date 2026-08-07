@@ -220,39 +220,39 @@ const auditEn: AuditContent = {
   path: "/en/audit/",
   metaTitle: "Website audit — PRIME",
   metaDescription:
-    "Website audit: Google Analytics, usability, competitors, technical SEO and content. Free mini-audit and full report from $330–$880.",
+    "Website audit: Google Analytics, usability, competitors, technical SEO, and content. Free mini-audit and full report from $330–$880.",
   serviceName: "Website audit",
   serviceType: "Website audit",
   breadcrumbHome: "Home",
   breadcrumbCurrent: "Website audit",
   menuLabel: "Menu",
-  ctaTop: "Submit a request",
+  ctaTop: "Get in touch",
   brandBefore: "PRIM",
   brandAccent: "E",
-  heroKicker: "Diagnostic protocol · SEO / UX / tech",
-  heroTitleBefore: "Find what keeps your site from ",
-  heroTitleAccent: "growing in search",
+  heroKicker: "Site diagnostic · SEO / UX / tech",
+  heroTitleBefore: "Find what’s stopping your site from ",
+  heroTitleAccent: "winning in search",
   heroLead:
-    "Not a checkbox report — we review analytics, behavior, competitors and technical health. You get a written report and a specialist walkthrough video.",
+    "Not a checkbox PDF. We dig into analytics, behavior, competitors, and technical health — then hand you a written report plus a specialist walkthrough video.",
   heroCtaPrimary: "Request a mini-audit",
   heroCtaSecondary: "How it works",
   consoleAria: "Website diagnostic demo",
   consoleUrlPlaceholder: "https://your-site.com",
-  consoleLogIdle: "Waiting for URL input…",
+  consoleLogIdle: "Waiting for URL…",
   consoleLogHost: "Connecting to host…",
   consoleLogIndex: "Index · sitemap · response codes",
   consoleLogWarn: "visibility −18% over 90 days",
-  consoleLogCheck: "leak in the lead funnel",
+  consoleLogCheck: "drop-off in the lead funnel",
   consoleLogOk: "SSL · mirrors · redirects",
-  consoleLogDone: "Protocol ready · video in progress",
+  consoleLogDone: "Report ready · video in progress",
   consoleScan: "Scan",
   consoleScanning: "Scanning…",
   consoleRescan: "Scan again",
-  consoleMsgTyping: "Typing address…",
-  consoleMsgAccepted: "Address accepted · moving to Scan",
+  consoleMsgTyping: "Entering URL…",
+  consoleMsgAccepted: "URL accepted · heading to Scan",
   consoleHostPrefix: "Connecting to ",
   stats: [
-    { value: 50, suffix: "+", label: "checkpoints in the protocol" },
+    { value: 50, suffix: "+", label: "checkpoints in the review" },
     { value: 2, suffix: "", label: "formats: mini and full" },
     { value: 1, suffix: "", label: "specialist walkthrough video" },
   ],
@@ -274,67 +274,67 @@ const auditEn: AuditContent = {
   ],
   signalsKicker: "Signals",
   signalsTitle: "When you need an audit now",
-  signalsLead: "Three markers that “just wait” won’t fix it anymore.",
+  signalsLead: "Three signs that “just wait it out” isn’t a strategy anymore.",
   pain: [
     {
       title: "No visitors?",
-      text: "Search engines can ignore a site for thousands of reasons. If you’ve been stuck past page 3 for years — that’s a marker of hidden systemic issues: penalties, semantic gaps and positioning mistakes.",
+      text: "Search engines can overlook a site for thousands of reasons. Stuck past page 3 for years? That’s usually a signal of deeper systemic issues — penalties, keyword gaps, and positioning mistakes.",
     },
     {
       title: "No leads?",
-      text: "Traffic may be informational while UX blocks the path to a request. We find where users drop off.",
+      text: "You may be getting informational traffic while UX blocks the path to a request. We find where users drop off.",
     },
     {
       title: "No growth?",
-      text: "SEO evolves. Where there’s no growth, decline follows. Algorithm updates don’t spare even “old” sites.",
+      text: "SEO doesn’t stand still. When growth stalls, decline usually follows. Algorithm updates don’t spare “legacy” sites either.",
     },
   ],
   timelineKicker: "Timeline",
-  timelineTitle: "How the audit runs",
-  timelineLead: "From request to priorities — a clear protocol without surprises.",
+  timelineTitle: "How the audit works",
+  timelineLead: "From intake to priorities — a clear process, no surprises.",
   timeline: [
     {
       n: "01",
       title: "Request and access",
-      text: "Site URL, Analytics, brief on what hurts. Mini-audit or full format.",
+      text: "Site URL, Analytics, and a short brief on what’s broken. Mini-audit or full scope.",
     },
     {
       n: "02",
       title: "Scanning",
-      text: "Technical health, index, sitemap, response codes, visibility and traffic structure.",
+      text: "Technical health, index, sitemap, response codes, visibility, and traffic mix.",
     },
     {
       n: "03",
       title: "Specialist review",
-      text: "UX, content, competitors, behavior — your project, not a template.",
+      text: "UX, content, competitors, behavior — your site, not a template.",
     },
     {
       n: "04",
       title: "Report and video",
-      text: "Written protocol + video: what’s critical and where growth points are.",
+      text: "Written findings + video: what’s critical and where the opportunities are.",
     },
     {
       n: "05",
       title: "Priorities",
-      text: "What to fix first, what can wait — a plan without “fix everything at once.”",
+      text: "What to fix first, what can wait — a plan that doesn’t say “fix everything at once.”",
     },
   ],
   includesKicker: "Scope",
   includesTitle: "What’s in a full audit",
   includesLead:
-    "A specialist reviews metrics for your site specifically — not a one-size-fits-all report.",
+    "A specialist reviews the numbers for your site — not a one-size-fits-all dump.",
   includes: [
     {
       title: "Google Analytics review",
-      text: "Critical shifts in traffic structure and what they mean.",
+      text: "Critical shifts in traffic mix and what they actually mean.",
     },
     {
       title: "Usability analysis",
-      text: "How users interact with interface elements.",
+      text: "How people interact with key interface elements.",
     },
     {
       title: "Competitor analysis",
-      text: "Where you lag direct competitors in the niche.",
+      text: "Where you trail direct competitors in your niche.",
     },
     {
       title: "Responsive layout",
@@ -342,30 +342,30 @@ const auditEn: AuditContent = {
     },
     {
       title: "User behavior",
-      text: "Paths to goal, bottlenecks and critical drop-off points.",
+      text: "Paths to conversion, bottlenecks, and critical drop-off points.",
     },
   ],
   deliverables: [
     {
       title: "Written report",
-      text: "Concrete metrics and conclusions — no filler.",
+      text: "Hard metrics and clear conclusions — no filler.",
     },
     {
       title: "Walkthrough video",
-      text: "A specialist shows what we analyze on your site and how.",
+      text: "A specialist walks you through what we checked on your site and how.",
     },
   ],
-  protocolKicker: "Protocol",
-  protocolTitle: "What the specialist checks",
-  protocolLead: "Examples of what we keep in mind on any site.",
+  protocolKicker: "Checklist",
+  protocolTitle: "What the specialist looks at",
+  protocolLead: "A sample of what we keep in focus on every site.",
   protocolTabsAria: "Audit sections",
   columns: [
     {
       id: "traffic",
-      title: "Traffic structure and visibility",
+      title: "Traffic mix and visibility",
       items: [
         {
-          title: "Traffic structure",
+          title: "Traffic mix",
           text: "Visits, seasonality, landing pages, sources, devices.",
         },
         {
@@ -378,7 +378,7 @@ const auditEn: AuditContent = {
         },
         {
           title: "Keywords and rankings",
-          text: "Is there a semantic core? Complete and current? Dynamics?",
+          text: "Is there a keyword set? Complete and current? Trend over time?",
         },
         {
           title: "Indexed pages",
@@ -390,24 +390,24 @@ const auditEn: AuditContent = {
         },
         {
           title: "Response codes",
-          text: "404 on missing URLs? Other status codes?",
+          text: "404s on missing URLs? Other status codes?",
         },
         {
           title: "Outbound links",
-          text: "Which resources does the site link to?",
+          text: "Which resources does the site link out to?",
         },
       ],
     },
     {
       id: "content",
-      title: "Content and optimization",
+      title: "Content and on-page SEO",
       items: [
         {
-          title: "Text content",
-          text: "Does it demonstrate expertise? Any keyword stuffing?",
+          title: "Copy and content",
+          text: "Does it show real expertise? Any keyword stuffing?",
         },
         {
-          title: "Text relevance",
+          title: "Content relevance",
           text: "Falling behind direct competitors?",
         },
         {
@@ -428,7 +428,7 @@ const auditEn: AuditContent = {
         },
         {
           title: "Link profile",
-          text: "Sufficient? How regularly is it growing?",
+          text: "Strong enough? Growing on a steady cadence?",
         },
         {
           title: "URL structure",
@@ -449,7 +449,7 @@ const auditEn: AuditContent = {
           text: "SSL? Cross-browser? Load speed?",
         },
         {
-          title: "Primary mirror",
+          title: "Primary domain / mirror",
           text: "Redirects configured? Double slashes in URLs?",
         },
         {
@@ -457,16 +457,16 @@ const auditEn: AuditContent = {
           text: "Rendering across breakpoints?",
         },
         {
-          title: "Global elements",
-          text: "Do they boost or dilute relevance?",
+          title: "Sitewide elements",
+          text: "Do they strengthen or dilute relevance?",
         },
         {
-          title: "Product matrix",
-          text: "Complete? Internal links? Product cards?",
+          title: "Product catalog",
+          text: "Complete? Internal links? Product pages?",
         },
         {
           title: "Thin content",
-          text: "Close pages or expand them?",
+          text: "Close the pages or expand them?",
         },
         {
           title: "Internal links",
@@ -476,87 +476,87 @@ const auditEn: AuditContent = {
     },
   ],
   pricingFreeStamp: "Free",
-  pricingFreeCta: "Request for free",
+  pricingFreeCta: "Request free audit",
   pricingPaidLabel: "Full audit",
   pricingPaidCta: "Request full audit",
   pricing: {
     free: {
       title: "Free mini-audit",
-      text: "Find out if there are critical issues. Specialist video: main problems and growth points.",
+      text: "Find out if you have critical issues. Specialist video covering the main problems and opportunities.",
       note: "Free audits are for product or service websites only.",
     },
     paid: {
       title: "Full website audit",
       price: "$330 — $880",
-      text: "An exhaustive report on systemic issues, gaps and growth points. Final cost depends on niche and scope.",
-      extra: "Often used to evaluate an SEO contractor from the outside.",
+      text: "A deep dive into systemic issues, gaps, and opportunities. Final cost depends on niche and scope.",
+      extra: "Often used as an outside look at an SEO contractor’s work.",
     },
   },
   outcomesKicker: "Outcome",
-  outcomesTitle: "What an audit delivers in practice",
-  outcomesLead: "Clear priorities — not a 200-item “fix everything” list.",
+  outcomesTitle: "What you walk away with",
+  outcomesLead: "Clear priorities — not a 200-item “fix everything” dump.",
   outcomes: [
     {
-      title: "A clear “where it hurts” map",
+      title: "A clear problem map",
       text: "Not a generic checklist — priorities for your site: tech, content, UX, visibility.",
     },
     {
-      title: "Video + text",
-      text: "The specialist shows what’s critical on your project — easy to hand off to the team or contractor.",
+      title: "Video + written report",
+      text: "The specialist shows what’s critical on your project — easy to hand to your team or contractor.",
     },
     {
       title: "A plan, not “fix all”",
       text: "What to do first, what can wait — so the fix budget doesn’t turn into chaos.",
     },
   ],
-  nosKicker: "Honestly",
+  nosKicker: "Straight talk",
   nosTitle: "What we don’t promise",
-  nosLead: "An audit is diagnostics — not a magic jump to page one.",
+  nosLead: "An audit is a diagnosis — not a magic jump to page one.",
   nos: [
     {
       title: "Not a substitute for SEO",
-      text: "An audit diagnoses. Rankings and traffic growth are separate services after blockers are removed.",
+      text: "An audit diagnoses. Rankings and traffic growth are separate work after the blockers come out.",
     },
     {
       title: "Not a one-size-fits-all report",
-      text: "We review Analytics, index, competitors and UX for your site — not a universal laundry list.",
+      text: "We review Analytics, index, competitors, and UX for your site — not a universal laundry list.",
     },
     {
-      title: "Mini-audit ≠ full protocol",
-      text: "The free format covers critical risks and growth points. The full protocol is in the paid audit.",
+      title: "Mini-audit ≠ full review",
+      text: "The free format covers critical risks and opportunities. The full write-up lives in the paid audit.",
     },
   ],
   faqKicker: "FAQ",
   faqTitle: "Common questions",
-  faqLead: "Formats, pricing, access and how this ties to SEO.",
+  faqLead: "Formats, pricing, access, and how this ties to SEO.",
   faq: [
     {
       q: "How is a mini-audit different from a full audit?",
-      a: "Mini — a short video on critical issues and growth points, free for product/service sites. Full — complete written protocol across Analytics, UX, competitors, content and tech.",
+      a: "Mini — a short video on critical issues and opportunities, free for product/service sites. Full — complete written findings across Analytics, UX, competitors, content, and tech.",
     },
     {
       q: "How much does a full audit cost?",
-      a: "Roughly $330–$880. Final price depends on niche, site size and depth — we quote after your request.",
+      a: "Roughly $330–$880. Final price depends on niche, site size, and depth — we quote after your request.",
     },
     {
       q: "Can you evaluate our current SEO contractor?",
-      a: "Yes. Full audits are often ordered as an independent review: what was done, what was missed, where the risks are.",
+      a: "Yes. Full audits are often ordered as an independent review: what got done, what got missed, where the risks are.",
     },
     {
       q: "Do you need Analytics access?",
-      a: "For a solid review — yes (at least view-only). Without analytics, traffic and behavior conclusions will be weaker.",
+      a: "For a solid review — yes (at least view-only). Without analytics, traffic and behavior conclusions will be thinner.",
     },
     {
-      q: "Will the audit put us in TOP rankings?",
-      a: "No. An audit shows what blocks growth. Positions and traffic build in ongoing SEO — over months, not “the week after the report.”",
+      q: "Will the audit put us on page one?",
+      a: "No. An audit shows what’s blocking growth. Rankings and traffic build in ongoing SEO — over months, not “the week after the report.”",
     },
   ],
-  ctaKicker: "Request",
+  ctaKicker: "Get started",
   ctaTitle: "Does the site have critical issues?",
   ctaLead:
-    "Submit a request — we’ll run a mini-audit or scope a full review. You’ll get a video with main risks and growth points.",
+    "Get in touch — we’ll run a mini-audit or scope a full review. You’ll get a video covering the main risks and opportunities.",
   ctaPoints: [
-    "Mini-audit free — video with main risks",
+    "Free mini-audit — video with the main risks",
     "Full report: Analytics, UX, competitors, tech",
     "Priority plan — what to fix first",
   ],
@@ -569,14 +569,14 @@ const auditEn: AuditContent = {
     "Full paid audit",
     "Evaluate SEO contractor",
   ],
-  formMessage: "What concerns you: traffic, leads, rankings?",
-  formAgreeBefore: "I agree to personal data processing under our",
+  formMessage: "What’s on your mind: traffic, leads, rankings?",
+  formAgreeBefore: "I agree to the processing of personal data under our",
   formAgreePolicy: "privacy policy",
-  formSubmit: "Submit request",
-  formSuccess: "Thanks! Your audit request is in — we’ll get back to you.",
+  formSubmit: "Send request",
+  formSuccess: "Thanks! Your audit request is in — we’ll be in touch.",
   formSource: "en-audit",
   footerBrand: "PRIME",
-  footerTagline: "Website audit · diagnostics · growth points",
+  footerTagline: "Website audit · diagnostics · opportunities",
 };
 
 export function getAuditContent(locale: Locale): AuditContent {

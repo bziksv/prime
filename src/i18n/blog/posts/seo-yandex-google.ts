@@ -8,18 +8,18 @@ export const seoYandexGoogleEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/seo-yandex-google/cover-en.webp",
   excerpt:
-    "What’s shared and where Yandex and Google diverge: semantics, commercial factors, locality, webmaster panels, links, and content — a practical map for Russia without the myth “one algorithm for both”.",
+    "What’s shared and where Yandex and Google diverge: keywords, commercial factors, locality, webmaster panels, links, and content — a practical map for Russia without the myth “one algorithm for both”.",
   lead: [
     "In the Russian-speaking web you often need both engines: Yandex and Google share depends on niche and region. The base is shared — useful pages, tech, clear intent. Accents differ: Yandex often weighs locality and commercial signals harder on many queries; Google — global practices and its own tool ecosystem.",
-    "Below — a working comparison for a site in Russia. Separately: on markets where only Google dominates, strategy leans toward “Western” SEO. Prep — weeks; core TOP buildup planned 2–6 months after work starts — in both engines with no promised date.",
+    "A practical comparison for a site targeting Russia. Separately: in markets where Google dominates alone, strategy leans toward “Western” SEO. Prep takes weeks; building the core into the TOP is planned for 2–6 months after work starts—in both engines, with no promised date.",
   ],
   faq: [
     {
-      q: "Can you promote “Google only” in Russia?",
+      q: "Can I promote “Google only” in Russia?",
       a: "You can if the audience is there. You often lose a noticeable share of Yandex demand. Check Metrica/channel share by niche.",
     },
     {
-      q: "Same core for both engines?",
+      q: "Should I use the same keyword core for both engines?",
       a: "The core is shared; cross-check frequencies and phrasing in Wordstat and Google tools/GSC. Clusters and landings are usually one set.",
     },
     {
@@ -27,23 +27,23 @@ export const seoYandexGoogleEn: BlogPost = {
       a: "On commercial queries in Russia, Yandex is often sensitive to contacts, prices, assortment, trust. Google also looks at page quality, but the “storefront” checklist in RU practice is more often run against Yandex.",
     },
     {
-      q: "Is Webmaster region = Google region?",
-      a: "Different cabinets and signals. Confirm locality with content, NAP, maps — not one checkbox.",
+      q: "Is a Webmaster region the same as Google’s region signals?",
+      a: "Different accounts and signals. Confirm locality with content, NAP, maps — not one checkbox.",
     },
     {
-      q: "Do links work the same?",
+      q: "Do links work the same in both engines?",
       a: "Donor quality matters everywhere. Filter history and anchor weight differed by engine; don’t blindly copy “Western” buy schemes into Russia.",
     },
     {
-      q: "Do you need two different sites?",
+      q: "Do I need two different sites?",
       a: "Usually no: one site, two panels, shared semantics. Separate domains — for different countries/languages, not for “Yandex vs Google”.",
     },
     {
-      q: "Do sanctions and filters match?",
-      a: "No. Each has its own rules and action history. Watch both cabinets and don’t copy “treatment” one-to-one.",
+      q: "Do sanctions and filters match across engines?",
+      a: "No. Each has its own rules and action history. Watch both accounts and don’t copy “treatment” one-to-one.",
     },
     {
-      q: "What about voice and mobile?",
+      q: "What about voice search and mobile?",
       a: "Mobile-first and speed matter for both. Voice scenarios lean more on conversational long-tail, FAQ, and local profiles — see the separate article.",
     },
   ],
@@ -90,7 +90,7 @@ export const seoYandexGoogleEn: BlogPost = {
           items: [
             "one core, two frequency/impression checks;",
             "commercial blocks on money URLs;",
-            "don’t spawn thin duplicates “per engine”.",
+            "don’t create thin duplicates “per engine”.",
           ],
         },
       ],
@@ -110,7 +110,7 @@ export const seoYandexGoogleEn: BlogPost = {
       level: 2,
       paras: [
         "Yandex has traditionally been strong in geo-dependent SERP and directories. Google — in Maps / Business Profile. For offline business in Russia you usually run both tracks with consistent NAP.",
-        "Region in the cabinet is a signal, not a replacement for city pages, contacts, and real delivery terms.",
+        "Region in the account is a signal, not a replacement for city pages, contacts, and real delivery terms.",
       ],
       lists: [
         {
@@ -138,14 +138,14 @@ export const seoYandexGoogleEn: BlogPost = {
       title: "Panels, tech, and links",
       level: 2,
       paras: [
-        "Yandex Webmaster and Google Search Console are a required duo for Russia: crawl errors, coverage, queries, security. Don’t fix only one cabinet.",
+        "Yandex Webmaster and Google Search Console are a required duo for Russia: crawl errors, coverage, queries, security. Don’t only fix one account.",
         "Judge the backlink profile carefully: quality over volume. Schemes tied to one market transfer poorly without filter-risk analysis.",
       ],
       lists: [
         {
           intro: "Control:",
           items: [
-            "both cabinets connected;",
+            "both accounts connected;",
             "sitemap and canonical aligned;",
             "links — no “just in case” spam;",
             "manual monitoring after releases.",
@@ -203,7 +203,7 @@ export const seoYandexGoogleEn: BlogPost = {
         {
           intro: "Rhythm:",
           items: [
-            "monthly — both cabinets;",
+            "monthly — both accounts;",
             "core and ranks by priority clusters;",
             "commercial and local by real business;",
             "no promises of “TOP in a week in both”.",

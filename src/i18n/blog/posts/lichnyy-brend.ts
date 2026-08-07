@@ -11,7 +11,7 @@ export const lichnyyBrendEn: BlogPost = {
     "What a personal brand is, who it helps sell services and expertise, how to pick a niche, channel, and content mix — without cross-posting to every network at once.",
   lead: [
     "A personal brand is a stable expert image in the audience’s mind: “this person solves that kind of problem.” It’s not a company logo — it’s one specialist’s reputation.",
-    "Below — who benefits, how to narrow the niche, where to start on social, and which content to rotate. Platform UIs change; strategy and cadence matter more than “hacking the algorithm.” Informational overview.",
+    "Who benefits, how to narrow your niche, where to start on social, and which content to cycle — below. Platform UIs change; strategy and cadence matter more than “hacking the algorithm.” Informational overview.",
   ],
   faq: [
     {
@@ -19,19 +19,19 @@ export const lichnyyBrendEn: BlogPost = {
       a: "Corporate is about the company and product. Personal is about the expert as a person. They often reinforce each other: a founder’s face pulls trust to the firm.",
     },
     {
-      q: "Who benefits most?",
+      q: "Who benefits most from a personal brand?",
       a: "Consultants, agencies, premium services, creative and B2B experts — where people buy the person and competence, not only an SKU.",
     },
     {
-      q: "How many channels at once?",
+      q: "How many channels should I run at once?",
       a: "One main, two at most. Scale after first results. Cross-posting the same text everywhere is usually weak.",
     },
     {
-      q: "Do you need “freebies”?",
+      q: "Do I need “freebies”?",
       a: "Often yes: a useful slice of the solution builds trust; depth is the paid product. Pure selling with no value burns out fast.",
     },
     {
-      q: "Does it bring sales quickly?",
+      q: "Does a personal brand bring sales quickly?",
       a: "Usually months of cadence. In parallel you can sell services/consulting — a personal brand compounds longer.",
     },
   ],

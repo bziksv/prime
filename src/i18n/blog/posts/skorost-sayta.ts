@@ -8,30 +8,30 @@ export const skorostSaytaEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/skorost-sayta/cover-en.webp",
   excerpt:
-    "How to measure page load speed: lab vs field data, Core Web Vitals, PageSpeed Insights, and what to do with the report — without a cult of “100 points” or an outdated top-10 tools list from 2018.",
+    "How to measure page load speed: lab vs. field data, Core Web Vitals, PageSpeed Insights, and what to do with the report — without a cult of “100 points” or an outdated top-10 tools list from 2018.",
   lead: [
     "A slow page loses people and search signals. Speed checks aren’t a race to a hundred in PageSpeed — they’re understanding what blocks (server, images, JS) and on which URLs it matters.",
-    "Below — lab vs field, which metrics to watch, a basic tool set, and how to read recommendations. We don’t reprint a ten-service price list from 2018: some aged out, some changed products. Speeding up WordPress is a separate article.",
+    "We cover lab vs. field metrics, which numbers to watch, a basic tool set, and how to read recommendations. We don’t reprint a ten-tool price list from 2018—some aged out, some changed products. Speeding up WordPress is a separate article.",
   ],
   faq: [
     {
-      q: "Do you need 100 points in PageSpeed?",
+      q: "Do I need 100 points in PageSpeed?",
       a: "No. What matters more is LCP/INP/CLS in the green zone on mobile for key URLs — and real UX.",
     },
     {
-      q: "Are lab and field the same?",
+      q: "Are lab and field metrics the same?",
       a: "No. Lab (Lighthouse) is a controlled run. Field (CrUX) is real-user data. Watch both.",
     },
     {
-      q: "Is Webmaster enough?",
+      q: "Is Webmaster alone enough to judge speed?",
       a: "Helpful for availability and some diagnostics, but it doesn’t replace PSI/CWV for load perception.",
     },
     {
-      q: "Does speed = TOP?",
+      q: "Does speed equal TOP rankings?",
       a: "Indirectly via UX and crawl. Core positions take planned months of work — not “ran PSI = TOP.”",
     },
     {
-      q: "Which URL to start with?",
+      q: "Which URL should I start with?",
       a: "Home, top landings from ads/organic, product/service, checkout.",
     },
   ],

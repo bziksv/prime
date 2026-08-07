@@ -11,15 +11,15 @@ export const reklamaOdnoklassnikiEn: BlogPost = {
     "Who OK ads fit, what ad tone works, how to think about formats and audience, and how to measure response — without outdated pixels and ad-account screenshots.",
   lead: [
     "Odnoklassniki is its own environment: a different feed mood, different audience habits, and a different response to an offer. Copying creatives “as from VK” one-to-one often fails.",
-    "Below — when the channel fits, how to write ads, what to watch in formats and setup, and how to read stats. The account UI and creative rules change — check current sizes and buttons in the live VK Ads / ad account help.",
+    "We look at when the channel fits, how to write ads that get replies, what to watch in formats and setup, and how to read results. Account UI and creative rules change—confirm sizes and buttons in current VK Ads help.",
   ],
   faq: [
     {
-      q: "Who are OK ads a good fit for?",
+      q: "Who should consider OK ads?",
       a: "More often local and “clear” offers: services, delivery, windows, loans, seasonal goods, events. A complex niche product with no benefit explained usually underperforms.",
     },
     {
-      q: "What is the audience age?",
+      q: "What’s the typical audience age?",
       a: "Older segments are stronger, but it is not “40+ only”. Use your own stats and tests — not meme myths.",
     },
     {
@@ -27,19 +27,19 @@ export const reklamaOdnoklassnikiEn: BlogPost = {
       a: "Concrete details: price, deadline, geo, promo. Abstract lifestyle with no offer gets fewer qualified responses.",
     },
     {
-      q: "Which account should you run from?",
+      q: "Which account should I run ads from?",
       a: "OK ads usually go through the VK Ads ecosystem (historically myTarget and related accounts). Section names change — follow the current UI.",
     },
     {
-      q: "Do giveaways work?",
+      q: "Do giveaways work on OK?",
       a: "Reposts and “Class” reactions for a prize drive reach, but often noisy audiences. For sales, offer and landing matter more than virality alone.",
     },
     {
-      q: "Which metrics matter?",
+      q: "Which metrics should I track?",
       a: "Impressions, clicks, CTR, visits, leads/purchases, CPA. Likes (“Class”) are secondary when the goal is sales.",
     },
     {
-      q: "Can you send traffic to a site?",
+      q: "Can I send traffic to a site?",
       a: "Yes, if platform policy and moderation allow it. For a community, join / message goals are also valid scenarios.",
     },
   ],
@@ -53,7 +53,7 @@ export const reklamaOdnoklassnikiEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "What strengthens response:",
+          intro: "What improves response:",
           items: [
             "a concrete benefit and promo deadline;",
             "geo and a clear next step;",
@@ -97,7 +97,7 @@ export const reklamaOdnoklassnikiEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Mini launch order:",
+          intro: "Launch order:",
           items: [
             "goal and landing;",
             "ad with a concrete offer;",
@@ -109,7 +109,7 @@ export const reklamaOdnoklassnikiEn: BlogPost = {
       ],
       links: [
         {
-          label: "Ad account",
+          label: "Ad account setup",
           href: "/en/blog/reklamnyy-kabinet/",
         },
       ],

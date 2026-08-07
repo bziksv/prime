@@ -5,29 +5,29 @@ export const metrikaNeRabotaetEn: BlogPost = {
   slug: "metrika-ne-rabotaet",
   title: "Why Yandex Metrica isn’t working on the site",
   date: "2020-11-19",
-  category: "SEO",
+  category: "Analytics",
   cover: "/images/blog/metrika-ne-rabotaet/cover-en.webp",
   excerpt:
     "What to do if the Metrica counter isn’t counting visits, Session Replay is silent, the informer is empty, or goals don’t fire: a calm diagnostics checklist.",
   lead: [
     "Metrica “silent” or wrong is common after a theme change, cache, tag manager, or blockers. First separate: code isn’t loading at all, data exists but looks off, or a module is broken (Session Replay / Webvisor, goals, informer).",
-    "Below — typical causes and check order. Fresh install is in the Metrica setup article; here the focus is breakage.",
+    "Typical causes and a check order follow. Fresh install is covered in the Metrica setup article; this piece focuses on breakage.",
   ],
   faq: [
     {
-      q: "Counter is installed but no visits — where to start?",
-      a: "Open the site in incognito without blockers, check “online” in the cabinet, DevTools → Network for requests to mc.yandex, counter number match.",
+      q: "The counter is installed but shows no visits — where should I start?",
+      a: "Open the site in incognito without blockers, check “online” in the account, DevTools → Network for requests to mc.yandex, counter number match.",
     },
     {
       q: "Why do I see visits and a colleague doesn’t?",
       a: "Often AdBlock / built-in browser protection / corporate filter blocks the script. Check reports without your own IP filters.",
     },
     {
-      q: "Webvisor isn’t recording — is Metrica broken?",
+      q: "If Webvisor isn’t recording, is Metrica broken?",
       a: "Not necessarily. Session Replay is enabled separately; it’s heavier and sensitive to CSP, mixed content, and settings. Base visits may still flow.",
     },
     {
-      q: "Goals don’t fire — is the counter code at fault?",
+      q: "If goals don’t fire, is the counter code at fault?",
       a: "More often the goal condition, SPA without a hit, AJAX form without reachGoal, or a goal on the wrong URL. Use the goals debugger.",
     },
     {
@@ -35,12 +35,12 @@ export const metrikaNeRabotaetEn: BlogPost = {
       a: "Yes, if an old template without the counter was served from CDN/cache plugin. After edits, flush HTML cache.",
     },
     {
-      q: "Do you need a separate counter on a subdomain?",
+      q: "Do I need a separate counter on a subdomain?",
       a: "Depends on the task. Sometimes one counter with host filters; sometimes separate. Main point — code on every needed template.",
     },
     {
-      q: "Empty informer — disaster?",
-      a: "The informer is a site widget. Its failure doesn’t mean the cabinet is dead. Check informer code and cache separately.",
+      q: "Is an empty informer a disaster?",
+      a: "The informer is a site widget. Its failure doesn’t mean the account is dead. Check informer code and cache separately.",
     },
     {
       q: "Is Metrica via GTM/tag manager worse?",
@@ -59,11 +59,11 @@ export const metrikaNeRabotaetEn: BlogPost = {
         {
           intro: "Quick checklist:",
           items: [
-            "counter number = cabinet;",
-            "code in the source of all key templates;",
-            "Metrica request in Network (not red);",
-            "CMS/CDN cache flush;",
-            "check without AdBlock;",
+            "counter number = account",
+            "code in the source of all key templates",
+            "Metrica request in Network (not red)",
+            "CMS/CDN cache flush",
+            "check without AdBlock",
             "no two different counters at once.",
           ],
         },
@@ -80,16 +80,16 @@ export const metrikaNeRabotaetEn: BlogPost = {
       level: 2,
       paras: [
         "Webvisor / Session Replay records behavior and needs a separate toggle in counter settings. If visits flow but no recordings — check the option, limits, third-party script blocking, and Content-Security-Policy.",
-        "On SPAs and pages with strict CSP recording may break. Mixed content (HTTPS site loading HTTP) also hurts. For diagnosis compare a normal hit with Webvisor sessions in the cabinet.",
+        "On SPAs and pages with strict CSP recording may break. Mixed content (HTTPS site loading HTTP) also hurts. For diagnosis compare a normal hit with Webvisor sessions in the account.",
       ],
       lists: [
         {
           intro: "What to check:",
           items: [
-            "Webvisor enabled in settings;",
-            "no aggressive blocker;",
-            "CSP not cutting required Yandex domains;",
-            "page served over HTTPS stably;",
+            "Webvisor enabled in settings",
+            "no aggressive blocker",
+            "CSP not cutting required Yandex domains",
+            "page served over HTTPS stably",
             "tried recording from a “clean” visit.",
           ],
         },
@@ -106,16 +106,16 @@ export const metrikaNeRabotaetEn: BlogPost = {
       title: "Informer shows no numbers",
       level: 2,
       paras: [
-        "The informer is a separate code fragment/widget on the site. It can break on a theme change while the Metrica cabinet is fine. Confirm the informer block is present and not hidden by CSS, and cache isn’t serving a stub.",
-        "If you only need the cabinet — the informer isn’t required. For public “visit counters” on the site, remember part of the audience blocks scripts — the number is always incomplete.",
+        "The informer is a separate code fragment/widget on the site. It can break on a theme change while the Metrica account is fine. Confirm the informer block is present and not hidden by CSS, and cache isn’t serving a stub.",
+        "If you only need the account — the informer isn’t required. For public “visit counters” on the site, remember part of the audience blocks scripts — the number is always incomplete.",
       ],
       lists: [
         {
           intro: "Typical causes:",
           items: [
-            "widget removed in a redesign;",
-            "old informer ID;",
-            "HTML cache;",
+            "widget removed in a redesign",
+            "old informer ID",
+            "HTML cache",
             "informer script blocked.",
           ],
         },
@@ -132,10 +132,10 @@ export const metrikaNeRabotaetEn: BlogPost = {
         {
           intro: "Common mistakes:",
           items: [
-            "goal on http, site on https;",
-            "typo in the reachGoal id;",
-            "form submits but the goal is on another button;",
-            "CRM has a conversion but no Metrica hit;",
+            "goal on http, site on https",
+            "typo in the reachGoal id",
+            "form submits but the goal is on another button",
+            "CRM has a conversion but no Metrica hit",
             "testing from an IP in exclusions.",
           ],
         },
@@ -158,9 +158,9 @@ export const metrikaNeRabotaetEn: BlogPost = {
         {
           intro: "After a template edit:",
           items: [
-            "cache flush;",
-            "check 3–4 page types;",
-            "mobile and desktop;",
+            "cache flush",
+            "check 3–4 page types",
+            "mobile and desktop",
             "publish GTM if you use it.",
           ],
         },
@@ -170,17 +170,17 @@ export const metrikaNeRabotaetEn: BlogPost = {
       title: "Diagnostics order without chaos",
       level: 2,
       paras: [
-        "Go in layers: code on the page → network/blockers → cabinet (online) → reports/filters → module (goals/Webvisor/informer). Log what you already checked — or the team spins the same hypotheses.",
-        "If data vanished after a release — roll back or diff the template. If “suddenly” with no deploy — more often blockers, filters, quota, or domain/mirror change.",
+        "Go in layers: code on the page → network/blockers → account (online) → reports/filters → module (goals/Webvisor/informer). Log what you already checked — or the team spins the same hypotheses.",
+        "If data vanished after a release — roll back or diff the template. If it stopped “suddenly” with no deploy — more often blockers, filters, quota, or domain/mirror change.",
       ],
       lists: [
         {
-          intro: "Mini ritual:",
+          intro: "Quick checklist:",
           items: [
-            "incognito + visit;",
-            "Network for mc.yandex;",
-            "online in the cabinet;",
-            "goal/Webvisor specifically;",
+            "incognito + visit",
+            "Network for mc.yandex",
+            "online in the account",
+            "goal/Webvisor specifically",
             "ticket note: symptom → hypothesis → result.",
           ],
         },
@@ -189,7 +189,7 @@ export const metrikaNeRabotaetEn: BlogPost = {
         {
           title: "Common mistake",
           kind: "tip",
-          text: "Reinstalling the counter “from scratch” every time. Find the broken layer first — or you’ll get duplicate numbers and a messy history.",
+          text: "Reinstalling the counter from scratch every time. Find the broken layer first — or you’ll get duplicate numbers and a messy history.",
         },
       ],
       links: [

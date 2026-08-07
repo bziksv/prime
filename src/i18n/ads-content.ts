@@ -199,13 +199,13 @@ const adsEn: AdsContent = {
   breadcrumbHome: "Home",
   breadcrumbCurrent: "Paid search",
   menuLabel: "Menu",
-  ctaTop: "Submit a request",
+  ctaTop: "Talk to us",
   brandBefore: "PRIM",
   brandAccent: "E",
   heroTitleBefore: "Paid search — customers from Google ",
   heroTitleAccent: "starting today",
   heroLead:
-    "Google Ads: strategy, ads, negatives and bids. Management is a fixed fee by media budget — from $70/month. Ad spend and agency work on separate invoices.",
+    "Google Ads: strategy, creative, negatives, and bids. Management is a fixed fee by media budget — from $70/month. Ad spend and agency work stay on separate invoices.",
   heroCtaPrimary: "Book a consult",
   heroCtaSecondary: "See management fees",
   heroPoints: [
@@ -220,16 +220,16 @@ const adsEn: AdsContent = {
   ],
   notFitTitle: "When paid search won’t help",
   notFitLead:
-    "Straight talk up front: if this is you — fix the business and offer first, then ads.",
+    "Straight talk up front: if this is you, fix the offer and operations first — then run ads.",
   notFitMark: "stop",
   notFit: [
     {
       title: "Weak product quality",
-      text: "If the offer or delivery is weak, ads only speed up customer disappointment.",
+      text: "If the offer or delivery is weak, ads only accelerate customer disappointment.",
     },
     {
       title: "No analytics or feedback",
-      text: "You don’t track ad spend vs profit and won’t share numbers with the agency.",
+      text: "You don’t track ad spend against profit and won’t share numbers with the agency.",
     },
     {
       title: "Margin under $25",
@@ -237,42 +237,43 @@ const adsEn: AdsContent = {
     },
   ],
   processTitle: "Ready? How we work",
-  processLead: "From request to a working sales channel — not “launch and disappear.”",
+  processLead:
+    "From first conversation to a working sales channel — not “launch and disappear.”",
   steps: [
     {
       n: "01",
-      title: "Request",
-      text: "Submit the form — we start with a talk about the goal and budget.",
+      title: "Talk to us",
+      text: "Fill out the form — we start with a conversation about the goal and budget.",
     },
     {
       n: "02",
-      title: "Needs discovery",
-      text: "Priority directions, why CPC differs in one niche, how we cut cost-per-click early. Contract when scope is clear.",
+      title: "Discovery",
+      text: "We map priority directions, why CPC varies in your niche, and how we cut cost-per-click early. Contract once scope is clear.",
     },
     {
       n: "03",
       title: "Site audit",
-      text: "We check conversion: if the site needs work, we’ll say what. Some findings appear after the first analytics pass.",
+      text: "We check conversion readiness. If the site needs work, we’ll say what. Some findings show up after the first analytics pass.",
     },
     {
       n: "04",
       title: "Campaign strategy",
-      text: "Keyword core, ads, negatives, CPC targets, daily budget, formats and Google channels.",
+      text: "Keywords, ads, negatives, CPC targets, daily budget, formats, and Google channels.",
     },
     {
       n: "05",
       title: "Alignment and invoices",
-      text: "We finalize USP and formats. Two invoices: agency management and Google ad spend — every dollar is visible.",
+      text: "We finalize the USP and formats. Two invoices: agency management and Google ad spend — every dollar stays visible.",
     },
     {
       n: "06",
       title: "Launch in Google Ads",
-      text: "Ads, placement exclusions, UTM on every ad, bid module via API, stats and call tracking when needed.",
+      text: "Ads live, placement exclusions, UTM on every ad, bid module via API, reporting, and call tracking when needed.",
     },
     {
       n: "07",
       title: "Analytics and split tests",
-      text: "After ~2 weeks — review: formats, copy, negatives, exclusions, Analytics. Adjust and repeat.",
+      text: "After about two weeks we review formats, copy, negatives, exclusions, and Analytics — then adjust and repeat.",
     },
   ],
   edgesTitle: "What sets us apart",
@@ -319,7 +320,7 @@ const adsEn: AdsContent = {
   pricingEyebrow: "Management fees",
   pricingTitle: "What management costs",
   pricingNote:
-    "Media budget is paid separately to Google. Agency work is a separate invoice. Management fee depends on monthly media budget — not a percentage of top-ups.",
+    "Media budget is paid separately to Google. Agency work is a separate invoice. Management fee depends on monthly media budget — not a percentage of spend.",
   invoiceAgency: { label: "Invoice 1 · PRIME services", value: "campaign management" },
   invoiceMedia: { label: "Invoice 2 · Google", value: "media budget" },
   tiers: [
@@ -351,18 +352,18 @@ const adsEn: AdsContent = {
       accent: false,
     },
   ],
-  tierCta: "Request management",
+  tierCta: "Book management",
   includeTitle: "What’s included",
   include: [
     "Strategy and campaign structure in Google Ads",
     "Ads, negatives, placement blacklist",
-    "UTM tagging and stats control",
+    "UTM tagging and reporting control",
     "Bid adjustments and optimization from results",
     "Reports and changes after split tests",
   ],
   showCases: false,
   casesTitle: "Paid search case studies",
-  casesLead: "Trust real projects — not thank-you letters.",
+  casesLead: "Judge us on real projects — not thank-you notes.",
   casesAll: "All paid search cases",
   outcomesTitle: "What you get in practice",
   outcomesLead: "Not impressions for a report — a managed lead channel from search.",
@@ -373,15 +374,15 @@ const adsEn: AdsContent = {
     },
     {
       title: "Clear economics",
-      text: "Two invoices, UTM and reports: see media spend, management fee and what actually drives clicks and leads.",
+      text: "Two invoices, UTM, and reports: see media spend, management fee, and what actually drives clicks and leads.",
     },
     {
       title: "Improvement loop",
-      text: "Negatives, blacklist, bids and split tests — not “launch and forget,” but steady optimization.",
+      text: "Negatives, blacklist, bids, and split tests — not “launch and forget,” but steady optimization.",
     },
   ],
   faqTitle: "FAQ",
-  faqLead: "Fees, platforms, timelines and site readiness.",
+  faqLead: "Fees, platforms, timelines, and site readiness.",
   faq: [
     {
       q: "Why isn’t management a % of spend?",
@@ -389,7 +390,7 @@ const adsEn: AdsContent = {
     },
     {
       q: "Is Google Ads the only option?",
-      a: "For worldwide markets we lead with Google Ads (Search and Display). Other networks are discussed if they fit the niche and budget.",
+      a: "For worldwide markets we lead with Google Ads (Search and Display). Other networks are on the table if they fit the niche and budget.",
     },
     {
       q: "How much media budget to start?",
@@ -401,17 +402,17 @@ const adsEn: AdsContent = {
     },
     {
       q: "What if the site converts poorly?",
-      a: "We audit conversion before launch. If the site leaks — we’ll say what to fix; otherwise ads only warm someone else’s wallet.",
+      a: "We audit conversion before launch. If the site leaks, we’ll say what to fix — otherwise ads only burn budget for someone else’s benefit.",
     },
   ],
   ctaTitle: "Want leads from Google Search now?",
   ctaLead:
-    "Share your niche and media-budget range — we’ll suggest a management tier and a realistic Google Ads launch plan.",
+    "Share your niche and media-budget range — we’ll recommend a management tier and a realistic Google Ads launch plan.",
   ctaPoints: [
-    "Management fee by media budget — no % of top-ups",
+    "Management fee by media budget — no % of spend",
     "Two invoices: PRIME services and media spend",
     "Launch in Google Ads",
-    "Negatives, UTM and bid optimization",
+    "Negatives, UTM, and bid optimization",
   ],
   formName: "Your name",
   formPhone: "Phone",
@@ -428,8 +429,8 @@ const adsEn: AdsContent = {
   formMessage: "Niche and goal — briefly",
   formAgreeBefore: "I agree to personal data processing under our",
   formAgreePolicy: "privacy policy",
-  formSubmit: "Submit request",
-  formSuccess: "Thanks! Your ads request is in — we’ll get back to you.",
+  formSubmit: "Book a consult",
+  formSuccess: "Thanks! Your ads inquiry is in — we’ll get back to you.",
   formSource: "en-ads",
   footerBrand: "PRIME",
   footerTagline: "Paid search · Google Ads management",

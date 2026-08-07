@@ -5,13 +5,13 @@ export const googlePartnerEn: BlogPost = {
   slug: "google-partner",
   title: "Google Partner: how to get partner status",
   date: "2020-02-07",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/google-partner/cover-en.webp",
   excerpt:
     "What Google Partner and Premier Partner status give agencies: Skillshop certification, account spend and performance, why the badge matters — without outdated dollar thresholds as “law.”",
   lead: [
     "Google Partner is a program for agencies and specialists who run Google Ads through an MCC (manager account). Status signals expertise to clients and opens training, support, and sometimes bonuses — the exact set depends on level and market.",
-    "Below — level logic, certification, spend, and performance. Spend thresholds and certificate counts have changed; current numbers and rules live only in official Google Partners / Skillshop materials — not in 2017–2020 guides.",
+    "What matters: certification, spend across managed accounts, and performance. Spend thresholds and certificate counts have changed; current numbers and rules live only in official Google Partners / Skillshop materials — not in frozen blog screenshots.",
   ],
   faq: [
     {
@@ -28,18 +28,18 @@ export const googlePartnerEn: BlogPost = {
     },
     {
       q: "Is the badge on the website required?",
-      a: "No, but under program rules it builds trust. Badge specializations (Search, Shopping, Display, etc.) must match reality.",
+      a: "No, but under program rules it builds trust. Badge specializations (Search, Shopping, Display, and so on) must match reality.",
     },
     {
-      q: "Is status forever?",
+      q: "Is Google Partner status forever?",
       a: "No. You must keep meeting criteria and renew certification — or the level drops.",
     },
     {
       q: "Does it replace quality Ads management?",
-      a: "No. Partnership is a signal and access to resources. Clients care more about CPA/ROMI than the badge alone.",
+      a: "No. Partnership is a signal and access to resources. Clients care more about CPA and ROMI (return on marketing investment) than the badge alone.",
     },
     {
-      q: "How much do you “need to spend”?",
+      q: "How much spend do you need?",
       a: "There are spend thresholds over a period across MCC accounts — they depend on level and region and change. Don’t copy someone else’s “$10k / 90 days” from old articles.",
     },
   ],
@@ -55,9 +55,9 @@ export const googlePartnerEn: BlogPost = {
         {
           intro: "Typical status pillars (meaning, not numbers):",
           items: [
-            "staff certification on Ads products;",
-            "enough spend across managed accounts;",
-            "management quality/performance (not only “spend the budget”);",
+            "staff certification on Ads products",
+            "enough spend across managed accounts",
+            "management quality/performance (not only “spend the budget”)",
             "stable MCC work and client base.",
           ],
         },
@@ -67,7 +67,7 @@ export const googlePartnerEn: BlogPost = {
       title: "Certification in Skillshop",
       level: 2,
       paras: [
-        "Staff take exams on Google Ads and related products (Search, Display, analytics, etc. — the course list changes). The learning profile must link to the agency work account, or the certificate “doesn’t count” for partnership.",
+        "Staff take exams on Google Ads and related products (Search, Display, analytics, and more — the course list changes). The learning profile must link to the agency work account, or the certificate “doesn’t count” for partnership.",
         "There are prep modules before the exam; you can go straight in if practice is strong. Don’t switch tabs and “Google answers” — the system flags violations, and questions update.",
         "A certificate helps a resume and tender. For an agency, closing the required number of live certificates with profile access matters more than “downloading a PDF for the showcase.”",
       ],
@@ -96,7 +96,7 @@ export const googlePartnerEn: BlogPost = {
         },
         {
           label: "Ad campaign audit",
-          href: "/blog/audit-reklamnoy-kampanii/",
+          href: "/en/blog/audit-reklamnoy-kampanii/",
         },
       ],
     },
@@ -110,12 +110,12 @@ export const googlePartnerEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Realistic upsides:",
+          intro: "Realistic benefits:",
           items: [
-            "trust when a client picks a vendor;",
-            "access to training and product updates;",
-            "an escalation path for hard cases;",
-            "sometimes early tool access;",
+            "trust when a client picks a vendor",
+            "access to training and product updates",
+            "an escalation path for hard cases",
+            "sometimes early tool access",
             "motivation for the team to keep certification live.",
           ],
         },
@@ -132,10 +132,10 @@ export const googlePartnerEn: BlogPost = {
         {
           intro: "Remember:",
           items: [
-            "thresholds only from current Google help;",
-            "a certificate ≠ automatic Partner;",
-            "Premier is a separate bar;",
-            "status must be maintained;",
+            "thresholds only from current Google Help",
+            "a certificate ≠ automatic Partner",
+            "Premier is a separate bar",
+            "status must be maintained",
             "client economics beat the showcase.",
           ],
         },

@@ -5,17 +5,17 @@ export const prodvizhenieOfflaynBiznesaEn: BlogPost = {
   slug: "prodvizhenie-offlayn-biznesa",
   title: "Promoting an offline business: maps, reviews, hyperlocal, and visit measurement",
   date: "2019-08-29",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/prodvizhenie-offlayn-biznesa/cover-en.webp",
   excerpt:
     "How to bring people to a location: map listings, reviews, hyperlocal ads and SMS, outdoor/indoor, and the online→offline link — without betting on outdated MAC radar.",
   lead: [
     "A café, clinic, salon, and neighborhood shop don’t live on the storefront alone. Maps, reviews, “nearby” ads, and clear visit/call measurement decide whether people find you on a phone and reach the door.",
-    "Below — a working channel set for an offline point. Platform UIs and prices change; privacy and ID randomization weakened old MAC-collection schemes — don’t build strategy only on them.",
+    "A working channel set for an offline point starts with basics you control. Platform UIs and prices change; privacy and ID randomization weakened old MAC-collection schemes — don’t build strategy only on them.",
   ],
   faq: [
     {
-      q: "Where to start without a big budget?",
+      q: "Where should I start without a big budget?",
       a: "Listings on Google/Yandex/local directories with full NAP, photos, and hours + replies to reviews. Then geo ads around the point.",
     },
     {
@@ -27,11 +27,11 @@ export const prodvizhenieOfflaynBiznesaEn: BlogPost = {
       a: "Weaker than in the late 2010s: OSes randomize MAC, platform rules are stricter. Don’t promise a “full list of passers-by” as a growth base.",
     },
     {
-      q: "How do you know ads brought someone in?",
+      q: "How do I know ads brought someone in?",
       a: "Promo codes, call tracking, UTM to a landing, “how did you hear” surveys, and where available — store visit / offline conversions in ad accounts. Cross-check several signals.",
     },
     {
-      q: "Can you fake reviews?",
+      q: "Can I use fake reviews?",
       a: "No. Platforms ban, clients spot templates. Better ask for a real review after a good visit and calmly handle negativity.",
     },
     {
@@ -51,10 +51,10 @@ export const prodvizhenieOfflaynBiznesaEn: BlogPost = {
         {
           intro: "Listing minimum:",
           items: [
-            "exact address and map pin;",
-            "current phone;",
-            "hours without “surprises”;",
-            "photos and a short service description;",
+            "exact address and map pin",
+            "current phone",
+            "hours without “surprises”",
+            "photos and a short service description",
             "replies to reviews.",
           ],
         },
@@ -103,9 +103,9 @@ export const prodvizhenieOfflaynBiznesaEn: BlogPost = {
         {
           intro: "What to measure:",
           items: [
-            "calls from maps and ads;",
-            "promo codes/coupons by channel;",
-            "UTM to a “how to get here” landing;",
+            "calls from maps and ads",
+            "promo codes/coupons by channel",
+            "UTM to a “how to get here” landing",
             "checkout survey “how did you hear”.",
           ],
         },

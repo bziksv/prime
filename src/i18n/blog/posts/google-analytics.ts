@@ -5,17 +5,17 @@ export const googleAnalyticsEn: BlogPost = {
   slug: "google-analytics",
   title: "Google Analytics for an online store: customer behavior",
   date: "2020-10-13",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/google-analytics/cover-en.webp",
   excerpt:
     "How to read online-store audience behavior in Google Analytics: segments, funnel, reports, and hypotheses — grounded in GA4, without worshipping “average” metrics.",
   lead: [
     "A counter alone doesn’t explain why people don’t buy. Google Analytics helps a store through segments and the funnel: who reaches the cart, where they drop, how new and returning visitors differ.",
-    "Below — what’s needed for analysis, how to read base reports, and how to deepen segmentation. Code install and goals are related topics; here the focus is ecommerce behavior. The GA4 UI changes — lean on metric meaning, not 2020 button layouts.",
+    "What’s needed for analysis, how to read base reports, and how to deepen segmentation. Code install and goals are related topics; here the focus is ecommerce behavior. The GA4 UI changes — lean on metric meaning, not button placement.",
   ],
   faq: [
     {
-      q: "GA or Yandex Metrica?",
+      q: "Should I use GA or Yandex Metrika?",
       a: "Often both: Metrica is closer to RU traffic and session replay; GA — to the Google Ads ecosystem and cross-product reports. Follow the task, not “counter religion”.",
     },
     {
@@ -31,15 +31,15 @@ export const googleAnalyticsEn: BlogPost = {
       a: "So you don’t stare at an “average conversion” for the whole site, but see where the path to order actually breaks.",
     },
     {
-      q: "Do you need ecommerce markup?",
+      q: "Do I need ecommerce markup?",
       a: "Yes — or you won’t see products, revenue, and purchase steps. Without it you stay on pageviews.",
     },
     {
-      q: "How often to check reports?",
+      q: "How often should I check reports?",
       a: "Operationally — weekly on funnel and sources; deep segments — under hypotheses, not daily “for numbers”.",
     },
     {
-      q: "Personal data?",
+      q: "What about personal data in Analytics?",
       a: "Don’t collect PII in GA against policy. Follow cookie/consent rules and platform policies.",
     },
     {
@@ -59,10 +59,10 @@ export const googleAnalyticsEn: BlogPost = {
         {
           intro: "Setup minimum:",
           items: [
-            "GA4 tag on the site;",
-            "conversions/key events;",
-            "ecommerce or at least purchase;",
-            "exclude your IP/office;",
+            "GA4 tag on the site",
+            "conversions/key events",
+            "ecommerce or at least purchase",
+            "exclude your IP/office",
             "link to ads when needed.",
           ],
         },
@@ -85,10 +85,10 @@ export const googleAnalyticsEn: BlogPost = {
         {
           intro: "First weekly pass:",
           items: [
-            "traffic by channel;",
-            "top landings and products;",
-            "funnel events;",
-            "conversions and revenue;",
+            "traffic by channel",
+            "top landings and products",
+            "funnel events",
+            "conversions and revenue",
             "mobile vs desktop.",
           ],
         },
@@ -105,10 +105,10 @@ export const googleAnalyticsEn: BlogPost = {
         {
           intro: "Segment ideas:",
           items: [
-            "sessions with ≥3 product views;",
-            "cart without purchase;",
-            "returning within 30 days;",
-            "blog traffic vs catalog;",
+            "sessions with ≥3 product views",
+            "cart without purchase",
+            "returning within 30 days",
+            "blog traffic vs catalog",
             "high AOV vs low.",
           ],
         },
@@ -132,9 +132,9 @@ export const googleAnalyticsEn: BlogPost = {
         {
           intro: "Funnel questions:",
           items: [
-            "which step loses the most;",
-            "is the drop different on mobile;",
-            "which sources reach payment;",
+            "which step loses the most",
+            "is the drop different on mobile",
+            "which sources reach payment",
             "which products trigger checkout abandonment.",
           ],
         },
@@ -157,10 +157,10 @@ export const googleAnalyticsEn: BlogPost = {
         {
           intro: "Hypothesis template:",
           items: [
-            "segment / funnel step;",
-            "observation (number);",
-            "cause hypothesis;",
-            "change;",
+            "segment / funnel step",
+            "observation (number)",
+            "cause hypothesis",
+            "change",
             "how we’ll measure success.",
           ],
         },
@@ -183,9 +183,9 @@ export const googleAnalyticsEn: BlogPost = {
         {
           intro: "Quality control:",
           items: [
-            "DebugView / event checks;",
-            "purchase vs orders reconciliation;",
-            "no double tag firing;",
+            "DebugView / event checks",
+            "purchase vs orders reconciliation",
+            "no double tag firing",
             "documented conversion definitions.",
           ],
         },

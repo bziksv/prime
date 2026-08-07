@@ -5,17 +5,17 @@ export const kpiMenedzheraProdazhEn: BlogPost = {
   slug: "kpi-menedzhera-prodazh",
   title: "Sales manager KPIs: how to set and control them",
   date: "2019-06-04",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/kpi-menedzhera-prodazh/cover-en.webp",
   excerpt:
     "Seller KPIs: why introduce them, which metrics to pick, how to pay bonuses, where the system breaks (fake clients, salary ceilings), and how to control in CRM.",
   lead: [
-    "KPIs (key performance indicators) for a sales manager link pay to company results: revenue, margin, deal quality — not only “number of calls”.",
-    "Below — why the system is needed, example metrics and pay schemes, rules (no more than 10–15 indicators), typical abuse, and control. No universal formula — fit it to deal cycle and margin.",
+    "KPIs (key performance indicators) for a sales manager link pay to company results: revenue, margin, deal quality — not only “number of calls.”",
+    "Why the system is needed, example metrics and pay structures, rules (no more than 10–15 indicators), typical gaming of the metrics, and control — below. There’s no universal formula — fit it to your deal cycle and margin.",
   ],
   faq: [
     {
-      q: "How many KPIs to set?",
+      q: "How many KPIs should I set?",
       a: "Few and purposeful. More than 10–15 turns the job into filling reports.",
     },
     {
@@ -23,7 +23,7 @@ export const kpiMenedzheraProdazhEn: BlogPost = {
       a: "Only supporting. The main thing is closed deals and economics. Activity without sales isn’t a result.",
     },
     {
-      q: "Do you need a salary ceiling for sellers?",
+      q: "Do I need a salary ceiling for sellers?",
       a: "Often harmful: top performers lose drive, juniors see a glass ceiling. Better a model where sales growth pays both employee and company.",
     },
     {
@@ -31,7 +31,7 @@ export const kpiMenedzheraProdazhEn: BlogPost = {
       a: "Possible at start/training. Long-term, no link to results makes sales pace harder to keep — but “pure commission” with no base also breaks service.",
     },
     {
-      q: "How do you catch KPI gaming?",
+      q: "How do I catch KPI gaming?",
       a: "Reconcile with CRM, contract, payment; ban “friends as clients” for volume; one discount rulebook.",
     },
     {
@@ -45,7 +45,7 @@ export const kpiMenedzheraProdazhEn: BlogPost = {
       level: 2,
       paras: [
         "The goal is to motivate sales growth and give leadership a clear picture per seller. Manager pay should logically track the profit/revenue they bring.",
-        "Activity (calls, emails) helps diagnose the funnel, but not as the only criterion: closed and margin-positive deals matter — not “hours on the phone”.",
+        "Activity (calls, emails) helps diagnose the funnel, but not as the only criterion: closed and margin-positive deals matter — not “hours on the phone.”",
       ],
     },
     {

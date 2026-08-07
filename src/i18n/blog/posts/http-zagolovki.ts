@@ -11,7 +11,7 @@ export const httpZagolovkiEn: BlogPost = {
     "Which HTTP headers strengthen site security: HSTS, CSP, X-Frame-Options, Referrer-Policy, Permissions-Policy — how to check and where to set them without breaking the layout.",
   lead: [
     "HTTP headers are service fields in the server response: they tell the browser how to treat the page (content type, cache, redirect, security rules). Some of them directly cut XSS, clickjacking, and data-leak risks.",
-    "Below — a practical set of security headers. The general request/response picture is in the HTTP protocol article; here the focus is protection. Before edits — config backup and a staging check.",
+    "This guide covers a practical security-header set. The general request/response picture is in the HTTP protocol article; here the focus is protection. Before edits — config backup and a staging check.",
   ],
   faq: [
     {
@@ -31,15 +31,15 @@ export const httpZagolovkiEn: BlogPost = {
       a: "A strict CSP that ignores scripts — yes. Start with Report-Only or a soft policy, watch reports, then tighten.",
     },
     {
-      q: "HSTS without HTTPS?",
+      q: "Can you use HSTS without HTTPS?",
       a: "No. First stable HTTPS and http→https redirect, then HSTS.",
     },
     {
       q: "Does this affect SEO?",
-      a: "Indirectly: security and trust, less risk of hacks/spam. There’s no direct “header for TOP”. Rankings follow site work; planned months after SEO starts.",
+      a: "Indirectly: security and trust, less risk of hacks/spam. There’s no direct “header for rankings”. Rankings follow site work; core TOP growth is planned for 2–6 months after prep — not a header flip.",
     },
     {
-      q: "Feature-Policy or Permissions-Policy?",
+      q: "Is it Feature-Policy or Permissions-Policy?",
       a: "The current name is Permissions-Policy (limits camera, geolocation, etc.). Older Feature-Policy still appears in guides.",
     },
   ],
@@ -55,8 +55,8 @@ export const httpZagolovkiEn: BlogPost = {
         {
           intro: "Before setup:",
           items: [
-            "backup nginx/Apache/`.htaccess`;",
-            "test on a site copy;",
+            "backup nginx/Apache/`.htaccess`",
+            "test on a site copy",
             "list your domains, CDN, analytics, widgets.",
           ],
         },
@@ -114,10 +114,10 @@ export const httpZagolovkiEn: BlogPost = {
         {
           intro: "Minimum set to start:",
           items: [
-            "HSTS (after HTTPS);",
-            "X-Content-Type-Options: nosniff;",
-            "frame-ancestors / X-Frame-Options;",
-            "Referrer-Policy;",
+            "HSTS (after HTTPS)",
+            "X-Content-Type-Options: nosniff",
+            "frame-ancestors / X-Frame-Options",
+            "Referrer-Policy",
             "a CSP draft in Report-Only.",
           ],
         },
@@ -128,7 +128,7 @@ export const httpZagolovkiEn: BlogPost = {
       level: 2,
       paras: [
         "Set headers in nginx/`add_header`, Apache/`Header set`, or the hosting panel. PHP in the template is a fallback — worse for static and cache.",
-        "After deploy check home, account, forms, and pages with widgets. Watch the console for CSP errors. Document the policy for the team so a new analytics script doesn’t “break prod” by surprise.",
+        "After deploy check home, login pages, forms, and pages with widgets. Watch the console for CSP errors. Document the policy for the team so a new analytics script doesn’t “break prod” by surprise.",
       ],
       links: [
         {

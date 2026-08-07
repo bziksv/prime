@@ -5,16 +5,16 @@ export const prazdnichnyyRetargetingEn: BlogPost = {
   slug: "prazdnichnyy-retargeting",
   title: "Pre-holiday retargeting: 4 campaign tactics",
   date: "2018-12-26",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/prazdnichnyy-retargeting/cover-en.webp",
   excerpt:
     "How to bring visitors back at the peak of holiday shopping: a separate retargeting campaign, a social segment, Audiences interests, display, and a cascade — without burning the budget.",
   lead: [
     "In the pre-holiday season site traffic rises while purchase share often stays low: people browsed the catalog and left. Retargeting brings back those who already know the brand — with a discount, gift, or a shorter offer under a deadline.",
-    "Below — four tactics for Yandex Direct (and related cabinets): social segment, interests, display, and a cascade. Keep retargeting in a separate campaign — easier bids, negatives, and reporting. The material is informational; when Meta* products are mentioned, the legal notice applies.",
+    "We cover four tactics for Yandex Direct (and related accounts): social segment, interests, display, and a cascade. Keep retargeting in a separate campaign — easier bids, negatives, and reporting. The material is informational; when Meta* products are mentioned, the legal notice applies.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Facebook* and Instagram* ads run through Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -27,11 +27,11 @@ export const prazdnichnyyRetargetingEn: BlogPost = {
       a: "No. Work the whole touch base: visits, buyers, social referrals — with different offers.",
     },
     {
-      q: "How many contacts for Audiences?",
+      q: "How many contacts do I need for Audiences?",
       a: "A guide of roughly from ~1,000 list rows (check current Yandex help limits). Fewer — use Metrica segments.",
     },
     {
-      q: "Which holiday offer?",
+      q: "Which holiday offer should I use?",
       a: "Gift sets, delivery by date, a time-limited promo code, a free option. Each segment gets its own copy — not one banner for everyone.",
     },
     {
@@ -39,16 +39,16 @@ export const prazdnichnyyRetargetingEn: BlogPost = {
       a: "A touch chain that tightens/changes the offer by days after the visit: reminder → benefit → last deadline.",
     },
     {
-      q: "Do social networks belong in the segment?",
+      q: "Should social networks belong in the segment?",
       a: "If traffic comes from there — yes: a Metrica “source = social” segment to warm a familiar audience with a holiday offer.",
     },
     {
-      q: "How not to burn the budget?",
+      q: "How do I avoid burning the budget?",
       a: "Impression frequency, exclude buyers when possible, separate ads by segment, CPA stop-loss, check promo landings.",
     },
     {
-      q: "Does this help SEO?",
-      a: "Not directly. Indirectly: faster offer tests and awareness. Organic is a separate track with its own timelines.",
+      q: "Does holiday retargeting help SEO?",
+      a: "Not directly. Indirectly: faster offer tests and awareness. Organic is a separate track — prep first, TOP for the core often planned over 2–6 months.",
     },
   ],
   sections: [
@@ -63,9 +63,9 @@ export const prazdnichnyyRetargetingEn: BlogPost = {
         {
           intro: "Base before launch:",
           items: [
-            "counter and goals in Metrica;",
-            "current promos and landings;",
-            "exclude buyers (if the scenario allows);",
+            "counter and goals in Metrica",
+            "current promos and landings",
+            "exclude buyers (if the scenario allows)",
             "frequency cap and daily budget.",
           ],
         },
@@ -92,9 +92,9 @@ export const prazdnichnyyRetargetingEn: BlogPost = {
         {
           intro: "Practice:",
           items: [
-            "segment of social visits;",
-            "a separate ad group;",
-            "offer: set / delivery by date / promo code;",
+            "segment of social visits",
+            "a separate ad group",
+            "offer: set / delivery by date / promo code",
             "check UTM and promo landings.",
           ],
         },
@@ -111,9 +111,9 @@ export const prazdnichnyyRetargetingEn: BlogPost = {
         {
           intro: "Combinations:",
           items: [
-            "interest ∩ site visitors;",
-            "interest ∩ buyers;",
-            "interest ∩ abandoned cart;",
+            "interest ∩ site visitors",
+            "interest ∩ buyers",
+            "interest ∩ abandoned cart",
             "separate creatives for each pairing.",
           ],
         },
@@ -124,15 +124,15 @@ export const prazdnichnyyRetargetingEn: BlogPost = {
       level: 2,
       paras: [
         "Display formats remind about the brand and promo wherever people “browse” the web. On holidays that boosts warm-base reach, but watch frequency and placements — irritation instead of a purchase otherwise.",
-        "Tie display to a clear next step: not only “awareness”, but a click to a current promo URL with stock and timelines.",
+        "Tie display to a clear next step: not only “awareness,” but a click to a current promo URL with stock and timelines.",
       ],
       lists: [
         {
           intro: "Control:",
           items: [
-            "impression frequency;",
-            "exclude irrelevant placements;",
-            "one main offer per banner;",
+            "impression frequency",
+            "exclude irrelevant placements",
+            "one main offer per banner",
             "end-to-end goal (lead/purchase), not only reach.",
           ],
         },
@@ -149,9 +149,9 @@ export const prazdnichnyyRetargetingEn: BlogPost = {
         {
           intro: "Cascade frame:",
           items: [
-            "step 1 — assortment reminder;",
-            "step 2 — discount/bonus;",
-            "step 3 — delivery/promo deadline;",
+            "step 1 — assortment reminder",
+            "step 2 — discount/bonus",
+            "step 3 — delivery/promo deadline",
             "exclude buyers at each step.",
           ],
         },
@@ -168,10 +168,10 @@ export const prazdnichnyyRetargetingEn: BlogPost = {
         {
           intro: "Launch checklist:",
           items: [
-            "separate campaign;",
-            "4 tactics labeled in groups;",
-            "landings with current promo;",
-            "frequency and budget caps;",
+            "separate campaign",
+            "4 tactics labeled in groups",
+            "landings with current promo",
+            "frequency and budget caps",
             "report: spend / conversions / CPA by segment.",
           ],
         },

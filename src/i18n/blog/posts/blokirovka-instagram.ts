@@ -11,11 +11,11 @@ export const blokirovkaInstagramEn: BlogPost = {
     "Why Instagram restricts accounts, how a full ban differs from “action blocked,” how to appeal via official forms, and how to lower risk — without gray schemes.",
   lead: [
     "Instagram restrictions vary: a temporary action limit, content removal, partial feature bans, or a fully unavailable profile. Causes include reports, copyright, suspected automation, and hacks.",
-    "Below — how to read the notice, where to write support, and how to lower risk. Response times and menu labels change; follow current screens and Help. This is an informational memo, not an unlock guarantee.",
+    "Read the lockout notice carefully, contact support through official flows, and lower risk by following platform rules. Response times and menu labels change; follow current screens and Help. This is an informational memo, not an unlock guarantee.",
   ],
   legalNotice: {
     title: "Dear readers!",
-    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+    text: "This article is for information only and is not an invitation to use the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
@@ -23,7 +23,7 @@ export const blokirovkaInstagramEn: BlogPost = {
       a: "With a forgotten password the login form works — you need a reset. With a lockout the system clearly says there’s a restriction / violation. Password reset is in a separate article.",
     },
     {
-      q: "How long does support take to reply?",
+      q: "How long does Instagram support take to reply?",
       a: "From hours to several days; weekends are slower. There is no fixed “always 3–5 hours” — don’t plan a campaign around an instant reply.",
     },
     {
@@ -31,7 +31,7 @@ export const blokirovkaInstagramEn: BlogPost = {
       a: "The hack flow is for account takeover. Using it instead of a normal violation appeal is risky and can confuse the case. Write to the point: what happened and why you think the decision is wrong.",
     },
     {
-      q: "What is “Action blocked”?",
+      q: "What does “Action blocked” mean on Instagram?",
       a: "Often a temporary limit on likes, Direct, follows, or posts after an activity spike. It usually lifts on its own; slow down and don’t run bots.",
     },
     {
@@ -76,7 +76,7 @@ export const blokirovkaInstagramEn: BlogPost = {
       paras: [
         "Follow the buttons in the notice or Help / support in the app and linked accounts in Accounts Center. Give your name, @username, reply email, country, and a short summary.",
         "The reply often comes by email: what to delete, what to confirm, whether extra ID is needed. For a business profile they sometimes ask for brand proof — prepare ahead, without dumping personal data in open chats.",
-        "Write to the point, without aggression. If they ask to remove disputed content — do it and confirm. Fake “I was hacked” stories when it’s a rules case make review harder.",
+        "Write to the point, without aggression. If they ask to remove disputed content — do it and confirm. Fake “I was hacked” Stories when it’s a rules case make review harder.",
       ],
       lists: [
         {

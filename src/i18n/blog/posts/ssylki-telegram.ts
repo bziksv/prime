@@ -8,43 +8,43 @@ export const ssylkiTelegramEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/ssylki-telegram/cover-en.webp",
   excerpt:
-    "How to make and share a link to a Telegram profile, channel, and chat: t.me, username, invite links, hyperlinks in text, and opening URLs in the app.",
+    "How to create and share links to a Telegram profile, channel, and chat: t.me, usernames, invite links, in-message hyperlinks, and opening URLs in the app.",
   lead: [
-    "In Telegram almost everything is shared as a link: public `@username`, `t.me/…`, one-time and permanent invites to private spaces. Without clear formats, people never reach the channel or support chat.",
-    "Below — how to build a link to a profile, channel, and chat, how invite differs from a public URL, and how to insert a hyperlink in a message. Messenger overview and channel launch are in related articles.",
+    "In Telegram, almost everything is a link: a public `@username`, a `t.me/…` URL, or a one-time or permanent invite to a private space. Get the format wrong and people never reach the channel or support chat.",
+    "We cover links to a profile, channel, and chat, how invites differ from public URLs, and how to hyperlink text in a message. For a messenger overview and launching a channel, see the related posts.",
   ],
   faq: [
     {
       q: "How does t.me differ from @username?",
-      a: "Different writings of the same public address. In a browser `https://t.me/name` is handy; in chat `@name` is often enough.",
+      a: "Two ways to write the same public address. In a browser, `https://t.me/name` is convenient; in chat, `@name` is usually enough.",
     },
     {
-      q: "How to grant access to a private channel?",
-      a: "Via an invite link from channel settings — not via a public username if there isn’t one.",
+      q: "How do I grant access to a private channel?",
+      a: "Use an invite link from channel settings — not a public username if the channel doesn’t have one.",
     },
     {
       q: "Where do I get a profile link?",
-      a: "If a username is set — `t.me/username`. Without one, share a contact from the app or ask people to find you in a chat.",
+      a: "If a username is set, use `t.me/username`. Without one, share a contact from the app or ask people to find you in a chat.",
     },
     {
-      q: "Can a word be a link?",
-      a: "Yes: desktop and mobile clients have “link” formatting on selected text. Handy for a site URL without a long string visible.",
+      q: "Can I turn a word into a link?",
+      a: "Yes: desktop and mobile clients let you turn selected text into a link. Useful when you want a site URL without showing a long string.",
     },
     {
-      q: "Is an invite always forever?",
-      a: "No. There can be join-count and expiry limits. For lasting showcases prefer a public username + moderation.",
+      q: "Is an invite always permanent?",
+      a: "No. You can cap join counts and set an expiry. For lasting showcases, prefer a public username plus moderation.",
     },
     {
-      q: "Link to a specific post?",
-      a: "Public channels have URLs like `t.me/channel/123`. Private ones use their own post-share flows in the client.",
+      q: "Can I link to a specific post?",
+      a: "Public channels use URLs like `t.me/channel/123`. Private channels use the client’s own post-share flows.",
     },
     {
       q: "Will t.me open without the app?",
-      a: "In a browser — web version or a prompt to open the app. On a site, better give an https link.",
+      a: "In a browser you’ll get the web version or a prompt to open the app. On a website, prefer a full https link.",
     },
     {
       q: "How is this different from the channel article?",
-      a: "That one is launch and content. Here — link formats and sharing only.",
+      a: "That one covers launch and content. This one is only link formats and sharing.",
     },
   ],
   sections: [
@@ -52,17 +52,17 @@ export const ssylkiTelegramEn: BlogPost = {
       title: "Public links: username and t.me",
       level: 2,
       paras: [
-        "Set a unique username in settings. Public channel/profile address: `https://t.me/username`. In messages you can write `@username` — the client makes it clickable.",
-        "Username should be free and readable: brand beats a random string. Renaming breaks old bookmarks — change rarely.",
+        "Set a unique username in settings. The public channel or profile address is `https://t.me/username`. In messages you can write `@username` — the client makes it clickable.",
+        "Pick a free, readable username: brand beats a random string. Renaming breaks old bookmarks, so change it rarely.",
       ],
       lists: [
         {
-          intro: "Check:",
+          intro: "Checklist:",
           items: [
             "username matches on the site and business card;",
-            "link opens on phone and PC;",
-            "no typos in print/QR;",
-            "URL case usually isn’t critical, but copy from the client.",
+            "link opens on phone and desktop;",
+            "no typos in print or QR;",
+            "URL case usually doesn’t matter, but copy it from the client.",
           ],
         },
       ],
@@ -77,16 +77,16 @@ export const ssylkiTelegramEn: BlogPost = {
       title: "Profile link",
       level: 2,
       paras: [
-        "A personal profile with a username shares the same way via `t.me/…`. If username is hidden or unset, people add you from a dialog, by number (if allowed), or via a contact card.",
-        "For business support you usually want a separate account/bot or chat — not the founder’s personal profile.",
+        "A personal profile with a username shares the same way via `t.me/…`. If the username is hidden or unset, people add you from a chat, by number (if allowed), or via a contact card.",
+        "For business support, use a separate account, bot, or chat — not the founder’s personal profile.",
       ],
       lists: [
         {
-          intro: "Practice:",
+          intro: "Practical tips:",
           items: [
             "in the site footer — t.me to the channel or bot;",
-            "in email signature — a short https link;",
-            "don’t publish a personal number more than needed.",
+            "in email signatures — a short https link;",
+            "don’t publish a personal number more than you need to.",
           ],
         },
       ],
@@ -96,16 +96,16 @@ export const ssylkiTelegramEn: BlogPost = {
       level: 2,
       paras: [
         "Public channel: `t.me/channelname`. Private: create an invite link in channel management. You can limit it by time and user count.",
-        "For landings and ads you almost always need a stable public address. Invite — for closed communities and tests.",
+        "For landings and ads you almost always want a stable public address. Save invites for closed communities and tests.",
       ],
       lists: [
         {
-          intro: "Before the announcement:",
+          intro: "Before you announce:",
           items: [
-            "description and avatar in place;",
+            "description and avatar ready;",
             "3–5 posts ready;",
-            "link goes to that exact channel;",
-            "UTM on the site if you count clicks.",
+            "link points to that exact channel;",
+            "UTM on the site if you track clicks.",
           ],
         },
       ],
@@ -120,15 +120,15 @@ export const ssylkiTelegramEn: BlogPost = {
       title: "Chats and groups",
       level: 2,
       paras: [
-        "Groups can also have a username or invite-only. Channel discussion supergroups often get a separate “chat” link next to the channel.",
-        "Don’t confuse channel and chat links in ads: people should land where they expect content or conversation.",
+        "Groups can also have a username or be invite-only. Channel discussion groups often get a separate “chat” link next to the channel.",
+        "Don’t mix up channel and chat links in ads: people should land where they expect content or conversation.",
       ],
       lists: [
         {
-          intro: "Label in creatives:",
+          intro: "Label creatives clearly:",
           items: [
             "“channel” vs “support chat”;",
-            "rules in the pin;",
+            "rules in the pinned message;",
             "anti-spam bot if needed.",
           ],
         },
@@ -138,8 +138,8 @@ export const ssylkiTelegramEn: BlogPost = {
       title: "Hyperlink in text and sharing",
       level: 2,
       paras: [
-        "In a message select a word → “link” / Create link → paste the URL. The post looks cleaner than a wall of `https://…`.",
-        "For channel posts it’s handy to link the site, other posts, and docs. Keep anchor text honest — no clickbait “here” to phishing.",
+        "In a message, select a word → Link / Create link → paste the URL. The post looks cleaner than a wall of `https://…`.",
+        "In channel posts, link the site, other posts, and docs. Keep anchor text honest — no clickbait “here” pointing at phishing.",
       ],
       lists: [
         {
@@ -147,13 +147,13 @@ export const ssylkiTelegramEn: BlogPost = {
           items: [
             "one main link;",
             "link preview looks right (site Open Graph);",
-            "mobile tap hits the target.",
+            "a mobile tap hits the target.",
           ],
         },
       ],
       links: [
         {
-          label: "Open Graph",
+          label: "Open Graph tags",
           href: "/en/blog/open-graph/",
         },
       ],
@@ -162,8 +162,8 @@ export const ssylkiTelegramEn: BlogPost = {
       title: "Opening URLs and typical mistakes",
       level: 2,
       paras: [
-        "From the site and email use `https://t.me/…`. From another messenger — the same format. Bot deep-link parameters (`t.me/bot?start=…`) are a separate story for funnels.",
-        "Mistakes: expired invite, username change without redirect, link to a draft/wrong chat, QR with broken encoding.",
+        "From the site and email, use `https://t.me/…`. From another messenger, same format. Bot deep-link parameters (`t.me/bot?start=…`) are a separate funnel topic.",
+        "Common mistakes: expired invite, username change with no redirect, link to a draft or wrong chat, QR with broken encoding.",
       ],
       lists: [
         {
@@ -171,16 +171,16 @@ export const ssylkiTelegramEn: BlogPost = {
           items: [
             "click the link on iOS and Android;",
             "check invite limits;",
-            "lock the URL in a table;",
+            "lock the URL in a shared table;",
             "don’t copy from lookalike fake channels.",
           ],
         },
       ],
       notes: [
         {
-          title: "Practice",
+          title: "Tip",
           kind: "tip",
-          text: "One canonical link in the brand kit saves an hour of support a month.",
+          text: "One canonical link in the brand kit saves an hour of support every month.",
         },
       ],
       links: [

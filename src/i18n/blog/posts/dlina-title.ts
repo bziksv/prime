@@ -11,7 +11,7 @@ export const dlinaTitleEn: BlogPost = {
     "What makes the SERP headline, why pixels matter more than “exactly 70 characters”, how to write a Title without truncating meaning, and how it differs from H1.",
   lead: [
     "The Title in `<head>` most often becomes the snippet headline in search. If it’s too long, the engine truncates with an ellipsis — and the offer sense can vanish. If it’s too short and empty — the click goes to a neighbor.",
-    "Below — what the SERP headline is made of, how to think about length today, and how not to confuse Title with H1. A full snippet and markup breakdown is in a related article.",
+    "What the SERP headline is made of, how to think about length today, and how not to confuse Title with H1. A full snippet and markup breakdown is in a related article.",
   ],
   faq: [
     {
@@ -31,19 +31,19 @@ export const dlinaTitleEn: BlogPost = {
       a: "Not as “shorter = higher”. Clarity and CTR matter. A truncated nonsense Title is worse than a readable one.",
     },
     {
-      q: "Do you need the brand in Title?",
+      q: "Do I need the brand in the Title?",
       a: "Often yes at the end with a separator if space allows. Early on, brand helps recognition; don’t sacrifice the whole offer for it.",
     },
     {
-      q: "How to check truncation?",
+      q: "How can I check truncation?",
       a: "Previews in webmaster panels, SERP simulators, live results for the query. After edits, wait for recrawl.",
     },
     {
-      q: "Does bold in the snippet shorten Title?",
-      a: "Query-match highlighting is rendering. Orient length on the full string; don’t write Title “for bold”.",
+      q: "Does bold in the snippet shorten the Title?",
+      a: "Query-match highlighting is rendering. Orient length on the full string; don’t write the Title “for bold.”",
     },
     {
-      q: "One Title for the whole site?",
+      q: "Should I use one Title for the whole site?",
       a: "No. Each important landing needs its own. Duplicate Titles signal templates and confuse the SERP.",
     },
   ],
@@ -59,9 +59,9 @@ export const dlinaTitleEn: BlogPost = {
         {
           intro: "A good Title:",
           items: [
-            "matches page intent;",
-            "reads before possible truncation;",
-            "no keyword sheet;",
+            "matches page intent",
+            "reads before possible truncation",
+            "no keyword sheet",
             "unique within the site.",
           ],
         },
@@ -84,16 +84,16 @@ export const dlinaTitleEn: BlogPost = {
         {
           intro: "Measurement practice:",
           items: [
-            "Title draft in a “URL → title → chars” sheet;",
-            "preview in Search Console / webmaster tools;",
-            "spot-check live SERPs for target queries;",
+            "Title draft in a “URL → title → chars” sheet",
+            "preview in Search Console / webmaster tools",
+            "spot-check live SERPs for target queries",
             "edits after meaning A/B, not only “cut 3 characters”.",
           ],
         },
       ],
       notes: [
         {
-          title: "Practice",
+          title: "Practice tip",
           kind: "tip",
           text: "Word order matters more: key meaning first. Truncation hits the tail — put brand and extras there.",
         },
@@ -110,10 +110,10 @@ export const dlinaTitleEn: BlogPost = {
         {
           intro: "Steps:",
           items: [
-            "lock the main URL intent;",
-            "draft 2–3 Title variants;",
-            "keep the clearest within visibility;",
-            "add brand if space remains;",
+            "lock the main URL intent",
+            "draft 2–3 Title variants",
+            "keep the clearest within visibility",
+            "add brand if space remains",
             "check uniqueness on the site.",
           ],
         },
@@ -140,10 +140,10 @@ export const dlinaTitleEn: BlogPost = {
         {
           intro: "Avoid:",
           items: [
-            "duplicate Titles;",
-            "the same keyword five times with commas;",
-            "the important part only at the end of a long string;",
-            "competitor copy-paste without your substance;",
+            "duplicate Titles",
+            "the same keyword five times with commas",
+            "the important part only at the end of a long string",
+            "competitor copy-paste without your substance",
             "company name only as Title on inner URLs.",
           ],
         },
@@ -160,9 +160,9 @@ export const dlinaTitleEn: BlogPost = {
         {
           intro: "Focus:",
           items: [
-            "clear topic;",
-            "readable word order;",
-            "truncation check;",
+            "clear topic",
+            "readable word order",
+            "truncation check",
             "alignment with description and H1.",
           ],
         },
@@ -179,9 +179,9 @@ export const dlinaTitleEn: BlogPost = {
         {
           intro: "Quarterly control:",
           items: [
-            "duplicate and empty Titles;",
-            "high-traffic pages with weak CTR;",
-            "new sections without their own headlines;",
+            "duplicate and empty Titles",
+            "high-traffic pages with weak CTR",
+            "new sections without their own headlines",
             "fit with offer redesign.",
           ],
         },
@@ -190,7 +190,7 @@ export const dlinaTitleEn: BlogPost = {
         {
           title: "Common mistake",
           kind: "tip",
-          text: "Change Title and expect TOP in a week. The headline affects click and topic clarity; ranking growth is a separate horizon — months of systematic work (planned TOP often 2–6 months after prep).",
+          text: "Change Title and expect rankings in a week. The headline affects click and topic clarity; ranking growth is a separate horizon — months of systematic work (planned ranking growth often 2–6 months after prep).",
         },
       ],
       links: [

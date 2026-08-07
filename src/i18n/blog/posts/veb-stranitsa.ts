@@ -11,8 +11,7 @@ export const vebStranitsaEn: BlogPost = {
     "What a webpage is, why it needs a unique URL, how to save a page locally, and what “outdated”, “slowing the browser”, “unavailable”, and “moved” messages mean.",
   lead: [
     "A webpage is a document with its own address (URL): HTML and related resources (images, styles, scripts) that the browser assembles into what you see on screen.",
-    "Below — why pages matter for a site, how to save a local copy, and how to read typical browser messages. Basics for users and for anyone watching SEO and availability.",
-    "A site is a set of linked pages. The quality of each (status, speed, meaning) adds up to experience and how bots crawl the resource.",
+    "A site is a set of linked pages. The quality of each (status, speed, meaning) adds up to experience and how bots crawl the resource — including how you save a local copy and how you read typical browser messages.",
   ],
   faq: [
     {
@@ -28,20 +27,20 @@ export const vebStranitsaEn: BlogPost = {
       a: "In the browser: “Save as…” (full HTML or HTML only). That’s an offline copy — not a site backup.",
     },
     {
-      q: "“Page is outdated” — what to do?",
+      q: "What should I do if the page is outdated?",
       a: "Usually form cache after back/forward. Refresh or resubmit carefully (watch for double payment).",
     },
     {
-      q: "Why “slowing the browser”?",
-      a: "Heavy scripts, memory leaks, many tabs, extensions. On the site side — optimize JS/media.",
+      q: "Why does the browser say the page is slowing it down?",
+      a: "Heavy scripts, memory leaks, many tabs, extensions. On the site side — optimize JS and media.",
     },
     {
       q: "Is “page unavailable” always a 404?",
-      a: "Not always. It can be DNS, network, 5xx, a block. Read the exact message/code.",
+      a: "Not always. It can be DNS, network, 5xx, or a block. Read the exact message and code.",
     },
     {
-      q: "“Moved” — what about SEO?",
-      a: "You need a correct 301 to the new URL, or you lose links and crawl.",
+      q: "If the page moved, what about SEO?",
+      a: "You need a correct 301 to the new URL, or you lose links and crawl equity.",
     },
   ],
   sections: [
@@ -51,7 +50,7 @@ export const vebStranitsaEn: BlogPost = {
       paras: [
         "A page carries meaning: a service, product, article, form. The browser requests the URL, gets HTML, and loads resources.",
         "For business, a page is an entry from search, ads, and social. Without a clear offer and a 200 status it doesn’t work as a channel.",
-        "For SEO, each indexable page should answer a clear intent and not duplicate neighboring URLs without need.",
+        "For SEO, each indexable page should answer a clear intent and not duplicate related URLs unnecessarily.",
       ],
       lists: [
         {
@@ -80,7 +79,7 @@ export const vebStranitsaEn: BlogPost = {
       title: "How to save a page",
       level: 2,
       paras: [
-        "Via the browser menu you save an HTML file and a resources folder. Handy for a draft or archive, but scripts/auth often break offline.",
+        "Via the browser menu you save an HTML file and a resources folder. Useful for a draft or archive, but scripts/auth often break offline.",
         "For a team, server backups and git matter more than “Save as” from a laptop.",
         "Print to PDF is another way to freeze the look — still not a CMS and database backup.",
       ],

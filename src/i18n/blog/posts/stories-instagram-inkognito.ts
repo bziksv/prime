@@ -15,11 +15,11 @@ export const storiesInstagramInkognitoEn: BlogPost = {
   },
   lead: [
     "The Stories viewer list is visible to the author — so people hunt for “incognito”: sites, bots, and apps promise a view with no trace. Some older guides advertised this outright.",
-    "Below — why that demand appears, what risks third-party tools carry, and how to think about privacy for your own Stories. Informational overview only — not a guide to bypass platform rules and not a catalog of spy services.",
+    "This piece explains why that demand appears, what risks third-party tools carry, and how to think about privacy for your own Stories. Informational overview only — not a guide to bypass platform rules and not a catalog of spy services.",
   ],
   faq: [
     {
-      q: "Can you officially view others’ Stories anonymously?",
+      q: "Can I officially view others’ Stories anonymously?",
       a: "There’s no built-in “invisible” mode. Viewing from an account usually lands in the viewer list (if the profile is open and the Story is available).",
     },
     {
@@ -45,7 +45,7 @@ export const storiesInstagramInkognitoEn: BlogPost = {
       level: 2,
       paras: [
         "Stories last about a day and give the author a viewer list. People dislike when a competitor, acquaintance, or client sees the view. Hence demand for “invisibility.”",
-        "Business has another motive: watch competitors’ Stories without “outing” the brand account. That doesn’t justify shady services — safer and more honest options are below.",
+        "Business has another motive: watch competitors’ Stories without “outing” the brand account. That doesn’t justify shady services — safer and more honest options follow.",
       ],
       lists: [
         {
@@ -134,7 +134,7 @@ export const storiesInstagramInkognitoEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Practice",
+          title: "Tip",
           text: "Screenshots and forwards are still possible. Viewer “incognito” doesn’t replace common sense: don’t put passwords, contracts, or client personal data in Stories.",
         },
       ],
@@ -144,11 +144,11 @@ export const storiesInstagramInkognitoEn: BlogPost = {
       level: 2,
       paras: [
         "Watching open competitor Stories from a work account is normal market research. The view itself is rarely critical; offers and publish cadence matter more.",
-        "If the brand account can’t be “shown,” it’s wiser to log hypotheses by hand (notes, CRM screenshots) or assign analytics to a contractor under contract — without grey parsers.",
+        "If the brand account can’t be “shown,” it’s wiser to log hypotheses by hand (notes, CRM screenshots) or assign analytics to a contractor under contract — without shady parsers.",
       ],
       lists: [
         {
-          intro: "What to do instead of “invisibles”:",
+          intro: "What to do instead of “stealth viewers”:",
           items: [
             "review others’ formats and CTAs, not viewer lists;",
             "run your content plan and measure your own Insights;",
@@ -168,7 +168,7 @@ export const storiesInstagramInkognitoEn: BlogPost = {
       title: "Short takeaway",
       level: 2,
       paras: [
-        "Anonymous Stories viewing via third-party services is high risk and low upside. For privacy, configure your own Stories; for competitors, watch open content consciously — without a bot catalog and bypasses.",
+        "Anonymous Stories viewing via third-party services is high risk and little reward. For privacy, configure your own Stories; for competitors, watch open content consciously — without a bot catalog and bypasses.",
       ],
       lists: [],
     },

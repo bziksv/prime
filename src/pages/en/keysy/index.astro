@@ -35,12 +35,12 @@ const contactsHref = contactsPath(locale);
 ---
 
 <CasesLayout
-  title="Our case studies — PRIME"
-  description="Current PRIME case studies: SEO, paid search, websites, and messenger bots. Fresh results on rankings, leads, CPL, and ROI — not a decade-old archive."
+  title="Work — PRIME"
+  description="Current PRIME case studies: SEO, paid search, websites, and messenger bots. Fresh rankings, leads, CPL, and ROI — not a decade-old archive."
   path={path}
   locale={locale}
   alternatePath="/keysy/"
-  breadcrumb={[{ label: "Home", href: "/en/" }, { label: "Cases" }]}
+  breadcrumb={[{ label: "Home", href: "/en/" }, { label: "Work" }]}
 >
   <section class="k-hero" data-k-hero>
     <div class="k-hero__grid" data-k-grid aria-hidden="true"></div>
@@ -48,12 +48,12 @@ const contactsHref = contactsPath(locale);
     <div class="k-hero__orb k-hero__orb--1" data-k-depth="0.55" aria-hidden="true"></div>
     <div class="k-hero__orb k-hero__orb--2" data-k-depth="0.9" aria-hidden="true"></div>
     <div class="k-hero__inner">
-      <p class="k-kicker">Current cases · not an archive</p>
-      <h1>We show <em>what’s fresh</em> — numbers, not old slides</h1>
+      <p class="k-kicker">Current work · not an archive</p>
+      <h1>We show <em>what’s live</em> — numbers, not old decks</h1>
       <p class="k-hero__lead">
-        SEO, paid search, websites, and bots: live projects with clear economics —
-        rankings, leads, CPL, and ROI. No decade-old portfolio “for show” —
-        only what matters now.
+        SEO, paid search, websites, and bots: active projects with clear
+        economics — rankings, leads, CPL, and ROI. No decade-old portfolio filler.
+        Just what matters now.
       </p>
     </div>
     <div class="k-hero__stats">
@@ -63,11 +63,11 @@ const contactsHref = contactsPath(locale);
       </div>
       <div class="k-hero__stat">
         <strong>{caseCategories.length}</strong>
-        <span>service directions</span>
+        <span>service lines</span>
       </div>
       <div class="k-hero__stat">
         <strong>70+</strong>
-        <span>clients in work</span>
+        <span>clients in play</span>
       </div>
     </div>
     <div class="k-hero__stripe" aria-hidden="true"></div>
@@ -79,8 +79,8 @@ const contactsHref = contactsPath(locale);
     featured.length > 0 && (
       <section class="k-panel k-reveal">
         <div class="k-panel__head">
-          <h2>Strong recent results</h2>
-          <p>Current cases with a metric on the cover — only what’s fresh</p>
+          <h2>Recent standouts</h2>
+          <p>Current case studies with a metric on the cover — only what’s fresh</p>
         </div>
         <CaseGrid cases={featured} featuredFirst locale={locale} />
       </section>
@@ -89,21 +89,20 @@ const contactsHref = contactsPath(locale);
 
   <section class="k-panel k-reveal">
     <div class="k-panel__head">
-      <h2>All current cases</h2>
+      <h2>All current work</h2>
       <p>Filter by SEO, paid search, websites, or bots — fresh write-ups only</p>
     </div>
     <CaseGrid cases={rest} initialVisible={9} step={9} locale={locale} />
   </section>
 
   <section class="k-cta k-reveal">
-    <h2>Need a similar result?</h2>
+    <h2>Want results like these?</h2>
     <p>
-      On the market since 2015. In 30 minutes we’ll map your niche and suggest
-      the format: SEO, paid search, a site, or a bot.
+      In business since 2015. In 30 minutes we’ll map your niche and recommend a
+      fit: SEO, paid search, a site, or a bot.
     </p>
     <div class="k-cta__actions">
-      <a class="k-btn k-btn--primary" href={contactsHref}>Send a request</a>
-      <a class="k-btn k-btn--ghost" href="tel:+74732030124">+7 (473) 203-01-24</a>
+      <a class="k-btn k-btn--primary" href={contactsHref}>Talk to us</a>
     </div>
   </section>
 </CasesLayout>

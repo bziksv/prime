@@ -10,8 +10,8 @@ export const zarabotokBlogerovInstagramEn: BlogPost = {
   excerpt:
     "How Instagram blog monetization works: ads, barter, services, admin work. Why “naked” numbers age fast and what to watch instead of myths.",
   lead: [
-    "An Instagram blogger’s income depends on niche, audience quality, integration format, and the ability to sell yourself to a client — not only on follower count.",
-    "The figures below are order-of-magnitude guides, not a 2026 price list. Markets and algorithms change; use them as a “low / mid / high” scale and check live deals in your niche.",
+    "What an Instagram creator earns comes down to niche, audience quality, integration format, and whether you can sell the value to a brand — not follower count alone.",
+    "The numbers here are ballpark ranges, not a 2026 rate card. Markets and algorithms shift; treat them as low / mid / high bands and validate against live deals in your niche.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -27,15 +27,15 @@ export const zarabotokBlogerovInstagramEn: BlogPost = {
       a: "Often after months of regular work. Services (content, admin) monetize faster than a personal brand from zero.",
     },
     {
-      q: "Should you earn on fake engagement and penny tasks?",
+      q: "Should I earn on fake engagement and penny tasks?",
       a: "As a main income — no: little money and reputation/account risk. Better to build expertise and paid integrations.",
     },
     {
-      q: "What’s better — a post or Stories?",
+      q: "What’s better for monetization — a post or Stories?",
       a: "Depends on niche and brief. Stories bring urgency and dialogue; a post lives longer in the grid. Packages are often sold together.",
     },
     {
-      q: "Do you need a “million” audience?",
+      q: "Do I need a million-follower audience?",
       a: "No. Micro-bloggers with a narrow warm audience often deliver better CPL for the client than huge cold reach.",
     },
   ],
@@ -44,8 +44,8 @@ export const zarabotokBlogerovInstagramEn: BlogPost = {
       title: "How earnings work",
       level: 2,
       paras: [
-        "Monetization starts when the creator has a clear topic, regular content, and an audience that trusts them. Then — products: ads on their feed, own goods/services, agency services, barter.",
-        "Followers alone aren’t money. What matters are views, saves, DMs, clicks, and the share of a “live” audience.",
+        "Money follows clarity: a defined topic, consistent posting, and an audience that trusts you. From there you can sell feed ads, your own products or services, client work, or barter.",
+        "Follower count isn’t revenue. Views, saves, DMs, clicks, and how much of the audience is real and engaged are what brands pay for.",
       ],
       lists: [
         {
@@ -88,8 +88,8 @@ export const zarabotokBlogerovInstagramEn: BlogPost = {
       title: "Benchmarks for paid integrations",
       level: 2,
       paras: [
-        "Historically the market quoted wide ranges: smaller blogs — on the order of hundreds to a couple thousand per Stories/post; tens of thousands of followers — thousands to tens of thousands; major media personalities — much higher. Today re-check numbers by niche, city, and ER.",
-        "The client pays for access to relevant attention. An account of 8–15 thousand with a warm audience can cost more than “empty” 100 thousand.",
+        "The market has always quoted wide ranges: smaller accounts often land in the hundreds to low thousands per Stories or post; mid-size profiles in the tens of thousands of followers can run into the thousands or tens of thousands per placement; top media names go much higher. Re-check today by niche, city, and engagement rate.",
+        "Brands buy relevant attention, not a vanity number. An 8–15K account with a warm, on-topic audience can outprice a hollow 100K profile.",
       ],
       lists: [
         {
@@ -163,8 +163,8 @@ export const zarabotokBlogerovInstagramEn: BlogPost = {
       title: "Launching a blog before first profit",
       level: 2,
       paras: [
-        "First idea and 2–3 rubrics, then design and a content buffer. A narrow topic with character usually beats “a bit of everything”.",
-        "First personal-brand money often comes only after several months of consistency. Who wants cash flow sooner — sells content/management services in parallel.",
+        "Start with a clear angle and 2–3 content pillars, then profile design and a posting buffer. A focused niche with a point of view usually beats “a little of everything.”",
+        "Personal-brand income often takes months of steady work. If you need cash sooner, sell content or account management on the side while you build.",
       ],
       lists: [
         {

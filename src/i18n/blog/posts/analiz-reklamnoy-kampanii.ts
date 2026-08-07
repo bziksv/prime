@@ -5,21 +5,21 @@ export const analizReklamnoyKampaniiEn: BlogPost = {
   slug: "analiz-reklamnoy-kampanii",
   title: "Ad campaign analysis in Yandex Direct and Google Ads: a checklist",
   date: "2020-03-25",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/analiz-reklamnoy-kampanii/cover-en.webp",
   excerpt:
-    "How to break down a paid search campaign in Metrica and Google Analytics: account linking, keywords, placements, demographics, time, devices, geo, landings, and audiences — without judging by clicks alone.",
+    "How to break down a paid search campaign in Yandex Metrica and Google Analytics: account linking, keywords, placements, demographics, time, devices, geo, landing pages, and audiences — without judging by clicks alone.",
   lead: [
-    "Lots of clicks and few leads almost always means: you’re pouring traffic the wrong way, the landing/offer can’t convert, or you’re watching the wrong slices. The checklist below is the order for reviewing a Yandex Direct and Google Ads campaign through analytics.",
-    "Report names and click paths in the UIs have changed (especially after GA4). Follow the meaning of the slices, not 2020 screenshots. The broader audit process and KPI set live in neighboring pieces.",
+    "Lots of clicks and few leads almost always means: you’re pouring traffic the wrong way, the landing page or offer can’t convert, or you’re watching the wrong slices. The checklist below is the order for reviewing a Yandex Direct and Google Ads campaign through analytics.",
+    "Report names and click paths in the UIs have changed (especially after GA4). Follow the meaning of the slices, not 2020 screenshots. The broader audit process and KPI set live in related pieces.",
   ],
   faq: [
     {
-      q: "Where do I start if KPIs miss?",
-      a: "Check the ad account link to Metrica/Analytics and goals. Without conversions in reports, bid optimization is guessing.",
+      q: "Where should you start if KPIs miss?",
+      a: "Check the ad account link to Yandex Metrica/Analytics and goals. Without conversions in reports, bid optimization is guessing.",
     },
     {
-      q: "Is CTR enough?",
+      q: "Is CTR enough to judge a campaign?",
       a: "No. You need conversions, CPA/ROAS, and lead quality. High CTR with no leads burns budget.",
     },
     {
@@ -27,19 +27,19 @@ export const analizReklamnoyKampaniiEn: BlogPost = {
       a: "Aim for a meaningful sample (often tens–hundreds of clicks in a niche), or it’s noise. There’s no universal “exactly 100.”",
     },
     {
-      q: "Should I turn off mobile if conversion is low?",
-      a: "More often lower the bid or fix the mobile landing — don’t cut the whole segment at once.",
+      q: "Should you turn off mobile if conversion is low?",
+      a: "More often lower the bid or fix the mobile landing page — don’t cut the whole segment at once.",
     },
     {
-      q: "How is this different from an audit?",
-      a: "Here — an operational analytics-slice review. An audit is wider: account tech, structure, client report.",
+      q: "How is this different from a full ad audit?",
+      a: "This piece covers an operational analytics-slice review. An audit is wider: account tech, structure, client report.",
     },
     {
-      q: "Do Direct and Ads analyze the same way?",
+      q: "Do Direct and Google Ads analyze the same way?",
       a: "Slice logic is shared (keywords, devices, geo, time). Reports and labels differ — meaning is the same.",
     },
     {
-      q: "Do I need Session Replay / Webvisor?",
+      q: "Do you need Session Replay / Webvisor?",
       a: "Useful if you suspect landing UX. Filter ad visits and see where the path to a lead breaks.",
     },
   ],
@@ -48,7 +48,7 @@ export const analizReklamnoyKampaniiEn: BlogPost = {
       title: "Linking the account to analytics",
       level: 2,
       paras: [
-        "Before slices, confirm Direct sends data to Metrica (counter in campaign/account settings) and Google Ads is linked to the right Analytics property. Otherwise “keyword analysis” has no conversions.",
+        "Before slices, confirm Direct sends data to Yandex Metrica (counter in campaign/account settings) and Google Ads is linked to the right Analytics property. Otherwise “keyword analysis” has no conversions.",
         "Lock goals: lead, call, purchase. Without a goal the checklist becomes traffic browsing.",
       ],
       lists: [
@@ -66,7 +66,7 @@ export const analizReklamnoyKampaniiEn: BlogPost = {
       links: [
         {
           label: "Ad metrics",
-          href: "/blog/metriki-reklamy/",
+          href: "/en/blog/metriki-reklamy/",
         },
       ],
     },
@@ -74,7 +74,7 @@ export const analizReklamnoyKampaniiEn: BlogPost = {
       title: "Direct + Metrica: keywords and placements",
       level: 2,
       paras: [
-        "By keyword, see which phrases drive goal actions and which only clicks. Boost winners (bids, ads, separate group); send junk to negatives at campaign or group level.",
+        "By keyword, see which keywords drive goal actions and which only clicks. Boost winners (bids, ads, separate group); send junk to negatives at campaign or group level.",
         "For YAN and smart formats, review placements: what brings conversions vs spend only. Ban weak domains after enough data — not after one random click.",
         "Don’t mix search and networks in one conclusion: network placements and search queries are different levers.",
       ],
@@ -92,7 +92,7 @@ export const analizReklamnoyKampaniiEn: BlogPost = {
       links: [
         {
           label: "Negatives in Direct",
-          href: "/blog/minus-slova-direkt/",
+          href: "/en/blog/minus-slova-direkt/",
         },
       ],
     },
@@ -113,10 +113,10 @@ export const analizReklamnoyKampaniiEn: BlogPost = {
       ],
     },
     {
-      title: "Landings, segments, and attribution",
+      title: "Landing pages, segments, and attribution",
       level: 2,
       paras: [
-        "The landing-page report checks that the ad goes to a relevant URL, not “homepage for everyone.” Fix weak landings or change the keyword → ad → URL link.",
+        "The landing-page report checks that the ad goes to a relevant URL, not “homepage for everyone.” Fix weak landing pages or change the keyword → ad → URL link.",
         "Segments (new vs returning, bounce, depth) help adjust bids and build retargeting conditions. Lookalikes and Metrica audiences are the next step after clear basic slices.",
         "Attribution models (last click, first meaningful, etc.) change “who gets credit.” Check several models if the purchase path is long — or you’ll undervalue the top of funnel.",
       ],
@@ -133,7 +133,7 @@ export const analizReklamnoyKampaniiEn: BlogPost = {
       links: [
         {
           label: "Ad campaign audit",
-          href: "/blog/audit-reklamnoy-kampanii/",
+          href: "/en/blog/audit-reklamnoy-kampanii/",
         },
       ],
     },
@@ -175,7 +175,7 @@ export const analizReklamnoyKampaniiEn: BlogPost = {
     },
   ],
   closing: [
-    "Link the account to analytics, walk keywords → placements → audience → landings, and write a week of fixes — faster than twisting bids “by eye” on overall CTR.",
+    "Link the account to analytics, walk keywords → placements → audience → landing pages, and write a week of fixes — faster than twisting bids “by eye” on overall CTR.",
   ],
   related: [
     "audit-reklamnoy-kampanii",

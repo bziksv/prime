@@ -3,65 +3,65 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for cpm-ili-cpc — same structure as RU JSON. */
 export const cpmIliCpcEn: BlogPost = {
   slug: "cpm-ili-cpc",
-  title: "CPM or CPC: when to pay for impressions and when for clicks",
+  title: "CPM or CPC: when to pay for impressions vs. clicks",
   date: "2021-06-29",
-  category: "Internet marketing",
+  category: "Paid search",
   cover: "/images/blog/cpm-ili-cpc/cover-en.webp",
   excerpt:
-    "How pay-per-impression (CPM) differs from pay-per-click (CPC), who each fits, how targeting ties to campaign economics, and why “what’s better” depends on the goal.",
+    "How cost-per-impression (CPM) differs from cost-per-click (CPC), which model fits which goal, how targeting shapes campaign economics, and why “which is better” always depends on the outcome you want.",
   lead: [
-    "In digital ads two base payment models: for impressions (CPM, usually per 1,000) and for clicks (CPC). The first is more about reach and awareness; the second — traffic to the site and control of cost per visit.",
-    "Below — in plain words, who each fits better, where targeting and a landing matter, and why you can’t pick a “best model forever” without a goal and numbers. Old “clicks for pennies” price lists aren’t a guide — watch your own tests.",
+    "Digital ads usually boil down to two payment models: impressions (CPM, typically priced per 1,000) and clicks (CPC). CPM is built for reach and awareness; CPC is built for site traffic and a clearer cost per visit.",
+    "A plain look at who each model serves, where targeting and the landing page matter, and why you can’t crown a forever winner without a goal and real numbers. Old “clicks for pennies” rate cards are not a playbook — run your own tests.",
   ],
   faq: [
     {
       q: "What is CPC?",
-      a: "Cost Per Click — you pay when someone clicks the ad. An impression without a click usually doesn’t spend CPC budget (aside from specific system nuances).",
+      a: "Cost Per Click — you pay when someone clicks the ad. An impression with no click usually doesn’t spend CPC budget (aside from a few platform-specific quirks).",
     },
     {
       q: "What is CPM?",
-      a: "Cost Per Mille — pay per 1,000 impressions. A click isn’t required: you pay for the ad being shown.",
+      a: "Cost Per Mille — you pay per 1,000 impressions. A click isn’t required: you’re paying for the ad to be shown.",
     },
     {
       q: "What’s more effective — impressions or clicks?",
-      a: "Depends on the goal. Awareness/image — more often CPM (and related reach formats). Site leads and sales — more often CPC/CPA and landing control.",
+      a: "It depends on the goal. Brand awareness and image work lean toward CPM (and related reach formats). Leads and sales from the site lean toward CPC/CPA plus a solid landing page.",
     },
     {
-      q: "Can you combine them?",
-      a: "Yes: reach at the top of the funnel and click/goal campaigns below. A remarketing link is typical.",
+      q: "Can I combine them?",
+      a: "Yes: run reach at the top of the funnel and click- or goal-based campaigns lower down. Linking them with remarketing is a common setup.",
     },
     {
       q: "Is CPC always cheaper for sales?",
-      a: "Not always. An expensive click with high conversion beats a cheap one with no leads. Count CPA and lead quality.",
+      a: "Not always. An expensive click that converts beats a cheap click that never becomes a lead. Track CPA and lead quality.",
     },
     {
-      q: "Where to use CPM?",
-      a: "Where audience and contact frequency matter: topical sites, display, social for a reach job — with a decent creative.",
+      q: "Where does CPM make sense?",
+      a: "Anywhere audience and frequency matter: niche sites, display, social for a reach job — with creative that’s actually worth showing.",
     },
     {
-      q: "How does this tie to UTM?",
-      a: "For click campaigns tags help split sources in analytics. For reach — watch brand queries, direct visits, and post-campaign slices.",
+      q: "How does this tie to UTM tags?",
+      a: "On click campaigns, tags help split sources in analytics. On reach, watch brand searches, direct visits, and post-campaign slices.",
     },
     {
       q: "What about CPA?",
-      a: "Pay per action (lead, purchase). Closer to business, but needs clean goals and data volume. Often the next step after CPC.",
+      a: "You pay per action (lead, purchase). It’s closer to the business outcome, but you need clean goals and enough data. Often it’s the next step after CPC.",
     },
   ],
   sections: [
     {
-      title: "Clicks and impressions in plain words",
+      title: "Clicks and impressions in plain English",
       level: 2,
       paras: [
-        "An impression — the ad appeared in front of the user. A click — they followed it. CPC pays for the visit; CPM — a pack of impressions even if clicks are few.",
-        "Both models are valid and useful. The mistake is paying for reach while expecting instant leads, or chasing cheap clicks with no offer and landing.",
+        "An impression means the ad showed up in front of someone. A click means they followed it. CPC pays for the visit; CPM pays for a block of impressions even when clicks are scarce.",
+        "Both models are legitimate. The mistake is buying reach while expecting instant leads — or chasing cheap clicks with a weak offer and landing page.",
       ],
       lists: [
         {
           intro: "In short:",
           items: [
-            "CPM — “they saw me”;",
-            "CPC — “they came to the site”;",
-            "CPA — “they took the goal action”.",
+            "CPM — “they saw me”",
+            "CPC — “they came to the site”",
+            "CPA — “they took the action you wanted”",
           ],
         },
       ],
@@ -70,17 +70,17 @@ export const cpmIliCpcEn: BlogPost = {
       title: "When CPM fits",
       level: 2,
       paras: [
-        "When the job is for the brand and offer to “show up” to the right audience: launch, image, reminder, warm-up before a promo. Creative and frequency matter no less than the bid.",
-        "Placements: large topical media, niche sites, relevant communities — where your audience really is. After reach, remarketing to people who already saw the ad is common.",
+        "Use it when the job is to put the brand and offer in front of the right people: a launch, brand lift, a reminder, or a warm-up before a promo. Creative and frequency matter as much as the bid.",
+        "Placements: large niche media, relevant sites, communities where your audience actually hangs out. After a reach flight, remarketing to people who already saw the ad is a natural next step.",
       ],
       lists: [
         {
-          intro: "CPM works well if:",
+          intro: "CPM works well when:",
           items: [
-            "you need awareness, not only clicks;",
-            "you have a strong visual/message;",
-            "you’re ready to measure effect wider than “yesterday’s leads”;",
-            "the audience is narrow and clear.",
+            "you need awareness, not only clicks",
+            "you have a strong visual or message",
+            "you’re willing to measure impact beyond “yesterday’s leads”",
+            "the audience is narrow and well defined",
           ],
         },
       ],
@@ -95,25 +95,25 @@ export const cpmIliCpcEn: BlogPost = {
       title: "When CPC fits",
       level: 2,
       paras: [
-        "When you need site traffic and want to pay closer to interest: they clicked — you paid. Easier to control visit budget and link spend to conversions in analytics.",
-        "Without targeting and a decent landing, CPC becomes paying for curiosity. Competition raises click price — that’s market normal, not a “broken model”.",
+        "Use it when you need site traffic and want to pay closer to interest: they clicked, you paid. It’s easier to control visit spend and tie cost to conversions in analytics.",
+        "Without targeting and a decent landing page, CPC is just paying for curiosity. Competition drives click prices up — that’s the market, not a “broken” model.",
       ],
       lists: [
         {
-          intro: "CPC makes sense if:",
+          intro: "CPC makes sense when:",
           items: [
-            "there’s a site/landing for the offer;",
-            "you need leads, sales, sign-ups;",
-            "UTM and end-to-end analytics matter;",
-            "you’re ready to rotate ads and negatives/audiences.",
+            "you have a site or landing page for the offer",
+            "you need leads, sales, or sign-ups",
+            "UTMs and full-funnel analytics matter",
+            "you’re ready to rotate ads and refine negatives or audiences",
           ],
         },
         {
-          intro: "Downsides of the click model:",
+          intro: "Limits of the click model:",
           items: [
-            "CPC rises in competitive niches;",
-            "clicks without purchases on a weak offer;",
-            "low-quality traffic risk — watch conversions, not CTR alone.",
+            "CPC climbs in competitive niches",
+            "weak offers produce clicks with no purchases",
+            "low-quality traffic risk — watch conversions, not CTR alone",
           ],
         },
       ],
@@ -127,7 +127,7 @@ export const cpmIliCpcEn: BlogPost = {
           href: "/en/blog/sklikivanie/",
         },
         {
-          label: "Direct strategies",
+          label: "Yandex Direct strategies",
           href: "/en/blog/strategii-yandeks-direkt/",
         },
       ],
@@ -136,13 +136,13 @@ export const cpmIliCpcEn: BlogPost = {
       title: "How to choose",
       level: 2,
       paras: [
-        "Goal first: tell the world about yourself or bring buyers now. Reach → closer to CPM (and reach strategies). Site sales → closer to CPC/CPA.",
-        "Then economics: acceptable lead cost, margin, sales-cycle length. Test both models on a small budget and compare not a “pretty CTR”, but leads and revenue.",
+        "Start with the goal: get on people’s radar, or bring buyers in now. Reach points toward CPM (and reach strategies). Site sales point toward CPC/CPA.",
+        "Then check the economics: acceptable cost per lead, margin, sales-cycle length. Test both models on a small budget and compare leads and revenue — not a “pretty” CTR.",
       ],
       notes: [
         {
           title: "Takeaway",
-          text: "“What’s better — impressions or clicks?” has no answer without a goal. Impressions build awareness; clicks bring client candidates. They often work as a pair, not an eternal fight.",
+          text: "There’s no universal answer to “impressions or clicks?” without a goal. Impressions build awareness; clicks bring potential customers. They often work as a pair, not rivals.",
           kind: "tip",
         },
       ],

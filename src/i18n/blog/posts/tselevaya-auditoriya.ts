@@ -11,11 +11,11 @@ export const tselevayaAuditoriyaEn: BlogPost = {
     "A practical audience breakdown: demographics, jobs, anti-persona, segments, and data sources — so ads and content don’t shoot into the void.",
   lead: [
     "Target audience is people whose problem your product actually solves. Without it, semantics, ads, and copy live on “gut feel”: budget goes to clicks, leads are random.",
-    "Below — a set of questions and steps to build a portrait in a reasonable time, cut non-targets, and split the audience into segments. It’s a base for both the SEO core and creatives — not a full market study replacement.",
+    "Use this set of questions and steps to build a portrait in a reasonable time, cut non-targets, and split the audience into segments. It’s a base for both the SEO core and creatives — not a full market study replacement.",
   ],
   faq: [
     {
-      q: "Where to start if you still have few clients?",
+      q: "Where should I start if I still have few clients?",
       a: "Hypotheses + competitor and niche data: who buys from leaders, which phrasing shows up in reviews and queries. Then refine with surveys and analytics from your first sales.",
     },
     {
@@ -23,7 +23,7 @@ export const tselevayaAuditoriyaEn: BlogPost = {
       a: "The core is the same; cuts can differ: search cares about intents and query phrasing, social ads — interests and lookalikes. One portrait, different channels.",
     },
     {
-      q: "Do you need a detailed persona?",
+      q: "Do I need a detailed persona?",
       a: "A persona helps the team speak one language. For a start, 2–4 segments with a job, barrier, and channel are enough; “name and hobby” is optional.",
     },
     {
@@ -31,8 +31,8 @@ export const tselevayaAuditoriyaEn: BlogPost = {
       a: "Who is definitely not your client: another city/budget, a rival brand, freebie hunters, B2C when you sell B2B. Exclusions save budget and analytics noise.",
     },
     {
-      q: "Where to get data?",
-      a: "CRM and leads, Metrica/Analytics, Webmaster/GSC, Wordstat and the core, surveys, reviews, social stats, sales-manager interviews.",
+      q: "Where do I get audience data?",
+      a: "CRM and leads, Yandex Metrika/Analytics, Webmaster/GSC, Wordstat and the core, surveys, reviews, social stats, sales-manager interviews.",
     },
     {
       q: "Are demographics required?",
@@ -91,7 +91,7 @@ export const tselevayaAuditoriyaEn: BlogPost = {
             "client and lead surveys;",
             "owner hypothesis + data check;",
             "social stats and lookalikes from niche leaders;",
-            "geo and devices in Metrica/Analytics.",
+            "geo and devices in Yandex Metrika/Analytics.",
           ],
         },
       ],
@@ -172,7 +172,7 @@ export const tselevayaAuditoriyaEn: BlogPost = {
       level: 2,
       paras: [
         "The outcome is a short segment table in one place (Notion/sheet), tied to negatives, core clusters, and creatives. Once a quarter, check against real leads: the audience drifts if the product or market moved.",
-        "Don’t confuse reach with quality: traffic growth without segment match is noise. Better fewer visits with a clear job and conversion.",
+        "Don’t mix up reach with quality: traffic growth without segment match is noise. Better fewer visits with a clear job and conversion.",
       ],
       lists: [
         {

@@ -5,17 +5,17 @@ export const prognozTrafikaEn: BlogPost = {
   slug: "prognoz-trafika",
   title: "Website traffic forecast: how to estimate SEO potential",
   date: "2019-10-17",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/prognoz-trafika/cover-en.webp",
   excerpt:
     "How to estimate potential organic traffic: semantics, frequency, realistic positions, and CTR — without the illusion of an “exact” forecast and without swapping prep for ranking in TOP.",
   lead: [
-    "Owners want a number: “how many visits will SEO bring”. There’s no exact answer: seasonality, competition, and demand shift. But you can estimate approximate potential — enough not to plan on “maybe”.",
-    "Below — the estimation logic: core → frequency → expected positions → CTR by SERP place → sum. Site prep for promotion and the core reaching TOP are different horizons: TOP is planned over 2–6 months after work starts.",
+    "Owners want a number: “how many visits will SEO bring?” There’s no exact answer: seasonality, competition, and demand shift. But you can estimate approximate potential — enough not to plan on “maybe”.",
+    "The estimation logic runs core → frequency → expected positions → CTR by SERP place → sum. Site prep for promotion and the core reaching TOP are different horizons: TOP is planned over 2–6 months after work starts.",
   ],
   faq: [
     {
-      q: "Can you forecast traffic exactly?",
+      q: "Can I forecast traffic exactly?",
       a: "No. There’s a model with assumptions. Use a range and scenarios (cautious / base), not one “guaranteed” figure.",
     },
     {
@@ -31,7 +31,7 @@ export const prognozTrafikaEn: BlogPost = {
       a: "Planners often show the same demand pool. Adding them double-counts.",
     },
     {
-      q: "When to forecast — before launch or on a live site?",
+      q: "When should I forecast — before launch or on a live site?",
       a: "Both. At strategy stage — order of magnitude; on a live site — check against fact and find growth points.",
     },
     {
@@ -69,9 +69,9 @@ export const prognozTrafikaEn: BlogPost = {
         {
           intro: "Inputs:",
           items: [
-            "semantic core / clusters;",
-            "frequency (no double counting);",
-            "achievable position estimate;",
+            "keyword set / clusters",
+            "frequency (no double counting)",
+            "achievable position estimate",
             "CTR by SERP place.",
           ],
         },
@@ -99,10 +99,10 @@ export const prognozTrafikaEn: BlogPost = {
         {
           intro: "Step order:",
           items: [
-            "core and clusters;",
-            "clean frequency;",
-            "position scenario;",
-            "CTR and click sum;",
+            "core and clusters",
+            "clean frequency",
+            "position scenario",
+            "CTR and click sum",
             "check against fact (if the site is live).",
           ],
         },
@@ -136,9 +136,9 @@ export const prognozTrafikaEn: BlogPost = {
         {
           intro: "After the calculation, lock:",
           items: [
-            "cautious and base scenarios;",
-            "priority clusters;",
-            "what blocks fact from catching the model;",
+            "cautious and base scenarios",
+            "priority clusters",
+            "what blocks fact from catching the model",
             "work horizon separate from the visit figure.",
           ],
         },

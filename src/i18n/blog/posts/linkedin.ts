@@ -11,7 +11,7 @@ export const linkedinEn: BlogPost = {
     "How LinkedIn differs from entertainment networks, how to set a profile and company page, why the platform helps hiring and B2B contacts — without outdated Premium prices and button screenshots.",
   lead: [
     "LinkedIn is a professional network: specialist profiles, company pages, jobs, and professional content. People look for entertainment less often here — and more for work, contractors, and expertise.",
-    "Below — why the platform matters for people and business, what’s important on a profile and company page, where Premium fits, and how not to treat LinkedIn as “another Instagram”. UI and plans change — check current terms on the service site.",
+    "Treat it as a hiring and B2B contacts channel, not another Instagram. A clear personal profile, a solid company page, and on-point messages matter more than Premium. UI and plans change — check current terms on the service site.",
   ],
   faq: [
     {
@@ -19,27 +19,27 @@ export const linkedinEn: BlogPost = {
       a: "No. Also networking, expert content, hiring, partnerships, and B2B brand awareness. Jobs are a common scenario, not the only one.",
     },
     {
-      q: "How does it differ from VK/Facebook?",
+      q: "How does LinkedIn differ from VK or Facebook?",
       a: "Focus on career and competence, less everyday content. Tone is drier and more businesslike; “memes for reach” work weaker than usefulness and cases.",
     },
     {
-      q: "Do you need Premium?",
+      q: "Do I need LinkedIn Premium?",
       a: "Not for everyone. It helps with active candidate/job search and richer analytics. A basic profile often covers presence and contacts.",
     },
     {
-      q: "What to write in the profile?",
+      q: "What should I write in the profile?",
       a: "Who you are, how you’re useful, experience, skills, results. Photo and headline without clickbait. Colleague recommendations strengthen trust.",
     },
     {
-      q: "Why a company page?",
+      q: "Why do I need a company page?",
       a: "One place for brand, jobs, and news; employees can link to the organization. It doesn’t replace the site — it’s a trust and hiring channel.",
     },
     {
-      q: "Is cold spam in messages OK?",
-      a: "Bad idea: reports, limits, and reputation hits. Write on point, with context and respect for the other person’s time.",
+      q: "Is cold spam in LinkedIn messages OK?",
+      a: "Bad idea: reports, limits, and reputation hits. Write clearly, with context and respect for the other person’s time.",
     },
     {
-      q: "Relevant for RU business?",
+      q: "Is LinkedIn relevant for RU business?",
       a: "Depends on niche and client/hiring geography. For international B2B and IT hiring often useful; for local retail other channels usually rank higher.",
     },
   ],
@@ -113,7 +113,7 @@ export const linkedinEn: BlogPost = {
       level: 2,
       paras: [
         "Paid plans usually add richer search, more profile-view detail, and recruiting/sales tools. Prices and package names change — don’t rely on figures from old guides.",
-        "Most people do fine with a careful free profile and meaningful activity. Buy Premium for a concrete job (active hiring or job search), not “just in case”.",
+        "Most people do fine with a careful free profile and meaningful activity. Buy Premium for a concrete job (active hiring or job search), not “just in case.”",
       ],
     },
   ],

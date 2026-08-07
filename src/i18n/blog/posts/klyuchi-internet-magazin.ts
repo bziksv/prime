@@ -11,8 +11,8 @@ export const klyuchiInternetMagazinEn: BlogPost = {
     "How to build semantics for an online store: products and categories, keyword tools and junk filters, clusters for cards — without copying a competitor’s core “as is” or promising TOP in a week.",
   lead: [
     "Store semantics are built around the catalog: categories, filters, cards, and informational articles. Demand and clusters first — then copy and structure, not the other way around.",
-    "Below — where to get keywords, how to clean the list, and how to map queries to page types. General core theory is in the semantic-core article; here the focus is e-commerce.",
-    "Prep of semantics and landings takes weeks. Getting a commercial core into TOP is planned 2–6 months after promotion starts.",
+    "Pull keywords from demand tools and competitors, clean the list, and map queries to page types. General core theory is in the semantic-core article; this focuses on e-commerce.",
+    "Keyword research and landing prep take weeks. Getting a commercial set into the TOP is planned 2–6 months after promotion starts.",
   ],
   faq: [
     {
@@ -44,7 +44,7 @@ export const klyuchiInternetMagazinEn: BlogPost = {
       a: "They overlap. Ads lean harder on negatives and commercial intent; SEO on landings and content.",
     },
     {
-      q: "When to expect TOP for product queries?",
+      q: "When should I expect TOP for product queries?",
       a: "After catalog prep — ranking growth is planned over months, not days.",
     },
   ],
@@ -69,7 +69,7 @@ export const klyuchiInternetMagazinEn: BlogPost = {
       ],
       links: [
         {
-          label: "Semantic core",
+          label: "Keyword research",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {
@@ -192,7 +192,7 @@ export const klyuchiInternetMagazinEn: BlogPost = {
             "a 50k-row core with no clusters;",
             "filters in the index with no content;",
             "one text for all categories with a word swap;",
-            "bids only on head terms with no long-tail matrix.",
+            "bids only on head keywords with no long-tail matrix.",
           ],
         },
       ],

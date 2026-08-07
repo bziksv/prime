@@ -11,10 +11,10 @@ export const postInstagramEn: BlogPost = {
     "How to build a selling Instagram post: offer, USP, copy structure, headline, CTA, and handling comments.",
   lead: [
     "A selling post is copy plus visuals about a specific product or service with a clear benefit and a call to action. It’s not a “pretty paragraph” — it’s a step in the dialogue with the buyer.",
-    "Below — audience, positioning, copy frame, and handling negativity. Instagram’s UI changes — copy logic matters more than button screenshots.",
+    "We cover audience, positioning, copy frame, and handling negativity. Instagram’s UI changes — copy logic matters more than button screenshots.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -23,15 +23,15 @@ export const postInstagramEn: BlogPost = {
       a: "A value post teaches or entertains. A selling post leads to an action: lead, purchase, click, booking. In the feed, sales are usually a minority — see the content plan.",
     },
     {
-      q: "Do you need keywords in the first line?",
+      q: "Do I need keywords in the first line?",
       a: "Meaning and benefit beat query density. A keyword is fine if it sounds human; otherwise the first line pushes people away.",
     },
     {
-      q: "How much text is normal?",
+      q: "How much caption text is normal?",
       a: "Enough to handle an objection and give a CTA. Long posts work if there’s air, lists, and a strong hook in the preview.",
     },
     {
-      q: "Should you delete negative comments?",
+      q: "Should I delete negative comments?",
       a: "Mass-deleting criticism kills trust. Move the argument to DMs; spam and insults — per moderation rules.",
     },
     {
@@ -51,9 +51,9 @@ export const postInstagramEn: BlogPost = {
         {
           intro: "Signs of a working post:",
           items: [
-            "noticeable visual and first line;",
-            "a concrete product / service / offer;",
-            "benefits, not only “specs”;",
+            "noticeable visual and first line",
+            "a concrete product / service / offer",
+            "benefits, not only “specs”",
             "a clear CTA.",
           ],
         },
@@ -63,15 +63,15 @@ export const postInstagramEn: BlogPost = {
       title: "Goal and what to write",
       level: 2,
       paras: [
-        "The goal is leads and sales, not “likes for likes”. Copy is a precise tool: features, benefits, difference from analogues.",
+        "The goal is leads and sales, not “likes for likes.” Copy is a precise tool: features, benefits, difference from analogues.",
       ],
       lists: [
         {
           intro: "The text usually includes:",
           items: [
-            "key features;",
-            "benefits for the client;",
-            "options / offer formats;",
+            "key features",
+            "benefits for the client",
+            "options / offer formats",
             "proof (figures, case, guarantee) — when possible.",
           ],
         },
@@ -97,14 +97,14 @@ export const postInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "The same product sells better when the difference is clear: delivery, timeline, service, expertise, guarantee, format.",
-        "Example: two confectioners in one city — you don’t win with “tastier in words”, but with a clear edge (delivery, giveaway, lead time).",
+        "Example: two confectioners in one city — you don’t win with “tastier in words,” but with a clear edge (delivery, giveaway, lead time).",
       ],
       lists: [
         {
           intro: "Positioning jobs in the post:",
           items: [
-            "show the benefit;",
-            "differentiate from analogues;",
+            "show the benefit",
+            "differentiate from analogues",
             "warm interest in the next step.",
           ],
         },
@@ -120,25 +120,25 @@ export const postInstagramEn: BlogPost = {
         {
           intro: "First-line requirements:",
           items: [
-            "concise and not banal;",
-            "offer or pain clear right away;",
+            "concise and not banal",
+            "offer or pain clear right away",
             "a keyword — only if it sounds natural.",
           ],
         },
         {
           intro: "Post frame:",
           items: [
-            "intro — 2–3 sentences, hook questions;",
-            "body — features, benefits, use cases, soft proof;",
+            "intro — 2–3 sentences, hook questions",
+            "body — features, benefits, use cases, soft proof",
             "close — a clear CTA (what to do and where).",
           ],
         },
         {
           intro: "CTA examples:",
           items: [
-            "“DM us the word … — we’ll call back”;",
-            "“Book — link in bio / reply to the operator”;",
-            "“Contacts in profile — name a convenient time”.",
+            "“DM us the word … — we’ll call back”",
+            "“Book — link in bio / reply to the operator”",
+            "“Contacts in profile — name a convenient time.”",
           ],
         },
       ],

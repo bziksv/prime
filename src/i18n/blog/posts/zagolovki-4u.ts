@@ -10,8 +10,8 @@ export const zagolovki4uEn: BlogPost = {
   excerpt:
     "The 4U formula for headlines and email subjects: usefulness, uniqueness, ultra-specificity, and urgency — with examples, without “conversion ×10” claims or generators for the checkbox.",
   lead: [
-    "People read the headline more often than the body: in seconds they decide to stay or leave. The 4U formula helps build a title from benefit, difference, specifics, and (when it fits) urgency — without empty “best in the world.”",
-    "Below — the four pillars, what you can drop, the H1/title link, and honesty in promises. Older “catchy headline” roundups are better folded into this frame.",
+    "People read the headline more often than the body: in seconds they decide to stay or leave. The 4U formula helps you build a title from benefit, difference, specifics, and (when it fits) urgency — without empty “best in the world” claims.",
+    "The four pillars, what you can drop, the H1/title link, and honesty in promises. Older “catchy headline” roundups fit better inside this frame.",
   ],
   faq: [
     {
@@ -24,18 +24,18 @@ export const zagolovki4uEn: BlogPost = {
     },
     {
       q: "Can I say “#1” and “unique product”?",
-      a: "Only with proof. Bare superlatives risk ad rules and make a weak offer.",
+      a: "Only with proof. Bare superlatives risk ad rules and expose a weak offer.",
     },
     {
       q: "Is 4U the same as SEO H1?",
-      a: "Not always. A selling 4U can run long; for search you often pair headline + subhead and keep a careful title separate.",
+      a: "Not always. A selling 4U headline can run long; for search you often pair headline + subhead and keep a careful title tag separate.",
     },
     {
       q: "Do online generators help?",
-      a: "Weakly: they usually glue your words. A live headline after a brief is stronger.",
+      a: "Weakly: they usually glue your words together. A live headline after a brief beats a template.",
     },
     {
-      q: "Where else to use it?",
+      q: "Where else can I use it?",
       a: "Email subjects, service cards, ads — within each platform’s limits.",
     },
     {
@@ -52,8 +52,8 @@ export const zagolovki4uEn: BlogPost = {
       title: "Four pillars",
       level: 2,
       paras: [
-        "Usefulness — what the reader gains (save money, know their level, get clients). Prefer a verb and outcome over “what we have.”",
-        "Uniqueness — how you’re different: condition, guarantee, format. Not the empty “personalized approach” with no fact.",
+        "Usefulness — what the reader gains (save money, know their level, get clients). Lead with a verb and outcome, not “what we have.”",
+        "Uniqueness — how you’re different: condition, guarantee, format. Not the empty “personalized approach” with no fact behind it.",
         "Ultra-specificity — numbers, timeframe, geo, segment: “up to 41%,” “in 3 months,” “for offices from $X/m².”",
         "Urgency — promo deadline or time to result. No real hook — drop the element.",
       ],
@@ -71,7 +71,7 @@ export const zagolovki4uEn: BlogPost = {
       title: "Order and formatting",
       level: 2,
       paras: [
-        "No rigid order; usefulness often comes first. Split a long 4U: headline + subhead, accents on separate lines.",
+        "No rigid order; usefulness often comes first. Split a long 4U headline: headline + subhead, accents on separate lines.",
         "For ad platforms check current character limits — old AdWords guide numbers age fast.",
       ],
       lists: [],
@@ -80,14 +80,14 @@ export const zagolovki4uEn: BlogPost = {
       title: "SEO and honesty",
       level: 2,
       paras: [
-        "A keyword in H1/title is fine if it sounds natural. Don’t break 4U for a clumsy insertion.",
+        "A keyword in H1 or title is fine if it sounds natural. Don’t break 4U for a clumsy insertion.",
         "Don’t promise the impossible (“−30 kg in a week”). Specifics must survive a fact check.",
       ],
       lists: [],
       links: [
         {
           label: "SEO copywriting",
-          href: "/blog/seo-kopirayting/",
+          href: "/en/blog/seo-kopirayting/",
         },
         {
           label: "Copywriter brief",
@@ -103,7 +103,7 @@ export const zagolovki4uEn: BlogPost = {
       title: "Mini algorithm",
       level: 2,
       paras: [
-        "Write the audience benefit → how you differ → add a number/segment → add a deadline if needed → cut fluff → test 2–3 variants.",
+        "Write the audience benefit → how you differ → add a number or segment → add a deadline if needed → cut fluff → test 2–3 variants.",
       ],
       lists: [
         {

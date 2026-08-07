@@ -5,17 +5,17 @@ export const analogiYandeksMarketEn: BlogPost = {
   slug: "analogi-yandeks-market",
   title: "Yandex Market alternatives: why diversify and how to choose",
   date: "2021-06-24",
-  category: "Internet marketing",
+  category: "E-commerce",
   cover: "/images/blog/analogi-yandeks-market/cover-en.webp",
   excerpt:
     "Why an online store shouldn’t lean only on Yandex Market, which nearby platform types exist, and how to pick sales channels — without a 2021 catalog of dead services.",
   lead: [
     "Yandex Market is a major channel for comparing and selling goods. But the catalog is competitive, terms and visibility change, and buyers also shop on marketplaces and other price aggregators.",
-    "Below — why diversify placement, which platform types exist, and what to check in contracts and feeds. Don’t copy 2021 brand lists and rate cards blindly: the market moved on.",
+    "Don’t copy 2021 brand lists and rate cards blindly — the market moved on. Add channels by SKU economics: your site, Market, marketplaces, and price aggregators — and measure CPA/ROI per platform.",
   ],
   faq: [
     {
-      q: "Do you need to leave Market entirely?",
+      q: "Do you need to leave Yandex Market entirely?",
       a: "Not necessarily. More often you add channels: your site + Market + marketplaces / price aggregators — by SKU economics.",
     },
     {

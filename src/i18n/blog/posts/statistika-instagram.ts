@@ -15,11 +15,11 @@ export const statistikaInstagramEn: BlogPost = {
   },
   lead: [
     "Built-in Instagram statistics (Insights) show what actually works in a profile: reach, actions, audience. Without them it’s easy to chase likes and miss leads.",
-    "Below — why Insights matter, what to watch on posts, Stories, and followers. Menu labels change; you need a professional/business profile. Informational overview only — not a call to use the platform.",
+    "Menu labels change; you need a professional or business profile. We focus on what to watch on posts, Stories, and followers — informational overview only, not a call to use the platform.",
   ],
   faq: [
     {
-      q: "Why is there no statistics?",
+      q: "Why don’t I see statistics?",
       a: "You often need a professional account. Some data appears only after the switch and only on new posts.",
     },
     {
@@ -28,15 +28,15 @@ export const statistikaInstagramEn: BlogPost = {
     },
     {
       q: "Which metrics matter more than likes?",
-      a: "Saves, replies, profile/site taps, messages; for ads — cost per action. Likes are only one signal.",
+      a: "Saves, replies, profile or site taps, messages; for ads — cost per action. Likes are only one signal.",
     },
     {
       q: "Do Stories keep stats for long?",
-      a: "The Insights window for Stories is limited (historically ~2 weeks). Take screenshots/exports in time.",
+      a: "The Insights window for Stories is limited (historically about two weeks). Screenshot or export in time.",
     },
     {
       q: "Are third-party stats tools OK?",
-      a: "Be careful: don’t give passwords to shady apps. For your own account, built-in Insights + UTM to the site usually suffice.",
+      a: "Be careful: don’t give passwords to shady apps. For your own account, built-in Insights plus UTM to the site usually suffice.",
     },
   ],
   sections: [
@@ -74,7 +74,7 @@ export const statistikaInstagramEn: BlogPost = {
       lists: [],
       notes: [
         {
-          title: "Practice",
+          title: "Tip",
           text: "Data on old posts before the profile-type change may be incomplete. Rely on publications after Insights are enabled.",
         },
       ],
@@ -83,7 +83,7 @@ export const statistikaInstagramEn: BlogPost = {
       title: "Profile and post metrics",
       level: 2,
       paras: [
-        "At profile level people watch visits, reach, link taps, follower trend. Per post — reach, impressions, likes, comments, saves, shares, sometimes clicks.",
+        "At profile level, people watch visits, reach, link taps, and follower trend. Per post — reach, impressions, likes, comments, saves, shares, sometimes clicks.",
       ],
       lists: [
         {
@@ -101,8 +101,8 @@ export const statistikaInstagramEn: BlogPost = {
       title: "Stories, Lives, audience",
       level: 2,
       paras: [
-        "In Stories, replies, taps, sticker answers, and exit from the sequence matter. For Lives — peak viewers and retention, not only “how many joined at the start.”",
-        "For audience (if follower threshold allows) watch gender, age, cities, and hourly activity — then shift the posting schedule.",
+        "In Stories, replies, taps, sticker answers, and exits from the sequence matter. For Lives — peak viewers and retention, not only “how many joined at the start.”",
+        "For audience (if the follower threshold allows), watch gender, age, cities, and hourly activity — then shift the posting schedule.",
       ],
       lists: [],
       links: [
@@ -130,7 +130,7 @@ export const statistikaInstagramEn: BlogPost = {
             "once a week — top and flop posts;",
             "UTM on the bio link;",
             "a goal in numbers (leads), not only reach;",
-            "don’t log into grey apps.",
+            "don’t log into shady apps.",
           ],
         },
       ],

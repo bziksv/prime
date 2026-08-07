@@ -5,34 +5,34 @@ export const vodyanoyZnakEn: BlogPost = {
   slug: "vodyanoy-znak",
   title: "Photo watermarks: why they help and when they hurt",
   date: "2020-09-16",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/vodyanoy-znak/cover-en.webp",
   excerpt:
     "What a watermark on digital photos is: protection and branding, downsides for perception and sharing, how to apply it carefully, and alternatives (previews, contracts, metadata).",
   lead: [
-    "A watermark is a semi-transparent signature, logo, or URL over an image. The idea came from paper and banknotes; on the web the mark reminds of the author and slightly complicates “quiet” copying.",
-    "Below — when a watermark fits, why it doesn’t replace legal protection, and how not to spoil the shot. Specific buttons in online tools and Photoshop panels change — the principle matters: opacity, size, placement.",
+    "A watermark is a semi-transparent signature, logo, or URL overlaid on an image. The idea came from paper and banknotes; on the web the mark reminds viewers of the author and slightly complicates “quiet” copying.",
+    "A watermark can deter casual theft, but it doesn’t replace legal protection — and a heavy mark can ruin the shot. Opacity, size, and placement matter more than which Photoshop panel you use.",
   ],
   faq: [
     {
-      q: "Is a watermark = legal protection?",
+      q: "Is a watermark the same as legal protection?",
       a: "No. It’s a visual signal and a light barrier. Rights are confirmed by contract, authorship records, and evidence in a dispute — not a corner logo.",
     },
     {
       q: "Can a watermark be removed?",
-      a: "An experienced person will often crop or retouch it. Don’t build protection on the mark alone.",
+      a: "Someone with skill will often crop or retouch it. Don’t build protection on the mark alone.",
     },
     {
-      q: "Where to place the mark?",
+      q: "Where should I place the mark?",
       a: "So it doesn’t hit the subject: a corner, a light repeating pattern, or a zone outside the main object. Too large a mark kills the frame.",
     },
     {
-      q: "Do you need it on every site photo?",
-      a: "Not always. For portfolios and stock — more often yes; for UX illustrations and social sharing a clean smaller preview is sometimes better.",
+      q: "Do I need it on every site photo?",
+      a: "Not always. For portfolios and stock — more often yes; for UX illustrations and social sharing, a clean smaller preview is sometimes better.",
     },
     {
-      q: "What can replace it?",
-      a: "Publish smaller previews, keep originals offline, licenses/contracts, metadata, and when needed — registries and legal support.",
+      q: "What can replace a watermark?",
+      a: "Publish smaller previews, keep originals offline, licenses and contracts, metadata, and when needed — registries and legal support.",
     },
   ],
   sections: [
@@ -40,9 +40,9 @@ export const vodyanoyZnakEn: BlogPost = {
       title: "Why people add them and who benefits",
       level: 2,
       paras: [
-        "On stock sites and among photographers a watermark lowers the temptation to download “as is” and also advertises the author if the frame still travels further online.",
-        "Site owners mark their visuals with a logo or domain: protection + recognition. A good mark is almost unnoticeable but readable when copied.",
-        "Marketers sometimes make the mark part of the brand: the image “wanders”, the logo travels with it. That works only if the mark doesn’t ruin the composition.",
+        "On stock sites and among photographers, a watermark lowers the temptation to download “as is” and also advertises the author if the image keeps traveling online.",
+        "Site owners mark visuals with a logo or domain: protection plus recognition. A good mark is almost unnoticeable but readable when copied.",
+        "Marketers sometimes make the mark part of the brand: the image “wanders,” the logo travels with it. That works only if the mark doesn’t ruin the composition.",
       ],
       lists: [
         {
@@ -51,7 +51,7 @@ export const vodyanoyZnakEn: BlogPost = {
             "reduce free-riding copies;",
             "credit the author on a repost;",
             "strengthen brand on shared previews;",
-            "tell a demo frame from a paid license.",
+            "distinguish a demo frame from a paid license.",
           ],
         },
       ],
@@ -70,21 +70,21 @@ export const vodyanoyZnakEn: BlogPost = {
       title: "Downsides, tools, and practice",
       level: 2,
       paras: [
-        "Downsides: the mark distracts from the frame; a crude watermark looks cheap; social sharing drops if the image is “smeared”; legally one corner isn’t enough.",
-        "Tools: a graphics editor (Photoshop, Photopea, GIMP and peers), batch processing in Lightroom/plugins, online services with file upload. Don’t upload photos with sensitive data to shady sites — for commercial originals local software is preferable.",
-        "Application practice: a separate layer, 15–40% opacity, contrast against the background, one style across the site. For portfolios a small preview without a mark + the full file on request/payment is sometimes better.",
-        "Whether to use one depends on the goal: stock and selling rights — more often yes; atmospheric blog illustrations — to taste; if sharing and aesthetics matter more — previews and contracts beat a fat logo across half the frame.",
-        "Bottom line: a watermark is a useful protection and brand layer, not armor. Do it carefully or choose previews and a legal frame.",
+        "Downsides: the mark distracts from the image; a crude watermark looks cheap; social sharing drops if the image is “smeared”; legally, one corner logo isn’t enough.",
+        "Tools: a graphics editor (Photoshop, Photopea, GIMP, and peers), batch processing in Lightroom or plugins, online services with file upload. Don’t upload photos with sensitive data to shady sites — for commercial originals, local software is preferable.",
+        "Application practice: a separate layer, 15–40% opacity, contrast against the background, one style across the site. For portfolios, a small preview without a mark plus the full file on request or payment is sometimes better.",
+        "Whether to use one depends on the goal: stock and selling rights — more often yes; atmospheric blog illustrations — case by case; if sharing and aesthetics matter more — previews and contracts beat a fat logo across half the frame.",
+        "Bottom line: a watermark is a useful protection and brand layer, not armor. Apply it carefully or choose previews and a legal framework.",
       ],
       lists: [
         {
           intro: "Careful watermark checklist:",
           items: [
-            "doesn’t cover face/product;",
+            "doesn’t cover face or product;",
             "one style across the series;",
-            "readable on a preview, but doesn’t shout;",
+            "readable on a preview but doesn’t shout;",
             "a backup file without the mark exists;",
-            "rights and licenses are handled separately.",
+            "rights and licenses handled separately.",
           ],
         },
       ],

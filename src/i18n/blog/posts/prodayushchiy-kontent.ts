@@ -11,10 +11,10 @@ export const prodayushchiyKontentEn: BlogPost = {
     "What selling content in social media is: goals, B2C and B2B, post types, and how to build a plan without endless “buy now” and outdated % from old reviews.",
   lead: [
     "Selling content drives action: click, lead, purchase. It’s not only a “−50% sale” — it’s a mix of offer, value, and proof fitted to the audience.",
-    "Below — goals, B2C/B2B differences, post types, and plan-building rules. Commercial-copy structure is separate; feed-format taxonomy too. Old “70% of businesses / 80% bought because of a post” figures aren’t universal. Mentions of Instagram and Facebook are informational.",
+    "Goals, B2C/B2B differences, post types, and plan-building rules sit here. Commercial-copy structure and feed-format taxonomy live elsewhere. Old “70% of businesses / 80% bought because of a post” figures aren’t universal. Mentions of Instagram and Facebook are informational.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platforms. Instagram* and Facebook* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the services may have legal consequences.",
   },
   faq: [
@@ -31,7 +31,7 @@ export const prodayushchiyKontentEn: BlogPost = {
       a: "For B2C often yes: less friction. For B2B, terms, cases, and process matter more.",
     },
     {
-      q: "How many selling slots in the plan?",
+      q: "How many selling slots belong in the plan?",
       a: "As many as the audience tolerates without unfollows. Watch saves, replies, and leads — not only likes.",
     },
     {
@@ -43,7 +43,7 @@ export const prodayushchiyKontentEn: BlogPost = {
       a: "Desirable: recognition in the feed. Full “cyberpunk like banks” isn’t mandatory — consistency matters.",
     },
     {
-      q: "Is video mandatory?",
+      q: "Is video mandatory for selling content?",
       a: "A strong format, not the only one. Stories, carousels, and text with a clear offer also work.",
     },
   ],
@@ -74,9 +74,9 @@ export const prodayushchiyKontentEn: BlogPost = {
         {
           intro: "Audience minimum before the plan:",
           items: [
-            "who buys and which job they close;",
-            "objections and segment triggers;",
-            "where the audience lives (platform/format);",
+            "who buys and which job they close",
+            "objections and segment triggers",
+            "where the audience lives (platform/format)",
             "what counts as post success (not only a like).",
           ],
         },
@@ -96,7 +96,7 @@ export const prodayushchiyKontentEn: BlogPost = {
       links: [
         {
           label: "Content types in social",
-          href: "/blog/vidy-kontenta-socseti/",
+          href: "/en/blog/vidy-kontenta-socseti/",
         },
         {
           label: "Content plan",
@@ -115,10 +115,10 @@ export const prodayushchiyKontentEn: BlogPost = {
         {
           intro: "Practical rules:",
           items: [
-            "offer is honest and checkable;",
-            "visuals in one system (color, type, frame);",
-            "motion (video/Stories) — within capacity, not for the report;",
-            "ads and organic for different audience segments;",
+            "offer is honest and checkable",
+            "visuals in one system (color, type, frame)",
+            "motion (video/Stories) — within capacity, not for the report",
+            "ads and organic for different audience segments",
             "measure leads, not only reach.",
           ],
         },

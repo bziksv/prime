@@ -11,7 +11,7 @@ export const kategoriiInternetMagazinaEn: BlogPost = {
     "Why categories capture demand, when to create a new section, how to check demand and competitors, what content to write, and how to avoid cannibalization and crawl gaps.",
   lead: [
     "Category pages often drive a large share of store organic: people search for a “product type,” not a SKU. A section links the homepage to product cards and gains from internal links.",
-    "Below — when to create a new category, how to check demand, what to put in the description, and the risks (cannibalization, thin assortment, crawl). The overall e-com promotion loop is a separate article; structure prep ≠ instant TOP.",
+    "Create a category when demand and assortment justify it; check demand, write a useful description, and watch cannibalization, thin assortment, and crawl. The overall e-com promotion loop is a separate article; structure prep ≠ instant TOP.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const kategoriiInternetMagazinaEn: BlogPost = {
       a: "No hard rule. Match niche and competitor expectations: an empty section with 2–3 SKUs is weak for people and search. A filter/tag is better than an “empty” landing.",
     },
     {
-      q: "Hide category copy under an “for SEO” spoiler?",
+      q: "Should I hide category copy under an “for SEO” spoiler?",
       a: "Bad practice. If the text is useful — show it. Hidden stuffing isn’t a substitute for assortment and filters.",
     },
     {
@@ -61,7 +61,7 @@ export const kategoriiInternetMagazinaEn: BlogPost = {
         },
         {
           label: "SEO site structure",
-          href: "/blog/seo-struktura-sayta/",
+          href: "/en/blog/seo-struktura-sayta/",
         },
       ],
     },
@@ -105,7 +105,7 @@ export const kategoriiInternetMagazinaEn: BlogPost = {
       ],
       links: [
         {
-          label: "Semantic core",
+          label: "Keyword research",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {

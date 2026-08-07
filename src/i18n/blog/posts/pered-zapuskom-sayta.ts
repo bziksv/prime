@@ -5,13 +5,13 @@ export const peredZapuskomSaytaEn: BlogPost = {
   slug: "pered-zapuskom-sayta",
   title: "Before launching a site: a technical checklist",
   date: "2018-07-20",
-  category: "Internet marketing",
+  category: "Hosting",
   cover: "/images/blog/pered-zapuskom-sayta/cover-en.webp",
   excerpt:
     "Status codes, speed, sitemap and robots, 404, mixed content, duplicates, Title/URL, mobile, analytics, images, internal links, and structured data — without worshipping AMP or one crawler brand.",
   lead: [
     "A perfect bug-free launch almost never happens. Pre-production’s job is to catch the critical: indexation, speed, mobile, and analytics — so you don’t open the site blind.",
-    "Below — a technical checklist before release. Business elements (offer, contacts) live in a neighboring piece. Specific crawlers and AMP from old guides aren’t required: pick any handy scanner and current standards.",
+    "Before go-live, catch indexation, speed, mobile, and analytics — so you don’t open the site blind. Business elements (offer, contacts) live in a companion article. AMP from old guides isn’t required; pick any handy scanner and current standards.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const peredZapuskomSaytaEn: BlogPost = {
       a: "For most commercial sites — no. First proper responsive and speed. AMP is a separate choice for narrow cases.",
     },
     {
-      q: "Which status code for pages in the index?",
+      q: "Which status codes should indexed pages return?",
       a: "Main documents — 200. Fix mass 404/5xx and redirect chains before promotion.",
     },
     {
@@ -27,7 +27,7 @@ export const peredZapuskomSaytaEn: BlogPost = {
       a: "Yes — a wrong Disallow on important sections. Check robots, meta robots, and X-Robots-Tag.",
     },
     {
-      q: "What about mixed content?",
+      q: "What about mixed content after HTTPS?",
       a: "After HTTPS all assets must load over https, or the browser cuts scripts/styles and UX suffers.",
     },
     {
@@ -35,7 +35,7 @@ export const peredZapuskomSaytaEn: BlogPost = {
       a: "By page meaning (organization, product, FAQ). Not “every type at once” for a checkbox.",
     },
     {
-      q: "Analytics before launch?",
+      q: "Should analytics be ready before launch?",
       a: "Yes: counters/GTM and webmaster tools access so you see traffic and index errors from day one.",
     },
   ],
@@ -52,9 +52,9 @@ export const peredZapuskomSaytaEn: BlogPost = {
         {
           intro: "Minimum before open:",
           items: [
-            "status codes of key templates;",
-            "sitemap + robots aligned;",
-            "HTTPS without mixed content;",
+            "status codes of key templates",
+            "sitemap + robots aligned",
+            "HTTPS without mixed content",
             "no accidental sitewide noindex.",
           ],
         },
@@ -76,7 +76,7 @@ export const peredZapuskomSaytaEn: BlogPost = {
       paras: [
         "Clean URLs by section structure. Title and description unique on money pages. Responsive checked on a real phone — not only DevTools.",
         "Analytics counters and a tag container on all needed templates; webmaster tools connected. Images compressed, with meaningful alt where needed.",
-        "Internal linking and link equity: important sections reachable from the menu and hubs, no “orphans”.",
+        "Internal linking and link equity: important sections reachable from the menu and hubs, no “orphans.”",
       ],
       links: [
         {
@@ -84,7 +84,7 @@ export const peredZapuskomSaytaEn: BlogPost = {
           href: "/en/blog/adaptivnyy-sayt/",
         },
         {
-          label: "URL address",
+          label: "URL addresses",
           href: "/en/blog/url-adres/",
         },
       ],
@@ -106,7 +106,7 @@ export const peredZapuskomSaytaEn: BlogPost = {
     },
   ],
   closing: [
-    "Before launch close indexation, speed, mobile, and analytics — catch up the rest in iterations. There won’t be perfection, but critical blockers are better caught before ad budget.",
+    "Before launch close indexation, speed, mobile, and analytics — handle the rest in iterations. There won’t be perfection, but critical blockers are better caught before ad budget.",
   ],
   related: [
     "tehnicheskiy-seo-audit",

@@ -5,13 +5,13 @@ export const promoaktsiiEn: BlogPost = {
   slug: "promoaktsii",
   title: "Why promotions matter — and which mechanics work",
   date: "2019-06-28",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/promoaktsii/cover-en.webp",
   excerpt:
     "Retail and online promotions: discounts, gift-with-purchase, loyalty, and giveaways — why business runs them, what shoppers prefer, and where privacy and the law set limits.",
   lead: [
     "A promotion is a temporary offer boost: a discount, gift, points, or a chance at a prize. The goal is a demand shift, stock move, acquisition, or retention — not “discount forever for its own sake”.",
-    "Below — why promo helps business, popular mechanics, and what survey signals suggest (OMI/Sostav and peers, 2019 as a guide, not eternal truth). Giveaways only within platform rules and the law.",
+    "Why promo helps business, popular mechanics, and what survey signals suggest (OMI/Sostav and peers, 2019 as a guide, not eternal truth). Giveaways only within platform rules and the law.",
   ],
   legalNotice: {
     title: "Social and giveaways",
@@ -27,19 +27,19 @@ export const promoaktsiiEn: BlogPost = {
       a: "Speed turnover, launch a new line, win shelf vs competitors, grow the list. Without a goal, the campaign becomes margin giveaway.",
     },
     {
-      q: "Guaranteed prize or jackpot?",
+      q: "Should I offer a guaranteed prize or a jackpot?",
       a: "Many prefer a “bird in hand”. A strong combo is a frequent small prize + a chance at a big one. Test on your audience.",
     },
     {
-      q: "What data should you ask for?",
+      q: "What data should I ask for?",
       a: "The minimum for the mechanic. Email is often easier to get than a public face flashmob. Personal-data consent is mandatory.",
     },
     {
-      q: "Is social promo required?",
+      q: "Is a social promo required?",
       a: "One distribution channel. Offer and rules first, seeding second. Don’t confuse reach with profit.",
     },
     {
-      q: "How not to kill brand price?",
+      q: "How do I avoid killing brand price?",
       a: "Rarity and a clear reason (season, leftover, bundle). Permanent dumps train people to buy only on sale.",
     },
   ],
@@ -63,10 +63,10 @@ export const promoaktsiiEn: BlogPost = {
         {
           intro: "Basic set:",
           items: [
-            "discount on SKU/category;",
-            "gift / 2=3;",
-            "points and loyalty tiers;",
-            "giveaway with clear rules;",
+            "discount on SKU/category",
+            "gift / 2=3",
+            "points and loyalty tiers",
+            "giveaway with clear rules",
             "coupon for the next order.",
           ],
         },

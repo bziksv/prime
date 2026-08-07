@@ -11,7 +11,7 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
     "What Instagram saves in search history, why clear it, how to remove recent queries, and what clearing does not delete — without outdated button screenshots.",
   lead: [
     "Instagram* search remembers recent profiles, hashtags, and places — so you can return faster. The same list is visible to anyone who picks up an unlocked phone.",
-    "Below — why clear history, how to do it in broad strokes, and what clearing doesn’t do. Menu labels change; follow the app’s current Help. The Meta disclaimer is on the page.",
+    "Clearing history helps privacy on a shared phone — but it doesn’t unfollow accounts or wipe recommendations overnight. Menu labels change; follow the app’s current Help. The Meta disclaimer is on the page.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -20,7 +20,7 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
   faq: [
     {
       q: "Where do I see recent queries?",
-      a: "Usually the search / magnifier tab → the “Find” or “Search” field: suggestions and recent accounts on top. Labels depend on the app version.",
+      a: "Usually the search / magnifier tab → the Find or Search field: suggestions and recent accounts on top. Labels depend on the app version.",
     },
     {
       q: "Does clearing history delete follows?",
@@ -28,7 +28,7 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
     },
     {
       q: "Will it speed up the phone?",
-      a: "Barely. Search history is tiny. Slowness is more often app cache, memory, and network — not a nickname list.",
+      a: "Barely. Search history is tiny. Slowness is more often app cache, memory, and network — not a handle list.",
     },
     {
       q: "Can someone see my history on their account?",
@@ -57,14 +57,14 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "Recent queries are a handy shortcut: accounts, hashtags, and places you opened via search. The list appears when the search field is focused.",
-        "It’s not a full log of “everything in the app” and not a substitute for account activity. For security, password, 2FA, and device sessions matter more.",
-        "“Explore” suggestions and feed recommendations live separately: clearing recents doesn’t reset the algorithm entirely.",
+        "It’s not a full log of everything in the app and not a substitute for account activity. For security, password, 2FA, and device sessions matter more.",
+        "Explore suggestions and feed recommendations live separately: clearing recents doesn’t reset the algorithm entirely.",
       ],
       lists: [],
       links: [
         {
           label: "How to find someone on Instagram",
-          href: "/blog/nayti-cheloveka-instagram/",
+          href: "/en/blog/nayti-cheloveka-instagram/",
         },
       ],
     },
@@ -73,8 +73,8 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "Privacy on a shared or work phone: a colleague or relative won’t see who you searched recently.",
-        "Order in suggestions: old nicknames don’t get in the way of typing the current query.",
-        "After you lent the phone “for a minute” or signed in on someone else’s device — sensible hygiene together with a password change if you suspect access.",
+        "Order in suggestions: old handles don’t get in the way of typing the current query.",
+        "After you lent the phone for a minute or signed in on someone else’s device — sensible hygiene together with a password change if you suspect access.",
       ],
       lists: [
         {
@@ -92,15 +92,15 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
       title: "How to clear history (step logic)",
       level: 2,
       paras: [
-        "Open your profile → settings (gear / menu). Find something like “Search history” and confirm clear. Meta changes wording and menu nesting.",
-        "Alternative: in search itself, some items may offer “clear all” or one-by-one delete — if your version has it.",
+        "Open your profile → settings (gear / menu). Find something like Search history and confirm clear. Meta changes wording and menu nesting.",
+        "Alternative: in search itself, some items may offer clear all or one-by-one delete — if your version has it.",
         "After clearing, open the search field again: the recent list should be empty or much shorter. New queries will start accumulating again.",
       ],
       lists: [],
       notes: [
         {
           title: "Don’t memorize the UI",
-          text: "2021 screenshots often lie. Search by meaning for “history / recent / Search history” in settings or Instagram* Help — not “the third button on the right.”",
+          text: "2021 screenshots often lie. Search for history / recent / Search history by intent in settings or Instagram* Help — not “the third button on the right.”",
         },
       ],
     },
@@ -109,7 +109,7 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "Sometimes it’s enough to swipe or long-press a specific recent profile and choose remove from the list — without a full clear.",
-        "Hiding recommendations (“not interested” / hide) in Explore blocks is a different function: it trains suggestion feed, and doesn’t necessarily erase your search log.",
+        "Hiding recommendations (“not interested” / hide) in Explore blocks is a different function: it trains the suggestion feed, and doesn’t necessarily erase your search log.",
         "If the goal is not to show a specific nick, check both places: recents and recommendations.",
       ],
       lists: [],
@@ -118,9 +118,9 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
       title: "What clearing doesn’t do",
       level: 2,
       paras: [
-        "It doesn’t sign you out on other devices — for that, check active sessions / “Login activity.”",
+        "It doesn’t sign you out on other devices — for that, check active sessions / Login activity.",
         "It doesn’t delete chats, ad orders, saved posts, or follows.",
-        "It doesn’t guarantee someone “won’t know” you visited their profile: it could open via link, Direct, or recommendation, and that isn’t always written in your search history.",
+        "It doesn’t guarantee someone won’t know you visited their profile: it could open via link, Direct, or recommendation, and that isn’t always written in your search history.",
       ],
       lists: [],
       links: [
@@ -140,7 +140,7 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
       paras: [
         "A lock screen, a separate iOS/Android profile, and signing out on others’ devices matter more than ritual search clearing every evening.",
         "For business on a shared tablet, use a separate staff account or a clear rule: who is logged in and when they sign out.",
-        "Don’t install “Instagram cleaners” that ask for your password — that’s account-theft risk, not a faster search.",
+        "Don’t install Instagram cleaners that ask for your password — that’s account-theft risk, not a faster search.",
       ],
       lists: [
         {
@@ -166,7 +166,7 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
     },
   ],
   closing: [
-    "Open settings → search history, clear the list, and check the search field — faster than installing a shady Instagram* “optimizer.”",
+    "Open settings → search history, clear the list, and check the search field — faster than installing a shady Instagram* optimizer.",
   ],
   related: [
     "nayti-cheloveka-instagram",

@@ -5,13 +5,13 @@ export const onlaynObuchenieEn: BlogPost = {
   slug: "onlayn-obuchenie",
   title: "How to organize online training for employees",
   date: "2019-10-10",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/onlayn-obuchenie/cover-en.webp",
   excerpt:
     "How to move corporate training online: adapting materials, preparing the speaker, engagement, feedback, and a hybrid with in-person sessions — without a series of boring webinars.",
   lead: [
     "Online training saves logistics and removes geography: one strong speaker can lead a large group, and a recording catches those who missed the live session. But “just put a deck into a call” almost always fails on engagement.",
-    "Below — practical rules: how to adapt content, prepare the host, pull participants into practice, collect feedback, and not throw away the in-person format entirely. Specific platform vendors are secondary — process and rhythm matter more.",
+    "Adapt materials for the screen, prep the host, pull people into practice, collect feedback, and keep the recording useful — otherwise the live hour evaporates.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const onlaynObuchenieEn: BlogPost = {
       a: "Often yes on logistics and group scale. But you need hours to adapt materials, coordinate, and handle tech — put that in the plan.",
     },
     {
-      q: "Which platform is best?",
+      q: "Which learning platform is best?",
       a: "The one the company already has and where recordings, chat, and access are easy. Switching tools rarely saves a weak script.",
     },
     {
@@ -27,7 +27,7 @@ export const onlaynObuchenieEn: BlogPost = {
       a: "Change activity every few minutes: slide → question → poll → short clip. A 40-minute monologue kills attention.",
     },
     {
-      q: "Are homework assignments needed?",
+      q: "Are homework assignments needed for online courses?",
       a: "Yes if the goal is a skill, not “they listened”. Mini-research, KPI calc, project defense keep engagement.",
     },
     {
@@ -35,7 +35,7 @@ export const onlaynObuchenieEn: BlogPost = {
       a: "For team energy and bonding, hybrid is usually stronger. Fully remote makes culture and informal ties harder.",
     },
     {
-      q: "How do you measure effect?",
+      q: "How do you measure learning effect?",
       a: "Not only “watched the live”: module completion, scores, on-the-job application, quality of project defenses.",
     },
   ],
@@ -45,15 +45,15 @@ export const onlaynObuchenieEn: BlogPost = {
       level: 2,
       paras: [
         "A remote format reduces dependence on the speaker’s and participants’ city, speeds group scaling, and simplifies repeat access via recording. A small team can move a pilot online in tens of work hours — if there’s a script, not only a call link.",
-        "Typical formats: a short learning club under current business tasks, and a longer “marathon” with webinars, tests, practice, and project defense. The platform (Teams, Zoom, and peers) is a shell; content and rhythm create the value.",
+        "Typical formats: a short learning club under current business tasks, and a longer “marathon” with webinars, tests, practice, and project defense. The platform (Teams, Zoom, and similar) is a shell; content and rhythm create the value.",
       ],
       lists: [
         {
           intro: "Pluses with solid organization:",
           items: [
-            "one speaker — a large group;",
-            "recording for those not live;",
-            "fewer business trips;",
+            "one speaker — a large group",
+            "recording for those not live",
+            "fewer business trips",
             "one hub for materials.",
           ],
         },
@@ -99,9 +99,9 @@ export const onlaynObuchenieEn: BlogPost = {
         {
           intro: "What drives engagement:",
           items: [
-            "practical cases between live sessions;",
-            "polls and chat questions;",
-            "project defense;",
+            "practical cases between live sessions",
+            "polls and chat questions",
+            "project defense",
             "peer content from employees.",
           ],
         },

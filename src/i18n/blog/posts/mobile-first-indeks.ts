@@ -11,28 +11,28 @@ export const mobileFirstIndeksEn: BlogPost = {
     "What Google’s Mobile-First Index means: why the bot leans on the mobile document, why a cut-down m-site hurts, and how to check content parity — without 2018 “transition” panic.",
   lead: [
     "Mobile-First Index is Google’s indexing model where the main reference for understanding a page is the mobile document (what Googlebot Smartphone sees), not the “full” desktop layout.",
-    "The shift was announced in 2016–2018; for most sites mobile-first is long since normal. Below — what changed in meaning, what to do with adaptive vs separate URLs, and what to check. Mobile SERP and UX are in the mobile search article; here the focus is indexing.",
+    "The shift was announced in 2016–2018; for most sites mobile-first has long been normal. What changed in practice, what to do with responsive vs separate URLs, and how not to confuse indexing with rankings.",
   ],
   faq: [
     {
-      q: "Is desktop no longer indexed?",
+      q: "Is the desktop version no longer indexed at all?",
       a: "URLs are indexed, but Google builds signals and snippets primarily from the mobile document version. A cut-down mobile harms visibility.",
     },
     {
-      q: "Do you need a separate mobile site?",
+      q: "Do I still need a separate mobile site?",
       a: "No. Prefer responsive on one URL. Separate m. is legacy with mismatch risks.",
     },
     {
-      q: "Is this the same as Mobile-Friendly?",
+      q: "Is Mobile-First Index the same as Mobile-Friendly?",
       a: "No. Friendly is usability. Mobile-first is which document the bot treats as primary for the index.",
     },
     {
-      q: "Is Yandex mobile-first too?",
+      q: "Does Yandex use a mobile-first index too?",
       a: "Yandex has its own formula with strong mobile weight. Broken smartphone UX is risky in both search engines.",
     },
     {
-      q: "When to expect growth after mobile fixes?",
-      a: "UX and conversion can improve quickly. Positions on a competitive core — months of planned work, not “TOP next week.”",
+      q: "When should I expect growth after mobile fixes?",
+      a: "UX and conversion can improve quickly. Competitive-core rankings are planned for 2–6 months after systematic work starts — not “TOP next week.”",
     },
   ],
   sections: [
@@ -75,7 +75,7 @@ export const mobileFirstIndeksEn: BlogPost = {
             [
               "Desktop only",
               "High",
-              "Ship proper mobile before scaling SEO",
+              "Build a proper mobile experience before scaling SEO",
             ],
           ],
         },
@@ -99,10 +99,10 @@ export const mobileFirstIndeksEn: BlogPost = {
         {
           intro: "Quick parity check:",
           items: [
-            "main text and H1 on smartphone;",
-            "internal links not only in a desktop menu;",
-            "images with meaningful alt;",
-            "JSON-LD / microdata not desktop-only;",
+            "main text and H1 on smartphone",
+            "internal links not only in a desktop menu",
+            "images with meaningful alt",
+            "JSON-LD / microdata not desktop-only",
             "forms and phone numbers tappable.",
           ],
         },

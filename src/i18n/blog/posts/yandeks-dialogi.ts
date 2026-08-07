@@ -5,22 +5,22 @@ export const yandeksDialogiEn: BlogPost = {
   slug: "yandeks-dialogi",
   title: "Chat with a business in Yandex: Dialogs and contact from search",
   date: "2018-08-15",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/yandeks-dialogi/cover-en.webp",
   excerpt:
-    "How chat with a company works in the Yandex ecosystem: contact from search and the snippet, the operator’s role and API — without promising an eternal “Alice button forever.”",
+    "How business chat works in the Yandex ecosystem: contact from search and snippets, the operator’s role, and API access — without promising an eternal Alice button.",
   lead: [
-    "“Chat with a company” in the Yandex contour is a way to start a dialogue with a business not only from the site, but from search surfaces: the snippet, related voice-assistant scenarios where the product is still available.",
-    "Below — why businesses need it, what’s required to connect, and how not to confuse it with a regular on-site widget. Cabinet names (historically “Dialogs”), partner CMS options, and display points have changed since 2018 — check current Yandex Help and product status at implementation time.",
+    "Business chat in Yandex lets customers start a conversation with a company from search surfaces — not only from your site. That includes snippets and, where still available, voice-assistant scenarios.",
+    "Why teams use it, what’s required to connect, and how it differs from a standard on-site widget. Product names (historically Dialogs), partner CMS options, and display points have changed since 2018 — confirm current Yandex Help and product status before you build.",
   ],
   faq: [
     {
-      q: "Is this a replacement for the site form?",
-      a: "No. Search chat complements the site: a quick “here and now” question. Forms and CRM are still needed for structured leads.",
+      q: "Is search chat a replacement for the site form?",
+      a: "No. Search chat complements the site: a quick here-and-now question. Forms and CRM still handle structured leads.",
     },
     {
-      q: "Do you need your own chat operator?",
-      a: "Yes — someone must answer during business hours or you set a bot/routing. A dead chat is worse than no button.",
+      q: "Do I need my own chat operator?",
+      a: "Yes — someone must answer during business hours, or you set up a bot and routing. A dead chat hurts more than no button at all.",
     },
     {
       q: "Does it only work on Bitrix?",
@@ -28,10 +28,10 @@ export const yandeksDialogiEn: BlogPost = {
     },
     {
       q: "Does chat show for every site in the SERP?",
-      a: "No. You need connection, moderation/rule fit, and display conditions. Not every URL gets a button automatically.",
+      a: "No. You need a connection, moderation fit, and display conditions. Not every URL gets a button automatically.",
     },
     {
-      q: "How is it different from Jivo/Carrot?",
+      q: "How is it different from Jivo or Carrot?",
       a: "A third-party widget lives on your domain. Yandex Dialogs is also a channel from the search ecosystem; Yandex sets the rules and entry points.",
     },
   ],
@@ -40,16 +40,16 @@ export const yandeksDialogiEn: BlogPost = {
       title: "Why businesses want chat from search",
       level: 2,
       paras: [
-        "Part of demand closes before the site visit: “in stock?”, “how much is delivery?”, “open today?” If you can answer from the SERP, you shorten the path to contact.",
-        "The channel helps services and local businesses with a short sales cycle. For complex B2B with long proposals, chat is an entry — not a replacement for a manager and brief form.",
+        "Some questions get answered before a site visit: in stock?, how much is delivery?, open today? If you can reply from the SERP, you shorten the path to contact.",
+        "The channel helps services and local businesses with a short sales cycle. For complex B2B with long proposals, chat is an entry point — not a replacement for a manager and a proper brief form.",
       ],
       lists: [
         {
-          intro: "When the channel earns attention:",
+          intro: "When the channel is worth the effort:",
           items: [
-            "someone answers in peak hours;",
-            "typical questions close in 1–3 replies;",
-            "leads go to CRM, not lost in DMs;",
+            "someone answers during peak hours;",
+            "typical questions resolve in one to three replies;",
+            "leads flow to CRM, not lost in DMs;",
             "the site already has a privacy policy and offer.",
           ],
         },
@@ -69,13 +69,13 @@ export const yandeksDialogiEn: BlogPost = {
       title: "Where the button may appear",
       level: 2,
       paras: [
-        "2018 announcements mentioned the search snippet and assistant scenarios (Alice). Surfaces have narrowed and expanded since — don’t copy an old screenshot as a display guarantee.",
-        "Practical compass: connect the channel → check whether contact shows on your commercial queries and on the organization card if it’s linked to the site.",
+        "2018 announcements mentioned the search snippet and assistant scenarios (Alice). Surfaces have narrowed and expanded since — don’t treat an old screenshot as a display guarantee.",
+        "Practical approach: connect the channel, then check whether contact options show on your commercial queries and on the organization card if it’s linked to the site.",
       ],
       notes: [
         {
           title: "Product status",
-          text: "The “Dialogs” / chat-with-company line evolved. Before development, confirm in Yandex Help which entry points and APIs are current right now.",
+          text: "The Dialogs / chat-with-company line has evolved. Before development, confirm in Yandex Help which entry points and APIs are live right now.",
           kind: "tip",
         },
       ],
@@ -84,16 +84,16 @@ export const yandeksDialogiEn: BlogPost = {
       title: "How people connected it — and what to check now",
       level: 2,
       paras: [
-        "Classic path: Yandex account → dialogs/business-chat cabinet → unique chat ID → insert into CMS or hand off to an integrator. Some platforms had ready modules; others used the API.",
-        "If your chat provider still doesn’t speak Yandex’s contour, ask them about a ready link or webhooks. Don’t promise the client a “SERP button tomorrow” without checking eligibility.",
+        "Classic path: Yandex account → Dialogs or business-chat dashboard → unique chat ID → embed in CMS or hand off to an integrator. Some platforms had ready modules; others used the API.",
+        "If your chat provider doesn’t support Yandex’s channel yet, ask about a ready integration or webhooks. Don’t promise a client a SERP button tomorrow without checking eligibility.",
       ],
       lists: [
         {
-          intro: "Checklist before turning it on:",
+          intro: "Checklist before you turn it on:",
           items: [
             "named operator and schedule;",
             "scripts for typical answers;",
-            "lead handoff to CRM/email;",
+            "lead handoff to CRM or email;",
             "personal-data consent in the flow;",
             "test from a real smartphone and PC.",
           ],
@@ -114,16 +114,16 @@ export const yandeksDialogiEn: BlogPost = {
       title: "Operator, bot, and dialogue quality",
       level: 2,
       paras: [
-        "A button without an answer SLA hurts trust more than its absence. Set first-response time, human escalation, and a ban on copy-paste “we’ll call you back” with no next step.",
-        "Bots cover FAQ; complex orders go to a person immediately. Dialogue logs feed site FAQ and ad semantics.",
+        "A button without a response SLA hurts trust more than its absence. Set first-response time, human escalation rules, and a ban on copy-paste “we’ll call you back” with no next step.",
+        "Bots cover FAQ; complex orders go to a person immediately. Dialogue logs feed site FAQ and ad keyword lists.",
       ],
     },
     {
       title: "Search chat vs on-site widget",
       level: 2,
       paras: [
-        "You control the on-site widget: design, flows, A/B. The Yandex channel adds an entry point but depends on platform rules and moderation.",
-        "Optimal: form + messenger/widget on the site as the base; search chat — if the product is available and the team can answer. Don’t spawn five chats with different queues without one CRM.",
+        "You control the on-site widget: design, flows, A/B tests. The Yandex channel adds an entry point but depends on platform rules and moderation.",
+        "Best setup: form plus messenger or widget on the site as the base; search chat only if the product is available and your team can answer. Don’t launch five chats with different queues and no shared CRM.",
       ],
       links: [
         {
@@ -136,13 +136,13 @@ export const yandeksDialogiEn: BlogPost = {
       title: "Takeaways",
       level: 2,
       paras: [
-        "Chat with a company in Yandex is a dialogue channel from the search ecosystem — not “one more icon for fashion.”",
-        "Connect only with an answer process and a check of current product status; a thin 2018 announcement alone is not a setup.",
+        "Business chat in Yandex is a dialogue channel from the search ecosystem — not one more icon for show.",
+        "Connect only with an answer process and a check of current product status; a thin 2018 announcement alone is not a setup guide.",
       ],
     },
   ],
   closing: [
-    "Check current Yandex Help whether chat with a company is available for your site type, assign an operator and CRM — and only then embed the chat ID in the CMS or via API.",
+    "Check current Yandex Help to see whether business chat is available for your site type, assign an operator and CRM, and only then embed the chat ID in your CMS or via API.",
   ],
   related: [
     "formy-zahvata",

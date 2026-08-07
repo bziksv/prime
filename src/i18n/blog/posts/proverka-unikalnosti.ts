@@ -11,15 +11,15 @@ export const proverkaUnikalnostiEn: BlogPost = {
     "How uniqueness differs from “anti-plagiarism for a percentage,” why check texts before publish, and how to use online tools without chasing 100% at any cost.",
   lead: [
     "Low uniqueness often signals copy-paste, compilation, or weak rewriting of others’ materials. Search engines compare fragments; users and clients also notice “I’ve read this somewhere.”",
-    "Below — why the check matters, how to read match percentages, and how to work with online services. Keyword density and “nausea” are a separate topic (see text stuffing).",
+    "Why the check matters, how to read match percentages, and how to work with online services. Keyword density and “nausea” are a separate topic (see text stuffing).",
   ],
   faq: [
     {
-      q: "Do you always need 100% uniqueness?",
+      q: "Do I always need 100% uniqueness?",
       a: "No. Quotes, product names, and template phrases (“delivery across the city”) create matches. What matters: no whole paragraphs lifted from other pages.",
     },
     {
-      q: "How is this different from stuffing?",
+      q: "How is uniqueness different from keyword stuffing?",
       a: "Uniqueness is overlap with other texts. Stuffing is keyword density inside your own text.",
     },
     {
@@ -27,19 +27,19 @@ export const proverkaUnikalnostiEn: BlogPost = {
       a: "Close. Plagiarism is others’ text under your name; copy-paste is copying without rework. Compilation is stitching pieces from many sources.",
     },
     {
-      q: "Which service should you pick?",
+      q: "Which service should I pick?",
       a: "Any familiar tool with a clear match report. Don’t chase a “perfect” number in one tool — look at the match sources.",
     },
     {
-      q: "Does a synonymizer rewrite help?",
+      q: "Does a synonymizer rewrite actually help?",
       a: "Usually no: the text becomes unreadable, and search engines catch such schemes. Better rewrite from a brief.",
     },
     {
-      q: "Should you check your own old texts?",
+      q: "Should I check my own old texts?",
       a: "Yes, especially before merging pages or a rewrite: it’s easier to find internal duplicates and keep the strong material.",
     },
     {
-      q: "Can you upload a client’s text to any service?",
+      q: "Can I upload a client’s text to any service?",
       a: "No. Check data-processing terms and client agreements: an NDA draft shouldn’t go into a public checker without thought.",
     },
   ],
@@ -56,9 +56,9 @@ export const proverkaUnikalnostiEn: BlogPost = {
         {
           intro: "When a check is especially needed:",
           items: [
-            "new landings and commercial pages;",
-            "blog posts and expert materials;",
-            "exchange texts and new-author copy;",
+            "new landings and commercial pages",
+            "blog posts and expert materials",
+            "exchange texts and new-author copy",
             "updating old pages with outside chunks.",
           ],
         },
@@ -82,8 +82,8 @@ export const proverkaUnikalnostiEn: BlogPost = {
         {
           intro: "Red flags:",
           items: [
-            "long paragraphs identical to a competitor;",
-            "matches with exchange “unique” templates;",
+            "long paragraphs identical to a competitor",
+            "matches with exchange “unique” templates",
             "text that became meaningless after edits “for the percentage.”",
           ],
         },
@@ -107,10 +107,10 @@ export const proverkaUnikalnostiEn: BlogPost = {
         {
           intro: "Working process:",
           items: [
-            "write from a brief and facts, not from someone else’s article;",
-            "run a check;",
-            "rewrite problem chunks in your own words;",
-            "align keywords without stuffing;",
+            "write from a brief and facts, not from someone else’s article",
+            "run a check",
+            "rewrite problem chunks in your own words",
+            "align keywords without stuffing",
             "publish and watch indexing.",
           ],
         },
@@ -134,9 +134,9 @@ export const proverkaUnikalnostiEn: BlogPost = {
         {
           intro: "Before sending to a service:",
           items: [
-            "check the doc for personal data;",
-            "remove internal comments and draft notes;",
-            "lock version and check date;",
+            "check the doc for personal data",
+            "remove internal comments and draft notes",
+            "lock version and check date",
             "confirm whether the service stores uploaded text.",
           ],
         },
@@ -157,7 +157,7 @@ export const proverkaUnikalnostiEn: BlogPost = {
       level: 2,
       paras: [
         "Check uniqueness before final approval, not after publish when fixes already affect the URL, links, and editorial work. Agree with authors upfront what check level is needed, where the report lives, and who decides disputed cases.",
-        "After the check, do normal editing: facts, structure, usefulness, terminology, grammar, and natural key phrases. Unique text that doesn’t answer the user’s question still isn’t a good page.",
+        "After the check, do normal editing: facts, structure, usefulness, terminology, grammar, and natural keywords. Unique text that doesn’t answer the user’s question still isn’t a good page.",
         "Watch internal duplicates too. Two of your articles answering one query almost the same way can compete — sometimes split by intent or merge them.",
       ],
       lists: [],

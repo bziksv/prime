@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for chto-takoe-veb-sayt — same structure as RU JSON. */
 export const chtoTakoeVebSaytEn: BlogPost = {
   slug: "chto-takoe-veb-sayt",
-  title: "What is a website: jobs, types, and how to build one",
+  title: "What a website is: jobs, types, and how to build one",
   date: "2021-07-02",
-  category: "Internet marketing",
+  category: "Websites",
   cover: "/images/blog/chto-takoe-veb-sayt/cover-en.webp",
   excerpt:
-    "What a website is in plain words: why business needs one, common types (brochure, corporate, store), how to choose a build path, and how pages work at a high level.",
+    "What a website is in plain English: why business needs one, common types (brochure, corporate, store), how to choose a build path, and how pages work at a high level.",
   lead: [
     "A website is a set of linked pages under one address. For visitors it’s one resource: menu, sections, contacts. For business — a storefront, lead channel, and trust point next to ads and social.",
-    "Below — why you need a site, which types exist, how to create one (studio, ready-made, builder), and how it works in broad strokes. Layout and server detail live in related posts.",
+    "This piece covers why you need a site, which types exist, how to build one (studio, ready-made, builder), and how it works in broad strokes. Layout and server detail live in related posts.",
   ],
   faq: [
     {
@@ -19,32 +19,32 @@ export const chtoTakoeVebSaytEn: BlogPost = {
       a: "A set of web pages with shared logic and an address (domain) that users perceive as one resource.",
     },
     {
-      q: "Do you need a site if you already have social profiles?",
-      a: "For many niches — yes: catalog, SEO, legal info, and control of the channel. Social complements; it rarely fully replaces.",
+      q: "Do I need a site if I already have social profiles?",
+      a: "For many niches — yes: catalog, SEO, legal info, and control of the channel. Social complements; it rarely fully replaces a site.",
     },
     {
       q: "How does a brochure site differ from a corporate site?",
-      a: "Brochure — short “who we are and contacts.” Corporate — services, forms, content, sometimes a cabinet. A store adds catalog and checkout.",
+      a: "Brochure — short “who we are and contacts.” Corporate — services, forms, content, sometimes an account area. A store adds catalog and checkout.",
     },
     {
-      q: "Builder or studio?",
+      q: "Should I use a builder or a studio?",
       a: "A builder is faster and cheaper at the start. A studio fits complex logic, integrations, and quality control. A ready site from a marketplace risks penalties and someone else’s baggage.",
     },
     {
       q: "Do I need PHP to run a site?",
-      a: "For a regular editor — no: a CMS and visual editor are enough. PHP/server work is a developer’s zone when you customize.",
+      a: "For a regular editor — no: a CMS and visual editor are enough. PHP and server work are a developer’s zone when you customize.",
     },
     {
       q: "What should a small business pick?",
-      a: "Match type to the job: services → clear landings + contacts; products → showcase or store. Don’t copy a “hypermarket” if ten SKUs are enough.",
+      a: "Match type to the job: services → clear landings plus contacts; products → showcase or store. Don’t copy a hypermarket if ten SKUs are enough.",
     },
     {
       q: "Will a site bring clients by itself?",
       a: "No. You need demand, promotion (SEO/ads), and service. A site is infrastructure, not a magic button.",
     },
     {
-      q: "Link to SEO?",
-      a: "Structure, speed, mobile, and clear URLs are set when you build. Fixing them “after launch” costs more.",
+      q: "How does this tie to SEO?",
+      a: "Structure, speed, mobile, and clear URLs are set when you build. Fixing them after launch costs more.",
     },
   ],
   sections: [
@@ -59,11 +59,11 @@ export const chtoTakoeVebSaytEn: BlogPost = {
       links: [
         {
           label: "Site navigation",
-          href: "/blog/navigatsiya-sayta/",
+          href: "/en/blog/navigatsiya-sayta/",
         },
         {
           label: "SEO site structure",
-          href: "/blog/seo-struktura-sayta/",
+          href: "/en/blog/seo-struktura-sayta/",
         },
       ],
     },
@@ -79,7 +79,7 @@ export const chtoTakoeVebSaytEn: BlogPost = {
           intro: "Typical reasons to launch a site:",
           items: [
             "explain the company and services;",
-            "take inquiries 24/7;",
+            "take inquiries around the clock;",
             "support ads with a landing;",
             "host a catalog or price list;",
             "build trust (details, reviews, cases).",
@@ -98,10 +98,10 @@ export const chtoTakoeVebSaytEn: BlogPost = {
           intro: "Types in short:",
           items: [
             "brochure — fast and short;",
-            "corporate — full story + leads;",
+            "corporate — full story plus leads;",
             "promo — for a campaign, often one-off;",
             "showcase — deep on a narrow range;",
-            "store — catalog, cart, payment/shipping.",
+            "store — catalog, cart, payment and shipping.",
           ],
         },
         {
@@ -109,7 +109,7 @@ export const chtoTakoeVebSaytEn: BlogPost = {
           items: [
             "news and topic portals;",
             "articles / blog;",
-            "services and personal cabinets;",
+            "services and personal accounts;",
             "entertainment and community platforms.",
           ],
         },
@@ -127,7 +127,7 @@ export const chtoTakoeVebSaytEn: BlogPost = {
           intro: "Before you pick a path:",
           items: [
             "budget and timeline;",
-            "whether you need catalog/payment/integrations;",
+            "whether you need catalog, payment, or integrations;",
             "who will update content;",
             "whether you need search growth (SEO).",
           ],
@@ -149,13 +149,13 @@ export const chtoTakoeVebSaytEn: BlogPost = {
       level: 2,
       paras: [
         "The user opens a URL in the browser; the request hits a server; the server returns a page (HTML/CSS/JS and data). Updating texts and products is usually a CMS job — a public view plus an admin panel.",
-        "An editor only needs the admin. Complex logic, integrations, and performance are development territory. A well-built site doesn’t “magnet” clients alone: you still need demand, promotion, and service.",
+        "An editor only needs the admin. Complex logic, integrations, and performance are development territory. A well-built site doesn’t magnetize clients alone: you still need demand, promotion, and service.",
       ],
       lists: [],
       links: [
         {
           label: "What is SEO",
-          href: "/blog/chto-takoe-seo/",
+          href: "/en/blog/chto-takoe-seo/",
         },
         {
           label: "Digital agency",

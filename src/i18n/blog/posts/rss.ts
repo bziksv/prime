@@ -8,10 +8,10 @@ export const rssEn: BlogPost = {
   category: "Content marketing",
   cover: "/images/blog/rss/cover-en.webp",
   excerpt:
-    "What an RSS feed is, who still benefits from it, upsides and risks for a site, how to enable a feed on a CMS — without a Feedburner cult or “link mass” promises.",
+    "What an RSS feed is, who still benefits from it, benefits and risks for a site, how to enable a feed on a CMS — without a Feedburner cult or “link mass” promises.",
   lead: [
-    "RSS is an XML feed of article teasers and links to full pages. Readers gather several sites in one reader; the site ships new posts without forcing a homepage visit every time.",
-    "The format is less visible than in the 2010s: social and push pulled attention away. For blogs, media, and docs the feed is still handy. Below — why keep RSS, which risks to mind, and how to turn it on on a typical CMS. Reader and generator lists change — check current services.",
+    "RSS is an XML feed of article teasers and links to full pages. Readers gather several sites in one reader; the site publishes new posts without forcing a homepage visit every time.",
+    "The format is less visible than in the 2010s—social and push notifications pulled attention away. For blogs, media, and docs, the feed is still useful. We cover why keep RSS, which risks to watch, and how to enable it on a typical CMS. Reader and generator lists change — check current services.",
   ],
   faq: [
     {
@@ -23,12 +23,12 @@ export const rssEn: BlogPost = {
       a: "Directly — almost never. Indirectly — repeat visits from loyal readers and distribution. Don’t confuse it with “pumping link mass.”",
     },
     {
-      q: "Full text in the feed or a teaser?",
+      q: "Should I publish full text in the feed or a teaser?",
       a: "More often a teaser/lead: it motivates a site visit and lowers the risk of aggregators copying the whole piece.",
     },
     {
-      q: "Atom vs RSS 2.0?",
-      a: "Both are feed formats. In practice whatever the CMS ships is enough; a stable URL and correct items matter more.",
+      q: "What’s the difference between Atom and RSS 2.0?",
+      a: "Both are feed formats. In practice whatever the CMS outputs is enough; a stable URL and correct items matter more.",
     },
     {
       q: "Do I need Feedburner?",
@@ -39,7 +39,7 @@ export const rssEn: BlogPost = {
       a: "Yes — parsers love XML. Absolute protection is hard; teasers instead of full text plus copy monitoring reduce damage.",
     },
     {
-      q: "Link to auto-filling a site?",
+      q: "Does this connect to auto-filling a site?",
       a: "Someone else’s RSS as grabber fuel for “uniquifying” is bad SEO practice. Your RSS is for subscribers — not doorway farms.",
     },
     {
@@ -60,7 +60,7 @@ export const rssEn: BlogPost = {
           intro: "Especially useful when:",
           items: [
             "you publish regularly (blog, media);",
-            "docs ship a changelog;",
+            "docs publish a changelog;",
             "you need a machine-readable update list.",
           ],
         },
@@ -76,10 +76,10 @@ export const rssEn: BlogPost = {
       lists: [],
     },
     {
-      title: "Upsides and risks",
+      title: "Benefits and risks",
       level: 2,
       paras: [
-        "Upsides: subscriber convenience, fast “new post” signals, fewer empty “is there a post?” visits.",
+        "Benefits: subscriber convenience, fast “new post” signals, fewer empty “is there a post?” visits.",
         "Risks: feed overload for the user; aggregators copying teasers/text; mess if the feed dumps full HTML with utility blocks.",
         "Don’t expect RSS to “raise link mass by itself”: it’s a distribution channel, not a substitute for SEO and content.",
       ],
@@ -97,7 +97,7 @@ export const rssEn: BlogPost = {
         },
         {
           label: "News site and SEO",
-          href: "/blog/novostnoy-sayt/",
+          href: "/en/blog/novostnoy-sayt/",
         },
       ],
     },
@@ -106,13 +106,13 @@ export const rssEn: BlogPost = {
       level: 2,
       paras: [
         "On WordPress and many CMS apps the feed already exists (often `/feed/`). Theme/settings turn on the icon and autodiscovery.",
-        "You can also ship XML by hand or via a plugin/service. After enabling, check the URL in a reader.",
+        "You can also publish XML by hand or via a plugin/service. After enabling, check the URL in a reader.",
         "App lists from 2020 age fast: pick a current reader for your OS — don’t copy old catalogs blind.",
       ],
       lists: [],
     },
     {
-      title: "What to remember",
+      title: "Key takeaways",
       level: 2,
       paras: [
         "RSS is a handy update feed — not ranking magic.",

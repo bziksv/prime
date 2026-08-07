@@ -5,21 +5,21 @@ export const tochkiRostaSaytaEn: BlogPost = {
   slug: "tochki-rosta-sayta",
   title: "Site growth points: where to look when traffic and leads stall",
   date: "2019-09-20",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/tochki-rosta-sayta/cover-en.webp",
   excerpt:
     "What to do when site growth hits a plateau: expand semantics, strengthen CRO and landings, fix behavior and speed, add content and channels — without the myth that “everything is already squeezed”.",
   lead: [
     "Even with decent momentum a project sometimes hits a plateau: it feels like “the ceiling is reached”. More often that’s a narrow core, weak landings, or one–two traffic channels — not a physical niche limit.",
-    "Below — working growth levers. Not “eight buttons for any site”, but a priority checklist. SEO: prep ≠ ranking in TOP; gathering positions across the core is planned 2–6 months after work starts.",
+    "These are the working growth levers. Not “eight buttons for any site,” but a priority checklist. SEO: prep ≠ ranking in TOP; gathering positions across the core is planned 2–6 months after work starts.",
   ],
   faq: [
     {
-      q: "Plateau = nothing left to squeeze?",
+      q: "Does a plateau mean nothing is left to improve?",
       a: "Rarely. More often clusters, CRO, or extra channels aren’t covered. A narrow region/niche caps the ceiling but doesn’t erase growth points.",
     },
     {
-      q: "Where to start?",
+      q: "Where should I start looking for growth?",
       a: "With diagnosis: where you lose — demand, positions, conversion, or traffic volume. Then one–two levers, not everything at once.",
     },
     {
@@ -27,7 +27,7 @@ export const tochkiRostaSaytaEn: BlogPost = {
       a: "Only if they cover real demand and don’t spawn thin content. Otherwise — noise in the index.",
     },
     {
-      q: "Can you “improve” behavior metrics with fake traffic?",
+      q: "Can I “improve” behavior metrics with fake traffic?",
       a: "No. Fix speed, relevance, and UX. Fake engagement risks sanctions.",
     },
     {
@@ -44,7 +44,7 @@ export const tochkiRostaSaytaEn: BlogPost = {
       title: "When it feels like growth is over",
       level: 2,
       paras: [
-        "Stagnation most often means: the core is picked, landings are weak, one channel feeds everything, or tech/speed cuts conversion. A narrow topic and small region complicate the picture, but almost always uncovered intents and neighboring themes remain.",
+        "Stagnation most often means: the core is picked, landings are weak, one channel feeds everything, or tech/speed cuts conversion. A narrow topic and small region complicate the picture, but almost always uncovered intents and related themes remain.",
         "First lock baseline metrics: traffic, visibility, CR, CPA. Otherwise you won’t tell a real lever from noise.",
       ],
       links: [
@@ -62,7 +62,7 @@ export const tochkiRostaSaytaEn: BlogPost = {
       title: "Semantics and new landings",
       level: 2,
       paras: [
-        "The most direct lever in search is covering demand with pages for clusters: niche trends, refinements, splitting broad sections into narrow ones. Expand the audience with neighboring topics (e.g. construction → design and plot) if that’s your funnel.",
+        "The most direct lever in search is covering demand with pages for clusters: niche trends, refinements, splitting broad sections into narrow ones. Expand the audience with related topics (e.g. construction → design and plot) if that’s your funnel.",
         "Don’t spawn walls “for keywords”. One strong page per cluster beats ten thin ones.",
       ],
       links: [
@@ -80,7 +80,7 @@ export const tochkiRostaSaytaEn: BlogPost = {
       title: "Conversion and landings",
       level: 2,
       paras: [
-        "For commerce, traffic growth without CRO is often useless. Pull TOP competitors on your phrases, find blocks you lack, gather client objections and close them on the page: price, timing, guarantees, cases, form.",
+        "For commerce, traffic growth without CRO is often useless. Pull TOP competitors on your keywords, find blocks you lack, gather client objections and close them on the page: price, timing, guarantees, cases, form.",
         "Match the ad/snippet offer to the first screen — or bounces grow instead of leads.",
       ],
       links: [
@@ -99,7 +99,7 @@ export const tochkiRostaSaytaEn: BlogPost = {
       level: 2,
       paras: [
         "Time on site, depth, bounce, returns — quality symptoms, not a goal to “inflate minutes”. Improve structure, answers to the query, and internal paths.",
-        "An informational section (blog/guides) lifts awareness and loyalty; commercial conversion from info is lower, but brand and links often repay the contribution. Speed and mobile usability are mandatory background: a slow page kills SEO and ads. Interactives (calculator, cabinet, builder) boost engagement if they solve a user job — not “for show”.",
+        "An informational section (blog/guides) lifts awareness and loyalty; commercial conversion from info is lower, but brand and links often repay the contribution. Speed and mobile usability are mandatory background: a slow page kills SEO and ads. Interactives (calculator, ads account, builder) boost engagement if they solve a user job — not “for show”.",
       ],
       lists: [
         {

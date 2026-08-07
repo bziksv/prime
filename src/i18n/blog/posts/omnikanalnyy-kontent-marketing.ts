@@ -5,17 +5,17 @@ export const omnikanalnyyKontentMarketingEn: BlogPost = {
   slug: "omnikanalnyy-kontent-marketing",
   title: "Omnichannel content marketing: multi vs omni and 5 working steps",
   date: "2019-09-06",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/omnikanalnyy-kontent-marketing/cover-en.webp",
   excerpt:
     "How omnichannel differs from multichannel, why a unified experience across site, app, and offline matters, and five steps so content doesn’t fall apart across channels.",
   lead: [
     "Multichannel is several channels side by side. Omnichannel is one customer path through them: tone, offer, and data don’t break when someone moves from site to store, from app to support.",
-    "Below — the difference, why it matters for content, and five practical steps. Giant-brand examples illustrate the idea — not a recipe to “copy Disney”.",
+    "For content, that means one story and consistent facts across channels — not five disconnected calendars. Giant-brand examples illustrate the idea, not a recipe to “copy Nike’s stack.”",
   ],
   faq: [
     {
-      q: "Are multi and omni the same?",
+      q: "Are multichannel and omnichannel the same?",
       a: "No. Multi: channels exist; goals and experience may differ. Omni: one scenario from the client’s view — they continue on another channel without “start over”.",
     },
     {
@@ -23,11 +23,11 @@ export const omnikanalnyyKontentMarketingEn: BlogPost = {
       a: "No. Fewer channels, but aligned, is better. An extra channel with a different offer confuses more than its absence.",
     },
     {
-      q: "Is this only for retail?",
-      a: "It’s most visible in retail, but the logic is the same for services and B2B: site → manager → email → cabinet should say one thing.",
+      q: "Is omnichannel only for retail?",
+      a: "It’s most visible in retail, but the logic is the same for services and B2B: site → manager → email → account should say one thing.",
     },
     {
-      q: "Where should a small company start?",
+      q: "Where should a small company start with omnichannel?",
       a: "Walk your own path as a client: search → site → lead → reply. Fix tone and data breaks, then add channels.",
     },
     {
@@ -51,8 +51,8 @@ export const omnikanalnyyKontentMarketingEn: BlogPost = {
         {
           intro: "In short:",
           items: [
-            "multi — channels from the company’s side;",
-            "omni — a continuous experience from the client’s side;",
+            "multi — channels from the company’s side",
+            "omni — a continuous experience from the client’s side",
             "content in omni — one story, different delivery formats.",
           ],
         },
@@ -95,10 +95,10 @@ export const omnikanalnyyKontentMarketingEn: BlogPost = {
         {
           intro: "Working minimum:",
           items: [
-            "walk the path as the client and close breaks;",
-            "describe segments and their questions;",
-            "build useful content for funnel stages;",
-            "link marketing, sales, and support in one scenario;",
+            "walk the path as the client and close breaks",
+            "describe segments and their questions",
+            "build useful content for funnel stages",
+            "link marketing, sales, and support in one scenario",
             "start with priority channels — don’t wait for a “perfect platform”.",
           ],
         },

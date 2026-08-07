@@ -5,21 +5,21 @@ export const prodazhiInternetMagazinEn: BlogPost = {
   slug: "prodazhi-internet-magazin",
   title: "How to increase online store sales: working levers",
   date: "2019-12-16",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/prodazhi-internet-magazin/cover-en.webp",
   excerpt:
     "What really moves online store sales: traffic and storefronts, product cards and UX, reviews and chat, content and video, email and AOV — without an “enable everything at once” checklist.",
   lead: [
     "Online store sales growth is traffic × conversion × average order value. External factors (season, competition, prices) always matter; inside you still have the marketing mix, site convenience, and the team.",
-    "Below — lever groups that most often work. This isn’t “20 buttons in a week”: take 1–2 hypotheses and measure revenue, CR, and margin. Related topics — CRO, AOV, and store promotion — are in separate articles.",
+    "The levers below are the ones that most often move the needle. This isn’t “20 buttons in a week”: take 1–2 hypotheses and measure revenue, CR, and margin. Related topics — CRO, AOV, and store promotion — live in separate articles.",
   ],
   faq: [
     {
-      q: "Where to start on a small budget?",
+      q: "Where should I start on a small budget?",
       a: "At funnel bottlenecks: speed, search, cart, answers to questions. In parallel — one paid or free demand channel (listings, ads) for the niche.",
     },
     {
-      q: "Do you need a mobile app?",
+      q: "Do I need a mobile app?",
       a: "Not necessarily at the start. First a responsive site and a fast checkout. An app — when you have repeat purchases and resources to support it.",
     },
     {
@@ -27,15 +27,15 @@ export const prodazhiInternetMagazinEn: BlogPost = {
       a: "Pushy ones — yes. A relevant offer (subscribe discount, real promo, exit-intent) can help if it doesn’t block the first screen on mobile.",
     },
     {
-      q: "Is ads alone enough?",
+      q: "Is advertising alone enough?",
       a: "No. Ads without cards, delivery, and service burn budget. Basic conversion first, then traffic scale.",
     },
     {
-      q: "How do you know what worked?",
+      q: "How do I know what worked?",
       a: "Compare the period before/after one change: orders, CR, AOV, margin. Don’t turn on ten edits at once.",
     },
     {
-      q: "AOV or more orders?",
+      q: "Should I raise AOV or get more orders?",
       a: "Both levers. Sometimes cart upsell beats expensive new traffic — see the AOV article.",
     },
   ],
@@ -51,9 +51,9 @@ export const prodazhiInternetMagazinEn: BlogPost = {
         {
           intro: "Check:",
           items: [
-            "product campaigns / listings for the assortment;",
-            "consistent prices and stock;",
-            "a company card in directories;",
+            "product campaigns / listings for the assortment",
+            "consistent prices and stock",
+            "a company card in directories",
             "UTMs and order goals.",
           ],
         },
@@ -94,9 +94,9 @@ export const prodazhiInternetMagazinEn: BlogPost = {
         {
           intro: "Common stop factors:",
           items: [
-            "slow pages;",
-            "missing sizes/stock;",
-            "delivery surprise at the end;",
+            "slow pages",
+            "missing sizes/stock",
+            "delivery surprise at the end",
             "no way to ask quickly.",
           ],
         },

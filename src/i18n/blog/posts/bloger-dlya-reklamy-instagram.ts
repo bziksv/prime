@@ -10,24 +10,24 @@ export const blogerDlyaReklamyInstagramEn: BlogPost = {
   excerpt:
     "How to pick a creator for ads: why integrations, where to look, how to check the audience, and what to avoid. A checklist for the client.",
   lead: [
-    "Creator ads work when the audience matches the offer and the profile is alive. Below — how to find creators and vet them before you pay.",
+    "Creator ads work when the audience matches the offer and the profile is alive. This piece covers how to find creators and vet them before you pay.",
     "Interfaces and marketplaces change: rely on quality criteria, not “tap the down arrow in an old app version”.",
   ],
   legalNotice: {
     title: "Dear readers!",
-    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+    text: "This article is for information only and is not an invitation to use the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
-      q: "A blogger or only paid ads?",
+      q: "Should you hire a blogger or only run paid ads?",
       a: "They often reinforce each other: a creator builds trust and warm-up; paid ads bring scale and control. Choice depends on budget and goal.",
     },
     {
-      q: "Follower count or engagement — what matters more?",
+      q: "Does follower count or engagement matter more?",
       a: "Engagement and relevance. Better 15 thousand live followers than 200 thousand “empty” ones.",
     },
     {
-      q: "Should you hire from a marketplace?",
+      q: "Should you hire creators from a marketplace?",
       a: "You can, if you vet manually. Marketplaces have many inflated profiles — check ER, comments, and growth dynamics.",
     },
     {
@@ -35,7 +35,7 @@ export const blogerDlyaReklamyInstagramEn: BlogPost = {
       a: "Follower spikes, likes without views/comments, identical bots in comments, odd geography for the niche.",
     },
     {
-      q: "What should you lock in the agreement?",
+      q: "What should you lock in the creator agreement?",
       a: "Format, deadlines, banned words, rights to the asset, how you measure results (promo code, UTM, DMs), revisions and cancellation.",
     },
   ],
@@ -175,7 +175,7 @@ export const blogerDlyaReklamyInstagramEn: BlogPost = {
       ],
       links: [
         {
-          label: "Instagram page design",
+          label: "Instagram profile design",
           href: "/en/blog/oformlenie-stranicy-instagram/",
         },
       ],

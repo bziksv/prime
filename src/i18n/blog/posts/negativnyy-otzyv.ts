@@ -5,17 +5,17 @@ export const negativnyyOtzyvEn: BlogPost = {
   slug: "negativnyy-otzyv",
   title: "How to reply to a negative review: rules and examples",
   date: "2019-12-04",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/negativnyy-otzyv/cover-en.webp",
   excerpt:
     "How to answer negative reviews without aggression or flattery: apologies when warranted, speed of response, a real fix, and giving a choice — with auto-service examples you can reuse.",
   lead: [
     "Before choosing a service, people often read the negative reviews first. Criticism helps find service gaps, but with no reply it pushes the next clients away harder than you’d like.",
-    "Below — reply rules: tone, apologies, speed on platforms, solving the problem. Auto-service examples transfer easily to other services. The broader review-and-rating loop is in a neighboring piece.",
+    "Tone, apologies, speed on platforms, and a real fix matter more than a polished “we apologize” template. The auto-service examples below transfer easily to other services.",
   ],
   faq: [
     {
-      q: "Reply even if the client is wrong?",
+      q: "Should you reply even if the client is wrong?",
       a: "Yes — calmly and on facts. Aggression and “your fault” amplify negativity and draw an audience to the fight.",
     },
     {
@@ -23,11 +23,11 @@ export const negativnyyOtzyvEn: BlogPost = {
       a: "When a service error is confirmed — yes, specifically. For disagreement with pricing or rules, politely explain conditions rather than template-repent.",
     },
     {
-      q: "Delete the negative review?",
+      q: "Should you delete the negative review?",
       a: "No, unless it’s spam/abuse under the platform rules. Removing honest criticism hits trust.",
     },
     {
-      q: "How long can you wait to reply?",
+      q: "How long can you wait before replying?",
       a: "Faster is better: hours to a day on maps and review sites. Turn on alerts for new reviews.",
     },
     {
@@ -35,7 +35,7 @@ export const negativnyyOtzyvEn: BlogPost = {
       a: "No. You need the substance of the issue, a next step, and a real fix. Empty politeness reads as a brush-off.",
     },
     {
-      q: "Where should you monitor?",
+      q: "Where should you monitor reviews?",
       a: "Maps, local directories, industry platforms, ratings, topical forums — wherever your niche actually reads reviews.",
     },
   ],
@@ -51,10 +51,10 @@ export const negativnyyOtzyvEn: BlogPost = {
         {
           intro: "Phrases better not to write:",
           items: [
-            "“don’t like it — do it yourself”;",
-            "“our specialists never make mistakes”;",
-            "“it’s your own fault”;",
-            "“pity you don’t get it”.",
+            "“don’t like it — do it yourself”",
+            "“our specialists never make mistakes”",
+            "“it’s your own fault”",
+            "“pity you don’t get it.”",
           ],
         },
       ],
@@ -90,7 +90,7 @@ export const negativnyyOtzyvEn: BlogPost = {
       ],
     },
     {
-      title: "Fix the problem — don’t “close the comment”",
+      title: "Fix the problem — don’t just “close the comment”",
       level: 2,
       paras: [
         "The goal is to restore trust: fix the mistake, compensate by the rules, agree the next step. If you need time — give a rough horizon and ask for a contact to clarify.",
@@ -100,10 +100,10 @@ export const negativnyyOtzyvEn: BlogPost = {
         {
           intro: "A working reply frame:",
           items: [
-            "greeting and thanks for the review;",
-            "briefly on the substance of the claim;",
-            "what we’ll check / already found;",
-            "a concrete next step and contact;",
+            "greeting and thanks for the review",
+            "briefly on the substance of the claim",
+            "what we’ll check / already found",
+            "a concrete next step and contact",
             "after resolution — a short update in the thread.",
           ],
         },
@@ -111,7 +111,7 @@ export const negativnyyOtzyvEn: BlogPost = {
       notes: [
         {
           title: "Logic example (auto service)",
-          text: "A client compares oil-change price “with your oil” vs “with their own”. In the reply, calmly explain the discount when consumables are bought from the shop and the normal residual oil in the system — and offer to discuss the specific order, instead of arguing “we have the best mechanics”.",
+          text: "A client compares oil-change price “with your oil” vs “with their own.” In the reply, calmly explain the discount when consumables are bought from the shop and the normal residual oil in the system — and offer to discuss the specific order, instead of arguing “we have the best mechanics.”",
           kind: "tip",
         },
       ],
@@ -120,8 +120,8 @@ export const negativnyyOtzyvEn: BlogPost = {
       title: "Give the right to choose",
       level: 2,
       paras: [
-        "If you no longer offer the service or the case isn’t your profile, don’t brush them off with “should’ve read the price list”. Offer alternatives: what you can do, where to go for a narrow task, which services you close quickly and well.",
-        "Sometimes suggesting an “outside” service looks like advertising a competitor — for readers it’s a honesty signal. Tact and help beat winning the thread.",
+        "If you no longer offer the service or the case isn’t your profile, don’t brush them off with “should’ve read the price list.” Offer alternatives: what you can do, where to go for a narrow task, which services you handle quickly and well.",
+        "Sometimes suggesting an outside service looks like advertising a competitor — for readers it’s a honesty signal. Tact and help beat winning the thread.",
       ],
       links: [
         {

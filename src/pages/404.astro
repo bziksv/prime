@@ -5,19 +5,73 @@ import PortalShell from "../components/PortalShell.astro";
 import CookieConsent from "../components/CookieConsent.astro";
 import CookieFooterNotice from "../components/CookieFooterNotice.astro";
 import { v6Icons } from "../data/v6-media";
+import { contactsPath } from "../i18n/contacts-content";
+import { blogIndexPath } from "../i18n/blog";
+import { casesIndexPath } from "../i18n/cases";
+import { homeServiceHref } from "../i18n/home-content";
+import type { Locale } from "../i18n/locales";
+
+const path = Astro.url.pathname;
+const locale: Locale = path === "/en" || path.startsWith("/en/") ? "en" : "ru";
+const homeHref = locale === "en" ? "/en/" : "/";
+const contactsHref = contactsPath(locale);
+const casesHref = casesIndexPath(locale);
+const blogHref = blogIndexPath(locale);
+
+const copy =
+  locale === "en"
+    ? {
+        lang: "en",
+        title: "404 — page not found — PRIME",
+        description:
+          "Page not found. Go back to the PRIME home page or open services, case studies, and the blog.",
+        menu: "Menu",
+        home: "Home",
+        contact: "Contact",
+        heading: "This page doesn’t exist",
+        lead: "The link is outdated or the address was typed wrong. Use the working sections below, or go home.",
+        toHome: "Home",
+        cases: "Case studies",
+        blog: "Blog",
+        links: [
+          { href: homeServiceHref("seo", locale), label: "Website SEO" },
+          { href: homeServiceHref("ads", locale), label: "Ads" },
+          { href: homeServiceHref("web", locale), label: "Web development" },
+          { href: homeServiceHref("bots", locale), label: "Bots" },
+          { href: contactsHref, label: "Contacts" },
+        ],
+      }
+    : {
+        lang: "ru",
+        title: "404 — страница не найдена — ПРАЙМ",
+        description:
+          "Страница не найдена. Вернитесь на главную ПРАЙМ или откройте услуги, кейсы и блог.",
+        menu: "Меню",
+        home: "Главная",
+        contact: "Связаться",
+        heading: "Такой страницы нет",
+        lead: "Ссылка устарела или адрес набран с ошибкой. Ниже — рабочие разделы сайта, или вернитесь на главную.",
+        toHome: "На главную",
+        cases: "Кейсы",
+        blog: "Блог",
+        links: [
+          { href: homeServiceHref("seo", locale), label: "Продвижение сайта" },
+          { href: homeServiceHref("ads", locale), label: "Контекст" },
+          { href: homeServiceHref("web", locale), label: "Сайты" },
+          { href: homeServiceHref("bots", locale), label: "Боты" },
+          { href: contactsHref, label: "Контакты" },
+        ],
+      };
 ---
 
 <!doctype html>
-<html lang="ru" data-concept="v6" data-page="404">
+<html lang={copy.lang} data-concept="v6" data-page="404" data-locale={locale}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex" />
-    <meta
-      name="description"
-      content="Страница не найдена. Вернитесь на главную ПРАЙМ или откройте услуги, кейсы и блог."
-    />
-    <title>404 — страница не найдена — ПРАЙМ</title>
+    <meta name="description" content={copy.description} />
+    <title>{copy.title}</title>
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
     <style>
@@ -75,45 +129,51 @@ import { v6Icons } from "../data/v6-media";
   </head>
   <body>
     <div class="v6-app">
-      <PortalShell />
+      <PortalShell locale={locale} />
 
       <main id="main" class="v6-main">
         <header class="v6-topbar">
-          <button id="v6-burger" type="button" class="v6-burger" aria-label="Меню" aria-controls="v6-sidebar" aria-expanded="false">☰</button>
+          <button
+            id="v6-burger"
+            type="button"
+            class="v6-burger"
+            aria-label={copy.menu}
+            aria-controls="v6-sidebar"
+            aria-expanded="false">☰</button
+          >
           <p class="v6-breadcrumb">
-            <a href="/">Главная</a> · <strong>404</strong>
+            <a href={homeHref}>{copy.home}</a> · <strong>404</strong>
           </p>
-          <a href="/kontakty/" class="v6-btn">Связаться</a>
+          <a href={contactsHref} class="v6-btn">{copy.contact}</a>
         </header>
 
         <div class="v6-content">
           <section class="e404" aria-labelledby="e404-title">
             <p class="e404__code" aria-hidden="true">404</p>
-            <h1 id="e404-title">Такой страницы нет</h1>
-            <p>
-              Ссылка устарела или адрес набран с ошибкой. Ниже — рабочие разделы
-              сайта, или вернитесь на главную.
-            </p>
+            <h1 id="e404-title">{copy.heading}</h1>
+            <p>{copy.lead}</p>
             <div class="e404__actions">
-              <a href="/" class="v6-btn">На главную</a>
-              <a href="/keysy/" class="v6-btn v6-btn--outline">Кейсы</a>
-              <a href="/blog/" class="v6-btn v6-btn--outline">Блог</a>
+              <a href={homeHref} class="v6-btn">{copy.toHome}</a>
+              <a href={casesHref} class="v6-btn v6-btn--outline">{copy.cases}</a>
+              <a href={blogHref} class="v6-btn v6-btn--outline">{copy.blog}</a>
             </div>
             <ul class="e404__links">
-              <li><a href="/prodvizhenie-sayta/">Продвижение сайта</a></li>
-              <li><a href="/kontekstnaya-reklama/">Контекст</a></li>
-              <li><a href="/razrabotka-saytov/">Сайты</a></li>
-              <li><a href="/razrabotka-botov-dlya-messendzherov/">Боты</a></li>
-              <li><a href="/kontakty/">Контакты</a></li>
+              {
+                copy.links.map((link) => (
+                  <li>
+                    <a href={link.href}>{link.label}</a>
+                  </li>
+                ))
+              }
             </ul>
           </section>
 
-          <CookieFooterNotice />
+          <CookieFooterNotice locale={locale} />
         </div>
       </main>
     </div>
 
-    <CookieConsent />
+    <CookieConsent locale={locale} />
     <script>
       import "../scripts/concept-v6";
     </script>

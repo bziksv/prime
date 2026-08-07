@@ -11,7 +11,7 @@ export const tekstLendingaEn: BlogPost = {
     "How to write landing page copy: offer, benefit blocks, proof, form, and CTA — without keyword stuffing in every alt and the myth of “keywords in the domain.”",
   lead: [
     "A landing works when it has one clear job: get a lead, book a consult, buy a product, or schedule a service. The copy should take the visitor from recognizing their situation to a safe next step.",
-    "Below — landing structure, argumentation, the form, and SEO hygiene. What matters isn’t “magic formulas,” but a clear offer, proof, and mobile comfort.",
+    "We cover landing structure, argumentation, the form, and SEO hygiene. What matters isn’t “magic formulas,” but a clear offer, proof, and mobile comfort.",
   ],
   faq: [
     {
@@ -31,7 +31,7 @@ export const tekstLendingaEn: BlogPost = {
       a: "The minimum for a lead: usually name + phone/email. Extra fields cut conversion.",
     },
     {
-      q: "Do you need reviews?",
+      q: "Do I need reviews?",
       a: "Yes if they’re real: cases, numbers, client logos, fuller stories. Fakes kill trust.",
     },
     {
@@ -39,7 +39,7 @@ export const tekstLendingaEn: BlogPost = {
       a: "Only if campaigns share the same demand and offer. Different segments and services usually need separate landings with a matching message.",
     },
     {
-      q: "How do you know the copy hurts conversion?",
+      q: "How do I know the copy hurts conversion?",
       a: "Watch session recordings, scroll depth, CTA clicks, and lead quality. Test one hypothesis at a time — don’t rewrite the whole screen at once.",
     },
   ],
@@ -48,7 +48,7 @@ export const tekstLendingaEn: BlogPost = {
       title: "Offer and first screen",
       level: 2,
       paras: [
-        "The first screen answers four questions: what’s offered, who it fits, what result the visitor gets, and what to do next. H1 doesn’t have to be a keyword pile: name the service and a concrete benefit in plain language.",
+        "The first screen answers four questions: what’s offered, who it works, what result the visitor gets, and what to do next. H1 doesn’t have to be a keyword pile: name the service and a concrete benefit in plain language.",
         "The subhead adds conditions, geography, format, or a limit that filters non-target demand. Nearby you need a clear CTA with an action: “Get an estimate,” “Get the program,” “Book a site visit” — not a vague “Learn more.”",
         "Don’t hide the key benefit behind company history or animation. On phone the visitor should grasp the offer and open the form without a long scroll.",
       ],
@@ -78,7 +78,7 @@ export const tekstLendingaEn: BlogPost = {
       title: "Build a persuasion path",
       level: 2,
       paras: [
-        "Next the visitor needs answers to natural doubts: what’s included, how work runs, what it costs, who it fits, and why you’re trustworthy. Order blocks by decision logic, not by how staff usually tell the company story.",
+        "Next the visitor needs answers to natural doubts: what’s included, how work runs, what it costs, who it works, and why you’re trustworthy. Order blocks by decision logic, not by how staff usually tell the company story.",
         "For a simple purchase a short structure is enough. For an expensive service, construction, B2B, or medicine the path is longer: stages, limits, documents, cases, and a fuller FAQ help. Length alone doesn’t sell — each block should reduce a specific doubt.",
         "Short paragraphs, image captions, and bullet lists help scanning. A phone number in the header matters, but doesn’t replace a clear button or form for people who won’t call.",
       ],

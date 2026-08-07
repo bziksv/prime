@@ -5,13 +5,13 @@ export const klyuchiGoogleAdsEn: BlogPost = {
   slug: "klyuchi-google-ads",
   title: "Keyword research in Google Ads",
   date: "2021-03-09",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/klyuchi-google-ads/cover-en.webp",
   excerpt:
     "How to pick keywords for Google Ads (formerly AdWords): match types, planner stats, and intent checks — without mixing them up with an SEO keyword set.",
   lead: [
     "In Google Ads, keywords decide when an ad shows. Planner and reports help estimate demand, but you build the final list around the offer, click economics, and negatives.",
-    "Below — research logic, match types, landings, and post-launch optimization. The Google Ads UI changes; check current menu names in the account. For some markets, also check product availability and workable measurement alternatives.",
+    "Research logic, match types, landings, and post-launch cleanup matter more than dumping Planner exports into one ad group. The Google Ads UI changes; check current menu names in the account. For some markets, also check product availability and workable measurement alternatives.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const klyuchiGoogleAdsEn: BlogPost = {
       a: "Yes — the product was renamed. Older “AdWords” articles mean the same Google ads account.",
     },
     {
-      q: "Are Ads keywords = an SEO core?",
+      q: "Are Ads keywords the same as an SEO keyword set?",
       a: "They overlap, but aren’t equal. Ads care about bid, negatives, and commercial intent; SEO cares about landings, content, and rankings over time.",
     },
     {
@@ -73,7 +73,7 @@ export const klyuchiGoogleAdsEn: BlogPost = {
           href: "/en/blog/reklamnyy-kabinet/",
         },
         {
-          label: "Semantic core (SEO)",
+          label: "Keyword research (SEO)",
           href: "/en/blog/semanticheskoe-yadro/",
         },
       ],
@@ -193,7 +193,7 @@ export const klyuchiGoogleAdsEn: BlogPost = {
       title: "Common mistakes",
       level: 2,
       paras: [
-        "Classics: one giant ungrouped list; ignoring negatives; “everything” keywords on one landing; copying an SEO core without ad cleanup; bids without conversion tracking.",
+        "Classics: one giant ungrouped list; ignoring negatives; “everything” keywords on one landing; copying an SEO keyword set without ad cleanup; bids without conversion tracking.",
         "Don’t twist bids and keywords every day without data. First make sure analytics goals fire and sales sees lead quality — or you’ll optimize a pretty CTR.",
       ],
       lists: [
@@ -210,7 +210,7 @@ export const klyuchiGoogleAdsEn: BlogPost = {
       links: [
         {
           label: "Bidding in Yandex Direct",
-          href: "/blog/stavki-direkt/",
+          href: "/en/blog/stavki-direkt/",
         },
       ],
     },

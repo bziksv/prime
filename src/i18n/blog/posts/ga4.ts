@@ -5,13 +5,13 @@ export const ga4En: BlogPost = {
   slug: "ga4",
   title: "What changed in Google Analytics 4: from sessions to events",
   date: "2020-10-16",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/ga4/cover-en.webp",
   excerpt:
     "How GA4 differs from Universal Analytics: event model, site and app in one property, enhanced measurements, audiences, and explorations. No UA nostalgia and no 2020 button screenshots.",
   lead: [
     "Google Analytics 4 replaced Universal Analytics’ familiar logic: instead of “hits and sessions as the main axis” — events and parameters. Site and app can live in one data scheme.",
-    "Below — the essence of the shift and what to check in practice. UI and report names change; the measurement model matters, not widget layout from the 2020 beta. Ecommerce behavior in GA is a separate piece; goals/key events — in the conversions guide.",
+    "The essence of the shift and what to check in practice. UI and report names change; the measurement model matters more than widget layout from the 2020 beta. Ecommerce behavior in GA is a separate piece.",
   ],
   faq: [
     {
@@ -23,7 +23,7 @@ export const ga4En: BlogPost = {
       a: "Almost everything is an event with parameters (page_view, scroll, purchase…). Sessions are counted differently; you can’t compare UA and GA4 figures directly.",
     },
     {
-      q: "Is Firebase required?",
+      q: "Is Firebase required for GA4?",
       a: "For apps, GA4 has historically been close to Firebase Analytics. Web can run without a separate “app world”, but cross-platform is a GA4 strength.",
     },
     {
@@ -31,7 +31,7 @@ export const ga4En: BlogPost = {
       a: "Built-in collection of typical actions (views, scroll, outbound clicks, site search, etc.) without hand-coding every click. Check the current help for the list and names.",
     },
     {
-      q: "Where did UA goals go?",
+      q: "Where did UA goals go in GA4?",
       a: "In GA4 — key events (conversions) based on events. Full breakdown — in the goals/conversions setup article.",
     },
   ],
@@ -70,11 +70,11 @@ export const ga4En: BlogPost = {
         {
           intro: "Checklist after creating a GA4 property:",
           items: [
-            "tag on all templates, no duplicate;",
-            "enhanced measurements as needed;",
-            "key events/conversions;",
-            "ecommerce or purchase equivalent;",
-            "check in realtime / DebugView;",
+            "tag on all templates, no duplicate",
+            "enhanced measurements as needed",
+            "key events/conversions",
+            "ecommerce or purchase equivalent",
+            "check in realtime / DebugView",
             "internal traffic filter.",
           ],
         },
@@ -85,7 +85,7 @@ export const ga4En: BlogPost = {
           href: "/en/blog/google-tag-manager/",
         },
         {
-          label: "End-to-end analytics",
+          label: "Full-funnel analytics",
           href: "/en/blog/skvoznaya-analitika/",
         },
       ],

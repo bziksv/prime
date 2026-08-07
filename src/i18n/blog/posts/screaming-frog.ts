@@ -11,7 +11,7 @@ export const screamingFrogEn: BlogPost = {
     "How to run a technical crawl in Screaming Frog: spider settings, status codes, title/H1, images, internal links, broken URLs, and Excel export — without an “one-button audit” cult.",
   lead: [
     "Screaming Frog SEO Spider is a desktop crawler: it walks your site like a bot and collects URLs, statuses, meta, headings, links, and page weight. The free version covers a basic audit; paid removes the URL cap and adds integrations.",
-    "Below — key Spider settings, how to read reports, and what to fix from the results. Full audit methodology is in the technical SEO audit canon; here the focus is the tool. Crawl your projects or sites you have permission for; don’t DDoS with crawl speed.",
+    "We cover key Spider settings, how to read reports, and what to fix from the results. Full audit methodology lives in the technical SEO audit guide; here we focus on the tool. Crawl your own projects or sites you have permission for—don’t hammer servers with crawl speed.",
   ],
   faq: [
     {
@@ -19,11 +19,11 @@ export const screamingFrogEn: BlogPost = {
       a: "For small sites — often yes. On large catalogs you hit the URL limit: then a paid license, segmented Include/Exclude crawls, or a URL list export.",
     },
     {
-      q: "Should you disable JS and CSS?",
+      q: "Should I disable JS and CSS?",
       a: "For classic HTML audits people sometimes exclude heavy assets to speed the crawl. If JS templates and client render matter — use the rendering mode in your current version.",
     },
     {
-      q: "Can you ignore robots.txt?",
+      q: "Can I ignore robots.txt?",
       a: "On your staging — yes if utility sections are closed. On production first understand why URLs are blocked; don’t open everything with the crawler “for luck”.",
     },
     {
@@ -35,15 +35,15 @@ export const screamingFrogEn: BlogPost = {
       a: "One that doesn’t flood 5xx and No Response. On weak hosting lower threads/speed. You can filter your own visits in analytics during the audit.",
     },
     {
-      q: "What about duplicate titles?",
-      a: "Uniqueize templates or glue duplicates with 301/canonical. Mass identical titles signal thin/template pages.",
+      q: "What should I do about duplicate titles?",
+      a: "Make templates unique or glue duplicates with 301/canonical. Mass identical titles signal thin/template pages.",
     },
     {
       q: "Are broken external links critical?",
       a: "External 404s hurt UX and trust. Fix or remove. Internal broken links rank higher in priority.",
     },
     {
-      q: "Does an audit mean TOP in a week?",
+      q: "Does an audit mean TOP rankings in a week?",
       a: "No. Crawl and fixes are prep. Rankings for the core grow month to month; planned 2–6 months after work starts.",
     },
   ],
@@ -198,7 +198,7 @@ export const screamingFrogEn: BlogPost = {
       title: "How to fold the crawl into the workflow",
       level: 2,
       paras: [
-        "Make a checklist: crawl → export → priorities (5xx/404 → duplicates → meta → weight) → tickets → recrawl. Screaming Frog covers the tech layer; semantics, content, and off-site links are other stages.",
+        "Make a checklist: crawl → export → priorities (5xx/404 → duplicates → meta → weight) → tickets → recrawl. Screaming Frog covers the tech layer; keywords, content, and off-site links are other stages.",
         "Prep and fixes — days/weeks. Visibility growth for the core after removing blockers — month to month, planned 2–6 months. Don’t promise “TOP after one Frog run”.",
       ],
       lists: [

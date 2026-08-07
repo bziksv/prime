@@ -11,7 +11,7 @@ export const kluchiYoutubeEn: BlogPost = {
     "How to pick keywords for YouTube title, description, and tags: retention beats a “perfect” core, Wordstat and suggestions, competitor analysis, and long-tail queries — without promising top in a week.",
   lead: [
     "YouTube semantics help a video get found in search, but don’t replace the content itself. The algorithm reacts more to watch time, retention, and repeat views than to a keyword pack “like a 2015 website”.",
-    "Below — how to build a working core for a video: where to get phrasing, where to put it, and when to aim at narrow queries. Channel launch basics are in the YouTube promotion piece; here the focus is keywords.",
+    "Build a working core for each video: gather phrasing, place it where it helps, and aim at narrow queries when the topic is competitive. Channel launch basics are in the YouTube promotion piece; this focuses on keywords.",
   ],
   faq: [
     {
@@ -24,7 +24,7 @@ export const kluchiYoutubeEn: BlogPost = {
     },
     {
       q: "Should you copy all of a competitor’s tags?",
-      a: "No. Take what’s relevant; if giants own the head terms — look for long-tail and your angle, not a full tag dump.",
+      a: "No. Take what’s relevant; if giants own the head keywords — look for long-tail and your angle, not a full tag dump.",
     },
     {
       q: "Do words like “watch” and “video” help?",
@@ -62,7 +62,7 @@ export const kluchiYoutubeEn: BlogPost = {
         "Phrase sources: YouTube and Google/Yandex search suggestions, Wordstat and Keyword Planner peers (needs an ads account; figures are a guide), reviewing titles and topics of competitors in results for your query.",
         "In how-to niches, constructions like “how to”, DIY, reviews, tops, and timely events often work — if they honestly reflect the video. “Cats” and entertainment angles work in their topic; don’t drag them into B2B for a click.",
         "Practice: write 1–2 main queries per video, 5–15 refinements and long-tails. Put the main one at the start of the title (readable for humans), expand in the first description lines, tags as a supplement — not a dump. Don’t stuff irrelevant junk.",
-        "If head terms are owned by big channels, take narrow phrasing and video series under a cluster. “View source → all competitor tags” is an outdated ritual; open title, description, and topics are enough. External mentions and playlists help, but don’t replace watch-through.",
+        "If head keywords are owned by big channels, take narrow phrasing and video series under a cluster. “View source → all competitor tags” is an outdated ritual; open title, description, and topics are enough. External mentions and playlists help, but don’t replace watch-through.",
         "Bottom line: semantics set the language of demand; content decides whether you stay in results. Build the core → answer stronger than the competitor → measure retention and refine the next topics.",
       ],
       lists: [
@@ -79,7 +79,7 @@ export const kluchiYoutubeEn: BlogPost = {
       ],
       links: [
         {
-          label: "Site semantic core",
+          label: "Site keyword set",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {

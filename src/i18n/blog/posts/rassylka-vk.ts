@@ -11,7 +11,7 @@ export const rassylkaVkEn: BlogPost = {
     "Why VK community broadcasts help, how to set up opt-in via official widgets, how to write copy, and why mass friend spam and third-party tools lead to blocks.",
   lead: [
     "A VK broadcast is messages from a community to people who agreed to receive them. News and offers get past the “smart” feed, where a wall post is easy to miss.",
-    "Below — why broadcast, how to connect via the VK apps catalog, and how to write short without spam. Unofficial “senders” for cold DMs aren’t covered as a how-to — that’s a ban zone.",
+    "Why broadcast, how to connect via the VK apps catalog, and how to write short without spam. Unofficial “senders” and gray bases are outside recommendations.",
   ],
   faq: [
     {
@@ -24,14 +24,14 @@ export const rassylkaVkEn: BlogPost = {
     },
     {
       q: "How often should I write?",
-      a: "A cue — rarely and on purpose (e.g. 1–2 times a week). Frequency depends on niche; watch unsubscribes and reports in stats.",
+      a: "Rule of thumb: rarely and on purpose (e.g. 1–2 times a week). Frequency depends on niche; watch unsubscribes and reports in stats.",
     },
     {
-      q: "Do you need third-party software?",
-      a: "For legal broadcasts to community subscribers, official apps from the VK catalog usually suffice. Tools for fakeing DMs/invites risk a block.",
+      q: "Do I need third-party software?",
+      a: "For legal broadcasts to community subscribers, official apps from the VK catalog usually suffice. Tools for faking DMs/invites risk a block.",
     },
     {
-      q: "What to write in the first message?",
+      q: "What should I write in the first message?",
       a: "Benefit or offer without pressure, short, with a clear button/link. A name variable is a plus if it doesn’t look like script spam.",
     },
   ],
@@ -45,12 +45,12 @@ export const rassylkaVkEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Upsides when set up right:",
+          intro: "Benefits when set up right:",
           items: [
-            "delivery past the feed;",
-            "segments (if the widget supports them);",
-            "welcome for new subscribers;",
-            "open/click stats in the service cabinet.",
+            "delivery past the feed",
+            "segments (if the widget supports them)",
+            "welcome for new subscribers",
+            "open/click stats in the service account.",
           ],
         },
       ],
@@ -72,10 +72,10 @@ export const rassylkaVkEn: BlogPost = {
         {
           intro: "Basic setup:",
           items: [
-            "3–5 template types (news, promo, value);",
-            "welcome for a new subscriber;",
-            "“site” / “catalog” buttons;",
-            "name variables when possible;",
+            "3–5 template types (news, promo, value)",
+            "welcome for a new subscriber",
+            "“site” / “catalog” buttons",
+            "name variables when possible",
             "schedule and audience segment.",
           ],
         },
@@ -83,7 +83,7 @@ export const rassylkaVkEn: BlogPost = {
       notes: [
         {
           title: "Practice",
-          text: "Unofficial exe “broadcast to everyone” tools bypass platform rules. Even if “not banned yet” — business risk beats the upside.",
+          text: "Unofficial exe “broadcast to everyone” tools bypass platform rules. Even if “not banned yet” — business risk beats the short-term gain.",
         },
       ],
     },
@@ -97,10 +97,10 @@ export const rassylkaVkEn: BlogPost = {
         {
           intro: "Working moves:",
           items: [
-            "address and specifics;",
-            "1–2 paragraphs max;",
-            "one main link;",
-            "morning/a clear slot by stats, not “blasting 24/7”;",
+            "address and specifics",
+            "1–2 paragraphs max",
+            "one main link",
+            "morning/a clear slot by stats, not “blasting 24/7”",
             "watch reports and unsubscribes after each send.",
           ],
         },
@@ -117,9 +117,9 @@ export const rassylkaVkEn: BlogPost = {
         {
           intro: "What to avoid:",
           items: [
-            "mass invites and identical “hi buy this”;",
-            "adult content / insults;",
-            "promises of “100% ban protection” from grey software;",
+            "mass invites and identical “hi buy this”",
+            "adult content / insults",
+            "promises of “100% ban protection” from gray software",
             "fake followers just to grow a broadcast list.",
           ],
         },
@@ -129,7 +129,7 @@ export const rassylkaVkEn: BlogPost = {
       title: "Short takeaway",
       level: 2,
       paras: [
-        "Legal VK broadcast is opt-in via the community and official apps, short useful copy, and moderate frequency. Cold mass-send and grey tools aren’t a growth strategy — they’re a path to limits.",
+        "Legal VK broadcast is opt-in via the community and official apps, short useful copy, and moderate frequency. Cold mass-send and gray tools aren’t a growth strategy — they’re a path to limits.",
       ],
       lists: [],
     },

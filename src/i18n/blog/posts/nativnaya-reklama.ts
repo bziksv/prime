@@ -5,13 +5,13 @@ export const nativnayaReklamaEn: BlogPost = {
   slug: "nativnaya-reklama",
   title: "Why native advertising fails: 7 common mistakes",
   date: "2020-03-18",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/nativnaya-reklama/cover-en.webp",
   excerpt:
     "Why native advertising fails: fake emotion, weak product knowledge, short posts, awkward links, and overheated drama — and how to make the integration honest.",
   lead: [
     "Native advertising is commercial content in the platform’s format: article, post, video, story. The goal isn’t a face-on banner, but usefulness and a natural tone for that environment.",
-    "Often the format fails: from the first lines the reader feels “here comes the ad” and leaves. Below — seven reasons it fails and what to fix. Ad labeling is legally required — “blending in” doesn’t cancel disclosing the advertiser.",
+    "Too often the format fails: from the first lines the reader feels “here comes the ad” and leaves. Below are seven reasons that happens — and what to fix before the next integration.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -23,27 +23,27 @@ export const nativnayaReklamaEn: BlogPost = {
       a: "By format and tone: it looks like the platform’s content, not a separate ad block. In meaning it’s still advertising and must be labeled.",
     },
     {
-      q: "Can I hide that the piece is advertising?",
+      q: "Can you hide that the piece is advertising?",
       a: "No. You need clear labeling and compliance with ad rules. “Organic feel” is about style and value — not camouflage.",
     },
     {
-      q: "Which format works best?",
-      a: "A story, case, longread, or video with a plot. A short “4 problems → buy” roundup almost always reads as an ad.",
+      q: "Which native format works best?",
+      a: "A story, case, long-form piece, or video with a plot. A short “4 problems → buy” roundup almost always reads as an ad.",
     },
     {
       q: "Why doesn’t a creator post convert?",
       a: "Often there’s no product experience, the link sticks out alone, the tone doesn’t match the blog, or the whole text is a stretched lead-in to the offer.",
     },
     {
-      q: "Does the author need the product “in hand”?",
-      a: "Preferably. Without access to the service/product you get a brief rewrite, not lived experience.",
+      q: "Does the author need the product in hand?",
+      a: "Preferably. Without access to the service or product you get a brief rewrite, not lived experience.",
     },
     {
       q: "Does native work in short social posts?",
       a: "It’s harder: little room for context and plot. You need a strong link to the author’s usual content, or it’s just an ad paragraph.",
     },
     {
-      q: "Is this only about Instagram and creators?",
+      q: "Is native advertising only about Instagram and creators?",
       a: "The format is wider: media, newsletters, video, offline. Social is one channel; the piece is informational — not a call to use specific platforms.",
     },
   ],
@@ -59,9 +59,9 @@ export const nativnayaReklamaEn: BlogPost = {
         {
           intro: "Signs of a living integration:",
           items: [
-            "tone matches the author’s/editorial usual pieces;",
-            "there’s experience or facts, not only a USP from the brief;",
-            "link and brand are woven into the plot;",
+            "tone matches the author’s or editorial usual pieces",
+            "there’s experience or facts, not only a USP from the brief",
+            "link and brand are woven into the plot",
             "ad labeling is in place.",
           ],
         },
@@ -87,16 +87,16 @@ export const nativnayaReklamaEn: BlogPost = {
       title: "Weak topic and product knowledge",
       level: 2,
       paras: [
-        "Without immersion you get text “as if a dermatologist” or “as if a user” — generic phrases and PDF specs. The audience notices.",
+        "Without immersion you get text “as if a dermatologist” or “as if a user” — generic keywords and PDF specs. The audience notices.",
         "Clients should give product access, a demo, expert support. Authors should ask for a manual, scenarios, and limits — not write from five bullets.",
       ],
       lists: [
         {
           intro: "Author minimum:",
           items: [
-            "try the product or unpack a case;",
-            "understand who it’s for and who it isn’t;",
-            "collect 2–3 lived details;",
+            "try the product or unpack a case",
+            "understand who it’s for and who it isn’t",
+            "collect 2–3 lived details",
             "align facts with the brand before publish.",
           ],
         },
@@ -113,9 +113,9 @@ export const nativnayaReklamaEn: BlogPost = {
         {
           intro: "What to fix:",
           items: [
-            "give room for a story or case;",
-            "don’t build the whole text as pain list → offer;",
-            "weave the link into a sentence, don’t decorate it out;",
+            "give room for a story or case",
+            "don’t build the whole text as pain list → offer",
+            "weave the link into a sentence, don’t decorate it out",
             "check the piece still reads without the ad block.",
           ],
         },
@@ -134,16 +134,16 @@ export const nativnayaReklamaEn: BlogPost = {
       title: "Stretched lead-in and forced drama",
       level: 2,
       paras: [
-        "Five–ten paragraphs of “guessing pains” before the offer tire people. Authors usually need a short opening in their own style; in ads a bureaucratic “warm-up” suddenly appears.",
+        "Five to ten paragraphs of “guessing pains” before the offer tire people. Authors usually need a short opening in their own style; in ads a bureaucratic “warm-up” suddenly appears.",
         "The other extreme — cranking drama around a simple product. Big emotions fit personal storytelling, but around a cream jar they look like trying to “burn” the integration with overacting.",
       ],
       lists: [
         {
-          intro: "Final guides:",
+          intro: "Final guidelines:",
           items: [
-            "value and plot beat lead-in length;",
-            "emotions match the topic’s scale;",
-            "no fake, no link spam;",
+            "value and plot beat lead-in length",
+            "emotions match the topic’s scale",
+            "no fake, no link spam",
             "with ad labeling and an honest CTA.",
           ],
         },
@@ -155,7 +155,7 @@ export const nativnayaReklamaEn: BlogPost = {
         },
         {
           label: "Viral content",
-          href: "/blog/viralnyy-kontent/",
+          href: "/en/blog/viralnyy-kontent/",
         },
       ],
     },

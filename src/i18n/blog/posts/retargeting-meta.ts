@@ -5,13 +5,13 @@ export const retargetingMetaEn: BlogPost = {
   slug: "retargeting-meta",
   title: "Retargeting on Instagram and Facebook: audience types",
   date: "2020-01-13",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/retargeting-meta/cover-en.webp",
   excerpt:
-    "Custom audiences for retarget: site visitors, customer lists, and Instagram/Facebook engagement — how segments work, without an outdated Ads Manager click-path.",
+    "Custom audiences for retargeting: site visitors, customer lists, and Instagram/Facebook engagement — how segments work, without an outdated Ads Manager click-path.",
   lead: [
-    "Social retargeting leans on “warm” segments: people already visited the site, sit in CRM, or engaged with content. In the Instagram and Facebook ecosystem those groups were historically called custom audiences.",
-    "The ads account UI changes; below — audience-type logic and sensible setup, not clicks on outdated screenshots. The general retarget base is in a separate article. This piece is informational and does not urge use of Meta platforms.",
+    "Social retargeting leans on warm segments: people who already visited the site, are in your CRM, or engaged with content. In the Instagram and Facebook ecosystem those groups were historically called custom audiences.",
+    "Ads account UIs change; we cover audience-type logic and a sensible setup—not clicks on outdated screenshots. The general retargeting foundation is in a separate article. This piece is informational and does not urge use of Meta platforms.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -19,15 +19,15 @@ export const retargetingMetaEn: BlogPost = {
   },
   faq: [
     {
-      q: "How does this differ from ordinary retarget?",
+      q: "How does this differ from ordinary retargeting?",
       a: "Same idea: bring back people you already know. The difference is the signal source: site pixel/tag, list upload, in-account engagement events — not only Metrica/display networks.",
     },
     {
-      q: "Do you need a pixel on the site?",
+      q: "Do I need a pixel on the site?",
       a: "For a “visited the site” segment — yes: without a visit/cart event the audience is empty. For a customer list or account engagement a pixel isn’t required.",
     },
     {
-      q: "Can you upload a customer base?",
+      q: "Can I upload a customer list?",
       a: "In account logic — yes, with a lawful basis and consent. In practice data quality, platform hashing rules, and excluding buyers from “chase” campaigns matter.",
     },
     {
@@ -35,11 +35,11 @@ export const retargetingMetaEn: BlogPost = {
       a: "Deeper watch = narrower and “warmer” segment. A wide threshold gives volume; a tight one gives quality. Test both and watch CPA — not gut feel.",
     },
     {
-      q: "Why not copy old Ads Manager screenshots?",
-      a: "Menus and tab names update. Orient on audience source type and events — not “button on the left → third icon”.",
+      q: "Why shouldn’t I copy old Ads Manager screenshots?",
+      a: "Menus and tab names update. Focus on audience source type and events — not “button on the left → third icon”.",
     },
     {
-      q: "Link to search ads and SEO?",
+      q: "Does this connect to search ads and SEO?",
       a: "Directly — no. Indirectly: the same landings, offer, and conversion exclusions affect any retarget. General theory is in the retargeting article.",
     },
   ],
@@ -141,7 +141,7 @@ export const retargetingMetaEn: BlogPost = {
       ],
       links: [
         {
-          label: "Holiday retarget",
+          label: "Holiday retargeting",
           href: "/en/blog/prazdnichnyy-retargeting/",
         },
         {

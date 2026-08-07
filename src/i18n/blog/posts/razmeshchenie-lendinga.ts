@@ -5,13 +5,13 @@ export const razmeshchenieLendingaEn: BlogPost = {
   slug: "razmeshchenie-lendinga",
   title: "Where to host a landing page: domain, subdomain, or inside the site",
   date: "2019-10-21",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/razmeshchenie-lendinga/cover-en.webp",
   excerpt:
     "Three ways to place a landing page: a separate domain, a subdomain, or a URL on the main site — pros, cons, SEO, and when to pick which for the offer and audience.",
   lead: [
     "You can put a landing on a new domain, on a subdomain, or as a page inside the main site. There’s no universal “always do this”: the choice depends on the offer, closeness to the current brand, and the traffic channel.",
-    "Below — a comparison of three schemes without surveys for surveys’ sake. How to build blocks and copy is in the landing and landing-copy articles; here it’s only the URL and infrastructure question.",
+    "A comparison of three approaches — without surveys for surveys’ sake. How to build blocks and copy lives in the landing and landing-copy articles; here it’s only the URL and infrastructure question.",
   ],
   faq: [
     {
@@ -27,7 +27,7 @@ export const razmeshchenieLendingaEn: BlogPost = {
       a: "Search engines often treat a subdomain as close, but not “the same” site. It feeds the main domain’s behavior and link weight less than an internal page.",
     },
     {
-      q: "Affiliate-filter risk on a new domain?",
+      q: "Is there affiliate-filter risk on a new domain?",
       a: "If you copy contacts, template, and assortment from the main site, risk is higher. A new domain is for a different project/audience — not a clone “for a keyword in the URL”.",
     },
     {
@@ -35,7 +35,7 @@ export const razmeshchenieLendingaEn: BlogPost = {
       a: "Usually no: the product card/category on one domain is the landing. A separate domain is for another business or a test outside the catalog.",
     },
     {
-      q: "What to choose for a hypothesis test?",
+      q: "What should I choose for a hypothesis test?",
       a: "A fast URL on the main site, or a light separate domain if you can’t touch prod. What matters is measuring conversion — not a “pretty” address.",
     },
   ],
@@ -51,8 +51,8 @@ export const razmeshchenieLendingaEn: BlogPost = {
         {
           intro: "Options:",
           items: [
-            "a new domain;",
-            "a subdomain;",
+            "a new domain",
+            "a subdomain",
             "a page on the main site.",
           ],
         },
@@ -102,8 +102,8 @@ export const razmeshchenieLendingaEn: BlogPost = {
         {
           intro: "It fits well when:",
           items: [
-            "the offer is close to the current catalog/services;",
-            "you need organic and internal linking;",
+            "the offer is close to the current catalog/services",
+            "you need organic and internal linking",
             "unified analytics and brand in the URL matter.",
           ],
         },

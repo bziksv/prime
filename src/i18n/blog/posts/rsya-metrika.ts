@@ -5,13 +5,13 @@ export const rsyaMetrikaEn: BlogPost = {
   slug: "rsya-metrika",
   title: "YAN revenue metrics in Yandex Metrica",
   date: "2018-07-06",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/rsya-metrika/cover-en.webp",
   excerpt:
-    "Yandex Advertising Network (YAN) revenue in Metrica: why publishers watch income and ad views, which metrics exist, and how to connect reports — without outdated 2018 cabinet screenshots.",
+    "Yandex Advertising Network (YAN) revenue in Metrica: why publishers watch income and ad views, which metrics exist, and how to connect reports — without outdated 2018 account screenshots.",
   lead: [
     "If your site is in the Yandex Advertising Network (YAN / РСЯ) as a publisher, Metrica can show more than visits: ad revenue, block performance, and cuts by source and device.",
-    "Below — what the reports mean for a publisher and how connection works. Menu names and metric sets change — check current Yandex Help. This piece is about publisher revenue analytics, not buying ads in Yandex Direct.",
+    "We cover what the reports mean for a publisher and how to connect them. Menu names and metric sets change—check current Yandex Help. This article is about publisher revenue analytics, not buying ads in Yandex Direct.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const rsyaMetrikaEn: BlogPost = {
     },
     {
       q: "Is this the same as advertiser spend in Direct?",
-      a: "No. Here it’s publisher income, not an advertiser cabinet with CPC/CPA campaigns.",
+      a: "No. Here it’s publisher income, not an advertiser account with CPC/CPA campaigns.",
     },
     {
       q: "Do I need to be a YAN partner?",
@@ -43,7 +43,7 @@ export const rsyaMetrikaEn: BlogPost = {
       a: "Metrica reports for partners are usually free. YAN partnership terms are separate.",
     },
     {
-      q: "Must counters match?",
+      q: "Do the counters have to match?",
       a: "Yes: the ID in the partner interface and on the site/in Metrica must match Yandex’s instructions, or data won’t join.",
     },
   ],
@@ -52,7 +52,7 @@ export const rsyaMetrikaEn: BlogPost = {
       title: "Why link YAN + Metrica",
       level: 2,
       paras: [
-        "The YAN partner cabinet shows money. Metrica shows behavior. Together you see which traffic feeds revenue and which pages are “empty” on ads despite a good audience.",
+        "The YAN partner account shows money. Metrica shows behavior. Together you see which traffic feeds revenue and which pages are “empty” on ads despite a good audience.",
         "That makes it easier to decide where to strengthen units, where not to overload with ads, and which sources bring valuable vs “empty” views.",
       ],
       lists: [
@@ -99,11 +99,11 @@ export const rsyaMetrikaEn: BlogPost = {
       links: [
         {
           label: "Installing Metrica",
-          href: "/blog/metrika-ustanovka/",
+          href: "/en/blog/metrika-ustanovka/",
         },
         {
           label: "Goals in Metrica",
-          href: "/blog/metrika-tseli/",
+          href: "/en/blog/metrika-tseli/",
         },
       ],
     },
@@ -119,15 +119,15 @@ export const rsyaMetrikaEn: BlogPost = {
       links: [
         {
           label: "Yandex Video Network",
-          href: "/blog/videoset-yandeksa/",
+          href: "/en/blog/videoset-yandeksa/",
         },
       ],
     },
     {
-      title: "What to remember",
+      title: "Key takeaways",
       level: 2,
       paras: [
-        "YAN revenue in Metrica is publisher reports, not a Direct advertiser cabinet.",
+        "YAN revenue in Metrica is publisher reports, not a Direct advertiser account.",
         "You need a YAN partnership, matched counters, and current Help for connection.",
         "Read revenue next to audience so monetization doesn’t kill UX.",
       ],
@@ -135,7 +135,7 @@ export const rsyaMetrikaEn: BlogPost = {
     },
   ],
   closing: [
-    "If you’re already in YAN — confirm revenue flows into Metrica, and once a week compare top pages by money vs visits; faster than guessing from the partner cabinet alone.",
+    "If you’re already in YAN — confirm revenue flows into Metrica, and once a week compare top pages by money vs visits; faster than guessing from the partner account alone.",
   ],
   related: [
     "metrika-ustanovka",

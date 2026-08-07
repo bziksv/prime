@@ -5,13 +5,13 @@ export const googleMerchantCenterEn: BlogPost = {
   slug: "google-merchant-center",
   title: "Google Merchant Center: how to connect a store to Shopping ads",
   date: "2018-09-26",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/google-merchant-center/cover-en.webp",
   excerpt:
     "How to set up an online store in Google Merchant Center: feed, site requirements, Google Ads link, and Shopping campaigns — without outdated AdWords/AdSense clicks and “always cheaper than any channel” promises.",
   lead: [
-    "Google Merchant Center (GMC) is the product-data cabinet for Google Shopping and related ad formats. You upload a feed (XML/API), verify the site, and keep product cards current.",
-    "Below — what you need to start, store requirements, the Google Ads link, and post-launch care. Shopping/Performance Max and cabinet availability by country change — check current Google Help. “Always cheaper than search” is a myth: CPC depends on niche and feed quality.",
+    "Google Merchant Center (GMC) is the product-data hub for Google Shopping and related ad formats. You upload a feed (XML/API), verify the site, and keep product cards current.",
+    "Getting value from it means meeting store requirements, linking Google Ads, and caring for the catalog after launch. Shopping, Performance Max, and country availability change — check current Google Help. “Always cheaper than search” is a myth: CPC depends on niche and feed quality.",
   ],
   faq: [
     {
@@ -23,16 +23,16 @@ export const googleMerchantCenterEn: BlogPost = {
       a: "Yes: online purchase/order, policies, contacts, HTTPS. A “leave a request” landing without a catalog often fails Shopping moderation.",
     },
     {
-      q: "What is a feed?",
-      a: "A file or stream of products: id, title, description, link, image, price, availability, etc. Feed errors are the main rejection cause.",
+      q: "What is a product feed?",
+      a: "A file or stream of products: id, title, description, link, image, price, availability, and more. Feed errors are the main rejection cause.",
     },
     {
-      q: "Are Customer Reviews the same thing?",
+      q: "Are Customer Reviews the same as Merchant Center?",
       a: "No. Customer reviews are a separate program on top of Merchant. See the Google Customer Reviews article.",
     },
     {
       q: "Can you advertise any products?",
-      a: "No. There are banned and restricted categories (finance, some services, tickets, etc. — list in Help). Check before upload.",
+      a: "No. There are banned and restricted categories (finance, some services, tickets, and more — list in Help). Check before upload.",
     },
   ],
   sections: [
@@ -47,10 +47,10 @@ export const googleMerchantCenterEn: BlogPost = {
         {
           intro: "Start minimum:",
           items: [
-            "site with cart / online order;",
-            "product feed (XML, Google Sheets, API — what’s supported);",
-            "Merchant Center account;",
-            "Google Ads account linked to GMC;",
+            "site with cart / online order",
+            "product feed (XML, Google Sheets, API — what’s supported)",
+            "Merchant Center account",
+            "Google Ads account linked to GMC",
             "compliance with Shopping ad policies.",
           ],
         },
@@ -70,17 +70,17 @@ export const googleMerchantCenterEn: BlogPost = {
       title: "Site requirements",
       level: 2,
       paras: [
-        "Shopping moderation is stricter than a regular text ad. The site needs truthful contacts, clear payment and returns, a working path to purchase, valid HTTPS.",
+        "Shopping moderation is stricter than a regular text ad. The site needs truthful contacts, clear payment and returns, a working path to purchase, and valid HTTPS.",
         "Price, availability, and description on the landing must match the feed. Mismatch is a common reason products and accounts get disapproved.",
       ],
       lists: [
         {
           intro: "Checklist before upload:",
           items: [
-            "phone and email visible;",
-            "return and shipping policy;",
-            "payment methods without thank-you surprises;",
-            "checkout works without critical errors;",
+            "phone and email visible",
+            "return and shipping policy",
+            "payment methods disclosed before checkout",
+            "checkout works without critical errors",
             "product cards priced = feed price.",
           ],
         },
@@ -88,7 +88,7 @@ export const googleMerchantCenterEn: BlogPost = {
       notes: [
         {
           title: "On restrictions",
-          text: "Some topics (tickets, real estate, certain financial and digital services, etc.) are limited or banned for Shopping. Don’t copy a 2018 list — open current Google Help on restricted products.",
+          text: "Some topics (tickets, real estate, certain financial and digital services, and more) are limited or banned for Shopping. Don’t copy a 2018 list — open current Google Help on restricted products.",
           kind: "tip",
         },
       ],
@@ -104,21 +104,21 @@ export const googleMerchantCenterEn: BlogPost = {
       ],
     },
     {
-      title: "Creating the cabinet and verifying the site",
+      title: "Creating the account and verifying the site",
       level: 2,
       paras: [
         "In Merchant Center you create the store business profile: name, address, contacts, logo. Site ownership is verified via Help methods (often Search Console / tag / file — list in the wizard).",
-        "The feed must match the spec: required attributes, encoding, regular updates. After upload, read the diagnostics report: disapproved, warnings, missing GTIN/brand where required.",
+        "The feed must match the spec: required attributes, encoding, regular updates. After upload, read the diagnostics report: disapproved items, warnings, missing GTIN/brand where required.",
       ],
       lists: [
         {
           intro: "Typical order:",
           items: [
-            "create GMC and fill store data;",
-            "verify the site;",
-            "connect the feed source;",
-            "fix diagnostics errors;",
-            "link Google Ads;",
+            "create GMC and fill store data",
+            "verify the site",
+            "connect the feed source",
+            "fix diagnostic errors",
+            "link Google Ads",
             "launch a Shopping / Performance Max campaign.",
           ],
         },
@@ -128,8 +128,8 @@ export const googleMerchantCenterEn: BlogPost = {
       title: "Google Ads link and campaigns",
       level: 2,
       paras: [
-        "A GMC ↔ Google Ads link is needed so campaigns pull products from the catalog. Confirm the link request in both cabinets. Old guides said “AdWords” and sometimes mixed it with AdSense — Shopping needs Google Ads, not a publisher cabinet.",
-        "Campaign types evolved: classic Shopping, Performance Max with a feed, etc. Parameters, groups, and bids are set in Ads; differentiate structure and bids by margin and SKU priority — not one bid “for everything”.",
+        "A GMC ↔ Google Ads link is needed so campaigns pull products from the catalog. Confirm the link request in both accounts. Old guides said “AdWords” and sometimes mixed it with AdSense — Shopping needs Google Ads, not a publisher account.",
+        "Campaign types evolved: classic Shopping, Performance Max with a feed, and more. Parameters, groups, and bids are set in Ads; differentiate structure and bids by margin and SKU priority — not one bid “for everything”.",
       ],
       links: [
         {
@@ -147,15 +147,15 @@ export const googleMerchantCenterEn: BlogPost = {
       level: 2,
       paras: [
         "Launch isn’t the finish. Update prices and stock, watch disapprovals, seasonal attributes, and image quality. “Dead” products in the feed burn budget and hurt account trust.",
-        "Measure conversions: Google Ads linked to analytics (GA4), goals/purchases, ROAS by category. Compare not “CPC vs the whole internet,” but Shopping’s contribution to orders for your assortment.",
+        "Measure conversions: Google Ads linked to analytics (GA4), goals/purchases, ROAS (return on ad spend) by category. Compare not “CPC vs the whole internet,” but Shopping’s contribution to orders for your assortment.",
       ],
       lists: [
         {
           intro: "Weekly minimum:",
           items: [
-            "feed errors and warnings;",
-            "top spend without conversions;",
-            "price/availability mismatches;",
+            "feed errors and warnings",
+            "top spend without conversions",
+            "price/availability mismatches",
             "new SKUs in the feed before ads.",
           ],
         },

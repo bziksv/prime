@@ -11,7 +11,7 @@ export const straykYoutubeEn: BlogPost = {
     "How a Community Guidelines strike differs from a copyright complaint, which limits apply, how to check channel status, and how to appeal or avoid sanctions.",
   lead: [
     "A YouTube strike is a sanction for breaking the rules: channel feature limits up to removal. In slang, “throw a strike” means reporting a video or channel.",
-    "Below — what gets punished, how community and copyright violations differ, how to check status, and what to do on a false claim. Studio labels change — verify against current YouTube Help.",
+    "Community and copyright strikes differ, Studio labels change, and a false claim needs a calm appeal path — verify against current YouTube Help, not outdated screenshots.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const straykYoutubeEn: BlogPost = {
       a: "No. Content ID often means a claim/monetization for the rights holder without a “community strike.” A copyright strike is a separate copyright-law track. A Community Guidelines strike is for platform policy.",
     },
     {
-      q: "How many strikes until deletion?",
+      q: "How many strikes until the channel is deleted?",
       a: "On the classic scheme, three active Community Guidelines strikes in a time window lead to channel removal. Exact terms are in Help — don’t copy numbers from old guides unchecked.",
     },
     {
@@ -27,11 +27,11 @@ export const straykYoutubeEn: BlogPost = {
       a: "A Community Guidelines strike usually expires after a set period if you follow the rules. A copyright strike clears via claim withdrawal, a counter-notification, or expiry — per platform process.",
     },
     {
-      q: "Can you appeal?",
+      q: "Can I appeal a strike?",
       a: "Yes: appeal / counter-notification with proof (correspondence, rights, context). False claims can be punished too.",
     },
     {
-      q: "Where do you see channel status?",
+      q: "Where do I see channel status?",
       a: "YouTube Studio → a section like Feature eligibility / Channel status: the violation scale and details.",
     },
   ],
@@ -78,7 +78,7 @@ export const straykYoutubeEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Practice",
+          title: "Tip",
           text: "Rules update. Before a risky format, read the current Community Guidelines and Copyright Center.",
         },
       ],

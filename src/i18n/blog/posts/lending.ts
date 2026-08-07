@@ -5,13 +5,13 @@ export const lendingEn: BlogPost = {
   slug: "lending",
   title: "Landing page: what it is and how to build one",
   date: "2021-05-06",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/lending/cover-en.webp",
   excerpt:
     "What a landing page is, why teams build one, which blocks to assemble, and which mistakes kill conversion — separate from writing the offer copy.",
   lead: [
     "A landing page is a page you send traffic to for one target action: lead, purchase, call, signup. It can be a one-pager or a target URL inside a larger site.",
-    "Below — why a landing exists, block logic, and typical failures. How to write offer copy — in the landing text piece.",
+    "Why a landing exists, section logic, and typical failures are below. How to write offer copy is in the landing-copy article.",
   ],
   faq: [
     {
@@ -19,23 +19,23 @@ export const lendingEn: BlogPost = {
       a: "No. A catalog/service page on a multi-page site can be a landing if you intentionally send traffic there.",
     },
     {
-      q: "Is a landing = a sales page?",
+      q: "Is a landing the same as a sales page?",
       a: "Not necessarily. The goal can be a lead, signup, or download — not only payment.",
     },
     {
-      q: "How is this different from landing copy?",
-      a: "Here — the page’s role and block frame. Offer copy, CTAs, and wording — in a separate article.",
+      q: "How is this different from the landing-copy article?",
+      a: "This article covers the page’s role and section frame. Offer copy, CTAs, and wording are in a separate article.",
     },
     {
       q: "Does a landing need SEO?",
       a: "If you expect organic — yes: Title, structure, speed. For pure paid traffic, offer and load speed matter more.",
     },
     {
-      q: "How many CTAs to place?",
+      q: "How many CTAs should I place?",
       a: "One main scenario. You can repeat buttons, but don’t spawn competing goals.",
     },
     {
-      q: "Do you need a separate landing for every ad?",
+      q: "Do I need a separate landing for every ad?",
       a: "Not always. A separate landing is justified when the campaign has its own segment, offer, or scenario. For close queries, adapting one page and measuring is enough.",
     },
   ],
@@ -62,7 +62,7 @@ export const lendingEn: BlogPost = {
       title: "Page frame",
       level: 2,
       paras: [
-        "First screen: offer, audience, CTA. Below — benefits, proof, how it works, objections, CTA again, contacts.",
+        "Above the fold: offer, audience, CTA. Next come benefits, proof, how it works, objections, CTA again, contacts.",
       ],
       lists: [
         {

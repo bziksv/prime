@@ -11,7 +11,7 @@ export const emailMarketing2020En: BlogPost = {
     "What actually pulls newsletters: mobile layout, triggers, segments, and a CRM link — without a cult of experimental interactivity or outdated “trends of the year.”",
   lead: [
     "“What’s next for email” roundups often mix durable practices with short-lived experiments. Mobile readability, triggers, and customer data stay the base. Fancy interactivity in the email is an option, not a strategy.",
-    "Below — a working frame: what to check in every send and how to build the system if the list is still small. Don’t copy “traffic share” figures from other people’s roundups as your benchmark.",
+    "A practical frame: what to check in every send and how to build the system if the list is still small. Don’t copy “traffic share” figures from other people’s roundups as your benchmark.",
   ],
   faq: [
     {
@@ -31,15 +31,15 @@ export const emailMarketing2020En: BlogPost = {
       a: "For growth — yes: one customer profile and scenarios. An ESP without CRM can start, but the ceiling is lower.",
     },
     {
-      q: "UGC and surveys in emails?",
+      q: "Should I use UGC and surveys in emails?",
       a: "Useful for dialogue and content if you don’t turn every send into a questionnaire.",
     },
     {
-      q: "How many characters in a mobile subject?",
+      q: "How many characters should a mobile subject have?",
       a: "Aim to fit the start of the line (often about 25–40 characters visible). Put the main meaning in the first words.",
     },
     {
-      q: "Where to start if the list is small?",
+      q: "Where should I start if the list is small?",
       a: "Opt-in forms, welcome, and 1–2 triggers. Not scraping and not buying lists.",
     },
   ],
@@ -55,9 +55,9 @@ export const emailMarketing2020En: BlogPost = {
         {
           intro: "Mobile check minimum:",
           items: [
-            "subject still reads when truncated;",
-            "the button isn’t a micro-button;",
-            "images don’t break meaning if they don’t load;",
+            "subject still reads when truncated",
+            "the button isn’t a micro-button",
+            "images don’t break meaning if they don’t load",
             "one primary CTA.",
           ],
         },
@@ -75,11 +75,11 @@ export const emailMarketing2020En: BlogPost = {
       links: [
         {
           label: "Triggered emails",
-          href: "/blog/triggernye-rassylki/",
+          href: "/en/blog/triggernye-rassylki/",
         },
         {
           label: "Mail for your domain",
-          href: "/blog/pochta-dlya-domena/",
+          href: "/en/blog/pochta-dlya-domena/",
         },
       ],
     },
@@ -98,7 +98,7 @@ export const emailMarketing2020En: BlogPost = {
         },
         {
           label: "Email list with consent",
-          href: "/blog/baza-email-socseti/",
+          href: "/en/blog/baza-email-socseti/",
         },
       ],
     },

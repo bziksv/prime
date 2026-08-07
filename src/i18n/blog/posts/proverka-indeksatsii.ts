@@ -11,7 +11,7 @@ export const proverkaIndeksatsiiEn: BlogPost = {
     "How to check whether pages are in the Google and Yandex index: Webmaster and Search Console, the site: operator, extensions, and typical reasons a URL isn’t indexed — without confusing crawl with index.",
   lead: [
     "Indexing means a URL enters the search database used for results. A crawl is faster and doesn’t guarantee the page stays in the index.",
-    "Below — how to check status in webmaster cabinets, via `site:`, and related tools, and what to fix when things fail. Not the whole site must be indexed: utility URLs are closed separately. Webmaster/GSC UI changes — report meaning matters more.",
+    "How to check status in webmaster accounts, via `site:`, and related tools — and what to fix when things fail. Not the whole site must be indexed: utility URLs are closed separately. Webmaster/GSC UI changes; report meaning matters more.",
   ],
   faq: [
     {
@@ -23,21 +23,21 @@ export const proverkaIndeksatsiiEn: BlogPost = {
       a: "An order-of-magnitude guide, not accounting. More accurate — Webmaster and Search Console reports.",
     },
     {
-      q: "New site not indexed — panic?",
+      q: "Should I panic if a new site isn’t indexed yet?",
       a: "First check availability, sitemap, robots, and recrawl requests. Timelines differ by project; “exactly two weeks” isn’t law.",
     },
     {
-      q: "Everything is indexed but no traffic?",
-      a: "Index ≠ rankings and clicks. Look at demand, snippets, competition, and content. Core TOP takes planned months of work.",
+      q: "What if everything is indexed but there’s no traffic?",
+      a: "Index ≠ rankings and clicks. Look at demand, snippets, competition, and content. Core TOP is planned over 2–6 months of work after you start.",
     },
     {
-      q: "Must everything be indexed?",
+      q: "Must everything on the site be indexed?",
       a: "No. Filters, carts, and account areas are often closed. See the piece on blocking from indexing.",
     },
   ],
   sections: [
     {
-      title: "Webmaster cabinets",
+      title: "Webmaster accounts",
       level: 2,
       paras: [
         "Yandex Webmaster and Google Search Console are the owner’s main source of truth: pages in search / index coverage, exclusions, crawl errors, dynamics.",
@@ -47,10 +47,10 @@ export const proverkaIndeksatsiiEn: BlogPost = {
         {
           intro: "Check first:",
           items: [
-            "home and key landings in the index;",
-            "4xx/5xx crawl errors;",
-            "sitemap accepted;",
-            "no mass noindex;",
+            "home and key landings in the index",
+            "4xx/5xx crawl errors",
+            "sitemap accepted",
+            "no mass noindex",
             "“was → is” dynamics over the period.",
           ],
         },
@@ -77,10 +77,10 @@ export const proverkaIndeksatsiiEn: BlogPost = {
         {
           intro: "Quick checks:",
           items: [
-            "`site:domain` in both engines;",
-            "exact page URL;",
-            "branded query for the home page;",
-            "cross-check with the webmaster cabinet.",
+            "`site:domain` in both engines",
+            "exact page URL",
+            "branded query for the home page",
+            "cross-check with the webmaster account.",
           ],
         },
       ],
@@ -107,7 +107,7 @@ export const proverkaIndeksatsiiEn: BlogPost = {
       notes: [
         {
           title: "Important",
-          text: "Don’t treat one RDS-bar or peer as index truth. The search engine cabinet beats a plugin.",
+          text: "Don’t treat one RDS-bar or peer as index truth. The search engine account beats a plugin.",
           kind: "tip",
         },
       ],
@@ -123,11 +123,11 @@ export const proverkaIndeksatsiiEn: BlogPost = {
         {
           intro: "Cause checklist:",
           items: [
-            "robots.txt and meta robots;",
-            "sitemap and internal links;",
-            "status codes of key URLs;",
-            "duplicates and canonical;",
-            "content quality and uniqueness;",
+            "robots.txt and meta robots",
+            "sitemap and internal links",
+            "status codes of key URLs",
+            "duplicates and canonical",
+            "content quality and uniqueness",
             "Webmaster/GSC errors.",
           ],
         },

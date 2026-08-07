@@ -11,7 +11,7 @@ export const fotoInstagramEn: BlogPost = {
     "How to pick a visual niche, shoot with composition and light, and prep photos for a blog or shop on Instagram — without “girls only” clichés or copying other feeds.",
   lead: [
     "On Instagram the image hooks first; text is the second layer. A strong frame has a clear idea, light, composition, and a link to the profile offer.",
-    "Below — content types, basic shooting techniques, business nuances, and publishing rhythm. The app UI changes; frame skill beats a list of outdated filters.",
+    "Content types, basic shooting techniques, business nuances, and publishing rhythm. The app UI changes; frame skill beats a list of outdated filters.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -19,7 +19,7 @@ export const fotoInstagramEn: BlogPost = {
   },
   faq: [
     {
-      q: "Do you need a DSLR for a blog?",
+      q: "Do I need a DSLR for a blog?",
       a: "Not necessarily. A modern phone plus light and composition is often enough. For product catalogs, studio/light help more than “megapixels.”",
     },
     {
@@ -31,11 +31,11 @@ export const fotoInstagramEn: BlogPost = {
       a: "Here — shooting and frame composition. A template is frame, fonts, and layout grid. See posts on templates and profile design.",
     },
     {
-      q: "Can you copy competitors’ frames one-to-one?",
+      q: "Can I copy competitors’ frames one-to-one?",
       a: "Ideas — yes; other people’s photos and pixel-perfect style — no: claim risk and an empty feed without your voice.",
     },
     {
-      q: "When to publish?",
+      q: "When should I publish?",
       a: "When your audience is online — check account stats. There is no universal “best hour for everyone.”",
     },
   ],
@@ -51,10 +51,10 @@ export const fotoInstagramEn: BlogPost = {
         {
           intro: "Common formats:",
           items: [
-            "lifestyle and behind the scenes;",
-            "travel and places;",
-            "utility / process / before-after;",
-            "product and flat lays;",
+            "lifestyle and behind the scenes",
+            "travel and places",
+            "utility / process / before-after",
+            "product and flat lays",
             "pets and hobbies — if that’s truly your content.",
           ],
         },
@@ -96,10 +96,10 @@ export const fotoInstagramEn: BlogPost = {
         {
           intro: "Before you hit the shutter:",
           items: [
-            "what is the main subject;",
-            "whether the edge crops something important;",
-            "whether the background is orderly;",
-            "whether light is enough without noise;",
+            "what is the main subject",
+            "whether the edge crops something important",
+            "whether the background is orderly",
+            "whether light is enough without noise",
             "how the frame will sit in the profile grid.",
           ],
         },
@@ -116,9 +116,9 @@ export const fotoInstagramEn: BlogPost = {
         {
           intro: "Minimum for a feed card:",
           items: [
-            "hero angle + detail;",
-            "use-in-context shot;",
-            "one preset for the series;",
+            "hero angle + detail",
+            "use-in-context shot",
+            "one preset for the series",
             "caption with value and CTA.",
           ],
         },

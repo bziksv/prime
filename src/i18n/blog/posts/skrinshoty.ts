@@ -11,7 +11,7 @@ export const skrinshotyEn: BlogPost = {
     "What a screenshot is, where it’s used in support and training, how to capture the screen on Windows, macOS, iOS, and Android, and how editors help.",
   lead: [
     "A screenshot is a capture of the whole screen or a selected area. In guides, support tickets, and reports it saves paragraphs of explanation: “here’s where it broke.”",
-    "Below — why people take screenshots, built-in ways on computer and phone, and basic rules: what to hide, how to annotate, and when a short screen video is better.",
+    "We cover why people take screenshots, built-in options on computer and phone, and basic rules: what to hide, how to annotate, and when a short screen recording is better.",
   ],
   faq: [
     {
@@ -23,15 +23,15 @@ export const skrinshotyEn: BlogPost = {
       a: "Win + Shift + S — region/window/screen to clipboard. Print Screen — full screen; Alt + Print Screen — active window. Then paste into Paint/a messenger or use Snipping Tool / Snip & Sketch.",
     },
     {
-      q: "And on Mac?",
+      q: "How do I take a screenshot on a Mac?",
       a: "Cmd + Shift + 3 — full screen; Cmd + Shift + 4 — region; Cmd + Shift + 4, then Space — a window. Files usually land on the desktop.",
     },
     {
-      q: "Do you need third-party apps?",
+      q: "Do I need third-party apps?",
       a: "For one-off shots — no. Editors (arrows, blur, long scroll-shots) help documentation teams; pick them on purpose, without giving cloud tools extra rights.",
     },
     {
-      q: "What must you hide?",
+      q: "What must I hide?",
       a: "Passwords, tokens, client personal data, card numbers, internal URLs with secrets. Blur or crop before sending.",
     },
   ],
@@ -50,7 +50,7 @@ export const skrinshotyEn: BlogPost = {
             "training: “click here” without a wall of text;",
             "reports and bug reports;",
             "design/layout review;",
-            "proof of a cabinet state (careful with personal data).",
+            "proof of a account state (careful with personal data).",
           ],
         },
       ],
@@ -117,7 +117,7 @@ export const skrinshotyEn: BlogPost = {
       ],
     },
     {
-      title: "Short takeaway",
+      title: "Bottom line",
       level: 2,
       paras: [
         "A screenshot is a fast way to show the UI. Start with built-in hotkeys, crop and annotate what matters, hide personal data. For complex flows a short screen video beats ten unreadable frames.",

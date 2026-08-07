@@ -11,11 +11,11 @@ export const oshibka502En: BlogPost = {
     "What HTTP 502 Bad Gateway means, typical causes on site and hosting, and a step-by-step diagnosis order — without panic or “magic” plugins.",
   lead: [
     "502 Bad Gateway means a proxy or gateway (often nginx/CDN) didn’t get a valid response from the upstream (PHP, Apache, app).",
-    "Below — common causes and what to check. It’s not an “SEO penalty”, but a down site cuts traffic and indexing while the error persists.",
+    "It’s not an “SEO penalty,” but a down site cuts traffic and indexing while the error persists. Below: common causes and what to check with host and logs.",
   ],
   faq: [
     {
-      q: "Is 502 an SEO problem?",
+      q: "Is a 502 error an SEO problem?",
       a: "Indirectly: bots and users don’t see the page. Long downtime hurts. The 502 code itself is about infrastructure.",
     },
     {
@@ -31,15 +31,15 @@ export const oshibka502En: BlogPost = {
       a: "Rarely first aid. Start with logs, backend status, PHP/worker limits.",
     },
     {
-      q: "Do you need a redirect?",
+      q: "Do you need a redirect for 502 errors?",
       a: "No. Fix the server/app — don’t mask 502 with a redirect.",
     },
     {
-      q: "Should you clear cache on 502?",
+      q: "Should you clear cache on a 502?",
       a: "Only if you have reason to think a bad response was cached. Clearing doesn’t replace checking backend, logs, and limits.",
     },
     {
-      q: "When to contact hosting support?",
+      q: "When should you contact hosting support for 502?",
       a: "Right away if you lack server access or logs show infrastructure faults. Pass error time, URL, status code, and what you already checked.",
     },
   ],
@@ -55,9 +55,9 @@ export const oshibka502En: BlogPost = {
         {
           intro: "Often after:",
           items: [
-            "a deploy and config change;",
-            "a traffic spike;",
-            "stuck CMS plugins;",
+            "a deploy and config change",
+            "a traffic spike",
+            "stuck CMS plugins",
             "hitting hosting limits.",
           ],
         },
@@ -74,10 +74,10 @@ export const oshibka502En: BlogPost = {
         {
           intro: "Order:",
           items: [
-            "confirm 502 from outside (`curl -I`);",
-            "gateway and app logs;",
-            "CPU/RAM/disk load;",
-            "upstream timeouts;",
+            "confirm 502 from outside (`curl -I`)",
+            "gateway and app logs",
+            "CPU/RAM/disk load",
+            "upstream timeouts",
             "roll back the last change.",
           ],
         },
@@ -104,8 +104,8 @@ export const oshibka502En: BlogPost = {
         {
           intro: "For the SEO team:",
           items: [
-            "alert if main URLs return 5xx;",
-            "don’t confuse 502 with a search filter;",
+            "alert if main URLs return 5xx",
+            "don’t confuse 502 with a search filter",
             "after recovery — check indexing of key pages.",
           ],
         },
@@ -122,9 +122,9 @@ export const oshibka502En: BlogPost = {
         {
           intro: "For a developer or host ticket prepare:",
           items: [
-            "exact URL and time with timezone;",
-            "status code and how often it repeats;",
-            "log snippets without passwords or tokens;",
+            "exact URL and time with timezone",
+            "status code and how often it repeats",
+            "log snippets without passwords or tokens",
             "list of recent releases and config changes.",
           ],
         },
@@ -141,9 +141,9 @@ export const oshibka502En: BlogPost = {
         {
           intro: "Close the incident when:",
           items: [
-            "several checks return expected codes;",
-            "load and log errors normalized;",
-            "cause and actions are recorded;",
+            "several checks return expected codes",
+            "load and log errors normalized",
+            "cause and actions are recorded",
             "a clear alert is set for a repeat.",
           ],
         },

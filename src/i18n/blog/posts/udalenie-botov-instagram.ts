@@ -10,8 +10,8 @@ export const udalenieBotovInstagramEn: BlogPost = {
   excerpt:
     "Why clean bots on Instagram, how to spot a dead audience, why a sharp mass purge hits reach, and what’s dangerous about third-party “auto-cleaners” that ask for your login.",
   lead: [
-    "Bots and empty profiles among followers inflate the number and kill ER: reach and advertisers look at live activity, not “100k on the storefront.” Often bots follow your own fake engagement or mass-follow.",
-    "Below — signs of junk audience, safer cleanup logic, and why we don’t recommend auto-service catalogs that want your Instagram password. Meta disclaimer — on the page.",
+    "Bots and empty profiles among followers inflate the count and kill engagement rate (ER): reach and advertisers look at live activity, not “100k on the storefront.” Often bots follow your own fake engagement or mass-follow habits.",
+    "Spot junk audience by patterns, clean in batches so reach doesn’t tank, and skip auto-service catalogs that want your Instagram password. See the Meta disclaimer on this page.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -28,15 +28,15 @@ export const udalenieBotovInstagramEn: BlogPost = {
     },
     {
       q: "Are “delete bots automatically” services safe?",
-      a: "Many ask for login or session — risk of account theft and ToS violations. Prefer manual/built-in moderation without handing over the password.",
+      a: "Many ask for login or session — risk of account theft and ToS violations. Prefer manual or built-in moderation without handing over the password.",
     },
     {
-      q: "Block or remove from followers?",
-      a: "Depends on the goal: remove from the list, Restrict, or block a spammer. Exact menu items — in current Instagram help.",
+      q: "Should I block bots or remove them from followers?",
+      a: "It depends on the goal: remove from the list, Restrict, or block a spammer. Exact menu items live in current Instagram Help.",
     },
     {
-      q: "How is this different from the “fake likes” piece?",
-      a: "That one is why not to buy activity. This one is what to do with junk already piled up in followers.",
+      q: "How is this different from the “fake likes” article?",
+      a: "That one explains why not to buy activity. This one covers what to do with junk already piled up in followers.",
     },
   ],
   sections: [
@@ -44,8 +44,8 @@ export const udalenieBotovInstagramEn: BlogPost = {
       title: "Why bots hurt",
       level: 2,
       paras: [
-        "Algorithms and advertisers look at interactions. A dead base → low ER with a “pretty” follower count.",
-        "Fake engagement and mass-following bring bots themselves. Competitor “bot attacks” happen, but your own grey growth is more often to blame.",
+        "Algorithms and advertisers look at interactions. A dead base means low ER next to a “pretty” follower count.",
+        "Fake engagement and mass-following bring bots themselves. Competitor “bot attacks” happen, but your own shady growth is more often to blame.",
         "Cleanup doesn’t replace strategy: weak content will kill a “clean” profile too.",
       ],
       lists: [],
@@ -55,8 +55,8 @@ export const udalenieBotovInstagramEn: BlogPost = {
           href: "/en/blog/nakrutka-laykov-instagram/",
         },
         {
-          label: "Engagement in social",
-          href: "/blog/vovlechennost-socseti/",
+          label: "Engagement on social media",
+          href: "/en/blog/vovlechennost-socseti/",
         },
       ],
     },
@@ -64,16 +64,16 @@ export const udalenieBotovInstagramEn: BlogPost = {
       title: "Signs of shady followers",
       level: 2,
       paras: [
-        "Empty or stock avatar, no posts for months, a nickname of random characters, the same empties in follows/followers.",
+        "Empty or stock avatar, no posts for months, a nickname of random characters, the same empties in follows and followers.",
         "Spam in Direct and comments, template “earn/crypto” bios.",
-        "Careful: a newbie without an avatar ≠ a bot. Look at the full set of signs and your audience — not a single “no photo” filter.",
+        "Careful: a newbie without an avatar isn’t automatically a bot. Look at the full set of signs and your audience — not a single “no photo” filter.",
       ],
       lists: [
         {
           intro: "Red flags:",
           items: [
             "a sharp follower jump without reach;",
-            "geo/language off for the product;",
+            "geo or language off for the product;",
             "zero saves and comments while the base “grows”;",
             "a history of buying fake engagement from a vendor.",
           ],
@@ -85,8 +85,8 @@ export const udalenieBotovInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "Cutting the audience several times over in a few days often hurts delivery to live people.",
-        "Plan cleanup in batches and strengthen content, Stories, and replies in parallel — so ER doesn’t hit zero during the “repair.”",
-        "Hard “50–100 a day” limits from old guides aren’t canon: the guide is moderation and no complaints/limits — not someone else’s 2020 number.",
+        "Plan cleanup in batches and strengthen content, Stories, and replies in parallel — so ER doesn’t hit zero during the repair.",
+        "Hard “50–100 a day” limits from old guides aren’t canon: the guide is moderation and no complaints or limits — not someone else’s 2020 number.",
       ],
       lists: [],
       notes: [
@@ -100,7 +100,7 @@ export const udalenieBotovInstagramEn: BlogPost = {
       title: "Manual cleanup",
       level: 2,
       paras: [
-        "For smaller bases: followers list → profile → remove / Restrict / block as needed.",
+        "For smaller bases: open the followers list, open a profile, then remove, Restrict, or block as needed.",
         "Start with comment spammers and obvious empties — not “everyone without an avatar.”",
         "Log how many you remove per day so you don’t crash the metrics.",
       ],
@@ -111,8 +111,8 @@ export const udalenieBotovInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "Services promise filters by activity, language, and mass blocking. The price is account access and ban risk.",
-        "We don’t carry forward Zengram / InstaPlus / Spam Guard catalogs from old reviews as recommendations: products change, many are grey.",
-        "If you use any helper — only with Meta ToS in mind and without giving passwords to shady sites. The best long-term path is manual moderation + quitting fake growth.",
+        "We don’t carry forward Zengram / InstaPlus / Spam Guard catalogs from old reviews as recommendations: products change, and many are shady.",
+        "If you use any helper — only with Meta ToS in mind and without giving passwords to shady sites. The best long-term path is manual moderation plus quitting fake growth.",
       ],
       lists: [],
       links: [
@@ -127,7 +127,7 @@ export const udalenieBotovInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "Watch ER and reach for 2–4 weeks: they should stabilize on a more honest base.",
-        "For growth — content, collabs, legal ads/seeding — not a new pack of bots.",
+        "For growth — content, collabs, legal ads or seeding — not a new pack of bots.",
         "Advertisers prefer a smaller but live audience.",
       ],
       lists: [],
@@ -136,7 +136,7 @@ export const udalenieBotovInstagramEn: BlogPost = {
       title: "What to remember",
       level: 2,
       paras: [
-        "Bots are a symptom of grey growth or spam; clean in batches.",
+        "Bots are a symptom of shady growth or spam; clean in batches.",
         "Don’t chase auto-services that want your login.",
         "Live ER beats a pretty follower count.",
       ],

@@ -11,27 +11,27 @@ export const podozritelnyyTrafikGoogleEn: BlogPost = {
     "Captcha and Google’s unusual-traffic warning from your network: typical causes and a calm step-by-step check — without panic.",
   lead: [
     "A message like “we have detected unusual traffic from your network” and a captcha before search means Google temporarily doesn’t trust requests from your IP or network.",
-    "It’s more often about network security and software than a “site penalty.” Below — what to do first and where the signal usually comes from.",
+    "It’s more often about network security and software than a “site penalty.” Start with a calm check of devices and the network, then look at where the signal usually comes from.",
   ],
   faq: [
     {
       q: "Is this a ban of my site in search?",
-      a: "Usually no. Access to Google from a specific IP/network is blocked or made harder. Your site isn’t “removed from the index” by this message alone.",
+      a: "Usually no. Access to Google from a specific IP or network is blocked or made harder. Your site isn’t removed from the index by this message alone.",
     },
     {
-      q: "Why does captcha appear?",
+      q: "Why does a captcha appear?",
       a: "Too many similar requests from one address: bots, malware, shared Wi‑Fi, an ISP glitch, or aggressive scraping.",
     },
     {
-      q: "What to do first?",
-      a: "Scan devices with antivirus, reboot the router, complete the captcha, tell the corporate network admin.",
+      q: "What should I do first?",
+      a: "Scan devices with antivirus, reboot the router, complete the captcha, and tell the corporate network admin.",
     },
     {
       q: "Is it related to SEO scrapers?",
-      a: "It can be: mass SERP harvests without limits look like bots. Lower frequency, change IP/proxy per the service rules, don’t hammer search with DIY scripts.",
+      a: "It can be: mass SERP harvests without limits look like bots. Lower frequency, change IP or proxy per the service rules, and don’t hammer search with DIY scripts.",
     },
     {
-      q: "When to call the ISP?",
+      q: "When should I call the ISP?",
       a: "If captcha hits every device on one network and still appears after cleaning the PC — it may be the ISP or neighbors on the same IP.",
     },
   ],
@@ -46,9 +46,9 @@ export const podozritelnyyTrafikGoogleEn: BlogPost = {
         {
           intro: null,
           items: [
-            "scan PCs and phones with up-to-date antivirus;",
-            "reboot the router/modem (many ISPs rotate IP);",
-            "complete the captcha and check whether the block lifted;",
+            "scan PCs and phones with up-to-date antivirus",
+            "reboot the router/modem (many ISPs rotate IP)",
+            "complete the captcha and check whether the block lifted",
             "in an office — tell the system administrator.",
           ],
         },
@@ -76,16 +76,16 @@ export const podozritelnyyTrafikGoogleEn: BlogPost = {
       title: "Where suspicious traffic comes from",
       level: 2,
       paras: [
-        "The signal may come not “from your site,” but from the address you use to reach the internet.",
+        "The signal may come not from your site, but from the address you use to reach the internet.",
       ],
       lists: [
         {
           intro: "Typical causes:",
           items: [
-            "ISP glitches or NAT — captcha for many clients on one network;",
-            "shared Wi‑Fi / office IP: a neighbor’s infected PC hurts everyone;",
-            "viruses and stealers that send requests themselves;",
-            "pirated OS/cracks with “activators” phoning home;",
+            "ISP glitches or NAT — captcha for many clients on one network",
+            "shared Wi‑Fi / office IP: a neighbor’s infected PC hurts everyone",
+            "viruses and stealers that send requests themselves",
+            "pirated OS/cracks with “activators” phoning home",
             "aggressive scrapers and bots without anti-abuse limits.",
           ],
         },
@@ -99,10 +99,10 @@ export const podozritelnyyTrafikGoogleEn: BlogPost = {
         {
           intro: null,
           items: [
-            "remove found threats, update protection;",
-            "clear cookies/cache, change passwords for important accounts;",
-            "check router settings; reset if needed;",
-            "use official OS and software;",
+            "remove found threats, update protection",
+            "clear cookies/cache, change passwords for important accounts",
+            "check router settings; reset if needed",
+            "use official OS and software",
             "for data collection — only tools with limits and official APIs, no hammering the SERP.",
           ],
         },

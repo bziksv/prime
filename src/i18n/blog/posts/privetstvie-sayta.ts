@@ -5,17 +5,17 @@ export const privetstvieSaytaEn: BlogPost = {
   slug: "privetstvie-sayta",
   title: "Website greeting: how to welcome visitors without annoying them",
   date: "2021-08-10",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/privetstvie-sayta/cover-en.webp",
   excerpt:
     "How to shape the first contact on the homepage: hero copy, careful popups, and chat. What builds trust and conversion — and what pushes people away in seconds.",
   lead: [
     "The homepage is the site’s “face”: in the first seconds people decide to stay or leave. A greeting here isn’t necessarily “hello” — it’s a clear signal: who you are, who you help, and what to do next.",
-    "Below — the first-screen text block, popups, and chat. Focus on benefit and tone; aggressive pop-unders and a chat one second after entry hurt more often than they help.",
+    "We cover the first-screen text block, popups, and chat. Focus on benefit and tone; aggressive pop-unders and a chat one second after entry hurt more often than they help.",
   ],
   faq: [
     {
-      q: "Must the homepage say “Hello”?",
+      q: "Must the homepage literally say “Hello”?",
       a: "No. A clear offer and audience matter more. A formal greeting with no substance is fluff. A working pattern: benefit + who you are + CTA.",
     },
     {
@@ -27,11 +27,11 @@ export const privetstvieSaytaEn: BlogPost = {
       a: "Usually no. A passive chat button is calmer. Auto-open fits selectively (promo, abandoned cart) with an easy close.",
     },
     {
-      q: "Do you need keywords in the greeting?",
+      q: "Do I need keywords in the greeting?",
       a: "Meaningful words — yes; keyword spam in the hero — no. Keep linking and the core in page structure, not in one “greeting” paragraph.",
     },
     {
-      q: "How does it tie to conversion?",
+      q: "How does the greeting tie to conversion?",
       a: "A clear first screen and calm UX are CRO hypotheses. See the separate conversion optimization article.",
     },
   ],
@@ -47,9 +47,9 @@ export const privetstvieSaytaEn: BlogPost = {
         {
           intro: "What a clear first contact gives:",
           items: [
-            "interest and trust;",
-            "clear benefits;",
-            "a next-step hint;",
+            "interest and trust",
+            "clear benefits",
+            "a next-step hint",
             "a tone that matches the niche (B2B drier, culture warmer, store toward purchase).",
           ],
         },
@@ -72,19 +72,19 @@ export const privetstvieSaytaEn: BlogPost = {
         {
           intro: "Signs of a strong block:",
           items: [
-            "clear what the site is right away;",
-            "a concrete benefit or offer;",
-            "prices/timelines/facts when relevant;",
-            "one main action button;",
+            "clear what the site is right away",
+            "a concrete benefit or offer",
+            "prices/timelines/facts when relevant",
+            "one main action button",
             "no clichés or “high art” for beauty’s sake.",
           ],
         },
         {
           intro: "What to avoid in the first paragraph:",
           items: [
-            "a global mission with no product;",
-            "leadership hobbies;",
-            "copy-paste and empty slogans;",
+            "a global mission with no product",
+            "leadership hobbies",
+            "copy-paste and empty slogans",
             "an SEO sheet on top of the hero.",
           ],
         },
@@ -107,9 +107,9 @@ export const privetstvieSaytaEn: BlogPost = {
         {
           intro: "Mini rules if a popup is still needed:",
           items: [
-            "one offer, not a banner carousel;",
-            "easy close;",
-            "no more than once per session;",
+            "one offer, not a banner carousel",
+            "easy close",
+            "no more than once per session",
             "not on every funnel step in a row.",
           ],
         },
@@ -132,11 +132,11 @@ export const privetstvieSaytaEn: BlogPost = {
         {
           intro: "Chat tone:",
           items: [
-            "greet and introduce yourself;",
-            "photo/name of a real consultant if you have one;",
-            "ask for a name without interrogation;",
-            "stay on point, no pressure;",
-            "offer to continue by email/messenger if they want;",
+            "greet and introduce yourself",
+            "photo/name of a real consultant if you have one",
+            "ask for a name without interrogation",
+            "stay on point, no pressure",
+            "offer to continue by email/messenger if they want",
             "say goodbye and leave a next step.",
           ],
         },
@@ -152,10 +152,10 @@ export const privetstvieSaytaEn: BlogPost = {
         {
           intro: "Short checklist before publish:",
           items: [
-            "hero is clear without scrolling;",
-            "one CTA, and it’s visible;",
-            "popups don’t smother content;",
-            "chat doesn’t yell immediately;",
+            "hero is clear without scrolling",
+            "one CTA, and it’s visible",
+            "popups don’t smother content",
+            "chat doesn’t yell immediately",
             "no empty praise instead of facts.",
           ],
         },

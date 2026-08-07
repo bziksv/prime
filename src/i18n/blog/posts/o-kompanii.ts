@@ -11,19 +11,19 @@ export const oKompaniiEn: BlogPost = {
     "How to write an About page without a founder novel and empty “we’re the best”: facts, proof, tone for the audience — and when almost nobody reads the text.",
   lead: [
     "About pages often get a template: years on the market, a team of professionals, rapid growth. Clients care more about who you’re for and what proves the claims.",
-    "Below — what to cut, what to keep, and why the page exists at all. Homepage copy is separate; here the focus is the brand section.",
+    "Cut the fluff, keep the proof, and remember why the page exists: trust before a deal. Homepage copy is separate; the focus here is the brand section.",
   ],
   faq: [
     {
-      q: "Do people read About?",
+      q: "Do people actually read the About page?",
       a: "Less than services and reviews. Still useful for trust, legal details, B2B, and anyone checking the vendor before a deal.",
     },
     {
-      q: "Do I need a long founding story?",
+      q: "Do you need a long founding story?",
       a: "Usually no. Short context — since when and why — yes; kilometers of “three friends met…” — rarely.",
     },
     {
-      q: "Should I publish the whole team’s photos?",
+      q: "Should you publish the whole team’s photos?",
       a: "Optional, depends on brand culture. For e-com, product and service often matter more; for an agency/clinic, faces and expertise fit.",
     },
     {
@@ -31,7 +31,7 @@ export const oKompaniiEn: BlogPost = {
       a: "Only if you deliver. False promises hurt reviews and ad compliance.",
     },
     {
-      q: "Is this a keyword page?",
+      q: "Is About a keyword-target page?",
       a: "Not the goal. Cover semantics with services and articles; About is trust and facts — not a keyword sheet.",
     },
     {
@@ -39,11 +39,11 @@ export const oKompaniiEn: BlogPost = {
       a: "Homepage — offer and next steps. About — who you are, proof, values, contacts/legal details.",
     },
     {
-      q: "Should cases live here?",
+      q: "Should case studies live on the About page?",
       a: "Briefly yes, or link to a cases section. Numbers without context (“+150% conversion”) read like fluff.",
     },
     {
-      q: "How long should it be?",
+      q: "How long should the About page be?",
       a: "As long as needed to answer audience doubts. Often 1–3 screens beat a novel.",
     },
   ],
@@ -63,7 +63,7 @@ export const oKompaniiEn: BlogPost = {
       title: "What is useful to write",
       level: 2,
       paras: [
-        "Who you serve and which job you close — in the client’s language.",
+        "Who you serve and which job you solve — in the client’s language.",
         "Proof: years/geo if needed, certificates, cases with links, real numbers with explanation.",
         "How the service works: stages, guarantees, responsibility zones — what lowers deal fear.",
         "Legal details and contacts for B2B: entity, address, how to reach you.",
@@ -72,8 +72,8 @@ export const oKompaniiEn: BlogPost = {
         {
           intro: "Match tone to the audience:",
           items: [
-            "B2B — reliability, processes, cases;",
-            "mass service — clarity, prices/terms, reviews;",
+            "B2B — reliability, processes, cases",
+            "mass service — clarity, prices/terms, reviews",
             "local business — geo, atmosphere, neighborhood specifics.",
           ],
         },
@@ -106,7 +106,7 @@ export const oKompaniiEn: BlogPost = {
       ],
     },
     {
-      title: "What to remember",
+      title: "Takeaways",
       level: 2,
       paras: [
         "Facts and help choosing beat biography.",

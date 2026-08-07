@@ -5,13 +5,13 @@ export const analitikaKontentMarketingaEn: BlogPost = {
   slug: "analitika-kontent-marketinga",
   title: "Content marketing analytics: metrics and how to read them",
   date: "2021-01-15",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/analitika-kontent-marketinga/cover-en.webp",
   excerpt:
-    "How to evaluate content marketing: reach, retention, shares, leads, and editorial ops metrics — without a cult of likes or confusing this with installing a counter.",
+    "How to evaluate content marketing: reach, retention, shares, leads, and editorial ops metrics — without obsessing over likes or confusing this with installing a counter.",
   lead: [
-    "Content without numbers becomes “we post because that’s what you do”. Analytics answers a different question: which format and topic move toward the goal — subscribe, lead, sale, or retention — and which only makes noise.",
-    "Below — a metrics frame: consumption, engagement and sharing, lead gen, and editorial ops. Installing Metrika and building a dashboard are sibling topics; here the focus is what to measure and how not to be fooled by pretty stats.",
+    "Content without numbers becomes “we post because that’s what you do.” Analytics answers a different question: which format and topic move toward the goal — subscribe, lead, sale, or retention — and which only makes noise.",
+    "Measure consumption, engagement and sharing, lead gen, and editorial ops. Installing Yandex Metrica and building a dashboard are sibling topics; here the focus is what to measure and how not to get fooled by pretty stats.",
   ],
   faq: [
     {
@@ -19,32 +19,32 @@ export const analitikaKontentMarketingaEn: BlogPost = {
       a: "5–7 indicators under one goal: reach/visits to target URLs, finish rate or time, CTA CTR, leads, cost per content unit. The rest later.",
     },
     {
-      q: "Are likes and views KPIs?",
+      q: "Are likes and views good KPIs?",
       a: "Usually helper signals. KPIs are why you write: leads, sales, retention, list growth. Views without a goal are easy to inflate with viral but useless pieces.",
     },
     {
-      q: "How is this different from installing Metrika?",
-      a: "Metrika is the collection tool. This article is about the indicator set and how to judge content. Without goals and tagging, the counter explains nothing alone.",
+      q: "How is content analytics different from installing Metrica?",
+      a: "Metrica is the collection tool. This article is about the indicator set and how to judge content. Without goals and tagging, the counter explains nothing alone.",
     },
     {
       q: "Do you need a separate dashboard?",
-      a: "When there are more than two sources and a weekly report — yes. At the start a table + Metrika/GA reports is enough. See the dashboard article.",
+      a: "When there are more than two sources and a weekly report — yes. At the start a table + Metrica/GA reports is enough. See the dashboard article.",
     },
     {
       q: "How do you compare a blog post and a social post?",
       a: "Don’t mix raw views across platforms. Compare contribution to one goal (lead, subscribe) and production cost per unit of result.",
     },
     {
-      q: "What is content ROI?",
+      q: "What is content ROI (return on investment)?",
       a: "Effect (revenue/leads in money) vs cost to create and distribute. Rough — but better than “it felt like it worked”.",
     },
     {
-      q: "How often to pull metrics?",
+      q: "How often should you pull content metrics?",
       a: "Editorial ops — weekly; funnel and ROI — monthly/quarterly. A one-off spike after publish ≠ lasting effect.",
     },
     {
       q: "Can you judge SEO articles by traffic alone?",
-      a: "Traffic is the entry. Also watch behavior, conversion to goal, and lead quality. Ranking growth is planned over months — don’t confuse publishing a piece with “TOP in a week”.",
+      a: "Traffic is the entry. Also watch behavior, conversion to goal, and lead quality. Ranking growth is planned over 2–6 months — don’t confuse publishing a piece with “TOP in a week”.",
     },
   ],
   sections: [

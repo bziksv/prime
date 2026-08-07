@@ -10,8 +10,8 @@ export const shablonInstagramEn: BlogPost = {
   excerpt:
     "Why Instagram post and profile-grid templates matter, which layout schemes work, how to build a mockup in an editor, and which apps help — without clinging to outdated UI buttons.",
   lead: [
-    "An Instagram template is a pre-set visual frame: size, margins, fonts, color preset. The feed looks coherent, and each publish isn’t “from scratch.”",
-    "Below — why mockups help, grid layout schemes, and how to build a template on desktop and phone. App UIs change — a unified style matters more than button screenshots.",
+    "An Instagram template is a preset visual frame: size, margins, fonts, color palette. The feed looks coherent, and each post isn’t built from scratch.",
+    "We cover why mockups help, grid layout schemes, and how to build a template on desktop and phone. App UIs change—a consistent style matters more than button screenshots.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -20,19 +20,19 @@ export const shablonInstagramEn: BlogPost = {
   faq: [
     {
       q: "How is a template different from profile design?",
-      a: "Design is the header, avatar, About, and overall tone. A template is a reusable post/Stories frame and grid planning. See also the profile design article.",
+      a: "Design is the header image, avatar, bio, and overall tone. A template is a reusable post/Stories frame and grid planning. See also the profile design article.",
     },
     {
-      q: "Is a “checkerboard” visual required?",
-      a: "No. It’s one technique. For many brands one palette and recognizable fonts matter more than strict geometry.",
+      q: "Is a checkerboard grid required?",
+      a: "No. It’s one technique among many. For many brands, one palette and recognizable fonts matter more than strict geometry.",
     },
     {
-      q: "Is Canva enough?",
-      a: "For most tasks — yes: brand kit, post/Stories sizes, export. Photoshop — if you need fine layer control.",
+      q: "Is Canva enough for Instagram templates?",
+      a: "For most tasks, yes: brand kit, post/Stories sizes, export. Use Photoshop if you need fine layer control.",
     },
     {
-      q: "Do you need a separate Stories template?",
-      a: "Yes if you often make highlight covers and Stories series. The logic is the same: unified style and readability.",
+      q: "Do I need a separate Stories template?",
+      a: "Yes, if you often make highlight covers and Stories series. Same logic: consistent style and readability.",
     },
     {
       q: "Does a template replace a content plan?",
@@ -44,23 +44,23 @@ export const shablonInstagramEn: BlogPost = {
       title: "Why templates",
       level: 2,
       paras: [
-        "A unified style boosts recognition and cuts time per post: filter, margins, and font are already chosen. A newcomer grasps what the account is about faster.",
-        "A grid mockup (feed preview) helps you not break composition: color alternation, collage, rows — planned, not “whatever happened.”",
+        "A unified style boosts recognition and cuts time per post: filter, margins, and font are already chosen. New visitors grasp what the account is about faster.",
+        "A grid mockup (feed preview) helps you keep the composition intact: color alternation, collage, rows — planned—not whatever happens.",
       ],
       lists: [
         {
-          intro: "What a template system gives:",
+          intro: "What a template system gives you:",
           items: [
-            "less time spent on design;",
+            "less time per design;",
             "a predictable profile grid;",
             "less font and color chaos;",
-            "easier to delegate: “drop the photo into this mockup.”",
+            "easier to delegate—“drop the photo into this mockup.”",
           ],
         },
       ],
       links: [
         {
-          label: "Instagram page design",
+          label: "Instagram profile design",
           href: "/en/blog/oformlenie-stranicy-instagram/",
         },
         {
@@ -73,7 +73,7 @@ export const shablonInstagramEn: BlogPost = {
       title: "Feed layout schemes",
       level: 2,
       paras: [
-        "A 3×N grid reads top to bottom. A sharp style change every three posts cuts perception — better evolution than “a different brand every week.”",
+        "A 3×N grid reads top to bottom. A sharp style change every three posts hurts recognition—evolve gradually rather than looking like a different brand every week.",
       ],
       lists: [
         {

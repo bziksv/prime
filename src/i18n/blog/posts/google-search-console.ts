@@ -8,42 +8,42 @@ export const googleSearchConsoleEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/google-search-console/cover-en.webp",
   excerpt:
-    "What Google Search Console (formerly Webmaster Tools) is: how to verify a site, why a sitemap matters, index and error reports, and queries — without a “TOP button” cult.",
+    "What Google Search Console (formerly Webmaster Tools) is: how to verify a site, why a sitemap matters, index and error reports, and queries — without a “ranking button” cult.",
   lead: [
     "Google Search Console (formerly Google Webmaster Tools) is a free panel that connects your site to Google Search: indexing, crawl errors, search queries, sitemaps, and URL checks.",
-    "Below — why you need it, how to add a property, what to watch after verification, and how not to confuse reports with a “ranking guarantee”. The UI moves; report meaning matters more than button placement.",
+    "It’s how you see whether Google can crawl and index your pages, which queries drive impressions, and where errors pile up. The UI moves; report meaning matters more than button placement — and none of it is a “ranking guarantee.”",
   ],
   faq: [
     {
-      q: "Are Webmaster and Search Console the same?",
+      q: "Are Webmaster Tools and Search Console the same?",
       a: "Essentially yes: the old product name became Search Console. Older articles still say Webmaster.",
     },
     {
-      q: "Do you need a Gmail?",
-      a: "You need a Google account. Site verification — HTML file, meta tag, DNS, or Google Analytics/Tag Manager when linked.",
+      q: "Do I need a Google account?",
+      a: "Yes. Site verification uses an HTML file, meta tag, DNS, or Google Analytics/Tag Manager when linked.",
     },
     {
       q: "Is a sitemap required?",
-      a: "Not the only way Google finds URLs, but it helps a lot on mid-size and large sites. List it in robots and in GSC.",
+      a: "Not the only way Google finds URLs, but it helps a lot on mid-size and large sites. List it in robots.txt and in GSC.",
     },
     {
       q: "Does GSC replace Yandex Webmaster?",
       a: "No. For an RU audience you usually need both panels.",
     },
     {
-      q: "Are impressions and clicks “positions”?",
-      a: "They are Google Search data for your URLs. Average position is a guide, not an exact “TOP every day”.",
+      q: "Are impressions and clicks the same as “positions”?",
+      a: "They are Google Search data for your URLs. Average position is a guide, not an exact “#1 every day”.",
     },
     {
-      q: "How often should you check?",
+      q: "How often should you check Search Console?",
       a: "After releases — right away. On a plan, weekly: errors, coverage, queries. Not hourly.",
     },
     {
-      q: "What does URL Inspection give?",
-      a: "How Google sees the page; you can request indexing. Not instant TOP.",
+      q: "What does URL Inspection give you?",
+      a: "How Google sees the page; you can request indexing. Not instant rankings.",
     },
     {
-      q: "Security and malware in GSC?",
+      q: "Does Search Console warn about security and malware?",
       a: "There are hack/issue warnings. That’s a signal to check the site — not an automatic “forever ban” without review.",
     },
   ],
@@ -59,10 +59,10 @@ export const googleSearchConsoleEn: BlogPost = {
         {
           intro: "Typical jobs:",
           items: [
-            "verify domain/URL-prefix ownership;",
-            "track index and errors;",
-            "submit a sitemap;",
-            "review queries and pages;",
+            "verify domain/URL-prefix ownership",
+            "track index and errors",
+            "submit a sitemap",
+            "review queries and pages",
             "inspect a specific URL.",
           ],
         },
@@ -79,9 +79,9 @@ export const googleSearchConsoleEn: BlogPost = {
         {
           intro: "After verification:",
           items: [
-            "users and team permissions;",
-            "preferred host already via 301, not only in the panel;",
-            "link Analytics if needed;",
+            "users and team permissions",
+            "preferred host already via 301, not only in the panel",
+            "link Analytics if needed",
             "add a sitemap.",
           ],
         },
@@ -111,9 +111,9 @@ export const googleSearchConsoleEn: BlogPost = {
         {
           intro: "Cross-check:",
           items: [
-            "sitemap in GSC and in robots.txt;",
-            "discovered vs expected counts;",
-            "server and redirect errors in the map;",
+            "sitemap in GSC and in robots.txt",
+            "discovered vs expected counts",
+            "server and redirect errors in the map",
             "mobile issues on templates.",
           ],
         },
@@ -136,9 +136,9 @@ export const googleSearchConsoleEn: BlogPost = {
         {
           intro: "Weekly minimum:",
           items: [
-            "new coverage errors;",
-            "click drops on key URLs;",
-            "manual actions (if any);",
+            "new coverage errors",
+            "click drops on key URLs",
+            "manual actions (if any)",
             "CWV/usability — by template priority.",
           ],
         },
@@ -161,9 +161,9 @@ export const googleSearchConsoleEn: BlogPost = {
         {
           intro: "Tied to the site:",
           items: [
-            "unique Title/H1;",
-            "canonical;",
-            "template speed;",
+            "unique Title/H1",
+            "canonical",
+            "template speed",
             "clean filter indexing.",
           ],
         },
@@ -180,16 +180,16 @@ export const googleSearchConsoleEn: BlogPost = {
       level: 2,
       paras: [
         "GSC is the source of truth for Google, not for Yandex. Data lags and can be sampled on large sites. Cross-check with logs and Metrika/Analytics.",
-        "TOP rankings are planned over months of work after prep — the panel only shows progress and problems; it doesn’t switch on a “TOP mode”.",
+        "Prep can take weeks; core ranking growth is planned for 2–6 months of work after prep — the panel only shows progress and problems; it doesn’t switch on a “ranking mode”.",
       ],
       lists: [
         {
           intro: "Rollout checklist:",
           items: [
-            "domain verified;",
-            "sitemap added;",
-            "team with the right permissions;",
-            "error-review playbook;",
+            "domain verified",
+            "sitemap added",
+            "team with the right permissions",
+            "error-review playbook",
             "mirror setup in Yandex Webmaster.",
           ],
         },

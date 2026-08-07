@@ -5,17 +5,17 @@ export const skriptSaytaEn: BlogPost = {
   slug: "skript-sayta",
   title: "Website script: what it is and why you need it",
   date: "2020-07-16",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/skript-sayta/cover-en.webp",
   excerpt:
     "What people call a site script: client and server code, languages, typical jobs, and how to insert snippets without hurting speed and security.",
   lead: [
     "A website script is a program or code fragment that runs by rules: on page open, click, form submit, or on a server schedule. It isn’t “SEO magic” — it’s a way to automate UI and backend behavior.",
-    "Below — how client scripts differ from server ones, where they apply, and what to watch when installing. Counter and widget insert practice is in a separate article.",
+    "We cover how client-side scripts differ from server-side ones, where each applies, and what to watch when installing. Counter and widget install practice is covered in a separate article.",
   ],
   faq: [
     {
-      q: "Are script and program the same?",
+      q: "Are a script and a program the same thing?",
       a: "On the web “script” usually means executable code on the page or server (JS, PHP, etc.). A full app can be many scripts and modules.",
     },
     {
@@ -39,7 +39,7 @@ export const skriptSaytaEn: BlogPost = {
       a: "Indirectly: render blocking, heavy JS, content only after a script. Key text and links should be available without extra magic.",
     },
     {
-      q: "Where to paste a counter?",
+      q: "Where should I paste an analytics counter?",
       a: "See the JavaScript insert article: head/body, Tag Manager, theme fields — without duplicates and stale cache.",
     },
   ],

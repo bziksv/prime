@@ -11,27 +11,27 @@ export const snizhenieTrafikaEn: BlogPost = {
     "How to tell a real organic drop from a broken counter, check seasonality, tech, updates, and penalties — without panic or “it will bounce back tomorrow” promises.",
   lead: [
     "A traffic drop is a signal, not a sentence. First separate an analytics glitch from a real decline, then narrow the source (Yandex / Google / direct) and the cause.",
-    "Below — a working check order. Recovery time depends on the cause: tech fixes faster than a filter’s aftermath or lost demand.",
+    "Here’s a practical check order. Recovery time depends on the cause: tech fixes land faster than recovering from a filter or lost demand.",
   ],
   faq: [
     {
-      q: "Where to start if Metrica is “all red”?",
+      q: "Where should I start if Metrica is “all red”?",
       a: "Verify the counter code, bot filters, and period comparison on one channel. In parallel — Webmaster: crawl, exclusions, security.",
     },
     {
-      q: "Seasonality or penalties?",
+      q: "Is it seasonality or a penalty?",
       a: "Seasonality shows in Wordstat year over year. Penalties/filters — a sharp core collapse plus messages/diagnostics in panels. Don’t mix them up.",
     },
     {
-      q: "Competitors “pumped” links — what then?",
+      q: "What if competitors “pumped” links?",
       a: "Check the link profile in Webmaster tools, reject clear spam with search-engine tools if needed, and strengthen your content and natural links.",
     },
     {
-      q: "Will deleting half the site help?",
+      q: "Will deleting half the site help recover traffic?",
       a: "Radical cuts without a plan often deepen the drop. Find the cause first, then make targeted fixes.",
     },
     {
-      q: "Related to Google’s suspicious traffic notices?",
+      q: "Is this related to Google’s suspicious traffic notices?",
       a: "Sometimes yes, if quality is cut or bots are spun. See the separate article on suspicious traffic messages.",
     },
   ],
@@ -40,7 +40,7 @@ export const snizhenieTrafikaEn: BlogPost = {
       title: "First: real decline or analytics",
       level: 2,
       paras: [
-        "A broken/doubled counter, new goals, an IP filter, or a domain change in the cabinet can fake the picture. Match the site code to the cabinet and compare with Search Console / Webmaster.",
+        "A broken/doubled counter, new goals, an IP filter, or a domain change in the account can fake the picture. Match the site code to the account and compare with Search Console / Webmaster.",
         "In Metrica look at sources separately and compare with the previous period / previous year.",
       ],
       lists: [
@@ -86,7 +86,7 @@ export const snizhenieTrafikaEn: BlogPost = {
         },
         {
           label: "Suspicious Google traffic",
-          href: "/blog/podozritelnyy-trafik-google/",
+          href: "/en/blog/podozritelnyy-trafik-google/",
         },
       ],
     },

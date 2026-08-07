@@ -3,39 +3,39 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for monitoring-pozitsiy — same structure as RU JSON. */
 export const monitoringPozitsiyEn: BlogPost = {
   slug: "monitoring-pozitsiy",
-  title: "Do you need to monitor site rankings in search?",
+  title: "Do I need to monitor site rankings in search?",
   date: "2018-10-30",
-  category: "Internet marketing",
+  category: "SEO",
   cover: "/images/blog/monitoring-pozitsiy/cover-en.webp",
   excerpt:
     "When TOP rankings are a real KPI — and when traffic, conversion, and ROMI matter more: “old SEO” myths, project types, and a full scorecard without TOP-10 date guarantees.",
   lead: [
     "“How much does it cost to get into TOP?” is a common question. Modern SEO is useful pages, tech, measurable KPIs, cluster traffic, and conversion — not buying a slot in the SERP.",
-    "Below — when rank monitoring is truly needed, which project types make TOP critical, and why one “green” position isn’t enough. Site prep and core into TOP are different stages: rankings grow over months by plan (often 2–6) after work starts — not “a week after the contract”.",
+    "When rank monitoring is truly needed, which project types make TOP rankings critical, and why one green rank isn’t enough. Site prep and early setup aren’t the same as holding TOP — that growth is usually planned over 2–6 months.",
   ],
   faq: [
     {
-      q: "Do rankings equal SEO success?",
-      a: "No. Success is leads, sales, ROMI/lead quality. Rankings are a secondary trend signal on the core.",
+      q: "Do rankings equal SEO success by themselves?",
+      a: "No. Success is leads, sales, ROMI (return on marketing investment) / lead quality. Rankings are a secondary trend signal on the core.",
     },
     {
-      q: "Who must monitor rankings?",
+      q: "Who really needs to monitor rankings?",
       a: "Where SERP visibility hits the model directly: classifieds, strong brand vs competitors, SaaS racing for reach, projects with high conversion value and “pick from leaders” behavior.",
     },
     {
-      q: "Can you buy TOP with outdated methods?",
+      q: "Can I buy TOP with outdated methods?",
       a: "A short spike sometimes happens, then often sanctions and a rollback. Cleaning links and content costs more than building properly from the start.",
     },
     {
-      q: "What to watch besides rankings?",
-      a: "Cluster traffic, conversion, ROMI, brand demand, tech and indexation. For news — also reach from aggregators and social.",
+      q: "What else should I watch besides rankings?",
+      a: "Cluster traffic, conversion, ROMI (return on marketing investment), brand demand, tech and indexation. For news — also reach from aggregators and social.",
     },
     {
-      q: "Do you need paid search while SEO grows?",
+      q: "Do I need paid search while SEO grows?",
       a: "Often yes: it covers cash flow and offer tests while organic climbs. Count channels separately.",
     },
     {
-      q: "How often to pull rankings?",
+      q: "How often should I pull rankings?",
       a: "On the commercial core — regularly (week/month), preferably with a mobile cut. Don’t judge from one day and one city.",
     },
   ],
@@ -71,9 +71,9 @@ export const monitoringPozitsiyEn: BlogPost = {
         {
           intro: "Secondary signals (not the main goal):",
           items: [
-            "brand-query dynamics;",
-            "backlink profile quality;",
-            "core share in TOP-10/TOP-3;",
+            "brand-query dynamics",
+            "backlink profile quality",
+            "core share in TOP-10/TOP-3",
             "comparison with niche leaders.",
           ],
         },

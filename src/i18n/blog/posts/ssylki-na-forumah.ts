@@ -15,35 +15,35 @@ export const ssylkiNaForumahEn: BlogPost = {
   ],
   faq: [
     {
-      q: "Do forum links still work?",
-      a: "Pointedly — yes, as mentions and traffic from discussions. As a replacement for a normal link strategy — no.",
+      q: "Do forum links still work for SEO?",
+      a: "In a targeted way — yes, as mentions and traffic from discussions. As a replacement for a normal link strategy — no.",
     },
     {
-      q: "Can you buy packs of forum posts?",
+      q: "Can I buy packs of forum posts?",
       a: "Risky: template spam and dead boards hurt. Better live participation — or skip it.",
     },
     {
-      q: "Do you need nofollow?",
+      q: "Do I need nofollow on forum links?",
       a: "Forums often set nofollow themselves. Value is traffic and brand — not “weight” at any cost.",
     },
     {
-      q: "Where to start?",
-      a: "Pick 2–3 live topical forums, build karma with answers without links, then share a resource where it fits.",
+      q: "Where should I start with forum links?",
+      a: "Pick 2–3 live topical forums, build karma with answers without links, then share a useful page where it fits.",
     },
     {
       q: "How is this different from guest posts?",
       a: "Articles are long pieces on media. A forum is a short reply in a thread. See also free article placement.",
     },
     {
-      q: "Which anchor to use?",
+      q: "Which anchor should I use?",
       a: "Natural and clear to a human: article title, brand, or a neutral link in context. Don’t repeat a commercial keyword in every message.",
     },
     {
-      q: "Should you reply to comments?",
+      q: "Should I reply to comments?",
       a: "Yes, if the question fits. Dialogue shows a specialist behind the account — not a worker who came to drop a URL.",
     },
     {
-      q: "How to measure results?",
+      q: "How do I measure results?",
       a: "Add UTM tags if the board allows, and judge clicks, visit quality, inquiries, and whether posts stay up — not only the count of placed links.",
     },
   ],
@@ -126,7 +126,7 @@ export const ssylkiNaForumahEn: BlogPost = {
       links: [
         {
           label: "Free article placement",
-          href: "/blog/besplatnoe-razmeshchenie-statey/",
+          href: "/en/blog/besplatnoe-razmeshchenie-statey/",
         },
       ],
     },

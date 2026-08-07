@@ -10,36 +10,36 @@ export const cookiesEn: BlogPost = {
   excerpt:
     "What a cookie is, how session differs from persistent and third-party, why sites need analytics and auth, privacy risks, and how to manage consent.",
   lead: [
-    "A cookie is small data a site stores in the browser so it can recognize you on later requests: login session, language, cart, analytics IDs. It’s not a “virus”, but not harmless dust either: cookies build profiles and keep you signed in.",
-    "Below — purpose, types, tracking scenarios, security, and what a site owner should plan for (consent, HTTPS, lifetime). Important: cookies usually don’t store a password in plain text — only tokens/IDs.",
+    "A cookie is small data a site stores in the browser so it can recognize you on later requests: login session, language, cart, analytics IDs. It isn’t a virus, but it isn’t harmless dust either — cookies build profiles and keep you signed in.",
+    "This guide covers purpose, types, tracking scenarios, security, and what a site owner should plan for (consent, HTTPS, lifetime). Important: cookies usually don’t store a password in plain text — only tokens or IDs.",
   ],
   faq: [
     {
       q: "Do cookies store my password?",
-      a: "Proper sites — no. They store a session ID or token. If a service puts the password in a cookie — that’s bad practice and a risk.",
+      a: "Proper sites — no. They store a session ID or token. If a service puts the password in a cookie, that’s bad practice and a risk.",
     },
     {
-      q: "Session vs persistent?",
-      a: "Session cookies live until the browser closes (roughly). Persistent ones last until Expires/Max-Age.",
+      q: "What’s the difference between session and persistent cookies?",
+      a: "Session cookies live until the browser closes (roughly). Persistent ones last until Expires / Max-Age.",
     },
     {
       q: "What is a third-party cookie?",
-      a: "Set by a domain different from the site you opened (often ads/widgets). Browsers keep tightening them.",
+      a: "Set by a domain different from the site you opened (often ads or widgets). Browsers keep tightening them.",
     },
     {
       q: "Why does a site need cookies?",
-      a: "Login, cart, A/B, analytics, personalization, antifraud. Without them many services “forget” the user.",
+      a: "Login, cart, A/B tests, analytics, personalization, antifraud. Without them many services forget the user.",
     },
     {
       q: "Are cookies dangerous?",
-      a: "Risks — session theft (XSS), tampering (without Secure/HttpOnly), tracking. Fixed with engineering hygiene and user habits.",
+      a: "Risks include session theft (XSS), tampering (without Secure/HttpOnly), and tracking. Fixed with engineering hygiene and careful user habits.",
     },
     {
-      q: "Do you need a consent banner?",
-      a: "Depends on jurisdiction and which tags you set. Follow local privacy law (e.g. GDPR/ePrivacy in the EU). Lawyer + strictly necessary cookies.",
+      q: "Do I need a consent banner?",
+      a: "Depends on jurisdiction and which tags you set. Follow local privacy law (for example GDPR/ePrivacy in the EU). Lawyer plus strictly necessary cookies.",
     },
     {
-      q: "How to view cookies?",
+      q: "How can I view cookies?",
       a: "DevTools → Application/Storage → Cookies. Or browser settings: site list and clear.",
     },
     {
@@ -52,15 +52,15 @@ export const cookiesEn: BlogPost = {
       title: "What cookies are for",
       level: 2,
       paras: [
-        "The server (or a script) sends a `Set-Cookie` header; the browser stores a name=value pair and sends it back on later requests to that domain. That’s how a site “recognizes” a session without re-entering login on every page.",
-        "Typical jobs: auth, cart, language/currency, “already saw the banner”, analytics IDs (with consent where required).",
+        "The server (or a script) sends a `Set-Cookie` header; the browser stores a name=value pair and sends it back on later requests to that domain. That’s how a site recognizes a session without re-entering login on every page.",
+        "Typical jobs: auth, cart, language/currency, “already saw the banner,” analytics IDs (with consent where required).",
       ],
       lists: [
         {
           intro: "In short:",
           items: [
             "data in the browser, not a program;",
-            "tied to domain/path;",
+            "tied to domain and path;",
             "have lifetime and security flags;",
             "don’t fully replace a server session.",
           ],
@@ -87,7 +87,7 @@ export const cookiesEn: BlogPost = {
       ],
       links: [
         {
-          label: "Installing Yandex Metrica",
+          label: "Installing Yandex Metrika",
           href: "/en/blog/metrika-ustanovka/",
         },
       ],
@@ -105,7 +105,7 @@ export const cookiesEn: BlogPost = {
           items: [
             "XSS → stolen session cookie;",
             "MITM on HTTP without Secure;",
-            "phishing + session reuse;",
+            "phishing plus session reuse;",
             "extra third parties with broad access.",
           ],
         },
@@ -114,7 +114,7 @@ export const cookiesEn: BlogPost = {
         {
           title: "Common mistake",
           kind: "tip",
-          text: "Writing that cookies “store login and password”. Normal practice is a session token; the server keeps the password (hashed).",
+          text: "Writing that cookies “store login and password.” Normal practice is a session token; the server keeps the password (hashed).",
         },
       ],
       links: [
@@ -129,7 +129,7 @@ export const cookiesEn: BlogPost = {
       level: 2,
       paras: [
         "Cookies can relate to personal data if they identify a user. You need a policy, a processing basis, and a control UI where law and common sense require it.",
-        "Don’t copy someone else’s “Accept all” banner without really blocking optional tags — it only annoys people and doesn’t close the risk.",
+        "Don’t copy someone else’s “Accept all” banner without really blocking optional tags — it only annoys people and doesn’t remove the risk.",
       ],
       lists: [
         {
@@ -156,7 +156,7 @@ export const cookiesEn: BlogPost = {
           items: [
             "inspect cookies on suspicious sites;",
             "log out of accounts on shared devices;",
-            "don’t disable everything on banks/gov services without need;",
+            "don’t disable everything on banks or government services without need;",
             "keep OS and browser updated.",
           ],
         },
@@ -166,12 +166,12 @@ export const cookiesEn: BlogPost = {
       title: "Practice for a webmaster",
       level: 2,
       paras: [
-        "Document the cookie list (name, purpose, lifetime, who sets it). Session cookies — HttpOnly+Secure+SameSite as needed. Don’t inflate lifetime to “10 years” without a reason.",
-        "After shipping a CMP/banner, verify analytics and ads really wait for consent. Check Metrica/GA for data loss.",
+        "Document the cookie list (name, purpose, lifetime, who sets it). Session cookies — HttpOnly + Secure + SameSite as needed. Don’t inflate lifetime to “10 years” without a reason.",
+        "After launching a CMP/banner, verify analytics and ads really wait for consent. Check Metrika/GA for data loss.",
       ],
       lists: [
         {
-          intro: "Release:",
+          intro: "Release checklist:",
           items: [
             "cookie table in the policy;",
             "flags on auth cookies;",
@@ -183,7 +183,7 @@ export const cookiesEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Practice",
+          title: "Practice tip",
           kind: "tip",
           text: "Fewer third-party scripts — fewer cookies, simpler policy, faster site.",
         },

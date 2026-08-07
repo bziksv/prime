@@ -5,21 +5,21 @@ export const akkauntMenedzherEn: BlogPost = {
   slug: "akkaunt-menedzher",
   title: "What an account manager is — and what they actually do",
   date: "2019-05-30",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/akkaunt-menedzher/cover-en.webp",
   excerpt:
-    "An agency account manager: how they differ from sales and a PM, project duties, client communication, upsell, and stress tolerance — without the myth of “easy MacBook work”.",
+    "An agency account manager: how they differ from sales and a PM, project duties, client communication, upsell, and stress tolerance — without the myth of “easy MacBook work.”",
   lead: [
     "An account manager (client success / account lead) is the link between the client and the agency team: goals, deadlines, reports, complaints, and growing the relationship after the first deal. In digital they’re most often hired by web studios, ad and branding agencies, and online schools.",
-    "Below — how the role differs from a sales manager and a project manager, typical project jobs, what piles on “beyond the job description”, and who the profession fits. Salaries and grade names float on the market — check current openings; here it’s the substance of the work.",
+    "Sales closes the first deal; a project manager owns delivery. Account sits in between — loyalty, expectations, money, and growing the account. Salaries and grade names float on the market; here it’s the substance of the work.",
   ],
   faq: [
     {
-      q: "Is account the same as sales manager?",
+      q: "Is an account manager the same as a sales manager?",
       a: "No. Sales more often closes a cold audience and the first deal. Account runs an existing client: loyalty, repeat orders, smooth processes, and growing average ticket.",
     },
     {
-      q: "How is it different from a project manager?",
+      q: "How is an account manager different from a project manager?",
       a: "PM is stronger on deadlines, the team, and delivering scope. Account is about the client relationship, expectations, money, and growing the account. In small agencies the roles often blend.",
     },
     {
@@ -31,11 +31,11 @@ export const akkauntMenedzherEn: BlogPost = {
       a: "Depends on complexity and process maturity. Older overviews cited up to ~20 — burnout risk without playbooks and support. Fewer accounts with depth beat a queue with no control.",
     },
     {
-      q: "The main skill of the job?",
-      a: "Communication and calm under pressure: calls, approvals, complaints, translating client language into team language and back. Without readiness to “live on the phone”, the role is hard.",
+      q: "What’s the main skill of the job?",
+      a: "Communication and calm under pressure: calls, approvals, complaints, translating client language into team language and back. Without readiness to “live on the phone,” the role is hard.",
     },
     {
-      q: "Is upsell mandatory?",
+      q: "Is upsell mandatory for account managers?",
       a: "Often in KPIs: offer adjacent services when they truly help the client’s business. Pushing “sell everything” with no value kills trust — upsell from need, not quota at any cost.",
     },
   ],
@@ -45,7 +45,7 @@ export const akkauntMenedzherEn: BlogPost = {
       level: 2,
       paras: [
         "Digital runs many parallel projects: site, ads, content, analytics. Without someone holding client context and stitching departments, deadlines, expectations, and payments suffer.",
-        "Leaders often call the account “the face of the company”; skeptics reduce the role to “accept work and chase the invoice”. Reality sits in the middle: money control matters, but without client engagement and clear goals the project falls apart.",
+        "Leaders often call the account “the face of the company”; skeptics reduce the role to “accept work and chase the invoice.” Reality sits in the middle: money control matters, but without client engagement and clear goals the project falls apart.",
       ],
       notes: [
         {
@@ -59,7 +59,7 @@ export const akkauntMenedzherEn: BlogPost = {
       title: "Core responsibilities",
       level: 2,
       paras: [
-        "Focus — client engagement in decisions, clear goals, and transparent reports. The account knows where each active project is going, aligns client requirements with team capacity, and handles complaints without a “us vs them” war.",
+        "Focus — client engagement in decisions, clear goals, and transparent reports. The account knows where each active project is going, aligns client requirements with team capacity, and handles complaints without an “us vs them” war.",
         "On the money side: watch payments, don’t allow “forgotten” debt, run meetings, and propose add-on products when they fit.",
       ],
       lists: [
@@ -100,8 +100,8 @@ export const akkauntMenedzherEn: BlogPost = {
           items: [
             "comfortable talking a lot by voice and in writing;",
             "can turn expectations into tasks;",
-            "hold stress and the client’s mood swings;",
-            "willing to learn the substance of services — not only “pass statuses”.",
+            "handle stress and the client’s mood swings;",
+            "willing to learn the substance of services — not only “pass statuses.”",
           ],
         },
       ],

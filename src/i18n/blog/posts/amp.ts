@@ -5,13 +5,13 @@ export const ampEn: BlogPost = {
   slug: "amp",
   title: "Google AMP pages: what they were and whether you need them now",
   date: "2020-03-13",
-  category: "Internet marketing",
+  category: "SEO",
   cover: "/images/blog/amp/cover-en.webp",
   excerpt:
-    "What AMP is: stripped-down HTML for fast mobile SERP delivery, upsides and downsides of Google’s cache, why the format stopped being a must-have, and where to put effort instead — your own responsive site.",
+    "What AMP is: stripped-down HTML for fast mobile SERP delivery, pros and cons of Google’s cache, why the format stopped being a must-have, and where to put effort instead — your own responsive site.",
   lead: [
     "AMP (Accelerated Mobile Pages) is an open format of lightweight pages that Google pushed from 2015: limited HTML/JS, fast paint, and often delivery from the search cache.",
-    "By the mid-2020s AMP is no longer a required mobile SEO layer: the carousel and SERP privileges are gone, and speed is decided by Core Web Vitals on your own site. Below — how the format worked, what the upsides and downsides were, and when it still makes sense. Step-by-step “install a plugin and get TOP” guides are outdated.",
+    "By the mid-2020s AMP is no longer a required mobile SEO layer: the carousel and SERP privileges are gone, and speed is decided by Core Web Vitals on your own site. Step-by-step “install a plugin and get TOP” guides are outdated — prep isn’t rankings, and TOP isn’t a plugin flip.",
   ],
   faq: [
     {
@@ -27,7 +27,7 @@ export const ampEn: BlogPost = {
       a: "The idea is similar (a light mobile copy), ecosystems differ. Turbo in search was also wound down — the bet is on your own site.",
     },
     {
-      q: "Should I urgently delete old /amp URLs?",
+      q: "Should you urgently delete old /amp URLs?",
       a: "Not always. Check that canonical and analytics point to the main version, there’s no index confusion or dead redirects. What matters is main mobile quality.",
     },
     {
@@ -57,15 +57,15 @@ export const ampEn: BlogPost = {
       links: [
         {
           label: "Yandex Turbo pages",
-          href: "/blog/turbo-stranitsy/",
+          href: "/en/blog/turbo-stranitsy/",
         },
       ],
     },
     {
-      title: "Upsides and downsides of the AMP era",
+      title: "Pros and cons of the AMP era",
       level: 2,
       paras: [
-        "Upside — speed on weak mobile networks and a shared “light” template for media. Downsides — poorer UX, harder analytics and conversions, canonical confusion risk, dependence on platform rules and cache.",
+        "The upside was speed on weak mobile networks and a shared “light” template for media. The downsides: poorer UX, harder analytics and conversions, canonical confusion risk, dependence on platform rules and cache.",
         "We don’t reuse old PageSpeed “was 61 — became 87” benchmarks from 2019–2020 cases: tools and metric weights changed. Check current reports on your URLs.",
       ],
       lists: [
@@ -108,17 +108,17 @@ export const ampEn: BlogPost = {
       links: [
         {
           label: "Responsive site",
-          href: "/blog/adaptivnyy-sayt/",
+          href: "/en/blog/adaptivnyy-sayt/",
         },
         {
           label: "Mobile search",
-          href: "/blog/mobilnyy-poisk/",
+          href: "/en/blog/mobilnyy-poisk/",
         },
       ],
     },
   ],
   closing: [
-    "AMP sped up mobile content in the era of slow networks and SERP privileges. Today the bet is a fast own site, not a required second format. If AMP already exists — tidy canonical and metrics; if not — start with responsive.",
+    "AMP sped up mobile content in the era of slow networks and SERP privileges. Today the bet is a fast site of your own, not a required second format. If AMP already exists — tidy canonical and metrics; if not — start with responsive.",
   ],
   related: [
     "turbo-stranitsy",

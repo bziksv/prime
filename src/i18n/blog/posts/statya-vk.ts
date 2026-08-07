@@ -11,7 +11,7 @@ export const statyaVkEn: BlogPost = {
     "How to use the VK articles editor: title, formatting, cover, drafts, stats, and publishing on a wall or in a community.",
   lead: [
     "A VK article is a long-form piece with a title, paragraphs, lists, and a cover — not a single-wall post. It’s better for breakdowns, guides, and expert texts in a community.",
-    "Below — prep in the editor, text and media layout, publishing, and stats. VK menu labels change — rely on the meaning of “Articles” / the editor blocks, not outdated screenshots.",
+    "This guide covers prep in the editor, text and media layout, publishing, and stats. VK menu labels change — rely on the meaning of “Articles” / the editor blocks, not outdated screenshots.",
   ],
   faq: [
     {
@@ -19,12 +19,12 @@ export const statyaVkEn: BlogPost = {
       a: "A post is a short entry with attachments. An article is a separate document with layout, a cover, and easier reading; the wall shows a teaser.",
     },
     {
-      q: "Where to write: community or personal page?",
+      q: "Where should I write: community or personal page?",
       a: "For business — in a community: subscriber reach and public stats. A personal page — for an author blog.",
     },
     {
-      q: "Do you need a cover?",
-      a: "Preferably: it lifts teaser clicks. If you skip it — VK may pick an image from the body. Aim for ~16:9; check the exact size in the editor hints.",
+      q: "Do I need a cover?",
+      a: "Preferably: it lifts teaser clicks. If you skip it, VK may pick an image from the body. Aim for about 16:9; check the exact size in the editor hints.",
     },
     {
       q: "Are drafts saved?",
@@ -32,7 +32,7 @@ export const statyaVkEn: BlogPost = {
     },
     {
       q: "Does an article replace a content plan?",
-      a: "No. It’s a format. Rhythm and topics are separate; see community growth / management materials.",
+      a: "No. It’s a format. Rhythm and topics are separate; see community growth and management materials.",
     },
   ],
   sections: [
@@ -100,7 +100,7 @@ export const statyaVkEn: BlogPost = {
       title: "Publishing on the wall and in a community",
       level: 2,
       paras: [
-        "In the publish menu pick the cover, adjust the URL slug if needed, author byline, and placement (wall / community). After save, the piece appears in the feed with a teaser.",
+        "In the publish menu pick the cover, adjust the URL slug if needed, author byline, and placement (wall / community). After save, the article appears in the feed with a teaser.",
         "Removing from published often leaves a draft copy — you can republish. For engagement, “share” and reader bookmarks help.",
       ],
       lists: [

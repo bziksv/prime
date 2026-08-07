@@ -5,18 +5,18 @@ export const kopiraytingEn: BlogPost = {
   slug: "kopirayting",
   title: "Copywriting: text types, jobs, and how to choose a writer",
   date: "2021-11-30",
-  category: "SEO",
+  category: "Content marketing",
   cover: "/images/blog/kopirayting/cover-en.webp",
   excerpt:
     "What copywriting is: informational and selling texts, LSI, landings, SMM, writer requirements, pay, and tips for clients.",
   lead: [
     "Copywriting is writing for a job: explain, warm up, drive a lead, or help search find the page. It’s not “fill characters” — it’s solving a business goal with words.",
-    "Below — directions, formats, what to check in a contractor, and how to brief. Market rates float — guides, not an agency price list.",
+    "Directions, formats, what to check in a contractor, and how to brief are below. Market rates move — these are guides, not an agency price list.",
   ],
   faq: [
     {
       q: "How is copywriting different from rewriting?",
-      a: "Rewriting retells someone else’s text. Copywriting builds material for a job, audience, and often for semantics — with facts and structure.",
+      a: "Rewriting retells someone else’s text. Copywriting builds material for a job, audience, and often for keywords — with facts and structure.",
     },
     {
       q: "Does every text need SEO?",
@@ -27,7 +27,7 @@ export const kopiraytingEn: BlogPost = {
       a: "Depends on niche, length, research depth, and format (product card vs expert article). Cheap “per 1000 characters” often means no expertise.",
     },
     {
-      q: "What to put in the writer’s brief?",
+      q: "What should I put in the writer’s brief?",
       a: "Goal, audience, offer, required facts, keywords/cluster, length, tone, competitor examples, deadline, and acceptance criteria.",
     },
     {
@@ -89,13 +89,13 @@ export const kopiraytingEn: BlogPost = {
       ],
       notes: [
         {
-          title: "LSI in brief",
-          text: "Search engines look not only at “keyword density”, but meaning, related terms, structure. Write for humans within the topic — not a query list.",
+          title: "LSI (latent semantic indexing) in brief",
+          text: "Search engines look not only at “keyword density,” but meaning, related terms, structure. Write for humans within the topic — not a query list.",
         },
       ],
       links: [
         {
-          label: "Semantic core",
+          label: "Keyword research",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {
@@ -109,7 +109,7 @@ export const kopiraytingEn: BlogPost = {
       level: 2,
       paras: [
         "People pay by volume, by project, by result (rarer), or on an editorial retainer. Cheap copy with no brief almost always costs more in rewrites.",
-        "Search on marketplaces, via referrals, in agencies, and with in-house editors. For the client, niche portfolio beats a “star rating”.",
+        "Search on marketplaces, via referrals, in agencies, and with in-house editors. For the client, a niche portfolio beats a “star rating.”",
       ],
       lists: [
         {
@@ -155,7 +155,7 @@ export const kopiraytingEn: BlogPost = {
             "clear parameters and text goal;",
             "portfolio before paying a large block;",
             "agreed terms and revision count;",
-            "feedback in process, not “rewrite everything on the last day”.",
+            "feedback in process, not “rewrite everything on the last day.”",
           ],
         },
       ],

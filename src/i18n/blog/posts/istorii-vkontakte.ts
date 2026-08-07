@@ -10,8 +10,8 @@ export const istoriiVkontakteEn: BlogPost = {
   excerpt:
     "How to work with VK Stories: why they matter, framing a shot, publishing from phone and from a community, business ideas, and platform limits.",
   lead: [
-    "VKontakte Stories are a short vertical format at the top of the feed: photos and clips live about a day and work well for “here and now”.",
-    "The app UI changes: below — the meaning of the steps and a content frame, not a click-path over old icons. Check current limits and community access in VK help.",
+    "VKontakte Stories are a short vertical format at the top of the feed: photos and clips live about a day and work well for “here and now.”",
+    "The app UI changes: use this guide for the meaning of the steps and a content frame, not a click-path over old icons. Check current limits and community access in VK Help.",
   ],
   faq: [
     {
@@ -27,7 +27,7 @@ export const istoriiVkontakteEn: BlogPost = {
       a: "Usually up to 24 hours; you can delete earlier. Some material can be saved to highlights if the platform allows it.",
     },
     {
-      q: "Any technical guidelines?",
+      q: "Are there technical guidelines for Stories?",
       a: "Vertical around 1080×1920, short clips, moderate file size. Exact VK limits change — check current requirements before a video series.",
     },
     {
@@ -40,7 +40,7 @@ export const istoriiVkontakteEn: BlogPost = {
       title: "Why Stories matter",
       level: 2,
       paras: [
-        "Stories keep contact between “big” posts: remind about the brand, warm people up for a promo, show a live process.",
+        "Stories keep contact between big posts: remind about the brand, warm people up for a promo, show a live process.",
         "The format forgives a draft more than the feed, but the job remains: why should someone watch to the end, and what should they do next.",
       ],
       lists: [
@@ -76,7 +76,7 @@ export const istoriiVkontakteEn: BlogPost = {
       notes: [
         {
           title: "App UI",
-          text: "Entry is usually near the Stories block in the feed or on the profile page (camera / “add”). Icons move — teach the team a meaning checklist, not “tap the pink button”.",
+          text: "Entry is usually near the Stories block in the feed or on the profile page (camera / “add”). Icons move — teach the team a meaning checklist, not “tap the pink button.”",
         },
       ],
     },
@@ -84,7 +84,7 @@ export const istoriiVkontakteEn: BlogPost = {
       title: "Publishing from a phone",
       level: 2,
       paras: [
-        "Open the Stories editor: shoot a photo/short video or upload from the gallery. Add text, stickers, a poll — by meaning, not “every layer at once”.",
+        "Open the Stories editor: shoot a photo/short video or upload from the gallery. Add text, stickers, a poll — with purpose, not every sticker at once.",
         "Before sending, pick the audience (if lists are available) and publish. You can delete earlier than 24 hours via the Story’s own menu.",
       ],
       lists: [
@@ -121,7 +121,7 @@ export const istoriiVkontakteEn: BlogPost = {
       title: "Ideas for business",
       level: 2,
       paras: [
-        "Don’t chase “pretty for Stories’ sake”. A series should lead to an action: message, answer a poll, finish a post, visit the location.",
+        "Don’t chase pretty for Stories’ sake. A series should lead to an action: message, answer a poll, finish a post, visit the location.",
       ],
       lists: [
         {

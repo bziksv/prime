@@ -5,13 +5,13 @@ export const razmeryBanneraEn: BlogPost = {
   slug: "razmery-bannera",
   title: "Banner sizes in pixels: how to check on someone else’s site",
   date: "2021-03-01",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/razmery-bannera/cover-en.webp",
   excerpt:
     "What web banners look like, why sizes are often arbitrary, and how to learn a competitor creative’s width/height in a minute with developer tools.",
   lead: [
     "A banner is an image or interactive block that promotes an offer, section, or partner. Before making “the same as a competitor”, it helps to know the real size in pixels — otherwise the creative breaks layout or bloats page weight.",
-    "Below — banner types, why IAB standards aren’t always followed, and how to pull sizes with DevTools. Clickable images are covered in a neighboring post.",
+    "Banner types, why IAB standards aren’t always followed, and how to pull sizes with DevTools. Clickable images aren’t always “ads,” but formats and weight still matter for sites and campaigns.",
   ],
   faq: [
     {
@@ -27,7 +27,7 @@ export const razmeryBanneraEn: BlogPost = {
       a: "Ad networks and social platforms have their own specs. On regular sites webmasters often use arbitrary formats for the layout.",
     },
     {
-      q: "Static, GIF, and HTML5 — what’s the difference?",
+      q: "What’s the difference between static, GIF, and HTML5 banners?",
       a: "JPEG/PNG are lighter and simpler. GIF is animation but heavy. HTML5/JS is interactive, more load, harder to measure as “one image”.",
     },
     {
@@ -35,7 +35,7 @@ export const razmeryBanneraEn: BlogPost = {
       a: "So the creative fits a similar slot without cropping. Idea and offer should still be yours; don’t copy others’ assets without rights.",
     },
     {
-      q: "How not to kill speed?",
+      q: "How do I avoid killing page speed?",
       a: "Don’t inflate pixels “just in case”: needed display size + compression (WebP/AVIF), width/height in markup, lazy below the fold.",
     },
     {
@@ -55,8 +55,8 @@ export const razmeryBanneraEn: BlogPost = {
         {
           intro: "Types:",
           items: [
-            "static JPEG/PNG/WebP — simpler and lighter;",
-            "animation (GIF or video preview) — clearer, heavier;",
+            "static JPEG/PNG/WebP — simpler and lighter",
+            "animation (GIF or video preview) — clearer, heavier",
             "interactive (HTML/JS) — clicks, forms, motion; harder to maintain.",
           ],
         },
@@ -73,9 +73,9 @@ export const razmeryBanneraEn: BlogPost = {
         {
           intro: "What to watch for your own creative:",
           items: [
-            "slot in the layout (column width / max-width);",
-            "retina: sometimes prepare 2× but serve a compressed file;",
-            "mobile — a separate size or responsive;",
+            "slot in the layout (column width / max-width)",
+            "retina: sometimes prepare 2× but serve a compressed file",
+            "mobile — a separate size or responsive",
             "placement specs if it’s external ads.",
           ],
         },
@@ -97,17 +97,17 @@ export const razmeryBanneraEn: BlogPost = {
         {
           intro: "Short algorithm:",
           items: [
-            "right-click the banner → Inspect;",
-            "in the DOM find the `img` or banner container;",
-            "check width/height in attributes or computed size;",
+            "right-click the banner → Inspect",
+            "in the DOM find the `img` or banner container",
+            "check width/height in attributes or computed size",
             "if unsure, open the image URL and verify the natural file size.",
           ],
         },
         {
           intro: "Nuances:",
           items: [
-            "CSS may shrink the image — display ≠ intrinsic;",
-            "background via `background-image` — look in Styles, not img attributes;",
+            "CSS may shrink the image — display ≠ intrinsic",
+            "background via `background-image` — look in Styles, not img attributes",
             "iframe/ad network — size may sit on the container, not the file.",
           ],
         },

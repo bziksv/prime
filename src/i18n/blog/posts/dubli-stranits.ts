@@ -11,7 +11,7 @@ export const dubliStranitsEn: BlogPost = {
     "What counts as page duplicates, exact vs near-duplicates, where they come from on CMS and stores, what they do in search, and how to find and merge URLs.",
   lead: [
     "Duplicates are when the same or nearly the same meaning is available at different addresses. Search wastes crawl on copies, dilutes signals, and may show a version you don’t consider primary.",
-    "Below — what counts as a duplicate, types, typical site causes, SEO risks, and a practical order: find → choose a canon → merge or close. Closing tools and redirects are sibling articles.",
+    "What counts as a duplicate, the common types and causes, SEO risks, and a practical order: find → choose a canon → merge or remove from the index. Redirects and deindexing tools are covered in sibling articles.",
   ],
   faq: [
     {
@@ -23,7 +23,7 @@ export const dubliStranitsEn: BlogPost = {
       a: "Internal duplicates are your domain’s problem. External copy-paste is another story (uniqueness, complaints). Here it’s about internal URL hygiene.",
     },
     {
-      q: "Redirect or canonical?",
+      q: "Should I use a redirect or a canonical?",
       a: "If the old URL shouldn’t open — 301. If both versions are needed for users but only one in the index — usually `rel=\"canonical\"` plus careful indexing. See the redirects article.",
     },
     {
@@ -35,7 +35,7 @@ export const dubliStranitsEn: BlogPost = {
       a: "As separate indexed URLs — yes, if the bot crawls and indexes them. Usually canonical to the clean URL + parameter settings in webmaster panels.",
     },
     {
-      q: "How fast can you gauge the scale?",
+      q: "How fast can I gauge the scale?",
       a: "A crawler (title/H1/canonical list), “pages in search” export in Webmaster/Search Console, `site:` search for repeated titles. On large catalogs — prioritize by section.",
     },
     {
@@ -43,8 +43,8 @@ export const dubliStranitsEn: BlogPost = {
       a: "More often it’s lost efficiency: crawl budget, cannibalization, weak snippets. Hard sanctions are a separate talk; first remove systemic duplicate causes.",
     },
     {
-      q: "How long to wait after merging?",
-      a: "Recrawl and canon changes in the SERP aren’t instant: days–weeks, longer on big sites. Watch indexing reports — not “TOP tomorrow”.",
+      q: "How long should I wait after merging?",
+      a: "Recrawl and canon changes in the SERP aren’t instant: days–weeks, longer on big sites. Watch indexing reports — not “#1 tomorrow.”",
     },
   ],
   sections: [
@@ -59,9 +59,9 @@ export const dubliStranitsEn: BlogPost = {
         {
           intro: "Signs:",
           items: [
-            "one title/H1 on several URLs;",
-            "the same main copy with different parameters;",
-            "www and non-www / http and https both return 200 without merging;",
+            "one title/H1 on several URLs",
+            "the same main copy with different parameters",
+            "www and non-www / http and https both return 200 without merging",
             "filters and sorts spawn endless combinations in the index.",
           ],
         },
@@ -84,18 +84,18 @@ export const dubliStranitsEn: BlogPost = {
         {
           intro: "Exact examples:",
           items: [
-            "`example.com` and `www.example.com` without 301;",
-            "http and https both in the index;",
-            "URLs with `?utm_…` next to the clean one;",
+            "`example.com` and `www.example.com` without 301",
+            "http and https both in the index",
+            "URLs with `?utm_…` next to the clean one",
             "a copy at `/index.php` and the pretty URL.",
           ],
         },
         {
           intro: "Near-duplicate examples:",
           items: [
-            "sort and pagination as separate “full” documents;",
-            "color+size filter vs color on the same listing;",
-            "a print page with the same text;",
+            "sort and pagination as separate “full” documents",
+            "color+size filter vs color on the same listing",
+            "a print page with the same text",
             "blog tag/category duplicates with the same collections.",
           ],
         },
@@ -118,17 +118,17 @@ export const dubliStranitsEn: BlogPost = {
         {
           intro: "Typical sources:",
           items: [
-            "mirrors and protocols without a single merge;",
-            "GET parameters (sort, filter, tags, session);",
-            "several templates for one entity;",
-            "section copies after a redesign without 301;",
+            "mirrors and protocols without a single merge",
+            "GET parameters (sort, filter, tags, session)",
+            "several templates for one entity",
+            "section copies after a redesign without 301",
             "external links to “dirty” URLs that got indexed.",
           ],
         },
       ],
       notes: [
         {
-          title: "Practice",
+          title: "Practice tip",
           kind: "tip",
           text: "Fix the systemic cause first (canon rule, mirror redirects), or manual URL cleanup never ends.",
         },
@@ -151,9 +151,9 @@ export const dubliStranitsEn: BlogPost = {
         {
           intro: "What you’ll notice:",
           items: [
-            "thousands of URLs in the index for hundreds of useful ones;",
-            "canon flips in panels;",
-            "duplicate titles in the crawl;",
+            "thousands of URLs in the index for hundreds of useful ones",
+            "canon flips in panels",
+            "duplicate titles in the crawl",
             "weak indexing of new sections while filters are fat.",
           ],
         },
@@ -176,10 +176,10 @@ export const dubliStranitsEn: BlogPost = {
         {
           intro: "Mini audit order:",
           items: [
-            "www / https / slash merge;",
-            "parameter sample (?sort, ?utm, session);",
-            "catalog pagination and filters;",
-            "repeated title/H1;",
+            "www / https / slash merge",
+            "parameter sample (?sort, ?utm, session)",
+            "catalog pagination and filters",
+            "repeated title/H1",
             "subdomains and staging in the index.",
           ],
         },
@@ -202,10 +202,10 @@ export const dubliStranitsEn: BlogPost = {
         {
           intro: "Merge tools:",
           items: [
-            "301 between mirrors and outdated paths;",
-            "`rel=\"canonical\"` to the preferred document;",
-            "meta robots / X-Robots-Tag for utility and some parametric URLs;",
-            "URL parameter settings in webmaster panels;",
+            "301 between mirrors and outdated paths",
+            "`rel=\"canonical\"` to the preferred document",
+            "meta robots / X-Robots-Tag for utility and some parametric URLs",
+            "URL parameter settings in webmaster panels",
             "CMS template fixes so new duplicates don’t spawn.",
           ],
         },
@@ -223,7 +223,7 @@ export const dubliStranitsEn: BlogPost = {
           href: "/en/blog/redirekt/",
         },
         {
-          label: "Closing from indexing",
+          label: "Deindexing / noindex",
           href: "/en/blog/zakrytie-ot-indeksatsii/",
         },
         {

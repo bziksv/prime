@@ -5,33 +5,33 @@ export const novogodnyayaRasprodazhaEn: BlogPost = {
   slug: "novogodnyaya-rasprodazha",
   title: "New Year sale campaigns in Yandex Direct and Google Ads",
   date: "2019-01-10",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/novogodnyaya-rasprodazha/cover-en.webp",
   excerpt:
     "How to prep paid search for a New Year sale: demand and forecast, buyer types, creatives, separate campaigns, and what to do after the holidays — without blindly copying 2017 US stats.",
   lead: [
-    "The New Year season in paid search isn’t only “−30% in December”. You need a demand forecast, different messages for early and late buyers, separate creatives, and a careful exit after the holidays.",
-    "Below — a working frame for Yandex Direct and Google Ads. NRF/Trends figures from old reviews are order-of-magnitude examples, not law for your niche. Peak-season retargeting is in a separate piece.",
+    "The New Year season in paid search isn’t only “−30% in December.” You need a demand forecast, different messages for early and late buyers, separate creatives, and a careful exit after the holidays.",
+    "Below is a working frame for Yandex Direct and Google Ads. NRF/Trends figures from old reviews are rough examples of curve shape — not law for your niche.",
   ],
   faq: [
     {
-      q: "When to start gift ads?",
+      q: "When should you start gift ads?",
       a: "Check your past years and Wordstat/Trends for the niche. For many, demand rises weeks before the peak — not only on Dec 31.",
     },
     {
-      q: "A separate campaign for the sale?",
+      q: "Should you run a separate campaign for the sale?",
       a: "Yes, it’s cleaner: own ads, negatives, budget, and end date. Don’t mix the main campaign with a seasonal offer.",
     },
     {
-      q: "Is retargeting mandatory?",
+      q: "Is retargeting mandatory for a holiday sale?",
       a: "It helps a lot at peak, but doesn’t replace search and shopping campaigns. Holiday retargeting tactics are covered separately.",
     },
     {
-      q: "What after the holidays?",
+      q: "What should you do after the holidays?",
       a: "Change creatives, lower bids when competition drops, communicate working hours, and turn off sale ads on schedule.",
     },
     {
-      q: "Is sales growth guaranteed?",
+      q: "Is sales growth guaranteed with holiday ads?",
       a: "No. Paid search amplifies demand and offer; without stock, logistics, and a sale landing, budget burns.",
     },
   ],
@@ -47,9 +47,9 @@ export const novogodnyayaRasprodazhaEn: BlogPost = {
         {
           intro: "Forecast minimum:",
           items: [
-            "last year’s season in Direct/Ads and Metrika;",
-            "top gift categories and queries;",
-            "warehouse capacity and delivery SLAs;",
+            "last year’s season in Direct/Ads and Metrika",
+            "top gift categories and queries",
+            "warehouse capacity and delivery SLAs",
             "budget cap for peak days.",
           ],
         },
@@ -72,9 +72,9 @@ export const novogodnyayaRasprodazhaEn: BlogPost = {
         {
           intro: "Practical move:",
           items: [
-            "separate groups/campaigns by season stage;",
-            "ad schedules for peaks;",
-            "“for myself” vs “as a gift” — different creatives;",
+            "separate groups/campaigns by season stage",
+            "ad schedules for peaks",
+            "“for myself” vs “as a gift” — different creatives",
             "don’t promise delivery your warehouse can’t meet.",
           ],
         },
@@ -103,16 +103,16 @@ export const novogodnyayaRasprodazhaEn: BlogPost = {
       level: 2,
       paras: [
         "Move the sale into a separate campaign with an end date. Pause or narrow the main line so budget doesn’t leak into ordinary ads without the seasonal offer.",
-        "Google Ads often has rules/schedules for auto-stop; in Direct plan the date manually or via a separate timed campaign — check current cabinet options. Peak bids are usually higher: set CPA expectations in advance.",
+        "Google Ads often has rules/schedules for auto-stop; in Direct plan the date manually or via a separate timed campaign — check current account options. Peak bids are usually higher: set CPA expectations in advance.",
       ],
       lists: [
         {
           intro: "Launch checklist:",
           items: [
-            "gift/sale semantics + negatives;",
-            "separate seasonal budget;",
-            "UTM and goals in analytics;",
-            "warm retargeting;",
+            "gift/sale semantics + negatives",
+            "separate seasonal budget",
+            "UTM and goals in analytics",
+            "warm retargeting",
             "alerts on stock and delivery SLAs.",
           ],
         },

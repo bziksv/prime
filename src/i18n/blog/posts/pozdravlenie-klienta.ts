@@ -5,17 +5,17 @@ export const pozdravlenieKlientaEn: BlogPost = {
   slug: "pozdravlenie-klienta",
   title: "How to wish a client happy birthday: email, SMS, and B2B",
   date: "2020-06-29",
-  category: "E-mail marketing",
+  category: "Email marketing",
   cover: "/images/blog/pozdravlenie-klienta/cover-en.webp",
   excerpt:
     "How to write client birthday greetings: tone, personalization, email and SMS templates, a manager’s personal note, and B2B — without pushy ads.",
   lead: [
     "A client’s birthday is a chance to stay in touch without a hard sell. Template “Dear client!” lines and generator poetry annoy more often than they build loyalty.",
-    "Below — four working scenarios: a company email, a manager’s personal message, a short SMS, and a partner-company greeting. Focus on tone and personalization, not a checkbox discount.",
+    "We walk through four working scenarios: a company email, a manager’s personal message, a short SMS, and a partner-company greeting. Focus on tone and personalization, not a checkbox discount.",
   ],
   faq: [
     {
-      q: "Do you need a discount in every greeting?",
+      q: "Do I need a discount in every greeting?",
       a: "No. Sometimes a warm text is enough. A promo code fits when it doesn’t drown the greeting or read like spam.",
     },
     {
@@ -23,23 +23,23 @@ export const pozdravlenieKlientaEn: BlogPost = {
       a: "Yes if the data is correct. A wrong name is worse than a generic greeting. Check the CRM before an auto-send.",
     },
     {
-      q: "When should you send?",
+      q: "When should I send a greeting?",
       a: "On the birthday in the client’s convenient time zone, preferably morning. Being a week late kills the point.",
     },
     {
-      q: "Email or SMS?",
+      q: "Should I use email or SMS?",
       a: "Email for longer copy. SMS/messenger for short notes if the client already talks to you there and you have message consent.",
     },
     {
-      q: "Can you mass-send the same text?",
+      q: "Can I mass-send the same text?",
       a: "Technically yes; by effect — weak. Build blocks (intro / wish / closing) so combinations don’t repeat.",
     },
     {
-      q: "What about personal data?",
+      q: "What about personal data in greetings?",
       a: "A birth date is personal data. Store and use it under consent and company policy; don’t buy “birthday databases”.",
     },
     {
-      q: "Is a poetry generator OK?",
+      q: "Is a poetry generator OK for business greetings?",
       a: "For business mail usually no: it sounds fake. Simple living language works better.",
     },
   ],
@@ -55,9 +55,9 @@ export const pozdravlenieKlientaEn: BlogPost = {
         {
           intro: "Before an auto-send check:",
           items: [
-            "consent and a current contact exist;",
-            "name and date are correct;",
-            "tone fits the niche (B2B ≠ kids’ store);",
+            "consent and a current contact exist",
+            "name and date are correct",
+            "tone fits the niche (B2B ≠ kids’ store)",
             "email has an unsubscribe path.",
           ],
         },
@@ -74,9 +74,9 @@ export const pozdravlenieKlientaEn: BlogPost = {
         {
           intro: "Email structure:",
           items: [
-            "name and greeting in the first line;",
-            "1–2 warm, on-point wishes (success, rest, team);",
-            "a short closing from the team / headcount;",
+            "name and greeting in the first line",
+            "1–2 warm, on-point wishes (success, rest, team)",
+            "a short closing from the team / headcount",
             "optionally — a soft offer without pressure.",
           ],
         },
@@ -100,9 +100,9 @@ export const pozdravlenieKlientaEn: BlogPost = {
         {
           intro: "What to add in a personal letter:",
           items: [
-            "a concrete thank-you (not “for cooperation in general”);",
-            "a project or conversation detail;",
-            "a wish without bureaucratic fluff;",
+            "a concrete thank-you (not “for cooperation in general”)",
+            "a project or conversation detail",
+            "a wish without bureaucratic fluff",
             "sender name and role.",
           ],
         },
@@ -119,9 +119,9 @@ export const pozdravlenieKlientaEn: BlogPost = {
         {
           intro: "Better not to:",
           items: [
-            "poetry and generator rhymes;",
-            "a wall of wishes for every life case;",
-            "an aggressive discount with no context;",
+            "poetry and generator rhymes",
+            "a wall of wishes for every life case",
+            "an aggressive discount with no context",
             "sending without SMS consent.",
           ],
         },
@@ -138,9 +138,9 @@ export const pozdravlenieKlientaEn: BlogPost = {
         {
           intro: "In a B2B letter these work well:",
           items: [
-            "name (and patronymic if that’s the local norm);",
-            "a fact about their business (not invented);",
-            "thanks for shared projects;",
+            "name (and patronymic if that’s the local norm)",
+            "a fact about their business (not invented)",
+            "thanks for shared projects",
             "a development wish without lectures.",
           ],
         },
@@ -157,17 +157,17 @@ export const pozdravlenieKlientaEn: BlogPost = {
         {
           intro: "Mini process:",
           items: [
-            "birth-date field in CRM;",
-            "consent for the channel;",
-            "trigger N hours before the date;",
-            "A/B or template rotation;",
+            "birth-date field in CRM",
+            "consent for the channel",
+            "trigger N hours before the date",
+            "A/B or template rotation",
             "report: open/click without pushing a “sell on birthday” KPI.",
           ],
         },
       ],
       links: [
         {
-          label: "Client report",
+          label: "Client reporting",
           href: "/en/blog/otchet-klientu/",
         },
       ],

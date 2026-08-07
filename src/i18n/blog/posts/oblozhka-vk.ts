@@ -11,15 +11,15 @@ export const oblozhkaVkEn: BlogPost = {
     "How to design a VK public or group cover: meaning and offer, safe zone, image rights, Canva/Figma, and upload in settings — without outdated pixel grids.",
   lead: [
     "A VK community cover is the first thing a guest sees next to the name and avatar. It decides whether they stay to read the wall or leave in a second.",
-    "Below — what to put in the mockup, how to handle cropping on different screens, and how to upload the file. Exact sizes and header widgets change; check the platform Help, not numbers from 2021 guides.",
+    "Put one clear offer in the safe zone, respect image rights, and upload via community settings. Exact sizes and header widgets change — check current VK Help.",
   ],
   faq: [
     {
-      q: "Does a cover raise reach?",
+      q: "Does a cover raise VK reach?",
       a: "Indirectly: it clarifies brand and trust. Growth comes from content, replies, and ads when needed — not from one image alone.",
     },
     {
-      q: "What size should I prepare?",
+      q: "What size should you prepare for the cover?",
       a: "VK’s guide is a wide community header banner; pixel recommendations have changed. Take current numbers from VK Help and leave margins at the edges.",
     },
     {
@@ -27,7 +27,7 @@ export const oblozhkaVkEn: BlogPost = {
       a: "A short offer or niche — yes. Tiny prices, address, and ten promos don’t read on mobile.",
     },
     {
-      q: "Can I use a random photo from search?",
+      q: "Can you use a random photo from search?",
       a: "Only with your own rights or a license. A random SERP frame risks complaints and claims.",
     },
     {
@@ -43,8 +43,8 @@ export const oblozhkaVkEn: BlogPost = {
       a: "When positioning, season, or a major promo changes. Weekly swaps without a reason break recognition.",
     },
     {
-      q: "Where to build the mockup?",
-      a: "Figma, Canva, Photoshop, and peers with a set size and safe zone. Keep the source file for edits.",
+      q: "Where should you build the cover mockup?",
+      a: "Figma, Canva, Photoshop, and similar tools with a set size and safe zone. Keep the source file for edits.",
     },
   ],
   sections: [
@@ -60,7 +60,7 @@ export const oblozhkaVkEn: BlogPost = {
       links: [
         {
           label: "VK communities: formats",
-          href: "/blog/soobshhestva-vk/",
+          href: "/en/blog/soobshhestva-vk/",
         },
         {
           label: "Growing a VK group",
@@ -80,9 +80,9 @@ export const oblozhkaVkEn: BlogPost = {
         {
           intro: "Frame mini-rules:",
           items: [
-            "important content in the center, not at the very edges;",
-            "enough contrast between text and background;",
-            "no more than one main accent;",
+            "important content in the center, not at the very edges",
+            "enough contrast between text and background",
+            "no more than one main accent",
             "source kept in an editable file.",
           ],
         },
@@ -106,8 +106,8 @@ export const oblozhkaVkEn: BlogPost = {
         {
           intro: "Usually enough:",
           items: [
-            "niche or offer in 3–7 words;",
-            "logo or brand face;",
+            "niche or offer in 3–7 words",
+            "logo or brand face",
             "one visual anchor (product / place / style).",
           ],
         },
@@ -135,7 +135,7 @@ export const oblozhkaVkEn: BlogPost = {
       links: [
         {
           label: "Canva for marketing",
-          href: "/blog/canva/",
+          href: "/en/blog/canva/",
         },
       ],
     },
@@ -151,10 +151,10 @@ export const oblozhkaVkEn: BlogPost = {
         {
           intro: "Checklist before publish:",
           items: [
-            "size matched to VK Help;",
-            "text reads on mobile;",
-            "photo rights are covered;",
-            "avatar in the same style;",
+            "size matched to VK Help",
+            "text reads on mobile",
+            "photo rights are covered",
+            "avatar in the same style",
             "community description doesn’t contradict the banner offer.",
           ],
         },
@@ -162,12 +162,12 @@ export const oblozhkaVkEn: BlogPost = {
       links: [
         {
           label: "VK community greeting",
-          href: "/blog/privetstvie-vk/",
+          href: "/en/blog/privetstvie-vk/",
         },
       ],
     },
     {
-      title: "What to remember",
+      title: "Takeaways",
       level: 2,
       paras: [
         "The cover is a niche and offer calling card — not a dump of contacts.",

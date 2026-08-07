@@ -5,13 +5,13 @@ export const glavnayaInternetMagazinaEn: BlogPost = {
   slug: "glavnaya-internet-magazina",
   title: "How to design an online store homepage",
   date: "2019-10-23",
-  category: "Internet marketing",
+  category: "E-commerce",
   cover: "/images/blog/glavnaya-internet-magazina/cover-en.webp",
   excerpt:
     "Online store homepage structure: header, menu, showcase and slider, short copy, trust, footer — without feature overload and without the company story on the whole first screen.",
   lead: [
     "An online store homepage isn’t a showcase for beauty’s sake — it’s an entrance: help find a product, remove doubts, and get people to the catalog or cart. Banner overload and “everything at once” confuse more often than they sell.",
-    "Below — working blocks: header, menu, visual showcase, copy, trust, and footer. Category and product-card SEO live in separate pieces; here the focus is first-page composition.",
+    "The working blocks: header, menu, visual showcase, copy, trust, and footer. Category and product-card SEO live in separate pieces; here the focus is first-page composition.",
   ],
   faq: [
     {
@@ -19,11 +19,11 @@ export const glavnayaInternetMagazinaEn: BlogPost = {
       a: "It should lead to a purchase: show assortment, promos, and a path into the catalog. A long “brand story” belongs on About — not the whole first screen.",
     },
     {
-      q: "How many products on the showcase?",
+      q: "How many products should be on the showcase?",
       a: "A cue is up to ~10 items/cards in the first block: hits, promos, new arrivals, unique SKUs. Then categories and the catalog.",
     },
     {
-      q: "Do you need an auto-slider?",
+      q: "Do I need an auto-slider?",
       a: "Yes if slides are readable: ~3–5 sec per frame, pause on hover, no flashing. Fewer slides beat a carousel of ten banners.",
     },
     {
@@ -31,7 +31,7 @@ export const glavnayaInternetMagazinaEn: BlogPost = {
       a: "Logo, search, cart, phone/messenger, key sections. Hours and delivery timing — if that’s a critical niche question.",
     },
     {
-      q: "Duplicate contacts in the footer?",
+      q: "Should I duplicate contacts in the footer?",
       a: "Yes, but don’t copy the header one-to-one: footer is navigation, legal, delivery/payment, a form or CTA for people still thinking.",
     },
     {
@@ -51,11 +51,11 @@ export const glavnayaInternetMagazinaEn: BlogPost = {
         {
           intro: "Structural elements:",
           items: [
-            "header with logo and contacts;",
-            "catalog menu and service sections;",
-            "showcase/slider;",
-            "short text block;",
-            "trust block;",
+            "header with logo and contacts",
+            "catalog menu and service sections",
+            "showcase/slider",
+            "short text block",
+            "trust block",
             "footer with navigation and CTA.",
           ],
         },
@@ -96,9 +96,9 @@ export const glavnayaInternetMagazinaEn: BlogPost = {
         {
           intro: "What to put on the showcase:",
           items: [
-            "hit categories;",
-            "promo items;",
-            "new arrivals;",
+            "hit categories",
+            "promo items",
+            "new arrivals",
             "unique store offers.",
           ],
         },

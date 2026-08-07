@@ -11,23 +11,23 @@ export const seoOshibkiEn: BlogPost = {
     "Typical misses in title and description, headings, links, markup, and HTTPS — how to find them and what to fix first, without a “TOP in a week” cult.",
   lead: [
     "Most SEO mistakes on real sites aren’t an “algorithm penalty” — they’re everyday tech and snippets: truncated titles, duplicate meta, broken links, H1 confusion, mixed content after moving to HTTPS.",
-    "Below — common risk zones from audits and a practical fix order. Fixing errors is part of site prep; core ranking buildup planned over months after work starts.",
+    "We cover common risk zones from audits and a practical fix order. Cleaning errors is part of site prep; building rankings for the core is planned over months after work starts.",
   ],
   faq: [
     {
-      q: "Where to start an error audit?",
+      q: "Where should I start an error audit?",
       a: "What’s critical for crawl and click: status codes, indexing, HTTPS/mixed content, unique title/H1, broken links. Then markup and cosmetics.",
     },
     {
       q: "Are meta keywords still needed?",
-      a: "For Yandex and Google almost no influence like before. Don’t spend resource on keyword lists; better title, description, and content.",
+      a: "For Yandex and Google almost no influence like before. Don’t spend time on keyword lists; better title, description, and content.",
     },
     {
-      q: "Is a long title a disaster?",
+      q: "Is a long title a disaster for SEO?",
       a: "Not always a sanction, but the snippet will truncate. Keep meaning at the start; length guides are in the separate title-length article.",
     },
     {
-      q: "Is title = description bad?",
+      q: "Is it bad if title equals description?",
       a: "Yes: you lose the “headline vs teaser” difference and weaken CTR. Make unique pairs per URL.",
     },
     {
@@ -35,15 +35,15 @@ export const seoOshibkiEn: BlogPost = {
       a: "OG/Twitter — for social sharing. Schema — for fitting types (organization, product, FAQ). Absence doesn’t “kill” SEO, but you miss snippet opportunities.",
     },
     {
-      q: "Must H1 match title?",
+      q: "Does the H1 have to match the title?",
       a: "Not word-for-word. One clear H1 on the page; title is for the SERP. Matching every character site-wide isn’t the goal.",
     },
     {
-      q: "Which audit tool?",
+      q: "Which audit tool should I use?",
       a: "Webmaster/GSC + a crawler (Screaming Frog and peers) + selective manual checks. Paid “site audit” modules are optional.",
     },
     {
-      q: "Fixed the errors — when TOP?",
+      q: "I fixed the errors — when will I hit the TOP?",
       a: "Prep and cleanup — a guide of weeks–month. Core TOP buildup planned 2–6 months after systematic work starts.",
     },
   ],
@@ -218,14 +218,14 @@ export const seoOshibkiEn: BlogPost = {
       level: 2,
       paras: [
         "Regularly: Webmaster and Search Console, a crawl after major releases, selective snippet review on money queries. One-off “audits for the checkbox” without a fix backlog are useless.",
-        "Fixing tech is the base. Next come semantics, content, and links. It’s a mistake to think a service’s green checklist equals TOP for the core.",
+        "Fixing tech is the base. Next come keywords, content, and links. It’s a mistake to think a service’s green checklist equals TOP for the core.",
       ],
       lists: [
         {
           intro: "Rhythm:",
           items: [
             "after deploy — a smoke crawl;",
-            "once a month — error review in cabinets;",
+            "once a month — error review in accounts;",
             "a backlog prioritized by business impact;",
             "don’t confuse cleanup with promising ranks “next week”.",
           ],

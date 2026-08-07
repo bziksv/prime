@@ -11,7 +11,7 @@ export const kloakingEn: BlogPost = {
     "Cloaking is showing different content to bots and people. Why it’s used, what it costs you, and how to check your site isn’t masked (including after a breach).",
   lead: [
     "Cloaking (from “cloak” — to mask) is when a search bot gets one page version and a visitor gets another. Classic black-hat SEO: the bot sees keyword-stuffed copy for the SERP; the person sees an offer, ads, or a totally different site.",
-    "Below — what that means in practice, why search engines punish such schemes, and how to make sure your resource isn’t swapped (cloaking often appears after a hack). This is a risk and diagnostics overview — not a guide to gaming the SERP.",
+    "In practice search engines punish cloaking — and you need to make sure your site isn’t swapped (it often appears after a hack). This is a risk and diagnostics overview — not a guide to gaming the SERP.",
   ],
   faq: [
     {
@@ -40,10 +40,10 @@ export const kloakingEn: BlogPost = {
     },
     {
       q: "Can you do it “just a little” for the snippet?",
-      a: "There’s no durable “just a little” scheme. An honest snippet = title/description and content the human also sees.",
+      a: "There’s no durable “just a little” tactic. An honest snippet = title/description and content the human also sees.",
     },
     {
-      q: "What to do instead of cloaking?",
+      q: "What should you do instead of cloaking?",
       a: "One clear document for the intent: tech, content, structure. Prep and systematic work; core ranks build planned over months — not by masking.",
     },
   ],
@@ -57,7 +57,7 @@ export const kloakingEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Scheme signs:",
+          intro: "Cloaking signs:",
           items: [
             "different page meaning for bot and human;",
             "hiding spam / doorways from visitors;",
@@ -86,7 +86,7 @@ export const kloakingEn: BlogPost = {
           intro: "Business risks:",
           items: [
             "loss of organic and brand traffic;",
-            "ad cabinets and partner programs also cut deception;",
+            "ad dashboards and partner programs also cut deception;",
             "reputation hit if users complain;",
             "cleanup costs after a breach.",
           ],

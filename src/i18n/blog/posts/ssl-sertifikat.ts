@@ -5,18 +5,18 @@ export const sslSertifikatEn: BlogPost = {
   slug: "ssl-sertifikat",
   title: "SSL certificate: why you need it, types, and how to choose",
   date: "2021-11-15",
-  category: "SEO",
+  category: "Hosting",
   cover: "/images/blog/ssl-sertifikat/cover-en.webp",
   excerpt:
     "What an SSL/TLS certificate is, how HTTPS differs from HTTP, certificate types (DV, OV, EV, wildcard), Let’s Encrypt, and what to look at when choosing.",
   lead: [
-    "An SSL certificate (today more often called TLS) lets the browser open an encrypted HTTPS connection. Without it forms, dashboards, and payments look unsafe — and search engines factor that in.",
-    "Below — what HTTPS means, certificate types, myths about “invulnerability”, and a practical choice. Install paths depend on hosting — follow the panel and docs, not 2019 screenshots.",
+    "An SSL certificate (today more often called TLS) lets the browser open an encrypted HTTPS connection. Without it, forms, logins, and payments look unsafe — and search engines factor that in.",
+    "HTTPS is the baseline for trust and SEO hygiene. Below: what the protocol means, certificate types, myths about “invulnerability,” and a practical way to choose. Install steps depend on hosting — follow the control panel and docs, not 2019 screenshots.",
   ],
   faq: [
     {
       q: "Are SSL and TLS the same?",
-      a: "In everyday speech “SSL” stuck. In practice sites use TLS; the certificate is still the HTTPS class.",
+      a: "In everyday speech “SSL” stuck. In practice sites use TLS; the certificate is still in the HTTPS class.",
     },
     {
       q: "Is free Let’s Encrypt enough?",
@@ -27,12 +27,12 @@ export const sslSertifikatEn: BlogPost = {
       a: "No. It encrypts the client↔server channel. CMS holes, weak passwords, and XSS aren’t fixed by HTTPS alone.",
     },
     {
-      q: "Does it affect SEO?",
+      q: "Does HTTPS affect SEO?",
       a: "HTTPS is the expected norm. HTTP is often marked insecure; mixed content and broken redirects hurt both SEO and UX.",
     },
     {
-      q: "Do you need EV with a “green bar”?",
-      a: "Extended organization validation still exists, but the bright green address bar is almost gone in modern browsers. For many jobs DV + correct HTTPS is enough.",
+      q: "Do I need an EV certificate with a “green bar”?",
+      a: "Extended organization validation still exists, but the bright green address bar is almost gone in modern browsers. For many jobs DV plus correct HTTPS is enough.",
     },
   ],
   sections: [
@@ -41,7 +41,7 @@ export const sslSertifikatEn: BlogPost = {
       level: 2,
       paras: [
         "The certificate confirms you’re talking to the right server and enables traffic encryption. Logins, forms, and payment data shouldn’t travel over open HTTP.",
-        "In the address bar — a lock / secure connection indicator. Browser warnings cut conversion harder than an “ugly design”.",
+        "In the address bar you’ll see a lock or secure-connection indicator. Browser warnings cut conversion harder than an “ugly design.”",
       ],
       lists: [],
     },
@@ -50,7 +50,7 @@ export const sslSertifikatEn: BlogPost = {
       level: 2,
       paras: [
         "HTTP sends data without channel encryption. HTTPS is HTTP over TLS: traffic between browser and server is protected from simple network interception.",
-        "After moving to HTTPS set http→https redirect, canonicals, and consistent www/non-www — otherwise you’ll get duplicates and mixed content.",
+        "After moving to HTTPS, set an http→https redirect, canonicals, and consistent www/non-www — otherwise you’ll get duplicates and mixed content.",
       ],
       lists: [],
       links: [
@@ -96,7 +96,7 @@ export const sslSertifikatEn: BlogPost = {
       notes: [
         {
           title: "Practice",
-          text: "A brochure site and blog usually need DV (Let’s Encrypt or a hosting-panel analogue). A store needs correct HTTPS sitewide + secure checkout via the payment provider.",
+          text: "A brochure site and blog usually need DV (Let’s Encrypt or a hosting-panel analogue). A store needs correct HTTPS sitewide plus secure checkout via the payment provider.",
         },
       ],
     },
@@ -105,15 +105,15 @@ export const sslSertifikatEn: BlogPost = {
       level: 2,
       paras: [
         "A certificate doesn’t patch plugin holes and doesn’t replace backups, updates, and access rights. It’s about the channel and server identity.",
-        "Mixing HTTP and HTTPS (images/scripts on http on an https page) triggers warnings and breaks trust — close mixed content.",
+        "Mixing HTTP and HTTPS (images or scripts on http on an https page) triggers warnings and breaks trust — fix mixed content.",
       ],
       lists: [
         {
           intro: "Who needs HTTPS by design:",
           items: [
             "stores and payments;",
-            "personal cabinets and forms with personal data;",
-            "any site with login;",
+            "logins and forms with personal data;",
+            "any site with an account;",
             "in practice — almost any public project today.",
           ],
         },
@@ -123,7 +123,7 @@ export const sslSertifikatEn: BlogPost = {
       title: "How to choose and where to get it",
       level: 2,
       paras: [
-        "Criteria: site type, whether you need subdomains, owner (person/company), auto-renew convenience.",
+        "Criteria: site type, whether you need subdomains, owner (person or company), and auto-renew convenience.",
         "Free Let’s Encrypt and hosting-panel analogues cover DV for most. Paid certificates are for OV/EV, CA insurance, special client requirements, or a wildcard from a specific issuer.",
       ],
       lists: [

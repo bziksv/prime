@@ -5,13 +5,13 @@ export const infopovodEn: BlogPost = {
   slug: "infopovod",
   title: "News hook: what it is and how to use it in marketing",
   date: "2020-03-12",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/infopovod/cover-en.webp",
   excerpt:
     "What a news hook is: planned and unplanned, newsjacking, research, collaborations, anniversaries, and contests — how to create hooks without empty hype.",
   lead: [
     "A news hook is an event or fact the audience cares about right now — and around which you can build a story, post, or campaign. For media it’s feed fuel; for a brand — a way into the conversation without a direct “buy.”",
-    "Below — types of hooks, workable formats, and a launch mechanism. Hype for hype’s sake and scandal with reputation risk don’t count as strategy.",
+    "Below: types of hooks, workable formats, and a launch flow. Hype for hype’s sake and scandal with reputation risk don’t count as strategy.",
   ],
   faq: [
     {
@@ -35,8 +35,8 @@ export const infopovodEn: BlogPost = {
       a: "As a format — yes, if rules are fair and the prize ties to the product. An empty “iPhone giveaway” with no niche link converts weakly into loyalty.",
     },
     {
-      q: "How long until results?",
-      a: "Reach can be fast; sales and awareness accumulate. One spike doesn’t replace systematic marketing and SEO.",
+      q: "How long until you see results?",
+      a: "Reach can be fast; sales and awareness accumulate. One spike doesn’t replace systematic marketing and SEO — ranking growth is planned for 2–6 months of work after prep, not one newsjack.",
     },
     {
       q: "Is this tied to free advertising?",
@@ -55,9 +55,9 @@ export const infopovodEn: BlogPost = {
         {
           intro: "A news hook helps you:",
           items: [
-            "earn publications and shares;",
-            "explain a product launch;",
-            "strengthen expertise;",
+            "earn publications and shares",
+            "explain a product launch",
+            "strengthen expertise",
             "grow a list via a contest/event.",
           ],
         },
@@ -74,9 +74,9 @@ export const infopovodEn: BlogPost = {
         {
           intro: "Who usually “makes” a planned hook:",
           items: [
-            "marketing and PR;",
-            "founders as speakers;",
-            "collaboration partners;",
+            "marketing and PR",
+            "founders as speakers",
+            "collaboration partners",
             "the industry via associations and rankings.",
           ],
         },
@@ -109,10 +109,10 @@ export const infopovodEn: BlogPost = {
         {
           intro: "Workable formats:",
           items: [
-            "industry survey / mini-research;",
-            "a joint launch with a partner;",
-            "anniversary and year-in-review;",
-            "tour / open day;",
+            "industry survey / mini-research",
+            "a joint launch with a partner",
+            "anniversary and year-in-review",
+            "tour / open day",
             "interview with an expert or client case.",
           ],
         },
@@ -141,17 +141,17 @@ export const infopovodEn: BlogPost = {
       title: "Mechanism: from idea to wave",
       level: 2,
       paras: [
-        "The scheme is simple: idea → check audience interest → packaging (copy, visual, speaker) → channels (site, email, media, partners) → measure (reach, clicks, leads) → lock in (FAQ, article, case).",
+        "The flow is simple: idea → check audience interest → packaging (copy, visual, speaker) → channels (site, email, media, partners) → measure (reach, clicks, leads) → lock in (FAQ, article, case).",
         "Prepare an “editor pack”: fact, quote, photo, contacts. Without it even a good hook sinks in the inbox.",
       ],
       lists: [
         {
           intro: "Launch checklist:",
           items: [
-            "one clear news line in one sentence;",
-            "why it matters to the reader now;",
-            "brand role without stretch;",
-            "materials for publication;",
+            "one clear news line in one sentence",
+            "why it matters to the reader now",
+            "brand role without stretch",
+            "materials for publication",
             "success metric set in advance.",
           ],
         },

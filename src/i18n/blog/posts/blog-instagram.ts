@@ -8,38 +8,38 @@ export const blogInstagramEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/blog-instagram/cover-en.webp",
   excerpt:
-    "How to start a personal Instagram blog: pick a topic, set up the bio, build a content plan and photo series — without “instant top with no spend” promises or a catalog of outdated apps.",
+    "How to start a personal Instagram blog: pick a topic, set up the bio, build a content plan and photo series — without “instant TOP with no spend” promises or a catalog of outdated apps.",
   lead: [
-    "An author blog on Instagram doesn’t start with a design template, but with two answers: what you’re ready to share regularly, and what benefit or emotion the follower gets. Without that anchor the feed becomes a pile of random posts.",
-    "Below — a practical start system: positioning, setup, rubrics, content production, and response review. It fits a personal expert, a hobby project, and a small brand.",
+    "An Instagram author blog doesn’t start with a design template — it starts with two answers: what you’re ready to share regularly, and what benefit or emotion the follower gets. Without that anchor the feed turns into a pile of random posts.",
+    "Starting an Instagram blog means positioning, setup, content pillars, a production rhythm, and reviewing what gets replies. The same system fits a personal expert, a hobby project, and a small brand.",
   ],
   legalNotice: {
     title: "Dear readers!",
-    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+    text: "This article is for information only and is not an invitation to use the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
       q: "How is this different from “business on Instagram”?",
-      a: "Here the focus is a personal/author blog and starting. The business article covers a commercial project and a sales system.",
+      a: "Here the focus is a personal/author blog and getting started. The business article covers a commercial project and a sales system.",
     },
     {
-      q: "Can you run a blog with no ad budget?",
-      a: "Yes at the start. Growth is slower; quality and regularity beat “instant” fake-engagement schemes.",
+      q: "Can you run an Instagram blog with no ad budget?",
+      a: "Yes at the start. Growth is slower; quality and consistency beat “instant” fake-engagement schemes.",
     },
     {
-      q: "Which topic should you pick?",
+      q: "Which topic should you pick for an Instagram blog?",
       a: "One where you have expertise or lived experience. Popular niches are competitive — you need your own angle.",
     },
     {
-      q: "Do you need a business account?",
+      q: "Do you need a business account for a blog?",
       a: "For insights — usually yes, it’s more convenient. See the business-profile article.",
     },
     {
       q: "Are daily posts required?",
-      a: "At the start rhythm helps, but burnout is worse. Steady 3–5 solid posts a week beat empty daily ones.",
+      a: "Rhythm helps at the start, but burnout is worse. Steady 3–5 solid posts a week beat empty daily ones.",
     },
     {
-      q: "Can you change the blog topic?",
+      q: "Can you change the Instagram blog topic later?",
       a: "Yes if you explain the new focus and transition gradually. A sharp unexplained niche jump usually lowers response.",
     },
     {
@@ -99,7 +99,7 @@ export const blogInstagramEn: BlogPost = {
       lists: [],
       links: [
         {
-          label: "Instagram page design",
+          label: "Instagram profile design",
           href: "/en/blog/oformlenie-stranicy-instagram/",
         },
         {
@@ -117,7 +117,7 @@ export const blogInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "A content plan isn’t a table for its own sake — it’s a backlog of meaningful ideas. Gather rubrics that support the main theme: how-tos, personal notes, mistake breakdowns, FAQ answers, process behind-the-scenes, and audience dialogue.",
-        "Leave room for timely events, but don’t build the whole plan on them. A steady rhythm beats max frequency: pick a volume you can ship without quality drop or burnout.",
+        "Leave room for timely events, but don’t build the whole plan on them. A steady rhythm beats max frequency: pick a volume you can publish without a quality drop or burnout.",
         "Prep not only topics but sources: photos, facts, links, examples, theses. Then publishing won’t become a midnight scramble for “anything for the feed.”",
       ],
       lists: [

@@ -11,19 +11,19 @@ export const strategiyaProdvizheniyaEn: BlogPost = {
     "An SEO strategy isn’t copied from someone else’s checklist: it depends on site type, age, content, backlink profile, and tech. How to set a goal and pick a work plan.",
   lead: [
     "The right strategy affects ranks, traffic, and leads — but “right” doesn’t mean universal. A plan for a young store and for an old corporate site with someone else’s link history will differ.",
-    "Below — how to state a goal, what to check before work starts, and how typical scenarios (site from scratch, long tail, “already promoted”) differ. A DIY step outline is in the self-SEO post; here — choosing the course.",
+    "This piece covers how to state a goal, what to check before work starts, and how typical scenarios (a new site, long tail, “already promoted”) differ. A DIY step outline is in the DIY SEO post; here the focus is choosing the course.",
   ],
   faq: [
     {
       q: "How many SEO strategies exist?",
-      a: "Not “exactly three forever”. There are typical scenarios by age and site state. The concrete plan is always individual.",
+      a: "Not “exactly three forever.” There are typical scenarios by age and site state. The concrete plan is always individual.",
     },
     {
       q: "Where does a strategy start?",
       a: "With a measurable goal (leads/revenue/cluster visibility) and diagnosis: content, tech, links, competition. Not with lucky links.",
     },
     {
-      q: "When to expect TOP-10?",
+      q: "When should I expect TOP-10?",
       a: "Prep — weeks to about a month. Core rank buildup planned 2–6 months after work starts. Strategy doesn’t rewrite SERP physics.",
     },
     {
@@ -31,16 +31,16 @@ export const strategiyaProdvizheniyaEn: BlogPost = {
       a: "That post is the owner’s work order. This one is how to choose the accent (new site / tail / rehab) from the inputs.",
     },
     {
-      q: "Need a separate strategy for Yandex and Google?",
+      q: "Do I need a separate strategy for Yandex and Google?",
       a: "Base is shared; accents (locality, commercial, tools) may differ. Often both channels run as one program with nuances.",
     },
     {
-      q: "Can you copy a competitor’s strategy?",
+      q: "Can I copy a competitor’s strategy?",
       a: "Study the SERP and structure — yes. Copy texts and spam links — no. You have a different domain age and resources.",
     },
     {
       q: "What matters more — content or links?",
-      a: "Close intent and tech first; links after base relevance. On a spammy profile, links can hurt.",
+      a: "Meet intent and tech first; links after base relevance. On a spammy profile, links can hurt.",
     },
     {
       q: "Is strategy SEO only?",
@@ -146,7 +146,7 @@ export const strategiyaProdvizheniyaEn: BlogPost = {
       title: "Content as the strategy entry",
       level: 2,
       paras: [
-        "Owners often rate copy as “fine”. In practice check uniqueness, intent fit, over-optimization, and Metrica behavior — not only “nausea” in an online tool.",
+        "Owners often rate copy as “fine”. In practice check uniqueness, intent fit, over-optimization, and Yandex Metrika behavior — not only “nausea” in an online tool.",
         "Internal/external duplicates, template cards with no value, and pages “off-query” break any link strategy. Landings for clusters first, then growth.",
       ],
       lists: [

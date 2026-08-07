@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for oblachnyy-servis — same structure as RU JSON. */
 export const oblachnyyServisEn: BlogPost = {
   slug: "oblachnyy-servis",
-  title: "Cloud service: types, upsides, and security",
+  title: "Cloud service: types, benefits, and security",
   date: "2021-04-09",
-  category: "Internet marketing",
+  category: "Hosting",
   cover: "/images/blog/oblachnyy-servis/cover-en.webp",
   excerpt:
-    "What cloud storage and cloud services are, how IaaS/PaaS/SaaS differ, upsides for business, and data risks.",
+    "What cloud storage and cloud services are, how IaaS/PaaS/SaaS differ, benefits for business, and data risks.",
   lead: [
     "“The cloud” means access to storage or software over the internet, without the client’s own visible hardware stack. Files and compute live with the provider.",
-    "Below — how it works, service types, and security questions. This is not a ranking of specific brands.",
+    "Below: how it works, the main service types, and the security questions teams should ask before rollout. This is not a ranking of specific brands.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const oblachnyyServisEn: BlogPost = {
       a: "No. Also email, CRM, app hosting, virtual servers, and dozens of SaaS tools.",
     },
     {
-      q: "Is it safe?",
+      q: "Is the cloud safe for business data?",
       a: "Depends on the provider, access settings, and your processes. 2FA, permissions, and backups are required.",
     },
     {
@@ -27,11 +27,11 @@ export const oblachnyyServisEn: BlogPost = {
       a: "Less hardware work, pay-as-you-go / subscription, dependence on internet and the provider’s policy.",
     },
     {
-      q: "Do you always need internet?",
+      q: "Do you always need an internet connection?",
       a: "For online access — yes. Some clients have offline cache, but sync still goes over the network.",
     },
     {
-      q: "What should a business choose?",
+      q: "What should a business choose for cloud tools?",
       a: "Start from the job: team files, email, CRM, site infrastructure, or analytics. Compare full cost, support, and data requirements.",
     },
     {
@@ -51,16 +51,16 @@ export const oblachnyyServisEn: BlogPost = {
         {
           intro: "Typical actions:",
           items: [
-            "upload and share files;",
-            "collaborative editing;",
-            "run apps on subscription;",
+            "upload and share files",
+            "collaborative editing",
+            "run apps on subscription",
             "scale server resources.",
           ],
         },
       ],
     },
     {
-      title: "Types and upsides",
+      title: "Types and benefits",
       level: 2,
       paras: [
         "Services are usually split into IaaS — virtual infrastructure, PaaS — a platform for building, and SaaS — ready software by subscription. Marketing most often meets SaaS: CRM, analytics, email, and cloud drives.",
@@ -68,11 +68,11 @@ export const oblachnyyServisEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Upsides:",
+          intro: "Benefits:",
           items: [
-            "fast start;",
-            "access from different devices;",
-            "less of your own admin work;",
+            "fast start",
+            "access from different devices",
+            "less of your own admin work",
             "scaling with load.",
           ],
         },
@@ -95,10 +95,10 @@ export const oblachnyyServisEn: BlogPost = {
         {
           intro: "Team minimum:",
           items: [
-            "two-factor authentication;",
-            "separate accounts, not a shared password;",
-            "backup of critical data;",
-            "know which jurisdiction holds the data;",
+            "two-factor authentication",
+            "separate accounts, not a shared password",
+            "backup of critical data",
+            "know which jurisdiction holds the data",
             "revoke access on offboarding.",
           ],
         },
@@ -121,9 +121,9 @@ export const oblachnyyServisEn: BlogPost = {
         {
           intro: "Compare before buying:",
           items: [
-            "cost over the full term, not only month one;",
-            "SLA and support channels;",
-            "data export and compatibility;",
+            "cost over the full term, not only month one",
+            "SLA and support channels",
+            "data export and compatibility",
             "permissions and activity audit.",
           ],
         },
@@ -140,10 +140,10 @@ export const oblachnyyServisEn: BlogPost = {
         {
           intro: "Minimum plan:",
           items: [
-            "data inventory;",
-            "pilot group;",
-            "staff training;",
-            "recovery test;",
+            "data inventory",
+            "pilot group",
+            "staff training",
+            "recovery test",
             "regular permission review.",
           ],
         },

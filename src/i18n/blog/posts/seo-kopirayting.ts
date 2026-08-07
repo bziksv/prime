@@ -10,16 +10,16 @@ export const seoKopiraytingEn: BlogPost = {
   excerpt:
     "What SEO copywriting is, how it differs from “just text”, a brief glossary, LSI, a creation checklist, and common mistakes — without a keyword-density cult.",
   lead: [
-    "SEO copywriting is copy that closes a person’s query and stays clear to search: structure, meaning, and fitting phrasing from the semantics. It isn’t a bold key in every paragraph or a pack “for the bot”.",
-    "Below — a definition, a basic brief glossary, who writes such texts, the role of LSI, a checklist, and mistakes. Copywriting types and author choice — in the general copywriting article; here the focus is search materials.",
+    "SEO copywriting is copy that answers a person’s query and stays clear to search: structure, meaning, and fitting phrasing from the semantics. It isn’t a bold key in every paragraph or a pack “for the bot”.",
+    "We cover a definition, a short glossary, who writes these texts, the role of LSI, a checklist, and common mistakes. Copywriting types and choosing an author are in the general copywriting article; here the focus is search-oriented pages.",
   ],
   faq: [
     {
-      q: "Must SEO text be boring?",
+      q: "Does SEO copy have to be boring?",
       a: "No. Boring text raises bounces. Write for people; weave keywords in naturally.",
     },
     {
-      q: "Should keywords be bolded?",
+      q: "Should I bold keywords?",
       a: "No. That’s an outdated trick and over-optimization risk. Highlight meaning for the reader, not “markers for the bot”.",
     },
     {
@@ -27,19 +27,19 @@ export const seoKopiraytingEn: BlogPost = {
       a: "Meaningful words and phrasing around the topic (not only the exact key) that help cover intent.",
     },
     {
-      q: "Is meta keywords required?",
+      q: "Is the meta keywords tag required?",
       a: "For Yandex/Google practically no. Focus on title, description, and page copy.",
     },
     {
-      q: "Is a content marketplace a normal source?",
+      q: "Is a content marketplace a normal source for SEO copy?",
       a: "Sometimes for simple jobs. For expert and commercial pages, an author with niche portfolio and a clear brief is more reliable.",
     },
     {
-      q: "How many keywords to insert?",
+      q: "How many keywords should I insert?",
       a: "As many as needed for the topic to be clear without stuffing. Watch nausea/spamminess and readability — not “density for density’s sake”.",
     },
     {
-      q: "Will one SEO text put you in TOP?",
+      q: "Will one SEO article put me in the TOP?",
       a: "Rarely. You need site structure, tech, relevance, and time: prep about a month; core ranking buildup planned 2–6 months.",
     },
     {
@@ -81,7 +81,7 @@ export const seoKopiraytingEn: BlogPost = {
       title: "Glossary for the brief",
       level: 2,
       paras: [
-        "Keywords — demand words and phrases. Semantics/cluster — a group of queries with one intent for one landing. Nausea and spamminess — overload-by-repetition metrics; “fluff” — share of low-meaning constructions. H1 — the main page heading (usually one); H2–H3 — block structure.",
+        "Keywords—search terms people use. Cluster—a group of queries with one intent for one landing. Keyword density and spam scores — overload-by-repetition metrics; “fluff”—low-meaning filler. H1 — the main page heading (usually one); H2–H3 — block structure.",
         "Title and description — meta for the snippet (search may pick another fragment). Volume — a guide by task and TOP, not a sacred number. Uniqueness — not copy-paste; facts and expertise beat a tool percentage.",
       ],
       lists: [

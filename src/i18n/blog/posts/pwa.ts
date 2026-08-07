@@ -5,13 +5,13 @@ export const pwaEn: BlogPost = {
   slug: "pwa",
   title: "PWA: what Progressive Web Apps are and when you need them",
   date: "2019-09-10",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/pwa/cover-en.webp",
   excerpt:
-    "What a PWA is: a site with a manifest and Service Worker, home-screen install, offline cache, and push. Upsides for stores and the limits — without promising an “automatic Google TOP”.",
+    "What a PWA is: a site with a manifest and Service Worker, home-screen install, offline cache, and push. Pros for stores and the limits — without promising an “automatic Google #1 ranking”.",
   lead: [
     "A PWA (Progressive Web App) is a website that behaves closer to an app: you can add it to the home screen, work partly offline, and send notifications (where the browser and OS allow).",
-    "Below — what a PWA is made of, why business needs it, and site requirements. It doesn’t replace a native store app and isn’t an “SEO boost” button: first a fast responsive site on HTTPS.",
+    "What a PWA is made of, why business needs it, and site requirements. It doesn’t replace a native store app and isn’t “install = TOP.”",
   ],
   faq: [
     {
@@ -23,15 +23,15 @@ export const pwaEn: BlogPost = {
       a: "There’s no direct “PWA bonus”. Indirectly HTTPS, speed, and solid mobile UX help — and you can improve those without a full PWA.",
     },
     {
-      q: "What’s technically required?",
+      q: "What’s technically required for a PWA?",
       a: "HTTPS, a web manifest (name, icons, start_url), and a Service Worker for cache/offline. Without that, “Install” won’t work as intended.",
     },
     {
-      q: "Does offline work fully?",
+      q: "Does offline mode work fully?",
       a: "Only what you cached and designed for. Cart and order without a network need separate design — not a PWA checkbox magic.",
     },
     {
-      q: "Do all sites need one?",
+      q: "Do all sites need a PWA?",
       a: "No. It fits repeat visits, catalogs, “app-like” services. A one-off service landing often only needs a fast mobile layout.",
     },
   ],
@@ -47,9 +47,9 @@ export const pwaEn: BlogPost = {
         {
           intro: "Strengths:",
           items: [
-            "one codebase across devices via the browser;",
-            "faster path to “install” than native development;",
-            "less space than a heavy APK;",
+            "one codebase across devices via the browser",
+            "faster path to “install” than native development",
+            "less space than a heavy APK",
             "server updates without store moderation.",
           ],
         },
@@ -72,9 +72,9 @@ export const pwaEn: BlogPost = {
         {
           intro: "When to look at PWA:",
           items: [
-            "high return traffic;",
-            "you need a light “shortcut” without a native app;",
-            "the site is already fast and on HTTPS;",
+            "high return traffic",
+            "you need a light “shortcut” without a native app",
+            "the site is already fast and on HTTPS",
             "you have capacity to maintain cache and updates.",
           ],
         },
@@ -108,10 +108,10 @@ export const pwaEn: BlogPost = {
         {
           intro: "Checklist before rollout:",
           items: [
-            "SSL works on all URLs;",
-            "mobile UX is acceptable without PWA;",
-            "manifest and icons are ready;",
-            "cache strategy is agreed with engineering;",
+            "SSL works on all URLs",
+            "mobile UX is acceptable without PWA",
+            "manifest and icons are ready",
+            "cache strategy is agreed with engineering",
             "there’s a plan to update the SW without “sticking” on an old version.",
           ],
         },
@@ -119,7 +119,7 @@ export const pwaEn: BlogPost = {
     },
   ],
   closing: [
-    "A PWA turns a site into an installable web experience with cache and (where allowed) notifications. Ship it when repeat visits and UX pay for the upkeep; don’t let it replace site speed and honest SEO.",
+    "A PWA turns a site into an installable web experience with cache and (where allowed) notifications. Build one when repeat visits and UX pay for the upkeep; don’t let it replace site speed and honest SEO.",
   ],
   related: [
     "adaptivnyy-sayt",

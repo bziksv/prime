@@ -10,8 +10,8 @@ export const youtubeMonetizaciyaEn: BlogPost = {
   excerpt:
     "How YouTube works for creators: the channel, ad monetization, and other income paths — without “easy millions” promises or outdated threshold numbers.",
   lead: [
-    "YouTube is Google’s video host: publishing, search, recommendations, and creator tools. Monetization is possible, but Partner Program thresholds and rules change.",
-    "Below — what a channel means, income models, and how they tie to audience growth. How to grow content — in a separate piece.",
+    "YouTube is Google’s video platform: publishing, search, recommendations, and creator tools. Monetization is possible, but Partner Program thresholds and rules change.",
+    "What a channel means, income models, and how they tie to audience growth — without treating old threshold screenshots as law. How to grow content is a separate piece.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const youtubeMonetizaciyaEn: BlogPost = {
       a: "Public launch — 2005; Google bought it in 2006. For a creator, current Studio rules matter more than history.",
     },
     {
-      q: "Is monetization = only ads in videos?",
+      q: "Is monetization only ads in videos?",
       a: "No. Also memberships, Super Chats, shopping, sponsorships, your own products, and external funnels.",
     },
     {
@@ -27,7 +27,7 @@ export const youtubeMonetizaciyaEn: BlogPost = {
       a: "Check current YouTube Partner Program requirements in Help (watch hours, subscribers, Shorts, etc.). Numbers from old guides are often outdated.",
     },
     {
-      q: "Do you need subscribers for income?",
+      q: "Do I need subscribers for income?",
       a: "For the ad program — yes, plus views. For sponsorships, audience quality and niche matter more.",
     },
     {
@@ -35,7 +35,7 @@ export const youtubeMonetizaciyaEn: BlogPost = {
       a: "No. Only legal models inside platform rules.",
     },
     {
-      q: "Can you turn on monetization right after creating a channel?",
+      q: "Can I turn on monetization right after creating a channel?",
       a: "No — Partner Program features have conditions and reviews. Check current requirements, feature availability, and country limits in official YouTube Help.",
     },
   ],
@@ -44,7 +44,7 @@ export const youtubeMonetizaciyaEn: BlogPost = {
       title: "The channel as a storefront",
       level: 2,
       paras: [
-        "A channel ties videos, playlists, branding, and community. Algorithms watch retention, clicks, and returns — not one “lucky button.”",
+        "A channel ties videos, playlists, branding, and community. Algorithms watch retention, clicks, and returns — not one lucky button.",
       ],
       lists: [
         {
@@ -72,23 +72,23 @@ export const youtubeMonetizaciyaEn: BlogPost = {
       title: "Income models",
       level: 2,
       paras: [
-        "Ads in videos via the Partner Program are one branch. In parallel: brand integrations, your courses/products, donations, and external traffic to a site.",
+        "Ads in videos via the Partner Program are one branch. In parallel: brand integrations, your courses or products, donations, and external traffic to a site.",
       ],
       lists: [
         {
-          intro: "Guides:",
+          intro: "Working rules:",
           items: [
             "audience and retention first;",
             "then program thresholds — from official Help;",
             "sponsorships — with clear disclosure for the viewer;",
-            "don’t build a channel only to “turn on monetization.”",
+            "don’t build a channel only to turn on monetization.",
           ],
         },
       ],
       notes: [
         {
           title: "Rules",
-          text: "Strikes, copyright, and ad policies cut income harder than “too few cards.” See the strike piece.",
+          text: "Strikes, copyright, and ad policies cut income harder than too few cards. See the strike piece.",
         },
       ],
       links: [
@@ -102,7 +102,7 @@ export const youtubeMonetizaciyaEn: BlogPost = {
       title: "Subscriber growth without myths",
       level: 2,
       paras: [
-        "Subscribers come from search, recommendations, and external sources. Fake growth hurts. A steady schedule and strong previews/titles beat one-off giveaways.",
+        "Subscribers come from search, recommendations, and external sources. Fake growth hurts. A steady schedule and strong previews and titles beat one-off giveaways.",
       ],
       lists: [
         {

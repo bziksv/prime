@@ -11,7 +11,7 @@ export const seoStrukturaSaytaEn: BlogPost = {
     "How to design site structure for SEO: hierarchy, query clusters, and internal linking logic.",
   lead: [
     "Site structure isn’t a “pretty diagram for a pitch” — it’s a system of pages and links so both users and search engines see where services, catalog, and articles live.",
-    "Below — hierarchy types, what matters to Yandex and Google, examples for different project types, and a practical order: section logic first, content second.",
+    "We cover hierarchy patterns, what matters to Yandex and Google, examples for different project types, and a practical order: section logic first, content second.",
   ],
   faq: [
     {
@@ -23,7 +23,7 @@ export const seoStrukturaSaytaEn: BlogPost = {
       a: "For most commercial sites — tree. Linear fits short landings; a “flat” grid with no hierarchy rarely suits a service business.",
     },
     {
-      q: "Should you design structure before texts?",
+      q: "Should I design structure before texts?",
       a: "Yes. Otherwise content spreads across random URLs, section duplicates appear, and internal linking stays weak.",
     },
     {
@@ -31,7 +31,7 @@ export const seoStrukturaSaytaEn: BlogPost = {
       a: "Query clusters suggest which landings you need. Structure is the map of those landings and paths between them.",
     },
     {
-      q: "What to check after approving the scheme?",
+      q: "What should I check after approving the structure?",
       a: "Clean URLs, breadcrumbs, XML sitemap, robots.txt, click depth to key sections, and no overlapping intents on one URL.",
     },
   ],
@@ -63,7 +63,7 @@ export const seoStrukturaSaytaEn: BlogPost = {
       title: "Page hierarchy in diagram form",
       level: 2,
       paras: [
-        "Structure implies hierarchy: some elements sit under others. Below — the base models most sites use.",
+        "Structure implies hierarchy: some elements sit under others. Here are the base models most sites use.",
       ],
       lists: [],
     },
@@ -109,7 +109,12 @@ export const seoStrukturaSaytaEn: BlogPost = {
             ["pvc windows, buy windows", "PVC windows", "/okna-pvh/", "2"],
             ["window installation", "Installation", "/ustanovka-okon/", "2"],
             ["window repair", "Repair", "/remont-okon/", "2"],
-            ["how to choose windows", "Blog / guide", "/blog/kak-vybrat-okna/", "3"],
+            [
+              "how to choose windows",
+              "Blog / guide",
+              "/blog/kak-vybrat-okna/",
+              "3",
+            ],
           ],
         },
       ],
@@ -161,7 +166,7 @@ export const seoStrukturaSaytaEn: BlogPost = {
       title: "Building site structure: examples",
       level: 2,
       paras: [
-        "There’s no universal scheme “for any site.” Below — base frames you then fit to niche and semantics.",
+        "There’s no universal scheme “for any site.” Here are base frames you then adapt to niche and keywords.",
       ],
       lists: [],
     },

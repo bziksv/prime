@@ -5,34 +5,34 @@ export const yuzabilitiEn: BlogPost = {
   slug: "yuzabiliti",
   title: "What website usability is and how to improve it",
   date: "2017-09-11",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/yuzabiliti/cover-en.webp",
   excerpt:
-    "Usability is how easy the site makes the target action: short path, speed, navigation, forms, and mobile. A self-audit checklist and practical fixes — without “TOP in a week” magic.",
+    "Usability is how easily a site gets people to the goal: short paths, speed, navigation, forms, and mobile. A self-audit checklist and practical fixes — without “TOP in a week” magic.",
   lead: [
-    "Usability is how easily a person reaches a goal: buy, submit a lead, find a contact, sign up. For a site it isn’t “beauty for beauty’s sake” — it’s less friction on the path to conversion.",
-    "Below — basics of a selling site, a simple self-audit, and targeted improvements. A separate checkout-store breakdown is in the ecommerce usability piece; here is the general frame for any commercial site.",
+    "Usability is how easily someone completes the action you want: buy, submit a lead, find a contact, sign up. On a commercial site, it isn’t decoration — it’s less friction between traffic and conversion.",
+    "Ecommerce checkout gets its own deep dive; this piece covers the general frame for any business site — the baseline that sells, a simple self-audit, and targeted fixes.",
   ],
   faq: [
     {
-      q: "Is usability = design?",
-      a: "Design is part of the picture. Usability is about clarity, path speed, and no dead ends: navigation, forms, mobile, button copy.",
+      q: "Is usability the same as design?",
+      a: "Design is part of the picture. Usability is clarity, speed to goal, and no dead ends: navigation, forms, mobile, button copy.",
     },
     {
       q: "Is the “three clicks” rule mandatory?",
-      a: "A guide, not dogma. What matters is that the goal is obvious and reachable without extra steps — sometimes one screen with a strong CTA is enough.",
+      a: "It’s a guide, not dogma. What matters is an obvious path without extra steps — sometimes one screen with a strong CTA is enough.",
     },
     {
       q: "Does it affect SEO?",
-      a: "Indirectly — through behavior and query satisfaction. Bad UX raises bounce and blocks conversion; it doesn’t replace tech and content, but it amplifies promotion results.",
+      a: "Indirectly — through behavior and query satisfaction. Bad UX raises bounce and kills conversion; it doesn’t replace tech and content, but it amplifies what promotion delivers.",
     },
     {
       q: "How is it different from UX?",
-      a: "In everyday talk often synonyms. UX is wider (full experience and emotion); usability is about efficiency and ease of a concrete task. In practice the fixes are the same.",
+      a: "In everyday talk, people use the terms interchangeably. UX is broader (full experience and emotion); usability is efficiency on a specific task. In practice, the fixes overlap.",
     },
     {
-      q: "Where to start an audit?",
-      a: "Walk key scenarios yourself on phone and desktop: find contacts, submit a lead, place an order. Log friction — that’s already a backlog.",
+      q: "Where do I start an audit?",
+      a: "Walk key scenarios on phone and desktop: find contacts, submit a lead, place an order. Log every friction point — that’s your backlog.",
     },
   ],
   sections: [
@@ -40,11 +40,11 @@ export const yuzabilitiEn: BlogPost = {
       title: "What usability is and basic rules",
       level: 2,
       paras: [
-        "Usability is a product’s ability to be used: find what’s needed, understand the interface, finish an action without extra help. On a site, “success” = the target action you bring traffic for.",
-        "Short path: the lead/buy button should be visible; don’t hide the next step in a third menu level. If someone is ready — cut extra screens.",
+        "Usability is a product’s ability to be used: find what’s needed, understand the interface, finish an action without help. On a site, success means the target action you’re paying to drive.",
+        "Short path: the lead or buy button should be visible; don’t bury the next step three menu levels deep. When someone is ready to act, cut extra screens.",
         "Speed: heavy scripts and uncompressed images kill interest faster than “imperfect” design. Optimize load on critical funnel pages.",
-        "Navigation and breadcrumbs on large sites reduce the “I’m lost” effect. Forms — minimum fields; personal-data consent and a privacy-policy link are a legal frame, not decoration.",
-        "Responsiveness is mandatory: mobile share has long been high in most niches. Search engines weigh mobile experience; 2016 wording about “dropping from the top ten” isn’t eternal policy — check current requirements and your metrics.",
+        "Navigation and breadcrumbs on large sites reduce the “I’m lost” effect. Forms — minimum fields; personal-data consent and a privacy-policy link are legal requirements, not decoration.",
+        "Mobile is non-negotiable: mobile share is high in most niches. Search engines weigh mobile experience; old claims about “dropping from the top ten” aren’t eternal policy — check current requirements and your metrics.",
       ],
       links: [
         {
@@ -61,10 +61,10 @@ export const yuzabilitiEn: BlogPost = {
       title: "Self-audit and quick improvements",
       level: 2,
       paras: [
-        "Free start — walk scenarios “as a new visitor” and write a checklist: what works, what annoys. Add heatmaps and session replay when traffic appears — but eyes and a phone already catch ~80% of obvious bugs.",
-        "Practical fixes: logo goes home; contacts in header/footer as copyable text; header has search and a quick lead if that’s your channel; tree menu without “nervous” dropdowns; on 404 — paths to key sections, not a dead end.",
-        "Why it matters for business: a usable site raises the share of people who do what they came for. Search reacts to usefulness and behavior; usability amplifies SEO and ads ROI, but doesn’t replace prep and ranking growth — core TOP is planned over months.",
-        "If you run an online store — go deeper into checkout, product card, and filters in the dedicated guide. One principle: less friction — more completed actions.",
+        "Start free: walk scenarios as a new visitor and write a checklist of what works and what annoys. Add heatmaps and session replay once traffic exists — but eyes and a phone already catch most obvious bugs.",
+        "Practical fixes: logo links home; contacts in header and footer as copyable text; header has search and a quick lead path if that’s your channel; tree menu without jumpy dropdowns; on 404 — paths to key sections, not a dead end.",
+        "Why it matters for business: a usable site raises the share of visitors who do what they came for. Search responds to usefulness and behavior; usability amplifies SEO and ad ROI, but it doesn’t replace prep or ranking growth — core TOP positions typically build over 2–6 months of work after launch prep.",
+        "If you run an online store, go deeper on checkout, product cards, and filters in the dedicated guide. One principle everywhere: less friction, more completed actions.",
       ],
       lists: [
         {
@@ -74,8 +74,8 @@ export const yuzabilitiEn: BlogPost = {
             "comfortable on a smartphone;",
             "contacts found in seconds;",
             "from any page — a path to key sections;",
-            "from 404 you can return to catalog/services;",
-            "lead/buy/call without extra clicks.",
+            "from 404 you can return to catalog or services;",
+            "lead, buy, or call without extra clicks.",
           ],
         },
       ],

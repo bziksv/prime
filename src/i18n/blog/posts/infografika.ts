@@ -11,7 +11,7 @@ export const infografikaEn: BlogPost = {
     "What an infographic is, which types exist, how to start a layout, and which mistakes kill readability. Principles beat a list of outdated tools.",
   lead: [
     "An infographic is a visual take on facts, processes, and numbers: a diagram, chart, timeline, map. The job is to grasp something complex faster than from a wall of text.",
-    "Below — types, build principles, and typical fails. Layout tools change; meaning and hierarchy first, then a template in Canva, Figma, or another editor.",
+    "Below: types, build principles, and typical fails. Layout tools change; meaning and hierarchy first, then a template in Canva, Figma, or another editor.",
   ],
   faq: [
     {
@@ -46,10 +46,10 @@ export const infografikaEn: BlogPost = {
         {
           intro: "Where they fit:",
           items: [
-            "step-by-step processes;",
-            "comparing plans/options;",
-            "stats and shares;",
-            "geography and routes;",
+            "step-by-step processes",
+            "comparing plans/options",
+            "stats and shares",
+            "geography and routes",
             "product inner logic.",
           ],
         },
@@ -68,7 +68,7 @@ export const infografikaEn: BlogPost = {
           rows: [
             ["Chart / diagram", "Trends and shares"],
             ["Table", "Exact values side by side"],
-            ["Scheme / flowchart", "Process and branches"],
+            ["Diagram / flowchart", "Process and branches"],
             ["Timeline", "Stages over time"],
             ["Map", "Geo and coverage"],
             ["Icons + numbers", "Key facts in a row"],
@@ -86,11 +86,11 @@ export const infografikaEn: BlogPost = {
         {
           intro: "Quality checklist:",
           items: [
-            "one focus (not five topics on one banner);",
-            "number sources stated;",
-            "text readable on a phone;",
-            "icons don’t fight the meaning;",
-            "brand marks don’t cover the data;",
+            "one focus (not five topics on one banner)",
+            "number sources stated",
+            "text readable on a phone",
+            "icons don’t fight the meaning",
+            "brand marks don’t cover the data",
             "alt and caption on the site.",
           ],
         },
@@ -107,15 +107,15 @@ export const infografikaEn: BlogPost = {
       level: 2,
       paras: [
         "Old guides listed dozens of builders — half changed name or pricing. A practical stack: data table → viz in a familiar editor → export.",
-        "Canva and peers speed templates; Figma — grid control in a team; Excel/Google Sheets + chart paste — for reports. Video infographics are a separate genre with a storyboard.",
+        "Canva and similar tools speed templates; Figma — grid control in a team; Excel/Google Sheets + chart paste — for reports. Video infographics are a separate genre with a storyboard.",
       ],
       lists: [
         {
           intro: "Before publishing:",
           items: [
-            "verify the facts;",
-            "export Retina/2x when needed;",
-            "compress without mushing the numbers;",
+            "verify the facts",
+            "export Retina/2x when needed",
+            "compress without mushing the numbers",
             "add a text retelling for SEO and accessibility.",
           ],
         },

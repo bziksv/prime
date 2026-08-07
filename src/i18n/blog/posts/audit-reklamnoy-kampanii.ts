@@ -5,37 +5,37 @@ export const auditReklamnoyKampaniiEn: BlogPost = {
   slug: "audit-reklamnoy-kampanii",
   title: "Ad campaign audit: why, stages, and what to check",
   date: "2019-07-08",
-  category: "Internet marketing",
+  category: "Paid search",
   cover: "/images/blog/audit-reklamnoy-kampanii/cover-en.webp",
   excerpt:
     "A paid search audit: when to order it, technical and analytical stages, ongoing optimization, and how to deliver the result to the client without a “doctor’s prescription”.",
   lead: [
-    "An ad campaign audit diagnoses settings, stats, and optimization processes to see why KPIs miss and what to change. It’s not only an error list — also the account’s strengths.",
-    "Below — typical reasons, three stages (tech → analytics → conclusions), and what to check in Google Ads / similar accounts. UIs change; the checklist by meaning stays.",
+    "An ad campaign audit diagnoses settings, stats, and optimization processes to see why KPIs miss and what to change. It’s not just an error list — it’s also the account’s strengths.",
+    "Three stages: tech settings → economics and KPIs → conclusions and next steps. The same logic fits Google Ads, Yandex Direct, and similar accounts. UIs change; the checklist by meaning stays.",
   ],
   faq: [
     {
-      q: "When do you need an audit?",
+      q: "When do you need an ad campaign audit?",
       a: "KPIs don’t add up, it’s unclear “where the money goes”, things got worse over a period, you need a second pair of eyes, or a growth plan when numbers already look fine.",
     },
     {
-      q: "If the tech is a mess — what then?",
+      q: "What if the account tech is a mess?",
       a: "Often it’s cheaper to rebuild structure than “tweak” chaos. Fix the base first, then deep KPI analytics.",
     },
     {
-      q: "Google Ads only?",
+      q: "Does an audit apply only to Google Ads?",
       a: "The logic is the same for Yandex Direct and other accounts: settings → economics → regular work → a clear report.",
     },
     {
-      q: "What’s a “normal” CR?",
+      q: "What’s a “normal” conversion rate?",
       a: "It depends on the niche and conversion definition (lead vs purchase). Compare with your past period and unit economics — not someone else’s “market average”.",
     },
     {
-      q: "What should the client get?",
+      q: "What should the client get from an audit?",
       a: "A short conclusion and strategy (a few slides) + an appendix with details. No jargon wall on the first screen.",
     },
     {
-      q: "Is an audit a one-off?",
+      q: "Is an ad audit a one-off exercise?",
       a: "A state snapshot. Next come regular jobs: queries, negatives, bid and ad tests, budget reallocation.",
     },
   ],
@@ -44,7 +44,7 @@ export const auditReklamnoyKampaniiEn: BlogPost = {
       title: "Why people order an audit",
       level: 2,
       paras: [
-        "Typical motives: CPA/ROMI not hit; the client can’t read the account and wants “profit”; it feels like “it used to be better”; checking their own team; wanting a fresh strategy when numbers already work.",
+        "Typical motives: CPA/ROMI (return on marketing investment) not hit; the client can’t read the account and wants “profit”; it feels like “it used to be better”; checking their own team; wanting a fresh strategy when numbers already work.",
         "Motive sets depth: some need a tech review, others a strategy rebuild and budget priorities.",
       ],
     },
@@ -63,7 +63,7 @@ export const auditReklamnoyKampaniiEn: BlogPost = {
             "geo and exclusions;",
             "campaign structure by intent;",
             "negatives and search terms;",
-            "ad → landing join;",
+            "ad → landing page join;",
             "budgets and limits without accidental cutoffs.",
           ],
         },
@@ -111,7 +111,7 @@ export const auditReklamnoyKampaniiEn: BlogPost = {
           href: "/en/blog/otchet-klientu/",
         },
         {
-          label: "Ad account",
+          label: "Ads account",
           href: "/en/blog/reklamnyy-kabinet/",
         },
       ],

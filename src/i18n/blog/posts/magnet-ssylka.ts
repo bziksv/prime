@@ -5,13 +5,13 @@ export const magnetSsylkaEn: BlogPost = {
   slug: "magnet-ssylka",
   title: "Magnet links: what they are and how they work",
   date: "2020-08-06",
-  category: "Internet marketing",
+  category: "Hosting",
   cover: "/images/blog/magnet-ssylka/cover-en.webp",
   excerpt:
     "What a magnet URI is: a file hash instead of a normal URL, xt/dn/tr parameters, how it differs from a .torrent, and download risks. No pirate-tracker catalogs.",
   lead: [
     "A magnet link (magnet URI) isn’t a website address — it’s a string with a content identifier (usually a file hash on the BitTorrent network). The client finds seeders by hash and downloads peer-to-peer.",
-    "Below — link structure, legitimate scenarios, and risks. We don’t cover searching for pirated content or bypassing tracker blocks: downloading someone else’s protected material is illegal; you’re responsible for malware in “shares”.",
+    "Know the structure, stick to legitimate scenarios, and treat risks seriously. We don’t cover searching for pirated content or bypassing tracker blocks: downloading someone else’s protected material is illegal; you’re responsible for malware in “shares.”",
   ],
   faq: [
     {
@@ -19,19 +19,19 @@ export const magnetSsylkaEn: BlogPost = {
       a: "In a .torrent, metadata often lives in the file. A magnet carries the hash (and optionally name/trackers) in the link itself — easy to copy as text. The download is the same P2P class.",
     },
     {
-      q: "Is it safer than a normal link?",
+      q: "Is a magnet safer than a normal download link?",
       a: "Not automatically. A hash doesn’t guarantee legality or lack of malware. Check the source and rights to the content.",
     },
     {
-      q: "Can you “block” a magnet?",
-      a: "The string as text is hard to “ban globally”, but ISPs, platforms, and courts limit access to pirate resources. “Unblockable = you can download anything” is a false conclusion.",
+      q: "Can I “block” a magnet?",
+      a: "The string as text is hard to “ban globally,” but ISPs, platforms, and courts limit access to pirate resources. “Unblockable = you can download anything” is a false conclusion.",
     },
     {
-      q: "What is it for legally?",
+      q: "What are legitimate uses for a magnet link?",
       a: "Sharing your own files with rights, open data, Linux distros and other content under an allowed license — when the rights holder permits it.",
     },
     {
-      q: "Do you need a separate client?",
+      q: "Do I need a separate BitTorrent client?",
       a: "Yes, a BitTorrent client that understands magnets. The browser usually hands the link to the installed program.",
     },
   ],
@@ -72,9 +72,9 @@ export const magnetSsylkaEn: BlogPost = {
       title: "Practice, risks, and the law",
       level: 2,
       paras: [
-        "Format upsides for lawful sharing: easy to send as text, no separate .torrent file needed, can combine with DHT and trackers. That’s protocol convenience — not an indulgence for piracy.",
-        "Risks: malware disguised as a movie/software, IP exposure in P2P, rights-holder claims. Don’t open dubious magnets “from a forum”.",
-        "We don’t recommend catalogs and trackers with clearly pirated content and don’t list them as “where to download”. If you need a legal distro — take it from the project’s official site.",
+        "Format benefits for lawful sharing: easy to send as text, no separate .torrent file needed, can combine with DHT and trackers. That’s protocol convenience — not an indulgence for piracy.",
+        "Risks: malware disguised as a movie/software, IP exposure in P2P, rights-holder claims. Don’t open dubious magnets “from a forum.”",
+        "We don’t recommend catalogs and trackers with clearly pirated content and don’t list them as “where to download.” If you need a legal distro — take it from the project’s official site.",
         "You can create a magnet for your file in a BitTorrent client: add a share → get a Magnet URI. Share only what you have rights to.",
         "Bottom line: a magnet link addresses a file by hash in P2P. Understand the tech and legal limits; don’t confuse format convenience with a right to someone else’s content.",
       ],

@@ -3,36 +3,36 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for vidy-reklamy — same structure as RU JSON. */
 export const vidyReklamyEn: BlogPost = {
   slug: "vidy-reklamy",
-  title: "Types of online advertising: what actually brings clients",
+  title: "Types of online advertising: what actually brings in clients",
   date: "2016-08-23",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/vidy-reklamy/cover-en.webp",
   excerpt:
-    "Channel overview: SEO, paid search, social targeting, teasers, and banners — pros, cons, and when to choose what. No TOP guarantees and no advice for shady offers.",
+    "Channel overview: SEO, paid search, social targeting, teasers, and banners — pros, cons, and when to choose what. No top-ranking guarantees and no advice for shady offers.",
   lead: [
-    "Online advertising isn’t only “banner or post”. By reach it can be narrow (people who already searched your product), broad (segment by age/gender/interests), or mass (brand, FMCG).",
-    "Below — five working types and how to combine them. Figures like “1000% ROI” and “TOP for payment” from old materials we don’t copy: look at unit economics in your niche.",
+    "Online advertising isn’t just “banner or post.” By reach, it can be narrow (people already searching for your product), broad (segment by age, gender, interests), or mass (brand, FMCG).",
+    "Five core channel types work better together than as a “pick one forever” bet. Figures like “1000% ROI” and “pay only for top rankings” from old materials aren’t worth copying — look at unit economics in your niche.",
   ],
   faq: [
     {
       q: "Is SEO advertising?",
-      a: "More an organic acquisition channel. Overviews often put it next to ads because it competes for the same people in search.",
+      a: "It’s more of an organic acquisition channel. Overviews often group it with ads because it competes for the same people in search.",
     },
     {
       q: "What brings leads faster?",
-      a: "Usually paid search and social targeting with a ready landing. SEO is a long track: prep weeks/~a month; a share of the core in TOP — planned 2–6 months.",
+      a: "Usually paid search and social targeting with a ready landing page. SEO is a long game: prep takes a few weeks to about a month; a meaningful share of core keywords in top rankings is typically 2–6 months out.",
     },
     {
-      q: "Can you manage with only SEO and paid search?",
-      a: "For many local and service niches — yes as a base. Targeting, banners, and content add when there’s budget and a clear audience outside search.",
+      q: "Can I get by with only SEO and paid search?",
+      a: "For many local and service niches, yes — as a base. Targeting, banners, and content marketing add value when you have budget and a clear audience outside search.",
     },
     {
       q: "Do teasers suit a brand?",
-      a: "Rarely. Shock blocks on low-quality sites hit image. For a normal business, white networks and clear creative are better.",
+      a: "Rarely. Shock ads on low-quality sites hurt your image. For a legitimate business, mainstream ad networks and clear creative are the better bet.",
     },
     {
-      q: "Does anyone guarantee TOP-10?",
-      a: "An honest contractor doesn’t guarantee the search SERP. “Pay only for TOP” sounds nice, but algorithms change; lock work scope, metrics, and report transparency.",
+      q: "Does anyone guarantee top-10 rankings?",
+      a: "An honest contractor doesn’t guarantee SERP positions. “Pay only for top rankings” sounds appealing, but algorithms change. Lock in scope of work, metrics, and reporting transparency instead.",
     },
   ],
   sections: [
@@ -40,18 +40,18 @@ export const vidyReklamyEn: BlogPost = {
       title: "SEO and paid search",
       level: 2,
       paras: [
-        "SEO is visibility in organic results for demand queries. Pros: loyalty to a “non-ad” click, scalable semantic coverage, relatively low CPA long-term. Cons: not instant; no position guarantee; you need tech, content, and time. First shifts often show after months; a stable share of the core in TOP is planned over 2–6 months after work starts — not payment day.",
-        "Paid search (search + networks) — ads by query or interests. Pros: fast launch, precise intent on search, handy for promos. Cons: you pay per click continuously; without a strong landing you burn budget. Network retargeting “follows up” people who were on the site — not magic, a reminder.",
-        "Classic pair: paid search covers demand now, SEO builds organic. When positions strengthen, you can redistribute paid share — not as a law, as a hypothesis under your numbers. There’s no direct “paid for search ads → bought SEO positions”.",
+        "SEO is visibility in organic search results for demand-driven queries. Pros: users trust a non-ad click, scalable keyword coverage, relatively low CPA over time. Cons: not instant, no position guarantee, and you need technical work, content, and patience. Early movement often shows after a few months; a stable share of core keywords in top rankings typically takes 2–6 months after work starts — not from payment day.",
+        "Paid search (search plus display networks) shows ads by query or interest. Pros: fast launch, precise intent on search, handy for promos. Cons: you pay per click continuously; without a strong landing page you burn budget. Display retargeting follows people who visited your site — it’s a reminder, not magic.",
+        "The classic pair: paid search covers demand now, SEO builds organic. As rankings strengthen, you can shift paid budget — not as a rule, but as a hypothesis backed by your numbers. There’s no direct “paid for search ads → bought SEO positions.”",
       ],
       lists: [
         {
           intro: "When to start with this pair:",
           items: [
             "you have a site and an offer;",
-            "demand is searched in search;",
-            "you need both quick leads and a long channel;",
-            "you’re ready to count leads — not only clicks.",
+            "people search for what you sell;",
+            "you need both quick leads and a long-term channel;",
+            "you’re ready to count leads — not just clicks.",
           ],
         },
       ],
@@ -70,18 +70,18 @@ export const vidyReklamyEn: BlogPost = {
       title: "Targeting, teasers, banners — and choosing",
       level: 2,
       paras: [
-        "Targeted ads show creatives to a segment in social and platform ecosystems (interests, demographics, look-alike). Good for broad and mid demand; for ultra-niche audiences are hard to build. Platforms and rules change — plan creative and offer tests, not an “eternal” 2016 ad account.",
-        "Teaser networks — clickbait blocks, often on low-quality traffic. For reputation-minded businesses usually harmful. If an offer fails white-system moderation, the problem is more often the product/promises than “we need teasers”.",
-        "Banners on sites — reach and brand, weaker point performance. Paid CPM or a period fee; segmentation is weaker than search. Makes sense for awareness with clear creative — not as the only lead channel.",
-        "Choice practice: for most commercial services — SEO + paid search as the frame; targeting — if the audience lives in social; banners — for brand with budget; teasers — skip by default. Count cost per lead and lead quality — not “which type is trendier”.",
+        "Targeted ads show creatives to a segment in social and platform ecosystems — interests, demographics, lookalikes. Good for broad and mid-funnel demand; ultra-niche audiences are hard to build. Platforms and rules change — plan creative and offer tests, not a permanent 2016 ad account setup.",
+        "Teaser networks run clickbait blocks, often on low-quality traffic. For reputation-conscious businesses, they’re usually harmful. If an offer fails mainstream platform moderation, the problem is more often the product or promises than “we need teasers.”",
+        "Display banners on websites — reach and brand, weaker point performance. Paid CPM or a flat period fee; segmentation is weaker than search. Makes sense for awareness with clear creative — not as your only lead channel.",
+        "In practice: for most commercial services, SEO plus paid search form the frame; add targeting if your audience lives on social; banners for brand with budget; skip teasers by default. Count cost per lead and lead quality — not “which type is trendier.”",
       ],
       lists: [
         {
-          intro: "Short guide:",
+          intro: "Quick guide:",
           items: [
-            "need leads fast — paid search/targeting;",
+            "need leads fast — paid search or targeting;",
             "need a long search channel — SEO;",
-            "need awareness — banner + content;",
+            "need awareness — banners plus content;",
             "care about reputation — no shock teasers;",
             "measure CPL/CPA and share of qualified leads.",
           ],

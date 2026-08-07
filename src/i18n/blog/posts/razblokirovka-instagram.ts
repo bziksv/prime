@@ -11,10 +11,10 @@ export const razblokirovkaInstagramEn: BlogPost = {
     "How blocking a user differs from an account ban, how to remove someone from the block list in the app, and what to do if the profile can’t be found — without third-party Instagram “clients.”",
   lead: [
     "Blocking on Instagram limits contact between two profiles: follows, messages, and some public interactions stop working. If the decision was made in the heat of the moment, you can undo it in settings or on the person’s page.",
-    "Below — a safe action order, what happens after unblocking, and cases when the profile can’t be found. This piece is not about restoring access to an account limited by the platform.",
+    "A safe action order, what happens after unblocking, and cases when the profile can’t be found. This piece is not about restoring access to an account limited by the platform.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -31,11 +31,11 @@ export const razblokirovkaInstagramEn: BlogPost = {
       a: "Often the profile is deleted/unavailable, or you’re looking at the wrong account. Wait for the profile to appear or search via the blocked list.",
     },
     {
-      q: "Do you need apps like Grids?",
+      q: "Do I need third-party apps like Grids?",
       a: "No. The official app or web version is enough. Third-party clients add password risk.",
     },
     {
-      q: "Are block and Restrict the same?",
+      q: "Are Block and Restrict the same?",
       a: "No. Restrict is softer (you alone see their comments). Block is harder: a full mutual visibility break.",
     },
     {
@@ -75,9 +75,9 @@ export const razblokirovkaInstagramEn: BlogPost = {
         {
           intro: "Before unblocking, check:",
           items: [
-            "the current handle — it may have changed;",
-            "avatar and bio if names look similar;",
-            "whether you need access to chat and content again;",
+            "the current handle — it may have changed",
+            "avatar and bio if names look similar",
+            "whether you need access to chat and content again",
             "whether Restrict is a better fit.",
           ],
         },
@@ -109,9 +109,9 @@ export const razblokirovkaInstagramEn: BlogPost = {
         {
           intro: "Don’t enter your password on services that promise to:",
           items: [
-            "find any private or deleted profile;",
-            "lift someone else’s block in one click;",
-            "restore chat without account access;",
+            "find any private or deleted profile",
+            "lift someone else’s block in one click",
+            "restore chat without account access",
             "speed up unblock for a fee.",
           ],
         },
@@ -142,7 +142,7 @@ export const razblokirovkaInstagramEn: BlogPost = {
       lists: [],
       links: [
         {
-          label: "How to design an Instagram page",
+          label: "How to design an Instagram profile",
           href: "/en/blog/oformlenie-stranicy-instagram/",
         },
       ],

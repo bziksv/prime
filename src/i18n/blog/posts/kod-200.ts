@@ -11,12 +11,12 @@ export const kod200En: BlogPost = {
     "What HTTP 200 OK means, how it relates to indexing, why soft 404 behind a 200 is dangerous, and how to check that important URLs really return success.",
   lead: [
     "200 OK means the server successfully handled the request and returned content. For a page in search that’s the basic green light: the document can be read and considered for the index.",
-    "Below — how 200 works, what it means for crawl, and traps when the status says “success” but the page effectively isn’t there. Other codes are covered in the HTTP status article.",
+    "A 200 helps crawl, but soft-404 traps happen when the status says “success” and the page effectively isn’t there. Other codes are covered in the HTTP status article.",
     "200 alone doesn’t guarantee TOP: it only says the response succeeded. Content, links, commercial factors, and competition do the rest.",
   ],
   faq: [
     {
-      q: "Is 200 good?",
+      q: "Is a 200 status a good sign?",
       a: "For existing useful pages — yes. For removed or empty ones — no: better 404/410 or a 301 to a relevant URL.",
     },
     {
@@ -190,7 +190,7 @@ export const kod200En: BlogPost = {
         {
           title: "SEO note",
           kind: "tip",
-          text: "Stable 200s are crawl hygiene. TOP for a commercial core is still planned 2–6 months of work after the site is ready.",
+          text: "Stable 200s are crawl hygiene. TOP for a commercial keyword set is still a planned 2–6 months of work after the site is ready.",
         },
       ],
     },

@@ -23,6 +23,11 @@ function initReadProgress(root: HTMLElement) {
   if (!shell || !bar) return;
 
   const minutes = Number(root.dataset.readingMinutes || "1");
+  const locale =
+    document.documentElement.dataset.locale ||
+    document.documentElement.lang ||
+    "ru";
+  const isEn = locale === "en" || locale.startsWith("en");
 
   const update = () => {
     const rect = body.getBoundingClientRect();
@@ -34,8 +39,13 @@ function initReadProgress(root: HTMLElement) {
     shell.hidden = false;
     if (leftEl) {
       const leftMin = Math.max(1, Math.ceil(minutes * (1 - pct / 100)));
-      leftEl.textContent =
-        pct >= 98 ? "Готово" : `Ещё ~${leftMin} мин чтения · ${pct}%`;
+      leftEl.textContent = isEn
+        ? pct >= 98
+          ? "Done"
+          : `~${leftMin} min left · ${pct}%`
+        : pct >= 98
+          ? "Готово"
+          : `Ещё ~${leftMin} мин чтения · ${pct}%`;
     }
   };
 

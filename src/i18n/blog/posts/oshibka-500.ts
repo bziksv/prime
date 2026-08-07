@@ -11,11 +11,11 @@ export const oshibka500En: BlogPost = {
     "What HTTP 500 means, how it differs from 502/504, typical CMS and hosting causes, and a diagnosis order — without “magic” fix plugins.",
   lead: [
     "500 Internal Server Error is the server’s reply: the request arrived, but the application or configuration failed while handling it. Users and bots don’t get the page.",
-    "Below — how 500 differs from nearby 5xx codes, where to look for the cause, and in what order to fix it. It isn’t a “search penalty”, but long downtime cuts traffic and crawl.",
+    "It isn’t a “search penalty,” but long downtime hurts indexing and traffic. Below: how 500 differs from nearby 5xx codes, where to look for the cause, and in what order to fix it.",
   ],
   faq: [
     {
-      q: "Is 500 an SEO problem?",
+      q: "Is a 500 error an SEO problem?",
       a: "Indirectly: the page is unavailable. Long or widespread 5xx hurts UX and indexing. The number 500 itself is about server/code — not a “filter”.",
     },
     {
@@ -31,15 +31,15 @@ export const oshibka500En: BlogPost = {
       a: "Sometimes as a test if you have a backup and staging. Better start with logs and the last change (plugin, deploy, .htaccess).",
     },
     {
-      q: "Do you need a redirect from 500?",
+      q: "Do you need a redirect from a 500 page?",
       a: "No. Fix the cause. A redirect masks the symptom and confuses diagnosis.",
     },
     {
-      q: "When to call hosting?",
+      q: "When should you call hosting support?",
       a: "If you lack log/server access, the disk is full, PHP/memory limits are exhausted, or the provider status shows an incident. Share time, URL, and response code.",
     },
     {
-      q: "Does 500 hit rankings immediately?",
+      q: "Does a 500 hit rankings immediately?",
       a: "A short blip usually passes. Days of downtime on important URLs risk crawl and conversions. Stability first, then “recrawl”.",
     },
   ],
@@ -55,9 +55,9 @@ export const oshibka500En: BlogPost = {
         {
           intro: "Typical context:",
           items: [
-            "after a CMS or plugin update;",
-            "after editing `.htaccess` or nginx;",
-            "on a specific form/report under load;",
+            "after a CMS or plugin update",
+            "after editing `.htaccess` or nginx",
+            "on a specific form/report under load",
             "when memory is short or PHP times out.",
           ],
         },
@@ -84,11 +84,11 @@ export const oshibka500En: BlogPost = {
         {
           intro: "Check first:",
           items: [
-            "PHP / app logs and the web-server error_log;",
-            "the last deploy and DB migrations;",
-            "new or updated plugins and theme;",
-            "`.htaccess` and rewrite config;",
-            "memory_limit, max_execution_time, disk space;",
+            "PHP / app logs and the web-server error_log",
+            "the last deploy and DB migrations",
+            "new or updated plugins and theme",
+            "`.htaccess` and rewrite config",
+            "memory_limit, max_execution_time, disk space",
             "permissions on cache and upload directories.",
           ],
         },
@@ -112,10 +112,10 @@ export const oshibka500En: BlogPost = {
         {
           intro: "Order:",
           items: [
-            "confirm 500 from outside and in incognito;",
-            "open app and web-server logs;",
-            "roll back or disable the last change;",
-            "check disk, inodes, PHP limits;",
+            "confirm 500 from outside and in incognito",
+            "open app and web-server logs",
+            "roll back or disable the last change",
+            "check disk, inodes, PHP limits",
             "on CMS — temporarily disable fresh plugins (via files if admin is down).",
           ],
         },
@@ -142,10 +142,10 @@ export const oshibka500En: BlogPost = {
         {
           intro: "Working steps:",
           items: [
-            "backup before edits;",
-            "roll back deploy / plugin / config change;",
-            "fix syntax and dependencies;",
-            "check permissions and file ownership;",
+            "backup before edits",
+            "roll back deploy / plugin / config change",
+            "fix syntax and dependencies",
+            "check permissions and file ownership",
             "re-run `curl` and the user scenario.",
           ],
         },
@@ -155,16 +155,16 @@ export const oshibka500En: BlogPost = {
       title: "CMS and typical traps",
       level: 2,
       paras: [
-        "On WordPress and peers the admin itself can return 500 — then fix via FTP/SSH: rename the fresh `plugins` folder, switch theme to a spare, temporarily simplify `.htaccess`.",
+        "On WordPress and similar tools the admin itself can return 500 — then fix via FTP/SSH: rename the fresh `plugins` folder, switch theme to a spare, temporarily simplify `.htaccess`.",
         "After recovery, restore needed pretty-URL rules and check forms, cart, and login: “home opened” ≠ “everything works”.",
       ],
       lists: [
         {
           intro: "After the incident:",
           items: [
-            "update core and plugins on staging;",
-            "remove abandoned modules;",
-            "turn on monitoring for key URLs;",
+            "update core and plugins on staging",
+            "remove abandoned modules",
+            "turn on monitoring for key URLs",
             "write down the cause in a ticket/team chat.",
           ],
         },
@@ -187,9 +187,9 @@ export const oshibka500En: BlogPost = {
         {
           intro: "Control minimum:",
           items: [
-            "alert if main URLs return 5xx;",
-            "don’t confuse 500 with a search filter;",
-            "releases via staging;",
+            "alert if main URLs return 5xx",
+            "don’t confuse 500 with a search filter",
+            "releases via staging",
             "logs rotate and stay available to the team.",
           ],
         },

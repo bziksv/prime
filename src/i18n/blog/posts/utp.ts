@@ -5,13 +5,13 @@ export const utpEn: BlogPost = {
   slug: "utp",
   title: "USP: what it is and how to write a unique selling proposition",
   date: "2020-02-03",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/utp/cover-en.webp",
   excerpt:
     "What a USP is, how it differs from a promo and a slogan, how to phrase your edge vs competitors, and how to test the line on a landing page and in ads.",
   lead: [
     "A USP (unique selling proposition) is short and concrete: why a customer picks you over a neighbor in the niche. It’s not a “−20% until Friday” discount and not an abstract slogan like “quality and reliability.”",
-    "Below — how a USP differs from positioning and promos, how to build one, and how to check it. Without a target audience there’s no strong USP: first who you sell to, then how you differ.",
+    "Without a target audience there’s no strong USP: first who you sell to, then how you differ. Positioning sets the brand’s place in the mind; a USP is the concrete line that backs that place in ads and on the site.",
   ],
   faq: [
     {
@@ -19,8 +19,8 @@ export const utpEn: BlogPost = {
       a: "No. A promo is temporary. A USP lasts longer: service, guarantee, specialization, work format — what truly sets you apart.",
     },
     {
-      q: "USP and positioning?",
-      a: "Positioning is the brand’s place in the mind. A USP is the concrete offer/phrase that backs that place in ads and on the site.",
+      q: "How do USP and positioning differ?",
+      a: "Positioning is the brand’s place in the mind. A USP is the concrete offer or phrase that backs that place in ads and on the site.",
     },
     {
       q: "Must you be “the only ones in the world”?",
@@ -32,7 +32,7 @@ export const utpEn: BlogPost = {
     },
     {
       q: "How many USPs do you need?",
-      a: "One main line per brand/direction. For different segments, variations of one core are fine — not five conflicting promises.",
+      a: "One main line per brand or direction. For different segments, variations of one core are fine — not five conflicting promises.",
     },
     {
       q: "Is “delivery in 2 hours” a USP?",
@@ -40,7 +40,7 @@ export const utpEn: BlogPost = {
     },
     {
       q: "How does it tie to the audience?",
-      a: "A USP answers the segment’s pain and choice criterion. Without an audience portrait you get a generic “for everyone” line.",
+      a: "A USP answers the segment’s pain and choice criterion. Without an audience profile you get a generic “for everyone” line.",
     },
   ],
   sections: [
@@ -65,7 +65,7 @@ export const utpEn: BlogPost = {
       links: [
         {
           label: "Target audience",
-          href: "/blog/tselevaya-auditoriya/",
+          href: "/en/blog/tselevaya-auditoriya/",
         },
       ],
     },
@@ -102,7 +102,7 @@ export const utpEn: BlogPost = {
           items: [
             "how you’re better than typical alternatives;",
             "what you don’t have (and that’s a plus: no hidden fees, no long contracts);",
-            "what’s unique in process/service;",
+            "what’s unique in process or service;",
             "which segment sees you as “theirs”;",
             "what guarantee you can put in writing.",
           ],
@@ -130,7 +130,7 @@ export const utpEn: BlogPost = {
             "is it concrete (deadline, segment, result)?;",
             "does the audience care?;",
             "does it set you apart from competitors?;",
-            "can you back it with a case/condition?",
+            "can you back it with a case or condition?",
           ],
         },
       ],
@@ -146,7 +146,7 @@ export const utpEn: BlogPost = {
       links: [
         {
           label: "Awareness ladder",
-          href: "/blog/lestnitsa-hanta/",
+          href: "/en/blog/lestnitsa-hanta/",
         },
         {
           label: "Landing page copy",

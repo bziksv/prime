@@ -11,7 +11,7 @@ export const filtryPoiskovikovEn: BlogPost = {
     "Why sites lose rankings to filters and algorithm updates, how to diagnose the problem, and how to grow organic with white-hat methods — without bypass tricks or gray schemes.",
   lead: [
     "Filters and updates cut sites for stuffing, thin content, manipulative links, and poor UX. “Bypassing” the system with gray tricks leads to new penalties.",
-    "Below — how to assess the state, check tech and demand, and strengthen content and links within the rules. This is not a guide to dodging filters.",
+    "How to assess the state, check tech and demand, and strengthen content and links within the rules. This is not a guide to dodging filters.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const filtryPoiskovikovEn: BlogPost = {
       a: "No. Only diagnosis and white-hat optimization. We don’t cover or recommend gray filter bypasses.",
     },
     {
-      q: "How do you tell a filter from seasonality?",
+      q: "How do I tell a filter from seasonality?",
       a: "Compare Wordstat year over year, Webmaster (security, quality), and core dynamics. Seasonality is gradual; a filter often hits commercial queries sharply.",
     },
     {
@@ -31,15 +31,15 @@ export const filtryPoiskovikovEn: BlogPost = {
       a: "Often it makes things worse. Fix the cause: content, spam links, over-optimization.",
     },
     {
-      q: "How long until recovery?",
-      a: "Depends on the cause and recrawl. Don’t promise a TOP date; log fixes and monitor the core monthly.",
+      q: "How long does recovery take?",
+      a: "Depends on the cause and recrawl. Don’t promise rankings date; log fixes and monitor the keyword set monthly.",
     },
     {
-      q: "Should you rebuild the whole site at once?",
+      q: "Should I rebuild the whole site at once?",
       a: "No. Confirm hypotheses with data first and remove critical causes. Mass unrelated changes muddy diagnosis.",
     },
     {
-      q: "Can you delete all external links?",
+      q: "Can I delete all external links?",
       a: "Don’t act blind. Assess quality, origin, and link dynamics; when needed, handle them per search-engine rules.",
     },
   ],
@@ -56,10 +56,10 @@ export const filtryPoiskovikovEn: BlogPost = {
         {
           intro: "Basic inspection:",
           items: [
-            "availability and mirrors;",
-            "PageSpeed / real measurements;",
-            "security and quality in panels;",
-            "demand seasonality;",
+            "availability and mirrors",
+            "PageSpeed / real measurements",
+            "security and quality in panels",
+            "demand seasonality",
             "link profile for spam.",
           ],
         },
@@ -103,10 +103,10 @@ export const filtryPoiskovikovEn: BlogPost = {
         {
           intro: "Work plan:",
           items: [
-            "clusters and commercial/info intents;",
-            "unique strong landings;",
-            "cleanup of toxic factors;",
-            "technical debt;",
+            "clusters and commercial/info intents",
+            "unique strong landings",
+            "cleanup of toxic factors",
+            "technical debt",
             "core monitoring after fixes.",
           ],
         },
@@ -149,7 +149,7 @@ export const filtryPoiskovikovEn: BlogPost = {
       level: 2,
       paras: [
         "Track organic traffic, organic conversion, visibility of priority clusters, pages in the index, crawl errors, and speed. A dashboard of a few stable metrics beats a hundred unread reports.",
-        "After fixes, give search engines time to recrawl and reassess. Project prep — audit, tech fixes, semantics, and content — usually takes weeks or about a month; getting a noticeable share of the core into the TOP is planned for 2–6 months and depends on competition.",
+        "After fixes, give search engines time to recrawl and reassess. Project prep — audit, tech fixes, semantics, and content — usually takes weeks or about a month; getting a noticeable share of the keyword set into the top results is planned for 2–6 months and depends on competition.",
         "Don’t declare recovery from one lucky day. Watch month-to-month dynamics, year-over-year comparison, and lead quality. Domain age alone doesn’t heal problems — consistent improvements do.",
       ],
       lists: [],

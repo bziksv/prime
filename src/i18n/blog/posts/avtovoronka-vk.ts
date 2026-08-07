@@ -5,41 +5,41 @@ export const avtovoronkaVkEn: BlogPost = {
   slug: "avtovoronka-vk",
   title: "VKontakte autofunnel: community messages and a sales scenario",
   date: "2020-04-15",
-  category: "Content marketing",
+  category: "Digital marketing",
   cover: "/images/blog/avtovoronka-vk/cover-en.webp",
   excerpt:
     "How to build a VKontakte autofunnel: community, opt-in messaging, lead magnet, and a touch chain — without outdated service catalogs or cold spam.",
   lead: [
     "A VKontakte autofunnel is a sequence of community messages and touches: meet the product → warm-up → offer → upsell. The scenario is written in advance; a manager joins on complex branches.",
-    "General funnel logic is in a separate article. Here — VK specifics: message opt-in, bot/broadcast, personalization. Old “70–80% open rate” figures aren’t universal — use your own stats.",
+    "General funnel logic is in a separate article. On VK the levers are message opt-in, bots/broadcasts, and personalization — not blasting friends’ walls. Old “70–80% open rate” figures aren’t universal — use your own stats.",
   ],
   faq: [
     {
-      q: "How is it different from an email funnel?",
+      q: "How is a VK autofunnel different from an email funnel?",
       a: "The channel is VK community messages (after consent). Notifications are often easier to notice, but platform rules and limits differ.",
     },
     {
-      q: "Can I message all friends and wall subscribers?",
+      q: "Can you message all friends and wall subscribers?",
       a: "Cold mass spam leads to complaints. You need community message opt-in or a dialogue the person started.",
     },
     {
-      q: "Is a bot required?",
+      q: "Is a VK bot required for an autofunnel?",
       a: "Not always. For FAQ and a simple funnel a bot helps; for rare complex sales a human + templates can be enough.",
     },
     {
-      q: "Which service should I pick?",
+      q: "Which bot service should you pick for VK?",
       a: "Official apps/builders from the VK catalog and current ToS. We don’t copy 2019–2020 pricing catalogs — brands and prices age out.",
     },
     {
-      q: "Which businesses fit best?",
+      q: "Which businesses fit a VK autofunnel best?",
       a: "Info products, services, B2B, and long cycles. Broad e-com “whole catalog in one chain” is usually weaker.",
     },
     {
-      q: "Do I need a tripwire?",
+      q: "Do you need a tripwire offer?",
       a: "Useful for warm-up, not mandatory. The key is linking the lead magnet to the core offer.",
     },
     {
-      q: "How do I measure?",
+      q: "How do you measure a VK autofunnel?",
       a: "Message opt-ins, open/click if available, step→step conversion, lead quality — not only post reach.",
     },
   ],
@@ -55,7 +55,7 @@ export const avtovoronkaVkEn: BlogPost = {
       links: [
         {
           label: "Autofunnel: basics",
-          href: "/blog/avtovoronka/",
+          href: "/en/blog/avtovoronka/",
         },
       ],
     },
@@ -92,7 +92,7 @@ export const avtovoronkaVkEn: BlogPost = {
         },
         {
           label: "VK chatbot",
-          href: "/blog/chat-bot-vk/",
+          href: "/en/blog/chat-bot-vk/",
         },
       ],
     },

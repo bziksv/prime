@@ -5,13 +5,13 @@ export const bitrixAdminEn: BlogPost = {
   slug: "bitrix-admin",
   title: "How to open the 1C-Bitrix admin and recover access",
   date: "2017-11-09",
-  category: "Internet marketing",
+  category: "Websites",
   cover: "/images/blog/bitrix-admin/cover-en.webp",
   excerpt:
     "Signing in at `/bitrix/admin`, resetting the password by email, and cache/cookie glitches — without keeping a weak password and without confusing it with the public-site toolbar.",
   lead: [
     "The 1C-Bitrix admin usually opens at `https://your-site.example/bitrix/admin/`. After sign-in you get infoblocks, modules, users, and settings — that is not the same as the toolbar over public pages.",
-    "Below — how to open the login form, what to do when the password is lost, and why cache and cookies get in the way. This is not a guide to breaking into other people’s sites. The old “green Enter” UI changed — follow the current auth form.",
+    "The Bitrix admin login lives at /bitrix/admin (and related paths). Recover passwords through the official flow; cache and cookies often fake “wrong password.” This is not a guide to breaking into other people’s sites — follow the current auth form, not 2017 screenshots.",
   ],
   faq: [
     {
@@ -19,19 +19,19 @@ export const bitrixAdminEn: BlogPost = {
       a: "`/bitrix/admin` is the full backend. The public-section toolbar is on-page editing after you sign in with rights. See the separate piece on the public section.",
     },
     {
-      q: "Why a 404 on /bitrix/admin?",
+      q: "Why do you see a 404 on /bitrix/admin?",
       a: "A different login path, the site is not on Bitrix, HTTPS/www redirects, a server-level block, or the site is down. Confirm the URL with the developer or host.",
     },
     {
-      q: "Can you sign in via Bitrix24?",
+      q: "Can you sign in to the site admin via Bitrix24?",
       a: "Some installs offer a linked-account login. If there is no button or the link is not set up — use the site user’s normal login and password.",
     },
     {
-      q: "The password email never arrives?",
+      q: "What if the password reset email never arrives?",
       a: "Check spam, that the user’s email is correct, and that the site can send mail (SMTP/hosting). Otherwise — reset via hosting/developer with a backup.",
     },
     {
-      q: "Is this like WordPress login?",
+      q: "Is Bitrix admin login like WordPress login?",
       a: "In spirit yes (form → password → console), different path: `/bitrix/admin`, not `/wp-admin/`.",
     },
   ],
@@ -118,7 +118,7 @@ export const bitrixAdminEn: BlogPost = {
       level: 2,
       paras: [
         "Change a weak password, review users with full rights, update the product per project process. Day-to-day content edits often need only the public toolbar — don’t hand out the admin to everyone.",
-        "Store the password in a password manager and enable 2FA where your login scheme allows it.",
+        "Keep the password in a password manager and enable 2FA where your login scheme allows it.",
       ],
       links: [
         {

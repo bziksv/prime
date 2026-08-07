@@ -10,8 +10,8 @@ export const semanticheskoeYadroEn: BlogPost = {
   excerpt:
     "How to pick keywords, classify queries, and build a semantic core — step by step for SEO.",
   lead: [
-    "A site’s semantic core is the list of search queries that bring users to the resource. Those queries — keywords — shape the site’s structure.",
-    "The semantic core is the foundation of online promotion. The right keywords grow visits, leads, and audience. Below — what belongs in the core, how it drives copy, and the nuances of building it.",
+    "A site’s semantic core is the list of search queries that bring users to the site. Those queries — keywords — shape the site’s structure.",
+    "The semantic core is the foundation of online promotion. The right keywords grow visits, leads, and audience. We cover what belongs in the core, how it shapes copy, and the nuances of building it.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const semanticheskoeYadroEn: BlogPost = {
     },
     {
       q: "How many keywords does a core need?",
-      a: "Rough guides: service landing — dozens to a couple hundred phrases; multi-section service site — hundreds to a couple thousand; large catalog — thousands and up. Intent coverage matters more than “collect more”.",
+      a: "Rough guides: service landing — dozens to a couple hundred keywords; multi-section service site — hundreds to a couple thousand; large catalog — thousands and up. Intent coverage matters more than “collect more”.",
     },
     {
       q: "How do head terms differ from long-tail?",
@@ -40,14 +40,14 @@ export const semanticheskoeYadroEn: BlogPost = {
       title: "What a semantic core is",
       level: 2,
       paras: [
-        "A semantic core is a set of words, phrases, and expressions that reflect the resource’s topic and structure and describe what it does. Those words are keywords. They answer: “What will the user find on this site?”",
-        "Below — how many keywords usually go into work, how to classify queries, and a step-by-step build.",
+        "A semantic core is a set of words and phrases that reflect the site’s topic and structure and describe what it does. Those words are keywords. They answer: “What will the user find on this site?”",
+        "We cover how many keywords usually go into the working set, how to classify queries, and a step-by-step build.",
       ],
       lists: [
         {
           intro: "A semantic core typically has these traits:",
           items: [
-            "semantics reflect the site structure;",
+            "keywords reflect the site structure;",
             "the site answers most key queries;",
             "the resource holds the information the visitor needs.",
           ],
@@ -58,22 +58,22 @@ export const semanticheskoeYadroEn: BlogPost = {
       title: "How many keywords you need",
       level: 2,
       paras: [
-        "There’s no hard “exactly N phrases” rule: volume depends on niche, region, and how many landings you can actually maintain. The ranges below are order-of-magnitude for a start, not dogma.",
+        "There’s no hard “exactly N keywords” rule: volume depends on niche, region, and how many landings you can actually maintain. The ranges below are order-of-magnitude for a start, not dogma.",
       ],
       lists: [
         {
           intro: "Typical ranges (after cleanup, not a raw Wordstat dump):",
           items: [
-            "single-service landing — dozens to about 150–200 phrases;",
+            "single-service landing — dozens to about 150–200 keywords;",
             "service site with several sections — hundreds to 1–2 thousand;",
-            "online store / catalog — thousands of phrases, growing with the assortment.",
+            "online store / catalog — thousands of keywords, growing with the assortment.",
           ],
         },
       ],
       notes: [
         {
           title: "What to watch instead of “collect more”",
-          text: "Closing commercial and informational intents under real URLs matters more. A bloated core without landings and copy only inflates the spreadsheet.",
+          text: "Covering commercial and informational intents under real URLs matters more. A bloated core without landings and copy only inflates the spreadsheet.",
         },
       ],
     },
@@ -94,7 +94,8 @@ export const semanticheskoeYadroEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Rough monthly impression thresholds (a guide, not an official search-engine scale):",
+          intro:
+            "Rough monthly impression thresholds (a guide, not an official search-engine scale):",
           items: [
             "micro low-frequency — under 100;",
             "low-frequency — 100 to 1,000;",
@@ -165,7 +166,7 @@ export const semanticheskoeYadroEn: BlogPost = {
         "Depending on the content the user wants, there are four query types.",
         "If your site offers that content, you can take this group. Often people prefer Google Images, streaming services, or YouTube.",
         "Transactional. Functionally close to commercial. Used to find products or services to buy. To rank, you need a catalog with product cards — photos, descriptions, prices — plus cart, payment, and delivery options.",
-        "Search engines rarely put small stores in TOP. Large aggregators usually hold the first rows.",
+        "Search engines rarely put small stores in the TOP. Large aggregators usually hold the first rows.",
         "If the resource has useful info for such keys, you can use them in promotion. More often they enter the core when the site is also pushed with paid search.",
       ],
       lists: [
@@ -178,16 +179,13 @@ export const semanticheskoeYadroEn: BlogPost = {
           ],
         },
         {
-          intro: "Navigational. People look for a specific place, event, or site. For example:",
+          intro:
+            "Navigational. People look for a specific place, event, or site. For example:",
           items: ["yandex;", "olympics 2022;", "clinic no. 2 address."],
         },
         {
           intro: "Informational key examples:",
-          items: [
-            "great patriotic war;",
-            "borscht recipe;",
-            "who was lenin.",
-          ],
+          items: ["great patriotic war;", "borscht recipe;", "who was lenin."],
         },
       ],
     },
@@ -199,7 +197,8 @@ export const semanticheskoeYadroEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Vital — only the brand or company name. People look for specific products or the official site. For example:",
+          intro:
+            "Vital — only the brand or company name. People look for specific products or the official site. For example:",
           items: ["apteka.ru;", "MVideo;", "Apple."],
         },
         {
@@ -223,7 +222,8 @@ export const semanticheskoeYadroEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "To build a semantic core you collect keywords and phrases. The more synonyms, specialist terms, abbreviations, and short forms you include, the fuller the answer to the query that brought the user. The core helps:",
+          intro:
+            "To build a semantic core you collect keywords and related terms. The more synonyms, specialist terms, abbreviations, and short forms you include, the fuller the answer to the query that brought the user. The core helps:",
           items: [
             "build a visitor-friendly site structure;",
             "deliver quality content;",
@@ -242,7 +242,8 @@ export const semanticheskoeYadroEn: BlogPost = {
       lists: [],
       links: [
         {
-          label: "Download CSV template (marker, frequency, type, cluster, URL)",
+          label:
+            "Download CSV template (marker, frequency, type, cluster, URL)",
           href: "/files/blog/semanticheskoe-yadro-template.csv",
         },
       ],
@@ -257,7 +258,8 @@ export const semanticheskoeYadroEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Brainstorming helps. Write down all data and thoughts on the topic. The list should include:",
+          intro:
+            "Brainstorming helps. Write down all data and thoughts on the topic. The list should include:",
           items: [
             "locations: region, city, district, metro stations and streets people use to find the place;",
             "every category of products you offer;",
@@ -310,12 +312,37 @@ export const semanticheskoeYadroEn: BlogPost = {
           caption: "Mini example: PVC windows, Voronezh (fragment)",
           headers: ["Marker / query", "Type", "Cluster", "Landing"],
           rows: [
-            ["pvc windows voronezh", "commercial + geo", "PVC windows", "/okna-pvh/"],
-            ["buy pvc windows voronezh", "commercial + geo", "PVC windows", "/okna-pvh/"],
+            [
+              "pvc windows voronezh",
+              "commercial + geo",
+              "PVC windows",
+              "/okna-pvh/",
+            ],
+            [
+              "buy pvc windows voronezh",
+              "commercial + geo",
+              "PVC windows",
+              "/okna-pvh/",
+            ],
             ["pvc windows price", "commercial", "PVC windows", "/okna-pvh/"],
-            ["window installation voronezh", "commercial + geo", "Installation", "/ustanovka-okon/"],
-            ["how to choose pvc windows", "informational", "Guide", "/blog/kak-vybrat-okna/"],
-            ["window repair voronezh", "commercial + geo", "Repair", "/remont-okon/"],
+            [
+              "window installation voronezh",
+              "commercial + geo",
+              "Installation",
+              "/ustanovka-okon/",
+            ],
+            [
+              "how to choose pvc windows",
+              "informational",
+              "Guide",
+              "/blog/kak-vybrat-okna/",
+            ],
+            [
+              "window repair voronezh",
+              "commercial + geo",
+              "Repair",
+              "/remont-okon/",
+            ],
           ],
         },
       ],
@@ -345,11 +372,11 @@ export const semanticheskoeYadroEn: BlogPost = {
       links: [
         {
           label: "SEO site structure",
-          href: "/blog/seo-struktura-sayta/",
+          href: "/en/blog/seo-struktura-sayta/",
         },
         {
           label: "Technical SEO audit",
-          href: "/blog/tehnicheskiy-seo-audit/",
+          href: "/en/blog/tehnicheskiy-seo-audit/",
         },
       ],
     },
@@ -377,7 +404,7 @@ export const semanticheskoeYadroEn: BlogPost = {
       title: "Tools for working with a semantic core",
       level: 2,
       paras: [
-        "Below — tools teams usually use to collect and group a core. Not a ranking: pick by task and budget. Narrow or outdated panels aren’t included.",
+        "Tools teams usually use to collect and group a core. Not a ranking—pick by task and budget. Narrow or outdated panels aren’t included.",
       ],
       lists: [],
     },
@@ -393,7 +420,7 @@ export const semanticheskoeYadroEn: BlogPost = {
       title: "Google Keyword Planner",
       level: 3,
       paras: [
-        "Google Ads keyword planner: query ideas, frequency estimates, and Google forecasts. Handy as a second contour next to Wordstat, especially if you also look at Google.",
+        "Google Ads keyword planner: query ideas, frequency estimates, and Google forecasts. Handy as a second angle next to Wordstat, especially if you also look at Google.",
       ],
       lists: [],
     },
@@ -417,7 +444,7 @@ export const semanticheskoeYadroEn: BlogPost = {
       title: "Titlo",
       level: 3,
       paras: [
-        "A platform with modules: query collection and clustering, list comparison, relevance, rankings, meta tags, and monitoring. Modules can be used separately or in one cabinet.",
+        "A platform with modules: query collection and clustering, list comparison, relevance, rankings, meta tags, and monitoring. Modules can be used separately or in one account.",
       ],
       lists: [],
     },
@@ -433,7 +460,7 @@ export const semanticheskoeYadroEn: BlogPost = {
       title: "Keys.so / Serpstat",
       level: 3,
       paras: [
-        "Paid systems with data on keys, competitors, and SERP pages. Help expand mid- and low-frequency phrases and see who already owns the niche. Choice depends on the team’s usual stack.",
+        "Paid systems with data on keys, competitors, and SERP pages. Help expand mid- and low-frequency keywords and see who already owns the niche. Choice depends on the team’s usual stack.",
       ],
       lists: [],
     },
@@ -449,7 +476,7 @@ export const semanticheskoeYadroEn: BlogPost = {
       title: "Ahrefs",
       level: 3,
       paras: [
-        "Stronger on backlinks and English/global contours, but also shows competitors’ organic keys. For a purely “Yandex” core it more often complements Wordstat and local suites than replaces them.",
+        "Stronger on backlinks and English/global markets, but also shows competitors’ organic keys. For a purely “Yandex” core it more often complements Wordstat and local suites than replaces them.",
         "Any toolset only speeds the work. How you pick wording and avoid mixing intents on one page — that comes down to practice and common sense.",
       ],
       lists: [],

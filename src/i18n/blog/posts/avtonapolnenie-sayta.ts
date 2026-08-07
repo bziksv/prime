@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for avtonapolnenie-sayta — same structure as RU JSON. */
 export const avtonapolnenieSaytaEn: BlogPost = {
   slug: "avtonapolnenie-sayta",
-  title: "What site auto-filling is and how it works",
+  title: "Site auto-filling: what it is and how it works",
   date: "2022-02-15",
   category: "SEO",
   cover: "/images/blog/avtonapolnenie-sayta/cover-en.webp",
   excerpt:
-    "How auto-filling via RSS and plugins works, where it fits, and why for solid SEO it’s usually more harmful than helpful.",
+    "How auto-filling via RSS and plugins works, where it fits, and why for serious SEO it’s usually more harmful than helpful.",
   lead: [
-    "Auto-filling is when programs pull content onto a site: RSS feeds, grabbers, synonymizers. The webmaster doesn’t write every note by hand.",
-    "Below — how it works in practice (including on WordPress), search risks, and when the method makes any sense at all.",
+    "Auto-filling is when programs pull content onto a site: RSS feeds, scrapers, synonymizers. You don’t write every note by hand.",
+    "Grabbers and auto-importers can flood a CMS fast — including WordPress — but search treats thin scraped pages as spam. Use partial automation carefully; full auto-fill rarely builds durable rankings.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const avtonapolnenieSaytaEn: BlogPost = {
       a: "Automatic collection and publishing of materials from external sources (often RSS) via grabber plugins, sometimes with text “uniquification”.",
     },
     {
-      q: "Does it help SEO?",
+      q: "Does site auto-filling help SEO?",
       a: "For a long-term commercial project — usually no: thin and duplicated content, filter risks. Short-term it can add page volume, but quality and trust suffer.",
     },
     {
@@ -27,11 +27,11 @@ export const avtonapolnenieSaytaEn: BlogPost = {
       a: "An aggregator honestly shows others’ materials with a source link. A grabber often rewrites and presents others’ work as its own — that’s already a risk zone.",
     },
     {
-      q: "Can content be partly automated?",
+      q: "Can content production be partly automated?",
       a: "Yes: drafts from partner feeds, announcements of your own releases, catalog imports. Final publish and meaning stay with a human.",
     },
     {
-      q: "What to choose instead of auto-filling?",
+      q: "What should you choose instead of auto-filling?",
       a: "An editorial plan, expert copy under query clusters, and a proper site structure.",
     },
   ],
@@ -76,11 +76,11 @@ export const avtonapolnenieSaytaEn: BlogPost = {
       paras: [
         "On WordPress people historically installed plugins like FeedWordPress, CyberSyn and analogues: RSS source → category → interval → scheduled publish.",
         "Basic order: domain and hosting → WordPress → a few hand-written reference pieces → plugin → strict filter rules and mandatory moderation before/after publish.",
-        "An alternative without grabbing — briefs for writers or an editorial team. Slower at the start, but content can tie to semantics and landings.",
+        "An alternative without grabbing — briefs for writers or an editorial team. Slower at the start, but content can tie to semantics and landing pages.",
       ],
       lists: [
         {
-          intro: "Minimum setup contour:",
+          intro: "Minimum setup:",
           items: [
             "pick sources and categories;",
             "set interval and limits;",
@@ -120,7 +120,7 @@ export const avtonapolnenieSaytaEn: BlogPost = {
         },
         {
           label: "SEO site structure",
-          href: "/blog/seo-struktura-sayta/",
+          href: "/en/blog/seo-struktura-sayta/",
         },
       ],
     },

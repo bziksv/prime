@@ -11,36 +11,36 @@ export const poiskovyeSistemyEn: BlogPost = {
     "Which search engines exist beyond Google and Yandex: Bing, DuckDuckGo, historic Rambler and Mail, Baidu. Why that matters for SEO in Russia-facing markets — without outdated market-share figures.",
   lead: [
     "Google and Yandex cover most search in Russia, but the search world is wider: Bing, DuckDuckGo, vertical and regional engines, historic brands like Rambler. Strategy should follow your analytics and GEO — not the myth that “only two exist.”",
-    "Below — a short map of players and what marketers should take from it. We don’t copy 2020 market shares or the fate of “Sputnik”/Nigma as facts for today — check fresh measurements.",
+    "We map the players briefly and spell out what marketers should take from it. We don’t treat 2020 market shares or the fate of “Sputnik”/Nigma as facts for today — check fresh measurements.",
   ],
   faq: [
     {
-      q: "Do you need Bing SEO in Russia?",
+      q: "Do I need Bing SEO in Russia?",
       a: "Sometimes: share is small, but checking GSC/Bing Webmaster and snippets is free. Priority is where your audience sits in Metrica/GA.",
     },
     {
       q: "Does DuckDuckGo matter for business?",
-      a: "For mass e‑commerce in Russia — rarely. It matters for privacy-minded audiences and as an alternate entry point.",
+      a: "For mass e-commerce in Russia — rarely. It matters for privacy-minded audiences and as an alternate entry point.",
     },
     {
-      q: "Are Rambler and Mail still “search engines”?",
+      q: "Are Rambler and Mail still search engines?",
       a: "More portals/ecosystems with a search box. As a standalone SEO channel for most niches they’re secondary.",
     },
     {
-      q: "Does everyone need Baidu?",
-      a: "No. Only if the goal is China / a Chinese-speaking audience. There’s a separate piece on Baidu.",
+      q: "Do I need Baidu?",
+      a: "No — not unless the goal is China or a Chinese-speaking audience. There’s a separate piece on Baidu.",
     },
     {
-      q: "Same SEO for every engine?",
+      q: "Is SEO the same for every search engine?",
       a: "The base is shared: useful pages, tech, clear intent. Accents and panels differ — see the Yandex vs Google comparison.",
     },
     {
-      q: "Site directories instead of search?",
+      q: "Can site directories replace search?",
       a: "Historically directories came before full-text search. Today niche directories aren’t an SEO substitute.",
     },
     {
-      q: "Should you chase exotic engines?",
-      a: "First close Yandex/Google and conversions. Exotic engines only if data shows traffic or a new market.",
+      q: "Should I chase exotic engines?",
+      a: "First cover Yandex/Google and conversions. Exotic engines only if data shows traffic or a new market.",
     },
     {
       q: "Where do I see my search-engine share?",
@@ -59,7 +59,7 @@ export const poiskovyeSistemyEn: BlogPost = {
       links: [
         {
           label: "Site directories today",
-          href: "/blog/katalogi-saytov/",
+          href: "/en/blog/katalogi-saytov/",
         },
       ],
     },
@@ -74,7 +74,7 @@ export const poiskovyeSistemyEn: BlogPost = {
       links: [
         {
           label: "SEO for Yandex and Google",
-          href: "/blog/seo-yandex-google/",
+          href: "/en/blog/seo-yandex-google/",
         },
         {
           label: "Runet",
@@ -87,7 +87,7 @@ export const poiskovyeSistemyEn: BlogPost = {
       level: 2,
       paras: [
         "Bing (Microsoft) — a notable player in some countries and the Windows ecosystem; in Russia share is usually modest, but Webmaster Tools is free.",
-        "DuckDuckGo — privacy-first; results often ride partner indexes. Useful for brands as a signal that “there’s audience outside YA/Google.”",
+        "DuckDuckGo — privacy-first; results often draw on partner indexes. Useful for brands as a signal that there’s audience outside YA/Google.",
         "Mail.ru / Rambler — strong as media portals; search for SEO is often secondary. Historic Nigma, “Sputnik,” and 2010s roundup peers shouldn’t enter a media plan without checking they’re still a live channel.",
         "Classic Yahoo is barely relevant for Russia-facing SEO; Baidu is a separate market.",
       ],
@@ -101,7 +101,7 @@ export const poiskovyeSistemyEn: BlogPost = {
       links: [
         {
           label: "Baidu",
-          href: "/blog/baidu/",
+          href: "/en/blog/baidu/",
         },
       ],
     },
@@ -109,7 +109,7 @@ export const poiskovyeSistemyEn: BlogPost = {
       title: "Practical takeaway for a site",
       level: 2,
       paras: [
-        "Close tech, content, and the core for Yandex and Google. Add Bing Webmaster if you see visits or plan an EN/global contour.",
+        "Cover tech, content, and the core for Yandex and Google. Add Bing Webmaster if you see visits or plan an EN/global footprint.",
         "Don’t spread budget across “promotion in ten dead search engines.”",
         "International markets need a separate map: language, hosting, payments, the local search leader.",
       ],
@@ -117,9 +117,9 @@ export const poiskovyeSistemyEn: BlogPost = {
         {
           intro: "Mini checklist:",
           items: [
-            "YA/Google share in Metrica;",
-            "Webmaster + Search Console;",
-            "Bing Webmaster when needed;",
+            "YA/Google share in Metrica",
+            "Webmaster + Search Console",
+            "Bing Webmaster when needed",
             "exotic engines — only with data or a new GEO.",
           ],
         },

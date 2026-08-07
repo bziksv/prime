@@ -11,23 +11,23 @@ export const telegramKanalEn: BlogPost = {
     "How to launch a Telegram channel: avatar and description, post mix, helper bots, schedule, ads, and traffic from other platforms — without betting on fake growth.",
   lead: [
     "Telegram is both a messenger and a media surface: channels deliver news and offers into the notification feed, bypassing “smart” social ranking. For business that’s a direct line to a warm audience.",
-    "Below — where to start, how to set up the channel, what content keeps readers, how bots help, and where traffic comes from. In-app search is weak — growth almost always needs external sources and ads in related channels.",
+    "We cover where to start, how to set up the channel, what content keeps readers, how bots help, and where traffic comes from. In-app search is weak — growth almost always needs external sources and ads in related channels.",
   ],
   faq: [
     {
-      q: "Channel or group?",
-      a: "A channel is a one-way feed from the author (handy for media/brand). A group is conversation. Often channel + discussion chat.",
+      q: "Should I use a channel or a group?",
+      a: "A channel is a one-way feed from the author (useful for media/brand). A group is conversation. Often channel + discussion chat.",
     },
     {
-      q: "How many posts per day?",
+      q: "How many posts per day should I publish?",
       a: "Aim for 1–3 by view stats, not “fill the feed for its own sake.” Watch when your audience reads; regional peaks are often morning / lunch / evening local time.",
     },
     {
-      q: "Do you need bots immediately?",
+      q: "Do I need bots immediately?",
       a: "No. First rhythm and value. Bots help with autoposting, polls, long texts (Telegraph), and funnels when routine gets in the way.",
     },
     {
-      q: "How do you grow subscribers?",
+      q: "How do I grow subscribers?",
       a: "Cross-posts from the site and other socials, seeding/ads in topical channels, collabs, organic sharing of strong posts. Fake growth breaks ER and ad prices.",
     },
     {
@@ -78,7 +78,7 @@ export const telegramKanalEn: BlogPost = {
       title: "Content, headlines, and rhythm",
       level: 2,
       paras: [
-        "Borrowed memes without commentary work poorly in Telegram. You need your own materials: breakdowns, news with a takeaway, short tips, less often long reads (handy to put on Telegraph).",
+        "Borrowed memes without commentary work poorly in Telegram. You need your own materials: breakdowns, news with a takeaway, short tips, less often long reads (easy to put on Telegraph).",
         "Clickbait without substance burns trust. Better a calm headline and dense value. Alternate text, photos, video, polls — a same-type wall tires people out.",
       ],
       lists: [

@@ -11,7 +11,7 @@ export const telegramBotyEn: BlogPost = {
     "What Telegram bots can do for business and channels: replies, leads, compliant broadcasts, finding bots, and basic command logic — without a catalog of shady growth hacks.",
   lead: [
     "A Telegram bot is an account driven by a program via the Bot API: it answers commands, takes leads, sends notifications, and helps a channel or site.",
-    "Below — how a bot works, why businesses use one, how to design a flow, security, and launch. Channel setup is a sibling article; we don’t cover shady growth bots.",
+    "This guide covers how a bot works, why businesses use one, how to design a flow, security, and launch. Channel setup is a sibling article; we don’t cover shady growth bots.",
   ],
   faq: [
     {
@@ -19,15 +19,15 @@ export const telegramBotyEn: BlogPost = {
       a: "A channel is a post feed. A bot is dialogue and automation: buttons, forms, integrations, notifications.",
     },
     {
-      q: "Do you need your own developer?",
+      q: "Do I need your own developer?",
       a: "For simple FAQ/leads, builders often suffice. Complex CRM, payments, and custom logic — yes, a developer.",
     },
     {
-      q: "How do you find a bot?",
+      q: "How do I find a bot?",
       a: "Telegram search, directories, a t.me/… link. Check reviews and the permissions the bot asks for.",
     },
     {
-      q: "Can you spam from a bot?",
+      q: "Can I spam from a bot?",
       a: "No. Follow Telegram rules and user consent. Mass spam risks a ban.",
     },
     {
@@ -35,7 +35,7 @@ export const telegramBotyEn: BlogPost = {
       a: "It can complement a site for support and leads. Legal pages, SEO, and a large catalog usually stay on the website.",
     },
     {
-      q: "How do you measure value?",
+      q: "How do I measure value?",
       a: "Flow starts and completions, leads, handoff to a manager, inquiry quality. Channel subscribers ≠ bot results.",
     },
     {
@@ -43,7 +43,7 @@ export const telegramBotyEn: BlogPost = {
       a: "In server/builder secrets — not a public repo or client code. Limit who can reissue the token.",
     },
     {
-      q: "Do you need a “live operator” button?",
+      q: "Do I need a “live operator” button?",
       a: "Almost always yes. Otherwise a hard question hits a menu dead end and the user leaves.",
     },
   ],
@@ -135,7 +135,7 @@ export const telegramBotyEn: BlogPost = {
       level: 2,
       paras: [
         "The channel warms and carries content; the bot closes the action: lead, booking, access to a material. On the site, “Message on Telegram” should open the bot with a clear `/start` — not an empty chat.",
-        "Don’t mirror the whole site catalog in the bot without need. Bots shine on a short path; deep choice and SEO stay on landings.",
+        "Don’t mirror the whole site catalog in the bot unnecessarily. Bots shine on a short path; deep choice and SEO stay on landings.",
       ],
       lists: [
         {
@@ -159,7 +159,7 @@ export const telegramBotyEn: BlogPost = {
       title: "Security and choosing services",
       level: 2,
       paras: [
-        "Don’t share the token without need, and read integration permissions. Avoid “subscriber / view boost” services: they break the rules and trash audience quality.",
+        "Don’t share the token unnecessarily, and read integration permissions. Avoid “subscriber / view boost” services: they break the rules and trash audience quality.",
         "If the bot collects phone, name, or a lead — explain the purpose, limit staff access, delete what you don’t need. Don’t promise in chat what the flow can’t do.",
       ],
       lists: [

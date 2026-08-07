@@ -8,30 +8,30 @@ export const reklamaVPablikahVkEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/reklama-v-pablikah-vk/cover-en.webp",
   excerpt:
-    "How to run ads via VK communities: audience, picking pages, bot and ER checks, the post, comments, and measuring results.",
+    "How to run ads via VK communities: audience fit, picking pages, bot and ER checks, the post itself, comments, and measuring results.",
   lead: [
-    "Ads in VKontakte communities mean seeding a post in someone else’s (or your own) pages. It works when you hit the right audience and pick a live community — not a bot “graveyard”.",
-    "VK dashboards and marketplaces update often: below is the logic and selection criteria, without tying to outdated UI buttons.",
+    "Ads in VKontakte communities means placing a post in someone else’s (or your own) communities. It works when you hit the right audience and pick a live community—not a bot graveyard.",
+    "VK dashboards and marketplaces update often: below is the selection logic and criteria, without tying you to outdated UI buttons.",
   ],
   faq: [
     {
       q: "How is community seeding different from paid targeting?",
-      a: "Seeding places the post with a specific community audience. Targeting runs ads by segments in the ad cabinet. They’re often used together.",
+      a: "Seeding places the post with a specific community audience. Targeting runs ads by segments in the ad account. They’re often used together.",
     },
     {
-      q: "How do you tell a community has many bots?",
-      a: "Dead/abandoned profiles, abnormal ER, sharp unfollows, identical comments. Check tools help, but also read the feed yourself.",
+      q: "How can I tell a community has many bots?",
+      a: "Dead or abandoned profiles, abnormal engagement rate, sharp unfollow spikes, identical comments. Tools help, but also read the feed yourself.",
     },
     {
       q: "What matters more — follower count or post reach?",
       a: "Reach and reaction on recent posts. A large “dead” base is useless.",
     },
     {
-      q: "Who do you contact about placement?",
+      q: "Who should I contact about placement?",
       a: "The community admin or via a VK marketplace/ad platform — whatever that page uses.",
     },
     {
-      q: "How do you measure effectiveness?",
+      q: "How do I measure results?",
       a: "UTM/promo code, leads, cost per inquiry, comment quality. Not only likes under the ad post.",
     },
   ],
@@ -68,8 +68,8 @@ export const reklamaVPablikahVkEn: BlogPost = {
       title: "How to shortlist communities",
       level: 2,
       paras: [
-        "Build a long-list: VK search by topic, recommendations, lists from the cabinet/marketplace, community-finder tools.",
-        "Then short-list with five checks: audience fit, activity, bots, reach, other ads.",
+        "Build a long list: VK search by topic, recommendations, lists from the account/marketplace, community-finder tools.",
+        "Then shortlist with five checks: audience fit, activity, bots, reach, other ads.",
       ],
       lists: [
         {
@@ -94,8 +94,16 @@ export const reklamaVPablikahVkEn: BlogPost = {
           caption: "Community filter before payment",
           headers: ["Criterion", "Look at", "Stop signal"],
           rows: [
-            ["Audience", "Gender/age/geo in stats", "Wrong city/age with no overlap"],
-            ["Activity", "Comments under regular posts", "Silence with “loud” reach"],
+            [
+              "Audience",
+              "Gender/age/geo in stats",
+              "Wrong city/age with no overlap",
+            ],
+            [
+              "Activity",
+              "Comments under regular posts",
+              "Silence despite “loud” reach",
+            ],
             ["Bots", "Base check + feed", "Mass dead accounts"],
             ["Ads", "Density of ad posts", "Every post is a seed"],
           ],

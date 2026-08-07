@@ -5,17 +5,17 @@ export const proksiServerEn: BlogPost = {
   slug: "proksi-server",
   title: "Proxy server: what it is and why you need it",
   date: "2018-04-25",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/proksi-server/cover-en.webp",
   excerpt:
     "What a proxy server is in plain words: how the middleman between client and site works, forward vs reverse, cache and corporate gateway — without ban-bypass guides or shady IP lists.",
   lead: [
     "A proxy server is an intermediate node between your device (or internal network) and a target resource on the internet. The request goes to the proxy first, then to the site; the response returns the same way. Sometimes the parties don’t even know about the middleman.",
-    "Below — how the connection works, why providers and companies deploy proxies, how forward differs from reverse on a site, and the risks of “free” public proxies. Bypassing forum bans and other people’s ToS isn’t covered as practice.",
+    "How the connection works, why providers and companies deploy proxies, how forward differs from reverse on a site, and what webmasters watch for. This isn’t a proxy-abuse how-to.",
   ],
   faq: [
     {
-      q: "Is a proxy = VPN?",
+      q: "Is a proxy the same as a VPN?",
       a: "Related ideas (traffic via someone else’s node), different model. A VPN usually encrypts a full tunnel; a proxy more often works at the app/HTTP layer and doesn’t replace a VPN one-to-one.",
     },
     {
@@ -23,7 +23,7 @@ export const proksiServerEn: BlogPost = {
       a: "Control internet access from the LAN, cache, filtering, logs, bandwidth savings — typical corporate scenarios.",
     },
     {
-      q: "What is a reverse proxy?",
+      q: "What is a reverse proxy used for?",
       a: "A proxy “in front of” your site (often nginx): takes user requests, serves static files, balances to the backend, terminates HTTPS.",
     },
     {
@@ -84,9 +84,9 @@ export const proksiServerEn: BlogPost = {
         {
           intro: "Legitimate scenarios:",
           items: [
-            "corporate internet gateway;",
-            "speeding repeat loads with cache;",
-            "reverse proxy / CDN edge in front of the site;",
+            "corporate internet gateway",
+            "speeding repeat loads with cache",
+            "reverse proxy / CDN edge in front of the site",
             "isolating internal services from direct access.",
           ],
         },

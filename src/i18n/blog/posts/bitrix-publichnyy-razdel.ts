@@ -5,17 +5,17 @@ export const bitrixPublichnyyRazdelEn: BlogPost = {
   slug: "bitrix-publichnyy-razdel",
   title: "1C-Bitrix public section: toolbar and edit mode",
   date: "2017-12-13",
-  category: "Internet marketing",
+  category: "Websites",
   cover: "/images/blog/bitrix-publichnyy-razdel/cover-en.webp",
   excerpt:
     "How the Bitrix public-area control bar works: buttons, edit mode, include areas, and components — without clinging to old-edition screenshots or a meta keywords cult.",
   lead: [
     "In 1C-Bitrix, after signing in, a public-section bar often appears at the top of the page: create a page, edit the menu, clear cache, open SEO properties, enable edit mode.",
-    "Below — what the main elements mean and how to edit content “on the site” without wandering the admin. The button set depends on rights and edition; item names changed — follow current Bitrix docs, not 2017 screenshots.",
+    "The public-section bar lets editors change content “on the site” without diving into full Administration. The button set depends on rights and edition; item names changed — follow current Bitrix docs, not 2017 screenshots.",
   ],
   faq: [
     {
-      q: "Why is there no bar after login?",
+      q: "Why is there no public-section bar after login?",
       a: "No rights to the public bar, a different site/domain, or display mode. Ask an administrator for a role.",
     },
     {
@@ -23,16 +23,16 @@ export const bitrixPublichnyyRazdelEn: BlogPost = {
       a: "Public — edit with a visitor’s eyes. Administration — full backend: infoblocks, modules, users, settings.",
     },
     {
-      q: "Is edit mode dangerous?",
+      q: "Is public-section edit mode dangerous?",
       a: "On production be careful: a mistaken save hits the live site. For important edits use rights, drafts/workflow, and backups per company rules.",
     },
     {
-      q: "Does the SEO button replace promotion?",
+      q: "Does the SEO button replace real promotion?",
       a: "No. It’s title/description fields and hints. Don’t use keywords as a factor. Rankings are separate work.",
     },
     {
       q: "Is this related to the Bitrix SEO article?",
-      a: "Yes, adjacent: that one covers robots/meta/module; here — the bar and visual edits in the public area.",
+      a: "Yes, adjacent: that one covers robots/meta/module; here it’s the bar and visual edits in the public area.",
     },
   ],
   sections: [
@@ -106,11 +106,11 @@ export const bitrixPublichnyyRazdelEn: BlogPost = {
       level: 2,
       paras: [
         "Clearing cache helps see fresh edits if a page is “stuck.” Don’t overuse it on high-load prod without understanding the impact.",
-        "The SEO block on the bar is about current page properties (title, description). Don’t fill keywords “for luck.” Built-in Bitrix “stats” don’t replace Metrika/analytics for marketing — check what’s actually connected on the project.",
+        "The SEO block on the bar is about current page properties (title, description). Don’t fill keywords “for luck.” Built-in Bitrix “stats” don’t replace Yandex Metrica/analytics for marketing — check what’s actually connected on the project.",
       ],
       links: [
         {
-          label: "Installing Metrika",
+          label: "Installing Yandex Metrica",
           href: "/en/blog/metrika-ustanovka/",
         },
       ],
@@ -126,7 +126,7 @@ export const bitrixPublichnyyRazdelEn: BlogPost = {
       title: "Takeaways",
       level: 2,
       paras: [
-        "The Bitrix public bar is a fast content contour: create/edit, area edit mode, cache, and page SEO fields. Full module settings live in Administration.",
+        "The Bitrix public bar is a fast content workflow: create/edit, area edit mode, cache, and page SEO fields. Full module settings live in Administration.",
         "Edition UIs differ: learn role and area logic, don’t memorize icon placement from a 2017 screenshot. Admin login will be covered separately in the migration queue.",
       ],
     },

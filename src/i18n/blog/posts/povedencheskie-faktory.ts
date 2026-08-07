@@ -5,13 +5,13 @@ export const povedencheskieFaktoryEn: BlogPost = {
   slug: "povedencheskie-faktory",
   title: "Behavioral signals: what to improve without gaming",
   date: "2018-08-23",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/povedencheskie-faktory/cover-en.webp",
   excerpt:
     "On-site and off-site behavioral signals: bounce, depth, time, snippet CTR; structure, mobile, speed, content, and session replay — without gaming schemes or TOP guarantees.",
   lead: [
     "Behavioral signals show how useful and usable the site and SERP experience are: bounce, pages per session, time, snippet CTR, returns to search.",
-    "Below — practical levers for UX and the snippet. Exact weights in algorithms are closed; improve the user experience — don’t buy “behavioral traffic”. Gaming is risky — see a separate piece. Rank growth is planned and isn’t “fixed speed → TOP tomorrow”.",
+    "We cover practical levers for UX and the snippet. Exact weights in algorithms are closed; improve the user experience — don’t buy “behavioral traffic.” Gaming is risky — see a separate piece. Rank growth is planned and isn’t “fixed speed → TOP tomorrow.”",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const povedencheskieFaktoryEn: BlogPost = {
       a: "On-site: bounce, pages/session, time. Off-site: SERP CTR, returns to the SERP. The list is approximate — engines don’t publish a full set.",
     },
     {
-      q: "Can you game behavioral signals?",
+      q: "Can I game behavioral signals?",
       a: "Gray schemes exist technically, but they risk filters and lost trust. We don’t give how-tos — only lawful UX.",
     },
     {
@@ -27,7 +27,7 @@ export const povedencheskieFaktoryEn: BlogPost = {
       a: "Yes for bounce and conversion. For SEO it’s one page-quality signal — not the only one.",
     },
     {
-      q: "Why session replay?",
+      q: "Why should I use session replay?",
       a: "To see mis-clicks, broken forms, and walls of text. Hypotheses for fixes — not ranking magic.",
     },
     {
@@ -35,7 +35,7 @@ export const povedencheskieFaktoryEn: BlogPost = {
       a: "Often treated as off-site. Title/description and rich results affect the click; a click without a useful page won’t hold.",
     },
     {
-      q: "Is responsive required?",
+      q: "Is a responsive site required?",
       a: "Practically yes: mobile traffic and mobile-first indexing make an awkward phone an expensive fail.",
     },
   ],
@@ -44,7 +44,7 @@ export const povedencheskieFaktoryEn: BlogPost = {
       title: "What is measured and where data comes from",
       level: 2,
       paras: [
-        "Owners see behavior in analytics tools. Search engines rely on their own interaction signals with the SERP and products — they don’t share details. Don’t build strategy on rumors that “Google bought your analytics”.",
+        "Owners see behavior in analytics tools. Search engines rely on their own interaction signals with the SERP and products — they don’t share details. Don’t build strategy on rumors that “Google bought your analytics.”",
         "Improving behavioral signals usually lifts conversion too: people find the answer and next step easier. That’s worth more than chasing one “time on site” metric.",
       ],
       links: [
@@ -64,15 +64,15 @@ export const povedencheskieFaktoryEn: BlogPost = {
       paras: [
         "Structure and nav: reach what’s needed in few clicks; search and filters on large catalogs. Otherwise bounce rises before the offer.",
         "Responsive and speed are the base. Heavy images, no cache, and broken scripts on mobile kill the session.",
-        "Interactive bits (calculators, quizzes) and live contact raise engagement if they don’t block the job. Content — with lists, subheads, readable type, and fitting media, not a “wall of text”.",
+        "Interactive bits (calculators, quizzes) and live contact raise engagement if they don’t block the job. Content — with lists, subheads, readable type, and fitting media, not a “wall of text.”",
       ],
       lists: [
         {
           intro: "Quick behavioral audit:",
           items: [
-            "mobile path on a key page;",
-            "LCP/bounce on landings;",
-            "session replay of forms and menus;",
+            "mobile path on a key page",
+            "LCP/bounce on landings",
+            "session replay of forms and menus",
             "title relevance to the query and page copy.",
           ],
         },
@@ -99,7 +99,7 @@ export const povedencheskieFaktoryEn: BlogPost = {
       notes: [
         {
           title: "No gaming",
-          text: "Any “behavioral boost” services are outside recommendations. Fix UX and the snippet; rankings grow from real usefulness.",
+          text: "Any “behavioral boost” services are outside recommendations. Fix UX and the snippet; rankings grow from real usefulness over planned timelines (often 2–6 months for core TOP), not from bought signals.",
           kind: "tip",
         },
       ],

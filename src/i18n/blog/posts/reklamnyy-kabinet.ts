@@ -5,13 +5,13 @@ export const reklamnyyKabinetEn: BlogPost = {
   slug: "reklamnyy-kabinet",
   title: "Ad account: what it is and where to start",
   date: "2021-04-16",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/reklamnyy-kabinet/cover-en.webp",
   excerpt:
-    "What an ad account is, which entities almost always exist (campaign, budget, audience, stats), and how to approach a launch in Yandex Direct and social ad cabinets.",
+    "What an ad account is, which entities almost always exist (campaign, budget, audience, stats), and how to approach a launch in Yandex Direct and social ad accounts.",
   lead: [
     "An ad account is the interface where you create campaigns, set budget and audience, and read stats. Each platform has its own UI, but the logic is similar.",
-    "Below — shared terms and a start order. Menu items change; for Meta* platforms this material is informational and does not urge use of the service.",
+    "Here’s the shared vocabulary and a sensible launch order. Menus change; for Meta* platforms this article is informational and does not urge you to use the service.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -20,32 +20,32 @@ export const reklamnyyKabinetEn: BlogPost = {
   faq: [
     {
       q: "Where should a beginner in Russia start?",
-      a: "Often with Yandex Direct and/or VK ads — check current access and platform documents. Elsewhere, pick the cabinets your audience and legal context actually allow.",
+      a: "Often with Yandex Direct and/or VK ads — check current access and platform documents. Elsewhere, pick the accounts your audience and legal context actually allow.",
     },
     {
       q: "How is an ad account different from a site?",
       a: "The account manages ad delivery. The site/landing receives traffic and converts.",
     },
     {
-      q: "Do you need Metrica?",
-      a: "Yes for judging leads and ROI. Platform pixels/counters — by task.",
+      q: "Do I need Yandex Metrica?",
+      a: "Yes for judging leads and ROI on Yandex traffic. Platform pixels/counters — by task.",
     },
     {
       q: "What are a campaign and an ad?",
       a: "A campaign is budget and strategy level. Groups/ad sets set targeting. Ads are creatives.",
     },
     {
-      q: "Can you run everything “by eye”?",
+      q: "Can I run everything by gut feel?",
       a: "No. Without goals and tagging you can’t tell clicks from leads.",
     },
     {
-      q: "What budget do you need for a test?",
+      q: "What budget do I need for a test?",
       a: "It depends on niche, CPC, and goal. Set an amount enough to gather data, and decide in advance when to stop or scale.",
     },
   ],
   sections: [
     {
-      title: "General account scheme",
+      title: "How an ad account is structured",
       level: 2,
       paras: [
         "Almost everywhere: account → campaigns → groups → ads → stats. Plus billing, moderation, and audience settings.",
@@ -67,7 +67,7 @@ export const reklamnyyKabinetEn: BlogPost = {
       title: "Platforms: Direct, VK, and others",
       level: 2,
       paras: [
-        "Yandex Direct — Yandex search and networks. VK — its own ad account. Other platforms have separate cabinets and access rules.",
+        "Yandex Direct — Yandex search and networks. VK — its own ad account. Other platforms have separate accounts and access rules.",
         "Facebook*/Instagram* ads historically ran through Meta Ads Manager; for users in Russia, mind the legal status of Meta* products.",
       ],
       lists: [
@@ -84,7 +84,7 @@ export const reklamnyyKabinetEn: BlogPost = {
       ],
       links: [
         {
-          label: "Installing Metrica",
+          label: "Installing Yandex Metrica",
           href: "/en/blog/metrika-ustanovka/",
         },
         {

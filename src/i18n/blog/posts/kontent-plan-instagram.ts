@@ -8,10 +8,10 @@ export const kontentPlanInstagramEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/kontent-plan-instagram/cover-en.webp",
   excerpt:
-    "How to build a working Instagram content plan: goal, rubrics, post mix, schedule, ideas, and results review.",
+    "How to build a working Instagram content plan: goal, categories, post mix, schedule, ideas, and results review.",
   lead: [
     "A content plan is a publishing calendar tied to the account goal: what, why, and when goes out. Without it you easily slip into random posts or wall-to-wall sales.",
-    "Below — a plan frame, format mix, and a monthly checklist. Planner menus change — the system matters more than a specific app.",
+    "A solid frame covers format mix and a monthly checklist. Planner UIs change — the system matters more than a specific app.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -19,19 +19,19 @@ export const kontentPlanInstagramEn: BlogPost = {
   },
   faq: [
     {
-      q: "How far ahead should you plan?",
-      a: "Beginners do well with 2–4 weeks plus a backlog of ideas. A full month — once rubrics and production are stable.",
+      q: "How far ahead should I plan?",
+      a: "Beginners do well with 2–4 weeks plus a backlog of ideas. A full month — once categories and production are stable.",
     },
     {
       q: "How many selling posts is normal?",
       a: "Guide: a minority of the feed. Mixes like 60% value / 20% engagement / 20% sales often work — tune to your niche.",
     },
     {
-      q: "Do you need a separate Stories plan?",
+      q: "Do I need a separate Stories plan?",
       a: "Yes, at least in short blocks: announcements, behind the scenes, Q&A, CTA. Stories shouldn’t be a random afterthought.",
     },
     {
-      q: "Where do ideas come from?",
+      q: "Where do content ideas come from?",
       a: "Audience questions, competitors, your cases, seasonality, archive of winning posts, related channels.",
     },
     {
@@ -53,7 +53,7 @@ export const kontentPlanInstagramEn: BlogPost = {
       title: "How to build a plan in 5 steps",
       level: 2,
       paras: [
-        "First position and goal, then rubrics, mix, calendar, and production.",
+        "First position and goal, then categories, mix, calendar, and production.",
       ],
       lists: [
         {
@@ -61,7 +61,7 @@ export const kontentPlanInstagramEn: BlogPost = {
           items: [
             "Topic and account role: education, blog, shop, personal brand.",
             "Goal for the period: followers, leads, warm-up, reputation.",
-            "Rubrics and formats: post, carousel, Reels/short clips, Stories.",
+            "Categories and formats: post, carousel, Reels/short clips, Stories.",
             "Mix of value / engagement / sales.",
             "Slot schedule + owners + shoot deadlines.",
           ],
@@ -85,10 +85,10 @@ export const kontentPlanInstagramEn: BlogPost = {
       ],
     },
     {
-      title: "Rubrics and mix",
+      title: "Categories and mix",
       level: 2,
       paras: [
-        "Rubrics build recognition: “mistake breakdown”, “before/after”, “Q&A”, “product news”. The mix protects from ad noise.",
+        "Categories build recognition: “mistake breakdown,” “before/after,” “Q&A,” “product news.” The mix protects from ad noise.",
       ],
       lists: [
         {
@@ -119,7 +119,7 @@ export const kontentPlanInstagramEn: BlogPost = {
       title: "Post ideas",
       level: 2,
       paras: [
-        "Take ideas from client conversations and from what already worked in insights — not only from someone else’s trends.",
+        "Take ideas from customer conversations and from what already worked in insights — not only from someone else’s trends.",
       ],
       lists: [
         {
@@ -157,7 +157,7 @@ export const kontentPlanInstagramEn: BlogPost = {
       title: "Schedule and production",
       level: 2,
       paras: [
-        "Tie slots to real shoot and moderation time, not a mythical “perfect hour”. Use your own activity insights.",
+        "Tie slots to real shoot and moderation time, not a mythical “perfect hour.” Use your own activity insights.",
         "Keep a draft backlog: 5 evergreen posts and a pack of Stories scripts for when the plan slips.",
       ],
       lists: [
@@ -178,7 +178,7 @@ export const kontentPlanInstagramEn: BlogPost = {
       title: "Review and tools",
       level: 2,
       paras: [
-        "Once a week check what people saved and commented. Drop weak rubrics, double down on strong ones. The plan is a living document.",
+        "Once a week check what people saved and commented. Drop weak categories, double down on strong ones. The plan is a living document.",
         "Spreadsheets, Notion, built-in platform schedulers — pick what you’ll actually use. 2022 tools aren’t sacred.",
       ],
       lists: [

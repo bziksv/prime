@@ -3,65 +3,64 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for videoreklama-youtube — same structure as RU JSON. */
 export const videoreklamaYoutubeEn: BlogPost = {
   slug: "videoreklama-youtube",
-  title: "Video ads on YouTube: is it worth launching",
+  title: "YouTube video ads: when they’re worth running",
   date: "2021-01-28",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/videoreklama-youtube/cover-en.webp",
   excerpt:
-    "When YouTube video ads pay off, which formats exist, how to judge audience and budget — without “most effective on the internet” claims or outdated prices.",
+    "When YouTube video ads pay off, which formats exist, and how to judge audience fit and budget — without “most effective on the internet” hype or stale price quotes.",
   lead: [
-    "Ads in YouTube videos annoy some viewers, but they deliver reach, awareness, and occasionally leads — if offer, creative, and landing form one funnel.",
-    "Below — format upsides, audience work, sales linkage, and how to think about budget. CPM/CPC figures from old guides age fast: use your own test and Google Ads help.",
-    "In some markets, also check account availability and platform policy at launch time.",
+    "Pre-roll and in-stream ads annoy some viewers, but they can deliver reach, awareness, and sometimes leads — if the offer, creative, and landing page work as one funnel.",
+    "Match format to the funnel, treat audience and creative as the budget drivers, and tie the ad to a clear sales path. CPM and CPC benchmarks from old articles go stale fast — run your own test and check current Google Ads help.",
   ],
   faq: [
     {
       q: "Are YouTube Ads the same as channel monetization?",
-      a: "No. Monetization is the creator’s income from ads in their videos. YouTube Ads is you paying to show your ads.",
+      a: "No. Monetization is what creators earn from ads on their videos. YouTube Ads is what you pay to show your own ads.",
     },
     {
-      q: "Must viewers watch 30 seconds?",
-      a: "Depends on format: skippable in-stream can be skipped after a few seconds; other types exist. Check current formats in the account.",
+      q: "Do viewers have to watch 30 seconds?",
+      a: "It depends on the format. Skippable in-stream ads can be skipped after a few seconds; other types work differently. Check current formats in your account.",
     },
     {
-      q: "Will ads help sales?",
-      a: "Yes if there’s a strong offer and landing. Merely “a clip before a video” sells nothing.",
+      q: "Will ads drive sales?",
+      a: "Yes — if you have a strong offer and landing page. A clip running before someone else’s video doesn’t sell anything by itself.",
     },
     {
-      q: "Is there an SEO bonus from Ads?",
-      a: "No direct “Ads = TOP”. Indirectly — brand, demand, site traffic. Organic grows from content and SEO work.",
+      q: "Is there an SEO bonus from YouTube Ads?",
+      a: "No direct “Ads = top rankings.” Indirectly, ads can lift brand demand and site traffic. Organic growth still comes from content and SEO work.",
     },
     {
-      q: "What budget to start with?",
-      a: "Enough to see stats over a 1–2 week test, with a daily cap — not a vacuum “market average”.",
+      q: "What budget should I start with?",
+      a: "Enough to gather meaningful stats over a one- to two-week test, with a daily cap — not a vague “industry average.”",
     },
     {
-      q: "Do you need your own channel?",
-      a: "Preferably: trust, retargeting, content. For an ads test, a showcase channel is also used.",
+      q: "Do I need my own channel?",
+      a: "Ideally yes: trust, retargeting, and content all help. For an ads test, a showcase channel works too.",
     },
     {
-      q: "What if YouTube Ads isn’t available?",
-      a: "Other video and performance platforms in your market, content on your channel, performance in available accounts.",
+      q: "What if YouTube Ads isn’t available in my market?",
+      a: "Look at other video and performance platforms, organic content on your channel, and paid campaigns in accounts you can access.",
     },
   ],
   sections: [
     {
-      title: "Upsides and limits of the format",
+      title: "Pros and cons of the format",
       level: 2,
       paras: [
-        "Video carries emotion, the product “in action”, a brand face. Reach is large; targeting is flexible (interests, keywords, audiences).",
-        "Downsides: creative costs more than a banner, some viewers skip, and without conversion measurement it’s easy to burn budget on views.",
-        "Don’t compare “YouTube vs the whole internet” — compare YouTube vs other channels in your funnel: where the target action is cheaper at comparable lead quality.",
+        "Video carries emotion, shows the product in action, and puts a face on the brand. Reach is large; targeting is flexible — interests, keywords, audiences.",
+        "The downsides: creative costs more than a banner, some viewers skip, and without conversion tracking it’s easy to burn budget on views alone.",
+        "Don’t compare “YouTube vs. the whole internet.” Compare YouTube to other channels in your funnel — where can you get a target action at comparable lead quality?",
       ],
       lists: [
         {
-          intro: "When the format is strong:",
+          intro: "When video ads shine:",
           items: [
             "a complex product needs to be shown;",
             "brand and trust matter;",
-            "there’s a landing for the action;",
-            "you’re ready to test 2–3 creatives;",
-            "you have capacity for edit and iteration.",
+            "you have a landing page ready for the action;",
+            "you’re willing to test two or three creatives;",
+            "you have bandwidth for editing and iteration.",
           ],
         },
       ],
@@ -70,18 +69,18 @@ export const videoreklamaYoutubeEn: BlogPost = {
       title: "Audience and message",
       level: 2,
       paras: [
-        "Targeting without an offer is useless. First “who / which pain / what to do”, then account settings.",
-        "The first seconds decide: hook, product in frame, subtitles (many watch without sound).",
-        "Split segments with intent: new audience, site-visitor retargeting, lookalikes from leads — each needs its own creative and CPA expectation.",
+        "Targeting without an offer is wasted spend. Define who you’re reaching, what pain you solve, and what you want them to do — then set up the account.",
+        "The first seconds decide everything: hook, product in frame, subtitles (many people watch without sound).",
+        "Split segments by intent: cold audience, site-visitor retargeting, lookalikes from leads — each needs its own creative and CPA target.",
       ],
       lists: [
         {
-          intro: "Before shooting:",
+          intro: "Before you shoot:",
           items: [
-            "one main CTA;",
-            "proof (numbers, case, demo);",
+            "one primary CTA;",
+            "proof (numbers, case study, demo);",
             "customer language, not agency jargon;",
-            "a 15–30s version and a shorter hook.",
+            "a 15–30s version and a shorter hook cut.",
           ],
         },
       ],
@@ -96,17 +95,17 @@ export const videoreklamaYoutubeEn: BlogPost = {
       title: "Sales and the funnel",
       level: 2,
       paras: [
-        "Clip → click/visit → lead/purchase. Without Metrika/pixel and goals you optimize views, not money.",
-        "For cold audiences, reach plus retargeting of people who finished the video or visited the site often works better.",
+        "Clip → click or visit → lead or purchase. Without a pixel and conversion goals, you optimize for views, not revenue.",
+        "For cold audiences, reach plus retargeting of people who finished the video or visited the site often beats a single blast.",
       ],
       lists: [
         {
-          intro: "The chain is mandatory:",
+          intro: "The chain you need:",
           items: [
             "UTM or campaign tagging;",
-            "a landing matching the clip’s offer;",
-            "a goal: lead/purchase/call;",
-            "exclude irrelevant placements.",
+            "a landing page that matches the clip’s offer;",
+            "a goal: lead, purchase, or call;",
+            "irrelevant placements excluded.",
           ],
         },
       ],
@@ -116,7 +115,7 @@ export const videoreklamaYoutubeEn: BlogPost = {
           href: "/en/blog/lending/",
         },
         {
-          label: "Installing Metrika",
+          label: "Installing Yandex Metrica",
           href: "/en/blog/metrika-ustanovka/",
         },
       ],
@@ -125,17 +124,17 @@ export const videoreklamaYoutubeEn: BlogPost = {
       title: "Budget and price expectations",
       level: 2,
       paras: [
-        "Click and view cost swing by niche, ad quality, and competition. Don’t treat old “from N currency” lines in 2021 articles as fact.",
-        "Plan a test: hypothesis → cap → review in 7–14 days → scale or stop.",
+        "Click and view costs swing by niche, ad quality, and competition. Don’t treat old “from $N” figures in 2021 articles as current fact.",
+        "Plan a test: hypothesis → daily cap → review in 7–14 days → scale or stop.",
       ],
       lists: [
         {
           intro: "What to watch in the report:",
           items: [
-            "frequency and completion;",
+            "frequency and completion rate;",
             "CTR and cost per target action;",
-            "site traffic quality (bounce, depth);",
-            "which creatives pull conversions.",
+            "site traffic quality (bounce rate, pages per session);",
+            "which creatives drive conversions.",
           ],
         },
       ],
@@ -143,24 +142,24 @@ export const videoreklamaYoutubeEn: BlogPost = {
         {
           title: "Important",
           kind: "tip",
-          text: "“The most effective advertising on the internet” is a slogan. Effective is what hits your unit economics.",
+          text: "“The most effective advertising on the internet” is a slogan. What’s effective is what fits your unit economics.",
         },
       ],
     },
     {
-      title: "Tie-in with SEO and the channel",
+      title: "How this ties to SEO and your channel",
       level: 2,
       paras: [
-        "Ads don’t replace SEO and don’t “buy” organic directly. They can boost brand demand and show which offers stick.",
-        "Your own channel with useful videos plays the long game: organic + retargeting + trust.",
+        "Ads don’t replace SEO and don’t buy organic rankings directly. They can lift brand demand and show which offers resonate.",
+        "Your own channel with useful videos plays the long game: organic discovery, retargeting, and trust.",
       ],
       lists: [
         {
-          intro: "Alongside ads:",
+          intro: "Run ads alongside:",
           items: [
             "channel branding;",
-            "videos for audience questions;",
-            "landings for demand clusters;",
+            "videos that answer audience questions;",
+            "landing pages for demand clusters;",
             "realistic SEO timelines (months, not days).",
           ],
         },
@@ -179,25 +178,25 @@ export const videoreklamaYoutubeEn: BlogPost = {
         {
           title: "SEO timelines",
           kind: "tip",
-          text: "Paid video tests demand now. Organic for a core grows separately: site prep roughly weeks to a month; TOP planned 2–6 months of work.",
+          text: "Paid video tests answer now. Organic growth for your core keywords is a separate track: site prep takes roughly a few weeks to a month; top rankings are typically 2–6 months of work after launch.",
         },
       ],
     },
     {
-      title: "Should you launch",
+      title: "Should you launch?",
       level: 2,
       paras: [
-        "Yes if the product is visual, you have budget for a measured test, and the landing is ready. No or later — if there’s no offer, site, or analytics: foundation first.",
-        "Bottom line: video ads are a performance/brand tool — not a magic button.",
+        "Yes — if the product is visual, you have budget for a measured test, and the landing page is ready. Wait — if there’s no offer, site, or analytics. Build the foundation first.",
+        "Bottom line: video ads are a performance and brand tool, not a magic button.",
       ],
       lists: [
         {
-          intro: "Mini decision:",
+          intro: "Quick decision checklist:",
           items: [
-            "goal and CPA/ROMI exist;",
-            "at least 2 creatives for a test;",
-            "cap and deadline set;",
-            "a stop / scale plan written.",
+            "goal and CPA/ROAS targets are set;",
+            "at least two creatives ready for testing;",
+            "daily cap and review deadline defined;",
+            "a stop-or-scale plan written down.",
           ],
         },
       ],

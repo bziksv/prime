@@ -5,13 +5,13 @@ export const kartinkiVnimanieEn: BlogPost = {
   slug: "kartinki-vnimanie",
   title: "How to grab attention with an image on the site and in content",
   date: "2020-09-11",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/kartinki-vnimanie/cover-en.webp",
   excerpt:
     "Which images actually stop the eye: contrast, color, meaning, and metaphor — without stock clichés and text baked only into the picture.",
   lead: [
     "An image is read faster than a paragraph: it sets emotion, topic, and an attention “anchor” before anyone finishes the lead. But random stock, tiny noise, and text inside a JPEG often hurt UX and accessibility.",
-    "Below — working tactics: color and contrast, rest for the eye, a non-obvious frame, metaphors, and the rule not to hide meaning only in the image. Making an image clickable is a separate article.",
+    "Use color and contrast, leave visual rest, try a non-obvious crop, lean on metaphors — and never hide meaning only in the image. Making an image clickable is a separate article.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const kartinkiVnimanieEn: BlogPost = {
     },
     {
       q: "How many images per screen?",
-      a: "As many as reinforce meaning. One strong visual in the first screen beats a carousel for carousel’s sake.",
+      a: "As many as reinforce meaning. One strong visual in the first screen beats a carousel just because.",
     },
     {
       q: "Can you put the offer on a banner?",
@@ -71,7 +71,7 @@ export const kartinkiVnimanieEn: BlogPost = {
       title: "Color, contrast, and rest for the eye",
       level: 2,
       paras: [
-        "A bright accent on a neutral background pulls the eye to the CTA or hero of the frame. Text-to-background contrast matters on photos with captions too: pale grey on grey isn’t read.",
+        "A bright accent on a neutral background pulls the eye to the CTA or hero of the frame. Text-to-background contrast matters on photos with captions too: pale gray on gray doesn’t read.",
         "The eye needs air: margins, not an overloaded collage. Alternate dense blocks with calm ones, or fatigue = scroll past.",
       ],
       lists: [

@@ -8,14 +8,14 @@ export const tekstGlavnoyStranitsyEn: BlogPost = {
   category: "Content marketing",
   cover: "/images/blog/tekst-glavnoy-stranitsy/cover-en.webp",
   excerpt:
-    "Which phrases spoil a homepage: empty superlatives, “personalized approach” clichés, awkward keywords, and mixing “you/You” — and what to put instead of a clear offer.",
+    "Which lines spoil a homepage: empty superlatives, “personalized approach” clichés, awkward keywords, and mixing “you/You” — and what to put instead of a clear offer.",
   lead: [
     "A homepage should explain in seconds who you are and what to do next. Long walls of “world’s best” and “European standards” usually don’t help — readers have seen that a hundred times.",
-    "Below — typical copy junk and how to write shorter and more honestly. Block frame and CTA live in the homepage structure piece; here the focus is copywriting.",
+    "We cut the typical copy junk and show how to write shorter and more honestly. Block frame and CTA live in the homepage structure article; here the focus is copywriting.",
   ],
   faq: [
     {
-      q: "Do you need a big SEO text on the homepage?",
+      q: "Do I need a big SEO text on the homepage?",
       a: "Usually no. Offer, benefits, proof, CTA. Long service descriptions belong on inner URLs.",
     },
     {
@@ -40,7 +40,7 @@ export const tekstGlavnoyStranitsyEn: BlogPost = {
     },
     {
       q: "How is this different from the homepage structure article?",
-      a: "That one covers header, blocks, CTA, footer. This one covers which words and phrases to cut from the copy.",
+      a: "That one covers header, blocks, CTA, footer. This one covers which words and filler lines to cut from the copy.",
     },
     {
       q: "Is this only for beauty salons?",
@@ -85,7 +85,7 @@ export const tekstGlavnoyStranitsyEn: BlogPost = {
         },
         {
           label: "Online store homepage",
-          href: "/blog/glavnaya-internet-magazina/",
+          href: "/en/blog/glavnaya-internet-magazina/",
         },
       ],
     },
@@ -101,11 +101,11 @@ export const tekstGlavnoyStranitsyEn: BlogPost = {
       links: [
         {
           label: "SEO copywriting",
-          href: "/blog/seo-kopirayting/",
+          href: "/en/blog/seo-kopirayting/",
         },
         {
           label: "Usability",
-          href: "/blog/yuzabiliti/",
+          href: "/en/blog/yuzabiliti/",
         },
       ],
     },

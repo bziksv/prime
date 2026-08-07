@@ -8,10 +8,10 @@ export const kontekstISeoEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/kontekst-i-seo/cover-en.webp",
   excerpt:
-    "There’s no direct “pay for Direct — get TOP”. Myths, indirect effects (brand, data, faster hypothesis tests), and how to join paid search with organic without faking engagement.",
+    "There’s no direct “pay for ads — get TOP.” Myths, indirect effects (brand, data, faster hypothesis tests), and how to join paid search with organic without faking engagement.",
   lead: [
     "Short answer: paid search doesn’t buy organic ranks directly. Yandex and Google don’t lift a site in the “blue” SERP because you run ads.",
-    "Indirectly the channels connect: you gather demand and semantics faster, strengthen the brand, test landings. Below — myths, real ties, and how to use both channels without the illusion “ads = SEO” and without behavior-faking schemes.",
+    "Indirectly the channels connect: you gather demand and semantics faster, strengthen the brand, and test landings. Myths, real ties, and a way to use both channels without the illusion “ads = SEO” — and without fake-engagement schemes.",
   ],
   faq: [
     {
@@ -28,23 +28,23 @@ export const kontekstISeoEn: BlogPost = {
     },
     {
       q: "Does paid search help indexing?",
-      a: "Indirectly: new URLs get visits and interest signals sooner, but the canonical path is sitemap, links, Webmaster/GSC. Don’t replace tech with ads.",
+      a: "Indirectly: new URLs get visits and interest signals sooner, but the canonical path is sitemap, links, Search Console / Webmaster. Don’t replace tech with ads.",
     },
     {
-      q: "Does brand from ads affect SEO?",
-      a: "Yes as awareness: more brand queries and direct visits. That’s an adjacent effect, not a “commercial TOP button”.",
+      q: "Does brand awareness from ads affect SEO?",
+      a: "Yes as awareness: more brand queries and direct visits. That’s an adjacent effect, not a “commercial TOP button.”",
     },
     {
       q: "Should a young site start with paid search?",
-      a: "Often yes for first leads while organic builds. In parallel prep tech and the core: SEO is cheaper over distance, but slower at the start.",
+      a: "Often yes for first leads while organic builds. In parallel prep tech and the keyword set: SEO is cheaper over distance, but slower at the start.",
     },
     {
-      q: "Same core in Direct and SEO?",
+      q: "Should I use the same keyword set in Direct and SEO?",
       a: "They overlap, but don’t copy blindly. Ads care about negatives and click economics; SEO — landings and intent. A shared demand vocabulary helps both.",
     },
     {
-      q: "When to expect organic TOP if we run ads?",
-      a: "Ads don’t shorten SEO’s planned horizon. Prep — weeks–month; core TOP buildup planned 2–6 months after systematic work starts.",
+      q: "When should I expect organic TOP if we already run ads?",
+      a: "Ads don’t shorten SEO’s planned horizon. Prep takes weeks to about a month; climbing TOP for the keyword set is planned for 2–6 months after systematic work starts.",
     },
   ],
   sections: [
@@ -61,7 +61,7 @@ export const kontekstISeoEn: BlogPost = {
           items: [
             "payment ≠ organic rank;",
             "stopping ads ≠ SEO drop by itself;",
-            "site quality and demand decide more than an “advertiser checkbox”.",
+            "site quality and demand decide more than an “advertiser checkbox.”",
           ],
         },
       ],
@@ -70,17 +70,17 @@ export const kontekstISeoEn: BlogPost = {
       title: "No direct effect — indirect yes",
       level: 2,
       paras: [
-        "There’s no direct mechanism “bid → +N organic spots”. Indirectly paid search helps business and marketing: fast traffic, offer tests, collecting converting queries, awareness.",
+        "There’s no direct mechanism “bid → +N organic spots.” Indirectly paid search helps business and marketing: fast traffic, offer tests, collecting converting queries, awareness.",
         "If the landing is weak, ad traffic brings bounces and expensive CPA — a signal to fix the site, not “proof” you need to fake behavior.",
       ],
       lists: [
         {
           intro: "Useful indirect effects:",
           items: [
-            "learn working keys and negatives faster;",
+            "learn working keywords and negatives faster;",
             "test headlines and the first screen;",
             "strengthen brand and brand-query share;",
-            "cover demand while organic spins up.",
+            "cover demand while organic ramps up.",
           ],
         },
       ],
@@ -98,7 +98,7 @@ export const kontekstISeoEn: BlogPost = {
         {
           title: "Important",
           kind: "tip",
-          text: "Don’t use ads as a scheme to fake behavioral signals “for SEO”. It’s dishonest toward the rules and risky.",
+          text: "Don’t use ads as a scheme to fake behavioral signals “for SEO.” It’s dishonest toward the rules and risky.",
         },
       ],
     },
@@ -106,14 +106,14 @@ export const kontekstISeoEn: BlogPost = {
       title: "Data: semantics, landings, analytics",
       level: 2,
       paras: [
-        "From Direct/Google Ads cabinets pull phrasing with leads and expensive empty clicks — live demand for the SEO core and negatives. Cross-check landings: what converts in ads, strengthen in organic.",
-        "Shared goals in Metrica/Analytics, UTM, and end-to-end analytics show channel contribution without “who brought the lead” fights. Compare CPA and lead quality — not only ranks.",
+        "From Direct / Google Ads accounts, pull the phrasing that brought leads and expensive clicks that went nowhere — live demand for the SEO keyword set and negative keywords. Cross-check landings: what converts in ads, strengthen in organic search.",
+        "Shared goals in Yandex Metrica / Google Analytics, UTM, and full-funnel analytics show channel contribution without “who brought the lead” fights. Compare CPA and lead quality — not only ranks.",
       ],
       lists: [
         {
           intro: "Channel join:",
           items: [
-            "shared core + different accents;",
+            "shared keyword set + different accents;",
             "same goals and call tracking;",
             "ad hypotheses → SEO page fixes;",
             "report: organic vs paid by leads.",
@@ -122,7 +122,7 @@ export const kontekstISeoEn: BlogPost = {
       ],
       links: [
         {
-          label: "Semantic core",
+          label: "Keyword research",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {
@@ -139,7 +139,7 @@ export const kontekstISeoEn: BlogPost = {
       title: "Indexing and “warming” young URLs",
       level: 2,
       paras: [
-        "Ads can bring first people to a new URL faster than organic. That doesn’t replace a sitemap, internal links, and a recrawl request in Webmaster/GSC.",
+        "Ads can bring first people to a new URL faster than organic. That doesn’t replace a sitemap, internal links, and a recrawl request in Search Console / Webmaster.",
         "For a young site, paid search often covers cash at the start. In parallel prep tech and content: over distance SEO usually costs less per lead, but rank buildup is planned and long.",
       ],
       lists: [
@@ -155,7 +155,7 @@ export const kontekstISeoEn: BlogPost = {
       ],
       links: [
         {
-          label: "Young site",
+          label: "Young site SEO",
           href: "/en/blog/molodoy-sayt/",
         },
       ],
@@ -165,7 +165,7 @@ export const kontekstISeoEn: BlogPost = {
       level: 2,
       paras: [
         "Keep both channels in one strategy: ads own speed and tests, SEO owns durable demand. Improve the site so both paid and free visits convert.",
-        "Don’t promise yourself that “pouring budget will pull organic by itself”. Organic grows from pages, demand, and trust; ads only speed up feedback.",
+        "Don’t promise yourself that spending budget will pull organic by itself. Organic grows from pages, demand, and trust; ads only speed up feedback.",
       ],
       lists: [
         {
@@ -192,7 +192,7 @@ export const kontekstISeoEn: BlogPost = {
         {
           title: "Timelines",
           kind: "tip",
-          text: "Paid search responds in days. SEO: prep about weeks–month; core TOP planned 2–6 months after work starts.",
+          text: "Paid search responds in days. SEO: prep takes about weeks to a month; TOP for the keyword set is planned for 2–6 months after work starts.",
         },
       ],
     },

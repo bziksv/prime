@@ -11,7 +11,7 @@ export const prodvizhenieInternetMagazinaEn: BlogPost = {
     "Online-store SEO: technical audit, catalog structure, internal links, semantics, Title tags, product copy, and commercial trust signals.",
   lead: [
     "A site builder and filled product cards are only the start. A store grows in search when tech is solid, the catalog structure is clear, semantics are in place, and commercial trust signals are visible.",
-    "Below — a basic SEO outline for e-commerce. Preparing the site and ranking on the core are different stages: positions usually build over months, not “a week after a few fixes”.",
+    "Here’s a basic SEO outline for e-commerce. Preparing the site and ranking on the core are different stages: positions usually build over 2–6 months after work starts, not “a week after a few fixes.”",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const prodvizhenieInternetMagazinaEn: BlogPost = {
       a: "With a technical audit and the keyword core: speed, indexing, duplicates — then category structure and Title/description templates.",
     },
     {
-      q: "How long until TOP-10?",
+      q: "How long until I reach TOP-10?",
       a: "Prep (tech, copy, structure) often takes weeks. Climbing into TOP on the core is planned over 2–6 months of work — no guaranteed date.",
     },
     {
@@ -46,9 +46,9 @@ export const prodvizhenieInternetMagazinaEn: BlogPost = {
         {
           intro: "Minimum check:",
           items: [
-            "main templates load fast on mobile;",
-            "no mass 404s or redirect chains;",
-            "filters don’t spawn thousands of junk URLs in the index;",
+            "main templates load fast on mobile",
+            "no mass 404s or redirect chains",
+            "filters don’t spawn thousands of junk URLs in the index",
             "cart and checkout are stable.",
           ],
         },
@@ -56,7 +56,7 @@ export const prodvizhenieInternetMagazinaEn: BlogPost = {
       links: [
         {
           label: "Technical SEO audit",
-          href: "/blog/tehnicheskiy-seo-audit/",
+          href: "/en/blog/tehnicheskiy-seo-audit/",
         },
         {
           label: "SSL certificate",
@@ -75,7 +75,7 @@ export const prodvizhenieInternetMagazinaEn: BlogPost = {
       links: [
         {
           label: "SEO site structure",
-          href: "/blog/seo-struktura-sayta/",
+          href: "/en/blog/seo-struktura-sayta/",
         },
       ],
     },
@@ -90,9 +90,9 @@ export const prodvizhenieInternetMagazinaEn: BlogPost = {
         {
           intro: "Useful blocks:",
           items: [
-            "related products (3–5);",
-            "recommended / bestsellers;",
-            "breadcrumbs and category menus;",
+            "related products (3–5)",
+            "recommended / bestsellers",
+            "breadcrumbs and category menus",
             "brand and filter pages — under clear indexing rules.",
           ],
         },
@@ -109,10 +109,10 @@ export const prodvizhenieInternetMagazinaEn: BlogPost = {
         {
           intro: "Practice for products and sections:",
           items: [
-            "unique Title per page;",
-            "brand and key attributes in the visible area;",
-            "category copy — better near the top than a “SEO footer”;",
-            "keywords without stuffing;",
+            "unique Title per page",
+            "brand and key attributes in the visible area",
+            "category copy — better near the top than a “SEO footer”",
+            "keywords without stuffing",
             "media that help choose the product.",
           ],
         },
@@ -140,10 +140,10 @@ export const prodvizhenieInternetMagazinaEn: BlogPost = {
         {
           intro: "What to strengthen on the site:",
           items: [
-            "clear contacts and company details;",
-            "shipping, payment, returns without fine print;",
-            "FAQ / Q&A on products;",
-            "snippets: Title and Description with benefit and keyword;",
+            "clear contacts and company details",
+            "shipping, payment, returns without fine print",
+            "FAQ / Q&A on products",
+            "snippets: Title and Description with benefit and keyword",
             "map / geo — if pickup and local demand matter.",
           ],
         },

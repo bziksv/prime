@@ -3,31 +3,31 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for chrome-rasshireniya-marketing — same structure as RU JSON. */
 export const chromeRasshireniyaMarketingEn: BlogPost = {
   slug: "chrome-rasshireniya-marketing",
-  title: "Chrome extensions for internet marketing: a stack by task",
+  title: "Chrome extensions for digital marketing: a stack by task",
   date: "2020-01-15",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/chrome-rasshireniya-marketing/cover-en.webp",
   excerpt:
     "Which classes of Chrome extensions help marketers: tasks and time tracking, screenshots and fonts, UTM and short links, email and security — without a catalog of 25 outdated names.",
   lead: [
-    "Chrome extensions speed up a marketer’s routine: checklists, screenshots for briefs, font checks, UTM, a quick look at a competitor. They’re browser add-ons — not a “key to Olympic results”.",
-    "Below — a stack by task, not an eternal top-25. Alexa Rank and some old plugins are obsolete; check the Chrome Web Store before installing. For an on-page SEO slice, see the separate piece.",
+    "Chrome extensions speed up a marketer’s routine: checklists, screenshots for briefs, font checks, UTM tags, a quick look at a competitor. They’re browser add-ons — not a shortcut to breakthrough results.",
+    "This guide covers a stack by task, not an eternal top-25. Alexa Rank and some old plugins are obsolete; check the Chrome Web Store before installing. For an on-page SEO slice, see the separate piece.",
   ],
   faq: [
     {
-      q: "How is this different from the SEO extensions article?",
-      a: "That one is URL audit, meta, operators, crawl. Here — productivity, creative, communication, and marketing routine. They overlap on UTM and install hygiene.",
+      q: "How does this differ from the SEO extensions article?",
+      a: "That one covers URL audit, meta, operators, and crawl. This piece covers productivity, creative, communication, and marketing routine. They overlap on UTM and install hygiene.",
     },
     {
-      q: "How many extensions to install?",
+      q: "How many extensions should I install?",
       a: "One per task class you actually use. Twenty-five “just in case” slow the browser and widen risk.",
     },
     {
-      q: "Is Alexa Traffic Rank still needed?",
+      q: "Is Alexa Traffic Rank still useful?",
       a: "Alexa as a product shut down. For traffic estimates use current panels and your own analytics — not old extensions.",
     },
     {
-      q: "Can you send bulk email from Gmail extensions?",
+      q: "Can I send bulk email from Gmail extensions?",
       a: "Only to your own list with consent and within Google/ESP rules. Cold spam from a plugin is a path to a ban — not leads.",
     },
     {
@@ -40,15 +40,15 @@ export const chromeRasshireniyaMarketingEn: BlogPost = {
       title: "Stack hygiene",
       level: 2,
       paras: [
-        "A separate Chrome profile for work, minimum “read and change data on all websites” permissions, disable anything unused for a month.",
-        "The store catalog changes monthly: check update date and user count. Don’t copy lists from 2019–2020 reviews year after year.",
+        "Use a separate Chrome profile for work, keep “read and change data on all websites” permissions to a minimum, and disable anything unused for a month.",
+        "The store catalog changes monthly: check the update date and user count. Don’t copy lists from 2019–2020 reviews year after year.",
       ],
       lists: [
         {
           intro: "Before installing:",
           items: [
             "the task you’re solving is clear;",
-            "source is the Chrome Web Store;",
+            "the source is the Chrome Web Store;",
             "permissions match the function;",
             "a current peer exists if the old name vanished.",
           ],
@@ -65,7 +65,7 @@ export const chromeRasshireniyaMarketingEn: BlogPost = {
       title: "Productivity and communication",
       level: 2,
       paras: [
-        "Task trackers (Todoist class) and time tracking (TMetric class) help freelancers and agencies with hourly reporting. Password managers are a must for client cabinets.",
+        "Task trackers (Todoist-class) and time tracking (TMetric-class) help freelancers and agencies with hourly reporting. Password managers are a must for client accounts.",
         "Messenger hubs are handy, but don’t store client access and personal data there without security rules. Email helpers — for open tracking on your own newsletter, not spam to strangers’ addresses.",
       ],
       lists: [
@@ -103,8 +103,8 @@ export const chromeRasshireniyaMarketingEn: BlogPost = {
         {
           intro: "Marketers in the browser often need:",
           items: [
-            "full-page screenshot + annotations;",
-            "font/color identification;",
+            "full-page screenshot plus annotations;",
+            "font and color identification;",
             "a UTM builder;",
             "a password manager;",
             "one task tracker.",

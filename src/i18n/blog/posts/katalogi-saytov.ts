@@ -11,7 +11,7 @@ export const katalogiSaytovEn: BlogPost = {
     "When directory and listing registration brings traffic and mentions — and when it’s spam; how to fill a profile, which platforms to pick, and what to avoid.",
   lead: [
     "“Register the site in 500 directories” as an SEO tactic died long ago: engines easily tell junk farms from useful listings. What still makes sense is selective registration in live directories, maps, and industry registries — for people, NAP, and rare quality mentions.",
-    "Below — what placement really gives, how to do it yourself, when to hire help, and how not to hurt the backlink profile.",
+    "Placement still helps for people, NAP consistency, and rare quality mentions — do it yourself carefully, hire help when volume hurts, and don’t poison the backlink profile.",
   ],
   faq: [
     {
@@ -23,7 +23,7 @@ export const katalogiSaytovEn: BlogPost = {
       a: "Maps and major listings (Google Business / local maps, 2GIS and geo analogs), industry registries, partner directories. Then — as needed.",
     },
     {
-      q: "Same data everywhere?",
+      q: "Should NAP data match everywhere?",
       a: "Yes: name, address, phone, site (NAP). Mismatches confuse people and local SEO.",
     },
     {
@@ -57,7 +57,7 @@ export const katalogiSaytovEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Realistic upsides:",
+          intro: "Realistic benefits:",
           items: [
             "local leads from maps/directories;",
             "NAP recognition;",

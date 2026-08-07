@@ -6,11 +6,11 @@ export const blogInteractEn: Record<string, BlogInteractConfig> = {
     checklist: {
       afterTitleIncludes: "A consistent feed style",
       title: "Profile design checklist",
-      lead: "Complete before publishing “pretty stuff” — progress saves in the browser.",
+      lead: "Finish these before you publish “pretty” — progress saves in the browser.",
       items: [
         { id: "pos", label: "Lock positioning: personal / business" },
-        { id: "bio", label: "Build the About block with benefit and CTA" },
-        { id: "ava", label: "Update avatar (reads in a small circle)" },
+        { id: "bio", label: "Write the bio with benefit and CTA" },
+        { id: "ava", label: "Update avatar (reads clearly in a small circle)" },
         { id: "style", label: "Pick one feed-style constant" },
         { id: "pack", label: "Prep a buffer of 10–15 frames/drafts" },
         { id: "post", label: "Post template: hook → value → CTA" },
@@ -19,16 +19,16 @@ export const blogInteractEn: Record<string, BlogInteractConfig> = {
     },
     quizzes: [
       {
-        afterTitleIncludes: "The About block",
+        afterTitleIncludes: "The bio",
         title: "Mini quiz: profile design",
         lead: "Two questions on the header and style.",
         questions: [
           {
             id: "i1",
-            question: "The main job of the About block is…",
+            question: "The main job of the bio is…",
             options: [
               "Fit as many emoji as possible",
-              "In 3–5 seconds explain who you are and why follow",
+              "In 3–5 seconds explain who you are and why to follow",
               "List every city hashtag",
               "Hide the offer",
             ],
@@ -41,7 +41,7 @@ export const blogInteractEn: Record<string, BlogInteractConfig> = {
             question: "A consistent feed style is needed so…",
             options: [
               "You post less often",
-              "The grid looks coherent and the brand is recognizable",
+              "The grid looks cohesive and the brand is recognizable",
               "You can turn off comments",
               "You can replace post captions",
             ],
@@ -7201,34 +7201,34 @@ export const blogInteractEn: Record<string, BlogInteractConfig> = {
   "oshibki-smm": {
     checklist: {
       afterTitleIncludes: "No strategy and no audience portrait",
-      title: "Before the next month of SMM",
+      title: "Before next month of SMM",
       lead: "Goal and platform beat checkbox posts.",
       items: [
-        { id: "goal", label: "There’s a monthly goal (not “just post”)" },
-        { id: "audience", label: "Audience really exists on the chosen platform" },
+        { id: "goal", label: "A monthly goal (not “just post”)" },
+        { id: "audience", label: "Audience actually exists on the chosen platform" },
         { id: "plan", label: "Content plan for 2+ weeks" },
-        { id: "rhythm", label: "Rhythm without silence spikes and spam" },
+        { id: "rhythm", label: "Rhythm without silence spikes or spam" },
         { id: "moderation", label: "Rules: spam out, criticism answered" },
         { id: "budget", label: "Time/money for content and an ad test" },
       ],
     },
     quizzes: [
       {
-        afterTitleIncludes: "What to remember",
+        afterTitleIncludes: "Takeaways",
         title: "Mini quiz: SMM mistakes",
         lead: "Two checks.",
         questions: [
           {
             id: "os1",
-            question: "Social networks by themselves…",
+            question: "Social networks on their own…",
             options: [
               "Guarantee TOP-10 in search",
-              "Give traffic and warm-up; SEO is scored separately",
+              "Bring traffic and warm-up; SEO is counted separately",
               "Replace the offer",
-              "Require only mass liking",
+              "Require only mass-liking",
             ],
             correct: 1,
-            explain: "Don’t confuse SMM with SERP positions.",
+            explain: "Don’t mix SMM with search rankings.",
           },
           {
             id: "os2",
@@ -7240,7 +7240,7 @@ export const blogInteractEn: Record<string, BlogInteractConfig> = {
               "Replaces a content plan",
             ],
             correct: 1,
-            explain: "A “fives only” showcase looks fake.",
+            explain: "A “five-star only” storefront looks fake.",
           },
         ],
       },
@@ -7859,15 +7859,15 @@ export const blogInteractEn: Record<string, BlogInteractConfig> = {
     },
     quizzes: [
       {
-        afterTitleIncludes: "What to remember",
+        afterTitleIncludes: "Takeaways",
         title: "Mini quiz: Telegram analytics",
         lead: "Two checks.",
         questions: [
           {
-            id: "tg1",
+            id: "at1",
             question: "The post “eye” counter is…",
             options: [
-              "Ready ER like on Instagram",
+              "Ready-made ER like Instagram",
               "Views; engagement is counted separately",
               "Always unique people only",
               "Subscriber count",
@@ -7876,7 +7876,7 @@ export const blogInteractEn: Record<string, BlogInteractConfig> = {
             explain: "Don’t mix views and reactions.",
           },
           {
-            id: "tg2",
+            id: "at2",
             question: "Buying views…",
             options: [
               "Improves ad pricing",
@@ -7885,7 +7885,7 @@ export const blogInteractEn: Record<string, BlogInteractConfig> = {
               "Replaces UTM",
             ],
             correct: 1,
-            explain: "Honest numbers beat a pretty eye.",
+            explain: "Honest numbers beat a pretty eye count.",
           },
         ],
       },
@@ -22975,6 +22975,5685 @@ export const blogInteractEn: Record<string, BlogInteractConfig> = {
             ],
             correct: 1,
             explain: "Infrastructure ≠ SEO outcome.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "metrika-karty": {
+    checklist: {
+      afterTitleIncludes: "Conditions and limits",
+      title: "Before reading maps",
+      lead: "Data first, conclusions second.",
+      items: [
+        { id: "counter", label: "Counter on the needed templates" },
+        { id: "opts", label: "Maps/forms enabled in settings" },
+        { id: "period", label: "Period with enough sample" },
+        { id: "url", label: "Correct URL chosen (tags/www accounted)" },
+        { id: "device", label: "Mobile and desktop reviewed separately" },
+        { id: "goal", label: "A goal exists to verify fixes" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Session Replay beside, not instead",
+        title: "Mini quiz: Metrica maps",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "mk1",
+            question: "Click map and Session Replay…",
+            options: [
+              "Are the same thing",
+              "Aggregation vs session recording",
+              "Only for Google Analytics",
+              "Replace goals",
+            ],
+            correct: 1,
+            explain: "Different tools in one cabinet.",
+          },
+          {
+            id: "mk2",
+            question: "A heatmap by itself…",
+            options: [
+              "Guarantees maximum conversion",
+              "Gives hypotheses; proof is measuring goals",
+              "Replaces the counter",
+              "Is only needed without forms",
+            ],
+            correct: 1,
+            explain: "Observation ≠ automatic lead growth.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "wordpress-ustanovka": {
+    checklist: {
+      afterTitleIncludes: "Right after install",
+      title: "After install.php",
+      lead: "Hygiene beats a one-day theme.",
+      items: [
+        { id: "pass", label: "Strong admin password and working email" },
+        { id: "ssl", label: "HTTPS enabled" },
+        { id: "upd", label: "Core updates checked" },
+        { id: "perm", label: "Permalinks configured" },
+        { id: "bak", label: "Backup before a plugin pile" },
+        { id: "idx", label: "Indexing matches the site stage" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Install wizard",
+        title: "Mini quiz: WordPress install",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "wu1",
+            question: "Before the wizard you usually need to…",
+            options: [
+              "Buy Bitrix",
+              "Create a DB and put files in the root",
+              "Reach TOP-10",
+              "Disable DNS",
+            ],
+            correct: 1,
+            explain: "DB + files are the classic install base.",
+          },
+          {
+            id: "wu2",
+            question: "PHP 4.3 requirements from old guides…",
+            options: [
+              "Are always current",
+              "Are outdated; check wordpress.org and the host plan",
+              "Are required by law",
+              "Replace SSL",
+            ],
+            correct: 1,
+            explain: "PHP/DB versions changed long ago.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "bitrix-plyusy-minusy": {
+    checklist: {
+      afterTitleIncludes: "How to decide: take it or not",
+      title: "Before choosing Bitrix",
+      lead: "Requirements beat market share.",
+      items: [
+        { id: "req", label: "Requirements gathered (catalog, 1C, roles)" },
+        { id: "tco", label: "Counting license + build + hosting" },
+        { id: "team", label: "Clear who will support it" },
+        { id: "alt", label: "Alternatives compared for the job" },
+        { id: "host", label: "Hosting can carry the platform load" },
+        { id: "seo", label: "SEO is in the project, not “from the CMS alone”" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "SEO and Bitrix",
+        title: "Mini quiz: Bitrix",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "bp1",
+            question: "A Bitrix license…",
+            options: [
+              "Guarantees TOP-10 in a month",
+              "Is part of TCO; rankings are separate work",
+              "Is only needed for a landing",
+              "Replaces hosting",
+            ],
+            correct: 1,
+            explain: "CMS ≠ SEO outcome.",
+          },
+          {
+            id: "bp2",
+            question: "For a one-pager Bitrix is often…",
+            options: [
+              "The only sensible choice",
+              "Overkill; simpler stacks exist",
+              "Always free",
+              "Unable to do HTTPS",
+            ],
+            correct: 1,
+            explain: "Pick the platform for task complexity.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "yandeks-auditorii": {
+    checklist: {
+      afterTitleIncludes: "Lists, look-alike, and Metrica",
+      title: "Before segmenting in Direct",
+      lead: "Lawfulness and goals first, then lists.",
+      items: [
+        { id: "ca", label: "Product audience portrait written" },
+        { id: "goals", label: "Metrica goals work" },
+        { id: "legal", label: "Contact list is lawful with consent" },
+        { id: "freq", label: "Frequency and exclusion plan exists" },
+        { id: "offer", label: "Offer and landing ready for warm traffic" },
+        { id: "kpi", label: "Watch CPA/conversions, not others’ “+35%”" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Remarketing and warm visits",
+        title: "Mini quiz: Yandex audiences",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ya1",
+            question: "Crypta / Yandex profiles…",
+            options: [
+              "An exact passport from a cookie with a password",
+              "A probabilistic estimate from behavior signals",
+              "Replace search semantics",
+              "Are only needed without Metrica",
+            ],
+            correct: 1,
+            explain: "Models and signals, not a dossier with a password.",
+          },
+          {
+            id: "ya2",
+            question: "Bought third-party email lists…",
+            options: [
+              "A normal look-alike method",
+              "A risk; need a lawful basis and consent",
+              "Required for Direct",
+              "Replace Metrica goals",
+            ],
+            correct: 1,
+            explain: "Grey lists hurt the account and the law.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "obzor-cms": {
+    checklist: {
+      afterTitleIncludes: "How to choose in one pass",
+      title: "Before choosing a CMS",
+      lead: "The job beats someone else’s ranking.",
+      items: [
+        { id: "type", label: "Site type locked" },
+        { id: "team", label: "Clear who supports it" },
+        { id: "tco", label: "Yearly budget (not only the license)" },
+        { id: "host", label: "Hosting fits the chosen stack" },
+        { id: "int", label: "Integrations (1C, payments) accounted for" },
+        { id: "seo", label: "SEO is not “expected from the engine alone”" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "WordPress",
+        title: "Mini quiz: CMS overview",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "oc1",
+            question: "“The best CMS”…",
+            options: [
+              "Is always WordPress",
+              "Is the one that covers the job at acceptable TCO",
+              "Is always Bitrix",
+              "Is any free one",
+            ],
+            correct: 1,
+            explain: "There is no universal winner.",
+          },
+          {
+            id: "oc2",
+            question: "A CMS by itself…",
+            options: [
+              "Puts the site in TOP-10 in a month",
+              "Does not replace content and SEO work",
+              "Removes the need for hosting",
+              "Guarantees security without updates",
+            ],
+            correct: 1,
+            explain: "The engine is a platform, not a search result.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "obratnyy-zvonok": {
+    checklist: {
+      afterTitleIncludes: "What to check when choosing",
+      title: "Before connecting a widget",
+      lead: "People on the line beat an animated handset.",
+      items: [
+        { id: "sla", label: "Clear who answers and when" },
+        { id: "goal", label: "Metrica goal on request/call" },
+        { id: "ux", label: "No aggressive exit popups" },
+        { id: "off", label: "Off-hours scenario exists" },
+        { id: "pdn", label: "Consent for phone processing" },
+        { id: "crm", label: "Leads land in CRM/tracking" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Form, widget, or messenger",
+        title: "Mini quiz: callback",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "oz1",
+            question: "A “call me back” form and a callback widget…",
+            options: [
+              "Are always the same",
+              "Both collect a phone; connect speed differs",
+              "Replace Metrica",
+              "Are only needed without managers",
+            ],
+            correct: 1,
+            explain: "A widget often bridges at once; a form goes via CRM/email.",
+          },
+          {
+            id: "oz2",
+            question: "A widget without a manager answer SLA…",
+            options: [
+              "Still raises conversion “by an order of magnitude”",
+              "Risks ringing into emptiness; worse than an honest form",
+              "Is required by law",
+              "Replaces the offer",
+            ],
+            correct: 1,
+            explain: "People’s speed beats a script on the site.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "skachat-stories-instagram": {
+    checklist: {
+      afterTitleIncludes: "Your Stories: archive and Highlights",
+      title: "Archiving your Stories",
+      lead: "Built-in tools first, third-party software later.",
+      items: [
+        { id: "arch", label: "Save to Stories archive is on" },
+        { id: "high", label: "Important ones added to Highlights" },
+        { id: "src", label: "Sources live with you, not only in the app" },
+        { id: "own", label: "Others’ content — only with author consent" },
+        { id: "pass", label: "Don’t enter the password in “downloaders”" },
+        { id: "gal", label: "If needed — save to gallery from the menu" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Third-party apps and extensions",
+        title: "Mini quiz: saving Stories",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ss1",
+            question: "An Instagram password in a downloader app…",
+            options: [
+              "Is normal practice",
+              "Is an account-theft risk; archive is enough for yours",
+              "Is required by Apple",
+              "Is only needed for Highlights",
+            ],
+            correct: 1,
+            explain: "Phishing via savers is a common scenario.",
+          },
+          {
+            id: "ss2",
+            question: "Highlights…",
+            options: [
+              "Are the same as a gallery file",
+              "Are a profile storefront; file export is separate",
+              "Delete the archive",
+              "Officially allow downloading others’ stories",
+            ],
+            correct: 1,
+            explain: "Highlights ≠ download to disk.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "idei-storis-vk": {
+    checklist: {
+      afterTitleIncludes: "Job first, idea second",
+      title: "Before a VK Stories series",
+      lead: "The goal beats someone else’s challenge.",
+      items: [
+        { id: "goal", label: "Series goal is written" },
+        { id: "hook", label: "First-frame hook exists" },
+        { id: "cta", label: "End CTA is clear" },
+        { id: "sla", label: "If interactive — reply limit is clear" },
+        { id: "tone", label: "Format isn’t toxic and fits the niche" },
+        { id: "metric", label: "What we measure: replies / messages / clicks" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Challenges: take carefully",
+        title: "Mini quiz: VK Stories ideas",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "is1",
+            question: "Someone else’s viral challenge…",
+            options: [
+              "Always guarantees thousands of views",
+              "Needs niche adaptation or a skip",
+              "Is required every day",
+              "Replaces group stats",
+            ],
+            correct: 1,
+            explain: "Hype without meaning is often empty.",
+          },
+          {
+            id: "is2",
+            question: "For business, more durable…",
+            options: [
+              "Only dance flashmobs",
+              "Polls, tips, and behind the scenes with a CTA",
+              "Screens of others’ chats as a “penalty”",
+              "30 empty frames with no idea",
+            ],
+            correct: 1,
+            explain: "Value and dialogue are closer to leads.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "aktivnost-vk": {
+    checklist: {
+      afterTitleIncludes: "Account login history",
+      title: "VK login security",
+      lead: "Your sessions first, then hack conclusions.",
+      items: [
+        { id: "hist", label: "Session history reviewed" },
+        { id: "2fa", label: "2FA enabled" },
+        { id: "pass", label: "Password unique and in a manager" },
+        { id: "apps", label: "Extra apps with access revoked" },
+        { id: "admin", label: "Community roles are current" },
+        { id: "end", label: "Unknown device — end sessions" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Community activity: what to watch",
+        title: "Mini quiz: VK activity",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "av1",
+            question: "A different IP in history…",
+            options: [
+              "Is always a hack",
+              "Is often network/VPN dynamics; unknown device matters more",
+              "Means you should buy followers",
+              "Turns off community stats",
+            ],
+            correct: 1,
+            explain: "IP alone is a weak signal.",
+          },
+          {
+            id: "av2",
+            question: "Group performance is better judged by…",
+            options: [
+              "Follower count only",
+              "Reactions, comments, messages, and trends",
+              "One admin like",
+              "Personal-page IP history",
+            ],
+            correct: 1,
+            explain: "Engagement ≠ list size.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "ohvat-instagram": {
+    checklist: {
+      afterTitleIncludes: "How to grow without grey schemes",
+      title: "Before chasing reach",
+      lead: "Actions beat bare reach.",
+      items: [
+        { id: "def", label: "Reach vs impressions difference is clear" },
+        { id: "goal", label: "Goal: leads/saves, not only a number" },
+        { id: "time", label: "Check “when online” in your Insights" },
+        { id: "format", label: "Strengthen formats with saves/replies" },
+        { id: "no-bots", label: "No bot buying" },
+        { id: "track", label: "Week before/after measurement exists" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Reach vs impressions vs activity",
+        title: "Mini quiz: Instagram reach",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "oi1",
+            question: "Reach counts…",
+            options: [
+              "All repeat views",
+              "Unique accounts that saw the content",
+              "Likes only",
+              "Always 100% of followers",
+            ],
+            correct: 1,
+            explain: "Reach = unique accounts.",
+          },
+          {
+            id: "oi2",
+            question: "Bought likes/bots…",
+            options: [
+              "Best way to raise reach forever",
+              "Sanction risk and an empty audience",
+              "Required before ads",
+              "Replace the offer",
+            ],
+            correct: 1,
+            explain: "Grey schemes hurt the account.",
+          },
+        ],
+      },
+    ],
+  },
+
+  vzaimopiar: {
+    checklist: {
+      afterTitleIncludes: "How to agree",
+      title: "Before mutual promo",
+      lead: "Relevance beats “just trade something.”",
+      items: [
+        { id: "ready", label: "Your profile is ready for outside traffic" },
+        { id: "fit", label: "Partner niche and audience overlap" },
+        { id: "live", label: "Partner audience looks live" },
+        { id: "brief", label: "Format, date, and links locked" },
+        { id: "metric", label: "You measure leads/retention, not only follows" },
+        { id: "no-grey", label: "No fake-engagement “promo exchanges”" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "What to avoid",
+        title: "Mini quiz: mutual promo",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "vp1",
+            question: "Mutual promo and a shoutout…",
+            options: [
+              "Are always the same",
+              "A shoutout is more often one-off; mutual promo is broader",
+              "Are only about email",
+              "Are only fake engagement",
+            ],
+            correct: 1,
+            explain: "SFS is a special case of attention trade.",
+          },
+          {
+            id: "vp2",
+            question: "A points-for-likes exchange…",
+            options: [
+              "Is ideal mutual promo",
+              "Is often fake engagement; better a direct deal with a relevant creator",
+              "Is required by law",
+              "Replaces preparing the profile",
+            ],
+            correct: 1,
+            explain: "Live promo ≠ bought actions.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "otlozhennyy-posting-instagram": {
+    checklist: {
+      afterTitleIncludes: "How to roll it out without chaos",
+      title: "Before starting the queue",
+      lead: "Plan first, then slots.",
+      items: [
+        { id: "plan", label: "1–2 week content plan ready" },
+        { id: "native", label: "Native Meta scheduling checked" },
+        { id: "auth", label: "Third-party login via official Login" },
+        { id: "slots", label: "Slots matched to “online” Insights" },
+        { id: "human", label: "Who replies to comments after publish" },
+        { id: "no-scrape", label: "No auto-scrape of others’ content" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Official options first",
+        title: "Mini quiz: scheduled posting",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "op1",
+            question: "Scheduled posting…",
+            options: [
+              "Replaces the content plan",
+              "Queues ready content by time",
+              "Must only use grey software",
+              "Guarantees TOP in recommendations",
+            ],
+            correct: 1,
+            explain: "It’s slot technique, not strategy.",
+          },
+          {
+            id: "op2",
+            question: "Scraping others’ posts into the queue…",
+            options: [
+              "Is normal uniquifying",
+              "Is a rights and rules risk; use your own content",
+              "Is required for reach",
+              "Replaces comment replies",
+            ],
+            correct: 1,
+            explain: "Your material is safer and more honest.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "privetstvie-vk": {
+    checklist: {
+      afterTitleIncludes: "Text structure",
+      title: "Before launching the greeting",
+      lead: "One CTA beats a long banner.",
+      items: [
+        { id: "goal", label: "Greeting goal written down" },
+        { id: "cta", label: "One main next step" },
+        { id: "place", label: "Widget / menu / messages chosen" },
+        { id: "mobile", label: "Mobile view checked" },
+        { id: "tone", label: "Tone doesn’t feel like spam" },
+        { id: "metric", label: "Clicks/messages are measured" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Why greet people",
+        title: "Mini quiz: VK greeting",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "pv1",
+            question: "A community greeting…",
+            options: [
+              "Grows the group without content",
+              "Lowers entry friction and gives a next step",
+              "Must only be SpyCat",
+              "Replaces moderation",
+            ],
+            correct: 1,
+            explain: "It’s entry UX, not a growth channel by itself.",
+          },
+          {
+            id: "pv2",
+            question: "In the copy it’s better to…",
+            options: [
+              "Five offers and CAPS",
+              "Keep it short: who you are and one CTA",
+              "Only external links with no value",
+              "Hide the community rules",
+            ],
+            correct: 1,
+            explain: "Clarity beats length.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "generator-nikov": {
+    checklist: {
+      afterTitleIncludes: "Criteria for a good login",
+      title: "Before picking a handle",
+      lead: "Readability beats the “rarest” mash.",
+      items: [
+        { id: "brand", label: "Name/brand/niche locked" },
+        { id: "rules", label: "Target platform rules checked" },
+        { id: "list", label: "10–20 readable options ready" },
+        { id: "check", label: "Availability checked in the network form" },
+        { id: "same", label: "Same handle on key platforms when possible" },
+        { id: "no-buy", label: "No shady buys of other people’s accounts" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "How a generator works",
+        title: "Mini quiz: username generators",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "gn1",
+            question: "An online username generator…",
+            options: [
+              "Books the login on every social network",
+              "Gives ideas; availability is confirmed on the platform",
+              "Guarantees Cyrillic in Instagram username",
+              "Replaces brand and strategy",
+            ],
+            correct: 1,
+            explain: "Brainstorming, not a uniqueness notary.",
+          },
+          {
+            id: "gn2",
+            question: "If the handle you want is taken…",
+            options: [
+              "Take any chaos of characters",
+              "Vary theme/geo/abbreviation and re-check",
+              "Buy from a reseller without checking",
+              "Ignore platform rules",
+            ],
+            correct: 1,
+            explain: "Readable variations + check on the network.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "ohvat-podpischikov-vk": {
+    checklist: {
+      afterTitleIncludes: "Content that reaches",
+      title: "Before working on follower reach",
+      lead: "Organic and engagement first, then ad scale.",
+      items: [
+        { id: "stat", label: "Reach stats open for the period" },
+        { id: "split", label: "Total / followers / viral / ads separated" },
+        { id: "slots", label: "Slots matched to base activity" },
+        { id: "cta", label: "Posts give a reason to react" },
+        { id: "reply", label: "Comments answered in the first hours" },
+        { id: "no-fake", label: "No fake likes/views" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Three reaches",
+        title: "Mini quiz: VK follower reach",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "opv1",
+            question: "Follower reach is…",
+            options: [
+              "The number in the community header",
+              "How many unique people from the base saw posts",
+              "Only viral views from outsiders",
+              "A guarantee of sales from ads",
+            ],
+            correct: 1,
+            explain: "Delivery to your audience, not base size.",
+          },
+          {
+            id: "opv2",
+            question: "Buying reactions for reach…",
+            options: [
+              "Is required for smart ranking",
+              "Is risky and distorts audience quality",
+              "Replaces useful content",
+              "Is needed instead of stats",
+            ],
+            correct: 1,
+            explain: "White growth — via engagement and relevance.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "podpis-foto-instagram": {
+    checklist: {
+      afterTitleIncludes: "Structure of a readable caption",
+      title: "Before publishing the caption",
+      lead: "Frame meaning beats a pile of hashtags.",
+      items: [
+        { id: "match", label: "Text linked to what’s in the photo" },
+        { id: "hook", label: "First line readable in preview" },
+        { id: "air", label: "Paragraphs / air, not a wall of text" },
+        { id: "tone", label: "Tone matches the profile audience" },
+        { id: "cta", label: "A question or soft next step" },
+        { id: "tags", label: "Hashtags relevant, no spam" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Frame first, words second",
+        title: "Mini quiz: photo caption",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "pf1",
+            question: "A good photo caption…",
+            options: [
+              "Is always longer than 2000 characters",
+              "Amplifies the frame and reads on a phone",
+              "Must be a list of 30 hashtags",
+              "Always replaces a selling offer structure",
+            ],
+            correct: 1,
+            explain: "Link to the frame and clarity beat length.",
+          },
+          {
+            id: "pf2",
+            question: "Dozens of random hashtags…",
+            options: [
+              "Guarantee recommendations",
+              "Are often noise; a few on-topic tags are better",
+              "Are required for every photo",
+              "Replace the first line",
+            ],
+            correct: 1,
+            explain: "Tag relevance beats quantity.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "spam-vk": {
+    checklist: {
+      afterTitleIncludes: "How to report",
+      title: "If spam hit VK",
+      lead: "Don’t open the link — report and check privacy first.",
+      items: [
+        { id: "report", label: "Message/post marked as spam" },
+        { id: "link", label: "Suspicious link not opened" },
+        { id: "privacy", label: "“Who can message” limits checked" },
+        { id: "apps", label: "No extra apps with access" },
+        { id: "pass", label: "On hack: email and VK passwords changed" },
+        { id: "sessions", label: "Foreign login sessions ended" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "What VK treats as spam",
+        title: "Mini quiz: VK spam",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "sv1",
+            question: "Mass “subscribe” messages without consent…",
+            options: [
+              "Normal SMM",
+              "Spam with report and ban risk",
+              "Required for group growth",
+              "Replace a content plan",
+            ],
+            correct: 1,
+            explain: "Pushiness without consent isn’t a promotion channel.",
+          },
+          {
+            id: "sv2",
+            question: "If your page messages friends without you…",
+            options: [
+              "Ignore it",
+              "Change passwords, end sessions, check apps",
+              "Buy a grey blaster in response",
+              "Only delete a couple of messages",
+            ],
+            correct: 1,
+            explain: "Access and sessions first, then the chat cleanup.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "url-youtube": {
+    checklist: {
+      afterTitleIncludes: "Typical access conditions",
+      title: "Before changing the channel URL",
+      lead: "YouTube Help beats a 2020 screenshot.",
+      items: [
+        { id: "brand", label: "Desired handle is pronounceable and free" },
+        { id: "rules", label: "Current Studio requirements checked" },
+        { id: "design", label: "Avatar, banner, and description in place" },
+        { id: "limit", label: "Repeat-change limit accounted for" },
+        { id: "canon", label: "Plan to update the link on site/cards" },
+        { id: "old", label: "Clear that the old URL may keep working" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Why a short URL",
+        title: "Mini quiz: YouTube URL",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "uy1",
+            question: "A short channel URL/@handle…",
+            options: [
+              "Raises videos in recommendations by itself",
+              "Is easier to share and strengthens the brand",
+              "Guarantees any taken handle",
+              "Replaces description and keywords",
+            ],
+            correct: 1,
+            explain: "Convenience and identity, not a growth algorithm.",
+          },
+          {
+            id: "uy2",
+            question: "Changing the address every month…",
+            options: [
+              "Is normal practice",
+              "Is a bad idea: change limits and link confusion",
+              "Is required for monetization",
+              "Is needed instead of content",
+            ],
+            correct: 1,
+            explain: "Pick a stable canon and update external links.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "vovlechennost-instagram": {
+    checklist: {
+      afterTitleIncludes: "Formulas: DER, ER by reach",
+      title: "Before reviewing ER",
+      lead: "One formula and self-comparison beat someone else’s benchmark.",
+      items: [
+        { id: "pro", label: "Professional account enabled" },
+        { id: "formula", label: "One primary ER formula locked" },
+        { id: "period", label: "Comparable period without mixing ads blindly" },
+        { id: "saves", label: "Watch saves and replies, not only likes" },
+        { id: "posts", label: "Strong and weak formats marked" },
+        { id: "no-fake", label: "No fake engagement or mass-follow “for ER”" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "What counts as engagement",
+        title: "Mini quiz: Instagram engagement",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "vi1",
+            question: "Engagement Rate…",
+            options: [
+              "Equals follower count",
+              "Shows reaction share vs base/reach/post",
+              "Must always be exactly 3%",
+              "Only grows from fake engagement",
+            ],
+            correct: 1,
+            explain: "A reaction index, not audience size.",
+          },
+          {
+            id: "vi2",
+            question: "The universal “3% at 10k” benchmark…",
+            options: [
+              "Is law for every niche",
+              "Is an outdated cue; your trend and niche matter more",
+              "Replaces Insights stats",
+              "Is required for ads",
+            ],
+            correct: 1,
+            explain: "Compare yourself to yourself and relevant accounts.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "soobshhestva-vk": {
+    checklist: {
+      afterTitleIncludes: "Changing format and starting",
+      title: "Before launching a VK community",
+      lead: "Format and offer first, then bots and ads.",
+      items: [
+        { id: "goal", label: "Community goal written down" },
+        { id: "type", label: "Type chosen: public / group / event" },
+        { id: "desc", label: "Description and CTA clear for newcomers" },
+        { id: "posts", label: "Starter post backlog ready" },
+        { id: "reply", label: "Who answers messages and comments" },
+        { id: "no-fake", label: "No plan for fake followers or spam blasts" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Why business needs a community",
+        title: "Mini quiz: VK communities",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "svk1",
+            question: "A public page and a group…",
+            options: [
+              "Are full synonyms with no differences",
+              "Are different formats for open brand content vs more “club” scenarios",
+              "Exist only for fake growth",
+              "Always replace a website",
+            ],
+            correct: 1,
+            explain: "Pick the type for the job and access model.",
+          },
+          {
+            id: "svk2",
+            question: "Creating a community by itself…",
+            options: [
+              "Guarantees sales",
+              "Gives a channel; you still need offer, content, and replies",
+              "Makes a bot mandatory on day 1",
+              "Replaces ads forever",
+            ],
+            correct: 1,
+            explain: "A shell without work doesn’t sell.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "keisy-facebook-ads": {
+    checklist: {
+      afterTitleIncludes: "Common mistakes before",
+      title: "Before launching a Meta Ads campaign",
+      lead: "Goal and landing first, then budget scale.",
+      items: [
+        { id: "goal", label: "Campaign goal = business metric" },
+        { id: "audience", label: "Segment narrower than “everyone”" },
+        { id: "creatives", label: "At least 2 creatives/hypotheses" },
+        { id: "lp", label: "Landing answers the ad’s promise" },
+        { id: "pixel", label: "Events/pixel checked" },
+        { id: "remarket", label: "Warm-audience return planned" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Lesson: a question in the creative",
+        title: "Mini quiz: Facebook Ads cases",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "kfa1",
+            question: "Someone else’s 8x ROI from a case…",
+            options: [
+              "Guarantees your result",
+              "Is an illustration; mechanics matter, not their sum",
+              "Replaces creative tests",
+              "Makes the landing unnecessary",
+            ],
+            correct: 1,
+            explain: "Copy the fit-and-test principle, not the number.",
+          },
+          {
+            id: "kfa2",
+            question: "One ad with no iterations…",
+            options: [
+              "Is enough for a stable CPA",
+              "Is flying blind: you need tests and cutting the weak",
+              "Beats any remarketing",
+              "Replaces the pixel",
+            ],
+            correct: 1,
+            explain: "Efficient buying is a continuous hypothesis process.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "zakazchiki-kopiraytera": {
+    checklist: {
+      afterTitleIncludes: "Prep first, hunting second",
+      title: "Before searching for clients",
+      lead: "Portfolio and rates beat a hundred template pitches.",
+      items: [
+        { id: "portfolio", label: "2–4 relevant examples with links" },
+        { id: "price", label: "Price range or formula stated" },
+        { id: "niche", label: "Niche/text formats chosen" },
+        { id: "channels", label: "1–2 search channels picked" },
+        { id: "reply", label: "Strong pitch template ready" },
+        { id: "pay", label: "Payment method and revision terms clear" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Where to find clients",
+        title: "Mini quiz: clients for a copywriter",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "zk1",
+            question: "Best start with no experience…",
+            options: [
+              "Dump rates from day one",
+              "Niche demos + portfolio and selective pitches",
+              "Spam every group",
+              "Only a résumé with no samples",
+            ],
+            correct: 1,
+            explain: "Show results, then look for clients.",
+          },
+          {
+            id: "zk2",
+            question: "A “I’m a copywriter, hire me” blast to 100 addresses…",
+            options: [
+              "Is effective outreach",
+              "Looks like spam and converts poorly",
+              "Replaces a portfolio",
+              "Is required on marketplaces",
+            ],
+            correct: 1,
+            explain: "A personal pitch with a case beats a mass blast.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "nayti-cheloveka-instagram": {
+    checklist: {
+      afterTitleIncludes: "Search in the app",
+      title: "If you’re finding someone on Instagram",
+      lead: "Username and Accounts search first — workarounds later.",
+      items: [
+        { id: "nick", label: "Exact username / spelling variants checked" },
+        { id: "search", label: "Name search in the Accounts tab" },
+        { id: "extra", label: "If needed — geo / hashtag / mutuals" },
+        { id: "url", label: "Tried the direct profile URL" },
+        { id: "privacy", label: "Private or deleted profile accounted for" },
+        { id: "no-grey", label: "No shady “deanonymizer” services" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "If you know the username",
+        title: "Mini quiz: find on Instagram",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "nci1",
+            question: "The fastest way to find someone…",
+            options: [
+              "A random hashtag",
+              "Username or profile URL",
+              "Only syncing every contact",
+              "A third-party deanonymizer site",
+            ],
+            correct: 1,
+            explain: "Handle and direct link are the base.",
+          },
+          {
+            id: "nci2",
+            question: "If the profile is private or deleted…",
+            options: [
+              "Official search still opens everything",
+              "Usual tools may show nothing",
+              "Only a browser without login is needed",
+              "Phone search is required",
+            ],
+            correct: 1,
+            explain: "Privacy and deletion limit search.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "post-facebook": {
+    checklist: {
+      afterTitleIncludes: "Where people publish",
+      title: "Before publishing on Facebook",
+      lead: "Surface and format first — boost later.",
+      items: [
+        { id: "surface", label: "Profile / group / Page chosen" },
+        { id: "format", label: "Format clear (text, media, poll…)" },
+        { id: "hook", label: "First screen / headline clear" },
+        { id: "preview", label: "Link or media preview checked" },
+        { id: "comments", label: "Comments and moderation thought through" },
+        { id: "boost", label: "Boost only after the post is ready" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Post formats",
+        title: "Mini quiz: Facebook post",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "pf1",
+            question: "Paid boost…",
+            options: [
+              "Fixes a weak post’s meaning",
+              "Amplifies a ready Page post when you have rights",
+              "Works for any personal status without a Page",
+              "Is required for every post",
+            ],
+            correct: 1,
+            explain: "Boost amplifies ready content; it doesn’t save empty posts.",
+          },
+          {
+            id: "pf2",
+            question: "A business Page post vs a group post…",
+            options: [
+              "Are the same thing",
+              "Page is a brand storefront; group is community and rules",
+              "Groups always have more ad tools",
+              "Groups can’t be moderated",
+            ],
+            correct: 1,
+            explain: "Surfaces differ by goal and tools.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "video-stories-instagram": {
+    checklist: {
+      afterTitleIncludes: "How to add video",
+      title: "Before uploading video to Stories",
+      lead: "Format and your archive beat third-party savers.",
+      items: [
+        { id: "aspect", label: "File ~9:16, decent bitrate" },
+        { id: "hook", label: "Frame and CTA clear in the first seconds" },
+        { id: "audience", label: "Stories chosen, not a random DM" },
+        { id: "archive", label: "Archive / save-own enabled" },
+        { id: "no-grey", label: "No grey downloaders of others’ Stories" },
+        { id: "limits", label: "App segment length limit accounted for" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Why quality drops",
+        title: "Mini quiz: video in Stories",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "vsi1",
+            question: "A common reason for soft upload…",
+            options: [
+              "The clip is too short",
+              "Wrong aspect / weak file prep",
+              "A third-party saver is required",
+              "Only missing hashtags",
+            ],
+            correct: 1,
+            explain: "The network recompresses a bad source harder.",
+          },
+          {
+            id: "vsi2",
+            question: "Other people’s Stories via grey savers…",
+            options: [
+              "Are official and safe",
+              "Risk ToS/privacy — we don’t recommend them",
+              "Improve your clip’s quality",
+              "Are required for reach",
+            ],
+            correct: 1,
+            explain: "Yours — archive; others’ — only ethically and by the rules.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "udalenie-akkaunta-instagram": {
+    checklist: {
+      afterTitleIncludes: "Three scenarios",
+      title: "Before closing Instagram",
+      lead: "Pick the scenario first — then hit confirm.",
+      items: [
+        { id: "goal", label: "Goal clear: pause / personal / delete" },
+        { id: "backup", label: "Important media and data saved" },
+        { id: "ads", label: "Ads and payments checked" },
+        { id: "links", label: "Linked Meta accounts checked" },
+        { id: "access", label: "Extra staff access removed" },
+        { id: "help", label: "Current path checked in Meta Help" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Full account deletion",
+        title: "Mini quiz: deleting Instagram",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "uai1",
+            question: "Switching business → personal…",
+            options: [
+              "Is full account deletion",
+              "Is a profile-type change; the feed usually stays",
+              "Always frees the username immediately",
+              "Irreversibly deletes followers",
+            ],
+            correct: 1,
+            explain: "The mode changes, not whether the account exists.",
+          },
+          {
+            id: "uai2",
+            question: "After full deletion…",
+            options: [
+              "The same account is easy to restore with a button",
+              "Content and followers generally don’t come back",
+              "The username is yours forever for sure",
+              "Deleting the phone app is enough",
+            ],
+            correct: 1,
+            explain: "Deletion is almost always irreversible for feed and audience.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "geymifikatsiya-socseti": {
+    checklist: {
+      afterTitleIncludes: "Where to start",
+      title: "Before launching gamification",
+      lead: "Goal and core beat a complex app.",
+      items: [
+        { id: "goal", label: "Mechanic goal set (not “just likes”)" },
+        { id: "base", label: "Page is alive; content base exists" },
+        { id: "rules", label: "Rules simple and announced upfront" },
+        { id: "reward", label: "Reward sized to the effort" },
+        { id: "metric", label: "Participation/click measure clear" },
+        { id: "no-grey", label: "No grey engagement automation" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Formats: from simple",
+        title: "Mini quiz: gamification",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "gs1",
+            question: "Frequent “repost only” contests…",
+            options: [
+              "Are always the best way to build a core",
+              "Often attract prize hunters, not loyal fans",
+              "Replace useful content",
+              "Don’t need rules",
+            ],
+            correct: 1,
+            explain: "Interest in the brand first, then the prize.",
+          },
+          {
+            id: "gs2",
+            question: "A smarter place to start…",
+            options: [
+              "Your own game app right away",
+              "Simple native polls/games for the audience",
+              "A catalog of every bot at once",
+              "Only a city-wide offline quest",
+            ],
+            correct: 1,
+            explain: "Cheap hypothesis tests before complex projects.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "arhiv-instagram": {
+    checklist: {
+      afterTitleIncludes: "How to hide a publish",
+      title: "Before archiving a post",
+      lead: "Archive ≠ delete — but keep the source yourself.",
+      items: [
+        { id: "own", label: "It’s your post, not someone else’s" },
+        { id: "backup", label: "Source/copy saved if needed" },
+        { id: "metrics", label: "Needed metrics locked outside the post" },
+        { id: "goal", label: "Goal clear: grid style / offer / pause" },
+        { id: "stories", label: "Not confusing with Stories archive" },
+        { id: "restore", label: "Know how to “Show on profile”" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "How to bring a post back",
+        title: "Mini quiz: Instagram archive",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ai1",
+            question: "A post archive…",
+            options: [
+              "Deletes the publish forever",
+              "Hides it from the profile, usually keeping reactions",
+              "Is the same as the Stories archive",
+              "Makes the post visible to everyone in search",
+            ],
+            correct: 1,
+            explain: "It’s hiding, not a delete trash bin.",
+          },
+          {
+            id: "ai2",
+            question: "“Delete” from the archive…",
+            options: [
+              "Just returns it to the profile",
+              "Usually removes the publish for good",
+              "Only turns off comments",
+              "Always frees phone storage",
+            ],
+            correct: 1,
+            explain: "Deleting from the archive already loses the post.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "ssylka-stories-instagram": {
+    checklist: {
+      afterTitleIncludes: "How to add a link sticker",
+      title: "Before a Stories link",
+      lead: "Sticker and clear CTA beat the swipe myth.",
+      items: [
+        { id: "url", label: "Working mobile URL checked" },
+        { id: "cta", label: "Short button/offer label" },
+        { id: "access", label: "Sticker access checked in Meta Help" },
+        { id: "fallback", label: "Fallback path ready (bio / Direct)" },
+        { id: "preview", label: "Jump preview tested" },
+        { id: "no-grey", label: "No grey “swipe workarounds”" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Internal and external",
+        title: "Mini quiz: Stories link",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ssi1",
+            question: "“Swipe up” today…",
+            options: [
+              "Is the only official way for everyone",
+              "Is an outdated gesture name; more often Link sticker / CTA",
+              "Only works via grey apps",
+              "Replaces the bio link forever",
+            ],
+            correct: 1,
+            explain: "The jump idea lives in the sticker, not the old gesture.",
+          },
+          {
+            id: "ssi2",
+            question: "The “exactly 10,000” threshold from old guides…",
+            options: [
+              "Is eternal Meta dogma",
+              "May have changed; check current rules",
+              "Guarantees a sticker for everyone",
+              "Is only needed for an internal @ mention",
+            ],
+            correct: 1,
+            explain: "Access rules shifted — use Help.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "zarabotok-gruppy-vk": {
+    checklist: {
+      afterTitleIncludes: "Commercial posts",
+      title: "Before selling ads in the group",
+      lead: "A live audience and an honest media kit beat a marketplace.",
+      items: [
+        { id: "stats", label: "Reach/ER for the period ready" },
+        { id: "price", label: "Format price list without fantasy" },
+        { id: "rules", label: "Labeling and moderation clear" },
+        { id: "no-bots", label: "No fake audience growth" },
+        { id: "fit", label: "Client offer matches the topic" },
+        { id: "report", label: "Short advertiser report ready" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "How to set a price",
+        title: "Mini quiz: earning from a VK group",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "zgv1",
+            question: "What matters most to an advertiser…",
+            options: [
+              "Only a round follower count",
+              "Live reach, ER, and audience fit",
+              "Ten posts a day at any cost",
+              "Fake views",
+            ],
+            correct: 1,
+            explain: "Attention from a live audience beats “dead” thousands.",
+          },
+          {
+            id: "zgv2",
+            question: "Fake growth for monetization…",
+            options: [
+              "Is a required start",
+              "Hurts ER and placement price",
+              "Guarantees 100k per post",
+              "Is only needed by marketplaces",
+            ],
+            correct: 1,
+            explain: "Bots destroy trust and the price list.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "neskolko-stories-instagram": {
+    checklist: {
+      afterTitleIncludes: "How to publish several",
+      title: "Before a Stories series",
+      lead: "Frame order beats quantity.",
+      items: [
+        { id: "hook", label: "Hook/offer in the first frame" },
+        { id: "theme", label: "One topic for the whole series" },
+        { id: "order", label: "Order checked before sharing" },
+        { id: "format", label: "Video ~9:16, reasonable weight" },
+        { id: "archive", label: "Archive/Highlights if needed" },
+        { id: "no-grey", label: "No emulators or grey extensions" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Order and retention",
+        title: "Mini quiz: several Stories",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "nsi1",
+            question: "What matters most in a series…",
+            options: [
+              "Post as many frames as possible",
+              "A strong first frame and logical order",
+              "A PC emulator is required",
+              "A random mix of topics in one chain",
+            ],
+            correct: 1,
+            explain: "Completion drops toward the end — hook first.",
+          },
+          {
+            id: "nsi2",
+            question: "Emulators and Chrome-“Android” for Stories…",
+            options: [
+              "Are Meta’s official recommendation",
+              "Are extra risk; prefer built-in/official tools",
+              "Are required to cut video",
+              "Guarantee more reach",
+            ],
+            correct: 1,
+            explain: "Official cabinets are safer than grey workarounds.",
+          },
+        ],
+      },
+    ],
+  },
+
+  emodzi: {
+    checklist: {
+      afterTitleIncludes: "How to start without failing",
+      title: "Before emoji in copy",
+      lead: "Audience tone beats “creative for creative’s sake.”",
+      items: [
+        { id: "audience", label: "Tone matches audience and niche" },
+        { id: "meaning", label: "Meaning reads without the symbols" },
+        { id: "measure", label: "No more than 1–2 accents per paragraph" },
+        { id: "render", label: "Render checked on different OSes" },
+        { id: "cta", label: "CTA clear without the icon" },
+        { id: "seo", label: "No myth that emoji = rankings" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Where they fit",
+        title: "Mini quiz: emoji",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "em1",
+            question: "Emoji in Title…",
+            options: [
+              "Guarantee ranking growth",
+              "May affect CTR, but don’t replace meaning",
+              "Are required for B2B",
+              "Always raise trust",
+            ],
+            correct: 1,
+            explain: "About click and perception, not ranking.",
+          },
+          {
+            id: "em2",
+            question: "Emoji overload in a serious niche…",
+            options: [
+              "Always raises engagement",
+              "Often annoys and hurts brand tone",
+              "Is needed for indexing",
+              "Replaces the offer",
+            ],
+            correct: 1,
+            explain: "Measure and audience beat symbol density.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "vovlechennost-socseti": {
+    checklist: {
+      afterTitleIncludes: "Content and audience",
+      title: "Before growing engagement",
+      lead: "Dialogue beats bought reactions.",
+      items: [
+        { id: "formula", label: "One ER/measure formula locked" },
+        { id: "audience", label: "Audience hypothesis and strong topics ready" },
+        { id: "timing", label: "Post timing matched to your stats" },
+        { id: "prompt", label: "Posts give a reason to reply" },
+        { id: "reply", label: "Time booked for replies" },
+        { id: "no-grey", label: "No fake reaction buys" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Timing and a reason",
+        title: "Mini quiz: social engagement",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "vs1",
+            question: "A universal “ER norm” for everyone…",
+            options: [
+              "Exists and equals 3%",
+              "Is a myth; compare yourself and the niche",
+              "Guarantees sales",
+              "Replaces a content plan",
+            ],
+            correct: 1,
+            explain: "Norms depend on niche, base, and formula.",
+          },
+          {
+            id: "vs2",
+            question: "Buying likes…",
+            options: [
+              "Makes real fans",
+              "Distorts metrics and risks limits",
+              "Is required before a contest",
+              "Is needed for Stories",
+            ],
+            correct: 1,
+            explain: "Live dialogue isn’t bought as a like pack.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "sekretnyy-chat-telegram": {
+    checklist: {
+      afterTitleIncludes: "How to create a secret chat",
+      title: "Before a secret chat",
+      lead: "A mode for the risk — not a magic shield.",
+      items: [
+        { id: "need", label: "Clear why E2E, not a regular chat" },
+        { id: "contact", label: "Correct contact person" },
+        { id: "timer", label: "Delete timer agreed" },
+        { id: "client", label: "Official updated client" },
+        { id: "device", label: "Device binding accounted for" },
+        { id: "realism", label: "No illusion of protection from a second camera" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "How a secret chat differs",
+        title: "Mini quiz: Telegram secret chat",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "sct1",
+            question: "Regular and secret chats…",
+            options: [
+              "Are the same thing",
+              "Are different modes: cloud vs a separate E2E session",
+              "Secret always syncs on every device at once",
+              "Secret is required for channels",
+            ],
+            correct: 1,
+            explain: "Secret is a separate dialogue type.",
+          },
+          {
+            id: "sct2",
+            question: "Screenshot blocking in the client…",
+            options: [
+              "Makes leaks impossible",
+              "Limits them, but doesn’t protect from another camera",
+              "Replaces a phone password",
+              "Is required for bots",
+            ],
+            correct: 1,
+            explain: "UI protection ≠ a full threat model.",
+          },
+        ],
+      },
+    ],
+  },
+
+  pinterest: {
+    checklist: {
+      afterTitleIncludes: "For business",
+      title: "Before starting on Pinterest",
+      lead: "Your pins and measured links beat a “pretty storefront.”",
+      items: [
+        { id: "goal", label: "Goal: ideas / traffic / storefront" },
+        { id: "boards", label: "Boards by theme, not a dump" },
+        { id: "rights", label: "Your own or licensed images" },
+        { id: "link", label: "Working mobile URLs on pins" },
+        { id: "utm", label: "Click tracking tagged" },
+        { id: "no-myth", label: "No expectation that “pin = sales alone”" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Glossary: pin",
+        title: "Mini quiz: Pinterest",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "pin1",
+            question: "Repin…",
+            options: [
+              "Deletes a board",
+              "Saves someone else’s pin to yours",
+              "Pays for ads",
+              "Changes the password",
+            ],
+            correct: 1,
+            explain: "Saving an idea to your board.",
+          },
+          {
+            id: "pin2",
+            question: "Someone else’s pin in ads…",
+            options: [
+              "Is always allowed",
+              "Needs rights/license or your own materials",
+              "A repin is enough",
+              "Is only allowed from .ru",
+            ],
+            correct: 1,
+            explain: "Copyright isn’t cleared by a repin.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "vtoroy-akkaunt-instagram": {
+    checklist: {
+      afterTitleIncludes: "How to add in the app",
+      title: "Before a second account",
+      lead: "Profile role beats “just another page.”",
+      items: [
+        { id: "role", label: "Role clear: personal / brand / project" },
+        { id: "email", label: "Separate email/login ready" },
+        { id: "nick", label: "Free handle for the job" },
+        { id: "official", label: "Official app only" },
+        { id: "plan", label: "Minimal content plan exists" },
+        { id: "no-grey", label: "No grey multi-clients" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Why a second profile",
+        title: "Mini quiz: second Instagram account",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "vai1",
+            question: "Switching personal to business…",
+            options: [
+              "Is the same as a second account",
+              "Is one profile’s mode; a second account is a separate feed",
+              "Deletes the first profile",
+              "Is required for Stories",
+            ],
+            correct: 1,
+            explain: "Account type ≠ a new profile.",
+          },
+          {
+            id: "vai2",
+            question: "“End session”…",
+            options: [
+              "Deletes the account forever",
+              "Removes login from the device without deleting the profile",
+              "Turns off Instagram for everyone",
+              "Is needed for signup",
+            ],
+            correct: 1,
+            explain: "That’s sign-out, not deletion.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "prosmotry-stories-instagram": {
+    checklist: {
+      afterTitleIncludes: "What views depend on",
+      title: "Before growing Stories views",
+      lead: "Dialogue and the first frame beat bought numbers.",
+      items: [
+        { id: "hook", label: "Hook in the first frame" },
+        { id: "interact", label: "Sticker/question for a reply" },
+        { id: "reply", label: "Time booked to answer" },
+        { id: "measure", label: "Watch completion, not views alone" },
+        { id: "length", label: "Series not padded for nothing" },
+        { id: "no-grey", label: "No buying Stories views" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "5–6. Plan and measure",
+        title: "Mini quiz: Stories views",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "psi1",
+            question: "Few views with a big base more often means…",
+            options: [
+              "A shadowban for sure",
+              "Weak activity/hook or a dead base",
+              "Only buying views will help",
+              "Too few Highlights",
+            ],
+            correct: 1,
+            explain: "People who care to reply and visit are the ones watching.",
+          },
+          {
+            id: "psi2",
+            question: "Buying Stories views…",
+            options: [
+              "Makes loyal fans",
+              "Risks limits and empty metrics",
+              "Is required before a Live",
+              "Replaces a content plan",
+            ],
+            correct: 1,
+            explain: "White growth — through dialogue and content.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "promo-instagram": {
+    checklist: {
+      afterTitleIncludes: "Before launch",
+      title: "Before promoting a post",
+      lead: "Offer first, budget second.",
+      items: [
+        { id: "profile", label: "Pro profile and ads permissions" },
+        { id: "offer", label: "Clear creative and CTA" },
+        { id: "goal", label: "One test goal" },
+        { id: "audience", label: "Audience/geo set" },
+        { id: "budget", label: "Test limit and duration" },
+        { id: "track", label: "UTM or promo code" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: Instagram Promote",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "pi1",
+            question: "“Promote” in Instagram in this article is…",
+            options: [
+              "A retail store discount",
+              "A simplified post boost (Promote)",
+              "Required IGTV",
+              "A SEO replacement",
+            ],
+            correct: 1,
+            explain: "Don’t confuse it with retail promotions.",
+          },
+          {
+            id: "pi2",
+            question: "Ads on a weak post with no offer…",
+            options: [
+              "Always pull sales",
+              "Often burn budget for nothing",
+              "Need no review",
+              "Replace a business account",
+            ],
+            correct: 1,
+            explain: "Content and CTA first, then Promote.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "zakrytyy-akkaunt-instagram": {
+    checklist: {
+      afterTitleIncludes: "How to turn on a private account",
+      title: "Before going private",
+      lead: "Privacy ≠ deletion.",
+      items: [
+        { id: "goal", label: "Clear goal: audience filter" },
+        { id: "not-delete", label: "Not confusing with delete/pause" },
+        { id: "subscribers", label: "Ready to review current followers" },
+        { id: "business", label: "Profile type considered (business/personal)" },
+        { id: "crosspost", label: "Cross-post to open channels checked" },
+        { id: "help", label: "Path checked in current Meta Help" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: private account",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "za1",
+            question: "A private Instagram account is…",
+            options: [
+              "Full page deletion",
+              "A feed only for accepted followers",
+              "Required business mode",
+              "Anonymous viewing of others’ Stories",
+            ],
+            correct: 1,
+            explain: "Profile privacy, not deletion.",
+          },
+          {
+            id: "za2",
+            question: "For a business storefront, private mode often…",
+            options: [
+              "Speeds cold reach",
+              "Hurts inflow and recommendations",
+              "Replaces Ads Manager",
+              "Removes followers automatically",
+            ],
+            correct: 1,
+            explain: "Commerce usually needs an open profile.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "prosmotr-zakrytogo-akkaunta": {
+    checklist: {
+      afterTitleIncludes: "The only built-in path",
+      title: "Before requesting a private profile",
+      lead: "No workarounds or shady apps.",
+      items: [
+        { id: "request", label: "Ready to send a follow request" },
+        { id: "no-apps", label: "No “private viewer” sites" },
+        { id: "no-hack", label: "No “hack” offers" },
+        { id: "no-fake", label: "No fake account to trick the owner" },
+        { id: "accept-no", label: "Ready to accept a refusal" },
+        { id: "dialog", label: "If needed — dialogue outside the feed" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: viewing private accounts",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "pz1",
+            question: "The built-in way to see a private feed is…",
+            options: [
+              "Download a viewer app",
+              "Follow request accepted by the owner",
+              "Pay for a “hack”",
+              "Create a fake store",
+            ],
+            correct: 1,
+            explain: "There is no other official path.",
+          },
+          {
+            id: "pz2",
+            question: "“View private Instagram” sites are usually…",
+            options: [
+              "An official Meta feature",
+              "Phishing, scams, or malware",
+              "A follow-request replacement",
+              "Required for business",
+            ],
+            correct: 1,
+            explain: "Risk for you — not access to someone else’s feed.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "sohranenie-efira-instagram": {
+    checklist: {
+      afterTitleIncludes: "Your Live: built-in steps",
+      title: "After ending Live",
+      lead: "File and publish first, then review.",
+      items: [
+        { id: "save", label: "Saved the recording to the device" },
+        { id: "share", label: "Decided whether to publish the full recording" },
+        { id: "cut", label: "Planned cuts / key points" },
+        { id: "space", label: "Checked free disk space" },
+        { id: "no-saver", label: "No savers for other people’s Lives" },
+        { id: "notes", label: "Noted questions from chat" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: saving a Live",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "se1",
+            question: "In old guides, IGTV is best read as…",
+            options: [
+              "A required separate app",
+              "An outdated label: share the recording with current tools",
+              "The only way to download someone else’s Live",
+              "A Stories replacement",
+            ],
+            correct: 1,
+            explain: "Standalone IGTV is no longer the foundation.",
+          },
+          {
+            id: "se2",
+            question: "A third-party “download any Live” service is…",
+            options: [
+              "An official Meta feature",
+              "A phishing and copyright risk",
+              "Required for your own Live",
+              "A replacement for autosave",
+            ],
+            correct: 1,
+            explain: "Your Live — built-in menu after you end it.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "muzyka-stories-instagram": {
+    checklist: {
+      afterTitleIncludes: "Built-in music sticker",
+      title: "Before music in Stories",
+      lead: "Catalog first, editor second.",
+      items: [
+        { id: "sticker", label: "Checked the Music sticker in Stories" },
+        { id: "region", label: "Accounted for region / account limits" },
+        { id: "license", label: "Clear on commercial license" },
+        { id: "balance", label: "Speech and track balanced" },
+        { id: "no-phish", label: "No utilities asking for Instagram password" },
+        { id: "format", label: "Own sound — 9:16 export" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: music in Stories",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ms1",
+            question: "First step for music in Stories…",
+            options: [
+              "Enter a password on a third-party site",
+              "Open the built-in Music sticker",
+              "Screen-record another player",
+              "Download a “region unlock”",
+            ],
+            correct: 1,
+            explain: "Built-in catalog first.",
+          },
+          {
+            id: "ms2",
+            question: "A brand jingle is more logical to…",
+            options: [
+              "Always steal the hit of the week",
+              "Build in an editor with legal rights",
+              "Push through a phishing bypass",
+              "Never use music",
+            ],
+            correct: 1,
+            explain: "Editor + license without Instagram login.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "rekomendatsii-tiktok": {
+    checklist: {
+      afterTitleIncludes: "Signals that matter",
+      title: "Before posting to TikTok",
+      lead: "Hook and watch-through beat a “secret” hashtag.",
+      items: [
+        { id: "hook", label: "1–3 second hook" },
+        { id: "one-idea", label: "One clear story" },
+        { id: "watch", label: "A reason to watch to the end" },
+        { id: "cta", label: "A reason to comment / save" },
+        { id: "bio", label: "Profile matches the clip’s promise" },
+        { id: "no-bots", label: "No fake engagement" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: TikTok recommendations",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "tt1",
+            question: "The main driver of For You distribution…",
+            options: [
+              "Dozens of random 2020 hashtags",
+              "Viewer behavior: retention and reactions",
+              "Blog size only",
+              "Required fake likes",
+            ],
+            correct: 1,
+            explain: "The algorithm expands the pool on interest signals.",
+          },
+          {
+            id: "tt2",
+            question: "A “top hashtags of May 2020” catalog…",
+            options: [
+              "Is the eternal algorithm secret",
+              "Is outdated; check live trends in the app",
+              "Replaces the hook",
+              "Is required for Pro status",
+            ],
+            correct: 1,
+            explain: "Trends don’t last.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "nazvanie-auditorii-instagram": {
+    checklist: {
+      afterTitleIncludes: "How to name: a working scheme",
+      title: "Before saving an audience",
+      lead: "The label must read clearly a month later.",
+      items: [
+        { id: "template", label: "Template ready: geo · age · source · goal" },
+        { id: "unique", label: "Name not reused after interest changes" },
+        { id: "goal", label: "Campaign goal reflected in the label" },
+        { id: "geo", label: "Geo and age matched to audience" },
+        { id: "no-slogan", label: "Not confused with the public profile handle" },
+        { id: "no-grey", label: "No mass-liking or bought lists" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: audience name",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "na1",
+            question: "Audience name in Promote/Ads is…",
+            options: [
+              "Seen by all followers in the feed",
+              "An internal segment label for the team",
+              "A replacement for the profile @handle",
+              "A required brand slogan",
+            ],
+            correct: 1,
+            explain: "It’s a settings tag, not a storefront.",
+          },
+          {
+            id: "na2",
+            question: "The most useful naming style is…",
+            options: [
+              "A random emoji",
+              "Geo, source, and goal in one line",
+              "Only a joke slogan",
+              "The same name for every test",
+            ],
+            correct: 1,
+            explain: "A month later you should know what you tested.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "nastroika-reklamy-instagram": {
+    checklist: {
+      afterTitleIncludes: "What to prepare before Ads Manager",
+      title: "Before launching in Meta Ads",
+      lead: "Goal and offer beat button screenshots.",
+      items: [
+        { id: "link", label: "Instagram linked to the ad account" },
+        { id: "goal", label: "One test goal" },
+        { id: "creative", label: "Creative built for vertical" },
+        { id: "place", label: "Instagram placements checked" },
+        { id: "budget", label: "Limit and review date set" },
+        { id: "track", label: "UTM / pixel / events by task" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: Instagram via Meta Ads",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "nri1",
+            question: "In-app Promote is…",
+            options: [
+              "A full Ads Manager replacement",
+              "A quick boost; Ads Manager is for a system",
+              "Never needs a business profile",
+              "Works only without a goal",
+            ],
+            correct: 1,
+            explain: "Different levels of control.",
+          },
+          {
+            id: "nri2",
+            question: "To run Instagram only…",
+            options: [
+              "A slogan in the audience name is enough",
+              "Limit placements in the ad set",
+              "Only mass-liking is needed",
+              "The pixel is forbidden",
+            ],
+            correct: 1,
+            explain: "Manual surface selection in Ads Manager.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "reklama-tiktok": {
+    checklist: {
+      afterTitleIncludes: "Ads Manager: goal and structure",
+      title: "Before TikTok Ads",
+      lead: "A vertical offer beats old $ minimum myths.",
+      items: [
+        { id: "fit", label: "Audience actually watches short video" },
+        { id: "goal", label: "Campaign goal chosen" },
+        { id: "hook", label: "Hook in the first second" },
+        { id: "spec", label: "Current video specs checked" },
+        { id: "budget", label: "Test limit from Ads Manager, not a 2020 article" },
+        { id: "measure", label: "Event / UTM for measurement" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: TikTok ads",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "rt1",
+            question: "TikTok Ads and For You are…",
+            options: [
+              "The same thing",
+              "Paid auction vs organic",
+              "Ads replaces the hook",
+              "For You is always more expensive than Ads",
+            ],
+            correct: 1,
+            explain: "Different delivery mechanisms.",
+          },
+          {
+            id: "rt2",
+            question: "The “from $500” minimum from 2020 guides…",
+            options: [
+              "Is an eternal constant",
+              "Is outdated; check limits in Ads Manager",
+              "Is required for creators",
+              "Replaces the pixel",
+            ],
+            correct: 1,
+            explain: "Limits and currencies change.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "baza-email-socseti": {
+    checklist: {
+      afterTitleIncludes: "Why move the contact out of the feed",
+      title: "Before collecting email from social",
+      lead: "Consent and offer beat volume.",
+      items: [
+        { id: "offer", label: "Value “outside the feed” is clear" },
+        { id: "form", label: "Form with privacy consent" },
+        { id: "utm", label: "One landing + UTM across networks" },
+        { id: "process", label: "Unsubscribe and email handling exist" },
+        { id: "no-parse", label: "No scraping other people’s addresses" },
+        { id: "ads", label: "Ads to the form without pushy frequency" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: email from social",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "bes1",
+            question: "A subscriber base here means…",
+            options: [
+              "Follower count only",
+              "Contacts with consent to message",
+              "Exporting friends from a social network",
+              "Buying likes",
+            ],
+            correct: 1,
+            explain: "Followers ≠ email list.",
+          },
+          {
+            id: "bes2",
+            question: "YouTube annotations from old guides…",
+            options: [
+              "Are the only way",
+              "Are outdated; use current cards/description",
+              "Replace privacy consent",
+              "Are required for Instagram bio",
+            ],
+            correct: 1,
+            explain: "Video tools were updated.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "verifikatsiya-instagram": {
+    checklist: {
+      afterTitleIncludes: "What they usually require",
+      title: "Before a verification request",
+      lead: "Authenticity beats “I want a badge.”",
+      items: [
+        { id: "need", label: "Clear goal: name protection, not reach" },
+        { id: "public", label: "Profile public and filled" },
+        { id: "unique", label: "One primary account per brand/person" },
+        { id: "proof", label: "Notability proof ready" },
+        { id: "no-bots", label: "No fake growth or gray tactics" },
+        { id: "no-broker", label: "No middlemen selling “badges for money”" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: Instagram verification",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "vi1",
+            question: "The blue check primarily…",
+            options: [
+              "Guarantees reach growth",
+              "Confirms profile authenticity",
+              "Replaces Meta Ads",
+              "Is required from 10k followers",
+            ],
+            correct: 1,
+            explain: "It’s about name protection, not the algorithm.",
+          },
+          {
+            id: "vi2",
+            question: "Buying a badge from a middleman…",
+            options: [
+              "Is Meta’s official path",
+              "Risks scam and sanctions",
+              "Is always faster than applying",
+              "Is required for Stories",
+            ],
+            correct: 1,
+            explain: "Don’t give password or money to gray “agencies.”",
+          },
+        ],
+      },
+    ],
+  },
+
+  "socseti-i-seo": {
+    checklist: {
+      afterTitleIncludes: "How to connect SMM and SEO",
+      title: "Social → site link",
+      lead: "Before scaling posts.",
+      items: [
+        { id: "landing", label: "Landing ready and relevant to the post" },
+        { id: "og", label: "Open Graph preview checked" },
+        { id: "utm", label: "UTM on outbound links" },
+        { id: "goal", label: "Goal / lead event set in analytics" },
+        { id: "channel", label: "1–2 networks chosen for the audience" },
+        { id: "no-bots", label: "No fake followers “for SEO”" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: social and SEO",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ss1",
+            question: "Likes as a TOP guarantee…",
+            options: [
+              "Are a direct main ranking factor",
+              "Don’t replace site and content quality",
+              "Replace technical SEO",
+              "Are required for indexing",
+            ],
+            correct: 1,
+            explain: "Watch traffic, brand, and landings — not “like weight.”",
+          },
+          {
+            id: "ss2",
+            question: "The most practical SMM effect for a site…",
+            options: [
+              "Raising an outdated TIC score",
+              "Visits, brand, and audience warm-up",
+              "Automatic PageRank",
+              "Replacing the Sitemap",
+            ],
+            correct: 1,
+            explain: "Measurable touches and recognition beat signal myths.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "naym-smm": {
+    checklist: {
+      afterTitleIncludes: "A test task without exploitation",
+      title: "Before hiring SMM",
+      lead: "A short screening checklist.",
+      items: [
+        { id: "cases", label: "Cases with task and numbers, not only pictures" },
+        { id: "kpi", label: "KPIs agreed (leads/dialogue, not only followers)" },
+        { id: "access", label: "Ad accounts stay with the company" },
+        { id: "test", label: "Short test, not a free “full strategy”" },
+        { id: "report", label: "Report format is clear" },
+        { id: "no-bots", label: "No fake growth or TOP guarantees" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: hiring SMM",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ns1",
+            question: "A strong candidate test is…",
+            options: [
+              "A full unpaid month strategy",
+              "A short audit and a sample text",
+              "Only a 2019 tool list",
+              "Ad account password immediately",
+            ],
+            correct: 1,
+            explain: "Don’t exploit candidates with long free briefs.",
+          },
+          {
+            id: "ns2",
+            question: "The main business SMM KPI is more often…",
+            options: [
+              "Follower count only",
+              "Leads, clicks, and dialogue quality",
+              "A TOP search guarantee",
+              "Stories count per day",
+            ],
+            correct: 1,
+            explain: "Likes without leads are a weak hiring signal.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "novostnoy-sayt": {
+    checklist: {
+      afterTitleIncludes: "Technical frame",
+      title: "News SEO checklist",
+      lead: "Hygiene first, scale second.",
+      items: [
+        { id: "robots", label: "robots.txt doesn’t block the whole site" },
+        { id: "sitemap", label: "Sitemap current and in webmaster tools" },
+        { id: "dup", label: "URL/meta duplicates under control" },
+        { id: "mobile", label: "Mobile templates readable" },
+        { id: "links", label: "Internal links without 404s and spam" },
+        { id: "dist", label: "A distribution channel exists (RSS/push/social)" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: news site",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "nv1",
+            question: "News-portal semantics…",
+            options: [
+              "Is built once forever like service pages",
+              "Section pillars + operational news hooks",
+              "Isn’t needed at all",
+              "Only commercial “buy” queries",
+            ],
+            correct: 1,
+            explain: "Freshness and sections beat a rigid forever core.",
+          },
+          {
+            id: "nv2",
+            question: "Social for a news site…",
+            options: [
+              "Replaces technical SEO",
+              "Gives distribution and traffic, not “like weight”",
+              "Guarantees TOP on head terms",
+              "Is only for PageRank",
+            ],
+            correct: 1,
+            explain: "Distribution ≠ ranking magic.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "vremya-posta-instagram": {
+    checklist: {
+      afterTitleIncludes: "Your stats are the base",
+      title: "Picking an Instagram slot",
+      lead: "A short test cycle.",
+      items: [
+        { id: "stats", label: "“When online” insights opened" },
+        { id: "top", label: "Top-post hours cross-checked" },
+        { id: "slots", label: "2–3 slots chosen for the test" },
+        { id: "equal", label: "Test content of comparable strength" },
+        { id: "reply", label: "Reply plan for the first hours" },
+        { id: "no-grey", label: "No gray auto-posters or fake engagement" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: post timing",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "vp1",
+            question: "The best slot source is…",
+            options: [
+              "A 2019 HuffPost table",
+              "Your audience insights and tests",
+              "Always posting at midnight",
+              "More often is always better without quality",
+            ],
+            correct: 1,
+            explain: "Other people’s hours are only a hypothesis.",
+          },
+          {
+            id: "vp2",
+            question: "Publish timing…",
+            options: [
+              "Matters more than post content",
+              "Amplifies strong content; doesn’t save empty posts",
+              "Guarantees TOP in recommendations",
+              "Isn’t needed with an algorithmic feed",
+            ],
+            correct: 1,
+            explain: "The slot helps early reactions; content decides.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "inflyuenser-marketing": {
+    checklist: {
+      afterTitleIncludes: "How to make the channel a tool",
+      title: "Before influencer budget",
+      lead: "Fashion ≠ a plan.",
+      items: [
+        { id: "goal", label: "Job clear: awareness / leads / sales" },
+        { id: "fit", label: "Creator audience matches the offer" },
+        { id: "live", label: "ER and live comments checked" },
+        { id: "measure", label: "Measurement: promo / UTM / CRM" },
+        { id: "brief", label: "Brief and ad labeling agreed" },
+        { id: "test", label: "Test first, scale second" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: influencers",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "im1",
+            question: "A million followers alone…",
+            options: [
+              "Guarantees the best CPA",
+              "Doesn’t replace relevance and live ER",
+              "Matters more than a promo code",
+              "Cancels fake-growth checks",
+            ],
+            correct: 1,
+            explain: "A precise-niche micro often beats mega.",
+          },
+          {
+            id: "im2",
+            question: "Influencer marketing as a tool starts with…",
+            options: [
+              "“Everyone does it this year”",
+              "A hypothesis, selection, and result measurement",
+              "Buying the biggest base",
+              "Hidden ads without labeling",
+            ],
+            correct: 1,
+            explain: "Without measurement it’s a fashion line in the budget.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "vidy-kontenta-socseti": {
+    checklist: {
+      afterTitleIncludes: "Why split content into types",
+      title: "Social content mix",
+      lead: "Before the next content plan.",
+      items: [
+        { id: "map", label: "Five types and their jobs are clear" },
+        { id: "rubrics", label: "Columns exist for the mix" },
+        { id: "sell", label: "Selling posts have offer and CTA" },
+        { id: "value", label: "Value/education exists, not only promos" },
+        { id: "engage", label: "Engaging formats planned" },
+        { id: "adapt", label: "Format adapted to the platform" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: content types",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "vk1",
+            question: "The universal “one-third of the feed is sales” rule…",
+            options: [
+              "Is required for every niche",
+              "Is outdated; watch metrics and audience",
+              "Replaces a content plan",
+              "Is only for Instagram",
+            ],
+            correct: 1,
+            explain: "Tune the mix by unfollows, ER, and leads.",
+          },
+          {
+            id: "vk2",
+            question: "The same text on every network…",
+            options: [
+              "Is best omnichannel practice",
+              "Is weaker than adapting format per platform",
+              "Is required for SEO",
+              "Replaces Stories",
+            ],
+            correct: 1,
+            explain: "Shared idea — different delivery.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "triggernye-rassylki": {
+    checklist: {
+      afterTitleIncludes: "Rules so you don’t burn the list",
+      title: "Before launching triggers",
+      lead: "The event beats a “pretty” template.",
+      items: [
+        { id: "consent", label: "Opt-in list with unsubscribe" },
+        { id: "event", label: "Event and delay defined" },
+        { id: "exclude", label: "Exclusions: bought / unsubscribed" },
+        { id: "welcome", label: "Welcome or cart/lead scenario ready" },
+        { id: "freq", label: "Per-person daily email cap" },
+        { id: "metrics", label: "Scenario visible in the report" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: trigger emails",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "tr1",
+            question: "A trigger email…",
+            options: [
+              "Goes to everyone on a calendar",
+              "Fires after an action or event",
+              "Replaces a social content plan",
+              "Needs no consent",
+            ],
+            correct: 1,
+            explain: "It’s a response to behavior, not a digest.",
+          },
+          {
+            id: "tr2",
+            question: "A good automation start is…",
+            options: [
+              "Ten complex chains at once",
+              "Welcome and a cart/lead reminder",
+              "Scraping other people’s emails",
+              "Emails with no unsubscribe",
+            ],
+            correct: 1,
+            explain: "Simple scenarios with measurement first.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "chat-bot-vk": {
+    checklist: {
+      afterTitleIncludes: "How to approach building it",
+      title: "Before launching a VK bot",
+      lead: "FAQ and a human exit beat “AI for AI’s sake.”",
+      items: [
+        { id: "top", label: "Top 10–20 frequent messages listed" },
+        { id: "menu", label: "Menu and FAQ aligned with the offer" },
+        { id: "handoff", label: "“Operator” button/branch exists" },
+        { id: "unknown", label: "Unknown-phrase reaction set" },
+        { id: "test", label: "Tested on 10–20 real phrasings" },
+        { id: "kpi", label: "KPIs: auto-replies / leads / support load" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: VK chat bot",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "cb1",
+            question: "A VK bot primarily…",
+            options: [
+              "Fully replaces service and live managers",
+              "Automates typical dialogues in community messages",
+              "Guarantees follower growth",
+              "Allows spam to everyone without consent",
+            ],
+            correct: 1,
+            explain: "It’s an FAQ/leads script, not “growth magic.”",
+          },
+          {
+            id: "cb2",
+            question: "Without what does a bot annoy people most…",
+            options: [
+              "Without an animated avatar",
+              "Without an exit to a live operator",
+              "Without ten AI branches",
+              "Without a daily ad blast",
+            ],
+            correct: 1,
+            explain: "Hard cases must go to a human.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "idei-stories-instagram": {
+    checklist: {
+      afterTitleIncludes: "Start with the series goal",
+      title: "Before an IG Stories series",
+      lead: "Goal and CTA beat someone else’s template.",
+      items: [
+        { id: "goal", label: "Series goal is stated" },
+        { id: "hook", label: "Hook in the first frame" },
+        { id: "mix", label: "Week mix: value + dialogue + CTA" },
+        { id: "faq", label: "FAQ goes to Highlights" },
+        { id: "reply", label: "Plan to reply to polls/Direct" },
+        { id: "metric", label: "Measure replies and clicks, not “pretty”" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: IG Stories ideas",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "igi1",
+            question: "Stories “always ×3 reach” vs posts…",
+            options: [
+              "Is a platform law",
+              "Is a myth: check your own stats",
+              "Guarantees sales",
+              "Is a reason to kill feed posts",
+            ],
+            correct: 1,
+            explain: "Don’t treat roundup numbers as fact.",
+          },
+          {
+            id: "igi2",
+            question: "More sustainable for business…",
+            options: [
+              "Only foreign challenges with no adaptation",
+              "Intro, FAQ, polls, and a soft offer",
+              "Empty frames for the checkbox",
+              "Ignoring sticker replies",
+            ],
+            correct: 1,
+            explain: "Meaning and dialogue sit closer to leads.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "heshtegi-instagram": {
+    checklist: {
+      afterTitleIncludes: "Which hashtags to choose",
+      title: "Before publishing with tags",
+      lead: "Relevance beats “fill to 30.”",
+      items: [
+        { id: "niche", label: "Niche/local tags fit the post" },
+        { id: "feed", label: "Tag feed isn’t junk or wrong tone" },
+        { id: "brand", label: "Brand tag added if it fits" },
+        { id: "count", label: "List is short; caption stays readable" },
+        { id: "geo", label: "Geo is your place/event — or deliberately none" },
+        { id: "stats", label: "In 1–2 weeks check tag contribution in Insights" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: hashtags and geo",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "hg1",
+            question: "30 hashtags per post…",
+            options: [
+              "Are required for TOP",
+              "Are the platform max, not the goal",
+              "Guarantee clients",
+              "Replace the offer in bio",
+            ],
+            correct: 1,
+            explain: "A limit isn’t a strategy.",
+          },
+          {
+            id: "hg2",
+            question: "A geotag helps most…",
+            options: [
+              "Any online service with no address",
+              "Local business and events with a place",
+              "Only when faking viral spots",
+              "As a content-plan replacement",
+            ],
+            correct: 1,
+            explain: "A map place works when it’s real.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "smm-strategiya": {
+    checklist: {
+      afterTitleIncludes: "Tie SMM goals to the business",
+      title: "SMM strategy frame",
+      lead: "Why first, posts second.",
+      items: [
+        { id: "biz", label: "1–3 business goals for the period written down" },
+        { id: "smm", label: "Primary SMM goal tied to them" },
+        { id: "tasks", label: "Goals broken into checkable tasks" },
+        { id: "prio", label: "Priorities: value vs effort" },
+        { id: "owner", label: "Tasks have an owner and deadline" },
+        { id: "retro", label: "Control point in 2–4 weeks" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: SMM strategy",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ss1",
+            question: "SMM with no link to a business goal…",
+            options: [
+              "Is fine as “just activity”",
+              "Risks a storefront for the report",
+              "Guarantees TOP in search",
+              "Replaces the marketing plan",
+            ],
+            correct: 1,
+            explain: "First — why the channel serves the business.",
+          },
+          {
+            id: "ss2",
+            question: "A content plan…",
+            options: [
+              "Fully replaces strategy",
+              "Is the next layer after “why and what matters more”",
+              "Is only for Instagram",
+              "Isn’t needed with paid ads",
+            ],
+            correct: 1,
+            explain: "Strategy → priorities → calendar.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "teksty-uzkaya-tematika": {
+    checklist: {
+      afterTitleIncludes: "Freshness and facts",
+      title: "Before niche copy",
+      lead: "Accuracy beats fluff.",
+      items: [
+        { id: "novice", label: "Language is clear to a topic beginner" },
+        { id: "facts", label: "Numbers and dates verified / dated" },
+        { id: "exp", label: "Experience or expert review exists" },
+        { id: "struct", label: "Structure is logical; subheads present" },
+        { id: "head", label: "Headline without deceit" },
+        { id: "update", label: "Update plan for seasonal material" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: narrow niches",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "uz1",
+            question: "In a narrow niche the biggest risk is…",
+            options: [
+              "A short paragraph",
+              "Stale facts and fake “experience”",
+              "Subheads",
+              "Stating an as-of date",
+            ],
+            correct: 1,
+            explain: "Readers spot inaccuracy fast.",
+          },
+          {
+            id: "uz2",
+            question: "Best to write…",
+            options: [
+              "Only in jargon for “insiders”",
+              "So a beginner understands, without losing accuracy",
+              "As a rewrite of others’ impressions with no check",
+              "With clickbait instead of facts",
+            ],
+            correct: 1,
+            explain: "Clarity + accuracy.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "video-obzor-tovara": {
+    checklist: {
+      afterTitleIncludes: "How to shoot",
+      title: "Before shooting a review",
+      lead: "Script beats studio.",
+      items: [
+        { id: "sku", label: "Priority SKU chosen" },
+        { id: "script", label: "Short script and runtime ready" },
+        { id: "light", label: "Light and stable frame OK" },
+        { id: "honest", label: "Angles honest — no scale tricks" },
+        { id: "card", label: "Plan to embed on the product page by the CTA" },
+        { id: "speed", label: "File won’t kill page speed" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: product video review",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "vo1",
+            question: "A product video review primarily…",
+            options: [
+              "Replaces specs and price",
+              "Shows what a still photo can’t",
+              "Guarantees sales ×10",
+              "Is required on every SKU",
+            ],
+            correct: 1,
+            explain: "Complements the product page — doesn’t replace it.",
+          },
+          {
+            id: "vo2",
+            question: "Best place for a store’s clip…",
+            options: [
+              "Only in a random playlist with no link",
+              "On the product page next to add-to-cart",
+              "Only in Stories with no save",
+              "In the site footer in tiny type",
+            ],
+            correct: 1,
+            explain: "Close to the purchase decision.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "zashchita-kontenta": {
+    checklist: {
+      afterTitleIncludes: "What actually helps",
+      title: "Protecting site copy",
+      lead: "Monitoring beats right-click locks.",
+      items: [
+        { id: "proof", label: "Publication date is recorded" },
+        { id: "monitor", label: "Copy search set up for strong articles" },
+        { id: "contact", label: "Rights-holder contacts are clear" },
+        { id: "no-ux", label: "Not relying only on disable right-click" },
+        { id: "parse", label: "Scraping layer closed if needed" },
+        { id: "playbook", label: "Know the steps if a copy is found" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: content protection",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "zk1",
+            question: "Disabling right-click is…",
+            options: [
+              "Full plagiarism protection",
+              "A weak measure that hurts UX",
+              "Required by law",
+              "A replacement for copy monitoring",
+            ],
+            correct: 1,
+            explain: "People copy other ways; UX suffers.",
+          },
+          {
+            id: "zk2",
+            question: "When you find a copy, start with…",
+            options: [
+              "Court immediately with no evidence",
+              "Evidence and a removal request",
+              "Deleting your own original",
+              "Only changing the title",
+            ],
+            correct: 1,
+            explain: "Proof plus a polite request is the base.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "matritsa-kontenta": {
+    checklist: {
+      afterTitleIncludes: "How to build the table",
+      title: "Before a content matrix",
+      lead: "Logic before the calendar.",
+      items: [
+        { id: "persona", label: "Segment / persona defined" },
+        { id: "stages", label: "Journey stages mapped" },
+        { id: "goals", label: "Materials have conversion goals" },
+        { id: "channels", label: "Channels match the audience" },
+        { id: "audit", label: "Old content mapped to cells" },
+        { id: "gaps", label: "Gaps moved into the content plan" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: content matrix",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "mk1",
+            question: "A content matrix primarily…",
+            options: [
+              "Replaces the daily posting calendar",
+              "Links journey stage, goal, channel, and format",
+              "Is a keyword list with no audience",
+              "Is only A/B button colors",
+            ],
+            correct: 1,
+            explain: "Cell strategy — not dates.",
+          },
+          {
+            id: "mk2",
+            question: "A material’s conversion is…",
+            options: [
+              "Only payment",
+              "The next step on the path (subscribe, demo, visit…)",
+              "Always a like",
+              "Not needed",
+            ],
+            correct: 1,
+            explain: "Intermediate goals count too.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "videokontent": {
+    checklist: {
+      afterTitleIncludes: "Script and placement",
+      title: "Before shooting video",
+      lead: "Format for the job.",
+      items: [
+        { id: "goal", label: "Clip goal clear (train, trust, sell…)" },
+        { id: "format", label: "Format matched to the job" },
+        { id: "script", label: "Script or talking points ready" },
+        { id: "light", label: "Light and sound planned" },
+        { id: "cta", label: "CTA / next step present" },
+        { id: "place", label: "Clear where it will publish" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: video content",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "vk1",
+            question: "Marketing video is…",
+            options: [
+              "A mandatory replacement for all text",
+              "A format for the job and audience",
+              "Only worth doing in a studio",
+              "A virality guarantee",
+            ],
+            correct: 1,
+            explain: "Goal first — not format cult.",
+          },
+          {
+            id: "vk2",
+            question: "A smartphone…",
+            options: [
+              "Never works",
+              "Is often enough with light and sound",
+              "Is only for pointless Stories",
+              "Replaces a script",
+            ],
+            correct: 1,
+            explain: "Camera brand is secondary.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "bystree-pisat-stati": {
+    checklist: {
+      afterTitleIncludes: "Work setup",
+      title: "Before speeding up writing",
+      lead: "Pace without chaos.",
+      items: [
+        { id: "tz", label: "Brief / facts gathered" },
+        { id: "plan", label: "Headline outline ready" },
+        { id: "block", label: "Focus block without distractions" },
+        { id: "draft", label: "Draft written without mid-flight edits" },
+        { id: "edit", label: "Proofread as a separate pass" },
+        { id: "pace", label: "Pace realistic — no overload" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: write faster",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "bp1",
+            question: "Writing speed primarily comes from…",
+            options: [
+              "Ten orders overnight",
+              "Outline, focus, and edit after the draft",
+              "Touch typing alone",
+              "Music always",
+            ],
+            correct: 1,
+            explain: "Process discipline beats racing.",
+          },
+          {
+            id: "bp2",
+            question: "Typo fixes…",
+            options: [
+              "Best on every line as you go",
+              "Work better after a full draft",
+              "Are never needed",
+              "Are only for the client",
+            ],
+            correct: 1,
+            explain: "Flow first, polish later.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "longrid": {
+    checklist: {
+      afterTitleIncludes: "Creation principles",
+      title: "Before a longread",
+      lead: "Depth — not character count.",
+      items: [
+        { id: "goal", label: "Goal and audience clear" },
+        { id: "research", label: "Research / facts ready" },
+        { id: "story", label: "Story or angle defined" },
+        { id: "outline", label: "H2 plan for readers and scanners" },
+        { id: "visual", label: "Media and layout planned" },
+        { id: "cta", label: "CTA doesn’t break the read" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "After publishing",
+        title: "Mini quiz: longread",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "lr1",
+            question: "A longread primarily is…",
+            options: [
+              "Any text from N thousand characters",
+              "A deep take with style and layout",
+              "A search TOP guarantee",
+              "A replacement for all landings",
+            ],
+            correct: 1,
+            explain: "Volume without meaning doesn’t count.",
+          },
+          {
+            id: "lr2",
+            question: "Time on page…",
+            options: [
+              "Automatically ranks you at the top",
+              "Is a useful signal — not a substitute for quality and intent",
+              "Never matters",
+              "Matters more than clickbait",
+            ],
+            correct: 1,
+            explain: "Behavior helps — it doesn’t guarantee.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "struktura-stati": {
+    checklist: {
+      afterTitleIncludes: "Heading levels",
+      title: "Before article structure",
+      lead: "Frame for the job.",
+      items: [
+        { id: "intent", label: "Reader question stated" },
+        { id: "h1", label: "H1 reflects the page essence" },
+        { id: "h2", label: "H2s cover major blocks" },
+        { id: "match", label: "Headings match the content" },
+        { id: "depth", label: "H3 only where truly needed" },
+        { id: "short", label: "For short copy: decided if H2s are needed" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Recommendations",
+        title: "Mini quiz: article structure",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ss1",
+            question: "Article structure is…",
+            options: [
+              "Only keywords in H2",
+              "A logical frame of blocks and headings",
+              "The site sitemap",
+              "Mandatory H4–H6",
+            ],
+            correct: 1,
+            explain: "Reading logic — not schema for schema’s sake.",
+          },
+          {
+            id: "ss2",
+            question: "Short copy ~1000 characters…",
+            options: [
+              "Always needs a full H2/H3 grid",
+              "Often works with paragraphs and lists",
+              "Must not be published",
+              "Needs only H6",
+            ],
+            correct: 1,
+            explain: "Length and job decide markup depth.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "stranitsa-kontaktov": {
+    checklist: {
+      afterTitleIncludes: "Complete and truthful data",
+      title: "Before publishing Contacts",
+      lead: "Trust and reach.",
+      items: [
+        { id: "page", label: "Dedicated Contacts page exists" },
+        { id: "nap", label: "NAP matches footer and maps" },
+        { id: "click", label: "Phone and email are clickable text" },
+        { id: "hours", label: "Hours and reply window stated" },
+        { id: "map", label: "Map/directions if visits happen" },
+        { id: "form", label: "Form or channel that actually replies" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Style and hierarchy",
+        title: "Mini quiz: contact page",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "sk1",
+            question: "Full branches and legal details belong…",
+            options: [
+              "Stuffed into the header",
+              "On a dedicated Contacts page",
+              "Hidden in a PDF with no link",
+              "Only in Stories",
+            ],
+            correct: 1,
+            explain: "Compact header; details on the page.",
+          },
+          {
+            id: "sk2",
+            question: "The phone number on Contacts…",
+            options: [
+              "Best as an image “so it can’t be copied”",
+              "As text with a tel: link",
+              "Only in the footer in tiny type",
+              "Isn’t needed if there’s a form",
+            ],
+            correct: 1,
+            explain: "Clickability and copying matter.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "prizyv-k-deystviyu": {
+    checklist: {
+      afterTitleIncludes: "CTA copy",
+      title: "Before launching a CTA",
+      lead: "Clarity beats shouting.",
+      items: [
+        { id: "goal", label: "One clear page goal" },
+        { id: "copy", label: "Button: verb + benefit" },
+        { id: "truth", label: "No fake scarcity" },
+        { id: "place", label: "CTA visible at decision moment" },
+        { id: "mobile", label: "Button comfortable on mobile" },
+        { id: "metric", label: "Click/conversion tracking in place" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: call to action",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "cta1",
+            question: "On one page it’s better to have…",
+            options: [
+              "Ten competing goals",
+              "One primary CTA; repeats of the same action as needed",
+              "Only a popup with no in-content button",
+              "A CTA with no verb",
+            ],
+            correct: 1,
+            explain: "One primary goal cuts confusion.",
+          },
+          {
+            id: "cta2",
+            question: "“Today only” urgency…",
+            options: [
+              "Always raises conversion",
+              "Fits only when it’s true",
+              "Is required on every button",
+              "Replaces the benefit",
+            ],
+            correct: 1,
+            explain: "False scarcity hits trust.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "idei-kontent-prodvizheniya": {
+    checklist: {
+      afterTitleIncludes: "How-to instructions",
+      title: "Before a batch of ideas",
+      lead: "Demand before “trends.”",
+      items: [
+        { id: "questions", label: "Client questions collected" },
+        { id: "howto", label: "How-to / FAQ plan ready" },
+        { id: "depth", label: "Format chosen: beginner / guide / case" },
+        { id: "facts", label: "Facts and sources checked" },
+        { id: "honest", label: "Reviews without hidden ads" },
+        { id: "system", label: "Ideas tied to matrix/plan" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: content ideas",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ik1",
+            question: "A strong how-to primarily…",
+            options: [
+              "Guarantees first place in Google",
+              "Answers a real audience question",
+              "Replaces technical SEO",
+              "Only works with an infographic",
+            ],
+            correct: 1,
+            explain: "Usefulness and intent are the base.",
+          },
+          {
+            id: "ik2",
+            question: "Personal stories in a blog…",
+            options: [
+              "Are useless for the brand",
+              "Build trust and retention — they don’t replace semantics",
+              "Are required in every article",
+              "Equal bought links",
+            ],
+            correct: 1,
+            explain: "A complement to the topic system.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "vizualizatsiya-dannyih": {
+    checklist: {
+      afterTitleIncludes: "Task and selection criteria",
+      title: "Before choosing a tool",
+      lead: "Meaning before “pretty charts.”",
+      items: [
+        { id: "sources", label: "Data source list is clear" },
+        { id: "audience", label: "Who reads the report is clear" },
+        { id: "kpi", label: "KPI and period locked" },
+        { id: "share", label: "Need link sharing / roles" },
+        { id: "budget", label: "License budget is realistic" },
+        { id: "not-infograf", label: "Not confusing with article infographics" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: data visualization",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "vd1",
+            question: "Looker Studio / Data Studio fits best…",
+            options: [
+              "Only for blog infographics",
+              "For fast marketing reports shared by link",
+              "As a CRM replacement",
+              "Only with mandatory code",
+            ],
+            correct: 1,
+            explain: "Dashboards and sharing are the strength.",
+          },
+          {
+            id: "vd2",
+            question: "Prices from a 2019 roundup…",
+            options: [
+              "Are always current",
+              "Need checking with the vendor",
+              "Matter more than metric choice",
+              "Guarantee ROI",
+            ],
+            correct: 1,
+            explain: "Pricing changes often.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "temy-dlya-statey": {
+    checklist: {
+      afterTitleIncludes: "Ideas nearby",
+      title: "Before collecting topics",
+      lead: "Demand and angle.",
+      items: [
+        { id: "clients", label: "Client/support questions collected" },
+        { id: "old", label: "List of old hits to update" },
+        { id: "sema", label: "Search cluster or question queries ready" },
+        { id: "comp", label: "Competitors reviewed without copy-paste" },
+        { id: "backlog", label: "Ideas go into backlog/plan" },
+        { id: "intent", label: "Reader intent is clear for the topic" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: article topics",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ts1",
+            question: "Best first topic source…",
+            options: [
+              "A random trend with no audience",
+              "Audience questions and your own data",
+              "Only a competitor TOP one-to-one",
+              "A headline generator with no facts",
+            ],
+            correct: 1,
+            explain: "Live demand beats noise.",
+          },
+          {
+            id: "ts2",
+            question: "A competitor’s article is…",
+            options: [
+              "A copy-paste template",
+              "Inspiration plus your angle and facts",
+              "Forbidden to view",
+              "A replacement for search demand",
+            ],
+            correct: 1,
+            explain: "Angle and experience are yours.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "gostevoy-post": {
+    checklist: {
+      afterTitleIncludes: "What to check on a candidate",
+      title: "Before outreach",
+      lead: "Audience beats DR.",
+      items: [
+        { id: "niche", label: "Site matches your expertise" },
+        { id: "alive", label: "Fresh materials and an audience exist" },
+        { id: "rules", label: "Guest rules / contact are clear" },
+        { id: "spam", label: "No obvious PBN / guest-post farm" },
+        { id: "value", label: "Topic helps their readers — not a press release" },
+        { id: "pace", label: "Link plan without a sharp spike" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Takeaways",
+        title: "Mini quiz: guest post",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "gp1",
+            question: "Main value of a guest post…",
+            options: [
+              "Any link with any DR",
+              "A relevant audience and strong copy",
+              "Buying in bulk batches",
+              "Only a “buy” anchor",
+            ],
+            correct: 1,
+            explain: "Audience and usefulness are the base.",
+          },
+          {
+            id: "gp2",
+            question: "A sharp growth in link mass…",
+            options: [
+              "Is always useful",
+              "Risks filters and distrust",
+              "Is required for TOP in a month",
+              "Replaces copy quality",
+            ],
+            correct: 1,
+            explain: "Pace and quality beat volume.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "besplatnye-ssylki": {
+    checklist: {
+      afterTitleIncludes: "Content first",
+      title: "Before hunting links",
+      lead: "Honesty beats count.",
+      items: [
+        { id: "content", label: "Something worth citing exists on the site" },
+        { id: "no-spam", label: "No directory blasts or fake accounts" },
+        { id: "catalog", label: "Directories only live and on-topic" },
+        { id: "crowd", label: "Crowd — useful reply, not spam" },
+        { id: "guest", label: "Guest/media in the plan" },
+        { id: "pace", label: "Pace without sharp mass spikes" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Pace and profile",
+        title: "Mini quiz: free links",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "bs1",
+            question: "Two forum accounts for “question–answer”…",
+            options: [
+              "A normal scheme",
+              "Community deceit — don’t use",
+              "Required for TOP",
+              "Better than a directory blast",
+            ],
+            correct: 1,
+            explain: "Honest answers only.",
+          },
+          {
+            id: "bs2",
+            question: "Free mentions come strongest from…",
+            options: [
+              "Auto directory blasts",
+              "Useful content and relevant sites",
+              "Daily comment spam",
+              "Mutual exchange in batches",
+            ],
+            correct: 1,
+            explain: "Content and fit beat volume.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "kontentnoe-prodvizhenie": {
+    checklist: {
+      afterTitleIncludes: "Originality without a percentage fetish",
+      title: "Before content-led promotion",
+      lead: "Usefulness before uniqueness %.",
+      items: [
+        { id: "unique", label: "Copy is yours — no paste" },
+        { id: "angle", label: "Angle / usefulness for the audience" },
+        { id: "intent", label: "Keywords for intent — not a wall" },
+        { id: "facts", label: "Facts and offer in place" },
+        { id: "update", label: "Plan to refresh stale pages" },
+        { id: "blog", label: "Blog / knowledge base not empty" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "LSI — full topic coverage",
+        title: "Mini quiz: content-led promotion",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "kp1",
+            question: "100% uniqueness via synonymizer…",
+            options: [
+              "Best practice",
+              "Often wrecks meaning; your text and facts matter more",
+              "Guarantees TOP",
+              "Replaces the topic",
+            ],
+            correct: 1,
+            explain: "Meaning beats a checker score.",
+          },
+          {
+            id: "kp2",
+            question: "LSI in practice is…",
+            options: [
+              "A separate magic word list",
+              "Full topic coverage and related questions",
+              "Only exact head-term matches",
+              "A replacement for site updates",
+            ],
+            correct: 1,
+            explain: "Answer completeness — not acronym cult.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "kontent-b2b": {
+    checklist: {
+      afterTitleIncludes: "Reviews and UGC",
+      title: "Before B2B content",
+      lead: "Proof beats slogans.",
+      items: [
+        { id: "reviews", label: "Plan to collect reviews/UGC" },
+        { id: "chat", label: "Fast contact channel is real" },
+        { id: "quiz", label: "Interactive qualifies — doesn’t noise" },
+        { id: "case", label: "Case has problem, timeline, metric" },
+        { id: "tone", label: "Tone clear — no empty jargon" },
+        { id: "measure", label: "Your measurements beat outsider %" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "A live voice without fluff",
+        title: "Mini quiz: B2B content",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "b2b1",
+            question: "A strong B2B case primarily contains…",
+            options: [
+              "Only a “best” slogan",
+              "Problem, solution, and measurable result",
+              "A +800% promise with no context",
+              "Only a chat screenshot",
+            ],
+            correct: 1,
+            explain: "Proof and context.",
+          },
+          {
+            id: "b2b2",
+            question: "Site chat…",
+            options: [
+              "Is always required — even with no operators",
+              "Helps when the team actually replies",
+              "Replaces cases",
+              "Is only needed at night",
+            ],
+            correct: 1,
+            explain: "An empty widget annoys.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "kartinki-seo": {
+    checklist: {
+      afterTitleIncludes: "Preparing the file",
+      title: "Before uploading an image",
+      lead: "Meaning and weight beat stock.",
+      items: [
+        { id: "source", label: "Own/AI/license — not stock by habit" },
+        { id: "size", label: "Sized to container, file compressed" },
+        { id: "name", label: "Meaningful file name — no stuffing" },
+        { id: "alt", label: "Alt by meaning (or empty for decor)" },
+        { id: "caption", label: "Caption where it helps" },
+        { id: "og", label: "og:image checked for sharing" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Share preview",
+        title: "Mini quiz: images and SEO",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ks1",
+            question: "A unique image…",
+            options: [
+              "Guarantees TOP for a commercial query",
+              "Helps brand and image search — not a TOP ticket",
+              "Matters more than page copy",
+              "Is never needed",
+            ],
+            correct: 1,
+            explain: "Visuals complement — they don’t replace.",
+          },
+          {
+            id: "ks2",
+            question: "Unsplash/Pexels stock for our materials…",
+            options: [
+              "Is the main source",
+              "We don’t use it; prefer own/AI/license",
+              "Is required for SEO",
+              "Replaces alt",
+            ],
+            correct: 1,
+            explain: "Site policy — no stock.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "klyuchi-yandeks-direkt": {
+    checklist: {
+      afterTitleIncludes: "Goal first",
+      title: "Before collecting Direct keywords",
+      lead: "Goal before phrase count.",
+      items: [
+        { id: "goal", label: "Campaign goal clear (lead/sale/brand)" },
+        { id: "channel", label: "Search and YAN split by logic" },
+        { id: "landing", label: "Landings tied to groups" },
+        { id: "minus", label: "Negatives in the plan" },
+        { id: "kpi", label: "KPI (CPA/ROAS) locked" },
+        { id: "limits", label: "Group limits checked in Help" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Practice and control",
+        title: "Mini quiz: Direct keywords",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "kd1",
+            question: "A universal “right” keyword count…",
+            options: [
+              "Exists: always 50",
+              "Doesn’t — it depends on goal and assortment",
+              "Equals site pages ×10",
+              "Only applies to YAN",
+            ],
+            correct: 1,
+            explain: "Individual sizing.",
+          },
+          {
+            id: "kd2",
+            question: "Keyword sets for Search and YAN…",
+            options: [
+              "Are always identical",
+              "Often differ in wording",
+              "Don’t need negatives",
+              "Replace bid strategy",
+            ],
+            correct: 1,
+            explain: "Different impression signals.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "byudzhet-yandeks-direkt": {
+    checklist: {
+      afterTitleIncludes: "How to sketch a minimum start",
+      title: "Before a budget test",
+      lead: "Economics before a “minimum.”",
+      items: [
+        { id: "goal", label: "Goal and analytics tracking set" },
+        { id: "cpa", label: "Acceptable CPA / ROAS locked" },
+        { id: "core", label: "Narrow set + negatives ready" },
+        { id: "limit", label: "Daily or weekly cap in place" },
+        { id: "split", label: "Search and YAN not mixed without need" },
+        { id: "horizon", label: "Test horizon without hourly bid twitching" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Verdict: what budget",
+        title: "Mini quiz: Direct budget",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "bd1",
+            question: "A universal “minimum Direct budget”…",
+            options: [
+              "Exists: always a fixed weekly sum",
+              "Doesn’t — it depends on goal and economics",
+              "Equals the competitor’s budget",
+              "Is only the account’s technical threshold",
+            ],
+            correct: 1,
+            explain: "Calculate from CPA and niche.",
+          },
+          {
+            id: "bd2",
+            question: "A tiny daily cap on a wide keyword set…",
+            options: [
+              "Is always ideal",
+              "Often blocks gathering statistics",
+              "Replaces negatives",
+              "Guarantees ROI",
+            ],
+            correct: 1,
+            explain: "Prefer a narrow test with normal volume.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "mediaplan": {
+    checklist: {
+      afterTitleIncludes: "Schedule, test, and budget",
+      title: "Before launching from a media plan",
+      lead: "A table before channel chaos.",
+      items: [
+        { id: "goal", label: "Goal in numbers (leads/sales/reach)" },
+        { id: "aud", label: "Audience portrait (not “everyone”)" },
+        { id: "channels", label: "1–2 channels for the first test" },
+        { id: "budget", label: "Test budget and timeline locked" },
+        { id: "kpi", label: "KPI and owner in the table" },
+        { id: "review", label: "Fact vs plan review date set" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Paid search in the media plan",
+        title: "Mini quiz: media plan",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "mp1",
+            question: "A media plan and a content plan…",
+            options: [
+              "Are the same thing",
+              "Are different tables: ads/budgets vs a materials queue",
+              "Are only for offline",
+              "Replace analytics",
+            ],
+            correct: 1,
+            explain: "They overlap — they don’t duplicate.",
+          },
+          {
+            id: "mp2",
+            question: "Copying a competitor’s media plan 1:1…",
+            options: [
+              "Is always right",
+              "Is risky — adapt to your economics",
+              "Is illegal",
+              "Replaces testing",
+            ],
+            correct: 1,
+            explain: "Structure OK; numbers are yours.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "zabluzhdeniya-konteksta": {
+    checklist: {
+      afterTitleIncludes: "Ad copy, budgets",
+      title: "Before arguing about PPC",
+      lead: "Economics before myth.",
+      items: [
+        { id: "kpi", label: "KPI and CPA locked with the client" },
+        { id: "mix", label: "Search/networks/display for the job — not “keywords only”" },
+        { id: "test", label: "Test with meaningful stats — not a micro-budget" },
+        { id: "one", label: "Experiment: 1–2 levers at a time" },
+        { id: "scale", label: "Budget scale in steps" },
+        { id: "site", label: "Landing/feed ready before “smart” formats" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "A short list instead of an argument",
+        title: "Mini quiz: PPC myths",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "zk1",
+            question: "Triple the budget — leads ×3…",
+            options: [
+              "Always yes",
+              "Rarely linear — watch CPA and demand",
+              "Only in the ad network",
+              "Only with TOP-1",
+            ],
+            correct: 1,
+            explain: "Scale is checked in steps.",
+          },
+          {
+            id: "zk2",
+            question: "“I don’t see the ad” means…",
+            options: [
+              "The campaign is definitely broken",
+              "Not necessarily — check preview and the auction",
+              "You must ×10 the bid immediately",
+              "Turn off analytics",
+            ],
+            correct: 1,
+            explain: "Personal viewing ≠ diagnosis.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "moderatsiya-facebook-ads": {
+    checklist: {
+      afterTitleIncludes: "Creative rejected",
+      title: "Before re-review",
+      lead: "Policies before an appeal.",
+      items: [
+        { id: "policy", label: "Topic not on the prohibited list" },
+        { id: "visual", label: "No before/after or fake UI buttons" },
+        { id: "copy", label: "No personal labels or false guarantees" },
+        { id: "url", label: "Display URL matches the real landing" },
+        { id: "delivery", label: "If approved — bid and audiences checked" },
+        { id: "appeal", label: "Appeal only when you’re sure you comply" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "What to do when there’s a problem",
+        title: "Mini quiz: Meta Ads moderation",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "mf1",
+            question: "Approved but no impressions — first…",
+            options: [
+              "Appeal a ban immediately",
+              "Check bid, audience, and delivery",
+              "Change the site domain",
+              "Ignore it",
+            ],
+            correct: 1,
+            explain: "Often auction/limits — not a ban.",
+          },
+          {
+            id: "mf2",
+            question: "“You’re overweight — buy the course” in copy…",
+            options: [
+              "Fine with 25–45 targeting",
+              "Breaks personal-attribute rules",
+              "Required for CTR",
+              "Only needed in Stories",
+            ],
+            correct: 1,
+            explain: "Personal labels in creatives aren’t allowed.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "target-vk": {
+    checklist: {
+      afterTitleIncludes: "Ad formats",
+      title: "Before launching VK targeting",
+      lead: "Goal before “every interest.”",
+      items: [
+        { id: "goal", label: "Goal clear (traffic/leads/community)" },
+        { id: "format", label: "One format for the test" },
+        { id: "aud", label: "Audience narrow and offer-fit" },
+        { id: "pixel", label: "Pixel/remarketing if needed" },
+        { id: "schedule", label: "Schedule matched to lead handling" },
+        { id: "limit", label: "Daily cap and lead tracking" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Analysis and iterations",
+        title: "Mini quiz: VK targeting",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "tv1",
+            question: "VK targeting and community seeding…",
+            options: [
+              "Are the same thing",
+              "Are different mechanics: segment auction vs community placement",
+              "Are only for apps",
+              "Replace the pixel",
+            ],
+            correct: 1,
+            explain: "They’re often used together.",
+          },
+          {
+            id: "tv2",
+            question: "Running call offers at night with no operator…",
+            options: [
+              "Is always useful",
+              "Is often a burn — schedule to handling hours",
+              "Is required for CPM",
+              "Replaces ad review",
+            ],
+            correct: 1,
+            explain: "Lead type sets the schedule.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "kogortnyy-analiz": {
+    checklist: {
+      afterTitleIncludes: "Cohort vs segment",
+      title: "Before a cohort breakdown",
+      lead: "One start event before the table.",
+      items: [
+        { id: "event", label: "Start event locked" },
+        { id: "window", label: "Cohort window (day/week/month) chosen" },
+        { id: "metric", label: "One primary metric over time" },
+        { id: "channel", label: "Channel cut prepared" },
+        { id: "horizon", label: "Observation horizon set" },
+        { id: "tool", label: "GA4 Explorations / export available" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Where to look",
+        title: "Mini quiz: cohorts",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ka1",
+            question: "A cohort differs from a segment in that…",
+            options: [
+              "It always has many traits at once",
+              "One start trait + time, metric over time",
+              "It’s only for SEO",
+              "It replaces CRM",
+            ],
+            correct: 1,
+            explain: "A segment can be multi-dimensional.",
+          },
+          {
+            id: "ka2",
+            question: "A cheap channel with zero retention…",
+            options: [
+              "Is always best",
+              "Can cost more than a channel with repeat purchases",
+              "Can’t be turned off",
+              "Isn’t visible in cohorts",
+            ],
+            correct: 1,
+            explain: "Watch LTV/retention — not only CPC.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "tipy-kampaniy-google-ads": {
+    checklist: {
+      afterTitleIncludes: "How to choose without spreading",
+      title: "Before picking a campaign type",
+      lead: "Funnel role before “turn everything on.”",
+      items: [
+        { id: "goal", label: "Goal and KPI locked" },
+        { id: "role", label: "Channel role (demand/reach/return/catalog)" },
+        { id: "types", label: "1–2 types for the first test" },
+        { id: "brand", label: "Brand separated from the general set" },
+        { id: "feed", label: "Feed/site ready for Shopping and DSA" },
+        { id: "bid", label: "Bid strategy not confused with campaign type" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "How to choose without spreading",
+        title: "Mini quiz: Google Ads types",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "tg1",
+            question: "Campaign type and bid strategy…",
+            options: [
+              "Are the same thing",
+              "Differ: where/format vs how to pay",
+              "Are only for YouTube",
+              "Replace goals",
+            ],
+            correct: 1,
+            explain: "Don’t mix wizard buttons.",
+          },
+          {
+            id: "tg2",
+            question: "Remarketing primarily…",
+            options: [
+              "Brings only new users",
+              "Returns people who already know you",
+              "Replaces Search",
+              "Never needs a pixel",
+            ],
+            correct: 1,
+            explain: "Warm layer.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "analiz-konkurentov-kontekst": {
+    checklist: {
+      afterTitleIncludes: "Why analyze before launch",
+      title: "Before starting paid search",
+      lead: "Your table before their budget.",
+      items: [
+        { id: "list", label: "3–7 paid competitors in the SERP" },
+        { id: "keys", label: "Keyword clusters and ad examples" },
+        { id: "land", label: "Landings and USPs reviewed" },
+        { id: "net", label: "Networks/social layer noted" },
+        { id: "hyp", label: "Hypotheses for your set and offer" },
+        { id: "limit", label: "Test budget from your economics" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Short briefing",
+        title: "Mini quiz: paid-search competitors",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ak1",
+            question: "A competitor’s exact budget from a tool…",
+            options: [
+              "Is always known",
+              "Isn’t available — only estimates",
+              "Equals your CPA",
+              "Matters more than USP",
+            ],
+            correct: 1,
+            explain: "Build the media plan from your economics.",
+          },
+          {
+            id: "ak2",
+            question: "Competitor analysis for paid search…",
+            options: [
+              "Is the same as SEO traffic in SimilarWeb",
+              "Focuses on the paid block: keywords, ads, landings",
+              "Is only for offline",
+              "Replaces testing",
+            ],
+            correct: 1,
+            explain: "A different angle than an SEO audit.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "moderatsiya-meditsina": {
+    checklist: {
+      afterTitleIncludes: "Why a separate breakdown",
+      title: "Before submitting healthcare ads",
+      lead: "Site and law before budget scale.",
+      items: [
+        { id: "law", label: "Offer lawful in the impression region" },
+        { id: "lic", label: "Licenses and legal details on the site" },
+        { id: "copy", label: "Copy without cure guarantees" },
+        { id: "land", label: "Landing matches the ad" },
+        { id: "surf", label: "Search vs networks decided separately" },
+        { id: "policy", label: "Current platform policy checked" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Copy, site, and support",
+        title: "Mini quiz: healthcare ad review",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "mm1",
+            question: "Working around a ban with a hint and no banned word…",
+            options: [
+              "Is always legal",
+              "Is risky: review looks at meaning and the landing",
+              "Is only needed in networks",
+              "Replaces a license",
+            ],
+            correct: 1,
+            explain: "Gray phrasing doesn’t fix policy.",
+          },
+          {
+            id: "mm2",
+            question: "2019 healthcare rules in Ads…",
+            options: [
+              "Are an eternal standard",
+              "May be outdated — check Help",
+              "Matter more than competitors",
+              "Aren’t needed with DSA",
+            ],
+            correct: 1,
+            explain: "Policies update.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "podryadchik-kontekst": {
+    checklist: {
+      afterTitleIncludes: "Why you need your own control frame",
+      title: "Before contracting a paid-search partner",
+      lead: "Access and KPIs before pretty screenshots.",
+      items: [
+        { id: "access", label: "Access to Metrika/Analytics and ad accounts" },
+        { id: "kpi", label: "Goal and lead definition locked" },
+        { id: "tz", label: "Brief and monthly plan agreed" },
+        { id: "report", label: "Report format and deadlines clear" },
+        { id: "econ", label: "CPA compared to margin/LTV" },
+        { id: "season", label: "Seasonality and test window accounted for" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "When weak numbers aren’t a verdict yet",
+        title: "Mini quiz: paid-search contractor",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "pk1",
+            question: "A universal “normal ROI”…",
+            options: [
+              "Is always 33%",
+              "Doesn’t exist — watch your margin and dynamics",
+              "Equals CTR",
+              "Is guaranteed by contract",
+            ],
+            correct: 1,
+            explain: "Benchmark is your economics — not someone else’s case.",
+          },
+          {
+            id: "pk2",
+            question: "A contractor red flag…",
+            options: [
+              "Month one without miracle ROI in a narrow niche",
+              "No reports, hypotheses, or account access",
+              "Asking to clarify the brief",
+              "Accounting for seasonality",
+            ],
+            correct: 1,
+            explain: "Transparency beats a one-off loss.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "tipy-ssylok": {
+    checklist: {
+      afterTitleIncludes: "Why “just buy” no longer works",
+      title: "Link-building map",
+      lead: "Channels before an exchange pack.",
+      items: [
+        { id: "content", label: "Materials worth citing exist" },
+        { id: "profile", label: "Current backlink profile reviewed" },
+        { id: "channels", label: "2–3 channels picked for the niche" },
+        { id: "attrs", label: "Not chasing dofollow only" },
+        { id: "paid", label: "Paid = advertising + donor quality" },
+        { id: "no-farm", label: "No link farms or auto-submits" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Permanent, rented, and the risk zone",
+        title: "Mini quiz: link types",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ts1",
+            question: "A nofollow link…",
+            options: [
+              "Is always useless",
+              "Can bring traffic and brand",
+              "Equals disavow",
+              "Is needed only on the homepage",
+            ],
+            correct: 1,
+            explain: "Not only classic “link weight.”",
+          },
+          {
+            id: "ts2",
+            question: "Mass directory submission…",
+            options: [
+              "Is a basic must-have",
+              "Is almost always noise and risk",
+              "Replaces content",
+              "Guarantees .edu",
+            ],
+            correct: 1,
+            explain: "Narrow directories ≠ auto-submit by the thousand.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "algoritmy-google": {
+    checklist: {
+      afterTitleIncludes: "Why Google changes algorithms",
+      title: "Before chasing an update",
+      lead: "Principles beat Panda/Penguin names.",
+      items: [
+        { id: "intent", label: "Pages cover intent, not only the keyword" },
+        { id: "thin", label: "Thin and duplicate content reduced" },
+        { id: "links", label: "Backlink profile without obvious spam" },
+        { id: "mobile", label: "Mobile UX and speed in order" },
+        { id: "ads", label: "Ads don’t smother page value" },
+        { id: "monitor", label: "Keyword set monitored after major updates" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Ad spam, RankBrain, and practice",
+        title: "Mini quiz: Google algorithms",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ag1",
+            question: "“95% uniqueness” as Google law…",
+            options: [
+              "Is a current standard",
+              "Is an outdated content-exchange heuristic",
+              "Replaces E-E-A-T",
+              "Is needed only for Penguin",
+            ],
+            correct: 1,
+            explain: "Value and meaning beat an anti-plagiarism percentage.",
+          },
+          {
+            id: "ag2",
+            question: "2010s update names…",
+            options: [
+              "Must be memorized for the top",
+              "Are a history map; core cares about principles",
+              "Replace Search Console",
+              "Guarantee ranking dates",
+            ],
+            correct: 1,
+            explain: "Content, links, mobile — ongoing hygiene.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "zagolovki-h1-h6": {
+    checklist: {
+      afterTitleIncludes: "Keywords and user expectation",
+      title: "Before editing headings",
+      lead: "Hierarchy before a keyword sheet.",
+      items: [
+        { id: "h1", label: "One clear H1 per URL" },
+        { id: "title", label: "H1 aligned with title in meaning" },
+        { id: "h2", label: "H2s read as an outline" },
+        { id: "spam", label: "Not every page keyword in one H" },
+        { id: "depth", label: "No deeper than H2–H3 without need" },
+        { id: "lang", label: "Natural language, not telegraphic spam" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Tie-in with title, CTA, and mistakes",
+        title: "Mini quiz: H1–H6",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "zh1",
+            question: "Are H1–H6 the same as 4U?",
+            options: [
+              "Yes, one topic",
+              "No: HTML hierarchy vs a copywriting formula",
+              "Only for emails",
+              "Only HTTP",
+            ],
+            correct: 1,
+            explain: "Different jobs and different pieces.",
+          },
+          {
+            id: "zh2",
+            question: "All page keywords in one H1…",
+            options: [
+              "Is best practice",
+              "Is a common mistake: stuffing and poor readability",
+              "Is required for the top",
+              "Replaces title",
+            ],
+            correct: 1,
+            explain: "Spread meaning across levels and body copy.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "oshibki-nastroyki-konteksta": {
+    checklist: {
+      afterTitleIncludes: "The ad and trust in the SERP",
+      title: "Before scaling budget",
+      lead: "Setup hygiene before “more keywords.”",
+      items: [
+        { id: "ext", label: "Extensions and relevant URLs" },
+        { id: "split", label: "Search and networks split" },
+        { id: "geo", label: "Geo and groups make sense" },
+        { id: "land", label: "Landing opens on mobile" },
+        { id: "utm", label: "Goals and UTMs track" },
+        { id: "minus", label: "Negatives and schedule set" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Setup checklist before scaling",
+        title: "Mini quiz: paid-search setup",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "onk1",
+            question: "Search and networks in one campaign…",
+            options: [
+              "Is always correct",
+              "Usually hurts optimization — better to split",
+              "Is needed only for brand",
+              "Replaces negatives",
+            ],
+            correct: 1,
+            explain: "Different creatives, bids, and KPIs.",
+          },
+          {
+            id: "onk2",
+            question: "This piece vs “10 management mistakes”…",
+            options: [
+              "Is a full duplicate",
+              "Here setup hygiene; there demand/budget/management",
+              "Is only about Google",
+              "Is only about favicons",
+            ],
+            correct: 1,
+            explain: "Neighboring but different angles.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "indeksatsiya-sayta": {
+    checklist: {
+      afterTitleIncludes: "What you need for the site to get indexed",
+      title: "Before checking the index",
+      lead: "Webmaster panels before bookmarks.",
+      items: [
+        { id: "gsc", label: "Webmaster and Search Console connected" },
+        { id: "map", label: "Sitemap submitted in the panels" },
+        { id: "robots", label: "robots.txt doesn’t block needed sections" },
+        { id: "noindex", label: "Important URLs without accidental noindex" },
+        { id: "links", label: "Important pages linked inside the site" },
+        { id: "cover", label: "Status checked in the coverage report" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "How to check indexing",
+        title: "Mini quiz: indexing",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "is1",
+            question: "Indexing a page means…",
+            options: [
+              "A guarantee of top-10",
+              "The document entering the search database",
+              "Buying links",
+              "Only robots.txt Allow",
+            ],
+            correct: 1,
+            explain: "Index ≠ rankings.",
+          },
+          {
+            id: "is2",
+            question: "Buying links “so they index faster”…",
+            options: [
+              "Is a required step",
+              "Isn’t needed — panels, sitemap, and internal links are enough",
+              "Replaces Search Console",
+              "Works only via social bookmarks",
+            ],
+            correct: 1,
+            explain: "An outdated and risky tactic.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "bidder": {
+    checklist: {
+      afterTitleIncludes: "Why a bid manager",
+      title: "Before connecting a bidder",
+      lead: "Campaign basics before autopilot.",
+      items: [
+        { id: "struct", label: "Structure and negatives in order" },
+        { id: "goals", label: "Goals in analytics tracking" },
+        { id: "limit", label: "Daily/period limit set" },
+        { id: "base", label: "KPIs before the test locked" },
+        { id: "access", label: "Minimum API rights granted" },
+        { id: "native", label: "Native account strategies evaluated first" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "How to choose and verify",
+        title: "Mini quiz: bidder",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "bd1",
+            question: "Highest bid always gives the best position…",
+            options: [
+              "Yes",
+              "No — bid and quality both matter",
+              "Only in Display",
+              "Only at night",
+            ],
+            correct: 1,
+            explain: "The auction weighs more than click price alone.",
+          },
+          {
+            id: "bd2",
+            question: "After enabling a bidder…",
+            options: [
+              "You can forget the campaigns",
+              "Compare KPIs before/after and keep monitoring",
+              "Turn off goals",
+              "Remove limits",
+            ],
+            correct: 1,
+            explain: "Autopilot without control is dangerous.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "klassifikatsiya-zaprosov": {
+    checklist: {
+      afterTitleIncludes: "Why split queries",
+      title: "Before clustering the keyword set",
+      lead: "Intent before chasing high frequency.",
+      items: [
+        { id: "intent", label: "Main intent marked on phrases" },
+        { id: "serp", label: "SERP top results matched to page types" },
+        { id: "geo", label: "Geo-dependence accounted for" },
+        { id: "url", label: "One cluster — one priority page" },
+        { id: "mix", label: "Mixed intent not dumped on one thin URL" },
+        { id: "freq", label: "Frequency doesn’t replace query goal" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Practice for the site",
+        title: "Mini quiz: query types",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "kz1",
+            question: "A navigational query is…",
+            options: [
+              "Searching a city on a map",
+              "A path to a specific brand/site",
+              "Only “buy”",
+              "Only high frequency",
+            ],
+            correct: 1,
+            explain: "Don’t confuse with geo-dependence.",
+          },
+          {
+            id: "kz2",
+            question: "This piece vs user intent…",
+            options: [
+              "Is a full duplicate",
+              "Here taxonomy; there — how to build a page for intent",
+              "Is only about Direct",
+              "Is only about frequency",
+            ],
+            correct: 1,
+            explain: "Neighboring angles of one topic.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "rasshirenie-tseny-google": {
+    checklist: {
+      afterTitleIncludes: "Why a price block",
+      title: "Before price extensions",
+      lead: "Honest pricing before ad real estate.",
+      items: [
+        { id: "prices", label: "Prices current and match the site" },
+        { id: "type", label: "Extension type chosen for the job" },
+        { id: "land", label: "Landing opens with the promise" },
+        { id: "law", label: "No deceptive “from” wording" },
+        { id: "base", label: "CTR/CPA before the test locked" },
+        { id: "help", label: "Steps checked against current Ads Help" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Setup practice",
+        title: "Mini quiz: prices in Ads",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "rt1",
+            question: "A click on a price row…",
+            options: [
+              "Is always free",
+              "Usually bills like an ad click",
+              "Costs half a normal click",
+              "Only in Display",
+            ],
+            correct: 1,
+            explain: "Don’t confuse with a “free” extension impression.",
+          },
+          {
+            id: "rt2",
+            question: "UI from a 2017 guide…",
+            options: [
+              "Is an eternal standard",
+              "May have changed — check Help",
+              "Matters more than a Shopping feed",
+              "Replaces sitelinks",
+            ],
+            correct: 1,
+            explain: "The idea lives; the buttons don’t.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "brif-kontekst": {
+    checklist: {
+      afterTitleIncludes: "Why a brief",
+      title: "Before starting with a contractor",
+      lead: "One page of clarity before arguments.",
+      items: [
+        { id: "goal", label: "Goal and measurable KPI" },
+        { id: "budget", label: "Test budget and scale condition" },
+        { id: "geo", label: "Geo and offer described" },
+        { id: "usp", label: "USP with facts, not “we’re the best”" },
+        { id: "lead", label: "Definition of a good lead" },
+        { id: "access", label: "Access to analytics/accounts" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Alignment and common sense",
+        title: "Mini quiz: paid-search brief",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "bk1",
+            question: "Paid-search brief vs site brief…",
+            options: [
+              "Are the same",
+              "Differ: ad channels/KPIs vs site product",
+              "Only for SEO",
+              "Only creatives",
+            ],
+            correct: 1,
+            explain: "Neighboring documents.",
+          },
+          {
+            id: "bk2",
+            question: "KPI “reach the top” in a paid-search brief…",
+            options: [
+              "Is an ideal goal",
+              "Doesn’t fit — lock leads/CPA/ROAS",
+              "Replaces budget",
+              "Is needed instead of audience",
+            ],
+            correct: 1,
+            explain: "Paid search ≠ SEO rankings.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "malo-pokazov": {
+    checklist: {
+      afterTitleIncludes: "What the status means",
+      title: "Before fixing “Low impressions”",
+      lead: "Group and negatives before deleting the whole tail.",
+      items: [
+        { id: "export", label: "Phrases with the status exported" },
+        { id: "minus", label: "Negatives and operators checked" },
+        { id: "geo", label: "Geo/devices not cutting needlessly" },
+        { id: "group", label: "Related LF keywords merged" },
+        { id: "ads", label: "Ad relevance kept" },
+        { id: "wait", label: "Status recalculation allowed for" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "How to restore impressions",
+        title: "Mini quiz: low impressions",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "mp1",
+            question: "“Low impressions” is…",
+            options: [
+              "An account ban",
+              "A weak-demand status on phrases/groups",
+              "A Metrika error",
+              "Only Display Network",
+            ],
+            correct: 1,
+            explain: "Local to semantics, not an account sanction.",
+          },
+          {
+            id: "mp2",
+            question: "Best first step with valuable LF terms…",
+            options: [
+              "Delete everything",
+              "Group related phrases",
+              "Turn off geo",
+              "Remove goals",
+            ],
+            correct: 1,
+            explain: "Total group frequency matters more.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "formaty-izobrazheniy-rsya": {
+    checklist: {
+      afterTitleIncludes: "Why there are many sizes",
+      title: "Before uploading to YAN",
+      lead: "Current Help before 2017 pixels.",
+      items: [
+        { id: "help", label: "Sizes checked against Direct Help" },
+        { id: "set", label: "Several ratios, not one file" },
+        { id: "mobile", label: "Offer readable on mobile" },
+        { id: "land", label: "Landing matches the creative" },
+        { id: "utm", label: "Tags by size/creative" },
+        { id: "camp", label: "Not splitting reach without a hypothesis" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Launch practice",
+        title: "Mini quiz: YAN formats",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "fr1",
+            question: "One square for every slot…",
+            options: [
+              "Is always enough",
+              "Cuts reach — better a set of ratios",
+              "Is required for apps",
+              "Replaces UTMs",
+            ],
+            correct: 1,
+            explain: "Publishers differ.",
+          },
+          {
+            id: "fr2",
+            question: "Pixels from a 2017 article…",
+            options: [
+              "Are an eternal standard",
+              "May be outdated — check Help",
+              "Always matter more than ad copy",
+              "Are needed only in Search",
+            ],
+            correct: 1,
+            explain: "File requirements update.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "baden-baden": {
+    checklist: {
+      afterTitleIncludes: "Why Baden-Baden existed",
+      title: "Before editing “for the filter”",
+      lead: "Text value before keyword density.",
+      items: [
+        { id: "intent", label: "Page answers intent" },
+        { id: "spam", label: "Unnatural keyword repeats removed" },
+        { id: "struct", label: "Subheads, paragraphs, lists present" },
+        { id: "read", label: "Text reads aloud without shame" },
+        { id: "tool", label: "Risk checked in Turgenev/analog without fanaticism" },
+        { id: "no-hack", label: "No bet on “remove Baden-Baden”" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "LSI without the cult",
+        title: "Mini quiz: Baden-Baden",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "bb1",
+            question: "LSI synonyms for a checkbox…",
+            options: [
+              "Guarantee the top",
+              "Can become new spam",
+              "Replace the offer",
+              "Remove Minusinsk",
+            ],
+            correct: 1,
+            explain: "Topic and value first.",
+          },
+          {
+            id: "bb2",
+            question: "Turgenev and Baden-Baden…",
+            options: [
+              "Are the same",
+              "A risk checker ≠ Yandex’s decision",
+              "Only for Google",
+              "Only for links",
+            ],
+            correct: 1,
+            explain: "An editorial tool, not a filter button.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "minusinsk": {
+    checklist: {
+      afterTitleIncludes: "How to suspect a problem",
+      title: "Before cleaning links",
+      lead: "Diagnosis first, then disavow.",
+      items: [
+        { id: "date", label: "Drop date matched to buying/submissions" },
+        { id: "demand", label: "Season and demand separated from sanctions" },
+        { id: "wm", label: "Webmaster reviewed" },
+        { id: "donors", label: "Donor and anchor slice ready" },
+        { id: "stop", label: "New junk not being grown" },
+        { id: "no-hack", label: "No bet on “remove Minusinsk in a week”" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "What to do",
+        title: "Mini quiz: Minusinsk",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "mn1",
+            question: "Minusinsk is primarily about…",
+            options: [
+              "Keyword density in text",
+              "Link quality and naturalness",
+              "Page speed",
+              "Button color",
+            ],
+            correct: 1,
+            explain: "Link sanctions, not text spam.",
+          },
+          {
+            id: "mn2",
+            question: "After cleaning the profile, expect top rankings…",
+            options: [
+              "In 3 days",
+              "Over months, with no date guarantee",
+              "Only after buying new links",
+              "Never",
+            ],
+            correct: 1,
+            explain: "Recrawl and recovery take time.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "auktsion-direkt": {
+    checklist: {
+      afterTitleIncludes: "Click price and “second price”",
+      title: "Before raising the bid",
+      lead: "Quality first, then the ruble.",
+      items: [
+        { id: "minus", label: "Negatives and junk demand checked" },
+        { id: "ads", label: "Ads and sitelinks strengthened" },
+        { id: "land", label: "Landing and offer reviewed" },
+        { id: "cpa", label: "Target CPA and margin calculated" },
+        { id: "no-war", label: "No plan to “prop” competitors" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "“Props” and price wars",
+        title: "Mini quiz: Direct auction",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ad1",
+            question: "A higher bid always means…",
+            options: [
+              "A guaranteed top of the SERP",
+              "Not always higher and not always better value",
+              "Zero CPC",
+              "Competitors turned off",
+            ],
+            correct: 1,
+            explain: "Quality and CTR are in the game too.",
+          },
+          {
+            id: "ad2",
+            question: "A competitor “prop” is…",
+            options: [
+              "A recommended Yandex strategy",
+              "A risky price war we don’t advise",
+              "The only way to lower CPC",
+              "A substitute for negatives",
+            ],
+            correct: 1,
+            explain: "Expensive and invites a counterstrike.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "vybor-domena": {
+    checklist: {
+      afterTitleIncludes: "Brevity and spoken readability",
+      title: "Before paying for a domain",
+      lead: "The name must dictate without arguments.",
+      items: [
+        { id: "zone", label: "Zone is clear to the audience" },
+        { id: "uniq", label: "Not confused with competitors" },
+        { id: "dict", label: "Dictated to colleagues without errors" },
+        { id: "hist", label: "Name history checked" },
+        { id: "reg", label: "Registrar chosen separately from hosting (when possible)" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Uniqueness and confusion with competitors",
+        title: "Mini quiz: choosing a domain",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "vd1",
+            question: "A long hyphenated exact-match…",
+            options: [
+              "Is always better than a short brand",
+              "Is often worse than a clear short name",
+              "Guarantees the top",
+              "Doesn’t need a canonical",
+            ],
+            correct: 1,
+            explain: "Memorability beats a “keyword domain.”",
+          },
+          {
+            id: "vd2",
+            question: "It’s better to keep the domain…",
+            options: [
+              "Only inside a hosting account with no exit",
+              "With a registrar and control of the name",
+              "On a competitor’s subdomain",
+              "Without renewal",
+            ],
+            correct: 1,
+            explain: "Easier to change hosting without losing the domain.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "instrumenty-marketologa": {
+    checklist: {
+      afterTitleIncludes: "Email, automations, and tasks",
+      title: "Before connecting a dozen services",
+      lead: "KPIs first, then subscriptions.",
+      items: [
+        { id: "kpi", label: "1–2 channel KPIs are clear" },
+        { id: "analytics", label: "Analytics counter on the site" },
+        { id: "esp", label: "ESP chosen for an opt-in list" },
+        { id: "limit", label: "Free limits tested on a pilot" },
+        { id: "tasks", label: "Team task tracker in place" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Competitor research and analytics",
+        title: "Mini quiz: tools",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "im1",
+            question: "SimilarWeb-class estimates…",
+            options: [
+              "Are exact traffic accounting",
+              "Are guides — cross-check with your own data",
+              "Replace Metrika",
+              "Guarantee the top",
+            ],
+            correct: 1,
+            explain: "Orders of magnitude and trends, not ruble facts.",
+          },
+          {
+            id: "im2",
+            question: "Freemium usually…",
+            options: [
+              "Is forever without limits",
+              "Fits a pilot, then hits a ceiling at volume",
+              "Is banned by law",
+              "Doesn’t need an ESP",
+            ],
+            correct: 1,
+            explain: "Limits are normal for the free layer.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "email-strategiya": {
+    checklist: {
+      afterTitleIncludes: "Stage 1. Research",
+      title: "Before writing a strategy",
+      lead: "Without a list audit the plan stays empty.",
+      items: [
+        { id: "optin", label: "List with consent, no scraping" },
+        { id: "metrics", label: "OR/CTR/unsubscribes or a measurement plan" },
+        { id: "offer", label: "Offer and objections described" },
+        { id: "segments", label: "1–3 segments sketched" },
+        { id: "map", label: "Draft email map ready" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Stage 2. Strategy design",
+        title: "Mini quiz: email strategy",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "es1",
+            question: "Email strategy starts with…",
+            options: [
+              "A pretty template to everyone",
+              "Research of the list, product, and goals",
+              "Buying someone else’s lists",
+              "Turning off unsubscribe",
+            ],
+            correct: 1,
+            explain: "Data and goals first.",
+          },
+          {
+            id: "es2",
+            question: "Scale frequency better…",
+            options: [
+              "Daily to the whole list at once",
+              "After stable metrics on a pilot",
+              "Without segments",
+              "By OR only, ignoring conversions",
+            ],
+            correct: 1,
+            explain: "Stability first, then volume.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "tekst-email-rassylki": {
+    checklist: {
+      afterTitleIncludes: "Steps 4–5. Persuasion and check",
+      title: "Before Send",
+      lead: "One goal — one CTA.",
+      items: [
+        { id: "goal", label: "Email goal locked" },
+        { id: "seg", label: "Segment chosen" },
+        { id: "cta", label: "CTA matches the goal" },
+        { id: "mobile", label: "Mobile view checked" },
+        { id: "test", label: "Test email to yourself/a colleague" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Step 3. Content and email types",
+        title: "Mini quiz: newsletter copy",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "te1",
+            question: "To new and loyal customers…",
+            options: [
+              "Always the same copy",
+              "Better different content per segment",
+              "Emails aren’t needed",
+              "Only without unsubscribe",
+            ],
+            correct: 1,
+            explain: "Welcome ≠ loyalty emails.",
+          },
+          {
+            id: "te2",
+            question: "Before send, what matters most…",
+            options: [
+              "Ten CTAs in one email",
+              "Checking subject, links, unsubscribe, and a test",
+              "Hiding unsubscribe",
+              "A bought list",
+            ],
+            correct: 1,
+            explain: "Technical and meaning checks.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "email-dlya-biznesa": {
+    checklist: {
+      afterTitleIncludes: "Service, product, B2B, and B2C",
+      title: "Do you need email",
+      lead: "Touch model first, then the ESP.",
+      items: [
+        { id: "repeat", label: "Repeat touches or long nurture exist" },
+        { id: "optin", label: "Opt-in list exists or is planned" },
+        { id: "type", label: "Type clear: service / product / B2B / B2C" },
+        { id: "goal", label: "Measurable channel goal set" },
+        { id: "persona", label: "At least a draft buyer persona" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Business stage and buyer personas",
+        title: "Mini quiz: email for business",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "eb1",
+            question: "B2B emails more often cover…",
+            options: [
+              "Only an emotion spike with no offer",
+              "Value, terms, and a long deal cycle",
+              "Hiding unsubscribe",
+              "Scraping competitors",
+            ],
+            correct: 1,
+            explain: "Long relationships and expertise.",
+          },
+          {
+            id: "eb2",
+            question: "Email replaces paid ads…",
+            options: [
+              "Always",
+              "No — it’s your channel to people who opted in",
+              "Only in B2B",
+              "Only without a product",
+            ],
+            correct: 1,
+            explain: "Complements traffic, doesn’t replace it.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "verstka-email": {
+    checklist: {
+      afterTitleIncludes: "Structure and code",
+      title: "Before pouring HTML into the ESP",
+      lead: "Frame first, then decoration.",
+      items: [
+        { id: "tables", label: "Table frame for modules" },
+        { id: "inline", label: "Critical styles inline" },
+        { id: "alt", label: "Text and alt — not images alone" },
+        { id: "outlook", label: "Preview in Outlook / Word engine" },
+        { id: "mobile", label: "Check on a smartphone" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "What breaks an email",
+        title: "Mini quiz: email layout",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ve1",
+            question: "Flex/grid in emails…",
+            options: [
+              "Work everywhere like on a site",
+              "Are often unpredictable; tables are safer",
+              "Are required by ESP standards",
+              "Replace opt-in",
+            ],
+            correct: 1,
+            explain: "Clients strip modern CSS.",
+          },
+          {
+            id: "ve2",
+            question: "Broken layout automatically…",
+            options: [
+              "Always sends you to spam",
+              "Isn’t spam, but kills clicks",
+              "Raises deliverability",
+              "Needs no tests",
+            ],
+            correct: 1,
+            explain: "Spam is about reputation and complaints.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "oformlenie-email": {
+    checklist: {
+      afterTitleIncludes: "Structure, hierarchy, images",
+      title: "Before approving the mockup",
+      lead: "Meaning on top, series style unified.",
+      items: [
+        { id: "brand", label: "Recognizable sender/logo" },
+        { id: "offer", label: "Main offer above a long scroll" },
+        { id: "cta", label: "One main button" },
+        { id: "style", label: "Style matches the email series" },
+        { id: "contrast", label: "Copy readable without images" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Typical mistakes",
+        title: "Mini quiz: email design",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "oe1",
+            question: "Design is primarily about…",
+            options: [
+              "Only button color without hierarchy",
+              "Hierarchy, modules, and a clear CTA",
+              "JS inside the email",
+              "Hiding unsubscribe",
+            ],
+            correct: 1,
+            explain: "Composition and meaning.",
+          },
+          {
+            id: "oe2",
+            question: "~600px width is…",
+            options: [
+              "Dogma forever",
+              "A common desktop-column guide; mobile needs responsive more",
+              "A substitute for testing",
+              "A spam cause",
+            ],
+            correct: 1,
+            explain: "A guide, not a religion.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "push-uvedomleniya": {
+    checklist: {
+      afterTitleIncludes: "Rules so you don’t annoy",
+      title: "Before launching push",
+      lead: "Permission beats frequency.",
+      items: [
+        { id: "https", label: "Site on HTTPS" },
+        { id: "ask", label: "Permission ask not in the first second" },
+        { id: "copy", label: "Push copy short and actionable" },
+        { id: "freq", label: "Frequency limited" },
+        { id: "test", label: "Test to yourself on browser/device" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "How browser push works",
+        title: "Mini quiz: push",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "pu1",
+            question: "After Block in the browser…",
+            options: [
+              "You can show the same native dialog forever",
+              "A normal repeat ask is usually unavailable",
+              "Subscription turns on by itself",
+              "It replaces SMS",
+            ],
+            correct: 1,
+            explain: "Permission is given once, deliberately.",
+          },
+          {
+            id: "pu2",
+            question: "Push works best…",
+            options: [
+              "Duplicating every social post",
+              "For short events with consent",
+              "Sending without Allow",
+              "Instead of the whole email strategy",
+            ],
+            correct: 1,
+            explain: "A short nudge, not a sheet.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "uderzhanie-podpischikov": {
+    checklist: {
+      afterTitleIncludes: "On the unsubscribe page and win-back",
+      title: "Before you tweak opt-outs",
+      lead: "Email quality first, then the exit survey.",
+      items: [
+        { id: "mobile", label: "Emails read well on a smartphone" },
+        { id: "freq", label: "Frequency and segments reviewed" },
+        { id: "unsub", label: "One-click unsubscribe" },
+        { id: "survey", label: "Short exit-reason survey" },
+        { id: "alt", label: "“Less often / important only” alternative exists" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Why they leave",
+        title: "Mini quiz: retention",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "up1",
+            question: "Unsubscribes from the uninterested…",
+            options: [
+              "Always a disaster for the ESP",
+              "Can improve deliverability of the live base",
+              "Are banned by law",
+              "Are fixed by hiding the opt-out button",
+            ],
+            correct: 1,
+            explain: "A live list beats a long dead file.",
+          },
+          {
+            id: "up2",
+            question: "On the unsubscribe page it’s better to…",
+            options: [
+              "Force them to re-enter email three times",
+              "Simple opt-out, a survey, and a “less often” option",
+              "Ignore the opt-out for a day",
+              "Send more often",
+            ],
+            correct: 1,
+            explain: "Respect plus data to improve.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "otzyv-2gis": {
+    checklist: {
+      afterTitleIncludes: "Checklist for negativity on 2GIS",
+      title: "Before you react to a 2GIS review",
+      lead: "Facts and a reply first, then reports.",
+      items: [
+        { id: "rules", label: "Re-read the platform review rules" },
+        { id: "facts", label: "Gathered case facts (order, chat)" },
+        { id: "public", label: "Prepared a calm public reply" },
+        { id: "contact", label: "Have a plan to reach the author if possible" },
+        { id: "report", label: "Report only on a rules breach" },
+        { id: "no-close", label: "Not planning to nuke the listing “in panic”" },
+        { id: "fix", label: "Logged an internal process fix" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "What you can and can’t expect from 2GIS",
+        title: "Mini quiz: 2GIS reviews",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "o2g1",
+            question: "An honest, on-topic negative review usually…",
+            options: [
+              "Is removed on the company’s first request",
+              "Stays — you need a reply and a review, not “erase it”",
+              "Must be deleted by the author after a discount",
+              "Auto-hides after a day",
+            ],
+            correct: 1,
+            explain: "Moderation doesn’t scrub inconvenient truth.",
+          },
+          {
+            id: "o2g2",
+            question: "Closing the listing because of reviews…",
+            options: [
+              "Is the best reputation strategy",
+              "Is an extreme risk: you lose presence; traces may remain",
+              "Is required by law",
+              "Guarantees map TOP",
+            ],
+            correct: 1,
+            explain: "Replies and targeted reports first.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "yandeks-katalog": {
+    checklist: {
+      afterTitleIncludes: "Practical takeaway for SEO",
+      title: "Instead of Yandex.Catalog",
+      lead: "Live channels instead of a closed ritual.",
+      items: [
+        { id: "no-yaca", label: "Not hunting “YACA registration” from vendors" },
+        { id: "nap", label: "NAP on the site is current" },
+        { id: "ybiz", label: "Yandex Business / Maps listing" },
+        { id: "maps", label: "2GIS / Google Business when needed" },
+        { id: "wm", label: "Site in Webmaster; regions match reality" },
+        { id: "no-farm", label: "No mass dead-directory plan" },
+        { id: "local", label: "Local content/contacts for real cities" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "What replaces Catalog registration today",
+        title: "Mini quiz: after YACA",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "yk1",
+            question: "Yandex.Catalog today…",
+            options: [
+              "Is required for SEO",
+              "Is closed for site intake — you need maps and the site",
+              "Replaces Webmaster",
+              "Brought TIC back in 2024",
+            ],
+            correct: 1,
+            explain: "A historical service, not a current ritual.",
+          },
+          {
+            id: "yk2",
+            question: "Multi-region via a fake address…",
+            options: [
+              "Is normal practice",
+              "Is risky and against the rules — need real grounds",
+              "Is required instead of a listing",
+              "Replaces content",
+            ],
+            correct: 1,
+            explain: "Honest NAP and branches.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "region-sayta": {
+    checklist: {
+      afterTitleIncludes: "Checklist: region aligned",
+      title: "Before assigning a region",
+      lead: "Signals must match reality.",
+      items: [
+        { id: "nap", label: "Address/phone on the site are current" },
+        { id: "contacts", label: "Contacts page is open to index" },
+        { id: "wm", label: "Webmaster ownership confirmed" },
+        { id: "region", label: "Region = real service area" },
+        { id: "card", label: "Yandex Business/Maps listing aligned" },
+        { id: "no-yaca", label: "Not relying on Yandex.Catalog" },
+        { id: "no-fake", label: "No fake address “for TOP”" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Why a site needs a region",
+        title: "Mini quiz: site region",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "rs1",
+            question: "A Webmaster region checkbox…",
+            options: [
+              "Guarantees TOP in a week",
+              "Is one signal — you still need contacts, map, content",
+              "Replaces a business listing",
+              "Only works via Yandex.Catalog",
+            ],
+            correct: 1,
+            explain: "The panel doesn’t replace locality on the site.",
+          },
+          {
+            id: "rs2",
+            question: "Yandex.Catalog for regions now…",
+            options: [
+              "Is required",
+              "Is closed — don’t use it",
+              "Is the only method",
+              "Replaces an 8-800 number",
+            ],
+            correct: 1,
+            explain: "The service is closed.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "geotargeting-direkt": {
+    checklist: {
+      afterTitleIncludes: "Practical takeaway",
+      title: "Before launching geo in Direct",
+      lead: "Regions = logistics, not “the whole country.”",
+      items: [
+        { id: "zone", label: "Region list = service area" },
+        { id: "lp", label: "Landing promises the same geo" },
+        { id: "search", label: "Search geo checked" },
+        { id: "rsya", label: "For networks: advanced geo on/off decided" },
+        { id: "minus", label: "Negatives for other cities in semantics if needed" },
+        { id: "analytics", label: "Lead/conversion cut by region exists" },
+        { id: "nap", label: "NAP on the site doesn’t contradict ads" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Networks and advanced geotargeting",
+        title: "Mini quiz: Direct geo",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "gd1",
+            question: "Advanced geo in networks primarily…",
+            options: [
+              "Shows ads to the whole world",
+              "Reaches a “home” audience while they’re away",
+              "Replaces negative keywords",
+              "Is only for SEO",
+            ],
+            correct: 1,
+            explain: "Habitual region vs temporary location.",
+          },
+          {
+            id: "gd2",
+            question: "For a “visit today only in this city” service, advanced geo…",
+            options: [
+              "Is always required",
+              "Is often harmful — test and judge the offer",
+              "Replaces a polygon",
+              "Turns search off",
+            ],
+            correct: 1,
+            explain: "Turn it on deliberately.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "chat-telegram": {
+    checklist: {
+      afterTitleIncludes: "How to create a group",
+      title: "After creating a group",
+      lead: "Rights and rules beat a pretty name.",
+      items: [
+        { id: "name", label: "Clear name and avatar" },
+        { id: "link", label: "Private or public link chosen" },
+        { id: "rules", label: "Rules in a pin" },
+        { id: "admins", label: "Admins with minimum rights" },
+        { id: "who", label: "Who can write / add members" },
+        { id: "not-secret", label: "Not confusing a group with a secret chat" },
+        { id: "bot", label: "Bot only if truly needed" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "What kinds of chats there are",
+        title: "Mini quiz: Telegram chat",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ct1",
+            question: "A secret chat…",
+            options: [
+              "Can be a supergroup for thousands",
+              "Is 1-to-1 mode, not a work-group substitute",
+              "Is the same as a channel",
+              "Is required for any business",
+            ],
+            correct: 1,
+            explain: "Secret ≠ group.",
+          },
+          {
+            id: "ct2",
+            question: "For brand news without discussion noise, better…",
+            options: [
+              "Only a huge public group with no rules",
+              "A channel (and a separate discussion chat if needed)",
+              "Only a secret chat",
+              "Only @PollBot without a channel",
+            ],
+            correct: 1,
+            explain: "Channel is a feed; group is a dialog.",
           },
         ],
       },

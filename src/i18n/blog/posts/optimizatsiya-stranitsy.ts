@@ -11,27 +11,27 @@ export const optimizatsiyaStranitsyEn: BlogPost = {
     "How to tune a landing for a query: copy, Title and H1, snippet, internal links, depth, URL, and images — without keyword stuffing or the myth “a keyword in every paragraph.”",
   lead: [
     "On-page optimization means one page clearly answers one main intent: people get the offer, and crawlers read the topic from Title, headings, copy, and links.",
-    "Below — a practical checklist for content and page tech. Meaning and usefulness first, then keyword use. Landing prep ≠ TOP-10: rankings usually grow over months after work starts.",
+    "A practical checklist for content and page tech. Meaning and usefulness first, then keyword use. Landing prep ≠ TOP-10: rankings usually build over 2–6 months after SEO work starts.",
   ],
   faq: [
     {
-      q: "Start with keywords or with copy?",
-      a: "With intent and answer structure. A core keyword sets the topic; write for humans and weave phrases in naturally. See the semantic core article.",
+      q: "Should you start with keywords or with copy?",
+      a: "With intent and answer structure. A core keyword sets the topic; write for humans and weave keywords in naturally. See the keyword set article.",
     },
     {
       q: "Should Title and H1 match?",
       a: "No. Title is for the snippet and SERP topic; H1 is the on-page headline. Same meaning, preferably different wording.",
     },
     {
-      q: "Must the keyword be in the first and last paragraph?",
+      q: "Does the keyword have to appear in the first and last paragraph?",
       a: "No hard rule. The topic should be clear from the first screens. Stuffing the key at start and end “for the checklist” leads to spam.",
     },
     {
-      q: "How many characters in Title and description?",
+      q: "How many characters belong in Title and description?",
       a: "SERP guidelines shift. Keep the meaning early in Title; description — a useful paragraph with a CTA, not a keyword sheet. Check previews in Webmaster / Search Console.",
     },
     {
-      q: "How is this different from keyword spam?",
+      q: "How is page optimization different from keyword spam?",
       a: "Here — the page frame for a query. Keyword spam is about excessive repeats in the text. See the separate article.",
     },
   ],
@@ -41,22 +41,22 @@ export const optimizatsiyaStranitsyEn: BlogPost = {
       level: 2,
       paras: [
         "The page covers one cluster: commercial “buy/order” or informational “how/what.” Mixing intents on one URL is weaker for people and for the SERP.",
-        "Copy: unique, readable, with lists and subheads. Key phrases by meaning — not density “in every sentence.”",
+        "Copy: unique, readable, with lists and subheads. Key keywords by meaning — not density “in every sentence.”",
       ],
       lists: [
         {
           intro: "Copy minimum:",
           items: [
-            "answer the query in the first screens;",
-            "facts, prices/timelines/terms — if it’s commercial;",
-            "a CTA without fluff;",
+            "answer the query in the first screens",
+            "facts, prices/timelines/terms — if it’s commercial",
+            "a CTA without empty filler",
             "check for stuffing out loud and with a density tool.",
           ],
         },
       ],
       links: [
         {
-          label: "Semantic core",
+          label: "Keyword set",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {
@@ -76,8 +76,8 @@ export const optimizatsiyaStranitsyEn: BlogPost = {
         {
           intro: "Guidelines:",
           items: [
-            "Title: clear benefit/topic + brand if needed;",
-            "H1: one, without spam;",
+            "Title: clear benefit/topic + brand if needed",
+            "H1: one, without spam",
             "H2: section logic, not “key1 / key2 / key3.”",
           ],
         },
@@ -103,7 +103,7 @@ export const optimizatsiyaStranitsyEn: BlogPost = {
       links: [
         {
           label: "SEO site structure",
-          href: "/blog/seo-struktura-sayta/",
+          href: "/en/blog/seo-struktura-sayta/",
         },
         {
           label: "What a link is",
@@ -122,11 +122,11 @@ export const optimizatsiyaStranitsyEn: BlogPost = {
         {
           intro: "Quick checklist before publish:",
           items: [
-            "one main intent per URL;",
-            "Title / H1 / lead aligned;",
-            "internal links to/from the page;",
-            "readable URL and HTTPS;",
-            "alt on key images;",
+            "one main intent per URL",
+            "Title / H1 / lead aligned",
+            "internal links to/from the page",
+            "readable URL and HTTPS",
+            "alt on key images",
             "no stuffing or copy-paste.",
           ],
         },
@@ -134,7 +134,7 @@ export const optimizatsiyaStranitsyEn: BlogPost = {
       notes: [
         {
           title: "Timelines",
-          text: "On-page work is part of prep. Ranking for a competitive query is planned over months after promotion starts — not the result of one Title tweak.",
+          text: "On-page work is part of prep. Ranking for a competitive query is planned over 2–6 months after promotion starts — not the result of one Title tweak.",
         },
       ],
       links: [

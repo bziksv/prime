@@ -5,13 +5,13 @@ export const vebServisyEn: BlogPost = {
   slug: "veb-servisy",
   title: "Web services: what they are and why sites need them",
   date: "2020-09-08",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/veb-servisy/cover-en.webp",
   excerpt:
     "What a web service (API) is: how systems exchange data over the network, where business needs it, and how modern REST/JSON differs from old SOAP/UDDI roundups.",
   lead: [
     "A web service is a programmatic interface over the network: one resource sends or receives data under clear rules; another consumes it. For the user it’s the “magic” of a tour aggregator or checkout on a site; for engineering — a contract between systems.",
-    "Below — the architecture idea, where services apply, and what business should watch. We don’t inflate outdated UDDI/SOAP accents from 2000s guides: today it’s more often REST, JSON, and ready APIs for payments, delivery, and CRM.",
+    "We won’t inflate outdated UDDI/SOAP accents from 2000s guides: today it’s more often REST, JSON, and ready APIs for payments, delivery, and CRM. What business should watch is docs, SLA, and what happens when the provider is down.",
   ],
   faq: [
     {
@@ -31,7 +31,7 @@ export const vebServisyEn: BlogPost = {
       a: "It still appears in enterprise stacks. For new integrations REST/JSON is more common. The choice depends on the counterparty, not article fashion.",
     },
     {
-      q: "What’s risky about integrations?",
+      q: "What is risky about integrations?",
       a: "Third-party API outages, format changes, keys in public code, stock/price drift. You need monitoring, access rights, and clear data ownership.",
     },
     {
@@ -92,11 +92,11 @@ export const vebServisyEn: BlogPost = {
       title: "Where they’re used",
       level: 2,
       paras: [
-        "Payments and fiscalization, delivery and tracking, CRM and email, telephony, maps and geocoding, marketplaces and product feeds, exchange with 1C/ERP — a typical modern site contour.",
+        "Payments and fiscalization, delivery and tracking, CRM and email, telephony, maps and geocoding, marketplaces and product feeds, exchange with 1C/ERP — a typical modern site stack.",
       ],
       lists: [
         {
-          intro: "Business upside:",
+          intro: "Business benefits:",
           items: [
             "less manual data moving;",
             "one source of truth for stock and statuses;",

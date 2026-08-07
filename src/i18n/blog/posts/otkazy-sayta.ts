@@ -11,39 +11,39 @@ export const otkazySaytaEn: BlogPost = {
     "What bounce rate means, which numbers are normal for different site types, main leave reasons, and what to fix first — speed, navigation, content.",
   lead: [
     "A bounce is when a visit gave the site almost nothing: the person left quickly or viewed one page without a goal action (definition depends on the counter). A high rate isn’t a “penalty” by itself — a signal that the snippet or ad expectation didn’t match what they saw.",
-    "Below — how to read bounce, typical leave reasons, and a practical fix order. GA4 and Metrica count differently — compare apples to apples.",
+    "Read bounce together with time on page and goals, then fix the leave reasons in order. GA4 and Metrica count differently — compare like with like.",
   ],
   faq: [
     {
-      q: "What’s a normal bounce percentage?",
+      q: "What’s a normal bounce rate?",
       a: "Depends on type. A one-screen landing can show a “high bounce” with a successful lead. Portals and blogs have different baselines. Watch segments and goals, not one number.",
     },
     {
-      q: "Is bounce always a bad site?",
+      q: "Does a high bounce rate always mean a bad site?",
       a: "No. An informational “found it and left” is normal. Bad is when commercial traffic leaves with no action.",
     },
     {
-      q: "Will GA and Metrica match?",
+      q: "Will Google Analytics and Metrica bounce rates match?",
       a: "Rarely one-to-one: different session/engagement models. Trends matter more than the absolute.",
     },
     {
-      q: "Where to start lowering bounce?",
+      q: "Where should you start lowering bounce?",
       a: "Top landings by traffic: speed, title/offer match, first screen, mobile.",
     },
     {
-      q: "Do pop-ups help?",
+      q: "Do pop-ups help lower bounce?",
       a: "Often they increase leave. Keep one careful scenario — don’t block content immediately.",
     },
     {
-      q: "Does bounce affect SEO directly?",
+      q: "Does bounce rate affect SEO directly?",
       a: "Engines look at behavior beyond one metric. Indirectly: if the page doesn’t answer the query, rankings and CTR suffer.",
     },
     {
-      q: "Is registration required before viewing?",
+      q: "Is registration required before viewing content?",
       a: "For most commercial sites — no. A barrier before value sharply raises exits.",
     },
     {
-      q: "How to spot bots?",
+      q: "How do you spot bot traffic in bounce stats?",
       a: "Counter filters, anomalous sessions, log cross-checks. Raw bounce without cleanup lies.",
     },
   ],
@@ -59,9 +59,9 @@ export const otkazySaytaEn: BlogPost = {
         {
           intro: "Rough cues:",
           items: [
-            "portals/services with browsing — lower;",
-            "narrow info answer — higher can be fine;",
-            "commerce — watch bounce + goal;",
+            "portals/services with browsing — lower",
+            "narrow info answer — higher can be fine",
+            "commerce — watch bounce + goal",
             "sharp spike — look for a release or traffic dump.",
           ],
         },
@@ -84,9 +84,9 @@ export const otkazySaytaEn: BlogPost = {
         {
           intro: "Quick checks:",
           items: [
-            "weight and LCP of landings;",
-            "no autoplay sound;",
-            "pop-ups don’t cover the offer immediately;",
+            "weight and LCP of landings",
+            "no autoplay sound",
+            "pop-ups don’t cover the offer immediately",
             "mobile without horizontal scroll.",
           ],
         },
@@ -109,9 +109,9 @@ export const otkazySaytaEn: BlogPost = {
         {
           intro: "On a landing check:",
           items: [
-            "H1 = ad/title promise;",
-            "visible button/form;",
-            "menu links work;",
+            "H1 = ad/title promise",
+            "visible button/form",
+            "menu links work",
             "contacts found in 1–2 clicks.",
           ],
         },
@@ -134,9 +134,9 @@ export const otkazySaytaEn: BlogPost = {
         {
           intro: "Content hygiene:",
           items: [
-            "dates and prices current;",
-            "paragraphs and subheads;",
-            "no forced registration before value;",
+            "dates and prices current",
+            "paragraphs and subheads",
+            "no forced registration before value",
             "internal links by meaning.",
           ],
         },
@@ -166,9 +166,9 @@ export const otkazySaytaEn: BlogPost = {
         {
           intro: "Trust minimum:",
           items: [
-            "real contacts;",
-            "a clear form;",
-            "relevant reviews/cases;",
+            "real contacts",
+            "a clear form",
+            "relevant reviews/cases",
             "HTTPS and a tidy UI.",
           ],
         },
@@ -185,10 +185,10 @@ export const otkazySaytaEn: BlogPost = {
         {
           intro: "2-week sprint:",
           items: [
-            "5 key landings;",
-            "speed + first screen;",
-            "remove irritants;",
-            "refresh facts/prices;",
+            "5 key landings",
+            "speed + first screen",
+            "remove irritants",
+            "refresh facts/prices",
             "compare segments before/after.",
           ],
         },

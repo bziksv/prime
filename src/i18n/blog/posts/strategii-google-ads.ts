@@ -5,30 +5,30 @@ export const strategiiGoogleAdsEn: BlogPost = {
   slug: "strategii-google-ads",
   title: "Google Ads automated bidding: how to choose by goal",
   date: "2018-12-25",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/strategii-google-ads/cover-en.webp",
   excerpt:
     "How to pick automated bidding strategies in Google Ads (Smart Bidding): clicks, conversions, CPA/ROAS — without a catalog of outdated 2018 button names and “automation always cheaper” promises.",
   lead: [
     "Automated strategies in Google Ads set bids toward the campaign goal: more clicks, more conversions, holding CPA or ROAS. Manual CPC didn’t disappear, but without conversion data auto-bidding often flies blind.",
-    "Below — selection logic by business task. Cabinet labels changed (eCPC, target impression share, etc.): orient on meaning “clicks / conversions / value / visibility”; the current list is in Google Ads Help. The Direct parallel is in a separate article.",
+    "Account UI labels changed (eCPC, target impression share, and peers): focus on the meaning — clicks, conversions, value, or visibility — and check the current list in Google Ads Help. The Direct parallel is in a separate article.",
   ],
   faq: [
     {
       q: "Is automation always better than manual bids?",
-      a: "No. With few conversions, broken goals, or offer tests, manual/limited mode can be calmer. Auto shines on volume and stable economics.",
+      a: "No. With few conversions, broken goals, or offer tests, manual or limited mode can be calmer. Auto shines on volume and stable economics.",
     },
     {
-      q: "How many conversions do you need?",
-      a: "The more stable conversions in the learning window, the more confident Smart Bidding. We don’t lock old “exactly 30” thresholds — check cabinet guidance and your stats.",
+      q: "How many conversions do I need?",
+      a: "The more stable conversions in the learning window, the more confident Smart Bidding. We don’t lock old “exactly 30” thresholds — check ads account guidance and your stats.",
     },
     {
-      q: "Can you change strategy every day?",
-      a: "Better give a learning window (often about 1–3 weeks) and don’t twist the goal daily. Otherwise the algorithm never settles.",
+      q: "Can I change strategy every day?",
+      a: "Better give a learning window (often about 1–3 weeks) and don’t change the goal daily. Otherwise the algorithm never settles.",
     },
     {
       q: "How is this different from Direct strategies?",
-      a: "Meaning is similar: goal → data → automation. Cabinets and names differ; don’t copy settings one-to-one.",
+      a: "Meaning is similar: goal → data → automation. Account UIs and names differ; don’t copy settings one-to-one.",
     },
     {
       q: "What matters more than strategy?",

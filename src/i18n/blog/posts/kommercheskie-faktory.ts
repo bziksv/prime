@@ -8,10 +8,10 @@ export const kommercheskieFaktoryEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/kommercheskie-faktory/cover-en.webp",
   excerpt:
-    "Contacts, assortment, purchase terms, “about the company”, and Yandex/Google services — a practical commercial-factors checklist without the myth “a checkbox = TOP”.",
+    "Contacts, assortment, purchase terms, “about the company,” and map/directory services — a practical commercial-factors checklist without the myth “a checkbox = TOP.”",
   lead: [
     "Commercial factors are on-site signals that help a person trust and buy: clear contacts, selection and prices, delivery and payment terms, company transparency, reviews, and useful services.",
-    "Search engines don’t publish a full list of “ranking buttons”, but in practice a strong commercial contour more often matches better conversion and holds commercial SERP more steadily. Below — factor groups and a work order; this is part of prep, not a TOP-in-a-week promise.",
+    "Search engines don’t publish a full list of “ranking buttons,” but in practice a strong commercial setup more often matches better conversion and holds commercial SERP positions more steadily. Factor groups and a work order below are part of prep — not a promise of TOP rankings in a week.",
   ],
   faq: [
     {
@@ -24,32 +24,32 @@ export const kommercheskieFaktoryEn: BlogPost = {
     },
     {
       q: "What matters more: more copy, or contacts and prices?",
-      a: "On commercial queries, offer completeness and trust often decide. Copy without prices, shipping, and ways to contact loses to a clear “how to buy”.",
+      a: "On commercial queries, offer completeness and trust often decide. Copy without prices, shipping, and ways to contact loses to a clear “how to buy.”",
     },
     {
       q: "Is a corporate email required?",
       a: "Preferred: `@domain.com` looks more reliable than a free mailbox. A phone with an area code and address/map are strong signals too.",
     },
     {
-      q: "Do you need a live chat?",
+      q: "Do I need a live chat?",
       a: "If you actually reply. A dead widget is worse than none. Alternatives: form, callback, messengers.",
     },
     {
       q: "Are marketplaces and directories commercial factors?",
-      a: "An adjacent trust and traffic track: directory/map profiles, marketplace storefronts — by niche. They don’t replace site quality.",
+      a: "An adjacent trust and traffic track: directory and map profiles, marketplace storefronts — by niche. They don’t replace site quality.",
     },
     {
       q: "Are turbo pages required?",
       a: "No. Check current SERP formats and usefulness for your niche; priority is a fast, honest main site.",
     },
     {
-      q: "When to expect rank effect?",
-      a: "Improving commercial signals is part of prep. Commercial-core ranking buildup planned 2–6 months after systematic work starts.",
+      q: "When should I expect a ranking effect?",
+      a: "Improving commercial signals is part of prep. Commercial-core ranking buildup is planned for 2–6 months after systematic work starts.",
     },
   ],
   sections: [
     {
-      title: "What it is and why",
+      title: "What it is and why it matters",
       level: 2,
       paras: [
         "Commercial factors are everything that answers buyer questions before payment: who you are, how to contact you, what you sell, at what price, how to get and return it, why you can be trusted.",
@@ -60,7 +60,7 @@ export const kommercheskieFaktoryEn: BlogPost = {
           intro: "Who needs it most:",
           items: [
             "online stores;",
-            "services with a lead/site visit;",
+            "services with a lead or site visit;",
             "local business with a visit;",
             "B2B with a long sales cycle.",
           ],
@@ -72,13 +72,13 @@ export const kommercheskieFaktoryEn: BlogPost = {
           href: "/en/blog/optimizatsiya-konversii/",
         },
         {
-          label: "Internal factors",
+          label: "On-page (internal) factors",
           href: "/en/blog/vnutrennie-faktory/",
         },
       ],
     },
     {
-      title: "Audience tie-in: contacts and channels",
+      title: "Contacts and communication channels",
       level: 2,
       paras: [
         "People must easily find phone, email, address or service area, messengers, and a form. For a chain — branch contacts; for delivery — clear geography.",
@@ -92,7 +92,7 @@ export const kommercheskieFaktoryEn: BlogPost = {
             "email on the domain;",
             "a form or chat with replies;",
             "address/map or an honest service area;",
-            "links to current social/messengers.",
+            "links to current social profiles and messengers.",
           ],
         },
       ],
@@ -111,7 +111,7 @@ export const kommercheskieFaktoryEn: BlogPost = {
       title: "Assortment and choice",
       level: 2,
       paras: [
-        "For a store, catalog breadth and depth signal scale and usefulness. Empty sections and “coming soon” beat a honest narrow assortment with solid cards.",
+        "For a store, catalog breadth and depth signal scale and usefulness. Empty sections and “coming soon” lose to an honest narrow assortment with solid cards.",
         "On cards: name, price or a clear guide, stock, photos, specs, shipping. Compare with niche TOP: what you lack in selection and filters.",
       ],
       lists: [
@@ -120,7 +120,7 @@ export const kommercheskieFaktoryEn: BlogPost = {
           items: [
             "no empty categories in the index;",
             "filters and catalog search exist;",
-            "cards close objections;",
+            "cards address objections;",
             "hits and promos don’t break URL structure.",
           ],
         },
@@ -191,8 +191,8 @@ export const kommercheskieFaktoryEn: BlogPost = {
       title: "How to implement and measure",
       level: 2,
       paras: [
-        "Pull a benchmark from 3–5 TOP URLs on money queries: which blocks they have that you don’t. Ship in packages (contacts → terms → cards → reviews); after releases watch conversion and cluster ranks.",
-        "Commercial fixes are part of site prep. Commercial-core TOP buildup planned takes months after work starts (guide 2–6 months), not “added a chat — top-3 tomorrow”.",
+        "Pull a benchmark from 3–5 TOP URLs on money queries: which blocks they have that you don’t. Roll out in packages (contacts → terms → cards → reviews); after releases watch conversion and cluster ranks.",
+        "Commercial fixes are part of site prep. Climbing commercial TOP is planned over months after work starts (typically 2–6 months) — not “added a chat, top-3 tomorrow.”",
       ],
       lists: [
         {
@@ -200,7 +200,7 @@ export const kommercheskieFaktoryEn: BlogPost = {
           items: [
             "checklist vs niche TOP;",
             "backlog by business impact;",
-            "A/B or before/after CR on key URLs;",
+            "A/B or before/after conversion rate on key URLs;",
             "monthly review together with SEO KPIs.",
           ],
         },
@@ -219,7 +219,7 @@ export const kommercheskieFaktoryEn: BlogPost = {
         {
           title: "Timelines",
           kind: "tip",
-          text: "Strengthening commercial signals can take weeks. Core ranking buildup — planned 2–6 months after systematic promotion starts.",
+          text: "Strengthening commercial signals can take weeks. Core ranking buildup is planned for 2–6 months after systematic promotion starts.",
         },
       ],
     },

@@ -3,20 +3,20 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for napolnenie-sayta — same structure as RU JSON. */
 export const napolnenieSaytaEn: BlogPost = {
   slug: "napolnenie-sayta",
-  title: "How to fill a site: unique content and publishing rules",
+  title: "Site content: unique materials and publishing rules",
   date: "2020-10-19",
   category: "Content marketing",
   cover: "/images/blog/napolnenie-sayta/cover-en.webp",
   excerpt:
-    "How to pick topics and formats, borrow ideas from competitors, build a content plan, write a brief, and publish regularly — without auto-filling and copy-paste.",
+    "How to pick topics and formats, borrow ideas from competitors, build a content plan, write a brief, and publish regularly — without auto-fill scrapers and copy-paste.",
   lead: [
-    "An empty or thin site holds people poorly and barely builds useful search URLs. Filling content isn’t “write 50 articles in a week” — a system: niche, audience, idea sources, plan, brief, and publishing rhythm.",
-    "Below — a practical path from topic to go-live. The content calendar as a table and grabber auto-fill are covered separately; here — how to give the site real meaning.",
+    "An empty or thin site holds people poorly and barely builds useful search URLs. Content work isn’t “write 50 articles in a week” — it’s a system: niche, audience, idea sources, plan, brief, and publishing rhythm.",
+    "This piece walks from topic to go-live: how to gather ideas, brief writers, and publish without stuffing. The content calendar as a table and scraper auto-fill are covered separately.",
   ],
   faq: [
     {
-      q: "Where to start if the site is new?",
-      a: "Lock niche and audience, a list of required pages (services, about, contacts), and 8–15 first blog/catalog topics. Then plan and briefs — not the other way around.",
+      q: "Where should you start if the site is new?",
+      a: "Lock niche and audience, a list of required pages (services, about, contacts), and 8–15 first blog or catalog topics. Then plan and briefs — not the other way around.",
     },
     {
       q: "Can you copy competitors’ texts?",
@@ -27,24 +27,24 @@ export const napolnenieSaytaEn: BlogPost = {
       a: "A plan is the “what/when” calendar. This article is where meaning comes from, how to brief writers, and which publishing rules to keep.",
     },
     {
-      q: "Will auto-fill save you?",
+      q: "Will auto-generated content save you?",
       a: "For a commercial site usually no. Better fewer, but your own materials for query clusters.",
     },
     {
-      q: "How often to publish?",
+      q: "How often should you publish?",
       a: "A rhythm you can hold for 2–3 months. One strong piece a week beats daily thin spam.",
     },
     {
-      q: "Do you need images and video?",
+      q: "Do you need images and video too?",
       a: "Yes if they add meaning: diagrams, product photos, short clips. Stock clichés with no context barely help.",
     },
     {
-      q: "Who writes: in-house or a copywriter?",
-      a: "Expertise inside + edit/copy outside against a brief. Without a brief, “pretty text” often misses semantics and the offer.",
+      q: "Who should write: in-house or a copywriter?",
+      a: "Expertise inside plus edit/copy outside against a brief. Without a brief, “pretty text” often misses semantics and the offer.",
     },
     {
-      q: "When is there enough content?",
-      a: "When commercial clusters and support (FAQ, how-tos) are covered. Then — updates and new demand, not endless volume for its own sake. Ranking growth still takes planned months after prep — not a publish count.",
+      q: "When is there enough content to stop?",
+      a: "When commercial clusters and support pages (FAQ, how-tos) are covered. Then — updates and new demand, not endless volume for its own sake. Ranking growth still takes planned months after prep — not a publish count.",
     },
   ],
   sections: [
@@ -53,23 +53,23 @@ export const napolnenieSaytaEn: BlogPost = {
       level: 2,
       paras: [
         "First answer: does the site sell services, products, expertise, or media? A store needs cards, categories, buying guides; services — landings, cases, FAQ; a blog — query clusters and series.",
-        "Build an audience picture: jobs, objections, language, geo. Without that, topics stay “generic” and convert poorly.",
+        "Build an audience picture: jobs, objections, language, geo. Without that, topics stay generic and convert poorly.",
       ],
       lists: [
         {
           intro: "Lock at the start:",
           items: [
-            "offer and USP;",
-            "3–5 audience segments;",
-            "required pages;",
-            "formats (article, card, video, checklist);",
+            "offer and USP",
+            "3–5 audience segments",
+            "required pages",
+            "formats (article, card, video, checklist)",
             "what we never publish (off-limits topics).",
           ],
         },
       ],
       links: [
         {
-          label: "Semantic core",
+          label: "Keyword set (semantic core)",
           href: "/en/blog/semanticheskoe-yadro/",
         },
       ],
@@ -79,15 +79,15 @@ export const napolnenieSaytaEn: BlogPost = {
       level: 2,
       paras: [
         "Review 3–5 strong competitors: which sections exist, which articles are indexed, what’s in the menu and blog. Look beyond copy — headlines, media, CTAs, FAQ depth.",
-        "Add demand: keyword tools and suggestions, client questions, support, reviews. Social and media trends are angle sources — not one-to-one copy of others’ posts.",
+        "Add demand: keyword tools and suggestions, client questions, support, reviews. Social and media trends are angle sources — not one-to-one copy of other people’s posts.",
       ],
       lists: [
         {
           intro: "What to extract from competitors:",
           items: [
-            "topics with traffic/visibility;",
-            "gaps (they have it — you don’t);",
-            "weak pages you can beat;",
+            "topics with traffic or visibility",
+            "gaps (they have it — you don’t)",
+            "weak pages you can beat",
             "presentation formats that work in the niche.",
           ],
         },
@@ -107,7 +107,7 @@ export const napolnenieSaytaEn: BlogPost = {
       ],
     },
     {
-      title: "Fill plan and priorities",
+      title: "Content plan and priorities",
       level: 2,
       paras: [
         "Queue topics: money first (services/categories), then decision support, then expert blog. Inside the blog — one strong URL per cluster, without cannibalization.",
@@ -117,9 +117,9 @@ export const napolnenieSaytaEn: BlogPost = {
         {
           intro: "30-day priority:",
           items: [
-            "close commercial landings;",
-            "5–10 demand-led articles;",
-            "internal links between them;",
+            "finish commercial landings",
+            "5–10 demand-led articles",
+            "internal links between them",
             "refresh About and contacts.",
           ],
         },
@@ -142,10 +142,10 @@ export const napolnenieSaytaEn: BlogPost = {
         {
           intro: "In the copywriter brief include:",
           items: [
-            "draft title and H2 skeleton;",
-            "what must not be invented;",
-            "competitors “as orientation, don’t copy”;",
-            "where the CTA goes;",
+            "draft title and H2 skeleton",
+            "what must not be invented",
+            "competitors as orientation — don’t copy",
+            "where the CTA goes",
             "deadline and delivery format.",
           ],
         },
@@ -166,11 +166,11 @@ export const napolnenieSaytaEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Minimum for an article/landing:",
+          intro: "Minimum for an article or landing:",
           items: [
-            "1 main visual that matches meaning;",
-            "captions for complex blocks;",
-            "alt text on important images;",
+            "1 main visual that matches meaning",
+            "captions for complex blocks",
+            "alt text on important images",
             "no heavy unoptimized files.",
           ],
         },
@@ -180,18 +180,18 @@ export const napolnenieSaytaEn: BlogPost = {
       title: "Publishing rules and an example",
       level: 2,
       paras: [
-        "Before go-live: title/description, clean URL, internal links, indexability, share preview, mobile check. After — monitor positions/bounce and schedule updates.",
+        "Before go-live: title/description, clean URL, internal links, indexability, share preview, mobile check. After — monitor positions and bounce, and schedule updates.",
         "Example logic for a niche store (flowers, etc.): categories and cards → “how to choose” guides → seasonal picks → delivery FAQ. Rhythm: cards in batches with assortment; expert pieces on a demand calendar.",
       ],
       lists: [
         {
           intro: "Release checklist:",
           items: [
-            "meaning and facts approved;",
-            "uniqueness OK;",
-            "links to commercial pages;",
-            "no duplicate URL;",
-            "plan date closed.",
+            "meaning and facts approved",
+            "uniqueness OK",
+            "links to commercial pages",
+            "no duplicate URL",
+            "planned publish date met.",
           ],
         },
       ],
@@ -199,7 +199,7 @@ export const napolnenieSaytaEn: BlogPost = {
         {
           title: "Practice",
           kind: "tip",
-          text: "Filling without semantics and structure is content for content’s sake. Topic map first, then volume.",
+          text: "Publishing without semantics and structure is content for content’s sake. Topic map first, then volume.",
         },
       ],
       links: [

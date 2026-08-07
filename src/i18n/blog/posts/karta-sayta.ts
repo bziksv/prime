@@ -11,7 +11,7 @@ export const kartaSaytaEn: BlogPost = {
     "How an XML sitemap differs from an HTML map, how to create and submit the file to search engines, which URLs to include, and which mistakes hurt indexing.",
   lead: [
     "A sitemap helps search engines learn about important URLs faster. Most often that means `sitemap.xml` for bots; an HTML map is an orientation aid for people. It’s not a “TOP button” — crawl hygiene next to solid structure and internal links.",
-    "Below — format differences, how to build XML, how to tell Google and other webmaster tools, and what to avoid. Treat this as the canonical take on “sitemap” among related posts.",
+    "XML and HTML maps serve different jobs; build XML carefully, submit it to Google and other webmaster tools, and avoid junk URLs. Treat this as the canonical take on sitemaps among related posts.",
   ],
   faq: [
     {
@@ -23,11 +23,11 @@ export const kartaSaytaEn: BlogPost = {
       a: "Not the only way to discover URLs, but on mid-size and large sites it greatly helps crawling new and deep pages.",
     },
     {
-      q: "Where to put the file?",
+      q: "Where should I put the sitemap file?",
       a: "Usually `/sitemap.xml` at the root or a sitemap index `/sitemap_index.xml`. Point to it in robots.txt and Search Console / webmaster panels.",
     },
     {
-      q: "Do you need priority and changefreq?",
+      q: "Do you need priority and changefreq attributes?",
       a: "Engines have long relied on them weakly. What matters more is an up-to-date list of canonical URLs without junk.",
     },
     {

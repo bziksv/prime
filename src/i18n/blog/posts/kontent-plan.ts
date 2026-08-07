@@ -8,10 +8,10 @@ export const kontentPlanEn: BlogPost = {
   category: "Content marketing",
   cover: "/images/blog/kontent-plan/cover-en.webp",
   excerpt:
-    "What a content plan is and how it differs from an editorial and media plan. Algorithm: formats, topics, semantics, rubrics, schedule, and headlines.",
+    "What a content plan is and how it differs from an editorial and media plan. Algorithm: formats, topics, semantics, categories, schedule, and headlines.",
   lead: [
     "A content plan is a table or calendar: what, where, and when you publish. Without it a site, blog, and social channels slide into chaos or long silence.",
-    "Below — terms, why you need a plan, and a step-by-step algorithm. Instagram has a separate guide with feed ratios; here — a general frame for the site and channels.",
+    "Terms, why you need a plan, and a step-by-step build process are below. Instagram has a separate guide with feed mix ratios; this is a general frame for the site and channels.",
   ],
   faq: [
     {
@@ -27,11 +27,11 @@ export const kontentPlanEn: BlogPost = {
       a: "Sheets/Excel, Notion, Trello, a calendar — whatever the team uses. Key: one source of truth and clear access.",
     },
     {
-      q: "Do you need semantics in a site content plan?",
+      q: "Do I need keyword research in a site content plan?",
       a: "Yes if the goal is search: topics in clusters, one strong piece per cluster, no stuffing.",
     },
     {
-      q: "How far ahead to plan?",
+      q: "How far ahead should I plan?",
       a: "Beginners — 2–4 weeks. Then a month with a backlog of ideas. A rigid quarter makes sense when production is stable.",
     },
   ],
@@ -41,7 +41,7 @@ export const kontentPlanEn: BlogPost = {
       level: 2,
       paras: [
         "A content plan is a publishing schedule for the project goal: articles, posts, video, email. An editorial plan is the same for a publication. A media plan is more a map of advertising activity.",
-        "A site and a magazine have different owners and roles, but the logic is one: you know in advance what ships and who’s accountable.",
+        "A site and a magazine have different owners and roles, but the logic is one: you know in advance what goes live and who’s accountable.",
       ],
       lists: [
         {
@@ -60,14 +60,14 @@ export const kontentPlanEn: BlogPost = {
       title: "Why you need a content plan",
       level: 2,
       paras: [
-        "It removes daily panic about “what to post”, steadies cadence, helps the team and freelancers work from a brief, and makes internal linking and series easier.",
+        "It removes daily panic about “what to post,” steadies cadence, helps the team and freelancers work from a brief, and makes internal linking and series easier.",
       ],
       lists: [
         {
-          intro: "Upsides:",
+          intro: "Benefits:",
           items: [
             "cadence instead of chaos;",
-            "one concept and rubrics;",
+            "one concept and categories;",
             "idea backlog in one place;",
             "easier to see what worked.",
           ],
@@ -84,7 +84,7 @@ export const kontentPlanEn: BlogPost = {
       title: "How to build it",
       level: 2,
       paras: [
-        "First goal and audience, then formats and topics, then semantics (for the site), rubrics, schedule, and headlines.",
+        "First goal and audience, then formats and topics, then keyword research (for the site), categories, schedule, and headlines.",
       ],
       lists: [
         {
@@ -92,9 +92,9 @@ export const kontentPlanEn: BlogPost = {
           items: [
             "pick content types (text, reviews, how-tos, comparisons, cases, video);",
             "lock tone and length;",
-            "gather topics: audience, forums, client questions, brainstorm;",
-            "for SEO — core clusters, one text ≈ one cluster;",
-            "sort into rubrics;",
+            "gather topics: audience, forums, customer questions, brainstorm;",
+            "for SEO — keyword clusters, one text ≈ one cluster;",
+            "sort into categories;",
             "set dates and owners;",
             "draft working headlines without fake clickbait.",
           ],
@@ -102,7 +102,7 @@ export const kontentPlanEn: BlogPost = {
       ],
       links: [
         {
-          label: "Semantic core",
+          label: "Keyword research",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {
@@ -130,7 +130,7 @@ export const kontentPlanEn: BlogPost = {
             "statuses are current;",
             "there’s a process owner;",
             "periodic review: what landed;",
-            "rubrics don’t turn into wall-to-wall selling.",
+            "categories don’t turn into wall-to-wall selling.",
           ],
         },
       ],

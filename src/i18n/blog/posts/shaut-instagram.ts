@@ -3,15 +3,16 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for shaut-instagram — same structure as RU JSON. */
 export const shautInstagramEn: BlogPost = {
   slug: "shaut-instagram",
-  title: "Shoutouts (SFS) on Instagram*: how to run them, upsides and downsides",
+  title:
+    "Shoutouts (SFS) on Instagram*: how to run them, pros and cons",
   date: "2021-04-08",
   category: "SMM",
   cover: "/images/blog/shaut-instagram/cover-en.webp",
   excerpt:
-    "What a shoutout (shout for shout, SFS) on Instagram* is: mutual mentions, contest format, upsides and downsides — without the myth that it’s “free and always effective.”",
+    "What a shoutout (shout for shout, SFS) on Instagram* is: mutual mentions, contest format, pros and cons — without the myth that it’s “free and always effective.”",
   lead: [
     "A shoutout (SFS, shout for shout) is a mutual mention: you show a partner’s content or profile, they show yours. The goal is to introduce audiences and get new followers or leads.",
-    "Below — how to organize a swap and where the method breaks. It isn’t magic free traffic: partner quality and promo frequency decide. Meta* product disclaimer is on the page.",
+    "We cover how to organize a shoutout swap and where the method breaks. It isn’t magic free traffic—partner quality and how often you promote decide. Meta* product disclaimer is on the page.",
   ],
   legalNotice: {
     title: "Dear readers!",
@@ -19,7 +20,7 @@ export const shautInstagramEn: BlogPost = {
   },
   faq: [
     {
-      q: "Are shoutout and mutual PR the same?",
+      q: "Are a shoutout and mutual PR the same thing?",
       a: "Close: both are about mutual reach. Shoutout/SFS is more often a post or Story “for each other”; mutual PR is broader — collab series and longer deals.",
     },
     {
@@ -27,15 +28,15 @@ export const shautInstagramEn: BlogPost = {
       a: "The mention swap has no platform fee. Time to pick partners, design, and risk of a “dead” audience still cost resources. Sometimes a partner asks for pay on top — that’s ads.",
     },
     {
-      q: "Will a shoutout help with bots?",
+      q: "Will a shoutout help if your audience is bots?",
       a: "No. Swaps with inflated accounts add noise and hurt stats. Cut empty profiles.",
     },
     {
-      q: "How often to run an SFS contest?",
+      q: "How often should I run an SFS contest?",
       a: "Less often than “every week.” Old guides said “no more than twice a month” — a cue, not law. Watch feed fatigue.",
     },
     {
-      q: "What to use instead of a shoutout?",
+      q: "What should I use instead of a shoutout?",
       a: "Collaborations, guest Stories with relevant creators, paid ads with a clear offer, your own content. Not one channel alone.",
     },
   ],
@@ -107,12 +108,12 @@ export const shautInstagramEn: BlogPost = {
       links: [
         {
           label: "Giveaway on Instagram*",
-          href: "/blog/rozygrysh-instagram/",
+          href: "/en/blog/rozygrysh-instagram/",
         },
       ],
     },
     {
-      title: "Upsides",
+      title: "Benefits",
       level: 2,
       paras: [
         "Fast access to another audience without media buying. You can find partners and content ideas.",
@@ -120,7 +121,7 @@ export const shautInstagramEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "When upsides show:",
+          intro: "When the benefits show:",
           items: [
             "niche matches;",
             "both sides have live activity;",
@@ -172,7 +173,7 @@ export const shautInstagramEn: BlogPost = {
       ],
     },
     {
-      title: "What to remember",
+      title: "Key takeaways",
       level: 2,
       paras: [
         "A shoutout is an audience-attention swap. It works with relevance and moderation; it breaks on bots and spam frequency.",

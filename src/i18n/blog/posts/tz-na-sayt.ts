@@ -5,38 +5,38 @@ export const tzNaSaytEn: BlogPost = {
   slug: "tz-na-sayt",
   title: "Website specification: brief, structure, and common mistakes",
   date: "2019-12-11",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/tz-na-sayt/cover-en.webp",
   excerpt:
-    "How to write a website technical specification: why the document matters, how a brief differs from a full brief/spec, what to cover by block, and which client mistakes cost the most.",
+    "How to write a website technical specification: why the document matters, how a short brief differs from a full spec, what to cover by block, and which client mistakes cost the most.",
   lead: [
-    "A website technical specification (project brief) locks what should ship: goals, audience, pages, design direction, responsive rules, integrations, and timelines. Without it the contractor leans on their own taste — and the result often misses the client’s expectations.",
-    "Below — how to reach shared understanding via a short brief, what to put in the document, why a prototype helps, and which mistakes most often cause rework. This isn’t a “sign and forget” template — it’s a working contract of meaning between the sides.",
+    "A website technical specification locks what should be delivered: goals, audience, pages, design direction, responsive rules, integrations, and timelines. Without it the contractor leans on their own taste — and the result often misses yours.",
+    "Start with a short questionnaire, turn the answers into testable requirements, and review a prototype before polished design. This isn’t a “sign and forget” template — it’s a working contract of meaning between both sides.",
   ],
   faq: [
     {
-      q: "Are a brief and a full spec the same?",
-      a: "No. A brief is a short questionnaire and discussion. The spec is the final action guide after details are agreed.",
+      q: "Are a brief and a full spec the same thing?",
+      a: "No. A brief is a short questionnaire and discussion. The spec is the final action guide once details are agreed.",
     },
     {
       q: "Can freelancers work without a spec?",
-      a: "They can, but dispute risk is higher. Minimum — goals, structure, references, responsive, access, and deadlines.",
+      a: "They can, but dispute risk is higher. At minimum lock goals, structure, references, responsive rules, access, and deadlines.",
     },
     {
       q: "Do you need a prototype?",
-      a: "Preferably: it shows block placement before polished design. Saves “button isn’t there” revisions.",
+      a: "Preferably yes: it shows block placement before polished design and cuts “the button isn’t there” revisions.",
     },
     {
-      q: "How do you describe design?",
-      a: "Not “make it pretty” — reference links, palette, fonts, tone. Vague words everyone reads differently.",
+      q: "How should you describe design?",
+      a: "Not “make it pretty” — share reference links, palette, fonts, and tone. Vague words mean different things to everyone.",
     },
     {
-      q: "Who writes the spec — client or studio?",
+      q: "Who writes the spec — the client or the studio?",
       a: "Often together: the client brings business and goals; the contractor structures and clarifies tech. Both sides approve the final.",
     },
     {
-      q: "Are a copy brief and a site spec different?",
-      a: "Yes. Here — site development. A separate copy brief describes volume, keywords, and page tone.",
+      q: "Is a copy brief different from a site spec?",
+      a: "Yes. The site spec covers development. A separate copy brief describes volume, keywords, and page tone.",
     },
   ],
   sections: [
@@ -44,8 +44,8 @@ export const tzNaSaytEn: BlogPost = {
       title: "Why a spec at all",
       level: 2,
       paras: [
-        "The document cuts “I meant something else”. The contractor follows agreed requirements; the client checks stages instead of arguing about button color at the end.",
-        "Without a spec you hand the business to someone with another taste and another success picture. Small tweaks are normal; a concept change at the finish almost always means a leaky brief.",
+        "The document cuts “I meant something else.” The contractor follows agreed requirements; the client checks stages instead of arguing about button color at the end.",
+        "Without a spec you hand the business to someone with another taste and another picture of success. Small tweaks are normal; a concept change at the finish almost always means a leaky brief.",
       ],
       lists: [
         {
@@ -63,7 +63,7 @@ export const tzNaSaytEn: BlogPost = {
       level: 2,
       paras: [
         "A long requirements wall before a conversation often scares people and still stays leaky. A brief is a short questionnaire: business, audience, site goal, examples, style and feature wishes.",
-        "In dialogue the contractor offers workable options (e.g. menu type); the client accepts or rejects. From the answers you build a structured spec — no longer a “negotiation room”, but instructions.",
+        "In dialogue the contractor offers workable options (for example, menu type); the client accepts or rejects. From the answers you build a structured spec — no longer a negotiation room, but instructions.",
       ],
       links: [
         {
@@ -77,7 +77,7 @@ export const tzNaSaytEn: BlogPost = {
       level: 2,
       paras: [
         "Describe the company and product so someone outside your industry gets the point. Lock audience and site goal: lead, purchase, subscribe, signup — that drives UI emphasis.",
-        "If a site already exists — the URL, strengths/weaknesses, what to keep. Then: page and menu structure, integrations (CRM, payment, analytics), style and references, materials (copy, photos), responsive and devices, questions/limits.",
+        "If a site already exists — the URL, strengths and weaknesses, what to keep. Then: page and menu structure, integrations (CRM, payment, analytics), style and references, materials (copy, photos), responsive and devices, questions and limits.",
       ],
       lists: [
         {
@@ -96,7 +96,7 @@ export const tzNaSaytEn: BlogPost = {
       ],
       tables: [
         {
-          caption: "Sample brief meaning points",
+          caption: "Sample brief fields",
           headers: ["Item", "What to write"],
           rows: [
             ["Company", "What you do, product, differences"],
@@ -132,7 +132,7 @@ export const tzNaSaytEn: BlogPost = {
       level: 2,
       paras: [
         "No stage deadlines — the project drifts. No references — endless taste revisions. No saved hosting and domain access — risk of losing control after a contractor change.",
-        "Another mistake — staying silent about doubts. If a spec line is unclear, clarify before layout. The client may be weak in design or code — that’s fine; what matters is locking the business outcome and acceptance criteria.",
+        "Another mistake is staying silent about doubts. If a spec line is unclear, clarify before layout. The client may be weak in design or code — that’s fine; what matters is locking the business outcome and acceptance criteria.",
       ],
       lists: [
         {
@@ -142,7 +142,7 @@ export const tzNaSaytEn: BlogPost = {
             "references exist, not only “pretty”;",
             "stage deadlines written;",
             "who provides copy and photos is clear;",
-            "domain/hosting access stays with the client.",
+            "domain and hosting access stays with the client.",
           ],
         },
       ],
@@ -156,7 +156,7 @@ export const tzNaSaytEn: BlogPost = {
     },
   ],
   closing: [
-    "A good website spec starts with a brief and ends with testable requirements: goals, structure, references, responsive, timelines. The clearer the document, the fewer reworks — and the closer the result to what you pictured.",
+    "A good website spec starts with a brief and ends with testable requirements: goals, structure, references, responsive rules, timelines. The clearer the document, the fewer reworks — and the closer the result to what you pictured.",
   ],
   related: [
     "tselevaya-auditoriya",

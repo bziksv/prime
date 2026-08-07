@@ -8,51 +8,51 @@ export const montazhYoutubeEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/montazh-youtube/cover-en.webp",
   excerpt:
-    "How to edit videos for YouTube: the job of editing, a basic pipeline, tool classes (beginner / pro / mobile / online), and what matters more than software — rhythm, audio, and matching the thumbnail.",
+    "YouTube editing is less about flashy transitions and more about rhythm, clean audio, and delivering on the thumbnail. Here’s a simple pipeline and how to choose an editor by skill — not by a dated “best apps” list.",
   lead: [
-    "Editing for YouTube isn’t “add 20 transitions” — it’s building a video that holds attention: cut dead air, set the order, clean audio and color, add titles and a CTA.",
-    "Below — a working pipeline and how to choose an editor by level, not by a list of fifteen outdated names. Catalogs of “what creator X used in 2020” rot fast; tool classes and skills don’t.",
+    "Editing for YouTube isn’t “add 20 transitions.” It’s building a watchable video: cut dead air, set the order, clean audio and color, add titles and a clear CTA.",
+    "You need a working pipeline and an editor that matches your skill level — not a roundup of fifteen outdated names. “What creator X used in 2019” lists age fast; finish real uploads instead.",
   ],
   faq: [
     {
-      q: "Which program is “best”?",
-      a: "The one where you consistently finish channel tasks. Beginners often do fine with CapCut/DaVinci Free/iMovie; pros — Premiere, Final Cut, Resolve Studio.",
+      q: "Which video editor is best for YouTube?",
+      a: "The one where you consistently finish channel tasks. Beginners often do fine with CapCut, DaVinci Resolve Free, or iMovie; pros usually land on Premiere, Final Cut, or Resolve Studio.",
     },
     {
-      q: "Is expensive software required?",
-      a: "Not at the start. Cleaner audio, a clear hook in the first seconds, and no dead pauses matter more.",
+      q: "Do I need expensive software to start?",
+      a: "Not at the start. Cleaner audio, a clear hook in the first seconds, and no dead pauses matter more than a paid license.",
     },
     {
-      q: "Are online editors OK?",
-      a: "For simple cuts — yes. For long projects and confidential footage, local software is more convenient: speed and file control.",
+      q: "Are browser-based editors okay for YouTube work?",
+      a: "For simple cuts — yes. For long projects and confidential footage, local software is usually better: speed and file control.",
     },
     {
-      q: "Do you need heavy effects?",
-      a: "Rarely. Viewers leave from boredom and bad audio more often than from “missing a 3D title”.",
+      q: "Do I need heavy effects and transitions?",
+      a: "Rarely. Viewers leave from boredom and bad audio more often than from “missing a 3D title.”",
     },
     {
-      q: "What to export for YouTube?",
-      a: "Usually H.264/H.265, 1080p or higher from the source, a sensible bitrate. Check YouTube’s help for exact recommendations — they update.",
+      q: "What export settings should I use for YouTube?",
+      a: "Usually H.264/H.265, 1080p or higher from the source, and a sensible bitrate. Check YouTube’s help for current recommendations — they update.",
     },
   ],
   sections: [
     {
-      title: "The job of editing and a basic pipeline",
+      title: "What editing is for — and a basic pipeline",
       level: 2,
       paras: [
-        "The goal is a video that matches the thumbnail promise and watches well on a phone. Editing cuts fluff, strengthens meaning, levels volume, and helps orientation (timestamps, on-screen text accents).",
+        "The goal is a video that matches the thumbnail promise and watches well on a phone. Editing cuts fluff, strengthens the story, levels volume, and helps orientation (timestamps, on-screen text accents).",
         "Pipeline: pick takes → rough cut by script → clean pauses and filler words → audio (noise, licensed music) → color/exposure → graphics and captions → export → check on a phone before upload.",
-        "Copyright on music and others’ clips is mandatory. Stock libraries and YouTube Audio Library / your own tracks are safer than “downloaded from search”.",
-        "Channel link: prepare title, description, keywords, and thumbnail in parallel — the edit must deliver on the click promise, or high CTR turns into unsubscribes.",
+        "Copyright on music and other people’s clips is mandatory. Stock libraries and YouTube Audio Library / your own tracks are safer than “downloaded from search.”",
+        "Package the channel side in parallel — title, description, keywords, and thumbnail. The edit has to deliver on the click promise, or high CTR turns into unsubscribes.",
       ],
       lists: [
         {
           intro: "Minimum video quality:",
           items: [
-            "a hook in the first 3–10 seconds;",
-            "no long silences and “um”s;",
-            "voice audible without hiss;",
-            "on-screen text readable on a smartphone;",
+            "a hook in the first 3–10 seconds",
+            "no long silences and filler “ums”",
+            "voice audible without hiss",
+            "on-screen text readable on a smartphone",
             "an ending with a clear next step.",
           ],
         },
@@ -72,10 +72,10 @@ export const montazhYoutubeEn: BlogPost = {
       title: "How to choose an editor",
       level: 2,
       paras: [
-        "Beginner / short videos and Shorts: mobile and simple desktop editors (CapCut, iMovie peers, YouTube’s built-in trimmer). Fast start beats a “cinematic” UI.",
-        "Mid level: DaVinci Resolve (has a free tier), Premiere, Vegas/Magix line, peers — multi-track, decent audio and color. Pick where there’s learning material in your language and your hardware can handle it.",
+        "Beginner / short videos and Shorts: mobile and simple desktop editors (CapCut, iMovie and similar, YouTube’s built-in trimmer). A fast start beats a “cinematic” UI.",
+        "Intermediate: DaVinci Resolve (has a free tier), Premiere, Vegas/Magix and similar — multi-track, decent audio and color. Pick where there’s learning material in your language and your hardware can handle it.",
         "Pro / team: Final Cut on Apple, Premiere/Avid in studios, Resolve Studio for color. Plugins and collaboration make sense when video volume is steady.",
-        "Online services are handy to “trim and glue in the browser”, but depend on upload and plans. Don’t put confidential shoots there without understanding the service policy.",
+        "Online services are handy to trim and stitch in the browser, but they depend on upload speed and plans. Don’t put confidential shoots there without reading the service policy.",
         "Don’t copy software “like a famous creator” blindly: they have different jobs and budgets. Pick one tool, finish 10 videos — then decide if you need an upgrade.",
         "Bottom line: YouTube editing is rhythm, audio, and clarity. Software is a means; consistency and matching the thumbnail matter more than a long program list.",
       ],
@@ -83,11 +83,11 @@ export const montazhYoutubeEn: BlogPost = {
         {
           intro: "Before choosing a program, ask:",
           items: [
-            "PC or Mac / phone?;",
-            "long videos or Shorts?;",
-            "need color and multi-track audio?;",
-            "is there budget for a subscription?;",
-            "ready to learn 2–3 evenings to start?",
+            "PC, Mac, or phone?",
+            "long videos or Shorts?",
+            "do you need color grading and multi-track audio?",
+            "is there budget for a subscription?",
+            "are you ready to learn for 2–3 evenings to start?",
           ],
         },
       ],

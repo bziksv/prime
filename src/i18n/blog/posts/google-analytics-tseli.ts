@@ -5,13 +5,13 @@ export const googleAnalyticsTseliEn: BlogPost = {
   slug: "google-analytics-tseli",
   title: "Goals and conversions in Google Analytics (GA4)",
   date: "2020-07-09",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/google-analytics-tseli/cover-en.webp",
   excerpt:
     "How to set up conversions in Google Analytics 4: key events, thank-you URLs, engagement and clicks — mapping old Universal “goals” and checking reports.",
   lead: [
     "In Universal Analytics “goals” were a separate builder (page, duration, pages/session, event). In GA4 the model is different: almost everything is events, and important ones are marked as key events / conversions. Same idea: measure leads, purchases, thank-you pages, and micro-conversions.",
-    "Below — why conversions matter, how to map old goal types into GA4, how to tag events and verify reports. Store funnel behavior is in the ecommerce Analytics article; Yandex Metrica goals are a separate canon. The GA4 UI moves — lean on meaning, not 2019 screenshots.",
+    "Why conversions matter, how to map old goal types into GA4, how to tag events and verify reports. Store funnel behavior is in the ecommerce Analytics article; Yandex Metrica goals are a separate canon.",
   ],
   faq: [
     {
@@ -27,11 +27,11 @@ export const googleAnalyticsTseliEn: BlogPost = {
       a: "In GA4 look at engaged sessions and custom time-based events. Don’t copy a UA goal one-to-one — set a threshold for your job.",
     },
     {
-      q: "How many conversions can you make?",
+      q: "How many conversions can I set up?",
       a: "GA4 limits differ from UA’s “20 goals”. Don’t spawn dozens of near-duplicates — keep an event dictionary.",
     },
     {
-      q: "Do you need gtag or GTM?",
+      q: "Do I need gtag or GTM?",
       a: "Either works. GTM is easier for buttons and forms without editing the template every time. Main rule — one event = one name.",
     },
     {
@@ -39,12 +39,12 @@ export const googleAnalyticsTseliEn: BlogPost = {
       a: "Ecommerce is purchases and products. Conversions are any key events, including leads and micro-steps. A store usually needs both tracks.",
     },
     {
-      q: "GA4 instead of Metrica?",
+      q: "Should I use GA4 instead of Metrika?",
       a: "Often both: Metrica is closer to RU and Session Replay, GA to Ads and the Google product stack. Set goals in each counter for your reports.",
     },
     {
-      q: "Do conversions equal TOP in search?",
-      a: "No. They measure on-site outcomes. SEO rankings grow separately; planned TOP for the core is usually 2–6 months after work starts.",
+      q: "Do conversions equal search rankings?",
+      a: "No. They measure on-site outcomes. SEO rankings grow separately; planned ranking for the keyword set is usually 2–6 months after work starts.",
     },
   ],
   sections: [
@@ -59,10 +59,10 @@ export const googleAnalyticsTseliEn: BlogPost = {
         {
           intro: "What we usually mark:",
           items: [
-            "thank-you / successful order;",
-            "form submit;",
-            "“Buy” / “Call” click;",
-            "signup;",
+            "thank-you / successful order",
+            "form submit",
+            "“Buy” / “Call” click",
+            "signup",
             "important funnel micro-steps.",
           ],
         },
@@ -116,9 +116,9 @@ export const googleAnalyticsTseliEn: BlogPost = {
         {
           intro: "Thank-you practice:",
           items: [
-            "unique URL after the action;",
-            "noindex when needed;",
-            "purchase/lead event backs the URL;",
+            "unique URL after the action",
+            "noindex when needed",
+            "purchase/lead event backs the URL",
             "conversion value — by average order/lead if you track ROI.",
           ],
         },
@@ -135,9 +135,9 @@ export const googleAnalyticsTseliEn: BlogPost = {
         {
           intro: "When to watch engagement:",
           items: [
-            "media and blog;",
-            "landing UX assessment;",
-            "comparing content variants;",
+            "media and blog",
+            "landing UX assessment",
+            "comparing content variants",
             "not as the store’s only KPI.",
           ],
         },
@@ -154,10 +154,10 @@ export const googleAnalyticsTseliEn: BlogPost = {
         {
           intro: "Tagging minimum:",
           items: [
-            "one event name sitewide;",
-            "fire on success, not every focus;",
-            "test in DebugView;",
-            "mark key event / conversion;",
+            "one event name sitewide",
+            "fire on success, not every focus",
+            "test in DebugView",
+            "mark key event / conversion",
             "table: event → where in code → owner.",
           ],
         },
@@ -191,11 +191,11 @@ export const googleAnalyticsTseliEn: BlogPost = {
         {
           intro: "Launch checklist:",
           items: [
-            "GA4 tag on all templates;",
-            "event dictionary agreed;",
-            "key events enabled;",
-            "DebugView OK;",
-            "24–48h report without surprises;",
+            "GA4 tag on all templates",
+            "event dictionary agreed",
+            "key events enabled",
+            "DebugView OK",
+            "24–48h report without surprises",
             "docs for the team.",
           ],
         },
@@ -214,7 +214,7 @@ export const googleAnalyticsTseliEn: BlogPost = {
         {
           title: "Timelines",
           kind: "tip",
-          text: "Conversion setup — days. Organic growth for the core — months after prep; don’t confuse analytics with TOP.",
+          text: "Conversion setup — days. Organic growth for the keyword set — months after prep; don’t confuse analytics with rankings.",
         },
       ],
     },

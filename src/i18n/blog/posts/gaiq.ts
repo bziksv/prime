@@ -5,13 +5,13 @@ export const gaiqEn: BlogPost = {
   slug: "gaiq",
   title: "GAIQ and Google Analytics certification: what it was and what replaced it",
   date: "2021-04-08",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/gaiq/cover-en.webp",
   excerpt:
     "What GAIQ (Google Analytics Individual Qualification) was, why old “70 questions” guides are outdated, and where to look for current Google analytics courses and certificates.",
   lead: [
     "GAIQ (Google Analytics Individual Qualification) was Google’s online individual qualification exam for Analytics. Articles from 2010–2021 often described it as “70 questions / 80% / 90 minutes.”",
-    "Google’s certification programs changed repeatedly: Universal Analytics is gone, GA4 is the center, and learning/exams live in Skillshop and related courses. Below — GAIQ as a historical landmark and how to prepare for a knowledge check now, without memorizing outdated screenshots.",
+    "Google’s certification programs changed repeatedly: Universal Analytics is gone, GA4 is the center, and learning/exams live in Skillshop and related courses. GAIQ as a historical landmark and how to pick today’s equivalent.",
   ],
   faq: [
     {
@@ -19,11 +19,11 @@ export const gaiqEn: BlogPost = {
       a: "Classic GAIQ as in 2021 guides is not current. Look for today’s courses and assessments in Google Skillshop / official GA4 materials.",
     },
     {
-      q: "Why read about GAIQ then?",
+      q: "Why should I read about GAIQ then?",
       a: "To parse job posts and old résumés (“has GAIQ”), not confuse it with an “agency certificate,” and not drill dead UA rules.",
     },
     {
-      q: "What replaced it?",
+      q: "What replaced GAIQ?",
       a: "Google’s Analytics/Ads course and certificate lineup in Skillshop and related academies. Names and formats update — check the official catalog.",
     },
     {
@@ -43,7 +43,7 @@ export const gaiqEn: BlogPost = {
       a: "Bad idea: questions change, UA≠GA4, and “leaks” often lie. Prefer official courses + practice in a demo account.",
     },
     {
-      q: "Where to start practice next to the course?",
+      q: "Where should I start practice next to the course?",
       a: "Install GA4, mark key events/conversions, learn to read sources and the funnel — see related Analytics materials.",
     },
   ],
@@ -66,11 +66,11 @@ export const gaiqEn: BlogPost = {
       links: [
         {
           label: "Google Analytics for a store",
-          href: "/blog/google-analytics/",
+          href: "/en/blog/google-analytics/",
         },
         {
           label: "GA4 setup",
-          href: "/blog/google-analytics-nastroyka/",
+          href: "/en/blog/google-analytics-nastroyka/",
         },
       ],
     },
@@ -78,7 +78,7 @@ export const gaiqEn: BlogPost = {
       title: "How people prepped then — and what to take now",
       level: 2,
       paras: [
-        "Google used to ship reference materials next to the start button and Analytics Academy courses: basics, advanced, Tag Manager, mobile apps.",
+        "Google used to publish reference materials next to the start button and Analytics Academy courses: basics, advanced, Tag Manager, mobile apps.",
         "Today’s sensible path: the official GA4 course in Skillshop (or the current catalog equivalent), then practice on your own or a training property.",
         "Also lock in: events and parameters, consent/cookies, Google Ads linkage, debugging via Tag Assistant / debug mode — without clinging to 2021 menu names.",
       ],
@@ -86,10 +86,10 @@ export const gaiqEn: BlogPost = {
         {
           intro: "Mini prep plan:",
           items: [
-            "take the official course for the current Analytics version;",
-            "build a test GA4 property;",
-            "mark 3–5 key events;",
-            "read source and funnel reports;",
+            "take the official course for the current Analytics version",
+            "build a test GA4 property",
+            "mark 3–5 key events",
+            "read source and funnel reports",
             "only then sit the Skillshop assessment/exam.",
           ],
         },
@@ -97,11 +97,11 @@ export const gaiqEn: BlogPost = {
       links: [
         {
           label: "Goals in Google Analytics",
-          href: "/blog/google-analytics-tseli/",
+          href: "/en/blog/google-analytics-tseli/",
         },
         {
           label: "Google Tag Manager",
-          href: "/blog/google-tag-manager/",
+          href: "/en/blog/google-tag-manager/",
         },
       ],
     },
@@ -117,10 +117,10 @@ export const gaiqEn: BlogPost = {
         {
           intro: "Self-check themes:",
           items: [
-            "how a property differs from a data stream;",
-            "what an event and a parameter are;",
-            "how not to mix sources without UTM;",
-            "why filters/exclusions for internal traffic;",
+            "how a property differs from a data stream",
+            "what an event and a parameter are",
+            "how not to mix sources without UTM",
+            "why filters/exclusions for internal traffic",
             "how a segment changes a conversion conclusion.",
           ],
         },
@@ -137,7 +137,7 @@ export const gaiqEn: BlogPost = {
       lists: [],
     },
     {
-      title: "What to remember",
+      title: "Key takeaways",
       level: 2,
       paras: [
         "GAIQ was a historical Analytics exam; don’t copy old-post rules and UA context as instructions.",

@@ -10,28 +10,28 @@ export const seoSNulyaEn: BlogPost = {
   excerpt:
     "How to enter SEO without a “magic pill”: core concepts, a beginner path, practice on real tasks, what to read, and what to expect on ranking timelines.",
   lead: [
-    "People rarely enter SEO from a blank course slate: more often from adjacent roles or a wish to understand why a site brings no leads. There’s no universal recipe — projects differ, templates break on the niche.",
-    "Below — a workable path from scratch: what to learn first, how to build practice, and how not to confuse site prep with reaching TOP. Specialist stories converge on one thing: curiosity + practice + reviewing mistakes.",
+    "People rarely enter SEO from a blank slate: more often from adjacent roles or a wish to understand why a site brings no leads. There’s no universal recipe—projects differ, and templates break on the niche.",
+    "Here’s a workable path from scratch: what to learn first, how to build practice, and how not to confuse site prep with ranking in the TOP. Experienced specialists tend to agree on one thing: curiosity, practice, and reviewing mistakes.",
   ],
   faq: [
     {
-      q: "Where should SEO study start?",
-      a: "Definitions and scope of responsibility, then semantics, structure, tech, content, analytics. In parallel — your own or a training site for experiments.",
+      q: "Where should I start learning SEO?",
+      a: "Start with definitions and scope, then keywords, structure, tech, content, and analytics. In parallel, use your own site or a practice site for experiments.",
     },
     {
       q: "Are courses enough without practice?",
-      a: "No. Courses give a map; skill appears on live tasks and reviewing what worked / didn’t.",
+      a: "No. Courses give a map; skill comes from live tasks and reviewing what worked and what didn’t.",
     },
     {
-      q: "When to expect TOP-10?",
-      a: "Site prep is often weeks to a month. Ranking growth is planned over months (a 2–6 month cue after work starts), not “launched in a month — instant TOP.”",
+      q: "When should I expect TOP-10?",
+      a: "Site prep is often weeks to a month. Ranking growth is planned over months (a 2–6 month cue after work starts), not “launched in a month — instant rankings.”",
     },
     {
-      q: "Do you need a mentor?",
+      q: "Do I need a mentor?",
       a: "It speeds things up a lot: closes gaps in the big picture. Without one you can, but longer via blogs, search docs, and an internship.",
     },
     {
-      q: "Should you learn black-hat methods?",
+      q: "Should I learn black-hat methods?",
       a: "Understanding the risks — yes. Using them for a client — no: filters and losing the project cost more than a short spike.",
     },
   ],
@@ -59,7 +59,7 @@ export const seoSNulyaEn: BlogPost = {
       links: [
         {
           label: "Technical SEO audit",
-          href: "/blog/tehnicheskiy-seo-audit/",
+          href: "/en/blog/tehnicheskiy-seo-audit/",
         },
       ],
     },
@@ -77,7 +77,7 @@ export const seoSNulyaEn: BlogPost = {
             "learn the profession’s language (don’t memorize panel buttons);",
             "build a core and structure on a training project;",
             "run a tech checklist;",
-            "ship edits and measure in 2–4 weeks;",
+            "publish edits and measure in 2–4 weeks;",
             "keep a hypothesis journal.",
           ],
         },
@@ -89,7 +89,7 @@ export const seoSNulyaEn: BlogPost = {
         },
         {
           label: "SEO site structure",
-          href: "/blog/seo-struktura-sayta/",
+          href: "/en/blog/seo-struktura-sayta/",
         },
       ],
     },
@@ -123,7 +123,7 @@ export const seoSNulyaEn: BlogPost = {
       level: 2,
       paras: [
         "Preparing a site for promotion (tech, structure, copy, CTAs) can take weeks. Getting a noticeable share of the core into TOP-10 is months of work and iterations — not a contract date “TOP in 30 days.”",
-        "The market is stricter than in the 2000s: user quality beats grey schemes. Learning takes longer, but the skill transfers across projects.",
+        "The market is stricter than in the 2000s: user quality beats gray schemes. Learning takes longer, but the skill transfers across projects.",
       ],
       lists: [
         {
@@ -138,7 +138,7 @@ export const seoSNulyaEn: BlogPost = {
       ],
     },
     {
-      title: "Short takeaway",
+      title: "Bottom line",
       level: 2,
       paras: [
         "SEO from scratch is a map of core blocks plus hours of practice and feedback. Learn terms, run a training project, find a mentor or team, don’t confuse prep with TOP. Interest in “how the web works” isn’t fluff here — it’s fuel.",

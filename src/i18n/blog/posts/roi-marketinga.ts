@@ -3,15 +3,16 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for roi-marketinga — same structure as RU JSON. */
 export const roiMarketingaEn: BlogPost = {
   slug: "roi-marketinga",
-  title: "Marketing ROI and ROMI: formulas and how to judge strategy efficiency",
+  title:
+    "Marketing ROI and ROMI: formulas and how to judge strategy efficiency",
   date: "2020-12-07",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/roi-marketinga/cover-en.webp",
   excerpt:
     "How ROI/ROMI differ from KPIs and conversion, which formulas to use for ads, and how numbers decide where to grow budget — and where to cut.",
   lead: [
-    "Conversion shows how well the funnel “catches”. KPIs show whether you hit operational goals. ROI/ROMI answer a different question: did marketing spend return with profit.",
-    "Below — why measure return on investment, the CR → CPA → ROMI chain, working formulas, and common mistakes (including the myth that “ROI 100% is the only profitable threshold”).",
+    "Conversion shows how well the funnel “catches”. KPIs show whether you hit operational goals. ROI/ROMI (return on marketing investment) answer a different question: did marketing spend return with profit.",
+    "We cover why measure return on investment, the CR → CPA → ROMI chain, working formulas, and common mistakes—including the myth that “ROI 100%” is the only profitable threshold.",
   ],
   faq: [
     {
@@ -27,15 +28,15 @@ export const roiMarketingaEn: BlogPost = {
       a: "KPIs are process targets (leads, CTR, response time). ROI is money payback. You can hit KPIs and still lose on margin.",
     },
     {
-      q: "Is conversion CR enough?",
+      q: "Is conversion rate (CR) enough?",
       a: "No. CR = goals / clicks (or visits) × 100%. Without traffic cost and margin you can’t see if the channel pays.",
     },
     {
-      q: "How do you calculate CPA?",
+      q: "How do I calculate CPA?",
       a: "CPA = channel spend / number of goal actions. Then compare to an allowed CPA from margin and LTV.",
     },
     {
-      q: "By channel or for all marketing?",
+      q: "Should I measure by channel or for all marketing?",
       a: "Both cuts help: channel — to optimize budget; all marketing — for strategy. Otherwise strong SEO can mask a losing paid channel.",
     },
     {

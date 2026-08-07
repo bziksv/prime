@@ -3,36 +3,36 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for instrumenty-veb-analitiki — same structure as RU JSON. */
 export const instrumentyVebAnalitikiEn: BlogPost = {
   slug: "instrumenty-veb-analitiki",
-  title: "Web analytics tools: counters, logs, and cabinets",
+  title: "Web analytics tools: tags, logs, and dashboards",
   date: "2018-11-16",
   category: "SEO",
   cover: "/images/blog/instrumenty-veb-analitiki/cover-en.webp",
   excerpt:
-    "What analytics systems give you, how JS counters differ from log analyzers, why Metrica and Google Analytics, and how not to drown in reports without goals.",
+    "What analytics systems give you, how JS tags differ from log analyzers, why Metrica and Google Analytics, and how not to drown in reports without goals.",
   lead: [
-    "Web analytics is collecting and reading data on visitors and site behavior so you can decide where budget goes, what to fix on pages, and which channels pay off.",
-    "Below — what systems report, how counters differ from log analyzers, and how to start with Yandex Metrica and Google Analytics. The analyst role and dashboards are nearby posts; here the focus is tools and data.",
+    "Web analytics means collecting and reading data on visitors and site behavior so you can decide where budget goes, what to fix on pages, and which channels pay off.",
+    "Tags and log analyzers answer different questions; most teams start with Yandex Metrica and Google Analytics, then grow into BI when the volume warrants it. The analyst role and dashboards are covered nearby; here we focus on tools and data.",
   ],
   faq: [
     {
-      q: "Counter or log analyzer?",
-      a: "A JS counter sees in-browser behavior and suits marketing. Server logs are stronger on tech and bots. In practice you often need both.",
+      q: "Should you use a tag or a log analyzer?",
+      a: "A JS tag sees in-browser behavior and suits marketing. Server logs are stronger on tech and bots. In practice you often need both.",
     },
     {
       q: "Is Metrica alone enough?",
       a: "For many RU projects — yes as a base. GA4 helps in parallel if you watch Google traffic and that report ecosystem.",
     },
     {
-      q: "What to set up first?",
+      q: "What should you set up first?",
       a: "Code on all needed URLs, goals/events, filter your own IPs, UTMs on ads. Without goals, pretty charts don’t decide anything.",
     },
     {
       q: "Does analytics replace an SEO audit?",
-      a: "No. It shows symptoms (bounces, sources, load speed as users feel it). Tech and index — crawler and webmaster cabinets.",
+      a: "No. It shows symptoms (bounces, sources, load speed as users feel it). Tech and indexing still need a crawler and Webmaster / Search Console.",
     },
     {
       q: "Does everyone need session replay?",
-      a: "Point-wise on problem URLs — yes. Watching every session — no. Numbers first, then a sample of recordings.",
+      a: "On problem URLs, yes — selectively. Watching every session — no. Numbers first, then a sample of recordings.",
     },
     {
       q: "Why do Metrica and GA numbers diverge?",
@@ -43,8 +43,8 @@ export const instrumentyVebAnalitikiEn: BlogPost = {
       a: "When sources multiply and reports are assembled by hand every week. Start with 5–7 KPIs, then complicate.",
     },
     {
-      q: "Will analytics put you in TOP?",
-      a: "Not directly. It speeds decisions. Core ranks are site work; planned months after SEO start — prep first, TOP buildup 2–6 months.",
+      q: "Will analytics put you in the TOP?",
+      a: "Not directly. It speeds decisions. Rankings come from site work: prep first, then a planned 2–6 month climb after SEO starts — not overnight from charts alone.",
     },
   ],
   sections: [
@@ -53,7 +53,7 @@ export const instrumentyVebAnalitikiEn: BlogPost = {
       level: 2,
       paras: [
         "It’s a loop: data → meaning → action. You watch audience, sources, paths, conversions, and tech signals (speed, errors) to change ads, content, and UX.",
-        "Without regular review, analytics becomes “we installed a counter and forgot”. Agree business goals before wiring reports.",
+        "Without regular review, analytics becomes “we installed a tag and forgot.” Agree business goals before wiring reports.",
       ],
       lists: [
         {
@@ -93,17 +93,17 @@ export const instrumentyVebAnalitikiEn: BlogPost = {
       ],
     },
     {
-      title: "Counters and log analyzers",
+      title: "Tags and log analyzers",
       level: 2,
       paras: [
-        "A counter is a script in pages: handy reports, segments, goals, session replay. Downside: depends on JS, blockers, and cookie consent.",
+        "A tag is a script in pages: handy reports, segments, goals, session replay. Downside: depends on JS, blockers, and cookie consent.",
         "A log analyzer reads server journals: full request flow, bots, response statuses, load. Downside: weaker on human in-browser behavior. For SEO tech, logs are often essential.",
       ],
       lists: [
         {
-          intro: "When which:",
+          intro: "When to use which:",
           items: [
-            "counter — marketing and CRO;",
+            "tag — marketing and CRO;",
             "logs — bots, crawling, 5xx;",
             "both — disputed traffic spikes;",
             "don’t confuse bots with “organic growth”.",
@@ -128,7 +128,7 @@ export const instrumentyVebAnalitikiEn: BlogPost = {
         {
           intro: "Day-one start:",
           items: [
-            "counter on site templates;",
+            "tag on site templates;",
             "2–5 goals (lead, call, purchase);",
             "real-time check;",
             "team access with the right roles.",
@@ -155,7 +155,7 @@ export const instrumentyVebAnalitikiEn: BlogPost = {
       level: 2,
       paras: [
         "Pick one main goal for the period and 5–7 metrics. Everything else — on demand. Put KPIs on a simple dashboard so debates are about numbers, not screenshots.",
-        "Tools speed decisions but don’t replace site and ad work. Organic TOP by core is a separate horizon of months after SEO start.",
+        "Tools speed decisions but don’t replace site and ad work. Organic TOP for a keyword set is a separate horizon: months after SEO starts, following prep — not a chart shortcut.",
       ],
       lists: [
         {

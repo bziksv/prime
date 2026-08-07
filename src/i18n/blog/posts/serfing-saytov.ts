@@ -5,17 +5,17 @@ export const serfingSaytovEn: BlogPost = {
   slug: "serfing-saytov",
   title: "Website surfing: what it is and why it’s weak pay",
   date: "2021-09-24",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/serfing-saytov/cover-en.webp",
   excerpt:
     "What paid website surfing is, how much it really pays, why auto-surfing is bad for SEO, and how fake visits hurt analytics and promotion.",
   lead: [
     "Paid surfing is side work like “sit on a site for N seconds / solve a captcha / click” for fractions of a cent. For a beginner it looks easy; for a site owner it’s a way to buy empty visits.",
-    "Below — how surfing works, what tasks look like, what people earn in practice, and why auto-surfing and traffic boosting hurt SEO and reports. This is a breakdown, not an exchange catalog or a boosting guide.",
+    "We cover how surfing works, what tasks look like, what people actually earn, and why auto-surfing and traffic boosting hurt SEO and reports. This is a breakdown—not an exchange directory or a boosting how-to.",
   ],
   faq: [
     {
-      q: "How much can you earn from surfing?",
+      q: "How much can I earn from surfing?",
       a: "Usually pennies per visit: with manual work an hour yields a modest sum (old guides’ cue — tens to about a hundred rubles a day with active clicking). It’s not stable income.",
     },
     {
@@ -27,11 +27,11 @@ export const serfingSaytovEn: BlogPost = {
       a: "Bots or programs open links without a human. For the worker — ban risk on the exchange; for the buyer — even more useless and toxic traffic.",
     },
     {
-      q: "Does surfing help reach TOP?",
+      q: "Does site surfing help me reach the TOP?",
       a: "Not as a strategy. Site prep and ranking growth are different processes (weeks–months of work); bought views don’t replace them. See SEO timeline rules.",
     },
     {
-      q: "Is it worth starting with surfing?",
+      q: "Is it worth starting with site surfing?",
       a: "As an intro to microtask exchanges — weak: the client’s time is nearly free, yours isn’t. Better skills with a higher rate (content, instructed labeling, normal remote work).",
     },
   ],
@@ -83,7 +83,7 @@ export const serfingSaytovEn: BlogPost = {
       notes: [
         {
           title: "Practice",
-          text: "Old examples like “700 ₽ a month in evenings” show the ceiling: pocket change, not a substitute for side work with a normal rate.",
+          text: "Old examples like “$10 a month in evenings” show the ceiling: pocket change, not a substitute for side work with a normal rate.",
         },
       ],
     },
@@ -115,7 +115,7 @@ export const serfingSaytovEn: BlogPost = {
       title: "Why it’s harmful for a site owner",
       level: 2,
       paras: [
-        "Bought visits with no product interest mean high bounce, short time, odd geo and devices. Ad cabinets and antifraud spot that.",
+        "Bought visits with no product interest mean high bounce, short time, odd geo and devices. Ad accounts and antifraud spot that.",
         "In SEO, artificial behavioral signals are a risky, outdated bet. Grow demand with content, tech, and ads by the rules — not timers on exchanges.",
       ],
       lists: [
@@ -132,7 +132,7 @@ export const serfingSaytovEn: BlogPost = {
       links: [
         {
           label: "Suspicious Google traffic",
-          href: "/blog/podozritelnyy-trafik-google/",
+          href: "/en/blog/podozritelnyy-trafik-google/",
         },
       ],
     },
@@ -140,7 +140,7 @@ export const serfingSaytovEn: BlogPost = {
       title: "Exchanges and payouts",
       level: 2,
       paras: [
-        "Surfing tasks historically sat on micro-exchanges next to copywriting and social tasks. Platform names and payout terms change; some resources drift into a grey zone.",
+        "Surfing tasks historically sat on micro-exchanges next to copywriting and social tasks. Platform names and payout terms change; some resources drift into a gray zone.",
         "We don’t rank “best exchanges for buying visits”: it’s bad practice for sites and weak pay for people. If you study microtasks — look at legal crowdsourcing platforms with clear instructions and a quality rating.",
       ],
       lists: [
@@ -162,7 +162,7 @@ export const serfingSaytovEn: BlogPost = {
       ],
     },
     {
-      title: "Short takeaway",
+      title: "Bottom line",
       level: 2,
       paras: [
         "Website surfing is an easy entry and almost zero value per hour. For the worker it’s more an intro to click-tasks than earnings; for the site — toxic traffic. Auto-surfing makes the harm worse. Real growth is product, content, ads, and SEO without bought visits.",

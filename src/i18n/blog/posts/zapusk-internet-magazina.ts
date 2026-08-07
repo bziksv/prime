@@ -5,13 +5,13 @@ export const zapuskInternetMagazinaEn: BlogPost = {
   slug: "zapusk-internet-magazina",
   title: "Building an online store end to end: launch stages",
   date: "2020-11-20",
-  category: "Internet marketing",
+  category: "E-commerce",
   cover: "/images/blog/zapusk-internet-magazina/cover-en.webp",
   excerpt:
     "Online store launch stages: business plan, warehouse or dropshipping, platform, storefront, legal form and receipts, payments, team, and ads — without “store in one evening” promises or 2020 price lists.",
   lead: [
     "On paper the scheme looks simple: site, products, sales. In practice the plan, supply, payments, service, and unit economics break first. There’s no universal playbook for every niche — there is a shared stage frame.",
-    "Below — from idea to acquiring customers. Storefront checklists and “what to study first” live in neighboring pieces; here — the operational launch path. We don’t copy old state-fee, SaaS-tariff, or “cost-per-click budget” figures from old guides: check current rules and your own math.",
+    "Storefront checklists and “what to study first” live in neighboring pieces; this one covers the operational path from idea to acquiring customers. We don’t copy old state-fee, SaaS-tariff, or “cost-per-click budget” figures from old guides: check current rules and your own math.",
   ],
   faq: [
     {
@@ -19,11 +19,11 @@ export const zapuskInternetMagazinaEn: BlogPost = {
       a: "That piece is storefront quality (design, responsive layout, photos, SSL). This one is business stages: plan, logistics, platform, legal form, payments, people, marketing.",
     },
     {
-      q: "And vs “starting an online store”?",
+      q: "How does it differ from “starting an online store”?",
       a: "Start covers what to learn before launch. This material is the work sequence from plan to ads.",
     },
     {
-      q: "Can you run without a warehouse?",
+      q: "Can I run without a warehouse?",
       a: "Yes: dropshipping or fulfillment. Downsides — margin, quality control, and lead times. Calculate unit economics, not only “convenient.”",
     },
     {
@@ -40,10 +40,10 @@ export const zapuskInternetMagazinaEn: BlogPost = {
     },
     {
       q: "When does SEO start?",
-      a: "After catalog structure, product cards, and tech. Prep is weeks/~a month; ranking the core for TOP is planned over 2–6 months of work.",
+      a: "After catalog structure, product cards, and tech. Prep is weeks to ~a month; ranking the core for TOP is planned over 2–6 months of work after launch prep.",
     },
     {
-      q: "Do you need a team on day one?",
+      q: "Do I need a team on day one?",
       a: "On a micro start the founder plus contractors often suffice. Grow roles (content, support, warehouse, IT) with load.",
     },
   ],
@@ -70,7 +70,7 @@ export const zapuskInternetMagazinaEn: BlogPost = {
       links: [
         {
           label: "Start: what to study",
-          href: "/blog/start-internet-magazina/",
+          href: "/en/blog/start-internet-magazina/",
         },
       ],
     },
@@ -95,11 +95,11 @@ export const zapuskInternetMagazinaEn: BlogPost = {
       links: [
         {
           label: "CMS for an online store",
-          href: "/blog/cms-internet-magazina/",
+          href: "/en/blog/cms-internet-magazina/",
         },
         {
           label: "Tilda",
-          href: "/blog/tilda/",
+          href: "/en/blog/tilda/",
         },
       ],
     },
@@ -114,11 +114,11 @@ export const zapuskInternetMagazinaEn: BlogPost = {
       links: [
         {
           label: "Online store creation checklist",
-          href: "/blog/sozdanie-internet-magazina/",
+          href: "/en/blog/sozdanie-internet-magazina/",
         },
         {
           label: "Product card",
-          href: "/blog/kartochka-tovara/",
+          href: "/en/blog/kartochka-tovara/",
         },
         {
           label: "Online payments",
@@ -146,7 +146,7 @@ export const zapuskInternetMagazinaEn: BlogPost = {
       level: 2,
       paras: [
         "Roles: storefront admin, content, support, warehouse/courier, accounting, IT. At the start people combine jobs; outsourcing is normal.",
-        "Demand: SMM, SEO (months-long horizon), paid search, content, partners. Don’t bet everything on one channel. Count ROMI, not “reach for reach’s sake.”",
+        "Demand: SMM, SEO (months-long horizon), paid search, content, partners. Don’t bet everything on one channel. Count ROMI (return on marketing investment), not “reach for reach’s sake.”",
         "After go-live — analytics, reviews, conversion improvements. A “store in a few hours” with no economics is a myth.",
       ],
       lists: [],
@@ -167,7 +167,7 @@ export const zapuskInternetMagazinaEn: BlogPost = {
       paras: [
         "Plan and supply first, then platform and storefront, then legal form/payments and demand.",
         "A platform doesn’t replace service and margin.",
-        "SEO comes after structure; TOP for the core is planned over 2–6 months.",
+        "SEO comes after structure; TOP for the core is planned over 2–6 months after launch prep.",
       ],
       lists: [],
     },

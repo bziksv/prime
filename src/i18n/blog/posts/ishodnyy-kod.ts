@@ -11,7 +11,7 @@ export const ishodnyyKodEn: BlogPost = {
     "What page source code is, how View Source differs from DevTools, and how to check meta, styles, and scripts — without a full layout course from scratch.",
   lead: [
     "Page source code is the HTML (and related CSS/JS) the browser gets from the server and turns into what you see. For SEO and debugging it helps to open it and find title, meta, markup, and console errors.",
-    "Below — why marketers and site owners need this, how to open code in the browser, and what to check first. A full layout course is a separate article; here — a practical inspection.",
+    "Marketers and site owners use it to verify titles, meta, headings, and whether text exists in the DOM — View Source first, then DevTools. A full layout course is a separate article; this is a practical inspection.",
   ],
   faq: [
     {
@@ -40,7 +40,7 @@ export const ishodnyyKodEn: BlogPost = {
       title: "What page source code is",
       level: 2,
       paras: [
-        "On a URL request the server returns a document: HTML markup, CSS links, and scripts. The browser parses tags and draws the UI. Users see the result; the code is the “score.”",
+        "On a URL request the server returns a document: HTML markup, CSS links, and scripts. The browser parses tags and draws the UI. Users see the result; the code is the score.",
         "Even PHP, Python, or builder sites send HTML to the browser. So you inspect a page the same way — via source and DevTools.",
       ],
       lists: [

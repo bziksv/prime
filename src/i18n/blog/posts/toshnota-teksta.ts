@@ -11,7 +11,7 @@ export const toshnotaTekstaEn: BlogPost = {
     "What classic and academic text nausea are, how keyword density is counted, which tools check it, and why a “normal %” is a brief guide — not a ranking law.",
   lead: [
     "Text nausea is a metric from SEO editors and copywriting exchanges: how often the same words repeat in a piece. It’s often confused with text.ru “spamminess”, though the formulas differ. Keyword density is the share of query (or word) occurrences relative to text volume.",
-    "Below — how classic nausea differs from academic, how to check density online, what ranges briefs use, and how not to turn editing into a race for a percentage. Cutting over-optimization as practice is in the spamminess canon; here the focus is density and nausea metrics.",
+    "This guide covers how classic “nausea” differs from academic density scores, how to check density online, what ranges briefs use, and how not to turn editing into a race for a percentage. Cutting over-optimization as practice is in the spamminess canon; here the focus is density and nausea metrics.",
   ],
   faq: [
     {
@@ -27,19 +27,19 @@ export const toshnotaTekstaEn: BlogPost = {
       a: "Usually √N, where N is the repeat count of the most frequent (meaningful) word. The more one word dominates, the higher the score.",
     },
     {
-      q: "Academic nausea?",
-      a: "The share of the most frequent words/phrases relative to text volume (in percent). It rises when many different but still pushy repeats pile up.",
+      q: "What is academic text nausea?",
+      a: "The share of the most frequent words/keywords relative to text volume (in percent). It rises when many different but still pushy repeats pile up.",
     },
     {
       q: "Does high nausea mean a filter?",
       a: "Not a direct ban formula. It’s an editor signal: the text may be overstuffed. The search engine’s decision is broader — meaning, behavior, page quality.",
     },
     {
-      q: "What to check with?",
+      q: "What tools should I check with?",
       a: "Advego (nausea), text.ru (spamminess), Turgenev, Istio and peers. Lock the tool and threshold in the brief.",
     },
     {
-      q: "Should you add keys if density is low?",
+      q: "Should I add keys if density is low?",
       a: "Only if the topic isn’t really covered. Don’t insert a key for the percentage — clarify structure and value first.",
     },
     {
@@ -79,7 +79,7 @@ export const toshnotaTekstaEn: BlogPost = {
       level: 2,
       paras: [
         "Classic nausea in the familiar Advego scheme ties to the most frequent word: take the square root of its repeat count. Many identical “buy” in a row — classic rises fast.",
-        "Academic nausea is closer to the share of frequent meaningful words in the text: it captures the overall repeat “background”, not only the frequency champion. High academic often means the piece spins a narrow vocabulary without developing the topic.",
+        "Academic nausea is closer to the share of frequent meaningful words in the text: it captures the overall repeat “background”, not only the frequency champion. High academic often means the article spins a narrow vocabulary without developing the topic.",
       ],
       lists: [
         {
@@ -99,7 +99,7 @@ export const toshnotaTekstaEn: BlogPost = {
           rows: [
             ["Classic", "√ of top-word repeats", "One key/champion word"],
             ["Academic", "Share of frequent words, %", "Overall vocabulary stuffing"],
-            ["text.ru spamminess", "That tool’s own scale", "Don’t confuse with Advego"],
+            ["text.ru spamminess", "That tool’s own scale", "Don’t mix up with Advego"],
           ],
         },
       ],
@@ -114,7 +114,7 @@ export const toshnotaTekstaEn: BlogPost = {
       title: "Tools for density and nausea",
       level: 2,
       paras: [
-        "Advego SEO analysis shows classic and academic nausea, water, and a frequency dictionary. text.ru is handy for uniqueness and its spamminess score. Turgenev looks at over-optimization risk, water, style — useful as a second opinion, not the sole judge.",
+        "Advego SEO analysis shows classic and academic nausea, water, and a frequency dictionary. text.ru is useful for uniqueness and its spamminess score. Turgenev looks at over-optimization risk, water, style — useful as a second opinion, not the sole judge.",
         "Online URL checks (if in your stack) help for a live page: you see density in the layout context. Desktop and exchange tools — for drafts before publish. Figures don’t match across tools: pick one baseline in the author contract.",
       ],
       lists: [
@@ -130,7 +130,7 @@ export const toshnotaTekstaEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Practice",
+          title: "Tip",
           kind: "tip",
           text: "Product names, SKUs, and brand in a card legitimately repeat — don’t “cure” them to zero with a template.",
         },

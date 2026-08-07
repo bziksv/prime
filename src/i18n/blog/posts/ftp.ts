@@ -5,13 +5,13 @@ export const ftpEn: BlogPost = {
   slug: "ftp",
   title: "FTP: what it is and how to work with site files",
   date: "2020-11-30",
-  category: "Media services",
+  category: "Hosting",
   cover: "/images/blog/ftp/cover-en.webp",
   excerpt:
     "FTP is a protocol for moving files to hosting: why you need a client, how to connect, why FileZilla helps, and why SFTP/FTPS beat plain FTP with a password.",
   lead: [
     "FTP (File Transfer Protocol) is a way to copy files between your computer and the site server: upload a theme, download a backup, fix permissions, reach places the CMS admin can’t.",
-    "Below — why a client, how to connect, typical jobs, and security. FileZilla and hosting-panel UIs change — use current Help. For passwords prefer SFTP or FTPS over open FTP.",
+    "Below: why you need a client, how to connect, typical jobs, and security. FileZilla and hosting-panel UIs change — use current Help. For passwords prefer SFTP or FTPS over open FTP.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const ftpEn: BlogPost = {
     },
     {
       q: "Why is SFTP better than FTP?",
-      a: "SFTP rides SSH with encryption. Plain FTP may send password and data in clear text — risky on untrusted networks.",
+      a: "SFTP runs over SSH with encryption. Plain FTP may send password and data in clear text — risky on untrusted networks.",
     },
     {
       q: "Where do I get host, login, and password?",
@@ -39,11 +39,11 @@ export const ftpEn: BlogPost = {
       a: "Access rights for files and folders on the server. Too open — a security hole; too tight — the site can’t write cache/uploads.",
     },
     {
-      q: "Store the password in the client?",
-      a: "Carefully: on a shared PC better not. Use a password manager and a separate FTP user with minimal rights.",
+      q: "Should I store the password in the client?",
+      a: "Carefully: on a shared PC, better not. Use a password manager and a separate FTP user with minimal rights.",
     },
     {
-      q: "A large upload failed mid-way?",
+      q: "What if a large upload fails mid-way?",
       a: "Many clients support resume. Verify integrity after; for backups an archive via the hosting panel is sometimes safer.",
     },
   ],
@@ -53,16 +53,16 @@ export const ftpEn: BlogPost = {
       level: 2,
       paras: [
         "The client syncs your PC with folders on the server: upload, download, rename, delete, change permissions.",
-        "Typical jobs: ship static files, fix a white-screen WP site, pull a copy of `wp-content`, remove malware after a breach (after a backup), rename a plugin install folder.",
+        "Typical jobs: upload static files, fix a white-screen WP site, pull a copy of `wp-content`, remove malware after a breach (after a backup), rename a plugin install folder.",
         "Not every edit should go over FTP: content and media in the CMS are safer via built-in tools when they work.",
       ],
       lists: [
         {
           intro: "What people usually do:",
           items: [
-            "upload/download files and folders;",
-            "change permissions (chmod);",
-            "rename and delete;",
+            "upload/download files and folders",
+            "change permissions (chmod)",
+            "rename and delete",
             "access when the admin is down.",
           ],
         },
@@ -86,10 +86,10 @@ export const ftpEn: BlogPost = {
       links: [
         {
           label: "Hosting",
-          href: "/blog/hosting/",
+          href: "/en/blog/hosting/",
         },
         {
-          label: "Panel web interface",
+          label: "Hosting control panel",
           href: "/en/blog/veb-interfeys/",
         },
       ],
@@ -99,17 +99,17 @@ export const ftpEn: BlogPost = {
       level: 2,
       paras: [
         "FileZilla is often praised for cross-platform support, a site manager, resume, and logs. It’s a handy start — not the industry’s only standard.",
-        "Download the client from the official source. Third-party “builds with an accelerator” sometimes ship adware.",
+        "Download the client from the official source. Third-party “builds with an accelerator” sometimes bundle adware.",
         "On Windows many pick WinSCP; on macOS — Cyberduck / Transmit. Cursor/VS Code and some hosting panels have their own file access.",
       ],
       lists: [
         {
-          intro: "Upsides of a good client:",
+          intro: "Benefits of a good client:",
           items: [
-            "resume after a drop;",
-            "a file queue;",
-            "an error log;",
-            "working across several folders;",
+            "resume after a drop",
+            "a file queue",
+            "an error log",
+            "working across several folders",
             "SFTP/FTPS support.",
           ],
         },
@@ -127,16 +127,16 @@ export const ftpEn: BlogPost = {
       links: [
         {
           label: "WordPress security",
-          href: "/blog/wordpress-bezopasnost/",
+          href: "/en/blog/wordpress-bezopasnost/",
         },
         {
           label: "WordPress plugins",
-          href: "/blog/wordpress-plaginy/",
+          href: "/en/blog/wordpress-plaginy/",
         },
       ],
     },
     {
-      title: "What to remember",
+      title: "Key takeaways",
       level: 2,
       paras: [
         "FTP/SFTP is access to site files from your computer.",
@@ -147,7 +147,7 @@ export const ftpEn: BlogPost = {
     },
   ],
   closing: [
-    "Create SFTP access in the hosting panel, connect with a client from the official site, and do a test upload into a scratch folder — calmer than editing prod blind at the first white screen.",
+    "Create SFTP access in the hosting panel, connect with a client from the official site, and do a test upload into a temporary folder — calmer than editing prod blind at the first white screen.",
   ],
   related: [
     "hosting",

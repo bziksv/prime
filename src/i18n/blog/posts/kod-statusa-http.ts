@@ -3,45 +3,44 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for kod-statusa-http — same structure as RU JSON. */
 export const kodStatusaHttpEn: BlogPost = {
   slug: "kod-statusa-http",
-  title: "HTTP status code: classes, meaning, and how to check",
+  title: "HTTP status codes: classes, meaning, and how to check them",
   date: "2021-02-01",
   category: "SEO",
   cover: "/images/blog/kod-statusa-http/cover-en.webp",
   excerpt:
     "What an HTTP response status is, how to read classes 1xx–5xx, which codes matter for SEO, and how to check one URL or the whole site.",
   lead: [
-    "An HTTP status code is a three-digit number in the server response: whether the page was served, a redirect is needed, or there’s an error. Browsers and search bots read it before the “pretty” HTML.",
-    "Below — code classes, what webmasters should watch, and how to check URLs one by one and in bulk. Separate deep-dives on 200 and 502 are sibling articles.",
-    "A wrong status (soft 200 on a removed page, redirect chains, mass 5xx) hits crawl and indexing harder than a small footer typo.",
+    "An HTTP status code is a three-digit number in the server response: the page was served, a redirect is needed, or something failed. Browsers and search bots read it before they touch the HTML.",
+    "Get statuses wrong — soft 200 on a removed page, redirect chains, mass 5xx — and you hurt crawl and indexing more than a typo in the footer. This guide covers the main code families, what to watch in practice, and how to check URLs one by one or in bulk.",
   ],
   faq: [
     {
-      q: "Where do you see the status code?",
-      a: "DevTools → Network, `curl -I`, online checkers, crawlers (Screaming Frog and peers), hosting/CDN reports.",
+      q: "Where can I see the HTTP status code?",
+      a: "DevTools → Network, `curl -I`, online checkers, crawlers (Screaming Frog and similar), and hosting or CDN reports.",
     },
     {
-      q: "What’s a “normal” code for an indexed page?",
+      q: "What status code should an indexed page return?",
       a: "Usually 200. Permanent move — 301. Temporary — 302/307. Removed with no replacement — 404 or 410.",
     },
     {
-      q: "How does 404 differ from 410?",
-      a: "404 — “not found” (may return). 410 — “gone on purpose”. For permanently removed URLs, 410 is clearer for bots.",
+      q: "How does a 404 differ from a 410?",
+      a: "404 means “not found” (it may come back). 410 means “gone on purpose.” For permanently removed URLs, 410 is clearer for bots.",
     },
     {
-      q: "Why does status matter for SEO?",
+      q: "Why do status codes matter for SEO?",
       a: "The bot decides whether to index a URL, whether to pass signals on redirect, and how much crawl budget to spend on errors.",
     },
     {
       q: "What is a soft 404?",
-      a: "The page returns 200 but essentially says “nothing here”. For search that’s worse than an honest 404: junk enters the index.",
+      a: "The page returns 200 but essentially says “nothing here.” For search that is worse than an honest 404: junk enters the index.",
     },
     {
-      q: "Should you check the whole site?",
-      a: "Yes after a move, CMS change, or mass URL edits. Regularly — sample key templates + a crawl.",
+      q: "Should I check the whole site?",
+      a: "Yes after a move, CMS change, or mass URL edits. On a regular cadence — sample key templates plus a crawl.",
     },
     {
-      q: "Do 5xx kill rankings immediately?",
-      a: "A brief blip — usually no. Long downtime and mass 5xx — yes, they hurt crawl and trust in availability.",
+      q: "Do 5xx errors kill rankings immediately?",
+      a: "A brief blip usually does not. Long downtime and mass 5xx do hurt crawl and trust in availability.",
     },
   ],
   sections: [
@@ -49,8 +48,8 @@ export const kodStatusaHttpEn: BlogPost = {
       title: "How a server response works",
       level: 2,
       paras: [
-        "The client requests a URL. The server replies with a line like `HTTP/1.1 200 OK`, headers, and a body. The code is a fast signal of “what happened”.",
-        "Search relies on status while crawling: 200 can be parsed as a document, 301 means follow to the new address, 404 means don’t expect content.",
+        "The client requests a URL. The server replies with a line like `HTTP/1.1 200 OK`, headers, and a body. The code is a fast signal of what happened.",
+        "Search relies on status while crawling: 200 can be parsed as a document, 301 means follow the new address, 404 means do not expect content.",
       ],
       lists: [
         {
@@ -64,7 +63,7 @@ export const kodStatusaHttpEn: BlogPost = {
       ],
       links: [
         {
-          label: "Web server",
+          label: "Web server basics",
           href: "/en/blog/veb-server/",
         },
       ],
@@ -91,16 +90,16 @@ export const kodStatusaHttpEn: BlogPost = {
         {
           title: "Practice",
           kind: "tip",
-          text: "Don’t memorize every code. Keep a cheat sheet of common ones and know how to check the real response — not “what the admin panel should show”.",
+          text: "Don’t memorize every code. Keep a cheat sheet of common ones and know how to check the real response — not “what the admin panel should show.”",
         },
       ],
       links: [
         {
-          label: "301/302 redirects",
+          label: "301 and 302 redirects",
           href: "/en/blog/redirekt/",
         },
         {
-          label: "502 error",
+          label: "502 Bad Gateway",
           href: "/en/blog/oshibka-502/",
         },
       ],
@@ -109,15 +108,15 @@ export const kodStatusaHttpEn: BlogPost = {
       title: "What matters to webmasters and SEO",
       level: 2,
       paras: [
-        "Key landings should stably return 200. After a move — direct 301s without long chains. Removed URLs — don’t mask with a homepage 200.",
-        "Watch 404 spikes in Webmaster and logs: broken internal links, outdated backlinks, export errors.",
+        "Key landings should stably return 200. After a move — direct 301s without long chains. Removed URLs — don’t mask them with a homepage 200.",
+        "Watch 404 spikes in Search Console and logs: broken internal links, outdated backlinks, export errors.",
       ],
       lists: [
         {
           intro: "Red flags:",
           items: [
-            "product/service removed but 200 with an empty template;",
-            "A→B→C→D redirects;",
+            "product or service removed but still 200 with an empty template;",
+            "A→B→C→D redirect chains;",
             "homepage returning 302 “somewhere”;",
             "mass 5xx at night during bot peaks.",
           ],
@@ -135,7 +134,7 @@ export const kodStatusaHttpEn: BlogPost = {
       level: 2,
       paras: [
         "The most honest way is the response header: `curl -I https://example.com/page/` or the Network tab in the browser. Check the final code after redirects and the Location chain.",
-        "Online tools are handy, but for disputed cases check from a server/CI and account for CDN/geo.",
+        "Online tools are handy, but for disputed cases check from a server or CI and account for CDN and geo.",
       ],
       lists: [
         {
@@ -153,17 +152,17 @@ export const kodStatusaHttpEn: BlogPost = {
       title: "Checking the whole site",
       level: 2,
       paras: [
-        "A crawler follows internal links and builds a status table. After a structure change, compare the list to the sitemap and priority URLs from Webmaster.",
+        "A crawler follows internal links and builds a status table. After a structure change, compare the list to the sitemap and priority URLs from Search Console.",
         "Bulk-checking external backlinks is separate: not everything should redirect to the homepage.",
       ],
       lists: [
         {
           intro: "When to run a full crawl:",
           items: [
-            "domain/https move;",
+            "domain or HTTPS move;",
             "CMS or URL scheme change;",
             "major template redesign;",
-            "error spikes in webmaster panels.",
+            "error spikes in Search Console or hosting reports.",
           ],
         },
       ],
@@ -178,8 +177,8 @@ export const kodStatusaHttpEn: BlogPost = {
       title: "How to build it into routine",
       level: 2,
       paras: [
-        "Alerts on 5xx for main hosts, a monthly look at 404s, a check after every release. Statuses are hygiene — not one-shot “SEO magic”.",
-        "Fixing tech is part of site prep. Ranking growth for a core after things stabilize is a separate months-long process.",
+        "Alerts on 5xx for main hosts, a monthly look at 404s, a check after every release. Statuses are hygiene — not one-shot “SEO magic.”",
+        "Fixing tech is part of site prep. Ranking growth for a keyword set after things stabilize is a separate, months-long process.",
       ],
       lists: [
         {
@@ -196,7 +195,7 @@ export const kodStatusaHttpEn: BlogPost = {
         {
           title: "SEO timelines",
           kind: "tip",
-          text: "Clean statuses restore crawl and UX. They aren’t a TOP shortcut: after the site is stable, rankings for a core are still planned over 2–6 months.",
+          text: "Clean statuses restore crawl and UX. They aren’t a TOP shortcut: after the site is stable, rankings for a keyword set are still planned over 2–6 months.",
         },
       ],
     },

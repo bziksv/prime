@@ -5,13 +5,13 @@ export const trafikBezLidovEn: BlogPost = {
   slug: "trafik-bez-lidov",
   title: "Traffic without leads: offer, benefit, and CTA",
   date: "2019-03-25",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/trafik-bez-lidov/cover-en.webp",
   excerpt:
     "Traffic grows but leads don’t: weak offer, selling the “drill instead of the hole”, no CTA, wrong audience — a landing-copy fix checklist without magic words.",
   lead: [
     "When visits rise and leads don’t, it’s often not “not enough ads” — people don’t see why to leave a contact: no clear offer, no visible benefit, no call to action and form.",
-    "Below — how traffic differs from leads, typical offer mistakes, the “so what for me?” move, the CTA’s role, and a copy checklist. Check tech and speed too, but with live traffic you more often fix the meaning of the pitch. There’s no universal “average conversion” — watch your funnel.",
+    "This guide covers how traffic differs from leads, typical offer mistakes, the “so what for me?” move, the CTA’s role, and a copy checklist. Check tech and speed too, but with live traffic you more oftenen fix the meaning of the pitch. There’s no universal “average conversion” — watch your funnel.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const trafikBezLidovEn: BlogPost = {
       a: "No. Traffic is visits. A lead is a contact/request with intent. You can buy many clicks and get zero applications.",
     },
     {
-      q: "Fix copy or ads first?",
+      q: "Should I fix copy or ads first?",
       a: "If the ad promises one thing and the page another — fix both. With relevant traffic and an empty funnel, start with offer and CTA.",
     },
     {

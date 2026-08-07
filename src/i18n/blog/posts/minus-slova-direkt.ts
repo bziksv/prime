@@ -5,33 +5,33 @@ export const minusSlovaDirektEn: BlogPost = {
   slug: "minus-slova-direkt",
   title: "Negative keywords in Yandex Direct: how to cut non-target demand",
   date: "2018-10-25",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/minus-slova-direkt/cover-en.webp",
   excerpt:
-    "How to set negative keywords and phrases in Yandex Direct: add levels, word-form operators, cross-negatives, and caution in the Display Network — without blindly copying “universal lists” from the web.",
+    "How to set negative keywords and keywords in Yandex Direct: add levels, word-form operators, cross-negatives, and caution in the Display Network — without blindly copying “universal lists” from the web.",
   lead: [
     "Negative keywords in Direct are exclusions: which queries (and close phrasings) shouldn’t show the ad. That narrows the audience toward more qualified demand and saves budget on “download”, “free”, competitor brands, and irrelevant modifiers.",
-    "Below — what the tool does, add levels, word-form nuances, and cross-negatives. Cabinet menu labels change; orient on campaign / ad group / keywords. Check ready-made “500 negatives” lists against your offer.",
+    "What negatives do, where to add them, word-form nuances, and cross-negatives. Account menu labels change; use campaign / ad group / keywords. Check ready-made negative lists against your niche before pasting.",
   ],
   faq: [
     {
-      q: "Are a negative word and a negative phrase the same?",
+      q: "Are a negative keyword and a negative phrase the same?",
       a: "A word is one exclusion; a phrase is a combination. Both cut non-target demand phrasings.",
     },
     {
-      q: "Can you use a universal list?",
+      q: "Can I paste a universal negative list?",
       a: "As a draft — yes. As the final set — no: you can easily cut useful demand or leave niche junk.",
     },
     {
-      q: "What wins: keyword or negative?",
-      a: "If a negative matches a keyword, the keyword usually wins (cabinet logic). Don’t add a negative that kills your own phrase.",
+      q: "What wins when a keyword and a negative conflict?",
+      a: "If a negative matches a keyword, the keyword usually wins (account logic). Don’t add a negative that kills your own phrase.",
     },
     {
-      q: "Why cross-negatives?",
+      q: "Why use cross-negatives?",
       a: "So head and refined keywords don’t compete inside the campaign: a broad phrase doesn’t steal traffic from a narrow one.",
     },
     {
-      q: "Are negatives risky in the Display Network?",
+      q: "Are aggressive negatives risky in the Display Network?",
       a: "Yes if overdone: placement themes depend heavily on keywords. A harsh negative can shrink reach too far.",
     },
   ],
@@ -41,23 +41,23 @@ export const minusSlovaDirektEn: BlogPost = {
       level: 2,
       paras: [
         "Wordstat and the search-terms report show tails that don’t lead to leads: informational (“DIY”), wrong geo, used goods when you sell new only, job seekers for a B2B service.",
-        "Negatives are part of semantics alongside the core. Without them, broad keywords burn budget even with a “pretty” CTR.",
+        "Negatives are part of semantics alongside the core. Without them, broad keywords burn budget even with a strong-looking CTR.",
       ],
       lists: [
         {
           intro: "Typical negative candidates:",
           items: [
-            "free / download / torrent;",
-            "job / vacancy / courses (if not your service);",
-            "used / classifieds (if not your channel);",
-            "competitor brands and cities outside delivery;",
+            "free / download / torrent",
+            "job / vacancy / courses (if not your service)",
+            "used / classifieds (if not your channel)",
+            "competitor brands and cities outside delivery",
             "irrelevant modifiers from Wordstat.",
           ],
         },
       ],
       links: [
         {
-          label: "Semantic core",
+          label: "Keyword set",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {
@@ -77,9 +77,9 @@ export const minusSlovaDirektEn: BlogPost = {
         {
           intro: "Practical order:",
           items: [
-            "pull negatives from the search-terms report;",
-            "split shared vs cluster;",
-            "check that keywords aren’t killed;",
+            "pull negatives from the search-terms report",
+            "split shared vs cluster",
+            "check that keywords aren’t killed",
             "export search terms again in a week.",
           ],
         },
@@ -90,7 +90,7 @@ export const minusSlovaDirektEn: BlogPost = {
       level: 2,
       paras: [
         "A negative usually covers word forms (gender, number, case). For one exact form only — use locking operators (historically `!` before the word; check current Direct Help syntax).",
-        "Negative phrases cut combinations as a whole. A bad phrase can cut more than you planned — validate on sample queries.",
+        "Negative keywords cut combinations as a whole. A bad phrase can cut more than you planned — validate on sample queries.",
       ],
       notes: [
         {
@@ -111,8 +111,8 @@ export const minusSlovaDirektEn: BlogPost = {
         {
           intro: "When cross-negatives help:",
           items: [
-            "clear head → mid → long-tail hierarchy;",
-            "different landings for refinements;",
+            "clear head → mid → long-tail hierarchy",
+            "different landings for refinements",
             "need ad-copy control per query.",
           ],
         },

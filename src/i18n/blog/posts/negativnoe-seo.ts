@@ -11,7 +11,7 @@ export const negativnoeSeoEn: BlogPost = {
     "Negative SEO means attempts to harm someone else’s site in search. Which signals show up, how to monitor and defend — without attack how-tos, DDoS, or “ban a competitor” guides.",
   lead: [
     "Negative SEO is manipulation aimed at worsening another site’s rankings or reputation: toxic links, complaints, content copying, hacking. Searches like “how to ban a competitor” usually lead to harmful advice; we cover defense.",
-    "Below — typical threats from a site owner’s view and what to do legally. There are no instructions for attacks, DDoS, hacking, or link “bombs” — and there won’t be.",
+    "From a site owner’s seat: typical threats, what to monitor, and what to do legally when something looks like an attack. There are no instructions for attacks, DDoS, hacking, or link bombing.",
   ],
   faq: [
     {
@@ -27,15 +27,15 @@ export const negativnoeSeoEn: BlogPost = {
       a: "A sudden flood of junk links to your domain. Monitor backlinks; when needed use disavow/rejection tools per the engine’s rules and strengthen your own profile.",
     },
     {
-      q: "Someone stole our copy — what next?",
+      q: "Someone stole our copy — what should we do next?",
       a: "Document the facts, contact the copy sites, involve a lawyer if needed. On your side, strengthen uniqueness and publish/authority signals.",
     },
     {
-      q: "Are DDoS and hacking SEO?",
-      a: "They’re attacks on availability and security. SEO articles don’t “fold them into promotion”; look at infrastructure defense and site-security materials.",
+      q: "Do DDoS and hacking count as SEO?",
+      a: "They’re attacks on availability and security. SEO articles don’t fold them into promotion; look at infrastructure defense and site-security materials.",
     },
     {
-      q: "Competitor affiliates?",
+      q: "What about competitor affiliate sites?",
       a: "A network of lookalike sites under one beneficiary risks a filter for them. You care more about not spawning your own mirrors; see the affiliate filter.",
     },
     {
@@ -78,11 +78,11 @@ export const negativnoeSeoEn: BlogPost = {
       links: [
         {
           label: "Site security",
-          href: "/blog/bezopasnost-sayta/",
+          href: "/en/blog/bezopasnost-sayta/",
         },
         {
           label: "Link profile",
-          href: "/blog/ssylochnyy-profil/",
+          href: "/en/blog/ssylochnyy-profil/",
         },
       ],
     },
@@ -98,11 +98,11 @@ export const negativnoeSeoEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Monthly mini ritual:",
+          intro: "Monthly mini-ritual:",
           items: [
-            "core positions/traffic snapshot;",
-            "security check in the panels;",
-            "a look at new referring domains;",
+            "core positions/traffic snapshot",
+            "security check in the panels",
+            "a look at new referring domains",
             "backup and CMS/plugin updates.",
           ],
         },
@@ -114,7 +114,7 @@ export const negativnoeSeoEn: BlogPost = {
         },
         {
           label: "Affiliate filter",
-          href: "/blog/affiliat-filtr/",
+          href: "/en/blog/affiliat-filtr/",
         },
       ],
     },
@@ -130,7 +130,7 @@ export const negativnoeSeoEn: BlogPost = {
       lists: [],
     },
     {
-      title: "What to remember",
+      title: "Takeaways",
       level: 2,
       paras: [
         "Negative SEO is a risk to your site; the answer is monitoring and defense, not war.",
@@ -141,7 +141,7 @@ export const negativnoeSeoEn: BlogPost = {
     },
   ],
   closing: [
-    "Set up Webmaster monitoring, backups, and link control — you close real holes faster than hunting a “way to remove a competitor from the SERP.”",
+    "Set up Webmaster monitoring, backups, and link control — you fix real holes faster than hunting a “way to remove a competitor from the SERP.”",
   ],
   related: [
     "filtry-poiskovikov",

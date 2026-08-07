@@ -8,43 +8,43 @@ export const autrichEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/autrich/cover-en.webp",
   excerpt:
-    "What outreach means in SEO: manually finding topical sites, donor criteria, pitching editors, and checking the publish — without link-exchange spam or Wikipedia rule-bypass schemes.",
+    "What outreach means in SEO: manually finding topical sites, donor criteria, pitching editors, and checking the post — without link-exchange spam or Wikipedia rule-bypass schemes.",
   lead: [
-    "Outreach is hands-on work with publishers: find media/blogs in your topic, offer useful material or expertise, and get a publish with a mention or link. It’s an alternative and complement to link marketplaces — not a “magic profile of thousands of links”.",
-    "Below — when outreach fits, how to pick donors, where to get lists, how to write editors, and what to check after go-live. Related: guest posts, link-buying risks, backlink-profile analysis. We don’t promise TOP from a batch of emails: core visibility builds over months of systematic work.",
+    "Outreach is hands-on work with publishers: find media/blogs in your topic, offer useful material or expertise, and get a post with a mention or link. It’s an alternative and complement to link marketplaces — not a “magic profile of thousands of links”.",
+    "Related reading: guest posts, link-buying risks, backlink-profile analysis. We don’t promise TOP from a batch of emails: core visibility builds over months of systematic work — often a 2–6 month TOP horizon after the full workstream starts.",
   ],
   faq: [
     {
-      q: "How does outreach differ from a link marketplace?",
+      q: "How does outreach differ from buying on a link marketplace?",
       a: "A marketplace is a catalog of paid slots. Outreach is direct contact with the editor/owner. Quality and price are often better; speed and volume are lower.",
     },
     {
-      q: "Do you need “bad links for naturalness”?",
+      q: "Do you need “bad links” for a natural profile?",
       a: "No. Don’t dilute the profile with junk on purpose. Fewer strong topical mentions beat a mix of marketplace spam.",
     },
     {
-      q: "Can you parse competitors’ SERPs?",
+      q: "Can you parse competitors’ SERPs for outreach?",
       a: "Reviewing public mentions and backlink-tool reports is fine. Don’t run aggressive scraping of others’ sites or bypass blocks.",
     },
     {
-      q: "Wikipedia as a link source?",
+      q: "Should you treat Wikipedia as a link source?",
       a: "Not an outreach goal. Edits for a link break the rules and get cleaned. Use Wikipedia as a reader/fact source — not a donor.",
     },
     {
-      q: "How many emails per week?",
+      q: "How many outreach emails should you send per week?",
       a: "As many as you can personalize well. Mass template spam kills replies and reputation.",
     },
     {
-      q: "Is a dofollow link required?",
+      q: "Is a dofollow link required for outreach?",
       a: "Audience and brand traffic matter more. A link is a bonus under the site’s rules; sometimes a mention and UTM are enough.",
     },
     {
-      q: "Should ads be labeled?",
+      q: "Should paid outreach placements be labeled as ads?",
       a: "Yes if it’s paid placement under law and the site’s rules. Don’t disguise payment as a “neutral review”.",
     },
     {
-      q: "Is outreach TOP in a month?",
-      a: "No. It’s a mentions channel. Prep and publishes — weeks; TOP for the core is planned 2–6 months after work starts.",
+      q: "Does outreach put you in TOP in a month?",
+      a: "No. It’s a mentions channel. Prep and published pieces — weeks; TOP for the core is planned 2–6 months after work starts.",
     },
   ],
   sections: [
@@ -97,7 +97,7 @@ export const autrichEn: BlogPost = {
           items: [
             "topic close to yours;",
             "real visits/engagement;",
-            "quality of recent publishes;",
+            "quality of recent placements;",
             "no feed of “articles with a link”;",
             "clear editor contacts;",
             "terms and ad labeling.",
@@ -202,7 +202,7 @@ export const autrichEn: BlogPost = {
       title: "How to fold it into the SEO plan",
       level: 2,
       paras: [
-        "Outreach is one channel next to on-site content, PR, and careful paid placements. Set KPIs: replies, publishes, visits, leads — not only “link count”.",
+        "Outreach is one channel next to on-site content, PR, and careful paid placements. Set KPIs: replies, placements, visits, leads — not only “link count”.",
         "Material prep and the first touch wave — weeks. Effect on core visibility — month to month; planned TOP horizon is often 2–6 months after the full workstream starts.",
       ],
       lists: [

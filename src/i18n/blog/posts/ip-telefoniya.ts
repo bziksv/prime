@@ -5,13 +5,13 @@ export const ipTelefoniyaEn: BlogPost = {
   slug: "ip-telefoniya",
   title: "IP telephony for business: why and how to connect",
   date: "2019-07-23",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/ip-telefoniya/cover-en.webp",
   excerpt:
-    "What IP telephony (VoIP) is: voice over the internet, call-center and office scenarios, what to check when choosing a provider, and how to launch without promising “minus 15% always”.",
+    "What IP telephony (VoIP) is: voice over the internet, call-center and office scenarios, what to check when choosing a provider, and how to launch without promising “minus 15% always.”",
   lead: [
-    "IP telephony is phone service over IP: voice is digitized and travels the internet (SIP and related schemes), not only a classic “copper” line.",
-    "Below — why business needs it, how to choose a provider, and what to check at connection. A virtual number is a related tool; here the focus is office/cloud telephony and the call center. We don’t lock 2019 plan prices.",
+    "IP telephony is phone service over IP: voice is digitized and travels the internet (SIP and related protocols), not only a classic copper line.",
+    "Businesses pick it for flexibility and cost control — then choose a provider and lock setup details. A virtual number is a related tool; here we focus on office/cloud telephony and the call center. We don’t lock 2019 plan prices.",
   ],
   faq: [
     {
@@ -20,15 +20,15 @@ export const ipTelefoniyaEn: BlogPost = {
     },
     {
       q: "Do you need stable internet?",
-      a: "Yes. Voice cares about latency, jitter, and packet loss. A dedicated channel / QoS priority beats “the neighbor’s Wi‑Fi”.",
+      a: "Yes. Voice cares about latency, jitter, and packet loss. A dedicated channel / QoS priority beats the neighbor’s Wi‑Fi.",
     },
     {
-      q: "Softphone or handset?",
+      q: "Should I use a softphone or a handset?",
       a: "Both. Softphones scale remote agents faster; desk phones are handy on the floor. Often a hybrid.",
     },
     {
       q: "Is savings guaranteed?",
-      a: "Often cheaper for long-distance and scaling lines, but it depends on call profile and plan. We don’t promise fixed “−15% for everyone”.",
+      a: "Often cheaper for long-distance and scaling lines, but it depends on call profile and plan. We don’t promise fixed “−15% for everyone.”",
     },
     {
       q: "Can you keep a local number?",
@@ -40,12 +40,12 @@ export const ipTelefoniyaEn: BlogPost = {
       title: "Which jobs IP telephony covers",
       level: 2,
       paras: [
-        "One call center across several cities: the client dials a local number, and a shared queue answers. When the office moves, the number doesn’t “die” with the wall jack.",
-        "Staffing flexibility: fewer agents in winter, more licenses by minutes in season — without weeks of cable runs. Short mass calls (taxi, delivery) are often cheaper on per-minute/packet IP plans than outdated “always round up the minute” schemes — but count on your own data.",
+        "One call center across several cities: the client dials a local number, and a shared queue answers. When the office moves, the number doesn’t die with the wall jack.",
+        "Staffing flexibility: fewer agents in winter, more licenses by minutes in season — without weeks of cable runs. Short mass calls (taxi, delivery) are often cheaper on per-minute/packet IP plans than outdated “always round up the minute” billing — but count on your own data.",
       ],
       lists: [
         {
-          intro: "Typical upsides for business:",
+          intro: "Typical benefits for business:",
           items: [
             "queues and IVR;",
             "recording and call stats;",
@@ -88,7 +88,7 @@ export const ipTelefoniyaEn: BlogPost = {
       notes: [
         {
           title: "Important",
-          text: "A “free app with no channel responsibility” and a serious call center are different classes. For sales, treat line downtime as lost leads.",
+          text: "A free app with no channel responsibility and a serious call center are different classes. For sales, treat line downtime as lost leads.",
           kind: "tip",
         },
       ],
@@ -97,8 +97,8 @@ export const ipTelefoniyaEn: BlogPost = {
       title: "Connection and control",
       level: 2,
       paras: [
-        "After the contract: PBX/cloud setup, agent accounts, routes, and if needed — a gateway and backup channel. A softphone installs in minutes; a mature scheme (IVR, CRM, recording) takes planning — not “30 minutes and forget”.",
-        "In the cabinet watch missed calls, answer time, queue load, cost. Also ad-number call tracking if you need attribution.",
+        "After the contract: PBX/cloud setup, agent accounts, routes, and if needed — a gateway and backup channel. A softphone installs in minutes; a mature setup (IVR, CRM, recording) takes planning — not “30 minutes and forget.”",
+        "In the account watch missed calls, answer time, queue load, cost. Also ad-number call tracking if you need attribution.",
       ],
       lists: [
         {
@@ -121,7 +121,7 @@ export const ipTelefoniyaEn: BlogPost = {
     },
   ],
   closing: [
-    "IP telephony gives flexible lines, queues, and call analytics — if you have decent internet and a responsible provider. Describe scenarios (cities, season, CRM), test voice, and don’t confuse a “cheap softphone” with stable sales connectivity.",
+    "IP telephony gives flexible lines, queues, and call analytics — if you have decent internet and a responsible provider. Describe scenarios (cities, season, CRM), test voice, and don’t confuse a cheap softphone with stable sales connectivity.",
   ],
   related: [
     "virtualnyy-nomer",

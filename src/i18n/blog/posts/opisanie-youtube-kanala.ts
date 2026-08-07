@@ -10,12 +10,12 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
   excerpt:
     "How to write a YouTube channel description: opening lines, keywords, links, common mistakes, and how to update the text in Studio.",
   lead: [
-    "A channel description is a short “what this project is about”. People read it on the channel page and sometimes see it in search. The first sentences decide whether someone stays.",
-    "Below — structure, keywords without spam, links, and typical mistakes. YouTube Studio menu items change — look for Customization / About.",
+    "A channel description is a short “what this project is about.” People read it on the channel page and sometimes see it in search. The first sentences decide whether someone stays.",
+    "Lead with the niche and who it’s for, add keywords without spam, and put useful links below. YouTube Studio menu items change — look for Customization / About.",
   ],
   faq: [
     {
-      q: "How many characters are allowed?",
+      q: "How many characters are allowed in a channel description?",
       a: "The platform limit is around a thousand characters; the preview often shows only the first ~100–200. Check exact limits in Studio — they can change.",
     },
     {
@@ -27,11 +27,11 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
       a: "Channel description is the project’s business card. Video description is about that clip, timestamps, and a CTA for that episode.",
     },
     {
-      q: "How do you make links clickable?",
+      q: "How do you make links clickable in the description?",
       a: "Via the links field in channel settings / customization, not a bare URL in a paragraph. Link labels should match the project’s site and socials.",
     },
     {
-      q: "Can you skip a description?",
+      q: "Can you skip a YouTube channel description?",
       a: "Only if people already know you by name. For new and niche channels an empty About is a missed chance to explain the offer.",
     },
   ],
@@ -55,10 +55,10 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
         {
           intro: "Working frame:",
           items: [
-            "1–2 sentences — essence and who it’s for;",
-            "what goes out regularly (rubrics, cadence);",
-            "how you differ from similar channels;",
-            "where to go next (site, socials — via the links field);",
+            "1–2 sentences — essence and who it’s for",
+            "what goes out regularly (content pillars, cadence)",
+            "how you differ from similar channels",
+            "where to go next (site, socials — via the links field)",
             "a soft CTA: subscribe, watch a playlist, write.",
           ],
         },
@@ -81,15 +81,15 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
         {
           intro: "Placement:",
           items: [
-            "at the start — main topic and brand;",
-            "in the middle — niche and format details;",
+            "at the start — main topic and brand",
+            "in the middle — niche and format details",
             "at the end — extra phrasing and CTA.",
           ],
         },
       ],
       links: [
         {
-          label: "Semantic core",
+          label: "Keyword set",
           href: "/en/blog/semanticheskoe-yadro/",
         },
       ],
@@ -105,9 +105,9 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
         {
           intro: "State the format clearly:",
           items: [
-            "product / service reviews;",
-            "learning and breakdowns;",
-            "entertainment, vlogs, games;",
+            "product / service reviews",
+            "learning and breakdowns",
+            "entertainment, vlogs, games",
             "niche (cars, film, kids, business…).",
           ],
         },
@@ -123,10 +123,10 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
         {
           intro: "Avoid:",
           items: [
-            "keyword stuffing;",
-            "copy-pasting someone else’s description;",
-            "a description that doesn’t match the channel;",
-            "spelling issues and an off tone;",
+            "keyword stuffing",
+            "copy-pasting someone else’s description",
+            "a description that doesn’t match the channel",
+            "spelling issues and an off tone",
             "links to someone else’s / suspicious resources.",
           ],
         },
@@ -164,9 +164,9 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
         {
           intro: "Before publishing:",
           items: [
-            "read 3–5 channels in your niche;",
-            "note what hooks in the opening lines;",
-            "write your version without copy-paste;",
+            "read 3–5 channels in your niche",
+            "note what hooks in the opening lines",
+            "write your version without copy-paste",
             "check uniqueness and literacy.",
           ],
         },

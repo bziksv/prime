@@ -11,7 +11,7 @@ export const prosmotryVkEn: BlogPost = {
     "How the view counter under VKontakte posts works, what counts as a view, how it differs from full community stats, and why fake views hurt.",
   lead: [
     "Under VKontakte posts you see a view counter — a quick sense of how often a post actually “caught” attention, not only likes.",
-    "Below — what gets counted, limits of the public counter, and how to use the numbers in a content plan. VK may change algorithm details — check platform help.",
+    "What gets counted, limits of the public counter, and how to use the numbers in a content plan. VK may change algorithm details — check platform help.",
   ],
   faq: [
     {
@@ -19,15 +19,15 @@ export const prosmotryVkEn: BlogPost = {
       a: "No. Usually you need a show with a pause/stop on the post, not an instant scroll past.",
     },
     {
-      q: "Can you hide the counter?",
+      q: "Can I hide the view counter?",
       a: "The public indicator under a post is generally visible to everyone. Deeper stats live in community statistics for admins.",
     },
     {
-      q: "One person — several views?",
+      q: "Can one person generate several views?",
       a: "For a post usually one view per account counts. Whether a new meaningful show recounts depends on platform rules.",
     },
     {
-      q: "Do fake views help?",
+      q: "Do fake views actually help?",
       a: "No: they distort analytics, spoil ad decisions, and may break the rules. Watch engagement and goals, not “eye” vanity.",
     },
     {
@@ -47,8 +47,8 @@ export const prosmotryVkEn: BlogPost = {
         {
           intro: "Where a view may count:",
           items: [
-            "news feed;",
-            "community / profile wall;",
+            "news feed",
+            "community / profile wall",
             "recommendations block (if the post got there).",
           ],
         },
@@ -75,9 +75,9 @@ export const prosmotryVkEn: BlogPost = {
         {
           intro: "Practical traits:",
           items: [
-            "the number under the post is public;",
-            "viewer identity isn’t revealed;",
-            "handy for comparing posts to each other;",
+            "the number under the post is public",
+            "viewer identity isn’t revealed",
+            "handy for comparing posts to each other",
             "bot inflation distorts the picture.",
           ],
         },
@@ -88,7 +88,7 @@ export const prosmotryVkEn: BlogPost = {
       level: 2,
       paras: [
         "Compare views with ER (likes, comments, shares, link clicks). High “eyes” with zero actions signal a weak offer or clickbait.",
-        "For ads and client reports lean on cabinet/community stats and goals (leads), not only the public counter.",
+        "For ads and client reports lean on account/community stats and goals (leads), not only the public counter.",
       ],
       lists: [],
       notes: [
@@ -119,9 +119,9 @@ export const prosmotryVkEn: BlogPost = {
         {
           intro: "Don’t:",
           items: [
-            "buy fake views;",
-            "judge quality from a single post;",
-            "ignore full community stats;",
+            "buy fake views",
+            "judge quality from a single post",
+            "ignore full community stats",
             "promise clients “guaranteed reach” from eye counts.",
           ],
         },

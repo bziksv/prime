@@ -3,36 +3,36 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for videoset-yandeksa — same structure as RU JSON. */
 export const videosetYandeksaEn: BlogPost = {
   slug: "videoset-yandeksa",
-  title: "Yandex Video Network: formats, targeting, and how to judge a campaign",
+  title: "Yandex Video Network: formats, targeting, and how to evaluate a campaign",
   date: "2018-10-18",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/videoset-yandeksa/cover-en.webp",
   excerpt:
-    "How the Yandex Video Network works: prerolls and in-page, targeting, VTR, and the link to a business goal — without leaning on 2018 industry share and CPV reports.",
+    "How the Yandex Video Network works: prerolls and in-page placements, targeting, VTR, and tying results to business goals — without treating 2018 industry-share and CPV reports as today’s price list.",
   lead: [
-    "The Yandex Video Network shows videos on partner sites and in the Yandex ecosystem: before, during, and after content, plus in-page and mobile interstitial formats. It’s not “just another banner” — it’s media with its own completion and contact-cost logic.",
-    "Below — formats, what to watch in setup, and how to read results. Industry budget shares, average CPV, and targeting tops from 2018 half-year reviews are a historical market slice — not today’s price list: check current formats and bids in the cabinet.",
+    "The Yandex Video Network runs video on partner sites and across the Yandex ecosystem: before, during, and after content, plus in-page and mobile interstitial formats. It’s not “just another banner” — it’s video media with its own completion and cost-per-contact logic.",
+    "Pick a format that fits the offer, watch targeting and frequency during setup, and read results against your own unit economics. Industry budget shares, average CPV, and targeting rankings from 2018 half-year reviews are a historical snapshot — not a current media plan.",
   ],
   faq: [
     {
-      q: "Are Video Network and the Display Network the same?",
-      a: "Related ecosystem contours, but video formats and metrics (VTR, completion) differ from a regular banner. Check campaign type and display conditions in the current UI.",
+      q: "Are the Video Network and the Display Network the same thing?",
+      a: "They’re related parts of the same ecosystem, but video formats and metrics (VTR, completion) differ from standard banners. Check campaign type and display conditions in the current interface.",
     },
     {
       q: "What matters more: VTR or clicks?",
-      a: "Depends on the goal. For brand and reach — completion and frequency; for performance — conversions and cost per action. VTR alone without a funnel proves nothing.",
+      a: "It depends on the goal. For brand and reach, watch completion and frequency. For performance, watch conversions and cost per action. VTR alone, without a funnel, proves nothing.",
     },
     {
       q: "Is a short video always better?",
-      a: "Short ones complete more often; longer ones can explain the offer better. Pick length for the job and test creative — don’t copy “market average length”.",
+      a: "Short clips complete more often; longer ones can explain the offer better. Match length to the job and test creative — don’t copy a “market average length.”",
     },
     {
       q: "How is this different from YouTube Ads?",
-      a: "Different inventory, auction, and attribution. Compare contribution to your funnel — not an abstract “whose CPM is lower”.",
+      a: "Different inventory, auction, and attribution. Compare each channel’s contribution to your funnel — not an abstract “whose CPM is lower.”",
     },
     {
-      q: "Can you lean on old industry rankings?",
-      a: "Only as background. Five-year-old auto/finance shares and targeting tops don’t replace your test and current cabinet reports.",
+      q: "Can I rely on old industry rankings?",
+      a: "Only as background. Five-year-old auto and finance share data and “top targeting” lists don’t replace your own test and current account reports.",
     },
   ],
   sections: [
@@ -40,17 +40,17 @@ export const videosetYandeksaEn: BlogPost = {
       title: "What the Video Network is and why businesses use it",
       level: 2,
       paras: [
-        "Video covers jobs text ads do poorly: show the product in action, a brand face, service emotion. The Video Network extends reach beyond one host — to partner inventory and devices, including Smart TV where the format exists.",
-        "It makes sense when you have a clear creative (even short) and a goal: awareness, warm retargeting, warming before search/performance. Without conversion measurement or brand proxy metrics, it’s easy to buy “pretty views”.",
+        "Video handles jobs text ads do poorly: show the product in action, put a face on the brand, convey emotion. The Video Network extends reach beyond a single host — to partner inventory and devices, including Smart TV where the format is available.",
+        "It makes sense when you have a clear creative (even a short one) and a defined goal: awareness, warm retargeting, or warming prospects before search or performance campaigns. Without conversion tracking or brand proxy metrics, it’s easy to buy “pretty views.”",
       ],
       lists: [
         {
-          intro: "Typical scenarios:",
+          intro: "Typical use cases:",
           items: [
-            "product / season launch;",
+            "product or season launch;",
             "brand support alongside search;",
             "retargeting site visitors;",
-            "warming B2C niches where the decision is emotional.",
+            "warming B2C niches where the buying decision is emotional.",
           ],
         },
       ],
@@ -69,24 +69,24 @@ export const videosetYandeksaEn: BlogPost = {
       title: "Placement formats",
       level: 2,
       paras: [
-        "Classic in-stream: preroll at the start, midroll in the middle, postroll at the end. Historically prerolls dominated share — the viewer hasn’t “entered” the content yet. On Smart TV completion is often higher: people watch longer and click past less.",
-        "Separately — in-page (video next to text) and interstitial in apps. Cabinet sets and names update: follow the current Direct / Yandex video product list, not a screenshot from an old review.",
+        "Classic in-stream: preroll at the start, midroll in the middle, postroll at the end. Historically prerolls dominated — the viewer hasn’t settled into the content yet. On Smart TV, completion is often higher: people watch longer and skip less.",
+        "Separately — in-page (video next to text) and interstitial in apps. Account settings and format names change over time: follow the current Yandex Direct / video product list, not a screenshot from an old review.",
       ],
       lists: [
         {
-          intro: "What to watch when choosing a format:",
+          intro: "What to weigh when choosing a format:",
           items: [
-            "length and skip: can you land the offer;",
-            "device: mobile vs desktop vs TV;",
-            "goal: reach vs click to site;",
-            "creative: is there a version for a short contact.",
+            "length and skip rules: can you land the offer;",
+            "device: mobile vs. desktop vs. TV;",
+            "goal: reach vs. click through to the site;",
+            "creative: do you have a version built for a short contact.",
           ],
         },
       ],
       notes: [
         {
-          title: "On old average CPV",
-          text: "Figures like “preroll 0.29 ₽ per completed view” from 2018 reports can’t be copied into a 2026 plan. Contact cost depends on niche, competition, and creative quality here and now.",
+          title: "On old average CPV figures",
+          text: "Numbers like “preroll 0.29 ₽ per completed view” from 2018 reports can’t be copied into a 2026 plan. Cost per contact depends on niche, competition, and creative quality right now.",
           kind: "tip",
         },
       ],
@@ -95,17 +95,17 @@ export const videosetYandeksaEn: BlogPost = {
       title: "Video length and VTR",
       level: 2,
       paras: [
-        "VTR (completed-view rate) is usually higher for short videos: easier to hold attention. Advertisers often prefer 8–15 seconds — a balance of completion and meaning.",
-        "Don’t chase max VTR at the cost of the message. A video people “finished” but don’t remember the brand or reach the site is weaker than a slightly longer one with a clear CTA and tracking.",
+        "VTR (view-through rate) is usually higher for short videos — easier to hold attention. Advertisers often prefer 8–15 seconds as a balance of completion and message.",
+        "Don’t chase max VTR at the cost of the message. A video people “finished” but don’t remember — or never click through from — is weaker than a slightly longer clip with a clear CTA and tracking.",
       ],
       tables: [
         {
           caption: "Length choice logic (not a price list)",
-          headers: ["Length", "Plus", "Risk"],
+          headers: ["Length", "Strength", "Risk"],
           rows: [
             ["Up to ~7 s", "High completion", "Little room for the offer"],
-            ["~8–15 s", "Meaning/VTR balance", "Needs a strong hook in the first seconds"],
-            ["Longer", "Story / product", "More skips and lower VTR"],
+            ["~8–15 s", "Message/VTR balance", "Needs a strong hook in the first seconds"],
+            ["Longer", "Story or product detail", "More skips and lower VTR"],
           ],
         },
       ],
@@ -114,18 +114,18 @@ export const videosetYandeksaEn: BlogPost = {
       title: "Targeting: from demographics to retargeting",
       level: 2,
       paras: [
-        "Market reviews often led with socio-demo segments, interests (film, sports), and search retargeting / user categories. For your campaign, what matters isn’t “industry top-5” but the link: who buys → which cabinet signal is closer → which creative.",
-        "Start with a narrow relevant segment and site/CRM retargeting (where available), then expand from data. A broad “entertainment interest” without offer and landing is a classic reach burn.",
+        "Market reviews often led with socio-demographic segments, interests (film, sports), and search retargeting / user categories. For your campaign, what matters isn’t an “industry top five” but the link: who buys → which account signal is closest → which creative.",
+        "Start with a narrow, relevant segment and site or CRM retargeting (where available), then expand from the data. A broad “entertainment interest” audience without an offer and landing page is a classic way to burn reach budget.",
       ],
       lists: [
         {
-          intro: "Practical order:",
+          intro: "A practical order:",
           items: [
             "goal and KPI (reach / traffic / conversion);",
-            "1–2 audience hypotheses;",
-            "creative for format length;",
+            "one or two audience hypotheses;",
+            "creative matched to format length;",
             "UTM + Metrika goals;",
-            "one–two week test → clean segments.",
+            "a one- to two-week test → refine segments.",
           ],
         },
       ],
@@ -141,11 +141,11 @@ export const videosetYandeksaEn: BlogPost = {
       ],
     },
     {
-      title: "How to judge results",
+      title: "How to evaluate results",
       level: 2,
       paras: [
-        "Media layer: impressions, reach, frequency, VTR, viewability by placement rules, CPV/CPM in your auction. Marketing: brand search, direct visits, Brand Lift where available. Business: Metrika goals, leads, assisted conversions — last-click often undervalues video.",
-        "Don’t compare “Video Network vs YouTube” by CTR alone. Compare cost per goal action and funnel contribution with comparable creative and period.",
+        "Media layer: impressions, reach, frequency, VTR, viewability by placement rules, CPV/CPM in your auction. Marketing layer: brand search, direct visits, Brand Lift where available. Business layer: Metrika goals, leads, assisted conversions — last-click often undervalues video.",
+        "Don’t compare “Video Network vs. YouTube” by CTR alone. Compare cost per goal action and funnel contribution with comparable creative and time period.",
       ],
       links: [
         {
@@ -162,13 +162,13 @@ export const videosetYandeksaEn: BlogPost = {
       title: "Takeaways",
       level: 2,
       paras: [
-        "The Yandex Video Network is a reach and video-contact tool on partner inventory. Format and length for the job, targeting for your buyer, evaluation by media → brand → business layers.",
-        "Industry “figures and trends” from old reports are useful as market history — not a ready media plan.",
+        "The Yandex Video Network is a reach and video-contact tool on partner inventory. Match format and length to the job, targeting to your buyer, and evaluation to media → brand → business layers.",
+        "Industry “figures and trends” from old reports are useful as market history — not a ready-made media plan.",
       ],
     },
   ],
   closing: [
-    "Build a short creative for the chosen format, set KPI and analytics goals, test 1–2 audiences — and watch funnel contribution, not only VTR from someone else’s half-year review.",
+    "Build a short creative for the chosen format, set KPIs and analytics goals, test one or two audiences — and watch funnel contribution, not just VTR from someone else’s half-year review.",
   ],
   related: [
     "effektivnost-videoreklamy",

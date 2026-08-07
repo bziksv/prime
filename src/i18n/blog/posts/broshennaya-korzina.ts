@@ -5,13 +5,13 @@ export const broshennayaKorzinaEn: BlogPost = {
   slug: "broshennaya-korzina",
   title: "Why shoppers abandon the cart — and what to do about it",
   date: "2019-04-19",
-  category: "Internet marketing",
+  category: "E-commerce",
   cover: "/images/blog/broshennaya-korzina/cover-en.webp",
   excerpt:
     "Abandoned cart: registration, trust and payment, UX and bugs, hidden fees and delivery times, support, and recovery via email/retargeting — without the cult of “zero abandonment”.",
   lead: [
-    "Items in the cart but no order is a normal part of e-commerce — not only a “broken site”. Some people compare prices, get distracted, or were “just looking”. But if checkout drop-off is clearly above your niche baseline — fix the friction.",
-    "Below — common reasons and what to change: registration, trust, payment, usability, cart bugs, long checkout, hidden fees, delivery times, and support. Figures like “70% abandon the cart” from old reviews are order-of-magnitude guides, not your store’s norm — watch your own funnel analytics.",
+    "Items in the cart but no order is a normal part of e-commerce — not only a “broken site.” Some people compare prices, get distracted, or were “just looking.” But if checkout drop-off is clearly above your niche baseline — fix the friction.",
+    "Carts get abandoned over registration friction, weak trust, payment pain, UX bugs, long checkout, hidden fees, slow delivery promises, and silent support. Figures like “70% abandon the cart” from old reviews are order-of-magnitude guides — watch your own funnel analytics.",
   ],
   faq: [
     {
@@ -23,19 +23,19 @@ export const broshennayaKorzinaEn: BlogPost = {
       a: "Often yes on the first order. Guest checkout or a field minimum (name + contact) usually converts better than a long form.",
     },
     {
-      q: "When to show shipping price?",
+      q: "When should you show shipping price?",
       a: "As early as possible: on the product page or before the final step. A surprise at payment is classic abandonment.",
     },
     {
-      q: "Do abandoned-cart emails help?",
+      q: "Do abandoned-cart emails help recover sales?",
       a: "Yes if you have consent and a useful offer (stock, timing, help) — not only “you forgot”. Follow personal-data and advertising rules.",
     },
     {
-      q: "Do you need a live chat?",
+      q: "Do you need a live chat on checkout?",
       a: "Not necessarily a chat widget: fast answers matter — FAQ at checkout, phone, messenger. The point is to clear doubt before they leave.",
     },
     {
-      q: "Do HTTPS and reviews really matter?",
+      q: "Do HTTPS and reviews really matter for checkout?",
       a: "For trust — yes. Without a secure connection, contacts, and a clear return policy, expensive orders often don’t finish.",
     },
   ],

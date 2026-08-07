@@ -11,27 +11,27 @@ export const avatarYoutubeEn: BlogPost = {
     "Why a YouTube channel needs an avatar, image requirements, what to show, and how to change the icon from a computer or phone.",
   lead: [
     "A YouTube avatar is the round channel icon under videos, in search, and in comments. People recognize the brand from it faster than from a long name.",
-    "Below — what the icon is for, quality criteria, and how to update the image. Studio menu items change — look for channel customization.",
+    "The channel icon is how people recognize you in search, subscriptions, and comments. Keep it sharp at tiny sizes; Studio menu items move — look for channel customization.",
   ],
   faq: [
     {
-      q: "How is an avatar different from a channel banner?",
+      q: "How is a YouTube avatar different from a channel banner?",
       a: "The avatar is a small permanent mark. The banner is a wide header cover. Both should share one visual system.",
     },
     {
-      q: "What size should I prepare?",
+      q: "What size should you prepare for a YouTube avatar?",
       a: "Guide — a high-resolution square (often 800×800 px or more). Check exact limits in YouTube Studio help.",
     },
     {
-      q: "Face photo or logo?",
+      q: "Should you use a face photo or a logo?",
       a: "A face — for a personal channel. A logo/mark — for a brand and studio. The main thing is readability in a small circle.",
     },
     {
-      q: "Can I use random images from the web?",
+      q: "Can you use random images from the web?",
       a: "Only if you have rights. Someone else’s stock/character without a license — risk of complaints and bans.",
     },
     {
-      q: "What happens without your own avatar?",
+      q: "What happens without your own YouTube avatar?",
       a: "Google account photo or initials fill in — weaker for channel recognition.",
     },
   ],

@@ -3,7 +3,8 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for relevantnost-sayta — same structure as RU JSON. */
 export const relevantnostSaytaEn: BlogPost = {
   slug: "relevantnost-sayta",
-  title: "Website relevance in plain words: what it is and how to strengthen it",
+  title:
+    "Website relevance in plain words: what it is and how to strengthen it",
   date: "2017-05-10",
   category: "SEO",
   cover: "/images/blog/relevantnost-sayta/cover-en.webp",
@@ -11,7 +12,7 @@ export const relevantnostSaytaEn: BlogPost = {
     "What page relevance to a query means, how formal keyword match differs from a useful answer, and how to check and improve fit without a 4–5% density cult.",
   lead: [
     "Relevance is how well a page matches what the person really wants from a query. It used to be reduced to keyword density; today meaning, answer completeness, behavior, and commercial adequacy matter more.",
-    "Below — a plain definition, kinds of relevance, how to check fit, and what to fix on the site. No magic “4–5% keywords” formula and no reliance on outdated meta Keywords.",
+    "We define it in plain words, separate formal from real-world fit, and show how to check and fix pages—without a magic “4–5% keywords” formula or outdated meta Keywords.",
   ],
   faq: [
     {
@@ -19,32 +20,32 @@ export const relevantnostSaytaEn: BlogPost = {
       a: "How well a page (and the site overall) answers the user’s query: by meaning, completeness, and usability — not only word match.",
     },
     {
-      q: "Formal vs substantive — what’s the difference?",
+      q: "What’s the difference between formal and substantive relevance?",
       a: "Formal — what the algorithm scores from signals (text, links, behavior, etc.). Substantive — whether it’s really a good answer, including assessor input.",
     },
     {
-      q: "Need 4–5% keyword density?",
-      a: "Not as a universal norm. Keywords and synonyms should feel natural; overspam hurts. Guide — intent and readability.",
+      q: "Do I need 4–5% keyword density?",
+      a: "Not as a universal norm. Keywords and synonyms should feel natural; overspam hurts. Guide yourself by intent and readability.",
     },
     {
-      q: "Does meta Keywords help?",
-      a: "For Yandex and Google as a ranking factor — no. Don’t spend resource on it.",
+      q: "Does the meta Keywords tag help?",
+      a: "For Yandex and Google as a ranking factor — no. Don’t spend time on it.",
     },
     {
-      q: "How to check relevance?",
-      a: "By hand: site:/inurl: and compare page type to TOP; rank/visibility tools as an extra slice. One third-party “relevance score” isn’t a verdict.",
+      q: "How do I check relevance?",
+      a: "By hand: site:/inurl: and compare page type to the top results; rank/visibility tools as an extra slice. One third-party “relevance score” isn’t a verdict.",
     },
     {
-      q: "Does relevance mean TOP?",
-      a: "No. Relevance is a condition. Competition, links, tech, brand, and history affect ranks. Page prep — weeks; core TOP buildup planned 2–6 months.",
+      q: "Does relevance mean I’m in the TOP?",
+      a: "No. Relevance is a condition. Competition, links, tech, brand, and history affect ranks. Page prep — weeks; building the core into the TOP is planned for 2–6 months.",
     },
     {
       q: "What matters more: copy or behavior?",
       a: "Both. Copy sets the answer; behavior shows if it satisfied. Empty copy with faked engagement — filter risk.",
     },
     {
-      q: "Where to start improvements?",
-      a: "Match cluster intent to SERP page type, close the user job, remove overspam, fix tech and the snippet.",
+      q: "Where should I start improvements?",
+      a: "Match cluster intent to SERP page type, satisfy the user’s job, remove overspam, fix tech and the snippet.",
     },
   ],
   sections: [
@@ -67,7 +68,7 @@ export const relevantnostSaytaEn: BlogPost = {
       level: 2,
       paras: [
         "Simply: text and link signals combine with quality and behavior. Exact formulas are closed; in practice you need a clear page focus, topic coverage, internal and external links, and no spam.",
-        "Old checklists with “mandatory 4–5% density” and Keywords are a museum. Guide: does the page close the job as well as or better than documents in today’s TOP for that cluster.",
+        "Old checklists with “mandatory 4–5% density” and Keywords are a museum. Ask: does the page answer the job as well as or better than documents in today’s TOP for that cluster.",
       ],
       lists: [
         {
@@ -94,7 +95,7 @@ export const relevantnostSaytaEn: BlogPost = {
       level: 2,
       paras: [
         "Formal — automatic scoring from available signals. Substantive — how good the answer really is for a person; assessors and quality-evaluation learning sit in that loop.",
-        "Hence the practice: a page can “score” keywords formally and still lose to a document that closes the job better and keeps the user.",
+        "Hence the practice: a page can “score” keywords formally and still lose to a document that answers the job better and keeps the user.",
       ],
     },
     {
@@ -164,7 +165,7 @@ export const relevantnostSaytaEn: BlogPost = {
       notes: [
         {
           title: "Timelines",
-          text: "Preparing a relevant page usually takes weeks. Competitive-core TOP buildup planned 2–6 months — not “TOP after one title tweak”.",
+          text: "Preparing a relevant page usually takes weeks. Building a competitive core into the TOP is planned for 2–6 months — not “TOP after one title tweak”.",
           kind: "tip",
         },
       ],

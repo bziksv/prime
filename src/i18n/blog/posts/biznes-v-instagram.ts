@@ -10,12 +10,12 @@ export const biznesVInstagramEn: BlogPost = {
   excerpt:
     "What makes promoting a business on Instagram different: visual focus, niches, content, and conversation — without a catalog of outdated SMM tools or the “30 hashtags” myth.",
   lead: [
-    "Instagram is a visual storefront: first the frame and a short idea, then the text. Business here is built on regular content, a clear offer in the bio, and dialogue with the audience.",
-    "Below — how the platform differs from “text-first” socials, which niches show better in pictures, and how to run the project. Account-type setup lives in the separate business-profile article.",
+    "Instagram is a visual storefront: first the frame and a short idea, then the caption. Business here is built on consistent content, a clear offer in the bio, and real conversation with the audience.",
+    "Instagram is visual-first: niches that show well in pictures usually convert better than pure text offers. Account-type setup lives in the separate business-profile article; here it’s how to run the project day to day.",
   ],
   legalNotice: {
     title: "Dear readers!",
-    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+    text: "This article is for information only and is not an invitation to use the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
@@ -23,20 +23,20 @@ export const biznesVInstagramEn: BlogPost = {
       a: "That one covers profile type, insights, contacts. This one is the running strategy: content, niches, engagement. Read both.",
     },
     {
-      q: "Are 11–30 hashtags required?",
+      q: "Are 11–30 hashtags required on every post?",
       a: "No. A few relevant ones beat a spam sheet. Tag rules and effectiveness have changed.",
     },
     {
-      q: "Which businesses “work” better?",
-      a: "Ones you can show beautifully: food, fashion, beauty, interior, travel, services with visual before/after. B2B can work too — via process and expertise in frames.",
+      q: "Which businesses work better on Instagram?",
+      a: "Ones you can show well visually: food, fashion, beauty, interior, travel, services with visual before/after. B2B can work too — via process and expertise in frames.",
     },
     {
-      q: "Do you need auto-posting?",
-      a: "A scheduler helps with rhythm. Don’t give your password to shady services; stick to official/trusted tools.",
+      q: "Do you need auto-posting tools?",
+      a: "A scheduler helps with rhythm. Don’t hand your password to shady services — stick to official or trusted tools.",
     },
     {
-      q: "Is paid ads required from day one?",
-      a: "No. First the offer, grid, and 15–30 content pieces. Paid ads amplify what’s already clear organically.",
+      q: "Are paid ads required from day one?",
+      a: "No. First nail the offer, the grid, and 15–30 content pieces. Paid ads amplify what’s already clear in organic.",
     },
   ],
   sections: [

@@ -8,18 +8,18 @@ export const hlebnyeKroshkiEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/hlebnye-kroshki/cover-en.webp",
   excerpt:
-    "What breadcrumbs are, why they matter for UX and SEO, which schemes exist, and how to build the trail: none on the homepage, markup for the snippet, no “TOP via breadcrumbs” promises.",
+    "What breadcrumbs are, why they matter for UX and SEO, which types exist, and how to build the trail: none on the homepage, markup for the snippet, no “rankings via breadcrumbs” promises.",
   lead: [
     "Breadcrumbs are the “where am I” trail: Home → Section → Subsection → Page. Someone from search sees the hierarchy at once and can move one level up in a click.",
-    "Below — breadcrumb types, design rules, and the SEO link (internal linking, snippet). This is a navigation layer, not a separate “TOP-1 guarantee” factor.",
+    "They help navigation, internal linking, and sometimes the snippet look — with the right markup. This is a navigation layer, not a separate “top 1 guarantee” factor.",
   ],
   faq: [
     {
-      q: "Need breadcrumbs on a one-pager?",
+      q: "Do I need breadcrumbs on a one-pager?",
       a: "Usually no. They make sense on catalogs, nested services, blogs, and portals.",
     },
     {
-      q: "Put breadcrumbs on the homepage?",
+      q: "Should I put breadcrumbs on the homepage?",
       a: "No. On the home page the trail is redundant and often looks odd.",
     },
     {
@@ -27,15 +27,15 @@ export const hlebnyeKroshkiEn: BlogPost = {
       a: "No: the last item is text without a link to itself. Levels above get links.",
     },
     {
-      q: "Do breadcrumbs get you TOP?",
+      q: "Do breadcrumbs get you rankings?",
       a: "Not as a “ranking button”. They help UX, internal linking, and sometimes the snippet look with correct markup.",
     },
     {
-      q: "Need Schema BreadcrumbList?",
+      q: "Do you need Schema BreadcrumbList?",
       a: "Preferably: raises the chance of breadcrumbs in SERP. It doesn’t replace clear HTML navigation on the page.",
     },
     {
-      q: "Where to place them?",
+      q: "Where should I place them?",
       a: "Usually above the content, in one place on all templates, contrasty and readable on mobile.",
     },
     {
@@ -59,9 +59,9 @@ export const hlebnyeKroshkiEn: BlogPost = {
         {
           intro: "Breadcrumb jobs:",
           items: [
-            "orientation (“system status visibility”);",
-            "quick move one level up;",
-            "extra internal links up the hierarchy;",
+            "orientation (“system status visibility”)",
+            "quick move one level up",
+            "extra internal links up the hierarchy",
             "structure hint in the snippet (with markup).",
           ],
         },
@@ -84,17 +84,17 @@ export const hlebnyeKroshkiEn: BlogPost = {
         {
           intro: "SEO effect that matters:",
           items: [
-            "section ↔ page linking;",
-            "clearer clusters in structure;",
-            "rich breadcrumbs in SERP with valid markup;",
-            "no instant-TOP promises.",
+            "section ↔ page linking",
+            "clearer clusters in structure",
+            "rich breadcrumbs in SERP with valid markup",
+            "no instant-ranking promises.",
           ],
         },
       ],
       notes: [
         {
           title: "Timelines",
-          text: "Adding breadcrumbs is part of UX/structure prep. Core rank buildup planned 2–6 months of systemic work — not “added breadcrumbs — TOP tomorrow”.",
+          text: "Adding breadcrumbs is part of UX/structure prep. Core rank buildup is planned for 2–6 months of systemic work — not “added breadcrumbs — rankings tomorrow”.",
           kind: "tip",
         },
       ],
@@ -120,8 +120,8 @@ export const hlebnyeKroshkiEn: BlogPost = {
         {
           intro: "What to choose:",
           items: [
-            "stores and services — linear hierarchy;",
-            "search/filter results — extra “back to results”;",
+            "stores and services — linear hierarchy",
+            "search/filter results — extra “back to results”",
             "don’t build path-based breadcrumbs just to spam links.",
           ],
         },
@@ -138,10 +138,10 @@ export const hlebnyeKroshkiEn: BlogPost = {
         {
           intro: "Rules:",
           items: [
-            "no breadcrumbs on home;",
-            "last item without href to itself;",
-            "contrast and a stable place;",
-            "names = real sections;",
+            "no breadcrumbs on home",
+            "last item without href to itself",
+            "contrast and a stable place",
+            "names = real sections",
             "match URL/menu logic.",
           ],
         },
@@ -164,8 +164,8 @@ export const hlebnyeKroshkiEn: BlogPost = {
         {
           intro: "Control:",
           items: [
-            "JSON-LD = what’s on screen;",
-            "absolute canonical URLs in markup;",
+            "JSON-LD = what’s on screen",
+            "absolute canonical URLs in markup",
             "no breadcrumbs “for the bot only” without UI.",
           ],
         },
@@ -188,10 +188,10 @@ export const hlebnyeKroshkiEn: BlogPost = {
         {
           intro: "Rollout checklist:",
           items: [
-            "catalog/card/article templates;",
-            "check landing from search;",
-            "mobile layout;",
-            "BreadcrumbList valid;",
+            "catalog/card/article templates",
+            "check landing from search",
+            "mobile layout",
+            "BreadcrumbList valid",
             "crawler sees upper-level links.",
           ],
         },

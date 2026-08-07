@@ -8,10 +8,10 @@ export const analizKonkurentovEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/analiz-konkurentov/cover-en.webp",
   excerpt:
-    "How to estimate competitors’ traffic and visibility: SimilarWeb, Ahrefs, Semrush, and other sources. Why numbers diverge and how not to fool yourself.",
+    "How to estimate competitors’ traffic and visibility: SimilarWeb, Ahrefs, Semrush, and other sources. Why numbers diverge and how not to kid yourself.",
   lead: [
     "Competitor analysis is about order-of-magnitude traffic, channels, and strong pages — not copying someone else’s site. Tool numbers are always estimates: cross-check a few sources and watch magnitude, not fake precision.",
-    "Below — why look at others’ traffic, which tools give a slice, and how to read gaps. Alexa as a mass tool is gone; use current services and common sense.",
+    "Alexa as a mass tool is gone; use current services and common sense. Cross-check SimilarWeb with Ahrefs/Semrush, lock traffic order of magnitude, and write hypotheses for your own site — don’t argue over fake precision.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const analizKonkurentovEn: BlogPost = {
       a: "Different indexes, geos, and click models. Look at order of magnitude and trend — not an “exact” headcount.",
     },
     {
-      q: "Can I know a competitor’s exact traffic?",
+      q: "Can you know a competitor’s exact traffic?",
       a: "Without access to their analytics — no. You get estimates and indirect signals: visibility, ads, social proof.",
     },
     {
@@ -27,12 +27,12 @@ export const analizKonkurentovEn: BlogPost = {
       a: "As a quick channel slice — yes. For SEO cores and links, add Keys.so / Ahrefs / Semrush and a manual SERP review.",
     },
     {
-      q: "Should I trust the “for advertisers” block on a site?",
+      q: "Should you trust the “for advertisers” block on a site?",
       a: "As the owner’s claim — yes, with caveats. Cross-check with tool estimates and the mediakit update date.",
     },
     {
       q: "How is traffic analysis different from parsing?",
-      a: "Here — visit and channel estimates. Parsing is more about collecting prices, catalogs, URLs. See the separate article.",
+      a: "This piece covers visit and channel estimates. Parsing is more about collecting prices, catalogs, URLs. See the separate article.",
     },
   ],
   sections: [
@@ -60,7 +60,7 @@ export const analizKonkurentovEn: BlogPost = {
             "visit estimate and trend;",
             "share of search / direct / social / referral;",
             "top countries;",
-            "rough keywords and landings;",
+            "rough keywords and landing pages;",
             "bounce and depth — only as a coarse signal.",
           ],
         },
@@ -86,7 +86,7 @@ export const analizKonkurentovEn: BlogPost = {
             "no update date;",
             "only “likes” with no visits;",
             "traffic many times above tool estimates with no explanation;",
-            "refusal to show even anonymized cabinet screenshots.",
+            "refusal to show even anonymized account screenshots.",
           ],
         },
       ],
@@ -127,7 +127,7 @@ export const analizKonkurentovEn: BlogPost = {
         },
         {
           label: "Technical SEO audit",
-          href: "/blog/tehnicheskiy-seo-audit/",
+          href: "/en/blog/tehnicheskiy-seo-audit/",
         },
       ],
     },

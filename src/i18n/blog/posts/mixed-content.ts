@@ -8,26 +8,26 @@ export const mixedContentEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/mixed-content/cover-en.webp",
   excerpt:
-    "What mixed content is on an HTTPS site: active and passive HTTP assets, how it hurts, how to find it in DevTools, and how to fix it — without a cult of the “green padlock” or outdated Chrome screenshots.",
+    "What mixed content is on an HTTPS site: active and passive HTTP assets, how it hurts, how to find it in DevTools, and how to fix it — without treating the “green padlock” as gospel or relying on outdated Chrome screenshots.",
   lead: [
     "Mixed content is when a page opens over HTTPS but some resources (images, scripts, styles, iframes) load over HTTP. The browser warns and blocks active content — layout and trust break.",
-    "Below — mixed-content types, SEO impact via UX, and how to fix it. Moving to HTTPS and certificate types live in neighboring pieces; here the focus is “holes” after the migration.",
+    "Types of mixed content, SEO impact via UX, and how to fix it. Moving to HTTPS and certificate types are in related articles; the focus here is holes after you already have a certificate.",
   ],
   faq: [
     {
-      q: "Is this a separate ranking factor?",
+      q: "Is mixed content a separate ranking factor?",
       a: "There’s no direct “mixed content score.” It hurts via blocks, warnings, bounce, and messy mirror indexing. Clean HTTPS is hygiene.",
     },
     {
-      q: "How does active differ from passive?",
+      q: "How does active mixed content differ from passive?",
       a: "Passive — images, video, fonts (often a warning). Active — scripts, CSS, iframes (more often blocked and higher risk).",
     },
     {
-      q: "Are relative URLs (/img/a.jpg) a problem?",
+      q: "Are relative URLs like /img/a.jpg a mixed-content problem?",
       a: "Usually no: they inherit the page protocol. Absolute http:// and hard-coded URLs in CSS/JS break things.",
     },
     {
-      q: "Is an “auto-replace” plugin enough?",
+      q: "Is an auto-replace plugin enough to fix mixed content?",
       a: "Sometimes as a crutch. More reliable: fix sources — CDN/hosting with HTTPS, update templates and content. Backup before mass edits.",
     },
     {
@@ -35,7 +35,7 @@ export const mixedContentEn: BlogPost = {
       a: "It helps if the resource is actually available over HTTPS. Simple “rewriting” won’t save something that isn’t reachable on https.",
     },
     {
-      q: "Link to SSL and migration?",
+      q: "How does mixed content relate to SSL and HTTPS migration?",
       a: "A certificate ≠ a clean page. After 301 to https, check templates for mixed content — see the HTTPS/SEO and SSL pieces.",
     },
   ],
@@ -54,7 +54,7 @@ export const mixedContentEn: BlogPost = {
       level: 2,
       paras: [
         "Warnings and blocks hurt UX: “Not secure,” empty blocks, broken forms. People leave — behavior signals and leads suffer.",
-        "Don’t confuse this with the myth “fix mixed content — instant TOP.” Fix the tech; rankings grow from relevance and demand, not from one padlock in the address bar.",
+        "Don’t confuse this with the myth that fixing mixed content alone puts you in the TOP. Fix the tech; rankings grow from relevance and demand, not from one padlock in the address bar.",
       ],
       lists: [],
       links: [
@@ -64,7 +64,7 @@ export const mixedContentEn: BlogPost = {
         },
         {
           label: "Behavioral factors",
-          href: "/blog/povedencheskie-faktory/",
+          href: "/en/blog/povedencheskie-faktory/",
         },
       ],
     },
@@ -88,9 +88,9 @@ export const mixedContentEn: BlogPost = {
         {
           intro: "Checklist after fixes:",
           items: [
-            "Console clean of mixed content on key URLs;",
-            "forms and analytics/payment scripts work;",
-            "canonical and sitemap are https-only;",
+            "Console clean of mixed content on key URLs",
+            "forms and analytics/payment scripts work",
+            "canonical and sitemap are https-only",
             "no http↔https chains on internal links.",
           ],
         },
@@ -109,18 +109,18 @@ export const mixedContentEn: BlogPost = {
       ],
     },
     {
-      title: "What to remember",
+      title: "Takeaways",
       level: 2,
       paras: [
         "HTTPS page + HTTP resources = mixed content.",
         "Sources and templates first, CDN crutches second.",
-        "Trust and UX hygiene — not a “TOP button.”",
+        "This is trust and UX hygiene — not a ranking shortcut.",
       ],
       lists: [],
     },
   ],
   closing: [
-    "Walk 5 money URLs in DevTools: if Console is silent about Mixed Content — the HTTPS move is finished; if not — fix resource URLs before fine-tuning snippets.",
+    "Walk 5 commercial URLs in DevTools: if Console is silent about Mixed Content — the HTTPS move is finished; if not — fix resource URLs before fine-tuning snippets.",
   ],
   related: [
     "https-seo",

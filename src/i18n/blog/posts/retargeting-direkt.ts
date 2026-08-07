@@ -5,34 +5,34 @@ export const retargetingDirektEn: BlogPost = {
   slug: "retargeting-direkt",
   title: "Retargeting in Yandex Direct: segments, placements, and ads",
   date: "2019-07-03",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/retargeting-direkt/cover-en.webp",
   excerpt:
     "How to optimize retargeting in Direct: Metrika goals and segments, Yandex Audiences, reading stats by display conditions and creatives — without rigid CTR and bounce thresholds from 2019 guides.",
   lead: [
-    "Retargeting in Yandex Direct brings back people who already visited the site, app, or your lists: viewed a product, abandoned a cart, left a lead. The basics of “what retargeting is” are in a separate article; here — setup and optimization in the Direct and Yandex Display Network contour.",
-    "Cabinet UI and report names change. The guide is meaning: segment → display condition → creative → CPA/conversions. We don’t spread rigid norms like “CTR always >0.5%” and “bounce <20%” from old texts: watch your niche and dynamics.",
+    "Retargeting in Yandex Direct brings back people who already visited the site, app, or your lists: viewed a product, abandoned a cart, left a lead. The basics of “what retargeting is” are in a separate article; here we focus on setup and optimization in Direct and the Yandex Display Network.",
+    "Account UI and report names change. Focus on meaning: segment → display condition → creative → CPA/conversions. We don’t push rigid norms like “CTR always >0.5%” and “bounce <20%” from old texts: watch your niche and dynamics.",
   ],
   faq: [
     {
-      q: "How is this different from the general retargeting piece?",
+      q: "How is this different from the general retargeting article?",
       a: "That one covers the concept and types. Here — Direct practice: Metrika/Audiences, display conditions, placements, and bid optimization by segment.",
     },
     {
-      q: "Metrika goals or segments?",
+      q: "Should I use Metrika goals or segments?",
       a: "Goals are a fast start (“reached / didn’t”). Segments are more flexible: behavior, sources, devices, intersections. Often start with goals and strengthen with segments.",
     },
     {
-      q: "Do you need Yandex Audiences?",
+      q: "Do I need Yandex Audiences?",
       a: "Useful for CRM lists, look-alike, geo, and the display pixel — with a lawful contact base and consent. Don’t upload purchased lists.",
     },
     {
-      q: "Can you promise conversion “like everyone else”?",
+      q: "Can I promise conversion “like everyone else”?",
       a: "No. Warm audiences convert better, but results depend on offer, frequency, and excluding buyers.",
     },
     {
       q: "Is retargeting only in the Display Network?",
-      a: "More often yes (networks/display), but schemes depend on campaign type. Check current Direct cabinet capabilities.",
+      a: "More often yes (networks/display), but schemes depend on campaign type. Check current Direct account capabilities.",
     },
   ],
   sections: [
@@ -99,7 +99,7 @@ export const retargetingDirektEn: BlogPost = {
       level: 2,
       paras: [
         "Let the campaign gather data — don’t expect “magic in three days”. Watch clicks, conversions, CPA/goal cost, bounce, and spend together with placements and display conditions.",
-        "CTR and bounce thresholds from old guides (“always >0.5%”, “bounce under 20%”) aren’t universal. The guide is your past periods and comparing segments to each other — not someone else’s “internet norm”.",
+        "CTR and bounce thresholds from old guides (“always >0.5%”, “bounce under 20%”) aren’t universal. Use your past periods and compare segments to each other — not someone else’s “internet norm”.",
       ],
       lists: [
         {
@@ -115,7 +115,7 @@ export const retargetingDirektEn: BlogPost = {
       ],
       links: [
         {
-          label: "Goals in Metrika",
+          label: "Goals in Yandex Metrica",
           href: "/en/blog/metrika-tseli/",
         },
       ],
@@ -125,7 +125,7 @@ export const retargetingDirektEn: BlogPost = {
       level: 2,
       paras: [
         "Segments describe the audience more precisely: not only “reached a goal”, but who they were by device, source, depth. That makes it easier to raise bids on a profitable slice and weaken an empty one.",
-        "Run a couple of segments in parallel with different offers. In Direct reports, watch the slice by display condition (cabinet naming may differ) — compare conversion, CTR, spend.",
+        "Run a couple of segments in parallel with different offers. In Direct reports, watch the slice by display condition (account naming may differ) — compare conversion, CTR, spend.",
       ],
       lists: [
         {

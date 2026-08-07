@@ -5,13 +5,13 @@ export const vebvizorEn: BlogPost = {
   slug: "vebvizor",
   title: "Yandex Webvisor: how to enable and watch session recordings",
   date: "2019-06-18",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/vebvizor/cover-en.webp",
   excerpt:
     "What Webvisor is in Yandex Metrika: how to turn on session recording, what to check on the site, how to filter visits, and why watch selectively — without outdated 1.0/2.0 versions and rigid 2019 limits.",
   lead: [
-    "Webvisor records visitor behavior in Yandex Metrika: where people clicked, how they scrolled, where they stuck in a form or cart. It’s a tool for UX hypotheses — not daily “spying on everyone”.",
-    "Below — what the tool is for, enabling it on the counter, technical conditions, and how to use a sample. UI and storage/volume limits change — check Metrika Help. Click and scroll maps are a related contour; here the focus is session recordings.",
+    "Webvisor records visitor behavior in Yandex Metrika: where people clicked, how they scrolled, where they stuck in a form or cart. It’s a tool for UX hypotheses — not daily “spying on everyone.”",
+    "Enable it on the current counter, check tech constraints, then watch a sample of painful URLs — not every clip. UI and storage limits change, so check Metrika Help. Click and scroll maps are related; here the focus is session recordings.",
   ],
   faq: [
     {
@@ -31,7 +31,7 @@ export const vebvizorEn: BlogPost = {
       a: "No. It suggests hypotheses. Validation is conversion measurement and tests.",
     },
     {
-      q: "Versions 1.0 and 2.0 from old guides?",
+      q: "Do old guides about Webvisor 1.0 and 2.0 still apply?",
       a: "Product history. Today enable current Webvisor in counter settings per Yandex Help — don’t copy the “1.0 vs 2.0” fork.",
     },
   ],
@@ -70,7 +70,7 @@ export const vebvizorEn: BlogPost = {
       title: "How to enable in Metrika",
       level: 2,
       paras: [
-        "In counter settings, turn on Webvisor (often near click/scroll maps and form analytics — the option set depends on the cabinet). Save and make sure the site has the current code for this counter.",
+        "In counter settings, turn on Webvisor (often near click/scroll maps and form analytics — the option set depends on the account). Save and make sure the site has the current code for this counter.",
         "If the counter was installed long ago and Webvisor was enabled later — update the code/container (GTM), or recordings may not appear. First confirm regular visits are flowing.",
       ],
       lists: [
@@ -143,7 +143,7 @@ export const vebvizorEn: BlogPost = {
       title: "From hypothesis to fix",
       level: 2,
       paras: [
-        "A recording alone doesn’t improve conversion. Capture the observation (“button below the fold on mobile”, “phone mask breaks input”), ship a fix, measure the goal/funnel.",
+        "A recording alone doesn’t improve conversion. Capture the observation (“button below the fold on mobile”, “phone mask breaks input”), roll out a fix, measure the goal/funnel.",
         "Don’t use Webvisor to fake behavioral signals, and don’t conclude from one friend’s session.",
       ],
       lists: [

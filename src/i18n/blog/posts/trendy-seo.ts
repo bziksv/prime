@@ -11,7 +11,7 @@ export const trendySeoEn: BlogPost = {
     "How SEO is changing: answers in the SERP without a click, search engines’ own services, meaning-aware text analysis — and practical tips on snippets, content, links, and analytics.",
   lead: [
     "SEO trends haven’t been about “more keys in a paragraph” for a long time. Search engines close part of demand right in the SERP, promote their own services, and understand query meaning better. Organic remains, but the fight is for the click and for trust in the page.",
-    "Below — which shifts matter for strategy and what to do in practice: snippets, useful pages, white-hat mentions, social channels, and webmaster panels. This isn’t a “calendar year” forecast, but durable directions; algorithm names in the press change faster than the sense of the advice.",
+    "We focus on shifts that matter for strategy — snippets, useful pages, white-hat mentions, social channels, and webmaster panels. This isn’t a “calendar year” forecast, but durable directions; algorithm names in the press change faster than the sense of the advice.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const trendySeoEn: BlogPost = {
       a: "Some informational queries close in the SERP. Commercial and complex intents still send people to sites. Strengthen brand, useful landings, and channels beyond one results page.",
     },
     {
-      q: "Should you chase every new algorithm by name?",
+      q: "Should I chase every new algorithm by name?",
       a: "No. Watch the effect: relevance, E-E-A-T signals, tech, UX. Model names in the press change; working with intent and page quality doesn’t.",
     },
     {
@@ -31,7 +31,7 @@ export const trendySeoEn: BlogPost = {
       a: "As a traffic and awareness channel — yes. As a “magic ranking factor” — don’t count on it. Social content complements the site; it doesn’t replace it.",
     },
     {
-      q: "Should you delete “zombie” pages?",
+      q: "Should I delete “zombie” pages?",
       a: "Thin, useless URLs often hurt. Glue with 301 to useful ones or remove from the index thoughtfully. Don’t wipe wholesale without an audit.",
     },
     {
@@ -39,11 +39,11 @@ export const trendySeoEn: BlogPost = {
       a: "Useful if terms are complex and materials are really updated. Formality for a checkbox won’t replace answering the query.",
     },
     {
-      q: "Can you “adapt to trends” and take TOP in a month?",
+      q: "Can I “adapt to trends” and take TOP in a month?",
       a: "In ~a month it’s realistic to tighten tech, snippets, and a content plan. A lasting core share in TOP is more often 2–6 months after work starts.",
     },
     {
-      q: "Where to start from the tips?",
+      q: "Where should I start from these tips?",
       a: "Intent and useful pages → snippets and mobile UX → remove junk from the index → Webmaster/GSC panels → targeted mentions.",
     },
   ],
@@ -53,7 +53,7 @@ export const trendySeoEn: BlogPost = {
       level: 2,
       paras: [
         "First — attention monopolized in the SERP: quick answers, the search engine’s own blocks (maps, marketplaces, video, news, Q&A). Users often get an answer without a click — zero-click. An organic link competes not only with other sites, but with the results page itself.",
-        "Second — meaning-aware parsing of queries and text. Search engines better connect phrasing with intent. Earlier a small site with dense long-tail text optimization could steal traffic from a big brand with “thin” pages. As meaning understanding grew, large properties with broad assortment and trust more often reclaim those queries — if they actually close the need.",
+        "Second — meaning-aware parsing of queries and text. Search engines better connect phrasing with intent. Earlier a small site with dense long-tail text optimization could steal traffic from a big brand with “thin” pages. As meaning understanding grew, large properties with broad assortment and trust more often reclaim those queries — if they actually meet the need.",
       ],
       lists: [
         {
@@ -115,7 +115,7 @@ export const trendySeoEn: BlogPost = {
       level: 2,
       paras: [
         "URL count alone isn’t strength. Keep and strengthen pages that get demand and solve the job; glue thin “zombies” with 301 or carefully pull them from the index. That’s hygiene — not a one-shot “deleted everything — took off”.",
-        "Around content, add phrasing for solving intent: search suggest, related queries, visibility of competitor URLs. Write to close the user’s next question — not only an exact key match.",
+        "Around content, add phrasing for solving intent: search suggest, related queries, visibility of competitor URLs. Write to answer the user’s next question — not only an exact key match.",
       ],
       lists: [
         {
@@ -123,7 +123,7 @@ export const trendySeoEn: BlogPost = {
           items: [
             "audit pages with no traffic and no value;",
             "refresh live materials (and an “updated” signal if true);",
-            "Last-Modified / current sitemap where it fits;",
+            "Last-Modified / current sitemap where it works;",
             "a glossary — if the niche is terminology-heavy.",
           ],
         },

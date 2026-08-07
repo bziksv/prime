@@ -380,6 +380,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  align-items: stretch;
 }
 
 .v6-service {
@@ -397,8 +398,10 @@
 }
 
 .v6-service h3 {
-  margin: 0 0 0.5rem;
+  margin: 0;
   font-size: 0.9375rem;
+  line-height: 1.3;
+  min-height: calc(1.3em * 2);
   color: var(--primary);
 }
 
@@ -407,6 +410,12 @@
   font-size: 0.8125rem;
   color: var(--text-muted);
   line-height: 1.45;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
 }
 
 .v6-flagship {

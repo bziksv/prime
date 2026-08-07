@@ -10,8 +10,8 @@ export const turgenevEn: BlogPost = {
   excerpt:
     "What Ashmanov & Partners’ “Turgenev” checks: text-spam risks, nausea, water, and style — how to read scores, and why it’s not a “Baden-Baden button” or a TOP guarantee.",
   lead: [
-    "“Turgenev” is an online text checker built around risks similar to text spam (including the contour people linked to Yandex’s “Baden-Baden” algorithm). It scores overspam, water, style, and a total risk score.",
-    "Below — who it helps, how the scoring logic works, and how to edit from the report. Score scales and UI changed since 2018 — orient on recommendation meaning and current service Help. A high score ≠ an automatic filter; a zero score ≠ relevance and TOP.",
+    "“Turgenev” is an online text checker built around risks similar to text spam (including the risk cluster people linked to Yandex’s “Baden-Baden” algorithm). It scores overspam, water, style, and a total risk score.",
+    "We cover who it helps, how the scoring logic works, and how to edit from the report. Score scales and UI changed since 2018 — focus on recommendation meaning and current service Help. A high score ≠ an automatic filter; a zero score ≠ relevance and TOP.",
   ],
   faq: [
     {
@@ -27,11 +27,11 @@ export const turgenevEn: BlogPost = {
       a: "Different formulas and focus. Turgenev leans on over-optimization risk and style; Advego — nausea; text.ru — uniqueness/spamminess.",
     },
     {
-      q: "Fixed the score — will I grow into TOP?",
+      q: "If I fixed the score, will I grow into the TOP?",
       a: "Not guaranteed. Clearing clear overspam helps UX and lowers risk. Core positions take planned months of work — not one check.",
     },
     {
-      q: "Can you trust Turgenev alone?",
+      q: "Can I trust Turgenev alone?",
       a: "Better as a bundle: page meaning + another density/uniqueness tool + an editor’s common sense.",
     },
   ],
@@ -74,7 +74,7 @@ export const turgenevEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Don’t confuse with a search verdict",
+          title: "Don’t mix up with a search verdict",
           text: "A site with a “high” score is sometimes in TOP, and “green” copy without meaning isn’t. The score is an edit signal, not an auto filter diagnosis.",
           kind: "tip",
         },
@@ -84,7 +84,7 @@ export const turgenevEn: BlogPost = {
       title: "How to check text",
       level: 2,
       paras: [
-        "Open the current service site (historically turgenev.ashmanov.com), sign up if needed, paste text or a URL per cabinet rules, and run analysis.",
+        "Open the current service site (historically turgenev.ashmanov.com), sign up if needed, paste text or a URL per the service rules, and run analysis.",
         "Don’t watch only the total: expand notes on water, stop words, keywords, and style. Edit surgically — cutting every term repeat on a product card often hurts.",
       ],
       lists: [
@@ -92,7 +92,7 @@ export const turgenevEn: BlogPost = {
           intro: "Practical order:",
           items: [
             "check the draft before publish;",
-            "close critical notes;",
+            "fix critical notes;",
             "reread aloud / on mobile;",
             "verify uniqueness with a separate tool;",
             "don’t chase zero at the topic’s expense.",

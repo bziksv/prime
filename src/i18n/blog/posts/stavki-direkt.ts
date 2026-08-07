@@ -5,21 +5,21 @@ export const stavkiDirektEn: BlogPost = {
   slug: "stavki-direkt",
   title: "Bids in Yandex Direct: setup and management",
   date: "2021-03-05",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/stavki-direkt/cover-en.webp",
   excerpt:
-    "How bidding works in Yandex Direct: manual and automated control, impressions, click price, and what to watch beyond “bid higher”.",
+    "How bidding works in Yandex Direct: manual and automated control, impressions, click price, and what to watch beyond “bid higher.”",
   lead: [
     "A bid in Direct affects show chance and click price, but doesn’t lock a position forever. Auction, ad quality, and landing relevance decide together.",
-    "Below — how to manage bids and impressions. The Direct UI changes — check current strategy names in Yandex help.",
+    "The Direct UI changes — check current strategy names in Yandex Help. We focus on managing bids and impressions without chasing “first place” at any cost.",
   ],
   faq: [
     {
-      q: "Higher bid = always higher position?",
+      q: "Does a higher bid always mean a higher position?",
       a: "Not always. Bid, quality, and predicted CTR all count. Sometimes a more relevant competitor wins.",
     },
     {
-      q: "Manual or auto strategies?",
+      q: "Should I use manual or auto strategies?",
       a: "At the start, often manual control or simple autos with caps. When you have conversions — you can lean more on auto-optimization.",
     },
     {
@@ -27,19 +27,19 @@ export const stavkiDirektEn: BlogPost = {
       a: "Offer, negatives, ad, and landing. An expensive bid on a weak landing burns budget.",
     },
     {
-      q: "Do you need bid adjustments?",
-      a: "Yes: device, region, time — if you have data. Without data, don’t twist everything at once.",
+      q: "Do I need bid adjustments?",
+      a: "Yes: device, region, time — if you have data. Without data, don’t change everything at once.",
     },
     {
-      q: "How do you choose CPC?",
-      a: "From economics: margin, site conversion, target CPA — not from a vacuum “market average”.",
+      q: "How do I choose CPC?",
+      a: "From economics: margin, site conversion, target CPA — not from a vague “market average.”",
     },
     {
-      q: "How often to revisit bids?",
+      q: "How often should I revisit bids?",
       a: "After enough data: usually every few days for active campaigns and weekly for calmer ones. Don’t change dozens of parameters at once.",
     },
     {
-      q: "Can you judge a campaign by CTR alone?",
+      q: "Can I judge a campaign by CTR alone?",
       a: "No. High CTR without leads doesn’t pay for ads. Match clicks to conversions, cost per lead, and inquiry quality.",
     },
   ],
@@ -73,7 +73,7 @@ export const stavkiDirektEn: BlogPost = {
       title: "Managing impressions",
       level: 2,
       paras: [
-        "Impressions depend on bid, competition, and phrase status. Check rare-show reasons in stats: budget, bid, negatives, moderation.",
+        "Impressions depend on bid, competition, and keyword status. Check rare-show reasons in stats: budget, bid, negatives, moderation.",
         "Don’t try to recover reach with one sharp raise. First separate commercial from research queries, check ad–query fit, and exclude off-target wording.",
       ],
       lists: [
@@ -103,13 +103,13 @@ export const stavkiDirektEn: BlogPost = {
             "bidding for bidding’s sake without goals;",
             "one bid for all keywords of different value;",
             "ignoring mobile traffic;",
-            "no link to Metrika.",
+            "no link to Yandex Metrika.",
           ],
         },
       ],
       links: [
         {
-          label: "Installing Metrika",
+          label: "Installing Yandex Metrika",
           href: "/en/blog/metrika-ustanovka/",
         },
       ],
@@ -118,8 +118,8 @@ export const stavkiDirektEn: BlogPost = {
       title: "Manual control and auto strategies",
       level: 2,
       paras: [
-        "Manual control helps when campaigns are new, conversions are scarce, or phrase value differs a lot. You can see which queries burn budget and set priorities carefully.",
-        "Auto strategies shine when the counter sends correct goals and you have a stable data volume. Set a clear conversion-cost or budget target — then don’t change the goal every day.",
+        "Manual control helps when campaigns are new, conversions are scarce, or keyword value differs a lot. You can see which queries burn budget and set priorities carefully.",
+        "Auto strategies shine when analytics sends correct goals and you have a stable data volume. Set a clear conversion-cost or budget target — then don’t change the goal every day.",
       ],
       lists: [
         {
@@ -128,7 +128,7 @@ export const stavkiDirektEn: BlogPost = {
             "Metrika goals match real inquiries;",
             "duplicate goals and test leads are excluded;",
             "the campaign has enough budget to learn;",
-            "traffic types aren’t mixed without need.",
+            "traffic types aren’t mixed without a reason.",
           ],
         },
       ],
@@ -138,7 +138,7 @@ export const stavkiDirektEn: BlogPost = {
       level: 2,
       paras: [
         "Keep a short regular report: spend, clicks, conversions, CPA, share of qualified inquiries, and revenue if you can pass it. Prefer breakdowns by campaign, device, region, and demand groups.",
-        "Change by hypothesis: pause an unprofitable phrase, improve the mobile landing, or tweak the schedule. After a change, let the campaign gather stats and write down the conclusion.",
+        "Change by hypothesis: pause an unprofitable keyword, improve the mobile landing, or tweak the schedule. After a change, let the campaign gather stats and write down the conclusion.",
       ],
       lists: [
         {
@@ -155,7 +155,7 @@ export const stavkiDirektEn: BlogPost = {
         {
           title: "SEO vs paid",
           kind: "tip",
-          text: "Bids buy traffic now. Organic rankings for a core grow separately: site prep roughly weeks to a month; TOP planned 2–6 months of work — not “raise CPC and ranks follow”.",
+          text: "Bids buy traffic now. Organic rankings for a core grow separately: site prep roughly weeks to a month; TOP planned 2–6 months of work — not “raise CPC and ranks follow.”",
         },
       ],
     },

@@ -5,17 +5,17 @@ export const onlaynOplataEn: BlogPost = {
   slug: "onlayn-oplata",
   title: "Online payments on a site: acquiring, aggregator, and what to choose",
   date: "2021-07-08",
-  category: "Internet marketing",
+  category: "E-commerce",
   cover: "/images/blog/onlayn-oplata/cover-en.webp",
   excerpt:
     "How to accept payments on a site: card, Faster Payments (SBP), and wallets; how a gateway differs from an aggregator and a bank acquirer; what to watch on fees, security, and fiscal rules (54-FZ).",
   lead: [
     "Online payments on a site mean taking money by card, via SBP, and other methods — not “to a personal card in chat.” For a store or services it’s about buyer convenience, fees, security, and cash-register law.",
-    "Below — payment methods, the difference between gateway, aggregator, and acquiring, and a typical connection flow. Brands and tariffs change — check current terms; YooKassa is covered separately.",
+    "Gateway, aggregator, and acquiring solve different jobs — pick by volume, methods, and support, then verify tariffs with your bank or provider. Brands change; the connection checklist stays useful.",
   ],
   faq: [
     {
-      q: "Aggregator or bank acquirer?",
+      q: "Should you use an aggregator or a bank acquirer?",
       a: "An aggregator starts faster: one contract — many methods and CMS modules. Direct bank acquiring can be cheaper at scale, but takes longer for approval and integration.",
     },
     {
@@ -27,7 +27,7 @@ export const onlaynOplataEn: BlogPost = {
       a: "Yes — many aggregators offer a payment link / invoice — handy for services and one-off payments.",
     },
     {
-      q: "Is SMS payment worth it?",
+      q: "Is SMS payment worth offering?",
       a: "For micropayments it’s sometimes convenient for buyers, but the fee is often high. As a store’s main channel it’s usually worse than card/SBP.",
     },
     {
@@ -47,10 +47,10 @@ export const onlaynOplataEn: BlogPost = {
         {
           intro: "What to watch when choosing methods:",
           items: [
-            "share of audience with cards / SBP;",
-            "fee per method;",
-            "limits and currency;",
-            "refunds and holds;",
+            "share of audience with cards / SBP",
+            "fee per method",
+            "limits and currency",
+            "refunds and holds",
             "mobile payment UX.",
           ],
         },
@@ -94,10 +94,10 @@ export const onlaynOplataEn: BlogPost = {
         {
           intro: "Before going live:",
           items: [
-            "HTTPS across the site;",
-            "successful and failed test payments;",
-            "emails/webhooks on order status;",
-            "refund scenario;",
+            "HTTPS across the site",
+            "successful and failed test payments",
+            "emails/webhooks on order status",
+            "refund scenario",
             "clarity on who sends the receipt to the buyer.",
           ],
         },
@@ -120,10 +120,10 @@ export const onlaynOplataEn: BlogPost = {
         {
           intro: "Provider selection checklist:",
           items: [
-            "needed methods and geo;",
-            "module for your CMS / API;",
-            "support and SLA;",
-            "dispute and chargeback terms;",
+            "needed methods and geo",
+            "module for your CMS / API",
+            "support and SLA",
+            "dispute and chargeback terms",
             "link to an online cash register.",
           ],
         },

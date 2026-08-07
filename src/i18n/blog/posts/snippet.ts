@@ -11,11 +11,11 @@ export const snippetEn: BlogPost = {
     "How a SERP snippet is built: title, description, breadcrumbs, and rich results. What schema.org / JSON-LD gives you — and why it’s about CTR, not “TOP-1 magic.”",
   lead: [
     "A snippet is the page block in search results: title, URL/breadcrumbs, description, and sometimes extensions (rating, price, FAQ). It decides whether people click your position.",
-    "Below — the basic makeup, rich results, and schema.org markup. A strong snippet lifts CTR; rankings grow from content, tech, and links — not from one piece of structured data alone.",
+    "We cover the basic anatomy, rich results, and schema.org markup. A strong snippet lifts CTR; rankings grow from content, tech, and links—not from one structured-data snippet alone.",
   ],
   faq: [
     {
-      q: "Does description guarantee the snippet text?",
+      q: "Does the meta description guarantee the snippet text?",
       a: "No. The search engine may take another page fragment if it answers the query better. Description is a strong hint, not an order.",
     },
     {
@@ -27,11 +27,11 @@ export const snippetEn: BlogPost = {
       a: "SERP extensions: stars, price, FAQ, recipe, and so on. They appear with valid structured markup and when the result type’s rules are met.",
     },
     {
-      q: "JSON-LD or microdata in HTML?",
-      a: "Both are understood. JSON-LD in `<script type=\"application/ld+json\">` is usually easier to maintain. Check with a rich results validator.",
+      q: "Should I use JSON-LD or microdata in HTML?",
+      a: 'Both are understood. JSON-LD in `<script type="application/ld+json">` is usually easier to maintain. Check with a rich results validator.',
     },
     {
-      q: "Do you need breadcrumbs?",
+      q: "Do I need breadcrumbs in the snippet?",
       a: "Yes for on-site navigation; in the SERP a path also helps show the section. Add BreadcrumbList markup if you want, following the spec.",
     },
   ],
@@ -94,7 +94,7 @@ export const snippetEn: BlogPost = {
       links: [
         {
           label: "SEO site structure",
-          href: "/blog/seo-struktura-sayta/",
+          href: "/en/blog/seo-struktura-sayta/",
         },
       ],
     },

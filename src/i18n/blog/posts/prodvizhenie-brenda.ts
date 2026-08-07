@@ -5,13 +5,13 @@ export const prodvizhenieBrendaEn: BlogPost = {
   slug: "prodvizhenie-brenda",
   title: "How to start promoting a brand: goals, SMART, and SWOT",
   date: "2020-12-04",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/prodvizhenie-brenda/cover-en.webp",
   excerpt:
     "Where to begin brand promotion online: how a goal differs from a task, how to set SMART goals, which mistakes to avoid, and why SWOT comes before channel budget.",
   lead: [
-    "Brand promotion without a strategy quickly becomes a pile of activity: posts for show, articles with no goal, ads with no economics. Online follows the same rules as offline: result first, then the task list.",
-    "Below — goal vs task, SMART framing, common mistakes, and SWOT as a way not to ignore the market. Personal expert brand and branded search traffic are nearby but different topics.",
+    "Brand promotion without a strategy quickly becomes a pile of activity: posts just to look busy, articles with no goal, ads with no economics. Online follows the same rules as offline: result first, then the task list.",
+    "Goal vs task, SMART framing, common mistakes, and SWOT as a way not to ignore the market. Personal expert brands and local offline businesses have separate pieces.",
   ],
   faq: [
     {
@@ -19,11 +19,11 @@ export const prodvizhenieBrendaEn: BlogPost = {
       a: "A goal is the end result (awareness, leads, market share). Tasks are strategy steps: content, SEO, ads, PR. Without a goal, tasks turn into busywork.",
     },
     {
-      q: "What is SMART?",
+      q: "What is a SMART goal?",
       a: "Specific, Measurable, Achievable, Relevant, Time-bound: the goal is concrete, measurable, realistic, tied to the business, and has a deadline.",
     },
     {
-      q: "Why SWOT for a brand?",
+      q: "Why run a SWOT for a brand?",
       a: "To see strengths/weaknesses, opportunities, and threats before picking channels. Otherwise budget goes to familiar tools, not the ones you need.",
     },
     {
@@ -31,11 +31,11 @@ export const prodvizhenieBrendaEn: BlogPost = {
       a: "No. Personal brand is about the expert as a person. Here — about the company mark. They often reinforce each other, but goals and KPIs differ.",
     },
     {
-      q: "How long to wait for SEO effect in a brand plan?",
+      q: "How long should I wait for SEO effect in a brand plan?",
       a: "Site and semantics prep — about a month. Noticeable growth of non-brand positions is planned for 2–6 months. Brand in search also grows from PR/ads, not SEO alone.",
     },
     {
-      q: "Can you go into every channel at once?",
+      q: "Can I go into every channel at once?",
       a: "Better 1–2 priority channels for the goal and resources. Scale after the first measurable results.",
     },
     {
@@ -55,8 +55,8 @@ export const prodvizhenieBrendaEn: BlogPost = {
         {
           intro: "Example chain:",
           items: [
-            "goal — growth in qualified traffic and engagement over a quarter;",
-            "tasks — landing clusters, content plan, social presence under the offer;",
+            "goal — growth in qualified traffic and engagement over a quarter",
+            "tasks — landing clusters, content plan, social presence under the offer",
             "metrics — visits, goals, brand share, CPA/ROMI where fit.",
           ],
         },
@@ -67,16 +67,16 @@ export const prodvizhenieBrendaEn: BlogPost = {
       level: 2,
       paras: [
         "SMART isn’t “magic” — it’s a filter against fuzzy wishes like “become more known”. Each goal should answer: what exactly, how we’ll measure, whether resources allow it, why the business needs it, by which date.",
-        "SEO-contour example: “in 6 months reach N visits/day on target clusters” — only if an audit shows it’s achievable. Prep work takes weeks or ~a month; core ranking growth is planned for 2–6 months, not “TOP in a week”.",
+        "SEO-track example: “in 6 months reach N visits/day on target clusters” — only if an audit shows it’s achievable. Prep work takes weeks or ~a month; core ranking growth is planned for 2–6 months, not “TOP in a week”.",
       ],
       lists: [
         {
           intro: "SMART check:",
           items: [
-            "Specific — the result is clear;",
-            "Measurable — there is a number and a data source;",
-            "Achievable — resources and market allow it;",
-            "Relevant — tied to money/strategy;",
+            "Specific — the result is clear",
+            "Measurable — there is a number and a data source",
+            "Achievable — resources and market allow it",
+            "Relevant — tied to money/strategy",
             "Time-bound — deadline and control points exist.",
           ],
         },
@@ -99,9 +99,9 @@ export const prodvizhenieBrendaEn: BlogPost = {
         {
           intro: "Red flags:",
           items: [
-            "a goal with no number and deadline;",
-            "KPIs only “reach” when the goal is sales;",
-            "budget with no link to allowed CPA;",
+            "a goal with no number and deadline",
+            "KPIs only “reach” when the goal is sales",
+            "budget with no link to allowed CPA",
             "copy-paste of someone else’s tone of voice.",
           ],
         },

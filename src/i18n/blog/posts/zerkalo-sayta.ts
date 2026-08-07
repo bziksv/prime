@@ -11,7 +11,7 @@ export const zerkaloSaytaEn: BlogPost = {
     "What people call a site mirror: www and non-www, extra domains, and copies on other servers. How to merge with 301, why it matters for SEO, and how to verify the main mirror.",
   lead: [
     "A “mirror” in web practice is an almost identical site or the same content under another URL: www and non-www, a backup domain, a copy on another host. For search that’s a duplicate risk if addresses aren’t merged.",
-    "Below — three meanings of the term, legitimate reasons for mirrors, how to glue the main mirror with 301, and how to check. Example `.htaccess` rules are in a separate post; here — logic and order.",
+    "Three meanings of the term, legitimate reasons for mirrors, how to glue the main mirror with 301, and how to check. Example `.htaccess` rules are in a separate post; this one covers logic and order.",
   ],
   faq: [
     {
@@ -20,30 +20,30 @@ export const zerkaloSaytaEn: BlogPost = {
     },
     {
       q: "Is Host in robots.txt enough?",
-      a: "For Yandex Host is outdated. Main — 301 to the canon and settings in Webmaster/GSC.",
+      a: "For Yandex, Host is outdated. The main fix is a 301 to the canon plus settings in Webmaster/GSC.",
     },
     {
-      q: "Redirect or canonical?",
+      q: "Should I use a redirect or a canonical?",
       a: "For host mirrors (www/https/another synonym domain) — almost always 301. Canonical — for parameters and template duplicates on one host.",
     },
     {
-      q: "Need mirrors “to escape a filter”?",
+      q: "Do I need mirrors “to escape a filter”?",
       a: "Moving to a new domain to dodge sanctions is a bad strategy. Fix the cause first; otherwise the filter follows the new name.",
     },
     {
       q: "How many mirrors are OK?",
-      a: "Technically many synonyms (typo domains), but all should 301 to one main URL. Don’t keep several 200 OK with the same content.",
+      a: "Technically many synonyms (typo domains), but all should 301 to one main URL. Don’t keep several 200 OK responses with the same content.",
     },
     {
-      q: "How to verify the merge?",
+      q: "How do I verify the merge?",
       a: "Open the non-canon with `curl -I` / DevTools: should be 301 to the canon. In SERP and Webmaster — one main host.",
     },
     {
-      q: "Are CDN and geo copies the same?",
-      a: "Close in availability idea, but SEO needs one public canonical URL. CDN usually doesn’t spawn separate index hosts.",
+      q: "Are CDN and geo copies the same as mirrors?",
+      a: "Similar in availability idea, but SEO needs one public canonical URL. CDN usually doesn’t spawn separate index hosts.",
     },
     {
-      q: "Link to HTTPS?",
+      q: "Should I also redirect to HTTPS?",
       a: "http→https merge is part of choosing the main mirror. See posts on HTTPS and redirects.",
     },
   ],
@@ -151,7 +151,7 @@ export const zerkaloSaytaEn: BlogPost = {
       level: 2,
       paras: [
         "Request a non-canonical URL: headers should show `301` and `Location` to the canon. In the browser account for redirect cache — check with a clean request.",
-        "In SERP and index reports see which host is shown. “Merge check” tools are a quick glance; truth remains response headers and webmaster cabinets.",
+        "In SERP and index reports see which host is shown. “Merge check” tools are a quick glance; truth remains response headers and webmaster dashboards.",
       ],
       lists: [
         {
@@ -168,7 +168,7 @@ export const zerkaloSaytaEn: BlogPost = {
       notes: [
         {
           title: "Timelines",
-          text: "Merging mirrors is part of prep. Reindex and SERP stabilization take time; core rank buildup planned months — not “TOP the day after a 301”.",
+          text: "Merging mirrors is part of prep. Reindex and SERP stabilization take time; core rank buildup is planned over 2–6 months after launch prep — not “TOP the day after a 301”.",
           kind: "tip",
         },
       ],

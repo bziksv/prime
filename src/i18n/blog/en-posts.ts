@@ -454,6 +454,122 @@ import { bitrixSvoystvaInfoblokovEn } from "./posts/bitrix-svoystva-infoblokov";
 import { registratsiyaDomenaEn } from "./posts/registratsiya-domena";
 import { bitrixAdminEn } from "./posts/bitrix-admin";
 import { hostingEn } from "./posts/hosting";
+import { metrikaKartyEn } from "./posts/metrika-karty";
+import { wordpressUstanovkaEn } from "./posts/wordpress-ustanovka";
+import { bitrixPlyusyMinusyEn } from "./posts/bitrix-plyusy-minusy";
+import { yandeksAuditoriiEn } from "./posts/yandeks-auditorii";
+import { obzorCmsEn } from "./posts/obzor-cms";
+import { obratnyyZvonokEn } from "./posts/obratnyy-zvonok";
+import { skachatStoriesInstagramEn } from "./posts/skachat-stories-instagram";
+import { ideiStorisVkEn } from "./posts/idei-storis-vk";
+import { aktivnostVkEn } from "./posts/aktivnost-vk";
+import { ohvatInstagramEn } from "./posts/ohvat-instagram";
+import { vzaimopiarEn } from "./posts/vzaimopiar";
+import { otlozhennyyPostingInstagramEn } from "./posts/otlozhennyy-posting-instagram";
+import { privetstvieVkEn } from "./posts/privetstvie-vk";
+import { generatorNikovEn } from "./posts/generator-nikov";
+import { ohvatPodpischikovVkEn } from "./posts/ohvat-podpischikov-vk";
+import { podpisFotoInstagramEn } from "./posts/podpis-foto-instagram";
+import { spamVkEn } from "./posts/spam-vk";
+import { urlYoutubeEn } from "./posts/url-youtube";
+import { vovlechennostInstagramEn } from "./posts/vovlechennost-instagram";
+import { soobshhestvaVkEn } from "./posts/soobshhestva-vk";
+import { keisyFacebookAdsEn } from "./posts/keisy-facebook-ads";
+import { zakazchikiKopirayteraEn } from "./posts/zakazchiki-kopiraytera";
+import { naytiChelovekaInstagramEn } from "./posts/nayti-cheloveka-instagram";
+import { postFacebookEn } from "./posts/post-facebook";
+import { videoStoriesInstagramEn } from "./posts/video-stories-instagram";
+import { udalenieAkkauntaInstagramEn } from "./posts/udalenie-akkaunta-instagram";
+import { geymifikatsiyaSocsetiEn } from "./posts/geymifikatsiya-socseti";
+import { arhivInstagramEn } from "./posts/arhiv-instagram";
+import { ssylkaStoriesInstagramEn } from "./posts/ssylka-stories-instagram";
+import { zarabotokGruppyVkEn } from "./posts/zarabotok-gruppy-vk";
+import { neskolkoStoriesInstagramEn } from "./posts/neskolko-stories-instagram";
+import { emodziEn } from "./posts/emodzi";
+import { vovlechennostSocsetiEn } from "./posts/vovlechennost-socseti";
+import { sekretnyyChatTelegramEn } from "./posts/sekretnyy-chat-telegram";
+import { pinterestEn } from "./posts/pinterest";
+import { vtoroyAkkauntInstagramEn } from "./posts/vtoroy-akkaunt-instagram";
+import { prosmotryStoriesInstagramEn } from "./posts/prosmotry-stories-instagram";
+import { promoInstagramEn } from "./posts/promo-instagram";
+import { zakrytyyAkkauntInstagramEn } from "./posts/zakrytyy-akkaunt-instagram";
+import { prosmotrZakrytogoAkkauntaEn } from "./posts/prosmotr-zakrytogo-akkaunta";
+import { sohranenieEfiraInstagramEn } from "./posts/sohranenie-efira-instagram";
+import { muzykaStoriesInstagramEn } from "./posts/muzyka-stories-instagram";
+import { rekomendatsiiTiktokEn } from "./posts/rekomendatsii-tiktok";
+import { nazvanieAuditoriiInstagramEn } from "./posts/nazvanie-auditorii-instagram";
+import { nastroikaReklamyInstagramEn } from "./posts/nastroika-reklamy-instagram";
+import { reklamaTiktokEn } from "./posts/reklama-tiktok";
+import { bazaEmailSocsetiEn } from "./posts/baza-email-socseti";
+import { verifikatsiyaInstagramEn } from "./posts/verifikatsiya-instagram";
+import { socsetiISeoEn } from "./posts/socseti-i-seo";
+import { naymSmmEn } from "./posts/naym-smm";
+import { novostnoySaytEn } from "./posts/novostnoy-sayt";
+import { vremyaPostaInstagramEn } from "./posts/vremya-posta-instagram";
+import { inflyuenserMarketingEn } from "./posts/inflyuenser-marketing";
+import { vidyKontentaSocsetiEn } from "./posts/vidy-kontenta-socseti";
+import { triggernyeRassylkiEn } from "./posts/triggernye-rassylki";
+import { chatBotVkEn } from "./posts/chat-bot-vk";
+import { ideiStoriesInstagramEn } from "./posts/idei-stories-instagram";
+import { heshtegiInstagramEn } from "./posts/heshtegi-instagram";
+import { smmStrategiyaEn } from "./posts/smm-strategiya";
+import { tekstyUzkayaTematikaEn } from "./posts/teksty-uzkaya-tematika";
+import { videoObzorTovaraEn } from "./posts/video-obzor-tovara";
+import { zashchitaKontentaEn } from "./posts/zashchita-kontenta";
+import { matritsaKontentaEn } from "./posts/matritsa-kontenta";
+import { videokontentEn } from "./posts/videokontent";
+import { bystreePisatStatiEn } from "./posts/bystree-pisat-stati";
+import { longridEn } from "./posts/longrid";
+import { strukturaStatiEn } from "./posts/struktura-stati";
+import { stranitsaKontaktovEn } from "./posts/stranitsa-kontaktov";
+import { prizyvKDeystviyuEn } from "./posts/prizyv-k-deystviyu";
+import { ideiKontentProdvizheniyaEn } from "./posts/idei-kontent-prodvizheniya";
+import { vizualizatsiyaDannyihEn } from "./posts/vizualizatsiya-dannyih";
+import { temyDlyaStateyEn } from "./posts/temy-dlya-statey";
+import { gostevoyPostEn } from "./posts/gostevoy-post";
+import { besplatnyeSsylkiEn } from "./posts/besplatnye-ssylki";
+import { kontentnoeProdvizhenieEn } from "./posts/kontentnoe-prodvizhenie";
+import { kontentB2bEn } from "./posts/kontent-b2b";
+import { kartinkiSeoEn } from "./posts/kartinki-seo";
+import { klyuchiYandeksDirektEn } from "./posts/klyuchi-yandeks-direkt";
+import { byudzhetYandeksDirektEn } from "./posts/byudzhet-yandeks-direkt";
+import { mediaplanEn } from "./posts/mediaplan";
+import { zabluzhdeniyaKontekstaEn } from "./posts/zabluzhdeniya-konteksta";
+import { moderatsiyaFacebookAdsEn } from "./posts/moderatsiya-facebook-ads";
+import { targetVkEn } from "./posts/target-vk";
+import { kogortnyyAnalizEn } from "./posts/kogortnyy-analiz";
+import { tipyKampaniyGoogleAdsEn } from "./posts/tipy-kampaniy-google-ads";
+import { analizKonkurentovKontekstEn } from "./posts/analiz-konkurentov-kontekst";
+import { moderatsiyaMeditsinaEn } from "./posts/moderatsiya-meditsina";
+import { podryadchikKontekstEn } from "./posts/podryadchik-kontekst";
+import { tipySsylokEn } from "./posts/tipy-ssylok";
+import { algoritmyGoogleEn } from "./posts/algoritmy-google";
+import { zagolovkiH1H6En } from "./posts/zagolovki-h1-h6";
+import { oshibkiNastroykiKontekstaEn } from "./posts/oshibki-nastroyki-konteksta";
+import { indeksatsiyaSaytaEn } from "./posts/indeksatsiya-sayta";
+import { bidderEn } from "./posts/bidder";
+import { klassifikatsiyaZaprosovEn } from "./posts/klassifikatsiya-zaprosov";
+import { rasshirenieTsenyGoogleEn } from "./posts/rasshirenie-tseny-google";
+import { brifKontekstEn } from "./posts/brif-kontekst";
+import { maloPokazovEn } from "./posts/malo-pokazov";
+import { formatyIzobrazheniyRsyaEn } from "./posts/formaty-izobrazheniy-rsya";
+import { badenBadenEn } from "./posts/baden-baden";
+import { minusinskEn } from "./posts/minusinsk";
+import { auktsionDirektEn } from "./posts/auktsion-direkt";
+import { vyborDomenaEn } from "./posts/vybor-domena";
+import { instrumentyMarketologaEn } from "./posts/instrumenty-marketologa";
+import { emailStrategiyaEn } from "./posts/email-strategiya";
+import { tekstEmailRassylkiEn } from "./posts/tekst-email-rassylki";
+import { emailDlyaBiznesaEn } from "./posts/email-dlya-biznesa";
+import { verstkaEmailEn } from "./posts/verstka-email";
+import { oformlenieEmailEn } from "./posts/oformlenie-email";
+import { pushUvedomleniyaEn } from "./posts/push-uvedomleniya";
+import { uderzhaniePodpischikovEn } from "./posts/uderzhanie-podpischikov";
+import { otzyv2gisEn } from "./posts/otzyv-2gis";
+import { yandeksKatalogEn } from "./posts/yandeks-katalog";
+import { regionSaytaEn } from "./posts/region-sayta";
+import { geotargetingDirektEn } from "./posts/geotargeting-direkt";
+import { chatTelegramEn } from "./posts/chat-telegram";
 
 /**
  * English overlays for blog posts.
@@ -916,41 +1032,157 @@ export const blogTranslationsEn: Record<string, BlogPost> = {
   "registratsiya-domena": registratsiyaDomenaEn,
   "bitrix-admin": bitrixAdminEn,
   hosting: hostingEn,
+  "metrika-karty": metrikaKartyEn,
+  "wordpress-ustanovka": wordpressUstanovkaEn,
+  "bitrix-plyusy-minusy": bitrixPlyusyMinusyEn,
+  "yandeks-auditorii": yandeksAuditoriiEn,
+  "obzor-cms": obzorCmsEn,
+  "obratnyy-zvonok": obratnyyZvonokEn,
+  "skachat-stories-instagram": skachatStoriesInstagramEn,
+  "idei-storis-vk": ideiStorisVkEn,
+  "aktivnost-vk": aktivnostVkEn,
+  "ohvat-instagram": ohvatInstagramEn,
+  vzaimopiar: vzaimopiarEn,
+  "otlozhennyy-posting-instagram": otlozhennyyPostingInstagramEn,
+  "privetstvie-vk": privetstvieVkEn,
+  "generator-nikov": generatorNikovEn,
+  "ohvat-podpischikov-vk": ohvatPodpischikovVkEn,
+  "podpis-foto-instagram": podpisFotoInstagramEn,
+  "spam-vk": spamVkEn,
+  "url-youtube": urlYoutubeEn,
+  "vovlechennost-instagram": vovlechennostInstagramEn,
+  "soobshhestva-vk": soobshhestvaVkEn,
+  "keisy-facebook-ads": keisyFacebookAdsEn,
+  "zakazchiki-kopiraytera": zakazchikiKopirayteraEn,
+  "nayti-cheloveka-instagram": naytiChelovekaInstagramEn,
+  "post-facebook": postFacebookEn,
+  "video-stories-instagram": videoStoriesInstagramEn,
+  "udalenie-akkaunta-instagram": udalenieAkkauntaInstagramEn,
+  "geymifikatsiya-socseti": geymifikatsiyaSocsetiEn,
+  "arhiv-instagram": arhivInstagramEn,
+  "ssylka-stories-instagram": ssylkaStoriesInstagramEn,
+  "zarabotok-gruppy-vk": zarabotokGruppyVkEn,
+  "neskolko-stories-instagram": neskolkoStoriesInstagramEn,
+  emodzi: emodziEn,
+  "vovlechennost-socseti": vovlechennostSocsetiEn,
+  "sekretnyy-chat-telegram": sekretnyyChatTelegramEn,
+  pinterest: pinterestEn,
+  "vtoroy-akkaunt-instagram": vtoroyAkkauntInstagramEn,
+  "prosmotry-stories-instagram": prosmotryStoriesInstagramEn,
+  "promo-instagram": promoInstagramEn,
+  "zakrytyy-akkaunt-instagram": zakrytyyAkkauntInstagramEn,
+  "prosmotr-zakrytogo-akkaunta": prosmotrZakrytogoAkkauntaEn,
+  "sohranenie-efira-instagram": sohranenieEfiraInstagramEn,
+  "muzyka-stories-instagram": muzykaStoriesInstagramEn,
+  "rekomendatsii-tiktok": rekomendatsiiTiktokEn,
+  "nazvanie-auditorii-instagram": nazvanieAuditoriiInstagramEn,
+  "nastroika-reklamy-instagram": nastroikaReklamyInstagramEn,
+  "reklama-tiktok": reklamaTiktokEn,
+  "baza-email-socseti": bazaEmailSocsetiEn,
+  "verifikatsiya-instagram": verifikatsiyaInstagramEn,
+  "socseti-i-seo": socsetiISeoEn,
+  "naym-smm": naymSmmEn,
+  "novostnoy-sayt": novostnoySaytEn,
+  "vremya-posta-instagram": vremyaPostaInstagramEn,
+  "inflyuenser-marketing": inflyuenserMarketingEn,
+  "vidy-kontenta-socseti": vidyKontentaSocsetiEn,
+  "triggernye-rassylki": triggernyeRassylkiEn,
+  "chat-bot-vk": chatBotVkEn,
+  "idei-stories-instagram": ideiStoriesInstagramEn,
+  "heshtegi-instagram": heshtegiInstagramEn,
+  "smm-strategiya": smmStrategiyaEn,
+  "teksty-uzkaya-tematika": tekstyUzkayaTematikaEn,
+  "video-obzor-tovara": videoObzorTovaraEn,
+  "zashchita-kontenta": zashchitaKontentaEn,
+  "matritsa-kontenta": matritsaKontentaEn,
+  "videokontent": videokontentEn,
+  "bystree-pisat-stati": bystreePisatStatiEn,
+  "longrid": longridEn,
+  "struktura-stati": strukturaStatiEn,
+  "stranitsa-kontaktov": stranitsaKontaktovEn,
+  "prizyv-k-deystviyu": prizyvKDeystviyuEn,
+  "idei-kontent-prodvizheniya": ideiKontentProdvizheniyaEn,
+  "vizualizatsiya-dannyih": vizualizatsiyaDannyihEn,
+  "temy-dlya-statey": temyDlyaStateyEn,
+  "gostevoy-post": gostevoyPostEn,
+  "besplatnye-ssylki": besplatnyeSsylkiEn,
+  "kontentnoe-prodvizhenie": kontentnoeProdvizhenieEn,
+  "kontent-b2b": kontentB2bEn,
+  "kartinki-seo": kartinkiSeoEn,
+  "klyuchi-yandeks-direkt": klyuchiYandeksDirektEn,
+  "byudzhet-yandeks-direkt": byudzhetYandeksDirektEn,
+  "mediaplan": mediaplanEn,
+  "zabluzhdeniya-konteksta": zabluzhdeniyaKontekstaEn,
+  "moderatsiya-facebook-ads": moderatsiyaFacebookAdsEn,
+  "target-vk": targetVkEn,
+  "kogortnyy-analiz": kogortnyyAnalizEn,
+  "tipy-kampaniy-google-ads": tipyKampaniyGoogleAdsEn,
+  "analiz-konkurentov-kontekst": analizKonkurentovKontekstEn,
+  "moderatsiya-meditsina": moderatsiyaMeditsinaEn,
+  "podryadchik-kontekst": podryadchikKontekstEn,
+  "tipy-ssylok": tipySsylokEn,
+  "algoritmy-google": algoritmyGoogleEn,
+  "zagolovki-h1-h6": zagolovkiH1H6En,
+  "oshibki-nastroyki-konteksta": oshibkiNastroykiKontekstaEn,
+  "indeksatsiya-sayta": indeksatsiyaSaytaEn,
+  "bidder": bidderEn,
+  "klassifikatsiya-zaprosov": klassifikatsiyaZaprosovEn,
+  "rasshirenie-tseny-google": rasshirenieTsenyGoogleEn,
+  "brif-kontekst": brifKontekstEn,
+  "malo-pokazov": maloPokazovEn,
+  "formaty-izobrazheniy-rsya": formatyIzobrazheniyRsyaEn,
+  "baden-baden": badenBadenEn,
+  "minusinsk": minusinskEn,
+  "auktsion-direkt": auktsionDirektEn,
+  "vybor-domena": vyborDomenaEn,
+  "instrumenty-marketologa": instrumentyMarketologaEn,
+  "email-strategiya": emailStrategiyaEn,
+  "tekst-email-rassylki": tekstEmailRassylkiEn,
+  "email-dlya-biznesa": emailDlyaBiznesaEn,
+  "verstka-email": verstkaEmailEn,
+  "oformlenie-email": oformlenieEmailEn,
+  "push-uvedomleniya": pushUvedomleniyaEn,
+  "uderzhanie-podpischikov": uderzhaniePodpischikovEn,
+  "otzyv-2gis": otzyv2gisEn,
+  "yandeks-katalog": yandeksKatalogEn,
+  "region-sayta": regionSaytaEn,
+  "geotargeting-direkt": geotargetingDirektEn,
+  "chat-telegram": chatTelegramEn,
   "oformlenie-stranicy-instagram": {
     slug: "oformlenie-stranicy-instagram",
-    title: "Instagram page design: visuals, header, and a unified style",
+    title: "Instagram profile design: visuals, header, and a cohesive look",
     date: "2022-03-10",
     category: "SMM",
     cover: "/images/blog/oformlenie-stranicy-instagram/cover-en.webp",
     excerpt:
-      "How to plan your profile visuals: About block, avatar, a consistent feed style, posts, and short video — without clinging to outdated UI buttons.",
+      "How to plan your profile visuals: bio, avatar, a consistent feed style, posts, and short video — without clinging to outdated UI labels.",
     lead: [
-      "Profile visuals decide whether someone stays after the first screen. Below — how to assemble the header, avatar, a consistent feed style, and post design.",
+      "Your profile visuals decide whether someone sticks around after the first screen. Here’s how to put together the header, avatar, a consistent feed style, and post design.",
     ],
     legalNotice: {
-      title: "Dear readers!",
+      title: "Note",
       text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
     },
     faq: [
       {
         q: "Where should I start with profile design?",
-        a: "With positioning: personal blog or commerce. That drives the About text, avatar, and feed style.",
+        a: "With positioning: personal blog or business. That drives the bio, avatar, and feed style.",
       },
       {
-        q: "What should I write in About?",
-        a: "Who you are / what you sell, benefit for the follower, location or hours, a call to action, and a link if needed.",
+        q: "What should I write in the bio?",
+        a: "Who you are / what you sell, the benefit for a follower, location or hours, a clear CTA, and a link if you need one.",
       },
       {
         q: "Why keep a consistent feed style?",
-        a: "The grid looks coherent, the brand is recognizable, and shooting/editing are easier to plan.",
+        a: "The grid looks cohesive, the brand is recognizable, and it’s easier to plan shoots and edits.",
       },
       {
-        q: "Is a business account required?",
-        a: "For commerce it’s more convenient: insights, contacts in the header, ad tools. Exact menu items change — follow the app’s help.",
+        q: "Do I need a business account?",
+        a: "For commerce it’s usually better: insights, contacts in the header, ad tools. Exact menu labels change — check the app’s help.",
       },
       {
         q: "Are Stories and Reels the same?",
-        a: "No. Stories have a short lifespan and timely updates; Reels are short vertical clips for reach in recommendations.",
+        a: "No. Stories are short-lived and good for timely updates; Reels are short vertical clips built for reach in recommendations.",
       },
     ],
     sections: [
@@ -958,33 +1190,33 @@ export const blogTranslationsEn: Record<string, BlogPost> = {
         title: "Personal or business profile",
         level: 2,
         paras: [
-          "In seconds it should be clear: this is about a person or a product. A business account answers “what to buy / order and why you”.",
-          "Then subordinate all visuals to that position: avatar, highlight covers, photo tone, and copy.",
+          "In a couple of seconds it should be obvious: this is about a person or a product. A business account answers “what to buy or order — and why choose you.”",
+          "Then make every visual serve that position: avatar, highlight covers, photo tone, and copy.",
         ],
         lists: [],
       },
       {
-        title: "The About block",
+        title: "The bio",
         level: 2,
         paras: [
-          "This is a short pitch. Write benefits and facts, not a “novel”. Emoji — 2–3 on topic, not a garland.",
+          "It’s a short pitch. Lead with benefits and facts, not a novel. Use two or three on-topic emoji — not a string of them.",
         ],
         lists: [
           {
-            intro: "For commerce people often include:",
+            intro: "Commerce profiles often include:",
             items: [
-              "what you offer and for whom;",
-              "city / hours;",
-              "terms or offer;",
-              "a promo or USP;",
-              "a call to action (message, call, follow the link).",
+              "what you offer and who it’s for",
+              "city / hours",
+              "terms or offer",
+              "a promo or USP",
+              "a call to action (DM, call, or follow the link)",
             ],
           },
         ],
         notes: [
           {
             title: "Tip",
-            text: "Draft the text in notes, check line breaks, then paste into the profile — easier to control the “ladder”.",
+            text: "Draft the bio in Notes, check the line breaks, then paste it into the profile — easier to control how the lines wrap.",
           },
         ],
       },
@@ -992,8 +1224,8 @@ export const blogTranslationsEn: Record<string, BlogPost> = {
         title: "Header and business mode",
         level: 2,
         paras: [
-          "In business/professional mode contacts and insights are usually more available, and the header looks more “operational”. The path in app settings changes — look for switch to business/professional account in the profile menu.",
-          "Fill category and contact buttons so they match the offer in About.",
+          "In business or professional mode, contacts and insights are usually easier to reach, and the header looks more utilitarian. Settings paths change — look for the switch to a business/professional account in the profile menu.",
+          "Set the category and contact buttons so they match the offer in your bio.",
         ],
         lists: [],
       },
@@ -1001,16 +1233,16 @@ export const blogTranslationsEn: Record<string, BlogPost> = {
         title: "Avatar",
         level: 2,
         paras: [
-          "The avatar shows everywhere: feed, comments, recommendations. On a small circle a face, logo, or simple mark must read clearly.",
+          "The avatar shows up everywhere: feed, comments, recommendations. On a tiny circle, a face, logo, or simple mark has to read clearly.",
         ],
         lists: [
           {
-            intro: "Criteria:",
+            intro: "Checklist:",
             items: [
-              "sharp, not blurry photo;",
-              "contrast against the background;",
-              "recognizable without tiny text;",
-              "consistent with highlight covers.",
+              "sharp, not blurry",
+              "enough contrast against the background",
+              "recognizable without tiny text",
+              "consistent with highlight covers",
             ],
           },
         ],
@@ -1019,17 +1251,17 @@ export const blogTranslationsEn: Record<string, BlogPost> = {
         title: "Shooting and a content buffer",
         level: 2,
         paras: [
-          "Daily “fresh” shooting burns you out. Keep a small archive of frames and plan stories ahead.",
-          "Light, horizon, a quiet background, and a series of angles save time in editing.",
+          "Shooting “fresh” every day burns you out. Keep a small archive of frames and plan Stories ahead.",
+          "Good light, a level horizon, a quiet background, and a few angles will save you time in editing.",
         ],
         lists: [
           {
             intro: "Practical habits:",
             items: [
-              "shoot with a buffer;",
-              "check light before publishing;",
-              "clear clutter from the frame;",
-              "take 3–5 takes of one scene.",
+              "shoot with a buffer",
+              "check light before you publish",
+              "clear clutter from the frame",
+              "take 3–5 takes of one scene",
             ],
           },
         ],
@@ -1038,15 +1270,15 @@ export const blogTranslationsEn: Record<string, BlogPost> = {
         title: "A consistent feed style",
         level: 2,
         paras: [
-          "Style is a repeating device: color grade, subjects, frame, type on covers. Pick one “constant” and hold it for 10–20 posts before a radical change.",
+          "Style is a repeating device: color grade, subjects, framing, type on covers. Pick one constant and hold it for 10–20 posts before a major change.",
         ],
         lists: [
           {
-            intro: "Working approaches:",
+            intro: "Approaches that work:",
             items: [
-              "one color grade;",
-              "grid templates (photo / text card alternation);",
-              "a repeating element or composition.",
+              "one color grade",
+              "grid templates (photo / text-card alternation)",
+              "a repeating element or composition",
             ],
           },
         ],
@@ -1055,16 +1287,16 @@ export const blogTranslationsEn: Record<string, BlogPost> = {
         title: "Post design",
         level: 2,
         paras: [
-          "Copy can be short or long — structure matters more: a hook in the first lines, paragraphs, lists, a call at the end. Carousels help spread value across slides.",
+          "Copy can be short or long — structure matters more: a hook in the first lines, paragraphs, lists, and a CTA at the end. Carousels help you spread value across slides.",
         ],
         lists: [
           {
             intro: null,
             items: [
-              "first line — a hook before “more”;",
-              "paragraphs and lists instead of a wall of text;",
-              "hashtags and geo — by meaning, not spam;",
-              "one tone of voice with the profile header.",
+              "first line — a hook before “more”",
+              "paragraphs and lists instead of a wall of text",
+              "hashtags and geo by meaning, not spam",
+              "one tone of voice that matches the profile header",
             ],
           },
         ],
@@ -1073,17 +1305,17 @@ export const blogTranslationsEn: Record<string, BlogPost> = {
         title: "Stories and short video",
         level: 2,
         paras: [
-          "Stories — timely updates and warm-up. Short clips (Reels and analogues) — reach via a dynamic plot. In both cases plan the first frame, captions, and one idea per clip ahead of time.",
-          "Stories live briefly; clips work longer for reach. Don’t mix jobs: day’s news — in Stories, demonstrating value — in a clip.",
+          "Stories are for timely updates and warm-up. Short clips (Reels and similar formats) are for reach with a clear plot. In both cases, plan the first frame, captions, and one idea per clip before you shoot.",
+          "Stories disappear quickly; clips keep working for reach. Don’t mix jobs: day’s news belongs in Stories; showing value belongs in a clip.",
         ],
         lists: [
           {
-            intro: "Before shooting:",
+            intro: "Before you shoot:",
             items: [
-              "one goal for the clip;",
-              "a clear plot for 15–45 seconds;",
-              "on-screen text for watching without sound;",
-              "clean audio and a stable picture.",
+              "one goal for the clip",
+              "a clear plot for 15–45 seconds",
+              "on-screen text for watching without sound",
+              "clean audio and a stable picture",
             ],
           },
         ],
@@ -1106,10 +1338,10 @@ export const blogTranslationsEn: Record<string, BlogPost> = {
     excerpt:
       "How to prepare a live stream: goal, script, tech, announcement, comment handling, and post-stream stats review.",
     lead: [
-      "A live stream is a way to show the product, answer questions, and “wake up” the audience in real time. Below — prep, hosting, and review after the stream. App menu items change: follow the current help docs.",
+      "A live stream is how you show the product, answer questions, and wake the audience up in real time. Here’s prep, hosting, and a post-stream review. App menus change — follow the current help docs.",
     ],
     legalNotice: {
-      title: "Dear readers!",
+      title: "Note",
       text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
     },
     faq: [

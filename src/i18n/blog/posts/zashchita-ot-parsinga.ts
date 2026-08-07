@@ -5,25 +5,25 @@ export const zashchitaOtParsingaEn: BlogPost = {
   slug: "zashchita-ot-parsinga",
   title: "How to protect a site from scraping: captcha, limits, honeypot, and common sense",
   date: "2019-07-22",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/zashchita-ot-parsinga/cover-en.webp",
   excerpt:
     "Protecting a site from aggressive scraping: bot behavior, honeypots, IP analysis/limits, WAF/CDN — and why you mustn’t cut search crawlers together with the bad actors.",
   lead: [
-    "Scrapers pull prices, copy, reviews, and catalogs. You can’t fully “close” a site from a motivated collector, but you can make the attack much more expensive and cut harm to the server and SEO.",
-    "Below — working protection layers and typical mistakes. What scraping is and ethical boundaries of collection are in a neighboring piece; here — the site owner’s side. No how-tos for bypassing protection.",
+    "Scrapers harvest prices, copy, reviews, and full catalogs. You can’t make a public site scraper-proof, but you can raise the cost of collection and limit damage to performance and SEO.",
+    "Practical layers and common mistakes — without explaining how to bypass protection. What scraping is and where ethical collection ends are covered elsewhere; this piece is for site owners.",
   ],
   faq: [
     {
-      q: "Captcha on every page — a good plan?",
+      q: "Is captcha on every page a good plan?",
       a: "Usually no: it hits UX and conversion. Better risk scoring and a challenge only on suspicious behavior.",
     },
     {
-      q: "Can you block all bots?",
-      a: "No. You need “white” search crawlers and preview services. Cut anomalous traffic, not all robotic traffic.",
+      q: "Can I block all bots?",
+      a: "No. You need “good” search crawlers and preview services. Cut anomalous traffic, not all robotic traffic.",
     },
     {
-      q: "Does robots.txt help?",
+      q: "Does robots.txt help against scrapers?",
       a: "For well-behaved robots — yes. A malicious scraper ignores it; it’s not the only defense.",
     },
     {
@@ -31,7 +31,7 @@ export const zashchitaOtParsingaEn: BlogPost = {
       a: "A hidden bait (link/field) a human doesn’t see but a dumb bot touches. Helps detect — not a silver bullet.",
     },
     {
-      q: "Are CDN/WAF required?",
+      q: "Are CDN and WAF required?",
       a: "For high load and frequent attacks — useful (limits, bot management). A small site often needs rate limit + log monitoring.",
     },
     {

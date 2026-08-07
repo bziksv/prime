@@ -5,25 +5,25 @@ export const tsenaKlikaYandeksEn: BlogPost = {
   slug: "tsena-klika-yandeks",
   title: "Click price in Yandex: how to calculate a suitable bid",
   date: "2021-02-19",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/tsena-klika-yandeks/cover-en.webp",
   excerpt:
-    "How to derive an acceptable CPC from target CPA and site conversion, why Metrica matters, and why an “average market click price” without economics is useless.",
+    "How to derive an acceptable CPC from target CPA and site conversion, why Yandex Metrika matters, and why an “average market click price” without economics is useless.",
   lead: [
     "In Yandex Direct it’s easy to chase position and forget what a click can cost the business. If you’re ready to pay X per lead and the site converts Y% of clicks, the bid ceiling is calculated before launch — not after burning the budget.",
-    "Below — a simple formula from CPA and conversion, a numeric example, and limits (season, competition, lead quality). CPM/CPC models and bid control are in neighboring posts.",
+    "Use this simple formula from CPA and conversion, a numeric example, and limits (season, competition, lead quality). CPM/CPC models and bid control are in related posts.",
   ],
   faq: [
     {
-      q: "What’s the click-price formula?",
+      q: "What is the click-price formula?",
       a: "Guide: acceptable CPC ≈ target CPA × (conversion to goal / 100). Conversion is the share of clicks that became a lead/order.",
     },
     {
       q: "Where does conversion come from?",
-      a: "From Metrica/analytics on ad traffic with goals set. No data — start with a cautious hypothesis (often around 1%) and refine from facts.",
+      a: "From Yandex Metrika/analytics on ad traffic with goals set. No data — start with a cautious hypothesis (often around 1%) and refine from facts.",
     },
     {
-      q: "What is CPA here?",
+      q: "What is CPA in this formula?",
       a: "How much you’re ready to pay for a useful action: lead, call, order. Higher margin and LTV — higher ceiling; otherwise ads lose money even with a “pretty” CTR.",
     },
     {
@@ -31,7 +31,7 @@ export const tsenaKlikaYandeksEn: BlogPost = {
       a: "The market may demand above your ceiling. Then cut irrelevant traffic, improve the ad and landing, or narrow semantics — don’t raise the bid at a loss.",
     },
     {
-      q: "Calculate for the whole site or per product?",
+      q: "Should I calculate for the whole site or per product?",
       a: "Better by segments: categories differ in conversion and margin. Sometimes it’s smarter to run strong positions, not the whole catalog.",
     },
     {
@@ -55,7 +55,7 @@ export const tsenaKlikaYandeksEn: BlogPost = {
         {
           intro: "Minimum data:",
           items: [
-            "Metrica goal (lead, call, purchase);",
+            "Yandex Metrika goal (lead, call, purchase);",
             "target CPA from margin / LTV;",
             "click → goal conversion;",
             "niche seasonality awareness.",

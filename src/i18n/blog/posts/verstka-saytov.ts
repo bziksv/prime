@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for verstka-saytov — same structure as RU JSON. */
 export const verstkaSaytovEn: BlogPost = {
   slug: "verstka-saytov",
-  title: "Website layout: what it is, stages, and quality criteria",
+  title: "Website front-end layout: what it is, stages, and quality bars",
   date: "2022-01-17",
-  category: "SEO",
+  category: "Digital marketing",
   cover: "/images/blog/verstka-saytov/cover-en.webp",
   excerpt:
-    "What an HTML layout engineer does: from mockup to page. Work stages, HTML/CSS, responsive design, QA, and the SEO link.",
+    "What a front-end layout engineer does: from mockup to live page. Stages, HTML/CSS, responsive design, QA, and the SEO connection.",
   lead: [
-    "Layout turns a design mockup into a working web page: HTML sets structure, CSS — look, and when needed JS — behavior.",
-    "Below — the layout engineer’s role in the “copy → design → code” chain, a modern process, and an acceptance checklist. Table-based page layout as the norm is history.",
+    "Layout turns a design mockup into a working web page: HTML sets structure, CSS sets appearance, and JS adds behavior when you need it.",
+    "The layout engineer sits in the copy → design → code chain: semantics, CSS, responsive behavior, and an acceptance checklist. Full-page table layouts as the default are history.",
   ],
   faq: [
     {
@@ -20,19 +20,19 @@ export const verstkaSaytovEn: BlogPost = {
     },
     {
       q: "Is JavaScript always required?",
-      a: "No. Start with semantics and CSS. JS — when you can’t do without it (complex behavior), and so content stays available.",
+      a: "No. Start with semantics and CSS. Add JS when you can’t do without it (complex behavior) — and keep content available without it when you can.",
     },
     {
-      q: "Table layout or block layout?",
-      a: "For page layouts today — CSS (flex/grid) and semantic blocks. Tables — for tabular data, not the whole site grid.",
+      q: "Should you use tables or CSS blocks for page layout?",
+      a: "For page layouts today — CSS (flex/grid) and semantic blocks. Tables are for tabular data, not the whole site grid.",
     },
     {
       q: "How does layout affect SEO?",
-      a: "Through headings, lists, text accessibility, speed, mobile usability, and no critical markup errors.",
+      a: "Through headings, lists, text accessibility, speed, mobile usability, and avoiding critical markup errors.",
     },
     {
-      q: "What to check before handoff?",
-      a: "Cross-browser, responsive, validity/console, images and fonts, clickability, basic accessibility.",
+      q: "What should you check before handoff?",
+      a: "Cross-browser rendering, responsive behavior, validity/console, images and fonts, clickability, and basic accessibility.",
     },
   ],
   sections: [
@@ -40,15 +40,15 @@ export const verstkaSaytovEn: BlogPost = {
       title: "What layout is",
       level: 2,
       paras: [
-        "Simply: the designer builds a mockup; the layout engineer builds the page the browser opens. Like a magazine: copy → page layout → print; on the web print is replaced by an HTML page.",
-        "In practice you need: working with graphics from the mockup, HTML, CSS, basic JS, and understanding browser and mobile-screen limits.",
+        "Simply: the designer builds a mockup; the layout engineer builds the page the browser opens. Think of a magazine: copy → page layout → print; on the web, print becomes an HTML page.",
+        "In practice you need: working with graphics from the mockup, HTML, CSS, basic JS, and a feel for browser and mobile-screen limits.",
       ],
       lists: [
         {
           intro: "What the business gets:",
           items: [
-            "pages matching the approved design;",
-            "responsive for phone and desktop;",
+            "pages that match the approved design;",
+            "responsive behavior on phone and desktop;",
             "code you can maintain;",
             "a base for CMS and SEO structure.",
           ],
@@ -65,7 +65,7 @@ export const verstkaSaytovEn: BlogPost = {
       title: "Work stages",
       level: 2,
       paras: [
-        "Start — study the mockup: grid, fonts, button states, mobile screens. Then slice graphics, base markup, styles, behavior, tests.",
+        "Start by studying the mockup: grid, fonts, button states, mobile screens. Then slice graphics, build base markup, styles, behavior, and tests.",
       ],
       lists: [
         {
@@ -83,7 +83,7 @@ export const verstkaSaytovEn: BlogPost = {
       notes: [
         {
           title: "Common mistake",
-          text: "Laying out “as it goes” without a mobile mockup. Most traffic is phones; bake responsive in from the start.",
+          text: "Laying out “as you go” without a mobile mockup. Most traffic is phones; bake responsive in from the start.",
         },
       ],
     },
@@ -91,7 +91,7 @@ export const verstkaSaytovEn: BlogPost = {
       title: "HTML and CSS today",
       level: 2,
       paras: [
-        "HTML describes block meaning: headings, lists, navigation, forms. CSS — look and layout. Flexbox and Grid cover grids without table hacks.",
+        "HTML describes what blocks mean: headings, lists, navigation, forms. CSS handles look and layout. Flexbox and Grid cover grids without table hacks.",
         "Keep styles separate from markup. Repeating values are easier as variables and a shared design system.",
       ],
       lists: [
@@ -101,7 +101,7 @@ export const verstkaSaytovEn: BlogPost = {
             "one H1 per page by meaning;",
             "lists via ul/ol, not “paragraphs with bullet images”;",
             "meaningful image alt text;",
-            "buttons and links distinguishable;",
+            "buttons and links that are easy to tell apart;",
             "don’t duplicate huge inline styles.",
           ],
         },
@@ -121,8 +121,8 @@ export const verstkaSaytovEn: BlogPost = {
             "correct look in current browsers;",
             "mobile version without pointless horizontal scroll;",
             "no critical console errors;",
-            "indexable text, not as an image;",
-            "images with sizes/optimization;",
+            "indexable text, not trapped in an image;",
+            "images with sizes and optimization;",
             "clear code structure for the next developer.",
           ],
         },
@@ -144,16 +144,16 @@ export const verstkaSaytovEn: BlogPost = {
       title: "Tools",
       level: 2,
       paras: [
-        "Code editor, browser DevTools, a graphics editor or Figma for mockups, validators and cross-browser check services — by task. Specific program names change; skill matters, not a 2015 IDE cult.",
+        "Code editor, browser DevTools, a graphics editor or Figma for mockups, validators and cross-browser check services — pick by task. Tool names change; skill matters more than a 2015 IDE cult.",
       ],
       lists: [
         {
           intro: "Minimum to start:",
           items: [
-            "a convenient editor with highlighting;",
+            "a solid editor with highlighting;",
             "Chrome/Firefox DevTools;",
-            "check on a real phone;",
-            "control image weight.",
+            "checks on a real phone;",
+            "control over image weight.",
           ],
         },
       ],
@@ -177,7 +177,7 @@ export const verstkaSaytovEn: BlogPost = {
       links: [
         {
           label: "Technical SEO audit",
-          href: "/blog/tehnicheskiy-seo-audit/",
+          href: "/en/blog/tehnicheskiy-seo-audit/",
         },
       ],
     },

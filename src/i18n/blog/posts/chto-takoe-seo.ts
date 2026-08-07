@@ -8,15 +8,15 @@ export const chtoTakoeSeoEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/chto-takoe-seo/cover-en.webp",
   excerpt:
-    "What SEO is in plain words: why business needs search, how it differs from offline ads, what the work includes, and why site prep isn’t the same as reaching TOP-10.",
+    "What SEO is in plain English: why business needs search, how it differs from offline ads, what the work includes, and why site prep isn’t the same as reaching TOP-10.",
   lead: [
-    "SEO (Search Engine Optimization) is a set of work so the site is found for the right queries in Yandex and Google and that traffic turns into inquiries. It isn’t a “TOP button in a week” and not manipulation to trick an algorithm.",
-    "Below — a plain definition, a comparison with offline ads, what the work includes, and what a client should understand. Site prep usually takes weeks; steady competitive-core rank buildup planned 2–6 months after work starts.",
+    "SEO (Search Engine Optimization) is the work that helps the right people find your site in Google and Yandex — and turn that traffic into inquiries. It isn’t a “TOP button in a week,” and it isn’t about tricking an algorithm.",
+    "Below: a plain definition, a comparison with offline ads, what the work includes, and what a client should understand. Site prep usually takes weeks; steady rank growth on a competitive keyword set is planned over 2–6 months after work starts — prep is not TOP.",
   ],
   faq: [
     {
-      q: "What is SEO in plain words?",
-      a: "Actions on and around the site so target search queries more often bring people to your pages — and those people can buy / leave a lead.",
+      q: "What is SEO in plain English?",
+      a: "Actions on and around the site so target search queries more often bring people to your pages — and those people can buy or send a lead.",
     },
     {
       q: "Is SEO a guaranteed TOP-10?",
@@ -24,27 +24,27 @@ export const chtoTakoeSeoEn: BlogPost = {
     },
     {
       q: "How is SEO better than a street banner?",
-      a: "In search the person already looks for a product/service. The audience is warmer than random passers-by. But the site, service, and prices still have to handle the flow.",
+      a: "In search the person already looks for a product or service. The audience is warmer than random passersby. But the site, service, and prices still have to handle the flow.",
     },
     {
       q: "What do people do in SEO in practice?",
-      a: "Semantics and structure, tech and indexing, intent-led content, internal linking, snippets, analytics; then external signals and support. Details are in related guides.",
+      a: "Keyword research and structure, tech and indexing, intent-led content, internal linking, snippets, analytics; then external signals and ongoing support. Details are in related guides.",
     },
     {
       q: "Does SEO work without a sales function?",
       a: "Weakly. If nobody answers the phone and the offer is worse than the market, ranks won’t save profit.",
     },
     {
-      q: "How long to wait for results?",
-      a: "Prep for promotion — often weeks to a month. A noticeable core chunk nearer 2–3 months; competitive phrases fill in toward 4–6 months “as it goes”, not a date guarantee.",
+      q: "How long should I wait for results?",
+      a: "Prep for promotion — often weeks to about a month. A noticeable chunk of the keyword set often shows nearer 2–3 months; competitive keywords fill in toward 4–6 months as things go — not a date guarantee.",
     },
     {
       q: "How does SEO differ from paid search?",
-      a: "Paid search pays per click right away. SEO builds organic longer, but a search click isn’t billed like in Direct. Channels often complement each other.",
+      a: "Paid search pays per click right away. SEO builds organic visibility longer, but a search click isn’t billed the way it is in Yandex Direct or Google Ads. Channels often complement each other.",
     },
     {
       q: "Where should a business owner start?",
-      a: "Check if the service is searched in the region, put the site in order (mobile, contacts, key pages), set analytics — then a semantics plan. See SEO for small business.",
+      a: "Check if the service is searched in the region, put the site in order (mobile, contacts, key pages), set analytics — then a keyword plan. See SEO for small business.",
     },
   ],
   sections: [
@@ -52,8 +52,8 @@ export const chtoTakoeSeoEn: BlogPost = {
       title: "A definition without mystique",
       level: 2,
       paras: [
-        "SEO isn’t “hacking the SERP” — it’s work on matching the site to demand: clear pages for queries, tech robots and people can use, useful content, and trust buildup.",
-        "The business goal isn’t an abstract “TOP for TOP’s sake”, but visibility on queries that bring leads and sales. So you watch ranks, organic traffic, and conversions.",
+        "SEO isn’t hacking the SERP — it’s work on matching the site to demand: clear pages for queries, tech robots and people can use, useful content, and trust buildup.",
+        "The business goal isn’t an abstract “TOP for TOP’s sake,” but visibility on queries that bring leads and sales. So you watch ranks, organic traffic, and conversions.",
       ],
       notes: [
         {
@@ -77,7 +77,7 @@ export const chtoTakoeSeoEn: BlogPost = {
             "there is steady search demand;",
             "the site can take leads;",
             "you’re ready to serve clients after the click;",
-            "you have a months horizon, not “result by Friday”.",
+            "you have a months-long horizon, not “result by Friday.”",
           ],
         },
       ],
@@ -86,19 +86,19 @@ export const chtoTakoeSeoEn: BlogPost = {
       title: "What the work includes",
       level: 2,
       paras: [
-        "Usually start with site readiness: indexing, mobile, speed, contacts, base landings. In parallel — semantics and structure: which queries matter and which URLs answer them.",
-        "Then — content and on-page, goal analytics, then external signals and regular support. Filters and spam methods are cut from the strategy: risk of losing what you already built.",
+        "Usually start with site readiness: indexing, mobile, speed, contacts, base landings. In parallel — keyword research and structure: which queries matter and which URLs answer them.",
+        "Then — content and on-page, goal analytics, then external signals and regular support. Filters and spam methods are cut from the strategy: you risk losing what you already built.",
       ],
       lists: [
         {
-          intro: "Stage frame:",
+          intro: "Typical stages:",
           items: [
             "audit and tech;",
-            "core and structure;",
+            "keyword set and structure;",
             "intent-led content;",
             "snippets and internal linking;",
             "lead measurement;",
-            "external loop and support.",
+            "external signals and support.",
           ],
         },
       ],
@@ -108,7 +108,7 @@ export const chtoTakoeSeoEn: BlogPost = {
           href: "/en/blog/vnutrennie-faktory/",
         },
         {
-          label: "Semantic core",
+          label: "Semantic keyword set",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {
@@ -121,13 +121,13 @@ export const chtoTakoeSeoEn: BlogPost = {
       title: "What a client should understand",
       level: 2,
       paras: [
-        "A contractor isn’t a “wizard”: SEO strengthens the flow, but sales are made by the business. Prices, reply speed, stock — part of the result.",
-        "Judge a contractor by plan clarity, reports, and cases — not a promise of “100% TOP for a fixed fee with no timeline”. A flat “retainer with no KPI” often yields cosmetics; discuss payment for the job, but rank timelines still live in months.",
+        "A contractor isn’t a wizard: SEO strengthens the flow, but sales are made by the business. Prices, reply speed, stock — part of the result.",
+        "Judge a contractor by plan clarity, reports, and cases — not a promise of “100% TOP for a fixed fee with no timeline.” A flat retainer with no KPIs often yields cosmetics; discuss payment for the job, but rank timelines still live in months.",
       ],
       notes: [
         {
           title: "Timelines",
-          text: "“Launch in 2–3 months” in old contracts often mixed prep and TOP. Today separate them: site prep — weeks; core TOP buildup — planned 2–6 months of systemic work.",
+          text: "“Launch in 2–3 months” in old contracts often mixed prep and TOP. Today separate them: site prep — weeks; keyword-set TOP buildup — planned 2–6 months of systemic work.",
           kind: "tip",
         },
       ],

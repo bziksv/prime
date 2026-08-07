@@ -5,13 +5,13 @@ export const obzorBrauzerovEn: BlogPost = {
   slug: "obzor-brauzerov",
   title: "Browser overview: how to choose for your tasks",
   date: "2018-02-14",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/obzor-brauzerov/cover-en.webp",
   excerpt:
     "Chrome, Firefox, Edge, Opera, Vivaldi, and Yandex Browser: what to watch when choosing — extensions, privacy, ecosystem — without 2018 rankings and a single “champion.”",
   lead: [
-    "A browser is the environment where you open sites, ad cabinets, and email. There is no “best for everyone”: ecosystem, extensions, privacy, habit, and devices matter.",
-    "Below — selection criteria and strengths of product classes. Market shares, “2-second launch,” and Edge/Opera status from 2018 reviews aged out: Edge moved to Chromium, extension catalogs grew. Yandex Browser install is covered separately.",
+    "A browser is the environment where you open sites, ad accounts, and email. There is no “best for everyone”: ecosystem, extensions, privacy, habit, and devices matter.",
+    "Pick by scenario — not by 2018 rankings. Market shares, “2-second launch,” and Edge/Opera status from old reviews are outdated; strengths of product classes still help you shortlist.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const obzorBrauzerovEn: BlogPost = {
       a: "Depends on the PC, network, and version. Watch updates and your scenarios — not figures from a 2018 article.",
     },
     {
-      q: "Is Chrome required for SEO?",
+      q: "Is Chrome required for SEO work?",
       a: "No. DevTools and extensions are handy; many Chromium browsers are close. Firefox is also used at work.",
     },
     {
@@ -31,8 +31,8 @@ export const obzorBrauzerovEn: BlogPost = {
       a: "It leaves fewer traces on the device, but doesn’t make you anonymous to the site, network, and extensions. For tracking, check privacy settings and separate tools.",
     },
     {
-      q: "Do you need several browsers?",
-      a: "Often yes: a primary plus a second for layout/cabinet checks. The key is updating both.",
+      q: "Do you need several browsers for testing?",
+      a: "Often yes: a primary plus a second for layout/account checks. The key is updating both.",
     },
   ],
   sections: [
@@ -47,11 +47,11 @@ export const obzorBrauzerovEn: BlogPost = {
         {
           intro: "Selection checklist:",
           items: [
-            "needed OS and mobile clients;",
-            "extensions for your tasks;",
-            "sync and password manager;",
-            "privacy / tracking settings;",
-            "integration with needed services;",
+            "needed OS and mobile clients",
+            "extensions for your tasks",
+            "sync and password manager",
+            "privacy / tracking settings",
+            "integration with needed services",
             "willingness to update regularly.",
           ],
         },
@@ -133,10 +133,10 @@ export const obzorBrauzerovEn: BlogPost = {
         {
           intro: "Short algorithm:",
           items: [
-            "state 2–3 main scenarios;",
-            "pick 2 candidates;",
-            "import bookmarks temporarily;",
-            "check needed extensions;",
+            "state 2–3 main scenarios",
+            "pick 2 candidates",
+            "import bookmarks temporarily",
+            "check needed extensions",
             "keep a primary + a spare for tests.",
           ],
         },
@@ -146,7 +146,7 @@ export const obzorBrauzerovEn: BlogPost = {
       title: "Takeaways",
       level: 2,
       paras: [
-        "Choosing a browser is about tasks and ecosystem, not an eternal ranking. Update software, download from official sites, and don’t confuse installing one product with reviewing the whole market.",
+        "Choosing a browser is about tasks and ecosystem, not an endless ranking. Update software, download from official sites, and don’t confuse installing one product with reviewing the whole market.",
         "Yandex Browser install — in a separate guide; marketing and SEO extensions — in related pieces.",
       ],
     },

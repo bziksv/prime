@@ -5,13 +5,13 @@ export const giperlokalnyyTargetingEn: BlogPost = {
   slug: "giperlokalnyy-targeting",
   title: "Hyperlocal targeting for business: who needs it and how to pick a tool",
   date: "2019-09-16",
-  category: "Internet marketing",
+  category: "Paid search",
   cover: "/images/blog/giperlokalnyy-targeting/cover-en.webp",
   excerpt:
     "Hyperlocal ads near a location: who it fits, geopolygons in ad accounts, Wi‑Fi/MAC limits and privacy — without “spy” schemes at competitors.",
   lead: [
     "Hyperlocal targeting shows ads to people who spend time near a specific point: home, office, mall, a route next to you. For a café, clinic, salon, and local service that’s often more precise than broad “interests 25–45”.",
-    "Below — who needs the format, why, what audience sources exist, and how to choose between a geopolygon in the account and offline signal collection. Ad-account UIs change; privacy and ID randomization cut old “MAC radar” scenarios — build that into expectations.",
+    "Who needs the format, why, what audience sources exist, and how to choose between a geopolygon in the account and offline signal collection. Ad-account UIs change; privacy and ID randomization cut old “MAID forever” tactics.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const giperlokalnyyTargetingEn: BlogPost = {
       a: "Geo in an account is often city/district. Hyperlocal is a radius or outline around an address, sometimes with “live / work / visit” segments.",
     },
     {
-      q: "Who benefits most?",
+      q: "Who benefits most from hyperlocal targeting?",
       a: "Offline spots with foot/office traffic nearby: food service, services, neighborhood retail, B2B near business centers.",
     },
     {
@@ -31,11 +31,11 @@ export const giperlokalnyyTargetingEn: BlogPost = {
       a: "Handy to start without hardware. Reach depends on platform data and zone size: on a tiny outline impressions may be too few.",
     },
     {
-      q: "Can you “catch” a competitor’s audience with a radar?",
+      q: "Can I “catch” a competitor’s audience with a radar?",
       a: "Legally and ethically risky, plus the tech is often unreliable. Better: offer and geo around your own point and an honest competitive message.",
     },
     {
-      q: "Do you need your own CRM?",
+      q: "Do I need my own CRM?",
       a: "For remarketing “already visited you” — yes. To attract new people near the point — account geo tools + creative with a clear reason to walk in.",
     },
   ],
@@ -51,9 +51,9 @@ export const giperlokalnyyTargetingEn: BlogPost = {
         {
           intro: "It fits well when:",
           items: [
-            "you have an offline point or service area;",
-            "the visit decision is local;",
-            "you can measure visits/calls/promo codes;",
+            "you have an offline point or service area",
+            "the visit decision is local",
+            "you can measure visits/calls/promo codes",
             "creative answers “why come here specifically”.",
           ],
         },
@@ -78,7 +78,7 @@ export const giperlokalnyyTargetingEn: BlogPost = {
       title: "Geopolygon in the ad account",
       level: 2,
       paras: [
-        "In Google Ads, Yandex Direct, and peers you set a point/outline and conditions (radius, “visit regularly”, etc. — option names change). Plus: no hardware purchase, fast test of a district or business center. Minus: platform data doesn’t cover everyone; at “one building” granularity reach and frequency can be weak.",
+        "In Google Ads, Yandex Direct, and similar tools you set a point/outline and conditions (radius, “visit regularly”, etc. — option names change). Plus: no hardware purchase, fast test of a district or business center. Minus: platform data doesn’t cover everyone; at “one building” granularity reach and frequency can be weak.",
         "For a wide block or several streets a polygon is often enough to start. For a “here and now” event one historical geo pin may not suffice — check data freshness and audience size in the account.",
       ],
       links: [
@@ -111,10 +111,10 @@ export const giperlokalnyyTargetingEn: BlogPost = {
         {
           intro: "Launch mini-checklist:",
           items: [
-            "point and radius on the map;",
-            "segment (residents / workers / visitors);",
-            "offer and promo dates;",
-            "UTM and measurement method;",
+            "point and radius on the map",
+            "segment (residents / workers / visitors)",
+            "offer and promo dates",
+            "UTM and measurement method",
             "account rules and personal-data compliance.",
           ],
         },

@@ -11,19 +11,19 @@ export const raskrutkaYoutubeEn: BlogPost = {
     "Where to start a YouTube channel: niche, packaging, script, video formats, posting cadence, content ideas, and subscriber growth without empty promises.",
   lead: [
     "Growing on YouTube isn’t a “viral hit in a week” — it’s niche, regular videos, clear packaging, and audience work. For beginners a system beats a lucky hit.",
-    "Below — channel start, formats, attracting subscribers, and topic ideas. Algorithms and Studio menus change — lean on the substance, not button screenshots.",
+    "Channel start, formats, attracting subscribers, and topic ideas. Algorithms and Studio menus change — lean on the substance, not button screenshots.",
   ],
   faq: [
     {
-      q: "Where to start if there’s no camera yet?",
-      a: "With a niche and 5–10 video ideas. Gear is secondary: a phone + light + clean audio often enough at the start.",
+      q: "Where should I start if there’s no camera yet?",
+      a: "With a niche and 5–10 video ideas. Gear is secondary: a phone + light + clean audio is often enough at the start.",
     },
     {
-      q: "Do you need a rigid script?",
+      q: "Do I need a rigid script?",
       a: "Not word for word. You need a plan: hook, blocks, CTA. Improvisation is fine; chaos without structure isn’t.",
     },
     {
-      q: "How often should you upload?",
+      q: "How often should I upload?",
       a: "Consistency beats frequency. Better 1 video a week steadily than 5 in a burst and silence for a month.",
     },
     {
@@ -47,9 +47,9 @@ export const raskrutkaYoutubeEn: BlogPost = {
         {
           intro: "Before launching the channel:",
           items: [
-            "one clear niche;",
-            "viewer portrait;",
-            "draft content plan for 8–12 videos;",
+            "one clear niche",
+            "viewer portrait",
+            "draft content plan for 8–12 videos",
             "name, avatar, banner, description.",
           ],
         },
@@ -76,10 +76,10 @@ export const raskrutkaYoutubeEn: BlogPost = {
         {
           intro: "Before publishing:",
           items: [
-            "title without fake clickbait;",
-            "thumbnail readable at small size;",
-            "description with the point and on-topic keywords;",
-            "timestamps if the video is long;",
+            "title without fake clickbait",
+            "thumbnail readable at small size",
+            "description with the point and on-topic keywords",
+            "timestamps if the video is long",
             "cards/end screens to the next videos.",
           ],
         },
@@ -101,11 +101,11 @@ export const raskrutkaYoutubeEn: BlogPost = {
         {
           intro: "Basic types:",
           items: [
-            "regular videos and Shorts;",
-            "lives / streams;",
-            "screencasts (learning, software reviews);",
-            "product reviews and breakdowns;",
-            "animation / motion — if you have the resource;",
+            "regular videos and Shorts",
+            "lives / streams",
+            "screencasts (learning, software reviews)",
+            "product reviews and breakdowns",
+            "animation / motion — if you have the resource",
           ],
         },
       ],
@@ -121,10 +121,10 @@ export const raskrutkaYoutubeEn: BlogPost = {
         {
           intro: "Working growth levers:",
           items: [
-            "a series on one pain point;",
-            "collabs with nearby channels;",
-            "announcements on your socials and email;",
-            "subscribe CTA at the end once value is delivered;",
+            "a series on one pain point",
+            "collabs with nearby channels",
+            "announcements on your socials and email",
+            "subscribe CTA at the end once value is delivered",
             "analytics review: retention, traffic sources.",
           ],
         },
@@ -149,16 +149,16 @@ export const raskrutkaYoutubeEn: BlogPost = {
       title: "Content ideas",
       level: 2,
       paras: [
-        "Take ideas from audience questions, comments, adjacent niches, and your experience. Below — directions, not ready scripts: adapt them.",
+        "Take ideas from audience questions, comments, adjacent niches, and your experience. directions, not ready scripts: adapt them.",
       ],
       lists: [
         {
           intro: "Example directions:",
           items: [
-            "learning and “how to do X” breakdowns;",
-            "tool / product reviews;",
-            "before/after cases and beginner mistakes;",
-            "interviews and joint lives;",
+            "learning and “how to do X” breakdowns",
+            "tool / product reviews",
+            "before/after cases and beginner mistakes",
+            "interviews and joint lives",
             "lifestyle niches: sport, home, cars, games, travel — only if that’s your expertise.",
           ],
         },

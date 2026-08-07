@@ -11,7 +11,7 @@ export const tochkiVhodaEn: BlogPost = {
     "What an entry point is, why to study competitors’ search landings, how to export queries and expand your core — without copying someone else’s site.",
   lead: [
     "An entry point is the page where a person most often starts a visit: from search, ads, a bookmark, or an external link. Competitors’ URLs show which topics and formats actually capture demand.",
-    "Below — why to pull entry points, what to gather before analysis, how to export relevant queries, and a simple algorithm for finding competing sites. The goal is ideas for your landings and core — not blind copying.",
+    "This piece covers why to pull entry points, what to gather before analysis, how to export relevant queries, and a simple algorithm for finding competing sites. The goal is ideas for your landings and core — not blind copying.",
   ],
   faq: [
     {
@@ -23,7 +23,7 @@ export const tochkiVhodaEn: BlogPost = {
       a: "General analysis — traffic, channels, visibility. Here the focus is specific landing URLs and the queries that feed them. See also the competitor analysis article.",
     },
     {
-      q: "Can you learn exact entry points without their analytics?",
+      q: "Can I learn exact entry points without their analytics?",
       a: "Exactly — no. Estimates come from visibility tools, keyword exports by URL, and manually reviewing TOP SERPs.",
     },
     {
@@ -31,7 +31,7 @@ export const tochkiVhodaEn: BlogPost = {
       a: "To expand semantics and see which intent a strong landing closes. Then you write your own page better — with your offer and proof.",
     },
     {
-      q: "Should you copy a competitor’s structure one-to-one?",
+      q: "Should I copy a competitor’s structure one-to-one?",
       a: "No. Take hypotheses: topic, format, trust blocks. Copy-pasting content and templates is a risk and a weak result.",
     },
     {
@@ -44,7 +44,7 @@ export const tochkiVhodaEn: BlogPost = {
     },
     {
       q: "What about your own entry points?",
-      a: "In Metrica/Analytics watch organic landing pages: strengthen the top, fix bounce, don’t spawn duplicates for the same intent.",
+      a: "In Yandex Metrika/Analytics watch organic landing pages: strengthen the top, fix bounce, don’t spawn duplicates for the same intent.",
     },
   ],
   sections: [
@@ -72,7 +72,7 @@ export const tochkiVhodaEn: BlogPost = {
           href: "/en/blog/analiz-konkurentov/",
         },
         {
-          label: "Goals in Metrica",
+          label: "Goals in Yandex Metrika",
           href: "/en/blog/metrika-tseli/",
         },
       ],
@@ -140,7 +140,7 @@ export const tochkiVhodaEn: BlogPost = {
       level: 2,
       paras: [
         "Pages in a stable TOP usually hold a coherent set of phrasing for one intent. An export of “queries → URL” shows what feeds the entry point: commercial, info, or mixed demand.",
-        "Add phrases to the core only after clustering: one landing — one main intent. Otherwise you get cannibalization and duplicate meanings on your site.",
+        "Add keywords to the core only after clustering: one landing — one main intent. Otherwise you get cannibalization and duplicate meanings on your site.",
       ],
       lists: [
         {

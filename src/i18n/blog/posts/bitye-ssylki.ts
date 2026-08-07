@@ -11,35 +11,35 @@ export const bityeSsylkiEn: BlogPost = {
     "What broken links are (404 and other errors), how they hurt UX and SEO, how to find them with a crawler, and what to do: edit, 301, or remove.",
   lead: [
     "A broken link points to an unavailable URL: 404, 410, timeout, a broken redirect chain. The user hits a dead end, the bot wastes crawl budget, and internal link equity leaks nowhere.",
-    "Below — how to find, prioritize, and fix. Mass “dump all 404s to home” is bad practice: it hides the problem and confuses people and search.",
+    "Broken links waste crawl budget and frustrate people. Find, prioritize, and fix them — don’t mass-redirect every 404 to home. That hides the problem and confuses people and search.",
   ],
   faq: [
     {
-      q: "Broken = only 404?",
+      q: "Do broken links mean only 404 errors?",
       a: "Most often yes, but 5xx, redirects to nowhere, and soft-404 (page returns 200 but means “not found”) also hurt. Check code and content.",
     },
     {
-      q: "Do they affect rankings?",
+      q: "Do broken links affect rankings?",
       a: "Indirectly: worse UX, lost internal link flow, crawl junk. One or two links won’t “kill” a site; systemic mess in menus and templates will.",
     },
     {
-      q: "What to search with?",
+      q: "What tools should you use to find broken links?",
       a: "Crawlers (Screaming Frog and peers), Webmaster/Search Console reports, server logs, spot checks after slug changes.",
     },
     {
-      q: "Always a 301?",
+      q: "Should you always use a 301 redirect?",
       a: "If there’s a close-in-meaning page — yes. If the topic is gone — a correct 404/410 and fix the outbound link. Don’t redirect “just to get 200.”",
     },
     {
-      q: "Broken outbound externals?",
+      q: "Should you fix broken outbound external links?",
       a: "Fix or remove those too: they hurt trust and the reader, especially in old pieces and a “partners” footer.",
     },
     {
-      q: "How often to check?",
+      q: "How often should you check for broken links?",
       a: "Right after releases and migrations. For a stable site — at least quarterly. Priority: templates, traffic URLs, and addresses with external backlinks.",
     },
     {
-      q: "What is soft-404?",
+      q: "What is a soft-404?",
       a: "The server returns 200, but the user sees “product removed” / an empty shell. For search that’s noise: better an honest 404/410 or a 301 to a current equivalent.",
     },
     {
@@ -73,7 +73,7 @@ export const bityeSsylkiEn: BlogPost = {
         },
         {
           label: "HTTP status codes",
-          href: "/blog/kod-statusa-http/",
+          href: "/en/blog/kod-statusa-http/",
         },
       ],
     },
@@ -89,7 +89,7 @@ export const bityeSsylkiEn: BlogPost = {
           intro: "Mini check set:",
           items: [
             "full crawl (or at least priority sections);",
-            "“pages with errors” report in cabinets;",
+            "“pages with errors” report in accounts;",
             "log sample of 404s for a period;",
             "manual click through menu/footer after a release.",
           ],
@@ -98,11 +98,11 @@ export const bityeSsylkiEn: BlogPost = {
       links: [
         {
           label: "Screaming Frog",
-          href: "/blog/screaming-frog/",
+          href: "/en/blog/screaming-frog/",
         },
         {
           label: "Yandex Webmaster",
-          href: "/blog/yandeks-vebmaster/",
+          href: "/en/blog/yandeks-vebmaster/",
         },
       ],
     },
@@ -201,7 +201,7 @@ export const bityeSsylkiEn: BlogPost = {
       links: [
         {
           label: "Sitemap",
-          href: "/blog/karta-sayta/",
+          href: "/en/blog/karta-sayta/",
         },
       ],
     },

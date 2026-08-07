@@ -5,18 +5,18 @@ export const oshibkiInternetMagazinaEn: BlogPost = {
   slug: "oshibki-internet-magazina",
   title: "7 ecommerce optimization mistakes auditors often miss",
   date: "2019-05-16",
-  category: "Internet marketing",
+  category: "E-commerce",
   cover: "/images/blog/oshibki-internet-magazina/cover-en.webp",
   excerpt:
     "Hidden ecommerce mistakes: duplicates on pagination and filters, catalog mess, a useless price slider, weak photos, a region pop-up, extra pop-ups, and illogical filters.",
   lead: [
     "SEO audit checklists catch speed, 404s, and robots. But a store often loses sales and index on things that “technically work”: broken category sort, a price slider from zero to space, a region gate before content, and three pop-ups in a row.",
-    "Below — seven such mistakes, how they hurt, and how to fix them. The broader catalog promotion outline is in a neighboring piece; here — what automatic reports usually skip.",
+    "These seven misses often sit outside a classic technical SEO checklist — and they still break conversion on the path to checkout. The broader catalog promotion outline is in a related article.",
   ],
   faq: [
     {
       q: "Is this instead of technical SEO?",
-      a: "No. Tech and semantics stay the base. These mistakes sit on top: catalog UX and templates that spoil behavior and spawn weak URLs.",
+      a: "No. Tech and semantics stay the base. These mistakes sit on top: catalog UX and templates that spoil behavior and create weak URLs.",
     },
     {
       q: "Are duplicates only from copy-pasted product cards?",
@@ -27,7 +27,7 @@ export const oshibkiInternetMagazinaEn: BlogPost = {
       a: "Only if region really changes price, stock, pickup points, or delivery. Otherwise don’t block the first screen.",
     },
     {
-      q: "How many pop-ups are OK?",
+      q: "How many pop-ups are okay?",
       a: "The fewer before the first useful action — the better. A stack of region + subscribe + coupon on entry almost always hits bounce.",
     },
     {
@@ -35,8 +35,8 @@ export const oshibkiInternetMagazinaEn: BlogPost = {
       a: "Depends on the combo’s value. Junk and near-empty slices — noindex/canonical; useful landings — plan separately.",
     },
     {
-      q: "When to expect growth after fixes?",
-      a: "UX fixes move behavior sooner. Core positions are planned over months after a stable index — not “a week after the slider”.",
+      q: "When should you expect growth after fixes?",
+      a: "UX fixes move behavior sooner. Core positions are planned over 2–6 months after a stable index — not “a week after the slider.”",
     },
   ],
   sections: [
@@ -51,9 +51,9 @@ export const oshibkiInternetMagazinaEn: BlogPost = {
         {
           intro: "What to check:",
           items: [
-            "unique text only on the canonical category page (not page=2…n);",
-            "filters don’t clone one paragraph onto hundreds of URLs;",
-            "category first screen shows products from the section name;",
+            "unique text only on the canonical category page (not page=2…n)",
+            "filters don’t clone one paragraph onto hundreds of URLs",
+            "category first screen shows products from the section name",
             "accessories and consumables in their own sections — not mixed with core SKUs.",
           ],
         },
@@ -81,8 +81,8 @@ export const oshibkiInternetMagazinaEn: BlogPost = {
         {
           intro: "Checkbox filters that hurt:",
           items: [
-            "illogical parameter combos;",
-            "slices that are almost always empty;",
+            "illogical parameter combos",
+            "slices that are almost always empty",
             "indexing junk combinations as duplicates.",
           ],
         },

@@ -11,28 +11,28 @@ export const vnutrennieFaktoryEn: BlogPost = {
     "On-page SEO without mystique: content, structure, internal linking, HTTPS, speed, and mobile — what to control on your side and in what order.",
   lead: [
     "Internal ranking factors are everything you can improve on the site itself: copy and media, URL structure, headings and snippets, internal linking, HTTPS, speed, mobile, and usability.",
-    "External signals (links, mentions, some behavioral effects) take longer and are harder to control directly. Below — a practical on-page map: what to check, where to dig deeper, and how not to confuse prep with promising TOP “next week”.",
+    "External signals (links, mentions, some behavioral effects) take longer and are harder to control directly. Use this as a practical on-page map: what to check, where to dig deeper, and how not to confuse prep work with promising top rankings “next week.”",
   ],
   faq: [
     {
-      q: "How do internal factors differ from external?",
+      q: "How do internal factors differ from external ones?",
       a: "Internal — on your domain: content, tech, structure, UX. External — links and signals off-site. Both matter; without an on-page base, external efforts often stall.",
     },
     {
-      q: "Where to start if the site is raw?",
-      a: "Indexing and status codes, HTTPS, mobile, unique title/H1 on money URLs, basic structure and speed. Then content depth and internal linking.",
+      q: "Where do I start if the site is raw?",
+      a: "Indexing and status codes, HTTPS, mobile, unique title/H1 on commercial URLs, basic structure and speed. Then content depth and internal linking.",
     },
     {
       q: "Is this the same as a technical SEO audit?",
-      a: "They overlap. An audit is a check method; internal factors are an influence map. The audit answers “what’s broken”; this article — “what counts as on-page”.",
+      a: "They overlap. An audit is a check method; internal factors are an influence map. The audit answers “what’s broken”; this article covers “what counts as on-page.”",
     },
     {
       q: "Must every item be perfect?",
-      a: "No. Prioritize by business impact: money landings and crawl. Snippet cosmetics without indexing are useless.",
+      a: "No. Prioritize by business impact: commercial landing pages and crawl paths first. Snippet cosmetics without indexing are useless.",
     },
     {
       q: "Do images and video matter?",
-      a: "Yes: meaning (alt, context), file weight (speed), and time on page. Heavy uncompressed media hits CWV and UX.",
+      a: "Yes: meaning (alt text, context), file weight (speed), and time on page. Heavy uncompressed media hurts Core Web Vitals and UX.",
     },
     {
       q: "Is internal linking an internal factor?",
@@ -40,24 +40,24 @@ export const vnutrennieFaktoryEn: BlogPost = {
     },
     {
       q: "Is usability SEO?",
-      a: "There’s no direct “button score”, but convenience affects behavior and conversion. Bad UX eats the effect even with good ranks.",
+      a: "There’s no direct “button score,” but convenience affects behavior and conversion. Bad UX eats the benefit even with good rankings.",
     },
     {
-      q: "When to expect rank growth after fixes?",
-      a: "On-page prep and cleanup — a guide of weeks–month. Core TOP buildup planned 2–6 months after systematic work starts, not “tomorrow after HTTPS”.",
+      q: "When should I expect rank growth after fixes?",
+      a: "On-page prep and cleanup — typically a few weeks to about a month. Core keyword rankings in top positions are typically 2–6 months after systematic work starts — not “tomorrow after HTTPS.”",
     },
   ],
   sections: [
     {
-      title: "Map: internal vs external",
+      title: "Map: internal vs. external",
       level: 2,
       paras: [
-        "Search evaluates the document and the site as a whole. Simply: internal factors are what you edit in the CMS, templates, and on the server; external — links, mentions, signals around the domain.",
-        "A classic mistake is chasing links onto a raw site: slow, without HTTPS, with duplicates and empty landings. First make the resource readable for bots and people, then strengthen the external track.",
+        "Search evaluates the page and the site as a whole. Simply put: internal factors are what you edit in the CMS, templates, and on the server; external — links, mentions, signals around the domain.",
+        "A classic mistake is chasing links onto a raw site: slow, without HTTPS, with duplicates and empty landing pages. First make the resource readable for bots and people, then strengthen off-site signals.",
       ],
       lists: [
         {
-          intro: "Internal usually includes:",
+          intro: "Internal factors usually include:",
           items: [
             "content: copy, media, uniqueness, and intent match;",
             "meta and headings: title, description, H1–H3;",
@@ -68,7 +68,7 @@ export const vnutrennieFaktoryEn: BlogPost = {
           ],
         },
         {
-          intro: "External — rough guides:",
+          intro: "External — rough guide:",
           items: [
             "quality and diversity of inbound links;",
             "brand mentions;",
@@ -91,16 +91,16 @@ export const vnutrennieFaktoryEn: BlogPost = {
       title: "Content, headings, and snippets",
       level: 2,
       paras: [
-        "The page should answer the query: not “stuff the key”, but close the user’s job. One clear H1, a logical H2–H3 hierarchy, title and description that aren’t copies of each other.",
-        "Media support meaning: clear file names, sensible alt, reasonable weight. Empty filler and template duplicates are weaker than unique materials for the cluster.",
+        "The page should answer the query — not “stuff the keyword,” but close the user’s job. One clear H1, a logical H2–H3 hierarchy, title and description that aren’t copies of each other.",
+        "Media should support meaning: clear file names, sensible alt text, reasonable weight. Empty filler and template duplicates are weaker than unique materials for the cluster.",
       ],
       lists: [
         {
-          intro: "Landing minimum:",
+          intro: "Landing page minimum:",
           items: [
             "unique title and description;",
             "one H1, no competing copies;",
-            "copy/media matched to cluster intent;",
+            "copy and media matched to cluster intent;",
             "no cannibalization with neighboring URLs.",
           ],
         },
@@ -125,15 +125,15 @@ export const vnutrennieFaktoryEn: BlogPost = {
       level: 2,
       paras: [
         "Clean URLs and short readable paths help people and the snippet. Breadcrumbs and clear navigation reduce “getting lost” on the site.",
-        "Internal links build clusters: from overviews to detail, from related pages to the intent canon. Menu and footer shouldn’t spawn thousands of weak links to junk URLs.",
+        "Internal links build clusters: from overviews to detail, from related pages to the intent anchor. Menu and footer shouldn’t spawn thousands of weak links to junk URLs.",
       ],
       lists: [
         {
-          intro: "Practice:",
+          intro: "In practice:",
           items: [
-            "section map under semantics, not “whatever the CMS made”;",
-            "Latin URLs, no junk params in the canon;",
-            "linking to money and answers, not only home;",
+            "section map built around keywords, not “whatever the CMS made”;",
+            "Latin URLs, no junk params in the canonical;",
+            "linking to commercial pages and answers, not only home;",
             "duplicates and pagination under control (canonical / noindex by scenario).",
           ],
         },
@@ -157,7 +157,7 @@ export const vnutrennieFaktoryEn: BlogPost = {
       title: "Tech: HTTPS, speed, mobile",
       level: 2,
       paras: [
-        "HTTPS is a baseline expectation for browsers and users: no mixed content, a correct certificate, and http→https redirect. Speed (Core Web Vitals and felt load) affects bounces and crawl.",
+        "HTTPS is a baseline expectation for browsers and users: no mixed content, a valid certificate, and http→https redirect. Speed (Core Web Vitals and felt load) affects bounces and crawl.",
         "Mobile-first: templates must work on a phone — taps, forms, readability. A separate “2012 mobile version” with cut content is a risk.",
       ],
       lists: [
@@ -167,7 +167,7 @@ export const vnutrennieFaktoryEn: BlogPost = {
             "valid SSL and chain;",
             "no mixed content on key templates;",
             "image compression, cache, sensible JS;",
-            "responsive without horizontal scroll and micro-buttons.",
+            "responsive layout without horizontal scroll and micro-buttons.",
           ],
         },
       ],
@@ -191,7 +191,7 @@ export const vnutrennieFaktoryEn: BlogPost = {
       level: 2,
       paras: [
         "Usability isn’t “bought” with fake engagement. Readable copy, a clear CTA, working forms, and no pop-up traps cut irritation and help conversion.",
-        "If the user can’t find an answer or hits a 500 — ranks and ads won’t save you. UX is part of internal factors in a broad sense: you control the template and content.",
+        "If the user can’t find an answer or hits a 500 error — rankings and ads won’t save you. UX is part of internal factors in a broad sense: you control the template and content.",
       ],
       lists: [
         {
@@ -222,17 +222,17 @@ export const vnutrennieFaktoryEn: BlogPost = {
       title: "Site-wide settings",
       level: 2,
       paras: [
-        "Some factors hit the whole domain: robots.txt, sitemap, template canonicals, language/region in panels, a consistent title style, indexing policy for filters and site search.",
-        "A template mistake (e.g. noindex on a whole section or canonical “everything to home”) hits thousands of URLs at once. So global-track edits need a backup and a smoke check after deploy.",
+        "Some factors hit the whole domain: robots.txt, sitemap, template canonicals, language/region in Search Console, a consistent title style, indexing policy for filters and site search.",
+        "A template mistake (e.g., noindex on a whole section or canonical “everything to home”) hits thousands of URLs at once. Sitewide template edits need a backup and a smoke check after deploy.",
       ],
       lists: [
         {
           intro: "Global checklist:",
           items: [
-            "robots doesn’t block what’s needed;",
-            "sitemap is current and in Webmaster/GSC;",
+            "robots.txt doesn’t block what’s needed;",
+            "sitemap is current and in Search Console;",
             "canonical and pagination aligned;",
-            "utility/filter URLs under control.",
+            "utility and filter URLs under control.",
           ],
         },
       ],
@@ -251,8 +251,8 @@ export const vnutrennieFaktoryEn: BlogPost = {
       title: "Work order and timeline expectations",
       level: 2,
       paras: [
-        "First remove crawl and trust blockers, then strengthen content and structure of money clusters, and monitor cabinets in parallel. Connect the external track (links) when the base isn’t collapsing.",
-        "On-page fixes are part of prep. Core ranking buildup after systematic work starts planned takes months: a TOP horizon of 2–6 months, not “turned on HTTPS — top-3 tomorrow”.",
+        "First remove crawl and trust blockers, then strengthen content and structure of commercial keyword clusters, and monitor Search Console in parallel. Start link building when the on-page base isn’t collapsing.",
+        "On-page fixes are part of prep. Core ranking buildup after systematic work starts takes months: top positions typically 2–6 months out — not “turned on HTTPS — top three tomorrow.”",
       ],
       lists: [
         {
@@ -260,7 +260,7 @@ export const vnutrennieFaktoryEn: BlogPost = {
           items: [
             "a backlog prioritized by business impact;",
             "a crawl after major releases;",
-            "once a month — error review in Webmaster/GSC;",
+            "once a month — error review in Search Console;",
             "track prep and rank dynamics separately.",
           ],
         },

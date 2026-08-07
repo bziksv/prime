@@ -11,7 +11,7 @@ export const primeryEmailRassylokEn: BlogPost = {
     "What to learn from strong emails: two offers in one letter, a warm welcome, a progress bar, a survey, a reminder, and an honest tone — without copying someone else’s layouts one-to-one.",
   lead: [
     "Subscribers see dozens of emails a week. What stands out isn’t “the prettiest templates,” but clear offers, the right tone, and a clear next step.",
-    "Below — techniques from well-known global campaigns (Adobe, 1Password, Carnival, and others) as ideas for your list. Copying another brand’s layout is pointless; transfer the logic to your product and subscriber consent.",
+    "We pull techniques from well-known global campaigns (Adobe, 1Password, Carnival, and others) as ideas for your list. Copying another brand’s layout is pointless; transfer the logic to your product and subscriber consent.",
   ],
   faq: [
     {
@@ -23,7 +23,7 @@ export const primeryEmailRassylokEn: BlogPost = {
       a: "Yes if the segment isn’t defined yet: compare plans/options and give a choice. Don’t turn the email into a shop window of ten buttons.",
     },
     {
-      q: "Can a welcome use humor?",
+      q: "Can a welcome email use humor?",
       a: "If the brand tone allows it. The main job is to explain account status and what to do next.",
     },
     {
@@ -35,11 +35,11 @@ export const primeryEmailRassylokEn: BlogPost = {
       a: "Not required, but useful: short feedback + a brand reminder. Don’t spam surveys every week.",
     },
     {
-      q: "Where to get ideas legally?",
+      q: "Where can I get ideas legally?",
       a: "Your own A/B tests, competitor emails from public opt-ins, ESP roundups — without scraping someone else’s lists.",
     },
     {
-      q: "Is this tied to triggers?",
+      q: "Is this tied to triggered emails?",
       a: "Many strong emails are triggered: welcome, reminder, survey after an event. See the separate piece.",
     },
   ],
@@ -64,7 +64,7 @@ export const primeryEmailRassylokEn: BlogPost = {
       links: [
         {
           label: "Triggered emails",
-          href: "/blog/triggernye-rassylki/",
+          href: "/en/blog/triggernye-rassylki/",
         },
       ],
     },
@@ -80,10 +80,10 @@ export const primeryEmailRassylokEn: BlogPost = {
         {
           intro: "What to put in an email checklist:",
           items: [
-            "one main idea in the subject;",
-            "a clear CTA above the text warehouse;",
-            "tone = brand;",
-            "mobile readability;",
+            "one main idea in the subject",
+            "a clear CTA above the fold",
+            "tone = brand",
+            "mobile readability",
             "unsubscribe and consent in order.",
           ],
         },
@@ -91,7 +91,7 @@ export const primeryEmailRassylokEn: BlogPost = {
       links: [
         {
           label: "Emails from social with consent",
-          href: "/blog/baza-email-socseti/",
+          href: "/en/blog/baza-email-socseti/",
         },
       ],
     },

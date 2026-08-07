@@ -5,17 +5,17 @@ export const elektronnayaKnigaEn: BlogPost = {
   slug: "elektronnaya-kniga",
   title: "An ebook for your audience: how to make one fast without a designer",
   date: "2019-03-07",
-  category: "Internet marketing",
+  category: "Content marketing",
   cover: "/images/blog/elektronnaya-kniga/cover-en.webp",
   excerpt:
     "An ebook as a lead magnet and proof of expertise: PDF vs ePub, building in Word or a builder, how to distribute — without promising “zero cost and a masterpiece in an hour”.",
   lead: [
     "An ebook packs experience into one file: teach the audience, gently remind them of the brand, and collect contacts in exchange for useful material. The budget path — build it yourself; the paid path — hand it to a designer and layout specialist.",
-    "Below — why an ebook, how PDF differs from ePub, two build paths (fast from a text editor and cleaner in a builder), and how to distribute it. Service rates and storefront rules change — check current terms; for a lead magnet follow personal-data rules.",
+    "What an ebook is, how PDF differs from ePub, two build paths (fast from a text editor and cleaner in a builder), and how to distribute it. Service rates and storefront rules change — check current terms.",
   ],
   faq: [
     {
-      q: "PDF or ePub?",
+      q: "Should I use PDF or ePub?",
       a: "PDF is easier to make and more stable for tables/diagrams; on a phone page scale can be awkward. ePub reflows better on readers, but formulas and complex layouts suffer.",
     },
     {
@@ -23,11 +23,11 @@ export const elektronnayaKnigaEn: BlogPost = {
       a: "Layout of ready copy — from a couple of hours in an editor to notably longer in a builder. Writing the content is separate and usually longer.",
     },
     {
-      q: "Can you do it without a designer at all?",
+      q: "Can I do it without a designer at all?",
       a: "Yes for a working PDF guide. For storefront sales and a “pretty” cover, a builder or specialist still helps.",
     },
     {
-      q: "Must you give the book for an email?",
+      q: "Must I give the book for an email?",
       a: "Not required, but as a lead magnet it’s a common pattern. You need consent to process data and clear file value.",
     },
     {
@@ -52,9 +52,9 @@ export const elektronnayaKnigaEn: BlogPost = {
         {
           intro: "Before you start:",
           items: [
-            "one theme and a promise to the reader;",
-            "a table of contents of 5–12 chapters;",
-            "current facts (not a 2017 paste);",
+            "one theme and a promise to the reader",
+            "a table of contents of 5–12 chapters",
+            "current facts (not a 2017 paste)",
             "goal: downloads, leads, or expert status.",
           ],
         },
@@ -65,7 +65,7 @@ export const elektronnayaKnigaEn: BlogPost = {
       level: 2,
       paras: [
         "Fast: text editor (title page, headers/footers, illustrations) → export to PDF. Fits an “from experience” manual. Downsides — modest design and sometimes store/reader pickiness about a “simple” Word PDF.",
-        "Cleaner: an online builder with cover and page templates (Canva-style and peers). Longer per page, but it looks cohesive. Free limits and paid packs are enough to start; prices and plan names change.",
+        "Cleaner: an online builder with cover and page templates (Canva-style and similar tools). Longer per page, but it looks cohesive. Free limits and paid packs are enough to start; prices and plan names change.",
         "Images — your own screens, diagrams, or materials with a clear license. Don’t pull others’ stock photos without rights; for the brand, own illustrations and AI/graphics per project rules work better.",
       ],
       notes: [
@@ -97,9 +97,9 @@ export const elektronnayaKnigaEn: BlogPost = {
         {
           intro: "Mini launch plan:",
           items: [
-            "landing with contents and a form;",
-            "email/post with one main benefit;",
-            "UTM and an analytics goal on download;",
+            "landing with contents and a form",
+            "email/post with one main benefit",
+            "UTM and an analytics goal on download",
             "a follow-up email series plan after download.",
           ],
         },

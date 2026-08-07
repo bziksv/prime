@@ -10,28 +10,28 @@ export const logiServeraEn: BlogPost = {
   excerpt:
     "How to read site access logs: crawler User-Agents, status codes, crawl budget, duplicates, and scan errors — alongside Webmaster tools and Search Console.",
   lead: [
-    "Server logs record who requested what: people, CDN, monitoring, and search bots. They show real crawl activity — not only what webmaster panels summarize.",
-    "Below — what to watch in access logs, how to estimate crawl budget, find wasteful URLs and scan errors. Closing from indexing and a full tech audit are related topics in separate articles.",
+    "Server logs record who requested what: people, CDN, monitoring, and search bots. They show real crawl activity — not only what Search Console and Webmaster panels summarize.",
+    "Use logs to estimate crawl budget, spot wasteful URLs, and catch scan errors that panels sample away. Closing pages from the index and a full tech audit are related topics in separate articles.",
   ],
   faq: [
     {
-      q: "Why logs if you have Webmaster / Search Console?",
+      q: "Why use logs if I already have Webmaster / Search Console?",
       a: "Panels give summaries and samples. Logs are the full request stream to the server: rare bots, media, odd URLs, and exact status codes.",
     },
     {
       q: "Where do I get access.log?",
-      a: "On hosting / VPS: the web server log directory (often `/var/log/nginx/` or the hoster panel). Format depends on Apache/Nginx and settings.",
+      a: "On hosting / VPS: the web server log directory (often `/var/log/nginx/` or the hosting panel). Format depends on Apache/Nginx and settings.",
     },
     {
       q: "What is crawl budget?",
       a: "A rough limit of crawler attention to the site over a period. Duplicates, parameters, heavy sections, and 4xx/5xx eat it. The goal — the bot visits important URLs more often.",
     },
     {
-      q: "Can you fix SEO with logs alone?",
-      a: "No. Logs diagnose crawl. Next — robots/canonical/structure fixes, content, and tech. See the tech audit and closing from indexing articles.",
+      q: "Can I fix SEO with logs alone?",
+      a: "No. Logs diagnose crawl. Next — robots/canonical/structure fixes, content, and tech. See the tech audit and closing-from-indexing articles.",
     },
     {
-      q: "Do you need a paid Log File Analyzer?",
+      q: "Do I need a paid Log File Analyzer?",
       a: "At the start, an export + Excel/Google Sheets or a script is enough. Analyzers speed up large volumes; names and plans change.",
     },
   ],
@@ -57,7 +57,7 @@ export const logiServeraEn: BlogPost = {
       ],
       links: [
         {
-          label: "Web server",
+          label: "Web server basics",
           href: "/en/blog/veb-server/",
         },
       ],
@@ -109,7 +109,7 @@ export const logiServeraEn: BlogPost = {
       ],
       links: [
         {
-          label: "Closing from indexing",
+          label: "Excluding pages from the index",
           href: "/en/blog/zakrytie-ot-indeksatsii/",
         },
         {
@@ -140,7 +140,7 @@ export const logiServeraEn: BlogPost = {
       notes: [
         {
           title: "Timelines",
-          text: "Cleaning crawl is part of technical prep. Ranking growth for the core is a separate months-long process — not the result of one log cleanup.",
+          text: "Cleaning crawl is part of technical prep. Ranking growth for the keyword set is planned for 2–6 months after systematic work starts — not the result of one log cleanup.",
         },
       ],
       links: [

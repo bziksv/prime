@@ -8,43 +8,43 @@ export const effektivnostSeoEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/effektivnost-seo/cover-en.webp",
   excerpt:
-    "Organic, brand/non-brand, ranks, and economics: which KPIs to watch, how to compare periods, and how not to confuse prep with instant TOP.",
+    "Organic, brand/non-brand, ranks, and economics: which KPIs to watch, how to compare periods, and how not to confuse site prep with instant top rankings.",
   lead: [
-    "SEO rarely gives a “result button next week”. To know whether the channel works, you need KPIs agreed upfront: organic volume and quality, brand/non-brand cut, core rank dynamics, and a link to leads/revenue.",
-    "Below — a practical evaluation frame for client and vendor. First noticeable core shifts are more often closer to 2–3 months of systematic work; TOP buildup planned 2–6 months — don’t confuse that with the site-prep stage.",
+    "SEO rarely gives you a “results button” next week. To know whether the channel works, you need KPIs agreed up front: organic volume and quality, brand/non-brand cut, rank movement on the keyword set, and a clear link to leads and revenue.",
+    "A practical evaluation frame for both client and vendor. The first noticeable shifts in the keyword set usually show up around 2–3 months of steady work; building into the top results is planned for 2–6 months — prep weeks are not the same as ranking timelines.",
   ],
   faq: [
     {
-      q: "Where to start an SEO report?",
-      a: "Organic (visits/users), search goals/conversions, visibility or core share in TOP, brand vs non-brand, SEO spend vs CPA/ROMI. Without analytics goals the report is blind.",
+      q: "Where should I start an SEO report?",
+      a: "Organic (visits/users), search goals/conversions, visibility or share of the keyword set in the top results, brand vs non-brand, SEO spend vs CPA/ROMI (return on marketing investment). Without analytics goals, the report is blind.",
     },
     {
       q: "Are ranks the main KPI?",
-      a: "Important, but not the only one. Watch clusters and trend; don’t panic over ±2 spots in a day. Business cares more about traffic and organic leads.",
+      a: "Important, but not the only one. Watch clusters and the trend; don’t panic over ±2 spots in a day. Business cares more about traffic and organic leads.",
     },
     {
       q: "What comparison period is normal?",
-      a: "WoW for ops, MoM and YoY for seasonality. Judge SEO on weeks and months — not “yesterday vs today”.",
+      a: "Use week-over-week for ops, month-over-month and year-over-year for seasonality. Judge SEO on weeks and months — not “yesterday vs. today.”",
     },
     {
-      q: "Do you need both Metrica and Analytics?",
-      a: "One reliable counter + Webmaster/GSC is enough. Two — if the team is used to that; the key is one attribution method.",
+      q: "Do I need both Metrika and Analytics?",
+      a: "One reliable counter plus Search Console (or Webmaster) is enough. Two tools are fine if the team already lives in both; the key is one attribution method.",
     },
     {
       q: "What brand share is “right”?",
-      a: "Depends on niche and maturity. Trend and brand conversion matter more than “25% from an article”. Details — in the branded traffic piece.",
+      a: "It depends on niche and maturity. Trend and brand conversion matter more than “25% from an article”. Details are in the branded traffic piece.",
     },
     {
-      q: "When to expect economic effect?",
-      a: "After prep and work start, ranks and leads build over months. Counting ROMI in week one is pointless; plan a 2–6 month core horizon.",
+      q: "When should I expect economic effect?",
+      a: "After prep and once work starts, ranks and leads build over months. Counting ROMI in week one is pointless; plan on a 2–6 month horizon for the keyword set.",
     },
     {
       q: "What if traffic grows but leads don’t?",
-      a: "Check page intent, audience, UX, and goals. Info traffic growth without commercial URLs is a common “pretty organic” trap.",
+      a: "Check page intent, audience, UX, and goals. Informational traffic growth without commercial URLs is a common vanity-organic trap.",
     },
     {
       q: "How do SEO KPIs differ from paid search?",
-      a: "Paid responds faster and is easier to steer with bids. SEO has more lag, but lead margin often drops over time with a stable core.",
+      a: "Paid search responds faster and is easier to steer with bids. SEO has more lag, but cost per lead often improves over time with a stable keyword set.",
     },
   ],
   sections: [
@@ -52,18 +52,18 @@ export const effektivnostSeoEn: BlogPost = {
       title: "Why lock KPIs upfront",
       level: 2,
       paras: [
-        "Without agreed metrics the client expects “TOP tomorrow” and the vendor shows crawl reports — conflict is almost inevitable. KPIs give a shared language: what success means at 30 / 90 / 180 days.",
-        "Connect Metrica or Analytics with goals, Webmaster and Search Console, and a core table with priority URLs. Otherwise you’re left with gut feel.",
+        "Without agreed metrics, the client expects “#1 tomorrow” and the vendor shows crawl reports — conflict is almost inevitable. KPIs give a shared language: what success means at 30 / 90 / 180 days.",
+        "Connect Metrica or Analytics with goals, Search Console (or Webmaster), and a keyword table with priority URLs. Otherwise you’re left with gut feel.",
       ],
       lists: [
         {
           intro: "Base set:",
           items: [
-            "organic: visits, users, bounce/engagement;",
-            "conversions and revenue/leads from organic;",
-            "brand vs non-brand;",
-            "ranks / visibility for the core;",
-            "SEO budget and cost per lead.",
+            "organic: visits, users, bounce/engagement",
+            "conversions and revenue/leads from organic",
+            "brand vs non-brand",
+            "ranks / visibility for the keyword set",
+            "SEO budget and cost per lead",
           ],
         },
       ],
@@ -89,9 +89,9 @@ export const effektivnostSeoEn: BlogPost = {
         {
           intro: "Report practice:",
           items: [
-            "organic MoM and YoY;",
-            "top search landings;",
-            "new vs old URLs;",
+            "organic month-over-month and year-over-year",
+            "top search landings",
+            "new vs old URLs",
             "exclude clear anomalies (attacks, counter issues).",
           ],
         },
@@ -114,9 +114,9 @@ export const effektivnostSeoEn: BlogPost = {
         {
           intro: "What to watch:",
           items: [
-            "brand share of organic;",
-            "brand visit conversion;",
-            "non-brand commercial cluster dynamics;",
+            "brand share of organic",
+            "brand visit conversion",
+            "non-brand commercial cluster dynamics",
             "brand defense in ads when needed.",
           ],
         },
@@ -132,23 +132,23 @@ export const effektivnostSeoEn: BlogPost = {
       title: "Ranks and core visibility",
       level: 2,
       paras: [
-        "A rank tracker or Webmaster/GSC exports show how the core moves. Judge share of phrases in TOP-10 / TOP-3 by priority clusters — not one phrase “in the moment”.",
+        "A rank tracker or Webmaster/GSC exports show how the core moves. Judge share of phrases in the top results-10 / top 3 by priority clusters — not one phrase “in the moment”.",
         "Daily 1–3 spot jumps are noise. Panic fits sustained cluster drops, deindexing, or a SERP intent shift.",
       ],
       lists: [
         {
           intro: "In the report lock:",
           items: [
-            "priority URL × query list;",
-            "% of core in TOP-10 vs last period;",
-            "new TOP entries and losses;",
+            "priority URL × query list",
+            "% of keyword set in the top results-10 vs last period",
+            "new top-result entries and losses",
             "informational and commercial clusters separately.",
           ],
         },
       ],
       links: [
         {
-          label: "Semantic core",
+          label: "Keyword set",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {
@@ -168,9 +168,9 @@ export const effektivnostSeoEn: BlogPost = {
         {
           intro: "Finance minimum:",
           items: [
-            "period budget;",
-            "leads/orders from organic;",
-            "CPA and ROMI when possible;",
+            "period budget",
+            "leads/orders from organic",
+            "CPA and ROMI when possible",
             "SEO share of total revenue/leads.",
           ],
         },
@@ -186,16 +186,16 @@ export const effektivnostSeoEn: BlogPost = {
       title: "How to read dynamics without panic",
       level: 2,
       paras: [
-        "Build a simple rhythm: weekly smoke (traffic, cabinet errors), monthly KPI review, quarterly core and priority rethink. A couple of spots down on one key isn’t a reason to break the strategy.",
+        "Build a simple rhythm: weekly smoke (traffic, account errors), monthly KPI review, quarterly core and priority rethink. A couple of spots down on one key isn’t a reason to break the strategy.",
         "If there’s no organic at all — tech and indexing first. If traffic exists but money doesn’t — audience, landings, and offer. SEO effectiveness is a metric bundle, not one chart.",
       ],
       lists: [
         {
           intro: "Red flags:",
           items: [
-            "organic grows, conversions fall;",
-            "only brand grows, commercial stalls;",
-            "ranks exist, clicks don’t (snippet/intent);",
+            "organic grows, conversions fall",
+            "only brand grows, commercial stalls",
+            "ranks exist, clicks don’t (snippet/intent)",
             "sharp collapse after a release or breach.",
           ],
         },

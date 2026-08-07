@@ -11,7 +11,7 @@ export const seoVkontakteEn: BlogPost = {
     "Why optimize a VK group for search, who it fits, how to work with name, description, content, and indexing — and how VK SEO differs from growing subscribers.",
   lead: [
     "VK communities sometimes appear in search for informational and local queries. SEO here isn’t “a site inside a social network” — careful packaging of name, description, content, and links so the community page and posts are clear to people and bots.",
-    "Below — who it makes sense for, what to configure, and how to tie it to regular SMM. Audience growth and ads are in related posts; here the focus is VK search visibility.",
+    "We cover who it makes sense for, what to configure, and how to tie it to regular SMM. Audience growth and ads are in related posts; here the focus is VK search visibility.",
   ],
   faq: [
     {
@@ -19,31 +19,31 @@ export const seoVkontakteEn: BlogPost = {
       a: "No. Complex sales, a catalog, and analytics need a site. The community is a trust/content channel and sometimes extra search traffic.",
     },
     {
-      q: "Who benefits most?",
+      q: "Who benefits most from VK SEO?",
       a: "Local businesses, experts, niches with strong branded and informational demand where people look for a public page in the SERP.",
     },
     {
-      q: "Do Yandex/Google index VK?",
+      q: "Do Yandex and Google index VK pages?",
       a: "Yes — public pages and some content can enter the index. Closed communities and privacy limits cut crawl.",
     },
     {
-      q: "Do you need a semantic core?",
+      q: "Do I need a semantic core?",
       a: "Yes, a short one: how people name the service/area, how they search “group/public + topic”. Don’t stuff 50 keywords into the name.",
     },
     {
       q: "How is it different from growing a group?",
-      a: "Growth is subscribers, ER, reach. VK SEO is search visibility and snippets. They work together, but metrics differ.",
+      a: "Growth is subscribers, engagement rate, and reach. VK SEO is search visibility and snippets. They work together, but metrics differ.",
     },
     {
       q: "Do post links to the site help?",
       a: "As clicks and awareness — yes. As classic “link equity” — don’t count on it; a clear path to the site matters more.",
     },
     {
-      q: "How long until effect?",
+      q: "How long until I see an effect?",
       a: "Like regular search: weeks and months for recrawl — not “TOP tomorrow”. Packaging and useful content first. Planned ranking growth is still often 2–6 months of work after prep.",
     },
     {
-      q: "Commercial “buy” queries via VK in TOP?",
+      q: "Can commercial “buy” queries rank via VK in the TOP?",
       a: "Often weaker than a site. More realistic: informational, branded, and local scenarios + a handoff to the site/messenger.",
     },
   ],
@@ -113,7 +113,7 @@ export const seoVkontakteEn: BlogPost = {
       ],
     },
     {
-      title: "Semantics, posts, and indexing",
+      title: "Keywords, posts, and indexing",
       level: 2,
       paras: [
         "Build a short core: brand, services, geo, informational topics. Spread across name, description, pinned and regular posts — without stuffing every paragraph.",
@@ -183,7 +183,7 @@ export const seoVkontakteEn: BlogPost = {
             "5–8 strong evergreen posts;",
             "links to key site URLs;",
             "`site:` check for the community URL;",
-            "topic plan from semantics, not “whatever comes up”.",
+            "topic plan from keywords, not “whatever comes up”.",
           ],
         },
       ],

@@ -5,25 +5,25 @@ export const problemnyeKlientyEn: BlogPost = {
   slug: "problemnye-klienty",
   title: "11 types of difficult clients — and how to work with them",
   date: "2018-07-19",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/problemnye-klienty/cover-en.webp",
   excerpt:
     "Unsure, know-it-all, aggressive, impulsive, cautious, chatty, dissatisfied, tactless, thrifty, demanding, and pessimist — portraits and workable replies without escalation.",
   lead: [
     "A difficult client isn’t always “bad”: often it’s stress, fear of a mistake, or a habit of controlling price. Service error — answering emotion with emotion and getting a review that costs more than one deal.",
-    "Below — eleven types from sales and support practice (retail, e-com, services) and short reply patterns. These aren’t personality diagnoses — guides for scripts and manager training.",
+    "Here are eleven types from sales and support practice (retail, e-com, services) with short reply patterns. These aren’t personality diagnoses — they’re guides for scripts and manager training.",
   ],
   faq: [
     {
-      q: "Do you have to tolerate any behavior?",
+      q: "Do I have to tolerate any behavior?",
       a: "No. Calm and help — yes; insults and threats — a stop line by company rules, with a record and escalation.",
     },
     {
-      q: "Is this only for offline?",
+      q: "Is this only for offline retail?",
       a: "No. The same types show in chats, messengers, and on the phone — the channel changes, not the logic.",
     },
     {
-      q: "How fast can you “guess” the type?",
+      q: "How fast can I “guess” the type?",
       a: "From the first lines: questions with no decision, “I know everything” references, deadline pressure, haggling, complaints. Don’t stick a label forever — adjust as the dialogue goes.",
     },
     {
@@ -31,7 +31,7 @@ export const problemnyeKlientyEn: BlogPost = {
       a: "Tone, facts about the product/order, and the right to say “we can’t do that — here’s an alternative”. A script is a frame, not reading from a sheet.",
     },
     {
-      q: "Link to an online store manager?",
+      q: "How does this relate to managing an online store?",
       a: "Yes: part of the role is closing objections and conflict scenarios without losing margin or reputation.",
     },
   ],
@@ -49,9 +49,9 @@ export const problemnyeKlientyEn: BlogPost = {
         {
           intro: "Shared frame for a stressful dialogue:",
           items: [
-            "listen and restate the problem in your words;",
-            "give a fact/frame (timing, price, stock);",
-            "offer 1–2 clear next steps;",
+            "listen and restate the problem in your words",
+            "give a fact/frame (timing, price, stock)",
+            "offer 1–2 clear next steps",
             "lock the agreement in chat/CRM.",
           ],
         },

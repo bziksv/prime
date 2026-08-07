@@ -5,13 +5,13 @@ export const reklamnyyBannerEn: BlogPost = {
   slug: "reklamnyy-banner",
   title: "Ad banner: principles of effective creative",
   date: "2020-02-28",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/reklamnyy-banner/cover-en.webp",
   excerpt:
     "How to make an ad banner people notice: offer, hierarchy, CTA, sizes, fighting banner blindness, and careful pop-ups — without outdated “trends for trends’ sake.”",
   lead: [
     "A banner is one of the oldest online ad formats: an image or HTML5 block linking to an offer. It’s still used in networks, on sites, and in media — but attention is shorter and blockers are more common.",
-    "Below — creative principles that affect the click without annoying people. “How to measure a competitor’s size” lives in a separate piece; here — meaning, composition, and UX.",
+    "These are the creative principles that drive clicks without annoying people. Measuring a competitor’s banner size is a separate article; here we focus on message, composition, and UX.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const reklamnyyBannerEn: BlogPost = {
     },
     {
       q: "Which size should I pick?",
-      a: "Whatever the platform or site slot requires. In ad networks check current cabinet specs; “IAB standards” are a guide, not dogma. How to read a size on someone else’s site — in the banner sizes piece.",
+      a: "Whatever the platform or site slot requires. In ad networks check current account specs; “IAB standards” are a guide, not dogma. How to read a size on someone else’s site — in the banner sizes article.",
     },
     {
       q: "What is banner blindness?",
@@ -35,12 +35,12 @@ export const reklamnyyBannerEn: BlogPost = {
       a: "A short one can help noticeability. Endless flashing and a “screaming” GIF more often hurt the brand and page weight.",
     },
     {
-      q: "How much text fits?",
+      q: "How much text fits on a banner?",
       a: "One offer, one benefit, one button/ask. People don’t read a tiny sheet in a fraction of a second.",
     },
     {
-      q: "Is a banner on your site the same as in an ad network?",
-      a: "Principles are similar; size, moderation, and file rules differ. Always check the cabinet rules.",
+      q: "Is a banner on my site the same as in an ad network?",
+      a: "Principles are similar; size, moderation, and file rules differ. Always check the account rules.",
     },
   ],
   sections: [
@@ -58,7 +58,7 @@ export const reklamnyyBannerEn: BlogPost = {
             "the offer or promo essence;",
             "the brand or a recognizable product;",
             "a call to action;",
-            "where the click goes (in landing meaning).",
+            "where the click goes (landing match).",
           ],
         },
       ],
@@ -92,7 +92,7 @@ export const reklamnyyBannerEn: BlogPost = {
       links: [
         {
           label: "Banner sizes",
-          href: "/blog/razmery-bannera/",
+          href: "/en/blog/razmery-bannera/",
         },
         {
           label: "Image link",
@@ -104,8 +104,8 @@ export const reklamnyyBannerEn: BlogPost = {
       title: "Sizes and placement context",
       level: 2,
       paras: [
-        "In ad cabinets the format set is defined by the platform: horizontal “leaderboards,” rectangles, feed squares. Check current pixels and file weight in network help — 2015–2020 guides often age out.",
-        "On your own site the layout sets the size. The banner should be noticeable but not crowd content or inflate LCP. Below the fold, lazy-load fits.",
+        "In ad accounts the format set is defined by the platform: horizontal “leaderboards,” rectangles, feed squares. Check current pixels and file weight in network help — 2015–2020 guides often age out.",
+        "On your own site the layout sets the size. The banner should be noticeable but not crowd content or inflate LCP. Below the fold, lazy-loading fits.",
       ],
       lists: [
         {
@@ -121,11 +121,11 @@ export const reklamnyyBannerEn: BlogPost = {
       links: [
         {
           label: "UTM tags",
-          href: "/blog/utm-metki/",
+          href: "/en/blog/utm-metki/",
         },
         {
-          label: "Ad account",
-          href: "/blog/reklamnyy-kabinet/",
+          label: "Ad account setup",
+          href: "/en/blog/reklamnyy-kabinet/",
         },
       ],
     },

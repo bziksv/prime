@@ -5,17 +5,17 @@ export const avtovoronkaEn: BlogPost = {
   slug: "avtovoronka",
   title: "Automated sales funnel: what it is, types, and how to build without chaos",
   date: "2019-08-01",
-  category: "Internet marketing",
+  category: "Digital marketing",
   cover: "/images/blog/avtovoronka/cover-en.webp",
   excerpt:
     "An automated sales funnel: stages from first touch to purchase, simple/medium/multi-level schemes, key elements, and why automation — without the myth that “a bot replaces everyone”.",
   lead: [
-    "An auto-funnel is the customer path from first touch to the target action, where scenarios cover part of the steps: ads, bot, email, landing, payment. A person joins where a conversation is needed — not “on every click”.",
-    "Below — stages, types by complexity, why automate, and what to assemble the system from. “Conversion is always 10%” figures from old reviews aren’t universal: watch your own steps and tests.",
+    "An autofunnel is the customer path from first touch to the target action, where scenarios cover part of the steps: ads, bot, email, landing, payment. A person joins where a conversation is needed — not “on every click”.",
+    "An autofunnel moves a lead from first touch to payment with less manual chase: stages, automation depth, and the stack you assemble. “Conversion is always 10%” figures from old reviews aren’t universal — watch your own steps and tests.",
   ],
   faq: [
     {
-      q: "Is an auto-funnel only a messenger bot?",
+      q: "Is an autofunnel only a messenger bot?",
       a: "A bot is a common element, not the whole funnel. There can be a landing, email, retargeting, CRM tasks for a manager. The point is a pre-described path with automation on routine.",
     },
     {
@@ -23,19 +23,19 @@ export const avtovoronkaEn: BlogPost = {
       a: "Yes for hot demand and an inexpensive product. Expensive and complex decisions usually need warm-up and a lead.",
     },
     {
-      q: "Does automation remove the sales team?",
+      q: "Does automation remove the need for a sales team?",
       a: "It lowers load on typical questions and qualification. Complex B2B and expensive deals still need people.",
     },
     {
-      q: "Where should setup start?",
+      q: "Where should autofunnel setup start?",
       a: "Draw the current path, find breaks in the data, simplify or add a step, then test with step-conversion measurement.",
     },
     {
-      q: "Do you need a lead magnet?",
+      q: "Do you need a lead magnet in an autofunnel?",
       a: "Often yes on a medium cycle: checklist, consultation, demo — exchange for a contact and a reason to continue the dialogue.",
     },
     {
-      q: "How do you measure success?",
+      q: "How do you measure autofunnel success?",
       a: "Step→step conversion, CPA/CPL, share who reach payment, lead quality for the manager — not only ad reach.",
     },
   ],
