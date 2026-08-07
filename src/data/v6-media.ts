@@ -43,6 +43,7 @@ export const v6Icons = {
   screenAds: "/images/v6/screen-ads.svg",
   screenAnalytics: "/images/v6/screen-analytics.svg",
   screenSite: "/images/v6/screen-site.svg",
+  screenBots: "/images/v6/screen-bots.svg",
   badgeTop5: "/images/v6/badge-top5.svg",
   badgeTop100: "/images/v6/badge-top100.svg",
   serpMock: "/images/v6/serp-mock.svg",
@@ -72,6 +73,7 @@ export const v6ModuleBanners: Record<string, string> = {
   seo: "/images/v6/covers/seo.svg",
   ads: "/images/v6/covers/ads.svg",
   web: "/images/v6/covers/web.svg",
+  bots: "/images/v6/covers/bots.svg",
   other: "/images/v6/covers/orm.svg",
   orm: "/images/v6/covers/orm.svg",
   audit: "/images/v6/covers/audit.svg",
@@ -85,6 +87,7 @@ export const v6ServiceIcons: Record<string, string> = {
   seo: v6Icons.screenSeo,
   ads: v6Icons.screenAds,
   web: v6Icons.screenSite,
+  bots: v6Icons.screenBots,
   other: v6Icons.screenAnalytics,
   orm: v6Icons.screenAnalytics,
   audit: v6Icons.iconSeo,
@@ -240,6 +243,23 @@ export const v6ClientBrands = [
   { name: "Полимер", image: "/images/v6/clients/polimer.webp" },
   { name: "Химоптторг", image: "/images/v6/clients/himopttorg.webp" },
   { name: "Вторма", image: "/images/v6/clients/vtorma.webp" },
+] as const;
+
+/** Client logos without Cyrillic — for non-RU locales. */
+export const v6ClientBrandsLatin = [
+  { name: "KIA", image: "/images/v6/clients/latin/kia.webp?v=6" },
+  { name: "Jeep", image: "/images/v6/clients/latin/jeep.webp?v=6" },
+  { name: "Volvo", image: "/images/v6/clients/latin/volvo.webp?v=6" },
+  { name: "AlmaMed", image: "/images/v6/clients/latin/almamed.webp?v=7" },
+  { name: "VilMed", image: "/images/v6/clients/latin/vilmed.webp?v=1" },
+  { name: "Belgee", image: "/images/v6/clients/latin/belgee.webp?v=6" },
+  { name: "OMODA", image: "/images/v6/clients/latin/omoda.webp?v=6" },
+  { name: "Geely", image: "/images/v6/clients/latin/geely.webp?v=6" },
+  { name: "Nissan", image: "/images/v6/clients/latin/nissan.webp?v=6" },
+  { name: "JAECOO", image: "/images/v6/clients/latin/jaecoo.webp?v=6" },
+  { name: "LADA", image: "/images/v6/clients/latin/lada.webp?v=6" },
+  { name: "Subaru", image: "/images/v6/clients/latin/subaru.webp?v=7" },
+  { name: "Vtorma", image: "/images/v6/clients/latin/vtorma.webp?v=7" },
 ] as const;
 
 export const v6Faq = [

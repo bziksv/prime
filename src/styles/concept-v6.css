@@ -542,7 +542,8 @@
     font-size: 0.75rem;
     line-height: 1.25;
   }
-  .v6-topbar > .v6-btn {
+  .v6-topbar > .v6-btn,
+  .home-topbar-actions .v6-btn {
     flex-shrink: 0;
     padding: 0.5rem 0.8rem;
     font-size: 0.78rem;

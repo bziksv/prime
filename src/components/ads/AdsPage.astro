@@ -1,0 +1,455 @@
+---
+import PortalShell from "../PortalShell.astro";
+import CookieConsent from "../CookieConsent.astro";
+import CookieFooterNotice from "../CookieFooterNotice.astro";
+import SiteSeo from "../SiteSeo.astro";
+import { v6Icons } from "../../data/v6-media";
+import { getLegalDocs } from "../../data/legal";
+import { getCasesByCategory } from "../../data/cases";
+import { contacts } from "../../data/contacts";
+import { breadcrumbJsonLd } from "../../lib/breadcrumb-jsonld";
+import { serviceJsonLd } from "../../lib/service-jsonld";
+import { getAdsContent } from "../../i18n/ads-content";
+import { getHomeContent, homePath } from "../../i18n/home-content";
+import { localeMeta, type Locale } from "../../i18n/locales";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getAdsContent(locale);
+const home = getHomeContent(locale);
+const docs = getLegalDocs(locale);
+const htmlLang = localeMeta[locale].hreflang;
+const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+const showPhone = locale === "ru";
+const year = new Date().getFullYear();
+const homeHref = homePath(locale);
+
+const adsCases = t.showCases ? getCasesByCategory("ads").slice(0, 4) : [];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: t.faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
+
+const origin = Astro.site?.origin ?? "https://prime-ltd.su";
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: t.breadcrumbHome, href: homeHref },
+    { label: t.breadcrumbCurrent },
+  ],
+  {
+    origin,
+    currentPath: t.path,
+  },
+);
+const serviceLd = serviceJsonLd({
+  name: t.serviceName,
+  description: t.metaDescription,
+  path: t.path,
+  serviceType: t.serviceType,
+  origin,
+  providerName: t.footerBrand,
+  areaServed: locale === "en" ? "Worldwide" : "RU",
+});
+---
+
+<!doctype html>
+<html lang={htmlLang} data-concept="v6" data-page="ads" data-locale={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={t.metaDescription} />
+    <title>{t.metaTitle}</title>
+    <SiteSeo
+      title={t.metaTitle}
+      description={t.metaDescription}
+      path={t.path}
+      locale={ogLocale}
+      siteName={t.footerBrand}
+      alternates={[
+        { hreflang: "ru", path: "/kontekstnaya-reklama/" },
+        { hreflang: "en", path: "/en/ads/" },
+        { hreflang: "x-default", path: "/kontekstnaya-reklama/" },
+      ]}
+    />
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <link rel="preload" as="image" href="/images/v6/photos/ads-hero.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(serviceLd)} />
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell serviceActive="ads" locale={locale} />
+
+      <main id="main" class="v6-main">
+        <header class="v6-topbar">
+          <button
+            id="v6-burger"
+            type="button"
+            class="v6-burger"
+            aria-label={t.menuLabel}
+            aria-controls="v6-sidebar"
+            aria-expanded="false">☰</button
+          >
+          <p class="v6-breadcrumb">
+            <a href={homeHref}>{t.breadcrumbHome}</a> · <strong>{t.breadcrumbCurrent}</strong>
+          </p>
+          <div class="home-topbar-actions">
+            <div class="home-lang" aria-label={home.langSwitchAria} data-lang-switch hidden>
+              <a
+                class:list={["home-lang__btn", locale === "ru" && "is-active"]}
+                href="/kontekstnaya-reklama/"
+                hreflang="ru"
+                lang="ru"
+                data-locale-set="ru">RU</a
+              >
+              <a
+                class:list={["home-lang__btn", locale === "en" && "is-active"]}
+                href="/en/ads/"
+                hreflang="en"
+                lang="en"
+                data-locale-set="en">EN</a
+              >
+            </div>
+            <a href="#ads-cta" class="v6-btn">{t.ctaTop}</a>
+          </div>
+        </header>
+
+        <div class="v6-content">
+          <section class="a-hero">
+            <div class="a-hero__copy">
+              <p class="a-brand">{t.brandBefore}<em>{t.brandAccent}</em></p>
+              <h1>
+                {t.heroTitleBefore}<span>{t.heroTitleAccent}</span>
+              </h1>
+              <p class="a-hero__lead">{t.heroLead}</p>
+              <div class="a-hero__actions">
+                <a href="#ads-cta" class="a-btn a-btn--primary">{t.heroCtaPrimary}</a>
+                <a href="#pricing" class="a-btn a-btn--ghost">{t.heroCtaSecondary}</a>
+              </div>
+              <ul class="a-hero__points">
+                {t.heroPoints.map((p) => <li>{p}</li>)}
+              </ul>
+            </div>
+            <div class="a-hero__visual" data-parallax-ads>
+              <div class="a-hero__photo" aria-hidden="true" data-parallax-ads-bg></div>
+              <div class="a-bids" aria-hidden="true">
+                {
+                  t.heroBids.map((b) => (
+                    <div class="a-bid">
+                      <strong>{b.title}</strong>
+                      <span class="a-bid__bar">
+                        <i style={`--w:${b.width}`} />
+                      </span>
+                      <span>{b.label}</span>
+                    </div>
+                  ))
+                }
+              </div>
+            </div>
+          </section>
+
+          <section class="a-section a-reveal">
+            <div class="a-section__head">
+              <h2>{t.notFitTitle}</h2>
+              <p>{t.notFitLead}</p>
+            </div>
+            <div class="a-stop">
+              {
+                t.notFit.map((item, i) => (
+                  <article>
+                    <span class="a-stop__mark">
+                      {t.notFitMark} 0{i + 1}
+                    </span>
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="a-section a-reveal" id="process">
+            <div class="a-section__head">
+              <h2>{t.processTitle}</h2>
+              <p>{t.processLead}</p>
+            </div>
+            <div class="a-rail">
+              {
+                t.steps.map((s) => (
+                  <article class="a-rail__item">
+                    <span class="a-rail__n">{s.n}</span>
+                    <div>
+                      <h3>{s.title}</h3>
+                      <p>{s.text}</p>
+                    </div>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="a-section a-reveal">
+            <div class="a-section__head">
+              <h2>{t.edgesTitle}</h2>
+              <p>{t.edgesLead}</p>
+            </div>
+            <div class="a-edges">
+              {
+                t.edges.map((e) => (
+                  <article class="a-edge">
+                    <h3>{e.title}</h3>
+                    <p>{e.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="a-section a-reveal">
+            <div class="a-section__head">
+              <h2>{t.balanceTitle}</h2>
+              <p>{t.balanceLead}</p>
+            </div>
+            <div class="a-balance">
+              <div class="a-balance__col a-balance__col--pro">
+                <h3>{t.prosTitle}</h3>
+                <ul>
+                  {t.pros.map((item) => <li>{item}</li>)}
+                </ul>
+              </div>
+              <div class="a-balance__col a-balance__col--con">
+                <h3>{t.consTitle}</h3>
+                <ul>
+                  {t.cons.map((item) => <li>{item}</li>)}
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section class="a-price a-reveal" id="pricing">
+            <div class="a-price__intro">
+              <p class="a-price__eyebrow">{t.pricingEyebrow}</p>
+              <h2>{t.pricingTitle}</h2>
+              <p>{t.pricingNote}</p>
+              <div class="a-invoices">
+                <div class="a-invoice">
+                  <span>{t.invoiceAgency.label}</span>
+                  <em>{t.invoiceAgency.value}</em>
+                </div>
+                <div class="a-invoice">
+                  <span>{t.invoiceMedia.label}</span>
+                  <em>{t.invoiceMedia.value}</em>
+                </div>
+              </div>
+            </div>
+
+            <div class="a-tiers">
+              {
+                t.tiers.map((tier) => (
+                  <article class:list={["a-tier", tier.accent && "a-tier--accent"]}>
+                    <p class="a-tier__budget">{tier.budget}</p>
+                    <p class="a-tier__hint">{tier.budgetHint}</p>
+                    <p class="a-tier__for">{tier.forWhom}</p>
+                    <p class="a-tier__fee">
+                      <strong>{tier.fee}</strong>
+                      <span>{tier.feeNote}</span>
+                    </p>
+                    <a href="#ads-cta" class="a-btn a-btn--tier">{t.tierCta}</a>
+                  </article>
+                ))
+              }
+            </div>
+
+            <div class="a-price__include">
+              <h3>{t.includeTitle}</h3>
+              <ul>
+                {t.include.map((item) => <li>{item}</li>)}
+              </ul>
+            </div>
+          </section>
+
+          {
+            adsCases.length > 0 && (
+              <section class="a-section a-reveal">
+                <div class="a-section__head">
+                  <h2>{t.casesTitle}</h2>
+                  <p>{t.casesLead}</p>
+                </div>
+                <div class="a-cases">
+                  {adsCases.map((c) => (
+                    <a href={`/keysy/${c.category}/${c.slug}/`} class="a-case">
+                      <span class="a-case__media" aria-hidden="true">
+                        <img src={c.cover} alt="" loading="lazy" />
+                      </span>
+                      <span class="a-case__shade" aria-hidden="true" />
+                      <span class="a-case__copy">
+                        <strong>{c.client}</strong>
+                        <span>
+                          {c.metric} · {c.metricLabel}
+                        </span>
+                      </span>
+                    </a>
+                  ))}
+                </div>
+                <p style="margin-top:1.25rem">
+                  <a class="a-btn a-btn--line" href="/keysy/ads/">
+                    {t.casesAll}
+                  </a>
+                </p>
+              </section>
+            )
+          }
+
+          <section class="a-section a-reveal">
+            <div class="a-section__head">
+              <h2>{t.outcomesTitle}</h2>
+              <p>{t.outcomesLead}</p>
+            </div>
+            <div class="a-outcomes">
+              {
+                t.outcomes.map((item) => (
+                  <article class="a-outcome">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="a-section a-reveal" id="faq">
+            <div class="a-section__head">
+              <h2>{t.faqTitle}</h2>
+              <p>{t.faqLead}</p>
+            </div>
+            <div class="a-faq">
+              {
+                t.faq.map((item) => (
+                  <details class="a-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
+          </section>
+
+          <section id="ads-cta" class="a-cta a-reveal">
+            <div class="a-cta__copy">
+              <div>
+                <h2>{t.ctaTitle}</h2>
+                <p>{t.ctaLead}</p>
+                <ul class="a-cta__points">
+                  {t.ctaPoints.map((p) => <li>{p}</li>)}
+                </ul>
+              </div>
+              <div class="a-cta__contacts">
+                <a href={contacts.emailHref}>{contacts.email}</a>
+                {showPhone ? <a href={contacts.phoneHref}>{contacts.phone}</a> : null}
+              </div>
+            </div>
+            <form
+              id="ads-form"
+              class="a-form"
+              data-success-message={t.formSuccess}
+              data-form-source={t.formSource}
+            >
+              <label class="visually-hidden" for={`ads-name-${locale}`}>{t.formName}</label>
+              <input
+                id={`ads-name-${locale}`}
+                type="text"
+                name="name"
+                placeholder={t.formName}
+                autocomplete="name"
+                required
+              />
+              <label class="visually-hidden" for={`ads-phone-${locale}`}>{t.formPhone}</label>
+              <input
+                id={`ads-phone-${locale}`}
+                type="tel"
+                name="phone"
+                placeholder={t.formPhone}
+                autocomplete="tel"
+                required
+              />
+              <label class="visually-hidden" for={`ads-site-${locale}`}>{t.formSite}</label>
+              <input
+                id={`ads-site-${locale}`}
+                type="url"
+                name="site"
+                placeholder={t.formSite}
+                autocomplete="url"
+              />
+              <label class="visually-hidden" for={`ads-system-${locale}`}>{t.formSystem}</label>
+              <select id={`ads-system-${locale}`} name="system">
+                <option value="">{t.formSystem}</option>
+                {t.formSystemOptions.map((opt) => <option>{opt}</option>)}
+              </select>
+              <label class="visually-hidden" for={`ads-budget-${locale}`}>{t.formBudget}</label>
+              <select id={`ads-budget-${locale}`} name="budget">
+                <option value="">{t.formBudget}</option>
+                {t.formBudgetOptions.map((opt) => <option>{opt}</option>)}
+              </select>
+              <label class="visually-hidden" for={`ads-message-${locale}`}>{t.formMessage}</label>
+              <textarea
+                id={`ads-message-${locale}`}
+                name="message"
+                rows="3"
+                placeholder={t.formMessage}
+              ></textarea>
+              <label class="a-form__check">
+                <input type="checkbox" name="agree" required />
+                <span>
+                  {t.formAgreeBefore}{" "}
+                  <a
+                    class="cookie-link"
+                    href={docs.privacy}
+                    target="_blank"
+                    rel="nofollow noopener noreferrer">{t.formAgreePolicy}</a
+                  >.
+                </span>
+              </label>
+              <button type="submit" class="a-btn a-btn--ink">{t.formSubmit}</button>
+              <p id="ads-form-hint" class="a-form-hint" hidden></p>
+            </form>
+          </section>
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>{t.footerBrand}</strong>
+            <p>{t.footerTagline}</p>
+          </div>
+          <p>© 2015–{year} {t.footerBrand}</p>
+          <CookieFooterNotice locale={locale} />
+        </footer>
+      </main>
+    </div>
+
+    <CookieConsent locale={locale} />
+    <script>
+      import "../../scripts/kontekst.ts";
+      import "../../scripts/locale-offer.ts";
+    </script>
+  </body>
+</html>

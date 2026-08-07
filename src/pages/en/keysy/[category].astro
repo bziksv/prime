@@ -1,0 +1,36 @@
+---
+import "../../../styles/concept-v6.css";
+import "../../../styles/concept-v6-media.css";
+import "../../../styles/cases.css";
+import CasesCategoryView from "../../../components/cases/CasesCategoryView.astro";
+import {
+  caseCategories,
+  getCategory,
+  getCasesByCategory,
+  type CaseCategoryId,
+} from "../../../data/cases";
+import {
+  EN_CASE_SLUGS,
+  casesIndexPath,
+  localizeCase,
+  localizeCategory,
+} from "../../../i18n/cases";
+
+export function getStaticPaths() {
+  return caseCategories.map((c) => ({ params: { category: c.slug } }));
+}
+
+const locale = "en" as const;
+const { category } = Astro.params;
+const baseCat = getCategory(category!);
+if (!baseCat) {
+  return Astro.redirect(casesIndexPath(locale));
+}
+
+const cat = localizeCategory(baseCat, locale);
+const cases = getCasesByCategory(cat.id as CaseCategoryId)
+  .filter((c) => (EN_CASE_SLUGS as readonly string[]).includes(c.slug))
+  .map((c) => localizeCase(c, locale));
+---
+
+<CasesCategoryView locale={locale} cat={cat} cases={cases} />

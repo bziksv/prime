@@ -1,20 +1,48 @@
 ---
-import { legalDocs } from "../data/legal";
+import { getLegalDocs } from "../data/legal";
+import type { Locale } from "../i18n/locales";
+
+interface Props {
+  locale?: Locale;
+}
+
+const { locale = "ru" } = Astro.props;
+const docs = getLegalDocs(locale);
 
 const linkAttrs = {
   class: "cookie-link",
   target: "_blank",
   rel: "nofollow noopener noreferrer",
 } as const;
+
+const copy =
+  locale === "ru"
+    ? {
+        beforeCookies: "На нашем сайте используются",
+        cookies: "cookie-файлы",
+        and: "и",
+        recommendations: "рекомендательные технологии",
+        mid: ", которые помогают улучшать функциональность, адаптировать рекламу и собирать статистику посещений. Продолжая пользоваться сайтом, вы соглашаетесь с обработкой персональных данных согласно",
+        privacy: "политике конфиденциальности",
+        after: ". Вы можете отключить cookies в настройках браузера.",
+      }
+    : {
+        beforeCookies: "We use",
+        cookies: "cookies",
+        and: "and",
+        recommendations: "recommendation technologies",
+        mid: " to improve the site, tailor ads and collect visit stats. By continuing, you agree to personal data processing under our",
+        privacy: "privacy policy",
+        after: ". You can disable cookies in your browser settings.",
+      };
 ---
 
 <div class="cookie-notice">
-  На нашем сайте используются{" "}
-  <a {...linkAttrs} href={legalDocs.cookies}>cookie-файлы</a>
-  {" "}и{" "}
-  <a {...linkAttrs} href={legalDocs.recommendations}>рекомендательные технологии</a>, которые
-  помогают улучшать функциональность, адаптировать рекламу и собирать статистику посещений.
-  Продолжая пользоваться сайтом, вы соглашаетесь с обработкой персональных данных согласно{" "}
-  <a {...linkAttrs} href={legalDocs.privacy}>политике конфиденциальности</a>. Вы можете отключить
-  cookies в настройках браузера.
+  {copy.beforeCookies}{" "}
+  <a {...linkAttrs} href={docs.cookies}>{copy.cookies}</a>
+  {" "}{copy.and}{" "}
+  <a {...linkAttrs} href={docs.recommendations}>{copy.recommendations}</a>
+  {copy.mid}{" "}
+  <a {...linkAttrs} href={docs.privacy}>{copy.privacy}</a>
+  {copy.after}
 </div>

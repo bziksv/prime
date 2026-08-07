@@ -1,0 +1,505 @@
+---
+import PortalShell from "../PortalShell.astro";
+import CookieConsent from "../CookieConsent.astro";
+import CookieFooterNotice from "../CookieFooterNotice.astro";
+import SiteSeo from "../SiteSeo.astro";
+import { v6Icons } from "../../data/v6-media";
+import { contacts } from "../../data/contacts";
+import { getLegalDocs } from "../../data/legal";
+import { breadcrumbJsonLd } from "../../lib/breadcrumb-jsonld";
+import { serviceJsonLd } from "../../lib/service-jsonld";
+import { getTrafficContent } from "../../i18n/traffic-content";
+import { getHomeContent, homePath } from "../../i18n/home-content";
+import { localeMeta, type Locale } from "../../i18n/locales";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getTrafficContent(locale);
+const home = getHomeContent(locale);
+const docs = getLegalDocs(locale);
+const htmlLang = localeMeta[locale].hreflang;
+const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+const showPhone = locale === "ru";
+const year = new Date().getFullYear();
+const homeHref = homePath(locale);
+
+const chartBars = [18, 22, 28, 34, 42, 48, 55, 62, 71, 78, 86, 94];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: t.faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
+
+const origin = Astro.site?.origin ?? "https://prime-ltd.su";
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: t.breadcrumbHome, href: homeHref },
+    { label: t.breadcrumbCurrent },
+  ],
+  {
+    origin,
+    currentPath: t.path,
+  },
+);
+const serviceLd = serviceJsonLd({
+  name: t.serviceName,
+  description: t.metaDescription,
+  path: t.path,
+  serviceType: t.serviceType,
+  origin,
+  providerName: t.footerBrand,
+  areaServed: locale === "en" ? "Worldwide" : "RU",
+});
+---
+
+<!doctype html>
+<html lang={htmlLang} data-concept="v6" data-page="traffic" data-locale={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={t.metaDescription} />
+    <title>{t.metaTitle}</title>
+    <SiteSeo
+      title={t.metaTitle}
+      description={t.metaDescription}
+      path={t.path}
+      locale={ogLocale}
+      siteName={t.footerBrand}
+      alternates={[
+        { hreflang: "ru", path: "/prodvizhenie-sayta-po-trafiku/" },
+        { hreflang: "en", path: "/en/traffic/" },
+        { hreflang: "x-default", path: "/prodvizhenie-sayta-po-trafiku/" },
+      ]}
+    />
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <link rel="preload" as="image" href="/images/v6/photos/traffic-hero.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Teko:wght@400;500;600&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(serviceLd)} />
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell serviceActive="traffic" locale={locale} />
+
+      <main id="main" class="v6-main">
+        <header class="v6-topbar">
+          <button
+            id="v6-burger"
+            type="button"
+            class="v6-burger"
+            aria-label={t.menuLabel}
+            aria-controls="v6-sidebar"
+            aria-expanded="false">☰</button
+          >
+          <p class="v6-breadcrumb">
+            <a href={homeHref}>{t.breadcrumbHome}</a> · <strong>{t.breadcrumbCurrent}</strong>
+          </p>
+          <div class="home-topbar-actions">
+            <div class="home-lang" aria-label={home.langSwitchAria} data-lang-switch hidden>
+              <a
+                class:list={["home-lang__btn", locale === "ru" && "is-active"]}
+                href="/prodvizhenie-sayta-po-trafiku/"
+                hreflang="ru"
+                lang="ru"
+                data-locale-set="ru">RU</a
+              >
+              <a
+                class:list={["home-lang__btn", locale === "en" && "is-active"]}
+                href="/en/traffic/"
+                hreflang="en"
+                lang="en"
+                data-locale-set="en">EN</a
+              >
+            </div>
+            <a href="#traffic-cta" class="v6-btn">{t.ctaTop}</a>
+          </div>
+        </header>
+
+        <div class="v6-content">
+          <section class="t-hero" data-t-hero>
+            <div class="t-hero__atmosphere" aria-hidden="true">
+              <div class="t-hero__bg" data-t-bg></div>
+              <div class="t-hero__veil"></div>
+              <div class="t-hero__mesh" data-t-mesh></div>
+              <p class="t-hero__giant">VISITS</p>
+            </div>
+
+            <div class="t-hero__copy">
+              <p class="t-brand">{t.brandBefore}<em>{t.brandAccent}</em></p>
+              <p class="t-kicker">{t.heroKicker}</p>
+              <h1>
+                {t.heroTitleBefore}<span>{t.heroTitleAccent}</span>{t.heroTitleAfter}
+              </h1>
+              <p class="t-hero__lead">{t.heroLead}</p>
+              <div class="t-hero__actions">
+                <a href="#traffic-cta" class="t-btn t-btn--primary">{t.heroCtaPrimary}</a>
+                <a href="#pricing" class="t-btn t-btn--ghost">{t.heroCtaSecondary}</a>
+              </div>
+            </div>
+
+            <aside
+              class="t-meter"
+              data-t-meter
+              aria-label={t.meterAria}
+              data-t-rate={t.meterRate}
+              data-t-currency={t.meterCurrency}
+              data-t-note-start={t.meterNoteStart}
+              data-t-note-pay={t.meterNotePay}
+            >
+              <header class="t-meter__head">
+                <span class="t-meter__live"><i></i> {t.meterLive}</span>
+                <span class="t-meter__proto">{t.meterProto}</span>
+              </header>
+
+              <div class="t-meter__keys" data-t-keys>
+                {
+                  t.demoKeys.map((k, i) => (
+                    <span class="t-meter__key" data-t-key style={`--i:${i}`} hidden>
+                      {k}
+                    </span>
+                  ))
+                }
+              </div>
+
+              <div class="t-meter__chart" data-t-chart>
+                <div class="t-meter__baseline" data-t-baseline>
+                  <span>{t.meterBaseline}</span>
+                  <strong data-t-base-val>1 240</strong>
+                </div>
+                <div class="t-meter__bars" aria-hidden="true">
+                  {
+                    chartBars.map((h, i) => (
+                      <i style={`--h:${h}%; --i:${i}`} data-t-bar></i>
+                    ))
+                  }
+                </div>
+                <svg class="t-meter__spark" viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true">
+                  <defs>
+                    <linearGradient id="t-spark-fill" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="rgba(45,212,191,0.45)" />
+                      <stop offset="100%" stop-color="rgba(45,212,191,0)" />
+                    </linearGradient>
+                  </defs>
+                  <path data-t-area fill="url(#t-spark-fill)" d="" />
+                  <polyline data-t-line fill="none" points="" />
+                </svg>
+              </div>
+
+              <div class="t-meter__stats">
+                <div>
+                  <span>{t.meterVisitsLabel}</span>
+                  <strong><em data-t-visits>1 240</em></strong>
+                </div>
+                <div>
+                  <span>{t.meterDeltaLabel}</span>
+                  <strong class="t-meter__delta">+<em data-t-delta>0</em></strong>
+                </div>
+                <div>
+                  <span>{t.meterPayLabel}</span>
+                  <strong data-t-pay>0 {t.meterCurrency}</strong>
+                </div>
+              </div>
+
+              <p class="t-meter__note" data-t-note>{t.meterNoteStart}</p>
+            </aside>
+          </section>
+
+          <section class="t-stats t-reveal" data-t-stats>
+            {
+              t.stats.map((s, i) => (
+                <div class="t-stat" style={`--i:${i}`}>
+                  <strong class="t-stat__value">
+                    {"display" in s && s.display ? (
+                      s.display
+                    ) : (
+                      <>
+                        <span class="t-stat__num" data-count={s.value}>
+                          0
+                        </span>
+                        <span class="t-stat__unit">{s.suffix}</span>
+                      </>
+                    )}
+                  </strong>
+                  <span class="t-stat__label">{s.label}</span>
+                </div>
+              ))
+            }
+          </section>
+
+          <div class="t-marquee t-reveal" aria-hidden="true">
+            <div class="t-marquee__track">
+              {[...t.marquee, ...t.marquee].map((q) => (
+                <span>{q}</span>
+              ))}
+            </div>
+          </div>
+
+          <section class="t-section t-reveal">
+            <div class="t-section__head">
+              <p class="t-kicker">{t.fitKicker}</p>
+              <h2>{t.fitTitle}</h2>
+              <p>{t.fitLead}</p>
+            </div>
+            <div class="t-fit">
+              {
+                t.fit.map((f, i) => (
+                  <article style={`--i:${i}`}>
+                    <span class="t-fit__n">0{i + 1}</span>
+                    <h3>{f.title}</h3>
+                    <p>{f.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="t-section t-reveal" id="timeline">
+            <div class="t-section__head">
+              <p class="t-kicker">{t.stepsKicker}</p>
+              <h2>{t.stepsTitle}</h2>
+              <p>{t.stepsLead}</p>
+            </div>
+            <div class="t-timeline" data-t-timeline>
+              <div class="t-timeline__rail" aria-hidden="true">
+                <span class="t-timeline__fill" data-t-timeline-fill></span>
+              </div>
+              <ol class="t-timeline__list">
+                {
+                  t.steps.map((s, i) => (
+                    <li class="t-timeline__item" data-t-timeline-item style={`--i:${i}`}>
+                      <span class="t-timeline__dot" aria-hidden="true"></span>
+                      <span class="t-timeline__n">{s.n}</span>
+                      <div>
+                        <h3>{s.title}</h3>
+                        <p>{s.text}</p>
+                      </div>
+                    </li>
+                  ))
+                }
+              </ol>
+            </div>
+          </section>
+
+          <section class="t-section t-reveal">
+            <div class="t-section__head">
+              <p class="t-kicker">{t.outcomesKicker}</p>
+              <h2>{t.outcomesTitle}</h2>
+              <p>{t.outcomesLead}</p>
+            </div>
+            <div class="t-outcomes">
+              {
+                t.outcomes.map((o, i) => (
+                  <article class="t-outcome" style={`--i:${i}`}>
+                    <span class="t-outcome__tag">{o.metric}</span>
+                    <h3>{o.title}</h3>
+                    <p>{o.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="t-section t-reveal">
+            <div class="t-section__head">
+              <p class="t-kicker">{t.includesKicker}</p>
+              <h2>{t.includesTitle}</h2>
+              <p>{t.includesLead}</p>
+            </div>
+            <div class="t-includes">
+              {
+                t.includes.map((item, i) => (
+                  <div class="t-include" style={`--i:${i}`}>
+                    {item}
+                  </div>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="t-section t-reveal" id="pricing">
+            <div class="t-section__head">
+              <p class="t-kicker">{t.pricingKicker}</p>
+              <h2>{t.pricingTitle}</h2>
+              <p>{t.pricingLead}</p>
+            </div>
+            <div class="t-plans" data-t-plans>
+              {
+                t.plans.map((p) => (
+                  <article
+                    class:list={["t-plan", p.featured && "t-plan--featured", p.featured && "is-selected"]}
+                    data-t-plan={p.id}
+                    data-title={p.title}
+                    data-price={p.price}
+                    tabindex="0"
+                    role="button"
+                    aria-pressed={p.featured ? "true" : "false"}
+                  >
+                    {p.featured && <span class="t-plan__badge">{t.planBadge}</span>}
+                    <h3>{p.title}</h3>
+                    <p class="t-plan__price">{p.price}</p>
+                    <p class="t-plan__unit">{p.unit}</p>
+                    <div class="t-plan__min">
+                      <strong>{p.min}</strong>
+                      {p.minLabel}
+                    </div>
+                    <a href="#traffic-cta" class="t-btn t-btn--line" data-t-plan-cta>
+                      {t.planCtaPrefix} {p.price}
+                    </a>
+                  </article>
+                ))
+              }
+            </div>
+            <p class="t-note">{t.pricingNote}</p>
+          </section>
+
+          <section class="t-section t-reveal">
+            <div class="t-section__head">
+              <p class="t-kicker">{t.nosKicker}</p>
+              <h2>{t.nosTitle}</h2>
+              <p>{t.nosLead}</p>
+            </div>
+            <div class="t-nos">
+              {
+                t.nos.map((item) => (
+                  <article class="t-no">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="t-section t-reveal" id="faq">
+            <div class="t-section__head">
+              <p class="t-kicker">{t.faqKicker}</p>
+              <h2>{t.faqTitle}</h2>
+              <p>{t.faqLead}</p>
+            </div>
+            <div class="t-faq">
+              {
+                t.faq.map((item) => (
+                  <details class="t-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
+          </section>
+
+          <section id="traffic-cta" class="t-cta t-reveal">
+            <div>
+              <h2>{t.ctaTitle}</h2>
+              <p>{t.ctaLead}</p>
+              <p class="t-cta__pick" data-t-pick data-pick-prefix={t.ctaPickPrefix}>
+                {t.ctaPickPrefix} <strong>{t.ctaPickDefault}</strong>
+              </p>
+              <div class="t-cta__contacts">
+                <a href={contacts.emailHref}>{contacts.email}</a>
+                {showPhone ? <a href={contacts.phoneHref}>{contacts.phone}</a> : null}
+              </div>
+            </div>
+            <form
+              id="traffic-form"
+              class="t-form"
+              data-success-message={t.formSuccess}
+              data-form-source={t.formSource}
+            >
+              <label class="visually-hidden" for={`traffic-name-${locale}`}>{t.formName}</label>
+              <input
+                id={`traffic-name-${locale}`}
+                type="text"
+                name="name"
+                placeholder={t.formName}
+                autocomplete="name"
+                required
+              />
+              <label class="visually-hidden" for={`traffic-phone-${locale}`}>{t.formPhone}</label>
+              <input
+                id={`traffic-phone-${locale}`}
+                type="tel"
+                name="phone"
+                placeholder={t.formPhone}
+                autocomplete="tel"
+                required
+              />
+              <label class="visually-hidden" for={`traffic-site-${locale}`}>{t.formSite}</label>
+              <input
+                id={`traffic-site-${locale}`}
+                type="url"
+                name="site"
+                placeholder={t.formSite}
+                autocomplete="url"
+                required
+              />
+              <label class="visually-hidden" for={`traffic-region-${locale}`}>{t.formRegion}</label>
+              <select id={`traffic-region-${locale}`} name="region" data-t-region required>
+                <option value="" disabled>{t.formRegion}</option>
+                {
+                  t.formRegionOptions.map((opt) => (
+                    <option value={opt.value} selected={opt.selected}>{opt.label}</option>
+                  ))
+                }
+              </select>
+              <label class="visually-hidden" for={`traffic-message-${locale}`}>{t.formMessage}</label>
+              <textarea
+                id={`traffic-message-${locale}`}
+                name="message"
+                rows="3"
+                placeholder={t.formMessage}
+              ></textarea>
+              <label class="t-form__check">
+                <input type="checkbox" name="agree" required />
+                <span>
+                  {t.formAgreeBefore}{" "}
+                  <a
+                    class="cookie-link"
+                    href={docs.privacy}
+                    target="_blank"
+                    rel="nofollow noopener noreferrer">{t.formAgreePolicy}</a
+                  >.
+                </span>
+              </label>
+              <button type="submit" class="t-btn t-btn--mint">{t.formSubmit}</button>
+              <p id="traffic-form-hint" class="t-form-hint" hidden></p>
+            </form>
+          </section>
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>{t.footerBrand}</strong>
+            <p>{t.footerTagline}</p>
+          </div>
+          <p>© 2015–{year} {t.footerBrand}</p>
+          <CookieFooterNotice locale={locale} />
+        </footer>
+      </main>
+    </div>
+
+    <CookieConsent locale={locale} />
+    <script>
+      import "../../scripts/trafik.ts";
+      import "../../scripts/locale-offer.ts";
+    </script>
+  </body>
+</html>

@@ -46,6 +46,13 @@ export default defineConfig({
       },
     },
   },
+  i18n: {
+    defaultLocale: "ru",
+    locales: ["ru", "en", "de", "fr", "es", "pt", "it", "nl", "sv"],
+    routing: {
+      prefixDefaultLocale: false,
+    },
+  },
   integrations: [
     sitemap({
       filter: (page) => !page.includes("/404"),

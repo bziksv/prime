@@ -1,0 +1,193 @@
+import type { BlogPost } from "../../../data/blog";
+
+/** EN overlay for reklama-v-pablikah-vk — same structure as RU JSON. */
+export const reklamaVPablikahVkEn: BlogPost = {
+  slug: "reklama-v-pablikah-vk",
+  title: "Ads in VKontakte communities: how to pick a page and place a post",
+  date: "2022-01-25",
+  category: "SMM",
+  cover: "/images/blog/reklama-v-pablikah-vk/cover-en.webp",
+  excerpt:
+    "How to run ads via VK communities: audience, picking pages, bot and ER checks, the post, comments, and measuring results.",
+  lead: [
+    "Ads in VKontakte communities mean seeding a post in someone else’s (or your own) pages. It works when you hit the right audience and pick a live community — not a bot “graveyard”.",
+    "VK dashboards and marketplaces update often: below is the logic and selection criteria, without tying to outdated UI buttons.",
+  ],
+  faq: [
+    {
+      q: "How is community seeding different from paid targeting?",
+      a: "Seeding places the post with a specific community audience. Targeting runs ads by segments in the ad cabinet. They’re often used together.",
+    },
+    {
+      q: "How do you tell a community has many bots?",
+      a: "Dead/abandoned profiles, abnormal ER, sharp unfollows, identical comments. Check tools help, but also read the feed yourself.",
+    },
+    {
+      q: "What matters more — follower count or post reach?",
+      a: "Reach and reaction on recent posts. A large “dead” base is useless.",
+    },
+    {
+      q: "Who do you contact about placement?",
+      a: "The community admin or via a VK marketplace/ad platform — whatever that page uses.",
+    },
+    {
+      q: "How do you measure effectiveness?",
+      a: "UTM/promo code, leads, cost per inquiry, comment quality. Not only likes under the ad post.",
+    },
+  ],
+  sections: [
+    {
+      title: "When community ads make sense",
+      level: 2,
+      paras: [
+        "The format fits when your audience sits in topic communities: local business, hobbies, B2C services, events.",
+        "If the audience is scattered or you need tight bid control — plan targeting in parallel. Seeding warms people up well and adds social context.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Target audience",
+      level: 2,
+      paras: [
+        "Build a portrait: gender, age, geo, interests, pain, what they’ve already tried. One clear segment beats “everyone”.",
+        "Surveys, reviews, forum research, and audience tools (the set changes) help refine interests.",
+      ],
+      lists: [
+        {
+          intro: "Before picking communities, answer:",
+          items: [
+            "who should see the post;",
+            "what action you want;",
+            "what test budget you have;",
+            "which community topics overlap the offer.",
+          ],
+        },
+      ],
+    },
+    {
+      title: "How to shortlist communities",
+      level: 2,
+      paras: [
+        "Build a long-list: VK search by topic, recommendations, lists from the cabinet/marketplace, community-finder tools.",
+        "Then short-list with five checks: audience fit, activity, bots, reach, other ads.",
+      ],
+      lists: [
+        {
+          intro: "Quick community review:",
+          items: [
+            "stats: gender/age/city match the segment;",
+            "ER: likes, comments, shares on regular posts;",
+            "bot share is moderate (not an inflated “dead” base);",
+            "recent post reach fits the size;",
+            "the feed isn’t packed with competitor ads every post.",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Common mistake",
+          text: "Taking the city’s biggest page without checking ER. Post reach there can be lower than in a compact live community.",
+        },
+      ],
+      tables: [
+        {
+          caption: "Community filter before payment",
+          headers: ["Criterion", "Look at", "Stop signal"],
+          rows: [
+            ["Audience", "Gender/age/geo in stats", "Wrong city/age with no overlap"],
+            ["Activity", "Comments under regular posts", "Silence with “loud” reach"],
+            ["Bots", "Base check + feed", "Mass dead accounts"],
+            ["Ads", "Density of ad posts", "Every post is a seed"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "How to place the ad",
+      level: 2,
+      paras: [
+        "Two paths: direct to the admin or via a marketplace/VK tools for community ads. Confirm format (post / reshare / pin), date, comment moderation, and what’s in the price.",
+      ],
+      lists: [
+        {
+          intro: "Lock with the admin in writing:",
+          items: [
+            "copy and creative (or brief);",
+            "date and time;",
+            "whether a community comment is needed;",
+            "whether you can reply under the post;",
+            "how you’ll get reach stats.",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Comments in a VKontakte community",
+          href: "/en/blog/kommentarii-v-pablike-vk/",
+        },
+      ],
+    },
+    {
+      title: "How to write the post",
+      level: 2,
+      paras: [
+        "In someone else’s community people skim: first line — benefit, then facts, then the ask. Clean visual, no tiny text on the image.",
+      ],
+      lists: [
+        {
+          intro: "Ad post frame:",
+          items: [
+            "hook under the audience’s pain/desire;",
+            "what you offer and for whom;",
+            "proof (figure, deadline, terms);",
+            "CTA: message / click / visit;",
+            "contacts or a short link.",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Comments and follow-up",
+      level: 2,
+      paras: [
+        "After the post goes live, watch comments: answer questions, kill spam, don’t argue toxically. Agree with the admin who moderates junk.",
+      ],
+      lists: [
+        {
+          intro: "In the first hours:",
+          items: [
+            "answer price/delivery clarifications;",
+            "pin a useful reply if possible;",
+            "save stats screenshots;",
+            "tag leads in CRM/spreadsheet.",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Results and budget",
+      level: 2,
+      paras: [
+        "Count cost per desired action, not likes. Compare communities on the same offer and creative.",
+        "Seed prices depend on reach, niche, and city — ask for rates and a test budget on 2–3 placements before scaling.",
+      ],
+      lists: [
+        {
+          intro: "Mini report after a seed:",
+          items: [
+            "reach and post ER;",
+            "clicks / leads / cost;",
+            "comment dialogue quality;",
+            "decision: repeat, change creative, or switch community.",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SMM manager: responsibilities",
+          href: "/en/blog/menedzher-smm/",
+        },
+      ],
+    },
+  ],
+};

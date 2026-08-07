@@ -124,17 +124,25 @@ if (hero) {
 }
 
 /* —— Service filters —— */
+const filtersRoot = document.querySelector<HTMLElement>("[data-service-filters]");
 const filterBtns = document.querySelectorAll<HTMLButtonElement>("[data-filter]");
 const serviceBtns = document.querySelectorAll<HTMLButtonElement>("[data-service]");
 const servicesHint = document.querySelector<HTMLElement>("[data-services-hint]");
 
-const filterLabels: Record<string, string> = {
+let filterLabels: Record<string, string> = {
   all: "все направления",
   dev: "разработка",
   content: "контент",
   design: "дизайн",
   ops: "операции",
 };
+
+try {
+  const raw = filtersRoot?.dataset.filterLabels;
+  if (raw) filterLabels = JSON.parse(raw);
+} catch {
+  /* keep defaults */
+}
 
 const applyFilter = (id: string) => {
   filterBtns.forEach((btn) => {
@@ -148,7 +156,8 @@ const applyFilter = (id: string) => {
     btn.hidden = false;
   });
   if (servicesHint) {
-    servicesHint.innerHTML = `Фильтр: <strong>${filterLabels[id] || id}</strong>`;
+    const hintPrefix = servicesHint.textContent?.split(":")[0]?.trim() || "Фильтр";
+    servicesHint.innerHTML = `${hintPrefix}: <strong>${filterLabels[id] || id}</strong>`;
   }
 };
 
@@ -174,7 +183,11 @@ document.querySelectorAll<HTMLElement>("[data-perk]").forEach((perk) => {
 });
 
 /* —— Tariffs select + hours gauge —— */
-const maxHours = 50;
+const hoursGauge = document.querySelector<HTMLElement>("[data-hours-gauge]");
+const maxHours = Number(hoursGauge?.dataset.maxHours || 50);
+const hoursUnit = hoursGauge?.dataset.hoursUnit || "ч";
+const ctaPickPrefix =
+  document.querySelector<HTMLElement>("[data-cta-pick]")?.dataset.pickPrefix || "Выбран тариф:";
 const hoursFill = document.querySelector<HTMLElement>("[data-hours-fill]");
 const hoursValue = document.querySelector<HTMLElement>("[data-hours-value]");
 const ctaPick = document.querySelector<HTMLElement>("[data-cta-pick]");
@@ -196,9 +209,9 @@ const selectTariff = (card: HTMLElement) => {
   if (hoursFill) {
     hoursFill.style.setProperty("--p", `${(hours / maxHours) * 100}%`);
   }
-  if (hoursValue) hoursValue.textContent = `${hours} ч`;
+  if (hoursValue) hoursValue.textContent = `${hours} ${hoursUnit}`;
   if (ctaPick) {
-    ctaPick.innerHTML = `Выбран тариф: <strong>${name} · ${price}</strong>`;
+    ctaPick.innerHTML = `${ctaPickPrefix} <strong>${name} · ${price}</strong>`;
   }
   if (tariffSelect && id) {
     tariffSelect.value = id;
@@ -247,8 +260,10 @@ if (form) {
   bindLeadForm({
     form,
     hint: document.getElementById("support-form-hint"),
-    successMessage: "Спасибо! Заявка на техподдержку принята — свяжемся с вами.",
-    source: "tehpodderzhka-sayta",
+    successMessage:
+      form.dataset.successMessage ||
+      "Спасибо! Заявка на техподдержку принята — свяжемся с вами.",
+    source: form.dataset.formSource || "tehpodderzhka-sayta",
     successColor: "var(--p-lime, #b8f000)",
     onSuccess: () => {
       const card =

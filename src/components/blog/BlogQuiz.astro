@@ -1,22 +1,28 @@
 ---
 import type { BlogQuizQuestion } from "../../data/blog-interact";
+import type { Locale } from "../../i18n/locales";
 
 type Props = {
   title: string;
   lead: string;
   questions: BlogQuizQuestion[];
+  locale?: Locale;
 };
 
-const { title, lead, questions } = Astro.props;
+const { title, lead, questions, locale = "ru" } = Astro.props;
+const kicker = locale === "en" ? "Test yourself" : "Проверьте себя";
+const checkLabel = locale === "en" ? "Check answers" : "Проверить ответы";
+const resetLabel = locale === "en" ? "Try again" : "Пройти ещё раз";
 ---
 
 <section
   class="b-widget b-quiz"
   data-blog-quiz
+  data-locale={locale}
   aria-labelledby="b-quiz-title"
 >
   <div class="b-widget__head">
-    <p class="b-widget__kicker">Проверьте себя</p>
+    <p class="b-widget__kicker">{kicker}</p>
     <h2 id="b-quiz-title">{title}</h2>
     <p class="b-widget__lead">{lead}</p>
   </div>
@@ -46,8 +52,8 @@ const { title, lead, questions } = Astro.props;
   </div>
 
   <div class="b-quiz__footer">
-    <button type="button" class="v6-btn" data-quiz-check>Проверить ответы</button>
-    <button type="button" class="b-share__btn" data-quiz-reset hidden>Пройти ещё раз</button>
+    <button type="button" class="v6-btn" data-quiz-check>{checkLabel}</button>
+    <button type="button" class="b-share__btn" data-quiz-reset hidden>{resetLabel}</button>
     <p class="b-quiz__score" data-quiz-score hidden></p>
   </div>
 </section>

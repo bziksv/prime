@@ -1,37 +1,69 @@
 ---
-import { legalDocs } from "../data/legal";
+import { getLegalDocs } from "../data/legal";
 import YandexMetrika from "./YandexMetrika.astro";
+import type { Locale } from "../i18n/locales";
+
+interface Props {
+  locale?: Locale;
+}
+
+const { locale = "ru" } = Astro.props;
+const docs = getLegalDocs(locale);
 
 const linkAttrs = {
   class: "cookie-link",
   target: "_blank",
   rel: "nofollow noopener noreferrer",
 } as const;
+
+const copy =
+  locale === "ru"
+    ? {
+        aria: "Уведомление о cookie",
+        title: "Cookies и рекомендации",
+        beforeCookies: "Используем",
+        cookies: "cookie-файлы",
+        and: "и",
+        recommendations: "рекомендательные технологии",
+        mid: "для работы сайта, рекламы и статистики. Продолжая пользоваться сайтом, вы соглашаетесь с обработкой данных согласно",
+        privacy: "политике конфиденциальности",
+        accept: "Принять",
+      }
+    : {
+        aria: "Cookie notice",
+        title: "Cookies and recommendations",
+        beforeCookies: "We use",
+        cookies: "cookies",
+        and: "and",
+        recommendations: "recommendation technologies",
+        mid: "for the site, ads and analytics. By continuing, you agree to data processing under our",
+        privacy: "privacy policy",
+        accept: "Accept",
+      };
 ---
 
 <aside
   id="v6-cookie-bar"
   class="v6-cookie-bar"
   role="dialog"
-  aria-label="Уведомление о cookie"
+  aria-label={copy.aria}
   hidden
 >
   <div class="v6-cookie-bar__stripe" aria-hidden="true"></div>
   <div class="v6-cookie-bar__inner">
     <div class="v6-cookie-bar__copy">
-      <p class="v6-cookie-bar__title">Cookies и рекомендации</p>
+      <p class="v6-cookie-bar__title">{copy.title}</p>
       <p class="v6-cookie-bar__text">
-        Используем{" "}
-        <a {...linkAttrs} href={legalDocs.cookies}>cookie-файлы</a>
-        {" "}и{" "}
-        <a {...linkAttrs} href={legalDocs.recommendations}>рекомендательные технологии</a>
-        {" "}для работы сайта, рекламы и статистики. Продолжая пользоваться сайтом, вы соглашаетесь
-        с обработкой данных согласно{" "}
-        <a {...linkAttrs} href={legalDocs.privacy}>политике конфиденциальности</a>.
+        {copy.beforeCookies}{" "}
+        <a {...linkAttrs} href={docs.cookies}>{copy.cookies}</a>
+        {" "}{copy.and}{" "}
+        <a {...linkAttrs} href={docs.recommendations}>{copy.recommendations}</a>
+        {" "}{copy.mid}{" "}
+        <a {...linkAttrs} href={docs.privacy}>{copy.privacy}</a>.
       </p>
     </div>
-    <button type="button" class="v6-cookie-bar__btn" id="v6-cookie-accept">Принять</button>
+    <button type="button" class="v6-cookie-bar__btn" id="v6-cookie-accept">{copy.accept}</button>
   </div>
 </aside>
 
-<YandexMetrika />
+{locale === "ru" ? <YandexMetrika /> : null}

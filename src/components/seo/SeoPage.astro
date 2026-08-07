@@ -1,0 +1,640 @@
+---
+import PortalShell from "../PortalShell.astro";
+import CookieConsent from "../CookieConsent.astro";
+import CookieFooterNotice from "../CookieFooterNotice.astro";
+import SiteSeo from "../SiteSeo.astro";
+import { v6Icons } from "../../data/v6-media";
+import { getLegalDocs } from "../../data/legal";
+import { getCasesByCategory } from "../../data/cases";
+import { contacts } from "../../data/contacts";
+import { breadcrumbJsonLd } from "../../lib/breadcrumb-jsonld";
+import { serviceJsonLd } from "../../lib/service-jsonld";
+import { getSeoContent } from "../../i18n/seo-content";
+import { getHomeContent, homePath } from "../../i18n/home-content";
+import { localeMeta, type Locale } from "../../i18n/locales";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getSeoContent(locale);
+const home = getHomeContent(locale);
+const docs = getLegalDocs(locale);
+const htmlLang = localeMeta[locale].hreflang;
+const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+const showPhone = locale === "ru";
+const year = new Date().getFullYear();
+const homeHref = homePath(locale);
+
+const seoCases = t.showCases ? getCasesByCategory("seo").slice(0, 4) : [];
+const marqueeLoop = [...t.marquee, ...t.marquee];
+const chapters = t.chapters.filter((c) => c.id !== "cases" || seoCases.length > 0);
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: t.faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
+
+const origin = Astro.site?.origin ?? "https://prime-ltd.su";
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: t.breadcrumbHome, href: homeHref },
+    { label: t.breadcrumbCurrent },
+  ],
+  {
+    origin,
+    currentPath: t.path,
+  },
+);
+const serviceLd = serviceJsonLd({
+  name: t.serviceName,
+  description: t.metaDescription,
+  path: t.path,
+  serviceType: t.serviceType,
+  origin,
+  providerName: t.footerBrand,
+  areaServed: locale === "en" ? "Worldwide" : "RU",
+});
+
+const formatPrice = (n: number) => {
+  const num = new Intl.NumberFormat(t.numberLocale).format(n);
+  return t.currency === "$" ? `$${num}` : `${num} ₽`;
+};
+---
+
+<!doctype html>
+<html
+  lang={htmlLang}
+  data-concept="v6"
+  data-page="seo"
+  data-locale={locale}
+  data-currency={t.currency}
+  data-number-locale={t.numberLocale}
+  data-phrases-word={t.phrasesWord}
+  data-rank-note-done={t.rankNoteDone}
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={t.metaDescription} />
+    <title>{t.metaTitle}</title>
+    <SiteSeo
+      title={t.metaTitle}
+      description={t.metaDescription}
+      path={t.path}
+      locale={ogLocale}
+      siteName={t.footerBrand}
+      alternates={[
+        { hreflang: "ru", path: "/prodvizhenie-sayta/" },
+        { hreflang: "en", path: "/en/seo/" },
+        { hreflang: "x-default", path: "/prodvizhenie-sayta/" },
+      ]}
+    />
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <link rel="preload" as="image" href="/images/v6/photos/seo-hero.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(serviceLd)} />
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell serviceActive="seo" locale={locale} />
+
+      <main id="main" class="v6-main">
+        <header class="v6-topbar">
+          <button
+            id="v6-burger"
+            type="button"
+            class="v6-burger"
+            aria-label={t.menuLabel}
+            aria-controls="v6-sidebar"
+            aria-expanded="false">☰</button
+          >
+          <p class="v6-breadcrumb">
+            <a href={homeHref}>{t.breadcrumbHome}</a> · <strong>{t.breadcrumbCurrent}</strong>
+          </p>
+          <div class="home-topbar-actions">
+            <div class="home-lang" aria-label={home.langSwitchAria} data-lang-switch hidden>
+              <a
+                class:list={["home-lang__btn", locale === "ru" && "is-active"]}
+                href="/prodvizhenie-sayta/"
+                hreflang="ru"
+                lang="ru"
+                data-locale-set="ru">RU</a
+              >
+              <a
+                class:list={["home-lang__btn", locale === "en" && "is-active"]}
+                href="/en/seo/"
+                hreflang="en"
+                lang="en"
+                data-locale-set="en">EN</a
+              >
+            </div>
+            <a href="#seo-cta" class="v6-btn">{t.ctaTop}</a>
+          </div>
+        </header>
+
+        <div class="v6-content" data-s-page>
+          <div class="s-progress" aria-hidden="true">
+            <i data-s-progress></i>
+          </div>
+
+          <div class="s-night">
+            <section class="s-hero" data-parallax-hero data-s-hero>
+              <div class="s-hero__photo" aria-hidden="true" data-parallax-hero-bg></div>
+              <div class="s-hero__orb s-hero__orb--1" aria-hidden="true" data-s-orb></div>
+              <div class="s-hero__orb s-hero__orb--2" aria-hidden="true" data-s-orb></div>
+              <div class="s-hero__grid" aria-hidden="true"></div>
+              <p class="s-hero__giant" aria-hidden="true">TOP</p>
+
+              <div class="s-hero__inner">
+                <p class="s-brand"
+                  >{t.brandBefore}<em>{t.brandAccent}</em></p
+                >
+                <p class="s-kicker">{t.kicker}</p>
+                <h1
+                  >{t.heroTitleBefore}<span>{t.heroTitleAccent}</span></h1
+                >
+                <p class="s-hero__lead">{t.heroLead}</p>
+                <div class="s-hero__actions">
+                  <a href="#seo-cta" class="s-btn s-btn--primary">{t.heroCtaPrimary}</a>
+                  <a href="#pricing" class="s-btn s-btn--ghost">{t.heroCtaSecondary}</a>
+                </div>
+                <a href="#about" class="s-hero__scroll" data-s-scroll-hint>
+                  <span>{t.heroScroll}</span>
+                  <i aria-hidden="true"></i>
+                </a>
+              </div>
+
+              <aside class="s-rank" data-s-rank aria-label={t.rankAria}>
+                <header class="s-rank__head">
+                  <span class="s-rank__live"><i></i> {t.rankLive}</span>
+                  <span class="s-rank__proto">{t.rankProto}</span>
+                </header>
+
+                <ul class="s-rank__list">
+                  {
+                    t.demoRanks.map((r, i) => (
+                      <li
+                        class="s-rank__row"
+                        data-s-rank-row
+                        data-from={r.from}
+                        data-to={r.to}
+                        style={`--i:${i}`}
+                      >
+                        <span class="s-rank__pos" data-s-rank-pos>
+                          #{r.from}
+                        </span>
+                        <span class="s-rank__q">{r.q}</span>
+                        <span class="s-rank__badge" data-s-rank-badge>out</span>
+                      </li>
+                    ))
+                  }
+                </ul>
+
+                <div class="s-rank__stats">
+                  <div>
+                    <span>{t.rankInLabel}</span>
+                    <strong
+                      ><em data-s-rank-in>0</em> / {t.demoRanks.length}</strong
+                    >
+                  </div>
+                  <div>
+                    <span>{t.rankBillLabel}</span>
+                    <strong data-s-rank-bill>{t.rankBillEmpty}</strong>
+                  </div>
+                </div>
+                <p class="s-rank__note" data-s-rank-note>{t.rankNote}</p>
+              </aside>
+
+              <div class="s-hero__stripe" aria-hidden="true"></div>
+            </section>
+
+            <div class="s-marquee" aria-hidden="true">
+              <div class="s-marquee__track">
+                {
+                  marqueeLoop.map((m) => (
+                    <span>
+                      {m.t}
+                      <em>{m.e}</em>
+                    </span>
+                  ))
+                }
+              </div>
+            </div>
+
+            <section class="s-model s-reveal">
+              <div>
+                <h2>{t.modelTitle}</h2>
+                <p>{t.modelLead}</p>
+              </div>
+              <div class="s-model__metrics">
+                {
+                  t.modelMetrics.map((m) => (
+                    <div class="s-model__metric">
+                      <strong>{m.value}</strong>
+                      <span>{m.label}</span>
+                    </div>
+                  ))
+                }
+              </div>
+            </section>
+          </div>
+
+          <nav class="s-chapters" data-s-chapters aria-label={locale === "en" ? "Page sections" : "Разделы страницы"}>
+            <div class="s-chapters__inner">
+              <div class="s-chapters__scroller">
+                <div class="s-chapters__track" data-s-chapters-track>
+                  <span class="s-chapters__thumb" data-s-chapters-thumb aria-hidden="true"></span>
+                  {
+                    chapters.map((c, i) => (
+                      <a
+                        href={`#${c.id}`}
+                        class="s-chapters__link"
+                        data-s-chapter={c.id}
+                        data-i={i}
+                      >
+                        {c.label}
+                      </a>
+                    ))
+                  }
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <div class="s-day">
+            <section class="s-section s-reveal" id="about" data-s-section>
+              <div class="s-section__head">
+                <h2>{t.aboutTitle}</h2>
+                <p>{t.aboutLead}</p>
+              </div>
+              <div class="s-about">
+                <div class="s-about__copy">
+                  {t.aboutCopy.map((p) => <p>{p}</p>)}
+                </div>
+                <div class="s-plain">
+                  {
+                    t.plainSpeak.map((item) => (
+                      <article class="s-plain__item">
+                        <strong>{item.jargon}</strong>
+                        <p>{item.plain}</p>
+                      </article>
+                    ))
+                  }
+                </div>
+              </div>
+            </section>
+
+            <section class="s-section s-reveal" id="work" data-s-section>
+              <div class="s-section__head">
+                <h2>{t.workTitle}</h2>
+                <p>{t.workLead}</p>
+              </div>
+              <div class="s-pillars" data-s-pillars>
+                <div class="s-pillars__nav" role="tablist" aria-label={t.pillarsAria} data-s-pillars-nav>
+                  <span class="s-pillars__thumb" data-s-pillars-thumb aria-hidden="true"></span>
+                  {
+                    t.pillars.map((p, i) => (
+                      <button
+                        type="button"
+                        class:list={["s-pillars__btn", { "is-active": i === 0 }]}
+                        role="tab"
+                        data-pillar={p.id}
+                        data-i={i}
+                        aria-selected={i === 0 ? "true" : "false"}
+                      >
+                        <em>0{i + 1}</em>
+                        {p.title}
+                      </button>
+                    ))
+                  }
+                </div>
+                {
+                  t.pillars.map((p, i) => (
+                    <div
+                      class:list={["s-pillars__panel", { "is-active": i === 0 }]}
+                      role="tabpanel"
+                      data-pillar-panel={p.id}
+                      hidden={i !== 0}
+                    >
+                      <h3>{p.title}</h3>
+                      <p>{p.lead}</p>
+                      <ul>
+                        {p.items.map((item) => (
+                          <li>{item}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))
+                }
+              </div>
+            </section>
+
+            <section class="s-section s-section--tint s-reveal" id="result" data-s-section>
+              <div class="s-section__head">
+                <h2>{t.resultTitle}</h2>
+                <p>{t.resultLead}</p>
+              </div>
+              <div class="s-outcomes">
+                {
+                  t.outcomes.map((o, i) => (
+                    <article class="s-outcome">
+                      <span class="s-outcome__n">0{i + 1}</span>
+                      <h3>{o.title}</h3>
+                      <p>{o.text}</p>
+                    </article>
+                  ))
+                }
+              </div>
+            </section>
+
+            <section class="s-section s-reveal" id="start" data-s-section>
+              <div class="s-section__head">
+                <h2>{t.startTitle}</h2>
+                <p>{t.startLead}</p>
+              </div>
+              <div class="s-steps">
+                {
+                  t.steps.map((s) => (
+                    <article class="s-step">
+                      <span class="s-step__n">{s.n}</span>
+                      <h3>{s.title}</h3>
+                      <p>{s.text}</p>
+                    </article>
+                  ))
+                }
+              </div>
+            </section>
+
+            <section class="s-section s-section--pricing s-reveal" id="pricing" data-s-section>
+              <div class="s-section__head">
+                <h2>{t.pricingTitle}</h2>
+                <p>{t.pricingLead}</p>
+              </div>
+              <p class="s-price-note">{t.priceNote}</p>
+
+              <div class="s-regions" role="group" aria-label={t.regionsAria} data-s-regions>
+                <span class="s-regions__thumb" data-s-regions-thumb aria-hidden="true"></span>
+                {
+                  t.regions.map((r, i) => (
+                    <button
+                      type="button"
+                      class:list={[{ "is-active": i === 0 }]}
+                      data-region={r.id}
+                      data-i={i}
+                    >
+                      {r.label}
+                    </button>
+                  ))
+                }
+              </div>
+
+              <div class="s-tariffs">
+                {
+                  t.tariffs.map((tariff) => (
+                    <article
+                      class:list={["s-tariff", { "s-tariff--featured": tariff.featured }]}
+                    >
+                      {tariff.featured ? (
+                        <span class="s-tariff__badge">{t.tariffFeatured}</span>
+                      ) : null}
+                      <h3 class="s-tariff__name">{tariff.name}</h3>
+                      <p class="s-tariff__phrases">
+                        {tariff.phrases} {t.tariffPhrasesSuffix}
+                      </p>
+                      <p
+                        class="s-tariff__price"
+                        data-price
+                        data-price-region={tariff.prices.region}
+                        data-price-msk={tariff.prices.msk}
+                        data-price-spb={tariff.prices.spb}
+                      >
+                        {formatPrice(tariff.prices.region)}
+                      </p>
+                      <p class="s-tariff__period">{t.tariffPeriod}</p>
+                      <div class="s-tariff__meta">
+                        <div>
+                          {t.tariffBackup}: <strong>{tariff.backup}</strong>
+                        </div>
+                        <div>
+                          {t.tariffContent}: <strong>{tariff.contentHours}</strong> ·{" "}
+                          {t.tariffTech}: <strong>{tariff.techHours}</strong>
+                        </div>
+                        <div>
+                          {t.tariffAds}: <strong>{tariff.ads}</strong>
+                        </div>
+                      </div>
+                      <ul class="s-tariff__features">
+                        {tariff.features.map((f) => (
+                          <li class={f.ok ? "is-on" : "is-off"}>
+                            <span aria-hidden="true">{f.ok ? "→" : "×"}</span>
+                            {f.label}
+                          </li>
+                        ))}
+                      </ul>
+                      <a href="#seo-cta" class="s-btn s-btn--primary">{t.tariffCta}</a>
+                    </article>
+                  ))
+                }
+              </div>
+            </section>
+
+            <section class="s-section s-reveal" id="advantages" data-s-section>
+              <div class="s-section__head">
+                <h2>{t.advantagesTitle}</h2>
+                <p>{t.advantagesLead}</p>
+              </div>
+              <div class="s-adv">
+                {
+                  t.advantages.map((a) => (
+                    <article>
+                      <h3>{a.title}</h3>
+                      <p>{a.text}</p>
+                    </article>
+                  ))
+                }
+              </div>
+            </section>
+
+            {
+              seoCases.length > 0 && (
+                <section class="s-section s-reveal" id="cases" data-s-section>
+                  <div class="s-section__head">
+                    <h2>{t.casesTitle}</h2>
+                    <p>{t.casesLead}</p>
+                  </div>
+                  <div class="s-cases">
+                    {seoCases.map((c) => (
+                      <a href={`/keysy/${c.category}/${c.slug}/`} class="s-case">
+                        <span class="s-case__media" aria-hidden="true">
+                          <img src={c.cover} alt="" loading="lazy" />
+                        </span>
+                        <span class="s-case__shade" aria-hidden="true" />
+                        <span class="s-case__copy">
+                          <strong>{c.client}</strong>
+                          <span>
+                            {c.metric} · {c.metricLabel}
+                          </span>
+                        </span>
+                      </a>
+                    ))}
+                  </div>
+                  <p style="margin-top:1.25rem">
+                    <a class="s-btn s-btn--ghost" href="/keysy/seo/">
+                      {t.casesAll}
+                    </a>
+                  </p>
+                </section>
+              )
+            }
+
+            <section class="s-section s-reveal" id="honest" data-s-section>
+              <div class="s-section__head">
+                <h2>{t.honestTitle}</h2>
+                <p>{t.honestLead}</p>
+              </div>
+              <div class="s-nos">
+                {
+                  t.nos.map((item) => (
+                    <article class="s-no">
+                      <h3>{item.title}</h3>
+                      <p>{item.text}</p>
+                    </article>
+                  ))
+                }
+              </div>
+            </section>
+
+            <section class="s-section s-reveal" id="faq" data-s-section>
+              <div class="s-section__head">
+                <h2>{t.faqTitle}</h2>
+                <p>{t.faqLead}</p>
+              </div>
+              <div class="s-faq">
+                {
+                  t.faq.map((item) => (
+                    <details class="s-faq__item">
+                      <summary>{item.q}</summary>
+                      <p>{item.a}</p>
+                    </details>
+                  ))
+                }
+              </div>
+            </section>
+          </div>
+
+          <section id="seo-cta" class="s-cta s-reveal" data-s-section>
+            <div class="s-cta__copy">
+              <div>
+                <h2>{t.ctaTitle}</h2>
+                <p>{t.ctaLead}</p>
+                <ul class="s-cta__points">
+                  {t.ctaPoints.map((p) => <li>{p}</li>)}
+                </ul>
+              </div>
+              <div class="s-cta__contacts">
+                <a href={contacts.emailHref}>{contacts.email}</a>
+                {
+                  showPhone ? (
+                    <a href={contacts.phoneHref}>{contacts.phone}</a>
+                  ) : null
+                }
+              </div>
+            </div>
+            <form
+              id="seo-form"
+              class="s-form"
+              data-success-message={t.formSuccess}
+              data-form-source={t.formSource}
+            >
+              <label class="visually-hidden" for={`seo-name-${locale}`}>{t.formName}</label>
+              <input
+                id={`seo-name-${locale}`}
+                type="text"
+                name="name"
+                placeholder={t.formName}
+                autocomplete="name"
+                required
+              />
+              <label class="visually-hidden" for={`seo-phone-${locale}`}>{t.formPhone}</label>
+              <input
+                id={`seo-phone-${locale}`}
+                type="tel"
+                name="phone"
+                placeholder={t.formPhone}
+                autocomplete="tel"
+                required
+              />
+              <label class="visually-hidden" for={`seo-site-${locale}`}>{t.formSite}</label>
+              <input
+                id={`seo-site-${locale}`}
+                type="url"
+                name="site"
+                placeholder={t.formSite}
+                autocomplete="url"
+              />
+              <label class="visually-hidden" for={`seo-region-${locale}`}>{t.formRegion}</label>
+              <select id={`seo-region-${locale}`} name="region">
+                <option value="">{t.formRegion}</option>
+                {t.formRegionOptions.map((opt) => <option>{opt}</option>)}
+              </select>
+              <label class="visually-hidden" for={`seo-message-${locale}`}>{t.formMessage}</label>
+              <textarea
+                id={`seo-message-${locale}`}
+                name="message"
+                rows="3"
+                placeholder={t.formMessage}
+              ></textarea>
+              <label class="s-form__check">
+                <input type="checkbox" name="agree" required />
+                <span>
+                  {t.formAgreeBefore}{" "}
+                  <a
+                    class="cookie-link"
+                    href={docs.privacy}
+                    target="_blank"
+                    rel="nofollow noopener noreferrer">{t.formAgreePolicy}</a
+                  >.
+                </span>
+              </label>
+              <button type="submit" class="s-btn s-btn--primary">{t.formSubmit}</button>
+              <p id="seo-form-hint" class="s-form-hint" hidden></p>
+            </form>
+          </section>
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>{t.footerBrand}</strong>
+            <p>{t.footerTagline}</p>
+          </div>
+          <p>© 2015–{year} {t.footerBrand}</p>
+          <CookieFooterNotice locale={locale} />
+        </footer>
+      </main>
+    </div>
+
+    <CookieConsent locale={locale} />
+    <script>
+      import "../../scripts/prodvizhenie.ts";
+      import "../../scripts/locale-offer.ts";
+    </script>
+  </body>
+</html>

@@ -22,8 +22,10 @@ if (form) {
   bindLeadForm({
     form,
     hint: document.getElementById("orm-form-hint"),
-    successMessage: "Спасибо! Заявка по репутации принята — свяжемся с вами.",
-    source: "upravlenie-reputaciej",
+    successMessage:
+      form.dataset.successMessage ||
+      "Спасибо! Заявка по репутации принята — свяжемся с вами.",
+    source: form.dataset.formSource || "upravlenie-reputaciej",
     successColor: "var(--o-gold, #c9a06a)",
   });
 }

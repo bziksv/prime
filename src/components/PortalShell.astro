@@ -1,74 +1,71 @@
 ---
 import { v6Icons } from "../data/v6-media";
+import { contacts } from "../data/contacts";
+import {
+  getHomeContent,
+  homePath,
+  homeServiceHref,
+} from "../i18n/home-content";
+import { partnerPath } from "../i18n/partnerstvo-content";
+import { contactsPath } from "../i18n/contacts-content";
+import { blogIndexPath } from "../i18n/blog";
+import { casesIndexPath } from "../i18n/cases";
+import type { Locale } from "../i18n/locales";
 
 interface Props {
   active?: "home" | "partnerstvo" | "cases" | "kontakty" | "blog";
   serviceActive?: string;
+  locale?: Locale;
 }
 
-const { active, serviceActive } = Astro.props;
-
-const services = [
-  { title: "Продвижение сайта", href: "/prodvizhenie-sayta/", key: "seo" },
-  { title: "Контекстная реклама", href: "/kontekstnaya-reklama/", key: "ads" },
-  { title: "Разработка сайтов", href: "/razrabotka-saytov/", key: "web" },
-  { title: "Разработка ботов", href: "/razrabotka-botov-dlya-messendzherov/", key: "bots" },
-  { title: "Управление репутацией", href: "/upravlenie-reputaciej/", key: "orm" },
-  { title: "Аудит сайта", href: "/audit-sayta/", key: "audit" },
-  { title: "Техподдержка сайта", href: "/tehpodderzhka-sayta/", key: "support" },
-  { title: "Сквозная аналитика", href: "/skvoznaya-analitika/", key: "analytics" },
-  { title: "Продвижение по трафику", href: "/prodvizhenie-sayta-po-trafiku/", key: "traffic" },
-];
-
-const navTop = [
-  { label: "О компании", href: "/#about", key: "home" },
-];
+const { active, serviceActive, locale = "ru" } = Astro.props;
+const t = getHomeContent(locale);
+const path = homePath(locale);
+const showPhone = locale === "ru";
 
 const navBottom = [
-  { label: "Наши кейсы", href: "/keysy/", key: "cases" },
-  { label: "Блог", href: "/blog/", key: "blog" },
-  { label: "Партнерство", href: "/partnerstvo/", key: "partnerstvo" },
-  { label: "Контакты", href: "/kontakty/", key: "kontakty" },
+  { label: t.navCases, href: casesIndexPath(locale), key: "cases" as const },
+  { label: t.navBlog, href: blogIndexPath(locale), key: "blog" as const },
+  { label: t.navPartnership, href: partnerPath(locale), key: "partnerstvo" as const },
+  { label: t.navContacts, href: contactsPath(locale), key: "kontakty" as const },
 ];
 ---
 
-<a class="v6-skip" href="#main">К содержанию</a>
-<aside id="v6-sidebar" class="v6-sidebar" aria-label="Навигация сайта">
+<a class="v6-skip" href="#main">{t.skipToContent}</a>
+<aside id="v6-sidebar" class="v6-sidebar" aria-label={t.navAria}>
   <div class="v6-sidebar__head">
-    <a href="/" class="v6-sidebar__logo">
+    <a href={path} class="v6-sidebar__logo">
       <img src={v6Icons.logoMark} alt="" width="44" height="44" />
       <span class="v6-sidebar__brand">
-        <span class="v6-sidebar__name">ПРАЙМ</span>
-        <span class="v6-sidebar__tagline">Интернет-маркетинг</span>
+        <span class="v6-sidebar__name">{t.brandName}</span>
+        <span class="v6-sidebar__tagline">{t.brandTagline}</span>
       </span>
     </a>
     <div class="v6-sidebar__stripe" aria-hidden="true"></div>
   </div>
 
   <nav class="v6-nav">
-    {
-      navTop.map((item) => (
-        <a
-          href={item.href}
-          class={active === item.key ? "is-active" : undefined}
-          aria-current={active === item.key ? "page" : undefined}
-        >
-          {item.label}
-        </a>
-      ))
-    }
+    <a
+      href={locale === "ru" ? "/#about" : "/en/#about"}
+      class={active === "home" ? "is-active" : undefined}
+      aria-current={active === "home" ? "page" : undefined}
+    >
+      {t.navAbout}
+    </a>
     <details class="v6-nav__group" open>
-      <summary>Наши услуги</summary>
+      <summary>{t.navServices}</summary>
       <div class="v6-nav__sub">
-        {services.map((s) => (
-          <a
-            href={s.href}
-            class={serviceActive === s.key ? "is-active" : undefined}
-            aria-current={serviceActive === s.key ? "page" : undefined}
-          >
-            {s.title}
-          </a>
-        ))}
+        {
+          t.services.map((s) => (
+            <a
+              href={homeServiceHref(s.cat, locale)}
+              class={serviceActive === s.cat ? "is-active" : undefined}
+              aria-current={serviceActive === s.cat ? "page" : undefined}
+            >
+              {s.title}
+            </a>
+          ))
+        }
       </div>
     </details>
     {
@@ -85,8 +82,8 @@ const navBottom = [
   </nav>
 
   <div class="v6-sidebar__foot">
-    <a href="tel:+74732030124">+7 (473) 203-01-24</a>
-    <a href="mailto:info@prime-ltd.su">info@prime-ltd.su</a>
+    {showPhone ? <a href={contacts.phoneHref}>{contacts.phone}</a> : null}
+    <a href={contacts.emailHref}>{contacts.email}</a>
     <div class="v6-sidebar__social">
       <a href="https://vk.com/primeltd" target="_blank" rel="noopener" aria-label="VK">VK</a>
       <a href="https://t.me/bziksv" target="_blank" rel="noopener" aria-label="Telegram">TG</a>

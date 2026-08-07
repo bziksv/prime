@@ -1,0 +1,547 @@
+---
+import PortalShell from "../PortalShell.astro";
+import CookieConsent from "../CookieConsent.astro";
+import CookieFooterNotice from "../CookieFooterNotice.astro";
+import SiteSeo from "../SiteSeo.astro";
+import { v6Icons } from "../../data/v6-media";
+import { getLegalDocs } from "../../data/legal";
+import { contacts } from "../../data/contacts";
+import { breadcrumbJsonLd } from "../../lib/breadcrumb-jsonld";
+import { serviceJsonLd } from "../../lib/service-jsonld";
+import { getAuditContent } from "../../i18n/audit-content";
+import { getHomeContent, homePath } from "../../i18n/home-content";
+import { localeMeta, type Locale } from "../../i18n/locales";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getAuditContent(locale);
+const home = getHomeContent(locale);
+const docs = getLegalDocs(locale);
+const htmlLang = localeMeta[locale].hreflang;
+const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+const showPhone = locale === "ru";
+const year = new Date().getFullYear();
+const homeHref = homePath(locale);
+const marqueeLoop = [...t.marquee, ...t.marquee];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: t.faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
+
+const origin = Astro.site?.origin ?? "https://prime-ltd.su";
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: t.breadcrumbHome, href: homeHref },
+    { label: t.breadcrumbCurrent },
+  ],
+  {
+    origin,
+    currentPath: t.path,
+  },
+);
+const serviceLd = serviceJsonLd({
+  name: t.serviceName,
+  description: t.metaDescription,
+  path: t.path,
+  serviceType: t.serviceType,
+  origin,
+  providerName: t.footerBrand,
+  areaServed: locale === "en" ? "Worldwide" : "RU",
+});
+---
+
+<!doctype html>
+<html lang={htmlLang} data-concept="v6" data-page="audit" data-locale={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={t.metaDescription} />
+    <title>{t.metaTitle}</title>
+    <SiteSeo
+      title={t.metaTitle}
+      description={t.metaDescription}
+      path={t.path}
+      locale={ogLocale}
+      siteName={t.footerBrand}
+      alternates={[
+        { hreflang: "ru", path: "/audit-sayta/" },
+        { hreflang: "en", path: "/en/audit/" },
+        { hreflang: "x-default", path: "/audit-sayta/" },
+      ]}
+    />
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(serviceLd)} />
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell serviceActive="audit" locale={locale} />
+
+      <main id="main" class="v6-main">
+        <header class="v6-topbar">
+          <button
+            id="v6-burger"
+            type="button"
+            class="v6-burger"
+            aria-label={t.menuLabel}
+            aria-controls="v6-sidebar"
+            aria-expanded="false">☰</button
+          >
+          <p class="v6-breadcrumb">
+            <a href={homeHref}>{t.breadcrumbHome}</a> · <strong>{t.breadcrumbCurrent}</strong>
+          </p>
+          <div class="home-topbar-actions">
+            <div class="home-lang" aria-label={home.langSwitchAria} data-lang-switch hidden>
+              <a
+                class:list={["home-lang__btn", locale === "ru" && "is-active"]}
+                href="/audit-sayta/"
+                hreflang="ru"
+                lang="ru"
+                data-locale-set="ru">RU</a
+              >
+              <a
+                class:list={["home-lang__btn", locale === "en" && "is-active"]}
+                href="/en/audit/"
+                hreflang="en"
+                lang="en"
+                data-locale-set="en">EN</a
+              >
+            </div>
+            <a href="#audit-cta" class="v6-btn">{t.ctaTop}</a>
+          </div>
+        </header>
+
+        <div class="v6-content">
+          <section class="u-hero" data-u-hero>
+            <div class="u-hero__atmosphere" aria-hidden="true">
+              <div class="u-hero__mesh" data-u-mesh></div>
+              <div class="u-hero__glow" data-u-glow></div>
+              <p class="u-hero__giant">AUDIT</p>
+            </div>
+
+            <div class="u-hero__copy">
+              <p class="u-brand">{t.brandBefore}<em>{t.brandAccent}</em></p>
+              <p class="u-kicker">{t.heroKicker}</p>
+              <h1>
+                {t.heroTitleBefore}<span>{t.heroTitleAccent}</span>
+              </h1>
+              <p class="u-hero__lead">{t.heroLead}</p>
+              <div class="u-hero__actions">
+                <a href="#audit-cta" class="u-btn u-btn--primary">{t.heroCtaPrimary}</a>
+                <a href="#timeline" class="u-btn u-btn--ghost">{t.heroCtaSecondary}</a>
+              </div>
+            </div>
+
+            <aside
+              class="u-console"
+              data-u-console
+              aria-label={t.consoleAria}
+              data-msg-idle={t.consoleLogIdle}
+              data-msg-typing={t.consoleMsgTyping}
+              data-msg-accepted={t.consoleMsgAccepted}
+              data-host-prefix={t.consoleHostPrefix}
+              data-btn-scan={t.consoleScan}
+              data-btn-scanning={t.consoleScanning}
+              data-btn-rescan={t.consoleRescan}
+            >
+              <div class="u-console__cursor" data-u-cursor aria-hidden="true"></div>
+              <header class="u-console__head">
+                <span class="u-console__live"><i></i> live scan</span>
+                <span class="u-console__proto">PRIME · PROTOCOL</span>
+              </header>
+              <label class="u-console__url">
+                <span>target</span>
+                <input
+                  type="url"
+                  name="demo-url"
+                  data-u-url
+                  placeholder={t.consoleUrlPlaceholder}
+                  autocomplete="off"
+                  spellcheck="false"
+                  readonly
+                />
+              </label>
+              <div class="u-console__screen">
+                <div class="u-console__scan" data-u-scanline aria-hidden="true"></div>
+                <ul class="u-console__log" data-u-log>
+                  <li data-u-line data-status="idle">{t.consoleLogIdle}</li>
+                  <li data-u-line data-status="info" hidden data-u-line-host>
+                    {t.consoleLogHost}
+                  </li>
+                  <li data-u-line data-status="info" hidden>{t.consoleLogIndex}</li>
+                  <li data-u-line data-status="warn" hidden>
+                    <em>WARN</em> {t.consoleLogWarn}
+                  </li>
+                  <li data-u-line data-status="check" hidden>
+                    <em>CHECK</em> {t.consoleLogCheck}
+                  </li>
+                  <li data-u-line data-status="ok" hidden>
+                    <em>OK</em> {t.consoleLogOk}
+                  </li>
+                  <li data-u-line data-status="done" hidden>{t.consoleLogDone}</li>
+                </ul>
+              </div>
+              <div class="u-console__meter">
+                <div class="u-console__score">
+                  <span>site health</span>
+                  <strong><span data-score-num>—</span></strong>
+                </div>
+                <div class="u-console__bar" aria-hidden="true">
+                  <i data-score-bar></i>
+                </div>
+                <button type="button" class="u-console__run" data-u-scan disabled>
+                  {t.consoleScan}
+                </button>
+              </div>
+            </aside>
+          </section>
+
+          <section class="u-stats u-reveal" data-u-stats>
+            {
+              t.stats.map((s, i) => (
+                <div class="u-stat" style={`--i:${i}`}>
+                  <strong>
+                    <span data-count={s.value}>0</span>
+                    {s.suffix}
+                  </strong>
+                  <span>{s.label}</span>
+                </div>
+              ))
+            }
+          </section>
+
+          <div class="u-marquee u-reveal" aria-hidden="true">
+            <div class="u-marquee__track">
+              {marqueeLoop.map((item) => (
+                <span>{item}</span>
+              ))}
+            </div>
+          </div>
+
+          <section class="u-section u-reveal">
+            <div class="u-section__head">
+              <p class="u-kicker">{t.signalsKicker}</p>
+              <h2>{t.signalsTitle}</h2>
+              <p>{t.signalsLead}</p>
+            </div>
+            <div class="u-signals">
+              {
+                t.pain.map((p, i) => (
+                  <article class="u-signal" style={`--i:${i}`}>
+                    <span class="u-signal__idx">0{i + 1}</span>
+                    <h3>{p.title}</h3>
+                    <p>{p.text}</p>
+                    <span class="u-signal__arrow" aria-hidden="true">→</span>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="u-section u-reveal" id="timeline">
+            <div class="u-section__head">
+              <p class="u-kicker">{t.timelineKicker}</p>
+              <h2>{t.timelineTitle}</h2>
+              <p>{t.timelineLead}</p>
+            </div>
+            <div class="u-timeline" data-u-timeline>
+              <div class="u-timeline__rail" aria-hidden="true">
+                <span class="u-timeline__fill" data-u-timeline-fill></span>
+              </div>
+              <ol class="u-timeline__list">
+                {
+                  t.timeline.map((step, i) => (
+                    <li class="u-timeline__item" data-u-timeline-item style={`--i:${i}`}>
+                      <span class="u-timeline__dot" aria-hidden="true"></span>
+                      <span class="u-timeline__n">{step.n}</span>
+                      <div>
+                        <h3>{step.title}</h3>
+                        <p>{step.text}</p>
+                      </div>
+                    </li>
+                  ))
+                }
+              </ol>
+            </div>
+          </section>
+
+          <section class="u-section u-reveal">
+            <div class="u-section__head">
+              <p class="u-kicker">{t.includesKicker}</p>
+              <h2>{t.includesTitle}</h2>
+              <p>{t.includesLead}</p>
+            </div>
+            <ol class="u-steps">
+              {
+                t.includes.map((item, i) => (
+                  <li class="u-step" style={`--i:${i}`}>
+                    <span class="u-step__n">{String(i + 1).padStart(2, "0")}</span>
+                    <div>
+                      <h3>{item.title}</h3>
+                      <p>{item.text}</p>
+                    </div>
+                  </li>
+                ))
+              }
+            </ol>
+            <div class="u-deliv">
+              {
+                t.deliverables.map((d, i) => (
+                  <article class:list={[i === 0 ? "u-deliv--doc" : "u-deliv--video"]} style={`--i:${i}`}>
+                    <span class="u-deliv__icon" aria-hidden="true"></span>
+                    <h3>{d.title}</h3>
+                    <p>{d.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="u-section u-reveal" id="protocol">
+            <div class="u-section__head">
+              <p class="u-kicker">{t.protocolKicker}</p>
+              <h2>{t.protocolTitle}</h2>
+              <p>{t.protocolLead}</p>
+            </div>
+
+            <div class="u-protocol" data-protocol>
+              <div class="u-protocol__tabs" role="tablist" aria-label={t.protocolTabsAria}>
+                {
+                  t.columns.map((col, i) => (
+                    <button
+                      type="button"
+                      class:list={["u-protocol__tab", i === 0 && "is-active"]}
+                      role="tab"
+                      aria-selected={i === 0 ? "true" : "false"}
+                      data-tab={col.id}
+                    >
+                      {col.title}
+                    </button>
+                  ))
+                }
+              </div>
+
+              {
+                t.columns.map((col, i) => (
+                  <div
+                    class:list={["u-protocol__panel", i === 0 && "is-active"]}
+                    role="tabpanel"
+                    data-panel={col.id}
+                  >
+                    <ul class="u-findings">
+                      {col.items.map((item) => (
+                        <li class="u-finding">
+                          <button type="button" class="u-finding__btn" aria-expanded="false">
+                            <span>{item.title}</span>
+                            <em>+</em>
+                          </button>
+                          <div class="u-finding__body">{item.text}</div>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="u-price u-reveal" id="pricing">
+            <article class="u-offer u-offer--free">
+              <p class="u-offer__stamp">{t.pricingFreeStamp}</p>
+              <h2>{t.pricing.free.title}</h2>
+              <p>{t.pricing.free.text}</p>
+              <p class="u-offer__note">*{t.pricing.free.note}</p>
+              <a href="#audit-cta" class="u-btn u-btn--ghost">{t.pricingFreeCta}</a>
+            </article>
+            <article class="u-offer u-offer--paid">
+              <p class="u-offer__label">{t.pricingPaidLabel}</p>
+              <h2>{t.pricing.paid.title}</h2>
+              <p class="u-offer__fig">{t.pricing.paid.price}</p>
+              <p>{t.pricing.paid.text}</p>
+              <p class="u-offer__note">{t.pricing.paid.extra}</p>
+              <a href="#audit-cta" class="u-btn u-btn--primary">{t.pricingPaidCta}</a>
+            </article>
+          </section>
+
+          <section class="u-section u-reveal">
+            <div class="u-section__head">
+              <p class="u-kicker">{t.outcomesKicker}</p>
+              <h2>{t.outcomesTitle}</h2>
+              <p>{t.outcomesLead}</p>
+            </div>
+            <div class="u-outcomes">
+              {
+                t.outcomes.map((item) => (
+                  <article class="u-outcome">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="u-section u-reveal">
+            <div class="u-section__head">
+              <p class="u-kicker">{t.nosKicker}</p>
+              <h2>{t.nosTitle}</h2>
+              <p>{t.nosLead}</p>
+            </div>
+            <div class="u-nos">
+              {
+                t.nos.map((item) => (
+                  <article class="u-no">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="u-section u-reveal" id="faq">
+            <div class="u-section__head">
+              <p class="u-kicker">{t.faqKicker}</p>
+              <h2>{t.faqTitle}</h2>
+              <p>{t.faqLead}</p>
+            </div>
+            <div class="u-faq">
+              {
+                t.faq.map((item) => (
+                  <details class="u-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
+          </section>
+
+          <section id="audit-cta" class="u-cta u-reveal">
+            <div class="u-cta__copy">
+              <p class="u-kicker">{t.ctaKicker}</p>
+              <h2>{t.ctaTitle}</h2>
+              <p>{t.ctaLead}</p>
+              <ul class="u-cta__points">
+                {t.ctaPoints.map((point) => <li>{point}</li>)}
+              </ul>
+              <div class="u-cta__contacts">
+                <a href={contacts.emailHref}>{contacts.email}</a>
+                {showPhone ? <a href={contacts.phoneHref}>{contacts.phone}</a> : null}
+              </div>
+            </div>
+            <form
+              id="audit-form"
+              class="u-form"
+              data-success-message={t.formSuccess}
+              data-form-source={t.formSource}
+            >
+              <div class="u-form__row">
+                <div>
+                  <label class="visually-hidden" for={`audit-name-${locale}`}>{t.formName}</label>
+                  <input
+                    id={`audit-name-${locale}`}
+                    type="text"
+                    name="name"
+                    placeholder={t.formName}
+                    autocomplete="name"
+                    required
+                  />
+                </div>
+                <div>
+                  <label class="visually-hidden" for={`audit-phone-${locale}`}>{t.formPhone}</label>
+                  <input
+                    id={`audit-phone-${locale}`}
+                    type="tel"
+                    name="phone"
+                    placeholder={t.formPhone}
+                    autocomplete="tel"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="u-form__row">
+                <div>
+                  <label class="visually-hidden" for={`audit-site-${locale}`}>{t.formSite}</label>
+                  <input
+                    id={`audit-site-${locale}`}
+                    type="url"
+                    name="site"
+                    placeholder={t.formSite}
+                    autocomplete="url"
+                    required
+                  />
+                </div>
+                <div>
+                  <label class="visually-hidden" for={`audit-type-${locale}`}>{t.formType}</label>
+                  <select id={`audit-type-${locale}`} name="type">
+                    <option value="">{t.formType}</option>
+                    {t.formTypeOptions.map((opt) => <option>{opt}</option>)}
+                  </select>
+                </div>
+              </div>
+              <label class="visually-hidden" for={`audit-message-${locale}`}>{t.formMessage}</label>
+              <textarea
+                id={`audit-message-${locale}`}
+                name="message"
+                rows="3"
+                placeholder={t.formMessage}
+              ></textarea>
+              <label class="u-form__check">
+                <input type="checkbox" name="agree" required />
+                <span>
+                  {t.formAgreeBefore}{" "}
+                  <a
+                    class="cookie-link"
+                    href={docs.privacy}
+                    target="_blank"
+                    rel="nofollow noopener noreferrer">{t.formAgreePolicy}</a
+                  >.
+                </span>
+              </label>
+              <button type="submit" class="u-btn u-btn--primary">
+                <span class="u-btn__label">{t.formSubmit}</span>
+              </button>
+              <p id="audit-form-hint" class="u-form-hint" hidden></p>
+            </form>
+          </section>
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>{t.footerBrand}</strong>
+            <p>{t.footerTagline}</p>
+          </div>
+          <p>© 2015–{year} {t.footerBrand}</p>
+          <CookieFooterNotice locale={locale} />
+        </footer>
+      </main>
+    </div>
+
+    <CookieConsent locale={locale} />
+    <script>
+      import "../../scripts/audit.ts";
+      import "../../scripts/locale-offer.ts";
+    </script>
+  </body>
+</html>

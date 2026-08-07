@@ -1,0 +1,725 @@
+---
+import CookieConsent from "../CookieConsent.astro";
+import CookieFooterNotice from "../CookieFooterNotice.astro";
+import SiteSeo from "../SiteSeo.astro";
+  import {
+  v6Photos,
+  v6Icons,
+  v6ModuleBanners,
+  v6ServiceIcons,
+  v6PartnerLogos,
+  v6ClientBrands,
+  v6ClientBrandsLatin,
+} from "../../data/v6-media";
+import { getLegalDocs } from "../../data/legal";
+import { casesForHome, casePath } from "../../data/cases";
+import { contacts } from "../../data/contacts";
+import { casesIndexPath } from "../../i18n/cases";
+import { blogIndexPath } from "../../i18n/blog";
+import {
+  getHomeContent,
+  homePath,
+  homeServiceHref,
+  type HomeContent,
+} from "../../i18n/home-content";
+import { partnerPath } from "../../i18n/partnerstvo-content";
+import { contactsPath } from "../../i18n/contacts-content";
+import { localeMeta, type Locale } from "../../i18n/locales";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t: HomeContent = getHomeContent(locale);
+const docs = getLegalDocs(locale);
+const year = new Date().getFullYear();
+const path = homePath(locale);
+const htmlLang = localeMeta[locale].hreflang;
+const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+
+const orgJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: t.brandName,
+  url: "https://prime-ltd.su/",
+  logo: `https://prime-ltd.su${v6Icons.logoMark}`,
+  email: contacts.email,
+  ...(locale === "ru" ? { telephone: contacts.phone } : {}),
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: contacts.addressShort,
+    addressLocality: contacts.city,
+    postalCode: contacts.postal,
+    addressCountry: "RU",
+  },
+  sameAs: contacts.socials.map((s) => s.href),
+};
+const showPhone = locale === "ru";
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: t.brandName,
+  url: `https://prime-ltd.su${path}`,
+  description: t.metaDescription,
+  inLanguage: htmlLang,
+  publisher: { "@type": "Organization", name: t.brandName },
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: t.faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
+
+const certMetaByTitle: Record<string, { logo: string; desc: string }> = {
+  Яндекс: { logo: v6PartnerLogos[0], desc: t.certYandexDesc },
+  Yandex: { logo: v6PartnerLogos[0], desc: t.certYandexDesc },
+  Google: { logo: v6PartnerLogos[1], desc: t.certGoogleDesc },
+  "CMS Magazine": { logo: v6PartnerLogos[2], desc: t.certCmsDesc },
+};
+const homeCerts = t.certTitles.map((title) => ({
+  title,
+  logo: certMetaByTitle[title]?.logo ?? v6PartnerLogos[1],
+  desc: certMetaByTitle[title]?.desc ?? "",
+}));
+const partnerLogosOrdered =
+  locale === "ru"
+    ? [...v6PartnerLogos]
+    : [v6PartnerLogos[1], v6PartnerLogos[2], v6PartnerLogos[0]];
+const clientBrands = locale === "ru" ? [...v6ClientBrands] : [...v6ClientBrandsLatin];
+const hubCplInitial =
+  t.hubCplCurrency === "$" ? `$380` : `380 ${t.hubCplCurrency}`;
+---
+
+<!doctype html>
+<html lang={htmlLang} data-concept="v6" data-page="home" data-locale={locale} data-cpl-currency={t.hubCplCurrency}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={t.metaDescription} />
+    <title>{t.metaTitle}</title>
+    <SiteSeo
+      title={t.metaTitle}
+      description={t.metaDescription}
+      path={path}
+      image={v6Icons.ogCover}
+      locale={ogLocale}
+      siteName={t.brandName}
+      alternates={[
+        { hreflang: "ru", path: "/" },
+        { hreflang: "en", path: "/en/" },
+        { hreflang: "x-default", path: "/" },
+      ]}
+    />
+    {
+      locale === "ru" ? (
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Блог ПРАЙМ"
+          href="/blog/rss.xml"
+        />
+      ) : null
+    }
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <script type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(websiteJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <link rel="preload" as="image" href={v6Photos.heroOffice} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="v6-app">
+      <a class="v6-skip" href="#main">{t.skipToContent}</a>
+      <aside id="v6-sidebar" class="v6-sidebar" aria-label={t.navAria}>
+        <div class="v6-sidebar__head">
+          <a href={path} class="v6-sidebar__logo">
+            <img src={v6Icons.logoMark} alt="" width="44" height="44" />
+            <span class="v6-sidebar__brand">
+              <span class="v6-sidebar__name">{t.brandName}</span>
+              <span class="v6-sidebar__tagline">{t.brandTagline}</span>
+            </span>
+          </a>
+          <div class="v6-sidebar__stripe" aria-hidden="true"></div>
+        </div>
+
+        <nav class="v6-nav">
+          <a href="#about">{t.navAbout}</a>
+          <details class="v6-nav__group" open>
+            <summary>{t.navServices}</summary>
+            <div class="v6-nav__sub">
+              {
+                t.services.map((s) => (
+                  <a href={homeServiceHref(s.cat, locale)}>{s.title}</a>
+                ))
+              }
+            </div>
+          </details>
+          <a href={casesIndexPath(locale)}>{t.navCases}</a>
+          <a href={blogIndexPath(locale)}>{t.navBlog}</a>
+          <a href={partnerPath(locale)}>{t.navPartnership}</a>
+          <a href={contactsPath(locale)}>{t.navContacts}</a>
+        </nav>
+
+        <div class="v6-sidebar__foot">
+          {showPhone ? <a href={contacts.phoneHref}>{contacts.phone}</a> : null}
+          <a href={contacts.emailHref}>{contacts.email}</a>
+          <div class="v6-sidebar__social">
+            <a href="https://vk.com/primeltd" target="_blank" rel="noopener" aria-label="VK">VK</a>
+            <a href="https://t.me/bziksv" target="_blank" rel="noopener" aria-label="Telegram">TG</a>
+          </div>
+        </div>
+      </aside>
+
+      <div id="v6-backdrop" class="v6-backdrop" aria-hidden="true"></div>
+
+      <main id="main" class="v6-main">
+        <header class="v6-topbar">
+          <button
+            id="v6-burger"
+            type="button"
+            class="v6-burger"
+            aria-label={t.menuLabel}
+            aria-controls="v6-sidebar"
+            aria-expanded="false"
+          >
+            ☰
+          </button>
+          <p class="v6-breadcrumb">
+            <strong>{t.breadcrumbHome}</strong>
+          </p>
+          <div class="home-topbar-actions">
+            <div
+              class="home-lang"
+              aria-label={t.langSwitchAria}
+              data-lang-switch
+              hidden
+            >
+              <a
+                class:list={["home-lang__btn", locale === "ru" && "is-active"]}
+                href="/"
+                hreflang="ru"
+                lang="ru"
+                data-locale-set="ru">RU</a
+              >
+              <a
+                class:list={["home-lang__btn", locale === "en" && "is-active"]}
+                href="/en/"
+                hreflang="en"
+                lang="en"
+                data-locale-set="en">EN</a
+              >
+            </div>
+            <a href="#cta" class="v6-btn home-btn-glow">{t.ctaTop}</a>
+          </div>
+        </header>
+
+        <div class="v6-content">
+          <section
+            class="home-hero"
+            id="hero"
+            data-home-hero
+            style={`--home-hero-bg: url(${v6Photos.heroOffice})`}
+          >
+            <div class="home-hero__bg" aria-hidden="true" data-home-bg></div>
+            <div class="home-hero__veil" aria-hidden="true"></div>
+
+            <div class="home-hero__mesh" aria-hidden="true">
+              <svg class="home-mesh" viewBox="0 0 640 420" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <radialGradient id={`home-mesh-glow-${locale}`} cx="50%" cy="40%" r="55%">
+                    <stop offset="0%" stop-color="rgba(32,184,208,0.32)"></stop>
+                    <stop offset="100%" stop-color="rgba(32,184,208,0)"></stop>
+                  </radialGradient>
+                </defs>
+                <circle
+                  class="home-mesh__aura"
+                  cx="420"
+                  cy="170"
+                  r="150"
+                  fill={`url(#home-mesh-glow-${locale})`}
+                ></circle>
+                <g class="home-mesh__links">
+                  <path d="M80 70 L180 120 L290 90 L400 150 L520 110"></path>
+                  <path d="M120 220 L210 180 L310 240 L430 200 L560 260"></path>
+                  <path d="M180 120 L210 180 L290 90 L310 240 L400 150 L430 200"></path>
+                </g>
+                <g fill="rgba(241,245,249,0.35)">
+                  <circle cx="80" cy="70" r="3.5"></circle>
+                  <circle class="home-mesh__hot" cx="180" cy="120" r="4.5"></circle>
+                  <circle cx="290" cy="90" r="3.5"></circle>
+                  <circle class="home-mesh__hot home-mesh__hot--2" cx="400" cy="150" r="5"></circle>
+                  <circle cx="520" cy="110" r="3.5"></circle>
+                  <circle cx="120" cy="220" r="3"></circle>
+                  <circle class="home-mesh__hot home-mesh__hot--3" cx="210" cy="180" r="4"></circle>
+                  <circle cx="310" cy="240" r="3.5"></circle>
+                  <circle cx="430" cy="200" r="4"></circle>
+                  <circle cx="560" cy="260" r="3.5"></circle>
+                </g>
+                <circle class="home-mesh__ping" cx="210" cy="180" r="4"></circle>
+                <circle class="home-mesh__ping home-mesh__ping--2" cx="400" cy="150" r="4"></circle>
+                <circle class="home-mesh__ping home-mesh__ping--3" cx="180" cy="120" r="4"></circle>
+              </svg>
+            </div>
+
+            <div class="home-hero__copy">
+              <p class="home-brand">{t.brandHeroBefore}<em>{t.brandHeroAccent}</em></p>
+              <h1>
+                {t.heroTitleBefore}<span>{t.heroTitleAccent}</span>
+              </h1>
+              <p class="home-hero__lead">{t.heroLead}</p>
+              <div class="home-hero__kpis">
+                <div>
+                  <strong>
+                    <img class="v6-kpi-badge" src={v6Icons.checkPrime} alt="" width="28" height="28" />
+                    {t.kpiYears}
+                  </strong>
+                  <span>{t.kpiYearsSub}</span>
+                </div>
+                <div>
+                  <strong>
+                    <img class="v6-kpi-badge" src={v6Icons.badgeTop100} alt="" width="28" height="28" />
+                    TOP-100
+                  </strong>
+                  <span>{t.kpiTop100Sub}</span>
+                </div>
+                <div>
+                  <strong>
+                    <img class="v6-kpi-badge" src={v6Icons.badgeTop5} alt="" width="28" height="28" />
+                    TOP-5
+                  </strong>
+                  <span>{t.kpiTop5Sub}</span>
+                </div>
+              </div>
+              <div class="home-hero__actions">
+                <a href="#cta" class="v6-btn home-btn-glow">{t.heroConsult}</a>
+                <a href="#services" class="v6-btn v6-btn--outline">{t.heroAllServices}</a>
+              </div>
+            </div>
+
+            <div class="home-hero__panel" aria-hidden="true">
+              <div class="home-hub">
+                <div class="home-hub__head">
+                  <span class="home-hub__live"><i></i> {t.hubLive}</span>
+                  <span>{t.hubPipe}</span>
+                </div>
+
+                <div class="home-hub__node is-active" data-home-node="0">
+                  <span class="home-hub__dot"></span>
+                  <div>
+                    <strong>{t.hubSeoTitle}</strong>
+                    <span>{t.hubSeoSub}</span>
+                  </div>
+                  <em class="home-hub__hit">hit</em>
+                </div>
+                <div class="home-hub__wire">
+                  <i class="home-hub__packet"></i>
+                  <i class="home-hub__packet home-hub__packet--delay"></i>
+                </div>
+
+                <div class="home-hub__node" data-home-node="1">
+                  <span class="home-hub__dot"></span>
+                  <div>
+                    <strong>{t.hubAdsTitle}</strong>
+                    <span>{t.hubAdsSub}</span>
+                  </div>
+                  <em class="home-hub__hit">hit</em>
+                </div>
+                <div class="home-hub__wire home-hub__wire--2">
+                  <i class="home-hub__packet"></i>
+                </div>
+
+                <div class="home-hub__node" data-home-node="2">
+                  <span class="home-hub__dot"></span>
+                  <div>
+                    <strong>{t.hubWebTitle}</strong>
+                    <span>{t.hubWebSub}</span>
+                  </div>
+                  <em class="home-hub__hit">hit</em>
+                </div>
+                <div class="home-hub__wire home-hub__wire--3">
+                  <i class="home-hub__packet"></i>
+                  <i class="home-hub__packet home-hub__packet--delay"></i>
+                </div>
+
+                <div class="home-hub__node" data-home-node="3">
+                  <span class="home-hub__dot"></span>
+                  <div>
+                    <strong>{t.hubResultTitle}</strong>
+                    <span>{t.hubResultSub}</span>
+                  </div>
+                  <em class="home-hub__hit">ok</em>
+                </div>
+
+                <div class="home-hub__stats">
+                  <div>
+                    <span>{t.hubLeads}</span>
+                    <strong data-home-leads>42</strong>
+                  </div>
+                  <div>
+                    <span>{t.hubCpl}</span>
+                    <strong data-home-cpl>{hubCplInitial}</strong>
+                  </div>
+                  <div>
+                    <span>{t.hubTop}</span>
+                    <strong data-home-top>128</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="about" class="v6-card v6-about-strip v6-reveal">
+            <div class="v6-about-strip__copy">
+              <h2>{t.aboutTitle}</h2>
+              <p>{t.aboutText}</p>
+              <ul class="v6-about-strip__list">
+                {t.aboutBullets.map((item) => <li>{item}</li>)}
+              </ul>
+            </div>
+            <div class="v6-about-strip__certs">
+              {
+                homeCerts.map((c) => (
+                  <div class="v6-cert-mini">
+                    <img src={c.logo} alt="" height="28" />
+                    <div>
+                      <strong>{c.title}</strong>
+                      <span>{c.desc}</span>
+                    </div>
+                  </div>
+                ))
+              }
+            </div>
+          </section>
+
+          <section id="services" class="v6-card v6-reveal">
+            <div class="v6-card-head">
+              <h2>{t.servicesTitle}</h2>
+              <p>{t.servicesLead}</p>
+            </div>
+            <div class="v6-services">
+              {
+                t.services.map((s) => (
+                  <a href={homeServiceHref(s.cat, locale)} class="v6-service" id={`svc-${s.cat}`}>
+                    <img
+                      class="v6-service__cover"
+                      src={v6ModuleBanners[s.cat] ?? v6ModuleBanners.web}
+                      alt=""
+                      loading="lazy"
+                    />
+                    <div class="v6-service__body">
+                      <img
+                        class="v6-service__icon"
+                        src={v6ServiceIcons[s.cat] ?? v6ServiceIcons.web}
+                        alt=""
+                        width="48"
+                        height="40"
+                      />
+                      <h3>{s.title}</h3>
+                      <p>{s.desc}</p>
+                    </div>
+                  </a>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="v6-card v6-flagship v6-flagship--media v6-reveal">
+            <div class="v6-flagship__main">
+              <p class="v6-eyebrow">{t.flagshipEyebrow}</p>
+              <h2>{t.flagshipTitle}</h2>
+              <p class="v6-muted v6-muted--lg">{t.flagshipText}</p>
+              <a href="/prodvizhenie-sayta/" class="v6-btn v6-btn--spaced home-btn-glow"
+                >{t.flagshipCta}</a
+              >
+            </div>
+            <div class="v6-flagship__visual">
+              <img src={v6Icons.seoReport} alt={t.flagshipReportAlt} width="280" height="180" />
+              <img
+                class="v6-flagship__serp"
+                src={v6Icons.serpMock}
+                alt={t.flagshipSerpAlt}
+                width="280"
+                height="120"
+              />
+            </div>
+          </section>
+
+          <section class="v6-card v6-reveal">
+            <div class="v6-card-head">
+              <h2>{t.processTitle}</h2>
+              <p>{t.processLead}</p>
+            </div>
+            <div class="v6-process">
+              {
+                t.process.map((step) => (
+                  <article class="v6-process__item">
+                    <span class="v6-process__num">{step.step}</span>
+                    <h3>{step.title}</h3>
+                    <p>{step.desc}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section id="cases" class="v6-card v6-reveal">
+            <div class="v6-card-head">
+              <h2>{t.achievementsTitle}</h2>
+              <p>{t.achievementsLead}</p>
+            </div>
+            <div class="v6-stats v6-stats--media">
+              <div class="v6-stat-card">
+                <img class="v6-stat-card__bg" src={v6Photos.heroWorkspace} alt="" loading="lazy" />
+                <img class="v6-stat-card__badge" src={v6Icons.badgeTop5} alt="" width="36" height="36" />
+                <strong>TOP-5</strong>
+                <span>{t.statTop5Sub}</span>
+              </div>
+              <div class="v6-stat-card">
+                <img class="v6-stat-card__bg" src={v6Photos.flagSeo} alt="" loading="lazy" />
+                <img class="v6-stat-card__badge" src={v6Icons.badgeTop100} alt="" width="36" height="36" />
+                <strong>TOP-100</strong>
+                <span>{t.statTop100Sub}</span>
+              </div>
+              <div class="v6-stat-card">
+                <img class="v6-stat-card__bg" src={v6Photos.heroTeam} alt="" loading="lazy" />
+                <img class="v6-stat-card__badge" src={v6Icons.checkPrime} alt="" width="36" height="36" />
+                <strong>70+</strong>
+                <span>{t.statClientsSub}</span>
+              </div>
+            </div>
+            <div class="v6-cases-grid">
+              {
+                casesForHome(locale).map((c) => (
+                  <a href={casePath(c, locale)} class="v6-case-card">
+                    <img src={c.cover} alt="" loading="lazy" />
+                    <div class="v6-case-card__body">
+                      <span class="v6-case-card__metric">{c.metric}</span>
+                      <h3>{c.client}</h3>
+                      <p>{c.summary}</p>
+                      <em>
+                        {c.services.slice(0, 2).join(" · ")} · {c.period}
+                      </em>
+                    </div>
+                  </a>
+                ))
+              }
+            </div>
+            <p class="v6-muted v6-note">{t.cmsNote}</p>
+            <div class="v6-cases-actions">
+              <a class="v6-btn home-btn-glow" href={casesIndexPath(locale)}>{t.allCases}</a>
+            </div>
+          </section>
+
+          <section id="partners" class="v6-card v6-clients v6-reveal">
+            <div class="v6-card-head">
+              <h2>{t.clientsTitle}</h2>
+              <p>{t.clientsLead}</p>
+            </div>
+            <div class="v6-clients__rail">
+              {
+                clientBrands.map((b) => (
+                  <figure class="v6-client-logo">
+                    <img src={b.image} alt={b.name} loading="lazy" />
+                  </figure>
+                ))
+              }
+            </div>
+            <div class="v6-clients__foot">
+              <p>{t.partnersSearch}</p>
+              <div class="v6-clients__certs">
+                {partnerLogosOrdered.map((src) => <img src={src} alt="" height="28" />)}
+              </div>
+            </div>
+          </section>
+
+          <section class="v6-card v6-industries-block v6-reveal">
+            <div class="v6-card-head">
+              <h2>{t.industriesTitle}</h2>
+              <p>{t.industriesLead}</p>
+            </div>
+            <div class="v6-industries-mosaic">
+              {
+                t.industries.map((ind) => (
+                  <a href="#cta" class="v6-ind-tile">
+                    <img src={ind.image} alt="" loading="lazy" />
+                    <span>{ind.name}</span>
+                  </a>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="v6-card v6-reveal">
+            <div class="v6-card-head">
+              <h2>{t.faqTitle}</h2>
+            </div>
+            <div class="v6-faq">
+              {
+                t.faq.map((item) => (
+                  <details class="v6-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
+          </section>
+
+          <section id="cta" class="v6-card v6-cta-card v6-reveal">
+            <div class="v6-card-head">
+              <h2>{t.ctaTitle}</h2>
+              <p>{t.ctaLead}</p>
+            </div>
+            <div class="v6-cta-layout">
+              <div class="v6-cta__visual">
+                <img src={v6Photos.contactOffice} alt={t.ctaOfficeAlt} loading="lazy" />
+                <div class="v6-cta__contacts">
+                  {showPhone ? <a href={contacts.phoneHref}>{contacts.phone}</a> : null}
+                  <a href={contacts.emailHref}>{contacts.email}</a>
+                </div>
+                <ul class="v6-cta__points">
+                  {t.ctaPoints.map((item) => <li>{item}</li>)}
+                </ul>
+              </div>
+              <form id="v6-form" class="v6-form">
+                <label class="visually-hidden" for={`home-name-${locale}`}>{t.formName}</label>
+                <input
+                  id={`home-name-${locale}`}
+                  type="text"
+                  name="name"
+                  placeholder={t.formName}
+                  autocomplete="name"
+                  required
+                />
+                <label class="visually-hidden" for={`home-phone-${locale}`}>{t.formPhone}</label>
+                <input
+                  id={`home-phone-${locale}`}
+                  type="tel"
+                  name="phone"
+                  placeholder={t.formPhone}
+                  autocomplete="tel"
+                  required
+                />
+                <label class="visually-hidden" for={`home-service-${locale}`}>{t.formService}</label>
+                <select id={`home-service-${locale}`} name="service">
+                  <option value="">{t.formServicePlaceholder}</option>
+                  {t.services.map((s) => <option value={s.title}>{s.title}</option>)}
+                </select>
+                <label class="visually-hidden" for={`home-message-${locale}`}>{t.formMessage}</label>
+                <textarea
+                  id={`home-message-${locale}`}
+                  name="message"
+                  rows="4"
+                  placeholder={t.formMessage}
+                ></textarea>
+                <label class="v6-form__check">
+                  <input type="checkbox" name="agree" required />
+                  <span>
+                    {t.formAgreeBefore}{" "}
+                    <span class="v6-form__check-link">
+                      <a
+                        class="cookie-link"
+                        href={docs.privacy}
+                        target="_blank"
+                        rel="nofollow noopener noreferrer">{t.formAgreePolicy}</a
+                      >.
+                    </span>
+                  </span>
+                </label>
+                <button type="submit" class="v6-btn home-btn-glow">{t.formSubmit}</button>
+              </form>
+            </div>
+            <p id="v6-form-hint" class="v6-form-hint" hidden></p>
+          </section>
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>{t.brandName}</strong>
+            <p>{t.footerTagline}</p>
+          </div>
+          <p>© 2015–{year} {t.brandName}</p>
+          <CookieFooterNotice locale={locale} />
+        </footer>
+      </main>
+    </div>
+
+    {
+      locale === "ru" ? (
+        <aside
+          id="home-locale-offer"
+          class="home-locale-offer"
+          hidden
+          role="dialog"
+          aria-label={t.localeOfferTitle}
+          data-locale-offer
+          data-offer-target="en"
+          data-offer-href="/en/"
+        >
+          <div class="home-locale-offer__inner">
+            <div>
+              <strong>{t.localeOfferTitle}</strong>
+              <p>{t.localeOfferText}</p>
+            </div>
+            <div class="home-locale-offer__actions">
+              <a class="v6-btn home-btn-glow" href="/en/" data-locale-offer-accept data-locale-set="en"
+                >{t.localeOfferAccept}</a
+              >
+              <button type="button" class="v6-btn v6-btn--outline" data-locale-offer-dismiss
+                >{t.localeOfferDismiss}</button
+              >
+            </div>
+          </div>
+        </aside>
+      ) : (
+        <aside
+          id="home-locale-offer"
+          class="home-locale-offer"
+          hidden
+          role="dialog"
+          aria-label={t.localeOfferTitle}
+          data-locale-offer
+          data-offer-target="ru"
+          data-offer-href="/"
+        >
+          <div class="home-locale-offer__inner">
+            <div>
+              <strong>{t.localeOfferTitle}</strong>
+              <p>{t.localeOfferText}</p>
+            </div>
+            <div class="home-locale-offer__actions">
+              <a class="v6-btn home-btn-glow" href="/" data-locale-offer-accept data-locale-set="ru"
+                >{t.localeOfferAccept}</a
+              >
+              <button type="button" class="v6-btn v6-btn--outline" data-locale-offer-dismiss
+                >{t.localeOfferDismiss}</button
+              >
+            </div>
+          </div>
+        </aside>
+      )
+    }
+
+    <CookieConsent locale={locale} />
+    <script>
+      import "../../scripts/home.ts";
+      import "../../scripts/locale-offer.ts";
+    </script>
+  </body>
+</html>

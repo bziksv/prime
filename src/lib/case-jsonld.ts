@@ -5,6 +5,8 @@ export function caseJsonLd(opts: {
   path: string;
   image?: string;
   client?: string;
+  /** Organization name in JSON-LD (ПРАЙМ / PRIME). */
+  providerName?: string;
   origin?: string;
 }) {
   const origin = (opts.origin ?? "https://prime-ltd.su").replace(/\/$/, "");
@@ -24,7 +26,7 @@ export function caseJsonLd(opts: {
     ...(image ? { image } : {}),
     author: {
       "@type": "Organization",
-      name: "ПРАЙМ",
+      name: opts.providerName ?? "ПРАЙМ",
       url: `${origin}/`,
     },
     ...(opts.client

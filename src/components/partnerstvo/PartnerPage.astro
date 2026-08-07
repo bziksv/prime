@@ -1,0 +1,399 @@
+---
+import PortalShell from "../PortalShell.astro";
+import CookieConsent from "../CookieConsent.astro";
+import CookieFooterNotice from "../CookieFooterNotice.astro";
+import SiteSeo from "../SiteSeo.astro";
+import { v6Icons } from "../../data/v6-media";
+import { contacts } from "../../data/contacts";
+import { getLegalDocs } from "../../data/legal";
+import { breadcrumbJsonLd } from "../../lib/breadcrumb-jsonld";
+import { getPartnerContent } from "../../i18n/partnerstvo-content";
+import { getHomeContent, homePath } from "../../i18n/home-content";
+import { localeMeta, type Locale } from "../../i18n/locales";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getPartnerContent(locale);
+const home = getHomeContent(locale);
+const docs = getLegalDocs(locale);
+const htmlLang = localeMeta[locale].hreflang;
+const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+const showPhone = locale === "ru";
+const year = new Date().getFullYear();
+const homeHref = homePath(locale);
+const marquee = [...t.cases, ...t.cases];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: t.faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
+
+const origin = Astro.site?.origin ?? "https://prime-ltd.su";
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: t.breadcrumbHome, href: homeHref },
+    { label: t.breadcrumbCurrent },
+  ],
+  {
+    origin,
+    currentPath: t.path,
+  },
+);
+---
+
+<!doctype html>
+<html lang={htmlLang} data-concept="v6" data-page="partnerstvo" data-locale={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={t.metaDescription} />
+    <title>{t.metaTitle}</title>
+    <SiteSeo
+      title={t.metaTitle}
+      description={t.metaDescription}
+      path={t.path}
+      locale={ogLocale}
+      siteName={t.footerBrand}
+      alternates={[
+        { hreflang: "ru", path: "/partnerstvo/" },
+        { hreflang: "en", path: "/en/partnership/" },
+        { hreflang: "x-default", path: "/partnerstvo/" },
+      ]}
+    />
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell active="partnerstvo" locale={locale} />
+
+      <main id="main" class="v6-main">
+        <header class="v6-topbar">
+          <button
+            id="v6-burger"
+            type="button"
+            class="v6-burger"
+            aria-label={t.menuLabel}
+            aria-controls="v6-sidebar"
+            aria-expanded="false">☰</button
+          >
+          <p class="v6-breadcrumb">
+            <a href={homeHref}>{t.breadcrumbHome}</a> · <strong>{t.breadcrumbCurrent}</strong>
+          </p>
+          <div class="home-topbar-actions">
+            <div class="home-lang" aria-label={home.langSwitchAria} data-lang-switch hidden>
+              <a
+                class:list={["home-lang__btn", locale === "ru" && "is-active"]}
+                href="/partnerstvo/"
+                hreflang="ru"
+                lang="ru"
+                data-locale-set="ru">RU</a
+              >
+              <a
+                class:list={["home-lang__btn", locale === "en" && "is-active"]}
+                href="/en/partnership/"
+                hreflang="en"
+                lang="en"
+                data-locale-set="en">EN</a
+              >
+            </div>
+            <a href="#partner-cta" class="v6-btn">{t.ctaTop}</a>
+          </div>
+        </header>
+
+        <div class="v6-content">
+          <section class="p-hero" data-parallax-hero>
+            <div class="p-hero__photo" aria-hidden="true" data-parallax-hero-bg></div>
+            <div class="p-hero__orb p-hero__orb--1" aria-hidden="true"></div>
+            <div class="p-hero__orb p-hero__orb--2" aria-hidden="true"></div>
+            <div class="p-hero__orb p-hero__orb--3" aria-hidden="true"></div>
+            <div class="p-hero__grid" aria-hidden="true"></div>
+            <div class="p-hero__inner">
+              <p class="p-kicker">{t.heroKicker}</p>
+              <h1>
+                {t.heroTitleBefore}<em>{t.heroTitleAccent}</em>{t.heroTitleAfter}
+              </h1>
+              <p class="p-hero__lead">{t.heroLead}</p>
+              <div class="p-hero__actions">
+                <a href="#partner-cta" class="p-btn p-btn--primary">{t.heroCtaPrimary}</a>
+                <a href="#why" class="p-btn p-btn--ghost">{t.heroCtaSecondary}</a>
+              </div>
+            </div>
+            <div class="p-hero__stripe" aria-hidden="true"></div>
+          </section>
+
+          <div class="p-marquee" aria-hidden="true">
+            <div class="p-marquee__track">
+              {
+                marquee.map((c) => (
+                  <span>
+                    {c.name}
+                    <em>{c.tag}</em>
+                  </span>
+                ))
+              }
+            </div>
+          </div>
+
+          <section id="why" class="p-section p-reveal">
+            <div class="p-section__head">
+              <h2>{t.benefitsTitle}</h2>
+              <p>{t.benefitsLead}</p>
+            </div>
+            <div class="p-benefits">
+              {
+                t.benefits.map((b, i) => (
+                  <article class={`p-benefit p-benefit--${b.tone}`}>
+                    <span class="p-benefit__idx">0{i + 1}</span>
+                    <h3>{b.title}</h3>
+                    <p>{b.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="p-section p-reveal">
+            <div class="p-section__head">
+              <h2>{t.whyTitle}</h2>
+              <p>{t.whyLead}</p>
+            </div>
+            <ul class="p-why">
+              {t.why.map((item) => <li>{item}</li>)}
+            </ul>
+          </section>
+
+          {
+            t.showCases ? (
+              <section class="p-section p-reveal">
+                <div class="p-section__head">
+                  <h2>{t.casesTitle}</h2>
+                  <p>{t.casesLead}</p>
+                </div>
+                <div class="p-cases">
+                  {t.cases.map((c) => (
+                    <a href={c.href} class="p-case" data-parallax-card>
+                      <span class="p-case__media" aria-hidden="true">
+                        <img src={c.image} alt="" loading="lazy" data-parallax-img />
+                      </span>
+                      <span class="p-case__shade" aria-hidden="true" />
+                      <span class="p-case__copy">
+                        <strong>{c.name}</strong>
+                        <span>{c.tag}</span>
+                      </span>
+                    </a>
+                  ))}
+                </div>
+                <p style="margin-top:1.25rem">
+                  <a class="p-btn p-btn--ghost" href={t.casesViewAllHref}>
+                    {t.casesViewAll}
+                  </a>
+                </p>
+              </section>
+            ) : null
+          }
+
+          <section class="p-section p-reveal">
+            <div class="p-section__head">
+              <h2>{t.stepsTitle}</h2>
+              <p>{t.stepsLead}</p>
+            </div>
+            <div class="p-steps">
+              {
+                t.steps.map((s) => (
+                  <article class="p-step">
+                    <span class="p-step__n">{s.n}</span>
+                    <h3>{s.title}</h3>
+                    <p>{s.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="p-section p-reveal">
+            <div class="p-section__head">
+              <h2>{t.statsTitle}</h2>
+              <p>{t.statsLead}</p>
+            </div>
+            <div class="p-stats">
+              {
+                t.stats.map((s) => (
+                  <article class="p-stat">
+                    <strong class="p-stat__value">
+                      <span
+                        class="p-stat__num"
+                        data-value={s.value}
+                        data-decimals={s.decimals ?? 0}
+                      >
+                        0
+                      </span>
+                      {s.suffix}
+                    </strong>
+                    <span class="p-stat__label">{s.label}</span>
+                    <p class="p-stat__desc">{s.desc}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="p-section p-reveal">
+            <div class="p-section__head">
+              <h2>{t.outcomesTitle}</h2>
+              <p>{t.outcomesLead}</p>
+            </div>
+            <div class="p-outcomes">
+              {
+                t.outcomes.map((item) => (
+                  <article class="p-outcome">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="p-section p-reveal">
+            <div class="p-section__head">
+              <h2>{t.nosTitle}</h2>
+              <p>{t.nosLead}</p>
+            </div>
+            <div class="p-nos">
+              {
+                t.nos.map((item) => (
+                  <article class="p-no">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="p-section p-reveal" id="faq">
+            <div class="p-section__head">
+              <h2>{t.faqTitle}</h2>
+              <p>{t.faqLead}</p>
+            </div>
+            <div class="p-faq">
+              {
+                t.faq.map((item) => (
+                  <details class="p-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
+          </section>
+
+          <section id="partner-cta" class="p-cta p-reveal">
+            <div>
+              <h2>{t.ctaTitle}</h2>
+              <p>{t.ctaLead}</p>
+              <div class="p-cta__contacts">
+                <a href={contacts.emailHref}>{contacts.email}</a>
+                {showPhone ? <a href={contacts.phoneHref}>{contacts.phone}</a> : null}
+              </div>
+            </div>
+            <form
+              id="partner-form"
+              class="p-form"
+              data-success-message={t.formSuccess}
+              data-form-source={t.formSource}
+            >
+              <label class="visually-hidden" for={`partner-name-${locale}`}>{t.formName}</label>
+              <input
+                id={`partner-name-${locale}`}
+                type="text"
+                name="name"
+                placeholder={t.formName}
+                autocomplete="name"
+                required
+              />
+              <label class="visually-hidden" for={`partner-phone-${locale}`}>{t.formPhone}</label>
+              <input
+                id={`partner-phone-${locale}`}
+                type="tel"
+                name="phone"
+                placeholder={t.formPhone}
+                autocomplete="tel"
+                required
+              />
+              <label class="visually-hidden" for={`partner-email-${locale}`}>{t.formEmail}</label>
+              <input
+                id={`partner-email-${locale}`}
+                type="email"
+                name="email"
+                placeholder={t.formEmail}
+                autocomplete="email"
+              />
+              <label class="visually-hidden" for={`partner-type-${locale}`}>{t.formType}</label>
+              <select id={`partner-type-${locale}`} name="type">
+                <option value="">{t.formType}</option>
+                {t.formTypeOptions.map((opt) => <option>{opt}</option>)}
+              </select>
+              <label class="visually-hidden" for={`partner-message-${locale}`}>{t.formMessage}</label>
+              <textarea
+                id={`partner-message-${locale}`}
+                name="message"
+                rows="3"
+                placeholder={t.formMessage}
+              ></textarea>
+              <label class="p-form__check">
+                <input type="checkbox" name="agree" required />
+                <span>
+                  {t.formAgreeBefore}{" "}
+                  <a
+                    class="cookie-link"
+                    href={docs.privacy}
+                    target="_blank"
+                    rel="nofollow noopener noreferrer">{t.formAgreePolicy}</a
+                  >.
+                </span>
+              </label>
+              <button type="submit" class="p-btn p-btn--primary">{t.formSubmit}</button>
+              <p id="partner-form-hint" class="p-form-hint" hidden></p>
+            </form>
+          </section>
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>{t.footerBrand}</strong>
+            <p>{t.footerTagline}</p>
+          </div>
+          <p>© 2015–{year} {t.footerBrand}</p>
+          <CookieFooterNotice locale={locale} />
+        </footer>
+      </main>
+    </div>
+
+    <CookieConsent locale={locale} />
+    <script>
+      import "../../scripts/partnerstvo.ts";
+      import "../../scripts/locale-offer.ts";
+    </script>
+  </body>
+</html>

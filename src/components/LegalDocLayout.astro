@@ -1,0 +1,188 @@
+---
+import SiteSeo from "./SiteSeo.astro";
+import type { Locale } from "../i18n/locales";
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  locale?: Locale;
+}
+
+const { title, description, path, locale = "en" } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang={locale === "ru" ? "ru" : "en"}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <SiteSeo
+      title={title}
+      description={description}
+      path={path}
+      locale={locale === "ru" ? "ru_RU" : "en_US"}
+      siteName={locale === "ru" ? "ПРАЙМ" : "PRIME"}
+    />
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style is:global>
+      :root {
+        --legal-bg: #0f1419;
+        --legal-panel: #171d25;
+        --legal-text: #e8eef5;
+        --legal-muted: #9aa8b8;
+        --legal-accent: #2ec4b6;
+        --legal-border: rgba(255, 255, 255, 0.08);
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body.legal-page {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+        background:
+          radial-gradient(900px 420px at 12% -10%, rgba(46, 196, 182, 0.12), transparent 60%),
+          var(--legal-bg);
+        color: var(--legal-text);
+        line-height: 1.55;
+      }
+      .legal-shell {
+        width: min(820px, calc(100% - 2rem));
+        margin: 0 auto;
+        padding: 1.5rem 0 3rem;
+      }
+      .legal-top {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.75rem;
+        margin-bottom: 1.5rem;
+      }
+      .legal-brand {
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        color: var(--legal-text);
+        text-decoration: none;
+      }
+      .legal-brand em {
+        font-style: normal;
+        color: var(--legal-accent);
+      }
+      .legal-back {
+        color: var(--legal-accent);
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+      .legal-back:hover {
+        text-decoration: underline;
+      }
+      .legal-card {
+        background: var(--legal-panel);
+        border: 1px solid var(--legal-border);
+        border-radius: 16px;
+        padding: 1.5rem 1.35rem 1.75rem;
+      }
+      @media (min-width: 700px) {
+        .legal-card {
+          padding: 2rem 2.25rem 2.25rem;
+        }
+      }
+      .legal-card h1 {
+        margin: 0 0 0.5rem;
+        font-family: "Space Grotesk", sans-serif;
+        font-size: clamp(1.35rem, 3vw, 1.85rem);
+        line-height: 1.25;
+      }
+      .legal-card .legal-lead {
+        margin: 0 0 1.25rem;
+        color: var(--legal-muted);
+        font-size: 0.95rem;
+      }
+      .legal-card h2 {
+        margin: 1.5rem 0 0.55rem;
+        font-size: 1.05rem;
+        font-family: "Space Grotesk", sans-serif;
+      }
+      .legal-card p,
+      .legal-card li {
+        color: #d5dde7;
+        font-size: 0.95rem;
+      }
+      .legal-card p {
+        margin: 0 0 0.75rem;
+      }
+      .legal-card ul {
+        margin: 0 0 0.85rem;
+        padding-left: 1.15rem;
+      }
+      .legal-card li + li {
+        margin-top: 0.35rem;
+      }
+      .legal-card a {
+        color: var(--legal-accent);
+      }
+      .legal-meta {
+        margin-top: 1.75rem;
+        padding-top: 1rem;
+        border-top: 1px solid var(--legal-border);
+        color: var(--legal-muted);
+        font-size: 0.85rem;
+      }
+      .legal-nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem 1rem;
+        margin-top: 1.25rem;
+        font-size: 0.9rem;
+      }
+      .legal-nav a {
+        color: var(--legal-accent);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .legal-nav a:hover {
+        text-decoration: underline;
+      }
+      .legal-foot {
+        margin-top: 1.25rem;
+        color: var(--legal-muted);
+        font-size: 0.8rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body class="legal-page">
+    <div class="legal-shell">
+      <div class="legal-top">
+        <a class="legal-brand" href="/en/">PRIM<em>E</em></a>
+        <a class="legal-back" href="/en/">← English homepage</a>
+      </div>
+      <article class="legal-card">
+        <slot />
+        <nav class="legal-nav" aria-label="Legal documents">
+          <a href="/en/legal/privacy/">Privacy policy</a>
+          <a href="/en/legal/cookies/">Cookie policy</a>
+          <a href="/en/legal/recommendations/">Recommendation technologies</a>
+        </nav>
+        <p class="legal-meta">
+          Operator: PRIME LLC (ООО «ПРАЙМ») · Voronezh, Russia ·
+          <a href="mailto:info@prime-ltd.su">info@prime-ltd.su</a>
+        </p>
+      </article>
+      <p class="legal-foot">© 2015–{year} PRIME</p>
+    </div>
+  </body>
+</html>

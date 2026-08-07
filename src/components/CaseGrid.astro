@@ -1,6 +1,8 @@
 ---
 import type { CaseStudy } from "../data/cases";
 import { casePath, getCategory } from "../data/cases";
+import { getCaseUi, getLocalizedCategory } from "../i18n/cases";
+import type { Locale } from "../i18n/locales";
 
 interface Props {
   cases: CaseStudy[];
@@ -9,11 +11,19 @@ interface Props {
   initialVisible?: number;
   /** Сколько догружать по кнопке */
   step?: number;
+  locale?: Locale;
 }
 
 const COLS = 3;
 
-const { cases, featuredFirst = false, initialVisible = 0, step = 9 } = Astro.props;
+const {
+  cases,
+  featuredFirst = false,
+  initialVisible = 0,
+  step = 9,
+  locale = "ru",
+} = Astro.props;
+const ui = getCaseUi(locale);
 const list = featuredFirst
   ? [...cases].sort((a, b) => Number(!!b.featured) - Number(!!a.featured))
   : cases;
@@ -43,12 +53,12 @@ const hasMore = list.length > limit;
   <div class="k-grid">
     {
       list.map((c, i) => {
-        const cat = getCategory(c.category);
+        const cat = getLocalizedCategory(c.category, locale) ?? getCategory(c.category);
         const wide = allowWide && c.featured && i === 0;
         const collapsed = hasMore && i >= limit;
         return (
           <a
-            href={casePath(c)}
+            href={casePath(c, locale)}
             class:list={["k-card", wide && "k-card--wide", collapsed && "is-collapsed"]}
             style={`--k-accent:${cat?.accent ?? "#20b8d0"}`}
             data-case-card
@@ -67,7 +77,7 @@ const hasMore = list.length > limit;
               <p class="k-card__client">{c.client}</p>
               <h3>{c.title}</h3>
               <p class="k-card__sum">{c.summary}</p>
-              <span class="k-card__go">Смотреть кейс →</span>
+              <span class="k-card__go">{ui.viewCase}</span>
             </div>
           </a>
         );
@@ -79,9 +89,9 @@ const hasMore = list.length > limit;
     hasMore ? (
       <div class="k-more-wrap">
         <button type="button" class="k-more" data-case-more>
-          Показать ещё
+          {ui.showMore}
           <span data-case-more-count>
-            ещё {list.length - limit}
+            {ui.showMoreCount} {list.length - limit}
           </span>
         </button>
       </div>

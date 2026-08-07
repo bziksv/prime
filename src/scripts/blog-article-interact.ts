@@ -145,6 +145,7 @@ function initQuiz(root: HTMLElement) {
   const box = qs<HTMLElement>("[data-blog-quiz]", root);
   if (!box) return;
 
+  const en = box.dataset.locale === "en";
   const checkBtn = qs<HTMLButtonElement>("[data-quiz-check]", box);
   const resetBtn = qs<HTMLButtonElement>("[data-quiz-reset]", box);
   const scoreEl = qs<HTMLElement>("[data-quiz-score]", box);
@@ -181,7 +182,9 @@ function initQuiz(root: HTMLElement) {
     if (!answered) {
       if (scoreEl) {
         scoreEl.hidden = false;
-        scoreEl.textContent = "Отметьте хотя бы один ответ";
+        scoreEl.textContent = en
+          ? "Select at least one answer"
+          : "Отметьте хотя бы один ответ";
       }
       return;
     }
@@ -194,8 +197,12 @@ function initQuiz(root: HTMLElement) {
       const pct = Math.round((correct / questions.length) * 100);
       scoreEl.textContent =
         correct === questions.length
-          ? `Отлично: ${correct} из ${questions.length}`
-          : `Результат: ${correct} из ${questions.length} (${pct}%)`;
+          ? en
+            ? `Perfect: ${correct} of ${questions.length}`
+            : `Отлично: ${correct} из ${questions.length}`
+          : en
+            ? `Score: ${correct} of ${questions.length} (${pct}%)`
+            : `Результат: ${correct} из ${questions.length} (${pct}%)`;
     }
   });
 

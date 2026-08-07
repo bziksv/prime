@@ -1,4 +1,9 @@
 ---
+interface Alternate {
+  hreflang: string;
+  path: string;
+}
+
 interface Props {
   title: string;
   description: string;
@@ -9,6 +14,12 @@ interface Props {
   /** ISO date (YYYY-MM-DD or full) for og:article */
   publishedTime?: string;
   modifiedTime?: string;
+  /** og:locale, default ru_RU */
+  locale?: string;
+  /** og:site_name */
+  siteName?: string;
+  /** hreflang alternates for this URL */
+  alternates?: Alternate[];
 }
 
 const {
@@ -20,6 +31,9 @@ const {
   noindex = false,
   publishedTime,
   modifiedTime,
+  locale = "ru_RU",
+  siteName = "ПРАЙМ",
+  alternates = [],
 } = Astro.props;
 
 const origin = Astro.site?.origin ?? "https://prime-ltd.su";
@@ -39,10 +53,19 @@ const modifiedIso = toIsoDay(modifiedTime || publishedTime);
 
 <link rel="canonical" href={url} />
 <link rel="apple-touch-icon" href="/images/v6/apple-touch-icon.png" sizes="180x180" />
+{
+  alternates.map((alt) => (
+    <link
+      rel="alternate"
+      hreflang={alt.hreflang}
+      href={new URL(alt.path.startsWith("/") ? alt.path : `/${alt.path}`, origin).href}
+    />
+  ))
+}
 {noindex ? <meta name="robots" content="noindex" /> : null}
 <meta property="og:type" content={type} />
-<meta property="og:locale" content="ru_RU" />
-<meta property="og:site_name" content="ПРАЙМ" />
+<meta property="og:locale" content={locale} />
+<meta property="og:site_name" content={siteName} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:url" content={url} />

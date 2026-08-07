@@ -1,0 +1,576 @@
+---
+import PortalShell from "../PortalShell.astro";
+import CookieConsent from "../CookieConsent.astro";
+import CookieFooterNotice from "../CookieFooterNotice.astro";
+import SiteSeo from "../SiteSeo.astro";
+import { v6Icons } from "../../data/v6-media";
+import { getLegalDocs } from "../../data/legal";
+import { contacts } from "../../data/contacts";
+import { breadcrumbJsonLd } from "../../lib/breadcrumb-jsonld";
+import { serviceJsonLd } from "../../lib/service-jsonld";
+import { getSupportContent } from "../../i18n/support-content";
+import { getHomeContent, homePath } from "../../i18n/home-content";
+import { localeMeta, type Locale } from "../../i18n/locales";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getSupportContent(locale);
+const home = getHomeContent(locale);
+const docs = getLegalDocs(locale);
+const htmlLang = localeMeta[locale].hreflang;
+const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+const showPhone = locale === "ru";
+const year = new Date().getFullYear();
+const homeHref = homePath(locale);
+const maxTariffHours = Math.max(...t.tariffs.map((tariff) => tariff.hours));
+const featuredTariff = t.tariffs.find((tariff) => tariff.featured) ?? t.tariffs[0];
+const initialHours = featuredTariff.hours;
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: t.faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
+
+const origin = Astro.site?.origin ?? "https://prime-ltd.su";
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: t.breadcrumbHome, href: homeHref },
+    { label: t.breadcrumbCurrent },
+  ],
+  {
+    origin,
+    currentPath: t.path,
+  },
+);
+const serviceLd = serviceJsonLd({
+  name: t.serviceName,
+  description: t.metaDescription,
+  path: t.path,
+  serviceType: t.serviceType,
+  origin,
+  providerName: t.footerBrand,
+  areaServed: locale === "en" ? "Worldwide" : "RU",
+});
+---
+
+<!doctype html>
+<html lang={htmlLang} data-concept="v6" data-page="support" data-locale={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={t.metaDescription} />
+    <title>{t.metaTitle}</title>
+    <SiteSeo
+      title={t.metaTitle}
+      description={t.metaDescription}
+      path={t.path}
+      locale={ogLocale}
+      siteName={t.footerBrand}
+      alternates={[
+        { hreflang: "ru", path: "/tehpodderzhka-sayta/" },
+        { hreflang: "en", path: "/en/support/" },
+        { hreflang: "x-default", path: "/tehpodderzhka-sayta/" },
+      ]}
+    />
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <link rel="preload" as="image" href="/images/v6/photos/support-hero.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(serviceLd)} />
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell serviceActive="support" locale={locale} />
+
+      <main id="main" class="v6-main">
+        <header class="v6-topbar">
+          <button
+            id="v6-burger"
+            type="button"
+            class="v6-burger"
+            aria-label={t.menuLabel}
+            aria-controls="v6-sidebar"
+            aria-expanded="false">☰</button
+          >
+          <p class="v6-breadcrumb">
+            <a href={homeHref}>{t.breadcrumbHome}</a> · <strong>{t.breadcrumbCurrent}</strong>
+          </p>
+          <div class="home-topbar-actions">
+            <div class="home-lang" aria-label={home.langSwitchAria} data-lang-switch hidden>
+              <a
+                class:list={["home-lang__btn", locale === "ru" && "is-active"]}
+                href="/tehpodderzhka-sayta/"
+                hreflang="ru"
+                lang="ru"
+                data-locale-set="ru">RU</a
+              >
+              <a
+                class:list={["home-lang__btn", locale === "en" && "is-active"]}
+                href="/en/support/"
+                hreflang="en"
+                lang="en"
+                data-locale-set="en">EN</a
+              >
+            </div>
+            <a href="#support-cta" class="v6-btn">{t.ctaTop}</a>
+          </div>
+        </header>
+
+        <div class="v6-content">
+          <section class="p-hero" data-support-hero>
+            <div class="p-hero__bg" aria-hidden="true" data-parallax-support-bg></div>
+            <div class="p-hero__veil" aria-hidden="true"></div>
+
+            <div class="p-hero__diagrams" aria-hidden="true">
+              <svg class="p-pulse-wave" viewBox="0 0 800 120" preserveAspectRatio="none">
+                <path
+                  class="p-pulse-wave__track"
+                  d="M0 60 H120 L140 60 L155 18 L175 102 L195 60 H320 L340 60 L355 28 L375 92 L395 60 H520 L540 60 L555 22 L575 98 L595 60 H720 L740 60 L755 30 L775 90 L795 60 H800"
+                  fill="none"></path>
+                <path
+                  class="p-pulse-wave__draw"
+                  d="M0 60 H120 L140 60 L155 18 L175 102 L195 60 H320 L340 60 L355 28 L375 92 L395 60 H520 L540 60 L555 22 L575 98 L595 60 H720 L740 60 L755 30 L775 90 L795 60 H800"
+                  fill="none"></path>
+              </svg>
+
+              <div class="p-diag p-diag--bars" data-parallax-depth="0.35">
+                <span style="--h:42%"></span>
+                <span style="--h:68%"></span>
+                <span style="--h:54%"></span>
+                <span style="--h:86%"></span>
+                <span style="--h:62%"></span>
+              </div>
+              <div class="p-diag p-diag--donut" data-parallax-depth="0.55">
+                <svg class="p-diag__donut-svg" viewBox="0 0 72 72" aria-hidden="true">
+                  <circle class="p-diag__donut-track" cx="36" cy="36" r="26"></circle>
+                  <circle class="p-diag__donut-value" cx="36" cy="36" r="26"></circle>
+                </svg>
+              </div>
+              <div class="p-diag p-diag--radar" data-parallax-depth="0.25">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+
+            <div class="p-hero__copy">
+              <p class="p-brand">{t.brandBefore}<em>{t.brandAccent}</em></p>
+              <h1>
+                {t.heroTitleBefore}<span>{t.heroTitleAccent}</span>
+              </h1>
+              <p class="p-hero__lead">{t.heroLead}</p>
+              <div class="p-hero__actions">
+                <a href="#tariffs" class="p-btn p-btn--primary">{t.heroCtaPrimary}</a>
+                <a href="#support-cta" class="p-btn p-btn--ghost">{t.heroCtaSecondary}</a>
+              </div>
+            </div>
+
+            <div class="p-hero__ops" data-support-ops>
+              <div class="p-status">
+                <span class="p-status__pulse"></span>
+                <div>
+                  <strong data-uptime-label>{t.uptimeLabel}</strong>
+                  <span>{t.uptimeHint} <em data-uptime-clock>99.98%</em></span>
+                </div>
+              </div>
+
+              <div class="p-spark" aria-hidden="true">
+                <svg viewBox="0 0 240 56" preserveAspectRatio="none" data-spark>
+                  <polyline
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    points="0,40 20,36 40,42 60,28 80,32 100,18 120,24 140,14 160,22 180,12 200,20 220,10 240,16"
+                  ></polyline>
+                </svg>
+                <div class="p-spark__meta">
+                  <span>{t.latencyLabel}</span>
+                  <strong data-latency>42 ms</strong>
+                </div>
+              </div>
+
+              <div class="p-meters" data-support-meters>
+                <div class="p-meter" data-meter="96">
+                  <div class="p-meter__top">
+                    <span>{t.meterAvailability}</span>
+                    <em>{t.meterAvailabilityValue}</em>
+                  </div>
+                  <div class="p-meter__bar"><i></i></div>
+                </div>
+                <div class="p-meter" data-meter="78">
+                  <div class="p-meter__top">
+                    <span>{t.meterHoursPool}</span>
+                    <em>{t.meterHoursPoolValue}</em>
+                  </div>
+                  <div class="p-meter__bar"><i></i></div>
+                </div>
+                <div class="p-meter" data-meter="64">
+                  <div class="p-meter__top">
+                    <span>{t.meterTasks}</span>
+                    <em>{t.meterTasksValue}</em>
+                  </div>
+                  <div class="p-meter__bar"><i></i></div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="p-section p-reveal">
+            <div class="p-section__head">
+              <h2>{t.whyTitle}</h2>
+              <p>{t.whyLead}</p>
+            </div>
+            <div class="p-why" data-why>
+              {
+                t.why.map((item, i) => (
+                  <article class="p-why__card" data-why-card tabindex="0">
+                    <span class="p-why__n">0{i + 1}</span>
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                    <div class="p-why__chart" aria-hidden="true">
+                      <div class="p-why__row">
+                        <span>{item.staffLabel}</span>
+                        <div class="p-why__bar p-why__bar--staff">
+                          <i style={`--w:${item.staff}%`} />
+                        </div>
+                      </div>
+                      <div class="p-why__row">
+                        <span>{item.supportLabel}</span>
+                        <div class="p-why__bar p-why__bar--ok">
+                          <i style={`--w:${item.support}%`} />
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="p-section p-reveal">
+            <div class="p-section__head">
+              <h2>{t.servicesTitle}</h2>
+              <p>{t.servicesLead}</p>
+            </div>
+            <div
+              class="p-service-filters"
+              data-service-filters
+              data-filter-labels={JSON.stringify(t.filterLabels)}
+              role="tablist"
+              aria-label={t.servicesTitle}
+            >
+              {
+                t.serviceGroups.map((g, i) => (
+                  <button
+                    type="button"
+                    class:list={["p-service-filter", i === 0 && "is-active"]}
+                    role="tab"
+                    aria-selected={i === 0 ? "true" : "false"}
+                    data-filter={g.id}
+                  >
+                    {g.label}
+                  </button>
+                ))
+              }
+            </div>
+            <div class="p-services" data-services>
+              {
+                t.services.map((s) => (
+                  <button type="button" class="p-service" data-group={s.group} data-service>
+                    <span class="p-service__dot" aria-hidden="true"></span>
+                    <span>{s.text}</span>
+                  </button>
+                ))
+              }
+            </div>
+            <p class="p-services__hint" data-services-hint>
+              {t.servicesHintPrefix} <strong>{t.filterLabels.all}</strong>
+            </p>
+          </section>
+
+          <div class="p-perks p-reveal" data-perks>
+            {
+              t.perks.map((perk) => (
+                <article class="p-perk" data-perk={perk.id} tabindex="0">
+                  <div class="p-perk__metric">
+                    <strong>{perk.metric}</strong>
+                    <span>{perk.metricLabel}</span>
+                  </div>
+                  <h3>{perk.title}</h3>
+                  <p>{perk.text}</p>
+                  <div class="p-perk__viz" aria-hidden="true">
+                    {perk.id === "pm" && <div class="p-perk__ring"></div>}
+                    {perk.id === "monitor" && (
+                      <svg class="p-perk__wave" viewBox="0 0 120 28">
+                        <path
+                          d="M0 14 H20 L28 6 L36 22 L44 14 H70 L78 8 L86 20 L94 14 H120"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"></path>
+                      </svg>
+                    )}
+                    {perk.id === "pool" && (
+                      <div class="p-perk__stack">
+                        <span></span><span></span><span></span><span></span>
+                      </div>
+                    )}
+                  </div>
+                </article>
+              ))
+            }
+          </div>
+
+          <section class="p-section p-reveal" id="tariffs" data-tariffs>
+            <div class="p-section__head">
+              <h2>{t.tariffsTitle}</h2>
+              <p>
+                {t.tariffsLeadBefore}
+                {
+                  t.roles.map((r, i) => (
+                    <>
+                      {i === 0 ? " " : i === t.roles.length - 1 ? t.rolesConjunction : t.rolesSeparator}
+                      {locale === "ru" ? r.toLowerCase() : r.toLowerCase()}
+                    </>
+                  ))
+                }
+                .
+              </p>
+            </div>
+
+            <div
+              class="p-hours"
+              data-hours-gauge
+              data-hours-unit={t.hoursUnit}
+              data-max-hours={maxTariffHours}
+              aria-hidden="true"
+            >
+              <div class="p-hours__top">
+                <span>{t.hoursGaugeLabel}</span>
+                <strong data-hours-value>{initialHours} {t.hoursUnit}</strong>
+              </div>
+              <div class="p-hours__track">
+                <i
+                  data-hours-fill
+                  style={`--p:${(initialHours / maxTariffHours) * 100}%`}></i>
+              </div>
+              <div class="p-hours__marks">
+                {t.tariffs.map((tariff) => (
+                  <span>{tariff.hours}</span>
+                ))}
+              </div>
+            </div>
+
+            <div class="p-tariffs">
+              {
+                t.tariffs.map((tariff) => (
+                  <article
+                    class:list={[
+                      "p-tariff",
+                      tariff.featured && "p-tariff--featured",
+                      tariff.featured && "is-selected",
+                    ]}
+                    data-tariff={tariff.id}
+                    data-hours={tariff.hours}
+                    data-price={tariff.price}
+                    data-name={tariff.name}
+                    tabindex="0"
+                    role="button"
+                    aria-pressed={tariff.featured ? "true" : "false"}
+                  >
+                    {tariff.featured && <span class="p-tariff__badge">{t.tariffBadge}</span>}
+                    <h3 class="p-tariff__name">{tariff.name}</h3>
+                    <p class="p-tariff__price">{tariff.price}</p>
+                    <p class="p-tariff__hours">
+                      {tariff.hours}{" "}
+                      {locale === "ru"
+                        ? tariff.hours === 3
+                          ? t.hourFew
+                          : t.hourMany
+                        : t.hourMany}{" "}
+                      {t.monthSuffix} · {tariff.rate}
+                    </p>
+                    <p class="p-tariff__fit">{tariff.fit}</p>
+                    <div class="p-tariff__roles">
+                      {t.roles.map((r) => (
+                        <span>{r}</span>
+                      ))}
+                    </div>
+                    <a href="#support-cta" class="p-btn p-btn--line" data-tariff-cta>
+                      {t.tariffChoosePrefix} {tariff.name}
+                    </a>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="p-section p-reveal">
+            <div class="p-section__head">
+              <p class="p-kicker">{t.outcomesKicker}</p>
+              <h2>{t.outcomesTitle}</h2>
+              <p>{t.outcomesLead}</p>
+            </div>
+            <div class="p-outcomes">
+              {
+                t.outcomes.map((item) => (
+                  <article class="p-outcome">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="p-section p-reveal">
+            <div class="p-section__head">
+              <p class="p-kicker">{t.nosKicker}</p>
+              <h2>{t.nosTitle}</h2>
+              <p>{t.nosLead}</p>
+            </div>
+            <div class="p-nos">
+              {
+                t.nos.map((item) => (
+                  <article class="p-no">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="p-section p-reveal" id="faq">
+            <div class="p-section__head">
+              <p class="p-kicker">{t.faqKicker}</p>
+              <h2>{t.faqTitle}</h2>
+              <p>{t.faqLead}</p>
+            </div>
+            <div class="p-faq">
+              {
+                t.faq.map((item) => (
+                  <details class="p-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
+          </section>
+
+          <section id="support-cta" class="p-cta p-reveal">
+            <div>
+              <h2>{t.ctaTitle}</h2>
+              <p>{t.ctaLead}</p>
+              <div class="p-cta__pick" data-cta-pick data-pick-prefix={t.ctaPickPrefix}>
+                {t.ctaPickPrefix} <strong>{t.ctaPickDefault}</strong>
+              </div>
+              <div class="p-cta__contacts">
+                <a href={contacts.emailHref}>{contacts.email}</a>
+                {showPhone ? <a href={contacts.phoneHref}>{contacts.phone}</a> : null}
+              </div>
+            </div>
+            <form
+              id="support-form"
+              class="p-form"
+              data-success-message={t.formSuccess}
+              data-form-source={t.formSource}
+            >
+              <label class="visually-hidden" for={`support-name-${locale}`}>{t.formName}</label>
+              <input
+                id={`support-name-${locale}`}
+                type="text"
+                name="name"
+                placeholder={t.formName}
+                autocomplete="name"
+                required
+              />
+              <label class="visually-hidden" for={`support-phone-${locale}`}>{t.formPhone}</label>
+              <input
+                id={`support-phone-${locale}`}
+                type="tel"
+                name="phone"
+                placeholder={t.formPhone}
+                autocomplete="tel"
+                required
+              />
+              <label class="visually-hidden" for={`support-site-${locale}`}>{t.formSite}</label>
+              <input
+                id={`support-site-${locale}`}
+                type="url"
+                name="site"
+                placeholder={t.formSite}
+                autocomplete="url"
+              />
+              <label class="visually-hidden" for={`support-tariff-${locale}`}>{t.formTariff}</label>
+              <select id={`support-tariff-${locale}`} name="tariff" data-tariff-select required>
+                <option value="" disabled>{t.formTariff}</option>
+                {
+                  t.tariffs.map((tariff) => (
+                    <option value={tariff.id} selected={tariff.featured}>
+                      {tariff.name} · {tariff.price}
+                    </option>
+                  ))
+                }
+                <option value="consult">{t.formTariffConsult}</option>
+              </select>
+              <label class="visually-hidden" for={`support-message-${locale}`}>{t.formMessage}</label>
+              <textarea
+                id={`support-message-${locale}`}
+                name="message"
+                rows="3"
+                placeholder={t.formMessage}></textarea>
+              <label class="p-form__check">
+                <input type="checkbox" name="agree" required />
+                <span>
+                  {t.formAgreeBefore}{" "}
+                  <a
+                    class="cookie-link"
+                    href={docs.privacy}
+                    target="_blank"
+                    rel="nofollow noopener noreferrer">{t.formAgreePolicy}</a
+                  >.
+                </span>
+              </label>
+              <button type="submit" class="p-btn p-btn--primary">{t.formSubmit}</button>
+              <p id="support-form-hint" class="p-form-hint" hidden></p>
+            </form>
+          </section>
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>{t.footerBrand}</strong>
+            <p>{t.footerTagline}</p>
+          </div>
+          <p>© 2015–{year} {t.footerBrand}</p>
+          <CookieFooterNotice locale={locale} />
+        </footer>
+      </main>
+    </div>
+
+    <CookieConsent locale={locale} />
+    <script>
+      import "../../scripts/tehpodderzhka.ts";
+      import "../../scripts/locale-offer.ts";
+    </script>
+  </body>
+</html>

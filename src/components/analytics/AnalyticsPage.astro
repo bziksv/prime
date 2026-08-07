@@ -1,0 +1,472 @@
+---
+import PortalShell from "../PortalShell.astro";
+import CookieConsent from "../CookieConsent.astro";
+import CookieFooterNotice from "../CookieFooterNotice.astro";
+import SiteSeo from "../SiteSeo.astro";
+import { v6Icons } from "../../data/v6-media";
+import { getLegalDocs } from "../../data/legal";
+import { contacts } from "../../data/contacts";
+import { breadcrumbJsonLd } from "../../lib/breadcrumb-jsonld";
+import { serviceJsonLd } from "../../lib/service-jsonld";
+import { getAnalyticsContent } from "../../i18n/analytics-content";
+import { getHomeContent, homePath } from "../../i18n/home-content";
+import { localeMeta, type Locale } from "../../i18n/locales";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getAnalyticsContent(locale);
+const home = getHomeContent(locale);
+const docs = getLegalDocs(locale);
+const htmlLang = localeMeta[locale].hreflang;
+const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+const showPhone = locale === "ru";
+const year = new Date().getFullYear();
+const homeHref = homePath(locale);
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: t.faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
+
+const origin = Astro.site?.origin ?? "https://prime-ltd.su";
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: t.breadcrumbHome, href: homeHref },
+    { label: t.breadcrumbCurrent },
+  ],
+  {
+    origin,
+    currentPath: t.path,
+  },
+);
+const serviceLd = serviceJsonLd({
+  name: t.serviceName,
+  description: t.metaDescription,
+  path: t.path,
+  serviceType: t.serviceType,
+  origin,
+  providerName: t.footerBrand,
+  areaServed: locale === "en" ? "Worldwide" : "RU",
+});
+---
+
+<!doctype html>
+<html lang={htmlLang} data-concept="v6" data-page="analytics" data-locale={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={t.metaDescription} />
+    <title>{t.metaTitle}</title>
+    <SiteSeo
+      title={t.metaTitle}
+      description={t.metaDescription}
+      path={t.path}
+      locale={ogLocale}
+      siteName={t.footerBrand}
+      alternates={[
+        { hreflang: "ru", path: "/skvoznaya-analitika/" },
+        { hreflang: "en", path: "/en/analytics/" },
+        { hreflang: "x-default", path: "/skvoznaya-analitika/" },
+      ]}
+    />
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <link rel="preload" as="image" href="/images/v6/photos/analytics-hero.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,700;1,6..12,400&family=Oxanium:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(serviceLd)} />
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell serviceActive="analytics" locale={locale} />
+
+      <main id="main" class="v6-main">
+        <header class="v6-topbar">
+          <button
+            id="v6-burger"
+            type="button"
+            class="v6-burger"
+            aria-label={t.menuLabel}
+            aria-controls="v6-sidebar"
+            aria-expanded="false">☰</button
+          >
+          <p class="v6-breadcrumb">
+            <a href={homeHref}>{t.breadcrumbHome}</a> · <strong>{t.breadcrumbCurrent}</strong>
+          </p>
+          <div class="home-topbar-actions">
+            <div class="home-lang" aria-label={home.langSwitchAria} data-lang-switch hidden>
+              <a
+                class:list={["home-lang__btn", locale === "ru" && "is-active"]}
+                href="/skvoznaya-analitika/"
+                hreflang="ru"
+                lang="ru"
+                data-locale-set="ru">RU</a
+              >
+              <a
+                class:list={["home-lang__btn", locale === "en" && "is-active"]}
+                href="/en/analytics/"
+                hreflang="en"
+                lang="en"
+                data-locale-set="en">EN</a
+              >
+            </div>
+            <a href="#analytics-cta" class="v6-btn">{t.ctaTop}</a>
+          </div>
+        </header>
+
+        <div class="v6-content">
+          <section class="n-hero" data-n-hero>
+            <div class="n-hero__bg" aria-hidden="true" data-parallax-analytics-bg></div>
+            <div class="n-hero__veil" aria-hidden="true"></div>
+
+            <div class="n-hero__mesh" aria-hidden="true" data-n-mesh>
+              <svg class="n-mesh" viewBox="0 0 640 420" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <radialGradient id="n-mesh-glow" cx="50%" cy="40%" r="55%">
+                    <stop offset="0%" stop-color="rgba(107,124,255,0.35)"></stop>
+                    <stop offset="100%" stop-color="rgba(107,124,255,0)"></stop>
+                  </radialGradient>
+                </defs>
+                <circle class="n-mesh__aura" cx="420" cy="160" r="160" fill="url(#n-mesh-glow)"></circle>
+                <g class="n-mesh__links" fill="none" stroke="rgba(241,243,248,0.18)" stroke-width="1">
+                  <path d="M80 70 L180 120 L290 90 L400 150 L520 110"></path>
+                  <path d="M120 220 L210 180 L310 240 L430 200 L560 260"></path>
+                  <path d="M180 120 L210 180 L290 90 L310 240 L400 150 L430 200"></path>
+                  <path d="M290 90 L310 240 L400 150 L520 110 L560 260"></path>
+                </g>
+                <g class="n-mesh__nodes" fill="#9aa8ff">
+                  <circle cx="80" cy="70" r="3.5"></circle>
+                  <circle cx="180" cy="120" r="4.5" class="n-mesh__node--hot"></circle>
+                  <circle cx="290" cy="90" r="3.5"></circle>
+                  <circle cx="400" cy="150" r="5" class="n-mesh__node--hot"></circle>
+                  <circle cx="520" cy="110" r="3.5"></circle>
+                  <circle cx="120" cy="220" r="3"></circle>
+                  <circle cx="210" cy="180" r="4" class="n-mesh__node--hot"></circle>
+                  <circle cx="310" cy="240" r="3.5"></circle>
+                  <circle cx="430" cy="200" r="4.5" class="n-mesh__node--hot"></circle>
+                  <circle cx="560" cy="260" r="3.5"></circle>
+                </g>
+                <circle class="n-mesh__ping" cx="210" cy="180" r="4"></circle>
+                <circle class="n-mesh__ping n-mesh__ping--2" cx="400" cy="150" r="4"></circle>
+                <circle class="n-mesh__ping n-mesh__ping--3" cx="430" cy="200" r="4"></circle>
+              </svg>
+            </div>
+
+            <div class="n-hero__copy">
+              <p class="n-brand">{t.brandBefore}<em>{t.brandAccent}</em></p>
+              <h1>
+                {t.heroTitleBefore}<span>{t.heroTitleAccent}</span>
+              </h1>
+              <p class="n-hero__lead">{t.heroLead}</p>
+              <div class="n-hero__actions">
+                <a href="#analytics-cta" class="n-btn n-btn--primary n-btn--glow">{t.heroCtaPrimary}</a>
+                <a href="#plans" class="n-btn n-btn--ghost">{t.heroCtaSecondary}</a>
+              </div>
+            </div>
+
+            <div class="n-hero__flow" aria-hidden="true" data-n-flow>
+              <div class="n-flow">
+                <div class="n-flow__head">
+                  <span class="n-flow__live"><i></i> {t.flowLive}</span>
+                  <span class="n-flow__tag">{t.flowTag}</span>
+                </div>
+
+                <div class="n-flow__node is-active" data-n-node="0">
+                  <span class="n-flow__dot"></span>
+                  <div>
+                    <strong>{t.flowNode0Title}</strong>
+                    <span>{t.flowNode0Sub}</span>
+                  </div>
+                  <em class="n-flow__hit" data-n-hit>{t.flowNode0Hit}</em>
+                </div>
+                <div class="n-flow__wire">
+                  <i class="n-flow__packet"></i>
+                  <i class="n-flow__packet n-flow__packet--delay"></i>
+                </div>
+                <div class="n-flow__node" data-n-node="1">
+                  <span class="n-flow__dot"></span>
+                  <div>
+                    <strong>{t.flowNode1Title}</strong>
+                    <span>{t.flowNode1Sub}</span>
+                  </div>
+                  <em class="n-flow__hit" data-n-hit>{t.flowNode1Hit}</em>
+                </div>
+                <div class="n-flow__wire n-flow__wire--2">
+                  <i class="n-flow__packet"></i>
+                  <i class="n-flow__packet n-flow__packet--delay"></i>
+                </div>
+                <div class="n-flow__node" data-n-node="2">
+                  <span class="n-flow__dot"></span>
+                  <div>
+                    <strong>{t.flowNode2Title}</strong>
+                    <span>{t.flowNode2Sub}</span>
+                  </div>
+                  <em class="n-flow__hit" data-n-hit>{t.flowNode2Hit}</em>
+                </div>
+
+                <div class="n-flow__stats">
+                  <div>
+                    <span>{t.flowStatRoas}</span>
+                    <strong data-n-roas>4.2×</strong>
+                  </div>
+                  <div>
+                    <span>{t.flowStatDeals}</span>
+                    <strong data-n-deals>18</strong>
+                  </div>
+                  <div>
+                    <span>{t.flowStatAttr}</span>
+                    <strong data-n-attr>on</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="n-why n-reveal">
+            <div>
+              <h2>{t.whyTitle}</h2>
+              <p>{t.why.lead}</p>
+              <p>{t.why.channels}</p>
+              <p>{t.why.answer}</p>
+            </div>
+            <div class="n-why__stat">
+              <strong data-analytics-stat>{t.whyStat}</strong>
+              <span>{t.whyStatLabel}</span>
+            </div>
+          </section>
+
+          <section class="n-section n-reveal">
+            <div class="n-section__head">
+              <h2>{t.problemTitle}</h2>
+              <p>{t.problemLead}</p>
+            </div>
+            <div class="n-problem">
+              {
+                t.problem.map((p) => (
+                  <article>
+                    <h3>{p.title}</h3>
+                    <p>{p.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="n-section n-reveal">
+            <div class="n-section__head">
+              <h2>{t.trackTitle}</h2>
+              <p>{t.trackLead}</p>
+            </div>
+            <div class="n-track">
+              {
+                t.track.map((item) => (
+                  <article>
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="n-section n-reveal">
+            <div class="n-section__head">
+              <h2>{t.featuresTitle}</h2>
+              <p>{t.featuresLead}</p>
+            </div>
+            <div class="n-features">
+              {
+                t.features.map((f) => (
+                  <article class="n-feature">
+                    <h3>{f.title}</h3>
+                    <p>{f.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+            <div class="n-extra">
+              {t.extra.map((e) => <span>{e}</span>)}
+            </div>
+          </section>
+
+          <section class="n-section n-reveal" id="plans">
+            <div class="n-section__head">
+              <h2>{t.plansTitle}</h2>
+              <p>{t.plansLead}</p>
+            </div>
+            <div class="n-plans">
+              {
+                t.plans.map((p) => (
+                  <article class:list={["n-plan", p.featured && "n-plan--featured"]}>
+                    {p.featured && <span class="n-plan__badge">{t.planBadge}</span>}
+                    <p class="n-plan__visits">{p.visits} {t.planVisitsSuffix}</p>
+                    <p class="n-plan__price">{p.price}</p>
+                    <p class="n-plan__unit">{p.unit}</p>
+                    <p>{p.projects}{t.planSitesSuffix}</p>
+                    <a href="#analytics-cta" class="n-btn n-btn--line">{t.planCta}</a>
+                  </article>
+                ))
+              }
+            </div>
+            <p class="n-note">{t.note}</p>
+          </section>
+
+          <section class="n-section n-reveal">
+            <div class="n-section__head">
+              <h2>{t.outcomesTitle}</h2>
+              <p>{t.outcomesLead}</p>
+            </div>
+            <div class="n-outcomes">
+              {
+                t.outcomes.map((item) => (
+                  <article class="n-outcome">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="n-section n-reveal">
+            <div class="n-section__head">
+              <h2>{t.nosTitle}</h2>
+              <p>{t.nosLead}</p>
+            </div>
+            <div class="n-nos">
+              {
+                t.nos.map((item) => (
+                  <article class="n-no">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="n-section n-reveal" id="faq">
+            <div class="n-section__head">
+              <h2>{t.faqTitle}</h2>
+              <p>{t.faqLead}</p>
+            </div>
+            <div class="n-faq">
+              {
+                t.faq.map((item) => (
+                  <details class="n-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
+          </section>
+
+          <section id="analytics-cta" class="n-cta n-reveal">
+            <div>
+              <h2>{t.ctaTitle}</h2>
+              <p>
+                {t.ctaLead}{showPhone ? t.ctaPhoneSuffix : ""}
+              </p>
+              <div class="n-cta__contacts">
+                <a href={contacts.emailHref}>{contacts.email}</a>
+                {showPhone ? <a href={contacts.phoneHref}>{contacts.phone}</a> : null}
+              </div>
+            </div>
+            <form
+              id="analytics-form"
+              class="n-form"
+              data-success-message={t.formSuccess}
+              data-form-source={t.formSource}
+            >
+              <label class="visually-hidden" for={`analytics-name-${locale}`}>{t.formName}</label>
+              <input
+                id={`analytics-name-${locale}`}
+                type="text"
+                name="name"
+                placeholder={t.formName}
+                autocomplete="name"
+                required
+              />
+              <label class="visually-hidden" for={`analytics-phone-${locale}`}>{t.formPhone}</label>
+              <input
+                id={`analytics-phone-${locale}`}
+                type="tel"
+                name="phone"
+                placeholder={t.formPhone}
+                autocomplete="tel"
+                required
+              />
+              <label class="visually-hidden" for={`analytics-site-${locale}`}>{t.formSite}</label>
+              <input
+                id={`analytics-site-${locale}`}
+                type="url"
+                name="site"
+                placeholder={t.formSite}
+                autocomplete="url"
+              />
+              <label class="visually-hidden" for={`analytics-crm-${locale}`}>{t.formCrm}</label>
+              <select id={`analytics-crm-${locale}`} name="crm">
+                <option value="">{t.formCrm}</option>
+                {t.formCrmOptions.map((opt) => <option>{opt}</option>)}
+              </select>
+              <label class="visually-hidden" for={`analytics-message-${locale}`}>{t.formMessage}</label>
+              <textarea
+                id={`analytics-message-${locale}`}
+                name="message"
+                rows="3"
+                placeholder={t.formMessage}
+              ></textarea>
+              <label class="n-form__check">
+                <input type="checkbox" name="agree" required />
+                <span>
+                  {t.formAgreeBefore}{" "}
+                  <a
+                    class="cookie-link"
+                    href={docs.privacy}
+                    target="_blank"
+                    rel="nofollow noopener noreferrer">{t.formAgreePolicy}</a
+                  >.
+                </span>
+              </label>
+              <button type="submit" class="n-btn n-btn--primary">{t.formSubmit}</button>
+              <p id="analytics-form-hint" class="n-form-hint" hidden></p>
+            </form>
+          </section>
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>{t.footerBrand}</strong>
+            <p>{t.footerTagline}</p>
+          </div>
+          <p>© 2015–{year} {t.footerBrand}</p>
+          <CookieFooterNotice locale={locale} />
+        </footer>
+      </main>
+    </div>
+
+    <CookieConsent locale={locale} />
+    <script>
+      import "../../scripts/analitika.ts";
+      import "../../scripts/locale-offer.ts";
+    </script>
+  </body>
+</html>

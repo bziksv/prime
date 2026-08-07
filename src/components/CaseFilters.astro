@@ -1,26 +1,37 @@
 ---
-import { caseCategories, categoryPath } from "../data/cases";
+import { caseCategories } from "../data/cases";
 import type { CaseCategoryId } from "../data/cases";
+import {
+  casesIndexPath,
+  categoryPath,
+  localizeCategory,
+} from "../i18n/cases";
+import type { Locale } from "../i18n/locales";
 
 interface Props {
   active?: CaseCategoryId | "all";
+  locale?: Locale;
 }
 
-const { active = "all" } = Astro.props;
+const { active = "all", locale = "ru" } = Astro.props;
+const allHref = casesIndexPath(locale);
+const cats = caseCategories.map((c) => localizeCategory(c, locale));
+const ariaLabel = locale === "en" ? "Case categories" : "Категории кейсов";
+const allLabel = locale === "en" ? "All cases" : "Все кейсы";
 ---
 
-<nav class="k-filters" aria-label="Категории кейсов">
+<nav class="k-filters" aria-label={ariaLabel}>
   <a
-    href="/keysy/"
+    href={allHref}
     class:list={["k-filter", active === "all" && "is-active"]}
     aria-current={active === "all" ? "page" : undefined}
   >
-    Все кейсы
+    {allLabel}
   </a>
   {
-    caseCategories.map((c) => (
+    cats.map((c) => (
       <a
-        href={categoryPath(c.id)}
+        href={categoryPath(c.id, locale)}
         class:list={["k-filter", active === c.id && "is-active"]}
         style={`--k-accent:${c.accent}`}
         aria-current={active === c.id ? "page" : undefined}

@@ -1,0 +1,326 @@
+---
+import PortalShell from "../PortalShell.astro";
+import CookieConsent from "../CookieConsent.astro";
+import CookieFooterNotice from "../CookieFooterNotice.astro";
+import SiteSeo from "../SiteSeo.astro";
+import { v6Icons } from "../../data/v6-media";
+import { contacts } from "../../data/contacts";
+import { getLegalDocs } from "../../data/legal";
+import { breadcrumbJsonLd } from "../../lib/breadcrumb-jsonld";
+import { getContactsContent } from "../../i18n/contacts-content";
+import { getHomeContent, homePath } from "../../i18n/home-content";
+import { localeMeta, type Locale } from "../../i18n/locales";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getContactsContent(locale);
+const home = getHomeContent(locale);
+const docs = getLegalDocs(locale);
+const htmlLang = localeMeta[locale].hreflang;
+const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+const year = new Date().getFullYear();
+const homeHref = homePath(locale);
+const origin = Astro.site?.origin ?? "https://prime-ltd.su";
+
+const localBusinessJsonLd =
+  locale === "ru"
+    ? {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        name: t.footerBrand,
+        url: `${origin}/`,
+        image: `${origin}${v6Icons.logoMark}`,
+        email: contacts.email,
+        telephone: contacts.phone,
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: contacts.addressShort,
+          addressLocality: contacts.city,
+          postalCode: contacts.postal,
+          addressCountry: "RU",
+        },
+        areaServed: "RU",
+        sameAs: contacts.socials.map((s) => s.href),
+      }
+    : {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        name: t.footerBrand,
+        url: `${origin}/`,
+        image: `${origin}${v6Icons.logoMark}`,
+        email: contacts.email,
+        areaServed: { "@type": "Place", name: "Worldwide" },
+        sameAs: contacts.socials.map((s) => s.href),
+      };
+
+const contactPageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  name: t.metaTitle,
+  url: `${origin}${t.path}`,
+  description: t.metaDescription,
+  mainEntity: {
+    "@type": "Organization",
+    name: t.footerBrand,
+    url: `${origin}/`,
+  },
+};
+
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: t.breadcrumbHome, href: homeHref },
+    { label: t.breadcrumbCurrent },
+  ],
+  {
+    origin,
+    currentPath: t.path,
+  },
+);
+---
+
+<!doctype html>
+<html lang={htmlLang} data-concept="v6" data-page="kontakty" data-locale={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={t.metaDescription} />
+    <title>{t.metaTitle}</title>
+    <SiteSeo
+      title={t.metaTitle}
+      description={t.metaDescription}
+      path={t.path}
+      locale={ogLocale}
+      siteName={t.footerBrand}
+      alternates={[
+        { hreflang: "ru", path: "/kontakty/" },
+        { hreflang: "en", path: "/en/contacts/" },
+        { hreflang: "x-default", path: "/kontakty/" },
+      ]}
+    />
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(localBusinessJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(contactPageJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell active="kontakty" locale={locale} />
+
+      <main id="main" class="v6-main">
+        <header class="v6-topbar">
+          <button
+            id="v6-burger"
+            type="button"
+            class="v6-burger"
+            aria-label={t.menuLabel}
+            aria-controls="v6-sidebar"
+            aria-expanded="false">☰</button
+          >
+          <p class="v6-breadcrumb">
+            <a href={homeHref}>{t.breadcrumbHome}</a> · <strong>{t.breadcrumbCurrent}</strong>
+          </p>
+          <div class="home-topbar-actions">
+            <div class="home-lang" aria-label={home.langSwitchAria} data-lang-switch hidden>
+              <a
+                class:list={["home-lang__btn", locale === "ru" && "is-active"]}
+                href="/kontakty/"
+                hreflang="ru"
+                lang="ru"
+                data-locale-set="ru">RU</a
+              >
+              <a
+                class:list={["home-lang__btn", locale === "en" && "is-active"]}
+                href="/en/contacts/"
+                hreflang="en"
+                lang="en"
+                data-locale-set="en">EN</a
+              >
+            </div>
+            <a href="#contact-form" class="v6-btn">{t.ctaTop}</a>
+          </div>
+        </header>
+
+        <div class="v6-content">
+          <section class="c-hero">
+            <p class="c-hero__kicker">{t.heroKicker}</p>
+            <h1>{t.heroTitle}</h1>
+            <p class="c-hero__lead">{t.heroLead}</p>
+          </section>
+
+          <div class="c-grid">
+            <section class="v6-card">
+              <div class="v6-card-head">
+                <h2>{t.infoTitle}</h2>
+                <p>{t.infoLead}</p>
+              </div>
+              <dl class="c-info">
+                {
+                  t.showAddress ? (
+                    <div class="c-info__item">
+                      <dt>{t.addressLabel}</dt>
+                      <dd>{t.address}</dd>
+                    </div>
+                  ) : (
+                    <div class="c-info__item">
+                      <dt>{t.coverageLabel}</dt>
+                      <dd>{t.coverageText}</dd>
+                    </div>
+                  )
+                }
+                {
+                  t.showPhone ? (
+                    <div class="c-info__item">
+                      <dt>{t.phoneLabel}</dt>
+                      <dd>
+                        <a href={contacts.phoneHref}>{contacts.phone}</a>
+                      </dd>
+                    </div>
+                  ) : null
+                }
+                <div class="c-info__item">
+                  <dt>{t.emailLabel}</dt>
+                  <dd>
+                    <a href={contacts.emailHref}>{contacts.email}</a>
+                  </dd>
+                </div>
+                <div class="c-info__item">
+                  <dt>{t.socialsLabel}</dt>
+                  <dd>
+                    <div class="c-info__social">
+                      {
+                        contacts.socials.map((s) => (
+                          <a href={s.href} target="_blank" rel="noopener">
+                            {s.label}
+                          </a>
+                        ))
+                      }
+                    </div>
+                  </dd>
+                </div>
+              </dl>
+              <ul class="c-points">
+                {t.points.map((p) => <li>{p}</li>)}
+              </ul>
+            </section>
+
+            <section id="contact-form" class="v6-card c-form-card">
+              <div class="v6-card-head">
+                <h2>{t.formTitle}</h2>
+                <p>{t.formLead}</p>
+              </div>
+              <form
+                id="v6-form"
+                class="v6-form"
+                data-success-message={t.formSuccess}
+                data-form-source={t.formSource}
+              >
+                <label class="visually-hidden" for={`contact-name-${locale}`}>{t.formName}</label>
+                <input
+                  id={`contact-name-${locale}`}
+                  type="text"
+                  name="name"
+                  placeholder={t.formName}
+                  autocomplete="name"
+                  required
+                />
+                <label class="visually-hidden" for={`contact-phone-${locale}`}>{t.formPhone}</label>
+                <input
+                  id={`contact-phone-${locale}`}
+                  type="tel"
+                  name="phone"
+                  placeholder={t.formPhone}
+                  autocomplete="tel"
+                  required
+                />
+                <label class="visually-hidden" for={`contact-email-${locale}`}>{t.formEmail}</label>
+                <input
+                  id={`contact-email-${locale}`}
+                  type="email"
+                  name="email"
+                  placeholder={t.formEmail}
+                  autocomplete="email"
+                />
+                <label class="visually-hidden" for={`contact-service-${locale}`}>{t.formService}</label>
+                <select id={`contact-service-${locale}`} name="service">
+                  <option value="">{t.formService}</option>
+                  {t.formServiceOptions.map((s) => (
+                    <option value={s}>{s}</option>
+                  ))}
+                </select>
+                <label class="visually-hidden" for={`contact-message-${locale}`}>{t.formMessage}</label>
+                <textarea
+                  id={`contact-message-${locale}`}
+                  name="message"
+                  rows="4"
+                  placeholder={t.formMessage}
+                ></textarea>
+                <label class="v6-form__check">
+                  <input type="checkbox" name="agree" required />
+                  <span>
+                    {t.formAgreeBefore}{" "}
+                    <a
+                      class="cookie-link"
+                      href={docs.privacy}
+                      target="_blank"
+                      rel="nofollow noopener noreferrer">{t.formAgreePolicy}</a
+                    >.
+                  </span>
+                </label>
+                <button type="submit" class="v6-btn">{t.formSubmit}</button>
+              </form>
+              <p id="v6-form-hint" class="v6-form-hint" hidden></p>
+            </section>
+          </div>
+
+          {
+            t.showMap ? (
+              <section class="v6-card" style="padding:0;overflow:hidden">
+                <div class="v6-card-head" style="padding:1.25rem 1.35rem 0.5rem">
+                  <h2>{t.mapTitle}</h2>
+                  <p>{t.mapSubtitle}</p>
+                </div>
+                <div class="c-map" aria-label={t.mapTitle}>
+                  <iframe
+                    class="c-map__frame"
+                    title={t.mapTitle}
+                    src={contacts.mapEmbed}
+                    width="100%"
+                    height="420"
+                    allowfullscreen
+                    loading="lazy"
+                    style="border:0;display:block"
+                  />
+                </div>
+              </section>
+            ) : null
+          }
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>{t.footerBrand}</strong>
+            <p>{t.footerTagline}</p>
+          </div>
+          <p>© 2015–{year} {t.footerBrand}</p>
+          <CookieFooterNotice locale={locale} />
+        </footer>
+      </main>
+    </div>
+
+    <CookieConsent locale={locale} />
+    <script>
+      import "../../scripts/concept-v6.ts";
+      import "../../scripts/locale-offer.ts";
+    </script>
+  </body>
+</html>

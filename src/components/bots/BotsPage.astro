@@ -1,0 +1,500 @@
+---
+import PortalShell from "../PortalShell.astro";
+import CookieConsent from "../CookieConsent.astro";
+import CookieFooterNotice from "../CookieFooterNotice.astro";
+import SiteSeo from "../SiteSeo.astro";
+import { v6Icons } from "../../data/v6-media";
+import { getLegalDocs } from "../../data/legal";
+import { getCasesByCategory } from "../../data/cases";
+import { contacts } from "../../data/contacts";
+import { breadcrumbJsonLd } from "../../lib/breadcrumb-jsonld";
+import { serviceJsonLd } from "../../lib/service-jsonld";
+import { getBotsContent } from "../../i18n/bots-content";
+import { getHomeContent, homePath } from "../../i18n/home-content";
+import { localeMeta, type Locale } from "../../i18n/locales";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getBotsContent(locale);
+const home = getHomeContent(locale);
+const docs = getLegalDocs(locale);
+const htmlLang = localeMeta[locale].hreflang;
+const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+const showPhone = locale === "ru";
+const year = new Date().getFullYear();
+const homeHref = homePath(locale);
+
+const botsCases = t.showCases ? getCasesByCategory("bots").slice(0, 4) : [];
+const railLoop = [...t.rail, ...t.rail];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: t.faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
+
+const origin = Astro.site?.origin ?? "https://prime-ltd.su";
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: t.breadcrumbHome, href: homeHref },
+    { label: t.breadcrumbCurrent },
+  ],
+  {
+    origin,
+    currentPath: t.path,
+  },
+);
+const serviceLd = serviceJsonLd({
+  name: t.serviceName,
+  description: t.metaDescription,
+  path: t.path,
+  serviceType: t.serviceType,
+  origin,
+  providerName: t.footerBrand,
+  areaServed: locale === "en" ? "Worldwide" : "RU",
+});
+---
+
+<!doctype html>
+<html lang={htmlLang} data-concept="v6" data-page="bots" data-locale={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={t.metaDescription} />
+    <title>{t.metaTitle}</title>
+    <SiteSeo
+      title={t.metaTitle}
+      description={t.metaDescription}
+      path={t.path}
+      locale={ogLocale}
+      siteName={t.footerBrand}
+      alternates={[
+        { hreflang: "ru", path: "/razrabotka-botov-dlya-messendzherov/" },
+        { hreflang: "en", path: "/en/bots/" },
+        { hreflang: "x-default", path: "/razrabotka-botov-dlya-messendzherov/" },
+      ]}
+    />
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <link rel="preload" as="image" href="/images/v6/photos/bots-hero.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(serviceLd)} />
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell serviceActive="bots" locale={locale} />
+
+      <main id="main" class="v6-main">
+        <header class="v6-topbar">
+          <button
+            id="v6-burger"
+            type="button"
+            class="v6-burger"
+            aria-label={t.menuLabel}
+            aria-controls="v6-sidebar"
+            aria-expanded="false">☰</button
+          >
+          <p class="v6-breadcrumb">
+            <a href={homeHref}>{t.breadcrumbHome}</a> · <strong>{t.breadcrumbCurrent}</strong>
+          </p>
+          <div class="home-topbar-actions">
+            <div class="home-lang" aria-label={home.langSwitchAria} data-lang-switch hidden>
+              <a
+                class:list={["home-lang__btn", locale === "ru" && "is-active"]}
+                href="/razrabotka-botov-dlya-messendzherov/"
+                hreflang="ru"
+                lang="ru"
+                data-locale-set="ru">RU</a
+              >
+              <a
+                class:list={["home-lang__btn", locale === "en" && "is-active"]}
+                href="/en/bots/"
+                hreflang="en"
+                lang="en"
+                data-locale-set="en">EN</a
+              >
+            </div>
+            <a href="#bots-cta" class="v6-btn">{t.ctaTop}</a>
+          </div>
+        </header>
+
+        <div class="v6-content v6-content--bots">
+          <section class="b-hero">
+            <div class="b-hero__bg" aria-hidden="true" data-parallax-bots-bg></div>
+            <div class="b-hero__veil" aria-hidden="true"></div>
+            <div class="b-hero__grid" aria-hidden="true"></div>
+
+            <div class="b-hero__copy">
+              <p class="b-brand">{t.brandBefore}<em>{t.brandAccent}</em></p>
+              <h1>
+                {t.heroTitleBefore}<span>{t.heroTitleAccent}</span>
+              </h1>
+              <p class="b-hero__lead">{t.heroLead}</p>
+              <div class="b-hero__actions">
+                <a href="#bots-cta" class="b-btn b-btn--primary">{t.heroCtaPrimary}</a>
+                <a href="#compare" class="b-btn b-btn--ghost">{t.heroCtaSecondary}</a>
+              </div>
+            </div>
+
+            <div class="b-hero__stage" aria-hidden="true">
+              <div class="b-chat" data-bots-chat>
+                <div class="b-chat__bar">
+                  <span class="b-chat__dot"></span>
+                  <div>
+                    <strong>{t.chatName}</strong>
+                    <em>{t.chatStatus}</em>
+                  </div>
+                </div>
+                <div class="b-chat__thread">
+                  <div class="b-chat__bubble b-chat__bubble--in" data-chat-step>
+                    {t.chatSteps[0]}
+                  </div>
+                  <div class="b-chat__menu" data-chat-step>
+                    {t.chatMenu.map((item) => <span>{item}</span>)}
+                  </div>
+                  <div class="b-chat__bubble b-chat__bubble--out" data-chat-step>
+                    {t.chatSteps[1]}
+                  </div>
+                  <div class="b-chat__bubble b-chat__bubble--in b-chat__bubble--ok" data-chat-step>
+                    {t.chatSteps[2]}
+                  </div>
+                  <div class="b-chat__typing" data-chat-typing>
+                    <i></i><i></i><i></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="b-rail" aria-hidden="true">
+            <div class="b-rail__track">
+              {railLoop.map((item) => <span>{item}</span>)}
+            </div>
+          </div>
+
+          <div class="b-pad">
+            <section class="b-section b-reveal" id="compare">
+              <div class="b-section__head">
+                <h2>{t.compareTitle}</h2>
+                <p>{t.problemLead}</p>
+              </div>
+              <div class="b-compare">
+                <article class="b-board b-board--chaos">
+                  <p class="b-board__label">{t.chaosLabel}</p>
+                  <div class="b-board__stack">
+                    {t.chaos.map((line) => <div class="b-noise">{line}</div>)}
+                  </div>
+                  <p class="b-board__note">{t.distort}</p>
+                </article>
+                <article class="b-board b-board--clean">
+                  <p class="b-board__label">{t.cleanLabel}</p>
+                  <div class="b-board__stack">
+                    {
+                      t.clean.map((row) =>
+                        row.role === "menu" ? (
+                          <div class="b-clean-menu">
+                            {row.items.map((item) => (
+                              <span>{item}</span>
+                            ))}
+                          </div>
+                        ) : (
+                          <div
+                            class:list={[
+                              "b-clean-line",
+                              row.role === "bot" ? "b-clean-line--bot" : "b-clean-line--user",
+                            ]}
+                          >
+                            {row.text}
+                          </div>
+                        ),
+                      )
+                    }
+                  </div>
+                  <p class="b-board__note">{t.trust}</p>
+                </article>
+              </div>
+            </section>
+
+            <section class="b-section b-reveal" id="pillars">
+              <div class="b-section__head">
+                <h2>{t.pillarsTitle}</h2>
+                <p>{t.pillarsLead}</p>
+              </div>
+              <div class="b-pillars">
+                {
+                  t.pillars.map((p) => (
+                    <article class="b-pillar">
+                      <span class="b-pillar__n">{p.n}</span>
+                      <h3>{p.title}</h3>
+                      <p>{p.text}</p>
+                    </article>
+                  ))
+                }
+              </div>
+            </section>
+
+            <section class="b-section b-reveal">
+              <div class="b-section__head">
+                <h2>{t.platformsTitle}</h2>
+                <p>{t.platformsLead}</p>
+              </div>
+              <div class="b-platforms">
+                {
+                  t.platforms.map((p) => (
+                    <article class="b-platform">
+                      <span class="b-platform__tag">{p.tag}</span>
+                      <h3>{p.title}</h3>
+                      <p>{p.text}</p>
+                    </article>
+                  ))
+                }
+              </div>
+            </section>
+
+            <section class="b-section b-reveal">
+              <div class="b-section__head">
+                <h2>{t.flowTitle}</h2>
+                <p>{t.cycle}</p>
+              </div>
+              <div class="b-flow">
+                {
+                  t.flow.map((node, i) => (
+                    <>
+                      {i > 0 ? (
+                        <div class="b-flow__arrow" aria-hidden="true">
+                          →
+                        </div>
+                      ) : null}
+                      <div class="b-flow__node">
+                        <strong>{node.title}</strong>
+                        <span>{node.text}</span>
+                      </div>
+                    </>
+                  ))
+                }
+              </div>
+            </section>
+
+            <section class="b-section b-reveal">
+              <div class="b-section__head">
+                <h2>{t.stepsTitle}</h2>
+                <p>{t.stepsLead}</p>
+              </div>
+              <div class="b-steps">
+                {
+                  t.steps.map((s) => (
+                    <article class="b-step">
+                      <span class="b-step__n">
+                        {t.stepPrefix} {s.n}
+                      </span>
+                      <h3>{s.title}</h3>
+                      <p>{s.text}</p>
+                    </article>
+                  ))
+                }
+              </div>
+            </section>
+
+            {
+              botsCases.length > 0 && (
+                <section class="b-section b-reveal">
+                  <div class="b-section__head">
+                    <h2>{t.casesTitle}</h2>
+                    <p>{t.casesLead}</p>
+                  </div>
+                  <div class="b-cases">
+                    {botsCases.map((c) => (
+                      <a href={`/keysy/${c.category}/${c.slug}/`} class="b-case">
+                        <span class="b-case__media" aria-hidden="true">
+                          <img src={c.cover} alt="" loading="lazy" />
+                        </span>
+                        <span class="b-case__shade" aria-hidden="true" />
+                        <span class="b-case__copy">
+                          <strong>{c.title}</strong>
+                          <span>
+                            {c.metric} · {c.metricLabel}
+                          </span>
+                        </span>
+                      </a>
+                    ))}
+                  </div>
+                  <p style="margin-top:1.25rem">
+                    <a class="b-btn--line" href="/keysy/bots/">
+                      {t.casesAll}
+                    </a>
+                  </p>
+                </section>
+              )
+            }
+
+            <section class="b-section b-reveal">
+              <div class="b-section__head">
+                <h2>{t.outcomesTitle}</h2>
+                <p>{t.outcomesLead}</p>
+              </div>
+              <div class="b-outcomes">
+                {
+                  t.outcomes.map((item) => (
+                    <article class="b-outcome">
+                      <h3>{item.title}</h3>
+                      <p>{item.text}</p>
+                    </article>
+                  ))
+                }
+              </div>
+            </section>
+
+            <section class="b-section b-reveal">
+              <div class="b-section__head">
+                <h2>{t.nosTitle}</h2>
+                <p>{t.nosLead}</p>
+              </div>
+              <div class="b-nos">
+                {
+                  t.nos.map((item) => (
+                    <article class="b-no">
+                      <h3>{item.title}</h3>
+                      <p>{item.text}</p>
+                    </article>
+                  ))
+                }
+              </div>
+            </section>
+
+            <section class="b-price b-reveal">
+              <div>
+                <h2>{t.pricingTitle}</h2>
+                <p>{t.pricingText}</p>
+              </div>
+              <p class="b-price__mark">{t.pricingMark}</p>
+            </section>
+
+            <section class="b-section b-reveal" id="faq">
+              <div class="b-section__head">
+                <h2>{t.faqTitle}</h2>
+                <p>{t.faqLead}</p>
+              </div>
+              <div class="b-faq">
+                {
+                  t.faq.map((item) => (
+                    <details class="b-faq__item">
+                      <summary>{item.q}</summary>
+                      <p>{item.a}</p>
+                    </details>
+                  ))
+                }
+              </div>
+            </section>
+
+            <section id="bots-cta" class="b-cta b-reveal">
+              <div class="b-cta__copy">
+                <div>
+                  <h2>{t.ctaTitle}</h2>
+                  <p>{t.ctaLead}</p>
+                  <ul class="b-cta__points">
+                    {t.ctaPoints.map((p) => <li>{p}</li>)}
+                  </ul>
+                </div>
+                <div class="b-cta__contacts">
+                  <a href={contacts.emailHref}>{contacts.email}</a>
+                  {showPhone ? <a href={contacts.phoneHref}>{contacts.phone}</a> : null}
+                </div>
+              </div>
+              <form
+                id="bots-form"
+                class="b-form"
+                data-success-message={t.formSuccess}
+                data-form-source={t.formSource}
+              >
+                <label class="visually-hidden" for={`bots-name-${locale}`}>{t.formName}</label>
+                <input
+                  id={`bots-name-${locale}`}
+                  type="text"
+                  name="name"
+                  placeholder={t.formName}
+                  autocomplete="name"
+                  required
+                />
+                <label class="visually-hidden" for={`bots-phone-${locale}`}>{t.formPhone}</label>
+                <input
+                  id={`bots-phone-${locale}`}
+                  type="tel"
+                  name="phone"
+                  placeholder={t.formPhone}
+                  autocomplete="tel"
+                  required
+                />
+                <label class="visually-hidden" for={`bots-brand-${locale}`}>{t.formBrand}</label>
+                <input
+                  id={`bots-brand-${locale}`}
+                  type="text"
+                  name="brand"
+                  placeholder={t.formBrand}
+                  autocomplete="organization"
+                />
+                <label class="visually-hidden" for={`bots-focus-${locale}`}>{t.formFocus}</label>
+                <select id={`bots-focus-${locale}`} name="focus">
+                  <option value="">{t.formFocus}</option>
+                  {t.formFocusOptions.map((opt) => <option>{opt}</option>)}
+                </select>
+                <label class="visually-hidden" for={`bots-message-${locale}`}>{t.formMessage}</label>
+                <textarea
+                  id={`bots-message-${locale}`}
+                  name="message"
+                  rows="3"
+                  placeholder={t.formMessage}
+                ></textarea>
+                <label class="b-form__check">
+                  <input type="checkbox" name="agree" required />
+                  <span>
+                    {t.formAgreeBefore}{" "}
+                    <a
+                      class="cookie-link"
+                      href={docs.privacy}
+                      target="_blank"
+                      rel="nofollow noopener noreferrer">{t.formAgreePolicy}</a
+                    >.
+                  </span>
+                </label>
+                <button type="submit" class="b-btn b-btn--primary">{t.formSubmit}</button>
+                <p id="bots-form-hint" class="b-form-hint" hidden></p>
+              </form>
+            </section>
+          </div>
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>{t.footerBrand}</strong>
+            <p>{t.footerTagline}</p>
+          </div>
+          <p>© 2015–{year} {t.footerBrand}</p>
+          <CookieFooterNotice locale={locale} />
+        </footer>
+      </main>
+    </div>
+
+    <CookieConsent locale={locale} />
+    <script>
+      import "../../scripts/boty.ts";
+      import "../../scripts/locale-offer.ts";
+    </script>
+  </body>
+</html>

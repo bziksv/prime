@@ -22,8 +22,10 @@ if (form) {
   bindLeadForm({
     form,
     hint: document.getElementById("analytics-form-hint"),
-    successMessage: "Спасибо! Заявка на сквозную аналитику принята — свяжемся с вами.",
-    source: "skvoznaya-analitika",
+    successMessage:
+      form.dataset.successMessage ||
+      "Спасибо! Заявка на сквозную аналитику принята — свяжемся с вами.",
+    source: form.dataset.formSource || "skvoznaya-analitika",
     successColor: "var(--n-rose, #ff2d6a)",
   });
 }

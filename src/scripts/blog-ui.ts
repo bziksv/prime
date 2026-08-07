@@ -1,4 +1,9 @@
-import { blogSearchIndex } from "../data/blog";
+import { blogSearchIndex, type BlogSearchDoc } from "../data/blog";
+import {
+  blogIndexI18n,
+  pluralArticlesLocale,
+  type BlogIndexI18n,
+} from "../i18n/blog/index-i18n";
 import { initBlogArticleInteract } from "./blog-article-interact";
 import {
   formatReadingTime,
@@ -17,15 +22,34 @@ function qsa<T extends Element>(sel: string, root: ParentNode = document): T[] {
   return [...root.querySelectorAll(sel)] as T[];
 }
 
-function whereLabel(matchedIn: string[]): string {
-  const map: Record<string, string> = {
-    title: "заголовок",
-    heading: "раздел",
-    excerpt: "анонс",
-    body: "текст",
-  };
+function fill(template: string, vars: Record<string, string | number>): string {
+  return template.replace(/\{(\w+)\}/g, (_, key: string) => String(vars[key] ?? ""));
+}
+
+function formatViewsForLocale(n: number, locale: BlogIndexI18n["locale"]): string {
+  if (locale === "en") {
+    if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1).replace(".0", "")}M`;
+    if (n >= 10_000) return `${Math.round(n / 1000)}k`;
+    if (n >= 1000) return `${(n / 1000).toFixed(1).replace(".0", "")}k`;
+    return new Intl.NumberFormat("en-US").format(n);
+  }
+  return formatViews(n);
+}
+
+function formatReadingTimeForLocale(
+  minutes: number,
+  locale: BlogIndexI18n["locale"],
+): string {
+  const n = Math.max(1, minutes);
+  if (locale === "en") return `${n} min read`;
+  return formatReadingTime(n);
+}
+
+function whereLabel(matchedIn: string[], i18n: BlogIndexI18n): string {
   if (!matchedIn.length) return "";
-  return matchedIn.map((m) => map[m] ?? m).join(" · ");
+  return matchedIn
+    .map((m) => i18n.where[m as keyof typeof i18n.where] ?? m)
+    .join(" · ");
 }
 
 function escapeHtml(s: string): string {
@@ -36,19 +60,30 @@ function escapeHtml(s: string): string {
     .replace(/"/g, "&quot;");
 }
 
+function readJson<T>(root: HTMLElement, sel: string): T | null {
+  const el = qs<HTMLScriptElement>(sel, root);
+  if (!el?.textContent?.trim()) return null;
+  try {
+    return JSON.parse(el.textContent) as T;
+  } catch {
+    return null;
+  }
+}
+
 function renderList(
   hits: ReturnType<typeof searchBlog>,
   grid: HTMLElement,
   empty: HTMLElement,
   query: string,
+  i18n: BlogIndexI18n,
 ) {
   if (!hits.length) {
     grid.innerHTML = "";
     grid.hidden = true;
     empty.hidden = false;
     empty.textContent = query
-      ? `Ничего не нашли по «${query}». Попробуйте «семантика», «аудит» или «структура».`
-      : "В этой рубрике пока нет статей.";
+      ? fill(i18n.emptyQuery, { q: query })
+      : i18n.emptyCat;
     return;
   }
 
@@ -56,24 +91,24 @@ function renderList(
   grid.hidden = false;
   grid.innerHTML = hits
     .map(({ doc, snippet, matchedIn, score }) => {
-      const where = query ? whereLabel(matchedIn) : "";
+      const where = query ? whereLabel(matchedIn, i18n) : "";
       const scoreHint =
         query && score > 0
-          ? `<span class="b-card__match">${where || "совпадение"}</span>`
+          ? `<span class="b-card__match">${where || i18n.matchFallback}</span>`
           : "";
-      return `<a href="/blog/${doc.slug}/" class="b-card" data-slug="${doc.slug}" data-category="${escapeHtml(doc.category)}">
+      return `<a href="${i18n.basePath}/${doc.slug}/" class="b-card" data-slug="${doc.slug}" data-category="${escapeHtml(doc.category)}">
         <div class="b-card__media"><img src="${doc.cover}" alt="" loading="lazy" /></div>
         <div class="b-card__body">
           <div class="b-card__meta">
             <span class="b-card__cat">${escapeHtml(doc.category)}</span>
-            <span class="b-meta-chip">${formatReadingTime(doc.readingMinutes)}</span>
-            <span class="b-meta-chip">${formatViews(doc.baseViews)} просм.</span>
+            <span class="b-meta-chip">${formatReadingTimeForLocale(doc.readingMinutes, i18n.locale)}</span>
+            <span class="b-meta-chip">${formatViewsForLocale(doc.baseViews, i18n.locale)} ${i18n.viewsShort}</span>
           </div>
           <h3>${escapeHtml(doc.title)}</h3>
           <p class="b-card__snippet">${snippet}</p>
           ${scoreHint}
           <span class="b-read">
-            Читать
+            ${escapeHtml(i18n.readShort)}
             <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
               <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
@@ -82,14 +117,6 @@ function renderList(
       </a>`;
     })
     .join("");
-}
-
-function pluralArticles(n: number): string {
-  const mod10 = n % 10;
-  const mod100 = n % 100;
-  if (mod10 === 1 && mod100 !== 11) return "статья";
-  if (mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14)) return "статьи";
-  return "статей";
 }
 
 type MigrateSort =
@@ -310,7 +337,10 @@ function initIndex() {
   const root = qs<HTMLElement>("[data-blog-index]");
   if (!root) return;
 
-  const docs = blogSearchIndex;
+  const i18n =
+    readJson<BlogIndexI18n>(root, "[data-blog-index-i18n]") ?? blogIndexI18n("ru");
+  const docs =
+    readJson<BlogSearchDoc[]>(root, "[data-blog-docs]") ?? blogSearchIndex;
   const input = qs<HTMLInputElement>("[data-blog-search]", root);
   const clearBtn = qs<HTMLButtonElement>("[data-blog-search-clear]", root);
   const grid = qs<HTMLElement>("[data-blog-grid]", root);
@@ -379,7 +409,7 @@ function initIndex() {
     const hasMore = listHits.length > shown.length;
 
     if (featured) featured.classList.toggle("is-hidden", filtering);
-    renderList(shown, grid, empty, query);
+    renderList(shown, grid, empty, query, i18n);
 
     if (
       !filtering &&
@@ -395,10 +425,11 @@ function initIndex() {
       moreWrap.hidden = !hasMore || listHits.length === 0;
       moreBtn.disabled = !hasMore;
       if (moreMeta) {
+        const articles = pluralArticlesLocale(listHits.length, i18n.locale);
         moreMeta.textContent = hasMore
-          ? `Показано ${shown.length} из ${listHits.length}`
+          ? fill(i18n.shownOf, { shown: shown.length, total: listHits.length })
           : listHits.length > 0
-            ? `Все ${listHits.length} ${pluralArticles(listHits.length)}`
+            ? fill(i18n.allCount, { n: listHits.length, articles })
             : "";
       }
     }
@@ -407,12 +438,18 @@ function initIndex() {
       if (query) {
         status.textContent =
           hits.length === 0
-            ? "Нет результатов"
-            : `Нашли ${hits.length} · умный поиск по заголовкам, разделам и тексту`;
+            ? i18n.statusNone
+            : fill(i18n.statusFound, { n: hits.length });
       } else if (category && category !== "all") {
-        status.textContent = `Рубрика «${category}» · ${hits.length}`;
+        status.textContent = fill(i18n.statusCat, {
+          cat: category,
+          n: hits.length,
+        });
       } else {
-        status.textContent = `${docs.length} ${pluralArticles(docs.length)} · поиск по смыслу, опечаткам и синонимам`;
+        status.textContent = fill(i18n.statusAll, {
+          n: docs.length,
+          articles: pluralArticlesLocale(docs.length, i18n.locale),
+        });
       }
     }
     if (clearBtn) clearBtn.hidden = !query;

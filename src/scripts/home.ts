@@ -108,6 +108,9 @@ if (leadsEl || cplEl || topEl) {
   let leads = 42;
   let cpl = 380;
   let top = 128;
+  const currency =
+    document.documentElement.getAttribute("data-cpl-currency")?.trim() || "₽";
+  const formatCpl = (n: number) => (currency === "$" ? `$${n}` : `${n} ${currency}`);
 
   window.setInterval(() => {
     leads += Math.random() > 0.4 ? 1 : 0;
@@ -121,7 +124,7 @@ if (leadsEl || cplEl || topEl) {
       flash(leadsEl);
     }
     if (cplEl) {
-      cplEl.textContent = `${cpl} ₽`;
+      cplEl.textContent = formatCpl(cpl);
       flash(cplEl);
     }
     if (topEl) {

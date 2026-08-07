@@ -82,10 +82,10 @@ export function initConceptV6() {
     bindLeadForm({
       form,
       hint: document.getElementById("v6-form-hint"),
-      successMessage: "Спасибо! Заявка принята — свяжемся с вами.",
-      source: "home-or-contacts",
+      successMessage:
+        form.dataset.successMessage || "Спасибо! Заявка принята — свяжемся с вами.",
+      source: form.dataset.formSource || "home-or-contacts",
     });
   }
 }
-
 initConceptV6();

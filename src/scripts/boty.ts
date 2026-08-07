@@ -22,8 +22,10 @@ if (form) {
   bindLeadForm({
     form,
     hint: document.getElementById("bots-form-hint"),
-    successMessage: "Спасибо! Заявка по ботам принята — свяжемся с вами.",
-    source: "razrabotka-botov-dlya-messendzherov",
+    successMessage:
+      form.dataset.successMessage ||
+      "Спасибо! Заявка по ботам принята — свяжемся с вами.",
+    source: form.dataset.formSource || "razrabotka-botov-dlya-messendzherov",
     successColor: "var(--b-signal, #34d399)",
   });
 }

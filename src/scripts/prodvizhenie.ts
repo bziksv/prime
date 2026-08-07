@@ -113,8 +113,15 @@ const regionsThumb = document.querySelector<HTMLElement>("[data-s-regions-thumb]
 const regionBtns = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-region]"));
 const priceEls = Array.from(document.querySelectorAll<HTMLElement>("[data-price]"));
 
+const pageRoot = document.documentElement;
+const currency = pageRoot.dataset.currency || "₽";
+const numberLocale = pageRoot.dataset.numberLocale || "ru-RU";
+const phrasesWord = pageRoot.dataset.phrasesWord || "фраз";
+const rankNoteDoneTpl = pageRoot.dataset.rankNoteDone || "{n} фраз в ТОП-10 · остальное вне счёта";
+
 function formatPrice(n: number) {
-  return new Intl.NumberFormat("ru-RU").format(n) + " ₽";
+  const num = new Intl.NumberFormat(numberLocale).format(n);
+  return currency === "$" ? `$${num}` : `${num} ₽`;
 }
 
 function setRegion(region: string) {
@@ -158,8 +165,10 @@ if (form) {
   bindLeadForm({
     form,
     hint: document.getElementById("seo-form-hint"),
-    successMessage: "Спасибо! Заявка на продвижение принята — свяжемся с вами.",
-    source: "prodvizhenie-sayta",
+    successMessage:
+      form.dataset.successMessage ||
+      "Спасибо! Заявка на продвижение принята — свяжемся с вами.",
+    source: form.dataset.formSource || "prodvizhenie-sayta",
     successColor: "var(--s-cyan, #20b8d0)",
   });
 }
@@ -353,13 +362,13 @@ const runRankDemo = async () => {
     if (badge) badge.textContent = "TOP";
     inTop += 1;
     if (inEl) inEl.textContent = String(inTop);
-    if (billEl) billEl.textContent = `${inTop} фраз`;
+    if (billEl) billEl.textContent = `${inTop} ${phrasesWord}`;
     await sleep(160);
   }
 
   rankBoard.classList.add("is-done");
   if (noteEl) {
-    noteEl.textContent = `${inTop} фраз в ТОП-10 · остальное вне счёта`;
+    noteEl.textContent = rankNoteDoneTpl.replace("{n}", String(inTop));
   }
 
   // soft live jitter of positions inside TOP

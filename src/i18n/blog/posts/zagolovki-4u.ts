@@ -1,0 +1,143 @@
+import type { BlogPost } from "../../../data/blog";
+
+/** EN overlay for zagolovki-4u — same structure as RU JSON. */
+export const zagolovki4uEn: BlogPost = {
+  slug: "zagolovki-4u",
+  title: "4U headlines: usefulness, uniqueness, urgency, specifics",
+  date: "2020-06-24",
+  category: "Content marketing",
+  cover: "/images/blog/zagolovki-4u/cover-en.webp",
+  excerpt:
+    "The 4U formula for headlines and email subjects: usefulness, uniqueness, ultra-specificity, and urgency — with examples, without “conversion ×10” claims or generators for the checkbox.",
+  lead: [
+    "People read the headline more often than the body: in seconds they decide to stay or leave. The 4U formula helps build a title from benefit, difference, specifics, and (when it fits) urgency — without empty “best in the world.”",
+    "Below — the four pillars, what you can drop, the H1/title link, and honesty in promises. Older “catchy headline” roundups are better folded into this frame.",
+  ],
+  faq: [
+    {
+      q: "What does 4U mean?",
+      a: "Usefulness, Uniqueness, Ultra-specificity, Urgency — benefit, difference, concrete detail, and time pressure.",
+    },
+    {
+      q: "Are all four required?",
+      a: "Usefulness almost always. Uniqueness is desirable. Urgency and hard targeting depend on the job; sometimes they hurt reach.",
+    },
+    {
+      q: "Can I say “#1” and “unique product”?",
+      a: "Only with proof. Bare superlatives risk ad rules and make a weak offer.",
+    },
+    {
+      q: "Is 4U the same as SEO H1?",
+      a: "Not always. A selling 4U can run long; for search you often pair headline + subhead and keep a careful title separate.",
+    },
+    {
+      q: "Do online generators help?",
+      a: "Weakly: they usually glue your words. A live headline after a brief is stronger.",
+    },
+    {
+      q: "Where else to use it?",
+      a: "Email subjects, service cards, ads — within each platform’s limits.",
+    },
+    {
+      q: "Is urgency always needed?",
+      a: "No. A fake timer hurts trust. A real deadline or time-to-result — yes.",
+    },
+    {
+      q: "Does this guarantee CTR ×10?",
+      a: "No. We don’t copy old “10×” legends. Test variants on your audience.",
+    },
+  ],
+  sections: [
+    {
+      title: "Four pillars",
+      level: 2,
+      paras: [
+        "Usefulness — what the reader gains (save money, know their level, get clients). Prefer a verb and outcome over “what we have.”",
+        "Uniqueness — how you’re different: condition, guarantee, format. Not the empty “personalized approach” with no fact.",
+        "Ultra-specificity — numbers, timeframe, geo, segment: “up to 41%,” “in 3 months,” “for offices from $X/m².”",
+        "Urgency — promo deadline or time to result. No real hook — drop the element.",
+      ],
+      lists: [
+        {
+          intro: "Weak → stronger:",
+          items: [
+            "“Office cleaning” → “Turnkey office cleaning from … $/m²”;",
+            "“Cheap realtor” → “Sold in 3 months or $0 commission” (if true).",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Order and formatting",
+      level: 2,
+      paras: [
+        "No rigid order; usefulness often comes first. Split a long 4U: headline + subhead, accents on separate lines.",
+        "For ad platforms check current character limits — old AdWords guide numbers age fast.",
+      ],
+      lists: [],
+    },
+    {
+      title: "SEO and honesty",
+      level: 2,
+      paras: [
+        "A keyword in H1/title is fine if it sounds natural. Don’t break 4U for a clumsy insertion.",
+        "Don’t promise the impossible (“−30 kg in a week”). Specifics must survive a fact check.",
+      ],
+      lists: [],
+      links: [
+        {
+          label: "SEO copywriting",
+          href: "/blog/seo-kopirayting/",
+        },
+        {
+          label: "Copywriter brief",
+          href: "/en/blog/tz-kopiraytera/",
+        },
+        {
+          label: "Meta tags",
+          href: "/en/blog/metategi/",
+        },
+      ],
+    },
+    {
+      title: "Mini algorithm",
+      level: 2,
+      paras: [
+        "Write the audience benefit → how you differ → add a number/segment → add a deadline if needed → cut fluff → test 2–3 variants.",
+      ],
+      lists: [
+        {
+          intro: "Checklist:",
+          items: [
+            "there’s a benefit, not only the service name;",
+            "no empty “best/unique”;",
+            "there’s specificity — or a clear reason it’s missing;",
+            "urgency is honest or absent;",
+            "it reads on a phone.",
+          ],
+        },
+      ],
+    },
+    {
+      title: "What to remember",
+      level: 2,
+      paras: [
+        "4U is a frame for benefit and specifics — not a clickbait generator.",
+        "Not every element is mandatory in every headline.",
+        "A test beats a textbook formula.",
+      ],
+      lists: [],
+    },
+  ],
+  closing: [
+    "Take a current service H1 and rewrite it with 4U on paper in 10 minutes — then compare snippet or ad CTR after a test.",
+  ],
+  related: [
+    "tz-kopiraytera",
+    "seo-kopirayting",
+    "metategi",
+    "kak-napisat-statyu",
+    "tekst-glavnoy-stranitsy",
+    "kopirayting",
+  ],
+};

@@ -1,24 +1,30 @@
 ---
 import type { BlogChecklistItem } from "../../data/blog-interact";
+import type { Locale } from "../../i18n/locales";
 
 type Props = {
   title: string;
   lead: string;
   items: BlogChecklistItem[];
   storageKey: string;
+  locale?: Locale;
 };
 
-const { title, lead, items, storageKey } = Astro.props;
+const { title, lead, items, storageKey, locale = "ru" } = Astro.props;
+const kicker = locale === "en" ? "Practice" : "Практика";
+const doneLabel = locale === "en" ? "done" : "готово";
+const resetLabel = locale === "en" ? "Reset" : "Сбросить";
 ---
 
 <section
   class="b-widget b-checklist"
   data-blog-checklist
   data-storage-key={storageKey}
+  data-locale={locale}
   aria-labelledby="b-checklist-title"
 >
   <div class="b-widget__head">
-    <p class="b-widget__kicker">Практика</p>
+    <p class="b-widget__kicker">{kicker}</p>
     <h2 id="b-checklist-title">{title}</h2>
     <p class="b-widget__lead">{lead}</p>
   </div>
@@ -28,7 +34,7 @@ const { title, lead, items, storageKey } = Astro.props;
       <span data-checklist-bar></span>
     </div>
     <p class="b-checklist__count">
-      <span data-checklist-done>0</span> / {items.length} готово
+      <span data-checklist-done>0</span> / {items.length} {doneLabel}
     </p>
   </div>
 
@@ -47,7 +53,7 @@ const { title, lead, items, storageKey } = Astro.props;
 
   <div class="b-checklist__actions">
     <button type="button" class="b-share__btn" data-checklist-reset>
-      Сбросить
+      {resetLabel}
     </button>
   </div>
 </section>

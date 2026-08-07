@@ -22,8 +22,10 @@ if (form) {
   bindLeadForm({
     form,
     hint: document.getElementById("web-form-hint"),
-    successMessage: "Спасибо! Заявка на разработку принята — свяжемся с вами.",
-    source: "razrabotka-saytov",
+    successMessage:
+      form.dataset.successMessage ||
+      "Спасибо! Заявка на разработку принята — свяжемся с вами.",
+    source: form.dataset.formSource || "razrabotka-saytov",
     successColor: "var(--w-accent-bright, #2dd4bf)",
   });
 }
@@ -320,20 +322,36 @@ const swapCards = live
   : [];
 
 if (swapCards.length >= 2) {
-  const sets: Array<Array<{ value: string; label: string }>> = [
-    [
-      { value: "+46%", label: "к заявкам" },
-      { value: "TOP", label: "в выдаче" },
-    ],
-    [
-      { value: "2.1×", label: "глубже скролл" },
-      { value: "−38%", label: "отказы" },
-    ],
-    [
-      { value: "4.8с", label: "до CTA" },
-      { value: "+72%", label: "время на сайте" },
-    ],
-  ];
+  const isEn = document.documentElement.dataset.locale === "en";
+  const sets: Array<Array<{ value: string; label: string }>> = isEn
+    ? [
+        [
+          { value: "+46%", label: "lead lift" },
+          { value: "TOP", label: "in SERP" },
+        ],
+        [
+          { value: "2.1×", label: "deeper scroll" },
+          { value: "−38%", label: "bounce" },
+        ],
+        [
+          { value: "4.8s", label: "to CTA" },
+          { value: "+72%", label: "time on site" },
+        ],
+      ]
+    : [
+        [
+          { value: "+46%", label: "к заявкам" },
+          { value: "TOP", label: "в выдаче" },
+        ],
+        [
+          { value: "2.1×", label: "глубже скролл" },
+          { value: "−38%", label: "отказы" },
+        ],
+        [
+          { value: "4.8с", label: "до CTA" },
+          { value: "+72%", label: "время на сайте" },
+        ],
+      ];
 
   let setIndex = 0;
   let swapTimer = 0;

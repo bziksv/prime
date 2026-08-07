@@ -22,8 +22,10 @@ if (form) {
   bindLeadForm({
     form,
     hint: document.getElementById("ads-form-hint"),
-    successMessage: "Спасибо! Заявка на контекст принята — свяжемся с вами.",
-    source: "kontekstnaya-reklama",
+    successMessage:
+      form.dataset.successMessage ||
+      "Спасибо! Заявка на контекст принята — свяжемся с вами.",
+    source: form.dataset.formSource || "kontekstnaya-reklama",
     successColor: "var(--a-ember, #c45a12)",
   });
 }

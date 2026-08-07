@@ -77,6 +77,7 @@ updateTimeline();
 const plans = document.querySelectorAll<HTMLElement>("[data-t-plan]");
 const regionSelect = document.querySelector<HTMLSelectElement>("[data-t-region]");
 const pickEl = document.querySelector<HTMLElement>("[data-t-pick]");
+const ctaPickPrefix = pickEl?.dataset.pickPrefix || "Выбран тариф:";
 
 const selectPlan = (card: HTMLElement) => {
   const id = card.dataset.tPlan || "";
@@ -90,7 +91,7 @@ const selectPlan = (card: HTMLElement) => {
   });
 
   if (pickEl) {
-    pickEl.innerHTML = `Выбран тариф: <strong>${title} · ${price}</strong>`;
+    pickEl.innerHTML = `${ctaPickPrefix} <strong>${title} · ${price}</strong>`;
   }
   if (regionSelect && (id === "region" || id === "capital")) {
     regionSelect.value = id;
@@ -131,8 +132,9 @@ if (form) {
     form,
     hint: document.getElementById("traffic-form-hint"),
     successMessage:
+      form.dataset.successMessage ||
       "Спасибо! Заявка на продвижение по трафику принята — свяжемся с вами.",
-    source: "prodvizhenie-sayta-po-trafiku",
+    source: form.dataset.formSource || "prodvizhenie-sayta-po-trafiku",
     successColor: "var(--t-mint, #2dd4bf)",
     onSuccess: () => {
       if (initialPlan) selectPlan(initialPlan);
@@ -144,25 +146,7 @@ if (form) {
 const hero = document.querySelector<HTMLElement>("[data-t-hero]");
 const mesh = document.querySelector<HTMLElement>("[data-t-mesh]");
 const bg = document.querySelector<HTMLElement>("[data-t-bg]");
-const meter = document.querySelector<HTMLElement>("[data-t-meter]");
-
-if (hero) {
-  hero.addEventListener(
-    "pointermove",
-    (e) => {
-      const rect = hero.getBoundingClientRect();
-      const nx = (e.clientX - rect.left) / rect.width - 0.5;
-      const ny = (e.clientY - rect.top) / rect.height - 0.5;
-      if (mesh) mesh.style.transform = `translate3d(${nx * 28}px, ${ny * 22}px, 0)`;
-      if (meter) meter.style.transform = `translate3d(${nx * -10}px, ${ny * -8}px, 0)`;
-    },
-    { passive: true },
-  );
-  hero.addEventListener("pointerleave", () => {
-    if (mesh) mesh.style.transform = "";
-    if (meter) meter.style.transform = "";
-  });
-}
+const meterEl = document.querySelector<HTMLElement>("[data-t-meter]");
 
 let scrollTick = false;
 const onScrollBg = () => {
@@ -180,10 +164,31 @@ const onScrollBg = () => {
 window.addEventListener("scroll", onScrollBg, { passive: true });
 onScrollBg();
 
+if (hero) {
+  hero.addEventListener(
+    "pointermove",
+    (e) => {
+      const rect = hero.getBoundingClientRect();
+      const nx = (e.clientX - rect.left) / rect.width - 0.5;
+      const ny = (e.clientY - rect.top) / rect.height - 0.5;
+      if (mesh) mesh.style.transform = `translate3d(${nx * 28}px, ${ny * 22}px, 0)`;
+      if (meterEl) meterEl.style.transform = `translate3d(${nx * -10}px, ${ny * -8}px, 0)`;
+    },
+    { passive: true },
+  );
+  hero.addEventListener("pointerleave", () => {
+    if (mesh) mesh.style.transform = "";
+    if (meterEl) meterEl.style.transform = "";
+  });
+}
+
 /* —— Cinematic traffic meter demo —— */
 const BASE = 1240;
 const TARGET = 3180;
-const RATE = 5; // ₽ за переход (столицы)
+const RATE = Number(meterEl?.dataset.tRate || 5);
+const CURRENCY = meterEl?.dataset.tCurrency || "₽";
+const NOTE_PAY_TMPL =
+  meterEl?.dataset.tNotePay || "К оплате только Δ {delta} визитов · база {base} = 0 ₽";
 
 const visitsEl = document.querySelector<HTMLElement>("[data-t-visits]");
 const deltaEl = document.querySelector<HTMLElement>("[data-t-delta]");
@@ -192,6 +197,7 @@ const noteEl = document.querySelector<HTMLElement>("[data-t-note]");
 const keys = document.querySelectorAll<HTMLElement>("[data-t-key]");
 const line = document.querySelector<SVGPolylineElement>("[data-t-line]");
 const area = document.querySelector<SVGPathElement>("[data-t-area]");
+const meter = meterEl;
 
 const sparkPoints = (progress: number) => {
   const pts: { x: number; y: number }[] = [];
@@ -227,7 +233,13 @@ const setMetrics = (visits: number) => {
   const pay = delta * RATE;
   if (visitsEl) visitsEl.textContent = fmt(visits);
   if (deltaEl) deltaEl.textContent = fmt(delta);
-  if (payEl) payEl.textContent = `${fmt(pay)} ₽`;
+  if (payEl) {
+    const payStr =
+      CURRENCY === "$"
+        ? `$${pay.toLocaleString("en-US", { minimumFractionDigits: 0, maximumFractionDigits: 0 })}`
+        : `${fmt(pay)} ${CURRENCY}`;
+    payEl.textContent = payStr;
+  }
 };
 
 const runMeterDemo = async () => {
@@ -262,7 +274,10 @@ const runMeterDemo = async () => {
 
   meter.classList.add("is-paying");
   if (noteEl) {
-    noteEl.textContent = `К оплате только Δ ${fmt(TARGET - BASE)} визитов · база ${fmt(BASE)} = 0 ₽`;
+    noteEl.textContent = NOTE_PAY_TMPL.replace("{delta}", fmt(TARGET - BASE)).replace(
+      "{base}",
+      fmt(BASE),
+    );
   }
 
   // soft live jitter after demo

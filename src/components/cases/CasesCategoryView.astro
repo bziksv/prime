@@ -1,0 +1,264 @@
+---
+import CaseFilters from "../CaseFilters.astro";
+import CaseGrid from "../CaseGrid.astro";
+import CasesLayout from "../../layouts/CasesLayout.astro";
+import type { CaseCategory, CaseStudy } from "../../data/cases";
+import {
+  casesIndexPath,
+  categoryPath,
+  getCaseUi,
+  getCasesCategoryUi,
+} from "../../i18n/cases";
+import { homePath } from "../../i18n/home-content";
+import { contactsPath } from "../../i18n/contacts-content";
+import type { Locale } from "../../i18n/locales";
+
+interface Props {
+  locale: Locale;
+  cat: CaseCategory;
+  cases: CaseStudy[];
+}
+
+const { locale, cat, cases } = Astro.props;
+const ui = getCasesCategoryUi(locale);
+const caseUi = getCaseUi(locale);
+const path = categoryPath(cat.id, locale);
+const indexHref = casesIndexPath(locale);
+const contactsHref = contactsPath(locale);
+const homeHref = homePath(locale);
+const alternatePath =
+  locale === "en" ? `/keysy/${cat.id}/` : `/en/keysy/${cat.id}/`;
+const theme = ui.themes[cat.id];
+---
+
+<CasesLayout
+  title={ui.pageTitle(cat.title)}
+  description={ui.pageDescription(cat.lead, cat.title)}
+  path={path}
+  locale={locale}
+  alternatePath={alternatePath}
+  breadcrumb={[
+    { label: caseUi.breadcrumbHome, href: homeHref },
+    { label: caseUi.breadcrumbCases, href: indexHref },
+    { label: cat.title },
+  ]}
+>
+  <section
+    class:list={["k-hero", "k-hero--cat", `k-hero--${cat.id}`]}
+    data-k-hero
+    style={`--k-accent:${cat.accent}`}
+  >
+    <div class="k-hero__grid" data-k-grid aria-hidden="true"></div>
+    <div class="k-hero__glow" data-k-glow aria-hidden="true"></div>
+    <div class="k-hero__copy">
+      <div class="k-hero__inner">
+        <p class="k-kicker">{ui.kicker}</p>
+        <h1>{cat.title}</h1>
+        <p class="k-hero__lead">{cat.lead}</p>
+      </div>
+      <div class="k-hero__stats">
+        <div class="k-hero__stat">
+          <strong>{cases.length}</strong>
+          <span>{ui.casesInSection}</span>
+        </div>
+      </div>
+    </div>
+
+    {
+      cat.id === "seo" && theme && "rows" in theme && (
+        <div class="k-hero__theme" aria-hidden="true">
+          <div class="k-serp">
+            <div class="k-serp__bar">
+              <span class="k-serp__lens" />
+              <span class="k-serp__query">{theme.query}</span>
+              <span class="k-serp__go">{theme.go}</span>
+            </div>
+            <ol class="k-serp__list">
+              {theme.rows.map((row, i) => (
+                <li class:list={[i === 0 && "is-top"]}>
+                  <em>{String(i + 1).padStart(2, "0")}</em>
+                  <div>
+                    <strong>{row.title}</strong>
+                    <span>{row.sub}</span>
+                  </div>
+                  <b>{row.rank}</b>
+                </li>
+              ))}
+            </ol>
+            <div class="k-serp__meter">
+              <span>{theme.visibility}</span>
+              <i style="--p:78%" />
+              <strong>+78%</strong>
+            </div>
+          </div>
+          <ul class="k-hero__chips">
+            {theme.chips.map((chip) => (
+              <li>{chip}</li>
+            ))}
+          </ul>
+        </div>
+      )
+    }
+
+    {
+      cat.id === "ads" && theme && "badge" in theme && (
+        <div class="k-hero__theme" aria-hidden="true">
+          <div class="k-ads">
+            <div class="k-ads__head">
+              <span class="k-ads__badge">{theme.badge}</span>
+              <span class="k-ads__live">
+                <i />
+                {theme.live}
+              </span>
+            </div>
+            <div class="k-ads__card is-hot">
+              <span class="k-ads__label">{theme.hotLabel}</span>
+              <strong>{theme.hotTitle}</strong>
+              <p>{theme.hotText}</p>
+              <em>{theme.hotUrl}</em>
+            </div>
+            <div class="k-ads__card">
+              <span class="k-ads__label">{theme.netLabel}</span>
+              <strong>{theme.netTitle}</strong>
+              <p>{theme.netText}</p>
+              <em>{theme.netUrl}</em>
+            </div>
+            <div class="k-ads__metrics">
+              {theme.metrics.map((m) => (
+                <div>
+                  <strong>{m.value}</strong>
+                  <span>{m.label}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          <ul class="k-hero__chips">
+            {theme.chips.map((chip) => (
+              <li>{chip}</li>
+            ))}
+          </ul>
+        </div>
+      )
+    }
+
+    {
+      cat.id === "web" && theme && "url" in theme && (
+        <div class="k-hero__theme" aria-hidden="true">
+          <div class="k-web">
+            <div class="k-web__browser">
+              <div class="k-web__chrome">
+                <span /><span /><span />
+                <div class="k-web__url">{theme.url}</div>
+              </div>
+              <div class="k-web__viewport">
+                <div class="k-web__nav">
+                  <b>{theme.brand}</b>
+                  <i />
+                </div>
+                <div class="k-web__hero-line">
+                  <em />
+                  <em />
+                </div>
+                <div class="k-web__cta" />
+                <div class="k-web__cards">
+                  <span /><span /><span />
+                </div>
+              </div>
+            </div>
+            <div class="k-web__stack">
+              <div class="k-web__device" title={theme.chips[2]}>
+                <div class="k-web__device-screen">
+                  <i />
+                  <em />
+                  <em />
+                </div>
+              </div>
+              <div class="k-web__metrics">
+                <div>
+                  <strong>1.5–3</strong>
+                  <span>{theme.launch}</span>
+                </div>
+                <div>
+                  <strong>−60%</strong>
+                  <span>{theme.hours}</span>
+                </div>
+                <div>
+                  <strong>4</strong>
+                  <span>{theme.formats}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="k-hero__chips">
+            {theme.chips.map((chip) => (
+              <li>{chip}</li>
+            ))}
+          </ul>
+        </div>
+      )
+    }
+
+    {
+      cat.id === "bots" && theme && "botName" in theme && (
+        <div class="k-hero__theme" aria-hidden="true">
+          <div class="k-bots">
+            <div class="k-bots__phone">
+              <div class="k-bots__notch" />
+              <div class="k-bots__chat">
+                <div class="k-bots__head">
+                  <span class="k-bots__avatar" />
+                  <div>
+                    <strong>{theme.botName}</strong>
+                    <em>{theme.online}</em>
+                  </div>
+                </div>
+                <div class="k-bots__bubble k-bots__bubble--in">{theme.welcome}</div>
+                <div class="k-bots__menu">
+                  {theme.menu.map((item) => (
+                    <span>{item}</span>
+                  ))}
+                </div>
+                <div class="k-bots__bubble k-bots__bubble--out">{theme.out}</div>
+                <div class="k-bots__bubble k-bots__bubble--in is-ok">{theme.ok}</div>
+              </div>
+            </div>
+            <div class="k-bots__metrics">
+              {theme.metrics.map((m) => (
+                <div>
+                  <strong>{m.value}</strong>
+                  <span>{m.label}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          <ul class="k-hero__chips">
+            {theme.chips.map((chip) => (
+              <li>{chip}</li>
+            ))}
+          </ul>
+        </div>
+      )
+    }
+
+    <div class="k-hero__stripe" aria-hidden="true"></div>
+  </section>
+
+  <CaseFilters active={cat.id} locale={locale} />
+
+  <section class="k-panel k-reveal">
+    <div class="k-panel__head">
+      <h2>{ui.panelTitle(cat.short)}</h2>
+      <p>{ui.panelLead}</p>
+    </div>
+    <CaseGrid cases={cases} featuredFirst initialVisible={9} step={9} locale={locale} />
+  </section>
+
+  <section class="k-cta k-reveal">
+    <h2>{ui.ctaTitle(cat.short)}</h2>
+    <p>{ui.ctaText}</p>
+    <div class="k-cta__actions">
+      <a class="k-btn k-btn--primary" href={contactsHref}>{ui.ctaSubmit}</a>
+      <a class="k-btn k-btn--ghost" href={indexHref}>{ui.allCases}</a>
+    </div>
+  </section>
+</CasesLayout>

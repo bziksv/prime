@@ -56,8 +56,10 @@ if (form) {
   bindLeadForm({
     form,
     hint: document.getElementById("partner-form-hint"),
-    successMessage: "Спасибо! Заявка на партнёрство принята.",
-    source: "partnerstvo",
+    successMessage:
+      form.dataset.successMessage ||
+      "Спасибо! Заявка на партнёрство принята.",
+    source: form.dataset.formSource || "partnerstvo",
     successColor: "var(--brand-e)",
   });
 }

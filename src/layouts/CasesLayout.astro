@@ -5,6 +5,10 @@ import CookieFooterNotice from "../components/CookieFooterNotice.astro";
 import SiteSeo from "../components/SiteSeo.astro";
 import { v6Icons } from "../data/v6-media";
 import { breadcrumbJsonLd } from "../lib/breadcrumb-jsonld";
+import { getCaseUi } from "../i18n/cases";
+import { contactsPath } from "../i18n/contacts-content";
+import { localeMeta, type Locale } from "../i18n/locales";
+import "../styles/home.css";
 
 interface Props {
   title: string;
@@ -14,6 +18,9 @@ interface Props {
   breadcrumb: { label: string; href?: string }[];
   ctaHref?: string;
   ctaLabel?: string;
+  locale?: Locale;
+  /** RU↔EN alternate when a translation exists */
+  alternatePath?: string;
 }
 
 const {
@@ -22,24 +29,48 @@ const {
   path,
   image,
   breadcrumb,
-  ctaHref = "/kontakty/",
-  ctaLabel = "Оставить заявку",
+  locale = "ru",
+  alternatePath,
+  ctaHref = contactsPath(locale),
+  ctaLabel,
 } = Astro.props;
+
+const ui = getCaseUi(locale);
+const htmlLang = localeMeta[locale].hreflang;
+const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+const resolvedCtaLabel = ctaLabel ?? ui.ctaTop;
 
 const crumbsLd = breadcrumbJsonLd(breadcrumb, {
   origin: Astro.site?.origin ?? "https://prime-ltd.su",
   currentPath: path,
 });
+
+const alternates =
+  alternatePath != null
+    ? [
+        { hreflang: "ru", path: locale === "ru" ? path : alternatePath },
+        { hreflang: "en", path: locale === "en" ? path : alternatePath },
+        { hreflang: "x-default", path: locale === "ru" ? path : alternatePath },
+      ]
+    : [];
 ---
 
 <!doctype html>
-<html lang="ru" data-concept="v6" data-page="keysy">
+<html lang={htmlLang} data-concept="v6" data-page="keysy" data-locale={locale}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <title>{title}</title>
-    <SiteSeo title={title} description={description} path={path} image={image} />
+    <SiteSeo
+      title={title}
+      description={description}
+      path={path}
+      image={image}
+      locale={ogLocale}
+      siteName={ui.footerBrand}
+      alternates={alternates}
+    />
     <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
     <link rel="icon" href={v6Icons.logoMark} type="image/png" />
@@ -53,11 +84,18 @@ const crumbsLd = breadcrumbJsonLd(breadcrumb, {
   </head>
   <body>
     <div class="v6-app">
-      <PortalShell active="cases" />
+      <PortalShell active="cases" locale={locale} />
 
       <main id="main" class="v6-main">
         <header class="v6-topbar">
-          <button id="v6-burger" type="button" class="v6-burger" aria-label="Меню" aria-controls="v6-sidebar" aria-expanded="false">☰</button>
+          <button
+            id="v6-burger"
+            type="button"
+            class="v6-burger"
+            aria-label={ui.menuLabel}
+            aria-controls="v6-sidebar"
+            aria-expanded="false">☰</button
+          >
           <p class="v6-breadcrumb">
             {
               breadcrumb.map((b, i) => (
@@ -68,7 +106,33 @@ const crumbsLd = breadcrumbJsonLd(breadcrumb, {
               ))
             }
           </p>
-          <a href={ctaHref} class="v6-btn">{ctaLabel}</a>
+          <div class="home-topbar-actions">
+            {
+              alternatePath && (
+                <div class="home-lang" aria-label={ui.langSwitchAria} data-lang-switch hidden>
+                  <a
+                    class:list={["home-lang__btn", locale === "ru" && "is-active"]}
+                    href={locale === "ru" ? path : alternatePath}
+                    hreflang="ru"
+                    lang="ru"
+                    data-locale-set="ru"
+                  >
+                    RU
+                  </a>
+                  <a
+                    class:list={["home-lang__btn", locale === "en" && "is-active"]}
+                    href={locale === "en" ? path : alternatePath}
+                    hreflang="en"
+                    lang="en"
+                    data-locale-set="en"
+                  >
+                    EN
+                  </a>
+                </div>
+              )
+            }
+            <a href={ctaHref} class="v6-btn">{resolvedCtaLabel}</a>
+          </div>
         </header>
 
         <div class="v6-content">
@@ -77,26 +141,31 @@ const crumbsLd = breadcrumbJsonLd(breadcrumb, {
 
         <footer class="v6-footer">
           <div class="v6-footer__brand">
-            <strong>ПРАЙМ</strong>
-            <p>Кейсы · SEO · контекст · разработка</p>
+            <strong>{ui.footerBrand}</strong>
+            <p>{ui.footerTagline}</p>
           </div>
-          <p>© 2015–{new Date().getFullYear()} ПРАЙМ</p>
-          <CookieFooterNotice />
+          <p>© 2015–{new Date().getFullYear()} {ui.footerCopy}</p>
+          <CookieFooterNotice locale={locale} />
         </footer>
       </main>
     </div>
 
-    <dialog class="k-lightbox" id="k-lightbox" aria-label="Просмотр экранов">
+    <dialog class="k-lightbox" id="k-lightbox" aria-label={ui.lightboxAria}>
       <div class="k-lightbox__shell">
         <header class="k-lightbox__top">
           <p class="k-lightbox__count" data-lightbox-count></p>
-          <button type="button" class="k-lightbox__close" data-lightbox-close aria-label="Закрыть">
-            Закрыть
+          <button type="button" class="k-lightbox__close" data-lightbox-close aria-label={ui.lightboxClose}>
+            {ui.lightboxClose}
           </button>
         </header>
 
         <div class="k-lightbox__stage">
-          <button type="button" class="k-lightbox__nav k-lightbox__nav--prev" data-lightbox-prev aria-label="Предыдущее">
+          <button
+            type="button"
+            class="k-lightbox__nav k-lightbox__nav--prev"
+            data-lightbox-prev
+            aria-label={ui.lightboxPrev}
+          >
             <span aria-hidden="true">‹</span>
           </button>
           <div class="k-lightbox__frame">
@@ -107,7 +176,12 @@ const crumbsLd = breadcrumbJsonLd(breadcrumb, {
               <img class="k-lightbox__img" alt="" />
             </div>
           </div>
-          <button type="button" class="k-lightbox__nav k-lightbox__nav--next" data-lightbox-next aria-label="Следующее">
+          <button
+            type="button"
+            class="k-lightbox__nav k-lightbox__nav--next"
+            data-lightbox-next
+            aria-label={ui.lightboxNext}
+          >
             <span aria-hidden="true">›</span>
           </button>
         </div>
@@ -119,9 +193,10 @@ const crumbsLd = breadcrumbJsonLd(breadcrumb, {
       </div>
     </dialog>
 
-    <CookieConsent />
+    <CookieConsent locale={locale} />
     <script>
       import "../scripts/cases.ts";
+      import "../scripts/locale-offer.ts";
     </script>
   </body>
 </html>

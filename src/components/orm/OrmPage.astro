@@ -1,0 +1,404 @@
+---
+import PortalShell from "../PortalShell.astro";
+import CookieConsent from "../CookieConsent.astro";
+import CookieFooterNotice from "../CookieFooterNotice.astro";
+import SiteSeo from "../SiteSeo.astro";
+import { v6Icons } from "../../data/v6-media";
+import { getLegalDocs } from "../../data/legal";
+import { contacts } from "../../data/contacts";
+import { breadcrumbJsonLd } from "../../lib/breadcrumb-jsonld";
+import { serviceJsonLd } from "../../lib/service-jsonld";
+import { getOrmContent } from "../../i18n/orm-content";
+import { getHomeContent, homePath } from "../../i18n/home-content";
+import { localeMeta, type Locale } from "../../i18n/locales";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getOrmContent(locale);
+const home = getHomeContent(locale);
+const docs = getLegalDocs(locale);
+const htmlLang = localeMeta[locale].hreflang;
+const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+const showPhone = locale === "ru";
+const year = new Date().getFullYear();
+const homeHref = homePath(locale);
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: t.faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
+
+const origin = Astro.site?.origin ?? "https://prime-ltd.su";
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: t.breadcrumbHome, href: homeHref },
+    { label: t.breadcrumbCurrent },
+  ],
+  {
+    origin,
+    currentPath: t.path,
+  },
+);
+const serviceLd = serviceJsonLd({
+  name: t.serviceName,
+  description: t.metaDescription,
+  path: t.path,
+  serviceType: t.serviceType,
+  origin,
+  providerName: t.footerBrand,
+  areaServed: locale === "en" ? "Worldwide" : "RU",
+});
+---
+
+<!doctype html>
+<html lang={htmlLang} data-concept="v6" data-page="orm" data-locale={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={t.metaDescription} />
+    <title>{t.metaTitle}</title>
+    <SiteSeo
+      title={t.metaTitle}
+      description={t.metaDescription}
+      path={t.path}
+      locale={ogLocale}
+      siteName={t.footerBrand}
+      alternates={[
+        { hreflang: "ru", path: "/upravlenie-reputaciej/" },
+        { hreflang: "en", path: "/en/reputation/" },
+        { hreflang: "x-default", path: "/upravlenie-reputaciej/" },
+      ]}
+    />
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <link rel="preload" as="image" href="/images/v6/photos/orm-hero.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(serviceLd)} />
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell serviceActive="orm" locale={locale} />
+
+      <main id="main" class="v6-main">
+        <header class="v6-topbar">
+          <button
+            id="v6-burger"
+            type="button"
+            class="v6-burger"
+            aria-label={t.menuLabel}
+            aria-controls="v6-sidebar"
+            aria-expanded="false">☰</button
+          >
+          <p class="v6-breadcrumb">
+            <a href={homeHref}>{t.breadcrumbHome}</a> · <strong>{t.breadcrumbCurrent}</strong>
+          </p>
+          <div class="home-topbar-actions">
+            <div class="home-lang" aria-label={home.langSwitchAria} data-lang-switch hidden>
+              <a
+                class:list={["home-lang__btn", locale === "ru" && "is-active"]}
+                href="/upravlenie-reputaciej/"
+                hreflang="ru"
+                lang="ru"
+                data-locale-set="ru">RU</a
+              >
+              <a
+                class:list={["home-lang__btn", locale === "en" && "is-active"]}
+                href="/en/reputation/"
+                hreflang="en"
+                lang="en"
+                data-locale-set="en">EN</a
+              >
+            </div>
+            <a href="#orm-cta" class="v6-btn">{t.ctaTop}</a>
+          </div>
+        </header>
+
+        <div class="v6-content">
+          <section class="o-hero">
+            <div class="o-hero__bg" aria-hidden="true" data-parallax-orm-bg></div>
+            <div class="o-hero__veil" aria-hidden="true"></div>
+
+            <div class="o-hero__copy">
+              <p class="o-brand">{t.brandBefore}<em>{t.brandAccent}</em></p>
+              <h1>
+                {t.heroTitleBefore}<span>{t.heroTitleAccent}</span>{t.heroTitleAfter}
+              </h1>
+              <p class="o-hero__lead">{t.heroLead}</p>
+              <div class="o-hero__actions">
+                <a href="#orm-cta" class="o-btn o-btn--primary">{t.heroCtaPrimary}</a>
+                <a href="#pillars" class="o-btn o-btn--ghost">{t.heroCtaSecondary}</a>
+              </div>
+            </div>
+
+            <div class="o-hero__score" aria-hidden="true">
+              <div class="o-score">
+                <p class="o-score__label">{t.scoreLabel}</p>
+                <p class="o-score__value" data-orm-score>{t.scoreValue}</p>
+                <div class="o-score__stars">
+                  <span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <p class="o-score__hint">{t.scoreHint}</p>
+              </div>
+              <div class="o-reviews">
+                {
+                  t.reviews.map((r) => (
+                    <div class="o-review">
+                      <strong>{r.title}</strong>
+                      {r.text}
+                    </div>
+                  ))
+                }
+              </div>
+            </div>
+          </section>
+
+          <section class="o-section o-reveal">
+            <div class="o-section__head">
+              <h2>{t.storyTitle}</h2>
+              <p>{t.storyLead}</p>
+            </div>
+            <div class="o-story">
+              <div class="o-story__main">
+                <p>{t.problemLead}</p>
+                <p>{t.problemDistort}</p>
+                <p>{t.problemCycle}</p>
+              </div>
+              <div class="o-story__side">
+                <article>
+                  <h3>{t.trustTitle}</h3>
+                  <p>{t.trustText}</p>
+                </article>
+                <article>
+                  <h3>{t.mechanismTitle}</h3>
+                  <p>{t.mechanismText}</p>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="o-section o-reveal" id="pillars">
+            <div class="o-section__head">
+              <h2>{t.pillarsTitle}</h2>
+              <p>{t.pillarsLead}</p>
+            </div>
+            <div class="o-pillars">
+              {
+                t.pillars.map((p) => (
+                  <article class="o-pillar">
+                    <span class="o-pillar__n">{p.n}</span>
+                    <h3>{p.title}</h3>
+                    <p>{p.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="o-section o-reveal">
+            <div class="o-section__head">
+              <h2>{t.platformsTitle}</h2>
+              <p>{t.platformsLead}</p>
+            </div>
+            <div class="o-platforms">
+              {
+                t.platforms.map((p) => (
+                  <article class="o-platform">
+                    <h3>{p.title}</h3>
+                    <p>{p.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="o-section o-reveal">
+            <div class="o-section__head">
+              <h2>{t.stepsTitle}</h2>
+              <p>{t.stepsLead}</p>
+            </div>
+            <div class="o-steps">
+              {
+                t.steps.map((s) => (
+                  <article class="o-step">
+                    <span class="o-step__n">
+                      {t.stepPrefix} {s.n}
+                    </span>
+                    <h3>{s.title}</h3>
+                    <p>{s.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="o-section o-reveal">
+            <div class="o-section__head">
+              <h2>{t.outcomesTitle}</h2>
+              <p>{t.outcomesLead}</p>
+            </div>
+            <div class="o-outcomes">
+              {
+                t.outcomes.map((item) => (
+                  <article class="o-outcome">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="o-section o-reveal">
+            <div class="o-section__head">
+              <h2>{t.nosTitle}</h2>
+              <p>{t.nosLead}</p>
+            </div>
+            <div class="o-nos">
+              {
+                t.nos.map((item) => (
+                  <article class="o-no">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="o-price o-reveal">
+            <div>
+              <h2>{t.pricingTitle}</h2>
+              <p>{t.pricingText}</p>
+            </div>
+            <p class="o-price__mark">{t.pricingMark}</p>
+          </section>
+
+          <section class="o-section o-reveal" id="faq">
+            <div class="o-section__head">
+              <h2>{t.faqTitle}</h2>
+              <p>{t.faqLead}</p>
+            </div>
+            <div class="o-faq">
+              {
+                t.faq.map((item) => (
+                  <details class="o-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
+          </section>
+
+          <section id="orm-cta" class="o-cta o-reveal">
+            <div class="o-cta__copy">
+              <div>
+                <h2>{t.ctaTitle}</h2>
+                <p>{t.ctaLead}</p>
+                <ul class="o-cta__points">
+                  {t.ctaPoints.map((p) => <li>{p}</li>)}
+                </ul>
+              </div>
+              <div class="o-cta__contacts">
+                <a href={contacts.emailHref}>{contacts.email}</a>
+                {showPhone ? <a href={contacts.phoneHref}>{contacts.phone}</a> : null}
+              </div>
+            </div>
+            <form
+              id="orm-form"
+              class="o-form"
+              data-success-message={t.formSuccess}
+              data-form-source={t.formSource}
+            >
+              <label class="visually-hidden" for={`orm-name-${locale}`}>{t.formName}</label>
+              <input
+                id={`orm-name-${locale}`}
+                type="text"
+                name="name"
+                placeholder={t.formName}
+                autocomplete="name"
+                required
+              />
+              <label class="visually-hidden" for={`orm-phone-${locale}`}>{t.formPhone}</label>
+              <input
+                id={`orm-phone-${locale}`}
+                type="tel"
+                name="phone"
+                placeholder={t.formPhone}
+                autocomplete="tel"
+                required
+              />
+              <label class="visually-hidden" for={`orm-brand-${locale}`}>{t.formBrand}</label>
+              <input
+                id={`orm-brand-${locale}`}
+                type="text"
+                name="brand"
+                placeholder={t.formBrand}
+                autocomplete="organization"
+              />
+              <label class="visually-hidden" for={`orm-focus-${locale}`}>{t.formFocus}</label>
+              <select id={`orm-focus-${locale}`} name="focus">
+                <option value="">{t.formFocus}</option>
+                {t.formFocusOptions.map((opt) => <option>{opt}</option>)}
+              </select>
+              <label class="visually-hidden" for={`orm-message-${locale}`}>{t.formMessage}</label>
+              <textarea
+                id={`orm-message-${locale}`}
+                name="message"
+                rows="3"
+                placeholder={t.formMessage}
+              ></textarea>
+              <label class="o-form__check">
+                <input type="checkbox" name="agree" required />
+                <span>
+                  {t.formAgreeBefore}{" "}
+                  <a
+                    class="cookie-link"
+                    href={docs.privacy}
+                    target="_blank"
+                    rel="nofollow noopener noreferrer">{t.formAgreePolicy}</a
+                  >.
+                </span>
+              </label>
+              <button type="submit" class="o-btn o-btn--primary">{t.formSubmit}</button>
+              <p id="orm-form-hint" class="o-form-hint" hidden></p>
+            </form>
+          </section>
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>{t.footerBrand}</strong>
+            <p>{t.footerTagline}</p>
+          </div>
+          <p>© 2015–{year} {t.footerBrand}</p>
+          <CookieFooterNotice locale={locale} />
+        </footer>
+      </main>
+    </div>
+
+    <CookieConsent locale={locale} />
+    <script>
+      import "../../scripts/reputaciya.ts";
+      import "../../scripts/locale-offer.ts";
+    </script>
+  </body>
+</html>

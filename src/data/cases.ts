@@ -1,5 +1,10 @@
 /** Кейсы ПРАЙМ: категории + детальные карточки */
 
+import type { Locale } from "../i18n/locales";
+import { defaultLocale } from "../i18n/locales";
+import { isEnCaseSlug } from "../i18n/cases/slugs";
+import { localizeCase } from "../i18n/cases/localize";
+
 export type CaseCategoryId = "seo" | "ads" | "web" | "bots";
 
 export type CaseCategory = {
@@ -6948,15 +6953,23 @@ export function getRelatedCases(current: CaseStudy, limit = 3) {
   return [...same, ...rest].slice(0, limit);
 }
 
-export function casePath(c: CaseStudy) {
+export function casePath(c: CaseStudy, locale: Locale = defaultLocale) {
+  if (locale !== "ru" && isEnCaseSlug(c.slug)) {
+    return `/en/keysy/${c.category}/${c.slug}/`;
+  }
   return `/keysy/${c.category}/${c.slug}/`;
 }
 
-export function categoryPath(id: CaseCategoryId) {
+export function categoryPath(id: CaseCategoryId, locale: Locale = defaultLocale) {
+  if (locale !== "ru") return `/en/keysy/${id}/`;
   return `/keysy/${id}/`;
 }
 
-/** Совместимость с превью на главной */
-export function casesForHome() {
-  return caseStudies.filter((c) => c.featured).slice(0, 6);
+/** Featured cases for the homepage. EN: only translated featured, localized. */
+export function casesForHome(locale: Locale = defaultLocale) {
+  const featured = caseStudies.filter((c) => c.featured);
+  if (locale === "ru") return featured.slice(0, 6);
+  return featured
+    .filter((c) => isEnCaseSlug(c.slug))
+    .map((c) => localizeCase(c, locale));
 }

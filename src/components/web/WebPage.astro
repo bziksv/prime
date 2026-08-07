@@ -1,0 +1,815 @@
+---
+import PortalShell from "../PortalShell.astro";
+import CookieConsent from "../CookieConsent.astro";
+import CookieFooterNotice from "../CookieFooterNotice.astro";
+import SiteSeo from "../SiteSeo.astro";
+import { v6Icons } from "../../data/v6-media";
+import { getLegalDocs } from "../../data/legal";
+import { getCasesByCategory } from "../../data/cases";
+import { contacts } from "../../data/contacts";
+import { breadcrumbJsonLd } from "../../lib/breadcrumb-jsonld";
+import { serviceJsonLd } from "../../lib/service-jsonld";
+import { getWebContent } from "../../i18n/web-content";
+import { getHomeContent, homePath } from "../../i18n/home-content";
+import { localeMeta, type Locale } from "../../i18n/locales";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getWebContent(locale);
+const home = getHomeContent(locale);
+const docs = getLegalDocs(locale);
+const htmlLang = localeMeta[locale].hreflang;
+const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+const showPhone = locale === "ru";
+const year = new Date().getFullYear();
+const homeHref = homePath(locale);
+
+const webCases = t.showCases ? getCasesByCategory("web").slice(0, 4) : [];
+const platformsLoop = [...t.platforms, ...t.platforms];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: t.faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
+
+const origin = Astro.site?.origin ?? "https://prime-ltd.su";
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: t.breadcrumbHome, href: homeHref },
+    { label: t.breadcrumbCurrent },
+  ],
+  {
+    origin,
+    currentPath: t.path,
+  },
+);
+const serviceLd = serviceJsonLd({
+  name: t.serviceName,
+  description: t.metaDescription,
+  path: t.path,
+  serviceType: t.serviceType,
+  origin,
+  providerName: t.footerBrand,
+  areaServed: locale === "en" ? "Worldwide" : "RU",
+});
+---
+
+<!doctype html>
+<html lang={htmlLang} data-concept="v6" data-page="web" data-locale={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={t.metaDescription} />
+    <title>{t.metaTitle}</title>
+    <SiteSeo
+      title={t.metaTitle}
+      description={t.metaDescription}
+      path={t.path}
+      locale={ogLocale}
+      siteName={t.footerBrand}
+      alternates={[
+        { hreflang: "ru", path: "/razrabotka-saytov/" },
+        { hreflang: "en", path: "/en/web/" },
+        { hreflang: "x-default", path: "/razrabotka-saytov/" },
+      ]}
+    />
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Orbitron:wght@700;800;900&family=Sora:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(serviceLd)} />
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell serviceActive="web" locale={locale} />
+
+      <main id="main" class="v6-main">
+        <header class="v6-topbar">
+          <button
+            id="v6-burger"
+            type="button"
+            class="v6-burger"
+            aria-label={t.menuLabel}
+            aria-controls="v6-sidebar"
+            aria-expanded="false">☰</button
+          >
+          <p class="v6-breadcrumb">
+            <a href={homeHref}>{t.breadcrumbHome}</a> · <strong>{t.breadcrumbCurrent}</strong>
+          </p>
+          <div class="home-topbar-actions">
+            <div class="home-lang" aria-label={home.langSwitchAria} data-lang-switch hidden>
+              <a
+                class:list={["home-lang__btn", locale === "ru" && "is-active"]}
+                href="/razrabotka-saytov/"
+                hreflang="ru"
+                lang="ru"
+                data-locale-set="ru">RU</a
+              >
+              <a
+                class:list={["home-lang__btn", locale === "en" && "is-active"]}
+                href="/en/web/"
+                hreflang="en"
+                lang="en"
+                data-locale-set="en">EN</a
+              >
+            </div>
+            <a href="#web-cta" class="v6-btn" data-ink-btn>{t.ctaTop}</a>
+          </div>
+        </header>
+
+        <div class="v6-content v6-content--web">
+          <section class="w-hero" data-web-hero>
+            <p class="w-hero__word" aria-hidden="true">{t.heroWordmark}</p>
+
+            <div class="w-robot-shell" data-robot-shell>
+              <div class="w-robot-shell__loader" aria-hidden="true">
+                <span></span>
+              </div>
+              <canvas class="w-robot-canvas" data-spline-robot></canvas>
+              <div class="w-robot-shell__fade" aria-hidden="true"></div>
+              <div class="w-robot-shell__fallback" aria-hidden="true">
+                <p>{t.heroWordmark}</p>
+              </div>
+            </div>
+
+            <div class="w-hero__inner">
+              <div class="w-hero__top">
+                <h1>
+                  {t.heroTitleLine}<br />
+                  <span class="w-hero__rotate" aria-live="polite">
+                    <span
+                      class="w-hero__rotate-word is-in"
+                      data-rotate-word
+                      data-rotate-words={t.heroRotateWords}>{t.heroRotateInitial}</span
+                    >
+                  </span>
+                </h1>
+                <p class="w-hero__lead">{t.heroLead}</p>
+              </div>
+
+              <div class="w-hero__stage">
+                <aside class="w-flank w-flank--strict">
+                  <p class="w-flank__label">{t.heroFlankStrictLabel}</p>
+                  <div class="w-flank__plaque">
+                    <p class="w-flank__title" set:html={t.heroFlankStrictTitle} />
+                    <p>{t.heroFlankStrictText}</p>
+                  </div>
+                </aside>
+
+                <div class="w-hero__stage-gap" aria-hidden="true"></div>
+
+                <aside class="w-flank w-flank--concept" data-hero-concept>
+                  <p class="w-flank__label">{t.heroFlankConceptLabel}</p>
+                  <div class="w-flank__glow" aria-hidden="true"></div>
+                  <div class="w-flank__card">
+                    <p class="w-flank__title" set:html={t.heroFlankConceptTitle} />
+                    <p>{t.heroFlankConceptText}</p>
+                    <ul class="w-flank__tags" aria-hidden="true">
+                      <li>parallax</li>
+                      <li>3D</li>
+                      <li>motion</li>
+                    </ul>
+                  </div>
+                </aside>
+              </div>
+
+              <div class="w-hero__foot">
+                <div class="w-hero__actions">
+                  <a href="#web-cta" class="w-btn w-btn--primary" data-ink-btn>{t.heroCtaPrimary}</a>
+                  <a href="#spectrum" class="w-btn w-btn--ghost">{t.heroCtaSecondary}</a>
+                </div>
+                <a href="#spectrum" class="w-scroll" aria-label={t.heroScrollLabel}>
+                  <span class="w-scroll__ring">{t.heroScrollLabel}</span>
+                  <span class="w-scroll__arrow">↓</span>
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section class="w-proof w-reveal" data-specs aria-labelledby="web-proof-title">
+            <div class="w-proof__head">
+              <p class="w-proof__eyebrow">{t.proof.eyebrow}</p>
+              <h2 id="web-proof-title">{t.proof.title}</h2>
+              <p class="w-proof__lead">{t.proof.lead}</p>
+            </div>
+
+            <div class="w-proof__layout">
+              <article class="w-proof__hero">
+                <p class="w-proof__label">{t.proof.hero.label}</p>
+                <p
+                  class="w-proof__value"
+                  aria-label={`${t.proof.hero.prefix}${t.proof.hero.value}${t.proof.hero.suffix}`}
+                >
+                  <span class="w-proof__prefix">{t.proof.hero.prefix}</span>
+                  <span data-count={t.proof.hero.value}>0</span>
+                  <span class="w-proof__suffix">{t.proof.hero.suffix}</span>
+                </p>
+                <div class="w-proof__copy">
+                  <h3 class="w-proof__title">{t.proof.hero.title}</h3>
+                  <p class="w-proof__text">{t.proof.hero.text}</p>
+                </div>
+                <div class="w-proof__meter" aria-hidden="true">
+                  <div class="w-proof__meter-track">
+                    <span
+                      class="w-proof__meter-fill"
+                      style={`--meter-pct: ${t.proof.hero.meterBase}%`}
+                    ></span>
+                  </div>
+                  <div class="w-proof__meter-labels">
+                    <span>{t.proof.hero.meterBaseLabel} · {t.proof.hero.meterBase}%</span>
+                    <span>{t.proof.hero.meterTuneLabel} · {t.proof.hero.meterTune}%</span>
+                  </div>
+                </div>
+                <ol class="w-proof__steps">
+                  {
+                    t.proof.hero.steps.map((s) => (
+                      <li>
+                        <span class="w-proof__steps-n">{s.n}</span>
+                        <strong>{s.title}</strong>
+                        <p>{s.text}</p>
+                      </li>
+                    ))
+                  }
+                </ol>
+              </article>
+
+              <div class="w-proof__rail">
+                {
+                  t.proof.items.map((item, i) => (
+                    <article class={`w-proof__card w-proof__card--${i + 1}`}>
+                      <p class="w-proof__label">{item.label}</p>
+                      <p class="w-proof__value">
+                        {item.value != null ? (
+                          <span data-count={item.value}>0</span>
+                        ) : (
+                          <span class="w-proof__word">{item.display}</span>
+                        )}
+                        {item.unit ? <span class="w-proof__suffix">{item.unit}</span> : null}
+                      </p>
+                      <h3 class="w-proof__title">{item.title}</h3>
+                      <p class="w-proof__text">{item.text}</p>
+                      <ul class="w-proof__chips">
+                        {
+                          item.chips.map((chip) =>
+                            typeof chip === "string" ? (
+                              <li>{chip}</li>
+                            ) : (
+                              <li class="w-proof__chip" tabindex="0">
+                                <span class="w-proof__chip-label">{chip.label}</span>
+                                <span class="w-proof__tip" role="tooltip">
+                                  <strong>{chip.what}</strong>
+                                  <em>{chip.how}</em>
+                                </span>
+                              </li>
+                            ),
+                          )
+                        }
+                      </ul>
+                    </article>
+                  ))
+                }
+              </div>
+            </div>
+          </section>
+
+          <section class="w-section w-reveal" id="spectrum">
+            <div class="w-section__head">
+              <h2>{t.spectrum.title}</h2>
+              <p>{t.spectrum.lead}</p>
+            </div>
+
+            <div class="w-spectrum">
+              <article class="w-demo w-demo--strict">
+                <p class="w-demo__label w-demo__label--muted">{t.spectrum.strict.label}</p>
+                <div class="w-demo__frame" aria-hidden="true">
+                  <div class="w-strict">
+                    <header class="w-strict__bar">
+                      <strong class="w-strict__logo">ACME · B2B</strong>
+                      <nav>
+                        <span>{t.spectrum.strictDemo.navAbout}</span>
+                        <span>{t.spectrum.strictDemo.navServices}</span>
+                        <span>{t.spectrum.strictDemo.navContacts}</span>
+                      </nav>
+                    </header>
+                    <div class="w-strict__hero">
+                      <p class="w-strict__kicker">{t.spectrum.strictDemo.kicker}</p>
+                      <h4 set:html={t.spectrum.strictDemo.headline} />
+                      <p class="w-strict__lead">{t.spectrum.strictDemo.lead}</p>
+                      <span class="w-strict__btn">{t.spectrum.strictDemo.cta}</span>
+                    </div>
+                    <div class="w-strict__row">
+                      {
+                        t.spectrum.strictDemo.steps.map((step, i) => (
+                          <div>
+                            <em>{String(i + 1).padStart(2, "0")}</em>
+                            <span>{step}</span>
+                          </div>
+                        ))
+                      }
+                    </div>
+                  </div>
+                </div>
+                <h3>{t.spectrum.strict.title}</h3>
+                <p>{t.spectrum.strict.text}</p>
+              </article>
+
+              <article class="w-demo w-demo--live">
+                <p class="w-demo__label">{t.spectrum.live.label}</p>
+                <div
+                  class="w-demo__frame w-demo__frame--live"
+                  aria-hidden="true"
+                  data-demo-live
+                >
+                  <div class="w-live">
+                    <div class="w-live__mesh" data-live-mesh>
+                      <div class="w-live__mesh-inner"></div>
+                    </div>
+                    <div class="w-live__orb w-live__orb--a" data-depth="0.04"><i></i></div>
+                    <div class="w-live__orb w-live__orb--b" data-depth="0.08"><i></i></div>
+                    <div class="w-live__orb w-live__orb--c" data-depth="0.12"><i></i></div>
+                    <div
+                      class="w-live__float w-live__float--a"
+                      data-float
+                      data-swap-card
+                      data-slot="a"
+                    >
+                      <div class="w-live__float-inner" data-swap-face>
+                        <span data-swap-value>{t.spectrum.liveDemo.swapInitial[0].value}</span>
+                        <small data-swap-label>{t.spectrum.liveDemo.swapInitial[0].label}</small>
+                      </div>
+                    </div>
+                    <div
+                      class="w-live__float w-live__float--b"
+                      data-float
+                      data-swap-card
+                      data-slot="b"
+                    >
+                      <div class="w-live__float-inner" data-swap-face>
+                        <span data-swap-value>{t.spectrum.liveDemo.swapInitial[1].value}</span>
+                        <small data-swap-label>{t.spectrum.liveDemo.swapInitial[1].label}</small>
+                      </div>
+                    </div>
+                    <div class="w-live__stage" data-live-stage>
+                      <p class="w-live__kicker">{t.spectrum.liveDemo.kicker}</p>
+                      <h4 class="w-live__title">{t.spectrum.liveDemo.title}</h4>
+                      <div class="w-chart" data-chart>
+                        <span style="--h:38%"></span>
+                        <span style="--h:52%"></span>
+                        <span style="--h:44%"></span>
+                        <span style="--h:68%"></span>
+                        <span style="--h:81%"></span>
+                        <span style="--h:96%"></span>
+                      </div>
+                      <div class="w-live__stat">
+                        <strong data-live-count="128">0</strong>
+                        <span>{t.spectrum.liveDemo.statSuffix}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h3>{t.spectrum.live.title}</h3>
+                <p>{t.spectrum.live.text}</p>
+              </article>
+            </div>
+          </section>
+
+          <section class="w-section w-reveal">
+            <div class="w-section__head">
+              <h2>{t.nosTitle}</h2>
+              <p>{t.nosLead}</p>
+            </div>
+            <div class="w-nos">
+              {
+                t.nos.map((item, i) => (
+                  <article>
+                    <span class="w-nos__mark">{t.nosMarkPrefix} 0{i + 1}</span>
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="w-section w-reveal">
+            <div class="w-speed" data-speed-parallax>
+              <div class="w-speed__scene" aria-hidden="true">
+                <div class="w-speed__mesh" data-speed-mesh></div>
+                <span class="w-speed__orb w-speed__orb--1" data-speed-depth="0.08"></span>
+                <span class="w-speed__orb w-speed__orb--2" data-speed-depth="0.14"></span>
+                <span class="w-speed__orb w-speed__orb--3" data-speed-depth="0.05"></span>
+                <span class="w-speed__chip w-speed__chip--1" data-speed-float="1">{t.speed.chips[0]}</span>
+                <span class="w-speed__chip w-speed__chip--2" data-speed-float="-1">{t.speed.chips[1]}</span>
+                <span class="w-speed__chip w-speed__chip--3" data-speed-float="0.7">{t.speed.chips[2]}</span>
+              </div>
+              <div class="w-speed__copy">
+                <p class="w-speed__stat">
+                  <strong>{t.speed.statValue}</strong>
+                  <span>{t.speed.statLabel}</span>
+                </p>
+                <h2>{t.speed.title}</h2>
+                <p>{t.speed.lead}</p>
+                <p>{t.speed.rest}</p>
+              </div>
+              <div class="w-speed__points">
+                {
+                  t.speed.points.map((p) => (
+                    <article data-speed-card>
+                      <h3>{p.title}</h3>
+                      <p>{p.text}</p>
+                    </article>
+                  ))
+                }
+              </div>
+            </div>
+          </section>
+
+          <section class="w-section w-reveal">
+            <div class="w-section__head">
+              <h2>{t.brandTitle}</h2>
+              <p>{t.brandLead}</p>
+            </div>
+            <div class="w-split">
+              <div class="w-split__card w-split__card--accent">
+                <h3>{t.brandWithBookTitle}</h3>
+                <p>{t.brandWithBook}</p>
+              </div>
+              <div class="w-split__card">
+                <h3>{t.brandWithoutTitle}</h3>
+                <p>{t.brandWithout}</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="w-section w-reveal">
+            <div class="w-section__head">
+              <h2>{t.platformsTitle}</h2>
+              <p>{t.platformsLead}</p>
+            </div>
+            <div class="w-marquee" aria-hidden="true">
+              <div class="w-marquee__track">
+                {platformsLoop.map((p) => <span>{p.name}</span>)}
+              </div>
+            </div>
+
+            <div class="w-rail" data-rail>
+              <div class="w-rail__toolbar">
+                <p class="w-rail__hint">{t.railHint}</p>
+                <div class="w-rail__nav">
+                  <button type="button" class="w-rail__btn" data-rail-prev aria-label={t.railPrev}>
+                    ←
+                  </button>
+                  <button type="button" class="w-rail__btn" data-rail-next aria-label={t.railNext}>
+                    →
+                  </button>
+                </div>
+              </div>
+              <div class="w-rail__viewport" data-rail-viewport>
+                <div class="w-rail__track" data-rail-track>
+                  {
+                    t.platforms.map((p, i) => (
+                      <article class="w-rail__card" data-rail-card style={`--i:${i}`}>
+                        <span class="w-rail__idx">{String(i + 1).padStart(2, "0")}</span>
+                        <h3>{p.name}</h3>
+                        <p>{p.text}</p>
+                      </article>
+                    ))
+                  }
+                </div>
+              </div>
+            </div>
+            <div class="w-cms">
+              {
+                t.cms.map((c) => (
+                  <article>
+                    <h3>{c.title}</h3>
+                    <p>{c.text}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </section>
+
+          <section class="w-device w-reveal" id="products" data-device aria-labelledby="web-device-title">
+            <div class="w-device__copy">
+              <p class="w-device__eyebrow">{t.device.eyebrow}</p>
+              <h2 id="web-device-title">{t.device.title}</h2>
+              <p class="w-device__lead">{t.device.lead}</p>
+
+              <div class="w-device__tabs" role="tablist" aria-label={t.device.tabsAria}>
+                {
+                  t.products.map((p, i) => (
+                    <button
+                      type="button"
+                      class:list={["w-device__tab", i === 0 && "is-active"]}
+                      role="tab"
+                      id={`device-tab-${p.id}-${locale}`}
+                      aria-selected={i === 0 ? "true" : "false"}
+                      aria-controls={`device-panel-${p.id}-${locale}`}
+                      data-device-tab={p.id}
+                      data-device-index={i}
+                    >
+                      <span class="w-device__tab-idx">0{i + 1}</span>
+                      <span class="w-device__tab-body">
+                        <strong>{p.title}</strong>
+                        <em>{p.price}</em>
+                      </span>
+                    </button>
+                  ))
+                }
+              </div>
+
+              {
+                t.products.map((p, i) => (
+                  <div
+                    class:list={["w-device__panel", i === 0 && "is-active"]}
+                    role="tabpanel"
+                    id={`device-panel-${p.id}-${locale}`}
+                    aria-labelledby={`device-tab-${p.id}-${locale}`}
+                    data-device-panel={p.id}
+                    hidden={i !== 0}
+                  >
+                    <p>{p.lead}</p>
+                    <p class="w-device__note">{p.note}</p>
+                    <div class="w-device__tags">
+                      {p.tags.map((tag) => <span>{tag}</span>)}
+                    </div>
+                    <a href="#web-cta" class="w-btn w-btn--primary" data-ink-btn>{p.discussCta}</a>
+                  </div>
+                ))
+              }
+            </div>
+
+            <div class="w-device__stage" aria-hidden="true">
+              <div class="w-device__pulse" data-orbit-pulse>
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+
+              <ul class="w-device__orbit">
+                {
+                  t.device.orbit.map((chip, i) => (
+                    <li>
+                      <span class="w-device__orbit-ripple"></span>
+                      <span class="w-device__orbit-icon">{["◇", "▣", "◎", "◈", "⬡", "✦", "▣", "◇"][i] ?? "◆"}</span>
+                      <span class="w-device__orbit-label">{chip}</span>
+                    </li>
+                  ))
+                }
+              </ul>
+
+              {
+                t.device.floats.map((f, i) => (
+                  <div class={`w-device__float w-device__float--${i + 1}`}>
+                    <strong>{f.value}</strong>
+                    <span>{f.label}</span>
+                  </div>
+                ))
+              }
+
+              <div class="w-phone-gallery" data-phone-gallery>
+                <div class="w-phone w-phone--ghost w-phone--left">
+                  <div class="w-phone__bezel">
+                    <div class="w-phone__island"></div>
+                    <div class="w-phone__screen">
+                      <img
+                        data-phone-ghost="prev"
+                        src={t.products[t.products.length - 1].screen}
+                        alt=""
+                        loading="lazy"
+                      />
+                    </div>
+                    <div class="w-phone__home"></div>
+                  </div>
+                </div>
+
+                <div class="w-phone w-phone--ghost w-phone--right">
+                  <div class="w-phone__bezel">
+                    <div class="w-phone__island"></div>
+                    <div class="w-phone__screen">
+                      <img
+                        data-phone-ghost="next"
+                        src={t.products[1].screen}
+                        alt=""
+                        loading="lazy"
+                      />
+                    </div>
+                    <div class="w-phone__home"></div>
+                  </div>
+                </div>
+
+                <div class="w-phone w-phone--main" data-phone>
+                  <div class="w-phone__bezel">
+                    <div class="w-phone__island"></div>
+                    <div class="w-phone__screen">
+                      {
+                        t.products.map((p, i) => (
+                          <figure
+                            class:list={["w-phone__slide", i === 0 && "is-active"]}
+                            data-phone-slide={p.id}
+                          >
+                            <img src={p.screen} alt="" loading={i === 0 ? "eager" : "lazy"} />
+                            <figcaption>
+                              <span>{p.badge}</span>
+                              <strong>{p.title}</strong>
+                            </figcaption>
+                          </figure>
+                        ))
+                      }
+                    </div>
+                    <div class="w-phone__home"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="w-device__dots" role="tablist" aria-label={t.device.dotsAria}>
+                {
+                  t.products.map((p, i) => (
+                    <button
+                      type="button"
+                      class:list={["w-device__dot", i === 0 && "is-active"]}
+                      role="tab"
+                      aria-selected={i === 0 ? "true" : "false"}
+                      aria-controls={`device-panel-${p.id}-${locale}`}
+                      aria-label={p.title}
+                      data-device-dot={i}
+                    />
+                  ))
+                }
+              </div>
+            </div>
+          </section>
+
+          {
+            webCases.length > 0 && (
+              <section class="w-section w-reveal">
+                <div class="w-section__head">
+                  <h2>{t.casesTitle}</h2>
+                  <p>{t.casesLead}</p>
+                </div>
+                <div class="w-cases">
+                  {
+                    webCases.map((c) => (
+                      <a href={`/keysy/${c.category}/${c.slug}/`} class="w-case">
+                        <span class="w-case__media" aria-hidden="true">
+                          <img src={c.cover} alt="" loading="lazy" />
+                        </span>
+                        <span class="w-case__shade" aria-hidden="true" />
+                        <span class="w-case__copy">
+                          <strong>{c.client}</strong>
+                          <span>
+                            {c.metric} · {c.metricLabel}
+                          </span>
+                        </span>
+                      </a>
+                    ))
+                  }
+                </div>
+                <p class="w-cases__more">
+                  <a class="w-btn w-btn--line" href="/keysy/web/">
+                    {t.casesAll}
+                  </a>
+                </p>
+              </section>
+            )
+          }
+
+          <section class="w-section w-reveal" id="faq">
+            <div class="w-section__head">
+              <h2>{t.faqTitle}</h2>
+              <p>{t.faqLead}</p>
+            </div>
+            <div class="w-faq">
+              {
+                t.faq.map((item) => (
+                  <details class="w-faq__item">
+                    <summary>{item.q}</summary>
+                    <p>{item.a}</p>
+                  </details>
+                ))
+              }
+            </div>
+          </section>
+
+          <section id="web-cta" class="w-cta">
+            <div class="w-cta__copy">
+              <div>
+                <h2>{t.ctaTitle}</h2>
+                <p>{t.ctaLead}</p>
+                <ul class="w-cta__points">
+                  {t.ctaPoints.map((p) => <li>{p}</li>)}
+                </ul>
+              </div>
+              <div class="w-cta__contacts">
+                <a href={contacts.emailHref}>{contacts.email}</a>
+                {showPhone ? <a href={contacts.phoneHref}>{contacts.phone}</a> : null}
+              </div>
+            </div>
+            <form
+              id="web-form"
+              class="w-form"
+              data-success-message={t.formSuccess}
+              data-form-source={t.formSource}
+            >
+              <label class="visually-hidden" for={`web-name-${locale}`}>{t.formName}</label>
+              <input
+                id={`web-name-${locale}`}
+                type="text"
+                name="name"
+                placeholder={t.formName}
+                autocomplete="name"
+                required
+              />
+              <label class="visually-hidden" for={`web-phone-${locale}`}>{t.formPhone}</label>
+              <input
+                id={`web-phone-${locale}`}
+                type="tel"
+                name="phone"
+                placeholder={t.formPhone}
+                autocomplete="tel"
+                required
+              />
+              <label class="visually-hidden" for={`web-site-${locale}`}>{t.formSite}</label>
+              <input
+                id={`web-site-${locale}`}
+                type="url"
+                name="site"
+                placeholder={t.formSite}
+                autocomplete="url"
+              />
+              <div class="w-select">
+                <label class="w-select__label" for={`web-type-${locale}`}>{t.formType}</label>
+                <select id={`web-type-${locale}`} name="type" data-w-select>
+                  <option value="">{t.formType}</option>
+                  {t.formTypeOptions.map((opt) => <option>{opt}</option>)}
+                </select>
+              </div>
+              <div class="w-select">
+                <label class="w-select__label" for={`web-style-${locale}`}>{t.formStyle}</label>
+                <select id={`web-style-${locale}`} name="style" data-w-select>
+                  <option value="">{t.formStyle}</option>
+                  {t.formStyleOptions.map((opt) => <option>{opt}</option>)}
+                </select>
+              </div>
+              <label class="visually-hidden" for={`web-message-${locale}`}>{t.formMessage}</label>
+              <textarea
+                id={`web-message-${locale}`}
+                name="message"
+                rows="3"
+                placeholder={t.formMessage}
+              ></textarea>
+              <label class="w-form__check">
+                <input type="checkbox" name="agree" required />
+                <span>
+                  {t.formAgreeBefore}{" "}
+                  <a
+                    class="cookie-link"
+                    href={docs.privacy}
+                    target="_blank"
+                    rel="nofollow noopener noreferrer">{t.formAgreePolicy}</a
+                  >.
+                </span>
+              </label>
+              <button type="submit" class="w-btn w-btn--primary" data-ink-btn>{t.formSubmit}</button>
+              <p id="web-form-hint" class="w-form-hint" hidden></p>
+            </form>
+          </section>
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>{t.footerBrand}</strong>
+            <p>{t.footerTagline}</p>
+          </div>
+          <p>© 2015–{year} {t.footerBrand}</p>
+          <CookieFooterNotice locale={locale} />
+        </footer>
+      </main>
+    </div>
+
+    <CookieConsent locale={locale} />
+    <script>
+      import "../../scripts/razrabotka.ts";
+      import "../../scripts/web-robot.ts";
+      import "../../scripts/locale-offer.ts";
+    </script>
+  </body>
+</html>

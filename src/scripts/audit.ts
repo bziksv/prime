@@ -102,6 +102,15 @@ initHeroMotion();
 /* —— Signature: cinematic demo — type → cursor → scan —— */
 function initScanDemo() {
   const consoleEl = document.querySelector<HTMLElement>("[data-u-console]");
+  const i18n = {
+    idle: consoleEl?.dataset.msgIdle || "Ожидание ввода адреса…",
+    typing: consoleEl?.dataset.msgTyping || "Печатаем адрес…",
+    accepted: consoleEl?.dataset.msgAccepted || "Адрес принят · наводим на «Сканировать»",
+    hostPrefix: consoleEl?.dataset.hostPrefix || "Соединение с ",
+    scan: consoleEl?.dataset.btnScan || "Сканировать",
+    scanning: consoleEl?.dataset.btnScanning || "Сканирование…",
+    rescan: consoleEl?.dataset.btnRescan || "Сканировать ещё раз",
+  };
   const runBtn = document.querySelector<HTMLButtonElement>("[data-u-scan]");
   const urlInput = document.querySelector<HTMLInputElement>("[data-u-url]");
   const urlBox = urlInput?.closest(".u-console__url");
@@ -162,7 +171,7 @@ function initScanDemo() {
       if (i === 0) {
         li.hidden = false;
         li.classList.add("is-show");
-        li.textContent = "Ожидание ввода адреса…";
+        li.textContent = i18n.idle;
       } else {
         li.hidden = true;
       }
@@ -171,7 +180,7 @@ function initScanDemo() {
     if (bar) bar.style.width = "0%";
     runBtn.classList.remove("is-hover", "is-armed");
     runBtn.disabled = true;
-    runBtn.textContent = "Сканировать";
+    runBtn.textContent = i18n.scan;
     urlBox?.classList.remove("is-focus");
     urlInput.classList.remove("is-typing");
     cursor?.classList.remove("is-on", "is-click");
@@ -182,7 +191,7 @@ function initScanDemo() {
     consoleEl.classList.add("is-done");
     runBtn.classList.remove("is-hover");
     runBtn.disabled = false;
-    runBtn.textContent = "Сканировать ещё раз";
+    runBtn.textContent = i18n.rescan;
     if (scoreEl) {
       if (reduceMotion) scoreEl.textContent = "62";
       else animateCount(scoreEl, 62, 1400);
@@ -198,12 +207,12 @@ function initScanDemo() {
     consoleEl.classList.add("is-running");
     consoleEl.classList.remove("is-done");
     runBtn.disabled = true;
-    runBtn.textContent = "Сканирование…";
+    runBtn.textContent = i18n.scanning;
     if (scoreEl) scoreEl.textContent = "…";
     if (bar) bar.style.width = "8%";
 
     const host = hostFrom(urlInput.value || DEMO_URL);
-    if (hostLine) hostLine.textContent = `Соединение с ${host}…`;
+    if (hostLine) hostLine.textContent = `${i18n.hostPrefix}${host}…`;
 
     lines.forEach((li) => {
       li.classList.remove("is-show");
@@ -237,7 +246,7 @@ function initScanDemo() {
     later(() => {
       if (urlBox) setCursorTo(urlBox);
       urlBox?.classList.add("is-focus");
-      lines[0].textContent = "Печатаем адрес…";
+      lines[0].textContent = i18n.typing;
     }, 420);
 
     // 2) typewriter
@@ -247,10 +256,10 @@ function initScanDemo() {
       const tick = () => {
         if (i >= DEMO_URL.length) {
           urlInput.classList.remove("is-typing");
-          lines[0].textContent = "Адрес принят · наводим на «Сканировать»";
+          lines[0].textContent = i18n.accepted;
           runBtn.disabled = false;
           runBtn.classList.add("is-armed");
-          runBtn.textContent = "Сканировать";
+          runBtn.textContent = i18n.scan;
           // 3) move cursor to button
           later(() => {
             setCursorTo(runBtn);
@@ -389,8 +398,10 @@ if (form) {
   bindLeadForm({
     form,
     hint: document.getElementById("audit-form-hint"),
-    successMessage: "Спасибо! Заявка на аудит принята — свяжемся с вами.",
-    source: "audit-sayta",
+    successMessage:
+      form.dataset.successMessage ||
+      "Спасибо! Заявка на аудит принята — свяжемся с вами.",
+    source: form.dataset.formSource || "audit-sayta",
     successColor: "var(--u-ok, #1f8a6e)",
     metrikaGoals: (payload) => [
       ymGoals.form,
