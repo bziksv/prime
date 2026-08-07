@@ -18,7 +18,21 @@ export function isBlogTranslated(slug: string, locale: Locale): boolean {
 export function localizeBlogPost(post: BlogPost, locale: Locale): BlogPost {
   if (locale === "ru" || !isBlogTranslated(post.slug, locale)) return post;
   if (locale === "en") {
-    return blogTranslationsEn[post.slug] ?? post;
+    const en = blogTranslationsEn[post.slug];
+    if (!en) return post;
+    // EN overlays may omit empty `lists` — keep the same shape as sanitizePost(RU).
+    return {
+      ...en,
+      lead: en.lead ?? [],
+      faq: en.faq ?? [],
+      closing: en.closing ?? [],
+      related: en.related ?? post.related ?? [],
+      sections: (en.sections ?? []).map((s) => ({
+        ...s,
+        paras: s.paras ?? [],
+        lists: s.lists ?? [],
+      })),
+    };
   }
   return post;
 }

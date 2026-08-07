@@ -291,12 +291,12 @@ const crumbsLd = breadcrumbJsonLd(
                   post.sections.map((section, index) => {
                     const id = getSectionId(section.title, index);
                     const quizzes =
-                      interact?.quizzes.filter((q) =>
+                      interact?.quizzes?.filter((q) =>
                         section.title.includes(q.afterTitleIncludes),
                       ) ?? [];
                     const showChecklist =
-                      interact &&
-                      section.title.includes(interact.checklist.afterTitleIncludes);
+                      Boolean(interact?.checklist) &&
+                      section.title.includes(interact!.checklist.afterTitleIncludes);
                     return (
                       <>
                         <section class="b-post__section" id={id}>
@@ -305,16 +305,16 @@ const crumbsLd = breadcrumbJsonLd(
                           ) : (
                             <h3>{section.title}</h3>
                           )}
-                          {section.paras.map((p) => (
+                          {(section.paras ?? []).map((p) => (
                             <p>{p}</p>
                           ))}
-                          {section.lists.map((list) => (
+                          {(section.lists ?? []).map((list) => (
                             <div class="b-post__list">
                               {list.intro ? (
                                 <p class="b-post__list-intro">{list.intro}</p>
                               ) : null}
                               <ul>
-                                {list.items.map((item) => (
+                                {(list.items ?? []).map((item) => (
                                   <li>{item}</li>
                                 ))}
                               </ul>
