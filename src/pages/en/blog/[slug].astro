@@ -20,6 +20,7 @@ import {
 import { blogNewFormatSlugs } from "../../../data/blog-migration";
 import { getBlogInteract } from "../../../data/blog-interact";
 import { breadcrumbJsonLd } from "../../../lib/breadcrumb-jsonld";
+import { jsonForScript } from "../../../lib/json-for-script";
 import { contactsPath } from "../../../i18n/contacts-content";
 import {
   EN_BLOG_SLUGS,
@@ -177,11 +178,11 @@ const crumbsLd = breadcrumbJsonLd(
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
-    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+    <script type="application/ld+json" set:html={jsonForScript(articleJsonLd)} />
+    <script type="application/ld+json" set:html={jsonForScript(crumbsLd)} />
     {
       faqJsonLd ? (
-        <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+        <script type="application/ld+json" set:html={jsonForScript(faqJsonLd)} />
       ) : null
     }
   </head>

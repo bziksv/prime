@@ -418,6 +418,42 @@ import { googleAlertsEn } from "./posts/google-alerts";
 import { istoriyaDomenaEn } from "./posts/istoriya-domena";
 import { cmsInternetMagazinaEn } from "./posts/cms-internet-magazina";
 import { facebookAdsEn } from "./posts/facebook-ads";
+import { abTestyReklamyEn } from "./posts/ab-testy-reklamy";
+import { novogodnyayaRasprodazhaEn } from "./posts/novogodnyaya-rasprodazha";
+import { tildaEn } from "./posts/tilda";
+import { strategiiGoogleAdsEn } from "./posts/strategii-google-ads";
+import { adaptivnyeMediynyeObyavleniyaEn } from "./posts/adaptivnye-mediynye-obyavleniya";
+import { proverkaIndeksatsiiEn } from "./posts/proverka-indeksatsii";
+import { minusSlovaDirektEn } from "./posts/minus-slova-direkt";
+import { videosetYandeksaEn } from "./posts/videoset-yandeksa";
+import { kontentMarketingMetrikaEn } from "./posts/kontent-marketing-metrika";
+import { googleMerchantCenterEn } from "./posts/google-merchant-center";
+import { yandeksIksEn } from "./posts/yandeks-iks";
+import { mobileFirstIndeksEn } from "./posts/mobile-first-indeks";
+import { perenosDirektaGoogleAdsEn } from "./posts/perenos-direkta-google-ads";
+import { yandeksDialogiEn } from "./posts/yandeks-dialogi";
+import { interfeysYandeksDirektEn } from "./posts/interfeys-yandeks-direkt";
+import { metrikaPosetiteliEn } from "./posts/metrika-posetiteli";
+import { vzveshennyyCtrDirektEn } from "./posts/vzveshennyy-ctr-direkt";
+import { skorostSaytaEn } from "./posts/skorost-sayta";
+import { yandeksMarketEn } from "./posts/yandeks-market";
+import { turgenevEn } from "./posts/turgenev";
+import { proksiServerEn } from "./posts/proksi-server";
+import { pochtaDlyaDomenaEn } from "./posts/pochta-dlya-domena";
+import { wordstatEn } from "./posts/wordstat";
+import { menedzherParoleyEn } from "./posts/menedzher-paroley";
+import { wordpressAdminEn } from "./posts/wordpress-admin";
+import { yandeksBrauzerEn } from "./posts/yandeks-brauzer";
+import { robotsTxtJoomlaEn } from "./posts/robots-txt-joomla";
+import { modxLocalEn } from "./posts/modx-local";
+import { obzorBrauzerovEn } from "./posts/obzor-brauzerov";
+import { robotsTxtWordpressEn } from "./posts/robots-txt-wordpress";
+import { wordpressPlaginyEn } from "./posts/wordpress-plaginy";
+import { bitrixPublichnyyRazdelEn } from "./posts/bitrix-publichnyy-razdel";
+import { bitrixSvoystvaInfoblokovEn } from "./posts/bitrix-svoystva-infoblokov";
+import { registratsiyaDomenaEn } from "./posts/registratsiya-domena";
+import { bitrixAdminEn } from "./posts/bitrix-admin";
+import { hostingEn } from "./posts/hosting";
 
 /**
  * English overlays for blog posts.
@@ -844,6 +880,42 @@ export const blogTranslationsEn: Record<string, BlogPost> = {
   "istoriya-domena": istoriyaDomenaEn,
   "cms-internet-magazina": cmsInternetMagazinaEn,
   "facebook-ads": facebookAdsEn,
+  "ab-testy-reklamy": abTestyReklamyEn,
+  "novogodnyaya-rasprodazha": novogodnyayaRasprodazhaEn,
+  "tilda": tildaEn,
+  "strategii-google-ads": strategiiGoogleAdsEn,
+  "adaptivnye-mediynye-obyavleniya": adaptivnyeMediynyeObyavleniyaEn,
+  "proverka-indeksatsii": proverkaIndeksatsiiEn,
+  "minus-slova-direkt": minusSlovaDirektEn,
+  "videoset-yandeksa": videosetYandeksaEn,
+  "kontent-marketing-metrika": kontentMarketingMetrikaEn,
+  "google-merchant-center": googleMerchantCenterEn,
+  "yandeks-iks": yandeksIksEn,
+  "mobile-first-indeks": mobileFirstIndeksEn,
+  "perenos-direkta-google-ads": perenosDirektaGoogleAdsEn,
+  "yandeks-dialogi": yandeksDialogiEn,
+  "interfeys-yandeks-direkt": interfeysYandeksDirektEn,
+  "metrika-posetiteli": metrikaPosetiteliEn,
+  "vzveshennyy-ctr-direkt": vzveshennyyCtrDirektEn,
+  "skorost-sayta": skorostSaytaEn,
+  "yandeks-market": yandeksMarketEn,
+  "turgenev": turgenevEn,
+  "proksi-server": proksiServerEn,
+  "pochta-dlya-domena": pochtaDlyaDomenaEn,
+  "wordstat": wordstatEn,
+  "menedzher-paroley": menedzherParoleyEn,
+  "wordpress-admin": wordpressAdminEn,
+  "yandeks-brauzer": yandeksBrauzerEn,
+  "robots-txt-joomla": robotsTxtJoomlaEn,
+  "modx-local": modxLocalEn,
+  "obzor-brauzerov": obzorBrauzerovEn,
+  "robots-txt-wordpress": robotsTxtWordpressEn,
+  "wordpress-plaginy": wordpressPlaginyEn,
+  "bitrix-publichnyy-razdel": bitrixPublichnyyRazdelEn,
+  "bitrix-svoystva-infoblokov": bitrixSvoystvaInfoblokovEn,
+  "registratsiya-domena": registratsiyaDomenaEn,
+  "bitrix-admin": bitrixAdminEn,
+  hosting: hostingEn,
   "oformlenie-stranicy-instagram": {
     slug: "oformlenie-stranicy-instagram",
     title: "Instagram page design: visuals, header, and a unified style",

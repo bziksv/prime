@@ -1839,6 +1839,150 @@ const articleCtaEn: Record<string, { title: string; text: string }> = {
     title: "Testing Meta ads — and still no pixel, only CTR hope?",
     text: "We’ll set events, cold/look-alike/retarget contours, and creatives so the test is judged by CPA/ROI — not 2018 reach FOMO.",
   },
+  "ab-testy-reklamy": {
+    title: "Two ads fight on CTR — and you still crown a winner without CPA?",
+    text: "We’ll set one-hypothesis rotation/experiments in Direct and Google Ads and read reports by money, not a one-day CTR.",
+  },
+  "novogodnyaya-rasprodazha": {
+    title: "Holiday sale in ads — and last year’s US Trends is your only plan?",
+    text: "We’ll forecast from your season, split buyer stages, and run a dated campaign with a clean post-holiday exit.",
+  },
+  "tilda": {
+    title: "Landing in a week — and you started with pretty blocks before the offer?",
+    text: "We’ll lock structure and copy first, then assemble Tilda blocks, domain, and forms without “TOP on publish day” myths.",
+  },
+  "strategii-google-ads": {
+    title: "Smart Bidding on — and goals are empty or you flip strategy daily?",
+    text: "We’ll match strategy class to KPI, verify conversions, and protect the learning window — not 2018 button-name folklore.",
+  },
+  "adaptivnye-mediynye-obyavleniya": {
+    title: "RDA live — and one landscape banner still crops into nonsense?",
+    text: "We’ll prep multi-ratio assets, logos, and copy, then review previews before scaling Display spend.",
+  },
+  "proverka-indeksatsii": {
+    title: "Pages “gone” from search — and you only checked site: once?",
+    text: "We’ll read GSC/Webmaster coverage, spot-check key URLs, and fix robots/noindex — crawl isn’t an index guarantee.",
+  },
+  "minus-slova-direkt": {
+    title: "Search terms burn budget — and negatives are still a random web list?",
+    text: "We’ll build negatives from your query report, place them by level, and cross-cut clusters without killing your own keywords.",
+  },
+  "videoset-yandeksa": {
+    title: "Video Network on — and the plan still quotes 2018 average CPV?",
+    text: "We’ll match format and length to KPI, test 1–2 audiences, and judge funnel contribution — not someone else’s VTR table.",
+  },
+  "kontent-marketing-metrika": {
+    title: "Publishing weekly — and Metrika is only “visits went up after a repost”?",
+    text: "We’ll set content goals, read engagement and sources over months, and edit the plan by conversions — not one-day spikes.",
+  },
+  "google-merchant-center": {
+    title: "Shopping ads wanted — and the feed still mismatches price and stock?",
+    text: "We’ll prep GMC, verify the site, clean diagnostics, and link Google Ads so Shopping launches on honest product data.",
+  },
+  "yandeks-iks": {
+    title: "Still optimizing for a vanished SQI badge from 2018 guides?",
+    text: "We’ll shift the brief to Webmaster diagnostics, indexing, and conversions — the working replacement for the old quality score.",
+  },
+  "mobile-first-indeks": {
+    title: "Googlebot smartphone sees a cut-down mobile — while desktop looks “complete”?",
+    text: "We’ll check content parity, markup, and Search Console so the mobile document is what ranking should trust.",
+  },
+  "perenos-direkta-google-ads": {
+    title: "Dumping Direct Excel into Google Ads — and watching broad match burn budget?",
+    text: "We’ll map match types, negatives, and geo, then check Editor before launch so the second channel doesn’t become a leak.",
+  },
+  "yandeks-dialogi": {
+    title: "Want a Yandex search chat button — with nobody answering and no CRM?",
+    text: "We’ll verify product status, set an operator SLA, and wire leads so the channel helps instead of hurting trust.",
+  },
+  "interfeys-yandeks-direkt": {
+    title: "Still optimizing Direct from 2018 UI screenshots and “beta” guides?",
+    text: "We’ll set the current cabinet around tables, filters, and weekly conversion reports — the redesign logic that still works.",
+  },
+  "metrika-posetiteli": {
+    title: "Looking only at yesterday’s visits — and missing the multi-touch path to a lead?",
+    text: "We’ll use visitor profiles, segments, and first-source cards so Metrika shows the lifecycle, not just daily traffic.",
+  },
+  "vzveshennyy-ctr-direkt": {
+    title: "Crowning creatives by raw CTR while top positions inflate the score?",
+    text: "We’ll add weighted CTR next to conversions so you compare ads fairly — and still decide by CPA, not clicks alone.",
+  },
+  "skorost-sayta": {
+    title: "Chasing PageSpeed 100 while mobile LCP on key URLs is still red?",
+    text: "We’ll measure lab and field, pick the real brake (TTFB or CWV), and ship fixes that move UX — not vanity scores.",
+  },
+  "yandeks-market": {
+    title: "Applying to Yandex Market with a stale feed and missing return policy?",
+    text: "We’ll align the site, YML, and delivery rules so moderation is about fit — not a reject loop.",
+  },
+  "turgenev": {
+    title: "Chasing a zero Turgenev score while the page still reads like keyword soup?",
+    text: "We’ll use the report as an editorial filter: cut clear overspam, keep useful terms, and write for people first.",
+  },
+  "proksi-server": {
+    title: "Picking a “free proxy list” for logins — or mixing reverse proxy with ban bypass?",
+    text: "We’ll separate infrastructure (gateway / reverse / CDN) from gray IP tricks and pick a provider you can actually trust.",
+  },
+  "pochta-dlya-domena": {
+    title: "Still writing clients from a personal @mail while MX and SPF aren’t set?",
+    text: "We’ll connect domain mail, auth records, and 2FA so brand addresses deliver — and the team stays secure.",
+  },
+  "wordstat": {
+    title: "Planning SEO on a raw Wordstat number — and calling it “exact demand”?",
+    text: "We’ll set region, operators, and seasons so frequency guides the core — without promising TOP from one big figure.",
+  },
+  "menedzher-paroley": {
+    title: "Still sharing client logins in chat — or one password across every cabinet?",
+    text: "We’ll pick a vault for your devices and team, move critical access, and lock it with 2FA instead of passwords.txt.",
+  },
+  "wordpress-admin": {
+    title: "Locked out of wp-admin — and about to edit the DB without a backup?",
+    text: "We’ll recover via email or the host panel first, then harden the admin account so login stops being a quest.",
+  },
+  "yandeks-brauzer": {
+    title: "About to install Yandex Browser from a “free software + SMS” site?",
+    text: "We’ll stick to the official installer, skip junk offers, and import bookmarks only when you actually need them.",
+  },
+  "robots-txt-joomla": {
+    title: "Copying a Joomla 3.3 robots.txt wall onto Joomla 5 — and closing real landings?",
+    text: "We’ll adapt Disallow to your version, keep Sitemap on HTTPS, and verify in webmaster panels before it hurts crawl.",
+  },
+  "modx-local": {
+    title: "Installing MODX from a random “CMS pack” — or leaving /setup on the local host?",
+    text: "We’ll use the official package, wire DB + virtual host, finish setup, and remove setup before you build templates.",
+  },
+  "obzor-brauzerov": {
+    title: "Picking a browser from a 2018 “champion” list — while Edge and extensions moved on?",
+    text: "We’ll match candidates to your scenarios, privacy needs, and official downloads — then keep a second engine for checks.",
+  },
+  "robots-txt-wordpress": {
+    title: "About to Disallow all of /wp-content — and close theme CSS with it?",
+    text: "We’ll close admin and clear junk, leave uploads/theme assets reachable, and set Sitemap over HTTPS with a panel check.",
+  },
+  "wordpress-plaginy": {
+    title: "Installing every “popular” plugin — or a nulled ZIP from a random site?",
+    text: "We’ll install from the catalog or a trusted ZIP, activate under a backup, and remove unused plugins instead of hoarding risk.",
+  },
+  "bitrix-publichnyy-razdel": {
+    title: "Hunting Bitrix forms deep in Administration — while edit mode would fix the include area?",
+    text: "We’ll use the public bar and area edit mode with the right roles so content updates don’t break the layout.",
+  },
+  "bitrix-svoystva-infoblokov": {
+    title: "Pasting a 2017 Bitrix property snippet — and the card still shows empty fields?",
+    text: "We’ll wire DISPLAY_PROPERTIES in a template copy, match the property code and type, and clear cache so specs actually render.",
+  },
+  "registratsiya-domena": {
+    title: "Paying for a domain with extras in the cart — and no NS plan for hosting?",
+    text: "We’ll lock the name, owner data, and name servers at a registrar you control — then put renewal on the calendar.",
+  },
+  "bitrix-admin": {
+    title: "Can’t get into Bitrix?",
+    text: "We’ll sort `/bitrix/admin` and password reset — without mixing it up with the on-site toolbar.",
+  },
+  hosting: {
+    title: "Picking hosting for a site?",
+    text: "We’ll match the type and criteria — without “uptime = TOP” myths and paid rankings.",
+  },
 };
 
 export function getArticleCtaLocale(

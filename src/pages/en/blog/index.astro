@@ -24,6 +24,7 @@ import {
   localizeBlogPost,
 } from "../../../i18n/blog";
 import { breadcrumbJsonLd } from "../../../lib/breadcrumb-jsonld";
+import { jsonForScript } from "../../../lib/json-for-script";
 
 const locale = "en" as const;
 const ui = blogUi(locale);
@@ -84,7 +85,7 @@ const crumbsLd = breadcrumbJsonLd(
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <script type="application/ld+json" set:html={JSON.stringify(crumbsLd)} />
+    <script type="application/ld+json" set:html={jsonForScript(crumbsLd)} />
   </head>
   <body>
     <div class="v6-app">
@@ -100,8 +101,8 @@ const crumbsLd = breadcrumbJsonLd(
         </header>
 
         <div class="v6-content" data-blog-index>
-          <script type="application/json" data-blog-index-i18n set:html={JSON.stringify(indexUi)} />
-          <script type="application/json" data-blog-docs set:html={JSON.stringify(searchDocs)} />
+          <script type="application/json" data-blog-index-i18n set:html={jsonForScript(indexUi)} />
+          <script type="application/json" data-blog-docs set:html={jsonForScript(searchDocs)} />
 
           <section class="b-hero">
             <p class="b-hero__kicker">{indexUi.kicker}</p>

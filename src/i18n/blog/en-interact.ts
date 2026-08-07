@@ -21216,4 +21216,1768 @@ export const blogInteractEn: Record<string, BlogInteractConfig> = {
       },
     ],
   },
+
+  "ab-testy-reklamy": {
+    checklist: {
+      afterTitleIncludes: "How to compare in reports",
+      title: "Before crowning a winner",
+      lead: "CPA beats a one-day CTR.",
+      items: [
+        { id: "hyp", label: "One hypothesis per test" },
+        { id: "vars", label: "2–3 variants, not a dozen" },
+        { id: "stat", label: "Enough stats collected" },
+        { id: "biz", label: "Looking at CPA/ROI, not CTR only" },
+        { id: "split", label: "Search and display not mixed" },
+        { id: "utm", label: "UTM/ad IDs are correct" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Thin stats: what to do",
+        title: "Mini quiz: A/B in paid search",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ab1",
+            question: "A CTR-only winner…",
+            options: [
+              "Is always best for the business",
+              "Can lose on CPA",
+              "Is impossible in Direct",
+              "Always replaces experiments",
+            ],
+            correct: 1,
+            explain: "Clickability ≠ a cheap lead.",
+          },
+          {
+            id: "ab2",
+            question: "With few conversions…",
+            options: [
+              "Crown a winner in a day",
+              "Roll up carefully or accumulate data",
+              "Turn all analytics off",
+              "Mix search and display for “volume”",
+            ],
+            correct: 1,
+            explain: "Thin data → weak conclusions.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "novogodnyaya-rasprodazha": {
+    checklist: {
+      afterTitleIncludes: "Campaign setup in Direct and Google Ads",
+      title: "Before a New Year sale in paid search",
+      lead: "Your data beats someone else’s Trends.",
+      items: [
+        { id: "hist", label: "Last year’s season stats exist" },
+        { id: "camp", label: "Sale is in a separate campaign" },
+        { id: "stock", label: "Stock and delivery SLAs aligned" },
+        { id: "land", label: "Landing matches the ad promise" },
+        { id: "end", label: "Sale end date is planned" },
+        { id: "after", label: "Post-holiday creative plan exists" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "After the holidays",
+        title: "Mini quiz: New Year sale",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "nr1",
+            question: "Sale ads are better…",
+            options: [
+              "Mixed into the main campaign forever",
+              "Split out with an end date",
+              "Run without UTM",
+              "Launched only on Dec 31",
+            ],
+            correct: 1,
+            explain: "A separate campaign is easier to manage.",
+          },
+          {
+            id: "nr2",
+            question: "2017 US stats…",
+            options: [
+              "Are law for every RU niche",
+              "Are a demand-shape hint, not a norm",
+              "Replace your past season",
+              "Guarantee ROI",
+            ],
+            correct: 1,
+            explain: "Count from your own data.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "tilda": {
+    checklist: {
+      afterTitleIncludes: "Building in Tilda",
+      title: "Before publishing on Tilda",
+      lead: "Meaning and forms beat “pretty blocks”.",
+      items: [
+        { id: "struct", label: "Block structure matches the job" },
+        { id: "copy", label: "Offer and copy are ready" },
+        { id: "forms", label: "Forms are tested" },
+        { id: "mobile", label: "Mobile without overlaps" },
+        { id: "domain", label: "Domain and indexing set" },
+        { id: "pdn", label: "Privacy docs if collecting leads" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "SEO basics, domain, and tests",
+        title: "Mini quiz: Tilda",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "td1",
+            question: "First when working on a landing…",
+            options: [
+              "Pretty blocks without copy",
+              "Structure and content for the job",
+              "Buying every premium effect",
+              "Expecting TOP in two days",
+            ],
+            correct: 1,
+            explain: "Meaning before decoration.",
+          },
+          {
+            id: "td2",
+            question: "Tilda ranks you by itself…",
+            options: [
+              "Yes, right after publish",
+              "No; you need meaning, tech, and demand",
+              "Only with stock photos",
+              "Only without a domain",
+            ],
+            correct: 1,
+            explain: "A builder ≠ ranking.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "strategii-google-ads": {
+    checklist: {
+      afterTitleIncludes: "How to choose without breaking learning",
+      title: "Before changing strategy in Google Ads",
+      lead: "KPI and conversions beat the button name.",
+      items: [
+        { id: "kpi", label: "Campaign KPI is written" },
+        { id: "conv", label: "Conversions without duplicates checked" },
+        { id: "match", label: "Strategy class = KPI" },
+        { id: "budget", label: "Budget for the learning window" },
+        { id: "wait", label: "Don’t tweak settings every day" },
+        { id: "scale", label: "Scale budget in steps" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Conversions and value",
+        title: "Mini quiz: Google Ads strategies",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "sga1",
+            question: "Auto strategies are always better than manual…",
+            options: [
+              "Yes, always",
+              "No; you need data and a matching KPI",
+              "Only for SEO",
+              "Only without conversions",
+            ],
+            correct: 1,
+            explain: "Without goals automation is blind.",
+          },
+          {
+            id: "sga2",
+            question: "Target ROAS fits…",
+            options: [
+              "When there’s no conversion value in the data",
+              "When profitability and value tracking matter",
+              "Only for brand clicks",
+              "Instead of a landing",
+            ],
+            correct: 1,
+            explain: "You need value on conversions.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "adaptivnye-mediynye-obyavleniya": {
+    checklist: {
+      afterTitleIncludes: "2. Cover different aspect ratios",
+      title: "Before launching RDA",
+      lead: "Previews beat one “perfect” banner.",
+      items: [
+        { id: "assets", label: "Several images in different ratios" },
+        { id: "logo", label: "Square and horizontal logos" },
+        { id: "copy", label: "Several headlines and descriptions" },
+        { id: "preview", label: "Combination previews reviewed" },
+        { id: "safe", label: "Brand safety/disclaimers accounted for" },
+        { id: "specs", label: "File specs checked against Help" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "6. Brand safety and topic rules",
+        title: "Mini quiz: Responsive Display",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "rda1",
+            question: "RDA…",
+            options: [
+              "Always beats banners on 2018 CTR tables",
+              "Builds layouts from assets for different slots",
+              "Replaces the landing page",
+              "Doesn’t need previews",
+            ],
+            correct: 1,
+            explain: "The point is adaptive from your materials.",
+          },
+          {
+            id: "rda2",
+            question: "One landscape banner…",
+            options: [
+              "Covers all inventory perfectly",
+              "Often crops badly on other formats",
+              "Is forbidden by Google",
+              "Is only for search",
+            ],
+            correct: 1,
+            explain: "You need different ratios.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "proverka-indeksatsii": {
+    checklist: {
+      afterTitleIncludes: "Webmaster cabinets",
+      title: "Checking indexing of key URLs",
+      lead: "The cabinet beats a single site:.",
+      items: [
+        { id: "gsc", label: "GSC/Webmaster: coverage and exclusions" },
+        { id: "site", label: "site: as a guide, not accounting" },
+        { id: "url", label: "Important landings spot-checked" },
+        { id: "robots", label: "robots.txt and meta robots without surprises" },
+        { id: "map", label: "Sitemap submitted without mass errors" },
+        { id: "notall", label: "Utility URLs don’t need the index" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Why pages index poorly",
+        title: "Mini quiz: indexing check",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "pi1",
+            question: "A robot crawl…",
+            options: [
+              "Always equals indexing",
+              "Doesn’t guarantee entering the index",
+              "Replaces the sitemap",
+              "Is only for ads",
+            ],
+            correct: 1,
+            explain: "Crawling ≠ writing to the index.",
+          },
+          {
+            id: "pi2",
+            question: "All site URLs…",
+            options: [
+              "Must be in the index",
+              "Some utility ones are better closed",
+              "Can’t be checked via webmaster",
+              "Only index with meta keywords",
+            ],
+            correct: 1,
+            explain: "Index what’s valuable — not junk.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "minus-slova-direkt": {
+    checklist: {
+      afterTitleIncludes: "Where to add: campaign, group, keywords",
+      title: "Before editing negatives",
+      lead: "Your queries beat a random web list.",
+      items: [
+        { id: "report", label: "Search terms exported" },
+        { id: "levels", label: "Shared vs cluster split by level" },
+        { id: "keys", label: "Negatives don’t kill your own keywords" },
+        { id: "cross", label: "Cross between head and refinements planned" },
+        { id: "rsya", label: "Display negatives not copied blindly from search" },
+        { id: "univ", label: "Universal list only as a draft" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Cross-negatives",
+        title: "Mini quiz: Direct negatives",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ms1",
+            question: "A universal negatives list from the web…",
+            options: [
+              "Is always perfect for every niche",
+              "Is a draft; check against your demand",
+              "Replaces semantics",
+              "Is only for SEO",
+            ],
+            correct: 1,
+            explain: "Someone else’s list can cut your demand.",
+          },
+          {
+            id: "ms2",
+            question: "Cross-negatives are needed…",
+            options: [
+              "So keywords inside the campaign compete less",
+              "To turn Direct off",
+              "Only for Google Ads",
+              "Instead of UTM",
+            ],
+            correct: 0,
+            explain: "A narrow keyword shouldn’t lose traffic to a broad one.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "videoset-yandeksa": {
+    checklist: {
+      afterTitleIncludes: "Targeting: from demographics to retargeting",
+      title: "Before launching in the Video Network",
+      lead: "Your test beats someone else’s industry shares.",
+      items: [
+        { id: "goal", label: "KPI: reach / traffic / conversion" },
+        { id: "format", label: "Format and video length aligned" },
+        { id: "aud", label: "1–2 audience hypotheses, not “the whole market”" },
+        { id: "track", label: "UTM and Metrika goals connected" },
+        { id: "cpv", label: "Old average CPV not written into the plan as fact" },
+        { id: "compare", label: "Compare with YouTube by funnel, not CTR" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "How to judge results",
+        title: "Mini quiz: Yandex Video Network",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "vs1",
+            question: "Industry CPV from a 2018 report…",
+            options: [
+              "Can go into the media plan 1:1",
+              "Is historical background; check bids in the cabinet now",
+              "Replaces creative",
+              "Is only for SEO",
+            ],
+            correct: 1,
+            explain: "The market and auction changed long ago.",
+          },
+          {
+            id: "vs2",
+            question: "A high VTR…",
+            options: [
+              "Always equals a successful campaign",
+              "Is a media signal; also watch brand and business goal",
+              "Always beats conversions",
+              "Is only for banners",
+            ],
+            correct: 1,
+            explain: "Completion without a funnel doesn’t prove results.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "kontent-marketing-metrika": {
+    checklist: {
+      afterTitleIncludes: "Content goal first — reports later",
+      title: "Before reviewing content in Metrika",
+      lead: "Without a goal, reports don’t decide.",
+      items: [
+        { id: "counter", label: "Counter on article templates" },
+        { id: "goals", label: "Content goals set" },
+        { id: "utm", label: "UTM on paid traffic and newsletters" },
+        { id: "urls", label: "Key blog URL list ready" },
+        { id: "period", label: "Trend period — weeks/months, not one day" },
+        { id: "bounce", label: "Bounce read with time and goal" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Conversions and strategy success",
+        title: "Mini quiz: content in Metrika",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "km1",
+            question: "A scroll map…",
+            options: [
+              "Exactly equals finish reading",
+              "Is an approximate signal; better add a goal",
+              "Replaces goals",
+              "Is only for Direct",
+            ],
+            correct: 1,
+            explain: "Scroll ≠ attentive reading.",
+          },
+          {
+            id: "km2",
+            question: "Traffic sources are compared…",
+            options: [
+              "Only by visit count",
+              "By visits and by goals/conversions",
+              "Only by likes",
+              "No need to compare",
+            ],
+            correct: 1,
+            explain: "Cheap noise loses to smaller targeted traffic.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "google-merchant-center": {
+    checklist: {
+      afterTitleIncludes: "Site requirements",
+      title: "Before uploading to Merchant Center",
+      lead: "Feed and site beat a “fast” launch.",
+      items: [
+        { id: "cart", label: "Cart/order on the site works" },
+        { id: "https", label: "HTTPS and payment/return policies in place" },
+        { id: "feed", label: "Feed with required attributes ready" },
+        { id: "price", label: "Price and stock match landings" },
+        { id: "policy", label: "Restricted categories checked in Help" },
+        { id: "ads", label: "GMC ↔ Google Ads link confirmed" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Google Ads link and campaigns",
+        title: "Mini quiz: Merchant Center",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "gmc1",
+            question: "Merchant Center…",
+            options: [
+              "Sets bids instead of Google Ads by itself",
+              "Holds products; campaigns usually run in Google Ads",
+              "Replaces SSL on the site",
+              "Is only for Yandex Market",
+            ],
+            correct: 1,
+            explain: "GMC is the data catalog; Ads is advertising.",
+          },
+          {
+            id: "gmc2",
+            question: "Price mismatch in feed vs site…",
+            options: [
+              "Doesn’t matter for moderation",
+              "Is a common product disapproval cause",
+              "Raises ROAS automatically",
+              "Matters only for reviews",
+            ],
+            correct: 1,
+            explain: "Data must match the storefront.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "yandeks-iks": {
+    checklist: {
+      afterTitleIncludes: "What to watch instead of SQI",
+      title: "Instead of chasing SQI",
+      lead: "Current reports beat an archived score.",
+      items: [
+        { id: "diag", label: "Webmaster diagnostics without critical errors" },
+        { id: "index", label: "Important URLs checked in the index" },
+        { id: "queries", label: "Queries and clicks reviewed regularly" },
+        { id: "ux", label: "UX and conversion in the work plan" },
+        { id: "goals", label: "Business goals set in analytics" },
+        { id: "noiks", label: "“Boost SQI” removed from the brief" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Why “raise SQI” is a bad goal today",
+        title: "Mini quiz: Yandex SQI",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "iks1",
+            question: "Public SQI today is…",
+            options: [
+              "The main SEO KPI for 2026",
+              "An outdated compass; use Webmaster reports",
+              "Equal to a TOP-10 position",
+              "A TIC replacement on link exchanges",
+            ],
+            correct: 1,
+            explain: "The badge is gone — work with current reports.",
+          },
+          {
+            id: "iks2",
+            question: "TIC mainly measured…",
+            options: [
+              "Link citation",
+              "Site speed in PageSpeed",
+              "Only Metrika conversions",
+              "Direct ad CTR",
+            ],
+            correct: 0,
+            explain: "SQI shifted emphasis from links alone toward audience.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "mobile-first-indeks": {
+    checklist: {
+      afterTitleIncludes: "Content, markup, and meta",
+      title: "Mobile parity for Google",
+      lead: "The bot reads the smartphone document.",
+      items: [
+        { id: "text", label: "Main text and H1 present on smartphone" },
+        { id: "links", label: "Internal links reachable from the phone" },
+        { id: "schema", label: "Markup not desktop-only" },
+        { id: "meta", label: "Title/description comparable in meaning" },
+        { id: "gsc", label: "URL Inspection in Search Console done" },
+        { id: "mcut", label: "No cut-down m. instead of full adaptive" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Common fears",
+        title: "Mini quiz: Mobile-First Index",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "mfi1",
+            question: "Mobile-First Index means…",
+            options: [
+              "Desktop is never opened again",
+              "Google’s primary document is the mobile one",
+              "Only AMP is required",
+              "It replaces Search Console",
+            ],
+            correct: 1,
+            explain: "The bot’s reference is what a smartphone sees.",
+          },
+          {
+            id: "mfi2",
+            question: "A half-empty separate m-site…",
+            options: [
+              "Is always better than adaptive",
+              "Risks the bot treating the cut document as primary",
+              "Has been mandatory since 2018",
+              "Is only needed for Direct",
+            ],
+            correct: 1,
+            explain: "Meaning parity beats a “separate mobile version.”",
+          },
+        ],
+      },
+    ],
+  },
+
+  "perenos-direkta-google-ads": {
+    checklist: {
+      afterTitleIncludes: "After import: mandatory check",
+      title: "After moving to Google Ads",
+      lead: "Import without a check = waste.",
+      items: [
+        { id: "match", label: "Keyword match types set deliberately" },
+        { id: "neg", label: "Negatives on ad group/campaign, not lost" },
+        { id: "geo", label: "Campaign geo and language checked" },
+        { id: "policy", label: "Copy without banned CTAs / “!” issues" },
+        { id: "conv", label: "Conversions and tracking work" },
+        { id: "net", label: "Search and networks not mixed blindly" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Keywords and match types",
+        title: "Mini quiz: Direct → Ads move",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "pd1",
+            question: "Dumping a Direct export into Ads without processing…",
+            options: [
+              "Is always correct",
+              "Almost always breaks match types and negatives",
+              "Is only needed for Yandex Network",
+              "Replaces Editor",
+            ],
+            correct: 1,
+            explain: "Cabinet schemas differ — you need mapping.",
+          },
+          {
+            id: "pd2",
+            question: "Yandex Network → Display…",
+            options: [
+              "Always moves reliably in one click",
+              "Is usually rebuilt separately for Google",
+              "Needs no creatives",
+              "Always matters more than Search",
+            ],
+            correct: 1,
+            explain: "Networks and signals differ — rebuild.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "yandeks-dialogi": {
+    checklist: {
+      afterTitleIncludes: "How people connected it — and what to check now",
+      title: "Before enabling Yandex chat",
+      lead: "A dead button is worse than none.",
+      items: [
+        { id: "status", label: "Product status checked against current Help" },
+        { id: "ops", label: "Operator and reply schedule assigned" },
+        { id: "crm", label: "Leads go to CRM/email" },
+        { id: "pdn", label: "Personal-data consent in the flow" },
+        { id: "test", label: "Phone and PC test passed" },
+        { id: "faq", label: "Scripts for typical questions ready" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Search chat vs on-site widget",
+        title: "Mini quiz: Yandex chat",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "yd1",
+            question: "Yandex search chat…",
+            options: [
+              "Fully replaces the site form",
+              "Complements the site; needs an answer process",
+              "Turns on by itself for every domain",
+              "Is only for Direct",
+            ],
+            correct: 1,
+            explain: "Without an operator and CRM the channel hurts.",
+          },
+          {
+            id: "yd2",
+            question: "2018 integration screenshots…",
+            options: [
+              "Guarantee the button shows today",
+              "Are history; verify product status now",
+              "Replace the API",
+              "Matter only for SEO",
+            ],
+            correct: 1,
+            explain: "The product and entry points changed.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "interfeys-yandeks-direkt": {
+    checklist: {
+      afterTitleIncludes: "How to learn the current cabinet",
+      title: "Working Direct from stats",
+      lead: "The table and report beat UI nostalgia.",
+      items: [
+        { id: "cols", label: "Columns with conversions/CPA set" },
+        { id: "filter", label: "Filter for losing campaigns/phrases ready" },
+        { id: "report", label: "Report Wizard in the weekly ritual" },
+        { id: "mass", label: "Bulk pauses only for clear junk" },
+        { id: "goals", label: "Metrika goals linked to the cabinet" },
+        { id: "oldui", label: "Guides with the “old interface” not used" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Managing from stats — the principle that stayed",
+        title: "Mini quiz: Direct interface",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "id1",
+            question: "The 2018 “new Direct” beta…",
+            options: [
+              "Still waits for signups via a teaser",
+              "Is a historical stage; work in the current cabinet",
+              "Is mandatory for everyone forever",
+              "Replaces Metrika",
+            ],
+            correct: 1,
+            explain: "That launch’s separate beta is gone.",
+          },
+          {
+            id: "id2",
+            question: "The main principle of that redesign…",
+            options: [
+              "Manage from stats and tables",
+              "Turn off all reports",
+              "Only manual bids with no numbers",
+              "Copy Google Ads 1:1",
+            ],
+            correct: 0,
+            explain: "Decisions follow on-screen metrics.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "metrika-posetiteli": {
+    checklist: {
+      afterTitleIncludes: "Quick segments and hypotheses",
+      title: "Reviewing profiles in Metrika",
+      lead: "Hypothesis first, then cards.",
+      items: [
+        { id: "goals", label: "Goals set and firing" },
+        { id: "hyp", label: "Hypothesis stated before the segment" },
+        { id: "seg", label: "Segment chosen for the question" },
+        { id: "cards", label: "5–10 profiles reviewed, not one case" },
+        { id: "first", label: "First source and visit count checked" },
+        { id: "vv", label: "Webvisor used selectively, not every recording" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "How the report differs from other sections",
+        title: "Mini quiz: Metrika visitors",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "mp1",
+            question: "The visitors report shows…",
+            options: [
+              "Only demographics like Audience",
+              "Anonymous profiles with visit history",
+              "Only Direct clicks",
+              "Full names from a passport",
+            ],
+            correct: 1,
+            explain: "It’s a profile dossier, not an interests slice.",
+          },
+          {
+            id: "mp2",
+            question: "Webvisor from a card…",
+            options: [
+              "Replaces goals and segments",
+              "Complements: watch selectively after the numbers",
+              "Is required for every visit",
+              "Is only for SEO",
+            ],
+            correct: 1,
+            explain: "Segment and metrics first, then a recording.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "vzveshennyy-ctr-direkt": {
+    checklist: {
+      afterTitleIncludes: "When to use wCTR in practice",
+      title: "Comparing creatives in Direct",
+      lead: "wCTR without conversions doesn’t close the question.",
+      items: [
+        { id: "cols", label: "Report has CTR and wCTR" },
+        { id: "conv", label: "Spend and conversions/CPA alongside" },
+        { id: "stat", label: "Small stats cut off" },
+        { id: "pos", label: "Traffic volume / position gap accounted for" },
+        { id: "land", label: "Landing checked when CTR looks strong" },
+        { id: "roi", label: "Final call by money, not clicks" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Why raw CTR lies",
+        title: "Mini quiz: weighted CTR",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "wc1",
+            question: "Raw CTR on a top position…",
+            options: [
+              "Always compares creatives fairly",
+              "Can be inflated by the show slot",
+              "Replaces CPA",
+              "Is only for SEO",
+            ],
+            correct: 1,
+            explain: "Position adds an attention bonus.",
+          },
+          {
+            id: "wc2",
+            question: "wCTR…",
+            options: [
+              "Guarantees ad payback",
+              "Normalizes clickability with traffic volume",
+              "Turns off the Report Wizard",
+              "Equals site SQI",
+            ],
+            correct: 1,
+            explain: "It’s for comparing creatives, not ROI.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "skorost-sayta": {
+    checklist: {
+      afterTitleIncludes: "How to read the report and what to do",
+      title: "Checking speed on key URLs",
+      lead: "A measurement without a fix is useless.",
+      items: [
+        { id: "urls", label: "3–5 key URLs chosen" },
+        { id: "mobile", label: "Mobile lab measurement done" },
+        { id: "field", label: "Field/GSC checked where available" },
+        { id: "metric", label: "Main brake: TTFB or LCP/INP/CLS" },
+        { id: "fix", label: "1–2 fixes planned" },
+        { id: "remeas", label: "Remeasure after shipping" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Lab and field: two layers of truth",
+        title: "Mini quiz: site speed",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ss1",
+            question: "PageSpeed 100…",
+            options: [
+              "Is a mandatory KPI for TOP-10",
+              "Isn’t the goal; CWV and UX on key URLs matter more",
+              "Replaces content",
+              "Is only for Direct",
+            ],
+            correct: 1,
+            explain: "Don’t worship the score for its own sake.",
+          },
+          {
+            id: "ss2",
+            question: "Field data…",
+            options: [
+              "Is the same as one Lighthouse run",
+              "Shows real-user experience",
+              "Exists only in Pingdom 2018",
+              "Isn’t needed after lab",
+            ],
+            correct: 1,
+            explain: "Lab and field complement each other.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "yandeks-market": {
+    checklist: {
+      afterTitleIncludes: "Site and business requirements",
+      title: "Before applying to Market",
+      lead: "Site and feed beat a “fast” application.",
+      items: [
+        { id: "legal", label: "Legal details and contacts on the site" },
+        { id: "cart", label: "Cart and checkout work" },
+        { id: "policy", label: "Delivery, payment, returns described" },
+        { id: "feed", label: "YML with price and stock ready" },
+        { id: "sync", label: "Price/stock match the storefront" },
+        { id: "sla", label: "Who confirms orders in business hours" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Product feed: YML and updates",
+        title: "Mini quiz: Yandex Market",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ym1",
+            question: "A stale price in the feed…",
+            options: [
+              "Doesn’t matter for moderation",
+              "Risks store rating and review",
+              "Raises site SEO automatically",
+              "Is only for Google Ads",
+            ],
+            correct: 1,
+            explain: "The feed must match the site.",
+          },
+          {
+            id: "ym2",
+            question: "The “20M audience” from a 2018 article…",
+            options: [
+              "Can go 1:1 into the media plan",
+              "Is historical backdrop; use your pilot and margin",
+              "Replaces the feed",
+              "Guarantees sales",
+            ],
+            correct: 1,
+            explain: "Plan by SKU economics.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "turgenev": {
+    checklist: {
+      afterTitleIncludes: "How to check text",
+      title: "Before delivering SEO copy",
+      lead: "The score is a compass, not a ranking law.",
+      items: [
+        { id: "run", label: "Text run through Turgenev" },
+        { id: "crit", label: "Critical notes closed" },
+        { id: "read", label: "Reread with human eyes" },
+        { id: "uniq", label: "Uniqueness checked separately" },
+        { id: "zero", label: "No chase for zero at the topic’s expense" },
+        { id: "type", label: "Page type considered (not catalog as article)" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Service limits",
+        title: "Mini quiz: Turgenev",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "tg1",
+            question: "Turgenev…",
+            options: [
+              "Equals the official Baden-Baden filter",
+              "Is a third-party over-optimization risk compass",
+              "Guarantees TOP-10",
+              "Replaces Webmaster",
+            ],
+            correct: 1,
+            explain: "It’s an editorial helper, not a search verdict.",
+          },
+          {
+            id: "tg2",
+            question: "Zero score at any cost…",
+            options: [
+              "Is always the best strategy",
+              "Can kill term relevance",
+              "Is mandatory for product cards",
+              "Is only for Direct",
+            ],
+            correct: 1,
+            explain: "Edit meaning and style, not the metric for its own sake.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "proksi-server": {
+    checklist: {
+      afterTitleIncludes: "Why people use proxies",
+      title: "Before choosing a proxy",
+      lead: "Infrastructure ≠ bypassing someone else’s rules.",
+      items: [
+        { id: "goal", label: "Goal fixed: gateway / reverse / cache" },
+        { id: "trust", label: "Provider is clear, not a “chat list”" },
+        { id: "secrets", label: "Passwords and payments don’t go via unknown nodes" },
+        { id: "rev", label: "Reverse proxy/CDN considered for the site" },
+        { id: "tos", label: "No task to bypass a ban/platform ToS" },
+        { id: "logs", label: "Clear who writes and stores logs" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Anonymity and limits",
+        title: "Mini quiz: proxy server",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "px1",
+            question: "A reverse proxy…",
+            options: [
+              "Is only for bypassing forum bans",
+              "Sits in front of the site: SSL, static, backend",
+              "Replaces DNS forever",
+              "Is only for Direct",
+            ],
+            correct: 1,
+            explain: "It’s the front of site infrastructure.",
+          },
+          {
+            id: "px2",
+            question: "A free proxy from a list…",
+            options: [
+              "Is always safe for logins",
+              "Is often risky: interception and malware",
+              "Equals a corporate VPN",
+              "Is mandatory for SEO",
+            ],
+            correct: 1,
+            explain: "Don’t send secrets through an unknown node.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "pochta-dlya-domena": {
+    checklist: {
+      afterTitleIncludes: "How it works: MX and DNS",
+      title: "Before connecting mail",
+      lead: "DNS beats a pretty nickname.",
+      items: [
+        { id: "domain", label: "Domain verified with the mail provider" },
+        { id: "mx", label: "MX set per cabinet instructions" },
+        { id: "auth", label: "SPF/DKIM (and DMARC if possible) planned" },
+        { id: "boxes", label: "Mailboxes for roles and people created" },
+        { id: "2fa", label: "Admin 2FA enabled" },
+        { id: "test", label: "Inbound and outbound tested from an external box" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Security and mailbox hygiene",
+        title: "Mini quiz: domain email",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "pd1",
+            question: "MX records are needed to…",
+            options: [
+              "Speed up the homepage",
+              "Point to which server accepts the domain’s mail",
+              "Reach TOP in a week",
+              "Replace the SSL certificate",
+            ],
+            correct: 1,
+            explain: "Without MX, mail doesn’t know where to go.",
+          },
+          {
+            id: "pd2",
+            question: "“1000 free mailboxes” limits from 2018 guides…",
+            options: [
+              "Can go straight into a contract",
+              "Must be checked against the provider’s current plan",
+              "Are guaranteed by law",
+              "Matter more than SPF",
+            ],
+            correct: 1,
+            explain: "Tariffs and cabinet names changed.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "wordstat": {
+    checklist: {
+      afterTitleIncludes: "How to start",
+      title: "Before pulling frequencies",
+      lead: "A broad number ≠ exact demand.",
+      items: [
+        { id: "region", label: "Business region set" },
+        { id: "markers", label: "Niche markers collected" },
+        { id: "ops", label: "Refining operators applied to key phrases" },
+        { id: "export", label: "Tails exported to a sheet" },
+        { id: "intent", label: "Junk and foreign intent filtered" },
+        { id: "season", label: "Seasonality checked on history (if it matters)" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Operators: why they matter",
+        title: "Mini quiz: Wordstat",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ws1",
+            question: "A big frequency without operators…",
+            options: [
+              "Always equals exact phrase entries",
+              "Often sums tails and word forms",
+              "Guarantees TOP in a month",
+              "Replaces the semantic core",
+            ],
+            correct: 1,
+            explain: "Refine with operators — or you fool yourself.",
+          },
+          {
+            id: "ws2",
+            question: "Wordstat primarily…",
+            options: [
+              "Shows site rankings",
+              "Estimates search demand by phrasings",
+              "Replaces Direct",
+              "Outputs finished copy",
+            ],
+            correct: 1,
+            explain: "It’s query stats, not ranking.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "menedzher-paroley": {
+    checklist: {
+      afterTitleIncludes: "What to watch when choosing",
+      title: "Before rolling out a manager",
+      lead: "Process beats a logo from a 2018 cover.",
+      items: [
+        { id: "devices", label: "Needed OS and browsers match" },
+        { id: "master", label: "Strong master password + 2FA planned" },
+        { id: "share", label: "Sharing without chat passwords is clear" },
+        { id: "export", label: "Export/migration path exists" },
+        { id: "team", label: "For teams — roles and access revoke" },
+        { id: "migrate", label: "Critical cabinets in the move plan" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Habits beat the app",
+        title: "Mini quiz: password manager",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "mp1",
+            question: "One password for every service…",
+            options: [
+              "Is convenient and safe",
+              "Is risky: a leak opens a chain",
+              "Is mandatory for SEO",
+              "Replaces 2FA",
+            ],
+            correct: 1,
+            explain: "Unique passwords are the base.",
+          },
+          {
+            id: "mp2",
+            question: "Prices and TOP-3 from a 2018 review…",
+            options: [
+              "Can go straight into a contract",
+              "Must be checked against the current market and tariffs",
+              "Matter more than the master password",
+              "Are guaranteed forever",
+            ],
+            correct: 1,
+            explain: "Products and prices changed.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "wordpress-admin": {
+    checklist: {
+      afterTitleIncludes: "If you forgot the password",
+      title: "Before resetting access",
+      lead: "Email and hosting first, then the DB.",
+      items: [
+        { id: "url", label: "Current login URL checked" },
+        { id: "caps", label: "Layout and Caps Lock ruled out" },
+        { id: "mail", label: "Admin email and Spam checked" },
+        { id: "backup", label: "Backup exists before any DB edit" },
+        { id: "cache", label: "Site cache/cookies cleared on odd failures" },
+        { id: "harden", label: "After login — new password and admin user check" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "After login: hygiene minimum",
+        title: "Mini quiz: WordPress admin",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "wa1",
+            question: "The standard path into the admin…",
+            options: [
+              "Only /bitrix/admin/",
+              "/wp-admin/ or /wp-login.php (if the URL wasn’t changed)",
+              "Only FTP",
+              "Only Yandex Webmaster",
+            ],
+            correct: 1,
+            explain: "Classic WordPress URLs unless a plugin changed login.",
+          },
+          {
+            id: "wa2",
+            question: "The default login admin…",
+            options: [
+              "Is best practice",
+              "Is a risky habit: better a unique login and strong password",
+              "Is mandatory for SEO",
+              "Replaces 2FA",
+            ],
+            correct: 1,
+            explain: "A predictable login makes brute force easier.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "yandeks-brauzer": {
+    checklist: {
+      afterTitleIncludes: "Download only the official installer",
+      title: "Before installing the browser",
+      lead: "The official file beats a “fast button.”",
+      items: [
+        { id: "official", label: "Download from the official Yandex page" },
+        { id: "complete", label: "File fully downloaded" },
+        { id: "default", label: "“Default browser” decision is deliberate" },
+        { id: "import", label: "Data import — only if needed" },
+        { id: "skip", label: "Extra services in the wizard can be skipped" },
+        { id: "rights", label: "On rights errors — run as administrator" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Typical Windows install errors",
+        title: "Mini quiz: Yandex Browser",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "yb1",
+            question: "Safer to download the installer…",
+            options: [
+              "From a “free software + SMS” site",
+              "From the official Yandex page",
+              "From a random torrent repack",
+              "Only from an “update your browser” email blast",
+            ],
+            correct: 1,
+            explain: "An official source lowers swap risk.",
+          },
+          {
+            id: "yb2",
+            question: "Making it the default browser…",
+            options: [
+              "Is required for install",
+              "Is optional: link convenience, not a requirement",
+              "Is the only way to import bookmarks",
+              "Replaces antivirus",
+            ],
+            correct: 1,
+            explain: "It’s a convenience choice, not a license step.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "robots-txt-joomla": {
+    checklist: {
+      afterTitleIncludes: "Landmarks for Joomla paths",
+      title: "Before publishing robots.txt",
+      lead: "A 3.3 template ≠ your Joomla 4/5.",
+      items: [
+        { id: "admin", label: "/administrator/ closed from crawl" },
+        { id: "sitemap", label: "Sitemap listed over HTTPS" },
+        { id: "mirror", label: "Mirror set via 301/HTTPS, not Host alone" },
+        { id: "sections", label: "Important sections not under Disallow" },
+        { id: "check", label: "File opens as /robots.txt" },
+        { id: "panels", label: "Webmaster / Search Console check planned" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Checks after publishing",
+        title: "Mini quiz: Joomla robots.txt",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "rj1",
+            question: "Disallow in robots.txt…",
+            options: [
+              "Always equals noindex",
+              "Asks not to crawl a path; indexing via links is still possible",
+              "Guarantees TOP",
+              "Replaces SSL",
+            ],
+            correct: 1,
+            explain: "For “don’t index,” use noindex and accessibility.",
+          },
+          {
+            id: "rj2",
+            question: "A robots template from a Joomla 3.3 guide…",
+            options: [
+              "Can be copied to any version without edits",
+              "Must be adapted to the CMS version and real duplicates",
+              "Matters more than Sitemap",
+              "Cancels Webmaster",
+            ],
+            correct: 1,
+            explain: "Paths and SEF changed — check your site.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "modx-local": {
+    checklist: {
+      afterTitleIncludes: "Prep: local server and files",
+      title: "Before MODX setup",
+      lead: "Official archive and a working host.",
+      items: [
+        { id: "stack", label: "Local stack running" },
+        { id: "dist", label: "Package from official download" },
+        { id: "host", label: "Files in the virtual-host folder" },
+        { id: "db", label: "DB and user created" },
+        { id: "setup", label: "/setup opens" },
+        { id: "cleanup", label: "Plan to delete setup after install" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Setup wizard /setup",
+        title: "Mini quiz: MODX locally",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "mx1",
+            question: "The MODX admin is usually…",
+            options: [
+              "/wp-admin/",
+              "/manager",
+              "FTP only",
+              "/bitrix/admin/",
+            ],
+            correct: 1,
+            explain: "Classic MODX manager path.",
+          },
+          {
+            id: "mx2",
+            question: "After install the setup folder…",
+            options: [
+              "Is left forever",
+              "Is deleted",
+              "Is published to the index",
+              "Is renamed to /blog/",
+            ],
+            correct: 1,
+            explain: "Otherwise it’s an extra entry for attackers.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "obzor-brauzerov": {
+    checklist: {
+      afterTitleIncludes: "What to watch when choosing",
+      title: "Before switching primary browser",
+      lead: "Scenario beats someone else’s ranking.",
+      items: [
+        { id: "tasks", label: "2–3 main scenarios stated" },
+        { id: "official", label: "Candidates only from official sites" },
+        { id: "ext", label: "Needed extensions available" },
+        { id: "sync", label: "Sync and passwords understood" },
+        { id: "privacy", label: "Tracking/telemetry settings reviewed" },
+        { id: "second", label: "Second browser for checks planned" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "How to choose in practice",
+        title: "Mini quiz: browser overview",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ob1",
+            question: "“Best browser for everyone”…",
+            options: [
+              "Is always Chrome from a 2018 article",
+              "Depends on tasks, ecosystem, and habit",
+              "Is only Firefox",
+              "Is whatever requires SMS to install",
+            ],
+            correct: 1,
+            explain: "Scenario beats an eternal champion.",
+          },
+          {
+            id: "ob2",
+            question: "Edge today…",
+            options: [
+              "Is the same IE without extensions as in 2017 guides",
+              "Is a Chromium browser with a normal extension ecosystem",
+              "Is the only browser without updates",
+              "Replaces antivirus",
+            ],
+            correct: 1,
+            explain: "2018 takes on Edge aged out.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "robots-txt-wordpress": {
+    checklist: {
+      afterTitleIncludes: "Landmarks for WordPress paths",
+      title: "Before publishing robots.txt",
+      lead: "Don’t cut the theme and needed listings.",
+      items: [
+        { id: "admin", label: "/wp-admin/ closed (ajax Allow if needed)" },
+        { id: "assets", label: "Theme CSS/JS and uploads not under broad Disallow" },
+        { id: "cats", label: "Categories/tags closed only deliberately" },
+        { id: "sitemap", label: "Sitemap listed over HTTPS" },
+        { id: "mirror", label: "Mirror via 301/HTTPS, not Host alone" },
+        { id: "check", label: "Webmaster / Search Console check planned" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Checks",
+        title: "Mini quiz: WordPress robots.txt",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "rw1",
+            question: "Disallow on all of /wp-content…",
+            options: [
+              "Is always best practice",
+              "Is risky: can close theme styles and scripts",
+              "Replaces Sitemap",
+              "Is required for pretty permalinks",
+            ],
+            correct: 1,
+            explain: "Surgical bans are safer than a broad /wp-.",
+          },
+          {
+            id: "rw2",
+            question: "Disallow in robots.txt…",
+            options: [
+              "Always equals noindex",
+              "Asks not to crawl a path; for deindexing use noindex",
+              "Guarantees TOP",
+              "Only needs Host",
+            ],
+            correct: 1,
+            explain: "Crawl and index are different mechanisms.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "wordpress-plaginy": {
+    checklist: {
+      afterTitleIncludes: "Before installing",
+      title: "Before installing a plugin",
+      lead: "Task and backup beat “popular.”",
+      items: [
+        { id: "backup", label: "Backup done (or staging)" },
+        { id: "goal", label: "Plugin job is clear" },
+        { id: "dup", label: "No duplicate of a tool already installed" },
+        { id: "source", label: "Source is official / a clear vendor" },
+        { id: "compat", label: "WP version compatibility checked" },
+        { id: "activate", label: "Plan to activate and check the site" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Install via FTP or file manager",
+        title: "Mini quiz: WordPress plugins",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "wp1",
+            question: "Where to upload a plugin via FTP…",
+            options: [
+              "Into the site root as loose files",
+              "Into wp-content/plugins/plugin-name/",
+              "Only into uploads",
+              "Into robots.txt",
+            ],
+            correct: 1,
+            explain: "Standard WordPress plugins directory.",
+          },
+          {
+            id: "wp2",
+            question: "Nulled and pirate plugins…",
+            options: [
+              "Are fine for saving money",
+              "Risk a backdoor — prefer an official source",
+              "Are required for SEO",
+              "Replace a backup",
+            ],
+            correct: 1,
+            explain: "Faked code is a common breach cause.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "bitrix-publichnyy-razdel": {
+    checklist: {
+      afterTitleIncludes: "Edit mode",
+      title: "Before public-area edits",
+      lead: "Rights and area beat the button.",
+      items: [
+        { id: "rights", label: "Rights for needed bar buttons exist" },
+        { id: "area", label: "Clear: include / page / component" },
+        { id: "cache", label: "On a “stale” view — cache clear planned" },
+        { id: "seo", label: "SEO fields not confused with promotion" },
+        { id: "template", label: "Template/debug left alone without a task" },
+        { id: "backup", label: "Critical edits have a rollback rule" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Cache, SEO fields, and more",
+        title: "Mini quiz: Bitrix public section",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "bx1",
+            question: "Edit mode is for…",
+            options: [
+              "Replacing Webmaster",
+              "Editing areas right on the site",
+              "Installing WordPress",
+              "Closing robots.txt",
+            ],
+            correct: 1,
+            explain: "Visual editing of the public area.",
+          },
+          {
+            id: "bx2",
+            question: "If there’s no bar after login…",
+            options: [
+              "The site is always broken",
+              "Often missing rights — ask an administrator",
+              "Only FTP is needed",
+              "Host in robots is required",
+            ],
+            correct: 1,
+            explain: "Bar access is set by roles.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "bitrix-svoystva-infoblokov": {
+    checklist: {
+      afterTitleIncludes: "How output works",
+      title: "Before editing template.php",
+      lead: "Template copy, not core.",
+      items: [
+        { id: "code", label: "Property code matches the admin" },
+        { id: "filled", label: "Property filled on the element" },
+        { id: "tpl", label: "Edit in a component template copy" },
+        { id: "type", label: "Property type accounted for (string/list/file)" },
+        { id: "cache", label: "Cache clear after deploy" },
+        { id: "escape", label: "No bare unescaped HTML output" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Practice in the template",
+        title: "Mini quiz: infoblock properties",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "bi1",
+            question: "DISPLAY_PROPERTIES are needed to…",
+            options: [
+              "Replace hosting",
+              "Show prepared element properties in the template",
+              "Configure REG.ru",
+              "Close wp-admin",
+            ],
+            correct: 1,
+            explain: "It’s the property array for site output.",
+          },
+          {
+            id: "bi2",
+            question: "2017 output snippets…",
+            options: [
+              "Can always be copied without checking",
+              "Must be checked against Bitrix version and your property code",
+              "Matter more than the SEO button",
+              "Replace documentation",
+            ],
+            correct: 1,
+            explain: "API and templates changed.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "registratsiya-domena": {
+    checklist: {
+      afterTitleIncludes: "Search and checkout",
+      title: "Before paying for a domain",
+      lead: "Name and invoice beat the green button.",
+      items: [
+        { id: "name", label: "Domain spelling double-checked" },
+        { id: "zone", label: "Zone chosen deliberately" },
+        { id: "extra", label: "Extra add-ons removed from the invoice" },
+        { id: "owner", label: "Owner data without typos" },
+        { id: "ns", label: "NS/DNS plan is clear" },
+        { id: "renew", label: "Renewal date will go on the calendar" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Owner data and NS",
+        title: "Mini quiz: domain registration",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "rd1",
+            question: "Name servers are needed to…",
+            options: [
+              "Replace SSL",
+              "Point where DNS/hosting for the name lives",
+              "Reach TOP in a week",
+              "Cancel payment",
+            ],
+            correct: 1,
+            explain: "Without DNS the name doesn’t point to the site.",
+          },
+          {
+            id: "rd2",
+            question: "REG.ru in the guide…",
+            options: [
+              "Is the only possible registrar",
+              "Is a process example; pick a registrar by criteria",
+              "Is required by law",
+              "Replaces choosing a zone",
+            ],
+            correct: 1,
+            explain: "The flow is similar across registrars.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "bitrix-admin": {
+    checklist: {
+      afterTitleIncludes: "If you forgot the password",
+      title: "Before resetting access",
+      lead: "Email first, then hosting.",
+      items: [
+        { id: "url", label: "Checked URL /bitrix/admin/" },
+        { id: "caps", label: "Layout and Caps Lock ruled out" },
+        { id: "mail", label: "User email and Spam checked" },
+        { id: "cache", label: "On odd failures — cookies/cache cleared" },
+        { id: "rights", label: "Clear that the role can enter the admin" },
+        { id: "harden", label: "After sign-in — new password and admin review" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "After sign-in: basic hygiene",
+        title: "Mini quiz: Bitrix admin",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "ba1",
+            question: "The standard Bitrix admin path is…",
+            options: [
+              "/wp-admin/",
+              "/bitrix/admin/",
+              "FTP only",
+              "Search Console only",
+            ],
+            correct: 1,
+            explain: "Classic 1C-Bitrix backend URL.",
+          },
+          {
+            id: "ba2",
+            question: "The on-site toolbar and /bitrix/admin…",
+            options: [
+              "Are the same thing",
+              "Are different surfaces: public edits vs full backend",
+              "Exist only for WordPress",
+              "Replace NS",
+            ],
+            correct: 1,
+            explain: "Public toolbar ≠ full admin.",
+          },
+        ],
+      },
+    ],
+  },
+
+  hosting: {
+    checklist: {
+      afterTitleIncludes: "What to check when choosing",
+      title: "Before paying for hosting",
+      lead: "The job beats the first-month discount.",
+      items: [
+        { id: "type", label: "Site type and load defined" },
+        { id: "stack", label: "Stack (CMS/PHP/DB) fits the plan" },
+        { id: "backup", label: "Backups and restore test are clear" },
+        { id: "sla", label: "SLA/uptime is in the contract, not only ads" },
+        { id: "renew", label: "Renewal price and access (2FA) locked" },
+        { id: "dns", label: "DNS/NS plan after payment is clear" },
+      ],
+    },
+    quizzes: [
+      {
+        afterTitleIncludes: "Speed, uptime, and search",
+        title: "Mini quiz: hosting",
+        lead: "Two checks.",
+        questions: [
+          {
+            id: "h1",
+            question: "Domain and hosting…",
+            options: [
+              "Are always the same thing",
+              "Are different services: DNS name and site home",
+              "Replace SSL",
+              "Guarantee TOP-10 in a month",
+            ],
+            correct: 1,
+            explain: "You can buy them from different companies.",
+          },
+          {
+            id: "h2",
+            question: "99.9% uptime…",
+            options: [
+              "Automatically ranks you",
+              "Is about availability; rankings are separate work",
+              "Matters only for free hosting",
+              "Replaces backups",
+            ],
+            correct: 1,
+            explain: "Infrastructure ≠ SEO outcome.",
+          },
+        ],
+      },
+    ],
+  },
 };
