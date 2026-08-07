@@ -294,7 +294,6 @@ import { relevantnostSaytaEn } from "./posts/relevantnost-sayta";
 import { sotssetiDlyaBiznesaEn } from "./posts/sotsseti-dlya-biznesa";
 import { ctrFaktorGoogleEn } from "./posts/ctr-faktor-google";
 import { chtoTakoeSeoEn } from "./posts/chto-takoe-seo";
-import { cpmIliCpcEn } from "./posts/cpm-ili-cpc";
 import { razmeryBanneraEn } from "./posts/razmery-bannera";
 import { otsenkaStoimostiSaytaEn } from "./posts/otsenka-stoimosti-sayta";
 import { tsenaKlikaYandeksEn } from "./posts/tsena-klika-yandeks";
@@ -721,7 +720,6 @@ export const blogTranslationsEn: Record<string, BlogPost> = {
   "sotsseti-dlya-biznesa": sotssetiDlyaBiznesaEn,
   "ctr-faktor-google": ctrFaktorGoogleEn,
   "chto-takoe-seo": chtoTakoeSeoEn,
-  "cpm-ili-cpc": cpmIliCpcEn,
   "razmery-bannera": razmeryBanneraEn,
   "otsenka-stoimosti-sayta": otsenkaStoimostiSaytaEn,
   "tsena-klika-yandeks": tsenaKlikaYandeksEn,

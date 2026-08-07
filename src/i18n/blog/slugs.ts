@@ -297,7 +297,6 @@ export const EN_BLOG_SLUGS = [
   "sotsseti-dlya-biznesa",
   "ctr-faktor-google",
   "chto-takoe-seo",
-  "cpm-ili-cpc",
   "razmery-bannera",
   "otsenka-stoimosti-sayta",
   "tsena-klika-yandeks",

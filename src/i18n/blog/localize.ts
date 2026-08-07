@@ -1169,43 +1169,7 @@ const articleCtaEn: Record<string, { title: string; text: string }> = {
     title: "Want to “ask Yandex for TOP” — and the ticket has no URL, dates, or Webmaster screens?",
     text: "We’ll self-check first, then file a clear ticket — diagnostics, not manual ranking.",
   },
-  "nazvanie-internet-magazina": {
-    title: "Store name sounds clever in the chat — but domain taken and nobody can dictate it?",
-    text: "We’ll shortlist, check domain/socials/conflicts, and validate with the audience — naming, not a TOP guarantee.",
-  },
-  "autrich": {
-    title: "Link marketplace looks samey — and template pitches get silence from editors?",
-    text: "We’ll build a fit donor list and personalized pitches — quality mentions, not spam volume.",
-  },
-  "programmy-seo": {
-    title: "Paid SEO suites piling up — and still no Wordstat, GSC, or a crawler in the loop?",
-    text: "We’ll map tools to tasks first — a stack by job, not an all-in-one cult.",
-  },
-  "operatory-poiska": {
-    title: "Need a quick index/dupe check — and old “42 operators” guides already lie?",
-    text: "We’ll use live site:/intitle:/filetype: checks — diagnostics, not a TOP button.",
-  },
-  "sayty-satellity": {
-    title: "Vendor pitches an “invisible domain farm” — and promises TOP in a month via links?",
-    text: "We’ll audit risk and a plan without controlled satellites — mentions on live sites, not a PBN.",
-  },
-  "sayt-ne-v-top": {
-    title: "Expecting TOP-10 in 30 days — and the brief confuses prep with ranking buildup?",
-    text: "We’ll diagnose age, tech, content, and filters — prep ~1 month; TOP planned 2–6 months.",
-  },
-  "yandeks-vebmaster": {
-    title: "No clear view of the Yandex index — and diagnostics pile up unread after releases?",
-    text: "We’ll verify Webmaster, sitemap, and a weekly triage — reports, not a manual TOP button.",
-  },
-  "trendy-seo": {
-    title: "CTR falls while SERP answers without a click — and the plan still chases keyword density?",
-    text: "We’ll strengthen intent pages, snippets, and panels — trends as accents, not a week-to-TOP myth.",
-  },
-  "tochki-vhoda": {
-    title: "Competitor landings steal demand — and your core still has no map of their entry URLs?",
-    text: "We’ll pull EP lists, cluster intents, and open landing tasks — ideas, not copy-paste.",
-  },
-  "vnutrennyaya-perelinkovka": {
+                    "vnutrennyaya-perelinkovka": {
     title: "Money pages sit as orphans — and every in-body link uses the same commercial anchor?",
     text: "We’ll crawl internals, mix anchors, and strengthen context links — structure first, not link magic.",
   },
@@ -1365,11 +1329,7 @@ const articleCtaEn: Record<string, { title: string; text: string }> = {
     title: "Still hearing “SEO = TOP in a month for everyone”?",
     text: "We’ll separate prep from core TOP horizons and set KPIs on leads — not magic ranking buttons.",
   },
-  "cpm-ili-cpc": {
-    title: "Budget fights over “impressions or clicks” without a clear goal?",
-    text: "We’ll pick CPM for reach and CPC/CPA for site actions — test both against leads, not a pretty CTR alone.",
-  },
-  "razmery-bannera": {
+    "razmery-bannera": {
     title: "Banner creative keeps cropping because the slot size was a guess?",
     text: "We’ll pull display vs file size via Inspect and set your own compressed creative — not a copy of someone else’s asset.",
   },
