@@ -108,8 +108,8 @@ const alternates =
           </p>
           <div class="home-topbar-actions">
             {
-              alternatePath && (
-                <div class="home-lang" aria-label={ui.langSwitchAria} data-lang-switch hidden>
+              import.meta.env.DEV && alternatePath && (
+                <div class="home-lang" aria-label={ui.langSwitchAria} data-lang-switch>
                   <a
                     class:list={["home-lang__btn", locale === "ru" && "is-active"]}
                     href={locale === "ru" ? path : alternatePath}

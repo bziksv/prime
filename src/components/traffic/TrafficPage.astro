@@ -113,7 +113,8 @@ const serviceLd = serviceJsonLd({
             <a href={homeHref}>{t.breadcrumbHome}</a> · <strong>{t.breadcrumbCurrent}</strong>
           </p>
           <div class="home-topbar-actions">
-            <div class="home-lang" aria-label={home.langSwitchAria} data-lang-switch hidden>
+            {import.meta.env.DEV && (
+            <div class="home-lang" aria-label={home.langSwitchAria} data-lang-switch>
               <a
                 class:list={["home-lang__btn", locale === "ru" && "is-active"]}
                 href="/prodvizhenie-sayta-po-trafiku/"
@@ -129,6 +130,7 @@ const serviceLd = serviceJsonLd({
                 data-locale-set="en">EN</a
               >
             </div>
+            )}
             <a href="#traffic-cta" class="v6-btn">{t.ctaTop}</a>
           </div>
         </header>

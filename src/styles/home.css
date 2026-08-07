@@ -815,6 +815,11 @@
   border: 1px solid rgba(15, 23, 42, 0.08);
 }
 
+/* Author `display` would otherwise override the HTML `hidden` attribute. */
+.home-lang[hidden] {
+  display: none !important;
+}
+
 .home-lang__btn {
   min-width: 2.1rem;
   padding: 0.35rem 0.55rem;

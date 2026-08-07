@@ -2,16 +2,11 @@
  * Soft locale offer based on navigator.languages (not IP).
  * Cookie prime_locale_pref remembers choice / dismiss.
  *
- * Language switcher (RU/EN) is shown only on localhost — production uses
- * browser-language offer only.
+ * RU/EN topbar switcher markup is build-gated with `import.meta.env.DEV`
+ * (astro dev only) — it must not ship on production.
  */
 const COOKIE = "prime_locale_pref";
 const OFFER_KEY = "prime_locale_offer_dismissed";
-
-function isLocalHost(): boolean {
-  const host = location.hostname;
-  return host === "localhost" || host === "127.0.0.1" || host === "[::1]" || host.endsWith(".local");
-}
 
 function readCookie(name: string): string | null {
   const m = document.cookie.match(new RegExp(`(?:^|; )${name}=([^;]*)`));
@@ -22,12 +17,6 @@ function writeCookie(name: string, value: string, days = 365) {
   const maxAge = days * 24 * 60 * 60;
   document.cookie = `${name}=${encodeURIComponent(value)}; path=/; max-age=${maxAge}; samesite=lax`;
 }
-
-const local = isLocalHost();
-
-document.querySelectorAll<HTMLElement>("[data-lang-switch]").forEach((el) => {
-  if (local) el.hidden = false;
-});
 
 document.querySelectorAll<HTMLElement>("[data-locale-set]").forEach((el) => {
   el.addEventListener("click", () => {
@@ -49,8 +38,9 @@ if (offer) {
   const pageLocale = document.documentElement.getAttribute("data-locale") || "ru";
 
   // Soft offer when browser prefers another locale and user has no saved choice.
-  // Skip on localhost if the switcher is available (manual QA).
-  if (!local && !dismissed && !pref && prefersTarget && pageLocale !== target) {
+  // Skip when the DEV-only topbar switcher is present (manual QA on localhost).
+  const hasDevSwitcher = Boolean(document.querySelector("[data-lang-switch]"));
+  if (!hasDevSwitcher && !dismissed && !pref && prefersTarget && pageLocale !== target) {
     offer.hidden = false;
   }
 
