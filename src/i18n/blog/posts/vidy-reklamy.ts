@@ -8,10 +8,10 @@ export const vidyReklamyEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/vidy-reklamy/cover-en.webp",
   excerpt:
-    "Channel overview: SEO, paid search, social targeting, teasers, and banners — pros, cons, and when to choose what. No top-ranking guarantees and no advice for shady offers.",
+    "Channel overview: SEO, paid search, social targeting, teasers, and banners — pros, cons, and when to choose what. No page-one guarantees and no advice for shady offers.",
   lead: [
     "Online advertising isn’t just “banner or post.” By reach, it can be narrow (people already searching for your product), broad (segment by age, gender, interests), or mass (brand, FMCG).",
-    "Five core channel types work better together than as a “pick one forever” bet. Figures like “1000% ROI” and “pay only for top rankings” from old materials aren’t worth copying — look at unit economics in your niche.",
+    "Below: five working types and how to combine them. Figures like “1000% ROI” and “pay only for page one” from old materials aren’t worth copying — look at unit economics in your niche.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const vidyReklamyEn: BlogPost = {
     },
     {
       q: "What brings leads faster?",
-      a: "Usually paid search and social targeting with a ready landing page. SEO is a long game: prep takes a few weeks to about a month; a meaningful share of core keywords in top rankings is typically 2–6 months out.",
+      a: "Usually paid search and social targeting with a ready landing page. SEO is a long game: prep takes a few weeks to about a month; a meaningful share of the core set on page one is typically planned for 2–6 months after work starts.",
     },
     {
       q: "Can I get by with only SEO and paid search?",
@@ -31,8 +31,8 @@ export const vidyReklamyEn: BlogPost = {
       a: "Rarely. Shock ads on low-quality sites hurt your image. For a legitimate business, mainstream ad networks and clear creative are the better bet.",
     },
     {
-      q: "Does anyone guarantee top-10 rankings?",
-      a: "An honest contractor doesn’t guarantee SERP positions. “Pay only for top rankings” sounds appealing, but algorithms change. Lock in scope of work, metrics, and reporting transparency instead.",
+      q: "Does anyone guarantee first-page rankings?",
+      a: "An honest contractor doesn’t guarantee SERP positions. “Pay only for page one” sounds appealing, but algorithms change. Lock in scope of work, metrics, and reporting transparency instead.",
     },
   ],
   sections: [
@@ -40,7 +40,7 @@ export const vidyReklamyEn: BlogPost = {
       title: "SEO and paid search",
       level: 2,
       paras: [
-        "SEO is visibility in organic search results for demand-driven queries. Pros: users trust a non-ad click, scalable keyword coverage, relatively low CPA over time. Cons: not instant, no position guarantee, and you need technical work, content, and patience. Early movement often shows after a few months; a stable share of core keywords in top rankings typically takes 2–6 months after work starts — not from payment day.",
+        "SEO is visibility in organic search results for demand-driven queries. Pros: users trust a non-ad click, scalable keyword coverage, relatively low CPA over time. Cons: not instant, no position guarantee, and you need technical work, content, and patience. Early movement often shows after a few months; a stable share of the core set on page one is typically planned for 2–6 months after work starts — not from payment day.",
         "Paid search (search plus display networks) shows ads by query or interest. Pros: fast launch, precise intent on search, handy for promos. Cons: you pay per click continuously; without a strong landing page you burn budget. Display retargeting follows people who visited your site — it’s a reminder, not magic.",
         "The classic pair: paid search covers demand now, SEO builds organic. As rankings strengthen, you can shift paid budget — not as a rule, but as a hypothesis backed by your numbers. There’s no direct “paid for search ads → bought SEO positions.”",
       ],
@@ -48,10 +48,10 @@ export const vidyReklamyEn: BlogPost = {
         {
           intro: "When to start with this pair:",
           items: [
-            "you have a site and an offer;",
-            "people search for what you sell;",
-            "you need both quick leads and a long-term channel;",
-            "you’re ready to count leads — not just clicks.",
+            "you have a site and an offer",
+            "people search for what you sell",
+            "you need both quick leads and a long-term channel",
+            "you’re ready to count leads — not just clicks",
           ],
         },
       ],
@@ -79,11 +79,11 @@ export const vidyReklamyEn: BlogPost = {
         {
           intro: "Quick guide:",
           items: [
-            "need leads fast — paid search or targeting;",
-            "need a long search channel — SEO;",
-            "need awareness — banners plus content;",
-            "care about reputation — no shock teasers;",
-            "measure CPL/CPA and share of qualified leads.",
+            "need leads fast — paid search or targeting",
+            "need a long search channel — SEO",
+            "need awareness — banners plus content",
+            "care about reputation — no shock teasers",
+            "measure CPL/CPA and share of qualified leads",
           ],
         },
       ],

@@ -11,8 +11,12 @@ export const postFacebookEn: BlogPost = {
     "How to publish Facebook posts on a personal wall, in a group, and on a Page: formats, pinning, scheduling, and boosting — without outdated button screenshots.",
   lead: [
     "Publishing on Facebook starts with the “What’s on your mind” field on a profile, in a group, or on a business Page. Formats differ: text, photo/video, poll, event, Live — and you can combine them.",
-    "We cover the logic of creating a post, useful settings, and when paid boost makes sense. Meta menus change; check image sizes and limits in Help. Starting a Page or group lives in a separate article.",
+    "Below: how to create a post, useful settings, and when a paid boost makes sense. Meta menus change; check image sizes and limits in Help. The Meta disclaimer is on the page. Starting a Page or group is covered in a separate article.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. Facebook* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the services may have legal consequences.",
+  },
   faq: [
     {
       q: "How is a Page post different from a group post?",
@@ -24,7 +28,7 @@ export const postFacebookEn: BlogPost = {
     },
     {
       q: "Is scheduling available to everyone?",
-      a: "Planning is usually easier on Pages with editor or admin roles. Personal profiles have a thinner feature set.",
+      a: "Scheduling is usually easier on Pages with editor or admin roles. Personal profiles have a thinner feature set.",
     },
     {
       q: "Can I boost any Facebook post?",
@@ -55,7 +59,7 @@ export const postFacebookEn: BlogPost = {
       level: 2,
       paras: [
         "Text, photo and video, Live, event, poll, list — the base set. On a Page you may also see notes, products, and jobs — if enabled in the region.",
-        "Write so meaning reads in preview: long walls of text rarely get finished. Structure, paragraphs, and fitting emoji help scanning.",
+        "Write so the point reads in the preview: long walls of text rarely get finished. Structure, paragraphs, and fitting emoji help scanning.",
       ],
       lists: [
         {
@@ -65,7 +69,7 @@ export const postFacebookEn: BlogPost = {
             "media of reasonable weight",
             "tags — before publish if the UI requires it",
             "link and preview check",
-            "tone audit: not spam and not clickbait without an offer.",
+            "tone audit: not spam and not clickbait without an offer",
           ],
         },
       ],
@@ -74,7 +78,7 @@ export const postFacebookEn: BlogPost = {
       title: "Settings after publishing",
       level: 2,
       paras: [
-        "You can edit a post via the “⋯” menu. On Pages, pin-to-top and scheduling are often available.",
+        "You can edit a post via the “⋯” menu. On Pages, pinning and scheduling are often available.",
         "Comments are limited with unwanted-word filters and rules on who can write. A full ban may be unavailable — check current timeline and public-post settings.",
       ],
     },
@@ -91,7 +95,7 @@ export const postFacebookEn: BlogPost = {
       level: 2,
       paras: [
         "The “Boost” button on a Page post opens a simplified or full ads flow: audience, duration, budget. You need admin rights and linked ads access.",
-        "Organic without an offer and engagement rarely takes off from one button. Content first, then scale. Campaign mistake breakdowns live in Facebook Ads cases.",
+        "Organic without an offer and engagement rarely flies from one button alone. Content first, then scale. Campaign mistake breakdowns live in Facebook Ads cases.",
       ],
       links: [
         {
@@ -105,9 +109,9 @@ export const postFacebookEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Important",
-          text: "Facebook/Meta Ads availability depends on the ads account and region. This material is informational.",
+          title: "Note",
           kind: "tip",
+          text: "Facebook/Meta Ads availability depends on the ads account and region. This material is informational.",
         },
       ],
     },

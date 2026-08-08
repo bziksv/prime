@@ -11,11 +11,11 @@ export const performanceMarketingEn: BlogPost = {
     "Performance marketing is about measurable funnel results: leads, sales, CPA, and ROAS. How it differs from branding, which channels fit, and why data and an agency matter.",
   lead: [
     "Performance marketing judges ads and channels by a target action: lead, purchase, install, or call. The point is not pretty reach on its own, but the chain from budget to action to economics.",
-    "We define the approach, contrast it with branding, and spell out the role of data and agencies. Market figures from 2018–2019 in older reviews are outdated; the logic of the approach is not.",
+    "Below: definition, contrast with branding, and the role of data and agencies. Market figures from 2018–2019 in older reviews are outdated; the logic of the approach is not.",
   ],
   faq: [
     {
-      q: "Is performance marketing only paid search?",
+      q: "Is performance only paid search?",
       a: "No. Paid search was the core, but the loop also includes other channels with a measurable action: parts of social, email, SEO when leads are tracked, and apps — as long as end-to-end measurement exists.",
     },
     {
@@ -23,12 +23,12 @@ export const performanceMarketingEn: BlogPost = {
       a: "Branding sits closer to awareness and creative. Performance sits closer to a countable user result. In practice they often share one budget split.",
     },
     {
-      q: "Is clicking “optimize” in the ad account enough?",
+      q: "Is clicking a button in the ad account enough?",
       a: "No. Auto-bidding helps, but without a goal, analytics, landing page, and offer, the budget leaks. Technology doesn’t replace problem framing.",
     },
     {
       q: "Which KPIs are typical?",
-      a: "CPA/CPL, CPO, conversion rate, ROAS, and ROMI (return on marketing investment), plus cost per lead or sale. Lock the set in the brief before launch.",
+      a: "CPA/CPL, CPO, conversion rate, ROAS/ROMI, cost per lead or sale. Lock the set in the brief before launch.",
     },
     {
       q: "Do I need an agency?",
@@ -55,7 +55,7 @@ export const performanceMarketingEn: BlogPost = {
             "channels with tracking",
             "landing page and offer",
             "optimization by action or revenue",
-            "a report the business understands.",
+            "a report the business understands",
           ],
         },
       ],
@@ -92,7 +92,7 @@ export const performanceMarketingEn: BlogPost = {
             "spend and clicks from ad accounts",
             "on-site behavior",
             "leads, calls, and sales",
-            "assisted paths across channels.",
+            "assisted paths across channels",
           ],
         },
       ],
@@ -116,9 +116,9 @@ export const performanceMarketingEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Picking a vendor",
           text: "The word “performance” in the name isn’t a guarantee. Look at the contract, KPIs, data transparency, and readiness to talk about business money — not only CTR.",
-          kind: "tip",
         },
       ],
       links: [

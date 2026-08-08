@@ -5,13 +5,13 @@ export const yandeksAuditoriiEn: BlogPost = {
   slug: "yandeks-auditorii",
   title: "Audience targeting in Yandex: Crypta, segments, and Direct",
   date: "2017-01-31",
-  category: "Paid search",
+  category: "Digital marketing",
   cover: "/images/blog/yandeks-auditorii/cover-en.webp",
   excerpt:
     "How Yandex segments users for ads: Crypta signals, demographics, interests, remarketing, and look-alike — without outdated “+35% conversion” claims or guides for uploading other people’s contact lists.",
   lead: [
     "In Yandex ads you build audiences with more than keywords: interests and behavior, geo, demographics, Metrica segments, CRM lists, and lookalikes. Behind the “who is this” estimate sits profile tech (historically Crypta and models on ecosystem behavior).",
-    "What those signals mean in practice, and how to use them in Yandex Direct without treating old UI labels as gospel. Product-audience portraits and account-level remarketing setup each deserve their own deep dive; here we stay on the signal layer.",
+    "Below: what those signals mean and how to use them in Direct. Audience-condition UI labels and report names have shifted — check current Direct Help. How to describe a product audience is a separate article; account-level remarketing practice is separate too.",
   ],
   faq: [
     {
@@ -31,7 +31,7 @@ export const yandeksAuditoriiEn: BlogPost = {
       a: "Only with a lawful basis and consent. Bought lists risk blocks and claims. Skip gray uploads.",
     },
     {
-      q: "Does remarketing always lift conversion by 35%?",
+      q: "Does remarketing always raise conversion by 35%?",
       a: "No. Warm audiences often convert better than cold, but percentages from old cases aren’t a norm. Watch your own CPA and frequency.",
     },
   ],
@@ -47,11 +47,11 @@ export const yandeksAuditoriiEn: BlogPost = {
         {
           intro: "Typical axes:",
           items: [
-            "interests and behavior;",
-            "geography;",
-            "gender and age (probabilistic);",
-            "devices and time;",
-            "your Metrica segments / lists.",
+            "interests and behavior",
+            "geography",
+            "gender and age (probabilistic)",
+            "devices and time",
+            "your Metrica segments / lists",
           ],
         },
       ],
@@ -114,11 +114,11 @@ export const yandeksAuditoriiEn: BlogPost = {
         {
           intro: "Before uploading a list:",
           items: [
-            "lawful basis and consent exist;",
-            "data is current and hashed per account rules;",
-            "opt-outs excluded;",
-            "frequency and creative plan exist;",
-            "goals measured, not only clicks.",
+            "lawful basis and consent exist",
+            "data is current and hashed per account rules",
+            "opt-outs excluded",
+            "frequency and creative plan exist",
+            "goals measured, not only clicks",
           ],
         },
       ],
@@ -127,8 +127,8 @@ export const yandeksAuditoriiEn: BlogPost = {
       title: "What not to promise yourself",
       level: 2,
       paras: [
-        "Segmentation does not fix a weak offer or a slow landing page. “Correct Crypta” does not replace search semantics and ad tests.",
-        "Don’t copy other people’s conversion-lift numbers from 2017 articles: your CPA and bounce rate are your own.",
+        "Segmentation does not fix a weak offer or a slow landing page. “Correct Crypta” does not replace search keywords and ad tests.",
+        "Don’t copy other people’s conversion-gain numbers from 2017 articles: your CPA and bounce rate are your own.",
       ],
       links: [
         {

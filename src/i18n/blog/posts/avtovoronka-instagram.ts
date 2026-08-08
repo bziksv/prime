@@ -5,21 +5,21 @@ export const avtovoronkaInstagramEn: BlogPost = {
   slug: "avtovoronka-instagram",
   title: "Instagram autofunnel: scenario, Direct, and policy limits",
   date: "2020-04-15",
-  category: "Digital marketing",
+  category: "Content marketing",
   cover: "/images/blog/avtovoronka-instagram/cover-en.webp",
   excerpt:
-    "How to build an Instagram autofunnel: profile, lead magnet, touch chain, and Direct — without cold spam, gray bots, or “conversion will grow by itself.”",
+    "How to build an Instagram autofunnel: profile, lead magnet, touch chain, and Direct — without cold spam, grey bots, or “conversion will grow by itself.”",
   lead: [
     "An Instagram autofunnel is a mapped path: someone saw content or an ad → showed interest → got value → reached a lead or purchase. Some steps can be automated (greeting, reminder); hard questions stay human.",
-    "The basic funnel logic is in the general piece. On Instagram the levers are profile, content, Direct, and careful auto-replies — not mass DMs or shady “autofunnels.” UI labels change; use the scenario and rules as the guide, not 2020 screenshots.",
+    "The basic funnel logic is in the general piece. Here: platform specifics — profile, content, Direct, and what not to do. UI and auto-replies change; trust the scenario and the rules, not 2020 screenshots.",
   ],
   legalNotice: {
-    title: "Dear readers!",
-    text: "This article is for information only and is not an invitation to use the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
-      q: "How is an Instagram autofunnel different from a general one?",
+      q: "How is it different from a general autofunnel?",
       a: "Same scheme (touch → warm-up → offer). On Instagram the profile, Stories/Reels, and Direct dialogue matter more; an email chain is optional.",
     },
     {
@@ -31,7 +31,7 @@ export const avtovoronkaInstagramEn: BlogPost = {
       a: "We don’t recommend them. Limit and restriction risk outweighs the upside. Use only tools within platform rules.",
     },
     {
-      q: "Which businesses does an Instagram autofunnel fit?",
+      q: "Which businesses does it fit?",
       a: "More often services, info products, and medium/long cycles. Impulse e-com with a huge catalog is harder to force into one chain.",
     },
     {
@@ -39,11 +39,11 @@ export const avtovoronkaInstagramEn: BlogPost = {
       a: "Not always. Hot demand can work with a short offer. A product matrix is a tool, not dogma.",
     },
     {
-      q: "When do you need a manager in the funnel?",
+      q: "When do you need a manager?",
       a: "The pricier and more complex the deal — the earlier. Automation doesn’t replace a consult.",
     },
     {
-      q: "Where should you start with an Instagram autofunnel?",
+      q: "Where should you start?",
       a: "Path map and drop-off measurement → clear profile and CTA → Direct/content scenario → test on small traffic.",
     },
   ],
@@ -55,7 +55,6 @@ export const avtovoronkaInstagramEn: BlogPost = {
         "It cuts lead loss between “liked” and “messaged.” It buys warm-up time when the decision isn’t impulse.",
         "Not “hidden ads the client won’t notice” — an honest useful path to the offer. Manipulation without value kills trust.",
       ],
-      lists: [],
       links: [
         {
           label: "Autofunnel: basics",
@@ -74,9 +73,9 @@ export const avtovoronkaInstagramEn: BlogPost = {
         {
           intro: "Minimum before launch:",
           items: [
-            "a clear CTA in the bio or pinned post;",
-            "a post/Story with delivery/payment terms if relevant;",
-            "a first-reply scenario in Direct.",
+            "a clear CTA in the bio or pinned post",
+            "a post/Story with delivery/payment terms if relevant",
+            "a first-reply scenario in Direct",
           ],
         },
       ],
@@ -98,10 +97,10 @@ export const avtovoronkaInstagramEn: BlogPost = {
         "Classic: lead magnet (value for a contact / chat opt-in) → affordable entry offer → core product → upsell. Between steps — useful content, not only “buy.”",
         "Timelines like “main product in exactly two weeks” are old-scheme guides, not law. Watch segment behavior and tests.",
       ],
-      lists: [],
       notes: [
         {
           title: "If the client stalls",
+          kind: "tip",
           text: "An extra chain fits with honest motivation (discount, demo, content piece) — not pressure. Frequency and tone follow unsubscribes and complaints.",
         },
       ],
@@ -113,7 +112,6 @@ export const avtovoronkaInstagramEn: BlogPost = {
         "Working scenarios: reply to inbound, clarify a lead after an ad/Story, deliver material on a keyword — within the rules.",
         "Don’t confuse a service auto-reply with a cold blast to strangers. More in the Direct piece.",
       ],
-      lists: [],
       links: [
         {
           label: "Direct without spam",
@@ -131,7 +129,6 @@ export const avtovoronkaInstagramEn: BlogPost = {
         "Dropping humans entirely on an expensive deal.",
         "Company-wide launch with no pilot and step metrics.",
       ],
-      lists: [],
     },
     {
       title: "What to remember",
@@ -141,7 +138,6 @@ export const avtovoronkaInstagramEn: BlogPost = {
         "Direct is service for inbound and opt-ins — not a spam cannon.",
         "Platform UI ages faster than the scenario — update steps; don’t copy old screenshots.",
       ],
-      lists: [],
     },
   ],
   closing: [

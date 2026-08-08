@@ -8,10 +8,10 @@ export const yandeksVebmasterEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/yandeks-vebmaster/cover-en.webp",
   excerpt:
-    "Why Yandex Webmaster matters, how to verify a site, which sections to watch (overview, diagnostics, index, queries, links, tools), and how not to confuse reports with a TOP button.",
+    "Why Yandex Webmaster matters, how to verify a site, which sections to watch (overview, diagnostics, index, queries, links, tools), and how not to confuse reports with a ranking switch.",
   lead: [
     "Yandex Webmaster is the panel that connects your site to Yandex Search: indexing, errors, queries, sitemap, security, and service settings. Without it, site fixes often stay blind — the bot crawls differently than you think.",
-    "Menus and tab names move — lean on report meaning and current Yandex Help. How to add a property, which blocks to check regularly, and how to read data without obsessing over rankings. Webmaster does not manually put a site in TOP.",
+    "Below: how to add a property, which blocks to check regularly, and how to read data without obsessing over positions. Menus and tab names move — lean on report meaning and current Yandex Help. Webmaster does not manually push a site up the results.",
   ],
   faq: [
     {
@@ -27,8 +27,8 @@ export const yandeksVebmasterEn: BlogPost = {
       a: "Not the only URL source, but it helps mid-size and large sites. List it in robots.txt and add it in Webmaster.",
     },
     {
-      q: "Does a recrawl request mean instant TOP rankings?",
-      a: "No. It’s a request to look at a URL sooner. Rankings depend on page quality, competition, and time; planned core share in TOP often grows two to six months after work starts — prep is not the same as TOP.",
+      q: "Does a recrawl request mean instant page-one rankings?",
+      a: "No. It’s a request to look at a URL sooner. Rankings depend on page quality, competition, and time; planned share of the core on page one often grows over two to six months after work starts — prep is not the same as rankings.",
     },
     {
       q: "Does IQS still matter?",
@@ -59,11 +59,11 @@ export const yandeksVebmasterEn: BlogPost = {
         {
           intro: "Typical jobs:",
           items: [
-            "verify ownership and set the region;",
-            "watch the index and exclusions;",
-            "catch diagnostic and security errors;",
-            "review query stats;",
-            "manage moves, crawl rate, notifications.",
+            "verify ownership and set the region",
+            "watch the index and exclusions",
+            "catch diagnostic and security errors",
+            "review query stats",
+            "manage moves, crawl rate, notifications",
           ],
         },
       ],
@@ -89,10 +89,10 @@ export const yandeksVebmasterEn: BlogPost = {
         {
           intro: "Right after adding:",
           items: [
-            "submit a sitemap;",
-            "check robots.txt with the tool;",
-            "turn on email notifications;",
-            "delegate access to a vendor if needed.",
+            "submit a sitemap",
+            "check robots.txt with the tool",
+            "turn on email notifications",
+            "delegate access to a vendor if needed",
           ],
         },
       ],
@@ -112,16 +112,16 @@ export const yandeksVebmasterEn: BlogPost = {
       level: 2,
       paras: [
         "Overview is a quick pulse: issues, search updates, clicks, crawls, links. Don’t dig everything at once: critical and fatal errors, security and violations first, then possible notes.",
-        "Diagnostics flags typical holes (empty descriptions, availability, certificate, etc.) and points to fixes. It’s a health checklist — not a score of how “TOP” you are. Some old quality badges and IQS from 2019–2020 guides are obsolete — lean on current screens.",
+        "Diagnostics flags typical holes (empty descriptions, availability, certificate, and the like) and points to fixes. It’s a health checklist — not a score of how high you rank. Some old quality badges and IQS from 2019–2020 guides are obsolete — lean on current screens.",
       ],
       lists: [
         {
           intro: "Triage priority:",
           items: [
-            "security and violations;",
-            "errors that block crawl or index;",
-            "mass page exclusions;",
-            "then snippet cosmetics and tips.",
+            "security and violations",
+            "errors that block crawl or index",
+            "mass page exclusions",
+            "then snippet cosmetics and tips",
           ],
         },
       ],
@@ -147,11 +147,11 @@ export const yandeksVebmasterEn: BlogPost = {
         {
           intro: "Check regularly:",
           items: [
-            "pages in search vs expectation;",
-            "exclusion reasons;",
-            "sitemap status;",
-            "status codes on key URLs;",
-            "the mirror after a release or move.",
+            "pages in search vs expectation",
+            "exclusion reasons",
+            "sitemap status",
+            "status codes on key URLs",
+            "the mirror after a release or move",
           ],
         },
       ],
@@ -174,17 +174,17 @@ export const yandeksVebmasterEn: BlogPost = {
       title: "Search queries and links",
       level: 2,
       paras: [
-        "Query stats: impressions, clicks, CTR, average positions. Query groups help watch the core and landings. Recommended tips are ideas for semantics and ads, not a TOP autopilot — check intent and competition.",
+        "Query stats: impressions, clicks, CTR, average positions. Query groups help watch the core and landings. Recommended tips are ideas for semantics and ads, not an autopilot for rankings — check intent and competition.",
         "In links, watch external donor growth and anchors; internals help find broken links. A sharp spammy spike is a reason to audit the profile — not to celebrate “we’re being linked.”",
       ],
       lists: [
         {
           intro: "How to read queries:",
           items: [
-            "impressions up, clicks flat — snippet or intent;",
-            "clicks down at the same impressions — SERP or competitors;",
-            "commercial-core groups — separate monitoring;",
-            "don’t confuse average position with a forever place.",
+            "impressions up, clicks flat — snippet or intent",
+            "clicks down at the same impressions — SERP or competitors",
+            "commercial-core groups — separate monitoring",
+            "don’t confuse average position with a forever place",
           ],
         },
       ],
@@ -214,10 +214,10 @@ export const yandeksVebmasterEn: BlogPost = {
         {
           intro: "Post-release mini set:",
           items: [
-            "robots and sitemap error-free;",
-            "200/301 checks on key URLs;",
-            "mobile fitness of critical landings;",
-            "structured data if you claim rich snippets.",
+            "robots and sitemap error-free",
+            "200/301 checks on key URLs",
+            "mobile fitness of critical landings",
+            "structured data if you claim rich snippets",
           ],
         },
       ],
@@ -244,16 +244,16 @@ export const yandeksVebmasterEn: BlogPost = {
       level: 2,
       paras: [
         "In settings turn on critical-issue notifications, delegate access to an agency, link Metrica if needed. Don’t give full access to everyone — only people who actually run the site.",
-        "Webmaster is a diagnostic track. Site prep (tech, semantics, copy) may take about a month; ranking buildup for the core is a different horizon — more often two to six months after work starts. If a panel status is unclear after self-check — write support with facts, not a demand to “put us in TOP.”",
+        "Webmaster is a diagnostic track. Site prep (tech, semantics, copy) may take about a month; ranking buildup for the core is a different horizon — more often two to six months after work starts. If a panel status is unclear after self-check — write support with facts, not a demand to “put us on page one.”",
       ],
       lists: [
         {
           intro: "Weekly ritual:",
           items: [
-            "diagnostics and security;",
-            "pages-in-search dynamics;",
-            "top queries and CTR anomalies;",
-            "open tickets from findings.",
+            "diagnostics and security",
+            "pages-in-search dynamics",
+            "leading queries and CTR anomalies",
+            "open tickets from findings",
           ],
         },
       ],
@@ -263,7 +263,7 @@ export const yandeksVebmasterEn: BlogPost = {
           href: "/en/blog/podderzhka-yandeks/",
         },
         {
-          label: "Why the site isn’t in TOP",
+          label: "Why the site isn’t ranking",
           href: "/en/blog/sayt-ne-v-top/",
         },
       ],
@@ -271,7 +271,7 @@ export const yandeksVebmasterEn: BlogPost = {
         {
           title: "Timelines",
           kind: "tip",
-          text: "Webmaster reports ≠ TOP-10. Prep and index are one thing; lasting core rankings build over months (typically 2–6 after launch prep).",
+          text: "Webmaster reports are not page-one rankings. Prep and index are one thing; lasting core rankings build over months — typically two to six after work starts.",
         },
       ],
     },

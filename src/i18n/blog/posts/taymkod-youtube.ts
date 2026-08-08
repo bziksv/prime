@@ -11,7 +11,7 @@ export const taymkodYoutubeEn: BlogPost = {
     "What a YouTube timecode is: chapters in the description, clickable markers, a URL with a time parameter — and why viewers and channels benefit, without outdated Studio screenshots.",
   lead: [
     "A YouTube timecode is a time marker in a video: `1:23` in the description or a link that opens at that second. On long uploads it’s a table of contents — not an “algorithm secret.”",
-    "This piece covers why chapters help, how to format the description, how to copy a timed URL, and what effect to expect. Studio menus change; use current YouTube Help as the source of truth.",
+    "Below: why chapters help, how to format the description, how to copy a timed URL, and what effect to expect. Studio menus change; use current YouTube Help as the source of truth.",
   ],
   faq: [
     {
@@ -60,10 +60,10 @@ export const taymkodYoutubeEn: BlogPost = {
         {
           intro: "Especially useful for:",
           items: [
-            "how-to guides and tutorials;",
-            "stream and conference recordings;",
-            "podcasts with a topic timeline;",
-            "reviews covering several products.",
+            "how-to guides and tutorials",
+            "stream and conference recordings",
+            "podcasts with a topic timeline",
+            "reviews covering several products",
           ],
         },
       ],
@@ -86,9 +86,9 @@ export const taymkodYoutubeEn: BlogPost = {
         "Name sections for the viewer (“Install the plugin”), not internal edit notes (“cut 3”).",
         "Don’t turn the description into 40 markers every 20 seconds — a TOC should help, not noise.",
       ],
-      lists: [],
       notes: [
         {
+          kind: "tip",
           title: "Studio changes",
           text: "Older paths went through “Creator Studio” and other menu names. Edit the description in YouTube Studio on the video; find the current path in Help, not 2021 screenshots.",
         },
@@ -106,10 +106,10 @@ export const taymkodYoutubeEn: BlogPost = {
         {
           intro: "Timed-link mini checklist:",
           items: [
-            "seek to the right second;",
-            "copy the URL with time;",
-            "verify in another browser/mode;",
-            "say nearby what they’ll see there.",
+            "seek to the right second",
+            "copy the URL with time",
+            "verify in another browser/mode",
+            "say nearby what they’ll see there",
           ],
         },
       ],
@@ -122,7 +122,6 @@ export const taymkodYoutubeEn: BlogPost = {
         "Put the video gist and CTA in the first description lines; TOC below. That keeps share previews readable.",
         "Align chapters with cards/end screens if you use them: don’t promise a “pricing section” that isn’t there.",
       ],
-      lists: [],
       links: [
         {
           label: "YouTube video editing",
@@ -142,7 +141,6 @@ export const taymkodYoutubeEn: BlogPost = {
         "Mistake: wrong time format or no zero on the first chapter — the TOC won’t build.",
         "Mistake: copying someone else’s timecodes without checking — times won’t match after a re-edit.",
       ],
-      lists: [],
     },
     {
       title: "What to remember",
@@ -152,7 +150,6 @@ export const taymkodYoutubeEn: BlogPost = {
         "Add a TOC on long videos; after publish, check clicks on the scrubber.",
         "It’s a viewer service — not a substitute for strong content and thumbnails.",
       ],
-      lists: [],
     },
   ],
   closing: [

@@ -10,16 +10,17 @@ export const kodStatusaHttpEn: BlogPost = {
   excerpt:
     "What an HTTP response status is, how to read classes 1xx–5xx, which codes matter for SEO, and how to check one URL or the whole site.",
   lead: [
-    "An HTTP status code is a three-digit number in the server response: the page was served, a redirect is needed, or something failed. Browsers and search bots read it before they touch the HTML.",
-    "Get statuses wrong — soft 200 on a removed page, redirect chains, mass 5xx — and you hurt crawl and indexing more than a typo in the footer. This guide covers the main code families, what to watch in practice, and how to check URLs one by one or in bulk.",
+    "An HTTP status code is a three-digit number in the server response: whether the page was served, a redirect is needed, or something failed. Browsers and search bots read it before they touch the HTML.",
+    "Below: code classes, what a webmaster should watch, and how to check URLs one by one or in bulk. Separate deep-dives on 200 and 502 are in related articles.",
+    "Wrong statuses (soft 200 on a removed page, redirect chains, mass 5xx) hurt crawl and indexing more than a typo in the footer.",
   ],
   faq: [
     {
-      q: "Where can I see the HTTP status code?",
+      q: "Where can I see the status code?",
       a: "DevTools → Network, `curl -I`, online checkers, crawlers (Screaming Frog and similar), and hosting or CDN reports.",
     },
     {
-      q: "What status code should an indexed page return?",
+      q: "What status is “normal” for an indexed page?",
       a: "Usually 200. Permanent move — 301. Temporary — 302/307. Removed with no replacement — 404 or 410.",
     },
     {
@@ -55,9 +56,9 @@ export const kodStatusaHttpEn: BlogPost = {
         {
           intro: "In the status line:",
           items: [
-            "protocol version;",
-            "three-digit code;",
-            "short text phrase (OK, Not Found…).",
+            "protocol version",
+            "three-digit code",
+            "short text phrase (OK, Not Found…)",
           ],
         },
       ],
@@ -78,11 +79,11 @@ export const kodStatusaHttpEn: BlogPost = {
         {
           intro: "In short:",
           items: [
-            "1xx — intermediate (rare on typical sites);",
-            "2xx — success (200 — page served);",
-            "3xx — redirect (301/302/307…);",
-            "4xx — client error (404, 403, 410…);",
-            "5xx — server error (500, 502, 503, 504…).",
+            "1xx — intermediate (rare on typical sites)",
+            "2xx — success (200 — page served)",
+            "3xx — redirect (301/302/307…)",
+            "4xx — client error (404, 403, 410…)",
+            "5xx — server error (500, 502, 503, 504…)",
           ],
         },
       ],
@@ -109,16 +110,16 @@ export const kodStatusaHttpEn: BlogPost = {
       level: 2,
       paras: [
         "Key landings should stably return 200. After a move — direct 301s without long chains. Removed URLs — don’t mask them with a homepage 200.",
-        "Watch 404 spikes in Search Console and logs: broken internal links, outdated backlinks, export errors.",
+        "Watch 404 spikes in Webmaster and logs: broken internal links, outdated backlinks, export errors.",
       ],
       lists: [
         {
           intro: "Red flags:",
           items: [
-            "product or service removed but still 200 with an empty template;",
-            "A→B→C→D redirect chains;",
-            "homepage returning 302 “somewhere”;",
-            "mass 5xx at night during bot peaks.",
+            "product or service removed but still 200 with an empty template",
+            "A→B→C→D redirect chains",
+            "homepage returning 302 “somewhere”",
+            "mass 5xx at night during bot peaks",
           ],
         },
       ],
@@ -140,10 +141,10 @@ export const kodStatusaHttpEn: BlogPost = {
         {
           intro: "One-URL checklist:",
           items: [
-            "final response code;",
-            "number of redirect hops;",
-            "www/https match the canonical;",
-            "no soft 404 by content.",
+            "final response code",
+            "number of redirect hops",
+            "www/https match the canonical",
+            "no soft 404 by content",
           ],
         },
       ],
@@ -152,17 +153,17 @@ export const kodStatusaHttpEn: BlogPost = {
       title: "Checking the whole site",
       level: 2,
       paras: [
-        "A crawler follows internal links and builds a status table. After a structure change, compare the list to the sitemap and priority URLs from Search Console.",
+        "A crawler follows internal links and builds a status table. After a structure change, compare the list to the sitemap and priority URLs from Webmaster.",
         "Bulk-checking external backlinks is separate: not everything should redirect to the homepage.",
       ],
       lists: [
         {
           intro: "When to run a full crawl:",
           items: [
-            "domain or HTTPS move;",
-            "CMS or URL scheme change;",
-            "major template redesign;",
-            "error spikes in Search Console or hosting reports.",
+            "domain or HTTPS move",
+            "CMS or URL scheme change",
+            "major template redesign",
+            "error spikes in webmaster panels",
           ],
         },
       ],
@@ -177,25 +178,18 @@ export const kodStatusaHttpEn: BlogPost = {
       title: "How to build it into routine",
       level: 2,
       paras: [
-        "Alerts on 5xx for main hosts, a monthly look at 404s, a check after every release. Statuses are hygiene — not one-shot “SEO magic.”",
+        "Alerts on 5xx for main hosts, a monthly look at 404s, a check after every release. Statuses are hygiene — not one-shot SEO magic.",
         "Fixing tech is part of site prep. Ranking growth for a keyword set after things stabilize is a separate, months-long process.",
       ],
       lists: [
         {
           intro: "Mini ritual:",
           items: [
-            "uptime monitoring;",
-            "crawl of key templates;",
-            "top-404 review from logs;",
-            "a 301 map when URLs are removed.",
+            "uptime monitoring",
+            "crawl of key templates",
+            "top-404 review from logs",
+            "a 301 map when URLs are removed",
           ],
-        },
-      ],
-      notes: [
-        {
-          title: "SEO timelines",
-          kind: "tip",
-          text: "Clean statuses restore crawl and UX. They aren’t a TOP shortcut: after the site is stable, rankings for a keyword set are still planned over 2–6 months.",
         },
       ],
     },

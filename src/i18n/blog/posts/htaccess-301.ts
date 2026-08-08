@@ -10,8 +10,8 @@ export const htaccess301En: BlogPost = {
   excerpt:
     "Practical permanent 301 examples in Apache .htaccess: https, www, trailing slash, page and domain moves — plus when a redirect isn’t needed.",
   lead: [
-    "On Apache, `.htaccess` is often used for permanent 301s: merge mirrors, move a URL, strip “tails.” A bad rule can take the site down — edit with a backup.",
-    "Below are typical scenarios and a few cautions. Theory of 301/302 codes lives in the redirect piece; nginx uses different syntax.",
+    "On Apache, `.htaccess` is often used for permanent 301s: merge mirrors, move a URL, strip leftover tails. A bad rule can take the site down — edit with a backup.",
+    "Below: typical scenarios and cautions. Theory of 301/302 codes lives in the redirect piece; nginx uses different syntax.",
   ],
   faq: [
     {
@@ -32,7 +32,7 @@ export const htaccess301En: BlogPost = {
     },
     {
       q: "Should I redirect instead of deleting a page?",
-      a: "If there’s a close-in-meaning URL — yes. If the topic is gone — better 404/410 than “everything to home.”",
+      a: "If there’s a close-in-meaning URL — yes. If the topic is gone — better 404/410 than everything to home.",
     },
     {
       q: "How do I check the status code?",
@@ -52,7 +52,7 @@ export const htaccess301En: BlogPost = {
           items: [
             "old URLs in Webmaster with 404 after a move",
             "two mirrors in the index",
-            "external links to outdated paths.",
+            "external links to outdated paths",
           ],
         },
       ],
@@ -77,13 +77,14 @@ export const htaccess301En: BlogPost = {
             "backup the current `.htaccess`",
             "test on staging",
             "check chains (one hop)",
-            "verify with `curl -I` or similar.",
+            "verify with `curl -I` or similar",
           ],
         },
       ],
       notes: [
         {
           title: "Order",
+          kind: "tip",
           text: "First general merges (https/www), then point page moves. Otherwise rules catch the wrong requests.",
         },
       ],
@@ -101,7 +102,7 @@ export const htaccess301En: BlogPost = {
             "redirect loops",
             "a temporary 302 forever",
             "editing production without a backup",
-            "forgotten HTTP after enabling HTTPS.",
+            "forgotten HTTP after enabling HTTPS",
           ],
         },
       ],
@@ -120,7 +121,7 @@ export const htaccess301En: BlogPost = {
             "full old and target URL",
             "rule purpose — domain, section, or single page",
             "expected 301 code",
-            "deploy date and test result.",
+            "deploy date and test result",
           ],
         },
       ],
@@ -139,7 +140,7 @@ export const htaccess301En: BlogPost = {
             "rules that redirect the whole domain",
             "regex with broad matches",
             "duplicate settings in a CDN or hosting panel",
-            "automatic CMS and plugin rules.",
+            "automatic CMS and plugin rules",
           ],
         },
       ],
@@ -158,7 +159,7 @@ export const htaccess301En: BlogPost = {
             "no loops or multiple sequential redirects",
             "parameters kept only where needed",
             "destination returns 200 and is crawlable",
-            "important old URLs checked selectively and in bulk.",
+            "important old URLs checked selectively and in bulk",
           ],
         },
       ],

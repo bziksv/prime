@@ -11,11 +11,11 @@ export const indeksatsiyaSaytaEn: BlogPost = {
     "How search engines crawl and add pages to the index: what affects getting into the database, robots and sitemap, Webmaster / Search Console, coverage checks — without 2010s social bookmarks or buying links “for indexing.”",
   lead: [
     "Indexing is when a bot crawls open URLs, parses the content, and puts (or updates) documents in the search database. Without an index a page almost never shows in organic results for queries.",
-    "Getting found means crawlable URLs, a clean robots/sitemap setup, and checks in Webmaster / Search Console. Blocking from the index and robot log analysis are in related articles. We don’t recommend outdated social bookmarks or mass link buying just to get crawled.",
+    "Below: how the process works, what a site needs to get found, and how to check status. Blocking from the index and robot log analysis are in related articles. We don’t recommend outdated social bookmarks or mass link buying just to get crawled.",
   ],
   faq: [
     {
-      q: "Is indexing the same as ranking?",
+      q: "Is indexing the same as page-one rankings?",
       a: "No. The index is entry into the database. Positions depend on relevance and competition.",
     },
     {
@@ -23,7 +23,7 @@ export const indeksatsiyaSaytaEn: BlogPost = {
       a: "User-agent: * without Disallow doesn’t block crawling. For indexing, URL availability, links, sitemap, and no accidental noindex matter more.",
     },
     {
-      q: "Do you need to buy links to get indexed?",
+      q: "Do I need to buy links to get indexed?",
       a: "Not as a required step. Adding the site to Webmaster/GSC, submitting a sitemap, and solid internal linking are enough. Buying for “speed” is risk and noise.",
     },
     {
@@ -36,7 +36,7 @@ export const indeksatsiyaSaytaEn: BlogPost = {
     },
     {
       q: "Do social networks speed up indexing?",
-      a: "They can bring visits and mentions, but they don’t replace Search Console and internal linking. Short redirect links are a weak signal “for the bot.”",
+      a: "They can bring visits and mentions, but they don’t replace Search Console and internal linking. Short redirect links are a weak signal for the bot.",
     },
     {
       q: "How is this different from blocking indexing?",
@@ -48,7 +48,7 @@ export const indeksatsiyaSaytaEn: BlogPost = {
       title: "Index and crawl in plain words",
       level: 2,
       paras: [
-        "The search database is a huge catalog of documents with addresses. A query doesn’t search the “live internet” — it searches this index.",
+        "The search database is a huge catalog of documents with addresses. A query doesn’t search the live internet — it searches this index.",
         "Bots (crawlers) follow links, fetch HTML and related resources, and pass data for processing. New and updated URLs enter the recrawl queue.",
         "Crawl depth and frequency depend on site quality, errors, crawl budget, and how you point to important URLs yourself.",
       ],
@@ -69,7 +69,7 @@ export const indeksatsiyaSaytaEn: BlogPost = {
       paras: [
         "Pages should return 200 (or a deliberate redirect), be available without mandatory login, and not be closed with noindex if the goal is organic.",
         "robots.txt mustn’t accidentally block needed sections. A sitemap helps discover URLs but doesn’t force junk into the index.",
-        "Internal links and a normal structure beat external “submission runs.” Add the site to Yandex Webmaster and Google Search Console and submit the sitemap.",
+        "Internal links and a normal structure beat external submission runs. Add the site to Yandex Webmaster and Google Search Console and submit the sitemap.",
       ],
       lists: [
         {
@@ -79,7 +79,7 @@ export const indeksatsiyaSaytaEn: BlogPost = {
             "a sensible robots.txt",
             "sitemap in webmaster panels",
             "internal links to important URLs",
-            "useful content without mass duplicates.",
+            "useful content without mass duplicates",
           ],
         },
       ],
@@ -100,7 +100,7 @@ export const indeksatsiyaSaytaEn: BlogPost = {
       paras: [
         "Social bookmarks, directory runs, and buying links “so the spider comes faster” are noisy 2010s habits. For indexing they don’t replace webmaster panels.",
         "Don’t confuse indexing with behavioral manipulation and link spam — different risks and different articles.",
-        "If a page is indexed but doesn’t grow — look at relevance, tech, and competition, not “add to bookmarks again.” Indexing ≠ rankings: core TOP growth is planned for 2–6 months of work after prep.",
+        "If a page is indexed but doesn’t grow — look at relevance, tech, and competition, not “add to bookmarks again.”",
       ],
       links: [
         {
@@ -115,7 +115,7 @@ export const indeksatsiyaSaytaEn: BlogPost = {
       paras: [
         "In Webmaster and Search Console look at coverage/pages: how many discovered, excluded, and why.",
         "A query like site:example.com/page gives a quick slice, but panels are more precise on exclusion reasons.",
-        "Crawlers like Screaming Frog / Netpeak Spider help find noindex, broken responses, and internal-link gaps on your side — before blaming “search won't take it.”",
+        "Crawlers like Screaming Frog / Netpeak Spider help find noindex, broken responses, and internal-link gaps on your side — before blaming “search won’t take it.”",
       ],
       links: [
         {

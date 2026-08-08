@@ -5,13 +5,13 @@ export const metrikiReklamyEn: BlogPost = {
   slug: "metriki-reklamy",
   title: "Ad metrics: what to watch to know a campaign is working",
   date: "2019-10-15",
-  category: "Paid search",
+  category: "Digital marketing",
   cover: "/images/blog/metriki-reklamy/cover-en.webp",
   excerpt:
     "Which metrics to watch by funnel stage: CTR and CPC at the entrance, on-site behavior, CPA/CPO/CR at conversion, average order value and LTV — without judging ads by clicks alone.",
   lead: [
     "Ads “work” when they lead to money or a business goal — not when there are “lots of impressions.” To see that, read metrics by funnel steps: interest → site → action → repeat purchases.",
-    "A working set: CTR/CPC, bounce and engagement, CPA/CPO/CR, average order value and LTV (lifetime value). ROMI (return on marketing investment) formulas and end-to-end CRM joins are in related articles; start with the funnel read.",
+    "Below: a working set — CTR/CPC, bounce and engagement, CPA/CPO/CR, average order value and LTV. ROMI formulas and end-to-end CRM joins are in related articles; here — what to watch at each stage.",
   ],
   faq: [
     {
@@ -54,7 +54,7 @@ export const metrikiReklamyEn: BlogPost = {
             "reach — meeting the offer",
             "engagement — click and interest on the site",
             "conversion — lead/order",
-            "loyalty — repeat and LTV.",
+            "loyalty — repeat and LTV",
           ],
         },
       ],
@@ -73,7 +73,7 @@ export const metrikiReklamyEn: BlogPost = {
             "audience and offer match",
             "creative readability",
             "seasonality and competitors",
-            "landing match to the promise.",
+            "landing match to the promise",
           ],
         },
       ],
@@ -88,8 +88,8 @@ export const metrikiReklamyEn: BlogPost = {
       notes: [
         {
           title: "Important",
-          text: "Bad behavior metrics often get blamed on “ads”, while the landing needs fixing. Check ad–page relevance before scaling budget.",
           kind: "tip",
+          text: "Bad behavior metrics often get blamed on “ads”, while the landing needs fixing. Check ad–page relevance before scaling budget.",
         },
       ],
       links: [
@@ -108,7 +108,7 @@ export const metrikiReklamyEn: BlogPost = {
       level: 2,
       paras: [
         "CR = conversions ÷ sessions × 100%. CPA = budget ÷ target actions. CPO = budget ÷ orders (including failed ones if that’s how you account). The goal depends on the business: lead, call, install, payment.",
-        "Geo, competition, and product complexity affect CPA. Compare display and search with role in mind: display more often feeds the top of funnel; search — hot demand. Otherwise “expensive” display looks useless only because of last click.",
+        "Geo, competition, and product complexity affect CPA. Compare display and search with role in mind: display more often feeds the upper funnel; search — hot demand. Otherwise “expensive” display looks useless only because of last click.",
       ],
       links: [
         {

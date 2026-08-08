@@ -3,40 +3,40 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for tipy-kampaniy-google-ads — same structure as RU JSON. */
 export const tipyKampaniyGoogleAdsEn: BlogPost = {
   slug: "tipy-kampaniy-google-ads",
-  title: "Google Ads campaign types: a format overview",
+  title: "Google Ads campaign types: which format fits which job",
   date: "2019-12-19",
   category: "Paid search",
   cover: "/images/blog/tipy-kampaniy-google-ads/cover-en.webp",
   excerpt:
-    "What Google Ads campaign types exist: Search, Display, YouTube, Shopping, remarketing, Performance Max, and audiences — how to choose by job, without a 2019 button catalog.",
+    "Search, Display, YouTube, Shopping, remarketing, Performance Max, audiences — how to pick a Google Ads campaign type by role, not by a 2019 button catalog.",
   lead: [
-    "In Google Ads a “campaign type” isn’t only a wizard button — it’s the link between surface, ad format, and optimization signal. People confuse it with bid strategy: strategy answers “how to pay,” type answers “where and in what form to show.”",
-    "This is a map of formats: Search, display, video, shopping, remarketing, and smart/mixed campaigns. Account names evolved (Smart Shopping → Performance Max and more) — check the current list in Ads and Google Help.",
+    "A campaign type in Google Ads isn’t just a wizard radio button. It ties surface, ad format, and the signal the system optimizes for. People mix it up with bid strategy: strategy answers “how you pay,” type answers “where and in what form you show.”",
+    "Below is a format map: Search, display, video, shopping, remarketing, and automated / mixed campaigns. Labels moved (Smart Shopping → Performance Max and more) — confirm the live list in Ads and Google Help.",
   ],
   faq: [
     {
       q: "Is campaign type the same as bid strategy?",
-      a: "No. Type sets channel and format. Strategy (clicks, CPA, ROAS) is how the system sets bids inside the campaign.",
+      a: "No. Type sets channel and format. Strategy (clicks, CPA, ROAS) sets how bids are assigned inside the campaign.",
     },
     {
       q: "Where should a beginner start?",
-      a: "With Search for hot demand, or Shopping if the feed is ready. Display and video — when the funnel role is clear.",
+      a: "Search for hot demand, or Shopping if the product feed is ready. Display and video wait until you know their funnel job.",
     },
     {
       q: "Do I need brand Search if organic already ranks?",
-      a: "Often yes: it protects against competitors on your name and catches ready demand. Track it separately from the rest of the keyword set.",
+      a: "Often yes — it blocks competitors on your name and captures ready demand. Measure it apart from the rest of the keyword set.",
     },
     {
-      q: "Should I buy competitor queries?",
-      a: "Possible, but pricier and riskier on click quality. Count CPA and legal/reputation risk separately.",
+      q: "Should I bid on competitor names?",
+      a: "You can, but clicks cost more and quality is uneven. Price CPA and legal/reputation risk on their own line.",
     },
     {
       q: "What is Performance Max?",
-      a: "A campaign with strong automation across several Google surfaces when you have assets and goals. It inherits “smart shopping” ideas but is broader — details in current Help.",
+      a: "A heavily automated campaign across several Google surfaces when you supply assets and goals. It grew out of “smart shopping” ideas but runs wider — see current Help for details.",
     },
     {
-      q: "Does remarketing bring new users?",
-      a: "Mostly it returns people who already know you. New users need cold formats and demand.",
+      q: "Does remarketing find new customers?",
+      a: "Mostly it brings back people who already know you. New users need cold formats and real demand.",
     },
     {
       q: "Where are bid strategies covered?",
@@ -45,12 +45,12 @@ export const tipyKampaniyGoogleAdsEn: BlogPost = {
   ],
   sections: [
     {
-      title: "Why review types before launch",
+      title: "Why types come before launch",
       level: 2,
       paras: [
-        "Google Ads covers Search, partner sites (Display), YouTube, and shopping blocks. You usually pay per click or another result by campaign model — not “for a permanent slot.”",
-        "The auction weighs bid and quality/relevance. An expensive click on a weak ad loses to a more relevant competitor — campaign type doesn’t cancel that.",
-        "Choosing a type = funnel role: capture demand, reach, return, catalog. Without a role, budget spreads across every surface at once.",
+        "Google Ads covers Search, partner sites (Display), YouTube, and shopping units. You usually pay per click or another outcome tied to the campaign model — not for a permanent slot.",
+        "The auction weighs bid and quality/relevance. An expensive click on a weak ad still loses to a more relevant competitor. Campaign type doesn’t cancel that.",
+        "Picking a type means picking a funnel job: capture demand, reach, win-back, or catalog. Without a job, budget leaks across every surface at once.",
       ],
       links: [
         {
@@ -63,18 +63,18 @@ export const tipyKampaniyGoogleAdsEn: BlogPost = {
       title: "Search: brand, generic, and competitor queries",
       level: 2,
       paras: [
-        "Search ads are text (and extensions) above/below the SERP; shopping cards may sit nearby with a feed. The user already phrased a query — that’s hot demand.",
-        "Brand queries (people searching for you) are usually cheaper and convert better. Generic and mid-volume terms (“laundry detergent,” “powder”) cost more and need a strong USP. Competitor queries are a separate economy and ethics: don’t mix them with brand in one pile.",
-        "Dynamic Search Ads lean on site content: weak page structure → weak auto headlines.",
+        "Search ads are text (plus extensions) above or below the results; shopping cards can sit nearby when you have a feed. The user already typed a query — that’s hot demand.",
+        "Brand queries (people looking for you) are usually cheaper and convert better. Generic and mid-volume terms cost more and need a sharp USP. Competitor queries are a separate economy and ethics call — don’t dump them into the brand campaign.",
+        "Dynamic Search Ads lean on site content: weak page structure means weak auto headlines.",
       ],
       lists: [
         {
-          intro: "Search practice:",
+          intro: "Search habits that pay off:",
           items: [
-            "brand separate from the general set;",
-            "negatives are required;",
-            "extensions raise visibility;",
-            "landing = query intent.",
+            "brand split from the rest of the set",
+            "negatives are non-negotiable",
+            "extensions lift visibility",
+            "landing page matches query intent",
           ],
         },
       ],
@@ -86,12 +86,12 @@ export const tipyKampaniyGoogleAdsEn: BlogPost = {
       ],
     },
     {
-      title: "Display, YouTube, and shopping formats",
+      title: "Display, YouTube, and shopping",
       level: 2,
       paras: [
-        "The Display Network shows banners and responsive ads on partner sites by interests, topics, placements, and audiences. KPIs often differ from Search: don’t expect “a lead from the first banner like a commercial query.”",
-        "YouTube — TrueView, Shorts, and other video formats (the set has changed): views, traffic, leads. Annoying non-skippable inserts aren’t the only or always best choice; check current types and goals.",
-        "Shopping ads show a card with price and photo from Merchant Center. Treat branded and non-branded shopping demand separately in your head: different CPC and margin.",
+        "The Display Network places banners and responsive ads on partner sites by interest, topic, placement, and audience. KPIs differ from Search — don’t expect a first-banner lead like a commercial query.",
+        "YouTube spans TrueView, Shorts, and other video formats (the menu keeps changing): views, traffic, leads. Non-skippable inserts aren’t the only or always best option — match type to goal in the current UI.",
+        "Shopping ads show a card with price and photo from Merchant Center. Treat branded and non-branded shopping demand as different economics: CPC and margin won’t match.",
       ],
       links: [
         {
@@ -109,36 +109,36 @@ export const tipyKampaniyGoogleAdsEn: BlogPost = {
       ],
     },
     {
-      title: "Remarketing, audiences, and “smart” campaigns",
+      title: "Remarketing, audiences, and automated campaigns",
       level: 2,
       paras: [
-        "Remarketing returns site/app visitors and customer lists. Similar audiences (lookalike / similar-user optimization) expand reach from “warm” signals — quality depends on the seed.",
-        "Intent-based Display and hand-picked site placements are different control levels: broader system learning vs a manual placement list.",
-        "“Smart Shopping” in old guides is a predecessor of broader auto campaigns like Performance Max: the system distributes impressions given your assets and goals. Easy setup ≠ guaranteed ROI: you need feed/creatives, goals, and control of cannibalization with Search.",
+        "Remarketing brings back site or app visitors and customer lists. Similar audiences (lookalike-style expansion) grow reach from warm signals — quality tracks the seed list.",
+        "Intent-based Display and hand-picked placements trade off control: broader learning vs a manual site list.",
+        "“Smart Shopping” in old guides is the ancestor of wider auto campaigns like Performance Max: the system allocates impressions given your assets and goals. Easy setup ≠ guaranteed ROI. You still need feed or creatives, clean goals, and a check that Search isn’t being cannibalized.",
       ],
       notes: [
         {
           kind: "tip",
-          text: "Customer lists and Customer Match follow consent rules and Google policies — don’t upload lists casually.",
+          text: "Customer lists and Customer Match follow consent rules and Google policies — don’t upload databases casually.",
         },
       ],
     },
     {
-      title: "How to choose without spreading the budget thin",
+      title: "How to choose without thinning the budget",
       level: 2,
       paras: [
-        "Goal and KPI first, then 1–2 campaign types for a test. A media plan and Performance Planner help allocate spend — but you pick the type.",
-        "Don’t copy Spotify guides and outsider “14 types” one-to-one: the market and product UI moved on. Refresh the map each season from Ads Help.",
+        "Goal and KPI first, then one or two campaign types for a test. A media plan and Performance Planner help size spend — you still pick the type.",
+        "Don’t paste someone else’s “14 types” checklist or an old Spotify-style guide. The product UI moved on. Refresh the map each season from Ads Help.",
       ],
       lists: [
         {
-          intro: "Remember:",
+          intro: "Keep in mind:",
           items: [
-            "type ≠ bid strategy;",
-            "Search = demand; Display/video = other KPIs;",
-            "brand and competitors = separate economies;",
-            "PMax/smart formats need data and control;",
-            "current names — only in the account.",
+            "type ≠ bid strategy",
+            "Search = demand; Display/video = different KPIs",
+            "brand and competitors = separate economics",
+            "PMax and smart formats need data and oversight",
+            "live names live only in the account",
           ],
         },
       ],
@@ -155,7 +155,7 @@ export const tipyKampaniyGoogleAdsEn: BlogPost = {
     },
   ],
   closing: [
-    "Pick the channel role (Search / shopping / return / reach), run a narrow test with goals, then add surfaces — clearer than turning on “all of Google at once.”",
+    "Name the job (Search / shopping / win-back / reach), run a narrow test with goals, then add surfaces — clearer than flipping on “all of Google at once.”",
   ],
   related: [
     "strategii-google-ads",

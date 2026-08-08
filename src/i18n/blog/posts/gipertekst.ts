@@ -11,7 +11,7 @@ export const gipertekstEn: BlogPost = {
     "What hypertext is: links, HTML markup, document structure. Why cross-links help a site, an encyclopedia, and an online store.",
   lead: [
     "Hypertext is text with links: you can jump to another fragment, page, or media. The whole web rests on this — from articles to catalogs.",
-    "How the idea works, how HTML differs from “plain text”, and what solid internal linking gives a site.",
+    "Below: how the idea works, how HTML differs from “plain text”, and what solid internal linking gives a site.",
   ],
   faq: [
     {
@@ -41,7 +41,7 @@ export const gipertekstEn: BlogPost = {
       level: 2,
       paras: [
         "A classic example is an encyclopedia: a term leads to another article. On the web it’s the same: menus, product cards, “related materials”, footnotes to sources.",
-        "Ted Nelson coined the term: text with branching, not one linear strip from top to bottom.",
+        "Ted Nelson coined the term: text with branching, not one linear strip read start to finish.",
       ],
       lists: [
         {
@@ -50,7 +50,7 @@ export const gipertekstEn: BlogPost = {
             "sites and web apps",
             "wikis and help centers",
             "electronic catalogs and stores",
-            "product documentation.",
+            "product documentation",
           ],
         },
       ],
@@ -70,13 +70,14 @@ export const gipertekstEn: BlogPost = {
             "paragraphs and lists — readability",
             "`<a href=\"…\">` links — navigation",
             "anchors — jump to a block on the same page",
-            "image alt — meaning for people and bots.",
+            "image alt — meaning for people and bots",
           ],
         },
       ],
       notes: [
         {
           title: "Practice",
+          kind: "tip",
           text: "Link anchor text should promise the page content (“shipping and payment”), not “here” or “more” with no context.",
         },
       ],
@@ -95,7 +96,7 @@ export const gipertekstEn: BlogPost = {
             "logic — a complex topic split into linked nodes",
             "intuition — predictable jumps",
             "interactivity — text + media + actions",
-            "time saved — no collecting everything by hand via search.",
+            "time saved — no collecting everything by hand via search",
           ],
         },
       ],
@@ -114,7 +115,7 @@ export const gipertekstEn: BlogPost = {
             "the menu mirrors real sections",
             "in copy — links to related services/products",
             "breadcrumbs and related blocks",
-            "don’t spam dozens of identical anchors to one URL.",
+            "don’t spam dozens of identical anchors to one URL",
           ],
         },
       ],
@@ -138,13 +139,14 @@ export const gipertekstEn: BlogPost = {
             "all important pages reachable in 2–3 clicks",
             "no mass 404s on old links",
             "mobile links easy to tap",
-            "PDFs and external files labeled if you link to them.",
+            "PDFs and external files labeled if you link to them",
           ],
         },
       ],
       notes: [
         {
           title: "Next on the topic",
+          kind: "tip",
           text: "Separate blog pieces cover clickable links and HTML in an SEO context in more depth — here we lock the concept frame.",
         },
       ],

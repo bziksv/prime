@@ -11,7 +11,7 @@ export const statyaVkEn: BlogPost = {
     "How to use the VK articles editor: title, formatting, cover, drafts, stats, and publishing on a wall or in a community.",
   lead: [
     "A VK article is a long-form piece with a title, paragraphs, lists, and a cover — not a single-wall post. It’s better for breakdowns, guides, and expert texts in a community.",
-    "This guide covers prep in the editor, text and media layout, publishing, and stats. VK menu labels change — rely on the meaning of “Articles” / the editor blocks, not outdated screenshots.",
+    "Below: prep in the editor, text and media layout, publishing, and stats. VK menu labels change — rely on the meaning of “Articles” / the editor blocks, not outdated screenshots.",
   ],
   faq: [
     {
@@ -43,7 +43,6 @@ export const statyaVkEn: BlogPost = {
         "An article fits when the piece is longer than a few paragraphs: a guide, case, roundup, or how-to. A short promo teaser is better as a post with a link to the article or product.",
         "A strong teaser title decides whether people open the text. Without value in the first screens, long-form won’t save it.",
       ],
-      lists: [],
       links: [
         {
           label: "Growing a VK group",
@@ -62,15 +61,16 @@ export const statyaVkEn: BlogPost = {
         {
           intro: "Media inside the article:",
           items: [
-            "photos from an album, device, or drag-and-drop;",
-            "video in supported formats;",
-            "illustrations with a readable scene, not stock for stock’s sake;",
-            "a cover separate from in-body images.",
+            "photos from an album, device, or drag-and-drop",
+            "video in supported formats",
+            "illustrations with a readable scene — not filler for filler’s sake",
+            "a cover separate from in-body images",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Hotkeys",
           text: "The usual set like Ctrl+B / Ctrl+I and undo Ctrl+Z often works in the web editor; the exact list depends on the browser. Don’t rely on them alone — toolbar buttons are more reliable.",
         },
@@ -87,11 +87,11 @@ export const statyaVkEn: BlogPost = {
         {
           intro: "Before publish:",
           items: [
-            "the title is clear without context;",
-            "there’s a cover or a strong first illustration;",
-            "links open;",
-            "no wall of text without subheads;",
-            "wall teaser preview checked.",
+            "the title is clear without context",
+            "there’s a cover or a strong first illustration",
+            "links open",
+            "no wall of text without subheads",
+            "wall teaser preview checked",
           ],
         },
       ],
@@ -107,10 +107,10 @@ export const statyaVkEn: BlogPost = {
         {
           intro: "After it goes live:",
           items: [
-            "pin a strong article if needed;",
-            "announce in community Stories/newsletter;",
-            "reply to the first comments;",
-            "a day later review stats and hypotheses.",
+            "pin a strong article if needed",
+            "announce in community Stories/newsletter",
+            "reply to the first comments",
+            "a day later review stats and hypotheses",
           ],
         },
       ],

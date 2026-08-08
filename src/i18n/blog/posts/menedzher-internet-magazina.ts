@@ -11,11 +11,11 @@ export const menedzherInternetMagazinaEn: BlogPost = {
     "What an online store manager does: orders, consultations, delivery, reports. Which skills matter, what pay depends on, and where the career can go.",
   lead: [
     "An online store manager sits between the site and the buyer: answers questions, runs the order, and ties warehouse to delivery. Offline that’s a sales-floor consultant; online, the same work happens in chats, CRM, and on the phone.",
-    "Duties, daily rhythm, skills, and career path differ by company size: in a small team one person wears more hats; in large e‑commerce the lane is narrower.",
+    "Below: duties, daily rhythm, skills, and career path. In a small team one person wears more hats; in large e‑commerce the lane is narrower.",
   ],
   faq: [
     {
-      q: "How is a store manager different from SMM or SEO?",
+      q: "How is this different from SMM or SEO?",
       a: "The store manager runs deals and service. SMM and SEO bring traffic. At launch the roles often merge — spell that out in the brief.",
     },
     {
@@ -23,15 +23,15 @@ export const menedzherInternetMagazinaEn: BlogPost = {
       a: "Not always. Communication, product knowledge, and CRM matter more. Sales and service courses plus niche know-how help; legal and tax questions need a specialist.",
     },
     {
-      q: "What does pay depend on in this role?",
+      q: "What does pay depend on?",
       a: "Region, niche, volume, and pay structure (salary plus a cut of sales or orders). Use current job posts — not figures from 2021 articles.",
     },
     {
-      q: "What does a store manager’s day look like?",
+      q: "What does a day look like?",
       a: "Inbound requests, consultations, order placement, payment and delivery status, escalations, and a short report.",
     },
     {
-      q: "Where can I grow from this role?",
+      q: "Where can I grow?",
       a: "Senior manager, shift or sales lead, store ops director, category manager — depends on company structure.",
     },
   ],
@@ -85,6 +85,7 @@ export const menedzherInternetMagazinaEn: BlogPost = {
         {
           title: "Practice",
           text: "The smaller the team, the more often the manager also edits product cards, answers socials, and runs ads. Fix the boundaries — or you get burnout and service gaps.",
+          kind: "tip",
         },
       ],
     },
@@ -138,7 +139,6 @@ export const menedzherInternetMagazinaEn: BlogPost = {
       paras: [
         "An online store manager sells and serves: from request to delivery. Success is response speed, product knowledge, and logistics handoff. Pay and career grow with funnel quality — not only with “calls taken.”",
       ],
-      lists: [],
     },
   ],
 };

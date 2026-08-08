@@ -11,8 +11,12 @@ export const nakrutkaZriteleyYoutubeEn: BlogPost = {
     "Why people buy live viewers, what it risks for the channel and advertisers, and how to grow a real audience without bots and proxy workarounds.",
   lead: [
     "Live viewer count is visible from outside — so streams attract plenty of “inflate the concurrent” offers. Bots and task marketplaces deliver a number, but not interest, donations, or stable recommendations.",
-    "Chasing the counter with artificial audiences usually ends in reach damage and trust loss. Here’s what goes wrong — and how to fill a stream with people who actually care. This is a risk breakdown, not a setup guide for fake viewers.",
+    "Below: why people chase the counter, what artificial audiences risk, and what to do instead of buying viewers. This is a risk breakdown — not a catalog of services or a guide to bypassing YouTube rules.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Does buying viewers help get into recommendations?",
@@ -40,9 +44,9 @@ export const nakrutkaZriteleyYoutubeEn: BlogPost = {
       title: "Why people chase concurrent — and why it’s a trap",
       level: 2,
       paras: [
-        "Live concurrent is associated with “being on top,” an active chat, donations, and recommendations. The logic is clear: visibility breeds visibility.",
+        "Live concurrent is associated with looking popular, an active chat, donations, and recommendations. The logic is clear: visibility breeds visibility.",
         "Artificial concurrent breaks that chain. Bots don’t ask questions, don’t subscribe thoughtfully, and don’t return. Platforms learn to spot anomalies; advertisers look at retention and audience quality — not only a “watching now” peak.",
-        "We don’t repeat old-review promises of “software + proxies = top streams.” Even if the number jumped for a minute, the cost is sanction risk and a habit of building the channel on metric lies.",
+        "We don’t repeat old-review promises of “software + proxies = featured streams.” Even if the number jumped for a minute, the cost is sanction risk and a habit of building the channel on metric lies.",
       ],
       lists: [
         {
@@ -52,7 +56,7 @@ export const nakrutkaZriteleyYoutubeEn: BlogPost = {
             "an illusion of an active chat",
             "fast subscriber growth",
             "donations or ads “on the number”",
-            "getting into recommendations.",
+            "getting into recommendations",
           ],
         },
       ],
@@ -62,7 +66,7 @@ export const nakrutkaZriteleyYoutubeEn: BlogPost = {
           href: "/en/blog/raskrutka-youtube/",
         },
         {
-          label: "Fake Instagram likes",
+          label: "Fake Instagram* likes",
           href: "/en/blog/nakrutka-laykov-instagram/",
         },
       ],
@@ -86,7 +90,7 @@ export const nakrutkaZriteleyYoutubeEn: BlogPost = {
             "light, audio, and a script for the first 3 minutes",
             "chat moderation and answering questions",
             "after the stream — clip, description, playlist",
-            "no bots or “mutual concurrent” marketplaces.",
+            "no bots or “mutual concurrent” marketplaces",
           ],
         },
       ],

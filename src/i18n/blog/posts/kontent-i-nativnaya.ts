@@ -3,24 +3,24 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for kontent-i-nativnaya — same structure as RU JSON. */
 export const kontentINativnayaEn: BlogPost = {
   slug: "kontent-i-nativnaya",
-  title: "Content marketing vs native advertising: what’s the difference",
+  title: "Content marketing vs native advertising: the real difference",
   date: "2020-09-18",
-  category: "Digital marketing",
+  category: "Content marketing",
   cover: "/images/blog/kontent-i-nativnaya/cover-en.webp",
   excerpt:
-    "How content marketing differs from native (natural) ads: owned channels and a long funnel vs paid integrations in someone else’s environment — and how to combine them without mixing terms.",
+    "How content marketing differs from native ads: owned channels and a long funnel vs paid integrations in someone else’s environment — and how to combine them without mixing terms.",
   lead: [
     "Both formats deliver value and don’t look like a screaming banner — so people often confuse them. In practice they have a different “owner” of the surface, payment model, and time horizon.",
-    "Practical definitions and when to use which are below. Integration mistakes live in a separate native-ads article; planning and omnichannel — in related guides. We don’t copy Taboola/Outbrain CPC and reach figures from 2020 roundups: check current accounts and your analytics.",
+    "Below: working definitions and when to use which. Integration mistakes live in a separate native-ads article; planning and omnichannel — in related guides. We don’t copy Taboola/Outbrain CPC and impression figures from 2020 roundups: check current accounts and your analytics.",
   ],
   faq: [
     {
-      q: "Are content marketing and native advertising the same thing?",
+      q: "Are they the same thing?",
       a: "No. Content marketing is a system of useful materials on your (and long-term linked) channels. Native is a paid piece in the format of someone else’s platform.",
     },
     {
       q: "Is “natural advertising” the same as native?",
-      a: "In many texts yes: the same as native advertising. Don’t confuse it with unpaid “organic” SEO.",
+      a: "In many texts yes: the same as native advertising. Don’t confuse it with unpaid organic SEO.",
     },
     {
       q: "Can I skip an “ad” label?",
@@ -31,7 +31,7 @@ export const kontentINativnayaEn: BlogPost = {
       a: "First your own content and offer (site, blog, email). Add native when you have somewhere to send people and something to show.",
     },
     {
-      q: "Does native advertising kill banner blindness?",
+      q: "Does native kill banner blindness?",
       a: "Partly: the format is closer to editorial. A bad integration still annoys — see typical mistakes.",
     },
     {
@@ -43,7 +43,7 @@ export const kontentINativnayaEn: BlogPost = {
       a: "Optional for scaling recommendation units. Not required if you work with media and creators directly.",
     },
     {
-      q: "How do I measure each channel?",
+      q: "How do I measure each?",
       a: "Content — engagement, leads, assisted conversions over the campaign horizon. Native — also placement/click cost and traffic quality to the landing.",
     },
   ],
@@ -59,9 +59,9 @@ export const kontentINativnayaEn: BlogPost = {
         {
           intro: "Similarities:",
           items: [
-            "value for the reader beats a shout of “buy”;",
-            "the format is closer to editorial than a banner;",
-            "both can send people to the site and strengthen the brand.",
+            "value for the reader beats a shout of “buy”",
+            "the format is closer to editorial than a banner",
+            "both can send people to the site and strengthen the brand",
           ],
         },
       ],
@@ -75,11 +75,11 @@ export const kontentINativnayaEn: BlogPost = {
         "Control: you edit your own content; in native the platform’s tone and rules limit creative — and require labeling.",
         "Payment: native — budget for placement/impressions; content — salary/agency/time plus optional promotion.",
       ],
-      lists: [],
       notes: [
         {
           title: "Don’t confuse with SEO",
-          text: "“Natural” search results aren’t the same as native ads. SEO and content often work together, but that’s a separate track.",
+          text: "Organic search results aren’t the same as native ads. SEO and content often work together, but that’s a separate track.",
+          kind: "tip",
         },
       ],
       links: [
@@ -101,7 +101,6 @@ export const kontentINativnayaEn: BlogPost = {
         "Content marketing is needed so there’s somewhere to send people and something to retain them with: without owned assets, native leads into a void.",
         "In combination: native → your long-form piece/case → subscription/lead. Terms stop being synonyms and start working as roles.",
       ],
-      lists: [],
       links: [
         {
           label: "Omnichannel content marketing",
@@ -119,9 +118,8 @@ export const kontentINativnayaEn: BlogPost = {
       paras: [
         "Native is a paid format in someone else’s environment; content marketing is your own usefulness system.",
         "Ad labeling is mandatory.",
-        "Combine them: someone else’s reach + your asset for conversion.",
+        "Combine them: someone else’s audience + your asset for conversion.",
       ],
-      lists: [],
     },
   ],
   closing: [

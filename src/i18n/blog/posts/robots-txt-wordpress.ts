@@ -10,13 +10,13 @@ export const robotsTxtWordpressEn: BlogPost = {
   excerpt:
     "How to set robots.txt on WordPress: wp-admin, system paths, Sitemap, Webmaster checks — without banning all of wp-content or blindly closing categories.",
   lead: [
-    "The `robots.txt` file in the WordPress root tells bots which paths are better not to crawl. There is no universal “ideal for every site”: pretty permalinks, SEO plugins, and which sections you want in search get in the way.",
-    "Here’s working WordPress logic with a careful frame. Don’t copy old templates that `Disallow: /wp-` everything, block `/category/`, or treat Host as sacred—you can easily block CSS/JS or useful listings. Disallow ≠ noindex; see the deindexing guide.",
+    "The `robots.txt` file in the WordPress root tells bots which paths are better not to crawl. There is no universal ideal for every site: pretty permalinks, SEO plugins, and which sections you want in search get in the way.",
+    "Below: working WordPress logic and a careful frame. Don’t copy old templates that `Disallow: /wp-` everything, block `/category/`, or treat Host as sacred — you can easily block CSS/JS or useful listings. Disallow ≠ noindex — see the guide on closing from indexing.",
   ],
   faq: [
     {
       q: "Where is robots.txt in WordPress?",
-      a: "In the site root: `https://site/robots.txt`. Some rules may be served virtually by core/a plugin — check what actually answers at the URL.",
+      a: "In the site root: `https://example.com/robots.txt`. Some rules may be served virtually by core or a plugin — check what actually answers at the URL.",
     },
     {
       q: "Can I block all of /wp-content?",
@@ -24,7 +24,7 @@ export const robotsTxtWordpressEn: BlogPost = {
     },
     {
       q: "Should I ban /category/ and /tag/?",
-      a: "Only if listings are truly junk for your strategy. For many blogs categories are normal landings. Don’t copy a ban “because the 2018 template said so.”",
+      a: "Only if listings are truly junk for your strategy. For many blogs categories are normal landings. Don’t copy a ban because a 2018 template said so.",
     },
     {
       q: "Is the Host directive required?",
@@ -40,18 +40,18 @@ export const robotsTxtWordpressEn: BlogPost = {
       title: "Why robots.txt on WordPress",
       level: 2,
       paras: [
-        "WP serves admin, includes, feeds, trackbacks, system query parameters. Without rules the bot spends crawl on junk. A Disallow mistake can close needed things — including theme assets.",
-        "The file doesn’t lift rankings by itself. It’s crawl hygiene; core TOP is separate months of work.",
+        "WP serves admin, includes, feeds, trackbacks, system query parameters. Without rules the bot spends crawl budget on junk. A Disallow mistake can close needed things — including theme assets.",
+        "The file doesn’t lift rankings by itself. It’s crawl hygiene; share of the core in search is separate work over months.",
       ],
       lists: [
         {
           intro: "Usually closed from crawl:",
           items: [
-            "`/wp-admin/` (often with Allow on admin-ajax when needed);",
-            "`/wp-includes/`;",
-            "cache and plugin system directories;",
-            "feeds/trackbacks — case by case;",
-            "`?` tech parameters — carefully, don’t cut needed shop filters.",
+            "`/wp-admin/` (often with Allow on admin-ajax when needed)",
+            "`/wp-includes/`",
+            "cache and plugin system directories",
+            "feeds/trackbacks — case by case",
+            "`?` tech parameters — carefully, don’t cut needed shop filters",
           ],
         },
       ],
@@ -76,8 +76,8 @@ export const robotsTxtWordpressEn: BlogPost = {
       notes: [
         {
           title: "Disallow ≠ “remove from the index”",
-          text: "If a URL is already in the SERP, a crawl ban can block serving noindex. To drop from the index use meta robots / X-Robots-Tag and the deindexing guide.",
           kind: "tip",
+          text: "If a URL is already in the SERP, a crawl ban can block serving noindex. To drop from the index use meta robots / X-Robots-Tag and the deindexing guide.",
         },
       ],
     },
@@ -107,7 +107,7 @@ export const robotsTxtWordpressEn: BlogPost = {
       title: "Sample frame (not dogma)",
       level: 2,
       paras: [
-        "A teaching frame of ideas — adapt to permalinks and plugins. Don’t duplicate a Disallow wall “just in case.”",
+        "A teaching frame of ideas — adapt to permalinks and plugins. Don’t duplicate a Disallow wall just in case.",
       ],
       lists: [
         {
@@ -126,8 +126,8 @@ export const robotsTxtWordpressEn: BlogPost = {
       notes: [
         {
           title: "Host and http://",
-          text: "2018 guides wrote Host and Sitemap over http. Today — a canonical HTTPS mirror via redirects and the current map URL in webmaster panels.",
           kind: "tip",
+          text: "2018 guides wrote Host and Sitemap over http. Today — a canonical HTTPS mirror via redirects and the current map URL in webmaster panels.",
         },
       ],
     },
@@ -136,7 +136,7 @@ export const robotsTxtWordpressEn: BlogPost = {
       level: 2,
       paras: [
         "Open `/robots.txt` in the browser; run analysis in Yandex Webmaster and the robots report in Google Search Console. Make sure main landings and CSS/JS of key templates aren’t under Disallow.",
-        "After changing theme/plugin, recheck the file — generation may have changed.",
+        "After changing theme or plugin, recheck the file — generation may have changed.",
       ],
       links: [
         {

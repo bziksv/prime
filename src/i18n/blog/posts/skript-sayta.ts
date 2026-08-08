@@ -11,7 +11,7 @@ export const skriptSaytaEn: BlogPost = {
     "What people call a site script: client and server code, languages, typical jobs, and how to insert snippets without hurting speed and security.",
   lead: [
     "A website script is a program or code fragment that runs by rules: on page open, click, form submit, or on a server schedule. It isn’t “SEO magic” — it’s a way to automate UI and backend behavior.",
-    "We cover how client-side scripts differ from server-side ones, where each applies, and what to watch when installing. Counter and widget install practice is covered in a separate article.",
+    "Below: how client-side scripts differ from server-side ones, where each applies, and what to watch when installing. Counter and widget install practice is covered in a separate article.",
   ],
   faq: [
     {
@@ -55,10 +55,10 @@ export const skriptSaytaEn: BlogPost = {
         {
           intro: "A script usually:",
           items: [
-            "reacts to an event or request;",
-            "changes the page, data, or server response;",
-            "lives in a file, bundle, or template insert;",
-            "depends on the environment (browser, PHP, Node).",
+            "reacts to an event or request",
+            "changes the page, data, or server response",
+            "lives in a file, bundle, or template insert",
+            "depends on the environment (browser, PHP, Node)",
           ],
         },
       ],
@@ -74,9 +74,9 @@ export const skriptSaytaEn: BlogPost = {
         {
           intro: "Short version:",
           items: [
-            "client — UX and interaction in the browser;",
-            "server — data, permissions, calculations, integrations;",
-            "often a pair: JS sends a request → server replies.",
+            "client — UX and interaction in the browser",
+            "server — data, permissions, calculations, integrations",
+            "often a pair: JS sends a request → server replies",
           ],
         },
       ],
@@ -96,16 +96,16 @@ export const skriptSaytaEn: BlogPost = {
       level: 2,
       paras: [
         "For the UI it’s almost always JavaScript (often with TypeScript and a build). For CMS sites PHP is common on the server; in custom work — Node.js, Python, other stacks for the job and team.",
-        "Language choice is about ecosystem, load, and support — not a “coolness ranking”. Outdated lists with JScript and exotica for a typical marketing site can be ignored.",
+        "Language choice is about ecosystem, load, and support — not a “coolness contest”. Outdated lists with JScript and exotica for a typical marketing site can be ignored.",
       ],
       lists: [
         {
           intro: "Practical minimum today:",
           items: [
-            "JavaScript in the browser;",
-            "PHP / Node / Python on the backend — by project;",
-            "SQL and DB drivers next to server logic;",
-            "HTML/CSS — markup and style, not a “script”, but without them the page won’t assemble.",
+            "JavaScript in the browser",
+            "PHP / Node / Python on the backend — by project",
+            "SQL and DB drivers next to server logic",
+            "HTML/CSS — markup and style, not a “script”, but without them the page won’t assemble",
           ],
         },
       ],
@@ -127,11 +127,11 @@ export const skriptSaytaEn: BlogPost = {
         {
           intro: "Typical jobs:",
           items: [
-            "stats and goals;",
-            "forms and calculators;",
-            "search and filters without reload;",
-            "accounts and cart;",
-            "CRM and payment integrations (more often server + a safe client).",
+            "stats and goals",
+            "forms and calculators",
+            "search and filters without reload",
+            "accounts and cart",
+            "CRM and payment integrations (more often server + a safe client)",
           ],
         },
       ],
@@ -147,11 +147,11 @@ export const skriptSaytaEn: BlogPost = {
         {
           intro: "Basic order for a snippet:",
           items: [
-            "take code from the service account;",
-            "paste in one place without a duplicate;",
-            "test on staging;",
-            "clear cache;",
-            "confirm the event/counter fires.",
+            "take code from the service account",
+            "paste in one place without a duplicate",
+            "test on staging",
+            "clear cache",
+            "confirm the event/counter fires",
           ],
         },
       ],
@@ -184,10 +184,10 @@ export const skriptSaytaEn: BlogPost = {
         {
           intro: "Hygiene:",
           items: [
-            "disable unused tags;",
-            "load heavy code deferred (defer/async as fits);",
-            "don’t duplicate Metrica/Analytics;",
-            "watch for errors in the browser console.",
+            "disable unused tags",
+            "load heavy code deferred (defer/async as fits)",
+            "don’t duplicate Metrica/Analytics",
+            "watch for errors in the browser console",
           ],
         },
       ],

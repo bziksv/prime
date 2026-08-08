@@ -11,7 +11,7 @@ export const vnutrennyayaPerelinkovkaEn: BlogPost = {
     "Why internal linking matters, how keyword anchors differ from generic ones, automation vs. manual work, typical patterns for head/mid/long-tail keywords, and mistakes that hurt more than they help.",
   lead: [
     "Internal linking is links between pages on one site. For people, it’s a path to the right section and related materials; for search, it signals which URLs matter and how topics connect.",
-    "Internal links strengthen a clear section structure — they don’t replace it. Lock anchors, mix automated and manual approaches by keyword type, and follow a practical work order without a cult of “magic link equity.”",
+    "Below: benefits, anchors, auto vs manual linking, patterns by keyword frequency, and a practical work order — without a cult of “magic link equity.” A clear section structure comes first; linking strengthens it, it doesn’t replace it.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const vnutrennyayaPerelinkovkaEn: BlogPost = {
     },
     {
       q: "How many internal links are normal on a page?",
-      a: "As many as help navigation. Dozens of lookalike anchors in one paragraph are spam risk. Menu + breadcrumbs + two to five contextual links usually suffice.",
+      a: "As many as help navigation. Dozens of similar anchors in one paragraph are spam risk. Menu + breadcrumbs + two to five contextual links usually suffice.",
     },
     {
       q: "Are exact keyword anchors required?",
@@ -39,8 +39,8 @@ export const vnutrennyayaPerelinkovkaEn: BlogPost = {
       a: "For passing signals, the first link in code/context usually matters most. Duplicating the same anchor in a pack adds little.",
     },
     {
-      q: "Will linking get me to top rankings in a month?",
-      a: "No. It’s an optimization layer. Site prep takes about a few weeks to a month; core keyword rankings in top positions are typically 2–6 months after work starts.",
+      q: "Will linking put me on page one in a month?",
+      a: "No. It’s an optimization layer. Site prep takes about a few weeks to a month; a meaningful share of the core set on page one is typically planned for 2–6 months after work starts.",
     },
     {
       q: "Where do I start on an old site?",
@@ -59,10 +59,10 @@ export const vnutrennyayaPerelinkovkaEn: BlogPost = {
         {
           intro: "Effects with a sensible approach:",
           items: [
-            "clearer navigation;",
-            "faster discovery of new URLs;",
-            "clearer topical clusters;",
-            "fewer “orphan” pages with no inbound links.",
+            "clearer navigation",
+            "faster discovery of new URLs",
+            "clearer topical clusters",
+            "fewer “orphan” pages with no inbound links",
           ],
         },
       ],
@@ -92,10 +92,10 @@ export const vnutrennyayaPerelinkovkaEn: BlogPost = {
         {
           intro: "Anchor practice:",
           items: [
-            "unique phrasing to important URLs;",
-            "relevance to surrounding text;",
-            "no spam of exact matches in every paragraph;",
-            "text links in the menu beat unlabeled image buttons.",
+            "unique phrasing to important URLs",
+            "relevance to surrounding text",
+            "no spam of exact matches in every paragraph",
+            "text links in the menu beat unlabeled image buttons",
           ],
         },
       ],
@@ -117,10 +117,10 @@ export const vnutrennyayaPerelinkovkaEn: BlogPost = {
         {
           intro: "A working hybrid:",
           items: [
-            "menu + breadcrumbs + sitemap as the base;",
-            "related blocks with category filters;",
-            "manual links to top commercial pages;",
-            "a crawler for broken and orphan URLs.",
+            "menu + breadcrumbs + sitemap as the base",
+            "related blocks with category filters",
+            "manual links to priority commercial pages",
+            "a crawler for broken and orphan URLs",
           ],
         },
       ],
@@ -139,17 +139,17 @@ export const vnutrennyayaPerelinkovkaEn: BlogPost = {
       title: "Patterns by keyword type",
       level: 2,
       paras: [
-        "Patterns are simplified models, not dogma. For head terms, people often strengthen the homepage and top sections: lower pages link up the hierarchy. For mid-tail terms (typical store), second-level category weight: home → categories ← product pages/subsections. For long-tail, deeper landing pages matter more — linked from above and from neighboring content.",
+        "Patterns are simplified models, not dogma. For head terms, people often strengthen the homepage and upper sections: lower pages link up the hierarchy. For mid-tail terms (typical store), second-level category weight: home → categories ← product pages/subsections. For long-tail, deeper landing pages matter more — linked from above and from neighboring content.",
         "Keyword map and URL hierarchy first, then the link pattern. Connecting different intents “for link equity” hurts: people and bots expect logic. Watch clicks and bounce — a click map shows which paths are alive.",
       ],
       lists: [
         {
           intro: "Pattern limits:",
           items: [
-            "no universal “ring” magic;",
-            "link spam on a page hurts trust;",
-            "one strong contextual link beats five identical ones;",
-            "structure matters more than clever arrow geometry.",
+            "no universal “ring” magic",
+            "link spam on a page hurts trust",
+            "one strong contextual link beats five identical ones",
+            "structure matters more than clever arrow geometry",
           ],
         },
       ],
@@ -175,10 +175,10 @@ export const vnutrennyayaPerelinkovkaEn: BlogPost = {
         {
           intro: "Common mistakes:",
           items: [
-            "the same anchor on every link;",
-            "links to irrelevant URLs;",
-            "ignoring broken links and redirect chains;",
-            "expecting top rankings from rearranging links alone.",
+            "the same anchor on every link",
+            "links to irrelevant URLs",
+            "ignoring broken links and redirect chains",
+            "expecting page one from rearranging links alone",
           ],
         },
       ],
@@ -186,7 +186,7 @@ export const vnutrennyayaPerelinkovkaEn: BlogPost = {
         {
           title: "Timelines",
           kind: "tip",
-          text: "Linking is a work layer — not a replacement for content and tech. Top rankings for core keywords typically build over 2–6 months after promotion starts — not from rearranging links in week one.",
+          text: "Linking is a work layer — not a replacement for content and tech. Page one for a meaningful share of the core set typically builds over 2–6 months after promotion starts — not from rearranging links in week one.",
         },
       ],
       links: [

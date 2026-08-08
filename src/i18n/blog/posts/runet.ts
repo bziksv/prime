@@ -11,7 +11,7 @@ export const runetEn: BlogPost = {
     "Runet is the Russian-language / Russia-facing segment of the internet: .ru and .рф domains, Cyrillic content, search and service ecosystems — traits without outdated stats and stereotypes.",
   lead: [
     "Runet usually means the Russian and, more broadly, Russian-language segment of the internet: content in Russian, familiar domains (.ru, .рф, partly .su), and local service ecosystems. The border isn’t rigid: a .com site can still be “about Runet” if the audience and language are Russian.",
-    "Here are the segment traits that matter for marketing and product. We don’t recycle “millions of sites” figures or 2020 stereotypes as today’s facts.",
+    "Below: segment traits that matter for marketing and product. We don’t recycle “millions of sites” figures or 2020 stereotypes as today’s facts.",
   ],
   faq: [
     {
@@ -28,7 +28,7 @@ export const runetEn: BlogPost = {
     },
     {
       q: "Is Yandex required and Google optional?",
-      a: "For many Russia-facing niches Yandex is critical; Google often still takes a share. Use your analytics, not someone else’s “2015 ranking.”",
+      a: "For many Russia-facing niches Yandex is critical; Google often still takes a share. Use your analytics, not someone else’s “2015 league table.”",
     },
     {
       q: "Is Runet only about Russia?",
@@ -59,10 +59,10 @@ export const runetEn: BlogPost = {
         {
           intro: "Segment landmarks:",
           items: [
-            "Russian as the main content language;",
-            ".ru / .рф domains and mixed zones;",
-            "local search, maps, payments, support;",
-            "familiar regional social apps and messengers.",
+            "Russian as the main content language",
+            ".ru / .рф domains and mixed zones",
+            "local search, maps, payments, support",
+            "familiar regional social apps and messengers",
           ],
         },
       ],
@@ -85,7 +85,6 @@ export const runetEn: BlogPost = {
         "Portal ecosystems (search + mail + news + services) were historically strong. Today users often live in apps, but a “start with Yandex/search” habit remains for part of the audience.",
         "For SEO and ads that means: Russian keywords, snippets for local SERPs, and separate hypotheses for Yandex and Google.",
       ],
-      lists: [],
       links: [
         {
           label: "Email service",
@@ -104,9 +103,9 @@ export const runetEn: BlogPost = {
         "Local search engines and ad accounts are tuned for language, maps, and regional commercial factors. A global “US SEO” template without adaptation often underperforms.",
         "Don’t lean on myths like “women only search in translit” — that’s a stereotype from old roundups, not a research method. Use your Wordstat/GSC and surveys.",
       ],
-      lists: [],
       notes: [
         {
+          kind: "tip",
           title: "Stats go stale",
           text: "Don’t put “N million sites” or “younger than the West” claims from 2020 texts into a pitch without a fresh source.",
         },
@@ -129,7 +128,6 @@ export const runetEn: BlogPost = {
         "Comments, chats, and social are a dense part of Runet: from work chats to memes. Fake profiles and DM spam are familiar background; brands need moderation and official contact channels.",
         "Network language: calques, shortenings, emoji. Corporate sites usually keep a neutral literate tone; content marketing can sit closer to audience speech without losing meaning.",
       ],
-      lists: [],
     },
     {
       title: "Key takeaways",
@@ -139,7 +137,6 @@ export const runetEn: BlogPost = {
         "Build product and marketing for local channels and rules, and check figures against fresh data.",
         "Stereotypes from old “Runet portraits” don’t replace analytics.",
       ],
-      lists: [],
     },
   ],
   closing: [

@@ -11,7 +11,7 @@ export const oKompaniiEn: BlogPost = {
     "How to write an About page without a founder novel and empty “we’re the best”: facts, proof, tone for the audience — and when almost nobody reads the text.",
   lead: [
     "About pages often get a template: years on the market, a team of professionals, rapid growth. Clients care more about who you’re for and what proves the claims.",
-    "Cut the fluff, keep the proof, and remember why the page exists: trust before a deal. Homepage copy is separate; the focus here is the brand section.",
+    "Below: what to cut, what to keep, and why the page exists at all. Homepage copy is separate; here the focus is the brand section.",
   ],
   faq: [
     {
@@ -24,7 +24,7 @@ export const oKompaniiEn: BlogPost = {
     },
     {
       q: "Should you publish the whole team’s photos?",
-      a: "Optional, depends on brand culture. For e-com, product and service often matter more; for an agency/clinic, faces and expertise fit.",
+      a: "Optional, depends on brand culture. For e-com, product and service often matter more; for an agency or clinic, faces and expertise fit.",
     },
     {
       q: "Can I claim “best prices / delivery in an hour”?",
@@ -32,19 +32,19 @@ export const oKompaniiEn: BlogPost = {
     },
     {
       q: "Is About a keyword-target page?",
-      a: "Not the goal. Cover semantics with services and articles; About is trust and facts — not a keyword sheet.",
+      a: "Not the goal. Cover keywords with services and articles; About is trust and facts — not a keyword sheet.",
     },
     {
       q: "How is it different from the homepage?",
-      a: "Homepage — offer and next steps. About — who you are, proof, values, contacts/legal details.",
+      a: "Homepage — offer and next steps. About — who you are, proof, values, contacts and legal details.",
     },
     {
       q: "Should case studies live on the About page?",
       a: "Briefly yes, or link to a cases section. Numbers without context (“+150% conversion”) read like fluff.",
     },
     {
-      q: "How long should the About page be?",
-      a: "As long as needed to answer audience doubts. Often 1–3 screens beat a novel.",
+      q: "How long should it be?",
+      a: "As long as needed to answer audience doubts. Often one to three screens beat a novel.",
     },
   ],
   sections: [
@@ -57,14 +57,13 @@ export const oKompaniiEn: BlogPost = {
         "Template “why us”: professionals, innovation, personalized approach — with no facts.",
         "A CTA like “write articles for us / become a partner” instead of answering the client.",
       ],
-      lists: [],
     },
     {
       title: "What is useful to write",
       level: 2,
       paras: [
         "Who you serve and which job you solve — in the client’s language.",
-        "Proof: years/geo if needed, certificates, cases with links, real numbers with explanation.",
+        "Proof: years or geo if needed, certificates, cases with links, real numbers with explanation.",
         "How the service works: stages, guarantees, responsibility zones — what lowers deal fear.",
         "Legal details and contacts for B2B: entity, address, how to reach you.",
       ],
@@ -73,8 +72,8 @@ export const oKompaniiEn: BlogPost = {
           intro: "Match tone to the audience:",
           items: [
             "B2B — reliability, processes, cases",
-            "mass service — clarity, prices/terms, reviews",
-            "local business — geo, atmosphere, neighborhood specifics.",
+            "mass service — clarity, prices or terms, reviews",
+            "local business — geo, atmosphere, neighborhood specifics",
           ],
         },
       ],
@@ -97,10 +96,10 @@ export const oKompaniiEn: BlogPost = {
         "Transparency is expected (healthcare, finance, B2B tenders).",
         "You need a trust anchor next to reviews and cases — not “so we’re not worse than competitors.”",
       ],
-      lists: [],
       notes: [
         {
           title: "Trust priority",
+          kind: "tip",
           text: "Reviews, cases, and clear service terms often convert better than a lyrical About. The page complements them — it doesn’t replace them.",
         },
       ],
@@ -111,9 +110,8 @@ export const oKompaniiEn: BlogPost = {
       paras: [
         "Facts and help choosing beat biography.",
         "Promises = obligations.",
-        "Tone and length follow the audience — not a 2015 TOP template.",
+        "Tone and length follow the audience — not a 2015 “best About pages” template.",
       ],
-      lists: [],
     },
   ],
   closing: [

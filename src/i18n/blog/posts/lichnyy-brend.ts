@@ -3,7 +3,7 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for lichnyy-brend — same structure as RU JSON. */
 export const lichnyyBrendEn: BlogPost = {
   slug: "lichnyy-brend",
-  title: "Personal brand on social: why you need it and how to build it",
+  title: "Personal brand on social: why it matters and how to build it",
   date: "2021-08-27",
   category: "SMM",
   cover: "/images/blog/lichnyy-brend/cover-en.webp",
@@ -11,7 +11,7 @@ export const lichnyyBrendEn: BlogPost = {
     "What a personal brand is, who it helps sell services and expertise, how to pick a niche, channel, and content mix — without cross-posting to every network at once.",
   lead: [
     "A personal brand is a stable expert image in the audience’s mind: “this person solves that kind of problem.” It’s not a company logo — it’s one specialist’s reputation.",
-    "Who benefits, how to narrow your niche, where to start on social, and which content to cycle — below. Platform UIs change; strategy and cadence matter more than “hacking the algorithm.” Informational overview.",
+    "Below: who benefits, how to narrow the niche, where to start on social, and which content to cycle. Platform UIs change; strategy and cadence matter more than “hacking the algorithm.” Informational only.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const lichnyyBrendEn: BlogPost = {
       a: "Corporate is about the company and product. Personal is about the expert as a person. They often reinforce each other: a founder’s face pulls trust to the firm.",
     },
     {
-      q: "Who benefits most from a personal brand?",
+      q: "Who benefits most?",
       a: "Consultants, agencies, premium services, creative and B2B experts — where people buy the person and competence, not only an SKU.",
     },
     {
@@ -31,8 +31,8 @@ export const lichnyyBrendEn: BlogPost = {
       a: "Often yes: a useful slice of the solution builds trust; depth is the paid product. Pure selling with no value burns out fast.",
     },
     {
-      q: "Does a personal brand bring sales quickly?",
-      a: "Usually months of cadence. In parallel you can sell services/consulting — a personal brand compounds longer.",
+      q: "Does it bring sales quickly?",
+      a: "Usually months of cadence. In parallel you can sell services or consulting — a personal brand compounds longer.",
     },
   ],
   sections: [
@@ -47,10 +47,10 @@ export const lichnyyBrendEn: BlogPost = {
         {
           intro: "Who it pays off for more often:",
           items: [
-            "experts and key company employees;",
-            "premium and complex B2B sales;",
-            "creative and intellectual services;",
-            "anyone who needs to stand out from “same” offers.",
+            "experts and key company employees",
+            "premium and complex B2B sales",
+            "creative and intellectual services",
+            "anyone who needs to stand out from “same” offers",
           ],
         },
       ],
@@ -60,14 +60,14 @@ export const lichnyyBrendEn: BlogPost = {
       level: 2,
       paras: [
         "Social gives direct audience contact cheaper than classic offline and search ads at the start. Jobs: awareness, site traffic, image, warming, product announcements.",
-        "Offline (conferences, clubs) helps but doesn’t replace regular content. A competitor’s price rarely “steals” a loyal audience if trust is already built.",
+        "Offline (conferences, clubs) helps but doesn’t replace regular content. A competitor’s price rarely steals a loyal audience if trust is already built.",
       ],
       lists: [
         {
           intro: "Two ways to monetize the image:",
           items: [
-            "narrow pain → sell the service right away (harder, higher rejection risk);",
-            "pain → free value → paid depth (slower, more durable).",
+            "narrow pain → sell the service right away (harder, higher rejection risk)",
+            "pain → free value → paid depth (slower, more durable)",
           ],
         },
       ],
@@ -89,10 +89,10 @@ export const lichnyyBrendEn: BlogPost = {
         {
           intro: "Start plan:",
           items: [
-            "audience portrait and pains;",
-            "flagship channel for the product audience;",
-            "content plan for 4–6 weeks;",
-            "metrics: not only followers, but saves, dialogues, leads.",
+            "audience portrait and pains",
+            "flagship channel for the product audience",
+            "content plan for 4–6 weeks",
+            "metrics: not only followers, but saves, dialogues, leads",
           ],
         },
       ],
@@ -100,6 +100,7 @@ export const lichnyyBrendEn: BlogPost = {
         {
           title: "Practice",
           text: "One strong channel beats five empty ones. Add a second when the first has rhythm and a clear offer.",
+          kind: "tip",
         },
       ],
     },
@@ -113,10 +114,10 @@ export const lichnyyBrendEn: BlogPost = {
         {
           intro: "Rubric examples:",
           items: [
-            "personal: path, mistakes, behind the scenes;",
-            "expert: case review, a trend with commentary;",
-            "selling: who the service is for, result, how to start;",
-            "engagement: polls, Q&A, lives — without trolling “for noise.”",
+            "personal: path, mistakes, behind the scenes",
+            "expert: case review, a trend with commentary",
+            "selling: who the service is for, result, how to start",
+            "engagement: polls, Q&A, lives — without trolling “for noise”",
           ],
         },
       ],
@@ -131,17 +132,17 @@ export const lichnyyBrendEn: BlogPost = {
       title: "Channels and growth",
       level: 2,
       paras: [
-        "Pick the channel for the audience: visual niches lean to photo/video platforms; B2B and long text — to professional networks and messenger channels; broad reach in Russia often runs through VK and Telegram.",
-        "Growth tools: strong content, collabs, lives, paid ads by platform rules, contests in moderation. Fake followers and edge provocations hurt trust more than they help reach.",
+        "Pick the channel for the audience: visual niches lean to photo/video platforms; B2B and long text — to professional networks and messenger channels; broad discovery in Russia often runs through VK and Telegram.",
+        "Growth tools: strong content, collabs, lives, paid ads by platform rules, contests in moderation. Fake followers and edge provocations hurt trust more than they help discovery.",
       ],
       lists: [
         {
           intro: "What to measure:",
           items: [
-            "reach and saves;",
-            "replies and dialogues;",
-            "site clicks;",
-            "leads and deals with attribution.",
+            "impressions and saves",
+            "replies and dialogues",
+            "site clicks",
+            "leads and deals with attribution",
           ],
         },
       ],
@@ -149,6 +150,7 @@ export const lichnyyBrendEn: BlogPost = {
         {
           title: "Common mistake",
           text: "Chasing follower count and cross-posting one text everywhere. Audiences differ — adapt the format.",
+          kind: "tip",
         },
       ],
     },
@@ -158,7 +160,6 @@ export const lichnyyBrendEn: BlogPost = {
       paras: [
         "A personal brand is a long bet on trust in an expert. Narrow the niche, pick one channel, keep a personal/expert/selling mix, and measure leads — not only likes. Without cadence the image doesn’t form.",
       ],
-      lists: [],
     },
   ],
 };

@@ -8,10 +8,10 @@ export const broshennayaKorzinaEn: BlogPost = {
   category: "E-commerce",
   cover: "/images/blog/broshennaya-korzina/cover-en.webp",
   excerpt:
-    "Abandoned cart: registration, trust and payment, UX and bugs, hidden fees and delivery times, support, and recovery via email/retargeting — without the cult of “zero abandonment”.",
+    "Abandoned cart: registration, trust and payment, UX and bugs, hidden fees and delivery times, support, and recovery via email/retargeting — without the cult of “zero abandonment.”",
   lead: [
-    "Items in the cart but no order is a normal part of e-commerce — not only a “broken site.” Some people compare prices, get distracted, or were “just looking.” But if checkout drop-off is clearly above your niche baseline — fix the friction.",
-    "Carts get abandoned over registration friction, weak trust, payment pain, UX bugs, long checkout, hidden fees, slow delivery promises, and silent support. Figures like “70% abandon the cart” from old reviews are order-of-magnitude guides — watch your own funnel analytics.",
+    "Items in the cart but no order is a normal part of e-commerce — not only a “broken site.” Some people compare prices, get distracted, or were “just looking.” But if checkout drop-off sits clearly above your niche baseline — fix the friction.",
+    "Below: common reasons and what to fix — registration, trust, payment, usability, cart bugs, long checkout, hidden fees, delivery timing, and support. Figures like “70% abandon the cart” from old reviews are order-of-magnitude guides, not your store’s norm — watch your own funnel analytics.",
   ],
   faq: [
     {
@@ -27,15 +27,15 @@ export const broshennayaKorzinaEn: BlogPost = {
       a: "As early as possible: on the product page or before the final step. A surprise at payment is classic abandonment.",
     },
     {
-      q: "Do abandoned-cart emails help recover sales?",
-      a: "Yes if you have consent and a useful offer (stock, timing, help) — not only “you forgot”. Follow personal-data and advertising rules.",
+      q: "Do abandoned-cart emails help?",
+      a: "Yes if you have consent and a useful offer (availability, timing, help) — not only “you forgot.” Follow personal-data and advertising rules.",
     },
     {
-      q: "Do you need a live chat on checkout?",
+      q: "Do you need a live chat?",
       a: "Not necessarily a chat widget: fast answers matter — FAQ at checkout, phone, messenger. The point is to clear doubt before they leave.",
     },
     {
-      q: "Do HTTPS and reviews really matter for checkout?",
+      q: "Do HTTPS and reviews really matter?",
       a: "For trust — yes. Without a secure connection, contacts, and a clear return policy, expensive orders often don’t finish.",
     },
   ],
@@ -44,7 +44,7 @@ export const broshennayaKorzinaEn: BlogPost = {
       title: "Registration, trust, and payment",
       level: 2,
       paras: [
-        "Long mandatory registration before pay irritates: people don’t want to leave extra data “just in case”. Keep a contact minimum or guest order with an option to create an account after.",
+        "Long mandatory registration before pay irritates: people don’t want to leave extra data “just in case.” Keep a contact minimum or guest order with an option to create an account after.",
         "Security doubts raise drop-off: few reviews, no company details/contacts, broken links, no guarantees and returns, missing HTTPS and clear payment methods.",
         "A narrow payment set also cuts conversion — especially on expensive goods and little-known storefronts. Offer familiar methods and, where it fits, pay-on-delivery / partial prepay.",
       ],
@@ -52,10 +52,10 @@ export const broshennayaKorzinaEn: BlogPost = {
         {
           intro: "Trust signals at checkout:",
           items: [
-            "contacts and legal info;",
-            "reviews and return terms;",
-            "HTTPS and clear payment marks;",
-            "a short form without extra fields.",
+            "contacts and legal info",
+            "reviews and return terms",
+            "HTTPS and clear payment marks",
+            "a short form without extra fields",
           ],
         },
       ],
@@ -74,7 +74,7 @@ export const broshennayaKorzinaEn: BlogPost = {
       title: "UX, cart bugs, and hidden surprises",
       level: 2,
       paras: [
-        "Slow load, no mobile layout, link overload, and no way back to the product — people leave before payment. The cart should remove items one by one and sync tabs without “magic”.",
+        "Slow load, no mobile layout, link overload, and no way back to the product — people leave before payment. The cart should remove items one by one and sync tabs without “magic.”",
         "A long multi-step checkout with a dozen optional fields tires people out. Split steps; keep few controls on screen.",
         "Hidden fees (shipping, commission) and delivery time only on the last step are a common leave reason. Show full cost and a timing guide next to the price on the product page.",
       ],
@@ -82,18 +82,18 @@ export const broshennayaKorzinaEn: BlogPost = {
         {
           intro: "Cart tech minimum:",
           items: [
-            "remove individual line items;",
-            "correct total recalculation;",
-            "stability across several tabs;",
-            "clear checkout progress.",
+            "remove individual line items",
+            "correct total recalculation",
+            "stability across several tabs",
+            "clear checkout progress",
           ],
         },
       ],
       notes: [
         {
           title: "“Just browsing”",
-          text: "Not everything is fixed by UX. For the unsure — a soft promo code, emphasis on stock/delivery, retargeting and a reminder email (with consent). Not everyone returns — and that’s fine.",
           kind: "tip",
+          text: "Not everything is fixed by UX. For the unsure — a soft promo code, emphasis on availability/delivery, retargeting and a reminder email (with consent). Not everyone returns — and that’s fine.",
         },
       ],
       links: [

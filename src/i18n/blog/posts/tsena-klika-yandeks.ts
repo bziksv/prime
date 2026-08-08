@@ -10,13 +10,13 @@ export const tsenaKlikaYandeksEn: BlogPost = {
   excerpt:
     "How to derive an acceptable CPC from target CPA and site conversion, why Yandex Metrika matters, and why an “average market click price” without economics is useless.",
   lead: [
-    "In Yandex Direct it’s easy to chase position and forget what a click can cost the business. If you’re ready to pay X per lead and the site converts Y% of clicks, the bid ceiling is calculated before launch — not after burning the budget.",
-    "Use this simple formula from CPA and conversion, a numeric example, and limits (season, competition, lead quality). CPM/CPC models and bid control are in related posts.",
+    "In Yandex Direct it’s easy to chase auction rank and forget what a click can cost the business. If you’re ready to pay X per lead and the site converts Y% of clicks, the bid ceiling is calculated before launch — not after burning the budget.",
+    "Below: a simple formula from CPA and conversion, a numeric example, and limits (season, competition, lead quality). CPM/CPC models and bid control are in related posts.",
   ],
   faq: [
     {
       q: "What is the click-price formula?",
-      a: "Guide: acceptable CPC ≈ target CPA × (conversion to goal / 100). Conversion is the share of clicks that became a lead/order.",
+      a: "Guide: acceptable CPC ≈ target CPA × (conversion to goal / 100). Conversion is the share of clicks that became a lead or order.",
     },
     {
       q: "Where does conversion come from?",
@@ -28,11 +28,11 @@ export const tsenaKlikaYandeksEn: BlogPost = {
     },
     {
       q: "Why doesn’t the calc match the auction?",
-      a: "The market may demand above your ceiling. Then cut irrelevant traffic, improve the ad and landing, or narrow semantics — don’t raise the bid at a loss.",
+      a: "The market may demand above your ceiling. Then cut irrelevant traffic, improve the ad and landing, or narrow the keyword set — don’t raise the bid at a loss.",
     },
     {
       q: "Should I calculate for the whole site or per product?",
-      a: "Better by segments: categories differ in conversion and margin. Sometimes it’s smarter to run strong positions, not the whole catalog.",
+      a: "Better by segments: categories differ in conversion and margin. Sometimes it’s smarter to run strong ad groups, not the whole catalog.",
     },
     {
       q: "Is CTR enough to judge?",
@@ -55,10 +55,10 @@ export const tsenaKlikaYandeksEn: BlogPost = {
         {
           intro: "Minimum data:",
           items: [
-            "Yandex Metrika goal (lead, call, purchase);",
-            "target CPA from margin / LTV;",
-            "click → goal conversion;",
-            "niche seasonality awareness.",
+            "Yandex Metrika goal (lead, call, purchase)",
+            "target CPA from margin / LTV",
+            "click → goal conversion",
+            "niche seasonality awareness",
           ],
         },
       ],
@@ -80,9 +80,9 @@ export const tsenaKlikaYandeksEn: BlogPost = {
         {
           intro: "Related definitions:",
           items: [
-            "conversion CR = goals / clicks × 100%;",
-            "CPA (cost per goal) = ad spend / number of goals;",
-            "in planning: spend ≈ CPC × clicks → hence the CPC ceiling.",
+            "conversion CR = goals / clicks × 100%",
+            "CPA (cost per goal) = ad spend / number of goals",
+            "in planning: spend ≈ CPC × clicks → hence the CPC ceiling",
           ],
         },
       ],
@@ -93,7 +93,7 @@ export const tsenaKlikaYandeksEn: BlogPost = {
       paras: [
         "Gear ecommerce: ad conversion 1.5% (1.5 orders per 100 clicks). Target CPA — 150 ₽ per order.",
         "Acceptable CPC ≈ 150 × 1.5 / 100 = 2.25 ₽. On 200 clicks at that bid, spend is about 450 ₽ and roughly three orders expected — if conversion holds.",
-        "If the auction asks 8 ₽ at the same conversion, order cost jumps above 500 ₽ — either improve the funnel, narrow queries, or admit the channel doesn’t pencil out in that semantics.",
+        "If the auction asks 8 ₽ at the same conversion, order cost jumps above 500 ₽ — either improve the funnel, narrow queries, or admit the channel doesn’t pencil out for that keyword set.",
       ],
     },
     {
@@ -107,10 +107,10 @@ export const tsenaKlikaYandeksEn: BlogPost = {
         {
           intro: "Check if the calc “won’t fit” the auction:",
           items: [
-            "ad and landing relevance;",
-            "negatives and junk demand;",
-            "landing speed and offer clarity;",
-            "segment margin — is target CPA overstated.",
+            "ad and landing relevance",
+            "negatives and junk demand",
+            "landing speed and offer clarity",
+            "segment margin — is target CPA overstated",
           ],
         },
       ],

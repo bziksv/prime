@@ -11,10 +11,10 @@ export const napominanieKlientuEn: BlogPost = {
     "How to softly win attention back: useful push, email and triggers, abandoned cart, holidays, and review requests — with consent and without “you haven’t visited in a while” spam.",
   lead: [
     "Selling once is half the job. The emotion of a purchase fades fast: you need a fitting reason to remind people you’re here — not a stream of “come visit us.”",
-    "The difference between a gentle reminder and nagging is the occasion: usefulness, status, a holiday, a cart left behind. Trigger, cart, and greeting details live in related guides; here we focus on tone and frequency so you don’t burn the list.",
+    "Below: channels and informational occasions. Trigger, cart, and greeting details live in related guides; here — how not to tip into nagging. Marketing messages only with consent and a clear unsubscribe.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. WhatsApp* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -23,7 +23,7 @@ export const napominanieKlientuEn: BlogPost = {
       a: "Triggers are event mechanics. Here — the broader logic of a “gentle occasion” across channels, including push and the offline meaning of holidays.",
     },
     {
-      q: "Can you send push notifications without an app?",
+      q: "Push without an app?",
       a: "Classic app-push comes from an app. On the site, web-push is possible with browser permission; same rules: useful, rare, not a hard “buy now” in every ping.",
     },
     {
@@ -35,7 +35,7 @@ export const napominanieKlientuEn: BlogPost = {
       a: "You shouldn’t. A birthday is personal data: only what the client left at signup or in a form and allowed you to use.",
     },
     {
-      q: "Is a “you haven’t visited in a while” message fine?",
+      q: "Is “you haven’t visited in a while” fine?",
       a: "It often annoys. Better: usefulness, a meaningful bonus, a service update, or a question about their experience.",
     },
     {
@@ -43,7 +43,7 @@ export const napominanieKlientuEn: BlogPost = {
       a: "Yes as a complement to email, not instead of service. See retargeting materials.",
     },
     {
-      q: "Do WhatsApp* and SMS reminders work too?",
+      q: "WhatsApp* and SMS?",
       a: "Only with consent and in a channel where the client already expects service messages. Otherwise — complaint and block risk.",
     },
     {
@@ -59,14 +59,13 @@ export const napominanieKlientuEn: BlogPost = {
         "A reminder should restore a good experience or give value (order status, usage tip, seasonal fact, loyalty bonus). Hard sell in every touch burns the list.",
         "Service and product beat templates. A bad experience won’t be fixed by an email.",
       ],
-      lists: [],
     },
     {
       title: "Push: short and useful",
       level: 2,
       paras: [
         "If you have an app (or web-push), the client allowed pings — that’s responsibility. The job is to improve their day: motivation, event reminder, useful niche news — not “you haven’t visited.”",
-        "Keep 1–2 sentences, a calm tone, no shouting. Frequency stays low or they’ll revoke permission.",
+        "Keep 1–2 sentences, a calm tone when you use sound, no shouting. Frequency stays low or they’ll revoke permission.",
       ],
       lists: [
         {
@@ -74,7 +73,7 @@ export const napominanieKlientuEn: BlogPost = {
           items: [
             "usefulness or care, not a hard offer",
             "specifics without a wall of text",
-            "tied to what the person already did in the product.",
+            "tied to what the person already did in the product",
           ],
         },
       ],
@@ -87,7 +86,6 @@ export const napominanieKlientuEn: BlogPost = {
         "Abandoned cart: remind that items are waiting; if the price changed — say so. Launch the series relatively fast (hours to days); test tone and offer. More in the abandonment piece.",
         "Loyal clients can get exclusive bonuses — a “special status” feel without pressure.",
       ],
-      lists: [],
       links: [
         {
           label: "Trigger emails",
@@ -107,7 +105,6 @@ export const napominanieKlientuEn: BlogPost = {
         "Service news, shipping improvements, brand events — if the segment truly cares.",
         "Asking for a review and answering the feedback strengthens the relationship better than “rate us 5 stars” with no reply.",
       ],
-      lists: [],
       links: [
         {
           label: "Greeting a client",
@@ -127,7 +124,6 @@ export const napominanieKlientuEn: BlogPost = {
         "Handle cart and pause with fresh-timed triggers — not “in a month and a half.”",
         "Don’t harvest birthdays from other people’s profiles against the rules.",
       ],
-      lists: [],
     },
   ],
   closing: [

@@ -11,7 +11,7 @@ export const urlYoutubeEn: BlogPost = {
     "How a short channel address differs from an ID, what conditions YouTube usually sets, and how to change the link without outdated screenshots — with a note on @handles and change limits.",
   lead: [
     "Instead of a long channel ID, a short readable link is easier: simpler to dictate, put on a card, and in social headers. On YouTube this was historically a “custom URL”; today the @handle format is more common.",
-    "A short address strengthens the brand and cuts friction when sharing — it doesn’t replace content or video SEO. Studio menus and thresholds (subscribers, channel age) have shifted, so check YouTube Help rather than recycling old “gear → Advanced” screenshots.",
+    "Below: why a short link helps, typical access conditions, and the logic of changing it. Studio menus and thresholds (subscribers, channel age) have shifted — check YouTube Help. We don’t copy old “gear → Advanced” screenshots as a 1:1 guide.",
   ],
   faq: [
     {
@@ -65,11 +65,11 @@ export const urlYoutubeEn: BlogPost = {
         {
           intro: "Before changing, check:",
           items: [
-            "avatar and banner follow the rules;",
-            "channel description exists;",
-            "account is in good standing (no hard strikes or limits);",
-            "desired handle is free and pronounceable;",
-            "you’ve planned for repeat-change limits.",
+            "avatar and banner follow the rules",
+            "channel description exists",
+            "account is in good standing (no hard strikes or limits)",
+            "desired handle is free and pronounceable",
+            "you’ve planned for repeat-change limits",
           ],
         },
       ],
@@ -108,7 +108,7 @@ export const urlYoutubeEn: BlogPost = {
       level: 2,
       paras: [
         "Old URLs often stay valid — good for link history, bad if you want to forget the old name. Finish the rebrand by updating the site, cards, and ad creatives.",
-        "A short address doesn’t boost algorithms by itself. Growth comes from videos, retention, and semantics — see related pieces.",
+        "A short address doesn’t boost algorithms by itself. Growth comes from videos, retention, and topic/keyword fit — see related pieces.",
       ],
       links: [
         {

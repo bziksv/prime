@@ -5,13 +5,13 @@ export const wordpressAdminEn: BlogPost = {
   slug: "wordpress-admin",
   title: "How to open the WordPress admin and restore access",
   date: "2018-03-23",
-  category: "Hosting",
+  category: "Digital marketing",
   cover: "/images/blog/wordpress-admin/cover-en.webp",
   excerpt:
     "Signing into wp-admin and wp-login.php, email password recovery, reset via hosting, and typical cache-related failures — without advice to keep the login admin.",
   lead: [
     "The WordPress admin is the panel where you publish posts, edit pages, and install plugins. Usual entry: `https://your-site.example/wp-admin/` or `/wp-login.php`.",
-    "Open the login form, recover a forgotten password, touch the database on hosting only when needed, and clear cookies or cache when the form loops. This is not a guide to hacking other people’s sites and not a call to live with the login `admin`.",
+    "Below: how to open the login form, what to do with a forgotten password, when to touch the database on hosting, and why cookies or cache get in the way. This is not a guide to hacking other people’s sites and not a call to live with the login `admin`.",
   ],
   faq: [
     {

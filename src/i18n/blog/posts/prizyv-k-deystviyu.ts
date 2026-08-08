@@ -11,7 +11,7 @@ export const prizyvKDeystviyuEn: BlogPost = {
     "Calls to action on a site: page goal, button copy, benefit, placement, and A/B — without fake scarcity and a swarm of pushy popups.",
   lead: [
     "A call to action (CTA) is a short instruction for “what to do next”: buy, submit a lead, subscribe, call. Without it even strong copy often ends in nothing.",
-    "We cover how to pick the goal, write the copy, style the button, and where to place the block. Full selling-copy structure is separate; here the focus is the ask itself.",
+    "Below: how to pick the goal, write the copy, style the button, and where to place the block. Full selling-copy structure is separate; here the focus is the ask itself.",
   ],
   faq: [
     {
@@ -50,10 +50,11 @@ export const prizyvKDeystviyuEn: BlogPost = {
       paras: [
         "On a product page the CTA is “Add to cart” / “Buy.” On Contacts — “Call” / “Write.” On a blog — “Subscribe” or “Download the guide.” The page goal sets the wording.",
         "Map the user path: where they’re ready to act vs still reading. A younger impulsive segment often responds to a short visible CTA; B2B and a more cautious audience usually want facts first — ask after value, not instead of it.",
-        "Without analytics (goals in Analytics, button clicks) you won’t know if new copy helped. After launch, watch behavior and bounce.",
+        "Without analytics (goals in Metrica/Analytics, button clicks) you won’t know if new copy helped. After launch, watch behavior and bounce.",
       ],
       notes: [
         {
+          kind: "tip",
           title: "Not “more buttons = better”",
           text: "Several entry points to one action — fine. Ten different offers on one screen — noise.",
         },
@@ -74,7 +75,7 @@ export const prizyvKDeystviyuEn: BlogPost = {
             "what to do",
             "what the person gets",
             "how long it takes / what the next step is",
-            "no false reply-time promises.",
+            "no false reply-time promises",
           ],
         },
       ],
@@ -112,7 +113,7 @@ export const prizyvKDeystviyuEn: BlogPost = {
             "contrast and size on mobile",
             "one primary goal per screen",
             "hover/disabled states are clear",
-            "after click — a clear next screen/form.",
+            "after click — a clear next screen/form",
           ],
         },
       ],

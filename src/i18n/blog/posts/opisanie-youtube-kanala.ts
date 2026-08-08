@@ -11,11 +11,11 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
     "How to write a YouTube channel description: opening lines, keywords, links, common mistakes, and how to update the text in Studio.",
   lead: [
     "A channel description is a short “what this project is about.” People read it on the channel page and sometimes see it in search. The first sentences decide whether someone stays.",
-    "Lead with the niche and who it’s for, add keywords without spam, and put useful links below. YouTube Studio menu items change — look for Customization / About.",
+    "Below: structure, keywords without spam, links, and typical mistakes. YouTube Studio menu items change — look for Customization / About.",
   ],
   faq: [
     {
-      q: "How many characters are allowed in a channel description?",
+      q: "How many characters are allowed?",
       a: "The platform limit is around a thousand characters; the preview often shows only the first ~100–200. Check exact limits in Studio — they can change.",
     },
     {
@@ -27,11 +27,11 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
       a: "Channel description is the project’s business card. Video description is about that clip, timestamps, and a CTA for that episode.",
     },
     {
-      q: "How do you make links clickable in the description?",
+      q: "How do you make links clickable?",
       a: "Via the links field in channel settings / customization, not a bare URL in a paragraph. Link labels should match the project’s site and socials.",
     },
     {
-      q: "Can you skip a YouTube channel description?",
+      q: "Can you skip a description?",
       a: "Only if people already know you by name. For new and niche channels an empty About is a missed chance to explain the offer.",
     },
   ],
@@ -43,7 +43,6 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
         "The text answers three questions: what the channel is about, who it’s for, and what to expect next. Without it viewers guess from thumbnails alone.",
         "The description helps search and trust: coherent, clean copy looks like a real project, not a draft.",
       ],
-      lists: [],
     },
     {
       title: "Opening lines and limits",
@@ -59,12 +58,13 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
             "what goes out regularly (content pillars, cadence)",
             "how you differ from similar channels",
             "where to go next (site, socials — via the links field)",
-            "a soft CTA: subscribe, watch a playlist, write.",
+            "a soft CTA: subscribe, watch a playlist, write",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Practice",
           text: "Draft 600–800 characters, then cut fluff. Check that meaning is clear if the text is cut after the second sentence.",
         },
@@ -83,7 +83,7 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
           items: [
             "at the start — main topic and brand",
             "in the middle — niche and format details",
-            "at the end — extra phrasing and CTA.",
+            "at the end — extra phrasing and CTA",
           ],
         },
       ],
@@ -108,7 +108,7 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
             "product / service reviews",
             "learning and breakdowns",
             "entertainment, vlogs, games",
-            "niche (cars, film, kids, business…).",
+            "niche (cars, film, kids, business…)",
           ],
         },
       ],
@@ -127,14 +127,15 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
             "copy-pasting someone else’s description",
             "a description that doesn’t match the channel",
             "spelling issues and an off tone",
-            "links to someone else’s / suspicious resources.",
+            "links to someone else’s / suspicious resources",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Common mistake",
-          text: "Writing “the best channel about everything”. Better one concrete niche and a clear format — that’s how the right subscribers arrive.",
+          text: "Writing “the greatest channel about everything.” Better one concrete niche and a clear format — that’s how the right subscribers arrive.",
         },
       ],
     },
@@ -145,7 +146,6 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
         "In YouTube Studio open channel customization / about and the description field. Paste the text, save.",
         "Add links in the separate channel links block: site, socials, shop. After a topic shift or rebrand, update the description, avatar, and banner together.",
       ],
-      lists: [],
       links: [
         {
           label: "YouTube channel avatar",
@@ -167,7 +167,7 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
             "read 3–5 channels in your niche",
             "note what hooks in the opening lines",
             "write your version without copy-paste",
-            "check uniqueness and literacy.",
+            "check uniqueness and literacy",
           ],
         },
       ],

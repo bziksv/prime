@@ -11,10 +11,10 @@ export const kontentPlanInstagramEn: BlogPost = {
     "How to build a working Instagram content plan: goal, categories, post mix, schedule, ideas, and results review.",
   lead: [
     "A content plan is a publishing calendar tied to the account goal: what, why, and when goes out. Without it you easily slip into random posts or wall-to-wall sales.",
-    "A solid frame covers format mix and a monthly checklist. Planner UIs change — the system matters more than a specific app.",
+    "Below: a plan frame, format mix, and a monthly checklist. Planner UIs change — the system matters more than a specific app.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -47,7 +47,6 @@ export const kontentPlanInstagramEn: BlogPost = {
         "A plan removes daily “what do I post” panic and ties posts to a goal: traffic, leads, expertise, warm-up before a launch.",
         "Even a strong account without rhythm loses reach and trust. Cadence is part of the product.",
       ],
-      lists: [],
     },
     {
       title: "How to build a plan in 5 steps",
@@ -57,19 +56,19 @@ export const kontentPlanInstagramEn: BlogPost = {
       ],
       lists: [
         {
-          intro: null,
           items: [
-            "Topic and account role: education, blog, shop, personal brand.",
-            "Goal for the period: followers, leads, warm-up, reputation.",
-            "Categories and formats: post, carousel, Reels/short clips, Stories.",
-            "Mix of value / engagement / sales.",
-            "Slot schedule + owners + shoot deadlines.",
+            "Topic and account role: education, blog, shop, personal brand",
+            "Goal for the period: followers, leads, warm-up, reputation",
+            "Categories and formats: post, carousel, Reels/short clips, Stories",
+            "Mix of value / engagement / sales",
+            "Slot schedule + owners + shoot deadlines",
           ],
         },
       ],
       notes: [
         {
           title: "Link to the profile",
+          kind: "tip",
           text: "A plan is useless if the header has no offer. Clear profile positioning first, then the calendar.",
         },
       ],
@@ -94,11 +93,11 @@ export const kontentPlanInstagramEn: BlogPost = {
         {
           intro: "A workable weekly mix:",
           items: [
-            "value / education;",
-            "social proof (review, case);",
-            "engagement (question, poll);",
-            "sale / offer;",
-            "behind the scenes / brand personality.",
+            "value / education",
+            "social proof (review, case)",
+            "engagement (question, poll)",
+            "sale / offer",
+            "behind the scenes / brand personality",
           ],
         },
       ],
@@ -125,30 +124,30 @@ export const kontentPlanInstagramEn: BlogPost = {
         {
           intro: "Universal:",
           items: [
-            "answer to a frequent question;",
-            "myth vs fact in the niche;",
-            "5-point checklist;",
-            "beginner mistake;",
-            "seasonal announcement.",
+            "answer to a frequent question",
+            "myth vs fact in the niche",
+            "5-point checklist",
+            "beginner mistake",
+            "seasonal announcement",
           ],
         },
         {
           intro: "Selling (without aggression):",
           items: [
-            "offer with terms and deadline;",
-            "plan/package comparison;",
-            "what’s included in the service;",
-            "how an order works;",
-            "spots left / book a slot.",
+            "offer with terms and deadline",
+            "plan/package comparison",
+            "what’s included in the service",
+            "how an order works",
+            "spots left / book a slot",
           ],
         },
         {
           intro: "Informational:",
           items: [
-            "product news;",
-            "case breakdown;",
-            "“how to choose” guide;",
-            "month wrap-up.",
+            "product news",
+            "case breakdown",
+            "“how to choose” guide",
+            "month wrap-up",
           ],
         },
       ],
@@ -164,12 +163,12 @@ export const kontentPlanInstagramEn: BlogPost = {
         {
           intro: "Useful plan-table columns:",
           items: [
-            "date / time;",
-            "format;",
-            "topic and thesis;",
-            "status (idea → shot → ready → published);",
-            "owner;",
-            "link to file / draft.",
+            "date / time",
+            "format",
+            "topic and thesis",
+            "status (idea → shot → ready → published)",
+            "owner",
+            "link to file / draft",
           ],
         },
       ],
@@ -185,10 +184,10 @@ export const kontentPlanInstagramEn: BlogPost = {
         {
           intro: "Mini weekly review:",
           items: [
-            "top 3 posts;",
-            "a miss and a hypothesis why;",
-            "how many selling slots brought leads;",
-            "what moves to next week.",
+            "three strongest posts",
+            "a miss and a hypothesis why",
+            "how many selling slots brought leads",
+            "what moves to next week",
           ],
         },
       ],

@@ -11,7 +11,7 @@ export const proverkaIndeksatsiiEn: BlogPost = {
     "How to check whether pages are in the Google and Yandex index: Webmaster and Search Console, the site: operator, extensions, and typical reasons a URL isn’t indexed — without confusing crawl with index.",
   lead: [
     "Indexing means a URL enters the search database used for results. A crawl is faster and doesn’t guarantee the page stays in the index.",
-    "How to check status in webmaster accounts, via `site:`, and related tools — and what to fix when things fail. Not the whole site must be indexed: utility URLs are closed separately. Webmaster/GSC UI changes; report meaning matters more.",
+    "Below: how to check status in webmaster panels, via `site:`, and related tools — and what to fix when things fail. Not every URL must be indexed: utility pages are closed separately. Webmaster/GSC UI changes; report meaning matters more.",
   ],
   faq: [
     {
@@ -24,15 +24,15 @@ export const proverkaIndeksatsiiEn: BlogPost = {
     },
     {
       q: "Should I panic if a new site isn’t indexed yet?",
-      a: "First check availability, sitemap, robots, and recrawl requests. Timelines differ by project; “exactly two weeks” isn’t law.",
+      a: "First check availability, sitemap, robots, and recrawl requests. Timelines differ by project; “exactly two weeks” isn’t a law.",
     },
     {
       q: "What if everything is indexed but there’s no traffic?",
-      a: "Index ≠ rankings and clicks. Look at demand, snippets, competition, and content. Core TOP is planned over 2–6 months of work after you start.",
+      a: "Index ≠ rankings and clicks. Look at demand, snippets, competition, and content. Share of the core on page one is planned over months of work — typically two to six after you start.",
     },
     {
       q: "Must everything on the site be indexed?",
-      a: "No. Filters, carts, and account areas are often closed. See the piece on blocking from indexing.",
+      a: "No. Filters, carts, and account areas are often closed. See the piece on closing pages from the index.",
     },
   ],
   sections: [
@@ -40,8 +40,8 @@ export const proverkaIndeksatsiiEn: BlogPost = {
       title: "Webmaster accounts",
       level: 2,
       paras: [
-        "Yandex Webmaster and Google Search Console are the owner’s main source of truth: pages in search / index coverage, exclusions, crawl errors, dynamics.",
-        "Verify site ownership, review indexed/excluded URL lists and reasons (noindex, soft 404, duplicate, discovered — not indexed, etc. — wording drifts). Index history helps catch sudden drops.",
+        "Yandex Webmaster and Google Search Console are the owner’s main source of truth: pages in search / index coverage, exclusions, crawl errors, trends.",
+        "Verify site ownership, review indexed and excluded URL lists and reasons (noindex, soft 404, duplicate, discovered — not indexed, and similar — wording drifts). Index history helps catch sudden drops.",
       ],
       lists: [
         {
@@ -51,7 +51,7 @@ export const proverkaIndeksatsiiEn: BlogPost = {
             "4xx/5xx crawl errors",
             "sitemap accepted",
             "no mass noindex",
-            "“was → is” dynamics over the period.",
+            "was → is dynamics over the period",
           ],
         },
       ],
@@ -71,7 +71,7 @@ export const proverkaIndeksatsiiEn: BlogPost = {
       level: 2,
       paras: [
         "In the search box: `site:example.com` — a rough picture of indexed URLs. A huge Yandex vs Google gap is a reason to dig into tech and quality.",
-        "Check a specific page by pasting the full URL or `site:` + path. Empty results don’t always mean “forever out of index”: delays, regionality, cache reset. For a decision — URL inspection in GSC / page check in Webmaster.",
+        "Check a specific page by pasting the full URL or `site:` plus path. Empty results don’t always mean “forever out of index”: delays, regionality, cache reset. For a decision — URL inspection in GSC / page check in Webmaster.",
       ],
       lists: [
         {
@@ -80,7 +80,7 @@ export const proverkaIndeksatsiiEn: BlogPost = {
             "`site:domain` in both engines",
             "exact page URL",
             "branded query for the home page",
-            "cross-check with the webmaster account.",
+            "cross-check with the webmaster account",
           ],
         },
       ],
@@ -95,7 +95,7 @@ export const proverkaIndeksatsiiEn: BlogPost = {
       title: "Extensions and monitoring tools",
       level: 2,
       paras: [
-        "SEO browser extensions speed up glances at title, meta robots, canonical, and a quick `site:`. They don’t replace the webmaster and don’t give “secret” engine data.",
+        "SEO browser extensions speed up glances at title, meta robots, canonical, and a quick `site:`. They don’t replace the webmaster panel and don’t give “secret” engine data.",
         "Crawlers and SEO platforms help mass-check: robots, sitemap, status codes, duplicates. Free “everything at once” almost doesn’t exist — pick for site size.",
       ],
       links: [
@@ -107,8 +107,8 @@ export const proverkaIndeksatsiiEn: BlogPost = {
       notes: [
         {
           title: "Important",
-          text: "Don’t treat one RDS-bar or peer as index truth. The search engine account beats a plugin.",
           kind: "tip",
+          text: "Don’t treat one toolbar badge or peer plugin as index truth. The search engine account beats a browser add-on.",
         },
       ],
     },
@@ -117,7 +117,7 @@ export const proverkaIndeksatsiiEn: BlogPost = {
       level: 2,
       paras: [
         "A new site or section — normal delay. Speed-ups: internal links, sitemap, quality content, recrawl requests. No “in N days” guarantees.",
-        "Typical blockers: Disallow in robots.txt, meta robots noindex, CMS “close the site”, duplicates and thin content, 4xx/5xx, slow server response, broken canonicals.",
+        "Typical blockers: Disallow in robots.txt, meta robots noindex, CMS “close the site,” duplicates and thin content, 4xx/5xx, slow server response, broken canonicals.",
       ],
       lists: [
         {
@@ -128,13 +128,13 @@ export const proverkaIndeksatsiiEn: BlogPost = {
             "status codes of key URLs",
             "duplicates and canonical",
             "content quality and uniqueness",
-            "Webmaster/GSC errors.",
+            "Webmaster/GSC errors",
           ],
         },
       ],
       links: [
         {
-          label: "Blocking from indexing",
+          label: "Closing pages from the index",
           href: "/en/blog/zakrytie-ot-indeksatsii/",
         },
         {

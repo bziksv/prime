@@ -12,7 +12,7 @@ export const spamVkEn: BlogPost = {
     "What counts as spam in VK messages and communities, why mass blasts are risky, how to report, and what to do if your page messages people without you — without a catalog of gray bulk-mail tools.",
   lead: [
     "Spam on VK is unwanted mass messages and pushy pitches without consent: in DMs, on the wall, in community comments. Often it’s ads, friend requests, or links with phishing risk.",
-    "We cover how to spot it, report it, and protect the account. VK UI buttons change; look for “This is spam” or “Report” in the message, post, or profile menu. Legal community messaging is covered separately; we don’t catalog gray bots or bulk tools.",
+    "Below: how to spot it, report it, and protect the account. VK UI buttons change; look for “This is spam” or “Report” in the message, post, or profile menu. Legal community messaging is covered separately; we don’t catalog gray bots or bulk tools.",
   ],
   faq: [
     {
@@ -48,19 +48,19 @@ export const spamVkEn: BlogPost = {
         {
           intro: "Typical spam goals:",
           items: [
-            "pump followers into a public;",
-            "sell a product or service outside the rules;",
-            "phish login and password;",
-            "send people to scam sites;",
-            "blast from a hacked account.",
+            "inflate followers into a public",
+            "sell a product or service outside the rules",
+            "phish login and password",
+            "send people to scam sites",
+            "blast from a hacked account",
           ],
         },
       ],
       notes: [
         {
           title: "Important",
-          text: "Using spam for “fast growth” leads to account limits and lost trust. It’s not a promotion channel.",
           kind: "tip",
+          text: "Using spam for “fast growth” leads to account limits and lost trust. It’s not a promotion channel.",
         },
       ],
     },
@@ -94,10 +94,10 @@ export const spamVkEn: BlogPost = {
         {
           intro: "Prevention in settings:",
           items: [
-            "limit who can message you (privacy / “Contact me”);",
-            "don’t accept unknown requests blindly;",
-            "don’t open odd short links from DMs;",
-            "don’t enter a VK password outside the official site or app.",
+            "limit who can message you (privacy / “Contact me”)",
+            "don’t accept unknown requests blindly",
+            "don’t open odd short links from DMs",
+            "don’t enter a VK password outside the official site or app",
           ],
         },
       ],
@@ -112,8 +112,8 @@ export const spamVkEn: BlogPost = {
       notes: [
         {
           title: "After recovery",
-          text: "Turn on login confirmation if available and review activity history — so you spot a repeat login faster.",
           kind: "tip",
+          text: "Turn on login confirmation if available and review activity history — so you spot a repeat login faster.",
         },
       ],
     },
@@ -121,7 +121,7 @@ export const spamVkEn: BlogPost = {
       title: "For communities and business",
       level: 2,
       paras: [
-        "Don’t reply to spam offers to “pump followers” and don’t buy blasts to other people’s lists. Report and block.",
+        "Don’t reply to spam offers to “inflate followers” and don’t buy blasts to other people’s lists. Report and block.",
         "Your own messages to followers — only within VK rules and consent. Otherwise the reports land on you.",
       ],
       links: [

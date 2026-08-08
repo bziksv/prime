@@ -11,7 +11,7 @@ export const negativnyyOtzyvEn: BlogPost = {
     "How to answer negative reviews without aggression or flattery: apologies when warranted, speed of response, a real fix, and giving a choice — with auto-service examples you can reuse.",
   lead: [
     "Before choosing a service, people often read the negative reviews first. Criticism helps find service gaps, but with no reply it pushes the next clients away harder than you’d like.",
-    "Tone, apologies, speed on platforms, and a real fix matter more than a polished “we apologize” template. The auto-service examples below transfer easily to other services.",
+    "Below: reply rules — tone, apologies, speed on platforms, and fixing the problem. Auto-service examples transfer easily to other services. The broader review-and-rating workflow is in a related piece.",
   ],
   faq: [
     {
@@ -54,7 +54,7 @@ export const negativnyyOtzyvEn: BlogPost = {
             "“don’t like it — do it yourself”",
             "“our specialists never make mistakes”",
             "“it’s your own fault”",
-            "“pity you don’t get it.”",
+            "“pity you don’t get it”",
           ],
         },
       ],
@@ -104,15 +104,15 @@ export const negativnyyOtzyvEn: BlogPost = {
             "briefly on the substance of the claim",
             "what we’ll check / already found",
             "a concrete next step and contact",
-            "after resolution — a short update in the thread.",
+            "after resolution — a short update in the thread",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Logic example (auto service)",
           text: "A client compares oil-change price “with your oil” vs “with their own.” In the reply, calmly explain the discount when consumables are bought from the shop and the normal residual oil in the system — and offer to discuss the specific order, instead of arguing “we have the best mechanics.”",
-          kind: "tip",
         },
       ],
     },
@@ -121,7 +121,7 @@ export const negativnyyOtzyvEn: BlogPost = {
       level: 2,
       paras: [
         "If you no longer offer the service or the case isn’t your profile, don’t brush them off with “should’ve read the price list.” Offer alternatives: what you can do, where to go for a narrow task, which services you handle quickly and well.",
-        "Sometimes suggesting an outside service looks like advertising a competitor — for readers it’s a honesty signal. Tact and help beat winning the thread.",
+        "Sometimes suggesting an outside service looks like advertising a competitor — for readers it’s an honesty signal. Tact and help beat winning the thread.",
       ],
       links: [
         {

@@ -10,9 +10,13 @@ export const geymifikatsiyaSocsetiEn: BlogPost = {
   excerpt:
     "What gamification means in SMM: why game mechanics help a brand, which formats work, and how to launch without a race for likes and a crowd of prize hunters.",
   lead: [
-    "Gamification in social is game rules on top of regular content: polls, points, quests, mini-games, progress. The goal is engagement and brand recall — not “fun for fun’s sake.”",
-    "Why business needs it, who to design for, where to start, and which formats to pick. We don’t catalog outdated SaaS or promise “guaranteed virality”: the mechanic must match the audience and offer.",
+    "Gamification in social is game rules layered onto regular content: polls, points, quests, mini-games, progress. The goal is engagement and brand recall — not “fun for fun’s sake.”",
+    "Below: why business needs it, who to design for, where to start, and which formats to pick. We don’t catalog outdated SaaS or promise “guaranteed virality”: the mechanic must match the audience and offer. If you mention Instagram*/Facebook* — see the Meta note on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* and Facebook* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Is gamification only for teens?",
@@ -55,8 +59,8 @@ export const geymifikatsiyaSocsetiEn: BlogPost = {
       notes: [
         {
           title: "No illusions",
-          text: "A game post doesn’t replace the offer, product, and regular useful content. It’s an amplifier, not the whole strategy.",
           kind: "tip",
+          text: "A game post doesn’t replace the offer, product, and regular useful content. It’s an amplifier, not the whole strategy.",
         },
       ],
     },
@@ -75,7 +79,7 @@ export const geymifikatsiyaSocsetiEn: BlogPost = {
       paras: [
         "First a living page: without regular posts the game looks empty. Match publish rhythm to capacity, not “must post 1–2 a day.”",
         "Then grow light interaction: a strong visual, reasons to comment, mini-challenges under the post.",
-        "Reposts and shares are a harder layer. A “repost only” contest often pulls random prize hunters. Core audience that likes the brand first — then a prize with transparent rules.",
+        "Reposts and shares are a harder layer. A “repost only” contest often attracts random prize hunters. Core audience that likes the brand first — then a prize with transparent rules.",
       ],
       lists: [
         {
@@ -85,7 +89,7 @@ export const geymifikatsiyaSocsetiEn: BlogPost = {
             "one simple rule without fine print",
             "reward sized to the effort",
             "measure: participation, saves, clicks — not likes alone",
-            "deadline and winner announcement upfront.",
+            "deadline and winner announcement upfront",
           ],
         },
       ],
@@ -115,7 +119,7 @@ export const geymifikatsiyaSocsetiEn: BlogPost = {
             "few steps and a clear win/status",
             "link to the product (discount, sample, experience)",
             "moderation of spam and fake engagement",
-            "one format at a time — not three games in parallel.",
+            "one format at a time — not three games in parallel",
           ],
         },
       ],

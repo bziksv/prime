@@ -11,31 +11,31 @@ export const istochnikiTrafikaEn: BlogPost = {
     "A channel overview: organic, paid search, directories and aggregators, classifieds, social, email, display and ad networks — pros, cons, and a sane test order.",
   lead: [
     "There’s no magic traffic source: channels differ in speed, cost, and control. Beginners often grab a fresh tip without a landing or lead tracking — then conclude “the channel doesn’t work.”",
-    "Each source family has strengths and weaknesses. The right mix depends on niche, average order value, and sales cycle; there’s no universal “best channel” ranking.",
+    "Below: the main source families, with strengths and weaknesses. The mix depends on niche, average check, and sales cycle — there’s no universal “best channel” ranking.",
   ],
   faq: [
     {
-      q: "Which channel should you start with?",
+      q: "Which channel should I start with?",
       a: "Wherever you can validate demand fastest on your budget: often paid search or niche classifieds/aggregators. Prep organic in parallel — it ramps longer.",
     },
     {
       q: "Is organic free?",
-      a: "No pay-per-click — yes, but you pay with work and time. Site prep takes about a month; climbing TOP for the keyword set is planned for 2–6 months — not “tomorrow after you publish.”",
+      a: "No pay-per-click — yes, but you pay with work and time. Site prep takes about a month; core rankings usually build over 2–6 months — not “tomorrow after you publish.”",
     },
     {
       q: "Does paid search always burn budget?",
-      a: "With broken semantics, landing, and analytics — yes. With a normal chain it gives a fast hypothesis test and controllable volume.",
+      a: "With broken keywords, landing, and analytics — yes. With a normal chain it gives a fast hypothesis test and controllable volume.",
     },
     {
       q: "Are social networks free traffic?",
       a: "Organic posts rarely feed commerce alone. A community needs content; ads need budget. Don’t confuse “create a group” with “get leads.”",
     },
     {
-      q: "Why email if you have ads?",
-      a: "Your own list is cheaper for repeat touches: content, triggers, abandoned cart. Building the list is a long process; launching mail to a ready list is fast.",
+      q: "Why email if I have ads?",
+      a: "Your own list is cheaper for repeat touches: content, triggers, abandoned cart. Building the list takes months; launching mail to a ready list is fast.",
     },
     {
-      q: "How do you know a channel is yours?",
+      q: "How do I know a channel is mine?",
       a: "Not by “everyone does it,” but by CPA/ROMI and lead quality after an honest test with a goal and UTMs.",
     },
   ],
@@ -45,15 +45,15 @@ export const istochnikiTrafikaEn: BlogPost = {
       level: 2,
       paras: [
         "Search on a keyword set: pages answer queries, the site is technically healthy, content is maintained. It’s a long game: slow ramp, then inertia if quality doesn’t slip.",
-        "Don’t expect instant TOP after edits. First prep (tech, copy, structure — about a month), then ranking growth planned over 2–6 months. Without new materials and fixes, positions weaken over time.",
+        "Don’t expect page one overnight after edits. First prep (tech, copy, structure — about a month), then ranking growth planned over 2–6 months. Without new materials and fixes, positions weaken over time.",
       ],
       lists: [
         {
           intro: "Pros / cons:",
           items: [
-            "+ no pay-per-click; effect can last years;",
-            "− slow start; harder to turn the volume tap;",
-            "− needs ongoing work and SERP competition.",
+            "+ no pay-per-click; effect can last years",
+            "− slow start; harder to turn the volume tap",
+            "− needs ongoing work and SERP competition",
           ],
         },
       ],
@@ -69,19 +69,19 @@ export const istochnikiTrafikaEn: BlogPost = {
       ],
     },
     {
-      title: "Contextual / paid search ads",
+      title: "Paid search",
       level: 2,
       paras: [
-        "Ads in search and networks by queries and audiences. You need a core, copy, landings, analytics goals. Click price is an auction: competitors and ad quality move the bid.",
-        "Strength — speed of demand checks. Weakness — without negatives, geo, and CR control, budget drains for nothing.",
+        "Ads in search and networks by queries and audiences. You need a keyword set, copy, landings, analytics goals. Click price is an auction: competitors and ad quality move the bid.",
+        "Strength — speed of demand checks. Weakness — without negatives, geo, and conversion control, budget drains for nothing.",
       ],
       lists: [
         {
           intro: "Pros / cons:",
           items: [
-            "+ fast launch and money feedback;",
-            "+ controllable volume with a working offer;",
-            "− ongoing spend; setup mistakes are expensive.",
+            "+ fast launch and money feedback",
+            "+ controllable volume with a working offer",
+            "− ongoing spend; setup mistakes are expensive",
           ],
         },
       ],
@@ -103,10 +103,10 @@ export const istochnikiTrafikaEn: BlogPost = {
         {
           intro: "Pros / cons:",
           items: [
-            "+ demand is already on the platform;",
-            "+ in some niches the main channel;",
-            "− competition and dependence on aggregator rules;",
-            "− weak funnel control outside your card.",
+            "+ demand is already on the platform",
+            "+ in some niches the main channel",
+            "− competition and dependence on aggregator rules",
+            "− weak funnel control outside your card",
           ],
         },
       ],
@@ -130,10 +130,10 @@ export const istochnikiTrafikaEn: BlogPost = {
         {
           intro: "Pros / cons:",
           items: [
-            "+ community: low cash entry barrier;",
-            "+ ads: fast creative and offer tests;",
-            "− content and moderation take time;",
-            "− not every product is found via interests.",
+            "+ community: low cash entry barrier",
+            "+ ads: fast creative and offer tests",
+            "− content and moderation take time",
+            "− not every product is found via interests",
           ],
         },
       ],
@@ -155,10 +155,10 @@ export const istochnikiTrafikaEn: BlogPost = {
         {
           intro: "Pros / cons:",
           items: [
-            "+ cheap repeat touches;",
-            "+ flexible scenarios by funnel stage;",
-            "− slow list building;",
-            "− needs discipline and mailing rules compliance.",
+            "+ cheap repeat touches",
+            "+ flexible scenarios by funnel stage",
+            "− slow list building",
+            "− needs discipline and mailing rules compliance",
           ],
         },
       ],
@@ -168,7 +168,7 @@ export const istochnikiTrafikaEn: BlogPost = {
       level: 2,
       paras: [
         "Banners and articles on third-party sites, teaser and display networks, network remarketing. Direct placements are harder to measure; networks give an account and stats, but less control over the specific publisher site.",
-        "Network retarget chases people who already visited — it strengthens the funnel, it doesn’t replace first contact. Compare to search by CPA, not “pretty reach.”",
+        "Network retargeting chases people who already visited — it strengthens the funnel, it doesn’t replace first contact. Compare to search by CPA, not “pretty reach.”",
       ],
       links: [
         {
@@ -204,7 +204,7 @@ export const istochnikiTrafikaEn: BlogPost = {
     },
   ],
   closing: [
-    "Traffic sources differ in speed and cost of error. Prep measurement, test 1–2 niche-fit channels, and scale what delivers quality leads — without chasing “free forever.”",
+    "Traffic sources differ in speed and cost of error. Prep measurement, test one or two niche-fit channels, and scale what delivers quality leads — without chasing “free forever.”",
   ],
   related: [
     "brendovyy-trafik",

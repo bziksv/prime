@@ -11,7 +11,7 @@ export const otkazySaytaEn: BlogPost = {
     "What bounce rate means, which numbers are normal for different site types, main leave reasons, and what to fix first — speed, navigation, content.",
   lead: [
     "A bounce is when a visit gave the site almost nothing: the person left quickly or viewed one page without a goal action (definition depends on the counter). A high rate isn’t a “penalty” by itself — a signal that the snippet or ad expectation didn’t match what they saw.",
-    "Read bounce together with time on page and goals, then fix the leave reasons in order. GA4 and Metrica count differently — compare like with like.",
+    "Below: how to read bounce, typical leave reasons, and a practical fix order. GA4 and Metrica count differently — compare like with like.",
   ],
   faq: [
     {
@@ -28,7 +28,7 @@ export const otkazySaytaEn: BlogPost = {
     },
     {
       q: "Where should you start lowering bounce?",
-      a: "Top landings by traffic: speed, title/offer match, first screen, mobile.",
+      a: "Highest-traffic landings first: speed, title/offer match, first screen, mobile.",
     },
     {
       q: "Do pop-ups help lower bounce?",
@@ -62,7 +62,7 @@ export const otkazySaytaEn: BlogPost = {
             "portals/services with browsing — lower",
             "narrow info answer — higher can be fine",
             "commerce — watch bounce + goal",
-            "sharp spike — look for a release or traffic dump.",
+            "sharp spike — look for a release or traffic dump",
           ],
         },
       ],
@@ -87,7 +87,7 @@ export const otkazySaytaEn: BlogPost = {
             "weight and LCP of landings",
             "no autoplay sound",
             "pop-ups don’t cover the offer immediately",
-            "mobile without horizontal scroll.",
+            "mobile without horizontal scroll",
           ],
         },
       ],
@@ -112,7 +112,7 @@ export const otkazySaytaEn: BlogPost = {
             "H1 = ad/title promise",
             "visible button/form",
             "menu links work",
-            "contacts found in 1–2 clicks.",
+            "contacts found in 1–2 clicks",
           ],
         },
       ],
@@ -137,7 +137,7 @@ export const otkazySaytaEn: BlogPost = {
             "dates and prices current",
             "paragraphs and subheads",
             "no forced registration before value",
-            "internal links by meaning.",
+            "internal links by meaning",
           ],
         },
       ],
@@ -169,7 +169,7 @@ export const otkazySaytaEn: BlogPost = {
             "real contacts",
             "a clear form",
             "relevant reviews/cases",
-            "HTTPS and a tidy UI.",
+            "HTTPS and a tidy UI",
           ],
         },
       ],
@@ -178,7 +178,7 @@ export const otkazySaytaEn: BlogPost = {
       title: "Work order",
       level: 2,
       paras: [
-        "Export top URLs by visits with worst engagement. For each: cause hypothesis → fix → measure. Don’t change ten things at once.",
+        "Export the highest-traffic URLs with the worst engagement. For each: cause hypothesis → fix → measure. Don’t change ten things at once.",
         "Tie to goals: if bounce fell but leads didn’t — you “retained” for nothing. KPI is the action, not bounce alone.",
       ],
       lists: [
@@ -189,7 +189,7 @@ export const otkazySaytaEn: BlogPost = {
             "speed + first screen",
             "remove irritants",
             "refresh facts/prices",
-            "compare segments before/after.",
+            "compare segments before/after",
           ],
         },
       ],

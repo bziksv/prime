@@ -11,7 +11,7 @@ export const logiServeraEn: BlogPost = {
     "How to read site access logs: crawler User-Agents, status codes, crawl budget, duplicates, and scan errors — alongside Webmaster tools and Search Console.",
   lead: [
     "Server logs record who requested what: people, CDN, monitoring, and search bots. They show real crawl activity — not only what Search Console and Webmaster panels summarize.",
-    "Use logs to estimate crawl budget, spot wasteful URLs, and catch scan errors that panels sample away. Closing pages from the index and a full tech audit are related topics in separate articles.",
+    "Below: what to watch in access logs, how to estimate crawl budget, find wasteful URLs, and catch scan errors. Closing pages from the index and a full tech audit are related topics in separate articles.",
   ],
   faq: [
     {
@@ -47,11 +47,11 @@ export const logiServeraEn: BlogPost = {
         {
           intro: "Typical fields:",
           items: [
-            "date and time;",
-            "requested URL;",
-            "HTTP code (200, 301, 404, 500…);",
-            "User-Agent;",
-            "GET/POST method.",
+            "date and time",
+            "requested URL",
+            "HTTP code (200, 301, 404, 500…)",
+            "User-Agent",
+            "GET/POST method",
           ],
         },
       ],
@@ -67,23 +67,24 @@ export const logiServeraEn: BlogPost = {
       level: 2,
       paras: [
         "`.log` files are easy to view in an editor or import into a sheet (often CSV / space-separated). Several daily files are joined (`cat` / panel merge) before analyzing a period.",
-        "Filter lines for the needed User-Agent, sort by URL and status code. Pivot tables: hits per URL, share of 404s for the bot, top paths “eating” budget.",
+        "Filter lines for the needed User-Agent, sort by URL and status code. Pivot tables: hits per URL, share of 404s for the bot, paths that burn the most crawl budget.",
       ],
       lists: [
         {
           intro: "Quick order:",
           items: [
-            "take a week–month slice;",
-            "filter Googlebot / YandexBot;",
-            "top URLs by request count;",
-            "share of non-200 responses;",
-            "URLs with `?` and clear duplicates.",
+            "take a week–month slice",
+            "filter Googlebot / YandexBot",
+            "URLs with the highest request counts",
+            "share of non-200 responses",
+            "URLs with `?` and clear duplicates",
           ],
         },
       ],
       notes: [
         {
           title: "Practice",
+          kind: "tip",
           text: "Don’t store or publish raw logs with user IPs without need — that’s personal data and disk load. For SEO analysis, anonymized aggregates are enough.",
         },
       ],
@@ -99,11 +100,11 @@ export const logiServeraEn: BlogPost = {
         {
           intro: "What usually eats budget:",
           items: [
-            "parameter duplicates;",
-            "endless filters and sorts;",
-            "broken links (mass 404s);",
-            "heavy media that doesn’t need to be indexed;",
-            "admin areas left open to crawl.",
+            "parameter duplicates",
+            "endless filters and sorts",
+            "broken links (mass 404s)",
+            "heavy media that doesn’t need to be indexed",
+            "admin areas left open to crawl",
           ],
         },
       ],
@@ -129,17 +130,18 @@ export const logiServeraEn: BlogPost = {
         {
           intro: "Checklist after log review:",
           items: [
-            "fix top 404s that have internal links;",
-            "remove/merge parameter duplicates;",
-            "align robots.txt and noindex with the goal;",
-            "update the sitemap of priority URLs;",
-            "re-check a log slice in 2–4 weeks.",
+            "fix the most frequent 404s that have internal links",
+            "remove/merge parameter duplicates",
+            "align robots.txt and noindex with the goal",
+            "update the sitemap of priority URLs",
+            "re-check a log slice in 2–4 weeks",
           ],
         },
       ],
       notes: [
         {
           title: "Timelines",
+          kind: "tip",
           text: "Cleaning crawl is part of technical prep. Ranking growth for the keyword set is planned for 2–6 months after systematic work starts — not the result of one log cleanup.",
         },
       ],

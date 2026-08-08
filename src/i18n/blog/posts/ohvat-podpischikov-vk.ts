@@ -10,24 +10,24 @@ export const ohvatPodpischikovVkEn: BlogPost = {
   excerpt:
     "What follower reach means in VK stats, how it differs from total and viral, and how to show up in your own base’s feed more often — without fake engagement or outdated screenshots.",
   lead: [
-    "Follower reach is how many unique community members saw posts in a period. It’s not the same as viral reach (non-followers) and not the “header” audience size.",
-    "If only a fraction of the base sees posts, fix cadence, hooks, and timing before buying vanity metrics. VK stats menus change; use the current Reach section. More on viral reach and audience growth — in related articles.",
+    "Follower reach is how many unique community members saw posts in a period. It’s not the same as viral reach (non-followers) and not the audience size in the header.",
+    "Below: how to read the metric and what to do so posts reach your people more often. VK stats menus change; use the current Reach section. Viral reach is covered separately; audience growth is in the group-promotion piece.",
   ],
   faq: [
     {
       q: "How does follower reach differ from viral?",
-      a: "Follower — who from your base saw it. Viral — who saw it without following (reposts, recommendations, etc.). Total usually includes both.",
+      a: "Follower — who from your base saw it. Viral — who saw it without following (reposts, recommendations, and so on). Total usually includes both.",
     },
     {
       q: "Why only 500 reach with 10,000 followers?",
       a: "The feed ranks: not everyone sees every post. Weak engagement, timing, and frequency cut delivery.",
     },
     {
-      q: "Will buying likes raise VK reach?",
+      q: "Will buying likes raise reach?",
       a: "It may briefly distort the picture, then hurts quality and risks. Don’t.",
     },
     {
-      q: "How many followers do you need before detailed stats are available?",
+      q: "How many followers before stats appear?",
       a: "VK has changed thresholds and report makeup. If the item is missing — check Help and community type.",
     },
     {
@@ -41,7 +41,7 @@ export const ohvatPodpischikovVkEn: BlogPost = {
       level: 2,
       paras: [
         "Total — all unique viewers of a post. Follower reach — the share of your base that actually saw it. Viral — outside viewers via distribution.",
-        "For an advertiser seeding, live delivery to the audience matters more than the follower count alone. So people watch reach and ER, not “bought 50k.”",
+        "For an advertiser buying placements, live delivery to the audience matters more than the follower count alone. So people watch reach and engagement rate, not “bought 50k.”",
       ],
       links: [
         {
@@ -72,7 +72,7 @@ export const ohvatPodpischikovVkEn: BlogPost = {
       title: "Content that reaches your people",
       level: 2,
       paras: [
-        "Useful and “sticky” delivery: clear headline/first screen, own visual over stock, image weight OK for mobile. The topic should match follower expectations.",
+        "Useful and sticky delivery: clear headline or first screen, your own visual over stock, image weight OK for mobile. The topic should match follower expectations.",
         "Posts without reactions get shown less by a smart feed. Build a reason to reply: a question, poll, pick-an-option — without toxic bait.",
       ],
       lists: [
@@ -83,15 +83,15 @@ export const ohvatPodpischikovVkEn: BlogPost = {
             "one main idea",
             "visual readable on a phone",
             "CTA: comment / message / click",
-            "publish time from your own activity stats.",
+            "publish time from your own activity stats",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
-          text: "Only sales posts. The base stops reacting — follower reach drops.",
           kind: "tip",
+          text: "Only sales posts. The base stops reacting — follower reach drops.",
         },
       ],
     },
@@ -114,11 +114,11 @@ export const ohvatPodpischikovVkEn: BlogPost = {
       ],
     },
     {
-      title: "Ads and seeding",
+      title: "Ads and paid placements",
       level: 2,
       paras: [
         "Post boost and the VK ads account help put a post back in the feed and attract new people. To grow follower reach specifically, strengthen organic first — or you pay to show a dead base.",
-        "After a campaign, compare organic follower reach before/after: did ER rise without ads.",
+        "After a campaign, compare organic follower reach before and after: did engagement rate rise without ads.",
       ],
       links: [
         {

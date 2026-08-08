@@ -11,7 +11,7 @@ export const prodvizhenieBrendaEn: BlogPost = {
     "Where to begin brand promotion online: how a goal differs from a task, how to set SMART goals, which mistakes to avoid, and why SWOT comes before channel budget.",
   lead: [
     "Brand promotion without a strategy quickly becomes a pile of activity: posts just to look busy, articles with no goal, ads with no economics. Online follows the same rules as offline: result first, then the task list.",
-    "Goal vs task, SMART framing, common mistakes, and SWOT as a way not to ignore the market. Personal expert brands and local offline businesses have separate pieces.",
+    "Below: goal vs task, SMART framing, common mistakes, and SWOT as a way not to ignore the market. A personal expert brand and branded search traffic are related but separate topics.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const prodvizhenieBrendaEn: BlogPost = {
       a: "A goal is the end result (awareness, leads, market share). Tasks are strategy steps: content, SEO, ads, PR. Without a goal, tasks turn into busywork.",
     },
     {
-      q: "What is a SMART goal?",
+      q: "What is SMART?",
       a: "Specific, Measurable, Achievable, Relevant, Time-bound: the goal is concrete, measurable, realistic, tied to the business, and has a deadline.",
     },
     {
@@ -32,11 +32,11 @@ export const prodvizhenieBrendaEn: BlogPost = {
     },
     {
       q: "How long should I wait for SEO effect in a brand plan?",
-      a: "Site and semantics prep — about a month. Noticeable growth of non-brand positions is planned for 2–6 months. Brand in search also grows from PR/ads, not SEO alone.",
+      a: "Site and keyword-set prep — about a month. Noticeable growth of non-brand positions is planned for 2–6 months. Brand in search also grows from PR/ads, not SEO alone.",
     },
     {
       q: "Can I go into every channel at once?",
-      a: "Better 1–2 priority channels for the goal and resources. Scale after the first measurable results.",
+      a: "Better one or two priority channels for the goal and resources. Scale after the first measurable results.",
     },
     {
       q: "What mistakes are most common?",
@@ -57,7 +57,7 @@ export const prodvizhenieBrendaEn: BlogPost = {
           items: [
             "goal — growth in qualified traffic and engagement over a quarter",
             "tasks — landing clusters, content plan, social presence under the offer",
-            "metrics — visits, goals, brand share, CPA/ROMI where fit.",
+            "metrics — visits, goals, brand share, CPA/ROMI where fit",
           ],
         },
       ],
@@ -66,8 +66,8 @@ export const prodvizhenieBrendaEn: BlogPost = {
       title: "SMART goals for promotion",
       level: 2,
       paras: [
-        "SMART isn’t “magic” — it’s a filter against fuzzy wishes like “become more known”. Each goal should answer: what exactly, how we’ll measure, whether resources allow it, why the business needs it, by which date.",
-        "SEO-track example: “in 6 months reach N visits/day on target clusters” — only if an audit shows it’s achievable. Prep work takes weeks or ~a month; core ranking growth is planned for 2–6 months, not “TOP in a week”.",
+        "SMART isn’t magic — it’s a filter against fuzzy wishes like “become more known.” Each goal should answer: what exactly, how we’ll measure, whether resources allow it, why the business needs it, by which date.",
+        "SEO-track example: “in six months reach N visits/day on target clusters” — only if an audit shows it’s achievable. Prep work takes weeks or about a month. Building visibility for the keyword set is planned for 2–6 months, not “page one in a week.”",
       ],
       lists: [
         {
@@ -77,7 +77,7 @@ export const prodvizhenieBrendaEn: BlogPost = {
             "Measurable — there is a number and a data source",
             "Achievable — resources and market allow it",
             "Relevant — tied to money/strategy",
-            "Time-bound — deadline and control points exist.",
+            "Time-bound — deadline and control points exist",
           ],
         },
       ],
@@ -102,7 +102,7 @@ export const prodvizhenieBrendaEn: BlogPost = {
             "a goal with no number and deadline",
             "KPIs only “reach” when the goal is sales",
             "budget with no link to allowed CPA",
-            "copy-paste of someone else’s tone of voice.",
+            "copy-paste of someone else’s tone of voice",
           ],
         },
       ],

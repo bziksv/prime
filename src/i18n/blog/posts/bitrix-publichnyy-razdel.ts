@@ -10,8 +10,8 @@ export const bitrixPublichnyyRazdelEn: BlogPost = {
   excerpt:
     "How the Bitrix public-area control bar works: buttons, edit mode, include areas, and components — without clinging to old-edition screenshots or a meta keywords cult.",
   lead: [
-    "In 1C-Bitrix, after signing in, a public-section bar often appears at the top of the page: create a page, edit the menu, clear cache, open SEO properties, enable edit mode.",
-    "The public-section bar lets editors change content “on the site” without diving into full Administration. The button set depends on rights and edition; item names changed — follow current Bitrix docs, not 2017 screenshots.",
+    "In 1C-Bitrix, after signing in, a public-section bar often appears above the page: create a page, edit the menu, clear cache, open SEO properties, enable edit mode.",
+    "Below: what the main controls mean and how to edit content on the site without wandering through the admin. The button set depends on rights and edition; item names changed — follow current Bitrix docs, not 2017 screenshots.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const bitrixPublichnyyRazdelEn: BlogPost = {
       a: "No rights to the public bar, a different site/domain, or display mode. Ask an administrator for a role.",
     },
     {
-      q: "How does the public section differ from “Administration”?",
+      q: "How does the public section differ from Administration?",
       a: "Public — edit with a visitor’s eyes. Administration — full backend: infoblocks, modules, users, settings.",
     },
     {
@@ -40,19 +40,19 @@ export const bitrixPublichnyyRazdelEn: BlogPost = {
       title: "The public-area bar",
       level: 2,
       paras: [
-        "After login with the right permissions you see a switch like Site / Administration at the top, section menus, notices, and actions for the current page.",
-        "The button set differs for an editor and an administrator. If something is missing, it’s often access policy — not “broken.”",
+        "After login with the right permissions you see a switch like Site / Administration along the page header, section menus, notices, and actions for the current page.",
+        "The button set differs for an editor and an administrator. If something is missing, it’s often access policy — not broken.",
       ],
       lists: [
         {
           intro: "Typical bar actions:",
           items: [
-            "create a page or section;",
-            "edit page / section;",
-            "menu and structure;",
-            "page SEO properties;",
-            "cache clear;",
-            "edit mode, template, debug (for those allowed).",
+            "create a page or section",
+            "edit page / section",
+            "menu and structure",
+            "page SEO properties",
+            "cache clear",
+            "edit mode, template, debug (for those allowed)",
           ],
         },
       ],
@@ -71,7 +71,7 @@ export const bitrixPublichnyyRazdelEn: BlogPost = {
       title: "Creating and editing pages",
       level: 2,
       paras: [
-        "“Create page/section” starts a wizard or a form with a template. “Edit” opens the visual editor or entity properties — depends on page type and site settings.",
+        "Create page/section starts a wizard or a form with a template. Edit opens the visual editor or entity properties — depends on page type and site settings.",
         "Structure helps move and delete tree nodes. Before deleting, make sure there are no needed links and you have rights to restore from backup.",
       ],
     },
@@ -96,8 +96,8 @@ export const bitrixPublichnyyRazdelEn: BlogPost = {
       notes: [
         {
           title: "Rights beat buttons",
-          text: "A catalog editor doesn’t need template debug and site-template switching. Split roles — fewer accidental layout breaks.",
           kind: "tip",
+          text: "A catalog editor doesn’t need template debug and site-template switching. Split roles — fewer accidental layout breaks.",
         },
       ],
     },
@@ -105,8 +105,8 @@ export const bitrixPublichnyyRazdelEn: BlogPost = {
       title: "Cache, SEO fields, and more",
       level: 2,
       paras: [
-        "Clearing cache helps see fresh edits if a page is “stuck.” Don’t overuse it on high-load prod without understanding the impact.",
-        "The SEO block on the bar is about current page properties (title, description). Don’t fill keywords “for luck.” Built-in Bitrix “stats” don’t replace Yandex Metrica/analytics for marketing — check what’s actually connected on the project.",
+        "Clearing cache helps see fresh edits if a page is stuck. Don’t overuse it on high-load prod without understanding the impact.",
+        "The SEO block on the bar is about current page properties (title, description). Don’t fill keywords for luck. Built-in Bitrix stats don’t replace Yandex Metrica/analytics for marketing — check what’s actually connected on the project.",
       ],
       links: [
         {

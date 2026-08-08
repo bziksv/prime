@@ -8,23 +8,23 @@ export const longridEn: BlogPost = {
   category: "Content marketing",
   cover: "/images/blog/longrid/cover-en.webp",
   excerpt:
-    "A longread isn’t a wall of copy for volume’s sake — it’s a deep story with structure and layout. How to write, design, and update without TOP and virality myths.",
+    "A longread isn’t a wall of copy for volume’s sake — it’s a deep story with structure and layout. How to write, design, and update without ranking and virality myths.",
   lead: [
     "A longread is a substantial piece with a detailed take on a topic, an authorial voice, and layout that helps people finish. Length alone doesn’t make text stronger: usefulness, story, and clear structure do.",
-    "Depth and delivery set it apart from a long article padded for volume. Principles for different reader types, story, layout, and post-publish work are here; the general article algorithm and author brief live in related guides.",
+    "Below: what sets a longread apart from a long article, principles for different reader types, story delivery, layout, and post-publish work. The general article algorithm lives nearby; the author brief is in the copywriter-brief guide.",
   ],
   faq: [
     {
       q: "How is a longread different from a long article?",
-      a: "Depth and delivery: a story/breakdown with style and deliberate layout — not paragraphs padded “to N thousand characters.”",
+      a: "Depth and delivery: a story or breakdown with style and deliberate layout — not paragraphs padded to a character count.",
     },
     {
       q: "How many minutes should someone read?",
-      a: "A 10–40 minute hint isn’t a rule. Better to estimate reading time from length and goal; completion matters more than “longer = better.”",
+      a: "A 10–40 minute hint isn’t a rule. Better to estimate reading time from length and goal. Completion matters more than “longer = better.”",
     },
     {
       q: "Does a longread guarantee search rankings?",
-      a: "No. Time on page and depth are useful behavior signals, but they don’t replace intent, technical quality, and the link/content environment. Core TOP growth is planned for 2–6 months of systematic work — not from one publish.",
+      a: "No. Time on page and depth are useful behavior signals, but they don’t replace intent, technical quality, and the link or content environment.",
     },
     {
       q: "Do I need a designer?",
@@ -50,11 +50,12 @@ export const longridEn: BlogPost = {
       paras: [
         "In the classic sense it’s a substantial piece built for readability and backed by media. The mistake is thinking “longer is always better.” Strength comes from a detailed take and style — not a character counter.",
         "Long text holds attention when delivery and layout fit, and when the piece reads as a story or sequential breakdown — not a chaotic stream.",
-        "Short posts didn’t “kill” long formats: on phones people often read in pauses when they’re ready for calm text. But “everyone loves longreads” is also a myth — watch your audience and completion stats.",
+        "Short posts didn’t kill long formats: on phones people often read in pauses when they’re ready for calm text. But “everyone loves longreads” is also a myth — watch your audience and completion stats.",
       ],
       notes: [
         {
           title: "Didn’t finish ≠ failure",
+          kind: "tip",
           text: "People may save, share, or come back later. Watch shares, returns, and conversions — not only “finished on the first pass.”",
         },
       ],
@@ -68,12 +69,12 @@ export const longridEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "If the piece “didn’t land”:",
+          intro: "If the piece didn’t land:",
           items: [
-            "check audience and intent;",
-            "review layout and paragraph density;",
-            "strengthen usefulness and examples — not only the headline;",
-            "don’t rely only on “too many words” comments.",
+            "check audience and intent",
+            "review layout and paragraph density",
+            "strengthen usefulness and examples — not only the headline",
+            "don’t rely only on “too many words” comments",
           ],
         },
       ],
@@ -92,13 +93,14 @@ export const longridEn: BlogPost = {
       title: "Expert copy and “Power Page”",
       level: 2,
       paras: [
-        "Sometimes clients want copy that presents the company through usefulness: facts, opinion, practice — without an aggressive pitch. That format can support a landing, but it doesn’t “replace” landing pages by itself.",
+        "Sometimes clients want copy that presents the company through usefulness: facts, opinion, practice — without an aggressive pitch. That format can support a landing, but it doesn’t replace landing pages by itself.",
         "Virality and “high share potential” depend on topic, audience, and distribution. One masterfully written breakdown beats ten checkbox short posts — but reach isn’t guaranteed.",
-        "Longer time on page helps the content product; in search it isn’t an automatic TOP ticket. Write for the reader’s question and answer quality.",
+        "Longer time on page helps the content product. In search it isn’t an automatic ticket to page one. Write for the reader’s question and answer quality.",
       ],
       notes: [
         {
           title: "No “instead of a landing” promises",
+          kind: "tip",
           text: "A longread builds trust and expertise. A request more often closes with a clear CTA and a landing for the offer — together, not instead.",
         },
       ],
@@ -115,10 +117,10 @@ export const longridEn: BlogPost = {
         {
           intro: "Concision inside length:",
           items: [
-            "cut empty paragraphs and clichés;",
-            "dose adjectives and fluff;",
-            "keep opinion when it’s argued;",
-            "rebuild the structure entirely if needed.",
+            "cut empty paragraphs and clichés",
+            "dose adjectives and fluff",
+            "keep opinion when it’s argued",
+            "rebuild the structure entirely if needed",
           ],
         },
       ],
@@ -137,7 +139,7 @@ export const longridEn: BlogPost = {
       title: "Layout and media",
       level: 2,
       paras: [
-        "Picture the finished screen: illustrations, diagrams, video should carry meaning — not “fill holes.” Cut the extra and the story changes.",
+        "Picture the finished screen: illustrations, diagrams, video should carry meaning — not fill holes. Cut the extra and the story changes.",
         "Media distract: fewer precise elements beat many. Separate interactives (polls, calculators) from the main text so reading isn’t broken.",
         "Two approaches: element substance over quantity; interactivity shouldn’t fight the plot.",
       ],
@@ -162,11 +164,11 @@ export const longridEn: BlogPost = {
         {
           intro: "Remember:",
           items: [
-            "length ≠ quality;",
-            "meaning + structure + layout;",
-            "research and editing are required;",
-            "search and virality aren’t guaranteed by volume;",
-            "update — but don’t dilute the core.",
+            "length ≠ quality",
+            "meaning + structure + layout",
+            "research and editing are required",
+            "search and virality aren’t guaranteed by volume",
+            "update — but don’t dilute the core",
           ],
         },
       ],

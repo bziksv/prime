@@ -11,7 +11,7 @@ export const onlaynObuchenieEn: BlogPost = {
     "How to move corporate training online: adapting materials, preparing the speaker, engagement, feedback, and a hybrid with in-person sessions — without a series of boring webinars.",
   lead: [
     "Online training saves logistics and removes geography: one strong speaker can lead a large group, and a recording catches those who missed the live session. But “just put a deck into a call” almost always fails on engagement.",
-    "Adapt materials for the screen, prep the host, pull people into practice, collect feedback, and keep the recording useful — otherwise the live hour evaporates.",
+    "Below: practical rules — how to adapt content, prep the host, pull people into practice, collect feedback, and not throw away in-person entirely. Specific platform vendors are secondary — process and rhythm matter more.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const onlaynObuchenieEn: BlogPost = {
       a: "Often yes on logistics and group scale. But you need hours to adapt materials, coordinate, and handle tech — put that in the plan.",
     },
     {
-      q: "Which learning platform is best?",
+      q: "Which platform is best?",
       a: "The one the company already has and where recordings, chat, and access are easy. Switching tools rarely saves a weak script.",
     },
     {
@@ -27,15 +27,15 @@ export const onlaynObuchenieEn: BlogPost = {
       a: "Change activity every few minutes: slide → question → poll → short clip. A 40-minute monologue kills attention.",
     },
     {
-      q: "Are homework assignments needed for online courses?",
-      a: "Yes if the goal is a skill, not “they listened”. Mini-research, KPI calc, project defense keep engagement.",
+      q: "Are homework assignments needed?",
+      a: "Yes if the goal is a skill, not “they listened.” Mini-research, KPI calc, project defense keep engagement.",
     },
     {
       q: "Can you skip in-person meetings entirely?",
       a: "For team energy and bonding, hybrid is usually stronger. Fully remote makes culture and informal ties harder.",
     },
     {
-      q: "How do you measure learning effect?",
+      q: "How do you measure the effect?",
       a: "Not only “watched the live”: module completion, scores, on-the-job application, quality of project defenses.",
     },
   ],
@@ -54,7 +54,7 @@ export const onlaynObuchenieEn: BlogPost = {
             "one speaker — a large group",
             "recording for those not live",
             "fewer business trips",
-            "one hub for materials.",
+            "one hub for materials",
           ],
         },
       ],
@@ -69,14 +69,14 @@ export const onlaynObuchenieEn: BlogPost = {
       title: "Adapt materials for the screen",
       level: 2,
       paras: [
-        "Online leans on the visual channel. Slides and clips should feel alive — no bureaucratese and stock “handshakes”. Change format every 3–5 minutes: new block, question, mini-poll, short clip — or attention drifts even with a strong speaker.",
+        "Online leans on the visual channel. Slides and clips should feel alive — no bureaucratese and filler “handshakes.” Change format every 3–5 minutes: new block, question, mini-poll, short clip — or attention drifts even with a strong speaker.",
         "In-person handouts don’t transfer “as is” into a webinar. Shorten, strengthen headlines, cut walls of text.",
       ],
       notes: [
         {
+          kind: "tip",
           title: "Practice",
           text: "If a block runs longer than 15–20 minutes without an activity change — part of the group is almost certainly in email. Put switch points into the script in advance.",
-          kind: "tip",
         },
       ],
     },
@@ -93,7 +93,7 @@ export const onlaynObuchenieEn: BlogPost = {
       level: 2,
       paras: [
         "Passive listeners drop off fast. Give assignments: mini-research of a region/process, KPI calc, project defense, even informal activities with nominations — people value what they made themselves.",
-        "Let participants suggest topics for next sessions. That raises the sense of “our training”, not a broadcast from above.",
+        "Let participants suggest topics for next sessions. That raises the sense of “our training,” not a broadcast from above.",
       ],
       lists: [
         {
@@ -102,7 +102,7 @@ export const onlaynObuchenieEn: BlogPost = {
             "practical cases between live sessions",
             "polls and chat questions",
             "project defense",
-            "peer content from employees.",
+            "peer content from employees",
           ],
         },
       ],
@@ -111,7 +111,7 @@ export const onlaynObuchenieEn: BlogPost = {
       title: "Feedback and a hybrid with in-person",
       level: 2,
       paras: [
-        "Without feedback the program goes blind. Collect module scores, keep a chat/community for questions, appoint a coordinator who actually replies — not a “bot for show”. Company internal channels beat random external tools with data-access risks.",
+        "Without feedback the program goes blind. Collect module scores, keep a chat/community for questions, appoint a coordinator who actually replies — not a “bot for show.” Company internal channels beat random external tools with data-access risks.",
         "Don’t cancel in-person entirely: short offline sessions give energy and ties a screen struggles to replace. Hybrid usually saves travel days but keeps contact. Social media as a “showcase” for participants is optional under company rules; for learning, work chats and an LMS matter more.",
       ],
       links: [
@@ -123,7 +123,7 @@ export const onlaynObuchenieEn: BlogPost = {
     },
   ],
   closing: [
-    "Employee online training works when there’s content rhythm, a prepared speaker, practice, and feedback — not when you bought “yet another webinar tool”. Combine live with in-person touchpoints and measure knowledge use, not only attendance.",
+    "Employee online training works when there’s content rhythm, a prepared speaker, practice, and feedback — not when you bought “yet another webinar tool.” Combine live with in-person touchpoints and measure knowledge use, not only attendance.",
   ],
   related: [
     "udalennaya-rabota",

@@ -11,11 +11,11 @@ export const onlaynOplataEn: BlogPost = {
     "How to accept payments on a site: card, Faster Payments (SBP), and wallets; how a gateway differs from an aggregator and a bank acquirer; what to watch on fees, security, and fiscal rules (54-FZ).",
   lead: [
     "Online payments on a site mean taking money by card, via SBP, and other methods — not “to a personal card in chat.” For a store or services it’s about buyer convenience, fees, security, and cash-register law.",
-    "Gateway, aggregator, and acquiring solve different jobs — pick by volume, methods, and support, then verify tariffs with your bank or provider. Brands change; the connection checklist stays useful.",
+    "Below: payment methods, how a gateway differs from an aggregator and acquiring, and a typical connection path. Brands and tariffs change — check current terms; YooKassa is covered separately.",
   ],
   faq: [
     {
-      q: "Should you use an aggregator or a bank acquirer?",
+      q: "Aggregator or bank acquirer?",
       a: "An aggregator starts faster: one contract — many methods and CMS modules. Direct bank acquiring can be cheaper at scale, but takes longer for approval and integration.",
     },
     {
@@ -27,7 +27,7 @@ export const onlaynOplataEn: BlogPost = {
       a: "Yes — many aggregators offer a payment link / invoice — handy for services and one-off payments.",
     },
     {
-      q: "Is SMS payment worth offering?",
+      q: "Is SMS payment worth it?",
       a: "For micropayments it’s sometimes convenient for buyers, but the fee is often high. As a store’s main channel it’s usually worse than card/SBP.",
     },
     {
@@ -51,7 +51,7 @@ export const onlaynOplataEn: BlogPost = {
             "fee per method",
             "limits and currency",
             "refunds and holds",
-            "mobile payment UX.",
+            "mobile payment UX",
           ],
         },
       ],
@@ -64,7 +64,6 @@ export const onlaynOplataEn: BlogPost = {
         "A bank acquirer takes the card payment for the merchant; the card issuer and processing also sit in the scheme. Connection takes longer: documents, business review, contract.",
         "An aggregator unites methods under one dashboard and contract: cards, SBP, sometimes invoices and subscriptions. Upside — speed and CMS modules; downside — fees and platform rules.",
       ],
-      lists: [],
       tables: [
         {
           caption: "Rough model comparison",
@@ -98,12 +97,13 @@ export const onlaynOplataEn: BlogPost = {
             "successful and failed test payments",
             "emails/webhooks on order status",
             "refund scenario",
-            "clarity on who sends the receipt to the buyer.",
+            "clarity on who sends the receipt to the buyer",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Security",
           text: "Card data must not be stored on your server “however.” Use a redirect/widget from a PCI-compliant provider and 3-D Secure. Don’t collect CVV in your own forms.",
         },
@@ -124,7 +124,7 @@ export const onlaynOplataEn: BlogPost = {
             "module for your CMS / API",
             "support and SLA",
             "dispute and chargeback terms",
-            "link to an online cash register.",
+            "link to an online cash register",
           ],
         },
       ],

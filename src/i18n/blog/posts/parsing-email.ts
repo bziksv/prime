@@ -11,7 +11,7 @@ export const parsingEmailEn: BlogPost = {
     "Why mass-harvesting other people’s emails from sites and social is a bad strategy: law, spam filters, and reputation. How to grow a list with consent — and what replaces “email parsers.”",
   lead: [
     "“Email scraping” usually means automatically collecting addresses from sites, directories, and profiles to send cold mail later. On paper, it’s a “fast list”; in practice you get complaints, blocks, claims, and a junk list.",
-    "A scraped list looks fast and usually dies as spam complaints, blocks, and claims. Grow contacts with consent and forms instead — we don’t publish scraper roundups or platform-bypass how-tos.",
+    "Below: why the idea looks attractive, what risks it carries, and how to grow contacts legally. We don’t publish scraper catalogs, platform-bypass tricks, or “harvest LinkedIn in bulk” how-tos.",
   ],
   faq: [
     {
@@ -28,7 +28,7 @@ export const parsingEmailEn: BlogPost = {
     },
     {
       q: "Is scraping public company contacts on a site OK?",
-      a: "A public `info@` for one careful business email is one thing; mass-harvesting and blasting “everyone from the SERP” is another. Scale and intent decide the risk.",
+      a: "A public `info@` for one careful business email is one thing; mass-harvesting and blasting “everyone from search results” is another. Scale and intent decide the risk.",
     },
     {
       q: "Do I need email verification tools?",
@@ -81,9 +81,9 @@ export const parsingEmailEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Important",
           text: "We don’t recommend or review tools for mass-harvesting other people’s emails. If a vendor offers a “ready list for mailing,” that’s a red flag, not a savings.",
-          kind: "tip",
         },
       ],
       links: [

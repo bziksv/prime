@@ -3,36 +3,36 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for sohranennaya-kopiya-yandex — same structure as RU JSON. */
 export const sohranennayaKopiyaYandexEn: BlogPost = {
   slug: "sohranennaya-kopiya-yandex",
-  title: "Cached page copy in Yandex: why it matters and how to view it",
+  title: "Yandex cached page copy: what it is and how to open it",
   date: "2022-01-11",
   category: "SEO",
   cover: "/images/blog/sohranennaya-kopiya-yandex/cover-en.webp",
   excerpt:
-    "What Yandex cache is, how to open a saved copy, why it may be missing, and whether that affects SEO.",
+    "What Yandex cache is, how to open a saved copy, why it may be missing, and whether that matters for SEO.",
   lead: [
-    "A cached copy is a snapshot of a page the search engine once indexed and stored. You can open it even if the live site is temporarily down.",
-    "We cover how the cached copy helps a webmaster, how to open it in Yandex and Google, why the menu item may vanish from the SERP, and whether you should panic.",
+    "A cached copy is a snapshot of a page the search engine once crawled and stored. You can open it even when the live site is temporarily down.",
+    "Below: how the snapshot helps a webmaster, how to open it in Yandex and Google, why the menu item may vanish from the results, and when not to panic.",
   ],
   faq: [
     {
       q: "What is a cached copy?",
-      a: "A cached version of a URL in the search engine: text and markup as of crawl time, available as a “snapshot” from the SERP or via a special query.",
+      a: "A cached version of a URL in the search engine: text and markup as of crawl time, available as a snapshot from the results or via a special query.",
     },
     {
       q: "Does having a cache affect rankings?",
-      a: "There is no direct ranking factor “cache exists → higher TOP.” Indexing, availability, and page quality matter more.",
+      a: "There is no direct ranking factor of the form “cache exists → ranks higher.” Indexing, availability, and page quality matter more.",
     },
     {
-      q: "Why is there no cached copy in the SERP?",
-      a: "Often because of meta robots noarchive, cache delays/glitches, or UI quirks. Sometimes the page is simply crawled rarely.",
+      q: "Why is there no cached copy in the results?",
+      a: "Often because of meta robots noarchive, cache delays or glitches, or UI quirks. Sometimes the page is simply crawled rarely.",
     },
     {
       q: "How fast does the cache update after edits?",
-      a: "Not instantly: days or more. To check freshness, look at the snapshot date and status in Yandex Webmaster / Search Console.",
+      a: "Not instantly — days or more. To check freshness, look at the snapshot date and status in Yandex Webmaster / Search Console.",
     },
     {
       q: "Why isn’t the cache a backup?",
-      a: "Cache isn’t a full site copy (templates, DB, settings). It’s a content safety net and a diagnostic tool — not a backup strategy.",
+      a: "Cache is not a full site copy (templates, database, settings). It is a content safety net and a diagnostic tool — not a backup strategy.",
     },
   ],
   sections: [
@@ -46,17 +46,18 @@ export const sohranennayaKopiyaYandexEn: BlogPost = {
         {
           intro: null,
           items: [
-            "see which text/blocks the bot saw before edits;",
-            "open content if the site is temporarily down;",
-            "compare whether changes reached the index (by snapshot date);",
-            "a quick “snapshot” as a supplement to hosting backup — not instead of it.",
+            "see which text and blocks the bot saw before edits",
+            "open content if the site is temporarily down",
+            "compare whether changes reached the index (by snapshot date)",
+            "a quick snapshot as a supplement to hosting backup — not instead of it",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Lifespan",
-          text: "Cache isn’t forever: in days–weeks the snapshot may be replaced or removed. Don’t treat it as an archive “forever.”",
+          text: "Cache is not forever: in days to weeks the snapshot may be replaced or removed. Do not treat it as an archive that lasts forever.",
         },
       ],
     },
@@ -64,16 +65,16 @@ export const sohranennayaKopiyaYandexEn: BlogPost = {
       title: "How to view a cached copy in Yandex",
       level: 2,
       paras: [
-        "SERP UI changes, but the idea is the same: in search results open the action menu for the URL and choose cached copy / cache. Google has a similar flow.",
-        "Extensions like RDS Bar also help: open cache and URL diagnostics fast. If the SERP menu is missing, check whether the browser or an ad blocker is hiding it.",
+        "The results UI changes, but the idea stays the same: open the action menu for the URL and choose cached copy / cache. Google has a similar flow.",
+        "Extensions like RDS Bar also help: open cache and URL diagnostics fast. If the results menu is missing, check whether the browser or an ad blocker is hiding it.",
       ],
       lists: [],
     },
     {
-      title: "From the SERP",
+      title: "From the results",
       level: 3,
       paras: [
-        "Find the page in Yandex or Google → snippet menu → “Cached” / saved copy. Sometimes a text view and snapshot date are available — they show how fresh the cache is.",
+        "Find the page in Yandex or Google → snippet menu → Cached / saved copy. Sometimes a text view and snapshot date are available — they show how fresh the cache is.",
       ],
       lists: [],
     },
@@ -93,15 +94,16 @@ export const sohranennayaKopiyaYandexEn: BlogPost = {
         {
           intro: null,
           items: [
-            "caching is blocked in code (e.g. meta robots with noarchive);",
-            "the page indexes poorly or is closed from crawl;",
-            "temporary glitches/delays on the search engine side;",
-            "SERP UI changed — the item moved or is hidden.",
+            "caching is blocked in code (for example, meta robots with noarchive)",
+            "the page indexes poorly or is closed from crawl",
+            "temporary glitches or delays on the search engine side",
+            "results UI changed — the item moved or is hidden",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Check first",
           text: "robots.txt, meta robots / X-Robots-Tag, URL response code, and status in Yandex Webmaster. Often “no cache” is a symptom, not a separate disease.",
         },
@@ -112,7 +114,7 @@ export const sohranennayaKopiyaYandexEn: BlogPost = {
       level: 2,
       paras: [
         "Missing a “cached copy” item alone rarely breaks promotion. What matters more is that needed URLs open, return 200, and get indexed.",
-        "Historically some exchanges and services looked at cache signals when moderating sites — for everyday commercial SEO that’s secondary. If you need cache for content diagnostics — remove noarchive and wait for a recrawl.",
+        "Historically some exchanges and services looked at cache signals when moderating sites — for everyday commercial SEO that is secondary. If you need cache for content diagnostics, remove noarchive and wait for a recrawl.",
       ],
       lists: [],
       links: [

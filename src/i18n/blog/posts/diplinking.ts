@@ -11,7 +11,7 @@ export const diplinkingEn: BlogPost = {
     "What a deeplink and deferred deeplink are, why they matter in app ads and messaging, and how not to lose conversion on the path from banner to the right screen.",
   lead: [
     "Deeplinking is a link that opens not “just the app” or the site home, but a specific screen — a product card, promo, cart, or booking section.",
-    "This guide covers how regular and deferred deeplinks work, where they fit in acquisition and retention, and the mistakes that kill conversion. Platforms and SDKs change; the user-path logic matters more than a “magic sales button.”",
+    "Below: regular and deferred deeplinks, where they fit in acquisition and retention, and the mistakes that kill conversion. Platforms and SDKs change; the user-path logic matters more than a “magic sales button.”",
   ],
   faq: [
     {
@@ -40,7 +40,7 @@ export const diplinkingEn: BlogPost = {
     },
     {
       q: "What should I measure?",
-      a: "Clicks → installs/opens → reaching the target screen → conversion and CPA/ROAS (return on ad spend). Compare with campaigns without a deeplink.",
+      a: "Clicks → installs/opens → reaching the target screen → conversion and CPA/ROAS. Compare with campaigns without a deeplink.",
     },
     {
       q: "What’s a common mistake?",
@@ -179,7 +179,7 @@ export const diplinkingEn: BlogPost = {
       level: 2,
       paras: [
         "Don’t advertise something that isn’t in navigation or is buried three taps deep without a deeplink. Don’t send every creative to splash/onboarding. Don’t forget retention: a deeplink helps after the first install too.",
-        "The rule: the fewer steps from click to the promised screen, the higher the chance of a goal action — with a live offer and decent UX.",
+        "The rule: the fewer steps from click to the promised screen, the better the odds of a goal action — with a live offer and decent UX.",
       ],
       lists: [
         {

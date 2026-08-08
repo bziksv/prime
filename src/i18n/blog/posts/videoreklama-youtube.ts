@@ -11,7 +11,8 @@ export const videoreklamaYoutubeEn: BlogPost = {
     "When YouTube video ads pay off, which formats exist, and how to judge audience fit and budget — without “most effective on the internet” hype or stale price quotes.",
   lead: [
     "Pre-roll and in-stream ads annoy some viewers, but they can deliver reach, awareness, and sometimes leads — if the offer, creative, and landing page work as one funnel.",
-    "Match format to the funnel, treat audience and creative as the budget drivers, and tie the ad to a clear sales path. CPM and CPC benchmarks from old articles go stale fast — run your own test and check current Google Ads help.",
+    "Below: format pros, audience work, the path to sales, and how to think about budget. CPM and CPC figures from old guides go stale — run your own test and check current Google Ads Help.",
+    "For Russia, account for ads-account availability and platform policy at launch time.",
   ],
   faq: [
     {
@@ -28,7 +29,7 @@ export const videoreklamaYoutubeEn: BlogPost = {
     },
     {
       q: "Is there an SEO bonus from YouTube Ads?",
-      a: "No direct “Ads = top rankings.” Indirectly, ads can lift brand demand and site traffic. Organic growth still comes from content and SEO work.",
+      a: "No direct “Ads = page-one organic.” Indirectly, ads can lift brand demand and site traffic. Organic growth still comes from content and SEO work.",
     },
     {
       q: "What budget should I start with?",
@@ -56,11 +57,11 @@ export const videoreklamaYoutubeEn: BlogPost = {
         {
           intro: "When video ads shine:",
           items: [
-            "a complex product needs to be shown;",
-            "brand and trust matter;",
-            "you have a landing page ready for the action;",
-            "you’re willing to test two or three creatives;",
-            "you have bandwidth for editing and iteration.",
+            "a complex product needs to be shown",
+            "brand and trust matter",
+            "you have a landing page ready for the action",
+            "you’re willing to test two or three creatives",
+            "you have bandwidth for editing and iteration",
           ],
         },
       ],
@@ -77,10 +78,10 @@ export const videoreklamaYoutubeEn: BlogPost = {
         {
           intro: "Before you shoot:",
           items: [
-            "one primary CTA;",
-            "proof (numbers, case study, demo);",
-            "customer language, not agency jargon;",
-            "a 15–30s version and a shorter hook cut.",
+            "one primary CTA",
+            "proof (numbers, case study, demo)",
+            "customer language, not agency jargon",
+            "a 15–30s version and a shorter hook cut",
           ],
         },
       ],
@@ -102,10 +103,10 @@ export const videoreklamaYoutubeEn: BlogPost = {
         {
           intro: "The chain you need:",
           items: [
-            "UTM or campaign tagging;",
-            "a landing page that matches the clip’s offer;",
-            "a goal: lead, purchase, or call;",
-            "irrelevant placements excluded.",
+            "UTM or campaign tagging",
+            "a landing page that matches the clip’s offer",
+            "a goal: lead, purchase, or call",
+            "irrelevant placements excluded",
           ],
         },
       ],
@@ -131,16 +132,16 @@ export const videoreklamaYoutubeEn: BlogPost = {
         {
           intro: "What to watch in the report:",
           items: [
-            "frequency and completion rate;",
-            "CTR and cost per target action;",
-            "site traffic quality (bounce rate, pages per session);",
-            "which creatives drive conversions.",
+            "frequency and completion rate",
+            "CTR and cost per target action",
+            "site traffic quality (bounce rate, pages per session)",
+            "which creatives drive conversions",
           ],
         },
       ],
       notes: [
         {
-          title: "Important",
+          title: "Note",
           kind: "tip",
           text: "“The most effective advertising on the internet” is a slogan. What’s effective is what fits your unit economics.",
         },
@@ -157,10 +158,10 @@ export const videoreklamaYoutubeEn: BlogPost = {
         {
           intro: "Run ads alongside:",
           items: [
-            "channel branding;",
-            "videos that answer audience questions;",
-            "landing pages for demand clusters;",
-            "realistic SEO timelines (months, not days).",
+            "channel branding",
+            "videos that answer audience questions",
+            "landing pages for demand clusters",
+            "realistic SEO timelines (months, not days)",
           ],
         },
       ],
@@ -172,13 +173,6 @@ export const videoreklamaYoutubeEn: BlogPost = {
         {
           label: "YouTube monetization",
           href: "/en/blog/youtube-monetizaciya/",
-        },
-      ],
-      notes: [
-        {
-          title: "SEO timelines",
-          kind: "tip",
-          text: "Paid video tests answer now. Organic growth for your core keywords is a separate track: site prep takes roughly a few weeks to a month; top rankings are typically 2–6 months of work after launch.",
         },
       ],
     },
@@ -193,10 +187,10 @@ export const videoreklamaYoutubeEn: BlogPost = {
         {
           intro: "Quick decision checklist:",
           items: [
-            "goal and CPA/ROAS targets are set;",
-            "at least two creatives ready for testing;",
-            "daily cap and review deadline defined;",
-            "a stop-or-scale plan written down.",
+            "goal and CPA/ROAS targets are set",
+            "at least two creatives ready for testing",
+            "daily cap and review deadline defined",
+            "a stop-or-scale plan written down",
           ],
         },
       ],

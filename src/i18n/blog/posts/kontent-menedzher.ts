@@ -8,10 +8,10 @@ export const kontentMenedzherEn: BlogPost = {
   category: "Content marketing",
   cover: "/images/blog/kontent-menedzher/cover-en.webp",
   excerpt:
-    "What a content manager is, how the role differs from copywriter and SMM, which duties and skills matter, and how to start a career.",
+    "What a content manager does, how the role differs from copywriter and SMM, which duties and skills matter, and how to start.",
   lead: [
-    "A content manager owns filling and order of materials on the site and related channels: plan, publish, edits, briefing authors, and quality control on the live page.",
-    "Duties, skills, the publish process, and how to break into the field are below. SMM and straight copywriting are related roles — not full synonyms.",
+    "A content manager owns filling and order of materials on the site and related channels: the plan, publish, edits, briefing authors, and quality control on the live page.",
+    "Below: duties, skills, the publish process, and how to break into the field. SMM and straight copywriting are related roles — not full synonyms.",
   ],
   faq: [
     {
@@ -20,15 +20,15 @@ export const kontentMenedzherEn: BlogPost = {
     },
     {
       q: "How is it different from SMM?",
-      a: "SMM is stronger in social and community. A content manager more often owns site, blog, catalog, CMS.",
+      a: "SMM is stronger in social and community. A content manager more often owns site, blog, catalog, and CMS.",
     },
     {
       q: "Do I need SEO skills?",
-      a: "Basics — yes: Title, headings, internal links, briefs for authors. Deep SEO usually belongs to a specialist.",
+      a: "Basics — yes: title, headings, internal links, briefs for authors. Deep SEO usually belongs to a specialist.",
     },
     {
       q: "How do I start with no experience?",
-      a: "CMS in practice, literacy, a portfolio of publishes, an internship, or a small site end-to-end.",
+      a: "CMS in practice, clear writing, a portfolio of publishes, an internship, or a small site end to end.",
     },
     {
       q: "Is remote work possible?",
@@ -40,11 +40,11 @@ export const kontentMenedzherEn: BlogPost = {
     },
     {
       q: "How is the work measured?",
-      a: "Plan adherence, publish quality without critical errors, updating stale pages, sometimes traffic/conversions — by team agreement.",
+      a: "Plan adherence, publish quality without critical errors, updating stale pages, sometimes traffic or conversions — by team agreement.",
     },
     {
       q: "Can I combine this role with SMM?",
-      a: "In a small team — yes, but priorities must be explicit: otherwise site and social stay forever half-finished.",
+      a: "In a small team — yes, but priorities must be explicit. Otherwise site and social stay forever half-finished.",
     },
   ],
   sections: [
@@ -59,10 +59,10 @@ export const kontentMenedzherEn: BlogPost = {
         {
           intro: "Nearby, but not the same:",
           items: [
-            "copywriter — text;",
-            "SMM — social and engagement;",
-            "SEO specialist — keyword set and promotion tech;",
-            "content manager — plan + publish + quality on the site.",
+            "copywriter — text",
+            "SMM — social and engagement",
+            "SEO specialist — keyword set and promotion tech",
+            "content manager — plan, publish, and quality on the site",
           ],
         },
       ],
@@ -78,12 +78,12 @@ export const kontentMenedzherEn: BlogPost = {
         {
           intro: "A typical day:",
           items: [
-            "publishes by plan;",
-            "edits from feedback;",
-            "mobile check;",
-            "author task queue;",
-            "light SEO check of pages;",
-            "status updates in the tracker.",
+            "publishes by plan",
+            "edits from feedback",
+            "mobile check",
+            "author task queue",
+            "light SEO check of pages",
+            "status updates in the tracker",
           ],
         },
       ],
@@ -98,18 +98,18 @@ export const kontentMenedzherEn: BlogPost = {
       title: "Skills",
       level: 2,
       paras: [
-        "You need solid writing, structure logic, confident CMS use, spreadsheets, and a task tracker. Bonus: basic graphics or briefing a designer without “make it pretty.”",
+        "You need clear writing, structure logic, confident CMS use, spreadsheets, and a task tracker. Bonus: basic graphics or briefing a designer without “make it pretty.”",
         "Tech basics: responsive layout, links, metadata, how it looks after publish. Deep engineering and strategic SEO belong to specialists — but a content manager catches everyday breaks before the client does.",
       ],
       lists: [
         {
           intro: "Nice to have:",
           items: [
-            "understanding an SEO brief;",
-            "analytics at report level;",
-            "working with briefs and deadlines;",
-            "care with facts and photo rights;",
-            "a consistent brand tone.",
+            "understanding an SEO brief",
+            "analytics at report level",
+            "working with briefs and deadlines",
+            "care with facts and photo rights",
+            "a consistent brand tone",
           ],
         },
       ],
@@ -129,18 +129,18 @@ export const kontentMenedzherEn: BlogPost = {
       level: 2,
       paras: [
         "Every content unit needs a brief: goal, audience, format, deadline, owner, and done criteria. That cuts last-minute rewrites.",
-        "Before publish, a short checklist: headings, facts, rights-cleared images, links, meta, form/CTA, mobile view. After go-live — handoff to promotion and a slot for updates.",
+        "Before publish, a short checklist: headings, facts, rights-cleared images, links, meta, form or CTA, mobile view. After go-live — handoff to promotion and a slot for updates.",
       ],
       lists: [
         {
           intro: "Stages:",
           items: [
-            "planning;",
-            "prep and editing;",
-            "CMS layout;",
-            "quality control;",
-            "publish;",
-            "analysis and update.",
+            "planning",
+            "prep and editing",
+            "CMS layout",
+            "quality control",
+            "publish",
+            "analysis and update",
           ],
         },
       ],
@@ -168,16 +168,16 @@ export const kontentMenedzherEn: BlogPost = {
       level: 2,
       paras: [
         "Gather 5–10 examples: articles, cards, laid-out sections. Start as junior, assistant, or running a small site — live publishes teach faster than courses alone.",
-        "In a portfolio show the task, structure, checks, and your role. Employers then see not only text, but the ability to publish a working page.",
+        "In a portfolio show the task, structure, checks, and your role. Employers then see not only text, but the ability to ship a working page.",
       ],
       lists: [
         {
           intro: "First steps:",
           items: [
-            "master one CMS to a confident level;",
-            "run your own or a practice blog;",
-            "study strong sites by structure;",
-            "ask for feedback on copy and content layout.",
+            "master one CMS to a confident level",
+            "run your own or a practice blog",
+            "study strong sites by structure",
+            "ask for feedback on copy and content layout",
           ],
         },
       ],
@@ -193,11 +193,11 @@ export const kontentMenedzherEn: BlogPost = {
         {
           intro: "Useful habits:",
           items: [
-            "keep an editorial calendar;",
-            "collect feedback;",
-            "update stale pages;",
-            "document tone and layout rules;",
-            "don’t pile a “dead” backlog with no priorities.",
+            "keep an editorial calendar",
+            "collect feedback",
+            "update stale pages",
+            "document tone and layout rules",
+            "don’t pile a dead backlog with no priorities",
           ],
         },
       ],
@@ -223,17 +223,18 @@ export const kontentMenedzherEn: BlogPost = {
         {
           intro: "Avoid:",
           items: [
-            "publishes without a preview;",
-            "broken links and empty buttons;",
-            "photos without rights;",
-            "deadline promises with no buffer for approvals.",
+            "publishes without a preview",
+            "broken links and empty buttons",
+            "photos without rights",
+            "deadline promises with no buffer for approvals",
           ],
         },
       ],
       notes: [
         {
           title: "On SEO timelines",
-          text: "A content manager prepares and updates pages. TOP across the set is planned for 2–6 months of work after promotion starts — not “posted this week, TOP next week.”",
+          kind: "tip",
+          text: "A content manager prepares and updates pages. Page-one visibility for the keyword set is planned for 2–6 months of work after promotion starts — not “posted this week, rankings next week.”",
         },
       ],
     },

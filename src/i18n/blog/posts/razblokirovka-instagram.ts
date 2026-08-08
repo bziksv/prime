@@ -11,7 +11,7 @@ export const razblokirovkaInstagramEn: BlogPost = {
     "How blocking a user differs from an account ban, how to remove someone from the block list in the app, and what to do if the profile can’t be found — without third-party Instagram “clients.”",
   lead: [
     "Blocking on Instagram limits contact between two profiles: follows, messages, and some public interactions stop working. If the decision was made in the heat of the moment, you can undo it in settings or on the person’s page.",
-    "A safe action order, what happens after unblocking, and cases when the profile can’t be found. This piece is not about restoring access to an account limited by the platform.",
+    "Below: a safe action order, what happens after unblocking, and cases when the profile can’t be found. This piece is not about restoring access to an account limited by the platform. Meta note is on the page.",
   ],
   legalNotice: {
     title: "Note",
@@ -56,7 +56,6 @@ export const razblokirovkaInstagramEn: BlogPost = {
         "This is a user setting, not a platform sanction. Don’t confuse it with a limit on your own account: that case goes through official notices and security checks, not the blocked list.",
         "Blocking fits when you need to stop unwanted contact. If the issue is only pushy comments, first try softer privacy and restrict settings.",
       ],
-      lists: [],
       links: [
         {
           label: "Instagram account bans",
@@ -78,7 +77,7 @@ export const razblokirovkaInstagramEn: BlogPost = {
             "the current handle — it may have changed",
             "avatar and bio if names look similar",
             "whether you need access to chat and content again",
-            "whether Restrict is a better fit.",
+            "whether Restrict is a better fit",
           ],
         },
       ],
@@ -90,7 +89,6 @@ export const razblokirovkaInstagramEn: BlogPost = {
         "If the profile appears via search or an old chat, unblock is also available on their page. Open the actions menu by the profile, pick the matching command, and confirm. Handy when the list is long.",
         "Don’t confuse the person’s profile with lookalikes and fan accounts. When unsure, return to the block list — you’ll see the saved entry rather than relying on search.",
       ],
-      lists: [],
       links: [
         {
           label: "How to change an Instagram password",
@@ -112,7 +110,7 @@ export const razblokirovkaInstagramEn: BlogPost = {
             "find any private or deleted profile",
             "lift someone else’s block in one click",
             "restore chat without account access",
-            "speed up unblock for a fee.",
+            "speed up unblock for a fee",
           ],
         },
       ],
@@ -124,9 +122,9 @@ export const razblokirovkaInstagramEn: BlogPost = {
         "Unblocking doesn’t restore the old relationship automatically. Follows, notifications, and privacy settings still apply separately: if the profile is private, they’ll need to request a follow; you’re not obliged to follow back.",
         "Decide whether you want to resume contact. For work accounts, lock communication rules: who replies in Direct, which messages get hidden, when the talk moves to email or a site form.",
       ],
-      lists: [],
       notes: [
         {
+          kind: "tip",
           title: "Practice",
           text: "After unblock, don’t rush to message first. Let things cool and check privacy settings — calmer than blocking again a few minutes later.",
         },
@@ -139,7 +137,6 @@ export const razblokirovkaInstagramEn: BlogPost = {
         "Blocking doesn’t replace account protection. Use a unique password, two-factor authentication, and review active login sessions — especially if you ever entered credentials on a third-party site or shared access with a helper.",
         "For a public blog, set moderation rules early: which comments get deleted, which questions move to DMs, and when a full block is needed. A consistent policy lowers conflict and makes audience work predictable.",
       ],
-      lists: [],
       links: [
         {
           label: "How to design an Instagram profile",

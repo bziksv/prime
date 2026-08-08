@@ -10,8 +10,8 @@ export const lookerStudioEn: BlogPost = {
   excerpt:
     "What Looker Studio (formerly Google Data Studio) is: how to build dashboards, connect sources, and how visualization differs from true full-funnel analytics with CRM.",
   lead: [
-    "Looker Studio (before 2022 — Google Data Studio) is a free report builder: tables, charts, and filters on top of data from analytics, spreadsheets, and ad accounts.",
-    "It’s a presentation layer, not a magic full-funnel switch: without linking spend, the site, and CRM, pretty charts stay site analytics. UI and connectors change — lean on the logic, not 2020 screenshots.",
+    "Looker Studio (before 2022 — Google Data Studio) is a free report builder: tables, charts, and filters over data from analytics, spreadsheets, and ad accounts.",
+    "Below: how the product works, how to assemble a marketing dashboard, and where the line is — Data Studio alone doesn’t “switch on” full-funnel analytics without linking spend, the site, and CRM. UI and connectors change — lean on the logic, not 2020 screenshots.",
   ],
   faq: [
     {
@@ -55,10 +55,10 @@ export const lookerStudioEn: BlogPost = {
         {
           intro: "Typical jobs:",
           items: [
-            "traffic and conversion summary for a client;",
-            "channel comparison on one screen;",
-            "monitoring 5–10 KPIs without weekly exports;",
-            "simple blended reports from several sources.",
+            "traffic and conversion summary for a client",
+            "channel comparison on one screen",
+            "monitoring 5–10 KPIs without weekly exports",
+            "simple blended reports from several sources",
           ],
         },
       ],
@@ -84,11 +84,11 @@ export const lookerStudioEn: BlogPost = {
         {
           intro: "Minimum full-funnel setup:",
           items: [
-            "spend from ad accounts;",
-            "site behavior and goals (Metrica / GA4);",
-            "leads and payments from CRM;",
-            "consistent UTMs and attribution rules;",
-            "a dashboard where those fields already align.",
+            "spend from ad accounts",
+            "site behavior and goals (Metrica / GA4)",
+            "leads and payments from CRM",
+            "consistent UTMs and attribution rules",
+            "a dashboard where those fields already align",
           ],
         },
       ],
@@ -121,12 +121,12 @@ export const lookerStudioEn: BlogPost = {
         {
           intro: "Start order:",
           items: [
-            "lock 5–7 KPIs;",
-            "connect one reliable source;",
-            "build an overview page;",
-            "add date and channel filters;",
-            "give the team view-only access;",
-            "reconcile numbers with the source account.",
+            "lock 5–7 KPIs",
+            "connect one reliable source",
+            "build an overview page",
+            "add date and channel filters",
+            "give the team view-only access",
+            "reconcile numbers with the source account",
           ],
         },
       ],
@@ -142,10 +142,10 @@ export const lookerStudioEn: BlogPost = {
         {
           intro: "When to complicate the architecture:",
           items: [
-            "budget and many channels;",
-            "a long sales cycle;",
-            "you need payments and margin from CRM;",
-            "manual exports take hours every week.",
+            "budget and many channels",
+            "a long sales cycle",
+            "you need payments and margin from CRM",
+            "manual exports take hours every week",
           ],
         },
       ],
@@ -154,17 +154,17 @@ export const lookerStudioEn: BlogPost = {
       title: "Visuals and filters",
       level: 2,
       paras: [
-        "KPI cards, daily trends, a campaign table, a channel pie, a period filter — the basic set. Don’t overload page one: a manager should see “good / bad / where to look” in 30 seconds.",
+        "KPI cards, daily trends, a campaign table, a channel pie, a period filter — the basic set. Don’t overload the first page: a manager should see “good / bad / where to look” in 30 seconds.",
         "Interactive filters (channel, region, device) make the report a work tool, not a picture. Label axes and lock definitions: what counts as a lead and a conversion.",
       ],
       lists: [
         {
           intro: "Common design mistakes:",
           items: [
-            "ten charts with no question;",
-            "different definitions of one metric across pages;",
-            "default period “all time”;",
-            "edit access for the whole company.",
+            "ten charts with no question",
+            "different definitions of one metric across pages",
+            "default period “all time”",
+            "edit access for the whole company",
           ],
         },
       ],
@@ -180,10 +180,10 @@ export const lookerStudioEn: BlogPost = {
         {
           intro: "Before trusting the dashboard:",
           items: [
-            "do spend totals match ad accounts;",
-            "do payment counts match CRM;",
-            "is the time zone consistent;",
-            "are there duplicate UTMs and tags.",
+            "do spend totals match ad accounts",
+            "do payment counts match CRM",
+            "is the time zone consistent",
+            "are there duplicate UTMs and tags",
           ],
         },
       ],

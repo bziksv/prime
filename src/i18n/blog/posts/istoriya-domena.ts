@@ -8,15 +8,15 @@ export const istoriyaDomenaEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/istoriya-domena/cover-en.webp",
   excerpt:
-    "How to check a drop or used domain before purchase: Wayback Machine, past topics, backlink profile, filters, and search visibility — without the myth “old domain = fast TOP.”",
+    "How to vet a drop or used domain before purchase: Wayback Machine, past topics, backlink profile, filters, and search visibility — without the myth that an old domain means a fast climb in results.",
   lead: [
-    "Buying someone else’s or a drop domain, you take not only a nice name but a past: topics, links, possible sanctions, and a reputation tail.",
-    "Run the checklist below before you pay. The web archive (Wayback Machine) is covered separately; this is a checklist for buying a name. An old domain doesn’t guarantee TOP rankings: positions and traffic come from ongoing work — plan for months, not “bought a drop, straight into the top ten.”",
+    "When you buy someone else’s domain or a drop, you inherit more than a nice name: past topics, links, possible sanctions, and a reputation tail.",
+    "Below is what to check before you pay. The web archive (Wayback) is covered separately; this piece is a buying checklist. Age alone does not put you on page one — rankings and traffic come from work on the site, typically planned over months, not “bought a drop, instant top ten.”",
   ],
   faq: [
     {
       q: "Is a new domain always safer?",
-      a: "Often simpler: no someone else’s tail. But a solid checked drop can help. Decide by verification — not fear or greed.",
+      a: "Often simpler: no someone else’s baggage. A solid, checked drop can still help. Decide by verification — not fear or greed.",
     },
     {
       q: "Does Wayback show everything?",
@@ -24,15 +24,15 @@ export const istoriyaDomenaEn: BlogPost = {
     },
     {
       q: "What if the past topic was different?",
-      a: "Higher risk: search may take longer to relearn the domain’s meaning. For a strong topic shift, a new domain is often calmer.",
+      a: "Higher risk: search may take longer to relearn what the domain means. For a strong topic shift, a new name is often calmer.",
     },
     {
       q: "Are lots of “buy cheap” anchors bad?",
-      a: "Looks like a spammy profile. Take such names only if you accept the risk and a long cleanup — more often, walk away.",
+      a: "That looks like a spammy profile. Take such names only if you accept the risk and a long cleanup — more often, walk away.",
     },
     {
       q: "Does site: in results mean all is fine?",
-      a: "Only that something is still indexed or was. It doesn’t cancel filters, toxic links, or a topic change.",
+      a: "Only that something is still indexed or once was. It does not cancel filters, toxic links, or a topic change.",
     },
   ],
   sections: [
@@ -40,18 +40,18 @@ export const istoriyaDomenaEn: BlogPost = {
       title: "Why check before buying",
       level: 2,
       paras: [
-        "Age and a nice sound don’t cancel a ban, spammy links, or past adult/pharma content. Problems surface after you’ve already invested in the site and content.",
-        "What to verify: content history, backlink profile, sanction / deindex signals, visibility, and brand reputation in search.",
+        "Age and a catchy string do not cancel a ban, spammy links, or past adult or pharma content. Problems tend to surface after you have already invested in the site and content.",
+        "What to verify: content history, backlink profile, sanction or deindex signals, visibility, and brand reputation in search.",
       ],
       lists: [
         {
           intro: "Red flags:",
           items: [
-            "sharp topic flips in the archive;",
-            "spammy / doorway snapshots;",
-            "toxic donors and anchors;",
-            "long visibility drops without explanation;",
-            "legal / brand conflicts in the name.",
+            "sharp topic flips in the archive",
+            "spammy or doorway snapshots",
+            "toxic donors and anchors",
+            "long visibility drops without explanation",
+            "legal or brand conflicts in the name",
           ],
         },
       ],
@@ -60,18 +60,18 @@ export const istoriyaDomenaEn: BlogPost = {
       title: "History in the Wayback Machine",
       level: 2,
       paras: [
-        "Open web.archive.org, enter the domain, review the snapshot calendar: when the site appeared, what it was, how it changed. Judge how close the past topic is to yours.",
-        "Don’t look at one frame — look across years. Empty stretches, placeholders, and sudden storefronts are reasons to dig deeper or walk away.",
+        "Open web.archive.org, enter the domain, and review the snapshot calendar: when the site appeared, what it was, how it changed. Judge how close the past topic is to yours.",
+        "Do not stop at one frame — look across years. Empty stretches, placeholders, and sudden storefronts are reasons to dig deeper or walk away.",
       ],
       lists: [
         {
           intro: "What to note:",
           items: [
-            "date of first snapshots;",
-            "main topic by year;",
-            "whether there were storefronts / doorways;",
-            "language and geo;",
-            "whether the brand matches your plan.",
+            "date of first snapshots",
+            "main topic by year",
+            "whether there were storefronts or doorways",
+            "language and geo",
+            "whether the brand matches your plan",
           ],
         },
       ],
@@ -87,25 +87,25 @@ export const istoriyaDomenaEn: BlogPost = {
       level: 2,
       paras: [
         "Link count alone says nothing. Look at donor quality, spam share, growth dynamics, and anchors. Sudden links-from-nowhere spikes are a typical risk.",
-        "Paid SEO tools (Ahrefs and peers) help review backlinks; free signals are enough for a rough filter. We don’t crown one tool most trustworthy forever — cross-check sources.",
+        "Paid SEO tools (Ahrefs and peers) help review backlinks; free signals are enough for a rough filter. No single tool is “the truth forever” — cross-check sources.",
       ],
       lists: [
         {
           intro: "What to watch:",
           items: [
-            "share of brand/naked vs commercial anchors;",
-            "donors with dubious topics;",
-            "broken and mass networks;",
-            "history of link-mass spikes;",
-            "donor language match with your niche.",
+            "share of brand or naked vs commercial anchors",
+            "donors with dubious topics",
+            "broken and mass networks",
+            "history of link-mass spikes",
+            "donor language match with your niche",
           ],
         },
       ],
       notes: [
         {
           title: "Important",
-          text: "Buying a domain for someone else’s links without content and strategy often disappoints. Links are one factor — not a ticket to the TOP.",
           kind: "tip",
+          text: "Buying a domain for someone else’s links without content and strategy often disappoints. Links are one factor — not a ticket to page one.",
         },
       ],
     },
@@ -113,18 +113,18 @@ export const istoriyaDomenaEn: BlogPost = {
       title: "Visibility and index",
       level: 2,
       paras: [
-        "Check `site:domain` in Yandex and Google, a branded query on the name, mirrors, and odd subdomains. Empty SERP with a lively archive past is suspicious.",
+        "Check `site:domain` in Yandex and Google, a branded query on the name, mirrors, and odd subdomains. An empty SERP with a lively archive past is suspicious.",
         "Historical visibility in Serpstat/Similarweb-class tools (names and data windows change) helps spot traffic drops. Interpret carefully: ownership change, seasonality, a filter, or just a dead project.",
       ],
       lists: [
         {
           intro: "Quick checks:",
           items: [
-            "`site:` in both search engines;",
-            "branded query;",
-            "cache / saved copies when available;",
-            "domain mentions in news/reviews;",
-            "WHOIS / registrar history where available.",
+            "`site:` in both search engines",
+            "branded query",
+            "cache or saved copies when available",
+            "domain mentions in news or reviews",
+            "WHOIS / registrar history where available",
           ],
         },
       ],
@@ -143,19 +143,26 @@ export const istoriyaDomenaEn: BlogPost = {
       title: "Drops and SEO expectations",
       level: 2,
       paras: [
-        "A fresh drop sometimes keeps part of the signals — sometimes not. Idle time and myths like “60 days without an owner = rankings as before” aren’t law: algorithms and index cleanup have changed.",
-        "Even a clean aged domain doesn’t cancel site prep and planned ranking work over months. Saving on promotion because the domain is old is a risky bet.",
+        "A fresh drop sometimes keeps part of the signals — sometimes not. Idle time and myths like “60 days without an owner = rankings as before” are not law: algorithms and index cleanup have changed.",
+        "Even a clean aged domain does not cancel site prep and planned ranking work over months. Cutting promotion spend because the domain is old is a risky bet.",
       ],
       lists: [
         {
           intro: "When a drop makes sense:",
           items: [
-            "past topic is close;",
-            "links and mentions look sane;",
-            "no clear sanctions/spam;",
-            "the name strengthens the brand, doesn’t confuse;",
-            "budget covers content and tech — not only the domain.",
+            "past topic is close",
+            "links and mentions look sane",
+            "no clear sanctions or spam",
+            "the name strengthens the brand, does not confuse",
+            "budget covers content and tech — not only the domain",
           ],
+        },
+      ],
+      notes: [
+        {
+          title: "Timelines",
+          kind: "tip",
+          text: "A vetted aged domain can help. It still is not a shortcut: after prep, growing a query core in the results is typically planned over 2–6 months of work.",
         },
       ],
     },
@@ -164,12 +171,12 @@ export const istoriyaDomenaEn: BlogPost = {
       level: 2,
       paras: [
         "Before buying, go archive → links → visibility. When in doubt, pick a new name — cheaper than a year undoing someone else’s spam.",
-        "A good domain reputation helps, but doesn’t replace work on the site.",
+        "A good domain reputation helps, but it does not replace work on the site.",
       ],
     },
   ],
   closing: [
-    "Check Wayback, backlinks, and the index before you pay — fewer chances to buy a ban and spam with a pretty name. An old domain is an option after verification, not a magic TOP button.",
+    "Check Wayback, backlinks, and the index before you pay — fewer chances to buy a ban and spam with a pretty name. An old domain is an option after verification, not a magic ranking button.",
   ],
   related: [
     "veb-arhiv",

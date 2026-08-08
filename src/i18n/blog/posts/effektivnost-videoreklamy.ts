@@ -8,14 +8,14 @@ export const effektivnostVideoreklamyEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/effektivnost-videoreklamy/cover-en.webp",
   excerpt:
-    "Video ad metrics by layer: impressions and viewability, VTR/CPV, reach and frequency; Brand Lift and surveys; conversions, promo codes, and assisted paths — without worshipping one CTR.",
+    "Video ad metrics by layer: impressions and viewability, VTR/CPV, reach and frequency; Brand Lift and surveys; conversions, promo codes, and assisted paths — without worshipping a single CTR.",
   lead: [
-    "You can’t honestly judge a video campaign by CTR alone: an impression ≠ a view, a view ≠ brand interest, interest ≠ a sale. The creative’s job (awareness or performance) sets the metric set.",
-    "Three layers: media (delivery and attention), marketing (brand perception), business (conversions and sales contribution). CPM figures / Brand Lift thresholds and survey prices from old guides go stale — check current platform terms; in RF also account for which ad accounts are available at launch time.",
+    "You can’t honestly judge a video campaign by CTR alone: an impression ≠ a view, a view ≠ brand interest, interest ≠ a sale. The creative’s job (awareness or performance) sets which metrics matter.",
+    "Three layers below: media (delivery and attention), marketing (brand perception), business (conversions and sales contribution). CPM figures, Brand Lift thresholds, and survey prices from old guides go stale — check current platform terms; in Russia also factor in which ad accounts are available at launch.",
   ],
   faq: [
     {
-      q: "Is watching CPV enough on its own?",
+      q: "Is CPV enough on its own?",
       a: "No. CPV says what a contact costs — not whether the viewer remembered the brand or bought.",
     },
     {
@@ -35,8 +35,8 @@ export const effektivnostVideoreklamyEn: BlogPost = {
       a: "Completion matters, but the viewer may have stayed distracted without skipping. Tie it to brand and the business goal.",
     },
     {
-      q: "Can I compare YouTube and other video networks head-to-head?",
-      a: "Carefully: different auctions, formats, and attribution. Compare contribution to your funnel — not “which platform is better in the abstract”.",
+      q: "Can I compare YouTube and Yandex Video Network head-to-head?",
+      a: "Carefully: different auctions, formats, and attribution. Compare contribution to your funnel — not “which platform is better in the abstract.”",
     },
   ],
   sections: [
@@ -46,7 +46,7 @@ export const effektivnostVideoreklamyEn: BlogPost = {
       paras: [
         "Impressions are the base of billing and scale — not proof the ad was seen. Viewability separates a “counted impression” from a real in-view contact.",
         "VTR (views as a share of impressions) and CPV (cost per view) are solid operational metrics. They don’t replace judging impact on behavior.",
-        "Reach and frequency (incl. unique reach) show how many unique users saw the message and how often. Without enough volume, reach models are unreliable; cookies and cross-device are approximations, not final truth.",
+        "Reach and frequency (including unique reach) show how many unique users saw the message and how often. Without enough volume, reach models are unreliable; cookies and cross-device are approximations, not final truth.",
       ],
       lists: [
         {
@@ -55,7 +55,7 @@ export const effektivnostVideoreklamyEn: BlogPost = {
             "campaign goal: brand / traffic / conversion",
             "frequency caps so you don’t burn the audience",
             "reporting on viewability and completions, not clicks only",
-            "creative with early brand appearance.",
+            "creative with early brand appearance",
           ],
         },
       ],
@@ -74,15 +74,15 @@ export const effektivnostVideoreklamyEn: BlogPost = {
       title: "Marketing metrics: brand and perception",
       level: 2,
       paras: [
-        "Brand Lift and similar studies compare awareness/preference/intent among exposed vs unexposed. Useful on large budgets; launch thresholds and stats collection windows are set by the platform — confirm what’s current.",
-        "“No Lift” often means weak creative: brand late or invisible, little identity, heavy “noise” from TV/other channels. Fix — earlier logo and message, frequency and targeting tweaks.",
-        "DIY surveys (panel-style tools and similar tools) are cheaper than lift studies but separate “exposed” worse. Handy before launch or for hypotheses — not as the campaign’s only KPI.",
+        "Brand Lift and similar studies compare awareness, preference, and intent among exposed vs unexposed. Useful on large budgets; launch thresholds and stats windows are set by the platform — confirm what’s current.",
+        "“No Lift” often means weak creative: brand late or invisible, little identity, heavy noise from TV or other channels. Fix — earlier logo and message, then frequency and targeting tweaks.",
+        "DIY surveys (panel-style tools and peers) cost less than lift studies but separate “exposed” worse. Handy before launch or for hypotheses — not as the campaign’s only KPI.",
       ],
       notes: [
         {
           title: "Tool availability",
-          text: "Service names, budget thresholds, and survey prices change. Don’t copy figures from 2019 articles — check account help and the platform manager.",
           kind: "tip",
+          text: "Service names, budget thresholds, and survey prices change. Don’t copy figures from 2019 articles — check account help and the platform manager.",
         },
       ],
     },
@@ -92,15 +92,15 @@ export const effektivnostVideoreklamyEn: BlogPost = {
       paras: [
         "Conversion tracking in the ad account (click / view / view-through — per platform rules) links video to leads and purchases. Set goals consistently and account for cross-device limits.",
         "A promo code in the creative is a simple way to see direct sales from the spot. Assisted conversions and paths in analytics show where video was a touch — not last-click.",
-        "Bottom line: effectiveness = help for the goal. For brand watch lift/brand search; for performance — CPA/ROAS and lead quality, not a “pretty” VTR in a vacuum.",
+        "Bottom line: effectiveness = help for the goal. For brand, watch lift and brand search; for performance — CPA/ROAS and lead quality, not a pretty VTR in a vacuum.",
       ],
       lists: [
         {
           intro: "Put in one table:",
           items: [
             "media: reach, frequency, viewability, VTR, CPV",
-            "brand: lift/surveys/brand search (if available)",
-            "business: conversions, promo codes, assisted paths, ROAS/CPA.",
+            "brand: lift / surveys / brand search (if available)",
+            "business: conversions, promo codes, assisted paths, ROAS/CPA",
           ],
         },
       ],
@@ -117,7 +117,7 @@ export const effektivnostVideoreklamyEn: BlogPost = {
     },
   ],
   closing: [
-    "Judge video ads in layers: first delivery and attention, then brand, then money. One metric won't tell the campaign story — build a panel for the creative’s job and keep platform metrics current.",
+    "Judge video ads in layers: first delivery and attention, then brand, then money. One metric won’t tell the campaign story — build a panel for the creative’s job and keep platform metrics current.",
   ],
   related: [
     "videoreklama-youtube",

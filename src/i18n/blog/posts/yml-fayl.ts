@@ -5,18 +5,18 @@ export const ymlFaylEn: BlogPost = {
   slug: "yml-fayl",
   title: "YML file for Yandex Market: why you need it and how to prepare it",
   date: "2020-10-20",
-  category: "E-commerce",
+  category: "Digital marketing",
   cover: "/images/blog/yml-fayl/cover-en.webp",
   excerpt:
-    "What an online store YML feed is, why it beats CSV/XLS on a large catalog, which fields matter, and how to load a price list into Market — without outdated account screenshots.",
+    "What an online store YML feed is, why it beats CSV/XLS on a large catalog, which fields matter, and how to load a price list into Market — without outdated cabinet screenshots.",
   lead: [
-    "YML (Yandex Market Language) is an XML product feed for Yandex Market and related scenarios. The platform uses it for names, prices, stock, links, and attributes to show the storefront and take orders under its rules.",
-    "Market account menus change — check current Yandex Help. Why YML beats manual spreadsheets, what the feed contains, and how to build and refresh it.",
+    "YML (Yandex Market Language) is an XML product feed for Yandex Market and related scenarios. The platform uses it for names, prices, availability, links, and attributes to show the storefront and take orders under its rules.",
+    "Below: why YML beats hand-edited tables, what the feed contains, and how to build and refresh it. Market cabinet menu items change — check current Yandex Help.",
   ],
   faq: [
     {
-      q: "Should I use YML, CSV, or XLS?",
-      a: "For a small manual catalog a spreadsheet can be enough. At hundreds of SKUs YML is easier: auto-refresh from CMS or ERP and richer attribute fields.",
+      q: "YML, CSV, or XLS?",
+      a: "For a small manual catalog a spreadsheet can be enough. At hundreds of SKUs YML is easier: auto-refresh from CMS or accounting and richer attribute fields.",
     },
     {
       q: "Can one feed serve every marketplace?",
@@ -24,7 +24,7 @@ export const ymlFaylEn: BlogPost = {
     },
     {
       q: "How often should I update the price list?",
-      a: "The more price and stock change — the more often. Stale availability hurts rating and returns. Aim for automatic updates, not once a month by hand.",
+      a: "The more price and inventory change — the more often. Stale availability hurts rating and returns. Aim for automatic updates, not once a month by hand.",
     },
     {
       q: "Do I need to write XML by hand?",
@@ -32,7 +32,7 @@ export const ymlFaylEn: BlogPost = {
     },
     {
       q: "What breaks moderation most often?",
-      a: "Empty required fields, broken links or photos, wrong categories, price or stock from the past, forbidden wording in the title.",
+      a: "Empty required fields, broken links or photos, wrong categories, price or availability from the past, forbidden wording in the title.",
     },
     {
       q: "Is YML the same as a Turbo feed?",
@@ -40,7 +40,7 @@ export const ymlFaylEn: BlogPost = {
     },
     {
       q: "Where can I see errors?",
-      a: "In the partner or Market account after feed upload and in moderation emails. Fix the data source, not only the file on disk.",
+      a: "In the partner or Market cabinet after feed upload and in moderation emails. Fix the data source, not only the file on disk.",
     },
   ],
   sections: [
@@ -48,16 +48,16 @@ export const ymlFaylEn: BlogPost = {
       title: "Why a store needs a Market feed",
       level: 2,
       paras: [
-        "Market shows products in comparison catalogs and related surfaces. Without a correct price list, cards won’t appear or will show wrong price and stock.",
+        "Market shows products in comparison catalogs and related surfaces. Without a correct price list, cards won’t appear or will show wrong price and availability.",
         "The feed is the bridge between your inventory system and the platform storefront: update price on site or warehouse → file updates → listing updates.",
       ],
       lists: [
         {
           intro: "Price-list formats:",
           items: [
-            "CSV — simple delimited text;",
-            "XLS or spreadsheet — easy to edit by hand on a small set;",
-            "YML — XML for Market, better for auto-export and attributes.",
+            "CSV — simple delimited text",
+            "XLS or spreadsheet — easy to edit by hand on a small set",
+            "YML — XML for Market, better for auto-export and attributes",
           ],
         },
       ],
@@ -73,12 +73,12 @@ export const ymlFaylEn: BlogPost = {
         {
           intro: "Keep each offer in order:",
           items: [
-            "stable product id;",
-            "working product-card url on your site;",
-            "current price and availability;",
-            "clear name (type plus model, no junk);",
-            "photos per platform rules;",
-            "category and key param fields.",
+            "stable product id",
+            "working product-card url on your site",
+            "current price and availability",
+            "clear name (type plus model, no junk)",
+            "photos per platform rules",
+            "category and key param fields",
           ],
         },
       ],
@@ -87,18 +87,18 @@ export const ymlFaylEn: BlogPost = {
       title: "How to create and upload the file",
       level: 2,
       paras: [
-        "Preferred path: store module or scheduled ERP export, file available at an HTTPS URL. Market then pulls updates itself.",
-        "Alternative — manual file upload in the account. Fine for tests, poor as the only process on a live catalog.",
+        "Preferred path: store module or scheduled export from accounting, file available at an HTTPS URL. Market then pulls updates itself.",
+        "Alternative — manual file upload in the cabinet. Fine for tests, poor as the only process on a live catalog.",
       ],
       lists: [
         {
           intro: "Order without old button names:",
           items: [
-            "assemble assortment and categories in the source of truth;",
-            "generate YML and validate XML;",
-            "open the feed URL from the server;",
-            "connect the price list in the Market account;",
-            "read moderation errors and fix the source.",
+            "assemble assortment and categories in the source of truth",
+            "generate YML and validate XML",
+            "open the feed URL from the server",
+            "connect the price list in the Market cabinet",
+            "read moderation errors and fix the source",
           ],
         },
       ],
@@ -114,7 +114,7 @@ export const ymlFaylEn: BlogPost = {
       level: 2,
       paras: [
         "After upload watch reports: unreachable URLs, empty images, duplicate ids, wrong currency. Moderation emails are a work signal, not spam.",
-        "Keep one source for prices and stock. Site and feed mismatch hurts trust more than missing another marketplace.",
+        "Keep one source for prices and inventory. Site and feed mismatch hurts trust more than missing another marketplace.",
       ],
       links: [
         {

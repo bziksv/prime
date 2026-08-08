@@ -3,7 +3,7 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for linkedin — same structure as RU JSON. */
 export const linkedinEn: BlogPost = {
   slug: "linkedin",
-  title: "LinkedIn for business: profile, hiring, and corporate presence",
+  title: "LinkedIn for business: profile, hiring, and company presence",
   date: "2020-12-17",
   category: "SMM",
   cover: "/images/blog/linkedin/cover-en.webp",
@@ -11,19 +11,23 @@ export const linkedinEn: BlogPost = {
     "How LinkedIn differs from entertainment networks, how to set a profile and company page, why the platform helps hiring and B2B contacts — without outdated Premium prices and button screenshots.",
   lead: [
     "LinkedIn is a professional network: specialist profiles, company pages, jobs, and professional content. People look for entertainment less often here — and more for work, contractors, and expertise.",
-    "Treat it as a hiring and B2B contacts channel, not another Instagram. A clear personal profile, a solid company page, and on-point messages matter more than Premium. UI and plans change — check current terms on the service site.",
+    "Below: why the platform matters for people and business, what counts in a profile and company page, where Premium fits, and how not to treat LinkedIn as “another Instagram.” UI and plans change — check current terms on the service site.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. Instagram* and Facebook* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Is LinkedIn only for job search?",
       a: "No. Also networking, expert content, hiring, partnerships, and B2B brand awareness. Jobs are a common scenario, not the only one.",
     },
     {
-      q: "How does LinkedIn differ from VK or Facebook?",
-      a: "Focus on career and competence, less everyday content. Tone is drier and more businesslike; “memes for reach” work weaker than usefulness and cases.",
+      q: "How does it differ from VK or Facebook?",
+      a: "Focus on career and competence, less everyday content. Tone is drier and more businesslike; “memes for discovery” work weaker than usefulness and cases.",
     },
     {
-      q: "Do I need LinkedIn Premium?",
+      q: "Do I need Premium?",
       a: "Not for everyone. It helps with active candidate/job search and richer analytics. A basic profile often covers presence and contacts.",
     },
     {
@@ -35,12 +39,12 @@ export const linkedinEn: BlogPost = {
       a: "One place for brand, jobs, and news; employees can link to the organization. It doesn’t replace the site — it’s a trust and hiring channel.",
     },
     {
-      q: "Is cold spam in LinkedIn messages OK?",
+      q: "Is cold spam in messages OK?",
       a: "Bad idea: reports, limits, and reputation hits. Write clearly, with context and respect for the other person’s time.",
     },
     {
       q: "Is LinkedIn relevant for RU business?",
-      a: "Depends on niche and client/hiring geography. For international B2B and IT hiring often useful; for local retail other channels usually rank higher.",
+      a: "Depends on niche and client/hiring geography. For international B2B and IT hiring often useful; for local retail other channels usually matter more.",
     },
   ],
   sections: [
@@ -55,10 +59,10 @@ export const linkedinEn: BlogPost = {
         {
           intro: "Main roles:",
           items: [
-            "job search and remote/international roles;",
-            "hiring and employer brand;",
-            "B2B networking and expertise;",
-            "company news for staff and the market.",
+            "job search and remote/international roles",
+            "hiring and employer brand",
+            "B2B networking and expertise",
+            "company news for staff and the market",
           ],
         },
       ],
@@ -74,11 +78,11 @@ export const linkedinEn: BlogPost = {
         {
           intro: "Profile checklist:",
           items: [
-            "photo and a clear headline;",
-            "experience with numbers/results where fit;",
-            "skills and (if possible) recommendations;",
-            "link to site/portfolio;",
-            "privacy settings for your goal.",
+            "photo and a clear headline",
+            "experience with numbers/results where they fit",
+            "skills and (if possible) recommendations",
+            "link to site/portfolio",
+            "privacy settings for your goal",
           ],
         },
       ],
@@ -88,16 +92,16 @@ export const linkedinEn: BlogPost = {
       level: 2,
       paras: [
         "A company page gathers description, news, jobs, and links to employees. Hiring often uses candidate-search filters and saved lists — features depend on account type and region.",
-        "Strength for HR — professional context and checkable career tracks. Weakness — expecting “viral reach” like entertainment networks: different rhythm and success metric here.",
+        "Strength for HR — professional context and checkable career tracks. Weakness — expecting viral discovery like entertainment networks: different rhythm and success metric here.",
       ],
       lists: [
         {
           intro: "Why business needs LinkedIn:",
           items: [
-            "show what you do and whom you hire;",
-            "strengthen trust via team profiles;",
-            "fill roles in competitive niches;",
-            "keep contact with partners and market experts.",
+            "show what you do and whom you hire",
+            "strengthen trust via team profiles",
+            "fill roles in competitive niches",
+            "keep contact with partners and market experts",
           ],
         },
       ],

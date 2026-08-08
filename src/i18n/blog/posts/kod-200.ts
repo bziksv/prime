@@ -11,8 +11,8 @@ export const kod200En: BlogPost = {
     "What HTTP 200 OK means, how it relates to indexing, why soft 404 behind a 200 is dangerous, and how to check that important URLs really return success.",
   lead: [
     "200 OK means the server successfully handled the request and returned content. For a page in search that’s the basic green light: the document can be read and considered for the index.",
-    "A 200 helps crawl, but soft-404 traps happen when the status says “success” and the page effectively isn’t there. Other codes are covered in the HTTP status article.",
-    "200 alone doesn’t guarantee TOP: it only says the response succeeded. Content, links, commercial factors, and competition do the rest.",
+    "Below: how 200 works, what it means for crawl, and traps when the status says “success” but the page effectively isn’t there. Other codes are covered in the HTTP status article.",
+    "200 alone doesn’t guarantee page one: it only says the response succeeded. Content, links, commercial factors, and competition do the rest.",
   ],
   faq: [
     {
@@ -29,7 +29,7 @@ export const kod200En: BlogPost = {
     },
     {
       q: "How does 200 differ from 304?",
-      a: "304 — “not modified”, use the cache. For SEO checks, look at both 200 and correct caching.",
+      a: "304 — “not modified,” use the cache. For SEO checks, look at both 200 and correct caching.",
     },
     {
       q: "Do you need 200 on a redirect?",
@@ -56,10 +56,10 @@ export const kod200En: BlogPost = {
         {
           intro: "Alongside headers, check:",
           items: [
-            "Content-Type;",
-            "cache (Cache-Control / ETag);",
-            "encoding;",
-            "unexpected Set-Cookie on static assets.",
+            "Content-Type",
+            "cache (Cache-Control / ETag)",
+            "encoding",
+            "unexpected Set-Cookie on static assets",
           ],
         },
       ],
@@ -81,17 +81,18 @@ export const kod200En: BlogPost = {
         {
           intro: "So 200 “works” for SEO:",
           items: [
-            "canonical points to this same URL;",
-            "no noindex on important pages;",
-            "content is unique and useful;",
-            "the page is in the sitemap if it should be indexed.",
+            "canonical points to this same URL",
+            "no noindex on important pages",
+            "content is unique and useful",
+            "the page is in the sitemap if it should be indexed",
           ],
         },
       ],
       notes: [
         {
           title: "Timelines",
-          text: "Fixing statuses is part of technical prep. Appearance and growth of rankings for a core after that is planned months — not the result of “everything is 200”.",
+          kind: "tip",
+          text: "Fixing statuses is part of technical prep. Appearance and growth of rankings for a core after that is planned months — not the result of “everything is 200.”",
         },
       ],
     },
@@ -106,10 +107,10 @@ export const kod200En: BlogPost = {
         {
           intro: "Where soft 404 shows up most:",
           items: [
-            "deleted product cards;",
-            "pagination “past the end”;",
-            "on-site search with no results;",
-            "outdated promo landings.",
+            "deleted product cards",
+            "pagination past the end",
+            "on-site search with no results",
+            "outdated promo landings",
           ],
         },
       ],
@@ -131,10 +132,10 @@ export const kod200En: BlogPost = {
         {
           intro: "Mini check for a landing:",
           items: [
-            "final code 200;",
-            "one canonical host;",
-            "content matches the query;",
-            "no hidden noindex.",
+            "final code 200",
+            "one canonical host",
+            "content matches the query",
+            "no hidden noindex",
           ],
         },
       ],
@@ -144,16 +145,16 @@ export const kod200En: BlogPost = {
       level: 2,
       paras: [
         "The chain should end meaningfully: old URL → 301 → new with 200. Don’t keep important documents on a forever 302.",
-        "During outages prefer an honest 503 with Retry-After over a “half-alive” 200 with broken layout — but fix long 5xx quickly too.",
+        "During outages prefer an honest 503 with Retry-After over a half-alive 200 with broken layout — but fix long 5xx quickly too.",
       ],
       lists: [
         {
           intro: "Pairs “when what”:",
           items: [
-            "page is alive → 200;",
-            "permanent move → 301 + 200 on the target;",
-            "gone for good → 404/410;",
-            "maintenance → 503.",
+            "page is alive → 200",
+            "permanent move → 301 + 200 on the target",
+            "gone for good → 404/410",
+            "maintenance → 503",
           ],
         },
       ],
@@ -172,25 +173,18 @@ export const kod200En: BlogPost = {
       title: "Practice for the team",
       level: 2,
       paras: [
-        "In the release Definition of Done: key templates return expected statuses. In the content process: removing a piece = a 301/410 decision, not “just drop it from the menu”.",
-        "That way 200 stays a signal that “the page exists and is useful” — not a universal stub.",
+        "In the release Definition of Done: key templates return expected statuses. In the content process: removing a piece = a 301/410 decision, not “just drop it from the menu.”",
+        "That way 200 stays a signal that the page exists and is useful — not a universal stub.",
       ],
       lists: [
         {
           intro: "Put in place:",
           items: [
-            "a URL list for smoke checks;",
-            "CMS rules for entity deletion;",
-            "an alert if home/catalog ≠ 200;",
-            "a soft-404 review in the audit quarterly.",
+            "a URL list for smoke checks",
+            "CMS rules for entity deletion",
+            "an alert if home/catalog ≠ 200",
+            "a soft-404 review in the audit quarterly",
           ],
-        },
-      ],
-      notes: [
-        {
-          title: "SEO note",
-          kind: "tip",
-          text: "Stable 200s are crawl hygiene. TOP for a commercial keyword set is still a planned 2–6 months of work after the site is ready.",
         },
       ],
     },

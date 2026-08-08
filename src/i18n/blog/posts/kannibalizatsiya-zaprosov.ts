@@ -10,8 +10,8 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
   excerpt:
     "When several site pages fight for one query, why it hurts, how to spot the conflict, and what to do: merge, separate intents, or strengthen one URL.",
   lead: [
-    "Query cannibalization is when several URLs on one site are optimized for the same (or almost the same) phrase and block each other in the SERP. Search engines can’t tell which document is primary; link equity and clicks get smeared.",
-    "Consequences show up in unstable rankings; prevent it during keyword research, find conflicts early, and fix them cleanly. Page duplicates are related; cannibalization is more about competing intents than copy-pasted HTML alone.",
+    "Keyword cannibalization is when several URLs on one site are optimized for the same (or nearly the same) phrase and block each other in the SERP. The engine can’t tell which document is primary; link equity and clicks get smeared.",
+    "Below: the fallout, prevention during keyword research, how to find conflicts, and how to fix them. Page duplicates are a related topic; cannibalization is more about competing intents than copy-pasted HTML alone.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
       a: "Duplicates — nearly identical content on different URLs. Cannibalization — different (or similar) pages fight for one query. They often overlap, but treatments differ.",
     },
     {
-      q: "Are two pages with one key always bad?",
+      q: "Are two pages with one keyword always bad?",
       a: "Not always. Sometimes intents differ (informational vs commercial). The problem is when meaning and snippets compete without separation.",
     },
     {
@@ -32,7 +32,7 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
     },
     {
       q: "What about an online store?",
-      a: "Category vs cards vs tags: different roles. Don’t push 10 lookalike listings with one head term. SKU/attributes in title help tell cards apart, but don’t replace clustering.",
+      a: "Category vs product cards vs tags: different roles. Don’t push ten lookalike listings with one head term. SKU/attributes in title help tell cards apart, but don’t replace clustering.",
     },
     {
       q: "Can I use canonical instead of deletion?",
@@ -43,13 +43,13 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
       a: "Core clustering: one main intent — one landing. Unique title/description. Strong internal linking to the cluster canon.",
     },
     {
-      q: "Is cannibalization a quick fix?",
-      a: "Diagnosis — days. Merges and reindexing — weeks. In parallel the site is prepared for promotion; TOP for the core — planned 2–6 months of work, not “after one redirect”.",
+      q: "Is it a quick fix?",
+      a: "Diagnosis — days. Merges and reindexing — weeks. In parallel you prepare the site for promotion; page-one share for the core is planned over 2–6 months of work — not “after one redirect.”",
     },
   ],
   sections: [
     {
-      title: "What query cannibalization is",
+      title: "What keyword cannibalization is",
       level: 2,
       paras: [
         "You optimize several pages for one phrase: matching titles, overlapping copy, similar anchors. For the bot that’s several candidates without a clear leader.",
@@ -59,10 +59,10 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
         {
           intro: "Typical sources:",
           items: [
-            "a blog post + a commercial service under one head term;",
-            "two categories/tags with one meaning;",
-            "filters and sorts in the index;",
-            "landing copies “for every key” without unique value.",
+            "a blog post + a commercial service under one head term",
+            "two categories/tags with one meaning",
+            "filters and sorts in the index",
+            "landing copies “for every keyword” without unique value",
           ],
         },
       ],
@@ -78,16 +78,16 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
       level: 2,
       paras: [
         "Relevance blurs: the SERP may show the wrong landing (lower conversion, higher bounce). Internal and external links split equity among in-site competitors instead of strengthening one URL.",
-        "In analytics, goals are “smeared” across pages — harder to measure content and link effect. Users see lookalike snippets from one domain and trust the structure less.",
+        "In analytics, goals are smeared across pages — harder to measure content and link effect. Users see lookalike snippets from one domain and trust the structure less.",
       ],
       lists: [
         {
           intro: "Effects:",
           items: [
-            "jumping URLs in the top for one phrase;",
-            "weaker total click than one leader;",
-            "wasted spend on links “to nowhere”;",
-            "confusion in the content plan and writer briefs.",
+            "jumping URLs near the top for one phrase",
+            "weaker total click than one leader",
+            "wasted spend on links that go nowhere",
+            "confusion in the content plan and writer briefs",
           ],
         },
       ],
@@ -104,16 +104,16 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
       level: 2,
       paras: [
         "Keyword research and clustering before mass publish: one landing — one main intent. Title and description unique. Section and blog map aligned.",
-        "Don’t spawn “almost identical” landings for every key variation. Better one strong URL with a natural long-tail than ten thin copies.",
+        "Don’t spawn almost identical landings for every keyword variation. Better one strong URL with a natural long-tail than ten thin copies.",
       ],
       lists: [
         {
           intro: "Content-plan rules:",
           items: [
-            "cluster → one canon URL;",
-            "adjacent phrases — in the canon’s H2/FAQ, not new URLs without need;",
-            "commercial and info — different URLs if intent differs;",
-            "before publish — search “do we already have a page on this”.",
+            "cluster → one canon URL",
+            "adjacent phrases — in the canon’s H2/FAQ, not new URLs without need",
+            "commercial and info — different URLs if intent differs",
+            "before publish — search “do we already have a page on this”",
           ],
         },
       ],
@@ -132,17 +132,17 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
       title: "How to find cannibalization",
       level: 2,
       paras: [
-        "Small site: a URL × main key × title table. Hunt repeats. In the SERP: `site:` + phrase; Webmaster/GSC — which URLs get impressions for the query.",
+        "Small site: a URL × main keyword × title table. Hunt repeats. In the SERP: `site:` + phrase; Webmaster/GSC — which URLs get impressions for the query.",
         "A crawler and rank reports show several URLs with overlapping queries. Audit tools sometimes highlight “keyword cannibalization” — treat as a hypothesis and verify intent by hand.",
       ],
       lists: [
         {
           intro: "Diagnosis:",
           items: [
-            "two+ URLs in the top-20 for one phrase;",
-            "frequent URL swaps in the SERP;",
-            "nearly identical titles;",
-            "internal linking with one anchor to different targets.",
+            "two+ URLs in the top 20 for one phrase",
+            "frequent URL swaps in the SERP",
+            "nearly identical titles",
+            "internal linking with one anchor to different targets",
           ],
         },
       ],
@@ -161,18 +161,18 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
       title: "How to resolve the conflict",
       level: 2,
       paras: [
-        "Pick the cluster winner (traffic, conversion, links, completeness). The rest: 301 to the canon, or change intent/keys, or noindex/canonical — by URL role.",
+        "Pick the cluster winner (traffic, conversion, links, completeness). The rest: 301 to the canon, or change intent/keywords, or noindex/canonical — by URL role.",
         "Strengthen the canon: content, linking, external links to it. For a store: clearly separate category, card, and filter; don’t index endless parameter combos.",
       ],
       lists: [
         {
           intro: "Treatment options:",
           items: [
-            "301 the extra onto the strong URL;",
-            "canonical if both URLs are needed in the UI;",
-            "separate topics (rewrite for another intent);",
-            "merge texts into one piece;",
-            "fix internal-link anchors.",
+            "301 the extra onto the strong URL",
+            "canonical if both URLs are needed in the UI",
+            "separate topics (rewrite for another intent)",
+            "merge texts into one piece",
+            "fix internal-link anchors",
           ],
         },
       ],
@@ -183,8 +183,8 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
           rows: [
             ["Copy / obsolete landing", "301 to the canon"],
             ["Both URLs needed in the UI", "canonical + clear intent"],
-            ["Info and commercial overlapped", "Separate copy and keys"],
-            ["Thin “for every key” pages", "Merge into one strong URL"],
+            ["Info and commercial overlapped", "Separate copy and keywords"],
+            ["Thin “for every keyword” pages", "Merge into one strong URL"],
           ],
         },
       ],
@@ -207,18 +207,18 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
       title: "Control after fixes",
       level: 2,
       paras: [
-        "Request recrawl of the canon and merged URLs. Watch whether the URL stabilized in the SERP and whether total cluster visibility grew. Don’t expect instant TOP: first the address “jump” fades, then the rank builds.",
+        "Request recrawl of the canon and merged URLs. Watch whether the URL stabilized in the SERP and whether total cluster visibility grew. Don’t expect an instant page-one jump: first the address swap fades, then the rank builds.",
         "Return to the content plan: ban spawning duplicate clusters without review. Once a quarter — selective head-term checks for multiple URLs.",
       ],
       lists: [
         {
           intro: "Case-close checklist:",
           items: [
-            "canon chosen and strengthened;",
-            "redirects/canonical work;",
-            "sitemap without extra URLs;",
-            "linking points to the canon;",
-            "in GSC/Webmaster impressions converge on one URL.",
+            "canon chosen and strengthened",
+            "redirects/canonical work",
+            "sitemap without extra URLs",
+            "linking points to the canon",
+            "in GSC/Webmaster impressions converge on one URL",
           ],
         },
       ],

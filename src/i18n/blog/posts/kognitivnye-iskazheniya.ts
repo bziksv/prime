@@ -8,10 +8,10 @@ export const kognitivnyeIskazheniyaEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/kognitivnye-iskazheniya/cover-en.webp",
   excerpt:
-    "Mere exposure, loss aversion, compromise, framing, the IKEA effect, and trust signals — how to account for choice psychology in offer and UX without dark patterns.",
+    "Mere exposure, loss aversion, compromise, framing, the IKEA effect, and trust signals — how to use choice psychology in offers and UX without dark patterns.",
   lead: [
     "Buyers rarely choose in a perfectly rational way. Brand familiarity, fear of missing out, the set of prices on the shelf, and how the promise is worded all shape the decision.",
-    "Six well-known effects help you explain value more clearly, honestly remove risk, and help people compare packages — without dark patterns. Don’t treat CTR or reach figures from old case studies as a norm; run your own tests. Fake urgency and hidden terms still wreck trust.",
+    "Below: six well-known effects and how to apply them ethically — explain value more clearly, honestly remove risk, help people compare packages. Don’t treat CTR or reach figures from old reviews as a norm; run your own tests. Fake urgency and hidden terms still wreck trust and reputation.",
   ],
   faq: [
     {
@@ -23,7 +23,7 @@ export const kognitivnyeIskazheniyaEn: BlogPost = {
       a: "Familiar products and brands get more trust. Repeat touches (content, retargeting) work if they don’t spam.",
     },
     {
-      q: "Why is fear of loss stronger than the promise of a gain?",
+      q: "Why is fear of loss stronger than a gain?",
       a: "Kahneman and Tversky’s research: losses feel sharper. An honest trial and a real promo deadline help; a fake countdown doesn’t.",
     },
     {
@@ -35,7 +35,7 @@ export const kognitivnyeIskazheniyaEn: BlogPost = {
       a: "The same substance in different wording is perceived differently. Tell the truth, choosing a gain or risk angle — don’t distort facts.",
     },
     {
-      q: "How does the IKEA effect show up in digital products?",
+      q: "How does the IKEA effect show up online?",
       a: "People value more what they invested in: configurator, quiz, option picks. Involve them in setup — not a pointless quest.",
     },
   ],
@@ -51,10 +51,10 @@ export const kognitivnyeIskazheniyaEn: BlogPost = {
         {
           intro: "Ethical minimum:",
           items: [
-            "retargeting with a frequency cap;",
-            "trial without a hidden subscription;",
-            "deadlines only when real;",
-            "promo terms readable before payment.",
+            "retargeting with a frequency cap",
+            "trial without a hidden subscription",
+            "deadlines only when real",
+            "promo terms readable before payment",
           ],
         },
       ],
@@ -106,10 +106,10 @@ export const kognitivnyeIskazheniyaEn: BlogPost = {
         {
           intro: "Trust points on the site:",
           items: [
-            "contacts and legal info;",
-            "relevant reviews and case studies;",
-            "return and warranty terms;",
-            "HTTPS and familiar payment methods.",
+            "contacts and legal info",
+            "relevant reviews and case studies",
+            "return and warranty terms",
+            "HTTPS and familiar payment methods",
           ],
         },
       ],

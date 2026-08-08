@@ -11,7 +11,7 @@ export const semKasaniyEn: BlogPost = {
     "Why one channel isn’t enough: a user’s digital day, the 7-touch hypothesis, and how to build a chain of display, search, social, and retarget to a lead — without a magical “exactly seven”.",
   lead: [
     "In a day a person touches dozens of screens: messengers, email, search, video, social, niche sites. Pure search takes a small share of online time — one “perfect” ad is often not enough for an unknown brand to be bought on the first click.",
-    "The 7-touch hypothesis says several meaningful interactions are needed before the goal action. It’s a guide, not a law of physics. Here’s where to catch attention through the day and how to link channels. Who your audience is belongs in a separate article; here we focus on how to reach them.",
+    "The 7-touch hypothesis says several meaningful interactions are needed before the goal action. It’s a guide, not a law of physics. Below: where to catch attention through the day and how to link channels. Who your audience is belongs in a separate article; here we focus on how to reach them.",
   ],
   faq: [
     {
@@ -32,7 +32,7 @@ export const semKasaniyEn: BlogPost = {
     },
     {
       q: "Do lookalikes work?",
-      a: "As an expansion of a warm seed — yes. As the only channel without offer and landing — rarely.",
+      a: "As an expansion of a warm source audience — yes. As the only channel without offer and landing — rarely.",
     },
     {
       q: "How do I measure synergy?",
@@ -51,9 +51,9 @@ export const semKasaniyEn: BlogPost = {
         {
           intro: "Day slices (a guide):",
           items: [
-            "morning — short touches, reminder, usefulness;",
-            "day — search, email, solving a task;",
-            "evening — content, video, social, comparing options.",
+            "morning — short touches, reminder, usefulness",
+            "day — search, email, solving a task",
+            "evening — content, video, social, comparing options",
           ],
         },
       ],
@@ -73,7 +73,7 @@ export const semKasaniyEn: BlogPost = {
       level: 2,
       paras: [
         "On an unknown site from a cold ad, conversion is usually low: people need to learn the brand, compare, come back. Exceptions — cheap impulse goods and already-formed demand.",
-        "Display and content raise awareness; search and retarget more often “close”. Cutting the top of the funnel over a weak last click is a common mistake — see assisted conversions.",
+        "Display and content raise awareness; search and retarget more often “close”. Cutting early-funnel spend over a weak last click is a common mistake — see assisted conversions.",
       ],
       links: [
         {
@@ -93,12 +93,12 @@ export const semKasaniyEn: BlogPost = {
         {
           intro: "What counts as a touch:",
           items: [
-            "display/video impression or click;",
-            "a social post or ad;",
-            "email or push with consent;",
-            "a visit from search / to the site;",
-            "retarget with a new message;",
-            "offline: signage, call, store visit.",
+            "display/video impression or click",
+            "a social post or ad",
+            "email or push with consent",
+            "a visit from search / to the site",
+            "retarget with a new message",
+            "offline: signage, call, store visit",
           ],
         },
       ],
@@ -124,19 +124,19 @@ export const semKasaniyEn: BlogPost = {
         {
           intro: "Launch order:",
           items: [
-            "audience portrait and one clear promise;",
-            "a landing matched to traffic temperature;",
-            "2–3 channels + retarget;",
-            "consistent UTMs and goals;",
-            "test length ≥ decision cycle.",
+            "audience portrait and one clear promise",
+            "a landing matched to traffic temperature",
+            "2–3 channels + retarget",
+            "consistent UTMs and goals",
+            "test length ≥ decision cycle",
           ],
         },
       ],
       notes: [
         {
-          title: "Important",
-          text: "We mention social and messengers as channel types. Choosing a specific platform depends on rules and legal limits in your jurisdiction; this material is informational.",
+          title: "Note",
           kind: "tip",
+          text: "We mention social and messengers as channel types. Choosing a specific platform depends on rules and legal limits in your jurisdiction; this material is informational.",
         },
       ],
       links: [
@@ -157,10 +157,10 @@ export const semKasaniyEn: BlogPost = {
         {
           intro: "Check:",
           items: [
-            "the message changes by stage;",
-            "retarget doesn’t annoy with frequency;",
-            "people search the brand after campaigns;",
-            "you don’t cut the “top” on last click alone.",
+            "the message changes by stage",
+            "retarget doesn’t annoy with frequency",
+            "people search the brand after campaigns",
+            "you don’t cut early-funnel channels on last click alone",
           ],
         },
       ],

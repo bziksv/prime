@@ -8,10 +8,10 @@ export const emailDlyaBiznesaEn: BlogPost = {
   category: "Email marketing",
   cover: "/images/blog/email-dlya-biznesa/cover-en.webp",
   excerpt:
-    "Who needs email: service vs product, B2B and B2C, the role at different growth stages, and why buyer personas matter — without one “recipe for everyone.”",
+    "Who needs email: service vs product, B2B and B2C, the role at different growth stages, and why buyer personas matter — without one recipe for everyone.",
   lead: [
-    "Email isn’t “the same for every company.” For a service it’s often closer to client care; for a product brand — to awareness and retail support; for B2B — to a long deal cycle.",
-    "How to tell if the channel fits you: business type, B2B/B2C rules, life-cycle stage, and buyer personas. A newsletter without consent and an offer won’t save the model.",
+    "Email isn’t the same for every company. For a service it’s often closer to client care; for a product brand — to awareness and retail support; for B2B — to a long deal cycle.",
+    "Below: how to tell if the channel fits you — business type, B2B/B2C rules, life-cycle stage, and buyer personas. A newsletter without consent and an offer won’t save the model.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const emailDlyaBiznesaEn: BlogPost = {
     },
     {
       q: "Are B2B and B2C emails different?",
-      a: "Yes. B2B more often means value, cases, service terms; B2C — offer, emotion, and more careful frequency.",
+      a: "Yes. B2B more often means value, cases, and service terms; B2C — offer, emotion, and more careful frequency.",
     },
     {
       q: "Does email work for a manufacturer without direct sales?",
@@ -56,9 +56,9 @@ export const emailDlyaBiznesaEn: BlogPost = {
       title: "Service, product, B2B, and B2C",
       level: 2,
       paras: [
-        "Service companies more often walk the client through the full chain: booking, reminder, upsell, review. Product brands often need to explain value and support distribution; direct email to the end buyer — if you have your own list or co-marketing with retail.",
+        "Service companies more often walk the client through the full chain: booking, reminder, upsell, review. Product brands often need to explain value and support distribution; direct email to the end buyer works if you have your own list or co-marketing with retail.",
         "B2B is built on long relationships: lines, service terms, packages, expertise. B2C — shorter cycle, stronger offer role, and careful frequency or you get unsubscribes.",
-        "For industry and project businesses personal contact is critical; email complements a manager — it doesn’t replace them.",
+        "For industry and project businesses, personal contact is critical; email complements a manager — it doesn’t replace them.",
       ],
       lists: [
         {
@@ -67,8 +67,8 @@ export const emailDlyaBiznesaEn: BlogPost = {
             "repeat purchases and subscription",
             "long B2B nurture",
             "service reminders",
-            "SaaS/digital product onboarding",
-            "loyalty and reactivation.",
+            "SaaS / digital product onboarding",
+            "loyalty and reactivation",
           ],
         },
       ],
@@ -104,7 +104,7 @@ export const emailDlyaBiznesaEn: BlogPost = {
   ],
   notes: {
     title: "Important",
-    text: "This article is a frame for choosing the channel — not a profit promise “from the newsletter.” Pushy promos without opt-in hurt the brand and deliverability.",
+    text: "This article is a frame for choosing the channel — not a profit promise from the newsletter. Pushy promos without opt-in hurt the brand and deliverability.",
   },
   closing: [
     "If you have repeat touches and consent for emails — email almost always belongs in the funnel; if there’s no list and deals are one-off without nurture — first product and opt-in, not an “urgent blast.”",

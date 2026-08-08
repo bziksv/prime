@@ -5,13 +5,13 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
   slug: "statistika-google-prodazhi",
   title: "Google stats for sales: Keyword Planner, Trends, and Analytics",
   date: "2020-07-30",
-  category: "Analytics",
+  category: "Digital marketing",
   cover: "/images/blog/statistika-google-prodazhi/cover-en.webp",
   excerpt:
     "How to use Keyword Planner, Google Trends, and Analytics to gauge demand, seasonality, and channel performance — for SEO, ads, and sales forecasting.",
   lead: [
-    "Search and analytics numbers don’t “sell by themselves,” but they help with three jobs: what to push on the site, when to boost ads, and which queries actually lead to money. In Google’s stack that usually means Keyword Planner, Trends, and Analytics (today’s GA4 logic).",
-    "We cover why search stats matter in marketing, how to read Planner and Trends without treating “exact” impression counts as gospel, where Analytics fits, and when third-party collectors help. For an RU audience, Yandex Wordstat stays a required parallel track next to Google — see also the core and frequency articles.",
+    "Search and analytics numbers don’t sell by themselves, but they help with three jobs: what to push on the site, when to boost ads, and which queries actually lead to money. In Google’s stack that usually means Keyword Planner, Trends, and Analytics (today’s GA4 logic).",
+    "Below: why search stats matter in marketing, how to read Planner and Trends without treating “exact” impression counts as gospel, where Analytics fits, and when third-party collectors help. For an RU audience, Yandex Wordstat stays a required parallel track next to Google — see also the keyword-set and frequency articles.",
   ],
   faq: [
     {
@@ -40,7 +40,7 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
     },
     {
       q: "Are third-party tools required?",
-      a: "No. Useful for export and clustering. Paid licenses pay off with regular core work — not “for one spreadsheet.”",
+      a: "No. Useful for export and clustering. Paid licenses pay off with regular keyword-set work — not for one spreadsheet.",
     },
     {
       q: "How does this tie to sales?",
@@ -52,16 +52,16 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
       title: "Why marketing needs search stats",
       level: 2,
       paras: [
-        "Three practical uses: gather and prioritize site semantics, prep a Google Ads start, gauge seasonality and regional demand before buying or promos. Without numbers it’s easy to spend on a pretty theme with no demand.",
+        "Three practical uses: gather and prioritize site keywords, prep a Google Ads start, gauge seasonality and regional demand before buying or promos. Without numbers it’s easy to spend on a pretty theme with no demand.",
         "Example: a bike-accessories shop. Planner suggests volumes and related wording, Trends shows which months interest rises, Analytics shows which queries and channels already fill the cart. Decisions feed the content plan, bids, and assortment.",
       ],
       lists: [
         {
           intro: "Three data tracks:",
           items: [
-            "Keyword Planner — key ideas and Ads demand/competition estimates;",
-            "Trends — interest over time and by region;",
-            "Analytics — what actually hit the site and converted.",
+            "Keyword Planner — key ideas and Ads demand/competition estimates",
+            "Trends — interest over time and by region",
+            "Analytics — what actually hit the site and converted",
           ],
         },
       ],
@@ -77,21 +77,21 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
       ],
     },
     {
-      title: "Google Keyword Planner: demand and the core",
+      title: "Google Keyword Planner: demand and the keyword set",
       level: 2,
       paras: [
         "In Google Ads open Keyword Planner: ideas by product/site and forecasts for a keyword list. Watch average impressions, competition, bid guides, and wording variants. Numbers are planning estimates — not gospel down to the last digit.",
-        "Set geo and language. Negatives and filters cut junk (“used”, competitor brands). Remember match types: broad estimates include variations — for a precise core, cluster by hand or in a collector.",
+        "Set geo and language. Negatives and filters cut junk (“used,” competitor brands). Remember match types: broad estimates include variations — for a precise set, cluster by hand or in a collector.",
       ],
       lists: [
         {
           intro: "What to take from Planner:",
           items: [
-            "candidate list for the core;",
-            "rough competition and CPC;",
-            "seasonal hints from the chart (if available);",
-            "landing ideas for mid/long-tail;",
-            "hypotheses for Ads creatives.",
+            "candidate list for the keyword set",
+            "rough competition and CPC",
+            "seasonal hints from the chart (if available)",
+            "landing ideas for mid/long-tail",
+            "hypotheses for Ads creatives",
           ],
         },
       ],
@@ -99,7 +99,7 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
         {
           title: "Common mistake",
           kind: "tip",
-          text: "Grabbing top head “buy …” terms with no landing or offer. Intent and page first, budget second.",
+          text: "Grabbing head “buy …” terms with no landing or offer. Intent and page first, budget second.",
         },
       ],
       tables: [
@@ -108,7 +108,7 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
           headers: ["Field", "Why it matters"],
           rows: [
             ["Impressions / month", "Demand guide, often a range"],
-            ["Competition", "Ads density — not “SEO difficulty”"],
+            ["Competition", "Ads density — not SEO difficulty"],
             ["Bid", "Auction forecast — not organic cost"],
             ["Keyword variants", "Cluster and negative ideas"],
           ],
@@ -126,17 +126,17 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
         {
           intro: "Practical Trends scenarios:",
           items: [
-            "when to boost ads and content;",
-            "which regions look stronger;",
-            "comparing two product categories;",
-            "checking a “dead” season;",
-            "monitoring interest after a launch.",
+            "when to boost ads and content",
+            "which regions look stronger",
+            "comparing two product categories",
+            "checking a dead season",
+            "monitoring interest after a launch",
           ],
         },
       ],
       notes: [
         {
-          title: "Tip",
+          title: "Practice",
           kind: "tip",
           text: "Cross-check Trends with your sales and stock: search often leads or lags actual purchases — depends on the niche.",
         },
@@ -153,11 +153,11 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
         {
           intro: "Minimum link to demand stats:",
           items: [
-            "goals/key events configured;",
-            "UTMs on ads consistent;",
-            "landings match key intent;",
-            "weekly channel and conversion review;",
-            "content-plan hypotheses for weak URLs.",
+            "goals/key events configured",
+            "UTMs on ads consistent",
+            "landings match key intent",
+            "weekly channel and conversion review",
+            "content hypotheses for weak URLs",
           ],
         },
       ],
@@ -176,17 +176,17 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
       title: "Third-party collectors and Wordstat",
       level: 2,
       paras: [
-        "Key Collector and peers help with export, grouping, and several sources at once. License cost pays off with regular core work. A one-off project often needs only Wordstat + Planner + a spreadsheet.",
+        "Key Collector and peers help with export, grouping, and several sources at once. License cost pays off with regular keyword-set work. A one-off project often needs only Wordstat + Planner + a spreadsheet.",
         "Don’t chase “exact Google query counts” from shady SERP scrapers — fragile and risky. Prefer official APIs/consoles and your own ad data.",
       ],
       lists: [
         {
           intro: "When the free track is enough:",
           items: [
-            "small core and one region;",
-            "niche hypothesis kickoff;",
-            "seasonality check in Trends;",
-            "cross-check with Wordstat for Yandex.",
+            "small keyword set and one region",
+            "niche hypothesis kickoff",
+            "seasonality check in Trends",
+            "cross-check with Wordstat for Yandex",
           ],
         },
       ],
@@ -202,17 +202,17 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
       level: 2,
       paras: [
         "Gather candidates in Planner/Wordstat → filter intent → check season in Trends → assign landings and offers → publish content and run Ads → measure in Analytics and CRM. Iteration beats one perfect spreadsheet.",
-        "SEO landing prep — weeks; organic growth for the core — month to month, planned 2–6 months to noticeable TOP. Ads give a faster learning sample on keywords, but don’t replace page quality.",
+        "SEO landing prep takes weeks. Organic growth for the keyword set builds month to month — planned 2–6 months to noticeable page-one visibility. Ads give a faster learning sample on keywords, but don’t replace page quality.",
       ],
       lists: [
         {
           intro: "Loop checklist:",
           items: [
-            "core and negatives;",
-            "season and region;",
-            "landing per cluster;",
-            "goal in analytics;",
-            "review in 1–2 weeks and adjust.",
+            "keyword set and negatives",
+            "season and region",
+            "landing per cluster",
+            "goal in analytics",
+            "review in one or two weeks and adjust",
           ],
         },
       ],
@@ -220,7 +220,7 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
         {
           title: "Timelines",
           kind: "tip",
-          text: "Stats help pick a theme. Organic TOP is a separate horizon after prep — Planner numbers ≠ rankings.",
+          text: "Stats help pick a theme. Organic page-one visibility is a separate horizon after prep — Planner numbers are not rankings.",
         },
       ],
       links: [

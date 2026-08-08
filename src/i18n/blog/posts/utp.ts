@@ -11,7 +11,7 @@ export const utpEn: BlogPost = {
     "What a USP is, how it differs from a promo and a slogan, how to phrase your edge vs competitors, and how to test the line on a landing page and in ads.",
   lead: [
     "A USP (unique selling proposition) is short and concrete: why a customer picks you over a neighbor in the niche. It’s not a “−20% until Friday” discount and not an abstract slogan like “quality and reliability.”",
-    "Without a target audience there’s no strong USP: first who you sell to, then how you differ. Positioning sets the brand’s place in the mind; a USP is the concrete line that backs that place in ads and on the site.",
+    "Below: how a USP differs from positioning and promos, what to build it from, and how to test it. Without a target audience there’s no strong USP: first who you sell to, then how you differ.",
   ],
   faq: [
     {
@@ -55,10 +55,10 @@ export const utpEn: BlogPost = {
         {
           intro: "A USP is usually about:",
           items: [
-            "benefit or outcome for the customer;",
-            "difference from typical alternatives;",
-            "proof or condition (deadline, guarantee, niche);",
-            "a clear “for whom” segment.",
+            "benefit or outcome for the customer",
+            "difference from typical alternatives",
+            "proof or condition (deadline, guarantee, niche)",
+            "a clear “for whom” segment",
           ],
         },
       ],
@@ -80,11 +80,11 @@ export const utpEn: BlogPost = {
         {
           intro: "A working order:",
           items: [
-            "describe the product and limits honestly;",
-            "describe the segment and its pain;",
-            "list differences vs 3–5 competitors;",
-            "pick 1–2 strong differences;",
-            "compress into a phrase + short proof.",
+            "describe the product and limits honestly",
+            "describe the segment and its pain",
+            "list differences vs three to five competitors",
+            "pick one or two strong differences",
+            "compress into a phrase + short proof",
           ],
         },
       ],
@@ -100,18 +100,18 @@ export const utpEn: BlogPost = {
         {
           intro: "Directions for a draft:",
           items: [
-            "how you’re better than typical alternatives;",
-            "what you don’t have (and that’s a plus: no hidden fees, no long contracts);",
-            "what’s unique in process or service;",
-            "which segment sees you as “theirs”;",
-            "what guarantee you can put in writing.",
+            "how you’re better than typical alternatives",
+            "what you don’t have (and that’s a plus: no hidden fees, no long contracts)",
+            "what’s unique in process or service",
+            "which segment sees you as “theirs”",
+            "what guarantee you can put in writing",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
-          kind: "tip",
+          kind: "warning",
           text: "“Quality, individuality, best prices” is not a USP. Those are unverifiable generics. Replace with a number, deadline, niche, or condition.",
         },
       ],
@@ -121,15 +121,15 @@ export const utpEn: BlogPost = {
       level: 2,
       paras: [
         "If competitors can honestly write the same — it’s not a USP yet. If you can’t deliver the promise at peak load — don’t put it in ads either.",
-        "Human check: show the line to managers and 3–5 clients. Ask: “Is it clear how we differ?” and “Would you believe it?” Big-brand creative lines have softer rules; for small business, clarity and truth matter more.",
+        "Human check: show the line to managers and three to five clients. Ask: “Is it clear how we differ?” and “Would you believe it?” Big-brand creative lines have softer rules; for small business, clarity and truth matter more.",
       ],
       lists: [
         {
           intro: "A four-question test:",
           items: [
-            "is it concrete (deadline, segment, result)?;",
-            "does the audience care?;",
-            "does it set you apart from competitors?;",
+            "is it concrete (deadline, segment, result)?",
+            "does the audience care?",
+            "does it set you apart from competitors?",
             "can you back it with a case or condition?",
           ],
         },
@@ -142,7 +142,6 @@ export const utpEn: BlogPost = {
         "On the site — first screen and next to the CTA. In ads — headline or first line. In a proposal — at the start, before the price list. In the script — the answer to “how are you better?”",
         "Align the USP with awareness stages: cold traffic needs pain and outcome first; warm — difference and proof; hot — offer and risk removal.",
       ],
-      lists: [],
       links: [
         {
           label: "Awareness ladder",
@@ -159,13 +158,12 @@ export const utpEn: BlogPost = {
       ],
     },
     {
-      title: "Direction examples (don’t copy 1:1)",
+      title: "Direction examples (don’t copy one-to-one)",
       level: 2,
       paras: [
-        "“Bookkeeping for IT companies with foreign-currency contracts” — narrow segment. “Pump repair with a 4-hour city visit and a 12-month guarantee” — deadline + guarantee. “B2B SEO with lead reporting, not only rankings” — result criterion.",
+        "“Bookkeeping for IT companies with foreign-currency contracts” — narrow segment. “Pump repair with a four-hour city visit and a 12-month guarantee” — deadline + guarantee. “B2B SEO with lead reporting, not only rankings” — result criterion.",
         "Your version must rest on business facts. Someone else’s strong example without your ops reality becomes a lie in ads.",
       ],
-      lists: [],
     },
   ],
   closing: [

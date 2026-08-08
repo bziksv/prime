@@ -11,7 +11,7 @@ export const obratnyyZvonokEn: BlogPost = {
     "“Call me back” forms and callback widgets: how they differ, when they help sales, and what to check when choosing — without aggressive popups and ads for one vendor.",
   lead: [
     "A website callback is a way to connect a visitor with a manager quickly: the person leaves a phone number and gets a call back. There is a simple form into CRM/email and services that bridge calls almost at once.",
-    "It fits when a live talk closes objections — not when a popup hunts every exit. Below: how a form differs from “we’ll call in N seconds,” and how to keep UX calm. Specific widget plans and prices age out — check vendors.",
+    "Below: when it’s a fit, how a form differs from “we’ll call in N seconds,” and how not to wreck UX with aggressive popups. Specific widget plans and brands change — compare current terms yourself.",
   ],
   faq: [
     {
@@ -23,7 +23,7 @@ export const obratnyyZvonokEn: BlogPost = {
       a: "No. For complex expensive services a live talk often helps. For a simple order a form, messenger, or clickable phone is sometimes enough.",
     },
     {
-      q: "Will a callback widget raise conversion by a fixed percent?",
+      q: "Will it raise conversion “by an order of magnitude”?",
       a: "Don’t promise yourself that. A fast reply helps keep a warm lead, but the result depends on the offer, manager speed, and niche.",
     },
     {
@@ -31,8 +31,8 @@ export const obratnyyZvonokEn: BlogPost = {
       a: "If they block reading and closing the tab — they annoy and raise bounce. A widget should help, not chase.",
     },
     {
-      q: "How do you measure callback effect?",
-      a: "Metrica goals on submit/successful call, call recordings, share of leads that become sales. Without analytics a widget is decoration.",
+      q: "How do you measure the effect?",
+      a: "Analytics goals on submit/successful call, call recordings, share of leads that become sales. Without analytics a widget is decoration.",
     },
   ],
   sections: [
@@ -68,7 +68,7 @@ export const obratnyyZvonokEn: BlogPost = {
             "managers answer within a clear SLA",
             "the client needs to pick a call time",
             "budget won’t cover separate widget telephony",
-            "CRM and lead routing already exist.",
+            "CRM and lead routing already exist",
           ],
         },
       ],
@@ -87,15 +87,15 @@ export const obratnyyZvonokEn: BlogPost = {
             "fewer lost leads from forgetfulness",
             "call recording and reports at many services",
             "analytics goals can be attached",
-            "handy on “hot” pages (prices, services).",
+            "handy on “hot” pages (prices, services)",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Common mistake",
           text: "Turning the widget on with nobody answering in business hours. A fast ring into emptiness is worse than slow but live handling.",
-          kind: "tip",
         },
       ],
     },
@@ -125,10 +125,10 @@ export const obratnyyZvonokEn: BlogPost = {
           intro: "Rollout checklist:",
           items: [
             "who answers and which hours",
-            "Metrica goal on request/success",
-            "script does not critically kill Page Speed",
+            "analytics goal on request/success",
+            "script does not critically hurt Page Speed",
             "off-hours scenario exists",
-            "phone-processing consent is in place.",
+            "phone-processing consent is in place",
           ],
         },
       ],

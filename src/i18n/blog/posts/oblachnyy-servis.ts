@@ -11,7 +11,7 @@ export const oblachnyyServisEn: BlogPost = {
     "What cloud storage and cloud services are, how IaaS/PaaS/SaaS differ, benefits for business, and data risks.",
   lead: [
     "“The cloud” means access to storage or software over the internet, without the client’s own visible hardware stack. Files and compute live with the provider.",
-    "Below: how it works, the main service types, and the security questions teams should ask before rollout. This is not a ranking of specific brands.",
+    "Below: how it works, service types, and security questions. This is not a roundup of specific brands.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const oblachnyyServisEn: BlogPost = {
       a: "No. Also email, CRM, app hosting, virtual servers, and dozens of SaaS tools.",
     },
     {
-      q: "Is the cloud safe for business data?",
+      q: "Is it safe?",
       a: "Depends on the provider, access settings, and your processes. 2FA, permissions, and backups are required.",
     },
     {
@@ -31,7 +31,7 @@ export const oblachnyyServisEn: BlogPost = {
       a: "For online access — yes. Some clients have offline cache, but sync still goes over the network.",
     },
     {
-      q: "What should a business choose for cloud tools?",
+      q: "What should a business choose?",
       a: "Start from the job: team files, email, CRM, site infrastructure, or analytics. Compare full cost, support, and data requirements.",
     },
     {
@@ -54,7 +54,7 @@ export const oblachnyyServisEn: BlogPost = {
             "upload and share files",
             "collaborative editing",
             "run apps on subscription",
-            "scale server resources.",
+            "scale server resources",
           ],
         },
       ],
@@ -73,7 +73,7 @@ export const oblachnyyServisEn: BlogPost = {
             "fast start",
             "access from different devices",
             "less of your own admin work",
-            "scaling with load.",
+            "scaling with load",
           ],
         },
       ],
@@ -99,12 +99,13 @@ export const oblachnyyServisEn: BlogPost = {
             "separate accounts, not a shared password",
             "backup of critical data",
             "know which jurisdiction holds the data",
-            "revoke access on offboarding.",
+            "revoke access on offboarding",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Important",
           text: "For personal data, check legal requirements and the provider contract — not only a “convenient tariff.”",
         },
@@ -124,7 +125,7 @@ export const oblachnyyServisEn: BlogPost = {
             "cost over the full term, not only month one",
             "SLA and support channels",
             "data export and compatibility",
-            "permissions and activity audit.",
+            "permissions and activity audit",
           ],
         },
       ],
@@ -144,7 +145,7 @@ export const oblachnyyServisEn: BlogPost = {
             "pilot group",
             "staff training",
             "recovery test",
-            "regular permission review.",
+            "regular permission review",
           ],
         },
       ],

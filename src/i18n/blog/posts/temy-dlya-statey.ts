@@ -11,7 +11,7 @@ export const temyDlyaStateyEn: BlogPost = {
     "Where to get blog topics: audience, competitors, search demand, trends, and discussion spaces — without copy-pasting others’ texts or chasing “virality.”",
   lead: [
     "The topic decides whether people finish the article and whether search finds it. Unique wording won’t save a question the reader doesn’t care about.",
-    "Idea sources are close at hand, how to work with queries, and extra reserves. How-to/guide formats live in content-promotion ideas; the calendar lives in the content-plan article.",
+    "Below: idea sources close at hand, how to work with queries, and extra reserves. How-to/guide formats live in content-promotion ideas; the calendar lives in the content-plan article.",
   ],
   faq: [
     {
@@ -56,10 +56,10 @@ export const temyDlyaStateyEn: BlogPost = {
         {
           intro: "Quick harvest:",
           items: [
-            "questions from support and sales;",
-            "comments and “what about…”;",
-            "top old URLs by traffic/engagement;",
-            "notes from client calls.",
+            "questions from support and sales",
+            "comments and “what about…”",
+            "strongest old URLs by traffic/engagement",
+            "notes from client calls",
           ],
         },
       ],
@@ -85,6 +85,7 @@ export const temyDlyaStateyEn: BlogPost = {
       notes: [
         {
           title: "Tool UIs change",
+          kind: "tip",
           text: "“Questions” buttons in Semrush and similar tools move around. What matters is the logic: question → intent → article — not a 2019 menu screenshot.",
         },
       ],
@@ -93,7 +94,7 @@ export const temyDlyaStateyEn: BlogPost = {
       title: "Forums, social, video, and international angles",
       level: 2,
       paras: [
-        "Live discussions on forums and industry chats surface odd pains that aren’t in the SERP top.",
+        "Live discussions on forums and industry chats surface odd pains that aren’t already saturated on page one of the SERP.",
         "Popular niche posts and videos signal interest; carry the meaning into your format — don’t steal the script.",
         "Webinars and conferences: searching “topic + webinar” shows which questions speakers raise. Materials from other markets are a source of angles thin in your locale; translating “as is” without adaptation and sources is bad practice.",
       ],

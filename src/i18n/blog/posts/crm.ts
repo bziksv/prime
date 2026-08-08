@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for crm — same structure as RU JSON. */
 export const crmEn: BlogPost = {
   slug: "crm",
-  title: "CRM systems: how to choose without chasing a “ranking”",
+  title: "CRM systems: how to choose without chasing a scorecard",
   date: "2020-02-26",
   category: "Digital marketing",
   cover: "/images/blog/crm/cover-en.webp",
   excerpt:
-    "What a CRM is, how self-hosted, cloud, and “portal with CRM” options differ, and how to compare Bitrix24, amoCRM, and similar tools — without treating a 2020 top list or magic quadrant as gospel.",
+    "What a CRM is, how self-hosted, cloud, and “portal with CRM” options differ, and how to compare Bitrix24, amoCRM, and similar tools — without treating a 2020 best-of list or magic quadrant as gospel.",
   lead: [
     "CRM (Customer Relationship Management) tracks customers, deals, and touchpoints: who the lead is, which stage of the funnel, what was promised, and how it ended. Without one, sales live in chats and inside managers’ heads.",
-    "“Best CRM” rankings age fast: pricing, modules, and market leaders shift. Solution types differ — judge them against your process. We don’t treat 2019 Gartner placements or old price lists as forever truth.",
+    "“Best CRM” scorecards age fast: pricing, modules, and market leaders shift. Below: solution types and selection criteria for your process. We don’t treat 2019 Gartner placements or old price lists as forever truth.",
   ],
   faq: [
     {
@@ -66,7 +66,7 @@ export const crmEn: BlogPost = {
       ],
     },
     {
-      title: "Solution types: don’t confuse a “portal” with a funnel",
+      title: "Solution types: don’t confuse a portal with a funnel",
       level: 2,
       paras: [
         "Modular and custom platforms are built for large holdings — expensive and slow. Boxed or off-the-shelf options go live faster, but a non-standard process still needs extra setup.",
@@ -90,12 +90,12 @@ export const crmEn: BlogPost = {
         {
           title: "Important",
           kind: "tip",
-          text: "Brand lists from 2020 reviews (Creatio/bpm’online, Megaplan, and so on) mark a product class — not a forever ranking. Before you buy, check current pricing, data localization, and niche reviews.",
+          text: "Brand lists from 2020 reviews (Creatio/bpm’online, Megaplan, and so on) mark a product class — not a forever scorecard. Before you buy, check current pricing, data localization, and niche reviews.",
         },
       ],
     },
     {
-      title: "How to choose without a “magic ranking”",
+      title: "How to choose without a magic scorecard",
       level: 2,
       paras: [
         "Put the process on paper first: stages, required fields, who assigns tasks, what counts as a won deal. Then demo two or three systems on your scenarios — not someone else’s screenshot.",
@@ -127,7 +127,7 @@ export const crmEn: BlogPost = {
     },
   ],
   closing: [
-    "A CRM wins not by “#1 in someone else’s ranking,” but by fitting your deal cycle and the team’s discipline. Pick the system class for your scale, run demos on your scenarios, and roll out the process — software only records it.",
+    "A CRM wins not by first place in someone else’s scorecard, but by fitting your deal cycle and the team’s discipline. Pick the system class for your scale, run demos on your scenarios, and roll out the process — software only records it.",
   ],
   related: [
     "skvoznaya-analitika",

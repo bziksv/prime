@@ -3,7 +3,7 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for korporativnoe-obuchenie — same structure as RU JSON. */
 export const korporativnoeObuchenieEn: BlogPost = {
   slug: "korporativnoe-obuchenie",
-  title: "Corporate training and motivation: system, goals, and the expert",
+  title: "Corporate training and motivation: system, goals, expert",
   date: "2019-08-16",
   category: "Digital marketing",
   cover: "/images/blog/korporativnoe-obuchenie/cover-en.webp",
@@ -11,7 +11,7 @@ export const korporativnoeObuchenieEn: BlogPost = {
     "Why employees don’t learn “on their own,” how to build a development system, set a goal and the expert’s role — and how online format differs from the motivation to learn.",
   lead: [
     "Corporate training helps both sides: the employee grows in the craft, the business gets stronger people and less dependence on external hiring. But an announcement “from Monday everyone studies” with no system almost never works.",
-    "Barriers to learning alone and principles that work: a plan, a measurable goal, an expert, an outside perspective, events. How to run an online format is in a separate article; this piece is about motivation and the model.",
+    "Below: barriers to learning alone and principles that work — a plan, a measurable goal, an expert, an outside perspective, events. How to run an online format is in a separate article; this piece is about motivation and the model.",
   ],
   faq: [
     {
@@ -59,10 +59,10 @@ export const korporativnoeObuchenieEn: BlogPost = {
         {
           intro: "System minimum:",
           items: [
-            "role → needed skills;",
-            "module plan and practice;",
-            "“done” criteria;",
-            "link to career/pay/project.",
+            "role → needed skills",
+            "module plan and practice",
+            "“done” criteria",
+            "link to career / pay / project",
           ],
         },
       ],

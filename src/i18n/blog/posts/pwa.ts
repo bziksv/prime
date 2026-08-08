@@ -8,10 +8,10 @@ export const pwaEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/pwa/cover-en.webp",
   excerpt:
-    "What a PWA is: a site with a manifest and Service Worker, home-screen install, offline cache, and push. Pros for stores and the limits — without promising an “automatic Google #1 ranking”.",
+    "What a PWA is: a site with a manifest and Service Worker, home-screen install, offline cache, and push. Pros for stores and the limits — without promising an automatic Google ranking boost.",
   lead: [
-    "A PWA (Progressive Web App) is a website that behaves closer to an app: you can add it to the home screen, work partly offline, and send notifications (where the browser and OS allow).",
-    "What a PWA is made of, why business needs it, and site requirements. It doesn’t replace a native store app and isn’t “install = TOP.”",
+    "A PWA (Progressive Web App) is a website that behaves closer to an app: you can add it to the home screen, work partly offline, and send notifications where the browser and OS allow.",
+    "Below: what a PWA is made of, why business needs it, and site requirements. It doesn’t replace a native store app and isn’t a button to lift SEO — start with a fast responsive site on HTTPS.",
   ],
   faq: [
     {
@@ -20,19 +20,19 @@ export const pwaEn: BlogPost = {
     },
     {
       q: "Does a PWA raise search rankings?",
-      a: "There’s no direct “PWA bonus”. Indirectly HTTPS, speed, and solid mobile UX help — and you can improve those without a full PWA.",
+      a: "There’s no direct “PWA bonus.” Indirectly HTTPS, speed, and solid mobile UX help — and you can improve those without a full PWA.",
     },
     {
-      q: "What’s technically required for a PWA?",
-      a: "HTTPS, a web manifest (name, icons, start_url), and a Service Worker for cache/offline. Without that, “Install” won’t work as intended.",
+      q: "What’s technically required?",
+      a: "HTTPS, a web manifest (name, icons, start_url), and a Service Worker for cache/offline. Without that, Install won’t work as intended.",
     },
     {
       q: "Does offline mode work fully?",
-      a: "Only what you cached and designed for. Cart and order without a network need separate design — not a PWA checkbox magic.",
+      a: "Only what you cached and designed for. Cart and order without a network need separate design — not PWA checkbox magic.",
     },
     {
       q: "Do all sites need a PWA?",
-      a: "No. It fits repeat visits, catalogs, “app-like” services. A one-off service landing often only needs a fast mobile layout.",
+      a: "No. It fits repeat visits, catalogs, app-like services. A one-off service landing often only needs a fast mobile layout.",
     },
   ],
   sections: [
@@ -41,16 +41,16 @@ export const pwaEn: BlogPost = {
       level: 2,
       paras: [
         "A home-screen icon, launch almost without the browser chrome, static and partial data cache via Service Worker, push notifications where the platform allows.",
-        "Large-web examples (maps, media, retail) show a “site = habit” scenario — not a mandatory stack for every business card site.",
+        "Large-web examples (maps, media, retail) show a “site = habit” scenario — not a mandatory stack for every business-card site.",
       ],
       lists: [
         {
           intro: "Strengths:",
           items: [
             "one codebase across devices via the browser",
-            "faster path to “install” than native development",
+            "faster path to install than native development",
             "less space than a heavy APK",
-            "server updates without store moderation.",
+            "server updates without store moderation",
           ],
         },
       ],
@@ -65,7 +65,7 @@ export const pwaEn: BlogPost = {
       title: "Pros and cons for business",
       level: 2,
       paras: [
-        "For a store and a service with repeat visits, a PWA can cut friction: faster return entry, offline viewing of cached sections, reminders (with consent).",
+        "For a store and a service with repeat visits, a PWA can cut friction: faster return entry, offline viewing of cached sections, reminders with consent.",
         "Downsides: feature support depends on browser and iOS/Android; push and background jobs are limited; Service Worker build and upkeep is separate engineering. “Install a plugin and forget” on a complex store is risky.",
       ],
       lists: [
@@ -73,17 +73,17 @@ export const pwaEn: BlogPost = {
           intro: "When to look at PWA:",
           items: [
             "high return traffic",
-            "you need a light “shortcut” without a native app",
+            "you need a light shortcut without a native app",
             "the site is already fast and on HTTPS",
-            "you have capacity to maintain cache and updates.",
+            "you have capacity to maintain cache and updates",
           ],
         },
       ],
       notes: [
         {
           title: "Important",
-          text: "Don’t promise yourself “PWA = higher in the SERP”. First Core Web Vitals and clear mobile UX; PWA is the next convenience layer.",
           kind: "tip",
+          text: "Don’t promise yourself “PWA = higher in the SERP.” First Core Web Vitals and clear mobile UX; PWA is the next convenience layer.",
         },
       ],
       links: [
@@ -112,7 +112,7 @@ export const pwaEn: BlogPost = {
             "mobile UX is acceptable without PWA",
             "manifest and icons are ready",
             "cache strategy is agreed with engineering",
-            "there’s a plan to update the SW without “sticking” on an old version.",
+            "there’s a plan to update the SW without sticking on an old version",
           ],
         },
       ],

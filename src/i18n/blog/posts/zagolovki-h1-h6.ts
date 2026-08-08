@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for zagolovki-h1-h6 — same structure as RU JSON. */
 export const zagolovkiH1H6En: BlogPost = {
   slug: "zagolovki-h1-h6",
-  title: "H1–H6 headings: technique and meaning for SEO",
+  title: "H1–H6 headings: structure and meaning for SEO",
   date: "2018-08-03",
   category: "SEO",
   cover: "/images/blog/zagolovki-h1-h6/cover-en.webp",
   excerpt:
-    "How to use H1–H6 tags on a page: one main heading, hierarchy, keywords without stuffing, and a readable structure — don’t confuse with 4U copywriting or HTTP headers.",
+    "How to use H1–H6 on a page: one main heading, a clear hierarchy, keywords without stuffing, and readable structure — not 4U ad copy and not HTTP headers.",
   lead: [
-    "HTML headings are the page’s meaning frame — for people and for search. This isn’t a catchy 4U ad headline or HTTP server headers; it’s H1–H6 tags in the markup.",
-    "How to tie keywords to levels, how many levels you really need, and typical mistakes like stuffing every keyword into one H1. Heading weight is one on-page signal, not a ranking guarantee.",
+    "HTML headings are the page’s meaning frame — for people and for search. This is not a catchy 4U ad line and not HTTP server headers; it is H1–H6 in the markup.",
+    "Below: how to tie keywords to levels, how many levels you really need, and typical mistakes like cramming every keyword into one H1. Heading weight is one on-page signal, not a ranking guarantee.",
   ],
   faq: [
     {
@@ -24,11 +24,11 @@ export const zagolovkiH1H6En: BlogPost = {
     },
     {
       q: "Is H1 more important than title?",
-      a: "Title has a stronger effect on the SERP snippet. H1 is the main visible heading on the page. Both should agree in meaning.",
+      a: "Title has a stronger effect on the results snippet. H1 is the main visible heading on the page. Both should agree in meaning.",
     },
     {
       q: "Do I need every level down to H6?",
-      a: "No. A typical article needs H1 + H2, sometimes H3. Deep nesting just for keywords isn’t useful.",
+      a: "No. A typical article needs H1 + H2, sometimes H3. Deep nesting just for keywords is not useful.",
     },
     {
       q: "Can I pack keywords into every H?",
@@ -67,7 +67,7 @@ export const zagolovkiH1H6En: BlogPost = {
       title: "H1–H6 hierarchy",
       level: 2,
       paras: [
-        "H1 is the page topic as a whole. H2s are major blocks. H3s are subsections inside a block. Skipping levels “for looks” confuses structure; jumping two levels without need isn’t worth it.",
+        "H1 is the page topic as a whole. H2s are major blocks. H3s are subsections inside a block. Skipping levels “for looks” confuses structure; jumping two levels without need is not worth it.",
         "Example logic: H1 “Temporary registration in Moscow” → H2 “Documents” → H3 “Application.” Details go in paragraphs, not an endless H1.",
         "A long H1 listing everything (“cars, bikes, trucks, tractors…”) reads worse and focuses intent more weakly than a short H1 plus clarification in the text.",
       ],
@@ -75,10 +75,10 @@ export const zagolovkiH1H6En: BlogPost = {
         {
           intro: "Basic rules:",
           items: [
-            "one clear H1 per URL;",
-            "H2s read as the page outline;",
-            "keywords naturally, without a keyword sheet;",
-            "levels match meaning — not “for SEO.”",
+            "one clear H1 per URL",
+            "H2s read as the page outline",
+            "keywords naturally, without a keyword sheet",
+            "levels match meaning — not “for SEO”",
           ],
         },
       ],
@@ -90,7 +90,6 @@ export const zagolovkiH1H6En: BlogPost = {
         "Title and H1 should talk about the same offer — in different words when needed — without full copy-paste if it hurts the snippet.",
         "CTAs and emphasis (strong) help people; they don’t replace heading hierarchy. Don’t hide the whole offer only in bold text with no H1.",
         "Common misses: several competing H1s from a template, H2 before H1, button-like headings with no body below, keywords in all six levels “just in case.”",
-        "Solid heading structure is part of site prep. Core keyword rankings typically build over 2–6 months after launch prep — headings help clarity and relevance, but they aren’t a shortcut to TOP.",
       ],
       links: [
         {
@@ -109,7 +108,7 @@ export const zagolovkiH1H6En: BlogPost = {
     },
   ],
   closing: [
-    "Open one commercial page: is there one H1, does it match intent and title, and does the outline read via H2s — in 10 minutes you often see what to fix before “more keywords.”",
+    "Open one commercial page: is there one H1, does it match intent and title, and does the outline read via H2s — in ten minutes you often see what to fix before “more keywords.”",
   ],
   related: [
     "optimizatsiya-stranitsy",

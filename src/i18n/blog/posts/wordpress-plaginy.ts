@@ -5,13 +5,13 @@ export const wordpressPlaginyEn: BlogPost = {
   slug: "wordpress-plaginy",
   title: "How to install a WordPress plugin: catalog, ZIP, and FTP",
   date: "2017-12-14",
-  category: "Hosting",
+  category: "Digital marketing",
   cover: "/images/blog/wordpress-plaginy/cover-en.webp",
   excerpt:
-    "Three ways to install a plugin on WordPress: search in the admin, ZIP upload, and copy into wp-content/plugins — without a cult of \"more installs = better\" or a pile of unsupported extensions.",
+    "Three ways to install a plugin on WordPress: search in the admin, ZIP upload, and copy into wp-content/plugins — without a cult of “more installs = better” or a pile of unsupported extensions.",
   lead: [
     "Plugins extend WordPress: SEO, forms, cache, store. You install them from the admin catalog, by uploading a ZIP, or via FTP into `wp-content/plugins`, then activate.",
-    "Follow a safe install order and watch typical failures (nested archive, host upload bans). Which SEO plugins to pick lives in a separate piece; here it’s install and basic security hygiene.",
+    "Below: install order and typical failures (nested archive, host upload bans). Which SEO plugins to pick lives in a separate piece; here it’s install and basic security hygiene.",
   ],
   faq: [
     {

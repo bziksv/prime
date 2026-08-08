@@ -8,31 +8,31 @@ export const adblockEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/adblock/cover-en.webp",
   excerpt:
-    "AdBlock and similar tools are extensions that hide ads in the browser. Why people install them, how to pause for one site, and why blockers also cut useful widgets and analytics.",
+    "AdBlock and similar tools hide ads in the browser. Why people install them, how to pause one site, and why blockers also cut widgets and analytics.",
   lead: [
-    "AdBlock (and peers like AdBlock Plus, uBlock Origin, and others) are browser extensions that hide ads, trackers, and some pop-ups using filter lists.",
-    "People turn them on for quieter pages and privacy — then wonder why a video player or chat “broke.” Button labels differ by browser and version; rely on the meaning (“pause on this site”), not an outdated screenshot. Site owners should bake blockers into how they read analytics.",
+    "AdBlock — and peers like AdBlock Plus, uBlock Origin, and others — are browser extensions that hide ads, trackers, and some pop-ups using filter lists.",
+    "Below: why people turn them on, how to allow ads on a site you care about, and what that means for site owners. Button labels differ by browser and version — trust the idea (“pause on this site”), not an old screenshot.",
   ],
   faq: [
     {
-      q: "Are AdBlock and AdBlock Plus the same?",
-      a: "Different products with a similar job. Other blockers exist too. Shared logic: filters plus site exceptions.",
+      q: "Are AdBlock and AdBlock Plus the same thing?",
+      a: "Different products, same job category. Other blockers exist too. Shared logic: filters plus per-site exceptions.",
     },
     {
-      q: "Why is the site empty or video won’t load?",
-      a: "Often the player, “acceptable ads,” and payment or chat scripts get blocked too. Add the site to exceptions or disable the extension on the domain.",
+      q: "Why is the site empty or the video won’t play?",
+      a: "Players, “acceptable ads,” checkout, and chat scripts often get blocked too. Add the site to exceptions or turn the extension off on that domain.",
     },
     {
-      q: "Does AdBlock affect Yandex Metrica or Analytics?",
-      a: "Yes: some visits and goals never reach the counter. When debugging, check the site without a blocker. See also the piece on Metrica going silent.",
+      q: "Does it affect Yandex Metrica or Analytics?",
+      a: "Yes — some visits and goals never reach the counter. When debugging, open the site without a blocker. See also the piece on Metrica going silent.",
     },
     {
-      q: "How do you disable it on one site only?",
-      a: "Via the extension icon: pause / “don’t run on this site” (wording varies). Full uninstall is rarely needed — an exception is usually enough.",
+      q: "How do I disable it on one site only?",
+      a: "Use the extension icon: pause / “don’t run on this site” (wording varies). Full uninstall is rarely needed — an exception is usually enough.",
     },
     {
       q: "Is using an ad blocker legal?",
-      a: "Users may install extensions. Sites may limit access when a blocker is active. Bypassing paywalls and pirated content is a separate ethical and legal story — not covered here.",
+      a: "Users may install extensions. Sites may limit access when a blocker is on. Paywall bypass and piracy are a separate ethical and legal story — not covered here.",
     },
   ],
   sections: [
@@ -40,18 +40,18 @@ export const adblockEn: BlogPost = {
       title: "Why people install it and how it works",
       level: 2,
       paras: [
-        "The job is simple: fewer distractions — banners, autoplay video, trackers. Some people enable blockers because of heavy pages and privacy, not only “to be difficult.”",
-        "The extension subscribes to filter lists and hides elements that match the rules. You can add custom filters and allowlists. Products differ on “acceptable ads” policy and fine settings.",
-        "Side effect: not only banners get cut, but feedback widgets, A/B tests, ad pixels, and analytics counters. For the user it’s “the site broke”; for marketing — a hole in the data.",
+        "The job is simple: fewer distractions — banners, autoplay video, trackers. Plenty of people enable blockers for heavy pages and privacy, not just to be difficult.",
+        "The extension subscribes to filter lists and hides matching elements. You can add custom filters and allowlists. Products differ on “acceptable ads” policy and fine-grained settings.",
+        "Side effect: feedback widgets, A/B tests, ad pixels, and analytics counters get cut along with banners. For the user it’s “the site broke”; for marketing it’s a hole in the data.",
       ],
       lists: [
         {
-          intro: "Typical benefits for the user:",
+          intro: "Typical upsides for the user:",
           items: [
-            "less visual noise;",
-            "pages often feel lighter;",
-            "some trackers don’t fire;",
-            "you can allow favorite sites selectively.",
+            "less visual noise",
+            "pages often feel lighter",
+            "some trackers never fire",
+            "you can allow favorite sites one by one",
           ],
         },
       ],
@@ -70,21 +70,21 @@ export const adblockEn: BlogPost = {
       title: "Pause, exceptions, and the site owner’s view",
       level: 2,
       paras: [
-        "Install: your browser’s extension store → find a blocker → install. An icon appears on the toolbar; from it you manage pause and exceptions.",
-        "Disable on the current page or the whole domain via the icon menu (“don’t run on this site” / pause). Full removal is in browser extensions; pause is usually enough. Exception lists are edited in the extension settings.",
-        "If a video host or publisher asks you to turn the blocker off — that’s their access rule for content. Add the domain to the allowlist if you’re fine seeing ads in exchange for the material.",
-        "For site owners: aggressive ads raise AdBlock share. It helps to lighten pages, not cover content with stacked popups, and remember part of the audience is “invisible” in analytics. Don’t build a business on grey-zone blocker bypass schemes — better value and a careful monetization format.",
-        "Bottom line: AdBlock is a user comfort tool. Know how to pause it for sites you need; in marketing, bake blockers into how you read the numbers.",
+        "Install from your browser’s extension store, then manage pause and exceptions from the toolbar icon.",
+        "Disable on the current page or the whole domain via the icon menu (“don’t run on this site” / pause). Full removal lives under browser extensions; pause is usually enough. Edit exception lists in the extension settings.",
+        "If a video host or publisher asks you to turn the blocker off, that’s their rule for access. Add the domain to the allowlist if you’re fine seeing ads in exchange for the material.",
+        "For site owners: aggressive ads raise AdBlock share. Lighten pages, don’t bury content under stacked popups, and remember part of the audience is invisible in analytics. Don’t build a business on grey-zone blocker bypass — better value and cleaner monetization beat cat-and-mouse scripts.",
+        "Bottom line: AdBlock is a comfort tool. Know how to pause it for sites you need; in marketing, bake blockers into how you read the numbers.",
       ],
       lists: [
         {
           intro: "If a site you need “broke”:",
           items: [
-            "pause the extension on the domain;",
-            "reload the page;",
-            "try another browser without a blocker;",
-            "don’t confuse it with antivirus/VPN filters;",
-            "for counter debugging — incognito without extensions.",
+            "pause the extension on the domain",
+            "reload the page",
+            "try another browser without a blocker",
+            "don’t confuse it with antivirus or VPN filters",
+            "for counter debugging — incognito with extensions off",
           ],
         },
       ],

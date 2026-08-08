@@ -11,8 +11,12 @@ export const podpisFotoInstagramEn: BlogPost = {
     "How to write an Instagram photo caption: link to the frame, structure, quotes, hashtags, and tone for your audience — without gender clichés or the myth that “30 hashtags = reach.”",
   lead: [
     "A photo caption sets the frame’s meaning, tone, and next step for the reader. A pretty shot with no text often gets lost in the feed: people don’t know why to stop.",
-    "We cover how to write captions for everyday and business posts. This isn’t the same as a selling-offer framework — sales live in a separate article. Hashtags and Instagram UI change; clarity and match to the frame matter more.",
+    "Below: captions for everyday and business posts. This isn’t the same as a selling-offer framework — sales live in a separate article. Hashtags and Instagram UI change; clarity and match to the frame matter more. Meta note is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Is a long caption required?",
@@ -69,15 +73,15 @@ export const podpisFotoInstagramEn: BlogPost = {
             "1–3 short paragraphs on the frame’s meaning",
             "a detail or value not visible in the photo",
             "a question or soft CTA at the end",
-            "hashtags — in a separate block or at the end, not mashed into the middle of the thought.",
+            "hashtags — in a separate block or at the end, not mashed into the middle of the thought",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Common mistake",
           text: "Writing a caption “for everyone”: a love quote, a price list, and 40 hashtags. One post — one main idea.",
-          kind: "tip",
         },
       ],
     },
@@ -126,7 +130,7 @@ export const podpisFotoInstagramEn: BlogPost = {
             "a question to the audience",
             "recipe / 3-point checklist",
             "quote + your reply",
-            "behind the scenes of the shot.",
+            "behind the scenes of the shot",
           ],
         },
       ],

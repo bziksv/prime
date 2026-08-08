@@ -11,16 +11,16 @@ export const fotoInstagramEn: BlogPost = {
     "How to pick a visual niche, shoot with composition and light, and prep photos for a blog or shop on Instagram — without “girls only” clichés or copying other feeds.",
   lead: [
     "On Instagram the image hooks first; text is the second layer. A strong frame has a clear idea, light, composition, and a link to the profile offer.",
-    "Content types, basic shooting techniques, business nuances, and publishing rhythm. The app UI changes; frame skill beats a list of outdated filters.",
+    "Below: content types, basic shooting techniques, business nuances, and publishing rhythm. The app UI changes; frame skill beats a list of outdated filters.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
       q: "Do I need a DSLR for a blog?",
-      a: "Not necessarily. A modern phone plus light and composition is often enough. For product catalogs, studio/light help more than “megapixels.”",
+      a: "Not necessarily. A modern phone plus light and composition is often enough. For product catalogs, studio/light help more than megapixels.",
     },
     {
       q: "How many filters is normal?",
@@ -55,7 +55,7 @@ export const fotoInstagramEn: BlogPost = {
             "travel and places",
             "utility / process / before-after",
             "product and flat lays",
-            "pets and hobbies — if that’s truly your content.",
+            "pets and hobbies — if that’s truly your content",
           ],
         },
       ],
@@ -77,7 +77,6 @@ export const fotoInstagramEn: BlogPost = {
         "Follow community rules: no plagiarism, banned content, or provocation for reach. A ban costs more than any “viral” frame.",
         "Provocation as the only strategy shortens account life. Better a steady visual and offer.",
       ],
-      lists: [],
       links: [
         {
           label: "Instagram bans",
@@ -100,7 +99,7 @@ export const fotoInstagramEn: BlogPost = {
             "whether the edge crops something important",
             "whether the background is orderly",
             "whether light is enough without noise",
-            "how the frame will sit in the profile grid.",
+            "how the frame will sit in the profile grid",
           ],
         },
       ],
@@ -119,7 +118,7 @@ export const fotoInstagramEn: BlogPost = {
             "hero angle + detail",
             "use-in-context shot",
             "one preset for the series",
-            "caption with value and CTA.",
+            "caption with value and CTA",
           ],
         },
       ],
@@ -141,10 +140,10 @@ export const fotoInstagramEn: BlogPost = {
         "Frame first, then Lightroom/mobile editor: exposure, white balance, light sharpening. A series preset beats a “wow filter” on one post.",
         "Regularity holds reach: plan slots from stats. Caption under the photo is hook and meaning, not a wall of keywords.",
       ],
-      lists: [],
       notes: [
         {
           title: "Practice",
+          kind: "tip",
           text: "“What to shoot” ideas are endless; the limit is light and time. Keep a list of locations and props under content-plan rubrics.",
         },
       ],

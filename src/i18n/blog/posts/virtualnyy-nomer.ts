@@ -11,7 +11,7 @@ export const virtualnyyNomerEn: BlogPost = {
     "What a virtual number is: receiving SMS and calls over the internet, business use cases (call tracking, toll-free, IVR), and risks of free “numbers for sign-ups.” No guides to bypassing platform rules.",
   lead: [
     "A virtual number is a phone number in a carrier or service cloud: calls and SMS arrive in an app or via forwarding, without a physical line in the office.",
-    "Use virtual numbers for legitimate business jobs — call routing, ads tracking, temporary project lines — and be careful with mass “SMS numbers.” Pick the setup for the job and the contract, not “the cheapest code receiver.”",
+    "Below: legitimate business jobs and caution with mass “SMS numbers.” We don’t copy 2020 review prices or brand lists; pick the setup for the job and the contract, not “the cheapest code receiver.”",
   ],
   faq: [
     {
@@ -49,11 +49,11 @@ export const virtualnyyNomerEn: BlogPost = {
         {
           intro: "Solid use cases:",
           items: [
-            "ad call tracking;",
-            "one number with forwarding to mobiles;",
-            "IVR and call queues;",
-            "SMS codes to staff or clients within a service;",
-            "a separate support line.",
+            "ad call tracking",
+            "one number with forwarding to mobiles",
+            "IVR and call queues",
+            "SMS codes to staff or clients within a service",
+            "a separate support line",
           ],
         },
       ],
@@ -82,12 +82,12 @@ export const virtualnyyNomerEn: BlogPost = {
         {
           intro: "Provider checklist:",
           items: [
-            "clear contract and invoices;",
-            "needed country and city codes;",
-            "forwarding and/or SIP;",
-            "logs and recording within the rules;",
-            "CRM and analytics integration;",
-            "no public “shared” SMS numbers for anything important.",
+            "clear contract and invoices",
+            "needed country and city codes",
+            "forwarding and/or SIP",
+            "logs and recording within the rules",
+            "CRM and analytics integration",
+            "no public “shared” SMS numbers for anything important",
           ],
         },
       ],

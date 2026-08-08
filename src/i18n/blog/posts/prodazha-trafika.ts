@@ -11,7 +11,7 @@ export const prodazhaTrafikaEn: BlogPost = {
     "What selling traffic means: CPC, CPM, CPA, search/display ads, teasers, banners, and direct advertisers. How to find buyers without killing UX.",
   lead: [
     "Selling traffic means you give advertisers a share of your audience’s attention for pay: per impression, click, or conversion. It’s a revenue channel for media and sites with real visits — not a “passive million” button.",
-    "Payment models, formats, finding buyers, and risks — in that order. Networks and exchanges change, so check current rules and traffic quality.",
+    "Below: payment models, formats, finding buyers, and risks. Networks and exchanges change — check current rules and traffic quality.",
   ],
   faq: [
     {
@@ -43,7 +43,6 @@ export const prodazhaTrafikaEn: BlogPost = {
         "Site A has visitors. Advertiser B pays so some of them see an offer and click/buy. You sell attention; an exchange or network often takes a cut.",
         "The better the audience quality and topic fit, the higher the click or action price. “Volume at any cost” usually kills both revenue and trust.",
       ],
-      lists: [],
     },
     {
       title: "Finding a buyer",
@@ -59,7 +58,7 @@ export const prodazhaTrafikaEn: BlogPost = {
             "payment model and minimum payout",
             "prohibited-content rules",
             "site speed and UX after placing blocks",
-            "reporting: impressions, clicks, actions.",
+            "reporting: impressions, clicks, actions",
           ],
         },
       ],
@@ -68,7 +67,7 @@ export const prodazhaTrafikaEn: BlogPost = {
       title: "Monetization formats",
       level: 2,
       paras: [
-        "Search and display through major networks (e.g. Google programs — under each property’s rules). Teasers and banners are more visible but easy to overload a page.",
+        "Search and display through major networks (e.g. Yandex and Google programs — under each property’s rules). Teasers and banners are more visible but easy to overload a page.",
         "Outbound links and native placements sit closer to editorial. CPA/affiliates pay for a lead or sale: higher payout with a strong offer, stricter on traffic quality.",
         "YouTube and other media are a separate track: viewers monetize via the platform network or integrations when rules allow.",
       ],
@@ -79,14 +78,15 @@ export const prodazhaTrafikaEn: BlogPost = {
             "CPC — easy to count, depends on CTR",
             "CPM — income from volume and viewability",
             "CPA — closer to the advertiser’s result",
-            "flat / package — direct deals.",
+            "flat / package — direct deals",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Practice",
-          text: "Old exchange directories age fast. Pick a live network with clear stats and sane moderation.",
+          text: "Old exchange directories (AdLabs, Rotaban, and peers) partly age out. Pick a live network with clear stats and sane moderation.",
         },
       ],
     },
@@ -97,7 +97,6 @@ export const prodazhaTrafikaEn: BlogPost = {
         "Large blogs and channels sell packages direct: higher rate, more manual work. Without your own property you stay in affiliates/arbitrage — you need traffic skills and offer-policy compliance.",
         "Don’t promise “passive income with no effort”: both sites and arbitrage need quality upkeep and policy fit.",
       ],
-      lists: [],
     },
     {
       title: "How not to kill the property",
@@ -113,7 +112,7 @@ export const prodazhaTrafikaEn: BlogPost = {
             "don’t use misleading teasers",
             "don’t sell fake traffic",
             "follow network rules — or risk a site ban",
-            "measure not only revenue but bounce rate and depth.",
+            "measure not only revenue but bounce rate and depth",
           ],
         },
       ],

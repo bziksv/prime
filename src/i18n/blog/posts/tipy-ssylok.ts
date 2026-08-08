@@ -11,7 +11,7 @@ export const tipySsylokEn: BlogPost = {
     "What backlinks look like and where they come from: natural mentions, media, content, partnerships, communities, directories, dofollow/nofollow, permanent vs temporary — without link farms and bulk spam.",
   lead: [
     "Link building hasn’t been “buy a pack on an exchange and grow in a week” for a long time. Search engines weigh donor quality, natural anchors, and reader value — link farms and mass submissions do more harm than good.",
-    "This is a map of link types and acquisition channels: what still makes sense, where the risk line sits, and how it ties to profile analysis and paid placements. We don’t recycle old “.edu for a scholarship” recipes as a playbook.",
+    "Below: a map of link types and acquisition channels — what still makes sense, where the risk line sits, and how it ties to profile analysis and paid placements. We don’t recycle old “.edu for a scholarship” recipes as a playbook.",
   ],
   faq: [
     {
@@ -20,11 +20,11 @@ export const tipySsylokEn: BlogPost = {
     },
     {
       q: "Is dofollow mandatory?",
-      a: "No. Nofollow/sponsored/ugc still bring traffic and brand. Chasing only dofollow on junk sites is pointless.",
+      a: "No. Nofollow, sponsored, and ugc still bring traffic and brand. Chasing only dofollow on junk sites is pointless.",
     },
     {
       q: "Are permanent links better than rented ones?",
-      a: "Often yes for durability if the donor is alive. Temporary ones fit tests/campaigns. Quality of the site matters more than the “permanent” label.",
+      a: "Often yes for durability if the donor is alive. Temporary ones fit tests and campaigns. Site quality matters more than the “permanent” label.",
     },
     {
       q: "Do internal links count?",
@@ -93,12 +93,12 @@ export const tipySsylokEn: BlogPost = {
         {
           intro: "Channels for a link-building map:",
           items: [
-            "content and research;",
-            "media / PR;",
-            "partners and suppliers;",
-            "communities in live discussions;",
-            "narrow directories and maps;",
-            "targeted paid placements as advertising.",
+            "content and research",
+            "media / PR",
+            "partners and suppliers",
+            "communities in live discussions",
+            "narrow directories and maps",
+            "targeted paid placements as advertising",
           ],
         },
       ],
@@ -118,7 +118,7 @@ export const tipySsylokEn: BlogPost = {
       level: 2,
       paras: [
         "Internal linking distributes weight and helps users. It’s often undervalued while teams chase only external backlinks.",
-        "Dofollow signals “may be counted”; nofollow, sponsored, ugc are normal markup for ads and UGC. Don’t break attributes for the myth of “dofollow only.”",
+        "Dofollow signals “may be counted”; nofollow, sponsored, and ugc are normal markup for ads and UGC. Don’t break attributes for the myth of “dofollow only.”",
       ],
       links: [
         {
@@ -145,12 +145,15 @@ export const tipySsylokEn: BlogPost = {
           href: "/en/blog/autrich/",
         },
       ],
+      notes: [
+        {
+          title: "Important",
+          kind: "tip",
+          text: "Exchange names and .edu/.gov “recipes” from 2010s posts aren’t a strategy anymore. Aim for donor quality, advertising law, and white-hat link building.",
+        },
+      ],
     },
   ],
-  notes: {
-    title: "Important",
-    text: "Exchange names and .edu/.gov “recipes” from 2010s posts aren’t a strategy anymore. Aim for donor quality, advertising law, and white-hat link building.",
-  },
   closing: [
     "Draft a short map: which link types you already have, which channels are missing, and what you can give the donor’s audience — so link building becomes a plan, not a “buy more” habit.",
   ],

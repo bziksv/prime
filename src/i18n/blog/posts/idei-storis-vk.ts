@@ -8,10 +8,10 @@ export const ideiStorisVkEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/idei-storis-vk/cover-en.webp",
   excerpt:
-    "Ideas for VK stories: polls, mini tips, behind the scenes, relay prompts, and quizzes for business and blogs — without promising “thousands of views” or toxic 2020 formats.",
+    "Ideas for VK stories: polls, mini tips, behind the scenes, relay prompts, and quizzes for business and blogs — without promising thousands of views or toxic 2020 formats.",
   lead: [
     "VK Stories hold “here and now” well: an announcement, a poll, behind the scenes, a quick audience reply. The idea beats the filter — one thought per frame and a clear next step.",
-    "The formats below work for a personal page and a community. How to publish technically — in the VK Stories guide. Viral challenges from the 2020 feed age fast; take the mechanic, don’t copy someone else’s hype one-to-one.",
+    "Below: formats for a personal page and a community. How to publish technically — in the VK Stories guide. Viral challenges from the 2020 feed age fast; take the mechanic, don’t copy someone else’s hype one-to-one.",
   ],
   faq: [
     {
@@ -28,7 +28,7 @@ export const ideiStorisVkEn: BlogPost = {
     },
     {
       q: "Can you publish Stories only from a phone?",
-      a: "Often yes; account options change. Check current VK help and skip shady “posting clients.”",
+      a: "Often yes; account options change. Check current VK help and skip shady posting clients.",
     },
     {
       q: "How many Stories a day?",
@@ -40,7 +40,7 @@ export const ideiStorisVkEn: BlogPost = {
       title: "Job first, idea second",
       level: 2,
       paras: [
-        "Stories for Stories’ sake tire people. Lock the series goal: warm up a post, collect opinions, lead to DMs, remind about a promo, show expertise.",
+        "Stories for Stories’ sake tire people. Lock the series goal: warm up a post, collect opinions, lead to messages, remind about a promo, show expertise.",
         "First frame — hook, middle — value, end — CTA (reply, open a post, message the community).",
       ],
       links: [
@@ -58,7 +58,7 @@ export const ideiStorisVkEn: BlogPost = {
       title: "Basic formats for business",
       level: 2,
       paras: [
-        "Shift or production behind the scenes, a new item and stock, before/after, a three-slide mini tip, a client review (with consent), a promo deadline reminder.",
+        "Shift or production behind the scenes, a new item and availability, before/after, a three-slide mini tip, a client review (with consent), a promo deadline reminder.",
         "One offer per series. Prices and terms — no tiny unreadable text.",
       ],
       lists: [
@@ -68,7 +68,7 @@ export const ideiStorisVkEn: BlogPost = {
             "hook / question",
             "value or product show",
             "proof (review, process)",
-            "CTA to messages or a post.",
+            "CTA to messages or a post",
           ],
         },
       ],
@@ -86,7 +86,7 @@ export const ideiStorisVkEn: BlogPost = {
       level: 2,
       paras: [
         "Mechanic: someone reacts (emoji, number, mention) — you reply personally. It warms dialogues but eats admin time.",
-        "For business it’s safer to promise a useful file, checklist, or consult slot — not posting someone’s selfie or chat screenshot “as a penalty” — those formats hurt trust.",
+        "For business it’s safer to promise a useful file, checklist, or consult slot — not posting someone’s selfie or chat screenshot “as a penalty.” Those formats hurt trust.",
       ],
       lists: [
         {
@@ -95,15 +95,15 @@ export const ideiStorisVkEn: BlogPost = {
             "emoji → a short niche tip",
             "number 1–3 → plan/package choice with a note",
             "keyword in messages → price list or booking",
-            "story mention → a giveaway only under contest rules.",
+            "story mention → a giveaway only under contest rules",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
-          text: "Promising to answer everyone and disappearing. Set a limit (“first 20”) or a template plus live follow-up.",
           kind: "tip",
+          text: "Promising to answer everyone and disappearing. Set a limit (“first 20”) or a template plus live follow-up.",
         },
       ],
       links: [

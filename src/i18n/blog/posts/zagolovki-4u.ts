@@ -11,7 +11,7 @@ export const zagolovki4uEn: BlogPost = {
     "The 4U formula for headlines and email subjects: usefulness, uniqueness, ultra-specificity, and urgency — with examples, without “conversion ×10” claims or generators for the checkbox.",
   lead: [
     "People read the headline more often than the body: in seconds they decide to stay or leave. The 4U formula helps you build a title from benefit, difference, specifics, and (when it fits) urgency — without empty “best in the world” claims.",
-    "The four pillars, what you can drop, the H1/title link, and honesty in promises. Older “catchy headline” roundups fit better inside this frame.",
+    "Below: the four pillars, what you can drop, the H1/title link, and honesty in promises. Neighboring “catchy headline” pieces fit better inside this frame.",
   ],
   faq: [
     {
@@ -54,15 +54,15 @@ export const zagolovki4uEn: BlogPost = {
       paras: [
         "Usefulness — what the reader gains (save money, know their level, get clients). Lead with a verb and outcome, not “what we have.”",
         "Uniqueness — how you’re different: condition, guarantee, format. Not the empty “personalized approach” with no fact behind it.",
-        "Ultra-specificity — numbers, timeframe, geo, segment: “up to 41%,” “in 3 months,” “for offices from $X/m².”",
+        "Ultra-specificity — numbers, timeframe, geo, segment: “up to 41%,” “in 3 months,” “for offices from … ₽/m².”",
         "Urgency — promo deadline or time to result. No real hook — drop the element.",
       ],
       lists: [
         {
           intro: "Weak → stronger:",
           items: [
-            "“Office cleaning” → “Turnkey office cleaning from … $/m²”;",
-            "“Cheap realtor” → “Sold in 3 months or $0 commission” (if true).",
+            "“Office cleaning” → “Turnkey office cleaning from … ₽/m²”",
+            "“Cheap realtor” → “Sold in 3 months or 0 ₽ commission” (if true)",
           ],
         },
       ],
@@ -74,7 +74,6 @@ export const zagolovki4uEn: BlogPost = {
         "No rigid order; usefulness often comes first. Split a long 4U headline: headline + subhead, accents on separate lines.",
         "For ad platforms check current character limits — old AdWords guide numbers age fast.",
       ],
-      lists: [],
     },
     {
       title: "SEO and honesty",
@@ -83,7 +82,6 @@ export const zagolovki4uEn: BlogPost = {
         "A keyword in H1 or title is fine if it sounds natural. Don’t break 4U for a clumsy insertion.",
         "Don’t promise the impossible (“−30 kg in a week”). Specifics must survive a fact check.",
       ],
-      lists: [],
       links: [
         {
           label: "SEO copywriting",
@@ -109,11 +107,11 @@ export const zagolovki4uEn: BlogPost = {
         {
           intro: "Checklist:",
           items: [
-            "there’s a benefit, not only the service name;",
-            "no empty “best/unique”;",
-            "there’s specificity — or a clear reason it’s missing;",
-            "urgency is honest or absent;",
-            "it reads on a phone.",
+            "there’s a benefit, not only the service name",
+            "no empty “best/unique”",
+            "there’s specificity — or a clear reason it’s missing",
+            "urgency is honest or absent",
+            "it reads on a phone",
           ],
         },
       ],
@@ -126,7 +124,6 @@ export const zagolovki4uEn: BlogPost = {
         "Not every element is mandatory in every headline.",
         "A test beats a textbook formula.",
       ],
-      lists: [],
     },
   ],
   closing: [

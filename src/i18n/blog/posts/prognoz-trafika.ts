@@ -8,10 +8,10 @@ export const prognozTrafikaEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/prognoz-trafika/cover-en.webp",
   excerpt:
-    "How to estimate potential organic traffic: semantics, frequency, realistic positions, and CTR — without the illusion of an “exact” forecast and without swapping prep for ranking in TOP.",
+    "How to estimate potential organic traffic: keyword set, frequency, realistic positions, and CTR — without the illusion of an “exact” forecast and without swapping prep for page-one rankings.",
   lead: [
-    "Owners want a number: “how many visits will SEO bring?” There’s no exact answer: seasonality, competition, and demand shift. But you can estimate approximate potential — enough not to plan on “maybe”.",
-    "The estimation logic runs core → frequency → expected positions → CTR by SERP place → sum. Site prep for promotion and the core reaching TOP are different horizons: TOP is planned over 2–6 months after work starts.",
+    "Owners want a number: “how many visits will SEO bring?” There’s no exact answer: seasonality, competition, and demand shift. But you can estimate approximate potential — enough not to plan on maybe.",
+    "Below: the estimation logic — keyword set → frequency → expected positions → CTR by SERP place → sum. Site prep for promotion and page-one visibility for the keyword set are different horizons: rankings are planned over 2–6 months after work starts.",
   ],
   faq: [
     {
@@ -24,7 +24,7 @@ export const prognozTrafikaEn: BlogPost = {
     },
     {
       q: "Is summing keyword frequencies enough?",
-      a: "No. You must account for duplicates/merged queries, click share by position, and that you won’t take TOP across the whole core at once.",
+      a: "No. You must account for duplicates and merged queries, click share by position, and that you won’t take page one across the whole set at once.",
     },
     {
       q: "Why not sum “buy car” and “car buy”?",
@@ -35,8 +35,8 @@ export const prognozTrafikaEn: BlogPost = {
       a: "Both. At strategy stage — order of magnitude; on a live site — check against fact and find growth points.",
     },
     {
-      q: "Is a forecast the same as time to TOP?",
-      a: "No. A forecast is visit potential at certain positions. Time for the core to gather TOP is separate — usually planned 2–6 months.",
+      q: "Is a forecast the same as time to page one?",
+      a: "No. A forecast is visit potential at certain positions. Time to build rankings for the keyword set is separate — usually planned 2–6 months.",
     },
   ],
   sections: [
@@ -62,7 +62,7 @@ export const prognozTrafikaEn: BlogPost = {
       title: "Four pillars of the model",
       level: 2,
       paras: [
-        "A working scheme comes down to four blocks: relevant queries, demand volume for each, expected position (or a position corridor), and CTR for those positions. Then — the sum of expected clicks across the core.",
+        "A working scheme comes down to four blocks: relevant queries, demand volume for each, expected position (or a position corridor), and CTR for those positions. Then — the sum of expected clicks across the keyword set.",
         "On large sites you may calculate priority sections and extrapolate — accuracy falls, order of magnitude usually holds.",
       ],
       lists: [
@@ -72,7 +72,7 @@ export const prognozTrafikaEn: BlogPost = {
             "keyword set / clusters",
             "frequency (no double counting)",
             "achievable position estimate",
-            "CTR by SERP place.",
+            "CTR by SERP place",
           ],
         },
       ],
@@ -91,27 +91,27 @@ export const prognozTrafikaEn: BlogPost = {
       title: "Step-by-step calculation",
       level: 2,
       paras: [
-        "Gather queries from demand stats, not “as the owner feels”. Planners and keyword tools give frequency order of magnitude but poorly catch season and sometimes merge close phrasings — don’t sum duplicates.",
-        "Estimate competition: what’s in TOP now, how heavy the landings are. That decides whether to assume positions 1–3, TOP-5, or TOP-10 in scenarios. CTR doesn’t fall linearly: the gap between 2nd and 10th is multiplicative, not “a bit less”.",
-        "For each cluster: frequency × expected position CTR (or a corridor average) = expected visits. Sum across the core. You get a ceiling under the chosen position scenario — not tomorrow’s analytics fact.",
+        "Gather queries from demand stats, not “as the owner feels.” Planners and keyword tools give frequency order of magnitude but poorly catch season and sometimes merge close phrasings — don’t sum duplicates.",
+        "Estimate competition: who’s on page one now, how heavy the landings are. That decides whether to assume positions 1–3, 1–5, or 1–10 in scenarios. CTR doesn’t fall linearly: the gap between 2nd and 10th is multiplicative, not “a bit less.”",
+        "For each cluster: frequency × expected position CTR (or a corridor average) = expected visits. Sum across the keyword set. You get a ceiling under the chosen position scenario — not tomorrow’s analytics fact.",
       ],
       lists: [
         {
           intro: "Step order:",
           items: [
-            "core and clusters",
+            "keyword set and clusters",
             "clean frequency",
             "position scenario",
             "CTR and click sum",
-            "check against fact (if the site is live).",
+            "check against fact (if the site is live)",
           ],
         },
       ],
       notes: [
         {
           title: "Important",
-          text: "Don’t confuse “potential at TOP-3 across the whole core” with a quarterly plan. Prep is about a month; gathering positions across the core is planned 2–6 months — the TOP share grows gradually.",
           kind: "tip",
+          text: "Don’t confuse “potential at positions 1–3 across the whole set” with a quarterly plan. Prep is about a month. Building rankings across the set is planned 2–6 months — page-one share grows gradually.",
         },
       ],
       links: [
@@ -129,8 +129,8 @@ export const prognozTrafikaEn: BlogPost = {
       title: "How to read the result",
       level: 2,
       paras: [
-        "The model’s output is growth points: which clusters drive most volume, where positions are already close and you need CTR/snippet work, where semantics are thin. Sometimes it’s better to strengthen 20 phrases at the edge of TOP-10 than spray across hundreds of zeros.",
-        "Check the forecast against actual traffic and visibility. A big gap is a signal: wrong positions in the model, cannibalization, tech issues, or inflated frequency. Then you fix the model and priorities — not “more budget at random”.",
+        "The model’s output is growth points: which clusters drive most volume, where positions are already close and you need CTR/snippet work, where the keyword set is thin. Sometimes it’s better to strengthen 20 phrases near positions 8–10 than spray across hundreds of zeros.",
+        "Check the forecast against actual traffic and visibility. A big gap is a signal: wrong positions in the model, cannibalization, tech issues, or inflated frequency. Then you fix the model and priorities — not “more budget at random.”",
       ],
       lists: [
         {
@@ -139,14 +139,14 @@ export const prognozTrafikaEn: BlogPost = {
             "cautious and base scenarios",
             "priority clusters",
             "what blocks fact from catching the model",
-            "work horizon separate from the visit figure.",
+            "work horizon separate from the visit figure",
           ],
         },
       ],
     },
   ],
   closing: [
-    "An SEO traffic forecast is a demand-and-positions model, not a visit promise. Count the core honestly, use realistic CTR and scenarios — and separate potential from time to TOP.",
+    "An SEO traffic forecast is a demand-and-positions model, not a visit promise. Count the keyword set honestly, use realistic CTR and scenarios — and separate potential from time to page one.",
   ],
   related: [
     "semanticheskoe-yadro",

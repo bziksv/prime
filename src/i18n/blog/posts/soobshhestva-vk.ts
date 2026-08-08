@@ -3,7 +3,7 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for soobshhestva-vk — same structure as RU JSON. */
 export const soobshhestvaVkEn: BlogPost = {
   slug: "soobshhestva-vk",
-  title: "VK communities: public page vs. group vs. event",
+  title: "VK communities: public page, group, and event",
   date: "2020-11-06",
   category: "SMM",
   cover: "/images/blog/soobshhestva-vk/cover-en.webp",
@@ -11,7 +11,7 @@ export const soobshhestvaVkEn: BlogPost = {
     "How a VK public page differs from a group and an event, when to pick which format, and how to get started — without outdated screenshots or a bot catalog.",
   lead: [
     "A VK community is a space around a topic or brand: news, chat, products, events. Several formats exist, and tools and growth tactics depend on which you choose.",
-    "We compare public pages, groups, and events, then cover type changes, branding, and content. VK’s UI shifts often; don’t treat old platform reach figures as fact. Audience growth is covered in the group-promotion article; seeding is in community ads.",
+    "Below: public page, group, and event, type changes, branding, and content. VK’s UI shifts often; don’t treat old platform reach figures as fact. Audience growth is in the group-promotion article; paid placements are in community ads.",
   ],
   faq: [
     {
@@ -40,7 +40,7 @@ export const soobshhestvaVkEn: BlogPost = {
       title: "Why business needs a community",
       level: 2,
       paras: [
-        "A community keeps contact with the audience: news, FAQ, reviews, promos, and nurture into leads. It’s not a “social checkbox,” but a working channel next to the site.",
+        "A community keeps contact with the audience: news, FAQ, reviews, promos, and nurture into leads. It’s not a social checkbox, but a working channel next to the site.",
         "Before you run ads, lock in topic, audience, and goal: leads, expertise, service, or an interest club.",
       ],
       links: [
@@ -61,10 +61,10 @@ export const soobshhestvaVkEn: BlogPost = {
         {
           intro: "When a public page fits:",
           items: [
-            "brand, media, or expert channel;",
-            "a regular feed without an invite-only club;",
-            "focus on reach and content;",
-            "shop or services via products and messages.",
+            "brand, media, or expert channel",
+            "a regular feed without an invite-only club",
+            "focus on reach and content",
+            "shop or services via products and messages",
           ],
         },
       ],
@@ -79,8 +79,8 @@ export const soobshhestvaVkEn: BlogPost = {
       notes: [
         {
           title: "Important",
-          text: "Old claims like “a group never appears on the home feed” age with the feed. Use current delivery and your own stats, not a 2018 myth.",
           kind: "tip",
+          text: "Old claims like “a group never appears on the home feed” age with the feed. Use current delivery and your own stats, not a 2018 myth.",
         },
       ],
     },
@@ -116,7 +116,7 @@ export const soobshhestvaVkEn: BlogPost = {
       paras: [
         "Mix value, news, social proof, and soft sales. The wall is the main stage: text, visuals, polls, clips — by niche.",
         "Bots handle routine (FAQ, lead statuses) but don’t replace a clear offer and live answers on hard questions. We don’t catalog 2020 bot builders — pick a current tool within VK rules.",
-        "Promotion: VK ads account, seeding in topical publics, partner reposts. “Guaranteed sales growth” from merely creating a community is a marketing myth.",
+        "Promotion: VK ads account, paid placements in topical publics, partner reposts. “Guaranteed sales growth” from merely creating a community is a marketing myth.",
       ],
       links: [
         {

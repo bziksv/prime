@@ -11,7 +11,7 @@ export const reklamnyyBannerEn: BlogPost = {
     "How to make an ad banner people notice: offer, hierarchy, CTA, sizes, fighting banner blindness, and careful pop-ups — without outdated “trends for trends’ sake.”",
   lead: [
     "A banner is one of the oldest online ad formats: an image or HTML5 block linking to an offer. It’s still used in networks, on sites, and in media — but attention is shorter and blockers are more common.",
-    "These are the creative principles that drive clicks without annoying people. Measuring a competitor’s banner size is a separate article; here we focus on message, composition, and UX.",
+    "Below: creative principles that drive clicks without annoying people. Measuring a competitor’s banner size is a separate article; here we focus on message, composition, and UX.",
   ],
   faq: [
     {
@@ -55,10 +55,10 @@ export const reklamnyyBannerEn: BlogPost = {
         {
           intro: "On the banner people should read:",
           items: [
-            "the offer or promo essence;",
-            "the brand or a recognizable product;",
-            "a call to action;",
-            "where the click goes (landing match).",
+            "the offer or promo essence",
+            "the brand or a recognizable product",
+            "a call to action",
+            "where the click goes (landing match)",
           ],
         },
       ],
@@ -74,11 +74,11 @@ export const reklamnyyBannerEn: BlogPost = {
         {
           intro: "Layout checklist:",
           items: [
-            "little text, large key words;",
-            "brand not hidden in a 5 px corner;",
-            "button/ask is noticeable;",
-            "file is light, type isn’t mushy;",
-            "safe margins: text not at the crop edge.",
+            "little text, large key words",
+            "brand not hidden in a 5 px corner",
+            "button/ask is noticeable",
+            "file is light, type isn’t mushy",
+            "safe margins: text not at the crop edge",
           ],
         },
       ],
@@ -111,10 +111,10 @@ export const reklamnyyBannerEn: BlogPost = {
         {
           intro: "Before launch confirm:",
           items: [
-            "allowed sizes and weight;",
-            "static / HTML5 / video;",
-            "text and branding rules;",
-            "where the UTM goes and which landing.",
+            "allowed sizes and weight",
+            "static / HTML5 / video",
+            "text and branding rules",
+            "where the UTM goes and which landing",
           ],
         },
       ],
@@ -136,7 +136,6 @@ export const reklamnyyBannerEn: BlogPost = {
         "People learned not to see “ad-like” zones. Flashing and acid colors rarely cure blindness — they more often annoy. Stronger: relevance (the banner matches what the person is viewing), fresh creative, and match to site expectations.",
         "Test 2–3 offer and visual variants. Don’t change “everything at once” — change a hypothesis: benefit, headline, product in frame.",
       ],
-      lists: [],
     },
     {
       title: "Pop-up: when it fits, when it doesn’t",
@@ -149,10 +148,10 @@ export const reklamnyyBannerEn: BlogPost = {
         {
           intro: "If you still use a pop-up:",
           items: [
-            "trigger by time/scroll, not instantly;",
-            "one offer;",
-            "easy to close;",
-            "not more often than a sensible per-session limit.",
+            "trigger by time/scroll, not instantly",
+            "one offer",
+            "easy to close",
+            "not more often than a sensible per-session limit",
           ],
         },
       ],
@@ -168,10 +167,10 @@ export const reklamnyyBannerEn: BlogPost = {
         {
           intro: "Before scaling:",
           items: [
-            "landing matches the offer;",
-            "an analytics goal exists;",
-            "creatives rotate;",
-            "page weight and speed are fine.",
+            "landing matches the offer",
+            "an analytics goal exists",
+            "creatives rotate",
+            "page weight and speed are fine",
           ],
         },
       ],

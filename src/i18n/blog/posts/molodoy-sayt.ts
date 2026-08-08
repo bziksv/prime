@@ -11,11 +11,11 @@ export const molodoySaytEn: BlogPost = {
     "Where to start SEO for a new site: tech, content, commercial factors, and realistic timelines — without behavioral gaming or “bypass competitor” secrets.",
   lead: [
     "A young site rarely outranks strong competitors in a week. First: index, tech, clear service pages, and trust — then demand growth.",
-    "Work order, commercial signals, trust, and common traps follow. We don’t cover gaming behavioral signals or gray-hat schemes — and we don’t recommend those tactics. Site prep ≠ TOP: rankings for the keyword set are planned over 2–6 months after SEO starts.",
+    "Below: work order, commercial signals, trust, and common traps. We don’t cover gaming behavioral signals or gray-hat schemes — and we don’t recommend them.",
   ],
   faq: [
     {
-      q: "Is there a young-site “sandbox” filter?",
+      q: "Is there a young-site “sandbox”?",
       a: "There’s no endless “young = don’t rank” filter as a button. A new domain still needs time for crawl, trust, and useful signals.",
     },
     {
@@ -27,7 +27,7 @@ export const molodoySaytEn: BlogPost = {
       a: "No. Sanction risk. Improve UX and attract real traffic: content, ads, PR.",
     },
     {
-      q: "When should I expect TOP rankings?",
+      q: "When should I expect page one?",
       a: "Prep — weeks (~a month as a guide). Noticeable ranking gains for the core — planned 2–6 months after work starts.",
     },
     {
@@ -43,8 +43,8 @@ export const molodoySaytEn: BlogPost = {
       a: "It can bring first leads and demand data if economics work. It doesn’t replace SEO, but it tests offer and landings.",
     },
     {
-      q: "Should I pick a new domain or an aged one with history?",
-      a: "A clean aged domain can speed the start; a “dirty” one is worse than new. Check sanctions and link profile before buying.",
+      q: "New domain or aged with history?",
+      a: "A clean aged domain can speed the start; a dirty one is worse than new. Check sanctions and link profile before buying.",
     },
   ],
   sections: [
@@ -63,7 +63,7 @@ export const molodoySaytEn: BlogPost = {
             "sitemap and indexing",
             "semantics and priorities",
             "Title/H1 templates without clones",
-            "Webmaster and Metrika.",
+            "Webmaster and Metrika",
           ],
         },
       ],
@@ -93,14 +93,15 @@ export const molodoySaytEn: BlogPost = {
             "cases and facts",
             "fast forms",
             "honest reviews and company details",
-            "a contacts page without a quest.",
+            "a contacts page without a quest",
           ],
         },
       ],
       notes: [
         {
           title: "Timelines",
-          text: "Prep for promotion is often ~a month. Getting a commercial core into TOP is a separate stage of 2–6 months.",
+          kind: "tip",
+          text: "Prep for promotion is often ~a month. Commercial-core page-one share is a separate stage of 2–6 months.",
         },
       ],
     },
@@ -108,7 +109,7 @@ export const molodoySaytEn: BlogPost = {
       title: "Analytics from day one",
       level: 2,
       paras: [
-        "Without counters and goals you can’t tell “site isn’t moving” from “we don’t see leads”. Set Metrika/Analytics, goals, Webmaster, and Search Console before heavy publishing.",
+        "Without counters and goals you can’t tell “site isn’t moving” from “we don’t see leads.” Set Metrika/Analytics, goals, Webmaster, and Search Console before heavy publishing.",
         "Watch indexing of priority URLs, bounce on landings, where first inquiries come from. Even modest traffic yields edit hypotheses.",
       ],
       lists: [
@@ -118,7 +119,7 @@ export const molodoySaytEn: BlogPost = {
             "counter and lead/call goals",
             "Webmaster + sitemap",
             "a priority URL list to monitor",
-            "a weekly look at crawl errors.",
+            "a weekly look at crawl errors",
           ],
         },
       ],
@@ -138,7 +139,7 @@ export const molodoySaytEn: BlogPost = {
       level: 2,
       paras: [
         "Prep usually takes about a month: audit, critical fixes, semantics, priority pages, analytics. On a complex project stages run longer.",
-        "TOP ≠ the date you start work. For a commercial core, rankings grow planned over 2–6 months: a noticeable chunk nearer month 2–3, the rest by competition and site quality.",
+        "Page one ≠ the date you start work. For a commercial core, rankings grow planned over 2–6 months: a noticeable chunk nearer month 2–3, the rest by competition and site quality.",
       ],
       lists: [
         {
@@ -147,7 +148,7 @@ export const molodoySaytEn: BlogPost = {
             "indexing of priority pages",
             "share of target queries in visibility",
             "organic and inquiries by channel",
-            "pages with growing impressions but weak conversion.",
+            "pages with growing impressions but weak conversion",
           ],
         },
       ],
@@ -158,7 +159,7 @@ export const molodoySaytEn: BlogPost = {
           rows: [
             ["Prep / start of work", "~weeks–a month"],
             ["Building rankings for the core", "planned 2–6 mo."],
-            ["“TOP in a week via behavioral gaming”", "not a goal — a risk"],
+            ["“Page one in a week via behavioral gaming”", "not a goal — a risk"],
           ],
         },
       ],
@@ -177,7 +178,7 @@ export const molodoySaytEn: BlogPost = {
             "profiles on maps and directories",
             "cases with client consent",
             "expert comments",
-            "content worth linking to.",
+            "content worth linking to",
           ],
         },
       ],
@@ -207,7 +208,7 @@ export const molodoySaytEn: BlogPost = {
             "regular analytics",
             "improve pages with bounce",
             "patience and iterations",
-            "an explicit no to gray “accelerators”.",
+            "an explicit no to gray “accelerators”",
           ],
         },
       ],
@@ -222,7 +223,7 @@ export const molodoySaytEn: BlogPost = {
       title: "When to add ads and PR",
       level: 2,
       paras: [
-        "Search and social ads help test demand and collect first leads while organic builds. Don’t mix “bought clicks” with “hit SEO TOP” in your head.",
+        "Search and social ads help test demand and collect first leads while organic builds. Don’t mix “bought clicks” with “hit SEO page one” in your head.",
         "PR and partnerships grow brand queries and mentions. That’s a long game beside SEO — not a substitute for tech and content.",
       ],
       lists: [
@@ -232,7 +233,7 @@ export const molodoySaytEn: BlogPost = {
             "test the offer in Direct/Ads at a sane CPA",
             "map cards",
             "selective expert publishes",
-            "not — link packs “for TOP”.",
+            "not — link packs “for page one”",
           ],
         },
       ],

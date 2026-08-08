@@ -11,10 +11,10 @@ export const udalenieBotovInstagramEn: BlogPost = {
     "Why clean bots on Instagram, how to spot a dead audience, why a sharp mass purge hits reach, and what’s dangerous about third-party “auto-cleaners” that ask for your login.",
   lead: [
     "Bots and empty profiles among followers inflate the count and kill engagement rate (ER): reach and advertisers look at live activity, not “100k on the storefront.” Often bots follow your own fake engagement or mass-follow habits.",
-    "Spot junk audience by patterns, clean in batches so reach doesn’t tank, and skip auto-service catalogs that want your Instagram password. See the Meta disclaimer on this page.",
+    "Below: signs of a junk audience, safer cleanup logic, and why we don’t recommend auto-service catalogs that want your Instagram password. See the Meta notice on this page.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -44,11 +44,10 @@ export const udalenieBotovInstagramEn: BlogPost = {
       title: "Why bots hurt",
       level: 2,
       paras: [
-        "Algorithms and advertisers look at interactions. A dead base means low ER next to a “pretty” follower count.",
-        "Fake engagement and mass-following bring bots themselves. Competitor “bot attacks” happen, but your own shady growth is more often to blame.",
-        "Cleanup doesn’t replace strategy: weak content will kill a “clean” profile too.",
+        "Algorithms and advertisers look at interactions. A dead base means low ER next to a pretty follower count.",
+        "Fake engagement and mass-following bring bots themselves. Competitor bot attacks happen, but your own shady growth is more often to blame.",
+        "Cleanup doesn’t replace strategy: weak content will kill a clean profile too.",
       ],
-      lists: [],
       links: [
         {
           label: "Fake likes: risks",
@@ -72,10 +71,10 @@ export const udalenieBotovInstagramEn: BlogPost = {
         {
           intro: "Red flags:",
           items: [
-            "a sharp follower jump without reach;",
-            "geo or language off for the product;",
-            "zero saves and comments while the base “grows”;",
-            "a history of buying fake engagement from a vendor.",
+            "a sharp follower jump without reach",
+            "geo or language off for the product",
+            "zero saves and comments while the base “grows”",
+            "a history of buying fake engagement from a vendor",
           ],
         },
       ],
@@ -88,10 +87,10 @@ export const udalenieBotovInstagramEn: BlogPost = {
         "Plan cleanup in batches and strengthen content, Stories, and replies in parallel — so ER doesn’t hit zero during the repair.",
         "Hard “50–100 a day” limits from old guides aren’t canon: the guide is moderation and no complaints or limits — not someone else’s 2020 number.",
       ],
-      lists: [],
       notes: [
         {
           title: "Important",
+          kind: "tip",
           text: "After cleanup don’t go back to buying growth “so the number doesn’t drop” — that’s a self-deception loop.",
         },
       ],
@@ -101,10 +100,9 @@ export const udalenieBotovInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "For smaller bases: open the followers list, open a profile, then remove, Restrict, or block as needed.",
-        "Start with comment spammers and obvious empties — not “everyone without an avatar.”",
+        "Start with comment spammers and obvious empties — not everyone without an avatar.",
         "Log how many you remove per day so you don’t crash the metrics.",
       ],
-      lists: [],
     },
     {
       title: "Third-party “auto-cleaners”",
@@ -114,7 +112,6 @@ export const udalenieBotovInstagramEn: BlogPost = {
         "We don’t carry forward Zengram / InstaPlus / Spam Guard catalogs from old reviews as recommendations: products change, and many are shady.",
         "If you use any helper — only with Meta ToS in mind and without giving passwords to shady sites. The best long-term path is manual moderation plus quitting fake growth.",
       ],
-      lists: [],
       links: [
         {
           label: "Audience parsing: risks",
@@ -127,10 +124,9 @@ export const udalenieBotovInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "Watch ER and reach for 2–4 weeks: they should stabilize on a more honest base.",
-        "For growth — content, collabs, legal ads or seeding — not a new pack of bots.",
+        "For growth — content, collabs, legal ads or paid placements — not a new pack of bots.",
         "Advertisers prefer a smaller but live audience.",
       ],
-      lists: [],
     },
     {
       title: "What to remember",
@@ -140,11 +136,10 @@ export const udalenieBotovInstagramEn: BlogPost = {
         "Don’t chase auto-services that want your login.",
         "Live ER beats a pretty follower count.",
       ],
-      lists: [],
     },
   ],
   closing: [
-    "Remove obvious spam and a batch of empties this week, turn off any “growth services,” and compare ER in a month — more honest than an auto-cleaner’s promises.",
+    "Remove obvious spam and a batch of empties this week, turn off any growth services, and compare ER in a month — more honest than an auto-cleaner’s promises.",
   ],
   related: [
     "nakrutka-laykov-instagram",

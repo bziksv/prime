@@ -3,7 +3,7 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for kommentarii-instagram — same structure as RU JSON. */
 export const kommentariiInstagramEn: BlogPost = {
   slug: "kommentarii-instagram",
-  title: "Instagram comments for business: why they matter, how to reply, and how to moderate",
+  title: "Instagram comments for business: reply, moderate, stay human",
   date: "2021-05-28",
   category: "SMM",
   cover: "/images/blog/kommentarii-instagram/cover-en.webp",
@@ -11,15 +11,15 @@ export const kommentariiInstagramEn: BlogPost = {
     "Why a commercial Instagram account needs comments, how to handle questions and negativity, what to set in moderation, and why spam schemes with hashtags in comments hurt.",
   lead: [
     "Comments are a dialogue channel next to the post: pre-purchase questions, reviews, objections. For business that’s not “extra noise” — it’s service and an engagement signal.",
-    "Reply speed, tone, and moderation rules matter more than menu screenshots — in-app buttons change. Below: why you should reply, how to edit or delete, filter settings, and typical mistakes. Meta’s legal note is on the page.",
+    "Below: why you should reply, how to edit or delete, filter settings, and typical mistakes. In-app buttons change; conversation rules matter more than menu screenshots. The Meta notice is on the page.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
-      q: "Does a business Instagram account need comments?",
+      q: "Does a business account need comments?",
       a: "Yes: answers to questions, loyalty, and live social proof. Ignoring often cuts conversion more than an imperfect visual.",
     },
     {
@@ -28,7 +28,7 @@ export const kommentariiInstagramEn: BlogPost = {
     },
     {
       q: "Do hashtags in comments under my own posts help?",
-      a: "As a “boost reach” scheme — weak and risky. Better: relevant tags in the post and real replies to people.",
+      a: "As a “force more discovery” scheme — weak and risky. Better: relevant tags in the post and real replies to people.",
     },
     {
       q: "What if I can’t leave a comment?",
@@ -63,10 +63,10 @@ export const kommentariiInstagramEn: BlogPost = {
         {
           intro: "Practical value:",
           items: [
-            "handle objections before Direct;",
-            "collect frequent questions for the next content;",
-            "loyalty from “I was heard”;",
-            "public cases and thanks.",
+            "handle objections before Direct",
+            "collect frequent questions for the next content",
+            "loyalty from “I was heard”",
+            "public cases and thanks",
           ],
         },
       ],
@@ -82,10 +82,10 @@ export const kommentariiInstagramEn: BlogPost = {
         {
           intro: "Reply checklist:",
           items: [
-            "you understood the question;",
-            "you gave a clear answer or status;",
-            "you said where to write next;",
-            "tone matches good offline service.",
+            "you understood the question",
+            "you gave a clear answer or status",
+            "you said where to write next",
+            "tone matches good offline service",
           ],
         },
       ],
@@ -107,7 +107,6 @@ export const kommentariiInstagramEn: BlogPost = {
         "Comment settings usually include unwanted-word filters and who can comment. That cuts spam, but doesn’t replace manual review of edge cases.",
         "If commenting won’t work: check account limits, action-block status, and the post author’s settings. Don’t use auto-commenting and fake engagement — restriction risk outweighs the benefit.",
       ],
-      lists: [],
       links: [
         {
           label: "Instagram bans",
@@ -137,7 +136,6 @@ export const kommentariiInstagramEn: BlogPost = {
         "Lock a reply SLA (e.g. during business hours), templates for frequent questions, and escalation for negativity. Access via account roles — not by forwarding the password.",
         "Periodically move frequent comment questions into a site FAQ or Highlights — fewer repeats, stronger trust.",
       ],
-      lists: [],
       links: [
         {
           label: "SMM manager",

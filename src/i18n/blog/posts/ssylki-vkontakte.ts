@@ -10,8 +10,8 @@ export const ssylkiVkontakteEn: BlogPost = {
   excerpt:
     "How to make a clickable mention of a person or community on VKontakte, attach a site link with a preview, and copy a post URL — without confusing them with a bare browser address.",
   lead: [
-    "On VK, a “clean link” isn’t just the raw address from the browser bar. More often it means a clickable profile or group mention with a label, or an external site card with a preview.",
-    "That formatting matters for tagging people, sending traffic to your site, and sharing an exact post. The VK UI changes — focus on syntax and meaning, not button screenshots.",
+    "On VK, a “styled link” isn’t just the raw address from the browser bar. More often it means a clickable profile or group mention with a label, or an external site card with a preview.",
+    "Below: why that formatting matters, how to tag a user or community, how to attach an external URL, and how to copy a link to a specific post. The VK UI changes — focus on syntax and meaning, not button screenshots.",
   ],
   faq: [
     {
@@ -59,10 +59,10 @@ export const ssylkiVkontakteEn: BlogPost = {
         {
           intro: "Typical jobs:",
           items: [
-            "tag a person in a post or comment;",
-            "credit authorship;",
-            "announce a site article;",
-            "send colleagues the exact post URL.",
+            "tag a person in a post or comment",
+            "credit authorship",
+            "announce a site article",
+            "send colleagues the exact post URL",
           ],
         },
       ],
@@ -78,10 +78,10 @@ export const ssylkiVkontakteEn: BlogPost = {
         {
           intro: "Practical tips:",
           items: [
-            "verify the click opens the right profile;",
-            "don’t spam mentions — it annoys people and kills trust;",
-            "in communities, tagging winners and speakers works well;",
-            "respect privacy and block lists.",
+            "verify the click opens the right profile",
+            "don’t spam mentions — it annoys people and kills trust",
+            "in communities, tagging winners and speakers works well",
+            "respect privacy and block lists",
           ],
         },
       ],
@@ -103,7 +103,6 @@ export const ssylkiVkontakteEn: BlogPost = {
         "Copy the page’s HTTPS address and paste it into the post with spaces around it. VK usually pulls a preview: title, description, image. You can refresh or remove the preview in the post editor if needed.",
         "For analytics, add UTMs on the site side. Don’t paste other people’s articles wholesale — a short teaser and a link to the source is better.",
       ],
-      lists: [],
       links: [
         {
           label: "UTM tags explained",
@@ -122,12 +121,11 @@ export const ssylkiVkontakteEn: BlogPost = {
         "Open the post as its own page (often via the publish date) and copy the URL. Send it in messages, paste into another post, or use it in contests and reports.",
         "Alternatively, use Share: repost to a wall or community without hand-copying. For a team, a short exact post URL cuts “which one from the feed?” confusion.",
       ],
-      lists: [],
       notes: [
         {
           title: "Tip",
-          text: "Before mass-sharing a link, check that the post is open to the audience (wall or community not closed to recipients).",
           kind: "tip",
+          text: "Before mass-sharing a link, check that the post is open to the audience (wall or community not closed to recipients).",
         },
       ],
       links: [

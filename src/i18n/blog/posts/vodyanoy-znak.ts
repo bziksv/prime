@@ -11,8 +11,12 @@ export const vodyanoyZnakEn: BlogPost = {
     "What a watermark on digital photos is: protection and branding, downsides for perception and sharing, how to apply it carefully, and alternatives (previews, contracts, metadata).",
   lead: [
     "A watermark is a semi-transparent signature, logo, or URL overlaid on an image. The idea came from paper and banknotes; on the web the mark reminds viewers of the author and slightly complicates “quiet” copying.",
-    "A watermark can deter casual theft, but it doesn’t replace legal protection — and a heavy mark can ruin the shot. Opacity, size, and placement matter more than which Photoshop panel you use.",
+    "Below: when a watermark fits, why it doesn’t replace legal protection, and how not to ruin the shot. Online-tool buttons and Photoshop panels change — the principle matters: opacity, size, placement.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Is a watermark the same as legal protection?",
@@ -28,7 +32,7 @@ export const vodyanoyZnakEn: BlogPost = {
     },
     {
       q: "Do I need it on every site photo?",
-      a: "Not always. For portfolios and stock — more often yes; for UX illustrations and social sharing, a clean smaller preview is sometimes better.",
+      a: "Not always. For portfolios and licensed-asset marketplaces — more often yes; for UX illustrations and social sharing, a clean smaller preview is sometimes better.",
     },
     {
       q: "What can replace a watermark?",
@@ -40,7 +44,7 @@ export const vodyanoyZnakEn: BlogPost = {
       title: "Why people add them and who benefits",
       level: 2,
       paras: [
-        "On stock sites and among photographers, a watermark lowers the temptation to download “as is” and also advertises the author if the image keeps traveling online.",
+        "On photo libraries and among photographers, a watermark lowers the temptation to download “as is” and also advertises the author if the image keeps traveling online.",
         "Site owners mark visuals with a logo or domain: protection plus recognition. A good mark is almost unnoticeable but readable when copied.",
         "Marketers sometimes make the mark part of the brand: the image “wanders,” the logo travels with it. That works only if the mark doesn’t ruin the composition.",
       ],
@@ -48,10 +52,10 @@ export const vodyanoyZnakEn: BlogPost = {
         {
           intro: "Typical goals:",
           items: [
-            "reduce free-riding copies;",
-            "credit the author on a repost;",
-            "strengthen brand on shared previews;",
-            "distinguish a demo frame from a paid license.",
+            "reduce free-riding copies",
+            "credit the author on a repost",
+            "strengthen brand on shared previews",
+            "distinguish a demo frame from a paid license",
           ],
         },
       ],
@@ -73,18 +77,18 @@ export const vodyanoyZnakEn: BlogPost = {
         "Downsides: the mark distracts from the image; a crude watermark looks cheap; social sharing drops if the image is “smeared”; legally, one corner logo isn’t enough.",
         "Tools: a graphics editor (Photoshop, Photopea, GIMP, and peers), batch processing in Lightroom or plugins, online services with file upload. Don’t upload photos with sensitive data to shady sites — for commercial originals, local software is preferable.",
         "Application practice: a separate layer, 15–40% opacity, contrast against the background, one style across the site. For portfolios, a small preview without a mark plus the full file on request or payment is sometimes better.",
-        "Whether to use one depends on the goal: stock and selling rights — more often yes; atmospheric blog illustrations — case by case; if sharing and aesthetics matter more — previews and contracts beat a fat logo across half the frame.",
+        "Whether to use one depends on the goal: selling licenses — more often yes; atmospheric blog illustrations — case by case; if sharing and aesthetics matter more — previews and contracts beat a fat logo across half the frame.",
         "Bottom line: a watermark is a useful protection and brand layer, not armor. Apply it carefully or choose previews and a legal framework.",
       ],
       lists: [
         {
           intro: "Careful watermark checklist:",
           items: [
-            "doesn’t cover face or product;",
-            "one style across the series;",
-            "readable on a preview but doesn’t shout;",
-            "a backup file without the mark exists;",
-            "rights and licenses handled separately.",
+            "doesn’t cover face or product",
+            "one style across the series",
+            "readable on a preview but doesn’t shout",
+            "a backup file without the mark exists",
+            "rights and licenses handled separately",
           ],
         },
       ],

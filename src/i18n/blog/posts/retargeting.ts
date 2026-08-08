@@ -10,8 +10,8 @@ export const retargetingEn: BlogPost = {
   excerpt:
     "Retargeting brings back people who already visited: cart, product view, visit without action. How it differs from targeting, which types exist, and how not to annoy the audience.",
   lead: [
-    "Retargeting (remarketing) shows ads to people who already touched the site or app but didn’t finish the goal. Targeting finds a new audience by gender, geo, interests; retargeting works with a “warm” base.",
-    "We cover how it works in practice, campaign types, where to set it up, and typical risks. Holiday tactics are a separate post; this is the foundation.",
+    "Retargeting (remarketing) shows ads to people who already touched the site or app but didn’t finish the goal. Targeting finds a new audience by gender, geo, interests; retargeting works with a warm base.",
+    "Below: how it works in practice, campaign types, where to set it up, and typical risks. Holiday tactics are a separate post; this is the foundation.",
   ],
   faq: [
     {
@@ -28,15 +28,15 @@ export const retargetingEn: BlogPost = {
     },
     {
       q: "What is dynamic retargeting?",
-      a: "Showing specific products/services the person viewed, not a generic store banner. Usually stronger than “just the logo”.",
+      a: "Showing specific products/services the person viewed, not a generic store banner. Usually stronger than “just the logo.”",
     },
     {
-      q: "Why do retargeting ads annoy people?",
+      q: "Why do the ads annoy people?",
       a: "Frequent shows of one creative and no exclusion of buyers. Cap frequency, refresh the offer, exclude conversions.",
     },
     {
       q: "How long until I see an effect?",
-      a: "Depends on audience size and offer. Expect weeks to gather stats; don’t wait for “magic in 3 days”.",
+      a: "Depends on audience size and offer. Expect weeks to gather stats; don’t wait for magic in three days.",
     },
     {
       q: "Is retargeting only for stores?",
@@ -53,16 +53,16 @@ export const retargetingEn: BlogPost = {
       level: 2,
       paras: [
         "A visitor viewed a product, added to cart, and left. The “cart without purchase” segment gets ads with that product or a discount — on Yandex Advertising Network sites, search, social, or display, depending on the account.",
-        "The point isn’t to “chase everyone”, but a relevant reminder at the funnel stage where interest already showed.",
+        "The point isn’t to chase everyone, but a relevant reminder at the funnel stage where interest already showed.",
       ],
       lists: [
         {
           intro: "Typical loop:",
           items: [
-            "counter records the action;",
-            "segment in audiences/account;",
-            "separate retarget campaign;",
-            "offer by stage (view / cart / abandoned form).",
+            "counter records the action",
+            "segment in audiences/account",
+            "separate retarget campaign",
+            "offer by stage (view / cart / abandoned form)",
           ],
         },
       ],
@@ -71,17 +71,17 @@ export const retargetingEn: BlogPost = {
       title: "Why it belongs in ads",
       level: 2,
       paras: [
-        "Cold traffic is pricier to take to purchase. Some visits break on choice, delivery, distraction — retarget cheaper “catches up” people already warmed.",
+        "Cold traffic is pricier to take to purchase. Some visits break on choice, delivery, distraction — retarget cheaper catches up people already warmed.",
         "Each funnel stage gets its creative: a promo for quick leavers, category value for card viewers, cart reminder for almost-buyers.",
       ],
       lists: [
         {
           intro: "Touch stages:",
           items: [
-            "visit without depth;",
-            "product/service view;",
-            "cart / form not submitted;",
-            "purchase (exclude or upsell).",
+            "visit without depth",
+            "product/service view",
+            "cart / form not submitted",
+            "purchase (exclude or upsell)",
           ],
         },
       ],
@@ -97,7 +97,7 @@ export const retargetingEn: BlogPost = {
       level: 2,
       paras: [
         "Targeting sets whom to find online: demographics, interests, geo, look-alike. Retargeting works with those who already left a digital trail with you.",
-        "Shared goal — sales and leads; different entry: “find the right people” vs “bring familiars back”. Weak targeting gives little base for retarget; without retarget you pay again for the same people via cold campaigns.",
+        "Shared goal — sales and leads; different entry: “find the right people” vs “bring familiars back.” Weak targeting gives little base for retarget; without retarget you pay again for the same people via cold campaigns.",
       ],
       tables: [
         {
@@ -122,10 +122,10 @@ export const retargetingEn: BlogPost = {
         {
           intro: "What to pick for a start:",
           items: [
-            "Metrica/pixel segments by URL;",
-            "exclude buyers;",
-            "dynamic feed if the catalog is large;",
-            "separate budget and frequency cap.",
+            "Metrica/pixel segments by URL",
+            "exclude buyers",
+            "dynamic feed if the catalog is large",
+            "separate budget and frequency cap",
           ],
         },
       ],
@@ -147,11 +147,11 @@ export const retargetingEn: BlogPost = {
         {
           intro: "Launch minimum:",
           items: [
-            "counter and goals verified;",
-            "“were here / didn’t buy” segment;",
-            "frequency cap;",
-            "UTM on ads;",
-            "offer not older than what’s on the site.",
+            "counter and goals verified",
+            "were here / didn’t buy segment",
+            "frequency cap",
+            "UTM on ads",
+            "offer not older than what’s on the site",
           ],
         },
       ],
@@ -170,14 +170,14 @@ export const retargetingEn: BlogPost = {
       title: "Risks and common sense",
       level: 2,
       paras: [
-        "A pushy identical banner hurts the brand. Retarget doesn’t see an offline purchase — the person already bought from a competitor while the ad still “catches up”.",
-        "Exclude buyers, rotate creatives, limit segment lifetime. Measure by segment CPA/ROMI (return on marketing investment), not “I feel we see our banner a lot”.",
+        "A pushy identical banner hurts the brand. Retarget doesn’t see an offline purchase — the person already bought from a competitor while the ad still catches up.",
+        "Exclude buyers, rotate creatives, limit segment lifetime. Measure by segment CPA/ROMI, not “I feel we see our banner a lot.”",
       ],
       notes: [
         {
           title: "Important",
-          text: "Retarget strengthens the funnel but doesn’t replace product, pricing, and site usability. A leaky checkout won’t be saved by a perfect segment.",
           kind: "tip",
+          text: "Retarget strengthens the funnel but doesn’t replace product, pricing, and site usability. A leaky checkout won’t be saved by a perfect segment.",
         },
       ],
       links: [

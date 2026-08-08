@@ -3,19 +3,19 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for domen-pervogo-urovnya — same structure as RU JSON. */
 export const domenPervogoUrovnyaEn: BlogPost = {
   slug: "domen-pervogo-urovnya",
-  title: "Top-level domains: what they are and how they affect SEO",
+  title: "First-level domains: what a TLD is and how it affects SEO",
   date: "2021-10-12",
   category: "SEO",
   cover: "/images/blog/domen-pervogo-urovnya/cover-en.webp",
   excerpt:
-    "What a top-level domain (TLD) is: .ru, .com, and other zones. How name levels differ, how the zone ties to SEO and traffic, and how to choose a name.",
+    "What a first-level domain (TLD) is: .ru, .com, and other zones. How name levels differ, how the zone ties to SEO and traffic, and how to choose a name.",
   lead: [
-    "A top-level domain (TLD) is the tail after the last dot: `.ru`, `.com`, `.online`. Site owners don’t invent zones — they already exist; creativity lives in the second-level name.",
-    "How domain levels work, what zone types exist, and a realistic take on SEO impact. A good name helps brand and SERP clicks, but it doesn’t replace content, tech, and links.",
+    "A first-level domain (TLD) is the tail after the last dot: `.ru`, `.com`, `.online`. Site owners don’t invent zones — they already exist; creativity lives in the second-level name.",
+    "Below: how domain levels work, what zone types exist, and a realistic take on SEO impact. A good name helps the brand and SERP clicks, but it doesn’t replace content, tech, and links.",
   ],
   faq: [
     {
-      q: "What is a top-level domain?",
+      q: "What is a first-level domain?",
       a: "A TLD is the zone at the end of the name (`example.ru` → `.ru`). Everything to the left is a lower level (second, third, and so on).",
     },
     {
@@ -91,14 +91,15 @@ export const domenPervogoUrovnyaEn: BlogPost = {
             "a brand or clear general word beats a narrow “pizza-sushi-2021”",
             "check trademarks and confusion with competitors",
             "canonicalize www/non-www and HTTPS with redirects",
-            "don’t expect rankings only because of a `.ru` zone",
+            "don’t expect page-one rankings only because of a `.ru` zone",
           ],
         },
       ],
       notes: [
         {
           title: "Timelines",
-          text: "Picking a domain is part of site prep. Reaching the top on a commercial keyword set is a separate process — planned over 2–6 months of work, not the result of one zone.",
+          kind: "tip",
+          text: "Picking a domain is part of site prep. Ranking for a commercial keyword set is a separate process — often planned over 2–6 months of work, not the result of one zone.",
         },
       ],
     },

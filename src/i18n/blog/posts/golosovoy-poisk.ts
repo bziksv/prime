@@ -8,10 +8,10 @@ export const golosovoyPoiskEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/golosovoy-poisk/cover-en.webp",
   excerpt:
-    "How to prep a site for voice queries: conversational long-tail, FAQ and short answers, mobile speed, HTTPS, local search — without a cult of “separate SEO” or ranking guarantees.",
+    "How to prep a site for voice queries: conversational long-tail, FAQ and short answers, mobile speed, HTTPS, local search — without a cult of “separate SEO” or page-one guarantees.",
   lead: [
     "Voice search still runs on the same engines, but the query is often longer, more conversational, and more often from a phone: “pharmacy open near me,” “how to fix a kitchen faucet.” Assistants and quick answers favor clear fragments, FAQs, and pages that already work well in regular results.",
-    "What really affects visibility in voice scenarios, which query types to cover, and how to gather keywords and structure answers. Voice-traffic share figures in old roundups diverge — follow your audience and Search Console, not someone else’s pie chart.",
+    "Below: what really affects visibility in voice scenarios, which query types to cover, and how to gather keywords and structure answers. Voice-traffic share figures in old roundups diverge — follow your audience and Search Console, not a magic percentage from a 2018 article. Page-one visibility for the keyword set is planned over months after prep — not a “voice SEO” button.",
   ],
   faq: [
     {
@@ -24,7 +24,7 @@ export const golosovoyPoiskEn: BlogPost = {
     },
     {
       q: "Is a 30-word short answer enough?",
-      a: "A short direct answer up top helps snippets/assistants, but the page must go deeper. One paragraph with no context rarely builds trust.",
+      a: "A short direct answer near the start helps snippets/assistants, but the page must go deeper. One paragraph with no context rarely builds trust.",
     },
     {
       q: "Is Schema.org markup required for voice?",
@@ -40,7 +40,7 @@ export const golosovoyPoiskEn: BlogPost = {
     },
     {
       q: "Will I get into a voice answer in a week?",
-      a: "Not as a promise. First prep pages and tech; rankings and featured answers grow month to month. The planned ranking horizon for the keyword set is usually 2–6 months after work starts.",
+      a: "Not as a promise. First prep pages and tech; rankings and featured answers grow month to month. The planned horizon for the keyword set is usually 2–6 months after work starts.",
     },
     {
       q: "How is this different from a normal site FAQ?",
@@ -52,7 +52,7 @@ export const golosovoyPoiskEn: BlogPost = {
       title: "What changes in voice queries",
       level: 2,
       paras: [
-        "People dictate full phrases: question words, place, context. Frequency of those tails is lower; competition differs from short head terms. Some scenarios end with one assistant answer and no click — so page value is accuracy and trust, not only “rank for a session”.",
+        "People dictate full phrases: question words, place, context. Frequency of those tails is lower; competition differs from short head terms. Some scenarios end with one assistant answer and no click — so page value is accuracy and trust, not only chasing a session.",
         "Studies like Backlinko-style voice sample breakdowns are useful as factor guidance (speed, HTTPS, overlap with strong classic rankings), not a “do this → you’re in” checklist. Assistant UIs change; check your URLs in Search Console and on real devices.",
       ],
       lists: [
@@ -113,7 +113,7 @@ export const golosovoyPoiskEn: BlogPost = {
       title: "Content: long page and short answer",
       level: 2,
       paras: [
-        "A strong combo: first paragraphs — a direct answer to the main question (short, on point), then depth, nuances, lists, tables. Useful for people and for systems that pull a fragment.",
+        "A strong combo: first paragraphs — a direct answer to the main question (short, on point), then depth, nuances, lists, tables. Useful for people and for systems that extract a fragment.",
         "Write plainly: less bureaucratese, more natural phrasing. Triggers like how/where/how much/best fit when you really answer — not when you stuff H2s with keywords.",
       ],
       lists: [
@@ -124,7 +124,7 @@ export const golosovoyPoiskEn: BlogPost = {
             "lists and tables where that’s the answer",
             "FAQ with natural audience questions",
             "one cluster — one strong URL",
-            "no synonym copy-paste on neighboring URLs.",
+            "no synonym copy-paste on neighboring URLs",
           ],
         },
       ],
@@ -154,7 +154,7 @@ export const golosovoyPoiskEn: BlogPost = {
             "short answer + “more detail” in the body",
             "valid JSON-LD without spam",
             "text and markup stay aligned",
-            "rich-result checks in webmaster panels.",
+            "rich-result checks in webmaster panels",
           ],
         },
       ],
@@ -181,7 +181,7 @@ export const golosovoyPoiskEn: BlogPost = {
             "questions from chats and calls",
             "local city/district refinements",
             "comparisons and “what’s better”",
-            "step-by-step how-tos.",
+            "step-by-step how-tos",
           ],
         },
       ],
@@ -211,7 +211,7 @@ export const golosovoyPoiskEn: BlogPost = {
             "matching name/address/phone",
             "hours without surprises",
             "reviews and replies without fake engagement",
-            "local landings with real value, not spam.",
+            "local landings with real value, not spam",
           ],
         },
       ],
@@ -231,7 +231,7 @@ export const golosovoyPoiskEn: BlogPost = {
       level: 2,
       paras: [
         "Voice visibility almost always inherits strong classic rankings: first tech and content for people, then FAQ and local reinforcement. Social signals and “virality” are a weak, unstable lever — don’t build strategy on reposts.",
-        "Page and fix prep — weeks. Visibility for the keyword set grows month to month; a planned horizon for noticeable top results on a cluster is usually 2–6 months after work starts. You can’t promise “voice rankings in a week”.",
+        "Page and fix prep — weeks. Visibility for the keyword set grows month to month; a planned horizon for noticeable page-one presence on a cluster is usually 2–6 months after work starts. You can’t promise “voice rankings in a week”.",
       ],
       lists: [
         {
@@ -241,7 +241,7 @@ export const golosovoyPoiskEn: BlogPost = {
             "gather conversational clusters",
             "strengthen answers and FAQ on strong URLs",
             "add local coverage when needed",
-            "monitor queries and CTR in Search Console / Webmaster.",
+            "monitor queries and CTR in Search Console / Webmaster",
           ],
         },
       ],
@@ -259,7 +259,7 @@ export const golosovoyPoiskEn: BlogPost = {
         {
           title: "Timelines",
           kind: "tip",
-          text: "Prep ≠ rankings. Ranking for the keyword set builds over months after work starts.",
+          text: "Prep ≠ page one. Visibility for the keyword set builds over months after work starts.",
         },
       ],
     },

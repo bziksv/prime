@@ -11,7 +11,7 @@ export const glavnayaInternetMagazinaEn: BlogPost = {
     "Online store homepage structure: header, menu, showcase and slider, short copy, trust, footer — without feature overload and without the company story on the whole first screen.",
   lead: [
     "An online store homepage isn’t a showcase for beauty’s sake — it’s an entrance: help find a product, remove doubts, and get people to the catalog or cart. Banner overload and “everything at once” confuse more often than they sell.",
-    "The working blocks: header, menu, visual showcase, copy, trust, and footer. Category and product-card SEO live in separate pieces; here the focus is first-page composition.",
+    "Below: the working blocks — header, menu, visual showcase, copy, trust, and footer. Category and product-card SEO live in separate pieces; here the focus is first-page composition.",
   ],
   faq: [
     {
@@ -56,7 +56,7 @@ export const glavnayaInternetMagazinaEn: BlogPost = {
             "showcase/slider",
             "short text block",
             "trust block",
-            "footer with navigation and CTA.",
+            "footer with navigation and CTA",
           ],
         },
       ],
@@ -90,7 +90,7 @@ export const glavnayaInternetMagazinaEn: BlogPost = {
       level: 2,
       paras: [
         "Banners and cards sell faster than a wall of text — if they don’t become a kaleidoscope. A slider under the header shows promos and key categories; rotation speed should be moderate (cue up to ~5 seconds per slide) so the offer can be read.",
-        "Put top demand, strong deals, new arrivals, and what competitors don’t have on the showcase. Don’t inflate the first block with dozens of SKUs: a strong pick plus a clear path to the catalog is better.",
+        "Put best-sellers, strong deals, new arrivals, and what competitors don’t have on the showcase. Don’t inflate the first block with dozens of SKUs: a strong pick plus a clear path to the catalog is better.",
       ],
       lists: [
         {
@@ -99,15 +99,15 @@ export const glavnayaInternetMagazinaEn: BlogPost = {
             "hit categories",
             "promo items",
             "new arrivals",
-            "unique store offers.",
+            "unique store offers",
           ],
         },
       ],
       notes: [
         {
           title: "Important",
-          text: "Each slide — one idea and one button. “Promo + 5 categories + subscribe” on one frame doesn’t read on a phone.",
           kind: "tip",
+          text: "Each slide — one idea and one button. “Promo + 5 categories + subscribe” on one frame doesn’t read on a phone.",
         },
       ],
     },

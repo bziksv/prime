@@ -8,11 +8,11 @@ export const klyuchiInternetMagazinEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/klyuchi-internet-magazin/cover-en.webp",
   excerpt:
-    "How to build semantics for an online store: products and categories, keyword tools and junk filters, clusters for cards — without copying a competitor’s core “as is” or promising TOP in a week.",
+    "How to build semantics for an online store: products and categories, keyword tools and junk filters, clusters for cards — without copying a competitor’s core “as is” or promising page one in a week.",
   lead: [
     "Store semantics are built around the catalog: categories, filters, cards, and informational articles. Demand and clusters first — then copy and structure, not the other way around.",
-    "Pull keywords from demand tools and competitors, clean the list, and map queries to page types. General core theory is in the semantic-core article; this focuses on e-commerce.",
-    "Keyword research and landing prep take weeks. Getting a commercial set into the TOP is planned 2–6 months after promotion starts.",
+    "Below: where to get keywords, how to clean the list, and how to map queries to page types. General core theory is in the semantic-core article; this focuses on e-commerce.",
+    "Keyword research and landing prep take weeks. Growing a commercial query core in the results is planned over 2–6 months after promotion starts.",
   ],
   faq: [
     {
@@ -21,7 +21,7 @@ export const klyuchiInternetMagazinEn: BlogPost = {
     },
     {
       q: "How is this different from a regular keyword core?",
-      a: "More SKUs, commercial tails (“buy”, “price”, “with delivery”), plus the risk of thin filter pages.",
+      a: "More SKUs, commercial tails (“buy,” “price,” “with delivery”), plus the risk of thin filter pages.",
     },
     {
       q: "Can you copy a competitor’s keywords?",
@@ -29,7 +29,7 @@ export const klyuchiInternetMagazinEn: BlogPost = {
     },
     {
       q: "Is Wordstat required?",
-      a: "For RU markets it’s a handy start. Add search suggestions, Webmaster reports, ads data, and the store’s internal search.",
+      a: "For RU markets it is a handy start. Add search suggestions, Webmaster reports, ads data, and the store’s internal search. Elsewhere, planners and Search Console peers fill the same role.",
     },
     {
       q: "Do you need Key Collector?",
@@ -37,14 +37,14 @@ export const klyuchiInternetMagazinEn: BlogPost = {
     },
     {
       q: "What about zero frequency?",
-      a: "Some long-tail still brings traffic. Don’t spawn empty pages for every rare form.",
+      a: "Some long-tail still brings traffic. Do not spawn empty pages for every rare form.",
     },
     {
       q: "Are Ads and SEO keywords one list?",
       a: "They overlap. Ads lean harder on negatives and commercial intent; SEO on landings and content.",
     },
     {
-      q: "When should I expect TOP for product queries?",
+      q: "When should product queries start ranking?",
       a: "After catalog prep — ranking growth is planned over months, not days.",
     },
   ],
@@ -53,17 +53,17 @@ export const klyuchiInternetMagazinEn: BlogPost = {
       title: "Why a store needs its own core",
       level: 2,
       paras: [
-        "Without semantics the catalog grows “as purchasing prefers”, not as buyers search. Categories miss demand, cards lack tails, filters junk the index.",
+        "Without semantics the catalog grows “as purchasing prefers,” not as buyers search. Categories miss demand, cards lack tails, filters junk the index.",
         "The core links assortment to URLs: what to promote first, which texts to write, where to send ads.",
       ],
       lists: [
         {
           intro: "What a working store core gives:",
           items: [
-            "priority of categories and brands;",
-            "briefs for cards and filters;",
-            "junk-query negatives;",
-            "a shared map with ads and SEO.",
+            "priority of categories and brands",
+            "briefs for cards and filters",
+            "junk-query negatives",
+            "a shared map with ads and SEO",
           ],
         },
       ],
@@ -82,18 +82,18 @@ export const klyuchiInternetMagazinEn: BlogPost = {
       title: "Where to find keywords",
       level: 2,
       paras: [
-        "Markers: product names, categories, brands, synonyms, problems (“cheap”, “with installation”). Expand with Wordstat, search suggestions, competitor exports as ideas — not as a final list.",
+        "Markers: product names, categories, brands, synonyms, problems (“cheap,” “with installation”). Expand with Wordstat or a keyword planner, search suggestions, competitor exports as ideas — not as a final list.",
         "On-site search and ads reports often give live customer wording.",
       ],
       lists: [
         {
           intro: "Sources:",
           items: [
-            "Yandex Wordstat (base and refined frequency);",
-            "suggestions and “related queries”;",
-            "Key Collector / peers for mass work;",
-            "Webmaster: search queries;",
-            "internal search and support.",
+            "Yandex Wordstat (base and refined frequency)",
+            "suggestions and “related queries”",
+            "Key Collector / peers for mass work",
+            "Webmaster: search queries",
+            "internal search and support",
           ],
         },
       ],
@@ -115,17 +115,17 @@ export const klyuchiInternetMagazinEn: BlogPost = {
       title: "Filtering junk",
       level: 2,
       paras: [
-        "Drop off-target: another city, a competitor brand you don’t carry, informational “what is” if you have no blog for it, non-purchase queries if the goal is sales now.",
-        "Keep commercial markers and long-tail with a clear landing. Don’t store in the core what you won’t build a URL for.",
+        "Drop off-target: another city, a competitor brand you do not carry, informational “what is” if you have no blog for it, non-purchase queries if the goal is sales now.",
+        "Keep commercial markers and long-tail with a clear landing. Do not store in the core what you will not build a URL for.",
       ],
       lists: [
         {
           intro: "Typical store junk:",
           items: [
-            "jobs and “download price list” without need;",
-            "competitor-brand queries outside your matrix;",
-            "kids/adult overlaps from the wrong niche;",
-            "typo duplicates with no traffic.",
+            "jobs and “download price list” without need",
+            "competitor-brand queries outside your matrix",
+            "kids/adult overlaps from the wrong niche",
+            "typo duplicates with no traffic",
           ],
         },
       ],
@@ -135,16 +135,16 @@ export const klyuchiInternetMagazinEn: BlogPost = {
       level: 2,
       paras: [
         "High- and mid-frequency category queries go to listings. Modifiers (color, size, “with delivery”) go to filters or landings if demand and assortment support them. Exact models go to cards.",
-        "Don’t spawn a thousand nearly empty filter URLs for every checkbox. Facet indexing policy is a separate decision.",
+        "Do not spawn a thousand nearly empty filter URLs for every checkbox. Facet indexing policy is a separate decision.",
       ],
       lists: [
         {
           intro: "Mapping rule:",
           items: [
-            "one main intent — one priority page;",
-            "a card doesn’t compete with a category for the same head term;",
-            "brand + product has its own section logic;",
-            "informational queries go to the blog, not the card.",
+            "one main intent — one priority page",
+            "a card does not compete with a category for the same head term",
+            "brand + product has its own section logic",
+            "informational queries go to the blog, not the card",
           ],
         },
       ],
@@ -163,17 +163,17 @@ export const klyuchiInternetMagazinEn: BlogPost = {
       title: "How to apply the core in work",
       level: 2,
       paras: [
-        "The core is a living file: priority, frequency, URL, status “page exists / needed / in progress”. From it you write Title, H1, category copy, and briefs for writers.",
+        "The core is a living file: priority, frequency, URL, status “page exists / needed / in progress.” From it you write Title, H1, category copy, and briefs for writers.",
         "Ads take commercial clusters with negatives; SEO strengthens landings and snippets.",
       ],
       lists: [
         {
           intro: "Monthly ritual:",
           items: [
-            "new products → new markers;",
-            "delisted items → redirects/cleanup;",
-            "Webmaster queries → into the core or negatives;",
-            "revisit top priorities by margin.",
+            "new products → new markers",
+            "delisted items → redirects/cleanup",
+            "Webmaster queries → into the core or negatives",
+            "revisit top priorities by margin",
           ],
         },
       ],
@@ -182,24 +182,25 @@ export const klyuchiInternetMagazinEn: BlogPost = {
       title: "What to avoid",
       level: 2,
       paras: [
-        "Copying a competitor’s core, pages for every long-tail without stock, keyword stuffing on cards, expecting TOP right after uploading Titles.",
+        "Copying a competitor’s core, pages for every long-tail without stock, keyword stuffing on cards, expecting page one right after uploading Titles.",
         "Stronger than “secret parsers”: clean structure, stock, price/availability, decent photos, and commercial factors.",
       ],
       lists: [
         {
           intro: "Red flags:",
           items: [
-            "a 50k-row core with no clusters;",
-            "filters in the index with no content;",
-            "one text for all categories with a word swap;",
-            "bids only on head keywords with no long-tail matrix.",
+            "a 50k-row core with no clusters",
+            "filters in the index with no content",
+            "one text for all categories with a word swap",
+            "bids only on head keywords with no long-tail matrix",
           ],
         },
       ],
       notes: [
         {
           title: "Timelines",
-          text: "Collecting and first mapping a mid-size store core — from a few days to a couple of weeks. Building rankings for competitive product queries — months of systematic work (planned 2–6 months).",
+          kind: "tip",
+          text: "Collecting and first mapping a mid-size store core takes from a few days to a couple of weeks. Building rankings for competitive product queries is months of systematic work — typically planned over 2–6 months after promotion starts.",
         },
       ],
     },

@@ -11,7 +11,7 @@ export const stranitsaKontaktovEn: BlogPost = {
     "A dedicated Contacts page: what to list, how not to overload the header, clickable phones, map and form — without turning the block into a dump of legal details.",
   lead: [
     "The contact page is a trust and quick-reach point: address, phones, email, map, hours, and a way to write. Mistakes and empty fields push people away harder here than on About.",
-    "A dedicated page helps: keep a clear minimum of data, stay comfortable on mobile, and hold one visual system. Lead forms are covered separately; About-page copy has its own article.",
+    "Below: why a dedicated page, what minimum data to show, usefulness for the visitor, mobile comfort, and one visual system. Lead forms are covered separately; About-page copy has its own article.",
   ],
   faq: [
     {
@@ -49,12 +49,13 @@ export const stranitsaKontaktovEn: BlogPost = {
       level: 2,
       paras: [
         "The header already carries logo, menu, cart, login. Stuffing every branch, legal line, and hours there scatters attention and bloats the bar.",
-        "A separate Contacts page lightens the header: up top — one or two phones and a short hours hint; in the menu and footer — a link to the full page.",
+        "A separate Contacts page lightens the header: in the bar — one or two phones and a short hours hint; in the menu and footer — a link to the full page.",
         "In one place the client finds service phones, addresses, map, email, and contact terms — without a scavenger hunt. Open NAP reduces the “fly-by-night” feel.",
       ],
       notes: [
         {
           title: "Not a place to “cram more ads”",
+          kind: "tip",
           text: "Space freed in the header is better spent on navigation and the offer — not another banner.",
         },
       ],
@@ -77,11 +78,11 @@ export const stranitsaKontaktovEn: BlogPost = {
         {
           intro: "Commerce minimum:",
           items: [
-            "phone and/or messenger with reply expectation;",
-            "email or form;",
-            "NAP (name, address, phone) aligned with maps and footer;",
-            "business hours;",
-            "map or clear “how to get here” if visits happen.",
+            "phone and/or messenger with reply expectation",
+            "email or form",
+            "NAP (name, address, phone) aligned with maps and footer",
+            "business hours",
+            "map or clear “how to get here” if visits happen",
           ],
         },
       ],
@@ -110,6 +111,7 @@ export const stranitsaKontaktovEn: BlogPost = {
       notes: [
         {
           title: "NAP consistency",
+          kind: "tip",
           text: "Same name, address, and phone — in the footer, on Contacts, and on the business profile. Mismatches confuse people and local SEO.",
         },
       ],
@@ -132,11 +134,11 @@ export const stranitsaKontaktovEn: BlogPost = {
         {
           intro: "Remember:",
           items: [
-            "dedicated page + compact header;",
-            "current NAP and legal details as needed;",
-            "clickable text — not images;",
-            "map and form — when they truly help;",
-            "one style and clear blocks.",
+            "dedicated page + compact header",
+            "current NAP and legal details as needed",
+            "clickable text — not images",
+            "map and form — when they truly help",
+            "one style and clear blocks",
           ],
         },
       ],

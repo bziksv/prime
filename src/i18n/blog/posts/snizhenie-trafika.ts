@@ -3,75 +3,75 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for snizhenie-trafika — same structure as RU JSON. */
 export const snizhenieTrafikaEn: BlogPost = {
   slug: "snizhenie-trafika",
-  title: "Why site traffic drops: diagnosis and what to do",
+  title: "Why site traffic drops: how to diagnose it and what to do",
   date: "2021-06-15",
   category: "SEO",
   cover: "/images/blog/snizhenie-trafika/cover-en.webp",
   excerpt:
-    "How to tell a real organic drop from a broken counter, check seasonality, tech, updates, and penalties — without panic or “it will bounce back tomorrow” promises.",
+    "Tell a real organic drop from a broken analytics tag, then check seasonality, technical issues, algorithm updates, and penalties — without panic or “it’ll bounce back tomorrow” promises.",
   lead: [
-    "A traffic drop is a signal, not a sentence. First separate an analytics glitch from a real decline, then narrow the source (Yandex / Google / direct) and the cause.",
-    "Here’s a practical check order. Recovery time depends on the cause: tech fixes land faster than recovering from a filter or lost demand.",
+    "A traffic drop is a signal, not a verdict. First separate an analytics glitch from a real decline. Then narrow the source — Yandex, Google, direct — and dig into the cause.",
+    "Here’s a practical check order. Recovery time depends on what’s wrong: technical fixes land faster than recovering from a filter or lost demand.",
   ],
   faq: [
     {
-      q: "Where should I start if Metrica is “all red”?",
-      a: "Verify the counter code, bot filters, and period comparison on one channel. In parallel — Webmaster: crawl, exclusions, security.",
+      q: "Where do I start if analytics looks “all red”?",
+      a: "Verify the tracking code, bot filters, and period comparison on a single channel. In parallel, check Webmaster / Search Console for crawl issues, exclusions, and security alerts.",
     },
     {
       q: "Is it seasonality or a penalty?",
-      a: "Seasonality shows in Wordstat year over year. Penalties/filters — a sharp core collapse plus messages/diagnostics in panels. Don’t mix them up.",
+      a: "Seasonality shows up in year-over-year demand tools (Wordstat and similar). Penalties and filters look like a sharp collapse across the keyword set plus messages or diagnostics in the panels. Don’t mix them up.",
     },
     {
-      q: "What if competitors “pumped” links?",
-      a: "Check the link profile in Webmaster tools, reject clear spam with search-engine tools if needed, and strengthen your content and natural links.",
+      q: "What if competitors pumped spammy links?",
+      a: "Review the link profile in webmaster tools, reject clear spam with the search engine’s tools when needed, and strengthen your own content and natural links.",
     },
     {
-      q: "Will deleting half the site help recover traffic?",
-      a: "Radical cuts without a plan often deepen the drop. Find the cause first, then make targeted fixes.",
+      q: "Will deleting half the site fix the drop?",
+      a: "Radical cuts without a plan often make the drop worse. Find the cause first, then make targeted fixes.",
     },
     {
-      q: "Is this related to Google’s suspicious traffic notices?",
-      a: "Sometimes yes, if quality is cut or bots are spun. See the separate article on suspicious traffic messages.",
+      q: "Could this relate to Google’s “suspicious traffic” notices?",
+      a: "Sometimes — if quality is being cut or bots are inflating hits. See the separate article on suspicious traffic messages.",
     },
   ],
   sections: [
     {
-      title: "First: real decline or analytics",
+      title: "First: real decline or broken analytics",
       level: 2,
       paras: [
-        "A broken/doubled counter, new goals, an IP filter, or a domain change in the account can fake the picture. Match the site code to the account and compare with Search Console / Webmaster.",
-        "In Metrica look at sources separately and compare with the previous period / previous year.",
+        "A broken or doubled tag, new goals, an IP filter, or a domain change in the account can fake the picture. Match the code on the site to the account, then compare with Search Console or Yandex Webmaster.",
+        "In analytics, split sources and compare with the previous period and the same period last year.",
       ],
       lists: [
         {
           intro: "Mini-check:",
           items: [
-            "Metrica/GA code is in place;",
-            "no stray report filter;",
-            "which channels dropped;",
-            "does the trend match Webmaster.",
+            "Metrica / GA code is still on the pages",
+            "no stray filter in the reports",
+            "which channels actually dropped",
+            "whether the trend matches Webmaster / Search Console",
           ],
         },
       ],
     },
     {
-      title: "Common drop causes",
+      title: "Common causes of a drop",
       level: 2,
       paras: [
-        "Demand seasonality, tech failures (hosting, mirrors, speed), algorithm updates, penalties for manipulation, lost positions from competitors or stale content, toxic link noise.",
-        "Don’t blame a “search engine mood” until tech and content are closed.",
+        "Seasonal demand, technical failures (hosting, mirrors, speed), algorithm updates, penalties for manipulation, lost rankings to competitors or stale content, and toxic link noise.",
+        "Don’t blame a “search engine mood” until you’ve closed the technical and content checks.",
       ],
       lists: [
         {
-          intro: "Check by blocks:",
+          intro: "Work through the blocks:",
           items: [
-            "site changes before the drop;",
-            "Wordstat — seasonal or not;",
-            "availability, 301s, robots, speed;",
-            "update news + panel diagnostics;",
-            "quality and uniqueness of key URLs;",
-            "sharp link-profile spikes.",
+            "site changes right before the drop",
+            "demand tools — seasonal or not",
+            "availability, 301s, robots.txt, speed",
+            "update news plus panel diagnostics",
+            "quality and uniqueness of key URLs",
+            "sharp spikes in the link profile",
           ],
         },
       ],
@@ -91,22 +91,21 @@ export const snizhenieTrafikaEn: BlogPost = {
       ],
     },
     {
-      title: "What to do after the diagnosis",
+      title: "What to do after you have a diagnosis",
       level: 2,
       paras: [
-        "Fix tech immediately. Content — refresh clusters that dropped. For a filter — remove the cause and wait for recrawl, without promising a “TOP tomorrow” date.",
-        "Don’t freeze development: new materials and extra channels lower dependence on one source.",
+        "Fix technical issues immediately. Refresh content clusters that slipped. If you’re under a filter, remove the cause and wait for a recrawl — don’t promise “page one tomorrow.” Recovery after penalties or big content work is usually measured in months, not days.",
+        "Don’t freeze the roadmap: new materials and extra channels reduce dependence on one traffic source.",
       ],
-      lists: [],
       notes: [
         {
-          title: "Practice",
-          text: "Log hypothesis → fix → date → metric. That’s how you see what worked and what didn’t.",
+          title: "Practice tip",
+          text: "Log hypothesis → fix → date → metric. That’s how you see what actually moved the needle.",
         },
       ],
       links: [
         {
-          label: "Refreshing content",
+          label: "Refreshing old content",
           href: "/en/blog/obnovlenie-kontenta/",
         },
         {

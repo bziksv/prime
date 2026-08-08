@@ -11,7 +11,7 @@ export const temaWordpressEn: BlogPost = {
     "What to check when picking a WordPress theme: blog needs, flexibility, speed, mobile, code, child theme, plugin compatibility — without a “best themes of the year” catalog.",
   lead: [
     "A theme sets the blog’s frame: how posts are read, how archives look, how easily you change blocks without breaking layout. A pretty demo site ≠ a usable theme on your content.",
-    "These are the selection criteria and checks before installing on production. Marketplace names and “2020 tops” go stale; what matters are updates, code, and fit for the blog’s jobs.",
+    "Below: selection criteria and checks before installing on production. Marketplace names and year-end “best of” lists go stale; what matters are updates, code, and fit for the blog’s jobs.",
   ],
   faq: [
     {
@@ -24,7 +24,7 @@ export const temaWordpressEn: BlogPost = {
     },
     {
       q: "What is a child theme?",
-      a: "A separate layer on top of the parent: style/template edits don’t burn when the parent updates. Useful for safe customizations.",
+      a: "A separate layer over the parent: style/template edits don’t burn when the parent updates. Useful for safe customizations.",
     },
     {
       q: "Does the theme affect SEO?",
@@ -49,11 +49,11 @@ export const temaWordpressEn: BlogPost = {
         {
           intro: "Minimum before buying/installing:",
           items: [
-            "list of needed page types;",
-            "demo resembles your blog format;",
-            "updates within the last year;",
-            "support policy is clear;",
-            "a path to a child theme exists.",
+            "list of needed page types",
+            "demo resembles your blog format",
+            "updates within the last year",
+            "support policy is clear",
+            "a path to a child theme exists",
           ],
         },
       ],
@@ -82,12 +82,12 @@ export const temaWordpressEn: BlogPost = {
         {
           intro: "Checklist before shipping a theme:",
           items: [
-            "backup and staging;",
-            "mobile view of key templates;",
-            "speed with real content;",
-            "no third-party hidden links;",
-            "menus, sidebar, forms ready;",
-            "SEO plugin and counters alive.",
+            "backup and staging",
+            "mobile view of key templates",
+            "speed with real content",
+            "no third-party hidden links",
+            "menus, sidebar, forms ready",
+            "SEO plugin and counters alive",
           ],
         },
       ],

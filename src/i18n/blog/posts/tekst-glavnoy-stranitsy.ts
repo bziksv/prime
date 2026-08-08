@@ -11,7 +11,7 @@ export const tekstGlavnoyStranitsyEn: BlogPost = {
     "Which lines spoil a homepage: empty superlatives, “personalized approach” clichés, awkward keywords, and mixing “you/You” — and what to put instead of a clear offer.",
   lead: [
     "A homepage should explain in seconds who you are and what to do next. Long walls of “world’s best” and “European standards” usually don’t help — readers have seen that a hundred times.",
-    "We cut the typical copy junk and show how to write shorter and more honestly. Block frame and CTA live in the homepage structure article; here the focus is copywriting.",
+    "Below: typical copy junk and how to write shorter and more honestly. Block frame and CTA live in the homepage structure article; here the focus is copywriting.",
   ],
   faq: [
     {
@@ -61,10 +61,10 @@ export const tekstGlavnoyStranitsyEn: BlogPost = {
         {
           intro: "Common junk:",
           items: [
-            "“best / #1” with no basis;",
-            "“creative” with no meaning for the audience;",
-            "keywords forced into the syntax;",
-            "fake or bureaucratic “reviews.”",
+            "“best / #1” with no basis",
+            "“creative” with no meaning for the audience",
+            "keywords forced into the syntax",
+            "fake or bureaucratic “reviews”",
           ],
         },
       ],
@@ -77,7 +77,6 @@ export const tekstGlavnoyStranitsyEn: BlogPost = {
         "Proof: figures, cases, real reviews, work photos — without theatrical delight.",
         "One clear CTA. Service details, prices, and “about” belong on their pages; the homepage leads, it doesn’t replace the site.",
       ],
-      lists: [],
       links: [
         {
           label: "Homepage: structure",
@@ -97,7 +96,6 @@ export const tekstGlavnoyStranitsyEn: BlogPost = {
         "Subordinate keywords to meaning: first a clear sentence, then semantics. Awkward SEO copy scares people more than a missing keyword in the H1.",
         "Don’t sell “everything at once” on the first screen: prestige, mood, and service outcome often beat a procedure list.",
       ],
-      lists: [],
       links: [
         {
           label: "SEO copywriting",
@@ -117,7 +115,6 @@ export const tekstGlavnoyStranitsyEn: BlogPost = {
         "Superlatives — only with proof.",
         "The homepage isn’t a warehouse for every site text.",
       ],
-      lists: [],
     },
   ],
   closing: [

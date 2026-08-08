@@ -11,7 +11,7 @@ export const prosmotryVkEn: BlogPost = {
     "How the view counter under VKontakte posts works, what counts as a view, how it differs from full community stats, and why fake views hurt.",
   lead: [
     "Under VKontakte posts you see a view counter — a quick sense of how often a post actually “caught” attention, not only likes.",
-    "What gets counted, limits of the public counter, and how to use the numbers in a content plan. VK may change algorithm details — check platform help.",
+    "Below: what gets counted, limits of the public counter, and how to use the numbers in a content plan. VK may change algorithm details — check platform help.",
   ],
   faq: [
     {
@@ -49,7 +49,7 @@ export const prosmotryVkEn: BlogPost = {
           items: [
             "news feed",
             "community / profile wall",
-            "recommendations block (if the post got there).",
+            "recommendations block (if the post got there)",
           ],
         },
       ],
@@ -78,7 +78,7 @@ export const prosmotryVkEn: BlogPost = {
             "the number under the post is public",
             "viewer identity isn’t revealed",
             "handy for comparing posts to each other",
-            "bot inflation distorts the picture.",
+            "bot inflation distorts the picture",
           ],
         },
       ],
@@ -90,9 +90,9 @@ export const prosmotryVkEn: BlogPost = {
         "Compare views with ER (likes, comments, shares, link clicks). High “eyes” with zero actions signal a weak offer or clickbait.",
         "For ads and client reports lean on account/community stats and goals (leads), not only the public counter.",
       ],
-      lists: [],
       notes: [
         {
+          kind: "tip",
           title: "Practice",
           text: "Keep a table: topic × format × views × goal actions. After 10–20 posts you’ll see what actually works for your audience.",
         },
@@ -122,7 +122,7 @@ export const prosmotryVkEn: BlogPost = {
             "buy fake views",
             "judge quality from a single post",
             "ignore full community stats",
-            "promise clients “guaranteed reach” from eye counts.",
+            "promise clients “guaranteed reach” from eye counts",
           ],
         },
       ],

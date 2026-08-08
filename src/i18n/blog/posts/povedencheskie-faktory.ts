@@ -8,10 +8,10 @@ export const povedencheskieFaktoryEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/povedencheskie-faktory/cover-en.webp",
   excerpt:
-    "On-site and off-site behavioral signals: bounce, depth, time, snippet CTR; structure, mobile, speed, content, and session replay — without gaming schemes or TOP guarantees.",
+    "On-site and off-site behavioral signals: bounce, depth, time, snippet CTR; structure, mobile, speed, content, and session replay — without gaming schemes or ranking guarantees.",
   lead: [
     "Behavioral signals show how useful and usable the site and SERP experience are: bounce, pages per session, time, snippet CTR, returns to search.",
-    "We cover practical levers for UX and the snippet. Exact weights in algorithms are closed; improve the user experience — don’t buy “behavioral traffic.” Gaming is risky — see a separate piece. Rank growth is planned and isn’t “fixed speed → TOP tomorrow.”",
+    "Below: practical levers for UX and the snippet. Exact weights in algorithms are closed; improve the user experience — don’t buy “behavioral traffic.” Gaming is risky — see a separate piece. Rank growth is planned and isn’t “fixed speed → page one tomorrow.”",
   ],
   faq: [
     {
@@ -64,7 +64,7 @@ export const povedencheskieFaktoryEn: BlogPost = {
       paras: [
         "Structure and nav: reach what’s needed in few clicks; search and filters on large catalogs. Otherwise bounce rises before the offer.",
         "Responsive and speed are the base. Heavy images, no cache, and broken scripts on mobile kill the session.",
-        "Interactive bits (calculators, quizzes) and live contact raise engagement if they don’t block the job. Content — with lists, subheads, readable type, and fitting media, not a “wall of text.”",
+        "Interactive bits (calculators, quizzes) and live contact raise engagement if they don’t block the job. Content — with lists, subheads, readable type, and fitting media, not a wall of text.",
       ],
       lists: [
         {
@@ -73,7 +73,7 @@ export const povedencheskieFaktoryEn: BlogPost = {
             "mobile path on a key page",
             "LCP/bounce on landings",
             "session replay of forms and menus",
-            "title relevance to the query and page copy.",
+            "title relevance to the query and page copy",
           ],
         },
       ],
@@ -94,13 +94,13 @@ export const povedencheskieFaktoryEn: BlogPost = {
       paras: [
         "SERP CTR grows from a clear title/description, intent match, and (where it fits) rich results — not from clickbait that disappoints on the page.",
         "Tech errors (broken links, 404s, mixed content) hurt both behavior and trust. Visual design should support reading, not distract.",
-        "Page relevance to the core: someone from search should see the answer to the query immediately. Otherwise — back to the SERP, weak off-site signal.",
+        "Page relevance to the keyword set: someone from search should see the answer to the query immediately. Otherwise — back to the SERP, weak off-site signal.",
       ],
       notes: [
         {
           title: "No gaming",
-          text: "Any “behavioral boost” services are outside recommendations. Fix UX and the snippet; rankings grow from real usefulness over planned timelines (often 2–6 months for core TOP), not from bought signals.",
           kind: "tip",
+          text: "Any “behavioral boost” services are outside recommendations. Fix UX and the snippet; rankings grow from real usefulness — not from bought signals.",
         },
       ],
       links: [

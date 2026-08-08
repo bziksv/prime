@@ -10,8 +10,8 @@ export const kontentMarketingMetrikaEn: BlogPost = {
   excerpt:
     "How to analyze content marketing in Yandex Metrica: visits and engagement, maps, sources, goals and conversions — without bounce cults and one-off spikes after publish.",
   lead: [
-    "A content strategy without numbers quickly becomes “we post because everyone does.” Metrica won’t replace editorial meaning, but it shows which pieces people read, where they come from, and whether they reach a goal.",
-    "A practical reporting setup covers traffic and engagement, judging an article, sources, and conversions. Which KPIs to pick in principle is in the content-marketing analytics article; this focuses on what to watch in the Metrica dashboard. Menu labels update — go by what each report means.",
+    "A content strategy without numbers quickly becomes “we post because everyone does.” Metrica will not replace editorial judgment, but it shows which pieces people read, where they come from, and whether they reach a goal.",
+    "Below: a practical reporting loop — traffic and engagement, judging a piece, sources, conversions. Which KPIs to pick in principle is in the content-marketing analytics article; here the focus is what to watch in the Metrica dashboard. Menu labels update — go by what each report means.",
   ],
   faq: [
     {
@@ -28,11 +28,11 @@ export const kontentMarketingMetrikaEn: BlogPost = {
     },
     {
       q: "Which reporting period should I use?",
-      a: "For blog trends — several months so one spike doesn’t warp the picture. Editorial ops — weekly.",
+      a: "For blog trends — several months so one spike does not warp the picture. Editorial ops — weekly.",
     },
     {
       q: "Are visits enough without goals?",
-      a: "For “write and forget” — no. Without goals and UTM you can’t tell useful traffic from noise.",
+      a: "For “write and forget” — no. Without goals and UTM you cannot tell useful traffic from noise.",
     },
   ],
   sections: [
@@ -47,10 +47,10 @@ export const kontentMarketingMetrikaEn: BlogPost = {
         {
           intro: "Minimum before analysis:",
           items: [
-            "working counter on templates;",
-            "1–3 goals for content;",
-            "UTM on newsletters and paid traffic;",
-            "list of key blog / guide URLs.",
+            "working counter on templates",
+            "1–3 goals for content",
+            "UTM on newsletters and paid traffic",
+            "list of key blog / guide URLs",
           ],
         },
       ],
@@ -76,18 +76,18 @@ export const kontentMarketingMetrikaEn: BlogPost = {
         {
           intro: "What to watch per article:",
           items: [
-            "visits to the URL and post-publish dynamics;",
-            "time and depth;",
-            "bounce share vs similar pieces;",
-            "return visits / loyalty when available.",
+            "visits to the URL and post-publish dynamics",
+            "time and depth",
+            "bounce share vs similar pieces",
+            "return visits / loyalty when available",
           ],
         },
       ],
       notes: [
         {
           title: "Don’t fix strategy in one day",
-          text: "A one-off spike after a social reshare isn’t a lasting effect. Watch the trend over weeks and months.",
           kind: "tip",
+          text: "A one-off spike after a social reshare is not a lasting effect. Watch the trend over weeks and months.",
         },
       ],
     },
@@ -95,7 +95,7 @@ export const kontentMarketingMetrikaEn: BlogPost = {
       title: "Maps, scroll, and “did they finish?”",
       level: 2,
       paras: [
-        "Scroll and click maps hint how far people go and where they press. CTA zones, TOC, tables are good check candidates. Data is coarse: scroll ≠ attentive reading.",
+        "Scroll and click maps hint how far people go and where they press. CTA zones, TOC, and tables are good check candidates. Data is coarse: scroll ≠ attentive reading.",
         "More precise — a goal on an end-of-article anchor, a “read N%” event, or time on page. That separates “scrolled past” from “reached the takeaway.”",
       ],
       links: [
@@ -124,10 +124,10 @@ export const kontentMarketingMetrikaEn: BlogPost = {
         {
           intro: "Practical monthly review:",
           items: [
-            "top URLs by visits and by conversions;",
-            "sources → goal;",
-            "high-traffic pieces with a weak CTA;",
-            "what to amplify in distribution, what to rewrite.",
+            "top URLs by visits and by conversions",
+            "sources → goal",
+            "high-traffic pieces with a weak CTA",
+            "what to amplify in distribution, what to rewrite",
           ],
         },
       ],
@@ -151,27 +151,27 @@ export const kontentMarketingMetrikaEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "10 analysis anchors (meaning checklist):",
+          intro: "Ten analysis anchors (meaning checklist):",
           items: [
-            "visit dynamics;",
-            "engagement;",
-            "scroll / finish reading;",
-            "shares and response;",
-            "comments;",
-            "sources;",
-            "top successful pieces;",
-            "conversions by goals;",
-            "period comparison;",
-            "decisions: amplify / rewrite / drop from the plan.",
+            "visit dynamics",
+            "engagement",
+            "scroll / finish reading",
+            "shares and response",
+            "comments",
+            "sources",
+            "top successful pieces",
+            "conversions by goals",
+            "period comparison",
+            "decisions: amplify / rewrite / drop from the plan",
           ],
         },
       ],
     },
     {
-      title: "Takeaways",
+      title: "What to remember",
       level: 2,
       paras: [
-        "Metrica for content is a bundle of traffic, map, source, and goal reports under a pre-chosen KPI. Bounce and likes alone don’t answer “does the strategy work.”",
+        "Metrica for content is a bundle of traffic, map, source, and goal reports under a pre-chosen KPI. Bounce and likes alone do not answer “does the strategy work.”",
         "A long trend horizon + weekly editorial ops + data-driven spot fixes beat one-off spikes after a reshare.",
       ],
     },

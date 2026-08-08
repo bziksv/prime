@@ -11,7 +11,7 @@ export const pushUvedomleniyaEn: BlogPost = {
     "Browser and mobile push: how they differ from email and SMS, who they help, how to get permission, what to write, and how not to tire subscribers — without spam in pop-ups.",
   lead: [
     "Push is a short on-screen alert: in the browser after the site’s permission, or in an app. Next to email, SMS, and retargeting it’s another way to bring back someone who already visited you.",
-    "Who the channel fits, how browser subscription works, and basic frequency rules. Chrome/Safari policies and sender tools change — check current docs before launch.",
+    "Below: who the channel fits, how browser subscription works, and basic frequency rules. Chrome/Safari policies and sender tools change — check current docs before launch.",
   ],
   faq: [
     {
@@ -58,7 +58,7 @@ export const pushUvedomleniyaEn: BlogPost = {
             "one-click subscribe",
             "fast on-screen show",
             "handy for urgent events",
-            "complements email and SMS.",
+            "complements email and SMS",
           ],
         },
       ],
@@ -93,12 +93,15 @@ export const pushUvedomleniyaEn: BlogPost = {
         "Write short: what happened and why to open. Don’t push every social post.",
         "Segment: not every subscriber wants “hot” deals daily. Offer a way to turn notifications off and respect the refusal.",
       ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Important",
+          text: "Permission-dialog screenshots and browser behavior are a ~2019 slice. Web Push, HTTPS, and request UX requirements have updated. Don’t use dark patterns like “allow or leave.”",
+        },
+      ],
     },
   ],
-  notes: {
-    title: "Important",
-    text: "Permission-dialog screenshots and browser behavior are a ~2019 slice. Web Push, HTTPS, and request UX requirements have updated. Don’t use dark patterns like “allow or leave.”",
-  },
   closing: [
     "Connect push where you have repeat reasons and one-click consent, test frequency on a narrow segment — and keep email/SMS nearby instead of replacing all communication with one pop-up.",
   ],
@@ -110,4 +113,4 @@ export const pushUvedomleniyaEn: BlogPost = {
     "email-dlya-biznesa",
     "retargeting",
   ],
-};
+} as BlogPost;

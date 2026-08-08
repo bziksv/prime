@@ -8,31 +8,31 @@ export const googleAnalyticsNastroykaEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/google-analytics-nastroyka/cover-en.webp",
   excerpt:
-    "Basic GA4 setup: account, property, data stream, installing the tag or GTM, checking in DebugView, and what to do right after — without Universal Analytics screenshots.",
+    "Basic GA4 setup: account, property, data stream, tag or GTM install, DebugView checks, and what to turn on next — without Universal Analytics screenshots.",
   lead: [
-    "To see traffic and events you need a Google account, a GA4 property, a website data stream, and code/tag on pages. Old guides about “UA-XXXX and views” are outdated: below is GA4 logic for beginners.",
-    "The Analytics UI changes — rely on Google’s help and the meaning of the steps. Goals/key events, ecommerce, and differences from UA are in related articles.",
+    "To see traffic and events you need a Google account, a GA4 property, a website data stream, and a tag on your pages. Old guides about “UA-XXXX and views” are outdated — below is GA4 logic for beginners.",
+    "The Analytics UI moves — lean on Google Help and the meaning of each step. Goals / key events, ecommerce, and UA differences live in neighboring articles.",
   ],
   faq: [
     {
       q: "Should I still set up Universal Analytics?",
-      a: "Not as the foundation. Create GA4. Don’t copy old instructions with “views” and analytics.js.",
+      a: "Not as the foundation. Create GA4. Skip old instructions with “views” and analytics.js.",
     },
     {
       q: "Code in `<head>` or Google Tag Manager?",
-      a: "Both work. GTM is easier when there are many tags (Ads, pixels, events). For one counter, gtag.js on the site is fine.",
+      a: "Both work. GTM is easier when you have many tags (Ads, pixels, events). For one counter, gtag.js on the site is fine.",
     },
     {
       q: "How many properties can I create?",
-      a: "Account/property limits are in current Google help. At the start — one GA4 property per site (or a site+app pair by task).",
+      a: "Account and property limits are in current Google Help. At the start — one GA4 property per site (or a site+app pair if that’s the job).",
     },
     {
-      q: "When does data appear?",
-      a: "Realtime/DebugView — almost immediately after a correct install. Full reports lag; don’t expect “like yesterday in UA” in the first minute.",
+      q: "When does data show up?",
+      a: "Realtime / DebugView — almost immediately after a correct install. Full reports lag; don’t expect “like yesterday in UA” in the first minute.",
     },
     {
-      q: "Is cookie consent required?",
-      a: "Yes — account for privacy policy and consent requirements in your region. Don’t collect personal data in event parameters.",
+      q: "Do I need cookie consent?",
+      a: "Yes — follow your privacy policy and regional consent rules. Don’t put personal data in event parameters.",
     },
   ],
   sections: [
@@ -40,17 +40,17 @@ export const googleAnalyticsNastroykaEn: BlogPost = {
       title: "Account, property, and data stream",
       level: 2,
       paras: [
-        "Sign in to Google Analytics → create an account (company) → GA4 property → a “Web” data stream with the site URL and stream name.",
-        "Set report time zone and currency thoughtfully — they define day boundaries and money in ecommerce. Industry and business size are for Google recommendations, not “accuracy magic”.",
+        "Sign in to Google Analytics → create an account (your company) → a GA4 property → a Web data stream with the site URL and a stream name.",
+        "Set report time zone and currency with intent — they define day boundaries and money in ecommerce. Industry and business size feed Google’s tips, not magic accuracy.",
       ],
       lists: [
         {
           intro: "Hierarchy in short:",
           items: [
-            "account — organization",
-            "GA4 property — data container",
+            "account — the organization",
+            "GA4 property — the data container",
             "stream — site or app",
-            "measurement ID (G-XXXX) — for the tag.",
+            "measurement ID (G-XXXX) — for the tag",
           ],
         },
       ],
@@ -62,21 +62,21 @@ export const googleAnalyticsNastroykaEn: BlogPost = {
       ],
     },
     {
-      title: "Installing the tag on the site",
+      title: "Putting the tag on the site",
       level: 2,
       paras: [
-        "Option A: paste the global gtag.js tag (or the wizard’s recommendation) on all pages, usually in `<head>`. On a CMS — via theme, plugin, or GTM, not “homepage only”.",
-        "Option B: Google Tag Manager — container on the site, inside a GA4 Configuration / Google tag with the stream ID. Easier to add events without editing code every time.",
-        "Check that HTTPS has no mixed content and the tag isn’t duplicated (double page_view ruins reports).",
+        "Option A: paste the global gtag.js snippet (or the wizard’s code) on every page, usually in `<head>`. On a CMS — via theme, plugin, or GTM, not “homepage only.”",
+        "Option B: Google Tag Manager — container on the site, then a GA4 Configuration / Google tag with the stream ID. Easier to add events without editing code every time.",
+        "Confirm HTTPS has no mixed content and the tag isn’t firing twice (double page_view wrecks reports).",
       ],
       lists: [
         {
-          intro: "Install check:",
+          intro: "Install checks:",
           items: [
             "Realtime shows you on the site",
             "DebugView sees events while debugging",
             "no second identical counter",
-            "internal IPs can be excluded later.",
+            "internal IPs can be excluded later",
           ],
         },
       ],
@@ -88,11 +88,11 @@ export const googleAnalyticsNastroykaEn: BlogPost = {
       ],
     },
     {
-      title: "What to turn on right after the basic install",
+      title: "What to turn on right after install",
       level: 2,
       paras: [
-        "In the stream, enable enhanced measurement on purpose (views, scroll, outbound clicks, site search — as needed). Link Google Ads if you run ads; for remarketing and signals — only within consent and policy.",
-        "Next: key events (conversions), for a store — ecommerce events, internal traffic filters. Don’t set User-ID and complex cross-domain “just in case” without a task.",
+        "In the stream, enable enhanced measurement on purpose (page views, scroll, outbound clicks, site search — as needed). Link Google Ads if you run ads; remarketing and Google signals only within consent and policy.",
+        "Next: key events (conversions), ecommerce events for a store, internal traffic filters. Don’t wire User-ID and complex cross-domain “just in case” without a real job.",
       ],
       lists: [
         {
@@ -101,8 +101,8 @@ export const googleAnalyticsNastroykaEn: BlogPost = {
             "tag works in Realtime",
             "2–5 key events marked",
             "the team has property access",
-            "cookie/consent policy accounted for",
-            "plan: ecommerce or goals — via the links below.",
+            "cookie / consent policy covered",
+            "plan: ecommerce or goals — via the links below",
           ],
         },
       ],

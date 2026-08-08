@@ -14,8 +14,8 @@ export const biznesAkkauntInstagramEn: BlogPost = {
     "Menu item names change (sometimes “professional account”). Below: what the settings mean and a checklist — not clickbait based on 2020 screenshots.",
   ],
   legalNotice: {
-    title: "Dear readers!",
-    text: "This article is for information only and is not an invitation to use the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
@@ -51,10 +51,10 @@ export const biznesAkkauntInstagramEn: BlogPost = {
         {
           intro: "Signals it’s time to switch:",
           items: [
-            "you need phone, email, or address in the header;",
-            "you review post and audience insights;",
-            "you plan ads;",
-            "you reply to clients as a company, not “just a blog”.",
+            "you need phone, email, or address in the header",
+            "you review post and audience insights",
+            "you plan ads",
+            "you reply to clients as a company, not just a blog",
           ],
         },
       ],
@@ -69,22 +69,23 @@ export const biznesAkkauntInstagramEn: BlogPost = {
       title: "What business mode gives you",
       level: 2,
       paras: [
-        "The main thing is data and service buttons — not “magic growth”. Growth comes from content, offer, and traffic.",
+        "The main thing is data and service buttons — not magic growth. Growth comes from content, offer, and traffic.",
       ],
       lists: [
         {
           intro: "Typical capabilities:",
           items: [
-            "insights on reach, profile visits, saves, follower dynamics;",
-            "best audience activity times — a guide, not dogma;",
-            "contact buttons and category in the header;",
-            "easier access to ad accounts and partner tools.",
+            "insights on reach, profile visits, saves, follower dynamics",
+            "best audience activity times — a guide, not dogma",
+            "contact buttons and category in the header",
+            "easier access to ad accounts and partner tools",
           ],
         },
       ],
       notes: [
         {
           title: "Important",
+          kind: "tip",
           text: "Insights show interest, but don’t replace lead tracking. Tie views to leads (promo code, UTM, CRM).",
         },
       ],
@@ -100,10 +101,10 @@ export const biznesAkkauntInstagramEn: BlogPost = {
         {
           intro: "After switching, fill in:",
           items: [
-            "a category close to the offer;",
-            "contact buttons (call, email, DM, address);",
-            "a current website or landing;",
-            "one tone with the bio.",
+            "a category close to the offer",
+            "contact buttons (call, email, DM, address)",
+            "a current website or landing",
+            "one tone with the bio",
           ],
         },
       ],
@@ -118,10 +119,10 @@ export const biznesAkkauntInstagramEn: BlogPost = {
         {
           intro: "Minimum commercial header:",
           items: [
-            "who you are and what benefit you give;",
-            "geo or work format;",
-            "one main CTA;",
-            "a working contact channel.",
+            "who you are and what benefit you give",
+            "geo or work format",
+            "one main CTA",
+            "a working contact channel",
           ],
         },
       ],
@@ -136,10 +137,10 @@ export const biznesAkkauntInstagramEn: BlogPost = {
         {
           intro: "Weekly review:",
           items: [
-            "top 3 posts by saves/replies;",
-            "failing topics — what to drop;",
-            "follows vs unfollows dynamics;",
-            "which CTAs brought inquiries.",
+            "three strongest posts by saves/replies",
+            "failing topics — what to drop",
+            "follows vs unfollows dynamics",
+            "which CTAs brought inquiries",
           ],
         },
       ],
@@ -148,22 +149,23 @@ export const biznesAkkauntInstagramEn: BlogPost = {
       title: "Mistakes with a business account",
       level: 2,
       paras: [
-        "Switched account type and forgot content; turned on ads with no offer; don’t reply in DMs; category “for show”.",
+        "Switched account type and forgot content; turned on ads with no offer; don’t reply in DMs; category for show.",
       ],
       lists: [
         {
           intro: "Avoid:",
           items: [
-            "empty insights with no action;",
-            "broken links in the header;",
-            "different phones in bio and on the site;",
-            "switching back to personal “to hide” instead of proper moderation.",
+            "empty insights with no action",
+            "broken links in the header",
+            "different phones in bio and on the site",
+            "switching back to personal “to hide” instead of proper moderation",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
+          kind: "tip",
           text: "Expecting business mode to raise reach by itself. It’s a tools dashboard. Growth comes from content, cadence, and traffic.",
         },
       ],
@@ -174,7 +176,6 @@ export const biznesAkkauntInstagramEn: BlogPost = {
       paras: [
         "If commerce is closed and you only need a personal diary — you can switch account type back in settings. Save needed reports first: some insights will leave the interface.",
       ],
-      lists: [],
       links: [
         {
           label: "SMM manager: responsibilities",

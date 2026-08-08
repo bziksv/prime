@@ -11,8 +11,12 @@ export const prosmotryStoriesInstagramEn: BlogPost = {
     "How to raise Stories views: audience activity, live content, gamification, Lives, Highlights, and measure in frame count — without fake views or “explosion” guarantees.",
   lead: [
     "Stories views grow when people open the profile, reply, and finish the series. A big base of silent followers yields few views.",
-    "Six practical steps: retention mechanics and content. We don’t copy “must hit 10 stories” figures or easy-growth promises, and we don’t recommend buying views.",
+    "Below: six steps — retention mechanics and content. We don’t copy “must hit 10 stories” figures or easy-growth promises, and we don’t recommend buying views. Meta note is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Why so few views with 5,000 followers?",
@@ -50,7 +54,7 @@ export const prosmotryStoriesInstagramEn: BlogPost = {
             "polls, questions, sliders, reactions",
             "author replies in Direct",
             "consistency without spam",
-            "a clear offer in the first frames.",
+            "a clear offer in the first frames",
           ],
         },
       ],
@@ -124,9 +128,9 @@ export const prosmotryStoriesInstagramEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "No illusions",
           text: "Views are an intermediate metric. Watch replies, clicks, and leads.",
-          kind: "tip",
         },
       ],
     },
@@ -140,7 +144,7 @@ export const prosmotryStoriesInstagramEn: BlogPost = {
     },
   ],
   closing: [
-    "Strengthen tomorrow’s first frame with a poll or action and measure completion — faster than padding empty stories “up to ten.”",
+    "Strengthen tomorrow’s first frame with a poll or action and measure completion — faster than padding empty stories just to hit a round number.",
   ],
   related: [
     "neskolko-stories-instagram",

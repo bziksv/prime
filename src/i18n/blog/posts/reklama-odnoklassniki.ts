@@ -11,7 +11,7 @@ export const reklamaOdnoklassnikiEn: BlogPost = {
     "Who OK ads fit, what ad tone works, how to think about formats and audience, and how to measure response — without outdated pixels and ad-account screenshots.",
   lead: [
     "Odnoklassniki is its own environment: a different feed mood, different audience habits, and a different response to an offer. Copying creatives “as from VK” one-to-one often fails.",
-    "We look at when the channel fits, how to write ads that get replies, what to watch in formats and setup, and how to read results. Account UI and creative rules change—confirm sizes and buttons in current VK Ads help.",
+    "Below: when the channel fits, how to write ads, what to watch in formats and setup, and how to read stats. Account UI and creative rules change — confirm sizes and buttons in current VK Ads / ads-account help.",
   ],
   faq: [
     {
@@ -55,10 +55,10 @@ export const reklamaOdnoklassnikiEn: BlogPost = {
         {
           intro: "What improves response:",
           items: [
-            "a concrete benefit and promo deadline;",
-            "geo and a clear next step;",
-            "a readable creative without tiny text;",
-            "a landing that matches the ad promise.",
+            "a concrete benefit and promo deadline",
+            "geo and a clear next step",
+            "a readable creative without tiny text",
+            "a landing that matches the ad promise",
           ],
         },
       ],
@@ -74,10 +74,10 @@ export const reklamaOdnoklassnikiEn: BlogPost = {
         {
           intro: "Before uploading a creative:",
           items: [
-            "the offer is readable on a phone;",
-            "no overload of tiny text on the banner;",
-            "the link goes where the headline promises;",
-            "platform rules are followed (including external links and other social networks).",
+            "the offer is readable on a phone",
+            "no overload of tiny text on the banner",
+            "the link goes where the headline promises",
+            "platform rules are followed (including external links and other social networks)",
           ],
         },
       ],
@@ -99,11 +99,11 @@ export const reklamaOdnoklassnikiEn: BlogPost = {
         {
           intro: "Launch order:",
           items: [
-            "goal and landing;",
-            "ad with a concrete offer;",
-            "audience and exclusions;",
-            "budget and cap;",
-            "pixel/analytics goals if you send traffic to a site.",
+            "goal and landing",
+            "ad with a concrete offer",
+            "audience and exclusions",
+            "budget and cap",
+            "pixel/analytics goals if you send traffic to a site",
           ],
         },
       ],

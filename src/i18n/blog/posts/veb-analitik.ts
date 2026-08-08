@@ -3,48 +3,48 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for veb-analitik — same structure as RU JSON. */
 export const vebAnalitikEn: BlogPost = {
   slug: "veb-analitik",
-  title: "Web analyst: duties, skills, and career",
+  title: "Web analyst: role, skills, and career path",
   date: "2019-12-04",
   category: "SEO",
   cover: "/images/blog/veb-analitik/cover-en.webp",
   excerpt:
-    "Who a web analyst is, what their duties are, which skills matter, where to learn, how to build a career, and how the role differs from “just export a report from analytics.”",
+    "What a web analyst does, which skills matter, where to learn, how careers usually grow, and why the job is more than exporting a Metrica report.",
   lead: [
-    "A web analyst figures out how people behave on the site and in ad channels, and turns numbers into decisions: what to fix, what to test, where to send budget. It isn’t “download a report and done.”",
-    "The job lives in duties, skills, learning paths, workplaces, and career ladders — with real pros and costs. Salary figures on the market float; check current openings. Here the job content matters more.",
+    "A web analyst studies how people move through the site and paid channels, then turns that into decisions: what to fix, what to test, where budget should go. Pulling a dashboard is not the deliverable.",
+    "Below: duties, skills, learning paths, where analysts sit, career steps, and the trade-offs of the role. Salary bands move fast — check live openings. What matters here is the shape of the work.",
   ],
   faq: [
     {
       q: "Is a web analyst the same as an SEO specialist?",
-      a: "No. SEO leans harder into search and content/tech. An analyst looks wider at funnel, channels, experiments, and reporting; skills overlap.",
+      a: "No. SEO leans into search, content, and tech. An analyst spans the funnel, channels, experiments, and reporting. The skill sets overlap, but the jobs are not identical.",
     },
     {
-      q: "Is knowing Yandex Metrica enough?",
-      a: "As a start — yes. Next you need goals, segments, GA or peers, marketing basics, A/B, and explaining conclusions to the business.",
+      q: "Is Yandex Metrica enough?",
+      a: "Enough to start. Next come goals, segments, GA or peers, marketing basics, A/B testing, and explaining findings to non-analysts.",
     },
     {
-      q: "Is English required?",
-      a: "Technical English helps a lot: tool docs, courses, research.",
+      q: "Do you need English?",
+      a: "Technical English helps a lot: tool docs, courses, and research.",
     },
     {
       q: "Where should a beginner start?",
-      a: "Install counters on a training or own project, set goals, break down traffic sources and bounces, package 2–3 mini-cases with recommendations.",
+      a: "Put counters on a training or personal project, set goals, break down sources and bounce, then ship two or three mini-cases with recommendations.",
     },
     {
       q: "Where do analysts work?",
-      a: "In-house (especially larger companies), in agencies and studios, on projects as freelancers. Small business more often hires point-wise when sales drop.",
+      a: "In-house (especially larger companies), in agencies and studios, or freelance on projects. Small businesses more often hire for a short engagement when sales slip.",
     },
     {
-      q: "Must an analyst raise TOP rankings?",
-      a: "Not as a one-button KPI. They show what blocks conversion and growth; SEO, content, and dev implement. Search visibility timelines are separate — TOP planned for 2–6 months after promotion starts.",
+      q: "Is the analyst responsible for search rankings?",
+      a: "Not as a one-button KPI. They show what blocks conversion and growth; SEO, content, and engineering ship the fixes. Organic visibility still takes its own timeline — often months of steady work after promotion starts.",
     },
     {
-      q: "Is a technical degree required?",
-      a: "Not mandatory, but systems thinking and numbers matter. Employers look at practice and a case portfolio.",
+      q: "Do you need a technical degree?",
+      a: "Not required. Systems thinking and comfort with numbers matter more. Employers weigh practice and a case portfolio.",
     },
     {
-      q: "What makes the job hard?",
-      a: "Blurry briefs, fights over “we already did everything right,” monotonous reports, and load from non-analytics tasks.",
+      q: "What makes the role hard?",
+      a: "Vague briefs, debates that “we already did everything right,” repetitive reporting, and work dumped outside analytics.",
     },
   ],
   sections: [
@@ -52,16 +52,16 @@ export const vebAnalitikEn: BlogPost = {
       title: "Who a web analyst is",
       level: 2,
       paras: [
-        "A specialist who collects and interprets visitor and channel data to raise site effectiveness: traffic quality, conversion, UX. Reducing the role to “someone with analytics access” is a mistake.",
-        "The goal is clear conclusions and priorities for marketing, product, and engineering: what we measured, what we changed, what to test next.",
+        "Someone who collects and interprets visitor and channel data to improve site outcomes: traffic quality, conversion, UX. The role is not “the person with Metrica access.”",
+        "The real output is clear conclusions and priorities for marketing, product, and engineering: what you measured, what you changed, what to test next.",
       ],
       lists: [
         {
           intro: "In short:",
           items: [
-            "data → hypotheses → recommendations → verification;",
-            "not a report for the report’s sake;",
-            "tied to business goals, not only “visits.”",
+            "data → hypotheses → recommendations → validation",
+            "not a report for its own sake",
+            "tied to business goals, not only session counts",
           ],
         },
       ],
@@ -80,18 +80,18 @@ export const vebAnalitikEn: BlogPost = {
       title: "Duties",
       level: 2,
       paras: [
-        "Choosing and setting up data tools, goals and events, behavior breakdown (bounces, paths, forms), funnel audit, A/B tests, site KPIs, reports for different roles, improvement proposals, alignment with market research, and strategy input.",
-        "In practice the list depends on the company: somewhere the analyst sits closer to performance, somewhere to product. Translating numbers into the client’s language without losing accuracy matters.",
+        "Choosing and wiring data tools, goals and events, behavior analysis (bounce, paths, forms), funnel audits, A/B tests, site KPIs, reports for different roles, improvement proposals, checks against market research, and input into strategy.",
+        "The day-to-day mix depends on the company: closer to performance in some places, closer to product in others. Translating numbers into the stakeholder’s language without losing accuracy is part of the job.",
       ],
       lists: [
         {
           intro: "Typical task set:",
           items: [
-            "counters, goals, call tracking;",
-            "segments and sources;",
-            "UX/offer hypotheses;",
-            "A/B and effect measurement;",
-            "regular and ad-hoc reports.",
+            "counters, goals, call tracking",
+            "segments and sources",
+            "UX and offer hypotheses",
+            "A/B tests and impact measurement",
+            "regular and ad-hoc reporting",
           ],
         },
       ],
@@ -114,17 +114,17 @@ export const vebAnalitikEn: BlogPost = {
       title: "Skills and learning",
       level: 2,
       paras: [
-        "Base: Metrica and Google Analytics (or the company’s current stack), internet marketing basics, A/B, reporting, ideally call tracking and enough SEO/paid search to speak the same language. Technical English is a plus.",
-        "You can learn via university or school courses, webinars, and practice: an up-to-date program and at least half practice matter. Books and case reviews help, but don’t replace your own projects with before/after numbers.",
+        "Core stack: Metrica and Google Analytics (or whatever the company uses), internet marketing basics, A/B testing, reporting, ideally call tracking, and enough SEO/paid search to speak the same language. Technical English is a plus.",
+        "Paths include university or school courses, webinars, and hands-on work. Prefer a current curriculum with at least half practice. Books and case reviews help, but they do not replace your own before/after projects.",
       ],
       lists: [
         {
-          intro: "Beginner start:",
+          intro: "Beginner checklist:",
           items: [
-            "install a counter and goals;",
-            "break down sources and landings;",
-            "find 3 problems with evidence;",
-            "propose fixes and a way to verify.",
+            "install a counter and goals",
+            "break down sources and landings",
+            "find three problems with evidence",
+            "propose fixes and a way to verify them",
           ],
         },
       ],
@@ -143,36 +143,36 @@ export const vebAnalitikEn: BlogPost = {
       title: "Career and the market",
       level: 2,
       paras: [
-        "Larger companies keep analysts in-house or as teams; small business more often hires project-based. In agencies and studios the funnel is usually junior → middle → senior → lead → head of practice.",
-        "Pay depends on experience, project scale, adjacent skills (SEO, paid, SQL/BI), and region. Currency figures from old articles age fast — check fresh openings and market ranges.",
+        "Larger companies keep analysts in-house or as teams; small business more often hires by project. In agencies and studios the ladder is usually junior → middle → senior → lead → head of practice.",
+        "Pay tracks experience, project scale, adjacent skills (SEO, paid media, SQL/BI), and region. Figures from old articles age fast — check current openings and market ranges.",
       ],
       lists: [
         {
           intro: "What raises a candidate’s value:",
           items: [
-            "cases with measurable effect;",
-            "adjacent skills (SEO/ads);",
-            "clear communication with non-analysts;",
-            "backlog prioritization experience.",
+            "cases with measurable impact",
+            "adjacent skills (SEO / ads)",
+            "clear communication with non-analysts",
+            "experience prioritizing a backlog",
           ],
         },
       ],
     },
     {
-      title: "Pros and costs of the profession",
+      title: "Pros and costs of the role",
       level: 2,
       paras: [
-        "Pros: visible business impact, room to grow, remote and flexible schedules possible, digital-role prestige, moves into adjacent fields (product, performance, SEO).",
-        "Cons: resistance to change (“we’ve always done it this way”), unclear client briefs, blurry duty borders, monotony in some reports. A clear brief and agreed KPIs reduce friction.",
+        "Upsides: visible business impact, room to grow, remote and flexible schedules in many setups, a solid digital-role profile, and paths into product, performance, or SEO.",
+        "Downsides: resistance to change (“we’ve always done it this way”), fuzzy client briefs, blurry duty borders, and monotony in some reporting. A clear brief and agreed KPIs cut a lot of friction.",
       ],
       lists: [
         {
           intro: "Takeaway:",
           items: [
-            "the role is about data-driven decisions;",
-            "practice and communication matter;",
-            "the openings market is steady;",
-            "don’t confuse a report with a result.",
+            "the role is about decisions from data",
+            "practice and communication matter",
+            "demand for openings stays steady",
+            "a report is not the same as a result",
           ],
         },
       ],
@@ -180,7 +180,7 @@ export const vebAnalitikEn: BlogPost = {
         {
           title: "Effect timelines",
           kind: "tip",
-          text: "Analytics speeds up the right decisions. Search ranks after fixes still need time — TOP planned for 2–6 months of systematic work after promotion starts.",
+          text: "Analytics speeds up the right decisions. Search visibility after fixes still needs its own runway — often months of systematic work after promotion starts.",
         },
       ],
       links: [

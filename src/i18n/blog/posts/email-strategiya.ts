@@ -8,10 +8,10 @@ export const emailStrategiyaEn: BlogPost = {
   category: "Email marketing",
   cover: "/images/blog/email-strategiya/cover-en.webp",
   excerpt:
-    "How to build an email strategy: list and metrics audit, product and audience, competitors, email and segment plan, templates, tests, and volume growth — without the myth that “the newsletter sells itself.”",
+    "How to build an email strategy: list and metrics audit, product and audience, competitors, email and segment plan, templates, tests, and volume growth — without the myth that the newsletter sells itself.",
   lead: [
-    "An email strategy isn’t “a pretty template once a week” — it’s a chain: whom you listen to, what you write about, how often, which scenarios, and how you measure results.",
-    "A frame from research → design → launch → tests. Opt-in lists only; we don’t use scraping or bought lists.",
+    "An email strategy isn’t a pretty template once a week — it’s a chain: whom you listen to, what you write about, how often, which scenarios, and how you measure results.",
+    "Below: a frame from research → design → launch → tests. Opt-in lists only; we don’t use scraping or bought lists.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const emailStrategiyaEn: BlogPost = {
     },
     {
       q: "Which metrics should I watch?",
-      a: "Deliverability, open rate, CTR, unsubscribes, complaints, conversions/revenue. OR without sales isn’t enough.",
+      a: "Deliverability, open rate, CTR, unsubscribes, complaints, conversions/revenue. Open rate without sales isn’t enough.",
     },
     {
       q: "How many emails per week is reasonable?",
@@ -40,7 +40,7 @@ export const emailStrategiyaEn: BlogPost = {
     },
     {
       q: "When should I scale frequency?",
-      a: "After stable metrics on a small volume and clear segments — not “daily to everyone at once.”",
+      a: "After stable metrics on a small volume and clear segments — not daily to everyone at once.",
     },
   ],
   sections: [
@@ -48,8 +48,8 @@ export const emailStrategiyaEn: BlogPost = {
       title: "Stage 1. Research",
       level: 2,
       paras: [
-        "Break down current marketing: how the list was built, what subscriber data you have, how size changed, what you already sent and with which OR/CTR.",
-        "Describe the product: traits, objections, when people buy and when they refuse. Without that, emails stay “generic.”",
+        "Break down current marketing: how the list was built, what subscriber data you have, how size changed, what you already sent and with which open rate and CTR.",
+        "Describe the product: traits, objections, when people buy and when they refuse. Without that, emails stay generic.",
         "Audience segments and competitors: which emails your customers get from others (subscribe legally), where your strong differences sit.",
       ],
       lists: [
@@ -57,10 +57,10 @@ export const emailStrategiyaEn: BlogPost = {
           intro: "Minimum data before a strategy:",
           items: [
             "list source and consent",
-            "OR, CTR, spam complaints",
+            "open rate, CTR, spam complaints",
             "offer and USP",
             "1–3 segments",
-            "link to CRM/leads (if any).",
+            "link to CRM / leads (if any)",
           ],
         },
       ],
@@ -95,7 +95,7 @@ export const emailStrategiyaEn: BlogPost = {
       title: "Stages 3–4. Launch, tests, growth",
       level: 2,
       paras: [
-        "Launch on a narrow segment. Watch deliverability and complaints before “creative.”",
+        "Launch on a narrow segment. Watch deliverability and complaints before creative polish.",
         "A/B subjects and CTAs, analyze unsubscribes, clean inactives. Raise frequency and volume only after a stable metrics base.",
         "Tools (ESP, tasks, analytics) serve the plan — not the other way around.",
       ],
@@ -113,10 +113,10 @@ export const emailStrategiyaEn: BlogPost = {
   ],
   notes: {
     title: "Important",
-    text: "The original text had typos like “GRM” — read CRM. OR/CTR metrics without revenue don’t prove strategy success.",
+    text: "Open rate and CTR without revenue don’t prove strategy success. Treat CRM as the system of record for segments and deals — not a spreadsheet forever.",
   },
   closing: [
-    "Assemble research → email map → segment pilot → tests — so email strategy becomes a system, not another chaotic “promo in the newsletter.”",
+    "Assemble research → email map → segment pilot → tests — so email strategy becomes a system, not another chaotic promo in the newsletter.",
   ],
   related: [
     "instrumenty-marketologa",

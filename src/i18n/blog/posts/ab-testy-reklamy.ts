@@ -8,50 +8,50 @@ export const abTestyReklamyEn: BlogPost = {
   category: "Paid search",
   cover: "/images/blog/ab-testy-reklamy/cover-en.webp",
   excerpt:
-    "How to compare ads in Yandex Direct and Google Ads: rotation, reports, campaign experiments, and what to do when the sample is thin — without outdated 2019 click-paths through “advanced settings.”",
+    "How to run fair ad tests in Yandex Direct and Google Ads: rotation, reports, campaign experiments, and what to do when volume is low — without clinging to 2019 menu paths.",
   lead: [
-    "An A/B (split) test in search or display puts creative or setting variants on comparable traffic so you can pick a winner on a business metric — not CTR alone.",
-    "Direct and Google Ads both have built-in ways to rotate ads and run experiments. UI labels change; the workflow doesn’t: give variants a fair shot, wait for data, then decide on CPA or ROI. Landing-page tests belong in the conversion optimization article.",
+    "A split test in paid search puts two (or a few) creatives or settings on comparable traffic so you can pick a winner on money metrics — not who won the CTR race.",
+    "Both Direct and Google Ads can rotate ads and run campaign experiments. Labels in the UI shift over time; the loop doesn’t: equal chance → enough data → decide on CPA or ROI. Landing-page tests live in the conversion optimization piece.",
   ],
   faq: [
     {
-      q: "Is rotating two ads in a group enough?",
-      a: "Often yes for copy and headlines. For bidding strategies, bids, and structure, campaign experiments are a better fit — if your account supports them.",
+      q: "Can I just run two ads in one group?",
+      a: "Yes for headlines and body. For bids, strategies, or structure changes, use a campaign experiment if your account has it.",
     },
     {
-      q: "Is the highest-CTR ad always the winner?",
-      a: "No. High CTR with expensive junk clicks loses to modest CTR with a sane CPA. Watch goals and spend.",
+      q: "Does the ad with the best CTR always win?",
+      a: "No. A click magnet that burns budget on junk traffic loses to a quieter ad with a sane CPA. Score the business outcome.",
     },
     {
-      q: "How long should you wait before deciding?",
-      a: "Until you have enough conversions or clicks to decide — not “exactly seven days from a textbook.” With tiny traffic, the test isn’t worth running.",
+      q: "How long should a test run?",
+      a: "Until conversions (or enough clicks) support a call — not a fixed “seven days from the handbook.” If traffic is tiny, don’t bother testing yet.",
     },
     {
-      q: "Should you change everything at once?",
-      a: "Stick to one hypothesis: headline, offer, or landing page. Otherwise you won’t know what moved the needle.",
+      q: "Can I change several things at once?",
+      a: "One hypothesis at a time: headline, or offer, or landing. Change everything and you’ll never know what moved.",
     },
     {
-      q: "Are UTM tags required for A/B tests?",
-      a: "For Yandex Metrica or GA4 comparisons — strongly recommended, plus ad IDs in URL templates when the platform provides them.",
+      q: "Do I need UTMs?",
+      a: "For Metrica/GA4 side-by-side — yes, plus ad IDs in URL templates when the platform fills them.",
     },
   ],
   sections: [
     {
-      title: "Why A/B test paid search",
+      title: "Why bother testing ads",
       level: 2,
       paras: [
-        "Two ads on the same query can deliver different CTR, bounce rate, and CPA. Without a test you’re optimizing by gut feel or whatever week looked lucky.",
-        "Built-in rotation makes fair impression sharing easier; analytics and experiments let you dig deeper — including strategies and negative keywords.",
+        "Same query, different copy — and you can get different CTR, bounce, and cost per lead. Skip the test and you’re steering by gut or by one lucky week.",
+        "Platform rotation helps share impressions fairly. Reports and experiments go further: strategies, negatives, even bid logic.",
       ],
       lists: [
         {
-          intro: "What teams usually test:",
+          intro: "Common test surfaces:",
           items: [
-            "headlines and body copy;",
-            "sitelinks and callouts;",
-            "offer and USP;",
-            "landing pages (carefully — one hypothesis);",
-            "bids and strategies via an experiment.",
+            "headlines and descriptions",
+            "sitelinks and callouts",
+            "offer and USP",
+            "landing pages (one change at a time)",
+            "bids and strategies through an experiment",
           ],
         },
       ],
@@ -63,20 +63,20 @@ export const abTestyReklamyEn: BlogPost = {
       ],
     },
     {
-      title: "Built-in tools in Yandex Direct",
+      title: "What Direct already does for you",
       level: 2,
       paras: [
-        "In a group with several ads, the system may shift impressions toward the more clickable ones — gradually, after enough stats. Check the exact option names in today’s account UI.",
-        "While data is thin, variants often get comparable traffic. Don’t pause the “loser” at ten clicks.",
+        "Several ads in one group: after stats build up, the system often leans impressions toward the more clickable ones — gradually. Exact toggle names live in the current account UI.",
+        "Early on, variants usually share traffic. Don’t kill the “loser” after ten clicks.",
       ],
       lists: [
         {
-          intro: "Practical rules:",
+          intro: "Working habits:",
           items: [
-            "2–3 variants in a group, not a dozen;",
-            "change one variable;",
-            "wait for stats;",
-            "decide by goals, not CTR alone.",
+            "two or three variants, not a dozen",
+            "one variable per test",
+            "wait for real volume",
+            "judge by goals, not CTR alone",
           ],
         },
       ],
@@ -88,55 +88,55 @@ export const abTestyReklamyEn: BlogPost = {
       ],
     },
     {
-      title: "Rotation and experiments in Google Ads",
+      title: "Google Ads: rotation and experiments",
       level: 2,
       paras: [
-        "Google Ads historically offered rotation modes: optimize for the best performer or rotate more evenly. The options evolved — the idea is either give variants a chance or accelerate the strong ones.",
-        "Campaign experiments (formerly “drafts and experiments”) compare settings on a share of traffic: bids, keywords, negatives, strategies. Useful when a second ad alone isn’t enough.",
+        "Google long offered rotation modes — push the winners, or share more evenly. Names change; the choice is still “give everyone a shot” vs “favor what already works.”",
+        "Campaign experiments (the old drafts-and-experiments path) split traffic so you can compare bids, keywords, negatives, and strategies. Use them when a second ad isn’t enough.",
       ],
       notes: [
         {
           title: "Common mistake",
-          text: "Copying the “Additional settings → rotation” path from a 2019 screenshot. Find what the setting means in the current UI or Google Help.",
+          text: "Following a 2019 screenshot path like “Additional settings → ad rotation.” Look up what the setting does in today’s UI or Google Help.",
           kind: "tip",
         },
       ],
     },
     {
-      title: "How to compare results in reports",
+      title: "Reading the reports",
       level: 2,
       paras: [
-        "In Direct, use Report Wizard: slices by group and ad number or text, plus clicks, conversions, and CPA. In Google Ads, use ad and experiment reports.",
-        "Business metrics beat clickability: CPA, ROAS/ROI, qualified leads, closed deals. Factor in attribution — last click can undervalue the top of the funnel.",
+        "Direct: Report Wizard — cut by group and ad ID or text; pull clicks, conversions, CPA. Google Ads: ad reports and experiment reports.",
+        "Money beats vanity: CPA, ROAS/ROI, qualified leads, closed deals. Mind attribution — last click can undervalue upper-funnel ads.",
       ],
       lists: [
         {
-          intro: "Report minimum:",
+          intro: "Minimum columns:",
           items: [
-            "impressions, clicks, CTR;",
-            "conversions and CPA;",
-            "spend;",
-            "when possible — bounce and depth in Yandex Metrica;",
-            "separate search vs. display views.",
+            "impressions, clicks, CTR",
+            "conversions and CPA",
+            "spend",
+            "bounce / depth in analytics when you can",
+            "search and display viewed apart",
           ],
         },
       ],
     },
     {
-      title: "When the sample is thin",
+      title: "Not enough data yet",
       level: 2,
       paras: [
-        "If ad-level data is missing, roll up carefully: compare texts or headlines only where variants differ by one variable. Mixing different group themes into one “best ad overall” ranking is a mistake.",
-        "Check UTM and ad-id substitution — empty tags break summary tables. Tag templates are covered in the UTM article.",
+        "If a single ad is too thin, roll up carefully: compare copy only where the one variable actually differs. Don’t mash unrelated group themes into one “best text forever” ranking.",
+        "Broken UTMs and missing ad IDs wreck summary tables. Templates are covered in the UTM article.",
       ],
       lists: [
         {
-          intro: "It’s too early to call the test when:",
+          intro: "Stop the test early if:",
           items: [
-            "conversions are still single digits;",
-            "you’re looking at a week with weird demand;",
-            "you also changed bids and keywords;",
-            "you mixed search and display into one pile.",
+            "conversions are still in single digits",
+            "the week had weird demand",
+            "you also changed bids and keywords",
+            "search and display are mixed in one view",
           ],
         },
       ],
@@ -152,24 +152,24 @@ export const abTestyReklamyEn: BlogPost = {
       ],
     },
     {
-      title: "Comparison logic examples",
+      title: "How to compare without fooling yourself",
       level: 2,
       paras: [
-        "If only the body differs in a group with the same headline and keywords, grouping by text is fine. If the headline and neighboring group themes also differ, “best text overall” conclusions will be skewed.",
-        "Keep search and display separate — different CTR and traffic quality. The test outcome should be an action: pause the weak, scale the strong, or run a new hypothesis.",
+        "Same headline and keywords, only the body changes — grouping by text is fair. Headline plus different neighbor-group themes — “best text overall” will lie to you.",
+        "Keep search and display separate: CTR and traffic quality aren’t the same game. End each test with an action: pause the weak, scale the strong, or start a new hypothesis.",
       ],
     },
     {
-      title: "Takeaways",
+      title: "What to remember",
       level: 2,
       paras: [
-        "A/B testing in Direct and Google Ads rests on rotation or experiments plus money reports. One hypothesis, enough data, decide by CPA or ROI.",
-        "Low traffic — roll up carefully or keep accumulating; don’t crown a CTR winner in a day.",
+        "A/B in Direct and Google Ads = rotation or experiments + money reports. One hypothesis, enough data, decide on CPA or ROI.",
+        "Low volume — roll up carefully or keep collecting. Don’t crown a one-day CTR champ.",
       ],
     },
   ],
   closing: [
-    "Launch two or three variants with one variable, wait for stats, and choose by business goals — that’s when split tests in paid search start saving budget instead of spawning group chaos.",
+    "Ship two or three variants, change one thing, wait for stats, pick the winner on business goals — that’s when paid-search split tests save budget instead of cluttering every ad group.",
   ],
   related: [
     "optimizatsiya-konversii",

@@ -8,10 +8,10 @@ export const ustarevshiySaytEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/ustarevshiy-sayt/cover-en.webp",
   excerpt:
-    "When a site feels outdated: bulky structure, no responsive layout, thin features, overstuffed copy, design/brand mismatch, Flash legacy, and slow load — without TOP guarantees after a redesign.",
+    "When a site feels outdated: bulky structure, no responsive layout, thin features, overstuffed copy, design/brand mismatch, Flash legacy, and slow load — without ranking guarantees after a redesign.",
   lead: [
     "Falling leads and rankings don’t always mean you need a brand-new design from scratch. Often the site simply stopped matching expectations: awkward structure, no decent mobile UX, heavy pages, copy written for robots.",
-    "Walk the aging signs in order — structure, mobile, features, content, brand, tech debt — before budgeting a “pretty picture.” Getting into TOP after fixes is planned for 2–6 months of work, not “repaint and instantly rank first.”",
+    "Below: aging signs and what to do. Flat-design trends from old guides aren’t dogma — clarity, speed, and brand fit matter more. Page-one visibility after fixes is planned months of work, not “repaint and instantly rank first.”",
   ],
   faq: [
     {
@@ -63,7 +63,7 @@ export const ustarevshiySaytEn: BlogPost = {
       title: "Content, design, and brand",
       level: 2,
       paras: [
-        "Keyword stuffing and “SEO walls” with no value mark an outdated approach. Subheads, examples, visuals, and a clear answer to the query beat density.",
+        "Keyword stuffing and SEO walls with no value mark an outdated approach. Subheads, examples, visuals, and a clear answer to the query beat density.",
         "Design builds trust. Dated tricks (heavy skeuomorphism, noisy textures, chaotic type) lower the sense that the business is current. Modern isn’t chasing this year’s fashion — it’s readability and clean hierarchy.",
         "If the site doesn’t match identity (colors, fonts, logo), the brand looks fragmented. Sync with the brand book.",
       ],
@@ -89,8 +89,8 @@ export const ustarevshiySaytEn: BlogPost = {
       notes: [
         {
           title: "Redesign ≠ magic",
-          text: "After launch watch indexation, 404s, and conversion. Core SEO positions grow over 2–6 months if the tech and content base are sound — prep and redesign aren’t the same as hitting TOP.",
           kind: "tip",
+          text: "After launch watch indexation, 404s, and conversion. Rankings across the keyword set grow over months if the tech and content base are sound — prep and redesign aren’t the same as page-one visibility.",
         },
       ],
     },

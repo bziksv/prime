@@ -11,8 +11,12 @@ export const sekretnyyChatTelegramEn: BlogPost = {
     "What a Telegram secret chat is: end-to-end, delete timer, forwarding and screenshot limits — without the myth of “absolute invulnerability.”",
   lead: [
     "A Telegram secret chat is a separate one-to-one messaging mode focused on end-to-end encryption, auto-delete, and limited forwarding. It’s not the same as a regular cloud dialogue.",
-    "We cover how the mode differs, how to create it, why the timer matters, and which expectations are realistic. Menus change; check Telegram Help. There’s no absolute protection from everything: device access, social engineering, and a second camera still exist.",
+    "Below: how the mode differs, how to create it, why the timer matters, and which expectations are realistic. Menus change; check Telegram Help. There’s no absolute protection from everything: device access, social engineering, and a second camera still exist.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. WhatsApp* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Is a secret chat the same as all Telegram chats?",
@@ -63,8 +67,8 @@ export const sekretnyyChatTelegramEn: BlogPost = {
       notes: [
         {
           title: "Realism",
-          text: "We don’t copy EFF ratings, bounties, and WhatsApp/Viber comparisons from old roundups as eternal truth. Check current reports and client Help.",
           kind: "tip",
+          text: "We don’t copy EFF ratings, bounties, and WhatsApp/Viber comparisons from old roundups as eternal truth. Check current reports and client Help.",
         },
       ],
     },
@@ -80,10 +84,10 @@ export const sekretnyyChatTelegramEn: BlogPost = {
         {
           intro: "Before you start:",
           items: [
-            "confirm you’re writing the right contact;",
-            "agree on the timer and what can be sent;",
-            "an updated official client;",
-            "understand that changing phones may break an old session.",
+            "confirm you’re writing the right contact",
+            "agree on the timer and what can be sent",
+            "an updated official client",
+            "understand that changing phones may break an old session",
           ],
         },
       ],

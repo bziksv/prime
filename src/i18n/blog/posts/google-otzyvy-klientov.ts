@@ -20,7 +20,7 @@ export const googleOtzyvyKlientovEn: BlogPost = {
     },
     {
       q: "Do you need Merchant Center?",
-      a: "Usually yes: participation and the survey module are tied to the seller account. You can’t “turn it on with a site button” without it.",
+      a: "Usually yes: participation and the survey module are tied to the seller account. You can’t turn it on with a site button alone.",
     },
     {
       q: "Does it guarantee higher ad CTR?",
@@ -50,7 +50,7 @@ export const googleOtzyvyKlientovEn: BlogPost = {
             "tied to a completed purchase",
             "lives in Merchant / Shopping",
             "doesn’t replace Maps reviews",
-            "doesn’t replace collection on your own site.",
+            "doesn’t replace collection on your own site",
           ],
         },
       ],
@@ -80,15 +80,15 @@ export const googleOtzyvyKlientovEn: BlogPost = {
             "thank-you page is stable and has the code",
             "email/order data pass correctly",
             "GTINs in the catalog are valid",
-            "no “storefront on one domain, checkout on another” setup if rules forbid it.",
+            "no “storefront on one domain, checkout on another” setup if rules forbid it",
           ],
         },
       ],
       notes: [
         {
           title: "Important",
-          text: "Don’t hang a “seller rating” badge before display conditions are met: an empty/“unavailable” badge is worse than no badge. Check current thresholds in Help.",
           kind: "tip",
+          text: "Don’t hang a “seller rating” badge before display conditions are met: an empty or “unavailable” badge is worse than no badge. Check current thresholds in Help.",
         },
       ],
     },
@@ -106,7 +106,7 @@ export const googleOtzyvyKlientovEn: BlogPost = {
             "Customer Reviews — if you join Shopping",
             "maps/local — separately",
             "your site — for people who already bought",
-            "replies to negatives — by process, without faking.",
+            "replies to negatives — by process, without faking",
           ],
         },
       ],
@@ -119,7 +119,7 @@ export const googleOtzyvyKlientovEn: BlogPost = {
     },
   ],
   closing: [
-    "Google Customer Reviews is a trust tool for stores in Google’s ecosystem — not a universal “CTR button”. Connect the survey correctly, follow guidelines, and don’t confuse the program with Maps reviews.",
+    "Google Customer Reviews is a trust tool for stores in Google’s ecosystem — not a universal CTR button. Connect the survey correctly, follow guidelines, and don’t confuse the program with Maps reviews.",
   ],
   related: [
     "otzyvy-dlya-prodazh",

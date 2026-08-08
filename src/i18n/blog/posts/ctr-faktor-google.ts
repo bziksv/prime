@@ -10,13 +10,13 @@ export const ctrFaktorGoogleEn: BlogPost = {
   excerpt:
     "Does Google use CTR in ranking: what representatives have said, where clicks feed experiments and personalization, and why click inflation is a bad bet.",
   lead: [
-    "The “is CTR a Google ranking factor?” debate has run for years: industry experiments, engineer comments, and confusion between personalization, SERP A/B tests, and a “direct” boost for every page.",
-    "A practical frame without chasing click inflation: where clicks actually show up, what to do with CTR in Search Console, and why a better snippet and stronger relevance beat buying clicks.",
+    "The “is CTR a Google ranking factor?” debate has run for years: industry experiments, engineer comments, and confusion between personalization, SERP A/B tests, and a direct boost for every page.",
+    "Below: a practical frame without chasing click inflation — where clicks actually show up, what to do with CTR in Search Console, and why a better snippet and stronger relevance beat buying clicks.",
   ],
   faq: [
     {
       q: "Is CTR a direct ranking factor?",
-      a: "Google has repeatedly said raw CTR as a universal ranking lever is unreliable and easy to game. Clicks show up in narrower places: quality experiments, personalization, some trend scenarios — not “buy clicks → climb the SERP.”",
+      a: "Google has repeatedly said raw CTR as a universal ranking lever is unreliable and easy to game. Clicks show up in narrower places: quality experiments, personalization, some trend scenarios — not “buy clicks → page one.”",
     },
     {
       q: "Why watch CTR in Search Console then?",
@@ -44,7 +44,7 @@ export const ctrFaktorGoogleEn: BlogPost = {
     },
     {
       q: "When should I expect rank growth after a title fix?",
-      a: "Recrawl and reaction can take days to weeks. Building competitive terms into the top results is still a planned 2–6 months of steady work — not “new title = top tomorrow.” Prep work is not the same as ranking results.",
+      a: "Recrawl and reaction can take days to weeks. Building competitive terms into page-one visibility is still a planned 2–6 months of steady work — not “new title = page one tomorrow.”",
     },
   ],
   sections: [
@@ -58,13 +58,13 @@ export const ctrFaktorGoogleEn: BlogPost = {
       notes: [
         {
           title: "Historical context",
-          text: "2015–2016 quotes and slides are an archive of the debate. Check current wording in Google Help and Search Central; don’t build strategy on one old presentation screenshot.",
           kind: "tip",
+          text: "2015–2016 quotes and slides are an archive of the debate. Check current wording in Google Help and Search Central; don’t build strategy on one old presentation screenshot.",
         },
       ],
     },
     {
-      title: "Where CTR isn’t a “ranking button”",
+      title: "Where CTR isn’t a ranking button",
       level: 2,
       paras: [
         "Raw CTR by query is easy to distort: brand, position, season, clickbait, bots. A universal “higher CTR → higher rank for everyone” rule scales poorly and is easy to spam.",
@@ -86,14 +86,14 @@ export const ctrFaktorGoogleEn: BlogPost = {
       title: "Where clicks still matter",
       level: 2,
       paras: [
-        "In engineering explanations, clicks often appear as a quality metric in experiments: does an algorithm change help people find a better answer? That’s an indirect loop through system evaluation — not a “manual URL boost for yesterday’s clicks.”",
-        "In some trend and “hot topic” scenarios, short-term popularity signals (mentions, interest, sometimes behavior) can temporarily affect the SERP. That’s hard to control with SEO tricks and cools off fast.",
+        "In engineering explanations, clicks often appear as a quality metric in experiments: does an algorithm change help people find a better answer? That’s an indirect loop through system evaluation — not a manual URL boost for yesterday’s clicks.",
+        "In some trend and hot-topic scenarios, short-term popularity signals (mentions, interest, sometimes behavior) can temporarily affect the SERP. That’s hard to control with SEO tricks and cools off fast.",
       ],
       lists: [
         {
           intro: "A practical model for SEOs:",
           items: [
-            "a direct “CTR score” per page isn’t your bet",
+            "a direct CTR score per page isn’t your bet",
             "Google experiments / SERP quality — an internal loop",
             "personalization — about the user, not someone else’s rankings",
             "your work — snippet, relevance, UX after the click",
@@ -143,8 +143,8 @@ export const ctrFaktorGoogleEn: BlogPost = {
       notes: [
         {
           title: "Timelines",
-          text: "A snippet fix can move CTR relatively fast after recrawl. Building competitive terms into the top results still takes months (often 2–6) — not “they clicked, so we’re #1.” Site prep is not the same as ranking timelines.",
           kind: "tip",
+          text: "A snippet fix can move CTR relatively fast after recrawl. Building competitive terms into page-one visibility still takes months (often 2–6) — not “they clicked, so we’re first.” Site prep is not the same as ranking timelines.",
         },
       ],
     },

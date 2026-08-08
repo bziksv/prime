@@ -11,7 +11,7 @@ export const roasEn: BlogPost = {
     "ROAS = ad revenue / ad spend: how it differs from ROI/ROMI (return on marketing investment), how to calculate it, why include creative in costs, and why in B2B without end-to-end analytics the metric lies.",
   lead: [
     "ROAS (return on ad spend) shows how much revenue you get per unit of ad budget. It’s a tactical money metric for a campaign — not a strategy substitute and not the “only brand KPI”.",
-    "We walk through the formula, how it differs from ROI/ROMI, a campaign comparison example, and B2B cases where the deal often closes outside the ad account. A “good” ROAS depends on margin and goal—there’s no universal “4:1 for everyone.”",
+    "Below: the formula, how it differs from ROI/ROMI, a campaign comparison example, and B2B cases where the deal often closes outside the ad account. A “good” ROAS depends on margin and goal — there’s no universal “4:1 for everyone.”",
   ],
   faq: [
     {
@@ -52,10 +52,10 @@ export const roasEn: BlogPost = {
         {
           intro: "To keep ROAS honest:",
           items: [
-            "one attribution model for the comparison period;",
-            "in spend — media + necessary production costs;",
-            "in revenue — what you really tied to the campaign;",
-            "returns and cancellations counted in e-com.",
+            "one attribution model for the comparison period",
+            "in spend — media + necessary production costs",
+            "in revenue — what you really tied to the campaign",
+            "returns and cancellations counted in e-com",
           ],
         },
       ],

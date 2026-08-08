@@ -3,50 +3,50 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for interfeys-yandeks-direkt — same structure as RU JSON. */
 export const interfeysYandeksDirektEn: BlogPost = {
   slug: "interfeys-yandeks-direkt",
-  title: "Yandex Direct interface: from the 2018 beta to stats-driven work",
+  title: "Yandex Direct interface: from the 2018 beta to stats-first work",
   date: "2018-08-08",
   category: "Paid search",
   cover: "/images/blog/interfeys-yandeks-direkt/cover-en.webp",
   excerpt:
-    "What the “new” Direct beta of 2018 changed — and which principles remain: tables, filters, bulk ops, and report-driven management — without a call to “join the beta.”",
+    "What the 2018 Direct redesign actually changed — and what still matters: tables, filters, bulk edits, report-driven decisions — without a pitch to “join the beta.”",
   lead: [
-    "In August 2018 Yandex opened a beta of an updated Direct interface: focus on tables, filters, speed, and working from stats, not from scattered screens. The old UI was later turned off — there is no separate “beta” to enter anymore.",
-    "The redesign still shapes today’s interface: tables, filters, and working from stats. Menu labels and wizard names changed again; go by what each section does and Direct Help, not 2018 screenshots.",
+    "In August 2018 Yandex rolled out a beta of a rebuilt Direct UI: tables, filters, speed, and decisions from numbers instead of scattered screens. The old interface was later shut off — there is no “enter the beta” toggle left.",
+    "What follows is the idea behind that redesign and how to use today’s account the same way. Menu labels and wizard names moved again; trust section purpose and Direct Help, not 2018 screenshots.",
   ],
   faq: [
     {
-      q: "Is the new Direct beta still open?",
-      a: "As the 2018 open signup — no. You work in the current interface; the “old/new” switch from that era is gone.",
+      q: "Is the new Direct beta still running?",
+      a: "Not as the 2018 open signup. You’re in the current UI; the old/new switch from that era is gone.",
     },
     {
-      q: "Why read about a 2018 redesign?",
-      a: "So you don’t hunt outdated clicks in guides and you get the principle: edit campaigns via reports, filters, and bulk actions.",
+      q: "Why bother with a redesign from 2018?",
+      a: "So old guides don’t send you on a click scavenger hunt — and so you keep the real habit: fix campaigns from reports, filters, and bulk actions.",
     },
     {
-      q: "Is Commander still needed?",
-      a: "For large edits, editors and exports are still handy — check Yandex’s current tools. Small edits happen in the web interface.",
+      q: "Do I still need Commander?",
+      a: "For big structural edits, editors and exports still help — check what Yandex ships now. Day-to-day tweaks stay in the web UI.",
     },
     {
-      q: "Is the Report Wizard required?",
-      a: "Yes if you want slices beyond default columns. Without reports, optimization turns into guessing.",
+      q: "Is the Report Wizard a must?",
+      a: "If you need slices beyond the default columns — yes. Without reports you’re guessing.",
     },
     {
-      q: "Where should a beginner start in the account?",
-      a: "Campaign structure → phrases and ads → Metrica goals → a weekly report on spend and conversions.",
+      q: "Where should a beginner start?",
+      a: "Campaign structure → keywords and ads → analytics goals → a weekly spend-and-conversion report.",
     },
   ],
   sections: [
     {
-      title: "What the 2018 beta promised",
+      title: "What the 2018 beta sold",
       level: 2,
       paras: [
-        "Yandex claimed unified formats on one platform and an interface where decisions follow numbers: performance on one screen, filters, bulk ops across elements from different account corners.",
-        "Access came in waves first (a teaser in the account). Then the new UI became primary and the old one was phased out. “Join the beta” calls from old posts are no longer relevant.",
+        "Yandex pitched unified formats on one platform and a UI where you decide from numbers: performance on one screen, filters, bulk ops across corners of the account.",
+        "Access came in waves (a teaser in the cabinet). Then the new UI became default and the old one was phased out. “Hurry into the beta” lines from old posts are dead.",
       ],
       notes: [
         {
-          title: "Historical material",
-          text: "Don’t treat 2018 “My campaigns” screenshots and popup editors as instructions. Check current names in Help.",
+          title: "Historical note",
+          text: "Don’t treat 2018 “My campaigns” screenshots and popup editors as a how-to. Check current names in Help.",
           kind: "tip",
         },
       ],
@@ -58,20 +58,20 @@ export const interfeysYandeksDirektEn: BlogPost = {
       ],
     },
     {
-      title: "Managing from stats — the principle that stayed",
+      title: "Decide from the table — the habit that stuck",
       level: 2,
       paras: [
-        "Redesign gist: fewer screens for their own sake, more campaign/group/phrase tables with metrics, fast filters, and jumps into reports. Easier to find losing segments and scale winners.",
-        "In current Direct keep spend, clicks, conversions, CPA/revenue (if goals are set) visible. Tune columns for the week’s job, not “everything at once.”",
+        "The redesign’s core: fewer vanity screens, more campaign / group / keyword tables with metrics, fast filters, and a path into reports. Easier to kill losing slices and scale what works.",
+        "In today’s Direct keep spend, clicks, conversions, and CPA or revenue (if goals exist) in view. Set columns for this week’s job — not every metric at once.",
       ],
       lists: [
         {
-          intro: "Weekly table minimum:",
+          intro: "Weekly table checklist:",
           items: [
-            "campaigns with spend and no conversions;",
-            "phrases with high CPC and zero leads;",
-            "ads with abnormally low CTR;",
-            "device and placement slice (search/networks).",
+            "campaigns spending with zero conversions",
+            "keywords with high CPC and no leads",
+            "ads with a suspiciously low CTR",
+            "device and placement cut (search vs networks)",
           ],
         },
       ],
@@ -87,11 +87,11 @@ export const interfeysYandeksDirektEn: BlogPost = {
       ],
     },
     {
-      title: "Filters, structure levels, and bulk ops",
+      title: "Filters, hierarchy, and bulk edits",
       level: 2,
       paras: [
-        "Filtering “My campaigns” and drilling down (campaign → group → phrases/ads) saves hours. Bulk pauses, bids, and copy edits are normal for accounts with dozens of groups.",
-        "Don’t confuse edit speed with hypothesis quality: mass-stop clear junk; run ad tests deliberately.",
+        "Filtering the campaign list and drilling down (campaign → group → keywords/ads) saves hours. Bulk pause, bid, and copy edits are normal once you have dozens of groups.",
+        "Speed isn’t quality: mass-stop obvious junk; run creative tests on purpose.",
       ],
       links: [
         {
@@ -101,11 +101,11 @@ export const interfeysYandeksDirektEn: BlogPost = {
       ],
     },
     {
-      title: "Phrases, Wordstat, and negatives in one workflow",
+      title: "Keywords, Wordstat, and negatives in one place",
       level: 2,
       paras: [
-        "The beta stressed phrase work: bids, ad edits, find/replace, selection backed by Wordstat stats. The logic lives: semantics and negatives sit next to performance metrics, not in a separate universe.",
-        "Regularly export search terms, clean with negatives, expand live search terms. Blanket negative lists are only a draft.",
+        "The beta pushed keyword work into the same flow: bids, ad edits, find/replace, and Wordstat-backed expansion. That still holds — semantics and negatives sit next to performance, not in a separate world.",
+        "Export search terms regularly, cut with negatives, grow the phrases that convert. Universal negative lists are a draft, not a finished set.",
       ],
       links: [
         {
@@ -119,35 +119,35 @@ export const interfeysYandeksDirektEn: BlogPost = {
       ],
     },
     {
-      title: "How to learn the current interface",
+      title: "Learning today’s account",
       level: 2,
       paras: [
-        "Don’t learn Direct from a guide about “the link at the bottom to the old interface.” Open Help, pin 4–5 working screens: campaigns, ads/phrases, Report Wizard, libraries (negatives, audiences), goal settings.",
-        "Beginners do better with a small test budget and one funnel than studying every beta feature at once. Send Yandex support feedback on real bugs, not nostalgia for 2017 UI.",
+        "Skip guides that say “click the link at the bottom for the old UI.” Open Help and pin four or five screens: campaigns, ads/keywords, Report Wizard, libraries (negatives, audiences), goal settings.",
+        "Beginners learn faster with a small test budget and one funnel than by touring every feature at once. File support tickets for real bugs — not nostalgia for 2017 chrome.",
       ],
       lists: [
         {
-          intro: "Rollout order for a team:",
+          intro: "Team rollout order:",
           items: [
-            "one shared report-column standard;",
-            "an owner for weekly cleanup;",
-            "documented UTM and goals;",
-            "no gut-feel edits without a stats slice.",
+            "one shared report-column standard",
+            "an owner for weekly cleanup",
+            "documented UTMs and goals",
+            "no gut-feel edits without a stats cut",
           ],
         },
       ],
     },
     {
-      title: "Takeaways",
+      title: "What to remember",
       level: 2,
       paras: [
-        "The 2018 “new Direct” beta is history. The “decide from the table and report” principle still works.",
-        "Ignore outdated screenshot clicks; tune the current interface for CPA and lead quality.",
+        "The 2018 “new Direct” beta is history. Deciding from the table and the report is still the right habit.",
+        "Ignore screenshot click-paths; tune the current UI for CPA and lead quality.",
       ],
     },
   ],
   closing: [
-    "Open the campaign list, set columns for conversions, and once a week filter losing phrases and ads — that uses Direct in the redesign’s logic, without hunting a gone beta.",
+    "Open the campaign list, set columns around conversions, and once a week filter out losing keywords and ads — that is the redesign’s logic, without hunting a beta that no longer exists.",
   ],
   related: [
     "strategii-yandeks-direkt",

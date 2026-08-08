@@ -8,10 +8,10 @@ export const analizKonkurentovEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/analiz-konkurentov/cover-en.webp",
   excerpt:
-    "How to estimate competitors’ traffic and visibility: SimilarWeb, Ahrefs, Semrush, and other sources. Why numbers diverge and how not to kid yourself.",
+    "How to estimate competitors’ traffic and visibility: SimilarWeb, Ahrefs, Semrush, and other sources. Why the numbers diverge — and how not to kid yourself.",
   lead: [
     "Competitor analysis is about order-of-magnitude traffic, channels, and strong pages — not copying someone else’s site. Tool numbers are always estimates: cross-check a few sources and watch magnitude, not fake precision.",
-    "Alexa as a mass tool is gone; use current services and common sense. Cross-check SimilarWeb with Ahrefs/Semrush, lock traffic order of magnitude, and write hypotheses for your own site — don’t argue over fake precision.",
+    "Below: why look at someone else’s traffic, which tools give a useful cut, and how to read disagreements. Alexa as a mass tool is gone; use current services and common sense.",
   ],
   faq: [
     {
@@ -19,20 +19,20 @@ export const analizKonkurentovEn: BlogPost = {
       a: "Different indexes, geos, and click models. Look at order of magnitude and trend — not an “exact” headcount.",
     },
     {
-      q: "Can you know a competitor’s exact traffic?",
+      q: "Can I know a competitor’s exact traffic?",
       a: "Without access to their analytics — no. You get estimates and indirect signals: visibility, ads, social proof.",
     },
     {
       q: "Is SimilarWeb alone enough?",
-      a: "As a quick channel slice — yes. For SEO cores and links, add Keys.so / Ahrefs / Semrush and a manual SERP review.",
+      a: "As a quick channel slice — yes. For the SEO core and links, add Keys.so / Ahrefs / Semrush and a manual SERP review.",
     },
     {
-      q: "Should you trust the “for advertisers” block on a site?",
+      q: "Should I trust the “for advertisers” block on a site?",
       a: "As the owner’s claim — yes, with caveats. Cross-check with tool estimates and the mediakit update date.",
     },
     {
       q: "How is traffic analysis different from parsing?",
-      a: "This piece covers visit and channel estimates. Parsing is more about collecting prices, catalogs, URLs. See the separate article.",
+      a: "Here — visit and channel estimates. Parsing is more about collecting prices, catalogs, URLs. See the separate article.",
     },
   ],
   sections: [
@@ -41,7 +41,7 @@ export const analizKonkurentovEn: BlogPost = {
       level: 2,
       paras: [
         "To sense niche size, who takes demand, which channels work (search, direct, social, referral), and where to dig in your own strategy.",
-        "Typical goals: pick a traffic benchmark, find page ideas, gauge a site’s ad potential before seeding.",
+        "Typical goals: pick a traffic benchmark, find page ideas, gauge a site’s ad potential before you buy placement.",
       ],
       lists: [],
     },
@@ -49,7 +49,7 @@ export const analizKonkurentovEn: BlogPost = {
       title: "Traffic estimation tools",
       level: 2,
       paras: [
-        "SimilarWeb estimates visits, channels, geo, and engagement from panels and open signals. Handy for comparing sites “by eye.”",
+        "SimilarWeb estimates visits, channels, geo, and engagement from panels and open signals. Handy for comparing sites by eye.",
         "Ahrefs, Semrush, SpyFu, and local peers are stronger on organic: keywords, traffic-driving pages, visibility trends. Models differ — numbers won’t match.",
         "Historic Alexa Ranking is no longer a daily pillar: the product left the market. Old Alexa guides are archive reading.",
       ],
@@ -57,17 +57,18 @@ export const analizKonkurentovEn: BlogPost = {
         {
           intro: "What people usually check:",
           items: [
-            "visit estimate and trend;",
-            "share of search / direct / social / referral;",
-            "top countries;",
-            "rough keywords and landing pages;",
-            "bounce and depth — only as a coarse signal.",
+            "visit estimate and trend",
+            "share of search / direct / social / referral",
+            "top countries",
+            "rough keywords and landing pages",
+            "bounce and depth — only as a coarse signal",
           ],
         },
       ],
       notes: [
         {
           title: "Practice",
+          kind: "tip",
           text: "If one tool shows 20k and another 80k — don’t argue over thousands. Lock the order of magnitude (tens of thousands) and calibrate against your own analytics on your site.",
         },
       ],
@@ -77,16 +78,16 @@ export const analizKonkurentovEn: BlogPost = {
       level: 2,
       paras: [
         "Media and blogs sometimes publish a mediakit: reach, placement price, audience. Handy, but figures can be outdated or dressed up.",
-        "A direct ask to the owner with a fair offer sometimes yields an honest order of magnitude. Cross-check the answer with SimilarWeb/SEO tools: a big gap is a reason to doubt.",
+        "A direct ask to the owner with a fair offer sometimes yields an honest order of magnitude. Cross-check the answer with SimilarWeb and SEO tools: a big gap is a reason to doubt.",
       ],
       lists: [
         {
           intro: "Mediakit red flags:",
           items: [
-            "no update date;",
-            "only “likes” with no visits;",
-            "traffic many times above tool estimates with no explanation;",
-            "refusal to show even anonymized account screenshots.",
+            "no update date",
+            "only “likes” with no visits",
+            "traffic many times above tool estimates with no explanation",
+            "refusal to show even anonymized account screenshots",
           ],
         },
       ],
@@ -101,10 +102,10 @@ export const analizKonkurentovEn: BlogPost = {
         {
           intro: "Quick reputation checklist:",
           items: [
-            "reviews and search mentions;",
-            "live comments vs bots;",
-            "content freshness;",
-            "clear contacts and policies.",
+            "reviews and search mentions",
+            "live comments vs bots",
+            "content freshness",
+            "clear contacts and policies",
           ],
         },
       ],
@@ -113,7 +114,7 @@ export const analizKonkurentovEn: BlogPost = {
       title: "How to decide",
       level: 2,
       paras: [
-        "Gather 2–3 sources, lock traffic order of magnitude and strong URLs, write hypotheses for your own site. Don’t copy copy and design one-to-one.",
+        "Gather two or three sources, lock traffic order of magnitude and strong URLs, write hypotheses for your own site. Don’t copy copy and design one-to-one.",
       ],
       lists: [],
       links: [

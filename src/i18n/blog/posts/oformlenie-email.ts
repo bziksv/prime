@@ -11,7 +11,7 @@ export const oformlenieEmailEn: BlogPost = {
     "How to design an email: common mistakes, width and modules, visual hierarchy, images, brand style, and a pre-send checklist — next to technical HTML layout.",
   lead: [
     "Email design isn’t “make it pretty” — it’s making clear in seconds: who is writing, why the email exists, and what to tap.",
-    "Hierarchy, width, modules, and a unified series style do more for clicks than extra decoration. How it renders in mail clients is in the HTML layout piece.",
+    "Below: common mistakes, structure, hierarchy, image work, and a unified series style. How it renders in mail clients is in the HTML layout piece.",
   ],
   faq: [
     {
@@ -28,11 +28,11 @@ export const oformlenieEmailEn: BlogPost = {
     },
     {
       q: "Where should you put the main offer?",
-      a: "Up top: preheader, first screen, CTA before a long scroll.",
+      a: "High in the email: preheader, first screen, CTA before a long scroll.",
     },
     {
       q: "Is lots of decoration good in email?",
-      a: "No. Extra lines, stock, and tiny text hurt hierarchy.",
+      a: "No. Extra lines, filler photos, and tiny text hurt hierarchy.",
     },
     {
       q: "Should you use brand fonts in email?",
@@ -56,7 +56,7 @@ export const oformlenieEmailEn: BlogPost = {
       title: "Structure, hierarchy, images",
       level: 2,
       paras: [
-        "Modular grid: branded header → offer/lead → proof → CTA → footer with unsubscribe. Important content above the fold.",
+        "Modular grid: branded header → offer/lead → proof → CTA → footer with unsubscribe. Put the important content early, before a long scroll.",
         "Visual hierarchy: size, contrast, spacing. Group related elements (proximity), separate sections with air.",
         "Images in one key: light, crop, captions. Don’t put all meaning only in the image — some clients won’t show it.",
       ],
@@ -68,7 +68,7 @@ export const oformlenieEmailEn: BlogPost = {
             "one main idea",
             "one main button",
             "enough text contrast",
-            "style matches previous emails.",
+            "style matches previous emails",
           ],
         },
       ],

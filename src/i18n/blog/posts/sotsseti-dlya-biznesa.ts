@@ -7,16 +7,16 @@ export const sotssetiDlyaBiznesaEn: BlogPost = {
   date: "2017-03-06",
   category: "SMM",
   cover: "/images/blog/sotsseti-dlya-biznesa/cover-en.webp",
-  legalNotice: {
-    title: "Dear readers!",
-    text: "This article is informational and does not encourage use of the platform. Facebook* and Instagram* ads run through Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
-  },
   excerpt:
     "Why a company needs a social page: how a live channel tips the choice between similar sellers, how sales work differs from brand image, and how to start without a full-time SMM hire.",
   lead: [
     "Social media is rarely the only purchase criterion — but it often becomes the tipping point when two local sellers look alike on price and assortment. Buyers check for live replies, reviews, and clear post-sale service.",
-    "We look at how channels shape how a business is perceived, when the feed helps sell versus when brand image matters more, and how to start without a large team. Platforms and laws change — pick channels by audience and jurisdiction.",
+    "Below: how channels shape how a business is perceived, when the feed helps sell versus when brand image matters more, and how to start without a large team. Platforms and laws change — pick channels by audience and jurisdiction.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. Instagram* and Facebook* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the services may have legal consequences.",
+  },
   faq: [
     {
       q: "Are social networks mandatory for every business?",
@@ -63,10 +63,10 @@ export const sotssetiDlyaBiznesaEn: BlogPost = {
         {
           intro: "What clients usually check:",
           items: [
-            "are there fresh posts;",
-            "do they answer questions;",
-            "are there live photos and reviews;",
-            "is post-purchase support clear.",
+            "are there fresh posts",
+            "do they answer questions",
+            "are there live photos and reviews",
+            "is post-purchase support clear",
           ],
         },
       ],
@@ -75,18 +75,18 @@ export const sotssetiDlyaBiznesaEn: BlogPost = {
       title: "When the feed works for sales",
       level: 2,
       paras: [
-        "In visual product niches (fashion, beauty, local retail) a catalog and chat in the feed or messages often speed the deal: people see stock and price, and can ask about size or timing.",
+        "In visual product niches (fashion, beauty, local retail) a catalog and chat in the feed or messages often speed the deal: people see availability and price, and can ask about size or timing.",
         "In VK, Odnoklassniki, and messengers the same logic fits a more local and older audience — sometimes even for expensive services if content explains the product, not only “pushes emotion.”",
       ],
       lists: [
         {
           intro: "Working minimum for channel sales:",
           items: [
-            "clear offer and contacts;",
-            "current photos and stock;",
-            "replies in business hours;",
-            "link to the site or lead form;",
-            "honest delivery and warranty terms.",
+            "clear offer and contacts",
+            "current photos and availability",
+            "replies in business hours",
+            "link to the site or lead form",
+            "honest delivery and warranty terms",
           ],
         },
       ],
@@ -137,11 +137,11 @@ export const sotssetiDlyaBiznesaEn: BlogPost = {
         {
           intro: "First 30 days checklist:",
           items: [
-            "one main channel plus contacts;",
-            "10–12 topic drafts;",
-            "reply rule (e.g. within the business day);",
-            "UTM or tag on site clicks;",
-            "monthly slice: inquiries and chat quality.",
+            "one main channel plus contacts",
+            "10–12 topic drafts",
+            "reply rule (e.g. within the business day)",
+            "UTM or tag on site clicks",
+            "monthly slice: inquiries and chat quality",
           ],
         },
       ],

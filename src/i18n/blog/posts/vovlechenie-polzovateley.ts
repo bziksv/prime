@@ -11,7 +11,7 @@ export const vovlecheniePolzovateleyEn: BlogPost = {
     "Five engagement steps: traffic source and motivation, reacting to passivity, social channels, feedback, and product adoption — without promising “retain 80% more in a week.”",
   lead: [
     "Engagement isn’t “likes for likes” — it’s a clear next step: the person stays in the product, replies, comes back. There’s no universal button; segments arrive with different motivation.",
-    "Retention sits at the intersection of analytics, service, and product: five strategy steps, not a growth hack. Figures like “the best retain 80% more” from old reviews are someone else’s research — not a guarantee of your KPI.",
+    "Below: five strategy steps at the intersection of analytics, service, and product. Figures like “the best retain 80% more” from old reviews are someone else’s research — not a guarantee of your KPI.",
   ],
   faq: [
     {
@@ -49,10 +49,10 @@ export const vovlecheniePolzovateleyEn: BlogPost = {
         {
           intro: "Analytics minimum:",
           items: [
-            "source / channel / campaign;",
-            "landing page and goal;",
-            "activation events (signup, demo, first order);",
-            "where the path breaks.",
+            "source / channel / campaign",
+            "landing page and goal",
+            "activation events (signup, demo, first order)",
+            "where the path breaks",
           ],
         },
       ],

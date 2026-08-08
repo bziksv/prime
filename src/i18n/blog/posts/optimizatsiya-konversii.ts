@@ -3,20 +3,20 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for optimizatsiya-konversii — same structure as RU JSON. */
 export const optimizatsiyaKonversiiEn: BlogPost = {
   slug: "optimizatsiya-konversii",
-  title: "Website conversion optimization: how to measure and what to test",
+  title: "Conversion rate optimization: how to measure it and what to test",
   date: "2021-09-13",
   category: "Digital marketing",
   cover: "/images/blog/optimizatsiya-konversii/cover-en.webp",
   excerpt:
-    "What conversion rate is, how to calculate it, how to work the funnel, and which hypotheses to test: forms, CTAs, speed, trust — without myths about “average internet conversion.”",
+    "What conversion rate is, how to calculate it, how to work the funnel, and which hypotheses to test — forms, CTAs, speed, trust — without myths about “average internet conversion.”",
   lead: [
     "Conversion is the share of visitors who complete a target action: a lead, a purchase, a call, a signup. It’s measured in percent and improved with focused edits — not “more ad budget.”",
-    "Measure the funnel, then test UX and content hypotheses — including A/B when volume allows. “Average niche conversion” figures from old reviews are rough cues, not your KPI.",
+    "Below: the formula, the funnel, UX and content hypotheses, and A/B tests. “Average niche conversion” figures from old roundups are rough cues — not your KPI.",
   ],
   faq: [
     {
       q: "How do you calculate conversion?",
-      a: "Target actions ÷ visits (or sessions) × 100%. Fix what counts as the goal and measure in one tool (Analytics / GA4 / CRM).",
+      a: "Target actions ÷ visits (or sessions) × 100%. Fix what counts as the goal and measure in one tool (analytics / GA4 / CRM).",
     },
     {
       q: "What conversion rate is “normal”?",
@@ -28,7 +28,7 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
     },
     {
       q: "Is an A/B test always needed?",
-      a: "For small edits with low traffic, before/after and common sense often suffice. A/B — when you have volume and one clear hypothesis.",
+      a: "For small edits with low traffic, before/after and common sense often suffice. Run A/B when you have volume and one clear hypothesis.",
     },
     {
       q: "Do forms with many fields cut conversion?",
@@ -40,16 +40,16 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
       title: "What conversion is",
       level: 2,
       paras: [
-        "Conversion (CR) is target actions divided by visits over a period. You define the goal: order, lead, demo, subscribe.",
+        "Conversion rate (CR) is target actions divided by visits over a period. You define the goal: order, lead, demo, subscribe.",
         "Also watch micro-conversions: phone tap, finishing a key block, add to cart — they show where the path breaks.",
       ],
       lists: [
         {
           intro: "Example:",
           items: [
-            "3000 landing visits",
+            "3,000 landing visits",
             "150 signups",
-            "CR = 150 ÷ 3000 × 100% = 5%.",
+            "CR = 150 ÷ 3,000 × 100% = 5%",
           ],
         },
       ],
@@ -58,8 +58,8 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
       title: "Strategy before button tests",
       level: 2,
       paras: [
-        "Without knowing the audience and offer, a CTA color change rarely saves you. First: who arrives, what the ad/search promise is, whether the landing matches.",
-        "In analytics (GA4 and similar) watch sources, devices, exit pages, goals. “Sticky” content leads to a commercial step without bait-and-switch.",
+        "Without knowing the audience and offer, a CTA color change rarely saves you. First: who arrives, what the ad or search promise is, whether the landing matches.",
+        "In analytics (GA4, Yandex Metrica, and similar) watch sources, devices, exit pages, goals. Sticky content should lead to a commercial step without bait-and-switch.",
       ],
       lists: [
         {
@@ -68,7 +68,7 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
             "refresh meaning and proof",
             "fix broken links and forms",
             "clarify the CTA",
-            "cut visual noise.",
+            "cut visual noise",
           ],
         },
       ],
@@ -83,8 +83,8 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
       title: "Funnel and product",
       level: 2,
       paras: [
-        "Classic path: awareness → interest → comparison → action. On a site that’s the road from the first screen to a lead/payment. A weak link kills everything below.",
-        "A 5% discount hasn’t been a universal lever for a long time. Stronger: clear value, demo/estimate, guarantees, social proof, a fast reply.",
+        "Classic path: awareness → interest → comparison → action. On a site that’s the road from the first screen to a lead or payment. A weak link kills everything below.",
+        "A 5% discount hasn’t been a universal lever for a long time. Stronger: clear value, a demo or estimate, guarantees, social proof, a fast reply.",
       ],
       lists: [
         {
@@ -92,7 +92,7 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
           items: [
             "offer = audience pain",
             "price and timeline clear before the form",
-            "a next step without “fill 12 fields.”",
+            "a next step without “fill 12 fields”",
           ],
         },
       ],
@@ -122,7 +122,7 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
           items: [
             "name + contact + gist",
             "hints and validation errors",
-            "thank-you with a real SLA.",
+            "thank-you with a real SLA",
           ],
         },
       ],
@@ -134,19 +134,18 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Practice",
-          text: "Load delays of a few seconds hit CR hard. Mobile isn’t a “shrunk desktop” — it’s a separate finger path to the button.",
+          title: "Practice tip",
+          text: "Load delays of a few seconds hit CR hard. Mobile isn’t a shrunk desktop — it’s a separate finger path to the button.",
         },
       ],
     },
     {
-      title: "A/B and when to skip it",
+      title: "A/B tests — and when to skip them",
       level: 2,
       paras: [
         "Split: two variants of one change, split traffic, measure the goal. Change one thing at a time. A week “by eye” with no volume isn’t a test.",
-        "With low traffic, first remove obvious barriers (broken form, 5-second LCP, no phone). Then scale experiments.",
+        "With low traffic, first remove obvious barriers (broken form, five-second LCP, no phone). Then scale experiments.",
       ],
-      lists: [],
     },
     {
       title: "Takeaways",
@@ -154,7 +153,6 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
       paras: [
         "Conversion optimization is a loop: goal → data → hypothesis → edit → measure. Count CR honestly, fix the funnel and trust, don’t copy someone else’s percentages. Ads without a converting landing only make the click more expensive.",
       ],
-      lists: [],
     },
   ],
 };

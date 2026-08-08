@@ -10,8 +10,8 @@ export const tekstyUzkayaTematikaEn: BlogPost = {
   excerpt:
     "Copy for a narrow niche: beginner-friendly language, current facts, expertise, and structure — illustrated with travel and transferable to any tight topic.",
   lead: [
-    "In a narrow niche competition is often higher, and readers spot fakes faster: vague lines and outdated numbers don’t land. You need clarity for beginners, fresh facts, and author experience.",
-    "These are the working principles. Travel examples show the logic; the same rules apply in medical lighting, B2B software, legal consulting, and other niches. The general article algorithm is covered separately.",
+    "In a narrow niche, competition is often higher, and readers spot fakes faster: vague lines and outdated numbers don’t land. You need clarity for beginners, fresh facts, and real author experience.",
+    "Below: working principles. Travel examples show the logic; the same rules apply in medical lighting, B2B software, legal consulting, and other niches. The general article algorithm is covered separately.",
   ],
   faq: [
     {
@@ -49,23 +49,23 @@ export const tekstyUzkayaTematikaEn: BlogPost = {
       level: 2,
       paras: [
         "A common mistake is treating the audience as “all our people.” In travel, as in other niches, many readers are on a first experience: explain routes, terms, and risks without jargon soup.",
-        "Lists, numbers, and step blocks help finish reading. Pro photos/diagrams build trust when they’re not stock for stock’s sake.",
+        "Lists, numbers, and step blocks help people finish. Pro photos and diagrams build trust when they’re not stock for stock’s sake.",
       ],
     },
     {
       title: "Freshness and facts",
       level: 2,
       paras: [
-        "Monitor the niche and competitors, but don’t copy their texts. Structure should feel logical “today,” not a template from two years ago.",
+        "Monitor the niche and competitors, but don’t copy their texts. Structure should feel logical today — not a template from two years ago.",
         "Prices, dates, coordinates, entry rules, legal norms — only from verifiable sources. Better an “as of …” caveat than harming the reader.",
       ],
       lists: [
         {
           intro: "Before publish:",
           items: [
-            "verify numbers and links;",
-            "as-of date in the text when needed;",
-            "an update plan for seasonal pieces.",
+            "verify numbers and links",
+            "as-of date in the text when needed",
+            "an update plan for seasonal pieces",
           ],
         },
       ],
@@ -80,7 +80,7 @@ export const tekstyUzkayaTematikaEn: BlogPost = {
       title: "Expertise and tone",
       level: 2,
       paras: [
-        "Write what you have experience in — or access to an expert. Rewrites of “someone else’s impressions” get caught fast in a narrow niche.",
+        "Write what you have experience in — or access to an expert. Rewrites of someone else’s impressions get caught fast in a narrow niche.",
         "Tone — lively, without false chumminess and fluff. Humor fits when it doesn’t hurt accuracy.",
       ],
       links: [
@@ -111,7 +111,7 @@ export const tekstyUzkayaTematikaEn: BlogPost = {
         {
           kind: "tip",
           title: "SEO",
-          text: "Semantics help cover a cluster’s questions. “Keyword in title → TOP” is a myth; answer completeness and trust decide.",
+          text: "Keywords help cover a cluster’s questions. “Keyword in title → page one” is a myth; answer completeness and trust decide.",
         },
       ],
     },

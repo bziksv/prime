@@ -11,7 +11,7 @@ export const straykYoutubeEn: BlogPost = {
     "How a Community Guidelines strike differs from a copyright complaint, which limits apply, how to check channel status, and how to appeal or avoid sanctions.",
   lead: [
     "A YouTube strike is a sanction for breaking the rules: channel feature limits up to removal. In slang, “throw a strike” means reporting a video or channel.",
-    "Community and copyright strikes differ, Studio labels change, and a false claim needs a calm appeal path — verify against current YouTube Help, not outdated screenshots.",
+    "Below: what earns a strike, how community and copyright tracks differ, how to check status, and what to do on a false claim. Studio labels change — verify against current YouTube Help.",
   ],
   faq: [
     {
@@ -47,8 +47,8 @@ export const straykYoutubeEn: BlogPost = {
         {
           intro: "Two common tracks:",
           items: [
-            "Community Guidelines — community policy;",
-            "Copyright — rights to music, video, images.",
+            "Community Guidelines — community policy",
+            "Copyright — rights to music, video, images",
           ],
         },
       ],
@@ -69,15 +69,16 @@ export const straykYoutubeEn: BlogPost = {
         {
           intro: "Risk zones:",
           items: [
-            "music and TV/film clips without a license;",
-            "thumbnails that lie about the content;",
-            "links to malware/banned resources;",
-            "repeat violations after warnings.",
+            "music and TV/film clips without a license",
+            "thumbnails that lie about the content",
+            "links to malware/banned resources",
+            "repeat violations after warnings",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Tip",
           text: "Rules update. Before a risky format, read the current Community Guidelines and Copyright Center.",
         },
@@ -94,9 +95,9 @@ export const straykYoutubeEn: BlogPost = {
         {
           intro: "Typical progression (confirm in Help):",
           items: [
-            "first strike — limits for a period;",
-            "repeat — stricter (incl. monetization);",
-            "a series of active ones — channel removal risk.",
+            "first strike — limits for a period",
+            "repeat — stricter (incl. monetization)",
+            "a series of active ones — channel removal risk",
           ],
         },
       ],
@@ -112,10 +113,10 @@ export const straykYoutubeEn: BlogPost = {
         {
           intro: "If you got a strike:",
           items: [
-            "read the reason in Studio;",
-            "remove/fix the content on a real violation;",
-            "gather proof if it’s an error;",
-            "don’t spawn mirror channels to dodge a ban — that’s a separate violation.",
+            "read the reason in Studio",
+            "remove/fix the content on a real violation",
+            "gather proof if it’s an error",
+            "don’t spawn mirror channels to dodge a ban — that’s a separate violation",
           ],
         },
       ],
@@ -126,7 +127,6 @@ export const straykYoutubeEn: BlogPost = {
       paras: [
         "A strike is a signal to follow the rules and rights. Tell apart community policy and copyright, watch status in Studio, keep permissions for reviews and third-party material. Best defense — your own content and a check before publishing.",
       ],
-      lists: [],
     },
   ],
 };

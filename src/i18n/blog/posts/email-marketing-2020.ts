@@ -10,8 +10,8 @@ export const emailMarketing2020En: BlogPost = {
   excerpt:
     "What actually pulls newsletters: mobile layout, triggers, segments, and a CRM link — without a cult of experimental interactivity or outdated “trends of the year.”",
   lead: [
-    "“What’s next for email” roundups often mix durable practices with short-lived experiments. Mobile readability, triggers, and customer data stay the base. Fancy interactivity in the email is an option, not a strategy.",
-    "A practical frame: what to check in every send and how to build the system if the list is still small. Don’t copy “traffic share” figures from other people’s roundups as your benchmark.",
+    "“What’s next for email” roundups often mix durable practices with short-lived experiments. Mobile readability, triggers, and customer data stay the base. Fancy interactivity in the inbox is an option, not a strategy.",
+    "Below: a practical frame — what to check in every send, and how to build the system if the list is still small. Don’t copy “traffic share” figures from other people’s roundups as your benchmark.",
   ],
   faq: [
     {
@@ -23,8 +23,8 @@ export const emailMarketing2020En: BlogPost = {
       a: "Yes. Short subject, large buttons, image alt text, a phone test — the basic minimum.",
     },
     {
-      q: "Is personalization = a name in the subject?",
-      a: "A name is the minimum. Stronger: segment, behavior, and triggers (cart, welcome, win-back).",
+      q: "Is personalization just a name in the subject?",
+      a: "A name is the floor. Stronger: segment, behavior, and triggers (cart, welcome, win-back).",
     },
     {
       q: "Do I need a CRM?",
@@ -35,12 +35,12 @@ export const emailMarketing2020En: BlogPost = {
       a: "Useful for dialogue and content if you don’t turn every send into a questionnaire.",
     },
     {
-      q: "How many characters should a mobile subject have?",
-      a: "Aim to fit the start of the line (often about 25–40 characters visible). Put the main meaning in the first words.",
+      q: "How long should a mobile subject be?",
+      a: "Fit the meaning into the start of the line (often about 25–40 characters visible). Lead with the point.",
     },
     {
       q: "Where should I start if the list is small?",
-      a: "Opt-in forms, welcome, and 1–2 triggers. Not scraping and not buying lists.",
+      a: "Opt-in forms, welcome, and one or two triggers. Not scraping and not buying lists.",
     },
   ],
   sections: [
@@ -48,7 +48,7 @@ export const emailMarketing2020En: BlogPost = {
       title: "Mobile emails without fanaticism",
       level: 2,
       paras: [
-        "A large share of opens happens on phones. Hence the requirements: concise subject, short paragraphs, CTA near the top, tappable zones, image alt text, tests in several clients.",
+        "A large share of opens happens on phones. Hence: concise subject, short paragraphs, CTA near the top, tappable zones, image alt text, tests in several clients.",
         "Desktop revenue often stays significant — buying comfort on a large screen hasn’t vanished. Make the email readable everywhere, not “only for one stat.”",
       ],
       lists: [
@@ -58,7 +58,7 @@ export const emailMarketing2020En: BlogPost = {
             "subject still reads when truncated",
             "the button isn’t a micro-button",
             "images don’t break meaning if they don’t load",
-            "one primary CTA.",
+            "one primary CTA",
           ],
         },
       ],
@@ -68,10 +68,9 @@ export const emailMarketing2020En: BlogPost = {
       level: 2,
       paras: [
         "Carousels, forms, and other widgets inside the email sound impressive. In practice, betting on one experimental stack is risky: client support is uneven. A plain HTML fallback is required.",
-        "Simpler and more stable: short post-purchase surveys, service ratings, Q&A rubrics. The email reminds of the brand and feeds improvement data.",
+        "Simpler and more stable: short post-purchase surveys, service ratings, Q&A rubrics. The email reminds people of the brand and feeds improvement data.",
         "Linking email with CRM and other channels isn’t “social icons in the footer” — it’s one funnel: lead → segment → email → deal.",
       ],
-      lists: [],
       links: [
         {
           label: "Triggered emails",
@@ -90,7 +89,6 @@ export const emailMarketing2020En: BlogPost = {
         "Strong personalization boils down to the obvious: split the list by interest and behavior, send triggers, refine preferences with surveys — not one “dear friends” blast to everyone.",
         "Technically that’s ESP + site/CRM data. Legally — consent and an easy unsubscribe.",
       ],
-      lists: [],
       links: [
         {
           label: "Strong email examples",
@@ -118,4 +116,4 @@ export const emailMarketing2020En: BlogPost = {
     "formy-zahvata",
     "parsing-email",
   ],
-} as BlogPost;
+};

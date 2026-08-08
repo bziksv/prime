@@ -11,7 +11,7 @@ export const potrebitelskiyInsaytEn: BlogPost = {
     "A consumer insight is a hidden motive in the formula “I want…, but…”. Why marketing needs it and where to look: data, surveys, contradictions, forums, social, and competitors.",
   lead: [
     "An insight in marketing isn’t inspiration from thin air, but a non-obvious audience motive that explains behavior better than demographics. A handy formula: “I want…, but…” — a conflict of desire and barrier.",
-    "We cover why an insight is needed, signs of a strong wording, and practical search sources.",
+    "Below: why an insight is needed, signs of a strong wording, and practical places to look.",
   ],
   faq: [
     {
@@ -62,7 +62,7 @@ export const potrebitelskiyInsaytEn: BlogPost = {
             "an “I want / but” conflict",
             "a basic need (safety, status, convenience…)",
             "observed behavior, not only a questionnaire",
-            "a check: the product actually removes the barrier.",
+            "a check: the product actually removes the barrier",
           ],
         },
       ],
@@ -83,15 +83,15 @@ export const potrebitelskiyInsaytEn: BlogPost = {
             "reviews and support tickets",
             "comments and niche discussions",
             "brand and competitor pages on social",
-            "industry research.",
+            "industry research",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Social and privacy",
           text: "Analyzing public reviews and reactions is fine. Don’t bake gray audience scraping and platform-rule bypasses into the plan.",
-          kind: "tip",
         },
       ],
       links: [

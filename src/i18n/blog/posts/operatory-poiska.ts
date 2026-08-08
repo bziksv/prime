@@ -11,7 +11,7 @@ export const operatoryPoiskaEn: BlogPost = {
     "How to use Google and Yandex operators in SEO: site:, intitle:, inurl:, filetype: and combos — for index, duplicates, and research, without outdated “magic” commands.",
   lead: [
     "Operators (query language) refine results: pages of one site, a word in the title, a PDF, an exact phrase. For SEO that’s a quick manual slice of the index and competitors — slower than an API/crawler, but with no subscription.",
-    "Use them for index checks, duplicates, files, and competitor slices. Some old Google commands weakened or vanished — check current Help before trusting a 2015 cheat sheet.",
+    "Below: syntax, working operators, and scenarios — index checks, duplicates, files, linking. Some old Google commands weakened or vanished (`related:`, `cache:` behavior changes) — always verify on the live SERP. This doesn’t replace an audit and isn’t a page-one button.",
   ],
   faq: [
     {
@@ -44,7 +44,7 @@ export const operatoryPoiskaEn: BlogPost = {
     },
     {
       q: "Will search operators raise rankings?",
-      a: "No. They’re diagnostics. Fixes and content are separate; TOP for the core is planned 2–6 months after work starts.",
+      a: "No. They’re diagnostics. Fixes and content are separate; core page-one share is planned 2–6 months after work starts.",
     },
   ],
   sections: [
@@ -63,7 +63,7 @@ export const operatoryPoiskaEn: BlogPost = {
             "`-minusword`",
             "`OR` / `|` for alternatives",
             "`*` as a wildcard (where it still works)",
-            "parentheses for grouping.",
+            "parentheses for grouping",
           ],
         },
       ],
@@ -117,7 +117,7 @@ export const operatoryPoiskaEn: BlogPost = {
           items: [
             "site: slice in both search engines",
             "Webmaster + GSC as sources of truth",
-            "Yandex Help on query language — before rare operators.",
+            "Yandex Help on query language — before rare operators",
           ],
         },
       ],
@@ -147,7 +147,7 @@ export const operatoryPoiskaEn: BlogPost = {
             "no pile of duplicate titles",
             "cart/account not indexed",
             "extra files aren’t sitting in search",
-            "www and non-www don’t double (after gluing).",
+            "www and non-www don’t double (after gluing)",
           ],
         },
       ],
@@ -176,7 +176,7 @@ export const operatoryPoiskaEn: BlogPost = {
             "research the public SERP",
             "don’t scrape aggressively against rules",
             "don’t hunt “holes” for hacking",
-            "don’t build strategy on dead operators.",
+            "don’t build strategy on dead operators",
           ],
         },
       ],
@@ -205,7 +205,7 @@ export const operatoryPoiskaEn: BlogPost = {
             "log the query and a screenshot",
             "cross-check Webmaster/GSC",
             "open a fix ticket",
-            "rerun site:/intitle: after the fix.",
+            "rerun site:/intitle: after the fix",
           ],
         },
       ],
@@ -227,7 +227,7 @@ export const operatoryPoiskaEn: BlogPost = {
         {
           title: "Timelines",
           kind: "tip",
-          text: "Operator diagnostics ≠ TOP. TOP for the core is a separate horizon after the work.",
+          text: "Operator diagnostics ≠ page one. Core page-one share is a separate horizon after the work.",
         },
       ],
     },

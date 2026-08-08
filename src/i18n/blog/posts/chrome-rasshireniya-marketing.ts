@@ -11,7 +11,7 @@ export const chromeRasshireniyaMarketingEn: BlogPost = {
     "Which classes of Chrome extensions help marketers: tasks and time tracking, screenshots and fonts, UTM and short links, email and security — without a catalog of 25 outdated names.",
   lead: [
     "Chrome extensions speed up a marketer’s routine: checklists, screenshots for briefs, font checks, UTM tags, a quick look at a competitor. They’re browser add-ons — not a shortcut to breakthrough results.",
-    "This guide covers a stack by task, not an eternal top-25. Alexa Rank and some old plugins are obsolete; check the Chrome Web Store before installing. For an on-page SEO slice, see the separate piece.",
+    "Below: a stack by task, not an eternal “best of 25.” Alexa Rank and some old plugins are obsolete; check the Chrome Web Store before installing. For an on-page SEO slice, see the separate piece.",
   ],
   faq: [
     {
@@ -47,10 +47,10 @@ export const chromeRasshireniyaMarketingEn: BlogPost = {
         {
           intro: "Before installing:",
           items: [
-            "the task you’re solving is clear;",
-            "the source is the Chrome Web Store;",
-            "permissions match the function;",
-            "a current peer exists if the old name vanished.",
+            "the task you’re solving is clear",
+            "the source is the Chrome Web Store",
+            "permissions match the function",
+            "a current peer exists if the old name vanished",
           ],
         },
       ],
@@ -65,18 +65,18 @@ export const chromeRasshireniyaMarketingEn: BlogPost = {
       title: "Productivity and communication",
       level: 2,
       paras: [
-        "Task trackers (Todoist-class) and time tracking (TMetric-class) help freelancers and agencies with hourly reporting. Password managers are a must for client accounts.",
+        "Task trackers (Todoist-class) and time tracking (TMetric-class) help freelancers and agencies with hourly reporting. Password managers are essential for client accounts.",
         "Messenger hubs are handy, but don’t store client access and personal data there without security rules. Email helpers — for open tracking on your own newsletter, not spam to strangers’ addresses.",
       ],
       lists: [
         {
           intro: "Tool classes:",
           items: [
-            "tasks and projects;",
-            "time tracking and billing;",
-            "password manager;",
-            "email with careful tracking;",
-            "short links / UTM builders.",
+            "tasks and projects",
+            "time tracking and billing",
+            "password manager",
+            "email with careful tracking",
+            "short links / UTM builders",
           ],
         },
       ],
@@ -103,19 +103,19 @@ export const chromeRasshireniyaMarketingEn: BlogPost = {
         {
           intro: "Marketers in the browser often need:",
           items: [
-            "full-page screenshot plus annotations;",
-            "font and color identification;",
-            "a UTM builder;",
-            "a password manager;",
-            "one task tracker.",
+            "full-page screenshot plus annotations",
+            "font and color identification",
+            "a UTM builder",
+            "a password manager",
+            "one task tracker",
           ],
         },
       ],
       notes: [
         {
           title: "Important",
-          text: "Extensions with access to the clipboard, passwords, and all sites are a higher-risk zone. Don’t install an “ROI calculator from an unknown publisher” for one button.",
           kind: "tip",
+          text: "Extensions with access to the clipboard, passwords, and all sites are a higher-risk zone. Don’t install an “ROI calculator from an unknown publisher” for one button.",
         },
       ],
       links: [

@@ -8,10 +8,10 @@ export const tildaEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/tilda/cover-en.webp",
   excerpt:
-    "How to assemble a landing on Tilda: block structure, copy and visuals, Zero Block vs standard layout, SEO basics, domain, and checks — without promising a “ready site in two days” for every project.",
+    "How to assemble a landing on Tilda: block structure, copy and visuals, Zero Block vs ready blocks, SEO basics, domain, and checks — without promising a “ready site in two days” for every project.",
   lead: [
-    "Tilda is a block website builder: good for landings, simple multi-page sites, and fast prototypes. A large catalog or heavy 1C logic often hits platform limits.",
-    "Use this work order using a landing example: structure → content → design → build → SEO and QA. Tilda’s UI changes; follow the meaning of steps, not 2018 screenshots. “Two days” is a guide for a simple landing with ready copy — not a guarantee.",
+    "Tilda is a block website builder: good for landings, simple multi-page sites, and fast prototypes. A large catalog or heavy 1C-style logic often hits platform limits.",
+    "Below: a work order for a landing — structure → content → design → build → SEO and QA. Tilda’s UI changes; follow the meaning of the steps, not 2018 screenshots. “Two days” is a guide for a simple landing with ready copy — not a guarantee.",
   ],
   faq: [
     {
@@ -23,11 +23,11 @@ export const tildaEn: BlogPost = {
       a: "Templates and careful content are enough to start. A unique grid needs Zero Block or a designer if the brand requires it.",
     },
     {
-      q: "Is stock photography OK?",
-      a: "Only with a suitable license. Your product/team photos are better. Don’t publish others’ shots without rights.",
+      q: "Can I use stock photos?",
+      a: "Only with a suitable commercial license. Your product and team photos are stronger. Don’t publish others’ shots without rights.",
     },
     {
-      q: "Does Tilda “rank itself”?",
+      q: "Does Tilda rank itself?",
       a: "No. You need page meaning, title/description, speed, indexing, and demand. Rankings take planned months of work — not publish day.",
     },
     {
@@ -47,13 +47,13 @@ export const tildaEn: BlogPost = {
         {
           intro: "Example set for a course:",
           items: [
-            "cover with offer;",
-            "numbers/results;",
-            "program;",
-            "author/team;",
-            "price and plans;",
-            "FAQ;",
-            "form and contacts.",
+            "cover with offer",
+            "numbers / results",
+            "program",
+            "author / team",
+            "price and plans",
+            "FAQ",
+            "form and contacts",
           ],
         },
       ],
@@ -73,17 +73,17 @@ export const tildaEn: BlogPost = {
       level: 2,
       paras: [
         "Write simply, like to a client in chat: benefit, proof, objection answers. Don’t dump “everything you know” onto one screen.",
-        "Visuals: your photos and screens beat generic images. External images only with a commercial license. Compress files: heavy photos kill mobile speed.",
+        "Visuals: your photos and screens beat generic images. External images only with a commercial license. Compress files — heavy photos kill mobile speed.",
       ],
       lists: [
         {
           intro: "Prepare before building:",
           items: [
-            "offer and headlines;",
-            "block copy;",
-            "photos/icons;",
-            "prices and terms;",
-            "privacy policy if you have forms.",
+            "offer and headlines",
+            "block copy",
+            "photos / icons",
+            "prices and terms",
+            "privacy policy if you have forms",
           ],
         },
       ],
@@ -108,17 +108,17 @@ export const tildaEn: BlogPost = {
       level: 2,
       paras: [
         "Create a project, assemble the page from blocks, drop in content, set menu and forms. For a non-standard grid — Zero Block; for speed — ready blocks.",
-        "Check responsive: phone beats “beauty on a 27″”. Forms must reach email/CRM, not nowhere.",
+        "Check responsive: phone beats “beauty on a 27″ monitor.” Forms must reach email or CRM, not nowhere.",
       ],
       lists: [
         {
           intro: "Before publish:",
           items: [
-            "all CTAs go where they should;",
-            "forms tested;",
-            "no broken images;",
-            "mobile layout without overlaps;",
-            "favicon and social preview.",
+            "all CTAs go where they should",
+            "forms tested",
+            "no broken images",
+            "mobile layout without overlaps",
+            "favicon and social preview",
           ],
         },
       ],
@@ -127,7 +127,7 @@ export const tildaEn: BlogPost = {
       title: "SEO basics, domain, and tests",
       level: 2,
       paras: [
-        "Set H1/H2, title and description (separate for search and sharing if the ads account allows). Enable indexing, connect the domain, add counters.",
+        "Set H1/H2, title and description (separate for search and sharing if the project settings allow). Enable indexing, connect the domain, add analytics.",
         "If you collect personal data — document and consent. Run a speed/display checklist and send a test lead. Tilda’s SEO hint panel is a helper, not a promotion strategy.",
       ],
       links: [
@@ -142,10 +142,10 @@ export const tildaEn: BlogPost = {
       ],
     },
     {
-      title: "Takeaways",
+      title: "What to remember",
       level: 2,
       paras: [
-        "Tilda speeds assembly when structure and content exist. Order: meaning → blocks → domain and checks.",
+        "Tilda speeds assembly when structure and content already exist. Order: meaning → blocks → domain and checks.",
         "Judge the job honestly: a service landing — yes; heavy e-commerce — often another stack.",
       ],
     },

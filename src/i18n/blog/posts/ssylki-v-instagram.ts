@@ -11,10 +11,10 @@ export const ssylkiVInstagramEn: BlogPost = {
     "Where to put links on Instagram: bio and link-in-bio, post captions, Stories stickers, Direct, and contact buttons — without outdated IGTV tips or a catalog of shady tools.",
   lead: [
     "On Instagram, clickable URLs are scarce: you mostly get the bio link, a Stories sticker, business-profile buttons, and ad destinations. In a regular post caption, the link often isn’t tappable in the app.",
-    "Menus change; check Meta Help for current labels. We map where links still work — and how not to confuse them with the profile URL itself. Stories stickers get their own deep dive. See the disclaimer on this page.",
+    "Below: a map of places where links still work — and how not to confuse them with the profile URL itself. Menus change; check Meta Help. Stories stickers get their own deep dive. Product note is on the page.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -48,7 +48,6 @@ export const ssylkiVInstagramEn: BlogPost = {
         "Change the URL for a promo and write “link in bio” in posts — a familiar pattern when there’s no Stories sticker.",
         "Don’t mix it up with the account URL itself (`instagram.com/handle`) — that one goes on the site and business cards.",
       ],
-      lists: [],
       links: [
         {
           label: "How to copy an Instagram profile link",
@@ -68,7 +67,6 @@ export const ssylkiVInstagramEn: BlogPost = {
         "Downsides: an extra click, dependence on service uptime, and sometimes ads on free plans.",
         "Pick a brand (Linktree, Later, and so on) by data policy and stability — a “best of 2020” catalog doesn’t age well.",
       ],
-      lists: [],
     },
     {
       title: "Post caption and short URLs",
@@ -78,7 +76,6 @@ export const ssylkiVInstagramEn: BlogPost = {
         "Short links with UTM help measurement, but in high-trust scenarios a full domain sometimes reads better.",
         "On the web, copying is easier — don’t build strategy only for desktop.",
       ],
-      lists: [],
     },
     {
       title: "Stories, Direct, contact buttons",
@@ -88,7 +85,6 @@ export const ssylkiVInstagramEn: BlogPost = {
         "Direct: send a URL in chat; useful for support and warm-up after Stories.",
         "Business profile: email, call, address, and website buttons — also “links,” just shaped as actions. Don’t clutter the block.",
       ],
-      lists: [],
       links: [
         {
           label: "Links in Instagram Stories",
@@ -108,7 +104,6 @@ export const ssylkiVInstagramEn: BlogPost = {
         "Product tags and shopping mechanics depend on catalog and region; check current Commerce rules.",
         "Always plan UTM or a promo code for measurement — or you won’t tell bio traffic from Stories and paid social.",
       ],
-      lists: [],
       links: [
         {
           label: "Instagram ads setup via Meta Ads",
@@ -124,7 +119,6 @@ export const ssylkiVInstagramEn: BlogPost = {
         "A post caption rarely replaces a tappable URL.",
         "Count clicks — don’t stop at “we put a link somewhere.”",
       ],
-      lists: [],
     },
   ],
   closing: [

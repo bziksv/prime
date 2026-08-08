@@ -11,7 +11,7 @@ export const vebvizorEn: BlogPost = {
     "What Webvisor is in Yandex Metrika: how to turn on session recording, what to check on the site, how to filter visits, and why watch selectively — without outdated 1.0/2.0 versions and rigid 2019 limits.",
   lead: [
     "Webvisor records visitor behavior in Yandex Metrika: where people clicked, how they scrolled, where they stuck in a form or cart. It’s a tool for UX hypotheses — not daily “spying on everyone.”",
-    "Enable it on the current counter, check tech constraints, then watch a sample of painful URLs — not every clip. UI and storage limits change, so check Metrika Help. Click and scroll maps are related; here the focus is session recordings.",
+    "Below: what the tool is for, how to enable it on the counter, tech conditions, and how to use a sample. UI and storage/volume limits change — check Metrika Help. Click and scroll maps are related; here the focus is session recordings.",
   ],
   faq: [
     {
@@ -47,11 +47,11 @@ export const vebvizorEn: BlogPost = {
         {
           intro: "What you usually see on a recording:",
           items: [
-            "clicks and cursor movement;",
-            "scroll and navigation;",
-            "form filling;",
-            "device and source (on the visit card);",
-            "drop-offs before the goal.",
+            "clicks and cursor movement",
+            "scroll and navigation",
+            "form filling",
+            "device and source (on the visit card)",
+            "drop-offs before the goal",
           ],
         },
       ],
@@ -77,11 +77,11 @@ export const vebvizorEn: BlogPost = {
         {
           intro: "Launch order:",
           items: [
-            "counter created and on all needed templates;",
-            "Webvisor enabled in settings;",
-            "no “native + GTM” duplicate;",
-            "test visit from your device;",
-            "after a while — recordings appear in Webvisor.",
+            "counter created and on all needed templates",
+            "Webvisor enabled in settings",
+            "no “native + GTM” duplicate",
+            "test visit from your device",
+            "after a while — recordings appear in Webvisor",
           ],
         },
       ],
@@ -94,8 +94,8 @@ export const vebvizorEn: BlogPost = {
       notes: [
         {
           title: "Common mistake",
-          text: "Looking for a “site break” when the option is simply off or the script is cut by a blocker/CSP.",
           kind: "tip",
+          text: "Looking for a “site break” when the option is simply off or the script is cut by a blocker/CSP.",
         },
       ],
     },
@@ -110,11 +110,11 @@ export const vebvizorEn: BlogPost = {
         {
           intro: "Check before panicking:",
           items: [
-            "HTTPS without mixed content;",
-            "CSP doesn’t cut Metrika scripts;",
-            "SPA: events and URLs update correctly;",
-            "cookie consent doesn’t block the counter forever without a path;",
-            "don’t treat admin sessions as customer behavior.",
+            "HTTPS without mixed content",
+            "CSP doesn’t cut Metrika scripts",
+            "SPA: events and URLs update correctly",
+            "cookie consent doesn’t block the counter forever without a path",
+            "don’t treat admin sessions as customer behavior",
           ],
         },
       ],
@@ -130,11 +130,11 @@ export const vebvizorEn: BlogPost = {
         {
           intro: "Where to look first:",
           items: [
-            "ad landings;",
-            "forms and registration;",
-            "product page and catalog search;",
-            "cart and payment;",
-            "sessions after a redesign;",
+            "ad landings",
+            "forms and registration",
+            "product page and catalog search",
+            "cart and payment",
+            "sessions after a redesign",
           ],
         },
       ],
@@ -150,11 +150,11 @@ export const vebvizorEn: BlogPost = {
         {
           intro: "Working cycle:",
           items: [
-            "metrics pointed to a problem;",
-            "3–10 relevant recordings;",
-            "hypothesis and backlog task;",
-            "release;",
-            "remeasure.",
+            "metrics pointed to a problem",
+            "3–10 relevant recordings",
+            "hypothesis and backlog task",
+            "release",
+            "remeasure",
           ],
         },
       ],
@@ -173,7 +173,7 @@ export const vebvizorEn: BlogPost = {
       title: "Takeaways",
       level: 2,
       paras: [
-        "Webvisor is a UX magnifier on top of Metrika numbers. Enable it on the counter, check tech, watch a sample of painful URLs.",
+        "Webvisor is a UX magnifier alongside Metrika numbers. Enable it on the counter, check tech, watch a sample of painful URLs.",
         "Targeted review + site fixes beat hours of random session watching.",
       ],
     },

@@ -11,7 +11,7 @@ export const pinterestSkachatEn: BlogPost = {
     "How to legally save an image from Pinterest to a device: built-in download, the app, and idea boards — with a reminder about copyright.",
   lead: [
     "Pinterest works well as a reference board. You can save an image to a device with the site and app’s own tools — no third-party scrapers required.",
-    "Here are the basic methods for computer and phone. Other people’s work is copyrighted: for commercial use you need your own photos, a license, or the author’s permission.",
+    "Below: basic methods for computer and phone. Other people’s work is copyrighted: for commercial use you need your own photos, a license, or the author’s permission.",
   ],
   faq: [
     {
@@ -43,7 +43,6 @@ export const pinterestSkachatEn: BlogPost = {
         "Open the pin → menu (⋯) → download image if the author or platform shows it. Or use “Save image as…” via right-click on the preview — quality may differ.",
         "For idea work, save the pin to your board so references don’t get lost.",
       ],
-      lists: [],
     },
     {
       title: "On a phone",
@@ -52,7 +51,6 @@ export const pinterestSkachatEn: BlogPost = {
         "In the Pinterest app, open the image → menu → save/download (wording depends on OS and version). The file appears in the gallery.",
         "A screenshot is a fallback if download isn’t available; crop the extras.",
       ],
-      lists: [],
     },
     {
       title: "Boards and copyright",
@@ -61,7 +59,6 @@ export const pinterestSkachatEn: BlogPost = {
         "Create boards by project theme and sort pins into sections. That speeds a design and shoot brief.",
         "Download ≠ permission for commercial use. For posts and ads, plan your own frames or legal sources.",
       ],
-      lists: [],
       links: [
         {
           label: "Photos for Instagram",
@@ -74,6 +71,7 @@ export const pinterestSkachatEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Practice",
           text: "Pinterest reference → your own shoot or layout. Copying someone else’s file into ads is a short path to a complaint.",
         },

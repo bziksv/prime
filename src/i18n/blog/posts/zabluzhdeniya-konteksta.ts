@@ -8,10 +8,10 @@ export const zabluzhdeniyaKontekstaEn: BlogPost = {
   category: "Paid search",
   cover: "/images/blog/zabluzhdeniya-konteksta/cover-en.webp",
   excerpt:
-    "Persistent PPC myths: search only, TOP-1 only, “display always burns,” blind Google recommendations, instant sales, and “triple the budget — triple the leads” — what’s wrong with each one.",
+    "Persistent PPC myths: search only, position #1 only, “display always burns,” blind Google recommendations, instant sales, and “triple the budget — triple the leads” — what’s wrong with each one.",
   lead: [
     "Some client–agency fights over paid search still rest on stereotypes from the “keywords in Search only” era. Markets, auctions, and tools changed — the myth wording often didn’t.",
-    "Fifteen typical misconceptions and why they hurt economics. Don’t copy “$200 a month” budget figures or outsider ranking stories: watch your niche, CPA, and landing pages.",
+    "Below: fifteen typical misconceptions and why they hurt economics. Don’t copy “$200 a month” budget figures or outsider ranking stories: watch your niche, CPA, and landing pages.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const zabluzhdeniyaKontekstaEn: BlogPost = {
     },
     {
       q: "Do I always need position #1?",
-      a: "Not always. Positions 2–4 sometimes deliver better ROI at a lower CPC. Count conversions and ROAS — not “height.”",
+      a: "Not always. Positions 2–4 sometimes deliver better ROI at a lower CPC. Count conversions and ROAS — not height.",
     },
     {
       q: "Should I apply every Google recommendation?",
@@ -49,16 +49,16 @@ export const zabluzhdeniyaKontekstaEn: BlogPost = {
       level: 2,
       paras: [
         "The myth “contextual = only Search keywords” is outdated: networks, shopping campaigns, remarketing, and lookalikes cover other funnel stages. Search is strong on hot demand, but expensive and it doesn’t cover everything.",
-        "The myth “all conversions only from TOP-1–3” pushes overpaying for visibility. Mid positions are often better on ROI: fewer clicks, cheaper contact. Watch target actions and ad-spend share — not the “pretty” first line.",
-        "The myth “display always burns” confuses a broad banner with no goal and meaningful reach, remarketing, and personalization. Display has different KPIs — awareness, return, warm-up — not “a lead from the first impression like Search.”",
+        "The myth “all conversions only from positions 1–3” pushes overpaying for visibility. Mid positions are often better on ROI: fewer clicks, cheaper contact. Watch target actions and ad-spend share — not the pretty first line.",
+        "The myth “display always burns” confuses a broad banner with no goal and meaningful reach, remarketing, and personalization. Display has different KPIs — awareness, return, warm-up — not a lead from the first impression like Search.",
       ],
       lists: [
         {
           intro: "Instead of the stereotype:",
           items: [
-            "mix Search and networks for the job;",
-            "judge position via CPA / ROMI (return on marketing investment);",
-            "give display a goal and segment — not “just a banner.”",
+            "mix Search and networks for the job",
+            "judge position via CPA / ROMI",
+            "give display a goal and segment — not just a banner",
           ],
         },
       ],
@@ -79,7 +79,7 @@ export const zabluzhdeniyaKontekstaEn: BlogPost = {
       paras: [
         "The myth “apply every Google recommendation at once” turns the account into a checkbox list. Some tips help; some optimize for the platform’s auction volume. Decide through your margin and a test.",
         "The myth “Search first, Smart/shopping later” delays strong e-commerce formats. Shopping and smart campaigns (historically Smart Shopping; later ecosystems moved toward Performance Max and peers — check current types) lean on feed and learning: plan them early if the catalog is ready.",
-        "The myth “site structure is only for SEO” breaks DSA and shopping ads: weak titles, descriptions, and categories → weak auto-ads. Preparing landings and the feed is part of PPC — not “someday for organic.” Don’t confuse SEO TOP timelines with launching paid search: site prep and organic ranking growth run on different clocks.",
+        "The myth “site structure is only for SEO” breaks DSA and shopping ads: weak titles, descriptions, and categories → weak auto-ads. Preparing landings and the feed is part of PPC — not someday for organic. Don’t confuse organic ranking timelines with launching paid search: site prep and organic growth run on different clocks.",
       ],
       notes: [
         {
@@ -111,7 +111,7 @@ export const zabluzhdeniyaKontekstaEn: BlogPost = {
       title: "Ad copy, budgets, and tests",
       level: 2,
       paras: [
-        "The myth “tasty copy is everything” underplays account structure, semantics, landing pages, and tool mix. Copy matters — it doesn’t replace the system.",
+        "The myth “tasty copy is everything” underplays account structure, keywords, landing pages, and tool mix. Copy matters — it doesn’t replace the system.",
         "Myths like “$200/month covers everything” and “$40 is enough to test a new tool for a month” almost always lie in competitive niches: a test must gather stats, or you’re tuning settings on noise.",
         "The myth “experiment = change every banner, target, budget, and strategy at once” kills conclusions. Change one or two levers per iteration.",
         "The myth “×3 budget = ×3 conversions” isn’t linear: leftover demand gets pricier, CPA rises. Scale in steps and watch the return curve.",
@@ -121,10 +121,10 @@ export const zabluzhdeniyaKontekstaEn: BlogPost = {
         {
           intro: "Practical antidotes:",
           items: [
-            "test budget from a target conversion count — not a “round” sum;",
-            "one hypothesis lever at a time;",
-            "scale after a stable CPA;",
-            "schedule = lead type (call vs form).",
+            "test budget from a target conversion count — not a round sum",
+            "one hypothesis lever at a time",
+            "scale after a stable CPA",
+            "schedule = lead type (call vs form)",
           ],
         },
       ],
@@ -150,21 +150,21 @@ export const zabluzhdeniyaKontekstaEn: BlogPost = {
         {
           intro: "15 myths in one line each:",
           items: [
-            "contextual ≠ Search only;",
-            "not TOP-1 only;",
-            "display isn’t always a burn;",
-            "not every Google tip is an order;",
-            "smart/shopping formats aren’t “for later”;",
-            "the site matters for PPC too;",
-            "“I don’t see it” ≠ broken;",
-            "don’t expect sales on day X;",
-            "new demand may need display;",
-            "copy isn’t the whole system;",
-            "tiny budget ≠ a test;",
-            "micro-budget on a tool ≠ a conclusion;",
-            "don’t change everything at once;",
-            "budget doesn’t scale linearly;",
-            "schedule to lead type.",
+            "contextual ≠ Search only",
+            "not position #1 only",
+            "display isn’t always a burn",
+            "not every Google tip is an order",
+            "smart/shopping formats aren’t for later",
+            "the site matters for PPC too",
+            "“I don’t see it” ≠ broken",
+            "don’t expect sales on day X",
+            "new demand may need display",
+            "copy isn’t the whole system",
+            "tiny budget ≠ a test",
+            "micro-budget on a tool ≠ a conclusion",
+            "don’t change everything at once",
+            "budget doesn’t scale linearly",
+            "schedule to lead type",
           ],
         },
       ],

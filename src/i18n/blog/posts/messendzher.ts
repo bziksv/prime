@@ -11,11 +11,11 @@ export const messendzherEn: BlogPost = {
     "A messenger is an app or web client for instant messages, calls, and files. How WhatsApp*, Telegram, and workplace chats differ — and how to roll them out without spam.",
   lead: [
     "A messenger is a program or web client for instant messaging over the internet: text, media, files, often calls and groups. Both people need the same service and a network connection.",
-    "What the format means, a look at popular apps without treating “billions of users from a 2021 article” as gospel, and how companies adopt them. Audience numbers and UI change — check current data. Meta* products are mentioned for information only.",
+    "Below: what the format means, a look at popular apps without treating “billions of users from a 2021 article” as gospel, and how companies adopt them. Audience numbers and UI change — check current data. Meta* products are mentioned for information only.",
   ],
   legalNotice: {
-    title: "Dear readers!",
-    text: "This article is informational and does not encourage use of the platform. WhatsApp* and Facebook Messenger* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. WhatsApp*, Facebook Messenger*, and Instagram* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
@@ -31,8 +31,8 @@ export const messendzherEn: BlogPost = {
       a: "Yes, if it’s the official web client of the same service. Often it needs a phone link or a separate sign-in.",
     },
     {
-      q: "What messenger should a business pick?",
-      a: "Wherever customers and the team already are: often Telegram, WhatsApp*, or a workplace suite by niche. Don’t open five channels without a reply playbook.",
+      q: "What should a business in Russia pick?",
+      a: "Wherever customers and the team already are: often Telegram, MAX, and others by niche; WhatsApp* if the audience is there. Don’t open five channels without a reply playbook.",
     },
     {
       q: "Is a work chat the same as a personal messenger?",
@@ -60,7 +60,6 @@ export const messendzherEn: BlogPost = {
         "Typical kit: text, photo/video, documents, read receipts, groups, sometimes channels, bots, calls. Exact features depend on the product and version.",
         "A separate class is on-site live-chat widgets: still chat, but inside your domain and support flow — not a consumer “world” messenger.",
       ],
-      lists: [],
     },
     {
       title: "Popular consumer services",
@@ -73,11 +72,11 @@ export const messendzherEn: BlogPost = {
         "Skype — historically strong on calls; many teams moved to other stacks.",
         "Facebook Messenger* — chats in the Meta* ecosystem; mind legal status and platform rules in your jurisdiction. This material does not urge bypassing restrictions.",
       ],
-      lists: [],
       notes: [
         {
           title: "“Billion users” figures",
-          text: "Stats from 2021 roundups age fast. For channel choice, where your audience is matters more than a global league table.",
+          text: "Stats from 2021 roundups age fast. For channel choice, where your audience is matters more than someone else’s global scoreboard.",
+          kind: "tip",
         },
       ],
       links: [
@@ -135,7 +134,6 @@ export const messendzherEn: BlogPost = {
         "Storing passwords and client card data in the chat.",
         "Expecting “we added WhatsApp* — sales grew by themselves” without an offer and reply speed.",
       ],
-      lists: [],
     },
     {
       title: "Takeaways",
@@ -145,7 +143,6 @@ export const messendzherEn: BlogPost = {
         "For business what matters is audience channel, playbook, and lead tracking — not a collection of icons.",
         "Follow platform rules and consent for messages.",
       ],
-      lists: [],
     },
   ],
   closing: [

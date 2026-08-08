@@ -5,13 +5,13 @@ export const bezopasnostSaytaEn: BlogPost = {
   slug: "bezopasnost-sayta",
   title: "How sites get hacked and how to defend: SQL injection and other threats",
   date: "2020-11-26",
-  category: "Hosting",
+  category: "SEO",
   cover: "/images/blog/bezopasnost-sayta/cover-en.webp",
   excerpt:
     "Threats typical for sites and stores: SQL injection, XSS, brute force, vulnerable plugins. How to think about defense and what to do after compromise — without attack how-tos.",
   lead: [
-    "Sites aren’t hacked “for sport” — it’s about data, spam, malware redirects, or ransomware. For an owner in plain terms: someone exploits a code hole, a weak password, or a forgotten plugin.",
-    "Site security is about protection and recovery — not how to attack. Common threats include SQL injection, weak admin passwords, and outdated plugins. DB backups and HTTPS are covered in related articles.",
+    "Sites aren’t hacked for sport — it’s about data, spam, malware redirects, or ransomware. For an owner in plain terms: someone exploits a code hole, a weak password, or a forgotten plugin.",
+    "Below: an overview of typical threats (including SQL injection) and practical defense. The material is about protection and recovery, not how to run attacks. DB backups and HTTPS are covered in related articles.",
   ],
   faq: [
     {
@@ -27,7 +27,7 @@ export const bezopasnostSaytaEn: BlogPost = {
       a: "Spam pages, malicious redirects, content theft, unsafe-site lists, trust and traffic drop.",
     },
     {
-      q: "Is hosting antivirus enough for security?",
+      q: "Is hosting antivirus enough?",
       a: "Useful as part of a stack, not the only measure. You need updates, strong passwords, least privilege, backups, and monitoring.",
     },
     {
@@ -35,7 +35,7 @@ export const bezopasnostSaytaEn: BlogPost = {
       a: "Rotate access, put the site in maintenance if needed, restore from a clean backup, update CMS/plugins, check email and webmaster tools for malware notices.",
     },
     {
-      q: "Do you need a web application firewall (WAF)?",
+      q: "Do you need a WAF?",
       a: "For stores and public forms often yes (hosting/CDN level). It doesn’t replace fixing vulnerable code.",
     },
     {
@@ -43,7 +43,7 @@ export const bezopasnostSaytaEn: BlogPost = {
       a: "Surface checkers give hints, not a guarantee. A serious audit needs a specialist; aggressive scanning of others’ sites without permission is unacceptable.",
     },
     {
-      q: "Are WordPress plugins the main security risk?",
+      q: "Are WordPress plugins the main risk?",
       a: "Often yes: forgotten and unchecked extensions. Install fewer, update, remove unused, take from trusted sources.",
     },
   ],
@@ -59,13 +59,13 @@ export const bezopasnostSaytaEn: BlogPost = {
         {
           intro: "Typical threat set:",
           items: [
-            "database injections (SQL and related);",
-            "XSS and session theft;",
-            "CSRF on admin actions;",
-            "brute force and leaked passwords;",
-            "vulnerable plugins/themes;",
-            "RCE via file upload;",
-            "compromised hosting/FTP.",
+            "database injections (SQL and related)",
+            "XSS and session theft",
+            "CSRF on admin actions",
+            "brute force and leaked passwords",
+            "vulnerable plugins/themes",
+            "RCE via file upload",
+            "compromised hosting/FTP",
           ],
         },
       ],
@@ -81,11 +81,11 @@ export const bezopasnostSaytaEn: BlogPost = {
         {
           intro: "Defense at the development layer:",
           items: [
-            "parameterized queries only;",
-            "minimal privileges for the app DB user;",
-            "input validation and normalization;",
-            "current drivers and CMS;",
-            "don’t expose SQL errors to users.",
+            "parameterized queries only",
+            "minimal privileges for the app DB user",
+            "input validation and normalization",
+            "current drivers and CMS",
+            "don’t expose SQL errors to users",
           ],
         },
       ],
@@ -107,18 +107,18 @@ export const bezopasnostSaytaEn: BlogPost = {
       title: "Other common vectors",
       level: 2,
       paras: [
-        "XSS: a malicious script on a page others or admins see. Brute force: guessing the admin password. Outdated plugin: a ready door without “advanced hacking”. Phishing: an email “confirm login” with a panel clone.",
+        "XSS: a malicious script on a page others or admins see. Brute force: guessing the admin password. Outdated plugin: a ready door without advanced hacking. Phishing: an email “confirm login” with a panel clone.",
         "Stores also risk personal and payment data leaks — PCI payment scope, HTTPS, and minimal data on your side matter here.",
       ],
       lists: [
         {
           intro: "Everyday holes:",
           items: [
-            "admin / one password for everything;",
-            "FTP with a 2019 password;",
-            "demo plugins on production;",
-            "phpMyAdmin open to the internet;",
-            "`.sql` backups in `public_html`.",
+            "admin / one password for everything",
+            "FTP with a 2019 password",
+            "demo plugins on production",
+            "phpMyAdmin open to the internet",
+            "`.sql` backups in `public_html`",
           ],
         },
       ],
@@ -133,19 +133,19 @@ export const bezopasnostSaytaEn: BlogPost = {
       title: "If the site is already compromised",
       level: 2,
       paras: [
-        "Don’t “clean one file by eye” and don’t keep the same passwords. Isolate, restore from a verified pre-incident backup, update everything, rotate keys and access, check cron and unknown admins.",
+        "Don’t clean one file by eye and don’t keep the same passwords. Isolate, restore from a verified pre-incident backup, update everything, rotate keys and access, check cron and unknown admins.",
         "Tell the host if needed. In Search Console / webmaster tools clear malware warnings after cleanup. Notify customers per company policy if data was affected.",
       ],
       lists: [
         {
           intro: "Action order:",
           items: [
-            "change panel, CMS, DB, email, SSH passwords;",
-            "revoke sessions and API keys;",
-            "restore a clean snapshot;",
-            "update CMS/plugins/themes;",
-            "check cron jobs and unknown users;",
-            "enable reinfection monitoring.",
+            "change panel, CMS, DB, email, SSH passwords",
+            "revoke sessions and API keys",
+            "restore a clean snapshot",
+            "update CMS/plugins/themes",
+            "check cron jobs and unknown users",
+            "enable reinfection monitoring",
           ],
         },
       ],
@@ -168,12 +168,12 @@ export const bezopasnostSaytaEn: BlogPost = {
         {
           intro: "Owner checklist:",
           items: [
-            "CMS and plugins updated;",
-            "DB+files backup off the same disk;",
-            "passwords different and long;",
-            "file permissions sensible;",
-            "uptime and webmaster mail monitored;",
-            "incident owner assigned.",
+            "CMS and plugins updated",
+            "DB+files backup off the same disk",
+            "passwords different and long",
+            "file permissions sensible",
+            "uptime and webmaster mail monitored",
+            "incident owner assigned",
           ],
         },
       ],
@@ -188,17 +188,17 @@ export const bezopasnostSaytaEn: BlogPost = {
       title: "Link to SEO and trust",
       level: 2,
       paras: [
-        "Search engines flag unsafe sites, cut clicks, and demand confirmation. Spam injections in templates wreck snippets and index junk URLs. Ranking recovery after a long infection takes time — cleanliness and stability first. Planned TOP growth is still months of work after the site is healthy — not a security checkbox.",
-        "Security isn’t “a separate tick after SEO” — it’s the condition for content and tech to work on a live domain at all.",
+        "Search engines flag unsafe sites, cut clicks, and demand confirmation. Spam injections in templates wreck snippets and index junk URLs. Ranking recovery after a long infection takes time — cleanliness and stability first.",
+        "Security isn’t a separate tick after SEO — it’s the condition for content and tech to work on a live domain at all.",
       ],
       lists: [
         {
           intro: "After cleanup check:",
           items: [
-            "no new spam URLs in the index;",
-            "warnings cleared in panels;",
-            "redirects and homepage correct;",
-            "no leftover malicious scripts in the theme.",
+            "no new spam URLs in the index",
+            "warnings cleared in panels",
+            "redirects and homepage correct",
+            "no leftover malicious scripts in the theme",
           ],
         },
       ],

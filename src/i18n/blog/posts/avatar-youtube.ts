@@ -11,27 +11,27 @@ export const avatarYoutubeEn: BlogPost = {
     "Why a YouTube channel needs an avatar, image requirements, what to show, and how to change the icon from a computer or phone.",
   lead: [
     "A YouTube avatar is the round channel icon under videos, in search, and in comments. People recognize the brand from it faster than from a long name.",
-    "The channel icon is how people recognize you in search, subscriptions, and comments. Keep it sharp at tiny sizes; Studio menu items move — look for channel customization.",
+    "Below: what the mark is for, quality criteria, and how to update the image. Studio menu items move — look for channel customization.",
   ],
   faq: [
     {
-      q: "How is a YouTube avatar different from a channel banner?",
+      q: "How is the avatar different from the channel banner?",
       a: "The avatar is a small permanent mark. The banner is a wide header cover. Both should share one visual system.",
     },
     {
-      q: "What size should you prepare for a YouTube avatar?",
-      a: "Guide — a high-resolution square (often 800×800 px or more). Check exact limits in YouTube Studio help.",
+      q: "What size should you prepare?",
+      a: "Guide — a high-resolution square (often 800×800 px or more). Check exact limits in YouTube Studio Help.",
     },
     {
-      q: "Should you use a face photo or a logo?",
-      a: "A face — for a personal channel. A logo/mark — for a brand and studio. The main thing is readability in a small circle.",
+      q: "Face photo or logo?",
+      a: "A face — for a personal channel. A logo/mark — for a brand and studio. What matters is readability in a small circle.",
     },
     {
       q: "Can you use random images from the web?",
       a: "Only if you have rights. Someone else’s stock/character without a license — risk of complaints and bans.",
     },
     {
-      q: "What happens without your own YouTube avatar?",
+      q: "What happens without your own avatar?",
       a: "Google account photo or initials fill in — weaker for channel recognition.",
     },
   ],
@@ -40,32 +40,32 @@ export const avatarYoutubeEn: BlogPost = {
       title: "Why you need an avatar",
       level: 2,
       paras: [
-        "The icon helps find the channel in recommendations, under videos, and in comments. A click on the avatar opens the channel page.",
+        "The icon helps people spot the channel in recommendations, under videos, and in comments. A click on the avatar opens the channel page.",
         "A strong mark works like a mini-logo: viewers remember shape and color faster than the name text.",
       ],
-      lists: [],
     },
     {
       title: "Image requirements",
       level: 2,
       paras: [
-        "Prepare a square with margin: edges may crop under the mask. The center of the frame is what matters most.",
+        "Prepare a square with margin: edges may crop under the mask. Put what matters in the center of the frame.",
       ],
       lists: [
         {
           intro: "Quality criteria:",
           items: [
-            "uniqueness — not a clone of another channel;",
-            "readability at small size;",
-            "link to the topic (animals, cars, learning…);",
-            "contrast between background and subject;",
-            "your rights to the image.",
+            "uniqueness — not a clone of another channel",
+            "readability at small size",
+            "a clear link to the niche (animals, cars, learning…)",
+            "contrast between background and subject",
+            "your rights to the image",
           ],
         },
       ],
       notes: [
         {
           title: "Practice",
+          kind: "tip",
           text: "Check a preview: shrink the image to ~40–60 px. If meaning disappears — simplify.",
         },
       ],
@@ -80,17 +80,18 @@ export const avatarYoutubeEn: BlogPost = {
         {
           intro: "Niche tips:",
           items: [
-            "personal expert channel — portrait;",
-            "brand / media — logo;",
-            "kids / entertainment — bright character (with your rights);",
-            "travel / nature — a recognizable topic symbol, not random stock.",
+            "personal expert channel — portrait",
+            "brand / media — logo",
+            "kids / entertainment — bright character (with your rights)",
+            "travel / nature — a recognizable niche symbol, not a random licensed fill-in",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
-          text: "Using someone else’s face or a meme without rights “because it looks good”. That’s ethics and legal risk.",
+          kind: "tip",
+          text: "Using someone else’s face or a meme without rights “because it looks good.” That’s ethics and legal risk.",
         },
       ],
     },
@@ -104,11 +105,11 @@ export const avatarYoutubeEn: BlogPost = {
         {
           intro: "Short pipeline:",
           items: [
-            "pick the subject (face / mark);",
-            "crop to a square with a safe zone;",
-            "boost contrast, remove tiny text;",
-            "export high-quality PNG/JPG;",
-            "check on dark and light UI themes.",
+            "pick the subject (face / mark)",
+            "crop to a square with a safe zone",
+            "raise contrast, remove tiny text",
+            "export high-quality PNG/JPG",
+            "check on dark and light UI themes",
           ],
         },
       ],
@@ -124,10 +125,10 @@ export const avatarYoutubeEn: BlogPost = {
         {
           intro: "After changing, check:",
           items: [
-            "avatar on the channel page;",
-            "under a fresh video;",
-            "in a comment;",
-            "consistency with the banner.",
+            "avatar on the channel page",
+            "under a fresh video",
+            "in a comment",
+            "consistency with the banner",
           ],
         },
       ],

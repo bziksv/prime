@@ -12,7 +12,7 @@ export const relevantnostSaytaEn: BlogPost = {
     "What page relevance to a query means, how formal keyword match differs from a useful answer, and how to check and improve fit without a 4–5% density cult.",
   lead: [
     "Relevance is how well a page matches what the person really wants from a query. It used to be reduced to keyword density; today meaning, answer completeness, behavior, and commercial adequacy matter more.",
-    "We define it in plain words, separate formal from real-world fit, and show how to check and fix pages—without a magic “4–5% keywords” formula or outdated meta Keywords.",
+    "Below: a plain definition, types of relevance, how to check fit, and what to fix on the site — without a magic “4–5% keywords” formula or outdated meta Keywords.",
   ],
   faq: [
     {
@@ -33,11 +33,11 @@ export const relevantnostSaytaEn: BlogPost = {
     },
     {
       q: "How do I check relevance?",
-      a: "By hand: site:/inurl: and compare page type to the top results; rank/visibility tools as an extra slice. One third-party “relevance score” isn’t a verdict.",
+      a: "By hand: site:/inurl: and compare page type to strong SERP results; rank/visibility tools as an extra slice. One third-party “relevance score” isn’t a verdict.",
     },
     {
-      q: "Does relevance mean I’m in the TOP?",
-      a: "No. Relevance is a condition. Competition, links, tech, brand, and history affect ranks. Page prep — weeks; building the core into the TOP is planned for 2–6 months.",
+      q: "Does relevance mean page one?",
+      a: "No. Relevance is a condition. Competition, links, tech, brand, and history affect ranks. Page prep — weeks; core page-one share is planned for 2–6 months.",
     },
     {
       q: "What matters more: copy or behavior?",
@@ -68,25 +68,25 @@ export const relevantnostSaytaEn: BlogPost = {
       level: 2,
       paras: [
         "Simply: text and link signals combine with quality and behavior. Exact formulas are closed; in practice you need a clear page focus, topic coverage, internal and external links, and no spam.",
-        "Old checklists with “mandatory 4–5% density” and Keywords are a museum. Ask: does the page answer the job as well as or better than documents in today’s TOP for that cluster.",
+        "Old checklists with “mandatory 4–5% density” and Keywords are a museum. Ask: does the page answer the job as well as or better than documents near the top of today’s SERP for that cluster.",
       ],
       lists: [
         {
           intro: "What usually strengthens relevance:",
           items: [
-            "keyword/meaning in title and H1 without overspam;",
-            "synonyms and related questions in the body;",
-            "structure (subheads, lists, FAQ);",
-            "internal linking on the topic;",
-            "commercial expectations met (price, contacts, delivery — if intent is commercial).",
+            "keyword/meaning in title and H1 without overspam",
+            "synonyms and related questions in the body",
+            "structure (subheads, lists, FAQ)",
+            "internal linking on the topic",
+            "commercial expectations met (price, contacts, delivery — if intent is commercial)",
           ],
         },
       ],
       notes: [
         {
           title: "Don’t confuse",
-          text: "“Page is relevant to the query” ≠ “site automatically in TOP-10”. Relevance is the base; ranks also depend on competition and accumulated signals.",
           kind: "tip",
+          text: "“Page is relevant to the query” ≠ “site automatically on page one.” Relevance is the base; ranks also depend on competition and accumulated signals.",
         },
       ],
     },
@@ -102,18 +102,18 @@ export const relevantnostSaytaEn: BlogPost = {
       title: "How to check",
       level: 2,
       paras: [
-        "Manual: open the SERP for the target query and compare your URL type to winners (card, category, article, showcase). Tools like Topvisor/Megaindex and peers give ranks and audit slices — use as diagnosis, not the only “relevance score”.",
+        "Manual: open the SERP for the target query and compare your URL type to winners (card, category, article, showcase). Tools like Topvisor/Megaindex and peers give ranks and audit slices — use as diagnosis, not the only “relevance score.”",
         "Yandex and Google can diverge: different algorithms and weights. Watch the system where most traffic goes.",
       ],
       lists: [
         {
           intro: "Quick manual checklist:",
           items: [
-            "title/H1 match the query job;",
-            "first screen makes clear what the page is;",
-            "main question answered without filler;",
-            "no diversion into another topic;",
-            "mobile UX doesn’t block reading/ordering.",
+            "title/H1 match the query job",
+            "first screen makes clear what the page is",
+            "main question answered without filler",
+            "no diversion into another topic",
+            "mobile UX doesn’t block reading/ordering",
           ],
         },
       ],
@@ -123,7 +123,7 @@ export const relevantnostSaytaEn: BlogPost = {
           href: "/en/blog/seo-kopirayting/",
         },
         {
-          label: "Semantic core",
+          label: "Keyword research",
           href: "/en/blog/semanticheskoe-yadro/",
         },
       ],
@@ -133,18 +133,18 @@ export const relevantnostSaytaEn: BlogPost = {
       level: 2,
       paras: [
         "Tech: indexing, speed, broken links, correct robots — so relevant copy can enter search at all. Content: length and structure for the cluster job, readability, a snippet that honestly promises the content.",
-        "Links and behavior help when the page is already useful. Growing links to an empty or over-optimized URL won’t “paint” relevance. Locality sharpens demand accuracy — especially for local business.",
+        "Links and behavior help when the page is already useful. Growing links to an empty or over-optimized URL won’t paint relevance. Locality sharpens demand accuracy — especially for local business.",
       ],
       lists: [
         {
           intro: "Working order:",
           items: [
-            "cluster and intent;",
-            "page type like a strong TOP;",
-            "copy and blocks for the job;",
-            "tech and snippet;",
-            "internal linking;",
-            "external mentions — on purpose.",
+            "cluster and intent",
+            "page type like a strong SERP winner",
+            "copy and blocks for the job",
+            "tech and snippet",
+            "internal linking",
+            "external mentions — on purpose",
           ],
         },
       ],
@@ -165,8 +165,8 @@ export const relevantnostSaytaEn: BlogPost = {
       notes: [
         {
           title: "Timelines",
-          text: "Preparing a relevant page usually takes weeks. Building a competitive core into the TOP is planned for 2–6 months — not “TOP after one title tweak”.",
           kind: "tip",
+          text: "Preparing a relevant page usually takes weeks. Competitive-core page-one share is planned for 2–6 months — not “page one after one title tweak.”",
         },
       ],
     },

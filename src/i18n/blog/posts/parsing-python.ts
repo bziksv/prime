@@ -5,13 +5,13 @@ export const parsingPythonEn: BlogPost = {
   slug: "parsing-python",
   title: "Scraping websites with Python: a beginner’s start",
   date: "2020-03-27",
-  category: "SEO",
+  category: "Digital marketing",
   cover: "/images/blog/parsing-python/cover-en.webp",
   excerpt:
     "Why Python is often chosen for scraping, how Scrapy, Beautiful Soup, and Selenium differ, how to set up the environment, and where legal data collection ends.",
   lead: [
     "Python is handy for learning and writing scrapers: clear syntax, packages, and libraries for HTTP and HTML parsing. But “easy to write” ≠ “you may download any site.”",
-    "Start with HTTP and HTML libraries, respect ToS and robots.txt, and prefer official APIs. No guides on bypassing anti-bot, faking a User-Agent “like a browser,” or scraping closed sections.",
+    "Below: language upsides, tool classes, and a safe start. No guides on bypassing anti-bot, faking a User-Agent “like a browser,” or scraping closed sections — ToS, robots.txt, and official APIs come first.",
   ],
   faq: [
     {
@@ -85,7 +85,7 @@ export const parsingPythonEn: BlogPost = {
       level: 2,
       paras: [
         "Scrapy is a spider framework: URL queues, pipelines, high performance at volume. It fits a stable crawl of open pages with limits and respect for site rules.",
-        "Beautiful Soup — a parser for already downloaded HTML/XML. It doesn’t fetch by itself: usually next to `requests` (or another HTTP client). Useful for learning scripts and one-off samples.",
+        "Beautiful Soup parses already downloaded HTML/XML. It doesn’t fetch by itself: usually next to `requests` (or another HTTP client). Useful for learning scripts and one-off samples.",
         "Selenium and peers are browser automation. Their main job is UI tests; for data collection it’s a heavy path. Don’t use a driver to bypass captcha and anti-bot.",
       ],
       lists: [
@@ -100,9 +100,9 @@ export const parsingPythonEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Important",
           text: "We don’t give “set User-Agent like Firefox and pass the block” examples. If the site blocks robots, lower the load, read the rules, or use an official export/API.",
-          kind: "tip",
         },
       ],
       links: [

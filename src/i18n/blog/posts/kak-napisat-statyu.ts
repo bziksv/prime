@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for kak-napisat-statyu — same structure as RU JSON. */
 export const kakNapisatStatyuEn: BlogPost = {
   slug: "kak-napisat-statyu",
-  title: "How to write a solid article: a beginner’s algorithm",
+  title: "How to write a solid article: a beginner’s process",
   date: "2020-07-06",
   category: "Content marketing",
   cover: "/images/blog/kak-napisat-statyu/cover-en.webp",
   excerpt:
     "Step by step: goal and audience, structure, draft, editing, and careful SEO — without magic and without writing just to fill space.",
   lead: [
-    "A good article doesn’t start by opening Word — it starts with answers: for whom, why, what value the reader leaves with. Without that, even correct prose stays empty.",
-    "A practical process for beginners and clients who write their own copy. Copywriting types and hiring an author live in the general article; keyword nuances for search are in SEO copywriting.",
+    "A good article doesn’t start by opening a blank doc. It starts with answers: for whom, why, and what the reader should walk away with. Without that, even clean prose stays empty.",
+    "Here’s a practical process for beginners and for clients who write their own copy. Copywriting types and hiring an author live in the general article; keyword nuances for search are in SEO copywriting.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const kakNapisatStatyuEn: BlogPost = {
     },
     {
       q: "Do I need competitive analysis?",
-      a: "Yes: what’s already in the TOP / among niche leaders, which questions are covered, where you can add your experience and examples.",
+      a: "Yes. See what’s already ranking or leading in the niche, which questions are covered, and where you can add your experience and examples.",
     },
     {
       q: "How much editing after the draft?",
@@ -28,7 +28,7 @@ export const kakNapisatStatyuEn: BlogPost = {
     },
     {
       q: "Is SEO required?",
-      a: "If the goal is search traffic — yes: intent, structure, natural wording. Not at the cost of readability.",
+      a: "If the goal is search traffic — yes: intent, structure, natural wording. Never at the cost of readability.",
     },
     {
       q: "One paragraph — one idea?",
@@ -36,11 +36,11 @@ export const kakNapisatStatyuEn: BlogPost = {
     },
     {
       q: "Do readability / spam checkers help?",
-      a: "As an extra filter — yes. They don’t replace meaning, facts, and value for the audience. Don’t fetishize “water %” numbers from old briefs.",
+      a: "As an extra filter — yes. They don’t replace meaning, facts, or value for the audience. Don’t fetishize “water %” numbers from old briefs.",
     },
     {
       q: "How is this different from SEO copywriting?",
-      a: "This article is the general writing process. Keyword research, related terms, and typical SEO mistakes live elsewhere.",
+      a: "This article is the general writing process. Keyword research, related terms, and typical SEO mistakes live in the SEO copywriting piece.",
     },
     {
       q: "Do real-life examples help?",
@@ -49,21 +49,21 @@ export const kakNapisatStatyuEn: BlogPost = {
   ],
   sections: [
     {
-      title: "Analysis first, typing second",
+      title: "Think first, type second",
       level: 2,
       paras: [
-        "Lock in: who reads (client / colleague / beginner), why the article serves the business (trust, lead, expertise), what result the reader gets after the text.",
-        "Choose tone and term depth: explain the hard parts; don’t strip expertise entirely.",
-        "Briefly note facts, figures, and examples — or you’ll lose important bits on the fly.",
+        "Lock in who reads (client, colleague, beginner), why the piece serves the business (trust, lead, expertise), and what result the reader should get.",
+        "Choose tone and how deep you go with terms: explain the hard parts; don’t strip expertise entirely.",
+        "Briefly note facts, figures, and examples — or you’ll lose important bits mid-draft.",
       ],
       lists: [
         {
           intro: "Minimum before a draft:",
           items: [
-            "goal and audience;",
-            "the question you answer;",
-            "rough H2/H3 outline;",
-            "2–3 sources or your own cases.",
+            "goal and audience",
+            "the question you answer",
+            "rough H2/H3 outline",
+            "2–3 sources or your own cases",
           ],
         },
       ],
@@ -75,7 +75,6 @@ export const kakNapisatStatyuEn: BlogPost = {
         "Go general → specific for an overview; step-by-step in time for a how-to; independent blocks for a roundup.",
         "One meaning block — one heading. Lists and short paragraphs make scanning easier.",
       ],
-      lists: [],
       links: [
         {
           label: "Copywriting: types and jobs",
@@ -87,17 +86,17 @@ export const kakNapisatStatyuEn: BlogPost = {
       title: "Draft and editing",
       level: 2,
       paras: [
-        "In the draft, write flow by the outline: don’t freeze on a perfect sentence. One paragraph — one idea; transitions stay logical.",
-        "Editing: structure → meaning and cuts → spelling → examples and media. Don’t publish “straight from the pen.”",
+        "In the draft, write to the outline — don’t freeze on a perfect sentence. One paragraph, one idea; keep transitions logical.",
+        "Editing order: structure → meaning and cuts → spelling → examples and media. Don’t publish straight from the first pass.",
       ],
       lists: [
         {
           intro: "Edit checklist:",
           items: [
-            "there’s a lead and a clear ending;",
-            "no duplicates or fluff;",
-            "examples are concrete;",
-            "headings match the blocks.",
+            "there’s a lead and a clear ending",
+            "no duplicates or fluff",
+            "examples are concrete",
+            "headings match the blocks",
           ],
         },
       ],
@@ -113,16 +112,15 @@ export const kakNapisatStatyuEn: BlogPost = {
       level: 2,
       paras: [
         "Optimization sits on top of strong material: query and intent, structure, natural wording. Don’t force awkward keywords at the cost of meaning.",
-        "Page prep and ranking the core are different horizons: TOP is planned over months of work — not one article.",
+        "Getting a page ready and ranking the keyword set are different horizons. Ranking growth is planned over months of work — not one article overnight.",
       ],
-      lists: [],
       links: [
         {
           label: "SEO copywriting",
           href: "/en/blog/seo-kopirayting/",
         },
         {
-          label: "Keyword research / keyword set",
+          label: "Keyword research",
           href: "/en/blog/semanticheskoe-yadro/",
         },
       ],
@@ -135,11 +133,10 @@ export const kakNapisatStatyuEn: BlogPost = {
         "Usefulness and clarity beat “prettiness.”",
         "SEO strengthens finished text; it doesn’t replace it.",
       ],
-      lists: [],
     },
   ],
   closing: [
-    "Before publish, read the article aloud on a phone: where you stumble — cut or simplify.",
+    "Before you publish, read the article aloud on a phone. Where you stumble — cut or simplify.",
   ],
   related: [
     "teksty-uzkaya-tematika",

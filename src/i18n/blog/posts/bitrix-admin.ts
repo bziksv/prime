@@ -5,13 +5,13 @@ export const bitrixAdminEn: BlogPost = {
   slug: "bitrix-admin",
   title: "How to open the 1C-Bitrix admin and recover access",
   date: "2017-11-09",
-  category: "Websites",
+  category: "Digital marketing",
   cover: "/images/blog/bitrix-admin/cover-en.webp",
   excerpt:
     "Signing in at `/bitrix/admin`, resetting the password by email, and cache/cookie glitches — without keeping a weak password and without confusing it with the public-site toolbar.",
   lead: [
     "The 1C-Bitrix admin usually opens at `https://your-site.example/bitrix/admin/`. After sign-in you get infoblocks, modules, users, and settings — that is not the same as the toolbar over public pages.",
-    "The Bitrix admin login lives at /bitrix/admin (and related paths). Recover passwords through the official flow; cache and cookies often fake “wrong password.” This is not a guide to breaking into other people’s sites — follow the current auth form, not 2017 screenshots.",
+    "Below: how to open the login form, what to do if you forgot the password, and why cache and cookies get in the way. This is not a guide to breaking into other people’s sites. UI labels change — follow the current auth form.",
   ],
   faq: [
     {
@@ -19,11 +19,11 @@ export const bitrixAdminEn: BlogPost = {
       a: "`/bitrix/admin` is the full backend. The public-section toolbar is on-page editing after you sign in with rights. See the separate piece on the public section.",
     },
     {
-      q: "Why do you see a 404 on /bitrix/admin?",
+      q: "Why a 404 on /bitrix/admin?",
       a: "A different login path, the site is not on Bitrix, HTTPS/www redirects, a server-level block, or the site is down. Confirm the URL with the developer or host.",
     },
     {
-      q: "Can you sign in to the site admin via Bitrix24?",
+      q: "Can you sign in via Bitrix24?",
       a: "Some installs offer a linked-account login. If there is no button or the link is not set up — use the site user’s normal login and password.",
     },
     {
@@ -31,7 +31,7 @@ export const bitrixAdminEn: BlogPost = {
       a: "Check spam, that the user’s email is correct, and that the site can send mail (SMTP/hosting). Otherwise — reset via hosting/developer with a backup.",
     },
     {
-      q: "Is Bitrix admin login like WordPress login?",
+      q: "Is this like WordPress login?",
       a: "In spirit yes (form → password → console), different path: `/bitrix/admin`, not `/wp-admin/`.",
     },
   ],
@@ -47,10 +47,10 @@ export const bitrixAdminEn: BlogPost = {
         {
           intro: "Before typing the password:",
           items: [
-            "correct domain (www / bare, live vs staging);",
-            "keyboard layout and Caps Lock;",
-            "this is your site, not a phishing copy;",
-            "your role actually has access.",
+            "correct domain (www / bare, live vs staging)",
+            "keyboard layout and Caps Lock",
+            "this is your site, not a phishing copy",
+            "your role actually has access",
           ],
         },
       ],
@@ -67,8 +67,8 @@ export const bitrixAdminEn: BlogPost = {
       notes: [
         {
           title: "Permissions",
-          text: "Even with the right password, admin access can be closed by group policy. Then you need a role from the project admin — not password guessing.",
           kind: "tip",
+          text: "Even with the right password, admin access can be closed by group policy. Then you need a role from the project admin — not password guessing.",
         },
       ],
     },
@@ -76,18 +76,18 @@ export const bitrixAdminEn: BlogPost = {
       title: "If you forgot the password",
       level: 2,
       paras: [
-        "On the login form find a link like “Forgot password?”. Enter the user’s login or email — the system sends a reset link to the profile mailbox.",
+        "On the login form find a link like “Forgot password?” Enter the user’s login or email — the system sends a reset link to the profile mailbox.",
         "Mail sometimes lands in spam or never leaves because of the site’s mail settings. Then check the address in the user card (if another admin exists) or reset access via hosting/developer by process with a backup.",
       ],
       lists: [
         {
           intro: "Order:",
           items: [
-            "recovery link on the form;",
-            "inbox + Spam;",
-            "a session on another device where you are still signed in → change password;",
-            "hosting/developer help;",
-            "after sign-in — a new strong password and a check for extra admins.",
+            "recovery link on the form",
+            "inbox + Spam",
+            "a session on another device where you are still signed in → change password",
+            "hosting/developer help",
+            "after sign-in — a new strong password and a check for extra admins",
           ],
         },
       ],
@@ -136,11 +136,11 @@ export const bitrixAdminEn: BlogPost = {
       level: 2,
       paras: [
         "Don’t post client logins in chats. Don’t leave a shared “department” password. Don’t try to guess access to other people’s sites.",
-        "Resetting by editing the DB “by feel” without a backup is a path to downtime. Start with the normal recovery flow and support.",
+        "Resetting by editing the DB by feel without a backup is a path to downtime. Start with the normal recovery flow and support.",
       ],
     },
     {
-      title: "Takeaways",
+      title: "What to remember",
       level: 2,
       paras: [
         "Standard entry is `/bitrix/admin/`, recovery is by the user’s email, glitches often come from cache/cookies and permissions. The public toolbar is a related but different surface.",

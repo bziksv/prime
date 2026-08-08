@@ -3,7 +3,7 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for moderatsiya-meditsina — same structure as RU JSON. */
 export const moderatsiyaMeditsinaEn: BlogPost = {
   slug: "moderatsiya-meditsina",
-  title: "Moderating contextual ads in healthcare topics",
+  title: "Healthcare ad review in Yandex Direct and Google Ads",
   date: "2019-09-13",
   category: "Paid search",
   cover: "/images/blog/moderatsiya-meditsina/cover-en.webp",
@@ -11,8 +11,12 @@ export const moderatsiyaMeditsinaEn: BlogPost = {
     "How to pass Yandex Direct and Google Ads review in healthcare: what’s usually banned and allowed, network vs Search nuances, copy without red flags, and what to do when rejected — based on current platform policies.",
   lead: [
     "Healthcare and pharma in paid search are reviewed harder than ordinary niches: ads and landings are checked against Yandex and Google policies and the law of the country where you show. A wording or site mistake means rejection or limited delivery.",
-    "How bans and permissions work, typical Direct and Ads nuances, practical copy tips, and what to do after rejection. Concrete lists change — check current policy docs.",
+    "Below: how bans and permissions work, typical Direct and Ads nuances, practical copy tips, and what to do after rejection. Concrete lists change — before launch, check official rules and counsel, not 2019 memory.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. Facebook* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Why is healthcare moderated more strictly?",
@@ -23,15 +27,15 @@ export const moderatsiyaMeditsinaEn: BlogPost = {
       a: "Usually yes — with correct wording, licenses on the site, and policy compliance. Banned services and “we cure 100%” promises get cut.",
     },
     {
-      q: "How does Search moderation differ from the Display Network?",
+      q: "How does Search differ from the networks?",
       a: "In networks and remarketing, intimate/sensitive topics and creatives are often stricter. What passes on Search may fail in YAN/Display.",
     },
     {
-      q: "Does soft clinic wording without banned words help you pass review?",
+      q: "Does soft wording without banned words help?",
       a: "Risky: review looks at the ad and the landing. Gray phrasing may pass once and fail on re-check.",
     },
     {
-      q: "What should I do when a medical ad is rejected?",
+      q: "What should I do when rejected?",
       a: "Read the reason, fix copy/site, attach documents via platform support. “A competitor runs it” isn’t a guarantee.",
     },
     {
@@ -77,7 +81,7 @@ export const moderatsiyaMeditsinaEn: BlogPost = {
             "the offer is lawful in the impression region",
             "site has licenses, contacts, disclaimers",
             "copy has no outcome guarantees or “scary” visuals",
-            "landing matches the ad.",
+            "landing matches the ad",
           ],
         },
       ],
@@ -127,7 +131,7 @@ export const moderatsiyaMeditsinaEn: BlogPost = {
             "rejection reason broken down point by point",
             "site and ad aligned",
             "documents attached",
-            "separate Search test before scaling to networks.",
+            "separate Search test before scaling to networks",
           ],
         },
       ],

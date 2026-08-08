@@ -11,8 +11,12 @@ export const facebookAdsEn: BlogPost = {
     "How Facebook Ads / Meta Ads work: goals, audiences, pixel, and tests. An informational breakdown without “start right now” FOMO and without 2018 reach figures.",
   lead: [
     "Facebook Ads is the historical name for Ads Manager in the Meta ecosystem: ads may show in Facebook, Instagram, and related surfaces (placement set and availability depend on the account, region, and policies).",
-    "Channel logic: goals, targeting, pixel, formats, and a test checklist. The article is informational and does not urge you to use Meta platforms. We don’t repeat 2017–2018 MAU/DAU figures or “cheap Instagram reach” myths as forever truth.",
+    "Below: channel logic — goals, targeting, pixel, formats, and a test checklist. The article is informational and does not urge you to use Meta platforms. We don’t repeat 2017–2018 MAU/DAU figures or “cheap Instagram reach” claims as forever truth: the auction and availability change.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. Instagram* and Facebook* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the services may have legal consequences.",
+  },
   faq: [
     {
       q: "Are Facebook Ads and Meta Ads the same?",
@@ -41,7 +45,7 @@ export const facebookAdsEn: BlogPost = {
       level: 2,
       paras: [
         "Typical range: awareness, traffic to site/landing, leads, sales, app installs, community engagement. Campaign objective should match what you can actually process.",
-        "Format flexibility doesn’t replace offer and landing. “A beginner can launch” ≠ “you get stable ROI without tests”.",
+        "Format flexibility doesn’t replace offer and landing. “A beginner can launch” ≠ “you get stable ROI without tests.”",
       ],
       lists: [
         {
@@ -51,7 +55,7 @@ export const facebookAdsEn: BlogPost = {
             "events/pixel or lead form set up",
             "you can measure CPA/ROI",
             "resource for creative iterations",
-            "legal platform limits in your jurisdiction accounted for.",
+            "legal platform limits in your jurisdiction accounted for",
           ],
         },
       ],
@@ -70,7 +74,7 @@ export const facebookAdsEn: BlogPost = {
       title: "Audiences: interests, look-alike, retargeting",
       level: 2,
       paras: [
-        "Cold audiences — interests/behavior/demographics (signal set depends on account availability). Look-alike — expansion from seeds: buyers, leads, engaged users.",
+        "Cold audiences — interests, behavior, demographics (signal set depends on account availability). Look-alike — expansion from a source group: buyers, leads, engaged users.",
         "Warm audiences — retargeting: site, list, engagement. Split segments and exclude overlaps so one bid and one creative don’t hit everyone at once.",
       ],
       lists: [
@@ -80,7 +84,7 @@ export const facebookAdsEn: BlogPost = {
             "cold: 1–2 interest / look-alike hypotheses",
             "retarget visitors/cart",
             "exclude converters from chase ads",
-            "separate creative sets per funnel stage.",
+            "separate creative sets per funnel stage",
           ],
         },
       ],
@@ -105,8 +109,8 @@ export const facebookAdsEn: BlogPost = {
       notes: [
         {
           title: "Important",
-          text: "Don’t promise “the system will find conversions by itself” if the event is broken or leads are scarce. Data quality first, then budget.",
           kind: "tip",
+          text: "Don’t promise “the system will find conversions by itself” if the event is broken or leads are scarce. Data quality first, then budget.",
         },
       ],
       links: [
@@ -121,7 +125,7 @@ export const facebookAdsEn: BlogPost = {
       level: 2,
       paras: [
         "Creative is the main lever in the attention auction. Test visual + copy + offer bundles; dynamic variants help but don’t replace a strong hypothesis.",
-        "Placements (feed, stories, etc.) are better started from account recommendations or a narrow set matching creative format. Old 2018 “Stories vs feed” CPM comparisons aren’t law.",
+        "Placements (feed, stories, and others) are better started from account recommendations or a narrow set matching creative format. Old 2018 “Stories vs feed” CPM comparisons aren’t law.",
       ],
       lists: [
         {
@@ -131,7 +135,7 @@ export const facebookAdsEn: BlogPost = {
             "readable on mobile",
             "frequency cap on warm audiences",
             "refresh when creatives fatigue",
-            "UTM for full-funnel analytics.",
+            "UTM for full-funnel analytics",
           ],
         },
       ],
@@ -151,7 +155,7 @@ export const facebookAdsEn: BlogPost = {
             "3 audience types with exclusions",
             "several creatives",
             "landing and offer ready",
-            "report on CPA/ROI, not CTR alone.",
+            "report on CPA/ROI, not CTR alone",
           ],
         },
       ],

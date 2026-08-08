@@ -11,7 +11,7 @@ export const novogodnyayaRasprodazhaEn: BlogPost = {
     "How to prep paid search for a New Year sale: demand and forecast, buyer types, creatives, separate campaigns, and what to do after the holidays — without blindly copying 2017 US stats.",
   lead: [
     "The New Year season in paid search isn’t only “−30% in December.” You need a demand forecast, different messages for early and late buyers, separate creatives, and a careful exit after the holidays.",
-    "Below is a working frame for Yandex Direct and Google Ads. NRF/Trends figures from old reviews are rough examples of curve shape — not law for your niche.",
+    "Below: a working frame for Yandex Direct and Google Ads. NRF/Trends figures from old reviews are rough examples of curve shape — not law for your niche in Russia. Holiday retargeting at peak is covered separately.",
   ],
   faq: [
     {
@@ -48,9 +48,9 @@ export const novogodnyayaRasprodazhaEn: BlogPost = {
           intro: "Forecast minimum:",
           items: [
             "last year’s season in Direct/Ads and Metrika",
-            "top gift categories and queries",
+            "leading gift categories and queries",
             "warehouse capacity and delivery SLAs",
-            "budget cap for peak days.",
+            "budget cap for peak days",
           ],
         },
       ],
@@ -75,7 +75,7 @@ export const novogodnyayaRasprodazhaEn: BlogPost = {
             "separate groups/campaigns by season stage",
             "ad schedules for peaks",
             "“for myself” vs “as a gift” — different creatives",
-            "don’t promise delivery your warehouse can’t meet.",
+            "don’t promise delivery your warehouse can’t meet",
           ],
         },
       ],
@@ -113,7 +113,7 @@ export const novogodnyayaRasprodazhaEn: BlogPost = {
             "separate seasonal budget",
             "UTM and goals in analytics",
             "warm retargeting",
-            "alerts on stock and delivery SLAs.",
+            "alerts on stock and delivery SLAs",
           ],
         },
       ],
@@ -132,14 +132,14 @@ export const novogodnyayaRasprodazhaEn: BlogPost = {
       title: "After the holidays",
       level: 2,
       paras: [
-        "Demand doesn’t hit zero in one day: some purchases and “top-ups” come after. Change creative themes, communicate the schedule, lower bids as the auction cools.",
+        "Demand doesn’t hit zero in one day: some purchases and catch-up orders come after. Change creative themes, communicate the schedule, lower bids as the auction cools.",
         "Turn off sale ads on plan and restore the main campaign. Otherwise people click “−50% until Dec 31” while the site already shows regular prices.",
       ],
       notes: [
         {
           title: "Important",
-          text: "Legally correct sale terms (dates, limits, availability) beat a pretty banner. Don’t promise what you can’t deliver.",
           kind: "tip",
+          text: "Legally correct sale terms (dates, limits, availability) beat a pretty banner. Don’t promise what you can’t deliver.",
         },
       ],
     },

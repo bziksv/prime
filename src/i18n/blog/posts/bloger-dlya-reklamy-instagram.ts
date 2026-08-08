@@ -10,12 +10,12 @@ export const blogerDlyaReklamyInstagramEn: BlogPost = {
   excerpt:
     "How to pick a creator for ads: why integrations, where to look, how to check the audience, and what to avoid. A checklist for the client.",
   lead: [
-    "Creator ads work when the audience matches the offer and the profile is alive. This piece covers how to find creators and vet them before you pay.",
-    "Interfaces and marketplaces change: rely on quality criteria, not “tap the down arrow in an old app version”.",
+    "Creator ads work when the audience matches the offer and the profile is alive. Below: how to find authors and vet them before you pay.",
+    "Interfaces and marketplaces change: rely on quality criteria, not “tap the down arrow in an old app version.”",
   ],
   legalNotice: {
-    title: "Dear readers!",
-    text: "This article is for information only and is not an invitation to use the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
@@ -24,7 +24,7 @@ export const blogerDlyaReklamyInstagramEn: BlogPost = {
     },
     {
       q: "Does follower count or engagement matter more?",
-      a: "Engagement and relevance. Better 15 thousand live followers than 200 thousand “empty” ones.",
+      a: "Engagement and relevance. Better 15 thousand live followers than 200 thousand empty ones.",
     },
     {
       q: "Should you hire creators from a marketplace?",
@@ -35,7 +35,7 @@ export const blogerDlyaReklamyInstagramEn: BlogPost = {
       a: "Follower spikes, likes without views/comments, identical bots in comments, odd geography for the niche.",
     },
     {
-      q: "What should you lock in the creator agreement?",
+      q: "What should you lock in the agreement?",
       a: "Format, deadlines, banned words, rights to the asset, how you measure results (promo code, UTM, DMs), revisions and cancellation.",
     },
   ],
@@ -51,10 +51,10 @@ export const blogerDlyaReklamyInstagramEn: BlogPost = {
         {
           intro: "What a solid integration usually delivers:",
           items: [
-            "access to an already gathered topical audience;",
-            "brand awareness and click growth;",
-            "expert context (“I recommend because…”);",
-            "sales — if the offer and CTA are clear.",
+            "access to an already gathered niche audience",
+            "brand awareness and click growth",
+            "expert context (“I recommend because…”)",
+            "sales — if the offer and CTA are clear",
           ],
         },
       ],
@@ -69,17 +69,18 @@ export const blogerDlyaReklamyInstagramEn: BlogPost = {
         {
           intro: "Working ways to find candidates:",
           items: [
-            "niche hashtags and search;",
-            "similar profiles next to creators you already know;",
-            "topic communities/roundups where creators offer ads;",
-            "recommendations from peers and past contractors;",
-            "analytics tools and marketplaces (with manual checks).",
+            "niche hashtags and search",
+            "similar profiles next to creators you already know",
+            "niche communities/roundups where creators offer ads",
+            "recommendations from peers and past contractors",
+            "analytics tools and marketplaces (with manual checks)",
           ],
         },
       ],
       notes: [
         {
           title: "Link to monetization",
+          kind: "tip",
           text: "How creators price deals and which income models exist — in the article on creator earnings. Here the focus is the client side.",
         },
       ],
@@ -101,10 +102,10 @@ export const blogerDlyaReklamyInstagramEn: BlogPost = {
         {
           intro: "On a marketplace, check right away:",
           items: [
-            "whether regular posts have live comments;",
-            "whether the feed looks like wall-to-wall ads;",
-            "whether the creator’s tone matches the brand;",
-            "whether they can report reach/clicks.",
+            "whether regular posts have live comments",
+            "whether the feed looks like wall-to-wall ads",
+            "whether the creator’s tone matches the brand",
+            "whether they can report reach/clicks",
           ],
         },
       ],
@@ -119,17 +120,18 @@ export const blogerDlyaReklamyInstagramEn: BlogPost = {
         {
           intro: "Quality criteria:",
           items: [
-            "live audience, no obvious fake engagement;",
-            "video/Stories views in line with likes;",
-            "tidy content, not chaos;",
-            "creator and audience match the product;",
-            "ads no more often than feed trust allows.",
+            "live audience, no obvious fake engagement",
+            "video/Stories views in line with likes",
+            "tidy content, not chaos",
+            "creator and audience match the product",
+            "ads no more often than feed trust allows",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
+          kind: "tip",
           text: "Hiring a “star” account with an irrelevant audience. A fitness blog rarely helps a lawyer without overlapping interests — even with big reach.",
         },
       ],
@@ -139,7 +141,7 @@ export const blogerDlyaReklamyInstagramEn: BlogPost = {
           headers: ["Signal", "Healthy", "Red flag"],
           rows: [
             ["Followers vs reactions", "Stable ER for the niche", "Likes exist, dialogue doesn’t"],
-            ["Comments", "Different people, on topic", "Identical bots / emoji spam"],
+            ["Comments", "Different people, relevant replies", "Identical bots / emoji spam"],
             ["Growth", "Smooth or explainable", "Sharp steps with no reason"],
             ["Ads in the feed", "Rare, disclosed", "Every other post is an ad"],
           ],
@@ -153,7 +155,6 @@ export const blogerDlyaReklamyInstagramEn: BlogPost = {
         "Skip profiles with obvious fake engagement, toxic tone, scandal reputation, or zero replies to the audience.",
         "Be careful with creators who won’t share an integration brief, won’t name deadlines, and won’t agree to a measurable result.",
       ],
-      lists: [],
     },
     {
       title: "Agreements and risks",
@@ -165,11 +166,11 @@ export const blogerDlyaReklamyInstagramEn: BlogPost = {
         {
           intro: "Minimum in writing before payment:",
           items: [
-            "brand, offer, CTA;",
-            "format and number of units;",
-            "draft and publish deadlines;",
-            "how you measure effect;",
-            "what happens in a force majeure.",
+            "brand, offer, CTA",
+            "format and number of units",
+            "draft and publish deadlines",
+            "how you measure effect",
+            "what happens in a force majeure",
           ],
         },
       ],

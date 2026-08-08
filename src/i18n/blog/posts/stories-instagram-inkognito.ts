@@ -9,14 +9,14 @@ export const storiesInstagramInkognitoEn: BlogPost = {
   cover: "/images/blog/stories-instagram-inkognito/cover-en.webp",
   excerpt:
     "Why people look for anonymous Stories viewing on Instagram, what’s dangerous about bots and third-party apps, how to protect your Stories, and which legitimate business scenarios exist.",
-  legalNotice: {
-    mark: "*",
-    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
-  },
   lead: [
     "The Stories viewer list is visible to the author — so people hunt for “incognito”: sites, bots, and apps promise a view with no trace. Some older guides advertised this outright.",
-    "This piece explains why that demand appears, what risks third-party tools carry, and how to think about privacy for your own Stories. Informational overview only — not a guide to bypass platform rules and not a catalog of spy services.",
+    "Below: why that demand appears, what risks third-party tools carry, and how to think about privacy for your own Stories. Informational overview only — not a guide to bypass platform rules and not a catalog of spy services.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Can I officially view others’ Stories anonymously?",
@@ -51,10 +51,10 @@ export const storiesInstagramInkognitoEn: BlogPost = {
         {
           intro: "Typical motives:",
           items: [
-            "stay off the viewer list;",
-            "download someone else’s content without reacting;",
-            "track several profiles “in the background”;",
-            "bypass a private profile (often already impossible and wrongful as access).",
+            "stay off the viewer list",
+            "download someone else’s content without reacting",
+            "track several profiles “in the background”",
+            "bypass a private profile (often already impossible and wrongful as access)",
           ],
         },
       ],
@@ -76,15 +76,16 @@ export const storiesInstagramInkognitoEn: BlogPost = {
         {
           intro: "Common promises of such products:",
           items: [
-            "view without a mark in the list;",
-            "download photo/video;",
-            "sometimes — access to already gone Stories (often marketing or fraud).",
+            "view without a mark in the list",
+            "download photo/video",
+            "sometimes — access to already gone Stories (often marketing or fraud)",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
+          kind: "tip",
           text: "Entering Instagram login and password into a third-party “spy” app. That’s a direct path to account takeover — even if you “just wanted to watch Stories.”",
         },
       ],
@@ -100,11 +101,11 @@ export const storiesInstagramInkognitoEn: BlogPost = {
         {
           intro: "What can actually happen:",
           items: [
-            "password or cookie-session theft;",
-            "spam and messages in your name;",
-            "leak of chats and media;",
-            "block or loss of a business account;",
-            "legal and reputation risks when collecting others’ data without grounds.",
+            "password or cookie-session theft",
+            "spam and messages in your name",
+            "leak of chats and media",
+            "block or loss of a business account",
+            "legal and reputation risks when collecting others’ data without grounds",
           ],
         },
       ],
@@ -125,16 +126,17 @@ export const storiesInstagramInkognitoEn: BlogPost = {
         {
           intro: "Built-in levers:",
           items: [
-            "Close Friends — a tight circle;",
-            "hide a Story from specific accounts;",
-            "don’t post publicly what you aren’t ready to show everyone;",
-            "for internal team updates — a private channel or messenger, not public Stories.",
+            "Close Friends — a tight circle",
+            "hide a Story from specific accounts",
+            "don’t post publicly what you aren’t ready to show everyone",
+            "for internal team updates — a private channel or messenger, not public Stories",
           ],
         },
       ],
       notes: [
         {
           title: "Tip",
+          kind: "tip",
           text: "Screenshots and forwards are still possible. Viewer “incognito” doesn’t replace common sense: don’t put passwords, contracts, or client personal data in Stories.",
         },
       ],
@@ -150,10 +152,10 @@ export const storiesInstagramInkognitoEn: BlogPost = {
         {
           intro: "What to do instead of “stealth viewers”:",
           items: [
-            "review others’ formats and CTAs, not viewer lists;",
-            "run your content plan and measure your own Insights;",
-            "for idea tests — Close Friends and A/B in Stories;",
-            "don’t download others’ content for repost without permission.",
+            "review others’ formats and CTAs, not viewer lists",
+            "run your content plan and measure your own Insights",
+            "for idea tests — Close Friends and A/B in Stories",
+            "don’t download others’ content for repost without permission",
           ],
         },
       ],
@@ -170,7 +172,6 @@ export const storiesInstagramInkognitoEn: BlogPost = {
       paras: [
         "Anonymous Stories viewing via third-party services is high risk and little reward. For privacy, configure your own Stories; for competitors, watch open content consciously — without a bot catalog and bypasses.",
       ],
-      lists: [],
     },
   ],
 };

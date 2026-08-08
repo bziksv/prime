@@ -11,7 +11,7 @@ export const prodvizheniePrilozheniyEn: BlogPost = {
     "App and game promotion: creatives and playables, category-interest targeting, event-based remarketing, deep links, and retention metrics — without racing only for installs.",
   lead: [
     "Stores are crowded: an install alone is not a business. You need users who stay and pay — or complete the target action inside the app.",
-    "Working levers include interactive creatives, precise targeting, retention via remarketing, deep links to the right screen, and a metrics stack. Other people’s 2010s case numbers are order-of-magnitude cues, not your plan.",
+    "Below: working levers — interactive creatives, precise targeting, retention via remarketing, deep links to the right screen, and a metrics stack. Other people’s 2010s case numbers are order-of-magnitude cues, not your plan.",
   ],
   faq: [
     {
@@ -54,7 +54,7 @@ export const prodvizheniePrilozheniyEn: BlogPost = {
             "a clear hook in the first seconds",
             "vertical for mobile feed",
             "one offer / one action",
-            "a link to the post-install screen.",
+            "a link to the post-install screen",
           ],
         },
       ],
@@ -68,9 +68,9 @@ export const prodvizheniePrilozheniyEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Note",
           text: "Platforms and signals change (privacy, iOS, policies). Check available audiences in the current ad account; don’t blindly copy outdated “2018 interests” guides.",
-          kind: "tip",
         },
       ],
       links: [
@@ -98,7 +98,7 @@ export const prodvizheniePrilozheniyEn: BlogPost = {
             "bring back “sleepers”",
             "finish an incomplete action",
             "raise LTV of payers",
-            "don’t hammer those who bought recently.",
+            "don’t hammer those who bought recently",
           ],
         },
       ],
@@ -137,7 +137,7 @@ export const prodvizheniePrilozheniyEn: BlogPost = {
             "CPI / cost of the target event",
             "retention D1 and D7",
             "CR to payment or key action",
-            "organic share after a paid spike.",
+            "organic share after a paid spike",
           ],
         },
       ],

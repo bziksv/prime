@@ -11,8 +11,12 @@ export const prosmotrZakrytogoAkkauntaEn: BlogPost = {
     "What you actually see on a private Instagram profile, why “hacks” and third-party apps are a trap, and why the only built-in path to the feed is a follow request.",
   lead: [
     "A private Instagram profile deliberately hides posts and Stories from non-followers. Old guides promised “workarounds,” fakes, and apps — that’s fraud territory and platform rule-breaking.",
-    "How privacy works, what you can do legally, and what to avoid. This is an informational breakdown, not a guide to hacking or bypassing ToS.",
+    "Below: how privacy works, what you can do legally, and what to avoid. This is an informational breakdown, not a guide to hacking or bypassing ToS. Meta note is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Is there an official way to see someone’s private feed without following?",
@@ -65,7 +69,7 @@ export const prosmotrZakrytogoAkkauntaEn: BlogPost = {
           items: [
             "a clear avatar and name — fewer “stranger” declines",
             "no spam history of mass requests",
-            "readiness to accept a “no” without escalation.",
+            "readiness to accept a “no” without escalation",
           ],
         },
       ],
@@ -80,9 +84,9 @@ export const prosmotrZakrytogoAkkauntaEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Important",
           text: "If someone offers to “hack Instagram for a fee” — it’s a scam. Don’t share passwords or confirmation codes.",
-          kind: "tip",
         },
       ],
     },

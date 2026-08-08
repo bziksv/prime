@@ -8,14 +8,14 @@ export const reklamaInstagramEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/reklama-instagram/cover-en.webp",
   excerpt:
-    "Instagram ad types: paid targeting, creators, and seeding—what drives price, which “free” growth tricks are risky, and how to track real results.",
+    "Instagram ad types: paid targeting, creators, and paid placements — what drives price, which “free” growth tricks are risky, and how to track real results.",
   lead: [
-    "Instagram advertising isn’t one button—it’s a mix of Ads Manager, creator integrations, and seeding in topical accounts. Budget and results depend on the offer, creative, and audience quality.",
-    "We cover placement types, what drives cost, which metrics matter, and what not to confuse with paid promotion. Ads UIs change—focus on the settings, not old button screenshots.",
+    "Instagram advertising isn’t one tool — it’s a mix: the ads manager, creator integrations, and paid placements in topical accounts. Budget and results depend on the offer, creative, and audience quality.",
+    "Below: placement types, what drives cost, metrics, and what not to confuse with paid promotion. Ads UIs change — focus on the meaning of settings, not old button screenshots.",
   ],
   legalNotice: {
-    title: "Dear readers!",
-    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+    title: "Note",
+    text: "This article is for information only and is not an invitation to use the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
@@ -24,19 +24,19 @@ export const reklamaInstagramEn: BlogPost = {
     },
     {
       q: "How much does Instagram advertising cost?",
-      a: "No fixed “price per click forever”: auction, niche, season, creative. Creator fees depend on reach, format, and engagement rate—2021 benchmarks aren’t a live price list.",
+      a: "No fixed “price per click forever”: auction, niche, season, creative. Creator fees depend on reach, format, and engagement rate — 2021 benchmarks aren’t a live price list.",
     },
     {
       q: "Do mass-liking and mass-following still work?",
       a: "As a growth strategy — no: you risk limits and a noisy audience. Better: solid content plus legitimate ads.",
     },
     {
-      q: "What counts as success for Instagram ads?",
-      a: "Not likes alone: CTR, leads, cost per lead, sales, dialogue quality. Set UTM/promo codes in advance.",
+      q: "What counts as success?",
+      a: "Not likes alone: CTR, leads, cost per lead, sales, dialogue quality. Set UTM or promo codes in advance.",
     },
     {
       q: "Do I need a business account?",
-      a: "For the ads manager and proper insights — yes, professional/business mode is usually required.",
+      a: "For the ads manager and proper insights — yes, professional or business mode is usually required.",
     },
   ],
   sections: [
@@ -50,9 +50,9 @@ export const reklamaInstagramEn: BlogPost = {
         {
           intro: "Quick overview:",
           items: [
-            "targeting — feed/Stories/Reels impressions by segment, bid and budget in the ads manager;",
-            "creator — post, Stories, Reels, series; strength is the recommendation;",
-            "communities / seeding — often cheaper, but ad attention drops if the feed feels like a classifieds board.",
+            "targeting — feed/Stories/Reels impressions by segment, bid and budget in the ads manager",
+            "creator — post, Stories, Reels, series; strength is the recommendation",
+            "communities / paid placements — often cheaper, but ad attention drops if the feed feels like a classifieds board",
           ],
         },
       ],
@@ -78,18 +78,19 @@ export const reklamaInstagramEn: BlogPost = {
         {
           intro: "What affects the fee:",
           items: [
-            "audience size and quality;",
-            "geo and season;",
-            "format and rights to the asset;",
-            "urgency and revision count;",
-            "fake engagement in the profile — better not to buy it at all.",
+            "audience size and quality",
+            "geo and season",
+            "format and rights to the asset",
+            "urgency and revision count",
+            "fake engagement in the profile — better not to buy it at all",
           ],
         },
       ],
       notes: [
         {
           title: "Practice",
-          text: "Compare cost per desired action (lead/sale), not “cheap reach”. Cheap bots cost more in the end.",
+          kind: "tip",
+          text: "Compare cost per desired action (lead or sale), not “cheap reach.” Cheap bots cost more in the end.",
         },
       ],
     },
@@ -103,17 +104,17 @@ export const reklamaInstagramEn: BlogPost = {
         {
           intro: "Watch out for:",
           items: [
-            "mass-liking / mass-following — sanction risk and junk audience;",
-            "DM spam — reports and blocks;",
-            "“follow everyone” contests — a spike of dead followers;",
+            "mass-liking / mass-following — sanction risk and junk audience",
+            "DM spam — reports and blocks",
+            "“follow everyone” contests — a spike of dead followers",
           ],
         },
         {
           intro: "What actually works:",
           items: [
-            "barter with a relevant creator (product ↔ integration);",
-            "mutual shoutouts with a nearby audience, without being pushy;",
-            "strong organic + a clear offer in the header.",
+            "barter with a relevant creator (product ↔ integration)",
+            "mutual shoutouts with a nearby audience, without being pushy",
+            "strong organic + a clear offer in the header",
           ],
         },
       ],
@@ -131,7 +132,6 @@ export const reklamaInstagramEn: BlogPost = {
         "Mobile traffic, visual format, flexible segmentation in the ads manager, audience habit with native integrations — if the profile is live and the offer is clear.",
         "Downside: rising competition for attention and cost in hot niches. Without a landing (site, messenger, form) budget burns on vanity views.",
       ],
-      lists: [],
     },
     {
       title: "How to track effectiveness",
@@ -143,17 +143,18 @@ export const reklamaInstagramEn: BlogPost = {
         {
           intro: "Minimum control:",
           items: [
-            "UTMs on links / separate promo codes per creator;",
-            "ads manager stats: CTR, CPC/CPA, frequency;",
-            "with a creator — reach, saves, replies, clicks, screenshots;",
-            "lead quality (not only lead count);",
-            "compare creatives and creators on the same offer.",
+            "UTMs on links / separate promo codes per creator",
+            "ads manager stats: CTR, CPC/CPA, frequency",
+            "with a creator — reach, saves, replies, clicks, screenshots",
+            "lead quality (not only lead count)",
+            "compare creatives and creators on the same offer",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
+          kind: "tip",
           text: "Judging a creator only by follower count. Look at dynamics, comments, and audience fit — see the checklist in the article on finding a creator.",
         },
       ],

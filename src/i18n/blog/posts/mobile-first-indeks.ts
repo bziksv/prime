@@ -8,40 +8,40 @@ export const mobileFirstIndeksEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/mobile-first-indeks/cover-en.webp",
   excerpt:
-    "What Google’s Mobile-First Index means: why the bot leans on the mobile document, why a cut-down m-site hurts, and how to check content parity — without 2018 “transition” panic.",
+    "What Google’s Mobile-First Index means: why the bot leans on the mobile document, why a stripped m-site hurts, and how to check content parity — without 2018 “transition” panic.",
   lead: [
-    "Mobile-First Index is Google’s indexing model where the main reference for understanding a page is the mobile document (what Googlebot Smartphone sees), not the “full” desktop layout.",
-    "The shift was announced in 2016–2018; for most sites mobile-first has long been normal. What changed in practice, what to do with responsive vs separate URLs, and how not to confuse indexing with rankings.",
+    "Mobile-First Index is Google’s indexing model where the main reference for understanding a page is the mobile document — what Googlebot Smartphone sees — not the “full” desktop layout.",
+    "The shift was announced in 2016–2018; for most sites mobile-first has long been normal. Below: what changed in practice, what to do with responsive vs separate URLs, and what to verify. Mobile SERPs and UX live in the mobile-search article; here the focus is indexing.",
   ],
   faq: [
     {
-      q: "Is the desktop version no longer indexed at all?",
-      a: "URLs are indexed, but Google builds signals and snippets primarily from the mobile document version. A cut-down mobile harms visibility.",
+      q: "Is desktop no longer indexed?",
+      a: "URLs still get indexed, but Google builds signals and snippets mainly from the mobile document. A stripped mobile version hurts visibility.",
     },
     {
-      q: "Do I still need a separate mobile site?",
-      a: "No. Prefer responsive on one URL. Separate m. is legacy with mismatch risks.",
+      q: "Do I need a separate mobile site?",
+      a: "No. Prefer responsive on one URL. A separate m. subdomain is legacy with mismatch risks.",
     },
     {
-      q: "Is Mobile-First Index the same as Mobile-Friendly?",
+      q: "Is this the same as Mobile-Friendly?",
       a: "No. Friendly is usability. Mobile-first is which document the bot treats as primary for the index.",
     },
     {
-      q: "Does Yandex use a mobile-first index too?",
-      a: "Yandex has its own formula with strong mobile weight. Broken smartphone UX is risky in both search engines.",
+      q: "Does Yandex use mobile-first too?",
+      a: "Yandex has its own formula with strong mobile weight. Broken smartphone UX is risky in both engines.",
     },
     {
-      q: "When should I expect growth after mobile fixes?",
-      a: "UX and conversion can improve quickly. Competitive-core rankings are planned for 2–6 months after systematic work starts — not “TOP next week.”",
+      q: "When should rankings move after mobile fixes?",
+      a: "UX and conversion can improve quickly. Competitive-core rankings are planned over 2–6 months of work — not “page one next week.”",
     },
   ],
   sections: [
     {
-      title: "Why Google moved to mobile-first",
+      title: "Why Google went mobile-first",
       level: 2,
       paras: [
         "Smartphone search share passed desktop by the mid-2010s. Ranking a “pretty PC site” made little sense if users opened a cut mobile copy without text, markup, and CTAs.",
-        "Index idea: evaluate what is actually available from a phone. StatCounter 2016 figures from old posts are historical backdrop, not your current report.",
+        "Index idea: score what is actually available from a phone. StatCounter 2016 figures from old posts are historical backdrop — not your current report.",
       ],
       links: [
         {
@@ -51,11 +51,11 @@ export const mobileFirstIndeksEn: BlogPost = {
       ],
     },
     {
-      title: "What changes for the site",
+      title: "What changes for your site",
       level: 2,
       paras: [
-        "With one responsive URL it is usually enough that the mobile view delivers the same meaning: text, links, images, structured data. The bot crawls with a smartphone user-agent more often — that is normal.",
-        "With separate URLs (m. / dynamic serving) parity is critical: content, title/description in meaning, markup with correct version URLs, crawl access. If mobile is a “short storefront” and desktop has the full catalog, the index loses what isn’t on the phone.",
+        "With one responsive URL it’s usually enough that the mobile view delivers the same meaning: text, links, images, structured data. The bot crawls with a smartphone user-agent more often — that is normal.",
+        "With separate URLs (m. / dynamic serving) parity is critical: content, title/description in meaning, markup with correct version URLs, crawl access. If mobile is a short storefront and desktop holds the full catalog, the index loses what isn’t on the phone.",
       ],
       tables: [
         {
@@ -75,15 +75,15 @@ export const mobileFirstIndeksEn: BlogPost = {
             [
               "Desktop only",
               "High",
-              "Build a proper mobile experience before scaling SEO",
+              "Build proper mobile before scaling SEO",
             ],
           ],
         },
       ],
       notes: [
         {
-          title: "Half-finished mobile beats “no separate version” myths",
-          text: "One responsive template is better than a half-empty m-site the bot may treat as the primary document.",
+          title: "A half-empty m-site is worse than no “separate version”",
+          text: "One responsive template beats a half-empty m-site the bot may treat as the primary document.",
           kind: "tip",
         },
       ],
@@ -93,17 +93,17 @@ export const mobileFirstIndeksEn: BlogPost = {
       level: 2,
       paras: [
         "Texts and key blocks on mobile should match desktop in meaning — not pixel-perfect, but without cutting the offer, specs, and FAQ “to fit.”",
-        "Structured data — on the version you serve the bot; URLs in markup — to the matching pages. Title and description — comparable in meaning on both versions if they are split.",
+        "Structured data goes on the version you serve the bot; URLs in markup point to the matching pages. Title and description stay comparable in meaning when versions are split.",
       ],
       lists: [
         {
           intro: "Quick parity check:",
           items: [
             "main text and H1 on smartphone",
-            "internal links not only in a desktop menu",
+            "internal links not buried in a desktop-only menu",
             "images with meaningful alt",
             "JSON-LD / microdata not desktop-only",
-            "forms and phone numbers tappable.",
+            "forms and phone numbers tappable",
           ],
         },
       ],
@@ -119,11 +119,11 @@ export const mobileFirstIndeksEn: BlogPost = {
       ],
     },
     {
-      title: "How to check in Search Console and on device",
+      title: "How to check in Search Console and on a device",
       level: 2,
       paras: [
-        "In Google Search Console watch indexing reports, URL Inspection (which Googlebot and what’s rendered), mobile usability / page experience — tab names change; the point: does the bot see the full document from a phone.",
-        "Also: emulation and real smartphones, Googlebot Smartphone user-agent logs, speed (Core Web Vitals). 2018 emails “site moved to mobile-first” are transition-era archive; today assume mobile is the baseline.",
+        "In Google Search Console watch indexing reports, URL Inspection (which Googlebot and what’s rendered), mobile usability / page experience — tab names change; the point is whether the bot sees the full document from a phone.",
+        "Also: emulation and real smartphones, Googlebot Smartphone logs, speed (Core Web Vitals). 2018 emails saying “site moved to mobile-first” are transition-era archive; today assume mobile is the baseline.",
       ],
       links: [
         {
@@ -140,21 +140,21 @@ export const mobileFirstIndeksEn: BlogPost = {
       title: "Common fears",
       level: 2,
       paras: [
-        "“Desktop content will disappear” — no, if it also exists on mobile. “Must rush an m. site” — no, finish adaptive instead. “Hamburgers and accordions banned” — no; what hurts is hidden important content, heavy popups, and broken layout.",
+        "“Desktop content will disappear” — not if it also exists on mobile. “Must rush an m. site” — no, finish adaptive instead. “Hamburgers and accordions banned” — no; what hurts is hidden important content, heavy popups, and broken layout.",
         "Ads and blocks covering first-screen text hurt UX and can hurt page evaluation — that’s usability, not a “menu ban.”",
       ],
     },
     {
-      title: "Takeaways",
+      title: "What to remember",
       level: 2,
       paras: [
-        "Mobile-first means: the mobile document is primary for Google. Keep meaning parity and solid smartphone UX.",
+        "Mobile-first means the mobile document is primary for Google. Keep meaning parity and solid smartphone UX.",
         "Don’t build strategy on 2018 news about a “multi-year transition” — check the site now and strengthen what phone users see.",
       ],
     },
   ],
   closing: [
-    "Open key URLs in smartphone emulation and Search Console inspection: if meaning, links, and markup are there — you’re in mobile-first logic; if mobile is “lightened” — align content first, then expect ranking gains.",
+    "Open key URLs in smartphone emulation and Search Console inspection: if meaning, links, and markup are there — you’re in mobile-first logic; if mobile is “lightened,” align content first, then work the rankings over months.",
   ],
   related: [
     "mobilnyy-poisk",

@@ -10,24 +10,24 @@ export const kartaSaytaEn: BlogPost = {
   excerpt:
     "How an XML sitemap differs from an HTML map, how to create and submit the file to search engines, which URLs to include, and which mistakes hurt indexing.",
   lead: [
-    "A sitemap helps search engines learn about important URLs faster. Most often that means `sitemap.xml` for bots; an HTML map is an orientation aid for people. It’s not a “TOP button” — crawl hygiene next to solid structure and internal links.",
-    "XML and HTML maps serve different jobs; build XML carefully, submit it to Google and other webmaster tools, and avoid junk URLs. Treat this as the canonical take on sitemaps among related posts.",
+    "A sitemap helps search engines learn about important URLs faster. Most often that means `sitemap.xml` for bots; an HTML map is an orientation aid for people. It’s not a ranking switch — crawl hygiene next to solid structure and internal links.",
+    "Below: the difference between formats, how to build XML, how to tell Yandex and Google, and what to avoid. Treat this as the main take on sitemaps among related posts.",
   ],
   faq: [
     {
       q: "Are XML and HTML sitemaps the same?",
-      a: "No. XML is for bots (a URL list). HTML is a page of links for people. For SEO a correct XML + internal linking matters more.",
+      a: "No. XML is for bots (a URL list). HTML is a page of links for people. For SEO a correct XML plus internal linking matters more.",
     },
     {
       q: "Is a sitemap required?",
       a: "Not the only way to discover URLs, but on mid-size and large sites it greatly helps crawling new and deep pages.",
     },
     {
-      q: "Where should I put the sitemap file?",
+      q: "Where should I put the file?",
       a: "Usually `/sitemap.xml` at the root or a sitemap index `/sitemap_index.xml`. Point to it in robots.txt and Search Console / webmaster panels.",
     },
     {
-      q: "Do you need priority and changefreq attributes?",
+      q: "Do I need priority and changefreq?",
       a: "Engines have long relied on them weakly. What matters more is an up-to-date list of canonical URLs without junk.",
     },
     {
@@ -35,7 +35,7 @@ export const kartaSaytaEn: BlogPost = {
       a: "Utility pages, cart, filter duplicates, noindex pages, test URLs, redirect chains — only final 200 canonicals.",
     },
     {
-      q: "How to update?",
+      q: "How do I update it?",
       a: "CMS/plugin auto-generation or a script when URLs appear. After large sections — resubmit in the panels.",
     },
     {
@@ -49,7 +49,7 @@ export const kartaSaytaEn: BlogPost = {
   ],
   sections: [
     {
-      title: "XML and HTML: two different “maps”",
+      title: "XML and HTML: two different maps",
       level: 2,
       paras: [
         "An XML sitemap is a machine-readable URL list (often with lastmod). The bot uses it as a hint of what to crawl. An HTML map is a normal page linking sections; useful for people and as extra internal links, but it doesn’t replace XML on a large site.",
@@ -59,9 +59,9 @@ export const kartaSaytaEn: BlogPost = {
         {
           intro: "Who needs what:",
           items: [
-            "XML — index and crawl;",
-            "HTML — human orientation;",
-            "neither fixes duplicates or thin content.",
+            "XML — index and crawl",
+            "HTML — human orientation",
+            "neither fixes duplicates or thin content",
           ],
         },
       ],
@@ -76,17 +76,17 @@ export const kartaSaytaEn: BlogPost = {
       title: "Why you need sitemap.xml",
       level: 2,
       paras: [
-        "New sections, deep nesting, weak internal linking — the bot may take long to reach a URL. A sitemap speeds discovery. On a 5-page brochure site the effect is smaller than on a catalog of thousands.",
+        "New sections, deep nesting, weak internal linking — the bot may take long to reach a URL. A sitemap speeds discovery. On a five-page brochure site the effect is smaller than on a catalog of thousands.",
         "A sitemap doesn’t guarantee indexing: robots-blocked, noindex, soft 404s, and duplicates still get filtered.",
       ],
       lists: [
         {
           intro: "Especially useful if:",
           items: [
-            "many landings and product cards;",
-            "you publish new URLs often;",
-            "media/docs live on separate URLs;",
-            "some pages are weakly linked from the menu.",
+            "many landings and product cards",
+            "you publish new URLs often",
+            "media/docs live on separate URLs",
+            "some pages are weakly linked from the menu",
           ],
         },
       ],
@@ -102,11 +102,11 @@ export const kartaSaytaEn: BlogPost = {
         {
           intro: "Mini requirements for URLs in the map:",
           items: [
-            "canonical (one www/https variant);",
-            "200 response;",
-            "allowed for indexing;",
-            "no sessions or utm;",
-            "current, not deleted.",
+            "canonical (one www/https variant)",
+            "200 response",
+            "allowed for indexing",
+            "no sessions or UTM",
+            "current, not deleted",
           ],
         },
       ],
@@ -128,23 +128,23 @@ export const kartaSaytaEn: BlogPost = {
       title: "How to tell search engines",
       level: 2,
       paras: [
-        "In `robots.txt`: a `Sitemap: https://example.com/sitemap.xml` line. Plus add the file in Google Search Console and other webmaster tools. After a domain/HTTPS change, update the paths.",
-        "Recrawl isn’t instant: a sitemap is a queue, not a command to “index everything tomorrow”.",
+        "In `robots.txt`: a `Sitemap: https://example.com/sitemap.xml` line. Plus add the file in Yandex Webmaster and Google Search Console. After a domain/HTTPS change, update the paths.",
+        "Recrawl isn’t instant: a sitemap is a queue, not a command to “index everything tomorrow.”",
       ],
       lists: [
         {
           intro: "After publishing:",
           items: [
-            "open the sitemap in a browser — valid XML;",
-            "check error reports in the panels;",
-            "reconcile URL count with expectations;",
-            "remove from the map what you closed from the index.",
+            "open the sitemap in a browser — valid XML",
+            "check error reports in the panels",
+            "reconcile URL count with expectations",
+            "remove from the map what you closed from the index",
           ],
         },
       ],
       links: [
         {
-          label: "Closing from indexing",
+          label: "Closing pages from the index",
           href: "/en/blog/zakrytie-ot-indeksatsii/",
         },
       ],
@@ -160,9 +160,9 @@ export const kartaSaytaEn: BlogPost = {
         {
           intro: "Practice:",
           items: [
-            "a “Sitemap” link in the footer;",
-            "grouping by section;",
-            "only important public URLs.",
+            "a “Sitemap” link in the footer",
+            "grouping by section",
+            "only important public URLs",
           ],
         },
       ],
@@ -178,16 +178,16 @@ export const kartaSaytaEn: BlogPost = {
       level: 2,
       paras: [
         "Broken XML, http on an https site, redirects inside the map, a stale file after migration, mixing indexable and closed URLs, one giant file without an index.",
-        "Quarterly reconcile: crawler vs sitemap vs “pages in search”. A gap is a reason to clean the generator.",
+        "Quarterly reconcile: crawler vs sitemap vs pages in search. A gap is a reason to clean the generator.",
       ],
       lists: [
         {
           intro: "Control:",
           items: [
-            "sitemap errors in Search Console / webmaster tools;",
-            "share of 404/301 among map URLs;",
-            "last file update time;",
-            "no test subdomain on production.",
+            "sitemap errors in Search Console / webmaster tools",
+            "share of 404/301 among map URLs",
+            "last file update time",
+            "no test subdomain on production",
           ],
         },
       ],

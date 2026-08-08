@@ -11,7 +11,7 @@ export const viralnyyKontentEn: BlogPost = {
     "What viral content is, how it relates to viral marketing, which signals raise share odds, and why you can’t guarantee a “hit.”",
   lead: [
     "Viral content spreads through the audience: shares, forwards, mentions. It’s not a file format — it’s reach beyond your direct followers.",
-    "You can’t guarantee a viral hit; you can improve the odds with useful content in easy-to-share packaging, clear share motives, and a plan for when something takes off.",
+    "Below: signals, share motives, how to prep a piece, and what to do with the result. You can’t guarantee a viral hit; you can raise the odds with useful content that’s easy to forward.",
   ],
   faq: [
     {
@@ -59,10 +59,10 @@ export const viralnyyKontentEn: BlogPost = {
         {
           intro: "Common patterns:",
           items: [
-            "strong emotion plus a clear idea;",
-            "a useful checklist or tip;",
-            "a before/after story;",
-            "a recognizable niche conflict or insight.",
+            "strong emotion plus a clear idea",
+            "a useful checklist or tip",
+            "a before/after story",
+            "a recognizable niche conflict or insight",
           ],
         },
       ],
@@ -84,10 +84,10 @@ export const viralnyyKontentEn: BlogPost = {
         {
           intro: "Amplifiers:",
           items: [
-            "a hook in the first seconds;",
-            "an easy format to forward;",
-            "brand presence that doesn’t drown the point;",
-            "timing and platform fit for the audience.",
+            "a hook in the first seconds",
+            "an easy format to forward",
+            "brand presence that doesn’t drown the point",
+            "timing and platform fit for the audience",
           ],
         },
       ],
@@ -103,10 +103,10 @@ export const viralnyyKontentEn: BlogPost = {
         {
           intro: "Before publishing:",
           items: [
-            "what someone gets if they forward it;",
-            "is the idea clear without the brand name;",
-            "does it work on a phone without sound;",
-            "is there an honest next step.",
+            "what someone gets if they forward it",
+            "is the idea clear without the brand name",
+            "does it work on a phone without sound",
+            "is there an honest next step",
           ],
         },
       ],
@@ -122,10 +122,10 @@ export const viralnyyKontentEn: BlogPost = {
         {
           intro: "Common mistakes:",
           items: [
-            "copying someone else’s viral hit one-to-one;",
-            "buying shares;",
-            "expecting a viral hit from every post;",
-            "no landing page when the goal is leads.",
+            "copying someone else’s viral hit one-to-one",
+            "buying shares",
+            "expecting a viral hit from every post",
+            "no landing page when the goal is leads",
           ],
         },
       ],
@@ -147,10 +147,10 @@ export const viralnyyKontentEn: BlogPost = {
         {
           intro: "Minimum after sharing:",
           items: [
-            "UTM tags on links;",
-            "landing page loads on mobile;",
-            "offer matches the content promise;",
-            "the team can handle a message spike.",
+            "UTM tags on links",
+            "landing page loads on mobile",
+            "offer matches the content promise",
+            "the team can handle a message spike",
           ],
         },
       ],
@@ -172,10 +172,10 @@ export const viralnyyKontentEn: BlogPost = {
         {
           intro: "After publishing:",
           items: [
-            "who started sharing first;",
-            "which comments reveal the motive;",
-            "which source brought quality visits;",
-            "how reach affected follows and inquiries.",
+            "who started sharing first",
+            "which comments reveal the motive",
+            "which source brought quality visits",
+            "how reach affected follows and inquiries",
           ],
         },
       ],
@@ -203,10 +203,10 @@ export const viralnyyKontentEn: BlogPost = {
         {
           intro: "Don’t:",
           items: [
-            "buy a “share pack”;",
-            "steal others’ clips;",
-            "promise a client a viral hit in the KPI;",
-            "ignore a wave of complaints.",
+            "buy a “share pack”",
+            "steal others’ clips",
+            "promise a client a viral hit in the KPI",
+            "ignore a wave of complaints",
           ],
         },
       ],
@@ -214,7 +214,7 @@ export const viralnyyKontentEn: BlogPost = {
         {
           title: "System beats hype",
           kind: "tip",
-          text: "Virality is a bonus to a content plan — not a strategy instead of regular useful pieces and a solid site. Site prep and organic top rankings for core keywords still run on a weeks-to-months timeline (top positions typically 2–6 months of work).",
+          text: "Virality is a bonus to a content plan — not a strategy instead of regular useful pieces and a solid site.",
         },
       ],
     },

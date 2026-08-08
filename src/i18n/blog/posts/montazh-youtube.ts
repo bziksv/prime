@@ -8,30 +8,30 @@ export const montazhYoutubeEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/montazh-youtube/cover-en.webp",
   excerpt:
-    "YouTube editing is less about flashy transitions and more about rhythm, clean audio, and delivering on the thumbnail. Here’s a simple pipeline and how to choose an editor by skill — not by a dated “best apps” list.",
+    "How to edit videos for YouTube: the job of editing, a basic pipeline, editor classes (beginner / pro / mobile / online), and what matters more than software — rhythm, audio, and matching the thumbnail.",
   lead: [
     "Editing for YouTube isn’t “add 20 transitions.” It’s building a watchable video: cut dead air, set the order, clean audio and color, add titles and a clear CTA.",
-    "You need a working pipeline and an editor that matches your skill level — not a roundup of fifteen outdated names. “What creator X used in 2019” lists age fast; finish real uploads instead.",
+    "Below: a working pipeline and how to choose an editor by level — not by a list of fifteen outdated names. Roundups of “what creator X used in 2020” age fast; tool classes and skills don’t.",
   ],
   faq: [
     {
-      q: "Which video editor is best for YouTube?",
+      q: "Which program is “best”?",
       a: "The one where you consistently finish channel tasks. Beginners often do fine with CapCut, DaVinci Resolve Free, or iMovie; pros usually land on Premiere, Final Cut, or Resolve Studio.",
     },
     {
-      q: "Do I need expensive software to start?",
-      a: "Not at the start. Cleaner audio, a clear hook in the first seconds, and no dead pauses matter more than a paid license.",
+      q: "Do I need expensive software?",
+      a: "Not at the start. Cleaner audio, a clear hook in the first seconds, and no dead pauses matter more.",
     },
     {
-      q: "Are browser-based editors okay for YouTube work?",
+      q: "Are online editors okay?",
       a: "For simple cuts — yes. For long projects and confidential footage, local software is usually better: speed and file control.",
     },
     {
-      q: "Do I need heavy effects and transitions?",
+      q: "Do I need heavy effects?",
       a: "Rarely. Viewers leave from boredom and bad audio more often than from “missing a 3D title.”",
     },
     {
-      q: "What export settings should I use for YouTube?",
+      q: "What should I export for YouTube?",
       a: "Usually H.264/H.265, 1080p or higher from the source, and a sensible bitrate. Check YouTube’s help for current recommendations — they update.",
     },
   ],
@@ -42,7 +42,7 @@ export const montazhYoutubeEn: BlogPost = {
       paras: [
         "The goal is a video that matches the thumbnail promise and watches well on a phone. Editing cuts fluff, strengthens the story, levels volume, and helps orientation (timestamps, on-screen text accents).",
         "Pipeline: pick takes → rough cut by script → clean pauses and filler words → audio (noise, licensed music) → color/exposure → graphics and captions → export → check on a phone before upload.",
-        "Copyright on music and other people’s clips is mandatory. Stock libraries and YouTube Audio Library / your own tracks are safer than “downloaded from search.”",
+        "Copyright on music and other people’s clips is mandatory. Licensed music libraries and YouTube Audio Library / your own tracks are safer than “downloaded from search.”",
         "Package the channel side in parallel — title, description, keywords, and thumbnail. The edit has to deliver on the click promise, or high CTR turns into unsubscribes.",
       ],
       lists: [
@@ -53,7 +53,7 @@ export const montazhYoutubeEn: BlogPost = {
             "no long silences and filler “ums”",
             "voice audible without hiss",
             "on-screen text readable on a smartphone",
-            "an ending with a clear next step.",
+            "an ending with a clear next step",
           ],
         },
       ],

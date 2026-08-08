@@ -11,7 +11,7 @@ export const naytiMarketologaEn: BlogPost = {
     "Where to look for a digital marketer: agency or hiring in-house, pros and cons, which skills to check, and how to agree on KPIs — without the “10,000 hours” myth.",
   lead: [
     "You need a marketer not for show, but to link channels to sales: traffic, offer, analytics, experiments. Without a clear brief any candidate or agency will work into the void.",
-    "Decide the format first — agency, in-house, freelance, or hybrid — then screen for cases, ownership, and reporting. Money and KPIs come after the job is clear, not before.",
+    "Below: where to look, how an agency differs from in-house/freelance, what to check in interviews, and how to talk about money and KPIs. What a digital agency covers is in a separate piece.",
   ],
   faq: [
     {
@@ -68,7 +68,7 @@ export const naytiMarketologaEn: BlogPost = {
             "basics in the needed channel (paid search, SEO, SMM — by task)",
             "cases with role and numbers",
             "understanding of the market and limits",
-            "readiness to work with analytics and reporting.",
+            "readiness to work with analytics and reporting",
           ],
         },
       ],
@@ -78,13 +78,13 @@ export const naytiMarketologaEn: BlogPost = {
       level: 2,
       paras: [
         "Rate grows with level and ownership area. First lock tasks and expected effect — then find people for that vector. In the budget put not only salary/retainer, but media spend and narrow vendors (design, build, call tracking).",
-        "A good marketer often pulls a network of specialists. Agree in advance: whose contacts, who pays, who approves estimates. KPIs (bonus on top of base) usually motivate better than pay “for any lead” without quality.",
+        "A good marketer often brings a network of specialists. Agree in advance: whose contacts, who pays, who approves estimates. KPIs (bonus added to base pay) usually motivate better than pay “for any lead” without quality.",
       ],
       notes: [
         {
           title: "Budget for experiments",
-          text: "A marketer spends company money. Give a frame and the right to test — with a ceiling and stop-rules, not “unlimited cash freedom.”",
           kind: "tip",
+          text: "A marketer spends company money. Give a frame and the right to test — with a ceiling and stop-rules, not “unlimited cash freedom.”",
         },
       ],
       links: [

@@ -5,13 +5,13 @@ export const otzyvyDlyaProdazhEn: BlogPost = {
   slug: "otzyvy-dlya-prodazh",
   title: "How many reviews a company needs to sell with more confidence",
   date: "2019-09-26",
-  category: "Digital marketing",
+  category: "SEO",
   cover: "/images/blog/otzyvy-dlya-prodazh/cover-en.webp",
   excerpt:
     "The trust threshold for reviews, how they tie into local search and maps, how to ask for reviews and handle negatives — without fake ratings or bought five-stars.",
   lead: [
     "Before choosing a clinic, cafe, or service, people read reviews on maps, directories, and the site. An empty profile at a fair price and convenient address often loses to a competitor with a track record of real reviews.",
-    "Industry research gives trust thresholds, not a ranking formula. Replies, platform diversity, and legal collection matter more than buying volume; map and aggregator rules change.",
+    "Below: quantity guides from industry research, why replies and platform diversity matter, and how to run reviews legally. The numbers are a trust threshold, not a ranking formula — map and aggregator rules change.",
   ],
   faq: [
     {
@@ -20,14 +20,14 @@ export const otzyvyDlyaProdazhEn: BlogPost = {
     },
     {
       q: "Does quantity or rating matter more?",
-      a: "Both. A strong rating with 3 reviews is weaker than 4.6 with a hundred. But “all 5.0” with zero criticism also looks suspicious.",
+      a: "Both. A strong rating with three reviews is weaker than 4.6 with a hundred. But “all 5.0” with zero criticism also looks suspicious.",
     },
     {
       q: "Can you buy reviews?",
       a: "No. It breaks platform rules, risks sanctions, and kills trust. Ask real clients and reply to negatives.",
     },
     {
-      q: "Should you focus on site reviews or maps?",
+      q: "Site reviews or maps?",
       a: "Maps and aggregators influence local choice more. The site is for people who already arrived and check details. Run both tracks.",
     },
     {
@@ -36,7 +36,7 @@ export const otzyvyDlyaProdazhEn: BlogPost = {
     },
     {
       q: "Do reviews help regular site SEO?",
-      a: "They don’t replace commercial rankings directly. Indirectly they help awareness, links from profiles and directories, trust, and conversion. Site prep and ranking buildup are separate horizons — prep is roughly a month; TOP is planned over 2–6 months after work starts.",
+      a: "They don’t replace commercial rankings directly. Indirectly they help awareness, links from profiles and directories, trust, and conversion. Site prep and ranking buildup are separate horizons.",
     },
     {
       q: "How should you reply to a negative review?",
@@ -78,7 +78,7 @@ export const otzyvyDlyaProdazhEn: BlogPost = {
       level: 2,
       paras: [
         "Industry studies (including BrightLocal local-search reviews) have shown for years: users trust a business more after dozens of reviews than after two or three. An often-cited guide is about 40 reviews as a noticeable-trust threshold — not a law of nature, an averaged picture across samples.",
-        "For entering and holding the maps local pack, the same reviews cite average dozens of reviews on visible profiles; the gap between “in the SERP” and “in the top three” can be small by count but critical by clicks. Figures shift by year and country — check fresh reports and competitors near you.",
+        "For entering and holding the maps local pack, the same reviews cite average dozens of reviews on visible profiles. The gap between “showing up” and “among the first three map results” can be small by count but critical by clicks. Figures shift by year and country — check fresh reports and competitors near you.",
       ],
       lists: [
         {
@@ -115,7 +115,7 @@ export const otzyvyDlyaProdazhEn: BlogPost = {
       title: "Rating, local pack, and clicks",
       level: 2,
       paras: [
-        "In local search, people often click the map block harder than the organic “tail.” The average-rating gap between places 1–3 and 8–10 may be tenths of a point, but clicks and calls go to the top of the pack.",
+        "In local search, people often click the map block harder than the organic “tail.” The average-rating gap between places 1–3 and 8–10 may be tenths of a point, but clicks and calls go to the head of the local pack.",
         "Research links rating growth to local-business revenue — effect size depends on the niche. For you what matters more: fix systemic causes of one-stars (service, timelines, communication), not argue in comments.",
       ],
       lists: [
@@ -134,8 +134,8 @@ export const otzyvyDlyaProdazhEn: BlogPost = {
       title: "How to build a review workflow",
       level: 2,
       paras: [
-        "First claim and verify profiles on Yandex Maps / Google Business Profile (and 2GIS if relevant): one profile per branch. Then make it easy to leave a review on the site (block by service/product or a dedicated page) and set up mention monitoring.",
-        "Ask after a successful outcome: SMS/email with a map link, a QR in the venue, a soft ask from the account manager. Incentives — only if the platform allows them and they don’t buy the rating.",
+        "First claim and verify profiles on Yandex Maps / Google Business Profile (and 2GIS if relevant): one profile per branch. Then make it easy to leave a review on the site (block by service or product, or a dedicated page) and set up mention monitoring.",
+        "Ask after a successful outcome: SMS or email with a map link, a QR in the venue, a soft ask from the account manager. Incentives — only if the platform allows them and they don’t buy the rating.",
       ],
       lists: [
         {
@@ -161,7 +161,7 @@ export const otzyvyDlyaProdazhEn: BlogPost = {
       level: 2,
       paras: [
         "A feed of only five-stars with zero complaints lowers trust: it looks faked. An honest mix and visible work on complaints look stronger.",
-        "On social, reviews often feel more “live.” A company rep joining the dialogue raises loyalty — without aggression or deleting inconvenient facts (unless it’s spam/abuse under platform rules).",
+        "On social, reviews often feel more live. A company rep joining the dialogue raises loyalty — without aggression or deleting inconvenient facts (unless it’s spam or abuse under platform rules).",
       ],
       lists: [
         {
@@ -179,7 +179,7 @@ export const otzyvyDlyaProdazhEn: BlogPost = {
         {
           title: "SEO timelines",
           kind: "tip",
-          text: "Reviews speed choice on maps. Site prep for promotion takes about a month; core TOP buildup is planned over 2–6 months after work starts — a separate track.",
+          text: "Reviews speed choice on maps. Site prep for promotion takes about a month. Page-one visibility for the keyword set is planned for 2–6 months after work starts — a separate track.",
         },
       ],
     },
@@ -187,7 +187,7 @@ export const otzyvyDlyaProdazhEn: BlogPost = {
       title: "Platforms, links, and what not to do",
       level: 2,
       paras: [
-        "Review sites and directories sometimes rank for “reviews + brand/service” — extra traffic to the profile. Correct profiles give consistent NAP and sometimes a site link; that’s no reason to spam directories for link building volume.",
+        "Review sites and directories sometimes rank for “reviews + brand/service” — extra traffic to the profile. Correct profiles give consistent NAP and sometimes a site link; that’s no reason to spam directories for link volume.",
         "Don’t buy “100 reviews” packs, don’t keyword-stuff the business name, don’t clone branches. Focus on real clients, replies, and service.",
       ],
       lists: [
@@ -197,7 +197,7 @@ export const otzyvyDlyaProdazhEn: BlogPost = {
             "identical template texts from “different” people",
             "a review spike in a day with no promo or event",
             "banning negatives in promo rules",
-            "agencies that promise “maps pack in a week via reviews”",
+            "agencies that promise “map pack in a week via reviews”",
           ],
         },
       ],

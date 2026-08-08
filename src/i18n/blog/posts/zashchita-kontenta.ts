@@ -8,10 +8,10 @@ export const zashchitaKontentaEn: BlogPost = {
   category: "Content marketing",
   cover: "/images/blog/zashchita-kontenta/cover-en.webp",
   excerpt:
-    "Text plagiarism: why it hurts, how to monitor copies, what to do after theft, and why disabling right-click barely helps — without cultish outdated ranking-score myths.",
+    "Text plagiarism: why it hurts, how to monitor copies, what to do after theft, and why disabling right-click barely helps — without cultish outdated link-score myths.",
   lead: [
-    "Anything you publish on the open web can be copied. You can’t stop that entirely, but you can prove authorship faster, spot copies sooner, and respond through platform rules and legal channels.",
-    "Why plagiarism hurts, what actually works, and what to do when someone steals your copy. Mass bot scraping is a separate topic — as are uniqueness checks when you hire writers.",
+    "Unique text on the open web can always be copied. You can’t lock that off completely, but you can prove authorship faster, spot mirrors sooner, and act under platform rules and the law.",
+    "Below: plagiarism risks, measures that work, and steps after theft. Protection from scraper bots is a separate topic; uniqueness checks when you order copy are too.",
   ],
   faq: [
     {
@@ -23,8 +23,8 @@ export const zashchitaKontentaEn: BlogPost = {
       a: "Often yes if the original is stronger on signals. But disputes and duplicates happen — monitor and report copies.",
     },
     {
-      q: "Do I need a duplicate-checker service?",
-      a: "As one monitoring tool — yes. Also search by unique phrases, alerts, and Search Console / webmaster reports.",
+      q: "Do I need Copyscape?",
+      a: "As one monitoring tool — yes. Also search by unique phrases, alerts, and webmaster / Search Console reports.",
     },
     {
       q: "What if my text was copied?",
@@ -44,8 +44,8 @@ export const zashchitaKontentaEn: BlogPost = {
       title: "Why plagiarism hurts",
       level: 2,
       paras: [
-        "Duplicates muddy snippets and brand: readers find your wording on someone else’s domain.",
-        "Young sites with thin link profiles suffer most when a copy ranks on a stronger domain. A well-established original usually keeps priority — but that’s not guaranteed forever.",
+        "Duplicates muddy snippets and brand: readers see your wording somewhere else.",
+        "Young sites with thin link profiles suffer more when a copy sits on a more visible domain. A strong original more often keeps priority — but not “automatically forever.”",
       ],
     },
     {
@@ -62,9 +62,9 @@ export const zashchitaKontentaEn: BlogPost = {
         {
           intro: "Weak “protections”:",
           items: [
-            "only disable right-click / block selection;",
-            "betting on one WP plugin “forever”;",
-            "ignoring copies “until traffic drops.”",
+            "only disable right-click / block selection",
+            "betting on one WP plugin “forever”",
+            "ignoring copies “until traffic drops”",
           ],
         },
       ],
@@ -91,6 +91,7 @@ export const zashchitaKontentaEn: BlogPost = {
         {
           title: "Lawyer",
           text: "Claim wording and notarization depend on jurisdiction. This is informational, not a substitute for advice.",
+          kind: "tip",
         },
       ],
     },

@@ -11,8 +11,12 @@ export const parsingAuditoriiEn: BlogPost = {
     "What marketers mean by audience scraping on social networks, risks of mass profile harvesting, and how to segment legally — via ad accounts, your own list, and research.",
   lead: [
     "“Audience parsing” in marketing jargon means automatically collecting user and community lists by gender, geo, follows, and activity — then using them to target ads or message people in DMs.",
-    "Scraping competitor followers looks convenient and often breaks Terms of Service and privacy rules. Prefer official audiences, consented lists, and a target-audience portrait — covered in the related piece — without “export a competitor’s list” how-tos.",
+    "Below: why the idea looks convenient, where ToS and the law draw the line, and working alternatives without scraper catalogs or “export a competitor’s list” how-tos. Separately: a target-audience portrait without dumping other people’s profiles — in the related piece.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. Mentions of Instagram* and Facebook* are illustrative. Instagram* and Facebook* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the services may have legal consequences.",
+  },
   faq: [
     {
       q: "How is it different from defining a target audience?",
@@ -86,8 +90,8 @@ export const parsingAuditoriiEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Important",
           kind: "tip",
+          title: "Important",
           text: "If a vendor sells a “ready competitor audience as a file” — that’s a red flag, not a faster launch.",
         },
       ],

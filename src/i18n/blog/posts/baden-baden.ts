@@ -8,18 +8,18 @@ export const badenBadenEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/baden-baden/cover-en.webp",
   excerpt:
-    "What the Baden-Baden algorithm did: fighting over-optimized text, how to write useful content, and how “LSI” differs from synonym-stuffing — next to filters and “Turgenev.”",
+    "What the Baden-Baden algorithm did: fighting over-optimized text, how to write useful content, and how “LSI” differs from a synonym cult — next to filters and Turgenev.",
   lead: [
-    "Baden-Baden was a Yandex wave against stuffing and keyword “sheets”: useful text beats density games. Since 2017 that logic lives in content quality — not a “filter day” calendar.",
-    "Yandex’s Baden-Baden line hit over-optimized, thin, and spammy texts. Lower risk with useful, intent-led copy — not keyword sheets. This isn’t a bypass guide and isn’t a ranking promise. Drop diagnosis is in the filters piece; over-optimization checks are in “Turgenev.” Prep isn’t TOP — recovery and growth are planned over months, often 2–6.",
+    "Baden-Baden was a Yandex wave against stuffing and keyword sheets: useful text beats phrase density. Since 2017 that logic lives in content quality — not a “filter day” calendar.",
+    "Below: what got demoted, how to lower risk, and what people usually mean by LSI copywriting. This isn’t a bypass guide and isn’t a ranking promise. Drop diagnosis is in the filters piece; over-optimization checks are in Turgenev.",
   ],
   faq: [
     {
-      q: "Does Baden-Baden still turn on on a fixed schedule?",
+      q: "Does Baden-Baden still turn on on a schedule?",
       a: "The name is historical. Yandex weighs text spam continuously. Don’t wait for an update date as the only lever.",
     },
     {
-      q: "How is Baden-Baden different from Minusinsk?",
+      q: "How is it different from Minusinsk?",
       a: "Minusinsk was tied to link spam. Baden-Baden — to over-optimized text.",
     },
     {
@@ -27,11 +27,11 @@ export const badenBadenEn: BlogPost = {
       a: "No. Turgenev is a third-party risk checker. Search’s decision is broader.",
     },
     {
-      q: "Does LSI copywriting guarantee growth?",
-      a: "No. Synonyms and related terms help cover a topic; treating “LSI keywords” as a stuffing checklist is spam again.",
+      q: "Does LSI guarantee growth?",
+      a: "No. Synonyms and related terms help cover a topic; treating “LSI phrases” as a stuffing checklist is spam again.",
     },
     {
-      q: "Is a keyword stuffing sheet dangerous?",
+      q: "Is a keyword sheet dangerous?",
       a: "Yes as UX and as a low-quality signal. Prefer structure, lists, meaning, and moderate occurrences.",
     },
     {
@@ -39,7 +39,7 @@ export const badenBadenEn: BlogPost = {
       a: "No. Niche terms repeat. Chase readability, not a magic percentage.",
     },
     {
-      q: "What should you do if you suspect a text filter?",
+      q: "What should I do if I suspect a text filter?",
       a: "Remove stuffing, strengthen page value, check Webmaster. Don’t buy “filter removal.”",
     },
   ],
@@ -48,7 +48,7 @@ export const badenBadenEn: BlogPost = {
       title: "Why Baden-Baden existed",
       level: 2,
       paras: [
-        "Yandex increased pressure on sites with repeating keywords, long meaningless text, and weak structure — content “for the bot,” not for people.",
+        "Yandex increased pressure on sites with repeating keywords, long meaningless text, and weak structure — content for the bot, not for people.",
         "The idea is close to Google’s fight with thin/spammy text: meaning and usefulness beat exact match.",
       ],
       links: [
@@ -67,17 +67,17 @@ export const badenBadenEn: BlogPost = {
       level: 2,
       paras: [
         "Write an answer to intent: subheads, paragraphs, lists, tables, and images that earn their place — not a keyword sheet.",
-        "Cut unnatural repeats of commercial keywords. One clear H1 and normal language beat telegraphic spam.",
+        "Cut unnatural repeats of commercial phrases. One clear H1 and normal language beat telegraphic spam.",
         "Check disputed copy with density/risk tools, but edit for the reader — not for a zero score.",
       ],
       lists: [
         {
           intro: "Red flags in text:",
           items: [
-            "the same phrase in every sentence;",
-            "no structure or meaning;",
-            "keywords instead of answers;",
-            "a page for SEO with no offer/value.",
+            "the same phrase in every sentence",
+            "no structure or meaning",
+            "keywords instead of answers",
+            "a page for SEO with no offer/value",
           ],
         },
       ],

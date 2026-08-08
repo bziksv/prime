@@ -5,13 +5,13 @@ export const sredniyChekEn: BlogPost = {
   slug: "sredniy-chek",
   title: "Online store average order value: how to calculate and grow it",
   date: "2019-12-21",
-  category: "E-commerce",
+  category: "Digital marketing",
   cover: "/images/blog/sredniy-chek/cover-en.webp",
   excerpt:
     "What average order value (AOV) is, what its dynamics say, and which levers really raise order size: cross-sell, upsell, bundles, shipping thresholds, and loyalty.",
   lead: [
     "Average order value (AOV) is how much a buyer pays on average per order. Revenue can grow without only new traffic: sometimes it’s smarter to raise cart size among people who already buy.",
-    "We show how to calculate the metric, what to read from the trend, and which tactics work in an online store. There’s no universal “+30% AOV in a week” — you pick a mix for assortment and margins.",
+    "Below: how to calculate the metric, what to read from the trend, and which tactics work in an online store. There’s no universal “+30% AOV in a week” — you pick a mix for assortment and margins.",
   ],
   faq: [
     {
@@ -51,10 +51,10 @@ export const sredniyChekEn: BlogPost = {
         {
           intro: "What dynamics can signal:",
           items: [
-            "willingness to pay and upsell readiness;",
-            "promo effects (AOV up while margin down — a signal);",
-            "manager or chat script quality;",
-            "the threshold where a “fill the cart” bonus makes sense.",
+            "willingness to pay and upsell readiness",
+            "promo effects (AOV up while margin down — a signal)",
+            "manager or chat script quality",
+            "the threshold where a “fill the cart” bonus makes sense",
           ],
         },
       ],
@@ -70,10 +70,10 @@ export const sredniyChekEn: BlogPost = {
         {
           intro: "Where to show it:",
           items: [
-            "“bought with this” on the product page;",
-            "cart recommendations before payment;",
-            "manager script when confirming the order;",
-            "a personal offer after purchase.",
+            "“bought with this” on the product page",
+            "cart recommendations before payment",
+            "manager script when confirming the order",
+            "a personal offer after purchase",
           ],
         },
       ],
@@ -97,18 +97,18 @@ export const sredniyChekEn: BlogPost = {
         {
           intro: "What to check:",
           items: [
-            "threshold vs current AOV;",
-            "impact on shipping margin;",
-            "clarity of terms on mobile;",
-            "no pressure from a fake timer.",
+            "threshold vs current AOV",
+            "impact on shipping margin",
+            "clarity of terms on mobile",
+            "no pressure from a fake timer",
           ],
         },
       ],
       notes: [
         {
           title: "Important",
-          text: "Payment variety (cards, instant bank pay, etc.) more often cuts checkout drop-off than it raises AOV by itself — but payment failures hit both AOV and conversion.",
           kind: "tip",
+          text: "Payment variety (cards, instant bank pay, etc.) more often cuts checkout drop-off than it raises AOV by itself — but payment failures hit both AOV and conversion.",
         },
       ],
     },

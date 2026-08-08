@@ -11,7 +11,7 @@ export const skrinshotyEn: BlogPost = {
     "What a screenshot is, where it’s used in support and training, how to capture the screen on Windows, macOS, iOS, and Android, and how editors help.",
   lead: [
     "A screenshot is a capture of the whole screen or a selected area. In guides, support tickets, and reports it saves paragraphs of explanation: “here’s where it broke.”",
-    "We cover why people take screenshots, built-in options on computer and phone, and basic rules: what to hide, how to annotate, and when a short screen recording is better.",
+    "Below: why people take screenshots, built-in options on computer and phone, and basic rules: what to hide, how to annotate, and when a short screen recording is better.",
   ],
   faq: [
     {
@@ -46,11 +46,11 @@ export const skrinshotyEn: BlogPost = {
         {
           intro: "Typical jobs:",
           items: [
-            "support: error, code, version;",
-            "training: “click here” without a wall of text;",
-            "reports and bug reports;",
-            "design/layout review;",
-            "proof of a account state (careful with personal data).",
+            "support: error, code, version",
+            "training: “click here” without a wall of text",
+            "reports and bug reports",
+            "design/layout review",
+            "proof of an account state (careful with personal data)",
           ],
         },
       ],
@@ -66,16 +66,17 @@ export const skrinshotyEn: BlogPost = {
         {
           intro: "A mini ritual for a good shot:",
           items: [
-            "close extra tabs and notifications;",
-            "zoom if small labels matter;",
-            "capture only the needed area;",
-            "add an arrow/frame at the action point.",
+            "close extra tabs and notifications",
+            "zoom if small labels matter",
+            "capture only the needed area",
+            "add an arrow/frame at the action point",
           ],
         },
       ],
       notes: [
         {
           title: "Practice",
+          kind: "tip",
           text: "For long pages a browser scroll-shot (DevTools / extensions) or a short Loom/screen recording is better — one frame doesn’t always fit the scenario.",
         },
       ],
@@ -84,16 +85,16 @@ export const skrinshotyEn: BlogPost = {
       title: "Phone: iOS and Android",
       level: 2,
       paras: [
-        "iPhone with Face ID: side button + volume up. With Touch ID: side/top + Home. The shot goes to Photos; then mark it up.",
+        "iPhone with Face ID: side button + volume up. With Touch ID: side button or the Sleep/Wake button + Home. The shot goes to Photos; then mark it up.",
         "Android: usually power + volume down; some brands use a palm-edge gesture or a Control Center item. Exact gestures depend on the skin — check the device help.",
       ],
       lists: [
         {
           intro: "After capture:",
           items: [
-            "crop the excess;",
-            "blur chats and personal data;",
-            "don’t publish others’ messages without consent.",
+            "crop the excess",
+            "blur chats and personal data",
+            "don’t publish others’ messages without consent",
           ],
         },
       ],
@@ -109,9 +110,9 @@ export const skrinshotyEn: BlogPost = {
         {
           intro: "When software is worth it:",
           items: [
-            "daily guides with a shared arrow style;",
-            "screen recording + frames in one tool;",
-            "a shared screenshot library for the team.",
+            "daily guides with a shared arrow style",
+            "screen recording + frames in one tool",
+            "a shared screenshot library for the team",
           ],
         },
       ],
@@ -122,7 +123,6 @@ export const skrinshotyEn: BlogPost = {
       paras: [
         "A screenshot is a fast way to show the UI. Start with built-in hotkeys, crop and annotate what matters, hide personal data. For complex flows a short screen video beats ten unreadable frames.",
       ],
-      lists: [],
     },
   ],
 };

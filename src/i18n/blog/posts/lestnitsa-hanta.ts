@@ -11,7 +11,7 @@ export const lestnitsaHantaEn: BlogPost = {
     "How the awareness ladder works: from “doesn’t know the problem” to ready to buy — and what to say at each step in ads and on the landing page.",
   lead: [
     "The awareness ladder is a five-level model: how clearly someone sees the problem, solution classes, and your product. In RU marketing it’s often called Hunt’s ladder; the classic audience-awareness levels were described by Eugene Schwartz.",
-    "The idea is simple: you can’t hard-sell someone who doesn’t see the need yet. The steps below show what to do on each in copy, ads, and scripts.",
+    "The idea is simple: you can’t hard-sell someone who doesn’t see the need yet. Below: the steps and what to do on each in copy, ads, and scripts.",
   ],
   faq: [
     {
@@ -49,17 +49,17 @@ export const lestnitsaHantaEn: BlogPost = {
       level: 2,
       paras: [
         "People in one niche stand on different steps. Anti-aging care is early for a schoolgirl; an adult segment already knows the topic. Ads should speak the language of the step someone is on now.",
-        "For any niche, the “top” audience was once on step one. Marketing’s job is to walk them up the ladder — not demand a purchase on first touch.",
+        "For any niche, the most aware audience was once on step one. Marketing’s job is to walk them up the ladder — not demand a purchase on first touch.",
       ],
       lists: [
         {
           intro: "The steps:",
           items: [
-            "1 — doesn’t see the problem;",
-            "2 — knows the problem, not the solutions;",
-            "3 — knows solution types, picking an approach;",
-            "4 — compares products/vendors;",
-            "5 — knows you and is close to buying.",
+            "1 — doesn’t see the problem",
+            "2 — knows the problem, not the solutions",
+            "3 — knows solution types, picking an approach",
+            "4 — compares products/vendors",
+            "5 — knows you and is close to buying",
           ],
         },
       ],
@@ -82,9 +82,9 @@ export const lestnitsaHantaEn: BlogPost = {
         {
           intro: "Before a creative ask:",
           items: [
-            "where is the traffic from (search, ads, email)?;",
-            "what query/intent?;",
-            "what has the person already tried?;",
+            "where is the traffic from (search, ads, email)?",
+            "what query/intent?",
+            "what has the person already tried?",
             "what next action is realistic?",
           ],
         },
@@ -111,10 +111,10 @@ export const lestnitsaHantaEn: BlogPost = {
         {
           intro: "Message focus:",
           items: [
-            "1–2 — problem and cost of inaction;",
-            "3 — solution classes;",
-            "4 — criteria and comparison;",
-            "5 — your brand, risks, CTA.",
+            "1–2 — problem and cost of inaction",
+            "3 — solution classes",
+            "4 — criteria and comparison",
+            "5 — your brand, risks, CTA",
           ],
         },
       ],
@@ -136,7 +136,6 @@ export const lestnitsaHantaEn: BlogPost = {
         "A strong long-form piece or landing can walk several steps in a row: pain → options → why this approach → why you → action. The main thing — don’t open with price for people who don’t get the job yet.",
         "In ad accounts, segment: different creatives for lookalikes/interests vs retargeting “already on the site.” One ad for every step talks past part of the audience.",
       ],
-      lists: [],
     },
     {
       title: "Tie-in with funnel and channels",
@@ -149,10 +148,10 @@ export const lestnitsaHantaEn: BlogPost = {
         {
           intro: "Mini audit:",
           items: [
-            "first screen matches traffic temperature;",
-            "there’s content for “problem” and for “choice”;",
-            "USP doesn’t appear before context is clear;",
-            "retargeting doesn’t hammer a cold offer for a month straight.",
+            "first screen matches traffic temperature",
+            "there’s content for “problem” and for “choice”",
+            "USP doesn’t appear before context is clear",
+            "retargeting doesn’t hammer a cold offer for a month straight",
           ],
         },
       ],

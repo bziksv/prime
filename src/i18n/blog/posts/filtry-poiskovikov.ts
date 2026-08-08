@@ -11,7 +11,7 @@ export const filtryPoiskovikovEn: BlogPost = {
     "Why sites lose rankings to filters and algorithm updates, how to diagnose the problem, and how to grow organic with white-hat methods — without bypass tricks or gray schemes.",
   lead: [
     "Filters and updates cut sites for stuffing, thin content, manipulative links, and poor UX. “Bypassing” the system with gray tricks leads to new penalties.",
-    "How to assess the state, check tech and demand, and strengthen content and links within the rules. This is not a guide to dodging filters.",
+    "Below: how to assess the state, check tech and demand, and strengthen content and links within the rules. This is not a guide to dodging filters.",
   ],
   faq: [
     {
@@ -32,7 +32,7 @@ export const filtryPoiskovikovEn: BlogPost = {
     },
     {
       q: "How long does recovery take?",
-      a: "Depends on the cause and recrawl. Don’t promise rankings date; log fixes and monitor the keyword set monthly.",
+      a: "Depends on the cause and recrawl. Don’t promise a page-one date; log fixes and monitor the keyword set monthly.",
     },
     {
       q: "Should I rebuild the whole site at once?",
@@ -60,7 +60,7 @@ export const filtryPoiskovikovEn: BlogPost = {
             "PageSpeed / real measurements",
             "security and quality in panels",
             "demand seasonality",
-            "link profile for spam.",
+            "link profile for spam",
           ],
         },
       ],
@@ -83,7 +83,6 @@ export const filtryPoiskovikovEn: BlogPost = {
         "Start with critical templates: home, categories, product cards, services, articles, and pagination. Check them in the browser, URL inspection tools, and server logs if available. Log fixes so you can see the link between a change and the trend.",
         "Mobile shouldn’t be a stripped desktop with different navigation and hidden content. User path, speed, and form accessibility matter for visitors and for steady organic growth.",
       ],
-      lists: [],
       links: [
         {
           label: "Technical SEO audit",
@@ -107,7 +106,7 @@ export const filtryPoiskovikovEn: BlogPost = {
             "unique strong landings",
             "cleanup of toxic factors",
             "technical debt",
-            "core monitoring after fixes.",
+            "core monitoring after fixes",
           ],
         },
       ],
@@ -124,6 +123,7 @@ export const filtryPoiskovikovEn: BlogPost = {
       notes: [
         {
           title: "Important",
+          kind: "tip",
           text: "An old title about “bypassing filters” is misleading. The working strategy is following the rules — not dodging them.",
         },
       ],
@@ -136,10 +136,10 @@ export const filtryPoiskovikovEn: BlogPost = {
         "Build a list of suspicious domains; assess topic, dynamics, and link character. Don’t waste endless time on every random link: prioritize your own actions, site quality, and clearly artificial campaigns you controlled.",
         "In parallel grow assets people naturally link to: studies, calculators, guides, cases, and useful roundups. Slower than a “link pack,” more durable.",
       ],
-      lists: [],
       notes: [
         {
           title: "Important",
+          kind: "tip",
           text: "An old title about “bypassing filters” misleads. Sustainable recovery comes from removing causes and following rules — not masking signals.",
         },
       ],
@@ -149,10 +149,9 @@ export const filtryPoiskovikovEn: BlogPost = {
       level: 2,
       paras: [
         "Track organic traffic, organic conversion, visibility of priority clusters, pages in the index, crawl errors, and speed. A dashboard of a few stable metrics beats a hundred unread reports.",
-        "After fixes, give search engines time to recrawl and reassess. Project prep — audit, tech fixes, semantics, and content — usually takes weeks or about a month; getting a noticeable share of the keyword set into the top results is planned for 2–6 months and depends on competition.",
+        "After fixes, give search engines time to recrawl and reassess. Project prep — audit, tech fixes, semantics, and content — usually takes weeks or about a month; a noticeable share of the keyword set reaching page one is planned for 2–6 months and depends on competition.",
         "Don’t declare recovery from one lucky day. Watch month-to-month dynamics, year-over-year comparison, and lead quality. Domain age alone doesn’t heal problems — consistent improvements do.",
       ],
-      lists: [],
     },
   ],
 };

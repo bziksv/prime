@@ -8,10 +8,10 @@ export const kommercheskieFaktoryEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/kommercheskie-faktory/cover-en.webp",
   excerpt:
-    "Contacts, assortment, purchase terms, “about the company,” and map/directory services — a practical commercial-factors checklist without the myth “a checkbox = TOP.”",
+    "Contacts, assortment, purchase terms, “about the company,” and map/directory services — a practical commercial-factors checklist without the myth that a checkbox equals page one.",
   lead: [
     "Commercial factors are on-site signals that help a person trust and buy: clear contacts, selection and prices, delivery and payment terms, company transparency, reviews, and useful services.",
-    "Search engines don’t publish a full list of “ranking buttons,” but in practice a strong commercial setup more often matches better conversion and holds commercial SERP positions more steadily. Factor groups and a work order below are part of prep — not a promise of TOP rankings in a week.",
+    "Search engines don’t publish a full list of ranking buttons, but in practice a strong commercial setup more often matches better conversion and holds commercial SERP positions more steadily. Below — factor groups and a work order; this is part of prep, not a promise of page one in a week.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const kommercheskieFaktoryEn: BlogPost = {
     },
     {
       q: "Is there an official Yandex checklist?",
-      a: "No full public list. Aim for what removes buyer doubt and matches the best pages in your niche TOP.",
+      a: "No full public list. Aim for what removes buyer doubt and matches the strongest pages in your niche SERP.",
     },
     {
       q: "What matters more: more copy, or contacts and prices?",
@@ -59,10 +59,10 @@ export const kommercheskieFaktoryEn: BlogPost = {
         {
           intro: "Who needs it most:",
           items: [
-            "online stores;",
-            "services with a lead or site visit;",
-            "local business with a visit;",
-            "B2B with a long sales cycle.",
+            "online stores",
+            "services with a lead or site visit",
+            "local business with a visit",
+            "B2B with a long sales cycle",
           ],
         },
       ],
@@ -72,7 +72,7 @@ export const kommercheskieFaktoryEn: BlogPost = {
           href: "/en/blog/optimizatsiya-konversii/",
         },
         {
-          label: "On-page (internal) factors",
+          label: "On-page factors",
           href: "/en/blog/vnutrennie-faktory/",
         },
       ],
@@ -88,11 +88,11 @@ export const kommercheskieFaktoryEn: BlogPost = {
         {
           intro: "Contact minimum:",
           items: [
-            "phone and/or callback;",
-            "email on the domain;",
-            "a form or chat with replies;",
-            "address/map or an honest service area;",
-            "links to current social profiles and messengers.",
+            "phone and/or callback",
+            "email on the domain",
+            "a form or chat with replies",
+            "address/map or an honest service area",
+            "links to current social profiles and messengers",
           ],
         },
       ],
@@ -112,16 +112,16 @@ export const kommercheskieFaktoryEn: BlogPost = {
       level: 2,
       paras: [
         "For a store, catalog breadth and depth signal scale and usefulness. Empty sections and “coming soon” lose to an honest narrow assortment with solid cards.",
-        "On cards: name, price or a clear guide, stock, photos, specs, shipping. Compare with niche TOP: what you lack in selection and filters.",
+        "On cards: name, price or a clear guide, stock, photos, specs, shipping. Compare with niche leaders: what you lack in selection and filters.",
       ],
       lists: [
         {
           intro: "Check:",
           items: [
-            "no empty categories in the index;",
-            "filters and catalog search exist;",
-            "cards address objections;",
-            "hits and promos don’t break URL structure.",
+            "no empty categories in the index",
+            "filters and catalog search exist",
+            "cards address objections",
+            "hits and promos don’t break URL structure",
           ],
         },
       ],
@@ -143,11 +143,11 @@ export const kommercheskieFaktoryEn: BlogPost = {
         {
           intro: "Trust blocks:",
           items: [
-            "prices / calculator / “from …” with honest terms;",
-            "payment and shipping;",
-            "warranty and returns;",
-            "legal details and policies;",
-            "reviews and work examples.",
+            "prices / calculator / “from …” with honest terms",
+            "payment and shipping",
+            "warranty and returns",
+            "legal details and policies",
+            "reviews and work examples",
           ],
         },
       ],
@@ -173,10 +173,10 @@ export const kommercheskieFaktoryEn: BlogPost = {
         {
           intro: "By niche it often makes sense:",
           items: [
-            "a map/directory profile;",
-            "consistent NAP;",
-            "a feed/storefront for e-commerce;",
-            "current hours and location photos.",
+            "a map/directory profile",
+            "consistent NAP",
+            "a feed/storefront for e-commerce",
+            "current hours and location photos",
           ],
         },
       ],
@@ -191,17 +191,17 @@ export const kommercheskieFaktoryEn: BlogPost = {
       title: "How to implement and measure",
       level: 2,
       paras: [
-        "Pull a benchmark from 3–5 TOP URLs on money queries: which blocks they have that you don’t. Roll out in packages (contacts → terms → cards → reviews); after releases watch conversion and cluster ranks.",
-        "Commercial fixes are part of site prep. Climbing commercial TOP is planned over months after work starts (typically 2–6 months) — not “added a chat, top-3 tomorrow.”",
+        "Pull a benchmark from 3–5 money-query URLs near the top of the SERP: which blocks they have that you don’t. Roll out in packages (contacts → terms → cards → reviews); after releases watch conversion and cluster ranks.",
+        "Commercial fixes are part of site prep. Commercial-core page-one share is planned over months after work starts (typically 2–6 months) — not “added a chat, #3 tomorrow.”",
       ],
       lists: [
         {
           intro: "Rhythm:",
           items: [
-            "checklist vs niche TOP;",
-            "backlog by business impact;",
-            "A/B or before/after conversion rate on key URLs;",
-            "monthly review together with SEO KPIs.",
+            "checklist vs niche leaders",
+            "backlog by business impact",
+            "A/B or before/after conversion rate on key URLs",
+            "monthly review together with SEO KPIs",
           ],
         },
       ],

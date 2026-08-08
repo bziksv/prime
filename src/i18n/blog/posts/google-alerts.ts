@@ -11,8 +11,12 @@ export const googleAlertsEn: BlogPost = {
     "What Google Alerts is: email alerts for Google search queries. How to set it up, what brand and content tasks it covers, and where the limits are — without “speed up SEO” promises or dead social networks.",
   lead: [
     "Google Alerts is a free notification service: you set a query, Google emails a digest of new results it found on that topic.",
-    "Who it’s useful for, how to create an alert, and which business scenarios make sense. It’s Google SERP monitoring, not a full social listening suite and not a site-analytics replacement. UI labels may differ by account.",
+    "Below: who it’s useful for, how to create an alert, and which business scenarios make sense. It’s Google SERP monitoring, not a full social listening suite and not a site-analytics replacement. UI labels may differ — use alerts.google.com and the meaning of each setting.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Is Google Alerts a paid product?",
@@ -24,7 +28,7 @@ export const googleAlertsEn: BlogPost = {
     },
     {
       q: "Does it replace an SEO audit?",
-      a: "No. Alerts helps notice mentions and topic news; it doesn’t fix tech or put you in the top results.",
+      a: "No. Alerts helps notice mentions and topic news; it doesn’t fix tech or move your rankings.",
     },
     {
       q: "Do I need a Google account?",
@@ -51,7 +55,7 @@ export const googleAlertsEn: BlogPost = {
             "reviews and write-ups by company name",
             "niche and competitor news (watch volume)",
             "new materials on a key topic",
-            "watching copycats / URL mentions.",
+            "watching copycats / URL mentions",
           ],
         },
       ],
@@ -71,15 +75,15 @@ export const googleAlertsEn: BlogPost = {
             "for brand — exact name and spelling variants",
             "exclude your site with `-site:` when needed",
             "language and region for your audience",
-            "frequency for topic volume (noisy topics — digest).",
+            "frequency for topic volume (noisy topics — digest)",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
-          text: "Queries that are too broad (“marketing”, “SEO”) drown the inbox. Narrow the wording or add brand/niche.",
           kind: "tip",
+          text: "Queries that are too broad (“marketing”, “SEO”) drown the inbox. Narrow the wording or add brand/niche.",
         },
       ],
     },
@@ -98,7 +102,7 @@ export const googleAlertsEn: BlogPost = {
             "brand + “review” / “overview”",
             "niche topic + language limit",
             "`site:example.com` — if you watch someone else’s section",
-            "`-site:your-domain` — external mentions.",
+            "`-site:your-domain` — external mentions",
           ],
         },
       ],
@@ -118,7 +122,7 @@ export const googleAlertsEn: BlogPost = {
       level: 2,
       paras: [
         "Familiar Google search tricks work in queries: quotes, `-site:`, sometimes `OR` for spelling variants. Don’t rely on dead domains like Google+ from old guides.",
-        "Monitoring VK/Telegram/Instagram via Alerts is unreliable: much content never hits web search. For social, use built-in search and dedicated mention services.",
+        "Monitoring VK/Telegram/Instagram* via Alerts is unreliable: much content never hits web search. For social, use built-in search and dedicated mention services.",
       ],
       lists: [
         {
@@ -127,7 +131,7 @@ export const googleAlertsEn: BlogPost = {
             "real-time social listening",
             "GA4/Metrika reports",
             "index checks in Webmaster / Search Console",
-            "full enterprise media monitoring.",
+            "full enterprise media monitoring",
           ],
         },
       ],

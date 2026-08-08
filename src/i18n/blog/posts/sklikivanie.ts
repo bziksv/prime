@@ -11,7 +11,7 @@ export const sklikivanieEn: BlogPost = {
     "What click fraud is, how to tell it from a weak campaign, which defenses exist in Yandex Direct and Google Ads, and what to do if you suspect fraud.",
   lead: [
     "Click fraud is artificial clicks on ads that burn budget without target actions. It’s done by hand, scripts, or botnets; sometimes against a competitor, sometimes to inflate a publisher.",
-    "We cover click-fraud signs, first steps, built-in Direct and Google Ads protections, and how to tell fraud apart from a weak offer. Loss figures from old roundups show scale—not your forecast.",
+    "Below: click-fraud signs, first steps, built-in Direct and Google Ads protections, and how to tell fraud apart from a weak offer. Loss figures from old roundups show scale — not your forecast.",
   ],
   faq: [
     {
@@ -47,9 +47,9 @@ export const sklikivanieEn: BlogPost = {
         {
           intro: "Types:",
           items: [
-            "manual click fraud (slow, IP changes);",
-            "scripts and emulators;",
-            "botnets on infected devices — the most mass scenario.",
+            "manual click fraud (slow, IP changes)",
+            "scripts and emulators",
+            "botnets on infected devices — the most mass scenario",
           ],
         },
       ],
@@ -64,17 +64,18 @@ export const sklikivanieEn: BlogPost = {
         {
           intro: "Red flags:",
           items: [
-            "a sharp jump in clicks and CTR with no ad changes;",
-            "many clicks with near-zero time on site / instant bounces;",
-            "geo and devices outside targeting;",
-            "repeats from the same IPs/networks;",
-            "a spike on specific display-network placements.",
+            "a sharp jump in clicks and CTR with no ad changes",
+            "many clicks with near-zero time on site / instant bounces",
+            "geo and devices outside targeting",
+            "repeats from the same IPs/networks",
+            "a spike on specific display-network placements",
           ],
         },
       ],
       notes: [
         {
           title: "Practice",
+          kind: "tip",
           text: "Cross-check the ads account with Analytics via UTM. A gap “clicks exist — almost no sessions” is a reason to dig deeper, but first verify tagging and reporting lag.",
         },
       ],
@@ -95,11 +96,11 @@ export const sklikivanieEn: BlogPost = {
         {
           intro: "Reaction checklist:",
           items: [
-            "pause or a hard daily cap;",
-            "reports by placement, region, device, hour;",
-            "exclude suspicious placements / IPs (within account limits);",
-            "contact Direct / Google Ads support with facts;",
-            "after the review — restart with tighter keywords and bids.",
+            "pause or a hard daily cap",
+            "reports by placement, region, device, hour",
+            "exclude suspicious placements / IPs (within account limits)",
+            "contact Direct / Google Ads support with facts",
+            "after the review — restart with tighter keywords and bids",
           ],
         },
       ],
@@ -115,16 +116,17 @@ export const sklikivanieEn: BlogPost = {
         {
           intro: "What the platform does:",
           items: [
-            "cuts some fraud automatically;",
-            "doesn’t treat such clicks like “live” ones for keyword quality;",
-            "may adjust charges on a confirmed complaint;",
-            "punishes network-side violators (you don’t always see it).",
+            "cuts some fraud automatically",
+            "doesn’t treat such clicks like “live” ones for keyword quality",
+            "may adjust charges on a confirmed complaint",
+            "punishes network-side violators (you don’t always see it)",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
+          kind: "tip",
           text: "Waiting for support to “refund everything after three days of bounces.” First prove the anomaly; in parallel fix relevance — or honest but junk traffic keeps eating the budget.",
         },
       ],
@@ -140,10 +142,10 @@ export const sklikivanieEn: BlogPost = {
         {
           intro: "Natural reasons for “empty after click”:",
           items: [
-            "offer and price didn’t match ad expectations;",
-            "the site is slow or awkward on mobile;",
-            "season / news warmed interest without readiness to buy;",
-            "wrong geo or missing negative keywords.",
+            "offer and price didn’t match ad expectations",
+            "the site is slow or awkward on mobile",
+            "season / news warmed interest without readiness to buy",
+            "wrong geo or missing negative keywords",
           ],
         },
       ],
@@ -152,16 +154,16 @@ export const sklikivanieEn: BlogPost = {
       title: "How to lower the risk again",
       level: 2,
       paras: [
-        "Daily watch spend, CTR, bounces, and top placements. Keep semantics tight, landings honest, UTM and goals working. After an incident update the core and bid strategies — don’t just “turn it back on as before.”",
+        "Daily watch spend, CTR, bounces, and the busiest placements. Keep semantics tight, landings honest, UTM and goals working. After an incident update the core and bid strategies — don’t just “turn it back on as before.”",
       ],
       lists: [
         {
           intro: "Prevention:",
           items: [
-            "anomaly monitoring by hour and placement;",
-            "regular exclusion of junk display placements;",
-            "ad → page consistency;",
-            "budget caps and alerts in the account/analytics.",
+            "anomaly monitoring by hour and placement",
+            "regular exclusion of junk display placements",
+            "ad → page consistency",
+            "budget caps and alerts in the account/analytics",
           ],
         },
       ],
@@ -172,7 +174,6 @@ export const sklikivanieEn: BlogPost = {
       paras: [
         "Click fraud is real, but not every ROAS drop is an attack. Watch the signal combo, use Direct and Google Ads filters, cut budget fast on anomalies, and check campaign quality in parallel. Support tickets — with facts, not emotions.",
       ],
-      lists: [],
     },
   ],
 };

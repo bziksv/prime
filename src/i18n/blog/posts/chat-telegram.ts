@@ -55,10 +55,10 @@ export const chatTelegramEn: BlogPost = {
         {
           intro: "Typical scenarios:",
           items: [
-            "internal team and contractors;",
-            "client support or community;",
-            "a discussion chat tied to a channel;",
-            "project rooms with files and links.",
+            "internal team and contractors",
+            "client support or community",
+            "a discussion chat tied to a channel",
+            "project rooms with files and links",
           ],
         },
       ],
@@ -68,16 +68,16 @@ export const chatTelegramEn: BlogPost = {
       level: 2,
       paras: [
         "A private dialog is one-to-one messaging. A group has many members, admin rights, and cloud history (within normal chats).",
-        "A secret chat is a separate protected mode for two people only; don’t confuse it with a “closed group.” A public group is findable by username or search; a private one is invite-only.",
+        "A secret chat is a separate protected mode for two people only; don’t confuse it with a closed group. A public group is findable by username or search; a private one is invite-only.",
       ],
       lists: [
         {
           intro: "In short:",
           items: [
-            "one-to-one normal — everyday messaging;",
-            "group / supergroup — team and client talk;",
-            "secret — sensitive topics one-to-one;",
-            "channel — not a chat, a feed.",
+            "one-to-one normal — everyday messaging",
+            "group / supergroup — team and client talk",
+            "secret — sensitive topics one-to-one",
+            "channel — not a chat, a feed",
           ],
         },
       ],
@@ -90,6 +90,7 @@ export const chatTelegramEn: BlogPost = {
       notes: [
         {
           title: "Important",
+          kind: "tip",
           text: "Claims like “a secret group chat can’t be hacked” are marketing. Realistic expectations and limits are in the secret-chat article.",
         },
       ],
@@ -106,10 +107,10 @@ export const chatTelegramEn: BlogPost = {
         {
           intro: "After creating:",
           items: [
-            "describe rules in a pinned message;",
-            "appoint admins with the minimum rights they need;",
-            "store the invite link somewhere safe;",
-            "turn off “everyone can write” if it’s a moderated discussion for a channel.",
+            "describe rules in a pinned message",
+            "appoint admins with the minimum rights they need",
+            "store the invite link somewhere safe",
+            "turn off “everyone can write” if it’s a moderated discussion for a channel",
           ],
         },
       ],
@@ -118,7 +119,7 @@ export const chatTelegramEn: BlogPost = {
       title: "Pinning chats",
       level: 2,
       paras: [
-        "With many dialogs, important groups get lost in the feed. Pin a chat: long-press or right-click → Pin. Pinned chats stay at the top of the list.",
+        "With many dialogs, important groups get lost in the feed. Pin a chat: long-press or right-click → Pin. Pinned chats stay above the rest of the list.",
         "Pin count depends on the client and plan (including Premium) — follow what your Telegram shows now, not “exactly five” from old instructions.",
       ],
     },
@@ -133,10 +134,10 @@ export const chatTelegramEn: BlogPost = {
         {
           intro: "Poll practice:",
           items: [
-            "one question — one topic;",
-            "short answer options;",
-            "a deadline in the text (“vote by Friday”);",
-            "pin the result in a follow-up message.",
+            "one question — one topic",
+            "short answer options",
+            "a deadline in the text (“vote by Friday”)",
+            "pin the result in a follow-up message",
           ],
         },
       ],
@@ -152,10 +153,10 @@ export const chatTelegramEn: BlogPost = {
         {
           intro: "Decide in advance:",
           items: [
-            "who is admin and who answers clients;",
-            "what can’t be posted (insults, personal data);",
-            "how to escalate into a ticket or CRM;",
-            "whether you need a bot or a pinned FAQ is enough.",
+            "who is admin and who answers clients",
+            "what can’t be posted (insults, personal data)",
+            "how to escalate into a ticket or CRM",
+            "whether you need a bot or a pinned FAQ is enough",
           ],
         },
       ],
@@ -197,4 +198,4 @@ export const chatTelegramEn: BlogPost = {
     "sekretnyy-chat-telegram",
     "telegram-boty",
   ],
-} as BlogPost;
+};

@@ -11,7 +11,7 @@ export const formatyIzobrazheniyRsyaEn: BlogPost = {
     "Why the Yandex Advertising Network needs several image sizes and graphic ads: publisher coverage, widescreen formats, how not to cut reach with a separate campaign, and how to tag sizes in UTMs.",
   lead: [
     "In YAN a creative lives in blocks of different shapes: square, vertical, panorama. One size won’t cover every publisher — the system needs a set to pick a fitting slot.",
-    "Format logic and practice for display creatives. Exact pixels from 2016–2017 guides go stale: take current requirements from Direct Help. Format “novelty” isn’t news anymore — a full creative kit matters more.",
+    "Below: format logic and practice. Exact pixels from 2016–2017 guides go stale: take current requirements from Direct Help. Format “novelty” isn’t news anymore — a full creative kit matters more.",
   ],
   faq: [
     {
@@ -36,7 +36,7 @@ export const formatyIzobrazheniyRsyaEn: BlogPost = {
     },
     {
       q: "Is billing different for these formats?",
-      a: "Usually the same campaign model (clicks/goals). The image format itself isn’t a “special tariff.”",
+      a: "Usually the same campaign model (clicks/goals). The image format itself isn’t a special tariff.",
     },
     {
       q: "How many formats should I upload?",
@@ -76,7 +76,7 @@ export const formatyIzobrazheniyRsyaEn: BlogPost = {
       paras: [
         "Add new formats to already working network campaigns if the goal is reach — not an isolated A/B of one size.",
         "Don’t settle for one file “for every case.” A set of ratios plus size UTMs gives clear analytics.",
-        "Watch quality: tiny banner text, watermarks, and stock with someone else’s brand hurt CTR and review.",
+        "Watch quality: tiny banner text, watermarks, and creatives with someone else’s brand hurt CTR and review.",
       ],
       lists: [
         {
@@ -86,7 +86,7 @@ export const formatyIzobrazheniyRsyaEn: BlogPost = {
             "offer readable on mobile",
             "landing matches the image",
             "tags to compare formats",
-            "don’t split reach without a hypothesis.",
+            "don’t split reach without a hypothesis",
           ],
         },
       ],

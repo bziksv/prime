@@ -11,7 +11,7 @@ export const denVPrimeEn: BlogPost = {
     "A light look from the inside: what an ordinary day in a digital agency looks like — the commute, SEO and paid-search tasks, “new” projects, and a living team. An atmosphere snapshot, not today’s headcount.",
   lead: [
     "Clients often think SEO and paid search are “someone changed a line in the account.” From the inside it’s a queue of tasks, CRM, testing hypotheses, and unpacking calls when something went wrong.",
-    "A humorous sketch of one morning at PRIME circa 2016: the road to the office, project triage, and team characters. Headcount and processes have changed since; the point hasn’t — people who carry projects, not “magic buttons.”",
+    "Below: a humorous sketch of one morning at PRIME circa 2016 — the road to the office, project triage, and team characters. Headcount and processes have changed since; the point hasn’t — people who carry projects, not magic buttons.",
   ],
   faq: [
     {
@@ -24,7 +24,7 @@ export const denVPrimeEn: BlogPost = {
     },
     {
       q: "Why compare a “new project” to a child?",
-      a: "It’s a growth metaphor: first empty tech and little traffic, then structure, copy, and steady work. Prep takes weeks; a meaningful share of the keyword set in the top results is planned over 2–6 months — not launch day.",
+      a: "It’s a growth metaphor: first empty tech and little traffic, then structure, copy, and steady work. Prep takes weeks; a meaningful share of the keyword set on page one is planned over 2–6 months — not launch day.",
     },
     {
       q: "Does the client only see a bid change?",
@@ -60,7 +60,7 @@ export const denVPrimeEn: BlogPost = {
       level: 2,
       paras: [
         "If SEO is the focus, the day is about structure, content, indexes, and long cycles. If there’s a lot of paid search, the brain fills fast with bid auctions, strategies, negatives, and budget caps. From outside it’s “tweaked a field”; from inside it’s constant control so money doesn’t leak.",
-        "A new SEO project often arrives empty: few visitors, weak metadata, no clear keyword set. The team’s job is to grow it — tech, copy, analytics. SERP impact accumulates; a noticeable share of the keyword set in the top results is planned over 2–6 months after work starts — not “switched on and done.”",
+        "A new SEO project often arrives empty: few visitors, weak metadata, no clear keyword set. The team’s job is to grow it — tech, copy, analytics. SERP impact accumulates; a noticeable share of the keyword set on page one is planned over 2–6 months after work starts — not “switched on and done.”",
         "Manager feedback after a client call is part of the job. Office folklore named it differently; the point is simple: unpack, fix, move on. No hysteria — and no illusion that everything is always perfect.",
         "In notes like this the team always looks brighter than the org chart: who brings snacks, who’s forever upbeat about the weather, who edits copy hard, who closes sales. People change; the link between specialists, managers, and project ownership stays the agency’s core.",
         "The column’s takeaway is the same as a good day at PRIME: we promote sites, hold channels, joke sometimes — and remember that behind report numbers are live tasks and live clients.",
@@ -71,7 +71,7 @@ export const denVPrimeEn: BlogPost = {
           items: [
             "SEO and ads running in parallel in one day",
             "incident reviews after calls",
-            "growing an “empty” project from zero",
+            "growing an empty project from zero",
             "internal role coordination",
             "prep time — separate from ranking growth",
           ],
@@ -79,7 +79,7 @@ export const denVPrimeEn: BlogPost = {
       ],
       links: [
         {
-          label: "Why the site isn’t in the top results",
+          label: "Why the site isn’t on page one",
           href: "/en/blog/sayt-ne-v-top/",
         },
         {

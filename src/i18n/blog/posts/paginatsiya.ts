@@ -11,7 +11,7 @@ export const paginatsiyaEn: BlogPost = {
     "What catalog and blog pagination is, how numbering works, and how to set indexing so pages 2, 3, 4… don’t spawn duplicates.",
   lead: [
     "Pagination splits a long list into pages: catalog, blog, search results. Useful for readers, but without rules you easily get thin duplicate pages in the index.",
-    "Build pagination for readers first, then decide what belongs in the index. Exact attributes like rel prev/next are no longer universal — rely on canonical tags and whether each page is actually useful.",
+    "Below: why you need it, how to build it, SEO settings, the link with filters, and audit. Exact attributes like rel prev/next are no longer universal — rely on canonical tags and whether each page is useful.",
   ],
   faq: [
     {
@@ -164,7 +164,7 @@ export const paginatsiyaEn: BlogPost = {
       title: "Content on pages 2+",
       level: 2,
       paras: [
-        "Category SEO copy usually stays on page one. Copying that copy onto page 2, 3, and beyond is pointless and strengthens the duplicate feel.",
+        "Category SEO copy usually stays on the first page. Copying it onto page 2, 3, and beyond is pointless and strengthens the duplicate feel.",
         "On deep pages a list, navigation, and clear title (“Page 2” / product range — per store template) are enough. What matters is a unique set of cards and correct links.",
       ],
       lists: [
@@ -222,8 +222,9 @@ export const paginatsiyaEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Timelines",
-          text: "Pagination setup is part of technical prep. Rankings across a commercial keyword set build over the planned 2–6 months after work starts — not from pagination alone.",
+          text: "Pagination setup is part of technical prep. Rankings on a commercial keyword set grow over the planned months after work starts — typically 2–6 months, not from pagination alone.",
         },
       ],
     },

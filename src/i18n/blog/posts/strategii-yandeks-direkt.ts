@@ -3,101 +3,101 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for strategii-yandeks-direkt — same structure as RU JSON. */
 export const strategiiYandeksDirektEn: BlogPost = {
   slug: "strategii-yandeks-direkt",
-  title: "Yandex Direct strategies: start from economics, not the button name",
+  title: "Yandex Direct strategies: start from economics, not the button label",
   date: "2017-07-02",
   category: "Paid search",
   cover: "/images/blog/strategii-yandeks-direkt/cover-en.webp",
   excerpt:
-    "Why Direct’s “simple strategy for beginners” is fading, why goals and CPA matter, and how to pick a strategy from economics — not auction fear.",
+    "Why Direct’s “easy mode for beginners” faded, why goals and CPA matter, and how to choose a strategy from unit economics — not auction anxiety.",
   lead: [
-    "In July 2017 Direct turned off the “Show in the block at minimum price” strategy — the one many used to “just try” without calculating CPA. Since then the UI and strategy names have changed again.",
-    "The lasting takeaway isn’t about a 2017 button: without a clear lead or order cost and business feedback, automation and manual bids run blind. Strategy choice should start from economics, not a nostalgic button name.",
+    "In July 2017 Direct retired “Show in the block at minimum price” — the mode many used to “just try ads” without a CPA target. Strategy names and screens have changed again since then.",
+    "The durable lesson isn’t about one 2017 button: without a clear cost per lead or order and feedback from sales, both automation and manual bids fly blind. Here’s how to think about strategies now.",
   ],
   faq: [
     {
-      q: "What was turned off in 2017?",
-      a: "The “Show in the block at minimum price” strategy — a beginner-friendly “be in the block cheaper” mode. As a separate “magic” button it left; auction logic and auto-strategies continue.",
+      q: "What disappeared in 2017?",
+      a: "The “show in the block at minimum price” strategy — a beginner-friendly “stay in the block, keep the bid down” mode. That magic button is gone; auctions and auto-bidding are still here.",
     },
     {
-      q: "Can I run Direct “without numbers”?",
-      a: "You can spend budget. You can’t manage the result. Minimum: goal action, lead/order price, margin.",
+      q: "Can I run Direct without numbers?",
+      a: "You can burn budget. You can’t steer results. Floor: a goal action, cost per lead or order, and margin.",
     },
     {
       q: "Are auto-strategies better than manual bids?",
-      a: "Depends on data volume and goal quality. Few conversions and dirty goals — automation often “learns” noise. Many clean conversions — auto-strategies help more.",
+      a: "Depends on volume and goal quality. Sparse conversions and dirty goals — the algorithm learns noise. Clean conversions at scale — auto-strategies earn their keep.",
     },
     {
-      q: "Where should a beginner start now?",
-      a: "A narrow core, a clear landing, Yandex Metrika goals, and a budget cap. Not “hit the simplest strategy and hope.”",
+      q: "Where should a beginner start today?",
+      a: "A tight keyword set, a matching landing, analytics goals, and a hard budget cap. Not “pick the simplest strategy and hope.”",
     },
     {
-      q: "Is “calls yes/no” enough as a KPI?",
-      a: "As a signal — yes. As the only KPI — weak: you need cost per inquiry, lead quality, and a link to sales.",
+      q: "Is “we got calls / we didn’t” enough?",
+      a: "As a rough signal — yes. As the only KPI — no. You need cost per inquiry, lead quality, and a line to sales.",
     },
     {
       q: "Should I chase premium placement?",
-      a: "Block height isn’t the goal. Economics is. See the premium placement post.",
+      a: "Block height isn’t the goal. Economics is. See the premium placement article.",
     },
     {
-      q: "When should I call a specialist?",
-      a: "When budget is material and nobody inside connects bids, analytics, and sales. Otherwise optimization stalls at “we’re fine / paid search doesn’t work.”",
+      q: "When do I need a specialist?",
+      a: "When spend is material and nobody inside joins bids, analytics, and sales. Otherwise you stall at “we’re fine” or “paid search doesn’t work.”",
     },
     {
       q: "Does the right strategy guarantee leads?",
-      a: "No. A strategy distributes budget. Without offer, landing, and demand it won’t “carry” the campaign.",
+      a: "No. A strategy only allocates budget. Without demand, offer, and landing it won’t carry the campaign.",
     },
   ],
   sections: [
     {
-      title: "What happened then",
+      title: "What changed back then",
       level: 2,
       paras: [
-        "“Show in the block at minimum price” gave beginners a sense of control: “we’re in the block, the bid isn’t inflated”. For agencies and experienced advertisers it was already too coarse — no CPA, ROI, or competition footing.",
-        "Yandex moved toward more complex strategies and metrics in the spirit of “big” ad systems. For the market that meant: fewer “buttons for people who don’t count”, more requirements for goals and data.",
+        "“Show in the block at minimum price” felt like control for beginners: “we’re in the block, the bid isn’t crazy.” For agencies and experienced advertisers it was already too blunt — no CPA, ROI, or competitive footing.",
+        "Yandex moved toward richer strategies and metrics, closer to other large ad platforms. Fewer buttons for people who don’t count; more pressure to set goals and feed clean data.",
       ],
       notes: [
         {
           title: "Historical context",
-          text: "2017 strategy names and ads account screens are an archive. Set campaigns from current Direct help and your Yandex Metrika goals — not screenshots from old articles.",
+          text: "2017 strategy names and screenshots are archives. Configure campaigns from current Direct Help and your analytics goals — not old article click-paths.",
           kind: "tip",
         },
       ],
     },
     {
-      title: "Why “just try” got harder",
+      title: "Why “just try it” got harder",
       level: 2,
       paras: [
-        "Without an average call/lead/deal cost, a bid is a lottery. “There are calls — good” doesn’t answer what a lead costs or whether ads pay off.",
-        "Some advertisers deliberately avoid analytics (“no resources”). Others tried “standard” strategies, got no result, and decided “paid search doesn’t work” — while goals, semantics, or the landing were usually broken.",
+        "Without an average cost per call, lead, or deal, a bid is a lottery. “There were calls — good” never answers what a lead costs or whether ads pay off.",
+        "Some teams skip analytics on purpose (“no bandwidth”). Others tried “standard” strategies, saw nothing, and blamed paid search — while goals, keywords, or the landing were usually broken.",
       ],
       lists: [
         {
-          intro: "Typical gap:",
+          intro: "The usual gap:",
           items: [
-            "Direct burns impressions and clicks;",
-            "business only watches “were there calls”;",
-            "nobody connects lead cost and quality;",
-            "strategy changes at random.",
+            "Direct spends on impressions and clicks",
+            "the business only asks “were there calls?”",
+            "nobody ties lead cost to lead quality",
+            "the strategy gets swapped at random",
           ],
         },
       ],
     },
     {
-      title: "What to start from when choosing a strategy",
+      title: "What to decide before you pick a strategy",
       level: 2,
       paras: [
-        "Economics and goal first, strategy type second. You need: goal action, conversion volume for learning, acceptable CPA or ad-spend share, budget limits.",
-        "Manual bid control fits the start, tests, and low data. Auto-strategies — when goals are clean and conversions are enough so the algorithm isn’t guessing.",
+        "Economics and the goal first; strategy type second. You need a target action, enough conversions for learning, an acceptable CPA or ad-spend share, and budget limits.",
+        "Manual bidding fits launches, tests, and thin data. Auto-strategies fit when goals are clean and volume is high enough that the algorithm isn’t guessing.",
       ],
       lists: [
         {
-          intro: "Minimum set before launch:",
+          intro: "Minimum before you go live:",
           items: [
-            "Yandex Metrika goal (and proof it fires);",
-            "estimate of acceptable lead cost;",
-            "landing for the query cluster;",
-            "negatives and non-target traffic control;",
-            "budget cap and test window.",
+            "an analytics goal that actually fires",
+            "a ceiling for cost per lead",
+            "a landing that matches the query cluster",
+            "negatives and a check on junk traffic",
+            "a budget cap and a test window",
           ],
         },
       ],
@@ -107,7 +107,7 @@ export const strategiiYandeksDirektEn: BlogPost = {
           href: "/en/blog/spetsrazmeshchenie-direkt/",
         },
         {
-          label: "UTM tags explained",
+          label: "UTM tags",
           href: "/en/blog/utm-metki/",
         },
         {
@@ -120,13 +120,13 @@ export const strategiiYandeksDirektEn: BlogPost = {
       title: "Feedback beats the strategy button",
       level: 2,
       paras: [
-        "Even a strong specialist is helpless if CRM only says “someone called” without statuses and amounts. Cleaner lead and sales data means more precise bids and auto-strategies.",
-        "A strategy distributes budget. Campaign result = demand × offer × landing × accounting. A ads account button doesn’t replace that chain.",
+        "Even a strong media buyer is stuck if CRM only says “someone called” with no status or deal value. Cleaner lead and sales data means sharper bids and better auto-strategies.",
+        "A strategy allocates budget. Campaign result = demand × offer × landing × measurement. No UI button replaces that chain.",
       ],
       notes: [
         {
-          title: "Tip",
-          text: "Don’t chase a strategy name from someone else’s case. Match conversion volume, sales-cycle length, and goal quality — then pick the optimization mode.",
+          title: "Practice",
+          text: "Don’t copy a strategy name from someone else’s case. Match conversion volume, sales-cycle length, and goal quality — then pick the optimization mode.",
           kind: "tip",
         },
       ],

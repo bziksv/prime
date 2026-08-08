@@ -5,13 +5,13 @@ export const jsonEn: BlogPost = {
   slug: "json",
   title: "JSON: what it is, how to open it, and where it’s used",
   date: "2020-03-26",
-  category: "Digital marketing",
+  category: "Websites",
   cover: "/images/blog/json/cover-en.webp",
   excerpt:
     "What JSON is: a text format for data exchange, object and array syntax, Ajax, parse vs eval safety, and how to open a .json file.",
   lead: [
-    "JSON (JavaScript Object Notation) is a text format for exchanging structured data between programs and languages. It comes from the JavaScript ecosystem but doesn’t depend on the language: Python, PHP, Go, mobile apps, and APIs all read it.",
-    "JSON shows up in APIs, configs, and feeds — learn the syntax, how to open a file, and why you mustn’t feed a foreign response into `eval`. Old IE version lists and outdated editors are skipped as noise.",
+    "JSON (JavaScript Object Notation) is a text format for exchanging structured data between programs and languages. It grew out of the JavaScript world, but it doesn’t depend on JS: Python, PHP, Go, mobile apps, and APIs all read it.",
+    "Below: why JSON shows up on sites, how the syntax works, how to open a file, and why you must never feed a foreign response into `eval`. Old IE version lists and outdated editors are skipped as noise.",
   ],
   faq: [
     {
@@ -20,19 +20,19 @@ export const jsonEn: BlogPost = {
     },
     {
       q: "How is it different from XML?",
-      a: "Usually more compact and simpler for JS/APIs. XML is stronger with schemas and mixed markup content. For web APIs today, JSON is more common.",
+      a: "Usually more compact and simpler for JS/APIs. XML is stronger with schemas and mixed markup. For web APIs today, JSON is more common.",
     },
     {
       q: "How do I open a .json file?",
-      a: "Any text editor or IDE with highlighting. In a browser — an extension/viewer or paste into an online validator. For production, an editor with a formatter is better.",
+      a: "Any text editor or IDE with highlighting. In a browser — an extension/viewer or paste into an online validator. For production work, prefer an editor with a formatter.",
     },
     {
       q: "Can I parse JSON with eval?",
-      a: "Not in real projects. Use `JSON.parse` / the language’s built-in parsers. `eval` executes code and opens XSS/injection risks.",
+      a: "Not in real projects. Use `JSON.parse` or the language’s built-in parsers. `eval` executes code and opens XSS/injection risk.",
     },
     {
       q: "What is JSON5?",
-      a: "An extension with comments and looser syntax. Handy in human configs; for API exchange you usually stay with strict JSON.",
+      a: "An extension with comments and looser syntax. Handy in human-edited configs; for API exchange you usually stay with strict JSON.",
     },
   ],
   sections: [
@@ -41,16 +41,16 @@ export const jsonEn: BlogPost = {
       level: 2,
       paras: [
         "Web classic: the browser requests data from the server (Ajax / `fetch`), gets JSON, and updates the page without a full reload — feed, catalog, cart, dashboard.",
-        "Also: REST/GraphQL responses, front-end configs, local settings storage, exchange between microservices and a mobile client.",
+        "Also: REST/GraphQL responses, front-end configs, local settings storage, and exchange between microservices and a mobile client.",
       ],
       lists: [
         {
           intro: "Typical scenarios:",
           items: [
-            "site and mobile app APIs;",
-            "loading blocks without a full reload;",
-            "exports and integrations;",
-            "dev-tool configs.",
+            "site and mobile app APIs",
+            "loading blocks without a full reload",
+            "exports and integrations",
+            "dev-tool configs",
           ],
         },
       ],
@@ -65,45 +65,45 @@ export const jsonEn: BlogPost = {
       title: "Syntax: objects and arrays",
       level: 2,
       paras: [
-        "Two frames: object `{ \"key\": value }` and array `[ value1, value2 ]`. Object keys are quoted strings. Values: string, number, `true`/`false`, `null`, nested object or array.",
-        "Store phones and leading zeros as strings: `\"84959000000\"`, not numbers — or you lose the format. Strict JSON doesn’t allow a trailing comma after the last element.",
+        "Two building blocks: object `{ \"key\": value }` and array `[ value1, value2 ]`. Object keys are quoted strings. Values: string, number, `true`/`false`, `null`, nested object or array.",
+        "Store phones and leading zeros as strings: `\"84959000000\"`, not numbers — or you lose the format. Strict JSON does not allow a trailing comma after the last element.",
         "Spaces and line breaks help humans; over the wire you often send a compact one-liner — same meaning.",
       ],
       lists: [
         {
           intro: "Common beginner mistakes:",
           items: [
-            "single quotes instead of double;",
-            "comma after the last field;",
-            "`//` comments in strict JSON;",
-            "numbers where a string is needed (phone, SKU).",
+            "single quotes instead of double",
+            "a comma after the last field",
+            "`//` comments in strict JSON",
+            "numbers where a string is needed (phone, SKU)",
           ],
         },
       ],
       notes: [
         {
           title: "Example",
-          text: '`{"name":"Anna","tags":["seo","content"],"active":true}` — an object with an array and a boolean. Nest another object as a key value — you get a tree of any depth.',
+          text: '`{"name":"Anna","tags":["seo","content"],"active":true}` — an object with an array and a boolean. Nest another object as a key’s value and you get a tree of any depth.',
           kind: "tip",
         },
       ],
     },
     {
-      title: "Ajax, API, and security",
+      title: "Ajax, APIs, and security",
       level: 2,
       paras: [
         "The client requests a URL; the server responds with a JSON body and a header like `Content-Type: application/json`. In modern JS, `fetch` + `response.json()` is enough — no `eval`.",
-        "Historical same-origin workarounds (JSONP, injecting `<script>`) widened the attack surface. For new projects — CORS and plain JSON over HTTPS.",
+        "Historical same-origin workarounds (JSONP, injecting `<script>`) widened the attack surface. For new projects use CORS and plain JSON over HTTPS.",
         "Never execute foreign JSON as code. Parse with a built-in parser and validate fields on the server if data goes into a DB or affects permissions.",
       ],
       lists: [
         {
           intro: "Security rules:",
           items: [
-            "only `JSON.parse` / language equivalent;",
-            "don’t trust client fields without checks;",
-            "HTTPS for sensitive responses;",
-            "don’t put secrets in public front-end JSON.",
+            "only `JSON.parse` / the language equivalent",
+            "don’t trust client fields without checks",
+            "HTTPS for sensitive responses",
+            "don’t put secrets in public front-end JSON",
           ],
         },
       ],
@@ -125,10 +125,10 @@ export const jsonEn: BlogPost = {
         {
           intro: "Practical minimum:",
           items: [
-            "an editor with JSON highlighting;",
-            "pretty-print for reading;",
-            "validation before shipping a feed/config;",
-            "diff in git, not blind edits on the server.",
+            "an editor with JSON highlighting",
+            "pretty-print for reading",
+            "validation before shipping a feed or config",
+            "diff in git, not blind edits on the server",
           ],
         },
       ],

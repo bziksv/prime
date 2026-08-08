@@ -11,7 +11,7 @@ export const excelGoogleTablitsyEn: BlogPost = {
     "How to process keywords in Excel and Google Sheets: strip links and plus signs, fix spaces, remove duplicates, build negatives, sort, and use useful formulas — without Key Collector.",
   lead: [
     "Building a keyword set is also spreadsheet work: Wordstat exports, competitor lists, frequencies, cluster tags. Excel and Google Sheets cover about 80% of daily cleanup if you know a few moves.",
-    "The operations you’ll use most often on the keyword set — from “remove hyperlinks” to finding duplicates and negatives. Formulas below use Excel’s Russian locale where it matters; in Google Sheets the function names are usually English (TRIM, UNIQUE, IF).",
+    "Below: the operations you’ll use most often on the keyword set — from “remove hyperlinks” to finding duplicates and negatives. Formulas use Excel’s Russian locale where it matters; in Google Sheets the function names are usually English (TRIM, UNIQUE, IF).",
   ],
   faq: [
     {
@@ -43,8 +43,8 @@ export const excelGoogleTablitsyEn: BlogPost = {
       a: "Yes as a working mark. For reports, a separate “cluster” column is better — easier to filter and pivot.",
     },
     {
-      q: "Does this speed up rankings?",
-      a: "Spreadsheets save time preparing the keyword set. Cluster ranks build after on-site work over months (ranking timeline of 2–6 months) — not from a cell formula.",
+      q: "Does this speed up page-one rankings?",
+      a: "Spreadsheets save time preparing the keyword set. Cluster ranks build after on-site work over months (often 2–6 months) — not from a cell formula.",
     },
   ],
   sections: [
@@ -83,7 +83,7 @@ export const excelGoogleTablitsyEn: BlogPost = {
       level: 2,
       paras: [
         "After a Wordstat copy-paste, remove hyperlinks: right-click the range → Remove hyperlinks (in Sheets, unlink / paste without formatting). Otherwise filters and formulas behave oddly.",
-        "Special characters like “+” from search operators — remove via Find and Replace (Ctrl/Cmd+H): find `+`, replace with empty. Extra spaces — `=TRIM(A2)` (Excel RU locale: `=СЖПРОБЕЛЫ(A2)`), then paste values on top.",
+        "Special characters like “+” from search operators — remove via Find and Replace (Ctrl/Cmd+H): find `+`, replace with empty. Extra spaces — `=TRIM(A2)` (Excel RU locale: `=СЖПРОБЕЛЫ(A2)`), then paste values over the formulas.",
       ],
       lists: [
         {
@@ -102,7 +102,7 @@ export const excelGoogleTablitsyEn: BlogPost = {
       title: "Sorting, duplicates, and lookalike phrases",
       level: 2,
       paras: [
-        "Two columns “query | frequency”: select both and sort by frequency or alphabetically by query. It’s easier to cut the long tail or find head candidates for a cluster.",
+        "Two columns “query | frequency”: select both and sort by frequency or alphabetically by query. It’s easier to cut the long tail or find high-frequency candidates for a cluster.",
         "Duplicates: conditional formatting for duplicate values, or Remove Duplicates. In Google Sheets, `=UNIQUE(A2:A)` is handy. Normalize the string before dedupe — otherwise “Buy windows” and “buy  windows” stay different.",
       ],
       lists: [
@@ -196,7 +196,7 @@ export const excelGoogleTablitsyEn: BlogPost = {
         {
           title: "Timelines",
           kind: "tip",
-          text: "Keyword cleanup in spreadsheets takes hours or days. That’s a prep stage, not a top-10 date.",
+          text: "Keyword cleanup in spreadsheets takes hours or days. That’s a prep stage, not a page-one date.",
         },
       ],
     },

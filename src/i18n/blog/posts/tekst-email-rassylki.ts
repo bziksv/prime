@@ -11,7 +11,7 @@ export const tekstEmailRassylkiEn: BlogPost = {
     "How to write email copy: goals and segments, audience language, message types (welcome, sales, order), persuasion techniques, and a pre-send check — without the myth that “email is dead.”",
   lead: [
     "Design and personalization won’t save empty copy: if the email has no value and a clear next step, the subscriber closes it in seconds.",
-    "Use this five-step plan: goal → reader → content → persuasion → check. Don’t treat “ROI over 28%” figures from old roundups as a guarantee — measure your own economics.",
+    "Below: a five-step plan — goal → reader → content → persuasion → check. Don’t treat “ROI over 28%” figures from old roundups as a guarantee — measure your own economics.",
   ],
   faq: [
     {
@@ -55,10 +55,10 @@ export const tekstEmailRassylkiEn: BlogPost = {
         {
           intro: "Before the draft:",
           items: [
-            "one email goal;",
-            "segment (new / loyal / “asleep”);",
-            "desired action;",
-            "2–3 audience objections.",
+            "one email goal",
+            "segment (new / loyal / “asleep”)",
+            "desired action",
+            "2–3 audience objections",
           ],
         },
       ],
@@ -98,12 +98,19 @@ export const tekstEmailRassylkiEn: BlogPost = {
         {
           intro: "Checklist before Send:",
           items: [
-            "goal and CTA match;",
-            "copy reads aloud;",
-            "no “one to all” without a segment;",
-            "test email to yourself/a colleague;",
-            "list with consent.",
+            "goal and CTA match",
+            "copy reads aloud",
+            "no “one to all” without a segment",
+            "test email to yourself/a colleague",
+            "list with consent",
           ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Important",
+          text: "Claims like “28% ROI” and “order emails open 8× more” are guides from old roundups, not your guarantee. Count conversions and complaints on your own list.",
         },
       ],
       links: [
@@ -114,10 +121,6 @@ export const tekstEmailRassylkiEn: BlogPost = {
       ],
     },
   ],
-  notes: {
-    title: "Important",
-    text: "Claims like “28% ROI” and “order emails open 8× more” are guides from old roundups, not your guarantee. Count conversions and complaints on your own list.",
-  },
   closing: [
     "Lock the goal and segment, gather audience language, pick the email type, and run the checklist before send — so newsletter copy starts selling and helping, not just “taking space in the inbox.”",
   ],

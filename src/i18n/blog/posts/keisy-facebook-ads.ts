@@ -3,7 +3,7 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for keisy-facebook-ads — same structure as RU JSON. */
 export const keisyFacebookAdsEn: BlogPost = {
   slug: "keisy-facebook-ads",
-  title: "Facebook Ads case studies: mistakes and lessons from winning campaigns",
+  title: "Facebook Ads case studies: mistakes and lessons that travel",
   date: "2020-11-03",
   category: "SMM",
   cover: "/images/blog/keisy-facebook-ads/cover-en.webp",
@@ -11,8 +11,12 @@ export const keisyFacebookAdsEn: BlogPost = {
     "Typical Meta/Facebook ads mistakes and practical lessons from other people’s campaigns: goal, segment, tests, landing, and remarketing — without copying someone else’s ROI as a guarantee.",
   lead: [
     "Winning Facebook Ads / Meta Ads campaigns rarely hang on one genius creative. More often you win with a clear goal, a narrow segment, ad→landing fit, tests, and bringing warm audiences back.",
-    "Public cases (Hubbard, Fernandez, MyBike Cycles, Green Arrow, Webris and similar) show recurring mistakes and lessons. Revenue and CPA figures from other reports illustrate someone else’s period, not your plan. How the ads dashboard works — in a separate article. Meta disclaimer — on the page.",
+    "Below: common mistakes and lessons from public cases (Hubbard, Fernandez, MyBike Cycles, Green Arrow, Webris and similar). Revenue and CPA figures from other reports illustrate someone else’s period, not your plan. How the ads manager works is a separate article. The Meta notice is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. Facebook* and Instagram* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Can you repeat someone else’s 8x ROI?",
@@ -40,19 +44,19 @@ export const keisyFacebookAdsEn: BlogPost = {
       title: "Common mistakes before the “pretty cases”",
       level: 2,
       paras: [
-        "Wrong goal: you optimize for likes when you need leads — learning the wrong signal. A broad “everyone” audience dilutes the signal. One or two ads with no rotation — flying blind.",
+        "Wrong goal: you optimize for likes when you need leads — learning the wrong signal. A broad “everyone” audience dilutes learning. One or two ads with no rotation is flying blind.",
         "Without tests of creative, headline, offer, and placements you lock in luck. Ignoring an already warm base and lacking a landing that matches the ad kills conversion even with a cheap click.",
       ],
       lists: [
         {
           intro: "Pre-launch checklist:",
           items: [
-            "goal = business metric (lead, purchase, booking);",
-            "segment narrower than “all internet interests”;",
-            "2+ creatives and hypotheses;",
-            "landing answers the ad’s promise;",
-            "events/pixel checked;",
-            "remarketing plan for people who bounced.",
+            "goal = business metric (lead, purchase, booking)",
+            "segment narrower than “all internet interests”",
+            "2+ creatives and hypotheses",
+            "landing answers the ad’s promise",
+            "events/pixel checked",
+            "remarketing plan for people who bounced",
           ],
         },
       ],
@@ -82,7 +86,7 @@ export const keisyFacebookAdsEn: BlogPost = {
       title: "Lesson: lead magnet and a human tone",
       level: 2,
       paras: [
-        "Short videos and a “personal” tone in the spirit of Mary Fernandez’s case often bring subscribers cheaper than a dry banner. A lead magnet must solve a clear pain, not be an empty PDF “for the form.”",
+        "Short videos and a personal tone in the spirit of Mary Fernandez’s case often bring subscribers cheaper than a dry banner. A lead magnet must solve a clear pain, not be an empty PDF “for the form.”",
         "A low CPA per subscriber isn’t profit: count how many from the list reach payment.",
       ],
     },
@@ -90,7 +94,7 @@ export const keisyFacebookAdsEn: BlogPost = {
       title: "Lesson: remarketing and an offer with a bonus",
       level: 2,
       paras: [
-        "MyBike Cycles and similar stories show the power of a second touch: people who visited the site but didn’t buy. Emoji and a “friendly” tone are secondary next to a clear offer (delivery, discount, deadline).",
+        "MyBike Cycles and similar stories show the power of a second touch: people who visited the site but didn’t buy. Emoji and a friendly tone are secondary next to a clear offer (delivery, discount, deadline).",
         "Show the product so people want to own it. A bonus works if it’s relevant to the purchase, not covering a weak product.",
       ],
       links: [
@@ -104,7 +108,7 @@ export const keisyFacebookAdsEn: BlogPost = {
       title: "Lesson: small budget and a clear deadline",
       level: 2,
       paras: [
-        "Cases with budgets in the hundreds of dollars hang on a short offer: benefit, deadline, next step (book/pay). An image “about the audience,” not abstract stock.",
+        "Cases with budgets in the hundreds of dollars hang on a short offer: benefit, deadline, next step (book/pay). An image about the audience — not generic filler.",
         "A small budget needs a hard CPA stop and fast iterations. Don’t stretch a test for weeks with no conclusions.",
       ],
     },
@@ -113,7 +117,7 @@ export const keisyFacebookAdsEn: BlogPost = {
       level: 2,
       paras: [
         "A webinar/video series (as in Webris stories) builds trust: value first, offer later. Segment people who saw the content and cut the uninterested.",
-        "A multi-step funnel doesn’t cancel analytics: watch cost per warmed lead, not only “video reach.”",
+        "A multi-step funnel doesn’t cancel analytics: watch cost per warmed lead, not only video reach.",
       ],
       links: [
         {

@@ -5,13 +5,13 @@ export const bazyDannyhSaytaEn: BlogPost = {
   slug: "bazy-dannyh-sayta",
   title: "Website databases: organization and backup",
   date: "2021-01-15",
-  category: "Hosting",
+  category: "SEO",
   cover: "/images/blog/bazy-dannyh-sayta/cover-en.webp",
   excerpt:
     "What a site database stores, how it differs from files on disk, why backups matter, and how not to lose orders, users, and content after a failure or hack.",
   lead: [
-    "A site isn’t only HTML and images. Most live data (products, orders, users, CMS settings) sits in a database. Losing theme files hurts; losing the DB with no backup often means losing business history.",
-    "A site database holds content, users, and settings — separate from theme and media files. Back it up with the files, not “once a year on a USB stick.” Hosting snapshots help but don’t replace your own copies.",
+    "A site isn’t only HTML and images. Most live data — products, orders, users, CMS settings — sits in a database. Losing theme files hurts; losing the DB with no backup often means losing business history.",
+    "Below: how the DB relates to site files, why it exists, what can go wrong, and how to approach backups without the “once a year on a USB stick” habit.",
   ],
   faq: [
     {
@@ -27,11 +27,11 @@ export const bazyDannyhSaytaEn: BlogPost = {
       a: "No. Without a DB dump you restore an empty or stale shell without orders and content.",
     },
     {
-      q: "How often should you back up the database?",
+      q: "How often should you back up?",
       a: "Depends on change rate: a store with orders — more often (daily/hourly); a brochure site — less. Critical: a fresh copy before CMS updates and migrations.",
     },
     {
-      q: "Where should you store database backups?",
+      q: "Where should you store copies?",
       a: "Not only on the same server disk. Need a second layer: another host, object storage, company policy — with a restore test.",
     },
     {
@@ -59,11 +59,11 @@ export const bazyDannyhSaytaEn: BlogPost = {
         {
           intro: "Usually the DB holds:",
           items: [
-            "content records (pages, posts, cards);",
-            "users and roles;",
-            "CMS and plugin settings;",
-            "orders, carts, forms (if not moved to external services);",
-            "service queues, app logs (depends on the stack).",
+            "content records (pages, posts, cards)",
+            "users and roles",
+            "CMS and plugin settings",
+            "orders, carts, forms (if not moved to external services)",
+            "service queues, app logs (depends on the stack)",
           ],
         },
       ],
@@ -85,10 +85,10 @@ export const bazyDannyhSaytaEn: BlogPost = {
         {
           intro: "Before migration:",
           items: [
-            "DB dump + file archive;",
-            "compatible PHP/MySQL versions;",
-            "secrets and `.env` not in a public archive;",
-            "a plan to check forms, payment, and account after the move.",
+            "DB dump + file archive",
+            "compatible PHP/MySQL versions",
+            "secrets and `.env` not in a public archive",
+            "a plan to check forms, payment, and account after the move",
           ],
         },
       ],
@@ -104,11 +104,11 @@ export const bazyDannyhSaytaEn: BlogPost = {
         {
           intro: "Risks:",
           items: [
-            "tables deleted/corrupted on a bad update;",
-            "hacks and ransomware;",
-            "host disk failure;",
-            "human error in phpMyAdmin;",
-            "revision and junk-table bloat → slowdowns.",
+            "tables deleted/corrupted on a bad update",
+            "hacks and ransomware",
+            "host disk failure",
+            "human error in phpMyAdmin",
+            "revision and junk-table bloat → slowdowns",
           ],
         },
       ],
@@ -118,16 +118,16 @@ export const bazyDannyhSaytaEn: BlogPost = {
       level: 2,
       paras: [
         "On shared hosting often one MySQL database per site; table prefix is set at CMS install. Don’t give the app root access: a separate DB user with rights only on the needed database.",
-        "Performance: indexes, object/page cache, cleaning revisions and transients, sane limits. A “heavy” DB shows as timeouts and a slow admin — that’s engineering and hosting, not “one more SEO plugin”.",
+        "Performance: indexes, object/page cache, cleaning revisions and transients, sane limits. A heavy DB shows as timeouts and a slow admin — that’s engineering and hosting, not “one more SEO plugin.”",
       ],
       lists: [
         {
           intro: "Hygiene:",
           items: [
-            "strong DB passwords, not the same as admin;",
-            "limit remote MySQL access;",
-            "monitor DB size and slow queries;",
-            "don’t keep production dumps in `public_html`.",
+            "strong DB passwords, not the same as admin",
+            "limit remote MySQL access",
+            "monitor DB size and slow queries",
+            "don’t keep production dumps in `public_html`",
           ],
         },
       ],
@@ -137,17 +137,17 @@ export const bazyDannyhSaytaEn: BlogPost = {
       level: 2,
       paras: [
         "A DB backup is usually an SQL dump (or a volume snapshot from a cloud provider). A file backup is a code + uploads archive. Full restore = both + environment secrets.",
-        "Take copies before CMS/plugin updates and major catalog changes. Keep several restore points (e.g. day / week), not one overwriteable “latest”.",
+        "Take copies before CMS/plugin updates and major catalog changes. Keep several restore points (e.g. day / week), not one overwriteable “latest.”",
       ],
       lists: [
         {
           intro: "Backup checklist:",
           items: [
-            "what’s included: DB + files + who owns it;",
-            "schedule and retention;",
-            "storage off the same disk;",
-            "restore test on staging at least quarterly;",
-            "encrypt sensitive dumps in transit.",
+            "what’s included: DB + files + who owns it",
+            "schedule and retention",
+            "storage off the same disk",
+            "restore test on staging at least quarterly",
+            "encrypt sensitive dumps in transit",
           ],
         },
       ],
@@ -176,10 +176,10 @@ export const bazyDannyhSaytaEn: BlogPost = {
         {
           intro: "Practical order:",
           items: [
-            "live availability monitoring;",
-            "current backups with a test;",
-            "CMS updates and access control;",
-            "then the finer SEO layer.",
+            "live availability monitoring",
+            "current backups with a test",
+            "CMS updates and access control",
+            "then the finer SEO layer",
           ],
         },
       ],
@@ -191,13 +191,6 @@ export const bazyDannyhSaytaEn: BlogPost = {
         {
           label: "Technical SEO audit",
           href: "/en/blog/tehnicheskiy-seo-audit/",
-        },
-      ],
-      notes: [
-        {
-          title: "SEO timelines",
-          kind: "tip",
-          text: "Stable DB and backups restore crawl and UX. They aren’t a TOP shortcut: after the site is solid, rankings for a core are still planned over 2–6 months.",
         },
       ],
     },

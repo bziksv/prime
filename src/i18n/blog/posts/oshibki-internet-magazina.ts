@@ -8,15 +8,15 @@ export const oshibkiInternetMagazinaEn: BlogPost = {
   category: "E-commerce",
   cover: "/images/blog/oshibki-internet-magazina/cover-en.webp",
   excerpt:
-    "Hidden ecommerce mistakes: duplicates on pagination and filters, catalog mess, a useless price slider, weak photos, a region pop-up, extra pop-ups, and illogical filters.",
+    "Hidden ecommerce mistakes: duplicates on pagination and filters, a messy catalog, a useless price slider, weak photos, a region pop-up, extra modals, and illogical filters.",
   lead: [
-    "SEO audit checklists catch speed, 404s, and robots. But a store often loses sales and index on things that “technically work”: broken category sort, a price slider from zero to space, a region gate before content, and three pop-ups in a row.",
-    "These seven misses often sit outside a classic technical SEO checklist — and they still break conversion on the path to checkout. The broader catalog promotion outline is in a related article.",
+    "SEO audit checklists catch speed, 404s, and robots. Stores often lose sales and index on things that “technically work”: broken category sort, a price slider from zero to infinity, a region gate before content, and three pop-ups in a row.",
+    "Here are seven of those misses — what they break and how to fix them. The broader catalog promotion outline is in a related article; this piece is what automatic reports usually skip.",
   ],
   faq: [
     {
       q: "Is this instead of technical SEO?",
-      a: "No. Tech and semantics stay the base. These mistakes sit on top: catalog UX and templates that spoil behavior and create weak URLs.",
+      a: "No. Tech and keywords stay the base. These mistakes sit on top: catalog UX and templates that spoil behavior and spawn weak URLs.",
     },
     {
       q: "Are duplicates only from copy-pasted product cards?",
@@ -28,15 +28,15 @@ export const oshibkiInternetMagazinaEn: BlogPost = {
     },
     {
       q: "How many pop-ups are okay?",
-      a: "The fewer before the first useful action — the better. A stack of region + subscribe + coupon on entry almost always hits bounce.",
+      a: "The fewer before the first useful action, the better. A stack of region + subscribe + coupon on entry almost always hits bounce.",
     },
     {
-      q: "Should filters always be kept out of the index?",
+      q: "Should filters always stay out of the index?",
       a: "Depends on the combo’s value. Junk and near-empty slices — noindex/canonical; useful landings — plan separately.",
     },
     {
       q: "When should you expect growth after fixes?",
-      a: "UX fixes move behavior sooner. Core positions are planned over 2–6 months after a stable index — not “a week after the slider.”",
+      a: "UX fixes move behavior sooner. Rankings for the keyword set are planned over 2–6 months after a stable index — not “a week after you fixed the slider.”",
     },
   ],
   sections: [
@@ -45,7 +45,7 @@ export const oshibkiInternetMagazinaEn: BlogPost = {
       level: 2,
       paras: [
         "Duplicate content in a store often comes from the CMS: the same category SEO text on every pagination page; filter descriptions copied onto every slice; same-brand cards cloning manufacturer specs.",
-        "Second classic — a catch-all category. In “quadcopters”, page one shows screws and batteries because price sort pushes cheap consumables up. Relevance and trust drop: people look for aircraft and see spare parts.",
+        "Second classic — a catch-all category. In “quadcopters,” page one shows screws and batteries because price sort pushes cheap consumables up. Relevance and trust drop: people look for aircraft and see spare parts.",
       ],
       lists: [
         {
@@ -53,8 +53,8 @@ export const oshibkiInternetMagazinaEn: BlogPost = {
           items: [
             "unique text only on the canonical category page (not page=2…n)",
             "filters don’t clone one paragraph onto hundreds of URLs",
-            "category first screen shows products from the section name",
-            "accessories and consumables in their own sections — not mixed with core SKUs.",
+            "the category first screen shows products from the section name",
+            "accessories and consumables in their own sections — not mixed with core SKUs",
           ],
         },
       ],
@@ -74,8 +74,8 @@ export const oshibkiInternetMagazinaEn: BlogPost = {
       level: 2,
       paras: [
         "A price slider with one “cosmic” maximum is useless: sliding halfway cuts almost nothing. Better stepped ranges (“up to…”, “from… to…”) and moving outlier expensive SKUs into a premium slice.",
-        "Bad photos (scans, blur, one angle) kill commerce harder than an “imperfect” title: you can’t tell the model, so people leave for a competitor’s image search. Need clarity, several angles, a sane format, and meaningful alt.",
-        "A region pop-up and a queue of modals break first contact. Ask for city when price/delivery/offline points depend on it — and let people close without a quest. Fewer modals before product choice.",
+        "Bad photos (scans, blur, one angle) kill commerce harder than an imperfect title: you can’t tell the model, so people leave for a competitor’s image search. You need clarity, several angles, a sane format, and meaningful alt text.",
+        "A region pop-up and a queue of modals break first contact. Ask for city when price, delivery, or offline points depend on it — and let people close without a quest. Fewer modals before product choice.",
       ],
       lists: [
         {
@@ -83,7 +83,7 @@ export const oshibkiInternetMagazinaEn: BlogPost = {
           items: [
             "illogical parameter combos",
             "slices that are almost always empty",
-            "indexing junk combinations as duplicates.",
+            "indexing junk combinations as duplicates",
           ],
         },
       ],
@@ -91,7 +91,6 @@ export const oshibkiInternetMagazinaEn: BlogPost = {
         {
           title: "Quick self-test",
           text: "Walk “found category → filtered → opened a card” on mobile as a new customer. Everything you stumble on kills conversion for everyone else.",
-          kind: "tip",
         },
       ],
       links: [
@@ -110,12 +109,12 @@ export const oshibkiInternetMagazinaEn: BlogPost = {
       level: 2,
       paras: [
         "Benchmark top competitors on catalog structure and filters — borrow the useful meaning, not the layout. Find the worst niche examples and remove the same patterns at home.",
-        "Then measure: bounce and depth on categories before/after, share of empty filters, time to first product on mobile. SEO positions on the core grow separately, planned over months after a stable base.",
+        "Then measure: bounce and depth on categories before/after, share of empty filters, time to first product on mobile. Keyword rankings grow separately, planned over months after a stable base.",
       ],
     },
   ],
   closing: [
-    "The seven mistakes in this piece rarely light up red in an automatic audit — but they hit behavior and the index. Fix catalog, filters, photos, and the first screen — then return to semantics and links.",
+    "These seven mistakes rarely light up red in an automatic audit — but they hit behavior and the index. Fix catalog, filters, photos, and the first screen — then return to keywords and links.",
   ],
   related: [
     "prodvizhenie-internet-magazina",

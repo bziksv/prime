@@ -3,8 +3,7 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for shaut-instagram — same structure as RU JSON. */
 export const shautInstagramEn: BlogPost = {
   slug: "shaut-instagram",
-  title:
-    "Shoutouts (SFS) on Instagram*: how to run them, pros and cons",
+  title: "Shoutouts (SFS) on Instagram*: how to run them, pros and cons",
   date: "2021-04-08",
   category: "SMM",
   cover: "/images/blog/shaut-instagram/cover-en.webp",
@@ -12,10 +11,10 @@ export const shautInstagramEn: BlogPost = {
     "What a shoutout (shout for shout, SFS) on Instagram* is: mutual mentions, contest format, pros and cons — without the myth that it’s “free and always effective.”",
   lead: [
     "A shoutout (SFS, shout for shout) is a mutual mention: you show a partner’s content or profile, they show yours. The goal is to introduce audiences and get new followers or leads.",
-    "We cover how to organize a shoutout swap and where the method breaks. It isn’t magic free traffic—partner quality and how often you promote decide. Meta* product disclaimer is on the page.",
+    "Below: how to organize a shoutout swap and where the method breaks. It isn’t magic free traffic — partner quality and how often you promote decide. The Meta* product disclaimer is on the page.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -25,7 +24,7 @@ export const shautInstagramEn: BlogPost = {
     },
     {
       q: "Is a shoutout always free?",
-      a: "The mention swap has no platform fee. Time to pick partners, design, and risk of a “dead” audience still cost resources. Sometimes a partner asks for pay on top — that’s ads.",
+      a: "The mention swap has no platform fee. Time to pick partners, design, and risk of a “dead” audience still cost resources. Sometimes a partner asks for payment separately — that’s ads.",
     },
     {
       q: "Will a shoutout help if your audience is bots?",
@@ -48,7 +47,6 @@ export const shautInstagramEn: BlogPost = {
         "You agree: “I post you — you post me” in a post, carousel, or Story. The classic #SFS hashtag marks contest entries, but the tag itself guarantees nothing.",
         "It works when audiences overlap by interest — not when someone merely “has lots of followers.”",
       ],
-      lists: [],
       links: [
         {
           label: "Business on Instagram*",
@@ -71,11 +69,11 @@ export const shautInstagramEn: BlogPost = {
         {
           intro: "In the partner message include:",
           items: [
-            "format and date;",
-            "copy/layout or who makes it;",
-            "@ tags and links;",
-            "what counts as done;",
-            "what happens if it’s postponed.",
+            "format and date",
+            "copy/layout or who makes it",
+            "@ tags and links",
+            "what counts as done",
+            "what happens if it’s postponed",
           ],
         },
       ],
@@ -97,11 +95,11 @@ export const shautInstagramEn: BlogPost = {
         {
           intro: "In the contest announcement:",
           items: [
-            "start and result dates;",
-            "what you accept (collage, Reel, Story);",
-            "selection criteria;",
-            "prizes and consolation;",
-            "ban on bots and private profiles.",
+            "start and result dates",
+            "what you accept (collage, Reel, Story)",
+            "selection criteria",
+            "prizes and consolation",
+            "ban on bots and private profiles",
           ],
         },
       ],
@@ -123,10 +121,10 @@ export const shautInstagramEn: BlogPost = {
         {
           intro: "When the benefits show:",
           items: [
-            "niche matches;",
-            "both sides have live activity;",
-            "creative doesn’t look like a spam collage;",
-            "there’s a next step (offer, site, Direct).",
+            "niche matches",
+            "both sides have live activity",
+            "creative doesn’t look like a spam collage",
+            "there’s a next step (offer, site, Direct)",
           ],
         },
       ],
@@ -142,18 +140,18 @@ export const shautInstagramEn: BlogPost = {
         {
           intro: "Cut immediately:",
           items: [
-            "profiles with no posts and zero activity;",
-            "obvious fake growth;",
-            "someone else’s niche “for the number”;",
-            "people who skipped past deals.",
+            "profiles with no posts and zero activity",
+            "obvious fake growth",
+            "someone else’s niche “for the number”",
+            "people who skipped past deals",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
-          text: "Chasing shoutout count per month instead of one quality swap with a relevant creator.",
           kind: "tip",
+          text: "Chasing shoutout count per month instead of one quality swap with a relevant creator.",
         },
       ],
     },
@@ -164,7 +162,6 @@ export const shautInstagramEn: BlogPost = {
         "Review applications and profiles by hand. In the post/Story explain why you recommend the partner — not a dry collage.",
         "Alternate SFS with normal content. After a follower spike, watch retention: if unfollows jump — the partner was a miss.",
       ],
-      lists: [],
       links: [
         {
           label: "Instagram* Insights",
@@ -179,7 +176,6 @@ export const shautInstagramEn: BlogPost = {
         "A shoutout is an audience-attention swap. It works with relevance and moderation; it breaks on bots and spam frequency.",
         "Lock deals and measure result by follows and leads — not only “we posted.”",
       ],
-      lists: [],
     },
   ],
   closing: [

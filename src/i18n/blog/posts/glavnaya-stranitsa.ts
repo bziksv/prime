@@ -8,10 +8,10 @@ export const glavnayaStranitsaEn: BlogPost = {
   category: "Websites",
   cover: "/images/blog/glavnaya-stranitsa/cover-en.webp",
   excerpt:
-    "What a homepage needs: who you are, what you offer, how you differ; header, blocks, CTA, and footer — without a wall of text or outdated “pretty design for design’s sake.”",
+    "What a homepage needs: who you are, what you offer, how you differ; header, blocks, CTA, and footer — without a wall of text or outdated pretty design for design’s sake.",
   lead: [
     "The homepage is the entry point: in seconds people should know where they landed, what value they get, and what to click next. Beauty without clarity annoys as much as an outdated look.",
-    "A frame for a corporate/services site. A separate store-front breakdown is in the e‑commerce homepage piece; which phrases not to put on the homepage — in the homepage-copy article.",
+    "Below: a frame for a corporate/services site. A separate storefront breakdown is in the e‑commerce homepage piece; which phrases not to put on the homepage — in the homepage-copy article.",
   ],
   faq: [
     {
@@ -32,7 +32,7 @@ export const glavnayaStranitsaEn: BlogPost = {
     },
     {
       q: "Does SEO matter on the homepage?",
-      a: "Brand, navigation, internal links. Don't dump the whole commercial keyword core here — landings matter more for many queries.",
+      a: "Brand, navigation, internal links. Don’t dump the whole commercial keyword core here — landings matter more for many queries.",
     },
     {
       q: "How often should it update?",
@@ -53,7 +53,7 @@ export const glavnayaStranitsaEn: BlogPost = {
       level: 2,
       paras: [
         "Who you are and for whom. What you sell or which problem you solve. How you differ from lookalikes. What to do next (call, form, catalog).",
-        "Wherever traffic came from, some people click the logo and land on the homepage — it should “assemble” the site’s meaning.",
+        "Wherever traffic came from, some people click the logo and land on the homepage — it should assemble the site’s meaning.",
       ],
       lists: [
         {
@@ -62,7 +62,7 @@ export const glavnayaStranitsaEn: BlogPost = {
             "the offer in plain words",
             "a visible CTA",
             "navigation to key sections",
-            "a contact or messenger.",
+            "a contact or messenger",
           ],
         },
       ],
@@ -76,7 +76,6 @@ export const glavnayaStranitsaEn: BlogPost = {
         "CTA: one primary goal per screen; secondary links stay quieter.",
         "Footer: site map, legal block, contacts, sometimes a form — see a separate piece.",
       ],
-      lists: [],
       links: [
         {
           label: "Site footer",
@@ -94,14 +93,14 @@ export const glavnayaStranitsaEn: BlogPost = {
       paras: [
         "Walls of “about everything” kill scanning. Cut.",
         "Offers and promos should be visible — without blinking chaos.",
-        "Images — yours or licensed; stock for stock’s sake isn’t required.",
+        "Images — yours or licensed; decorative filler art isn’t required.",
         "Benefits in moderation: three strong ones beat ten clichés.",
         "Update season and offer; a dead homepage erodes trust.",
       ],
-      lists: [],
       notes: [
         {
           title: "Design ≠ usability",
+          kind: "tip",
           text: "A modern look helps, but without clear buttons and hierarchy people leave. See usability.",
         },
       ],
@@ -121,7 +120,6 @@ export const glavnayaStranitsaEn: BlogPost = {
         "Internal links to money sections.",
         "Don’t turn the homepage into a dump of the whole keyword core.",
       ],
-      lists: [],
       links: [
         {
           label: "Meta tags",
@@ -141,7 +139,6 @@ export const glavnayaStranitsaEn: BlogPost = {
         "Header, offer, proof, CTA, footer — a sufficient frame.",
         "For a store, see the separate showcase guide.",
       ],
-      lists: [],
     },
   ],
   closing: [

@@ -11,7 +11,7 @@ export const rssEn: BlogPost = {
     "What an RSS feed is, who still benefits from it, benefits and risks for a site, how to enable a feed on a CMS — without a Feedburner cult or “link mass” promises.",
   lead: [
     "RSS is an XML feed of article teasers and links to full pages. Readers gather several sites in one reader; the site publishes new posts without forcing a homepage visit every time.",
-    "The format is less visible than in the 2010s—social and push notifications pulled attention away. For blogs, media, and docs, the feed is still useful. We cover why keep RSS, which risks to watch, and how to enable it on a typical CMS. Reader and generator lists change — check current services.",
+    "The format is less visible than in the 2010s — social and push notifications pulled attention away. For blogs, media, and docs, the feed is still useful. Below: why keep RSS, which risks to watch, and how to enable it on a typical CMS. Reader and generator lists change — check current services.",
   ],
   faq: [
     {
@@ -59,9 +59,9 @@ export const rssEn: BlogPost = {
         {
           intro: "Especially useful when:",
           items: [
-            "you publish regularly (blog, media);",
-            "docs publish a changelog;",
-            "you need a machine-readable update list.",
+            "you publish regularly (blog, media)",
+            "docs publish a changelog",
+            "you need a machine-readable update list",
           ],
         },
       ],
@@ -73,7 +73,6 @@ export const rssEn: BlogPost = {
         "A feed usually has a channel (title, description, site link) and items: title, short text, URL, date, sometimes category and image.",
         "You’ll meet RSS 2.0 and Atom. For a publisher, validity and a stable address matter more than version debates.",
       ],
-      lists: [],
     },
     {
       title: "Benefits and risks",
@@ -83,9 +82,9 @@ export const rssEn: BlogPost = {
         "Risks: feed overload for the user; aggregators copying teasers/text; mess if the feed dumps full HTML with utility blocks.",
         "Don’t expect RSS to “raise link mass by itself”: it’s a distribution channel, not a substitute for SEO and content.",
       ],
-      lists: [],
       notes: [
         {
+          kind: "tip",
           title: "Teaser vs full text",
           text: "For a commercial blog a short description + link to the article usually beats dumping the whole piece into XML.",
         },
@@ -109,7 +108,6 @@ export const rssEn: BlogPost = {
         "You can also publish XML by hand or via a plugin/service. After enabling, check the URL in a reader.",
         "App lists from 2020 age fast: pick a current reader for your OS — don’t copy old catalogs blind.",
       ],
-      lists: [],
     },
     {
       title: "Key takeaways",
@@ -119,7 +117,6 @@ export const rssEn: BlogPost = {
         "For a site the built-in CMS feed and teasers are usually enough.",
         "Someone else’s RSS as grabber fuel is a bad idea.",
       ],
-      lists: [],
     },
   ],
   closing: [

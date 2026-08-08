@@ -6,13 +6,13 @@ export const cmsInternetMagazinaEn: BlogPost = {
   title:
     "CMS for an online store: downsides of Bitrix, Magento, OpenCart, WooCommerce, and CS-Cart",
   date: "2019-03-15",
-  category: "E-commerce",
+  category: "Digital marketing",
   cover: "/images/blog/cms-internet-magazina/cover-en.webp",
   excerpt:
-    "How to pick a CMS for an online store with typical downsides in mind: 1C-Bitrix, Magento, OpenCart, WooCommerce, and CS-Cart — without 2019 price lists and the myth that the engine alone ranks you in the TOP.",
+    "How to pick a CMS for an online store with typical downsides in mind: 1C-Bitrix, Magento, OpenCart, WooCommerce, and CS-Cart — without 2019 price lists and the myth that the engine alone ranks you.",
   lead: [
     "A store CMS is the admin for catalog, orders, payments, and content. Every popular platform has strengths and a cost trade-off: license, hosting, SEO hygiene, customization, team.",
-    "This guide covers typical downsides of the five platforms teams ask about most on RU projects. We don’t copy 2019 license figures or “module for $N”: check current vendor pricing. The engine doesn’t replace SEO and UX; rankings on the keyword set take a planned 2–6 months of work — not “installed OpenCart = TOP.”",
+    "Below: typical downsides of the five platforms teams ask about most on RU projects. We don’t copy 2019 license figures or “module for $N” — check current vendor pricing. The engine doesn’t replace SEO and UX; page-one share for the core is planned over months of work, not “installed OpenCart = rankings.”",
   ],
   faq: [
     {
@@ -21,7 +21,7 @@ export const cmsInternetMagazinaEn: BlogPost = {
     },
     {
       q: "Is a free CMS always cheaper?",
-      a: "Entry is often cheaper; finish work costs more: modules, hosting, security, a developer. Count TCO (total cost of ownership) over 1–2 years.",
+      a: "Entry is often cheaper; finish work costs more: modules, hosting, security, a developer. Count TCO over one to two years.",
     },
     {
       q: "What matters more for SEO — CMS or content?",
@@ -42,17 +42,17 @@ export const cmsInternetMagazinaEn: BlogPost = {
       level: 2,
       paras: [
         "One platform’s minus is another’s plus. Bitrix is heavy for a 30-SKU storefront; OpenCart may not cover complex B2B logic out of the box.",
-        "Judge: catalog size, need for 1C, multilingual, team (in-house vs agency), speed and security needs. A demo and pilot on a data copy beat marketing “TOP-5” lists.",
+        "Judge: catalog size, need for 1C, multilingual, team (in-house vs agency), speed and security needs. A demo and pilot on a data copy beat marketing “best of five” lists.",
       ],
       lists: [
         {
           intro: "Selection checklist:",
           items: [
-            "SKU count and filters;",
-            "payment / shipping / 1C integrations;",
-            "who edits the catalog daily;",
-            "budget for licenses, build, and hosting;",
-            "SEO plan: clean URLs, canonicals, speed.",
+            "SKU count and filters",
+            "payment / shipping / 1C integrations",
+            "who edits the catalog daily",
+            "budget for licenses, build, and hosting",
+            "SEO plan: clean URLs, canonicals, speed",
           ],
         },
       ],
@@ -78,10 +78,10 @@ export const cmsInternetMagazinaEn: BlogPost = {
         {
           intro: "Typical risks:",
           items: [
-            "license and updates;",
-            "heavy hosting without optimization;",
-            "dependency on an integrator;",
-            "paying for features you never use.",
+            "license and updates",
+            "heavy hosting without optimization",
+            "dependency on an integrator",
+            "paying for features you never use",
           ],
         },
       ],
@@ -103,9 +103,9 @@ export const cmsInternetMagazinaEn: BlogPost = {
         {
           intro: "When downsides bite:",
           items: [
-            "small catalog and small budget;",
-            "no strong development team;",
-            "need a fast MVP without enterprise architecture.",
+            "small catalog and small budget",
+            "no strong development team",
+            "need a fast MVP without enterprise architecture",
           ],
         },
       ],
@@ -121,10 +121,10 @@ export const cmsInternetMagazinaEn: BlogPost = {
         {
           intro: "Where to budget effort:",
           items: [
-            "canonicals and duplicates;",
-            "clean URLs and redirects after modules;",
-            "security updates;",
-            "catalog size and load limits.",
+            "canonicals and duplicates",
+            "clean URLs and redirects after modules",
+            "security updates",
+            "catalog size and load limits",
           ],
         },
       ],
@@ -140,10 +140,10 @@ export const cmsInternetMagazinaEn: BlogPost = {
         {
           intro: "Typical pains:",
           items: [
-            "plugin zoo;",
-            "speed on shared hosting;",
-            "WP plus plugins security;",
-            "hard checkout customization.",
+            "plugin zoo",
+            "speed on shared hosting",
+            "WP plus plugins security",
+            "hard checkout customization",
           ],
         },
       ],
@@ -158,8 +158,8 @@ export const cmsInternetMagazinaEn: BlogPost = {
       notes: [
         {
           title: "Important",
-          text: "Don’t use fixed “$375 / $550 / support credits” from a 2019 article as a price list. Check current editions on the vendor site.",
           kind: "tip",
+          text: "Don’t use fixed “$375 / $550 / support credits” from a 2019 article as a price list. Check current editions on the vendor site.",
         },
       ],
     },
@@ -183,7 +183,7 @@ export const cmsInternetMagazinaEn: BlogPost = {
     },
   ],
   closing: [
-    "Bitrix, Magento, OpenCart, WooCommerce, and CS-Cart have different entry costs and different pitfalls. Choose for catalog, 1C, and the support team — and budget SEO and speed into the project instead of hoping the “right engine” alone brings TOP rankings.",
+    "Bitrix, Magento, OpenCart, WooCommerce, and CS-Cart have different entry costs and different pitfalls. Choose for catalog, 1C, and the support team — and budget SEO and speed into the project instead of hoping the “right engine” alone brings rankings.",
   ],
   related: [
     "start-internet-magazina",

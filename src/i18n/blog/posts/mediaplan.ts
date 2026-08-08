@@ -11,7 +11,7 @@ export const mediaplanEn: BlogPost = {
     "What an advertising media plan is, how it differs from a content calendar, how to build a table of channels, budget, and timelines, and where to start testing paid search — without copying someone else’s template line for line.",
   lead: [
     "A media plan is your working sheet for paid media: channels, budgets, timelines, KPIs, and who’s accountable. Without it, multi-platform campaigns turn into spend chaos and “here’s how it went” screenshot dumps.",
-    "Lock channels, budgets, timelines, and KPIs so small and large teams can see the same picture — and sketch paid search with a forecast tool, not a competitor’s spreadsheet. A template that ignores your margins and sales capacity almost always misses.",
+    "Below: why small and large businesses need a plan, which blocks to assemble, how it differs from a content plan, and how to sketch paid search with a forecast tool. A competitor template without adapting to your margins and sales capacity almost always misses.",
   ],
   faq: [
     {
@@ -101,7 +101,7 @@ export const mediaplanEn: BlogPost = {
       notes: [
         {
           kind: "tip",
-          text: "“Top SERP rows are always ads” and exact purchase shares like “60% in the evening” are simplifications from old guides. Trust your own reports by time and device.",
+          text: "“First search-result rows are always ads” and exact purchase shares like “60% in the evening” are simplifications from old guides. Trust your own reports by time and device.",
         },
       ],
     },
@@ -173,7 +173,7 @@ export const mediaplanEn: BlogPost = {
     },
   ],
   closing: [
-    "Build one table: goal, 1–2 channels for a test, budget and KPIs for two weeks — then expand only what fits the economics, not “the whole market at once.”",
+    "Build one table: goal, one or two channels for a test, budget and KPIs for two weeks — then expand only what fits the economics, not “the whole market at once.”",
   ],
   related: [
     "kontent-plan",

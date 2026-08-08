@@ -8,31 +8,31 @@ export const robotsTxtJoomlaEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/robots-txt-joomla/cover-en.webp",
   excerpt:
-    "How robots.txt works on Joomla: User-agent, Allow/Disallow, Sitemap, system paths — without a cult of the Joomla 3.3 template or an outdated Host directive as the only mirror.",
+    "How robots.txt works on Joomla: User-agent, Allow/Disallow, Sitemap, and system paths — without treating a Joomla 3.3 paste as gospel or leaning on an outdated Host line as your only mirror.",
   lead: [
-    "The `robots.txt` file sits in the site root (`https://site/robots.txt`) and tells bots which paths are better not to crawl. On Joomla it usually blocks `/administrator/`, system directories, and junk URL parameters.",
-    "We cover what the directives mean and Joomla-specific landmarks. Don’t paste a “perfect” list from Joomla 3.x guides onto Joomla 4/5—paths, SEF, and components differ. `robots.txt` doesn’t replace noindex and won’t put you in the TOP in a week.",
+    "`robots.txt` lives at the site root (`https://example.com/robots.txt`) and tells crawlers which paths to skip. On Joomla you usually block `/administrator/`, core system folders, and noisy URL parameters.",
+    "Below: what the directives mean and sensible Joomla starting points. Do not paste a “perfect” Joomla 3.x list onto Joomla 4/5 — paths, SEF, and components differ. The file does not replace noindex, and it will not put a query core on page one in a week.",
   ],
   faq: [
     {
       q: "Does Disallow mean “don’t index”?",
-      a: "No. Disallow asks not to crawl a URL. For “keep out of the index,” meta robots / X-Robots-Tag noindex is more reliable (and accessibility for checks). See the deindexing article.",
+      a: "No. Disallow asks bots not to crawl a URL. To keep a page out of the index, meta robots or X-Robots-Tag noindex is more reliable (and still checkable). See the deindexing article.",
     },
     {
-      q: "Where is the file on Joomla?",
-      a: "In the web-server root next to `index.php`, not in `/administrator/`. After edits check `/robots.txt` in the browser and in Webmaster/Search Console.",
+      q: "Where does the file live on Joomla?",
+      a: "In the web-server root next to `index.php`, not under `/administrator/`. After edits, open `/robots.txt` in the browser and in Webmaster Tools / Search Console.",
     },
     {
-      q: "Do I need the Host directive?",
-      a: "Historically Host pointed to the mirror for Yandex. Today the main thing is correct 301s, HTTPS, and the preferred host in panels. Don’t rely only on Host from a 2018 template.",
+      q: "Do you still need Host?",
+      a: "Host once pointed Yandex at a preferred host. Today what matters is correct 301s, HTTPS, and the preferred host in the panels. Do not rely only on a Host line from a 2018 template.",
     },
     {
-      q: "Should I block /media/ and /templates/?",
-      a: "Depends on the site: sometimes needed snippet assets live there. Test; a blind ban “as in the article” can hurt.",
+      q: "Should you block /media/ and /templates/?",
+      a: "It depends. Those folders sometimes hold assets used in snippets. Test; a blind ban “as in the article” can hurt.",
     },
     {
-      q: "Will a robots.txt template get me into the TOP?",
-      a: "Not directly. It’s crawl hygiene. Building a competitive core into the TOP is planned for 2–6 months of work — not a file tweak.",
+      q: "Will a robots.txt template improve rankings?",
+      a: "Not directly. It is crawl hygiene. Growing a competitive query core is separate work — typically planned over 2–6 months after the technical base is sound.",
     },
   ],
   sections: [
@@ -40,23 +40,23 @@ export const robotsTxtJoomlaEn: BlogPost = {
       title: "Why robots.txt on Joomla",
       level: 2,
       paras: [
-        "Joomla serves many system URLs: admin, components, print parameters, votes, language tails. Without rules the bot spends crawl budget on junk and sometimes pulls duplicates into the SERP.",
-        "The file doesn’t “promote” the site by itself. It cuts noise. Disallow mistakes can close needed sections — so after edits check webmaster tools.",
+        "Joomla exposes many system URLs: admin, components, print parameters, votes, language tails. Without rules, bots burn crawl budget on junk and sometimes pull duplicates into results.",
+        "The file does not “rank” the site by itself. It cuts noise. A bad Disallow can hide sections you need — so after edits, check webmaster tools.",
       ],
       lists: [
         {
-          intro: "Usually closed:",
+          intro: "Usually blocked:",
           items: [
-            "admin `/administrator/`;",
-            "core system directories;",
-            "tech parameters (print, mailto, vote, etc.);",
-            "clear duplicates like `index2.php` — case by case.",
+            "admin `/administrator/`",
+            "core system directories",
+            "tech parameters (print, mailto, vote, and similar)",
+            "obvious duplicates like `index2.php` — case by case",
           ],
         },
       ],
       links: [
         {
-          label: "Closing from indexing",
+          label: "Closing pages from indexing",
           href: "/en/blog/zakrytie-ot-indeksatsii/",
         },
         {
@@ -69,18 +69,18 @@ export const robotsTxtJoomlaEn: BlogPost = {
       title: "Main directives",
       level: 2,
       paras: [
-        "`User-agent: *` — rules for all bots; separate blocks — for Yandex / Googlebot if needed. `Disallow` blocks crawling a path; `Allow` clarifies exceptions. `Sitemap:` points to the XML map.",
-        "`Crawl-delay` was once used on weak hosting; support and meaning differ by bot — don’t treat it as mandatory. `Clean-param` (Yandex) helps with “noisy” GET parameters if they really create duplicates.",
+        "`User-agent: *` sets rules for all bots; use separate blocks for Yandex or Googlebot when you need them. `Disallow` blocks a path from crawl; `Allow` carves out exceptions. `Sitemap:` points to the XML sitemap.",
+        "`Crawl-delay` was once used on weak hosting; support and meaning differ by bot — do not treat it as mandatory. `Clean-param` (Yandex) helps with noisy GET parameters when they really spawn duplicates.",
       ],
       tables: [
         {
           caption: "What to remember",
           headers: ["Directive", "Meaning"],
           rows: [
-            ["User-agent", "Who the rule block addresses"],
-            ["Disallow / Allow", "Block / allow crawling paths"],
-            ["Sitemap", "XML map URL"],
-            ["Crawl-delay", "Pause between requests (not always important)"],
+            ["User-agent", "Who the rule block is for"],
+            ["Disallow / Allow", "Block or allow crawling paths"],
+            ["Sitemap", "XML sitemap URL"],
+            ["Crawl-delay", "Pause between requests (not always useful)"],
             ["Clean-param", "Ignore query “noise” (Yandex)"],
           ],
         },
@@ -88,8 +88,8 @@ export const robotsTxtJoomlaEn: BlogPost = {
       notes: [
         {
           title: "Syntax",
-          text: "In the real file write `User-agent: *` without angle brackets from old posts. Comments start with `#`. After edits check the file is reachable and there’s no accidental `Disallow: /` for the whole site.",
           kind: "tip",
+          text: "In the real file write `User-agent: *` — no angle brackets from old posts. Comments start with `#`. After edits, confirm the file is reachable and you did not leave an accidental `Disallow: /` that blocks the whole site.",
         },
       ],
     },
@@ -97,18 +97,18 @@ export const robotsTxtJoomlaEn: BlogPost = {
       title: "Path landmarks for Joomla",
       level: 2,
       paras: [
-        "A base set people often start with: close `/administrator/`, `/cache/`, `/cli/` (if present), `/includes/`, `/language/`, `/libraries/`, `/logs/`, `/tmp/`, and typical tech parameters (`print`, `mailto`, votes). Match the exact list to your Joomla version and SEF structure.",
-        "Aggressive bans like “everything with `?`” or all of `/media/` help on some sites and break needed URLs on others. Prefer iterations: close system junk → check coverage in panels → refine.",
+        "A common starting set: block `/administrator/`, `/cache/`, `/cli/` (if present), `/includes/`, `/language/`, `/libraries/`, `/logs/`, `/tmp/`, and typical tech parameters (`print`, `mailto`, votes). Match the exact list to your Joomla version and SEF setup.",
+        "Aggressive rules like “everything with `?`” or all of `/media/` help on some sites and break needed URLs on others. Prefer iterations: close system junk → check coverage in the panels → refine.",
       ],
       lists: [
         {
-          intro: "Minimum before publishing:",
+          intro: "Minimum before you ship:",
           items: [
-            "admin closed from crawl;",
-            "sitemap listed in `Sitemap:`;",
-            "no accidental close of important sections;",
-            "main mirror set via HTTPS/www redirects;",
-            "file served as `text/plain` from the root.",
+            "admin is closed from crawl",
+            "sitemap is listed in `Sitemap:`",
+            "important sections are not blocked by accident",
+            "the main mirror is set with HTTPS/www redirects",
+            "the file is served as `text/plain` from the root",
           ],
         },
       ],
@@ -117,7 +117,7 @@ export const robotsTxtJoomlaEn: BlogPost = {
       title: "Sample frame (not dogma)",
       level: 2,
       paras: [
-        "Below is a teaching frame of ideas—not “copy and forget.” Put your sitemap domain and adapt it to your Joomla version and real duplicates.",
+        "Below is a teaching skeleton — not “copy and forget.” Put your own sitemap domain and adapt the lines to your Joomla version and real duplicates.",
       ],
       lists: [
         {
@@ -136,8 +136,8 @@ export const robotsTxtJoomlaEn: BlogPost = {
       notes: [
         {
           title: "On Host and http://",
-          text: "Old templates wrote `Host: domen.ru` and `Sitemap: http://…`. Today prefer HTTPS map URLs and 301s to the canonical mirror. Host doesn’t replace a certificate and redirects.",
           kind: "tip",
+          text: "Old templates wrote `Host: example.com` and `Sitemap: http://…`. Prefer HTTPS sitemap URLs and 301s to the canonical host. Host does not replace a certificate or redirects.",
         },
       ],
     },
@@ -145,12 +145,12 @@ export const robotsTxtJoomlaEn: BlogPost = {
       title: "Checks after publishing",
       level: 2,
       paras: [
-        "Open `/robots.txt` in private mode; check syntax with a validator/report in Yandex Webmaster and Google Search Console. Make sure important landings aren’t under Disallow.",
-        "If a page must stay out of the index but still has links — add noindex; don’t rely on robots.txt alone.",
+        "Open `/robots.txt` in a private window. Validate syntax in Yandex Webmaster and Google Search Console reports. Confirm important landings are not under Disallow.",
+        "If a page must stay out of the index but still has inbound links, add noindex — do not rely on robots.txt alone.",
       ],
       links: [
         {
-          label: "Closing from indexing",
+          label: "Closing pages from indexing",
           href: "/en/blog/zakrytie-ot-indeksatsii/",
         },
       ],
@@ -159,13 +159,13 @@ export const robotsTxtJoomlaEn: BlogPost = {
       title: "Takeaways",
       level: 2,
       paras: [
-        "On Joomla `robots.txt` is crawl hygiene for system paths and parameters — not a ranking growth button. Adapt the template to your CMS version and check webmaster panels.",
-        "General deindexing principles and Disallow vs noindex — in a separate guide; WordPress templates are covered in the related article.",
+        "On Joomla, `robots.txt` is crawl hygiene for system paths and parameters — not a ranking lever. Adapt any template to your CMS version and verify it in webmaster panels.",
+        "General deindexing principles and Disallow vs noindex live in a separate guide; WordPress-oriented templates are covered in the related robots.txt article.",
       ],
     },
   ],
   closing: [
-    "Build `robots.txt` for your Joomla: close admin and clear tech junk, point Sitemap over HTTPS, check the file in panels — and don’t blindly copy a Disallow wall from a Joomla 3.3 article.",
+    "Build `robots.txt` for your Joomla: block admin and clear tech junk, point Sitemap over HTTPS, check the file in the panels — and do not blindly copy a Disallow wall from a Joomla 3.3 post.",
   ],
   related: [
     "zakrytie-ot-indeksatsii",

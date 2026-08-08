@@ -8,11 +8,15 @@ export const heshtegiInstagramEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/heshtegi-instagram/cover-en.webp",
   excerpt:
-    "How to choose hashtags and location tags for an Instagram business profile: niche, brand tag, place on the map — without the myth that “30 tags = rankings” or outdated 2018 formulas.",
+    "How to choose hashtags and location tags for an Instagram business profile: niche, brand tag, place on the map — without the myth that 30 tags win discovery or outdated 2018 formulas.",
   lead: [
     "A hashtag is a clickable label in the caption or a comment; a geotag is the shoot location or a business point on the map. Both help people find content outside the follower feed, but they don’t replace a strong frame and offer.",
-    "Pick tags for relevance, keep the list short, use a brand tag when it fits, and add geo when place matters for local business. Hashtag roles in the algorithm have changed: measure your own stats, not other people’s ranking guarantees.",
+    "Below: how to pick tags, how many to use, why a brand tag helps, and when geo helps local business. Hashtag roles in the algorithm have changed: measure your own stats, not other people’s discovery guarantees. The Meta notice is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Are 30 hashtags required?",
@@ -41,7 +45,7 @@ export const heshtegiInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "Hashtags group posts by topic: someone searches a niche tag and may see yours. A geotag shows content on a location feed and map — useful for cafés, salons, showrooms, hotels.",
-        "This isn’t “free ads with guaranteed clients.” Without a clear offer and regular content, tags bring random likes, not leads.",
+        "This isn’t free ads with guaranteed clients. Without a clear offer and regular content, tags bring random likes, not leads.",
         "In Insights, see where views come from: if tags contribute little, don’t inflate the list out of 2018 habit.",
       ],
       links: [
@@ -62,7 +66,7 @@ export const heshtegiInstagramEn: BlogPost = {
         "Build a pool for the brand and post types: product, service, city, format (before/after, recipe, case). Team brainstorm + reviewing strong niche posts is a solid start.",
         "In Instagram search, check post volume and the tag feed: if it’s junk, bots, or a foreign style — skip the tag even if it’s “popular.”",
         "Specific beats generic love/selfie tags: a narrow tag brings people closer to your offer. A brand tag (brand name, UGC campaign) helps collect user content — only if the audience actually uses it.",
-        "Keep a working list in notes and update it: stats tests beat someone else’s “winning 5+7+3 formula.”",
+        "Keep a working list in notes and update it: stats tests beat someone else’s winning 5+7+3 formula.",
       ],
       lists: [
         {
@@ -71,17 +75,15 @@ export const heshtegiInstagramEn: BlogPost = {
             "a few niche/local tags",
             "a couple of moderately popular topic tags",
             "1–2 brand or campaign tags",
-            "no copy-paste of the same block on every post.",
+            "no copy-paste of the same block on every post",
           ],
         },
       ],
       notes: [
         {
-          kind: "tip",
           title: "Common mistake",
-          paras: [
-            "Promising “ranking by hashtag = client flow” and chasing tags with hundreds of thousands of posts. A click without relevance and trust doesn’t convert.",
-          ],
+          kind: "tip",
+          text: "Promising “hashtag discovery = client flow” and chasing tags with hundreds of thousands of posts. A click without relevance and trust doesn’t convert.",
         },
       ],
     },
@@ -89,7 +91,7 @@ export const heshtegiInstagramEn: BlogPost = {
       title: "How many to use and how to format",
       level: 2,
       paras: [
-        "The platform limits tags per post — check the current Help for the exact cap. For engaging your own base, a short list often suffices; “filling to the max” isn’t required.",
+        "The platform limits tags per post — check the current Help for the exact cap. For engaging your own base, a short list often suffices; filling to the max isn’t required.",
         "Keep the main copy readable: meaning and CTA beat a wall of #. Put a long set in the first comment right after publish if that’s your process.",
         "Don’t change the set only for “algorithm freshness”: change when tags stop bringing relevant people or ruin the caption look.",
       ],
@@ -110,7 +112,7 @@ export const heshtegiInstagramEn: BlogPost = {
       paras: [
         "A location tag ties the post to a place: location page, map, nearby search. Local business and travel get an extra “find nearby” channel.",
         "Use a real or meaningful place (branch, event, district), not someone else’s viral spot for reach — that confuses clients and looks manipulative.",
-        "Neighbor geos can add cross-visibility, but it’s cleaner to lean on your own points and partner locations by agreement — not “parasite” on someone else’s traffic.",
+        "Neighbor geos can add cross-visibility, but it’s cleaner to lean on your own points and partner locations by agreement — not riding someone else’s traffic.",
       ],
     },
     {
@@ -127,13 +129,13 @@ export const heshtegiInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "Hashtags and geo are secondary discovery — not a content/offer replacement.",
-        "Relevance and niche beat max tag count and “ranking guarantees.”",
+        "Relevance and niche beat max tag count and discovery “guarantees.”",
         "For local business a geotag often beats a dozen generic hashtags; for online — a strong brand tag and topical labels.",
       ],
     },
   ],
   closing: [
-    "Build a short pool of 15–25 working tags by post type, add geo to upcoming posts with a sales point, and in two weeks check the Insights contribution — fairer than copying someone else’s “20-tag formula.”",
+    "Build a short pool of 15–25 working tags by post type, add geo to upcoming posts with a sales point, and in two weeks check the Insights contribution — fairer than copying someone else’s 20-tag formula.",
   ],
   related: [
     "biznes-v-instagram",

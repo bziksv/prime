@@ -3,103 +3,101 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for optimizatsiya-stranitsy — same structure as RU JSON. */
 export const optimizatsiyaStranitsyEn: BlogPost = {
   slug: "optimizatsiya-stranitsy",
-  title: "Page optimization for a keyword: on-page checklist",
+  title: "On-page SEO checklist: optimize a page for one search query",
   date: "2021-08-02",
   category: "SEO",
   cover: "/images/blog/optimizatsiya-stranitsy/cover-en.webp",
   excerpt:
-    "How to tune a landing for a query: copy, Title and H1, snippet, internal links, depth, URL, and images — without keyword stuffing or the myth “a keyword in every paragraph.”",
+    "Tune a landing page for one query: copy, title and H1, meta description, internal links, click depth, URL, and images — without stuffing or the myth that every paragraph needs the keyword.",
   lead: [
-    "On-page optimization means one page clearly answers one main intent: people get the offer, and crawlers read the topic from Title, headings, copy, and links.",
-    "A practical checklist for content and page tech. Meaning and usefulness first, then keyword use. Landing prep ≠ TOP-10: rankings usually build over 2–6 months after SEO work starts.",
+    "On-page SEO means one URL clearly answers one main intent. People get the offer; search engines read the topic from the title, headings, body, and links.",
+    "Use the checklist below for content and page tech. Lead with meaning and usefulness, then weave keywords in. Getting a landing ready is not the same as ranking: positions usually build over months after work starts.",
   ],
   faq: [
     {
-      q: "Should you start with keywords or with copy?",
-      a: "With intent and answer structure. A core keyword sets the topic; write for humans and weave keywords in naturally. See the keyword set article.",
+      q: "Should I start with keywords or with the copy?",
+      a: "Start with intent and how you’ll answer it. A target keyword sets the topic; write for humans and fold phrases in naturally. See the keyword research guide.",
     },
     {
-      q: "Should Title and H1 match?",
-      a: "No. Title is for the snippet and SERP topic; H1 is the on-page headline. Same meaning, preferably different wording.",
+      q: "Should the title tag and H1 be identical?",
+      a: "No. The title tag shapes the search snippet; the H1 is the headline on the page. Same idea, preferably different wording.",
     },
     {
-      q: "Does the keyword have to appear in the first and last paragraph?",
-      a: "No hard rule. The topic should be clear from the first screens. Stuffing the key at start and end “for the checklist” leads to spam.",
+      q: "Must the keyword appear in the first and last paragraph?",
+      a: "There’s no hard rule. The topic should be obvious from the first screen. Stuffing the phrase at the start and end “for the checklist” is how you get spammy copy.",
     },
     {
-      q: "How many characters belong in Title and description?",
-      a: "SERP guidelines shift. Keep the meaning early in Title; description — a useful paragraph with a CTA, not a keyword sheet. Check previews in Webmaster / Search Console.",
+      q: "How long should the title and meta description be?",
+      a: "SERP limits shift. Put the main meaning early in the title. Write the description as a useful line with a CTA — not a keyword dump. Check the preview in Search Console or your webmaster tools.",
     },
     {
-      q: "How is page optimization different from keyword spam?",
-      a: "Here — the page frame for a query. Keyword spam is about excessive repeats in the text. See the separate article.",
+      q: "How is this different from keyword stuffing?",
+      a: "This article is the page framework for a query. Stuffing is about repeating phrases until the text breaks. There’s a separate piece on that.",
     },
   ],
   sections: [
     {
-      title: "Content for the query",
+      title: "Write the page for one intent",
       level: 2,
       paras: [
-        "The page covers one cluster: commercial “buy/order” or informational “how/what.” Mixing intents on one URL is weaker for people and for the SERP.",
-        "Copy: unique, readable, with lists and subheads. Key keywords by meaning — not density “in every sentence.”",
+        "One URL, one cluster: commercial (“buy / order”) or informational (“how / what”). Mixing intents on the same page is weaker for readers and for search.",
+        "Make the copy unique and readable — lists and subheads help. Use key phrases where they belong in the sentence, not as density targets in every line.",
       ],
       lists: [
         {
           intro: "Copy minimum:",
           items: [
             "answer the query in the first screens",
-            "facts, prices/timelines/terms — if it’s commercial",
-            "a CTA without empty filler",
-            "check for stuffing out loud and with a density tool.",
+            "include facts, prices, timelines, or terms when it’s commercial",
+            "add a clear CTA without filler",
+            "check for stuffing out loud and with a density tool",
           ],
         },
       ],
       links: [
         {
-          label: "Keyword set",
+          label: "Keyword research",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {
-          label: "Keyword spam in text",
+          label: "Keyword stuffing in copy",
           href: "/en/blog/zaspamlennost-teksta/",
         },
       ],
     },
     {
-      title: "Title, H1, and subheads",
+      title: "Title tag, H1, and subheads",
       level: 2,
       paras: [
-        "Title is the main meta topic signal. Core meaning and key phrase nearer the start; no comma list of “cheap wholesale urgent.”",
-        "One H1 per page, different from Title, written as a human headline. H2–H3 open subtopics and secondary phrasings — they don’t repeat the same exact-match.",
+        "The title tag is the strongest on-page topic signal. Put the core meaning (and the main phrase) near the start — not a comma soup of “cheap wholesale urgent.”",
+        "Use one H1, different from the title tag, written for a human. H2–H3 open subtopics and secondary phrasing; they shouldn’t parrot the same exact-match keyword.",
       ],
       lists: [
         {
           intro: "Guidelines:",
           items: [
-            "Title: clear benefit/topic + brand if needed",
+            "title: clear benefit or topic, brand if you need it",
             "H1: one, without spam",
-            "H2: section logic, not “key1 / key2 / key3.”",
+            "H2s: real section logic — not “keyword1 / keyword2 / keyword3”",
           ],
         },
       ],
     },
     {
-      title: "Snippet and description",
+      title: "Snippet and meta description",
       level: 2,
       paras: [
-        "The SERP snippet is built from Title, description, sometimes page text. Description doesn’t “rank by itself,” but it affects CTR: promise, difference, ask.",
-        "Write 1–2 useful sentences; a keyword is fine if it doesn’t break the language. Stuffing the description kills the click.",
+        "Search results usually pull from the title, the meta description, and sometimes body text. The description doesn’t “rank by itself,” but it moves CTR: promise, difference, next step.",
+        "Write one or two useful sentences. A keyword is fine if the line still sounds human. Stuffing the description kills the click.",
       ],
-      lists: [],
     },
     {
-      title: "Internal linking and depth",
+      title: "Internal links and click depth",
       level: 2,
       paras: [
-        "Internal links from relevant pages help users and crawl. Anchors by meaning — not the same “here” on dozens of URLs.",
-        "Click depth: keep important commercial URLs close to the homepage (roughly within 2–3 clicks). “Nobody goes deeper than three” is a simplification, but hiding a service behind five menus hurts.",
+        "Links from related pages help people and crawling. Use anchors that describe the destination — not the same “click here” on dozens of URLs.",
+        "Keep important commercial pages close to the homepage (roughly within two or three clicks). “Nobody goes deeper than three” is a simplification, but burying a service behind five menus still hurts.",
       ],
-      lists: [],
       links: [
         {
           label: "SEO site structure",
@@ -112,34 +110,34 @@ export const optimizatsiyaStranitsyEn: BlogPost = {
       ],
     },
     {
-      title: "URL and images",
+      title: "URLs and images",
       level: 2,
       paras: [
-        "Human-readable URL: a short path matching the page meaning, hyphens, no parameter junk. A keyword in the URL is a weak clarity plus — not a content substitute.",
-        "Images: compression, a meaningful filename, `alt` describing the scene (not a keyword sheet). Image search is a bonus, not the main bet for a commercial page.",
+        "Use a short, readable path that matches the page, with hyphens and without parameter junk. A keyword in the URL is a small clarity win — not a substitute for good content.",
+        "Compress images, give files meaningful names, and write `alt` that describes the scene — not a keyword sheet. Image search is a bonus, not the main bet for a commercial page.",
       ],
       lists: [
         {
-          intro: "Quick checklist before publish:",
+          intro: "Quick checklist before you publish:",
           items: [
             "one main intent per URL",
-            "Title / H1 / lead aligned",
-            "internal links to/from the page",
+            "title, H1, and lead aligned",
+            "internal links to and from the page",
             "readable URL and HTTPS",
-            "alt on key images",
-            "no stuffing or copy-paste.",
+            "alt text on key images",
+            "no stuffing or copy-paste",
           ],
         },
       ],
       notes: [
         {
           title: "Timelines",
-          text: "On-page work is part of prep. Ranking for a competitive query is planned over 2–6 months after promotion starts — not the result of one Title tweak.",
+          text: "On-page work is part of prep. Ranking for a competitive query is planned over 2–6 months after promotion starts — not the result of one title tweak.",
         },
       ],
       links: [
         {
-          label: "Website URL",
+          label: "Website URLs",
           href: "/en/blog/url-adres/",
         },
       ],

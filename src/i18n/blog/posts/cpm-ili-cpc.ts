@@ -5,13 +5,13 @@ export const cpmIliCpcEn: BlogPost = {
   slug: "cpm-ili-cpc",
   title: "CPM or CPC: when to pay for impressions vs. clicks",
   date: "2021-06-29",
-  category: "Paid search",
+  category: "Digital marketing",
   cover: "/images/blog/cpm-ili-cpc/cover-en.webp",
   excerpt:
     "How cost-per-impression (CPM) differs from cost-per-click (CPC), which model fits which goal, how targeting shapes campaign economics, and why “which is better” always depends on the outcome you want.",
   lead: [
     "Digital ads usually boil down to two payment models: impressions (CPM, typically priced per 1,000) and clicks (CPC). CPM is built for reach and awareness; CPC is built for site traffic and a clearer cost per visit.",
-    "A plain look at who each model serves, where targeting and the landing page matter, and why you can’t crown a forever winner without a goal and real numbers. Old “clicks for pennies” rate cards are not a playbook — run your own tests.",
+    "Below: who each model serves, where targeting and the landing page matter, and why you can’t crown a forever winner without a goal and real numbers. Old “clicks for pennies” rate cards are not a playbook — run your own tests.",
   ],
   faq: [
     {
@@ -28,7 +28,7 @@ export const cpmIliCpcEn: BlogPost = {
     },
     {
       q: "Can I combine them?",
-      a: "Yes: run reach at the top of the funnel and click- or goal-based campaigns lower down. Linking them with remarketing is a common setup.",
+      a: "Yes: run reach higher in the funnel and click- or goal-based campaigns lower down. Linking them with remarketing is a common setup.",
     },
     {
       q: "Is CPC always cheaper for sales?",
@@ -59,9 +59,9 @@ export const cpmIliCpcEn: BlogPost = {
         {
           intro: "In short:",
           items: [
-            "CPM — “they saw me”",
-            "CPC — “they came to the site”",
-            "CPA — “they took the action you wanted”",
+            "CPM — they saw me",
+            "CPC — they came to the site",
+            "CPA — they took the action you wanted",
           ],
         },
       ],
@@ -79,7 +79,7 @@ export const cpmIliCpcEn: BlogPost = {
           items: [
             "you need awareness, not only clicks",
             "you have a strong visual or message",
-            "you’re willing to measure impact beyond “yesterday’s leads”",
+            "you’re willing to measure impact beyond yesterday’s leads",
             "the audience is narrow and well defined",
           ],
         },
@@ -96,7 +96,7 @@ export const cpmIliCpcEn: BlogPost = {
       level: 2,
       paras: [
         "Use it when you need site traffic and want to pay closer to interest: they clicked, you paid. It’s easier to control visit spend and tie cost to conversions in analytics.",
-        "Without targeting and a decent landing page, CPC is just paying for curiosity. Competition drives click prices up — that’s the market, not a “broken” model.",
+        "Without targeting and a decent landing page, CPC is just paying for curiosity. Competition drives click prices up — that’s the market, not a broken model.",
       ],
       lists: [
         {
@@ -137,13 +137,13 @@ export const cpmIliCpcEn: BlogPost = {
       level: 2,
       paras: [
         "Start with the goal: get on people’s radar, or bring buyers in now. Reach points toward CPM (and reach strategies). Site sales point toward CPC/CPA.",
-        "Then check the economics: acceptable cost per lead, margin, sales-cycle length. Test both models on a small budget and compare leads and revenue — not a “pretty” CTR.",
+        "Then check the economics: acceptable cost per lead, margin, sales-cycle length. Test both models on a small budget and compare leads and revenue — not a pretty CTR.",
       ],
       notes: [
         {
           title: "Takeaway",
-          text: "There’s no universal answer to “impressions or clicks?” without a goal. Impressions build awareness; clicks bring potential customers. They often work as a pair, not rivals.",
           kind: "tip",
+          text: "There’s no universal answer to “impressions or clicks?” without a goal. Impressions build awareness; clicks bring potential customers. They often work as a pair, not rivals.",
         },
       ],
       links: [

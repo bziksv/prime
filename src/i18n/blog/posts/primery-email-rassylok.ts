@@ -11,7 +11,7 @@ export const primeryEmailRassylokEn: BlogPost = {
     "What to learn from strong emails: two offers in one letter, a warm welcome, a progress bar, a survey, a reminder, and an honest tone — without copying someone else’s layouts one-to-one.",
   lead: [
     "Subscribers see dozens of emails a week. What stands out isn’t “the prettiest templates,” but clear offers, the right tone, and a clear next step.",
-    "We pull techniques from well-known global campaigns (Adobe, 1Password, Carnival, and others) as ideas for your list. Copying another brand’s layout is pointless; transfer the logic to your product and subscriber consent.",
+    "Below: techniques from well-known global campaigns (Adobe, 1Password, Carnival, and others) as ideas for your list. Copying another brand’s layout is pointless; transfer the logic to your product and subscriber consent.",
   ],
   faq: [
     {
@@ -51,7 +51,6 @@ export const primeryEmailRassylokEn: BlogPost = {
         "In one email Adobe put two plans side by side so the user could choose. The technique helps when the segment is still rough or the offer is ambiguous.",
         "Practice: two clear cards, brief differences, one primary CTA per option. No wall of tiny text.",
       ],
-      lists: [],
     },
     {
       title: "Welcome tone and waiting",
@@ -60,7 +59,6 @@ export const primeryEmailRassylokEn: BlogPost = {
         "1Password’s welcome set a “homey” tone and explained the pause for account confirmation. The email lowers the anxiety of “why can’t I get in yet.”",
         "Match tone to the brand: irony sounds different at a bank vs a coffee shop. Always say how long to wait and where to write support.",
       ],
-      lists: [],
       links: [
         {
           label: "Triggered emails",
@@ -84,8 +82,15 @@ export const primeryEmailRassylokEn: BlogPost = {
             "a clear CTA above the fold",
             "tone = brand",
             "mobile readability",
-            "unsubscribe and consent in order.",
+            "unsubscribe and consent in order",
           ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Important",
+          text: "Brand examples illustrate techniques as of the 2020 publication. Campaigns age; don’t promise the same metrics. Build the list with opt-in only.",
         },
       ],
       links: [
@@ -96,10 +101,6 @@ export const primeryEmailRassylokEn: BlogPost = {
       ],
     },
   ],
-  notes: {
-    title: "Important",
-    text: "Brand examples illustrate techniques as of the 2020 publication. Campaigns age; don’t promise the same metrics. Build the list with opt-in only.",
-  },
   closing: [
     "Break down 2–3 strong third-party emails into a technique (choice, tone, progress, feedback) and run one A/B on your segmented list — so inspiration becomes a result, not a layout copy.",
   ],

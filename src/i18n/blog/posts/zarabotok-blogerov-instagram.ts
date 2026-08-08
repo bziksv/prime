@@ -11,10 +11,10 @@ export const zarabotokBlogerovInstagramEn: BlogPost = {
     "How Instagram blog monetization works: ads, barter, services, admin work. Why “naked” numbers age fast and what to watch instead of myths.",
   lead: [
     "What an Instagram creator earns comes down to niche, audience quality, integration format, and whether you can sell the value to a brand — not follower count alone.",
-    "The numbers here are ballpark ranges, not a 2026 rate card. Markets and algorithms shift; treat them as low / mid / high bands and validate against live deals in your niche.",
+    "The numbers below are ballpark ranges, not a 2026 rate card. Markets and algorithms shift; treat them as low / mid / high bands and validate against live deals in your niche.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -51,10 +51,10 @@ export const zarabotokBlogerovInstagramEn: BlogPost = {
         {
           intro: "Who this model really fits:",
           items: [
-            "people who make content steadily;",
-            "people who can talk in DMs and comments;",
-            "people ready for a long runway without fast guarantees;",
-            "people who adapt when platform formats change.",
+            "people who make content steadily",
+            "people who can talk in DMs and comments",
+            "people ready for a long runway without fast guarantees",
+            "people who adapt when platform formats change",
           ],
         },
       ],
@@ -69,17 +69,18 @@ export const zarabotokBlogerovInstagramEn: BlogPost = {
         {
           intro: null,
           items: [
-            "Paid integrations (post, Stories, series, collab) — the main market for many.",
-            "Own products and services — courses, consulting, physical goods, booking a service.",
-            "Admin and SMM for other accounts — income from skill, not only a personal brand.",
-            "Custom content production — copy, photo, edit, design.",
-            "Barter — product/service for an integration; not always cash, but eases cash flow early on.",
+            "Paid integrations (post, Stories, series, collab) — the main market for many",
+            "Own products and services — courses, consulting, physical goods, booking a service",
+            "Admin and SMM for other accounts — income from skill, not only a personal brand",
+            "Custom content production — copy, photo, edit, design",
+            "Barter — product/service for an integration; not always cash, but eases cash flow early on",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
+          kind: "tip",
           text: "Building income on fake-engagement exchanges and “tasks for pennies”. Side money with a ceiling and dubious portfolio value.",
         },
       ],
@@ -88,18 +89,18 @@ export const zarabotokBlogerovInstagramEn: BlogPost = {
       title: "Benchmarks for paid integrations",
       level: 2,
       paras: [
-        "The market has always quoted wide ranges: smaller accounts often land in the hundreds to low thousands per Stories or post; mid-size profiles in the tens of thousands of followers can run into the thousands or tens of thousands per placement; top media names go much higher. Re-check today by niche, city, and engagement rate.",
+        "The market has always quoted wide ranges: smaller accounts often land in the hundreds to low thousands per Stories or post; mid-size profiles in the tens of thousands of followers can run into the thousands or tens of thousands per placement; major media names go much higher. Re-check today by niche, city, and engagement rate.",
         "Brands buy relevant attention, not a vanity number. An 8–15K account with a warm, on-topic audience can outprice a hollow 100K profile.",
       ],
       lists: [
         {
           intro: "What affects the fee:",
           items: [
-            "audience fit to the product;",
-            "engagement and comment quality;",
-            "how often ads appear in the feed (is the blog over-saturated);",
-            "format: one Story vs a series vs post+Stories;",
-            "reporting: screenshots, promo code, UTM, survey.",
+            "audience fit to the product",
+            "engagement and comment quality",
+            "how often ads appear in the feed (is the blog over-saturated)",
+            "format: one Story vs a series vs post+Stories",
+            "reporting: screenshots, promo code, UTM, survey",
           ],
         },
       ],
@@ -126,10 +127,10 @@ export const zarabotokBlogerovInstagramEn: BlogPost = {
         {
           intro: "How to package a service:",
           items: [
-            "a clear 30-day outcome;",
-            "what’s in / out of scope;",
-            "which metrics in the report;",
-            "1–2 work samples.",
+            "a clear 30-day outcome",
+            "what’s in / out of scope",
+            "which metrics in the report",
+            "1–2 work samples",
           ],
         },
       ],
@@ -151,10 +152,10 @@ export const zarabotokBlogerovInstagramEn: BlogPost = {
         {
           intro: "Minimum in a commercial pitch:",
           items: [
-            "who the audience is and why it helps the brand;",
-            "formats and timelines;",
-            "past integrations or a media kit;",
-            "how the client will see results.",
+            "who the audience is and why it helps the brand",
+            "formats and timelines",
+            "past integrations or a media kit",
+            "how the client will see results",
           ],
         },
       ],
@@ -170,11 +171,11 @@ export const zarabotokBlogerovInstagramEn: BlogPost = {
         {
           intro: "Before monetization, lock:",
           items: [
-            "header positioning (who you are and for whom);",
-            "a unified visual frame;",
-            "a 2–4 week content plan;",
-            "a clear CTA (message / click / buy);",
-            "a habit of reviewing stats weekly.",
+            "header positioning (who you are and for whom)",
+            "a unified visual frame",
+            "a 2–4 week content plan",
+            "a clear CTA (message / click / buy)",
+            "a habit of reviewing stats weekly",
           ],
         },
       ],
@@ -196,16 +197,17 @@ export const zarabotokBlogerovInstagramEn: BlogPost = {
         {
           intro: "Before an integration:",
           items: [
-            "agree the brief and stop words;",
-            "keep 80%+ regular content around the ad;",
-            "allow time for revisions;",
-            "decide how you’ll measure results in advance.",
+            "agree the brief and stop words",
+            "keep 80%+ regular content around the ad",
+            "allow time for revisions",
+            "decide how you’ll measure results in advance",
           ],
         },
       ],
       notes: [
         {
           title: "Practice",
+          kind: "tip",
           text: "Clients more often ask for actions, not “reach”: promo code, UTM, leads. Build that into the offer — easier to defend the price.",
         },
       ],

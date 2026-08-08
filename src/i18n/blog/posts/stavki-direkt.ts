@@ -11,7 +11,7 @@ export const stavkiDirektEn: BlogPost = {
     "How bidding works in Yandex Direct: manual and automated control, impressions, click price, and what to watch beyond “bid higher.”",
   lead: [
     "A bid in Direct affects show chance and click price, but doesn’t lock a position forever. Auction, ad quality, and landing relevance decide together.",
-    "The Direct UI changes — check current strategy names in Yandex Help. We focus on managing bids and impressions without chasing “first place” at any cost.",
+    "Below: the logic of managing bids and impressions. The Direct UI changes — check current strategy names in Yandex Help.",
   ],
   faq: [
     {
@@ -49,16 +49,16 @@ export const stavkiDirektEn: BlogPost = {
       level: 2,
       paras: [
         "Set strategy at campaign or group level, cap the daily budget, check geo and schedule. Keep keywords, ads, and landing aligned in meaning.",
-        "Before launch, define what counts as a result: lead, call, order, or signup. Then the bid isn’t a “visibility number” — it’s part of an acceptable acquisition-cost calc.",
+        "Before launch, define what counts as a result: lead, call, order, or signup. Then the bid isn’t a visibility number — it’s part of an acceptable acquisition-cost calc.",
       ],
       lists: [
         {
           intro: "Before raising a bid:",
           items: [
-            "are there conversions from this keyword;",
-            "is budget leaking into irrelevance;",
-            "does the landing load fast;",
-            "is the ad approved and clickable.",
+            "are there conversions from this keyword",
+            "is budget leaking into irrelevance",
+            "does the landing load fast",
+            "is the ad approved and clickable",
           ],
         },
       ],
@@ -80,11 +80,11 @@ export const stavkiDirektEn: BlogPost = {
         {
           intro: "Levers:",
           items: [
-            "bid / strategy;",
-            "budget;",
-            "adjustments;",
-            "ad quality;",
-            "negatives and placement exclusions (for networks).",
+            "bid / strategy",
+            "budget",
+            "adjustments",
+            "ad quality",
+            "negatives and placement exclusions (for networks)",
           ],
         },
       ],
@@ -93,17 +93,17 @@ export const stavkiDirektEn: BlogPost = {
       title: "Tools and common sense",
       level: 2,
       paras: [
-        "Direct wizards and recommendations are hints, not orders. Cross-check them with unit economics. Don’t chase “first place” at any cost.",
+        "Direct wizards and recommendations are hints, not orders. Cross-check them with unit economics. Don’t chase the top ad slot at any cost.",
         "Compare not average position, but spend → conversions → revenue. Sometimes a less visible impression brings cheaper leads, while the most expensive traffic only builds pretty stats.",
       ],
       lists: [
         {
           intro: "Mistakes:",
           items: [
-            "bidding for bidding’s sake without goals;",
-            "one bid for all keywords of different value;",
-            "ignoring mobile traffic;",
-            "no link to Yandex Metrika.",
+            "bidding for bidding’s sake without goals",
+            "one bid for all keywords of different value",
+            "ignoring mobile traffic",
+            "no link to Yandex Metrika",
           ],
         },
       ],
@@ -125,10 +125,10 @@ export const stavkiDirektEn: BlogPost = {
         {
           intro: "Before turning on an auto strategy, check:",
           items: [
-            "Metrika goals match real inquiries;",
-            "duplicate goals and test leads are excluded;",
-            "the campaign has enough budget to learn;",
-            "traffic types aren’t mixed without a reason.",
+            "Metrika goals match real inquiries",
+            "duplicate goals and test leads are excluded",
+            "the campaign has enough budget to learn",
+            "traffic types aren’t mixed without a reason",
           ],
         },
       ],
@@ -144,18 +144,11 @@ export const stavkiDirektEn: BlogPost = {
         {
           intro: "Weekly checks that help:",
           items: [
-            "search terms and new negatives;",
-            "gap between spend and target CPA;",
-            "forms, call tracking, and goals;",
-            "competition and seasonality shifts.",
+            "search terms and new negatives",
+            "gap between spend and target CPA",
+            "forms, call tracking, and goals",
+            "competition and seasonality shifts",
           ],
-        },
-      ],
-      notes: [
-        {
-          title: "SEO vs paid",
-          kind: "tip",
-          text: "Bids buy traffic now. Organic rankings for a core grow separately: site prep roughly weeks to a month; TOP planned 2–6 months of work — not “raise CPC and ranks follow.”",
         },
       ],
     },

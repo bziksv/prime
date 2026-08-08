@@ -11,7 +11,7 @@ export const voronkaProdazhGtmEn: BlogPost = {
     "How to tag an ecommerce funnel with Google Tag Manager and watch drop-offs in GA4: catalog → cart → checkout → order, using events instead of outdated Universal Analytics “virtual pages.”",
   lead: [
     "A sales funnel in analytics isn’t a “magic GTM button” — it’s an agreed chain of purchase steps and events that show where people drop off.",
-    "Choose funnel steps that match real checkout, send events to GA4 via GTM, and read drop-offs before you redesign the form. Basic GTM setup is a separate article; here the focus is checkout — not Universal Analytics screenshots from old tutorials.",
+    "Below: why the funnel matters, how to choose steps, how to send events to GA4 via GTM, and how to read drop-offs. Basic GTM (container, tags, Preview) is a separate article; here the focus is checkout. We don’t copy Universal Analytics screenshots or hard “virtual page” recipes from old guides.",
   ],
   faq: [
     {
@@ -47,11 +47,11 @@ export const voronkaProdazhGtmEn: BlogPost = {
         {
           intro: "Typical jobs:",
           items: [
-            "track interest in catalog and product pages;",
-            "see add_to_cart and begin_checkout share;",
-            "catch exits before payment;",
-            "link drop-off to a specific page or error;",
-            "check the effect of A/B tests and releases.",
+            "track interest in catalog and product pages",
+            "see add_to_cart and begin_checkout share",
+            "catch exits before payment",
+            "link drop-off to a specific page or error",
+            "check the effect of A/B tests and releases",
           ],
         },
       ],
@@ -77,12 +77,12 @@ export const voronkaProdazhGtmEn: BlogPost = {
         {
           intro: "Example chain:",
           items: [
-            "view_item / product view;",
-            "add_to_cart;",
-            "view_cart;",
-            "begin_checkout;",
-            "add_shipping_info / add_payment_info (if present);",
-            "purchase / generate_lead on thank-you page.",
+            "view_item / product view",
+            "add_to_cart",
+            "view_cart",
+            "begin_checkout",
+            "add_shipping_info / add_payment_info (if present)",
+            "purchase / generate_lead on thank-you page",
           ],
         },
       ],
@@ -105,11 +105,11 @@ export const voronkaProdazhGtmEn: BlogPost = {
         {
           intro: "Container minimum:",
           items: [
-            "GA4 / Google tag config without a theme duplicate;",
-            "triggers on key steps;",
-            "stable event names across releases;",
-            "check in Preview and DebugView;",
-            "cookie consent accounted for in tag conditions.",
+            "GA4 / Google tag config without a theme duplicate",
+            "triggers on key steps",
+            "stable event names across releases",
+            "check in Preview and DebugView",
+            "cookie consent accounted for in tag conditions",
           ],
         },
       ],
@@ -135,11 +135,11 @@ export const voronkaProdazhGtmEn: BlogPost = {
         {
           intro: "What to watch first:",
           items: [
-            "share reaching each step;",
-            "the step with the biggest drop;",
-            "device differences;",
-            "payment or form validation errors;",
-            "time on step (if available).",
+            "share reaching each step",
+            "the step with the biggest drop",
+            "device differences",
+            "payment or form validation errors",
+            "time on step (if available)",
           ],
         },
       ],
@@ -155,11 +155,11 @@ export const voronkaProdazhGtmEn: BlogPost = {
         {
           intro: "Working hypotheses:",
           items: [
-            "simplify checkout and cut extra exits;",
-            "show shipping and payment earlier;",
-            "fix broken buttons and validation;",
-            "speed up the mobile cart;",
-            "don’t treat retargeting as a substitute for decent UX.",
+            "simplify checkout and cut extra exits",
+            "show shipping and payment earlier",
+            "fix broken buttons and validation",
+            "speed up the mobile cart",
+            "don’t treat retargeting as a substitute for decent UX",
           ],
         },
       ],
@@ -181,11 +181,11 @@ export const voronkaProdazhGtmEn: BlogPost = {
         {
           intro: "Short takeaway:",
           items: [
-            "describe the site’s real steps;",
-            "send GA4 events via GTM;",
-            "don’t duplicate counters;",
-            "read drop-offs and fix UX;",
-            "don’t copy UA-era pageview guides.",
+            "describe the site’s real steps",
+            "send GA4 events via GTM",
+            "don’t duplicate counters",
+            "read drop-offs and fix UX",
+            "don’t copy UA-era pageview guides",
           ],
         },
       ],

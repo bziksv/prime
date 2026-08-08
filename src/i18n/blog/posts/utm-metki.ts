@@ -11,7 +11,7 @@ export const utmMetkiEn: BlogPost = {
     "Why UTM tags matter, which parameters are required (source, medium, campaign), how to name values without report chaos, and how to read them in Metrica and Google Analytics.",
   lead: [
     "UTM tags are URL parameters that pass source, channel, and campaign into analytics. Without them it’s hard to see which ad, email, or post brought the lead — not just “/cpc.”",
-    "Lock a value convention the whole team shares: source, medium, campaign first, optional term and content when you need finer splits. Link builders speed typing; you still own the dictionary.",
+    "Below: tag structure, required and optional fields, naming rules, and common mistakes. Link builders speed typing; you still own the value convention.",
   ],
   faq: [
     {
@@ -23,7 +23,7 @@ export const utmMetkiEn: BlogPost = {
       a: "Usually source, medium, and campaign. Without the required set the rest often isn’t attributed correctly.",
     },
     {
-      q: "Do I need UTM tags for organic traffic?",
+      q: "Do I need UTM for organic traffic?",
       a: "No: search passes the channel itself. UTM is for ads, emails, posts, partners — where the source would otherwise blur.",
     },
     {
@@ -59,10 +59,10 @@ export const utmMetkiEn: BlogPost = {
         {
           intro: "Typical questions tags answer:",
           items: [
-            "which campaign has the best CR;",
-            "whether premium placement / top pays off;",
-            "which email banner brought a sale;",
-            "which social post drove clicks.",
+            "which campaign has the best CR",
+            "whether premium placement pays off",
+            "which email banner brought a sale",
+            "which social post drove clicks",
           ],
         },
       ],
@@ -84,18 +84,18 @@ export const utmMetkiEn: BlogPost = {
         {
           intro: "Mini string rules:",
           items: [
-            "Latin, lowercase;",
-            "words with `-` or `_`;",
-            "no spaces or fancy capitals;",
-            "one dictionary for the whole team.",
+            "Latin, lowercase",
+            "words with `-` or `_`",
+            "no spaces or fancy capitals",
+            "one dictionary for the whole team",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
+          kind: "warning",
           text: "Writing `Yandex_Direct` in one ad and `yandex` in another — the report shows two “sources” for the same system.",
-          kind: "tip",
         },
       ],
     },
@@ -136,9 +136,9 @@ export const utmMetkiEn: BlogPost = {
         {
           intro: "When secondary helps:",
           items: [
-            "many ads in one campaign;",
-            "several buttons in one email;",
-            "need to match keyword ↔ query in reports.",
+            "many ads in one campaign",
+            "several buttons in one email",
+            "need to match keyword ↔ query in reports",
           ],
         },
       ],
@@ -154,10 +154,10 @@ export const utmMetkiEn: BlogPost = {
         {
           intro: "Rollout practice:",
           items: [
-            "source/medium convention table;",
-            "link template in the generator;",
-            "click check in a clean window;",
-            "visit check in Metrica/GA on launch day.",
+            "source/medium convention table",
+            "link template in the generator",
+            "click check in a clean window",
+            "visit check in Metrica/GA on launch day",
           ],
         },
       ],
@@ -183,19 +183,19 @@ export const utmMetkiEn: BlogPost = {
         {
           intro: "Quality checklist:",
           items: [
-            "source + medium + campaign present;",
-            "values from the team dictionary;",
-            "landing opens with tags;",
-            "visit visible in analytics;",
-            "no UTM on internal menus.",
+            "source + medium + campaign present",
+            "values from the team dictionary",
+            "landing opens with tags",
+            "visit visible in analytics",
+            "no UTM on internal menus",
           ],
         },
       ],
       notes: [
         {
           title: "Link to SEO",
-          text: "UTM alone doesn’t promote you into TOP. They help evaluate paid and referral traffic. Organic rankings follow their own rules: prep and visibility buildup are different timelines (TOP planned for 2–6 months after promotion starts).",
           kind: "tip",
+          text: "UTM alone doesn’t push organic rankings. They help evaluate paid and referral traffic. Organic visibility follows its own rules: prep and ranking buildup are different timelines — page-one share for the core is typically planned for two to six months after work starts.",
         },
       ],
       links: [

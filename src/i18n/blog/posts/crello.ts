@@ -11,10 +11,10 @@ export const crelloEn: BlogPost = {
     "What Crello is and why it’s now VistaCreate: templates for posts and banners, animation, team workflows — when a template editor is enough, and when you still need a designer.",
   lead: [
     "Crello is an online editor for graphics and short video — social posts, banners, simple posters. The product later rebranded as VistaCreate (VistaPrint ecosystem): same idea — templates and edits without Photoshop.",
-    "A look at who this class of editors is for, which strengths matter day to day, and where the tool hits its limit. We don’t freeze 2020 template counts or pricing — check the live product site.",
+    "Below: who this class of editors is for, which strengths matter day to day, and where the tool hits its limit. We don’t freeze 2020 template counts or pricing — check the live product site.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -24,11 +24,11 @@ export const crelloEn: BlogPost = {
     },
     {
       q: "How does it differ from Canva?",
-      a: "Same tool class: templates, stock, export for social sizes. Choose by habit, library, team pricing, and support for your language and brand kit. We cover Canva in a separate post.",
+      a: "Same tool class: templates, media libraries, export for social sizes. Choose by habit, library, team pricing, and support for your language and brand kit. We cover Canva in a separate post.",
     },
     {
       q: "Is the free plan enough?",
-      a: "For tests and simple posts — often yes. Animation, premium stock, and team features usually sit on paid plans — check current terms.",
+      a: "For tests and simple posts — often yes. Animation, premium media, and team features usually sit on paid plans — check current terms.",
     },
     {
       q: "Will it replace a designer?",
@@ -63,7 +63,7 @@ export const crelloEn: BlogPost = {
       title: "What matters in the Crello / VistaCreate class",
       level: 2,
       paras: [
-        "Templates by format and niche, keyword search, uploading your own photos, font sets (including non-Latin scripts), a stock library, and export at the right resolution.",
+        "Templates by format and niche, keyword search, uploading your own photos, font sets (including non-Latin scripts), a media library, and export at the right resolution.",
         "Teams pick this class for animation without After Effects, shared access, and a localized UI on some products. Exact “N thousand templates” claims change — don’t decide from an old review.",
       ],
       lists: [
@@ -71,7 +71,7 @@ export const crelloEn: BlogPost = {
           intro: "Before you pick a plan, check:",
           items: [
             "sizes you need for your platforms",
-            "stock license for commercial use",
+            "media license for commercial use",
             "fonts and brand kit",
             "export without an extra watermark",
             "seats for the team if two or more people work in it",
@@ -80,7 +80,7 @@ export const crelloEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Practice tip",
+          title: "Practice",
           kind: "tip",
           text: "Build 3–5 starter templates with your logo and palette — faster than starting from someone else’s trendy layout every time.",
         },
@@ -103,7 +103,6 @@ export const crelloEn: BlogPost = {
         "Pick a format → drop in the offer and visual → check readability on a phone → export at a sensible file size. Don’t promise the audience “guaranteed likes”: a clean layout helps, but it doesn’t replace a post with a point.",
         "If the brand already has strict guidelines, hand key layouts to a designer and use the editor for simple follow-on variants.",
       ],
-      lists: [],
     },
   ],
   closing: [

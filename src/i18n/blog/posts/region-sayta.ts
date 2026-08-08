@@ -10,8 +10,8 @@ export const regionSaytaEn: BlogPost = {
   excerpt:
     "How Yandex reads a site’s region: on-site signals, Webmaster, and a Business/Maps listing — without Yandex.Catalog or fake addresses.",
   lead: [
-    "A site’s region affects where you show up for location-based queries. “Assigning a region” isn’t a magic rankings checkbox—it’s aligning contacts, maps, content, and webmaster settings so they tell one honest story.",
-    "What still works: signals from the site itself, Yandex Webmaster, and a business listing. Yandex.Catalog is closed—don’t chase it for regions. Multi-city strategy belongs in the regional SEO guide.",
+    "A site’s region affects where you show up for location-based queries. Assigning a region isn’t a magic page-one checkbox — it’s aligning contacts, maps, content, and webmaster settings so they tell one honest story.",
+    "Below: what still works today — signals from the site itself, Yandex Webmaster, and a business listing. Yandex.Catalog is closed — don’t chase it for regions. Multi-city strategy belongs in the regional SEO guide.",
   ],
   faq: [
     {
@@ -28,7 +28,7 @@ export const regionSaytaEn: BlogPost = {
     },
     {
       q: "How long until the region applies?",
-      a: "From days to a few weeks — depends on data checks and crawl. That isn’t TOP timing: city-core rankings are planned over months.",
+      a: "From days to a few weeks — depends on data checks and crawl. That isn’t page-one timing: city-core rankings are planned over months.",
     },
     {
       q: "What if I list someone else’s address?",
@@ -49,24 +49,25 @@ export const regionSaytaEn: BlogPost = {
       level: 2,
       paras: [
         "For queries with local intent (“service + city,” “nearby”), Yandex weighs where the business operates. If signals are blurry or conflict, you lose ground to sites with aligned address, map, and contacts.",
-        "A panel region setting doesn’t replace content and commercial factors. It amplifies honest locality—it isn’t a substitute for an SEO strategy.",
+        "A panel region setting doesn’t replace content and commercial factors. It amplifies honest locality — it isn’t a substitute for an SEO strategy.",
       ],
       lists: [
         {
           intro: "Locality signals:",
           items: [
-            "address and phone on the site (NAP);",
-            "contacts / branch page;",
-            "Yandex Business / Maps listing;",
-            "local content and operating terms;",
-            "Webmaster settings and data.",
+            "address and phone on the site (NAP)",
+            "contacts / branch page",
+            "Yandex Business / Maps listing",
+            "local content and operating terms",
+            "Webmaster settings and data",
           ],
         },
       ],
       notes: [
         {
           title: "Timelines",
-          text: "Preparing contacts and listings — days to weeks as a guide. Rankings on a regional core are planned for 2–6 months after work starts, with no date guarantee.",
+          kind: "tip",
+          text: "Preparing contacts and listings — days to weeks as a guide. Regional-core page-one share is planned for 2–6 months after work starts, with no date guarantee.",
         },
       ],
     },
@@ -74,17 +75,17 @@ export const regionSaytaEn: BlogPost = {
       title: "Automatic detection",
       level: 2,
       paras: [
-        "Even without a manual setting, the bot may infer region from phone codes, addresses on Contacts, city mentions in copy, and other traces. That’s why an “empty” site without an address reads poorly as a local business.",
+        "Even without a manual setting, the bot may infer region from phone codes, addresses on Contacts, city mentions in copy, and other traces. That’s why an empty site without an address reads poorly as a local business.",
         "Listing a dozen cities on one page without real presence won’t make you the leader everywhere. Several cities need an honest branch or service-area setup — see regional SEO.",
       ],
       lists: [
         {
           intro: "What helps auto-detection:",
           items: [
-            "a single address and hours;",
-            "a city or clear contact phone;",
-            "directions / a map on the site;",
-            "data matching the organization listing.",
+            "a single address and hours",
+            "a city or clear contact phone",
+            "directions / a map on the site",
+            "data matching the organization listing",
           ],
         },
       ],
@@ -93,17 +94,17 @@ export const regionSaytaEn: BlogPost = {
       title: "Region via Yandex Webmaster",
       level: 2,
       paras: [
-        "Confirm site ownership in Yandex Webmaster. In the current UI find settings tied to region / representation (labels change—check help and the site sections in the panel).",
-        "Set a region that matches the business and link a page with real contacts. A made-up address raises the risk of rejection. After saving, wait for checks and recrawl — this won’t deliver instant rankings.",
+        "Confirm site ownership in Yandex Webmaster. In the current UI find settings tied to region / representation (labels change — check help and the site sections in the panel).",
+        "Set a region that matches the business and link a page with real contacts. A made-up address raises the risk of rejection. After saving, wait for checks and recrawl — this won’t deliver instant page one.",
       ],
       lists: [
         {
           intro: "Before you submit:",
           items: [
-            "site ownership confirmed;",
-            "contacts page open and indexable;",
-            "address/phone match the listing;",
-            "region no wider than the real service area without grounds.",
+            "site ownership confirmed",
+            "contacts page open and indexable",
+            "address/phone match the listing",
+            "region no wider than the real service area without grounds",
           ],
         },
       ],
@@ -147,7 +148,7 @@ export const regionSaytaEn: BlogPost = {
       level: 2,
       paras: [
         "Keep one consistent story: where you actually work, which contacts you show, and what Yandex sees in Webmaster and on the map.",
-        "If there are several cities — don’t try to “cover the country” with one contacts paragraph. Split branches or zones across pages and listings.",
+        "If there are several cities — don’t try to cover the country with one contacts paragraph. Split branches or zones across pages and listings.",
       ],
       tables: [
         {
@@ -164,6 +165,7 @@ export const regionSaytaEn: BlogPost = {
       notes: [
         {
           title: "Related guide",
+          kind: "tip",
           text: "Region strategy, keywords, and multi-city: /en/blog/regionalnoe-seo/.",
         },
       ],
@@ -175,4 +177,4 @@ export const regionSaytaEn: BlogPost = {
     "yandeks-spravochnik",
     "yandeks-katalog",
   ],
-} as BlogPost;
+};

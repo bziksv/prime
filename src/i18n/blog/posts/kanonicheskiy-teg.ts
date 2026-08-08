@@ -11,7 +11,7 @@ export const kanonicheskiyTegEn: BlogPost = {
     "What rel=canonical is, how it differs from 301 and noindex, how to set the canon in HTML and HTTP, typical mistakes, and when the tag doesn’t help.",
   lead: [
     "`rel=\"canonical\"` tells search engines the preferred URL among available copies or near-variants of a page. It’s not a “delete duplicate” button — a preference signal that can be ignored when signals strongly conflict.",
-    "Get the syntax right, use absolute URLs, and don’t confuse canonical with redirects or noindex. Treat this as the canonical take on rel=canonical among related posts.",
+    "Below: syntax, why you need it for duplicates, absolute URL rules, how it differs from redirects and noindex, and common mistakes. Treat this as the main take on rel=canonical among related posts.",
   ],
   faq: [
     {
@@ -40,7 +40,7 @@ export const kanonicheskiyTegEn: BlogPost = {
     },
     {
       q: "Should I use canonical instead of noindex?",
-      a: "Different tools. noindex — “don’t index this document”. Canonical — “prefer that URL”. Don’t confuse with Disallow in robots.txt.",
+      a: "Different tools. noindex — “don’t index this document.” Canonical — “prefer that URL.” Don’t confuse with Disallow in robots.txt.",
     },
     {
       q: "Does it help with full copy-paste from another site?",
@@ -52,17 +52,17 @@ export const kanonicheskiyTegEn: BlogPost = {
       title: "What the canonical tag is",
       level: 2,
       paras: [
-        "The tag exists to tell search: “among these similar addresses, treat this one as primary”. Typical cases — sort parameters, sessions, https/www variants before merging, print versions, partial product-card duplicates.",
-        "Canonical doesn’t replace a clean URL structure and internal links. If the whole site links to “crooked” addresses, one tag in head won’t carry the fix.",
+        "The tag exists to tell search: “among these similar addresses, treat this one as primary.” Typical cases — sort parameters, sessions, https/www variants before merging, print versions, partial product-card duplicates.",
+        "Canonical doesn’t replace a clean URL structure and internal links. If the whole site links to crooked addresses, one tag in head won’t carry the fix.",
       ],
       lists: [
         {
           intro: "Roles in short:",
           items: [
-            "canonical — preference among available URLs;",
-            "301 — move; old URL shouldn’t live;",
-            "noindex — document not in the index;",
-            "robots Disallow — about crawl, not merging.",
+            "canonical — preference among available URLs",
+            "301 — move; old URL shouldn’t live",
+            "noindex — document not in the index",
+            "robots Disallow — about crawl, not merging",
           ],
         },
       ],
@@ -84,11 +84,11 @@ export const kanonicheskiyTegEn: BlogPost = {
         {
           intro: "Rules of thumb:",
           items: [
-            "absolute https URL;",
-            "same host as the site canon (www or not);",
-            "one tag per document;",
-            "canon returns 200, not a redirect chain;",
-            "internal links preferably point to the canon already.",
+            "absolute https URL",
+            "same host as the site canon (www or not)",
+            "one tag per document",
+            "canon returns 200, not a redirect chain",
+            "internal links preferably point to the canon already",
           ],
         },
       ],
@@ -110,17 +110,17 @@ export const kanonicheskiyTegEn: BlogPost = {
       title: "Why SEO needs it — and when the tag doesn’t save you",
       level: 2,
       paras: [
-        "The goal is to gather signals (links, behavior, relevance) onto one URL and cut duplicate noise in the index. That’s hygiene — not a “ranking boost overnight”.",
+        "The goal is to gather signals (links, behavior, relevance) onto one URL and cut duplicate noise in the index. That’s hygiene — not a ranking boost overnight.",
         "If there are no duplicates and URLs are clean — a self-reference is still useful as an anchor. If content is thin or pages differ in meaning, “everything to homepage” canonical hurts: you merge unrelated pages.",
       ],
       lists: [
         {
           intro: "Good cases:",
           items: [
-            "UTM and ad parameters;",
-            "sorts/light filters with the same content;",
-            "www and https before a full merge;",
-            "AMP/alternate templates with the same meaning.",
+            "UTM and ad parameters",
+            "sorts / light filters with the same content",
+            "www and https before a full merge",
+            "AMP / alternate templates with the same meaning",
           ],
         },
       ],
@@ -136,11 +136,11 @@ export const kanonicheskiyTegEn: BlogPost = {
         {
           intro: "Before rollout:",
           items: [
-            "pick one canon per entity;",
-            "update CMS templates;",
-            "check View Source / DevTools;",
-            "align sitemap and menu with canons;",
-            "monitor “pages in search”.",
+            "pick one canon per entity",
+            "update CMS templates",
+            "check View Source / DevTools",
+            "align sitemap and menu with canons",
+            "monitor pages in search",
           ],
         },
       ],
@@ -150,7 +150,7 @@ export const kanonicheskiyTegEn: BlogPost = {
           href: "/en/blog/paginatsiya/",
         },
         {
-          label: "Redirect",
+          label: "Redirects",
           href: "/en/blog/redirekt/",
         },
       ],
@@ -159,18 +159,18 @@ export const kanonicheskiyTegEn: BlogPost = {
       title: "Mistakes that break canonical",
       level: 2,
       paras: [
-        "Blocking a duplicate in robots.txt and expecting canonical to work: the bot may see the tag worse. Putting noindex on the canon while copies point to it. Serving 4xx/5xx on the canonical URL. Sending every filter to the homepage “just in case”.",
+        "Blocking a duplicate in robots.txt and expecting canonical to work: the bot may see the tag worse. Putting noindex on the canon while copies point to it. Serving 4xx/5xx on the canonical URL. Sending every filter to the homepage “just in case.”",
         "Conflict with hreflang: language versions should agree canons within a locale — not collapse all languages into one URL without a policy.",
       ],
       lists: [
         {
           intro: "Bug checklist:",
           items: [
-            "several different canonicals in head;",
-            "broken relative paths;",
-            "canon to another domain without reason;",
-            "canon ≠ what’s in the sitemap;",
-            "OG/social meta pointing to another URL without need.",
+            "several different canonicals in head",
+            "broken relative paths",
+            "canon to another domain without reason",
+            "canon ≠ what’s in the sitemap",
+            "OG / social meta pointing to another URL without need",
           ],
         },
       ],
@@ -183,7 +183,7 @@ export const kanonicheskiyTegEn: BlogPost = {
       ],
       links: [
         {
-          label: "Closing from indexing",
+          label: "Closing pages from the index",
           href: "/en/blog/zakrytie-ot-indeksatsii/",
         },
       ],
@@ -193,16 +193,16 @@ export const kanonicheskiyTegEn: BlogPost = {
       level: 2,
       paras: [
         "If the SERP shows the “wrong” URL — check: which canonical is in the code, where internal links go, any redirect chains, what’s in the sitemap. In Search Console / webmaster tools compare the bot-selected canon vs the one you declared.",
-        "Mass duplicates without tags, a canclearlying to a thin low-authority page, or an unavailable canon while the duplicate is open — typical reasons for “tag is there, no effect”.",
+        "Mass duplicates without tags, a canon pointing to a thin low-authority page, or an unavailable canon while the duplicate is open — typical reasons for “tag is there, no effect.”",
       ],
       lists: [
         {
           intro: "Tools:",
           items: [
-            "crawler: canonical column;",
-            "spot View Source;",
-            "indexing reports in panels;",
-            "compare title/H1 across duplicate groups.",
+            "crawler: canonical column",
+            "spot View Source",
+            "indexing reports in panels",
+            "compare title/H1 across duplicate groups",
           ],
         },
       ],

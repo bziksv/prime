@@ -11,7 +11,7 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
     "When to block pages from indexing, how robots.txt, meta robots, and X-Robots-Tag differ, how to remove duplicates and utility sections — without cloaking or outdated tricks.",
   lead: [
     "Not everything on a site should enter the index: utility sections, drafts, filter duplicates, test subdomains. Blocking from indexing is a normal SEO tool — not a hide-and-seek game to trick robots.",
-    "Why you block URLs, which methods work in 2026, and what to avoid (JS cloaking, “hiding” content from bots). The backbone is robots.txt, meta robots / X-Robots-Tag, canonical, and response codes.",
+    "Below: why you block URLs, which methods work in 2026, and what to avoid (JS cloaking, “hiding” content from bots). The backbone is robots.txt, meta robots / X-Robots-Tag, canonical, and response codes.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
     },
     {
       q: "How is noindex different from Disallow?",
-      a: "Disallow — don’t crawl. noindex — may crawl, but don’t put in the index (or remove). Often combined on purpose: utility URLs blocked from crawl and with noindex.",
+      a: "Disallow — don’t crawl. noindex — may crawl, but don’t put in the index (or remove). Often combined on purpose: utility URLs closed from crawl and with noindex.",
     },
     {
       q: "Do I still need the old Yandex <noindex> tag?",
@@ -46,11 +46,11 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
         {
           intro: "Typical cases:",
           items: [
-            "cart, account area, site search, filters with endless URLs;",
-            "drafts, thank-you pages, technical landings;",
-            "duplicates (www/non-www, http/https, UTM params — better canonical/redirects);",
-            "staging and demo subdomains;",
-            "outdated sections until a 301 to current ones.",
+            "cart, account area, site search, filters with endless URLs",
+            "drafts, thank-you pages, technical landings",
+            "duplicates (www/non-www, http/https, UTM params — better canonical/redirects)",
+            "staging and demo subdomains",
+            "outdated sections until a 301 to current ones",
           ],
         },
       ],
@@ -62,7 +62,7 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
       ],
     },
     {
-      title: "robots.txt: crawl rules, not “index magic”",
+      title: "robots.txt: crawl rules, not index magic",
       level: 2,
       paras: [
         "The `/robots.txt` file sets crawl rules per User-agent. It’s handy for blocking folders (`/admin/`, `/cgi-bin/`), utility scripts, and sometimes heavy sections from extra crawling.",
@@ -72,16 +72,17 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
         {
           intro: "Practice:",
           items: [
-            "don’t block CSS/JS needed to render key pages;",
-            "check the file after deploy (a Disallow typo breaks crawl);",
-            "for “whole site” on production almost never use `Disallow: /` without a hard need.",
+            "don’t block CSS/JS needed to render key pages",
+            "check the file after deploy (a Disallow typo breaks crawl)",
+            "for the whole site on production almost never use `Disallow: /` without a hard need",
           ],
         },
       ],
       notes: [
         {
           title: "Practice",
-          text: "After robots edits, check crawl reports in Search Console and your local webmaster tools — you’ll see what is actually cut.",
+          kind: "tip",
+          text: "After robots edits, check crawl reports in Yandex Webmaster and Google Search Console — you’ll see what is actually cut.",
         },
       ],
     },
@@ -96,16 +97,16 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
         {
           intro: "Common directives:",
           items: [
-            "`noindex` — don’t show in results;",
-            "`nofollow` — don’t pass link equity from the page (meaning evolved; don’t confuse with rel on a single link);",
-            "`noarchive` — no cached copy;",
-            "`none` — shorthand for noindex, nofollow.",
+            "`noindex` — don’t show in results",
+            "`nofollow` — don’t pass link equity from the page (meaning evolved; don’t confuse with rel on a single link)",
+            "`noarchive` — no cached copy",
+            "`none` — shorthand for noindex, nofollow",
           ],
         },
       ],
       links: [
         {
-          label: "Cached page copy",
+          label: "Yandex cached page copy",
           href: "/en/blog/sohranennaya-kopiya-yandex/",
         },
       ],
@@ -114,7 +115,7 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
       title: "Duplicates, sections, folders, subdomains",
       level: 2,
       paras: [
-        "Duplicates are better not “hidden forever,” but collapsed to one URL: 301, `rel=\"canonical\"`, unified params. robots/noindex is a backup if the duplicate can’t be removed yet.",
+        "Duplicates are better not hidden forever, but collapsed to one URL: 301, `rel=\"canonical\"`, unified params. robots/noindex is a backup if the duplicate can’t be removed yet.",
         "A section or folder is blocked with robots rules and/or a meta template on all section URLs. A subdomain is a separate host for search: set rules there too.",
       ],
       tables: [
@@ -135,23 +136,24 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
       title: "Links, images, and outdated tricks",
       level: 2,
       paras: [
-        "Individual outbound links get `rel=\"nofollow\"` / `sponsored` / `ugc` by meaning — that isn’t “blocking the site from indexing.” Images: `noimageindex` is rarely needed; more important not to steal photos and to serve sensible sizes.",
+        "Individual outbound links get `rel=\"nofollow\"` / `sponsored` / `ugc` by meaning — that isn’t blocking the site from indexing. Images: `noimageindex` is rarely needed; more important not to steal photos and to serve sensible sizes.",
         "Old guides suggested `<noindex>`, SEOhide, and Base64/JS-encoded blocks “so the bot doesn’t see them.” Don’t: that’s cloaking and a fragile scheme. Show needed content the same to everyone, or honestly block the URL.",
       ],
       lists: [
         {
           intro: "What to avoid:",
           items: [
-            "different HTML for bots and people;",
-            "hiding commercial text only from robots;",
-            "forever Disallow of the whole production site “just in case”;",
-            "forgotten noindex after launch.",
+            "different HTML for bots and people",
+            "hiding commercial text only from robots",
+            "forever Disallow of the whole production site just in case",
+            "forgotten noindex after launch",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
+          kind: "warning",
           text: "Blocking important services in robots during development and not opening them after release. Symptom — “the site exists, search is empty.”",
         },
       ],
@@ -160,9 +162,8 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
       title: "Server responses and passwords",
       level: 2,
       paras: [
-        "403/401 with auth is a hard block: the robot won’t get content. 410 — “gone forever.” 404 — “not found” (OK for temporary holes; for moves prefer 301).",
+        "403/401 with auth is a hard block: the robot won’t get content. 410 — gone forever. 404 — not found (OK for temporary holes; for moves prefer 301).",
         "A password on staging beats hoping for robots: random links and scanners won’t drag a draft into the index.",
-        "Opening pages after launch is part of prep — not a ranking shortcut. Core keyword positions typically build over 2–6 months once the right URLs are crawlable and indexed.",
       ],
       lists: [],
     },
@@ -170,7 +171,7 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
       title: "Short takeaway",
       level: 2,
       paras: [
-        "Blocking from indexing is site hygiene: utility URLs and duplicates shouldn’t answer in search. Use robots for crawl, noindex/X-Robots-Tag for the index, canonical/301 for duplicates. No cloaking and no “clever” JS hide tricks.",
+        "Blocking from indexing is site hygiene: utility URLs and duplicates shouldn’t answer in search. Use robots for crawl, noindex/X-Robots-Tag for the index, canonical/301 for duplicates. No cloaking and no clever JS hide tricks.",
       ],
       lists: [],
     },

@@ -8,10 +8,10 @@ export const avtovoronkaEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/avtovoronka/cover-en.webp",
   excerpt:
-    "An automated sales funnel: stages from first touch to purchase, simple/medium/multi-level schemes, key elements, and why automation — without the myth that “a bot replaces everyone”.",
+    "An automated sales funnel: stages from first touch to purchase, simple/medium/multi-level schemes, key elements, and why automate — without the myth that “a bot replaces everyone.”",
   lead: [
-    "An autofunnel is the customer path from first touch to the target action, where scenarios cover part of the steps: ads, bot, email, landing, payment. A person joins where a conversation is needed — not “on every click”.",
-    "An autofunnel moves a lead from first touch to payment with less manual chase: stages, automation depth, and the stack you assemble. “Conversion is always 10%” figures from old reviews aren’t universal — watch your own steps and tests.",
+    "An autofunnel is the customer path from first touch to the target action, where scenarios cover part of the steps: ads, bot, email, landing, payment. A person joins where a conversation is needed — not on every click.",
+    "Below: stages, complexity types, why automate, and what to assemble. “Conversion is always 10%” from old write-ups isn’t universal — watch your own steps and tests.",
   ],
   faq: [
     {
@@ -23,19 +23,19 @@ export const avtovoronkaEn: BlogPost = {
       a: "Yes for hot demand and an inexpensive product. Expensive and complex decisions usually need warm-up and a lead.",
     },
     {
-      q: "Does automation remove the need for a sales team?",
+      q: "Does automation remove the sales team?",
       a: "It lowers load on typical questions and qualification. Complex B2B and expensive deals still need people.",
     },
     {
-      q: "Where should autofunnel setup start?",
+      q: "Where should setup start?",
       a: "Draw the current path, find breaks in the data, simplify or add a step, then test with step-conversion measurement.",
     },
     {
-      q: "Do you need a lead magnet in an autofunnel?",
+      q: "Do you need a lead magnet?",
       a: "Often yes on a medium cycle: checklist, consultation, demo — exchange for a contact and a reason to continue the dialogue.",
     },
     {
-      q: "How do you measure autofunnel success?",
+      q: "How do you measure success?",
       a: "Step→step conversion, CPA/CPL, share who reach payment, lead quality for the manager — not only ad reach.",
     },
   ],
@@ -44,18 +44,18 @@ export const avtovoronkaEn: BlogPost = {
       title: "Path stages",
       level: 2,
       paras: [
-        "A typical scheme: awareness (ad, post, search) → interaction (click, move to chat/site) → warm-up and answers to questions → conversion (lead, payment, booking).",
-        "Not everyone reaches the end — that’s normal. The job is to find where people drop and fix the bottleneck — not “add more channels” blind.",
+        "A typical scheme: awareness (ad, post, search) → interaction (click, move to chat/site) → warm-up and answers → conversion (lead, payment, booking).",
+        "Not everyone reaches the end — that’s normal. Find where people drop and fix the bottleneck — don’t “add more channels” blind.",
       ],
       lists: [
         {
           intro: "Setup cycle:",
           items: [
-            "audit the current path;",
-            "hypothesis for the break cause;",
-            "fix the step (simplify or add);",
-            "test on a horizon with enough traffic;",
-            "compare conversions before/after.",
+            "audit the current path",
+            "hypothesis for the break cause",
+            "fix the step (simplify or add)",
+            "test on a horizon with enough traffic",
+            "compare conversions before/after",
           ],
         },
       ],
@@ -70,8 +70,8 @@ export const avtovoronkaEn: BlogPost = {
       notes: [
         {
           title: "B2B and B2C",
-          text: "In B2B the cycle is usually longer and more people sit in the buying decision. In B2C the path is shorter, but price, delivery, and review trust matter more.",
           kind: "tip",
+          text: "In B2B the cycle is usually longer and more people sit in the buying decision. In B2C the path is shorter, but price, delivery, and review trust matter more.",
         },
       ],
     },
@@ -79,7 +79,7 @@ export const avtovoronkaEn: BlogPost = {
       title: "Why automate",
       level: 2,
       paras: [
-        "Load on typical dialogues drops, answers don’t depend on who is on shift, the scenario works at night. Time savings appear after setup — not “from day one with no effort”.",
+        "Load on typical dialogues drops, answers don’t depend on who is on shift, the scenario works at night. Time savings appear after setup — not “from day one with no effort.”",
         "Risk: a rigid bot with no path to a human annoys on complex questions. Plan manager escalation and clear stop-words.",
       ],
       links: [
@@ -104,12 +104,12 @@ export const avtovoronkaEn: BlogPost = {
         {
           intro: "Build checklist:",
           items: [
-            "product matrix and offer;",
-            "behavior scenarios (including refusal);",
-            "communication channels;",
-            "traffic sources + retargeting;",
-            "CRM/list and segments;",
-            "metrics by step.",
+            "product matrix and offer",
+            "behavior scenarios (including refusal)",
+            "communication channels",
+            "traffic sources + retargeting",
+            "CRM/list and segments",
+            "metrics by step",
           ],
         },
       ],
@@ -126,7 +126,7 @@ export const avtovoronkaEn: BlogPost = {
     },
   ],
   closing: [
-    "An auto-funnel is a described path with automation on routine and a human where dialogue is needed. Start with a step map and break measurement; complicate the scenario only after a simple scheme already counts money.",
+    "An autofunnel is a described path with automation on routine and a human where dialogue is needed. Start with a step map and break measurement; complicate the scenario only after a simple scheme already counts money.",
   ],
   related: [
     "formy-zahvata",

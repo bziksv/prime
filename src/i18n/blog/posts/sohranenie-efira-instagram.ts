@@ -11,8 +11,12 @@ export const sohranenieEfiraInstagramEn: BlogPost = {
     "What happens to Live after you end it, how to save your broadcast to the device and the feed, why IGTV is outdated, and why “downloaders” for other people’s streams are risky.",
   lead: [
     "An Instagram Live does not live forever by default: after you end it, the platform offers to share the recording and/or save it. Old guides leaned on IGTV — that separate app is no longer the path.",
-    "We cover how saving your own Live works, how long a recording lasts, and why third-party savers for someone else’s Live are a bad idea. Buttons change; check Meta Help. Disclaimer is on the page.",
+    "Below: how saving your own Live works, how long a recording lasts, and why third-party savers for someone else’s Live are a bad idea. Buttons change; check Meta Help. Product note is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Where did IGTV go?",
@@ -63,10 +67,10 @@ export const sohranenieEfiraInstagramEn: BlogPost = {
         {
           intro: "Mini checklist after a Live:",
           items: [
-            "save the file if the content matters;",
-            "publish a cut or the full video for the goal;",
-            "pin a teaser or takeaways in Highlights;",
-            "note chat questions for the next episode.",
+            "save the file if the content matters",
+            "publish a cut or the full video for the goal",
+            "pin a teaser or takeaways in Highlights",
+            "note chat questions for the next episode",
           ],
         },
       ],
@@ -74,9 +78,7 @@ export const sohranenieEfiraInstagramEn: BlogPost = {
         {
           kind: "tip",
           title: "UI",
-          paras: [
-            "Don’t train the team on “third button from the left” — items move. Train the scenario: file + publish + review.",
-          ],
+          text: "Don’t train the team on “third button from the left” — items move. Train the scenario: file + publish + review.",
         },
       ],
     },
@@ -101,9 +103,7 @@ export const sohranenieEfiraInstagramEn: BlogPost = {
         {
           kind: "tip",
           title: "Important",
-          paras: [
-            "Paid promises to “pin someone else’s Live forever” are a classic scam. Don’t enter your Instagram password on third-party sites.",
-          ],
+          text: "Paid promises to “pin someone else’s Live forever” are a classic scam. Don’t enter your Instagram password on third-party sites.",
         },
       ],
       links: [

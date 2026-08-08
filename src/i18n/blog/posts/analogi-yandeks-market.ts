@@ -10,8 +10,8 @@ export const analogiYandeksMarketEn: BlogPost = {
   excerpt:
     "Why an online store shouldn’t lean only on Yandex Market, which nearby platform types exist, and how to pick sales channels — without a 2021 catalog of dead services.",
   lead: [
-    "Yandex Market is a major channel for comparing and selling goods. But the catalog is competitive, terms and visibility change, and buyers also shop on marketplaces and other price aggregators.",
-    "Don’t copy 2021 brand lists and rate cards blindly — the market moved on. Add channels by SKU economics: your site, Market, marketplaces, and price aggregators — and measure CPA/ROI per platform.",
+    "Yandex Market is a major channel for comparing and selling goods. The catalog is competitive, terms and visibility shift, and buyers also shop on marketplaces and other price aggregators.",
+    "Below: why to diversify placement, which platform types sit nearby, and what to check in the contract and feed. Don’t copy 2021 brand lists and rate cards — the market moved on.",
   ],
   faq: [
     {
@@ -24,7 +24,7 @@ export const analogiYandeksMarketEn: BlogPost = {
     },
     {
       q: "Is one YML feed enough for every platform?",
-      a: "One base, but platforms have their own fields, categories, and moderation. Plan feed adaptation and error monitoring.",
+      a: "One product base, but platforms have their own fields, categories, and moderation. Plan feed adaptation and error monitoring.",
     },
     {
       q: "Why are old “Goods@Mail / Wikimart” lists outdated?",
@@ -40,17 +40,17 @@ export const analogiYandeksMarketEn: BlogPost = {
       title: "Why look beyond Market",
       level: 2,
       paras: [
-        "In one big catalog it’s easy to get lost: price competition, dependence on algorithms and the product card, disputes over stock and delivery. An extra channel cushions demand and lowers the “all eggs in one basket” risk.",
-        "Buyers don’t compare only on Market: marketplaces, search, price aggregators, and your own site cover different choice scenarios.",
+        "In one big catalog it’s easy to get lost: price wars, dependence on algorithms and the product card, fights over stock and delivery. An extra channel cushions demand and lowers the “all eggs in one basket” risk.",
+        "Buyers don’t compare only on Market: marketplaces, search, price aggregators, and your own site cover different choice paths.",
       ],
       lists: [
         {
           intro: "Typical triggers to diversify:",
           items: [
-            "high competition and dumping in the niche;",
-            "visibility / moderation limits;",
-            "need reach on another platform’s audience;",
-            "testing FBO/FBS vs your own store.",
+            "high competition and dumping in the niche",
+            "visibility or moderation limits",
+            "need reach on another platform’s audience",
+            "testing FBO/FBS vs your own store",
           ],
         },
       ],
@@ -66,10 +66,10 @@ export const analogiYandeksMarketEn: BlogPost = {
         {
           intro: "Type map:",
           items: [
-            "price aggregators / comparison;",
-            "marketplaces with a storefront and fulfillment;",
-            "product ads / affiliate networks;",
-            "your own online store as a controlled channel.",
+            "price aggregators / comparison",
+            "marketplaces with a storefront and fulfillment",
+            "product ads / affiliate networks",
+            "your own online store as a controlled channel",
           ],
         },
       ],
@@ -95,17 +95,18 @@ export const analogiYandeksMarketEn: BlogPost = {
         {
           intro: "Checklist before connecting:",
           items: [
-            "margin after fees and logistics;",
-            "category and attribute compatibility;",
-            "content rules and penalties;",
-            "pilot on part of the assortment;",
-            "end-to-end order analytics.",
+            "margin after fees and logistics",
+            "category and attribute compatibility",
+            "content rules and penalties",
+            "pilot on part of the assortment",
+            "end-to-end order analytics",
           ],
         },
       ],
       notes: [
         {
           title: "Practice",
+          kind: "tip",
           text: "One “dead” catalog with stale prices is worse than two channels with a clean feed and measured ROI.",
         },
       ],
@@ -121,10 +122,10 @@ export const analogiYandeksMarketEn: BlogPost = {
         {
           intro: "Process minimum:",
           items: [
-            "fresh feed and error alerts;",
-            "an owner for cards and reviews;",
-            "weekly channel report;",
-            "pricing rules without racing discounts into the red.",
+            "fresh feed and error alerts",
+            "an owner for cards and reviews",
+            "weekly channel report",
+            "pricing rules without racing discounts into the red",
           ],
         },
       ],

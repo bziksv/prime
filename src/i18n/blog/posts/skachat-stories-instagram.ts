@@ -11,8 +11,12 @@ export const skachatStoriesInstagramEn: BlogPost = {
     "How to save your Instagram Stories to the archive and Highlights, what about other people’s stories, screenshots, and risks of third-party “downloaders” — without an app catalog or rule workarounds.",
   lead: [
     "Your own Stories are easiest to keep with built-in tools: archive, Highlights, export to the gallery from the story menu. Other people’s are copyright and platform-limits territory: “download everything anonymously” usually means third-party software with risks.",
-    "The lawful path for your own content and a careful take on other people’s. We don’t recycle 2021 app catalogs or extensions that ask for your login. Meta product disclaimer is on the page.",
+    "Below: the lawful path for your own content and a careful take on other people’s. We don’t recycle 2021 app catalogs or extensions that ask for your login. Meta product note is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "How is this different from saving a feed photo?",
@@ -47,10 +51,10 @@ export const skachatStoriesInstagramEn: BlogPost = {
         {
           intro: "Working order for yours:",
           items: [
-            "turn on save to archive;",
-            "important ones — into Highlights;",
-            "keep sources yourself before publish;",
-            "for clients — cloud/drive, not only an export from the app.",
+            "turn on save to archive",
+            "important ones — into Highlights",
+            "keep sources yourself before publish",
+            "for clients — cloud/drive, not only an export from the app",
           ],
         },
       ],
@@ -79,8 +83,8 @@ export const skachatStoriesInstagramEn: BlogPost = {
       notes: [
         {
           title: "Common mistake",
-          text: "Logging into Instagram inside a “story downloader” — that’s how accounts often get stolen.",
           kind: "tip",
+          text: "Logging into Instagram inside a “story downloader” — that’s how accounts often get stolen.",
         },
       ],
       links: [
@@ -105,11 +109,11 @@ export const skachatStoriesInstagramEn: BlogPost = {
         {
           intro: "Software red flags:",
           items: [
-            "asks for Instagram password;",
-            "no policy or legal entity;",
-            "promises a “full anonymous archive of anyone”;",
-            "aggressive phone permissions;",
-            "ratings full of ads.",
+            "asks for Instagram password",
+            "no policy or legal entity",
+            "promises a “full anonymous archive of anyone”",
+            "aggressive phone permissions",
+            "ratings full of ads",
           ],
         },
       ],

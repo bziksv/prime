@@ -10,13 +10,13 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
   excerpt:
     "How CTR, CVR, CPC, and CPA differ for mobile Search vs Display, why industry benchmarks age fast, and how to measure efficiency in your own account.",
   lead: [
-    "Mobile ads in Google aren’t “one average market rate” — Search and Display have different economics, plus a wide spread by niche. Public studies (including older WordStream-style reviews across verticals) give approximate ranges, not your CPA.",
-    "How to read those benchmarks, how Search differs from Display on mobile, and the minimum metrics to track yourself. Don’t paste 2010s dollar figures from old roundups into today’s plan.",
+    "Mobile ads in Google aren’t one average market rate — Search and Display have different economics, plus a wide spread by niche. Public studies (including older WordStream-style reviews across verticals) give approximate ranges, not your CPA.",
+    "Below: how to read those benchmarks, how Search differs from Display on mobile, and the minimum metrics to track yourself. Don’t paste 2010s dollar figures from old roundups into a 2020s media plan without recalculating.",
   ],
   faq: [
     {
       q: "Why is Search CTR usually higher than Display?",
-      a: "Search has a query and intent. Display shows in content/apps — fewer clicks; cheaper reach and different jobs.",
+      a: "Search has a query and intent. Display shows in content or apps — fewer clicks, cheaper reach, and different jobs.",
     },
     {
       q: "Can I treat someone else’s average CPC as the norm?",
@@ -28,22 +28,22 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
     },
     {
       q: "Should I mix Search and Display in one campaign?",
-      a: "Better separate: different goals, bids, and creatives. Otherwise optimization “eats” one channel with the other.",
+      a: "Better separate: different goals, bids, and creatives. Otherwise optimization eats one channel with the other.",
     },
     {
-      q: "What matters more for mobile ads — CTR or CPA?",
-      a: "For business — CPA / ROMI (return on marketing investment) and lead quality. High CTR with expensive empty clicks is useless.",
+      q: "What matters more — CTR or CPA?",
+      a: "For business — CPA, return on marketing investment, and lead quality. High CTR with expensive empty clicks is useless.",
     },
     {
       q: "Do I need separate ads for mobile?",
-      a: "Often yes: shorter offer, call/messenger emphasis, fast landing. Validate in experiments.",
+      a: "Often yes: shorter offer, call or messenger emphasis, fast landing. Validate in experiments.",
     },
     {
-      q: "How often should I refresh mobile ad benchmarks?",
+      q: "How often should I refresh benchmarks?",
       a: "Yours — continuously in the account. External studies — background only; market and auction shift.",
     },
     {
-      q: "Is mobile ad performance tied to SEO?",
+      q: "Is this tied to SEO?",
       a: "Not directly. Indirectly: the same landings and mobile UX affect organic and ads.",
     },
   ],
@@ -52,7 +52,7 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
       title: "What people usually call “efficiency”",
       level: 2,
       paras: [
-        "Base set: CTR (click-through rate), CVR (click-to-conversion), CPC (cost per click), CPA (cost per goal). Sometimes mobile traffic share and lead quality.",
+        "Base set: CTR (click-through), CVR (click-to-conversion), CPC (cost per click), CPA (cost per goal). Sometimes mobile traffic share and lead quality.",
         "Multi-industry studies often show: Search delivers clearly higher CTR and CVR at a pricier click; Display — low CTR, cheap click, and another job profile (reach, retarget, top of funnel).",
       ],
       lists: [
@@ -62,7 +62,7 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
             "Search campaigns and Display",
             "brand and non-brand queries",
             "mobile and desktop without a slice",
-            "someone else’s average $ and your region/currency.",
+            "someone else’s average dollar figure and your region or currency",
           ],
         },
       ],
@@ -77,17 +77,17 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
       title: "Search vs Display on mobile",
       level: 2,
       paras: [
-        "In Search the person already stated a need — warmer click, higher bid, usually better conversion with a decent landing. In Display you compete for attention in a feed/site — sub-percent CTR is normal; economics work differently.",
-        "Historical agency summaries on Google accounts (e.g. WordStream-style reviews across ~18 verticals) illustrated the gap: Search CTR of a few percent vs fractions in Display, with very different CPC and CPA. Exact vintage numbers age out — the channel-gap logic stays.",
+        "In Search the person already stated a need — warmer click, higher bid, usually better conversion with a decent landing. In Display you compete for attention in a feed or on a site — sub-percent CTR is normal; economics work differently.",
+        "Historical agency summaries on Google accounts (for example WordStream-style reviews across ~18 verticals) illustrated the gap: Search CTR of a few percent versus fractions in Display, with very different CPC and CPA. Exact vintage numbers age out — the channel-gap logic stays.",
       ],
       lists: [
         {
           intro: "Practice in the account:",
           items: [
-            "separate campaigns/budgets",
+            "separate campaigns and budgets",
             "own goals (lead vs reach)",
             "frequency and placements in Display",
-            "mobile-friendly landing for both.",
+            "mobile-friendly landing for both",
           ],
         },
       ],
@@ -103,7 +103,7 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
       level: 2,
       paras: [
         "Legal, finance, construction, and health usually cost more per click than mass retail or entertainment. Inside one “industry” the spread is huge: brand, region, offer, and site quality beat the average table.",
-        "Use industry reports only so you don’t set an unrealistic CTR “like everyone”. Build the budget plan from your margin and target CPA.",
+        "Use industry reports only so you don’t set an unrealistic CTR “like everyone.” Build the budget plan from your margin and target CPA.",
       ],
       lists: [
         {
@@ -112,7 +112,7 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
             "goal action and its value",
             "max CPA",
             "mobile share in your niche",
-            "Search vs Display hypothesis.",
+            "Search vs Display hypothesis",
           ],
         },
       ],
@@ -122,7 +122,7 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
       level: 2,
       paras: [
         "In Google Ads watch device = mobile, Search/Display network, conversions by goal. Cross-check site analytics: bounces, speed, forms on a phone.",
-        "Monthly compare mobile vs desktop CPA and budget share. If mobile is pricier at the same conversion — fix ads and landing, don’t copy someone else’s “average CTR 4%”.",
+        "Monthly compare mobile vs desktop CPA and budget share. If mobile is pricier at the same conversion — fix ads and landing, don’t copy someone else’s “average CTR 4%.”",
       ],
       lists: [
         {
@@ -130,8 +130,8 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
           items: [
             "spend / clicks / CTR mobile",
             "conversions and CPA",
-            "top ads and landings",
-            "decisions: bid, negatives, creative, UX.",
+            "best ads and landings",
+            "decisions: bid, negatives, creative, UX",
           ],
         },
       ],
@@ -151,7 +151,7 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
       level: 2,
       paras: [
         "Mobile ads don’t fix a slow or awkward site. Remove friction on the first screen and form first — otherwise any CPA benchmark will look inflated.",
-        "Ads respond in days. Organic TOP by core is a separate track: prep and rank buildup planned over months after SEO start — not “after we improved ad CTR”.",
+        "Ads respond in days. Organic page-one visibility for a keyword set is a separate track: prep and rank buildup planned over months after SEO starts — often 2–6 months — not “after we improved ad CTR.”",
       ],
       lists: [
         {
@@ -159,8 +159,8 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
           items: [
             "mobile landing",
             "goals in analytics",
-            "test Search, then Display/retarget",
-            "don’t confuse ad CPA with an SEO TOP promise.",
+            "test Search, then Display or retarget",
+            "don’t confuse ad CPA with an organic ranking promise",
           ],
         },
       ],
@@ -173,8 +173,8 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
       notes: [
         {
           title: "About studies",
-          text: "CTR/CPC/CPA summaries from older English reports illustrate rough ranges. For planning use fresh data from your account and region.",
           kind: "tip",
+          text: "CTR/CPC/CPA summaries from older English reports illustrate rough ranges. For planning use fresh data from your account and region.",
         },
       ],
     },

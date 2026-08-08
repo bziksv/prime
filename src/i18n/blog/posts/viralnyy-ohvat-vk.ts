@@ -8,10 +8,10 @@ export const viralnyyOhvatVkEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/viralnyy-ohvat-vk/cover-en.webp",
   excerpt:
-    "What viral reach means in VK stats, how it differs from follower reach, which formats get reposted more, and how to amplify distribution the right way.",
+    "What viral reach means in VK stats, how it differs from follower reach, which formats get reposted more, and how to amplify distribution carefully.",
   lead: [
     "Viral reach is post views from people who don’t follow your community: they saw a repost, a recommendation, or someone else’s feed and landed on your post.",
-    "Find the metric in community stats, choose topics and formats that travel further, and encourage reposts without forcing it. Viral reach doesn’t replace a consistent content plan and paid ads.",
+    "Below: where to find the metric, which topics and formats travel further, and how to ask for a repost without cringe. Viral reach doesn’t replace a consistent content plan and paid ads.",
   ],
   faq: [
     {
@@ -27,8 +27,8 @@ export const viralnyyOhvatVkEn: BlogPost = {
       a: "Controversial content sparks discussion but easily hurts brand reputation. Trust beats a reach spike.",
     },
     {
-      q: "Do stock images go viral?",
-      a: "Rarely. A recognizable original visual and a clear message beat another generic template from the internet.",
+      q: "Do generic filler images go viral?",
+      a: "Rarely. A recognizable original visual and a clear message beat another template from the internet.",
     },
     {
       q: "Do collaborations help?",
@@ -47,9 +47,9 @@ export const viralnyyOhvatVkEn: BlogPost = {
         {
           intro: "Why track it:",
           items: [
-            "which topics spread;",
-            "whether non-follower inflow is growing;",
-            "whether to boost the format with ads.",
+            "which topics spread",
+            "whether non-follower inflow is growing",
+            "whether to boost the format with ads",
           ],
         },
       ],
@@ -70,17 +70,18 @@ export const viralnyyOhvatVkEn: BlogPost = {
         {
           intro: "Angles that often travel:",
           items: [
-            "educational — guides, checklists, breakdowns;",
-            "motivational — without empty slogans;",
-            "narrative — a case study, behind the scenes;",
-            "emotional / entertainment — in brand tone;",
-            "timely — a trend filtered through your expertise.",
+            "educational — guides, checklists, breakdowns",
+            "motivational — without empty slogans",
+            "narrative — a case study, behind the scenes",
+            "emotional / entertainment — in brand tone",
+            "timely — a trend filtered through your expertise",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
+          kind: "tip",
           text: "Chasing shock alone. A short reach spike with lasting trust damage is a bad trade.",
         },
       ],
@@ -97,7 +98,7 @@ export const viralnyyOhvatVkEn: BlogPost = {
           headers: ["Format", "Strength", "Risk"],
           rows: [
             ["Short video", "High watch-through rate", "Needs a hook in the first seconds"],
-            ["Image + text", "Fast to produce", "Stock photos and fluff don’t travel"],
+            ["Image + text", "Fast to produce", "Generic visuals and fluff don’t travel"],
             ["Poll / quiz", "Engagement", "Weak brand offer"],
             ["Long post", "Expertise", "Hard to finish in the feed"],
           ],
@@ -115,17 +116,17 @@ export const viralnyyOhvatVkEn: BlogPost = {
       level: 2,
       paras: [
         "Assemble the post: topic × format × headline × CTA (“what do you think / save / send to a colleague”). An original visual beats someone else’s template.",
-        "Seed the link in partner communities by agreement. Ads on a strong organic post are sometimes cheaper than trying to warm up a weak one.",
+        "Share the link in partner communities by agreement. Ads on a strong organic post are sometimes cheaper than trying to warm up a weak one.",
       ],
       lists: [
         {
           intro: "Pre-publish checklist:",
           items: [
-            "benefit clear in three seconds;",
-            "a reason to save or forward;",
-            "no fluff or fake clickbait;",
-            "a soft CTA baked in;",
-            "after a day, review reach and reposts.",
+            "benefit clear in three seconds",
+            "a reason to save or forward",
+            "no fluff or fake clickbait",
+            "a soft CTA baked in",
+            "after a day, review reach and reposts",
           ],
         },
       ],
@@ -136,7 +137,6 @@ export const viralnyyOhvatVkEn: BlogPost = {
       paras: [
         "Viral reach shows whether content breaks out of your follower circle. Grow it with “worth sharing” topics, original visuals, and collabs — without betting everything on provocation.",
       ],
-      lists: [],
     },
   ],
 };

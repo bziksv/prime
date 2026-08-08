@@ -10,8 +10,8 @@ export const targetVkEn: BlogPost = {
   excerpt:
     "How to launch VK Ads targeting: formats, audience, remarketing and pixel, schedule, CPC/CPM, and reading the stats — without outdated 2019 ad-account click paths.",
   lead: [
-    "VK targeting runs ads to segments in the ad account (often under the VK Ads brand today). That isn’t the same as seeding a post in someone else’s community: here you set audience, bids, and format yourself.",
-    "We walk through launch order: account and rules, formats, audience, remarketing, schedule, billing, and result control. Menu buttons and creative sizes change — check the current UI; the ads account has shifted more than once since 2019.",
+    "VK targeting runs ads to segments in the ad account (often under the VK Ads brand today). That isn’t the same as promoting a post in someone else’s community: here you set audience, bids, and format yourself.",
+    "Below: launch order — account and rules, formats, audience, remarketing, schedule, billing, and result control. Menu labels and creative sizes change — check the current UI; the ads account has shifted more than once since 2019.",
   ],
   faq: [
     {
@@ -40,16 +40,16 @@ export const targetVkEn: BlogPost = {
     },
     {
       q: "Where do I see results?",
-      a: "In account stats plus goals on the site/in the community. Without lead tracking, bid optimization is blind.",
+      a: "In account stats plus goals on the site or in the community. Without lead tracking, bid optimization is blind.",
     },
   ],
   sections: [
     {
-      title: "Account, rules, and seeding vs targeting",
+      title: "Account, rules, and community ads vs targeting",
       level: 2,
       paras: [
-        "Create or open a VK ad account; pick a client/agency account if needed. Before launch, read the rules: prohibited topics and creatives get cut in review; repeated violations hit the account.",
-        "Seeding in communities works when the community’s audience already matches yours. If you need leads, sales, and a precise segment — targeting is usually required. Don’t paste “millions of VK reach” from old roundups as your own forecast.",
+        "Create or open a VK ad account; pick a client or agency account if needed. Before launch, read the rules: prohibited topics and creatives get cut in review; repeated violations hit the account.",
+        "Paid posts in communities work when that community’s audience already matches yours. If you need leads, sales, and a precise segment — targeting is usually required. Don’t paste “millions of VK reach” from old roundups as your own forecast.",
       ],
       links: [
         {
@@ -66,18 +66,18 @@ export const targetVkEn: BlogPost = {
       title: "Ad formats",
       level: 2,
       paras: [
-        "In the feed you’ll typically see carousel, a post with a button, universal post, lead forms, Stories, site ads. Separately, community promotion blocks, text+image banners, apps.",
+        "In the feed you’ll typically see carousel, a post with a button, universal post, lead forms, Stories, site ads. Separately: community promotion blocks, text+image banners, apps.",
         "Format sets and file limits (weight, JPG/PNG, etc.) have changed — take current requirements from account Help. For a test pick one format for the goal: lead without a site → lead form; traffic to a landing → post/site; brand awareness → reach formats.",
         "You can promote an existing community post or build a creative from scratch. The offer on the image and in the copy must match the landing.",
       ],
       lists: [
         {
-          intro: "Before “Create”:",
+          intro: "Before Create:",
           items: [
-            "campaign goal is clear;",
-            "one primary format for the test;",
-            "creative reads on mobile;",
-            "link / community / form work.",
+            "campaign goal is clear",
+            "one primary format for the test",
+            "creative reads on mobile",
+            "link, community, or form works",
           ],
         },
       ],
@@ -87,8 +87,8 @@ export const targetVkEn: BlogPost = {
       level: 2,
       paras: [
         "Build the segment for the offer: geo, gender/age, interests, devices. A narrow relevant audience beats “everyone 18–65 in the city.” Treat the account’s reach forecast as order of magnitude.",
-        "Remarketing — warm users: site visitors (pixel), lists, QR and other audience sources available in the account. Exclude buyers from “chase” offers if the job is new sales.",
-        "Schedule: match lead handling. Night calls with no operator are a burn; CRM forms can run wider.",
+        "Remarketing — warm users: site visitors (pixel), lists, QR and other audience sources available in the account. Exclude buyers from chase offers if the job is new sales.",
+        "Schedule: match lead handling. Night calls with no operator waste budget; CRM forms can run wider.",
       ],
       links: [
         {
@@ -103,7 +103,7 @@ export const targetVkEn: BlogPost = {
       paras: [
         "Billing models are usually CPC and CPM; some goals also use optimized models — names and availability live in the UI. Account bid hints are a market compass, not your economics.",
         "Pick placements (mobile/desktop, network) deliberately. After save, some fields (billing model, format, sometimes URL) can’t change — easier to create a new ad.",
-        "Top up the balance for an individual/company, wait for review, and start with a daily cap.",
+        "Top up the balance for an individual or company, wait for review, and start with a daily cap.",
       ],
       notes: [
         {
@@ -123,11 +123,11 @@ export const targetVkEn: BlogPost = {
         {
           intro: "Remember:",
           items: [
-            "targeting ≠ community seeding;",
-            "narrow audience + one hypothesis per test;",
-            "pixel for site remarketing;",
-            "schedule matched to lead handling;",
-            "current UI — in VK Ads Help.",
+            "targeting ≠ a paid post in a community",
+            "narrow audience + one hypothesis per test",
+            "pixel for site remarketing",
+            "schedule matched to lead handling",
+            "current UI — in VK Ads Help",
           ],
         },
       ],

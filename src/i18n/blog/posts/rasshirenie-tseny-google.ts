@@ -10,8 +10,8 @@ export const rasshirenieTsenyGoogleEn: BlogPost = {
   excerpt:
     "Why Google Ads ads show a price block: types (products, services, events, brands), when to enable it, and what to watch — a click on a price is billed, and the UI may have changed since 2017.",
   lead: [
-    "Price extensions show the cost of services or products right in the ad: the user sees a guide before the click, and the ad takes more SERP space.",
-    "Why it matters, which job types it fits, and what to check when setting up. Names and steps in the account have changed since 2017 — verify current Google Ads Help. A click on a price row usually counts as an ad click.",
+    "Price extensions show the cost of services or products right in the ad: the user sees a guide before the click, and the ad takes more space in the results.",
+    "Below: why it matters, which job types it fits, and what to check when setting up. Names and steps in the account have changed since 2017 — verify current Google Ads Help. A click on a price row usually counts as an ad click.",
   ],
   faq: [
     {
@@ -40,7 +40,7 @@ export const rasshirenieTsenyGoogleEn: BlogPost = {
     },
     {
       q: "Do I still need other ad extensions?",
-      a: "Yes: sitelinks, callouts, phone — together they boost visibility. Don’t rely on prices alone.",
+      a: "Yes: sitelinks, callouts, phone — together they raise visibility. Don’t rely on prices alone.",
     },
   ],
   sections: [
@@ -78,7 +78,7 @@ export const rasshirenieTsenyGoogleEn: BlogPost = {
             "prices are current and lawful",
             "the landing matches the promise",
             "you have capacity to update the price list",
-            "you don’t promise what’s out of stock.",
+            "you don’t promise what’s out of stock",
           ],
         },
       ],
@@ -90,6 +90,13 @@ export const rasshirenieTsenyGoogleEn: BlogPost = {
         "Add the extension at account/campaign level per account rules and tie it to relevant groups.",
         "Compare CTR and CPA before/after on one cluster. If price scares hot demand — fix the offer and landing first, not only the extension.",
         "Keep prices in sync with the site: mismatch = complaints and wasted clicks.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Important",
+          text: "The 2017 article described a “new” extension. Check current type names and UI steps in Google Ads Help; the point is to show an honest price in the ad.",
+        },
       ],
       links: [
         {
@@ -103,10 +110,6 @@ export const rasshirenieTsenyGoogleEn: BlogPost = {
       ],
     },
   ],
-  notes: {
-    title: "Important",
-    text: "The 2017 article described a “new” extension. Check current type names and UI steps in Google Ads Help; the point is to show an honest price in the ad.",
-  },
   closing: [
     "If price is the main filter in the niche, enable the extension on 1–2 priority campaigns and check CTR/CPA for a couple of weeks — faster than arguing “whether it’s needed at all.”",
   ],
@@ -118,4 +121,4 @@ export const rasshirenieTsenyGoogleEn: BlogPost = {
     "strategii-google-ads",
     "adaptivnyy-shablon-direkt",
   ],
-};
+} as BlogPost;

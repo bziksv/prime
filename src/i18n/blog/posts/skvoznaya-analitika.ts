@@ -10,8 +10,8 @@ export const skvoznayaAnalitikaEn: BlogPost = {
   excerpt:
     "Why end-to-end analytics matters, when it pays off, and which mistakes break ROMI: CRM without discipline, incomplete channels, borrowed attribution, and rushing setup.",
   lead: [
-    "End-to-end analytics answers not “how many clicks”, but “which ad ruble returned profit”. That means ad accounts, the site, call tracking, and CRM meet in one loop — not five “eyeball” spreadsheets.",
-    "We cover what you connect, when rollout is still early, and typical traps: messy CRM, missing channels, one-size-fits-all settings, and overweighting early touches. A dashboard without deals isn’t end-to-end analytics.",
+    "End-to-end analytics answers not “how many clicks,” but “which ad ruble returned profit.” That means ad accounts, the site, call tracking, and CRM meet in one loop — not five “eyeball” spreadsheets.",
+    "Below: what you connect, when rollout is still early, and typical traps: messy CRM, missing channels, one-size-fits-all settings, and overweighting early touches. A dashboard without deals isn’t end-to-end analytics.",
   ],
   faq: [
     {
@@ -19,12 +19,12 @@ export const skvoznayaAnalitikaEn: BlogPost = {
       a: "Web analytics sees visits and on-site goals. End-to-end adds spend, calls/chats, and deal amounts from CRM — to ROMI and LTV, not only to a lead.",
     },
     {
-      q: "Is Looker Studio enough for end-to-end analytics?",
+      q: "Is Looker Studio enough?",
       a: "As a front-end view — yes. As the only “end-to-end” layer — no: without CRM join and correct UTM the report stays site analytics.",
     },
     {
-      q: "When is an end-to-end rollout too early?",
-      a: "With a tiny budget and a couple of campaigns, careful UTM, goals, and a manual weekly rollup are cheaper than an expensive loop “for show”. Payback threshold is individual.",
+      q: "When is rollout too early?",
+      a: "With a tiny budget and a couple of campaigns, careful UTM, goals, and a manual weekly rollup are cheaper than an expensive loop “for show.” Payback threshold is individual.",
     },
     {
       q: "Why does nothing work without CRM?",
@@ -36,7 +36,7 @@ export const skvoznayaAnalitikaEn: BlogPost = {
     },
     {
       q: "How long does setup take?",
-      a: "Not “connected in a day”. You need a brief, access, a metrics dictionary, join tests, and acceptance. Plan a calendar — or numbers will look pretty and be wrong.",
+      a: "Not “connected in a day.” You need a brief, access, a metrics dictionary, join tests, and acceptance. Plan a calendar — or numbers will look pretty and be wrong.",
     },
   ],
   sections: [
@@ -51,10 +51,10 @@ export const skvoznayaAnalitikaEn: BlogPost = {
         {
           intro: "Minimum data:",
           items: [
-            "spend and clicks from ad accounts;",
-            "UTM and goals on the site;",
-            "calls/chats tied to source;",
-            "leads, amounts, and statuses in CRM.",
+            "spend and clicks from ad accounts",
+            "UTM and goals on the site",
+            "calls/chats tied to source",
+            "leads, amounts, and statuses in CRM",
           ],
         },
       ],
@@ -79,8 +79,8 @@ export const skvoznayaAnalitikaEn: BlogPost = {
       notes: [
         {
           title: "Important",
-          text: "Order in sources and CRM first, then complex ETL. A pretty dashboard on crooked data speeds up bad decisions.",
           kind: "tip",
+          text: "Order in sources and CRM first, then complex ETL. A pretty dashboard on crooked data speeds up bad decisions.",
         },
       ],
       links: [
@@ -102,10 +102,10 @@ export const skvoznayaAnalitikaEn: BlogPost = {
         {
           intro: "Before choosing, ask:",
           items: [
-            "which CRM and ad accounts you already have;",
-            "whether you need offline and long deals;",
-            "who will maintain the joins;",
-            "which reports are mandatory in a month.",
+            "which CRM and ad accounts you already have",
+            "whether you need offline and long deals",
+            "who will maintain the joins",
+            "which reports are mandatory in a month",
           ],
         },
       ],
@@ -131,10 +131,10 @@ export const skvoznayaAnalitikaEn: BlogPost = {
         {
           intro: "Minimum discipline:",
           items: [
-            "a lead for every inquiry;",
-            "amount and stage kept current;",
-            "calls and tasks tied to the deal;",
-            "no “deals in someone’s head” outside the system.",
+            "a lead for every inquiry",
+            "amount and stage kept current",
+            "calls and tasks tied to the deal",
+            "no “deals in someone’s head” outside the system",
           ],
         },
       ],
@@ -143,8 +143,8 @@ export const skvoznayaAnalitikaEn: BlogPost = {
       title: "Mistake: missing channels and “borrowed” attribution",
       level: 2,
       paras: [
-        "Clients write to email and chat, not only call. If email and messengers stay outside tracking, ad value is undercounted. Email tracking and chat accounting are part of the loop — not “later”.",
-        "A default attribution model rarely matches your funnel. A startup may care more about first brand touch; a promo campaign — fresh interactions near the offer date. Models differ across GA and other systems — pick for the goal, not “like everyone else”.",
+        "Clients write to email and chat, not only call. If email and messengers stay outside tracking, ad value is undercounted. Email tracking and chat accounting are part of the loop — not “later.”",
+        "A default attribution model rarely matches your funnel. A startup may care more about first brand touch; a promo campaign — fresh interactions near the offer date. Models differ across GA and other systems — pick for the goal, not “like everyone else.”",
         "Old touches are often overvalued: a call a month ago is weaker than yesterday’s. It helps to account for value half-life and deal cycle — otherwise budget goes to the meet channel, not the close channel.",
       ],
       links: [
@@ -168,8 +168,8 @@ export const skvoznayaAnalitikaEn: BlogPost = {
       notes: [
         {
           title: "Practice",
-          text: "The first 2–4 weeks after launch are reconciliation mode, not “cut budget by the chart” mode. While data stabilizes, keep decisions conservative.",
           kind: "tip",
+          text: "The first two to four weeks after launch are reconciliation mode, not “cut budget by the chart” mode. While data stabilizes, keep decisions conservative.",
         },
       ],
     },

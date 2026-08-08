@@ -11,7 +11,7 @@ export const googleBiznesEn: BlogPost = {
     "How to appear in Google Maps and the local pack: Google Business Profile, verification, data, photos, and reviews — without outdated “Google My Business 2020” screenshots.",
   lead: [
     "Local Google search often shows a map and business cards next to the regular results. To show up for “service + city” and on the map, you need a correct company profile — today that means Google Business Profile (older UIs were called Google My Business).",
-    "The flow is straightforward: create a Google account, claim or create the profile, verify ownership, fill it out, and keep it current. Menu names change — follow Google Help and the profile dashboard, not screenshots from old articles.",
+    "Below: the launch flow — account, create profile, verify, fill out, and maintain the listing. Menu names change — follow Google Help and the profile dashboard, not screenshots from old articles.",
   ],
   faq: [
     {
@@ -44,7 +44,7 @@ export const googleBiznesEn: BlogPost = {
     },
     {
       q: "Should I use Yandex directories instead of Google?",
-      a: "In some markets you often need both layers for different audiences. They’re different dashboards; one “export” doesn’t replace NAP consistency.",
+      a: "In Russia you often need both layers for different audiences. They’re different dashboards; one “export” doesn’t replace NAP consistency.",
     },
   ],
   sections: [
@@ -52,7 +52,7 @@ export const googleBiznesEn: BlogPost = {
       title: "Why a business needs a map listing",
       level: 2,
       paras: [
-        "For queries with local intent Google shows a map pack: pins, rating, hours, directions. Without a profile you only compete as websites — and lose people who choose “nearby / on the map”.",
+        "For queries with local intent Google shows a map pack: pins, rating, hours, directions. Without a profile you only compete as websites — and lose people who choose “nearby / on the map.”",
         "The card also helps after the click: call, directions, site visit, messenger — if those actions are enabled and data is current.",
       ],
       lists: [
@@ -62,7 +62,7 @@ export const googleBiznesEn: BlogPost = {
             "offline locations (cafés, clinics, services)",
             "field or on-site services with a service area",
             "B2C with “near me” queries",
-            "chains with several branches (per Google’s rules).",
+            "chains with several branches (per Google’s rules)",
           ],
         },
       ],
@@ -81,7 +81,7 @@ export const googleBiznesEn: BlogPost = {
             "check whether a listing for your place already exists (claim it)",
             "match NAP with the site",
             "pick primary and secondary categories honestly",
-            "store access in the company password manager.",
+            "store access in the company password manager",
           ],
         },
       ],
@@ -98,7 +98,7 @@ export const googleBiznesEn: BlogPost = {
       level: 2,
       paras: [
         "Until the profile is verified, full management and display are limited. Google offers a verification method available for your case — follow the account steps and don’t buy “gray verification” from middlemen.",
-        "After verification keep the listing “open” with correct hours: mismatch with reality hits reviews and trust faster than an “imperfect SEO description”.",
+        "After verification keep the listing “open” with correct hours: mismatch with reality hits reviews and trust faster than an imperfect SEO description.",
       ],
       lists: [
         {
@@ -106,7 +106,7 @@ export const googleBiznesEn: BlogPost = {
           items: [
             "don’t ignore verification emails/notifications",
             "log verification date and owner",
-            "on legal entity/address change, update per the rules — don’t spawn a duplicate listing without need.",
+            "on legal entity/address change, update per the rules — don’t spawn a duplicate listing without need",
           ],
         },
       ],
@@ -115,7 +115,7 @@ export const googleBiznesEn: BlogPost = {
       title: "What to fill after verification",
       level: 2,
       paras: [
-        "Description without stuffing, services/products, attributes (accessibility, payment), hours, phone, website, action button. Photos: facade, interior, team, work — your own, not stock.",
+        "Description without stuffing, services/products, attributes (accessibility, payment), hours, phone, website, action button. Photos: facade, interior, team, work — your own, not a media-library filler.",
         "Match the site: same name, address, phone as in the footer and contacts. UTM on the site link is optional, for analytics of map clicks.",
       ],
       lists: [
@@ -127,7 +127,7 @@ export const googleBiznesEn: BlogPost = {
             "categories that match reality",
             "site / messenger / call",
             "10+ decent photos",
-            "replies to reviews.",
+            "replies to reviews",
           ],
         },
       ],
@@ -152,7 +152,7 @@ export const googleBiznesEn: BlogPost = {
             "monitor new reviews",
             "check NAP quarterly",
             "fresh photos every few months",
-            "audit employee access rights.",
+            "audit employee access rights",
           ],
         },
       ],
@@ -171,7 +171,7 @@ export const googleBiznesEn: BlogPost = {
             "buy “100 reviews tomorrow”",
             "create a second listing “for SEO”",
             "list a coworking address if you aren’t there",
-            "forget to revoke access from former contractors.",
+            "forget to revoke access from former contractors",
           ],
         },
       ],
@@ -179,7 +179,7 @@ export const googleBiznesEn: BlogPost = {
         {
           title: "Practice",
           kind: "tip",
-          text: "In markets with strong Yandex Maps usage, plan that directory too — audiences differ. NAP consistency across layers beats racing for one platform. Local ranking growth is still months of work, not a profile checkbox.",
+          text: "In Russia, plan Yandex Business / Directory in parallel — map audiences differ. NAP consistency across layers beats racing for one platform.",
         },
       ],
       links: [

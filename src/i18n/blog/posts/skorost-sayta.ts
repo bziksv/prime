@@ -8,31 +8,31 @@ export const skorostSaytaEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/skorost-sayta/cover-en.webp",
   excerpt:
-    "How to measure page load speed: lab vs. field data, Core Web Vitals, PageSpeed Insights, and what to do with the report — without a cult of “100 points” or an outdated top-10 tools list from 2018.",
+    "How to measure page load: lab vs field data, Core Web Vitals, PageSpeed Insights, and what to do with the report — without a cult of “100 points” or a dusty 2018 tools top-10.",
   lead: [
-    "A slow page loses people and search signals. Speed checks aren’t a race to a hundred in PageSpeed — they’re understanding what blocks (server, images, JS) and on which URLs it matters.",
-    "We cover lab vs. field metrics, which numbers to watch, a basic tool set, and how to read recommendations. We don’t reprint a ten-tool price list from 2018—some aged out, some changed products. Speeding up WordPress is a separate article.",
+    "A slow page loses people and search signals. Speed checks aren’t a race to a hundred in PageSpeed — they’re figuring out what blocks (server, images, JS) and on which URLs it hurts.",
+    "Below: lab vs field, which metrics matter, a lean tool set, and how to read recommendations. We don’t reprint a ten-tool price list from 2018 — some aged out, some changed products. Speeding up WordPress is a separate article.",
   ],
   faq: [
     {
-      q: "Do I need 100 points in PageSpeed?",
-      a: "No. What matters more is LCP/INP/CLS in the green zone on mobile for key URLs — and real UX.",
+      q: "Do I need 100 in PageSpeed?",
+      a: "No. What matters more is LCP / INP / CLS in the green zone on mobile for key URLs — and real UX.",
     },
     {
-      q: "Are lab and field metrics the same?",
+      q: "Are lab and field the same?",
       a: "No. Lab (Lighthouse) is a controlled run. Field (CrUX) is real-user data. Watch both.",
     },
     {
-      q: "Is Webmaster alone enough to judge speed?",
-      a: "Helpful for availability and some diagnostics, but it doesn’t replace PSI/CWV for load perception.",
+      q: "Is Webmaster enough?",
+      a: "Helpful for availability and some diagnostics — it doesn’t replace PSI / CWV for how load feels.",
     },
     {
-      q: "Does speed equal TOP rankings?",
-      a: "Indirectly via UX and crawl. Core positions take planned months of work — not “ran PSI = TOP.”",
+      q: "Does speed equal rankings?",
+      a: "Indirectly, via UX and crawl. Core positions take planned months of work — not “ran PSI, hit page one.”",
     },
     {
       q: "Which URL should I start with?",
-      a: "Home, top landings from ads/organic, product/service, checkout.",
+      a: "Home, top landings from ads or organic, product or service page, checkout.",
     },
   ],
   sections: [
@@ -40,8 +40,8 @@ export const skorostSaytaEn: BlogPost = {
       title: "Why measure speed",
       level: 2,
       paras: [
-        "Users rarely wait for an “eternal” load: bounces rise and conversion falls. For SEO, page-experience technical signals matter — and that bots and people get content without pain.",
-        "Don’t use the myth “top sites load in 0.38 s” from old posts as a KPI. Measure your templates on mobile networks and compare with competitors on meaning, not someone else’s magic.",
+        "Users rarely wait forever: bounces rise and conversion falls. For SEO, page-experience signals matter — and bots and people should get content without pain.",
+        "Don’t treat the myth “top sites load in 0.38 s” from old posts as a KPI. Measure your templates on mobile networks and compare competitors on substance, not someone else’s magic number.",
       ],
       links: [
         {
@@ -77,32 +77,32 @@ export const skorostSaytaEn: BlogPost = {
       title: "Which metrics to watch",
       level: 2,
       paras: [
-        "Core Web Vitals: LCP (largest content), INP (responsiveness), CLS (layout stability). Nearby — TTFB as a server/backend indicator.",
+        "Core Web Vitals: LCP (largest content), INP (responsiveness), CLS (layout stability). Nearby — TTFB as a server/backend signal.",
         "Don’t fix everything at once. First LCP on mobile for a key URL, then INP/CLS, then score cosmetics.",
       ],
       lists: [
         {
           intro: "Common culprits:",
           items: [
-            "heavy hero without dimensions;",
-            "blocking JS/CSS;",
-            "slow TTFB / hosting;",
-            "third-party widgets and tags;",
-            "fonts without font-display.",
+            "heavy hero without dimensions",
+            "blocking JS/CSS",
+            "slow TTFB / hosting",
+            "third-party widgets and tags",
+            "fonts without font-display",
           ],
         },
       ],
     },
     {
-      title: "Basic tool set",
+      title: "A lean tool set",
       level: 2,
       paras: [
-        "PageSpeed Insights — quick lab start plus a field summary where available. WebPageTest — deep waterfall and region comparison. Google Search Console — page experience report for the site.",
-        "Also: DevTools Performance/Network locally, uptime monitoring (Pingdom and peers — as alerting, not as the only SEO meter). Russian “sitespeed” services as a second look, not as truth.",
+        "PageSpeed Insights — quick lab start plus a field summary where available. WebPageTest — deep waterfall and region comparison. Google Search Console — page experience across the site.",
+        "Also: DevTools Performance/Network locally, uptime monitoring (Pingdom and peers — as alerting, not as the only SEO meter). Extra “sitespeed” checkers as a second look, not as truth.",
       ],
       notes: [
         {
-          title: "About the 2018 top-10",
+          title: "About that 2018 top-10",
           text: "Don’t copy YSlow, old GTMetrix/Pingdom plans, or a “PageSpeed extension” blindly. Refresh the measurement stack yearly.",
           kind: "tip",
         },
@@ -119,20 +119,20 @@ export const skorostSaytaEn: BlogPost = {
       ],
     },
     {
-      title: "How to read the report and what to do",
+      title: "Reading the report — then acting",
       level: 2,
       paras: [
-        "Fix the URL, device (mobile), date, and a screenshot/export. List the top 3 recommendations with effort estimates. Ship → remeasure in a day (field catches up slower).",
-        "If TTFB is high — hosting, cache, backend. If LCP — images, SSR/critical CSS, load priority. If CLS — media and ad-slot dimensions.",
+        "Lock the URL, device (mobile), date, and a screenshot or export. List the top three recommendations with effort estimates. Ship → remeasure in a day (field catches up slower).",
+        "High TTFB — hosting, cache, backend. LCP — images, SSR/critical CSS, load priority. CLS — media and ad-slot dimensions.",
       ],
       lists: [
         {
           intro: "Monthly mini-ritual:",
           items: [
-            "PSI on 3–5 key URLs;",
-            "GSC: URLs with poor experience;",
-            "compare with last month;",
-            "1–2 fixes into the sprint.",
+            "PSI on 3–5 key URLs",
+            "GSC: URLs with poor experience",
+            "compare with last month",
+            "1–2 fixes into the sprint",
           ],
         },
       ],
@@ -144,11 +144,11 @@ export const skorostSaytaEn: BlogPost = {
       ],
     },
     {
-      title: "Takeaways",
+      title: "What to remember",
       level: 2,
       paras: [
-        "Speed is measured with perception and server metrics — not a collection of ten bookmarks. Lab for debugging, field for user truth.",
-        "After measuring — bottleneck and fix; racing to 100 points without UX isn’t needed.",
+        "Speed is measured with perception and server metrics — not a pile of ten bookmarks. Lab for debugging, field for user truth.",
+        "After measuring — find the bottleneck and fix it. Racing to 100 points without better UX isn’t the job.",
       ],
     },
   ],

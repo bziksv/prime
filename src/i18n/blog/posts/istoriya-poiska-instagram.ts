@@ -11,16 +11,16 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
     "What Instagram saves in search history, why clear it, how to remove recent queries, and what clearing does not delete — without outdated button screenshots.",
   lead: [
     "Instagram* search remembers recent profiles, hashtags, and places — so you can return faster. The same list is visible to anyone who picks up an unlocked phone.",
-    "Clearing history helps privacy on a shared phone — but it doesn’t unfollow accounts or wipe recommendations overnight. Menu labels change; follow the app’s current Help. The Meta disclaimer is on the page.",
+    "Below: why clear history, how to do it in broad strokes, and what clearing doesn’t do. Menu labels change; follow the app’s current Help. The Meta disclaimer is on the page.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
       q: "Where do I see recent queries?",
-      a: "Usually the search / magnifier tab → the Find or Search field: suggestions and recent accounts on top. Labels depend on the app version.",
+      a: "Usually the search / magnifier tab → the Find or Search field: suggestions and recent accounts appear first. Labels depend on the app version.",
     },
     {
       q: "Does clearing history delete follows?",
@@ -60,7 +60,6 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
         "It’s not a full log of everything in the app and not a substitute for account activity. For security, password, 2FA, and device sessions matter more.",
         "Explore suggestions and feed recommendations live separately: clearing recents doesn’t reset the algorithm entirely.",
       ],
-      lists: [],
       links: [
         {
           label: "How to find someone on Instagram",
@@ -80,10 +79,10 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
         {
           intro: "When clearing is especially useful:",
           items: [
-            "you’re handing over or selling a smartphone;",
-            "you used someone else’s phone;",
-            "you don’t want work/personal queries visible at home;",
-            "you’re about to screen-record search.",
+            "you’re handing over or selling a smartphone",
+            "you used someone else’s phone",
+            "you don’t want work/personal queries visible at home",
+            "you’re about to screen-record search",
           ],
         },
       ],
@@ -96,10 +95,10 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
         "Alternative: in search itself, some items may offer clear all or one-by-one delete — if your version has it.",
         "After clearing, open the search field again: the recent list should be empty or much shorter. New queries will start accumulating again.",
       ],
-      lists: [],
       notes: [
         {
           title: "Don’t memorize the UI",
+          kind: "tip",
           text: "2021 screenshots often lie. Search for history / recent / Search history by intent in settings or Instagram* Help — not “the third button on the right.”",
         },
       ],
@@ -112,7 +111,6 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
         "Hiding recommendations (“not interested” / hide) in Explore blocks is a different function: it trains the suggestion feed, and doesn’t necessarily erase your search log.",
         "If the goal is not to show a specific nick, check both places: recents and recommendations.",
       ],
-      lists: [],
     },
     {
       title: "What clearing doesn’t do",
@@ -122,7 +120,6 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
         "It doesn’t delete chats, ad orders, saved posts, or follows.",
         "It doesn’t guarantee someone won’t know you visited their profile: it could open via link, Direct, or recommendation, and that isn’t always written in your search history.",
       ],
-      lists: [],
       links: [
         {
           label: "Instagram password and access",
@@ -146,10 +143,10 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
         {
           intro: "Account hygiene minimum:",
           items: [
-            "strong password + 2FA;",
-            "check active sessions;",
-            "clear search when handing over the phone;",
-            "refuse third-party apps that ask for login.",
+            "strong password + 2FA",
+            "check active sessions",
+            "clear search when handing over the phone",
+            "refuse third-party apps that ask for login",
           ],
         },
       ],
@@ -162,7 +159,6 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
         "Follows and content don’t disappear; the recommendation algorithm doesn’t fully reset.",
         "Security rests on password, sessions, and common sense — not the myth “cleared search = sped up the phone.”",
       ],
-      lists: [],
     },
   ],
   closing: [

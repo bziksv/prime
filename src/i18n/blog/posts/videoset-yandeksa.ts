@@ -3,7 +3,8 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for videoset-yandeksa — same structure as RU JSON. */
 export const videosetYandeksaEn: BlogPost = {
   slug: "videoset-yandeksa",
-  title: "Yandex Video Network: formats, targeting, and how to evaluate a campaign",
+  title:
+    "Yandex Video Network: formats, targeting, and how to evaluate a campaign",
   date: "2018-10-18",
   category: "Paid search",
   cover: "/images/blog/videoset-yandeksa/cover-en.webp",
@@ -11,7 +12,7 @@ export const videosetYandeksaEn: BlogPost = {
     "How the Yandex Video Network works: prerolls and in-page placements, targeting, VTR, and tying results to business goals — without treating 2018 industry-share and CPV reports as today’s price list.",
   lead: [
     "The Yandex Video Network runs video on partner sites and across the Yandex ecosystem: before, during, and after content, plus in-page and mobile interstitial formats. It’s not “just another banner” — it’s video media with its own completion and cost-per-contact logic.",
-    "Pick a format that fits the offer, watch targeting and frequency during setup, and read results against your own unit economics. Industry budget shares, average CPV, and targeting rankings from 2018 half-year reviews are a historical snapshot — not a current media plan.",
+    "Below: formats, what to watch in setup, and how to read results. Industry budget shares, average CPV, and targeting leaderboards from 2018 half-year reviews are a historical snapshot — not a current media plan. Check formats and bids in the live account.",
   ],
   faq: [
     {
@@ -32,7 +33,7 @@ export const videosetYandeksaEn: BlogPost = {
     },
     {
       q: "Can I rely on old industry rankings?",
-      a: "Only as background. Five-year-old auto and finance share data and “top targeting” lists don’t replace your own test and current account reports.",
+      a: "Only as background. Five-year-old auto and finance share data and old targeting leaderboards don’t replace your own test and current account reports.",
     },
   ],
   sections: [
@@ -47,10 +48,10 @@ export const videosetYandeksaEn: BlogPost = {
         {
           intro: "Typical use cases:",
           items: [
-            "product or season launch;",
-            "brand support alongside search;",
-            "retargeting site visitors;",
-            "warming B2C niches where the buying decision is emotional.",
+            "product or season launch",
+            "brand support alongside search",
+            "retargeting site visitors",
+            "warming B2C niches where the buying decision is emotional",
           ],
         },
       ],
@@ -76,18 +77,18 @@ export const videosetYandeksaEn: BlogPost = {
         {
           intro: "What to weigh when choosing a format:",
           items: [
-            "length and skip rules: can you land the offer;",
-            "device: mobile vs. desktop vs. TV;",
-            "goal: reach vs. click through to the site;",
-            "creative: do you have a version built for a short contact.",
+            "length and skip rules: can you land the offer",
+            "device: mobile vs. desktop vs. TV",
+            "goal: reach vs. click through to the site",
+            "creative: do you have a version built for a short contact",
           ],
         },
       ],
       notes: [
         {
           title: "On old average CPV figures",
-          text: "Numbers like “preroll 0.29 ₽ per completed view” from 2018 reports can’t be copied into a 2026 plan. Cost per contact depends on niche, competition, and creative quality right now.",
           kind: "tip",
+          text: "Numbers like “preroll 0.29 ₽ per completed view” from 2018 reports can’t be copied into a 2026 plan. Cost per contact depends on niche, competition, and creative quality right now.",
         },
       ],
     },
@@ -114,18 +115,18 @@ export const videosetYandeksaEn: BlogPost = {
       title: "Targeting: from demographics to retargeting",
       level: 2,
       paras: [
-        "Market reviews often led with socio-demographic segments, interests (film, sports), and search retargeting / user categories. For your campaign, what matters isn’t an “industry top five” but the link: who buys → which account signal is closest → which creative.",
+        "Market reviews often led with socio-demographic segments, interests (film, sports), and search retargeting / user categories. For your campaign, what matters isn’t an industry leaderboard of five but the link: who buys → which account signal is closest → which creative.",
         "Start with a narrow, relevant segment and site or CRM retargeting (where available), then expand from the data. A broad “entertainment interest” audience without an offer and landing page is a classic way to burn reach budget.",
       ],
       lists: [
         {
           intro: "A practical order:",
           items: [
-            "goal and KPI (reach / traffic / conversion);",
-            "one or two audience hypotheses;",
-            "creative matched to format length;",
-            "UTM + Metrika goals;",
-            "a one- to two-week test → refine segments.",
+            "goal and KPI (reach / traffic / conversion)",
+            "one or two audience hypotheses",
+            "creative matched to format length",
+            "UTM + Metrika goals",
+            "a one- to two-week test → refine segments",
           ],
         },
       ],

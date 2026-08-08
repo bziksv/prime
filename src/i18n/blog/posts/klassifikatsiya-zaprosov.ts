@@ -11,7 +11,7 @@ export const klassifikatsiyaZaprosovEn: BlogPost = {
     "How search queries are split: informational, commercial, transactional, navigational, geo, and seasonal — and why that matters for SEO and content. Frequency and competition are related axes, not a substitute for intent.",
   lead: [
     "A query isn’t just a “keyword” — it’s a person’s task: learn, find a site, compare, or buy. The type decides which page should answer and what content fits.",
-    "Classify queries by goal first, then layer geo, season, frequency, and competition. How to read the SERP and not mix intents on one URL — in the user intent piece; HF/MF/LF — separately on frequency.",
+    "Below: a map of classification by goals and related axes (geo, season, frequency, competition). How to read the SERP and not mix intents on one URL — in the user intent piece; HF/MF/LF — separately on frequency.",
   ],
   faq: [
     {
@@ -74,12 +74,12 @@ export const klassifikatsiyaZaprosovEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "A quick test on the SERP top results:",
+          intro: "A quick test on the first page of results:",
           items: [
-            "guides and Wiki — likely info;",
-            "product cards and price lists — commerce;",
-            "brand in the results — navigation;",
-            "mixed types — mixed intent; be careful with one landing.",
+            "guides and Wiki — likely info",
+            "product cards and price lists — commerce",
+            "brand in the results — navigation",
+            "mixed types — mixed intent; be careful with one landing",
           ],
         },
       ],

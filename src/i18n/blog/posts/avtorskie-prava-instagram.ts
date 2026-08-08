@@ -8,14 +8,14 @@ export const avtorskiePravaInstagramEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/avtorskie-prava-instagram/cover-en.webp",
   excerpt:
-    "How to avoid copyright issues on Instagram*: music and photos, what to do after a claim, how to protect your own work — without DRM-bypass guides.",
+    "How to stay clear of copyright trouble on Instagram*: music and photos, what to do after a claim, how to protect your own work — without DRM-bypass guides.",
   lead: [
     "On Instagram*, posts with someone else’s music, photos, or video often get rightsholder claims: sound muted, post removed, account restricted. The reliable path is your own or licensed content — not “bypassing” protection.",
-    "Violations get spotted via rights holders and automated checks. Use music and photos legally, dispute mistaken claims through Meta’s flow, and protect your own work. We don’t cover DRM bypass or pirate schemes.",
+    "Below: how violations get spotted, how to use music and photos legally, what to do after a mistaken claim, and how to protect your materials. We don’t cover DRM bypass or pirate schemes.",
   ],
   legalNotice: {
-    title: "Dear readers!",
-    text: "This article is for information only and is not an invitation to use the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
@@ -23,27 +23,27 @@ export const avtorskiePravaInstagramEn: BlogPost = {
       a: "If the track is available in the official library for your region and account type — usually yes under its rules. Third-party “download and overlay” — risk.",
     },
     {
-      q: "Is your own photo always safe on Instagram?",
+      q: "Is your own photo always safe?",
       a: "Your shot — yes. But other people’s faces, brands, or someone else’s design in the frame can still draw claims. Commerce — be careful with model releases.",
     },
     {
-      q: "What happens after repeat copyright violations?",
+      q: "What happens after repeat violations?",
       a: "Publishing limits, content removal, up to account blocks. Depends on platform policy and claim severity.",
     },
     {
-      q: "How do you dispute a mistaken copyright claim?",
+      q: "How do you dispute a mistaken claim?",
       a: "Through the official counter-notice/appeal flow in Instagram*/Meta Help. Prepare proof of rights to the material.",
     },
     {
-      q: "Are stock photos free to use in Reels?",
-      a: "Only under that stock’s license. “Found on Google” is not a license.",
+      q: "Are stock photos free for Reels?",
+      a: "Only under that library’s license. “Found on Google” is not a license.",
     },
     {
-      q: "Is someone else’s meme with music OK to post?",
+      q: "Is someone else’s meme with music OK?",
       a: "Often no: both the image and the track may be protected. Prefer your frame and allowed sound.",
     },
     {
-      q: "How do you protect your photos on Instagram?",
+      q: "How do you protect your photos?",
       a: "Publish originals, watch for copies, file claims via official forms when needed. Watermarks are optional — not a silver bullet.",
     },
     {
@@ -56,17 +56,17 @@ export const avtorskiePravaInstagramEn: BlogPost = {
       title: "How violations get noticed",
       level: 2,
       paras: [
-        "The platform and partners match audio fingerprints, take rightsholder claims, and moderate user reports. Automation isn’t perfect: false positives happen — then use the official appeal, not a “grey” bypass.",
+        "The platform and partners match audio fingerprints, take rightsholder claims, and moderate user reports. Automation isn’t perfect: false positives happen — then use the official appeal, not a grey workaround.",
         "Commercial accounts and ads are checked harder: what “worked for a creator” may get cut for a brand.",
       ],
       lists: [
         {
           intro: "Typical triggers:",
           items: [
-            "a known track in full;",
-            "someone else’s clip/TV fragment;",
-            "stock without a license;",
-            "mass claims on one account.",
+            "a known track in full",
+            "someone else’s clip/TV fragment",
+            "stock without a license",
+            "mass claims on one account",
           ],
         },
       ],
@@ -82,10 +82,10 @@ export const avtorskiePravaInstagramEn: BlogPost = {
         {
           intro: "Practice:",
           items: [
-            "check track availability before shooting a series;",
-            "keep license proof;",
-            "have a backup allowed track;",
-            "don’t download “stems” from pirate sites.",
+            "check track availability before shooting a series",
+            "keep license proof",
+            "have a backup allowed track",
+            "don’t download “stems” from pirate sites",
           ],
         },
       ],
@@ -93,7 +93,7 @@ export const avtorskiePravaInstagramEn: BlogPost = {
         {
           title: "Common mistake",
           kind: "tip",
-          text: "Assuming “any hit is fine for Stories”. Rules and libraries differ by format and region.",
+          text: "Assuming “any hit is fine for Stories.” Rules and libraries differ by format and region.",
         },
       ],
     },
@@ -108,10 +108,10 @@ export const avtorskiePravaInstagramEn: BlogPost = {
         {
           intro: "Pre-post checklist:",
           items: [
-            "who authored the frame;",
-            "is there a license/permission;",
-            "no unnecessary third-party logo in focus;",
-            "text and fonts not copied from someone else’s creative.",
+            "who authored the frame",
+            "is there a license/permission",
+            "no unnecessary third-party logo in focus",
+            "text and fonts not copied from someone else’s creative",
           ],
         },
       ],
@@ -127,10 +127,10 @@ export const avtorskiePravaInstagramEn: BlogPost = {
         {
           intro: "Order of actions:",
           items: [
-            "keep proof of rights;",
-            "follow the appeal form in Help;",
-            "don’t spawn mirrors of the same violation;",
-            "update the team playbook.",
+            "keep proof of rights",
+            "follow the appeal form in Help",
+            "don’t spawn mirrors of the same violation",
+            "update the team playbook",
           ],
         },
       ],
@@ -146,10 +146,10 @@ export const avtorskiePravaInstagramEn: BlogPost = {
         {
           intro: "Brand minimum:",
           items: [
-            "license registry for music/stock;",
-            "UGC permission template;",
-            "owner for claim review;",
-            "editorial ban on “download from Google”.",
+            "license registry for music/stock",
+            "UGC permission template",
+            "owner for claim review",
+            "editorial ban on “download from Google”",
           ],
         },
       ],
@@ -171,10 +171,10 @@ export const avtorskiePravaInstagramEn: BlogPost = {
         {
           intro: "Red flags:",
           items: [
-            "pirate tracks “for Reels”;",
-            "Content ID bypass;",
-            "other people’s photos without a license;",
-            "ignoring repeat strikes.",
+            "pirate tracks “for Reels”",
+            "Content ID bypass",
+            "other people’s photos without a license",
+            "ignoring repeat strikes",
           ],
         },
       ],

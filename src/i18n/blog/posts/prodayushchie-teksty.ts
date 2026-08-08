@@ -11,7 +11,7 @@ export const prodayushchieTekstyEn: BlogPost = {
     "How to write sales copy: audience and product, tone, headline, intro, arguments, price, and a CTA without clichés.",
   lead: [
     "Sales copy drives an action: a lead, a purchase, a call. Readers rarely care that “the company is growing” — they care which problem the offer solves.",
-    "The focus is principles, structure from headline to CTA, and ways to talk about price. Social posts and general copywriting have sibling articles; this piece is the commercial-text frame.",
+    "Below: principles, structure from headline to CTA, and ways to talk about price. Social posts and general copywriting have sibling articles; this piece is the commercial-text frame.",
   ],
   faq: [
     {
@@ -31,7 +31,7 @@ export const prodayushchieTekstyEn: BlogPost = {
       a: "Break it into clear units, compare with an alternative, show value and what’s included. Don’t fake a discount.",
     },
     {
-      q: "How much fluff is OK in sales copy?",
+      q: "How much fluff is OK?",
       a: "Almost none. Facts, benefits, proof, CTA. Lyric only if it truly warms the audience.",
     },
   ],
@@ -50,7 +50,7 @@ export const prodayushchieTekstyEn: BlogPost = {
             "accurate product facts",
             "benefits instead of bare features",
             "coherence and tact",
-            "one main CTA.",
+            "one main CTA",
           ],
         },
       ],
@@ -68,7 +68,7 @@ export const prodayushchieTekstyEn: BlogPost = {
             "who reads and which action you need",
             "which pain/desire",
             "how you differ from peers",
-            "what proof you have (cases, numbers, guarantees).",
+            "what proof you have (cases, numbers, guarantees)",
           ],
         },
       ],
@@ -86,7 +86,6 @@ export const prodayushchieTekstyEn: BlogPost = {
         "Tone is the audience’s language: simpler for a broad public, precise terms without legalese for pros. Facts beat exclamation marks.",
         "The headline promises benefit or intrigue without lying. After it people should want to keep reading — not feel clickbait.",
       ],
-      lists: [],
     },
     {
       title: "Intro, body, close",
@@ -104,7 +103,7 @@ export const prodayushchieTekstyEn: BlogPost = {
             "solution and product",
             "proof",
             "price and terms",
-            "CTA: call / get in touch / buy.",
+            "CTA: call / get in touch / buy",
           ],
         },
       ],
@@ -128,13 +127,14 @@ export const prodayushchieTekstyEn: BlogPost = {
             "price per day/month on a long term",
             "what’s included in the sum",
             "compare with the cost of the problem unsolved",
-            "clear payment and refund terms.",
+            "clear payment and refund terms",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
+          kind: "tip",
           text: "Starting with “we are market leaders” instead of the client’s pain. Prove leadership with cases after the benefit is clear.",
         },
       ],

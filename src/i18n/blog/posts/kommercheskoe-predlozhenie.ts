@@ -3,7 +3,7 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for kommercheskoe-predlozhenie — same structure as RU JSON. */
 export const kommercheskoePredlozhenieEn: BlogPost = {
   slug: "kommercheskoe-predlozhenie",
-  title: "How to write a commercial proposal: types, structure, and offer",
+  title: "How to write a commercial proposal: types, structure, offer",
   date: "2019-03-26",
   category: "Digital marketing",
   cover: "/images/blog/kommercheskoe-predlozhenie/cover-en.webp",
@@ -11,7 +11,7 @@ export const kommercheskoePredlozhenieEn: BlogPost = {
     "A commercial proposal (sales pitch): cold, warm, and hot; a basic letter structure; headline, benefit, price, objections, and CTA — without spam clichés or pressure.",
   lead: [
     "A commercial proposal is a text where you offer a service or product and invite the next step: a call, a meeting, an invoice. Most often it goes by email; less often via messengers and social.",
-    "Match the letter to how warm the audience is, keep a clear structure, and write the headline, offer, benefits, and price so someone finishes reading. Blasts to bought lists and aggressive spam are out of bounds — write clearly and only where you were asked or have a lawful basis to contact.",
+    "Below: types by audience “temperature,” working structures, and how to write the headline, offer, benefits, and price. Blasts to bought lists and aggressive spam are out of bounds — write clearly and only where you were asked or have a lawful basis to contact.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const kommercheskoePredlozhenieEn: BlogPost = {
       a: "Basically yes if there’s an offer. But a strong proposal answers the recipient’s job and leads to a clear action — not “just warming.”",
     },
     {
-      q: "How does a cold proposal differ from a hot one?",
+      q: "How does cold differ from hot?",
       a: "Cold — little context, shorter, benefit up front. Hot — after talks: timing, scope, price, next step personalized.",
     },
     {
@@ -35,7 +35,7 @@ export const kommercheskoePredlozhenieEn: BlogPost = {
       a: "Cold — short. Warm/hot can be longer if deal details matter. The point is they read through to the CTA.",
     },
     {
-      q: "Is a USP (unique selling proposition) required?",
+      q: "Is a USP required?",
       a: "Useful to state how you differ for this audience. A USP with no link to the customer’s pain is just a slogan.",
     },
   ],
@@ -51,9 +51,9 @@ export const kommercheskoePredlozhenieEn: BlogPost = {
         {
           intro: "Match tone to temperature:",
           items: [
-            "cold — problem + benefit + short CTA;",
-            "warm — reference to the last touch;",
-            "hot — deal specifics and the next step.",
+            "cold — problem + benefit + short CTA",
+            "warm — reference to the last touch",
+            "hot — deal specifics and the next step",
           ],
         },
       ],
@@ -70,12 +70,12 @@ export const kommercheskoePredlozhenieEn: BlogPost = {
         {
           intro: "Blocks by purpose:",
           items: [
-            "headline with a fact or audience problem;",
-            "lead: problem → solution in 1–2 sentences;",
-            "service scope / product specs without fluff;",
-            "differences and offer (timing, package, bonus) for the customer’s pain;",
-            "price with reasoning;",
-            "CTA and contacts.",
+            "headline with a fact or audience problem",
+            "lead: problem → solution in 1–2 sentences",
+            "service scope / product specs without fluff",
+            "differences and offer (timing, package, bonus) for the customer’s pain",
+            "price with reasoning",
+            "CTA and contacts",
           ],
         },
       ],

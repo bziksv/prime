@@ -10,11 +10,11 @@ export const gruppaFacebookEn: BlogPost = {
   excerpt:
     "How to approach a company presence on Facebook: Page vs community, content, moderation, and promotion — an informational breakdown without urging you to use the platform.",
   lead: [
-    "Facebook has historically been used as a company showcase, a channel for international audiences, and a link to Meta advertising tools. For some niches, engagement and B2B context matter more than “mass reach like VK”.",
-    "Below we cover Page vs Group setup, content, keeping activity alive, and how paid promotion differs from organic. The UI changes; this material is informational. The Meta products disclaimer is on the page.",
+    "Facebook has historically been used as a company showcase, a channel for international audiences, and a link to Meta advertising tools. For some niches, engagement and B2B context matter more than mass reach like VK.",
+    "Below: Page vs Group setup, content, keeping activity alive, and how paid promotion differs from organic. The UI changes; this material is informational. The Meta products notice is on the page.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platforms. Facebook* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the services may have legal consequences.",
   },
   faq: [
@@ -32,18 +32,18 @@ export const gruppaFacebookEn: BlogPost = {
     },
     {
       q: "Does linking Instagram help?",
-      a: "For Meta ads and professional tools — often yes. Cross-posting “one text everywhere” is not a strategy by itself. See the linking article.",
+      a: "For Meta ads and professional tools — often yes. Cross-posting one text everywhere is not a strategy by itself. See the linking article.",
     },
     {
       q: "How do you measure success?",
-      a: "Not likes alone: saves, on-topic comments, clicks, leads, dialogue quality. For ads — CPA and ROMI (return on marketing investment).",
+      a: "Not likes alone: saves, on-topic comments, clicks, leads, dialogue quality. For ads — CPA and ROMI.",
     },
     {
       q: "Do you need paid ads immediately?",
       a: "First set up the Page, offer, and landing. Ads amplify a working chain — they don’t rescue an empty profile.",
     },
     {
-      q: "How should you moderate a Group?",
+      q: "How should you moderate?",
       a: "Clear spam, answer questions, fix community rules. An abandoned Page hurts trust more than having none.",
     },
   ],
@@ -53,7 +53,7 @@ export const gruppaFacebookEn: BlogPost = {
       level: 2,
       paras: [
         "The platform fits where the audience already sits: international contacts, professional discussion, the Meta Ads account. Broad geography helps export and remote services.",
-        "Don’t confuse “many users worldwide” with “your audience is here”. First check where your clients and partners live, and which access limits apply to your team.",
+        "Don’t confuse “many users worldwide” with “your audience is here.” First check where your clients and partners live, and which access limits apply to your team.",
       ],
       lists: [
         {
@@ -62,7 +62,7 @@ export const gruppaFacebookEn: BlogPost = {
             "brand showcase and company news",
             "support and Q&A",
             "leads to the site / messenger",
-            "hiring and employer brand in some niches.",
+            "hiring and employer brand in some niches",
           ],
         },
       ],
@@ -81,7 +81,7 @@ export const gruppaFacebookEn: BlogPost = {
             "filled About and category",
             "link to site / landing",
             "3–5 useful starter posts",
-            "someone responsible for comment replies.",
+            "someone responsible for comment replies",
           ],
         },
       ],

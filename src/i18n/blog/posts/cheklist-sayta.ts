@@ -11,7 +11,7 @@ export const cheklistSaytaEn: BlogPost = {
     "Speed, HTTPS, clean URLs, 404 pages, responsive layout, contacts, offer, forms, reviews, privacy policy, and other blocks — a practical checklist without “50 items or failure” panic.",
   lead: [
     "Small-business sites differ, but a base set repeats: the site must load fast, make sense on a phone, build trust, and lead to action.",
-    "This guide groups a checklist (tech, brand, trust, content, conversion). Not everything from long 2018 lists is critical today (social widgets — only if you need them), and “doomed without item #37” is hyperbole: prioritize what breaks leads and SEO.",
+    "Below: a grouped checklist (tech, brand, trust, content, conversion). Not everything from long 2018 lists is critical today (social widgets — only if you need them), and “doomed without item #37” is hyperbole: prioritize what breaks leads and SEO.",
   ],
   faq: [
     {
@@ -51,12 +51,12 @@ export const cheklistSaytaEn: BlogPost = {
         {
           intro: "Tech minimum:",
           items: [
-            "acceptable mobile speed;",
-            "HTTPS;",
-            "readable URLs;",
-            "sitemap and robots in order;",
-            "a useful 404 page;",
-            "responsive layout.",
+            "acceptable mobile speed",
+            "HTTPS",
+            "readable URLs",
+            "sitemap and robots in order",
+            "a useful 404 page",
+            "responsive layout",
           ],
         },
       ],
@@ -83,10 +83,10 @@ export const cheklistSaytaEn: BlogPost = {
         {
           intro: "Contacts in view:",
           items: [
-            "phone and messenger;",
-            "email or form;",
-            "address and map for an offline location;",
-            "business hours.",
+            "phone and messenger",
+            "email or form",
+            "address and map for an offline location",
+            "business hours",
           ],
         },
       ],
@@ -112,8 +112,8 @@ export const cheklistSaytaEn: BlogPost = {
       notes: [
         {
           title: "Priority",
-          text: "First the path “understood the offer → contacted.” Then blog, careers, and an events calendar.",
           kind: "tip",
+          text: "First the path “understood the offer → contacted.” Then blog, careers, and an events calendar.",
         },
       ],
       links: [

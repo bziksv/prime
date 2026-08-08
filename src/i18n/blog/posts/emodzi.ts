@@ -11,7 +11,7 @@ export const emodziEn: BlogPost = {
     "What emoji are and how to use them in posts, chat, and snippets: tone for the audience, measure, and risks — without CTR guarantees or the “Apple only” myth.",
   lead: [
     "Emoji are pictograms in text: emotions, objects, gestures. They speed up reading mood and save words, but they easily turn an offer into visual noise.",
-    "How marketing uses them, how to test tone for the audience, and where they fit in social and snippets. We don’t copy other people’s “millions of shares” cases as a guarantee.",
+    "Below: why marketing uses them, how to test tone for the audience, and where they fit in social and snippets. We don’t copy other people’s “millions of shares” cases as a guarantee. If you work with Instagram/Facebook, follow Meta’s notice on the page.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const emodziEn: BlogPost = {
     },
     {
       q: "Are emoji required in B2B?",
-      a: "No. In conservative niches 0–1 symbol next to a list is enough. Overload annoys a “serious” audience faster than it helps.",
+      a: "No. In conservative niches, 0–1 symbol next to a list is enough. Overload annoys a “serious” audience faster than it helps.",
     },
     {
       q: "Do emoji raise search rankings?",
@@ -41,7 +41,7 @@ export const emodziEn: BlogPost = {
       level: 2,
       paras: [
         "Emoji came from Japanese mobile cultures in the 1990s and then entered Unicode — so they don’t live only in one smartphone brand.",
-        "References like Emojipedia help check meaning and render variants. For marketing, “collecting” matters less than hitting audience tone.",
+        "References like Emojipedia help check meaning and render variants. For marketing, collecting every glyph matters less than hitting audience tone.",
       ],
     },
     {
@@ -55,8 +55,8 @@ export const emodziEn: BlogPost = {
       notes: [
         {
           title: "Measure",
-          text: "Emoji don’t replace the offer, facts, and proof. If you remove every symbol and the text falls apart — fix the copy first.",
           kind: "tip",
+          text: "Emoji don’t replace the offer, facts, and proof. If you remove every symbol and the text falls apart — fix the copy first.",
         },
       ],
     },
@@ -64,7 +64,7 @@ export const emodziEn: BlogPost = {
       title: "How to start without failing",
       level: 2,
       paras: [
-        "Ask: will the audience read the symbol the same way you do? Will the point get lost behind “decoration”?",
+        "Ask: will the audience read the symbol the same way you do? Will the point get lost behind decoration?",
         "Match brand tone: a bank and a kids’ brand tolerate different emoji density.",
         "Check rendering on iOS and Android — especially rare symbols.",
         "Ad accounts and landings sometimes strip emoji or render them oddly — check the preview.",
@@ -76,7 +76,7 @@ export const emodziEn: BlogPost = {
             "emoji removed — meaning still holds",
             "no more than 1–2 accents per paragraph",
             "no contested gestures or double meanings",
-            "CTA reads without the icon.",
+            "CTA reads without the icon",
           ],
         },
       ],
@@ -86,14 +86,14 @@ export const emodziEn: BlogPost = {
       level: 2,
       paras: [
         "Social and Stories: list markers, reactions, a light service tone.",
-        "Email and messengers: subject line and first screen — carefully; spam filters and corporate style.",
+        "Email and messengers: subject line and first screen — carefully; spam filters and corporate style matter.",
         "Search snippets: a rare CTR experiment. Don’t spam Title with emoji for a click — trust and page match beat a short spike.",
       ],
       notes: [
         {
           title: "No illusions",
-          text: "Cases like “they replied with a pizza emoji — and ordered” show a mechanic idea, not a template of “add emoji — grow 10x.”",
           kind: "tip",
+          text: "Cases like “they replied with a pizza emoji — and ordered” show a mechanic idea, not a template of “add emoji — grow 10x.”",
         },
       ],
     },

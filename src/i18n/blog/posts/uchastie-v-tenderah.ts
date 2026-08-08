@@ -11,7 +11,7 @@ export const uchastieVTenderahEn: BlogPost = {
     "Why a marketing agency should join procurements, which formats exist, what to check in the docs, and signs of a “show” tender — without promising an easy win.",
   lead: [
     "A large buyer rarely picks a vendor from a pretty site alone: often a contest or procurement is required. For an agency that’s a growth channel — and a risk of spending weeks on a tender that’s already decided.",
-    "Join where you can deliver the contract without a cash-flow break. Prep docs and economics early, read the draft contract before you bid, and walk away when the red flags stack up. This is a B2B services practice overview (including ads), not legal advice — check current platform rules and local public-procurement law.",
+    "Below: why participate, which formats show up, what to check in the docs, and when to walk away. This is a B2B services practice overview (including ads), not legal advice — check current platform rules and local public-procurement law.",
   ],
   faq: [
     {
@@ -51,9 +51,9 @@ export const uchastieVTenderahEn: BlogPost = {
         {
           intro: "Benefits for an agency:",
           items: [
-            "visibility with large buyers;",
-            "a formal path into a shortlist;",
-            "practice packaging cases and processes.",
+            "visibility with large buyers",
+            "a formal path into a shortlist",
+            "practice packaging cases and processes",
           ],
         },
       ],
@@ -77,10 +77,10 @@ export const uchastieVTenderahEn: BlogPost = {
         {
           intro: "Before submitting:",
           items: [
-            "accreditation and e-signature if needed;",
-            "estimate of labor for the bid;",
-            "contract economics with a buffer;",
-            "readiness to meet SLA from the contract.",
+            "accreditation and e-signature if needed",
+            "estimate of labor for the bid",
+            "contract economics with a buffer",
+            "readiness to meet SLA from the contract",
           ],
         },
       ],
@@ -103,20 +103,20 @@ export const uchastieVTenderahEn: BlogPost = {
         {
           intro: "Red flags:",
           items: [
-            "vendor selection deadline too short;",
-            "holes in the brief with hard KPIs;",
-            "no feedback loop for clarifications;",
-            "contract economics at break-even or below.",
+            "vendor selection deadline too short",
+            "holes in the brief with hard KPIs",
+            "no feedback loop for clarifications",
+            "contract economics at break-even or below",
           ],
         },
       ],
     },
     {
-      title: "How to raise your odds",
+      title: "How to improve your odds",
       level: 2,
       paras: [
-        "There’s no win guarantee. What strengthens the position: reputation and cases, a full doc set, a careful bid, a fair price with room for quality, accreditation on the right platforms.",
-        "After a win, delivering the contract is critical: missing deadlines kills the next tender harder than one loss.",
+        "There’s no win guarantee. What strengthens your bid: reputation and cases, a full doc set, a careful submission, a fair price with room for quality, accreditation on the right platforms.",
+        "After a win, delivering the contract is critical: missing deadlines hurts the next tender harder than one loss.",
       ],
       links: [
         {

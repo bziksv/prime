@@ -11,7 +11,7 @@ export const proksiServerEn: BlogPost = {
     "What a proxy server is in plain words: how the middleman between client and site works, forward vs reverse, cache and corporate gateway — without ban-bypass guides or shady IP lists.",
   lead: [
     "A proxy server is an intermediate node between your device (or internal network) and a target resource on the internet. The request goes to the proxy first, then to the site; the response returns the same way. Sometimes the parties don’t even know about the middleman.",
-    "How the connection works, why providers and companies deploy proxies, how forward differs from reverse on a site, and what webmasters watch for. This isn’t a proxy-abuse how-to.",
+    "Below: how the connection works, why providers and companies deploy proxies, how forward differs from reverse on a site, and the risks of “free” public proxies. We don’t cover bypassing forum bans or other people’s ToS as practice.",
   ],
   faq: [
     {
@@ -87,15 +87,15 @@ export const proksiServerEn: BlogPost = {
             "corporate internet gateway",
             "speeding repeat loads with cache",
             "reverse proxy / CDN edge in front of the site",
-            "isolating internal services from direct access.",
+            "isolating internal services from direct access",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "About “getting on a forum after a ban”",
           text: "Changing IP via a proxy to bypass an account block or platform rules breaks ToS and is often useless: they ban devices, cookies, behavior. We don’t recommend those schemes.",
-          kind: "tip",
         },
       ],
       links: [
@@ -118,7 +118,7 @@ export const proksiServerEn: BlogPost = {
       level: 2,
       paras: [
         "Public proxy lists often include other people’s compromised machines, honeypots, and nodes that read traffic. Don’t enter passwords or pay through an unknown proxy.",
-        "For parsing and automation, mass proxies hit rate limits and site defenses — APIs and data-owner consent are more legitimate than an “IP farm.”",
+        "For scraping and automation, mass proxies hit rate limits and site defenses — APIs and data-owner consent are more legitimate than an “IP farm.”",
       ],
       links: [
         {

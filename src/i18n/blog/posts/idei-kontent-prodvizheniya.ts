@@ -10,8 +10,8 @@ export const ideiKontentProdvizheniyaEn: BlogPost = {
   excerpt:
     "Content formats for organic traffic and trust: how-tos, beginner guides, research, experience, reviews, and myth-busting — without “first line of Google” promises.",
   lead: [
-    "Content-led promotion means answering audience questions in a blog and knowledge base: that grows organic traffic and trust in expertise. It isn’t “free traffic by button” — it’s systematic work on topics and quality.",
-    "The formats below are practical idea starters. Matrix and calendar are separate; here — what to write to meet demand and strengthen the brand.",
+    "Content-led promotion means answering audience questions in a blog and knowledge base: that grows organic traffic and trust in expertise. It isn’t free traffic by button — it’s systematic work on topics and quality.",
+    "Below: working idea formats. Matrix and calendar are separate; here — what to write to meet demand and strengthen the brand.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const ideiKontentProdvizheniyaEn: BlogPost = {
     },
     {
       q: "Does a guide guarantee rankings?",
-      a: "No. Strong material raises odds when tech, links, and intent line up — but it doesn’t promise “first place.” Core TOP growth is planned for 2–6 months of work after prep, not one published guide.",
+      a: "No. Strong material raises odds when tech, links, and intent line up — but it doesn’t promise first place.",
     },
     {
       q: "Do you need infographics?",
@@ -36,7 +36,7 @@ export const ideiKontentProdvizheniyaEn: BlogPost = {
     },
     {
       q: "Where do topics come from?",
-      a: "Client inquiries, search/suggest, competitors, your managers. Not only “what flared in trends.”",
+      a: "Client inquiries, search/suggest, competitors, your managers. Not only what flared in trends.",
     },
     {
       q: "How is this different from a content matrix?",
@@ -54,7 +54,8 @@ export const ideiKontentProdvizheniyaEn: BlogPost = {
       notes: [
         {
           title: "No ranking magic",
-          text: "Landing in a knowledge panel or top results depends on quality, competition, and the site overall — not one lucky wording.",
+          kind: "tip",
+          text: "Landing in a knowledge panel or page-one results depends on quality, competition, and the site overall — not one lucky wording.",
         },
       ],
       links: [
@@ -86,7 +87,7 @@ export const ideiKontentProdvizheniyaEn: BlogPost = {
             "How to…",
             "A complete guide to…",
             "Guide: …",
-            "What to know about… before you choose.",
+            "What to know about… before you choose",
           ],
         },
       ],
@@ -105,7 +106,7 @@ export const ideiKontentProdvizheniyaEn: BlogPost = {
       title: "Personal experience and cases",
       level: 2,
       paras: [
-        "Practice stories don’t replace semantics, but they strengthen brand connection and retention. Show an ordinary workday, a task breakdown, honest limits.",
+        "Practice stories don’t replace keyword structure, but they strengthen brand connection and retention. Show an ordinary workday, a task breakdown, honest limits.",
         "Intrigue fits when it leads to usefulness — not clickbait with no answer.",
       ],
     },
@@ -114,7 +115,7 @@ export const ideiKontentProdvizheniyaEn: BlogPost = {
       level: 2,
       paras: [
         "Product/service review: what it is, who it’s for, pros/cons, price, where to buy. An honest cons list builds trust.",
-        "“Myth busting” in the niche is a strong hook: collect client misconceptions and answer them with facts. Practical usefulness beats a show.",
+        "Myth-busting in the niche is a strong hook: collect client misconceptions and answer them with facts. Practical usefulness beats a show.",
       ],
       links: [
         {
@@ -128,7 +129,7 @@ export const ideiKontentProdvizheniyaEn: BlogPost = {
       ],
     },
     {
-      title: "Takeaways",
+      title: "What to remember",
       level: 2,
       paras: [
         "Ideas without a system burn out fast — tie formats to audience and journey stages.",
@@ -138,7 +139,7 @@ export const ideiKontentProdvizheniyaEn: BlogPost = {
     },
   ],
   closing: [
-    "List 10 client questions from the last month and cover three with a how-to or FAQ — faster than an abstract “we need a blog.”",
+    "List ten client questions from the last month and cover three with a how-to or FAQ — faster than an abstract “we need a blog.”",
   ],
   related: [
     "matritsa-kontenta",

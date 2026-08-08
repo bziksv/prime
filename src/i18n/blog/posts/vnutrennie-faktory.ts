@@ -11,7 +11,7 @@ export const vnutrennieFaktoryEn: BlogPost = {
     "On-page SEO without mystique: content, structure, internal linking, HTTPS, speed, and mobile — what to control on your side and in what order.",
   lead: [
     "Internal ranking factors are everything you can improve on the site itself: copy and media, URL structure, headings and snippets, internal linking, HTTPS, speed, mobile, and usability.",
-    "External signals (links, mentions, some behavioral effects) take longer and are harder to control directly. Use this as a practical on-page map: what to check, where to dig deeper, and how not to confuse prep work with promising top rankings “next week.”",
+    "External signals (links, mentions, some behavioral effects) take longer and are harder to control directly. Below: a practical on-page map — what to check, where to dig deeper, and how not to confuse prep work with promising page one “next week.”",
   ],
   faq: [
     {
@@ -44,7 +44,7 @@ export const vnutrennieFaktoryEn: BlogPost = {
     },
     {
       q: "When should I expect rank growth after fixes?",
-      a: "On-page prep and cleanup — typically a few weeks to about a month. Core keyword rankings in top positions are typically 2–6 months after systematic work starts — not “tomorrow after HTTPS.”",
+      a: "On-page prep and cleanup — typically a few weeks to about a month. A meaningful share of the core set on page one is typically planned for 2–6 months after systematic work starts — not “tomorrow after HTTPS.”",
     },
   ],
   sections: [
@@ -59,20 +59,20 @@ export const vnutrennieFaktoryEn: BlogPost = {
         {
           intro: "Internal factors usually include:",
           items: [
-            "content: copy, media, uniqueness, and intent match;",
-            "meta and headings: title, description, H1–H3;",
-            "URL structure and navigation;",
-            "internal linking;",
-            "HTTPS, speed, mobile-friendly;",
-            "basic UX: forms, readability, clickability.",
+            "content: copy, media, uniqueness, and intent match",
+            "meta and headings: title, description, H1–H3",
+            "URL structure and navigation",
+            "internal linking",
+            "HTTPS, speed, mobile-friendly",
+            "basic UX: forms, readability, clickability",
           ],
         },
         {
           intro: "External — rough guide:",
           items: [
-            "quality and diversity of inbound links;",
-            "brand mentions;",
-            "some behavioral effects outside your direct control.",
+            "quality and diversity of inbound links",
+            "brand mentions",
+            "some behavioral effects outside your direct control",
           ],
         },
       ],
@@ -98,10 +98,10 @@ export const vnutrennieFaktoryEn: BlogPost = {
         {
           intro: "Landing page minimum:",
           items: [
-            "unique title and description;",
-            "one H1, no competing copies;",
-            "copy and media matched to cluster intent;",
-            "no cannibalization with neighboring URLs.",
+            "unique title and description",
+            "one H1, no competing copies",
+            "copy and media matched to cluster intent",
+            "no cannibalization with neighboring URLs",
           ],
         },
       ],
@@ -131,10 +131,10 @@ export const vnutrennieFaktoryEn: BlogPost = {
         {
           intro: "In practice:",
           items: [
-            "section map built around keywords, not “whatever the CMS made”;",
-            "Latin URLs, no junk params in the canonical;",
-            "linking to commercial pages and answers, not only home;",
-            "duplicates and pagination under control (canonical / noindex by scenario).",
+            "section map built around keywords, not “whatever the CMS made”",
+            "Latin URLs, no junk params in the canonical",
+            "linking to commercial pages and answers, not only home",
+            "duplicates and pagination under control (canonical / noindex by scenario)",
           ],
         },
       ],
@@ -164,10 +164,10 @@ export const vnutrennieFaktoryEn: BlogPost = {
         {
           intro: "Control list:",
           items: [
-            "valid SSL and chain;",
-            "no mixed content on key templates;",
-            "image compression, cache, sensible JS;",
-            "responsive layout without horizontal scroll and micro-buttons.",
+            "valid SSL and chain",
+            "no mixed content on key templates",
+            "image compression, cache, sensible JS",
+            "responsive layout without horizontal scroll and micro-buttons",
           ],
         },
       ],
@@ -197,10 +197,10 @@ export const vnutrennieFaktoryEn: BlogPost = {
         {
           intro: "What to check by hand:",
           items: [
-            "the first screen explains the offer;",
-            "contacts and forms work on mobile;",
-            "no aggressive overlays covering content;",
-            "404s and empty sections don’t dead-end without navigation.",
+            "the first screen explains the offer",
+            "contacts and forms work on mobile",
+            "no aggressive overlays covering content",
+            "404s and empty sections don’t dead-end without navigation",
           ],
         },
       ],
@@ -212,7 +212,7 @@ export const vnutrennieFaktoryEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Important",
+          title: "Note",
           kind: "tip",
           text: "Don’t confuse UX improvement with schemes that fake behavioral signals — different things and different risks.",
         },
@@ -229,10 +229,10 @@ export const vnutrennieFaktoryEn: BlogPost = {
         {
           intro: "Global checklist:",
           items: [
-            "robots.txt doesn’t block what’s needed;",
-            "sitemap is current and in Search Console;",
-            "canonical and pagination aligned;",
-            "utility and filter URLs under control.",
+            "robots.txt doesn’t block what’s needed",
+            "sitemap is current and in Search Console",
+            "canonical and pagination aligned",
+            "utility and filter URLs under control",
           ],
         },
       ],
@@ -252,16 +252,16 @@ export const vnutrennieFaktoryEn: BlogPost = {
       level: 2,
       paras: [
         "First remove crawl and trust blockers, then strengthen content and structure of commercial keyword clusters, and monitor Search Console in parallel. Start link building when the on-page base isn’t collapsing.",
-        "On-page fixes are part of prep. Core ranking buildup after systematic work starts takes months: top positions typically 2–6 months out — not “turned on HTTPS — top three tomorrow.”",
+        "On-page fixes are part of prep. Core ranking buildup after systematic work starts takes months: page one for a meaningful share of the set is typically planned for 2–6 months — not “turned on HTTPS — #1–3 tomorrow.”",
       ],
       lists: [
         {
           intro: "Rhythm:",
           items: [
-            "a backlog prioritized by business impact;",
-            "a crawl after major releases;",
-            "once a month — error review in Search Console;",
-            "track prep and rank dynamics separately.",
+            "a backlog prioritized by business impact",
+            "a crawl after major releases",
+            "once a month — error review in Search Console",
+            "track prep and rank dynamics separately",
           ],
         },
       ],

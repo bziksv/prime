@@ -11,7 +11,7 @@ export const gaiqEn: BlogPost = {
     "What GAIQ (Google Analytics Individual Qualification) was, why old “70 questions” guides are outdated, and where to look for current Google analytics courses and certificates.",
   lead: [
     "GAIQ (Google Analytics Individual Qualification) was Google’s online individual qualification exam for Analytics. Articles from 2010–2021 often described it as “70 questions / 80% / 90 minutes.”",
-    "Google’s certification programs changed repeatedly: Universal Analytics is gone, GA4 is the center, and learning/exams live in Skillshop and related courses. GAIQ as a historical landmark and how to pick today’s equivalent.",
+    "Google’s certification programs changed repeatedly: Universal Analytics is gone, GA4 is the center, and learning/exams live in Skillshop and related courses. Below: GAIQ as a historical landmark and how to prep for a knowledge check now — without memorizing outdated screenshots.",
   ],
   faq: [
     {
@@ -56,10 +56,10 @@ export const gaiqEn: BlogPost = {
         "It was a landmark for specialists who needed to prove basics. Don’t confuse it with Google partner agency status or a university diploma.",
         "Figures like “70 questions, 80%, 90 minutes, retake in a week” from old articles are a snapshot of rules then. Don’t use them as today’s exam instructions.",
       ],
-      lists: [],
       notes: [
         {
           title: "UA is archived",
+          kind: "tip",
           text: "Most classic GAIQ questions lived in Universal Analytics logic. Prepping for “that same exam” from UA screenshots is pointless: the working stack is GA4.",
         },
       ],
@@ -90,7 +90,7 @@ export const gaiqEn: BlogPost = {
             "build a test GA4 property",
             "mark 3–5 key events",
             "read source and funnel reports",
-            "only then sit the Skillshop assessment/exam.",
+            "only then sit the Skillshop assessment/exam",
           ],
         },
       ],
@@ -121,7 +121,7 @@ export const gaiqEn: BlogPost = {
             "what an event and a parameter are",
             "how not to mix sources without UTM",
             "why filters/exclusions for internal traffic",
-            "how a segment changes a conversion conclusion.",
+            "how a segment changes a conversion conclusion",
           ],
         },
       ],
@@ -134,7 +134,6 @@ export const gaiqEn: BlogPost = {
         "On a résumé list the current course/certificate name and year. “GAIQ 2019” with no GA4 practice looks archival.",
         "For agencies, stable project analytics and clear dashboards beat a PDF collection.",
       ],
-      lists: [],
     },
     {
       title: "Key takeaways",
@@ -144,7 +143,6 @@ export const gaiqEn: BlogPost = {
         "Prep with official GA4 courses and lock it in on a real property.",
         "A certificate is a résumé plus — not a substitute for reading a funnel and fixing tagging.",
       ],
-      lists: [],
     },
   ],
   closing: [

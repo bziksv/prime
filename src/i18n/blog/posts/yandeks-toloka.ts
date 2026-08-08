@@ -11,7 +11,7 @@ export const yandeksTolokaEn: BlogPost = {
     "What Toloka is: crowdsourced data labeling for AI and search. Requester and worker roles, task types, rating, and why earnings-per-day figures from old guides are outdated.",
   lead: [
     "Toloka launched in 2014 as a Yandex project: people do short tasks judging content and data, and companies get labels for search, ads, and AI models.",
-    "Since then the platform grew and split by market: the international track is Toloka.ai; for users in Russia the focus shifted to local task services. How crowdsourcing works, what tasks look like, and what to expect from pay in 2026 — without “easy thousands” promises.",
+    "Since then the platform grew and split by market: the international track is Toloka.ai; for users in Russia the focus shifted to local Yandex task services. Below: how crowdsourcing works, what tasks look like, and what to expect from pay in 2026 — without “easy thousands” promises.",
   ],
   faq: [
     {
@@ -41,17 +41,17 @@ export const yandeksTolokaEn: BlogPost = {
       level: 2,
       paras: [
         "It’s a microtask crowdsourcing platform (human-in-the-loop): workers label and judge data; requesters get volume with quality control.",
-        "At first most tasks came from the Yandex ecosystem (search, maps, services). Later the platform opened to external companies and research. International Toloka now focuses on data and evaluation for AI and LLMs; in Russia access and branding should be checked separately.",
+        "At first most tasks came from the Yandex ecosystem (search, maps, services). Later the platform opened to external companies and research. International Toloka now focuses on data and evaluation for AI and LLMs; in Russia, access and branding should be checked separately.",
       ],
       lists: [
         {
           intro: "Typical requester goals:",
           items: [
-            "search and ad relevance scoring;",
-            "content moderation and classification;",
-            "collecting and verifying reference data;",
-            "comparing design, names, interfaces;",
-            "labeling and judging model answers.",
+            "search and ad relevance scoring",
+            "content moderation and classification",
+            "collecting and verifying reference data",
+            "comparing design, names, interfaces",
+            "labeling and judging model answers",
           ],
         },
       ],
@@ -60,17 +60,17 @@ export const yandeksTolokaEn: BlogPost = {
       title: "Sign-up and roles",
       level: 2,
       paras: [
-        "You usually need a service account (historically a Yandex ID), phone confirmation, and age 18+ because some content is adult. After login you get a dashboard with stats and balance.",
+        "You usually need a service account (historically a Yandex ID), phone confirmation, and age 18+ because some content is adult. After login you get a cabinet with stats and balance.",
         "Workers pick tasks from a feed. Requesters set instructions, quality control, and budget. Combining both roles on one account is often not allowed.",
       ],
       lists: [
         {
           intro: "Before a worker starts:",
           items: [
-            "complete training or practice tasks;",
-            "read the full instruction — or rejection rates spike;",
-            "watch accepted vs rejected work stats;",
-            "don’t chase speed at the cost of quality.",
+            "complete training or practice tasks",
+            "read the full instruction — or rejection rates spike",
+            "watch accepted vs rejected work stats",
+            "don’t chase speed at the cost of quality",
           ],
         },
       ],
@@ -78,6 +78,7 @@ export const yandeksTolokaEn: BlogPost = {
         {
           title: "Practice",
           text: "Payout terms, fees, and tax status (including self-employment on local services) change. Follow the platform help pages, not screenshots from old articles.",
+          kind: "tip",
         },
       ],
     },
@@ -91,12 +92,12 @@ export const yandeksTolokaEn: BlogPost = {
         {
           intro: "Common formats:",
           items: [
-            "video or page match to a query;",
-            "search results review;",
-            "ad and banner quality;",
-            "business data freshness checks;",
-            "usability and mini-surveys;",
-            "expert AI judgments (harder and rarer for beginners).",
+            "video or page match to a query",
+            "search results review",
+            "ad and banner quality",
+            "business data freshness checks",
+            "usability and mini-surveys",
+            "expert AI judgments (harder and rarer for beginners)",
           ],
         },
       ],
@@ -118,23 +119,22 @@ export const yandeksTolokaEn: BlogPost = {
         "Quality drives access: skills after tests, relative and absolute rating historically unlocked better-paid tasks. Rejected work hits the metrics.",
         "The feed is uneven: more jobs on weekdays, fewer on weekends. There’s no guaranteed daily income — it depends on the requester pool and your rating.",
       ],
-      lists: [],
     },
     {
       title: "Pay: expectations without rose-tinted glasses",
       level: 2,
       paras: [
         "Old guides wrote about fractions of a cent for simple tasks and a few dollars a day with active work. That’s not a salary or a forecast: currency, payout fees, and task availability changed with the platform.",
-        "Payouts historically went to e-wallets (YuMoney and others) with a fee. The live list of methods and minimums is only in the dashboard of the service you use.",
+        "Payouts historically went to e-wallets (YuMoney and others) with a fee. The live list of methods and minimums is only in the cabinet of the service you use.",
       ],
       lists: [
         {
           intro: "A realistic frame:",
           items: [
-            "this is micro side work, not a main job;",
-            "training time and rejections cost too;",
-            "high rating beats chaotic clicking;",
-            "check regional rules (Toloka.ai access vs local tasks).",
+            "this is micro side work, not a main job",
+            "training time and rejections cost too",
+            "high rating beats chaotic clicking",
+            "check regional rules (Toloka.ai access vs local tasks)",
           ],
         },
       ],
@@ -142,6 +142,7 @@ export const yandeksTolokaEn: BlogPost = {
         {
           title: "Common mistake",
           text: "Copying earnings figures from 2019–2021 articles. After brand and market reorgs those cues are stale — watch the live feed and your accepted tasks.",
+          kind: "tip",
         },
       ],
     },
@@ -151,7 +152,6 @@ export const yandeksTolokaEn: BlogPost = {
       paras: [
         "Toloka is a tool for human data labeling and judgment, useful for AI and search requesters. For workers it’s optional micro side work with a rating and an uneven feed. Check the current service for your region and don’t treat old “dollars a day” figures as a guarantee.",
       ],
-      lists: [],
     },
   ],
 };

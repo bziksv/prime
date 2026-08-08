@@ -11,12 +11,12 @@ export const prodvizhenieOfflaynBiznesaEn: BlogPost = {
     "How to bring people to a location: map listings, reviews, hyperlocal ads and SMS, outdoor/indoor, and the online→offline link — without betting on outdated MAC radar.",
   lead: [
     "A café, clinic, salon, and neighborhood shop don’t live on the storefront alone. Maps, reviews, “nearby” ads, and clear visit/call measurement decide whether people find you on a phone and reach the door.",
-    "A working channel set for an offline point starts with basics you control. Platform UIs and prices change; privacy and ID randomization weakened old MAC-collection schemes — don’t build strategy only on them.",
+    "Below: a working channel set for an offline point. Platform UIs and prices change; privacy and ID randomization weakened old MAC-collection schemes — don’t build strategy only on them.",
   ],
   faq: [
     {
       q: "Where should I start without a big budget?",
-      a: "Listings on Google/Yandex/local directories with full NAP, photos, and hours + replies to reviews. Then geo ads around the point.",
+      a: "Listings on Yandex/Google/2GIS with full NAP, photos, and hours + replies to reviews. Then geo ads around the point.",
     },
     {
       q: "Does an offline business need a website?",
@@ -44,7 +44,7 @@ export const prodvizhenieOfflaynBiznesaEn: BlogPost = {
       title: "Maps and directories",
       level: 2,
       paras: [
-        "Google Maps, Yandex Maps / Business, and local directories are the first screen for “near me”. Fill name, exact address, phone, site, hours, category; add facade and interior photos.",
+        "Yandex Maps / Business, Google Maps, and 2GIS are the first screen for “near me”. Fill name, exact address, phone, site, hours, category; add facade and interior photos.",
         "Paid options (showcase, promos, highlighting) make sense after a solid listing and reviews. Watch clicks, calls from the listing, and consistent NAP on the site and in ads.",
       ],
       lists: [
@@ -55,7 +55,7 @@ export const prodvizhenieOfflaynBiznesaEn: BlogPost = {
             "current phone",
             "hours without “surprises”",
             "photos and a short service description",
-            "replies to reviews.",
+            "replies to reviews",
           ],
         },
       ],
@@ -65,7 +65,7 @@ export const prodvizhenieOfflaynBiznesaEn: BlogPost = {
       level: 2,
       paras: [
         "Reviews affect location choice no less than ads. Run profiles on maps and industry platforms, reply to negativity on the merits, ask happy clients for a review without “five stars required” scripts.",
-        "Mention monitoring (alerts, reputation tools) helps catch issues before they pile up in search results.",
+        "Mention monitoring (alerts, reputation tools) helps catch issues before they pile up in map results.",
       ],
       links: [
         {
@@ -78,7 +78,7 @@ export const prodvizhenieOfflaynBiznesaEn: BlogPost = {
       title: "Hyperlocal and nearby SMS",
       level: 2,
       paras: [
-        "A geopolygon/radius in Google Ads, Yandex Direct, and peers delivers the offer to people who live, work, or visit near the point. In creative — “why come here” and a clear reason (promo, slot, new item).",
+        "A geopolygon/radius in Yandex Direct, Google Ads, and peers delivers the offer to people who live, work, or visit near the point. In creative — “why come here” and a clear reason (promo, slot, new item).",
         "Hyperlocal SMS via carriers is a narrow channel: short copy, offer, link/phone, send time without night spam. Check rules and consent; SMS details are in a separate piece.",
       ],
       links: [
@@ -106,7 +106,7 @@ export const prodvizhenieOfflaynBiznesaEn: BlogPost = {
             "calls from maps and ads",
             "promo codes/coupons by channel",
             "UTM to a “how to get here” landing",
-            "checkout survey “how did you hear”.",
+            "checkout survey “how did you hear”",
           ],
         },
       ],
@@ -130,9 +130,9 @@ export const prodvizhenieOfflaynBiznesaEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Privacy",
           text: "Any audience collection and upload — only on lawful grounds and under ad-account rules. Don’t promise clients “full MAC control” as the main growth channel.",
-          kind: "tip",
         },
       ],
     },

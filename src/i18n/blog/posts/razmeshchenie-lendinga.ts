@@ -10,8 +10,8 @@ export const razmeshchenieLendingaEn: BlogPost = {
   excerpt:
     "Three ways to place a landing page: a separate domain, a subdomain, or a URL on the main site — pros, cons, SEO, and when to pick which for the offer and audience.",
   lead: [
-    "You can put a landing on a new domain, on a subdomain, or as a page inside the main site. There’s no universal “always do this”: the choice depends on the offer, closeness to the current brand, and the traffic channel.",
-    "A comparison of three approaches — without surveys for surveys’ sake. How to build blocks and copy lives in the landing and landing-copy articles; here it’s only the URL and infrastructure question.",
+    "You can put a landing on a new domain, on a subdomain, or as a page inside the main site. There is no universal “always do this”: the choice depends on the offer, closeness to the current brand, and the traffic channel.",
+    "Below: a comparison of three schemes — without surveys for surveys’ sake. How to build blocks and copy lives in the landing and landing-copy articles; here it’s only the URL and infrastructure question.",
   ],
   faq: [
     {
@@ -28,7 +28,7 @@ export const razmeshchenieLendingaEn: BlogPost = {
     },
     {
       q: "Is there affiliate-filter risk on a new domain?",
-      a: "If you copy contacts, template, and assortment from the main site, risk is higher. A new domain is for a different project/audience — not a clone “for a keyword in the URL”.",
+      a: "If you copy contacts, template, and assortment from the main site, risk is higher. A new domain is for a different project/audience — not a clone “for a keyword in the URL.”",
     },
     {
       q: "Should an online store use a separate domain per product?",
@@ -36,7 +36,7 @@ export const razmeshchenieLendingaEn: BlogPost = {
     },
     {
       q: "What should I choose for a hypothesis test?",
-      a: "A fast URL on the main site, or a light separate domain if you can’t touch prod. What matters is measuring conversion — not a “pretty” address.",
+      a: "A fast URL on the main site, or a light separate domain if you can’t touch prod. What matters is measuring conversion — not a pretty address.",
     },
   ],
   sections: [
@@ -53,7 +53,7 @@ export const razmeshchenieLendingaEn: BlogPost = {
           items: [
             "a new domain",
             "a subdomain",
-            "a page on the main site.",
+            "a page on the main site",
           ],
         },
       ],
@@ -72,14 +72,14 @@ export const razmeshchenieLendingaEn: BlogPost = {
       title: "Separate domain",
       level: 2,
       paras: [
-        "Plus — freedom of USP and design unbound from the main site; handy for a new direction or a “clean” test without risk of breaking prod. You can hand development to a contractor in isolation.",
+        "Plus — freedom of USP and design unbound from the main site; handy for a new direction or a clean test without risk of breaking prod. You can hand development to a contractor in isolation.",
         "Minuses: zero age and links, almost always paid ads at the start, domain/hosting cost, and affiliate-filter risk if the page is a clone of the main business with the same contacts.",
       ],
       notes: [
         {
           title: "When it fits",
-          text: "A new product for a different audience, a strong topic break from the main site, or a bad reputation of the current domain in search/ads.",
           kind: "tip",
+          text: "A new product for a different audience, a strong topic break from the main site, or a bad reputation of the current domain in search/ads.",
         },
       ],
     },
@@ -88,7 +88,7 @@ export const razmeshchenieLendingaEn: BlogPost = {
       level: 2,
       paras: [
         "Often chosen as a compromise: tied to the brand, but visually and technically separate. Handy to keep several promos (`promo1.`, `event.`) without buying a pile of domains — within DNS/hosting limits.",
-        "Minuses: SEO is usually weaker than an internal page; visits barely “feed” the main site’s metrics; you need setup on the same hosting/access. For close products a section on the main domain is often enough.",
+        "Minuses: SEO is usually weaker than an internal page; visits barely feed the main site’s metrics; you need setup on the same hosting/access. For close products a section on the main domain is often enough.",
       ],
     },
     {
@@ -96,7 +96,7 @@ export const razmeshchenieLendingaEn: BlogPost = {
       level: 2,
       paras: [
         "Pluses: domain age and trust, internal links from catalog and blog, one counter and CRM, cheaper upkeep. Time on page and conversions work in one loop. For SEO this is usually the most practical path.",
-        "Constraint — topic and UX must align with the site. A car dealer shouldn’t sell stationery from the same homepage “as is”; either a separate section with an honest structure, or another domain.",
+        "Constraint — topic and UX must align with the site. A car dealer shouldn’t sell stationery from the same homepage as-is; either a separate section with an honest structure, or another domain.",
       ],
       lists: [
         {
@@ -104,7 +104,7 @@ export const razmeshchenieLendingaEn: BlogPost = {
           items: [
             "the offer is close to the current catalog/services",
             "you need organic and internal linking",
-            "unified analytics and brand in the URL matter.",
+            "unified analytics and brand in the URL matter",
           ],
         },
       ],
@@ -114,7 +114,7 @@ export const razmeshchenieLendingaEn: BlogPost = {
       level: 2,
       paras: [
         "Close offer and a working site → page on the main domain. Branch/line nearby by topic but needs a separate “world” → subdomain. New business or a different audience → separate domain. For a store, product landings almost always live in one domain’s catalog.",
-        "A keyword in the domain name alone rarely decides rankings. Speed, offer, traffic, and not cloning contacts matter more. If the main site is under sanctions or burned in ad accounts — a new domain is justified as isolation, not as “SEO magic”.",
+        "A keyword in the domain name alone rarely decides rankings. Speed, offer, traffic, and not cloning contacts matter more. If the main site is under sanctions or burned in ad accounts — a new domain is justified as isolation, not as SEO magic.",
       ],
       links: [
         {

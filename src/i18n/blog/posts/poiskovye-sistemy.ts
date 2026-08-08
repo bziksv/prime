@@ -11,12 +11,12 @@ export const poiskovyeSistemyEn: BlogPost = {
     "Which search engines exist beyond Google and Yandex: Bing, DuckDuckGo, historic Rambler and Mail, Baidu. Why that matters for SEO in Russia-facing markets — without outdated market-share figures.",
   lead: [
     "Google and Yandex cover most search in Russia, but the search world is wider: Bing, DuckDuckGo, vertical and regional engines, historic brands like Rambler. Strategy should follow your analytics and GEO — not the myth that “only two exist.”",
-    "We map the players briefly and spell out what marketers should take from it. We don’t treat 2020 market shares or the fate of “Sputnik”/Nigma as facts for today — check fresh measurements.",
+    "Below: a short map of players and what marketers should take from it. We don’t treat 2020 market shares or the fate of “Sputnik”/Nigma as facts for today — check fresh measurements.",
   ],
   faq: [
     {
       q: "Do I need Bing SEO in Russia?",
-      a: "Sometimes: share is small, but checking GSC/Bing Webmaster and snippets is free. Priority is where your audience sits in Metrica/GA.",
+      a: "Sometimes: share is small, but checking Search Console / Bing Webmaster and snippets is free. Priority is where your audience sits in Metrica or GA.",
     },
     {
       q: "Does DuckDuckGo matter for business?",
@@ -44,7 +44,7 @@ export const poiskovyeSistemyEn: BlogPost = {
     },
     {
       q: "Where do I see my search-engine share?",
-      a: "In Metrica/GA: sources → search engines. Not someone else’s “2019 ranking.”",
+      a: "In Metrica/GA: sources → search engines. Not someone else’s “2019 chart.”",
     },
   ],
   sections: [
@@ -55,7 +55,6 @@ export const poiskovyeSistemyEn: BlogPost = {
         "When sites were few, bookmarks and directories were enough. Web growth made hand-built lists useless — systems appeared that crawl pages, index them, and rank an answer to a query.",
         "Early engines returned a raw URL list; modern ones weigh relevance, quality, locality, behavior, and hundreds of other signals.",
       ],
-      lists: [],
       links: [
         {
           label: "Site directories today",
@@ -70,7 +69,6 @@ export const poiskovyeSistemyEn: BlogPost = {
         "In commercial SEO for Russia you usually watch both. Share between them drifts by niche, device, and region — your analytics is the only guide, not someone else’s “50/50 from an article.”",
         "Differences in accents (locality, commercial factors, webmaster panels) live in a separate comparison.",
       ],
-      lists: [],
       links: [
         {
           label: "SEO for Yandex and Google",
@@ -91,9 +89,9 @@ export const poiskovyeSistemyEn: BlogPost = {
         "Mail.ru / Rambler — strong as media portals; search for SEO is often secondary. Historic Nigma, “Sputnik,” and 2010s roundup peers shouldn’t enter a media plan without checking they’re still a live channel.",
         "Classic Yahoo is barely relevant for Russia-facing SEO; Baidu is a separate market.",
       ],
-      lists: [],
       notes: [
         {
+          kind: "tip",
           title: "Don’t copy 2020 shares",
           text: "Figures like “Yandex +10% vs Google” and Rambler traffic from old texts go stale. Use fresh research or your own counter.",
         },
@@ -120,7 +118,7 @@ export const poiskovyeSistemyEn: BlogPost = {
             "YA/Google share in Metrica",
             "Webmaster + Search Console",
             "Bing Webmaster when needed",
-            "exotic engines — only with data or a new GEO.",
+            "exotic engines — only with data or a new GEO",
           ],
         },
       ],
@@ -133,7 +131,6 @@ export const poiskovyeSistemyEn: BlogPost = {
         "Bing and privacy search are optional, data-driven.",
         "Historic brands are useful context, not a required channel.",
       ],
-      lists: [],
     },
   ],
   closing: [

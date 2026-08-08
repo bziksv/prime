@@ -11,8 +11,12 @@ export const vovlechennostSocsetiEn: BlogPost = {
     "How to raise follower engagement on social: content quality, publish timing, dialogue, Stories, contests — without a cult of “normal ER” or a catalog of gray services.",
   lead: [
     "Engagement is reactions and dialogue, not follower count alone. A “dead” follower base doesn’t get reach in a smart feed and doesn’t convert to leads.",
-    "Measure audience interest the way your platform reports it, then pull honest levers that fit the network. There is no universal “3% for everyone.” Instagram ER formulas in detail live in a separate article.",
+    "Below: how to measure audience interest, why analyze it, and which honest levers work across platforms. There is no universal “3% for everyone.” Instagram ER formulas in detail live in a separate article. See the Meta note on this page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "What ER counts as normal?",
@@ -72,10 +76,10 @@ export const vovlechennostSocsetiEn: BlogPost = {
         {
           intro: "Mini cycle:",
           items: [
-            "publish → measure reactions;",
-            "mark what worked;",
-            "strengthen it in the weekly plan;",
-            "drop formats with no response.",
+            "publish → measure reactions",
+            "mark what worked",
+            "strengthen it in the weekly plan",
+            "drop formats with no response",
           ],
         },
       ],

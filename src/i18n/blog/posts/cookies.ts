@@ -11,7 +11,7 @@ export const cookiesEn: BlogPost = {
     "What a cookie is, how session differs from persistent and third-party, why sites need analytics and auth, privacy risks, and how to manage consent.",
   lead: [
     "A cookie is small data a site stores in the browser so it can recognize you on later requests: login session, language, cart, analytics IDs. It isn’t a virus, but it isn’t harmless dust either — cookies build profiles and keep you signed in.",
-    "This guide covers purpose, types, tracking scenarios, security, and what a site owner should plan for (consent, HTTPS, lifetime). Important: cookies usually don’t store a password in plain text — only tokens or IDs.",
+    "Below: purpose, types, tracking scenarios, security, and what a site owner should plan for (consent, HTTPS, lifetime). Important: cookies usually don’t store a password in plain text — only tokens or IDs.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const cookiesEn: BlogPost = {
       a: "Proper sites — no. They store a session ID or token. If a service puts the password in a cookie, that’s bad practice and a risk.",
     },
     {
-      q: "What’s the difference between session and persistent cookies?",
+      q: "What’s the difference between session and persistent?",
       a: "Session cookies live until the browser closes (roughly). Persistent ones last until Expires / Max-Age.",
     },
     {
@@ -36,7 +36,7 @@ export const cookiesEn: BlogPost = {
     },
     {
       q: "Do I need a consent banner?",
-      a: "Depends on jurisdiction and which tags you set. Follow local privacy law (for example GDPR/ePrivacy in the EU). Lawyer plus strictly necessary cookies.",
+      a: "Depends on jurisdiction and which tags you set. In Russia, account for personal-data law and your policy; in the EU — GDPR/ePrivacy. Lawyer plus strictly necessary cookies.",
     },
     {
       q: "How can I view cookies?",
@@ -59,10 +59,10 @@ export const cookiesEn: BlogPost = {
         {
           intro: "In short:",
           items: [
-            "data in the browser, not a program;",
-            "tied to domain and path;",
-            "have lifetime and security flags;",
-            "don’t fully replace a server session.",
+            "data in the browser, not a program",
+            "tied to domain and path",
+            "have lifetime and security flags",
+            "don’t fully replace a server session",
           ],
         },
       ],
@@ -78,10 +78,10 @@ export const cookiesEn: BlogPost = {
         {
           intro: "For the site owner:",
           items: [
-            "inventory every tag;",
-            "a cookie policy in plain language;",
-            "don’t load marketing before consent if the regime requires it;",
-            "minimize third-party scripts.",
+            "inventory every tag",
+            "a cookie policy in plain language",
+            "don’t load marketing before consent if the regime requires it",
+            "minimize third-party scripts",
           ],
         },
       ],
@@ -103,10 +103,10 @@ export const cookiesEn: BlogPost = {
         {
           intro: "Risks:",
           items: [
-            "XSS → stolen session cookie;",
-            "MITM on HTTP without Secure;",
-            "phishing plus session reuse;",
-            "extra third parties with broad access.",
+            "XSS → stolen session cookie",
+            "MITM on HTTP without Secure",
+            "phishing plus session reuse",
+            "extra third parties with broad access",
           ],
         },
       ],
@@ -135,10 +135,10 @@ export const cookiesEn: BlogPost = {
         {
           intro: "Site minimum:",
           items: [
-            "a cookie/privacy policy page;",
-            "necessary vs optional split;",
-            "a way to withdraw consent;",
-            "a log of which tags actually set.",
+            "a cookie/privacy policy page",
+            "necessary vs optional split",
+            "a way to withdraw consent",
+            "a log of which tags actually set",
           ],
         },
       ],
@@ -154,10 +154,10 @@ export const cookiesEn: BlogPost = {
         {
           intro: "User checklist:",
           items: [
-            "inspect cookies on suspicious sites;",
-            "log out of accounts on shared devices;",
-            "don’t disable everything on banks or government services without need;",
-            "keep OS and browser updated.",
+            "inspect cookies on suspicious sites",
+            "log out of accounts on shared devices",
+            "don’t disable everything on banks or government services without need",
+            "keep OS and browser updated",
           ],
         },
       ],
@@ -173,17 +173,17 @@ export const cookiesEn: BlogPost = {
         {
           intro: "Release checklist:",
           items: [
-            "cookie table in the policy;",
-            "flags on auth cookies;",
-            "login/cart test;",
-            "“reject optional” test;",
-            "tag error monitoring.",
+            "cookie table in the policy",
+            "flags on auth cookies",
+            "login/cart test",
+            "“reject optional” test",
+            "tag error monitoring",
           ],
         },
       ],
       notes: [
         {
-          title: "Practice tip",
+          title: "Practice",
           kind: "tip",
           text: "Fewer third-party scripts — fewer cookies, simpler policy, faster site.",
         },

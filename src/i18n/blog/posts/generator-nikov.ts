@@ -8,11 +8,15 @@ export const generatorNikovEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/generator-nikov/cover-en.webp",
   excerpt:
-    "How to choose a username when the one you want is taken: rules for a good login, checking inside the social network, and the role of online generators — without a service catalog or the myth that “the tool books it for you.”",
+    "How to choose a username when the one you want is taken: rules for a good login, checking inside the social network, and the role of online generators — without a service catalog or the myth that the tool books it for you.",
   lead: [
     "A unique username is needed when you register on Instagram, VK, and other platforms. Popular combos are often taken — then name/brand variations and idea generators help.",
-    "How to pick a readable login and check availability. Online generators only suggest options; the final check is the network’s own signup form. We don’t catalog 2020 site lists: services appear and vanish.",
+    "Below: how to pick a readable login and check availability. Online generators only suggest options; the final check is the network’s own signup form. We don’t catalog 2020 site lists: services appear and vanish. If this is about Instagram, follow Meta’s notice on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Does a generator register the username right away?",
@@ -28,7 +32,7 @@ export const generatorNikovEn: BlogPost = {
     },
     {
       q: "Are lots of characters and digits a good idea?",
-      a: "Recognizability beats “unique chaos.” A hard handle is tough to dictate and remember.",
+      a: "Recognizability beats unique chaos. A hard handle is tough to dictate and remember.",
     },
     {
       q: "Should I buy a username from resellers?",
@@ -41,7 +45,7 @@ export const generatorNikovEn: BlogPost = {
       level: 2,
       paras: [
         "Short, simple names have been claimed for years. Platform rules differ: length, allowed characters, bans on some words.",
-        "The goal isn’t “any free mash” — it’s a login that matches the brand, is pronounceable, and works on a card and in ads.",
+        "The goal isn’t any free mash — it’s a login that matches the brand, is pronounceable, and works on a card and in ads.",
       ],
       links: [
         {
@@ -70,7 +74,7 @@ export const generatorNikovEn: BlogPost = {
             "founding year — sparingly",
             "underscore or period per network rules",
             "a brand abbreviation if it’s recognizable",
-            "avoid insults and others’ trademarks.",
+            "avoid insults and others’ trademarks",
           ],
         },
       ],
@@ -85,8 +89,8 @@ export const generatorNikovEn: BlogPost = {
       notes: [
         {
           title: "Common mistake",
-          text: "Trusting a site that “the handle is free everywhere” without checking Instagram/VK signup.",
           kind: "tip",
+          text: "Trusting a site that “the handle is free everywhere” without checking Instagram/VK signup.",
         },
       ],
     },
@@ -120,7 +124,7 @@ export const generatorNikovEn: BlogPost = {
             "drop the unpronounceable ones",
             "check on the platform",
             "claim by registering",
-            "use the same handle wherever you can.",
+            "use the same handle wherever you can",
           ],
         },
       ],
@@ -129,7 +133,7 @@ export const generatorNikovEn: BlogPost = {
       title: "Takeaways",
       level: 2,
       paras: [
-        "A generator is an idea helper, not a uniqueness notary. Readability and a unified brand beat the “rarest” character mash.",
+        "A generator is an idea helper, not a uniqueness notary. Readability and a unified brand beat the rarest character mash.",
         "Confirm availability on the social network before printing the handle on business cards.",
       ],
     },

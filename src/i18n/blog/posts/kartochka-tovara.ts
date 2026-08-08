@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for kartochka-tovara — same structure as RU JSON. */
 export const kartochkaTovaraEn: BlogPost = {
   slug: "kartochka-tovara",
-  title: "Product page: structure, photos, price, and the Buy button",
+  title: "Product page: structure, photos, price, and Buy",
   date: "2019-06-10",
   category: "E-commerce",
   cover: "/images/blog/kartochka-tovara/cover-en.webp",
   excerpt:
-    "How to build an ecommerce product page: required blocks, photos and video, description, price with CTA, delivery, and reviews — so the purchase decision doesn’t stall.",
+    "How to build an ecommerce product page: required blocks, photos and video, description, price with CTA, delivery, and reviews — so the buy decision doesn’t stall.",
   lead: [
-    "The SKU page is where a visitor decides “I’ll take it” or “I’ll look more”. Home and catalog lead in; the product page needs facts, trust, and a clear next step.",
-    "The page needs a clear frame, solid media, visible price and Buy, plus reviews. How to write description copy is a separate article; this focuses on the full product card, not copy alone.",
+    "The SKU page is where a visitor decides “I’ll take it” or “I’ll keep looking.” Home and catalog lead people in; the product page needs facts, trust, and a clear next step.",
+    "Below: page frame, media requirements, price and button, reviews. How to write description copy is a separate piece; here the focus is the full product page, not copy alone.",
   ],
   faq: [
     {
@@ -24,11 +24,11 @@ export const kartochkaTovaraEn: BlogPost = {
     },
     {
       q: "Can you hide the price?",
-      a: "In e-com usually no: a hidden price raises bounce. Exceptions — B2B “on request” with a clear reason.",
+      a: "In e-com usually no — a hidden price raises bounce. Exceptions: B2B “on request” with a clear reason.",
     },
     {
-      q: "Where should I put the Buy button?",
-      a: "Next to price, above the fold on mobile; duplicate on long pages. One primary button beats five competing ones.",
+      q: "Where should Buy sit?",
+      a: "Next to price, above the fold on mobile; duplicate it on long pages. One primary button beats five competing ones.",
     },
     {
       q: "Do you need reviews on the page?",
@@ -44,20 +44,20 @@ export const kartochkaTovaraEn: BlogPost = {
       title: "What must be on the page",
       level: 2,
       paras: [
-        "Minimum: full name, price, a visible order button, photos, key specs, payment/delivery terms, a way to contact. Plus reviews and stock and shipping time when that drives choice.",
-        "UX guides: familiar store patterns (prototypicality), a clear path to buy (intuitiveness), enough proof (persuasiveness). A template just because with no data won’t convert.",
+        "Minimum: full name, price, a visible order button, photos, key specs, payment/delivery terms, a way to contact. Plus reviews and stock/shipping time when that drives choice.",
+        "UX guides: familiar store patterns, a clear path to buy, enough proof. A template for its own sake with no real data won’t convert.",
       ],
       lists: [
         {
           intro: "Product-page blocks:",
           items: [
-            "name and brand;",
-            "gallery / video;",
-            "price and CTA;",
-            "specs and description;",
-            "variants (color, size);",
-            "delivery and payment;",
-            "reviews.",
+            "name and brand",
+            "gallery / video",
+            "price and CTA",
+            "specs and description",
+            "variants (color, size)",
+            "delivery and payment",
+            "reviews",
           ],
         },
       ],
@@ -73,11 +73,11 @@ export const kartochkaTovaraEn: BlogPost = {
         {
           intro: "Media checklist:",
           items: [
-            "high resolution without blur;",
-            "consistent background/light in the catalog;",
-            "all SKU variants;",
-            "zoom;",
-            "usage context where it fits.",
+            "high resolution without blur",
+            "consistent background/light across the catalog",
+            "all SKU variants",
+            "zoom",
+            "usage context where it fits",
           ],
         },
       ],
@@ -86,7 +86,7 @@ export const kartochkaTovaraEn: BlogPost = {
       title: "Description, price, CTA, reviews",
       level: 2,
       paras: [
-        "Copy answers “why me” and removes objections; wording details live in the description article. On the page keep scanability: lead, property list, “why us” block.",
+        "Copy answers “why this” and removes objections; wording details live in the description article. On the page keep scanability: lead, property list, “why us” block.",
         "Price — high contrast and next to Buy / Add to cart. Nearby — stock, delivery time, warranty. Reviews with context strengthen the decision; template five-stars with no detail do the opposite.",
       ],
       links: [
@@ -106,7 +106,7 @@ export const kartochkaTovaraEn: BlogPost = {
     },
   ],
   closing: [
-    "A strong product page is media, clear facts, price with a button, and trust — not a “perfect template”. Close the choice questions on the page: otherwise the buyer leaves for a place where everything is already written.",
+    "A strong product page is media, clear facts, price with a button, and trust — not a “perfect template.” Close the choice questions on the page; otherwise the buyer leaves for a place where everything is already written.",
   ],
   related: [
     "video-obzor-tovara",

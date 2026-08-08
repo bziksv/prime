@@ -8,10 +8,10 @@ export const googlePartnerEn: BlogPost = {
   category: "Paid search",
   cover: "/images/blog/google-partner/cover-en.webp",
   excerpt:
-    "What Google Partner and Premier Partner status give agencies: Skillshop certification, account spend and performance, why the badge matters — without outdated dollar thresholds as “law.”",
+    "What Google Partner and Premier Partner status give agencies: Skillshop certification, account spend and performance, why the badge matters — without outdated dollar thresholds as law.",
   lead: [
     "Google Partner is a program for agencies and specialists who run Google Ads through an MCC (manager account). Status signals expertise to clients and opens training, support, and sometimes bonuses — the exact set depends on level and market.",
-    "What matters: certification, spend across managed accounts, and performance. Spend thresholds and certificate counts have changed; current numbers and rules live only in official Google Partners / Skillshop materials — not in frozen blog screenshots.",
+    "Below: levels, certification, spend, and performance. Spend thresholds and certificate counts have changed; current numbers and rules live only in official Google Partners / Skillshop materials — not in 2017–2020 guides.",
   ],
   faq: [
     {
@@ -24,7 +24,7 @@ export const googlePartnerEn: BlogPost = {
     },
     {
       q: "Where do you take the exam?",
-      a: "In Skillshop (formerly Google Academy / similar training platforms). Courses and exams update; “download answers” wastes the attempt.",
+      a: "In Skillshop (formerly Google Academy / similar training platforms). Courses and exams update; downloading answer dumps wastes the attempt.",
     },
     {
       q: "Is the badge on the website required?",
@@ -36,7 +36,7 @@ export const googlePartnerEn: BlogPost = {
     },
     {
       q: "Does it replace quality Ads management?",
-      a: "No. Partnership is a signal and access to resources. Clients care more about CPA and ROMI (return on marketing investment) than the badge alone.",
+      a: "No. Partnership is a signal and access to resources. Clients care more about CPA and ROMI than the badge alone.",
     },
     {
       q: "How much spend do you need?",
@@ -58,7 +58,7 @@ export const googlePartnerEn: BlogPost = {
             "staff certification on Ads products",
             "enough spend across managed accounts",
             "management quality/performance (not only “spend the budget”)",
-            "stable MCC work and client base.",
+            "stable MCC work and client base",
           ],
         },
       ],
@@ -67,16 +67,15 @@ export const googlePartnerEn: BlogPost = {
       title: "Certification in Skillshop",
       level: 2,
       paras: [
-        "Staff take exams on Google Ads and related products (Search, Display, analytics, and more — the course list changes). The learning profile must link to the agency work account, or the certificate “doesn’t count” for partnership.",
-        "There are prep modules before the exam; you can go straight in if practice is strong. Don’t switch tabs and “Google answers” — the system flags violations, and questions update.",
-        "A certificate helps a resume and tender. For an agency, closing the required number of live certificates with profile access matters more than “downloading a PDF for the showcase.”",
+        "Staff take exams on Google Ads and related products (Search, Display, analytics, and more — the course list changes). The learning profile must link to the agency work account, or the certificate doesn’t count for partnership.",
+        "There are prep modules before the exam; you can go straight in if practice is strong. Don’t switch tabs and search for answers mid-test — the system flags violations, and questions update.",
+        "A certificate helps a résumé and tender. For an agency, closing the required number of live certificates with profile access matters more than downloading a PDF for the showcase.",
       ],
-      lists: [],
       notes: [
         {
           title: "Tip",
           kind: "tip",
-          text: "Don’t rely on third-party “ready answers” and outdated dumps: the exam changes, and a cheat sheet burns the attempt.",
+          text: "Don’t rely on third-party ready answers and outdated dumps: the exam changes, and a cheat sheet burns the attempt.",
         },
       ],
     },
@@ -85,10 +84,9 @@ export const googlePartnerEn: BlogPost = {
       level: 2,
       paras: [
         "Partnership looks at total spend across managed accounts in the reporting period. The threshold depends on level and market; figures from 2017–2020 articles (including fixed dollar minima) are not a norm.",
-        "Performance isn’t only spend. The system and managers look at whether client value grows: conversions, retention, optimization quality. “Spending for the threshold” without results hits reputation harder than missing a badge.",
+        "Performance isn’t only spend. The system and managers look at whether client value grows: conversions, retention, optimization quality. Spending for the threshold without results hits reputation harder than missing a badge.",
         "Keep a clear MCC picture: active clients, correct staff access, current certificates. Dead accounts and checkbox theater don’t impress the program for long.",
       ],
-      lists: [],
       links: [
         {
           label: "Ad campaign analysis",
@@ -116,7 +114,7 @@ export const googlePartnerEn: BlogPost = {
             "access to training and product updates",
             "an escalation path for hard cases",
             "sometimes early tool access",
-            "motivation for the team to keep certification live.",
+            "motivation for the team to keep certification live",
           ],
         },
       ],
@@ -136,14 +134,14 @@ export const googlePartnerEn: BlogPost = {
             "a certificate ≠ automatic Partner",
             "Premier is a separate bar",
             "status must be maintained",
-            "client economics beat the showcase.",
+            "client economics beat the showcase",
           ],
         },
       ],
     },
   ],
   closing: [
-    "Check current criteria in the partner console, close team certification, and only then chase the badge — or you’ll spend a month on a badge that gets pulled tomorrow for an expired exam.",
+    "Check current criteria in the partner console, close team certification, and only then chase the badge — or you’ll spend a month on a badge that gets revoked tomorrow for an expired exam.",
   ],
   related: [
     "analiz-reklamnoy-kampanii",

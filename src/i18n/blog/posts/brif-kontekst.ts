@@ -11,7 +11,7 @@ export const brifKontekstEn: BlogPost = {
     "How to write a brief for Direct and Google Ads: goals, USP, pain points, budget, KPI timelines, audience, geo, creative limits — so contractor and client look at the same result.",
   lead: [
     "Without a brief, the client’s expectations stay in their head and the contractor optimizes “as usual.” Then you argue about “too few leads” with no shared starting point.",
-    "A paid-search brief frames goals, budget, geo, offers, and KPIs before launch — and SEO next door if it’s one project. It isn’t a website brief and isn’t a contract replacement. The more concrete the facts, the fewer report fights.",
+    "Below: a simple paid-search brief plan (and SEO next door if it’s one project). It isn’t a website brief and isn’t a contract replacement — a frame of meaning before launch. The more concrete the facts, the fewer report fights.",
   ],
   faq: [
     {
@@ -28,7 +28,7 @@ export const brifKontekstEn: BlogPost = {
     },
     {
       q: "Which KPIs should you list in the brief?",
-      a: "Ones you can measure: CPL/CPA, lead count, ROAS — with a lead definition. Not “reach the top” as a paid-search goal.",
+      a: "Ones you can measure: CPL/CPA, lead count, ROAS — with a lead definition. Not “page-one rankings” as a paid-search goal.",
     },
     {
       q: "Is “budget as possible” OK in a brief?",
@@ -77,12 +77,12 @@ export const brifKontekstEn: BlogPost = {
         {
           intro: "Minimum in a one-page brief:",
           items: [
-            "goal and KPI;",
-            "test budget;",
-            "geo and offer;",
-            "what you’ve already tried;",
-            "what a good lead looks like;",
-            "contacts and access.",
+            "goal and KPI",
+            "test budget",
+            "geo and offer",
+            "what you’ve already tried",
+            "what a good lead looks like",
+            "contacts and access",
           ],
         },
       ],
@@ -102,7 +102,7 @@ export const brifKontekstEn: BlogPost = {
       level: 2,
       paras: [
         "After filling it in, check with the contractor: what’s realistic for the budget and timeline. A rigid brief with an impossible CPL only breeds conflict.",
-        "Clients often overrate “pretty” product details and underrate delivery, price, and reply speed — give the specialist room to propose ad hypotheses.",
+        "Clients often overrate pretty product details and underrate delivery, price, and reply speed — give the specialist room to propose ad hypotheses.",
         "The brief is living: after the first month update KPIs and limits from the data.",
       ],
       links: [

@@ -8,10 +8,10 @@ export const minusSlovaDirektEn: BlogPost = {
   category: "Paid search",
   cover: "/images/blog/minus-slova-direkt/cover-en.webp",
   excerpt:
-    "How to set negative keywords and keywords in Yandex Direct: add levels, word-form operators, cross-negatives, and caution in the Display Network — without blindly copying “universal lists” from the web.",
+    "How to set negative keywords and phrases in Yandex Direct: add levels, word-form operators, cross-negatives, and caution in the Display Network — without blindly copying “universal lists” from the web.",
   lead: [
-    "Negative keywords in Direct are exclusions: which queries (and close phrasings) shouldn’t show the ad. That narrows the audience toward more qualified demand and saves budget on “download”, “free”, competitor brands, and irrelevant modifiers.",
-    "What negatives do, where to add them, word-form nuances, and cross-negatives. Account menu labels change; use campaign / ad group / keywords. Check ready-made negative lists against your niche before pasting.",
+    "Negative keywords in Direct are exclusions: which queries (and close phrasings) shouldn’t show the ad. That narrows the audience toward more qualified demand and saves budget on “download,” “free,” competitor brands, and irrelevant modifiers.",
+    "Below: what the tool does, where to add exclusions, word-form nuances, and cross-negatives. Account menu labels change; use campaign / ad group / keywords. Treat ready-made “500 negatives” lists as drafts — check them against your offer.",
   ],
   faq: [
     {
@@ -51,13 +51,13 @@ export const minusSlovaDirektEn: BlogPost = {
             "job / vacancy / courses (if not your service)",
             "used / classifieds (if not your channel)",
             "competitor brands and cities outside delivery",
-            "irrelevant modifiers from Wordstat.",
+            "irrelevant modifiers from Wordstat",
           ],
         },
       ],
       links: [
         {
-          label: "Keyword set",
+          label: "Semantic core",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {
@@ -80,7 +80,7 @@ export const minusSlovaDirektEn: BlogPost = {
             "pull negatives from the search-terms report",
             "split shared vs cluster",
             "check that keywords aren’t killed",
-            "export search terms again in a week.",
+            "export search terms again in a week",
           ],
         },
       ],
@@ -90,13 +90,13 @@ export const minusSlovaDirektEn: BlogPost = {
       level: 2,
       paras: [
         "A negative usually covers word forms (gender, number, case). For one exact form only — use locking operators (historically `!` before the word; check current Direct Help syntax).",
-        "Negative keywords cut combinations as a whole. A bad phrase can cut more than you planned — validate on sample queries.",
+        "Negative phrases cut combinations as a whole. A bad phrase can cut more than you planned — validate on sample queries.",
       ],
       notes: [
         {
           title: "Common mistake",
+          kind: "warning",
           text: "Paste a “for every niche” list and kill half of commercial demand. Start from your own stats queries.",
-          kind: "tip",
         },
       ],
     },
@@ -104,7 +104,7 @@ export const minusSlovaDirektEn: BlogPost = {
       title: "Cross-negatives",
       level: 2,
       paras: [
-        "If you have “rent a house” and “rent a house SPb”, minus geo/refinements on the broad phrase so narrow-keyword traffic isn’t intercepted. That lowers internal ad competition.",
+        "If you have “rent a house” and “rent a house SPb,” minus geo/refinements on the broad phrase so narrow-keyword traffic isn’t intercepted. That lowers internal ad competition.",
         "Do cross-negatives deliberately by cluster tree — not by minusing everything. In auto strategies and unified performance campaigns, overlap logic may differ — check current Yandex guidance.",
       ],
       lists: [
@@ -113,7 +113,7 @@ export const minusSlovaDirektEn: BlogPost = {
           items: [
             "clear head → mid → long-tail hierarchy",
             "different landings for refinements",
-            "need ad-copy control per query.",
+            "need ad-copy control per query",
           ],
         },
       ],

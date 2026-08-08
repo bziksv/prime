@@ -8,15 +8,15 @@ export const reklamaVPablikahVkEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/reklama-v-pablikah-vk/cover-en.webp",
   excerpt:
-    "How to run ads via VK communities: audience fit, picking pages, bot and ER checks, the post itself, comments, and measuring results.",
+    "How to run ads via VK communities: audience fit, picking pages, bot and engagement-rate checks, the post itself, comments, and measuring results.",
   lead: [
-    "Ads in VKontakte communities means placing a post in someone else’s (or your own) communities. It works when you hit the right audience and pick a live community—not a bot graveyard.",
-    "VK dashboards and marketplaces update often: below is the selection logic and criteria, without tying you to outdated UI buttons.",
+    "Ads in VKontakte communities means placing a post in someone else’s (or your own) communities. It works when you hit the right audience and pick a live community — not a bot graveyard.",
+    "VK dashboards and marketplaces update often. Below: the order of actions and selection criteria, without tying you to outdated UI buttons.",
   ],
   faq: [
     {
-      q: "How is community seeding different from paid targeting?",
-      a: "Seeding places the post with a specific community audience. Targeting runs ads by segments in the ad account. They’re often used together.",
+      q: "How is a community placement different from paid targeting?",
+      a: "A placement puts the post with a specific community audience. Targeting runs ads by segments in the ad account. They’re often used together.",
     },
     {
       q: "How can I tell a community has many bots?",
@@ -24,7 +24,7 @@ export const reklamaVPablikahVkEn: BlogPost = {
     },
     {
       q: "What matters more — follower count or post reach?",
-      a: "Reach and reaction on recent posts. A large “dead” base is useless.",
+      a: "Reach and reaction on recent posts. A large dead base is useless.",
     },
     {
       q: "Who should I contact about placement?",
@@ -32,7 +32,7 @@ export const reklamaVPablikahVkEn: BlogPost = {
     },
     {
       q: "How do I measure results?",
-      a: "UTM/promo code, leads, cost per inquiry, comment quality. Not only likes under the ad post.",
+      a: "UTM or promo code, leads, cost per inquiry, comment quality. Not only likes under the ad post.",
     },
   ],
   sections: [
@@ -41,25 +41,24 @@ export const reklamaVPablikahVkEn: BlogPost = {
       level: 2,
       paras: [
         "The format fits when your audience sits in topic communities: local business, hobbies, B2C services, events.",
-        "If the audience is scattered or you need tight bid control — plan targeting in parallel. Seeding warms people up well and adds social context.",
+        "If the audience is scattered or you need tight bid control — plan targeting in parallel. Community placements warm people up well and add social context.",
       ],
-      lists: [],
     },
     {
       title: "Target audience",
       level: 2,
       paras: [
-        "Build a portrait: gender, age, geo, interests, pain, what they’ve already tried. One clear segment beats “everyone”.",
+        "Build a portrait: gender, age, geo, interests, pain, what they’ve already tried. One clear segment beats “everyone.”",
         "Surveys, reviews, forum research, and audience tools (the set changes) help refine interests.",
       ],
       lists: [
         {
           intro: "Before picking communities, answer:",
           items: [
-            "who should see the post;",
-            "what action you want;",
-            "what test budget you have;",
-            "which community topics overlap the offer.",
+            "who should see the post",
+            "what action you want",
+            "what test budget you have",
+            "which community topics overlap the offer",
           ],
         },
       ],
@@ -68,25 +67,26 @@ export const reklamaVPablikahVkEn: BlogPost = {
       title: "How to shortlist communities",
       level: 2,
       paras: [
-        "Build a long list: VK search by topic, recommendations, lists from the account/marketplace, community-finder tools.",
+        "Build a long list: VK search by topic, recommendations, lists from the account or marketplace, community-finder tools.",
         "Then shortlist with five checks: audience fit, activity, bots, reach, other ads.",
       ],
       lists: [
         {
           intro: "Quick community review:",
           items: [
-            "stats: gender/age/city match the segment;",
-            "ER: likes, comments, shares on regular posts;",
-            "bot share is moderate (not an inflated “dead” base);",
-            "recent post reach fits the size;",
-            "the feed isn’t packed with competitor ads every post.",
+            "stats: gender/age/city match the segment",
+            "engagement rate: likes, comments, shares on regular posts",
+            "bot share is moderate (not an inflated dead base)",
+            "recent post reach fits the size",
+            "the feed isn’t packed with competitor ads every post",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
-          text: "Taking the city’s biggest page without checking ER. Post reach there can be lower than in a compact live community.",
+          kind: "tip",
+          text: "Taking the city’s biggest page without checking engagement rate. Post reach there can be lower than in a compact live community.",
         },
       ],
       tables: [
@@ -105,7 +105,7 @@ export const reklamaVPablikahVkEn: BlogPost = {
               "Silence despite “loud” reach",
             ],
             ["Bots", "Base check + feed", "Mass dead accounts"],
-            ["Ads", "Density of ad posts", "Every post is a seed"],
+            ["Ads", "Density of ad posts", "Every post is a paid placement"],
           ],
         },
       ],
@@ -120,11 +120,11 @@ export const reklamaVPablikahVkEn: BlogPost = {
         {
           intro: "Lock with the admin in writing:",
           items: [
-            "copy and creative (or brief);",
-            "date and time;",
-            "whether a community comment is needed;",
-            "whether you can reply under the post;",
-            "how you’ll get reach stats.",
+            "copy and creative (or brief)",
+            "date and time",
+            "whether a community comment is needed",
+            "whether you can reply under the post",
+            "how you’ll get reach stats",
           ],
         },
       ],
@@ -145,11 +145,11 @@ export const reklamaVPablikahVkEn: BlogPost = {
         {
           intro: "Ad post frame:",
           items: [
-            "hook under the audience’s pain/desire;",
-            "what you offer and for whom;",
-            "proof (figure, deadline, terms);",
-            "CTA: message / click / visit;",
-            "contacts or a short link.",
+            "hook under the audience’s pain or desire",
+            "what you offer and for whom",
+            "proof (figure, deadline, terms)",
+            "CTA: message / click / visit",
+            "contacts or a short link",
           ],
         },
       ],
@@ -164,10 +164,10 @@ export const reklamaVPablikahVkEn: BlogPost = {
         {
           intro: "In the first hours:",
           items: [
-            "answer price/delivery clarifications;",
-            "pin a useful reply if possible;",
-            "save stats screenshots;",
-            "tag leads in CRM/spreadsheet.",
+            "answer price or delivery clarifications",
+            "pin a useful reply if possible",
+            "save stats screenshots",
+            "tag leads in CRM or a spreadsheet",
           ],
         },
       ],
@@ -177,16 +177,16 @@ export const reklamaVPablikahVkEn: BlogPost = {
       level: 2,
       paras: [
         "Count cost per desired action, not likes. Compare communities on the same offer and creative.",
-        "Seed prices depend on reach, niche, and city — ask for rates and a test budget on 2–3 placements before scaling.",
+        "Placement prices depend on reach, niche, and city — ask for rates and a test budget on two or three placements before scaling.",
       ],
       lists: [
         {
-          intro: "Mini report after a seed:",
+          intro: "Mini report after a placement:",
           items: [
-            "reach and post ER;",
-            "clicks / leads / cost;",
-            "comment dialogue quality;",
-            "decision: repeat, change creative, or switch community.",
+            "reach and post engagement rate",
+            "clicks / leads / cost",
+            "comment dialogue quality",
+            "decision: repeat, change creative, or switch community",
           ],
         },
       ],

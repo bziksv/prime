@@ -11,7 +11,7 @@ export const vebServerEn: BlogPost = {
     "What a web server is in plain words: browser request, page response, hosting role, HTTPS, Apache/Nginx/IIS, and local stacks for development.",
   lead: [
     "A web server takes a browser request and returns a page, file, or error. It’s both software (Apache, Nginx, IIS) and the machine or cloud where it runs.",
-    "Follow the chain from domain to DNS to HTTPS response, then pick Apache, Nginx, or IIS for the job — not nostalgia for outdated local packages.",
+    "Below: how it works, what makes up the “domain → server → site” chain, and what to watch when picking a stack — without nostalgia for outdated local packages.",
   ],
   faq: [
     {
@@ -34,10 +34,6 @@ export const vebServerEn: BlogPost = {
       q: "What is a local server for development?",
       a: "An environment on your PC (Docker, OpenServer, XAMPP and analogues) to run the site without deploying to production.",
     },
-    {
-      q: "Does the web server alone get you into TOP?",
-      a: "No. A healthy server keeps the site reachable and fast enough for people and crawlers. Rankings still need content and promotion — TOP planned for 2–6 months after start.",
-    },
   ],
   sections: [
     {
@@ -45,9 +41,8 @@ export const vebServerEn: BlogPost = {
       level: 2,
       paras: [
         "Library analogy: the reader (browser) asks for a book (URL); the librarian (web server) finds the material in storage and hands it over. Unlike one book checked out, a site can be “read” by thousands at once.",
-        "A sysadmin will say “hardware and network”; a developer — “software that serves HTTP”. Both are right.",
+        "A sysadmin will say “hardware and network”; a developer — “software that serves HTTP.” Both are right.",
       ],
-      lists: [],
     },
     {
       title: "Jobs and functions",
@@ -59,11 +54,11 @@ export const vebServerEn: BlogPost = {
         {
           intro: "Typical loop:",
           items: [
-            "accept the request;",
-            "find the resource or build a response via the app;",
-            "return status and response body;",
-            "log the hit;",
-            "with HTTPS — keep an encrypted channel.",
+            "accept the request",
+            "find the resource or build a response via the app",
+            "return status and response body",
+            "log the hit",
+            "with HTTPS — keep an encrypted channel",
           ],
         },
       ],
@@ -78,11 +73,11 @@ export const vebServerEn: BlogPost = {
         {
           intro: "For a site to open you need:",
           items: [
-            "hosting or a server with enough resources;",
-            "web server software;",
-            "a domain and DNS record;",
-            "site files / an application;",
-            "an HTTPS certificate (usually via Let’s Encrypt or the hosting panel).",
+            "hosting or a server with enough resources",
+            "web server software",
+            "a domain and DNS record",
+            "site files / an application",
+            "an HTTPS certificate (usually via Let’s Encrypt or the hosting panel)",
           ],
         },
       ],
@@ -103,16 +98,17 @@ export const vebServerEn: BlogPost = {
         {
           intro: "In practice:",
           items: [
-            "small site on hosting — often Apache or Nginx “out of the box” from the panel;",
-            "high load / microservices — Nginx (or analogue) in front of the app;",
-            "corporate Windows stack — IIS.",
+            "small site on hosting — often Apache or Nginx out of the box from the panel",
+            "high load / microservices — Nginx (or analogue) in front of the app",
+            "corporate Windows stack — IIS",
           ],
         },
       ],
       notes: [
         {
           title: "Important",
-          text: "The shell choice is secondary to update security, backups, and monitoring. A “trendy” server with leaky PHP is worse than a boring but cared-for one.",
+          kind: "tip",
+          text: "The shell choice is secondary to update security, backups, and monitoring. A trendy server with leaky PHP is worse than a boring but cared-for one.",
         },
       ],
       tables: [
@@ -138,9 +134,9 @@ export const vebServerEn: BlogPost = {
         {
           intro: "Minimum to start:",
           items: [
-            "PHP/Node + DB per project needs;",
-            "HTTPS in prod (locally — as needed);",
-            "matching major versions with prod when possible.",
+            "PHP/Node + DB per project needs",
+            "HTTPS in prod (locally — as needed)",
+            "matching major versions with prod when possible",
           ],
         },
       ],
@@ -155,10 +151,10 @@ export const vebServerEn: BlogPost = {
         {
           intro: "After a move:",
           items: [
-            "home and key URLs return 200;",
-            "www/non-www and http→https are consistent;",
-            "sitemap and robots are reachable;",
-            "no mass 404s on old paths.",
+            "home and key URLs return 200",
+            "www/non-www and http→https are consistent",
+            "sitemap and robots are reachable",
+            "no mass 404s on old paths",
           ],
         },
       ],

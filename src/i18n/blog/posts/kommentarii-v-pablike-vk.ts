@@ -3,14 +3,14 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for kommentarii-v-pablike-vk — same structure as RU JSON. */
 export const kommentariiVPablikeVkEn: BlogPost = {
   slug: "kommentarii-v-pablike-vk",
-  title: "VK community comments: how to set up and moderate",
+  title: "VK community comments: setup and moderation",
   date: "2022-02-22",
   category: "SMM",
   cover: "/images/blog/kommentarii-v-pablike-vk/cover-en.webp",
   excerpt:
     "How to manage comments in a VK community: open or close discussion, wall types, filters, manual moderation, and reply-feed control.",
   lead: [
-    "Comments in a VKontakte community are both fuel for reach and a source of toxicity. Wall mode, filters, and a clear moderation workflow matter more than outdated menu screenshots.",
+    "Comments in a VKontakte community are both engagement fuel and a source of toxicity. Below: how to pick wall mode, filters, and a moderation workflow — without clinging to outdated menu clicks.",
     "Items in Community management move around: follow the meaning of settings and current VK help, not “the third checkbox on the left.”",
   ],
   faq: [
@@ -47,10 +47,10 @@ export const kommentariiVPablikeVkEn: BlogPost = {
         {
           intro: "Typical reasons for strict control:",
           items: [
-            "provocative or conflict-prone topic;",
-            "weak audience loyalty;",
-            "no time to moderate;",
-            "“storefront” format with no dialogue.",
+            "provocative or conflict-prone topic",
+            "weak audience loyalty",
+            "no time to moderate",
+            "“storefront” format with no dialogue",
           ],
         },
       ],
@@ -65,9 +65,9 @@ export const kommentariiVPablikeVkEn: BlogPost = {
         {
           intro: null,
           items: [
-            "Open — posts and comments from almost everyone; max activity and max manual cleanup.",
-            "Limited — new posts only for those you grant rights; commenting is usually open to all (filters fit well here).",
-            "Closed — posts only by admins; subscriber comments are often unavailable.",
+            "Open — posts and comments from almost everyone; max activity and max manual cleanup",
+            "Limited — new posts only for those you grant rights; commenting is usually open to all (filters fit well here)",
+            "Closed — posts only by admins; subscriber comments are often unavailable",
           ],
         },
       ],
@@ -75,6 +75,7 @@ export const kommentariiVPablikeVkEn: BlogPost = {
         {
           title: "Practice",
           text: "For a commercial community a limited wall is most common: you control content, keep discussion, cut spam with filters and moderators.",
+          kind: "tip",
         },
       ],
     },
@@ -89,9 +90,9 @@ export const kommentariiVPablikeVkEn: BlogPost = {
         {
           intro: "Policy options:",
           items: [
-            "fully open + filters + a duty moderator;",
-            "comments open, posts — admins only;",
-            "comments off on sensitive topics / temporarily during a promo.",
+            "fully open + filters + a duty moderator",
+            "comments open, posts — admins only",
+            "comments off on sensitive topics / temporarily during a promo",
           ],
         },
       ],
@@ -101,16 +102,16 @@ export const kommentariiVPablikeVkEn: BlogPost = {
       level: 2,
       paras: [
         "Auto-filters usually catch profanity and your stop-word/phrase list. Filter-deleted items can be reviewed in the operations history.",
-        "Filters are easy to bypass with letter swaps, asterisks, and hints. So next to automation you need manual moderation — especially in prime time after ad posts.",
+        "Filters are easy to bypass with letter swaps, asterisks, and hints. So next to automation you need manual moderation — especially in peak hours after ad posts.",
       ],
       lists: [
         {
           intro: "Minimum stop list:",
           items: [
-            "profanity and insults;",
-            "spam offers and third-party links;",
-            "competitor names / provocative labels — per brand policy;",
-            "giveaway-farm keywords if they get in the way.",
+            "profanity and insults",
+            "spam offers and third-party links",
+            "competitor names / custom labels — per brand policy",
+            "giveaway-farm keywords if they get in the way",
           ],
         },
       ],
@@ -118,6 +119,7 @@ export const kommentariiVPablikeVkEn: BlogPost = {
         {
           title: "Common mistake",
           text: "Turn on a filter and forget it. A week later toxic threads still appear — a filter doesn’t replace community rules and a responsible moderator.",
+          kind: "tip",
         },
       ],
     },
@@ -132,10 +134,10 @@ export const kommentariiVPablikeVkEn: BlogPost = {
         {
           intro: "A practical moderation rhythm:",
           items: [
-            "morning and evening — scan the combined feed;",
-            "after an ad post — 1–2 hours on duty;",
-            "weekly — review filter deletions (false positives);",
-            "monthly — update stop words.",
+            "morning and evening — scan the combined feed",
+            "after an ad post — 1–2 hours on duty",
+            "weekly — review filter deletions (false positives)",
+            "monthly — update stop words",
           ],
         },
       ],
@@ -151,10 +153,10 @@ export const kommentariiVPablikeVkEn: BlogPost = {
         {
           intro: "Short takeaway:",
           items: [
-            "limited wall + open comments;",
-            "profanity filter + your stop list;",
-            "manual control in peak hours;",
-            "clear rules in the description or a pinned post.",
+            "limited wall + open comments",
+            "profanity filter + your stop list",
+            "manual control in peak hours",
+            "clear rules in the description or a pinned post",
           ],
         },
       ],

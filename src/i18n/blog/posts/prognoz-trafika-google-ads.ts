@@ -11,7 +11,7 @@ export const prognozTrafikaGoogleAdsEn: BlogPost = {
     "How to estimate search demand and budget in Google Ads: gathering keywords in Keyword Planner, cleaning, CTR/CPC by groups, and a budget formula — without the illusion of an exact media plan.",
   lead: [
     "Before launching search in Google Ads it helps to know: is there enough demand for the goal, what order of clicks, and which budget covers the niche. Keyword Planner and a spreadsheet with assumptions give a range — not a guarantee.",
-    "The stages are gather, clean, frequency, CTR, CPC, budget. An organic forecast is in a separate piece; the Ads UI changes, the calculation logic stays.",
+    "Below: gather, clean, frequency, CTR, CPC, budget. An organic forecast is in a separate piece; the Ads UI changes, the calculation logic stays.",
   ],
   faq: [
     {
@@ -23,8 +23,8 @@ export const prognozTrafikaGoogleAdsEn: BlogPost = {
       a: "A cue with error. Better on high-volume; weaker on long-tail and new niches. Check against account fact when you have it.",
     },
     {
-      q: "Why not paste all seed keywords comma-separated?",
-      a: "The tool often narrows variant output. Gathering one seed at a time is usually fuller — an old observation; verify on your topic.",
+      q: "Why not paste all starter keywords comma-separated?",
+      a: "The tool often narrows variant output. Gathering one base phrase at a time is usually fuller — an old observation; verify on your topic.",
     },
     {
       q: "Which CTR should I assume?",
@@ -44,7 +44,7 @@ export const prognozTrafikaGoogleAdsEn: BlogPost = {
       title: "Gathering and cleaning semantics",
       level: 2,
       paras: [
-        "Build a full pool of relevant masks: different seed bases, language, and geo. In Keyword Planner expand with variants one seed at a time and export a plan with stats (frequency, competition, CPC cue).",
+        "Build a full pool of relevant masks: different starter bases, language, and geo. In Keyword Planner expand with variants one input at a time and export a plan with stats (frequency, competition, CPC cue).",
         "Manually remove the most frequent off-target terms (“free”, rival brands, wrong region/product). Full cleaning of every long-tail at forecast stage isn’t required — cutting fat junk matters more.",
       ],
       links: [
@@ -66,25 +66,25 @@ export const prognozTrafikaGoogleAdsEn: BlogPost = {
       title: "CTR, CPC, and budget",
       level: 2,
       paras: [
-        "CTR: better from your own / industry fact without rival brands than a “country average”. CPC: from Keyword Planner (cues by impression share zones) or live stats; aiming “always #1” inflates cost a lot.",
+        "CTR: better from your own / industry fact without rival brands than a “country average”. CPC: from Keyword Planner (cues by impression-share zones) or live stats; aiming “always #1” inflates cost a lot.",
         "Demand-coverage budget ≈ impressions × CTR × CPC. Cost grows nonlinearly at scale. Account for seasonality, share of new queries, and attribution when estimating revenue.",
       ],
       lists: [
         {
           intro: "Assumptions at the start:",
           items: [
-            "not a goal of “absolute top only”",
+            "not a goal of “always absolute #1 only”",
             "the campaign will be set up well",
             "bid adjustments refine after launch",
-            "a budget range beats one figure.",
+            "a budget range beats one figure",
           ],
         },
       ],
       notes: [
         {
           title: "Accuracy",
-          text: "Semantics quality and grouping matter more than a “pretty” Planner table. After launch, check the forecast against fact and update coefficients.",
           kind: "tip",
+          text: "Semantics quality and grouping matter more than a “pretty” Planner table. After launch, check the forecast against fact and update coefficients.",
         },
       ],
       links: [

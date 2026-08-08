@@ -5,34 +5,34 @@ export const obzorCmsEn: BlogPost = {
   slug: "obzor-cms",
   title: "CMS overview: WordPress, Joomla, Bitrix, Drupal, MODX, and DLE",
   date: "2017-01-10",
-  category: "Hosting",
+  category: "Digital marketing",
   cover: "/images/blog/obzor-cms/cover-en.webp",
   excerpt:
-    "A look at popular CMS options: WordPress, Joomla, 1C-Bitrix, Drupal, MODX, and DLE — pros, cons, and which jobs fit which, without 2017 market-share rankings and the “engine = TOP” myth.",
+    "A look at popular CMS options: WordPress, Joomla, 1C-Bitrix, Drupal, MODX, and DLE — pros, cons, and which jobs they fit, without 2017 market-share charts or the myth that “the engine ranks you.”",
   lead: [
-    "A CMS is the system you use to edit pages, catalogs, and media without rewriting the whole site in a text editor. Choice depends on the job, budget, hosting, and who will support the project.",
-    "Below is a short tour of six engines people ask about most — not a forever “#1” ranking. Market share and fashion change. For stores alone, see a separate comparison.",
+    "A CMS is how you edit pages, catalogs, and media without rewriting the whole site in a text editor. Choice depends on the job, budget, hosting, and who will support the project.",
+    "Below is a short tour of six engines people ask about most — not a forever “#1” ranking. Market share and fashion change. For stores, see a separate platform comparison; Bitrix gets a deeper piece of its own.",
   ],
   faq: [
     {
-      q: "Which CMS is best for my site?",
+      q: "Which CMS is best?",
       a: "The one that covers the job at acceptable TCO. There is no universal winner.",
     },
     {
       q: "Is a free CMS always cheaper?",
-      a: "Entry is cheaper; support is not: plugins, security, a developer, hosting. Count a year of ownership.",
+      a: "Entry is cheaper; ownership isn’t: plugins, security, a developer, hosting. Count a year of ownership.",
     },
     {
-      q: "Does picking a CMS put you in the TOP?",
-      a: "No. The engine should not block SEO. Rankings are content, tech, and months of work; prep ≠ TOP-10. Core growth is planned over 2–6 months after work starts.",
+      q: "Does the CMS put you on page one?",
+      a: "No. The engine should not block SEO. Rankings come from content, tech, and months of work — prep ≠ page one. Core growth is planned over 2–6 months after work starts.",
     },
     {
       q: "How do you detect another site’s CMS?",
       a: "From open HTML and path clues — in a separate article. Not hacking.",
     },
     {
-      q: "Should you use a site builder instead of a CMS?",
-      a: "For a landing and a simple site often yes. For a complex catalog and custom integrations — more often a classic CMS or custom build.",
+      q: "Should I use a site builder instead?",
+      a: "For a landing and a simple site — often yes. For a complex catalog and custom integrations — more often a classic CMS or custom build.",
     },
   ],
   sections: [
@@ -40,8 +40,8 @@ export const obzorCmsEn: BlogPost = {
       title: "What a CMS is in plain English",
       level: 2,
       paras: [
-        "A CMS gives you an admin: pages, menus, users, media, sometimes a store and forms. Under the hood — templates, a DB, and code that serves HTML to visitors.",
-        "Before choosing lock: brochure, blog, portal, store; whether you need root on the server; who edits content daily.",
+        "A CMS gives you an admin: pages, menus, users, media, sometimes a store and forms. Under the hood — templates, a database, and code that serves HTML to visitors.",
+        "Before choosing, lock: brochure, blog, portal, store; whether you need root on the server; who edits content daily.",
       ],
       links: [
         {
@@ -59,7 +59,7 @@ export const obzorCmsEn: BlogPost = {
       level: 2,
       paras: [
         "Open source, a huge theme and plugin ecosystem, an easy entry for editors. Blogs, corporate sites, landings; a store — via WooCommerce and solid hosting.",
-        "Downsides: popularity attracts attackers (fixed with updates and hygiene); on weak hosting and with a plugin pile it’s easy to hit speed limits. No personal vendor support like paid CMS — community and contractors.",
+        "Downsides: popularity attracts attackers (fixed with updates and hygiene); on weak hosting with a plugin pile it’s easy to hit speed limits. No personal vendor support like paid CMS — community and contractors.",
       ],
       lists: [
         {
@@ -68,7 +68,7 @@ export const obzorCmsEn: BlogPost = {
             "content and marketing sites",
             "need a fast admin for editors",
             "budget for plugin care",
-            "mid-size Woo store — on purpose.",
+            "mid-size Woo store — on purpose",
           ],
         },
       ],
@@ -96,7 +96,7 @@ export const obzorCmsEn: BlogPost = {
       level: 2,
       paras: [
         "A commercial platform with a strong ecosystem in Russia: roles, modules, corporate and store scenarios, 1C integrations. Hosting and budget needs are higher than a “blog on shared.”",
-        "UI and custom work need discipline: chaotic changes make the project heavy. A full pros/cons breakdown is separate; store-context downsides are in the store-engine overview.",
+        "UI and custom work need discipline: chaotic changes make the project heavy. A full pros/cons breakdown is separate; store-context downsides live in the store-engine overview.",
       ],
       links: [
         {
@@ -141,7 +141,7 @@ export const obzorCmsEn: BlogPost = {
       notes: [
         {
           title: "Common mistake",
-          text: "Picking a CMS from a “2017 popularity ranking” article without team and TCO.",
+          text: "Picking a CMS from a “2017 popularity ranking” article without weighing the team and TCO.",
           kind: "tip",
         },
       ],
@@ -162,13 +162,13 @@ export const obzorCmsEn: BlogPost = {
             "complex portal — Drupal or Bitrix",
             "custom layout — MODX / a framework",
             "media feed — DLE if the team knows it",
-            "store — a separate store-platform comparison.",
+            "store — a separate store-platform comparison",
           ],
         },
       ],
     },
     {
-      title: "Takeaways",
+      title: "What to remember",
       level: 2,
       paras: [
         "A CMS is a tool for the job and the team. Popularity eases hiring but does not cancel security, backups, and speed.",

@@ -11,7 +11,7 @@ export const obzorBrauzerovEn: BlogPost = {
     "Chrome, Firefox, Edge, Opera, Vivaldi, and Yandex Browser: what to watch when choosing — extensions, privacy, ecosystem — without 2018 rankings and a single “champion.”",
   lead: [
     "A browser is the environment where you open sites, ad accounts, and email. There is no “best for everyone”: ecosystem, extensions, privacy, habit, and devices matter.",
-    "Pick by scenario — not by 2018 rankings. Market shares, “2-second launch,” and Edge/Opera status from old reviews are outdated; strengths of product classes still help you shortlist.",
+    "Below: selection criteria and strengths by product class. Market shares, “2-second launch,” and Edge/Opera status from 2018 reviews are outdated — Edge moved to Chromium, extension catalogs grew. Yandex Browser install is covered separately.",
   ],
   faq: [
     {
@@ -31,8 +31,8 @@ export const obzorBrauzerovEn: BlogPost = {
       a: "It leaves fewer traces on the device, but doesn’t make you anonymous to the site, network, and extensions. For tracking, check privacy settings and separate tools.",
     },
     {
-      q: "Do you need several browsers for testing?",
-      a: "Often yes: a primary plus a second for layout/account checks. The key is updating both.",
+      q: "Do you need several browsers?",
+      a: "Often yes: a primary plus a second for layout or account checks. The key is updating both.",
     },
   ],
   sections: [
@@ -52,7 +52,7 @@ export const obzorBrauzerovEn: BlogPost = {
             "sync and password manager",
             "privacy / tracking settings",
             "integration with needed services",
-            "willingness to update regularly.",
+            "willingness to update regularly",
           ],
         },
       ],
@@ -91,8 +91,8 @@ export const obzorBrauzerovEn: BlogPost = {
       notes: [
         {
           title: "Don’t confuse engine and brand",
-          text: "Same engine ≠ same data policy and default service set. Read what’s enabled at install and sync.",
           kind: "tip",
+          text: "Same engine ≠ same data policy and default service set. Read what’s enabled at install and sync.",
         },
       ],
     },
@@ -133,11 +133,11 @@ export const obzorBrauzerovEn: BlogPost = {
         {
           intro: "Short algorithm:",
           items: [
-            "state 2–3 main scenarios",
-            "pick 2 candidates",
+            "state two or three main scenarios",
+            "pick two candidates",
             "import bookmarks temporarily",
             "check needed extensions",
-            "keep a primary + a spare for tests.",
+            "keep a primary plus a spare for tests",
           ],
         },
       ],
@@ -152,7 +152,7 @@ export const obzorBrauzerovEn: BlogPost = {
     },
   ],
   closing: [
-    "Define scenarios, compare two official candidates on your tasks, and keep a primary browser plus a second for checks — so the choice is about work, not someone else’s 2018 TOP.",
+    "Define scenarios, compare two official candidates on your tasks, and keep a primary browser plus a second for checks — so the choice is about work, not someone else’s 2018 roundup.",
   ],
   related: [
     "yandeks-brauzer",

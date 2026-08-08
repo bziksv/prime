@@ -11,7 +11,7 @@ export const googleKalendarEn: BlogPost = {
     "How to use Google Calendar at work: multiple calendars by purpose, meetings with guests, video, attachments, working hours, and sharing — without outdated clicks and Hangouts.",
   lead: [
     "Google Calendar is a planner for meetings, reminders, and focus blocks in the Google ecosystem. It works for solo operators and teams: shared calendars, invites, Drive attachments, working hours.",
-    "The settings below fit a typical work flow. Menu labels and button names change; follow the meaning of features, not a 2019 screenshot. Video meetings today usually go through Google Meet, not Hangouts.",
+    "Below: practical settings for a work flow. Menu labels and button names change; follow the meaning of features, not a 2019 screenshot. Video meetings today usually go through Google Meet, not Hangouts.",
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const googleKalendarEn: BlogPost = {
             "internal syncs",
             "deep work (focus blocks)",
             "recurring reminders",
-            "personal events (optionally a hidden layer).",
+            "personal events (optionally a hidden layer)",
           ],
         },
       ],
@@ -77,7 +77,7 @@ export const googleKalendarEn: BlogPost = {
             "timezone and duration",
             "video link or address",
             "agenda in the description",
-            "needed attachments already on the event.",
+            "needed attachments already on the event",
           ],
         },
       ],
@@ -92,8 +92,8 @@ export const googleKalendarEn: BlogPost = {
       notes: [
         {
           title: "Important",
-          text: "Don’t put personal-data documents in a shared calendar “just in case”. Drive access and event access are separate permission layers.",
           kind: "tip",
+          text: "Don’t put personal-data documents in a shared calendar “just in case.” Drive access and event access are separate permission layers.",
         },
       ],
     },
@@ -101,7 +101,7 @@ export const googleKalendarEn: BlogPost = {
       title: "Working hours and booking slots",
       level: 2,
       paras: [
-        "Working hours show colleagues when you’re usually free for meetings. An invite outside the window may show a warning — fewer “midnight calls”.",
+        "Working hours show colleagues when you’re usually free for meetings. An invite outside the window may show a warning — fewer midnight calls.",
         "For consults and teaching slots, work accounts often have appointment intervals: you publish windows, people book. Names and availability depend on account type — see Google Help.",
       ],
       lists: [
@@ -111,7 +111,7 @@ export const googleKalendarEn: BlogPost = {
             "set working hours",
             "leave a buffer between meetings",
             "deep-work blocks without invites",
-            "a separate calendar for sales / interviews.",
+            "a separate calendar for sales / interviews",
           ],
         },
       ],
@@ -121,7 +121,7 @@ export const googleKalendarEn: BlogPost = {
       level: 2,
       paras: [
         "In calendar settings, choose who sees details, who only sees free/busy, and who can edit. For a team, a shared project calendar with editors works well; keep personal view limited.",
-        "Keyboard shortcuts speed up creating events and moving through the week. The list is in Calendar Help — no need to memorize “as in 2019”.",
+        "Keyboard shortcuts speed up creating events and moving through the week. The list is in Calendar Help — no need to memorize “as in 2019.”",
       ],
       lists: [
         {
@@ -130,7 +130,7 @@ export const googleKalendarEn: BlogPost = {
             "don’t make a personal calendar public without need",
             "editors — selectively",
             "for externals — a separate calendar or one-off invites",
-            "periodically revoke access for people who left.",
+            "periodically revoke access for people who left",
           ],
         },
       ],

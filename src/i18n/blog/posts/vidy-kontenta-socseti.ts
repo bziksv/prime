@@ -10,12 +10,12 @@ export const vidyKontentaSocsetiEn: BlogPost = {
   excerpt:
     "Informational, selling, educational, engaging, and entertainment content on social: why each type exists and how to build a mix without a rigid “one-third of the feed is sales” rule.",
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   lead: [
     "Social content isn’t “just posts” — it’s a set of jobs: explain, warm up, sell, engage, hold attention. Types blend in a single piece, and the right mix depends on niche and funnel stage — not a universal “one-third sales” formula.",
-    "Combine five core content types so the feed isn’t only promos or only memes, and match expectations by platform. Content plans and calendars live in a separate article.",
+    "Below: five working types, how to combine them, and how audience expectations differ by platform. Content plans and calendars live in sibling articles. See the Meta note on this page.",
   ],
   faq: [
     {
@@ -73,10 +73,10 @@ export const vidyKontentaSocsetiEn: BlogPost = {
         {
           intro: "What usually strengthens it:",
           items: [
-            "a clear headline and offer;",
-            "proof (case study, review, numbers);",
-            "an obvious next step;",
-            "honest terms and deadlines.",
+            "a clear headline and offer",
+            "proof (case study, review, numbers)",
+            "an obvious next step",
+            "honest terms and deadlines",
           ],
         },
       ],
@@ -84,9 +84,7 @@ export const vidyKontentaSocsetiEn: BlogPost = {
         {
           kind: "tip",
           title: "Feed ratios",
-          paras: [
-            "Schemes like “one-third of the feed is sales” are outdated as a universal law. Watch unfollows, engagement rate, and leads: if sales posts choke dialogue, lower frequency and add value.",
-          ],
+          text: "Schemes like “one-third of the feed is sales” are outdated as a universal law. Watch unfollows, engagement rate, and leads: if sales posts choke dialogue, lower frequency and add value.",
         },
       ],
     },
@@ -136,10 +134,10 @@ export const vidyKontentaSocsetiEn: BlogPost = {
         {
           intro: "In practice:",
           items: [
-            "one idea → different formats per network;",
-            "CTA and tracking (UTM/promo codes) on selling posts;",
-            "replies in the first hours after engaging posts;",
-            "don’t chase a daily post just to check a box.",
+            "one idea → different formats per network",
+            "CTA and tracking (UTM/promo codes) on selling posts",
+            "replies in the first hours after engaging posts",
+            "don’t chase a daily post just to check a box",
           ],
         },
       ],

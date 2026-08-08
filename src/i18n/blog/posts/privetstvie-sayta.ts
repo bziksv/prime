@@ -10,8 +10,8 @@ export const privetstvieSaytaEn: BlogPost = {
   excerpt:
     "How to shape the first contact on the homepage: hero copy, careful popups, and chat. What builds trust and conversion — and what pushes people away in seconds.",
   lead: [
-    "The homepage is the site’s “face”: in the first seconds people decide to stay or leave. A greeting here isn’t necessarily “hello” — it’s a clear signal: who you are, who you help, and what to do next.",
-    "We cover the first-screen text block, popups, and chat. Focus on benefit and tone; aggressive pop-unders and a chat one second after entry hurt more often than they help.",
+    "The homepage is the site’s face: in the first seconds people decide to stay or leave. A greeting here isn’t necessarily “hello” — it’s a clear signal: who you are, who you help, and what to do next.",
+    "Below: the first-screen text block, popups, and chat. Focus on benefit and tone; aggressive pop-unders and a chat one second after entry hurt more often than they help.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const privetstvieSaytaEn: BlogPost = {
     },
     {
       q: "How is a greeting different from SEO copy?",
-      a: "Greeting / hero is for a human here and now. SEO paragraphs lower or on landings cover queries; don’t dump a keyword sheet into the first screen.",
+      a: "Greeting / hero is for a human here and now. SEO paragraphs lower down or on landings cover queries; don’t dump a keyword sheet into the first screen.",
     },
     {
       q: "Should chat open immediately?",
@@ -28,7 +28,7 @@ export const privetstvieSaytaEn: BlogPost = {
     },
     {
       q: "Do I need keywords in the greeting?",
-      a: "Meaningful words — yes; keyword spam in the hero — no. Keep linking and the core in page structure, not in one “greeting” paragraph.",
+      a: "Meaningful words — yes; keyword spam in the hero — no. Keep linking and the keyword set in page structure, not in one “greeting” paragraph.",
     },
     {
       q: "How does the greeting tie to conversion?",
@@ -50,7 +50,7 @@ export const privetstvieSaytaEn: BlogPost = {
             "interest and trust",
             "clear benefits",
             "a next-step hint",
-            "a tone that matches the niche (B2B drier, culture warmer, store toward purchase).",
+            "a tone that matches the niche (B2B drier, culture warmer, store toward purchase)",
           ],
         },
       ],
@@ -76,7 +76,7 @@ export const privetstvieSaytaEn: BlogPost = {
             "a concrete benefit or offer",
             "prices/timelines/facts when relevant",
             "one main action button",
-            "no clichés or “high art” for beauty’s sake.",
+            "no clichés or “high art” for beauty’s sake",
           ],
         },
         {
@@ -85,13 +85,14 @@ export const privetstvieSaytaEn: BlogPost = {
             "a global mission with no product",
             "leadership hobbies",
             "copy-paste and empty slogans",
-            "an SEO sheet on top of the hero.",
+            "an SEO sheet layered over the hero",
           ],
         },
       ],
       notes: [
         {
           title: "Practice",
+          kind: "tip",
           text: "In ad and service copy, “you” is usually lowercase unless it starts a sentence. What matters is benefit and clarity — not an orthography ritual.",
         },
       ],
@@ -110,7 +111,7 @@ export const privetstvieSaytaEn: BlogPost = {
             "one offer, not a banner carousel",
             "easy close",
             "no more than once per session",
-            "not on every funnel step in a row.",
+            "not on every funnel step in a row",
           ],
         },
       ],
@@ -137,7 +138,7 @@ export const privetstvieSaytaEn: BlogPost = {
             "ask for a name without interrogation",
             "stay on point, no pressure",
             "offer to continue by email/messenger if they want",
-            "say goodbye and leave a next step.",
+            "say goodbye and leave a next step",
           ],
         },
       ],
@@ -156,7 +157,7 @@ export const privetstvieSaytaEn: BlogPost = {
             "one CTA, and it’s visible",
             "popups don’t smother content",
             "chat doesn’t yell immediately",
-            "no empty praise instead of facts.",
+            "no empty praise instead of facts",
           ],
         },
       ],

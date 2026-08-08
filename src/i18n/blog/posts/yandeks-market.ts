@@ -5,22 +5,22 @@ export const yandeksMarketEn: BlogPost = {
   slug: "yandeks-market",
   title: "Yandex Market: how to list an online store",
   date: "2018-06-13",
-  category: "E-commerce",
+  category: "Digital marketing",
   cover: "/images/blog/yandeks-market/cover-en.webp",
   excerpt:
-    "How to connect a store to Yandex Market: site requirements, YML feed, delivery, and moderation — without outdated audience figures and “easy sales” promises.",
+    "How to connect a store to Yandex Market: site requirements, YML feed, delivery, and moderation — without outdated “20 million audience” claims and easy-sales promises.",
   lead: [
     "Yandex Market is a surface where shoppers compare products and store offers. For a seller it’s a demand channel next to your own site: card comparisons, search, and related Yandex surfaces.",
-    "Placement models (CPA, CPC, marketplace fulfillment) and partner dashboards have changed since 2018 — check current Market partner Help. What the store needs, how to prep the feed, connection steps, and ops after moderation. Marketplace peers live in a separate article.",
+    "Below: store requirements, feed prep, connection steps, and ops after moderation. Placement models (CPA, CPC, marketplace logic) and cabinets have changed since 2018 — check current Market partner Help. Peer platforms live in a separate article.",
   ],
   faq: [
     {
-      q: "Do I need my own site to list on Market?",
-      a: "For the classic storefront/click-out model — yes: a stable shop with cards, cart, and policies. Fulfillment models (FBY/FBS and peers) — see current Help.",
+      q: "Do I need my own site?",
+      a: "For the classic storefront / click-out model — yes: a stable shop with cards, cart, and policies. FBY/FBS and other schemes — see current Help.",
     },
     {
-      q: "Which feed format should I use?",
-      a: "YML most often; tabular formats were also accepted. Current list — in Help. The key is regular price and stock updates.",
+      q: "Which feed format?",
+      a: "YML most often; tabular formats were also accepted. Current list — in Help. The key is regular price and availability updates.",
     },
     {
       q: "How is this different from Google Merchant?",
@@ -28,11 +28,11 @@ export const yandeksMarketEn: BlogPost = {
     },
     {
       q: "Does Market guarantee sales?",
-      a: "No. You need competitive price, stock, reviews, order-handling speed, and margin after fees.",
+      a: "No. You need competitive price, availability, reviews, order-handling speed, and margin after fees.",
     },
     {
       q: "Can I sell used goods?",
-      a: "Historically new original goods were required. Banned assortment and exceptions — by current marketplace rules.",
+      a: "Historically new original goods were required. Banned assortment and exceptions — by current platform rules.",
     },
   ],
   sections: [
@@ -41,16 +41,16 @@ export const yandeksMarketEn: BlogPost = {
       level: 2,
       paras: [
         "Shoppers often compare prices and delivery in one catalog. Appearing in Market results and related search surfaces brings demand you’d otherwise buy entirely with ads.",
-        "Downsides: price competition, dependence on rules and the product card, fees and CPC by model. Don’t put 2018 audience figures in the plan — use your pilot and unit economics.",
+        "Downsides: price competition, dependence on rules and the product card, fees / click cost by model. Don’t put 2018 audience figures in the plan — use your pilot and unit economics.",
       ],
       lists: [
         {
           intro: "When the channel fits:",
           items: [
-            "B2C retail, legal assortment;",
-            "margin left after fees;",
-            "catalog with decent photos and descriptions;",
-            "ready to confirm orders quickly.",
+            "B2C retail, legal assortment",
+            "margin left after fees",
+            "catalog with decent photos and descriptions",
+            "ready to confirm orders quickly",
           ],
         },
       ],
@@ -70,17 +70,17 @@ export const yandeksMarketEn: BlogPost = {
       level: 2,
       paras: [
         "Typical minimum: sole trader or legal entity, retail of new original goods, legal compliance, working HTTPS site without malware, cart and checkout, a card per SKU with photo and description.",
-        "On the site in the open: legal details and contacts, current prices and stock, payment, delivery, and returns. Orders in business hours are handled fast — historically about an hour; check current SLA in the rules.",
+        "On the site in the open: legal details and contacts, current prices and availability, payment, delivery, and returns. Orders in business hours are handled fast — historically about an hour; check current SLA in the rules.",
       ],
       lists: [
         {
           intro: "Checklist before applying:",
           items: [
-            "legal details on the site;",
-            "returns and delivery policy;",
-            "prices match the feed;",
-            "stock synced;",
-            "test purchase as a buyer.",
+            "legal details on the site",
+            "returns and delivery policy",
+            "prices match the feed",
+            "availability synced",
+            "test purchase as a buyer",
           ],
         },
       ],
@@ -100,7 +100,7 @@ export const yandeksMarketEn: BlogPost = {
       level: 2,
       paras: [
         "Prices go as a file or URL: YML is preferred for large catalogs (CMS module or 1C export). For a small assortment a table sometimes works — if the format is still accepted.",
-        "Update the feed regularly: stale price or “in stock” at zero inventory hits store rating and moderation. After upload check the error report in the partner dashboard.",
+        "Update the feed regularly: a stale price or “available” at zero inventory hits store rating and moderation. After upload, check the error report in the partner cabinet.",
       ],
       notes: [
         {
@@ -114,24 +114,24 @@ export const yandeksMarketEn: BlogPost = {
       title: "Connection and moderation",
       level: 2,
       paras: [
-        "Create or sign into the Market partner account, fill store data, upload the feed, set delivery regions, warehouses, and pickup methods. The store goes to review: staff or automation check rule fit; sometimes they run control purchase scenarios.",
-        "Timelines and checklists changed — don’t treat the old “a few business days” guide as gospel. After a reject, read the reason, fix site or feed, and apply again.",
+        "Create or sign into the Market partner cabinet, fill store data, upload the feed, set delivery regions, warehouses, and pickup methods. The store goes to review: staff or automation check rule fit; sometimes they run control purchase scenarios.",
+        "Timelines and checklists changed — clarify the old “a few business days” guide. After a reject, read the reason, fix site or feed, and apply again.",
       ],
       lists: [
         {
           intro: "Common reject causes:",
           items: [
-            "no returns or contacts;",
-            "broken cart;",
-            "price mismatch;",
-            "banned or gray assortment;",
-            "unstable site.",
+            "no returns or contacts",
+            "broken cart",
+            "price mismatch",
+            "banned or gray assortment",
+            "unstable site",
           ],
         },
       ],
     },
     {
-      title: "After launch: price, stock, reviews",
+      title: "After launch: price, availability, reviews",
       level: 2,
       paras: [
         "Keep the feed live, watch error share, order confirmation speed, and reviews. Poor service discipline hurts visibility more than one more banner.",

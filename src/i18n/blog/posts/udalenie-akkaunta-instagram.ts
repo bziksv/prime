@@ -11,10 +11,10 @@ export const udalenieAkkauntaInstagramEn: BlogPost = {
     "How temporary deactivation, switching a business profile to personal, and permanently deleting an Instagram account differ — and what you usually can’t undo.",
   lead: [
     "You can leave Instagram in different ways: temporarily hide the profile, switch a business account to personal, or delete the profile forever. These are different scenarios with different effects on content, stats, and the handle.",
-    "Meta menu labels change, so check the exact path in Accounts Center or Instagram Help before you confirm anything irreversible. What follows is the choice logic and the risks — not outdated button screenshots. See the Meta disclaimer on this page.",
+    "Meta menu labels change; check the exact path in Accounts Center or Instagram Help. Below: the choice logic and the risks — not outdated button screenshots. See the Meta note on this page.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -67,9 +67,9 @@ export const udalenieAkkauntaInstagramEn: BlogPost = {
         {
           intro: "Before a pause:",
           items: [
-            "warn the team if it’s a work account;",
-            "turn off or pause ads;",
-            "make sure you know the password and backup email/phone.",
+            "warn the team if it’s a work account",
+            "turn off or pause ads",
+            "make sure you know the password and backup email/phone",
           ],
         },
       ],
@@ -95,10 +95,10 @@ export const udalenieAkkauntaInstagramEn: BlogPost = {
         {
           intro: "Checklist before deletion:",
           items: [
-            "export or manually save key photos and videos;",
-            "unlink ads accounts and payments;",
-            "revoke staff access;",
-            "confirm you’re deleting the right profile, not a neighbor in Accounts Center.",
+            "export or manually save key photos and videos",
+            "unlink ads accounts and payments",
+            "revoke staff access",
+            "confirm you’re deleting the right profile, not a neighbor in Accounts Center",
           ],
         },
       ],

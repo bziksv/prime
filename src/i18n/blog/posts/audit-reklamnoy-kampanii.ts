@@ -8,35 +8,35 @@ export const auditReklamnoyKampaniiEn: BlogPost = {
   category: "Paid search",
   cover: "/images/blog/audit-reklamnoy-kampanii/cover-en.webp",
   excerpt:
-    "A paid search audit: when to order it, technical and analytical stages, ongoing optimization, and how to deliver the result to the client without a “doctor’s prescription”.",
+    "A paid search audit: when to order it, technical and analytical stages, ongoing optimization, and how to hand results to the client without a “doctor’s prescription.”",
   lead: [
-    "An ad campaign audit diagnoses settings, stats, and optimization processes to see why KPIs miss and what to change. It’s not just an error list — it’s also the account’s strengths.",
-    "Three stages: tech settings → economics and KPIs → conclusions and next steps. The same logic fits Google Ads, Yandex Direct, and similar accounts. UIs change; the checklist by meaning stays.",
+    "An ad campaign audit diagnoses settings, stats, and optimization processes — why KPIs miss and what to change. It’s not only an error list; it should also call out what’s working in the account.",
+    "Below: typical reasons to order one, three stages (tech → analytics → conclusions), and what to check in Google Ads and similar accounts. UIs change; the checklist by meaning stays.",
   ],
   faq: [
     {
-      q: "When do you need an ad campaign audit?",
-      a: "KPIs don’t add up, it’s unclear “where the money goes”, things got worse over a period, you need a second pair of eyes, or a growth plan when numbers already look fine.",
+      q: "When do you need an audit?",
+      a: "KPIs don’t add up, it’s unclear where the money goes, results got worse over a period, you want a second pair of eyes, or a growth plan when the numbers already look fine.",
     },
     {
       q: "What if the account tech is a mess?",
-      a: "Often it’s cheaper to rebuild structure than “tweak” chaos. Fix the base first, then deep KPI analytics.",
+      a: "Often it’s cheaper to rebuild the structure than to “tweak” chaos. Fix the base first, then dig into KPI analytics.",
     },
     {
-      q: "Does an audit apply only to Google Ads?",
-      a: "The logic is the same for Yandex Direct and other accounts: settings → economics → regular work → a clear report.",
+      q: "Google Ads only?",
+      a: "Same logic for Yandex Direct and other accounts: settings → economics → regular work → a clear report.",
     },
     {
       q: "What’s a “normal” conversion rate?",
-      a: "It depends on the niche and conversion definition (lead vs purchase). Compare with your past period and unit economics — not someone else’s “market average”.",
+      a: "It depends on the niche and how you define a conversion (lead vs purchase). Compare with your own past period and unit economics — not someone else’s “market average.”",
     },
     {
-      q: "What should the client get from an audit?",
-      a: "A short conclusion and strategy (a few slides) + an appendix with details. No jargon wall on the first screen.",
+      q: "What should the client get?",
+      a: "A short conclusion and strategy (a few slides) plus an appendix with details. No jargon wall on the first screen.",
     },
     {
-      q: "Is an ad audit a one-off exercise?",
-      a: "A state snapshot. Next come regular jobs: queries, negatives, bid and ad tests, budget reallocation.",
+      q: "Is an audit a one-off?",
+      a: "It’s a snapshot. Next come regular jobs: queries, negatives, bid and ad tests, budget reallocation.",
     },
   ],
   sections: [
@@ -44,7 +44,7 @@ export const auditReklamnoyKampaniiEn: BlogPost = {
       title: "Why people order an audit",
       level: 2,
       paras: [
-        "Typical motives: CPA/ROMI (return on marketing investment) not hit; the client can’t read the account and wants “profit”; it feels like “it used to be better”; checking their own team; wanting a fresh strategy when numbers already work.",
+        "Typical motives: CPA/ROMI not hit; the client can’t read the account and wants it profitable; it feels like it used to be better; checking their own team; wanting a fresh strategy when numbers already work.",
         "Motive sets depth: some need a tech review, others a strategy rebuild and budget priorities.",
       ],
     },
@@ -53,18 +53,18 @@ export const auditReklamnoyKampaniiEn: BlogPost = {
       level: 2,
       paras: [
         "Check account, campaign, ad group, ad, and keyword settings: geo, language, schedule, devices, negatives, extensions, goals/conversions, UTM, moderation status, duplicates and overlaps.",
-        "Many critical errors = a signal not to “polish KPIs”, but to rebuild structure. Otherwise analytics will count noise.",
+        "Many critical errors mean rebuild the structure — don’t polish KPIs on top of noise. Otherwise analytics will count garbage.",
       ],
       lists: [
         {
           intro: "Tech-check base:",
           items: [
-            "goals and conversion correctness;",
-            "geo and exclusions;",
-            "campaign structure by intent;",
-            "negatives and search terms;",
-            "ad → landing page join;",
-            "budgets and limits without accidental cutoffs.",
+            "goals and conversion correctness",
+            "geo and exclusions",
+            "campaign structure by intent",
+            "negatives and search terms",
+            "ad → landing page match",
+            "budgets and limits without accidental cutoffs",
           ],
         },
       ],
@@ -80,10 +80,10 @@ export const auditReklamnoyKampaniiEn: BlogPost = {
         {
           intro: "Checklist questions:",
           items: [
-            "Are KPIs hit? If not — where’s the break;",
-            "is optimization regular or “set and forget”;",
-            "does budget follow priorities;",
-            "what will drive the next lift.",
+            "Are KPIs hit? If not — where’s the break",
+            "is optimization regular or set-and-forget",
+            "does budget follow priorities",
+            "what will drive the next lift",
           ],
         },
       ],
@@ -99,7 +99,7 @@ export const auditReklamnoyKampaniiEn: BlogPost = {
       ],
     },
     {
-      title: "Form of the result",
+      title: "How to deliver the result",
       level: 2,
       paras: [
         "Assemble short conclusions and a proposed strategy in plain language. Details go in the appendix. Note account strengths: that’s fairer and more useful for the next campaigns.",

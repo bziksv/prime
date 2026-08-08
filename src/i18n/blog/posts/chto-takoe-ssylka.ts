@@ -11,7 +11,7 @@ export const chtoTakoeSsylkaEn: BlogPost = {
     "Hyperlinks in HTML: internal and external, absolute and relative, anchors and bare URLs, nofollow. How links help navigation and site crawl.",
   lead: [
     "A link (hyperlink) is a page element that leads to another URL: an article, a file, an on-page anchor, or an external site. In HTML that’s the `<a href=\"…\">` tag.",
-    "This article covers what a link looks like, which types exist, why anchors matter, and how links tie into crawling and SEO. How to make text clickable is a separate piece; here it’s a concept map.",
+    "Below: what a link looks like, which types exist, why anchors matter, and how links tie into crawling and SEO. How to make text clickable is a separate piece; here it’s a concept map.",
   ],
   faq: [
     {
@@ -47,11 +47,11 @@ export const chtoTakoeSsylkaEn: BlogPost = {
         {
           intro: "A link can lead to:",
           items: [
-            "a site page;",
-            "a file (PDF, image);",
-            "an `#section` anchor on the same page;",
-            "`mailto:` / `tel:` (watch spam);",
-            "an external resource.",
+            "a site page",
+            "a file (PDF, image)",
+            "an `#section` anchor on the same page",
+            "`mailto:` / `tel:` (watch spam)",
+            "an external resource",
           ],
         },
       ],
@@ -90,9 +90,9 @@ export const chtoTakoeSsylkaEn: BlogPost = {
         {
           intro: "More SEO slang:",
           items: [
-            "“natural” inbound — no pay for placement;",
-            "bought / grey — filter risk zone;",
-            "redirect — server or script moves to another URL (equity and meaning depend on 301/302).",
+            "“natural” inbound — no pay for placement",
+            "bought / grey — filter risk zone",
+            "redirect — server or script moves to another URL (equity and meaning depend on 301/302)",
           ],
         },
       ],
@@ -102,16 +102,16 @@ export const chtoTakoeSsylkaEn: BlogPost = {
       level: 2,
       paras: [
         "An anchor helps people see where the click goes and gives robots context. Stuffing the exact keyword into every anchor looks unnatural.",
-        "Bare links — “here,” “more,” a naked URL, a logo. They help navigation and a natural profile; you don’t push a page with keywords alone.",
+        "Bare links — “here,” “more,” a naked URL, a logo. They help navigation and a natural profile; you don’t lift a page with keyword anchors alone.",
       ],
       lists: [
         {
           intro: "Anchor rules:",
           items: [
-            "readable language, no “buy buy moscow cheap”;",
-            "match the destination page;",
-            "dilution: brand, URL, conversational wording;",
-            "don’t mask ads as ordinary links without required labeling.",
+            "readable language, no “buy buy moscow cheap”",
+            "match the destination page",
+            "dilution: brand, URL, conversational wording",
+            "don’t mask ads as ordinary links without required labeling",
           ],
         },
       ],
@@ -127,16 +127,17 @@ export const chtoTakoeSsylkaEn: BlogPost = {
         {
           intro: "Working hygiene:",
           items: [
-            "internal links to important services and articles;",
-            "outbound — on purpose, without link spam;",
-            "inbound — donor quality over quantity;",
-            "check broken links after migrations.",
+            "internal links to important services and articles",
+            "outbound — on purpose, without link spam",
+            "inbound — donor quality over quantity",
+            "check broken links after migrations",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
+          kind: "tip",
           text: "Chasing bought anchor links and ignoring usable internal linking on your own site. Internal URL map first — then the external layer.",
         },
       ],
@@ -153,7 +154,6 @@ export const chtoTakoeSsylkaEn: BlogPost = {
       paras: [
         "A link is a basic web and crawl element. Tell apart internal/external, absolute/relative, anchored/bare. For SEO you need live internal linking, sane anchors, and caution with bought links. How to make a URL clickable — in the clickable-link article.",
       ],
-      lists: [],
     },
   ],
 };

@@ -11,7 +11,7 @@ export const rekomendatsiiTiktokEn: BlogPost = {
     "How the TikTok For You feed works: retention, watch-through, shares, and comments — without magical 2020 hashtags or “guaranteed trend” promises.",
   lead: [
     "Landing in TikTok recommendations (the For You feed) means impressions beyond your current followers. The platform does not publish a full formula; what you can act on are interest signals: watch-through, replays, likes, comments, shares, and saves.",
-    "Here’s practical logic for the 2020s—no outdated hashtag lists and no fake engagement. Analytics UIs change; check TikTok for Business / Creator Help.",
+    "Below: practical logic for the 2020s — no outdated hashtag lists and no fake engagement. Analytics UIs change; check TikTok for Business / Creator Help.",
   ],
   faq: [
     {
@@ -57,20 +57,18 @@ export const rekomendatsiiTiktokEn: BlogPost = {
         {
           intro: "Practical priority:",
           items: [
-            "1–3 second hook;",
-            "one clear story;",
-            "a reason to watch to the end;",
-            "a reason to comment or save.",
+            "1–3 second hook",
+            "one clear story",
+            "a reason to watch to the end",
+            "a reason to comment or save",
           ],
         },
       ],
       notes: [
         {
+          title: "Note",
           kind: "tip",
-          title: "Important",
-          paras: [
-            "Signal weights have changed and will keep changing. Don’t build strategy on one “likes mattered most in 2020” claim.",
-          ],
+          text: "Signal weights have changed and will keep changing. Don’t build strategy on one “likes mattered most in 2020” claim.",
         },
       ],
     },
@@ -98,7 +96,7 @@ export const rekomendatsiiTiktokEn: BlogPost = {
       paras: [
         "A short caption + one question to the viewer. A wall of tags isn’t needed.",
         "Hashtags: a mix of niche and current trending — without spammy dozens of irrelevant ones.",
-        "“Top hashtags of May 2020” catalogs are outdated: look at what’s trending in the app today, not in old articles.",
+        "Catalogs of “hottest hashtags from May 2020” are outdated: look at what’s alive in the app today, not in old articles.",
       ],
     },
     {

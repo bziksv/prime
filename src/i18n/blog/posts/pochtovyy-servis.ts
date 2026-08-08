@@ -11,7 +11,7 @@ export const pochtovyyServisEn: BlogPost = {
     "How a permanent email differs from a disposable one, what to check in Gmail, Yandex, Mail, and Outlook, how to harden security, and when temporary mail makes sense.",
   lead: [
     "An email service is an inbox for messages: account recovery, correspondence, receipts, and newsletters. Life and business need a stable address; for a one-off signup on a dubious site, a temporary one can be enough.",
-    "We cover selection criteria, permanent services, and the role of disposable mail. Interfaces and limits change; security and habit matter more than “users in 2018” stats.",
+    "Below: selection criteria, permanent services, and the role of disposable mail. Interfaces and limits change; security and habit matter more than “users in 2018” stats.",
   ],
   faq: [
     {
@@ -49,7 +49,7 @@ export const pochtovyyServisEn: BlogPost = {
           items: [
             "you need password recovery",
             "correspondence and attachments matter",
-            "work, clients, or finances.",
+            "work, clients, or finances",
           ],
         },
         {
@@ -57,7 +57,7 @@ export const pochtovyyServisEn: BlogPost = {
           items: [
             "a one-off signup with no lasting value",
             "you don’t want to expose the main address",
-            "you’re ready to lose access to that account.",
+            "you’re ready to lose access to that account",
           ],
         },
       ],
@@ -77,7 +77,7 @@ export const pochtovyyServisEn: BlogPost = {
             "spam-filter quality (without false positives on important mail)",
             "handy search and labels/folders",
             "a phone client",
-            "a clear data and privacy policy.",
+            "a clear data and privacy policy",
           ],
         },
       ],
@@ -90,7 +90,6 @@ export const pochtovyyServisEn: BlogPost = {
         "Gmail — strong filters and Google service ties; handy if you already live in that ecosystem. Outlook — logical when you work with Microsoft 365 / Office.",
         "Aging “legacy” products with abandoned UI are a poor pick for a new primary inbox: move what matters and enable forwarding during migration.",
       ],
-      lists: [],
       tables: [
         {
           caption: "Guidelines (not a ranking)",
@@ -105,6 +104,7 @@ export const pochtovyyServisEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Practice",
           text: "Don’t publish your main work inbox in random open forms. For newsletter signups you can keep a second permanent address.",
         },
@@ -125,7 +125,7 @@ export const pochtovyyServisEn: BlogPost = {
             "set a backup email or phone",
             "don’t open suspicious “confirm your account” links",
             "revoke unused apps with mailbox access",
-            "once a quarter check filters and Spam for false positives.",
+            "once a quarter check filters and Spam for false positives",
           ],
         },
       ],

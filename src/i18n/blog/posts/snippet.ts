@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for snippet — same structure as RU JSON. */
 export const snippetEn: BlogPost = {
   slug: "snippet",
-  title: "Search snippet: Title, description, and rich results",
+  title: "Search snippets: Title, description, and rich results",
   date: "2021-07-05",
   category: "SEO",
   cover: "/images/blog/snippet/cover-en.webp",
   excerpt:
-    "How a SERP snippet is built: title, description, breadcrumbs, and rich results. What schema.org / JSON-LD gives you — and why it’s about CTR, not “TOP-1 magic.”",
+    "How a SERP snippet is built: title, description, breadcrumbs, and rich results. What schema.org / JSON-LD gives you — and why it’s about CTR, not ranking magic.",
   lead: [
     "A snippet is the page block in search results: title, URL/breadcrumbs, description, and sometimes extensions (rating, price, FAQ). It decides whether people click your position.",
-    "We cover the basic anatomy, rich results, and schema.org markup. A strong snippet lifts CTR; rankings grow from content, tech, and links—not from one structured-data snippet alone.",
+    "Below: the basic anatomy, rich results, and schema.org markup. A strong snippet lifts CTR; rankings grow from content, tech, and links — not from one structured-data block alone.",
   ],
   faq: [
     {
@@ -27,11 +27,11 @@ export const snippetEn: BlogPost = {
       a: "SERP extensions: stars, price, FAQ, recipe, and so on. They appear with valid structured markup and when the result type’s rules are met.",
     },
     {
-      q: "Should I use JSON-LD or microdata in HTML?",
+      q: "JSON-LD or microdata in HTML?",
       a: 'Both are understood. JSON-LD in `<script type="application/ld+json">` is usually easier to maintain. Check with a rich results validator.',
     },
     {
-      q: "Do I need breadcrumbs in the snippet?",
+      q: "Do I need breadcrumbs?",
       a: "Yes for on-site navigation; in the SERP a path also helps show the section. Add BreadcrumbList markup if you want, following the spec.",
     },
   ],
@@ -47,10 +47,10 @@ export const snippetEn: BlogPost = {
         {
           intro: "Basic checklist:",
           items: [
-            "unique Title for the intent;",
-            "description with value and a CTA;",
-            "readable URL / breadcrumbs;",
-            "snippet promise matches page content.",
+            "unique Title for the intent",
+            "description with value and a CTA",
+            "readable URL / breadcrumbs",
+            "snippet promise matches page content",
           ],
         },
       ],
@@ -76,9 +76,9 @@ export const snippetEn: BlogPost = {
         {
           intro: "Why bother:",
           items: [
-            "more visibility at the same position;",
-            "clearer offer (price, rating);",
-            "fewer “empty” clicks past the intent.",
+            "more visibility at the same position",
+            "clearer offer (price, rating)",
+            "fewer empty clicks past the intent",
           ],
         },
       ],
@@ -90,7 +90,6 @@ export const snippetEn: BlogPost = {
         "On the site, breadcrumbs are navigation “Home → Section → Page.” In results the search engine may show a similar path.",
         "BreadcrumbList markup (JSON-LD or microdata) helps machines understand hierarchy. First put real breadcrumbs in HTML, then markup — not the other way around.",
       ],
-      lists: [],
       links: [
         {
           label: "SEO site structure",
@@ -109,18 +108,19 @@ export const snippetEn: BlogPost = {
         {
           intro: "Rollout practice:",
           items: [
-            "pick a type that matches real content;",
-            "don’t mark up invented reviews/prices;",
-            "align with visible page text;",
-            "validate;",
-            "watch whether the type appears in reports (it can take time).",
+            "pick a type that matches real content",
+            "don’t mark up invented reviews/prices",
+            "align with visible page text",
+            "validate",
+            "watch whether the type appears in reports (it can take time)",
           ],
         },
       ],
       notes: [
         {
           title: "Timelines",
-          text: "Markup is part of technical snippet prep. Ranking for commercial queries is a separate months-long process — not the result of one JSON-LD block.",
+          kind: "tip",
+          text: "Markup is part of technical snippet prep. Ranking for commercial queries is a separate months-long process — often 2–6 months of work after prep — not the result of one JSON-LD block.",
         },
       ],
     },

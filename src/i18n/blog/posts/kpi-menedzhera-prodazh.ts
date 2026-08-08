@@ -11,7 +11,7 @@ export const kpiMenedzheraProdazhEn: BlogPost = {
     "Seller KPIs: why introduce them, which metrics to pick, how to pay bonuses, where the system breaks (fake clients, salary ceilings), and how to control in CRM.",
   lead: [
     "KPIs (key performance indicators) for a sales manager link pay to company results: revenue, margin, deal quality — not only “number of calls.”",
-    "Why the system is needed, example metrics and pay structures, rules (no more than 10–15 indicators), typical gaming of the metrics, and control — below. There’s no universal formula — fit it to your deal cycle and margin.",
+    "Below: why the system is needed, example metrics and pay structures, rules (no more than 10–15 indicators), typical gaming of the metrics, and control. There’s no universal formula — fit it to your deal cycle and margin.",
   ],
   faq: [
     {
@@ -24,7 +24,7 @@ export const kpiMenedzheraProdazhEn: BlogPost = {
     },
     {
       q: "Do I need a salary ceiling for sellers?",
-      a: "Often harmful: top performers lose drive, juniors see a glass ceiling. Better a model where sales growth pays both employee and company.",
+      a: "Often harmful: strong performers lose drive, juniors see a glass ceiling. Better a model where sales growth pays both employee and company.",
     },
     {
       q: "Is fixed pay with no variable OK?",
@@ -59,18 +59,18 @@ export const kpiMenedzheraProdazhEn: BlogPost = {
         {
           intro: "Build rules:",
           items: [
-            "company profit above a “pretty” bonus;",
-            "goals concrete and measurable in CRM;",
-            "few indicators;",
-            "no ceiling that kills strong ambition.",
+            "company profit above a “pretty” bonus",
+            "goals concrete and measurable in CRM",
+            "few indicators",
+            "no ceiling that kills strong ambition",
           ],
         },
       ],
       notes: [
         {
           title: "Sudden plan jumps",
-          text: "Sharp goal inflation often drops revenue and pushes sellers to leave. Raise the bar on history and market — not wishful thinking.",
           kind: "tip",
+          text: "Sharp goal inflation often drops revenue and pushes sellers to leave. Raise the bar on history and market — not wishful thinking.",
         },
       ],
     },
@@ -85,11 +85,11 @@ export const kpiMenedzheraProdazhEn: BlogPost = {
         {
           intro: "When KPIs are missed:",
           items: [
-            "find causes and month history;",
-            "talk with the manager;",
-            "adjust goals or ownership area;",
-            "train / reprioritize the funnel;",
-            "if skill isn’t there — decide the people question honestly.",
+            "find causes and month history",
+            "talk with the manager",
+            "adjust goals or ownership area",
+            "train / reprioritize the funnel",
+            "if skill isn’t there — decide the people question honestly",
           ],
         },
       ],

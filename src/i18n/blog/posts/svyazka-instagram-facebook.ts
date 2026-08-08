@@ -11,11 +11,11 @@ export const svyazkaInstagramFacebookEn: BlogPost = {
     "Why link Instagram to Facebook via Accounts Center, what a professional profile gives you, how to unlink, and which cross-posting expectations are outdated.",
   lead: [
     "Linking Instagram and Facebook matters when you use ecosystem business tools: a Page, Ads Manager, shared settings in Accounts Center. It isn’t required for everyone — it’s a setup for a specific job.",
-    "This piece covers why people link accounts, plus the usual connect and unlink flow. Menu labels change; if it doesn’t match 2021 screenshots, follow Meta Help and the in-app wizard.",
+    "Below: why people link accounts, plus the usual connect and unlink flow. Menu labels change; if it doesn’t match 2021 screenshots, follow Meta Help and the in-app wizard.",
   ],
   legalNotice: {
-    title: "Dear readers!",
-    text: "This article is informational and does not encourage use of the platforms. Instagram*, Facebook* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the services may have legal consequences.",
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. Instagram* and Facebook* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the services may have legal consequences.",
   },
   faq: [
     {
@@ -51,17 +51,17 @@ export const svyazkaInstagramFacebookEn: BlogPost = {
         {
           intro: "Realistic pros:",
           items: [
-            "easier to run ads and a Page in one ecosystem;",
-            "Instagram professional mode with insights and contacts;",
-            "centralized login settings (with security caveats).",
+            "easier to run ads and a Page in one ecosystem",
+            "Instagram professional mode with insights and contacts",
+            "centralized login settings (with security caveats)",
           ],
         },
         {
           intro: "What not to promise yourself:",
           items: [
-            "a guarantee against bans;",
-            "automatic ER growth;",
-            "that every post duplicates perfectly without checking.",
+            "a guarantee against bans",
+            "automatic ER growth",
+            "that every post duplicates perfectly without checking",
           ],
         },
       ],
@@ -88,15 +88,16 @@ export const svyazkaInstagramFacebookEn: BlogPost = {
         {
           intro: "Before linking:",
           items: [
-            "access to the right Facebook and Page permissions;",
-            "current password and two-factor auth;",
-            "clarity on which Instagram profile is primary;",
-            "a backup of important data/contacts just in case.",
+            "access to the right Facebook and Page permissions",
+            "current password and two-factor auth",
+            "clarity on which Instagram profile is primary",
+            "a backup of important data/contacts just in case",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Tip",
           text: "Don’t approve suspicious “link account” prompts from third-party apps. Only the official Instagram/Facebook wizard.",
         },
@@ -109,7 +110,6 @@ export const svyazkaInstagramFacebookEn: BlogPost = {
         "Linking often goes with switching to professional/business mode: contact button, category, built-in insights, path to ads.",
         "Insights and buttons don’t replace design and offer. Account type is the base; content and CTA decide whether someone stays.",
       ],
-      lists: [],
       links: [
         {
           label: "Instagram profile design",
@@ -132,10 +132,10 @@ export const svyazkaInstagramFacebookEn: BlogPost = {
         {
           intro: "After unlinking:",
           items: [
-            "sign into both accounts separately;",
-            "check Ads Manager and roles;",
-            "make sure no foreign sessions remain;",
-            "when linking again — pick the correct Page.",
+            "sign into both accounts separately",
+            "check Ads Manager and roles",
+            "make sure no foreign sessions remain",
+            "when linking again — pick the correct Page",
           ],
         },
       ],

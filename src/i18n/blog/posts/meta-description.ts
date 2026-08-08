@@ -10,8 +10,8 @@ export const metaDescriptionEn: BlogPost = {
   excerpt:
     "What a meta description is, whether it directly affects rankings, how it ties to the snippet and CTR, and how to write it without keyword stuffing or clickbait.",
   lead: [
-    "`<meta name=\"description\" content=\"…\">` is a short page summary for search engines and sometimes social. It’s not a secret TOP-1 ranking factor — it’s a candidate for the snippet under the title in results.",
-    "It rarely moves rankings by itself; it shapes the snippet and CTR. How search picks snippet text and rules for a good description are below — without treating old micro-keyword lab tests or a rigid “exactly 240 characters” as law.",
+    "`<meta name=\"description\" content=\"…\">` is a short page summary for search engines and sometimes social. It’s not a secret #1 ranking lever — it’s a candidate for the snippet under the title in results.",
+    "Below: direct vs indirect impact, how search picks snippet text, and rules for a good description. We don’t treat old micro-keyword lab tests or a rigid “exactly 240 characters” as law.",
   ],
   faq: [
     {
@@ -27,7 +27,7 @@ export const metaDescriptionEn: BlogPost = {
       a: "For Google and Yandex as a ranking factor — no. Put the effort into title, description, and page text.",
     },
     {
-      q: "How long should a meta description be?",
+      q: "How long should it be?",
       a: "Aim to fit a typical snippet: meaning in the first ~150–160 characters, no wall of text. Exact truncation varies by device and SERP.",
     },
     {

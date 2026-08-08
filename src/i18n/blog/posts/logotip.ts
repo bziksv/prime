@@ -11,8 +11,12 @@ export const logotipEn: BlogPost = {
     "Why you need a logo, where it lives, how a mark, wordmark, and combo differ, and how to choose a path: builder, freelance, studio — without outdated “market percentage” claims.",
   lead: [
     "A logo is a short visual brand anchor: a mark, a word, or both. It doesn’t replace product and service, but helps people recognize the company on the site, in ads, and on packaging.",
-    "Get one early, pick a type that fits the name and carriers, and decide builder vs freelance vs studio by how serious the brand is. Full color, type, and brand-book system — in the identity article.",
+    "Below: why a logo matters at the start, which types exist, what “works / doesn’t,” and how to order or draft one. Full color, type, and brand-book system — in the identity article.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Is a logo the same as brand identity?",
@@ -47,11 +51,11 @@ export const logotipEn: BlogPost = {
         {
           intro: "Delivery minimum:",
           items: [
-            "primary logo (horizontal/mark);",
-            "monochrome / reverse;",
-            "favicon and avatar;",
-            "vector (SVG/PDF) + raster;",
-            "short spacing and don’t-do rules.",
+            "primary logo (horizontal/mark)",
+            "monochrome / reverse",
+            "favicon and avatar",
+            "vector (SVG/PDF) + raster",
+            "short spacing and don’t-do rules",
           ],
         },
       ],
@@ -77,11 +81,11 @@ export const logotipEn: BlogPost = {
         {
           intro: "Criteria for a working logo:",
           items: [
-            "reads at small size;",
-            "differs from niche competitors;",
-            "doesn’t depend on a trendy filter;",
-            "fits the business character;",
-            "scales to print and digital.",
+            "reads at small size",
+            "differs from niche competitors",
+            "doesn’t depend on a trendy filter",
+            "fits the business character",
+            "scales to print and digital",
           ],
         },
       ],
@@ -104,11 +108,11 @@ export const logotipEn: BlogPost = {
         {
           intro: "What to request from the vendor:",
           items: [
-            "vector sources;",
-            "variants for dark/light backgrounds;",
-            "usage rights;",
-            "fonts (licenses);",
-            "a short application guide.",
+            "vector sources",
+            "variants for dark/light backgrounds",
+            "usage rights",
+            "fonts (licenses)",
+            "a short application guide",
           ],
         },
       ],

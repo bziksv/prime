@@ -11,11 +11,11 @@ export const bidderEn: BlogPost = {
     "What a bidder is for Direct and Google Ads: automated bid management via API, pros and cons, when a third-party tool fits, and how to check the effect — next to native account strategies.",
   lead: [
     "A bidder (bid manager) is a service that, by rules and API, turns bids in paid search without manually tweaking every ad. The idea is to react to the auction faster than a person.",
-    "A bidder automates bid rules in Direct/Ads when manual tweaks don’t scale. 2018 brand lists are outdated — check current platform and agency-account features. Highest bid ≠ forever #1: ad and landing-page quality are in the auction too.",
+    "Below: why teams connect one, strengths and weaknesses, and how to choose. Brand lists from 2018 are outdated — check current Direct/Ads and agency-account features. Highest bid ≠ forever first place: ad and landing-page quality are in the auction too.",
   ],
   faq: [
     {
-      q: "How is a bidder different from manual bids in Direct?",
+      q: "How is a bidder different from bids in Direct?",
       a: "In the account — native manual and auto strategies. A bidder is an external rules layer on top of the API. Built-in strategies are often enough.",
     },
     {
@@ -28,11 +28,11 @@ export const bidderEn: BlogPost = {
     },
     {
       q: "Does a higher bid always mean a higher position?",
-      a: "Not always. Bid and quality both count. Chasing only “first place” is expensive and not always more profitable.",
+      a: "Not always. Bid and quality both count. Chasing only first place is expensive and not always more profitable.",
     },
     {
       q: "Which bidder service should you choose?",
-      a: "One that supports your accounts, offers clear rules/limits and a change log. Don’t buy on “ranking guarantee” ads.",
+      a: "One that supports your accounts, offers clear rules/limits and a change log. Don’t buy on “guaranteed #1” ads.",
     },
     {
       q: "How can you tell the bidder is helping?",
@@ -74,10 +74,10 @@ export const bidderEn: BlogPost = {
         {
           intro: "When teams usually connect one:",
           items: [
-            "many groups and keywords;",
-            "shared rules across a portfolio;",
-            "goals in analytics already tracking;",
-            "a limit and KPI for the test.",
+            "many groups and keywords",
+            "shared rules across a portfolio",
+            "goals in analytics already tracking",
+            "a limit and KPI for the test",
           ],
         },
       ],
@@ -88,7 +88,7 @@ export const bidderEn: BlogPost = {
       paras: [
         "Bad rules scale the mistake: a bidder quickly burns budget on irrelevance.",
         "Dependence on a third-party service, pricing, and API stability. Switching tools is a separate project.",
-        "The illusion that “everything runs itself”: without negatives, solid ads, and a landing, auto-bids won’t save you.",
+        "The illusion that everything runs itself: without negatives, solid ads, and a landing, auto-bids won’t save you.",
       ],
       links: [
         {
@@ -106,8 +106,8 @@ export const bidderEn: BlogPost = {
       level: 2,
       paras: [
         "Check Direct/Ads support, rule types (position, CPA, daily limit), log transparency, and access revocation.",
-        "Don’t rely on outdated “Elama / Aori / …” rankings from 2018 articles — the tool market moved; check current offers and the contract.",
-        "Before enabling, lock 1–2 weeks of baseline. After — compare KPIs. No improvement with correct rules — simplify or return to account strategies.",
+        "Don’t rely on outdated Elama / Aori scorecards from 2018 articles — the tool market moved; check current offers and the contract.",
+        "Before enabling, lock one or two weeks of baseline. After — compare KPIs. No improvement with correct rules — simplify or return to account strategies.",
       ],
       links: [
         {

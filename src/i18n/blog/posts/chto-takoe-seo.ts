@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for chto-takoe-seo — same structure as RU JSON. */
 export const chtoTakoeSeoEn: BlogPost = {
   slug: "chto-takoe-seo",
-  title: "What SEO promotion is: a plain explanation without “TOP magic”",
+  title: "What SEO is: a plain explanation without ranking magic",
   date: "2016-05-31",
   category: "SEO",
   cover: "/images/blog/chto-takoe-seo/cover-en.webp",
   excerpt:
-    "What SEO is in plain English: why business needs search, how it differs from offline ads, what the work includes, and why site prep isn’t the same as reaching TOP-10.",
+    "What SEO is in plain English: why business needs search, how it differs from offline ads, what the work includes, and why site prep isn’t the same as landing on page one.",
   lead: [
-    "SEO (Search Engine Optimization) is the work that helps the right people find your site in Google and Yandex — and turn that traffic into inquiries. It isn’t a “TOP button in a week,” and it isn’t about tricking an algorithm.",
-    "Below: a plain definition, a comparison with offline ads, what the work includes, and what a client should understand. Site prep usually takes weeks; steady rank growth on a competitive keyword set is planned over 2–6 months after work starts — prep is not TOP.",
+    "SEO (Search Engine Optimization) is the work that helps the right people find your site in Google and Yandex — and turn that traffic into inquiries. It isn’t a ranking button in a week, and it isn’t about tricking an algorithm.",
+    "Below: a plain definition, a comparison with offline ads, what the work includes, and what a client should understand. Site prep usually takes weeks; steady growth on a competitive keyword set is planned over two to six months after work starts. Prep is not page-one rankings.",
   ],
   faq: [
     {
@@ -19,8 +19,8 @@ export const chtoTakoeSeoEn: BlogPost = {
       a: "Actions on and around the site so target search queries more often bring people to your pages — and those people can buy or send a lead.",
     },
     {
-      q: "Is SEO a guaranteed TOP-10?",
-      a: "No. TOP depends on competition, demand, site quality, and time. A promise of “TOP for everyone in a month” is a red flag.",
+      q: "Is SEO a guaranteed page-one result?",
+      a: "No. Rankings depend on competition, demand, site quality, and time. A promise of “page one for everyone in a month” is a red flag.",
     },
     {
       q: "How is SEO better than a street banner?",
@@ -36,7 +36,7 @@ export const chtoTakoeSeoEn: BlogPost = {
     },
     {
       q: "How long should I wait for results?",
-      a: "Prep for promotion — often weeks to about a month. A noticeable chunk of the keyword set often shows nearer 2–3 months; competitive keywords fill in toward 4–6 months as things go — not a date guarantee.",
+      a: "Prep for promotion — often weeks to about a month. A noticeable chunk of the keyword set often shows nearer two to three months; competitive keywords fill in toward four to six months as things go — not a date guarantee.",
     },
     {
       q: "How does SEO differ from paid search?",
@@ -53,13 +53,13 @@ export const chtoTakoeSeoEn: BlogPost = {
       level: 2,
       paras: [
         "SEO isn’t hacking the SERP — it’s work on matching the site to demand: clear pages for queries, tech robots and people can use, useful content, and trust buildup.",
-        "The business goal isn’t an abstract “TOP for TOP’s sake,” but visibility on queries that bring leads and sales. So you watch ranks, organic traffic, and conversions.",
+        "The business goal isn’t abstract rankings for their own sake, but visibility on queries that bring leads and sales. So you watch ranks, organic traffic, and conversions.",
       ],
       notes: [
         {
           title: "Important",
-          text: "Phrases like “manipulating algorithms” are an outdated, harmful tone. Modern practice is improve the site and the answer for the user within search engine rules.",
           kind: "tip",
+          text: "Phrases like “manipulating algorithms” are an outdated, harmful tone. Modern practice is improve the site and the answer for the user within search engine rules.",
         },
       ],
     },
@@ -74,10 +74,10 @@ export const chtoTakoeSeoEn: BlogPost = {
         {
           intro: "SEO makes sense if:",
           items: [
-            "there is steady search demand;",
-            "the site can take leads;",
-            "you’re ready to serve clients after the click;",
-            "you have a months-long horizon, not “result by Friday.”",
+            "there is steady search demand",
+            "the site can take leads",
+            "you’re ready to serve clients after the click",
+            "you have a months-long horizon, not “result by Friday”",
           ],
         },
       ],
@@ -93,12 +93,12 @@ export const chtoTakoeSeoEn: BlogPost = {
         {
           intro: "Typical stages:",
           items: [
-            "audit and tech;",
-            "keyword set and structure;",
-            "intent-led content;",
-            "snippets and internal linking;",
-            "lead measurement;",
-            "external signals and support.",
+            "audit and tech",
+            "keyword set and structure",
+            "intent-led content",
+            "snippets and internal linking",
+            "lead measurement",
+            "external signals and support",
           ],
         },
       ],
@@ -122,13 +122,13 @@ export const chtoTakoeSeoEn: BlogPost = {
       level: 2,
       paras: [
         "A contractor isn’t a wizard: SEO strengthens the flow, but sales are made by the business. Prices, reply speed, stock — part of the result.",
-        "Judge a contractor by plan clarity, reports, and cases — not a promise of “100% TOP for a fixed fee with no timeline.” A flat retainer with no KPIs often yields cosmetics; discuss payment for the job, but rank timelines still live in months.",
+        "Judge a contractor by plan clarity, reports, and cases — not a promise of “100% page one for a fixed fee with no timeline.” A flat retainer with no KPIs often yields cosmetics; discuss payment for the job, but rank timelines still live in months.",
       ],
       notes: [
         {
           title: "Timelines",
-          text: "“Launch in 2–3 months” in old contracts often mixed prep and TOP. Today separate them: site prep — weeks; keyword-set TOP buildup — planned 2–6 months of systemic work.",
           kind: "tip",
+          text: "Old contracts often mixed “launch in 2–3 months” with page-one results. Today separate them: site prep — weeks; share of the core on page one — planned two to six months of systemic work after start.",
         },
       ],
       links: [

@@ -11,7 +11,7 @@ export const posmotretAvatarInstagramEn: BlogPost = {
     "How to see an Instagram avatar larger: the feed, the web client, and sensible methods — without a catalog of shady “viewer” services and apps that ask for your password.",
   lead: [
     "In the app the avatar sits in a tiny circle: a one-tap enlarge often isn’t there. People usually find the photo in the feed or Stories, or open the profile in a browser and view the image separately.",
-    "We cover practical methods without gray “magnifiers.” Third-party sites and apps that ask for a username and pull files from Instagram* often break the rules and can be risky for the account. This material is informational.",
+    "Below: practical methods without gray “magnifiers.” Third-party sites and apps that ask for a username and fetch files from Instagram* often break the rules and can be risky for the account. This material is informational.",
   ],
   legalNotice: {
     title: "Note",
@@ -59,7 +59,6 @@ export const posmotretAvatarInstagramEn: BlogPost = {
         "Many people set an avatar from a post or republish it. Scroll the grid and Highlights — sometimes the full-size file is already public.",
         "Plus: no third-party tools. Minus: the photo may be missing, and searching takes time.",
       ],
-      lists: [],
     },
     {
       title: "The web version in a browser",
@@ -69,9 +68,9 @@ export const posmotretAvatarInstagramEn: BlogPost = {
         "Typical path: right-click the avatar → open image / save as. Menu labels depend on the browser. Zoom with page scale (e.g. Ctrl/Cmd + “+”).",
         "This doesn’t improve source resolution: it only makes viewing what the service already serves more convenient.",
       ],
-      lists: [],
       notes: [
         {
+          kind: "tip",
           title: "The UI changes",
           text: "Web-client buttons get updated. If “open image” isn’t there — refresh the page or use developer tools carefully and only on your own session.",
         },
@@ -87,7 +86,7 @@ export const posmotretAvatarInstagramEn: BlogPost = {
       title: "What to avoid",
       level: 2,
       paras: [
-        "Online “viewers” by username: often gray parsing, ads, phishing.",
+        "Online “viewers” by username: often gray scraping, ads, phishing.",
         "Mobile apps that “download any avatar” and ask for a password or suspicious permissions.",
         "Services for viewing private profiles — outside the rules and ethics; we don’t describe them.",
       ],
@@ -98,7 +97,7 @@ export const posmotretAvatarInstagramEn: BlogPost = {
             "ask for the Instagram* password",
             "promise “HD 4K upscale” of someone else’s avatar",
             "bypass a private account",
-            "unknown developer with no data policy.",
+            "unknown developer with no data policy",
           ],
         },
       ],
@@ -109,7 +108,6 @@ export const posmotretAvatarInstagramEn: BlogPost = {
       paras: [
         "For business it’s more important to make a readable mark in the circle than to inspect other people’s. A separate guide covers creating an avatar.",
       ],
-      lists: [],
       links: [
         {
           label: "Avatar for Instagram*",
@@ -129,7 +127,6 @@ export const posmotretAvatarInstagramEn: BlogPost = {
         "Third-party viewers and apps that ask for a password are extra risk.",
         "Don’t take someone else’s photo without rights.",
       ],
-      lists: [],
     },
   ],
   closing: [

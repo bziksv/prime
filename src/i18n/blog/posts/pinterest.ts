@@ -10,8 +10,8 @@ export const pinterestEn: BlogPost = {
   excerpt:
     "What Pinterest is: pins, boards, repins, how it differs from Instagram, and how to use it for ideas and traffic — without outdated demo stats or sales guarantees.",
   lead: [
-    "Pinterest is visual search and idea boards: you save pins (images with a link and description) to boards, find references, and drive traffic to a site.",
-    "We cover the platform vocabulary, personal vs business use, and realistic expectations. Don’t treat “millions in the US” or “women 20–45” stats from 2020 roundups as fact. Other people’s images still come with copyright.",
+    "Pinterest is visual search and idea boards: you save pins (images with a link and description) to boards, find references, and send traffic to a site.",
+    "Below: platform vocabulary, personal vs business use, and realistic expectations. Don’t treat “millions in the US” or “women 20–45” stats from 2020 roundups as fact. Other people’s images still come with copyright.",
   ],
   faq: [
     {
@@ -20,11 +20,11 @@ export const pinterestEn: BlogPost = {
     },
     {
       q: "How is it different from Instagram?",
-      a: "Instagram is stronger on personality and Stories/Reels. Pinterest is stronger on long pin lifespan, repins, and outbound clicks via link to an external page.",
+      a: "Instagram is stronger on personality and Stories/Reels. Pinterest is stronger on long pin lifespan, repins, and outbound clicks to an external page.",
     },
     {
       q: "Are pinterest.ru and .com different services?",
-      a: "Usually one product with language and region settings. Current login is via the official site or app; don’t confuse it with clones.",
+      a: "Usually one product with language and region settings. Sign in via the official site or app; don’t confuse it with clones.",
     },
     {
       q: "Can I use someone else’s pins in ads?",
@@ -55,9 +55,9 @@ export const pinterestEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Important",
           text: "Don’t promise ads will “own” attention on their own. Count clicks, saves, and leads with UTM.",
-          kind: "tip",
         },
       ],
     },
@@ -87,7 +87,7 @@ export const pinterestEn: BlogPost = {
             "clear text on the pin / in the description",
             "a working mobile link",
             "boards by theme, not a dump",
-            "measure traffic and conversions.",
+            "measure traffic and conversions",
           ],
         },
       ],
@@ -96,7 +96,7 @@ export const pinterestEn: BlogPost = {
       title: "Related reading",
       level: 2,
       paras: [
-        "Saving files to a device is a separate guide. Here we focus on platform meaning and scenarios.",
+        "Saving files to a device is a separate guide. Here we focus on what the platform is for and common scenarios.",
         "Pinterest doesn’t replace SEO and paid search; it adds a visual entry into the funnel.",
       ],
       links: [

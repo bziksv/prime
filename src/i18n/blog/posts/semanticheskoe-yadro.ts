@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for semanticheskoe-yadro — same structure as RU JSON. */
 export const semanticheskoeYadroEn: BlogPost = {
   slug: "semanticheskoe-yadro",
-  title: "How to build a semantic core the right way",
+  title: "How to build a keyword set (semantic core) the right way",
   date: "2022-03-01",
   category: "SEO",
   cover: "/images/blog/semanticheskoe-yadro/cover-en.webp",
   excerpt:
     "How to pick keywords, classify queries, and build a semantic core — step by step for SEO.",
   lead: [
-    "A site’s semantic core is the list of search queries that bring users to the site. Those queries — keywords — shape the site’s structure.",
-    "The semantic core is the foundation of online promotion. The right keywords grow visits, leads, and audience. We cover what belongs in the core, how it shapes copy, and the nuances of building it.",
+    "A site’s semantic core is the list of search queries that can bring people to the resource. Those queries — keywords — shape the site’s structure.",
+    "The core is the foundation of organic promotion. The right keywords grow visits, leads, and audience. Below: what belongs in the set, how it shapes copy, and how to build it without bloating a useless spreadsheet.",
   ],
   faq: [
     {
@@ -20,11 +20,11 @@ export const semanticheskoeYadroEn: BlogPost = {
     },
     {
       q: "How many keywords does a core need?",
-      a: "Rough guides: service landing — dozens to a couple hundred keywords; multi-section service site — hundreds to a couple thousand; large catalog — thousands and up. Intent coverage matters more than “collect more”.",
+      a: "Rough guides: service landing — dozens to a couple hundred; multi-section service site — hundreds to a couple thousand; large catalog — thousands and up. Intent coverage matters more than “collect more.”",
     },
     {
       q: "How do head terms differ from long-tail?",
-      a: "High-frequency queries are shorter and more competitive; low-frequency ones are longer, more numerous, and easier for first rankings and targeted traffic.",
+      a: "High-frequency queries are shorter and more competitive; low-frequency ones are longer, more numerous, and easier for early visibility and targeted traffic.",
     },
     {
       q: "Why cluster the core?",
@@ -41,15 +41,15 @@ export const semanticheskoeYadroEn: BlogPost = {
       level: 2,
       paras: [
         "A semantic core is a set of words and phrases that reflect the site’s topic and structure and describe what it does. Those words are keywords. They answer: “What will the user find on this site?”",
-        "We cover how many keywords usually go into the working set, how to classify queries, and a step-by-step build.",
+        "Below: how many keywords usually go into the working set, how to classify queries, and a step-by-step build.",
       ],
       lists: [
         {
-          intro: "A semantic core typically has these traits:",
+          intro: "A solid core typically has these traits:",
           items: [
-            "keywords reflect the site structure;",
-            "the site answers most key queries;",
-            "the resource holds the information the visitor needs.",
+            "keywords reflect the site structure",
+            "the site answers most key queries",
+            "the resource holds the information the visitor needs",
           ],
         },
       ],
@@ -64,15 +64,16 @@ export const semanticheskoeYadroEn: BlogPost = {
         {
           intro: "Typical ranges (after cleanup, not a raw Wordstat dump):",
           items: [
-            "single-service landing — dozens to about 150–200 keywords;",
-            "service site with several sections — hundreds to 1–2 thousand;",
-            "online store / catalog — thousands of keywords, growing with the assortment.",
+            "single-service landing — dozens to about 150–200 keywords",
+            "service site with several sections — hundreds to 1–2 thousand",
+            "online store / catalog — thousands of keywords, growing with the assortment",
           ],
         },
       ],
       notes: [
         {
           title: "What to watch instead of “collect more”",
+          kind: "tip",
           text: "Covering commercial and informational intents under real URLs matters more. A bloated core without landings and copy only inflates the spreadsheet.",
         },
       ],
@@ -81,7 +82,7 @@ export const semanticheskoeYadroEn: BlogPost = {
       title: "Classifying search queries",
       level: 2,
       paras: [
-        "Keywords split into groups by different parameters. We’ll cover those parameters. If you want practice first — jump to the step-by-step guide below.",
+        "Keywords split into groups by different parameters. We’ll cover those next. If you want practice first — jump to the step-by-step guide below.",
       ],
       lists: [],
     },
@@ -89,18 +90,18 @@ export const semanticheskoeYadroEn: BlogPost = {
       title: "Frequency",
       level: 3,
       paras: [
-        "How do you work with keyword frequency? Promoting on high-frequency queries is hard — competition is fierce. Beginners often start with micro and low-frequency keys: there are more of them, and the long tail makes early visibility more realistic. On commercial pages, refine the offer: guarantees, timelines, delivery, meta tags.",
-        "After low-frequency work, add mid-frequency terms. They often hint at section structure. You may need site and content updates. Once LF and MF are covered with landings and copy, high-frequency queries usually lift more naturally — but that is not a guarantee of TOP-1 “by itself”.",
+        "Promoting on high-frequency queries is hard — competition is fierce. Beginners often start with micro and low-frequency keys: there are more of them, and the long tail makes early visibility more realistic. On commercial pages, refine the offer: guarantees, timelines, delivery, meta tags.",
+        "After low-frequency work, add mid-frequency terms. They often hint at section structure. You may need site and content updates. Once LF and MF are covered with landings and copy, high-frequency queries usually lift more naturally — but that is not a guarantee of #1 “by itself.”",
       ],
       lists: [
         {
           intro:
             "Rough monthly impression thresholds (a guide, not an official search-engine scale):",
           items: [
-            "micro low-frequency — under 100;",
-            "low-frequency — 100 to 1,000;",
-            "mid-frequency — 1,000 to 5,000;",
-            "high-frequency — from 5,000.",
+            "micro low-frequency — under 100",
+            "low-frequency — 100 to 1,000",
+            "mid-frequency — 1,000 to 5,000",
+            "high-frequency — from 5,000",
           ],
         },
       ],
@@ -109,7 +110,7 @@ export const semanticheskoeYadroEn: BlogPost = {
       title: "Business signals",
       level: 3,
       paras: [
-        "Here there are two groups. Commercial keys bring visitors who want to order, buy, or use a service — anything involving money.",
+        "Two groups matter here. Commercial keys bring visitors who want to order, buy, or use a service — anything involving money.",
         "The second group is non-commercial queries. People want information; they don’t need to order or buy yet.",
         "The first group fits service sites and online stores. Informational resources and topical blogs need the second group.",
       ],
@@ -117,17 +118,17 @@ export const semanticheskoeYadroEn: BlogPost = {
         {
           intro: "Commercial queries can look like:",
           items: [
-            "order a cake in Ryazan with delivery;",
-            "affordable wedding hairstyle;",
-            "buy BMW spare parts.",
+            "order a cake in Ryazan with delivery",
+            "affordable wedding hairstyle",
+            "buy BMW spare parts",
           ],
         },
         {
           intro: "Non-commercial examples:",
           items: [
-            "anniversary gift for husband;",
-            "beautiful cities in Italy;",
-            "meat pie recipe.",
+            "anniversary gift for husband",
+            "beautiful cities in Italy",
+            "meat pie recipe",
           ],
         },
       ],
@@ -144,17 +145,17 @@ export const semanticheskoeYadroEn: BlogPost = {
         {
           intro: "Geo-dependent examples:",
           items: [
-            "food delivery Astrakhan;",
-            "restaurant Pogrebok hours;",
-            "buy a scooter in Perm.",
+            "food delivery Astrakhan",
+            "restaurant Pogrebok hours",
+            "buy a scooter in Perm",
           ],
         },
         {
           intro: "Geo-independent queries:",
           items: [
-            "Harry Potter watch online;",
-            "what is marketing;",
-            "how to choose a laptop.",
+            "Harry Potter watch online",
+            "what is marketing",
+            "how to choose a laptop",
           ],
         },
       ],
@@ -165,27 +166,27 @@ export const semanticheskoeYadroEn: BlogPost = {
       paras: [
         "Depending on the content the user wants, there are four query types.",
         "If your site offers that content, you can take this group. Often people prefer Google Images, streaming services, or YouTube.",
-        "Transactional. Functionally close to commercial. Used to find products or services to buy. To rank, you need a catalog with product cards — photos, descriptions, prices — plus cart, payment, and delivery options.",
-        "Search engines rarely put small stores in the TOP. Large aggregators usually hold the first rows.",
+        "Transactional. Functionally close to commercial. Used to find products or services to buy. To compete, you need a catalog with product cards — photos, descriptions, prices — plus cart, payment, and delivery options.",
+        "Search engines rarely put small stores on page one for broad transactional queries. Large aggregators usually hold the first rows.",
         "If the resource has useful info for such keys, you can use them in promotion. More often they enter the core when the site is also pushed with paid search.",
       ],
       lists: [
         {
           intro: "Media. Photos, audio, or video. For example:",
           items: [
-            "latest BI-2 album;",
-            "ocean photos;",
-            "Channel One watch online.",
+            "latest BI-2 album",
+            "ocean photos",
+            "Channel One watch online",
           ],
         },
         {
           intro:
             "Navigational. People look for a specific place, event, or site. For example:",
-          items: ["yandex;", "olympics 2022;", "clinic no. 2 address."],
+          items: ["yandex", "olympics 2022", "clinic no. 2 address"],
         },
         {
           intro: "Informational key examples:",
-          items: ["great patriotic war;", "borscht recipe;", "who was lenin."],
+          items: ["great patriotic war", "borscht recipe", "who was lenin"],
         },
       ],
     },
@@ -199,17 +200,17 @@ export const semanticheskoeYadroEn: BlogPost = {
         {
           intro:
             "Vital — only the brand or company name. People look for specific products or the official site. For example:",
-          items: ["apteka.ru;", "MVideo;", "Apple."],
+          items: ["apteka.ru", "MVideo", "Apple"],
         },
         {
           intro: "Branded — with a brand or make name:",
-          items: ["audi car;", "clinic cream;", "lenovo tablet."],
+          items: ["audi car", "clinic cream", "lenovo tablet"],
         },
         {
           intro: "Fuzzy query examples:",
           items: [
-            "crown — photos, definition, modern monarchs, TV series;",
-            "coffee — types, brewing methods, history, where to buy.",
+            "crown — photos, definition, modern monarchs, TV series",
+            "coffee — types, brewing methods, history, where to buy",
           ],
         },
       ],
@@ -225,10 +226,10 @@ export const semanticheskoeYadroEn: BlogPost = {
           intro:
             "To build a semantic core you collect keywords and related terms. The more synonyms, specialist terms, abbreviations, and short forms you include, the fuller the answer to the query that brought the user. The core helps:",
           items: [
-            "build a visitor-friendly site structure;",
-            "deliver quality content;",
-            "use the right meta tags;",
-            "shape anchors with an external-link system.",
+            "build a visitor-friendly site structure",
+            "deliver quality content",
+            "use the right meta tags",
+            "shape anchors with an external-link system",
           ],
         },
       ],
@@ -261,12 +262,12 @@ export const semanticheskoeYadroEn: BlogPost = {
           intro:
             "Brainstorming helps. Write down all data and thoughts on the topic. The list should include:",
           items: [
-            "locations: region, city, district, metro stations and streets people use to find the place;",
-            "every category of products you offer;",
-            "product names including synonyms, abbreviations, specialist terms or jargon, Cyrillic and Latin spellings;",
-            "vital queries;",
-            "misspelled product names;",
-            "technical product params: types, material, model, etc.;",
+            "locations: region, city, district, metro stations and streets people use to find the place",
+            "every category of products you offer",
+            "product names including synonyms, abbreviations, specialist terms or jargon, Cyrillic and Latin spellings",
+            "vital queries",
+            "misspelled product names",
+            "technical product params: types, material, model, etc.",
           ],
         },
       ],
@@ -284,16 +285,17 @@ export const semanticheskoeYadroEn: BlogPost = {
         {
           intro: "Stop words / negatives include:",
           items: [
-            "competitor company names;",
-            "typos and misspellings (unless you promote them on purpose);",
-            "place names outside your sales region;",
-            "keys from another topic.",
+            "competitor company names",
+            "typos and misspellings (unless you promote them on purpose)",
+            "place names outside your sales region",
+            "keys from another topic",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake at this step",
+          kind: "tip",
           text: "Leaving everything “as exported” from Wordstat. Without cleanup, clusters and copy later fill with off-target wording.",
         },
       ],
@@ -303,7 +305,7 @@ export const semanticheskoeYadroEn: BlogPost = {
       level: 3,
       paras: [
         "You now have a huge sheet of every possible query for the site. Split keys into groups or blocks by topic or client needs. That’s clustering.",
-        "In paid search, word form matters. One ad may use “water purification”, another “water treatment”, both leading to the same site — so the keyword can appear in the SERP title and match the query. You end up with several ad groups that still send users to one URL. In Google or Yandex Ads, keys for one product are often merged instead, simplifying structure.",
+        "In paid search, word form matters. One ad may use “water purification,” another “water treatment,” both leading to the same site — so the keyword can appear in the SERP title and match the query. You end up with several ad groups that still send users to one URL. In Google or Yandex Ads, keys for one product are often merged instead, simplifying structure.",
         "What about SEO? More work: each cluster should lead to a specific page. If the page doesn’t exist — create it. Otherwise queries compete or hang without a landing. On a small site clustering is often manual; on large ones tools like Rush Analytics or clustering modules elsewhere help (you set the SERP URL-overlap threshold separately).",
       ],
       lists: [],
@@ -349,6 +351,7 @@ export const semanticheskoeYadroEn: BlogPost = {
       notes: [
         {
           title: "Common mistake",
+          kind: "tip",
           text: "Dumping the whole core onto one “home” URL or cloning near-identical pages for every word form. Cluster = one intent → one landing.",
         },
       ],
@@ -390,12 +393,12 @@ export const semanticheskoeYadroEn: BlogPost = {
         {
           intro: "Beginners often make these mistakes with a semantic core:",
           items: [
-            "only high-frequency and the most obvious queries;",
-            "no geo keywords;",
-            "too many different keys pointing at one URL;",
-            "professionalisms and jargon ignored;",
-            "the same queries pointing at different pages;",
-            "core built without the client’s specifics.",
+            "only high-frequency and the most obvious queries",
+            "no geo keywords",
+            "too many different keys pointing at one URL",
+            "professionalisms and jargon ignored",
+            "the same queries pointing at different pages",
+            "core built without the client’s specifics",
           ],
         },
       ],
@@ -404,7 +407,7 @@ export const semanticheskoeYadroEn: BlogPost = {
       title: "Tools for working with a semantic core",
       level: 2,
       paras: [
-        "Tools teams usually use to collect and group a core. Not a ranking—pick by task and budget. Narrow or outdated panels aren’t included.",
+        "Tools teams usually use to collect and group a core. Not a ranking — pick by task and budget. Narrow or outdated panels aren’t included.",
       ],
       lists: [],
     },

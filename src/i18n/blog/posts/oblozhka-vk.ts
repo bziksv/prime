@@ -11,15 +11,15 @@ export const oblozhkaVkEn: BlogPost = {
     "How to design a VK public or group cover: meaning and offer, safe zone, image rights, Canva/Figma, and upload in settings — without outdated pixel grids.",
   lead: [
     "A VK community cover is the first thing a guest sees next to the name and avatar. It decides whether they stay to read the wall or leave in a second.",
-    "Put one clear offer in the safe zone, respect image rights, and upload via community settings. Exact sizes and header widgets change — check current VK Help.",
+    "Below: what to put in the mockup, how to handle cropping on different screens, and how to upload the file. Exact sizes and header widgets change — check VK Help, not numbers from 2021 guides.",
   ],
   faq: [
     {
-      q: "Does a cover raise VK reach?",
+      q: "Does a cover raise reach?",
       a: "Indirectly: it clarifies brand and trust. Growth comes from content, replies, and ads when needed — not from one image alone.",
     },
     {
-      q: "What size should you prepare for the cover?",
+      q: "What size should you prepare?",
       a: "VK’s guide is a wide community header banner; pixel recommendations have changed. Take current numbers from VK Help and leave margins at the edges.",
     },
     {
@@ -28,7 +28,7 @@ export const oblozhkaVkEn: BlogPost = {
     },
     {
       q: "Can you use a random photo from search?",
-      a: "Only with your own rights or a license. A random SERP frame risks complaints and claims.",
+      a: "Only with your own rights or a license. A random frame from image search risks complaints and claims.",
     },
     {
       q: "How is a cover different from an avatar?",
@@ -43,7 +43,7 @@ export const oblozhkaVkEn: BlogPost = {
       a: "When positioning, season, or a major promo changes. Weekly swaps without a reason break recognition.",
     },
     {
-      q: "Where should you build the cover mockup?",
+      q: "Where should you build the mockup?",
       a: "Figma, Canva, Photoshop, and similar tools with a set size and safe zone. Keep the source file for edits.",
     },
   ],
@@ -56,7 +56,6 @@ export const oblozhkaVkEn: BlogPost = {
         "For a store — product and benefit; for media — topic and character; for a local service — geo and a clear CTA (“book,” “price in the menu”).",
         "An empty or random image hurts trust more than a modest but coherent brand background.",
       ],
-      lists: [],
       links: [
         {
           label: "VK communities: formats",
@@ -83,12 +82,13 @@ export const oblozhkaVkEn: BlogPost = {
             "important content in the center, not at the very edges",
             "enough contrast between text and background",
             "no more than one main accent",
-            "source kept in an editable file.",
+            "source kept in an editable file",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Common mistake",
           text: "Stuffing the header with a phone, address, price list, and three promos in tiny type. The menu, description, and posts already do that — the cover needs one idea.",
         },
@@ -98,7 +98,7 @@ export const oblozhkaVkEn: BlogPost = {
       title: "Idea and visuals",
       level: 2,
       paras: [
-        "Tie the image to the community theme: product, process, niche atmosphere, a recognizable brand pattern. Abstract stock “handshake” with no content link doesn’t stick.",
+        "Tie the image to the community theme: product, process, niche atmosphere, a recognizable brand pattern. An abstract filler “handshake” with no content link doesn’t stick.",
         "Align the cover with the avatar: one palette and tone. Chaos of “bright banner + different logo” looks like someone else’s template.",
         "Text on the image — large and short. Leave long paragraphs for the community description and pinned post.",
       ],
@@ -108,7 +108,7 @@ export const oblozhkaVkEn: BlogPost = {
           items: [
             "niche or offer in 3–7 words",
             "logo or brand face",
-            "one visual anchor (product / place / style).",
+            "one visual anchor (product / place / style)",
           ],
         },
       ],
@@ -121,7 +121,6 @@ export const oblozhkaVkEn: BlogPost = {
         "If people are in the frame — make sure you can publish them in a commercial community context.",
         "Partner logos — only with permission; otherwise you look like a storefront no one should trust.",
       ],
-      lists: [],
     },
     {
       title: "Building in an editor",
@@ -131,7 +130,6 @@ export const oblozhkaVkEn: BlogPost = {
         "Export: JPG/PNG without excess weight; a too-heavy file may fail upload or slow the page.",
         "Header widgets (menu, timers, buttons), if available for your community, don’t replace a clear banner: picture meaning first, modules second.",
       ],
-      lists: [],
       links: [
         {
           label: "Canva for marketing",
@@ -155,7 +153,7 @@ export const oblozhkaVkEn: BlogPost = {
             "text reads on mobile",
             "photo rights are covered",
             "avatar in the same style",
-            "community description doesn’t contradict the banner offer.",
+            "community description doesn’t contradict the banner offer",
           ],
         },
       ],
@@ -174,7 +172,6 @@ export const oblozhkaVkEn: BlogPost = {
         "Safe zone and current sizes beat copying pixels from an old guide.",
         "Your own image rights and a unified style with the avatar hold trust until the first post.",
       ],
-      lists: [],
     },
   ],
   closing: [

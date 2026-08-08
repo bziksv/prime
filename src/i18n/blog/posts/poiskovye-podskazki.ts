@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for poiskovye-podskazki — same structure as RU JSON. */
 export const poiskovyePodskazkiEn: BlogPost = {
   slug: "poiskovye-podskazki",
-  title: "Search suggestions: what they are and how to use in SEO",
+  title: "Search suggestions: what they are and how to use them in SEO",
   date: "2018-02-19",
   category: "SEO",
   cover: "/images/blog/poiskovye-podskazki/cover-en.webp",
   excerpt:
     "How Yandex and Google suggestions form, how they help semantics and content, why you can’t “get into suggest” by faking queries, and how to collect ideas without spam.",
   lead: [
-    "Search suggestions (autocomplete) are query variants that appear as you type in the search box. They reflect popular and “fresh” wording, region, and sometimes personal history.",
-    "For SEO, suggestions are a source of ideas for the core and headlines — not a TOP button. We cover how they work, how Yandex and Google differ, and how to use them without query inflation.",
+    "Search suggestions (autocomplete) are query variants that appear as you type in the search box. They reflect popular and fresh wording, region, and sometimes personal history.",
+    "For SEO, suggestions are a source of ideas for the core and headlines — not a page-one button. Below: how they work, how Yandex and Google differ, and how to use them without query inflation.",
   ],
   faq: [
     {
@@ -28,10 +28,10 @@ export const poiskovyePodskazkiEn: BlogPost = {
     },
     {
       q: "Do suggestions help page ranking?",
-      a: "Indirectly: you cover real wording with content. Being “in suggest” alone doesn’t put a URL in TOP.",
+      a: "Indirectly: you cover real wording with content. Being “in suggest” alone doesn’t put a URL on page one.",
     },
     {
-      q: "Do Yandex and Google suggestions differ?",
+      q: "Do Yandex and Google differ?",
       a: "Yes: update cadence, personalization, and sometimes answers or weather right in suggest. Collect ideas in both if both channels matter.",
     },
     {
@@ -63,7 +63,7 @@ export const poiskovyePodskazkiEn: BlogPost = {
             "region and language",
             "freshness / trends",
             "personal history (if on)",
-            "search policy filters.",
+            "search policy filters",
           ],
         },
       ],
@@ -72,7 +72,7 @@ export const poiskovyePodskazkiEn: BlogPost = {
       title: "Yandex and Google: nuances",
       level: 2,
       paras: [
-        "Yandex suggest often updates faster on news and “hot” topics; there can be quick answers, weather, brand jumps to a site.",
+        "Yandex suggest often updates faster on news and hot topics; there can be quick answers, weather, brand jumps to a site.",
         "Google has its own expansion and synonym logic, and its own rules for hiding toxic suggestions. Don’t treat update cadence from old reviews as law — watch the live SERP.",
       ],
       lists: [
@@ -82,7 +82,7 @@ export const poiskovyePodskazkiEn: BlogPost = {
             "private mode + needed region",
             "service/product markers by letter",
             "brand and competitors separately",
-            "log into the core table.",
+            "log into the core table",
           ],
         },
       ],
@@ -97,7 +97,7 @@ export const poiskovyePodskazkiEn: BlogPost = {
       title: "Role in semantics and content",
       level: 2,
       paras: [
-        "Suggestions hint at tails, refinements, and related questions: “price”, “reviews”, “DIY”, geo. Put them in the core, cluster, and cover with landings or FAQ blocks — not a separate “page per letter.”",
+        "Suggestions hint at tails, refinements, and related questions: “price,” “reviews,” “DIY,” geo. Put them in the core, cluster, and cover with landings or FAQ blocks — not a separate “page per letter.”",
         "If the answer is already in suggest (a fact, weather), some info traffic may never reach the site — for commerce, landings under “buy / order / price” demand matter more.",
       ],
       lists: [
@@ -107,13 +107,13 @@ export const poiskovyePodskazkiEn: BlogPost = {
             "enrich clusters with suggest wording",
             "strengthen H2/FAQ with real questions",
             "don’t spawn duplicate URLs per suggestion",
-            "match intent to the SERP.",
+            "match intent to the SERP",
           ],
         },
       ],
       links: [
         {
-          label: "Semantic core",
+          label: "Keyword research",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {
@@ -132,8 +132,8 @@ export const poiskovyePodskazkiEn: BlogPost = {
       notes: [
         {
           title: "Not practiced here",
-          text: "We don’t describe or recommend suggest-inflation schemes. If you see a “guaranteed place in suggestions” pitch — that’s a red flag.",
           kind: "tip",
+          text: "We don’t describe or recommend suggest-inflation schemes. If you see a “guaranteed place in suggestions” pitch — that’s a red flag.",
         },
       ],
       lists: [
@@ -143,7 +143,7 @@ export const poiskovyePodskazkiEn: BlogPost = {
             "useful content and social",
             "offline/online brand mentions",
             "stable product quality",
-            "ads with a memorable name.",
+            "ads with a memorable name",
           ],
         },
       ],
@@ -176,8 +176,8 @@ export const poiskovyePodskazkiEn: BlogPost = {
       notes: [
         {
           title: "Timelines",
-          text: "Expanding the core from suggest speeds wording coverage, but doesn’t guarantee TOP after adding an H2.",
           kind: "tip",
+          text: "Expanding the core from suggest speeds wording coverage, but doesn’t guarantee page one after adding an H2.",
         },
       ],
       links: [

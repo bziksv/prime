@@ -11,7 +11,7 @@ export const oshibkiNastroykiKontekstaEn: BlogPost = {
     "Typical setup misses in Direct and Ads: ads without contacts and extensions, Search vs networks, geo and ad-group structure, a dead landing, negatives, ad schedule, and remarketing — a checklist before scaling budget.",
   lead: [
     "Paid search isn’t “pour in keywords and wait for clients.” At setup you can lose clicks and money fast: no extensions, mixed surfaces, messy structure, a site that doesn’t open from the ad.",
-    "This is a setup-audit checklist — not a from-scratch strategy or a full KPI audit. See also articles on campaign management mistakes and the brief.",
+    "Below: common mistakes from setup audits (not a from-scratch strategy or a full KPI audit). Nearby — campaign management mistakes and the audit process. Interfaces change; hygiene still matters.",
   ],
   faq: [
     {
@@ -23,11 +23,11 @@ export const oshibkiNastroykiKontekstaEn: BlogPost = {
       a: "Where extensions are available (phone, sitelinks, address) — yes. They grow ad real estate and trust.",
     },
     {
-      q: "Should you run Search and Display/networks together?",
+      q: "Search and Display/networks together?",
       a: "Usually split them: different creatives, bids, and KPIs. Networks need banners/images; Search needs text and relevance.",
     },
     {
-      q: "Why should you split geo targeting?",
+      q: "Why split geo?",
       a: "To see where CPA is better and not mix cities with different margins and logistics in one campaign without need.",
     },
     {
@@ -35,7 +35,7 @@ export const oshibkiNastroykiKontekstaEn: BlogPost = {
       a: "No. A slow or crashing landing burns the click. Check the ad URL on mobile before launch.",
     },
     {
-      q: "Are negatives a once-and-done task?",
+      q: "Negatives once and done?",
       a: "No. The list is living: watch search terms and clean regularly.",
     },
     {
@@ -48,7 +48,7 @@ export const oshibkiNastroykiKontekstaEn: BlogPost = {
       title: "The ad and trust in the SERP",
       level: 2,
       paras: [
-        "A bare ad without sitelinks, callouts, phone, or a clean display path loses visibility to neighbors even in a good position.",
+        "A bare ad without sitelinks, callouts, phone, or a clean display path loses visibility to neighbors even with a strong slot.",
         "A favicon and a correct display URL boost brand recognition in the SERP; a broken icon or a meaningless subdomain path hurts CTR.",
         "The landing in the ad must match the promise: don’t send “PVC windows” to a homepage with a dozen services.",
       ],
@@ -114,7 +114,7 @@ export const oshibkiNastroykiKontekstaEn: BlogPost = {
             "geo and groups make sense",
             "landing opens on mobile",
             "goals and UTMs track",
-            "negatives and schedule set.",
+            "negatives and schedule set",
           ],
         },
       ],

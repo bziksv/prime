@@ -11,7 +11,7 @@ export const bazaEmailSocsetiEn: BlogPost = {
     "How to collect newsletter subscribers from social legally: lead forms, bio links, content magnets, and ads — with consent and without outdated YouTube annotations.",
   lead: [
     "A “subscriber list” here isn’t public followers — it’s email (or messenger) with consent to message. Social brings traffic and trust; you pull the contact onto your side so you’re not tied only to the feed algorithm.",
-    "Grow an email list from social with consent: forms, posts, ads, YouTube, and the site. No cold scraping of other people’s addresses and no gray-software catalogs. Site forms are covered separately.",
+    "Below: working collection channels — forms, posts, ads, YouTube/site. No cold scraping of other people’s addresses and no grey-software catalogs. Site forms are covered separately.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const bazaEmailSocsetiEn: BlogPost = {
       a: "A follower sees posts in the network. An email subscriber is your channel outside the feed. You need both loops, but the metrics differ.",
     },
     {
-      q: "Do you need privacy consent to collect emails?",
+      q: "Do you need privacy consent?",
       a: "Yes. A consent checkbox/copy and a processing policy are a required part of the form — not optional.",
     },
     {
@@ -27,11 +27,11 @@ export const bazaEmailSocsetiEn: BlogPost = {
       a: "Not as a strategy: ToS and law. Only opt-in via a form or the platform’s official lead ads.",
     },
     {
-      q: "Do YouTube annotations still work for list building?",
+      q: "Do YouTube annotations still work?",
       a: "Classic annotations are outdated. Use cards, end screens, the description, and a pinned comment with a link — per current YouTube tools.",
     },
     {
-      q: "Does a contest always yield a quality email list?",
+      q: "Does a contest always yield a quality list?",
       a: "It often attracts prize hunters. You need rules, anti-fraud, and segmentation: who came for a gift vs for value.",
     },
   ],
@@ -61,11 +61,9 @@ export const bazaEmailSocsetiEn: BlogPost = {
       ],
       notes: [
         {
-          kind: "tip",
           title: "Important",
-          paras: [
-            "Don’t promise a newsletter if you have no email handling and unsubscribe process — that hits domain reputation.",
-          ],
+          kind: "tip",
+          text: "Don’t promise a newsletter if you have no email handling and unsubscribe process — that hits domain reputation.",
         },
       ],
     },
@@ -90,14 +88,14 @@ export const bazaEmailSocsetiEn: BlogPost = {
       paras: [
         "Meta/VK and other paid social with a leads / traffic-to-form goal. Show warm audiences (followers, retargeting), not only broad cold.",
         "Frequency cap: 3–5 touches without conversion — reason to change creative, not increase pressure.",
-        "Creative should show the email’s value, not a stock “office in suits.”",
+        "Creative should show the email’s value, not a generic “office in suits” photo.",
       ],
     },
     {
       title: "Content, contests, YouTube",
       level: 2,
       paras: [
-        "Content magnet: PDF, template, live recording — for email. The topic should match what people already watch from you.",
+        "Content magnet: PDF, template, live recording — for email. The theme should match what people already watch from you.",
         "Contests: clear rules, bot checks, a separate “came for the prize” segment.",
         "YouTube: link in description, cards/end screen, pin — instead of dead 2015 annotations.",
       ],

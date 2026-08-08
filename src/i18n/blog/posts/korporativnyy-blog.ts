@@ -3,7 +3,7 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for korporativnyy-blog — same structure as RU JSON. */
 export const korporativnyyBlogEn: BlogPost = {
   slug: "korporativnyy-blog",
-  title: "Why companies need a corporate blog and where to start",
+  title: "Why companies need a corporate blog — and where to start",
   date: "2019-08-14",
   category: "Content marketing",
   cover: "/images/blog/korporativnyy-blog/cover-en.webp",
@@ -11,7 +11,7 @@ export const korporativnyyBlogEn: BlogPost = {
     "A corporate blog as a business tool: goals instead of “like everyone else,” a plan, budget, value for the audience, and choosing in-house vs agency.",
   lead: [
     "A company-site blog isn’t decoration and isn’t the CEO’s personal diary. It’s a content-marketing channel: traffic, expertise, warm-up toward a service. Without a goal the project quickly becomes a dump of random posts.",
-    "Why a blog is needed (and when it isn’t), how to set goals and budget, what to watch in competitors, and who will run it — below. The editorial calendar is also in the content-plan article.",
+    "Below: why a blog is needed (and when it isn’t), how to set goals and budget, what to watch in competitors, and who will run it. The editorial calendar is also in the content-plan article.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const korporativnyyBlogEn: BlogPost = {
     },
     {
       q: "Is a goal “like that famous brand magazine” OK?",
-      a: "As a quality bar — yes. As copying a format without your audience and economics — no. First your goal in leads/traffic/image.",
+      a: "As a quality bar — yes. As copying a format without your audience and economics — no. First your goal in leads, traffic, or image.",
     },
     {
       q: "How much does running a blog cost?",
@@ -31,7 +31,7 @@ export const korporativnyyBlogEn: BlogPost = {
       a: "Both. Traffic without value doesn’t convert; expertise without distribution and search is read by a few. Cases and guides usually beat generic tips.",
     },
     {
-      q: "Should I run it in-house or with an agency?",
+      q: "In-house or agency?",
       a: "Small volume — yourselves or a freelancer. Growing frequency and SEO/ads — a hybrid or an agency. The key is an owner of the goal inside the company.",
     },
     {
@@ -59,11 +59,11 @@ export const korporativnyyBlogEn: BlogPost = {
         {
           intro: "Before launch:",
           items: [
-            "one main business goal;",
-            "reader portrait;",
-            "categories and frequency;",
-            "KPIs for 3–6 months;",
-            "who owns the result.",
+            "one main business goal",
+            "reader portrait",
+            "categories and frequency",
+            "KPIs for 3–6 months",
+            "who owns the result",
           ],
         },
       ],
@@ -104,10 +104,10 @@ export const korporativnyyBlogEn: BlogPost = {
         {
           intro: "An effective blog rests on:",
           items: [
-            "a clear platform without endless breakages;",
-            "minimal pushy advertising;",
-            "expertise and openness;",
-            "regular metric reviews.",
+            "a clear platform without endless breakages",
+            "minimal pushy advertising",
+            "expertise and openness",
+            "regular metric reviews",
           ],
         },
       ],

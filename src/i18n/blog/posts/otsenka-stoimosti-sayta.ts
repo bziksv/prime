@@ -11,7 +11,7 @@ export const otsenkaStoimostiSaytaEn: BlogPost = {
     "Why people value sites, why pr-cy-style numbers diverge from a real deal, and which factors beat a one-click “magic” estimate.",
   lead: [
     "Online valuators promise a “site price” by domain in seconds. In practice it’s a rough order of magnitude with a huge spread: the same project can get wildly different figures across services — and still miss market price.",
-    "Online estimates are a rough order of magnitude, not a deal price. What moves a sale is traffic quality, revenue, assets, and risk — not TIC/PageRank from old calculators.",
+    "Below: why people look at those figures at all, what really moves price in a sale, and how not to confuse valuation with a growth audit. We skip outdated metrics like TIC/PageRank.",
   ],
   faq: [
     {
@@ -35,7 +35,7 @@ export const otsenkaStoimostiSaytaEn: BlogPost = {
       a: "Different weights for age, links, traffic, and “forecast income.” Without your books and risks, the model guesses.",
     },
     {
-      q: "If the online estimate went up, is the site worth more?",
+      q: "If the online estimate went up, is the site better?",
       a: "Not necessarily. The service method or external data noise may have changed. Watch your metrics: revenue, margin, traffic sources, conversion.",
     },
     {
@@ -48,7 +48,7 @@ export const otsenkaStoimostiSaytaEn: BlogPost = {
       title: "Why sites get valued",
       level: 2,
       paras: [
-        "Some projects are built for resale; some run as media with ads and affiliates. Valuation matters for a sale, investor talk, asset split, or simply to see: is the project growing as a business, or only looking good in search?",
+        "Some projects are built for resale; some run as media with ads and affiliates. Valuation matters for a sale, investor talk, asset split, or simply to see: is the project growing as a business, or only looking strong in search?",
         "An online figure is handy as a quick check, but a deal almost always rests on income, risks, and negotiation — not one widget.",
       ],
     },

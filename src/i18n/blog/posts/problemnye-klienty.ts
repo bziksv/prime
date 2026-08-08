@@ -10,8 +10,8 @@ export const problemnyeKlientyEn: BlogPost = {
   excerpt:
     "Unsure, know-it-all, aggressive, impulsive, cautious, chatty, dissatisfied, tactless, thrifty, demanding, and pessimist — portraits and workable replies without escalation.",
   lead: [
-    "A difficult client isn’t always “bad”: often it’s stress, fear of a mistake, or a habit of controlling price. Service error — answering emotion with emotion and getting a review that costs more than one deal.",
-    "Here are eleven types from sales and support practice (retail, e-com, services) with short reply patterns. These aren’t personality diagnoses — they’re guides for scripts and manager training.",
+    "A difficult client isn’t always “bad”: often it’s stress, fear of a mistake, or a habit of controlling price. The service mistake is answering emotion with emotion — and getting a review that costs more than one deal.",
+    "Below: eleven types from sales and support practice (retail, e-com, services) with short reply patterns. These aren’t personality diagnoses — they’re guides for scripts and manager training.",
   ],
   faq: [
     {
@@ -32,7 +32,7 @@ export const problemnyeKlientyEn: BlogPost = {
     },
     {
       q: "How does this relate to managing an online store?",
-      a: "Yes: part of the role is closing objections and conflict scenarios without losing margin or reputation.",
+      a: "Directly: part of the role is closing objections and conflict scenarios without losing margin or reputation.",
     },
   ],
   sections: [
@@ -52,7 +52,7 @@ export const problemnyeKlientyEn: BlogPost = {
             "listen and restate the problem in your words",
             "give a fact/frame (timing, price, stock)",
             "offer 1–2 clear next steps",
-            "lock the agreement in chat/CRM.",
+            "lock the agreement in chat/CRM",
           ],
         },
       ],

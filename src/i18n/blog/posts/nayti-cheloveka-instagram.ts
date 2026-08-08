@@ -11,8 +11,12 @@ export const naytiChelovekaInstagramEn: BlogPost = {
     "How to find an Instagram profile by username, name, hashtag, place, or contacts — without outdated screenshots or the myth that every action works without an account.",
   lead: [
     "Finding someone on Instagram is easiest by username or name in search. If you don’t have a handle — mutual friends, geotags, hashtags, and contact sync help.",
-    "App menus change; check the exact icons in your version. Without signing in, some profiles don’t open or are view-only. Below are the scenarios that still work. See the Meta notice on this page.",
+    "Below: working scenarios. App menus change; check the exact icons in your version. Without signing in, some profiles don’t open or are view-only. Meta disclaimer is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Can you view a profile without registering?",
@@ -31,7 +35,7 @@ export const naytiChelovekaInstagramEn: BlogPost = {
       a: "That one covers copying and building a URL. This one is finding a person when you don’t have a link yet.",
     },
     {
-      q: "Can you find someone via VK?",
+      q: "Can you search via VK?",
       a: "Sometimes people list Instagram on a VK profile or site. That’s a workaround, not official Instagram search.",
     },
   ],
@@ -65,7 +69,7 @@ export const naytiChelovekaInstagramEn: BlogPost = {
             "first and last name / brand",
             "a related hashtag",
             "geo if you know the place",
-            "mutual friends / photo tags.",
+            "mutual friends / photo tags",
           ],
         },
       ],
@@ -79,9 +83,9 @@ export const naytiChelovekaInstagramEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Important",
           text: "Finding someone isn’t stalking. Respect private accounts.",
-          kind: "tip",
         },
       ],
     },

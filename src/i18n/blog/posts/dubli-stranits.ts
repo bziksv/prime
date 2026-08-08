@@ -11,7 +11,7 @@ export const dubliStranitsEn: BlogPost = {
     "What counts as page duplicates, exact vs near-duplicates, where they come from on CMS and stores, what they do in search, and how to find and merge URLs.",
   lead: [
     "Duplicates are when the same or nearly the same meaning is available at different addresses. Search wastes crawl on copies, dilutes signals, and may show a version you don’t consider primary.",
-    "What counts as a duplicate, the common types and causes, SEO risks, and a practical order: find → choose a canon → merge or remove from the index. Redirects and deindexing tools are covered in sibling articles.",
+    "Below: what counts as a duplicate, the common types and causes, SEO risks, and a practical order: find → choose a canon → merge or remove from the index. Redirects and deindexing tools are covered in sibling articles.",
   ],
   faq: [
     {
@@ -44,7 +44,7 @@ export const dubliStranitsEn: BlogPost = {
     },
     {
       q: "How long should I wait after merging?",
-      a: "Recrawl and canon changes in the SERP aren’t instant: days–weeks, longer on big sites. Watch indexing reports — not “#1 tomorrow.”",
+      a: "Recrawl and canon changes in the SERP aren’t instant: days–weeks, longer on big sites. Watch indexing reports — not overnight rankings.",
     },
   ],
   sections: [
@@ -62,7 +62,7 @@ export const dubliStranitsEn: BlogPost = {
             "one title/H1 on several URLs",
             "the same main copy with different parameters",
             "www and non-www / http and https both return 200 without merging",
-            "filters and sorts spawn endless combinations in the index.",
+            "filters and sorts spawn endless combinations in the index",
           ],
         },
       ],
@@ -87,7 +87,7 @@ export const dubliStranitsEn: BlogPost = {
             "`example.com` and `www.example.com` without 301",
             "http and https both in the index",
             "URLs with `?utm_…` next to the clean one",
-            "a copy at `/index.php` and the pretty URL.",
+            "a copy at `/index.php` and the pretty URL",
           ],
         },
         {
@@ -96,7 +96,7 @@ export const dubliStranitsEn: BlogPost = {
             "sort and pagination as separate “full” documents",
             "color+size filter vs color on the same listing",
             "a print page with the same text",
-            "blog tag/category duplicates with the same collections.",
+            "blog tag/category duplicates with the same collections",
           ],
         },
       ],
@@ -122,13 +122,13 @@ export const dubliStranitsEn: BlogPost = {
             "GET parameters (sort, filter, tags, session)",
             "several templates for one entity",
             "section copies after a redesign without 301",
-            "external links to “dirty” URLs that got indexed.",
+            "external links to “dirty” URLs that got indexed",
           ],
         },
       ],
       notes: [
         {
-          title: "Practice tip",
+          title: "Practice",
           kind: "tip",
           text: "Fix the systemic cause first (canon rule, mirror redirects), or manual URL cleanup never ends.",
         },
@@ -154,7 +154,7 @@ export const dubliStranitsEn: BlogPost = {
             "thousands of URLs in the index for hundreds of useful ones",
             "canon flips in panels",
             "duplicate titles in the crawl",
-            "weak indexing of new sections while filters are fat.",
+            "weak indexing of new sections while filters are heavy",
           ],
         },
       ],
@@ -180,7 +180,7 @@ export const dubliStranitsEn: BlogPost = {
             "parameter sample (?sort, ?utm, session)",
             "catalog pagination and filters",
             "repeated title/H1",
-            "subdomains and staging in the index.",
+            "subdomains and staging in the index",
           ],
         },
       ],
@@ -196,7 +196,7 @@ export const dubliStranitsEn: BlogPost = {
       level: 2,
       paras: [
         "Pick one preferred URL per entity. Internal links, sitemap, and ads should point to it. The rest — 301 (if not needed) or canonical / agreed noindex (if needed for UX).",
-        "Don’t Disallow in robots.txt what you want cleaned with noindex without crawl — the bot may never see the directive. Don’t pile redirect chains. After fixes, recrawl and index monitoring are part of the job — not “click once and forget”.",
+        "Don’t Disallow in robots.txt what you want cleaned with noindex without crawl — the bot may never see the directive. Don’t pile redirect chains. After fixes, recrawl and index monitoring are part of the job — not “click once and forget.”",
       ],
       lists: [
         {
@@ -206,7 +206,7 @@ export const dubliStranitsEn: BlogPost = {
             "`rel=\"canonical\"` to the preferred document",
             "meta robots / X-Robots-Tag for utility and some parametric URLs",
             "URL parameter settings in webmaster panels",
-            "CMS template fixes so new duplicates don’t spawn.",
+            "CMS template fixes so new duplicates don’t spawn",
           ],
         },
       ],
@@ -214,7 +214,7 @@ export const dubliStranitsEn: BlogPost = {
         {
           title: "Common mistake",
           kind: "tip",
-          text: "Merging everything to the homepage “just in case”. You lose landing meaning and dilute the home. Canon is the nearest meaningful URL of the same entity.",
+          text: "Merging everything to the homepage “just in case.” You lose landing meaning and dilute the home. Canon is the nearest meaningful URL of the same entity.",
         },
       ],
       links: [

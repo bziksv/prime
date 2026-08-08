@@ -8,18 +8,22 @@ export const klikabelnayaSsylkaEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/klikabelnaya-ssylka/cover-en.webp",
   excerpt:
-    "How an active link differs from plain text, how to create one in HTML and an editor, nuances in social apps and Word. Anchor text, target, and common mistakes.",
+    "How an active link differs from plain text, how to create one in HTML and an editor, nuances in social apps and Word — plus anchor text, target, and common mistakes.",
   lead: [
     "A clickable (active) link opens another URL on click. An inactive one is just an address string you copy by hand. On the web you almost always want real active links.",
-    "HTML markup, visual editors, and a short note on social apps and documents — the practical how-to. Hypertext theory is a separate article.",
+    "Below: HTML markup, visual editors, and a short note on social apps and documents. Hypertext theory is a separate article; this is the practical how-to.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Why is an active link better than a bare URL?",
       a: "One click instead of copy-paste into the address bar. More convenient and fewer typos.",
     },
     {
-      q: "What’s the minimum HTML for a link?",
+      q: "What’s the minimum HTML?",
       a: "`<a href=\"https://example.com/\">Link text</a>`. For a new tab add `target=\"_blank\"` and preferably `rel=\"noopener\"`.",
     },
     {
@@ -47,10 +51,10 @@ export const klikabelnayaSsylkaEn: BlogPost = {
         {
           intro: "A link can look like:",
           items: [
-            "anchor text;",
-            "a button;",
-            "an image map;",
-            "a URL the editor auto-linked.",
+            "anchor text",
+            "a button",
+            "an image map",
+            "a URL the editor auto-linked",
           ],
         },
       ],
@@ -71,10 +75,10 @@ export const klikabelnayaSsylkaEn: BlogPost = {
         {
           intro: "Common attributes:",
           items: [
-            "`target=\"_blank\"` — new tab;",
-            "`rel=\"noopener noreferrer\"` — safer with `_blank`;",
-            "`title` — hover hint (optional);",
-            "anchor `href=\"#block\"` — jump inside the page.",
+            "`target=\"_blank\"` — new tab",
+            "`rel=\"noopener noreferrer\"` — safer with `_blank`",
+            "`title` — hover hint (optional)",
+            "anchor `href=\"#block\"` — jump inside the page",
           ],
         },
       ],
@@ -82,6 +86,7 @@ export const klikabelnayaSsylkaEn: BlogPost = {
         {
           title: "Practice",
           text: "Check that the URL is complete and uses https for external sites. A typo in href = a dead link.",
+          kind: "tip",
         },
       ],
     },
@@ -96,10 +101,10 @@ export const klikabelnayaSsylkaEn: BlogPost = {
         {
           intro: "Steps are almost always the same:",
           items: [
-            "select a word, phrase, or image;",
-            "open the link tool;",
-            "paste the destination URL;",
-            "save and test with a click.",
+            "select a word, phrase, or image",
+            "open the link tool",
+            "paste the destination URL",
+            "save and test with a click",
           ],
         },
       ],
@@ -111,11 +116,11 @@ export const klikabelnayaSsylkaEn: BlogPost = {
         "Clickability rules differ. On VKontakte a URL in a post often becomes active by itself; communities use short and full page addresses.",
         "On Instagram clickability is format-limited: a profile-header link or official Stories/ads fields are more reliable — not a “magic code in comments” from old guides.",
       ],
-      lists: [],
       notes: [
         {
-          title: "Note",
+          title: "Info",
           text: "Social UIs change. Follow the platform’s current help, not 2020 screenshots.",
+          kind: "tip",
         },
       ],
     },
@@ -130,10 +135,10 @@ export const klikabelnayaSsylkaEn: BlogPost = {
         {
           intro: "Typical mistakes:",
           items: [
-            "anchors like “here” / “more” with no meaning;",
-            "broken or http URLs when https exists;",
-            "links to a “work in progress” utility page;",
-            "too many useless outbound links.",
+            "anchors like “here” / “more” with no meaning",
+            "broken or http URLs when https exists",
+            "links to a “work in progress” utility page",
+            "too many useless outbound links",
           ],
         },
       ],

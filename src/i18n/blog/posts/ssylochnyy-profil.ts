@@ -8,10 +8,10 @@ export const ssylochnyyProfilEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/ssylochnyy-profil/cover-en.webp",
   excerpt:
-    "How to quickly assess backlinks for a page and domain: referring domains, anchors, toxicity, trends, and competitor comparison — without “TOP in a week” magic.",
+    "How to quickly assess backlinks for a page and domain: referring domains, anchors, toxicity, trends, and competitor comparison — without “page one in a week” magic.",
   lead: [
-    "A backlink profile isn’t “how many backlinks are in the report.” It’s a picture: who links, from which domains and IPs, with which anchors, how natural it looks, and what to do with obvious junk.",
-    "In 30–60 minutes you can take a snapshot, compare with competitors, and separate noise from signal. Tool numbers diverge — trends and quality matter more than chasing one metric.",
+    "A backlink profile is not “how many backlinks are in the report.” It is a picture: who links, from which domains and IPs, with which anchors, how natural it looks, and what to do with obvious junk.",
+    "Below: a practical 30–60 minute pass — take a snapshot, compare with competitors, and separate noise from signal. Tool numbers diverge; trends and quality matter more than chasing one metric.",
   ],
   faq: [
     {
@@ -27,8 +27,8 @@ export const ssylochnyyProfilEn: BlogPost = {
       a: "Referring domains or roots and donor quality usually matter more than thousands of links from one satellite.",
     },
     {
-      q: "Should I disavow everything “toxic”?",
-      a: "Don’t mass-disavow “just in case.” First remove what you control (your networks, bought junk). Use Disavow surgically and deliberately.",
+      q: "Should you disavow everything “toxic”?",
+      a: "Do not mass-disavow “just in case.” First remove what you control (your networks, bought junk). Use Disavow surgically and deliberately.",
     },
     {
       q: "What does the anchor list show?",
@@ -36,7 +36,7 @@ export const ssylochnyyProfilEn: BlogPost = {
     },
     {
       q: "Why compare with a competitor?",
-      a: "To see order of magnitude and donor types in the niche. Don’t copy someone else’s spam one-to-one.",
+      a: "To see order of magnitude and donor types in the niche. Do not copy someone else’s spam one-to-one.",
     },
     {
       q: "Is half an hour realistic?",
@@ -44,7 +44,7 @@ export const ssylochnyyProfilEn: BlogPost = {
     },
     {
       q: "Do links guarantee growth?",
-      a: "No. Without content, tech, and relevance, links barely help. The profile is one signal next to page quality. Planned TOP growth still takes months of work — not a backlink checkbox. Prep and cleanup are not the same as ranking in the TOP.",
+      a: "No. Without content, tech, and relevance, links barely help. The profile is one signal next to page quality.",
     },
   ],
   sections: [
@@ -52,17 +52,17 @@ export const ssylochnyyProfilEn: BlogPost = {
       title: "What’s in a “profile” and why audit",
       level: 2,
       paras: [
-        "A profile usually covers: volume and growth of links/domains, donor types (media, directories, forums, guest posts, UGC), anchors, dofollow/nofollow share, geography, and suspicious clusters (same IP/C-class, template sites).",
+        "A profile usually covers: volume and growth of links and domains, donor types (media, directories, forums, guest posts, UGC), anchors, dofollow/nofollow share, geography, and suspicious clusters (same IP or C-class, template sites).",
         "Audit before promotion, after a spike or drop, when buying a domain, and when you suspect negatives or an old link tail.",
       ],
       lists: [
         {
           intro: "In half an hour you want to answer:",
           items: [
-            "is there obvious spam and networks;",
-            "how loudly do anchors scream commerce;",
-            "are we growing vs competitors;",
-            "what 5–10 actions go to the backlog.",
+            "is there obvious spam and networks",
+            "how loudly do anchors scream commerce",
+            "are we growing versus competitors",
+            "what 5–10 actions go to the backlog",
           ],
         },
       ],
@@ -78,18 +78,18 @@ export const ssylochnyyProfilEn: BlogPost = {
         {
           intro: "Minimum numbers on a sheet:",
           items: [
-            "referring domains / roots;",
-            "new and lost over 30–90 days;",
-            "dofollow share;",
-            "top-20 donors by the tool’s “weight”;",
-            "top anchors.",
+            "referring domains / roots",
+            "new and lost over 30–90 days",
+            "dofollow share",
+            "top-20 donors by the tool’s “weight”",
+            "top anchors",
           ],
         },
       ],
       notes: [
         {
-          title: "Common mistake",
           kind: "tip",
+          title: "Common mistake",
           text: "Comparing one tool’s “links” to another’s “domains” and celebrating a win. Compare the same entities.",
         },
       ],
@@ -99,17 +99,17 @@ export const ssylochnyyProfilEn: BlogPost = {
       level: 2,
       paras: [
         "A good niche donor: live traffic or brand, topical proximity, normal indexing, a contextual link. A bad one: template “300-word articles,” farms, hacked sites, endless link directories, a sharp spike from identical templates.",
-        "Review the top and the tail: sometimes “pretty” numbers sit on dozens of junk domains. Separately check IP/hosting clusters — mass links from one network look unnatural.",
+        "Review the top and the tail: sometimes “pretty” numbers sit on dozens of junk domains. Separately check IP and hosting clusters — mass links from one network look unnatural.",
       ],
       lists: [
         {
           intro: "Red flags:",
           items: [
-            "growth explosion without PR or content;",
-            "anchors = pure commercial keywords in batches;",
-            "donors with noindex / not in search;",
-            "one CMS theme on hundreds of “sites”;",
-            "links only from directory footers/sidebars.",
+            "growth explosion without PR or content",
+            "anchors = pure commercial keywords in batches",
+            "donors with noindex / not in search",
+            "one CMS theme on hundreds of “sites”",
+            "links only from directory footers or sidebars",
           ],
         },
       ],
@@ -124,17 +124,17 @@ export const ssylochnyyProfilEn: BlogPost = {
       title: "Anchors, traffic, and the target page",
       level: 2,
       paras: [
-        "Anchor list: a healthy mix of brand, URL, neutral (“here,” “source”), and a moderate keyword share. If 80% is “buy X cheap” from different domains, risk is higher than a calm branded profile.",
+        "Anchor list: a healthy mix of brand, URL, neutral (“here,” “source”), and a moderate keyword share. If 80% is “buy X cheap” from different domains, risk is higher than with a calm branded profile.",
         "For an important landing, see where links actually go: homepage, article, product. Sometimes the domain profile is strong while the target URL has almost no mentions — then work content and internal links, not only acquisition.",
       ],
       lists: [
         {
           intro: "Quick sorts:",
           items: [
-            "new links this month — what appeared;",
-            "donors with traffic vs “dead”;",
-            "shared donors with 2–3 competitors (outreach ideas);",
-            "broken/redirecting donors — hygiene.",
+            "new links this month — what appeared",
+            "donors with traffic versus “dead”",
+            "shared donors with two or three competitors (outreach ideas)",
+            "broken or redirecting donors — hygiene",
           ],
         },
       ],
@@ -149,17 +149,17 @@ export const ssylochnyyProfilEn: BlogPost = {
       title: "Competitor comparison",
       level: 2,
       paras: [
-        "Take 2–3 URLs or domains from the TOP for target queries. Compare referring-domain order of magnitude, branded-anchor share, media and industry sites. Goal — niche “norm,” not copying spam.",
-        "If a competitor is stronger via old editorial links, your plan is content and mentions — not a link exchange. If everyone has tons of directories, judge whether that still works in your niche or it’s legacy.",
+        "Take two or three URLs or domains from page one for target queries. Compare referring-domain order of magnitude, branded-anchor share, media and industry sites. Goal — niche “norm,” not copying spam.",
+        "If a competitor is stronger via old editorial links, your plan is content and mentions — not a link exchange. If everyone has tons of directories, judge whether that still works in your niche or it is legacy.",
       ],
       lists: [
         {
           intro: "What to write in the takeaway:",
           items: [
-            "domain gap (order of magnitude);",
-            "site types you lack;",
-            "suspicious practices you won’t repeat;",
-            "1–2 hypotheses for the month (content, PR, cleanup).",
+            "domain gap (order of magnitude)",
+            "site types you lack",
+            "suspicious practices you will not repeat",
+            "one or two hypotheses for the month (content, PR, cleanup)",
           ],
         },
       ],
@@ -174,25 +174,25 @@ export const ssylochnyyProfilEn: BlogPost = {
       title: "What to do after the screen",
       level: 2,
       paras: [
-        "Split actions: (1) remove or fix controlled junk; (2) strengthen the page and internal links; (3) a plan for natural mentions; (4) monthly monitoring. Don’t mix “buy 500 links” with an audit — different jobs.",
-        "Treat this as the canonical quick profile screen among related link-mass posts: same depth, angle — fast screening. Remember: preparing the profile is not the same as landing in the TOP; ranking gains are planned over 2–6 months.",
+        "Split actions: (1) remove or fix controlled junk; (2) strengthen the page and internal links; (3) a plan for natural mentions; (4) monthly monitoring. Do not mix “buy 500 links” with an audit — different jobs.",
+        "Treat this as the canonical quick profile screen among related link-mass posts: same depth, angle — fast screening.",
       ],
       lists: [
         {
           intro: "Week checklist:",
           items: [
-            "top-donor table + status;",
-            "list to remove/disavow (if yours);",
-            "future anchor policy;",
-            "alert on abnormal growth;",
-            "tie-in to tech audit and content plan.",
+            "top-donor table + status",
+            "list to remove or disavow (if yours)",
+            "future anchor policy",
+            "alert on abnormal growth",
+            "tie-in to tech audit and content plan",
           ],
         },
       ],
       notes: [
         {
-          title: "Tip",
           kind: "tip",
+          title: "Practice",
           text: "A link report without conclusions as tasks is scrap paper. Every flag needs an owner and a deadline.",
         },
       ],

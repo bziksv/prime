@@ -11,7 +11,7 @@ export const proverkaUnikalnostiEn: BlogPost = {
     "How uniqueness differs from “anti-plagiarism for a percentage,” why check texts before publish, and how to use online tools without chasing 100% at any cost.",
   lead: [
     "Low uniqueness often signals copy-paste, compilation, or weak rewriting of others’ materials. Search engines compare fragments; users and clients also notice “I’ve read this somewhere.”",
-    "Why the check matters, how to read match percentages, and how to work with online services. Keyword density and “nausea” are a separate topic (see text stuffing).",
+    "Below: why the check matters, how to read match percentages, and how to work with online services. Keyword density and “nausea” are a separate topic (see text stuffing).",
   ],
   faq: [
     {
@@ -59,7 +59,7 @@ export const proverkaUnikalnostiEn: BlogPost = {
             "new landings and commercial pages",
             "blog posts and expert materials",
             "exchange texts and new-author copy",
-            "updating old pages with outside chunks.",
+            "updating old pages with outside chunks",
           ],
         },
       ],
@@ -84,7 +84,7 @@ export const proverkaUnikalnostiEn: BlogPost = {
           items: [
             "long paragraphs identical to a competitor",
             "matches with exchange “unique” templates",
-            "text that became meaningless after edits “for the percentage.”",
+            "text that became meaningless after edits “for the percentage”",
           ],
         },
       ],
@@ -111,12 +111,13 @@ export const proverkaUnikalnostiEn: BlogPost = {
             "run a check",
             "rewrite problem chunks in your own words",
             "align keywords without stuffing",
-            "publish and watch indexing.",
+            "publish and watch indexing",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Important",
           text: "Uniqueness doesn’t replace usefulness and structure. Empty but “100% unique” copy is worse than a strong page with honest quotes and source links.",
         },
@@ -137,7 +138,7 @@ export const proverkaUnikalnostiEn: BlogPost = {
             "check the doc for personal data",
             "remove internal comments and draft notes",
             "lock version and check date",
-            "confirm whether the service stores uploaded text.",
+            "confirm whether the service stores uploaded text",
           ],
         },
       ],
@@ -150,7 +151,6 @@ export const proverkaUnikalnostiEn: BlogPost = {
         "Don’t use synonymizers and auto word swaps for a percentage. They break terminology, create unnatural phrasing, and often leave the original logic recognizable. Users notice before any algorithm does.",
         "Quotes are fine when needed and honest: a short fragment, a clear source, and your analysis around it. Don’t hide others’ text behind sentence reshuffling.",
       ],
-      lists: [],
     },
     {
       title: "Build the check into the editorial process",
@@ -160,7 +160,6 @@ export const proverkaUnikalnostiEn: BlogPost = {
         "After the check, do normal editing: facts, structure, usefulness, terminology, grammar, and natural keywords. Unique text that doesn’t answer the user’s question still isn’t a good page.",
         "Watch internal duplicates too. Two of your articles answering one query almost the same way can compete — sometimes split by intent or merge them.",
       ],
-      lists: [],
       links: [
         {
           label: "Text stuffing",

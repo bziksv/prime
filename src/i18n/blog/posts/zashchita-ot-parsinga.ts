@@ -8,10 +8,10 @@ export const zashchitaOtParsingaEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/zashchita-ot-parsinga/cover-en.webp",
   excerpt:
-    "Protecting a site from aggressive scraping: bot behavior, honeypots, IP analysis/limits, WAF/CDN — and why you mustn’t cut search crawlers together with the bad actors.",
+    "Protecting a site from aggressive scraping: bot behavior, honeypots, IP analysis and limits, WAF/CDN — and why you mustn’t cut search crawlers together with the bad actors.",
   lead: [
-    "Scrapers harvest prices, copy, reviews, and full catalogs. You can’t make a public site scraper-proof, but you can raise the cost of collection and limit damage to performance and SEO.",
-    "Practical layers and common mistakes — without explaining how to bypass protection. What scraping is and where ethical collection ends are covered elsewhere; this piece is for site owners.",
+    "Scrapers harvest prices, copy, reviews, and catalogs. You can’t fully “close” a site against a motivated collector, but you can make collection much costlier and cut damage to the server and SEO.",
+    "Below: practical defense layers and common mistakes. What scraping is and where ethical collection ends live in a neighboring piece; here — the site owner’s side. No instructions on defeating protection.",
   ],
   faq: [
     {
@@ -23,7 +23,7 @@ export const zashchitaOtParsingaEn: BlogPost = {
       a: "No. You need “good” search crawlers and preview services. Cut anomalous traffic, not all robotic traffic.",
     },
     {
-      q: "Does robots.txt help against scrapers?",
+      q: "Does robots.txt help?",
       a: "For well-behaved robots — yes. A malicious scraper ignores it; it’s not the only defense.",
     },
     {
@@ -59,24 +59,24 @@ export const zashchitaOtParsingaEn: BlogPost = {
       level: 2,
       paras: [
         "Classic captcha on every step annoys. More modern — risk scoring (bot/human) and a challenge only when suspicious. Cookies/session reduce repeated checks for returning users.",
-        "Remember: captcha-solving services exist — one captcha won’t stop a determined collector. Combine with request limits.",
+        "Remember: paid captcha-solving services exist — one captcha alone won’t stop a determined collector. Combine with request limits.",
       ],
     },
     {
       title: "Honeypot, IP, and limits",
       level: 2,
       paras: [
-        "Honeypot: a hidden element a bot clicks/fills. The event is a log signal and a reason to tighten rules for the IP/session.",
+        "Honeypot: a hidden element a bot clicks or fills. The event is a log signal and a reason to tighten rules for that IP or session.",
         "IP signals (hosting vs consumer ISP, PTR for known crawlers) help but break with proxies. Rate limit is more reliable: many URLs/sec from one address → throttle or a temporary ban. Separately tell a traffic spike from a DDoS.",
       ],
       lists: [
         {
           intro: "When to cut access:",
           items: [
-            "anomalous RPS from one IP/subnet;",
-            "bypassing typical human patterns;",
-            "mass catalog crawl with no referrer / weird UA;",
-            "attacks on forms and the admin area.",
+            "anomalous RPS from one IP/subnet",
+            "traffic that skips typical human patterns",
+            "mass catalog crawl with no referrer / odd UA",
+            "attacks on forms and the admin area",
           ],
         },
       ],
@@ -99,19 +99,19 @@ export const zashchitaOtParsingaEn: BlogPost = {
         {
           intro: "Practical minimum:",
           items: [
-            "rate limit on catalog and API;",
-            "monitoring 5xx and log anomalies;",
-            "honeypot on forms;",
-            "captcha/challenge by risk;",
-            "don’t cut search crawlers;",
-            "backups and catalog integrity checks.",
+            "rate limit on catalog and API",
+            "monitoring 5xx and log anomalies",
+            "honeypot on forms",
+            "captcha/challenge by risk",
+            "don’t cut search crawlers",
+            "backups and catalog integrity checks",
           ],
         },
       ],
     },
   ],
   closing: [
-    "Scraping protection is about making collection expensive and keeping UX/SEO — not an “invisible site”. Start with limits and monitoring, add risk-based captcha, and don’t block white crawlers together with the bad actors.",
+    "Scraping protection is about making collection expensive and keeping UX/SEO — not an “invisible site.” Start with limits and monitoring, add risk-based captcha, and don’t block white crawlers together with the bad actors.",
   ],
   related: [
     "zashchita-kontenta",

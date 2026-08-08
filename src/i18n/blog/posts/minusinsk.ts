@@ -10,8 +10,8 @@ export const minusinskEn: BlogPost = {
   excerpt:
     "What the Minusinsk algorithm is: sanctions for low-quality link spam, how to suspect a problem, what to do with junk backlinks, and how it differs from text filters like Baden-Baden.",
   lead: [
-    "Minusinsk was a Yandex wave against manipulative link spam: cheap submissions and “links for TOP rankings” packs hurt rankings more than they helped. The announcement is tied to 2015; donor-quality logic hasn’t disappeared since.",
-    "What was punished, how to tell a link hit from seasonality, and what to do without gray-hat “removal schemes.” Broader drop diagnosis is in the filters piece.",
+    "Minusinsk was a Yandex wave against manipulative link spam: cheap submissions and “links for rankings” packs hurt positions more than they helped. The announcement is tied to 2015; donor-quality logic hasn’t disappeared since.",
+    "Below: what was punished, how to tell a link hit from seasonality, and what to do without gray-hat “removal schemes.” Broader drop diagnosis is in the filters piece; buying links is a separate risk article.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const minusinskEn: BlogPost = {
       a: "The name is historical. Yandex weighs link spam continuously. Don’t wait for a wave calendar as the only lever.",
     },
     {
-      q: "How is this different from Baden-Baden?",
+      q: "How is it different from Baden-Baden?",
       a: "Minusinsk is about links. Baden-Baden is about over-optimized text.",
     },
     {
@@ -27,8 +27,8 @@ export const minusinskEn: BlogPost = {
       a: "More for quality and unnatural mass — not for “few/many” by itself.",
     },
     {
-      q: "Am I banned forever under Minusinsk?",
-      a: "Usually not: after cleaning the profile and recrawl, rankings can return. Timeline — months (often in the 2–6 month range of systematic recovery work), not days. Don’t promise a ranking date.",
+      q: "Am I banned forever?",
+      a: "Usually not: after cleaning the profile and a recrawl, rankings can return. Timeline — months, not days. Don’t promise a page-one date.",
     },
     {
       q: "Will buying even more links help?",
@@ -40,7 +40,7 @@ export const minusinskEn: BlogPost = {
     },
     {
       q: "How do I check the backlink profile?",
-      a: "Webmaster plus Ahrefs/Serpstat/analog exports: donors, anchors, dynamics. See backlink profile.",
+      a: "Webmaster plus Ahrefs/Serpstat/analog exports: donors, anchors, dynamics. See the backlink profile article.",
     },
   ],
   sections: [
@@ -49,7 +49,7 @@ export const minusinskEn: BlogPost = {
       level: 2,
       paras: [
         "While links stayed a strong signal, the market flooded with exchanges and submission runs. Yandex answered harder on sold and irrelevant mass.",
-        "Not only “small” sites got hit: large projects with aggressive buying suffered too. A count of “trusted” links didn’t save weak quality.",
+        "Not only small sites got hit: large projects with aggressive buying suffered too. A count of “trusted” links didn’t save weak quality.",
       ],
       links: [
         {
@@ -76,7 +76,7 @@ export const minusinskEn: BlogPost = {
             "drop date vs buying/submission history",
             "demand in Wordstat year over year",
             "Webmaster: security and quality",
-            "a slice of donors and anchors.",
+            "a slice of donors and anchors",
           ],
         },
       ],
@@ -109,7 +109,7 @@ export const minusinskEn: BlogPost = {
   ],
   notes: {
     title: "Important",
-    text: "Minusinsk 2015+ is a historical name for link sanctions. Check current rules in Yandex Help. Don’t use this piece as a guide to manipulation or a “bypass.”",
+    text: "Minusinsk 2015+ is a historical name for link sanctions. Check current rules in Yandex Help. Don’t use this piece as a guide to manipulation or a bypass.",
   },
   closing: [
     "If you recently bought packs or ran submissions — first clean controllable junk and check the profile in Webmaster; that sits closer to Minusinsk logic than another cheap link batch.",

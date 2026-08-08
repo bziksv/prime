@@ -8,15 +8,15 @@ export const menedzherParoleyEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/menedzher-paroley/cover-en.webp",
   excerpt:
-    "Why a password manager matters personally and for a team: unique passwords, 2FA, selection criteria — without an outdated TOP-3 and 2018 prices.",
+    "Why a password manager matters personally and for a team: unique passwords, 2FA, selection criteria — without an outdated “best of three” listicle and 2018 prices.",
   lead: [
     "Dozens of accounts won’t fit in your head or a passwords.txt file. A password manager stores unique strong passwords in an encrypted vault, fills forms, and helps share access by rules — instead of sending a password in a chat.",
-    "Personal mode differs from team mode; pick by platforms, 2FA, and sharing rules — not an outdated listicle. Specific prices, “TOP-3” lists, and a dozen-tool roundup from 2018 are stale: some products left the market; others changed pricing and reputation after incidents. Check the vendor’s current site.",
+    "Below: why you need one, how personal mode differs from team mode, and what to watch when choosing. Specific prices, “best of three” lists, and a dozen-tool roundup from 2018 are stale: some products left the market; others changed pricing and reputation after incidents. Check the vendor’s current site.",
   ],
   faq: [
     {
       q: "Isn’t one memorized password safer than a manager?",
-      a: "Reusing the same password on many sites is worse: a leak on one service opens the rest. Manager + unique passwords + 2FA is the baseline.",
+      a: "Reusing the same password on many sites is worse: a leak on one service opens the rest. Manager, unique passwords, and 2FA is the baseline.",
     },
     {
       q: "What if the password manager itself is breached?",
@@ -41,7 +41,7 @@ export const menedzherParoleyEn: BlogPost = {
       level: 2,
       paras: [
         "The job isn’t “remember everything” — it’s stop repeating weak passwords and storing them in notes. The manager generates long random passwords, keeps them in a vault, and fills login fields.",
-        "For marketers and SEO it’s especially visible: ad accounts, analytics, client CMS, email. One reused password = a risk chain across several projects.",
+        "For marketers and SEO it’s especially visible: ad accounts, analytics, client CMS, email. One reused password is a risk chain across several projects.",
       ],
       lists: [
         {
@@ -50,7 +50,7 @@ export const menedzherParoleyEn: BlogPost = {
             "strong password generation",
             "autofill in browsers and apps",
             "sync across devices",
-            "cards/notes vault (by product)",
+            "cards or notes vault (by product)",
             "secure sharing (personal or team)",
           ],
         },
@@ -90,7 +90,7 @@ export const menedzherParoleyEn: BlogPost = {
       title: "What to watch when choosing",
       level: 2,
       paras: [
-        "Don’t chase a “TOP-3 2018” ranking. Check platforms (Windows/macOS/iOS/Android/Linux), extensions for your browsers, encryption model, 2FA, export/import for migration, company policy, and incident history.",
+        "Don’t chase a 2018 “best of three” ranking. Check platforms (Windows, macOS, iOS, Android, Linux), extensions for your browsers, encryption model, 2FA, export/import for migration, company policy, and incident history.",
         "Don’t copy prices from old reviews into a contract: plans and free limits changed. Cost per person per year and who administers it matter.",
       ],
       lists: [
@@ -109,8 +109,8 @@ export const menedzherParoleyEn: BlogPost = {
       notes: [
         {
           title: "About “old stars” on the list",
-          text: "The original TOP included products like Splikity and niche utilities — some are no longer relevant. LastPass, 1Password, Bitwarden, KeePass/KeePassXC, OS/browser keychains, and team vaults (Passwork-class and similar) are category landmarks, not ads. Verify product status yourself.",
           kind: "tip",
+          text: "The original roundup included products like Splikity and niche utilities — some are no longer relevant. LastPass, 1Password, Bitwarden, KeePass/KeePassXC, OS/browser keychains, and team vaults (Passwork-class and similar) are category landmarks, not ads. Verify product status yourself.",
         },
       ],
     },
@@ -118,7 +118,7 @@ export const menedzherParoleyEn: BlogPost = {
       title: "Solution classes, not brand cult",
       level: 2,
       paras: [
-        "Cloud managers are convenient for sync. Local/self-hosted tools (KeePass and similar) give file control but need backup discipline. Built-in browser and OS managers are a good start if you live in one ecosystem.",
+        "Cloud managers are convenient for sync. Local or self-hosted tools (KeePass and similar) give file control but need backup discipline. Built-in browser and OS managers are a good start if you live in one ecosystem.",
         "For business the process matters more: who grants access, how it’s revoked, whether shared “department” passwords are banned.",
       ],
     },

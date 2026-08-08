@@ -8,10 +8,10 @@ export const samostoyatelnoeSeoEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/samostoyatelnoe-seo/cover-en.webp",
   excerpt:
-    "A step-by-step DIY SEO plan for a site owner: prep, tech, keywords, content, and off-site factors — without “TOP in a week” promises or buying spam links.",
+    "A step-by-step DIY SEO plan for a site owner: prep, tech, keywords, content, and off-site factors — without “page one in a week” promises or buying spam links.",
   lead: [
-    "You can promote a site yourself: it’s work and discipline, not a “secret button.” Beginners often rush into links and forget tech, the keyword set, and pages.",
-    "Here’s a practical work order plus links to deeper guides. Getting a commercial keyword set into the TOP is planned in months, not days.",
+    "You can promote a site yourself: it’s work and discipline, not a secret button. Beginners often rush into links and forget tech, the keyword set, and pages.",
+    "Below: a practical work order plus links to deeper guides. Getting a commercial keyword set onto page one is planned in months, not days.",
   ],
   faq: [
     {
@@ -23,15 +23,15 @@ export const samostoyatelnoeSeoEn: BlogPost = {
       a: "Indexing, Webmaster/Search Console, analytics, tech, a draft keyword set, and priority landings. Not buying links.",
     },
     {
-      q: "When should I expect TOP-10?",
-      a: "Site prep takes weeks. Building positions across the set is planned for 2–6 months of work. Prep ≠ TOP date.",
+      q: "When should I expect page-one rankings?",
+      a: "Site prep takes weeks. Building positions across the set is planned for two to six months of work. Prep is not a ranking date.",
     },
     {
       q: "Do I need to buy links?",
       a: "Mass buying is a risk. Content and natural mentions first; links — deliberately and with quality.",
     },
     {
-      q: "How is this different from “SEO from zero”?",
+      q: "How is this different from “SEO from scratch”?",
       a: "That article is a path into the profession. This one is an owner checklist of work steps.",
     },
     {
@@ -50,10 +50,10 @@ export const samostoyatelnoeSeoEn: BlogPost = {
         {
           intro: "Start:",
           items: [
-            "Webmaster and Search Console;",
-            "Yandex Metrica / analytics;",
-            "regional signals and contacts;",
-            "a tech look: speed, mobile, 404s, redirects.",
+            "Webmaster and Search Console",
+            "Yandex Metrika / analytics",
+            "regional signals and contacts",
+            "a tech look: speed, mobile, 404s, redirects",
           ],
         },
       ],
@@ -74,11 +74,11 @@ export const samostoyatelnoeSeoEn: BlogPost = {
         {
           intro: "Order:",
           items: [
-            "keyword set and clusters;",
-            "URL structure and menu;",
-            "copy and media on landings;",
-            "snippets without stuffing;",
-            "internal linking.",
+            "keyword set and clusters",
+            "URL structure and menu",
+            "copy and media on landings",
+            "snippets without stuffing",
+            "internal linking",
           ],
         },
       ],
@@ -88,14 +88,15 @@ export const samostoyatelnoeSeoEn: BlogPost = {
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {
-          label: "SEO from zero",
+          label: "SEO from scratch",
           href: "/en/blog/seo-s-nulya/",
         },
       ],
       notes: [
         {
           title: "Timelines",
-          text: "Prep (tech, keywords, copy) often takes about a month. TOP across the set is a separate stage of 2–6 months of growing positions.",
+          kind: "tip",
+          text: "Prep (tech, keywords, copy) often takes about a month. Page-one share of the core is a separate stage — typically two to six months of growing positions after work starts.",
         },
       ],
     },
@@ -109,10 +110,10 @@ export const samostoyatelnoeSeoEn: BlogPost = {
         {
           intro: "Don’t do early on:",
           items: [
-            "mass “automatic” link buying;",
-            "cloning someone else’s copy;",
-            "expecting TOP a week after Title edits;",
-            "ignoring the mobile version.",
+            "mass automatic link buying",
+            "cloning someone else’s copy",
+            "expecting page one a week after Title edits",
+            "ignoring the mobile version",
           ],
         },
       ],
@@ -134,10 +135,10 @@ export const samostoyatelnoeSeoEn: BlogPost = {
         {
           intro: "Critical minimum:",
           items: [
-            "pages return correct 200, 301, 404 codes;",
-            "no accidental indexing block;",
-            "the site is usable and loads on mobile;",
-            "HTTPS and the main mirror are set consistently.",
+            "pages return correct 200, 301, 404 codes",
+            "no accidental indexing block",
+            "the site is usable and loads on mobile",
+            "HTTPS and the main mirror are set consistently",
           ],
         },
       ],
@@ -153,10 +154,10 @@ export const samostoyatelnoeSeoEn: BlogPost = {
         {
           intro: "For each group lock:",
           items: [
-            "intent and query region;",
-            "target page;",
-            "key user questions;",
-            "priority by demand and business value.",
+            "intent and query region",
+            "target page",
+            "key user questions",
+            "priority by demand and business value",
           ],
         },
       ],
@@ -166,16 +167,16 @@ export const samostoyatelnoeSeoEn: BlogPost = {
       level: 2,
       paras: [
         "Build a backlog: tech tasks, landing updates, content, internal linking, and analytics. Note change dates and expected effect — easier to see what moved traffic instead of repeating actions at random.",
-        "Site prep — tech, keywords, copy, and CTAs — often takes about a month. Rankings grow later and unevenly: a noticeable chunk of the set may start moving around months 2–3, and the planned TOP horizon is 2–6 months, with no guaranteed date.",
+        "Site prep — tech, keywords, copy, and CTAs — often takes about a month. Rankings grow later and unevenly: a noticeable chunk of the set may start moving around months two to three, and the planned page-one horizon is two to six months, with no guaranteed date.",
       ],
       lists: [
         {
           intro: "A healthy monthly report includes:",
           items: [
-            "organic traffic and conversions;",
-            "cluster visibility, not one “main” phrase;",
-            "fixed errors and new tasks;",
-            "lead quality and sales feedback.",
+            "organic traffic and conversions",
+            "cluster visibility, not one “main” phrase",
+            "fixed errors and new tasks",
+            "lead quality and sales feedback",
           ],
         },
       ],

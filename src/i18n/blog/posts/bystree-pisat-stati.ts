@@ -5,13 +5,13 @@ export const bystreePisatStatiEn: BlogPost = {
   slug: "bystree-pisat-stati",
   title: "How to write articles faster without losing quality",
   date: "2019-12-18",
-  category: "Digital marketing",
+  category: "Content marketing",
   cover: "/images/blog/bystree-pisat-stati/cover-en.webp",
   excerpt:
     "How to speed up article writing: work mode, outline, draft without mid-flight edits, breaks, and touch typing — without racing to “more orders at any cost.”",
   lead: [
     "A copywriter gets faster not from sleepless nights with ten orders, but from a clear brief, an outline, and discipline: fewer context switches mean fewer revisions.",
-    "Writing faster is mostly setup and craft: briefs, research order, draft-then-edit, and fewer distractions. The “how to write an article” algorithm is separate; the client brief lives in the copywriter brief piece.",
+    "Below: work setup and craft skills. The “how to write an article” playbook is separate; the client brief lives in the copywriter-brief piece.",
   ],
   faq: [
     {
@@ -27,7 +27,7 @@ export const bystreePisatStatiEn: BlogPost = {
       a: "Full draft first, then proofread. Fixing every typo mid-flow slows the stream.",
     },
     {
-      q: "Can you write articles with music on?",
+      q: "Can you write with music on?",
       a: "Some can, some can’t. If you catch yourself listening instead of writing — silence or white noise.",
     },
     {
@@ -35,12 +35,12 @@ export const bystreePisatStatiEn: BlogPost = {
       a: "From a headline outline — or from the middle; write the intro later.",
     },
     {
-      q: "Is touch typing required to write faster?",
+      q: "Is touch typing required?",
       a: "Not required, but it helps. The point is looking at keys less and holding the thought.",
     },
     {
       q: "Does everyone need speed reading?",
-      a: "The useful skill is quickly pulling the point from sources. “Miracle courses” don’t replace understanding the topic.",
+      a: "The useful skill is quickly pulling the point from sources. “Miracle courses” don’t replace understanding the subject.",
     },
   ],
   sections: [
@@ -81,11 +81,11 @@ export const bystreePisatStatiEn: BlogPost = {
         {
           intro: "Short pace checklist:",
           items: [
-            "clear brief or your own brief;",
-            "outline before typing;",
-            "one focus time block;",
-            "edit after the draft;",
-            "break before eye fatigue.",
+            "clear brief or your own brief",
+            "outline before typing",
+            "one focus time block",
+            "edit after the draft",
+            "break before eye fatigue",
           ],
         },
       ],

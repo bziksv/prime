@@ -11,7 +11,7 @@ export const raskrutkaYoutubeEn: BlogPost = {
     "Where to start a YouTube channel: niche, packaging, script, video formats, posting cadence, content ideas, and subscriber growth without empty promises.",
   lead: [
     "Growing on YouTube isn’t a “viral hit in a week” — it’s niche, regular videos, clear packaging, and audience work. For beginners a system beats a lucky hit.",
-    "Channel start, formats, attracting subscribers, and topic ideas. Algorithms and Studio menus change — lean on the substance, not button screenshots.",
+    "Below: channel start, formats, attracting subscribers, and topic ideas. Algorithms and Studio menus change — lean on the substance, not button screenshots.",
   ],
   faq: [
     {
@@ -50,7 +50,7 @@ export const raskrutkaYoutubeEn: BlogPost = {
             "one clear niche",
             "viewer portrait",
             "draft content plan for 8–12 videos",
-            "name, avatar, banner, description.",
+            "name, avatar, banner, description",
           ],
         },
       ],
@@ -80,13 +80,14 @@ export const raskrutkaYoutubeEn: BlogPost = {
             "thumbnail readable at small size",
             "description with the point and on-topic keywords",
             "timestamps if the video is long",
-            "cards/end screens to the next videos.",
+            "cards/end screens to the next videos",
           ],
         },
       ],
       notes: [
         {
           title: "Practice",
+          kind: "tip",
           text: "Don’t launch an empty channel. At least 2–3 ready videos + a month plan lowers the risk of quitting after the first upload.",
         },
       ],
@@ -95,7 +96,7 @@ export const raskrutkaYoutubeEn: BlogPost = {
       title: "Video formats",
       level: 2,
       paras: [
-        "Pick the format for the niche and your capacity: you don’t need to film “like the top creators” at every turn.",
+        "Pick the format for the niche and your capacity: you don’t need to film like the biggest channels at every turn.",
       ],
       lists: [
         {
@@ -125,13 +126,14 @@ export const raskrutkaYoutubeEn: BlogPost = {
             "collabs with nearby channels",
             "announcements on your socials and email",
             "subscribe CTA at the end once value is delivered",
-            "analytics review: retention, traffic sources.",
+            "analytics review: retention, traffic sources",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
+          kind: "tip",
           text: "Chasing only subscribers. Viewers who finish and return matter more — that’s what the recommendation feed is built on.",
         },
       ],
@@ -143,13 +145,12 @@ export const raskrutkaYoutubeEn: BlogPost = {
         "Lock a rhythm you can actually keep. Missing the schedule for months is worse than rare but steady uploads.",
         "Reputation: honest thumbnail promises, respect for the audience, platform rules. Complaints and misleading content hit the channel harder than “too few posts”.",
       ],
-      lists: [],
     },
     {
       title: "Content ideas",
       level: 2,
       paras: [
-        "Take ideas from audience questions, comments, adjacent niches, and your experience. directions, not ready scripts: adapt them.",
+        "Take ideas from audience questions, comments, adjacent niches, and your experience. Below — directions, not ready scripts: adapt them.",
       ],
       lists: [
         {
@@ -159,7 +160,7 @@ export const raskrutkaYoutubeEn: BlogPost = {
             "tool / product reviews",
             "before/after cases and beginner mistakes",
             "interviews and joint lives",
-            "lifestyle niches: sport, home, cars, games, travel — only if that’s your expertise.",
+            "lifestyle niches: sport, home, cars, games, travel — only if that’s your expertise",
           ],
         },
       ],

@@ -10,9 +10,13 @@ export const inflyuenserMarketingEn: BlogPost = {
   excerpt:
     "When creator ads work, how micro differs from mega, how to measure results, and why “just a trend” without audience checks burns budget.",
   lead: [
-    "An influencer is a creator with audience trust who can deliver an offer softer than a banner. It’s not magic and not a mandatory “trend of the year”: the channel works when audience fit, live reactions, and an honest integration line up.",
-    "Businesses use creators for trust and warm-up — when audience fit, live reactions, and honest labeling line up. Reach tiers and risks help separate fashion from a measurable tool. Finding an Instagram blogger in practice is covered in a related article. The Meta disclaimer is on the page.",
+    "An influencer is a creator with audience trust who can deliver an offer softer than a banner. It’s not magic and not a mandatory trend of the year: the channel works when audience fit, live reactions, and an honest integration line up.",
+    "Below: why businesses use creators, reach tiers, risks, and how to separate fashion from a measurable tool. Finding an Instagram blogger in practice is covered in a related article. The Meta notice is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Is an influencer only a millionaire account?",
@@ -27,7 +31,7 @@ export const inflyuenserMarketingEn: BlogPost = {
       a: "People are tired of hidden ads and fake enthusiasm. Clear labeling and real product experience reduce rejection.",
     },
     {
-      q: "How do you know it’s not “fashion for fashion’s sake”?",
+      q: "How do you know it’s not fashion for fashion’s sake?",
       a: "There’s a hypothesis, audience, offer, measurement (promo code/UTM/CRM), and creator selection criteria — not “everyone does it.”",
     },
     {
@@ -50,7 +54,7 @@ export const inflyuenserMarketingEn: BlogPost = {
             "a complex or emotional product",
             "you need warm-up and trust",
             "there’s a clear CTA and measurement",
-            "the creator is truly close to the niche.",
+            "the creator is truly close to the niche",
           ],
         },
       ],
@@ -59,7 +63,7 @@ export const inflyuenserMarketingEn: BlogPost = {
       title: "Micro, macro, mega — without number worship",
       level: 2,
       paras: [
-        "Rough size tiers help orientation, but boundaries drift. Interest fit and comment quality matter more than “a million at any cost.”",
+        "Rough size tiers help orientation, but boundaries drift. Interest fit and comment quality matter more than a million at any cost.",
         "Large creators have wider reach and thinner conversation density. Micro often has higher ER and a cheaper hypothesis test.",
       ],
       lists: [
@@ -69,7 +73,7 @@ export const inflyuenserMarketingEn: BlogPost = {
             "offer test — several micros",
             "awareness scale — mid/macro with a live base",
             "celebrity — brand jobs and a big budget",
-            "always — anti-fake checks and relevance.",
+            "always — anti-fake checks and relevance",
           ],
         },
       ],
@@ -81,11 +85,9 @@ export const inflyuenserMarketingEn: BlogPost = {
       ],
       notes: [
         {
-          kind: "tip",
           title: "Figures from roundups",
-          paras: [
-            "Share-of-mention and “2019 trends” from old media studies aren’t market facts today. Check current rates, ER, and your niche.",
-          ],
+          kind: "tip",
+          text: "Share-of-mention and “2019 trends” from old media studies aren’t market facts today. Check current rates, ER, and your niche.",
         },
       ],
     },
@@ -94,7 +96,7 @@ export const inflyuenserMarketingEn: BlogPost = {
       level: 2,
       paras: [
         "Instagram, YouTube, VK, Telegram, Twitch, and others — different scenarios: review, Stories integration, stream, native in an episode.",
-        "Platform choice = where your audience lives, not where “influencer talk is trendy right now.”",
+        "Platform choice = where your audience lives, not where influencer talk is trendy right now.",
       ],
       links: [
         {
@@ -113,16 +115,16 @@ export const inflyuenserMarketingEn: BlogPost = {
       paras: [
         "Hidden ads and forced hype hurt brand and creator. Label integrations per platform rules and law.",
         "Bought followers give empty reach. Check growth dynamics, comments, geo, and ER before paying.",
-        "Separately — responsibility toward vulnerable audiences (kids, harmful products): offer and tone must be ethical, not only “viral.”",
+        "Separately — responsibility toward vulnerable audiences (kids, harmful products): offer and tone must be ethical, not only viral.",
       ],
       lists: [
         {
           intro: "Red flags:",
           items: [
             "refusal of a promo code/UTM",
-            "only a “reach guarantee” with no method",
+            "only a reach guarantee with no method",
             "identical bots in comments",
-            "the creator never used the product.",
+            "the creator never used the product",
           ],
         },
       ],
@@ -153,7 +155,7 @@ export const inflyuenserMarketingEn: BlogPost = {
     },
   ],
   closing: [
-    "Pick one micro creator in your niche, agree a promo code, and compare leads with a normal week — fairer than arguing “fad or not.”",
+    "Pick one micro creator in your niche, agree a promo code, and compare leads with a normal week — fairer than arguing fad or not.",
   ],
   related: [
     "bloger-dlya-reklamy-instagram",

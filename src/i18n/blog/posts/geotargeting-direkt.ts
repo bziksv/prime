@@ -5,13 +5,13 @@ export const geotargetingDirektEn: BlogPost = {
   slug: "geotargeting-direkt",
   title: "Geotargeting in Yandex Direct: search, networks, and advanced options",
   date: "2017-05-05",
-  category: "Contextual advertising",
+  category: "Paid search",
   cover: "/images/blog/geotargeting-direkt/cover-en.webp",
   excerpt:
-    "How geo works in DMs on search and in networks, why advanced geotargeting exists, and how not to burn budget on other cities — without outdated 2017 screenshots.",
+    "How geo works in Yandex Direct on search and in networks, why advanced geotargeting exists, and how not to burn budget on other cities — without outdated 2017 screenshots.",
   lead: [
-    "Geotargeting in Yandex Direct limits impressions to people and queries tied to the regions you need. For local business it’s one of the main CTR and cost-per-lead levers: there’s little sense running “window repair” nationwide if you only travel across the oblast.",
-    "In 2017 Yandex strengthened geo in networks (RSYA): not only the region in the query, but the user’s habitual place. Search vs. network logic, what the advanced options mean, and practical setup tips.",
+    "Geotargeting in Yandex Direct limits impressions to people and queries tied to the regions you need. For local business it’s one of the main CTR and cost-per-lead levers: there’s little sense running “window repair” nationwide if you only travel across the region.",
+    "In 2017 Yandex strengthened geo in networks (YAN): not only the region in the query, but the user’s habitual place. Below: search vs network logic, what the advanced options mean, and practical setup. Match exact toggle names in the current account and Direct Help.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const geotargetingDirektEn: BlogPost = {
     },
     {
       q: "What is advanced geotargeting?",
-      a: "Historically — a networks fine-tune: show ads to someone from your region even when they’re temporarily elsewhere (business trip, vacation), using habitual location data. Current option wording is in DMs help.",
+      a: "Historically — a networks fine-tune: show ads to someone from your region even when they’re temporarily elsewhere (business trip, vacation), using habitual location data. Current option wording is in Direct Help.",
     },
     {
       q: "Should advanced geotargeting always be on?",
@@ -40,12 +40,12 @@ export const geotargetingDirektEn: BlogPost = {
     },
     {
       q: "Do I still need a site region?",
-      a: "For SEO and maps — yes, a separate track. Ad geo in DMs doesn’t replace the site region in Webmaster or an organization listing.",
+      a: "For SEO and maps — yes, a separate track. Ad geo in Direct doesn’t replace the site region in Webmaster or an organization listing.",
     },
   ],
   sections: [
     {
-      title: "Why geo in DMs",
+      title: "Why geo in Direct",
       level: 2,
       paras: [
         "A large share of ads with geo is normal: you pay for people who can physically or logistically take the offer. That raises the share of useful clicks and cuts spend on clearly foreign regions.",
@@ -58,7 +58,7 @@ export const geotargetingDirektEn: BlogPost = {
             "one city / agglomeration",
             "several branches as separate campaigns",
             "a delivery zone as a polygon",
-            "excluding regions you don’t serve.",
+            "excluding regions you don’t serve",
           ],
         },
       ],
@@ -68,11 +68,12 @@ export const geotargetingDirektEn: BlogPost = {
       level: 2,
       paras: [
         "On search users often name the city in the query or search from the right region. Campaign geo cuts impressions outside selected areas and keeps you from competing where you don’t serve.",
-        "For tours, tickets, and some “remote” offers geo logic can differ: people search a destination while sitting in another city. Don’t copy local-service settings onto travel without help checks and tests.",
+        "For tours, tickets, and some “remote” offers geo logic can differ: people search a destination while sitting in another city. Don’t copy local-service settings onto travel without Help checks and tests.",
       ],
       notes: [
         {
           title: "Important",
+          kind: "tip",
           text: "Watch region reports: impressions sometimes leak through wide settings, autotargeting, or overlapping groups.",
         },
       ],
@@ -81,7 +82,7 @@ export const geotargetingDirektEn: BlogPost = {
       title: "Networks and advanced geotargeting",
       level: 2,
       paras: [
-        "In RSYA demand is more deferred: people read articles and watch videos not at “buy today.” Advanced geo (in the 2017 announcement logic) helps reach an audience with a “home” region even if they’re elsewhere now.",
+        "In YAN demand is more deferred: people read articles and watch videos not at “buy today.” Advanced geo (in the 2017 announcement logic) helps reach an audience with a “home” region even if they’re elsewhere now.",
         "Example: a Petersburg resident on vacation in Sochi may still see relevant ads for a Petersburg service if the option and offer allow it. Click lifts in that period’s research looked modest (about a percent) — plan a test, not a miracle.",
         "Turn the option on deliberately: for same-day city delivery a traveler may be waste; for online booking, an online store with shipping, or a deferred service — useful.",
       ],
@@ -92,7 +93,7 @@ export const geotargetingDirektEn: BlogPost = {
             "purchase is possible remotely",
             "the client will return to the home city",
             "the offer isn’t tied to a visit “here and now”",
-            "you have analytics to compare with the option off.",
+            "you have analytics to compare with the option off",
           ],
         },
       ],
@@ -102,7 +103,7 @@ export const geotargetingDirektEn: BlogPost = {
       level: 2,
       paras: [
         "Start with a hard region list = service area. Add negative phrases with other cities if semantics pulls them in. For networks separately check that interest reach isn’t too wide with a narrow geo.",
-        "Match option names in the account: “advanced geotargeting,” location refinements, and polygons evolved. Don’t rely on 2017 screenshots — on meaning: who counts as “your” region.",
+        "Match option names in the account: “advanced geotargeting,” location refinements, and polygons evolved. Don’t rely on 2017 screenshots — focus on meaning: who counts as “your” region.",
       ],
       lists: [
         {
@@ -112,7 +113,7 @@ export const geotargetingDirektEn: BlogPost = {
             "the landing promises the same city/zone",
             "phone and address don’t mislead",
             "advanced geo on only if the offer allows",
-            "Metrika/CRM has a region cut.",
+            "Metrika/CRM has a region cut",
           ],
         },
       ],
@@ -139,8 +140,8 @@ export const geotargetingDirektEn: BlogPost = {
       title: "Practical takeaway",
       level: 2,
       paras: [
-        "Geotargeting in DMs is a required budget-control layer. Advanced network options help “home” audiences while away, but aren’t universal.",
-        "Test on/off, watch cost per lead by region, and don’t confuse ad geo with registration in the closed Yandex.Catalog or a “region checkbox” without a real service.",
+        "Geotargeting in Direct is a required budget-control layer. Advanced network options help “home” audiences while away, but aren’t universal.",
+        "Test on/off, watch cost per lead by region, and don’t confuse ad geo with a “region checkbox” without a real service in that area.",
       ],
       tables: [
         {
@@ -148,7 +149,7 @@ export const geotargetingDirektEn: BlogPost = {
           headers: ["Channel", "Basis"],
           rows: [
             ["Search", "Query, settings region, location"],
-            ["Networks (RSYA)", "Profile, behavior, “home” city"],
+            ["Networks (YAN)", "Profile, behavior, “home” city"],
             ["Advanced geo", "Reaching travelers from your region"],
             ["Hyperlocal", "Tight radius/polygon at a point"],
           ],
@@ -162,4 +163,4 @@ export const geotargetingDirektEn: BlogPost = {
     "byudzhet-yandeks-direkt",
     "regionalnoe-seo",
   ],
-} as BlogPost;
+};

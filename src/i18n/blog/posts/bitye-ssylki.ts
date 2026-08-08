@@ -11,31 +11,31 @@ export const bityeSsylkiEn: BlogPost = {
     "What broken links are (404 and other errors), how they hurt UX and SEO, how to find them with a crawler, and what to do: edit, 301, or remove.",
   lead: [
     "A broken link points to an unavailable URL: 404, 410, timeout, a broken redirect chain. The user hits a dead end, the bot wastes crawl budget, and internal link equity leaks nowhere.",
-    "Broken links waste crawl budget and frustrate people. Find, prioritize, and fix them — don’t mass-redirect every 404 to home. That hides the problem and confuses people and search.",
+    "Below: how to find, prioritize, and fix them. Mass-redirecting every 404 to the homepage is bad practice — it hides the problem and confuses both people and search.",
   ],
   faq: [
     {
-      q: "Do broken links mean only 404 errors?",
-      a: "Most often yes, but 5xx, redirects to nowhere, and soft-404 (page returns 200 but means “not found”) also hurt. Check code and content.",
+      q: "Do broken links mean only 404?",
+      a: "Most often yes, but 5xx, redirects to nowhere, and soft-404 (page returns 200 but means “not found”) also hurt. Check status code and content.",
     },
     {
-      q: "Do broken links affect rankings?",
-      a: "Indirectly: worse UX, lost internal link flow, crawl junk. One or two links won’t “kill” a site; systemic mess in menus and templates will.",
+      q: "Do they affect rankings?",
+      a: "Indirectly: worse UX, lost internal link flow, crawl junk. One or two links won’t kill a site; systemic mess in menus and templates will.",
     },
     {
-      q: "What tools should you use to find broken links?",
+      q: "What should I use to find them?",
       a: "Crawlers (Screaming Frog and peers), Webmaster/Search Console reports, server logs, spot checks after slug changes.",
     },
     {
-      q: "Should you always use a 301 redirect?",
+      q: "Should I always use a 301?",
       a: "If there’s a close-in-meaning page — yes. If the topic is gone — a correct 404/410 and fix the outbound link. Don’t redirect “just to get 200.”",
     },
     {
-      q: "Should you fix broken outbound external links?",
+      q: "What about broken outbound external links?",
       a: "Fix or remove those too: they hurt trust and the reader, especially in old pieces and a “partners” footer.",
     },
     {
-      q: "How often should you check for broken links?",
+      q: "How often should I check?",
       a: "Right after releases and migrations. For a stable site — at least quarterly. Priority: templates, traffic URLs, and addresses with external backlinks.",
     },
     {
@@ -59,10 +59,10 @@ export const bityeSsylkiEn: BlogPost = {
         {
           intro: "Where it breaks most often:",
           items: [
-            "menu, footer, breadcrumbs after a structure change;",
-            "cards and “similar” blocks on the storefront;",
-            "old blog posts with outdated URLs;",
-            "buttons and banners in email/account templates.",
+            "menu, footer, breadcrumbs after a structure change",
+            "cards and “similar” blocks on the storefront",
+            "old blog posts with outdated URLs",
+            "buttons and banners in email/account templates",
           ],
         },
       ],
@@ -82,16 +82,16 @@ export const bityeSsylkiEn: BlogPost = {
       level: 2,
       paras: [
         "Crawl the site, export 404s from Webmaster and Search Console, cross-check logs after a slug change. One source isn’t enough: the crawler sees internal links, panels show what search engines saw, logs show real hits from people and bots.",
-        "Build a table right away: broken URL, status code, source page, hit count. Then the report becomes a task queue — not an endless list of “red lines” with no owner.",
+        "Build a table right away: broken URL, status code, source page, hit count. Then the report becomes a task queue — not an endless list of red lines with no owner.",
       ],
       lists: [
         {
           intro: "Mini check set:",
           items: [
-            "full crawl (or at least priority sections);",
-            "“pages with errors” report in accounts;",
-            "log sample of 404s for a period;",
-            "manual click through menu/footer after a release.",
+            "full crawl (or at least priority sections)",
+            "pages-with-errors report in accounts",
+            "log sample of 404s for a period",
+            "manual click through menu/footer after a release",
           ],
         },
       ],
@@ -117,18 +117,19 @@ export const bityeSsylkiEn: BlogPost = {
         {
           intro: "First:",
           items: [
-            "navigation and footer;",
-            "service and product pages;",
-            "materials with organic traffic;",
-            "URLs with external backlinks;",
-            "then — the tail of old posts.",
+            "navigation and footer",
+            "service and product pages",
+            "materials with organic traffic",
+            "URLs with external backlinks",
+            "then — the tail of old posts",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
-          text: "Fixing random 404s from the “long tail” while a broken section link hangs in the header. Start with templates.",
+          kind: "tip",
+          text: "Fixing random 404s from the long tail while a broken section link hangs in the header. Start with templates.",
         },
       ],
     },
@@ -136,18 +137,18 @@ export const bityeSsylkiEn: BlogPost = {
       title: "How to fix: edit, 301, 410",
       level: 2,
       paras: [
-        "Fix the href to a live URL, restore the needed page, set a 301 to a close-in-meaning address, or remove the link. For a section move, prepare a redirect map ahead — not “as complaints arrive.”",
+        "Fix the href to a live URL, restore the needed page, set a 301 to a close-in-meaning address, or remove the link. For a section move, prepare a redirect map ahead — not as complaints arrive.",
         "A 301 is justified when old and new pages share user intent. A redirect “just for 200,” especially to home, doesn’t help people and hides a structure hole. If the content is gone for good — honest 404/410 plus remove the outbound link.",
       ],
       lists: [
         {
           intro: "Algorithm for one URL:",
           items: [
-            "find every source of the link;",
-            "decide whether the target page is still needed;",
-            "choose: edit href / 301 / 410 / remove;",
-            "shorten redirect chains;",
-            "recrawl and cross-check reports.",
+            "find every source of the link",
+            "decide whether the target page is still needed",
+            "choose: edit href / 301 / 410 / remove",
+            "shorten redirect chains",
+            "recrawl and cross-check reports",
           ],
         },
       ],
@@ -173,9 +174,9 @@ export const bityeSsylkiEn: BlogPost = {
         {
           intro: "Practice:",
           items: [
-            "internal — into the backlog after every crawl;",
-            "external — selectively in evergreen pieces;",
-            "don’t leave broken partner buttons in the footer for years.",
+            "internal — into the backlog after every crawl",
+            "external — selectively in evergreen pieces",
+            "don’t leave broken partner buttons in the footer for years",
           ],
         },
       ],
@@ -191,10 +192,10 @@ export const bityeSsylkiEn: BlogPost = {
         {
           intro: "Avoid:",
           items: [
-            "all 404 → home;",
-            "ignoring broken links in a template for years;",
-            "redirect to irrelevance “just for 200”;",
-            "slug change without a 301 map.",
+            "all 404 → home",
+            "ignoring broken links in a template for years",
+            "redirect to irrelevance “just for 200”",
+            "slug change without a 301 map",
           ],
         },
       ],
@@ -216,17 +217,18 @@ export const bityeSsylkiEn: BlogPost = {
         {
           intro: "Closing the case:",
           items: [
-            "recrawl without critical 404s in templates;",
-            "manual smoke of menu/footer;",
-            "drop in hits to old 404s in logs;",
-            "note in backlog/wiki “what we did.”",
+            "recrawl without critical 404s in templates",
+            "manual smoke of menu/footer",
+            "drop in hits to old 404s in logs",
+            "note in backlog/wiki what you did",
           ],
         },
       ],
       notes: [
         {
           title: "SEO timelines",
-          text: "Cleaning broken links is part of prep and hygiene. TOP across a commercial set is planned for 2–6 months after work starts — a separate horizon.",
+          kind: "tip",
+          text: "Cleaning broken links is part of prep and hygiene. Page-one share for a commercial core is planned for two to six months after work starts — a separate horizon.",
         },
       ],
       links: [

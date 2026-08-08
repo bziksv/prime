@@ -11,7 +11,7 @@ export const uznatCmsEn: BlogPost = {
     "How to identify a site engine from HTML, meta generator, paths, cookies, and online detectors — and what to do if the CMS is hidden or custom.",
   lead: [
     "Knowing a competitor’s or another project’s CMS helps estimate the stack, plugins, and typical SEO limits. That’s open-signal reconnaissance — not hacking.",
-    "Start with HTML and Network paths, cross-check robots and cookies, then confirm with one or two detectors. “Nothing found” often means custom code or a well-hidden generator — not a broken tool.",
+    "Below: manual code review, what to check in robots and URLs, online detectors, and why “nothing found” often means custom code or a well-hidden generator. For a nearby WP article without the `-2` suffix, treat this as the canon.",
   ],
   faq: [
     {
@@ -59,11 +59,11 @@ export const uznatCmsEn: BlogPost = {
         {
           intro: "Quick Ctrl+F:",
           items: [
-            "`generator`;",
-            "`wp-content` / `wp-includes`;",
-            "`bitrix`;",
-            "`opencart` / `catalog/view`;",
-            "`tilda`, `wix`, `shopify`.",
+            "`generator`",
+            "`wp-content` / `wp-includes`",
+            "`bitrix`",
+            "`opencart` / `catalog/view`",
+            "`tilda`, `wix`, `shopify`",
           ],
         },
       ],
@@ -92,10 +92,10 @@ export const uznatCmsEn: BlogPost = {
         {
           intro: "What to record:",
           items: [
-            "public paths from robots;",
-            "product/article URL pattern;",
-            "cookie names in Application;",
-            "login/admin response without password guessing — only that a public URL exists if it’s open.",
+            "public paths from robots",
+            "product/article URL pattern",
+            "cookie names in Application",
+            "login/admin response without password guessing — only that a public URL exists if it’s open",
           ],
         },
       ],
@@ -111,10 +111,10 @@ export const uznatCmsEn: BlogPost = {
         {
           intro: "Practical tips:",
           items: [
-            "run the URL in 1–2 tools;",
-            "confirm with code markers;",
-            "record a version only if it’s explicit;",
-            "don’t scan the admin with vulnerability scanners “while you’re at it.”",
+            "run the URL in 1–2 tools",
+            "confirm with code markers",
+            "record a version only if it’s explicit",
+            "don’t scan the admin with vulnerability scanners “while you’re at it”",
           ],
         },
       ],
@@ -130,10 +130,10 @@ export const uznatCmsEn: BlogPost = {
         {
           intro: "Takeaway for the work:",
           items: [
-            "does the client have code/admin access;",
-            "need a CMS or custom developer;",
-            "typical SEO modules yes/no;",
-            "hour estimate for the stack.",
+            "does the client have code/admin access",
+            "need a CMS or custom developer",
+            "typical SEO modules yes/no",
+            "hour estimate for the stack",
           ],
         },
       ],
@@ -154,10 +154,10 @@ export const uznatCmsEn: BlogPost = {
         {
           intro: "Remember:",
           items: [
-            "markers get faked and stripped;",
-            "multisite and headless confuse detection;",
-            "CMS version in generator meta can be stale;",
-            "plugins ≠ proof of the core, but strengthen the hypothesis.",
+            "markers get faked and stripped",
+            "multisite and headless confuse detection",
+            "CMS version in generator meta can be stale",
+            "plugins ≠ proof of the core, but strengthen the hypothesis",
           ],
         },
       ],
@@ -173,17 +173,17 @@ export const uznatCmsEn: BlogPost = {
         {
           intro: "Recon checklist:",
           items: [
-            "View Source + Network;",
-            "robots/sitemap;",
-            "1–2 external detectors;",
-            "CMS hypothesis + confidence;",
-            "no vulnerability scans.",
+            "View Source + Network",
+            "robots/sitemap",
+            "1–2 external detectors",
+            "CMS hypothesis + confidence",
+            "no vulnerability scans",
           ],
         },
       ],
       notes: [
         {
-          title: "Tip",
+          title: "In practice",
           kind: "tip",
           text: "“Detect CMS” ≠ get access. Public markers are the ceiling of legal recon.",
         },

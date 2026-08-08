@@ -11,7 +11,7 @@ export const otmetkiInstagramEn: BlogPost = {
     "Why tag accounts in Instagram Stories and posts, which limits and mistakes get in the way, and how to use tags for collaborations — without outdated click-path tutorials.",
   lead: [
     "A tag (@handle or a photo tag) gives a quick jump to another profile and notifies the tagged person. For business that’s collaborations, partner mentions, and navigation across your own accounts.",
-    "Tags help collabs and navigation — when you use them with consent and without spam. The app UI changes often; check limits and menu labels in the current Instagram version.",
+    "Below: what the feature is for, typical rules and mistakes, and useful scenarios. The app UI changes; check limits and menu labels in the current Instagram version.",
   ],
   legalNotice: {
     title: "Note",
@@ -95,9 +95,9 @@ export const otmetkiInstagramEn: BlogPost = {
         "Wrong handle, a space after @, over the limit, a tag “for show” with no context — common reasons the link fails or adds no value.",
         "Emulators and third-party SMM dashboards aren’t required. If you use a scheduler, pick a trusted one and don’t store the password in shady forms.",
       ],
-      lists: [],
       notes: [
         {
+          kind: "tip",
           title: "Practice",
           text: "One meaningful tag with context in the frame beats ten random handles “for reach.”",
         },

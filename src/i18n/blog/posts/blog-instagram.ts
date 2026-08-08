@@ -8,13 +8,13 @@ export const blogInstagramEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/blog-instagram/cover-en.webp",
   excerpt:
-    "How to start a personal Instagram blog: pick a topic, set up the bio, build a content plan and photo series — without “instant TOP with no spend” promises or a catalog of outdated apps.",
+    "How to start a personal Instagram blog: pick a topic, set up the bio, build a content plan and photo series — without “instant page one with no spend” promises or a catalog of outdated apps.",
   lead: [
     "An Instagram author blog doesn’t start with a design template — it starts with two answers: what you’re ready to share regularly, and what benefit or emotion the follower gets. Without that anchor the feed turns into a pile of random posts.",
-    "Starting an Instagram blog means positioning, setup, content pillars, a production rhythm, and reviewing what gets replies. The same system fits a personal expert, a hobby project, and a small brand.",
+    "Below: a practical start system — positioning, setup, rubrics, content production, and reading response. The same approach fits a personal expert, a hobby project, and a small brand.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is for information only and is not an invitation to use the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -23,15 +23,15 @@ export const blogInstagramEn: BlogPost = {
       a: "Here the focus is a personal/author blog and getting started. The business article covers a commercial project and a sales system.",
     },
     {
-      q: "Can you run an Instagram blog with no ad budget?",
-      a: "Yes at the start. Growth is slower; quality and consistency beat “instant” fake-engagement schemes.",
+      q: "Can you run a blog with no ad budget?",
+      a: "Yes at the start. Growth is slower; quality and consistency beat instant fake-engagement schemes.",
     },
     {
-      q: "Which topic should you pick for an Instagram blog?",
+      q: "Which topic should you pick?",
       a: "One where you have expertise or lived experience. Popular niches are competitive — you need your own angle.",
     },
     {
-      q: "Do you need a business account for a blog?",
+      q: "Do you need a business account?",
       a: "For insights — usually yes, it’s more convenient. See the business-profile article.",
     },
     {
@@ -39,7 +39,7 @@ export const blogInstagramEn: BlogPost = {
       a: "Rhythm helps at the start, but burnout is worse. Steady 3–5 solid posts a week beat empty daily ones.",
     },
     {
-      q: "Can you change the Instagram blog topic later?",
+      q: "Can you change the blog topic later?",
       a: "Yes if you explain the new focus and transition gradually. A sharp unexplained niche jump usually lowers response.",
     },
     {
@@ -60,11 +60,11 @@ export const blogInstagramEn: BlogPost = {
         {
           intro: "Working directions (if they’re yours):",
           items: [
-            "lifestyle with a clear twist;",
-            "teaching and how-tos;",
-            "books / film / reviews;",
-            "the profession from the inside;",
-            "useful hobbies (garden, pets, sport).",
+            "lifestyle with a clear twist",
+            "teaching and how-tos",
+            "books / film / reviews",
+            "the profession from the inside",
+            "useful hobbies (garden, pets, sport)",
           ],
         },
       ],
@@ -80,10 +80,10 @@ export const blogInstagramEn: BlogPost = {
         {
           intro: "Good positioning answers:",
           items: [
-            "which topic the author covers;",
-            "whose experience or need they understand;",
-            "which format will appear regularly;",
-            "how the author’s view differs from generic tips.",
+            "which topic the author covers",
+            "whose experience or need they understand",
+            "which format will appear regularly",
+            "how the author’s view differs from generic tips",
           ],
         },
       ],
@@ -96,7 +96,6 @@ export const blogInstagramEn: BlogPost = {
         "In the bio, explain the topic, the author’s role, and the next step in a few lines. Contacts matter when you’re ready to answer through them; links and CTAs shouldn’t turn the profile into a billboard.",
         "If insights matter, pick a suitable professional mode and check what data it shows. Settings don’t create content, but they help you see which formats the audience responds to.",
       ],
-      lists: [],
       links: [
         {
           label: "Instagram profile design",
@@ -124,11 +123,11 @@ export const blogInstagramEn: BlogPost = {
         {
           intro: "Example rubric set:",
           items: [
-            "explainer posts for beginners;",
-            "a case or practice experience;",
-            "personal context tied to the theme;",
-            "a question to followers and topic harvest;",
-            "a useful source roundup with your comment.",
+            "explainer posts for beginners",
+            "a case or practice experience",
+            "personal context tied to the theme",
+            "a question to followers and topic harvest",
+            "a useful source roundup with your comment",
           ],
         },
       ],
@@ -151,10 +150,10 @@ export const blogInstagramEn: BlogPost = {
         "Visual style isn’t one filter on every photo. What matters are repeatable principles: light, palette, composition, type, and clear covers. They help posts get recognized in the feed without drowning the content.",
         "Short video, Stories, and feed posts can serve different jobs. Pick the format for the idea’s substance — don’t copy a trend that doesn’t fit your voice.",
       ],
-      lists: [],
       notes: [
         {
           title: "Practice",
+          kind: "tip",
           text: "Test two or three rubrics over a couple of weeks. Keep those you can talk about with substance and that get meaningful replies — not only random views.",
         },
       ],
@@ -167,7 +166,6 @@ export const blogInstagramEn: BlogPost = {
         "Review results weekly or monthly, not after every post. Compare similar formats, note topics with good questions, and update the plan. Don’t buy reactions and followers: they distort analytics and don’t build trust.",
         "Reply to comments with substance, set conversation rules, and moderate insults. Community forms not only from posts, but from how the author runs the talk.",
       ],
-      lists: [],
       links: [
         {
           label: "How to build an Instagram content plan",

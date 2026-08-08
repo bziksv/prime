@@ -8,14 +8,14 @@ export const pokupkaSsylokEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/pokupka-ssylok/cover-en.webp",
   excerpt:
-    "When paid placements make sense, what risks come with exchange “packs”, and how to judge a donor — without how-tos for a link blast.",
+    "When paid placements make sense, what risks come with exchange “packs,” and how to judge a donor — without how-tos for a link blast.",
   lead: [
     "Paid links and articles still show up in SEO, but mass-buying “packs” from exchanges is a fast path to filters and burned budget.",
-    "We cover how to think about mention quality and donors, risks of package schemes, and what’s safer at the start. This isn’t a guide to “buy links cheaper than everyone.”",
+    "Below: how to think about mention quality and donors, the risks of package schemes, and what is safer at the start. This is not a guide to “buy links cheaper than everyone.”",
   ],
   faq: [
     {
-      q: "Is buying links allowed by Google?",
+      q: "Is buying links allowed?",
       a: "As advertising or placement — by platform rules and the law. For search, risk depends on quality and scheme. Safer to strengthen content and PR.",
     },
     {
@@ -23,7 +23,7 @@ export const pokupkaSsylokEn: BlogPost = {
       a: "No. Anchor over-optimization hurts. A natural mix of brand, URL, and rare exact anchors is healthier.",
     },
     {
-      q: "What makes a good link donor?",
+      q: "What makes a good donor?",
       a: "A live audience, a topic near yours, normal moderation — not a link-spam site.",
     },
     {
@@ -31,20 +31,20 @@ export const pokupkaSsylokEn: BlogPost = {
       a: "Guest posts are content for an audience and a mention. Exchange spam is “weight” at any cost.",
     },
     {
-      q: "What should I do instead of buying at the start?",
-      a: "Your own pages, digital PR, partnerships, maps/reviews where it fits. See young site and forum links.",
+      q: "What instead of buying at the start?",
+      a: "Your own pages, digital PR, partnerships, maps and reviews where it fits. See the young-site and forum-links pieces.",
     },
     {
-      q: "Do I need to label ads?",
+      q: "Do you need to label ads?",
       a: "Yes: legal requirements and platform rules. An SEO effect is no reason to hide paid placement.",
     },
     {
-      q: "How do I know a placement paid off?",
-      a: "Visits, inquiries, sales, awareness, and audience quality. One link with no traffic isn’t proof of value.",
+      q: "How do you know a placement paid off?",
+      a: "Visits, inquiries, sales, awareness, and audience quality. One link with no traffic is not proof of value.",
     },
     {
       q: "Are nofollow and sponsored links useless?",
-      a: "Not always: traffic and brand can justify a placement. Don’t chase “dofollow at any cost” on junk sites.",
+      a: "Not always: traffic and brand can justify a placement. Do not chase “dofollow at any cost” on junk sites.",
     },
   ],
   sections: [
@@ -53,7 +53,7 @@ export const pokupkaSsylokEn: BlogPost = {
       level: 2,
       paras: [
         "Traffic and trust beat “magic weight.” A link from a relevant page people actually click beats a thousand closed doorways.",
-        "Treat placement as a recommendation for a person: it should complement the piece and lead to a page that keeps the promise. Otherwise it’s just a line in a “we bought a link” report.",
+        "Treat placement as a recommendation for a person: it should complement the piece and lead to a page that keeps the promise. Otherwise it is just a line in a “we bought a link” report.",
       ],
       lists: [
         {
@@ -63,7 +63,7 @@ export const pokupkaSsylokEn: BlogPost = {
             "surrounding copy",
             "indexing and age",
             "a live audience",
-            "no obvious link spam in the sidebar.",
+            "no obvious link spam in the sidebar",
           ],
         },
       ],
@@ -92,8 +92,8 @@ export const pokupkaSsylokEn: BlogPost = {
             "a site that exists only to sell links",
             "one exchange filling the whole screen",
             "irrelevant topic",
-            "promises of “TOP in a week from links”",
-            "a hidden site list until you pay.",
+            "promises of “page one in a week from links”",
+            "a hidden site list until you pay",
           ],
         },
       ],
@@ -109,16 +109,16 @@ export const pokupkaSsylokEn: BlogPost = {
       level: 2,
       paras: [
         "Package buys leave a uniform trail: same anchors, a sharp spike, and sites with no audience. Those schemes rarely build reputation and often burn budget.",
-        "Don’t fix a weak site with links. Duplicates, a muddy offer, or a broken order form aren’t cured by external “weight” — hygiene of your own resource first.",
+        "Do not fix a weak site with links. Duplicates, a muddy offer, or a broken order form are not cured by external “weight” — hygiene of your own resource first.",
       ],
       lists: [
         {
           intro: "Reasons to walk away:",
           items: [
-            "a TOP guarantee in a few days",
+            "a page-one guarantee in a few days",
             "exact commercial anchors required everywhere",
             "no way to review the piece before payment",
-            "“price today, higher tomorrow” pressure with no examples.",
+            "“price today, higher tomorrow” pressure with no examples",
           ],
         },
       ],
@@ -126,7 +126,7 @@ export const pokupkaSsylokEn: BlogPost = {
         {
           title: "Important",
           kind: "tip",
-          text: "This article is about criteria and risks — not filter-bypass schemes. We don’t cover shady PBNs and anchor blasts as a how-to.",
+          text: "This article is about criteria and risks — not filter-bypass schemes. We do not cover shady PBNs and anchor blasts as a how-to.",
         },
       ],
     },
@@ -134,17 +134,17 @@ export const pokupkaSsylokEn: BlogPost = {
       title: "Anchors and a natural profile",
       level: 2,
       paras: [
-        "A profile of only “buy X cheap” looks artificial. A normal mix: brand, URL, neutrals (“here”, “source”), a moderate share of keywords.",
+        "A profile of only “buy X cheap” looks artificial. A normal mix: brand, URL, neutrals (“here,” “source”), a moderate share of keywords.",
         "Pace matters too: dozens of new links in a week on a young site with no content is a red flag for you — even if the seller promises “safe growth.”",
       ],
       lists: [
         {
           intro: "Practice:",
           items: [
-            "don’t copy a competitor’s anchor list 1:1",
+            "do not copy a competitor’s anchor list 1:1",
             "watch the share of commercial anchors",
             "tie the mention to a real destination page",
-            "keep a log: where, when, which URL and anchor.",
+            "keep a log: where, when, which URL and anchor",
           ],
         },
       ],
@@ -153,7 +153,7 @@ export const pokupkaSsylokEn: BlogPost = {
       title: "How to fit it into strategy",
       level: 2,
       paras: [
-        "Content and tech first. Paid mentions — selective, with a contract or report and traffic measurement. Don’t build a profile only from bought anchors.",
+        "Content and tech first. Paid mentions — selective, with a contract or report and traffic measurement. Do not build a profile only from bought anchors.",
         "Plan topics the platform’s audience cares about: a case, research, an expert comment. Then the publish helps even if search “weight” is modest.",
       ],
       lists: [
@@ -163,14 +163,15 @@ export const pokupkaSsylokEn: BlogPost = {
             "guest pieces",
             "partner reviews",
             "digital PR",
-            "natural brand mentions.",
+            "natural brand mentions",
           ],
         },
       ],
       notes: [
         {
           title: "Timelines",
-          text: "Links don’t replace site prep. Ranking growth for a core is planned over 2–6 months of work — not the result of one purchase.",
+          kind: "tip",
+          text: "Links do not replace site prep. Ranking growth for a query core is planned over 2–6 months of work — not the result of one purchase.",
         },
       ],
       links: [
@@ -188,8 +189,8 @@ export const pokupkaSsylokEn: BlogPost = {
       title: "A clean alternative: useful mentions",
       level: 2,
       paras: [
-        "Partnerships, expert comments, research, and guest pieces take more work but give a reason to mention the brand. The result isn’t only a link — contacts, reach, visits.",
-        "Pick relevant communities and pitch a topic for their readers. Respect editorial policy, disclose ads where required, don’t demand artificial wording.",
+        "Partnerships, expert comments, research, and guest pieces take more work but give a reason to mention the brand. The result is not only a link — contacts, reach, visits.",
+        "Pick relevant communities and pitch a topic for their readers. Respect editorial policy, disclose ads where required, and do not demand artificial wording.",
       ],
       lists: [
         {
@@ -198,7 +199,7 @@ export const pokupkaSsylokEn: BlogPost = {
             "data and research",
             "cases with numbers and context",
             "templates and checklists",
-            "joint pieces with partners.",
+            "joint pieces with partners",
           ],
         },
       ],
@@ -207,8 +208,8 @@ export const pokupkaSsylokEn: BlogPost = {
       title: "Tracking and measurement",
       level: 2,
       paras: [
-        "Keep a placements table: donor URL, date, anchor, cost, UTM, index status. Without a log, in six months you won’t know what worked.",
-        "Watch visits and goals in analytics, brand mentions, lead quality. “The link appeared in Ahrefs” alone isn’t ROI.",
+        "Keep a placements table: donor URL, date, anchor, cost, UTM, index status. Without a log, in six months you will not know what worked.",
+        "Watch visits and goals in analytics, brand mentions, lead quality. “The link appeared in Ahrefs” alone is not ROI.",
       ],
       lists: [
         {
@@ -217,7 +218,7 @@ export const pokupkaSsylokEn: BlogPost = {
             "platform and piece",
             "cost and ad labeling",
             "traffic and conversions with UTM",
-            "decision: repeat / don’t repeat.",
+            "decision: repeat / don’t repeat",
           ],
         },
       ],

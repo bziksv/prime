@@ -10,8 +10,8 @@ export const protokolHttpEn: BlogPost = {
   excerpt:
     "What HTTP is at the application layer: request and response, methods, headers, link to URL and HTML. How HTTP differs from HTTPS and where to check status codes for SEO.",
   lead: [
-    "HTTP (HyperText Transfer Protocol) is the rule for messages between a browser (or bot) and a server: “give me the document at this address” → “here’s the status and response body”. Without it the familiar web page wouldn’t open from a link.",
-    "Why HTTP exists, how the exchange works, how HTTPS differs, and what matters to a webmaster. Response codes are covered separately; moving to encryption is in the HTTPS and SEO article.",
+    "HTTP (HyperText Transfer Protocol) is the rule for messages between a browser (or bot) and a server: “give me the document at this address” → “here’s the status and response body.” Without it the familiar web page wouldn’t open from a link.",
+    "Below: why HTTP exists, how the exchange works, how HTTPS differs, and what matters to a webmaster. Response codes are covered separately; moving to encryption is in the HTTPS and SEO article.",
   ],
   faq: [
     {
@@ -31,7 +31,7 @@ export const protokolHttpEn: BlogPost = {
       a: "HTTPS is the same HTTP over TLS: the channel is encrypted, the certificate confirms the server. For users — the lock; for SEO — mirror merging and trust.",
     },
     {
-      q: "Where does SEO fit into HTTP?",
+      q: "Where does SEO fit in?",
       a: "The bot walks HTTP(S): status, redirects, speed, correct headers (canonical via HTML/HTTP, cache, compression) matter. Understanding the protocol helps read logs and DevTools.",
     },
     {
@@ -62,7 +62,7 @@ export const protokolHttpEn: BlogPost = {
             "user enters a URL or clicks a link",
             "client sends an HTTP request to the host",
             "server replies with status + headers + body",
-            "browser renders HTML and loads CSS/JS/images by the same rules.",
+            "browser renders HTML and loads CSS/JS/images by the same rules",
           ],
         },
       ],
@@ -91,7 +91,7 @@ export const protokolHttpEn: BlogPost = {
             "`Location` — where a redirect goes",
             "`Content-Type` — HTML vs JSON/file",
             "`Cache-Control` / CDN — caching",
-            "`X-Robots-Tag` — indexing directives at the response level.",
+            "`X-Robots-Tag` — indexing directives at the response level",
           ],
         },
       ],
@@ -120,7 +120,7 @@ export const protokolHttpEn: BlogPost = {
             "HTTP — application protocol",
             "HTTPS — HTTP + TLS",
             "a certificate ≠ “the site can’t be hacked”",
-            "for SEO, mirror merging and no certificate errors matter.",
+            "for SEO, mirror merging and no certificate errors matter",
           ],
         },
       ],
@@ -128,7 +128,7 @@ export const protokolHttpEn: BlogPost = {
         {
           title: "Important",
           kind: "tip",
-          text: "Don’t confuse “site on HTTP” with “learning HTTP”. The protocol is always needed; a public site without TLS is already security and SEO hygiene.",
+          text: "Don’t confuse “site on HTTP” with “learning HTTP.” The protocol is always needed; a public site without TLS is already security and SEO hygiene.",
         },
       ],
       links: [
@@ -147,7 +147,7 @@ export const protokolHttpEn: BlogPost = {
       level: 2,
       paras: [
         "HTTP/1.1 was the long standard: many connections, request queues. HTTP/2 multiplexes streams; HTTP/3 often runs over QUIC/UDP — less delay on bad networks. Enabled on the server/CDN side.",
-        "For promotion, stable 200s, fast TTFB, and light pages matter more than racing to “must have HTTP/3 tomorrow”. You can see the version in DevTools → Protocol.",
+        "For promotion, stable 200s, fast TTFB, and light pages matter more than racing to “must have HTTP/3 tomorrow.” You can see the version in DevTools → Protocol.",
       ],
       lists: [
         {
@@ -156,7 +156,7 @@ export const protokolHttpEn: BlogPost = {
             "HTTPS support and redirect from HTTP",
             "compression (gzip/brotli)",
             "HTTP/2 or HTTP/3 if available",
-            "no extra redirects on every asset.",
+            "no extra redirects on every asset",
           ],
         },
       ],
@@ -172,7 +172,7 @@ export const protokolHttpEn: BlogPost = {
       level: 2,
       paras: [
         "A search bot is also an HTTP client with its own User-Agent. It gets the same status classes: index 200, follow 301, don’t waste budget on endless 5xx and soft 404s.",
-        "Understanding the protocol ties Webmaster, crawler, and logs: one language of “request → status → body”. Content and structure come next — but without correct HTTP they won’t reach the index.",
+        "Understanding the protocol ties Webmaster, crawler, and logs: one language of “request → status → body.” Content and structure come next — but without correct HTTP they won’t reach the index.",
       ],
       lists: [
         {
@@ -182,7 +182,7 @@ export const protokolHttpEn: BlogPost = {
             "clear statuses (200/301/404/410/5xx)",
             "short redirect chains",
             "CSS/JS available for rendering",
-            "check suspicious URLs with `curl -I` / DevTools.",
+            "check suspicious URLs with `curl -I` / DevTools",
           ],
         },
       ],
@@ -201,8 +201,8 @@ export const protokolHttpEn: BlogPost = {
       title: "Common misconceptions",
       level: 2,
       paras: [
-        "“HTTP in the address is outdated” — the unencrypted scheme is outdated; the protocol remains the web’s base. “HTTPS alone gives TOP” — no, it’s hygiene. “Status 200 is always good” — not if you serve an empty stub or a duplicate.",
-        "Don’t fix with “robots magic” what breaks at DNS, certificate, or 503. First make sure the HTTP response is healthy, then fine-tune the copy.",
+        "“HTTP in the address is outdated” — the unencrypted scheme is outdated; the protocol remains the web’s base. “HTTPS alone puts you on page one” — no, it’s hygiene. “Status 200 is always good” — not if you serve an empty stub or a duplicate.",
+        "Don’t fix with robots magic what breaks at DNS, certificate, or 503. First make sure the HTTP response is healthy, then fine-tune the copy.",
       ],
       lists: [
         {
@@ -211,7 +211,7 @@ export const protokolHttpEn: BlogPost = {
             "does the domain resolve",
             "does TLS succeed (if https)",
             "what status and `Location`",
-            "does origin behind the CDN answer.",
+            "does origin behind the CDN answer",
           ],
         },
       ],
@@ -219,7 +219,7 @@ export const protokolHttpEn: BlogPost = {
         {
           title: "Practice",
           kind: "tip",
-          text: "Keep a cheat sheet: protocol (HTTP) → encryption (TLS/HTTPS) → status → HTML. You isolate the problem layer faster. Clean HTTP isn’t a TOP shortcut — rankings for a core are still planned 2–6 months after prep.",
+          text: "Keep a cheat sheet: protocol (HTTP) → encryption (TLS/HTTPS) → status → HTML. You isolate the problem layer faster.",
         },
       ],
     },

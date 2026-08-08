@@ -11,7 +11,7 @@ export const httpZagolovkiEn: BlogPost = {
     "Which HTTP headers strengthen site security: HSTS, CSP, X-Frame-Options, Referrer-Policy, Permissions-Policy — how to check and where to set them without breaking the layout.",
   lead: [
     "HTTP headers are service fields in the server response: they tell the browser how to treat the page (content type, cache, redirect, security rules). Some of them directly cut XSS, clickjacking, and data-leak risks.",
-    "This guide covers a practical security-header set. The general request/response picture is in the HTTP protocol article; here the focus is protection. Before edits — config backup and a staging check.",
+    "Below: a practical security-header set. The general request/response picture is in the HTTP protocol article; here the focus is protection. Before edits — config backup and a staging check.",
   ],
   faq: [
     {
@@ -36,10 +36,10 @@ export const httpZagolovkiEn: BlogPost = {
     },
     {
       q: "Does this affect SEO?",
-      a: "Indirectly: security and trust, less risk of hacks/spam. There’s no direct “header for rankings”. Rankings follow site work; core TOP growth is planned for 2–6 months after prep — not a header flip.",
+      a: "Indirectly: security and trust, less risk of hacks/spam. There’s no direct “header for page one.” Rankings follow site work; planned months after SEO starts.",
     },
     {
-      q: "Is it Feature-Policy or Permissions-Policy?",
+      q: "Feature-Policy or Permissions-Policy?",
       a: "The current name is Permissions-Policy (limits camera, geolocation, etc.). Older Feature-Policy still appears in guides.",
     },
   ],
@@ -48,7 +48,7 @@ export const httpZagolovkiEn: BlogPost = {
       title: "What HTTP headers are",
       level: 2,
       paras: [
-        "When a URL opens, the browser gets not only HTML but response metadata: `Content-Type`, `Location`, `Cache-Control`, cookie flags, security directives. Without them the protocol “doesn’t know” how to show the page safely.",
+        "When a URL opens, the browser gets not only HTML but response metadata: `Content-Type`, `Location`, `Cache-Control`, cookie flags, security directives. Without them the protocol doesn’t know how to show the page safely.",
         "Security headers don’t replace CMS updates and passwords. They’re a browser protection layer on top of normal server hygiene.",
       ],
       lists: [
@@ -57,7 +57,7 @@ export const httpZagolovkiEn: BlogPost = {
           items: [
             "backup nginx/Apache/`.htaccess`",
             "test on a site copy",
-            "list your domains, CDN, analytics, widgets.",
+            "list your domains, CDN, analytics, widgets",
           ],
         },
       ],
@@ -85,7 +85,7 @@ export const httpZagolovkiEn: BlogPost = {
       level: 2,
       paras: [
         "`X-Frame-Options` (and CSP `frame-ancestors`) limits embedding the site in other pages’ iframes — clickjacking protection. Typical values: `DENY` or `SAMEORIGIN`.",
-        "`X-Content-Type-Options: nosniff` stops the browser “guessing” a file type past the declared `Content-Type` — fewer surprises with script execution.",
+        "`X-Content-Type-Options: nosniff` stops the browser guessing a file type past the declared `Content-Type` — fewer surprises with script execution.",
       ],
     },
     {
@@ -118,7 +118,7 @@ export const httpZagolovkiEn: BlogPost = {
             "X-Content-Type-Options: nosniff",
             "frame-ancestors / X-Frame-Options",
             "Referrer-Policy",
-            "a CSP draft in Report-Only.",
+            "a CSP draft in Report-Only",
           ],
         },
       ],
@@ -128,7 +128,7 @@ export const httpZagolovkiEn: BlogPost = {
       level: 2,
       paras: [
         "Set headers in nginx/`add_header`, Apache/`Header set`, or the hosting panel. PHP in the template is a fallback — worse for static and cache.",
-        "After deploy check home, login pages, forms, and pages with widgets. Watch the console for CSP errors. Document the policy for the team so a new analytics script doesn’t “break prod” by surprise.",
+        "After deploy check home, login pages, forms, and pages with widgets. Watch the console for CSP errors. Document the policy for the team so a new analytics script doesn’t break prod by surprise.",
       ],
       links: [
         {

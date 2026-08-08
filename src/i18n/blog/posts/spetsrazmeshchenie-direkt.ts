@@ -12,7 +12,7 @@ export const spetsrazmeshchenieDirektEn: BlogPost = {
     "What “special placement” meant in old Yandex Direct, why the term is outdated, and how to think today about ad blocks, bids, and ad quality.",
   lead: [
     "“Special placement” was the historic name for premium ad blocks above Yandex search results. The UI and auction have changed a lot since then.",
-    "The old label still comes up in client briefs, but position now depends on bid, quality, and predicted CTR — not one magic checkbox. Optimize for CPA and revenue, not a nostalgic placement name.",
+    "Below: what the old term meant and how things work now. Position depends on bid, quality, and predicted CTR — not one magic checkbox. Aim for CPA and revenue, not a legendary block name.",
   ],
   faq: [
     {
@@ -60,10 +60,10 @@ export const spetsrazmeshchenieDirektEn: BlogPost = {
         {
           intro: "Important to understand:",
           items: [
-            "block names changed;",
-            "the auction got more complex;",
-            "there’s no “forever #1” guarantee;",
-            "old account screenshots aren’t instructions.",
+            "block names changed",
+            "the auction got more complex",
+            "there’s no forever #1 guarantee",
+            "old account screenshots aren’t instructions",
           ],
         },
       ],
@@ -72,18 +72,18 @@ export const spetsrazmeshchenieDirektEn: BlogPost = {
       title: "How impressions work now",
       level: 2,
       paras: [
-        "Position and premium slots are auction outcomes: bid or strategy, predicted CTR, ad quality, and relevance. The system picks a set of ads for the query — it doesn’t “sell a special package” like old guides.",
-        "Average position and impression share reports help as diagnostics, not as KPIs by themselves. A drop in “height” may be a budget cap, moderation, or demand shift — not only “we bid too low.”",
+        "Position and premium slots are auction outcomes: bid or strategy, predicted CTR, ad quality, and relevance. The system picks a set of ads for the query — it doesn’t sell a special package like old guides claimed.",
+        "Average position and impression share reports help as diagnostics, not as KPIs by themselves. A drop in height may be a budget cap, moderation, or demand shift — not only “we bid too low.”",
       ],
       lists: [
         {
           intro: "What you actually adjust:",
           items: [
-            "keywords and negatives;",
-            "ad copy and extensions;",
-            "landing page;",
-            "bid or auto strategy;",
-            "geo, schedule, devices.",
+            "keywords and negatives",
+            "ad copy and extensions",
+            "landing page",
+            "bid or auto strategy",
+            "geo, schedule, devices",
           ],
         },
       ],
@@ -93,7 +93,7 @@ export const spetsrazmeshchenieDirektEn: BlogPost = {
           href: "/en/blog/stavki-direkt/",
         },
         {
-          label: "Ads account basics",
+          label: "Ads account",
           href: "/en/blog/reklamnyy-kabinet/",
         },
       ],
@@ -103,17 +103,17 @@ export const spetsrazmeshchenieDirektEn: BlogPost = {
       level: 2,
       paras: [
         "Treat impression stats as a consequence of settings. Improve ads and negatives; count click economics. One bid doesn’t fit every phrase: brand, hot, and research demand behave differently.",
-        "Before raising the bid “for the top,” make sure the landing meets the query expectation: offer, price or next step, working form. Otherwise an expensive top only accelerates burn.",
+        "Before raising the bid for the top, make sure the landing meets the query expectation: offer, price or next step, working form. Otherwise an expensive top only accelerates burn.",
       ],
       lists: [
         {
           intro: "Levers:",
           items: [
-            "bid / auto strategy;",
-            "ad and extension quality;",
-            "relevant landing;",
-            "geo and schedule;",
-            "budget without leak into irrelevance.",
+            "bid / auto strategy",
+            "ad and extension quality",
+            "relevant landing",
+            "geo and schedule",
+            "budget without leak into irrelevance",
           ],
         },
       ],
@@ -128,17 +128,17 @@ export const spetsrazmeshchenieDirektEn: BlogPost = {
       title: "Strategy: goals → structure → economics",
       level: 2,
       paras: [
-        "Goals → keywords → ads → landing → analytics. The top block makes sense if it pays back. Sometimes a lower, cheaper impression yields better ROI (return on investment).",
+        "Goals → keywords → ads → landing → analytics. The top block makes sense if it pays back. Sometimes a lower, cheaper impression yields better ROI.",
         "Split campaigns by demand meaning so you see what brings leads. Blindly copying a competitor’s bids is a path to their economics — not your margin.",
       ],
       lists: [
         {
           intro: "Mistakes from old guides:",
           items: [
-            "chasing “special” at any cost;",
-            "ignoring conversions;",
-            "copying a competitor’s bids;",
-            "measuring success only by average position.",
+            "chasing “special” at any cost",
+            "ignoring conversions",
+            "copying a competitor’s bids",
+            "measuring success only by average position",
           ],
         },
       ],
@@ -166,10 +166,10 @@ export const spetsrazmeshchenieDirektEn: BlogPost = {
         {
           intro: "Before concluding, check:",
           items: [
-            "ad and extension status;",
-            "budget remaining and daily caps;",
-            "geo and schedule;",
-            "goal correctness in Metrika and Direct.",
+            "ad and extension status",
+            "budget remaining and daily caps",
+            "geo and schedule",
+            "goal correctness in Metrika and Direct",
           ],
         },
       ],
@@ -191,11 +191,11 @@ export const spetsrazmeshchenieDirektEn: BlogPost = {
         {
           intro: "Sequence:",
           items: [
-            "lock in goals and an acceptable CPA;",
-            "review search terms;",
-            "fix ads and landings;",
-            "adjust strategy from data;",
-            "revisit the top only through economics.",
+            "lock in goals and an acceptable CPA",
+            "review search terms",
+            "fix ads and landings",
+            "adjust strategy from data",
+            "revisit the top only through economics",
           ],
         },
       ],
@@ -204,23 +204,23 @@ export const spetsrazmeshchenieDirektEn: BlogPost = {
       title: "How to talk to the client",
       level: 2,
       paras: [
-        "A client from the “special placement era” often wants a first-place guarantee. Honest answer: auction, competitors, and quality shift daily; we sell outcomes (leads, sales), not a block label.",
+        "A client from the special-placement era often wants a first-place guarantee. Honest answer: auction, competitors, and quality shift daily; we sell outcomes (leads, sales), not a block label.",
         "Show a report: spend, conversions, CPA, lead examples. If the top is expensive and doesn’t pay — argue for a lower bid or a better offer, not “we must be in special.”",
       ],
       lists: [
         {
           intro: "In the client report:",
           items: [
-            "period goals;",
-            "numbers and lead quality;",
-            "what you changed and why;",
-            "what you’ll check next week.",
+            "period goals",
+            "numbers and lead quality",
+            "what you changed and why",
+            "what you’ll check next week",
           ],
         },
       ],
       links: [
         {
-          label: "How to write a client report",
+          label: "Client report",
           href: "/en/blog/otchet-klientu/",
         },
       ],
@@ -228,7 +228,7 @@ export const spetsrazmeshchenieDirektEn: BlogPost = {
         {
           title: "SEO alongside",
           kind: "tip",
-          text: "Paid search covers demand fast. Organic for a core is a separate horizon: prep around a month; TOP planned for 2–6 months of work.",
+          text: "Paid search covers demand fast. Organic for a core is a separate horizon: prep around a month; page-one share of the core is typically planned for two to six months of work after start.",
         },
       ],
     },

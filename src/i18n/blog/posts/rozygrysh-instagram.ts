@@ -10,11 +10,11 @@ export const rozygryshInstagramEn: BlogPost = {
   excerpt:
     "How fair random works for social giveaways: why use a generator, how to lock the result, which tools to use, and what to avoid — without “how to win” tips.",
   lead: [
-    "Giveaways on Instagram* and other networks often pick a winner with a random number or a giveaway tool. For the audience, transparency matters: participant list, method, and a public screenshot/recording.",
-    "We cover how fair selection works, where RNG fits, and how an organizer should run a giveaway. We don’t cover spam schemes or “guaranteed wins”—that’s cheating participants and a ban risk.",
+    "Giveaways on Instagram and other networks often pick a winner with a random number or a giveaway tool. For the audience, transparency matters: participant list, method, and a public screenshot/recording.",
+    "Below: how fair selection works, where RNG fits, and how an organizer should run a giveaway. We don’t cover spam schemes or “guaranteed wins” — that’s cheating participants and a ban risk.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -47,7 +47,7 @@ export const rozygryshInstagramEn: BlogPost = {
       a: "It strongly builds trust. Minimum — a tool screenshot + a numbered participant table.",
     },
     {
-      q: "Is this only for Instagram*?",
+      q: "Is this only for Instagram?",
       a: "Same logic for VK, Telegram, and a site: list → random → lock the result.",
     },
   ],
@@ -63,10 +63,10 @@ export const rozygryshInstagramEn: BlogPost = {
         {
           intro: "Process benefits:",
           items: [
-            "transparency;",
-            "fewer conflicts;",
-            "repeatable verification;",
-            "easier complaint moderation.",
+            "transparency",
+            "fewer conflicts",
+            "repeatable verification",
+            "easier complaint moderation",
           ],
         },
       ],
@@ -82,11 +82,11 @@ export const rozygryshInstagramEn: BlogPost = {
         {
           intro: "Organizer steps:",
           items: [
-            "rules and deadline;",
-            "collect and number;",
-            "public random;",
-            "lock it (video/screenshot);",
-            "contact the winner per the offer.",
+            "rules and deadline",
+            "collect and number",
+            "public random",
+            "lock it (video/screenshot)",
+            "contact the winner per the offer",
           ],
         },
       ],
@@ -109,10 +109,10 @@ export const rozygryshInstagramEn: BlogPost = {
         {
           intro: "Pick a format for the goal:",
           items: [
-            "reach — easy entry;",
-            "leads — form/bot;",
-            "UGC — moderated task;",
-            "loyalty — for subscribers with history.",
+            "reach — easy entry",
+            "leads — form/bot",
+            "UGC — moderated task",
+            "loyalty — for subscribers with history",
           ],
         },
       ],
@@ -121,17 +121,17 @@ export const rozygryshInstagramEn: BlogPost = {
       title: "Tools",
       level: 2,
       paras: [
-        "Public RNGs (e.g. Random.org) work well for on-video demos. Spreadsheet: `RANDBETWEEN` — fine if you recorded the process. Specialized giveaway tools — for mass comments; read Instagram* ToS and access rights.",
+        "Public RNGs (e.g. Random.org) work well for on-video demos. Spreadsheet: `RANDBETWEEN` — fine if you recorded the process. Specialized giveaway tools — for mass comments; read Instagram ToS and access rights.",
         "Don’t trust “black” generators that ask for the account password.",
       ],
       lists: [
         {
           intro: "Security minimum:",
           items: [
-            "no password sharing with third parties;",
-            "official OAuth with revoke after;",
-            "participant-list backup;",
-            "two people to verify on a large prize.",
+            "no password sharing with third parties",
+            "official OAuth with revoke after",
+            "participant-list backup",
+            "two people to verify on a large prize",
           ],
         },
       ],
@@ -147,11 +147,11 @@ export const rozygryshInstagramEn: BlogPost = {
         {
           intro: "In the final post:",
           items: [
-            "date and method;",
-            "N participants;",
-            "the drawn number;",
-            "winner handle;",
-            "reply deadline.",
+            "date and method",
+            "N participants",
+            "the drawn number",
+            "winner handle",
+            "reply deadline",
           ],
         },
       ],
@@ -161,16 +161,16 @@ export const rozygryshInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "Comment spam, fake accounts, a hidden pick of “your people”, tips for participants to break the rules — hurt the brand and break platform rules.",
-        "This article is informational: Instagram* is a Meta product; in the Russian Federation Meta’s activity is recognized as extremist. We don’t encourage using the platform; if you run a giveaway — run it fairly.",
+        "This article is informational: Instagram is a Meta product; in the Russian Federation Meta’s activity is recognized as extremist. We don’t encourage using the platform; if you run a giveaway — run it fairly.",
       ],
       lists: [
         {
           intro: "Red flags:",
           items: [
-            "“guaranteed win” for money;",
-            "a tool that asks for the password;",
-            "no participant list;",
-            "rules changed on results day.",
+            "“guaranteed win” for money",
+            "a tool that asks for the password",
+            "no participant list",
+            "rules changed on results day",
           ],
         },
       ],

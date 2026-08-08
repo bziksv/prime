@@ -8,10 +8,10 @@ export const auktsionDirektEn: BlogPost = {
   category: "Paid search",
   cover: "/images/blog/auktsion-direkt/cover-en.webp",
   excerpt:
-    "How the Yandex Direct auction works: bid and ad quality, second-price logic, why “premium placement” from 2017 guides is a historical term, and why competitors’ “bid props” are a bad idea.",
+    "How the Yandex Direct auction works: bid and ad quality, second-price logic, why “premium placement” from 2017 guides is a historical term, and why competitor “bid props” are a bad idea.",
   lead: [
-    "In Direct, placement and click price are set by an auction: bid, clickability forecast, and ad-plus-landing-page quality all count. A higher bid isn’t always better value and not always higher.",
-    "Bidding wars hurt everyone; relevance and landing-page quality often beat a price race. The “premium placement” term and step figures from 2017 materials are outdated — check the current auction in Yandex Help.",
+    "In Direct, who shows and what a click costs come from an auction: bid, predicted clickability, and ad-plus-landing quality all count. A bigger bid is not always better value — and not always a better slot.",
+    "Below: the basic bidding logic and why price wars (“props”) hurt everyone. The “premium placement” label and step figures from 2017 materials are outdated — check the current auction in Yandex Help.",
   ],
   faq: [
     {
@@ -28,15 +28,15 @@ export const auktsionDirektEn: BlogPost = {
     },
     {
       q: "What is a bid “prop” in Direct?",
-      a: "A historical gray tactic: hold the bid at a block boundary to inflate neighbors’ CPC. We don’t recommend it: expensive, risky, and invites counter-wars.",
+      a: "A historical grey tactic: hold the bid at a block boundary to inflate neighbors’ CPC. We don’t recommend it: expensive, risky, and invites counter-wars.",
     },
     {
       q: "Is premium placement still bought as a separate tariff?",
       a: "As an old tariff — no. There are SERP positions and strategies; details are in the premium-placement piece.",
     },
     {
-      q: "How should you compete fairly in the auction?",
-      a: "Offer, negatives, copy, landing, CPA economics. Not a race for “whoever is higher at any cost.”",
+      q: "How should you compete fairly?",
+      a: "Offer, negatives, copy, landing, CPA economics. Not a race for the slot at any cost.",
     },
     {
       q: "Where should you look instead of bid wars?",
@@ -48,8 +48,8 @@ export const auktsionDirektEn: BlogPost = {
       title: "How the winner is scored",
       level: 2,
       paras: [
-        "Simply put: the system compares not only the bid in rubles, but expected response. An ad with better CTR and relevance can beat a more expensive but weak bid.",
-        "The calculation sits in the query and show conditions. So the same keywords behave differently morning and evening, on phone and desktop.",
+        "Simply put: the system compares more than the bid in rubles — it weighs expected response. An ad with better CTR and relevance can beat a more expensive but weak bid.",
+        "The score sits in the query and show conditions. So the same keywords behave differently morning and evening, on phone and desktop.",
       ],
       links: [
         {
@@ -67,16 +67,16 @@ export const auktsionDirektEn: BlogPost = {
       level: 2,
       paras: [
         "The winner often doesn’t pay their bid ceiling, but enough to beat the next participant (plus the platform’s minimum step — it has changed over time).",
-        "Practical takeaway: inflating the bid “with a buffer” without CPA economics burns budget. Better improve the ad and landing page than forever chase a competitor with money.",
+        "Practical takeaway: inflating the bid “with a buffer” without CPA economics burns budget. Improve the ad and landing page before you forever chase a competitor with money.",
       ],
       lists: [
         {
           intro: "What to check before raising the bid:",
           items: [
-            "negatives and junk demand;",
-            "headlines and sitelinks;",
-            "landing speed and offer;",
-            "target CPA and margin.",
+            "negatives and junk demand",
+            "headlines and sitelinks",
+            "landing speed and offer",
+            "target CPA and margin",
           ],
         },
       ],

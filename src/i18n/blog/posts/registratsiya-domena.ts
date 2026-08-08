@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for registratsiya-domena — same structure as RU JSON. */
 export const registratsiyaDomenaEn: BlogPost = {
   slug: "registratsiya-domena",
-  title: "How to register a domain name",
+  title: "How to register a domain with a registrar",
   date: "2017-11-13",
-  category: "Hosting",
+  category: "Digital marketing",
   cover: "/images/blog/registratsiya-domena/cover-en.webp",
   excerpt:
-    "Domain registration step by step: registrar account, availability check, owner data, name servers, and payment—using a REG.ru-style flow as an example, without outdated account screenshots.",
+    "Domain registration step by step: registrar account, availability check, owner data, name servers, and payment — using a REG.ru-style flow as an example, without outdated account screenshots.",
   lead: [
     "You register a domain with an accredited registrar: confirm the name is available, enter owner data, set hosting nameservers if needed, and pay for a term (usually at least one year).",
-    "The flow below is the usual path. REG.ru and other registrars have redesigned their UIs; payment options from 2017 guides are outdated too. Follow the registrar’s live checkout. Zone and name choice are covered in the TLD and `.рф` articles.",
+    "Below: the usual path. REG.ru and other registrars have redesigned their UIs; payment options from 2017 guides are outdated too. Follow the registrar’s live checkout. Zone and name choice are covered in the first-level domain and `.рф` articles.",
   ],
   faq: [
     {
@@ -45,7 +45,7 @@ export const registratsiyaDomenaEn: BlogPost = {
       ],
       links: [
         {
-          label: "Top-level domain",
+          label: "First-level domain",
           href: "/en/blog/domen-pervogo-urovnya/",
         },
         {
@@ -83,18 +83,18 @@ export const registratsiyaDomenaEn: BlogPost = {
         {
           intro: "Before paying, check:",
           items: [
-            "exact domain spelling;",
-            "zone and term;",
-            "no extra services on the invoice;",
-            "owner data without typos.",
+            "exact domain spelling",
+            "zone and term",
+            "no extra services on the invoice",
+            "owner data without typos",
           ],
         },
       ],
       notes: [
         {
           title: "Account UI",
-          text: "“Register / Express / Continue” buttons and menu paths at REG.ru and competitors changed. Step meaning is the same: pick name → data → DNS/NS → pay.",
           kind: "tip",
+          text: "“Register / Express / Continue” buttons and menu paths at REG.ru and competitors changed. Step meaning is the same: pick name → data → DNS/NS → pay.",
         },
       ],
     },
@@ -102,7 +102,7 @@ export const registratsiyaDomenaEn: BlogPost = {
       title: "Owner data and nameservers",
       level: 2,
       paras: [
-        "Many zones need accurate registrant data (person or organization). That’s who is responsible for the domain—not posting your passport online.",
+        "Many zones need accurate registrant data (person or organization). That’s who is responsible for the domain — not posting your passport online.",
         "Nameservers link the name to hosting. Take values from the host (often two to four records like `ns1…` / `ns2…`) or keep DNS at the registrar and create A/CNAME records to the IP or host.",
       ],
       tables: [
@@ -122,7 +122,7 @@ export const registratsiyaDomenaEn: BlogPost = {
       title: "Payment and renewal",
       level: 2,
       paras: [
-        "Pay with a method available in the account (card, business invoice, etc.). Old articles listed specific wallets—the set changes; check the registrar’s current checkout.",
+        "Pay with a method available in the account (card, business invoice, etc.). Old articles listed specific wallets — the set changes; check the registrar’s current checkout.",
         "Renew early: after expiry you risk losing the name. A calendar plus auto-renewal with balance control beats “I’ll remember the day before.”",
       ],
     },
@@ -142,7 +142,7 @@ export const registratsiyaDomenaEn: BlogPost = {
     },
   ],
   closing: [
-    "Check name availability, register it with correct data and nameservers, pay for the term, and put the renewal date on the calendar right away—so the domain becomes your working address, not a forgotten cart line.",
+    "Check name availability, register it with correct data and nameservers, pay for the term, and put the renewal date on the calendar right away — so the domain becomes your working address, not a forgotten cart line.",
   ],
   related: [
     "domen-pervogo-urovnya",

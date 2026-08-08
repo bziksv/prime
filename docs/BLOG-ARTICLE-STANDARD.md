@@ -6,6 +6,8 @@
 Список «новый формат»: `blogNewFormatSlugs` в `src/data/blog-migration.ts`.  
 Очередь переноса: `docs/BLOG-MIGRATION-CHECKLIST.md`.
 
+**EN-оверлей** (`src/i18n/blog/posts/<slug>.ts`): не дословный перевод — см. [`I18N-NATIVE-COPY.md`](./I18N-NATIVE-COPY.md) (структура из RU JSON, голос носителя, banned calques, Meta `legalNotice` → title `Note`).
+
 ### Пачка за ход
 
 `продолжайN`: **N — учёт пользователя**. Агент за один ход берёт **строго 2** пункта очереди (статья или `dup`). Не ускорять пачками 3+. Текст не ужимать: ориентир 5–7 H2 и развёрнутые абзацы (не «три коротких блока»).

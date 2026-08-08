@@ -8,15 +8,19 @@ export const muzykaStoriesInstagramEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/muzyka-stories-instagram/cover-en.webp",
   excerpt:
-    "How to add music to Instagram Stories with the built-in sticker, why catalog access depends on region and account type, and how to layer your own or licensed sound in an editor — without shady “workarounds.”",
+    "How to add music to Instagram Stories with the built-in sticker, why catalog access depends on region and account type, and how to work in editors without shady “workarounds.”",
   lead: [
     "The music sticker in Stories makes a frame livelier: a track from Meta’s catalog, cover art, and a clip timeline. Catalog availability depends on country, account type, and licenses — the old claim “never available in Russia” is no longer universal.",
-    "Use the built-in sticker when it’s there. When it isn’t — or when you need a branded jingle — build the clip in a video editor with licensed sound. Screen-recording someone else’s track is a bad idea. See the Meta notice on this page.",
+    "Below: the built-in path, community-rule limits, working in a video editor with your own or licensed sound, and why screen-recording someone else’s player is a weak, risky move. Meta disclaimer is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Where is the music button in Stories?",
-      a: "Usually in stickers while creating a story (Music icon). If it’s missing — check region, age, account limits, or app version.",
+      a: "Usually in stickers while creating a story (Music / “Music” icon). If it’s missing — check region, age, account limits, or app version.",
     },
     {
       q: "Can I use any track from my phone?",
@@ -48,9 +52,7 @@ export const muzykaStoriesInstagramEn: BlogPost = {
         {
           kind: "tip",
           title: "Stay current",
-          paras: [
-            "Catalog and geo access have changed many times. Don’t treat 2020 screenshots as truth — look at what your app shows today.",
-          ],
+          text: "Catalog and geo access have changed many times. Don’t treat 2020 screenshots as truth — look at what your app shows today.",
         },
       ],
     },
@@ -78,7 +80,7 @@ export const muzykaStoriesInstagramEn: BlogPost = {
             "vertical 9:16",
             "segment length for a Stories clip",
             "speech audible over the track",
-            "rights to use the sound.",
+            "rights to use the sound",
           ],
         },
       ],
@@ -101,9 +103,7 @@ export const muzykaStoriesInstagramEn: BlogPost = {
         {
           kind: "tip",
           title: "Important",
-          paras: [
-            "We don’t recycle old guides with catalogs of gray apps “for Russia.” The goal is working sound without compromising the account.",
-          ],
+          text: "We don’t recycle old guides with catalogs of gray apps “for Russia.” The goal is working sound without compromising the account.",
         },
       ],
     },
@@ -112,7 +112,7 @@ export const muzykaStoriesInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "One recognizable motif across a Stories series strengthens the brand — a short custom jingle beats a random hit of the week.",
-        "For promos and prices, voice plus a light catalog or licensed stock background is often enough.",
+        "For promos and prices, voice plus a light catalog background or a licensed music library is often enough.",
         "Test retention: music for music’s sake without an offer won’t save a weak frame.",
       ],
       links: [

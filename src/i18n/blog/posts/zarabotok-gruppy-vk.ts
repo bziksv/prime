@@ -11,12 +11,12 @@ export const zarabotokGruppyVkEn: BlogPost = {
     "How to monetize a VK community: commercial posts, affiliates, marketplaces, and direct advertisers — what drives price and what to avoid.",
   lead: [
     "A VK group or public earns when there’s a live audience and a clear placement format. Money most often comes from ad posts, less often from affiliate offers and official platform tools.",
-    "Monetization logic from an admin’s view — not a “guaranteed 100k per post.” We don’t treat 2020 review figures as fact, and we don’t recommend fake growth or grey marketplaces. Community growth is covered in group promotion; buying seeds as an advertiser — in public ads.",
+    "Below: monetization logic from an admin’s view — not a “guaranteed 100k per post.” We don’t treat 2020 review figures as fact, and we don’t recommend fake growth or grey marketplaces. Community growth is covered in group promotion; buying placements as an advertiser — in public ads.",
   ],
   faq: [
     {
       q: "From how many followers can I sell posts?",
-      a: "There’s no hard threshold. Advertisers care more about reach, ER, and audience fit. A small live niche can beat a huge “dead” one.",
+      a: "There’s no hard threshold. Advertisers care more about reach, ER, and audience fit. A small live niche can beat a huge dead one.",
     },
     {
       q: "Should I use a marketplace or direct clients?",
@@ -28,11 +28,11 @@ export const zarabotokGruppyVkEn: BlogPost = {
     },
     {
       q: "Do I need fake followers to start?",
-      a: "No. Bots kill ER and placement price. Better slow organic growth and topical seeding.",
+      a: "No. Bots kill ER and placement price. Better slow organic growth and topical paid placements.",
     },
     {
       q: "How is this different from “ads in publics”?",
-      a: "That one is the advertiser’s view (how to buy a seed). This one — how an admin sells their community’s inventory.",
+      a: "That one is the advertiser’s view (how to buy a placement). This one — how an admin sells their community’s inventory.",
     },
   ],
   sections: [
@@ -48,10 +48,10 @@ export const zarabotokGruppyVkEn: BlogPost = {
         {
           intro: "Before monetizing, strengthen:",
           items: [
-            "topic and name without empty clickbait;",
-            "avatar and description for the community offer;",
-            "post rhythm matched to capacity (not necessarily “8–10 a day”);",
-            "base reach without bots.",
+            "topic and name without empty clickbait",
+            "avatar and description for the community offer",
+            "post rhythm matched to capacity (not necessarily 8–10 a day)",
+            "base reach without bots",
           ],
         },
       ],
@@ -67,8 +67,8 @@ export const zarabotokGruppyVkEn: BlogPost = {
       notes: [
         {
           title: "Important",
-          text: "Label ads per platform rules and the law. Hidden ads hurt trust and the account.",
           kind: "tip",
+          text: "Label ads per platform rules and the law. Hidden ads hurt trust and the account.",
         },
       ],
     },
@@ -77,7 +77,7 @@ export const zarabotokGruppyVkEn: BlogPost = {
       level: 2,
       paras: [
         "Makes sense when the offer matches the topic (kids niche → products/courses for parents, not a random “loan in a minute”).",
-        "Count conversions and bounce rate, not “clicks.” Frequent affiliates with no value burn loyalty faster than they bring CPA.",
+        "Count conversions and bounce rate, not clicks. Frequent affiliates with no value burn loyalty faster than they bring CPA.",
       ],
     },
     {
@@ -101,11 +101,11 @@ export const zarabotokGruppyVkEn: BlogPost = {
         {
           intro: "Admin mini media kit:",
           items: [
-            "topic and audience;",
-            "followers + 7/30-day reach;",
-            "ER or comments per post;",
-            "format price list;",
-            "moderation rules and timelines.",
+            "topic and audience",
+            "followers + 7/30-day reach",
+            "ER or comments per post",
+            "format price list",
+            "moderation rules and timelines",
           ],
         },
       ],
@@ -114,15 +114,15 @@ export const zarabotokGruppyVkEn: BlogPost = {
       title: "What to avoid",
       level: 2,
       paras: [
-        "Fake followers and views for a “pretty thousand.”",
+        "Fake followers and views for a pretty thousand.",
         "Mutual joins and bot exchanges as a growth strategy.",
         "Promises of “guaranteed 100k per post” without your own analytics.",
       ],
       notes: [
         {
           title: "Related reading",
-          text: "Audience growth — VK group promotion. Buying a seed as a brand — ads in publics.",
           kind: "tip",
+          text: "Audience growth — VK group promotion. Buying a placement as a brand — ads in publics.",
         },
       ],
     },

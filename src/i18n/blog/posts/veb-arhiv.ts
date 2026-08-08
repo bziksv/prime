@@ -11,7 +11,7 @@ export const vebArhivEn: BlogPost = {
     "How Internet Archive / Wayback Machine works: find an old page version, understand snapshot gaps, restore your content legally, and limit archiving via robots — without schemes to “steal texts from other domains.”",
   lead: [
     "A web archive stores historical page snapshots. The best-known public service is the Wayback Machine on archive.org: a bot periodically saves URL copies you can open “as it was” on a chosen date.",
-    "Use it to view a site’s history, recover your own deleted content, or check a domain before buying — not to move others’ materials onto a new domain “to avoid paying authors.” That’s a copyright question, and gaps in the calendar are normal.",
+    "Below: how to view a site’s history, why a snapshot is sometimes missing, and what to do when you need to recover your own old content. You can’t simply move others’ materials from the archive onto a new domain “to avoid paying authors” — that’s a copyright question.",
   ],
   faq: [
     {
@@ -49,10 +49,10 @@ export const vebArhivEn: BlogPost = {
         {
           intro: "Typical marketing and SEO jobs:",
           items: [
-            "see a competitor’s old offer;",
-            "recover your deleted text;",
-            "check domain history before buying;",
-            "document proof of publication on a date.",
+            "see a competitor’s old offer",
+            "recover your deleted text",
+            "check domain history before buying",
+            "document proof of publication on a date",
           ],
         },
       ],
@@ -81,10 +81,10 @@ export const vebArhivEn: BlogPost = {
         {
           intro: "Before deleting an important page:",
           items: [
-            "file and DB backup;",
-            "Save Page Now on key URLs;",
-            "export text into your own repository;",
-            "301 to a current replacement if the URL leaves the index.",
+            "file and DB backup",
+            "Save Page Now on key URLs",
+            "export text into your own repository",
+            "301 to a current replacement if the URL leaves the index",
           ],
         },
       ],

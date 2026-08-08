@@ -11,7 +11,7 @@ export const razmeryBanneraEn: BlogPost = {
     "What web banners look like, why sizes are often arbitrary, and how to learn a competitor creative’s width/height in a minute with developer tools.",
   lead: [
     "A banner is an image or interactive block that promotes an offer, section, or partner. Before making “the same as a competitor”, it helps to know the real size in pixels — otherwise the creative breaks layout or bloats page weight.",
-    "Banner types, why IAB standards aren’t always followed, and how to pull sizes with DevTools. Clickable images aren’t always “ads,” but formats and weight still matter for sites and campaigns.",
+    "Below: banner types, why IAB standards aren’t always followed, and how to check sizes with DevTools. Clickable images live in a neighboring piece.",
   ],
   faq: [
     {
@@ -57,7 +57,7 @@ export const razmeryBanneraEn: BlogPost = {
           items: [
             "static JPEG/PNG/WebP — simpler and lighter",
             "animation (GIF or video preview) — clearer, heavier",
-            "interactive (HTML/JS) — clicks, forms, motion; harder to maintain.",
+            "interactive (HTML/JS) — clicks, forms, motion; harder to maintain",
           ],
         },
       ],
@@ -76,7 +76,7 @@ export const razmeryBanneraEn: BlogPost = {
             "slot in the layout (column width / max-width)",
             "retina: sometimes prepare 2× but serve a compressed file",
             "mobile — a separate size or responsive",
-            "placement specs if it’s external ads.",
+            "placement specs if it’s external ads",
           ],
         },
       ],
@@ -100,7 +100,7 @@ export const razmeryBanneraEn: BlogPost = {
             "right-click the banner → Inspect",
             "in the DOM find the `img` or banner container",
             "check width/height in attributes or computed size",
-            "if unsure, open the image URL and verify the natural file size.",
+            "if unsure, open the image URL and verify the natural file size",
           ],
         },
         {
@@ -108,7 +108,7 @@ export const razmeryBanneraEn: BlogPost = {
           items: [
             "CSS may shrink the image — display ≠ intrinsic",
             "background via `background-image` — look in Styles, not img attributes",
-            "iframe/ad network — size may sit on the container, not the file.",
+            "iframe/ad network — size may sit on the container, not the file",
           ],
         },
       ],

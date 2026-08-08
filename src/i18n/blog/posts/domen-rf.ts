@@ -10,8 +10,8 @@ export const domenRfEn: BlogPost = {
   excerpt:
     "What the .рф zone is, why use a Cyrillic domain, which technical nuances remain, and how to promote the site without the myth that “.рф doesn’t rank.”",
   lead: [
-    "The `.рф` zone is a Cyrillic top-level domain for Russian-language addresses. The name is easier to type on a Russian keyboard, but tech and email often show punycode.",
-    "A short history, common myths, and practical SEO tips. General TLD levels live in the top-level domain article.",
+    "The `.рф` zone is a Cyrillic first-level domain (TLD) for Russian-language addresses. The name is easier to type on a Russian keyboard, but tech stacks and email often show punycode.",
+    "Below: a short history, common myths, and practical SEO tips. For domain levels in general, see the TLD article.",
   ],
   faq: [
     {
@@ -52,15 +52,14 @@ export const domenRfEn: BlogPost = {
         "The idea was a memorable address for a Russian-language brand without switching keyboard layout. Early on, old browsers and punycode confusion hurt; today support in modern browsers and search is widespread, but technical nuances still matter.",
         "Inside systems a Cyrillic name may show as `xn--…`. That’s normal IDN encoding, not a fake-site mark. You’ll meet it in certificates, logs, DNS settings, and some mail apps.",
       ],
-      lists: [],
     },
     {
       title: "Myths about promotion",
       level: 2,
       paras: [
-        "“Cyrillic isn’t indexed” is outdated. “You’ll always lose to `.ru`” isn’t a hard rule. “A keyword in `.рф` = rankings” is also a myth: the zone doesn’t replace keyword research, tech quality, and useful pages.",
+        "“Cyrillic isn’t indexed” is outdated. “You’ll always lose to `.ru`” isn’t a hard rule. “A keyword in `.рф` = page one” is also a myth: the zone doesn’t replace keyword research, tech quality, and useful pages.",
         "Search engines judge a site by the full mix: intent match, availability, content quality, structure, reputation, and usability. A national zone can be a natural signal for a Russian-language project, but it isn’t a promotion strategy on its own.",
-        "Don’t tie a zone change to a promise of fast growth. SEO prep — audit, tech, keywords, copy, and analytics — takes weeks or about a month; getting the core into the top results is planned for 2–6 months of work and depends on competition.",
+        "Don’t tie a zone change to a promise of fast growth. SEO prep — audit, tech, keywords, copy, and analytics — takes weeks or about a month; visibility across the core set is planned for 2–6 months of work and depends on competition.",
       ],
       lists: [
         {
@@ -75,14 +74,15 @@ export const domenRfEn: BlogPost = {
       ],
       links: [
         {
-          label: "Top-level domain",
+          label: "First-level domain (TLD)",
           href: "/en/blog/domen-pervogo-urovnya/",
         },
       ],
       notes: [
         {
           title: "Timelines",
-          text: "Choosing a zone is part of site prep. Getting a commercial keyword set into the top results is planned over 2–6 months of work — not a consequence of `.рф` or `.ru`.",
+          kind: "tip",
+          text: "Choosing a zone is part of site prep. Ranking a commercial keyword set is planned over 2–6 months of work — not a consequence of `.рф` or `.ru`.",
         },
       ],
     },
@@ -141,10 +141,10 @@ export const domenRfEn: BlogPost = {
         "When moving domains, map URLs in advance: each important page should go to the nearest relevant address, not only the home page. Update canonicals, sitemap, internal links, analytics, and business listings.",
         "Check redirects after go-live and keep the old domain during migration. Cutting the old address abruptly loses users, links, and history.",
       ],
-      lists: [],
       notes: [
         {
           title: "Don’t confuse timelines",
+          kind: "tip",
           text: "A domain change is a technical project with risks — not a quick ranking boost. Prep the migration first, then watch indexing and visibility by cluster.",
         },
       ],
@@ -157,7 +157,6 @@ export const domenRfEn: BlogPost = {
         "Every few months confirm the certificate renews, the sitemap is reachable, redirects don’t chain, and mail/forms accept messages. Those basics usually matter more than arguing which zone is “better.”",
         "If the audience hesitates over an unfamiliar address, explain brand benefits and show the URL consistently across channels. Trust comes from a clear site, security, and reputation — not the zone alone.",
       ],
-      lists: [],
     },
   ],
 };

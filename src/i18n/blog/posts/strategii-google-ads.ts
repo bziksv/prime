@@ -3,54 +3,54 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for strategii-google-ads — same structure as RU JSON. */
 export const strategiiGoogleAdsEn: BlogPost = {
   slug: "strategii-google-ads",
-  title: "Google Ads automated bidding: how to choose by goal",
+  title: "Google Ads automated bidding: pick the strategy by goal",
   date: "2018-12-25",
   category: "Paid search",
   cover: "/images/blog/strategii-google-ads/cover-en.webp",
   excerpt:
-    "How to pick automated bidding strategies in Google Ads (Smart Bidding): clicks, conversions, CPA/ROAS — without a catalog of outdated 2018 button names and “automation always cheaper” promises.",
+    "How to choose Smart Bidding in Google Ads — clicks, conversions, CPA, ROAS — without a 2018 button catalog or the myth that automation always spends better.",
   lead: [
-    "Automated strategies in Google Ads set bids toward the campaign goal: more clicks, more conversions, holding CPA or ROAS. Manual CPC didn’t disappear, but without conversion data auto-bidding often flies blind.",
-    "Account UI labels changed (eCPC, target impression share, and peers): focus on the meaning — clicks, conversions, value, or visibility — and check the current list in Google Ads Help. The Direct parallel is in a separate article.",
+    "Automated bidding in Google Ads sets bids toward a campaign goal: more clicks, more conversions, a CPA ceiling, or a ROAS floor. Manual CPC is still here — but without conversion data, auto modes fly blind.",
+    "What follows is how to choose by business job. UI labels moved (eCPC, target impression share, and the rest): stick to the class — clicks / conversions / value / visibility — and confirm names in Google Ads Help. The Direct parallel lives in a separate article.",
   ],
   faq: [
     {
       q: "Is automation always better than manual bids?",
-      a: "No. With few conversions, broken goals, or offer tests, manual or limited mode can be calmer. Auto shines on volume and stable economics.",
+      a: "No. Sparse conversions, dirty goals, or offer tests — manual or a limited mode is often calmer. Auto wins on volume and stable economics.",
     },
     {
       q: "How many conversions do I need?",
-      a: "The more stable conversions in the learning window, the more confident Smart Bidding. We don’t lock old “exactly 30” thresholds — check ads account guidance and your stats.",
+      a: "The more stable conversions in the learning window, the more confident Smart Bidding gets. We don’t lock old “exactly 30” rules — use account guidance and your own stats.",
     },
     {
-      q: "Can I change strategy every day?",
-      a: "Better give a learning window (often about 1–3 weeks) and don’t change the goal daily. Otherwise the algorithm never settles.",
+      q: "Can I switch strategy every day?",
+      a: "Give a learning window (often about 1–3 weeks) and don’t rewrite the goal daily. Otherwise the algorithm never settles.",
     },
     {
       q: "How is this different from Direct strategies?",
-      a: "Meaning is similar: goal → data → automation. Account UIs and names differ; don’t copy settings one-to-one.",
+      a: "Same idea: goal → data → automation. Cabinets and labels differ — don’t copy settings one-to-one.",
     },
     {
-      q: "What matters more than strategy?",
-      a: "Correct conversions, offer, negatives, and landing. Strategy won’t save an empty goal pixel.",
+      q: "What matters more than the strategy?",
+      a: "Clean conversions, the offer, negatives, and the landing. No bidding mode fixes an empty goal pixel.",
     },
   ],
   sections: [
     {
-      title: "Why automated bids",
+      title: "Why automated bids exist",
       level: 2,
       paras: [
-        "The algorithm reads auction context harder than a person can bid every keyword by hand: device, time, conversion likelihood. You pay closer to clicks that look valuable — not “any click”.",
-        "The cost of a mistake is bad goals: if “phone click” without a lead counts as a conversion, optimization will chase cheap junk.",
+        "The algorithm reads auction context harder than a person can bid every keyword by hand: device, time, conversion likelihood. You pay closer to clicks that look valuable — not any click that shows up.",
+        "Bad goals are expensive: if “phone tap” without a lead counts as a conversion, optimization chases cheap junk.",
       ],
       lists: [
         {
-          intro: "Before picking a strategy:",
+          intro: "Before you pick a strategy:",
           items: [
-            "clear business goal (lead, purchase, traffic);",
-            "conversion tracking without duplicates;",
-            "acceptable CPA/ROAS estimate;",
-            "budget for the learning period.",
+            "a clear business goal (lead, purchase, traffic)",
+            "conversion tracking without duplicates",
+            "an acceptable CPA or ROAS",
+            "budget for the learning period",
           ],
         },
       ],
@@ -66,16 +66,16 @@ export const strategiiGoogleAdsEn: BlogPost = {
       ],
     },
     {
-      title: "Clicks and reach",
+      title: "Clicks and visibility",
       level: 2,
       paras: [
-        "Maximize clicks / maximize clicks within budget fits when visits and awareness matter more, and conversions are few or not tracked yet. Cap budget and watch traffic quality.",
-        "“Visibility” modes (impression share / SERP position — names drift) are closer to brand tasks: be seen on brand or competitor queries. For performance with a hard CPA they’re often expensive.",
+        "Maximize clicks (or clicks within budget) fits when visits and awareness matter more than tracked conversions — or when you’re still wiring goals. Cap the budget and watch traffic quality.",
+        "Visibility modes (impression share / SERP presence — names drift) suit brand jobs: show up on your name or competitor queries. For hard-CPA performance they often run expensive.",
       ],
       notes: [
         {
-          title: "Important",
-          text: "“Maximize clicks for people who don’t know keyword prices” is a trap. Without negatives and monitoring, budget leaks into broad queries.",
+          title: "Watch out",
+          text: "“Maximize clicks because I don’t know keyword prices” is a trap. Without negatives and monitoring, budget leaks into broad queries.",
           kind: "tip",
         },
       ],
@@ -84,45 +84,45 @@ export const strategiiGoogleAdsEn: BlogPost = {
       title: "Conversions and value",
       level: 2,
       paras: [
-        "Maximize conversions — when you need more goal actions within budget. Target CPA — when you know an acceptable lead/order cost and can feed the algorithm volume.",
-        "Target ROAS / conversion value — for stores and models with different margins: the system pulls toward target profitability. Without value in the data (value tracking) the idea weakens.",
+        "Maximize conversions when you need more goal actions inside the budget. Target CPA when you know an acceptable lead or order cost and can feed the algorithm volume.",
+        "Target ROAS / conversion value fits stores and mixed-margin models: the system pulls toward profitability. Without value in the data (value tracking), the idea weakens.",
       ],
       lists: [
         {
-          intro: "When conversion strategies fit:",
+          intro: "Conversion strategies fit when:",
           items: [
-            "goals pass stably;",
-            "there’s conversion history;",
-            "offer and site don’t change every week;",
-            "CPA ceiling or ROAS floor is clear.",
+            "goals fire reliably",
+            "you have conversion history",
+            "offer and site aren’t rewritten every week",
+            "CPA ceiling or ROAS floor is clear",
           ],
         },
       ],
     },
     {
-      title: "Limited auto mode and manual CPC",
+      title: "Limited auto and manual CPC",
       level: 2,
       paras: [
-        "Enhanced CPC / hybrids (historically eCPC and peers) raise the bid when a click looks like a conversion and cap growth. Useful as a transition step.",
-        "Manual CPC — control and hypothesis tests at the start, narrow brand campaigns, rare conversions. Starting manual until data builds is fine.",
+        "Enhanced CPC / hybrids (historically eCPC and peers) raise the bid when a click looks convertible and cap runaway growth. Handy as a bridge.",
+        "Manual CPC fits launches, hypothesis tests, narrow brand campaigns, and rare conversions. Starting manual until data builds is fine — not a failure.",
       ],
     },
     {
-      title: "How to choose without breaking learning",
+      title: "Choose without breaking the learning window",
       level: 2,
       paras: [
-        "Match campaign goal to KPI: brand → visibility/clicks; leads → conversions/CPA; store with margin → value/ROAS. Don’t expect an instant miracle: after a strategy change, plan an observation window.",
-        "A sharp budget jump at the same Target CPA can temporarily hurt efficiency — scale in steps. In parallel, clean search terms and creatives.",
+        "Match campaign job to KPI: brand → visibility/clicks; leads → conversions/CPA; margin-aware store → value/ROAS. After a strategy change, plan an observation window — don’t expect overnight miracles.",
+        "A sharp budget jump at the same Target CPA can hurt efficiency for a while — scale in steps. Keep cleaning search terms and creatives in parallel.",
       ],
       lists: [
         {
           intro: "Selection checklist:",
           items: [
-            "KPI written down;",
-            "conversions verified;",
-            "strategy = KPI;",
-            "budget for learning;",
-            "plan not to tweak settings daily.",
+            "KPI written down",
+            "conversions verified",
+            "strategy matches the KPI",
+            "budget reserved for learning",
+            "no daily setting churn",
           ],
         },
       ],
@@ -138,10 +138,10 @@ export const strategiiGoogleAdsEn: BlogPost = {
       ],
     },
     {
-      title: "Takeaways",
+      title: "What to remember",
       level: 2,
       paras: [
-        "Google Ads auto strategies are about goal and data — not a “magic cheaper click” button. The 2018 name catalog is outdated; the meaning of strategy classes is not.",
+        "Google Ads auto strategies are about goal and data — not a magic cheaper-click button. The 2018 name catalog aged out; the strategy classes did not.",
         "Goals and economics first, then automation. Otherwise the algorithm optimizes the wrong thing.",
       ],
     },

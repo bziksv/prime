@@ -9,14 +9,14 @@ export const vovlechennostInstagramEn: BlogPost = {
   cover: "/images/blog/vovlechennost-instagram/cover-en.webp",
   excerpt:
     "What Engagement Rate means on Instagram, which formulas exist, and how to read ER with profile stats — without the “mandatory 3%” myth and without fake engagement.",
-  legalNotice: {
-    title: "Dear readers!",
-    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
-  },
   lead: [
     "Engagement (ER) shows what share of the audience reacts to content: likes, comments, saves, replies. It’s not follower count and not a sales guarantee, but a strong signal of interest and follower quality.",
-    "Know the terms, pull numbers from Insights on a professional account, and grow engagement with content and replies — not fake activity. Benchmarks like “3% at 10k” from old roundups belong to another era, not your KPI.",
+    "Below: terms, where to get the numbers, and how to grow the white way. Benchmarks like “3% at 10k” from old roundups belong to another era, not your KPI. Insights menus change; you need a professional account. The Meta disclaimer is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Are ER and reach the same?",
@@ -70,19 +70,19 @@ export const vovlechennostInstagramEn: BlogPost = {
         {
           intro: "Practical for a report:",
           items: [
-            "lock one primary formula;",
-            "count post ER and the period average;",
-            "watch saves and replies separately — often worth more than a like;",
-            "don’t mix ad and organic reach without a label;",
-            "don’t invent metrics “by eye” without a method.",
+            "lock one primary formula",
+            "count post ER and the period average",
+            "watch saves and replies separately — often worth more than a like",
+            "don’t mix ad and organic reach without a label",
+            "don’t invent metrics “by eye” without a method",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
-          text: "Chasing someone else’s “normal percent.” Compare your top and weak posts — more useful than a benchmark table.",
           kind: "tip",
+          text: "Chasing someone else’s “normal percent.” Compare your strongest and weakest posts — more useful than a benchmark table.",
         },
       ],
     },
@@ -111,11 +111,11 @@ export const vovlechennostInstagramEn: BlogPost = {
         {
           intro: "Levers:",
           items: [
-            "hook in the first caption line;",
-            "one clear CTA (ask / save / message);",
-            "reply to comments in the first hours;",
-            "Stories and polls as dialogue;",
-            "no fake engagement or mass-follow for the number.",
+            "hook in the first caption line",
+            "one clear CTA (ask / save / message)",
+            "reply to comments in the first hours",
+            "Stories and polls as dialogue",
+            "no fake engagement or mass-follow for the number",
           ],
         },
       ],

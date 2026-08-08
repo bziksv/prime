@@ -8,10 +8,10 @@ export const byudzhetYandeksDirektEn: BlogPost = {
   category: "Paid search",
   cover: "/images/blog/byudzhet-yandeks-direkt/cover-en.webp",
   excerpt:
-    "How to estimate a starting budget in Yandex Direct: PPC and the auction, CPC ceiling from unit economics, daily and weekly caps, and ways not to burn money — without a “universal sum for everyone.”",
+    "How to estimate a starting budget in Yandex Direct: PPC and the auction, CPC ceiling from unit economics, daily and weekly caps, and ways not to burn money — without a universal sum for everyone.",
   lead: [
     "There’s no universal “minimum Yandex Direct budget” for every niche: the sum depends on goal, region, competition, site conversion, and acceptable CPA. An “N thousand a week” formula from someone else’s case rarely transfers one-to-one.",
-    "A Direct budget is PPC math: click price drivers, a start sketch via the forecast tool and unit economics, plus daily/weekly caps that save without choking impressions. Strategy names and account thresholds — check current Yandex Help; the UI has changed since 2020.",
+    "Below: PPC logic, what drives click price, how to sketch a start via the forecast tool and unit economics, how daily/weekly caps help, and how to save without choking impressions. Strategy names and account thresholds — check current Yandex Help; the UI has changed since 2020.",
   ],
   faq: [
     {
@@ -55,11 +55,11 @@ export const byudzhetYandeksDirektEn: BlogPost = {
         {
           intro: "Spend is driven by:",
           items: [
-            "demand and competition on queries;",
-            "ad quality and landing relevance;",
-            "geography and impression schedule;",
-            "Search / YAN mix;",
-            "negatives and keyword hygiene.",
+            "demand and competition on queries",
+            "ad quality and landing relevance",
+            "geography and impression schedule",
+            "Search / YAN mix",
+            "negatives and keyword hygiene",
           ],
         },
       ],
@@ -78,14 +78,14 @@ export const byudzhetYandeksDirektEn: BlogPost = {
       title: "Click price: what matters more than “bid higher”",
       level: 2,
       paras: [
-        "Seasonality lifts bids at demand peaks — sometimes it’s smarter to enter before the wave, not on the most expensive day. Placement and ad block also change economics: don’t confuse “visibility” with “payback.”",
+        "Seasonality lifts bids at demand peaks — sometimes it’s smarter to enter before the wave, not on the most expensive day. Placement and ad block also change economics: don’t confuse visibility with payback.",
         "Higher CTR and relevance often help you pay less for the same outcome. A headline with concrete benefit and price (where fitting) usually beats a vague “where to buy… with us.” The landing must match the ad promise — or you pay for a quick bounce.",
-        "Sitelinks and callouts cut “wrong” clicks when a query has several readings. Account history and “keyword — ad — URL” quality enter the auction; don’t expect “domain magic” from old guides — watch current quality signals in the account.",
+        "Sitelinks and callouts cut wrong clicks when a query has several readings. Account history and “keyword — ad — URL” quality enter the auction; don’t expect domain magic from old guides — watch current quality signals in the account.",
       ],
       notes: [
         {
           kind: "tip",
-          text: "Set the CPC ceiling from target CPA and site conversion — not from someone else’s “market average.” More in the click-price piece.",
+          text: "Set the CPC ceiling from target CPA and site conversion — not from someone else’s market average. More in the click-price piece.",
         },
       ],
     },
@@ -94,18 +94,18 @@ export const byudzhetYandeksDirektEn: BlogPost = {
       level: 2,
       paras: [
         "Direct has a forecast tool: region, keywords, click and bid guides. For a draft the core set is enough — not a 10,000-phrase brief. Forecast numbers are order of magnitude, not a guarantee of next week’s spend.",
-        "In parallel lock the goal (lead, call, order) and acceptable CPA. If ~1% of clicks convert and a lead can cost $25, the click ceiling is around $0.25 — then either the market fits the economics, or you narrow semantics and improve the landing — not “throw budget at a loss.”",
+        "In parallel lock the goal (lead, call, order) and acceptable CPA. If ~1% of clicks convert and a lead can cost $25, the click ceiling is around $0.25 — then either the market fits the economics, or you narrow keywords and improve the landing — not throw budget at a loss.",
         "A weekly horizon helps cash planning: how many clicks and leads you really need in 7 days for a meaningful test. Strategy names (“optimize clicks,” packages, average CPC) have changed — pick the model for the goal in the current UI and Help.",
       ],
       lists: [
         {
           intro: "Minimum for a meaningful test:",
           items: [
-            "goal and how it’s tracked in analytics;",
-            "narrow commercial set + negatives;",
-            "daily or weekly cap;",
-            "CPC ceiling / target CPA;",
-            "a horizon of several days without hourly bid twitching.",
+            "goal and how it’s tracked in analytics",
+            "narrow commercial set + negatives",
+            "daily or weekly cap",
+            "CPC ceiling / target CPA",
+            "a horizon of several days without hourly bid twitching",
           ],
         },
       ],
@@ -120,13 +120,13 @@ export const byudzhetYandeksDirektEn: BlogPost = {
       title: "Account balance, daily and weekly caps",
       level: 2,
       paras: [
-        "One account balance simplifies payment: campaigns draw from one wallet. Top-up and autopay methods — check the account; the set has changed over time.",
-        "A daily budget caps spend per day: useful at launch and with unstable semantics. “Standard / distributed” mode (or current analogs) affects whether the cap burns in the morning or stretches across the day and schedule. Technical minimums and change limits — only from Help, not 2020 articles.",
-        "Too harsh a cap on a wide set yields few clicks and few conclusions. Prefer fewer keywords and a normal test volume over “token” money for the whole catalog.",
+        "One account balance simplifies payment: campaigns draw from one wallet. Funding and autopay methods — check the account; the set has changed over time.",
+        "A daily budget caps spend per day: useful at launch and with unstable keywords. Standard / distributed mode (or current analogs) affects whether the cap burns in the morning or stretches across the day and schedule. Technical minimums and change limits — only from Help, not 2020 articles.",
+        "Too harsh a cap on a wide set yields few clicks and few conclusions. Prefer fewer keywords and a normal test volume over token money for the whole catalog.",
       ],
       notes: [
         {
-          kind: "warning",
+          kind: "tip",
           text: "A cap is insurance against a burn — not a substitute for negatives and relevant landing pages. If clicks are expensive and empty, raising the daily budget is pointless.",
         },
       ],
@@ -136,18 +136,18 @@ export const byudzhetYandeksDirektEn: BlogPost = {
       level: 2,
       paras: [
         "Impression schedule: align with hours when leads get handled and with niche specifics. Round-the-clock reach on a tiny budget often spreads clicks with no operator reply.",
-        "Negatives cut junk wording and raise the share of target visits — reach drops, but you pay less “beside the point.” Split regions or at least don’t mix expensive and cheap geos in one pile without need: economics and tests are easier to read.",
-        "Before launch lock goal, budget hypothesis, and success criterion. After — match spend to revenue/margin and watch the funnel (including e-commerce and call tracking if you have them). ROI = (revenue − ad cost) / cost × 100% — a channel payback compass, not a “magic Direct button.”",
+        "Negatives cut junk wording and raise the share of target visits — reach drops, but you pay less beside the point. Split regions or at least don’t mix expensive and cheap geos in one pile without need: economics and tests are easier to read.",
+        "Before launch lock goal, budget hypothesis, and success criterion. After — match spend to revenue/margin and watch the funnel (including e-commerce and call tracking if you have them). ROI = (revenue − ad cost) / cost × 100% — a channel payback compass, not a magic Direct button.",
       ],
       lists: [
         {
           intro: "Working control minimum:",
           items: [
-            "analytics goals for lead/order/call;",
-            "search-term report and negatives;",
-            "CPA / ROAS next to CTR;",
-            "separate view of Search and YAN;",
-            "decision: narrow, improve ad/landing, or stop.",
+            "analytics goals for lead/order/call",
+            "search-term report and negatives",
+            "CPA / ROAS next to CTR",
+            "separate view of Search and YAN",
+            "decision: narrow, improve ad/landing, or stop",
           ],
         },
       ],
@@ -173,11 +173,11 @@ export const byudzhetYandeksDirektEn: BlogPost = {
         {
           intro: "Remember:",
           items: [
-            "no single “Direct minimum sum”;",
-            "calculate from goal and CPA — not outsider cases;",
-            "caps protect cash; keyword set and negatives protect traffic quality;",
-            "forecast ≈ order of magnitude;",
-            "current thresholds — only in Yandex Help.",
+            "no single Direct minimum sum",
+            "calculate from goal and CPA — not outsider cases",
+            "caps protect cash; keyword set and negatives protect traffic quality",
+            "forecast ≈ order of magnitude",
+            "current thresholds — only in Yandex Help",
           ],
         },
       ],

@@ -8,10 +8,10 @@ export const poseshhaemostSaytaEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/poseshhaemost-sayta/cover-en.webp",
   excerpt:
-    "Start with an audit (speed, filters, navigation, content), then white-hat channels: SEO, title, email, images, social — without black-hat schemes or promising that “traffic in a month means TOP rankings.”",
+    "Start with an audit (speed, filters, navigation, content), then white-hat channels: SEO, title, email, images, social — without black-hat schemes or promising that “traffic in a month means page-one rankings.”",
   lead: [
     "There’s no universal answer to “how to raise traffic”: channels are many, and a site without basics wastes any visit. Put the resource in order first, then grow sources.",
-    "We cover prep and practical white-hat methods. SEO is “free” only without paying per click: you pay with time. Prep takes weeks or about a month; core terms into TOP are planned over 2–6 months — not “1–2 months after a couple of posts.”",
+    "Below: prep and practical white-hat methods. SEO is “free” only without paying per click — you pay with time. Prep takes weeks or about a month. Page-one visibility for the keyword set is planned for 2–6 months — not “one or two months after a couple of posts.”",
   ],
   faq: [
     {
@@ -52,8 +52,8 @@ export const poseshhaemostSaytaEn: BlogPost = {
             "speed of key pages",
             "mobile navigation",
             "no mass 404s / broken forms",
-            "something to read/buy without stale prices",
-            "counters and goals configured.",
+            "something to read or buy without stale prices",
+            "counters and goals configured",
           ],
         },
       ],
@@ -72,7 +72,7 @@ export const poseshhaemostSaytaEn: BlogPost = {
       title: "Ways to attract visitors",
       level: 2,
       paras: [
-        "SEO: semantics, useful pages, internal links, solid Titles. Long-tail often brings first qualified visits faster than fighting only for head terms. Organic isn’t a “free button”: work plus waiting for TOP timelines.",
+        "SEO: keyword set, useful pages, internal links, solid titles. Long-tail often brings first qualified visits faster than fighting only for head terms. Organic isn’t a free button: work plus waiting for ranking timelines.",
         "Title: clear offer and query meaning; length roughly up to ~60 characters in the SERP (depends on pixels). Boosters (“free shipping”) — only if true.",
         "Consent-based email keeps and returns people; several lists make sense with different content, not copy-paste. List growth is a process, not a one-day explosion.",
         "Image optimization: meaningful names/alt, compression, image-search traffic as an extra channel — not a substitute for text landings.",

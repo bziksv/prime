@@ -10,8 +10,8 @@ export const favikonEn: BlogPost = {
   excerpt:
     "A favicon is the site icon in the tab, bookmarks, and often in the SERP. Why you need one, which sizes and formats to ship, how to connect it, and how not to spoil the brand with someone else’s gallery image.",
   lead: [
-    "A favicon (favorite icon) is the small icon next to the site name in the browser tab, bookmarks, on the desktop, and often in the search snippet. It’s not a “ranking factor” — it’s recognition and a tidy UI.",
-    "Why you should set one, how to make and connect it, and what to watch in the design. Claims like “a favicon makes traffic beat competitors” are really about everyday recognition — not a proven traffic lever.",
+    "A favicon (favorite icon) is the small icon next to the site name in the browser tab, bookmarks, on the desktop, and often in the search snippet. It’s not a ranking lever — it’s recognition and a tidy UI.",
+    "Below: why you should set one, how to make and connect it, and what to watch in the design. Claims like “a favicon makes traffic beat competitors” are really about everyday recognition — not a proven traffic switch.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const favikonEn: BlogPost = {
     },
     {
       q: "What size do I need?",
-      a: "The base is 16×16 and 32×32. Larger sets help for shortcuts and devices (48, 180 for apple-touch, etc.). Often built from one PNG/SVG source.",
+      a: "The base is 16×16 and 32×32. Larger sets help for shortcuts and devices (48, 180 for apple-touch, and similar). Often built from one PNG/SVG source.",
     },
     {
       q: "Which format should I use?",
@@ -28,11 +28,11 @@ export const favikonEn: BlogPost = {
     },
     {
       q: "Does it affect rankings?",
-      a: "There's no direct ranking weight. Indirectly, it helps recognition in the SERP and bookmarks if the icon reads at small size.",
+      a: "There’s no direct ranking weight. Indirectly, it helps recognition in the SERP and bookmarks if the icon reads at small size.",
     },
     {
       q: "How fast does it update in search and the browser?",
-      a: "Browsers and CDNs often cache hard. In the SERP it can take days to weeks after a change. There's no hard “exactly one week” rule.",
+      a: "Browsers and CDNs often cache hard. In the SERP it can take days to weeks after a change. There’s no hard “exactly one week” rule.",
     },
     {
       q: "Can I take an icon from a free gallery?",
@@ -54,7 +54,7 @@ export const favikonEn: BlogPost = {
           items: [
             "reads on dark and light tabs",
             "not overloaded with text",
-            "matches identity — not a random stock mark",
+            "matches identity — not a random gallery mark",
             "a fallback without fine detail exists",
           ],
         },
@@ -73,7 +73,7 @@ export const favikonEn: BlogPost = {
         "The classic approach: a file at the site root (`/favicon.ico`) and/or explicit links in `<head>`: `rel=\"icon\"` to PNG/SVG, `apple-touch-icon` if needed. Exact syntax depends on CMS and build — check theme docs or the manifest generator.",
         "Online generators (Favicon Generator and similar tools) are handy for turning one PNG into a size pack. Lists of specific 2018-era services go stale fast: pick a current tool and check the source license.",
         "Ready-made “favicon galleries” are a bad idea for a commercial site: you risk duplicates and rights issues. No designer? Simplify the logo into a square or order a mark with the identity.",
-        "After a change, clear the browser/CDN cache and wait for search/cache updates. While the cache lives, the old icon may still show.",
+        "After a change, clear the browser/CDN cache and wait for search updates. While the cache lives, the old icon may still show.",
       ],
       lists: [
         {
@@ -82,7 +82,7 @@ export const favikonEn: BlogPost = {
             "32×32 icon (PNG) + SVG when possible",
             "apple-touch-icon for an iOS shortcut",
             "check in Chrome/Safari/Firefox tabs",
-            "uniqueness vs. niche competitors",
+            "uniqueness vs niche competitors",
           ],
         },
       ],

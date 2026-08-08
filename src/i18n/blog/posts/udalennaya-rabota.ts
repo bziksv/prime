@@ -11,7 +11,7 @@ export const udalennayaRabotaEn: BlogPost = {
     "How to run a remote team: hiring outside the office, managing by outcomes, communication and task tools, motivation and team feeling — without total surveillance.",
   lead: [
     "Remote work stopped being a backup for people who didn’t get an office seat. For many roles the result doesn’t depend on a desk in an open space: you need clear tasks, communication, and agreements on deadlines.",
-    "A distributed model widens the hiring pool and can cut rent — but only if you manage by outcomes, keep one shared tool stack, and protect team feeling without micromanagement. Share-of-remote stats by year float; principles of organization matter more.",
+    "Below: why companies use a distributed model, how to manage without micromanagement, which classes of tools hold the process together, and how not to lose team feeling. Share-of-remote stats by year float; principles of organization matter more.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const udalennayaRabotaEn: BlogPost = {
       a: "Often you save on rent and location-based salaries. But you need strong processes, onboarding, and sometimes hardware or software — otherwise “cheap” is eaten by chaos.",
     },
     {
-      q: "How do you control people you can’t see?",
+      q: "How do you manage people you can’t see?",
       a: "By outcomes and transparent statuses: plan, metrics, regular reports. Watching minutes in a chair demotivates and poorly predicts value.",
     },
     {
@@ -51,9 +51,9 @@ export const udalennayaRabotaEn: BlogPost = {
         {
           intro: "Who often likes the model:",
           items: [
-            "people who stay in their city or with family;",
-            "people who combine work with moves;",
-            "companies with a digital product and clear KPIs.",
+            "people who stay in their city or with family",
+            "people who combine work with moves",
+            "companies with a digital product and clear KPIs",
           ],
         },
       ],
@@ -69,10 +69,10 @@ export const udalennayaRabotaEn: BlogPost = {
         {
           intro: "Minimum transparency:",
           items: [
-            "goals and “done” criteria;",
-            "a board or task list with owners;",
-            "a short status rhythm;",
-            "risk escalation without drama.",
+            "goals and “done” criteria",
+            "a board or task list with owners",
+            "a short status rhythm",
+            "risk escalation without drama",
           ],
         },
       ],
@@ -95,11 +95,11 @@ export const udalennayaRabotaEn: BlogPost = {
         {
           intro: "Basic process stack:",
           items: [
-            "task and deadline tracker;",
-            "shared docs and templates;",
-            "video meetings that earn their time;",
-            "wiki / instruction base;",
-            "shared escalation channels.",
+            "task and deadline tracker",
+            "shared docs and templates",
+            "video meetings that earn their time",
+            "wiki / instruction base",
+            "shared escalation channels",
           ],
         },
       ],
@@ -133,10 +133,10 @@ export const udalennayaRabotaEn: BlogPost = {
         {
           intro: "Lock in the offer:",
           items: [
-            "overlap hours with the team;",
-            "how results are delivered;",
-            "which calls are mandatory;",
-            "how the probation period works.",
+            "overlap hours with the team",
+            "how results are delivered",
+            "which calls are mandatory",
+            "how the probation period works",
           ],
         },
       ],

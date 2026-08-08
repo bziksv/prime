@@ -8,10 +8,10 @@ export const urlAdresEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/url-adres/cover-en.webp",
   excerpt:
-    "What a URL is, which parts make up a page address, how to write readable slugs, and how much the path really affects SEO — without the myth “keyword in URL = TOP.”",
+    "What a URL is, which parts make up a page address, how to write readable slugs, and how much the path really affects SEO — without the myth “keyword in URL = page one.”",
   lead: [
     "A URL (Uniform Resource Locator) is a resource address on the web: a page, image, or file. In the address bar the browser shows scheme, host, and path; people and robots use them to see where they landed.",
-    "A readable path helps clicks and navigation, but it doesn’t replace content, site structure, or technical SEO. Know the anatomy, write clear slugs, and treat the URL as one weak signal — not a ranking cheat code.",
+    "Below: URL anatomy, how to write clear addresses, and what SEO actually gets from them. A readable path helps clicks and navigation, but it does not replace content, site structure, or tech.",
   ],
   faq: [
     {
@@ -24,15 +24,15 @@ export const urlAdresEn: BlogPost = {
     },
     {
       q: "Do you need keywords in the URL?",
-      a: "A short meaningful path helps. Stuffing the URL with keywords hurts UX and can look manipulative. Exact-match in domain or path isn’t a cheat boost anymore.",
+      a: "A short meaningful path helps. Stuffing the URL with keywords hurts UX and can look manipulative. Exact-match in domain or path is not a cheat boost anymore.",
     },
     {
       q: "Is HTTPS required?",
       a: "Yes for a normal site: trust, cookies, browser and search requirements. Plain HTTP is outdated and risky.",
     },
     {
-      q: "Does a URL alone get you into the TOP?",
-      a: "No. It’s one technical and UX signal. Site prep and ranking growth are different timelines — cleaning URLs is prep; commercial TOP is planned for 2–6 months after promotion starts.",
+      q: "Does a URL alone get you onto page one?",
+      a: "No. It is one technical and UX signal. Site prep and ranking growth are different timelines — see the prep versus visibility rule.",
     },
   ],
   sections: [
@@ -47,10 +47,10 @@ export const urlAdresEn: BlogPost = {
         {
           intro: "Where URLs appear:",
           items: [
-            "site pages;",
-            "images, PDFs, video;",
-            "API and utility endpoints;",
-            "redirects and mirrors (www / non-www).",
+            "site pages",
+            "images, PDFs, video",
+            "API and utility endpoints",
+            "redirects and mirrors (www / non-www)",
           ],
         },
       ],
@@ -75,17 +75,18 @@ export const urlAdresEn: BlogPost = {
         {
           intro: "Main parts:",
           items: [
-            "scheme (protocol): `https://` — secure connection; `http://` is outdated for sites;",
-            "host (domain): `example.com` or `www.example.com`;",
-            "port: usually 443 for HTTPS, not written in the URL;",
-            "path: `/catalog/product/` — sections and page;",
-            "query params: `?utm_…`, filters, sessions;",
-            "fragment: `#reviews` — on-page anchor (often not sent to the server).",
+            "scheme (protocol): `https://` — secure connection; `http://` is outdated for sites",
+            "host (domain): `example.com` or `www.example.com`",
+            "port: usually 443 for HTTPS, not written in the URL",
+            "path: `/catalog/product/` — sections and page",
+            "query params: `?utm_…`, filters, sessions",
+            "fragment: `#reviews` — on-page anchor (often not sent to the server)",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Common confusion",
           text: "“Auth” in old URL schemes (user:pass@host) is almost unused on the web and unsafe. Login to an account is a separate page or form — not part of a “pretty” public address.",
         },
@@ -107,12 +108,12 @@ export const urlAdresEn: BlogPost = {
         {
           intro: "Practical rules:",
           items: [
-            "Latin or a clean transliteration scheme, no mixed-case chaos;",
-            "hyphens instead of spaces and underscores;",
-            "short path: section → page, without extra nesting;",
-            "page meaning in the path (`/services/seo/`), not a keyword string;",
-            "one canonical URL per document (merge www/HTTPS via redirect);",
-            "don’t spawn index duplicates from filters and UTM.",
+            "Latin or a clean transliteration scheme, no mixed-case chaos",
+            "hyphens instead of spaces and underscores",
+            "short path: section → page, without extra nesting",
+            "page meaning in the path (`/services/seo/`), not a keyword string",
+            "one canonical URL per document (merge www/HTTPS via redirect)",
+            "do not spawn index duplicates from filters and UTM",
           ],
         },
       ],
@@ -143,25 +144,26 @@ export const urlAdresEn: BlogPost = {
       level: 2,
       paras: [
         "Search engines read the path as a weak topic and usability signal. Content, internal links, technical access, and behavior matter more.",
-        "A keyword in the URL or domain doesn’t guarantee a ranking. Zone (`.ru` / `.com`) and geo are separate signals — see the TLD article.",
-        "A readable URL raises SERP CTR and trust when shared — that helps indirectly if the page truly answers the query.",
+        "A keyword in the URL or domain does not guarantee a ranking. Zone (`.ru` / `.com`) and geo are separate signals — see the TLD article.",
+        "A readable URL raises CTR in the results and trust when shared — that helps indirectly if the page truly answers the query.",
       ],
       lists: [
         {
           intro: "What to check technically:",
           items: [
-            "primary mirror: HTTPS + chosen www;",
-            "human-readable URLs enabled in the CMS;",
-            "canonical and 301 without chains;",
-            "filter params don’t inflate the index;",
-            "URL changes only with a redirect from the old address.",
+            "primary mirror: HTTPS + chosen www",
+            "human-readable URLs enabled in the CMS",
+            "canonical and 301 without chains",
+            "filter params do not inflate the index",
+            "URL changes only with a redirect from the old address",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Timelines",
-          text: "Cleaning up URLs is part of site prep. Getting a commercial core into TOP is planned for 2–6 months after promotion starts — not the result of one address edit.",
+          text: "Cleaning up URLs is part of site prep. Growing a commercial core into page-one visibility is planned over months of work after promotion starts — not the result of one address edit.",
         },
       ],
     },

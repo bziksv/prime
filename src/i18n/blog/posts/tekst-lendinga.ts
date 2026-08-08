@@ -11,7 +11,7 @@ export const tekstLendingaEn: BlogPost = {
     "How to write landing page copy: offer, benefit blocks, proof, form, and CTA — without keyword stuffing in every alt and the myth of “keywords in the domain.”",
   lead: [
     "A landing works when it has one clear job: get a lead, book a consult, buy a product, or schedule a service. The copy should take the visitor from recognizing their situation to a safe next step.",
-    "We cover landing structure, argumentation, the form, and SEO hygiene. What matters isn’t “magic formulas,” but a clear offer, proof, and mobile comfort.",
+    "Below: landing structure, argumentation, the form, and SEO hygiene. What matters isn’t magic formulas, but a clear offer, proof, and mobile comfort.",
   ],
   faq: [
     {
@@ -48,7 +48,7 @@ export const tekstLendingaEn: BlogPost = {
       title: "Offer and first screen",
       level: 2,
       paras: [
-        "The first screen answers four questions: what’s offered, who it works, what result the visitor gets, and what to do next. H1 doesn’t have to be a keyword pile: name the service and a concrete benefit in plain language.",
+        "The first screen answers four questions: what’s offered, who it fits, what result the visitor gets, and what to do next. H1 doesn’t have to be a keyword pile: name the service and a concrete benefit in plain language.",
         "The subhead adds conditions, geography, format, or a limit that filters non-target demand. Nearby you need a clear CTA with an action: “Get an estimate,” “Get the program,” “Book a site visit” — not a vague “Learn more.”",
         "Don’t hide the key benefit behind company history or animation. On phone the visitor should grasp the offer and open the form without a long scroll.",
       ],
@@ -56,10 +56,10 @@ export const tekstLendingaEn: BlogPost = {
         {
           intro: "The first screen covers:",
           items: [
-            "who you are and for whom;",
-            "the main benefit;",
-            "difference from alternatives;",
-            "the next step (button/form).",
+            "who you are and for whom",
+            "the main benefit",
+            "difference from alternatives",
+            "the next step (button/form)",
           ],
         },
       ],
@@ -69,7 +69,7 @@ export const tekstLendingaEn: BlogPost = {
           href: "/en/blog/prodayushchie-teksty/",
         },
         {
-          label: "Feedback form",
+          label: "Contact form",
           href: "/en/blog/forma-obratnoy-svyazi/",
         },
       ],
@@ -78,7 +78,7 @@ export const tekstLendingaEn: BlogPost = {
       title: "Build a persuasion path",
       level: 2,
       paras: [
-        "Next the visitor needs answers to natural doubts: what’s included, how work runs, what it costs, who it works, and why you’re trustworthy. Order blocks by decision logic, not by how staff usually tell the company story.",
+        "Next the visitor needs answers to natural doubts: what’s included, how work runs, what it costs, who it fits, and why you’re trustworthy. Order blocks by decision logic, not by how staff usually tell the company story.",
         "For a simple purchase a short structure is enough. For an expensive service, construction, B2B, or medicine the path is longer: stages, limits, documents, cases, and a fuller FAQ help. Length alone doesn’t sell — each block should reduce a specific doubt.",
         "Short paragraphs, image captions, and bullet lists help scanning. A phone number in the header matters, but doesn’t replace a clear button or form for people who won’t call.",
       ],
@@ -86,12 +86,12 @@ export const tekstLendingaEn: BlogPost = {
         {
           intro: "Typical block order:",
           items: [
-            "offer and main CTA;",
-            "result and client benefits;",
-            "service scope or product specs;",
-            "stages, timelines, and terms;",
-            "cases, reviews, guarantees, and documents;",
-            "FAQ and a repeated call to action.",
+            "offer and main CTA",
+            "result and client benefits",
+            "service scope or product specs",
+            "stages, timelines, and terms",
+            "cases, reviews, guarantees, and documents",
+            "FAQ and a repeated call to action",
           ],
         },
       ],
@@ -104,10 +104,10 @@ export const tekstLendingaEn: BlogPost = {
         "Separate feature from benefit. Example: “engineer site visit” is a feature; “checks measurements before the contract so you don’t redo the project” is a benefit. Don’t promise a guaranteed outcome where it depends on outside factors or the client’s actions.",
         "Tone should match the audience. For a complex service — calm expertise and term explanations; for a clear product — more specifics on choice and delivery.",
       ],
-      lists: [],
       notes: [
         {
           title: "Check",
+          kind: "tip",
           text: "Read each block and ask: “Which visitor worry disappears after this?” If there’s no answer, rewrite, shorten, or replace with proof.",
         },
       ],
@@ -120,7 +120,6 @@ export const tekstLendingaEn: BlogPost = {
         "Don’t paper over objections. If price is custom, explain the pricing inputs and offer a range. If there are region, timeline, or stock limits, state them before the form — you’ll get fewer empty leads.",
         "Place proof next to the claim. After promising fast delivery, show the terms; after experience — a relevant case; next to the form — what happens after submit.",
       ],
-      lists: [],
     },
     {
       title: "Form and CTA: cut friction",
@@ -134,17 +133,17 @@ export const tekstLendingaEn: BlogPost = {
         {
           intro: "Check before launch:",
           items: [
-            "the form submits and shows a clear result;",
-            "phone and email are tappable on mobile;",
-            "the right person gets the notification;",
-            "analytics goals track submits and calls;",
-            "the page reads without horizontal scroll.",
+            "the form submits and shows a clear result",
+            "phone and email are tappable on mobile",
+            "the right person gets the notification",
+            "analytics goals track submits and calls",
+            "the page reads without horizontal scroll",
           ],
         },
       ],
       links: [
         {
-          label: "Feedback form",
+          label: "Contact form",
           href: "/en/blog/forma-obratnoy-svyazi/",
         },
       ],
@@ -161,16 +160,16 @@ export const tekstLendingaEn: BlogPost = {
         {
           intro: "Hygiene:",
           items: [
-            "one main intent per URL;",
-            "Title/Description by the offer;",
-            "a fast mobile page;",
-            "honest reviews and legal details when needed.",
+            "one main intent per URL",
+            "Title/Description by the offer",
+            "a fast mobile page",
+            "honest reviews and legal details when needed",
           ],
         },
       ],
       links: [
         {
-          label: "Semantic keyword research",
+          label: "Semantic core",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {
@@ -187,7 +186,6 @@ export const tekstLendingaEn: BlogPost = {
         "Test one hypothesis at a time: first-screen clarity, block order, button text, proof, or field count. Compare changes on enough traffic and watch not only conversion but the share of qualified leads.",
         "Revisit the landing when product, prices, season, or audience change. Regular honest updates beat a yearly cosmetic redesign with no behavior analysis.",
       ],
-      lists: [],
     },
   ],
 };

@@ -11,8 +11,12 @@ export const nazvanieAuditoriiInstagramEn: BlogPost = {
     "Why the internal audience name in Instagram/Meta promotion matters, how to name segments for tests, and how it differs from the public profile name.",
   lead: [
     "The Audience name field in Promote or Ads Manager is visible only to the account team: it’s a label for a saved segment (geo, age, interests, custom lists), not the page name followers see.",
-    "A clear naming scheme saves hours when you compare tests a month later. “Creative” slogan names don’t. Menu items change — check Meta Help. See the Meta notice on this page.",
+    "Below: why to name audiences systematically, which parameters sit next to the name, and what not to expect from “creative” slogan labels. Menu items change; check Meta Help. Disclaimer is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. Instagram* and Facebook* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the services may have legal consequences.",
+  },
   faq: [
     {
       q: "Who can see the audience name?",
@@ -70,7 +74,7 @@ export const nazvanieAuditoriiInstagramEn: BlogPost = {
             "cold / warm / retarget",
             "interests vs lookalike vs CRM customers",
             "A/B creative variant if the audience is shared",
-            "exclusions (minus buyers) — short at the end.",
+            "exclusions (minus buyers) — short at the end",
           ],
         },
       ],
@@ -88,9 +92,7 @@ export const nazvanieAuditoriiInstagramEn: BlogPost = {
         {
           kind: "tip",
           title: "UI",
-          paras: [
-            "In the app the path is often shorter (Promote); in Ads Manager there are more fields and saved audiences. Naming logic is the same.",
-          ],
+          text: "In the app the path is often shorter (Promote); in Ads Manager there are more fields and saved audiences. Naming logic is the same.",
         },
       ],
     },

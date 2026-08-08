@@ -11,7 +11,7 @@ export const planirovshchikRezultatovGoogleEn: BlogPost = {
     "Performance Planner in Google Ads: forecast budget and conversions from live campaigns, plan for seasonality, and reallocate spend across campaigns — and how it differs from Keyword Planner.",
   lead: [
     "Performance Planner helps estimate what happens to clicks, conversions, and CPA if you change budget or move money between Google Ads campaigns that are already running.",
-    "It isn’t Keyword Planner, and it isn’t a from-scratch forecast by search volume. We cover why the tool exists, which campaigns can enter a plan, typical scenarios, and accuracy limits. Ads UI paths change — check the current labels.",
+    "Below: why the tool exists, which campaigns can enter a plan, typical scenarios, and accuracy limits. It isn’t Keyword Planner, and it isn’t a from-scratch forecast by search volume. Ads UI paths change — check the current labels.",
   ],
   faq: [
     {
@@ -59,7 +59,7 @@ export const planirovshchikRezultatovGoogleEn: BlogPost = {
             "season: how much budget to add at the same CPA",
             "growth ceiling for Search or dynamic campaigns",
             "moving budget between campaigns",
-            "a client argument for “why we ask +X% this quarter.”",
+            "a client argument for “why we ask +X% this quarter”",
           ],
         },
       ],
@@ -78,7 +78,6 @@ export const planirovshchikRezultatovGoogleEn: BlogPost = {
         "If some campaigns lack history, the system may offer a seasonality coefficient — use a similar period last year, not a “six-month average,” if the niche is clearly seasonal.",
         "A “max conversions at any cost” scenario often breaks your CPA ceiling: move the goal by hand and watch a point on the curve — not the chart edge.",
       ],
-      lists: [],
       notes: [
         {
           title: "Tip",
@@ -95,7 +94,6 @@ export const planirovshchikRezultatovGoogleEn: BlogPost = {
         "Don’t look only at the “maximum” edge: the middle of the curve often balances conversions and CPA better. The comparison tab helps visualize current vs proposed spend.",
         "Dynamic and other formats can enter budget scenarios too — but first make sure the conversion column is the one you need now (imported goals go stale).",
       ],
-      lists: [],
     },
     {
       title: "Reallocating budget across campaigns",
@@ -105,7 +103,6 @@ export const planirovshchikRezultatovGoogleEn: BlogPost = {
         "Review by hand: does the plan cut learning campaigns, brand, or strategically important regions for a short-term “+N conversions” in the model?",
         "After picking a scenario, lock bid and budget changes deliberately. A plan in the library doesn’t rebuild the account by itself.",
       ],
-      lists: [],
       links: [
         {
           label: "Media plan",
@@ -123,7 +120,7 @@ export const planirovshchikRezultatovGoogleEn: BlogPost = {
       paras: [
         "Not every campaign type and strategy enters a plan. Default period windows and metric sets don’t always match your job — set them manually.",
         "If Conversions includes outdated or utility goals, the forecast will lie: clean tracking before planning. Plan vs fact can diverge several times when demand, the site, or competition shifts.",
-        "Use the tool as a negotiation and scenario layer on top of your economics — next to the media plan and lead unit economics.",
+        "Use the tool as a negotiation and scenario layer over your economics — next to the media plan and lead unit economics.",
       ],
       lists: [
         {
@@ -133,7 +130,7 @@ export const planirovshchikRezultatovGoogleEn: BlogPost = {
             "you need live campaign stats",
             "forecast ≠ guarantee",
             "CPA goal beats the chart edge",
-            "applying changes is a separate step.",
+            "applying changes is a separate step",
           ],
         },
       ],

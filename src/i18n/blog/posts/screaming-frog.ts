@@ -11,7 +11,7 @@ export const screamingFrogEn: BlogPost = {
     "How to run a technical crawl in Screaming Frog: spider settings, status codes, title/H1, images, internal links, broken URLs, and Excel export — without an “one-button audit” cult.",
   lead: [
     "Screaming Frog SEO Spider is a desktop crawler: it walks your site like a bot and collects URLs, statuses, meta, headings, links, and page weight. The free version covers a basic audit; paid removes the URL cap and adds integrations.",
-    "We cover key Spider settings, how to read reports, and what to fix from the results. Full audit methodology lives in the technical SEO audit guide; here we focus on the tool. Crawl your own projects or sites you have permission for—don’t hammer servers with crawl speed.",
+    "Below: key Spider settings, how to read reports, and what to fix from the results. Full audit methodology lives in the technical SEO audit guide; here the focus is the tool. Crawl your own projects or sites you have permission for — don’t hammer servers with crawl speed.",
   ],
   faq: [
     {
@@ -24,7 +24,7 @@ export const screamingFrogEn: BlogPost = {
     },
     {
       q: "Can I ignore robots.txt?",
-      a: "On your staging — yes if utility sections are closed. On production first understand why URLs are blocked; don’t open everything with the crawler “for luck”.",
+      a: "On your staging — yes if utility sections are closed. On production first understand why URLs are blocked; don’t open everything with the crawler “for luck.”",
     },
     {
       q: "Does Screaming Frog replace an SEO audit?",
@@ -43,8 +43,8 @@ export const screamingFrogEn: BlogPost = {
       a: "External 404s hurt UX and trust. Fix or remove. Internal broken links rank higher in priority.",
     },
     {
-      q: "Does an audit mean TOP rankings in a week?",
-      a: "No. Crawl and fixes are prep. Rankings for the core grow month to month; planned 2–6 months after work starts.",
+      q: "Does an audit mean page-one rankings in a week?",
+      a: "No. Crawl and fixes are prep. Rankings for the core grow month to month; share of the core is typically planned for two to six months after work starts.",
     },
   ],
   sections: [
@@ -59,10 +59,10 @@ export const screamingFrogEn: BlogPost = {
         {
           intro: "Before you start:",
           items: [
-            "access to your site / permission;",
-            "clear canonical host;",
-            "lower speed on a weak server;",
-            "a plan: what you check first.",
+            "access to your site / permission",
+            "clear canonical host",
+            "lower speed on a weak server",
+            "a plan: what you check first",
           ],
         },
       ],
@@ -78,25 +78,25 @@ export const screamingFrogEn: BlogPost = {
       level: 2,
       paras: [
         "Configuration → Spider: exclude resource types you don’t need if auditing HTML (legacy Flash/SWF is definitely out). Limits: Search Depth saves huge catalogs — key branches first.",
-        "Include/Exclude — crawl only `/blog/` or exclude `/cart/` and infinite filter URLs. Preferences: title, H1, description, URL, alt length thresholds — for your briefs, not as a “Google law”.",
+        "Include/Exclude — crawl only `/blog/` or exclude `/cart/` and infinite filter URLs. Preferences: title, H1, description, URL, alt length thresholds — for your briefs, not as a Google law.",
       ],
       lists: [
         {
           intro: "Practical settings minimum:",
           items: [
-            "sensible speed / thread count;",
-            "depth or Include segment;",
-            "respect/ignore robots by task;",
-            "meta length thresholds for filters;",
-            "check No Response after the run.",
+            "sensible speed / thread count",
+            "depth or Include segment",
+            "respect/ignore robots by task",
+            "meta length thresholds for filters",
+            "check No Response after the run",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
-          kind: "tip",
-          text: "Maxing crawl speed on shared hosting and concluding the “site died because of SEO”.",
+          kind: "warning",
+          text: "Maxing crawl speed on shared hosting and concluding the site died because of SEO.",
         },
       ],
     },
@@ -111,11 +111,11 @@ export const screamingFrogEn: BlogPost = {
         {
           intro: "First pass of the report:",
           items: [
-            "internal 4xx / 5xx;",
-            "missing title / H1;",
-            "duplicate title and description;",
-            "duplicate URLs;",
-            "thin/zero content.",
+            "internal 4xx / 5xx",
+            "missing title / H1",
+            "duplicate title and description",
+            "duplicate URLs",
+            "thin/zero content",
           ],
         },
       ],
@@ -138,18 +138,18 @@ export const screamingFrogEn: BlogPost = {
       title: "Images, page weight, internal links",
       level: 2,
       paras: [
-        "Images: heavy files and Missing Alt. Compress and set meaningful alt — see the alt canon. Size / Response Time under Internal help find “bricks”, but absolute thresholds like “strictly 200 KB HTML / 6 seconds” are outdated: watch Core Web Vitals and real devices.",
-        "Inlinks / Outlinks: important URLs should be reachable from the homepage in a sensible number of clicks and not be “islands”. Outbound spam and broken externals — External tab by status codes.",
+        "Images: heavy files and Missing Alt. Compress and set meaningful alt — see the alt guide. Size / Response Time under Internal help find bricks, but absolute thresholds like “strictly 200 KB HTML / 6 seconds” are outdated: watch Core Web Vitals and real devices.",
+        "Inlinks / Outlinks: important URLs should be reachable from the homepage in a sensible number of clicks and not be islands. Outbound spam and broken externals — External tab by status codes.",
       ],
       lists: [
         {
           intro: "What to turn into tickets:",
           items: [
-            "images over a sensible weight;",
-            "empty alt on informational imgs;",
-            "pages with abnormal TTFB/size;",
-            "orphans with no internal links;",
-            "broken external.",
+            "images over a sensible weight",
+            "empty alt on informational imgs",
+            "pages with abnormal TTFB/size",
+            "orphans with no internal links",
+            "broken external",
           ],
         },
       ],
@@ -175,11 +175,11 @@ export const screamingFrogEn: BlogPost = {
         {
           intro: "URL filters worth checking:",
           items: [
-            "Duplicate;",
-            "Underscores;",
-            "Non ASCII;",
-            "Over N characters;",
-            "Parameters / Dynamic.",
+            "Duplicate",
+            "Underscores",
+            "Non ASCII",
+            "Over N characters",
+            "Parameters / Dynamic",
           ],
         },
       ],
@@ -199,16 +199,16 @@ export const screamingFrogEn: BlogPost = {
       level: 2,
       paras: [
         "Make a checklist: crawl → export → priorities (5xx/404 → duplicates → meta → weight) → tickets → recrawl. Screaming Frog covers the tech layer; keywords, content, and off-site links are other stages.",
-        "Prep and fixes — days/weeks. Visibility growth for the core after removing blockers — month to month, planned 2–6 months. Don’t promise “TOP after one Frog run”.",
+        "Prep and fixes — days/weeks. Visibility growth for the core after removing blockers — month to month, planned two to six months. Don’t promise rankings after one Frog run.",
       ],
       lists: [
         {
           intro: "Rhythm:",
           items: [
-            "crawl after a release;",
-            "scheduled monthly/quarterly;",
-            "CSV archive with tickets;",
-            "recheck closed bugs.",
+            "crawl after a release",
+            "scheduled monthly/quarterly",
+            "CSV archive with tickets",
+            "recheck closed bugs",
           ],
         },
       ],
@@ -226,7 +226,7 @@ export const screamingFrogEn: BlogPost = {
         {
           title: "Timelines",
           kind: "tip",
-          text: "A technical crawl ≠ TOP. Remove blockers first, then grow rankings.",
+          text: "A technical crawl is not page-one rankings. Remove blockers first, then grow visibility. Prep is not rankings; share of the core usually takes two to six months after work starts.",
         },
       ],
     },

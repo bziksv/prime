@@ -11,7 +11,7 @@ export const didzhitalAgentstvoEn: BlogPost = {
     "What a digital agency is: services, team, how it differs from offline marketing, how to measure results, and how to choose a contractor.",
   lead: [
     "A digital agency helps a business grow through digital channels: the site, search, ads, content, analytics — and sometimes design and brand.",
-    "This piece covers what the services look like, how digital differs from a classic marketing agency, and what to watch in the contract and reports.",
+    "Below: what the services look like, how digital differs from a classic marketing agency, and what to watch in the contract and reports.",
   ],
   faq: [
     {
@@ -41,9 +41,8 @@ export const didzhitalAgentstvoEn: BlogPost = {
       level: 2,
       paras: [
         "The job is to bring in and keep customers through digital touchpoints: search, site, ads, social, email, messengers. Offline sometimes joins in, but the core is measurable channels.",
-        "A good team doesn’t “draw banners for banners’ sake” — it ties activity to business results.",
+        "A good team doesn’t draw banners for banners’ sake — it ties activity to business results.",
       ],
-      lists: [],
     },
     {
       title: "What services look like",
@@ -96,7 +95,7 @@ export const didzhitalAgentstvoEn: BlogPost = {
       level: 2,
       paras: [
         "SEO is organic growth: tech, content, structure, links. Performance is paid traffic with lead-cost control.",
-        "Timelines differ: ads give fast hypothesis tests; search needs prep and a planned 2–6 months of ranking growth (don’t confuse “work started” with “top 10”).",
+        "Timelines differ: ads give fast hypothesis tests; search needs prep and months of ranking growth — don’t confuse “work started” with page-one visibility (planned 2–6 months after work starts).",
       ],
       lists: [
         {
@@ -127,7 +126,6 @@ export const didzhitalAgentstvoEn: BlogPost = {
         "Internet marketing is promotion on the web. Digital is broader across channels and often includes product and UX, but in everyday speech the words blur.",
         "A classic agency is stronger in offline reach media. Digital is stronger in attribution and iteration. Businesses often need both: offline for brand awareness, online for leads.",
       ],
-      lists: [],
     },
     {
       title: "How to choose a contractor",
@@ -139,7 +137,7 @@ export const didzhitalAgentstvoEn: BlogPost = {
         {
           intro: "Red flags:",
           items: [
-            "a top-1 guarantee “in a month” with no caveats",
+            "a first-place guarantee “in a month” with no caveats",
             "reports that are only ranking screenshots with no leads",
             "no access to ad or analytics accounts",
             "one manager who “does everything” with no specialists",
@@ -148,8 +146,9 @@ export const didzhitalAgentstvoEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Practice tip",
-          text: "Agree on numeric goals before you start — e.g. CPL, lead count, branded traffic share — otherwise in a quarter you’ll argue about “reach.”",
+          title: "Practice",
+          kind: "tip",
+          text: "Agree on numeric goals before you start — e.g. CPL, lead count, branded traffic share — otherwise in a quarter you’ll argue about reach.",
         },
       ],
     },

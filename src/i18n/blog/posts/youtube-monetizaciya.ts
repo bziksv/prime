@@ -10,8 +10,8 @@ export const youtubeMonetizaciyaEn: BlogPost = {
   excerpt:
     "How YouTube works for creators: the channel, ad monetization, and other income paths — without “easy millions” promises or outdated threshold numbers.",
   lead: [
-    "YouTube is Google’s video platform: publishing, search, recommendations, and creator tools. Monetization is possible, but Partner Program thresholds and rules change.",
-    "What a channel means, income models, and how they tie to audience growth — without treating old threshold screenshots as law. How to grow content is a separate piece.",
+    "YouTube is Google’s video host: publishing, search, recommendations, and creator tools. Monetization is possible, but Partner Program thresholds and rules change.",
+    "Below: what a channel means, income models, and how they tie to audience growth. How to grow content is a separate article.",
   ],
   faq: [
     {
@@ -50,10 +50,10 @@ export const youtubeMonetizaciyaEn: BlogPost = {
         {
           intro: "Creator basics:",
           items: [
-            "a clear niche;",
-            "avatar, banner, description;",
-            "a regular format;",
-            "cards and end screens for navigation.",
+            "a clear niche",
+            "avatar, banner, description",
+            "a regular format",
+            "cards and end screens for navigation",
           ],
         },
       ],
@@ -76,19 +76,20 @@ export const youtubeMonetizaciyaEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Working rules:",
+          intro: "Working cues:",
           items: [
-            "audience and retention first;",
-            "then program thresholds — from official Help;",
-            "sponsorships — with clear disclosure for the viewer;",
-            "don’t build a channel only to turn on monetization.",
+            "audience and retention first",
+            "then program thresholds — from official Help",
+            "sponsorships — with clear disclosure for the viewer",
+            "don’t build a channel only to turn on monetization",
           ],
         },
       ],
       notes: [
         {
           title: "Rules",
-          text: "Strikes, copyright, and ad policies cut income harder than too few cards. See the strike piece.",
+          text: "Strikes, copyright, and ad policies cut income harder than too few cards. See the strike article.",
+          kind: "tip",
         },
       ],
       links: [
@@ -102,16 +103,16 @@ export const youtubeMonetizaciyaEn: BlogPost = {
       title: "Subscriber growth without myths",
       level: 2,
       paras: [
-        "Subscribers come from search, recommendations, and external sources. Fake growth hurts. A steady schedule and strong previews and titles beat one-off giveaways.",
+        "Subscribers come from search, recommendations, and external sources. Bought or fake growth hurts. A steady schedule and strong previews and titles beat one-off giveaways.",
       ],
       lists: [
         {
           intro: "Practical:",
           items: [
-            "series and playlists;",
-            "subscribe CTA after value;",
-            "niche collaborations;",
-            "site and email as owned assets.",
+            "series and playlists",
+            "subscribe CTA after value",
+            "niche collaborations",
+            "site and email as owned assets",
           ],
         },
       ],
@@ -131,12 +132,12 @@ export const youtubeMonetizaciyaEn: BlogPost = {
       ],
       lists: [
         {
-          intro: "Worth locking:",
+          intro: "Worth locking in:",
           items: [
-            "who the videos help and with what job;",
-            "main rubrics and formats;",
-            "a cadence the team can sustain;",
-            "the target action after watching.",
+            "who the videos help and with what job",
+            "main rubrics and formats",
+            "a cadence the team can sustain",
+            "the target action after watching",
           ],
         },
       ],
@@ -152,10 +153,10 @@ export const youtubeMonetizaciyaEn: BlogPost = {
         {
           intro: "A durable model needs:",
           items: [
-            "clear split of editorial vs advertising content;",
-            "rights checks on music, video, and images;",
-            "a backup audience channel — site or email;",
-            "production cost tracking, not only revenue.",
+            "clear split of editorial vs advertising content",
+            "rights checks on music, video, and images",
+            "a backup audience channel — site or email",
+            "production cost tracking, not only revenue",
           ],
         },
       ],
@@ -165,16 +166,16 @@ export const youtubeMonetizaciyaEn: BlogPost = {
       level: 2,
       paras: [
         "Study retention, traffic sources, preview CTR, and returning viewers together. High CTR without retention means the title or thumbnail promises more than the video delivers; long watch time without impressions is a cue to work packaging and topic.",
-        "Test one change at a time: delivery, length, structure, preview, or publish time. Comparing several similar episodes beats explaining success from a single viral video.",
+        "Test one change at a time: delivery, length, structure, preview, or publish time. Comparing several similar episodes beats explaining success from a single breakout video.",
       ],
       lists: [
         {
           intro: "Regularly watch:",
           items: [
-            "retention at the start and key moments;",
-            "moves between videos and playlists;",
-            "topics that bring returning viewers;",
-            "audience reaction in comments without fake engagement.",
+            "retention at the start and key moments",
+            "moves between videos and playlists",
+            "topics that bring returning viewers",
+            "audience reaction in comments without fake engagement",
           ],
         },
       ],

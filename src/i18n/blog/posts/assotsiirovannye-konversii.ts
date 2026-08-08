@@ -8,15 +8,15 @@ export const assotsiirovannyeKonversiiEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/assotsiirovannye-konversii/cover-en.webp",
   excerpt:
-    "What assisted conversions are, how they differ from first and last click, how not to kill “helper” channels, and how to read attribution in analytics without outdated menu screenshots.",
+    "What assisted conversions are, how they differ from first and last click, how not to kill helper channels, and how to read attribution in analytics without outdated menu screenshots.",
   lead: [
-    "A purchase rarely happens from one touch. Someone saw an ad, read reviews, came back via brand search, and only then ordered. If you watch only “last click,” helper channels look useless — and budget gets cut in the wrong place.",
-    "Assisted conversions credit touches that were on the path but weren’t the final deal source. Attribution models decide how credit is split. Analytics UIs change; report meaning beats clicks on old menu items.",
+    "A purchase rarely happens from one touch. Someone saw an ad, read reviews, came back via brand search, and only then ordered. If you watch only last click, helper channels look useless — and budget gets cut in the wrong place.",
+    "Assisted conversions are the credit for touches that joined the path but were not the final deal source. Below: conversion types, why attribution models matter, and how not to mis-shift budget. Analytics UIs change; report meaning beats clicks on old menu items.",
   ],
   faq: [
     {
       q: "How does an assisted conversion differ from a “regular” one?",
-      a: "“Regular” in reports often = the last paid/non-direct click before the goal. Assisted = the channel was earlier in the chain and helped reach the purchase, but didn’t close it alone.",
+      a: "“Regular” in reports often means the last paid or non-direct click before the goal. Assisted means the channel was earlier in the chain and helped reach the purchase, but didn’t close it alone.",
     },
     {
       q: "Is assisted conversion the same as attribution?",
@@ -24,7 +24,7 @@ export const assotsiirovannyeKonversiiEn: BlogPost = {
     },
     {
       q: "Why not look at last click only?",
-      a: "Brand search and direct visits often “take” the sale, while discovery started with content, display, or a social post. Cut the top of the funnel — and “last” conversions fall too.",
+      a: "Brand search and direct visits often take the sale, while discovery started with content, display, or a social post. Cut the top of the funnel — and last conversions fall too.",
     },
     {
       q: "Where should you look in Yandex Metrica and Google Analytics?",
@@ -32,11 +32,11 @@ export const assotsiirovannyeKonversiiEn: BlogPost = {
     },
     {
       q: "Do assisted conversions always mean you should spend more?",
-      a: "No. Check quality, cost, and role in the chain. A channel can “light up” in paths yet bring noisy traffic.",
+      a: "No. Check quality, cost, and role in the chain. A channel can light up in paths yet bring noisy traffic.",
     },
     {
       q: "How do assisted conversions relate to SEO?",
-      a: "Organic is often first touch, assisted, and last. Cutting SEO over a weak last click is a common mistake on a long sales cycle. Prep isn’t TOP — competitive visibility typically builds over 2–6 months of work.",
+      a: "Organic is often first touch, assisted, and last. Cutting SEO over a weak last click is a common mistake on a long sales cycle.",
     },
   ],
   sections: [
@@ -45,15 +45,15 @@ export const assotsiirovannyeKonversiiEn: BlogPost = {
       level: 2,
       paras: [
         "A cheap impulse product is sometimes bought right after one ad. An expensive or complex choice almost always needs several touches: ad → site → compare → return → order.",
-        "Marketing’s job isn’t only to “close” with the last click, but to see which channels built awareness and trust. Otherwise budget optimization becomes a hunt for the shortest path.",
+        "Marketing’s job isn’t only to close with the last click, but to see which channels built awareness and trust. Otherwise budget optimization becomes a hunt for the shortest path.",
       ],
       lists: [
         {
           intro: "Three useful views of a conversion:",
           items: [
-            "first interaction — where they learned;",
-            "last — what “finished” the order;",
-            "assisted — what was in the middle and still influenced.",
+            "first interaction — where they learned",
+            "last — what finished the order",
+            "assisted — what was in the middle and still influenced",
           ],
         },
       ],
@@ -63,7 +63,7 @@ export const assotsiirovannyeKonversiiEn: BlogPost = {
       level: 2,
       paras: [
         "A channel gets an assisted conversion if the user touched it on the path to the goal, but the final visit before conversion came from another source. Example: display click → later organic brand → purchase. Display is assisted credit; brand is often last click.",
-        "Brand paid search and direct often look “super efficient” because they close already-warmed people. Without upper touches that tail thins over time.",
+        "Brand paid search and direct often look super efficient because they close already-warmed people. Without upper touches that tail thins over time.",
       ],
       links: [
         {
@@ -80,17 +80,17 @@ export const assotsiirovannyeKonversiiEn: BlogPost = {
       title: "Why this matters for budget",
       level: 2,
       paras: [
-        "If you keep only channels with the best last-click CPA, you may turn off what prepares demand. Weeks–months later the “strong” closers fall too — it looks like “the brand broke”, when you actually cut the funnel.",
+        "If you keep only channels with the best last-click CPA, you may turn off what prepares demand. Weeks or months later the strong closers fall too — it looks like the brand broke, when you actually cut the funnel.",
         "Assisted conversions don’t cancel unit economics: watch touch cost, margin, and lead quality. The goal isn’t to keep everything — it’s not to cut blind.",
       ],
       lists: [
         {
           intro: "Typical mistakes:",
           items: [
-            "turning off a channel with zero last click but a strong path role;",
-            "treating brand paid search as the only growth driver;",
-            "comparing channels without sales-cycle length;",
-            "skipping UTMs and goals — then chains “break”.",
+            "turning off a channel with zero last click but a strong path role",
+            "treating brand paid search as the only growth driver",
+            "comparing channels without sales-cycle length",
+            "skipping UTMs and goals — then chains break",
           ],
         },
       ],
@@ -99,14 +99,14 @@ export const assotsiirovannyeKonversiiEn: BlogPost = {
       title: "Attribution models — short version",
       level: 2,
       paras: [
-        "An attribution model decides who gets conversion credit: first click, last, linear across all, mid-path emphasis, etc. Different models show different “efficiency” for the same channel — that’s normal.",
-        "Practice: compare 2–3 models on one period and see which channels stay important. Don’t hunt one “correct” model for every niche — hunt stable conclusions for budget decisions.",
+        "An attribution model decides who gets conversion credit: first click, last, linear across all, mid-path emphasis, and so on. Different models show different efficiency for the same channel — that’s normal.",
+        "Practice: compare two or three models on one period and see which channels stay important. Don’t hunt one correct model for every niche — hunt stable conclusions for budget decisions.",
       ],
       notes: [
         {
           title: "Important",
-          text: "In reports, assisted conversions across channels can sum above order count: one touch plays several roles, one path has several helpers. Watch shares and dynamics — don’t “blindly add into revenue”.",
           kind: "tip",
+          text: "In reports, assisted conversions across channels can sum above order count: one touch plays several roles, one path has several helpers. Watch shares and dynamics — don’t blindly add into revenue.",
         },
       ],
     },
@@ -114,18 +114,18 @@ export const assotsiirovannyeKonversiiEn: BlogPost = {
       title: "How to read it in analytics",
       level: 2,
       paras: [
-        "Google Analytics historically had multi-channel funnels and model comparison; in current versions the logic is the same — paths and attribution, different section names. In Yandex Metrika look at source attribution models (last transition, first transition, etc.) and goal reports.",
-        "Linking ad accounts to analytics matters so campaigns don’t vanish into “(not set)”. Without goals (purchase, lead), talking about assisted conversions is pointless.",
+        "Google Analytics historically had multi-channel funnels and model comparison; in current versions the logic is the same — paths and attribution, different section names. In Yandex Metrica look at source attribution models (last transition, first transition, and others) and goal reports.",
+        "Linking ad accounts to analytics matters so campaigns don’t vanish into “(not set).” Without goals (purchase, lead), talking about assisted conversions is pointless.",
       ],
       lists: [
         {
           intro: "Minimum to work:",
           items: [
-            "goals/ecommerce configured;",
-            "UTMs consistent;",
-            "analysis window ≥ sales cycle;",
-            "compare last click vs first / another model;",
-            "budget decisions locked with a date and hypothesis.",
+            "goals/ecommerce configured",
+            "UTMs consistent",
+            "analysis window ≥ sales cycle",
+            "compare last click vs first / another model",
+            "budget decisions locked with a date and hypothesis",
           ],
         },
       ],
@@ -148,7 +148,7 @@ export const assotsiirovannyeKonversiiEn: BlogPost = {
       title: "What to do in practice",
       level: 2,
       paras: [
-        "List top channels by last click and top by path participation. Where the gap is large — don’t cut at once: check creatives, landing pages, and quality. Sometimes a channel “helps” but is expensive — then narrow, don’t kill.",
+        "List top channels by last click and top by path participation. Where the gap is large — don’t cut at once: check creatives, landing pages, and quality. Sometimes a channel helps but is expensive — then narrow, don’t kill.",
         "For SEO and content an assisted role is often normal: they warm, and the deal closes via brand or retarget. Keep a channel mix, not a war of reports.",
       ],
       links: [

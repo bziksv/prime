@@ -8,19 +8,19 @@ export const seoBitrixEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/seo-bitrix/cover-en.webp",
   excerpt:
-    "What the built-in 1C-Bitrix SEO module gives you, how to handle robots.txt, meta templates, and counters carefully — without treating Marketplace paid modules as the only solution.",
+    "What the built-in 1C-Bitrix SEO module gives you, how to handle robots.txt, meta templates, and counters carefully — without treating Marketplace paid modules as the only path.",
   lead: [
     "1C-Bitrix covers many jobs out of the box, but SEO doesn’t configure itself: you need robots/sitemap, title/description templates, clean URLs, counters, and duplicate control.",
-    "Here’s a baseline SEO setup for a Bitrix portal. Menu labels and module names shift between editions—follow the current admin UI and docs.",
+    "Below is a baseline for a Bitrix portal. Menu labels and module names shift between editions — follow the current admin UI and docs.",
   ],
   faq: [
     {
       q: "Is the built-in SEO module enough without Marketplace?",
-      a: "For a start often yes: meta, properties, some reports. Take paid modules only for a specific gap — not “a pack for SEO.”",
+      a: "For a start, often yes: meta, properties, some reports. Take paid modules only for a specific gap — not “a pack for SEO.”",
     },
     {
       q: "Should I edit robots.txt in Bitrix by hand?",
-      a: "Yes, if the template/module serves a wrong file. After edits, check in Webmaster tools. See also the closing from indexing article.",
+      a: "Yes, if the template or module serves a wrong file. After edits, check in Webmaster tools. See also the article on closing pages from the index.",
     },
     {
       q: "Are meta keywords still needed?",
@@ -47,17 +47,17 @@ export const seoBitrixEn: BlogPost = {
         {
           intro: "Launch minimum:",
           items: [
-            "HTTPS and mirror consolidation;",
-            "current robots.txt and XML sitemap;",
-            "Title/Description templates without junk;",
-            "canonical where duplicates exist;",
-            "Yandex Webmaster and Search Console.",
+            "HTTPS and mirror consolidation",
+            "current robots.txt and XML sitemap",
+            "Title/Description templates without junk",
+            "canonical where duplicates exist",
+            "Yandex Webmaster and Search Console",
           ],
         },
       ],
       links: [
         {
-          label: "Closing from indexing",
+          label: "Closing pages from the index",
           href: "/en/blog/zakrytie-ot-indeksatsii/",
         },
         {
@@ -70,13 +70,13 @@ export const seoBitrixEn: BlogPost = {
       title: "robots.txt and crawling",
       level: 2,
       paras: [
-        "Bitrix serves robots from a file/settings; after updates and custom edits, verify needed sections aren’t blocked and service paths aren’t open (`/bitrix/`, admin, service scripts — per project policy).",
-        "Disallow ≠ “remove from the index.” To drop from results you need noindex/URL removal, and the bot must still fetch the document.",
+        "Bitrix serves robots from a file or settings; after updates and custom edits, verify needed sections aren’t blocked and service paths aren’t open (`/bitrix/`, admin, service scripts — per project policy).",
+        "Disallow ≠ “remove from the index.” To drop from results you need noindex or URL removal, and the bot must still fetch the document.",
       ],
-      lists: [],
       notes: [
         {
           title: "Practice",
+          kind: "tip",
           text: "A check in Webmaster tools and a test crawl beat a “pretty” robots file copied from someone else’s guide.",
         },
       ],
@@ -85,17 +85,17 @@ export const seoBitrixEn: BlogPost = {
       title: "Meta, infoblocks, and clean URLs",
       level: 2,
       paras: [
-        "A solid path is SEO-property templates at section/infoblock-type level with inheritance — not hand-editing hundreds of cards. Build Title and Description from meaningful fields, not a keyword sheet.",
-        "Set symbolic codes (clean URLs) to be readable and stable. A sharp URL change without 301s breaks positions.",
+        "A solid path is SEO-property templates at section or infoblock-type level with inheritance — not hand-editing hundreds of cards. Build Title and Description from meaningful fields, not a keyword sheet.",
+        "Set symbolic codes (clean URLs) to be readable and stable. A sharp URL change without 301s breaks rankings.",
       ],
       lists: [
         {
           intro: "Meta control list:",
           items: [
-            "Title uniqueness within a section;",
-            "Description without “buy buy” template paste;",
-            "H1 aligned with Title;",
-            "no indexing of empty/thin filters without need.",
+            "Title uniqueness within a section",
+            "Description without “buy buy” template paste",
+            "H1 aligned with Title",
+            "no indexing of empty/thin filters without need",
           ],
         },
       ],
@@ -111,13 +111,12 @@ export const seoBitrixEn: BlogPost = {
       ],
     },
     {
-      title: "Marketplace modules: careful",
+      title: "Marketplace modules: go carefully",
       level: 2,
       paras: [
         "Marketplace has many SEO extensions (meta, redirects, text blocks). Take them for a concrete gap in the built-in module; check Bitrix edition support and catalog load.",
         "Don’t replace a promotion strategy by installing “one more SEO plugin.” Content, structure, and tech come first.",
       ],
-      lists: [],
     },
     {
       title: "Analytics and Webmaster tools",
@@ -130,10 +129,10 @@ export const seoBitrixEn: BlogPost = {
         {
           intro: "After baseline setup:",
           items: [
-            "reconcile sitemap with the index;",
-            "noindex service duplicates;",
-            "smoke-test key card templates;",
-            "lock a Bitrix update checklist.",
+            "reconcile sitemap with the index",
+            "close service duplicates",
+            "smoke-test key card templates",
+            "lock a Bitrix update checklist",
           ],
         },
       ],

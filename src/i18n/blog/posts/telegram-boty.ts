@@ -11,7 +11,7 @@ export const telegramBotyEn: BlogPost = {
     "What Telegram bots can do for business and channels: replies, leads, compliant broadcasts, finding bots, and basic command logic — without a catalog of shady growth hacks.",
   lead: [
     "A Telegram bot is an account driven by a program via the Bot API: it answers commands, takes leads, sends notifications, and helps a channel or site.",
-    "This guide covers how a bot works, why businesses use one, how to design a flow, security, and launch. Channel setup is a sibling article; we don’t cover shady growth bots.",
+    "Below: how a bot works, why businesses use one, how to design a flow, security, and launch. Channel setup is a sibling article; we don’t cover shady growth bots.",
   ],
   faq: [
     {
@@ -19,7 +19,7 @@ export const telegramBotyEn: BlogPost = {
       a: "A channel is a post feed. A bot is dialogue and automation: buttons, forms, integrations, notifications.",
     },
     {
-      q: "Do I need your own developer?",
+      q: "Do I need a developer?",
       a: "For simple FAQ/leads, builders often suffice. Complex CRM, payments, and custom logic — yes, a developer.",
     },
     {
@@ -59,11 +59,11 @@ export const telegramBotyEn: BlogPost = {
         {
           intro: "Basic pieces:",
           items: [
-            "`/start` — greeting and menu;",
-            "buttons with clear next steps;",
-            "contact / lead capture;",
-            "notify a manager or CRM;",
-            "error messages and “back”.",
+            "`/start` — greeting and menu",
+            "buttons with clear next steps",
+            "contact / lead capture",
+            "notify a manager or CRM",
+            "error messages and “back”",
           ],
         },
       ],
@@ -79,11 +79,11 @@ export const telegramBotyEn: BlogPost = {
         {
           intro: "Strong flows:",
           items: [
-            "qualify a lead in 3–5 questions;",
-            "appointment reminders;",
-            "FAQ instead of a queue of identical messages;",
-            "alerts on site form submissions;",
-            "documents / instructions on a button.",
+            "qualify a lead in 3–5 questions",
+            "appointment reminders",
+            "FAQ instead of a queue of identical messages",
+            "alerts on site form submissions",
+            "documents / instructions on a button",
           ],
         },
       ],
@@ -109,11 +109,11 @@ export const telegramBotyEn: BlogPost = {
         {
           intro: "Lock in the flow:",
           items: [
-            "user goal;",
-            "minimum questions;",
-            "moment of handoff to a human;",
-            "consent for data processing;",
-            "copy for failure / timeout.",
+            "user goal",
+            "minimum questions",
+            "moment of handoff to a human",
+            "consent for data processing",
+            "copy for failure / timeout",
           ],
         },
       ],
@@ -141,10 +141,10 @@ export const telegramBotyEn: BlogPost = {
         {
           intro: "Good pairings:",
           items: [
-            "channel post → bot with an offer;",
-            "site form → confirmation in the bot;",
-            "bot → manager in CRM with a source tag;",
-            "bot doesn’t replace policy and offer on the site.",
+            "channel post → bot with an offer",
+            "site form → confirmation in the bot",
+            "bot → manager in CRM with a source tag",
+            "bot doesn’t replace policy and offer on the site",
           ],
         },
       ],
@@ -166,11 +166,11 @@ export const telegramBotyEn: BlogPost = {
         {
           intro: "Red flags:",
           items: [
-            "asking for excess permissions;",
-            "no service policy / contacts;",
-            "promises to bypass Telegram rules;",
-            "token in a public Git repo;",
-            "keeping personal data “forever” with no reason.",
+            "asking for excess permissions",
+            "no service policy / contacts",
+            "promises to bypass Telegram rules",
+            "token in a public Git repo",
+            "keeping personal data “forever” with no reason",
           ],
         },
       ],
@@ -186,11 +186,11 @@ export const telegramBotyEn: BlogPost = {
         {
           intro: "Useful metrics:",
           items: [
-            "dialog start;",
-            "flow completion;",
-            "handoff to a manager;",
-            "quality leads / bookings;",
-            "time to a human reply.",
+            "dialog start",
+            "flow completion",
+            "handoff to a manager",
+            "quality leads / bookings",
+            "time to a human reply",
           ],
         },
       ],
@@ -213,10 +213,10 @@ export const telegramBotyEn: BlogPost = {
         {
           intro: "Avoid:",
           items: [
-            "a dead end with no operator;",
-            "promises in copy that aren’t in the logic;",
-            "shady audience inflation;",
-            "bots with unclear data policies.",
+            "a dead end with no operator",
+            "promises in copy that aren’t in the logic",
+            "shady audience inflation",
+            "bots with unclear data policies",
           ],
         },
       ],

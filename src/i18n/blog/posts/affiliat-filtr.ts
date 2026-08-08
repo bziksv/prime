@@ -11,7 +11,7 @@ export const affiliatFiltrEn: BlogPost = {
     "What affiliate sites mean in SEO, why search engines use an affiliate filter, which signals link domains, and how to run several projects safely without clones for the same queries.",
   lead: [
     "Affiliates in search terms are several sites of one owner (or tightly linked) fighting the same queries and looking like duplicate offers. Search may keep one in the SERP and cut or demote the rest of the group.",
-    "Linkage signals — shared contacts, templates, hosting, and copy — are what engines look for. The goal isn’t “trick search with different names” but not spawning clones: either one strong site, or truly different brands and offers.",
+    "Below: linkage signals, how to check competitors, and how not to trigger the filter. The goal isn’t “trick search with different names” but not spawning clones: either one strong site, or truly different brands and offers.",
   ],
   faq: [
     {
@@ -40,10 +40,10 @@ export const affiliatFiltrEn: BlogPost = {
       title: "What affiliates are and why the filter exists",
       level: 2,
       paras: [
-        "Classic scheme: several domains for one company and the same keywords to fill multiple top slots. For the user it’s the same offer — search limits that monopoly.",
+        "Classic scheme: several domains for one company and the same keywords to fill multiple page-one slots. For the user it’s the same offer — search limits that monopoly.",
         "Linkage signals (incomplete list): same phones, addresses, and details; copy-paste or weak rewrite; shared hosting/IP/NS; one design template; shared webmaster accounts. Some checks are automatic, some follow complaints.",
         "Yandex has historically cut group duplicates harder in the SERP; Google also fights lookalike grids, with different symptoms. Figures and exceptions from 2007–2010 aren’t current policy.",
-        "The affiliate filter differs from “you’re spammy” or link sanctions: it hits competition among your own sites in results — it doesn’t always “kill” a domain entirely.",
+        "The affiliate filter differs from “you’re spammy” or link sanctions: it hits competition among your own sites in results — it doesn’t always kill a domain entirely.",
       ],
       links: [
         {
@@ -60,20 +60,20 @@ export const affiliatFiltrEn: BlogPost = {
       title: "How to stay clear and how to check",
       level: 2,
       paras: [
-        "Best defense — don’t build a clone grid. Grow one main site. If business needs several domains (different brands, regions, lines) — make them distinct in offer, content, contacts, and keywords — not “the same text on another URL.”",
+        "Best defense — don’t build a clone grid. Grow one main site. If business needs several domains (different brands, regions, lines) — make them distinct in offer, content, contacts, and keywords — not the same text on another URL.",
         "“Register domains under different people” as the main trick is a bad focus: it looks like hiding linkage, not a useful product. Legal separation of entities and brands must be real — not a paper mask.",
-        "If you’re already hit: remove duplicates (contacts, texts, templates), split keyword targeting, then you can contact search support with fix facts. No removal guarantee; recovery often takes weeks to months — not a one-week SEO flip.",
+        "If you’re already hit: remove duplicates (contacts, texts, templates), split keyword targeting, then you can contact search support with fix facts. No removal guarantee; recovery often takes weeks to months.",
         "Checking competitors/clones: search unique text fragments (`intext`), matching phones and addresses, whois/NS where public, manual template review. SEO tools help but don’t replace eyes. Don’t treat “search has access to any private data” as an instruction.",
       ],
       lists: [
         {
           intro: "Checklist before a second site:",
           items: [
-            "different offer/audience — not a clone;",
-            "unique texts and visuals;",
-            "contacts and legal data aren’t copy-paste;",
-            "keywords don’t fully match the main site;",
-            "no goal to “take 5 slots in one SERP”.",
+            "different offer/audience — not a clone",
+            "unique texts and visuals",
+            "contacts and legal data aren’t copy-paste",
+            "keywords don’t fully match the main site",
+            "no goal to take five slots in one SERP",
           ],
         },
       ],

@@ -11,15 +11,15 @@ export const otchetKlientuEn: BlogPost = {
     "How to deliver an ad report so the client understands the result: goals and ROI first, shared KPIs, a dashboard summary, a glossary, and details in an appendix — without “elf” jargon.",
   lead: [
     "A campaign report isn’t only numbers from the ad account — it’s a way to agree on the picture: what worked, what didn’t, and what to do next. Bad presentation breaks trust even with decent results.",
-    "Transparency, structure, a glossary, and business metrics beat a CTR dump. Ad-account tools change — report meaning first, screenshots second.",
+    "Below: nine rules for mutual understanding — from transparency and structure to a glossary and “non-ad” business metrics. Account tools change; report logic beats the BI brand.",
   ],
   faq: [
     {
-      q: "Should you start the report with CTR or with money?",
+      q: "Should you start with CTR or with money?",
       a: "With business goals and money outcomes (leads, sales, ROI/ROAS — whatever the brief locked). CTR and clicks explain; they don’t replace.",
     },
     {
-      q: "Do you need a dashboard for client reports?",
+      q: "Do you need a dashboard?",
       a: "A one-screen summary — yes: vs the previous period and an answer to “are we on goal?” A full dashboard — by agreement; see the separate article.",
     },
     {
@@ -27,11 +27,11 @@ export const otchetKlientuEn: BlogPost = {
       a: "As in the contract: weekly / biweekly / monthly. What matters is the same structure and metric definitions from report to report.",
     },
     {
-      q: "What if campaign results are weak?",
+      q: "What if results are weak?",
       a: "Show the facts, cause hypotheses, and a fix plan. Hiding a miss is worse than an honest breakdown.",
     },
     {
-      q: "Do report examples have to be from Google Ads?",
+      q: "Do examples have to be from Google Ads?",
       a: "No. The same rules for Yandex Direct and other accounts: summary → blocks → details; calls and offline as a separate line if the platform doesn’t see them.",
     },
   ],
@@ -51,7 +51,7 @@ export const otchetKlientuEn: BlogPost = {
             "goal (leads / sales / traffic)",
             "actual vs plan",
             "1–3 main takeaways",
-            "what we do next period.",
+            "what we do next period",
           ],
         },
       ],
@@ -63,7 +63,6 @@ export const otchetKlientuEn: BlogPost = {
         "A dashboard or one-page summary helps the client report “upward.” Answer: does advertising help the goal, what’s the strategy, how the media plan is going, what changed vs the last report.",
         "Explain terms in a footnote or short glossary. Don’t over-explain the obvious, but don’t leave ROAS/attribution undefined.",
       ],
-      lists: [],
       links: [
         {
           label: "Business dashboard",
@@ -86,12 +85,13 @@ export const otchetKlientuEn: BlogPost = {
             "clicks and traffic quality",
             "conversions and CPA/CPL",
             "revenue and ROI/ROAS",
-            "supporting: ER, bounce, depth.",
+            "supporting: ER, bounce, depth",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Practice",
           text: "“AdWords” in old texts = Google Ads. Report names in Direct and Google change — for the client, column meaning beats a button screenshot.",
         },
@@ -117,7 +117,7 @@ export const otchetKlientuEn: BlogPost = {
             "read it with the client’s eyes",
             "check period and currency",
             "confirm conclusions follow from the numbers",
-            "there are next steps, not only “see the Excel.”",
+            "there are next steps, not only “see the Excel”",
           ],
         },
       ],

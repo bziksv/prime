@@ -11,7 +11,7 @@ export const tzNaSaytEn: BlogPost = {
     "How to write a website technical specification: why the document matters, how a short brief differs from a full spec, what to cover by block, and which client mistakes cost the most.",
   lead: [
     "A website technical specification locks what should be delivered: goals, audience, pages, design direction, responsive rules, integrations, and timelines. Without it the contractor leans on their own taste — and the result often misses yours.",
-    "Start with a short questionnaire, turn the answers into testable requirements, and review a prototype before polished design. This isn’t a “sign and forget” template — it’s a working contract of meaning between both sides.",
+    "Below: how to reach shared understanding through a brief, what to put in the document, why a prototype helps, and which mistakes most often lead to rework. This isn’t a “sign and forget” template — it’s a working contract of meaning between both sides.",
   ],
   faq: [
     {
@@ -51,9 +51,9 @@ export const tzNaSaytEn: BlogPost = {
         {
           intro: "Each side’s jobs:",
           items: [
-            "client — goals, limits, materials, acceptance;",
-            "contractor — delivery to the spec, questions on ambiguity;",
-            "both — timelines and “done” criteria.",
+            "client — goals, limits, materials, acceptance",
+            "contractor — delivery to the spec, questions on ambiguity",
+            "both — timelines and “done” criteria",
           ],
         },
       ],
@@ -83,14 +83,14 @@ export const tzNaSaytEn: BlogPost = {
         {
           intro: "Document blocks:",
           items: [
-            "company and offer;",
-            "audience and site goals;",
-            "current site (if any);",
-            "structure and key screens;",
-            "design references and tone;",
-            "content and who prepares it;",
-            "responsive and integrations;",
-            "timelines, stages, access.",
+            "company and offer",
+            "audience and site goals",
+            "current site (if any)",
+            "structure and key screens",
+            "design references and tone",
+            "content and who prepares it",
+            "responsive and integrations",
+            "timelines, stages, access",
           ],
         },
       ],
@@ -138,11 +138,11 @@ export const tzNaSaytEn: BlogPost = {
         {
           intro: "Checklist before work starts:",
           items: [
-            "goals and CTA agreed;",
-            "references exist, not only “pretty”;",
-            "stage deadlines written;",
-            "who provides copy and photos is clear;",
-            "domain and hosting access stays with the client.",
+            "goals and CTA agreed",
+            "references exist, not only “pretty”",
+            "stage deadlines written",
+            "who provides copy and photos is clear",
+            "domain and hosting access stays with the client",
           ],
         },
       ],

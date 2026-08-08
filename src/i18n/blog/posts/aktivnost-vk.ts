@@ -8,19 +8,19 @@ export const aktivnostVkEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/aktivnost-vk/cover-en.webp",
   excerpt:
-    "How to view VK login history, why to end other sessions, and how community stats raise engagement — without confusing “IP = hack.”",
+    "How to check VK login history, why to end other sessions, and how community stats raise engagement — without treating every IP change as a hack.",
   lead: [
-    "In VK, “activity” means different things: for a personal profile — login history (devices, IPs, sessions); for a community — reactions, comments, post reach. Don’t mix account security with group ER.",
-    "Session lists live under security settings; community engagement lives in admin stats. “Settings → Security” menu items move — use VK Help. Recent-session counts and report layouts change too.",
+    "In VK, “activity” means two different things: for a personal profile — login history (devices, IPs, sessions); for a community — reactions, comments, post reach. Don’t mix account security with group ER.",
+    "Below: both tracks. “Settings → Security” menu items move around — use VK Help. Recent-session counts and report layouts change too.",
   ],
   faq: [
     {
       q: "Is a different IP always a hack?",
-      a: "No. Dynamic IP, mobile data, another Wi‑Fi, or VPN change the address. More worrying is an unknown city or device without your knowledge.",
+      a: "No. Dynamic IP, mobile data, another Wi‑Fi, or VPN change the address. More worrying: an unknown city or device you didn’t authorize.",
     },
     {
       q: "What does “End all sessions” do?",
-      a: "It clears active logins; other devices need to sign in again. Useful if you suspect access — plus a password change and 2FA.",
+      a: "It clears active logins; other devices must sign in again. Useful if you suspect access — plus a password change and 2FA.",
     },
     {
       q: "Where do you see community activity?",
@@ -40,26 +40,26 @@ export const aktivnostVkEn: BlogPost = {
       title: "Account login history",
       level: 2,
       paras: [
-        "In security settings open activity history / session list: when you signed in, from which client type, sometimes geo and IP. It’s a protection tool, not “spying on friends.”",
+        "In security settings open activity history / the session list: when you signed in, from which client type, sometimes geo and IP. It’s a protection tool, not “spying on friends.”",
         "On mobile the full list is often easier in the full web version. If the item is missing — update the client or open a browser.",
       ],
       lists: [
         {
           intro: "If you suspect another login:",
           items: [
-            "end all sessions;",
-            "change to a unique password;",
-            "enable 2FA;",
-            "check the linked phone and email;",
-            "revoke shady apps with VK access.",
+            "end all sessions",
+            "change to a unique password",
+            "enable 2FA",
+            "check the linked phone and email",
+            "revoke shady apps with VK access",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
-          text: "Panicking over an IP change in the same city on your devices. First rule out a dynamic address and VPN.",
           kind: "tip",
+          text: "Panicking over an IP change in the same city on your devices. First rule out a dynamic address and VPN.",
         },
       ],
     },
@@ -67,8 +67,8 @@ export const aktivnostVkEn: BlogPost = {
       title: "Why the IP “jumps”",
       level: 2,
       paras: [
-        "Home Wi‑Fi, LTE, public networks, another browser or emulator leave different session fingerprints. An anonymizer/VPN changes the country in the report.",
-        "Grounds for hard measures — an unknown device plus odd actions (mass DMs, friend deletions, outbound spam), not one line with another IP.",
+        "Home Wi‑Fi, LTE, public networks, another browser or emulator leave different session fingerprints. A VPN/anonymizer can change the country in the report.",
+        "Grounds for hard measures: an unknown device plus odd actions (mass DMs, friend deletions, outbound spam) — not one line with another IP.",
       ],
     },
     {
@@ -76,17 +76,17 @@ export const aktivnostVkEn: BlogPost = {
       level: 2,
       paras: [
         "Admins need more than visits — actions: likes, comments, shares, “not interested,” joins and leaves, poll votes, notification opens — the set depends on available stats.",
-        "Compare periods: which topic sparked discussion, which format got shares, after which post messages grew.",
+        "Compare periods: which theme sparked discussion, which format got shares, after which post messages grew.",
       ],
       lists: [
         {
           intro: "Mini dashboard for the week:",
           items: [
-            "reach and post ER;",
-            "comments and discussion tone;",
-            "community joins/leaves;",
-            "messages and leads;",
-            "Stories (if you run them) — completion and replies.",
+            "reach and post ER",
+            "comments and discussion tone",
+            "community joins/leaves",
+            "messages and leads",
+            "Stories (if you run them) — completion and replies",
           ],
         },
       ],
@@ -105,18 +105,18 @@ export const aktivnostVkEn: BlogPost = {
       title: "How to raise engagement",
       level: 2,
       paras: [
-        "Enable and moderate comments, seed discussion topics, run polls, mix value and light formats. Contests — by platform rules with a clear outcome.",
+        "Enable and moderate comments, open discussion threads, run polls, mix value and light formats. Contests — by platform rules with a clear outcome.",
         "Two or three meaningful posts a day is a compass, not dogma. A rhythm you can keep beats spam “for the checkbox.”",
       ],
       lists: [
         {
           intro: "Levers that work:",
           items: [
-            "a pinned post with offer and rules;",
-            "admin replies in comments;",
-            "chats/conversations with rules;",
-            "a UGC album only with moderation;",
-            "content experiment → week measure → conclusion.",
+            "a pinned post with offer and rules",
+            "admin replies in comments",
+            "chats/conversations with rules",
+            "a UGC album only with moderation",
+            "content experiment → week measure → conclusion",
           ],
         },
       ],
@@ -143,8 +143,8 @@ export const aktivnostVkEn: BlogPost = {
       title: "Takeaways",
       level: 2,
       paras: [
-        "Session history is about login protection. Community stats are about content and reactions. Check both regularly, with different conclusions.",
-        "Live engagement is built with replies and meaning, not fake boosts.",
+        "Session history is about login protection. Community stats are about content and reactions. Check both regularly — with different conclusions.",
+        "Live engagement is built with replies and meaning, not fake activity.",
       ],
     },
   ],

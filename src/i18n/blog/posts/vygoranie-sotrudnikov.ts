@@ -10,8 +10,8 @@ export const vygoranieSotrudnikovEn: BlogPost = {
   excerpt:
     "Burnout prevention in a team: trust and feedback, healthy humor, clear tasks, breaks and workload boundaries — without the cult of \"meditation instead of pay.\"",
   lead: [
-    "Burnout isn't laziness or a personal weakness. It's exhaustion from chronic stress, unclear goals, overload, and missing recognition. For the business that means turnover, sick leave, and a drop in quality.",
-    "What actually helps on the prevention side: trust, culture, and stress reduction. Figures from individual studies are a guide, not a guarantee of \"+50% productivity\" from one joke.",
+    "Burnout isn’t laziness or a personal weakness. It’s exhaustion from chronic stress, unclear goals, overload, and missing recognition. For the business that means turnover, sick leave, and a drop in quality.",
+    "Below: practical prevention levers — trust, culture, and stress reduction. Figures from individual studies are a guide, not a guarantee of “+50% productivity” from one joke.",
   ],
   faq: [
     {

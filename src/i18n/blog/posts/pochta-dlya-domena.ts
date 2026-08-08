@@ -11,7 +11,7 @@ export const pochtaDlyaDomenaEn: BlogPost = {
     "Corporate email on your own domain: why `name@firma.ru`, how MX records work, choosing Yandex 360 / Google / Mail, and basic security — without outdated “1000 free mailboxes” limits.",
   lead: [
     "Email for a domain means addresses like `sales@your-site.ru` on your domain — not `@yandex…` or `@mail…` with a taken nickname. For the site and sales it’s a trust signal: the client sees the brand in every message.",
-    "We cover why corporate email matters, how MX records work, what to watch when picking a provider, and a minimal security checklist. Mailbox limits, storage, and product names (Yandex.Mail for Domain → Yandex 360 and peers) change — check current plans.",
+    "Below: why corporate email matters, how MX records work, what to watch when picking a provider, and a minimal security checklist. Mailbox limits, storage, and product names (Yandex.Mail for Domain → Yandex 360 and peers) change — check current plans.",
   ],
   faq: [
     {
@@ -28,11 +28,11 @@ export const pochtaDlyaDomenaEn: BlogPost = {
     },
     {
       q: "Can the owner read all employee mail?",
-      a: "Technically an admin often has broad rights. Legally and ethically you need policy, consent, and a control purpose — not “peeking for fun.”",
+      a: "Technically an admin often has broad rights. Legally and ethically you need policy, consent, and a control purpose — not peeking for fun.",
     },
     {
       q: "Does domain email improve SEO?",
-      a: "It doesn’t lift positions directly. Indirectly it can help trust in commercial factors and correspondence. Ranking the core in TOP is separate work — often planned over 2–6 months after you start.",
+      a: "It doesn’t lift rankings directly. Indirectly it can help trust in commercial factors and correspondence. Page-one visibility for the keyword set is separate work — often planned over 2–6 months after you start.",
     },
   ],
   sections: [
@@ -41,7 +41,7 @@ export const pochtaDlyaDomenaEn: BlogPost = {
       level: 2,
       paras: [
         "`ivan@firma.ru` looks more official than `firma.sales.2020@mail.ru`. Clients link the letter to the site and brand more easily. Nice free nicknames on public services are often taken.",
-        "Scale: create mailboxes for roles (`info`, `support`, `finance`) and people without each employee switching a “personal” provider. Shared password and 2FA rules are easier in one org account.",
+        "Scale: create mailboxes for roles (`info`, `support`, `finance`) and people without each employee switching a personal provider. Shared password and 2FA rules are easier in one org account.",
       ],
       lists: [
         {
@@ -50,7 +50,7 @@ export const pochtaDlyaDomenaEn: BlogPost = {
             "image and brand recognition",
             "mailboxes for departments and staff",
             "centralized administration",
-            "less “which mail are you writing from?” confusion.",
+            "less “which mail are you writing from?” confusion",
           ],
         },
       ],
@@ -80,15 +80,15 @@ export const pochtaDlyaDomenaEn: BlogPost = {
             "get MX values (and SPF/DKIM hints)",
             "enter them in DNS",
             "wait for application",
-            "create mailboxes and test send/receive.",
+            "create mailboxes and test send/receive",
           ],
         },
       ],
       notes: [
         {
           title: "Not only MX",
-          text: "Deliverability needs SPF, DKIM, and preferably DMARC. Without them mail lands in spam more often even with a “pretty” domain.",
           kind: "tip",
+          text: "Deliverability needs SPF, DKIM, and preferably DMARC. Without them mail lands in spam more often even with a pretty domain.",
         },
       ],
     },
@@ -131,7 +131,7 @@ export const pochtaDlyaDomenaEn: BlogPost = {
       title: "Security and mailbox hygiene",
       level: 2,
       paras: [
-        "Enable 2FA for the admin and key staff, unique passwords, and aliases instead of one shared password “for everyone.” Don’t publish `admin@` in open forms without spam protection.",
+        "Enable 2FA for the admin and key staff, unique passwords, and aliases instead of one shared password for everyone. Don’t publish `admin@` in open forms without spam protection.",
         "Owner access to employee mailboxes needs a policy: why, who may, how data is stored. That’s trust as much as tech.",
       ],
       lists: [
@@ -142,7 +142,7 @@ export const pochtaDlyaDomenaEn: BlogPost = {
             "SPF + DKIM (+ DMARC if possible)",
             "a backup admin",
             "rules for `info` / `support`",
-            "no shared department password.",
+            "no shared department password",
           ],
         },
       ],

@@ -11,7 +11,7 @@ export const chtoTakoeVebSaytEn: BlogPost = {
     "What a website is in plain English: why business needs one, common types (brochure, corporate, store), how to choose a build path, and how pages work at a high level.",
   lead: [
     "A website is a set of linked pages under one address. For visitors it’s one resource: menu, sections, contacts. For business — a storefront, lead channel, and trust point next to ads and social.",
-    "This piece covers why you need a site, which types exist, how to build one (studio, ready-made, builder), and how it works in broad strokes. Layout and server detail live in related posts.",
+    "Below: why you need a site, which types exist, how to build one (studio, ready-made, builder), and how it works in broad strokes. Layout and server detail live in related posts.",
   ],
   faq: [
     {
@@ -55,7 +55,6 @@ export const chtoTakoeVebSaytEn: BlogPost = {
         "A useful analogy: the menu is the table of contents, About is the prologue, sections are chapters, contacts are the epilogue. A good site reads in sequence: people know where to go and what to do next.",
         "The domain is like the title on a shelf. Pages link inside; without structure both visitors and search engines get lost.",
       ],
-      lists: [],
       links: [
         {
           label: "Site navigation",
@@ -78,11 +77,11 @@ export const chtoTakoeVebSaytEn: BlogPost = {
         {
           intro: "Typical reasons to launch a site:",
           items: [
-            "explain the company and services;",
-            "take inquiries around the clock;",
-            "support ads with a landing;",
-            "host a catalog or price list;",
-            "build trust (details, reviews, cases).",
+            "explain the company and services",
+            "take inquiries around the clock",
+            "support ads with a landing",
+            "host a catalog or price list",
+            "build trust (details, reviews, cases)",
           ],
         },
       ],
@@ -97,20 +96,20 @@ export const chtoTakoeVebSaytEn: BlogPost = {
         {
           intro: "Types in short:",
           items: [
-            "brochure — fast and short;",
-            "corporate — full story plus leads;",
-            "promo — for a campaign, often one-off;",
-            "showcase — deep on a narrow range;",
-            "store — catalog, cart, payment and shipping.",
+            "brochure — fast and short",
+            "corporate — full story plus leads",
+            "promo — for a campaign, often one-off",
+            "showcase — deep on a narrow range",
+            "store — catalog, cart, payment and shipping",
           ],
         },
         {
           intro: "By job you also see:",
           items: [
-            "news and topic portals;",
-            "articles / blog;",
-            "services and personal accounts;",
-            "entertainment and community platforms.",
+            "news and niche portals",
+            "articles / blog",
+            "services and personal accounts",
+            "entertainment and community platforms",
           ],
         },
       ],
@@ -126,10 +125,10 @@ export const chtoTakoeVebSaytEn: BlogPost = {
         {
           intro: "Before you pick a path:",
           items: [
-            "budget and timeline;",
-            "whether you need catalog, payment, or integrations;",
-            "who will update content;",
-            "whether you need search growth (SEO).",
+            "budget and timeline",
+            "whether you need catalog, payment, or integrations",
+            "who will update content",
+            "whether you need search growth (SEO)",
           ],
         },
       ],
@@ -151,7 +150,6 @@ export const chtoTakoeVebSaytEn: BlogPost = {
         "The user opens a URL in the browser; the request hits a server; the server returns a page (HTML/CSS/JS and data). Updating texts and products is usually a CMS job — a public view plus an admin panel.",
         "An editor only needs the admin. Complex logic, integrations, and performance are development territory. A well-built site doesn’t magnetize clients alone: you still need demand, promotion, and service.",
       ],
-      lists: [],
       links: [
         {
           label: "What is SEO",

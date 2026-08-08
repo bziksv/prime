@@ -8,44 +8,44 @@ export const wordstatEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/wordstat/cover-en.webp",
   excerpt:
-    "Wordstat is Yandex's query-stats service: why it matters for semantics, how to read frequency, operators, regions, and seasonality — without promising TOP in a month from a \"big number.\"",
+    "Wordstat is Yandex query-stats: why it matters for keyword research, how to read volume, operators, regions, and seasonality — without treating a big number as a ranking promise.",
   lead: [
-    "Yandex Wordstat shows how often people search for phrasings in Yandex Search and which nearby queries show up. For SEO and ads in Russia it's the baseline for demand research: core keywords, seasonality, regions.",
-    "Read the output carefully: operators change frequency, and “raw” volume isn’t the same as exact. UI and tab labels changed — follow the current account UI; don’t copy old screenshot figures into today’s plan as fact.",
+    "Yandex Wordstat shows how often people search for phrasings in Yandex and which related queries appear nearby. For SEO and paid search in Russia it is the baseline demand map: keyword set, seasonality, regions.",
+    "Below: what the tool is for, how to read the output, why operators matter, and how broad volume differs from exact. The UI and tab labels change — follow the live account; do not paste old screenshot figures into today’s plan as fact.",
   ],
   faq: [
     {
       q: "Does Wordstat show real customers?",
-      a: "No: it's an estimate of search interest, not leads or sales. High frequency ≠ easy TOP and no conversion guarantee.",
+      a: "No. It estimates search interest, not leads or sales. High volume is not easy rankings and not a conversion guarantee.",
     },
     {
       q: "Do you need a Yandex account?",
-      a: "Yes — the service is for signed-in users. Without login you can't use it fully.",
+      a: "Yes. The service is for signed-in users. Without login you cannot use it fully.",
     },
     {
-      q: "How is this different from the high/mid/low frequency article?",
-      a: "That one covers types and how to read numbers. Here — Wordstat itself: UI, operators, regions, history. Related materials.",
+      q: "How is this different from the high / mid / low frequency article?",
+      a: "That piece covers volume types and how to read numbers. This one is Wordstat itself: UI, operators, regions, history. The materials sit next to each other.",
     },
     {
-      q: "Is Wordstat enough instead of a semantic core?",
-      a: "No. Wordstat gives frequencies and query ideas; the core is clusters, intent, and landing pages. See the semantics canon.",
+      q: "Can Wordstat replace a full keyword set?",
+      a: "No. Wordstat gives volumes and phrase ideas. A keyword set is clusters, intent, and landing pages. See the semantics guide.",
     },
     {
-      q: "Is a number without operators exact phrase entries?",
-      a: "Usually no: the base input sums tails and word forms. For the core, use refined or exact frequency with operators.",
+      q: "Is a number without operators exact phrase volume?",
+      a: "Usually no. The default view rolls up tails and word forms. For prioritization, use refined or exact frequency with operators.",
     },
     {
       q: "Does Wordstat replace Google Keyword Planner?",
-      a: "For Yandex in Russia — the main source. For Google use Planner, Trends, or GSC separately.",
+      a: "For Yandex in Russia it is the main loop. For Google use Planner, Trends, or Search Console separately.",
     },
   ],
   sections: [
     {
-      title: "Why Wordstat",
+      title: "Why Wordstat exists",
       level: 2,
       paras: [
-        "The service estimates interest in topics via Yandex search queries: how often phrasings appeared in a period (given operators and region). That's the base for semantics, niche sizing, and seasonal content or ad planning.",
-        "The right \"similar\" column and left tails help expand idea lists. But a list ≠ a ready core: cut junk, informational tails, and foreign intent.",
+        "The service estimates interest in topics from Yandex search queries: how often phrasings appeared in a period under your operators and region. That supports keyword research, niche sizing, and seasonal content or ad planning.",
+        "The right-hand “similar” column and left-hand tails help expand ideas. A list is not a finished keyword set: cut junk, informational noise, and the wrong intent.",
       ],
       lists: [
         {
@@ -53,14 +53,14 @@ export const wordstatEn: BlogPost = {
           items: [
             "size demand on niche markers",
             "collect word forms and tails for clusters",
-            "compare regions and devices (if available in the UI)",
-            "check seasonality on query history",
+            "compare regions and devices (if the UI offers them)",
+            "check seasonality in query history",
           ],
         },
       ],
       links: [
         {
-          label: "Semantic core",
+          label: "Semantic keyword set",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {
@@ -73,16 +73,16 @@ export const wordstatEn: BlogPost = {
       title: "How to start",
       level: 2,
       paras: [
-        "Sign into a Yandex account and open Wordstat. Enter a marker (product, service, client problem). By default you get a broad picture of words and nearby similar phrasings.",
-        "If the business is local, set the region first: nationwide frequency for \"flower delivery\" in one city barely helps. For mobile audiences check the device split if it exists in the current UI — filter names may have changed since 2018.",
+        "Sign into Yandex and open Wordstat. Enter a marker — product, service, or customer problem. By default you get a broad picture of words plus nearby similar phrasings.",
+        "For a local business, set the region first: nationwide volume for “flower delivery” in one city barely helps. For mobile audiences, check the device split if it exists in the current UI — filter names may have changed since 2018.",
       ],
       lists: [
         {
-          intro: "Mini order:",
+          intro: "Mini workflow:",
           items: [
-            "set region and time period (month / season)",
-            "enter a marker without extra words",
-            "pull base and refined frequency",
+            "set region and thinking horizon (month / season)",
+            "enter a marker without filler words",
+            "pull broad and refined frequency",
             "export or copy tails into a sheet",
             "filter junk and group by intent",
           ],
@@ -90,27 +90,27 @@ export const wordstatEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Don't confuse demand and rankings",
-          text: "A big Wordstat number doesn't mean \"TOP in a month.\" Semantics and site prep take their own weeks; core positions grow over planned months (often 2–6). Prep ≠ TOP-10.",
+          title: "Demand is not rankings",
           kind: "tip",
+          text: "A big Wordstat number does not mean page-one visibility in a month. Keyword and site prep take their own weeks; gains across a commercial set usually need months of steady work after promotion starts — often in the 2–6 month range.",
         },
       ],
     },
     {
-      title: "How to read results",
+      title: "How to read the results",
       level: 2,
       paras: [
-        "Left usually lists phrases containing your input (and expansions). Right — \"what else people search on the topic.\" The number next to a row estimates frequency for the period (often a month) under your conditions.",
-        "Logic example: marker \"buy a phone\" yields tails like \"cheap,\" city, model; the right may show synonyms (\"smartphone,\" \"mobile\"). Don't paste old screenshot thousands into a brief as current volume — demand drifts.",
+        "The left side usually lists phrases that contain your input (and expansions). The right side shows related searches on the topic. The number next to a row estimates frequency for the period — often a month — under your conditions.",
+        "Example: the marker “buy a phone” surfaces tails like “cheap,” a city, or a model; the right may show synonyms (“smartphone,” “mobile”). Do not paste old screenshot thousands into a brief as current volume — demand drifts.",
       ],
       tables: [
         {
           caption: "What to watch in the output",
           headers: ["Element", "Why"],
           rows: [
-            ["Row frequency", "Demand compass under your operators"],
+            ["Row frequency", "Demand signal under your operators"],
             ["Left tails", "Cluster and landing ideas"],
-            ["Similar on the right", "Synonyms and related themes"],
+            ["Similar on the right", "Synonyms and adjacent themes"],
             ["Region", "Local business vs nationwide"],
             ["History", "Seasonality and trends"],
           ],
@@ -121,8 +121,8 @@ export const wordstatEn: BlogPost = {
       title: "Operators: why they matter",
       level: 2,
       paras: [
-        "Without operators Wordstat often sums a wide group of matches: the phrase \"inside\" longer queries. For the core and bids you need refinements: quotes, exclamation, plus/minus, and other operators from current Yandex Help.",
-        "A classic beginner mistake — treat the \"broad\" number as exact entries. Refined frequency is usually much lower and fairer for prioritization.",
+        "Without operators Wordstat often sums a wide match group — your phrase inside longer queries. For keyword sets and bids you need refinements: quotes, exclamation marks, plus/minus, and other operators from current Yandex Help.",
+        "A classic beginner mistake is treating the broad number as exact entries. Refined frequency is usually much lower and fairer for prioritization.",
       ],
       lists: [
         {
@@ -131,7 +131,7 @@ export const wordstatEn: BlogPost = {
             "first pull a broad demand picture",
             "then refine key markers with operators",
             "cross-check with the frequency methodology article",
-            "don't plan budget on one \"pretty\" number alone",
+            "do not plan budget on one pretty number alone",
           ],
         },
       ],
@@ -146,21 +146,21 @@ export const wordstatEn: BlogPost = {
       title: "Seasonality and regions",
       level: 2,
       paras: [
-        "Query history (monthly chart) separates stable demand from seasonal spikes — \"trees\" in December, \"ACs\" in summer. For content plans and ad buys that beats a one-off \"last month\" snapshot.",
-        "Regional popularity shows where a topic is hotter vs average. Above or below baseline is a signal to push harder — or not expect miracles in a weak region without offline factors.",
+        "Query history (the monthly chart) separates stable demand from seasonal spikes — Christmas trees in December, air conditioners in summer. For content plans and media buys that beats a one-off “last month” snapshot.",
+        "Regional popularity shows where a topic runs hotter than average. Above or below baseline is a signal to lean in — or not expect miracles in a weak region without offline factors.",
       ],
     },
     {
-      title: "Takeaways",
+      title: "What to remember",
       level: 2,
       paras: [
-        "Wordstat is a demand tool in the Yandex ecosystem, not a magic ranking button. Collect markers, refine frequency, check season and region, then build the core and landing pages.",
-        "Related: full semantic core and frequency types — in separate articles. A shorter WP Wordstat overview may later redirect here.",
+        "Wordstat is a demand tool in the Yandex ecosystem, not a ranking shortcut. Collect markers, refine frequency, check season and region, then build the keyword set and landing pages.",
+        "Related topics — a full semantic set and frequency types — live in separate articles. A shorter WordPress-era Wordstat overview may later redirect here.",
       ],
     },
   ],
   closing: [
-    "Open Wordstat under your working region, pull markers with operators, and export tails into a sheet — then clustering and landing pages, not a hunt for the biggest \"raw\" number.",
+    "Open Wordstat under your working region, pull markers with operators, and export tails into a sheet — then clustering and landings, not a hunt for the biggest raw number.",
   ],
   related: [
     "semanticheskoe-yadro",

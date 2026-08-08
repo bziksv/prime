@@ -3,19 +3,19 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for metrika-posetiteli — same structure as RU JSON. */
 export const metrikaPosetiteliEn: BlogPost = {
   slug: "metrika-posetiteli",
-  title: "Yandex Metrika “Visitors” report: profiles and lifecycle",
+  title: "Yandex Metrica “Visitors” report: profiles and lifecycle",
   date: "2018-07-17",
   category: "Analytics",
   cover: "/images/blog/metrika-posetiteli/cover-en.webp",
   excerpt:
-    "How to read the visitors report in Yandex Metrika: anonymous profiles, lifecycle metrics, quick segments, and jumping into Webvisor — without confusing it with the Audience section.",
+    "How to read the visitors report in Yandex Metrica: anonymous profiles, lifecycle metrics, quick segments, and jumping into Session Replay — without confusing it with the Audience section.",
   lead: [
-    "Most Metrika reports answer “what happens with visits.” The visitors report looks at people (anonymous profiles): how often they came, where first, how many goals they hit, and what the path to purchase looks like on a long cycle.",
-    "How it differs from source groupings, which lifecycle metrics to watch, and how to link a profile to Session Replay (Webvisor). Account section names have changed (“Visitors” vs older labels) — use current Metrica Help.",
+    "Most Metrica reports answer “what happens with visits.” The visitors report looks at people (anonymous profiles): how often they came, where first, how many goals they hit, and what the path to purchase looks like on a long cycle.",
+    "Below: how it differs from source groupings, which lifecycle metrics to watch, and how to link a profile to Session Replay. Section names in the account change (“Visitors” / user profiles) — go by meaning: a client card, not a visit row. Session Replay has its own article; here the focus is the profiles report.",
   ],
   faq: [
     {
-      q: "Is this the same as the Audience report?",
+      q: "Is this the same as Audience?",
       a: "No. Audience is slices by demographics and interests. The visitors report is a list/cards of individual profiles with history.",
     },
     {
@@ -23,15 +23,15 @@ export const metrikaPosetiteliEn: BlogPost = {
       a: "No — these are anonymous counter IDs. Personal data in forms is a separate consent and policy scope.",
     },
     {
-      q: "Why bother with Visitors if traffic sources already exist?",
+      q: "Why bother if traffic sources already exist?",
       a: "Sources show the channel. A profile shows how many touches are needed to a goal and how behavior changes visit to visit.",
     },
     {
-      q: "Is there a period calendar on the Visitors report?",
-      a: "Historically the report built across the counter’s full life; the needed slice comes from segments (visits in a period, purchases, etc.). Check current UI in Help.",
+      q: "Is there a period calendar?",
+      a: "Historically the report built across the counter’s full life; the needed slice comes from segments (visits in a period, purchases, and similar). Check current UI in Help.",
     },
     {
-      q: "Is ecommerce required for the Visitors report?",
+      q: "Is ecommerce required?",
       a: "Not mandatory, but with purchase data you get order count and revenue per profile — handy for a store.",
     },
   ],
@@ -50,17 +50,17 @@ export const metrikaPosetiteliEn: BlogPost = {
             "how many visits before the first goal",
             "what the first channel was",
             "whether they return after a bounce",
-            "which URLs repeat before a lead.",
+            "which URLs repeat before a lead",
           ],
         },
       ],
       links: [
         {
-          label: "Goals in Yandex Metrika",
+          label: "Goals in Yandex Metrica",
           href: "/en/blog/metrika-tseli/",
         },
         {
-          label: "Installing Metrika",
+          label: "Installing Metrica",
           href: "/en/blog/metrika-ustanovka/",
         },
       ],
@@ -70,13 +70,13 @@ export const metrikaPosetiteliEn: BlogPost = {
       level: 2,
       paras: [
         "In Sources, Content, and similar reports a row is a group of visits with a shared trait. In the visitors report a row is a profile: accumulated interaction history with the counter.",
-        "The demographics/interests section that could also be called “Visitors” earlier usually lives as “Audience” now. Don’t look for lifecycle there — those are aggregates, not individual profiles.",
+        "The demographics/interests section that could also be called “Visitors” earlier usually lives as “Audience” now. Don’t look for lifecycle there — those are aggregates, not dossiers.",
       ],
       notes: [
         {
           title: "On personal data",
-          text: "Don’t try to “enrich” a profile with CRM full names in public reports without a legal basis. ClientID ↔ CRM linking is a separate careful scope.",
           kind: "tip",
+          text: "Don’t try to enrich a profile with CRM full names in public reports without a legal basis. ClientID ↔ CRM linking is a separate careful scope.",
         },
       ],
     },
@@ -115,37 +115,37 @@ export const metrikaPosetiteliEn: BlogPost = {
             "first visit from Direct, goal not reached",
             "≥3 visits with no lead",
             "purchase after organic",
-            "abandoned cart (with ecommerce).",
+            "abandoned cart (with ecommerce)",
           ],
         },
       ],
       links: [
         {
-          label: "Content marketing in Metrika",
+          label: "Content marketing in Metrica",
           href: "/en/blog/kontent-marketing-metrika/",
         },
       ],
     },
     {
-      title: "Linking to Webvisor",
+      title: "Linking to Session Replay",
       level: 2,
       paras: [
-        "From a visitor card it’s convenient to jump to a session recording if Webvisor is on and the visit entered the sample. Numbers say “what”; the recording says “how they stumbled.”",
-        "Don’t watch every recording: segment first, then 5–10 illustrative visits. Setup and limits — in the Webvisor article.",
+        "From a visitor card it’s convenient to jump to a session recording if Session Replay is on and the visit entered the sample. Numbers say “what”; the recording says “how they stumbled.”",
+        "Don’t watch every recording: segment first, then 5–10 illustrative visits. Setup and limits — in the Session Replay article.",
       ],
       links: [
         {
-          label: "Yandex Webvisor",
+          label: "Yandex Session Replay",
           href: "/en/blog/vebvizor/",
         },
         {
-          label: "Conversion rate optimization",
+          label: "Conversion optimization",
           href: "/en/blog/optimizatsiya-konversii/",
         },
       ],
     },
     {
-      title: "Takeaways",
+      title: "What to remember",
       level: 2,
       paras: [
         "The visitors report is about an anonymous profile’s lifecycle — not a replacement for traffic sources.",
@@ -154,7 +154,7 @@ export const metrikaPosetiteliEn: BlogPost = {
     },
   ],
   closing: [
-    "Open the visitor profiles report, filter a segment for your hypothesis, and review 5–10 cards with goals and first source — that’s how Metrika shows the path to a lead, not only “visits yesterday.”",
+    "Open the visitor profiles report, filter a segment for your hypothesis, and review 5–10 cards with goals and first source — that’s how Metrica shows the path to a lead, not only “visits yesterday.”",
   ],
   related: [
     "vebvizor",

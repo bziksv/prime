@@ -1255,7 +1255,8 @@
   overflow: hidden;
   border: 1px solid var(--border);
   background: #5b21b6;
-  aspect-ratio: 4 / 3;
+  /* Same frame as .b-card__media — covers are 16:9 with baked-in titles */
+  aspect-ratio: 16 / 9;
   width: 100%;
   min-width: 0;
 }
@@ -1264,7 +1265,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* 16:9 covers → 4:3 hero: center crop; title is baked into the image */
   object-position: center center;
   display: block;
 }

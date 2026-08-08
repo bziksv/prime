@@ -11,7 +11,7 @@ export const prodazhiInternetMagazinEn: BlogPost = {
     "What really moves online store sales: traffic and storefronts, product cards and UX, reviews and chat, content and video, email and AOV — without an “enable everything at once” checklist.",
   lead: [
     "Online store sales growth is traffic × conversion × average order value. External factors (season, competition, prices) always matter; inside you still have the marketing mix, site convenience, and the team.",
-    "The levers below are the ones that most often move the needle. This isn’t “20 buttons in a week”: take 1–2 hypotheses and measure revenue, CR, and margin. Related topics — CRO, AOV, and store promotion — live in separate articles.",
+    "Below: lever groups that most often move the needle. This isn’t “20 buttons in a week”: take 1–2 hypotheses and measure revenue, CR, and margin. Related topics — CRO, AOV, and store promotion — live in separate articles.",
   ],
   faq: [
     {
@@ -54,7 +54,7 @@ export const prodazhiInternetMagazinEn: BlogPost = {
             "product campaigns / listings for the assortment",
             "consistent prices and stock",
             "a company card in directories",
-            "UTMs and order goals.",
+            "UTMs and order goals",
           ],
         },
       ],
@@ -73,7 +73,7 @@ export const prodazhiInternetMagazinEn: BlogPost = {
       title: "Product cards, content, and video",
       level: 2,
       paras: [
-        "Dry descriptions lose: photos, benefits, comparison, FAQ, video reviews of top SKUs. Content cuts “not what I expected” returns and builds trust before “add to cart”.",
+        "Dry descriptions lose: photos, benefits, comparison, FAQ, video reviews of bestselling SKUs. Content cuts “not what I expected” returns and builds trust before “add to cart”.",
         "New arrivals and trends keep interest if stocking is intentional — not chaos for the showcase. Free “toys” (calculator, try-on) work when they help choose — not distract from buying.",
       ],
       links: [
@@ -97,7 +97,7 @@ export const prodazhiInternetMagazinEn: BlogPost = {
             "slow pages",
             "missing sizes/stock",
             "delivery surprise at the end",
-            "no way to ask quickly.",
+            "no way to ask quickly",
           ],
         },
       ],
@@ -141,9 +141,9 @@ export const prodazhiInternetMagazinEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Important",
-          text: "Don’t copy someone else’s “20 ways” list one-to-one. Pick a lever for the funnel bottleneck and lock the success metric before launch.",
+          title: "Note",
           kind: "tip",
+          text: "Don’t copy someone else’s “20 ways” list one-to-one. Pick a lever for the funnel bottleneck and lock the success metric before launch.",
         },
       ],
     },

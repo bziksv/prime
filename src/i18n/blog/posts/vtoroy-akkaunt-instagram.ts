@@ -11,20 +11,20 @@ export const vtoroyAkkauntInstagramEn: BlogPost = {
     "Why create a second Instagram profile, how to add an account in the app, how personal and work accounts differ, and typical signup glitches — without outdated screenshots.",
   lead: [
     "A second Instagram account helps when one feed mixes personal life and sales, different niches, or a temporary project. In the app you can switch profiles without signing out every time.",
-    "Split accounts when brands or roles truly differ, add a profile carefully with email and phone hygiene, and know how to end a session. Limits and menu labels change — check Meta Help.",
+    "Below: why to split, how to add a profile, what to watch with email and phone, and how to end a session. Limits and menu labels change — check Meta Help. See the note on this page.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
       q: "How many accounts can you keep?",
-      a: "The app makes it easy to switch between several. Check the exact limit and rules in current Help — the \"exactly 5\" figure from old guides isn't gospel.",
+      a: "The app makes it easy to switch between several. Check the exact limit and rules in current Help — the “exactly 5” figure from old guides isn’t gospel.",
     },
     {
       q: "Do you need a new email?",
-      a: "Usually yes: each profile has its own login, email, or phone per signup rules. Don't use someone else's credentials.",
+      a: "Usually yes: each profile has its own login, email, or phone per signup rules. Don’t use someone else’s credentials.",
     },
     {
       q: "Are two SIM cards required?",
@@ -32,7 +32,7 @@ export const vtoroyAkkauntInstagramEn: BlogPost = {
     },
     {
       q: "How is this different from switching personal to business?",
-      a: "Changing account type is one profile's mode. A second account is a separate identity or brand with its own feed and audience.",
+      a: "Changing account type is one profile’s mode. A second account is a separate identity or brand with its own feed and audience.",
     },
     {
       q: "Can you run both from one phone?",
@@ -44,7 +44,7 @@ export const vtoroyAkkauntInstagramEn: BlogPost = {
       title: "Why a second profile",
       level: 2,
       paras: [
-        "Separate personal and commercial content: selfies don't clutter the product storefront.",
+        "Separate personal and commercial content: selfies don’t clutter the product storefront.",
         "Different niches: music, travel, shop — different audiences and visuals.",
         "Temporary projects: contest, event, offer test — then close or archive activity.",
         "Branches and brands: separate storefronts instead of one messy grid.",
@@ -61,7 +61,7 @@ export const vtoroyAkkauntInstagramEn: BlogPost = {
       title: "How to add an account in the app",
       level: 2,
       paras: [
-        "Open your profile → menu or name switcher → \"Add account\" (wording depends on version).",
+        "Open your profile → menu or name switcher → “Add account” (wording depends on version).",
         "Choose signup for a new profile or login to an existing one. For a new account — email or phone, name, password per the wizard.",
         "After creation, switch by tapping the profile name in the header — the list of saved logins.",
       ],
@@ -72,7 +72,7 @@ export const vtoroyAkkauntInstagramEn: BlogPost = {
             "a free handle and backup email",
             "clear profile role (personal / brand)",
             "updated official app",
-            "no gray \"multi-account clients\"",
+            "no gray “multi-account clients”",
           ],
         },
       ],
@@ -89,15 +89,15 @@ export const vtoroyAkkauntInstagramEn: BlogPost = {
       title: "Links and publishing",
       level: 2,
       paras: [
-        "Cross-posting to other social networks used to be offered actively from settings. The set of \"linked accounts\" has changed; current options are in settings and Accounts Center.",
-        "Cross-posting doesn't replace format adaptation: what works in the Instagram feed may be excess on another network.",
+        "Cross-posting to other social networks used to be offered actively from settings. The set of “linked accounts” has changed; current options are in settings and Accounts Center.",
+        "Cross-posting doesn’t replace format adaptation: what works in the Instagram feed may be excess on another network.",
       ],
     },
     {
       title: "Signing out vs deleting",
       level: 2,
       paras: [
-        "\"End session\" or remove account clears the profile from quick switching on the device — that's not account deletion.",
+        "“End session” or remove account clears the profile from quick switching on the device — that’s not account deletion.",
         "Full profile deletion is a separate scenario (see the deletion article).",
       ],
       links: [
@@ -112,25 +112,25 @@ export const vtoroyAkkauntInstagramEn: BlogPost = {
       ],
     },
     {
-      title: "If it won't let you create one",
+      title: "If it won’t let you create one",
       level: 2,
       paras: [
         "Update the app, restart the phone, check whether email or phone are already taken.",
         "Temporary Meta glitches happen — wait or finish signup on another device, then add the login.",
-        "Mass fake growth and automation on new profiles hit limits faster — don't \"warm up\" with bots.",
+        "Mass fake growth and automation on new profiles hit limits faster — don’t “warm up” with bots.",
       ],
     },
     {
       title: "Takeaways",
       level: 2,
       paras: [
-        "A second account is about a clear role and audience, not \"another thousand followers at any cost.\"",
+        "A second account is about a clear role and audience, not “another thousand followers at any cost.”",
         "Add it through the official client and plan content for each profile separately.",
       ],
     },
   ],
   closing: [
-    "Define the second profile's role, register it on a separate email, and switch in the app — it's easier to keep personal and sales content in separate feeds.",
+    "Define the second profile’s role, register it on a separate email, and switch in the app — it’s easier to keep personal and sales content in separate feeds.",
   ],
   related: [
     "biznes-akkaunt-instagram",

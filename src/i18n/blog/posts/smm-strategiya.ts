@@ -9,10 +9,10 @@ export const smmStrategiyaEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/smm-strategiya/cover-en.webp",
   excerpt:
-    "How to build an SMM strategy: tie social goals to the business, break them into tasks, prioritize, assign owners and deadlines, and adjust by metrics — without a “golden 2018 algorithm.”",
+    "How to build an SMM strategy: tie social goals to the business, break them into tasks, prioritize, assign owners and deadlines, and adjust by metrics — without a “golden algorithm.”",
   lead: [
     "An SMM strategy is an agreement on why the brand is on social and what to do first. Without it the feed turns into checkbox posts, and budget goes to pretty but useless touches.",
-    "A five-step frame: goals → tasks → priorities → owners and deadlines → review. The broader marketing plan sits above this; the content calendar is the next layer after strategy.",
+    "Below: a five-step frame — goals → tasks → priorities → owners and deadlines → review. The broader marketing plan sits above this; the content calendar is the next layer after strategy.",
   ],
   faq: [
     {
@@ -25,10 +25,10 @@ export const smmStrategiyaEn: BlogPost = {
     },
     {
       q: "How many goals should I set?",
-      a: "One primary for the period (leads, nurture, HR, service) and 2–3 supporting ones. “Everything at once” spreads resources thin.",
+      a: "One primary for the period (leads, nurture, HR, service) and two or three supporting ones. “Everything at once” spreads resources thin.",
     },
     {
-      q: "Does an SMM strategy replace a content plan?",
+      q: "Does strategy replace a content plan?",
       a: "No. Strategy answers “why and what matters more”; the plan answers “what ships when.”",
     },
     {
@@ -41,7 +41,7 @@ export const smmStrategiyaEn: BlogPost = {
       title: "Tie SMM goals to the business",
       level: 2,
       paras: [
-        "Write 1–3 corporate goals for the period (new market, product launch, repeat purchases, hiring). For each ask: how can social really help — traffic, trust, leads, support, partnerships?",
+        "Write one to three corporate goals for the period (new market, product launch, repeat purchases, hiring). For each ask: how can social really help — traffic, trust, leads, support, partnerships?",
         "If “being on social” doesn’t hit any business goal, you’re running a channel for its own sake. Then either narrow the channel or revise expectations.",
         "Typical SMM goals: awareness, site traffic, leads/sales, community, audience research. Pick a primary — subordinate the rest.",
       ],
@@ -61,18 +61,18 @@ export const smmStrategiyaEn: BlogPost = {
       level: 2,
       paras: [
         "“Enter a new market via influencers” without steps is a slogan. Translate into actions: candidate list, selection criteria, collaboration offer, collab frequency, reporting format.",
-        "Tasks must be checkable: not “raise engagement,” but “run 4 Stories polls and process replies by Friday” or “get 30 qualified dialogues a month.”",
+        "Tasks must be checkable: not “raise engagement,” but “run four Stories polls and process replies by Friday” or “get 30 qualified dialogues a month.”",
         "Conditions change — change tactics; don’t hide failure behind pretty wording.",
       ],
       lists: [
         {
           intro: "Mini task template:",
           items: [
-            "result (what we get);",
-            "action (what we do);",
-            "platform and format;",
-            "success metric;",
-            "deadline and owner.",
+            "result (what we get)",
+            "action (what we do)",
+            "platform and format",
+            "success metric",
+            "deadline and owner",
           ],
         },
       ],
@@ -116,7 +116,7 @@ export const smmStrategiyaEn: BlogPost = {
       title: "Review and adjust",
       level: 2,
       paras: [
-        "Strategy is a route, not dogma. Every 2–4 weeks check: are we toward the goal, which tasks signaled, what to shut off.",
+        "Strategy is a route, not dogma. Every two to four weeks check: are we toward the goal, which tasks signaled, what to shut off.",
         "Watch metrics tied to the chosen goal: leads, dialogues, site clicks, saves, reply share — not only likes. Compare periods honestly: creative changes and seasonality beat “algorithm magic.”",
         "Lock takeaways in a short retro and refresh priorities. Fit the content plan to the new hypothesis — not the other way around.",
       ],
@@ -132,7 +132,7 @@ export const smmStrategiyaEn: BlogPost = {
       ],
     },
     {
-      title: "Takeaways",
+      title: "What to remember",
       level: 2,
       paras: [
         "SMM with no link to a business goal is activity for the report.",

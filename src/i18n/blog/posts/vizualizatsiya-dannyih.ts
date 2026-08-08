@@ -11,8 +11,12 @@ export const vizualizatsiyaDannyihEn: BlogPost = {
     "Looker Studio, Power BI, Tableau, and other tools for reports and dashboards — how to choose without outdated 2019 prices and without confusing them with article infographics.",
   lead: [
     "Data visualization in marketing means turning exports from analytics, ads, and CRM into readable reports and dashboards. That isn’t the same as infographics for an article — here connectors, refresh schedules, and filters matter.",
-    "Pick a dashboard tool for the audience and the data source — not the prettiest demo. Pricing and product names change (Google Data Studio → Looker Studio); check current terms on vendor sites. Mentions of Instagram and Facebook Ads are informational.",
+    "Below: orientation on popular platforms. Pricing and product names change (Google Data Studio → Looker Studio); check current terms on vendor sites. Mentions of Instagram* and Facebook* Ads are informational. See the Meta note on this page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* and Facebook* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "How is this different from infographics?",
@@ -20,7 +24,7 @@ export const vizualizatsiyaDannyihEn: BlogPost = {
     },
     {
       q: "Where should a beginner start?",
-      a: "With Looker Studio (formerly Data Studio) or a similar tool with ready connectors to Analytics — a free entry point without code.",
+      a: "With Looker Studio (formerly Data Studio) or a similar tool with ready connectors to Yandex Metrika/Analytics — a free entry point without code.",
     },
     {
       q: "Do I need Power BI or Tableau right away?",
@@ -28,7 +32,7 @@ export const vizualizatsiyaDannyihEn: BlogPost = {
     },
     {
       q: "Are prices from old roundups still valid?",
-      a: "No. Use the vendor’s current price list; below is selection logic only — no locked 2019 dollar figures.",
+      a: "No. Use the vendor’s current price list; what follows is selection logic only — no locked 2019 dollar figures.",
     },
     {
       q: "Can I do this without a developer?",
@@ -48,8 +52,8 @@ export const vizualizatsiyaDannyihEn: BlogPost = {
       title: "The job and selection criteria",
       level: 2,
       paras: [
-        "First, lock down: which sources (Analytics, ad accounts, CRM, spreadsheets), who reads the report, how often to refresh, and whether shared access is needed.",
-        "Check: out-of-the-box connectors, free-tier limits, export and sharing options, language support, and local sources your stack actually uses.",
+        "First, lock down: which sources (Yandex Metrika, ad accounts, CRM, spreadsheets), who reads the report, how often to refresh, and whether shared access is needed.",
+        "Check: out-of-the-box connectors, free-tier limits, export and sharing options, Cyrillic support, and local sources (Yandex).",
       ],
       links: [
         {
@@ -68,6 +72,7 @@ export const vizualizatsiyaDannyihEn: BlogPost = {
       notes: [
         {
           title: "Renaming",
+          kind: "tip",
           text: "In the UI and docs, look for Looker Studio — same logic as older Data Studio guides.",
         },
       ],
@@ -76,7 +81,7 @@ export const vizualizatsiyaDannyihEn: BlogPost = {
       title: "Power BI and Tableau",
       level: 2,
       paras: [
-        "Power BI (Microsoft) is strong if the team already lives in Excel, Azure, or SQL Server: rich visuals, cloud hosting, source comparison. A free tier exists; corporate features sit in paid SKUs. Cons: heavy volumes and some Google connectors need extra setup.",
+        "Power BI (Microsoft) is strong if the team already lives in Excel, Azure, or SQL Server: rich visuals, cloud hosting, source comparison. A free tier exists; corporate features sit in paid SKUs. Cons: heavy volumes and some Yandex/Google connectors need extra setup.",
         "Tableau offers strong visual analytics and multi-source work, plus team access and publishing. Full power is in paid editions; for a light marketing PDF it’s often more than you need.",
       ],
     },
@@ -85,16 +90,16 @@ export const vizualizatsiyaDannyihEn: BlogPost = {
       level: 2,
       paras: [
         "ChartBlocks, Plotly, Infogram, and similar tools fit when you need an embeddable chart or interactive graph for a site or presentation — not a full BI stack.",
-        "Check: free-plan limits, watermarks, font support, export formats (PNG, SVG, HTML), and publishing rights. Prices and limits age fast — verify before you choose.",
+        "Check: free-plan limits, watermarks, Cyrillic fonts, export formats (PNG, SVG, HTML), and publishing rights. Prices and limits age fast — verify before you choose.",
       ],
       lists: [
         {
           intro: "Typical scenarios:",
           items: [
-            "one chart in an article — light builder or Excel/Sheets;",
-            "weekly marketing report — Looker Studio or Power BI;",
-            "corporate analytics with roles — Power BI or Tableau;",
-            "scientific or custom charts — Plotly and code.",
+            "one chart in an article — light builder or Excel/Sheets",
+            "weekly marketing report — Looker Studio or Power BI",
+            "corporate analytics with roles — Power BI or Tableau",
+            "scientific or custom charts — Plotly and code",
           ],
         },
       ],
@@ -103,7 +108,7 @@ export const vizualizatsiyaDannyihEn: BlogPost = {
       title: "All-in-one dashboards",
       level: 2,
       paras: [
-        "Tools like DataDeck and peers pull widgets from ads, analytics, and spreadsheets into one near-real-time panel. Handy for ops control; check connector coverage and whether your metrics exist.",
+        "Tools like DataDeck and peers collect widgets from ads, analytics, and spreadsheets into one near-real-time panel. Handy for ops control; check connector coverage and whether your metrics exist.",
         "Don’t confuse a pile of pretty widgets with management insight: KPIs and the manager’s questions come first, charts second.",
       ],
     },
@@ -118,7 +123,7 @@ export const vizualizatsiyaDannyihEn: BlogPost = {
     },
   ],
   closing: [
-    "Build one report from two sources you already use (e.g., Analytics plus a plan spreadsheet), then decide whether you need paid BI.",
+    "Build one report from two sources you already use (e.g., Yandex Metrika plus a plan spreadsheet), then decide whether you need paid BI.",
   ],
   related: [
     "infografika",

@@ -8,10 +8,10 @@ export const yandeksXmlEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/yandeks-xml/cover-en.webp",
   excerpt:
-    "What Yandex.XML was, why the service shut down, what Yandex Search API replaces it with, which jobs official quotas solve, and what not to do with SERP scrapers.",
+    "What Yandex.XML was, why it shut down, what Yandex Search API replaces it with, which jobs official quotas cover, and why scraping the results page is the wrong path.",
   lead: [
     "Yandex.XML was a historic free interface: you sent a search query and got results as XML for a site or automation. In autumn 2023 the service was turned off; the official line is Yandex Search API in Yandex Cloud.",
-    "Why XML mattered, how to think about limits and legal scenarios today — without step-by-step HTML SERP scrapers or limit bypasses. Data-collection boundaries are in the parsing article.",
+    "Below: why XML mattered, how to think about limits and legal scenarios today — without step-by-step HTML results scrapers or limit bypasses. Data-collection boundaries are in the parsing article.",
   ],
   faq: [
     {
@@ -24,7 +24,7 @@ export const yandeksXmlEn: BlogPost = {
     },
     {
       q: "Can I still pull rankings via XML like before?",
-      a: "The old Webmaster-quota scheme is dead. For monitoring use the official API, licensed tools, or manual or contract exports — within the ToS.",
+      a: "The old Webmaster-quota scheme is dead. For monitoring use the official API, licensed tools, or manual / contract exports — within the ToS.",
     },
     {
       q: "What were XML limits?",
@@ -35,12 +35,12 @@ export const yandeksXmlEn: BlogPost = {
       a: "A cloud product with billing (PAYG and plans). Check current prices and quotas in the Yandex console.",
     },
     {
-      q: "Why not just scrape the SERP?",
+      q: "Why not just scrape the results page?",
       a: "It breaks service rules, risks blocks, breaks when markup changes, and carries legal and ethical risk. The official API exists for machine access.",
     },
     {
       q: "Can API responses still be XML?",
-      a: "In the Search API ecosystem response formats may vary (including XML, HTML, JSON — per current docs). That’s not the old Yandex.XML.",
+      a: "In the Search API ecosystem response formats may vary (including XML, HTML, JSON — per current docs). That is not the old Yandex.XML.",
     },
     {
       q: "Does a normal SEO site need XML?",
@@ -52,17 +52,17 @@ export const yandeksXmlEn: BlogPost = {
       title: "What Yandex.XML was",
       level: 2,
       paras: [
-        "The service accepted Yandex search queries and returned structured XML — handy to embed search on a site or fetch results programmatically without breaking the HTML SERP page.",
-        "For SEO tools XML became a familiar ranking-check source. But it was always an official channel with rules and limits — not a hole for infinite SERP scraping.",
+        "The service accepted Yandex search queries and returned structured XML — handy to embed search on a site or fetch results programmatically without scraping the HTML results page.",
+        "For SEO tools XML became a familiar ranking-check source. But it was always an official channel with rules and limits — not a hole for infinite harvesting.",
       ],
       lists: [
         {
           intro: "Typical jobs then:",
           items: [
-            "search on your own site or catalog;",
-            "demos and search-widget prototypes;",
-            "SERP monitoring within quotas;",
-            "learning to work with API responses.",
+            "search on your own site or catalog",
+            "demos and search-widget prototypes",
+            "results monitoring within quotas",
+            "learning to work with API responses",
           ],
         },
       ],
@@ -72,16 +72,16 @@ export const yandeksXmlEn: BlogPost = {
       level: 2,
       paras: [
         "Limits protected infrastructure and cut aggressive harvesting. Quota depended on account and site pairing; the XML UI showed remaining requests.",
-        "The lesson still applies to Search API: design cache, request dedupe, queues — don’t hammer the API for nothing. Exceeding quota means errors and a stop, not one more retry in a loop.",
+        "The lesson still applies to Search API: design cache, request dedupe, queues — do not hammer the API for nothing. Exceeding quota means errors and a stop, not one more retry in a loop.",
       ],
       lists: [
         {
           intro: "Request hygiene:",
           items: [
-            "cache repeats;",
-            "batch with purpose;",
-            "log quota spend;",
-            "don’t pull the whole core every minute.",
+            "cache repeats",
+            "batch with purpose",
+            "log quota spend",
+            "do not pull the whole keyword set every minute",
           ],
         },
       ],
@@ -104,10 +104,10 @@ export const yandeksXmlEn: BlogPost = {
         {
           intro: "Before rollout:",
           items: [
-            "read ToS and quotas;",
-            "estimate cost at your query volume;",
-            "plan cache and error monitoring;",
-            "don’t store extra PII from results.",
+            "read ToS and quotas",
+            "estimate cost at your query volume",
+            "plan cache and error monitoring",
+            "do not store extra personal data from results",
           ],
         },
       ],
@@ -123,16 +123,16 @@ export const yandeksXmlEn: BlogPost = {
       level: 2,
       paras: [
         "Normal: official API, search over your own data, licensed monitors. Grey and risky: mass captcha bypass, client spoofing, ignoring robots or ToS, publishing others’ snippets as content.",
-        "Don’t take old “5 steps to connect an XML scraper” guides from 2020 into production — endpoints are dead, and the habit of bypassing limits is harmful.",
+        "Do not take old “five steps to connect an XML scraper” guides from 2020 into production — endpoints are dead, and the habit of bypassing limits is harmful.",
       ],
       lists: [
         {
           intro: "Do this:",
           items: [
-            "official data channel;",
-            "minimum requests for the job;",
-            "transparent logs for audit;",
-            "alternative — manual TOP checks.",
+            "official data channel",
+            "minimum requests for the job",
+            "transparent logs for audit",
+            "alternative — manual spot-checks of rankings",
           ],
         },
       ],
@@ -141,23 +141,23 @@ export const yandeksXmlEn: BlogPost = {
       title: "Link to SEO processes",
       level: 2,
       paras: [
-        "SERP pulling is a support loop. Growth comes from pages, tech, semantics, and links. API doesn’t replace Webmaster, analytics, and a content plan. Ranking growth is still planned months of work (typically 2–6 after launch prep) — not an API checkbox.",
-        "If you monitor positions: lock region, device, date; don’t compare an XML snapshot to eyeballs without accounting for personalization.",
+        "Pulling results is a support loop. Growth comes from pages, tech, keyword structure, and links. API does not replace Webmaster, analytics, and a content plan.",
+        "If you monitor positions: lock region, device, and date; do not compare an API snapshot to what you see in a personalized browser session.",
       ],
       lists: [
         {
           intro: "Practical stack:",
           items: [
-            "Webmaster — index and errors;",
-            "analytics — behavior;",
-            "Search API or tool — positions for the core;",
-            "hypothesis table — what you change on the site.",
+            "Webmaster — index and errors",
+            "Metrika — behavior",
+            "Search API or tool — positions for the keyword set",
+            "hypothesis table — what you change on the site",
           ],
         },
       ],
       links: [
         {
-          label: "Semantic core",
+          label: "Semantic keyword set",
           href: "/en/blog/semanticheskoe-yadro/",
         },
       ],
@@ -173,11 +173,11 @@ export const yandeksXmlEn: BlogPost = {
         {
           intro: "Migration checklist:",
           items: [
-            "find all xml.search or old URL calls;",
-            "turn off or rewrite;",
-            "connect Search API per docs;",
-            "test quotas and alerts;",
-            "update the SEO playbook.",
+            "find all xmlsearch or old URL calls",
+            "turn off or rewrite",
+            "connect Search API per docs",
+            "test quotas and alerts",
+            "update the SEO playbook",
           ],
         },
       ],
@@ -185,7 +185,7 @@ export const yandeksXmlEn: BlogPost = {
         {
           title: "Practice",
           kind: "tip",
-          text: "Don’t keep open API keys in the repo. Rotation and least privilege are baseline.",
+          text: "Do not keep open API keys in the repo. Rotation and least privilege are baseline.",
         },
       ],
       links: [

@@ -3,18 +3,18 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for instagram-direct — same structure as RU JSON. */
 export const instagramDirectEn: BlogPost = {
   slug: "instagram-direct",
-  title: "Instagram* Direct greetings and messages — without the spam",
+  title: "Instagram Direct greetings and messages — without the spam",
   date: "2021-12-24",
   category: "SMM",
   cover: "/images/blog/instagram-direct/cover-en.webp",
   excerpt:
-    "Auto-replies and chat in Instagram* Direct: why they matter, which setups work, and why cold mass DMs and bots put the account at risk — without a roundup of shady tools.",
+    "Auto-replies and chat in Instagram Direct: why they matter, which setups work, and why cold mass DMs and bots put the account at risk — without a roundup of shady tools.",
   lead: [
     "Direct is a lead and support channel: someone messages after an ad or Story, you answer fast and clearly. Auto-greetings and templates speed that up; cold mass DMs to strangers get you reported and limited.",
-    "Real conversations and a clear safety line matter more than blast volume. Instagram* UI and access to official auto-replies change; we don’t recommend third-party tools for mass-liking or messaging other people’s accounts. The Meta* product notice is on the page.",
+    "Below: workable dialogue scenarios and safety lines. Instagram UI and access to official auto-replies change; we don’t recommend third-party tools for mass-liking or messaging other people’s accounts. The Meta product notice is on the page.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -45,27 +45,27 @@ export const instagramDirectEn: BlogPost = {
       level: 2,
       paras: [
         "Leads, order questions, bookings, price lists, and files — often faster than a site form. How fast you reply decides whether the lead goes to a competitor.",
-        "A greeting sets the tone: who you are, how you help, and what to write back to book a consult. That’s service — not “sell at any cost.”",
+        "A greeting sets the tone: who you are, how you help, and what to write back to book a consult. That’s service — not sell at any cost.",
       ],
       lists: [
         {
           intro: "What this channel is good for:",
           items: [
-            "reply to inbound interest;",
-            "clarify an order after an ad or Story;",
-            "send terms and a site link;",
-            "collect a contact for a call or CRM;",
-            "support existing customers.",
+            "reply to inbound interest",
+            "clarify an order after an ad or Story",
+            "send terms and a site link",
+            "collect a contact for a call or CRM",
+            "support existing customers",
           ],
         },
       ],
       links: [
         {
-          label: "Instagram* business account",
+          label: "Instagram business account",
           href: "/en/blog/biznes-akkaunt-instagram/",
         },
         {
-          label: "Business on Instagram*",
+          label: "Business on Instagram",
           href: "/en/blog/biznes-v-instagram/",
         },
       ],
@@ -81,11 +81,11 @@ export const instagramDirectEn: BlogPost = {
         {
           intro: "Greeting structure:",
           items: [
-            "who you are / the brand;",
-            "how you can help;",
-            "what to write back (one question);",
-            "expected human reply time;",
-            "no ALL CAPS and fake “today only −90%.”",
+            "who you are / the brand",
+            "how you can help",
+            "what to write back (one question)",
+            "expected human reply time",
+            "no ALL CAPS and fake “today only −90%”",
           ],
         },
       ],
@@ -95,34 +95,34 @@ export const instagramDirectEn: BlogPost = {
       level: 2,
       paras: [
         "People report spam; moderation watches abnormal activity. Outcomes include warnings, action limits, temporary blocks, and losing the account.",
-        "Even a “soft” template blasted to hundreds of strangers often goes unread. You’re better off putting budget into content, ads, and fast replies to warm leads.",
+        "Even a soft template blasted to hundreds of strangers often goes unread. You’re better off putting budget into content, ads, and fast replies to warm leads.",
       ],
       lists: [
         {
           intro: "What raises risk:",
           items: [
-            "cold Direct with no request;",
-            "identical templates in batches;",
-            "third-party bots that bypass limits;",
-            "pairing with mass-like and mass-follow;",
-            "bought “warmup” lists.",
+            "cold Direct with no request",
+            "identical templates in batches",
+            "third-party bots that bypass limits",
+            "pairing with mass-like and mass-follow",
+            "bought “warmup” lists",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
-          text: "Mixing up “service automation” with “buy reach via spam.” The first is reply speed for people who already contacted you; the second is someone else’s rules — and blocks.",
           kind: "tip",
+          text: "Mixing up “service automation” with “buy reach via spam.” The first is reply speed for people who already contacted you; the second breaks someone else’s rules — and ends in blocks.",
         },
       ],
       links: [
         {
-          label: "Instagram* shadowban",
+          label: "Instagram shadowban",
           href: "/en/blog/tenevoy-ban-instagram/",
         },
         {
-          label: "Instagram* blocks",
+          label: "Instagram blocks",
           href: "/en/blog/blokirovka-instagram/",
         },
       ],
@@ -138,11 +138,11 @@ export const instagramDirectEn: BlogPost = {
         {
           intro: "Baseline setup:",
           items: [
-            "who replies and when;",
-            "templates plus live follow-up;",
-            "lead tracking (sheet or CRM);",
-            "no third-party “boost” tools;",
-            "measure: replies → leads → sales.",
+            "who replies and when",
+            "templates plus live follow-up",
+            "lead tracking (sheet or CRM)",
+            "no third-party “boost” tools",
+            "measure: replies → leads → sales",
           ],
         },
       ],
@@ -152,7 +152,7 @@ export const instagramDirectEn: BlogPost = {
           href: "/en/blog/oformlenie-stranicy-instagram/",
         },
         {
-          label: "Ads on Instagram*",
+          label: "Ads on Instagram",
           href: "/en/blog/reklama-instagram/",
         },
       ],
@@ -164,7 +164,6 @@ export const instagramDirectEn: BlogPost = {
         "Stay polite, clear, and concise. One ask: answer a question, pick a service, or go to the site. Long walls and caps lock kill replies.",
         "Personalization is about why they contacted you (“you asked about delivery”) — not a scraped name pasted into spam.",
       ],
-      lists: [],
     },
     {
       title: "If you’re eyeing third-party software",
@@ -173,7 +172,6 @@ export const instagramDirectEn: BlogPost = {
         "Old roundups were packed with tool names and “from $X” prices. The market and rules changed; some tools push straight Terms of Service violations.",
         "If you evaluate a tool at all, check: platform rule compliance, account access (don’t give passwords to shady sites), logging, no mass actions, and a real company with a contract. When in doubt — stick to manual Direct and official Meta tools.",
       ],
-      lists: [],
     },
     {
       title: "What to remember",
@@ -182,7 +180,6 @@ export const instagramDirectEn: BlogPost = {
         "Direct works best as support for warm contacts. Auto-greetings and templates are fine; cold mass spam and mass-liking are not.",
         "Reply speed and a clear offer beat a cheap “broadcast + follow” package.",
       ],
-      lists: [],
     },
   ],
   closing: [

@@ -10,25 +10,25 @@ export const promoaktsiiEn: BlogPost = {
   excerpt:
     "Retail and online promotions: discounts, gift-with-purchase, loyalty, and giveaways — why business runs them, what shoppers prefer, and where privacy and the law set limits.",
   lead: [
-    "A promotion is a temporary offer boost: a discount, gift, points, or a chance at a prize. The goal is a demand shift, stock move, acquisition, or retention — not “discount forever for its own sake”.",
-    "Why promo helps business, popular mechanics, and what survey signals suggest (OMI/Sostav and peers, 2019 as a guide, not eternal truth). Giveaways only within platform rules and the law.",
+    "A promotion is a temporary offer boost: a discount, gift, points, or a chance at a prize. The goal is a demand shift, stock move, acquisition, or retention — not discount forever for its own sake.",
+    "Below: why promo helps business, popular mechanics, and what survey signals suggest (OMI/Sostav and peers, 2019 as a guide, not eternal truth). Giveaways only within platform rules and the law.",
   ],
   legalNotice: {
     title: "Social and giveaways",
-    text: "Informational material. Use of some foreign platforms may be restricted under RF law. Formalize giveaways and incentive campaigns per platform rules and applicable norms (including advertising and personal data).",
+    text: "This article is for information only. Use of some foreign platforms may be restricted under RF law. Formalize giveaways and incentive campaigns per platform rules and applicable norms (including advertising and personal data).",
   },
   faq: [
     {
       q: "Is a discount the best mechanic?",
-      a: "The most familiar — but it trains people to wait for “−50%”. Mix with gifts, loyalty, and a clear giveaway, or margin melts.",
+      a: "The most familiar — but it trains people to wait for “−50%.” Mix with gifts, loyalty, and a clear giveaway, or margin melts.",
     },
     {
       q: "Why promo if the product already sells?",
-      a: "Speed turnover, launch a new line, win shelf vs competitors, grow the list. Without a goal, the campaign becomes margin giveaway.",
+      a: "Speed turnover, launch a new line, win shelf vs competitors, grow the list. Without a goal, the campaign becomes a margin giveaway.",
     },
     {
-      q: "Should I offer a guaranteed prize or a jackpot?",
-      a: "Many prefer a “bird in hand”. A strong combo is a frequent small prize + a chance at a big one. Test on your audience.",
+      q: "Guaranteed prize or jackpot?",
+      a: "Many prefer a bird in hand. A strong combo is a frequent small prize plus a chance at a big one. Test on your audience.",
     },
     {
       q: "What data should I ask for?",
@@ -36,7 +36,7 @@ export const promoaktsiiEn: BlogPost = {
     },
     {
       q: "Is a social promo required?",
-      a: "One distribution channel. Offer and rules first, seeding second. Don’t confuse reach with profit.",
+      a: "One distribution channel. Offer and rules first, then distribution. Don’t confuse reach with profit.",
     },
     {
       q: "How do I avoid killing brand price?",
@@ -49,7 +49,7 @@ export const promoaktsiiEn: BlogPost = {
       level: 2,
       paras: [
         "Shoppers hunt for a deal: some FMCG categories have run with a high promo share for years (2017–2018 research figures illustrate pressure, not your KPI). Without your own mechanic, you hand the shelf to whoever gives a reason to buy now.",
-        "Jobs: volume, traffic to store/site, line discovery, contact capture, reactivation. Decide the success metric up front: sales, margin, new customers, LTV.",
+        "Jobs: volume, traffic to store or site, line discovery, contact capture, reactivation. Decide the success metric up front: sales, margin, new customers, LTV.",
       ],
     },
     {
@@ -67,7 +67,7 @@ export const promoaktsiiEn: BlogPost = {
             "gift / 2=3",
             "points and loyalty tiers",
             "giveaway with clear rules",
-            "coupon for the next order.",
+            "coupon for the next order",
           ],
         },
       ],
@@ -77,13 +77,13 @@ export const promoaktsiiEn: BlogPost = {
       level: 2,
       paras: [
         "Joint surveys (2019 guide): people share email more readily than join public flashmobs; a tangible prize often beats “experiences”; a card payout beats abstract bonuses; a guaranteed minimum often beats a deferred big jackpot.",
-        "In “appeal” rankings, “prize of the day + chance at a super-prize” often wins: rationality plus emotion. Demographics matter less than clarity of benefit and ease of entry.",
+        "In appeal scores, “prize of the day + chance at a super-prize” often wins: rationality plus emotion. Demographics matter less than clarity of benefit and ease of entry.",
       ],
       notes: [
         {
           title: "Not a “secret” manipulation",
-          text: "Promising a big prize while counting on forgetfulness is bad ethics and complaint risk. Honest deadlines, odds, and how to claim the prize are mandatory.",
           kind: "tip",
+          text: "Promising a big prize while counting on forgetfulness is bad ethics and complaint risk. Honest deadlines, odds, and how to claim the prize are mandatory.",
         },
       ],
       links: [
@@ -101,7 +101,7 @@ export const promoaktsiiEn: BlogPost = {
       title: "How to launch without damage",
       level: 2,
       paras: [
-        "Lock the goal, economics (margin after discount/gift), rules, channel, and measurement. For giveaways — public terms, dates, and how the winner is chosen.",
+        "Lock the goal, economics (margin after discount or gift), rules, channel, and measurement. For giveaways — public terms, dates, and how the winner is chosen.",
         "Distribution: site, email, store, maps, available social — with UTM and a separate promo code so you see each channel’s contribution.",
       ],
       links: [
@@ -117,7 +117,7 @@ export const promoaktsiiEn: BlogPost = {
     },
   ],
   closing: [
-    "Promotions work when there is a goal and economics — not an eternal price dump. Rotate mechanics, respect privacy and giveaway rules, and measure margin and new customers — not only “how many bought on discount”.",
+    "Promotions work when there is a goal and economics — not an eternal price dump. Rotate mechanics, respect privacy and giveaway rules, and measure margin and new customers — not only “how many bought on discount.”",
   ],
   related: [
     "potrebitelskiy-insayt",

@@ -10,11 +10,11 @@ export const zakrytyyAkkauntInstagramEn: BlogPost = {
   excerpt:
     "How a private Instagram profile differs from deletion and a pause, what non-followers see, how to enable privacy, and why a business account often can’t be “just made private.”",
   lead: [
-    "“Close the account” in everyday speech often gets mixed up with deletion. On Instagram a private profile is a mode where only approved followers see the feed and Stories. Deletion and temporary deactivation are different paths.",
-    "Menu items change — check Meta Help for current steps. Why people turn privacy on, what guests see, roughly how the settings path looks, and which limits a professional profile has.",
+    "“Close the account” in everyday speech often gets mixed up with deletion. On Instagram a private (closed) profile is a mode where only approved followers see the feed and Stories. Deletion and temporary deactivation are different paths.",
+    "Below: why people turn privacy on, what guests see, roughly how the settings path looks, and which limits a professional profile has. Menu items change — check Meta Help. Disclaimer — on this page.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -74,9 +74,9 @@ export const zakrytyyAkkauntInstagramEn: BlogPost = {
         {
           intro: "Typical motives:",
           items: [
-            "privacy instead of a public storefront;",
-            "control over who sees Stories and Direct context;",
-            "a pause on “openness” without deleting the account.",
+            "privacy instead of a public storefront",
+            "control over who sees Stories and Direct context",
+            "a pause on “openness” without deleting the account",
           ],
         },
       ],
@@ -85,7 +85,7 @@ export const zakrytyyAkkauntInstagramEn: BlogPost = {
       title: "What guests and followers see",
       level: 2,
       paras: [
-        "A non-follower can’t scroll the grid and usually can’t watch Stories. They get a surface profile card and a “Follow” request.",
+        "A non-follower can’t scroll the grid and usually can’t watch Stories. They get a surface profile card and a Follow request.",
         "Already accepted followers keep seeing posts until you remove them.",
         "To limit someone already following: remove from followers, Restrict, or block — depending on the goal. Restrict hides interactions without a full ban.",
       ],
@@ -94,7 +94,7 @@ export const zakrytyyAkkauntInstagramEn: BlogPost = {
       title: "How to turn on a private account",
       level: 2,
       paras: [
-        "In the app: profile → menu (☰) → Settings and activity → Account privacy → “Private account” toggle (wording depends on version).",
+        "In the app: profile → menu (☰) → Settings and activity → Account privacy → Private account toggle (wording depends on version).",
         "In a browser the path often goes through profile settings / privacy. Check exact clicks in Instagram Help.",
         "After you turn it on, new people wait for your Accept / Decline. A declined request doesn’t open the feed.",
       ],

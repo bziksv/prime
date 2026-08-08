@@ -11,23 +11,23 @@ export const openGraphEn: BlogPost = {
     "What Open Graph is, which meta tags set title, description, and image on share, how to check the preview, and typical markup mistakes.",
   lead: [
     "Open Graph controls how a link to your site looks in a preview: title, text, image, object type. Without markup, a network often grabs a random fragment or a tiny image — clicks and trust drop.",
-    "Set title, description, and image deliberately, then check the share preview. Treat this as the canonical take on Open Graph among related posts.",
+    "Below: why OG matters, base tags, how to check, and common mistakes. Treat related Open Graph posts in the queue as pointing to this as the canon.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Facebook* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
-      q: "Is Open Graph an SEO ranking factor?",
-      a: "It barely participates directly in search ranking. It’s about CTR and recognition on share — and sometimes in messengers.",
+      q: "Is Open Graph a search ranking factor?",
+      a: "It barely participates directly in search rankings. It’s about CTR and recognition on share — and sometimes in messengers.",
     },
     {
-      q: "Where should you put Open Graph tags?",
+      q: "Where should you put the tags?",
       a: "In the page `<head>`: `meta property=\"og:…\"`. On a CMS — SEO plugin or template; on static — in the layout.",
     },
     {
-      q: "Which Open Graph tags are required?",
+      q: "Which tags are required?",
       a: "Minimum: `og:title`, `og:type`, `og:image`, `og:url`. Useful to add `og:description` and `og:locale`.",
     },
     {
@@ -35,19 +35,19 @@ export const openGraphEn: BlogPost = {
       a: "Same preview idea, different meta names. Many networks read OG; for X/Twitter you sometimes also add card tags.",
     },
     {
-      q: "Why doesn’t the social preview update?",
+      q: "Why doesn’t the preview update?",
       a: "Social cache. After edits — debugger / preview cache clear for the URL. Confirm you serve current HTML without old CDN cache.",
     },
     {
-      q: "What Open Graph image size should you use?",
+      q: "What image size should you use?",
       a: "Roughly ~1200×630 px, absolute https URL, file reachable without auth. Don’t crop important text at the edges.",
     },
     {
-      q: "Do you need Open Graph on every page?",
+      q: "Do you need OG on every page?",
       a: "On pages people share: articles, products, landings. On utility pages — optional.",
     },
     {
-      q: "Does Open Graph replace title and description?",
+      q: "Does OG replace title and description?",
       a: "No. Title/description are for search and the tab; OG is for share previews. They can share meaning, but they’re different layers.",
     },
   ],
@@ -57,7 +57,7 @@ export const openGraphEn: BlogPost = {
       level: 2,
       paras: [
         "When someone pastes a URL into a post or message, the platform builds a card. OG says which image to take, which title and text to show, and which canonical URL is the object.",
-        "The protocol started in the Facebook* ecosystem, but other networks and services adopted the tags. For business it’s control of the first impression of a site link — not “traffic from thin air”.",
+        "The protocol started in the Facebook* ecosystem, but other networks and services adopted the tags. For business it’s control of the first impression of a site link — not “traffic from thin air.”",
       ],
       lists: [
         {
@@ -66,7 +66,7 @@ export const openGraphEn: BlogPost = {
             "preview title and description",
             "image",
             "object URL",
-            "type (article, product, website).",
+            "type (article, product, website)",
           ],
         },
       ],
@@ -87,7 +87,7 @@ export const openGraphEn: BlogPost = {
             "`og:image` — preview",
             "`og:url` — page canon",
             "`og:type` — object type",
-            "`og:locale` — e.g. `en_US`.",
+            "`og:locale` — e.g. `en_US`",
           ],
         },
       ],
@@ -116,7 +116,7 @@ export const openGraphEn: BlogPost = {
             "opens via a direct link",
             "https without mixed content",
             "logo/face not cropped at edges",
-            "one current version at the URL (no CDN surprises).",
+            "one current version at the URL (no CDN surprises)",
           ],
         },
       ],
@@ -136,7 +136,7 @@ export const openGraphEn: BlogPost = {
             "one sensible set per URL",
             "`og:url` = canon",
             "preview matches the intent",
-            "mobile share stays readable.",
+            "mobile share stays readable",
           ],
         },
       ],
@@ -155,14 +155,14 @@ export const openGraphEn: BlogPost = {
             "text cut mid-word",
             "watermark across the frame",
             "clickbait that doesn’t match the page",
-            "stale preview from cache.",
+            "stale preview from cache",
           ],
         },
       ],
       notes: [
         {
-          title: "Common mistake",
           kind: "tip",
+          title: "Common mistake",
           text: "Fix OG and expect instant updates everywhere. Clear preview cache first, then recheck.",
         },
       ],
@@ -181,7 +181,7 @@ export const openGraphEn: BlogPost = {
             "OG on home and 5 key URLs",
             "preview check",
             "rule for new articles",
-            "align with canon and UTM.",
+            "align with canon and UTM",
           ],
         },
       ],

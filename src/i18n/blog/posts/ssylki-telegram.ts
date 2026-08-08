@@ -11,7 +11,7 @@ export const ssylkiTelegramEn: BlogPost = {
     "How to create and share links to a Telegram profile, channel, and chat: t.me, usernames, invite links, in-message hyperlinks, and opening URLs in the app.",
   lead: [
     "In Telegram, almost everything is a link: a public `@username`, a `t.me/…` URL, or a one-time or permanent invite to a private space. Get the format wrong and people never reach the channel or support chat.",
-    "We cover links to a profile, channel, and chat, how invites differ from public URLs, and how to hyperlink text in a message. For a messenger overview and launching a channel, see the related posts.",
+    "Below: links to a profile, channel, and chat, how invites differ from public URLs, and how to hyperlink text in a message. For a messenger overview and launching a channel, see the related posts.",
   ],
   faq: [
     {
@@ -59,10 +59,10 @@ export const ssylkiTelegramEn: BlogPost = {
         {
           intro: "Checklist:",
           items: [
-            "username matches on the site and business card;",
-            "link opens on phone and desktop;",
-            "no typos in print or QR;",
-            "URL case usually doesn’t matter, but copy it from the client.",
+            "username matches on the site and business card",
+            "link opens on phone and desktop",
+            "no typos in print or QR",
+            "URL case usually doesn’t matter, but copy it from the client",
           ],
         },
       ],
@@ -84,9 +84,9 @@ export const ssylkiTelegramEn: BlogPost = {
         {
           intro: "Practical tips:",
           items: [
-            "in the site footer — t.me to the channel or bot;",
-            "in email signatures — a short https link;",
-            "don’t publish a personal number more than you need to.",
+            "in the site footer — t.me to the channel or bot",
+            "in email signatures — a short https link",
+            "don’t publish a personal number more than you need to",
           ],
         },
       ],
@@ -102,10 +102,10 @@ export const ssylkiTelegramEn: BlogPost = {
         {
           intro: "Before you announce:",
           items: [
-            "description and avatar ready;",
-            "3–5 posts ready;",
-            "link points to that exact channel;",
-            "UTM on the site if you track clicks.",
+            "description and avatar ready",
+            "3–5 posts ready",
+            "link points to that exact channel",
+            "UTM on the site if you track clicks",
           ],
         },
       ],
@@ -127,9 +127,9 @@ export const ssylkiTelegramEn: BlogPost = {
         {
           intro: "Label creatives clearly:",
           items: [
-            "“channel” vs “support chat”;",
-            "rules in the pinned message;",
-            "anti-spam bot if needed.",
+            "“channel” vs “support chat”",
+            "rules in the pinned message",
+            "anti-spam bot if needed",
           ],
         },
       ],
@@ -145,9 +145,9 @@ export const ssylkiTelegramEn: BlogPost = {
         {
           intro: "Message checklist:",
           items: [
-            "one main link;",
-            "link preview looks right (site Open Graph);",
-            "a mobile tap hits the target.",
+            "one main link",
+            "link preview looks right (site Open Graph)",
+            "a mobile tap hits the target",
           ],
         },
       ],
@@ -169,10 +169,10 @@ export const ssylkiTelegramEn: BlogPost = {
         {
           intro: "Before a campaign:",
           items: [
-            "click the link on iOS and Android;",
-            "check invite limits;",
-            "lock the URL in a shared table;",
-            "don’t copy from lookalike fake channels.",
+            "click the link on iOS and Android",
+            "check invite limits",
+            "lock the URL in a shared table",
+            "don’t copy from lookalike fake channels",
           ],
         },
       ],

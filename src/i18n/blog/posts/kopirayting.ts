@@ -11,8 +11,12 @@ export const kopiraytingEn: BlogPost = {
     "What copywriting is: informational and selling texts, LSI, landings, SMM, writer requirements, pay, and tips for clients.",
   lead: [
     "Copywriting is writing for a job: explain, warm up, drive a lead, or help search find the page. It’s not “fill characters” — it’s solving a business goal with words.",
-    "Directions, formats, what to check in a contractor, and how to brief are below. Market rates move — these are guides, not an agency price list.",
+    "Below: directions, formats, what to check in a contractor, and how to brief. Market rates move — these are guides, not an agency price list.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "How is copywriting different from rewriting?",
@@ -43,7 +47,6 @@ export const kopiraytingEn: BlogPost = {
         "Informational texts answer questions and build trust and expertise. Commercial ones lead to an action: lead, purchase, call.",
         "In practice a site needs both: articles and help feed demand; cards and landings convert.",
       ],
-      lists: [],
     },
     {
       title: "How people enter the craft",
@@ -55,11 +58,11 @@ export const kopiraytingEn: BlogPost = {
         {
           intro: "Core skills:",
           items: [
-            "tell info, sales, and entertainment apart;",
-            "literacy and proofreading;",
-            "uniqueness and interest in the topic;",
-            "finding sources and checking facts;",
-            "formatting and deadlines.",
+            "tell info, sales, and entertainment apart",
+            "literacy and proofreading",
+            "uniqueness and interest in the topic",
+            "finding sources and checking facts",
+            "formatting and deadlines",
           ],
         },
       ],
@@ -74,23 +77,24 @@ export const kopiraytingEn: BlogPost = {
         {
           intro: "Common formats:",
           items: [
-            "site section copy (About, services);",
-            "LSI / SEO articles for a query cluster;",
-            "selling copy and offers;",
-            "news, announcements, press releases;",
-            "ad slogans and promo;",
-            "SMM posts and Stories scripts;",
-            "print and offline promo;",
-            "landings (blocks built for conversion);",
-            "e-commerce product and category cards;",
-            "reviews and cases — only honest, no fabrication.",
+            "site section copy (About, services)",
+            "LSI / SEO articles for a query cluster",
+            "selling copy and offers",
+            "news, announcements, press releases",
+            "ad slogans and promo",
+            "SMM posts and Stories scripts",
+            "print and offline promo",
+            "landings (blocks built for conversion)",
+            "e-commerce product and category cards",
+            "reviews and cases — only honest, no fabrication",
           ],
         },
       ],
       notes: [
         {
-          title: "LSI (latent semantic indexing) in brief",
+          title: "LSI in brief",
           text: "Search engines look not only at “keyword density,” but meaning, related terms, structure. Write for humans within the topic — not a query list.",
+          kind: "tip",
         },
       ],
       links: [
@@ -109,16 +113,16 @@ export const kopiraytingEn: BlogPost = {
       level: 2,
       paras: [
         "People pay by volume, by project, by result (rarer), or on an editorial retainer. Cheap copy with no brief almost always costs more in rewrites.",
-        "Search on marketplaces, via referrals, in agencies, and with in-house editors. For the client, a niche portfolio beats a “star rating.”",
+        "Search on marketplaces, via referrals, in agencies, and with in-house editors. For the client, a niche portfolio beats a star rating.",
       ],
       lists: [
         {
           intro: "What to check in a writer:",
           items: [
-            "examples of similar jobs;",
-            "how they clarify the brief;",
-            "willingness to revise within the brief;",
-            "deadlines and communication.",
+            "examples of similar jobs",
+            "how they clarify the brief",
+            "willingness to revise within the brief",
+            "deadlines and communication",
           ],
         },
       ],
@@ -133,11 +137,11 @@ export const kopiraytingEn: BlogPost = {
         {
           intro: "Acceptance criteria:",
           items: [
-            "literacy;",
-            "structure (headings, paragraphs, lists);",
-            "facts and offer without filler;",
-            "keywords used appropriately, no stuffing;",
-            "deadline and revisions per brief.",
+            "literacy",
+            "structure (headings, paragraphs, lists)",
+            "facts and offer without filler",
+            "keywords used appropriately, no stuffing",
+            "deadline and revisions per brief",
           ],
         },
       ],
@@ -152,10 +156,10 @@ export const kopiraytingEn: BlogPost = {
         {
           intro: "Minimum in the brief:",
           items: [
-            "clear parameters and text goal;",
-            "portfolio before paying a large block;",
-            "agreed terms and revision count;",
-            "feedback in process, not “rewrite everything on the last day.”",
+            "clear parameters and text goal",
+            "portfolio before paying a large block",
+            "agreed terms and revision count",
+            "feedback in process, not “rewrite everything on the last day”",
           ],
         },
       ],
@@ -163,6 +167,7 @@ export const kopiraytingEn: BlogPost = {
         {
           title: "Common mistake",
           text: "Asking for an “SEO text of 10,000 characters with 20 keywords” with no cluster and page structure. Meaning and landing logic first — length second.",
+          kind: "tip",
         },
       ],
     },

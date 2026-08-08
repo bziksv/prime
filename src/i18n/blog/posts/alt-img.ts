@@ -11,39 +11,39 @@ export const altImgEn: BlogPost = {
     "How alt differs from title on an img tag, why alt matters for accessibility and image search, when title is almost unnecessary, and which mistakes hurt SEO and UX.",
   lead: [
     "`alt` describes the image if the file fails to load or a screen reader reads it. `title` on `img` is a hover tip in some browsers; it barely affects SEO and accessibility.",
-    "Write alt for meaning, use empty `alt=\"\"` on pure decoration, and skip keyword dumps like “image1” or “buy cheap.” `title` is optional at best. Clickable banners are covered in the image-as-link article.",
+    "Below: how to write alt, when to use empty `alt=\"\"`, whether you need title, and what to avoid (keyword stuffing, “image1”). Clickable banners are in the image-as-link article.",
   ],
   faq: [
     {
-      q: "Is the alt attribute required?",
+      q: "Is alt required?",
       a: "For informative images — yes, meaningful text. For purely decorative ones — empty `alt=\"\"` so the screen reader doesn’t read junk.",
     },
     {
-      q: "Is an img title attribute required for SEO?",
+      q: "Is img title required for SEO?",
       a: "No. Don’t count on title as a ranking factor. Focus on alt, page context, and file quality.",
     },
     {
-      q: "How many characters should alt text have?",
+      q: "How many characters should alt have?",
       a: "As many as needed to describe meaning briefly. A short phrase often suffices; a keyword dump doesn’t.",
     },
     {
-      q: "Do keywords in alt help SEO?",
+      q: "Do keywords in alt help?",
       a: "Moderate and on-point — fine. Stuffing “buy X cheap photo” into every alt hurts accessibility.",
     },
     {
-      q: "Is alt the same as a caption under the image?",
+      q: "Is alt the same as a caption?",
       a: "Not necessarily. A caption is visible to everyone; alt is alternative text. You can share meaning, but they needn’t match word for word.",
     },
     {
-      q: "Do button icons need alt text?",
+      q: "Do button icons need alt?",
       a: "If visible button text is next to them — often `alt=\"\"`. If the icon is the only meaning — alt should name the action.",
     },
     {
-      q: "Can you use the filename instead of alt?",
+      q: "Can I use the filename instead of alt?",
       a: "No. The filename helps organization, but it doesn’t replace alt.",
     },
     {
-      q: "Should alt be in English or another language?",
+      q: "Russian or English alt?",
       a: "In the language of the page and audience.",
     },
   ],
@@ -52,17 +52,17 @@ export const altImgEn: BlogPost = {
       title: "Why img attributes exist",
       level: 2,
       paras: [
-        "Bots and assistive tech don’t “see” pixels like a person. `alt` gives a text equivalent. For people, alt appears if the image is broken; for SEO — a signal about the image and page topic next to content.",
-        "`title` was historically treated as “another keyword field.” Today it’s a weak optional layer; on touch devices there’s often no hover.",
+        "Bots and assistive tech don’t see pixels like a person. `alt` gives a text equivalent. For people, alt appears if the image is broken; for SEO — a signal about the image and page topic next to content.",
+        "`title` was historically treated as another keyword field. Today it’s a weak optional layer; on touch devices there’s often no hover.",
       ],
       lists: [
         {
           intro: "Roles:",
           items: [
-            "`src` — the file;",
-            "`alt` — meaning / empty for decoration;",
-            "`width`/`height` — layout space;",
-            "`title` — optional tip, not an alt replacement.",
+            "`src` — the file",
+            "`alt` — meaning / empty for decoration",
+            "`width`/`height` — layout space",
+            "`title` — optional tip, not an alt replacement",
           ],
         },
       ],
@@ -78,10 +78,10 @@ export const altImgEn: BlogPost = {
         {
           intro: "Examples:",
           items: [
-            "bad: `photo`, `img_4521`, `buy fridge cheap sale`;",
-            "better: `White side-by-side fridge, open shelves`;",
-            "for a decorative line: `alt=\"\"`;",
-            "for a search icon button: `alt=\"Search\"` or visible text + empty alt.",
+            "bad: `photo`, `img_4521`, `buy fridge cheap sale`",
+            "better: `White side-by-side fridge, open shelves`",
+            "for a decorative line: `alt=\"\"`",
+            "for a search icon button: `alt=\"Search\"` or visible text + empty alt",
           ],
         },
       ],
@@ -97,17 +97,17 @@ export const altImgEn: BlogPost = {
       title: "Alt and SEO: realistically",
       level: 2,
       paras: [
-        "Alt helps convey the image topic and sometimes appear in image search. It’s not “faster indexing for the whole site” and not a TOP guarantee — prep takes weeks; competitive TOP is typically planned over 2–6 months. More important: a relevant page, a light file, clear context around it.",
+        "Alt helps convey the image topic and sometimes appear in image search. It’s not faster indexing for the whole site and not a page-one guarantee. More important: a relevant page, a light file, clear context around it.",
         "Don’t duplicate the page Title into every alt. Don’t hide the main offer only in an image without HTML text.",
       ],
       lists: [
         {
           intro: "Stronger than alt:",
           items: [
-            "quality page content;",
-            "compression and modern formats;",
-            "meaningful captions;",
-            "internal links in text.",
+            "quality page content",
+            "compression and modern formats",
+            "meaningful captions",
+            "internal links in text",
           ],
         },
       ],
@@ -133,9 +133,9 @@ export const altImgEn: BlogPost = {
         {
           intro: "When title fits:",
           items: [
-            "extra clarification without critical meaning;",
-            "not as the only description source;",
-            "not instead of accessible link text.",
+            "extra clarification without critical meaning",
+            "not as the only description source",
+            "not instead of accessible link text",
           ],
         },
       ],
@@ -151,10 +151,10 @@ export const altImgEn: BlogPost = {
         {
           intro: "Checklist:",
           items: [
-            "informative — meaningful alt;",
-            "decor — empty alt;",
-            "image link — alt = action/destination;",
-            "no keyword bulk.",
+            "informative — meaningful alt",
+            "decor — empty alt",
+            "image link — alt = action/destination",
+            "no keyword bulk",
           ],
         },
       ],
@@ -176,10 +176,10 @@ export const altImgEn: BlogPost = {
         {
           intro: "Editorial playbook:",
           items: [
-            "write alt on upload, not “later”;",
-            "ban `image`, `photo`, `banner`;",
-            "review commercial galleries;",
-            "don’t use title as a keyword dump.",
+            "write alt on upload, not “later”",
+            "ban `image`, `photo`, `banner`",
+            "review commercial galleries",
+            "don’t use title as a keyword dump",
           ],
         },
       ],

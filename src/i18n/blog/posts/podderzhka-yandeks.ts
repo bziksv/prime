@@ -8,19 +8,19 @@ export const podderzhkaYandeksEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/podderzhka-yandeks/cover-en.webp",
   excerpt:
-    "When to write Yandex support, how to file Mail and Webmaster tickets, what to attach, and which jobs to fix yourself first — without waiting for a “TOP button.”",
+    "When to write Yandex support, how to file Mail and Webmaster tickets, what to attach, and which jobs to fix yourself first — without waiting for a ranking button.",
   lead: [
-    "Yandex support helps with ecosystem products: Mail, Webmaster, Direct, Metrica, and more. It is not a team that manually ranks you in TOP: on ranking they usually give diagnostics and policy links — not a manual boost.",
-    "We cover where to go (Help → form), what to write, typical webmaster cases (index, mirrors, migration), and how not to waste a ticket. UIs and phone numbers change — use the official “Write” buttons and chats in Yandex Help when you contact them.",
+    "Yandex support helps with ecosystem products: Mail, Webmaster, Direct, Metrica, and more. It is not a team that manually ranks you on page one: on ranking they usually give diagnostics and policy links — not a manual boost.",
+    "Below: where to go (Help → form), what to write, typical webmaster cases (index, mirrors, migration), and how not to waste a ticket. UIs and phone numbers change — use the official “Write” buttons and chats in Yandex Help when you contact them.",
   ],
   faq: [
     {
-      q: "Will support put the site in TOP?",
-      a: "No. They fix product issues, explain Webmaster statuses, and help with migration or security. Rankings come from site quality and time; planned TOP for the core is often 2–6 months after work starts.",
+      q: "Will support put the site on page one?",
+      a: "No. They fix product issues, explain Webmaster statuses, and help with migration or security. Rankings come from site quality and time; growing a query core is often planned over 2–6 months after work starts.",
     },
     {
       q: "Who is Platon Shchukin in Yandex support?",
-      a: "A historical “face” of Yandex support and help replies. Today it’s more often a chatbot and forms; same idea — gather data and route to a human or an article.",
+      a: "A historical “face” of Yandex support and help replies. Today it is more often a chatbot and forms; same idea — gather data and route to a human or an article.",
     },
     {
       q: "Should I search Help first or open a ticket right away?",
@@ -28,7 +28,7 @@ export const podderzhkaYandeksEn: BlogPost = {
     },
     {
       q: "Which phone number should I call?",
-      a: "Numbers and hours change. Take the current contact only from Help for that service (Webmaster, Mail, Direct). Don’t copy phones from old articles.",
+      a: "Numbers and hours change. Take the current contact only from Help for that service (Webmaster, Mail, Direct). Do not copy phones from old articles.",
     },
     {
       q: "What should I attach to a ticket?",
@@ -36,7 +36,7 @@ export const podderzhkaYandeksEn: BlogPost = {
     },
     {
       q: "Should I write about filters and “competitors colluded”?",
-      a: "State facts: traffic drop from a date, Webmaster messages, what you changed on the site. Emotional theories without data don’t speed the reply.",
+      a: "State facts: traffic drop from a date, Webmaster messages, what you changed on the site. Emotional theories without data do not speed the reply.",
     },
     {
       q: "Is Webmaster support separate?",
@@ -44,7 +44,7 @@ export const podderzhkaYandeksEn: BlogPost = {
     },
     {
       q: "How long should I wait for a reply?",
-      a: "Depends on queue and product. Don’t duplicate one case with a stack of emails — that slows triage.",
+      a: "Depends on queue and product. Do not duplicate one case with a stack of emails — that slows triage.",
     },
   ],
   sections: [
@@ -52,7 +52,7 @@ export const podderzhkaYandeksEn: BlogPost = {
       title: "When to write vs fix it yourself",
       level: 2,
       paras: [
-        "A ticket fits a product bug, unclear account status, security, domain migration, or tool errors. “Not in TOP-10” with no technical signals — audit and content first, not search support.",
+        "A ticket fits a product bug, unclear account status, security, domain migration, or tool errors. “Not on page one” with no technical signals — audit and content first, not search support.",
         "Before writing: robots/sitemap, speed, status codes, Webmaster messages, Search Console if needed. If after self-check the picture is clear and you need a status interpretation — then contact them.",
       ],
       lists: [
@@ -63,7 +63,7 @@ export const podderzhkaYandeksEn: BlogPost = {
             "robots.txt and sitemap",
             "Webmaster reports (index, security)",
             "recent releases and CMS changes",
-            "Yandex Help for your error.",
+            "Yandex Help for your error",
           ],
         },
       ],
@@ -93,7 +93,7 @@ export const podderzhkaYandeksEn: BlogPost = {
             "since when",
             "expected vs actual behavior",
             "what you already checked",
-            "links and attachments.",
+            "links and attachments",
           ],
         },
       ],
@@ -110,7 +110,7 @@ export const podderzhkaYandeksEn: BlogPost = {
       level: 2,
       paras: [
         "Login, mail, spam, and filter issues — via Mail Help and the feedback form. Before a ticket, check password/2FA, another device, Spam folder, and blockers.",
-        "Don’t send passwords or email codes in open replies. Average reply time depends on load — check current Help, not 2020 articles.",
+        "Do not send passwords or email codes in open replies. Average reply time depends on load — check current Help, not 2020 articles.",
       ],
       lists: [
         {
@@ -119,7 +119,7 @@ export const podderzhkaYandeksEn: BlogPost = {
             "reset or verify access",
             "another device or network",
             "error screenshot",
-            "sample message (no secrets).",
+            "sample message (no secrets)",
           ],
         },
       ],
@@ -139,7 +139,7 @@ export const podderzhkaYandeksEn: BlogPost = {
             "hack/malware messages",
             "gluing www/non-www mirrors",
             "domain migration",
-            "crawl tool errors.",
+            "crawl tool errors",
           ],
         },
       ],
@@ -171,7 +171,7 @@ export const podderzhkaYandeksEn: BlogPost = {
       level: 2,
       paras: [
         "Some products have phone or chat. Blog numbers go stale. Open service Help → support contacts. For Webmaster a written form with attachments is often better.",
-        "Prep talking points before a call: URL, date, what you tried. Don’t discuss passwords aloud in public; don’t demand “put us in TOP” — that’s outside support’s role.",
+        "Prep talking points before a call: URL, date, what you tried. Do not discuss passwords aloud in public; do not demand “put us on page one” — that is outside support’s role.",
       ],
       lists: [
         {
@@ -180,7 +180,7 @@ export const podderzhkaYandeksEn: BlogPost = {
             "one ticket — one problem",
             "no spam of repeat emails",
             "polite and on point",
-            "full description, no hiding your own site edits.",
+            "full description, no hiding your own site edits",
           ],
         },
       ],
@@ -189,8 +189,8 @@ export const podderzhkaYandeksEn: BlogPost = {
       title: "What support won’t replace",
       level: 2,
       paras: [
-        "Page quality, semantics, speed, commercial factors, and link profile won’t be “fixed by a letter.” After the reply, implement recommendations and watch Webmaster.",
-        "Expecting manual ranking is a common trap. Site prep takes weeks; visibility for the core builds month to month, with TOP often planned over 2–6 months after work starts.",
+        "Page quality, semantics, speed, commercial factors, and link profile will not be “fixed by a letter.” After the reply, implement recommendations and watch Webmaster.",
+        "Expecting manual ranking is a common trap. Site prep takes weeks; visibility for the core builds month to month.",
       ],
       lists: [
         {
@@ -199,7 +199,7 @@ export const podderzhkaYandeksEn: BlogPost = {
             "do the steps from the email",
             "log the edit date",
             "recheck reports in a few days",
-            "follow up once if needed.",
+            "follow up once if needed",
           ],
         },
       ],
@@ -217,7 +217,7 @@ export const podderzhkaYandeksEn: BlogPost = {
         {
           title: "Timelines",
           kind: "tip",
-          text: "A support reply ≠ hitting TOP. Prep is separate from ranking; TOP for the core is often a 2–6 month horizon after work on the site.",
+          text: "A support reply is not page one. Prep is separate from ranking; growing a query core is often a 2–6 month horizon after work on the site.",
         },
       ],
     },

@@ -11,7 +11,7 @@ export const podozritelnyyTrafikGoogleEn: BlogPost = {
     "Captcha and Google’s unusual-traffic warning from your network: typical causes and a calm step-by-step check — without panic.",
   lead: [
     "A message like “we have detected unusual traffic from your network” and a captcha before search means Google temporarily doesn’t trust requests from your IP or network.",
-    "It’s more often about network security and software than a “site penalty.” Start with a calm check of devices and the network, then look at where the signal usually comes from.",
+    "It’s more often about network security and software than a “site penalty.” Below: what to do first and where the signal usually comes from.",
   ],
   faq: [
     {
@@ -49,12 +49,13 @@ export const podozritelnyyTrafikGoogleEn: BlogPost = {
             "scan PCs and phones with up-to-date antivirus",
             "reboot the router/modem (many ISPs rotate IP)",
             "complete the captcha and check whether the block lifted",
-            "in an office — tell the system administrator.",
+            "in an office — tell the system administrator",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Note",
           text: "Captcha on unfamiliar sites plus odd SMS is a reason to urgently check the device for malware — not only to “Google the error.”",
         },
@@ -86,7 +87,7 @@ export const podozritelnyyTrafikGoogleEn: BlogPost = {
             "shared Wi‑Fi / office IP: a neighbor’s infected PC hurts everyone",
             "viruses and stealers that send requests themselves",
             "pirated OS/cracks with “activators” phoning home",
-            "aggressive scrapers and bots without anti-abuse limits.",
+            "aggressive scrapers and bots without anti-abuse limits",
           ],
         },
       ],
@@ -103,12 +104,13 @@ export const podozritelnyyTrafikGoogleEn: BlogPost = {
             "clear cookies/cache, change passwords for important accounts",
             "check router settings; reset if needed",
             "use official OS and software",
-            "for data collection — only tools with limits and official APIs, no hammering the SERP.",
+            "for data collection — only tools with limits and official APIs, no hammering the SERP",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "If it doesn’t help",
           text: "Write the ISP or switch networks (mobile data as a check). In parallel make sure the site server isn’t hacked and isn’t sending spam — that’s a different track; see technical SEO audit.",
         },

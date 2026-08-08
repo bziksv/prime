@@ -11,7 +11,7 @@ export const sloganEn: BlogPost = {
     "Brand and ad slogans: why they matter, how they differ from a USP, what to avoid, and how to craft a short line without “two-click” generators and empty promises.",
   lead: [
     "A slogan is a short line next to the name and logo: mood, promise, or difference that’s easy to repeat. It doesn’t replace the offer and isn’t required for every company.",
-    "We cover when a slogan helps, types by meaning and form, what to avoid, and a simple way to build one. A USP is about “why you”; a slogan is more about memory and tone. Generators give drafts, not strategy.",
+    "Below: when a slogan helps, types by meaning and form, what to avoid, and a simple way to build one. A USP is about “why you”; a slogan is more about memory and tone. Generators give drafts, not strategy.",
   ],
   faq: [
     {
@@ -55,8 +55,8 @@ export const sloganEn: BlogPost = {
         {
           intro: "By meaning people often split:",
           items: [
-            "image — character and values;",
-            "product — closer to product or campaign benefit.",
+            "image — character and values",
+            "product — closer to product or campaign benefit",
           ],
         },
       ],
@@ -80,7 +80,6 @@ export const sloganEn: BlogPost = {
         "Offensive or toxic jokes “for virality.”",
         "Bad rhymes and puns that block the meaning.",
       ],
-      lists: [],
     },
     {
       title: "How to build one",
@@ -93,16 +92,17 @@ export const sloganEn: BlogPost = {
         {
           intro: "Criteria for a strong line:",
           items: [
-            "clear to the audience on first read;",
-            "memorable and speakable;",
-            "doesn’t lie or inflate;",
-            "sets you apart or sets the mood;",
-            "outlives one promo (if it’s a brand slogan).",
+            "clear to the audience on first read",
+            "memorable and speakable",
+            "doesn’t lie or inflate",
+            "sets you apart or sets the mood",
+            "outlives one promo (if it’s a brand slogan)",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Campaign vs brand",
           text: "A campaign slogan can change more often. A corporate motto changes rarely — or recognition blurs.",
         },
@@ -116,7 +116,6 @@ export const sloganEn: BlogPost = {
         "A slogan ≠ a substitute for USP and offer on the site.",
         "A generator is a draft, not the final.",
       ],
-      lists: [],
     },
   ],
   closing: [

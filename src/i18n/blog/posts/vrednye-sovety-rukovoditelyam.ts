@@ -11,7 +11,7 @@ export const vrednyeSovetyRukovoditelyamEn: BlogPost = {
     "An ironic look at toxic leadership in digital: always being right, status flexing, empty meetings, manipulation, and neglecting your best people — plus what to do instead.",
   lead: [
     "This piece is written as bad advice on purpose: if you want to lose respect and your strongest people fast, follow it. If you want to keep a team, treat it as an antipattern list and do the opposite.",
-    "Managers get these wrong often — including in digital agencies — from shutting down feedback to undervaluing experienced contributors. The humor is sharp on purpose because the damage is real.",
+    "Below: typical manager traps (including in a digital agency) — from intolerance of critique to undervaluing experienced people. The humor is sharp on purpose because the damage is real.",
   ],
   faq: [
     {

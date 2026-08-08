@@ -11,7 +11,7 @@ export const navigatsiyaSaytaEn: BlogPost = {
     "What usable navigation means: menus, breadcrumbs, footer, catalog filters. How to keep users from getting lost — and how navigation ties to SEO and leads.",
   lead: [
     "Navigation is the system of moves across the site: menu, links, breadcrumbs, search, filters. If a person finds a service or product on autopilot, navigation works. If they wander and leave — you lose UX and part of the SEO signal.",
-    "Below: what “usable” looks like in practice, the main navigation types, and how a clearer path lifts conversion. URL structure and section meaning for SEO are covered in the SEO structure piece.",
+    "Below: requirements for usable navigation, the main types, and the conversion link. URL structure and section meaning for SEO are in the SEO structure piece; here the focus is user orientation.",
   ],
   faq: [
     {
@@ -63,7 +63,7 @@ export const navigatsiyaSaytaEn: BlogPost = {
             "items read without explanations",
             "the current section is visually clear",
             "search and contacts are in view",
-            "no dead ends or broken links in the menu.",
+            "no dead ends or broken links in the menu",
           ],
         },
       ],
@@ -78,7 +78,7 @@ export const navigatsiyaSaytaEn: BlogPost = {
       title: "Main types of navigation",
       level: 2,
       paras: [
-        "Horizontal/vertical menu, mega-menu for large catalogs, breadcrumbs, footer, blog side categories, tags, on-site search, pagination and filters, “back to top”, product-card tabs.",
+        "Horizontal/vertical menu, mega-menu for large catalogs, breadcrumbs, footer, blog side categories, tags, on-site search, pagination and filters, scroll-up controls, product-card tabs.",
         "You don’t need everything at once. Pick a set for the site type: services — clear menu + CTA; store — catalog, search, filters, cart; media — categories and search.",
       ],
       lists: [
@@ -89,7 +89,7 @@ export const navigatsiyaSaytaEn: BlogPost = {
             "breadcrumbs (catalog)",
             "search",
             "footer with contacts",
-            "persistent lead/phone link.",
+            "persistent lead/phone link",
           ],
         },
       ],
@@ -114,7 +114,7 @@ export const navigatsiyaSaytaEn: BlogPost = {
             "an “More” item with half the site",
             "identical names for different sections",
             "menu as images only, no text",
-            "links to empty “coming soon” pages.",
+            "links to empty “coming soon” pages",
           ],
         },
       ],
@@ -133,7 +133,7 @@ export const navigatsiyaSaytaEn: BlogPost = {
             "which filters become landings",
             "what’s in noindex / canonical",
             "is there a “clear filters” control",
-            "does the mobile menu break with open facets.",
+            "does the mobile menu break with open facets",
           ],
         },
       ],
@@ -153,7 +153,7 @@ export const navigatsiyaSaytaEn: BlogPost = {
       level: 2,
       paras: [
         "The shorter the path to a lead or purchase, the fewer losses. Navigation doesn’t replace the offer, but it removes friction: “where’s pricing,” “how to contact,” “do you deliver to my city.”",
-        "Watch session replay and click maps: if people hunt in the footer for what’s missing in the header — move the important stuff up.",
+        "Watch session replay and click maps: if people hunt in the footer for what’s missing in the header — move the important stuff higher on the page.",
       ],
       lists: [
         {
@@ -162,7 +162,7 @@ export const navigatsiyaSaytaEn: BlogPost = {
             "clickable phone in the header",
             "lead button on key screens",
             "breadcrumbs and “back to catalog”",
-            "don’t cover the menu with an aggressive chat.",
+            "don’t cover the menu with an aggressive chat",
           ],
         },
       ],
@@ -192,7 +192,7 @@ export const navigatsiyaSaytaEn: BlogPost = {
             "logo goes home",
             "mobile menu closes and doesn’t break scroll",
             "no duplicate items",
-            "contacts found in ≤2 clicks.",
+            "contacts found in ≤2 clicks",
           ],
         },
       ],

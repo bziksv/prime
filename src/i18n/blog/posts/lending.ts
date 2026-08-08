@@ -11,7 +11,7 @@ export const lendingEn: BlogPost = {
     "What a landing page is, why teams build one, which blocks to assemble, and which mistakes kill conversion — separate from writing the offer copy.",
   lead: [
     "A landing page is a page you send traffic to for one target action: lead, purchase, call, signup. It can be a one-pager or a target URL inside a larger site.",
-    "Why a landing exists, section logic, and typical failures are below. How to write offer copy is in the landing-copy article.",
+    "Below: why a landing exists, section logic, and typical failures. How to write offer copy is in the landing-copy article.",
   ],
   faq: [
     {
@@ -50,10 +50,10 @@ export const lendingEn: BlogPost = {
         {
           intro: "Typical goals:",
           items: [
-            "lead / call;",
-            "purchase;",
-            "signup / demo;",
-            "download a resource.",
+            "lead / call",
+            "purchase",
+            "signup / demo",
+            "download a resource",
           ],
         },
       ],
@@ -68,11 +68,11 @@ export const lendingEn: BlogPost = {
         {
           intro: "What to check in the layout:",
           items: [
-            "readable on mobile;",
-            "button visible without “where do I tap”;",
-            "short form;",
-            "no extra nav that sends people “to the blog”;",
-            "load speed.",
+            "readable on mobile",
+            "button visible without “where do I tap”",
+            "short form",
+            "no extra nav that sends people “to the blog”",
+            "load speed",
           ],
         },
       ],
@@ -93,11 +93,11 @@ export const lendingEn: BlogPost = {
         {
           intro: "Common mistakes:",
           items: [
-            "offer unreadable on a phone screen;",
-            "no proof (cases, numbers, reviews);",
-            "a 15-field form;",
-            "keyword stuffing instead of meaning;",
-            "slow load from heavy banners.",
+            "offer unreadable on a phone screen",
+            "no proof (cases, numbers, reviews)",
+            "a 15-field form",
+            "keyword stuffing instead of meaning",
+            "slow load from heavy banners",
           ],
         },
       ],
@@ -119,10 +119,10 @@ export const lendingEn: BlogPost = {
         {
           intro: "Mini brief for a landing:",
           items: [
-            "traffic source and visitor expectation;",
-            "one main conversion;",
-            "audience and their job;",
-            "real advantages and limits of the offer.",
+            "traffic source and visitor expectation",
+            "one main conversion",
+            "audience and their job",
+            "real advantages and limits of the offer",
           ],
         },
       ],
@@ -138,10 +138,10 @@ export const lendingEn: BlogPost = {
         {
           intro: "On the first screen check:",
           items: [
-            "is it clear what’s offered;",
-            "is it clear who it’s for;",
-            "does the CTA match the next step;",
-            "is the content readable on a phone.",
+            "is it clear what’s offered",
+            "is it clear who it’s for",
+            "does the CTA match the next step",
+            "is the content readable on a phone",
           ],
         },
       ],
@@ -157,10 +157,10 @@ export const lendingEn: BlogPost = {
         {
           intro: "Fitting proof:",
           items: [
-            "a case with task, process, and result;",
-            "real reviews with client permission;",
-            "a clear work scheme and timelines;",
-            "certificates and documents if they affect the choice.",
+            "a case with task, process, and result",
+            "real reviews with client permission",
+            "a clear work scheme and timelines",
+            "certificates and documents if they affect the choice",
           ],
         },
       ],

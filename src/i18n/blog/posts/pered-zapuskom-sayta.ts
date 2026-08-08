@@ -11,7 +11,7 @@ export const peredZapuskomSaytaEn: BlogPost = {
     "Status codes, speed, sitemap and robots, 404, mixed content, duplicates, Title/URL, mobile, analytics, images, internal links, and structured data — without worshipping AMP or one crawler brand.",
   lead: [
     "A perfect bug-free launch almost never happens. Pre-production’s job is to catch the critical: indexation, speed, mobile, and analytics — so you don’t open the site blind.",
-    "Before go-live, catch indexation, speed, mobile, and analytics — so you don’t open the site blind. Business elements (offer, contacts) live in a companion article. AMP from old guides isn’t required; pick any handy scanner and current standards.",
+    "Below: a technical checklist before release. Business elements (offer, contacts) live in a companion article. Specific crawlers and AMP from old guides aren’t required — pick any handy scanner and current standards.",
   ],
   faq: [
     {
@@ -27,7 +27,7 @@ export const peredZapuskomSaytaEn: BlogPost = {
       a: "Yes — a wrong Disallow on important sections. Check robots, meta robots, and X-Robots-Tag.",
     },
     {
-      q: "What about mixed content after HTTPS?",
+      q: "What about mixed content?",
       a: "After HTTPS all assets must load over https, or the browser cuts scripts/styles and UX suffers.",
     },
     {
@@ -55,7 +55,7 @@ export const peredZapuskomSaytaEn: BlogPost = {
             "status codes of key templates",
             "sitemap + robots aligned",
             "HTTPS without mixed content",
-            "no accidental sitewide noindex.",
+            "no accidental sitewide noindex",
           ],
         },
       ],
@@ -98,9 +98,9 @@ export const peredZapuskomSaytaEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Tools",
           text: "Old guides often name one commercial crawler. Any scanner + PageSpeed/Lighthouse + webmaster panels works — the point is a repeatable checklist.",
-          kind: "tip",
         },
       ],
     },

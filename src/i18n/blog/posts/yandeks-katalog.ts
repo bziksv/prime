@@ -8,10 +8,10 @@ export const yandeksKatalogEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/yandeks-katalog/cover-en.webp",
   excerpt:
-    "Why Yandex.Catalog closed, what happened to TIC and regions, and where local presence goes now: Webmaster, Business/Maps, and live directories.",
+    "Why Yandex.Catalog closed, what happened to TIC and regions, and where local presence lives now: Webmaster, Business/Maps, and live directories.",
   lead: [
-    "Yandex.Catalog (YACA) stopped accepting sites: applications closed on 20 December 2017, and the service faded from webmaster practice. For many it was a mandatory paid promotion step — with hopes for TIC and multi-region listings via the catalog.",
-    "Nostalgia for YACA matters less than the current setup: regions and site quality in Webmaster, listings in Yandex Business / Maps, and selective live directories. What closed, which myths linger, and what replaces the old registration ritual.",
+    "Yandex.Catalog (YACA) stopped accepting sites: submissions closed on 20 December 2017, and the service faded from webmaster practice. For many it was a “must-pay” promotion step — tied to hopes for TIC and multi-region presence “through the catalog.”",
+    "Nostalgia for YACA matters less than the current setup: regions and site quality in Webmaster, listings in Yandex Business / Maps, and selective live directories. Below: what closed, which myths linger, and what replaces the old registration ritual.",
   ],
   faq: [
     {
@@ -28,7 +28,7 @@ export const yandeksKatalogEn: BlogPost = {
     },
     {
       q: "Will paid registration be refunded?",
-      a: "Yandex’s stance was that payment sped up application processing, not forever placement. 2018 disputes don’t change today’s SEO practice.",
+      a: "Yandex’s stance was that payment sped up application processing, not forever placement. 2018 disputes do not change today’s SEO practice.",
     },
     {
       q: "Do site directories still matter in the 2020s?",
@@ -36,7 +36,7 @@ export const yandeksKatalogEn: BlogPost = {
     },
     {
       q: "Is one Yandex Business listing enough?",
-      a: "For local demand it’s a base layer, not a substitute for the site and SEO. Often you also need 2GIS and Google Business Profile for different audiences.",
+      a: "For local demand it is a base layer, not a substitute for the site and SEO. Often you also need 2GIS and Google Business Profile for different audiences.",
     },
     {
       q: "Can I register in another region with a fake address?",
@@ -55,10 +55,10 @@ export const yandeksKatalogEn: BlogPost = {
         {
           intro: "What acceleration historically paid for:",
           items: [
-            "accepting and processing the application;",
-            "classification;",
-            "description;",
-            "publication in the Catalog database.",
+            "accepting and processing the application",
+            "classification",
+            "description",
+            "publication in the Catalog database",
           ],
         },
       ],
@@ -67,12 +67,13 @@ export const yandeksKatalogEn: BlogPost = {
       title: "Why the Catalog closed",
       level: 2,
       paras: [
-        "Official logic: falling interest in a catalog as a separate product — search answers find by topic better than a rubricator. Applications stopped on 20 December 2017; Yandex then pointed webmasters to current tools.",
-        "For the market it removed the Catalog first, then the ritual of living by it. Anyone whose link and local profile rested only on YACA learned: one closed service must not be the only pillar.",
+        "Official logic: falling interest in a catalog as a separate product — search answers “find by topic” better than a rubricator. Applications stopped on 20 December 2017; Yandex then pointed webmasters to current tools.",
+        "For the market it removed the “Catalog first, then life” ritual. Anyone whose link and local profile rested only on YACA learned: one closed service must not be the only pillar.",
       ],
       notes: [
         {
           title: "Important",
+          kind: "tip",
           text: "Yandex and Google retire outdated products routinely. SEO strategy should rest on the site, demand, and several live channels — not one branded service.",
         },
       ],
@@ -90,16 +91,16 @@ export const yandeksKatalogEn: BlogPost = {
       level: 2,
       paras: [
         "Multi-region via the catalog without a real footprint is gone. Today region for search and maps rests on actual address or service area, contact pages, branches, city content, and an organization listing.",
-        "Several cities need an honest setup: separate landings or branches with real presence, consistent NAP, directory listings. A fake address for TOP in another city leads to filters and lost trust.",
+        "Several cities need an honest setup: separate landings or branches with real presence, consistent NAP, directory listings. A fake address for rankings in another city leads to filters and lost trust.",
       ],
       lists: [
         {
           intro: "Where to look instead of YACA:",
           items: [
-            "Yandex Webmaster — crawl quality, regional settings per current help;",
-            "Yandex Business / Maps — organization listing;",
-            "the site: contacts, directions, local content;",
-            "when needed — 2GIS and Google Business Profile.",
+            "Yandex Webmaster — crawl quality, regional settings per current help",
+            "Yandex Business / Maps — organization listing",
+            "the site: contacts, directions, local content",
+            "when needed — 2GIS and Google Business Profile",
           ],
         },
       ],
@@ -108,24 +109,25 @@ export const yandeksKatalogEn: BlogPost = {
       title: "What replaces Catalog registration today",
       level: 2,
       paras: [
-        "“People find us nearby and trust us” is a bundle: a solid site plus map/business profile plus selective industry platforms. Mass registration in dead site directories doesn’t replace YACA and often hurts.",
+        "“People find us nearby and trust us” is a bundle: a solid site plus map/business profile plus selective industry platforms. Mass registration in dead site directories does not replace YACA and often hurts.",
         "A whitelist makes sense: maps, major directories, niche registries with audience. A fuller breakdown is in the directories-and-listings article.",
       ],
       lists: [
         {
           intro: "Minimum for local business:",
           items: [
-            "an up-to-date site with NAP;",
-            "a Yandex Business listing;",
-            "a 2GIS listing (if geo matters);",
-            "Google Business Profile when demand is in Google;",
-            "an industry directory only if clients search there.",
+            "an up-to-date site with NAP",
+            "a Yandex Business listing",
+            "a 2GIS listing (if geo matters)",
+            "Google Business Profile when demand is in Google",
+            "an industry directory only if clients search there",
           ],
         },
       ],
       notes: [
         {
           title: "Related canon",
+          kind: "tip",
           text: "Selective registration practice: /en/blog/katalogi-saytov/. Yandex listing: /en/blog/yandeks-spravochnik/. Google Maps: /en/blog/google-biznes/.",
         },
       ],
@@ -134,7 +136,7 @@ export const yandeksKatalogEn: BlogPost = {
       title: "Practical takeaway for SEO",
       level: 2,
       paras: [
-        "Yandex.Catalog is a closed chapter. Don’t hunt how to register in YACA again and don’t buy services that promise it.",
+        "Yandex.Catalog is a closed chapter. Do not hunt how to register in YACA again and do not buy services that promise it.",
         "Invest in what you still control: site speed and index, demand-led content, local listings, reviews, analytics. The 2010s catalog ritual is no longer a search entry ticket.",
       ],
       tables: [
@@ -145,7 +147,10 @@ export const yandeksKatalogEn: BlogPost = {
             ["Catalog application", "Map listings / Yandex Business"],
             ["TIC as fetish", "Webmaster and business metrics"],
             ["Region from the catalog", "Real address, branches, local content"],
-            ["Paid application speed-up", "Site quality and presence on live platforms"],
+            [
+              "Paid application speed-up",
+              "Site quality and presence on live platforms",
+            ],
           ],
         },
       ],
@@ -157,4 +162,4 @@ export const yandeksKatalogEn: BlogPost = {
     "google-biznes",
     "yandeks-iks",
   ],
-} as BlogPost;
+};

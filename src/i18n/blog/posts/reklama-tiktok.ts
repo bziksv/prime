@@ -11,7 +11,7 @@ export const reklamaTiktokEn: BlogPost = {
     "When TikTok Ads makes sense, and how a launch works in Ads Manager: goal, budget, targeting, and creative — without outdated “from $500” minimums and 2018 app catalogs.",
   lead: [
     "TikTok Ads means paid impressions in the For You feed and related formats through the official ads account. Creator integrations and challenges live separately: different budget and agreements.",
-    "We cover when the channel fits, how campaigns work in Ads Manager, and creative requirements. Menus and budget minimums change—check TikTok for Business Help. Organic For You is covered in a related article.",
+    "Below: when the channel fits, how campaigns work in Ads Manager, and creative requirements. Menus and budget minimums change — check TikTok for Business Help. Organic For You is covered in a related article.",
   ],
   faq: [
     {
@@ -63,9 +63,7 @@ export const reklamaTiktokEn: BlogPost = {
         {
           kind: "tip",
           title: "UI",
-          paras: [
-            "Don’t train people on “click Create an Ad in the center of a 2020 screen.” Train the chain: goal → audience → budget → vertical clip → preview → moderation.",
-          ],
+          text: "Don’t train people on “click Create an Ad in the center of a 2020 screen.” Train the chain: goal → audience → budget → vertical clip → preview → moderation.",
         },
       ],
     },
@@ -90,10 +88,10 @@ export const reklamaTiktokEn: BlogPost = {
         {
           intro: "Before moderation:",
           items: [
-            "offer without forbidden claims;",
-            "landing opens on mobile;",
-            "UTM or promo code for measurement;",
-            "a spare creative for burnout.",
+            "offer without forbidden claims",
+            "landing opens on mobile",
+            "UTM or promo code for measurement",
+            "a spare creative for burnout",
           ],
         },
       ],

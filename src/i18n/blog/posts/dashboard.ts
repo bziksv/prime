@@ -11,7 +11,7 @@ export const dashboardEn: BlogPost = {
     "What a dashboard is: why pull metrics into one panel, who uses it, what types exist, and where to start — from spreadsheets to BI.",
   lead: [
     "A dashboard is a panel where key metrics live in one place: charts, tables, statuses. Instead of a dozen exports, you see the picture right now and decide faster.",
-    "This guide covers who needs a dashboard, what kinds exist, how to build one, and which tools fit. Service pricing changes — metric logic matters more than a BI brand name.",
+    "Below: who needs a dashboard, what kinds exist, how to build one, and which tools fit. Service pricing changes — metric logic matters more than a BI brand name.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const dashboardEn: BlogPost = {
     },
     {
       q: "Where should a beginner start?",
-      a: "With 5–7 metrics tied to one goal and a simple sheet or Looker Studio. Don’t dump “all the data in the world” on the first screen.",
+      a: "With 5–7 metrics tied to one goal and a simple sheet or Looker Studio. Don’t dump all the data in the world on the first screen.",
     },
     {
       q: "Who needs BI tools like Tableau?",
@@ -102,7 +102,7 @@ export const dashboardEn: BlogPost = {
           intro: "Step by step:",
           items: [
             "why the panel exists and which decisions it supports",
-            "which sources (analytics, ad accounts, CRM, sheets)",
+            "which sources (Metrika, ad accounts, CRM, sheets)",
             "shared metric names and formulas",
             "screen layout: KPIs on top, detail below",
             "access rights for colleagues",
@@ -113,7 +113,8 @@ export const dashboardEn: BlogPost = {
       notes: [
         {
           title: "Common mistake",
-          text: "Dumping 40 widgets “just in case.” One screen, one role. Everything else belongs on separate tabs or reports.",
+          kind: "warning",
+          text: "Dumping 40 widgets just in case. One screen, one role. Everything else belongs on separate tabs or reports.",
         },
       ],
     },

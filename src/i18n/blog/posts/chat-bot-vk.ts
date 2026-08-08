@@ -11,7 +11,7 @@ export const chatBotVkEn: BlogPost = {
     "How a chat bot helps in VK community messages: FAQ, leads, catalog — when a builder is enough, when you need a developer, and why a bot with no exit to a human operator drives people away.",
   lead: [
     "A VK chat bot answers community messages by script: greeting, FAQ, lead capture, service matching. It isn’t a live manager — it’s automation for repetitive dialogues.",
-    "This piece covers who benefits, simple and complex scenarios, and how to launch without clinging to outdated 2018 builder screenshots. We don’t recommend spam blasts from a bot.",
+    "Below: who benefits, simple and complex scenarios, and how to launch without clinging to outdated 2018 builder screenshots. We don’t recommend spam blasts from a bot.",
   ],
   faq: [
     {
@@ -47,10 +47,10 @@ export const chatBotVkEn: BlogPost = {
         {
           intro: "Especially useful for:",
           items: [
-            "delivery and service booking;",
-            "stores with recurring questions;",
-            "support with a large FAQ;",
-            "teams that outgrow one-off chat replies.",
+            "delivery and service booking",
+            "stores with recurring questions",
+            "support with a large FAQ",
+            "not a micro-business with one-off unique talks",
           ],
         },
       ],
@@ -77,7 +77,7 @@ export const chatBotVkEn: BlogPost = {
       title: "Scenarios to start with",
       level: 2,
       paras: [
-        "Greeting + menu: “Price / Delivery / Lead / Operator.”",
+        "Greeting + menu: Price / Delivery / Lead / Operator.",
         "FAQ: address, timing, payment, returns — short answers and a link to a post or site.",
         "Lead: name, contact, need → into a manager chat or CRM.",
         "Catalog / match: two or three clarifying questions and a service card.",
@@ -86,9 +86,7 @@ export const chatBotVkEn: BlogPost = {
         {
           kind: "tip",
           title: "Important",
-          paras: [
-            "Don’t promise in the bot what isn’t in stock or on the site. A mismatch kills trust faster than a slow human reply.",
-          ],
+          text: "Don’t promise in the bot what isn’t in stock or on the site. A mismatch kills trust faster than a slow human reply.",
         },
       ],
     },
@@ -104,11 +102,11 @@ export const chatBotVkEn: BlogPost = {
         {
           intro: "Launch checklist:",
           items: [
-            "goals and KPIs (auto-reply share, leads);",
-            "menu and FAQ aligned with the offer;",
-            "handoff to a human;",
-            "test on 10–20 real phrasings;",
-            "review misunderstood phrases weekly.",
+            "goals and KPIs (auto-reply share, leads)",
+            "menu and FAQ aligned with the offer",
+            "handoff to a human",
+            "test on 10–20 real phrasings",
+            "review misunderstood phrases weekly",
           ],
         },
       ],
@@ -125,7 +123,7 @@ export const chatBotVkEn: BlogPost = {
       paras: [
         "A bot handles complex and emotional cases poorly. A rigid menu with no exit annoys people.",
         "Don’t store unnecessary personal data. Don’t use the bot as a channel for gray “blast everyone” mailings.",
-        "Builders and pricing change — budget for maintenance, not “set and forget for years.”",
+        "Builders and pricing change — budget for maintenance, not set-and-forget for years.",
       ],
     },
     {
@@ -139,7 +137,7 @@ export const chatBotVkEn: BlogPost = {
     },
   ],
   closing: [
-    "Collect the top 10 questions from community messages and cover them with a bot menu plus an “operator” button — faster than debating “advanced AI.”",
+    "Collect the ten most common questions from community messages and cover them with a bot menu plus an operator button — faster than debating advanced AI.",
   ],
   related: [
     "telegram-boty",

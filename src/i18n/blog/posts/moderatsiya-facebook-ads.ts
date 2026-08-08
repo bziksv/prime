@@ -5,25 +5,29 @@ export const moderatsiyaFacebookAdsEn: BlogPost = {
   slug: "moderatsiya-facebook-ads",
   title: "Why Facebook rejects an ad: common reasons",
   date: "2020-01-09",
-  category: "Digital marketing",
+  category: "Paid search",
   cover: "/images/blog/moderatsiya-facebook-ads/cover-en.webp",
   excerpt:
     "Common reasons ads get rejected or stay silent in Facebook / Meta Ads: prohibited content, before/after, clickbait UI, personal attributes, text on image, bids, and audience overlap.",
   lead: [
     "A rejected ad — or approval with no impressions — in Facebook / Meta Ads usually hits advertising rules or auction settings, not “the platform doesn’t like you.”",
-    "Typical moderation issues from real campaigns — and what to check first. Rules and thresholds (including text on image) change — verify current Advertising Standards. The Meta disclaimer is on this page.",
+    "Below: typical moderation issues from practice and what to check. Rules and thresholds (including text on image) change — verify current Advertising Standards. Informational only; not a call to use Meta platforms.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. Facebook* and Instagram* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
-      q: "If the ad is approved but has no impressions, is it a ban?",
+      q: "Approved but no impressions — is it a ban?",
       a: "Often no: low bid, narrow audience, budget cap, learning, or ad-set overlap. Check Delivery and account recommendations.",
     },
     {
-      q: "Are before/after creatives allowed in Facebook Ads?",
+      q: "Are before/after creatives allowed?",
       a: "Classic before/after and misleading body/health results are usually banned. Look for current exceptions in Help.",
     },
     {
-      q: "Does text on the image still matter for review?",
+      q: "Does text on the image still matter?",
       a: "The hard “20%” rule was softened historically, but overloaded text and clickbait still hurt delivery and review. Readability beats a percentage.",
     },
     {
@@ -35,11 +39,11 @@ export const moderatsiyaFacebookAdsEn: BlogPost = {
       a: "Read the reason in the account, fix it, wait for re-review. On a clear error — appeal via Help with ad IDs.",
     },
     {
-      q: "Does Facebook Ads review also apply to Instagram ads?",
+      q: "Does this apply to Instagram ads too?",
       a: "Often yes: one Meta account and similar policies for related surfaces, with format caveats.",
     },
     {
-      q: "Where can I find a Facebook Ads channel overview?",
+      q: "Where’s the channel overview?",
       a: "In the Facebook Ads / Meta Ads piece — jobs, pixel, and test logic.",
     },
   ],
@@ -50,7 +54,7 @@ export const moderatsiyaFacebookAdsEn: BlogPost = {
       paras: [
         "Prohibited goods and services (weapons, some medications, tobacco, surveillance, 18+, etc.) get cut at intake — the full list lives only in current policies. “Gray” promises don’t save a pretty design.",
         "Before/after and shocking close-ups of the body with unrealistic effects are a classic rejection. Fake interactive UI on the image (phony Play button, notification) counts as clickbait: people tap “as if native” and land on a site.",
-        "Overloaded text on the image hurts delivery; we don’t repeat the old hard “20%” myth as 2026 law — aim for little text, a large offer, mobile readability.",
+        "Overloaded text on the image hurts delivery; we don’t repeat the old hard “20%” myth as current law — aim for little text, a large offer, mobile readability.",
       ],
       lists: [
         {
@@ -59,7 +63,7 @@ export const moderatsiyaFacebookAdsEn: BlogPost = {
             "no prohibited topics",
             "no before/after or fake UI buttons",
             "minimal text on the photo",
-            "honest offer — no miracle guarantees.",
+            "honest offer — no miracle guarantees",
           ],
         },
       ],
@@ -74,8 +78,9 @@ export const moderatsiyaFacebookAdsEn: BlogPost = {
       ],
       notes: [
         {
-          kind: "warning",
+          title: "Important",
           text: "Promises like “$20,000 in two days” with no basis are a straight path to rejection and reputation risk.",
+          kind: "tip",
         },
       ],
     },
@@ -114,7 +119,7 @@ export const moderatsiyaFacebookAdsEn: BlogPost = {
             "reason in Ads Manager",
             "creative vs bid/audience",
             "fix → re-review",
-            "appeal only when you’re confident.",
+            "appeal only when you’re confident",
           ],
         },
       ],

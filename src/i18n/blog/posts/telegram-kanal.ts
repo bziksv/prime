@@ -11,7 +11,7 @@ export const telegramKanalEn: BlogPost = {
     "How to launch a Telegram channel: avatar and description, post mix, helper bots, schedule, ads, and traffic from other platforms — without betting on fake growth.",
   lead: [
     "Telegram is both a messenger and a media surface: channels deliver news and offers into the notification feed, bypassing “smart” social ranking. For business that’s a direct line to a warm audience.",
-    "We cover where to start, how to set up the channel, what content keeps readers, how bots help, and where traffic comes from. In-app search is weak — growth almost always needs external sources and ads in related channels.",
+    "Below: where to start, how to set up the channel, what content keeps readers, how bots help, and where traffic comes from. In-app search is weak — growth almost always needs external sources and ads in related channels.",
   ],
   faq: [
     {
@@ -20,7 +20,7 @@ export const telegramKanalEn: BlogPost = {
     },
     {
       q: "How many posts per day should I publish?",
-      a: "Aim for 1–3 by view stats, not “fill the feed for its own sake.” Watch when your audience reads; regional peaks are often morning / lunch / evening local time.",
+      a: "Aim for 1–3 by view stats, not fill-the-feed for its own sake. Watch when your audience reads; regional peaks are often morning / lunch / evening local time.",
     },
     {
       q: "Do I need bots immediately?",
@@ -28,11 +28,11 @@ export const telegramKanalEn: BlogPost = {
     },
     {
       q: "How do I grow subscribers?",
-      a: "Cross-posts from the site and other socials, seeding/ads in topical channels, collabs, organic sharing of strong posts. Fake growth breaks ER and ad prices.",
+      a: "Cross-posts from the site and other socials, paid placements and ads in topical channels, collabs, organic sharing of strong posts. Fake growth breaks ER and ad prices.",
     },
     {
       q: "How much do channel ads cost?",
-      a: "Depends on niche, reach, and engagement. Old “price ranges” in thousands age fast — check current rates and vet the channel in analytics (e.g. TGStat).",
+      a: "Depends on niche, reach, and engagement. Old price ranges age fast — check current rates and vet the channel in analytics (e.g. TGStat).",
     },
   ],
   sections: [
@@ -47,10 +47,10 @@ export const telegramKanalEn: BlogPost = {
         {
           intro: "Basic launch:",
           items: [
-            "topic and tone (who reads, why subscribe);",
-            "name and @username without typos;",
-            "avatar + description + contacts;",
-            "rubric plan for 2–4 weeks.",
+            "topic and tone (who reads, why subscribe)",
+            "name and @username without typos",
+            "avatar + description + contacts",
+            "rubric plan for 2–4 weeks",
           ],
         },
       ],
@@ -66,10 +66,10 @@ export const telegramKanalEn: BlogPost = {
         {
           intro: "Common mistakes:",
           items: [
-            "unreadable detail on the icon;",
-            "a “channel about everything” description;",
-            "no contact for ads/outreach;",
-            "header offer that doesn’t match the posts.",
+            "unreadable detail on the icon",
+            "a “channel about everything” description",
+            "no contact for ads or outreach",
+            "header offer that doesn’t match the posts",
           ],
         },
       ],
@@ -85,9 +85,9 @@ export const telegramKanalEn: BlogPost = {
         {
           intro: "Schedule guidelines:",
           items: [
-            "fixed slots (e.g. morning / day / evening) checked against stats;",
-            "weekdays usually read more actively than weekends;",
-            "don’t repost the same piece five times in a row “for reach.”",
+            "fixed slots (e.g. morning / day / evening) checked against stats",
+            "weekdays usually read more actively than weekends",
+            "don’t repost the same piece five times in a row “for reach”",
           ],
         },
       ],
@@ -108,16 +108,17 @@ export const telegramKanalEn: BlogPost = {
         {
           intro: "Typical jobs:",
           items: [
-            "Telegraph / similar — long formatted text;",
-            "autoposting and scheduled publishing;",
-            "polls and reactions beyond the basics;",
-            "lead capture and simple funnels.",
+            "Telegraph / similar — long formatted text",
+            "autoposting and scheduled publishing",
+            "polls and reactions beyond the basics",
+            "lead capture and simple funnels",
           ],
         },
       ],
       notes: [
         {
           title: "Caution",
+          kind: "tip",
           text: "“Buy subscribers” bots and shady audience scraping hurt reputation and stats. For growth — live traffic and honest ads.",
         },
       ],
@@ -126,7 +127,7 @@ export const telegramKanalEn: BlogPost = {
       title: "Traffic and advertising",
       level: 2,
       paras: [
-        "Organic discovery inside Telegram is limited: you bring the channel from the site, YouTube, newsletters, other socials, and via seeding with related authors.",
+        "Organic discovery inside Telegram is limited: you bring the channel from the site, YouTube, newsletters, other socials, and via paid placements with related authors.",
         "Before buying ads, check reach, ER, subscriber jumps, and sources in open analytics. Hidden posts and fake views are a reason to walk away.",
         "Watch where competitors advertise (dashboards like TGStat) and test small budgets before large buys.",
       ],
@@ -134,10 +135,10 @@ export const telegramKanalEn: BlogPost = {
         {
           intro: "Ads mini-checklist:",
           items: [
-            "the channel’s audience matches yours;",
-            "no sharp sawtooth in the subscriber graph;",
-            "the post isn’t deleted an hour later;",
-            "UTM or a promo code exists for measurement.",
+            "the channel’s audience matches yours",
+            "no sharp sawtooth in the subscriber graph",
+            "the post isn’t deleted an hour later",
+            "UTM or a promo code exists for measurement",
           ],
         },
       ],

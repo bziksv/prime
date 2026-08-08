@@ -11,8 +11,12 @@ export const otlozhennyyPostingInstagramEn: BlogPost = {
     "Scheduled posting on Instagram: why plan ahead, how a content calendar helps, and how to choose a tool — without shady auto-posters or stealing other people’s content.",
   lead: [
     "Scheduled posting queues posts (and some Stories/Reels, where available) for a date and time. You keep a content-calendar rhythm without living in the app for every slot.",
-    "Planning buys consistency — if the tool is official or Terms-safe. The old 2021 line “Instagram has no official scheduling” is outdated: Meta often includes built-in scheduling in the app and Business Suite — check today’s UI. Vet third-party tools against Terms of Service and login safety. See the Meta notice on this page.",
+    "Below: planning upsides and how to pick a tool. The old 2021 line “Instagram has no official scheduling” is outdated: Meta often includes built-in scheduling in the app and Business Suite — check today’s UI. Vet third-party tools against Terms of Service and login safety. Meta product disclaimer is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. Instagram* and Facebook* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the services may have legal consequences.",
+  },
   faq: [
     {
       q: "How is scheduling different from a content plan?",
@@ -105,9 +109,9 @@ export const otlozhennyyPostingInstagramEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Common mistake",
           text: "Connecting a scheduler that auto-scrapes others’ posts and watermarks them “for uniqueness.” That’s not SMM — it’s risk.",
-          kind: "tip",
         },
       ],
     },
@@ -115,7 +119,7 @@ export const otlozhennyyPostingInstagramEn: BlogPost = {
       title: "What to skip in old catalogs",
       level: 2,
       paras: [
-        "Old roundups listed tools with proxies, multi-accounts, and competitor scraping. Some break platform rules. We don’t recycle utility prices and fake “rankings.”",
+        "Old roundups listed tools with proxies, multi-accounts, and competitor scraping. Some break platform rules. We don’t recycle utility prices and tool charts.",
         "If a tool asks for a plain password or promises mass-liking alongside posting — walk away.",
       ],
       links: [

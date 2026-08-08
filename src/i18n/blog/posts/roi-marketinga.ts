@@ -11,8 +11,8 @@ export const roiMarketingaEn: BlogPost = {
   excerpt:
     "How ROI/ROMI differ from KPIs and conversion, which formulas to use for ads, and how numbers decide where to grow budget — and where to cut.",
   lead: [
-    "Conversion shows how well the funnel “catches”. KPIs show whether you hit operational goals. ROI/ROMI (return on marketing investment) answer a different question: did marketing spend return with profit.",
-    "We cover why measure return on investment, the CR → CPA → ROMI chain, working formulas, and common mistakes—including the myth that “ROI 100%” is the only profitable threshold.",
+    "Conversion shows how well the funnel catches. KPIs show whether you hit operational goals. ROI/ROMI answer a different question: did marketing spend return with profit.",
+    "Below: why measure return on investment, the CR → CPA → ROMI chain, working formulas, and common mistakes — including the myth that “ROI 100%” is the only profitable threshold.",
   ],
   faq: [
     {
@@ -49,7 +49,7 @@ export const roiMarketingaEn: BlogPost = {
       title: "Why measure ROI/ROMI",
       level: 2,
       paras: [
-        "Without a money metric it’s easy to optimize “pretty” percentages: high CTR, many clicks, more followers — while leads lose money.",
+        "Without a money metric it’s easy to optimize pretty percentages: high CTR, many clicks, more followers — while leads lose money.",
         "ROMI helps decide: scale the channel, fix the funnel, or cut budget. It doesn’t replace strategy — it filters where not to pour more spend.",
       ],
       links: [
@@ -70,10 +70,10 @@ export const roiMarketingaEn: BlogPost = {
         {
           intro: "KPI examples next to money:",
           items: [
-            "CPA — cost per goal action;",
-            "CPL — cost per lead;",
-            "CAC — customer acquisition cost;",
-            "share of qualified leads / lead quality.",
+            "CPA — cost per goal action",
+            "CPL — cost per lead",
+            "CAC — customer acquisition cost",
+            "share of qualified leads / lead quality",
           ],
         },
       ],
@@ -96,9 +96,9 @@ export const roiMarketingaEn: BlogPost = {
         {
           intro: "How to read the result (for the formula above):",
           items: [
-            "< 0% — marketing is negative under the chosen model;",
-            "0% — spend returned with no profit on top;",
-            "> 0% — positive; 100% — doubled marketing spend in profit contribution.",
+            "< 0% — marketing is negative under the chosen model",
+            "0% — spend returned with no extra profit",
+            "> 0% — positive; 100% — doubled marketing spend in profit contribution",
           ],
         },
       ],
@@ -114,11 +114,11 @@ export const roiMarketingaEn: BlogPost = {
         {
           intro: "Common mistakes:",
           items: [
-            "confusing turnover with profit;",
-            "forgetting COGS and returns;",
-            "mixing periods and attribution models;",
-            "judging SEO/content on a single week;",
-            "optimizing CTR only without CPA/ROMI.",
+            "confusing turnover with profit",
+            "forgetting COGS and returns",
+            "mixing periods and attribution models",
+            "judging SEO/content on a single week",
+            "optimizing CTR only without CPA/ROMI",
           ],
         },
       ],

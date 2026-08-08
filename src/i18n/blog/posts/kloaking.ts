@@ -8,10 +8,10 @@ export const kloakingEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/kloaking/cover-en.webp",
   excerpt:
-    "Cloaking is showing different content to bots and people. Why it’s used, what it costs you, and how to check your site isn’t masked (including after a breach).",
+    "Cloaking is showing different content to bots and people. Why it’s used, what it costs you, and how to check your site isn’t masked — including after a breach.",
   lead: [
     "Cloaking (from “cloak” — to mask) is when a search bot gets one page version and a visitor gets another. Classic black-hat SEO: the bot sees keyword-stuffed copy for the SERP; the person sees an offer, ads, or a totally different site.",
-    "In practice search engines punish cloaking — and you need to make sure your site isn’t swapped (it often appears after a hack). This is a risk and diagnostics overview — not a guide to gaming the SERP.",
+    "Below: what that means in practice, why search engines punish these schemes, and how to make sure your resource isn’t swapped (cloaking often appears after a hack). This is a risk and diagnostics overview — not a guide to gaming the results.",
   ],
   faq: [
     {
@@ -20,31 +20,31 @@ export const kloakingEn: BlogPost = {
     },
     {
       q: "How does it differ from an A/B test?",
-      a: "A/B usually splits people across variants and isn’t meant to hide a “different truth” from the bot. Cloaking deliberately gives bot and human different meaning.",
+      a: "A/B usually splits people across variants and is not meant to hide a “different truth” from the bot. Cloaking deliberately gives bot and human different meaning.",
     },
     {
       q: "Are geo and device adaptation cloaking?",
-      a: "Legitimate personalization (language, currency, mobile template) with the same page meaning is fine. Risk starts when the bot sees “download free” and the human only gets paywall or another topic.",
+      a: "Legitimate personalization (language, currency, mobile template) with the same page meaning is fine. Risk starts when the bot sees “download free” and the human only gets a paywall or another topic.",
     },
     {
       q: "Why know about this at all?",
-      a: "So you don’t buy “promotion” with content swapping, and so you catch a breach in time: attackers often hang cloaking on other people’s sites.",
+      a: "So you do not buy “promotion” with content swapping, and so you catch a breach in time: attackers often hang cloaking on other people’s sites.",
     },
     {
-      q: "How to tell the site was hacked?",
-      a: "HTML differs for Googlebot/Yandexbot vs a normal browser, odd snippets, redirects to foreign domains, unknown files, and spikes in Webmaster/GSC.",
+      q: "How do you tell the site was hacked?",
+      a: "HTML differs for Googlebot or Yandexbot vs a normal browser, odd snippets, redirects to foreign domains, unknown files, and spikes in Webmaster or Search Console.",
     },
     {
       q: "Is a User-Agent Switcher enough?",
-      a: "As a quick screen — yes. More reliable: “fetch as Googlebot” / webmaster tools and compare with a normal view.",
+      a: "As a quick screen — yes. More reliable: URL Inspection / fetch as Googlebot in webmaster tools, then compare with a normal view.",
     },
     {
       q: "Can you do it “just a little” for the snippet?",
-      a: "There’s no durable “just a little” tactic. An honest snippet = title/description and content the human also sees.",
+      a: "There is no durable “just a little” tactic. An honest snippet means title, description, and content the human also sees.",
     },
     {
       q: "What should you do instead of cloaking?",
-      a: "One clear document for the intent: tech, content, structure. Prep and systematic work; core ranks build planned over months — not by masking.",
+      a: "One clear document for the intent: tech, content, structure. Prep and systematic work; growing a query core is planned over months — not by masking.",
     },
   ],
   sections: [
@@ -52,17 +52,17 @@ export const kloakingEn: BlogPost = {
       title: "What the method is",
       level: 2,
       paras: [
-        "The idea is simple: detect who requested the page (User-Agent, IPs from bot lists, etc.) and serve different HTML. The bot gets keyword-heavy text for the SERP; the human gets a convenient or commercial variant, sometimes another URL entirely.",
-        "A typical deception: the SERP promises “download free”, after the click — only purchase or an irrelevant product. The user is misled, search sees a mismatch — the site risks sanctions.",
+        "The idea is simple: detect who requested the page and serve different HTML. The bot gets keyword-heavy text for the SERP; the human gets a convenient or commercial variant, sometimes another URL entirely.",
+        "A typical deception: the SERP promises “download free”; after the click — only a purchase or an irrelevant product. The user is misled, search sees a mismatch — the site risks sanctions.",
       ],
       lists: [
         {
           intro: "Cloaking signs:",
           items: [
-            "different page meaning for bot and human;",
-            "hiding spam / doorways from visitors;",
-            "redirects only for some clients;",
-            "often — a breach result, not the owner’s “strategy”.",
+            "different page meaning for bot and human",
+            "hiding spam or doorways from visitors",
+            "redirects only for some clients",
+            "often a breach result, not the owner’s “strategy”",
           ],
         },
       ],
@@ -70,7 +70,7 @@ export const kloakingEn: BlogPost = {
         {
           title: "Important",
           kind: "tip",
-          text: "We don’t explain how to set up cloaking. The topic is spotting the risk and protecting your site.",
+          text: "We do not explain how to set up cloaking. The topic is spotting the risk and protecting your site.",
         },
       ],
     },
@@ -85,10 +85,10 @@ export const kloakingEn: BlogPost = {
         {
           intro: "Business risks:",
           items: [
-            "loss of organic and brand traffic;",
-            "ad dashboards and partner programs also cut deception;",
-            "reputation hit if users complain;",
-            "cleanup costs after a breach.",
+            "loss of organic and brand traffic",
+            "ad accounts and partner programs also cut deception",
+            "reputation hit if users complain",
+            "cleanup costs after a breach",
           ],
         },
       ],
@@ -108,16 +108,16 @@ export const kloakingEn: BlogPost = {
       level: 2,
       paras: [
         "In practice the owner often learns about cloaking when the site is already filtered or “foreign” snippets appear. Malware serves spam to bots and redirects to people.",
-        "So diagnostics are part of security: CMS/plugin updates, file permissions, integrity monitoring, and alerts in Webmaster/Search Console.",
+        "So diagnostics are part of security: CMS and plugin updates, file permissions, integrity monitoring, and alerts in Webmaster Tools or Search Console.",
       ],
       lists: [
         {
           intro: "If you suspect a breach:",
           items: [
-            "compare bot and browser HTML;",
-            "check fresh files and cron;",
-            "change passwords and API keys;",
-            "clean backdoors and reindex after the fix.",
+            "compare bot and browser HTML",
+            "check fresh files and cron jobs",
+            "change passwords and API keys",
+            "clean backdoors and request reindexing after the fix",
           ],
         },
       ],
@@ -132,17 +132,17 @@ export const kloakingEn: BlogPost = {
       title: "How to check the site for swapping",
       level: 2,
       paras: [
-        "Basic move: compare what the bot sees with what you see. In Google Search Console — view as Googlebot; in the Yandex ecosystem — webmaster tools and server-response checks.",
-        "Additionally: switch User-Agent in the browser/extension, compare source; third-party “cloaking checkers” — as a hint, not the only judge. Also watch the SERP: snippet says one thing, landing another without a clear reason.",
+        "Basic move: compare what the bot sees with what you see. In Google Search Console — URL Inspection / view as Googlebot; in the Yandex ecosystem — webmaster tools and server-response checks.",
+        "Additionally: switch User-Agent in the browser, compare source; third-party “cloaking checkers” are a hint, not the only judge. Also watch the SERP: if the snippet says one thing and the landing another without a clear reason, dig in.",
       ],
       lists: [
         {
           intro: "Compare checklist:",
           items: [
-            "HTML/text for the bot ≈ HTML for the human in meaning;",
-            "no hidden “bots only” block;",
-            "canonical and redirects lead to the right URL the same way;",
-            "no sudden redirects to foreign domains.",
+            "HTML or text for the bot ≈ HTML for the human in meaning",
+            "no hidden “bots only” block",
+            "canonical and redirects lead to the right URL the same way",
+            "no sudden redirects to foreign domains",
           ],
         },
       ],
@@ -161,17 +161,17 @@ export const kloakingEn: BlogPost = {
       title: "What not to count as cloaking",
       level: 2,
       paras: [
-        "Responsive layout, different CSS on mobile, geo pricing for the same product, account login — aren’t cloaking by themselves if the bot’s document reflects the public page’s substance.",
-        "Gray zones appear when “public” and “bot” versions diverge in topic and promise. Stick to the rule: the snippet promise = content after the click.",
+        "Responsive layout, different CSS on mobile, geo pricing for the same product, account login — are not cloaking by themselves if the bot’s document reflects the public page’s substance.",
+        "Gray zones appear when “public” and “bot” versions diverge in topic and promise. Stick to the rule: the snippet promise equals the content after the click.",
       ],
       lists: [
         {
           intro: "Safe alternative:",
           items: [
-            "one strong page for the intent;",
-            "honest title and description;",
-            "decent speed and mobile;",
-            "content and links without swapping.",
+            "one strong page for the intent",
+            "honest title and description",
+            "decent speed and mobile",
+            "content and links without swapping",
           ],
         },
       ],
@@ -187,20 +187,27 @@ export const kloakingEn: BlogPost = {
       ],
     },
     {
-      title: "Takeaway: risks instead of a “fast TOP”",
+      title: "Takeaway: risks instead of a “fast climb”",
       level: 2,
       paras: [
         "Cloaking promises a shortcut into the SERP and almost always ends in a filter or a security incident. Durable growth is built on query, page, and offer matching.",
-        "Site prep and systematic work deliver results on a plan: core TOP roughly 2–6 months after start — not “tomorrow after a masking script”.",
+        "Site prep and systematic work deliver results on a plan: growing a query core roughly 2–6 months after work starts — not “tomorrow after a masking script.”",
       ],
       lists: [
         {
           intro: "If an agency offers a “special SERP for bots” — stop signal:",
           items: [
-            "demand method transparency;",
-            "check HTML yourself;",
-            "don’t agree to swapping for ranks.",
+            "demand method transparency",
+            "check HTML yourself",
+            "do not agree to swapping for ranks",
           ],
+        },
+      ],
+      notes: [
+        {
+          title: "Timelines",
+          kind: "tip",
+          text: "Honest pages and prep beat masking. Ranking work for a core is still planned over 2–6 months — cloaking is not a shortcut to page one.",
         },
       ],
     },

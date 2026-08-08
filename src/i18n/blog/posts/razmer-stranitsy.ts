@@ -11,7 +11,7 @@ export const razmerStranitsyEn: BlogPost = {
     "What page “weight” means, how to see transfer size in DevTools and tools, why heavy pages hurt UX and SEO, and what to compress first.",
   lead: [
     "Page weight is how many bytes the browser downloads to show the document: HTML, CSS, JS, images, fonts, third-party widgets. The larger the volume and the worse the compression, the longer people wait on a weak connection.",
-    "Why to measure weight, how to see it in a minute, and what usually gives the fastest win. This is speed hygiene, not a TOP guarantee.",
+    "Below: why to measure weight, how to see it in a minute, and what usually gives the fastest win. This is speed hygiene — not “page one thanks to fewer KB.”",
   ],
   faq: [
     {
@@ -24,11 +24,11 @@ export const razmerStranitsyEn: BlogPost = {
     },
     {
       q: "Where to look in the browser?",
-      a: "DevTools → Network: Size column, total at the bottom. Disable cache for a “cold” load. Performance/Lighthouse — extra diagnostics.",
+      a: "DevTools → Network: Size column, total at the bottom. Disable cache for a cold load. Performance/Lighthouse — extra diagnostics.",
     },
     {
       q: "Does weight affect SEO directly?",
-      a: "Through speed and behavior: a heavy page hurts Core Web Vitals and bounce. Search doesn’t rank “by KB”, but slow UX hits visibility indirectly.",
+      a: "Through speed and behavior: a heavy page hurts Core Web Vitals and bounce. Search doesn’t rank by KB, but slow UX hits visibility indirectly.",
     },
     {
       q: "Is compressing images enough?",
@@ -62,7 +62,7 @@ export const razmerStranitsyEn: BlogPost = {
             "after a redesign / new template",
             "before ad spend on a landing",
             "if mobile bounce grows",
-            "when someone says “the site is slow”.",
+            "when someone says “the site is slow”",
           ],
         },
       ],
@@ -71,7 +71,7 @@ export const razmerStranitsyEn: BlogPost = {
       title: "How to see weight in DevTools",
       level: 2,
       paras: [
-        "Open the page → F12 / DevTools → Network tab. Enable Disable cache, refresh. At the bottom you’ll see request count and transferred bytes. Sorting by Size shows the heaviest “eaters”.",
+        "Open the page → F12 / DevTools → Network tab. Enable Disable cache, refresh. At the bottom you’ll see request count and transferred bytes. Sorting by Size shows the heaviest eaters.",
         "Look separately at transferred (over the network) and resource size. Cache distorts the picture — for an audit a cold load matters more.",
       ],
       lists: [
@@ -81,7 +81,7 @@ export const razmerStranitsyEn: BlogPost = {
             "incognito + disable cache",
             "mobile user-agent / throttling",
             "lock top-10 resources by Size",
-            "repeat on a key landing and product page.",
+            "repeat on a key landing and product page",
           ],
         },
       ],
@@ -89,7 +89,7 @@ export const razmerStranitsyEn: BlogPost = {
         {
           title: "Common mistake",
           kind: "tip",
-          text: "Looking only at HTML “Save as”. Real weight is the whole waterfall load.",
+          text: "Looking only at HTML “Save as.” Real weight is the whole waterfall load.",
         },
       ],
       links: [
@@ -114,7 +114,7 @@ export const razmerStranitsyEn: BlogPost = {
             "images without compression/modern formats",
             "unused CSS/JS",
             "blocking scripts in head",
-            "extra redirects.",
+            "extra redirects",
           ],
         },
       ],
@@ -124,7 +124,7 @@ export const razmerStranitsyEn: BlogPost = {
       level: 2,
       paras: [
         "Unoptimized photos and backgrounds, autoplay video, too many fonts, heavy sliders, “just in case” analytics and chats, duplicate libraries, a full-home map without lazy load.",
-        "On a CMS — plugins, each with its own CSS/JS. A plugin audit often saves more than “tweaking JPEG quality by 5%”.",
+        "On a CMS — plugins, each with its own CSS/JS. A plugin audit often saves more than tweaking JPEG quality by 5%.",
       ],
       lists: [
         {
@@ -134,7 +134,7 @@ export const razmerStranitsyEn: BlogPost = {
             "hero as PNG instead of WebP/AVIF",
             "all of jQuery UI for one button",
             "social widgets and live chat",
-            "unminified bundles.",
+            "unminified bundles",
           ],
         },
       ],
@@ -154,7 +154,7 @@ export const razmerStranitsyEn: BlogPost = {
             "enable server compression",
             "defer non-critical JS",
             "remove 1–2 extra widgets",
-            "remeasure DevTools before/after.",
+            "remeasure DevTools before/after",
           ],
         },
       ],
@@ -178,8 +178,8 @@ export const razmerStranitsyEn: BlogPost = {
           items: [
             "reference URLs and their limits",
             "an owner for assets",
-            "ban “upload a 5MB photo content” without compression",
-            "quarterly re-audit.",
+            "ban uploading a 5MB photo into content without compression",
+            "quarterly re-audit",
           ],
         },
       ],

@@ -11,12 +11,16 @@ export const videokontentEn: BlogPost = {
     "Types of marketing video: review, how-to, testimonial, webinar, teaser, and more — plus script, shoot, and placement without the “80% of traffic will be video” cult or 2019 price lists.",
   lead: [
     "Video covers what text handles poorly: process, emotion, product scale, a live answer to an objection. It’s not a mandatory replacement for articles — it’s a format matched to the job and audience.",
-    "Pick the clip type for the job, decide in-house vs vendor, script before you shoot, and place video where it supports the offer. “Video will be 80% of traffic” figures and other people’s watch-hours from old roundups aren’t universal. Mentions of Instagram are informational.",
+    "Below: clip types, when to shoot in-house or with a vendor, script, and placement. “Video will be 80% of traffic” figures and other people’s watch-hours from old roundups aren’t universal. Mentions of Instagram* are informational.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Do you need video for every product?",
-      a: "No. Prioritize top SKUs, complex services, training, and funnel stages where text stalls.",
+      a: "No. Prioritize bestselling SKUs, complex services, training, and funnel stages where text stalls.",
     },
     {
       q: "Is a smartphone enough?",
@@ -74,6 +78,7 @@ export const videokontentEn: BlogPost = {
       notes: [
         {
           title: "One clip — one job",
+          kind: "tip",
           text: "Don’t mix a greeting with a hard catalog pitch. Goal and audience set length and tone.",
         },
       ],
@@ -97,11 +102,11 @@ export const videokontentEn: BlogPost = {
         {
           intro: "Typical mistakes:",
           items: [
-            "clip with no goal or CTA;",
-            "bad audio under a pretty picture;",
-            "too long with no structure;",
-            "published and never reviewed;",
-            "promises in the video that aren’t on the site.",
+            "clip with no goal or CTA",
+            "bad audio under a pretty picture",
+            "too long with no structure",
+            "published and never reviewed",
+            "promises in the video that aren’t on the site",
           ],
         },
       ],
@@ -127,7 +132,7 @@ export const videokontentEn: BlogPost = {
     },
   ],
   closing: [
-    "Pick one funnel job (top-SKU review, how-to, or testimonial) and shoot one short clip with a clear CTA — that’s the easiest way to learn whether you need a vendor.",
+    "Pick one funnel job (bestselling-SKU review, how-to, or testimonial) and shoot one short clip with a clear CTA — that’s the easiest way to learn whether you need a vendor.",
   ],
   related: [
     "video-obzor-tovara",

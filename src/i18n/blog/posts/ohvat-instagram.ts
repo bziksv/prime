@@ -11,8 +11,12 @@ export const ohvatInstagramEn: BlogPost = {
     "What Instagram reach is: unique accounts vs impressions, why reach drops, and how to grow with legitimate methods — without bots and a catalog of gray-hat services.",
   lead: [
     "Reach is how many unique accounts saw a post or profile in a period. Impressions count every view, including repeats by the same person.",
-    "Watch reach to spot format and timing issues — not to chase a vanity peak with bots. Bought likes and fake engagement risk limits and a dead audience. See the Meta notice on this page.",
+    "Below: why watch reach, why it jumps, and what to do legally. We don’t recommend bought likes and bots: risk of limits and a dead audience. Meta product disclaimer is on the page. Full Insights walkthrough — in the stats article.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Are reach and impressions the same?",
@@ -23,15 +27,15 @@ export const ohvatInstagramEn: BlogPost = {
       a: "No. Non-followers see content too (recommendations, hashtags, story shares). Some followers never see the post.",
     },
     {
-      q: "Why did Instagram reach drop?",
+      q: "Why did reach drop?",
       a: "Format change, weak hook, posting frequency, feed competition, account limits, seasonality. Watch several posts’ dynamics, not one miss.",
     },
     {
-      q: "Will bought reach help your account?",
+      q: "Will bought reach help?",
       a: "Not for sales. Bots and purchased actions hurt algorithm trust and risk bans. Don’t use them.",
     },
     {
-      q: "Where do you see the reach number?",
+      q: "Where do you see the number?",
       a: "In professional account Insights and post/story insights. You need a business/creator mode.",
     },
   ],
@@ -54,7 +58,7 @@ export const ohvatInstagramEn: BlogPost = {
       title: "Reach vs impressions vs activity",
       level: 2,
       paras: [
-        "High impressions with low reach — many repeat views from a narrow group. High reach with zero saves and DMs — a window shoppers with no intent.",
+        "High impressions with low reach — many repeat views from a narrow group. High reach with zero saves and DMs — a shop window with no demand.",
         "For business the chain matters: reach → actions (profile, site, messages) → leads. Likes are easy to fake; reach is harder to fake, but chasing only reach without an offer is pointless.",
       ],
       lists: [
@@ -65,7 +69,7 @@ export const ohvatInstagramEn: BlogPost = {
             "profile visits",
             "link/sticker clicks",
             "messages and leads",
-            "share of reach from followers.",
+            "share of reach from followers",
           ],
         },
       ],
@@ -103,15 +107,15 @@ export const ohvatInstagramEn: BlogPost = {
             "formats that already get saves",
             "CTA to profile/DM/site",
             "reply to comments in the first hours",
-            "ads or a collab instead of bots.",
+            "ads or a collab instead of bots",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Common mistake",
           text: "Buying “reach and likes” in a pack. The number grows, leads don’t, sanction risk does.",
-          kind: "tip",
         },
       ],
       links: [

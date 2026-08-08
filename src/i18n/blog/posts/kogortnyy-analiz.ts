@@ -11,7 +11,7 @@ export const kogortnyyAnalizEn: BlogPost = {
     "What a cohort is and how it differs from a segment: retention, LTV, channel ROI, and reading A/B over time — in Analytics/GA4 and spreadsheets, without promising “automatic magic.”",
   lead: [
     "Cohort analysis compares groups of people who did the same action in the same period — first session, first purchase, install — and watches how a metric changes over time.",
-    "The payoff is clearer channel quality, LTV and ROI, and tests that hold up weeks later — not only yesterday’s CPA. Google Analytics Universal had a dedicated report; in GA4 cohorts live in Explorations and related reports — check tab names in the current UI.",
+    "Below: definitions, how a cohort differs from a segment, and why cohorts matter for channels, LTV/ROI, and tests. Google Analytics Universal had a dedicated report; in GA4 cohorts live in Explorations and related reports — check tab names in the current UI.",
   ],
   faq: [
     {
@@ -19,15 +19,15 @@ export const kogortnyyAnalizEn: BlogPost = {
       a: "A cohort is one unifying trait plus a start time (everyone who bought in January). A segment can combine many traits at once (spent >$100 and live in London).",
     },
     {
-      q: "Which action should define the start of a cohort?",
+      q: "Which action should start the cohort?",
       a: "Whatever matters to the business: first visit, signup, first purchase, install. That choice defines what retention means.",
     },
     {
-      q: "Why use cohort analysis for ads?",
-      a: "To see which channel brings people who return and pay later — not only a “cheap first click.”",
+      q: "Why use it for ads?",
+      a: "To see which channel brings people who return and pay later — not only a cheap first click.",
     },
     {
-      q: "Can I run cohort analysis in GA4?",
+      q: "Can I run it in GA4?",
       a: "Yes, via Explorations and related reports. Don’t expect a one-to-one Universal Analytics screen from 2019 guides.",
     },
     {
@@ -56,8 +56,8 @@ export const kogortnyyAnalizEn: BlogPost = {
         {
           intro: "Example:",
           items: [
-            "segment: spent >$100 in January and live in London;",
-            "cohort: everyone with a first purchase in January (then watch repeat purchases by month).",
+            "segment: spent >$100 in January and live in London",
+            "cohort: everyone with a first purchase in January (then watch repeat purchases by month)",
           ],
         },
       ],
@@ -85,7 +85,7 @@ export const kogortnyyAnalizEn: BlogPost = {
       title: "LTV, ROI, and payback over time",
       level: 2,
       paras: [
-        "From first-buyer cohorts you compute cumulative revenue and group ARPU (average revenue per user). Comparing cohorts from different start months estimates median LTV and room for acquisition cost.",
+        "From first-buyer cohorts you compute cumulative revenue and group ARPU. Comparing cohorts from different start months estimates median LTV and room for acquisition cost.",
         "Channel ROI in month one is often understated: the customer is still in the funnel. A monthly cohort view shows when payback catches up — important for long deal cycles.",
         "The formulas stay the same — (revenue − cost) / cost; the value is the time and channel cut — not one “launch = success” cell.",
       ],
@@ -117,11 +117,11 @@ export const kogortnyyAnalizEn: BlogPost = {
         {
           intro: "Remember:",
           items: [
-            "one start event plus time;",
-            "a metric over time — not only “yesterday”;",
-            "compare channels by retention and LTV;",
-            "GA4 is not a Universal Analytics 2019 screenshot;",
-            "A/B plus cohorts beat either alone.",
+            "one start event plus time",
+            "a metric over time — not only “yesterday”",
+            "compare channels by retention and LTV",
+            "GA4 is not a Universal Analytics 2019 screenshot",
+            "A/B plus cohorts beat either alone",
           ],
         },
       ],

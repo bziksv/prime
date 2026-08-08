@@ -32,7 +32,7 @@ export const infografikaEn: BlogPost = {
     },
     {
       q: "Do infographics help SEO?",
-      a: "Indirectly: if people link, save, embed. An image alone without text and alt ranks weakly; you need explaining content beside it.",
+      a: "Indirectly: if people link, save, embed. An image alone without text and alt is weak in search; you need explaining content beside it.",
     },
   ],
   sections: [
@@ -50,7 +50,7 @@ export const infografikaEn: BlogPost = {
             "comparing plans/options",
             "stats and shares",
             "geography and routes",
-            "product inner logic.",
+            "product inner logic",
           ],
         },
       ],
@@ -91,13 +91,14 @@ export const infografikaEn: BlogPost = {
             "text readable on a phone",
             "icons don’t fight the meaning",
             "brand marks don’t cover the data",
-            "alt and caption on the site.",
+            "alt and caption on the site",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
+          kind: "tip",
           text: "Pretty gradients and tiny type: nothing readable on a phone. Contrast and size first, then decoration.",
         },
       ],
@@ -116,7 +117,7 @@ export const infografikaEn: BlogPost = {
             "verify the facts",
             "export Retina/2x when needed",
             "compress without mushing the numbers",
-            "add a text retelling for SEO and accessibility.",
+            "add a text retelling for SEO and accessibility",
           ],
         },
       ],
@@ -127,7 +128,6 @@ export const infografikaEn: BlogPost = {
       paras: [
         "An infographic works when there’s a clear takeaway and honest data. Pick the type for the job, build hierarchy, check phone readability. The tool is secondary; noise for “wow” kills understanding.",
       ],
-      lists: [],
     },
   ],
 };

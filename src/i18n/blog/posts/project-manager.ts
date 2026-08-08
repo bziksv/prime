@@ -10,8 +10,8 @@ export const projectManagerEn: BlogPost = {
   excerpt:
     "Who a project manager is in IT: why the role exists, typical duties and skills, and how people enter the profession — without “high salary right after a weekend course” promises.",
   lead: [
-    "A project manager owns the path from idea to outcome: timeline, team, stakeholder agreements, and a clear status. Even strong developers and designers without coordination often pull the project in different directions.",
-    "What a PM does in IT, daily work, which qualities matter, and common entry paths. Salaries and grade titles float on the market — check current openings; this piece is about the substance of the job.",
+    "A project manager owns the path from idea to outcome: timeline, team, stakeholder agreements, and a clear status. Even strong developers and designers without coordination often drag the project in different directions.",
+    "Below: what a PM does in IT, daily work, which qualities matter, and common entry paths. Salaries and grade titles float on the market — check current openings; this piece is about the substance of the job.",
   ],
   faq: [
     {
@@ -63,7 +63,7 @@ export const projectManagerEn: BlogPost = {
             "assemble / clarify the team and roles",
             "run the plan and statuses",
             "escalate risks in time",
-            "deliver the result and close loose ends.",
+            "deliver the result and close loose ends",
           ],
         },
       ],
@@ -89,7 +89,7 @@ export const projectManagerEn: BlogPost = {
             "estimating and tracking dates",
             "risks and scope-change work",
             "meeting facilitation",
-            "basic understanding of IT delivery.",
+            "basic understanding of IT delivery",
           ],
         },
       ],
@@ -103,9 +103,9 @@ export const projectManagerEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Important",
           text: "Course promises of “high salary immediately” are a red flag. Look at real project practice and employer feedback — not only a certificate.",
-          kind: "tip",
         },
       ],
       links: [

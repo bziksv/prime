@@ -11,7 +11,7 @@ export const pikselVkEn: BlogPost = {
     "What the VK Ads pixel is, why it matters for retargeting, how to install it on a site, and how to build action-based audiences — without outdated account click-paths.",
   lead: [
     "The VKontakte pixel is a code snippet on your site that helps build audiences for VK ads: visitors, cart, purchase, and other events.",
-    "We cover what the tool is for, how install works in practice, and how to shape segments. The account UI changes often — use current labels in VK Ads help.",
+    "Below: what the tool is for, how install works in practice, and how to shape segments. The account UI changes often — use current labels in VK Ads / the ads account.",
   ],
   faq: [
     {
@@ -27,12 +27,12 @@ export const pikselVkEn: BlogPost = {
       a: "Launch thresholds have changed. Aim for a base large enough for learning and delivery; check exact minima in account help.",
     },
     {
-      q: "Should I exclude buyers from retargeting?",
+      q: "Should I exclude buyers?",
       a: "Often yes: keep a separate “purchased” segment and exclude it from “abandoned cart” offers so you don’t burn budget.",
     },
     {
       q: "Does a site pixel replace a VK community pixel?",
-      a: "They serve different roles. A site pixel tracks visits to your domain; social ads may also pull audiences from other sources.",
+      a: "They serve different roles. A site pixel tracks visits to your domain; social ads may also use other audience sources.",
     },
   ],
   sections: [
@@ -50,7 +50,7 @@ export const pikselVkEn: BlogPost = {
             "retarget visitors of key URLs",
             "abandoned cart or lead form",
             "exclude buyers",
-            "lookalike or similar audiences from a base (if available in the account).",
+            "lookalike or similar audiences from a base (if available in the account)",
           ],
         },
       ],
@@ -69,12 +69,13 @@ export const pikselVkEn: BlogPost = {
             "code appears once per page",
             "no unnecessary Consent or CSP blocking",
             "goal events set if you use them",
-            "test visit visible in the account.",
+            "test visit visible in the account",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Practice",
           text: "Don’t treat 2021 click-by-click scripts as gospel: look up the current “Pixels / Retargeting” section in VK Ads help.",
         },
@@ -94,7 +95,7 @@ export const pikselVkEn: BlogPost = {
             "viewed category A",
             "added to cart",
             "purchased (exclude from “cart”)",
-            "window of 7–30 days — match your deal cycle.",
+            "window of 7–30 days — match your deal cycle",
           ],
         },
       ],

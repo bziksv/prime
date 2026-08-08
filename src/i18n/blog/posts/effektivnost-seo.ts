@@ -8,15 +8,15 @@ export const effektivnostSeoEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/effektivnost-seo/cover-en.webp",
   excerpt:
-    "Organic, brand/non-brand, ranks, and economics: which KPIs to watch, how to compare periods, and how not to confuse site prep with instant top rankings.",
+    "Organic, brand/non-brand, ranks, and economics: which KPIs to watch, how to compare periods, and how not to confuse site prep with instant page-one rankings.",
   lead: [
-    "SEO rarely gives you a “results button” next week. To know whether the channel works, you need KPIs agreed up front: organic volume and quality, brand/non-brand cut, rank movement on the keyword set, and a clear link to leads and revenue.",
-    "A practical evaluation frame for both client and vendor. The first noticeable shifts in the keyword set usually show up around 2–3 months of steady work; building into the top results is planned for 2–6 months — prep weeks are not the same as ranking timelines.",
+    "SEO rarely gives you a “results button” next week. To know whether the channel works, you need KPIs agreed up front: organic volume and quality, a brand/non-brand cut, rank movement on the keyword set, and a clear link to leads and revenue.",
+    "Below: a practical evaluation frame for both client and vendor. The first noticeable shifts in the keyword set usually show up around 2–3 months of steady work; page-one visibility is planned for 2–6 months — prep weeks are not the same as ranking timelines.",
   ],
   faq: [
     {
       q: "Where should I start an SEO report?",
-      a: "Organic (visits/users), search goals/conversions, visibility or share of the keyword set in the top results, brand vs non-brand, SEO spend vs CPA/ROMI (return on marketing investment). Without analytics goals, the report is blind.",
+      a: "Organic (visits/users), search goals/conversions, visibility or page-one share of the keyword set, brand vs non-brand, SEO spend vs CPA/ROMI. Without analytics goals, the report is blind.",
     },
     {
       q: "Are ranks the main KPI?",
@@ -52,7 +52,7 @@ export const effektivnostSeoEn: BlogPost = {
       title: "Why lock KPIs upfront",
       level: 2,
       paras: [
-        "Without agreed metrics, the client expects “#1 tomorrow” and the vendor shows crawl reports — conflict is almost inevitable. KPIs give a shared language: what success means at 30 / 90 / 180 days.",
+        "Without agreed metrics, the client expects “page one tomorrow” and the vendor shows crawl reports — conflict is almost inevitable. KPIs give a shared language: what success means at 30 / 90 / 180 days.",
         "Connect Metrica or Analytics with goals, Search Console (or Webmaster), and a keyword table with priority URLs. Otherwise you’re left with gut feel.",
       ],
       lists: [
@@ -90,9 +90,9 @@ export const effektivnostSeoEn: BlogPost = {
           intro: "Report practice:",
           items: [
             "organic month-over-month and year-over-year",
-            "top search landings",
+            "highest-traffic search landings",
             "new vs old URLs",
-            "exclude clear anomalies (attacks, counter issues).",
+            "exclude clear anomalies (attacks, counter issues)",
           ],
         },
       ],
@@ -117,7 +117,7 @@ export const effektivnostSeoEn: BlogPost = {
             "brand share of organic",
             "brand visit conversion",
             "non-brand commercial cluster dynamics",
-            "brand defense in ads when needed.",
+            "brand defense in ads when needed",
           ],
         },
       ],
@@ -132,7 +132,7 @@ export const effektivnostSeoEn: BlogPost = {
       title: "Ranks and core visibility",
       level: 2,
       paras: [
-        "A rank tracker or Webmaster/GSC exports show how the core moves. Judge share of phrases in the top results-10 / top 3 by priority clusters — not one phrase “in the moment”.",
+        "A rank tracker or Webmaster/GSC exports show how the core moves. Judge share of phrases in the first 10 / first 3 results by priority clusters — not one phrase “in the moment”.",
         "Daily 1–3 spot jumps are noise. Panic fits sustained cluster drops, deindexing, or a SERP intent shift.",
       ],
       lists: [
@@ -140,9 +140,9 @@ export const effektivnostSeoEn: BlogPost = {
           intro: "In the report lock:",
           items: [
             "priority URL × query list",
-            "% of keyword set in the top results-10 vs last period",
-            "new top-result entries and losses",
-            "informational and commercial clusters separately.",
+            "% of keyword set in the first 10 vs last period",
+            "new page-one entries and losses",
+            "informational and commercial clusters separately",
           ],
         },
       ],
@@ -171,7 +171,7 @@ export const effektivnostSeoEn: BlogPost = {
             "period budget",
             "leads/orders from organic",
             "CPA and ROMI when possible",
-            "SEO share of total revenue/leads.",
+            "SEO share of total revenue/leads",
           ],
         },
       ],
@@ -186,7 +186,7 @@ export const effektivnostSeoEn: BlogPost = {
       title: "How to read dynamics without panic",
       level: 2,
       paras: [
-        "Build a simple rhythm: weekly smoke (traffic, account errors), monthly KPI review, quarterly core and priority rethink. A couple of spots down on one key isn’t a reason to break the strategy.",
+        "Build a simple rhythm: weekly smoke check (traffic, account errors), monthly KPI review, quarterly core and priority rethink. A couple of spots down on one key isn’t a reason to break the strategy.",
         "If there’s no organic at all — tech and indexing first. If traffic exists but money doesn’t — audience, landings, and offer. SEO effectiveness is a metric bundle, not one chart.",
       ],
       lists: [
@@ -196,7 +196,7 @@ export const effektivnostSeoEn: BlogPost = {
             "organic grows, conversions fall",
             "only brand grows, commercial stalls",
             "ranks exist, clicks don’t (snippet/intent)",
-            "sharp collapse after a release or breach.",
+            "sharp collapse after a release or breach",
           ],
         },
       ],
@@ -214,7 +214,7 @@ export const effektivnostSeoEn: BlogPost = {
         {
           title: "Timelines",
           kind: "tip",
-          text: "Site prep — a guide of weeks–month. Core ranking buildup after work starts — planned 2–6 months.",
+          text: "Site prep — usually weeks to about a month. Core ranking buildup after work starts — planned 2–6 months.",
         },
       ],
     },

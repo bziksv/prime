@@ -5,13 +5,13 @@ export const sslSertifikatEn: BlogPost = {
   slug: "ssl-sertifikat",
   title: "SSL certificate: why you need it, types, and how to choose",
   date: "2021-11-15",
-  category: "Hosting",
+  category: "SEO",
   cover: "/images/blog/ssl-sertifikat/cover-en.webp",
   excerpt:
     "What an SSL/TLS certificate is, how HTTPS differs from HTTP, certificate types (DV, OV, EV, wildcard), Let’s Encrypt, and what to look at when choosing.",
   lead: [
     "An SSL certificate (today more often called TLS) lets the browser open an encrypted HTTPS connection. Without it, forms, logins, and payments look unsafe — and search engines factor that in.",
-    "HTTPS is the baseline for trust and SEO hygiene. Below: what the protocol means, certificate types, myths about “invulnerability,” and a practical way to choose. Install steps depend on hosting — follow the control panel and docs, not 2019 screenshots.",
+    "Below: what HTTPS means, certificate types, myths about “invulnerability,” and a practical way to choose. Install steps depend on hosting — follow the control panel and docs, not 2019 screenshots.",
   ],
   faq: [
     {
@@ -27,11 +27,11 @@ export const sslSertifikatEn: BlogPost = {
       a: "No. It encrypts the client↔server channel. CMS holes, weak passwords, and XSS aren’t fixed by HTTPS alone.",
     },
     {
-      q: "Does HTTPS affect SEO?",
+      q: "Does it affect SEO?",
       a: "HTTPS is the expected norm. HTTP is often marked insecure; mixed content and broken redirects hurt both SEO and UX.",
     },
     {
-      q: "Do I need an EV certificate with a “green bar”?",
+      q: "Do I need EV with a “green bar”?",
       a: "Extended organization validation still exists, but the bright green address bar is almost gone in modern browsers. For many jobs DV plus correct HTTPS is enough.",
     },
   ],
@@ -43,7 +43,6 @@ export const sslSertifikatEn: BlogPost = {
         "The certificate confirms you’re talking to the right server and enables traffic encryption. Logins, forms, and payment data shouldn’t travel over open HTTP.",
         "In the address bar you’ll see a lock or secure-connection indicator. Browser warnings cut conversion harder than an “ugly design.”",
       ],
-      lists: [],
     },
     {
       title: "HTTP and HTTPS",
@@ -52,7 +51,6 @@ export const sslSertifikatEn: BlogPost = {
         "HTTP sends data without channel encryption. HTTPS is HTTP over TLS: traffic between browser and server is protected from simple network interception.",
         "After moving to HTTPS, set an http→https redirect, canonicals, and consistent www/non-www — otherwise you’ll get duplicates and mixed content.",
       ],
-      lists: [],
       links: [
         {
           label: "Web server: site basics",
@@ -67,7 +65,6 @@ export const sslSertifikatEn: BlogPost = {
         "When the site opens, the browser checks the certificate (issuer, expiry, domain match), then both sides agree on session keys. After that traffic is encrypted.",
         "Search engines index both HTTP and HTTPS, but for users and bots a correct HTTPS without certificate errors is preferred.",
       ],
-      lists: [],
     },
     {
       title: "Certificate classification",
@@ -79,23 +76,24 @@ export const sslSertifikatEn: BlogPost = {
         {
           intro: "By validation:",
           items: [
-            "DV — domain ownership check; fast, often free;",
-            "OV — plus organization validation;",
-            "EV — extended legal-entity check (for some brands and fintech).",
+            "DV — domain ownership check; fast, often free",
+            "OV — plus organization validation",
+            "EV — extended legal-entity check (for some brands and fintech)",
           ],
         },
         {
           intro: "By coverage:",
           items: [
-            "one domain;",
-            "several names (SAN / multi-domain);",
-            "wildcard — all subdomains at `*.example.com`.",
+            "one domain",
+            "several names (SAN / multi-domain)",
+            "wildcard — all subdomains at `*.example.com`",
           ],
         },
       ],
       notes: [
         {
           title: "Practice",
+          kind: "tip",
           text: "A brochure site and blog usually need DV (Let’s Encrypt or a hosting-panel analogue). A store needs correct HTTPS sitewide plus secure checkout via the payment provider.",
         },
       ],
@@ -111,10 +109,10 @@ export const sslSertifikatEn: BlogPost = {
         {
           intro: "Who needs HTTPS by design:",
           items: [
-            "stores and payments;",
-            "logins and forms with personal data;",
-            "any site with an account;",
-            "in practice — almost any public project today.",
+            "stores and payments",
+            "logins and forms with personal data",
+            "any site with an account",
+            "in practice — almost any public project today",
           ],
         },
       ],
@@ -130,11 +128,11 @@ export const sslSertifikatEn: BlogPost = {
         {
           intro: "Checklist after install:",
           items: [
-            "site opens on https with no errors;",
-            "http redirect is set;",
-            "no mixed content;",
-            "expiry and auto-renew are clear;",
-            "in Search Console / analytics — primary HTTPS host.",
+            "site opens on https with no errors",
+            "http redirect is set",
+            "no mixed content",
+            "expiry and auto-renew are clear",
+            "in Search Console / analytics — primary HTTPS host",
           ],
         },
       ],

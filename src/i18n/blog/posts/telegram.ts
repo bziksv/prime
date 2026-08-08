@@ -11,10 +11,10 @@ export const telegramEn: BlogPost = {
     "What Telegram can do: chats, channels, bots, cloud, and security. Pros and cons, comparison with other messengers, and why a business channel helps — without outdated “forever” stats.",
   lead: [
     "Telegram is a cross-platform messenger: personal and group chats, channels, bots, large files, and sync between phone and desktop. For marketing it’s also a media surface with direct delivery into notifications.",
-    "This overview covers purpose, strengths and weaknesses, how it compares with other messengers, and business scenarios. Limits and features update — check current numbers in Telegram Help. How to run a channel from scratch is in a separate article.",
+    "Below: purpose, strengths and weaknesses, how it compares with other messengers, and business scenarios. Limits and features update — check current numbers in Telegram Help. How to run a channel from scratch is in a separate article.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. WhatsApp* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -51,11 +51,11 @@ export const telegramEn: BlogPost = {
         {
           intro: "Typical set:",
           items: [
-            "personal and group chats;",
-            "channels as media;",
-            "bots and mini apps;",
-            "stickers, voice notes, large attachments;",
-            "history sync across devices.",
+            "personal and group chats",
+            "channels as media",
+            "bots and mini apps",
+            "stickers, voice notes, large attachments",
+            "history sync across devices",
           ],
         },
       ],
@@ -71,9 +71,9 @@ export const telegramEn: BlogPost = {
         {
           intro: "Worth remembering:",
           items: [
-            "two-factor auth and the sessions list;",
-            "caution with unknown bots and files;",
-            "a public channel ≠ “full anonymity.”",
+            "two-factor auth and the sessions list",
+            "caution with unknown bots and files",
+            "a public channel ≠ full anonymity",
           ],
         },
       ],
@@ -82,10 +82,9 @@ export const telegramEn: BlogPost = {
       title: "Comparison with other messengers",
       level: 2,
       paras: [
-        "WhatsApp* and similar messengers are often stronger on “contact network”: higher chance the other person is already there. Telegram is more often chosen for desktop, channels, bots, and file work. Viber and others have their niches in calls and communities.",
+        "WhatsApp* and similar messengers are often stronger on contact network: higher chance the other person is already there. Telegram is more often chosen for desktop, channels, bots, and file work. Viber and others have their niches in calls and communities.",
         "The comparison below is a scenario guide, not a forever ranking. Interfaces and limits change; the legal status of some products is in the notice at the top of the article.",
       ],
-      lists: [],
       tables: [
         {
           caption: "Rough scenario comparison",
@@ -101,6 +100,7 @@ export const telegramEn: BlogPost = {
       notes: [
         {
           title: "Note",
+          kind: "tip",
           text: "This material describes platform features. Choosing a messenger for business is a decision that accounts for audience, policy, and law in your jurisdiction.",
         },
       ],
@@ -116,11 +116,11 @@ export const telegramEn: BlogPost = {
         {
           intro: "Business scenarios:",
           items: [
-            "company and product news;",
-            "support and order status;",
-            "warm-up before a launch;",
-            "closed content for clients;",
-            "seeding and partnerships with other channels.",
+            "company and product news",
+            "support and order status",
+            "warm-up before a launch",
+            "closed content for clients",
+            "paid placements and partnerships with other channels",
           ],
         },
       ],

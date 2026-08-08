@@ -11,15 +11,19 @@ export const naymSmmEn: BlogPost = {
     "How to hire an SMM manager or agency: what to check in the portfolio, which interview questions to ask, and how to set a short test without a free “full strategy.”",
   lead: [
     "Hiring SMM from pretty screenshots is risky: reach can hide someone else’s cases, fake engagement, or “posts for posts.” Employers need clear KPIs, live examples, and a thinking check — not a 2019 tool list.",
-    "Before you sign: screen the portfolio, ask hard questions, and set a short unpaid test that doesn’t exploit the candidate. What SMM does day to day is covered in the profession article.",
+    "Below: how to screen a candidate or agency — portfolio, questions, test task. What SMM does day to day is in a separate profession article. Meta product disclaimer is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. Mentions of Instagram* and similar Meta products are illustrative. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "How is this different from the SMM manager article?",
       a: "That one covers duties and entering the profession. This one is the employer’s view: how to vet someone before a contract.",
     },
     {
-      q: "Is long tenure in the job required?",
+      q: "Is long tenure required?",
       a: "Not always. Relevant cases, honest analytics, and niche understanding matter more. A strong junior with a learning project can beat a “veteran” with no numbers.",
     },
     {
@@ -31,7 +35,7 @@ export const naymSmmEn: BlogPost = {
       a: "Not only followers: clicks, leads, cost per inquiry, dialogue quality, saves/replies. Lock them in the contract.",
     },
     {
-      q: "Should you hire an agency or a freelancer?",
+      q: "Agency or freelancer?",
       a: "Depends on volume and channels. What matters is one accountable person, a transparent report, and ad accounts on your side.",
     },
   ],
@@ -41,17 +45,17 @@ export const naymSmmEn: BlogPost = {
       level: 2,
       paras: [
         "The candidate’s profiles on the networks they’ll run: tone, literacy, reply quality, whether they create content or only repost.",
-        "Portfolio: not “pretty pictures,” but task → actions → result (reach, ER (engagement rate), leads, revenue — whatever fits). If there are no numbers — ask why.",
+        "Portfolio: not “pretty pictures,” but task → actions → result (reach, engagement rate, leads, revenue — whatever fits). If there are no numbers — ask why.",
         "Where possible, talk to past clients: did promises match reality.",
       ],
       lists: [
         {
           intro: "Red flags:",
           items: [
-            "guarantees of “viral reach and 10k followers in a month” without caveats",
+            "guarantees of “huge reach and 10k followers in a month” without caveats",
             "refusal to show reporting method",
             "passwords on the specialist’s personal account",
-            "cases built only on faked metrics.",
+            "cases built only on faked metrics",
           ],
         },
       ],
@@ -78,7 +82,7 @@ export const naymSmmEn: BlogPost = {
             "experience in your niche or adjacent",
             "who writes copy and who shoots",
             "who runs paid ads and reporting",
-            "how they hand over access and files.",
+            "how they hand over access and files",
           ],
         },
       ],
@@ -86,9 +90,7 @@ export const naymSmmEn: BlogPost = {
         {
           kind: "tip",
           title: "Tools",
-          paras: [
-            "Analytics and scheduler brand lists go stale. What matters is reading built-in platform stats and rolling a report to your goals — not “knowing every planner brand.”",
-          ],
+          text: "Analytics and scheduler brand lists go stale. What matters is reading built-in platform stats and rolling a report to your goals — not “knowing every planner brand.”",
         },
       ],
     },
@@ -107,7 +109,7 @@ export const naymSmmEn: BlogPost = {
             "account links",
             "who the audience is and what you sell",
             "response deadline (1–3 days)",
-            "format: a 1–2 page document.",
+            "format: a 1–2 page document",
           ],
         },
       ],

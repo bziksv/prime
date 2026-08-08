@@ -11,7 +11,7 @@ export const sarafannoeRadioEn: BlogPost = {
     "How word of mouth works online: exceed expectations, become memorable, ask for a review, partnerships, influencers, and coverage — without fake engagement or fake recommendations.",
   lead: [
     "Word of mouth is when others talk about you: clients, partners, review authors. For business it’s warm traffic with high trust: such leads often decide faster and stay longer.",
-    "Product quality alone isn’t enough: people recommend what is easy and pleasant to talk about. Here are honest ways to spark recommendations without buying fake reviews or inflated ratings.",
+    "Product quality alone isn’t enough: people recommend what is easy and pleasant to talk about. Below: honest ways to spark recommendations without buying fake reviews or inflated ratings.",
   ],
   faq: [
     {
@@ -55,10 +55,10 @@ export const sarafannoeRadioEn: BlogPost = {
         {
           intro: "What people usually recommend:",
           items: [
-            "service that beat expectations;",
-            "a clear result;",
-            "a noticeable difference / story;",
-            "something easy to explain in 15 seconds.",
+            "service that beat expectations",
+            "a clear result",
+            "a noticeable difference / story",
+            "something easy to explain in 15 seconds",
           ],
         },
       ],
@@ -70,7 +70,6 @@ export const sarafannoeRadioEn: BlogPost = {
         "The base is delivering the promise. Word of mouth turns on a “wow” when expectation is slightly exceeded: speed, care, a small post-deal extra, clear onboarding.",
         "Memorability isn’t scandal for hype — it’s a clear USP and memorable delivery: people tell about you more easily when the difference is short and sharp.",
       ],
-      lists: [],
       links: [
         {
           label: "USP",
@@ -93,9 +92,9 @@ export const sarafannoeRadioEn: BlogPost = {
         {
           intro: "A good moment to ask:",
           items: [
-            "right after a positive result;",
-            "when the client already praised you in chat;",
-            "N days after rollout — not on the chaotic day;",
+            "right after a positive result",
+            "when the client already praised you in chat",
+            "N days after rollout — not on the chaotic day",
           ],
         },
       ],
@@ -118,10 +117,10 @@ export const sarafannoeRadioEn: BlogPost = {
         {
           intro: "A practical set:",
           items: [
-            "2–3 partners with a complementary offer;",
-            "cases for reviews and media;",
-            "a fact pack for the author (no fluff);",
-            "UTM/promo code for measurement.",
+            "2–3 partners with a complementary offer",
+            "cases for reviews and media",
+            "a fact pack for the author (no fluff)",
+            "UTM/promo code for measurement",
           ],
         },
       ],
@@ -143,7 +142,6 @@ export const sarafannoeRadioEn: BlogPost = {
         "Build the recommendation ask into post-purchase touchpoints: email, account, manager call. Tie it to service: fix the problem first, then ask for a review.",
         "Track the share of clients “by recommendation,” deal quality, and repeats. If word of mouth is weak with a good product — check whether you ask and how easy it is to leave a review.",
       ],
-      lists: [],
       links: [
         {
           label: "Touchpoints",

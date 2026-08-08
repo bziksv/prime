@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for rassylka-whatsapp — same structure as RU JSON. */
 export const rassylkaWhatsappEn: BlogPost = {
   slug: "rassylka-whatsapp",
-  title: "WhatsApp* broadcasts: Business API, consent, and no spam",
+  title: "WhatsApp broadcasts: Business API, consent, and no spam",
   date: "2022-02-01",
   category: "SMM",
   cover: "/images/blog/rassylka-whatsapp/cover-en.webp",
   excerpt:
-    "How a business can message on WhatsApp* legally: manual broadcast lists, official Business API, templates and sessions — without bought number lists or gray “agency” senders. Meta* disclaimer on the page.",
+    "How a business can message on WhatsApp legally: manual broadcast lists, official Business API, templates and sessions — without bought number lists or gray “agency” senders. Meta note is on the page.",
   lead: [
-    "WhatsApp* for business is a channel for service and marketing messages to people who agreed to hear from you. Mass spam to strangers breaks trust and hits platform rules.",
-    "When a manual app broadcast is enough, why Business API and templates matter, and which topics you must not promote. Don’t treat “billions of users” or 2022 menu screenshots as fixed norms: check current WhatsApp Business rules.",
+    "WhatsApp for business is a channel for service and marketing messages to people who agreed to hear from you. Mass spam to strangers breaks trust and hits platform rules.",
+    "Below: when a manual app broadcast is enough, why Business API and templates matter, and which topics you must not promote. Don’t treat “billions of users” or 2022 menu screenshots as fixed norms: check current WhatsApp Business rules. Meta note is on the page.",
   ],
   legalNotice: {
     title: "Note",
@@ -41,13 +41,12 @@ export const rassylkaWhatsappEn: BlogPost = {
   ],
   sections: [
     {
-      title: "When WhatsApp* fits",
+      title: "When WhatsApp fits",
       level: 2,
       paras: [
         "The channel is strong for order status, appointment reminders, support, and short offers to a warm base. People read messages fast — and block pushy spam just as fast.",
         "It doesn’t replace a site, email, or search ads. It’s a messenger touch next to other channels.",
       ],
-      lists: [],
       links: [
         {
           label: "SMS broadcasts",
@@ -63,7 +62,7 @@ export const rassylkaWhatsappEn: BlogPost = {
       title: "Manual broadcast from the app",
       level: 2,
       paras: [
-        "In WhatsApp* you can build a recipient list from your contacts and send one message to the group (broadcast UI wording depends on the app version).",
+        "In WhatsApp you can build a recipient list from your contacts and send one message to the group (broadcast UI wording depends on the app version).",
         "Plus — control and no “agency” layer. Downside — manual work, limited to your contact book, harder scale and analytics.",
         "Forwarding limits and anti-spam mechanics change: don’t build a process on bypassing restrictions.",
       ],
@@ -74,7 +73,7 @@ export const rassylkaWhatsappEn: BlogPost = {
             "recipients expect messages from the brand",
             "copy is short, with value or a status update",
             "there is a way to opt out / not write again after a block",
-            "don’t mix personal chats and an ad stream without a clear label.",
+            "don’t mix personal chats and an ad stream without a clear label",
           ],
         },
       ],
@@ -87,9 +86,9 @@ export const rassylkaWhatsappEn: BlogPost = {
         "If the customer wrote first, a free-form reply window usually opens for a limited time (check exact rules in Help). To start a dialogue yourself, approved templates are usually required.",
         "Business registration and verification, a number not casually mixed with a personal account — part of access. Verification details and profile badges have changed: follow current Meta/WhatsApp Help, not a 2022 guide.",
       ],
-      lists: [],
       notes: [
         {
+          kind: "tip",
           title: "Important",
           text: "We don’t describe gray senders or “bases from a telecom payment.” The legal path is consent, your own base, official API, or manual work with warm contacts.",
         },
@@ -103,7 +102,6 @@ export const rassylkaWhatsappEn: BlogPost = {
         "Threats, deception, and pushy ads without context land badly. Some niches (prescription drugs, alcohol, gambling, and others) are limited by WhatsApp advertising rules — check the current prohibited list.",
         "Tone: respectful, without “buy now or else.” A bot fits routine questions; complex cases go to a person.",
       ],
-      lists: [],
       links: [
         {
           label: "VK chatbots",
@@ -122,17 +120,15 @@ export const rassylkaWhatsappEn: BlogPost = {
         "A vendor can help with templates, API integration, and reporting. Ask: where the base comes from, whether there is consent, which API provider, who owns the number and templates after the contract.",
         "A “ready base of millions of numbers” is a red flag. Check reputation, the contract, and a pilot on your own opt-in sample.",
       ],
-      lists: [],
     },
     {
       title: "What to remember",
       level: 2,
       paras: [
-        "WhatsApp* runs on consent and usefulness — not cold spam.",
+        "WhatsApp runs on consent and usefulness — not cold spam.",
         "Scale — through official Business API and templates; small volume — manual broadcast to your contacts.",
         "Rules and UI change: check platform Help before launch.",
       ],
-      lists: [],
     },
   ],
   closing: [

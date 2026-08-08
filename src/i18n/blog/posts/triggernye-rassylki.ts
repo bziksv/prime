@@ -11,7 +11,7 @@ export const triggernyeRassylkiEn: BlogPost = {
     "How trigger messages differ from a regular newsletter: welcome, abandoned cart, order, review, back-in-stock, and list win-back — with consent and without spam.",
   lead: [
     "A trigger email goes out automatically after an action or event: subscribe, order, abandoned cart, birthday, a long pause. It’s not a “every Monday” digest — it’s a response to someone’s behavior.",
-    "This piece covers why triggers help business, which scenarios work most often, and how not to slide into spam. Build the list with consent; we don’t use scraping other people’s addresses.",
+    "Below: why triggers help business, which scenarios work most often, and how not to slide into spam. Build the list with consent; we don’t use scraping other people’s addresses.",
   ],
   faq: [
     {
@@ -24,10 +24,10 @@ export const triggernyeRassylkiEn: BlogPost = {
     },
     {
       q: "Where should a beginner start?",
-      a: "Welcome after subscribe and an abandoned cart/lead reminder — if you have a store or form. Then post-purchase and win-back for “sleepers.”",
+      a: "Welcome after subscribe and an abandoned cart/lead reminder — if you have a store or form. Then post-purchase and win-back for sleepers.",
     },
     {
-      q: "Do I need your own ESP?",
+      q: "Do I need an ESP?",
       a: "Yes — an email service or CRM with automations is easier. Check site/CMS integrations and anti-spam rules.",
     },
     {
@@ -40,17 +40,17 @@ export const triggernyeRassylkiEn: BlogPost = {
       title: "Why triggers",
       level: 2,
       paras: [
-        "The message arrives when it’s relevant: just subscribed, left items in cart, received an order. Opens and conversion are usually higher than “the same blast for everyone.”",
-        "Time saved: you set the scenario once, then the system nurtures the customer. Judge results by opens, clicks, and reorder — not template “pretty.”",
+        "The message arrives when it’s relevant: just subscribed, left items in cart, received an order. Opens and conversion are usually higher than the same blast for everyone.",
+        "Time saved: you set the scenario once, then the system nurtures the customer. Judge results by opens, clicks, and reorder — not how pretty the template looks.",
       ],
       lists: [
         {
           intro: "Pros:",
           items: [
-            "personalization by action;",
-            "fast response without a manual blast;",
-            "clear scenario stats;",
-            "fewer noisy mass emails.",
+            "personalization by action",
+            "fast response without a manual blast",
+            "clear scenario stats",
+            "fewer noisy mass emails",
           ],
         },
       ],
@@ -61,7 +61,7 @@ export const triggernyeRassylkiEn: BlogPost = {
       paras: [
         "Welcome: confirm subscribe, set expectations, first useful piece or promo — without an aggressive storefront in email one.",
         "By date: birthday, purchase anniversary, event/webinar reminder. Tone — help, not pressure.",
-        "“Did the action — got the bonus”: after a target step (sign-up, paid plan) send a personal code or instructions. Tie the chain to promo activation so you don’t promise empty offers.",
+        "Did the action — got the bonus: after a target step (sign-up, paid plan) send a personal code or instructions. Tie the chain to promo activation so you don’t promise empty offers.",
       ],
       links: [
         {
@@ -86,9 +86,9 @@ export const triggernyeRassylkiEn: BlogPost = {
         {
           intro: "How it’s built technically:",
           items: [
-            "site/CRM event into the ESP;",
-            "transactional template with order data;",
-            "“cart not empty for N hours” segment for a regular pass — weaker, but sometimes a start.",
+            "site/CRM event into the ESP",
+            "transactional template with order data",
+            "“cart not empty for N hours” segment for a regular pass — weaker, but sometimes a start",
           ],
         },
       ],
@@ -120,11 +120,11 @@ export const triggernyeRassylkiEn: BlogPost = {
         {
           intro: "Launch mini checklist:",
           items: [
-            "event and delay defined;",
-            "template with personalization and CTA;",
-            "exclusions (bought / unsubscribed);",
-            "scenario metrics in the report;",
-            "a legally clean list.",
+            "event and delay defined",
+            "template with personalization and CTA",
+            "exclusions (bought / unsubscribed)",
+            "scenario metrics in the report",
+            "a legally clean list",
           ],
         },
       ],

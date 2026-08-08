@@ -5,18 +5,18 @@ export const vebInterfeysEn: BlogPost = {
   slug: "veb-interfeys",
   title: "Web interface: what it is and where you meet it",
   date: "2021-03-11",
-  category: "Digital marketing",
+  category: "Blog",
   cover: "/images/blog/veb-interfeys/cover-en.webp",
   excerpt:
     "What a web interface is: using a service in the browser instead of a local app — mail, hosting panel, router, cloud. Why teams build it that way, and why it isn’t “just a website.”",
   lead: [
     "A web interface is the set of browser pages through which a person controls a service or a device on a server: buttons, forms, menus, status. It isn’t necessarily a company’s public site — it’s an access shell.",
-    "Think webmail, a router panel, hosting control, or a cloud console: actions happen in the browser without a thick install. Commercial-site usability and a store account are related; here the focus is the idea of web UI itself.",
+    "Below: what the term means and typical examples — webmail, router panel, hosting, cloud. Commercial-site usability and a store account are related; here the focus is the idea of web UI itself.",
   ],
   faq: [
     {
       q: "Is a web interface the same as a website?",
-      a: "A site is a special case. Web UI is broader: hosting admin, billing ads account, router settings page are web UI too.",
+      a: "A site is a special case. Web UI is broader: hosting admin, billing account, router settings page are web UI too.",
     },
     {
       q: "How does it differ from a desktop app?",
@@ -55,7 +55,6 @@ export const vebInterfeysEn: BlogPost = {
         "Web is a network-reachable environment. An interface is how you interact: fields, buttons, tables, setup wizards. Together you control a service without installing a thick client.",
         "Not every site is a “service web interface”: a landing page may only tell a story. An interface appears when the browser does actions — sign in, configure, send, pay, upload a file.",
       ],
-      lists: [],
       links: [
         {
           label: "Web services and APIs",
@@ -71,10 +70,9 @@ export const vebInterfeysEn: BlogPost = {
       title: "Webmail",
       level: 2,
       paras: [
-        "Classic example: Gmail, Outlook on the web, Yahoo Mail — read and send mail in the browser. People used to install desktop clients more often; a web client covers most everyday tasks now.",
+        "Classic example: Gmail, Yandex Mail, Mail — read and send mail in the browser. People used to install Outlook or The Bat more often; a web client covers most everyday tasks now.",
         "The UI has the same entities as an app: inbox, spam, filters, search. Plus — access from any device with a browser.",
       ],
-      lists: [],
       links: [
         {
           label: "Email service",
@@ -90,7 +88,6 @@ export const vebInterfeysEn: BlogPost = {
         "People used to edit via Telnet/CLI more often. A web shell lowers the bar but doesn’t remove caution: factory passwords and “admin on the open internet” are a bad idea.",
         "Exact URL and login are on the sticker or model manual — don’t copy someone else’s screenshots.",
       ],
-      lists: [],
     },
     {
       title: "Hosting panel",
@@ -99,7 +96,6 @@ export const vebInterfeysEn: BlogPost = {
         "Hosts give a panel (ISPmanager, Plesk, cPanel, and others): domains, DNS, mail, SSL, backups, databases. That’s a web UI for administering server resources.",
         "Menu names drift across versions and brands. Find the action by meaning (“SSL,” “databases,” “cron”), not by a 2021 article screenshot.",
       ],
-      lists: [],
       links: [
         {
           label: "Hosting",
@@ -114,7 +110,6 @@ export const vebInterfeysEn: BlogPost = {
         "A drive in the browser, cloud billing, a SaaS console — again web UI: files, permissions, quotas without installing a client (the client is optional).",
         "For business, role separation and action audit matter — those are interface requirements, not “pretty buttons.”",
       ],
-      lists: [],
       links: [
         {
           label: "Yandex Disk",
@@ -134,7 +129,6 @@ export const vebInterfeysEn: BlogPost = {
         "Examples: mail, router, hosting panel, cloud, account area.",
         "Don’t mix it up with an API for programs or a public marketing site with no actions.",
       ],
-      lists: [],
     },
   ],
   closing: [

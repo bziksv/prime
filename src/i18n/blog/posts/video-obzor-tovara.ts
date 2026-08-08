@@ -3,7 +3,8 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for video-obzor-tovara — same structure as RU JSON. */
 export const videoObzorTovaraEn: BlogPost = {
   slug: "video-obzor-tovara",
-  title: "Product video reviews for online stores: how to shoot and where to publish",
+  title:
+    "Product video reviews for online stores: how to shoot and where to publish",
   date: "2019-12-21",
   category: "Content marketing",
   cover: "/images/blog/video-obzor-tovara/cover-en.webp",
@@ -11,7 +12,7 @@ export const videoObzorTovaraEn: BlogPost = {
     "Why a product video belongs on the SKU page, which review types work, how to shoot without a studio, and where to publish — without the “people remember 90% from video” myth or “sales ×N” promises.",
   lead: [
     "Photos and copy answer part of the questions; a short video shows size, fit, what’s in the box, and how it looks in real life. For expensive and tactile SKUs that often clears doubt before the cart.",
-    "Prioritize bestsellers and high-return SKUs, shoot a short honest demo, and put the clip on the product page next to the CTA. Old “10% from text, 90% from video” figures aren’t universal.",
+    "Below: review types, shooting rules, and where to place the clip. The product page as a whole is in a separate article; here the focus is the video. Old “10% from text, 90% from video” figures aren’t universal.",
   ],
   faq: [
     {
@@ -79,16 +80,17 @@ export const videoObzorTovaraEn: BlogPost = {
         {
           intro: "Minimum quality bar:",
           items: [
-            "product in focus, no shake;",
-            "speech audible or captions clear;",
-            "no faked scale or contents;",
-            "file optimized for page speed.",
+            "product in focus, no shake",
+            "speech audible or captions clear",
+            "no faked scale or contents",
+            "file optimized for page speed",
           ],
         },
       ],
       notes: [
         {
           title: "Editing",
+          kind: "tip",
           text: "Trimming pauses and adding captions is enough. 2019 editor names don’t matter — use what your team already knows.",
         },
       ],
@@ -111,7 +113,7 @@ export const videoObzorTovaraEn: BlogPost = {
       title: "Takeaways",
       level: 2,
       paras: [
-        "Top SKUs and a script first, studio later.",
+        "Bestselling SKUs and a script first, studio later.",
         "Honest angles beat a cinematic vibe.",
         "A clip on the product page plus CTA beats a review “somewhere on a channel” with no link.",
       ],

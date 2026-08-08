@@ -11,7 +11,7 @@ export const formaObratnoySvyaziEn: BlogPost = {
     "Why you need a feedback form, which fields to use, where to place the block, how to fight spam, and how to raise the share of completed requests.",
   lead: [
     "A feedback form is a simple module: name, contact, request gist. In practice it drives leads, response speed, and trust in the site.",
-    "Form goals, field structure, placement, antispam, and handling rules — with a focus on clear UX and message delivery, not “another widget for the checklist.”",
+    "Below: form goals, field structure, placement, antispam, and handling rules — with a focus on clear UX and message delivery, not another widget for the checklist.",
   ],
   faq: [
     {
@@ -28,7 +28,7 @@ export const formaObratnoySvyaziEn: BlogPost = {
     },
     {
       q: "Do I need a captcha?",
-      a: "Yes if there’s spam. Modern bots beat simple image captchas — better honeypot, rate-limit, server checks, and current protection (incl. invisible captcha from a provider).",
+      a: "Yes if there’s spam. Modern bots beat simple image captchas — better honeypot, rate-limit, server checks, and current protection (including invisible captcha from a provider).",
     },
     {
       q: "What should I show after submit?",
@@ -50,7 +50,7 @@ export const formaObratnoySvyaziEn: BlogPost = {
             "product or service requests",
             "callback",
             "contact capture for a list (with personal-data consent)",
-            "lead qualification surveys (topic, budget, region).",
+            "lead qualification surveys (topic, budget, region)",
           ],
         },
       ],
@@ -68,13 +68,14 @@ export const formaObratnoySvyaziEn: BlogPost = {
           items: [
             "a test request reaches the inbox and/or CRM",
             "a backup channel (messenger/phone) exists if mail fails",
-            "send errors are logged on the server.",
+            "send errors are logged on the server",
           ],
         },
       ],
       notes: [
         {
           title: "Practice",
+          kind: "tip",
           text: "Once a quarter send a test request from an external address. Half of “lost leads” are dead SMTP and a full inbox — not “bad traffic.”",
         },
       ],
@@ -94,7 +95,7 @@ export const formaObratnoySvyaziEn: BlogPost = {
             "topic (dropdown)",
             "message / task description",
             "optional attachment (size and format limits)",
-            "personal-data processing consent checkbox.",
+            "personal-data processing consent checkbox",
           ],
         },
       ],
@@ -125,7 +126,7 @@ export const formaObratnoySvyaziEn: BlogPost = {
             "service and category cards",
             "end of a blog article with an offer",
             "landing — by the CTA",
-            "modal on click (don’t pop aggressively on entry).",
+            "modal on click (don’t pop aggressively on entry)",
           ],
         },
       ],
@@ -149,7 +150,7 @@ export const formaObratnoySvyaziEn: BlogPost = {
             "server checks, not only JS",
             "honeypot or invisible captcha",
             "submit rate limit",
-            "filter links/stop-words in the message (carefully, avoid false positives).",
+            "filter links/stop-words in the message (carefully, avoid false positives)",
           ],
         },
       ],
@@ -168,13 +169,14 @@ export const formaObratnoySvyaziEn: BlogPost = {
             "mobile layout and large inputs",
             "a reply-time promise you keep",
             "a backup channel (phone, messenger)",
-            "a polite auto-reply and a real manager response.",
+            "a polite auto-reply and a real manager response",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
+          kind: "tip",
           text: "Ignoring requests past the promised window. Interest was already there — silence hurts trust more than having no form.",
         },
       ],
@@ -185,7 +187,6 @@ export const formaObratnoySvyaziEn: BlogPost = {
       paras: [
         "A form works when it has a clear goal, short fields, a sensible place on the site, spam protection, and a reply process. Technically it’s HTML + server handling; in meaning — a dialogue promise the team must keep.",
       ],
-      lists: [],
     },
   ],
 };

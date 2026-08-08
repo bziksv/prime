@@ -11,10 +11,10 @@ export const sohranitFotoInstagramEn: BlogPost = {
     "How to download your own or permitted Instagram photos: in-app save, browser, iPhone and Android quirks, and Direct — plus copyright basics and why shady “downloaders” are risky.",
   lead: [
     "You usually save an Instagram frame for your archive, client approval, or another channel. The app UI keeps changing, so this guide covers the methods — not outdated 2020 button screenshots.",
-    "Others’ photos are copyrighted. Downloading them “to repost without asking” is bad practice. This piece is informational only.",
+    "Others’ photos are copyrighted. Downloading them “to repost without asking” is bad practice. Below: legal paths for your own content and careful boundaries for everyone else’s. This piece is informational only.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -63,10 +63,10 @@ export const sohranitFotoInstagramEn: BlogPost = {
         {
           intro: "Legal scenarios:",
           items: [
-            "archive of your own posts;",
-            "export for a client per brief;",
-            "content with written permission;",
-            "stock or your own shoots instead of “downloaded from the feed”.",
+            "archive of your own posts",
+            "export for a client per brief",
+            "content with written permission",
+            "licensed assets or your own shoots instead of “downloaded from the feed”",
           ],
         },
       ],
@@ -89,9 +89,9 @@ export const sohranitFotoInstagramEn: BlogPost = {
         {
           intro: "Before saving:",
           items: [
-            "update the app;",
-            "confirm the post is yours or you have rights;",
-            "for carousels, save the frame you need separately if the UI offers it.",
+            "update the app",
+            "confirm the post is yours or you have rights",
+            "for carousels, save the frame you need separately if the UI offers it",
           ],
         },
       ],
@@ -113,9 +113,9 @@ export const sohranitFotoInstagramEn: BlogPost = {
         {
           intro: "Habit for creators:",
           items: [
-            "shoot → back up to album or cloud immediately;",
-            "the feed gets a copy, not the only file;",
-            "send the client the original, not a crop from Instagram.",
+            "shoot → back up to album or cloud immediately",
+            "the feed gets a copy, not the only file",
+            "send the client the original, not a crop from Instagram",
           ],
         },
       ],
@@ -131,9 +131,9 @@ export const sohranitFotoInstagramEn: BlogPost = {
         {
           intro: "Security:",
           items: [
-            "official client or app store only;",
-            "no “cracked” clients;",
-            "2FA on the account;",
+            "official client or app store only",
+            "no “cracked” clients",
+            "2FA on the account",
           ],
         },
       ],
@@ -155,9 +155,9 @@ export const sohranitFotoInstagramEn: BlogPost = {
         {
           intro: "When a PC helps:",
           items: [
-            "bulk archive of your data;",
-            "client approval by email;",
-            "moving files to the team drive.",
+            "bulk archive of your data",
+            "client approval by email",
+            "moving files to the team drive",
           ],
         },
       ],
@@ -179,9 +179,9 @@ export const sohranitFotoInstagramEn: BlogPost = {
         {
           intro: "For the team:",
           items: [
-            "brief and originals on a shared drive;",
-            "Direct — for quick comments;",
-            "don’t keep the only version only in the messenger.",
+            "brief and originals on a shared drive",
+            "Direct — for quick comments",
+            "don’t keep the only version only in the messenger",
           ],
         },
       ],

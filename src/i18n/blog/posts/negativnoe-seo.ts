@@ -11,7 +11,7 @@ export const negativnoeSeoEn: BlogPost = {
     "Negative SEO means attempts to harm someone else’s site in search. Which signals show up, how to monitor and defend — without attack how-tos, DDoS, or “ban a competitor” guides.",
   lead: [
     "Negative SEO is manipulation aimed at worsening another site’s rankings or reputation: toxic links, complaints, content copying, hacking. Searches like “how to ban a competitor” usually lead to harmful advice; we cover defense.",
-    "From a site owner’s seat: typical threats, what to monitor, and what to do legally when something looks like an attack. There are no instructions for attacks, DDoS, hacking, or link bombing.",
+    "Below: typical threats from a site owner’s view, and what to do legally. There are no instructions for attacks, DDoS, hacking, or link bombing — and there won’t be.",
   ],
   faq: [
     {
@@ -27,7 +27,7 @@ export const negativnoeSeoEn: BlogPost = {
       a: "A sudden flood of junk links to your domain. Monitor backlinks; when needed use disavow/rejection tools per the engine’s rules and strengthen your own profile.",
     },
     {
-      q: "Someone stole our copy — what should we do next?",
+      q: "Someone stole our copy — what should we do?",
       a: "Document the facts, contact the copy sites, involve a lawyer if needed. On your side, strengthen uniqueness and publish/authority signals.",
     },
     {
@@ -36,7 +36,7 @@ export const negativnoeSeoEn: BlogPost = {
     },
     {
       q: "What about competitor affiliate sites?",
-      a: "A network of lookalike sites under one beneficiary risks a filter for them. You care more about not spawning your own mirrors; see the affiliate filter.",
+      a: "A network of near-identical sites under one beneficiary risks a filter for them. You care more about not spawning your own mirrors; see the affiliate filter.",
     },
     {
       q: "How do I know a drop isn’t from an attack?",
@@ -56,7 +56,6 @@ export const negativnoeSeoEn: BlogPost = {
         "Schemes from old posts (buy access, bomb with links, DDoS) are either illegal or easily hurt the initiator. We don’t describe them as instructions.",
         "If a competitor breaks the law or a platform’s rules — use official channels and a lawyer, not a “nuke the rival” tariff.",
       ],
-      lists: [],
     },
     {
       title: "Typical threats (defense overview)",
@@ -68,9 +67,9 @@ export const negativnoeSeoEn: BlogPost = {
         "CMS compromise: spam pages, redirects, hidden text — often looks like a “filter,” but it’s a hack.",
         "Availability attacks (DDoS) — infrastructure, not a “button in Webmaster.”",
       ],
-      lists: [],
       notes: [
         {
+          kind: "tip",
           title: "No attack how-tos",
           text: "Details of running link bombs, cloaking “for a complaint,” hacking, and DDoS are intentionally omitted.",
         },
@@ -100,10 +99,10 @@ export const negativnoeSeoEn: BlogPost = {
         {
           intro: "Monthly mini-ritual:",
           items: [
-            "core positions/traffic snapshot",
+            "core rankings/traffic snapshot",
             "security check in the panels",
             "a look at new referring domains",
-            "backup and CMS/plugin updates.",
+            "backup and CMS/plugin updates",
           ],
         },
       ],
@@ -127,7 +126,6 @@ export const negativnoeSeoEn: BlogPost = {
         "On toxic links — document, follow the engine’s current guidance, strengthen your content and natural profile.",
         "On content copies — DMCA/platform complaints under their rules; a lawyer if there’s damage.",
       ],
-      lists: [],
     },
     {
       title: "Takeaways",
@@ -137,7 +135,6 @@ export const negativnoeSeoEn: BlogPost = {
         "Attacks like DDoS and hacking sit outside “white SEO” and often outside the law.",
         "Grow your own property: tech, content, links by the rules — stronger than “ban the competitor.”",
       ],
-      lists: [],
     },
   ],
   closing: [

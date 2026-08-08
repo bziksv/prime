@@ -11,7 +11,7 @@ export const verstkaEmailEn: BlogPost = {
     "How to build HTML emails: why tables beat divs, CSS limits, responsive design, images, Outlook, and client testing — without the myth that a broken layout equals instant spam.",
   lead: [
     "A polished Figma mock doesn’t guarantee the same look in Gmail, Yandex Mail, Apple Mail, and Outlook. Clients strip CSS differently, so email layout plays by its own rules.",
-    "Build on tables for the frame, put critical styles inline, and test in real clients — not only the ESP preview. Treat 2019 DOCTYPE tips as historical and match them against your ESP’s current templates.",
+    "Below: what broken layout costs, the basic code structure, content limits, and how to test. Treat 2019 DOCTYPE tips as historical and match them against your ESP’s current templates.",
   ],
   faq: [
     {
@@ -57,18 +57,18 @@ export const verstkaEmailEn: BlogPost = {
       level: 2,
       paras: [
         "The frame is tables with fixed or fluid width (often ~600px for the desktop column). Nested tables for modules beat complex floats.",
-        "Spell out CSS where clients fuss (`margin-top` instead of shorthand); put critical styles inline. Background images and rare properties need a separate Outlook check.",
+        "Spell out CSS where clients fuss (longhand margins instead of shorthand); put critical styles inline. Background images and rare properties need a separate Outlook check.",
         "Valid, simple markup beats “pretty” modern CSS copied from a website.",
       ],
       lists: [
         {
           intro: "Basic rules:",
           items: [
-            "table frame;",
-            "inline for key styles;",
-            "web-safe or linked fonts with a fallback;",
-            "large tap targets;",
-            "test in Outlook and on iOS.",
+            "table frame",
+            "inline for key styles",
+            "web-safe or linked fonts with a fallback",
+            "large tap targets",
+            "test in Outlook and on iOS",
           ],
         },
       ],
@@ -99,7 +99,7 @@ export const verstkaEmailEn: BlogPost = {
     },
   ],
   notes: {
-    title: "Important",
+    title: "Note",
     text: "Tips on a specific DOCTYPE and CSS list are a ~2019 practice snapshot. Clients keep changing; keep a library of proven modules and run regression tests before a big send.",
   },
   closing: [

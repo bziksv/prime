@@ -11,7 +11,7 @@ export const tzKopirayteraEn: BlogPost = {
     "A copywriter brief that covers goal, audience, outline, facts, stop-list, and acceptance criteria — for sales, SEO, and homepage copy, without treating “95% uniqueness” as the only KPI.",
   lead: [
     "Weak copy often starts with a vague order: “write about wallpaper, make it nice, add keywords.” A clear brief cuts revisions — even with a mid-level writer.",
-    "A solid brief locks the goal, audience, must-have facts, and how you’ll accept the draft. Types of copy and how to hire live in our general copywriting guide; if you’re writing yourself, use the article-writing algorithm instead.",
+    "Below: why you need a brief, a framework for sales copy, homepage and SEO nuances, and basic acceptance rules. Types of copy and how to hire live in our general copywriting guide; if you’re writing yourself, use the article-writing algorithm instead.",
   ],
   faq: [
     {
@@ -24,7 +24,7 @@ export const tzKopirayteraEn: BlogPost = {
     },
     {
       q: "Do I need keywords in the brief?",
-      a: "For SEO pages — yes: the cluster, preferred forms, and where they belong. Without a core and intent, a keyword list is almost useless.",
+      a: "For SEO pages — yes: the cluster, preferred forms, and where they belong. Without a keyword set and intent, a keyword list is almost useless.",
     },
     {
       q: "What uniqueness score should I require?",
@@ -56,32 +56,32 @@ export const tzKopirayteraEn: BlogPost = {
         "You reach an acceptable draft faster and cheaper than waiting for a “perfect” author with no brief.",
         "It gives acceptance criteria: you revise on substance, not endless taste debates.",
       ],
-      lists: [],
     },
     {
       title: "Framework for sales copy",
       level: 2,
       paras: [
         "Collect offer pros and cons from sales or marketing. Lock the goal (lead, trial, call), the audience, a draft outline with headings, theses, and the questions the text must answer.",
-        "Add stop-rules (fluff, clichés, promises you can’t keep) and how you differ from competitors — in your own words and with real facts.",
+        "Add stop-rules (fluff, clichés, promises you can’t keep) and how you differ from competitors on page one — in your own words and with real facts.",
       ],
       lists: [
         {
           intro: "Minimum blocks in the brief:",
           items: [
-            "goal and CTA;",
-            "reader persona;",
-            "outline / H2s;",
-            "must-have facts and figures;",
-            "objection checklist;",
-            "stop-words and banned tactics;",
-            "length, tone, deadline, revision limit.",
+            "goal and CTA",
+            "reader persona",
+            "outline / H2s",
+            "must-have facts and figures",
+            "objection checklist",
+            "stop-words and banned tactics",
+            "length, tone, deadline, revision limit",
           ],
         },
       ],
       notes: [
         {
           title: "Logic example",
+          kind: "tip",
           text: "Language school: goal is to book a level test; audience is people who studied before; outline runs problem → benefit of knowing the language → why know your level → CTA; ban openers like “everyone knows…”",
         },
       ],
@@ -93,7 +93,6 @@ export const tzKopirayteraEn: BlogPost = {
         "Homepage: hand over advantage theses, services, facts, reviews, client FAQ, and competitor notes yourself — don’t expect the writer to invent the brand from a Google search. See also the homepage-copy article.",
         "SEO: attach the cluster, page intent, and placement guidance without stuffing. An SEO consult before the brief saves rewrites.",
       ],
-      lists: [],
       links: [
         {
           label: "Homepage copy",
@@ -116,7 +115,6 @@ export const tzKopirayteraEn: BlogPost = {
         "Structure: subheads, lists, readable paragraphs. Tone: company voice or impersonal; keep the “you” form consistent throughout.",
         "Check uniqueness with the tool named in the brief, but don’t chase 100% at the cost of meaning. Attach style references in advance.",
       ],
-      lists: [],
       links: [
         {
           label: "Uniqueness checks",
@@ -136,7 +134,6 @@ export const tzKopirayteraEn: BlogPost = {
         "For homepage and SEO pages the brief is thicker than “just an article.”",
         "An anti-plagiarism percentage is a guide, not the only goal.",
       ],
-      lists: [],
     },
   ],
   closing: [

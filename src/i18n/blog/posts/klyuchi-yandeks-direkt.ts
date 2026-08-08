@@ -11,7 +11,7 @@ export const klyuchiYandeksDirektEn: BlogPost = {
     "How to size keyword coverage for Search and the Yandex Advertising Network (YAN) in Direct: campaign goal, assortment, ad-group limits, and profitability — without a “universal keyword count” or mixing it up with SEO.",
   lead: [
     "There’s no universal “right number” of keywords in Yandex Direct: volume depends on goal, assortment, region, and channel (Search or YAN). Few phrases ≠ automatically cheaper; many phrases ≠ automatically more profitable.",
-    "Base keyword collection on the offer and analytics; Search and YAN need different lists — don’t bloat a campaign without data. Negatives and bid strategies live in related articles. Account limits (phrases per group, length) — check Help: they’ve changed.",
+    "Below: what to base the keyword set on, how Search differs from YAN, and how not to bloat a campaign without analytics. Negatives and bid strategies live in related articles. Account limits (phrases per group, length) — check Help: they’ve changed.",
   ],
   faq: [
     {
@@ -55,11 +55,11 @@ export const klyuchiYandeksDirektEn: BlogPost = {
         {
           intro: "Volume is driven by:",
           items: [
-            "assortment width and number of landings;",
-            "region and delivery geography;",
-            "team experience (a wide set is harder to prune);",
-            "budget and willingness to test;",
-            "channel: Search vs YAN.",
+            "assortment width and number of landings",
+            "region and delivery geography",
+            "team experience (a wide set is harder to prune)",
+            "budget and willingness to test",
+            "channel: Search vs YAN",
           ],
         },
       ],
@@ -70,12 +70,13 @@ export const klyuchiYandeksDirektEn: BlogPost = {
       paras: [
         "In Search the user writes the query: account for synonyms, “specialist vs service,” regional modifiers, and cut irrelevance with negatives.",
         "High-volume generic phrases without region and qualifiers are often expensive and broad. Narrow commercial and local queries are easier to tie to the offer.",
-        "Set budget with campaign/weekly caps and watch KPIs (CPA, ROAS/DRR) — not “how many keywords fit.” Minimum top-up thresholds in the UI have changed — use the account as the guide.",
+        "Set budget with campaign/weekly caps and watch KPIs (CPA, ROAS/DRR) — not “how many keywords fit.” Minimum account-funding thresholds in the UI have changed — use the account as the guide.",
       ],
       notes: [
         {
           title: "Don’t confuse with SEO",
-          text: "Keywords in Direct don’t “lift the site in organic by themselves.” This is paid demand management.",
+          kind: "tip",
+          text: "Keywords in Direct don’t raise organic rankings by themselves. This is paid demand management.",
         },
       ],
       links: [
@@ -116,11 +117,11 @@ export const klyuchiYandeksDirektEn: BlogPost = {
         {
           intro: "Remember:",
           items: [
-            "volume = goal + assortment — not a “magic N”;",
-            "Search and YAN — different set logic;",
-            "profitability beats saving on phrase count;",
-            "account limits — from current Help;",
-            "negatives and reports are required.",
+            "volume = goal + assortment — not a “magic N”",
+            "Search and YAN — different set logic",
+            "profitability beats saving on phrase count",
+            "account limits — from current Help",
+            "negatives and reports are required",
           ],
         },
       ],

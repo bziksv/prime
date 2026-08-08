@@ -11,7 +11,7 @@ export const privetstvieVkEn: BlogPost = {
     "A VK group greeting: why use a widget or a message to newcomers, what to write, and how not to annoy — without hype for one app or promises of “instant growth.”",
   lead: [
     "A VK community greeting meets a guest or new follower: short who you are, what to do next, where the rules and offer live. It’s a funnel entry point, not a decorative banner.",
-    "We cover the point of a greeting, text structure, and caution with widgets. Specific apps from the VK catalog (old guides often named SpyCat) change: use current community apps and VK Help, not 2020 screenshots.",
+    "Below: the point of a greeting, text structure, and caution with widgets. Specific apps from the VK catalog (old guides often named SpyCat) change: use current community apps and VK Help, not 2020 screenshots.",
   ],
   faq: [
     {
@@ -51,7 +51,7 @@ export const privetstvieVkEn: BlogPost = {
             "route to catalog/services",
             "collect a message/lead",
             "send people to the rules",
-            "announce a subscribe bonus (honestly).",
+            "announce a subscribe bonus (honestly)",
           ],
         },
       ],
@@ -81,15 +81,15 @@ export const privetstvieVkEn: BlogPost = {
             "one main CTA",
             "no fake “today only −90%”",
             "tone matches the feed",
-            "a path for people who haven’t subscribed yet.",
+            "a path for people who haven’t subscribed yet",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Common mistake",
           text: "The greeting covers the cover and annoys: long copy, autoplay, aggressive pop-up. Better short and useful.",
-          kind: "warning",
         },
       ],
     },
@@ -116,7 +116,7 @@ export const privetstvieVkEn: BlogPost = {
             "the button goes where it should",
             "copy has no typos",
             "mobile view checked",
-            "a replacement plan if the app is retired.",
+            "a replacement plan if the app is retired",
           ],
         },
       ],

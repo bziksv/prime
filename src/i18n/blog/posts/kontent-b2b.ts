@@ -3,7 +3,7 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for kontent-b2b — same structure as RU JSON. */
 export const kontentB2bEn: BlogPost = {
   slug: "kontent-b2b",
-  title: "5 content types for B2B brands",
+  title: "5 content types that work for B2B brands",
   date: "2018-05-14",
   category: "Content marketing",
   cover: "/images/blog/kontent-b2b/cover-en.webp",
@@ -11,7 +11,7 @@ export const kontentB2bEn: BlogPost = {
     "What works in B2B content: reviews and UGC, fast contact, interactives, case studies, and a live voice — without outdated “% trust” stats and +800% in a month promises.",
   lead: [
     "In B2B a group often decides, the cycle is longer, and trust is built on proof — not a short “selling” paragraph. Content should help choose and align the purchase.",
-    "Five formats consistently cover these jobs. 2018 roundup figures aren’t universal — go by your funnel and your own measurements.",
+    "Below: five formats that consistently cover these jobs. 2018 roundup figures aren’t universal — go by your funnel and your own measurements.",
   ],
   faq: [
     {
@@ -48,14 +48,15 @@ export const kontentB2bEn: BlogPost = {
       title: "1. Reviews and UGC",
       level: 2,
       paras: [
-        "User-generated content (UGC) and reviews lower the “unknown vendor” risk. Before a deal, B2B buyers look for proof online and on your site.",
+        "User-generated content and reviews lower the “unknown vendor” risk. Before a deal, B2B buyers look for proof online and on your site.",
         "Ask recent clients for a short breakdown: problem → why they chose you → result. Put it on the site and (with consent) offer a channel for an external review.",
-        "Brand advocates from loyal clients work when it’s voluntary — no rating schemes.",
+        "Brand advocates from loyal clients work when it’s voluntary — no fake ratings.",
       ],
       notes: [
         {
           title: "No outsider stats as dogma",
           text: "Shares like “75% trust reviews” from old roundups aren’t law. Watch conversion on pages with reviews for yourself.",
+          kind: "tip",
         },
       ],
     },
@@ -110,11 +111,11 @@ export const kontentB2bEn: BlogPost = {
         {
           intro: "Remember:",
           items: [
-            "proof beats slogans;",
-            "reach at the moment of the question;",
-            "interactive = qualification;",
-            "cases with honest numbers;",
-            "clear tone without empty jargon.",
+            "proof beats slogans",
+            "contact at the moment of the question",
+            "interactive = qualification",
+            "cases with honest numbers",
+            "clear tone without empty jargon",
           ],
         },
       ],

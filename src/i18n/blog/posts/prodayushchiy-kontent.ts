@@ -11,7 +11,7 @@ export const prodayushchiyKontentEn: BlogPost = {
     "What selling content in social media is: goals, B2C and B2B, post types, and how to build a plan without endless “buy now” and outdated % from old reviews.",
   lead: [
     "Selling content drives action: click, lead, purchase. It’s not only a “−50% sale” — it’s a mix of offer, value, and proof fitted to the audience.",
-    "Goals, B2C/B2B differences, post types, and plan-building rules sit here. Commercial-copy structure and feed-format taxonomy live elsewhere. Old “70% of businesses / 80% bought because of a post” figures aren’t universal. Mentions of Instagram and Facebook are informational.",
+    "Below: goals, B2C/B2B differences, post types, and plan-building rules. Commercial-copy structure and feed-format taxonomy live elsewhere. Old “70% of businesses / 80% bought because of a post” figures aren’t universal. Mentions of Instagram and Facebook are informational.",
   ],
   legalNotice: {
     title: "Note",
@@ -55,7 +55,6 @@ export const prodayushchiyKontentEn: BlogPost = {
         "Follower growth is a side effect. Closer to money: click to site/catalog, dialogue, lead. The site must work on mobile and match the post promise.",
         "The link in the post — immediate and on-point. Deception (price, origin, deadlines) kills sales faster than “weak creative.”",
       ],
-      lists: [],
       links: [
         {
           label: "Selling copy",
@@ -77,7 +76,7 @@ export const prodayushchiyKontentEn: BlogPost = {
             "who buys and which job they close",
             "objections and segment triggers",
             "where the audience lives (platform/format)",
-            "what counts as post success (not only a like).",
+            "what counts as post success (not only a like)",
           ],
         },
       ],
@@ -92,7 +91,6 @@ export const prodayushchiyKontentEn: BlogPost = {
         "Situational: reaction to an event or date — fast and fitting, no toxic jokes.",
         "Stories and cases: structure, sincerity, link to the service — not gossip for hype.",
       ],
-      lists: [],
       links: [
         {
           label: "Content types in social",
@@ -119,12 +117,13 @@ export const prodayushchiyKontentEn: BlogPost = {
             "visuals in one system (color, type, frame)",
             "motion (video/Stories) — within capacity, not for the report",
             "ads and organic for different audience segments",
-            "measure leads, not only reach.",
+            "measure leads, not only reach",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Related formats",
           text: "A selling Instagram post and the general copy frame live in separate pieces. Here — mix strategy and planning.",
         },
@@ -144,7 +143,6 @@ export const prodayushchiyKontentEn: BlogPost = {
         "A mix of types beats a daily shop window.",
         "B2C and B2B need different tone and proof.",
       ],
-      lists: [],
     },
   ],
   closing: [

@@ -11,7 +11,7 @@ export const otzyv2gisEn: BlogPost = {
     "How to handle negative reviews on 2GIS: talk to the author, report to moderators, when not to close the listing, and why an honest review usually stays.",
   lead: [
     "Reviews on 2GIS shape choice: people look at rating, recent comments, and company replies. You can’t “erase negativity on demand” — the platform has rules, and deleting honest criticism hurts trust more than the review itself.",
-    "Talk to the author, report real rule breaches, and fix the service gap — don’t try to “erase” honest criticism. Reply tone is covered in the companion piece on negative reviews.",
+    "Below: working scenarios — talk to the author, report a rules breach, what not to do with the listing, and how to reduce the flow of negativity. Reply tone is covered in the companion piece on negative reviews.",
   ],
   faq: [
     {
@@ -64,6 +64,7 @@ export const otzyv2gisEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Important",
           text: "Fake positive reviews and gray-market deletion via middlemen break the rules and are risky. Don’t use those schemes.",
         },
@@ -89,6 +90,7 @@ export const otzyv2gisEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Related reading",
           text: "Reply tone, apologies, and speed are covered separately: /en/blog/negativnyy-otzyv/.",
         },
@@ -183,4 +185,4 @@ export const otzyv2gisEn: BlogPost = {
     "yandeks-spravochnik",
     "otzyvy-dlya-prodazh",
   ],
-} as BlogPost;
+};

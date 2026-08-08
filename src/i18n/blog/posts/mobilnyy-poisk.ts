@@ -11,7 +11,7 @@ export const mobilnyyPoiskEn: BlogPost = {
     "How the mobile SERP differs from desktop, why check ranks and UX on a phone, responsive vs m-site, and what to do with speed after the Turbo/AMP hype faded.",
   lead: [
     "A large share of search traffic comes from smartphones. Mobile-first indexing and separate blocks in the mobile SERP make “desktop-only checks” a blind spot: ranks, snippets, and phone usability can diverge from desktop.",
-    "SERP differences, how to check and adapt the site, when responsive is enough and when speed needs focus, and how not to build strategy on outdated AMP-style acceleration formats.",
+    "Below: how the SERPs differ, how to check and adapt the site, when responsive is enough and when speed needs focus, and how not to build strategy on outdated accelerators like Turbo.",
   ],
   faq: [
     {
@@ -23,7 +23,7 @@ export const mobilnyyPoiskEn: BlogPost = {
       a: "For Google the mobile version has long been the indexing base. In Yandex mobility is in the formula too. Broken smartphone UX = risk.",
     },
     {
-      q: "Should I use responsive design or a separate m-site?",
+      q: "Responsive or a separate m-site?",
       a: "Default: responsive on one URL. A separate m. is legacy with duplicate and drift risks.",
     },
     {
@@ -32,19 +32,19 @@ export const mobilnyyPoiskEn: BlogPost = {
     },
     {
       q: "Does every site need AMP?",
-      a: "No. Correct mobile and Core Web Vitals first; AMP — point-wise.",
+      a: "No. Correct mobile and Core Web Vitals first; AMP only for narrow cases.",
     },
     {
       q: "How often should I pull mobile rankings?",
       a: "On the priority core — regularly (weekly / after updates). Watch cluster dynamics, not one phrase.",
     },
     {
-      q: "Is a Mobile-Friendly test enough for mobile SEO?",
+      q: "Is a Mobile-Friendly test enough?",
       a: "That’s the base. Add speed, real phones, forms, and key templates in mobile analytics.",
     },
     {
       q: "When should I expect growth from mobile fixes?",
-      a: "UX and conversion can improve fast. Competitive-core rankings are planned for 2–6 months after systematic work starts — not “TOP next week.”",
+      a: "UX and conversion can improve fast. Competitive-core rankings are planned for months of work — not page one next week. Share of the core typically builds over two to six months after work starts.",
     },
   ],
   sections: [
@@ -53,16 +53,16 @@ export const mobilnyyPoiskEn: BlogPost = {
       level: 2,
       paras: [
         "Mobile share in organic for most niches dominates or is near half+. Algorithms like the historical Mobilegeddon and Yandex’s “Vladivostok” formula locked in: smartphone usability is a ranking and traffic-survival factor.",
-        "Google has long relied on a mobile-first index: for the bot the mobile document is the reference. If it’s “pretty only on a monitor”, you lose both UX and visibility.",
+        "Google has long relied on a mobile-first index: for the bot the mobile document is the reference. If it’s pretty only on a monitor, you lose both UX and visibility.",
       ],
       lists: [
         {
-          intro: "Risks of “desktop only”:",
+          intro: "Risks of desktop-only:",
           items: [
             "different ranks and snippets",
             "high bounce on smartphone",
             "lost local and “on the go” queries",
-            "weak conversion from the phone.",
+            "weak conversion from the phone",
           ],
         },
       ],
@@ -77,8 +77,8 @@ export const mobilnyyPoiskEn: BlogPost = {
       title: "How the mobile SERP differs",
       level: 2,
       paras: [
-        "The mobile SERP is built on smartphone and tablet stats: different clicks, different blocks (maps, quick answers, local packs). Don’t copy the desktop top one-to-one into a “we’re in TOP” report.",
-        "Monitor ranks in the mobile slice of Yandex and Google on the commercial core. Otherwise you optimize a “pretty PC picture” while leads come from the phone.",
+        "The mobile SERP is built on smartphone and tablet stats: different clicks, different blocks (maps, quick answers, local packs). Don’t copy the desktop top one-to-one into a “we’re ranking” report.",
+        "Monitor ranks in the mobile slice of Yandex and Google on the commercial core. Otherwise you optimize a pretty PC picture while leads come from the phone.",
       ],
       lists: [
         {
@@ -87,7 +87,7 @@ export const mobilnyyPoiskEn: BlogPost = {
             "mobile vs desktop ranks",
             "snippet CTR on smartphone",
             "local and “near me” queries",
-            "featured/quick answers on info clusters.",
+            "featured/quick answers on info clusters",
           ],
         },
       ],
@@ -103,7 +103,7 @@ export const mobilnyyPoiskEn: BlogPost = {
       level: 2,
       paras: [
         "Start with analytics: mobile share, devices, top landings by visits and goals. Check mobile-friendly and speed (PageSpeed/Lighthouse in mobile mode).",
-        "In DevTools emulate key models, but also check 2–3 real phones. Remove horizontal scroll, tiny type, heavy scripts, aggressive popups, and outdated Flash-like junk.",
+        "In DevTools emulate key models, but also check two or three real phones. Remove horizontal scroll, tiny type, heavy scripts, aggressive popups, and outdated Flash-like junk.",
       ],
       lists: [
         {
@@ -113,15 +113,15 @@ export const mobilnyyPoiskEn: BlogPost = {
             "audit of main templates",
             "HTTPS and a proper viewport",
             "Search Console / Webmaster — mobile errors",
-            "regular mobile rank pulls on the core.",
+            "regular mobile rank pulls on the core",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
-          text: "“Squeezing” desktop CSS without changing content and form priority. On a phone the first screen must match the job, with large touch targets.",
-          kind: "tip",
+          kind: "warning",
+          text: "Squeezing desktop CSS without changing content and form priority. On a phone the first screen must match the job, with large touch targets.",
         },
       ],
       links: [
@@ -136,20 +136,20 @@ export const mobilnyyPoiskEn: BlogPost = {
       ],
     },
     {
-      title: "Responsive design or a separate mobile version",
+      title: "Responsive or a separate mobile version",
       level: 2,
       paras: [
-        "Adaptive (responsive): one URL, layout by screen width. Easier to maintain, fewer duplicates, the usual path for CMS.",
-        "Separate m-site: own template/subdomain, sometimes more flexible for UX, but costlier to support and riskier for SEO (redirects, content drift). New projects usually pick adaptive.",
+        "Responsive: one URL, layout by screen width. Easier to maintain, fewer duplicates, the usual path for CMS.",
+        "Separate m-site: own template/subdomain, sometimes more flexible for UX, but costlier to support and riskier for SEO (redirects, content drift). New projects usually pick responsive.",
       ],
       lists: [
         {
-          intro: "Why adaptive more often:",
+          intro: "Why responsive more often:",
           items: [
             "one canonical URL",
             "less content drift",
             "faster to ship on an existing CMS",
-            "simpler analytics and links.",
+            "simpler analytics and links",
           ],
         },
       ],
@@ -165,7 +165,7 @@ export const mobilnyyPoiskEn: BlogPost = {
       level: 2,
       paras: [
         "Older advice often pushed AMP and Yandex Turbo pages. Turbo is off in search; AMP isn’t required for most commercial sites. The base is fast pages of your own.",
-        "Cut CSS/JS weight, optimize images, caching, fonts. Large media with extreme traffic sometimes need separate light templates — that’s site engineering, not “turn Turbo on”.",
+        "Cut CSS/JS weight, optimize images, caching, fonts. Large media with extreme traffic sometimes need separate light templates — that’s site engineering, not “turn Turbo on.”",
       ],
       lists: [
         {
@@ -174,7 +174,7 @@ export const mobilnyyPoiskEn: BlogPost = {
             "LCP/INP on mobile",
             "hero and above-the-fold weight",
             "defer what’s extra",
-            "CDN for geography/peaks.",
+            "CDN for geography/peaks",
           ],
         },
       ],
@@ -193,7 +193,7 @@ export const mobilnyyPoiskEn: BlogPost = {
       title: "How to fold mobile into the SEO process",
       level: 2,
       paras: [
-        "Keep mobile ranks and mobile conversion in the monthly loop alongside tech and content. Check template edits on a phone before shipping “for everyone”.",
+        "Keep mobile ranks and mobile conversion in the monthly loop alongside tech and content. Check template edits on a phone before shipping for everyone.",
         "Design new landings mobile-first from the start: offer, tappable phone, short form. Otherwise you later fix what already earned bad behavioral signals.",
       ],
       lists: [
@@ -203,15 +203,15 @@ export const mobilnyyPoiskEn: BlogPost = {
             "weekly: mobile errors in accounts",
             "per release: smoke key URLs on a phone",
             "monthly: mobile ranks on the core + CR",
-            "quarterly: speed of top landings.",
+            "quarterly: speed of top landings",
           ],
         },
       ],
       notes: [
         {
           title: "Timelines",
-          text: "Mobile-base prep — weeks. Visibility buildup on the core planned 2–6 months. Mobile is an entry condition, not a “TOP button”.",
           kind: "tip",
+          text: "Mobile-base prep — weeks. Visibility buildup on the core is planned for two to six months. Mobile is an entry condition, not a ranking shortcut.",
         },
       ],
       links: [

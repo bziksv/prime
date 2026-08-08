@@ -8,30 +8,30 @@ export const programmySeoEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/programmy-seo/cover-en.webp",
   excerpt:
-    "Which tools you need for SEO: semantics, analytics, copy checks, tech audit, links, and extensions — a stack by task without a cult of “one all-in-one” or instant TOP promises.",
+    "Which tools you need for SEO: keywords, analytics, copy checks, tech audit, links, and extensions — a stack by task without a cult of one all-in-one or instant ranking promises.",
   lead: [
     "SEO is a set of jobs, not one button. Each job has its tool class: building a keyword core, on-site behavior, copy checks, technical crawls, backlink slices, webmaster panels.",
-    "A practical stack by area beats chasing one “magic” tool. Service names and trial limits change — check current plans on their sites. Competitor analysis as a method is a separate article; here the focus is tooling. Software doesn’t replace strategy: core rankings build over 2–6 months after prep.",
+    "Below: a practical stack by area. Service names and trial limits change — check current plans on their sites. Competitor analysis as a method is a separate article; here the focus is tooling. Software doesn’t replace strategy: rankings for the core build over months after prep.",
   ],
   faq: [
     {
       q: "Do I need a paid all-in-one from day one?",
-      a: "No. At the start Wordstat, Webmaster, Metrica/GA, and a free crawler often suffice. Add paid tools when you hit limits.",
+      a: "No. At the start Wordstat, Webmaster, Metrika/GA, and a free crawler often suffice. Add paid tools when you hit limits.",
     },
     {
       q: "How does Key Collector differ from Wordstat?",
       a: "Wordstat is Yandex frequency data. Key Collector and peers are a workstation: export, grouping, negatives, batch work.",
     },
     {
-      q: "Should I use Screaming Frog or an online audit?",
+      q: "Screaming Frog or an online audit?",
       a: "A desktop crawler is handy for your site and exports. Online tools — for quick slices and the cloud. Teams often use both.",
     },
     {
       q: "Is a uniqueness check “SEO”?",
-      a: "It’s content hygiene. Uniqueness doesn’t guarantee TOP, but copy-paste and stuffing hurt.",
+      a: "It’s content hygiene. Uniqueness doesn’t guarantee page-one rankings, but copy-paste and stuffing hurt.",
     },
     {
-      q: "Is Ahrefs alone enough for SEO?",
+      q: "Is Ahrefs alone enough?",
       a: "Strong on links and organic, but for an RU core you still need Wordstat/local tools and your own counters.",
     },
     {
@@ -39,11 +39,11 @@ export const programmySeoEn: BlogPost = {
       a: "As one tool in the lineup — yes, neutrally. No featured promo and no “best of all” claims.",
     },
     {
-      q: "Will software put me in TOP in a week?",
-      a: "No. Tools speed up data gathering. Prep — weeks; TOP for the core is planned 2–6 months after work starts.",
+      q: "Will software put me on page one in a week?",
+      a: "No. Tools speed up data gathering. Prep — weeks; share of the core is typically planned for two to six months after work starts.",
     },
     {
-      q: "What to install in the browser?",
+      q: "What should I install in the browser?",
       a: "Extensions for meta, redirects, and quick page metrics. They don’t replace a full crawl and webmaster panels.",
     },
   ],
@@ -52,7 +52,7 @@ export const programmySeoEn: BlogPost = {
       title: "How to build the stack",
       level: 2,
       paras: [
-        "List project tasks first, then tools. Otherwise you buy subscriptions “just in case”. One service rarely covers semantics, logs, and content at once.",
+        "List project tasks first, then tools. Otherwise you buy subscriptions just in case. One service rarely covers keywords, logs, and content at once.",
         "Keep a table: task → tool → who pays → limits. Every quarter, cut unused licenses.",
       ],
       lists: [
@@ -61,9 +61,9 @@ export const programmySeoEn: BlogPost = {
           items: [
             "Wordstat + a spreadsheet",
             "Yandex Webmaster / Google Search Console",
-            "Metrica and/or GA4",
+            "Metrika and/or GA4",
             "a crawler (Screaming Frog or peer)",
-            "copy checks against the brief.",
+            "copy checks against the brief",
           ],
         },
       ],
@@ -75,7 +75,7 @@ export const programmySeoEn: BlogPost = {
       ],
     },
     {
-      title: "Semantics and demand",
+      title: "Keywords and demand",
       level: 2,
       paras: [
         "Yandex Wordstat is the frequency base for RU. Google Keyword Planner and Trends — Google demand and seasonality. Key Collector / Keys.so / Serpstat / Semrush — batch collection, clustering, competition estimates.",
@@ -89,7 +89,7 @@ export const programmySeoEn: BlogPost = {
             "Key Collector or a cloud peer",
             "Serpstat / Keys.so / Semrush — by budget",
             "Trends + Planner for the Google track",
-            "a cluster spreadsheet.",
+            "a cluster spreadsheet",
           ],
         },
       ],
@@ -115,23 +115,23 @@ export const programmySeoEn: BlogPost = {
       title: "Behavior analytics",
       level: 2,
       paras: [
-        "Yandex Metrica and Google Analytics show what people do on the site: sources, goals, funnels. Without goals the software is useless — mark conversions first.",
-        "Session Replay and recordings are for UX hypotheses, not daily “spying”. Build dashboards for KPIs — not every report at once.",
+        "Yandex Metrika and Google Analytics show what people do on the site: sources, goals, funnels. Without goals the software is useless — mark conversions first.",
+        "Session Replay and recordings are for UX hypotheses, not daily spying. Build dashboards for KPIs — not every report at once.",
       ],
       lists: [
         {
           intro: "The link-up:",
           items: [
-            "Metrica / GA4",
+            "Metrika / GA4",
             "goals and events",
             "Webmaster / Search Console",
-            "BI/dashboard when needed.",
+            "BI/dashboard when needed",
           ],
         },
       ],
       links: [
         {
-          label: "Goals in Metrica",
+          label: "Goals in Metrika",
           href: "/en/blog/metrika-tseli/",
         },
         {
@@ -158,7 +158,7 @@ export const programmySeoEn: BlogPost = {
             "uniqueness in the chosen tool",
             "nausea/spamminess inside the brief corridor",
             "read aloud",
-            "alignment with cluster intent.",
+            "alignment with cluster intent",
           ],
         },
       ],
@@ -192,7 +192,7 @@ export const programmySeoEn: BlogPost = {
             "Webmaster + GSC",
             "redirect checks",
             "log analysis when needed",
-            "recrawl after fixes.",
+            "recrawl after fixes",
           ],
         },
       ],
@@ -216,7 +216,7 @@ export const programmySeoEn: BlogPost = {
       level: 2,
       paras: [
         "Ahrefs, Serpstat, MegaIndex, Linkpad/PR-CY-class tools — backlink and visibility slices. Use them for profile audits and ideas, not mass spam. Rankings — Topvisor and peers on a schedule.",
-        "Browser bars (RDS bar and peers) speed eyeballing SERPs, but easily breed a cult of “IQS on an icon”. Decide from tasks and full reports.",
+        "Browser bars (RDS bar and peers) speed eyeballing SERPs, but easily breed a cult of “IQS on an icon.” Decide from tasks and full reports.",
       ],
       lists: [
         {
@@ -225,7 +225,7 @@ export const programmySeoEn: BlogPost = {
             "a backlink tool",
             "rank tracking",
             "an extension for meta/redirects",
-            "a visibility-change sheet.",
+            "a visibility-change sheet",
           ],
         },
       ],
@@ -243,7 +243,7 @@ export const programmySeoEn: BlogPost = {
         {
           title: "Timelines",
           kind: "tip",
-          text: "Subscriptions speed the work. TOP for the core is a months-long horizon after work starts — not a plugin-install effect.",
+          text: "Subscriptions speed the work. Page-one share of the core is a months-long horizon after work starts — not a plugin-install effect. Prep is not rankings; typically two to six months after start.",
         },
       ],
     },

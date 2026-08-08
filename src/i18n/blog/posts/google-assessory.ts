@@ -8,10 +8,10 @@ export const googleAssessoryEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/google-assessory/cover-en.webp",
   excerpt:
-    "Quality Rater Guidelines: why quality raters exist, why their score isn’t a ranking, page purpose, E-E-A-T, YMYL, author reputation, and what breaks trust — without the myth that a rater personally put you in the top results.",
+    "Quality Rater Guidelines: why quality raters exist, why their score isn’t a ranking, page purpose, E-E-A-T, YMYL, author reputation, and what breaks trust — without the myth that a rater personally boosted your rankings.",
   lead: [
-    "Quality raters manually score pages against Google’s Search Quality Rater Guidelines. Their ratings help improve algorithms — they don’t put your URL in the top results directly.",
-    "Scoring logic: page purpose, experience/expertise/authoritativeness/trust (E-E-A-T), YMYL topics, author reputation, and typical reasons for a low score. The guide updates — check the current version, not a 2019 PDF.",
+    "Quality raters manually score pages against Google’s Search Quality Rater Guidelines. Their ratings help improve algorithms — they don’t place your URL in search results by hand.",
+    "Below: scoring logic — page purpose, experience/expertise/authoritativeness/trust (E-E-A-T), YMYL topics, author reputation, and typical reasons for a low score. The guide updates — check the current version; old page-count trivia doesn’t matter.",
   ],
   faq: [
     {
@@ -56,7 +56,7 @@ export const googleAssessoryEn: BlogPost = {
             "E-E-A-T of the main content",
             "amount and quality of content for the job",
             "information about the site and authors",
-            "reputation of the site and creators.",
+            "reputation of the site and creators",
           ],
         },
       ],
@@ -82,8 +82,8 @@ export const googleAssessoryEn: BlogPost = {
       notes: [
         {
           title: "Don’t confuse with gaming",
-          text: "Buying “rater scores” or faking reviews is a path to lost trust. Work on real quality and transparency.",
           kind: "tip",
+          text: "Buying “rater scores” or faking reviews is a path to lost trust. Work on real quality and transparency.",
         },
       ],
     },

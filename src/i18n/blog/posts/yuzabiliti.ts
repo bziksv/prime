@@ -8,10 +8,10 @@ export const yuzabilitiEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/yuzabiliti/cover-en.webp",
   excerpt:
-    "Usability is how easily a site gets people to the goal: short paths, speed, navigation, forms, and mobile. A self-audit checklist and practical fixes — without “TOP in a week” magic.",
+    "Usability is how easily a site gets people to the goal: short paths, speed, navigation, forms, and mobile. A self-audit checklist and practical fixes — without “rankings in a week” magic.",
   lead: [
     "Usability is how easily someone completes the action you want: buy, submit a lead, find a contact, sign up. On a commercial site, it isn’t decoration — it’s less friction between traffic and conversion.",
-    "Ecommerce checkout gets its own deep dive; this piece covers the general frame for any business site — the baseline that sells, a simple self-audit, and targeted fixes.",
+    "Below: baseline rules for a selling site, a simple self-audit, and targeted fixes. Checkout mistakes for stores are covered separately; here is the general frame for any commercial site.",
   ],
   faq: [
     {
@@ -42,9 +42,9 @@ export const yuzabilitiEn: BlogPost = {
       paras: [
         "Usability is a product’s ability to be used: find what’s needed, understand the interface, finish an action without help. On a site, success means the target action you’re paying to drive.",
         "Short path: the lead or buy button should be visible; don’t bury the next step three menu levels deep. When someone is ready to act, cut extra screens.",
-        "Speed: heavy scripts and uncompressed images kill interest faster than “imperfect” design. Optimize load on critical funnel pages.",
+        "Speed: heavy scripts and uncompressed images kill interest faster than imperfect design. Optimize load on critical funnel pages.",
         "Navigation and breadcrumbs on large sites reduce the “I’m lost” effect. Forms — minimum fields; personal-data consent and a privacy-policy link are legal requirements, not decoration.",
-        "Mobile is non-negotiable: mobile share is high in most niches. Search engines weigh mobile experience; old claims about “dropping from the top ten” aren’t eternal policy — check current requirements and your metrics.",
+        "Mobile is non-negotiable: mobile share is high in most niches. Search engines weigh mobile experience; old claims about dropping from page one aren’t eternal policy — check current requirements and your metrics.",
       ],
       links: [
         {
@@ -63,19 +63,19 @@ export const yuzabilitiEn: BlogPost = {
       paras: [
         "Start free: walk scenarios as a new visitor and write a checklist of what works and what annoys. Add heatmaps and session replay once traffic exists — but eyes and a phone already catch most obvious bugs.",
         "Practical fixes: logo links home; contacts in header and footer as copyable text; header has search and a quick lead path if that’s your channel; tree menu without jumpy dropdowns; on 404 — paths to key sections, not a dead end.",
-        "Why it matters for business: a usable site raises the share of visitors who do what they came for. Search responds to usefulness and behavior; usability amplifies SEO and ad ROI, but it doesn’t replace prep or ranking growth — core TOP positions typically build over 2–6 months of work after launch prep.",
+        "Why it matters for business: a usable site raises the share of visitors who do what they came for. Search responds to usefulness and behavior; usability amplifies SEO and ad ROI, but it doesn’t replace prep or ranking growth — page-one visibility for the keyword set is planned over months.",
         "If you run an online store, go deeper on checkout, product cards, and filters in the dedicated guide. One principle everywhere: less friction, more completed actions.",
       ],
       lists: [
         {
           intro: "Self-audit mini-checklist:",
           items: [
-            "looks correct in popular browsers;",
-            "comfortable on a smartphone;",
-            "contacts found in seconds;",
-            "from any page — a path to key sections;",
-            "from 404 you can return to catalog or services;",
-            "lead, buy, or call without extra clicks.",
+            "looks correct in popular browsers",
+            "comfortable on a smartphone",
+            "contacts found in seconds",
+            "from any page — a path to key sections",
+            "from 404 you can return to catalog or services",
+            "lead, buy, or call without extra clicks",
           ],
         },
       ],

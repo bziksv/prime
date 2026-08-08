@@ -11,11 +11,15 @@ export const neskolkoStoriesInstagramEn: BlogPost = {
     "How to add several Instagram Stories at once: picking from the gallery, splitting a long video, frame order, and typical upload fails — without a catalog of gray emulators.",
   lead: [
     "A Stories series is several frames in a row in one audience touch: announcement, details, CTA. You can shoot them one by one or pick a batch from the gallery; a long video is often cut into segments by the platform.",
-    "What matters is order and meaning — not dumping a dozen empty frames. Below: how to build a series, what to do when uploads stall, and why Stories beat a feed post for “today’s” news. Button labels change — check the current app. See the Meta notice on this page.",
+    "Below: practical limits, how to build a series, what to do when uploads stall, and why Stories beat a feed post for “today’s” news. Button labels change; check the app. Meta disclaimer is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
-      q: "How many Stories should you post per day?",
+      q: "How many Stories can you post per day?",
       a: "We don’t copy a hard “magic” number from old guides. In practice, don’t tire the audience: 3–7 strong frames beat dozens of empty ones. Current technical limits — in Meta Help.",
     },
     {
@@ -24,7 +28,7 @@ export const neskolkoStoriesInstagramEn: BlogPost = {
     },
     {
       q: "Does a long video split into Stories by itself?",
-      a: "Often yes: longer than the segment limit → several Stories. The second limit has changed; use what the app shows in preview.",
+      a: "Often yes: longer than the segment limit → several Stories. The seconds limit has changed; use what the app shows in preview.",
     },
     {
       q: "Do you need an Android emulator on a PC?",
@@ -46,9 +50,9 @@ export const neskolkoStoriesInstagramEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Important",
           text: "A series without meaning tires people. Each next frame should add information, not duplicate the first photo.",
-          kind: "tip",
         },
       ],
     },
@@ -67,7 +71,7 @@ export const neskolkoStoriesInstagramEn: BlogPost = {
             "check order: hook first",
             "drop extra duplicates",
             "preview the whole series",
-            "for important ones — turn on archive / Highlights save.",
+            "for important ones — turn on archive / Highlights save",
           ],
         },
       ],
@@ -106,9 +110,9 @@ export const neskolkoStoriesInstagramEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "We don’t recommend",
           text: "Third-party emulators and “Android in Chrome” extensions for running the account — phishing and ban risk. On PC use official Meta tools if they’re available to your profile.",
-          kind: "tip",
         },
       ],
     },

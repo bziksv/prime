@@ -3,7 +3,7 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for knopki-youtube — same structure as RU JSON. */
 export const knopkiYoutubeEn: BlogPost = {
   slug: "knopki-youtube",
-  title: "YouTube buttons & elements: subscribe, cards, end screens",
+  title: "YouTube cards, end screens, and subscribe prompts",
   date: "2021-05-27",
   category: "SMM",
   cover: "/images/blog/knopki-youtube/cover-en.webp",
@@ -55,10 +55,10 @@ export const knopkiYoutubeEn: BlogPost = {
         {
           intro: "Basic kit for a video:",
           items: [
-            "one card to a related video or playlist;",
-            "an end screen with 2–3 clear tiles;",
-            "a spoken subscribe ask after a useful segment;",
-            "chapters and short links in the description — not a URL wall.",
+            "one card to a related video or playlist",
+            "an end screen with 2–3 clear tiles",
+            "a spoken subscribe ask after a useful segment",
+            "chapters and short links in the description — not a URL wall",
           ],
         },
       ],
@@ -74,10 +74,10 @@ export const knopkiYoutubeEn: BlogPost = {
         {
           intro: "Goals vs formats:",
           items: [
-            "related material during an explanation — card;",
-            "series sequel or playlist — end screen;",
-            "resources and caveats — description and pinned comment;",
-            "navigation across all content — channel homepage and playlists.",
+            "related material during an explanation — card",
+            "series sequel or playlist — end screen",
+            "resources and caveats — description and pinned comment",
+            "navigation across all content — channel homepage and playlists",
           ],
         },
       ],
@@ -93,10 +93,10 @@ export const knopkiYoutubeEn: BlogPost = {
         {
           intro: "Pre-publish check:",
           items: [
-            "the card appears after context, not in the first seconds;",
-            "the end screen uses the last 5–20 seconds and doesn’t fight the finale;",
-            "the target video is viewable and matches the promise;",
-            "elements don’t cover captions or key frame details.",
+            "the card appears after context, not in the first seconds",
+            "the end screen uses the last 5–20 seconds and doesn’t fight the finale",
+            "the target video is viewable and matches the promise",
+            "elements don’t cover captions or key frame details",
           ],
         },
       ],
@@ -104,6 +104,7 @@ export const knopkiYoutubeEn: BlogPost = {
         {
           title: "The UI changes",
           text: "Studio menu names and templates shift. Check the published video on desktop and phone — not only the editor preview.",
+          kind: "tip",
         },
       ],
     },
@@ -118,10 +119,10 @@ export const knopkiYoutubeEn: BlogPost = {
         {
           intro: "A good CTA usually:",
           items: [
-            "comes after value, not before the point;",
-            "explains subscription value in one sentence;",
-            "matches the real schedule and topics;",
-            "is echoed on the end screen without blocking the watch.",
+            "comes after value, not before the point",
+            "explains subscription value in one sentence",
+            "matches the real schedule and topics",
+            "is echoed on the end screen without blocking the watch",
           ],
         },
       ],
@@ -137,10 +138,10 @@ export const knopkiYoutubeEn: BlogPost = {
         {
           intro: "Useful signals:",
           items: [
-            "end-screen clicks to related videos;",
-            "share of viewers who continue in a playlist;",
-            "subscribes after specific uploads;",
-            "retention in the last seconds of the video.",
+            "end-screen clicks to related videos",
+            "share of viewers who continue in a playlist",
+            "subscribes after specific uploads",
+            "retention in the last seconds of the video",
           ],
         },
       ],
@@ -166,10 +167,10 @@ export const knopkiYoutubeEn: BlogPost = {
         {
           intro: "Red flags:",
           items: [
-            "outdated guides that only talk about annotations;",
-            "the same card on every video with no topic link;",
-            "covering captions and key frame details;",
-            "promises that a widget or button alone grows the channel.",
+            "outdated guides that only talk about annotations",
+            "the same card on every video with no topic link",
+            "covering captions and key frame details",
+            "promises that a widget or button alone grows the channel",
           ],
         },
       ],

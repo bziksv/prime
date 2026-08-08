@@ -11,7 +11,7 @@ export const googleAnalyticsTseliEn: BlogPost = {
     "How to set up conversions in Google Analytics 4: key events, thank-you URLs, engagement and clicks — mapping old Universal “goals” and checking reports.",
   lead: [
     "In Universal Analytics “goals” were a separate builder (page, duration, pages/session, event). In GA4 the model is different: almost everything is events, and important ones are marked as key events / conversions. Same idea: measure leads, purchases, thank-you pages, and micro-conversions.",
-    "Why conversions matter, how to map old goal types into GA4, how to tag events and verify reports. Store funnel behavior is in the ecommerce Analytics article; Yandex Metrica goals are a separate canon.",
+    "Below: why conversions matter, how to map old goal types into GA4, how to tag events and verify reports. Store funnel behavior is in the ecommerce Analytics article; Yandex Metrica goals are a separate piece. The GA4 UI changes — lean on meaning, not 2019 screenshots.",
   ],
   faq: [
     {
@@ -28,7 +28,7 @@ export const googleAnalyticsTseliEn: BlogPost = {
     },
     {
       q: "How many conversions can I set up?",
-      a: "GA4 limits differ from UA’s “20 goals”. Don’t spawn dozens of near-duplicates — keep an event dictionary.",
+      a: "GA4 limits differ from UA’s “20 goals.” Don’t spawn dozens of near-duplicates — keep an event dictionary.",
     },
     {
       q: "Do I need gtag or GTM?",
@@ -44,7 +44,7 @@ export const googleAnalyticsTseliEn: BlogPost = {
     },
     {
       q: "Do conversions equal search rankings?",
-      a: "No. They measure on-site outcomes. SEO rankings grow separately; planned ranking for the keyword set is usually 2–6 months after work starts.",
+      a: "No. They measure on-site outcomes. SEO rankings grow separately; page-one share for the core is typically planned for two to six months after work starts.",
     },
   ],
   sections: [
@@ -63,7 +63,7 @@ export const googleAnalyticsTseliEn: BlogPost = {
             "form submit",
             "“Buy” / “Call” click",
             "signup",
-            "important funnel micro-steps.",
+            "important funnel micro-steps",
           ],
         },
       ],
@@ -119,7 +119,7 @@ export const googleAnalyticsTseliEn: BlogPost = {
             "unique URL after the action",
             "noindex when needed",
             "purchase/lead event backs the URL",
-            "conversion value — by average order/lead if you track ROI.",
+            "conversion value — by average order/lead if you track ROI",
           ],
         },
       ],
@@ -128,7 +128,7 @@ export const googleAnalyticsTseliEn: BlogPost = {
       title: "Engagement: time and depth",
       level: 2,
       paras: [
-        "A long visit on a taxi landing may mean “couldn’t find the button”. On a learning portal a short session may mean “didn’t stick”. Interpretation depends on the product — don’t copy someone else’s minute thresholds.",
+        "A long visit on a taxi landing may mean “couldn’t find the button.” On a learning portal a short session may mean “didn’t stick.” Interpretation depends on the product — don’t copy someone else’s minute thresholds.",
         "In GA4 look at engaged sessions and interaction events. For content you sometimes add “read N screens” or scroll — only if it really drives decisions, not report cosmetics.",
       ],
       lists: [
@@ -138,7 +138,7 @@ export const googleAnalyticsTseliEn: BlogPost = {
             "media and blog",
             "landing UX assessment",
             "comparing content variants",
-            "not as the store’s only KPI.",
+            "not as the store’s only KPI",
           ],
         },
       ],
@@ -158,7 +158,7 @@ export const googleAnalyticsTseliEn: BlogPost = {
             "fire on success, not every focus",
             "test in DebugView",
             "mark key event / conversion",
-            "table: event → where in code → owner.",
+            "table: event → where in code → owner",
           ],
         },
       ],
@@ -184,7 +184,7 @@ export const googleAnalyticsTseliEn: BlogPost = {
       title: "Funnels and report checks",
       level: 2,
       paras: [
-        "Replace UA sequences with Explorations and event funnels: view → cart → checkout → purchase. Watch where the break is — not only “average conversion %”.",
+        "Replace UA sequences with Explorations and event funnels: view → cart → checkout → purchase. Watch where the break is — not only “average conversion %.”",
         "After setup compare channel/campaign by key events. Cross-check CRM and Metrica: gaps are normal, but order of magnitude should align.",
       ],
       lists: [
@@ -196,7 +196,7 @@ export const googleAnalyticsTseliEn: BlogPost = {
             "key events enabled",
             "DebugView OK",
             "24–48h report without surprises",
-            "docs for the team.",
+            "docs for the team",
           ],
         },
       ],
@@ -214,7 +214,7 @@ export const googleAnalyticsTseliEn: BlogPost = {
         {
           title: "Timelines",
           kind: "tip",
-          text: "Conversion setup — days. Organic growth for the keyword set — months after prep; don’t confuse analytics with rankings.",
+          text: "Conversion setup — days. Organic growth for the core — months after prep; don’t confuse analytics with rankings. Page-one share is typically planned for two to six months after work starts.",
         },
       ],
     },

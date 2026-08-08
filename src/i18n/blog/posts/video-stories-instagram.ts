@@ -11,10 +11,10 @@ export const videoStoriesInstagramEn: BlogPost = {
     "How to add video to Instagram Stories, save your own clips, prep a 9:16 file, and what’s wrong with third-party downloaders of other people’s Stories.",
   lead: [
     "Stories are a vertical ~24-hour format with photos and short video. For business they’re fast announcements, behind-the-scenes, polls, and warm-up without a “forever” feed post.",
-    "Publish, delete, and save your own clips carefully, and prep the file so Instagram compresses less. Clip length and shooting modes change — use Meta Help. We don’t list shady savers of other people’s Stories.",
+    "Below: publishing, deleting, saving your own clips, and prepping the file so Instagram compresses less. Clip length and shooting modes change — use Meta Help. We don’t list shady savers of other people’s Stories. See the Meta note on this page.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -94,11 +94,11 @@ export const videoStoriesInstagramEn: BlogPost = {
         {
           intro: "Checklist before posting:",
           items: [
-            "vertical frame;",
-            "face/product readable on a small screen;",
-            "text large and short;",
-            "sound OK without headphones;",
-            "CTA: reply / swipe / poll.",
+            "vertical frame",
+            "face/product readable on a small screen",
+            "text large and short",
+            "sound OK without headphones",
+            "CTA: reply / swipe / poll",
           ],
         },
       ],
@@ -131,7 +131,7 @@ export const videoStoriesInstagramEn: BlogPost = {
       title: "Takeaways",
       level: 2,
       paras: [
-        "Publish vertical video in Stories, keep yours in the archive, don’t pull others’ with grey savers.",
+        "Publish vertical video in Stories, keep yours in the archive, and skip shady savers for other people’s Stories.",
         "Quality starts with file prep and a clear frame, not a dozen editing apps.",
       ],
     },

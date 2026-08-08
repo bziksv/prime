@@ -3,18 +3,18 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for instagram-direct-gid — same structure as RU JSON. */
 export const instagramDirectGidEn: BlogPost = {
   slug: "instagram-direct-gid",
-  title: "Instagram* Direct: how to use the messenger",
+  title: "Instagram Direct: how to use the messenger",
   date: "2021-12-21",
   category: "SMM",
   cover: "/images/blog/instagram-direct-gid/cover-en.webp",
   excerpt:
-    "How to open Direct, send a message, attachments, quick replies, and chats on Instagram* — a messenger guide without grey broadcasts or outdated “paper plane” screenshots.",
+    "How to open Direct, send a message, attachments, quick replies, and chats on Instagram — a messenger guide without grey broadcasts or outdated “paper plane” screenshots.",
   lead: [
-    "Direct is Instagram*’s built-in messenger: text, photo, video, voice notes, forwarding posts and Stories, group chats. For business it’s leads and support; for personal accounts — ordinary chat.",
-    "Below: basic actions in the app. Icons and menu items have changed; follow the current client. Auto-greetings, SLA, and why you mustn’t run cold spam — in a separate piece. Meta* product disclaimer is on the page.",
+    "Direct is Instagram’s built-in messenger: text, photo, video, voice notes, forwarding posts and Stories, group chats. For business it’s leads and support; for personal accounts — ordinary chat.",
+    "Below: basic actions in the app. Icons and menu items have changed; follow the current client. Auto-greetings, SLA, and why you mustn’t run cold spam — in a separate piece. The Meta product notice is on the page.",
   ],
   legalNotice: {
-    title: "Dear readers!",
+    title: "Note",
     text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
@@ -55,7 +55,7 @@ export const instagramDirectGidEn: BlogPost = {
             "photo and video",
             "voice notes",
             "posts, Reels, and Stories",
-            "links to profiles and sites (where available).",
+            "links to profiles and sites (where available)",
           ],
         },
       ],
@@ -74,15 +74,14 @@ export const instagramDirectGidEn: BlogPost = {
       title: "How to open and write",
       level: 2,
       paras: [
-        "In the app open the messages section (the icon has changed: “paper plane,” chats tab, etc.). The dialogue list — inbox and requests from people you don’t follow.",
-        "New chat: create message → search user → text → send. Alternative — Message in the other profile bio area, if available.",
+        "In the app open the messages section (the icon has changed: paper plane, chats tab, etc.). The dialogue list — inbox and requests from people you don’t follow.",
+        "New chat: create message → search user → text → send. Alternative — Message on the other profile, if available.",
       ],
-      lists: [],
       notes: [
         {
           title: "Common mistake",
-          text: "Hunting for a “mass broadcast” in DMs settings and plugging in shady programs. That hits the account — see the risks piece.",
           kind: "tip",
+          text: "Hunting for a mass broadcast in Direct settings and plugging in shady programs. That hits the account — see the risks piece.",
         },
       ],
     },
@@ -93,10 +92,9 @@ export const instagramDirectGidEn: BlogPost = {
         "You can attach media from the gallery or camera, forward a post, sometimes location or stickers. Disappearing photo/video live for a limited time: for contracts and source files use cloud or email.",
         "In-chat polls help pick quickly (date, service option). Don’t confuse them with official order forms on the site.",
       ],
-      lists: [],
       links: [
         {
-          label: "Save a photo from Instagram*",
+          label: "Save a photo from Instagram",
           href: "/en/blog/sohranit-foto-instagram/",
         },
       ],
@@ -116,7 +114,7 @@ export const instagramDirectGidEn: BlogPost = {
             "on substance, without arrogance",
             "correctly, in the customer’s language",
             "don’t send ten messages instead of one clear one",
-            "log leads outside the chat.",
+            "log leads outside the chat",
           ],
         },
       ],
@@ -128,10 +126,9 @@ export const instagramDirectGidEn: BlogPost = {
         "Messages from strangers may land in Requests. Set a policy: accept leads / ignore spam. Use report and block against fraud and harassment — per app rules.",
         "Delete for yourself and “unsend” for the other person are different actions; options depend on the client version. Don’t assume a disputed file vanishes for everyone forever.",
       ],
-      lists: [],
       links: [
         {
-          label: "Blocking on Instagram*",
+          label: "Blocking on Instagram",
           href: "/en/blog/blokirovka-instagram/",
         },
       ],
@@ -140,13 +137,12 @@ export const instagramDirectGidEn: BlogPost = {
       title: "Promotion via Direct — sober view",
       level: 2,
       paras: [
-        "Working pattern: the person wrote after a CTA in a Story/post/ad → you reply fast. We don’t repeat cold batches and old “Instaplus / Tooligram / Zengram” catalogs.",
+        "Working pattern: the person wrote after a CTA in a Story/post/ad → you reply fast. We don’t repeat cold batches and old Instaplus / Tooligram / Zengram catalogs.",
         "“A billion users” stats ≠ your Direct reach. Watch replies, leads, and sales.",
       ],
-      lists: [],
       links: [
         {
-          label: "Ads on Instagram*",
+          label: "Ads on Instagram",
           href: "/en/blog/reklama-instagram/",
         },
         {
@@ -159,10 +155,9 @@ export const instagramDirectGidEn: BlogPost = {
       title: "Key takeaways",
       level: 2,
       paras: [
-        "Direct is the messenger inside Instagram*. Learn to write, attach, and reply with templates plus live follow-up.",
+        "Direct is the messenger inside Instagram. Learn to write, attach, and reply with templates plus live follow-up.",
         "For sales growth, service speed beats hunting a “send to everyone” button.",
       ],
-      lists: [],
     },
   ],
   closing: [

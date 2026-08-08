@@ -11,11 +11,11 @@ export const perenosDirektaGoogleAdsEn: BlogPost = {
     "How to move search campaigns from Yandex Direct into Google Ads: match types, negatives, ad limits, and geo — without blind Excel dumps or outdated 2018 “teleporter” tools.",
   lead: [
     "Moving from Yandex Direct to Google Ads is not a one-to-one file copy. Match types, negatives, geo, character limits, and ad policies all differ. A blind dump creates broad impressions, “Low search volume,” and wasted spend.",
-    "Below we cover when a move makes sense, the manual or spreadsheet path, and what to verify after import. Converter tools praised in 2018 reviews may be gone or renamed — confirm the tool is still current. Google Ads availability in your region depends on the facts at launch time.",
+    "Below: when a move makes sense, the manual or spreadsheet path, and what to check after import. Converter tools from 2018 reviews may be gone or renamed — confirm the tool is current. Google Ads availability in your region depends on the facts at launch time.",
   ],
   faq: [
     {
-      q: "Can I export Direct and upload straight into Google Ads?",
+      q: "Can I export Direct and upload straight into Ads?",
       a: "Almost never without processing: columns, match types, and negatives don’t line up. You need a bridge sheet or an editor.",
     },
     {
@@ -23,15 +23,15 @@ export const perenosDirektaGoogleAdsEn: BlogPost = {
       a: "A reliable one-click path usually doesn’t exist. Networks and creatives are rebuilt separately for Google’s logic.",
     },
     {
-      q: "What happens to phrase-level negatives?",
+      q: "What about phrase-level negatives?",
       a: "In Google Ads, negatives live on the campaign or ad group (and on shared lists), not on every keyword the way they often do in Direct. Move the intent to the right level.",
     },
     {
-      q: "Why do match types need careful mapping?",
+      q: "Why touch match types?",
       a: "Broad match in Google without modifiers behaves differently from Direct’s familiar operators. Skip the mapping and you’ll pull in irrelevant demand.",
     },
     {
-      q: "Do I need Google Ads Editor?",
+      q: "Do I need Editor?",
       a: "For mid-size and large structures, Google Ads Editor or a careful CSV helps. Small campaigns are often cleaner when you build them by hand.",
     },
   ],
@@ -49,7 +49,7 @@ export const perenosDirektaGoogleAdsEn: BlogPost = {
           items: [
             "inside Yandex (another login) — Direct’s native tools",
             "into a bidder or agency account — follow that service’s rules",
-            "Direct → Google Ads — this article’s topic.",
+            "Direct → Google Ads — this article’s topic",
           ],
         },
       ],
@@ -73,9 +73,9 @@ export const perenosDirektaGoogleAdsEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "About “teleporters”",
           text: "Converters like those praised in 2018 save time but don’t remove responsibility: after import, always hand-check match types, negatives, and policies.",
-          kind: "tip",
         },
       ],
     },
@@ -93,7 +93,7 @@ export const perenosDirektaGoogleAdsEn: BlogPost = {
             "clear obvious junk and duplicates",
             "set match types deliberately — not “everything broad”",
             "check landing URLs",
-            "budget for Google auction learning.",
+            "budget for Google auction learning",
           ],
         },
       ],
@@ -137,7 +137,7 @@ export const perenosDirektaGoogleAdsEn: BlogPost = {
             "negatives in place",
             "ads passed policy review",
             "conversion import working",
-            "daily budget and caps fit a test.",
+            "daily budget and caps fit a test",
           ],
         },
       ],

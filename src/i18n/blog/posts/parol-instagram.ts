@@ -10,8 +10,8 @@ export const parolInstagramEn: BlogPost = {
   excerpt:
     "When to change an Instagram password, how to recover login via email, SMS, and support, what to do if you’re hacked, and how to harden account security.",
   lead: [
-    "Can’t sign into Instagram — most often a forgotten password, a username typo, or a hack. Reset is available via email, SMS, and official recovery flows; menu labels change.",
-    "Reset via official email/SMS flows, lock down the account if you suspect a hack, and skip gray “recovery” services. This is a security checklist, not an endorsement of the platform.",
+    "Can’t sign into Instagram — most often a forgotten password, a username typo, or a hack. Reset is available via email, SMS, and official recovery flows; menu labels change over time.",
+    "Below: when to reset, typical steps, and what to do if you suspect a hack. This is a security checklist — not an endorsement of the platform.",
   ],
   legalNotice: {
     title: "Note",
@@ -27,7 +27,7 @@ export const parolInstagramEn: BlogPost = {
       a: "Whichever contact is linked and that you can still access. Keep both up to date ahead of time.",
     },
     {
-      q: "Does login via Facebook still work?",
+      q: "Did “via Facebook” used to help?",
       a: "If accounts were linked, login/reset via Facebook sometimes worked. Availability depends on region and settings — follow today’s login screens and help docs.",
     },
     {
@@ -78,6 +78,7 @@ export const parolInstagramEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Practice",
           text: "A strong password is useless if it matches your email password. Your email and Instagram passwords must be different.",
         },
@@ -90,13 +91,12 @@ export const parolInstagramEn: BlogPost = {
         "Historically accounts could be linked to Facebook and share a login flow. Today the available buttons depend on region, account type, and Meta updates.",
         "On desktop the flow matches the app: login screen → password help → email/SMS → new code. You don’t need a separate Windows app — a browser is enough.",
       ],
-      lists: [],
     },
     {
       title: "If the account was hacked",
       level: 2,
       paras: [
-        "Warning signs: name or password changed, content gone, weird direct messages, unknown logins. Move fast.",
+        "Warning signs: name or password changed, content gone, weird Direct messages, unknown logins. Move fast.",
       ],
       lists: [
         {
@@ -112,6 +112,7 @@ export const parolInstagramEn: BlogPost = {
       ],
       notes: [
         {
+          kind: "tip",
           title: "Common mistake",
           text: "Handing your login to a “fake engagement” helper or shady service. After that, recovery is already in someone else’s hands.",
         },

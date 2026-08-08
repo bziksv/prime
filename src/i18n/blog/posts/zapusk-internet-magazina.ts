@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for zapusk-internet-magazina — same structure as RU JSON. */
 export const zapuskInternetMagazinaEn: BlogPost = {
   slug: "zapusk-internet-magazina",
-  title: "Building an online store end to end: launch stages",
+  title: "Launching an online store end to end: the real stages",
   date: "2020-11-20",
   category: "E-commerce",
   cover: "/images/blog/zapusk-internet-magazina/cover-en.webp",
   excerpt:
-    "Online store launch stages: business plan, warehouse or dropshipping, platform, storefront, legal form and receipts, payments, team, and ads — without “store in one evening” promises or 2020 price lists.",
+    "Online store launch stages: business plan, warehouse or dropshipping, platform, storefront, legal form and receipts, payments, team, and ads — without “store in one evening” promises or outdated 2020 price lists.",
   lead: [
     "On paper the scheme looks simple: site, products, sales. In practice the plan, supply, payments, service, and unit economics break first. There’s no universal playbook for every niche — there is a shared stage frame.",
-    "Storefront checklists and “what to study first” live in neighboring pieces; this one covers the operational path from idea to acquiring customers. We don’t copy old state-fee, SaaS-tariff, or “cost-per-click budget” figures from old guides: check current rules and your own math.",
+    "Storefront checklists and “what to study first” live in neighboring pieces; this one covers the operational path from idea to acquiring customers. We don’t copy old state fees, SaaS tariffs, or “cost-per-click budgets” from vintage guides — check current rules and your own math.",
   ],
   faq: [
     {
@@ -32,7 +32,7 @@ export const zapuskInternetMagazinaEn: BlogPost = {
     },
     {
       q: "Sole trader or limited company?",
-      a: "Depends on partners, VAT, investors, and risk. Not legal advice: check current tax rules and your accountant.",
+      a: "Depends on partners, VAT, investors, and risk. Not legal advice — check current tax rules and your accountant.",
     },
     {
       q: "How much does a launch cost?",
@@ -40,7 +40,7 @@ export const zapuskInternetMagazinaEn: BlogPost = {
     },
     {
       q: "When does SEO start?",
-      a: "After catalog structure, product cards, and tech. Prep is weeks to ~a month; ranking the core for TOP is planned over 2–6 months of work after launch prep.",
+      a: "After catalog structure, product cards, and tech. Prep is weeks to about a month; ranking for the keyword set is planned over 2–6 months after work starts.",
     },
     {
       q: "Do I need a team on day one?",
@@ -59,11 +59,11 @@ export const zapuskInternetMagazinaEn: BlogPost = {
         {
           intro: "Plan minimum:",
           items: [
-            "assortment and USP;",
-            "buying / storage / delivery;",
-            "unit economics and working-capital buffer;",
-            "demand channels and a test budget;",
-            "risks (logistics, payments, staff).",
+            "assortment and USP",
+            "buying / storage / delivery",
+            "unit economics and a working-capital buffer",
+            "demand channels and a test budget",
+            "risks (logistics, payments, staff)",
           ],
         },
       ],
@@ -79,19 +79,17 @@ export const zapuskInternetMagazinaEn: BlogPost = {
       level: 2,
       paras: [
         "Your own warehouse — control of stock and packing, but rent and people. Dropshipping — no warehouse, lower margin, reputation depends on the partner. Fulfillment — outsourced intake, storage, and shipping when integrated with the store.",
-        "“Fulfillment market is just starting” from 2020 texts is outdated: more offers exist; the criterion is the same — SLA, warehouse geography, cost per operation.",
+        "“The fulfillment market is just starting” from 2020 texts is outdated: more offers exist. The criterion is the same — SLA, warehouse geography, cost per operation.",
       ],
-      lists: [],
     },
     {
       title: "Platform: CMS, SaaS, builder, or custom",
       level: 2,
       paras: [
         "A ready-made “turnkey” store from someone else is rarely transparent: you buy unknown SEO debt and ops. More often you build from scratch.",
-        "Options: boxed CMS on your hosting; a shop plugin (e.g. WooCommerce); SaaS rent; a builder with a storefront; a heavy enterprise CMS; custom development.",
+        "Options: boxed CMS on your hosting; a shop plugin (e.g. WooCommerce); SaaS; a builder with a storefront; a heavy enterprise CMS; custom development.",
         "Look past entry price: catalog import, admin roles, payments/shipping, analytics, SEO hygiene, who will fix things. Popular CMS downsides are covered separately.",
       ],
-      lists: [],
       links: [
         {
           label: "CMS for an online store",
@@ -110,7 +108,6 @@ export const zapuskInternetMagazinaEn: BlogPost = {
         "You need clear sections: about, shipping/payment/returns, catalog, cart, contacts, FAQ. Large assortment — categories and strong product cards.",
         "Memorable domain, HTTPS, forms and contact channels. Storefront quality lives in the “10 points” checklist.",
       ],
-      lists: [],
       links: [
         {
           label: "Online store creation checklist",
@@ -133,7 +130,6 @@ export const zapuskInternetMagazinaEn: BlogPost = {
         "A sole trader is simpler at the start; a company fits partners, investment, and a different liability model. Business codes, tax regime, and online receipts follow current requirements — not 2019 screenshots.",
         "Payment methods: cards (acquiring), bank transfer, e-wallets where appropriate, cash on delivery, cash with courier/pickup, aggregators. The more familiar options without checkout surprises, the fewer abandoned carts.",
       ],
-      lists: [],
       notes: [
         {
           title: "Not legal advice",
@@ -149,7 +145,6 @@ export const zapuskInternetMagazinaEn: BlogPost = {
         "Demand: SMM, SEO (months-long horizon), paid search, content, partners. Don’t bet everything on one channel. Count ROMI (return on marketing investment), not “reach for reach’s sake.”",
         "After go-live — analytics, reviews, conversion improvements. A “store in a few hours” with no economics is a myth.",
       ],
-      lists: [],
       links: [
         {
           label: "Promoting an online store",
@@ -167,9 +162,8 @@ export const zapuskInternetMagazinaEn: BlogPost = {
       paras: [
         "Plan and supply first, then platform and storefront, then legal form/payments and demand.",
         "A platform doesn’t replace service and margin.",
-        "SEO comes after structure; TOP for the core is planned over 2–6 months after launch prep.",
+        "SEO comes after structure; ranking for the keyword set is planned over 2–6 months after launch prep.",
       ],
-      lists: [],
     },
   ],
   closing: [

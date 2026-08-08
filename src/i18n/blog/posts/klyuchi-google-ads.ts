@@ -11,7 +11,7 @@ export const klyuchiGoogleAdsEn: BlogPost = {
     "How to pick keywords for Google Ads (formerly AdWords): match types, planner stats, and intent checks — without mixing them up with an SEO keyword set.",
   lead: [
     "In Google Ads, keywords decide when an ad shows. Planner and reports help estimate demand, but you build the final list around the offer, click economics, and negatives.",
-    "Research logic, match types, landings, and post-launch cleanup matter more than dumping Planner exports into one ad group. The Google Ads UI changes; check current menu names in the account. For some markets, also check product availability and workable measurement alternatives.",
+    "Below: research logic, match types, landings, and post-launch cleanup. The Google Ads UI changes; check current menu names in the account. For some markets, also check product availability and workable measurement alternatives.",
   ],
   faq: [
     {
@@ -36,7 +36,7 @@ export const klyuchiGoogleAdsEn: BlogPost = {
     },
     {
       q: "How do you read query intent?",
-      a: "Look at the SERP and wording. “How to choose” usually needs a different page and ad than “order with delivery”.",
+      a: "Look at the SERP and wording. “How to choose” usually needs a different page and ad than “order with delivery.”",
     },
     {
       q: "How many keywords per ad group?",
@@ -52,18 +52,18 @@ export const klyuchiGoogleAdsEn: BlogPost = {
       title: "Keyword list concept",
       level: 2,
       paras: [
-        "Start from services, products, and customer language — how they search, not how you name the product internally. Add synonyms and commercial modifiers: “price”, “order”, “with delivery”, “cheap” — and seed negatives for informational and off-offer demand.",
+        "Start from services, products, and customer language — how they search, not how you name the product internally. Add synonyms and commercial modifiers: “price,” “order,” “with delivery,” “cheap” — and seed negatives for informational and off-offer demand.",
         "Don’t dump keywords into one group just because they share a word. Group phrases with the same intent and one fitting landing. Otherwise the ad says nothing and the page doesn’t match the click.",
       ],
       lists: [
         {
           intro: "Keyword layers:",
           items: [
-            "offer core;",
-            "niche synonyms and jargon;",
-            "geo, if needed;",
-            "modifier tails (lead time, material, segment);",
-            "negatives from search terms.",
+            "offer core",
+            "niche synonyms and jargon",
+            "geo, if needed",
+            "modifier tails (lead time, material, segment)",
+            "negatives from search terms",
           ],
         },
       ],
@@ -73,7 +73,7 @@ export const klyuchiGoogleAdsEn: BlogPost = {
           href: "/en/blog/reklamnyy-kabinet/",
         },
         {
-          label: "Keyword research (SEO)",
+          label: "Semantic core (SEO)",
           href: "/en/blog/semanticheskoe-yadro/",
         },
       ],
@@ -82,18 +82,18 @@ export const klyuchiGoogleAdsEn: BlogPost = {
       title: "Match types and ad group structure",
       level: 2,
       paras: [
-        "Match type controls how widely the system can map a query to a keyword. Wider reach means tighter search-term control and negatives — or you pay for “nearby”, not “the thing”.",
+        "Match type controls how widely the system can map a query to a keyword. Wider reach means tighter search-term control and negatives — or you pay for “nearby,” not “the thing.”",
         "At the start, a clear structure helps: one group — one need, a tight keyword set, a relevant ad, and a fitting landing. When data accumulates, expand carefully where economics already work.",
       ],
       lists: [
         {
           intro: "For each group lock in:",
           items: [
-            "user intent;",
-            "geography;",
-            "negatives;",
-            "landing page;",
-            "conversion goal and CPA target.",
+            "user intent",
+            "geography",
+            "negatives",
+            "landing page",
+            "conversion goal and CPA target",
           ],
         },
       ],
@@ -114,16 +114,16 @@ export const klyuchiGoogleAdsEn: BlogPost = {
       level: 2,
       paras: [
         "Planner frequency and competition figures are a draft compass, not a verdict. After launch, the main decision source is the search terms report: real wording, wasted impressions, and negative candidates.",
-        "Stats don’t guarantee sales. Cross-check with margin, geo, seasonality, and whether the landing can honestly answer the query. High volume at zero margin isn’t a “golden keyword”.",
+        "Stats don’t guarantee sales. Cross-check with margin, geo, seasonality, and whether the landing can honestly answer the query. High volume at zero margin isn’t a golden keyword.",
       ],
       lists: [
         {
           intro: "Practice before scale:",
           items: [
-            "test with a small budget;",
-            "weekly search-term review;",
-            "keyword → ad → landing chain;",
-            "don’t inflate groups without structure.",
+            "test with a small budget",
+            "weekly search-term review",
+            "keyword → ad → landing chain",
+            "don’t inflate groups without structure",
           ],
         },
       ],
@@ -145,10 +145,10 @@ export const klyuchiGoogleAdsEn: BlogPost = {
         {
           intro: "Typical junk for negatives (tune to niche):",
           items: [
-            "informational “what is / DIY”;",
-            "competitor brands if you don’t want interception;",
-            "jobs and training if you sell a service;",
-            "free / download — if you have no freemium.",
+            "informational “what is / DIY”",
+            "competitor brands if you don’t want interception",
+            "jobs and training if you sell a service",
+            "free / download — if you have no freemium",
           ],
         },
       ],
@@ -171,10 +171,10 @@ export const klyuchiGoogleAdsEn: BlogPost = {
         {
           intro: "Check before approving a group:",
           items: [
-            "the keyword is audible in the ad;",
-            "URL loads and is fast on mobile;",
-            "CTA and form are visible without a quest;",
-            "no clash with price/terms from the ad.",
+            "the keyword is audible in the ad",
+            "URL loads and is fast on mobile",
+            "CTA and form are visible without a quest",
+            "no clash with price/terms from the ad",
           ],
         },
       ],
@@ -200,10 +200,10 @@ export const klyuchiGoogleAdsEn: BlogPost = {
         {
           intro: "Avoid:",
           items: [
-            "bids without conversion analytics;",
-            "broad match without query control;",
-            "ads that don’t match the keyword;",
-            "mixing brand and generic demand without separate campaigns.",
+            "bids without conversion analytics",
+            "broad match without query control",
+            "ads that don’t match the keyword",
+            "mixing brand and generic demand without separate campaigns",
           ],
         },
       ],
@@ -218,18 +218,18 @@ export const klyuchiGoogleAdsEn: BlogPost = {
       title: "Optimization after launch",
       level: 2,
       paras: [
-        "Launch a test with a budget that can collect stats, and review reports on a schedule. Add negatives, refine groups, and improve the page for observed reasons — not “everything at once after a bad day”.",
+        "Launch a test with a budget that can collect stats, and review reports on a schedule. Add negatives, refine groups, and improve the page for observed reasons — not “everything at once after a bad day.”",
         "Judge the campaign by conversions and their quality — not clicks or average position. If leads don’t fit sales, the issue may be query, offer, or user path — keywords are only one lever.",
       ],
       lists: [
         {
           intro: "Weekly control:",
           items: [
-            "search terms;",
-            "spend, CPA, and conversion count;",
-            "irrelevant share;",
-            "ad–landing fit;",
-            "what to scale, what to cut.",
+            "search terms",
+            "spend, CPA, and conversion count",
+            "irrelevant share",
+            "ad–landing fit",
+            "what to scale, what to cut",
           ],
         },
       ],
@@ -237,7 +237,7 @@ export const klyuchiGoogleAdsEn: BlogPost = {
         {
           title: "SEO vs Ads",
           kind: "tip",
-          text: "Ads give a fast demand test. Organic for a core grows separately: site prep — roughly weeks to a month; rankings planned 2–6 months of work.",
+          text: "Ads give a fast demand test. Organic for a core grows separately: site prep — roughly weeks to a month; page-one share for the core is typically planned for two to six months of work after you start.",
         },
       ],
     },

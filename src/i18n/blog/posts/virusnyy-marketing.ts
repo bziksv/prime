@@ -8,10 +8,10 @@ export const virusnyyMarketingEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/virusnyy-marketing/cover-en.webp",
   excerpt:
-    "What viral marketing is, which formats people spread on their own — video, images, text, apps — and why you can’t order a “viral hit” with a guarantee.",
+    "What viral marketing is, which formats people spread on their own — video, images, text, apps — and why you can’t order a viral hit with a guarantee.",
   lead: [
     "Viral marketing is when people pass the message on themselves: repost, forward, meme, challenge. The brand gets reach beyond direct media spend — if the piece lands and is easy to share.",
-    "You can’t guarantee a viral hit; buying views isn’t a strategy. Know the format types and a sensible video workflow, and treat content virality basics as a separate skill from media buy.",
+    "Below: where the term came from, pros and risks, main format types, and a sensible video workflow. You can’t guarantee a viral hit; buying views isn’t a strategy. Properties of viral content are covered separately.",
   ],
   faq: [
     {
@@ -36,7 +36,7 @@ export const virusnyyMarketingEn: BlogPost = {
     },
     {
       q: "Do I need a big production budget?",
-      a: "Not necessarily. Sometimes a simple video with a strong idea wins. Budget helps quality and seeding but doesn’t buy a repost guarantee.",
+      a: "Not necessarily. Sometimes a simple video with a strong idea wins. Budget helps quality and distribution, but doesn’t buy a repost guarantee.",
     },
   ],
   sections: [
@@ -44,7 +44,7 @@ export const virusnyyMarketingEn: BlogPost = {
       title: "Where the term came from and how it works",
       level: 2,
       paras: [
-        "The mid-1990s idea of a “virus in marketing” framed message transfer person to person — like biological spread. Before the internet that was spoken word of mouth; online, one “share” click makes it faster.",
+        "The mid-1990s idea of a “virus in marketing” framed message transfer person to person — like biological spread. Before the internet that was spoken word of mouth; online, one share click makes it faster.",
         "Today the mechanic lives in social, email, video platforms, and messengers. The core is the same: value or emotion has to beat the laziness of forwarding.",
       ],
       links: [
@@ -59,20 +59,20 @@ export const virusnyyMarketingEn: BlogPost = {
       ],
     },
     {
-      title: "Pros and cons",
+      title: "Pros and limits",
       level: 2,
       paras: [
         "Strengths: relatively low distribution cost when it works, more trust in a non-ad tone, sometimes a long tail of views for a lucky video.",
-        "Limits: no result guarantee, negative-viral risk, weak control, and platform moderation. “Forbidden” content for hype hurts the brand more than it buys reach — not a strategy.",
+        "Limits: no result guarantee, negative-viral risk, weak control, and platform moderation. Forbidden content for hype hurts the brand more than it buys reach — not a strategy.",
       ],
       lists: [
         {
           intro: "When it makes sense:",
           items: [
-            "you have a strong idea for the audience;",
-            "you’re ready to seed without waiting for a miracle;",
-            "there’s a landing page for the interest;",
-            "you’re ready to handle a comment wave.",
+            "you have a strong idea for the audience",
+            "you’re ready to promote without waiting for a miracle",
+            "there’s a landing page for the interest",
+            "you’re ready to handle a comment wave",
           ],
         },
       ],
@@ -87,10 +87,10 @@ export const virusnyyMarketingEn: BlogPost = {
         {
           intro: "What raises the odds:",
           items: [
-            "a hook from the first frames;",
-            "shot changes, live sound;",
-            "an idea people can repeat or parody;",
-            "brand kept light.",
+            "a hook from the first frames",
+            "shot changes, live sound",
+            "an idea people can repeat or parody",
+            "brand kept light",
           ],
         },
       ],
@@ -121,26 +121,26 @@ export const virusnyyMarketingEn: BlogPost = {
       title: "How to work on a viral video",
       level: 2,
       paras: [
-        "Process beats magic: goal and audience → idea and script → production → seeding → postmortem. Uploading “to hosting and waiting” almost never works — you need a first push through your channels, partners, and creators.",
+        "Process beats magic: goal and audience → idea and script → production → distribute → postmortem. Uploading to hosting and waiting almost never works — you need a first push through your channels, partners, and creators.",
         "A common benchmark: people often call something viral when organic views many times exceed the paid start — but for business, relevance matters more than the multiplier alone.",
       ],
       lists: [
         {
           intro: "Prep checklist:",
           items: [
-            "one goal (awareness / traffic / product);",
-            "audience and platforms where sharing is easy;",
-            "a script with emotion and a clear message;",
-            "a seeding plan without fake inflation;",
-            "metrics: shares, clicks, leads.",
+            "one goal (awareness / traffic / product)",
+            "audience and platforms where sharing is easy",
+            "a script with emotion and a clear message",
+            "a distribution plan without fake inflation",
+            "metrics: shares, clicks, leads",
           ],
         },
       ],
       notes: [
         {
           title: "Important",
-          text: "Paid “viral marketing services” selling view packs aren’t a substitute for an idea. Bot and platform-sanction risk outweigh brand benefit.",
           kind: "tip",
+          text: "Paid “viral marketing services” selling view packs aren’t a substitute for an idea. Bot and platform-sanction risk outweigh brand benefit.",
         },
       ],
     },
@@ -149,7 +149,7 @@ export const virusnyyMarketingEn: BlogPost = {
       level: 2,
       paras: [
         "A viral hit with no bridge to the product is an expensive show. Decide in advance where interest goes: landing page, product selection, quiz, contact form. Otherwise you get views and an idle sales team.",
-        "A negative viral moment (mistake, scandal) is handled with facts and speed — not by buying “positivity” or staying silent hoping it “blows over.”",
+        "A negative viral moment (mistake, scandal) is handled with facts and speed — not by buying positivity or staying silent hoping it blows over.",
       ],
       links: [
         {
@@ -164,7 +164,7 @@ export const virusnyyMarketingEn: BlogPost = {
     },
   ],
   closing: [
-    "Viral marketing is formats people want to forward — not a pack of bought views. Pick a type for your audience, plan seeding and a bridge to the product, and don’t promise yourself a guaranteed viral hit.",
+    "Viral marketing is formats people want to forward — not a pack of bought views. Pick a type for your audience, plan distribution and a bridge to the product, and don’t promise yourself a guaranteed viral hit.",
   ],
   related: [
     "viralnyy-kontent",

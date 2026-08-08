@@ -10,8 +10,8 @@ export const zakazchikiKopirayteraEn: BlogPost = {
   excerpt:
     "How a copywriter finds clients: portfolio, search channels, a strong pitch, and work terms — without a catalog of outdated groups or dumping “from pennies per 1,000 characters.”",
   lead: [
-    "Beginners often take pennies; experienced writers lose clients — demand for copy exists, but you have to know how to find and win it. A steady order flow starts with prep, not chaotic applications.",
-    "We don’t catalog 2020 Facebook/VK groups and marketplaces: platforms come and go. Portfolio work, where to look, what to skip, and how to write a pitch. Text types and briefs from the client side live in the copywriting article.",
+    "Beginners often take pennies; experienced writers lose clients — demand for copy exists, but you have to know how to find and close it. A steady order flow starts with prep, not chaotic applications.",
+    "Below: portfolio, where to look, what to skip, and how to write a pitch. We don’t catalog 2020 Facebook/VK groups and marketplaces: platforms come and go. Text types and briefs from the client side live in the copywriting article.",
   ],
   faq: [
     {
@@ -41,17 +41,17 @@ export const zakazchikiKopirayteraEn: BlogPost = {
       level: 2,
       paras: [
         "Clients choose by results, not résumé tenure. Show 2–4 relevant pieces with a short case: task → what you did → effect (if any).",
-        "Sort examples by format (landing, SEO article, email). Give links or Docs, not “download a rar.” State a price range upfront — you’ll filter the wrong-fit.",
+        "Sort examples by format (landing, SEO article, email). Give links or Docs, not “download a rar.” State a price range upfront — you’ll filter the wrong fit.",
       ],
       lists: [
         {
           intro: "Minimum before searching:",
           items: [
-            "portfolio with live links;",
-            "clear rate card or pricing formula;",
-            "2–3 contact channels;",
-            "a way to get paid;",
-            "a strong pitch template.",
+            "portfolio with live links",
+            "clear rate card or pricing formula",
+            "2–3 contact channels",
+            "a way to get paid",
+            "a strong pitch template",
           ],
         },
       ],
@@ -74,11 +74,11 @@ export const zakazchikiKopirayteraEn: BlogPost = {
         {
           intro: "Working channels:",
           items: [
-            "pro communities and job posts;",
-            "marketplaces / talent directories;",
-            "referrals from happy clients;",
-            "content about your expertise (blog, Telegram, LinkedIn-like);",
-            "targeted pitches to companies in your topic.",
+            "pro communities and job posts",
+            "marketplaces / talent directories",
+            "referrals from happy clients",
+            "content about your expertise (blog, Telegram, LinkedIn-like)",
+            "targeted pitches to companies in your topic",
           ],
         },
       ],
@@ -109,11 +109,11 @@ export const zakazchikiKopirayteraEn: BlogPost = {
         {
           intro: "Pitch outline:",
           items: [
-            "greeting + the job in your words;",
-            "1 relevant case with a link;",
-            "what you’ll do and by when;",
-            "price or how it’s calculated;",
-            "a question if the brief is missing something.",
+            "greeting + the job in your words",
+            "1 relevant case with a link",
+            "what you’ll do and by when",
+            "price or how it’s calculated",
+            "a question if the brief is missing something",
           ],
         },
       ],

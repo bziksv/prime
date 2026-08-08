@@ -8,10 +8,10 @@ export const gostevoyPostEn: BlogPost = {
   category: "Content marketing",
   cover: "/images/blog/gostevoy-post/cover-en.webp",
   excerpt:
-    "How to find and evaluate sites for guest articles: audience, traffic, engagement, and link profile — without “free ranking” promises or link spam.",
+    "How to find and evaluate sites for guest articles: audience, traffic, engagement, and link profile — without free page-one promises or link spam.",
   lead: [
-    "A guest post is a piece on someone else’s platform: expertise for their audience and (often) a mention/link to your site. Value sits in a relevant audience and text quality — not “one more link at any cost.”",
-    "Finding the right host takes niche search, competitor overlap checks, and editor outreach — not “guest-post” operators that dump you into junk marketplaces. A sharp link spike is risky; crowd replies in discussions are a related but separate tactic.",
+    "A guest post is a piece on someone else’s platform: expertise for their audience and (often) a mention/link to your site. Value sits in a relevant audience and text quality — not one more link at any cost.",
+    "Below: how to find sites, what to check when shortlisting, and why a sharp link spike is risky. Crowd replies in discussions are a related topic; “guest-post” search operators often lead to junk marketplaces.",
   ],
   faq: [
     {
@@ -28,7 +28,7 @@ export const gostevoyPostEn: BlogPost = {
     },
     {
       q: "How do you find sites?",
-      a: "SERPs for niche queries + overlapping donors of strong competitors (Ahrefs and similar tools) + manual outreach to editors.",
+      a: "Results for niche queries + overlapping donors of strong competitors (Ahrefs and similar tools) + manual outreach to editors.",
     },
     {
       q: "How is this different from crowd marketing?",
@@ -36,7 +36,7 @@ export const gostevoyPostEn: BlogPost = {
     },
     {
       q: "Can you buy guest posts in bulk?",
-      a: "Mass “link spam” via guest-post farms hurts. Prefer rare strong pieces.",
+      a: "Mass link spam via guest-post farms hurts. Prefer rare strong pieces.",
     },
     {
       q: "Do you need CheckTrust or SimilarWeb?",
@@ -48,12 +48,13 @@ export const gostevoyPostEn: BlogPost = {
       title: "Two ways to find sites",
       level: 2,
       paras: [
-        "Niche search: queries like “[topic] blog,” “[industry] magazine,” SERP review, and a candidate table with notes.",
-        "Via competitors: in Ahrefs (or a peer) look at strong players’ referring domains, find overlaps — sites that already host niche experts. Not a “magic button” — hypotheses for manual checks.",
+        "Niche search: queries like “[topic] blog,” “[industry] magazine,” review the results, and keep a candidate table with notes.",
+        "Via competitors: in Ahrefs (or a peer) look at strong players’ referring domains, find overlaps — sites that already host niche experts. Not a magic button — hypotheses for manual checks.",
       ],
       notes: [
         {
           title: "Don’t confuse with guest-post marketplaces",
+          kind: "tip",
           text: "`inurl:write-for-us` lists are often full of weak sites. Prefer topical outreach and live media.",
         },
       ],
@@ -79,7 +80,7 @@ export const gostevoyPostEn: BlogPost = {
             "topic matches your expertise",
             "guest rules / contacts exist",
             "no obvious PBN / link farm",
-            "you’re ready to help their readers — not a press release.",
+            "you’re ready to help their readers — not a press release",
           ],
         },
       ],
@@ -89,8 +90,8 @@ export const gostevoyPostEn: BlogPost = {
       level: 2,
       paras: [
         "In link auditors check donor quality, anchors, and dynamics. Sharp spikes and junk networks are red flags for the site and for your strategy.",
-        "Quick scores (CheckTrust and similar tools) speed filtering but don’t guarantee clicks or trust. A guest post’s goal is a useful article + a fitting link — not a “DR checkbox.”",
-        "Grow mentions gradually. A sudden link-mass jump for growth is a filter and trust risk — ranking gains are planned over months, not a one-week guest-post blitz.",
+        "Quick scores (CheckTrust and similar tools) speed filtering but don’t guarantee clicks or trust. A guest post’s goal is a useful article + a fitting link — not a DR checkbox.",
+        "Grow mentions gradually. A sudden link-mass jump for growth is a filter and trust risk.",
       ],
       links: [
         {

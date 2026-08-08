@@ -11,16 +11,16 @@ export const raskrutkaGruppyVkEn: BlogPost = {
     "How to grow a VK community yourself: name, content, design, live audience growth methods, and why fake followers are dangerous.",
   lead: [
     "A VK community grows when the niche and offer are clear, content is regular, and acquisition comes from value and ads — not bots. The start is hardest; after the first live followers, retention and replies matter more.",
-    "Prep, naming, content, design, and growth channels. VK menus change — follow the meaning, not button screenshots.",
+    "Below: prep, naming, content, design, and growth channels. VK menus change — follow the meaning, not button screenshots.",
   ],
   faq: [
     {
       q: "How many posts per day are enough?",
-      a: "Not a mandatory “6”. Better 1–3 solid slots you can sustain than spam for frequency.",
+      a: "Not a mandatory six. Better one to three solid slots you can sustain than spam for frequency.",
     },
     {
-      q: "Do fake followers actually help?",
-      a: "No: sanction risk, dead audience, and ER collapse. Advertisers and algorithms notice.",
+      q: "Do fake followers help?",
+      a: "No: sanction risk, dead audience, and engagement-rate collapse. Advertisers and algorithms notice.",
     },
     {
       q: "Are keywords in the group name required?",
@@ -31,8 +31,8 @@ export const raskrutkaGruppyVkEn: BlogPost = {
       a: "Design, 10–15 ready posts, a pinned offer, contacts, and a clear audience definition.",
     },
     {
-      q: "How is this different from seeding in other communities?",
-      a: "Here you grow your own asset. Seeding is posting on others’ pages — see a separate article.",
+      q: "How is this different from paid posts in other communities?",
+      a: "Here you grow your own asset. Paid placements are posting on others’ pages — see a separate article.",
     },
   ],
   sections: [
@@ -40,7 +40,7 @@ export const raskrutkaGruppyVkEn: BlogPost = {
       title: "Prep and launch",
       level: 2,
       paras: [
-        "Before “gaining” followers, lock the topic, goal (leads, expertise, community), and tone. An empty public with ads burns budget.",
+        "Before gaining followers, lock the topic, goal (leads, expertise, community), and tone. An empty public with ads burns budget.",
         "At the start the admin mostly creates content and answers early messages. Later moderation and request handling grow — don’t leave spam and toxicity without rules.",
       ],
       lists: [
@@ -50,7 +50,7 @@ export const raskrutkaGruppyVkEn: BlogPost = {
             "clear niche and offer in the description",
             "cover and avatar in one style",
             "a post backlog and draft content plan",
-            "contact / products / services buttons — as needed.",
+            "contact / products / services buttons — as needed",
           ],
         },
       ],
@@ -69,7 +69,7 @@ export const raskrutkaGruppyVkEn: BlogPost = {
             "clear in a second",
             "no legally risky third-party trademarks",
             "easy to say and find in search",
-            "if trends shift — careful tweaks, not weekly chaos.",
+            "if trends shift — careful tweaks, not weekly chaos",
           ],
         },
       ],
@@ -88,7 +88,7 @@ export const raskrutkaGruppyVkEn: BlogPost = {
             "fit the niche and audience",
             "mix of value, engagement, and soft sells",
             "unique, quality media",
-            "follow laws and platform rules.",
+            "follow laws and platform rules",
           ],
         },
       ],
@@ -107,16 +107,16 @@ export const raskrutkaGruppyVkEn: BlogPost = {
       title: "Design",
       level: 2,
       paras: [
-        "There are no rigid “design laws”, but loud chaotic blocks annoy. One style: cover, menu, buttons, post template.",
+        "There are no rigid design laws, but loud chaotic blocks annoy. One style: cover, menu, buttons, post template.",
       ],
       lists: [
         {
           intro: "What to check:",
           items: [
-            "cover with offer/benefit",
+            "cover with offer or benefit",
             "readable section menu",
             "background and widgets without visual noise",
-            "pinned post with a CTA.",
+            "pinned post with a CTA",
           ],
         },
       ],
@@ -125,7 +125,7 @@ export const raskrutkaGruppyVkEn: BlogPost = {
       title: "How to attract subscribers",
       level: 2,
       paras: [
-        "Paid: VK targeting, seeding, collabs. Organic: value, recommendations, cross-posts on your properties, contests without “follow 20 communities”.",
+        "Paid: VK targeting, paid placements, collabs. Organic: value, recommendations, cross-posts on your properties, contests without “follow 20 communities.”",
       ],
       lists: [
         {
@@ -133,14 +133,15 @@ export const raskrutkaGruppyVkEn: BlogPost = {
           items: [
             "auto-services promise fast growth",
             "risks: bans, shadow limits, dead accounts",
-            "ER drops — ads and reach suffer.",
+            "engagement rate drops — ads and reach suffer",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
-          text: "Buying followers “for a pretty number”. Better 500 live than 10,000 bots.",
+          kind: "tip",
+          text: "Buying followers for a pretty number. Better 500 live than 10,000 bots.",
         },
       ],
       links: [

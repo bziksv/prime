@@ -11,19 +11,19 @@ export const maloPokazovEn: BlogPost = {
     "Why Direct marks low-frequency groups as “Low impressions,” what affects the status, and how to get impressions back: merging LF keywords, templates, negatives — without outdated “exactly 10 in 30 days” dogma.",
   lead: [
     "“Low impressions” turns off or limits groups and phrases with too weak a demand forecast: Yandex doesn’t want to run ads almost nobody will see.",
-    "Find the weak phrases, regroup related long-tail keywords, and cut excess negatives so frequency adds up. Thresholds and UI names may have changed since 2017 — check Direct Help; the idea stays the same.",
+    "Below: why the status appears, how to find problem phrases, and practical ways to restore impressions. Thresholds and UI names may have changed since 2017 — check Direct Help; the idea stays the same: build enough frequency in the group or cut the dead tail.",
   ],
   faq: [
     {
-      q: "Is “Low impressions” an account ban?",
+      q: "Is this an account ban?",
       a: "No. A local status on phrases/groups with low expected impression frequency.",
     },
     {
-      q: "Is the “Low impressions” status permanent?",
+      q: "Is the status permanent?",
       a: "No. It recalculates periodically. After structure and keyword edits it can lift.",
     },
     {
-      q: "Are rare keywords the only cause of low impressions?",
+      q: "Are rare keywords the only cause?",
       a: "Often yes, but negatives, strict match operators, narrow geo, and device/audience limits make it worse.",
     },
     {
@@ -31,7 +31,7 @@ export const maloPokazovEn: BlogPost = {
       a: "You can, but you lose the long tail. Better group related LF terms so they add up to enough impressions.",
     },
     {
-      q: "Are headline templates required to fix low impressions?",
+      q: "Are headline templates required?",
       a: "Not required, but they help keep relevance when merging phrases. Current syntax is in Help.",
     },
     {
@@ -66,7 +66,7 @@ export const maloPokazovEn: BlogPost = {
       title: "What cuts impressions",
       level: 2,
       paras: [
-        "Aggressive negatives and cross-negatives cut reach — sometimes to “low impressions” on whole groups.",
+        "Aggressive negatives and cross-negatives cut audience — sometimes to “low impressions” on whole groups.",
         "Match operators and quotes narrow the audience: useful for precision, harmful mixed with ultra-LF terms.",
         "Narrow geo, few devices, tight audiences — further cut already rare demand.",
       ],
@@ -74,10 +74,10 @@ export const maloPokazovEn: BlogPost = {
         {
           intro: "Before panicking, check:",
           items: [
-            "negatives on phrase/group/campaign;",
-            "match operators;",
-            "geo and schedule;",
-            "whether demand exists in Wordstat/forecast.",
+            "negatives on phrase/group/campaign",
+            "match operators",
+            "geo and schedule",
+            "whether demand exists in Wordstat/forecast",
           ],
         },
       ],

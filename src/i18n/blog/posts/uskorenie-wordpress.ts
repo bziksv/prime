@@ -5,13 +5,13 @@ export const uskorenieWordpressEn: BlogPost = {
   slug: "uskorenie-wordpress",
   title: "How to speed up a WordPress site: hosting, theme, plugins",
   date: "2019-09-27",
-  category: "Hosting",
+  category: "Digital marketing",
   cover: "/images/blog/uskorenie-wordpress/cover-en.webp",
   excerpt:
-    "What really slows WordPress: TTFB and hosting, a heavy theme, duplicate plugins, images, and JS/CSS. A practical work order without treating as gospel one PageSpeed score or 2019 foreign case studies.",
+    "What really slows WordPress: TTFB and hosting, a heavy theme, duplicate plugins, images, and JS/CSS. A practical work order — without worshipping one PageSpeed score or copying 2019 foreign case studies.",
   lead: [
-    "A slow WordPress is usually the sum of hosting, a “do-everything” theme, a dozen plugins, and unoptimized images. Changing plans without cleaning the site helps little; cleaning without decent TTFB — likewise.",
-    "Measure your URL in current tools (PageSpeed Insights, Web Vitals), then fix bottlenecks in order: hosting, theme, plugins, media. We don’t copy others’ Kinsta/Flywheel cases and “+N PageSpeed points” as a how-to.",
+    "A slow WordPress is usually the sum of hosting, a do-everything theme, a dozen plugins, and unoptimized images. Changing the plan without cleaning the site helps little; cleaning without decent TTFB helps little too.",
+    "Below: diagnosis and speed-up order. We don’t copy other people’s Kinsta/Flywheel cases and “+N PageSpeed points” as a recipe. Measure your URL in current tools (PageSpeed Insights, Web Vitals) and fix the real bottlenecks.",
   ],
   faq: [
     {
@@ -24,20 +24,20 @@ export const uskorenieWordpressEn: BlogPost = {
     },
     {
       q: "Does Elementor speed up the site?",
-      a: "Builders are convenient, but aren’t a speed-up by themselves. A light theme plus fewer widgets is usually faster than a heavy builder with piles of add-ons.",
+      a: "Builders are convenient, but they aren’t a speed-up by themselves. A light theme plus fewer widgets is usually faster than a heavy builder with piles of add-ons.",
     },
     {
-      q: "Do you need specialized WordPress hosting?",
-      a: "Often yes: HTTP/2 or HTTP/3, SSL, server cache, decent PHP. Cheap shared without cache kills TTFB.",
+      q: "Do I need specialized WordPress hosting?",
+      a: "Often yes: HTTP/2 or HTTP/3, SSL, server cache, decent PHP. Cheap shared hosting without cache kills TTFB.",
     },
     {
-      q: "Does site speed guarantee TOP rankings?",
-      a: "Speed affects UX and SEO indirectly. Core rankings are separate work: prep about a month; TOP planned over 2–6 months after start.",
+      q: "Does speed mean better rankings?",
+      a: "Speed affects UX and SEO indirectly. Rankings for the core are separate work: prep about a month; page-one share of the core is typically planned for two to six months after work starts.",
     },
   ],
   sections: [
     {
-      title: "Diagnosis: where exactly it stalls",
+      title: "Diagnosis: where it actually stalls",
       level: 2,
       paras: [
         "Pull a PageSpeed / Lighthouse report for the mobile version of key URLs. Watch TTFB, LCP, INP/CLS, and the “load less” list.",
@@ -47,11 +47,11 @@ export const uskorenieWordpressEn: BlogPost = {
         {
           intro: "Typical WordPress bottlenecks:",
           items: [
-            "slow server response (TTFB);",
-            "a heavy theme with extra scripts;",
-            "duplicates and “dead” plugins;",
-            "large JPG/PNG without WebP;",
-            "blocking JS/CSS and extra fonts.",
+            "slow server response (TTFB)",
+            "a heavy theme with extra scripts",
+            "duplicates and dead plugins",
+            "large JPG/PNG without WebP",
+            "blocking JS/CSS and extra fonts",
           ],
         },
       ],
@@ -73,10 +73,10 @@ export const uskorenieWordpressEn: BlogPost = {
         {
           intro: "What to ask the host:",
           items: [
-            "is there page cache / object cache;",
-            "PHP version and limits;",
-            "CDN and HTTP/2–3;",
-            "backups and staging for tests.",
+            "is there page cache / object cache",
+            "PHP version and limits",
+            "CDN and HTTP/2–3",
+            "backups and staging for tests",
           ],
         },
       ],
@@ -85,28 +85,28 @@ export const uskorenieWordpressEn: BlogPost = {
       title: "Theme, plugins, and media",
       level: 2,
       paras: [
-        "A “premium theme for every case” pulls sliders, fonts, and builders you don’t use. Take a lighter template or hard-disable modules.",
-        "Plugins: remove unused ones; don’t keep two caches / two SEO / two sliders. Update what’s left. Images — compression, sensible sizes, lazy-load, WebP/AVIF where possible.",
-        "JS/CSS: defer non-critical, don’t load Google Fonts in a pack “just in case,” prefer system or local fonts when possible. “Combine everything” plugins — test on staging: they sometimes break the site.",
+        "A premium theme for every case pulls sliders, fonts, and builders you don’t use. Take a lighter template or hard-disable modules.",
+        "Plugins: remove unused ones; don’t keep two caches, two SEO plugins, or two sliders. Update what’s left. Images — compression, sensible sizes, lazy-load, WebP/AVIF where possible.",
+        "JS/CSS: defer non-critical work, don’t load Google Fonts in a pack “just in case,” prefer system or local fonts when possible. “Combine everything” plugins — test on staging: they sometimes break the site.",
       ],
       lists: [
         {
           intro: "Work order:",
           items: [
-            "backup and staging;",
-            "measure before changes;",
-            "clean plugins and theme;",
-            "optimize images;",
-            "cache + CDN;",
-            "re-measure the same URLs.",
+            "backup and staging",
+            "measure before changes",
+            "clean plugins and theme",
+            "optimize images",
+            "cache + CDN",
+            "re-measure the same URLs",
           ],
         },
       ],
       notes: [
         {
           title: "Important",
-          text: "Don’t chase “100/100” at any cost. Stable mobile LCP and unbroken cart/forms after “optimization” matter more.",
           kind: "tip",
+          text: "Don’t chase 100/100 at any cost. Stable mobile LCP and unbroken cart/forms after “optimization” matter more.",
         },
       ],
       links: [

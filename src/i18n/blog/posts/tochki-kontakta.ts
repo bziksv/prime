@@ -11,7 +11,7 @@ export const tochkiKontaktaEn: BlogPost = {
     "What touchpoints are: online and offline, positive and negative, how to map the customer journey and link touches into a chain before and after purchase.",
   lead: [
     "A touchpoint is any contact between brand and person: site, ad, call, chat, email, storefront, review. Sales grow not from “one more banner,” but when the touch chain is consistent and doesn’t break at a weak link.",
-    "We show where to find points, how to score them, and how to assemble a customer path. Don’t mix this up with SEO “entry points” from search competitors — that’s a different job.",
+    "Below: where to find points, how to score them, and how to assemble a customer path. Don’t mix this up with SEO “entry points” from search competitors — that’s a different job.",
   ],
   faq: [
     {
@@ -55,11 +55,11 @@ export const tochkiKontaktaEn: BlogPost = {
         {
           intro: "A typical online set:",
           items: [
-            "landings and contacts;",
-            "chat / callback;",
-            "ads and the search snippet;",
-            "email and notifications;",
-            "reviews and mentions.",
+            "landings and contacts",
+            "chat / callback",
+            "ads and the search snippet",
+            "email and notifications",
+            "reviews and mentions",
           ],
         },
       ],
@@ -81,7 +81,6 @@ export const tochkiKontaktaEn: BlogPost = {
         "The same point can have different effects. An ad click and a useful page — plus. A click and an empty or slow page — minus. A neutral touch doesn’t move the decision: “just saw a logo” with no next step.",
         "The goal is to strengthen positives, fix negatives, and not spawn neutral noise. Reputation is the sum of touches — not one pretty banner.",
       ],
-      lists: [],
     },
     {
       title: "How to work through and score them",
@@ -94,11 +93,11 @@ export const tochkiKontaktaEn: BlogPost = {
         {
           intro: "On the audit checklist:",
           items: [
-            "reply time in chat/email;",
-            "forms and phones working;",
-            "ad and landing match;",
-            "staff tone at the joints;",
-            "what happens after payment.",
+            "reply time in chat/email",
+            "forms and phones working",
+            "ad and landing match",
+            "staff tone at the joints",
+            "what happens after payment",
           ],
         },
       ],
@@ -114,13 +113,13 @@ export const tochkiKontaktaEn: BlogPost = {
         {
           intro: "Example clinic chain:",
           items: [
-            "ads / search;",
-            "service page;",
-            "chat or form;",
-            "phone booking;",
-            "reception;",
-            "appointment;",
-            "reminder and review.",
+            "ads / search",
+            "service page",
+            "chat or form",
+            "phone booking",
+            "reception",
+            "appointment",
+            "reminder and review",
           ],
         },
       ],
@@ -142,11 +141,11 @@ export const tochkiKontaktaEn: BlogPost = {
         {
           intro: "Align with the path:",
           items: [
-            "problem — explanatory content;",
-            "search — clear landings;",
-            "compare — differences and proof;",
-            "decide — simple CTA and contact;",
-            "after — service and review ask.",
+            "problem — explanatory content",
+            "search — clear landings",
+            "compare — differences and proof",
+            "decide — simple CTA and contact",
+            "after — service and review ask",
           ],
         },
       ],
@@ -168,7 +167,6 @@ export const tochkiKontaktaEn: BlogPost = {
         "Watch conversion at the joints: ads→site, site→lead, lead→deal, deal→repeat/review. A drop on one link matters more than “average account CTR.”",
         "Assign an owner for key points: marketing won’t fix reception tone alone, and sales won’t fix a broken form without development.",
       ],
-      lists: [],
     },
   ],
   closing: [

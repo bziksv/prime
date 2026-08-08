@@ -11,7 +11,7 @@ export const feykStranitsaEn: BlogPost = {
     "What counts as a fake page or fake account, why scammers build them, and how to verify authenticity — without how-tos for making forgeries.",
   lead: [
     "A fake page is a counterfeit site, landing, or profile that pretends to be a brand, store, or person. The goal is usually fraud, data theft, or black PR.",
-    "How to spot a forgery and protect a brand. We don’t cover building fakes for spam or scams — and we don’t recommend it.",
+    "Below: how to spot a forgery and protect a brand. We don’t cover building fakes for spam or scams — and we don’t recommend it.",
   ],
   faq: [
     {
@@ -28,7 +28,7 @@ export const feykStranitsaEn: BlogPost = {
     },
     {
       q: "What about a fake social account?",
-      a: "Check creation date, avatar, chat pushing “pay off-platform”, report to the network’s support.",
+      a: "Check creation date, avatar, chat pushing “pay off-platform,” then report to the network’s support.",
     },
     {
       q: "Do fakes help promotion?",
@@ -58,7 +58,7 @@ export const feykStranitsaEn: BlogPost = {
             "online-store clone",
             "fake “payment” / support",
             "counterfeit brand profile",
-            "phishing “log into account” form.",
+            "phishing “log into account” form",
           ],
         },
       ],
@@ -67,7 +67,7 @@ export const feykStranitsaEn: BlogPost = {
       title: "How to spot it",
       level: 2,
       paras: [
-        "Check the domain character by character — especially Latin/lookalike tricks — open the official URL from a bookmark, not a cold message. Review legal info, policy, and weird “today only” discounts.",
+        "Check the domain character by character — especially Latin lookalike tricks — open the official URL from a bookmark, not a cold message. Review legal info, policy, and weird “today only” discounts.",
         "Compare contacts with the brand’s official surfaces and don’t pay via a link from chat. If the offer feels off, call a number from a verified site or ask through a known channel.",
       ],
       lists: [
@@ -77,7 +77,7 @@ export const feykStranitsaEn: BlogPost = {
             "typos in the domain",
             "no phone/address — or someone else’s",
             "pressure to “pay in 5 minutes”",
-            "a form asking for email/bank passwords outside the bank.",
+            "a form asking for email/bank passwords outside the bank",
           ],
         },
       ],
@@ -96,7 +96,7 @@ export const feykStranitsaEn: BlogPost = {
             "consistent NAP and company details",
             "a staff email for fake reports",
             "quick replies to clients on social",
-            "no homemade “fake storefronts” for SEO.",
+            "no homemade “fake storefronts” for SEO",
           ],
         },
       ],
@@ -121,7 +121,7 @@ export const feykStranitsaEn: BlogPost = {
             "don’t open payment from an unexpected link",
             "match domain and details to an official source",
             "look for reviews off the seller’s page",
-            "report the suspicion to the real brand owner.",
+            "report the suspicion to the real brand owner",
           ],
         },
       ],
@@ -140,7 +140,7 @@ export const feykStranitsaEn: BlogPost = {
             "what object and rights are impersonated",
             "links to the official site and accounts",
             "proof of misleading content",
-            "a contact for reply from the brand owner.",
+            "a contact for reply from the brand owner",
           ],
         },
       ],

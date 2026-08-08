@@ -10,8 +10,8 @@ export const adaptivnyySaytEn: BlogPost = {
   excerpt:
     "What a responsive site is, how it differs from a separate mobile version, why it matters for SEO and UX, the build stages, and how to test across screens.",
   lead: [
-    "Most visits come from smartphones: people browse the catalog on a phone and often send a lead from there too. A site that “floats” or needs horizontal scrolling loses both users and quality signals for search.",
-    "Responsive design keeps one URL and lets the layout adjust to width — unlike a separate m-site. For business that means conversion on a small screen; for SEO, mobile-first indexing expects a usable phone experience. Layout craft is a related article; here the focus is mobile UX.",
+    "Most visits come from smartphones: people browse the catalog on a phone and often send a lead from there too. A site that floats or needs horizontal scrolling loses both users and quality signals for search.",
+    "Below: what screen-size fit means, how responsive differs from a separate m-site, goals for business and SEO, the process, and checks. Layout as a craft is a related article; here the focus is mobile UX.",
   ],
   faq: [
     {
@@ -31,11 +31,11 @@ export const adaptivnyySaytEn: BlogPost = {
       a: "No. You need content priority, large tap targets, readable type, usable forms, and sometimes a different block order.",
     },
     {
-      q: "Do you need AMP?",
+      q: "Do I need AMP?",
       a: "Not required for most commercial sites. First get responsive and speed right; AMP is a separate choice for narrow cases.",
     },
     {
-      q: "How do you check responsive design quickly?",
+      q: "How do I check responsive design quickly?",
       a: "DevTools device mode plus real phones, PageSpeed/Lighthouse mobile, and a pass over key templates (home, category, product, form).",
     },
     {
@@ -59,11 +59,11 @@ export const adaptivnyySaytEn: BlogPost = {
         {
           intro: "Signs of solid responsive design:",
           items: [
-            "no pointless horizontal scrolling;",
-            "text readable without zoom;",
-            "buttons and links easy to tap;",
-            "menus and filters open predictably;",
-            "same content meaning as on desktop.",
+            "no pointless horizontal scrolling",
+            "text readable without zoom",
+            "buttons and links easy to tap",
+            "menus and filters open predictably",
+            "same content meaning as on desktop",
           ],
         },
       ],
@@ -85,10 +85,10 @@ export const adaptivnyySaytEn: BlogPost = {
         {
           intro: "Goals of responsive design:",
           items: [
-            "don’t lose phone traffic;",
-            "keep conversion on a small screen;",
-            "simplify maintaining one template;",
-            "meet mobile-first indexing expectations.",
+            "don’t lose phone traffic",
+            "keep conversion on a small screen",
+            "simplify maintaining one template",
+            "meet mobile-first indexing expectations",
           ],
         },
       ],
@@ -110,19 +110,19 @@ export const adaptivnyySaytEn: BlogPost = {
         {
           intro: "Responsive:",
           items: [
-            "one canonical URL;",
-            "simpler analytics and goals;",
-            "fewer duplicates;",
-            "one content-edit loop.",
+            "one canonical URL",
+            "simpler analytics and goals",
+            "fewer duplicates",
+            "one content-edit loop",
           ],
         },
         {
           intro: "Separate m.:",
           items: [
-            "needs merging and careful redirects;",
-            "easy content drift;",
-            "double template maintenance;",
-            "higher risk of technical SEO mistakes.",
+            "needs merging and careful redirects",
+            "easy content drift",
+            "double template maintenance",
+            "higher risk of technical SEO mistakes",
           ],
         },
       ],
@@ -151,12 +151,12 @@ export const adaptivnyySaytEn: BlogPost = {
         {
           intro: "Typical process:",
           items: [
-            "viewport and base grid;",
-            "mobile menu and header;",
-            "content blocks and CTAs;",
-            "forms and clickable phone;",
-            "media and fonts;",
-            "desktop regression after edits.",
+            "viewport and base grid",
+            "mobile menu and header",
+            "content blocks and CTAs",
+            "forms and clickable phone",
+            "media and fonts",
+            "desktop regression after edits",
           ],
         },
       ],
@@ -178,10 +178,10 @@ export const adaptivnyySaytEn: BlogPost = {
         {
           intro: "What you gain:",
           items: [
-            "conversion from mobile traffic;",
-            "predictable indexing of one canonical;",
-            "lower maintenance cost;",
-            "better Core Web Vitals when weight is optimized.",
+            "conversion from mobile traffic",
+            "predictable indexing of one canonical",
+            "lower maintenance cost",
+            "better Core Web Vitals when weight is optimized",
           ],
         },
       ],
@@ -197,12 +197,12 @@ export const adaptivnyySaytEn: BlogPost = {
         {
           intro: "Acceptance checklist:",
           items: [
-            "home / category / product / form;",
-            "menu and search;",
-            "no clipped text or overlaps;",
-            "acceptable mobile speed;",
-            "legal links and consents tappable;",
-            "retargeting/chat don’t break UX.",
+            "home / category / product / form",
+            "menu and search",
+            "no clipped text or overlaps",
+            "acceptable mobile speed",
+            "legal links and consents tappable",
+            "retargeting/chat don’t break UX",
           ],
         },
       ],

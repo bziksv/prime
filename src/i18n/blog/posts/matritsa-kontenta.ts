@@ -11,27 +11,31 @@ export const matritsaKontentaEn: BlogPost = {
     "A content matrix: audience and journey stage, conversion goal, delivery channel, and format — how to build the table and find gaps, next to a regular content calendar.",
   lead: [
     "A content matrix is a table where rows and columns link buyer-journey stage, action goal, channel, and material type. It doesn’t replace a publishing calendar — it’s the strategy layer before it.",
-    "Fill the four blocks, spot empty cells, then move priorities into dates. The “what publishes on which day” schedule lives in the content-plan article.",
+    "Below: the four matrix blocks, how to fill them, and how to find holes. The “what publishes on which day” schedule lives in the content-plan article.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
-      q: "How is a content matrix different from a content plan?",
+      q: "How is it different from a content plan?",
       a: "The plan is the queue and dates. The matrix is the logic: who, at which stage, why, and through which channel. Matrix first, calendar second.",
     },
     {
-      q: "Is a content matrix required for a small business?",
+      q: "Is it required for a small business?",
       a: "A simplified version helps: even 1 segment × 3 stages × goals already cuts “posts just to post.”",
     },
     {
-      q: "Should everyone use the same matrix?",
+      q: "One matrix for everyone?",
       a: "Better per key persona/segment. Otherwise goals and tone blur together.",
     },
     {
-      q: "What does “conversion” mean in a content matrix?",
+      q: "What does “conversion” mean here?",
       a: "Not only purchase: subscribe, visit, demo, download, finish reading — the next step on the path.",
     },
     {
-      q: "How many pieces should I plan per stage?",
+      q: "How many pieces per stage?",
       a: "Usually several: different formats and objections. One post for the whole funnel rarely covers the journey.",
     },
     {
@@ -39,8 +43,8 @@ export const matritsaKontentaEn: BlogPost = {
       a: "Yes: what already fills matrix cells, where it’s empty — production priority.",
     },
     {
-      q: "How does the matrix link to USP and offer?",
-      a: "Key messages in the cells should match the USP (unique selling proposition), or content and sales say different things.",
+      q: "How does it link to USP and offer?",
+      a: "Key messages in the cells should match the USP, or content and sales say different things.",
     },
   ],
   sections: [
@@ -79,11 +83,11 @@ export const matritsaKontentaEn: BlogPost = {
         {
           intro: "Example goals along the path:",
           items: [
-            "finish reading and subscribe;",
-            "go to a landing page;",
-            "leave a lead / take a demo;",
-            "compare and choose you;",
-            "leave a review after purchase.",
+            "finish reading and subscribe",
+            "go to a landing page",
+            "leave a lead / take a demo",
+            "compare and choose you",
+            "leave a review after purchase",
           ],
         },
       ],
@@ -91,6 +95,7 @@ export const matritsaKontentaEn: BlogPost = {
         {
           title: "CTAs and landings",
           text: "Important goals get a dedicated landing and a clear ask. Button color is testable, but offer and relevance matter more.",
+          kind: "tip",
         },
       ],
     },
@@ -117,7 +122,7 @@ export const matritsaKontentaEn: BlogPost = {
       level: 2,
       paras: [
         "Matrix = logic, plan = calendar.",
-        "Every piece needs a goal — not only “reach.”",
+        "Every piece needs a goal — not only “views.”",
         "Close journey gaps first, then publishing volume.",
       ],
     },

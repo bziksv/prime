@@ -11,7 +11,7 @@ export const uderzhaniePodpischikovEn: BlogPost = {
     "Why people leave a list and how to cut unsubscribes: mobile layout, send timing, frequency, an unsubscribe page with a survey and alternatives, win-back offers — without clinging to a dead base.",
   lead: [
     "An unsubscribe isn’t always a failure: some people leave because the offer no longer fits. It’s worse when they leave because of bad UX, spammy frequency, or emails they can’t read on a phone.",
-    "Fix exit causes inside the emails first, then build an honest opt-out page with a survey and softer alternatives. The goal is a live, interested list — not the longest “forever” file.",
+    "Below: typical exit reasons and practical retention moves — before unsubscribe and on the opt-out page. The goal is a live, interested list — not the longest “forever” file.",
   ],
   faq: [
     {
@@ -73,11 +73,11 @@ export const uderzhaniePodpischikovEn: BlogPost = {
         {
           intro: "Minimum against unsubscribes:",
           items: [
-            "emails read well on a smartphone;",
-            "there is value, not only a promo;",
-            "frequency is predictable;",
-            "one-click unsubscribe;",
-            "segments instead of “one blast for all.”",
+            "emails read well on a smartphone",
+            "there is value, not only a promo",
+            "frequency is predictable",
+            "one-click unsubscribe",
+            "segments instead of “one blast for all”",
           ],
         },
       ],
@@ -110,12 +110,15 @@ export const uderzhaniePodpischikovEn: BlogPost = {
           href: "/en/blog/baza-email-socseti/",
         },
       ],
+      notes: [
+        {
+          title: "Important",
+          kind: "tip",
+          text: "Retention does not justify ignoring an opt-out or hiding unsubscribe. Follow consent and ESP / mailbox-provider rules.",
+        },
+      ],
     },
   ],
-  notes: {
-    title: "Important",
-    text: "Retention does not justify ignoring an opt-out or hiding unsubscribe. Follow consent and ESP / mailbox-provider rules.",
-  },
   closing: [
     "First remove exit causes inside the emails themselves, then build an honest unsubscribe page with a survey and a “less often” alternative — the list gets smaller by count, stronger by response.",
   ],
@@ -127,4 +130,4 @@ export const uderzhaniePodpischikovEn: BlogPost = {
     "oformlenie-email",
     "baza-email-socseti",
   ],
-} as BlogPost;
+};

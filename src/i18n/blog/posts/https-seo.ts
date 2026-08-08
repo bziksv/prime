@@ -15,7 +15,7 @@ export const httpsSeoEn: BlogPost = {
   ],
   faq: [
     {
-      q: "Does HTTPS alone put you in the top results?",
+      q: "Does HTTPS alone put you on page one?",
       a: "No. It’s a baseline signal and UX. Content, tech, links, and demand matter more. Without HTTPS you more often lose on trust and mixed content.",
     },
     {
@@ -41,7 +41,7 @@ export const httpsSeoEn: BlogPost = {
       level: 2,
       paras: [
         "Search engines have long factored in a secure connection. In 2026 an HTTP site looks outdated: browser warnings, weaker form conversion, mixed-content risk.",
-        "HTTPS doesn’t replace keyword work and links. It’s a required layer next to speed, mobile layout, and a clear structure. Prep and migration are days to weeks; core ranking growth is still planned for 2–6 months of work — not “flipped HTTPS, hit TOP tomorrow.”",
+        "HTTPS doesn’t replace keyword work and links. It’s a required layer next to speed, mobile layout, and a clear structure.",
       ],
       lists: [
         {
@@ -65,10 +65,9 @@ export const httpsSeoEn: BlogPost = {
       title: "Myths about “factor #1”",
       level: 2,
       paras: [
-        "Old reviews of HTTPS share in the top results (2014–2015) aren’t an argument today: almost all strong sites are already on https. Correlation “top-ranking sites use https” ≠ “https pushed them to the top results.”",
+        "Old reviews of HTTPS share among strong results (2014–2015) aren’t an argument today: almost all competitive sites are already on https. Correlation “winning sites use https” ≠ “https pushed them up the rankings.”",
         "Don’t expect a ranking jump from a certificate checkbox alone. Expect stable mirrors and no errors after migration.",
       ],
-      lists: [],
     },
     {
       title: "http → https migration checklist",
@@ -86,7 +85,7 @@ export const httpsSeoEn: BlogPost = {
             "no mixed content (images/scripts over http)",
             "sitemap with https URLs only",
             "change of address / confirm the mirror in Webmaster tools",
-            "check response codes on key landings.",
+            "check response codes on key landings",
           ],
         },
       ],
@@ -103,7 +102,8 @@ export const httpsSeoEn: BlogPost = {
       notes: [
         {
           title: "Practice",
-          text: "A temporary crawl dip after a protocol change is possible. Panic and rolling back to HTTP is worse than finishing 301s and recrawl.",
+          kind: "tip",
+          text: "A temporary crawl dip after a protocol change is possible. Panic and rolling back to HTTP is worse than finishing 301s and recrawl. Prep for the move is days to weeks; lasting core rankings are still a separate horizon — typically two to six months after work starts.",
         },
       ],
     },

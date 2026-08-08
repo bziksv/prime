@@ -3,56 +3,56 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for seo-s-nulya — same structure as RU JSON. */
 export const seoSNulyaEn: BlogPost = {
   slug: "seo-s-nulya",
-  title: "SEO from scratch: where to start and how to learn in practice",
+  title: "SEO from scratch: where to start and how to learn by doing",
   date: "2021-09-09",
   category: "SEO",
   cover: "/images/blog/seo-s-nulya/cover-en.webp",
   excerpt:
-    "How to enter SEO without a “magic pill”: core concepts, a beginner path, practice on real tasks, what to read, and what to expect on ranking timelines.",
+    "A practical on-ramp into SEO: the concepts that matter, a beginner learning path, hands-on practice, what to read, and honest timelines for rankings — no magic formula.",
   lead: [
-    "People rarely enter SEO from a blank slate: more often from adjacent roles or a wish to understand why a site brings no leads. There’s no universal recipe—projects differ, and templates break on the niche.",
-    "Here’s a workable path from scratch: what to learn first, how to build practice, and how not to confuse site prep with ranking in the TOP. Experienced specialists tend to agree on one thing: curiosity, practice, and reviewing mistakes.",
+    "Most people don’t walk into SEO from a blank slate. They come from adjacent roles, or they simply want to know why a site isn’t bringing leads. There’s no one recipe: niches break cookie-cutter checklists.",
+    "Here’s a workable path from zero: what to learn first, how to get real practice, and how not to confuse site prep with page-one rankings. People who stick around tend to share the same fuel — curiosity, shipping work, and reviewing what failed.",
   ],
   faq: [
     {
       q: "Where should I start learning SEO?",
-      a: "Start with definitions and scope, then keywords, structure, tech, content, and analytics. In parallel, use your own site or a practice site for experiments.",
+      a: "Start with scope and definitions, then keywords, site structure, technical basics, content, and analytics. In parallel, use your own site or a practice project so every concept has somewhere to land.",
     },
     {
       q: "Are courses enough without practice?",
-      a: "No. Courses give a map; skill comes from live tasks and reviewing what worked and what didn’t.",
+      a: "No. A course is a map. Skill shows up when you ship tasks and review what moved the needle — and what didn’t.",
     },
     {
-      q: "When should I expect TOP-10?",
-      a: "Site prep is often weeks to a month. Ranking growth is planned over months (a 2–6 month cue after work starts), not “launched in a month — instant rankings.”",
+      q: "When can I expect page-one rankings?",
+      a: "Getting a site ready often takes weeks to about a month. Ranking growth is planned over months — typically a 2–6 month window after work starts — not “we launched in 30 days and jumped to the top.”",
     },
     {
       q: "Do I need a mentor?",
-      a: "It speeds things up a lot: closes gaps in the big picture. Without one you can, but longer via blogs, search docs, and an internship.",
+      a: "It speeds things up a lot: someone fills the gaps you can’t see yet. You can learn without one, but expect a longer road through blogs, search-engine docs, and an internship.",
     },
     {
-      q: "Should I learn black-hat methods?",
-      a: "Understanding the risks — yes. Using them for a client — no: filters and losing the project cost more than a short spike.",
+      q: "Should I study black-hat tactics?",
+      a: "Know the risks — yes. Use them on a client site — no. Filters and a burned project cost more than a short traffic spike.",
     },
   ],
   sections: [
     {
-      title: "Who an SEO specialist is",
+      title: "What an SEO specialist actually does",
       level: 2,
       paras: [
-        "Someone who helps a site earn target organic traffic: demand → pages → tech → content → measurement. Not “boosting” and not a guaranteed SERP place.",
-        "Early career often means an assistant role: routine under a mentor. Before applying, spend a couple of days on terms and typical duties — don’t burn the team lead’s time on basics.",
+        "They help a site earn the organic traffic it’s built for: demand → pages → technical health → content → measurement. Not fake “boosting,” and not a guaranteed seat in the results.",
+        "Early roles are often assistant work under a mentor. Before you apply, spend a couple of days on the vocabulary and day-to-day duties — don’t burn a team lead’s time on absolute basics.",
       ],
       lists: [
         {
-          intro: "Core knowledge outline:",
+          intro: "Core knowledge to build:",
           items: [
-            "how search and indexing work;",
-            "semantic core and intent;",
-            "site structure and internal linking;",
-            "tech (speed, mobile, status codes);",
-            "content and snippets;",
-            "Search Console / webmaster tools and analytics.",
+            "how search and indexing work",
+            "keyword research and search intent",
+            "site structure and internal linking",
+            "technical basics (speed, mobile, status codes)",
+            "content and search snippets",
+            "Search Console / webmaster tools and analytics",
           ],
         },
       ],
@@ -64,27 +64,27 @@ export const seoSNulyaEn: BlogPost = {
       ],
     },
     {
-      title: "A learning path without chaos",
+      title: "A learning path that doesn’t sprawl",
       level: 2,
       paras: [
-        "A term glossary from several sources → one systemic book/course as a frame → practitioner blogs and search-engine docs → talks with people already in the field.",
-        "Scattered videos without practice don’t become a profession. The best accelerator is a circle of people who do SEO daily: case reviews close gaps faster than the tenth “what is Title” tutorial.",
+        "Build a glossary from a few solid sources → pick one structured book or course as the frame → read practitioner blogs and official Google/Yandex docs → talk to people already doing the work.",
+        "Random video clips without practice don’t become a career. The fastest accelerator is a circle of people who ship SEO every week: case reviews close gaps faster than the tenth “what is a title tag” tutorial.",
       ],
       lists: [
         {
           intro: "A practical order:",
           items: [
-            "learn the profession’s language (don’t memorize panel buttons);",
-            "build a core and structure on a training project;",
-            "run a tech checklist;",
-            "publish edits and measure in 2–4 weeks;",
-            "keep a hypothesis journal.",
+            "learn the language of the craft (not every panel button)",
+            "build a keyword set and site structure on a training project",
+            "run a technical checklist",
+            "ship fixes and measure after 2–4 weeks",
+            "keep a short journal of hypotheses",
           ],
         },
       ],
       links: [
         {
-          label: "Semantic core",
+          label: "Keyword research (semantic core)",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {
@@ -97,24 +97,24 @@ export const seoSNulyaEn: BlogPost = {
       title: "Practice beats theory",
       level: 2,
       paras: [
-        "Understanding comes when you ship something and see the effect (or its absence). Mistakes on your own/training sites cost less than on a client budget unsupervised.",
-        "Take different niches as you grow: almost no projects are cookie-cutter. Internship, small freelance under guidance, agency help — a normal entry.",
+        "Understanding sticks when you ship something and see the effect — or the lack of one. Mistakes on your own or training sites are cheaper than mistakes on a client budget with no supervision.",
+        "Widen the niches as you grow: almost nothing is fully templated. Internships, small freelance under guidance, or junior help inside an agency are normal ways in.",
       ],
       lists: [
         {
-          intro: "What to train by hand:",
+          intro: "Skills to train by hand:",
           items: [
-            "query collection and clustering;",
-            "copy briefs and checking density without stuffing;",
-            "robots/sitemap/redirect edits;",
-            "a “was → did → became” report.",
+            "collecting and clustering queries",
+            "writing content briefs and checking density without stuffing",
+            "editing robots.txt, sitemaps, and redirects",
+            "a clear “before → what we did → after” report",
           ],
         },
       ],
       notes: [
         {
-          title: "Common mistake",
-          text: "Waiting for a “magic pill” and copying someone else’s checklist one-to-one. SEO has no universal tick list for every site.",
+          title: "Common trap",
+          text: "Waiting for a magic formula and copying someone else’s checklist line by line. SEO has no universal tick list that fits every site.",
         },
       ],
     },
@@ -122,17 +122,17 @@ export const seoSNulyaEn: BlogPost = {
       title: "Timelines and expectations",
       level: 2,
       paras: [
-        "Preparing a site for promotion (tech, structure, copy, CTAs) can take weeks. Getting a noticeable share of the core into TOP-10 is months of work and iterations — not a contract date “TOP in 30 days.”",
-        "The market is stricter than in the 2000s: user quality beats gray schemes. Learning takes longer, but the skill transfers across projects.",
+        "Getting a site ready for promotion — tech, structure, copy, CTAs — can take weeks. Moving a meaningful share of the keyword set toward page one is months of work and iteration, not a contract line that says “top 10 in 30 days.”",
+        "The market is tougher than in the 2000s: usefulness for real users beats gray shortcuts. Learning takes longer, but the skill travels with you from project to project.",
       ],
       lists: [
         {
           intro: "A realistic beginner mindset:",
           items: [
-            "curiosity and readiness to keep learning;",
-            "mistakes are review material, not shame;",
-            "ranking results are cumulative;",
-            "client communication matters as much as keyword tools.",
+            "stay curious and keep learning",
+            "treat mistakes as review material, not shame",
+            "ranking results stack over time",
+            "talking to the client matters as much as keyword tools",
           ],
         },
       ],
@@ -141,7 +141,7 @@ export const seoSNulyaEn: BlogPost = {
       title: "Bottom line",
       level: 2,
       paras: [
-        "SEO from scratch is a map of core blocks plus hours of practice and feedback. Learn terms, run a training project, find a mentor or team, don’t confuse prep with TOP. Interest in “how the web works” isn’t fluff here — it’s fuel.",
+        "SEO from scratch is a map of the core blocks, plus hours of practice and feedback. Learn the terms, run a training project, find a mentor or a team, and don’t confuse prep with rankings. Caring how the web works isn’t fluff here — it’s the fuel that keeps you going.",
       ],
       lists: [],
     },

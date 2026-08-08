@@ -11,7 +11,7 @@ export const saytPeredReklamoyEn: BlogPost = {
     "A site checklist before Yandex Direct and Google Ads: goals and KPIs, forms and thank-you pages, analytics, first screen, trust, mobile, and lead delivery — so you don’t burn clicks on a raw landing.",
   lead: [
     "If paid search brings “zero leads,” the ad account isn’t always the only culprit: people click and hit an unclear offer, a broken form, or a site with no goals in analytics. Tweaking bids on a raw landing is the fastest way to burn budget.",
-    "Here’s a practical order for checking a site before you launch Direct/Ads. We don’t promise “conversion ×N in a couple of days” from old case studies; an honest checklist pass is usually cheaper than a week of blind spend. Common account mistakes are covered in related articles.",
+    "Below: a practical order for checking a site before you launch Direct/Ads. We don’t promise “conversion ×N in a couple of days” from old case studies; an honest checklist pass is usually cheaper than a week of blind spend. Common account mistakes are covered in related articles.",
   ],
   faq: [
     {
@@ -55,10 +55,10 @@ export const saytPeredReklamoyEn: BlogPost = {
         {
           intro: "Minimum at the start:",
           items: [
-            "one main business goal;",
-            "2–4 goal actions that lead to it;",
-            "KPI in money or lead cost;",
-            "shared understanding between marketing and sales.",
+            "one main business goal",
+            "2–4 goal actions that lead to it",
+            "KPI in money or lead cost",
+            "shared understanding between marketing and sales",
           ],
         },
       ],
@@ -81,11 +81,11 @@ export const saytPeredReklamoyEn: BlogPost = {
         {
           intro: "Control run:",
           items: [
-            "submit a lead from desktop and mobile;",
-            "see thank-you / success;",
-            "the goal fired in analytics;",
-            "a manager received the lead;",
-            "UTM/source is visible in the report.",
+            "submit a lead from desktop and mobile",
+            "see thank-you / success",
+            "the goal fired in analytics",
+            "a manager received the lead",
+            "UTM/source is visible in the report",
           ],
         },
       ],
@@ -104,10 +104,10 @@ export const saytPeredReklamoyEn: BlogPost = {
         "The buying benefit belongs on the first screen: timeline, guarantee, price “from,” difference from the market. If someone came from an ad “windows in 3 days” and the landing says nothing about that — bounce is almost guaranteed.",
         "Lead forms — visible, short, with a clear promise. Field overload and a tiny “submit” in the footer kill conversion more than any bid.",
       ],
-      lists: [],
       notes: [
         {
           kind: "tip",
+          title: "Quiz or calculator",
           text: "A quiz or calculator helps if it simplifies choice. Don’t add one for fashion: a broken quiz is worse than a simple form.",
         },
       ],
@@ -118,17 +118,17 @@ export const saytPeredReklamoyEn: BlogPost = {
       paras: [
         "Menus and sections must be unambiguous: a person from an ad shouldn’t have to guess the IA. Promos — large and honest (new/old price, gift terms), not tiny gray type.",
         "Openness: about the company, production, cases, certificates — what lowers “fly-by-night” fear. Prices current and in a clear currency; if “price on request” — explain why and offer a quick estimate.",
-        "Product/object photos without blur and stock swaps. Reviews — a separate block or in the card. Delivery and payment, FAQ, contacts (clickable +phone on mobile), hours — the basic service layer without which ads feed bounces.",
+        "Product/object photos without blur and generic filler swaps. Reviews — a separate block or in the card. Delivery and payment, FAQ, contacts (clickable phone on mobile), hours — the basic service layer without which ads feed bounces.",
       ],
       lists: [
         {
           intro: "Quick trust audit:",
           items: [
-            "About / facts / cases exist;",
-            "prices or a logical path to a quote;",
-            "reviews or proof of work;",
-            "delivery/payment/FAQ;",
-            "current contacts in the header and on the contacts page.",
+            "About / facts / cases exist",
+            "prices or a logical path to a quote",
+            "reviews or proof of work",
+            "delivery/payment/FAQ",
+            "current contacts in the header and on the contacts page",
           ],
         },
       ],
@@ -141,10 +141,10 @@ export const saytPeredReklamoyEn: BlogPost = {
         "Favicon and a tidy tab are brand hygiene; don’t expect auction miracles from them. Load speed and no overlay banners blocking the form matter more.",
         "Score the site honestly (e.g. 1–5 by block). Fix “1–2” items before scaling budget; cosmetics can run in parallel.",
       ],
-      lists: [],
       notes: [
         {
           kind: "tip",
+          title: "Site vs account",
           text: "Don’t confuse “raw site” with “broken account.” After fixing the landing you still need negatives, relevant ads, and limits — see campaign mistakes and Direct budget pieces.",
         },
       ],
@@ -170,11 +170,11 @@ export const saytPeredReklamoyEn: BlogPost = {
         {
           intro: "Remember:",
           items: [
-            "KPI in money, not CTR;",
-            "leads are counted and reach people;",
-            "offer = the ad promise;",
-            "mobile = a full channel;",
-            "landing first, budget scale second.",
+            "KPI in money, not CTR",
+            "leads are counted and reach people",
+            "offer = the ad promise",
+            "mobile = a full channel",
+            "landing first, budget scale second",
           ],
         },
       ],

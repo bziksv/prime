@@ -10,8 +10,8 @@ export const aydentikaBrendaEn: BlogPost = {
   excerpt:
     "What brand identity is, how it differs from branding and corporate style, what the foundation is (color, type, form), and how to build it without carrier chaos.",
   lead: [
-    "Brand identity is the system of visual and meaning signals that make a brand recognizable without a prompt: name, logo, colors, typefaces, shapes, and rules in a brand book. It’s not “a picture for the website”, but a set of elements across carriers — from a sign to an avatar.",
-    "Brand identity is the recognizable look — logo, color, type, and rules — not only a pretty mark. It differs from branding (the whole strategy) and from a thin “corporate style” PDF. Promoting the brand in channels is a neighboring topic.",
+    "Brand identity is the system of visual and meaning signals that make a brand recognizable without a prompt: name, logo, colors, typefaces, shapes, and rules in a brand book. It’s not “a picture for the website,” but a set of elements across carriers — from a sign to an avatar.",
+    "Below: what the foundation is made of, how identity differs from branding and corporate style, and how development usually stages. Promoting the brand in channels is a neighboring topic; here it’s the recognizable look.",
   ],
   faq: [
     {
@@ -23,16 +23,16 @@ export const aydentikaBrendaEn: BlogPost = {
       a: "Corporate style more often means the visual set. Identity is broader: naming, values expressed in carriers, and a system for managing the look (brand book).",
     },
     {
-      q: "How is identity different from branding?",
+      q: "And branding?",
       a: "Branding works on perception and positioning as a whole. Identity is the tool that makes that perception recognizable visually and by feel.",
     },
     {
-      q: "Does a small business need a full brand identity?",
-      a: "Not always “corporate scale”. A minimum is name, logo, 2–3 colors, typefaces, and “how not to break it” rules. Scale grows with channels.",
+      q: "Does a small business need a full identity?",
+      a: "Not always “corporate scale.” A minimum is name, logo, 2–3 colors, typefaces, and “how not to break it” rules. Scale grows with channels.",
     },
     {
       q: "Why do you need a brand book?",
-      a: "So contractors and staff don’t each draw “their own brand”. Inside — mission/tone (as needed), visuals, and application instructions.",
+      a: "So contractors and staff don’t each draw “their own brand.” Inside — mission/tone (as needed), visuals, and application instructions.",
     },
     {
       q: "Can you copy another brand’s colors?",
@@ -51,11 +51,11 @@ export const aydentikaBrendaEn: BlogPost = {
         {
           intro: "Why business needs it:",
           items: [
-            "recognition when channels and offers change;",
-            "differentiation from competitors;",
-            "an emotional anchor;",
-            "a sense of a “serious” company;",
-            "passing values without a long lecture.",
+            "recognition when channels and offers change",
+            "differentiation from competitors",
+            "an emotional anchor",
+            "a sense of a “serious” company",
+            "passing values without a long lecture",
           ],
         },
       ],
@@ -71,16 +71,16 @@ export const aydentikaBrendaEn: BlogPost = {
       level: 2,
       paras: [
         "Most carriers rest on three pillars. Color affects attention and associations — but meanings are culture-dependent; don’t copy someone else’s “red = appetite” without checking your niche and market.",
-        "Type sets character: strict, playful, handwritten “authorial”. A bad choice pushes people away faster than it seems. Geometric form in the logo and patterns (circle, angle, softness) locks silhouette recognition.",
+        "Type sets character: strict, playful, handwritten “authorial.” A bad choice pushes people away faster than it seems. Geometric form in the logo and patterns (circle, angle, softness) locks silhouette recognition.",
       ],
       lists: [
         {
           intro: "Selection practice:",
           items: [
-            "2–3 main colors + neutrals;",
-            "1–2 type families with fallback weights;",
-            "a mark that reads at small size;",
-            "bans: distortions, random effects, accidental gradients.",
+            "2–3 main colors + neutrals",
+            "1–2 type families with fallback weights",
+            "a mark that reads at small size",
+            "bans: distortions, random effects, accidental gradients",
           ],
         },
       ],
@@ -110,18 +110,18 @@ export const aydentikaBrendaEn: BlogPost = {
       level: 2,
       paras: [
         "Start with a brief: niche, audience, competitors, tone, constraints. Then concepts (several directions), choose and refine mark/palette/type, assemble the brand book, hand over sources, and train the team.",
-        "Without a brief you get “pretty, but not about us”. Without application rules, in a month the site, card, and ads look like three different companies.",
+        "Without a brief you get “pretty, but not about us.” Without application rules, in a month the site, card, and ads look like three different companies.",
       ],
       lists: [
         {
           intro: "Stages (rough):",
           items: [
-            "research and brief;",
-            "naming (if needed);",
-            "logo and style concepts;",
-            "palette and typography;",
-            "brand book and templates;",
-            "rollout onto carriers.",
+            "research and brief",
+            "naming (if needed)",
+            "logo and style concepts",
+            "palette and typography",
+            "brand book and templates",
+            "rollout onto carriers",
           ],
         },
       ],
@@ -140,14 +140,14 @@ export const aydentikaBrendaEn: BlogPost = {
       title: "How not to break the system",
       level: 2,
       paras: [
-        "Keep sources (vector logo, colors in HEX/CMYK/RGB, font files/licenses). Give contractors a short brand-book extract — not “do it like the site by eye”.",
+        "Keep sources (vector logo, colors in HEX/CMYK/RGB, font files/licenses). Give contractors a short brand-book extract — not “do it like the site by eye.”",
         "Rebranding is a separate project: changing a color “because we’re bored” without strategy costs more than it seems. Plan small updates (mark refinement, contrast accessibility) on purpose.",
       ],
       notes: [
         {
           title: "Important",
-          text: "Check font licenses and stock for carriers before a mass launch. “Downloaded for free” often equals claim risk.",
           kind: "tip",
+          text: "Check font licenses and image licenses for carriers before a mass launch. “Downloaded for free” often equals claim risk.",
         },
       ],
       links: [
@@ -159,7 +159,7 @@ export const aydentikaBrendaEn: BlogPost = {
     },
   ],
   closing: [
-    "Identity makes a brand recognizable on any carrier: color, type, form, and brand-book rules beat a one-off “pretty logo”. Build a minimum system and protect it from contractor freelancing.",
+    "Identity makes a brand recognizable on any carrier: color, type, form, and brand-book rules beat a one-off “pretty logo.” Build a minimum system and protect it from contractor freelancing.",
   ],
   related: [
     "prodvizhenie-brenda",

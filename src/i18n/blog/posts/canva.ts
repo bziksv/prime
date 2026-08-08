@@ -19,12 +19,12 @@ export const canvaEn: BlogPost = {
       a: "For regular content in one style — often yes. Complex brand work, packaging, or non-standard layouts still need a professional.",
     },
     {
-      q: "How does Canva differ from Crello / VistaCreate?",
+      q: "How does it differ from Crello / VistaCreate?",
       a: "Same class: templates and export for common formats. Choose by habit, library, team pricing, and how well your language and fonts work.",
     },
     {
       q: "Is the free version enough?",
-      a: "For tests and simple layouts, often yes. Brand Kit, some stock, Magic Resize, and deeper team features usually sit on paid plans.",
+      a: "For tests and simple layouts, often yes. Brand Kit, some media libraries, Magic Resize, and deeper team features usually sit on paid plans.",
     },
     {
       q: "Can I make a logo in Canva?",
@@ -47,10 +47,10 @@ export const canvaEn: BlogPost = {
         {
           intro: "Typical scenarios:",
           items: [
-            "social content;",
-            "simple banners and posters;",
-            "presentations and sales decks;",
-            "print drafts (flyer, business card).",
+            "social content",
+            "simple banners and posters",
+            "presentations and sales decks",
+            "print drafts (flyer, business card)",
           ],
         },
       ],
@@ -65,26 +65,26 @@ export const canvaEn: BlogPost = {
       title: "What Canva does well",
       level: 2,
       paras: [
-        "Low barrier: drag-and-drop, ready color and font combos, element and stock libraries. Cloud save and team collaboration.",
+        "Low barrier: drag-and-drop, ready color and font combos, element and media libraries. Cloud save and team collaboration.",
         "Mobile apps sync drafts. You can build a set of “your” templates with logo and palette — the feed stays coherent without a new random layout every day.",
       ],
       lists: [
         {
           intro: "What people usually value:",
           items: [
-            "a fast start without Photoshop;",
-            "formats sized for each platform;",
-            "team access;",
-            "export at the quality you need;",
-            "reusing layouts.",
+            "a fast start without Photoshop",
+            "formats sized for each platform",
+            "team access",
+            "export at the quality you need",
+            "reusing layouts",
           ],
         },
       ],
       notes: [
         {
-          title: "Practice tip",
-          text: "Set up a Brand Kit (colors, logo, fonts) — even on a minimal plan, brand discipline beats a pretty template that looks like someone else’s brand.",
+          title: "Practice",
           kind: "tip",
+          text: "Set up a Brand Kit (colors, logo, fonts) — even on a minimal plan, brand discipline beats a pretty template that looks like someone else’s brand.",
         },
       ],
       links: [
@@ -102,17 +102,17 @@ export const canvaEn: BlogPost = {
       title: "Limits and when it falls short",
       level: 2,
       paras: [
-        "This isn’t a “draw from scratch” editor: heavy retouch, vector identity, and non-standard layout hit a ceiling. Some conveniences (resize, premium stock) are on paid plans; terms change.",
+        "This isn’t a “draw from scratch” editor: heavy retouch, vector identity, and non-standard layout hit a ceiling. Some conveniences (resize, premium media) are on paid plans; terms change.",
         "Non-Latin scripts need a font check. You need a stable internet connection — everything lives in the cloud. Auto-posting to social doesn’t replace a content plan or a clear message in each post.",
       ],
       lists: [
         {
           intro: "When to call a designer:",
           items: [
-            "final logo and guidelines;",
-            "packaging and complex print;",
-            "a campaign with a unique visual language;",
-            "layouts where the template still screams another brand.",
+            "final logo and guidelines",
+            "packaging and complex print",
+            "a campaign with a unique visual language",
+            "layouts where the template still screams another brand",
           ],
         },
       ],

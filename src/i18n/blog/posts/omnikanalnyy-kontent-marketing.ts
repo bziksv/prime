@@ -11,23 +11,23 @@ export const omnikanalnyyKontentMarketingEn: BlogPost = {
     "How omnichannel differs from multichannel, why a unified experience across site, app, and offline matters, and five steps so content doesn’t fall apart across channels.",
   lead: [
     "Multichannel is several channels side by side. Omnichannel is one customer path through them: tone, offer, and data don’t break when someone moves from site to store, from app to support.",
-    "For content, that means one story and consistent facts across channels — not five disconnected calendars. Giant-brand examples illustrate the idea, not a recipe to “copy Nike’s stack.”",
+    "Below: the difference, why it matters for content, and five practical steps. Giant-brand examples illustrate the idea — not a recipe to “copy Disney.”",
   ],
   faq: [
     {
-      q: "Are multichannel and omnichannel the same?",
-      a: "No. Multi: channels exist; goals and experience may differ. Omni: one scenario from the client’s view — they continue on another channel without “start over”.",
+      q: "Are multi and omni the same?",
+      a: "No. Multi: channels exist; goals and experience may differ. Omni: one scenario from the client’s view — they continue on another channel without “start over.”",
     },
     {
       q: "Do you need to be on every platform?",
       a: "No. Fewer channels, but aligned, is better. An extra channel with a different offer confuses more than its absence.",
     },
     {
-      q: "Is omnichannel only for retail?",
+      q: "Is this only for retail?",
       a: "It’s most visible in retail, but the logic is the same for services and B2B: site → manager → email → account should say one thing.",
     },
     {
-      q: "Where should a small company start with omnichannel?",
+      q: "Where should a small company start?",
       a: "Walk your own path as a client: search → site → lead → reply. Fix tone and data breaks, then add channels.",
     },
     {
@@ -36,7 +36,7 @@ export const omnikanalnyyKontentMarketingEn: BlogPost = {
     },
     {
       q: "How do a content plan and omnichannel connect?",
-      a: "In the plan lock not only “a social post”, but the channel’s role in the journey: warm-up, offer, support, repeat purchase.",
+      a: "In the plan lock not only “a social post,” but the channel’s role in the journey: warm-up, offer, support, repeat purchase.",
     },
   ],
   sections: [
@@ -53,7 +53,7 @@ export const omnikanalnyyKontentMarketingEn: BlogPost = {
           items: [
             "multi — channels from the company’s side",
             "omni — a continuous experience from the client’s side",
-            "content in omni — one story, different delivery formats.",
+            "content in omni — one story, different delivery formats",
           ],
         },
       ],
@@ -80,8 +80,8 @@ export const omnikanalnyyKontentMarketingEn: BlogPost = {
       title: "The idea in examples (not copy-paste)",
       level: 2,
       paras: [
-        "Classic cases like a park with an app and wristband, or a coffee chain with a card balance “everywhere at once”, show the principle: an action on one channel is instantly visible on another.",
-        "A small business doesn’t need a “wristband”. It needs: one offer, synced stock/bookings, one tone in chat and on the site — so the client doesn’t retell their story.",
+        "Classic cases like a park with an app and wristband, or a coffee chain with a card balance “everywhere at once,” show the principle: an action on one channel is instantly visible on another.",
+        "A small business doesn’t need a “wristband.” It needs: one offer, synced stock/bookings, one tone in chat and on the site — so the client doesn’t retell their story.",
       ],
     },
     {
@@ -89,7 +89,7 @@ export const omnikanalnyyKontentMarketingEn: BlogPost = {
       level: 2,
       paras: [
         "First walk the buyer path yourself: search, site, lead, reply, return visit — on phone and desktop. Log the breaks.",
-        "Next — segments and useful content by behavior (including abandoned cart/lead reminders), regular contact not only “at the sale moment”, and a launch without waiting for perfect infrastructure: aligning 2–3 key channels is easier than “everything at once”.",
+        "Next — segments and useful content by behavior (including abandoned cart/lead reminders), regular contact not only “at the sale moment,” and a launch without waiting for perfect infrastructure: aligning 2–3 key channels is easier than “everything at once.”",
       ],
       lists: [
         {
@@ -99,15 +99,15 @@ export const omnikanalnyyKontentMarketingEn: BlogPost = {
             "describe segments and their questions",
             "build useful content for funnel stages",
             "link marketing, sales, and support in one scenario",
-            "start with priority channels — don’t wait for a “perfect platform”.",
+            "start with priority channels — don’t wait for a “perfect platform”",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Teams",
           text: "Omnichannel breaks when marketing, sales, and support write different promises. You need a shared message matrix — not five independent content plans.",
-          kind: "tip",
         },
       ],
       links: [
@@ -123,7 +123,7 @@ export const omnikanalnyyKontentMarketingEn: BlogPost = {
     },
   ],
   closing: [
-    "Omnichannel content is one path and aligned promises — not “yet another social network”. Start with a touchpoint audit and offer sync; add channels when the current ones no longer contradict each other.",
+    "Omnichannel content is one path and aligned promises — not “yet another social network.” Start with a touchpoint audit and offer sync; add channels when the current ones no longer contradict each other.",
   ],
   related: [
     "kontent-plan",

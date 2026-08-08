@@ -8,15 +8,15 @@ export const metategiEn: BlogPost = {
   category: "SEO",
   cover: "/images/blog/metategi/cover-en.webp",
   excerpt:
-    "What HTML meta tags are: why title and description matter, how robots control indexing, why keywords barely help — without “TOP secrets” or outdated character limits.",
+    "What HTML meta tags are: why title and description matter, how robots control indexing, why keywords barely help — without ranking “secrets” or outdated character limits.",
   lead: [
     "Meta tags are machine-facing fields in the page `<head>`: they don’t draw a block on screen, but help the browser and search engine understand the document. For SEO people usually mean title, description, and robots directives; keywords have long been secondary.",
-    "A map of the tags, what actually affects SERPs and snippets, and what to leave alone. We don’t copy hard “exactly N characters = TOP” rules or 2021 CMS screenshots: truncation length floats, plugin UIs change.",
+    "Below: a map of the tags, what actually affects SERPs and snippets, and what to leave alone. We don’t copy hard “exactly N characters = page one” rules or 2021 CMS screenshots: truncation length floats, plugin UIs change.",
   ],
   faq: [
     {
-      q: "Do meta tags alone put a page in the TOP?",
-      a: "No. Title and content help relevance and snippet clicks; ranking is broader — the page, links, tech, behavior. Prep and on-page work aren’t the same as holding TOP positions, which are planned over months (typically 2–6).",
+      q: "Do meta tags alone put a page on page one?",
+      a: "No. Title and content help relevance and snippet clicks; ranking is broader — the page, links, tech, behavior.",
     },
     {
       q: "How is title different from H1?",
@@ -24,7 +24,7 @@ export const metategiEn: BlogPost = {
     },
     {
       q: "Do I need meta keywords?",
-      a: "As a ranking factor for Google (and major engines) — no. Spend time on title, description, and body copy instead.",
+      a: "As a ranking factor for Google and Yandex — no. Spend time on title, description, and body copy instead.",
     },
     {
       q: "Are meta robots and robots.txt the same?",
@@ -75,7 +75,6 @@ export const metategiEn: BlogPost = {
         "Write for people and the query: brand, gist, sometimes geo or a USP — not a keyword dump. The old “under 80 characters” guide is a truncation hint, not a law.",
         "Use competitors in the SERP as a tone reference, not a copy-paste template.",
       ],
-      lists: [],
       links: [
         {
           label: "Title length",
@@ -94,7 +93,6 @@ export const metategiEn: BlogPost = {
         "Meta description is a candidate for the text under the headline in the snippet. It usually isn’t a direct ranking score; it works indirectly via CTR and click expectations.",
         "State the benefit and match the page. Clickbait the URL doesn’t deliver hurts trust.",
       ],
-      lists: [],
       links: [
         {
           label: "Meta description in depth",
@@ -112,13 +110,13 @@ export const metategiEn: BlogPost = {
       paras: [
         "Meta robots (and the HTTP header) set whether to index the page and follow links: `noindex`, `nofollow`, combinations, `all`/`none` in older cheat sheets.",
         "Don’t confuse with Disallow in robots.txt: blocking a path in txt may keep the crawler away; putting noindex on HTML means the page may still be crawled but shouldn’t enter the index (when handled correctly).",
-        "Utility pages, duplicates, carts, thin filters — typical candidates to noindex. Don’t noindex commercial landings “just in case.”",
+        "Utility pages, duplicates, carts, thin filters — typical candidates to noindex. Don’t noindex commercial landings just in case.",
       ],
-      lists: [],
       notes: [
         {
           title: "Check in the panels",
-          text: "After changing directives, look in Search Console / Webmaster and “Inspect URL” / crawl-as-bot tools — not only the source in your IDE.",
+          kind: "tip",
+          text: "After changing directives, look in Search Console / Webmaster and Inspect URL / crawl-as-bot tools — not only the source in your IDE.",
         },
       ],
       links: [
@@ -136,7 +134,6 @@ export const metategiEn: BlogPost = {
         "Same for “secret” meta that supposedly boost PageRank: ignore it. Put your effort into content, internal links, speed, and the snippet.",
         "For social sharing, look at Open Graph / Twitter Cards separately from the search description.",
       ],
-      lists: [],
       links: [
         {
           label: "Open Graph",
@@ -152,7 +149,6 @@ export const metategiEn: BlogPost = {
         "Watch that the plugin doesn’t duplicate titles or stamp one template across a thousand cards without uniqueness.",
         "After edits — spot-check page source and the live snippet over days/weeks (not instantly).",
       ],
-      lists: [],
     },
     {
       title: "Takeaways",
@@ -162,7 +158,6 @@ export const metategiEn: BlogPost = {
         "Keywords don’t save rankings; don’t copy “secrets” from 2010s posts.",
         "Go deeper in separate guides on title, description, and closing from index — this piece is a map, not a substitute.",
       ],
-      lists: [],
     },
   ],
   closing: [

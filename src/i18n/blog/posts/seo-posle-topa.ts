@@ -3,48 +3,48 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for seo-posle-topa — same structure as RU JSON. */
 export const seoPosleTopaEn: BlogPost = {
   slug: "seo-posle-topa",
-  title: "Should you drop SEO after reaching TOP?",
+  title: "Should you stop SEO after you reach page one?",
   date: "2018-12-10",
   category: "SEO",
   cover: "/images/blog/seo-posle-topa/cover-en.webp",
   excerpt:
-    "When the site is already in the TOP, turning SEO off is early: snippets, conversion, core expansion, tech, and competitors. What to do on maintenance without the myth “we made it — can switch off”.",
+    "Once the site ranks well, turning SEO off is early: snippets, conversion, keyword expansion, technical health, and competitors. What maintenance actually looks like — without the myth “we made it, we can switch off.”",
   lead: [
-    "Prep and building the core into the TOP are planned over months. When ranks and traffic appear, the question hits: keep paying or “enough”? Turning SEO off entirely means handing growth to competitors: the SERP and the site don’t freeze.",
-    "We cover why support after you hit the TOP matters—and what to focus on: conversion, snippets, visibility, landing behavior, demand expansion, and tech freshness. This isn’t an endless retainer just to check a box; it’s a clear hold-and-grow plan.",
+    "Getting a site ready and moving the keyword set toward page one is planned over months. When rankings and traffic show up, the question hits: keep investing, or “enough”? Switching SEO off entirely hands the next round of growth to competitors — search results and your site don’t freeze.",
+    "Here’s why post-ranking support matters and where to focus: conversion, snippets, visibility, landing behavior, new demand, and technical freshness. This isn’t an endless retainer just to tick a box — it’s a clear hold-and-grow loop.",
   ],
   faq: [
     {
       q: "Can I stop SEO completely?",
-      a: "You can freeze development, but without monitoring, tech issues, weak snippets, and competitors will eat the result. At minimum — accounts, errors, key URLs.",
+      a: "You can freeze new work, but without monitoring, tech issues, weak snippets, and competitors will eat the result. At minimum watch the panels, errors, and money URLs.",
     },
     {
-      q: "How long should I wait for TOP before judging the effect?",
-      a: "Prep — weeks to a month; core ranking buildup planned 2–6 months after start. Judge cluster dynamics and leads, not one phrase.",
+      q: "How long should I wait before judging results?",
+      a: "Prep often takes weeks to about a month. Ranking growth for the keyword set is planned over 2–6 months after work starts. Judge cluster trends and leads — not one phrase.",
     },
     {
-      q: "After reaching the TOP, what matters more — links or conversion?",
-      a: "Often conversion and snippet CTR: the same traffic yields more leads. Links — selectively, not spam “for the checkbox”.",
+      q: "After page one, what matters more — links or conversion?",
+      a: "Often conversion and snippet CTR: the same traffic yields more leads. Build links selectively, not spam “for the report.”",
     },
     {
-      q: "Do I need new copy if I’m already in TOP-10?",
-      a: "Yes for new clusters and refreshing outdated pages. Competitors keep writing — standing still means falling behind.",
+      q: "Do I need new content if I’m already ranking well?",
+      a: "Yes — for new clusters and to refresh outdated pages. Competitors keep publishing. Standing still means falling behind.",
     },
     {
       q: "Is SEO support the same work as at the start?",
-      a: "The accent shifts: less “from scratch”, more CTR, CRO, core expansion, release tech, and reacting to updates.",
+      a: "The accent shifts: less “from scratch,” more CTR, CRO, keyword expansion, release hygiene, and reacting to updates.",
     },
     {
       q: "How do I know the support budget pays off?",
-      a: "Watch organic leads/revenue, TOP share, organic CPA vs ads, and the cost of downtime on a drop.",
+      a: "Watch organic leads and revenue, share of queries near page one, organic CPA vs paid, and what a drop would cost if you go dark.",
     },
     {
-      q: "What if TOP rankings are only on informational queries?",
-      a: "Don’t drop SEO: finish commercial landings and the core — otherwise “traffic without money”.",
+      q: "What if we only rank for informational queries?",
+      a: "Don’t quit SEO — finish commercial landings and the money keyword set. Otherwise you get traffic without revenue.",
     },
     {
-      q: "Can support be replaced with paid search only?",
-      a: "Paid covers cash fast but costs more over time. A channel mix is stronger than “turning organic off”.",
+      q: "Can paid search replace SEO support?",
+      a: "Paid fills the pipeline fast but costs more over time. A channel mix beats “turning organic off.”",
     },
   ],
   sections: [
@@ -52,17 +52,17 @@ export const seoPosleTopaEn: BlogPost = {
       title: "Why “we turned SEO off” is a bad idea",
       level: 2,
       paras: [
-        "Ranks aren’t stable: competitors, algorithms, snippets, and your site after releases change. Without monitoring it’s easy to lose months of visibility buildup.",
-        "SEO after the TOP is holding and squeezing economics: more clicks from the same places, more leads from the same visits, new demand clusters.",
+        "Rankings aren’t stable. Competitors move, algorithms shift, snippets change, and your own releases break things. Without monitoring it’s easy to lose months of hard-won visibility.",
+        "SEO after page one is hold-and-grow economics: more clicks from the same ranks, more leads from the same visits, and new demand clusters.",
       ],
       lists: [
         {
           intro: "What breaks without support:",
           items: [
-            "drops after SERP updates;",
-            "outdated title/description;",
-            "tech errors after deploy;",
-            "competitors overtake on content and commercial signals.",
+            "drops after search updates",
+            "stale titles and descriptions",
+            "technical errors after deploy",
+            "competitors overtaking on content and commercial signals",
           ],
         },
       ],
@@ -81,17 +81,17 @@ export const seoPosleTopaEn: BlogPost = {
       title: "Conversion and traffic quality",
       level: 2,
       paras: [
-        "When organic already exists, growing CR is often cheaper than chasing another +10% visits. Check landings: offer, form, speed, trust, intent match.",
-        "Segment: count informational and commercial traffic separately — otherwise “visit growth” masks weak sales.",
+        "When organic already exists, growing conversion rate is often cheaper than chasing another +10% visits. Look at landings: offer, form, speed, trust, intent match.",
+        "Segment informational and commercial traffic separately — otherwise “visit growth” can hide weak sales.",
       ],
       lists: [
         {
-          intro: "Focus:",
+          intro: "Focus on:",
           items: [
-            "goals and call tracking on organic;",
-            "top money landings;",
-            "A/B of the first screen and CTA;",
-            "CPA organic vs paid comparison.",
+            "goals and call tracking on organic",
+            "top money landings",
+            "A/B tests on the first screen and CTA",
+            "organic CPA vs paid",
           ],
         },
       ],
@@ -110,23 +110,23 @@ export const seoPosleTopaEn: BlogPost = {
       title: "Snippets and visibility on page one",
       level: 2,
       paras: [
-        "A TOP-10 spot without a click barely feeds the business. Strengthen title, description, markup, and sitelinks — CTR rises even at the same rank.",
-        "The top 3–5 places take most clicks: push priority clusters higher and expand snippets where it fits.",
+        "A page-one spot without a click barely feeds the business. Strengthen title, description, markup, and sitelinks — CTR can rise even at the same rank.",
+        "The top three to five results take most clicks. Push priority clusters higher and expand rich results where they fit.",
       ],
       lists: [
         {
           intro: "Support tasks:",
           items: [
-            "snippet audit on money URLs;",
-            "title/description experiments;",
-            "FAQ/product markup by the rules;",
-            "monitor competitors’ rich results.",
+            "snippet audit on money URLs",
+            "title and description experiments",
+            "FAQ / product markup by the rules",
+            "watch competitors’ rich results",
           ],
         },
       ],
       links: [
         {
-          label: "Snippet and rich results",
+          label: "Snippets and rich results",
           href: "/en/blog/snippet/",
         },
       ],
@@ -135,17 +135,17 @@ export const seoPosleTopaEn: BlogPost = {
       title: "Landing behavior and UX",
       level: 2,
       paras: [
-        "Search clicks must become actions. Watch bounces, depth, scroll maps/session replay selectively — not as fake engagement, but as a signal “expectation ≠ page”.",
-        "Fix navigation, speed, mobile, and trust blocks. That’s both conversion and SERP resilience.",
+        "Search clicks have to become actions. Watch bounce, depth, and session replay selectively — not as fake engagement, but as a signal that expectation doesn’t match the page.",
+        "Fix navigation, speed, mobile, and trust blocks. That lifts conversion and makes rankings more resilient.",
       ],
       lists: [
         {
           intro: "Check:",
           items: [
-            "snippet and H1 match;",
-            "LCP speed on mobile;",
-            "forms and a clickable phone;",
-            "no aggressive overlays on entry.",
+            "snippet promise matches the H1",
+            "LCP on mobile",
+            "forms and a clickable phone number",
+            "no aggressive overlays on entry",
           ],
         },
       ],
@@ -158,32 +158,31 @@ export const seoPosleTopaEn: BlogPost = {
       notes: [
         {
           title: "Important",
-          kind: "tip",
-          text: "UX improvement ≠ schemes that fake behavioral signals. The goal is real value for the visitor.",
+          text: "Better UX is not a scheme to fake behavioral signals. The goal is real value for the visitor.",
         },
       ],
     },
     {
-      title: "Demand expansion and freshness",
+      title: "Expand demand and stay current",
       level: 2,
       paras: [
-        "The core isn’t closed forever: new services, regions, long-tail, seasonal clusters. After TOP on the main list, grow adjacent demand and refresh outdated materials.",
-        "Watch search updates and webmaster panels: mobile, HTTPS, speed, new snippet types. Site quality can improve endlessly — prioritize by business impact.",
+        "The keyword set isn’t finished forever: new services, regions, long-tail, seasonal clusters. After the main list ranks, grow adjacent demand and refresh outdated pages.",
+        "Watch search updates and webmaster panels — mobile, HTTPS, speed, new snippet types. Site quality can improve forever; prioritize by business impact.",
       ],
       lists: [
         {
-          intro: "“After TOP” track:",
+          intro: "The “after page one” loop:",
           items: [
-            "monthly Webmaster/GSC review;",
-            "content and commercial backlog;",
-            "react to cluster drops;",
-            "quarterly core rethink.",
+            "monthly Webmaster / Search Console review",
+            "content and commercial backlog",
+            "react when clusters slip",
+            "quarterly rethink of the keyword set",
           ],
         },
       ],
       links: [
         {
-          label: "Semantic core",
+          label: "Keyword research",
           href: "/en/blog/semanticheskoe-yadro/",
         },
         {
@@ -194,8 +193,7 @@ export const seoPosleTopaEn: BlogPost = {
       notes: [
         {
           title: "Timelines",
-          kind: "tip",
-          text: "Support is continuous. New clusters again live on a months logic — not “TOP next week”.",
+          text: "Support is continuous. New clusters again live on a months logic — not “page one next week.”",
         },
       ],
     },

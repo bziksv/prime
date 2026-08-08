@@ -3,7 +3,7 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for kviz-sayt — same structure as RU JSON. */
 export const kvizSaytEn: BlogPost = {
   slug: "kviz-sayt",
-  title: "Quiz site: when you need one and how to make it effective",
+  title: "Quiz site: when you need one and how to make it work",
   date: "2020-01-14",
   category: "Digital marketing",
   cover: "/images/blog/kviz-sayt/cover-en.webp",
@@ -11,7 +11,7 @@ export const kvizSaytEn: BlogPost = {
     "What a quiz site and a landing quiz are: gamification, when a multi-step survey beats a long page, a build algorithm, and builder vs agency.",
   lead: [
     "A quiz site (or a quiz block on a landing) is a step-by-step survey in game form: the user answers questions, gets a personal result or calculation, and the business gets a segment and a contact.",
-    "It isn’t a “newest replacement for every landing” — it’s a format for a job: warm up colder traffic and collect a lead without a wall of copy. When it works, how to build it, and what to watch — below.",
+    "It isn’t a “newest replacement for every landing” — it’s a format for a job: warm up colder traffic and collect a lead without a wall of copy. Below: when it works, how to build it, and what to watch.",
   ],
   faq: [
     {
@@ -28,15 +28,15 @@ export const kvizSaytEn: BlogPost = {
     },
     {
       q: "How many questions is normal?",
-      a: "Usually 4–8 clearly. Ten “for looks” raise drop-off. Every question should affect the offer or qualification.",
+      a: "Usually 4–8 that earn their place. Ten “for looks” raise drop-off. Every question should affect the offer or qualification.",
     },
     {
-      q: "Should I use a builder or an agency?",
+      q: "Builder or agency?",
       a: "A simple test — a builder. Complex calculation, brand design, CRM integrations — more often a contractor. Stake and cost of error decide.",
     },
     {
       q: "Where do leads go?",
-      a: "Into CRM/a sheet with quiz answers. Without passing the segment to sales, the survey loses its point.",
+      a: "Into CRM or a sheet with quiz answers. Without passing the segment to sales, the survey loses its point.",
     },
     {
       q: "Is this manipulation?",
@@ -55,10 +55,10 @@ export const kvizSaytEn: BlogPost = {
         {
           intro: "Why business uses it:",
           items: [
-            "lead qualification;",
-            "a personal offer;",
-            "a lower barrier than “leave a request into the void”;",
-            "data for the sales script.",
+            "lead qualification",
+            "a personal offer",
+            "a lower barrier than “leave a request into the void”",
+            "data for the sales script",
           ],
         },
       ],
@@ -86,16 +86,16 @@ export const kvizSaytEn: BlogPost = {
       level: 2,
       paras: [
         "It makes sense: a complex product with branches (renovation, training, service match), cold/warm traffic, segmentation needed before a call. Weaker: impulse buy at one price, audience already on-site with a ready “buy X” intent.",
-        "Tied to awareness: a long multi-page often waits for “hot” visitors. A quiz helps those who still need to name the job — and leads to a request more gently.",
+        "Tied to awareness: a long multi-page often waits for hot visitors. A quiz helps those who still need to name the job — and leads to a request more gently.",
       ],
       lists: [
         {
           intro: "Signals it’s worth testing:",
           items: [
-            "customers have many types of jobs;",
-            "managers spend time on first-line qualification;",
-            "drop-offs on a long form;",
-            "ads bring mixed-temperature traffic.",
+            "customers have many types of jobs",
+            "managers spend time on first-line qualification",
+            "drop-offs on a long form",
+            "ads bring mixed-temperature traffic",
           ],
         },
       ],
@@ -111,19 +111,19 @@ export const kvizSaytEn: BlogPost = {
         {
           intro: "Practical order:",
           items: [
-            "goal and metric (lead, qualification);",
-            "4–8 questions without fluff;",
-            "a clear outcome before or right after asking for contact;",
-            "answers passed into CRM;",
-            "A/B of length and wording.",
+            "goal and metric (lead, qualification)",
+            "4–8 questions without fluff",
+            "a clear outcome before or right after asking for contact",
+            "answers passed into CRM",
+            "A/B of length and wording",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
-          kind: "tip",
           text: "Asking for a phone on the first screen before any value. Scenario usefulness first — then contact, if the funnel logic allows it.",
+          kind: "tip",
         },
       ],
       links: [
@@ -156,11 +156,11 @@ export const kvizSaytEn: BlogPost = {
         {
           intro: "Quality criteria:",
           items: [
-            "questions affect the offer;",
-            "few mid-funnel drop-offs;",
-            "leads tagged with a segment;",
-            "consent to contact;",
-            "the promised outcome matches reality.",
+            "questions affect the offer",
+            "few mid-funnel drop-offs",
+            "leads tagged with a segment",
+            "consent to contact",
+            "the promised outcome matches reality",
           ],
         },
       ],

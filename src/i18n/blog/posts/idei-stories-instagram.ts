@@ -11,8 +11,12 @@ export const ideiStoriesInstagramEn: BlogPost = {
     "Instagram Stories ideas: intro, team, behind the scenes, product, polls, education, reviews, and teasers — without other people’s “reach ×3 guarantees” or outdated template catalogs.",
   lead: [
     "Stories work well for “here and now”: warm-up, dialogue, behind the scenes, a quick offer. Idea and hook beat a pretty template from a 2018 marketplace.",
-    "Use this as a format bank for business and creators. Growing views is covered separately; multi-frame technique is in the several-Stories piece. The Meta disclaimer is on the page.",
+    "Below: a format bank for business and creators. Growing views is covered separately; multi-frame technique is in the several-Stories piece. The Meta notice is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "How is this different from VK Stories ideas?",
@@ -68,7 +72,7 @@ export const ideiStoriesInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "Show the product in use, facts, before/after, an answer to a typical objection.",
-        "Soft CTA: “write in DMs,” “link in bio,” link sticker — where available.",
+        "Soft CTA: “write in Direct,” “link in bio,” link sticker — where available.",
       ],
       links: [
         {
@@ -81,7 +85,7 @@ export const ideiStoriesInstagramEn: BlogPost = {
       title: "Dialogue: polls, questions, prompts",
       level: 2,
       paras: [
-        "Poll and question stickers — a fast way to learn preferences and lift replies.",
+        "Poll and question stickers — a fast way to learn preferences and raise replies.",
         "“Tell us about yourself” prompts: one filled example + an empty frame to screenshot — works when the topic fits the audience and isn’t a toxic challenge.",
         "Reply to replies — otherwise engagement dies.",
       ],
@@ -109,7 +113,7 @@ export const ideiStoriesInstagramEn: BlogPost = {
             "2× value/FAQ",
             "2× poll or question",
             "1× review/case",
-            "1× offer with CTA.",
+            "1× offer with CTA",
           ],
         },
       ],
@@ -120,12 +124,12 @@ export const ideiStoriesInstagramEn: BlogPost = {
       paras: [
         "Ideas work when tied to a goal and niche — not someone else’s template.",
         "Dialogue and behind the scenes often beat a pure storefront.",
-        "Measure replies and clicks, not frame “prettiness.”",
+        "Measure replies and clicks, not frame prettiness.",
       ],
     },
   ],
   closing: [
-    "Pick three ideas from the list for this week and pin FAQ in Highlights — faster than collecting templates “for later.”",
+    "Pick three ideas from the list for this week and pin FAQ in Highlights — faster than collecting templates for later.",
   ],
   related: [
     "prosmotry-stories-instagram",

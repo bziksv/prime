@@ -11,7 +11,7 @@ export const vebServisyEn: BlogPost = {
     "What a web service (API) is: how systems exchange data over the network, where business needs it, and how modern REST/JSON differs from old SOAP/UDDI roundups.",
   lead: [
     "A web service is a programmatic interface over the network: one resource sends or receives data under clear rules; another consumes it. For the user it’s the “magic” of a tour aggregator or checkout on a site; for engineering — a contract between systems.",
-    "We won’t inflate outdated UDDI/SOAP accents from 2000s guides: today it’s more often REST, JSON, and ready APIs for payments, delivery, and CRM. What business should watch is docs, SLA, and what happens when the provider is down.",
+    "Below: the architecture idea, where services get used, and what business should watch. We don’t inflate outdated UDDI/SOAP accents from 2000s guides: today it’s more often REST, JSON, and ready APIs for payments, delivery, and CRM.",
   ],
   faq: [
     {
@@ -24,7 +24,7 @@ export const vebServisyEn: BlogPost = {
     },
     {
       q: "Why does an online store need this?",
-      a: "Payments, delivery, stock, Market/feeds, CRM, telephony — almost everything connects via services, not manual copy-paste.",
+      a: "Payments, delivery, inventory, Market/feeds, CRM, telephony — almost everything connects via services, not manual copy-paste.",
     },
     {
       q: "Is SOAP still alive?",
@@ -32,7 +32,7 @@ export const vebServisyEn: BlogPost = {
     },
     {
       q: "What is risky about integrations?",
-      a: "Third-party API outages, format changes, keys in public code, stock/price drift. You need monitoring, access rights, and clear data ownership.",
+      a: "Third-party API outages, format changes, keys in public code, inventory/price drift. You need monitoring, access rights, and clear data ownership.",
     },
     {
       q: "Is an aggregator a web service?",
@@ -55,9 +55,9 @@ export const vebServisyEn: BlogPost = {
         {
           intro: "Players, simplified:",
           items: [
-            "data/operations provider (executor);",
-            "consumer (your site, app, partner);",
-            "contract: format, errors, limits, authorization.",
+            "data/operations provider (executor)",
+            "consumer (your site, app, partner)",
+            "contract: format, errors, limits, authorization",
           ],
         },
       ],
@@ -73,11 +73,11 @@ export const vebServisyEn: BlogPost = {
         {
           intro: "What to check when choosing/ordering an integration:",
           items: [
-            "current documentation and examples exist;",
-            "request limits and SLA;",
-            "how prices/stock refresh;",
-            "key security and logging;",
-            "what happens when the provider is down.",
+            "current documentation and examples exist",
+            "request limits and SLA",
+            "how prices and inventory refresh",
+            "key security and logging",
+            "what happens when the provider is down",
           ],
         },
       ],
@@ -98,10 +98,10 @@ export const vebServisyEn: BlogPost = {
         {
           intro: "Business benefits:",
           items: [
-            "less manual data moving;",
-            "one source of truth for stock and statuses;",
-            "faster to connect new sales channels;",
-            "you can change the front without breaking accounting if the API contract stays stable.",
+            "less manual data moving",
+            "one source of truth for inventory and statuses",
+            "faster to connect new sales channels",
+            "you can change the front without breaking accounting if the API contract stays stable",
           ],
         },
       ],

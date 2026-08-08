@@ -11,7 +11,7 @@ export const postInstagramEn: BlogPost = {
     "How to build a selling Instagram post: offer, USP, copy structure, headline, CTA, and handling comments.",
   lead: [
     "A selling post is copy plus visuals about a specific product or service with a clear benefit and a call to action. It’s not a “pretty paragraph” — it’s a step in the dialogue with the buyer.",
-    "We cover audience, positioning, copy frame, and handling negativity. Instagram’s UI changes — copy logic matters more than button screenshots.",
+    "Below: audience, positioning, copy frame, and handling negativity. Instagram’s UI changes — copy logic matters more than button screenshots.",
   ],
   legalNotice: {
     title: "Note",
@@ -54,7 +54,7 @@ export const postInstagramEn: BlogPost = {
             "noticeable visual and first line",
             "a concrete product / service / offer",
             "benefits, not only “specs”",
-            "a clear CTA.",
+            "a clear CTA",
           ],
         },
       ],
@@ -72,12 +72,13 @@ export const postInstagramEn: BlogPost = {
             "key features",
             "benefits for the client",
             "options / offer formats",
-            "proof (figures, case, guarantee) — when possible.",
+            "proof (figures, case, guarantee) — when possible",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Practice",
           text: "Ask yourself: “Why buy from us, not the neighbor?” That answer is the post’s core.",
         },
@@ -90,7 +91,6 @@ export const postInstagramEn: BlogPost = {
         "Without an audience portrait the post is written “for everyone” and hooks no one. Gender, age, city, income, activities, pains — the basic frame.",
         "Look at competitors: topics, tone, what gets response. Copying their texts is off — the platform and audience notice. Take meanings and repackage for your offer.",
       ],
-      lists: [],
     },
     {
       title: "Positioning and USP",
@@ -105,7 +105,7 @@ export const postInstagramEn: BlogPost = {
           items: [
             "show the benefit",
             "differentiate from analogues",
-            "warm interest in the next step.",
+            "warm interest in the next step",
           ],
         },
       ],
@@ -122,7 +122,7 @@ export const postInstagramEn: BlogPost = {
           items: [
             "concise and not banal",
             "offer or pain clear right away",
-            "a keyword — only if it sounds natural.",
+            "a keyword — only if it sounds natural",
           ],
         },
         {
@@ -130,7 +130,7 @@ export const postInstagramEn: BlogPost = {
           items: [
             "intro — 2–3 sentences, hook questions",
             "body — features, benefits, use cases, soft proof",
-            "close — a clear CTA (what to do and where).",
+            "close — a clear CTA (what to do and where)",
           ],
         },
         {
@@ -138,12 +138,13 @@ export const postInstagramEn: BlogPost = {
           items: [
             "“DM us the word … — we’ll call back”",
             "“Book — link in bio / reply to the operator”",
-            "“Contacts in profile — name a convenient time.”",
+            "“Contacts in profile — name a convenient time”",
           ],
         },
       ],
       notes: [
         {
+          kind: "tip",
           title: "Common mistake",
           text: "Dumping the whole point in the intro and repeating it in the middle. The intro is a lead-in; value lives in the body.",
         },
@@ -166,7 +167,6 @@ export const postInstagramEn: BlogPost = {
         "Reply speed matters: a hot lead goes to a competitor. Active accounts need someone owning DMs and comments.",
         "Negativity is better moved to private messages and handled calmly. Spam and toxicity — per moderation rules; mass-scrubbing criticism “for looks” isn’t worth it.",
       ],
-      lists: [],
     },
   ],
 };

@@ -11,7 +11,7 @@ export const htmlSeoEn: BlogPost = {
     "How HTML helps SEO: document structure, title and meta, headings, links, and code validity — without the myth that “broken HTML = a ban,” plus links to related guides.",
   lead: [
     "HTML is the page markup language: tags tell browsers and bots where the heading, text, link, and image are. CSS handles presentation. For SEO, clear structure matters — not a “secret ranking tag.”",
-    "An SEO specialist still needs basic HTML: what lives in `<head>` and `<body>`, and how validity really helps. We don’t claim “one code error = deindexed”: bots are tolerant, but messy markup hurts UX and snippets.",
+    "Below: why an SEO specialist needs basic HTML, which nodes to check in `<head>` and `<body>`, and how validity actually helps. We don’t copy the hard line “one code error = deindexed”: bots are tolerant, but messy markup hurts people and parsing.",
   ],
   faq: [
     {
@@ -39,8 +39,8 @@ export const htmlSeoEn: BlogPost = {
       a: "Structured data usually lives as JSON-LD or microdata inside HTML. Separate topic; HTML is the host page.",
     },
     {
-      q: "Is the lang attribute on html required?",
-      a: "Desirable: helps the browser and accessibility. Not an SEO “magic button,” but good hygiene.",
+      q: "Is lang on html required?",
+      a: "Desirable: helps the browser and accessibility. Not an SEO magic button, but good hygiene.",
     },
     {
       q: "Where do I start checking a page?",
@@ -53,10 +53,9 @@ export const htmlSeoEn: BlogPost = {
       level: 2,
       paras: [
         "Bots and browsers read the DOM. If the heading is in `<h1>`, the link in `<a href>`, the copy in a paragraph — meaning is easier to extract than from nameless `<div>`s with text painted on a canvas.",
-        "CSS doesn’t “rank,” but it affects UX and Core Web Vitals. Hiding whole blocks with `display:none` for keywords is a bad idea and an outdated spam trick.",
+        "CSS doesn’t rank pages, but it affects UX and Core Web Vitals. Hiding whole blocks with `display:none` for keywords is a bad idea and an outdated spam trick.",
         "Validity is about predictability: closed tags, correct nesting, one clear heading hierarchy.",
       ],
-      lists: [],
     },
     {
       title: "Page skeleton",
@@ -73,7 +72,7 @@ export const htmlSeoEn: BlogPost = {
             "a unique title",
             "description that matches the URL",
             "text in HTML, not only on a banner",
-            "working internal links.",
+            "working internal links",
           ],
         },
       ],
@@ -96,7 +95,6 @@ export const htmlSeoEn: BlogPost = {
         "Lists, tables, `strong`/`em` improve readability; keyword bold spam isn’t needed.",
         "Technical neighbors: canonical, pagination, noindex — see separate materials; don’t copy outdated “required” meta keywords sets.",
       ],
-      lists: [],
       links: [
         {
           label: "Meta description",
@@ -120,11 +118,11 @@ export const htmlSeoEn: BlogPost = {
         "After layout, check the DOM: is text only in JS without SSR/prerender when the bot should see it?",
         "Don’t fix micro-typos in code comments instead of duplicate titles and thin filters — prioritize impact on index and clicks.",
       ],
-      lists: [],
       notes: [
         {
           title: "A validator ≠ rankings",
-          text: "An HTML validator run is useful hygiene. A green check doesn’t guarantee positions; critical red structure errors are worth fixing. Prep is weeks of work; core TOP growth is planned for 2–6 months — not “fixed tags, ranked tomorrow.”",
+          kind: "tip",
+          text: "An HTML validator run is useful hygiene. A green check doesn’t guarantee positions; critical red structure errors are worth fixing.",
         },
       ],
     },
@@ -136,7 +134,6 @@ export const htmlSeoEn: BlogPost = {
         "For SEO what matters is head meta, headings, links, and accessible text — not “secret tags.”",
         "Go deeper in separate guides on title, H1, and canonical; this piece is a map.",
       ],
-      lists: [],
     },
   ],
   closing: [

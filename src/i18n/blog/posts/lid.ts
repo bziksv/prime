@@ -11,7 +11,7 @@ export const lidEn: BlogPost = {
     "A lead in marketing is a potential customer with a contact and interest: how it differs from audience and traffic, cold/warm/hot, capture channels, CPL, and why buying someone else’s lists is a mistake.",
   lead: [
     "A lead is a person or company that showed interest in the offer and left a way to connect: a form, a call, a chat, a signup with consent. Not a payment yet — but a reason for the next sales step.",
-    "Definition, how warm the lead is, channels, and metrics are below. We don’t cover buying others’ contacts without consent: that’s a legal, reputation, and deal-quality risk.",
+    "Below: definition, how warm the lead is, channels, and metrics. We don’t cover buying others’ contacts without consent: that’s a legal, reputation, and deal-quality risk.",
   ],
   faq: [
     {
@@ -31,7 +31,7 @@ export const lidEn: BlogPost = {
       a: "Common labels: marketing qualified (MQL) — interest confirmed by marketing; sales qualified (SQL) — sales accepted it. Thresholds differ by company.",
     },
     {
-      q: "What is CPL (cost per lead)?",
+      q: "What is CPL?",
       a: "Cost per lead: cost to acquire one lead. Watch it with quality (share of qualified, conversion to deal), or cheap junk beats an expensive order.",
     },
     {
@@ -40,7 +40,7 @@ export const lidEn: BlogPost = {
     },
     {
       q: "Is a cold lead useless?",
-      a: "Not always: it needs more touches and content. Treating it as equal to a “hot” request with a budget is a planning error.",
+      a: "Not always: it needs more touches and content. Treating it as equal to a hot request with a budget is a planning error.",
     },
     {
       q: "Where should leads be logged?",
@@ -59,9 +59,8 @@ export const lidEn: BlogPost = {
       notes: [
         {
           title: "Your company definition",
-          paras: [
-            "Write it down: which action counts as a lead (form, 30+ sec call, chat asking about price). Otherwise marketing and sales argue about the numbers.",
-          ],
+          text: "Write it down: which action counts as a lead (form, 30+ sec call, chat asking about price). Otherwise marketing and sales argue about the numbers.",
+          kind: "tip",
         },
       ],
     },
@@ -77,9 +76,9 @@ export const lidEn: BlogPost = {
         {
           intro: "Don’t mix in one KPI:",
           items: [
-            "a checklist signup;",
-            "a “call me about the project” request;",
-            "a repeat order from a regular client.",
+            "a checklist signup",
+            "a “call me about the project” request",
+            "a repeat order from a regular client",
           ],
         },
       ],
@@ -102,9 +101,9 @@ export const lidEn: BlogPost = {
         {
           intro: "What not to use as a strategy:",
           items: [
-            "scraping others’ emails/phones;",
-            "buying “lead lists” with no consent origin;",
-            "faking interest with boosted fake requests.",
+            "scraping others’ emails/phones",
+            "buying “lead lists” with no consent origin",
+            "faking interest with boosted fake requests",
           ],
         },
       ],
@@ -130,9 +129,8 @@ export const lidEn: BlogPost = {
       notes: [
         {
           title: "Quality over volume",
-          paras: [
-            "100 leads at CPL 50 with zero deals is worse than 15 leads at CPL 800 with five payments. Count the funnel to revenue.",
-          ],
+          text: "100 leads at CPL 50 with zero deals is worse than 15 leads at CPL 800 with five payments. Count the funnel to revenue.",
+          kind: "tip",
         },
       ],
     },
@@ -142,7 +140,7 @@ export const lidEn: BlogPost = {
       paras: [
         "CPL = channel spend / leads by your definition. Compare channels only with the same lead definition.",
         "Lead → deal conversion and average order value show quality. Without a CRM it’s guesswork.",
-        "Marketing ROI / ROMI (return on marketing investment) looks at money, not “pretty” requests. Process KPIs (leads, response speed) and cash payback are different levels.",
+        "Marketing ROI / ROMI looks at money, not “pretty” requests. Process KPIs (leads, response speed) and cash payback are different levels.",
       ],
       links: [
         {
@@ -167,11 +165,11 @@ export const lidEn: BlogPost = {
         {
           intro: "Mini launch order:",
           items: [
-            "lead definition on one page;",
-            "form/call with consent;",
-            "CRM + owner;",
-            "CPL and qualified share in the report;",
-            "no buying others’ lists.",
+            "lead definition on one page",
+            "form/call with consent",
+            "CRM + owner",
+            "CPL and qualified share in the report",
+            "no buying others’ lists",
           ],
         },
       ],

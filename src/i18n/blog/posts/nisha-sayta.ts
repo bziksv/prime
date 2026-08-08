@@ -8,10 +8,10 @@ export const nishaSaytaEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/nisha-sayta/cover-en.webp",
   excerpt:
-    "How to pick a site topic: demand, margin, competition, and expertise — without “profitable niches 2021” lists from outdated rankings.",
+    "How to pick a site topic: demand, margin, competition, and expertise — without “profitable niches 2021” lists from outdated roundups.",
   lead: [
     "A niche sets the product, audience, and competition. A bad start is expensive: you’ll invest in a site with no one to sell to or nothing to stand out with.",
-    "Skip recycled “top profitable niches” lists — they age fast. Run your own economics: demand, margin, barriers, and whether you can sustain content and service.",
+    "Below: a choice framework. Ready-made “most profitable niches” lists from old articles age fast — run your own economics.",
   ],
   faq: [
     {
@@ -24,14 +24,14 @@ export const nishaSaytaEn: BlogPost = {
     },
     {
       q: "How do you check demand?",
-      a: "Keyword tools and similar tools, ad auctions, forums/social demand, talks with customers.",
+      a: "Wordstat and similar tools, ad auctions, forums and social demand, talks with customers.",
     },
     {
-      q: "Is personal interest in the niche required?",
+      q: "Is personal interest required?",
       a: "It strongly helps you sustain content and service. Pure “for the money” without expertise burns out faster.",
     },
     {
-      q: "Should you pick one niche or several?",
+      q: "One niche or several?",
       a: "At the start — one clear niche. Expand after the model works.",
     },
     {
@@ -58,7 +58,7 @@ export const nishaSaytaEn: BlogPost = {
             "whose pain we solve and how",
             "how the client searches for a solution",
             "what price and repeat sales look like",
-            "how we differ from the SERP top.",
+            "how we differ from the strongest results in search",
           ],
         },
       ],
@@ -77,7 +77,7 @@ export const nishaSaytaEn: BlogPost = {
             "only informational demand with no purchase",
             "marketplaces and chains dominate",
             "you need a huge warehouse without capital",
-            "the niche needs licenses you don’t have.",
+            "the niche needs licenses you don’t have",
           ],
         },
       ],
@@ -96,7 +96,7 @@ export const nishaSaytaEn: BlogPost = {
       title: "Strategy looking ahead",
       level: 2,
       paras: [
-        "Think LTV (lifetime value): subscription, consumables, services around the product. Exclusivity isn’t always a unique product — it can be packaging, service, expertise, or locality.",
+        "Think LTV: subscription, consumables, services around the product. Exclusivity isn’t always a unique product — it can be packaging, service, expertise, or locality.",
         "The site should help test a hypothesis — not replace product strategy. First describe the promise, proof, and path to purchase; then choose SEO, ads, partnerships, or sales as channel one.",
       ],
       lists: [
@@ -106,7 +106,7 @@ export const nishaSaytaEn: BlogPost = {
             "positioning in one sentence",
             "first landings for the core",
             "traffic channel #1 for a test",
-            "metrics: lead/sale — not traffic alone.",
+            "metrics: lead or sale — not traffic alone",
           ],
         },
       ],
@@ -114,13 +114,6 @@ export const nishaSaytaEn: BlogPost = {
         {
           label: "Young website",
           href: "/en/blog/molodoy-sayt/",
-        },
-      ],
-      notes: [
-        {
-          title: "SEO timelines",
-          kind: "tip",
-          text: "Niche choice isn’t TOP. Site prep is roughly weeks to a month; rankings for a core are planned 2–6 months of work after you start.",
         },
       ],
     },
@@ -138,7 +131,7 @@ export const nishaSaytaEn: BlogPost = {
             "whether people understand the offer without explanations",
             "what they ask before buying",
             "whether they’ll leave a contact or pay the next step",
-            "which channel brings interested visitors — not random ones.",
+            "which channel brings interested visitors — not random ones",
           ],
         },
       ],
@@ -157,7 +150,7 @@ export const nishaSaytaEn: BlogPost = {
             "main offer page",
             "process, pricing, or terms",
             "cases, reviews, or other experience proof",
-            "contacts and a fast way to ask a question.",
+            "contacts and a fast way to ask a question",
           ],
         },
       ],

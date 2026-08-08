@@ -8,14 +8,14 @@ export const sotsialnyeSetiEn: BlogPost = {
   category: "SMM",
   cover: "/images/blog/sotsialnye-seti/cover-en.webp",
   excerpt:
-    "What social networks are: a short history, platform types, benefits and risks, and trends — without outdated “TOP-10 MAU” lists or dead Google+. Meta* disclaimer on the page.",
+    "What social networks are: a short history, platform types, benefits and risks, and trends — without outdated MAU roundups or dead Google+. Meta disclaimer on the page.",
   lead: [
     "A social network is an online platform where people create profiles, connect, and share content. For business it’s a channel for touchpoints, service, and demand — next to the site, not instead of it.",
-    "We cover origins, how platforms differ by job, why they hold attention, which risks to plan for, and where audience attention is shifting. We don’t recycle 2021–2022 MAU rankings — platforms and laws change. A Meta* disclaimer is on the page.",
+    "Below: where social networks came from, how platforms differ by job, why they hold attention, which risks to plan for, and where audience attention is shifting. We don’t recycle 2021–2022 MAU rankings — platforms and laws change. A Meta disclaimer is on the page.",
   ],
   legalNotice: {
-    title: "Dear readers!",
-    text: "This article is informational and does not encourage use of the platform. Instagram*, Facebook*, and WhatsApp* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+    title: "Note",
+    text: "This article is for information only and is not an invitation to use the platform. Instagram*, Facebook*, and WhatsApp* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
@@ -32,10 +32,10 @@ export const sotsialnyeSetiEn: BlogPost = {
     },
     {
       q: "How do local networks differ from global ones?",
-      a: "Audience, ad accounts, rules, and availability. Choose for geography and legal context — not someone else’s “world TOP.”",
+      a: "Audience, ad accounts, rules, and availability. Choose for geography and legal context — not someone else’s global league table.",
     },
     {
-      q: "Do social networks replace the need for a site?",
+      q: "Do social networks kill the site?",
       a: "No. The site is the base for SEO, trust, and conversion; networks are traffic and dialogue. You need a clear link between them.",
     },
   ],
@@ -48,7 +48,6 @@ export const sotsialnyeSetiEn: BlogPost = {
         "In the 2000s came business and media networks, then mass chat and video platforms. In the Russian-speaking segment, VK and Odnoklassniki grew separately; later came photo/video formats and short clips.",
         "Important: the landscape didn’t freeze. Platforms get bought, closed, or change algorithms and ad rules — business strategy should rest on the current audience, not nostalgia for a “golden year.”",
       ],
-      lists: [],
     },
     {
       title: "Platform types by job",
@@ -61,11 +60,11 @@ export const sotsialnyeSetiEn: BlogPost = {
         {
           intro: "A practical map:",
           items: [
-            "awareness and content;",
-            "dialogue and support;",
-            "video and learning;",
-            "reviews and reputation;",
-            "B2B contacts.",
+            "awareness and content",
+            "dialogue and support",
+            "video and learning",
+            "reviews and reputation",
+            "B2B contacts",
           ],
         },
       ],
@@ -87,7 +86,6 @@ export const sotsialnyeSetiEn: BlogPost = {
         "Easy conversation without distance barriers, a familiar mobile UI, fast access to news and entertainment, and finding people and communities by interest.",
         "Business valued targeting, content marketing, and service in comments. Users valued comparing sellers and getting a quick reply.",
       ],
-      lists: [],
     },
     {
       title: "Risks",
@@ -97,7 +95,6 @@ export const sotsialnyeSetiEn: BlogPost = {
         "For brands, add reputation crises, blocks for rule breaks, and dependence on someone else’s algorithm.",
         "Mitigation: strong passwords and 2FA, minimal extra data in the profile, moderation, and owned channels (site, email, CRM) — don’t keep the only “truth about the company” only on social.",
       ],
-      lists: [],
       links: [
         {
           label: "Engagement in social media",
@@ -110,18 +107,18 @@ export const sotsialnyeSetiEn: BlogPost = {
       ],
     },
     {
-      title: "Major platforms: how to read “TOPs”",
+      title: "Major platforms: how to read league tables",
       level: 2,
       paras: [
         "Global roundups often mix messengers, video hosts, and classic networks. Audience figures age within a quarter — use fresh reports for your market, not a 2022 article screenshot.",
         "For content plans, go where your customers already are: for many niches in Russia that’s VK and messengers; for visual brands — photo/video platforms; for B2B — professional networks.",
         "Mind the legal status of platforms in your jurisdiction and whether ad accounts exist. Strike dead services (like closed Google+) from old rankings.",
       ],
-      lists: [],
       notes: [
         {
           title: "Common mistake",
-          text: "Copying a “world TOP-10” as a media plan for a local business. Audience and geography first, then the platform.",
+          kind: "tip",
+          text: "Copying a “global top ten” as a media plan for a local business. Audience and geography first, then the platform.",
         },
       ],
     },
@@ -133,7 +130,6 @@ export const sotsialnyeSetiEn: BlogPost = {
         "Platforms tighten ad and moderation rules. For brands, owned bases (email, CRM) and a site are more durable than betting on one algorithm.",
         "New formats appear faster than guides age — keep strategy on goals, and refresh format tactics from your own stats.",
       ],
-      lists: [],
       links: [
         {
           label: "Common SMM mistakes",
@@ -153,7 +149,6 @@ export const sotsialnyeSetiEn: BlogPost = {
         "Pick platforms for the job and audience, not someone else’s ranking.",
         "Build data and reputation risks into the process the same way you build a content plan.",
       ],
-      lists: [],
     },
   ],
   closing: [

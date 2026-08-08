@@ -11,11 +11,11 @@ export const nakrutkaLaykovInstagramEn: BlogPost = {
     "Why people chase Instagram likes, what’s dangerous about bots and fake-engagement services, what penalties look like, and what to do instead of buying artificial activity.",
   lead: [
     "Likes affect how noticeable a post is — so the market is full of “buy hearts” services. Artificial activity breaks your stats, kills advertiser trust, and often ends in account limits.",
-    "Here’s why likes get counted, what fake engagement usually costs you, and what actually works instead. This is informational only — not a guide to bypass rules. See the Meta notice on this page.",
+    "Below: why likes get counted, typical risks of fake engagement, and real alternatives. This is an informational breakdown — not a guide to bypass platform rules.",
   ],
   legalNotice: {
-    title: "Dear readers!",
-    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+    title: "Note",
+    text: "This article is for information only and is not an invitation to use the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
   },
   faq: [
     {
@@ -36,7 +36,7 @@ export const nakrutkaLaykovInstagramEn: BlogPost = {
     },
     {
       q: "What should you do instead of buying fake likes?",
-      a: "Strong offer and visuals, regular content, Stories warm-up, collabs, paid ads or seeding (paid placements) by platform rules, and working the comments.",
+      a: "Strong offer and visuals, regular content, Stories warm-up, collabs, paid ads or paid placements by platform rules, and working the comments.",
     },
   ],
   sections: [
@@ -54,7 +54,7 @@ export const nakrutkaLaykovInstagramEn: BlogPost = {
             "whether the format gets noticed",
             "interest in the topic",
             "indirectly — trust in the creator",
-            "material for content-plan hypotheses.",
+            "material for content-plan hypotheses",
           ],
         },
       ],
@@ -73,7 +73,7 @@ export const nakrutkaLaykovInstagramEn: BlogPost = {
             "topic misses follower pains",
             "asking for a like instead of offering value",
             "irregular posting — the audience forgot you",
-            "some people simply don’t react out of habit.",
+            "some people simply don’t react out of habit",
           ],
         },
       ],
@@ -93,14 +93,15 @@ export const nakrutkaLaykovInstagramEn: BlogPost = {
             "ban or activity removal",
             "money lost on scam services",
             "advertisers and partners walking away",
-            "skewed analytics — you can’t tell what actually works.",
+            "skewed analytics — you can’t tell what actually works",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
-          text: "Buying followers without likes (or the reverse) and waiting for sales growth. An empty audience doesn’t convert — it only ruins ER (engagement rate).",
+          kind: "tip",
+          text: "Buying followers without likes (or the reverse) and waiting for sales growth. An empty audience doesn’t convert — it only ruins engagement rate.",
         },
       ],
     },
@@ -109,9 +110,8 @@ export const nakrutkaLaykovInstagramEn: BlogPost = {
       level: 2,
       paras: [
         "Old reviews were full of bot app names for Android and iPhone. Listing them is effectively a tip for breaking service rules and risking the account.",
-        "If you see “likes guaranteed in an hour” and a request for login/password access — that’s a red flag: for security and for the profile’s future.",
+        "If you see “likes guaranteed in an hour” and a request for login or password access — that’s a red flag: for security and for the profile’s future.",
       ],
-      lists: [],
       links: [
         {
           label: "How to vet a creator for fake engagement",
@@ -123,7 +123,7 @@ export const nakrutkaLaykovInstagramEn: BlogPost = {
       title: "What to use instead of artificial activity",
       level: 2,
       paras: [
-        "What works is a stack: clear offer, strong post, posting cadence, and honest promotion (ads, collabs, seeding).",
+        "What works is a stack: clear offer, strong post, posting cadence, and honest promotion — ads, collabs, paid placements.",
       ],
       lists: [
         {
@@ -133,7 +133,7 @@ export const nakrutkaLaykovInstagramEn: BlogPost = {
             "a content plan with value, not only “buy now”",
             "questions and reactions in Stories",
             "replies in comments in the first minutes",
-            "measure saves, replies, clicks — not likes alone.",
+            "measure saves, replies, clicks — not likes alone",
           ],
         },
       ],

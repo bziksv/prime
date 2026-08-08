@@ -11,11 +11,11 @@ export const reklamnyyKabinetEn: BlogPost = {
     "What an ad account is, which entities almost always exist (campaign, budget, audience, stats), and how to approach a launch in Yandex Direct and social ad accounts.",
   lead: [
     "An ad account is the interface where you create campaigns, set budget and audience, and read stats. Each platform has its own UI, but the logic is similar.",
-    "Here’s the shared vocabulary and a sensible launch order. Menus change; for Meta* platforms this article is informational and does not urge you to use the service.",
+    "Below: shared vocabulary and a sensible launch order. Menus change; for Meta platforms this article is informational and does not urge you to use the service.",
   ],
   legalNotice: {
-    title: "Dear readers!",
-    text: "This article is informational and does not encourage use of the platform. Facebook* and Instagram* ads run through Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. Facebook* and Instagram* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the services may have legal consequences.",
   },
   faq: [
     {
@@ -54,11 +54,11 @@ export const reklamnyyKabinetEn: BlogPost = {
         {
           intro: "Before the first launch:",
           items: [
-            "goal (lead, purchase, traffic);",
-            "landing page;",
-            "budget and test period;",
-            "analytics counter;",
-            "creatives and offer.",
+            "goal (lead, purchase, traffic)",
+            "landing page",
+            "budget and test period",
+            "analytics counter",
+            "creatives and offer",
           ],
         },
       ],
@@ -68,17 +68,17 @@ export const reklamnyyKabinetEn: BlogPost = {
       level: 2,
       paras: [
         "Yandex Direct — Yandex search and networks. VK — its own ad account. Other platforms have separate accounts and access rules.",
-        "Facebook*/Instagram* ads historically ran through Meta Ads Manager; for users in Russia, mind the legal status of Meta* products.",
+        "Facebook and Instagram ads historically ran through Meta Ads Manager; for users in Russia, mind the legal status of Meta products.",
       ],
       lists: [
         {
           intro: "Working minimum in any account:",
           items: [
-            "clear campaign structure;",
-            "UTM or tagging;",
-            "daily/total budget;",
-            "negatives / audience exclusions;",
-            "regular stats review.",
+            "clear campaign structure",
+            "UTM or tagging",
+            "daily/total budget",
+            "negatives / audience exclusions",
+            "regular stats review",
           ],
         },
       ],
@@ -103,10 +103,10 @@ export const reklamnyyKabinetEn: BlogPost = {
         {
           intro: "Checklist after moderation:",
           items: [
-            "ads are actually delivering;",
-            "landing opens on mobile;",
-            "analytics goals fire;",
-            "budget isn’t burning on irrelevance.",
+            "ads are actually delivering",
+            "landing opens on mobile",
+            "analytics goals fire",
+            "budget isn’t burning on irrelevance",
           ],
         },
       ],
@@ -122,10 +122,10 @@ export const reklamnyyKabinetEn: BlogPost = {
         {
           intro: "Minimum prep:",
           items: [
-            "campaign goal and acceptable cost per inquiry;",
-            "analytics set up and a test conversion;",
-            "landing with a clear offer;",
-            "someone responsible for lead handling.",
+            "campaign goal and acceptable cost per inquiry",
+            "analytics set up and a test conversion",
+            "landing with a clear offer",
+            "someone responsible for lead handling",
           ],
         },
       ],
@@ -141,10 +141,10 @@ export const reklamnyyKabinetEn: BlogPost = {
         {
           intro: "Split campaigns by:",
           items: [
-            "different products or offers;",
-            "audience geography and language;",
-            "search, networks, or placement formats;",
-            "funnel stage and communication goal.",
+            "different products or offers",
+            "audience geography and language",
+            "search, networks, or placement formats",
+            "funnel stage and communication goal",
           ],
         },
       ],
@@ -160,10 +160,10 @@ export const reklamnyyKabinetEn: BlogPost = {
         {
           intro: "In a regular review include:",
           items: [
-            "spend, impressions, clicks, and conversions;",
-            "search queries or placement sites;",
-            "cost and quality of inquiries;",
-            "landing state and manager reply speed.",
+            "spend, impressions, clicks, and conversions",
+            "search queries or placement sites",
+            "cost and quality of inquiries",
+            "landing state and manager reply speed",
           ],
         },
       ],

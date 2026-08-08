@@ -9,14 +9,14 @@ export const statistikaInstagramEn: BlogPost = {
   cover: "/images/blog/statistika-instagram/cover-en.webp",
   excerpt:
     "Why Instagram statistics matter: reach, impressions, saves, audience, and Stories. How to read business-account Insights and not confuse likes with results.",
-  legalNotice: {
-    mark: "*",
-    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
-  },
   lead: [
     "Built-in Instagram statistics (Insights) show what actually works in a profile: reach, actions, audience. Without them it’s easy to chase likes and miss leads.",
-    "Menu labels change; you need a professional or business profile. We focus on what to watch on posts, Stories, and followers — informational overview only, not a call to use the platform.",
+    "Below: what to watch on posts, Stories, and followers. Menu labels change; you need a professional or business profile. Informational overview only — not a call to use the platform.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platform. Instagram* is a product of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the service may have legal consequences.",
+  },
   faq: [
     {
       q: "Why don’t I see statistics?",
@@ -50,10 +50,10 @@ export const statistikaInstagramEn: BlogPost = {
         {
           intro: "Typical Insights questions:",
           items: [
-            "which posts drive saves and replies;",
-            "whether reach grows without fake boosts;",
-            "who followers are (gender, age, cities — if available);",
-            "which time slots are livelier.",
+            "which posts drive saves and replies",
+            "whether reach grows without fake boosts",
+            "who followers are (gender, age, cities — if available)",
+            "which time slots are livelier",
           ],
         },
       ],
@@ -71,10 +71,10 @@ export const statistikaInstagramEn: BlogPost = {
         "Switch the profile to professional mode and open the statistics section in the app. Exact button labels depend on the version.",
         "Historically a Facebook link was often required — the path may differ by region now. If the item is missing, follow the wizard in account settings.",
       ],
-      lists: [],
       notes: [
         {
           title: "Tip",
+          kind: "tip",
           text: "Data on old posts before the profile-type change may be incomplete. Rely on publications after Insights are enabled.",
         },
       ],
@@ -89,10 +89,10 @@ export const statistikaInstagramEn: BlogPost = {
         {
           intro: "How to read them:",
           items: [
-            "high reach + few saves — scrolled past;",
-            "saves and replies — a strong value signal;",
-            "compare similar formats with each other;",
-            "separate ad boost from organic.",
+            "high reach + few saves — scrolled past",
+            "saves and replies — a strong value signal",
+            "compare similar formats with each other",
+            "separate ad boost from organic",
           ],
         },
       ],
@@ -104,7 +104,6 @@ export const statistikaInstagramEn: BlogPost = {
         "In Stories, replies, taps, sticker answers, and exits from the sequence matter. For Lives — peak viewers and retention, not only “how many joined at the start.”",
         "For audience (if the follower threshold allows), watch gender, age, cities, and hourly activity — then shift the posting schedule.",
       ],
-      lists: [],
       links: [
         {
           label: "Instagram Live",
@@ -127,10 +126,10 @@ export const statistikaInstagramEn: BlogPost = {
         {
           intro: "Minimum discipline:",
           items: [
-            "once a week — top and flop posts;",
-            "UTM on the bio link;",
-            "a goal in numbers (leads), not only reach;",
-            "don’t log into shady apps.",
+            "once a week — best and weakest posts",
+            "UTM on the bio link",
+            "a goal in numbers (leads), not only reach",
+            "don’t log into shady apps",
           ],
         },
       ],

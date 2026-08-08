@@ -3,20 +3,20 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for kontekst-i-seo — same structure as RU JSON. */
 export const kontekstISeoEn: BlogPost = {
   slug: "kontekst-i-seo",
-  title: "Does paid search (contextual ads) affect SEO?",
+  title: "Does paid search affect SEO?",
   date: "2019-04-24",
   category: "SEO",
   cover: "/images/blog/kontekst-i-seo/cover-en.webp",
   excerpt:
-    "There’s no direct “pay for ads — get TOP.” Myths, indirect effects (brand, data, faster hypothesis tests), and how to join paid search with organic without faking engagement.",
+    "There’s no direct “pay for ads — get page one.” Myths, indirect effects (brand, data, faster hypothesis tests), and how to join paid search with organic without faking engagement.",
   lead: [
-    "Short answer: paid search doesn’t buy organic ranks directly. Yandex and Google don’t lift a site in the “blue” SERP because you run ads.",
-    "Indirectly the channels connect: you gather demand and semantics faster, strengthen the brand, and test landings. Myths, real ties, and a way to use both channels without the illusion “ads = SEO” — and without fake-engagement schemes.",
+    "Short answer: paid search doesn’t buy organic ranks directly. Yandex and Google don’t lift a site in the organic SERP because you run ads.",
+    "Indirectly the channels connect: you gather demand and semantics faster, strengthen the brand, and test landings. Below — myths, real ties, and how to use both channels without the illusion that ads equal SEO — and without fake-engagement schemes.",
   ],
   faq: [
     {
       q: "If I pay for ads, will organic be turned off?",
-      a: "No. Paid and organic blocks live by different rules. Paying for ads doesn’t “penalize” or replace SEO.",
+      a: "No. Paid and organic blocks live by different rules. Paying for ads doesn’t penalize or replace SEO.",
     },
     {
       q: "Does Yandex Direct give a ranking advantage?",
@@ -24,32 +24,32 @@ export const kontekstISeoEn: BlogPost = {
     },
     {
       q: "What about behavioral signals from ad traffic?",
-      a: "User behavior matters for the product and analytics. Deliberately “pumping” engagement with ads for SEO is a gray zone and a risk. Ads’ goal is leads and learning — not imitating organic.",
+      a: "User behavior matters for the product and analytics. Deliberately pumping engagement with ads for SEO is a gray zone and a risk. Ads’ goal is leads and learning — not imitating organic.",
     },
     {
       q: "Does paid search help indexing?",
-      a: "Indirectly: new URLs get visits and interest signals sooner, but the canonical path is sitemap, links, Search Console / Webmaster. Don’t replace tech with ads.",
+      a: "Indirectly: new URLs get visits and interest signals sooner, but the proper path is sitemap, links, Search Console / Webmaster. Don’t replace tech with ads.",
     },
     {
       q: "Does brand awareness from ads affect SEO?",
-      a: "Yes as awareness: more brand queries and direct visits. That’s an adjacent effect, not a “commercial TOP button.”",
+      a: "Yes as awareness: more brand queries and direct visits. That’s an adjacent effect, not a commercial page-one button.",
     },
     {
       q: "Should a young site start with paid search?",
       a: "Often yes for first leads while organic builds. In parallel prep tech and the keyword set: SEO is cheaper over distance, but slower at the start.",
     },
     {
-      q: "Should I use the same keyword set in Direct and SEO?",
+      q: "Same keyword set in Direct and SEO?",
       a: "They overlap, but don’t copy blindly. Ads care about negatives and click economics; SEO — landings and intent. A shared demand vocabulary helps both.",
     },
     {
-      q: "When should I expect organic TOP if we already run ads?",
-      a: "Ads don’t shorten SEO’s planned horizon. Prep takes weeks to about a month; climbing TOP for the keyword set is planned for 2–6 months after systematic work starts.",
+      q: "When should I expect organic page one if we already run ads?",
+      a: "Ads don’t shorten SEO’s planned horizon. Prep takes weeks to about a month; core share on page one is planned for 2–6 months after systematic work starts.",
     },
   ],
   sections: [
     {
-      title: "Myths: “bought ads — bought/lost TOP”",
+      title: "Myths: “bought ads — bought/lost rankings”",
       level: 2,
       paras: [
         "Myth 1: “If you pay, you won’t get into organic.” False: blocks differ; a Direct/Ads budget doesn’t cancel the right to organic visibility.",
@@ -59,9 +59,9 @@ export const kontekstISeoEn: BlogPost = {
         {
           intro: "Remember:",
           items: [
-            "payment ≠ organic rank;",
-            "stopping ads ≠ SEO drop by itself;",
-            "site quality and demand decide more than an “advertiser checkbox.”",
+            "payment ≠ organic rank",
+            "stopping ads ≠ SEO drop by itself",
+            "site quality and demand decide more than an advertiser checkbox",
           ],
         },
       ],
@@ -71,16 +71,16 @@ export const kontekstISeoEn: BlogPost = {
       level: 2,
       paras: [
         "There’s no direct mechanism “bid → +N organic spots.” Indirectly paid search helps business and marketing: fast traffic, offer tests, collecting converting queries, awareness.",
-        "If the landing is weak, ad traffic brings bounces and expensive CPA — a signal to fix the site, not “proof” you need to fake behavior.",
+        "If the landing is weak, ad traffic brings bounces and expensive CPA — a signal to fix the site, not proof you need to fake behavior.",
       ],
       lists: [
         {
           intro: "Useful indirect effects:",
           items: [
-            "learn working keywords and negatives faster;",
-            "test headlines and the first screen;",
-            "strengthen brand and brand-query share;",
-            "cover demand while organic ramps up.",
+            "learn working keywords and negatives faster",
+            "test headlines and the first screen",
+            "strengthen brand and brand-query share",
+            "cover demand while organic ramps up",
           ],
         },
       ],
@@ -98,7 +98,7 @@ export const kontekstISeoEn: BlogPost = {
         {
           title: "Important",
           kind: "tip",
-          text: "Don’t use ads as a scheme to fake behavioral signals “for SEO.” It’s dishonest toward the rules and risky.",
+          text: "Don’t use ads as a scheme to fake behavioral signals for SEO. It’s dishonest toward the rules and risky.",
         },
       ],
     },
@@ -113,10 +113,10 @@ export const kontekstISeoEn: BlogPost = {
         {
           intro: "Channel join:",
           items: [
-            "shared keyword set + different accents;",
-            "same goals and call tracking;",
-            "ad hypotheses → SEO page fixes;",
-            "report: organic vs paid by leads.",
+            "shared keyword set + different accents",
+            "same goals and call tracking",
+            "ad hypotheses → SEO page fixes",
+            "report: organic vs paid by leads",
           ],
         },
       ],
@@ -136,7 +136,7 @@ export const kontekstISeoEn: BlogPost = {
       ],
     },
     {
-      title: "Indexing and “warming” young URLs",
+      title: "Indexing and warming young URLs",
       level: 2,
       paras: [
         "Ads can bring first people to a new URL faster than organic. That doesn’t replace a sitemap, internal links, and a recrawl request in Search Console / Webmaster.",
@@ -146,10 +146,10 @@ export const kontekstISeoEn: BlogPost = {
         {
           intro: "Parallel start:",
           items: [
-            "paid — fast leads and tests;",
-            "SEO — structure, copy, commercial signals;",
-            "don’t wait for TOP while turning ads off “on hope”;",
-            "don’t confuse click spend with a content budget.",
+            "paid — fast leads and tests",
+            "SEO — structure, copy, commercial signals",
+            "don’t wait for page one while turning ads off on hope",
+            "don’t confuse click spend with a content budget",
           ],
         },
       ],
@@ -171,10 +171,10 @@ export const kontekstISeoEn: BlogPost = {
         {
           intro: "Working model:",
           items: [
-            "test the offer in paid search;",
-            "move strong pairings into SEO;",
-            "defend the brand in ads;",
-            "monthly CPA organic vs paid review.",
+            "test the offer in paid search",
+            "move strong pairings into SEO",
+            "defend the brand in ads",
+            "monthly CPA organic vs paid review",
           ],
         },
       ],
@@ -192,7 +192,7 @@ export const kontekstISeoEn: BlogPost = {
         {
           title: "Timelines",
           kind: "tip",
-          text: "Paid search responds in days. SEO: prep takes about weeks to a month; TOP for the keyword set is planned for 2–6 months after work starts.",
+          text: "Paid search responds in days. SEO: prep takes about weeks to a month; page-one share for the core is planned for 2–6 months after work starts.",
         },
       ],
     },

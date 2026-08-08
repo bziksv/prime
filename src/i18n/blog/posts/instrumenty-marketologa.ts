@@ -8,10 +8,10 @@ export const instrumentyMarketologaEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/instrumenty-marketologa/cover-en.webp",
   excerpt:
-    "Which free (or freemium) services cover marketer jobs: competitor research, post planning, surveys, email, mention monitoring, and tasks — without promising “free forever.”",
+    "Which free (or freemium) services cover marketer jobs: competitor research, post planning, surveys, email, mention monitoring, and tasks — without promising free forever.",
   lead: [
     "A marketer’s “free stack” is usually freemium: limits, watermarks, and cut-down reports. That’s enough to start an audit, content plan, surveys, and a first newsletter.",
-    "Below is a map of task types and example tools from a 2019 roundup (SimilarWeb, Buffer, Mailchimp, and others). Pricing and names have changed — check each product’s current site before you adopt anything.",
+    "Below: task classes and example services from a 2019 roundup (SimilarWeb, Buffer, Mailchimp, and others). Pricing and names have changed — check each product’s current site before you adopt anything.",
   ],
   faq: [
     {
@@ -79,11 +79,11 @@ export const instrumentyMarketologaEn: BlogPost = {
         {
           intro: "Minimal starter set:",
           items: [
-            "analytics tag on the site;",
-            "ESP with an opt-in list;",
-            "one competitor research tool;",
-            "surveys/forms;",
-            "a team task list.",
+            "analytics tag on the site",
+            "ESP with an opt-in list",
+            "one competitor research tool",
+            "surveys/forms",
+            "a team task list",
           ],
         },
       ],
@@ -104,7 +104,7 @@ export const instrumentyMarketologaEn: BlogPost = {
     text: "2019 roundup: prices ($199 etc.), limits, and product names are outdated. The article is informational; not a call to use specific foreign platforms against law or service rules.",
   },
   closing: [
-    "Build a narrow stack for your KPIs, test free limits on a one-week pilot, and only then pay to expand — so “free tools” save budget instead of breeding subscriptions.",
+    "Build a narrow stack for your KPIs, test free limits on a one-week pilot, and only then pay to expand — so free tools save budget instead of breeding subscriptions.",
   ],
   related: [
     "email-strategiya",

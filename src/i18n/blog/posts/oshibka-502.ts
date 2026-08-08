@@ -8,39 +8,39 @@ export const oshibka502En: BlogPost = {
   category: "SEO",
   cover: "/images/blog/oshibka-502/cover-en.webp",
   excerpt:
-    "What HTTP 502 Bad Gateway means, typical causes on site and hosting, and a step-by-step diagnosis order — without panic or “magic” plugins.",
+    "What HTTP 502 Bad Gateway means, the usual causes on site and hosting, and a calm diagnosis order — without panic or “magic” plugins.",
   lead: [
-    "502 Bad Gateway means a proxy or gateway (often nginx/CDN) didn’t get a valid response from the upstream (PHP, Apache, app).",
-    "It’s not an “SEO penalty,” but a down site cuts traffic and indexing while the error persists. Below: common causes and what to check with host and logs.",
+    "502 Bad Gateway means a proxy or gateway (often nginx or a CDN) did not get a valid response from the upstream — PHP, Apache, or your app.",
+    "It is not an “SEO penalty.” A site that stays down still loses traffic and crawl while the error hangs. Below: common causes and what to check.",
   ],
   faq: [
     {
-      q: "Is a 502 error an SEO problem?",
-      a: "Indirectly: bots and users don’t see the page. Long downtime hurts. The 502 code itself is about infrastructure.",
+      q: "Is 502 an SEO problem?",
+      a: "Indirectly: bots and visitors cannot see the page. Long downtime hurts. The code itself is about infrastructure, not a ranking filter.",
     },
     {
-      q: "How does it differ from 500 and 504?",
-      a: "500 — application error. 504 — gateway timed out waiting. 502 — backend response missing or broken.",
+      q: "How is it different from 500 and 504?",
+      a: "500 is an application error. 504 means the gateway timed out waiting. 502 means the backend response was missing or broken.",
     },
     {
       q: "Can a visitor see it when I don’t?",
-      a: "Yes: local cache, another CDN POP, a brief blip. Check in incognito and via an external monitor.",
+      a: "Yes — local cache, another CDN POP, or a short blip. Check in a private window and with an external uptime check.",
     },
     {
-      q: "Does changing DNS help immediately?",
-      a: "Rarely first aid. Start with logs, backend status, PHP/worker limits.",
+      q: "Will changing DNS fix it right away?",
+      a: "Rarely as first aid. Start with logs, backend status, and PHP or worker limits.",
     },
     {
-      q: "Do you need a redirect for 502 errors?",
-      a: "No. Fix the server/app — don’t mask 502 with a redirect.",
+      q: "Should you redirect around a 502?",
+      a: "No. Fix the server or app. Do not paper over 502 with a redirect.",
     },
     {
       q: "Should you clear cache on a 502?",
-      a: "Only if you have reason to think a bad response was cached. Clearing doesn’t replace checking backend, logs, and limits.",
+      a: "Only if you have reason to think a bad response was cached. Clearing cache does not replace checking the backend, logs, and limits.",
     },
     {
-      q: "When should you contact hosting support for 502?",
-      a: "Right away if you lack server access or logs show infrastructure faults. Pass error time, URL, status code, and what you already checked.",
+      q: "When should you contact hosting support?",
+      a: "Immediately if you lack server access or logs show infrastructure faults. Send the error time, URL, status code, and what you already checked.",
     },
   ],
   sections: [
@@ -48,17 +48,17 @@ export const oshibka502En: BlogPost = {
       title: "Typical causes",
       level: 2,
       paras: [
-        "PHP-FPM or the app is down or not responding, upstream timeout expired, server overloaded, broken proxy config, CDN glitch, or SSL between proxy and backend failing.",
-        "The same page may return 502 only under load: e.g. a heavy DB query exhausts workers. So record exact time and URL — don’t stop at a screenshot of the error.",
+        "PHP-FPM or the app is down or not answering, an upstream timeout expired, the server is overloaded, the proxy config is broken, the CDN is glitching, or SSL between proxy and backend is failing.",
+        "The same page may return 502 only under load — for example a heavy database query that ties up every worker. Note the exact time and URL; a screenshot of the error page alone is not enough.",
       ],
       lists: [
         {
-          intro: "Often after:",
+          intro: "Often shows up after:",
           items: [
-            "a deploy and config change",
+            "a deploy or config change",
             "a traffic spike",
             "stuck CMS plugins",
-            "hitting hosting limits.",
+            "hitting hosting limits",
           ],
         },
       ],
@@ -67,18 +67,18 @@ export const oshibka502En: BlogPost = {
       title: "How to fix it",
       level: 2,
       paras: [
-        "Check hosting status and monitoring. Read nginx or Apache and PHP logs. Restart the PHP pool or container per procedure; disable a recently installed CMS plugin if the link to the error is confirmed.",
-        "Don’t start with random DNS, PHP-version, or dozen-of-settings thrashing. First localize the layer: CDN, web server, app, database, or external API. That way the fix doesn’t hide the cause or create a new one.",
+        "Check hosting status and your uptime monitor. Read nginx or Apache logs and PHP logs. Restart the PHP pool or container only by your usual procedure. Disable a recently installed CMS plugin if the timing lines up with the error.",
+        "Do not start by randomly changing DNS, PHP version, or a dozen settings. Localize the layer first: CDN, web server, app, database, or an external API. That way the fix does not hide the cause — or create a new one.",
       ],
       lists: [
         {
-          intro: "Order:",
+          intro: "Order of checks:",
           items: [
             "confirm 502 from outside (`curl -I`)",
-            "gateway and app logs",
-            "CPU/RAM/disk load",
+            "gateway and application logs",
+            "CPU, RAM, and disk load",
             "upstream timeouts",
-            "roll back the last change.",
+            "roll back the last change",
           ],
         },
       ],
@@ -97,16 +97,16 @@ export const oshibka502En: BlogPost = {
       title: "Prevention",
       level: 2,
       paras: [
-        "You need uptime monitoring, sane limits, staging before release, cache and queues for heavy jobs, and resource headroom.",
-        "Don’t monitor only the homepage. Include checkout, login, forms, APIs, and a few key categories: they often load the app differently than a static home.",
+        "You need uptime monitoring, sane limits, staging before release, cache and queues for heavy jobs, and some resource headroom.",
+        "Do not watch only the homepage. Include checkout, login, forms, APIs, and a few key category pages — they often stress the app differently than a static home.",
       ],
       lists: [
         {
           intro: "For the SEO team:",
           items: [
-            "alert if main URLs return 5xx",
-            "don’t confuse 502 with a search filter",
-            "after recovery — check indexing of key pages.",
+            "alert when key URLs return 5xx",
+            "do not confuse 502 with a search filter",
+            "after recovery, check indexing of important pages",
           ],
         },
       ],
@@ -115,17 +115,17 @@ export const oshibka502En: BlogPost = {
       title: "Diagnosis via logs and metrics",
       level: 2,
       paras: [
-        "In the proxy log find the request by time, URI, and request id, then match it to the app log. Messages about connect() failed, premature response, timeout, or exhausted workers point where to dig next.",
-        "Metrics help separate a one-off blip from a systemic issue. Watch CPU and memory, disk space, process count, DB response time, and request queue before, during, and after the incident.",
+        "In the proxy log, find the request by time, URI, and request id, then match it to the app log. Messages about connect() failed, premature response, timeout, or exhausted workers tell you where to dig next.",
+        "Metrics help tell a one-off blip from a systemic issue. Watch CPU and memory, disk space, process count, database response time, and the request queue before, during, and after the incident.",
       ],
       lists: [
         {
-          intro: "For a developer or host ticket prepare:",
+          intro: "Before you ping a developer or host, prepare:",
           items: [
             "exact URL and time with timezone",
             "status code and how often it repeats",
             "log snippets without passwords or tokens",
-            "list of recent releases and config changes.",
+            "list of recent releases and config changes",
           ],
         },
       ],
@@ -134,17 +134,17 @@ export const oshibka502En: BlogPost = {
       title: "What to check after recovery",
       level: 2,
       paras: [
-        "After the fix, repeat requests from outside, in a private window, and via monitoring. Make sure the error didn’t vanish on one node or in a local cache only — and that key user flows really work.",
-        "If 502 was visible to bots and visitors for long, check webmaster reports and crawl dynamics. Don’t auto-request recrawl of thousands of URLs: first confirm a stable server response.",
+        "After the fix, hit the URLs again from outside, in a private window, and via monitoring. Make sure the error did not vanish on one node or in local cache only — and that key user flows still work.",
+        "If bots and visitors saw 502 for a long stretch, check webmaster reports and crawl trends. Do not auto-request a recrawl of thousands of URLs until the server response is stable.",
       ],
       lists: [
         {
           intro: "Close the incident when:",
           items: [
-            "several checks return expected codes",
-            "load and log errors normalized",
-            "cause and actions are recorded",
-            "a clear alert is set for a repeat.",
+            "several checks return the expected codes",
+            "load and log errors look normal again",
+            "cause and actions are written down",
+            "a clear alert is set for a repeat",
           ],
         },
       ],
@@ -152,7 +152,7 @@ export const oshibka502En: BlogPost = {
         {
           title: "SEO note",
           kind: "tip",
-          text: "Fixing 502 restores crawl and UX. It isn’t a TOP shortcut: after the site is stable, ranking work for a core is still planned over 2–6 months.",
+          text: "Clearing 502 restores crawl and UX. It is not a shortcut to page one: once the site is stable, ranking work for a query core is still planned over roughly 2–6 months.",
         },
       ],
     },

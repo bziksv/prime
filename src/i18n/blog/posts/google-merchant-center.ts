@@ -11,7 +11,7 @@ export const googleMerchantCenterEn: BlogPost = {
     "How to set up an online store in Google Merchant Center: feed, site requirements, Google Ads link, and Shopping campaigns — without outdated AdWords/AdSense clicks and “always cheaper than any channel” promises.",
   lead: [
     "Google Merchant Center (GMC) is the product-data hub for Google Shopping and related ad formats. You upload a feed (XML/API), verify the site, and keep product cards current.",
-    "Getting value from it means meeting store requirements, linking Google Ads, and caring for the catalog after launch. Shopping, Performance Max, and country availability change — check current Google Help. “Always cheaper than search” is a myth: CPC depends on niche and feed quality.",
+    "Below: what you need to start, store requirements, the Google Ads link, and care after launch. Shopping, Performance Max, and country availability change — check current Google Help. “Always cheaper than search” is a myth: CPC depends on niche and feed quality.",
   ],
   faq: [
     {
@@ -28,7 +28,7 @@ export const googleMerchantCenterEn: BlogPost = {
     },
     {
       q: "Are Customer Reviews the same as Merchant Center?",
-      a: "No. Customer reviews are a separate program on top of Merchant. See the Google Customer Reviews article.",
+      a: "No. Customer reviews are a separate program layered onto Merchant. See the Google Customer Reviews article.",
     },
     {
       q: "Can you advertise any products?",
@@ -51,7 +51,7 @@ export const googleMerchantCenterEn: BlogPost = {
             "product feed (XML, Google Sheets, API — what’s supported)",
             "Merchant Center account",
             "Google Ads account linked to GMC",
-            "compliance with Shopping ad policies.",
+            "compliance with Shopping ad policies",
           ],
         },
       ],
@@ -81,15 +81,15 @@ export const googleMerchantCenterEn: BlogPost = {
             "return and shipping policy",
             "payment methods disclosed before checkout",
             "checkout works without critical errors",
-            "product cards priced = feed price.",
+            "product cards priced = feed price",
           ],
         },
       ],
       notes: [
         {
           title: "On restrictions",
-          text: "Some topics (tickets, real estate, certain financial and digital services, and more) are limited or banned for Shopping. Don’t copy a 2018 list — open current Google Help on restricted products.",
           kind: "tip",
+          text: "Some topics (tickets, real estate, certain financial and digital services, and more) are limited or banned for Shopping. Don’t copy a 2018 list — open current Google Help on restricted products.",
         },
       ],
       links: [
@@ -119,7 +119,7 @@ export const googleMerchantCenterEn: BlogPost = {
             "connect the feed source",
             "fix diagnostic errors",
             "link Google Ads",
-            "launch a Shopping / Performance Max campaign.",
+            "launch a Shopping / Performance Max campaign",
           ],
         },
       ],
@@ -154,9 +154,9 @@ export const googleMerchantCenterEn: BlogPost = {
           intro: "Weekly minimum:",
           items: [
             "feed errors and warnings",
-            "top spend without conversions",
+            "highest spend without conversions",
             "price/availability mismatches",
-            "new SKUs in the feed before ads.",
+            "new SKUs in the feed before ads",
           ],
         },
       ],

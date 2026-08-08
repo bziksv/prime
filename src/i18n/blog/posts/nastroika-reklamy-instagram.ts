@@ -11,15 +11,19 @@ export const nastroikaReklamyInstagramEn: BlogPost = {
     "How to run Instagram ads from Meta Ads Manager: account linking, campaign goal, Instagram-only placements, budget, and testing — without outdated 2020 bid screenshots.",
   lead: [
     "Serious Instagram targeting usually runs from a Meta ad account (historically “via Facebook”): goals, audiences, Feed/Stories/Reels placements, and optimization. That’s broader than the in-app Promote button.",
-    "Before you click Create: prepare the account link, pick one clear goal, limit delivery to Instagram when that’s the job, and set a test budget with a review date. Menu labels change — check Meta Business Help. See the Meta notice on this page.",
+    "Below: launch logic — what to prepare, how to pick a goal and limit delivery to Instagram, what to watch in budget. Menu labels change; check Meta Help. Disclaimer is on the page.",
   ],
+  legalNotice: {
+    title: "Note",
+    text: "This article is informational and does not encourage use of the platforms. Instagram* and Facebook* are products of Meta Platforms Inc.; in the Russian Federation Meta’s activity is recognized as extremist, and use of the services may have legal consequences.",
+  },
   faq: [
     {
       q: "How is this different from in-app Promote?",
       a: "Promote is a quick post boost. Meta Ads offers more goals, audiences, placements, and control. For a campaign system — use Ads Manager.",
     },
     {
-      q: "Is a Facebook profile required to run ads?",
+      q: "Is a Facebook profile required?",
       a: "You need access to Business Manager / a Meta ad account and a link to Instagram. The exact path is through Accounts Center; details in Help.",
     },
     {
@@ -51,7 +55,7 @@ export const nastroikaReklamyInstagramEn: BlogPost = {
             "one test goal",
             "1–2 strong creatives",
             "an audience or interest hypothesis",
-            "budget limit and review date.",
+            "budget limit and review date",
           ],
         },
       ],
@@ -78,9 +82,7 @@ export const nastroikaReklamyInstagramEn: BlogPost = {
         {
           kind: "tip",
           title: "Important",
-          paras: [
-            "Old bid-strategy names (“bid cap / cost cap” from 2020 guides) have moved. Use current cost-control modes in Ads Manager, not screenshots from an article.",
-          ],
+          text: "Old bid-strategy names (“bid cap / cost cap” from 2020 guides) have moved. Use current cost-control modes in Ads Manager, not screenshots from an article.",
         },
       ],
     },

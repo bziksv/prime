@@ -3,15 +3,15 @@ import type { BlogPost } from "../../../data/blog";
 /** EN overlay for napolnenie-sayta — same structure as RU JSON. */
 export const napolnenieSaytaEn: BlogPost = {
   slug: "napolnenie-sayta",
-  title: "Site content: unique materials and publishing rules",
+  title: "How to fill a site with content: unique material and publishing rules",
   date: "2020-10-19",
   category: "Content marketing",
   cover: "/images/blog/napolnenie-sayta/cover-en.webp",
   excerpt:
-    "How to pick topics and formats, borrow ideas from competitors, build a content plan, write a brief, and publish regularly — without auto-fill scrapers and copy-paste.",
+    "How to pick topics and formats, study competitors for ideas, build a content plan, write a brief, and publish on a steady rhythm — without auto-fill scrapers or copy-paste.",
   lead: [
-    "An empty or thin site holds people poorly and barely builds useful search URLs. Content work isn’t “write 50 articles in a week” — it’s a system: niche, audience, idea sources, plan, brief, and publishing rhythm.",
-    "This piece walks from topic to go-live: how to gather ideas, brief writers, and publish without stuffing. The content calendar as a table and scraper auto-fill are covered separately.",
+    "An empty or thin site holds people poorly and barely builds useful URLs in search. Filling a site isn’t “write 50 articles in a week” — it’s a system: niche, audience, idea sources, plan, brief, and publishing rhythm.",
+    "Below: a practical path from topic to go-live. The content plan as a table and scraper auto-fill are covered separately; here — how to give the site real meaning. The old WP slug with “open-graph” was a mislabel: this is about content, not OG tags.",
   ],
   faq: [
     {
@@ -35,16 +35,16 @@ export const napolnenieSaytaEn: BlogPost = {
       a: "A rhythm you can hold for 2–3 months. One strong piece a week beats daily thin spam.",
     },
     {
-      q: "Do you need images and video too?",
-      a: "Yes if they add meaning: diagrams, product photos, short clips. Stock clichés with no context barely help.",
+      q: "Do you need images and video?",
+      a: "Yes if they add meaning: diagrams, product photos, short clips. Generic filler images with no context barely help.",
     },
     {
       q: "Who should write: in-house or a copywriter?",
       a: "Expertise inside plus edit/copy outside against a brief. Without a brief, “pretty text” often misses semantics and the offer.",
     },
     {
-      q: "When is there enough content to stop?",
-      a: "When commercial clusters and support pages (FAQ, how-tos) are covered. Then — updates and new demand, not endless volume for its own sake. Ranking growth still takes planned months after prep — not a publish count.",
+      q: "When is there enough content?",
+      a: "When commercial clusters and support pages (FAQ, how-tos) are covered. Then — updates and new demand, not endless volume for its own sake.",
     },
   ],
   sections: [
@@ -63,7 +63,7 @@ export const napolnenieSaytaEn: BlogPost = {
             "3–5 audience segments",
             "required pages",
             "formats (article, card, video, checklist)",
-            "what we never publish (off-limits topics).",
+            "what we never publish (off-limits topics)",
           ],
         },
       ],
@@ -88,14 +88,14 @@ export const napolnenieSaytaEn: BlogPost = {
             "topics with traffic or visibility",
             "gaps (they have it — you don’t)",
             "weak pages you can beat",
-            "presentation formats that work in the niche.",
+            "presentation formats that work in the niche",
           ],
         },
       ],
       notes: [
         {
-          title: "Common mistake",
           kind: "tip",
+          title: "Common mistake",
           text: "Collecting 200 “everyone has this” topics with no tie to clusters and commercial goals. You get a draft graveyard.",
         },
       ],
@@ -120,7 +120,7 @@ export const napolnenieSaytaEn: BlogPost = {
             "finish commercial landings",
             "5–10 demand-led articles",
             "internal links between them",
-            "refresh About and contacts.",
+            "refresh About and contacts",
           ],
         },
       ],
@@ -146,7 +146,7 @@ export const napolnenieSaytaEn: BlogPost = {
             "what must not be invented",
             "competitors as orientation — don’t copy",
             "where the CTA goes",
-            "deadline and delivery format.",
+            "deadline and delivery format",
           ],
         },
       ],
@@ -162,7 +162,7 @@ export const napolnenieSaytaEn: BlogPost = {
       level: 2,
       paras: [
         "Text without visuals on commercial pages is often weaker: work photos, process diagrams, comparison tables, short video. User content (reviews, cases, Q&A) is a strong trust layer if you moderate and format it.",
-        "Don’t replace meaning with stock and clickbait. Keep one style for blog covers and illustrations — own or AI-made assets, not random stock.",
+        "Don’t replace meaning with generic filler and clickbait. Keep one style for blog covers and illustrations.",
       ],
       lists: [
         {
@@ -171,7 +171,7 @@ export const napolnenieSaytaEn: BlogPost = {
             "1 main visual that matches meaning",
             "captions for complex blocks",
             "alt text on important images",
-            "no heavy unoptimized files.",
+            "no heavy unoptimized files",
           ],
         },
       ],
@@ -180,7 +180,7 @@ export const napolnenieSaytaEn: BlogPost = {
       title: "Publishing rules and an example",
       level: 2,
       paras: [
-        "Before go-live: title/description, clean URL, internal links, indexability, share preview, mobile check. After — monitor positions and bounce, and schedule updates.",
+        "Before go-live: title/description, clean URL, internal links, indexability, share preview, mobile check. After — monitor rankings and bounce, and schedule updates.",
         "Example logic for a niche store (flowers, etc.): categories and cards → “how to choose” guides → seasonal picks → delivery FAQ. Rhythm: cards in batches with assortment; expert pieces on a demand calendar.",
       ],
       lists: [
@@ -191,14 +191,14 @@ export const napolnenieSaytaEn: BlogPost = {
             "uniqueness OK",
             "links to commercial pages",
             "no duplicate URL",
-            "planned publish date met.",
+            "planned publish date met",
           ],
         },
       ],
       notes: [
         {
-          title: "Practice",
           kind: "tip",
+          title: "Practice",
           text: "Publishing without semantics and structure is content for content’s sake. Topic map first, then volume.",
         },
       ],

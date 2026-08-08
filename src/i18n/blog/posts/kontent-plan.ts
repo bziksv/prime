@@ -8,68 +8,68 @@ export const kontentPlanEn: BlogPost = {
   category: "Content marketing",
   cover: "/images/blog/kontent-plan/cover-en.webp",
   excerpt:
-    "What a content plan is and how it differs from an editorial and media plan. Algorithm: formats, topics, semantics, categories, schedule, and headlines.",
+    "What a content plan is, how it differs from an editorial calendar and a media plan, and a clear build process: formats, topics, keywords, categories, schedule, and headlines.",
   lead: [
-    "A content plan is a table or calendar: what, where, and when you publish. Without it a site, blog, and social channels slide into chaos or long silence.",
-    "Terms, why you need a plan, and a step-by-step build process are below. Instagram has a separate guide with feed mix ratios; this is a general frame for the site and channels.",
+    "A content plan is your publishing calendar: what goes out, where, and when. Without one, a site, blog, and social channels drift into silence — or random posts with no thread.",
+    "Below: the terms, why the plan exists, and a step-by-step way to build it. Instagram has its own guide with feed mix ratios; this piece is the general frame for the website and other channels.",
   ],
   faq: [
     {
       q: "How is a content plan different from an editorial plan?",
-      a: "They’re close: a queue of pieces with deadlines. “Editorial” is more media language; “content plan” is more business and blogs.",
+      a: "They’re close cousins: a queue of pieces with deadlines. “Editorial plan” is more newsroom language; “content plan” is what most businesses and blogs call it.",
     },
     {
       q: "Is a media plan the same thing?",
-      a: "No. A media plan is usually about ad campaigns and impression budgets — not an editorial article feed.",
+      a: "No. A media plan maps ad campaigns and budgets. A content plan maps the editorial feed — articles, posts, video, email.",
     },
     {
       q: "Where should we keep the plan?",
-      a: "Sheets/Excel, Notion, Trello, a calendar — whatever the team uses. Key: one source of truth and clear access.",
+      a: "Sheets, Notion, Trello, a shared calendar — whatever the team will actually open. One source of truth and clear access matter more than the tool.",
     },
     {
-      q: "Do I need keyword research in a site content plan?",
-      a: "Yes if the goal is search: topics in clusters, one strong piece per cluster, no stuffing.",
+      q: "Do site content plans need keyword research?",
+      a: "Yes if search is a goal: group topics into clusters, write one strong piece per cluster, and skip stuffing.",
     },
     {
       q: "How far ahead should I plan?",
-      a: "Beginners — 2–4 weeks. Then a month with a backlog of ideas. A rigid quarter makes sense when production is stable.",
+      a: "Start with 2–4 weeks. Then stretch to a month with a backlog of ideas. A rigid quarter only helps once production is stable.",
     },
   ],
   sections: [
     {
-      title: "Terms: content plan, editorial, media plan",
+      title: "Content plan vs editorial plan vs media plan",
       level: 2,
       paras: [
-        "A content plan is a publishing schedule for the project goal: articles, posts, video, email. An editorial plan is the same for a publication. A media plan is more a map of advertising activity.",
-        "A site and a magazine have different owners and roles, but the logic is one: you know in advance what goes live and who’s accountable.",
+        "A content plan is the publishing schedule for your project goals — articles, posts, video, newsletters. An editorial plan is the same idea inside a publication. A media plan is mostly advertising activity and spend.",
+        "A company blog and a magazine have different owners and roles, but the logic is the same: you know what’s going live and who’s accountable before the day starts.",
       ],
       lists: [
         {
-          intro: "A plan usually records:",
+          intro: "A useful plan usually tracks:",
           items: [
-            "topic and format;",
-            "channel (site, VK, blog, YouTube…);",
-            "date/slot;",
-            "owner;",
-            "status and draft link.",
+            "topic and format",
+            "channel (site, VK, blog, YouTube…)",
+            "date or slot",
+            "owner",
+            "status and a link to the draft",
           ],
         },
       ],
     },
     {
-      title: "Why you need a content plan",
+      title: "Why bother with a content plan",
       level: 2,
       paras: [
-        "It removes daily panic about “what to post,” steadies cadence, helps the team and freelancers work from a brief, and makes internal linking and series easier.",
+        "It kills the daily “what do we post?” scramble, steadies your cadence, gives freelancers a real brief, and makes series and internal linking much easier to run.",
       ],
       lists: [
         {
-          intro: "Benefits:",
+          intro: "What you gain:",
           items: [
-            "cadence instead of chaos;",
-            "one concept and categories;",
-            "idea backlog in one place;",
-            "easier to see what worked.",
+            "steady rhythm instead of chaos",
+            "one concept and clear categories",
+            "an idea backlog in one place",
+            "an easier read on what actually worked",
           ],
         },
       ],
@@ -81,22 +81,22 @@ export const kontentPlanEn: BlogPost = {
       ],
     },
     {
-      title: "How to build it",
+      title: "How to build the plan",
       level: 2,
       paras: [
-        "First goal and audience, then formats and topics, then keyword research (for the site), categories, schedule, and headlines.",
+        "Start with goal and audience. Then lock formats and topics. For the website, layer in keyword research. After that: categories, schedule, and headlines.",
       ],
       lists: [
         {
           intro: "Steps:",
           items: [
-            "pick content types (text, reviews, how-tos, comparisons, cases, video);",
-            "lock tone and length;",
-            "gather topics: audience, forums, customer questions, brainstorm;",
-            "for SEO — keyword clusters, one text ≈ one cluster;",
-            "sort into categories;",
-            "set dates and owners;",
-            "draft working headlines without fake clickbait.",
+            "choose content types (guides, reviews, how-tos, comparisons, case studies, video)",
+            "set tone and length",
+            "gather topics from your audience, forums, support questions, and brainstorms",
+            "for SEO — keyword clusters; roughly one strong piece per cluster",
+            "sort into categories",
+            "assign dates and owners",
+            "draft working headlines without fake clickbait",
           ],
         },
       ],
@@ -112,32 +112,32 @@ export const kontentPlanEn: BlogPost = {
       ],
       notes: [
         {
-          title: "Practice",
-          text: "Keep 5–7 evergreen topics in reserve. A slot slips — you shift, you don’t abandon the channel for two weeks.",
+          title: "Practice tip",
+          text: "Keep 5–7 evergreen topics in reserve. If a slot slips, you reschedule — you don’t go dark for two weeks.",
         },
       ],
     },
     {
-      title: "Where to keep it and how not to quit",
+      title: "Where to run it — and how not to abandon it",
       level: 2,
       paras: [
-        "A spreadsheet is handy with colors and filters; paper works for a tiny team. Updating statuses beats a “perfect” template.",
+        "A spreadsheet is great for filters and color coding; paper still works for a tiny team. Updating statuses beats hunting for a “perfect” template you’ll never open again.",
       ],
       lists: [
         {
-          intro: "Signs of a living plan:",
+          intro: "Signs the plan is alive:",
           items: [
-            "statuses are current;",
-            "there’s a process owner;",
-            "periodic review: what landed;",
-            "categories don’t turn into wall-to-wall selling.",
+            "statuses stay current",
+            "someone owns the process",
+            "you review what landed on a regular cadence",
+            "categories don’t turn into wall-to-wall selling",
           ],
         },
       ],
     },
   ],
   closing: [
-    "Open the plan two weeks ahead: if topics don’t fit your stage matrix — close strategy gaps first, then dates.",
+    "Open the plan two weeks ahead. If the topics don’t fit your stage or strategy matrix, fix those gaps first — then lock the dates.",
   ],
   related: [
     "matritsa-kontenta",

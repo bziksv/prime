@@ -11,7 +11,7 @@ export const vstavkaJavascriptEn: BlogPost = {
     "Where to place JS snippets: head and body, WordPress, sites without an admin panel, and builders. How to avoid breaking layout or installing the same script twice — with counters and widgets as examples.",
   lead: [
     "Counters, chats, pixels, and widgets almost always arrive as a JavaScript snippet. Your job is to place the code where it loads on the right pages, avoid duplicates, and make sure cached HTML still includes the script.",
-    "Know what the snippet looks like, where to put it in WordPress and builders, how to edit a template without a panel, and what to verify after insertion. Yandex Metrica installation is covered separately; this article covers the general principle.",
+    "Below: what the snippet looks like, where to put it in WordPress and builders, how to edit a template without a panel, and what to verify after insertion. Yandex Metrica installation is covered separately; this article covers the general principle.",
   ],
   faq: [
     {
@@ -44,7 +44,7 @@ export const vstavkaJavascriptEn: BlogPost = {
     },
     {
       q: "I added a script — will that boost SEO?",
-      a: "Adding JS alone doesn't raise rankings. A counter is for analytics; growth comes from content, technical work, and demand — usually over months (plan on 2–6 months for core rankings after prep).",
+      a: "Adding JS alone doesn’t move search visibility. A counter is for analytics; growth comes from content, technical work, and demand — often a 2–6 month horizon for page-one progress after prep.",
     },
   ],
   sections: [

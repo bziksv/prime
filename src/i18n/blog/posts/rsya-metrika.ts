@@ -8,10 +8,10 @@ export const rsyaMetrikaEn: BlogPost = {
   category: "Digital marketing",
   cover: "/images/blog/rsya-metrika/cover-en.webp",
   excerpt:
-    "Yandex Advertising Network (YAN) revenue in Metrica: why publishers watch income and ad views, which metrics exist, and how to connect reports — without outdated 2018 account screenshots.",
+    "Yandex Advertising Network (YAN) revenue in Metrica: why publishers watch income and ad views, which metrics matter, and how to connect reports — without outdated 2018 account screenshots.",
   lead: [
-    "If your site is in the Yandex Advertising Network (YAN / РСЯ) as a publisher, Metrica can show more than visits: ad revenue, block performance, and cuts by source and device.",
-    "We cover what the reports mean for a publisher and how to connect them. Menu names and metric sets change—check current Yandex Help. This article is about publisher revenue analytics, not buying ads in Yandex Direct.",
+    "If your site is in the Yandex Advertising Network (YAN) as a publisher, Metrica can show more than visits: ad revenue, block performance, and cuts by source and device.",
+    "Below: what the reports mean for a publisher and the connection logic. Menu names and metric sets change — check current Yandex Help. This piece is about publisher revenue analytics, not buying ads in Yandex Direct.",
   ],
   faq: [
     {
@@ -52,18 +52,18 @@ export const rsyaMetrikaEn: BlogPost = {
       title: "Why link YAN + Metrica",
       level: 2,
       paras: [
-        "The YAN partner account shows money. Metrica shows behavior. Together you see which traffic feeds revenue and which pages are “empty” on ads despite a good audience.",
-        "That makes it easier to decide where to strengthen units, where not to overload with ads, and which sources bring valuable vs “empty” views.",
+        "The YAN partner account shows money. Metrica shows behavior. Together you see which traffic feeds revenue and which pages are empty on ads despite a good audience.",
+        "That makes it easier to decide where to strengthen units, where not to overload with ads, and which sources bring valuable vs empty views.",
       ],
       lists: [
         {
           intro: "Typical cuts:",
           items: [
-            "revenue and ad views;",
-            "pages and sections;",
-            "devices and geo;",
-            "traffic sources/channels;",
-            "ad density vs interest in content.",
+            "revenue and ad views",
+            "pages and sections",
+            "devices and geo",
+            "traffic sources / channels",
+            "ad density vs interest in content",
           ],
         },
       ],
@@ -77,11 +77,11 @@ export const rsyaMetrikaEn: BlogPost = {
         "ARPU and similar per-user metrics help compare sections and seasonality.",
         "Check the exact field glossary in Help: Yandex renamed and expanded reports since 2018.",
       ],
-      lists: [],
       notes: [
         {
           title: "Don’t memorize 2018 screenshots",
-          text: "The “checkbox in site settings” path may have changed. Look up the current revenue-transfer scenario in Metrica/YAN Help.",
+          kind: "tip",
+          text: "The “checkbox in site settings” path may have changed. Look up the current revenue-transfer scenario in Metrica / YAN Help.",
         },
       ],
     },
@@ -95,7 +95,6 @@ export const rsyaMetrikaEn: BlogPost = {
         "Set access rights to financial reports (don’t show revenue to every editor).",
         "Confirm data appears in reports after stats accumulate — not in a minute.",
       ],
-      lists: [],
       links: [
         {
           label: "Installing Metrica",
@@ -115,7 +114,6 @@ export const rsyaMetrikaEn: BlogPost = {
         "High revenue with falling depth — maybe ad overload; balance UX and money.",
         "Check season and layout changes: a new template often breaks unit rendering.",
       ],
-      lists: [],
       links: [
         {
           label: "Yandex Video Network",
@@ -124,14 +122,13 @@ export const rsyaMetrikaEn: BlogPost = {
       ],
     },
     {
-      title: "Key takeaways",
+      title: "What to remember",
       level: 2,
       paras: [
         "YAN revenue in Metrica is publisher reports, not a Direct advertiser account.",
         "You need a YAN partnership, matched counters, and current Help for connection.",
         "Read revenue next to audience so monetization doesn’t kill UX.",
       ],
-      lists: [],
     },
   ],
   closing: [

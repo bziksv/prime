@@ -11,7 +11,7 @@ export const vebPrilozhenieEn: BlogPost = {
     "What a web app is, how it differs from a showcase site, how the browser–server chain works, and when business needs an account, cart, or SPA — not only a landing page.",
   lead: [
     "A web application is a program in the browser: the user doesn’t only read pages — they act: search, fill forms, buy, work in an account. Data lives on the server; the UI opens by URL.",
-    "A brochure site is almost static; a store, browser CRM, or personal account already behaves like an app — state, roles, operations. This isn’t a framework-picking guide or a substitute for a development brief.",
+    "Below: how it differs from a simple site, static vs dynamic, interface types, and typical business scenarios. This isn’t a framework-picking guide or a substitute for a development brief.",
   ],
   faq: [
     {
@@ -28,7 +28,7 @@ export const vebPrilozhenieEn: BlogPost = {
     },
     {
       q: "Is Ajax required?",
-      a: "Not as a “2010s brand”, but as an idea: load data without redrawing the whole page. Today the same is done with fetch/API and modern frameworks.",
+      a: "Not as a 2010s brand, but as an idea: load data without redrawing the whole page. Today the same is done with fetch/API and modern frameworks.",
     },
     {
       q: "When is a landing page enough?",
@@ -36,7 +36,7 @@ export const vebPrilozhenieEn: BlogPost = {
     },
     {
       q: "Does this affect SEO?",
-      a: "Yes: indexable URLs, speed, SSR/prerender when needed matter. A “pretty account” with no public landings doesn’t deliver TOP by itself — commercial visibility is planned for 2–6 months after promotion starts.",
+      a: "Yes: indexable URLs, speed, SSR/prerender when needed matter. A pretty account with no public landings doesn’t deliver page-one visibility by itself.",
     },
     {
       q: "Where should I start when buying development?",
@@ -48,17 +48,17 @@ export const vebPrilozhenieEn: BlogPost = {
       title: "What makes a web application",
       level: 2,
       paras: [
-        "Logic is split between server and browser: the server stores and calculates; the client shows the UI and takes input. The user works through a browser — without installing a “thick” client in most cases.",
+        "Logic is split between server and browser: the server stores and calculates; the client shows the UI and takes input. The user works through a browser — without installing a thick client in most cases.",
         "A static page is served almost the same to everyone. A dynamic one is built for the request, session, cart, or role: after login a person sees their data, not a shared showcase.",
       ],
       lists: [
         {
           intro: "App signals:",
           items: [
-            "actions with a result (order, save, calculate);",
-            "user state (session, cart, permissions);",
-            "talk with the server and often external APIs;",
-            "UI reacts to input, not only shows text.",
+            "actions with a result (order, save, calculate)",
+            "user state (session, cart, permissions)",
+            "talk with the server and often external APIs",
+            "UI reacts to input, not only shows text",
           ],
         },
       ],
@@ -73,7 +73,7 @@ export const vebPrilozhenieEn: BlogPost = {
       title: "The technical side without framework dogma",
       level: 2,
       paras: [
-        "Browser and server can run on different OSes and languages — a web plus. What matters isn’t “which framework is trendy”, but contracts: API, security, response speed, clear errors.",
+        "Browser and server can run on different OSes and languages — a web plus. What matters isn’t which framework is trendy, but contracts: API, security, response speed, clear errors.",
         "Partial UI updates (once often called Ajax) cut needless reloads. On SPAs watch analytics and reachable URLs: otherwise counters/goals and SEO break on client-side navigation.",
       ],
       links: [
@@ -93,11 +93,11 @@ export const vebPrilozhenieEn: BlogPost = {
         {
           intro: "Examples:",
           items: [
-            "online store with payment and order statuses;",
-            "service personal account or B2B portal;",
-            "CRM/accounting in the browser;",
-            "online booking, calculators, estimate builders;",
-            "site admin as a separate application.",
+            "online store with payment and order statuses",
+            "service personal account or B2B portal",
+            "CRM/accounting in the browser",
+            "online booking, calculators, estimate builders",
+            "site admin as a separate application",
           ],
         },
       ],

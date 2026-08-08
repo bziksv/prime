@@ -5,13 +5,13 @@ export const verstkaSaytovEn: BlogPost = {
   slug: "verstka-saytov",
   title: "Website front-end layout: what it is, stages, and quality bars",
   date: "2022-01-17",
-  category: "Digital marketing",
+  category: "SEO",
   cover: "/images/blog/verstka-saytov/cover-en.webp",
   excerpt:
     "What a front-end layout engineer does: from mockup to live page. Stages, HTML/CSS, responsive design, QA, and the SEO connection.",
   lead: [
     "Layout turns a design mockup into a working web page: HTML sets structure, CSS sets appearance, and JS adds behavior when you need it.",
-    "The layout engineer sits in the copy → design → code chain: semantics, CSS, responsive behavior, and an acceptance checklist. Full-page table layouts as the default are history.",
+    "Below: the layout engineer’s role in the copy → design → code chain, a modern process, and an acceptance checklist. Full-page table layouts as the default are history.",
   ],
   faq: [
     {
@@ -47,10 +47,10 @@ export const verstkaSaytovEn: BlogPost = {
         {
           intro: "What the business gets:",
           items: [
-            "pages that match the approved design;",
-            "responsive behavior on phone and desktop;",
-            "code you can maintain;",
-            "a base for CMS and SEO structure.",
+            "pages that match the approved design",
+            "responsive behavior on phone and desktop",
+            "code you can maintain",
+            "a base for CMS and SEO structure",
           ],
         },
       ],
@@ -71,18 +71,19 @@ export const verstkaSaytovEn: BlogPost = {
         {
           intro: "Typical order:",
           items: [
-            "break down the mockup and guideline;",
-            "export images and icons;",
-            "build HTML structure (semantics);",
-            "add CSS from general to specific;",
-            "add necessary JS;",
-            "check in browsers and on devices.",
+            "break down the mockup and guideline",
+            "export images and icons",
+            "build HTML structure (semantics)",
+            "add CSS from general to specific",
+            "add necessary JS",
+            "check in browsers and on devices",
           ],
         },
       ],
       notes: [
         {
           title: "Common mistake",
+          kind: "tip",
           text: "Laying out “as you go” without a mobile mockup. Most traffic is phones; bake responsive in from the start.",
         },
       ],
@@ -98,11 +99,11 @@ export const verstkaSaytovEn: BlogPost = {
         {
           intro: "Good habits:",
           items: [
-            "one H1 per page by meaning;",
-            "lists via ul/ol, not “paragraphs with bullet images”;",
-            "meaningful image alt text;",
-            "buttons and links that are easy to tell apart;",
-            "don’t duplicate huge inline styles.",
+            "one H1 per page by meaning",
+            "lists via ul/ol, not “paragraphs with bullet images”",
+            "meaningful image alt text",
+            "buttons and links that are easy to tell apart",
+            "don’t duplicate huge inline styles",
           ],
         },
       ],
@@ -117,13 +118,13 @@ export const verstkaSaytovEn: BlogPost = {
         {
           intro: "Acceptance:",
           items: [
-            "match the mockup within tolerance;",
-            "correct look in current browsers;",
-            "mobile version without pointless horizontal scroll;",
-            "no critical console errors;",
-            "indexable text, not trapped in an image;",
-            "images with sizes and optimization;",
-            "clear code structure for the next developer.",
+            "match the mockup within tolerance",
+            "correct look in current browsers",
+            "mobile version without pointless horizontal scroll",
+            "no critical console errors",
+            "indexable text, not trapped in an image",
+            "images with sizes and optimization",
+            "clear code structure for the next developer",
           ],
         },
       ],
@@ -150,10 +151,10 @@ export const verstkaSaytovEn: BlogPost = {
         {
           intro: "Minimum to start:",
           items: [
-            "a solid editor with highlighting;",
-            "Chrome/Firefox DevTools;",
-            "checks on a real phone;",
-            "control over image weight.",
+            "a solid editor with highlighting",
+            "Chrome/Firefox DevTools",
+            "checks on a real phone",
+            "control over image weight",
           ],
         },
       ],
@@ -168,9 +169,9 @@ export const verstkaSaytovEn: BlogPost = {
         {
           intro: "Useful for a layout engineer to understand:",
           items: [
-            "where key CTAs lead;",
-            "how URL structure and templates work;",
-            "what not to break in header/footer for analytics.",
+            "where key CTAs lead",
+            "how URL structure and templates work",
+            "what not to break in header/footer for analytics",
           ],
         },
       ],

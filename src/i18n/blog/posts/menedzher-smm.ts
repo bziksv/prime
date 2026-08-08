@@ -11,7 +11,7 @@ export const menedzherSmmEn: BlogPost = {
     "What an SMM manager does: strategy, content, audience growth, communication, analytics. Skills you need and how to enter the profession.",
   lead: [
     "An SMM manager isn’t only “posts on a schedule.” It’s a mix of strategy, content, ads, audience communication, and reporting — tied to business goals, not vanity likes.",
-    "A typical task set, useful traits, pros and cons, and practical ways into the role are covered here. Platform UIs change — learn the process, not which button sits where.",
+    "Below: a typical task set, useful traits, pros and cons, and practical ways into the role. Platform UIs change — learn the process, not which button sits where.",
   ],
   faq: [
     {
@@ -23,7 +23,7 @@ export const menedzherSmmEn: BlogPost = {
       a: "In practice — yes, at least to brief campaigns and read reports. In small teams they often run ad accounts themselves.",
     },
     {
-      q: "Can I work remotely as an SMM manager?",
+      q: "Can I work remotely?",
       a: "Yes, remote work is common. The downside is competition and having to sell your services yourself if you’re freelance.",
     },
     {
@@ -32,7 +32,7 @@ export const menedzherSmmEn: BlogPost = {
     },
     {
       q: "Which metrics matter first?",
-      a: "Not only reach and followers: saves, replies, clicks, leads/requests, cost per inquiry, conversation quality.",
+      a: "Not only impressions and followers: saves, replies, clicks, leads/requests, cost per inquiry, conversation quality.",
     },
   ],
   sections: [
@@ -43,7 +43,6 @@ export const menedzherSmmEn: BlogPost = {
         "A specialist in social media marketing: builds brand presence so the audience understands the offer, trusts it, and takes target actions — click, request, purchase, visit.",
         "In an agency the role is narrower; on the client side people often combine content, paid social, and community. Spell out the responsibility zone in the brief early.",
       ],
-      lists: [],
     },
     {
       title: "Core duties",
@@ -87,6 +86,7 @@ export const menedzherSmmEn: BlogPost = {
         {
           title: "Common mistake",
           text: "Starting with avatar design before a goal and offer. A pretty grid without a clear “why follow” rarely turns into leads.",
+          kind: "tip",
         },
       ],
     },
@@ -131,7 +131,8 @@ export const menedzherSmmEn: BlogPost = {
       notes: [
         {
           title: "Important",
-          text: "Buying followers and reactions hurts reach and trust. A smaller but live audience is better.",
+          text: "Buying followers and reactions hurts discovery and trust. A smaller but live audience is better.",
+          kind: "tip",
         },
       ],
     },
@@ -170,7 +171,7 @@ export const menedzherSmmEn: BlogPost = {
         {
           intro: "A report usually includes:",
           items: [
-            "reach and engagement trends",
+            "impressions and engagement trends",
             "ad campaign results",
             "leads/clicks if tracking exists",
             "hypotheses for the next sprint",

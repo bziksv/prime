@@ -11,7 +11,7 @@ export const smsRassylkaEn: BlogPost = {
     "How to launch SMS: channel jobs, your own list and consent, picking an operator/aggregator, short copy, frequency, opt-out, and measurement — without cold spam to bought numbers.",
   lead: [
     "SMS arrives fast: one phone, and messages are often read almost immediately. That’s why the channel is strong for reminders, order statuses, and short offers — and just as easily turns into annoying spam.",
-    "We cover why SMS sits next to email, which jobs it covers, how to choose a send platform, and the launch stages. Cold lists without consent aren’t a strategy—that’s a path to blocks, complaints, and reputation damage.",
+    "Below: why SMS sits next to email, which jobs it covers, how to choose a send platform, and the launch stages. Cold lists without consent aren’t a strategy — that’s a path to blocks, complaints, and reputation damage.",
   ],
   faq: [
     {
@@ -51,10 +51,10 @@ export const smsRassylkaEn: BlogPost = {
         {
           intro: "Strengths:",
           items: [
-            "high chance of being read;",
-            "fast reaction;",
-            "company name instead of a “stranger” number (when set up);",
-            "strong for service triggers.",
+            "high chance of being read",
+            "fast reaction",
+            "company name instead of a “stranger” number (when set up)",
+            "strong for service triggers",
           ],
         },
       ],
@@ -70,11 +70,11 @@ export const smsRassylkaEn: BlogPost = {
         {
           intro: "Typical scenarios:",
           items: [
-            "abandoned booking / order;",
-            "visit reminder;",
-            "personal discount tied to a date;",
-            "service warning;",
-            "short feedback after a service.",
+            "abandoned booking / order",
+            "visit reminder",
+            "personal discount tied to a date",
+            "service warning",
+            "short feedback after a service",
           ],
         },
       ],
@@ -95,8 +95,8 @@ export const smsRassylkaEn: BlogPost = {
       notes: [
         {
           title: "Important",
-          text: "Bought lists and “blast the whole country” without consent are not a starting strategy. Build the list from your own customers and forms with a consent checkbox.",
           kind: "tip",
+          text: "Bought lists and “blast the whole country” without consent are not a starting strategy. Build the list from your own customers and forms with a consent checkbox.",
         },
       ],
     },
@@ -111,12 +111,12 @@ export const smsRassylkaEn: BlogPost = {
         {
           intro: "Order:",
           items: [
-            "goal and KPI;",
-            "segment and consent;",
-            "copy + sender name;",
-            "test on your own numbers;",
-            "send and review metrics;",
-            "opt-out button/command.",
+            "goal and KPI",
+            "segment and consent",
+            "copy + sender name",
+            "test on your own numbers",
+            "send and review metrics",
+            "opt-out button/command",
           ],
         },
       ],

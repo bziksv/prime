@@ -5,33 +5,33 @@ export const modxLocalEn: BlogPost = {
   slug: "modx-local",
   title: "Installing MODX Revolution on a local server",
   date: "2018-02-14",
-  category: "Hosting",
+  category: "Websites",
   cover: "/images/blog/modx-local/cover-en.webp",
   excerpt:
     "How to install MODX Revolution locally: the package, virtual host, MySQL database, and setup wizard — using OSPanel/Open Server as an example, without outdated “no more than 5000 pages” limits.",
   lead: [
     "A local MODX Revolution install lets you build the site on your computer before hosting: edit templates, chunks, and snippets without risking the live domain.",
-    "General order: download the package, unpack into the local server folder, create a DB, and run `/setup`. OSPanel/Open Server click paths differ by version — use current docs.",
+    "Below: the general order — download the package, unpack into the local server folder, create a DB, and run `/setup`. OSPanel/Open Server clicks and MODX wizard labels change — check current docs; the steps stay the same.",
   ],
   faq: [
     {
-      q: "How does the Traditional package differ from the others?",
+      q: "How does Traditional differ from other packages?",
       a: "Historically Traditional was a normal site install; Advanced/SDK — special scenarios and package development. Check current names and contents on the MODX download page.",
     },
     {
-      q: "Is Open Server / OSPanel required for local MODX?",
+      q: "Is Open Server required?",
       a: "No. OSPanel, XAMPP, Laravel Herd, Docker, etc. work. You need PHP, a web server, and MySQL/MariaDB versions matching your MODX.",
     },
     {
-      q: "Where is the MODX admin panel after install?",
+      q: "Where is the admin after install?",
       a: "Usually `/manager`. Delete the `setup` folder after a successful install.",
     },
     {
-      q: "Is it true that MODX is limited to “no more than 5000 pages”?",
+      q: "Is MODX limited to “no more than 5000 pages”?",
       a: "Old reviews wrote that — it’s not a hard CMS law. Limits depend on hosting, cache, and architecture. For heavy e-commerce look at the stack and load, not a myth from a 2018 guide.",
     },
     {
-      q: "Is an empty root password in phpMyAdmin okay for local work?",
+      q: "Is an empty root password in phpMyAdmin okay?",
       a: "Only on an isolated local stack by default in some builds. Never on production.",
     },
   ],
@@ -50,7 +50,7 @@ export const modxLocalEn: BlogPost = {
             "free open-source engine",
             "flexible templates and chunks",
             "easy to learn before deploy",
-            "same order as on hosting: files + DB + setup.",
+            "same order as on hosting: files + DB + setup",
           ],
         },
       ],
@@ -79,7 +79,7 @@ export const modxLocalEn: BlogPost = {
             "PHP and extensions match your MODX version requirements",
             "write permissions on needed directories",
             "a stub/files open at `http://modx.local/`",
-            "antivirus isn’t blocking unpack.",
+            "antivirus isn’t blocking unpack",
           ],
         },
       ],
@@ -109,7 +109,7 @@ export const modxLocalEn: BlogPost = {
       tables: [
         {
           caption: "Wizard fields (meaning)",
-          headers: ["Field", "Compass"],
+          headers: ["Field", "Guide"],
           rows: [
             ["DB type", "mysql / mariadb by stack"],
             ["DB server", "localhost or 127.0.0.1"],
