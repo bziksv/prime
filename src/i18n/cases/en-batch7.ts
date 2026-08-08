@@ -9,23 +9,23 @@ export const caseTranslationsEnBatch7: Record<string, Partial<CaseStudy>> = {
     title: "LorMag online store",
     client: "LorMag",
     industry: "ENT equipment",
-    location: "Russia",
+    location: "Nationwide",
     period: "support · Bitrix",
     metric: "~1,600",
     metricLabel: "SKUs in the catalog",
     summary:
-      "We run an ENT-equipment store on Bitrix (enext): ~1,600 SKUs, personal-cabinet SEF URLs, image registry, git deploy. Live — lormag.ru.",
+      "We run an ENT-equipment store on Bitrix (enext): ~1,600 SKUs, account SEF URLs, image registry, git deploy. Live at lormag.ru.",
     coverAlt: "LorMag store homepage — ENT equipment",
     services: ["Bitrix", "E-commerce", "UX", "Support"],
     intro:
-      "LorMag is an online store of otorhinolaryngology equipment for clinics and cabinets: ~1,600 SKUs, ~200 sections, KaWe/Riester otoscopes, ENT units, audiometers, delivery. Platform — Bitrix, enext theme (altop.enext). We support the storefront, catalog, and personal cabinet.",
+      "LorMag is an online store of otorhinolaryngology equipment for clinics and practices: ~1,600 SKUs, ~200 sections, KaWe/Riester otoscopes, ENT units, audiometers, delivery. Platform — Bitrix, enext theme (altop.enext). We support the storefront, catalog, and buyer account.",
     painLead:
-      "A narrow B2B Bitrix catalog: deep ENT section tree, quote requests, city picker, and a stable personal cabinet — otherwise clinics never reach order and purchase history.",
+      "A narrow B2B Bitrix catalog: deep ENT section tree, quote requests, city picker, and a stable buyer account — otherwise clinics never reach order and purchase history.",
     challenge:
-      "Keep a living ENT-equipment store: catalog and cards for clinics, cabinet SEF, media audit, and predictable git deploy — without rewriting the shop.",
+      "Keep a living ENT-equipment store: catalog and cards for clinics, account SEF, media audit, and predictable git deploy — without rewriting the shop.",
     pains: [
       {
-        title: "Personal cabinet SEF URLs",
+        title: "Account SEF URLs",
         text: "/personal/orders/ and profile returned 404 without urlrewrite rules — buyers couldn’t see orders.",
       },
       {
@@ -33,23 +33,23 @@ export const caseTranslationsEnBatch7: Record<string, Partial<CaseStudy>> = {
         text: "Need an image registry from uploads/infoblocks: where a file is used, link, Excel export for audit.",
       },
       {
-        title: "Catalog for an ENT cabinet",
+        title: "Catalog for an ENT practice",
         text: "Otoscopes, units, audiometry — deep tree and a “request a quote” path next to retail price.",
       },
     ],
     journeyLead:
-      "We support on top of enext: fixed cabinet SEF, added an image registry and deploy docs, keep the storefront running without downtime.",
+      "We support on top of enext: fixed account SEF, added an image registry and deploy docs, keep the storefront running without downtime.",
     approach: [
       "ENT catalog: otoscopes, units, audiometers, tools — filters, grid, KaWe/Riester brands and more",
       "Card: gallery, specs, buy / request a quote, delivery by city",
-      "Personal cabinet: SEF urlrewrite for /personal/order/ and /personal/",
+      "Buyer account: SEF urlrewrite for /personal/order/ and /personal/",
       "Image registry (tools/site-images.php) with name/SKU search and Excel",
       "Git-first: docs, local soft-dev, prod deploy only on request",
       "City picker, offers, partial-phrase search",
     ],
     plainSpeak: [
       {
-        jargon: "Personal cabinet SEF",
+        jargon: "Account SEF",
         plain:
           "Orders and profile open on normal URLs, not 404.",
       },
@@ -61,12 +61,12 @@ export const caseTranslationsEnBatch7: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "Request a quote",
         plain:
-          "For cabinet kits or wholesale — a request to the manager, not only a “buy” button.",
+          "For practice kits or wholesale — a request to the manager, not only a “buy” button.",
       },
       {
         jargon: "enext on Bitrix",
         plain:
-          "A ready store theme: catalog, cart, cabinet — we adapt it for the ENT niche instead of building from scratch.",
+          "A ready store theme: catalog, cart, account — we adapt it for the ENT niche instead of building from scratch.",
       },
     ],
     sections: [
@@ -77,7 +77,7 @@ export const caseTranslationsEnBatch7: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Otoscope catalog",
-        body: "Section with filter and grid: KaWe, Riester, and more. SEO copy + personal recommendations.",
+        body: "Section with filter and grid: KaWe, Riester, and more. SEO copy plus personal recommendations.",
         image: "/images/cases/lormag/catalog.webp",
       },
       {
@@ -105,42 +105,42 @@ export const caseTranslationsEnBatch7: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "A living ENT-equipment store on Bitrix enext: ~1,600 SKUs, stable cabinet and storefront, media registry. Site: lormag.ru.",
+      "A living ENT-equipment store on Bitrix enext: ~1,600 SKUs, stable account and storefront, media registry. Site: lormag.ru.",
     highlights: [
       "ENT store · ~1,600 products · ~200 sections",
       "Bitrix enext · KaWe · Riester · units · audiometry",
       "Buy and quote request · city picker · delivery",
-      "Personal cabinet SEF · image registry",
+      "Account SEF · image registry",
       "Git support · docs and soft-local",
       "Live lormag.ru",
     ],
     results: [
       { label: "Products", value: "~1,600" },
       { label: "Platform", value: "Bitrix" },
-      { label: "Focus", value: "catalog + cabinet" },
+      { label: "Focus", value: "catalog + account" },
       { label: "Site", value: "live" },
     ],
     ctaTitle: "Need a medical-equipment store or enext improvements?",
     ctaText:
-      "We’ll build the catalog and cabinet for clinics — like LorMag.",
+      "We’ll shape the catalog and account for clinics — the same way we did for LorMag.",
   },
 
   medplakaty: {
     title: "Medplakaty online store",
     client: "Medplakaty",
     industry: "Medical and educational posters",
-    location: "Russia",
+    location: "Nationwide",
     period: "support · Bitrix",
     metric: "~470",
     metricLabel: "SKUs in the catalog",
     summary:
-      "We run a medical and educational poster store on Bitrix: ~470 SKUs, slider and homepage, PHP 8 fix, CSS/JS versioning. Live — medplakaty.ru.",
+      "We run a medical and educational poster store on Bitrix: ~470 SKUs, slider and homepage, PHP 8 fix, CSS/JS versioning. Live at medplakaty.ru.",
     coverAlt: "Medplakaty store homepage",
     services: ["Bitrix", "E-commerce", "UX", "Support"],
     intro:
       "Medplakaty is an online store of medical and educational posters: anatomy, healthy living, infections, first aid, learning alphabets; delivery and a toll-free line. Platform — Bitrix, medical-templates theme. We support the storefront, catalog, and deploys.",
     painLead:
-      "A niche print catalog on Bitrix: the slider and homepage “drift” after CSS edits, the catalog crashes on PHP 8, and the browser keeps old styles — the storefront looks broken for schools and clinics.",
+      "A niche print catalog on Bitrix: the slider and homepage drift after CSS edits, the catalog crashes on PHP 8, and the browser keeps old styles — the storefront looks broken for schools and clinics.",
     challenge:
       "Stabilize a living poster store: homepage and slider, catalog with material/format variants, predictable git deploy — without rewriting the shop.",
     pains: [
@@ -154,11 +154,11 @@ export const caseTranslationsEnBatch7: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Asset cache",
-        text: "After deploy the browser pulled an old CSS/JS bundle — the slider “broke” again for some clients.",
+        text: "After deploy the browser pulled an old CSS/JS bundle — the slider broke again for some clients.",
       },
     ],
     journeyLead:
-      "We support medical-templates: fixed the slider and PHP 8, filled popular categories, versioned assets, and set up soft-local + deploy.",
+      "We support medical-templates: fixed the slider and PHP 8, filled popular categories, versioned assets, and set up soft-local plus deploy.",
     approach: [
       "Catalog: anatomy, healthy living, pathologies, educational posters, health bulletin — section tree and cards",
       "Card: paper/canvas and A1+/A2+ format variants, price, Buy",
@@ -242,7 +242,7 @@ export const caseTranslationsEnBatch7: Record<string, Partial<CaseStudy>> = {
     ],
     ctaTitle: "Need a print catalog store or Bitrix improvements?",
     ctaText:
-      "We’ll build a variant-aware catalog and a stable storefront — like Medplakaty.",
+      "We’ll build a variant-aware catalog and a stable storefront — the same way we did for Medplakaty.",
   },
 
   doskivrn: {
@@ -254,23 +254,23 @@ export const caseTranslationsEnBatch7: Record<string, Partial<CaseStudy>> = {
     metric: "calculator",
     metricLabel: "volume and cost per m³",
     summary:
-      "We built the Veles yard site (doskivrn.ru): board and timber catalog, price list, online m³ calculator, and a manager request. SEO for the same yard — pilomaterialov case.",
+      "We built the Veles yard site (doskivrn.ru): board and timber catalog, price list, online m³ calculator, and a manager request. SEO for the same yard — see the pilomaterialov case.",
     coverAlt: "Veles site — lumber in Voronezh",
     services: ["Site from scratch", "Catalog", "Calculator", "CTA", "Support"],
     intro:
       "Veles is a lumber yard in Voronezh: edged and planed board, timber, lining, OSB, plywood. www.doskivrn.ru is custom PHP + Smarty: catalog, price list, cubature calculator, and online request. Search promotion — separate pilomaterialov case.",
     painLead:
-      "Without their own site there’s nowhere to send search and ad traffic: price list in Excel, m³ calculated by a manager on the phone, no landings for “board / timber”.",
+      "Without their own site there’s nowhere to send search and ad traffic: price list in Excel, m³ calculated by a manager on the phone, no landings for board or timber.",
     challenge:
       "Build a working resource for buyers: catalog tree, prices, volume/cost calculator, and a request form — on a simple stack the client can run in the admin.",
     pains: [
       {
         title: "No storefront for SEO and requests",
-        text: "Competitors are already in the SERP. Without a site and landings for the assortment there’s nowhere to send search traffic.",
+        text: "Competitors already show up in search. Without a site and landings for the assortment, there’s nowhere to send traffic.",
       },
       {
         title: "m³ calculated by hand",
-        text: "Width × length × thickness × quantity — the manager uses a pocket calculator; the client wants to estimate budget themselves.",
+        text: "Width × length × thickness × quantity — the manager uses a pocket calculator; the buyer wants to estimate budget themselves.",
       },
       {
         title: "Price list and catalog drift",
@@ -291,7 +291,7 @@ export const caseTranslationsEnBatch7: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "m³ calculator",
         plain:
-          "The client sets sizes and quantity — the site calculates cubature and an approximate total, without a “please calculate on paper” call.",
+          "The buyer sets sizes and quantity — the site calculates cubature and an approximate total, without a “please calculate on paper” call.",
       },
       {
         jargon: "Assortment landings",
@@ -345,7 +345,7 @@ export const caseTranslationsEnBatch7: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "A living Veles yard site: catalog, price list, m³ calculator, and requests. Live — www.doskivrn.ru. Search results — in the pilomaterialov case.",
+      "A living Veles yard site: catalog, price list, m³ calculator, and requests. Live at www.doskivrn.ru. Search results — in the pilomaterialov case.",
     highlights: [
       "Veles lumber yard site · Voronezh",
       "Board/timber catalog · price list · ~30 landings",
@@ -362,6 +362,6 @@ export const caseTranslationsEnBatch7: Record<string, Partial<CaseStudy>> = {
     ],
     ctaTitle: "Need a building-materials yard site with a calculator?",
     ctaText:
-      "We’ll build the catalog, price list, and m³ calc — like Veles.",
+      "We’ll build the catalog, price list, and m³ calc — the same way we did for Veles.",
   },
 };

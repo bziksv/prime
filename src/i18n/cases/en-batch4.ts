@@ -10,12 +10,12 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
     title: "Almamed online store — ongoing improvements",
     client: "Almamed",
     industry: "Medical equipment",
-    location: "Russia",
+    location: "Nationwide",
     period: "since 2021 · ongoing",
     metric: "LCP 2.1s",
     metricLabel: "mobile homepage · PageSpeed field",
     summary:
-      "Since 2021 we run the Webasyst store: catalog UX and path to order, homepage upgrades (banner, trust blocks), then a large 2026 speed pool — search, N+1, cache, and Core Web Vitals.",
+      "Since 2021 we’ve run the Webasyst store: catalog UX and path to order, homepage upgrades, then a large 2026 speed pool — search, N+1, cache, and Core Web Vitals.",
     coverAlt: "almamed.su homepage — live view",
     services: ["Improvements", "E-commerce", "UX", "Performance"],
     before: {
@@ -24,34 +24,34 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
       caption: "Before: stock “Good deal” template",
     },
     intro:
-      "Almamed supplies medical equipment nationwide: direct contracts with manufacturers and a wide range. Site on Webasyst: first we rebuilt template UX and the main storefront, then — as the catalog grew — we fixed search lag, listing weight, and Google metrics.",
+      "Almamed supplies medical equipment nationwide — direct manufacturer contracts and a wide range. The site runs on Webasyst. First we rebuilt template UX and the main storefront; as the catalog grew we fixed search lag, listing weight, and Google metrics.",
     painLead:
-      "Two stages. First the client came with “the store exists, but buyers get lost”: silent product cards, weak search, important buttons buried in the template, homepage not selling trust. Later, as assortment and traffic grew, a second pain appeared — heavy pages: catalog and search took seconds, brands loaded half a megabyte of HTML, PageSpeed went red on LCP/CLS/TTFB.",
+      "Two stages. First: “the store exists, but buyers get lost” — quiet product cards, weak search, important buttons buried in the template, a homepage that didn’t sell trust. Later, as assortment and traffic grew: heavy pages. Catalog and search took seconds, brands dumped half a megabyte of HTML, and PageSpeed went red on LCP, CLS, and TTFB.",
     challenge:
-      "First — uninformative cards, template chaos, and a weak homepage. Then — N+1 in the catalog, heavy SearchPro, a huge brands page, and Core Web Vitals drop.",
+      "First — thin cards, template chaos, and a weak homepage. Then — N+1 in the catalog, heavy SearchPro, a giant brands page, and Core Web Vitals in the red.",
     pains: [
       {
         title: "Card and catalog don’t sell",
-        text: "No SKU, weak specs, awkward filters — hard to compare medical-equipment models.",
+        text: "No SKU, thin specs, awkward filters — hard to compare medical-equipment models.",
       },
       {
         title: "Homepage doesn’t hold attention",
-        text: "The banner “jumped” on load; trust and assortment blocks didn’t cover the B2B “understand first, then buy” path.",
+        text: "The banner jumped on load; trust and assortment blocks didn’t cover the B2B path — understand first, then buy.",
       },
       {
         title: "Search and metrics on fire",
-        text: "SearchPro slowed the storefront, brands returned hundreds of KB of HTML, LCP/CLS/TTFB hit SEO and ads.",
+        text: "SearchPro slowed the storefront, brands returned hundreds of KB of HTML, and LCP/CLS/TTFB hurt SEO and ads.",
       },
     ],
     journeyLead:
-      "First we fixed the path to order and the homepage storefront. When the store “learned to sell”, we took on speed: a 30+ task checklist, SearchPro rewrite, and live PageSpeed measurements — without stopping the storefront.",
+      "First we fixed the path to order and the homepage. Once the store could sell, we took on speed: a 30+ task checklist, a SearchPro rewrite, and live PageSpeed measurements — without taking the storefront down.",
     approach: [
       "Stage 1 · UX: path search → card → cart → delivery",
       "Rebuilt header, cards, filters, delivery, and catalog backend",
       "Upgraded the homepage: banner slider, trust blocks, popular products",
       "Stage 2 · speed (2026): N+1, SearchPro, brands, sitemap, fonts, CLS/LCP",
       "Removed extra SQL in product lists, SEO names, and subcategories",
-      "Rewrote SearchPro from inside: zero-cost field, suggest/page cache",
+      "Rewrote SearchPro from the inside: zero-cost field, suggest/page cache",
       "Pagination on /brands/ (was ~547 KB HTML on one screen)",
       "Slider FOUC, retina banners, deferred chat widgets — still ongoing",
     ],
@@ -59,12 +59,12 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "Path-to-order UX",
         plain:
-          "Not “pretty buttons” — how many steps to “buy” without hunting for a phone in the template.",
+          "Not pretty buttons — how many steps to “buy” without hunting for a phone in the template.",
       },
       {
         jargon: "Banner FOUC / retina srcset",
         plain:
-          "The homepage slider used to flash and load everywhere. Now — homepage only, first frame immediately, Retina images without blur.",
+          "The homepage slider used to flash and load everywhere. Now it loads on the homepage only, first frame right away, Retina images without blur.",
       },
       {
         jargon: "N+1 in the catalog",
@@ -79,23 +79,23 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "LCP / CLS / TTFB",
         plain:
-          "Three Google numbers: how fast main content shows, whether layout jumps, how fast the server answers. On the homepage LCP and CLS are in the green.",
+          "Three Google numbers: how fast main content shows, whether the layout jumps, how fast the server answers. On the homepage LCP and CLS are in the green.",
       },
     ],
     sections: [
       {
         title: "Homepage that sells the storefront",
-        body: "Live homepage: header with search and cart, banner slider without a “stack” on load, trust block (since 2020, 300+ clinics, 18,000+ SKUs) and popular products. Retina banners and height reserve — so it doesn’t jump on mobile.",
+        body: "Live homepage: header with search and cart, banner slider without stacking on load, trust block (since 2020, 300+ clinics, 18,000+ SKUs) and popular products. Retina banners and height reserve so it doesn’t jump on mobile.",
         image: "/images/cases/almamed/2026-home.webp",
       },
       {
         title: "Header and menu — everything at hand",
-        body: "Phone, cabinet, cart, search, and delivery always available. Buyers don’t hunt for “where to click”.",
+        body: "Phone, account, cart, search, and delivery stay available. Buyers don’t hunt for where to click.",
         image: "/images/cases/almamed/almamed.su_-2.webp",
       },
       {
         title: "Catalog and filters",
-        body: "Subcategories, quick brand filters, sort and view modes. Lists sped up: removed N+1 and added lazy previews.",
+        body: "Subcategories, quick brand filters, sort and view modes. Lists sped up: we removed N+1 and added lazy previews.",
         image: "/images/cases/almamed/2026-category.webp",
       },
       {
@@ -105,7 +105,7 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Search that doesn’t slow the storefront",
-        body: "SearchPro rewritten from inside. Category field is almost free for the server. Suggest and search page — cached. On mobile — one field instance.",
+        body: "SearchPro rewritten from the inside. The category field is almost free for the server. Suggest and the search page are cached. On mobile — one field instance.",
         image: "/images/cases/almamed/2026-search.webp",
       },
       {
@@ -133,7 +133,7 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "First the store became usable: path to order, clear homepage, cards and delivery. Then — fast: search, catalog, and Google metrics stopped being the bottleneck. Fresh screenshots — from live almamed.su after the 2026 pool.",
+      "First the store became usable: path to order, a clear homepage, cards and delivery. Then it got fast — search, catalog, and Google metrics stopped being the bottleneck. Screenshots are from live almamed.su after the 2026 pool.",
     highlights: [
       "UX since 2021: header, cards, filters, delivery, backend",
       "Homepage: slider without FOUC, retina banners, trust blocks",
@@ -150,9 +150,9 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
       { label: "Brands HTML", value: "−70%" },
       { label: "Status", value: "ongoing" },
     ],
-    ctaTitle: "Need an online store or improvements?",
+    ctaTitle: "Need store improvements — UX or speed?",
     ctaText:
-      "We’ll rebuild the catalog, homepage, and path to order — and if the store is already heavy, we’ll tackle speed as systematically as we did for Almamed.",
+      "We’ll rebuild the catalog, homepage, and path to order — and if the store is already heavy, we’ll tackle speed the same way we did for Almamed.",
   },
 
   polimer: {
@@ -164,7 +164,7 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
     metric: "10+ yrs",
     metricLabel: "together · since 2015",
     summary:
-      "Since 2015 we run Polimer: first traffic and inquiries from search, in 2021 — a large Bitrix catalog upgrade, then ongoing storefront support.",
+      "We’ve worked with Polimer since 2015: first traffic and inquiries from search, in 2021 a large Bitrix catalog upgrade, then ongoing storefront support.",
     coverAlt: "polimer-vrn.ru homepage — live view",
     services: ["SEO", "Improvements", "Bitrix", "UX"],
     before: {
@@ -173,29 +173,29 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
       caption: "Before: catalog without proper filtering",
     },
     intro:
-      "Polimer is a large wholesale and retail plumbing and building-materials business in Voronezh and the region. With us since 2014–2015: we started with SEO (separate case), then took the Bitrix store — catalog UX and ongoing support.",
+      "Polimer is a large wholesale and retail plumbing and building-materials business in Voronezh and the region. With us since 2014–2015: we started with SEO (separate case), then took on the Bitrix store — catalog UX and ongoing support.",
     painLead:
-      "A long story. First they needed visibility in a competitive niche — clients from search, not only word of mouth. Later the store itself: a live storefront without proper selection — no filters, silent cards, a slow site. When the catalog and branches grew, a third need appeared — keep Bitrix healthy year after year.",
+      "A long arc. First they needed visibility in a competitive niche — clients from search, not only word of mouth. Then the store itself: a live storefront without real selection — no filters, quiet cards, a slow site. When the catalog and branches grew, a third need appeared: keep Bitrix healthy year after year.",
     challenge:
-      "Not a one-off “turnkey site”, but a long loop: first inquiries from search, then a working catalog and support without changing vendors every two years.",
+      "Not a one-off turnkey site, but a long loop: first inquiries from search, then a working catalog and support without changing vendors every two years.",
     pains: [
       {
         title: "Competitive search",
-        text: "Plumbing and building materials are a high-frequency niche. Without systematic SEO you don’t grow SERP demand.",
+        text: "Plumbing and building materials are a high-volume niche. Without systematic SEO you don’t grow demand from search.",
       },
       {
         title: "No filters and weak cards",
-        text: "With a large assortment, without selection and warehouse/brand data buyers call or go to a competitor.",
+        text: "With a large assortment, without selection and warehouse/brand data, buyers call or go to a competitor.",
       },
       {
         title: "The store must keep moving",
-        text: "After the 2021 release, catalog, menu, payment, and mobile can’t “freeze” — or you fall behind demand again.",
+        text: "After the 2021 release, catalog, menu, payment, and mobile can’t freeze — or you fall behind demand again.",
       },
     ],
     journeyLead:
-      "Since 2015 — promotion and inquiries. In 2021 — rebuilt the purchase path: filters, cards, cart, payment, delivery. We stay on Bitrix support: V6 menu, mobile, properties, payment pages.",
+      "Since 2015 — search and inquiries. In 2021 — rebuilt the purchase path: filters, cards, cart, payment, delivery. We stay on Bitrix support: V6 menu, mobile, properties, payment pages.",
     approach: [
-      "Since 2015 · SEO: core, rankings, client flow from search",
+      "Since 2015 · SEO: keyword set, rankings, client flow from search",
       "2021 · Store UX: more cards in listings, hover highlight",
       "Built filters and quick jumps between sections",
       "Strengthened the card: code, brand, stock, compare, one-click buy",
@@ -227,7 +227,7 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "10+ years of support",
         plain:
-          "Not “ship and disappear”. Since 2015 nearby: first search, then the store, then daily improvements — one vendor, one history.",
+          "Not ship-and-disappear. Since 2015 we’ve stayed close: first search, then the store, then steady improvements — one vendor, one history.",
       },
     ],
     sections: [
@@ -238,7 +238,7 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Filters the catalog can’t live without",
-        body: "The main pain was selection. We built filters and quick section jumps — so a large assortment doesn’t drown in a feed.",
+        body: "The main pain was selection. We built filters and quick section jumps so a large assortment doesn’t drown in a feed.",
         image: "/images/cases/polimer/filters-1.webp",
       },
       {
@@ -305,7 +305,7 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
     ],
     ctaTitle: "Need a vendor for years, not one release?",
     ctaText:
-      "Like with Polimer: first results in search and on the site, then calm support without changing teams every two years.",
+      "Like with Polimer: first results in search and on the site, then steady support without changing teams every two years.",
   },
 
   torgmag: {
@@ -323,14 +323,14 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
     before: {
       src: "/images/cases/torgmag/face-before.webp",
       alt: "Storefront before modernization",
-      caption: "Before: custom CMS and top menu",
+      caption: "Before: custom CMS and header menu",
     },
     intro:
       "TorgMag supplies warehouse and trade equipment in the Black Earth region: racking, refrigeration, furniture, POS. Two major stages with us: first search and inquiries, then migrating the store to Bitrix.",
     painLead:
       "In 2016 the client came with an audit of another SEO studio: big invoices and almost zero result. The site was Ruby on Rails with a custom admin — weak content, indexing holes, and downtime. By 2023 the same custom stack blocked sales: assortment didn’t fit the menu, orders weren’t handled, payment and delivery couldn’t be chosen.",
     challenge:
-      "Not a “new site from scratch”, but two linked stories: pull demand from search on a crooked platform, then calmly move catalog and sales to Bitrix without losing assortment.",
+      "Not a new site from scratch, but two linked stories: grow demand from search on a crooked platform, then calmly move catalog and sales to Bitrix without losing assortment.",
     pains: [
       {
         title: "SEO without a base",
@@ -342,25 +342,25 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Menu and checkout",
-        text: "A large catalog didn’t fit the top menu. Checkout was a short form without payment and delivery choice.",
+        text: "A large catalog didn’t fit the header menu. Checkout was a short form without payment and delivery choice.",
       },
     ],
     journeyLead:
-      "2016: audit of prior work → our SEO on 473 phrases. 2023: move to Bitrix — left catalog menu with icons, proper catalog admin, cart, cabinet, payment, and delivery.",
+      "2016: audit of prior work → our SEO on 473 phrases. 2023: move to Bitrix — left catalog menu with icons, proper catalog admin, cart, account, payment, and delivery.",
     approach: [
       "2016 · Independent audit of the previous SEO studio and start of promotion with us",
-      "Built a 473-query core — the client approved all of it",
+      "Built a 473-query keyword set — the client approved all of it",
       "Optimization from scratch: meta, content, articles, CTAs, usability",
       "2023 · Decision to leave the custom CMS for Bitrix",
       "Left catalog menu + deeper category tree and icons",
       "Admin: orders, invoices, stock, product cloning, front-side edits",
-      "Cart, personal cabinet, payment, delivery services, mailings",
+      "Cart, personal account, payment, delivery services, mailings",
     ],
     plainSpeak: [
       {
         jargon: "Custom CMS on Ruby on Rails",
         plain:
-          "Built “for themselves” without a proper store admin. Looks fine on paper; painful to edit products and orders every day.",
+          "Built for themselves without a proper store admin. Looks fine on paper; painful to edit products and orders every day.",
       },
       {
         jargon: "Migration to Bitrix",
@@ -370,12 +370,12 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "Left catalog menu",
         plain:
-          "Full assortment on the left with icons, not crushed into a top strip — buyers immediately see racking, refrigeration, furniture.",
+          "Full assortment on the left with icons, not crushed into a header strip — buyers immediately see racking, refrigeration, furniture.",
       },
       {
         jargon: "473 phrases · ≈80 inquiries",
         plain:
-          "Promotion started in 13 days. The core held only working queries; about 80 search inquiries came in per month.",
+          "SEO work started in 13 days. The keyword set held only working queries; about 80 search inquiries came in per month.",
       },
     ],
     sections: [
@@ -390,7 +390,7 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
         image: "/images/cases/torgmag/2026-catalog.webp",
       },
       {
-        title: "Before: top menu and custom CMS",
+        title: "Before: header menu and custom CMS",
         body: "Assortment didn’t fit the header; checkout looked weak vs competitors. The admin couldn’t properly clone products or run orders.",
         image: "/images/cases/torgmag/before-menu.webp",
       },
@@ -423,23 +423,23 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
       },
       {
         src: "/images/cases/torgmag/lk.webp",
-        alt: "Personal cabinet",
-        caption: "Cabinet: order status",
+        alt: "Personal account",
+        caption: "Account: order status",
       },
       {
         src: "/images/cases/torgmag/seo-pos.webp",
         alt: "Rankings on 473 phrases",
-        caption: "SEO 2016: core rankings",
+        caption: "SEO 2016: keyword rankings",
       },
     ],
     outcomeLead:
-      "In 2016 we pulled demand from search after another studio: 473 phrases, ≈80 inquiries per month. In 2023 the store moved to Bitrix — catalog, orders, and checkout work like normal B2B retail.",
+      "In 2016 we rebuilt search demand after another studio: 473 phrases, about 80 inquiries per month. In 2023 the store moved to Bitrix — catalog, orders, and checkout work like normal B2B retail.",
     highlights: [
       "SEO 2016: work started in 13 days",
       "473 key phrases · ≈80 inquiries per month",
-      "Before us: 32 phrases in TOP, ~2 inquiries — after auditing the prior studio",
+      "Before us: 32 phrases ranking · ~2 inquiries — after auditing the prior studio",
       "2023: migration from custom CMS (Ruby on Rails) to Bitrix",
-      "Left menu, deeper categories, icons, cart, and cabinet",
+      "Left menu, deeper categories, icons, cart, and account",
       "Live torgmagvrn.ru",
     ],
     results: [
@@ -448,7 +448,7 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
       { label: "Inquiries", value: "≈80/mo" },
       { label: "Platform", value: "Bitrix" },
     ],
-    ctaTitle: "Custom CMS blocking sales, and search not pulling?",
+    ctaTitle: "Custom CMS blocking sales — and search stalled?",
     ctaText:
       "Like with TorgMag: first we’ll map what’s broken in traffic and the admin, then move the store to a platform the team can actually run.",
   },

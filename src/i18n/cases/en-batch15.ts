@@ -13,51 +13,51 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
     location: "Voronezh / Black Earth region",
     period: "since 2016",
     metric: "186",
-    metricLabel: "phrases in the SEO core",
+    metricLabel: "phrases in the SEO keyword set",
     summary:
-      "SEO for a metal trader in a tough niche: 186 phrases, prep ~1 month, TOP planned 2–6 months. First 2 months — ~112 visits/day, 68 orders, and 7 wholesale clients. New site — separate case.",
+      "SEO for a metal trader in a tough niche: 186 phrases, prep ~1 month, page one planned 2–6 months. First 2 months — ~112 visits/day, 68 orders, and 7 wholesale clients. New site — separate case.",
     coverAlt: "metplus-vrn.ru — steel products catalog",
     services: ["SEO", "Content", "CTA", "Analytics"],
     intro:
       "Metallinvest is a metal trader in the Black Earth region: pipe, sheet, rebar, wholesale and retail. In 2016 they came for search in a niche where both offline and the SERP are a hard fight for the client. Later we rebuilt the whole site — a separate development case.",
     painLead:
-      "Steel products compete both in the warehouse and in TOP-10. Before us — zero phrases in TOP, no organic, no web orders. The client wanted maximum channels: profit and brand. We settled on 186 of the most effective queries from a large core draft.",
+      "Steel products compete both in the warehouse and on page one of search. Before us — zero ranking phrases, no organic, no web orders. The client wanted maximum channels: profit and brand. We settled on 186 of the most effective queries from a large keyword draft.",
     challenge:
-      "In ~1 month prepare SEO in a competitive B2B niche: semantics, copy, CTAs, analytics. Climbing into TOP-10 — planned over 2–6 months; early search orders already in the first months of ranking growth.",
+      "In ~1 month prepare SEO in a competitive B2B niche: keyword research, copy, CTAs, analytics. Page-one growth — planned over 2–6 months; early search orders already in the first months of ranking growth.",
     pains: [
       {
         title: "Tough SERP competition",
-        text: "Offline and online fight for steel in the region. Without a core, content, and CTAs the site never reaches a request.",
+        text: "Offline and online fight for steel in the region. Without a keyword set, content, and CTAs the site never reaches a request.",
       },
       {
         title: "Zero visibility",
-        text: "0 queries in TOP, visits and web orders = 0. Need prep from scratch.",
+        text: "Zero ranking queries, visits and web orders = 0. Need prep from scratch.",
       },
       {
         title: "Not “traffic for traffic’s sake”",
-        text: "Goal — clients and wholesale from search, plus brand recognition. So a demand-driven core and CTAs on the site.",
+        text: "Goal — clients and wholesale from search, plus brand recognition. So a demand-driven keyword set and CTAs on the site.",
       },
     ],
     journeyLead:
-      "We built semantics and add-on phrases, mapped competition and demand, locked the strategy. Then — optimization from scratch, copy, articles, CTAs, and analytics fixes. In ~1 month prep was closed; then rankings on 186 phrases and orders.",
+      "We built the keyword set and supporting phrases, mapped competition and demand, locked the strategy. Then — optimization from scratch, copy, articles, CTAs, and analytics fixes. In ~1 month prep was closed; then rankings on 186 phrases and orders.",
     approach: [
-      "Semantic core and add-on semantics → 186 phrases",
+      "Keyword set and supporting semantics → 186 phrases",
       "Competition and demand analytics in steel products",
-      "Strategy: ranking pressure + competitor weak spots in TOP-10",
+      "Strategy: ranking pressure + competitor weak spots on page one",
       "Site optimization from scratch and on-page work",
       "Sales SEO copy and an article section",
       "CTAs, usability, and conversion analysis",
     ],
     plainSpeak: [
       {
-        jargon: "186 phrases in the core",
+        jargon: "186 phrases in the keyword set",
         plain:
-          "The client approved a query list for pipe, rolled stock, and related demand — not “thousands for the report”, but working phrases.",
+          "The client approved a query list for pipe, rolled stock, and related demand — not “thousands for the report,” but working phrases.",
       },
       {
-        jargon: "Prep ≠ TOP-10",
+        jargon: "Prep ≠ page one",
         plain:
-          "In ~1 month we got the site and SEO ready for work. Rankings and orders keep growing — planned 2–6 months to steady TOP.",
+          "In ~1 month we got the site and SEO ready for work. Rankings and orders keep growing — planned 2–6 months to steady page one.",
       },
       {
         jargon: "CTAs and conversion",
@@ -72,7 +72,7 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
         image: "/images/cases/metallinvest-seo/pipe-2.webp",
       },
       {
-        title: "Rankings on the core",
+        title: "Rankings on the keyword set",
         body: "The client approved promotion on 186 phrases. Report — ranking dynamics after work started.",
         image: "/images/cases/metallinvest-seo/pos.webp",
         fit: "contain",
@@ -85,7 +85,7 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Another ranking cut",
-        body: "Extra core report — how visibility grew month by month after prep.",
+        body: "Extra keyword-set report — how visibility grew month by month after prep.",
         image: "/images/cases/metallinvest-seo/pos2.webp",
         fit: "contain",
       },
@@ -109,12 +109,12 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "In ~1 month we prepared SEO — that is not TOP. Climbing into TOP is planned over 2–6 months. Already in the first two months after start: ~112 visits/day, 68 site orders, and 7 wholesale clients. Site now — metplus-vrn.ru; full redesign — in the development case.",
+      "In ~1 month we prepared SEO — that is not the same as page one. Rankings were planned over 2–6 months. Already in the first two months after start: ~112 visits/day, 68 site orders, and 7 wholesale clients. Site now — metplus-vrn.ru; full redesign — in the development case.",
     highlights: [
       "Steel products SEO in the Black Earth region",
       "186 phrases · prep ~1 mo.",
-      "TOP planned 2–6 mo. (month-by-month growth)",
-      "Before us: 0 in TOP · 0 organic · 0 web orders",
+      "Page one planned 2–6 mo. (month-by-month growth)",
+      "Before us: 0 ranking phrases · 0 organic · 0 web orders",
       "First 2 mo.: ~112 visits/day · 68 orders · 7 wholesale",
       "Web redesign — separate Metallinvest case",
     ],
@@ -122,11 +122,11 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
       { label: "Phrases", value: "186" },
       { label: "Prep", value: "~1 mo." },
       { label: "Orders (2 mo.)", value: "68" },
-      { label: "TOP", value: "2–6 mo." },
+      { label: "Page one", value: "2–6 mo." },
     ],
     ctaTitle: "Need steel-product orders from search?",
     ctaText:
-      "We’ll build the core and landings for the catalog — like Metallinvest in the Black Earth region.",
+      "We’ll build the keyword set and landings for the catalog — the same way we did for Metallinvest in the Black Earth region.",
   },
 
   "derevyannyie-izdeliya": {
@@ -136,17 +136,17 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
     location: "Voronezh",
     period: "since 2014",
     metric: "43",
-    metricLabel: "phrases in the SEO core",
+    metricLabel: "phrases in the SEO keyword set",
     summary:
-      "SEO for a carved stairs and panels workshop: 43 phrases against DIY articles in the SERP, prep ~1.5 months, TOP planned 2–6 months. First 2 months — inquiries and purchases from search.",
+      "SEO for a carved stairs and panels workshop: 43 phrases against DIY articles in the SERP, prep ~1.5 months, page one planned 2–6 months. First 2 months — inquiries and purchases from search.",
     coverAlt: "Elite carved oak staircase in an interior",
     services: ["SEO", "Content", "CTA"],
     intro:
       "In 2014 a maker of complex handmade wood products came to us: carved stairs, wall panels, interior elements. They needed to know if search would bring clients — and to launch promotion if yes.",
     painLead:
-      "The niche is narrow and “hard”: strong informational sites teach DIY wooden stairs. Commercial intent gets diluted by DIY content. Before us — zero in TOP, no organic, no web orders.",
+      "The niche is narrow and hard: strong informational sites teach DIY wooden stairs. Commercial intent gets diluted by DIY content. Before us — zero ranking phrases, no organic, no web orders.",
     challenge:
-      "In ~1.5 months prepare SEO for handmade work: a core without “DIY”, copy, CTAs. Climbing into TOP-10 — planned over 2–6 months; first inquiries already during ranking growth.",
+      "In ~1.5 months prepare SEO for handmade work: a keyword set without “DIY,” copy, CTAs. Page-one growth — planned over 2–6 months; first inquiries already during ranking growth.",
     pains: [
       {
         title: "DIY eats commercial intent",
@@ -154,7 +154,7 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Narrow niche, zero visibility",
-        text: "0 queries in TOP, visits and web orders = 0. Niche assessment showed ~500 potential search inquiries — the client approved 43 phrases.",
+        text: "Zero ranking queries, visits and web orders = 0. Niche assessment showed ~500 potential search inquiries — the client approved 43 phrases.",
       },
       {
         title: "Expensive product — need contact",
@@ -162,11 +162,11 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
       },
     ],
     journeyLead:
-      "We mapped the niche and competition with info sites, built a 43-phrase core, prepared optimization and CTAs. In ~1.5 months the project was live; then — rankings, visits, and requests.",
+      "We mapped the niche and competition with info sites, built a 43-phrase keyword set, prepared optimization and CTAs. In ~1.5 months the project was live; then — rankings, visits, and requests.",
     approach: [
-      "Semantic core and add-on semantics → 43 phrases",
+      "Keyword set and supporting semantics → 43 phrases",
       "Competition analytics: commerce vs DIY info sites",
-      "Strategy aimed at competitor weak spots in TOP-10",
+      "Strategy aimed at competitor weak spots on page one",
       "Site optimization, sales SEO copy",
       "CTAs and usability work",
       "Analytics of rankings, traffic, and inquiries",
@@ -175,12 +175,12 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "43 phrases against “DIY”",
         plain:
-          "The core targets ordering stairs and panels from a craftsman — not people looking up how to cut steps themselves.",
+          "The set targets ordering stairs and panels from a craftsman — not people looking up how to cut steps themselves.",
       },
       {
-        jargon: "Prep ~1.5 mo. ≠ TOP",
+        jargon: "Prep ~1.5 mo. ≠ page one",
         plain:
-          "In a month and a half we got SEO ready for work. Steady TOP — another planned 2–6 months of ranking growth.",
+          "In a month and a half we got SEO ready for work. Steady page one — another planned 2–6 months of ranking growth.",
       },
       {
         jargon: "Inquiry → purchase",
@@ -195,7 +195,7 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
         image: "/images/cases/derevyannyie-izdeliya/cover.webp",
       },
       {
-        title: "Rankings on the core",
+        title: "Rankings on the keyword set",
         body: "The client approved 43 phrases. Report — ranking dynamics after work started.",
         image: "/images/cases/derevyannyie-izdeliya/pos.webp",
         fit: "contain",
@@ -230,24 +230,24 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "In ~1.5 months we prepared SEO — that is not TOP. Climbing into TOP is planned over 2–6 months. Already in the first two months: ~14 visits/day, 7 inquiries, 6 purchases. Niche estimate — up to ~500 potential search clients on the agreed core.",
+      "In ~1.5 months we prepared SEO — that is not the same as page one. Rankings were planned over 2–6 months. Already in the first two months: ~14 visits/day, 7 inquiries, 6 purchases. Niche estimate — up to ~500 potential search clients on the agreed keyword set.",
     highlights: [
       "SEO for carved stairs and panels",
       "43 phrases · prep ~1.5 mo.",
-      "TOP planned 2–6 mo. (month-by-month growth)",
+      "Page one planned 2–6 mo. (month-by-month growth)",
       "Competing with DIY info sites in the SERP",
-      "Before us: 0 in TOP · 0 organic · 0 web orders",
+      "Before us: 0 ranking phrases · 0 organic · 0 web orders",
       "First 2 mo.: ~14 visits/day · 7 inquiries · 6 purchases",
     ],
     results: [
       { label: "Phrases", value: "43" },
       { label: "Prep", value: "~1.5 mo." },
       { label: "Purchases (2 mo.)", value: "6" },
-      { label: "TOP", value: "2–6 mo." },
+      { label: "Page one", value: "2–6 mo." },
     ],
     ctaTitle: "Need orders for one-off products from search?",
     ctaText:
-      "We’ll build a core that bypasses DIY SERPs — like the carved stairs workshop.",
+      "We’ll build a keyword set that bypasses DIY SERPs — the same way we did for the carved stairs workshop.",
   },
 
   "uc-vrn": {
@@ -259,19 +259,19 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
     metric: "~60",
     metricLabel: "new students per month",
     summary:
-      "SEO and a new Bitrix site for a training center: 35 phrases in a competitive education niche, prep ~1.5 months, TOP planned 2–6 months. ≈60 course enrollments monthly.",
+      "SEO and a new Bitrix site for a training center: 35 phrases in a competitive education niche, prep ~1.5 months, page one planned 2–6 months. About 60 course enrollments monthly.",
     coverAlt: "Classes at the Central Black Earth Training Center",
     services: ["SEO", "Site", "Bitrix", "CTA"],
     intro:
       "The Central Black Earth Training Center (uc-vrn.ru) is continuing education in Voronezh: occupational safety, fire safety, trades, ADR. They came for search promotion; in parallel we rebuilt an outdated site on Bitrix.",
     painLead:
-      "Education in the SERP has dozens of players — TOP isn’t elastic. The center’s site was outdated by then: promoting “as is” made no sense. They needed a modern resource and a 35-phrase core for a modest budget.",
+      "Education in the SERP has dozens of players — page one isn’t elastic. The center’s site was outdated by then: promoting “as is” made no sense. They needed a modern resource and a 35-phrase keyword set for a modest budget.",
     challenge:
-      "In ~1.5 months build a new Bitrix site and prepare SEO. Climbing into TOP-10 — planned over 2–6 months; course enrollments grow with rankings.",
+      "In ~1.5 months build a new Bitrix site and prepare SEO. Page-one growth — planned over 2–6 months; course enrollments grow with rankings.",
     pains: [
       {
         title: "Tough competition in education",
-        text: "Many centers fight for the same queries. Without a strong vendor and core the site drowns in the SERP.",
+        text: "Many centers fight for the same queries. Without a strong vendor and keyword set the site drowns in the SERP.",
       },
       {
         title: "Outdated design",
@@ -279,18 +279,18 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Zero visibility",
-        text: "0 queries in TOP, no organic or center inquiries from search. Start from scratch.",
+        text: "Zero ranking queries, no organic or center inquiries from search. Start from scratch.",
       },
     ],
     journeyLead:
       "First we agreed a new design and Bitrix implementation. In parallel we built 35 phrases, optimized pages, copy, and CTAs. In ~1.5 months the project was live; then — rankings, inquiries, and course enrollments.",
     approach: [
-      "Semantics → 35 phrases for a modest budget and maximum return",
+      "Keywords → 35 phrases for a modest budget and maximum return",
       "Competition analytics in Voronezh continuing education",
       "Design + new site on Bitrix CMS",
       "Optimization from scratch, on-page work, SEO copy",
       "Article section, CTAs, and conversion analysis to enrollment",
-      "Iterations on rankings and competitor weak spots in TOP-10",
+      "Iterations on rankings and competitor weak spots on page one",
     ],
     plainSpeak: [
       {
@@ -301,12 +301,12 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "35 phrases, not “thousands”",
         plain:
-          "Budget was modest — we kept the core compact but working: courses and trades people actually search to enroll in.",
+          "Budget was modest — we kept the keyword set compact but working: courses and trades people actually search to enroll in.",
       },
       {
-        jargon: "Prep ≠ TOP-10",
+        jargon: "Prep ≠ page one",
         plain:
-          "In ~1.5 months we launched the site and SEO. Steady TOP — another planned 2–6 months of ranking growth.",
+          "In ~1.5 months we launched the site and SEO. Steady page one — another planned 2–6 months of ranking growth.",
       },
     ],
     sections: [
@@ -322,7 +322,7 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
         fit: "contain",
       },
       {
-        title: "Rankings on the core",
+        title: "Rankings on the keyword set",
         body: "The client approved 35 phrases. Report — ranking dynamics after work started.",
         image: "/images/cases/uc-vrn/pos.webp",
         fit: "contain",
@@ -352,13 +352,13 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "In ~1.5 months we prepared the site and SEO — that is not TOP. Climbing into TOP is planned over 2–6 months. Already in the first two months: ~61 visits/day, 28 inquiries, 18 enrollments. Then — about ≈60 new students monthly. Site live on uc-vrn.ru.",
+      "In ~1.5 months we prepared the site and SEO — that is not the same as page one. Rankings were planned over 2–6 months. Already in the first two months: ~61 visits/day, 28 inquiries, 18 enrollments. Then — about 60 new students monthly. Site live on uc-vrn.ru.",
     highlights: [
       "Continuing-education SEO in Voronezh",
       "35 phrases · prep ~1.5 mo. (site + SEO)",
-      "TOP planned 2–6 mo. (month-by-month growth)",
+      "Page one planned 2–6 mo. (month-by-month growth)",
       "New design and Bitrix CMS before/with promotion",
-      "Before us: 0 in TOP · 0 organic · 0 search inquiries",
+      "Before us: 0 ranking phrases · 0 organic · 0 search inquiries",
       "First 2 mo.: ~61 visits/day · 28 inquiries · 18 enrollments",
       "≈60 new students per month",
     ],
@@ -366,10 +366,10 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
       { label: "Phrases", value: "35" },
       { label: "Prep", value: "~1.5 mo." },
       { label: "Students / mo.", value: "~60" },
-      { label: "TOP", value: "2–6 mo." },
+      { label: "Page one", value: "2–6 mo." },
     ],
     ctaTitle: "Need course enrollments from search?",
     ctaText:
-      "We’ll build the site and core for continuing education — like the Training Center in Voronezh.",
+      "We’ll build the site and keywords for continuing education — the same way we did for the Training Center in Voronezh.",
   },
 };

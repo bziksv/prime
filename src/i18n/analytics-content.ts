@@ -187,18 +187,18 @@ const analyticsRu: AnalyticsContent = {
 
 const analyticsEn: AnalyticsContent = {
   path: "/en/analytics/",
-  metaTitle: "End-to-end analytics — PRIME",
+  metaTitle: "Marketing analytics — PRIME",
   metaDescription:
-    "Full-funnel analytics with Roistat: Google Ads → site → CRM. Call tracking, forms, email. See which channel drives leads and revenue. Setup and integration included.",
-  serviceName: "End-to-end analytics",
-  serviceType: "End-to-end analytics",
+    "Marketing analytics with Roistat: Google Ads → site → CRM. Call tracking, forms, email. See which channel drives leads and revenue. Setup and integration included.",
+  serviceName: "Marketing analytics",
+  serviceType: "Marketing analytics",
   breadcrumbHome: "Home",
-  breadcrumbCurrent: "End-to-end analytics",
+  breadcrumbCurrent: "Marketing analytics",
   menuLabel: "Menu",
   ctaTop: "Talk to us",
   brandBefore: "PRIM",
   brandAccent: "E",
-  heroTitleBefore: "Full-funnel analytics — see which channel ",
+  heroTitleBefore: "Marketing analytics — see which channel ",
   heroTitleAccent: "actually sells",
   heroLead:
     "Wire Google Ads, your site, and CRM together with Roistat. Calls, forms, and email keep their source. Spend where it converts — cut what doesn’t.",
@@ -218,11 +218,11 @@ const analyticsEn: AnalyticsContent = {
   flowStatRoas: "ROAS",
   flowStatDeals: "deals / day",
   flowStatAttr: "attribution",
-  whyTitle: "Why full-funnel analytics",
+  whyTitle: "Why marketing analytics",
   why: {
     lead: "Most teams run more channels than they can explain. In a competitive market, guessing where budget goes is expensive.",
     channels:
-      "Search, social, display, promos, offline — you have options. The hard part is knowing how to split spend across them.",
+      "Google Search, social, display, promos, offline — you have options. The hard part is knowing how to split spend across them.",
     answer:
       "You want more customers at a lower cost. Without closed-loop tracking, that’s a gut call. With Roistat you see which channel leads to a call, a form fill, and a closed deal — not just a click.",
   },
@@ -246,7 +246,7 @@ const analyticsEn: AnalyticsContent = {
   ],
   trackTitle: "Channels we track",
   trackLead:
-    "Roistat catches leads that regular web analytics miss — and opens a CRM deal with the source attached.",
+    "Roistat catches leads that Google Analytics alone often misses — and opens a CRM deal with the source attached.",
   track: [
     {
       title: "Dynamic call tracking",
@@ -359,11 +359,11 @@ const analyticsEn: AnalyticsContent = {
     },
   ],
   nosTitle: "What we won’t promise",
-  nosLead: "Full-funnel analytics isn’t a magic button — here’s the line we draw.",
+  nosLead: "Marketing analytics isn’t a magic button — here’s the line we draw.",
   nos: [
     {
       title: "We don’t swap CRM for a pretty chart",
-      text: "The point is ads → site → deal. Without CRM or sales tracking, the picture stays full of holes.",
+      text: "The point is Google Ads → site → deal. Without CRM or sales tracking, the picture stays full of holes.",
     },
     {
       title: "We don’t promise “+300% tomorrow”",
@@ -379,11 +379,11 @@ const analyticsEn: AnalyticsContent = {
   faq: [
     {
       q: "How is this different from Google Analytics?",
-      a: "Google Analytics is great for on-site behavior. Full-funnel analytics adds calls, offline channels, and CRM — so you see the path to revenue, not just sessions.",
+      a: "Google Analytics is great for on-site behavior. Marketing analytics adds calls, offline channels, and CRM — so you see the path to revenue, not just sessions.",
     },
     {
       q: "Which CRMs do you connect?",
-      a: "Usually Bitrix24, amoCRM, 1C, and others on Roistat’s supported list. We confirm at kickoff — connection is included in the price.",
+      a: "HubSpot, Salesforce, Pipedrive, Zoho, and others on Roistat’s supported list. We confirm at kickoff — connection is included in the price.",
     },
     {
       q: "Is call tracking required?",
@@ -405,15 +405,15 @@ const analyticsEn: AnalyticsContent = {
   formPhone: "Phone",
   formSite: "Website URL",
   formCrm: "CRM / sales system",
-  formCrmOptions: ["Bitrix24", "amoCRM", "1C", "Other / none yet"],
+  formCrmOptions: ["HubSpot", "Salesforce", "Pipedrive", "Other / none yet"],
   formMessage: "Channels and rough traffic volume",
-  formAgreeBefore: "I agree to personal data processing under",
-  formAgreePolicy: "our privacy policy",
+  formAgreeBefore: "I agree to personal data processing under our",
+  formAgreePolicy: "privacy policy",
   formSubmit: "Send",
   formSuccess: "Thanks — we got your note. We’ll follow up shortly.",
   formSource: "en-analytics",
   footerBrand: "PRIME",
-  footerTagline: "End-to-end analytics · Roistat · CRM",
+  footerTagline: "Marketing analytics · Roistat · CRM",
 };
 
 export function getAnalyticsContent(locale: Locale): AnalyticsContent {

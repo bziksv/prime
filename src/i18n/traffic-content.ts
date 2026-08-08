@@ -211,13 +211,13 @@ const trafficRu: TrafficContent = {
 
 const trafficEn: TrafficContent = {
   path: "/en/traffic/",
-  metaTitle: "Traffic-based SEO — PRIME",
+  metaTitle: "Pay-per-visit SEO — PRIME",
   metaDescription:
-    "Traffic-based SEO: pay for Google Search visits from an agreed keyword list. Local markets from ~$0.09/visit, competitive metros from ~$0.18. Pre-launch baseline traffic isn’t billed.",
-  serviceName: "Traffic-based SEO",
-  serviceType: "Traffic-based SEO",
+    "Pay-per-visit SEO: pay for Google Search visits from an agreed keyword list. Local markets from ~$0.09/visit, competitive metros from ~$0.18. Pre-launch baseline traffic isn’t billed.",
+  serviceName: "Pay-per-visit SEO",
+  serviceType: "Pay-per-visit SEO",
   breadcrumbHome: "Home",
-  breadcrumbCurrent: "Traffic-based SEO",
+  breadcrumbCurrent: "Pay-per-visit SEO",
   menuLabel: "Menu",
   ctaTop: "Talk to us",
   brandBefore: "PRIM",
@@ -227,7 +227,7 @@ const trafficEn: TrafficContent = {
   heroTitleAccent: "visits",
   heroTitleAfter: " — not vanity metrics",
   heroLead:
-    "Grow search visits across an agreed keyword list. Traffic you already had before kickoff doesn’t count — you only pay for the incremental visits from Google Search.",
+    "Grow Google Search visits across an agreed keyword list. Traffic you already had before kickoff doesn’t count — you only pay for the incremental visits.",
   heroCtaPrimary: "Let’s grow traffic",
   heroCtaSecondary: "See pricing",
   meterAria: "Demo: pay for incremental traffic",
@@ -268,7 +268,8 @@ const trafficEn: TrafficContent = {
   ],
   fitKicker: "Fit",
   fitTitle: "Who this is for",
-  fitLead: "When you need volume of qualified visits more than a narrow TOP-10 on a handful of head terms.",
+  fitLead:
+    "When you need volume of qualified visits more than a narrow page-one set on a handful of head terms.",
   fit: [
     {
       title: "Large e-commerce",
@@ -276,11 +277,11 @@ const trafficEn: TrafficContent = {
     },
     {
       title: "Broad service catalogs",
-      text: "Big service menus and lots of pages: reach across queries beats chasing TOP-10 on two head terms.",
+      text: "Big service menus and lots of pages: reach across queries beats chasing page one on two head terms.",
     },
     {
       title: "Content and media sites",
-      text: "News, media, reference — where value is the volume of relevant visits from search.",
+      text: "News, media, reference — where value is the volume of relevant visits from Google Search.",
     },
   ],
   stepsKicker: "Process",
@@ -305,7 +306,7 @@ const trafficEn: TrafficContent = {
     {
       n: "04",
       title: "Off-page SEO",
-      text: "Link profile, guest content, Google Business Profile (+ Yandex Business where it still matters).",
+      text: "Link profile, guest content, and Google Business Profile where local search matters.",
     },
   ],
   outcomesKicker: "Outcome",
@@ -329,7 +330,7 @@ const trafficEn: TrafficContent = {
     },
     {
       title: "Faster signal",
-      text: "We’re optimizing for visit volume — you’ll see movement sooner than “wait for TOP-10 only.”",
+      text: "We’re optimizing for visit volume — you’ll see movement sooner than “wait for page one only.”",
       metric: "visits",
     },
   ],
@@ -376,28 +377,28 @@ const trafficEn: TrafficContent = {
     "Price depends on market and competition. First 4 months: full contract fee. After that: pay for actual traffic growth.",
   nosKicker: "Straight talk",
   nosTitle: "What we won’t confuse or overpromise",
-  nosLead: "Pay-per-visit isn’t the same as pay-for-TOP-10 — and we keep that clear.",
+  nosLead: "Pay-per-visit isn’t the same as pay-for-page-one — and we keep that clear.",
   nos: [
     {
-      title: "Not pay-for-TOP-10",
-      text: "Here you pay for incremental visits from an agreed phrase list. Ranking fees for TOP-10 are a separate SEO product.",
+      title: "Not pay-for-page-one",
+      text: "Here you pay for incremental visits from an agreed phrase list. Ranking fees for page-one positions are a separate SEO product.",
     },
     {
       title: "Baseline isn’t on the bill",
-      text: "Traffic the site already had before launch isn’t charged. You pay for search growth on the agreed keyword set.",
+      text: "Traffic the site already had before launch isn’t charged. You pay for Google Search growth on the agreed keyword set.",
     },
     {
       title: "No overnight flood",
-      text: "Early months are prep and ramp. First 4 months: fixed contract fee, then pay for real growth.",
+      text: "Early months are prep and ramp — often ~1 month of groundwork, then growth planned over months. First 4 months: fixed contract fee, then pay for real growth.",
     },
   ],
   faqKicker: "FAQ",
   faqTitle: "FAQ",
-  faqLead: "Vs. TOP billing, baseline traffic, the first months, and per-visit price.",
+  faqLead: "Vs. page-one billing, baseline traffic, the first months, and per-visit price.",
   faq: [
     {
-      q: "How is this different from pay-for-TOP SEO?",
-      a: "Traffic SEO bills search visits from a keyword list. Classic pay-for-results SEO bills TOP-10 positions. Pick based on keyword breadth and goal: reach vs. precise head terms.",
+      q: "How is this different from pay-for-page-one SEO?",
+      a: "Pay-per-visit SEO bills Google Search visits from a keyword list. Classic pay-for-results SEO bills page-one positions. Pick based on keyword breadth and goal: reach vs. precise head terms.",
     },
     {
       q: "What does “baseline traffic not billed” mean?",
@@ -409,14 +410,14 @@ const trafficEn: TrafficContent = {
     },
     {
       q: "Who is this model best for?",
-      a: "Large catalogs, e-commerce with long-tail demand, broad service sites, and content portals — where visit volume matters more than a couple of phrases in TOP.",
+      a: "Large catalogs, e-commerce with long-tail demand, broad service sites, and content portals — where visit volume matters more than a couple of phrases on page one.",
     },
     {
       q: "What sets the per-visit price?",
       a: "Market and competition. Guide: local markets from ~$0.09, competitive metros from ~$0.18 per visit; the minimum payment depends on the plan.",
     },
   ],
-  ctaTitle: "Want traffic SEO that bills for growth?",
+  ctaTitle: "Want pay-per-visit SEO that bills for growth?",
   ctaLead: "Tell us your niche — we’ll dig into the details and send a clear proposal.",
   ctaPickPrefix: "Selected plan:",
   ctaPickDefault: "Competitive metros · from $0.18",
@@ -430,13 +431,13 @@ const trafficEn: TrafficContent = {
     { value: "multi", label: "Multiple markets" },
   ],
   formMessage: "Niche and the traffic you’re aiming for",
-  formAgreeBefore: "I agree to personal data processing under",
-  formAgreePolicy: "our privacy policy",
+  formAgreeBefore: "I agree to personal data processing under our",
+  formAgreePolicy: "privacy policy",
   formSubmit: "Send",
   formSuccess: "Thanks — we got your note. We’ll follow up shortly.",
   formSource: "en-traffic",
   footerBrand: "PRIME",
-  footerTagline: "Traffic-based SEO · pay per visit",
+  footerTagline: "Pay-per-visit SEO · Google Search",
 };
 
 export function getTrafficContent(locale: Locale): TrafficContent {

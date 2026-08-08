@@ -15,23 +15,23 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
     metric: "~110",
     metricLabel: "calls per month from the web",
     summary:
-      "SEO for a Voronezh law firm: 37 phrases, TOP planned over 2–6 months, ≈110 calls per month — pushed competitors out of the SERP on key practices. New site — separate case.",
+      "SEO for a Voronezh law firm: 37 phrases, page one planned over 2–6 months, about 110 calls per month — pushed competitors out of the SERP on key practices. New site — separate case.",
     coverAlt: "argument-uk.ru — book a consult and services",
     services: ["SEO", "Content", "CTA"],
     intro:
-      "Argument is a Voronezh law firm. In 2016 they came for SEO: overtake strong competitors in the local SERP and get calls and consult bookings from search. Later we built a new site — a separate development case.",
+      "Argument is a Voronezh law firm. In 2016 they came for SEO: overtake strong competitors in local search and get calls and consult bookings from Google. Later we built a new site — a separate development case.",
     painLead:
-      "Lawyers in a large city compete hard — offline and in search TOP-10. Before us — zero phrases in TOP, no organic, no web clients. They needed rankings on commercial queries and real inquiries, not a “checkbox site”.",
+      "Lawyers in a large city compete hard — offline and on page one of search. Before us — zero ranking phrases, no organic, no web clients. They needed rankings on commercial queries and real inquiries, not a checkbox site.",
     challenge:
-      "In ~1 month prepare SEO in a competitive legal niche in Voronezh: semantics, copy, CTAs. Climbing into TOP-10 — planned over 2–6 months on an agreed core.",
+      "In ~1 month prepare SEO in a competitive legal niche in Voronezh: keyword research, copy, CTAs. Page-one growth — planned over 2–6 months on an agreed set.",
     pains: [
       {
         title: "Tough SERP competition",
-        text: "Strong players have sat in TOP-10 for years. Without a core, content, and CTAs a new or weak site never reaches a call.",
+        text: "Strong players have sat on page one for years. Without a keyword set, content, and CTAs a new or weak site never reaches a call.",
       },
       {
         title: "Zero visibility",
-        text: "0 queries in TOP, no visits or web clients. Need prep from scratch.",
+        text: "Zero ranking queries, no visits or web clients. Need prep from scratch.",
       },
       {
         title: "Goal — consults, not traffic",
@@ -39,9 +39,9 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
       },
     ],
     journeyLead:
-      "We built semantics and strategy, optimized the site, wrote copy and articles, added CTAs. In ~1 month prep was done and the project was live; then rankings on 37 phrases and a steady flow of calls and consults.",
+      "We built the keyword set and strategy, optimized the site, wrote copy and articles, added CTAs. In ~1 month prep was done and the project was live; then rankings on 37 phrases and a steady flow of calls and consults.",
     approach: [
-      "Semantic core and add-on semantics",
+      "Keyword set and supporting semantics",
       "Competition and demand analytics in Voronezh legal niche",
       "Promotion strategy for commercial practices",
       "Site optimization from scratch + on-page work",
@@ -52,12 +52,12 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "SEO for a law firm",
         plain:
-          "Someone searches “lawyer Voronezh”, “accident attorney”, or another practice — and should see you, not a TOP-10 competitor.",
+          "Someone searches “lawyer Voronezh,” “accident attorney,” or another practice — and should see you, not a page-one competitor.",
       },
       {
         jargon: "37 phrases in promotion",
         plain:
-          "The client approved a short query list. We hold TOP-10 on them and count calls and consult visits.",
+          "The client approved a short query list. We hold page one on them and count calls and consult visits.",
       },
       {
         jargon: "CTAs on the site",
@@ -68,11 +68,11 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
     sections: [
       {
         title: "Lawyers in a competitive SERP",
-        body: "In Voronezh legal supply grows faster than demand. The job — push strong competitors out of TOP-10 on key practices: housing, family, tax, companies.",
+        body: "In Voronezh legal supply grows faster than demand. The job — push strong competitors off page one on key practices: housing, family, tax, companies.",
         image: "/images/cases/argument-seo/housing-mid.webp",
       },
       {
-        title: "Rankings on the core",
+        title: "Rankings on the keyword set",
         body: "The client approved promotion on 37 phrases. Focus — commercial legal queries in Voronezh.",
         image: "/images/cases/argument-seo/pos.webp",
         fit: "contain",
@@ -112,25 +112,25 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "In ~1 month we prepared SEO — that is not TOP-10. Climbing into TOP is planned over 2–6 months with month-by-month growth; we held ≈110 web calls monthly. In the first two months — dozens of calls and consults. The firm’s new site — in the Argument development case.",
+      "In ~1 month we prepared SEO — that is not the same as page one. Rankings were planned over 2–6 months with month-by-month growth; we held about 110 web calls monthly. In the first two months — dozens of calls and consults. The firm’s new site — in the Argument development case.",
     highlights: [
       "Law-firm SEO in competitive Voronezh",
       "37 phrases · prep ~1 mo.",
-      "TOP-10 — overtook strong competitors",
+      "Page one — overtook strong competitors",
       "≈110 web calls per month",
       "First 2 mo.: calls + consult visits",
-      "TOP planned 2–6 mo. (month-by-month growth)",
+      "Page one planned 2–6 mo. (month-by-month growth)",
       "Later — new site argument-uk.ru",
     ],
     results: [
       { label: "Phrases", value: "37" },
       { label: "Prep", value: "~1 mo." },
       { label: "Calls / mo.", value: "~110" },
-      { label: "TOP", value: "2–6 mo." },
+      { label: "Page one", value: "2–6 mo." },
     ],
     ctaTitle: "Need lawyer leads from search?",
     ctaText:
-      "We’ll build semantics for your practices and get the site to calls — like Argument in Voronezh.",
+      "We’ll build keywords for your practices and get the site to calls — the same way we did for Argument in Voronezh.",
   },
 
   skazka: {
@@ -142,23 +142,23 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
     metric: "~100",
     metricLabel: "calls per month from the web",
     summary:
-      "SEO for a candy store in central Voronezh: 39 phrases, TOP planned over 2–6 months, ≈100 calls per month — candy, New Year tins, and a tea/coffee counter.",
+      "SEO for a candy store in central Voronezh: 39 phrases, page one planned over 2–6 months, about 100 calls per month — candy, New Year tins, and a tea/coffee counter.",
     coverAlt: "Candy, New Year tins, and tea — Skazka assortment",
     services: ["SEO", "Content", "CTA"],
     intro:
       "Skazka is a well-known candy store in Voronezh’s old center, next to the factory. The counter holds candy and chocolate, New Year gifts in tin boxes, plus a tea and coffee section. Not a pastry shop: focus on candy retail and gift sets.",
     painLead:
-      "Before us the site didn’t work for search: zero phrases in TOP, no organic, no web clients. They needed rankings for “candy Voronezh”, New Year sets, and tea — and people calling and coming into the store.",
+      "Before us the site didn’t work for search: zero ranking phrases, no organic, no web clients. They needed rankings for “candy Voronezh,” New Year sets, and tea — and people calling and coming into the store.",
     challenge:
-      "In ~1 month prepare SEO for candy and gift retail: semantics, copy, CTAs. Climbing into TOP-10 — planned over 2–6 months.",
+      "In ~1 month prepare SEO for candy and gift retail: keyword research, copy, CTAs. Page-one growth — planned over 2–6 months.",
     pains: [
       {
         title: "Zero visibility",
-        text: "0 queries in TOP, no visits or web clients. Need prep from scratch.",
+        text: "Zero ranking queries, no visits or web clients. Need prep from scratch.",
       },
       {
         title: "Tin-gift season",
-        text: "New Year sets in tin boxes are peak demand. Without SERP rankings the store loses holiday traffic.",
+        text: "New Year sets in tin boxes are peak demand. Without page-one rankings the store loses holiday traffic.",
       },
       {
         title: "Goal — store visits",
@@ -166,9 +166,9 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
       },
     ],
     journeyLead:
-      "We built semantics and strategy, optimized the site, wrote copy and articles, added CTAs. In ~1 month prep was done and the project was live; then rankings on 39 phrases, calls, and store visits.",
+      "We built the keyword set and strategy, optimized the site, wrote copy and articles, added CTAs. In ~1 month prep was done and the project was live; then rankings on 39 phrases, calls, and store visits.",
     approach: [
-      "Semantic core and add-on semantics",
+      "Keyword set and supporting semantics",
       "Competition and demand analytics (candy, tin sets, tea/coffee)",
       "Promotion strategy for candy retail and wholesale",
       "Site optimization from scratch + on-page work",
@@ -184,7 +184,7 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "39 phrases in promotion",
         plain:
-          "The client approved the list: candy, sets, New Year gifts, tea, geo. We hold TOP-10 on them and count calls and visits.",
+          "The client approved the list: candy, sets, New Year gifts, tea, geo. We hold page one on them and count calls and visits.",
       },
       {
         jargon: "CTAs on the site",
@@ -199,8 +199,8 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
         image: "/images/cases/skazka/cover.webp",
       },
       {
-        title: "Rankings on the core",
-        body: "The client approved 39 phrases. Report — TOP on candy, New Year gifts, catalog, and related queries.",
+        title: "Rankings on the keyword set",
+        body: "The client approved 39 phrases. Report — page one on candy, New Year gifts, catalog, and related queries.",
         image: "/images/cases/skazka/pos.webp",
         fit: "contain",
       },
@@ -212,7 +212,7 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "New Year sets and tea",
-        body: "On the site — candy catalogs, holiday and New Year gifts (incl. tin boxes), and a separate Tea.Coffee block. A living seasonal storefront accent.",
+        body: "On the site — candy catalogs, holiday and New Year gifts (including tin boxes), and a separate Tea.Coffee block. A living seasonal storefront accent.",
         image: "/images/cases/skazka/tea.webp",
       },
     ],
@@ -240,25 +240,25 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "In ~1 month we prepared SEO — that is not TOP-10. Climbing into TOP is planned over 2–6 months with month-by-month growth; we held ≈100 web calls monthly. In the first two months — dozens of calls and hundreds of store visits from search.",
+      "In ~1 month we prepared SEO — that is not the same as page one. Rankings were planned over 2–6 months with month-by-month growth; we held about 100 web calls monthly. In the first two months — dozens of calls and hundreds of store visits from search.",
     highlights: [
       "SEO for a candy and gift store in central Voronezh",
       "39 phrases · prep ~1 mo.",
-      "TOP — candy, tin sets, tea",
+      "Page one — candy, tin sets, tea",
       "≈100 web calls per month",
       "First 2 mo.: ~20 visits/day · 140 to the store",
-      "TOP planned 2–6 mo. (month-by-month growth)",
+      "Page one planned 2–6 mo. (month-by-month growth)",
       "skazkatd.ru: candy, gifts, tea/coffee",
     ],
     results: [
       { label: "Phrases", value: "39" },
       { label: "Prep", value: "~1 mo." },
       { label: "Calls / mo.", value: "~100" },
-      { label: "TOP", value: "2–6 mo." },
+      { label: "Page one", value: "2–6 mo." },
     ],
     ctaTitle: "Need retail footfall from search?",
     ctaText:
-      "We’ll build semantics for candy, gifts, and tea — and get the site to calls and visits, like Skazka.",
+      "We’ll build keywords for candy, gifts, and tea — and get the site to calls and visits, the same way we did for Skazka.",
   },
 
   barokko: {
@@ -270,15 +270,15 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
     metric: "~100",
     metricLabel: "calls per month from the web",
     summary:
-      "SEO for a curtain design studio: 70 phrases, TOP planned over 2–6 months, ≈100 calls per month — hot queries for custom sewing, showrooms, and rods in Voronezh. Site live on barokko36.ru.",
+      "SEO for a curtain design studio: 70 phrases, page one planned over 2–6 months, about 100 calls per month — high-intent queries for custom sewing, showrooms, and rods in Voronezh. Site live on barokko36.ru.",
     coverAlt: "barokko36.ru homepage — custom curtains turnkey",
     services: ["SEO", "Content", "CTA"],
     intro:
-      "Barokko is a design studio and curtain showrooms in Voronezh: custom sewing, rods, projects for flats, houses, and commercial spaces. In design niches competition is high — the bet was search with “hot” queries.",
+      "Barokko is a design studio and curtain showrooms in Voronezh: custom sewing, rods, projects for flats, houses, and commercial spaces. In design niches competition is high — the bet was search with high-intent queries.",
     painLead:
-      "Classic advertising in curtain design is expensive. In search people already look for “curtain showroom Voronezh”, “custom curtain sewing”, Roman rods — and are ready to call. Before us — zero phrases in TOP, no organic, no web clients.",
+      "Classic advertising in curtain design is expensive. In search people already look for “curtain showroom Voronezh,” “custom curtain sewing,” Roman rods — and are ready to call. Before us — zero ranking phrases, no organic, no web clients.",
     challenge:
-      "In ~1 month prepare SEO in a competitive textile-design niche: semantics, copy, CTAs. Climbing into TOP-10 — planned over 2–6 months.",
+      "In ~1 month prepare SEO in a competitive textile-design niche: keyword research, copy, CTAs. Page-one growth — planned over 2–6 months.",
     pains: [
       {
         title: "Expensive “classics” vs search",
@@ -286,7 +286,7 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Zero visibility",
-        text: "0 queries in TOP, no visits or web clients. Need a launch from scratch.",
+        text: "Zero ranking queries, no visits or web clients. Need a launch from scratch.",
       },
       {
         title: "Goal — orders, not a brochure",
@@ -294,9 +294,9 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
       },
     ],
     journeyLead:
-      "We built semantics and strategy, optimized the site, wrote copy and articles, added CTAs. In ~1 month prep was done and the project was live; then rankings on 70 phrases and a steady flow of calls and orders.",
+      "We built the keyword set and strategy, optimized the site, wrote copy and articles, added CTAs. In ~1 month prep was done and the project was live; then rankings on 70 phrases and a steady flow of calls and orders.",
     approach: [
-      "Semantic core and add-on semantics",
+      "Keyword set and supporting semantics",
       "Competition and demand analytics in curtains/rods",
       "Promotion strategy for the studio and showrooms",
       "Site optimization from scratch + on-page work",
@@ -312,7 +312,7 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "70 phrases in promotion",
         plain:
-          "The client approved the core: showrooms, sewing, rooms, rods, geo. We hold TOP-10 on them and count calls and orders.",
+          "The client approved the set: showrooms, sewing, rooms, rods, geo. We hold page one on them and count calls and orders.",
       },
       {
         jargon: "CTAs on the site",
@@ -323,12 +323,12 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
     sections: [
       {
         title: "Curtain design — a competitive niche",
-        body: "Many players in textile window dressing. The job — take hot demand from search: showrooms, sewing, rods, commercial projects.",
+        body: "Many players in textile window dressing. The job — take high-intent demand from search: showrooms, sewing, rods, commercial projects.",
         image: "/images/cases/barokko/projects.webp",
       },
       {
-        title: "Rankings on the core",
-        body: "The client approved 70 phrases. Report — TOP on curtain showroom, custom sewing, Roman rods, and room/property queries in Voronezh.",
+        title: "Rankings on the keyword set",
+        body: "The client approved 70 phrases. Report — page one on curtain showroom, custom sewing, Roman rods, and room/property queries in Voronezh.",
         image: "/images/cases/barokko/pos.webp",
         fit: "contain",
       },
@@ -367,24 +367,24 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "In ~1 month we prepared SEO — that is not TOP-10. Climbing into TOP is planned over 2–6 months with month-by-month growth; we held ≈100 web calls monthly. In the first two months — dozens of calls and orders. barokko36.ru is still live.",
+      "In ~1 month we prepared SEO — that is not the same as page one. Rankings were planned over 2–6 months with month-by-month growth; we held about 100 web calls monthly. In the first two months — dozens of calls and orders. barokko36.ru is still live.",
     highlights: [
       "Curtain-studio SEO in a competitive niche",
       "70 phrases · prep ~1 mo.",
-      "TOP-10 — showrooms, sewing, rods, geo",
+      "Page one — showrooms, sewing, rods, geo",
       "≈100 web calls per month",
       "First 2 mo.: ~25 visits/day · orders",
-      "TOP planned 2–6 mo. (month-by-month growth)",
+      "Page one planned 2–6 mo. (month-by-month growth)",
       "Site on barokko36.ru is live now",
     ],
     results: [
       { label: "Phrases", value: "70" },
       { label: "Prep", value: "~1 mo." },
       { label: "Calls / mo.", value: "~100" },
-      { label: "TOP", value: "2–6 mo." },
+      { label: "Page one", value: "2–6 mo." },
     ],
     ctaTitle: "Need custom-curtain leads from search?",
     ctaText:
-      "We’ll build semantics for showrooms and sewing — like Barokko design studio in Voronezh.",
+      "We’ll build keywords for showrooms and sewing — the same way we did for Barokko design studio in Voronezh.",
   },
 };

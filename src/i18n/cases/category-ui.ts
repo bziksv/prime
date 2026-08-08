@@ -142,46 +142,46 @@ const ru: CasesCategoryUi = {
 };
 
 const en: CasesCategoryUi = {
-  kicker: "Direction · current cases",
+  kicker: "Service line · current work",
   casesInSection: "cases in this section",
-  panelTitle: (short) => `Cases · ${short}`,
-  panelLead: "Fresh project results in this direction — not an archive",
-  ctaTitle: (short) => `Let’s talk about “${short}”`,
+  panelTitle: (short) => `Work · ${short}`,
+  panelLead: "Fresh project results in this line — not an archive",
+  ctaTitle: (short) => `Let’s talk about ${short}`,
   ctaText:
     "Over 10 years in digital marketing — a short niche review and a forecast on timelines and channel economics.",
-  ctaSubmit: "Send a request",
-  allCases: "All cases",
+  ctaSubmit: "Talk to us",
+  allCases: "All work",
   pageTitle: (title) => `${title} — PRIME case studies`,
   pageDescription: (lead, title) =>
-    `${lead} PRIME agency cases in “${title}”.`,
+    `${lead} PRIME case studies in ${title}.`,
   themes: {
     seo: {
       query: "buy · service · city",
       go: "Search",
       rows: [
         {
-          title: "Your site — in results",
+          title: "Your site — in Google",
           sub: "prime-client.com · organic",
-          rank: "TOP-1",
+          rank: "#1",
         },
         {
           title: "Commercial query",
           sub: "visibility up · +traffic",
-          rank: "TOP-3",
+          rank: "#3",
         },
         {
           title: "Informational cluster",
           sub: "snippets · CTR",
-          rank: "TOP-5",
+          rank: "#5",
         },
         {
-          title: "Local results",
-          sub: "maps · reviews",
-          rank: "TOP-10",
+          title: "Local pack",
+          sub: "Maps · reviews",
+          rank: "P1",
         },
       ],
       visibility: "Visibility",
-      chips: ["pay for TOP-10", "rankings", "leads"],
+      chips: ["pay for page one", "rankings", "leads"],
     },
     ads: {
       badge: "Google Ads",

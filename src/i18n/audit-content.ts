@@ -226,14 +226,14 @@ const auditEn: AuditContent = {
   breadcrumbHome: "Home",
   breadcrumbCurrent: "Website audit",
   menuLabel: "Menu",
-  ctaTop: "Get in touch",
+  ctaTop: "Talk to us",
   brandBefore: "PRIM",
   brandAccent: "E",
   heroKicker: "Site diagnostic · SEO / UX / tech",
   heroTitleBefore: "Find what’s stopping your site from ",
-  heroTitleAccent: "winning in search",
+  heroTitleAccent: "showing up in Google",
   heroLead:
-    "Not a checkbox PDF. We dig into analytics, behavior, competitors, and technical health — then hand you a written report plus a specialist walkthrough video.",
+    "Not a checkbox PDF. We dig into Google Analytics, behavior, competitors, and technical health — then hand you a written report plus a specialist walkthrough video.",
   heroCtaPrimary: "Request a mini-audit",
   heroCtaSecondary: "How it works",
   consoleAria: "Website diagnostic demo",
@@ -257,7 +257,7 @@ const auditEn: AuditContent = {
     { value: 1, suffix: "", label: "specialist walkthrough video" },
   ],
   marquee: [
-    "Analytics",
+    "Google Analytics",
     "Search Console",
     "Index",
     "Sitemap",
@@ -278,7 +278,7 @@ const auditEn: AuditContent = {
   pain: [
     {
       title: "No visitors?",
-      text: "Search engines can overlook a site for thousands of reasons. Stuck past page 3 for years? That’s usually a signal of deeper systemic issues — penalties, keyword gaps, and positioning mistakes.",
+      text: "Google can overlook a site for thousands of reasons. Stuck past page 3 for years? That’s usually a signal of deeper systemic issues — penalties, keyword gaps, and positioning mistakes.",
     },
     {
       title: "No leads?",
@@ -296,7 +296,7 @@ const auditEn: AuditContent = {
     {
       n: "01",
       title: "Request and access",
-      text: "Site URL, Analytics, and a short brief on what’s broken. Mini-audit or full scope.",
+      text: "Site URL, Google Analytics, and a short brief on what’s broken. Mini-audit or full scope.",
     },
     {
       n: "02",
@@ -370,7 +370,7 @@ const auditEn: AuditContent = {
         },
         {
           title: "Google Search Console",
-          text: "Geographic targeting set? Coverage and enhancement issues?",
+          text: "Is targeting set? Coverage and enhancement issues?",
         },
         {
           title: "Google Business Profile / Maps",
@@ -515,11 +515,11 @@ const auditEn: AuditContent = {
   nos: [
     {
       title: "Not a substitute for SEO",
-      text: "An audit diagnoses. Rankings and traffic growth are separate work after the blockers come out.",
+      text: "An audit diagnoses. Rankings and traffic growth are separate work after the blockers come out — often planned over 2–6 months.",
     },
     {
       title: "Not a one-size-fits-all report",
-      text: "We review Analytics, index, competitors, and UX for your site — not a universal laundry list.",
+      text: "We review Google Analytics, index, competitors, and UX for your site — not a universal laundry list.",
     },
     {
       title: "Mini-audit ≠ full review",
@@ -532,7 +532,7 @@ const auditEn: AuditContent = {
   faq: [
     {
       q: "How is a mini-audit different from a full audit?",
-      a: "Mini — a short video on critical issues and opportunities, free for product/service sites. Full — complete written findings across Analytics, UX, competitors, content, and tech.",
+      a: "Mini — a short video on critical issues and opportunities, free for product/service sites. Full — complete written findings across Google Analytics, UX, competitors, content, and tech.",
     },
     {
       q: "How much does a full audit cost?",
@@ -543,21 +543,21 @@ const auditEn: AuditContent = {
       a: "Yes. Full audits are often ordered as an independent review: what got done, what got missed, where the risks are.",
     },
     {
-      q: "Do you need Analytics access?",
+      q: "Do you need Google Analytics access?",
       a: "For a solid review — yes (at least view-only). Without analytics, traffic and behavior conclusions will be thinner.",
     },
     {
       q: "Will the audit put us on page one?",
-      a: "No. An audit shows what’s blocking growth. Rankings and traffic build in ongoing SEO — over months, not “the week after the report.”",
+      a: "No. An audit shows what’s blocking growth. Rankings and traffic build in ongoing SEO — prep first, then page-one growth planned over 2–6 months, not “the week after the report.”",
     },
   ],
   ctaKicker: "Get started",
   ctaTitle: "Does the site have critical issues?",
   ctaLead:
-    "Get in touch — we’ll run a mini-audit or scope a full review. You’ll get a video covering the main risks and opportunities.",
+    "Talk to us — we’ll run a mini-audit or scope a full review. You’ll get a video covering the main risks and opportunities.",
   ctaPoints: [
     "Free mini-audit — video with the main risks",
-    "Full report: Analytics, UX, competitors, tech",
+    "Full report: Google Analytics, UX, competitors, tech",
     "Priority plan — what to fix first",
   ],
   formName: "Your name",
@@ -570,7 +570,7 @@ const auditEn: AuditContent = {
     "Evaluate SEO contractor",
   ],
   formMessage: "What’s on your mind: traffic, leads, rankings?",
-  formAgreeBefore: "I agree to the processing of personal data under our",
+  formAgreeBefore: "I agree to personal data processing under our",
   formAgreePolicy: "privacy policy",
   formSubmit: "Send request",
   formSuccess: "Thanks! Your audit request is in — we’ll be in touch.",

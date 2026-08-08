@@ -18,23 +18,23 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
     coverAlt: "argument-uk.ru homepage",
     services: ["Development", "UX", "Mobile"],
     intro:
-      "Argument is a Voronezh law firm: subscription support for companies and help for individuals. We previously promoted them in search (SEO case); here — a new services site where booking a consult is easy.",
+      "Argument is a Voronezh law firm: retainer support for companies and help for individuals. We previously promoted them in search (separate SEO case); here — a new services site where booking a consult is easy.",
     painLead:
-      "Legal services sell through trust and clarity. If finding a service, calling, or leaving a request is hard — the client goes to whoever makes it simpler. They needed a working booking channel, not a brochure site — within a sensible budget.",
+      "Legal services sell on trust and clarity. If finding a service, calling, or leaving a request is hard, the client goes to whoever makes it simpler. They needed a working booking channel, not a brochure site — within a sensible budget.",
     challenge:
-      "Build a functional law-firm site from scratch: clear navigation, booking forms, B2B vs B2C service split, and a usable mobile path.",
+      "Build a functional law-firm site from scratch: clear navigation, booking forms, a B2B vs B2C service split, and a usable mobile path.",
     pains: [
       {
         title: "Services drown in the menu",
-        text: "Lawyers have many practice areas — for business and for private clients. Without structure visitors don’t know where to click and give up.",
+        text: "Lawyers have many practice areas — for business and for private clients. Without structure, visitors don’t know where to click and give up.",
       },
       {
         title: "Request buried",
-        text: "Phone and booking must stay at hand. If the form is deep below or on another page — fewer calls.",
+        text: "Phone and booking must stay at hand. If the form is deep below or on another page, fewer people call.",
       },
       {
         title: "Awkward on phone",
-        text: "Some clients look up a lawyer on the phone after an accident or dispute. The site must read well and offer one-tap call.",
+        text: "Some clients look up a lawyer on a phone after an accident or dispute. The site must read well and offer one-tap call.",
       },
     ],
     journeyLead:
@@ -52,7 +52,7 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "Sticky header",
         plain:
-          "The header with phone and “book” / “request a call” stays on screen while scrolling — no need to go back up to contact them.",
+          "The header with phone and “book” / “request a call” stays on screen while scrolling — no need to scroll back up to contact them.",
       },
       {
         jargon: "Modal forms with overlay",
@@ -68,17 +68,17 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
     sections: [
       {
         title: "Header as the entry point",
-        body: "Address, phone, and two booking buttons always visible. Secondary links — in a dropdown. Navigation is simpler; the UI isn’t overloaded with links.",
+        body: "Address, phone, and two booking buttons always visible. Secondary links live in a dropdown. Navigation stays simple; the UI isn’t overloaded with links.",
         image: "/images/cases/argument/nav.webp",
       },
       {
         title: "Trust on the homepage",
-        body: "Added a block with positive decisions and resolved conflicts, popular services, and lawyer photos — so it’s clear right away: a living firm with practice.",
+        body: "A block with positive decisions and resolved conflicts, popular services, and lawyer photos — so it’s clear right away: a living firm with practice.",
         image: "/images/cases/argument/stats.webp",
       },
       {
         title: "Services for companies and individuals",
-        body: "Services split: companies (subscription support, reorganization, antitrust, etc.) and individuals. Inside — categories to find the right practice faster.",
+        body: "Services split: companies (retainer support, reorganization, antitrust, and more) and individuals. Inside — categories so people find the right practice faster.",
         image: "/images/cases/argument/services-ul.webp",
       },
       {
@@ -128,9 +128,9 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
       { label: "Services", value: "B2B + B2C" },
       { label: "Channel", value: "mobile" },
     ],
-    ctaTitle: "Need a site for services?",
+    ctaTitle: "Need a site for a professional services firm?",
     ctaText:
-      "We’ll build a clear structure, booking forms, and a mobile path — the way we did for Argument law firm.",
+      "We’ll build a clear structure, booking forms, and a mobile path — the same way we did for Argument.",
   },
 
   hobbi36: {
@@ -140,9 +140,9 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
     location: "Voronezh",
     period: "2020",
     metric: "+30%",
-    metricLabel: "to visits after launch",
+    metricLabel: "visits after launch",
     summary:
-      "Store migration from MODX to Webasyst: full cart and cabinet, usable catalog, responsive layout, and SEO-filter groundwork — on a modest budget.",
+      "Store migration from MODX to Webasyst: full cart and account, usable catalog, responsive layout, and SEO-filter groundwork — on a modest budget.",
     coverAlt: "hobbi36.ru homepage — live view",
     services: ["Development", "Migration", "UX"],
     before: {
@@ -151,15 +151,15 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
       caption: "Before: MODX storefront without full purchase",
     },
     intro:
-      "Mir Uvlecheniy (hobbi36.ru) is a hobby store in Voronezh: metal detectors, digger gear, bows, collectibles, and more. We previously promoted them in search (SEO case); here — a store refresh where you can buy end to end.",
+      "Mir Uvlecheniy (hobbi36.ru) is a hobby store in Voronezh: metal detectors, digger gear, bows, collectibles, and more. We previously promoted them in search (separate SEO case); here — a store refresh where you can buy end to end.",
     painLead:
       "The MODX site looked fine and held a large catalog, but didn’t work as an online store: no cart, bugs, awkward admin. Buyers left a request and waited for a callback. They wanted a full purchase cycle on the site and easier assortment management — on a modest budget.",
     challenge:
-      "Move the storefront from MODX to a proper e-commerce stack: cart, personal cabinet, easy product management, and responsive layout — without building from scratch.",
+      "Move the storefront from MODX to a proper e-commerce stack: cart, personal account, easy product management, and responsive layout — without building from scratch.",
     pains: [
       {
         title: "No cart",
-        text: "On the old site orders went through a contact form. Buyers couldn’t finish “add to cart → checkout” on the site itself.",
+        text: "On the old site orders went through a contact form. Buyers couldn’t finish add-to-cart → checkout on the site itself.",
       },
       {
         title: "Bugs and risk",
@@ -171,12 +171,12 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
       },
     ],
     journeyLead:
-      "We proposed not writing a store from scratch, but moving to a ready Webasyst theme: faster and cheaper, with room to adapt to the brand. Then — product transfer, cart, cabinet, filters, and a mobile-path check.",
+      "We proposed not writing a store from scratch, but moving to a ready Webasyst theme: faster and cheaper, with room to adapt to the brand. Then — product transfer, cart, account, filters, and a mobile-path check.",
     approach: [
-      "Locked goals: purchase end to end on the site, cabinet, simple admin, responsive",
+      "Locked goals: purchase end to end on the site, account, simple admin, responsive",
       "Chose Webasyst + a ready theme customized to the brand",
       "Migrated the catalog: updated photos and some cards during the move",
-      "Built cart, checkout, and personal cabinet",
+      "Built cart, checkout, and personal account",
       "Set up payment/delivery and service pages",
       "Enabled a smart filter with SEO landing groundwork",
       "Launched and verified purchases work from day one",
@@ -185,7 +185,7 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "MODX → Webasyst migration",
         plain:
-          "The old site was a “storefront with a form”. The new one is a real store: products, cart, order, and buyer cabinet.",
+          "The old site was a storefront with a form. The new one is a real store: products, cart, order, and buyer account.",
       },
       {
         jargon: "Theme instead of custom build",
@@ -195,23 +195,23 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "SEO smart filter",
         plain:
-          "Catalog filters create separate pages for queries like “Garrett metal detector” — easier to promote those landings.",
+          "Catalog filters create separate pages for queries like “Garrett metal detector” — easier to promote those landings later.",
       },
     ],
     sections: [
       {
         title: "From storefront to store",
-        body: "The main change — a full purchase path. Cart, checkout, personal cabinet: the client picks a product and finishes the order without a mandatory “call me back”.",
+        body: "The main change — a full purchase path. Cart, checkout, personal account: the buyer picks a product and finishes the order without a mandatory “call me back.”",
         image: "/images/cases/hobbi36/cart.webp",
       },
       {
         title: "A catalog that’s easy to live with",
-        body: "In Webasyst product work got faster. During migration we updated images and some descriptions — the storefront looks fresher, and the admin keeps assortment in order more easily.",
+        body: "In Webasyst, product work got faster. During migration we updated images and some descriptions — the storefront looks fresher, and the admin keeps assortment in order more easily.",
         image: "/images/cases/hobbi36/catalog.webp",
       },
       {
         title: "Product card and filters",
-        body: "A proper card with price and actions + smart filter: buyers find what they need faster, and the store gets SEO landings.",
+        body: "A proper card with price and actions, plus a smart filter: buyers find what they need faster, and the store gets SEO landings.",
         image: "/images/cases/hobbi36/product.webp",
       },
       {
@@ -243,10 +243,10 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "We launched a modern store instead of a “site with a form”. Visits grew about 30% on average; depth and time on site went up. A purchase came through on day one. hobbi36.ru is still live.",
+      "We launched a modern store instead of a site with a form. Visits grew about 30% on average; depth and time on site went up. A purchase came through on day one. hobbi36.ru is still live.",
     highlights: [
       "MODX → Webasyst migration without building from scratch",
-      "Cart, checkout, and personal cabinet appeared",
+      "Cart, checkout, and personal account",
       "Catalog admin became simpler and faster",
       "Smart filter with SEO groundwork",
       "Responsive layout and updated product cards",
@@ -261,7 +261,7 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
     ],
     ctaTitle: "Need to refresh an online store?",
     ctaText:
-      "We’ll move the storefront to a working e-commerce stack — with cart, cabinet, and a usable admin, like Mir Uvlecheniy.",
+      "We’ll move the storefront to a working e-commerce stack — with cart, account, and a usable admin, like Mir Uvlecheniy.",
   },
 
   "nissan-landing": {
@@ -273,15 +273,15 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
     metric: "on-domain",
     metricLabel: "landing inside the dealer site",
     summary:
-      "A Nissan promo landing on the dealer domain: header and footer like the official site, offers, in-stock cars, and test-drive booking — without a “foreign” one-pager.",
+      "A Nissan promo landing on the dealer domain: header and footer like the official site, offers, in-stock cars, and test-drive booking — without a one-pager on a random URL.",
     coverAlt: "Nissan Qashqai landing — Motor Land",
     services: ["Landing", "UX", "Integration"],
     intro:
-      "Motor Land is an official Nissan dealer in Voronezh. In 2016 for the showroom opening we ran SEO and paid search (separate case). Later they needed a promo page for a model (Qashqai and the lineup) that doesn’t look like a foreign landing and leads to test-drive and call.",
+      "Motor Land is an official Nissan dealer in Voronezh. In 2016, for the showroom opening, we ran SEO and paid search (separate case). Later they needed a promo page for a model (Qashqai and the lineup) that doesn’t look like an outside landing and leads to a test-drive or a call.",
     painLead:
-      "Standalone promo sites on other domains often lose: people arrive from ads and don’t recognize the dealer — trust drops. We needed to embed the landing in the showroom platform: same brand, same contacts, but focus on the offer and a fast request.",
+      "Standalone promo sites on other domains often lose: people arrive from ads and don’t recognize the dealer — trust drops. We needed to embed the landing in the showroom platform: same brand, same contacts, but focused on the offer and a fast request.",
     challenge:
-      "Embed a one-pager into the dealer site so header/footer match the official resource, while the content sells the offer, stock, and test-drive.",
+      "Embed a one-pager into the dealer site so header and footer match the official resource, while the content sells the offer, stock, and test-drive.",
     pains: [
       {
         title: "Foreign domain = less trust",
@@ -289,7 +289,7 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Offer drowned in a big site",
-        text: "On a full dealer catalog a special offer is easy to miss. Need a page where benefit, offer dates, and the form are in view right away.",
+        text: "On a full dealer catalog a special offer is easy to miss. You need a page where the benefit, offer dates, and form are in view right away.",
       },
       {
         title: "Request in two clicks",
@@ -300,19 +300,19 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
       "We built the landing inside the dealer ecosystem: familiar header → hero with offer and form → model story → cars in stock → lineup and benefits → quick actions in a side menu.",
     approach: [
       "Placed the page on the dealer domain with matching header and footer",
-      "Top — slide of offers with validity dates",
+      "Hero — slide of offers with validity dates",
       "“Call me back” form: name, phone, payment method",
       "Model block with CTAs for benefits and test-drive booking",
       "In-stock car strip with live photos and prices",
       "Lineup, benefits block, and similar cars",
       "Dropdown: book service, test-drive, request a call",
-      "Cut the noise — one screen path without overload",
+      "Kept the path lean — one-screen focus without overload",
     ],
     plainSpeak: [
       {
         jargon: "Landing on the dealer domain",
         plain:
-          "The promo page lives on the same site as the showroom: same logo, menu, and contacts. People get it immediately: this is Motor Land, not a random one-pager.",
+          "The promo page lives on the same site as the showroom: same logo, menu, and contacts. People get it immediately — this is Motor Land, not a random one-pager.",
       },
       {
         jargon: "Multi-block promo page",
@@ -338,7 +338,7 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Lineup and benefits",
-        body: "Model range (X-Trail, Qashqai, Terrano, Murano) and warranty/credit/gifts block — to close objections without leaving for other site sections.",
+        body: "Model range (X-Trail, Qashqai, Terrano, Murano) and a warranty/credit/gifts block — to close objections without leaving for other site sections.",
         image: "/images/cases/nissan-landing/main-3.webp",
       },
       {
@@ -371,14 +371,14 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "An offer page “like the dealer”: familiar UI, offer and stock in view, test-drive and call — without leaving for a foreign domain. This format usually converts better than standalone one-pagers.",
+      "An offer page that feels like the dealer: familiar UI, offer and stock in view, test-drive and call — without leaving for another domain. This format usually converts better than standalone one-pagers.",
     highlights: [
       "Landing on the dealer domain, not a random URL",
       "Header and footer match the official site",
       "Offer with dates and form in the first screen",
       "Cars in stock + similar models",
       "Test-drive and service booking without extra clicks",
-      "Groundwork to promote promo pages",
+      "Ready structure for promo-page campaigns",
     ],
     results: [
       { label: "Format", value: "landing" },

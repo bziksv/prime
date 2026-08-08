@@ -294,38 +294,38 @@ function enTariff(
 
 const seoEn: SeoContent = {
   path: "/en/seo/",
-  metaTitle: "Website SEO — PRIME",
+  metaTitle: "SEO — PRIME",
   metaDescription:
-    "Performance SEO with pay-for-TOP-10 pricing. Audit, keyword research, on-page and off-page work. Prep ~1 month; TOP-10 growth planned over 2–6 months. Packages for local and competitive markets worldwide.",
-  serviceName: "Website SEO",
+    "SEO with pay-for-page-one pricing. Audit, keyword research, on-page and off-page work. Prep ~1 month; page-one growth planned over 2–6 months. Packages for local and competitive markets worldwide.",
+  serviceName: "SEO",
   serviceType: "Performance SEO",
   breadcrumbHome: "Home",
-  breadcrumbCurrent: "Website SEO",
+  breadcrumbCurrent: "SEO",
   menuLabel: "Menu",
   ctaTop: "Talk to us",
   brandBefore: "PRIM",
   brandAccent: "E",
-  kicker: "Pay per TOP-10 · no retainer fluff",
-  heroTitleBefore: "Website SEO paid ",
-  heroTitleAccent: "for TOP-10 results",
+  kicker: "Pay when you rank · no retainer fluff",
+  heroTitleBefore: "Website SEO you pay for ",
+  heroTitleAccent: "when keywords hold page one",
   heroLead:
-    "We grow Google TOP-10 visibility for the keywords that drive your business. You pay only for search terms that hold the first page.",
+    "We grow Google visibility for the search terms that drive your business. You pay only for phrases that stay on the first page.",
   heroCtaPrimary: "Get a quote",
   heroCtaSecondary: "See packages",
   heroScroll: "Scroll",
-  rankAria: "Pay-for-TOP-10 demo",
+  rankAria: "Pay-for-page-one demo",
   rankLive: "live ranks",
   rankProto: "PRIME · SERP",
-  rankInLabel: "in TOP-10",
+  rankInLabel: "on page one",
   rankBillLabel: "billable",
   rankBillEmpty: "0 phrases",
-  rankNote: "Outside TOP-10 = $0 · you pay only for locked-in phrases",
-  rankNoteDone: "{n} phrases in TOP-10 · the rest stay off the bill",
+  rankNote: "Off page one = $0 · you pay only for locked-in phrases",
+  rankNoteDone: "{n} phrases on page one · the rest stay off the bill",
   phrasesWord: "phrases",
   currency: "$",
   numberLocale: "en-US",
   marquee: [
-    { t: "TOP-10", e: "pay for results" },
+    { t: "Page one", e: "pay for results" },
     { t: "Google", e: "Search first" },
     { t: "Keywords", e: "no junk" },
     { t: "Audit", e: "before kickoff" },
@@ -344,15 +344,15 @@ const seoEn: SeoContent = {
   ],
   modelTitle: "Not guesswork — a delivery model",
   modelLead:
-    "SEO is part of digital marketing. With a clear process you get better rankings, more traffic, and more sales. Larger sites need deeper work. Here’s exactly how we run it.",
+    "SEO is part of digital marketing. With a clear process you get better rankings, more traffic, and more sales. Larger sites need deeper work. Here’s how we run it.",
   modelMetrics: [
-    { value: "TOP-10", label: "pay for ranked phrases" },
+    { value: "Page 1", label: "pay for ranked phrases" },
     { value: "4 mo.", label: "starter package period" },
     { value: "since 2015", label: "model in practice" },
   ],
   aboutTitle: "How we approach SEO",
   aboutLead:
-    "On-page and off-page work aimed at TOP-10 — more visits, leads, and calls. For broader reach we often pair SEO with Google Ads.",
+    "On-page and off-page work aimed at Google page one — more visits, leads, and calls. For broader reach we often pair SEO with Google Ads.",
   aboutCopy: [
     "A lot of teams treat SEO like magic: you pay, someone “tweaks things,” and rankings drift in and out. In reality it’s a method — audit, keyword research, on-site fixes, authority work, and steady rank tracking.",
     "We don’t chase keywords nobody searches. The focus is demand that brings customers — not vanity terms padded into a pretty report.",
@@ -414,7 +414,7 @@ const seoEn: SeoContent = {
   outcomes: [
     {
       title: "More sales",
-      text: "A site in TOP-10 meaningfully increases buyers coming from search.",
+      text: "A site that holds page one for the right phrases brings more buyers from search.",
     },
     {
       title: "Traffic growth",
@@ -453,7 +453,7 @@ const seoEn: SeoContent = {
   pricingLead:
     "Quotes are custom: niche and competition in your market. A local service business and industrial B2B need different budgets. Starting package ranges are below.",
   priceNote:
-    "* First 4 months on the package rate. After that, you pay for the days phrases stay in TOP-10.",
+    "* First 4 months on the package rate. After that, you pay for the days phrases stay on Google page one.",
   regionsAria: "Market tier",
   regions: [
     { id: "region", label: "Local markets" },
@@ -488,7 +488,7 @@ const seoEn: SeoContent = {
         "We fix pages, copy, speed, and structure so Google understands what the site is about.",
     },
     {
-      jargon: "Pay for TOP-10",
+      jargon: "Pay for page one",
       plain:
         "After the starter period you pay for the days a phrase holds the first page. No position — no charge for it.",
     },
@@ -499,7 +499,7 @@ const seoEn: SeoContent = {
   advantages: [
     {
       title: "Pay for results",
-      text: "You pay for search terms that are actually in TOP-10 — by day, no rounding and no empty retainer.",
+      text: "You pay for search terms that actually hold page one — by day, no rounding and no empty retainer.",
     },
     {
       title: "Site safety",
@@ -511,7 +511,7 @@ const seoEn: SeoContent = {
     },
     {
       title: "Demand-backed keywords only",
-      text: "We don’t sell phrases nobody searches. TOP work goes to keywords that bring customers.",
+      text: "We don’t sell phrases nobody searches. Ranking work goes to keywords that bring customers.",
     },
     {
       title: "Project support",
@@ -523,11 +523,11 @@ const seoEn: SeoContent = {
   casesLead: "Real projects with position-based billing and clear numbers.",
   casesAll: "All SEO cases",
   honestTitle: "What we don’t promise",
-  honestLead: "So “kickoff” never reads as a guaranteed TOP-10 in one month.",
+  honestLead: "So “kickoff” never reads as a guaranteed page-one win in one month.",
   nos: [
     {
-      title: "We don’t mix prep with TOP-10",
-      text: "In about a month we usually prepare the site and get SEO underway. Core phrases reaching TOP-10 is planned over 2–6 months after work starts, with month-to-month gains.",
+      title: "We don’t mix prep with page-one results",
+      text: "In about a month we usually prepare the site and get SEO underway. Core phrases reaching page one is planned over 2–6 months after work starts, with month-to-month gains.",
     },
     {
       title: "We don’t sell junk keywords",
@@ -535,27 +535,27 @@ const seoEn: SeoContent = {
     },
     {
       title: "No “pay for process” retainer",
-      text: "After the starter period you pay for the days a phrase is actually in TOP-10. No position — no charge for it.",
+      text: "After the starter period you pay for the days a phrase is actually on page one. No position — no charge for it.",
     },
   ],
   faqTitle: "FAQ",
-  faqLead: "Pay-for-results billing, TOP timelines, traffic SEO, and packages.",
+  faqLead: "Pay-for-results billing, timelines, traffic SEO, and packages.",
   faq: [
     {
-      q: "What does pay-for-TOP-10 mean?",
+      q: "What does pay-for-page-one mean?",
       a: "After the package starter period you pay for the days an agreed phrase holds the first page. No position for that phrase — no charge for it. No blended averages that hide the misses.",
     },
     {
-      q: "How long to reach TOP-10?",
-      a: "Site prep is usually about a month (sometimes 2–6 weeks). Core phrases reaching TOP-10 is planned over 2–6 months after work starts: a noticeable share closer to months 2–3, the rest toward 4–6 — as it goes, not a guaranteed date.",
+      q: "How long to reach page one?",
+      a: "Site prep is usually about a month (sometimes 2–6 weeks). Core phrases reaching page one is planned over 2–6 months after work starts: a noticeable share closer to months 2–3, the rest toward 4–6 — as it goes, not a guaranteed date.",
     },
     {
       q: "How is this different from traffic-based SEO?",
-      a: "Here you pay for TOP-10 positions on agreed phrases. In a traffic model you pay for growth in search visits across a keyword list. Choice depends on the goal: precise search terms or broader reach.",
+      a: "Here you pay for page-one positions on agreed phrases. In a traffic model you pay for growth in search visits across a keyword list. Choice depends on the goal: precise search terms or broader reach.",
     },
     {
       q: "What’s in the starter package period?",
-      a: "Analytics, audit, keyword research, on-page and off-page work per the package plan. That’s prep and early rank building — not a promise of “full TOP in month one.”",
+      a: "Analytics, audit, keyword research, on-page and off-page work per the package plan. That’s prep and early rank building — not a promise of “full page one in month one.”",
     },
     {
       q: "What drives the price?",
@@ -567,7 +567,7 @@ const seoEn: SeoContent = {
     "You have a site — and you need leads. Share your details: we’ll review the niche, tell you what’s realistically worth ranking for, and send a quote.",
   ctaPoints: [
     "Niche and competition review for your market",
-    "Prep ~1 month · TOP planned over 2–6 months",
+    "Prep ~1 month · page one planned over 2–6 months",
     "Package quote — no hidden “bundles”",
     "Pay for positions, not “for process”",
   ],
@@ -587,7 +587,7 @@ const seoEn: SeoContent = {
   formSuccess: "Thanks! Your SEO inquiry is in — we’ll get back to you.",
   formSource: "en-seo",
   footerBrand: "PRIME",
-  footerTagline: "Website SEO · pay for TOP-10 results",
+  footerTagline: "Website SEO · pay when keywords hold page one",
   demoRanks: [
     { q: "buy with delivery", from: 47, to: 3 },
     { q: "turnkey services", from: 28, to: 6 },

@@ -74,10 +74,10 @@ const categoryEn: Record<
   seo: {
     title: "SEO",
     short: "SEO",
-    lead: "Rankings, traffic, and leads paid for TOP-10 results.",
+    lead: "Page-one growth, traffic, and leads — pay for ranked phrases.",
   },
   ads: {
-    title: "Paid search",
+    title: "Google Ads",
     short: "Ads",
     lead: "Google Ads and networks: lower CPL, more calls, CRM tie-in.",
   },
@@ -87,9 +87,9 @@ const categoryEn: Record<
     lead: "Commercial sites and stores built for leads and sales.",
   },
   bots: {
-    title: "Messenger bots",
+    title: "Chatbots",
     short: "Bots",
-    lead: "Telegram bots: access, alerts, bookings, and service without a separate app.",
+    lead: "Telegram chatbots: access, alerts, bookings, and service without a separate app.",
   },
 };
 

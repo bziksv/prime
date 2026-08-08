@@ -191,25 +191,25 @@ const adsRu: AdsContent = {
 
 const adsEn: AdsContent = {
   path: "/en/ads/",
-  metaTitle: "Paid search ads — PRIME",
+  metaTitle: "Google Ads — PRIME",
   metaDescription:
-    "Google Ads management: strategy, negatives, UTM tracking and bids. Fixed management fee from $70/mo by media budget — not a % of spend. Agency fee and ad spend on separate invoices.",
-  serviceName: "Paid search ads",
+    "Google Ads management: strategy, negatives, UTM tracking, and bids. Fixed management fee from $70/mo by media budget — not a percent of spend. Agency fee and ad spend on separate invoices.",
+  serviceName: "Google Ads",
   serviceType: "Google Ads management",
   breadcrumbHome: "Home",
-  breadcrumbCurrent: "Paid search",
+  breadcrumbCurrent: "Google Ads",
   menuLabel: "Menu",
   ctaTop: "Talk to us",
   brandBefore: "PRIM",
   brandAccent: "E",
-  heroTitleBefore: "Paid search — customers from Google ",
-  heroTitleAccent: "starting today",
+  heroTitleBefore: "Google Ads — customers from search ",
+  heroTitleAccent: "while intent is hot",
   heroLead:
-    "Google Ads: strategy, creative, negatives, and bids. Management is a fixed fee by media budget — from $70/month. Ad spend and agency work stay on separate invoices.",
+    "Google Ads: strategy, creatives, negatives, and bids. Management is a fixed fee by media budget — from $70 a month. Ad spend and agency work stay on separate invoices.",
   heroCtaPrimary: "Book a consult",
   heroCtaSecondary: "See management fees",
   heroPoints: [
-    "Up to $1,100 budget — management from $70",
+    "Up to $1,100 media budget — management from $70",
     "$1,100–$3,300 — $130",
     "Over $3,300 — $220",
   ],
@@ -218,41 +218,41 @@ const adsEn: AdsContent = {
     { title: "Display", label: "Network", width: "62%" },
     { title: "Bid ↓", label: "optimize", width: "48%" },
   ],
-  notFitTitle: "When paid search won’t help",
+  notFitTitle: "When Google Ads won’t help",
   notFitLead:
-    "Straight talk up front: if this is you, fix the offer and operations first — then run ads.",
+    "Straight talk first: if this is you, fix the offer and operations — then run ads.",
   notFitMark: "stop",
   notFit: [
     {
       title: "Weak product quality",
-      text: "If the offer or delivery is weak, ads only accelerate customer disappointment.",
+      text: "If the offer or delivery is weak, ads only speed up customer disappointment.",
     },
     {
       title: "No analytics or feedback",
-      text: "You don’t track ad spend against profit and won’t share numbers with the agency.",
+      text: "You don’t tie ad spend to profit and won’t share numbers with the agency.",
     },
     {
       title: "Margin under $25",
-      text: "Net margin per sale below ~$25. Exception: subscription products with clear LTV.",
+      text: "Net margin per sale below ~$25. Exception: subscriptions with clear LTV.",
     },
   ],
   processTitle: "Ready? How we work",
   processLead:
-    "From first conversation to a working sales channel — not “launch and disappear.”",
+    "From the first call to a working sales channel — not “launch and disappear.”",
   steps: [
     {
       n: "01",
       title: "Talk to us",
-      text: "Fill out the form — we start with a conversation about the goal and budget.",
+      text: "Fill out the form — we start with the goal and budget.",
     },
     {
       n: "02",
       title: "Discovery",
-      text: "We map priority directions, why CPC varies in your niche, and how we cut cost-per-click early. Contract once scope is clear.",
+      text: "We map priorities, why CPC varies in your niche, and how we cut cost-per-click early. Contract once scope is clear.",
     },
     {
       n: "03",
-      title: "Site audit",
+      title: "Website audit",
       text: "We check conversion readiness. If the site needs work, we’ll say what. Some findings show up after the first analytics pass.",
     },
     {
@@ -263,7 +263,7 @@ const adsEn: AdsContent = {
     {
       n: "05",
       title: "Alignment and invoices",
-      text: "We finalize the USP and formats. Two invoices: agency management and Google ad spend — every dollar stays visible.",
+      text: "We lock the USP and formats. Two invoices: agency management and Google ad spend — every dollar stays visible.",
     },
     {
       n: "06",
@@ -277,7 +277,7 @@ const adsEn: AdsContent = {
     },
   ],
   edgesTitle: "What sets us apart",
-  edgesLead: "Not just “set up Ads” — infrastructure built for results.",
+  edgesLead: "Not just “set up Ads” — plumbing built for results.",
   edges: [
     {
       title: "Two invoices — clear",
@@ -301,11 +301,11 @@ const adsEn: AdsContent = {
     },
     {
       title: "Fast channel",
-      text: "Faster than SEO: hot search demand today, with transparent reporting.",
+      text: "Faster than SEO: search demand today, with transparent reporting.",
     },
   ],
   balanceTitle: "Pros and honest cons",
-  balanceLead: "Paid search is fast and transparent — not a magic button.",
+  balanceLead: "Google Ads is fast and transparent — not a magic button.",
   prosTitle: "Pros",
   consTitle: "Cons",
   pros: [
@@ -362,9 +362,9 @@ const adsEn: AdsContent = {
     "Reports and changes after split tests",
   ],
   showCases: false,
-  casesTitle: "Paid search case studies",
+  casesTitle: "Google Ads case studies",
   casesLead: "Judge us on real projects — not thank-you notes.",
-  casesAll: "All paid search cases",
+  casesAll: "All Google Ads cases",
   outcomesTitle: "What you get in practice",
   outcomesLead: "Not impressions for a report — a managed lead channel from search.",
   outcomes: [
@@ -385,7 +385,7 @@ const adsEn: AdsContent = {
   faqLead: "Fees, platforms, timelines, and site readiness.",
   faq: [
     {
-      q: "Why isn’t management a % of spend?",
+      q: "Why isn’t management a percent of spend?",
       a: "A fixed fee by media budget is fairer: we aren’t incentivized to inflate spend for our commission. Services and media stay on separate invoices.",
     },
     {
@@ -398,7 +398,7 @@ const adsEn: AdsContent = {
     },
     {
       q: "When should first leads appear?",
-      a: "Paid search is faster than SEO: with real demand and a working site, leads can start in the first days after approval. Stable economics show after stats and the first round of fixes.",
+      a: "Google Ads is faster than SEO: with real demand and a working site, leads can start in the first days after approval. Stable economics show after stats and the first round of fixes.",
     },
     {
       q: "What if the site converts poorly?",
@@ -409,7 +409,7 @@ const adsEn: AdsContent = {
   ctaLead:
     "Share your niche and media-budget range — we’ll recommend a management tier and a realistic Google Ads launch plan.",
   ctaPoints: [
-    "Management fee by media budget — no % of spend",
+    "Management fee by media budget — no percent of spend",
     "Two invoices: PRIME services and media spend",
     "Launch in Google Ads",
     "Negatives, UTM, and bid optimization",
@@ -433,7 +433,7 @@ const adsEn: AdsContent = {
   formSuccess: "Thanks! Your ads inquiry is in — we’ll get back to you.",
   formSource: "en-ads",
   footerBrand: "PRIME",
-  footerTagline: "Paid search · Google Ads management",
+  footerTagline: "Google Ads · campaign management",
 };
 
 export function getAdsContent(locale: Locale): AdsContent {

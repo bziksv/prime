@@ -6,7 +6,7 @@ import type { CaseStudy } from "../../data/cases";
  */
 export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
   "fortuna-avto": {
-    title: "Paid search for Fortuna-avto — Belgorod auto service",
+    title: "Google Ads for Fortuna-avto — Belgorod auto service",
     client: "Fortuna-avto",
     industry: "Auto service",
     location: "Belgorod",
@@ -14,15 +14,15 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
     metric: "×4",
     metricLabel: "ad traffic growth",
     summary:
-      "After SEO we added Google Ads (and Yandex Search Ads): launch in 2 days, traffic ×4, search CTR ~14%, ≈100 service inquiries.",
+      "After SEO we launched Google Ads (with local search ads in parallel): live in 2 days, traffic ×4, search CTR ~14%, about 100 service inquiries.",
     coverAlt: "Auto service — repair in the bay",
-    services: ["Google Ads", "Search ads", "Analytics"],
+    services: ["Google Ads", "Display", "Google Analytics"],
     intro:
-      "Fortuna-avto is an auto service in Belgorod. The client first came for SEO (separate Fortuna-avto SEO case), then approved paid search to grow inquiries faster in parallel with organic.",
+      "Fortuna-avto is an auto service in Belgorod. They started with SEO (separate Fortuna-avto SEO case), then approved paid search so inquiries could ramp faster alongside organic.",
     painLead:
-      "Organic takes longer to ramp, and the bays need load now. Without paid search the shop misses hot repair and service queries. Before us there was essentially no working ads: CTR, visits, and channel profit were near zero.",
+      "Organic takes longer to ramp, and the bays need work now. Without paid search the shop misses hot repair and service queries. Before us there was basically no working ads account — CTR, visits, and channel profit near zero.",
     challenge:
-      "Launch campaigns in 2 days, raise CTR, lower CPC, and steadily feed the bays with inquiries — without waste on irrelevant placements.",
+      "Launch campaigns in 2 days, raise CTR, lower CPC, and keep the bays fed with inquiries — without burning budget on irrelevant placements.",
     pains: [
       {
         title: "Need a fast funnel",
@@ -34,24 +34,24 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Competitors in premium slots",
-        text: "We had to hit weak spots in rivals’ ads without overpaying per click.",
+        text: "We had to exploit weak spots in rivals’ ads without overpaying per click.",
       },
     ],
     journeyLead:
-      "We started with search ads, then connected Google Ads. Several ad variants, sitelinks, location extensions, display creatives, analytics goals, and ongoing bid adjustments.",
+      "We led with Google Ads search and Display, with local search ads in the mix. Several ad variants, sitelinks, location extensions, display creatives, Google Analytics goals, and ongoing bid adjustments.",
     approach: [
       "Site audit and task breakdown by teams",
       "Keyword research, demand and competitor analysis",
       "Strategy: A/B ads, pressure on weak spots in premium placement",
       "Landing pages for ads, sitelinks, location extensions",
       "Display creatives, bid adjustments",
-      "Goal chains in analytics; campaign review in Google Ads and search ads",
+      "Goal chains in Google Analytics; campaign review in Google Ads (and local search ads)",
     ],
     plainSpeak: [
       {
         jargon: "Search CTR ~14%",
         plain:
-          "Almost every seventh search impression got a click — ads matched the query, not just “hanging for the report”.",
+          "Almost every seventh search impression earned a click — ads matched the query, not just “running for the report.”",
       },
       {
         jargon: "Bounce ~18–19%",
@@ -67,18 +67,18 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
     sections: [
       {
         title: "Auto service, not a showroom",
-        body: "The case is about loading bays with repair and service work. Visuals — the shop, not a sales floor.",
+        body: "The case is about loading bays with repair and service work. Visuals show the shop, not a sales floor.",
         image: "/images/cases/fortuna-avto/cover.webp",
       },
       {
-        title: "Search & display ads",
-        body: "Search and display campaigns: ads, sitelinks, location card. Search held CTR around 14%; display around 0.4%.",
+        title: "Search & Display",
+        body: "Search and Display campaigns: ads, sitelinks, location extension. Search held CTR around 14%; Display around 0.4%.",
         image: "/images/cases/fortuna-avto/fortuna-direct.webp",
         fit: "contain",
       },
       {
         title: "Google Ads",
-        body: "After the first search-ad results we connected Google. Bounce stayed low — about 18% on average.",
+        body: "Google Ads ran as the core paid channel. Bounce stayed low — about 18% on average.",
         image: "/images/cases/fortuna-avto/fortuna-google.webp",
         fit: "contain",
       },
@@ -90,7 +90,7 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Conversion to coupon / inquiry",
-        body: "One analytics goal — coupon claim: conversion above 2%. In total ≈100 inquiries into the shop.",
+        body: "One analytics goal — coupon claim: conversion above 2%. In total about 100 inquiries into the shop.",
         image: "/images/cases/fortuna-avto/fortuna-conv.webp",
         fit: "contain",
       },
@@ -109,13 +109,13 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "Launched in 2 days, grew traffic about 4×, and brought ≈100 inquiries. We run paid search in Google Ads and local search ads.",
+      "Live in 2 days, traffic up about 4×, about 100 inquiries. Paid search ran primarily in Google Ads, with local search ads in parallel.",
     highlights: [
       "Campaigns live in 2 days",
       "Visits ×4",
       "Search CTR ~14%, bounce ~18–19%",
       "≈100 inquiries into the shop",
-      "Google Ads + search ads",
+      "Google Ads · Display · analytics goals",
     ],
     results: [
       { label: "Launch", value: "2 days" },
@@ -123,29 +123,29 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
       { label: "Search CTR", value: "~14%" },
       { label: "Inquiries", value: "~100" },
     ],
-    ctaTitle: "Need paid search that actually fills bookings?",
+    ctaTitle: "Need Google Ads that actually fills bookings?",
     ctaText:
-      "We’ll build Google Ads for your services — with analytics goals and clear economics, the way we did for Fortuna-avto.",
+      "We’ll build campaigns for your services — with analytics goals and clear economics, the same way we did for Fortuna-avto.",
   },
 
   insortex: {
     title: "Insortex website — sorting equipment",
     client: "Insortex",
     industry: "Sorting equipment",
-    location: "Russia",
+    location: "B2B",
     period: "1.5 months",
     metric: "1.5 mo.",
     metricLabel: "from zero to launch",
     summary:
-      "A fresh site from scratch for a sorting-equipment supplier: B2B structure, catalog, custom blocks, and SEO groundwork.",
+      "A site from scratch for a sorting-equipment supplier: B2B structure, catalog, custom blocks, and SEO groundwork — live in 1.5 months.",
     coverAlt: "insortex.ru homepage",
     services: ["Development", "UX", "SEO"],
     intro:
       "Insortex is a young company that supplies modern sorting equipment for industry. They needed a brand face online and a lead channel — fast.",
     painLead:
-      "The client came with no site and almost no materials. In sorting equipment, without a clear storefront you’re “nobody”: engineers and buyers don’t trust a company that isn’t online. They needed a working B2B tool in a month and a half — not a pretty landing for show.",
+      "They came with no site and almost no materials. In sorting equipment, without a clear storefront you’re invisible: engineers and buyers don’t trust a company that isn’t online. They needed a working B2B tool in a month and a half — not a pretty landing for show.",
     challenge:
-      "No designer mockup, little product source material, and the page builder couldn’t cover unique blocks.",
+      "No designer mockup, little product source material, and the page builder couldn’t cover the unique blocks.",
     pains: [
       {
         title: "No face online",
@@ -153,7 +153,7 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Empty content",
-        text: "At the start there were almost no texts or descriptions — nothing to “fill overnight”. We needed a living structure to fill as we went.",
+        text: "At the start there were almost no texts or descriptions — nothing to fill overnight. We needed a living structure to fill as we went.",
       },
       {
         title: "Builder hits the ceiling",
@@ -163,44 +163,44 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
     journeyLead:
       "Instead of endless mockup debates we locked the goal — B2B inquiries — and moved in steps: frame → brand face → catalog → custom where the builder falls short.",
     approach: [
-      "Locked the goal: the site = lead channel, not a checkbox storefront",
+      "Locked the goal: the site is a lead channel, not a checkbox storefront",
       "Built the frame on Ranx Creator in brand colors",
       "Designed the homepage as the brand face: trust, FAQ, expertise",
       "Built catalog and cards with flexible specs",
       "Added custom HTML/CSS/JS blocks (video, non-standard sections)",
-      "Laid SEO groundwork and handed off to support + promotion",
+      "Laid SEO groundwork and handed off to support and promotion",
     ],
     plainSpeak: [
       {
         jargon: "B2B structure and lead magnets",
         plain:
-          "A site for businesses that buy equipment: trust and value first, then a request — not retail “buy now”.",
+          "A site for businesses that buy equipment: trust and value first, then a request — not retail “buy now.”",
       },
       {
-        jargon: "Custom HTML/CSS/JS on top of a builder",
+        jargon: "Custom HTML/CSS/JS on a builder",
         plain:
-          "The builder is a fast frame. Where it’s tight — we carefully add hand code so it looks premium and stays stable.",
+          "The builder is a fast frame. Where it’s tight, we carefully add hand code so it looks premium and stays stable.",
       },
       {
         jargon: "SEO groundwork",
         plain:
-          "We build so search engines understand pages: clear URLs, headings, copy. Promotion then moves faster.",
+          "We build so search engines can read the pages: clear URLs, headings, copy. Promotion then has something solid to grow.",
       },
     ],
     sections: [
       {
         title: "Homepage as brand face",
-        body: "This took the most time: we had to stand out among competitors. Brand colors, trust, FAQ, and expert content — so an engineer or buyer gets in 30 seconds: “these people know the field”.",
+        body: "This took the most time — we had to stand out. Brand colors, trust, FAQ, and expert content so an engineer or buyer gets it in 30 seconds: these people know the field.",
         image: "/images/cases/insortex/main-2.webp",
       },
       {
         title: "Video and expert content",
-        body: "The builder’s built-in video wasn’t enough — we made a tile with covers. News split into company news and useful materials: an equipment supplier has something to share with the market.",
+        body: "The builder’s built-in video wasn’t enough — we made a tile with covers. News splits into company updates and useful materials: an equipment supplier has something to share with the market.",
         image: "/images/cases/insortex/video.webp",
       },
       {
         title: "Catalog without extra clicks",
-        body: "Catalog and portfolio so a B2B client quickly finds equipment and use cases — and leaves a request right away.",
+        body: "Catalog and portfolio so a B2B buyer quickly finds equipment and use cases — and leaves a request right away.",
         image: "/images/cases/insortex/catalog.webp",
       },
     ],
@@ -222,7 +222,7 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "In 1.5 months the company had a working site: ready for traffic, inquiries, and SEO growth. Next — support and promotion in one loop.",
+      "In 1.5 months the company had a working site — ready for traffic, inquiries, and SEO work. Next: support and promotion in one loop.",
     highlights: [
       "Site from scratch live in 1.5 months",
       "Design to brand book, not a generic builder look",
@@ -237,9 +237,9 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
       { label: "Channel", value: "B2B" },
       { label: "Next", value: "SEO" },
     ],
-    ctaTitle: "Need a website?",
+    ctaTitle: "Need a B2B site for equipment?",
     ctaText:
-      "Leave the build to our team — from a landing page to a catalog with inquiries.",
+      "We’ll ship a brand-facing catalog that takes inquiries — the same way we did for Insortex.",
   },
 
   metallinvest: {
@@ -251,7 +251,7 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
     metric: "ERP → site",
     metricLabel: "from sync to a full redesign",
     summary:
-      "First we fixed ERP (1C) export, then rebuilt the metal trader’s whole site: catalog structure, filters, cart, responsive layout, and SEO groundwork.",
+      "First we fixed ERP export into the catalog, then rebuilt the metal trader’s whole site: structure, filters, cart, responsive layout, and SEO groundwork.",
     coverAlt: "metplus-vrn.ru homepage — live view",
     services: ["Development", "ERP sync", "UX", "SEO"],
     before: {
@@ -260,29 +260,29 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
       caption: "Before: ~10-year-old site, limited UX",
     },
     intro:
-      "Metallinvest Corporation LLC is a metal trader in the Black Earth region: warehouses in Voronezh, branches in Liski and Stary Oskol. They needed a catalog that’s easy to buy from and ready to promote. SEO since 2016 is a separate case.",
+      "Metallinvest Corporation is a metal trader with warehouses in Voronezh and branches in Liski and Stary Oskol. They needed a catalog that’s easy to buy from and ready for SEO. Search work since 2016 is a separate case.",
     painLead:
-      "The site was about ten years old: basic features still worked, but design was dated, usability slipped, and after ERP export the catalog had to be sorted by hand. Competitors weren’t standing still — without a proper storefront growth was hard.",
+      "The site was about ten years old. Basics still worked, but the design was dated, usability had slipped, and after every ERP export someone had to sort the catalog by hand. Competitors weren’t standing still — without a proper storefront, growth stalled.",
     challenge:
-      "First — ERP sync without manual product sorting. Then a full upgrade: structure, filters, cart, mobile, and markup for SEO.",
+      "First: ERP sync without manual product sorting. Then a full upgrade — structure, filters, cart, mobile, and markup for SEO.",
     pains: [
       {
         title: "ERP exports — admin sorts",
-        text: "After sync, products had to be placed into subcategories by hand. On a large steel assortment that became constant routine.",
+        text: "After sync, products had to be placed into subcategories by hand. On a large steel assortment that became constant busywork.",
       },
       {
         title: "Catalog without filters",
-        text: "Category products came as one long list. Finding the right profile or sheet quickly wasn’t possible — bounce grew.",
+        text: "Category products came as one long list. Finding the right profile or sheet quickly wasn’t possible — bounce climbed.",
       },
       {
         title: "Weak structure for SEO",
-        text: "Too few subcategories and messy markup: inconvenient for users and hard for search engines to rank.",
+        text: "Too few subcategories and messy markup: awkward for buyers and hard for search engines to understand.",
       },
     ],
     journeyLead:
-      "We started with the client’s pain — ERP. Auto-placement by IDs closed the task on time — and the client asked to refresh the whole site: design, structure, cart, responsive.",
+      "We started with the client’s pain — ERP. Auto-placement by IDs closed that job on time, and the client asked to refresh the whole site: design, structure, cart, responsive.",
     approach: [
-      "Set up ERP (1C) sync: product IDs → auto-placement into folders",
+      "Set up ERP sync: product IDs → auto-placement into folders",
       "Rebuilt catalog structure and dropdown menu with new subcategories",
       "Added filters on product listing pages",
       "Reworked the cart: purchase path (except payment) through it",
@@ -293,14 +293,14 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
     ],
     plainSpeak: [
       {
-        jargon: "ERP sync (1C)",
+        jargon: "ERP sync",
         plain:
           "Products from the accounting system land in the right site sections on their own — managers don’t hand-sort hundreds of SKUs after every export.",
       },
       {
         jargon: "Deep catalog + filters",
         plain:
-          "Instead of one long sheet — clear subcategories and a filter. Buyers find rebar or sheet faster, and SEO gets landing pages.",
+          "Instead of one long sheet — clear subcategories and a filter. Buyers find rebar or sheet faster, and SEO gets landing pages to work with.",
       },
       {
         jargon: "Cart as the purchase path",
@@ -311,12 +311,12 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
     sections: [
       {
         title: "ERP first — then the whole site",
-        body: "We originally agreed only on sync. Auto-placement by IDs worked — and the client expanded the job to a full resource refresh.",
+        body: "We originally agreed only on sync. Auto-placement by IDs worked — and the client expanded the job to a full site refresh.",
         image: "/images/cases/metallinvest/structure-1.webp",
       },
       {
         title: "Catalog, menu, and filters",
-        body: "New subcategories, dropdown menu, and listing filters: faster for buyers to navigate and easier to promote steel product groups.",
+        body: "New subcategories, a dropdown menu, and listing filters: faster for buyers to navigate and cleaner product-group pages for SEO.",
         image: "/images/cases/metallinvest/filter.webp",
       },
       {
@@ -353,12 +353,12 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "A modern B2B steel catalog instead of a ten-year-old storefront: ERP doesn’t break the structure, buyers find products faster, the site is ready to promote. Live on metplus-vrn.ru.",
+      "A modern B2B steel catalog instead of a ten-year-old storefront: ERP doesn’t break the structure, buyers find products faster, and the site is ready for SEO. Live on metplus-vrn.ru.",
     highlights: [
       "ERP sync without hand sorting",
       "Full redesign after a successful pilot",
       "Deep catalog + filters",
-      "Convenient cart",
+      "Clear cart purchase path",
       "Responsive layout and clean markup for SEO",
       "Price lists and docs on the site",
     ],
@@ -370,6 +370,6 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
     ],
     ctaTitle: "Need a catalog tied to ERP and inquiries?",
     ctaText:
-      "We’ll build structure, sync, and the purchase path — the way we did for Metallinvest.",
+      "We’ll build structure, sync, and the purchase path — the same way we did for Metallinvest.",
   },
 };

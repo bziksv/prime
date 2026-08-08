@@ -15,18 +15,18 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
     metric: "~120",
     metricLabel: "calls per month from search",
     summary:
-      "B2B electrical installation: a 30-phrase commercial core, TOP planned over 2–6 months, ≈120 search calls per month. Partnership until ~2021 — then the company closed under market pressure.",
+      "B2B electrical installation: a 30-phrase commercial keyword set, page-one growth planned over 2–6 months, about 120 search calls per month. Partnership until ~2021 — then the company closed under market pressure.",
     coverAlt: "Electrical installation — cable runs",
     services: ["SEO", "Content", "CTA"],
     intro:
       "KabelMontazh did electrical installation for industrial and commercial sites in Voronezh. We ran SEO from 2016 until about 2021. Service margin is low and competition is tough: they needed not “wide” traffic, but requests from people ready to order installation. Later the business couldn’t hold market pressure and closed.",
     painLead:
-      "The niche is full of pseudo-commercial queries like “electrification of an industrial facility”: they sound businesslike but bring informational traffic without leads. A big paid-search budget wasn’t realistic — so SEO had to hit true commercial intent. Even with working search leads, the installation market got tougher every year.",
+      "The niche is full of pseudo-commercial queries like “electrification of an industrial facility”: they sound businesslike but bring informational traffic without leads. A big Google Ads budget wasn’t realistic — so SEO had to hit true commercial intent. Even with working search leads, the installation market got tougher every year.",
     challenge:
-      "A small core, strong competitors, and a budget ceiling: in ~1 month prepare 30 commercial phrases; search inquiries as TOP builds over 2–6 months.",
+      "A small keyword set, strong competitors, and a budget ceiling: in ~1 month prepare 30 commercial phrases; search inquiries as rankings build over a planned 2–6 months.",
     pains: [
       {
-        title: "Pseudo-commerce in the semantics",
+        title: "Pseudo-commerce in the keyword set",
         text: "Some “business” phrases feed articles and directories, not installation requests. They had to be cut at the start.",
       },
       {
@@ -34,15 +34,15 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
         text: "No bloating paid search or link spam. Need a careful strategy for the client’s real money.",
       },
       {
-        title: "Competitors already in TOP-10",
-        text: "Nationals and local players hold the SERP and the service market. Without a hard commercial core the site won’t break through — and long-term competition only gets tougher.",
+        title: "Competitors already on page one",
+        text: "Nationals and local players hold the SERP and the service market. Without a hard commercial keyword set the site won’t break through — and long-term competition only gets tougher.",
       },
     ],
     journeyLead:
-      "We built a short but purely commercial core — 30 phrases. Optimized the site, added sales copy, articles, and CTAs. For several years we held a flow of search calls. Around 2021 the partnership ended: the company closed under competition.",
+      "We built a short but purely commercial keyword set — 30 phrases. Optimized the site, added sales copy, articles, and CTAs. For several years we held a flow of search calls. Around 2021 the partnership ended: the company closed under competition.",
     approach: [
       "Cut informational “pseudo-commercial” queries",
-      "Built the core: 30 commercial phrases for installation",
+      "Built the keyword set: 30 commercial phrases for installation",
       "Demand and competition analysis, strategy within budget",
       "On-page optimization and SEO copy",
       "Article section + CTAs on key pages",
@@ -52,17 +52,17 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "Pseudo-commercial queries",
         plain:
-          "Phrases that sound like “I want to buy”, but people are looking for an article. In ads and SEO they burn budget without leads.",
+          "Phrases that sound like “I want to buy,” but people are looking for an article. In ads and SEO they burn budget without leads.",
       },
       {
-        jargon: "Commercial core of 30 phrases",
+        jargon: "Commercial set of 30 phrases",
         plain:
           "A short list of queries that bring installation customers — no fluff or directory traffic.",
       },
       {
         jargon: "SEO prep ~1 mo.",
         plain:
-          "In about a month we got technique, copy, and CTAs ready for work. Steady TOP on the core — another planned 2–6 months of ranking growth.",
+          "In about a month we got technique, copy, and CTAs ready for work. Steady page-one coverage on the set — another planned 2–6 months of ranking growth.",
       },
       {
         jargon: "Partnership until ~2021",
@@ -73,12 +73,12 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
     sections: [
       {
         title: "A niche where you can’t spray wide",
-        body: "B2B electrical installation: not reach, but a precise hit. Atmosphere shot — cable runs and installation, not a “pretty office”.",
+        body: "B2B electrical installation: not reach, but a precise hit. Atmosphere shot — cable runs and installation, not a pretty office.",
         image: "/images/cases/kabelmontazh/cover.webp",
       },
       {
-        title: "Rankings on the commercial core",
-        body: "The client approved promotion on 30 phrases. Focus — TOP-10 on queries that lead to ordering the service.",
+        title: "Rankings on the commercial set",
+        body: "The client approved promotion on 30 phrases. Focus — page one on queries that lead to ordering the service.",
         image: "/images/cases/kabelmontazh/kab-pos.webp",
         fit: "contain",
       },
@@ -107,10 +107,10 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "In ~1 month we prepared SEO (technique, copy, CTAs) — that is not TOP. Rankings built over 2–6 months; we held ≈120 search calls per month. We worked until about 2021 — then the company closed under market competition.",
+      "In ~1 month we prepared SEO (technique, copy, CTAs) — that is not the same as page one. Rankings built over 2–6 months; we held about 120 search calls per month. We worked until about 2021 — then the company closed under market competition.",
     highlights: [
       "30 purely commercial phrases — no pseudo-commerce",
-      "Prep ~1 mo. · TOP planned 2–6 mo.",
+      "Prep ~1 mo. · page one planned 2–6 mo.",
       "≈120 calls from the web monthly",
       "Partnership ~2016–2021",
       "Company closed — couldn’t hold market competition",
@@ -118,12 +118,12 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
     results: [
       { label: "Phrases", value: "30" },
       { label: "Prep", value: "~1 mo." },
-      { label: "TOP", value: "2–6 mo." },
+      { label: "Page one", value: "2–6 mo." },
       { label: "Calls / mo.", value: "~120" },
     ],
     ctaTitle: "Need B2B leads without a fat budget?",
     ctaText:
-      "We’ll build a short commercial core and grow into TOP-10 — the way we did for KabelMontazh while the market still left room.",
+      "We’ll build a short commercial keyword set and grow rankings — the same way we did for KabelMontazh while the market still left room.",
   },
 
   vtorma: {
@@ -135,15 +135,15 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
     metric: "~120",
     metricLabel: "calls per month from the web",
     summary:
-      "SEO for a recycling intake point: search instead of flyers. 57 phrases, prep ~1 month, TOP planned 2–6 months, ≈120 calls per month and visits to the drop-off point.",
+      "SEO for a recycling intake point: search instead of flyers. 57 phrases, prep ~1 month, page one planned over 2–6 months, about 120 calls per month and visits to the drop-off point.",
     coverAlt: "vtorma-vrn.ru homepage — recycling intake",
     services: ["SEO", "Content", "CTA"],
     intro:
       "VoronezhVtorma takes paper, polyethylene, and other recyclables from households and businesses. The industry was used to flyers and street ads — the client went into digital marketing and it paid off.",
     painLead:
-      "Processors often advertise the old way: pole ads and flyers. In search for queries like “recycle cardboard Voronezh” competition is weaker than it looks — if you build the core well and get the site to convert. They needed calls and visits to the point, not just “traffic”.",
+      "Processors often advertise the old way: pole ads and flyers. In search for queries like “recycle cardboard Voronezh,” competition is weaker than it looks — if you build the keyword set well and get the site to convert. They needed calls and visits to the point, not just “traffic.”",
     challenge:
-      "In ~1 month prepare SEO in a niche barely used to digital: semantics, optimization, copy, CTAs. Climbing into TOP-10 — planned over 2–6 months.",
+      "In ~1 month prepare SEO in a niche barely used to digital: keyword research, optimization, copy, CTAs. Page-one growth — planned over 2–6 months.",
     pains: [
       {
         title: "Offline classics instead of search",
@@ -151,7 +151,7 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Zero visibility",
-        text: "Before start — 0 queries in TOP, almost no organic or web clients. Need a launch from scratch, not a “tweak”.",
+        text: "Before start — zero ranking queries, almost no organic or web clients. Need a launch from scratch, not a tweak.",
       },
       {
         title: "Goal — not traffic for traffic’s sake",
@@ -159,9 +159,9 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
       },
     ],
     journeyLead:
-      "We built semantics and strategy, optimized the site, wrote sales copy, added articles and CTAs. After two months we looked at first numbers; then — rankings on 57 phrases and a steady inquiry flow.",
+      "We built the keyword set and strategy, optimized the site, wrote sales copy, added articles and CTAs. After two months we looked at first numbers; then — rankings on 57 phrases and a steady inquiry flow.",
     approach: [
-      "Semantic core and add-on semantics",
+      "Keyword set and supporting semantics",
       "Competition and demand analysis, niche strategy",
       "Site optimization from scratch + on-page work",
       "Sales SEO copy and an article section",
@@ -177,7 +177,7 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "57 phrases in promotion",
         plain:
-          "The client approved the query list. We hold rankings on them and watch calls and visits — not “a thousand phrases for a pretty report”.",
+          "The client approved the query list. We hold rankings on them and watch calls and visits — not a thousand phrases for a pretty report.",
       },
       {
         jargon: "CTAs on the site",
@@ -192,8 +192,8 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
         image: "/images/cases/vtorma/cover.webp",
       },
       {
-        title: "Rankings on the core",
-        body: "The client approved promotion on 57 phrases. Focus — TOP-10 on commercial recycling-intake queries in Voronezh.",
+        title: "Rankings on the keyword set",
+        body: "The client approved promotion on 57 phrases. Focus — page one on commercial recycling-intake queries in Voronezh.",
         image: "/images/cases/vtorma/pos.webp",
         fit: "contain",
       },
@@ -235,25 +235,25 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "In ~1 month we prepared SEO — that is not TOP-10. Climbing into TOP is planned over 2–6 months with month-by-month growth; we held ≈120 web calls monthly. In the first two months — dozens of calls and over a hundred visits to the point. vtorma-vrn.ru is still live.",
+      "In ~1 month we prepared SEO — that is not the same as page one. Rankings were planned over 2–6 months with month-by-month growth; we held about 120 web calls monthly. In the first two months — dozens of calls and over a hundred visits to the point. vtorma-vrn.ru is still live.",
     highlights: [
       "SEO instead of flyers and street ads",
       "57 phrases · prep ~1 mo.",
-      "TOP-10 — overtook competitors on the core",
+      "Page one — overtook competitors on the keyword set",
       "≈120 web calls per month",
       "First 2 mo.: calls + visits to the point",
-      "TOP planned 2–6 mo. (month-by-month growth)",
+      "Page one planned 2–6 mo. (month-by-month growth)",
       "Recycling intake site live on vtorma-vrn.ru",
     ],
     results: [
       { label: "Phrases", value: "57" },
       { label: "Prep", value: "~1 mo." },
       { label: "Calls / mo.", value: "~120" },
-      { label: "TOP", value: "2–6 mo." },
+      { label: "Page one", value: "2–6 mo." },
     ],
     ctaTitle: "Need search leads in an “offline” niche?",
     ctaText:
-      "We’ll build the semantics and get the site to calls — like recycling intake for VoronezhVtorma.",
+      "We’ll build the keyword set and get the site to calls — the same way we did for VoronezhVtorma.",
   },
 
   "rc-revolt": {
@@ -265,27 +265,27 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
     metric: "~170",
     metricLabel: "calls per month from the web",
     summary:
-      "SEO for an RC-model store: 68 phrases, TOP planned over 2–6 months, ≈170 calls per month. Search demand was there — the business misjudged its financial model and turned unprofitable.",
+      "SEO for an RC-model store: 68 phrases, page one planned over 2–6 months, about 170 calls per month. Search demand was there — the business misjudged its financial model and turned unprofitable.",
     coverAlt: "Rc-Revolt — RC models: helicopter, car, boat",
     services: ["SEO", "Site structure", "Content", "CTA"],
     intro:
-      "Rc-Revolt sells RC cars, drones, boats, and parts. The niche is narrow: almost no high-frequency terms, but a search buyer is already ready to pick a model and call. Marketing worked here — the business financial model did not.",
+      "Rc-Revolt sells RC cars, drones, boats, and parts. The niche is narrow: almost no high-volume terms, but a search buyer is already ready to pick a model and call. Marketing worked here — the business financial model did not.",
     painLead:
-      "Before us — zero organic and no web clients: the site barely showed in search. They needed rankings on commercial queries and calls. In parallel — build store structure for the semantics from scratch. Later it became clear: even with leads, the business hadn’t sized its financial capacity.",
+      "Before us — zero organic and no web clients: the site barely showed in search. They needed rankings on commercial queries and calls. In parallel — build store structure for the keyword set from scratch. Later it became clear: even with leads, the business hadn’t sized its financial capacity.",
     challenge:
-      "In ~1 month prepare SEO in a narrow RC niche: core, structure, copy, CTAs. Climbing into TOP-10 — planned over 2–6 months.",
+      "In ~1 month prepare SEO in a narrow RC niche: keyword set, structure, copy, CTAs. Page-one growth — planned over 2–6 months.",
     pains: [
       {
-        title: "Narrow niche without familiar HF terms",
+        title: "Narrow niche without familiar high-volume terms",
         text: "“RC cars” and related queries don’t hit millions — but conversion is higher when landings and assortment match the query.",
       },
       {
         title: "Zero visibility",
-        text: "Before start — 0 queries in TOP, a few pages in TOP-100, no search clients. Need a launch, not a “tweak”.",
+        text: "Before start — zero ranking queries, a few pages barely in the index, no search clients. Need a launch, not a tweak.",
       },
       {
         title: "Store structure for search",
-        text: "Without clustering and landings for categories (cars, drones, parts) semantics don’t convert into calls.",
+        text: "Without clustering and landings for categories (cars, drones, parts) keywords don’t convert into calls.",
       },
       {
         title: "Financial model “by eye”",
@@ -293,9 +293,9 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
       },
     ],
     journeyLead:
-      "We built and clustered semantics, designed structure, optimized the site, wrote copy, and added CTAs. In ~2.5 weeks prep was done; then we watched rankings on 68 phrases and the call flow. Leads were there — business sustainability was no longer an SEO question.",
+      "We built and clustered the keyword set, designed structure, optimized the site, wrote copy, and added CTAs. In ~2.5 weeks prep was done; then we watched rankings on 68 phrases and the call flow. Leads were there — business sustainability was no longer an SEO question.",
     approach: [
-      "Semantic core and secondary semantics",
+      "Keyword set and supporting semantics",
       "Query clustering and site structure by category",
       "Competition and demand analytics, niche strategy",
       "Optimization from scratch + on-page work",
@@ -311,10 +311,10 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "68 phrases in promotion",
         plain:
-          "The client approved the query list. We hold TOP-10 on them and count calls — not padding the report with junk phrases.",
+          "The client approved the query list. We hold page one on them and count calls — not padding the report with junk phrases.",
       },
       {
-        jargon: "Structure for semantics",
+        jargon: "Structure for keywords",
         plain:
           "Separate sections for model types and parts so search and buyers know where to click.",
       },
@@ -327,12 +327,12 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
     sections: [
       {
         title: "A niche with hot demand",
-        body: "RC models aren’t mass e-com, but “buy” and “store” queries convert well. The job — build structure and grow into TOP on the core.",
+        body: "RC models aren’t mass e-com, but “buy” and “store” queries convert well. The job — build structure and grow rankings on the keyword set.",
         image: "/images/cases/rc-revolt/cover.webp",
       },
       {
-        title: "Rankings on the core",
-        body: "The client approved promotion on 68 phrases. Over a couple of months — into TOP on commercial queries: cars, models, parts, Voronezh.",
+        title: "Rankings on the keyword set",
+        body: "The client approved promotion on 68 phrases. Over a couple of months — onto page one for commercial queries: cars, models, parts, Voronezh.",
         image: "/images/cases/rc-revolt/pos.webp",
         fit: "contain",
       },
@@ -344,7 +344,7 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Assortment in frame",
-        body: "Cars, drones, boats — what people searched for. Site and semantics tied to the real Rc-Revolt catalog.",
+        body: "Cars, drones, boats — what people searched for. Site and keywords tied to the real Rc-Revolt catalog.",
         image: "/images/cases/rc-revolt/product3.webp",
       },
     ],
@@ -372,24 +372,24 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "In ~2.5 weeks we prepared SEO — that is not TOP. Climbing into TOP is planned over 2–6 months; we held ≈170 web calls monthly. Search demand was there. But the business didn’t size its financial capacity and the model turned unprofitable — they couldn’t hold the project. Domain rc-revolt.ru is unavailable now: the case is about both the marketing result and that lesson.",
+      "In ~2.5 weeks we prepared SEO — that is not the same as page one. Rankings were planned over 2–6 months; we held about 170 web calls monthly. Search demand was there. But the business didn’t size its financial capacity and the model turned unprofitable — they couldn’t hold the project. Domain rc-revolt.ru is unavailable now: the case is about both the marketing result and that lesson.",
     highlights: [
-      "Narrow RC niche without relying on high-frequency terms",
+      "Narrow RC niche without relying on high-volume terms",
       "68 phrases · prep ~2.5 wk.",
-      "TOP-10 and ≈170 web calls per month",
+      "Page one and ≈170 web calls per month",
       "Search flow was there — financial model was not",
       "Business misjudged capacity → loss",
-      "TOP planned 2–6 mo. (month-by-month growth)",
+      "Page one planned 2–6 mo. (month-by-month growth)",
       "Domain currently unavailable",
     ],
     results: [
       { label: "Phrases", value: "68" },
       { label: "Prep", value: "~2.5 wk." },
       { label: "Calls / mo.", value: "~170" },
-      { label: "TOP", value: "2–6 mo." },
+      { label: "Page one", value: "2–6 mo." },
     ],
     ctaTitle: "Need search leads in a narrow niche?",
     ctaText:
-      "We’ll build semantics and structure for the catalog — and check early whether the business model can hold.",
+      "We’ll build keywords and structure for the catalog — and check early whether the business model can hold.",
   },
 };

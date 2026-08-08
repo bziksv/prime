@@ -305,8 +305,9 @@
   font-family: var(--font-display);
   font-size: clamp(1.85rem, 4.2vw, 3.2rem);
   font-weight: 800;
-  line-height: 1.05;
+  line-height: 1.2;
   letter-spacing: -0.04em;
+  padding-block: 0.04em 0.08em;
   max-width: 16ch;
 }
 
@@ -366,7 +367,7 @@
 
 @media (min-width: 960px) {
   .w-hero__stage {
-    grid-template-columns: minmax(200px, 260px) 1fr minmax(200px, 260px);
+    grid-template-columns: minmax(220px, 300px) 1fr minmax(220px, 300px);
     gap: 1.25rem;
     align-items: end;
   }
@@ -410,10 +411,14 @@
 .w-flank--strict .w-flank__title {
   margin: 0 0 0.55rem;
   font-family: var(--font-display);
-  font-size: clamp(1.35rem, 2.2vw, 1.85rem);
+  /* Syne ExtraBold is very wide — keep titles inside the card */
+  font-size: clamp(1.2rem, 1.9vw, 1.55rem);
   font-weight: 800;
-  line-height: 1.05;
-  letter-spacing: -0.03em;
+  /* Syne 800 font-box > em-box — tight lh clips descenders */
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  padding-block: 0.06em 0.12em;
+  overflow: visible;
 }
 
 .w-flank--strict p:not(.w-flank__title) {
@@ -426,7 +431,7 @@
 /* Right: concept / wow panel */
 .w-flank--concept .w-flank__card {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   padding: 1.15rem 1.2rem 1.2rem;
   border: 1px solid rgba(45, 212, 191, 0.28);
   background:
@@ -440,6 +445,8 @@
   position: absolute;
   inset: -20% -10% auto;
   height: 70%;
+  overflow: hidden;
+  border-radius: inherit;
   background: radial-gradient(circle, rgba(45, 212, 191, 0.28), transparent 65%);
   pointer-events: none;
   animation: w-flank-pulse 4.5s ease-in-out infinite;
@@ -449,10 +456,12 @@
   position: relative;
   margin: 0 0 0.55rem;
   font-family: var(--font-display);
-  font-size: clamp(1.35rem, 2.2vw, 1.85rem);
+  font-size: clamp(1.2rem, 1.9vw, 1.55rem);
   font-weight: 800;
-  line-height: 1.05;
-  letter-spacing: -0.03em;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  padding-block: 0.06em 0.12em;
+  overflow: visible;
   color: #f5fffc;
 }
 
@@ -718,7 +727,7 @@
 }
 
 .w-proof__head {
-  max-width: 40rem;
+  max-width: min(48rem, 100%);
   margin-bottom: clamp(0.85rem, 2vw, 1.25rem);
 }
 
@@ -738,7 +747,9 @@
   font-size: clamp(1.75rem, 3.6vw, 2.65rem);
   font-weight: 800;
   letter-spacing: -0.035em;
-  line-height: 1.08;
+  line-height: 1.35;
+  padding-block: 0.08em 0.16em;
+  overflow: visible;
   color: #f5f8fb;
 }
 

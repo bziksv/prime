@@ -9,20 +9,20 @@ export const caseTranslationsEnBatch6: Record<string, Partial<CaseStudy>> = {
     title: "KaWe website development",
     client: "KaWe",
     industry: "Medical equipment",
-    location: "Russia",
+    location: "Nationwide",
     period: "2020",
     metric: "Bitrix",
     metricLabel: "store + inventory sync",
     summary:
-      "Online store for German KaWe medical equipment on Bitrix: clear catalog, two-click cart, inventory sync (MoySklad), and an admin the owner can run.",
+      "Online store for German KaWe medical equipment on Bitrix: clear catalog, two-click cart, MoySklad inventory sync, and an admin the owner can run.",
     coverAlt: "kawe.su catalog — live store view",
     services: ["Development", "Bitrix", "UX", "Integrations"],
     intro:
       "KaWe is German medical equipment: otoscopes, laryngoscopes, and diagnostic kits. They needed a direct-from-manufacturer storefront — no noise, easy ordering, and simple management.",
     painLead:
-      "Medical gear sells through brand trust and order speed. If the catalog is messy and the admin scares the owner — neither SEO nor ads will save it. They needed a Bitrix store: clean for buyers, clear for the owner, plus warehouse sync.",
+      "Medical gear sells on brand trust and order speed. If the catalog is messy and the admin scares the owner, neither SEO nor ads will save it. They needed a Bitrix store: clean for buyers, clear for the owner, plus warehouse sync.",
     challenge:
-      "Build a unique Bitrix store: usability, clean markup without SEO-killing errors, and admin “small things” — from inventory sync to new-product stickers and PDF invoices.",
+      "Build a Bitrix store that feels unique: usability, clean markup without SEO-killing errors, and admin details — from inventory sync to new-product stickers and PDF invoices.",
     pains: [
       {
         title: "Bitrix too complex for the owner",
@@ -135,20 +135,20 @@ export const caseTranslationsEnBatch6: Record<string, Partial<CaseStudy>> = {
     title: "kargo24.su website development",
     client: "KarGo24",
     industry: "Special equipment rental and freight",
-    location: "Russia",
+    location: "Nationwide",
     period: "2020",
     metric: ">4 min",
     metricLabel: "average time on site",
     summary:
-      "A dispatch-style service for special equipment and freight: niche marketplace, custom UI, responsive layout, and a cabinet with payments — without a middleman dispatcher.",
+      "A dispatch-style service for special equipment and freight: niche marketplace, custom UI, responsive layout, and an account with payments — without a middleman dispatcher.",
     coverAlt: "KarGo24 homepage — special equipment search (project archive)",
-    services: ["Development", "UX", "Cabinet", "Responsive"],
+    services: ["Development", "UX", "Account", "Responsive"],
     intro:
       "KarGo24 is a dispatch-style web service: customers find special-equipment and truck owners in the right city themselves. A marketplace for individuals and companies, direct contact, and site-service bonuses.",
     painLead:
-      "On general classifieds for special equipment — noise and middlemen. They needed their own niche: a “no dispatcher” service where customer and equipment owner meet directly — with a usable cabinet, payments, and a brand face, not a stock template.",
+      "On general classifieds for special equipment — noise and middlemen. They needed their own niche: a no-dispatcher service where customer and equipment owner meet directly — with a usable account, payments, and a brand face, not a stock template.",
     challenge:
-      "Build a living marketplace from scratch: specialization, memorable UI, personal cabinet, responsive layout, and filled listings — so people stay on the site instead of leaving in 15 seconds.",
+      "Build a living marketplace from scratch: specialization, memorable UI, personal account, responsive layout, and filled listings — so people stay on the site instead of leaving in 15 seconds.",
     pains: [
       {
         title: "Niche drowned in general boards",
@@ -159,18 +159,18 @@ export const caseTranslationsEnBatch6: Record<string, Partial<CaseStudy>> = {
         text: "Another grey catalog looks like every competitor. They needed custom icons, animation, and clear roles: customer / equipment owner / carrier.",
       },
       {
-        title: "Without a cabinet the service is dead",
-        text: "Listings, balance, bonuses, and payments must live in a personal cabinet — or the marketplace doesn’t scale.",
+        title: "Without an account the service is dead",
+        text: "Listings, balance, bonuses, and payments must live in a personal account — or the marketplace doesn’t scale.",
       },
     ],
     journeyLead:
-      "We locked a narrow niche and went into product: homepage search by tonnage and equipment → custom icon pack → responsive → personal cabinet with online payments and user roles.",
+      "We locked a narrow niche and went into product: homepage search by tonnage and equipment → custom icon pack → responsive → personal account with online payments and user roles.",
     approach: [
       "Locked the niche: find and rent special equipment / trucks without a dispatcher",
       "Built the homepage: hero, 1–20 t tonnage, service sections",
       "Drew a custom equipment icon pack and homepage animation",
       "Full responsive layout — no separate app",
-      "Built the cabinet from scratch: listings, companies, balance, bonuses",
+      "Built the account from scratch: listings, companies, balance, bonuses",
       "Connected top-ups via an online payment gateway",
       "Split flows: customer / special-equipment owner / freight owner",
       "Filled unique offers and watched engagement",
@@ -182,20 +182,20 @@ export const caseTranslationsEnBatch6: Record<string, Partial<CaseStudy>> = {
           "The customer finds equipment in the city and messages the owner directly — no extra middleman. Often simpler and cheaper.",
       },
       {
-        jargon: "Personal cabinet + online payments",
+        jargon: "Personal account + online payments",
         plain:
-          "In the cabinet — listings, balance, and bonuses. The account tops up online through a payment service, no cashier visit.",
+          "In the account — listings, balance, and bonuses. The balance tops up online through a payment service, no cashier visit.",
       },
       {
         jargon: "Custom icons and responsive",
         plain:
-          "Not a foreign UI kit: equipment is recognizable by icons. On a phone the service reads like on desktop.",
+          "Not a generic UI kit: equipment is recognizable by icons. On a phone the service reads like on desktop.",
       },
     ],
     sections: [
       {
         title: "Homepage as service entry",
-        body: "Clear right away what the site is for: find freight and special equipment without a dispatcher. Tonnage cards, service menu, CTA to post a listing or enter the cabinet.",
+        body: "Clear right away what the site is for: find freight and special equipment without a dispatcher. Tonnage cards, service menu, CTA to post a listing or enter the account.",
         image: "/images/cases/kargo24/cover.webp",
       },
       {
@@ -204,7 +204,7 @@ export const caseTranslationsEnBatch6: Record<string, Partial<CaseStudy>> = {
         image: "/images/cases/kargo24/icons.webp",
       },
       {
-        title: "Cabinet from scratch",
+        title: "Account from scratch",
         body: "Listings, companies, banners, balance with bonuses, payments, and support. Separate flows for customer, equipment owner, and carrier.",
         image: "/images/cases/kargo24/cabinet-1.webp",
       },
@@ -222,12 +222,12 @@ export const caseTranslationsEnBatch6: Record<string, Partial<CaseStudy>> = {
       },
       {
         src: "/images/cases/kargo24/cabinet-2.webp",
-        alt: "KarGo24 personal cabinet",
-        caption: "Cabinet: listings and balance",
+        alt: "KarGo24 personal account",
+        caption: "Account: listings and balance",
       },
       {
         src: "/images/cases/kargo24/cabinet-3.webp",
-        alt: "Cabinet settings",
+        alt: "Account settings",
         caption: "Settings and roles",
       },
       {
@@ -237,52 +237,52 @@ export const caseTranslationsEnBatch6: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "In a few months we built a niche marketplace: responsive, custom UI, working cabinet with payments. Average time on site — over 4 minutes. Domain kargo24.su — project of that period (hosting now shows a stub).",
+      "In a few months we built a niche marketplace: responsive, custom UI, working account with payments. Average time on site — over 4 minutes. Domain kargo24.su — project of that period (hosting now shows a stub).",
     highlights: [
       "Niche: special equipment and freight without a dispatcher",
       "Custom icon pack and homepage animation",
       "Full responsive layout",
-      "Cabinet from scratch + online payments",
+      "Account from scratch + online payments",
       "Roles: customer / equipment / freight",
       "Average time on site >4 minutes",
     ],
     results: [
       { label: "Time on site", value: ">4 min" },
-      { label: "Cabinet", value: "from scratch" },
+      { label: "Account", value: "from scratch" },
       { label: "Payments", value: "online" },
       { label: "Format", value: "service" },
     ],
-    ctaTitle: "Need a niche marketplace with a cabinet?",
+    ctaTitle: "Need a niche marketplace with accounts?",
     ctaText:
-      "We’ll build a service for your vertical — responsive, with a cabinet and clear user roles, like KarGo24.",
+      "We’ll build a service for your vertical — responsive, with accounts and clear user roles, like KarGo24.",
   },
 
   datagon: {
     title: "Datagon — price parsing and matching",
     client: "Datagon",
     industry: "E-commerce / pricing",
-    location: "Russia",
+    location: "Product",
     period: "product · Node.js · ongoing",
     metric: "60k+",
     metricLabel: "URLs in the parse queue",
     summary:
-      "Internal Datagon web service: competitor price parsing, catalog sync from Bitrix/Webasyst, smart SKU matching, and export to MoySklad. Live — p.datagon.ru.",
+      "Internal Datagon web service: competitor price parsing, catalog sync from Bitrix/Webasyst, smart SKU matching, and export to MoySklad. Live at p.datagon.ru.",
     coverAlt: "Datagon dashboard — queues and syncs",
     services: ["Node.js", "Parsing", "MoySklad", "ERP/CMS", "Automation"],
     intro:
       "Datagon (p.datagon.ru) is a panel for e-commerce teams: which competitor, which SKUs, which prices, what’s in stock for us and them, which pairs are matched, what’s ready for MoySklad. Stack — Node.js + Express, MySQL, Cheerio; UI on ArchitectUI. Nearby in the ecosystem — Titlo SEO platform (titlo.ru), a different product.",
     painLead:
-      "Competitor prices were collected by hand or with scripts and no panel: no queue, no history, no “our catalog ↔ their card ↔ inventory” link. Errors showed up already in accounting.",
+      "Competitor prices were collected by hand or with scripts and no panel: no queue, no history, no link from our catalog ↔ their card ↔ inventory. Errors showed up already in accounting.",
     challenge:
       "Build a working service: competitor projects, URL queue, results, own sites from Bitrix/Webasyst DBs, matching by SKU and title, export to MoySklad — with a dashboard and background workers.",
     pains: [
       {
         title: "Competitor prices by hand",
-        text: "Without a queue and selectors each site is a separate script. Retries and failures aren’t visible in one place.",
+        text: "Without a queue and selectors, each site is a separate script. Retries and failures aren’t visible in one place.",
       },
       {
         title: "Catalog drifts from inventory",
-        text: "Products in Bitrix/Webasyst and positions in MoySklad live apart — need sync and explicit matches.",
+        text: "Products in Bitrix/Webasyst and positions in MoySklad live apart — you need sync and explicit matches.",
       },
       {
         title: "SKU matching",
@@ -373,6 +373,6 @@ export const caseTranslationsEnBatch6: Record<string, Partial<CaseStudy>> = {
       { label: "Site", value: "live" },
     ],
     ctaTitle: "Need a price parser or catalog ↔ inventory link?",
-    ctaText: "We’ll build the queue, matching, and export — like Datagon.",
+    ctaText: "We’ll build the queue, matching, and export — the same way we did for Datagon.",
   },
 };

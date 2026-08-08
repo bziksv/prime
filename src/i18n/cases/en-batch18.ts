@@ -16,15 +16,15 @@ export const caseTranslationsEnBatch18: Record<string, Partial<CaseStudy>> = {
     metric: "~90",
     metricLabel: "showroom inquiries per month",
     summary:
-      "SEO and paid search for the new Nissan Motor Land showroom: start in ~11 days, 150+ phrases (141 in TOP-10), TOP planned 2–6 months. ≈90 showroom inquiries monthly. 2020 landing — separate case.",
+      "SEO and Google Ads for the new Nissan Motor Land showroom: start in ~11 days, 150+ phrases (141 on page one), page one planned 2–6 months. About 90 showroom inquiries monthly. 2020 landing — separate case.",
     coverAlt: "Nissan Motor Land showroom — Voronezh",
-    services: ["SEO", "Paid search", "Content", "CTA"],
+    services: ["SEO", "Google Ads", "Content", "CTA"],
     intro:
-      "In winter 2016 Voronezh opened a Nissan showroom for Motor Land. Before that the brand had “burned” in the city: the previous dealership closed. They needed the fastest possible start in search and paid ads. Later we built a promo landing — a separate development case.",
+      "In winter 2016 Voronezh opened a Nissan showroom for Motor Land. Before that the brand had burned in the city: the previous dealership closed. They needed the fastest possible start in search and paid ads. Later we built a promo landing — a separate development case.",
     painLead:
       "The site was assembled on the eve of opening: crawlers weren’t there yet, SEO essentials were missed, content and branded ad tone fell on us. 152 code errors, zero organic and web profit.",
     challenge:
-      "In ~11 days (goal — under 2 weeks) fix tech, fill the site to Nissan brand guidelines, launch SEO (150+ phrases) and paid search. Climbing into TOP-10 — planned over 2–6 months; inquiries and sales — from the first months of visibility growth.",
+      "In ~11 days (goal — under 2 weeks) fix tech, fill the site to Nissan brand guidelines, launch SEO (150+ phrases) and Google Ads. Page-one growth — planned over 2–6 months; inquiries and sales — from the first months of visibility growth.",
     pains: [
       {
         title: "Burning start for a new showroom",
@@ -36,32 +36,32 @@ export const caseTranslationsEnBatch18: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "152 tech bugs · zero from the web",
-        text: "Code was failing; visits and internet profit = 0. Without fixes and a core you don’t enter TOP.",
+        text: "Code was failing; visits and internet profit = 0. Without fixes and a keyword set you don’t reach page one.",
       },
     ],
     journeyLead:
-      "Audit, error breakdown, semantics and strategy vs competitors. Studied Nissan brand kit, cleaned code, shaped content and CTAs, launched SEO and paid search. After ~11 days channels were live; then rankings on 150+ phrases and showroom visits.",
+      "Audit, error breakdown, keywords and strategy vs competitors. Studied Nissan brand kit, cleaned code, shaped content and CTAs, launched SEO and Google Ads. After ~11 days channels were live; then rankings on 150+ phrases and showroom visits.",
     approach: [
       "Full audit and fix of 152 tech bugs",
       "Content and styling to Nissan brand / market kit",
-      "Semantics → 150+ phrases, competitor analysis in TOP-10",
+      "Keywords → 150+ phrases, competitor analysis on page one",
       "On-page optimization, SEO copy, articles, CTAs",
-      "Setup and launch of branded paid search",
+      "Setup and launch of branded Google Ads",
       "Analytics on rankings, CTR, traffic, inquiries, and sales",
     ],
     plainSpeak: [
       {
         jargon: "Start in ~11 days",
         plain:
-          "We didn’t wait months: fixed the site, filled it, and switched on SEO with paid search for the showroom opening. That’s channel prep — not instant TOP.",
+          "We didn’t wait months: fixed the site, filled it, and switched on SEO with Google Ads for the showroom opening. That’s channel prep — not instant page one.",
       },
       {
-        jargon: "150+ phrases · 141 in TOP-10",
+        jargon: "150+ phrases · 141 on page one",
         plain:
-          "A large core for the dealer and models. Rankings grew in the planned 2–6 month window after work started.",
+          "A large keyword set for the dealer and models. Rankings grew in the planned 2–6 month window after work started.",
       },
       {
-        jargon: "Paid search with high CTR",
+        jargon: "Google Ads with high CTR",
         plain:
           "Branded ads in tough competition: higher CTR — lower CPC, more people reach the showroom.",
       },
@@ -73,8 +73,8 @@ export const caseTranslationsEnBatch18: Record<string, Partial<CaseStudy>> = {
         image: "/images/cases/motor-lend-nissan/cover.webp",
       },
       {
-        title: "Rankings on the core",
-        body: "150+ phrases; 141 in search TOP-10 in the report. Climbing into TOP — within the planned 2–6 months after prep.",
+        title: "Rankings on the keyword set",
+        body: "150+ phrases; 141 on page one of search in the report. Page-one growth — within the planned 2–6 months after prep.",
         image: "/images/cases/motor-lend-nissan/pos.webp",
         fit: "contain",
       },
@@ -85,7 +85,7 @@ export const caseTranslationsEnBatch18: Record<string, Partial<CaseStudy>> = {
         fit: "contain",
       },
       {
-        title: "Paid search and CTR",
+        title: "Google Ads and CTR",
         body: "Solid ads in competition: high CTR lowers CPC and feeds the showroom with leads alongside organic.",
         image: "/images/cases/motor-lend-nissan/ctr.webp",
         fit: "contain",
@@ -117,11 +117,11 @@ export const caseTranslationsEnBatch18: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "In ~11 days we prepared the site, SEO, and paid search — that is not TOP. Climbing into TOP is planned over 2–6 months; 141 of 150+ phrases in TOP-10. Already in the first two months: ~358 visits/day, 81 inquiries, 19 sales. By ~4 months — ≈500 visits/day. Then — about ≈90 showroom inquiries monthly. Landing — separate case.",
+      "In ~11 days we prepared the site, SEO, and Google Ads — that is not the same as page one. Rankings were planned over 2–6 months; 141 of 150+ phrases on page one. Already in the first two months: ~358 visits/day, 81 inquiries, 19 sales. By ~4 months — ≈500 visits/day. Then — about 90 showroom inquiries monthly. Landing — separate case.",
     highlights: [
-      "SEO + paid search for new Nissan showroom · Motor Land",
-      "Prep ~11 days · 150+ phrases (141 in TOP-10)",
-      "TOP planned 2–6 mo. (month-by-month growth)",
+      "SEO + Google Ads for new Nissan showroom · Motor Land",
+      "Prep ~11 days · 150+ phrases (141 on page one)",
+      "Page one planned 2–6 mo. (month-by-month growth)",
       "152 tech bugs cleaned · content to Nissan brand kit",
       "First 2 mo.: ~358 visits/day · 81 inquiries · 19 sales",
       "By ~4 mo.: ≈500 visits/day · ≈90 showroom inquiries/mo.",
@@ -131,11 +131,11 @@ export const caseTranslationsEnBatch18: Record<string, Partial<CaseStudy>> = {
       { label: "Phrases", value: "150+" },
       { label: "Prep", value: "~11 days" },
       { label: "Showroom / mo.", value: "~90" },
-      { label: "TOP", value: "2–6 mo." },
+      { label: "Page one", value: "2–6 mo." },
     ],
     ctaTitle: "Need a fast dealer start in search and ads?",
     ctaText:
-      "We’ll raise the site and channels for a showroom opening — like Nissan Motor Land.",
+      "We’ll raise the site and channels for a showroom opening — the same way we did for Nissan Motor Land.",
   },
 
   "motorland-kuzov": {
@@ -147,7 +147,7 @@ export const caseTranslationsEnBatch18: Record<string, Partial<CaseStudy>> = {
     metric: "~120",
     metricLabel: "search calls per month",
     summary:
-      "SEO for Motor Land’s branded body shop: 101 phrases, TOP over 2–6 months and ≈120 calls a month — plus site fixes: cleaned prior developer issues and shipped what promotion needed to hold.",
+      "SEO for Motor Land’s branded body shop: 101 phrases, page one over 2–6 months and about 120 calls a month — plus site fixes: cleaned prior developer issues and shipped what promotion needed to hold.",
     coverAlt: "Paint booth in the body shop",
     services: ["SEO", "Site rework", "Content", "CTA"],
     intro:
@@ -155,11 +155,11 @@ export const caseTranslationsEnBatch18: Record<string, Partial<CaseStudy>> = {
     painLead:
       "Body repair in the city is tough competition. The unit site was blocking promotion: leftover bugs from prior developers — broken layout, broken forms, weak landings, awkward CTAs. Without fixes SEO hit a ceiling: people found the page and didn’t leave a request.",
     challenge:
-      "Get the site in order (dev errors, conversion) and in ~1 month prepare SEO. Climbing into TOP-10 — planned over 2–6 months; search bookings grow with rankings.",
+      "Get the site in order (dev errors, conversion) and in ~1 month prepare SEO. Page-one growth — planned over 2–6 months; search bookings grow with rankings.",
     pains: [
       {
         title: "Competition for “body repair”",
-        text: "High-frequency phrases are taken. Without a core, copy, and working CTAs the site never reaches a call.",
+        text: "High-frequency phrases are taken. Without a keyword set, copy, and working CTAs the site never reaches a call.",
       },
       {
         title: "Site bugs from prior developers",
@@ -171,11 +171,11 @@ export const caseTranslationsEnBatch18: Record<string, Partial<CaseStudy>> = {
       },
     ],
     journeyLead:
-      "First we tore into the site: what blocks a request, what’s broken, what’s missing. In parallel we built a 101-phrase core, optimized pages, wrote copy and articles. Then — rankings, traffic, and calls/bookings.",
+      "First we tore into the site: what blocks a request, what’s broken, what’s missing. In parallel we built a 101-phrase keyword set, optimized pages, wrote copy and articles. Then — rankings, traffic, and calls/bookings.",
     approach: [
       "Body-shop site audit: found and fixed prior developer issues",
       "Reworked landings, forms, and CTA elements for repair booking",
-      "Semantic core: 101 commercial body-shop phrases",
+      "Keyword set: 101 commercial body-shop phrases",
       "On-page optimization and sales SEO copy",
       "Article section + ranking and call-conversion analytics",
       "Iterations on competitor weak spots in the SERP",
@@ -187,19 +187,19 @@ export const caseTranslationsEnBatch18: Record<string, Partial<CaseStudy>> = {
           "The site was already “done” by someone. We didn’t rewrite from scratch — found what broke requests, fixed it, and made it work.",
       },
       {
-        jargon: "101 phrases in TOP-10",
+        jargon: "101 phrases on page one",
         plain:
-          "The client approved the query list. Nearly all locked into search TOP-10 — where people look before booking service.",
+          "The client approved the query list. Nearly all locked onto page one of search — where people look before booking service.",
       },
       {
         jargon: "CTAs on landings",
         plain:
-          "“Book”, phones, and forms where the person already understands the service — and they actually work, not “sit for looks”.",
+          "“Book,” phones, and forms where the person already understands the service — and they actually work, not “sit for looks.”",
       },
       {
         jargon: "≈120 calls a month",
         plain:
-          "A steady inquiry flow to the shop from search — not one-off spikes “for a report screenshot”.",
+          "A steady inquiry flow to the shop from search — not one-off spikes “for a report screenshot.”",
       },
     ],
     sections: [
@@ -210,12 +210,12 @@ export const caseTranslationsEnBatch18: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Site first, then rankings",
-        body: "Alongside SEO we fixed what blocked conversion: layout and logic bugs from prior developers, booking forms, landings for shop services. Otherwise TOP-10 would give views, not calls.",
+        body: "Alongside SEO we fixed what blocked conversion: layout and logic bugs from prior developers, booking forms, landings for shop services. Otherwise page one would give views, not calls.",
         image: "/images/cases/motorland-kuzov/workshop-extra.webp",
       },
       {
-        title: "Rankings on the core",
-        body: "Keyword report: the client approved 101 phrases. Nearly all — in TOP-10.",
+        title: "Rankings on the keyword set",
+        body: "Keyword report: the client approved 101 phrases. Nearly all — on page one.",
         image: "/images/cases/motorland-kuzov/ml-pos.webp",
         fit: "contain",
       },
@@ -240,24 +240,24 @@ export const caseTranslationsEnBatch18: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "We fixed the site for requests, prepared body-shop SEO in ~1 month — that is not TOP. Climbing into TOP is planned over 2–6 months; we brought ≈120 calls a month — with a 101-phrase core.",
+      "We fixed the site for requests, prepared body-shop SEO in ~1 month — that is not the same as page one. Rankings were planned over 2–6 months; we brought about 120 calls a month — with a 101-phrase keyword set.",
     highlights: [
       "Site rework: fixed prior developer issues",
       "Working CTAs and landings for repair booking",
-      "101 phrases — nearly all in search TOP-10",
+      "101 phrases — nearly all on page one of search",
       "SEO prep ~1 mo.",
       "≈120 web calls monthly",
-      "TOP planned 2–6 mo. (month-by-month growth)",
+      "Page one planned 2–6 mo. (month-by-month growth)",
       "Focus on body shop, not the dealership",
     ],
     results: [
       { label: "Phrases", value: "101" },
       { label: "Prep", value: "~1 mo." },
-      { label: "TOP", value: "2–6 mo." },
+      { label: "Page one", value: "2–6 mo." },
       { label: "Calls / mo.", value: "~120" },
     ],
     ctaTitle: "Need auto-service bookings from search?",
     ctaText:
-      "We’ll fix the site for requests and climb into TOP-10 — like Motor Land’s body shop.",
+      "We’ll fix the site for requests and grow page-one rankings — the same way we did for Motor Land’s body shop.",
   },
 };

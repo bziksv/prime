@@ -332,13 +332,13 @@ const webRu: WebContent = {
 
 const webEn: WebContent = {
   path: "/en/web/",
-  metaTitle: "Web development — PRIME",
+  metaTitle: "Websites — PRIME",
   metaDescription:
-    "Websites that convert: landing pages, brochure sites, corporate sites, and e-commerce. WordPress, Next.js, Astro, Laravel, Vue, Node.js — shipped faster and leaner than a from-zero build.",
-  serviceName: "Web development",
+    "Websites that convert: landing pages, brochure sites, corporate sites, and stores. WordPress, Next.js, Astro, Laravel, Vue, Node.js — shipped faster and leaner than a from-scratch build.",
+  serviceName: "Websites",
   serviceType: "Web development",
   breadcrumbHome: "Home",
-  breadcrumbCurrent: "Web development",
+  breadcrumbCurrent: "Websites",
   menuLabel: "Menu",
   ctaTop: "Talk to us",
   heroWordmark: "PRIME",
@@ -354,7 +354,7 @@ const webEn: WebContent = {
   heroFlankConceptLabel: "Motion-led",
   heroFlankConceptTitle: "Showpiece<br />energy",
   heroFlankConceptText:
-    "Parallax, live effects, and 3D — when the site should stick with people.",
+    "Parallax, live effects, and 3D — when the site should stick in people’s minds.",
   heroCtaPrimary: "Discuss your build",
   heroCtaSecondary: "See styles",
   heroScrollLabel: "scroll down",
@@ -376,7 +376,7 @@ const webEn: WebContent = {
       steps: [
         { n: "01", title: "Foundation", text: "Grid, responsive, forms — already in the base" },
         { n: "02", title: "Brand", text: "Colors, copy, and visuals dialed to you" },
-        { n: "03", title: "Launch", text: "1.5–3 mo. instead of 5–6 from zero" },
+        { n: "03", title: "Launch", text: "1.5–3 mo. instead of 5–6 from scratch" },
       ],
     },
     items: [
@@ -400,7 +400,7 @@ const webEn: WebContent = {
           {
             label: "Corporate",
             what: "Services and catalog without a buyer account",
-            how: "SEO-ready structure, sections, forms. Orders by phone or form. Ready for search.",
+            how: "SEO-ready structure, sections, forms. Orders by phone or form. Ready for Google Search.",
           },
           {
             label: "Store",
@@ -414,7 +414,7 @@ const webEn: WebContent = {
         value: 10,
         unit: "",
         title: "platforms",
-        text: "WordPress, Next.js, Astro, Laravel, Vue, Node.js, Bitrix, Webasyst, and more — we pick what fits content and logic, worldwide.",
+        text: "WordPress, Next.js, Astro, Laravel, Vue, Node.js — plus Bitrix and Webasyst when the project needs them. We pick what fits content and logic, worldwide.",
         chips: [
           "WordPress",
           "Next.js",
@@ -434,8 +434,8 @@ const webEn: WebContent = {
         display: "1.5–3",
         unit: "mo.",
         title: "instead of 5–6 months",
-        text: "Most launches land in one and a half to three months: the base is ready; brand, content, and business specifics remain — not half a year from zero.",
-        chips: ["Faster start", "Not from zero"],
+        text: "Most launches land in one and a half to three months: the base is ready; brand, content, and business specifics remain — not half a year from scratch.",
+        chips: ["Faster start", "Not from scratch"],
       },
     ],
   },
@@ -468,7 +468,7 @@ const webEn: WebContent = {
       statSuffix: "leads / mo.",
       swapInitial: [
         { value: "+46%", label: "more leads" },
-        { value: "TOP", label: "in search" },
+        { value: "P1", label: "page one" },
       ],
     },
   },
@@ -496,10 +496,10 @@ const webEn: WebContent = {
     rest: "The other 40% is the nuance: payments, business rules, post-launch fixes. A sharp developer closes those in hours, not weeks.",
     statValue: "−60%",
     statLabel: "developer time on a proven foundation",
-    chips: ["−60%", "faster", "not from zero"],
+    chips: ["−60%", "faster", "not from scratch"],
     points: [
       { title: "Lower cost", text: "You pay for focused hours — not weeks of reinvention." },
-      { title: "Faster to market", text: "Skip the from-zero build and get live sooner." },
+      { title: "Faster to market", text: "Skip the from-scratch build and get live sooner." },
       { title: "Budget for growth", text: "Put the savings into traffic for the new site." },
     ],
   },
@@ -615,7 +615,7 @@ const webEn: WebContent = {
       title: "Corporate site",
       price: "$1,650–$2,505",
       lead: "A services and catalog showcase without a buyer account. Orders by phone, form, or visit.",
-      note: "Structured for SEO when you’re ready to grow search.",
+      note: "Structured for SEO when you’re ready to grow in Google Search.",
       tags: ["catalog", "showcase", "SEO-ready"],
       screen: "/images/web-phone/corp.webp?v=2",
       badge: "B2B showcase",
@@ -646,7 +646,7 @@ const webEn: WebContent = {
     },
     {
       q: "How long until launch?",
-      a: "Usually 1.5–3 months instead of 5–6 from zero: the base is built; brand, content, and nuance (payments, ERP sync, integrations) are what remain.",
+      a: "Usually 1.5–3 months instead of 5–6 from scratch: the base is built; brand, content, and nuance (payments, ERP sync, integrations) are what remain.",
     },
     {
       q: "Landing page or corporate site?",
@@ -667,7 +667,7 @@ const webEn: WebContent = {
     "Format demo before work starts",
     "Style range: clean corporate to motion",
     "Landing, brochure, corporate, or store",
-    "Timeline — 1.5–3 mo. instead of 5–6 from zero",
+    "Timeline — 1.5–3 mo. instead of 5–6 from scratch",
   ],
   formName: "Name",
   formPhone: "Phone",
@@ -693,7 +693,7 @@ const webEn: WebContent = {
   formSuccess: "Thanks — we got it. We’ll be in touch about your build.",
   formSource: "en-web",
   footerBrand: "PRIME",
-  footerTagline: "Web development · landing · store",
+  footerTagline: "Websites · landing · store",
 };
 
 const byLocale: Record<Locale, WebContent> = {

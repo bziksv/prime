@@ -206,21 +206,21 @@ const botsRu: BotsContent = {
 
 const botsEn: BotsContent = {
   path: "/en/bots/",
-  metaTitle: "Messenger bots — PRIME",
+  metaTitle: "Chatbots — PRIME",
   metaDescription:
-    "Telegram and messenger bots: menus, alerts, bookings, and login — wired to your site or CRM. Official APIs only. No spam, no gray-area shortcuts.",
-  serviceName: "Messenger bots",
+    "Telegram and messenger chatbots: menus, alerts, bookings, and login — wired to your site or CRM. Official APIs only. No spam, no gray-area shortcuts.",
+  serviceName: "Chatbots",
   serviceType: "Chatbot development",
   breadcrumbHome: "Home",
-  breadcrumbCurrent: "Messenger bots",
+  breadcrumbCurrent: "Chatbots",
   menuLabel: "Menu",
   ctaTop: "Talk to us",
   brandBefore: "PRIM",
   brandAccent: "E",
   heroTitleBefore: "Bots that deliver service ",
-  heroTitleAccent: "where customers already hang out",
+  heroTitleAccent: "where customers already chat",
   heroLead:
-    "Telegram and beyond: menus, alerts, booking, and login — no separate app, hooked into your site or CRM.",
+    "Telegram and beyond: menus, alerts, booking, and login — no separate app, wired into your site or CRM.",
   heroCtaPrimary: "Discuss your bot",
   heroCtaSecondary: "See how it looks",
   chatName: "Your bot",
@@ -262,7 +262,7 @@ const botsEn: BotsContent = {
     { role: "bot", text: "Done. Reminder will land here." },
   ],
   distort:
-    "The team replies late; the customer jumps to whoever answers first in Telegram. You’ve got a website — but no real-time channel.",
+    "The team replies late; the customer pings whoever answers first. You’ve got a website — but no real-time channel.",
   trust:
     "A bot isn’t a gimmick or a spam blast. It’s a product layer next to your site and CRM: login, menus, pushes, and bookings where people already are.",
   cycle:
@@ -438,7 +438,7 @@ const botsEn: BotsContent = {
   formSuccess: "Thanks — we got it. We’ll follow up about your bot.",
   formSource: "en-bots",
   footerBrand: "PRIME",
-  footerTagline: "Messenger bots · Telegram · integrations",
+  footerTagline: "Chatbots · Telegram · integrations",
 };
 
 export function getBotsContent(locale: Locale): BotsContent {

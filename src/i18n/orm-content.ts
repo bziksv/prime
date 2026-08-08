@@ -183,22 +183,22 @@ const ormRu: OrmContent = {
 
 const ormEn: OrmContent = {
   path: "/en/reputation/",
-  metaTitle: "Reputation management — PRIME",
+  metaTitle: "Online reputation — PRIME",
   metaDescription:
-    "Online reputation management: audit, strategy, negative-review monitoring, and genuine positive social proof on Google Maps, Business Profile, and review sites. No fake reviews.",
-  serviceName: "Reputation management",
+    "Online reputation: audit, strategy, negative-review monitoring, and genuine positive social proof on Google Maps, Business Profile, and review sites. No fake reviews.",
+  serviceName: "Online reputation",
   serviceType: "Online reputation management",
   breadcrumbHome: "Home",
-  breadcrumbCurrent: "Reputation management",
+  breadcrumbCurrent: "Online reputation",
   menuLabel: "Menu",
-  ctaTop: "Get in touch",
+  ctaTop: "Talk to us",
   brandBefore: "PRIM",
   brandAccent: "E",
-  heroTitleBefore: "Reputation management — take ",
+  heroTitleBefore: "Online reputation — take ",
   heroTitleAccent: "trust",
   heroTitleAfter: " back",
   heroLead:
-    "Happy customers stay quiet. Angry ones don’t. We build the monitoring, reply playbooks, and review habits that make your online reputation match how you actually operate.",
+    "Happy customers stay quiet. Angry ones don’t. We build monitoring, reply playbooks, and review habits so your online reputation matches how you actually operate.",
   heroCtaPrimary: "Book a consult",
   heroCtaSecondary: "What we do",
   scoreLabel: "Trust balance",
@@ -211,7 +211,7 @@ const ormEn: OrmContent = {
     },
     {
       title: "Negative voice",
-      text: "Posts first, posts loud — and sets the tone in search.",
+      text: "Posts first, posts loud — and sets the tone in Google Search.",
     },
     {
       title: "Our job",
@@ -239,7 +239,7 @@ const ormEn: OrmContent = {
     {
       n: "01",
       title: "Audit and reputation strategy",
-      text: "See how you’re perceived today across maps, review sites, and search. Build a plan your team can actually execute.",
+      text: "See how you’re perceived today across Google Maps, review sites, and search. Build a plan your team can actually execute.",
     },
     {
       n: "02",
@@ -258,7 +258,8 @@ const ormEn: OrmContent = {
     },
   ],
   platformsTitle: "Where reputation closes the deal",
-  platformsLead: "Maps, review sites, and search — the places customers decide before they ever call.",
+  platformsLead:
+    "Google Maps, review sites, and search — the places customers decide before they ever call.",
   platforms: [
     {
       title: "Google Maps / Business Profile",
@@ -269,7 +270,7 @@ const ormEn: OrmContent = {
       text: "Third-party platforms and industry directories — where people compare options and decide.",
     },
     {
-      title: "Search",
+      title: "Google Search",
       text: "What shows up for your brand name sets expectations before anyone hits your website.",
     },
     {
@@ -307,7 +308,7 @@ const ormEn: OrmContent = {
   outcomes: [
     {
       title: "A fairer portrait",
-      text: "Search and maps show the real picture: not just the misses, but the happy customers too.",
+      text: "Google Search and Maps show the real picture: not just the misses, but the happy customers too.",
     },
     {
       title: "Replies without chaos",
@@ -355,7 +356,7 @@ const ormEn: OrmContent = {
     },
     {
       q: "Which platforms do you cover?",
-      a: "Google Maps / Business Profile, key review sites, and what surfaces for your brand in search. We tune the mix to your niche.",
+      a: "Google Maps / Business Profile, key review sites, and what surfaces for your brand in Google Search. We tune the mix to your niche.",
     },
     {
       q: "Can we start with an audit only?",
@@ -366,7 +367,7 @@ const ormEn: OrmContent = {
   ctaLead:
     "Get in touch — we’ll review the current tone and propose a plan: audit, processes, or ongoing support.",
   ctaPoints: [
-    "Maps and review-site audit — no fake ratings",
+    "Google Maps and review-site audit — no fake ratings",
     "Negative handling and positive growth",
     "Team playbooks — replies and ownership",
     "30-minute niche review · no obligation",
@@ -382,14 +383,14 @@ const ormEn: OrmContent = {
     "Team training",
     "Full package",
   ],
-  formMessage: "Where does it hurt most — maps, review sites, search?",
-  formAgreeBefore: "I agree to the processing of personal data under our",
+  formMessage: "Where does it hurt most — Maps, review sites, search?",
+  formAgreeBefore: "I agree to personal data processing under our",
   formAgreePolicy: "privacy policy",
   formSubmit: "Send request",
   formSuccess: "Thanks! Your reputation request is in — we’ll be in touch.",
   formSource: "en-reputation",
   footerBrand: "PRIME",
-  footerTagline: "Reputation management · reviews · trust",
+  footerTagline: "Online reputation · reviews · trust",
 };
 
 export function getOrmContent(locale: Locale): OrmContent {

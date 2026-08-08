@@ -15,15 +15,15 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
     metric: "~50",
     metricLabel: "clients per month from search",
     summary:
-      "SEO for a children’s development center: 20 target phrases, prep ~1 month, TOP planned 2–6 months on speech therapy and psychology in Voronezh, ≈50 clients per month — classes and enrollments.",
+      "SEO for a children’s development center: 20 target phrases, prep ~1 month, page one planned 2–6 months on speech therapy and psychology in Voronezh, about 50 clients per month — classes and enrollments.",
     coverAlt: "Klyaksa — children’s development and therapy center",
     services: ["SEO", "Content", "CTA"],
     intro:
-      "In 2014 Klyaksa leadership asked us to assess the niche: does it make sense to promote a children’s center in search. Analysis showed demand and moderate competition — we started with a core of the 20 most targeted phrases.",
+      "In 2014 Klyaksa leadership asked us to assess the niche: does it make sense to promote a children’s center in search. Analysis showed demand and moderate competition — we started with a set of the 20 most targeted phrases.",
     painLead:
-      "Parents search for a speech therapist, psychologist, physical therapy, and preschool/school prep in Google. Before us — zero phrases in TOP, no organic, no web clients. They needed rankings and kids enrolled in classes.",
+      "Parents search for a speech therapist, psychologist, physical therapy, and preschool/school prep in Google. Before us — zero ranking phrases, no organic, no web clients. They needed rankings and kids enrolled in classes.",
     challenge:
-      "In ~1 month prepare SEO for a children’s center: a narrow core of 20 phrases, copy, CTAs. Climbing into TOP-10 — planned over 2–6 months.",
+      "In ~1 month prepare SEO for a children’s center: a narrow set of 20 phrases, copy, CTAs. Page-one growth — planned over 2–6 months.",
     pains: [
       {
         title: "Is search advertising worth it at all?",
@@ -31,7 +31,7 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Zero visibility",
-        text: "0 queries in TOP, visits and web clients = 0. Need a launch from scratch.",
+        text: "Zero ranking queries, visits and web clients = 0. Need a launch from scratch.",
       },
       {
         title: "Goal — kids in classes",
@@ -42,7 +42,7 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
       "We gathered 100+ keywords; the client picked 20. Built strategy, optimized the site, wrote copy and articles, added CTAs. In ~1 month prep was done and the project was live; then rankings and a flow of parents.",
     approach: [
       "Niche and competition analysis in the region",
-      "Semantic core (100+) and selecting 20 target phrases",
+      "Keyword research (100+) and selecting 20 target phrases",
       "Promotion strategy for a children’s center",
       "Site optimization from scratch + on-page work",
       "Sales SEO copy and an article section",
@@ -52,12 +52,12 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "SEO for a children’s center",
         plain:
-          "A parent searches “children’s speech therapist Voronezh” or “child development center” — and should call Klyaksa, not a neighbouring TOP-10 club.",
+          "A parent searches “children’s speech therapist Voronezh” or “child development center” — and should call Klyaksa, not a neighbouring page-one club.",
       },
       {
         jargon: "20 phrases from 100+",
         plain:
-          "We built a wide core; the client kept the most targeted: speech therapy, psychology, physical therapy, preschool and school prep. That’s what we measure.",
+          "We built a wide set; the client kept the most targeted: speech therapy, psychology, physical therapy, preschool and school prep. That’s what we measure.",
       },
       {
         jargon: "CTAs on the site",
@@ -72,8 +72,8 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
         image: "/images/cases/klyaksa/cover.webp",
       },
       {
-        title: "Rankings on the core",
-        body: "The client approved 20 phrases. Report — TOP on children’s psychologist and speech therapist, physical therapy, development center, and preschool/school prep.",
+        title: "Rankings on the keyword set",
+        body: "The client approved 20 phrases. Report — page one on children’s psychologist and speech therapist, physical therapy, development center, and preschool/school prep.",
         image: "/images/cases/klyaksa/pos.webp",
         fit: "contain",
       },
@@ -85,7 +85,7 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Classes at the center",
-        body: "Games, blocks, creativity — why families come. Site and semantics lead to class enrollment.",
+        body: "Games, blocks, creativity — why families come. Site and keywords lead to class enrollment.",
         image: "/images/cases/klyaksa/photo.webp",
       },
     ],
@@ -98,25 +98,25 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "In ~1 month we prepared SEO — that is not TOP. Climbing into TOP is planned over 2–6 months; we held ≈50 web clients monthly. In the first two months — dozens of calls and 28 kids in classes.",
+      "In ~1 month we prepared SEO — that is not the same as page one. Rankings were planned over 2–6 months; we held about 50 web clients monthly. In the first two months — dozens of calls and 28 kids in classes.",
     highlights: [
       "Children’s center SEO in Voronezh",
-      "20 target phrases from a 100+ core · prep ~1 mo.",
-      "TOP — speech therapy, psychology, physical therapy, development",
+      "20 target phrases from a 100+ set · prep ~1 mo.",
+      "Page one — speech therapy, psychology, physical therapy, development",
       "≈50 web clients per month",
       "First 2 mo.: ~50 visits/day · 42 calls · 28 kids",
-      "TOP planned 2–6 mo. (month-by-month growth)",
+      "Page one planned 2–6 mo. (month-by-month growth)",
       "Started after niche analysis in 2014",
     ],
     results: [
       { label: "Phrases", value: "20" },
       { label: "Prep", value: "~1 mo." },
       { label: "Clients / mo.", value: "~50" },
-      { label: "TOP", value: "2–6 mo." },
+      { label: "Page one", value: "2–6 mo." },
     ],
     ctaTitle: "Need children’s center enrollments from search?",
     ctaText:
-      "We’ll build semantics for speech therapy, psychology, and development — like Klyaksa in Voronezh.",
+      "We’ll build keywords for speech therapy, psychology, and development — the same way we did for Klyaksa in Voronezh.",
   },
 
   samsungvrn: {
@@ -128,15 +128,15 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
     metric: "~200",
     metricLabel: "clients per month from search",
     summary:
-      "SEO for authorized Samsung service: 34 brand-only phrases, prep ~1 month, TOP planned 2–6 months on smartphone repair and service center, ≈200 clients per month.",
+      "SEO for authorized Samsung service: 34 brand-only phrases, prep ~1 month, page one planned 2–6 months on smartphone repair and service center, about 200 clients per month.",
     coverAlt: "Samsung Service Plaza Voronezh",
     services: ["SEO", "Content", "CTA"],
     intro:
-      "Appliance/gadget repair in search is tough competition and big budgets. The client wanted TOP specifically as a Samsung service: brand repair and warranty only, across the region.",
+      "Appliance/gadget repair in search is tough competition and big budgets. The client wanted page one specifically as a Samsung service: brand repair and warranty only, across the region.",
     painLead:
-      "Before us — zero phrases in TOP, no organic, no web orders. They needed rankings on Samsung queries and repair requests — not a diluted “repair anything” core.",
+      "Before us — zero ranking phrases, no organic, no web orders. They needed rankings on Samsung queries and repair requests — not a diluted “repair anything” keyword set.",
     challenge:
-      "In ~1 month prepare SEO for a narrow niche: 34 Samsung-only phrases, copy, CTAs. Climbing into TOP-10 — planned over 2–6 months in the region.",
+      "In ~1 month prepare SEO for a narrow niche: 34 Samsung-only phrases, copy, CTAs. Page-one growth — planned over 2–6 months in the region.",
     pains: [
       {
         title: "Expensive service = SERP war",
@@ -144,18 +144,18 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Samsung service only",
-        text: "The client doesn’t repair “everything” — only Samsung gear. We built the core for smartphones, tablets, gadgets, vacuums, and brand warranty repair.",
+        text: "The client doesn’t repair “everything” — only Samsung gear. We built the set for smartphones, tablets, gadgets, vacuums, and brand warranty repair.",
       },
       {
         title: "Zero visibility",
-        text: "0 queries in TOP, visits and web orders = 0. Need a launch from scratch.",
+        text: "Zero ranking queries, visits and web orders = 0. Need a launch from scratch.",
       },
     ],
     journeyLead:
-      "We built Samsung semantics; the client picked 34 phrases. Optimized the site, wrote copy and articles, added CTAs. In ~1 month prep was done and the project was live; then regional rankings and a flow of repair requests.",
+      "We built Samsung keywords; the client picked 34 phrases. Optimized the site, wrote copy and articles, added CTAs. In ~1 month prep was done and the project was live; then regional rankings and a flow of repair requests.",
     approach: [
       "Samsung repair niche and SERP competition analysis",
-      "Semantics for the Samsung brand only (34 phrases)",
+      "Keywords for the Samsung brand only (34 phrases)",
       "Promotion strategy for a regional service center",
       "Site optimization from scratch + on-page work",
       "Sales SEO copy and an article section",
@@ -170,7 +170,7 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "34 phrases",
         plain:
-          "The client approved the core: smartphones, tablets, gadgets, vacuums, home theaters, warranty repair. We hold TOP on them and count orders.",
+          "The client approved the set: smartphones, tablets, gadgets, vacuums, home theaters, warranty repair. We hold page one on them and count orders.",
       },
       {
         jargon: "CTAs on the site",
@@ -185,8 +185,8 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
         image: "/images/cases/samsungvrn/cover.webp",
       },
       {
-        title: "Rankings on the core",
-        body: "The client approved 34 phrases. Report — TOP on Samsung smartphone/phone repair, service center, warranty repair, and gadgets.",
+        title: "Rankings on the keyword set",
+        body: "The client approved 34 phrases. Report — page one on Samsung smartphone/phone repair, service center, warranty repair, and gadgets.",
         image: "/images/cases/samsungvrn/pos.webp",
         fit: "contain",
       },
@@ -211,25 +211,25 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "In ~1 month we prepared Samsung SEO — that is not TOP. Climbing into TOP is planned over 2–6 months; we held ≈200 web clients monthly. In the first two months — dozens of repair requests and orders.",
+      "In ~1 month we prepared Samsung SEO — that is not the same as page one. Rankings were planned over 2–6 months; we held about 200 web clients monthly. In the first two months — dozens of repair requests and orders.",
     highlights: [
       "Samsung service-center SEO across the region",
       "34 brand-only phrases · prep ~1 mo.",
-      "TOP — Samsung service center / smartphone repair",
+      "Page one — Samsung service center / smartphone repair",
       "≈200 web clients per month",
       "First 2 mo.: ~24 visits/day · 82 requests · 62 repairs",
-      "TOP planned 2–6 mo. (month-by-month growth)",
+      "Page one planned 2–6 mo. (month-by-month growth)",
       "Separate case from Inzhener-servis (`remont`)",
     ],
     results: [
       { label: "Phrases", value: "34" },
       { label: "Prep", value: "~1 mo." },
       { label: "Clients / mo.", value: "~200" },
-      { label: "TOP", value: "2–6 mo." },
+      { label: "Page one", value: "2–6 mo." },
     ],
     ctaTitle: "Need Samsung service leads from search?",
     ctaText:
-      "We’ll build semantics for the brand and gadget repair — like Service Plaza in Voronezh.",
+      "We’ll build keywords for the brand and gadget repair — the same way we did for Service Plaza in Voronezh.",
   },
 
   ticiana: {
@@ -241,23 +241,23 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
     metric: "~500",
     metricLabel: "sales per month from search",
     summary:
-      "SEO for premium paints and plaster: 77 phrases without mass-market noise, prep ~1.5 months, TOP planned 2–6 months on decorative coatings in Voronezh, ≈500 sales per month.",
+      "SEO for premium paints and plaster: 77 phrases without mass-market noise, prep ~1.5 months, page one planned 2–6 months on decorative coatings in Voronezh, about 500 sales per month.",
     coverAlt: "TICIANA — premium paints and decorative finishes",
     services: ["SEO", "Site", "Content", "CTA"],
     intro:
       "Ticiana manufactures and sells premium paints, coatings, and plaster. That product needs a branded search approach — without “cheap” mass-market queries.",
     painLead:
-      "Premium in the SERP competes with mass market. We had to cut “inexpensive”/“cheap”, build a core for decorative paints and plaster, and bring orders — including wholesale clients.",
+      "Premium in the SERP competes with mass market. We had to cut “inexpensive”/“cheap,” build a keyword set for decorative paints and plaster, and bring orders — including wholesale clients.",
     challenge:
-      "In ~1.5 months prepare the site and SEO: 77 premium phrases, copy, CTAs. Climbing into TOP-10 — planned over 2–6 months.",
+      "In ~1.5 months prepare the site and SEO: 77 premium phrases, copy, CTAs. Page-one growth — planned over 2–6 months.",
     pains: [
       {
         title: "Premium ≠ mass market",
-        text: "Phrases with “inexpensive” and “cheap” dilute the brand. We removed them from the core — 77 targeted but more competitive queries remained.",
+        text: "Phrases with “inexpensive” and “cheap” dilute the brand. We removed them from the set — 77 targeted but more competitive queries remained.",
       },
       {
         title: "Zero visibility",
-        text: "0 queries in TOP, visits and web orders = 0. Need a site and SEO from scratch.",
+        text: "Zero ranking queries, visits and web orders = 0. Need a site and SEO from scratch.",
       },
       {
         title: "Goal — sales and wholesale",
@@ -267,7 +267,7 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
     journeyLead:
       "Under the SEO team we built a site for the brand and search realities, then optimized, wrote copy and articles, added CTAs. In ~1.5 months prep was done; then rankings on 77 phrases and sales.",
     approach: [
-      "Semantics with mass-market wording cut out",
+      "Keywords with mass-market wording cut out",
       "Competition analytics in decorative coatings",
       "Site built for brand and SEO requirements",
       "Optimization from scratch + on-page work",
@@ -283,7 +283,7 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
       {
         jargon: "77 phrases without “cheap”",
         plain:
-          "The core covers decorative paints, acrylics, plaster, and materials in Voronezh — without queries that pull mass market.",
+          "The set covers decorative paints, acrylics, plaster, and materials in Voronezh — without queries that pull mass market.",
       },
       {
         jargon: "CTAs on the site",
@@ -294,12 +294,12 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
     sections: [
       {
         title: "The art of finish — and in search",
-        body: "Premium paints and plaster need careful semantics and a branded site. SEO is tied to decorative materials, not “the cheapest can”.",
+        body: "Premium paints and plaster need careful keywords and a branded site. SEO is tied to decorative materials, not “the cheapest can.”",
         image: "/images/cases/ticiana/cover.webp",
       },
       {
-        title: "Rankings on the core",
-        body: "The client approved 77 phrases. Report — TOP on wall paint, decorative plaster, acrylic, and a decorative-materials store in Voronezh.",
+        title: "Rankings on the keyword set",
+        body: "The client approved 77 phrases. Report — page one on wall paint, decorative plaster, acrylic, and a decorative-materials store in Voronezh.",
         image: "/images/cases/ticiana/pos.webp",
         fit: "contain",
       },
@@ -311,7 +311,7 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
       },
       {
         title: "Interior with Ticiana finish",
-        body: "Decorative walls — what the brand sells. Site and semantics lead to buying materials for that result.",
+        body: "Decorative walls — what the brand sells. Site and keywords lead to buying materials for that result.",
         image: "/images/cases/ticiana/product.webp",
       },
     ],
@@ -324,24 +324,24 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
       },
     ],
     outcomeLead:
-      "In ~1.5 months we prepared the site and SEO — that is not TOP. Climbing into TOP is planned over 2–6 months; we held ≈500 web sales monthly. In the first two months — site orders and the first wholesale clients.",
+      "In ~1.5 months we prepared the site and SEO — that is not the same as page one. Rankings were planned over 2–6 months; we held about 500 web sales monthly. In the first two months — site orders and the first wholesale clients.",
     highlights: [
       "Premium coatings SEO in Voronezh",
       "77 phrases without mass market · prep ~1.5 mo.",
-      "TOP — decorative paints, plaster, acrylic",
+      "Page one — decorative paints, plaster, acrylic",
       "≈500 web sales per month",
       "First 2 mo.: ~49 visits/day · 18 orders · 3 wholesale",
-      "TOP planned 2–6 mo. (month-by-month growth)",
+      "Page one planned 2–6 mo. (month-by-month growth)",
       "Site built for brand and SEO",
     ],
     results: [
       { label: "Phrases", value: "77" },
       { label: "Prep", value: "~1.5 mo." },
       { label: "Sales / mo.", value: "~500" },
-      { label: "TOP", value: "2–6 mo." },
+      { label: "Page one", value: "2–6 mo." },
     ],
     ctaTitle: "Need premium coating sales from search?",
     ctaText:
-      "We’ll build semantics without mass-market noise — like Ticiana in Voronezh.",
+      "We’ll build keywords without mass-market noise — the same way we did for Ticiana in Voronezh.",
   },
 };
