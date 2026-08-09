@@ -96,3 +96,100 @@ export const tsvetInternetMagazinaEn: BlogPost = {
     "optimizatsiya-konversii",
   ],
 };
+
+/** ES overlay for tsvet-internet-magazina — same structure as RU JSON / EN. */
+export const tsvetInternetMagazinaEs: BlogPost = {
+  slug: "tsvet-internet-magazina",
+  title: "Cómo elegir la paleta de color de una tienda online",
+  date: "2018-05-16",
+  category: "Digital marketing",
+  cover: "/images/blog/tsvet-internet-magazina/cover.webp",
+  excerpt:
+    "Cómo elegir la paleta del storefront: vínculo con marca y producto, audiencia, rueda de color, acento de CTA y legibilidad — sin el mito de que «el color solo sube la conversión decenas de por ciento».",
+  lead: [
+    "El color del storefront moldea la percepción de marca y la visibilidad de botones — no sustituye demanda, precio y servicio. Cambiar el tono del CTA a veces mueve la conversión en un A/B — y a menudo da cero si la oferta es débil.",
+    "Abajo: un marco práctico — un esquema con la marca, encaje a nicho y audiencia, 2–3 colores más un acento «alto», contraste de texto. Cifras como «en el 85% de los casos el color decide la compra» de reviews viejas no se usan como hecho — una guía subjetiva.",
+  ],
+  faq: [
+    {
+      q: "¿El color del botón es la palanca principal de ventas?",
+      a: "No. Primero oferta, disponibilidad, precio, entrega y trust. El color del CTA es una hipótesis de test — no magia.",
+    },
+    {
+      q: "¿Cuántos colores debe tener la paleta?",
+      a: "Suele ser 2–3: base, apoyo, acento. Más — riesgo de ruido visual en el catálogo.",
+    },
+    {
+      q: "¿El azul siempre crea trust?",
+      a: "Un estereotipo habitual (finanzas, IT), no una ley. Mira nicho, competidores e identidad; valida con la audiencia real.",
+    },
+    {
+      q: "¿Cómo alinear colores del sitio y de los ads?",
+      a: "Una paleta en storefront, banners y packaging reduce la sensación de «otra empresa». Los desajustes pegan al reconocimiento.",
+    },
+    {
+      q: "¿Cómo se vincula esto con la identidad de marca?",
+      a: "La paleta de la tienda es parte de la identidad. Si logo y ads comparten colores y la shop no — la marca se deshace.",
+    },
+  ],
+  sections: [
+    {
+      title: "Marca, psicología y nicho",
+      level: 2,
+      paras: [
+        "Unifica el visual del negocio en un esquema: sitio, emails, fichas de producto, outdoor. Las paletas complejas rara vez hacen falta en e-com pequeño; lo más simple es más reconocible.",
+        "Antes de elegir color, enuncia: quién es el mejor cliente, qué sostiene la marca, qué emociones encajan con la compra. Esa es la base de la paleta — no «control mental científico».",
+        "La psicología del color es una guía suave: los tonos se asocian distinto según personas y culturas. El azul suele aterrizar en finanzas «por trust», el verde en eco/salud, los metales oscuros en luxury. Plantillas — no una garantía de ventas.",
+        "Ajusta la paleta a producto y audiencia. Pasteles «femeninos» en una audiencia mixta pueden cortar a parte de los hombres; rosa alto en tools B2B a menudo parece ajeno. Mira competidores — para no fundirte ni chocar el nicho sin motivo.",
+      ],
+      lists: [
+        {
+          intro: "Mini brief de color:",
+          items: [
+            "quién compra y en qué contexto",
+            "qué emociones encajan (calma / energía / premium)",
+            "qué 1–2 colores ya viven en el logo",
+            "qué debe «gritar» (CTA, precio, badge)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Identidad de marca",
+          href: "/es/blog/aydentika-brenda/",
+        },
+      ],
+    },
+    {
+      title: "Armonía, acento y legibilidad",
+      level: 2,
+      paras: [
+        "Enfoque de rueda de color: (1) color base para la emoción de marca; (2) secundario — contrastante pero compatible (a menudo opuesto en la rueda); (3) acento — para CTA y etiquetas clave, no toda la UI.",
+        "Dos acentos a la vez (cuadrado en la rueda) complican el storefront. Las shops que funcionan suelen mantener una paleta corta y repetir el acento en el funnel: Añadir al carrito, Disponible, badge promo.",
+        "El texto debe leerse: amarillo sobre blanco, gris sobre gris — un fail clásico. El contraste gana a «bonito en el mockup»; comprueba fichas de producto y checkout en móvil bajo distinta luz.",
+        "En resumen: el color refuerza claridad y marca si el producto hace falta. Experimenta en puntos (A/B en CTA o fondo del primer pantallazo) — no repintes todo el catálogo cada semana.",
+      ],
+      links: [
+        {
+          label: "Crear una tienda online",
+          href: "/es/blog/sozdanie-internet-magazina/",
+        },
+        {
+          label: "Usabilidad de tienda online",
+          href: "/es/blog/yuzabiliti-internet-magazina/",
+        },
+        {
+          label: "Optimización de la conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "aydentika-brenda",
+    "sozdanie-internet-magazina",
+    "yuzabiliti-internet-magazina",
+    "tendentsii-veb-dizayna",
+    "optimizatsiya-konversii",
+  ],
+};

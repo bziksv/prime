@@ -195,3 +195,199 @@ export const byudzhetYandeksDirektEn: BlogPost = {
     "kontekst-i-seo",
   ],
 };
+
+/** ES overlay for byudzhet-yandeks-direkt — same structure as RU JSON / EN. */
+export const byudzhetYandeksDirektEs: BlogPost = {
+  slug: "byudzhet-yandeks-direkt",
+  title: "Presupuesto mínimo para Yandex Direct: cómo calcularlo",
+  date: "2020-10-22",
+  category: "Paid search",
+  cover: "/images/blog/byudzhet-yandeks-direkt/cover.webp",
+  excerpt:
+    "Cómo estimar un presupuesto de arranque en Yandex Direct: PPC y la subasta, techo de CPC desde unit economics, caps diarios y semanales, y formas de no quemar dinero — sin una suma universal para todos.",
+  lead: [
+    "No hay un «presupuesto mínimo de Yandex Direct» universal para cada nicho: la suma depende del objetivo, región, competencia, conversión del sitio y CPA aceptable. Una fórmula de «N mil a la semana» del caso de otro rara vez se transfiere uno a uno.",
+    "Abajo: lógica PPC, qué mueve el precio del clic, cómo esbozar el arranque vía herramienta de forecast y unit economics, cómo ayudan los caps diarios/semanales y cómo ahorrar sin ahogar impresiones. Nombres de estrategias y umbrales de cuenta — revisa la Ayuda actual de Yandex; la UI ha cambiado desde 2020.",
+  ],
+  faq: [
+    {
+      q: "¿Hay un presupuesto mínimo oficial de lanzamiento en Direct?",
+      a: "La cuenta puede tener umbrales técnicos (p. ej. para un cap diario) — cifras actuales solo en la Ayuda. El «mínimo para que el negocio se pague» es tu economía, no un botón de Direct.",
+    },
+    {
+      q: "¿Cómo esbozar rápido un presupuesto de Direct?",
+      a: "Brújula: herramienta de forecast sobre keywords × clics esperados, más un techo de CPC desde CPA objetivo y conversión del sitio. Sin goals en analytics el forecast se queda ciego.",
+    },
+    {
+      q: "¿En qué se diferencia un presupuesto diario del saldo de la cuenta?",
+      a: "El saldo de la cuenta es la cartera. Un cap diario/semanal es el techo de gasto de la campaña en el periodo para no quemarlo todo antes del mediodía.",
+    },
+    {
+      q: "¿Un cap diario minúsculo equivale a ahorro real?",
+      a: "No siempre. Un cap demasiado bajo corta estadísticas y perjudica el aprendizaje de auto-estrategias. Prefiere un set estrecho de keywords y negativas a «unos pocos dólares al día para todo el catálogo».",
+    },
+    {
+      q: "¿Basta mirar el CTR para gestionar el presupuesto?",
+      a: "No. Necesitas conversiones, coste del lead y calidad de la consulta. Un CTR alto sin leads quema presupuesto.",
+    },
+    {
+      q: "¿Planificar presupuesto es lo mismo que precio del clic y pujas?",
+      a: "Relacionado, pero el foco difiere: aquí es horizonte de gasto y caps. La matemática del CPC y el control de pujas viven en piezas aparte.",
+    },
+    {
+      q: "¿Puedo copiar el presupuesto de Direct de un competidor?",
+      a: "No. Sus números están incompletos y no van de tu margen. Calcula desde tu funnel.",
+    },
+  ],
+  sections: [
+    {
+      title: "PPC y qué construye el gasto",
+      level: 2,
+      paras: [
+        "En Search clásico y muchos formatos de Direct pagas por clic (PPC): las impresiones solas no equivalen a cargo hasta que el usuario hace clic. El CPC final es la subasta, la calidad del anuncio y la competencia; tú fijas un techo de puja o límites de auto-estrategia.",
+        "Estimación aproximada de campaña: CPC medio × cantidad de clics. Un ejemplo como «1000 clics × $0.25 = $250» sirve como orden de magnitud, pero el CPC medio flota por nicho, keywords, región y temporada — no es una lista de precios.",
+      ],
+      lists: [
+        {
+          intro: "El gasto lo impulsan:",
+          items: [
+            "demanda y competencia en consultas",
+            "calidad del anuncio y relevancia de la landing",
+            "geografía y horario de impresiones",
+            "mix Search / YAN",
+            "negativas e higiene de keywords",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Precio del clic en Yandex",
+          href: "/es/blog/tsena-klika-yandeks/",
+        },
+        {
+          label: "Pujas en Direct",
+          href: "/es/blog/stavki-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Precio del clic: qué importa más que «puja más alto»",
+      level: 2,
+      paras: [
+        "La estacionalidad sube pujas en picos de demanda — a veces es más inteligente entrar antes de la ola, no el día más caro. Emplazamiento y bloque de ads también cambian la economía: no confundas visibilidad con payback.",
+        "Un CTR y una relevancia más altos a menudo ayudan a pagar menos por el mismo resultado. Un titular con beneficio concreto y precio (donde encaje) suele ganar a un vago «dónde comprar… con nosotros». La landing debe coincidir con la promesa del anuncio — o pagas un bounce rápido.",
+        "Sitelinks y callouts cortan clics equivocados cuando una consulta tiene varias lecturas. El historial de la cuenta y la calidad «keyword — anuncio — URL» entran en la subasta; no esperes magia de dominio de guías viejas — mira las señales de calidad actuales en la cuenta.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          text: "Fija el techo de CPC desde CPA objetivo y conversión del sitio — no desde el promedio de mercado de otro. Más en la pieza del precio del clic.",
+        },
+      ],
+    },
+    {
+      title: "Cómo esbozar un arranque mínimo",
+      level: 2,
+      paras: [
+        "Direct tiene una herramienta de forecast: región, keywords, guías de clics y pujas. Para un borrador basta el set del núcleo — no un brief de 10.000 frases. Los números del forecast son orden de magnitud, no garantía del gasto de la semana que viene.",
+        "En paralelo fija el goal (lead, llamada, pedido) y un CPA aceptable. Si ~1% de los clics convierte y un lead puede costar $25, el techo del clic ronda $0.25 — entonces o el mercado encaja con la economía, o estrechas keywords y mejoras la landing — no tiras presupuesto a pérdida.",
+        "Un horizonte semanal ayuda a planificar caja: cuántos clics y leads necesitas de verdad en 7 días para un test con sentido. Los nombres de estrategias («optimizar clics», paquetes, CPC medio) han cambiado — elige el modelo para el goal en la UI y la Ayuda actuales.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo para un test con sentido:",
+          items: [
+            "goal y cómo se trackea en analytics",
+            "set comercial estrecho + negativas",
+            "cap diario o semanal",
+            "techo de CPC / CPA objetivo",
+            "un horizonte de varios días sin torcer pujas cada hora",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Keywords en Direct",
+          href: "/blog/klyuchi-yandeks-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Saldo de cuenta, caps diarios y semanales",
+      level: 2,
+      paras: [
+        "Un solo saldo de cuenta simplifica el pago: las campañas sacan de una cartera. Métodos de funding y autopago — revisa la cuenta; el set ha cambiado con el tiempo.",
+        "Un presupuesto diario limita el gasto por día: útil al lanzar y con keywords inestables. El modo estándar / distribuido (o análogos actuales) afecta a si el cap se quema por la mañana o se estira a lo largo del día y del horario. Mínimos técnicos y límites de cambio — solo desde la Ayuda, no desde artículos de 2020.",
+        "Un cap demasiado duro sobre un set amplio da pocos clics y pocas conclusiones. Prefiere menos keywords y un volumen de test normal a dinero simbólico para todo el catálogo.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          text: "Un cap es seguro contra una quema — no un sustituto de negativas y landings relevantes. Si los clics son caros y vacíos, subir el presupuesto diario no tiene sentido.",
+        },
+      ],
+    },
+    {
+      title: "Cómo no quemar presupuesto pronto",
+      level: 2,
+      paras: [
+        "Horario de impresiones: alinea con las horas en que se atienden leads y con las particularidades del nicho. Alcance 24/7 con presupuesto minúsculo a menudo reparte clics sin respuesta del operador.",
+        "Las negativas cortan formulaciones basura y suben la cuota de visitas objetivo — baja el alcance, pero pagas menos al lado del punto. Separa regiones o al menos no mezcles geos caros y baratos en un montón sin necesidad: economía y tests se leen más fácil.",
+        "Antes del lanzamiento fija goal, hipótesis de presupuesto y criterio de éxito. Después — cruza gasto con ingresos/margen y mira el funnel (incluido e-commerce y call tracking si los tienes). ROI = (ingresos − coste de ads) / coste × 100% — brújula de payback del canal, no un botón mágico de Direct.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de control de trabajo:",
+          items: [
+            "goals de analytics para lead/pedido/llamada",
+            "informe de search terms y negativas",
+            "CPA / ROAS junto al CTR",
+            "vista aparte de Search y YAN",
+            "decisión: estrechar, mejorar anuncio/landing o parar",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Negativas en Direct",
+          href: "/es/blog/minus-slova-direkt/",
+        },
+        {
+          label: "Estrategias de Direct",
+          href: "/es/blog/strategii-yandeks-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Veredicto: qué presupuesto es «mínimo»",
+      level: 2,
+      paras: [
+        "Un presupuesto mínimo con sentido es aquel con el que, en el horizonte elegido, reúnes clics y conversiones suficientes para ver si el canal encaja con la economía. Algunos necesitan cientos de leads a la semana; otros — una docena de consultas de servicio local.",
+        "No puedes nombrar una suma exacta sin análisis de nicho, audiencia y margen. El presupuesto de un competidor no es un benchmark. Revisa nombres de estrategias, umbrales de cap y botones de cuenta en la Ayuda; apóyate en CPA, conversión y negativas — no en el «mínimo de un artículo» ajeno.",
+      ],
+      lists: [
+        {
+          intro: "Recuerda:",
+          items: [
+            "no hay una sola suma mínima de Direct",
+            "calcula desde goal y CPA — no desde casos ajenos",
+            "los caps protegen la caja; el set de keywords y las negativas protegen la calidad del tráfico",
+            "forecast ≈ orden de magnitud",
+            "umbrales actuales — solo en la Ayuda de Yandex",
+          ],
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Fija el goal y un CPA aceptable, arma un set estrecho con negativas, pon un cap diario o semanal y da al test varios días tranquilos — luego escala solo lo que encaje con la economía.",
+  ],
+  related: [
+    "tsena-klika-yandeks",
+    "stavki-direkt",
+    "strategii-yandeks-direkt",
+    "klyuchi-yandeks-direkt",
+    "minus-slova-direkt",
+    "kontekst-i-seo",
+  ],
+};

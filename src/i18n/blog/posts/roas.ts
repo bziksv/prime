@@ -109,3 +109,113 @@ export const roasEn: BlogPost = {
     "effektivnost-videoreklamy",
   ],
 };
+
+/** ES overlay for roas — same structure as RU JSON / EN. */
+export const roasEs: BlogPost = {
+  slug: "roas",
+  title: "ROAS: retorno del gasto en publicidad",
+  date: "2019-03-04",
+  category: "Digital marketing",
+  cover: "/images/blog/roas/cover.webp",
+  excerpt:
+    "ROAS = revenue de ads / gasto en ads: en qué se diferencia de ROI/ROMI (retorno de la inversión en marketing), cómo calcularlo, por qué incluir creativo en costes y por qué en B2B sin analytics de extremo a extremo la métrica miente.",
+  lead: [
+    "ROAS (return on ad spend) muestra cuánto revenue obtienes por unidad de presupuesto publicitario. Es una métrica táctica de dinero para una campaña — no un sustituto de estrategia ni el «único KPI de marca».",
+    "Abajo: la fórmula, en qué se diferencia de ROI/ROMI, un ejemplo de comparación de campañas y casos B2B donde el deal a menudo se cierra fuera de la cuenta de ads. Un ROAS «bueno» depende del margen y la meta — no hay un «4:1 para todos» universal.",
+  ],
+  faq: [
+    {
+      q: "¿ROAS y ROI son lo mismo?",
+      a: "No. ROAS suele ser revenue / gasto en ads (a veces como 4:1 o 400%). ROI/ROMI (return on marketing investment) cuenta el beneficio frente a la inversión y está más cerca del payback estratégico.",
+    },
+    {
+      q: "¿Qué ROAS cuenta como bueno?",
+      a: "Aquel en el que tras margen, devoluciones y costes operativos aún tienes el beneficio que necesitas. Un startup de margen fino puede necesitar un ratio más alto que un e-com maduro.",
+    },
+    {
+      q: "¿Qué debo incluir en costes?",
+      a: "Presupuesto de media y, con honestidad, trabajo de creativo/landing sin el cual los ads no viven. Si no, el ROAS está inflado.",
+    },
+    {
+      q: "¿Bastan clics e impresiones?",
+      a: "No. Muchos clics con poco revenue dan un ROAS débil. Compara campañas por dinero — no solo por CTR.",
+    },
+    {
+      q: "¿Cómo calculo ROAS en B2B?",
+      a: "Hace falta la cadena ads → lead → deal en el CRM (analytics de extremo a extremo). Si no, ves clics, no el pago.",
+    },
+    {
+      q: "¿ROAS 2:1 es lo mismo que beneficio?",
+      a: "Es «dos unidades de revenue por una unidad de gasto en ads». El beneficio depende del margen: con 30% de margen, 2:1 puede ser una pérdida.",
+    },
+  ],
+  sections: [
+    {
+      title: "Fórmula y diferencia respecto a ROI",
+      level: 2,
+      paras: [
+        "Base: ROAS = revenue atribuido a ads / gasto en ads. Ejemplo: gasto 20.000, revenue 80.000 → ROAS = 4 (o 4:1). Cada unidad de ads «trajo» cuatro unidades de facturación — no cuatro unidades de beneficio neto.",
+        "ROI/ROMI está más cerca de la estrategia: (revenue − coste) / coste o variantes de beneficio. Contenido y marca suelen tratarse como inversiones con lag; ROAS es útil para campañas de performance rápidas.",
+        "Tráfico, visibilidad y suscriptores ayudan como diagnóstico — no sustituyen un cálculo de dinero.",
+      ],
+      lists: [
+        {
+          intro: "Para que el ROAS sea honesto:",
+          items: [
+            "un modelo de atribución para el periodo de comparación",
+            "en el gasto — media + costes de producción necesarios",
+            "en el revenue — lo que de verdad ligaste a la campaña",
+            "devoluciones y cancelaciones contadas en e-com",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "ROI y ROMI",
+          href: "/es/blog/roi-marketinga/",
+        },
+        {
+          label: "Métricas de publicidad",
+          href: "/es/blog/metriki-reklamy/",
+        },
+      ],
+    },
+    {
+      title: "Comparar campañas y B2B",
+      level: 2,
+      paras: [
+        "Una campaña con muchos clics al mismo presupuesto puede perder en ROAS frente a una más estrecha pero de mayor revenue. Para reach mira impresiones; para beneficio — revenue por gasto.",
+        "En e-com el vínculo es más simple: pedido e importe a menudo aparecen en analytics. En B2B los leads van a telefonía/CRM, el ciclo es largo — sin stitching de extremo a extremo, el ROAS de la cuenta estará infravalorado o será aleatorio.",
+        "Decisión de presupuesto: amplifica lo que golpea el ROAS objetivo con la calidad de lead que necesitas; no confundas un trabajo de marca (reach) con uno de performance (revenue).",
+      ],
+      notes: [
+        {
+          title: "El margen decide",
+          text: "El mismo ROAS con márgenes distintos es un outcome de caja distinto. Deriva el ROAS aceptable de la unit economics — no de benchmarks ajenos.",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "Analytics de extremo a extremo",
+          href: "/es/blog/skvoznaya-analitika/",
+        },
+        {
+          label: "Performance marketing",
+          href: "/es/blog/performance-marketing/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "ROAS responde si una unidad de ads se recupera en revenue. Cuéntalo junto al margen y ROI/ROMI; en B2B — solo con un vínculo de extremo a extremo al deal; y no persigas el ratio «ideal» de otro.",
+  ],
+  related: [
+    "roi-marketinga",
+    "metriki-reklamy",
+    "skvoznaya-analitika",
+    "performance-marketing",
+    "audit-reklamnoy-kampanii",
+    "effektivnost-videoreklamy",
+  ],
+};

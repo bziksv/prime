@@ -251,3 +251,255 @@ export const seoOshibkiEn: BlogPost = {
     "samostoyatelnoe-seo",
   ],
 };
+
+/** ES overlay for seo-oshibki — same structure as RU JSON / EN. */
+export const seoOshibkiEs: BlogPost = {
+  slug: "seo-oshibki",
+  title: "Los errores SEO más habituales en un sitio",
+  date: "2019-08-19",
+  category: "SEO",
+  cover: "/images/blog/seo-oshibki/cover.webp",
+  excerpt:
+    "Fallos típicos en titles y descriptions, headings, enlaces, markup y HTTPS — cómo encontrarlos y qué arreglar primero, sin la fantasía de «primera página en una semana».",
+  lead: [
+    "La mayoría de errores SEO en sitios reales no son una penalización misteriosa del algoritmo. Son técnica y snippets de todos los días: titles truncados, meta duplicada, enlaces rotos, H1s desordenados, mixed content tras pasar a HTTPS.",
+    "Abajo, las zonas de riesgo que salen en auditorías y un orden práctico de arreglo. Limpiar errores es prep del sitio. Construir rankings del set de keywords se planifica en meses tras arrancar el trabajo sistemático — no la semana en que el checklist se pone en verde.",
+  ],
+  faq: [
+    {
+      q: "¿Por dónde debe empezar una auditoría de errores?",
+      a: "Lo que bloquee crawl o clics primero: códigos de estado, indexación, HTTPS y mixed content, titles/H1s únicos, enlaces rotos. Markup y cosmética después.",
+    },
+    {
+      q: "¿Siguen importando los meta keywords?",
+      a: "Para Google y Yandex, casi sin influencia como antes. No gastes presupuesto en listas de keywords — invierte en title, description y la página en sí.",
+    },
+    {
+      q: "¿Un title largo es un desastre?",
+      a: "No es una penalización automática, pero el snippet se truncará. Pon el sentido al inicio. Las guías de longitud viven en el artículo aparte de longitud del title.",
+    },
+    {
+      q: "¿Es malo si el title es igual que la description?",
+      a: "Sí. Pierdes la diferencia «titular vs teaser» y debilitas el CTR. Dale a cada URL un par único.",
+    },
+    {
+      q: "¿Open Graph y Schema son obligatorios?",
+      a: "OG/Twitter ayudan al share en redes. Schema ayuda a rich results cuando el tipo de página encaja (organización, producto, FAQ). Que falten no «mata» el SEO — solo dejas oportunidades sobre la mesa.",
+    },
+    {
+      q: "¿El H1 tiene que coincidir con el title tag?",
+      a: "No palabra por palabra. Un H1 claro en la página; el title es para los resultados de búsqueda. Coincidir carácter a carácter en todo el sitio no es el objetivo.",
+    },
+    {
+      q: "¿Qué herramientas de auditoría uso?",
+      a: "Herramientas de Webmaster / Search Console, un crawler (Screaming Frog y pares), más checks manuales selectivos. Los módulos de pago de «auditoría de sitio» son opcionales.",
+    },
+    {
+      q: "Arreglé los errores — ¿cuándo llegan los rankings?",
+      a: "La prep y la limpieza suelen llevar semanas hasta alrededor de un mes. Mover el set de keywords hacia primera página se planifica en 2–6 meses tras arrancar el trabajo sistemático.",
+    },
+  ],
+  sections: [
+    {
+      title: "Dónde los sitios fallan más a menudo",
+      level: 2,
+      paras: [
+        "Los cortes de auditoría suelen sacar primero meta y markup, luego headings y enlaces, luego HTTPS y certificados. También importan códigos de estado, velocidad y contenido fino — en algunos proyectos solo se esconden hasta que cavas más.",
+        "No persigas la puntuación verde de una herramienta. Prioriza lo que rompe indexación, clics o confianza: URLs rotas, mixed content, snippets vacíos o duplicados en páginas de dinero.",
+      ],
+      lists: [
+        {
+          intro: "Orden de revisión:",
+          items: [
+            "disponibilidad y códigos de estado",
+            "HTTPS y mixed content",
+            "titles, descriptions y H1s únicos",
+            "enlaces rotos y cadenas de redirects",
+            "markup y snippets sociales — según haga falta",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "Title, description y keywords obsoletos",
+      level: 2,
+      paras: [
+        "Title y description dan forma al snippet y a lo clara que se lee el tema. Los principiantes meten cada keyword: el titular se trunca y el sentido muere. Un title demasiado corto también es flojo — la gente no sabe a dónde lleva el resultado.",
+        "Los meta keywords clásicos casi no sirven en los grandes buscadores — no montes estrategia sobre ellos. Escribe la description como un teaser humano: beneficio y diferencia, no un pegado del title.",
+      ],
+      lists: [
+        {
+          intro: "Higiene de meta:",
+          items: [
+            "title y description únicos en URLs importantes",
+            "sentido principal y frase clave cerca del inicio del title",
+            "sin relleno vacío de «mejor / nº 1» por cosmética",
+            "no copies el title de un competidor línea a línea",
+            "no reutilices el title como description",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Longitud del title",
+          href: "/es/blog/dlina-title/",
+        },
+      ],
+    },
+    {
+      title: "Enlaces: rotos, redirects, equity tirado",
+      level: 2,
+      paras: [
+        "Los enlaces internos y externos rotos duelen al crawl y a la UX. Las cadenas largas de 301 diluyen señales y ralentizan el crawl. Anclas irrelevantes — o enlaces a secciones que desaparecieron tras un rediseño — son daño clásico post-migración.",
+        "Revisa las plantillas: menú, footer, breadcrumbs, «productos relacionados». Un crawl masivo gana a clicar el sitio a mano.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de enlaces:",
+          items: [
+            "sin 404s en plantillas prioritarias",
+            "cadenas de redirects acortadas",
+            "301s desde URLs viejas tras renombres",
+            "«donantes» externos que no apunten a mirrors o errores",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Enlaces rotos",
+          href: "/es/blog/bitye-ssylki/",
+        },
+        {
+          label: "Códigos de estado HTTP",
+          href: "/es/blog/kod-statusa-http/",
+        },
+      ],
+    },
+    {
+      title: "Markup: Open Graph, Twitter Card, Schema",
+      level: 2,
+      paras: [
+        "Sin Open Graph, las plataformas sociales a menudo cogen una imagen al azar y un trozo de texto — el CTR del share se resentirá. Schema.org / JSON-LD ayuda a rich results cuando el tipo de página encaja (no «markup por markup»).",
+        "El error de verdad es markup roto o contradictorio en Search Console o validadores. Menos y correcto gana a más y en conflicto.",
+      ],
+      lists: [
+        {
+          intro: "Práctica:",
+          items: [
+            "OG en landings y artículos clave",
+            "JSON-LD que coincida con el tipo real de página",
+            "validar en herramientas de plataforma",
+            "no publiques microdata en conflicto lado a lado",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Open Graph",
+          href: "/es/blog/open-graph/",
+        },
+        {
+          label: "Snippets y markup",
+          href: "/es/blog/snippet/",
+        },
+      ],
+    },
+    {
+      title: "H1 y jerarquía de headings",
+      level: 2,
+      paras: [
+        "Una página sin H1 — o con varios compitiendo — enturbia la estructura. El H1 debe decir el tema del documento; luego H2/H3 lógicos sin saltar niveles por moda de diseño.",
+        "La coincidencia exacta H1–title no es obligatoria. Ambos deben describir la página con honestidad y no pelear con URLs vecinas por el mismo intent.",
+      ],
+      lists: [
+        {
+          intro: "Revisa la plantilla:",
+          items: [
+            "un H1 principal",
+            "sin saltos caóticos (H2 → H4 sin motivo)",
+            "H1 no escondido en CSS como decor vacío",
+            "sin H1s idénticos en docenas de fichas de producto sin diferencias",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Ligado a duplicados",
+          text: "Titles/H1s idénticos en URLs distintas a menudo señalan duplicados o canibalización. Ver los materiales aparte sobre eso.",
+        },
+      ],
+    },
+    {
+      title: "HTTPS y mixed content",
+      level: 2,
+      paras: [
+        "Migraciones HTTPS a medias dejan scripts, imágenes o formularios en http:// — el navegador avisa, cae la confianza, se resentirá la UX. Tras migrar, revisa URLs absolutas en contenido y plantillas, paths relativos, el redirect http→https y un canonical que apunte a https.",
+        "Fallos de certificado (caducado, nombre incorrecto, cadena rota) muestran aviso de seguridad y pegan al comportamiento. Monitoriza caducidad y corrección del SSL.",
+      ],
+      lists: [
+        {
+          intro: "Tras activar HTTPS:",
+          items: [
+            "301 de HTTP a HTTPS",
+            "sin mixed content en plantillas clave",
+            "canonical y sitemap en https",
+            "menciones externas actualizadas donde puedas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "HTTPS y SEO",
+          href: "/es/blog/https-seo/",
+        },
+        {
+          label: "Certificado SSL",
+          href: "/es/blog/ssl-sertifikat/",
+        },
+      ],
+    },
+    {
+      title: "Cómo mantenerlo bajo control — sin esperar milagros",
+      level: 2,
+      paras: [
+        "Con ritmo: Webmaster y Search Console, un crawl tras releases grandes, checks selectivos de snippets en queries de dinero. Las «auditorías por el checkbox» de una sola vez sin backlog de arreglos no sirven.",
+        "La limpieza técnica es la base. Luego keywords, contenido y enlaces hacen el trabajo de verdad. Una puntuación verde de herramienta no es lo mismo que rankear por tu set de keywords.",
+      ],
+      lists: [
+        {
+          intro: "Cadencia:",
+          items: [
+            "tras deploy — un smoke crawl",
+            "una vez al mes — revisar errores en los paneles",
+            "un backlog priorizado por impacto de negocio",
+            "no confundas limpieza con prometer ranks «la semana que viene»",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+        {
+          label: "Screaming Frog",
+          href: "/es/blog/screaming-frog/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "tehnicheskiy-seo-audit",
+    "dlina-title",
+    "bitye-ssylki",
+    "https-seo",
+    "dubli-stranits",
+    "samostoyatelnoe-seo",
+  ],
+};

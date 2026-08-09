@@ -149,3 +149,153 @@ export const kategoriiInternetMagazinaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for kategorii-internet-magazina — same structure as RU JSON / EN. */
+export const kategoriiInternetMagazinaEs: BlogPost = {
+  slug: "kategorii-internet-magazina",
+  title: "Categorías de tienda online: SEO y cuándo crear nuevas",
+  date: "2021-07-05",
+  category: "SEO",
+  cover: "/images/blog/kategorii-internet-magazina/cover.webp",
+  excerpt:
+    "Por qué las categorías capturan demanda, cuándo crear una sección nueva, cómo revisar demanda y competidores, qué contenido escribir y cómo evitar canibalización y huecos de crawl.",
+  lead: [
+    "Las páginas de categoría a menudo impulsan una gran parte del orgánico de la tienda: la gente busca un «tipo de producto», no un SKU. Una sección une la homepage con las fichas de producto y gana con enlaces internos.",
+    "Abajo: cuándo abrir una categoría nueva, cómo revisar demanda, qué escribir en la descripción y los riesgos (canibalización, surtido fino, crawl). El loop general de promoción e-com es un artículo aparte; la preparación de estructura no es primera página al instante.",
+  ],
+  faq: [
+    {
+      q: "¿Cuántos productos debe tener una categoría?",
+      a: "No hay regla dura. Encaja con las expectativas del nicho y de los competidores: una sección vacía con 2–3 SKUs es floja para personas y búsqueda. Un filtro o tag es mejor que un landing «vacío».",
+    },
+    {
+      q: "¿Hay que esconder el copy de categoría bajo un spoiler «para SEO»?",
+      a: "Mala práctica. Si el texto es útil — muéstralo. El stuffing oculto no sustituye surtido y filtros.",
+    },
+    {
+      q: "¿Importa más la categoría o la ficha de producto?",
+      a: "Intenciones distintas: un grupo de productos vs un modelo concreto. Hacen falta ambas capas y enlaces entre ellas.",
+    },
+    {
+      q: "¿Qué es la canibalización?",
+      a: "Varias URLs pelean por una consulta (dos categorías parecidas, categoría y tag). Sufren rankings y analítica — fusiona o parte intenciones.",
+    },
+    {
+      q: "¿Cuándo borrar una categoría?",
+      a: "Si el surtido se fue, no hay demanda o la sección duplica otra. Usa un 301 al padre o a la sección relacionada — no dejes un 404 sin redirect.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué las categorías importan para SEO",
+      level: 2,
+      paras: [
+        "Las consultas amplias («zapatillas», «vaqueros skinny») van a un listing, no a una ficha. Una categoría muestra elección, filtros y un camino a la compra.",
+        "En la arquitectura de la tienda, las secciones puentean homepage y productos: reciben muchos enlaces internos y los crawlers las alcanzan más a menudo con un linking sólido.",
+      ],
+      lists: [
+        {
+          intro: "Rol de una categoría:",
+          items: [
+            "un landing para un cluster de demanda",
+            "navegación del catálogo y UX",
+            "un donor de link-equity a las fichas",
+            "a menudo un target para paid search",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO de e-commerce",
+          href: "/es/blog/prodvizhenie-internet-magazina/",
+        },
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Cuándo crear una categoría nueva",
+      level: 2,
+      paras: [
+        "Hacen falta demanda estable y surtido suficiente. Una tendencia estacional, una línea nueva, una long-tail estable («vaqueros skinny» bajo «vaqueros» general) — motivos para probar una URL aparte.",
+        "No spawnees secciones «por una keyword» si hay pocos productos: mejor un atributo o filtro. El catálogo está vivo — las secciones aparecen y se cierran con el surtido.",
+      ],
+      lists: [
+        {
+          intro: "Señales para una categoría nueva:",
+          items: [
+            "analítica o webmaster muestran una consulta refinada, pero la gente aterriza en una sección general y rebota",
+            "los competidores tienen un listing fuerte para ese cluster",
+            "hay productos suficientes para elegir",
+            "la intención no casa 1:1 con una URL existente",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Demanda, competidores y prioridad",
+      level: 2,
+      paras: [
+        "Reúne keywords (Wordstat, planners, herramientas SEO), estima volumen y la SERP. Mira los listings de líderes del nicho: profundidad, filtros, Title.",
+        "Revisa el árbol actual: ¿la sección nueva duplica a un vecino? Prioridad — secciones con demanda y margen donde eres competitivo en surtido.",
+      ],
+      lists: [
+        {
+          intro: "Mini-auditoría antes del lanzamiento:",
+          items: [
+            "cluster de consultas e intención",
+            "conteo de SKU ahora y el plan",
+            "URL, Title, H1",
+            "filtros sin explosión de duplicados",
+            "enlaces desde el padre y las fichas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Investigación de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Análisis de competidores",
+          href: "/es/blog/analiz-konkurentov/",
+        },
+      ],
+    },
+    {
+      title: "Contenido de categoría y riesgos",
+      level: 2,
+      paras: [
+        "Un bloque útil y único (cómo elegir, diferencias de series, envío o guía de tallas) encaja encima o cerca del listing. Una hoja de keywords en el footer sin sentido es una señal floja.",
+        "Riesgos: canibalización con una sección o tag parecido; páginas finas; filtros que spawnean miles de URLs indexadas; linking flojo para que el crawler rara vez llegue a la sección.",
+      ],
+      lists: [
+        {
+          intro: "Tras lanzar una categoría:",
+          items: [
+            "añadir a menú/breadcrumbs y sitemap",
+            "enlazar desde homepage o padre",
+            "cerrar duplicados de filtros con reglas de indexación",
+            "mirar posiciones y canibalización en herramientas de webmaster",
+            "no esperes primera página «la próxima semana» — el crecimiento se planifica",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Estructura nueva y copy son preparación. Crecer categorías comerciales de un núcleo de consultas se planifica a unos 2–6 meses de trabajo tras el arranque de la promoción — no un checkbox de la semana de lanzamiento.",
+        },
+      ],
+      links: [
+        {
+          label: "Cerrar a la indexación",
+          href: "/es/blog/zakrytie-ot-indeksatsii/",
+        },
+      ],
+    },
+  ],
+};

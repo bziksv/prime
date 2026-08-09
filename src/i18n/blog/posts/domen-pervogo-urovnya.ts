@@ -130,3 +130,134 @@ export const domenPervogoUrovnyaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for domen-pervogo-urovnya — same structure as RU JSON / EN. */
+export const domenPervogoUrovnyaEs: BlogPost = {
+  slug: "domen-pervogo-urovnya",
+  title: "Dominios de primer nivel: qué es un TLD y cómo influye en el SEO",
+  date: "2021-10-12",
+  category: "SEO",
+  cover: "/images/blog/domen-pervogo-urovnya/cover.webp",
+  excerpt:
+    "Qué es un dominio de primer nivel (TLD): .ru, .com y otras zonas. Cómo se diferencian los niveles del nombre, qué tiene que ver la zona con SEO y tráfico, y cómo elegir el nombre.",
+  lead: [
+    "Un dominio de primer nivel (TLD) es la cola después del último punto: `.ru`, `.com`, `.online`. El dueño del sitio no inventa zonas — ya existen; la creatividad vive en el nombre de segundo nivel.",
+    "Abajo: cómo funcionan los niveles del dominio, qué tipos de zona hay y una mirada realista al impacto SEO. Un buen nombre ayuda a la marca y a los clics en el SERP, pero no sustituye contenido, técnica ni enlaces.",
+  ],
+  faq: [
+    {
+      q: "¿Qué es un dominio de primer nivel?",
+      a: "Un TLD es la zona al final del nombre (`example.ru` → `.ru`). Todo a la izquierda es un nivel inferior (segundo, tercero, y así).",
+    },
+    {
+      q: "¿Puedo crear mi propia zona .mimarca?",
+      a: "Para un negocio típico — no. Los gTLD nuevos pasan por ICANN y registros; para un sitio eliges una zona existente y un nombre de segundo nivel libre.",
+    },
+    {
+      q: "¿Es mejor `.ru` que `.com` para búsqueda local en Rusia?",
+      a: "Para audiencia rusa, `.ru` / `.рф` suelen ser lo esperado. Señales locales y contenido pesan más que la «magia de la zona»; un `.com` fuerte también puede rankear.",
+    },
+    {
+      q: "¿Ayuda una keyword en el dominio?",
+      a: "Un plus suave para CTR y claridad es posible, pero el exact-match ya no es un atajo. Una keyword estrecha duele si el nicho cambia.",
+    },
+    {
+      q: "¿En qué se diferencia un subdominio de un TLD?",
+      a: "El subdominio va a la izquierda: `shop.example.ru`. El TLD va a la derecha: `.ru`. Los subdominios suelen cubrir secciones, regiones o servicios.",
+    },
+  ],
+  sections: [
+    {
+      title: "Niveles del nombre de dominio",
+      level: 2,
+      paras: [
+        "Léelo de derecha a izquierda. El primer nivel es la zona (`.com`). El segundo es tu nombre (`google` en `google.com`). Tercero y siguientes son subdominios o zonas compuestas como `example.co.uk` (la estructura public-suffix se complica).",
+      ],
+      lists: [
+        {
+          intro: "Ejemplos:",
+          items: [
+            "`site.ru` — segundo nivel + `.ru`",
+            "`blog.site.ru` — subdominio",
+            "`mail.yandex.ru` — un servicio en subdominio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Servidor web",
+          href: "/es/blog/veb-server/",
+        },
+      ],
+    },
+    {
+      title: "Qué tipos de TLD existen",
+      level: 2,
+      paras: [
+        "De país (ccTLD): `.ru`, `.by`, `.kz`, etc. Genéricos (gTLD): `.com`, `.net`, `.org`, `.online`, `.shop` y cientos más. Algunas zonas implican un sector o límites de registro.",
+      ],
+      lists: [
+        {
+          intro: "Pistas para elegir zona:",
+          items: [
+            "dónde está la audiencia principal",
+            "confianza en el nicho (qué esperan ver los clientes)",
+            "si un segundo nivel corto está libre",
+            "reglas legales del registro",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Impacto en SEO y tráfico",
+      level: 2,
+      paras: [
+        "Los buscadores usan señales geo, incluida la zona, pero es un factor entre muchos. Contenido, estructura, señales E-E-A-T, enlaces y comportamiento pesan más.",
+        "El nombre afecta al CTR: nombres cortos, pronunciables y sin guiones spam reciben más clics. Una keyword en el dominio no sustituye landings ni un set de keywords.",
+      ],
+      lists: [
+        {
+          intro: "Tips prácticos:",
+          items: [
+            "una marca o palabra general clara gana a un «pizza-sushi-2021» estrecho",
+            "revisa marcas y confusión con competidores",
+            "canonicaliza www/sin-www y HTTPS con redirects",
+            "no esperes primera página solo por una zona `.ru`",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Elegir dominio forma parte de la preparación del sitio. Rankear por un set comercial de keywords es un proceso aparte — a menudo planificado en 2–6 meses de trabajo, no el resultado de una zona.",
+        },
+      ],
+    },
+    {
+      title: "Cómo elegir el nombre",
+      level: 2,
+      paras: [
+        "Primero la estrategia (marca / geo / nicho), luego disponibilidad en las zonas que necesitas, luego alta en el registrador y DNS apuntando al hosting.",
+      ],
+      lists: [
+        {
+          intro: "Checklist del nombre:",
+          items: [
+            "fácil de decir en una llamada",
+            "sin ortografía ambigua",
+            "libre en la zona prioritaria",
+            "email y handles sociales libres si se puede",
+            "plazo de registro y auto-renovación configurados",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Certificado SSL",
+          href: "/es/blog/ssl-sertifikat/",
+        },
+      ],
+    },
+  ],
+};

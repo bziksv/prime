@@ -130,3 +130,134 @@ export const straykYoutubeEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for strayk-youtube — same structure as RU JSON / EN. */
+export const straykYoutubeEs: BlogPost = {
+  slug: "strayk-youtube",
+  title: "Strike en YouTube: qué es, por qué te llega y qué hacer",
+  date: "2021-08-24",
+  category: "SMM",
+  cover: "/images/blog/strayk-youtube/cover.webp",
+  excerpt:
+    "En qué se diferencia un strike de Community Guidelines de una reclamación de copyright, qué límites aplican, cómo revisar el estado del canal y cómo apelar o evitar sanciones.",
+  lead: [
+    "Un strike de YouTube es una sanción por romper las reglas: límites de funciones del canal hasta la eliminación. En la jerga, «tirar un strike» significa reportar un vídeo o un canal.",
+    "Abajo: qué te gana un strike, en qué se diferencian las vías de comunidad y copyright, cómo revisar el estado y qué hacer ante una reclamación falsa. Las etiquetas de Studio cambian — verifica con la Help actual de YouTube.",
+  ],
+  faq: [
+    {
+      q: "¿Un strike y Content ID son lo mismo?",
+      a: "No. Content ID suele ser un claim/monetización para el titular de derechos sin un «strike de comunidad». Un copyright strike es una vía aparte de ley de copyright. Un Community Guidelines strike es por la política de la plataforma.",
+    },
+    {
+      q: "¿Cuántos strikes hasta que se borra el canal?",
+      a: "En el esquema clásico, tres Community Guidelines strikes activos en una ventana de tiempo llevan a la eliminación del canal. Los términos exactos están en Help — no copies cifras de guías antiguas sin comprobar.",
+    },
+    {
+      q: "¿Un strike se limpia solo?",
+      a: "Un Community Guidelines strike suele caducar tras un periodo fijado si sigues las reglas. Un copyright strike se limpia por retirada del claim, una counter-notification o caducidad — según el proceso de la plataforma.",
+    },
+    {
+      q: "¿Puedo apelar un strike?",
+      a: "Sí: appeal / counter-notification con pruebas (correspondencia, derechos, contexto). Las reclamaciones falsas también pueden castigarse.",
+    },
+    {
+      q: "¿Dónde veo el estado del canal?",
+      a: "YouTube Studio → una sección tipo Feature eligibility / Channel status: la escala de infracción y los detalles.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es un strike",
+      level: 2,
+      paras: [
+        "Es un aviso/sanción oficial en la cuenta del canal. La moderación se dispara por un report, filtros automáticos o iniciativa de la plataforma.",
+        "Ejemplo de práctica: review de una tienda por acuerdo, luego una queja de «privacidad» — las sanciones se levantaron tras capturas de la correspondencia. Takeaway: guarda pruebas de los acuerdos.",
+      ],
+      lists: [
+        {
+          intro: "Dos vías habituales:",
+          items: [
+            "Community Guidelines — política de comunidad",
+            "Copyright — derechos sobre música, vídeo, imágenes",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Promoción en YouTube",
+          href: "/es/blog/raskrutka-youtube/",
+        },
+      ],
+    },
+    {
+      title: "Qué te gana sanciones",
+      level: 2,
+      paras: [
+        "No publiques contenido ajeno sin derechos, no hagas pasar vídeos ajenos por tuyos ni esquives Content ID con un recorte simbólico. Las reglas de comunidad prohíben violencia, bullying, NSFW fuera del contexto permitido, retos peligrosos, spam, fraude y revelar datos personales ajenos sin base.",
+      ],
+      lists: [
+        {
+          intro: "Zonas de riesgo:",
+          items: [
+            "música y clips de TV/cine sin licencia",
+            "thumbnails que mienten sobre el contenido",
+            "enlaces a malware/recursos prohibidos",
+            "infracciones repetidas tras avisos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Consejo",
+          text: "Las reglas se actualizan. Antes de un formato arriesgado, lee las Community Guidelines y el Copyright Center actuales.",
+        },
+      ],
+    },
+    {
+      title: "Límites y estado del canal",
+      level: 2,
+      paras: [
+        "Tras un strike suelen cortarse uploads largos, livestreams, parte de la monetización y la visibilidad. Los detalles dependen del tipo y de la «gravedad».",
+        "En Studio revisa el estado de funciones: zona verde — limpio; más cerca de avisos — sanciones activas y un enlace «learn more».",
+      ],
+      lists: [
+        {
+          intro: "Progresión típica (confirma en Help):",
+          items: [
+            "primer strike — límites por un periodo",
+            "repetición — más estricto (incl. monetización)",
+            "una serie de activos — riesgo de eliminación del canal",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Report, charlas, appeal",
+      level: 2,
+      paras: [
+        "La plataforma aconseja contactar primero al dueño del canal. Un titular de derechos puede retirar un claim — más rápido que pelear.",
+        "Vías formales: Report bajo el vídeo / Copyright removal request. Para el afectado — appeal o counter-notification con pruebas. El tiempo de revisión depende del tipo de caso.",
+      ],
+      lists: [
+        {
+          intro: "Si te llegó un strike:",
+          items: [
+            "leer el motivo en Studio",
+            "quitar/arreglar el contenido si la infracción es real",
+            "reunir pruebas si es un error",
+            "no crear canales espejo para esquivar un ban — eso es otra infracción",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cierre breve",
+      level: 2,
+      paras: [
+        "Un strike es una señal para seguir las reglas y los derechos. Separa la política de comunidad del copyright, mira el estado en Studio, guarda permisos para reviews y material de terceros. La mejor defensa — contenido propio y una revisión antes de publicar.",
+      ],
+    },
+  ],
+};

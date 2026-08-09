@@ -148,3 +148,152 @@ export const proksiServerEn: BlogPost = {
     "ssl-sertifikat",
   ],
 };
+
+/** ES overlay for proksi-server — same structure as RU JSON / EN. */
+export const proksiServerEs: BlogPost = {
+  slug: "proksi-server",
+  title: "Servidor proxy: qué es y para qué hace falta",
+  date: "2018-04-25",
+  category: "Digital marketing",
+  cover: "/images/blog/proksi-server/cover.webp",
+  excerpt:
+    "Qué es un servidor proxy en palabras simples: cómo funciona el intermediario entre cliente y sitio, forward vs reverse, caché y gateway corporativo — sin guías de saltar bans ni listas dudosas de IP.",
+  lead: [
+    "Un servidor proxy es un nodo intermedio entre tu dispositivo (o red interna) y un recurso objetivo en internet. La petición va primero al proxy, luego al sitio; la respuesta vuelve por el mismo camino. A veces las partes ni saben del intermediario.",
+    "Abajo: cómo funciona la conexión, por qué providers y empresas despliegan proxies, en qué se diferencia forward de reverse en un sitio, y los riesgos de proxies públicos «gratis». No cubrimos saltar bans de foros u otros ToS ajenos como práctica.",
+  ],
+  faq: [
+    {
+      q: "¿Un proxy es lo mismo que una VPN?",
+      a: "Ideas relacionadas (tráfico vía un nodo ajeno), modelo distinto. Una VPN suele cifrar un túnel completo; un proxy trabaja más a menudo en la capa app/HTTP y no sustituye a una VPN uno a uno.",
+    },
+    {
+      q: "¿Por qué una empresa necesita un proxy?",
+      a: "Controlar el acceso a internet desde la LAN, caché, filtrado, logs, ahorro de ancho de banda — escenarios corporativos típicos.",
+    },
+    {
+      q: "¿Para qué sirve un reverse proxy?",
+      a: "Un proxy «delante» de tu sitio (a menudo nginx): toma peticiones de usuarios, sirve estáticos, balancea al backend, termina HTTPS.",
+    },
+    {
+      q: "¿Es seguro pillar un proxy gratis de una lista?",
+      a: "A menudo no: interceptación, manipulación, JS malicioso, fugas de credenciales. Para trabajo elige un provider claro y una política.",
+    },
+    {
+      q: "¿Un proxy me oculta por completo?",
+      a: "No. La anonimidad depende del tipo, headers, DNS y comportamiento. La invisibilidad total no existe.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es un proxy en palabras simples",
+      level: 2,
+      paras: [
+        "Del inglés proxy — «representante». El cliente se conecta al proxy y pide un recurso en otro servidor. El proxy abre una conexión al objetivo, obtiene la respuesta y la devuelve al cliente. Con caché, una petición repetida puede servirse desde una copia.",
+        "Cada nodo de la red tiene una IP. El sitio de destino vía proxy suele ver más a menudo la dirección del intermediario, no la IP de casa del usuario — de ahí la confusión de «anonimidad».",
+      ],
+      links: [
+        {
+          label: "Servidor web",
+          href: "/es/blog/veb-server/",
+        },
+        {
+          label: "Dirección URL",
+          href: "/es/blog/url-adres/",
+        },
+      ],
+    },
+    {
+      title: "Cómo funciona la conexión",
+      level: 2,
+      paras: [
+        "Camino: navegador → proxy → servidor objetivo → vuelta. El proxy puede cambiar la petición (añadir headers, comprimir la respuesta, filtrar URLs) o servir una página desde caché sin salir a internet.",
+        "Los providers a veces habilitan de forma transparente su proxy para suscriptores: caché de recursos populares, compresión, políticas de acceso. El usuario puede no configurarlo a mano.",
+      ],
+      tables: [
+        {
+          caption: "Dos direcciones de «proxy»",
+          headers: ["Tipo", "Quién es el cliente", "Para qué"],
+          rows: [
+            ["Forward", "Usuario / oficina", "Salida a internet vía un gateway"],
+            ["Reverse", "Visitantes del sitio", "Front delante de la app/servidores"],
+            ["Caching", "Ambos escenarios", "Bajar carga y tráfico"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Por qué la gente usa proxies",
+      level: 2,
+      paras: [
+        "LAN → internet a través de un gateway controlado. Caché y compresión en enlaces finos. Filtrar malware y URLs no deseadas por política de empresa. Loguear peticiones salientes por seguridad.",
+        "Del lado del sitio un reverse proxy (nginx y pares) termina SSL, sirve estáticos, balancea carga y oculta puertos internos de la app — un rol de «intermediario» relacionado pero distinto.",
+      ],
+      lists: [
+        {
+          intro: "Escenarios legítimos:",
+          items: [
+            "gateway de internet corporativo",
+            "acelerar cargas repetidas con caché",
+            "reverse proxy / borde CDN delante del sitio",
+            "aislar servicios internos del acceso directo",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Sobre «entrar a un foro tras un ban»",
+          text: "Cambiar IP vía proxy para saltar un bloqueo de cuenta o reglas de plataforma rompe el ToS y a menudo no sirve: banean dispositivos, cookies, comportamiento. No recomendamos esos esquemas.",
+        },
+      ],
+      links: [
+        {
+          label: "Error 502",
+          href: "/es/blog/oshibka-502/",
+        },
+      ],
+    },
+    {
+      title: "Anonimidad y límites",
+      level: 2,
+      paras: [
+        "Hay distintos grados de «transparencia»: algunos proxies pasan la IP real en headers, otros intentan ocultarla. Incluso un nodo «anónimo» no te hace invulnerable: logs del provider del proxy, fugas WebRTC/DNS, un intermediario malicioso.",
+        "Las restricciones de contenido por geo son un tema legal y contractual aparte. No confundas capacidad técnica con permiso del titular de derechos o legal.",
+      ],
+    },
+    {
+      title: "Riesgos de listas gratis y «grises»",
+      level: 2,
+      paras: [
+        "Las listas públicas de proxies a menudo incluyen máquinas ajenas comprometidas, honeypots y nodos que leen tráfico. No introduzcas contraseñas ni pagues a través de un proxy desconocido.",
+        "Para scraping y automatización, los proxies masivos chocan con rate limits y defensas del sitio — APIs y consentimiento del dueño de los datos son más legítimos que una «granja de IP».",
+      ],
+      links: [
+        {
+          label: "Protección frente al scraping",
+          href: "/es/blog/zashchita-ot-parsinga/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Un proxy es un intermediario de red: forward para clientes, reverse para sitios, más caché y políticas. Es infraestructura — no «anonimidad mágica».",
+        "Elige un operador claro; las listas gratis y saltar reglas ajenas son mala idea para negocio y seguridad.",
+      ],
+    },
+  ],
+  closing: [
+    "Si necesitas control de internet en la oficina — mira un forward proxy corporativo; si estás acelerando un sitio — reverse proxy/CDN. No confundas infraestructura con esquemas grises de cambio de IP.",
+  ],
+  related: [
+    "veb-server",
+    "oshibka-502",
+    "url-adres",
+    "zashchita-ot-parsinga",
+    "https-seo",
+    "ssl-sertifikat",
+  ],
+};

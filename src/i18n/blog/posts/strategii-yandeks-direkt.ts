@@ -140,3 +140,144 @@ export const strategiiYandeksDirektEn: BlogPost = {
     "prazdnichnyy-retargeting",
   ],
 };
+
+/** ES overlay for strategii-yandeks-direkt — same structure as RU JSON / EN. */
+export const strategiiYandeksDirektEs: BlogPost = {
+  slug: "strategii-yandeks-direkt",
+  title: "Estrategias de Yandex Direct: parte de la economía, no de la etiqueta del botón",
+  date: "2017-07-02",
+  category: "Paid search",
+  cover: "/images/blog/strategii-yandeks-direkt/cover.webp",
+  excerpt:
+    "Por qué se apagó el «modo fácil para principiantes» de Direct, por qué importan goals y CPA, y cómo elegir estrategia desde unit economics — no desde la ansiedad de la subasta.",
+  lead: [
+    "En julio de 2017 Direct retiró «Mostrar en el bloque al precio mínimo» — el modo que muchos usaban para «probar ads» sin un objetivo de CPA. Los nombres de estrategias y las pantallas han vuelto a cambiar desde entonces.",
+    "La lección durable no va de un botón de 2017: sin un coste claro por lead o pedido y feedback de ventas, tanto la automatización como las pujas manuales vuelan a ciegas. Así es como pensar las estrategias ahora.",
+  ],
+  faq: [
+    {
+      q: "¿Qué desapareció en 2017?",
+      a: "La estrategia «mostrar en el bloque al precio mínimo» — un modo amigable para principiantes de «quedar en el bloque, mantener la puja baja». Ese botón mágico ya no está; las subastas y el auto-bidding siguen.",
+    },
+    {
+      q: "¿Puedo correr Direct sin números?",
+      a: "Puedes quemar presupuesto. No puedes dirigir resultados. Suelo: una acción goal, coste por lead o pedido, y margen.",
+    },
+    {
+      q: "¿Las auto-estrategias son mejores que las pujas manuales?",
+      a: "Depende del volumen y la calidad del goal. Conversiones escasas y goals sucios — el algoritmo aprende ruido. Conversiones limpias a escala — las auto-estrategias se ganan el sitio.",
+    },
+    {
+      q: "¿Por dónde debería empezar hoy un principiante?",
+      a: "Un set de keywords estrecho, una landing que encaje, goals de analytics y un tope duro de presupuesto. No «elige la estrategia más simple y espera».",
+    },
+    {
+      q: "¿Basta «hubo llamadas / no hubo»?",
+      a: "Como señal aproximada — sí. Como único KPI — no. Necesitas coste por consulta, calidad del lead y una línea hacia ventas.",
+    },
+    {
+      q: "¿Debo perseguir el emplazamiento premium?",
+      a: "La altura del bloque no es el objetivo. La economía sí. Ver el artículo de emplazamiento especial.",
+    },
+    {
+      q: "¿Cuándo necesito un especialista?",
+      a: "Cuando el gasto es material y nadie dentro une pujas, analytics y ventas. Si no, te estancas en «vamos bien» o «el paid search no funciona».",
+    },
+    {
+      q: "¿La estrategia correcta garantiza leads?",
+      a: "No. Una estrategia solo asigna presupuesto. Sin demanda, oferta y landing no carga la campaña.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué cambió entonces",
+      level: 2,
+      paras: [
+        "«Mostrar en el bloque al precio mínimo» se sentía como control para principiantes: «estamos en el bloque, la puja no está loca». Para agencias y anunciantes experimentados ya era demasiado tosco — sin CPA, ROI ni pie competitivo.",
+        "Yandex avanzó hacia estrategias y métricas más ricas, más cerca de otras grandes plataformas de ads. Menos botones para quien no cuenta; más presión para fijar goals y alimentar datos limpios.",
+      ],
+      notes: [
+        {
+          title: "Contexto histórico",
+          text: "Nombres de estrategias y capturas de 2017 son archivo. Configura campañas desde la Ayuda actual de Direct y tus goals de analytics — no desde rutas de clic de artículos viejos.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Por qué «solo probar» se puso más difícil",
+      level: 2,
+      paras: [
+        "Sin un coste medio por llamada, lead o trato, una puja es una lotería. «Hubo llamadas — bien» nunca responde cuánto cuesta un lead ni si los ads se pagan.",
+        "Algunos equipos saltan analytics a propósito («no hay banda ancha»). Otros probaron estrategias «estándar», no vieron nada y echaron la culpa al paid search — mientras goals, keywords o la landing suelen estar rotos.",
+      ],
+      lists: [
+        {
+          intro: "El hueco habitual:",
+          items: [
+            "Direct gasta en impresiones y clics",
+            "el negocio solo pregunta «¿hubo llamadas?»",
+            "nadie ata el coste del lead a su calidad",
+            "la estrategia se cambia al azar",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué decidir antes de elegir estrategia",
+      level: 2,
+      paras: [
+        "Primero economía y objetivo; segundo el tipo de estrategia. Necesitas una acción objetivo, conversiones suficientes para aprender, un CPA aceptable o cuota de gasto en ads, y límites de presupuesto.",
+        "Las pujas manuales encajan en lanzamientos, tests y datos finos. Las auto-estrategias, cuando los goals están limpios y el volumen es alto para que el algoritmo no adivine.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo antes de salir en vivo:",
+          items: [
+            "un goal de analytics que de verdad dispare",
+            "un techo de coste por lead",
+            "una landing que encaje con el cluster de consultas",
+            "negativos y un chequeo de tráfico basura",
+            "tope de presupuesto y ventana de test",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Emplazamiento especial en Direct",
+          href: "/es/blog/spetsrazmeshchenie-direkt/",
+        },
+        {
+          label: "Etiquetas UTM",
+          href: "/es/blog/utm-metki/",
+        },
+        {
+          label: "Retargeting",
+          href: "/es/blog/retargeting/",
+        },
+      ],
+    },
+    {
+      title: "El feedback gana al botón de estrategia",
+      level: 2,
+      paras: [
+        "Incluso un buen media buyer se atasca si el CRM solo dice «alguien llamó» sin estado ni valor del trato. Datos más limpios de leads y ventas significan pujas más afiladas y mejores auto-estrategias.",
+        "Una estrategia asigna presupuesto. Resultado de campaña = demanda × oferta × landing × medición. Ningún botón de UI sustituye esa cadena.",
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          text: "No copies el nombre de una estrategia del caso de otro. Empareja volumen de conversiones, duración del ciclo de venta y calidad del goal — luego elige el modo de optimización.",
+          kind: "tip",
+        },
+      ],
+    },
+  ],
+  related: [
+    "spetsrazmeshchenie-direkt",
+    "utm-metki",
+    "retargeting",
+    "kontekst-i-seo",
+    "prazdnichnyy-retargeting",
+  ],
+};

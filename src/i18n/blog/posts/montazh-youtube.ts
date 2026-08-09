@@ -111,3 +111,115 @@ export const montazhYoutubeEn: BlogPost = {
     "videoreklama-youtube",
   ],
 };
+
+/** ES overlay for montazh-youtube — same structure as RU JSON / EN. */
+export const montazhYoutubeEs: BlogPost = {
+  slug: "montazh-youtube",
+  title: "Edición de vídeo en YouTube: por dónde empezar y cómo elegir una tool",
+  date: "2020-08-18",
+  category: "SMM",
+  cover: "/images/blog/montazh-youtube/cover.webp",
+  excerpt:
+    "Cómo editar vídeos para YouTube: el trabajo del montaje, un pipeline básico, clases de editores (principiante / pro / móvil / online) y qué importa más que el software — ritmo, audio y encaje con el thumbnail.",
+  lead: [
+    "Editar para YouTube no es «añadir 20 transiciones». Es construir un vídeo que se mire: cortar silencio muerto, fijar el orden, limpiar audio y color, añadir títulos y un CTA claro.",
+    "Abajo: un pipeline que funciona y cómo elegir editor por nivel — no por una lista de quince nombres caducados. Los roundups de «qué usó el creator X en 2020» envejecen rápido; las clases de tools y las skills no.",
+  ],
+  faq: [
+    {
+      q: "¿Qué programa es «el mejor»?",
+      a: "Aquel en el que terminas con constancia las tareas del canal. Los principiantes a menudo se apañan con CapCut, DaVinci Resolve Free o iMovie; los pros suelen aterrizar en Premiere, Final Cut o Resolve Studio.",
+    },
+    {
+      q: "¿Hace falta software caro?",
+      a: "No al empezar. Importan más un audio más limpio, un gancho claro en los primeros segundos y que no haya pausas muertas.",
+    },
+    {
+      q: "¿Están bien los editores online?",
+      a: "Para cortes simples — sí. Para proyectos largos y material confidencial, el software local suele ser mejor: velocidad y control de archivos.",
+    },
+    {
+      q: "¿Hacen falta efectos pesados?",
+      a: "Rara vez. Los espectadores se van más por aburrimiento y mal audio que por «falta un título 3D».",
+    },
+    {
+      q: "¿Qué debo exportar para YouTube?",
+      a: "Suele ser H.264/H.265, 1080p o más desde la fuente, y un bitrate sensato. Mira la help de YouTube para recomendaciones actuales — se actualizan.",
+    },
+  ],
+  sections: [
+    {
+      title: "Para qué sirve el montaje — y un pipeline básico",
+      level: 2,
+      paras: [
+        "La meta es un vídeo que cumpla la promesa del thumbnail y se mire bien en un teléfono. El montaje corta relleno, refuerza la historia, nivela volumen y ayuda a orientarse (timestamps, acentos de texto en pantalla).",
+        "Pipeline: elige tomas → rough cut por guion → limpia pausas y muletillas → audio (ruido, música con licencia) → color/exposición → gráficos y captions → export → comprueba en un teléfono antes de subir.",
+        "El copyright de música y clips ajenos es obligatorio. Bibliotecas de música con licencia y YouTube Audio Library / tus propias pistas son más seguras que «descargado de la búsqueda».",
+        "Empaqueta el lado del canal en paralelo — título, descripción, keywords y thumbnail. El montaje tiene que cumplir la promesa del clic, o un CTR alto se vuelve bajas de suscripción.",
+      ],
+      lists: [
+        {
+          intro: "Calidad mínima del vídeo:",
+          items: [
+            "un gancho en los primeros 3–10 segundos",
+            "sin silencios largos ni «eh» de relleno",
+            "voz audible sin siseo",
+            "texto en pantalla legible en smartphone",
+            "un final con un siguiente paso claro",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Promoción en YouTube",
+          href: "/es/blog/raskrutka-youtube/",
+        },
+        {
+          label: "Keywords de YouTube",
+          href: "/es/blog/kluchi-youtube/",
+        },
+      ],
+    },
+    {
+      title: "Cómo elegir un editor",
+      level: 2,
+      paras: [
+        "Principiante / vídeos cortos y Shorts: editores móviles y desktop simples (CapCut, iMovie y similares, el trimmer integrado de YouTube). Un arranque rápido gana a una UI «cinemática».",
+        "Intermedio: DaVinci Resolve (tiene tier gratis), Premiere, Vegas/Magix y similares — multi-pista, audio y color decentes. Elige donde haya material de aprendizaje en tu idioma y tu hardware aguante.",
+        "Pro / equipo: Final Cut en Apple, Premiere/Avid en estudios, Resolve Studio para color. Plugins y colaboración tienen sentido cuando el volumen de vídeo es estable.",
+        "Los servicios online sirven para recortar y unir en el navegador, pero dependen de la velocidad de upload y de los planes. No subas shoots confidenciales sin leer la política del servicio.",
+        "No copies software «como un creator famoso» a ciegas: tienen trabajos y presupuestos distintos. Elige una tool, termina 10 vídeos — luego decide si necesitas un upgrade.",
+        "En resumen: el montaje de YouTube es ritmo, audio y claridad. El software es un medio; la constancia y el encaje con el thumbnail importan más que una lista larga de programas.",
+      ],
+      lists: [
+        {
+          intro: "Antes de elegir un programa, pregunta:",
+          items: [
+            "¿PC, Mac o teléfono?",
+            "¿vídeos largos o Shorts?",
+            "¿necesitas color grading y audio multi-pista?",
+            "¿hay presupuesto para una suscripción?",
+            "¿estás listo para aprender 2–3 tardes para arrancar?",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Descripción del canal de YouTube",
+          href: "/es/blog/opisanie-youtube-kanala/",
+        },
+        {
+          label: "Monetización de YouTube",
+          href: "/es/blog/youtube-monetizaciya/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "raskrutka-youtube",
+    "kluchi-youtube",
+    "opisanie-youtube-kanala",
+    "youtube-monetizaciya",
+    "videoreklama-youtube",
+  ],
+};

@@ -204,3 +204,208 @@ export const prazdnichnyyRetargetingEn: BlogPost = {
     "reklamnyy-kabinet",
   ],
 };
+
+/** ES overlay for prazdnichnyy-retargeting — same structure as RU JSON / EN. */
+export const prazdnichnyyRetargetingEs: BlogPost = {
+  slug: "prazdnichnyy-retargeting",
+  title: "Retargeting pre-fiestas: cuatro tácticas de campaña",
+  date: "2018-12-26",
+  category: "Paid search",
+  cover: "/images/blog/prazdnichnyy-retargeting/cover.webp",
+  excerpt:
+    "Cómo traer de vuelta a los visitantes en el pico de compras de fiestas: una campaña de retargeting aparte, un segmento social, intereses de Audiences, display y una cascada — sin quemar el presupuesto.",
+  lead: [
+    "En la temporada pre-fiestas el tráfico del sitio sube mientras la cuota de compra a menudo se queda baja: la gente miró el catálogo y se fue. El retargeting trae de vuelta a quienes ya conocen la marca — con un descuento, un regalo o una oferta más corta bajo deadline.",
+    "Abajo: cuatro tácticas para Yandex Direct (y cuentas relacionadas) — segmento social, intereses, display y cascada. Mantén el retargeting en su propia campaña para que pujas, negatives y reporting se queden limpios. Solo informativo; cuando se mencionan productos Meta*, aplica la nota legal.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Los ads de Facebook* e Instagram* corren a través de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta se reconoce como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Por qué una campaña de retargeting aparte?",
+      a: "Más fácil pujas, horario, creatives y stats. Mezclar con search frío ensucia el CPA y la optimización.",
+    },
+    {
+      q: "¿El retargeting es solo para carritos abandonados?",
+      a: "No. Trabaja toda la base de touches: visitas, compradores, referrals de social — con ofertas distintas.",
+    },
+    {
+      q: "¿Cuántos contactos para Audiences?",
+      a: "Una guía aproximada es desde unas 1.000 filas de lista — revisa los límites actuales de Yandex Help. Listas más pequeñas: usa segmentos de Metrica.",
+    },
+    {
+      q: "¿Qué oferta de fiestas funciona?",
+      a: "Sets de regalo, entrega para una fecha, un código promo con plazo, una opción gratis. Cada segmento recibe su propio copy — no un banner para todos.",
+    },
+    {
+      q: "¿Qué es el retargeting en cascada?",
+      a: "Una cadena de touches que aprieta o cambia la oferta por días tras la visita: recordatorio → beneficio → último deadline.",
+    },
+    {
+      q: "¿Debe social ir en el segmento?",
+      a: "Si el tráfico viene de ahí — sí: un segmento de Metrica «fuente = social» para calentar una audiencia familiar con una oferta de fiestas.",
+    },
+    {
+      q: "¿Cómo evitar quemar presupuesto?",
+      a: "Tope de frecuencia, excluir compradores cuando se pueda, ads separados por segmento, parar por CPA, revisar landings de promo.",
+    },
+    {
+      q: "¿Esto ayuda al SEO?",
+      a: "No de forma directa. De forma indirecta pruebas ofertas más rápido y construyes awareness. El orgánico es una vía aparte con sus propios plazos.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué importa el retargeting en fiestas",
+      level: 2,
+      paras: [
+        "La demanda se comprime: regalos, eventos corporativos, deadlines de entrega. La gente compara y pospone más — el retargeting atrapa lo cálido; no calienta frío desde cero.",
+        "Pon el retargeting en una campaña aparte: pujas propias, horario (tardes / fines de semana), presupuesto y objetivos. Si no, el optimizer se come las stats de frases de search.",
+      ],
+      lists: [
+        {
+          intro: "Base antes del lanzamiento:",
+          items: [
+            "contador y objetivos en Metrica",
+            "promos y landings actuales",
+            "excluir compradores (si el escenario lo permite)",
+            "tope de frecuencia y presupuesto diario",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Paid search y SEO",
+          href: "/es/blog/kontekst-i-seo/",
+        },
+        {
+          label: "Pujas de Yandex Direct",
+          href: "/es/blog/stavki-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Táctica 1: audiencia desde social",
+      level: 2,
+      paras: [
+        "Quienes llegaron de VK, Instagram*, Facebook* y otras redes ya vieron la marca en el feed. Les encajan colecciones de regalos y «hazlo para la fiesta» — no una oferta fría desde cero.",
+        "En Metrica guarda un segmento por fuente (social) y adjúntalo en las condiciones de retargeting. Creative y landing deben encajar con el escenario de fiestas — no una copia del ad de search.",
+      ],
+      lists: [
+        {
+          intro: "En la práctica:",
+          items: [
+            "segmento de visitas sociales",
+            "un ad group aparte",
+            "oferta: set / entrega por fecha / código promo",
+            "revisar UTM y landings de promo",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Táctica 2: intereses y Yandex Audiences",
+      level: 2,
+      paras: [
+        "Sube una lista de compradores o leads a Audiences (respetando el tamaño mínimo de lista) y revisa intereses con alta afinidad. Añade un interés fuerte a un segmento de Metrica y combina: interés + estuvo en el sitio, interés + compró.",
+        "Intereses distintos necesitan copy distinto: cocina y «belleza / salud» no viven en un mismo ad. Si no, caen CTR y conversión.",
+      ],
+      lists: [
+        {
+          intro: "Combinaciones:",
+          items: [
+            "interés ∩ visitantes del sitio",
+            "interés ∩ compradores",
+            "interés ∩ carrito abandonado",
+            "creatives aparte para cada emparejamiento",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Táctica 3: retargeting display",
+      level: 2,
+      paras: [
+        "Los formatos display recuerdan la marca y la promo donde la gente navega. En fiestas eso sube el reach de la base cálida, pero vigila frecuencia y placements — irritación en lugar de compra si no.",
+        "Liga el display a un siguiente paso claro: no solo awareness, sino un clic a una URL de promo actual con stock y plazos.",
+      ],
+      lists: [
+        {
+          intro: "Control:",
+          items: [
+            "frecuencia de impresiones",
+            "excluir placements irrelevantes",
+            "una oferta principal por banner",
+            "objetivo de punta a punta (lead / compra), no solo reach",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Táctica 4: retargeting en cascada",
+      level: 2,
+      paras: [
+        "Una cascada cambia el mensaje por antigüedad de la visita. Día 0–1: recordatorio suave. Día 2–3: beneficio o regalo. Más cerca del deadline: «hazlo para la fecha» / último día de promo. Comprime plazos por categoría: flores y comida deciden más rápido que electrodomésticos grandes.",
+        "No muestres el mismo banner dos semanas. Excluye conversiones de los pasos posteriores de la cascada.",
+      ],
+      lists: [
+        {
+          intro: "Marco de cascada:",
+          items: [
+            "paso 1 — recordatorio de surtido",
+            "paso 2 — descuento / bonus",
+            "paso 3 — deadline de entrega / promo",
+            "excluir compradores en cada paso",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Reglas de setup y medición",
+      level: 2,
+      paras: [
+        "Segmenta de forma práctica: cada segmento recibe su propia oferta. El retargeting trabaja toda la base de touches, no solo «no compró». Prueba tácticas por turno — si no, no sabrás qué funcionó.",
+        "Cuenta CPA y la cuota de revenue del retargeting en la ventana de fiestas. Tras la temporada, conserva segmentos y creatives que funcionen — útiles para los siguientes picos (San Valentín, 8 de marzo, periodos de Black Friday).",
+      ],
+      lists: [
+        {
+          intro: "Checklist de lanzamiento:",
+          items: [
+            "campaña aparte",
+            "cuatro tácticas etiquetadas en grupos",
+            "landings con promo actual",
+            "topes de frecuencia y presupuesto",
+            "reporte: spend / conversiones / CPA por segmento",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+        {
+          label: "Tráfico de marca",
+          href: "/es/blog/brendovyy-trafik/",
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Revisa la oferta y los plazos de entrega antes de encender impresiones: prometer «para la fiesta» sin logística pega a reseñas y ventas repetidas.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "stavki-direkt",
+    "kontekst-i-seo",
+    "optimizatsiya-konversii",
+    "brendovyy-trafik",
+    "spetsrazmeshchenie-direkt",
+    "reklamnyy-kabinet",
+  ],
+};

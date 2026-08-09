@@ -206,3 +206,210 @@ export const altImgEn: BlogPost = {
     "optimizatsiya-stranitsy",
   ],
 };
+
+/** ES overlay for alt-img — same structure as RU JSON / EN. */
+export const altImgEs: BlogPost = {
+  slug: "alt-img",
+  title: "Atributos alt y title de imagen: cómo escribirlos bien",
+  date: "2020-08-27",
+  category: "SEO",
+  cover: "/images/blog/alt-img/cover.webp",
+  excerpt:
+    "En qué se diferencia alt de title en una etiqueta img, por qué alt importa para accesibilidad y búsqueda de imágenes, cuándo title casi no hace falta y qué errores duelen al SEO y a la UX.",
+  lead: [
+    "`alt` describe la imagen si el archivo no carga o un lector de pantalla la lee. `title` en `img` es una pista al hover en algunos navegadores; apenas afecta al SEO y a la accesibilidad.",
+    "Abajo: cómo escribir alt, cuándo usar `alt=\"\"` vacío, si hace falta title y qué evitar (keyword stuffing, «image1»). Los banners clicables están en el artículo de imagen como enlace.",
+  ],
+  faq: [
+    {
+      q: "¿El alt es obligatorio?",
+      a: "Para imágenes informativas — sí, texto con sentido. Para las puramente decorativas — `alt=\"\"` vacío para que el lector de pantalla no lea basura.",
+    },
+    {
+      q: "¿El title de img es obligatorio para SEO?",
+      a: "No. No cuentes con title como factor de ranking. Céntrate en alt, contexto de la página y calidad del archivo.",
+    },
+    {
+      q: "¿Cuántos caracteres debe tener el alt?",
+      a: "Los que hagan falta para describir el sentido con brevedad. Suele bastar una frase corta; un vertedero de keywords no.",
+    },
+    {
+      q: "¿Ayudan las keywords en el alt?",
+      a: "Moderadas y al punto — bien. Meter «comprar X barato foto» en cada alt duele a la accesibilidad.",
+    },
+    {
+      q: "¿El alt es lo mismo que un pie de foto?",
+      a: "No necesariamente. El pie es visible para todos; el alt es texto alternativo. Pueden compartir sentido, pero no hace falta que coincidan palabra por palabra.",
+    },
+    {
+      q: "¿Los iconos de botón necesitan alt?",
+      a: "Si hay texto visible del botón al lado — a menudo `alt=\"\"`. Si el icono es el único sentido — el alt debe nombrar la acción.",
+    },
+    {
+      q: "¿Puedo usar el nombre de archivo en lugar del alt?",
+      a: "No. El nombre de archivo ayuda a la organización, pero no sustituye al alt.",
+    },
+    {
+      q: "¿Alt en español o en inglés?",
+      a: "En el idioma de la página y de la audiencia.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué existen los atributos de img",
+      level: 2,
+      paras: [
+        "Los bots y la tecnología asistiva no ven píxeles como una persona. `alt` da un equivalente de texto. Para la gente, el alt aparece si la imagen se rompe; para SEO — una señal sobre la imagen y el tema de la página junto al contenido.",
+        "`title` históricamente se trató como otro campo de keywords. Hoy es una capa opcional floja; en dispositivos touch a menudo no hay hover.",
+      ],
+      lists: [
+        {
+          intro: "Roles:",
+          items: [
+            "`src` — el archivo",
+            "`alt` — sentido / vacío para decoración",
+            "`width`/`height` — espacio en el layout",
+            "`title` — tip opcional, no un reemplazo del alt",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo escribir alt",
+      level: 2,
+      paras: [
+        "Describe qué hay en la imagen y por qué está ahí — sin «la imagen muestra…». Para un producto — modelo/tipo; para un diagrama — qué explica; para una foto de oficina — corto y honesto.",
+        "Si la imagen lleva texto (screenshot, meme con una línea), el alt debe transmitir la esencia o la decisión del texto — o se pierde el sentido para el lector de pantalla.",
+      ],
+      lists: [
+        {
+          intro: "Ejemplos:",
+          items: [
+            "malo: `photo`, `img_4521`, `comprar nevera barata oferta`",
+            "mejor: `Nevera americana blanca, estantes abiertos`",
+            "para una línea decorativa: `alt=\"\"`",
+            "para un botón icono de búsqueda: `alt=\"Buscar\"` o texto visible + alt vacío",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "La misma keyword comercial en cada alt de la galería. Ruido para la gente, spam para la búsqueda.",
+        },
+      ],
+    },
+    {
+      title: "Alt y SEO: con realismo",
+      level: 2,
+      paras: [
+        "El alt ayuda a transmitir el tema de la imagen y a veces a aparecer en la búsqueda de imágenes. No es indexación más rápida de todo el sitio ni una garantía de primera página. Más importa: una página relevante, un archivo ligero, contexto claro alrededor.",
+        "No dupliques el Title de la página en cada alt. No escondas la oferta principal solo en una imagen sin texto HTML.",
+      ],
+      lists: [
+        {
+          intro: "Más fuerte que el alt:",
+          items: [
+            "contenido de calidad en la página",
+            "compresión y formatos modernos",
+            "pies de foto con sentido",
+            "enlaces internos en el texto",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Imágenes y atención",
+          href: "/es/blog/kartinki-vnimanie/",
+        },
+        {
+          label: "Tamaño de página",
+          href: "/es/blog/razmer-stranitsy/",
+        },
+      ],
+    },
+    {
+      title: "Title en una imagen",
+      level: 2,
+      paras: [
+        "Puedes dar una tip corta al hover en desktop. No tires ahí una hoja de keywords. Muchos usuarios nunca ven el title.",
+        "No confundas `title` en `img` con el `<title>` del documento ni con un pie `<figcaption>`.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo encaja el title:",
+          items: [
+            "aclaración extra sin sentido crítico",
+            "no como única fuente de descripción",
+            "no en lugar del texto accesible del enlace",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Enlaces de imagen y decoración",
+      level: 2,
+      paras: [
+        "Si `img` va dentro de un enlace sin texto cerca, el alt debe describir el destino («Catálogo de bombas»), no solo «botón azul».",
+        "Las imágenes de fondo en CSS no tienen alt — no pongas ahí el único sentido importante.",
+      ],
+      lists: [
+        {
+          intro: "Checklist:",
+          items: [
+            "informativa — alt con sentido",
+            "decor — alt vacío",
+            "enlace de imagen — alt = acción/destino",
+            "sin bulk de keywords",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Imagen como enlace",
+          href: "/es/blog/kartinka-ssylka/",
+        },
+      ],
+    },
+    {
+      title: "Práctica de despliegue",
+      level: 2,
+      paras: [
+        "En el CMS haz el alt obligatorio para fotos de contenido. Crawl de alts vacíos y de plantilla. En auditorías de accesibilidad revisa iconos decorativos.",
+        "Ejemplo: `<img src=\"/images/pump.webp\" alt=\"Bomba centrífuga de pozo, carcasa de acero inoxidable\" width=\"800\" height=\"600\">`.",
+      ],
+      lists: [
+        {
+          intro: "Playbook editorial:",
+          items: [
+            "escribe el alt al subir, no «luego»",
+            "prohíbe `image`, `photo`, `banner`",
+            "revisa galerías comerciales",
+            "no uses title como vertedero de keywords",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Un alt preciso gana a diez clones «optimizados».",
+        },
+      ],
+      links: [
+        {
+          label: "Código fuente de la página",
+          href: "/es/blog/ishodnyy-kod/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "kartinka-ssylka",
+    "kartinki-vnimanie",
+    "razmer-stranitsy",
+    "ishodnyy-kod",
+    "optimizatsiya-stranitsy",
+  ],
+};

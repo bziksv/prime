@@ -106,3 +106,110 @@ export const vrednyeSovetyRukovoditelyamEn: BlogPost = {
     "onlayn-obuchenie",
   ],
 };
+
+/** ES overlay for vrednye-sovety-rukovoditelyam — same structure as RU JSON / EN. */
+export const vrednyeSovetyRukovoditelyamEs: BlogPost = {
+  slug: "vrednye-sovety-rukovoditelyam",
+  title: "Malos consejos para managers: antipatrones de liderazgo que rompen equipos",
+  date: "2019-07-01",
+  category: "Digital marketing",
+  cover: "/images/blog/vrednye-sovety-rukovoditelyam/cover.webp",
+  excerpt:
+    "Una mirada irónica al liderazgo tóxico en digital: tener siempre la razón, flex de estatus, reuniones vacías, manipulación y descuido de tu mejor gente — más qué hacer en su lugar.",
+  lead: [
+    "Esta pieza está escrita a propósito como malos consejos: si quieres perder respeto y a tu gente más fuerte rápido, síguelos. Si quieres conservar un equipo, trátalo como lista de antipatrones y haz lo contrario.",
+    "Abajo: trampas típicas de manager (también en una agencia digital) — de la intolerancia a la crítica a infravalorar a gente experimentada. El humor es afilado a propósito porque el daño es real.",
+  ],
+  faq: [
+    {
+      q: "¿Es una guía seria de management?",
+      a: "Es un espejo para malos hábitos. La fórmula que funciona: detecta un antipatrón y luego haz lo contrario.",
+    },
+    {
+      q: "¿Por qué el ángulo de agencia digital?",
+      a: "La fuente creció de la vida en agencia, pero los patrones aparecen en todas partes: ventas, producto, cualquier negocio de servicios.",
+    },
+    {
+      q: "¿Criticar a un manager siempre es útil?",
+      a: "No todo estallido ayuda. El pushback necesita sustancia. Un líder maduro separa un ataque personal de una revisión de una decisión.",
+    },
+    {
+      q: "¿Por qué es peligroso flexear victorias pasadas?",
+      a: "Sustituye la aportación de hoy por estatus. El equipo juzga las decisiones actuales, no leyendas del CV.",
+    },
+    {
+      q: "¿Con qué frecuencia conviene hacer reuniones?",
+      a: "Cuando hay agenda, una decisión y un dueño. Convocar a la gente para «combatir una crisis» sin plan es solo ruido.",
+    },
+    {
+      q: "¿Puede la manipulación tapar competencia débil?",
+      a: "A corto plazo oculta un hueco. A largo plazo tienes rotación y sabotaje callado. Mejor admitir lo que no sabes y traer a un experto.",
+    },
+  ],
+  sections: [
+    {
+      title: "«Siempre tengo razón» y el culto al genio",
+      level: 2,
+      paras: [
+        "Mal consejo: no permitas crítica; cierra el debate a gritos y con «no confiáis en mí». Asume que el staff «no entiende digital», así que su opinión no cuenta.",
+        "Haz esto en su lugar: defiende decisiones con hechos y asume errores. Un equipo que no puede hacer pushback deja de avisarte del riesgo.",
+      ],
+    },
+    {
+      title: "Flex de estatus, reuniones vacías, promesas olvidadas",
+      level: 2,
+      paras: [
+        "Dañino: recordar sin cesar presupuestos pasados y «clientes internacionales», vestir por estatus, convocar reuniones de emergencia sin agenda y cortar a la gente a mitad de frase.",
+        "Dañino: olvidar tus propias promesas y echar la culpa a quien hace el trabajo. Haz esto en su lugar: agenda, outcomes, acuerdos por escrito — y cúmplelos.",
+      ],
+      lists: [
+        {
+          intro: "Antipatrones de reunión:",
+          items: [
+            "sin meta y sin agenda",
+            "sin decisión y sin dueño",
+            "subir la voz en vez de argumentar",
+            "una reunión en vez de trabajo en el task tracker",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Manipulación y «ocupado con lo equivocado»",
+      level: 2,
+      paras: [
+        "Dañino: enfrentar a la gente entre sí, cotillear, mandarlos al jefe «más duro» en vez de ayudar, alabar «somos una familia» mientras sobrecargas a todos. Dañino: fingir busywork y dejar que el producto o el modelo de agencia deriven mientras persigues un lane de moda que no es el tuyo.",
+        "Haz esto en su lugar: prioridades transparentes, ownership claro, feedback directo sin espionaje.",
+      ],
+    },
+    {
+      title: "Descuidar a los performers fuertes",
+      level: 2,
+      paras: [
+        "Dañino: no recompensar a quien ya entrega, inundar a los newcomers de perks, romper la motivación de ventas con un fee plano y promesas vagas, exigir volumen creativo imposible, bloquear contrataciones de gente fuerte y dejar a los account managers solos con todo el portfolio.",
+        "Haz esto en su lugar: retiene a quien ya entrega; da a los newcomers un onboarding real — no privilegios que desmotivan al núcleo del equipo.",
+      ],
+      links: [
+        {
+          label: "Formación corporativa",
+          href: "/es/blog/korporativnoe-obuchenie/",
+        },
+        {
+          label: "Agencia digital",
+          href: "/es/blog/didzhital-agentstvo/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Los malos consejos funcionan como una vacuna: una vez reconoces un movimiento tóxico, puedes elegir a conciencia lo contrario. El respeto del equipo viene de decisiones, promesas cumplidas y atención a la gente fuerte — no de gritar sobre tu propio genio.",
+  ],
+  related: [
+    "korporativnoe-obuchenie",
+    "didzhital-agentstvo",
+    "nayti-marketologa",
+    "project-manager",
+    "udalennaya-rabota",
+    "onlayn-obuchenie",
+  ],
+};

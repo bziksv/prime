@@ -147,3 +147,151 @@ export const seoSNulyaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for seo-s-nulya — same structure as RU JSON / EN. */
+export const seoSNulyaEs: BlogPost = {
+  slug: "seo-s-nulya",
+  title: "SEO desde cero: por dónde empezar y cómo aprender haciendo",
+  date: "2021-09-09",
+  category: "SEO",
+  cover: "/images/blog/seo-s-nulya/cover.webp",
+  excerpt:
+    "Una rampa práctica al SEO: los conceptos que importan, un camino de aprendizaje para principiantes, práctica hands-on, qué leer y plazos honestos de rankings — sin fórmula mágica.",
+  lead: [
+    "La mayoría no entra al SEO en blanco. Vienen de roles adyacentes, o simplemente quieren saber por qué un sitio no trae leads. No hay una sola receta: los nichos rompen checklists de plantilla.",
+    "Aquí hay un camino workable desde cero: qué aprender primero, cómo conseguir práctica real y cómo no confundir la preparación del sitio con rankings de primera página. Quien se queda suele compartir el mismo combustible — curiosidad, publicar trabajo y revisar lo que falló.",
+  ],
+  faq: [
+    {
+      q: "¿Por dónde empezar a aprender SEO?",
+      a: "Empieza por el alcance y las definiciones, luego keywords, estructura del sitio, bases técnicas, contenido y analítica. En paralelo, usa tu propio sitio o un proyecto de práctica para que cada concepto tenga dónde aterrizar.",
+    },
+    {
+      q: "¿Bastan los cursos sin práctica?",
+      a: "No. Un curso es un mapa. La skill aparece cuando publicas tareas y revisas qué movió la aguja — y qué no.",
+    },
+    {
+      q: "¿Cuándo esperar rankings de primera página?",
+      a: "Dejar el sitio listo suele llevar de semanas a alrededor de un mes. El crecimiento de rankings se planifica en meses — típicamente una ventana de 2–6 meses tras el inicio del trabajo — no «lanzamos en 30 días y saltamos a los primeros puestos».",
+    },
+    {
+      q: "¿Hace falta un mentor?",
+      a: "Acelera mucho: alguien tapa los huecos que aún no ves. Puedes aprender sin uno, pero espera un camino más largo entre blogs, docs de buscadores y una internship.",
+    },
+    {
+      q: "¿Debo estudiar tácticas black-hat?",
+      a: "Conocer los riesgos — sí. Usarlas en un sitio de cliente — no. Filtros y un proyecto quemado cuestan más que un pico corto de tráfico.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué hace de verdad un especialista SEO",
+      level: 2,
+      paras: [
+        "Ayuda a que un sitio gane el tráfico orgánico para el que está pensado: demanda → páginas → salud técnica → contenido → medición. No «boost» falso, ni un asiento garantizado en los resultados.",
+        "Los roles tempranos suelen ser trabajo de asistente bajo un mentor. Antes de postularte, pasa un par de días con el vocabulario y las tareas del día a día — no quemes el tiempo de un team lead en lo más básico.",
+      ],
+      lists: [
+        {
+          intro: "Conocimiento central a construir:",
+          items: [
+            "cómo funcionan la búsqueda y la indexación",
+            "investigación de keywords e intent de búsqueda",
+            "estructura del sitio y enlazado interno",
+            "bases técnicas (velocidad, móvil, códigos de estado)",
+            "contenido y snippets de búsqueda",
+            "Search Console / herramientas de webmaster y analítica",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "Un camino de aprendizaje que no se desborda",
+      level: 2,
+      paras: [
+        "Arma un glosario desde unas pocas fuentes sólidas → elige un libro o curso estructurado como marco → lee blogs de practitioners y docs oficiales de Google/Yandex → habla con gente que ya hace el trabajo.",
+        "Clips de vídeo al azar sin práctica no se convierten en carrera. El acelerador más rápido es un círculo de gente que publica SEO cada semana: las reviews de casos cierran huecos más rápido que el décimo tutorial de «qué es un title tag».",
+      ],
+      lists: [
+        {
+          intro: "Un orden práctico:",
+          items: [
+            "aprender el lenguaje del oficio (no cada botón del panel)",
+            "montar un set de keywords y estructura de sitio en un proyecto de entrenamiento",
+            "pasar un checklist técnico",
+            "publicar fixes y medir tras 2–4 semanas",
+            "llevar un diario corto de hipótesis",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Investigación de keywords (núcleo semántico)",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+      ],
+    },
+    {
+      title: "La práctica gana a la teoría",
+      level: 2,
+      paras: [
+        "La comprensión se pega cuando publicas algo y ves el efecto — o la falta de uno. Los errores en sitios propios o de entrenamiento salen más baratos que en un presupuesto de cliente sin supervisión.",
+        "Amplía nichos a medida que creces: casi nada es 100% plantilla. Internships, freelance pequeño bajo guía o ayuda junior dentro de una agencia son entradas normales.",
+      ],
+      lists: [
+        {
+          intro: "Skills a entrenar a mano:",
+          items: [
+            "recoger y agrupar consultas",
+            "escribir briefs de contenido y revisar densidad sin stuffing",
+            "editar robots.txt, sitemaps y redirects",
+            "un informe claro «antes → qué hicimos → después»",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Trampa habitual",
+          text: "Esperar una fórmula mágica y copiar el checklist de otro línea a línea. El SEO no tiene una lista universal de ticks que encaje en cada sitio.",
+        },
+      ],
+    },
+    {
+      title: "Plazos y expectativas",
+      level: 2,
+      paras: [
+        "Dejar un sitio listo para la promoción — técnica, estructura, copy, CTAs — puede llevar semanas. Mover una cuota significativa del set de keywords hacia la primera página son meses de trabajo e iteración, no una línea de contrato que diga «los 10 primeros en 30 días».",
+        "El mercado es más duro que en los 2000: la utilidad para usuarios reales gana a los atajos grises. Aprender lleva más tiempo, pero la skill viaja contigo de proyecto a proyecto.",
+      ],
+      lists: [
+        {
+          intro: "Un mindset realista de principiante:",
+          items: [
+            "mantener la curiosidad y seguir aprendiendo",
+            "tratar los errores como material de review, no como vergüenza",
+            "los resultados de ranking se acumulan con el tiempo",
+            "hablar con el cliente importa tanto como las herramientas de keywords",
+          ],
+        },
+      ],
+    },
+    {
+      title: "En resumen",
+      level: 2,
+      paras: [
+        "SEO desde cero es un mapa de los bloques centrales, más horas de práctica y feedback. Aprende los términos, corre un proyecto de entrenamiento, busca un mentor o un equipo y no confundas preparación con rankings. Que te importe cómo funciona la web no es fluff aquí — es el combustible que te mantiene en marcha.",
+      ],
+      lists: [],
+    },
+  ],
+};

@@ -140,3 +140,144 @@ export const ssylkaInstagramEn: BlogPost = {
     "instagram-direct",
   ],
 };
+
+/** ES overlay for ssylka-instagram — same structure as RU JSON / EN. */
+export const ssylkaInstagramEs: BlogPost = {
+  slug: "ssylka-instagram",
+  title: "Cómo copiar el enlace del perfil de Instagram",
+  date: "2021-04-08",
+  category: "SMM",
+  cover: "/images/blog/ssylka-instagram/cover.webp",
+  excerpt:
+    "Cómo obtener la URL del perfil de Instagram: desde el navegador, desde la app y a mano por username — dónde pegar el enlace y qué no garantiza.",
+  lead: [
+    "El enlace del perfil de Instagram sirve para el sitio, la tarjeta de visita, los ads y el chat: la persona llega directo a la cuenta. El formato es simple — una dirección como `https://www.instagram.com/username/`.",
+    "Abajo: cómo copiar la URL y dónde colocarla. El menú de tres puntos y las etiquetas cambian; la idea se mantiene. La nota del producto Meta está en la página. (El título original de WP hablaba de «varias stories», pero el cuerpo era sobre el enlace del perfil — conservamos el contenido real.)",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de las plataformas. Instagram* y WhatsApp* son productos de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta se reconoce como extremista, y el uso de los servicios puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia el enlace del perfil de un enlace en Stories?",
+      a: "Una URL de perfil abre la cuenta entera. Un enlace o sticker de Story es otra mecánica con límites según el tipo de cuenta.",
+    },
+    {
+      q: "¿Importa mayúsculas en el username?",
+      a: "En la URL, usa el login tal como aparece en la dirección del perfil. No inventes espacios ni caracteres — copia de la barra de dirección.",
+    },
+    {
+      q: "¿El enlace trae followers por sí solo?",
+      a: "No. Solo abre el perfil. Hacen falta oferta, diseño y tráfico. Más enlaces externos ≠ crecimiento automático de ventas.",
+    },
+    {
+      q: "¿Puedo acortar el enlace del perfil?",
+      a: "Sí, vía URLs cortas — pero para confianza a menudo es mejor la dirección oficial completa, sobre todo en ads y en el sitio.",
+    },
+    {
+      q: "¿Dónde más puedo obtener un contacto?",
+      a: "En un perfil business — botones de contacto, WhatsApp/email donde estén disponibles. Ver diseño del perfil y cuenta business.",
+    },
+  ],
+  sections: [
+    {
+      title: "De qué está hecha la URL",
+      level: 2,
+      paras: [
+        "Base: dominio de Instagram + username único. Ejemplo: `https://www.instagram.com/your_username/`. El nick es único en la red; si el perfil se renombró, el enlace viejo puede dejar de abrir igual.",
+        "No lo confundas con enlaces a un solo post o Reel — esos tienen otra ruta tras el username.",
+      ],
+    },
+    {
+      title: "Copiar en el navegador",
+      level: 2,
+      paras: [
+        "Abre Instagram en un navegador, ve al perfil necesario (el tuyo o el de otra persona si está abierto). En la barra de dirección está la URL completa — cópiala.",
+        "Asegúrate de que sea la página del perfil, no el feed, Explore o ajustes.",
+      ],
+    },
+    {
+      title: "Copiar en la app",
+      level: 2,
+      paras: [
+        "Abre el perfil → menú (⋯ o similar) → un ítem tipo «Copiar enlace del perfil» / Compartir perfil. Pega donde lo necesites.",
+        "Las etiquetas han cambiado; busca copiar enlace o «compartir perfil», luego «copiar».",
+      ],
+      links: [
+        {
+          label: "Diseño del perfil de Instagram",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+        {
+          label: "Cuenta business de Instagram",
+          href: "/es/blog/biznes-akkaunt-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Armar el enlace a mano",
+      level: 2,
+      paras: [
+        "Si conoces el username exacto: `https://www.instagram.com/` + nick + `/`. Prueba el toque en incógnito — ves si el perfil abre sin tu sesión.",
+        "Un typo en el nick lleva a la cuenta de otro o a una inexistente — siempre prueba tras armarlo a mano.",
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Poner en ads un enlace de Story o post en lugar del perfil — o al revés cuando necesitas una oferta concreta.",
+        },
+      ],
+    },
+    {
+      title: "Dónde ponerlo y cómo presentarlo",
+      level: 2,
+      paras: [
+        "Sitio (footer, contactos, botones), otras redes, firma de email, tarjeta de visita, deck, QR. En el copy, un CTA corto («Perfil de Instagram» + enlace) gana a una URL pelada en medio de un párrafo.",
+        "Para ads y landings, envía a una cuenta con oferta clara en el header y contenido actual — si no, el toque no convierte.",
+      ],
+      lists: [
+        {
+          intro: "Antes de publicar el enlace:",
+          items: [
+            "el perfil está abierto o las reglas de acceso están claras",
+            "el username encaja con la marca",
+            "header y avatar están en orden",
+            "hay un siguiente paso (Direct, sitio, producto)",
+            "enlace probado desde otro dispositivo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Negocio en Instagram",
+          href: "/es/blog/biznes-v-instagram/",
+        },
+        {
+          label: "Ads en Instagram",
+          href: "/es/blog/reklama-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Ideas clave",
+      level: 2,
+      paras: [
+        "El enlace del perfil es una dirección de cuenta, no magia de promoción. Copia del navegador o de la app y verifica el toque.",
+        "Contenido y oferta coherentes ganan al conteo de menciones externas de la URL.",
+      ],
+    },
+  ],
+  closing: [
+    "Copia la URL del perfil, pruébala y colócala donde la audiencia realmente hace clic. Lo que ven tras el toque decide el resto.",
+  ],
+  related: [
+    "oformlenie-stranicy-instagram",
+    "biznes-akkaunt-instagram",
+    "biznes-v-instagram",
+    "reklama-instagram",
+    "avatar-instagram",
+    "instagram-direct",
+  ],
+};

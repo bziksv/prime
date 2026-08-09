@@ -115,3 +115,119 @@ export const korporativnoeObuchenieEn: BlogPost = {
     "korporativnyy-blog",
   ],
 };
+
+/** ES overlay for korporativnoe-obuchenie — same structure as RU JSON / EN. */
+export const korporativnoeObuchenieEs: BlogPost = {
+  slug: "korporativnoe-obuchenie",
+  title: "Formación corporativa y motivación: sistema, metas, experto",
+  date: "2019-08-16",
+  category: "Digital marketing",
+  cover: "/images/blog/korporativnoe-obuchenie/cover.webp",
+  excerpt:
+    "Por qué los empleados no aprenden «por su cuenta», cómo armar un sistema de desarrollo, fijar una meta y el rol del experto — y en qué se diferencia el formato online de la motivación para aprender.",
+  lead: [
+    "La formación corporativa ayuda a ambos lados: el empleado crece en el oficio, el negocio obtiene gente más fuerte y menos dependencia de contratación externa. Pero un anuncio «desde el lunes todos estudian» sin sistema casi nunca funciona.",
+    "Abajo: barreras al aprendizaje en solitario y principios que funcionan — un plan, una meta medible, un experto, una mirada externa, eventos. Cómo correr un formato online está en otro artículo; esta pieza es sobre motivación y el modelo.",
+  ],
+  faq: [
+    {
+      q: "¿Por qué armar un sistema si existen cursos de mercado?",
+      a: "El mercado da fragmentos de dificultad desigual. Un plan interno liga habilidades a roles de la empresa y evita que la gente se ahogue en caos de material.",
+    },
+    {
+      q: "¿Cómo motivar más allá de «desarrollaos»?",
+      a: "Un vínculo claro con sueldo, rol, proyecto o certificación. El «sé mejor en el sector» abstracto apenas sostiene la atención.",
+    },
+    {
+      q: "¿Debe el empleado pagar el curso?",
+      a: "No es dogma. Lo que importa es engagement voluntario y una «puesta» — tiempo, un proyecto, defender un módulo. El copago a veces ayuda, pero la presión «paga o te vas» rompe la cultura.",
+    },
+    {
+      q: "¿Por qué un experto es mejor que un libro de texto?",
+      a: "Actualidad y desempaquetar errores en casos reales. Los libros envejecen; un mentor responde «cómo funciona aquí».",
+    },
+    {
+      q: "¿Cuándo hace falta una auditoría externa de skills?",
+      a: "En estancamiento y exceso de confianza sin feedback. Elige una revisión calmada de hechos — no una «auditoría-venta» con drama y autopromo.",
+    },
+    {
+      q: "¿Cómo se liga esto a la formación online?",
+      a: "Online es un canal de entrega. Sin meta, plan y práctica ni la plataforma perfecta retiene a la gente.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué la gente no aprende sola",
+      level: 2,
+      paras: [
+        "En la escuela había plan, control y un profesor. En el trabajo sin marco, aprender se vuelve cazar artículos al azar: demasiado simple, luego demasiado estrecho — la motivación se quema.",
+        "Sin un beneficio claro la gente escatima su tiempo. Sin chequeos de progreso no está claro si el material pegó. Sin experto es fácil fijar trucos obsoletos.",
+      ],
+    },
+    {
+      title: "Sistema y meta",
+      level: 2,
+      paras: [
+        "Arma un plan de aprendizaje individual o por rol: módulos, plazos, práctica. No «lee algo sobre ads», sino «al final del módulo puede lanzar y revisar N campañas».",
+        "Enuncia la meta en skills y perspectivas: rol, grade, área de ownership. Mira inclinaciones: a veces el crecimiento fuerte es un cambio de track, no «otro curso más para el puesto actual».",
+      ],
+      lists: [
+        {
+          intro: "Mínimo del sistema:",
+          items: [
+            "rol → skills necesarios",
+            "plan de módulos y práctica",
+            "criterios de «hecho»",
+            "vínculo con carrera / sueldo / proyecto",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Experto y una mirada externa",
+      level: 2,
+      paras: [
+        "El acceso a un especialista más experimentado acelera el crecimiento más que el empollar: preguntas, revisión de errores, casos. El experto es un mentor interno o un consultor externo con experiencia verificable.",
+        "El estancamiento a menudo se esconde detrás de «lo he hecho mil veces». Una auditoría calmada del trabajo ayuda: hechos y recomendaciones — no presión de «horror/pesadilla» para vender servicios. Una revisión normal no tiene medio archivo de autopromo y está abierta al diálogo.",
+      ],
+      notes: [
+        {
+          title: "Eventos externos",
+          text: "Conferencias y formaciones ayudan a contrastar con el mercado y traer ideas a la empresa. Planea un handoff: un informe corto o debrief interno tras el viaje.",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "Formación online de empleados",
+          href: "/es/blog/onlayn-obuchenie/",
+        },
+      ],
+    },
+    {
+      title: "Dos condiciones del modelo",
+      level: 2,
+      paras: [
+        "Los adultos aprenden por elección: forzar sin sentido da «aguanté un webinar». Segunda — disposición a invertir un recurso: tiempo, atención, práctica en un proyecto vivo. El dinero del empleado es una opción de «puesta» — no la única ni la obligatoria.",
+        "Los negocios que nivelan el skill a «promedio» y dejan a la gente en la rutina sin crecimiento pierden a los ambiciosos. La formación sistemática corta la rotación donde existe un track real de desarrollo.",
+      ],
+      links: [
+        {
+          label: "Trabajo remoto",
+          href: "/es/blog/udalennaya-rabota/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "La formación corporativa funciona como un sistema con meta, experto y engagement voluntario — no como una orden de «id a aprender». El formato (online o presencial) es secundario; sin plan y práctica el presupuesto se tira.",
+  ],
+  related: [
+    "onlayn-obuchenie",
+    "udalennaya-rabota",
+    "marketingovaya-strategiya",
+    "kontent-menedzher",
+    "tochki-rosta-sayta",
+    "korporativnyy-blog",
+  ],
+};

@@ -178,3 +178,182 @@ export const vidyKontentaSocsetiEn: BlogPost = {
     "post-instagram",
   ],
 };
+
+/** ES overlay for vidy-kontenta-socseti — same structure as RU JSON. */
+export const vidyKontentaSocsetiEs: BlogPost = {
+  slug: "vidy-kontenta-socseti",
+  title: "Tipos de contenido en redes: las clases principales y cómo mezclarlas",
+  date: "2019-04-01",
+  category: "SMM",
+  cover: "/images/blog/vidy-kontenta-socseti/cover.webp",
+  excerpt:
+    "Contenido informativo, de venta, educativo, de engagement y de entretenimiento en redes: para qué sirve cada tipo y cómo armar un mix sin la regla rígida de «un tercio del feed son ventas».",
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  lead: [
+    "El contenido en redes no es «solo posts» — es un set de trabajos: explicar, calentar, vender, involucrar, sostener la atención. Los tipos se mezclan en una misma pieza, y el mix correcto depende del nicho y de la etapa del funnel — no de una fórmula universal de «un tercio ventas».",
+    "Abajo: cinco tipos que funcionan, cómo combinarlos y cómo cambian las expectativas por plataforma. Planes de contenido y calendarios viven en artículos hermanos. El aviso de Meta está en esta página.",
+  ],
+  faq: [
+    {
+      q: "¿Cuántos posts de venta hacen falta?",
+      a: "Tantos como la audiencia tolere sin dejar de seguirte. Un mix con valor y prueba suele ganar a un escaparate diario.",
+    },
+    {
+      q: "¿En qué se diferencia lo informativo de lo educativo?",
+      a: "Lo informativo cubre noticias, hechos y updates de estado. Lo educativo enseña una skill o guía un how-to. La línea es blanda — importa más el valor para el lector que la etiqueta.",
+    },
+    {
+      q: "¿El B2B necesita contenido de entretenimiento?",
+      a: "Con moderación, sí: un tono más ligero y momentos humanos ayudan. Memes por memes sin vínculo de marca suelen rendir mal.",
+    },
+    {
+      q: "¿Publico el mismo contenido en todas las redes?",
+      a: "La idea puede viajar; el formato debe cambiar — largo del texto, estilo visual, Stories y Reels. El copy-paste de cross-posting corta reach y confianza.",
+    },
+    {
+      q: "¿Por dónde empieza un principiante?",
+      a: "Mapea cuatro o cinco columnas de contenido por tipo, mételas en un plan de dos semanas y mide saves y replies — no solo likes.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué partir el contenido en tipos",
+      level: 2,
+      paras: [
+        "Sin un mapa de tipos, el feed se desliza al caos o a promos sin fin. Clasificar ayuda a equilibrar confianza y ventas.",
+        "Los cinco tipos de abajo son un marco útil, no dogma. Un post puede ser educativo y de venta a la vez.",
+      ],
+      links: [
+        {
+          label: "Plan de contenido",
+          href: "/es/blog/kontent-plan/",
+        },
+      ],
+    },
+    {
+      title: "Informativo",
+      level: 2,
+      paras: [
+        "Noticias de la empresa, eventos del sector, updates de entrega, cambios de oferta, datos rápidos. El trabajo es mantener a la gente al día — no necesariamente enseñar desde cero.",
+        "Funciona bien como puente a un desglose más profundo o a un CTA: «detalle en el carrusel» o «lee más en el sitio».",
+      ],
+    },
+    {
+      title: "De venta",
+      level: 2,
+      paras: [
+        "Oferta, beneficio, objeciones, reviews, condiciones de compra, promos limitadas — sin hard sell por el hard sell.",
+        "Un post de venta fuerte responde: para quién es, qué dolor resuelve, cómo comprar y por qué ahora. Uno flojo es solo «compra» sin contexto.",
+      ],
+      lists: [
+        {
+          intro: "Qué suele reforzarlo:",
+          items: [
+            "headline y oferta claros",
+            "prueba (caso, review, números)",
+            "siguiente paso obvio",
+            "condiciones y plazos honestos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Proporciones del feed",
+          text: "Esquemas tipo «un tercio del feed son ventas» están obsoletos como ley universal. Mira unfollows, engagement rate y leads: si los posts de venta ahogan el diálogo, baja la frecuencia y suma valor.",
+        },
+      ],
+    },
+    {
+      title: "Educativo",
+      level: 2,
+      paras: [
+        "How-tos, checklists, desglose de errores, tomas de experto, mini-lecciones. Muestra competencia y baja la ansiedad de compra.",
+        "Formatos: carrusel, vídeo corto, post largo estructurado, Live con Q&A.",
+      ],
+    },
+    {
+      title: "De engagement",
+      level: 2,
+      paras: [
+        "Encuestas, preguntas, pedir consejo, discutir un tema controvertido (pero seguro), replies en comentarios y Stories.",
+        "Funciona mejor con base activa: si nadie responde, el silencio se ve peor que saltarse la encuesta. Mantén el tono moderado para que la discusión no se vuelva pelea.",
+      ],
+      links: [
+        {
+          label: "Engagement en redes",
+          href: "/es/blog/vovlechennost-socseti/",
+        },
+        {
+          label: "Contenido interactivo",
+          href: "/es/blog/interaktivnyy-kontent/",
+        },
+      ],
+    },
+    {
+      title: "Entretenimiento",
+      level: 2,
+      paras: [
+        "Historias ligeras, humor seguro para la marca, detrás de cámaras, momentos del equipo. No tiene que vender en directo, pero mantiene el hábito de aparecer.",
+        "Importa la originalidad: repostear memes ajenos sin adaptar — y con riesgo de copyright — es mala apuesta.",
+      ],
+    },
+    {
+      title: "Plataformas: Instagram y Facebook sin copy-paste",
+      level: 2,
+      paras: [
+        "Instagram apuesta por visuales, captions cortos, Stories y Reels. Los muros de texto largos se leen mal; el ritmo y el primer frame son críticos.",
+        "Una Page de Facebook / Meta suele tolerar texto más largo y discusión cuando hay valor real. Una imagen sin sustancia es más débil que texto más visual juntos.",
+        "Las reglas de UI y los límites cambian — sigue tus stats y la guía actual de la plataforma.",
+      ],
+      lists: [
+        {
+          intro: "En la práctica:",
+          items: [
+            "una idea → formatos distintos por red",
+            "CTA y tracking (UTM/códigos promo) en posts de venta",
+            "replies en las primeras horas tras posts de engagement",
+            "no persigas un post diario solo para marcar la casilla",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Plan de contenido en Instagram",
+          href: "/es/blog/kontent-plan-instagram/",
+        },
+        {
+          label: "Post en Facebook",
+          href: "/es/blog/post-facebook/",
+        },
+        {
+          label: "Grupo y página de Facebook",
+          href: "/es/blog/gruppa-facebook/",
+        },
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Cinco tipos forman el marco del mix: informar, vender, enseñar, involucrar, entretener.",
+        "Ajusta proporciones a tu nicho y métricas, no a la tabla de porcentajes de otro.",
+        "Formatear por plataforma gana a un texto pegado en todas partes.",
+      ],
+    },
+  ],
+  closing: [
+    "Etiqueta tus próximos diez posts con los cinco tipos: si es todo ventas o todo memes, reconstruye el mix dos semanas y compara replies.",
+  ],
+  related: [
+    "prodayushchiy-kontent",
+    "kontent-plan",
+    "kontent-plan-instagram",
+    "vovlechennost-socseti",
+    "interaktivnyy-kontent",
+    "post-instagram",
+  ],
+};

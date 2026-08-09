@@ -141,3 +141,145 @@ export const prodayushchieTekstyEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for prodayushchie-teksty — same structure as RU JSON / EN. */
+export const prodayushchieTekstyEs: BlogPost = {
+  slug: "prodayushchie-teksty",
+  title: "Textos de venta: principios y estructura",
+  date: "2021-10-15",
+  category: "SEO",
+  cover: "/images/blog/prodayushchie-teksty/cover.webp",
+  excerpt:
+    "Cómo escribir textos de venta: audiencia y producto, tono, titular, intro, argumentos, precio y un CTA sin clichés.",
+  lead: [
+    "El texto de venta impulsa una acción: lead, compra, llamada. Al lector rara vez le importa que «la empresa crece» — le importa qué problema resuelve la oferta.",
+    "Abajo: principios, estructura del titular al CTA y formas de hablar del precio. Posts en redes y copywriting general tienen artículos hermanos; esta pieza es el marco del texto comercial.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia el texto de venta del informativo?",
+      a: "Lo informativo explica un tema. El de venta cierra un dolor/beneficio y termina con un siguiente paso claro.",
+    },
+    {
+      q: "¿Hace falta un marco AIDA rígido?",
+      a: "Como marco — sí (atención → interés → deseo → acción). No tienes que etiquetar los bloques con letras en el texto.",
+    },
+    {
+      q: "¿Puedo ocultar los inconvenientes?",
+      a: "Gana la honestidad. Los límites dichos con calma construyen confianza; la mentira mata la conversión en el siguiente paso.",
+    },
+    {
+      q: "¿Cómo escribo sobre un precio alto?",
+      a: "Pártelo en unidades claras, compara con una alternativa, muestra valor y qué incluye. No inventes un descuento.",
+    },
+    {
+      q: "¿Cuánto relleno está bien?",
+      a: "Casi nada. Hechos, beneficios, prueba, CTA. Lírica solo si de verdad calienta a la audiencia.",
+    },
+  ],
+  sections: [
+    {
+      title: "Principios del texto de venta",
+      level: 2,
+      paras: [
+        "Escribe en el lenguaje claro de la audiencia, da beneficio y prueba, mantén la lógica, respeta al lector. El mensaje principal es resolver su job — no el autoelogio de marca.",
+      ],
+      lists: [
+        {
+          intro: "Lo básico:",
+          items: [
+            "audiencia y escenario claros",
+            "hechos precisos del producto",
+            "beneficios en lugar de features sueltas",
+            "coherencia y tacto",
+            "un CTA principal",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Audiencia y producto",
+      level: 2,
+      paras: [
+        "Arma un retrato: jobs, objeciones, lenguaje, competidores. Conoce el producto: propiedades, diferencias, límites. Sin eso el copy va «de todo y de nadie».",
+      ],
+      lists: [
+        {
+          intro: "Antes del borrador:",
+          items: [
+            "quién lee y qué acción necesitas",
+            "qué dolor/deseo",
+            "en qué te diferencias de los pares",
+            "qué prueba tienes (casos, cifras, garantías)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Copywriting: tipos de texto",
+          href: "/es/blog/kopirayting/",
+        },
+      ],
+    },
+    {
+      title: "Tono y titular",
+      level: 2,
+      paras: [
+        "El tono es el lenguaje de la audiencia: más simple para un público amplio, términos precisos sin legalese para pros. Los hechos ganan a los signos de exclamación.",
+        "El titular promete beneficio o intriga sin mentir. Tras él la gente debería querer seguir leyendo — no sentir clickbait.",
+      ],
+    },
+    {
+      title: "Intro, cuerpo, cierre",
+      level: 2,
+      paras: [
+        "La intro es corta: problema → esperanza → pista de una solución. Recursos: preguntas a las que la audiencia responde «sí»; «si… entonces…»; un beneficio explícito.",
+        "Cuerpo: features a través de beneficios, prueba, escenario de uso, respuestas a objeciones. Cierre: resumen, precio/condiciones y un CTA claro.",
+      ],
+      lists: [
+        {
+          intro: "Marco del artículo:",
+          items: [
+            "titular con un beneficio",
+            "problema del lector",
+            "solución y producto",
+            "prueba",
+            "precio y condiciones",
+            "CTA: llamar / contactar / comprar",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Post de venta en Instagram",
+          href: "/es/blog/post-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Cómo hablar del precio",
+      level: 2,
+      paras: [
+        "El precio puede ser más claro: pártelo por periodo, compara con una alternativa más cara, muestra el paquete. Un descuento honesto desde una base real está bien; un «antes 99999» falso no.",
+      ],
+      lists: [
+        {
+          intro: "Movimientos sin manipulación:",
+          items: [
+            "precio por día/mes en un plazo largo",
+            "qué incluye la suma",
+            "comparar con el coste del problema sin resolver",
+            "condiciones claras de pago y reembolso",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Empezar con «somos líderes del mercado» en lugar del dolor del cliente. Prueba el liderazgo con casos cuando el beneficio ya esté claro.",
+        },
+      ],
+    },
+  ],
+};

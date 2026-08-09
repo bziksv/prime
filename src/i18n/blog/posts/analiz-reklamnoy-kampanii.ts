@@ -184,3 +184,188 @@ export const analizReklamnoyKampaniiEn: BlogPost = {
     "utm-metki",
   ],
 };
+
+/** ES overlay for analiz-reklamnoy-kampanii — same structure as RU JSON / EN. */
+export const analizReklamnoyKampaniiEs: BlogPost = {
+  slug: "analiz-reklamnoy-kampanii",
+  title: "Análisis de campaña de ads en Yandex Direct y Google Ads: checklist",
+  date: "2020-03-25",
+  category: "Paid search",
+  cover: "/images/blog/analiz-reklamnoy-kampanii/cover.webp",
+  excerpt:
+    "Cómo desglosar una campaña de paid search en Yandex Metrica y Google Analytics: enlace de cuentas, keywords, emplazamientos, demografía, hora, dispositivos, geo, landings y audiencias — sin juzgar solo por clics.",
+  lead: [
+    "Muchos clics y pocos leads casi siempre significa una de tres cosas: el tráfico va a sitios equivocados, la landing o la oferta no convierten, o lees los cortes incorrectos. El checklist de abajo es el orden para revisar una campaña de Yandex Direct o Google Ads a través de analytics.",
+    "Los nombres de informes y las rutas de clic en las UIs han cambiado — sobre todo tras GA4. Sigue el significado de cada corte, no capturas de 2020. El proceso de auditoría más amplio y el set de KPIs viven en piezas relacionadas.",
+  ],
+  faq: [
+    {
+      q: "¿Por dónde empezar si fallan los KPIs?",
+      a: "Comprueba el enlace de la cuenta de ads a Metrica o Analytics y los goals. Sin conversiones en los informes, optimizar pujas es adivinar.",
+    },
+    {
+      q: "¿Basta el CTR?",
+      a: "No. Necesitas conversiones, CPA o ROAS y calidad del lead. Un CTR alto sin leads quema presupuesto.",
+    },
+    {
+      q: "¿Cuántos clics antes de cortar un emplazamiento?",
+      a: "Apunta a una muestra con sentido — a menudo decenas o cientos de clics en un nicho — o es ruido. No hay un «exactamente 100» universal.",
+    },
+    {
+      q: "¿Apago móvil si la conversión es baja?",
+      a: "Más a menudo baja la puja o arregla la landing móvil — no cortes todo el segmento de golpe.",
+    },
+    {
+      q: "¿En qué se diferencia de una auditoría completa de ads?",
+      a: "Esta pieza es una revisión operativa de analytics. Una auditoría es más amplia: técnica de cuenta, estructura e informe al cliente.",
+    },
+    {
+      q: "¿Direct y Google Ads se analizan igual?",
+      a: "La lógica de cortes es compartida — keywords, dispositivos, geo, hora. Los nombres de informes difieren; el significado es el mismo.",
+    },
+    {
+      q: "¿Hace falta Session Replay / Webvisor?",
+      a: "Útil si sospechas UX de landing. Filtra visitas de ads y mira dónde se rompe el camino al lead.",
+    },
+  ],
+  sections: [
+    {
+      title: "Enlazar la cuenta con analytics",
+      level: 2,
+      paras: [
+        "Antes de los cortes, confirma que Direct envía datos a Metrica (contador en ajustes de campaña o cuenta) y que Google Ads está enlazado a la property correcta de Analytics. Si no, el «análisis de keywords» no tiene conversiones.",
+        "Fija goals: lead, llamada, compra. Sin un goal el checklist se vuelve paseo por el tráfico.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo antes de la revisión:",
+          items: [
+            "contador o property en el sitio",
+            "enlace Direct ↔ Metrica o Ads ↔ Analytics",
+            "goals o ecommerce",
+            "UTM o auto-tagging si usas segmentos",
+            "un periodo con stats suficientes",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Métricas de ads",
+          href: "/es/blog/metriki-reklamy/",
+        },
+      ],
+    },
+    {
+      title: "Direct + Metrica: keywords y emplazamientos",
+      level: 2,
+      paras: [
+        "Por keyword, mira qué frases impulsan acciones de goal y cuáles solo clics. Potencia ganadores — pujas, ads, un grupo aparte; manda basura a negativos a nivel campaña o grupo.",
+        "En YAN y formatos smart, revisa emplazamientos: qué trae conversiones frente a solo gasto. Prohíbe dominios flojos tras datos suficientes — no tras un clic al azar.",
+        "No mezcles búsqueda y redes en una sola conclusión: emplazamientos de red y consultas de búsqueda son palancas distintas.",
+      ],
+      lists: [
+        {
+          intro: "Qué fijar para keywords y emplazamientos:",
+          items: [
+            "líderes por conversiones y por gasto sin conversiones",
+            "lista de negativos para formulaciones basura",
+            "prohibir emplazamientos vacíos",
+            "vista aparte: búsqueda vs YAN",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Negativos en Direct",
+          href: "/es/blog/minus-slova-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Audiencia: género, edad, hora, dispositivos, geo",
+      level: 2,
+      paras: [
+        "Demografía y edad muestran quién convierte de verdad — no quién «hace clic bonito». Los ajustes de puja por género o edad tienen sentido tras una muestra estable, no un día.",
+        "Hora del día y días de la semana: potencia horas y días con mejor economía, sobre todo si los leads solo se atienden en horario laboral. Un genérico «mejores horas de un artículo» pierde frente a tu informe.",
+        "Dispositivos: una conversión móvil baja más a menudo se arregla con puja y adaptividad de landing, no con un corte total. Geo: mantén regiones que se pagan solas; corta o baja pujas donde el gasto no da resultado.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          text: "Ejemplos como «las mujeres convierten mejor, los hombres piden más caro» son ilustraciones. Transfiere la lógica del ajuste — no los números ajenos.",
+        },
+      ],
+    },
+    {
+      title: "Landing pages, segmentos y atribución",
+      level: 2,
+      paras: [
+        "El informe de landing comprueba que el anuncio va a una URL relevante, no «homepage para todos». Arregla landings flojas o cambia el enlace keyword → anuncio → URL.",
+        "Segmentos — nuevos vs recurrentes, bounce, profundidad — ayudan a ajustar pujas y armar condiciones de retargeting. Lookalikes y audiencias de Metrica son el siguiente paso tras cortes básicos claros.",
+        "Los modelos de atribución (último clic, primer toque con sentido y otros) cambian a quién se acredita. Revisa varios modelos si el camino de compra es largo — o infravalorarás el inicio del funnel.",
+      ],
+      lists: [
+        {
+          intro: "Extras opcionales:",
+          items: [
+            "session replay en visitas de Direct — UX de landing",
+            "ecommerce — productos, carrito, códigos promo",
+            "call tracking — si los leads son llamadas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría de campaña de ads",
+          href: "/es/blog/audit-reklamnoy-kampanii/",
+        },
+      ],
+    },
+    {
+      title: "Google Ads + Analytics: el mismo orden",
+      level: 2,
+      paras: [
+        "Enlaza cuentas de Ads y Analytics, comprueba goals y conversiones. Luego la lógica espeja Direct: keywords y search terms → exclusiones; segmentos UTM/campaña; demografía; hora; dispositivos; geo; landing pages.",
+        "En GA4 los nombres de informes difieren de Universal Analytics en las guías viejas. Busca equivalentes: tráfico de campaña, eventos de conversión, demografía, tech, geo, páginas de entrada.",
+        "Ecommerce y atribución en el stack de Google resuelven los mismos trabajos: entender aportación del canal y surtido — no «pintar un CTR bonito».",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          text: "No copies rutas de clic de UA 2019–2020 uno a uno en GA4. Revisa la interfaz actual y la Ayuda de Google.",
+        },
+      ],
+    },
+    {
+      title: "Cómo cerrar la revisión",
+      level: 2,
+      paras: [
+        "El resultado del checklist es una lista de acciones: qué potenciar, qué negativizar, qué arreglar en el sitio, qué presupuesto mover. Sin lista de cambios, el análisis se queda en «miramos informes».",
+        "Cambia una o dos palancas por iteración y deja acumular stats. Reconstruir toda la cuenta de golpe oculta qué funcionó.",
+      ],
+      lists: [
+        {
+          intro: "Plantilla de salida:",
+          items: [
+            "problema (pocos leads / CPA alto)",
+            "corte donde se ve la causa",
+            "acción (negativo / puja / landing / geo)",
+            "fecha de revisión",
+            "KPI esperado",
+          ],
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Enlaza la cuenta con analytics, recorre keywords → emplazamientos → audiencia → landings y escribe una semana de fixes — más rápido que torcer pujas a ojo por el CTR global.",
+  ],
+  related: [
+    "audit-reklamnoy-kampanii",
+    "metriki-reklamy",
+    "stavki-direkt",
+    "minus-slova-direkt",
+    "byudzhet-yandeks-direkt",
+    "utm-metki",
+  ],
+};

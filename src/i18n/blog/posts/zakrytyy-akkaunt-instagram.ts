@@ -152,3 +152,156 @@ export const zakrytyyAkkauntInstagramEn: BlogPost = {
     "razblokirovka-instagram",
   ],
 };
+
+/** ES overlay for zakrytyy-akkaunt-instagram — same structure as RU JSON / EN. */
+export const zakrytyyAkkauntInstagramEs: BlogPost = {
+  slug: "zakrytyy-akkaunt-instagram",
+  title: "Cuenta privada de Instagram: por qué usarla y cómo activarla",
+  date: "2020-07-17",
+  category: "SMM",
+  cover: "/images/blog/zakrytyy-akkaunt-instagram/cover.webp",
+  excerpt:
+    "En qué se diferencia un perfil privado de Instagram del borrado y de una pausa, qué ven los no-followers, cómo activar privacy y por qué una cuenta business a menudo no se puede «hacer privada así».",
+  lead: [
+    "«Cerrar la cuenta» en el habla cotidiana a menudo se mezcla con el borrado. En Instagram un perfil privado (closed) es un modo donde solo los followers aprobados ven el feed y las Stories. El borrado y la desactivación temporal son caminos distintos.",
+    "Abajo: por qué se activa privacy, qué ven los invitados, cómo se ve a grandes rasgos la ruta de settings y qué límites tiene un perfil profesional. Los ítems de menú cambian — consulta Meta Help. El disclaimer — en esta página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Una cuenta privada es lo mismo que el borrado?",
+      a: "No. El perfil se queda; el contenido se queda. El borrado y la pausa se cubren en un artículo aparte.",
+    },
+    {
+      q: "¿Qué ve alguien sin seguir?",
+      a: "Suele ser avatar, nombre, bio corta, contadores y un botón de follow-request — sin la grid de posts ni Stories.",
+    },
+    {
+      q: "¿Se quedan los followers antiguos?",
+      a: "Sí: quien ya te seguía antes de pasar a privado suele mantener el acceso hasta que los quites o restrinjas.",
+    },
+    {
+      q: "¿Puedo hacer privada una cuenta business?",
+      a: "A menudo la opción falta o está limitada: un escaparate comercial se construye para la apertura. A veces primero pasas el perfil a personal u otro tipo — revisa los settings actuales.",
+    },
+    {
+      q: "¿La privacy daña el reach?",
+      a: "El inflow orgánico desde recomendaciones y visitas casuales suele ser más débil: hay que aceptar requests a mano.",
+    },
+  ],
+  sections: [
+    {
+      title: "Tres acciones distintas de «cerrar»",
+      level: 2,
+      paras: [
+        "Perfil privado — filtro de audiencia: posts solo para followers aprobados.",
+        "Pausa / desactivación temporal — ocultar la cuenta un tiempo y volver iniciando sesión.",
+        "Borrado completo — salida irreversible con la página, followers y contenido.",
+      ],
+      notes: [
+        {
+          title: "Confusión habitual",
+          text: "Guías viejas mezclaban «temporarily disable» y «private account». Botones distintos, resultados distintos.",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "Borrado y pausa de cuenta",
+          href: "/es/blog/udalenie-akkaunta-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Por qué se hace privado un perfil",
+      level: 2,
+      paras: [
+        "Frames personales, familia, dinero en plano — acceso solo para un círculo de confianza.",
+        "Un club estrecho, curso o feed interno de marca: contenido no para todo el feed de recomendaciones.",
+        "Menos ruido de followers al azar y comentarios insistentes: tú moderas los requests.",
+      ],
+      lists: [
+        {
+          intro: "Motivos típicos:",
+          items: [
+            "privacy en lugar de un escaparate público",
+            "control sobre quién ve Stories y el contexto de Direct",
+            "una pausa de «apertura» sin borrar la cuenta",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué ven invitados y followers",
+      level: 2,
+      paras: [
+        "Un no-follower no puede hacer scroll de la grid y normalmente no puede ver Stories. Obtiene una tarjeta de perfil superficial y un Follow request.",
+        "Los followers ya aceptados siguen viendo posts hasta que los quites.",
+        "Para limitar a alguien que ya te sigue: quitar de followers, Restrict o block — según el objetivo. Restrict oculta interacciones sin un ban completo.",
+      ],
+    },
+    {
+      title: "Cómo activar una cuenta privada",
+      level: 2,
+      paras: [
+        "En la app: perfil → menú (☰) → Settings and activity → Account privacy → toggle Private account (la redacción depende de la versión).",
+        "En el navegador la ruta suele ir por settings de perfil / privacy. Revisa los clics exactos en Instagram Help.",
+        "Tras activarlo, la gente nueva espera tu Accept / Decline. Un request rechazado no abre el feed.",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          text: "Actualiza la app si falta el ítem: a veces la opción aparece tras un update o un cambio de tipo de perfil.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Perfil business y professional",
+      level: 2,
+      paras: [
+        "Para tiendas y lead gen un modo privado casi siempre perjudica: menos toques casuales, ads y recomendaciones más difíciles.",
+        "Si la plataforma no te deja hacer privada una cuenta comercial «tal cual», primero se mira cambiar la categoría del perfil (personal / creator) — con pérdida de algunos insights. Detalles — en el artículo de cuenta business.",
+        "Vínculo Facebook/Meta: comprueba si el contenido se duplica a canales más abiertos — o un post «privado» se filtra allí.",
+      ],
+      links: [
+        {
+          label: "Cuenta business de Instagram",
+          href: "/es/blog/biznes-akkaunt-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Lados flojos del modo privado",
+      level: 2,
+      paras: [
+        "Crecimiento de audiencia más lento: cada follower es una decisión manual.",
+        "Orgánico más débil desde Explore y recomendaciones para viewers fríos.",
+        "Para una marca rara vez es el modo principal: más a menudo listas Close Friends, ocultar-a-seleccionados y Direct con cuidado.",
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Cuenta privada = moderación de followers, no borrado de la página.",
+        "Los invitados obtienen una tarjeta y un request; el feed solo tras Accept.",
+        "El comercio suele necesitar un perfil abierto; la privacy — con herramientas dirigidas.",
+      ],
+    },
+  ],
+  closing: [
+    "Si el objetivo es menos ojos de desconocidos, activa un perfil privado y revisa los followers actuales. Si el objetivo es dejar Instagram del todo o pausar — abre la guía de borrado y desactivación.",
+  ],
+  related: [
+    "udalenie-akkaunta-instagram",
+    "biznes-akkaunt-instagram",
+    "prosmotr-zakrytogo-akkaunta",
+    "stories-instagram-inkognito",
+    "vtoroy-akkaunt-instagram",
+    "razblokirovka-instagram",
+  ],
+};

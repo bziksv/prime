@@ -156,3 +156,160 @@ export const podpisFotoInstagramEn: BlogPost = {
     "biznes-v-instagram",
   ],
 };
+
+/** ES overlay for podpis-foto-instagram — same structure as RU JSON / EN. */
+export const podpisFotoInstagramEs: BlogPost = {
+  slug: "podpis-foto-instagram",
+  title: "Qué escribir bajo una foto de Instagram: un caption que se lea",
+  date: "2020-12-18",
+  category: "SMM",
+  cover: "/images/blog/podpis-foto-instagram/cover.webp",
+  excerpt:
+    "Cómo escribir un caption de foto en Instagram: enlace al frame, estructura, citas, hashtags y tono para tu audiencia — sin clichés de género ni el mito de que «30 hashtags = alcance».",
+  lead: [
+    "Un caption de foto fija el sentido del frame, el tono y el siguiente paso para el lector. Un disparo bonito sin texto a menudo se pierde en el feed: la gente no sabe por qué parar.",
+    "Abajo: captions para posts cotidianos y de negocio. Esto no es lo mismo que un framework de oferta de venta — las ventas viven en un artículo aparte. Hashtags y UI de Instagram cambian; importan más la claridad y el encaje con el frame. La nota Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Hace falta un caption largo?",
+      a: "No. A veces basta una línea fuerte y un emoji. La longitud ayuda cuando hay historia, valor o CTA.",
+    },
+    {
+      q: "¿Cuántos hashtags debo usar?",
+      a: "Unos pocos relevantes ganan a docenas de tags al azar. El spam de tags se ve ruidoso y rara vez impulsa un crecimiento estable.",
+    },
+    {
+      q: "¿Puedo copiar citas ajenas?",
+      a: "Sí si encajan — y acredita la fuente cuando puedas. No hagas pasar texto ajeno por tuyo sin contexto.",
+    },
+    {
+      q: "¿En qué se diferencia un caption de un post de venta?",
+      a: "Un caption explica el frame y el mood. Un post de venta empuja un lead o compra vía una estructura de oferta — ver la guía aparte.",
+    },
+    {
+      q: "¿Hacen falta emoji en los captions?",
+      a: "Como acentos y aire — sí. Como único sentido sin texto — flojo para negocio.",
+    },
+  ],
+  sections: [
+    {
+      title: "Primero el frame, luego las palabras",
+      level: 2,
+      paras: [
+        "El texto debe amplificar la foto, no pelear con ella. Revisa el disparo: qué engancha, qué sensación, qué detalle el viewer no notará.",
+        "Comida — una receta o tip. Un lugar — por qué importa. Un equipo en frame — quién y por qué. Un disparo de negocio — valor o un mini case, no «solo bonito».",
+      ],
+      links: [
+        {
+          label: "Fotos para Instagram",
+          href: "/es/blog/foto-instagram/",
+        },
+        {
+          label: "Post de venta en Instagram",
+          href: "/es/blog/post-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Estructura de un caption legible",
+      level: 2,
+      paras: [
+        "La primera línea se ve en el preview del feed — pon ahí el sentido o una pregunta. Luego párrafos cortos con aire: un muro sólido de texto casi nadie lo termina.",
+        "Ortografía y puntuación son parte de la confianza. Los typos en un perfil business duelen más que un visual «imperfecto».",
+      ],
+      lists: [
+        {
+          intro: "Esquema que funciona:",
+          items: [
+            "gancho en la primera línea",
+            "1–3 párrafos cortos sobre el sentido del frame",
+            "un detalle o valor no visible en la foto",
+            "una pregunta o CTA suave al final",
+            "hashtags — en un bloque aparte o al final, no machacados en medio del pensamiento",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Error habitual",
+          text: "Escribir un caption «para todos»: una cita de amor, una lista de precios y 40 hashtags. Un post — una idea principal.",
+        },
+      ],
+    },
+    {
+      title: "Citas, pensamientos y tono de audiencia",
+      level: 2,
+      paras: [
+        "Una cita funciona cuando rima con el frame y la voz del perfil. Acredita la fuente cuando encaje: película, libro, entrevista.",
+        "Pista de tono — tus comentarios y mejores posts: qué palabras enganchan a tu audiencia. No copies a ciegas el estilo «millonario de followers» de otro.",
+        "Las plantillas de género listas «qué escribir para chicas / chicos» envejecen rápido y suenan planas. Nicho, rol y contexto del frame funcionan mejor.",
+      ],
+      links: [
+        {
+          label: "Plan de contenido de Instagram",
+          href: "/es/blog/kontent-plan-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Hashtags sin culto al alcance",
+      level: 2,
+      paras: [
+        "Los tags ayudan a la búsqueda temática y a veces a recomendaciones, pero no sustituyen un visual y texto fuertes. Elige tags cercanos en sentido, no los más amplios «por números».",
+        "Algoritmos y límites han cambiado; no te prometas crecimiento por un montón de tags al azar. Comprueba que el tag esté vivo y no inundado de basura.",
+      ],
+      links: [
+        {
+          label: "Alcance de Instagram",
+          href: "/es/blog/ohvat-instagram/",
+        },
+      ],
+    },
+    {
+      title: "De dónde sacar ideas cuando está en blanco",
+      level: 2,
+      paras: [
+        "Un stash de frases: libros, películas, líneas de canciones, líneas vivas de clientes, notas de un paseo. Guarda 10–15 borradores para no escribir desde cero en el deadline.",
+        "Un cambio de ruta, una pausa corta, estudiar captions fuertes (no copy-paste) — triggers útiles. La meta del perfil importa más: blog personal, expertise o ventas.",
+      ],
+      lists: [
+        {
+          intro: "Formatos rápidos de caption:",
+          items: [
+            "mini historia «antes → después»",
+            "un hecho + emoción",
+            "una pregunta a la audiencia",
+            "receta / checklist de 3 puntos",
+            "cita + tu respuesta",
+            "behind the scenes del disparo",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Un caption amarra frame y sentido, se lee en el teléfono y lleva a una reacción o diálogo. Hashtags y emoji son herramientas de apoyo.",
+        "Para ventas duras, arma la estructura de oferta aparte; para fotos cotidianas, basta una voz clara y el enlace a la imagen.",
+      ],
+    },
+  ],
+  closing: [
+    "Antes de publicar, relee la primera línea y encaja el tono con la foto. Si el sentido queda claro en 3 segundos — el caption ya está haciendo su trabajo.",
+  ],
+  related: [
+    "post-instagram",
+    "foto-instagram",
+    "kontent-plan-instagram",
+    "ohvat-instagram",
+    "oformlenie-stranicy-instagram",
+    "biznes-v-instagram",
+  ],
+};

@@ -109,3 +109,117 @@ export const httpsSeoEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for https-seo — same structure as RU JSON / EN. */
+export const httpsSeoEs: BlogPost = {
+  slug: "https-seo",
+  title: "HTTPS y SEO: higiene de rankings y una migración segura",
+  date: "2021-06-17",
+  category: "SEO",
+  cover: "/images/blog/https-seo/cover.webp",
+  excerpt:
+    "Cómo afecta HTTPS al SEO hoy: higiene de rankings, confianza y checklist de migración http→https sin perder el índice — sin mitos de «barra verde» ni estudios desfasados de 2014.",
+  lead: [
+    "HTTPS (TLS) cifra el canal entre el navegador y el sitio. Para SEO lleva tiempo siendo baseline: el HTTP plano perjudica la confianza y la consolidación limpia de espejos.",
+    "Abajo: por qué HTTPS importa para la promoción y un checklist de migración. Los tipos de certificado se cubren con más profundidad en el artículo SSL; aquí el foco es el impacto SEO y el traslado en sí.",
+  ],
+  faq: [
+    {
+      q: "¿HTTPS solo te pone en primera página?",
+      a: "No. Es una señal baseline y UX. Importan más contenido, técnica, enlaces y demanda. Sin HTTPS pierdes más a menudo por confianza y mixed content.",
+    },
+    {
+      q: "¿Hace falta un certificado EV de pago?",
+      a: "No. Para la mayoría de sitios basta DV / Let’s Encrypt. EV no es la vieja «barra verde» y no garantiza posiciones.",
+    },
+    {
+      q: "¿Por qué bajó el tráfico tras el cambio?",
+      a: "Más a menudo cadenas de redirect, mixed content, un sitemap desfasado o propiedad de Search Console / Webmaster, o duplicados http/https. Arregla la técnica — no vuelvas a HTTP.",
+    },
+    {
+      q: "¿En qué se diferencia del artículo SSL?",
+      a: "SSL cubre qué es un certificado y qué tipos existen. Aquí cubrimos por qué HTTPS importa para SEO y cómo migrar sin perder señales.",
+    },
+    {
+      q: "¿Sigue haciendo falta Host en robots para https?",
+      a: "La regla Host está obsoleta para Yandex. Importa más: 301s al espejo canónico y un sitemap correcto.",
+    },
+  ],
+  sections: [
+    {
+      title: "HTTPS como higiene SEO",
+      level: 2,
+      paras: [
+        "Los buscadores llevan tiempo teniendo en cuenta una conexión segura. En 2026 un sitio HTTP parece desfasado: advertencias del navegador, peor conversión de formularios, riesgo de mixed content.",
+        "HTTPS no sustituye el trabajo de keywords y enlaces. Es una capa obligatoria junto a velocidad, layout móvil y una estructura clara.",
+      ],
+      lists: [
+        {
+          intro: "Qué da en la práctica:",
+          items: [
+            "cifrado para formularios y áreas de cuenta de cliente",
+            "un protocolo canónico",
+            "menos advertencias en Chrome y otros navegadores",
+            "baseline para cuentas de ads y sistemas de pago",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Certificado SSL",
+          href: "/es/blog/ssl-sertifikat/",
+        },
+      ],
+    },
+    {
+      title: "Mitos sobre el «factor decisivo»",
+      level: 2,
+      paras: [
+        "Reviews viejas de la cuota HTTPS entre resultados fuertes (2014–2015) no son un argumento hoy: casi todos los sitios competitivos ya están en https. Correlación «los sitios ganadores usan https» ≠ «https los empujó arriba en los rankings».",
+        "No esperes un salto de rankings solo por un checkbox de certificado. Espera espejos estables y sin errores tras la migración.",
+      ],
+    },
+    {
+      title: "Checklist de migración http → https",
+      level: 2,
+      paras: [
+        "El riesgo principal es un traslado torcido: cadenas de redirect, ambos protocolos indexados, enlaces absolutos http rotos a assets.",
+        "Haz 301s desde cada versión http al canónico https; actualiza enlaces internos, canonicals, sitemap y propiedades de Webmaster / Search Console.",
+      ],
+      lists: [
+        {
+          intro: "Antes y después del go-live:",
+          items: [
+            "certificado válido, cadena completa",
+            "301 http→https (y política www alineada)",
+            "sin mixed content (imágenes/scripts por http)",
+            "sitemap solo con URLs https",
+            "cambio de dirección / confirmar el espejo en herramientas de webmaster",
+            "revisar códigos de respuesta en landings clave",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Redirects",
+          href: "/es/blog/redirekt/",
+        },
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+        {
+          label: "Seguridad del sitio",
+          href: "/es/blog/bezopasnost-sayta/",
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Una bajada temporal de crawl tras un cambio de protocolo es posible. El pánico y volver a HTTP es peor que terminar los 301s y el re-crawl. La prep del traslado es de días a semanas; los rankings duraderos del núcleo siguen siendo otro horizonte — típicamente dos a seis meses tras arrancar el trabajo.",
+        },
+      ],
+    },
+  ],
+};

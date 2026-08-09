@@ -150,3 +150,154 @@ export const bitrixSvoystvaInfoblokovEn: BlogPost = {
     "veb-server",
   ],
 };
+
+/** ES overlay for bitrix-svoystva-infoblokov — same structure as RU JSON / EN. */
+export const bitrixSvoystvaInfoblokovEs: BlogPost = {
+  slug: "bitrix-svoystva-infoblokov",
+  title: "Mostrar propiedades de infoblock en 1C-Bitrix",
+  date: "2017-12-12",
+  category: "Websites",
+  cover: "/images/blog/bitrix-svoystva-infoblokov/cover.webp",
+  excerpt:
+    "Cómo mostrar las propiedades de un elemento de infoblock en una plantilla de componente Bitrix: DISPLAY_PROPERTIES, tipos string/list/file/link — sin pegar a ciegas snippets obsoletos.",
+  lead: [
+    "Las propiedades de infoblock (SKU, archivo, lista, enlace a elemento) viven en el admin; en el sitio las muestras en la plantilla del componente — casi siempre en el `template.php` del result.",
+    "Abajo: cómo funcionan el array `$arResult` y las claves de display. La sintaxis exacta y la API dependen de la versión de Bitrix y del tipo de componente — mira docs oficiales y no copies snippets de 2017 sin probarlos en tu proyecto. Hace falta PHP y HTML básicos.",
+  ],
+  faq: [
+    {
+      q: "¿Dónde se edita la salida de propiedades?",
+      a: "Suele ser en la plantilla del componente necesario (a menudo `template.php` bajo `bitrix/templates/...` o la plantilla del sitio). Prefiere una copia de plantilla del componente, no ediciones al core.",
+    },
+    {
+      q: "¿Qué es DISPLAY_PROPERTIES?",
+      a: "Un array de propiedades del elemento preparadas para display: nombre, valor(es), tipo. Útil para salida en ficha/lista.",
+    },
+    {
+      q: "¿Por qué la propiedad está vacía en el sitio?",
+      a: "No marcada para detail/list, código de propiedad incorrecto, caché, plantilla de componente equivocada, o la propiedad no está rellena en el elemento.",
+    },
+    {
+      q: "¿En qué se diferencia de la barra de sección pública?",
+      a: "La barra edita contenido visualmente. Esta pieza cubre la plantilla y el código de salida de propiedades por un desarrollador.",
+    },
+    {
+      q: "¿Se pueden mostrar propiedades sin PHP?",
+      a: "Algunas propiedades se muestran vía parámetros integrados del componente. Los formatos complejos siguen necesitando plantilla o código custom.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo funciona la salida",
+      level: 2,
+      paras: [
+        "El componente de infoblock arma el elemento en `$arResult`. Las propiedades para display suelen vivir en `$arResult['DISPLAY_PROPERTIES']['PROPERTY_CODE']`. Una entrada tiene nombre y `DISPLAY_VALUE` (un valor preparado o un array de valores).",
+        "El código de propiedad (llamado `ATTRIBUTE` en notas viejas) se fija en el admin del infoblock. En la plantilla usa tu código — no el de otro en un ejemplo.",
+      ],
+      lists: [
+        {
+          intro: "Antes de editar la plantilla:",
+          items: [
+            "propiedad creada y rellena en el elemento",
+            "display activado para list/detail si el componente lo exige",
+            "trabajas en una copia de plantilla del componente",
+            "limpia caché tras las ediciones",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Sección pública de Bitrix",
+          href: "/es/blog/bitrix-publichnyy-razdel/",
+        },
+        {
+          label: "SEO en 1C-Bitrix",
+          href: "/es/blog/seo-bitrix/",
+        },
+      ],
+    },
+    {
+      title: "Tipos de propiedad — salida distinta",
+      level: 2,
+      paras: [
+        "String y number a menudo se imprimen como un solo `DISPLAY_VALUE`. Una lista puede ser simple o múltiple — entonces el valor es un array que recorres. Un archivo es un enlace de descarga/vista. Los enlaces a elementos necesitan fetches extra de campos del elemento relacionado.",
+        "No mezcles `PROPERTIES` crudo y `DISPLAY_PROPERTIES` sin entender: el primero está más cerca de los datos de BD, el segundo del display listo.",
+      ],
+      tables: [
+        {
+          caption: "Tipo → qué mirar",
+          headers: ["Tipo de propiedad", "En la práctica"],
+          rows: [
+            ["String / number", "Un valor en DISPLAY_VALUE"],
+            ["List", "Un valor o un array"],
+            ["File", "Enlace / ruta al archivo"],
+            ["Element link", "IDs/datos de elementos relacionados"],
+            ["HTML/text", "Escapado y tags permitidos"],
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Seguridad de la salida",
+          kind: "tip",
+          text: "No imprimas input de usuario sin escapar. Para propiedades HTML usa los filtros de Bitrix aceptados en el proyecto — no un echo pelado.",
+        },
+      ],
+    },
+    {
+      title: "Práctica en la plantilla",
+      level: 2,
+      paras: [
+        "Marco típico: comprueba que la clave de propiedad exista en `DISPLAY_PROPERTIES`, imprime el nombre si hace falta, luego el valor. Para múltiples — `foreach`. Para un archivo — arma un enlace desde los datos de la propiedad.",
+        "Contadores de comentarios y vistas son campos/módulos aparte, no siempre una «propiedad de infoblock». Conéctalos solo si el proyecto usa de verdad esos mecanismos.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de debug «no se muestra»:",
+          items: [
+            "el código de propiedad coincide con el admin",
+            "el elemento está relleno",
+            "el template.php correcto del componente en la página",
+            "caché limpia",
+            "el modo edición/debug muestra el área correcta",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué evitar",
+      level: 2,
+      paras: [
+        "No edites archivos en `bitrix/modules` y no pegues muros largos de código de foros de 2015–2017 sin entender la versión. Tras una actualización del core esas ediciones se rompen.",
+        "No vuelques 200 líneas de lógica de negocio en la plantilla — muévelas a result_modifier.php o a una capa de servicio si el proyecto lo permite.",
+      ],
+    },
+    {
+      title: "Enlace con contenido y SEO",
+      level: 2,
+      paras: [
+        "Las propiedades son útiles para specs de producto, archivos de lista de precios, badges. Para SEO importa más que los campos necesarios lleguen al HTML visible y a las plantillas meta — ver el artículo SEO de Bitrix.",
+        "Un «escaparate» de propiedades vacías en la ficha es peor para los usuarios que un set cuidadoso de atributos rellenos.",
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Salida de propiedades = plantilla del componente + código de propiedad + tipo de valor. `DISPLAY_PROPERTIES` es la brújula principal de display.",
+        "Revisa la API actual de Bitrix; la barra pública edita contenido pero no sustituye el trabajo de plantilla.",
+      ],
+    },
+  ],
+  closing: [
+    "Abre una copia de plantilla del componente, encuentra `DISPLAY_PROPERTIES` para el código de propiedad e imprime el valor según el tipo — así los atributos del infoblock aparecen en el sitio de forma predecible, no por «magia» de un snippet obsoleto.",
+  ],
+  related: [
+    "bitrix-publichnyy-razdel",
+    "seo-bitrix",
+    "cms-internet-magazina",
+    "adminka-sayta",
+    "uznat-cms",
+    "veb-server",
+  ],
+};

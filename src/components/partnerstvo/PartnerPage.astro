@@ -10,6 +10,7 @@ import { breadcrumbJsonLd } from "../../lib/breadcrumb-jsonld";
 import { getPartnerContent } from "../../i18n/partnerstvo-content";
 import { getHomeContent, homePath } from "../../i18n/home-content";
 import { localeMeta, type Locale } from "../../i18n/locales";
+import DevLangSwitch from "../DevLangSwitch.astro";
 
 interface Props {
   locale: Locale;
@@ -20,7 +21,7 @@ const t = getPartnerContent(locale);
 const home = getHomeContent(locale);
 const docs = getLegalDocs(locale);
 const htmlLang = localeMeta[locale].hreflang;
-const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+const ogLocale = locale === "en" ? "en_US" : locale === "es" ? "es_ES" : "ru_RU";
 const showPhone = locale === "ru";
 const year = new Date().getFullYear();
 const homeHref = homePath(locale);
@@ -68,6 +69,7 @@ const crumbsLd = breadcrumbJsonLd(
       alternates={[
         { hreflang: "ru", path: "/partnerstvo/" },
         { hreflang: "en", path: "/en/partnership/" },
+        { hreflang: "es", path: "/es/partnership/" },
         { hreflang: "x-default", path: "/partnerstvo/" },
       ]}
     />
@@ -100,24 +102,11 @@ const crumbsLd = breadcrumbJsonLd(
             <a href={homeHref}>{t.breadcrumbHome}</a> · <strong>{t.breadcrumbCurrent}</strong>
           </p>
           <div class="home-topbar-actions">
-            {import.meta.env.DEV && (
-            <div class="home-lang" aria-label={home.langSwitchAria} data-lang-switch>
-              <a
-                class:list={["home-lang__btn", locale === "ru" && "is-active"]}
-                href="/partnerstvo/"
-                hreflang="ru"
-                lang="ru"
-                data-locale-set="ru">RU</a
-              >
-              <a
-                class:list={["home-lang__btn", locale === "en" && "is-active"]}
-                href="/en/partnership/"
-                hreflang="en"
-                lang="en"
-                data-locale-set="en">EN</a
-              >
-            </div>
-            )}
+            <DevLangSwitch
+              locale={locale}
+              ariaLabel={home.langSwitchAria}
+              hrefs={{ ru: "/partnerstvo/", en: "/en/partnership/", es: "/es/partnership/" }}
+            />
             <a href="#partner-cta" class="v6-btn">{t.ctaTop}</a>
           </div>
         </header>

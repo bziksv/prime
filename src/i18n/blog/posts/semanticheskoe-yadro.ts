@@ -486,3 +486,490 @@ export const semanticheskoeYadroEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for semanticheskoe-yadro — same structure as RU JSON / EN. */
+export const semanticheskoeYadroEs: BlogPost = {
+  slug: "semanticheskoe-yadro",
+  title: "Cómo montar un set de keywords (núcleo semántico) bien",
+  date: "2022-03-01",
+  category: "SEO",
+  cover: "/images/blog/semanticheskoe-yadro/cover.webp",
+  excerpt:
+    "Cómo elegir keywords, clasificar queries y montar un núcleo semántico — paso a paso para SEO.",
+  lead: [
+    "El núcleo semántico de un sitio es la lista de queries de búsqueda que pueden traer gente al recurso. Esas queries — keywords — dan forma a la estructura del sitio.",
+    "El núcleo es la base de la promoción orgánica. Las keywords correctas crecen visitas, leads y audiencia. Abajo: qué entra en el set, cómo moldea el copy y cómo montarlo sin hinchar una hoja inútil.",
+  ],
+  faq: [
+    {
+      q: "¿Qué es un núcleo semántico?",
+      a: "Un set de queries de búsqueda que reflejan el tema y la estructura del sitio — y por las que los usuarios pueden llegar desde la búsqueda.",
+    },
+    {
+      q: "¿Cuántas keywords necesita un núcleo?",
+      a: "Guías orientativas: landing de servicio — decenas a un par de cientos; sitio de servicios con varias secciones — cientos a un par de miles; catálogo grande — miles y subiendo. Cubrir intención importa más que «recolectar más».",
+    },
+    {
+      q: "¿En qué se diferencian head terms y long-tail?",
+      a: "Las queries de alta frecuencia son más cortas y competitivas; las de baja frecuencia son más largas, más numerosas y más fáciles para visibilidad temprana y tráfico dirigido.",
+    },
+    {
+      q: "¿Por qué clusterizar el núcleo?",
+      a: "Para agrupar queries cercanas en sentido y SERP bajo una landing — y evitar páginas duplicadas.",
+    },
+    {
+      q: "¿Cuánto tarda montar un núcleo?",
+      a: "Borrador de marcadores — horas; un núcleo útil para un sitio de servicios mediano — de unos días a un par de semanas. Luego el núcleo vive con el sitio: añades y podas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es un núcleo semántico",
+      level: 2,
+      paras: [
+        "Un núcleo semántico es un set de palabras y frases que reflejan el tema y la estructura del sitio y describen qué hace. Esas palabras son keywords. Responden: «¿Qué encontrará el usuario en este sitio?»",
+        "Abajo: cuántas keywords suelen entrar en el set de trabajo, cómo clasificar queries y un montaje paso a paso.",
+      ],
+      lists: [
+        {
+          intro: "Un núcleo sólido suele tener estos rasgos:",
+          items: [
+            "las keywords reflejan la estructura del sitio",
+            "el sitio responde a la mayoría de queries clave",
+            "el recurso tiene la información que el visitante necesita",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cuántas keywords necesitas",
+      level: 2,
+      paras: [
+        "No hay regla dura de «exactamente N keywords»: el volumen depende del nicho, la región y cuántas landings puedes mantener de verdad. Los rangos de abajo son orden de magnitud para empezar, no dogma.",
+      ],
+      lists: [
+        {
+          intro: "Rangos típicos (tras limpieza, no un dump crudo de Wordstat):",
+          items: [
+            "landing de un solo servicio — decenas a unos 150–200 keywords",
+            "sitio de servicios con varias secciones — cientos a 1–2 mil",
+            "tienda online / catálogo — miles de keywords, creciendo con el surtido",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Qué mirar en lugar de «recolectar más»",
+          kind: "tip",
+          text: "Cubrir intenciones comerciales e informativas bajo URLs reales importa más. Un núcleo hinchado sin landings ni copy solo infla la hoja.",
+        },
+      ],
+    },
+    {
+      title: "Clasificar queries de búsqueda",
+      level: 2,
+      paras: [
+        "Las keywords se parten en grupos por distintos parámetros. Los cubrimos a continuación. Si quieres práctica primero — salta a la guía paso a paso más abajo.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Frecuencia",
+      level: 3,
+      paras: [
+        "Promover en queries de alta frecuencia es duro — la competencia es feroz. Los principiantes suelen empezar con micro y baja frecuencia: hay más, y la long tail hace más realista la visibilidad temprana. En páginas comerciales, afina la oferta: garantías, plazos, entrega, meta tags.",
+        "Tras el trabajo de baja frecuencia, suma términos de media. A menudo insinúan la estructura de secciones. Puede hacer falta actualizar sitio y contenido. Cuando LF y MF están cubiertos con landings y copy, las de alta frecuencia suelen subir con más naturalidad — pero eso no es garantía del nº 1 «solo».",
+      ],
+      lists: [
+        {
+          intro:
+            "Umbrales orientativos de impresiones mensuales (guía, no escala oficial del buscador):",
+          items: [
+            "micro baja frecuencia — menos de 100",
+            "baja frecuencia — 100 a 1.000",
+            "media frecuencia — 1.000 a 5.000",
+            "alta frecuencia — desde 5.000",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Señales de negocio",
+      level: 3,
+      paras: [
+        "Aquí importan dos grupos. Las keys comerciales traen visitantes que quieren pedir, comprar o usar un servicio — todo lo que implica dinero.",
+        "El segundo grupo son queries no comerciales. La gente quiere información; aún no necesita pedir o comprar.",
+        "El primer grupo encaja en sitios de servicios y tiendas online. Recursos informativos y blogs temáticos necesitan el segundo.",
+      ],
+      lists: [
+        {
+          intro: "Las queries comerciales pueden verse así:",
+          items: [
+            "pedir un pastel en Ryazan con entrega",
+            "peinado de boda asequible",
+            "comprar recambios BMW",
+          ],
+        },
+        {
+          intro: "Ejemplos no comerciales:",
+          items: [
+            "regalo de aniversario para marido",
+            "ciudades bonitas de Italia",
+            "receta de empanada de carne",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Geolocalización",
+      level: 3,
+      paras: [
+        "Una query puede incluir la ubicación del usuario — o no. En una query geo-dependiente el buscador devuelve resultados según dónde está el usuario. Los resultados cambian por región. Si alguien quiere pedir un pastel en Moscú, pasteles en Tver rara vez ayudan.",
+        "Si la query no tiene pista de lugar, los resultados suelen verse iguales entre ciudades.",
+        "En promoción de sitios, las keys geo-dependientes suelen ser más inteligentes — la competencia se queda en la región nombrada. Frases sin ubicación compiten con resultados de todas partes.",
+      ],
+      lists: [
+        {
+          intro: "Ejemplos geo-dependientes:",
+          items: [
+            "entrega de comida Astracán",
+            "horario restaurante Pogrebok",
+            "comprar un scooter en Perm",
+          ],
+        },
+        {
+          intro: "Queries geo-independientes:",
+          items: [
+            "Harry Potter ver online",
+            "qué es marketing",
+            "cómo elegir un portátil",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Necesidades del usuario",
+      level: 3,
+      paras: [
+        "Según el contenido que quiere el usuario, hay cuatro tipos de query.",
+        "Si tu sitio ofrece ese contenido, puedes tomar este grupo. A menudo la gente prefiere Google Images, servicios de streaming o YouTube.",
+        "Transaccionales. Funcionalmente cercanas a las comerciales. Sirven para encontrar productos o servicios para comprar. Para competir, hace falta un catálogo con fichas — fotos, descripciones, precios — más carrito, pago y opciones de entrega.",
+        "Los buscadores rara vez ponen tiendas pequeñas en primera página para queries transaccionales amplias. Los grandes agregadores suelen ocupar las primeras filas.",
+        "Si el recurso tiene info útil para esas keys, puedes usarlas en promoción. Más a menudo entran en el núcleo cuando el sitio también se empuja con búsqueda de pago.",
+      ],
+      lists: [
+        {
+          intro: "Media. Fotos, audio o vídeo. Por ejemplo:",
+          items: [
+            "último álbum de BI-2",
+            "fotos del océano",
+            "Canal Uno ver online",
+          ],
+        },
+        {
+          intro:
+            "Navegacionales. La gente busca un lugar, evento o sitio concreto. Por ejemplo:",
+          items: ["yandex", "olimpiadas 2022", "dirección clínica nº 2"],
+        },
+        {
+          intro: "Ejemplos de keys informativas:",
+          items: ["gran guerra patriótica", "receta de borsch", "quién fue lenin"],
+        },
+      ],
+    },
+    {
+      title: "Otros tipos de query",
+      level: 3,
+      paras: [
+        "Difusas — sin objetivo claro; no se sabe qué mostrar. Los motores piden aclaración o devuelven artículos temáticos. Yandex tiene tech tipo Spectrum para queries difusas, para que el SERP cubra necesidades distintas del mismo tema.",
+      ],
+      lists: [
+        {
+          intro:
+            "Vitales — solo el nombre de marca o empresa. La gente busca productos concretos o el sitio oficial. Por ejemplo:",
+          items: ["apteka.ru", "MVideo", "Apple"],
+        },
+        {
+          intro: "De marca — con nombre de marca o modelo:",
+          items: ["coche audi", "crema clinic", "tablet lenovo"],
+        },
+        {
+          intro: "Ejemplos de queries difusas:",
+          items: [
+            "corona — fotos, definición, monarcas modernos, series",
+            "café — tipos, métodos de preparación, historia, dónde comprar",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Por qué hace falta un núcleo semántico",
+      level: 2,
+      paras: [
+        "Trabajar con el núcleo después ayuda a afinar la estructura del sitio, seguir la dinámica, ver por qué flaquean los rankings y mostrar si hacen falta subtemas.",
+      ],
+      lists: [
+        {
+          intro:
+            "Para montar un núcleo semántico recoges keywords y términos afines. Cuantos más sinónimos, términos de especialista, abreviaturas y formas cortas incluyas, más completa es la respuesta a la query que trajo al usuario. El núcleo ayuda a:",
+          items: [
+            "montar una estructura amigable para el visitante",
+            "entregar contenido de calidad",
+            "usar los meta tags adecuados",
+            "dar forma a anclas con un sistema de enlaces externos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Paso a paso: montar un núcleo semántico",
+      level: 2,
+      paras: [
+        "Crear un núcleo semántico son varios pasos: marcadores → expandir → limpiar → clusters → mapear a URLs. Descarga la plantilla de tabla y rellénala sobre la marcha.",
+      ],
+      lists: [],
+      links: [
+        {
+          label:
+            "Descargar plantilla CSV (marcador, frecuencia, tipo, cluster, URL)",
+          href: "/files/blog/semanticheskoe-yadro-template.csv",
+        },
+      ],
+    },
+    {
+      title: "Paso 1. Reunir información",
+      level: 3,
+      paras: [
+        "Ponte en el lugar del cliente potencial. ¿Qué le interesa? ¿Cuál es el problema? Sumérgete en el tema y recoge todo en esa dirección.",
+        "La info general suele vivir en el sitio del cliente. Para un buceo completo, usa también fuentes externas: competidores, estructura del cliente, catálogos y listas de precios. Wordstat y Google Keyword Planner ayudan a recolectar keywords.",
+        "El análisis de búsqueda de pago de competidores también ayuda — cómo promueven un producto o servicio similar. A mano o vía herramientas como SpyWords / SimilarWeb (según acceso y presupuesto).",
+      ],
+      lists: [
+        {
+          intro:
+            "El brainstorming ayuda. Anota todos los datos y pensamientos del tema. La lista debe incluir:",
+          items: [
+            "ubicaciones: región, ciudad, distrito, metros y calles que usa la gente para encontrar el lugar",
+            "cada categoría de productos que ofreces",
+            "nombres de producto con sinónimos, abreviaturas, jerga o términos de especialista, grafías cirílicas y latinas",
+            "queries vitales",
+            "nombres de producto mal escritos",
+            "parámetros técnicos del producto: tipos, material, modelo, etc.",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Paso 2. Expandir la lista de keywords",
+      level: 3,
+      paras: [
+        "Ahora expande el borrador de queries. Monta una tabla en un archivo aparte y añade cada palabra y frase del paso anterior. Necesitarás herramientas de keywords: Wordstat y Google Keyword Planner.",
+        "Introduce cada palabra o frase en las herramientas. Obtendrás variantes refinadas y asociaciones.",
+        "También puedes recolectar keys automáticamente con programas como Key Collector.",
+        "Luego limpia el núcleo. Quita queries que no encajan con las especificidades o el tema del sitio — a mano o con herramientas de stop-words.",
+      ],
+      lists: [
+        {
+          intro: "Stop words / negativos incluyen:",
+          items: [
+            "nombres de empresas competidoras",
+            "typos y faltas (salvo que se promocionen a propósito)",
+            "topónimos fuera de tu región de venta",
+            "keys de otro tema",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual en este paso",
+          kind: "tip",
+          text: "Dejar todo «tal cual se exportó» de Wordstat. Sin limpieza, clusters y copy después se llenan de formulaciones fuera de objetivo.",
+        },
+      ],
+    },
+    {
+      title: "Paso 3. Agrupar keywords. Clusterizar el núcleo.",
+      level: 3,
+      paras: [
+        "Ahora tienes una hoja enorme con todas las queries posibles del sitio. Parte las keys en grupos o bloques por tema o necesidades del cliente. Eso es clustering.",
+        "En búsqueda de pago, la forma de la palabra importa. Un anuncio puede usar «purificación de agua», otro «tratamiento del agua», ambos llevando al mismo sitio — así la keyword puede aparecer en el título del SERP y coincidir con la query. Acabas con varios grupos de ads que aún envían usuarios a una URL. En Google o Yandex Ads, las keys de un producto a menudo se fusionan, simplificando la estructura.",
+        "¿Y en SEO? Más trabajo: cada cluster debe llevar a una página concreta. Si la página no existe — créala. Si no, las queries compiten o quedan sin landing. En un sitio pequeño el clustering suele ser manual; en grandes ayudan herramientas como Rush Analytics u otros módulos de clustering (el umbral de solapamiento de URLs del SERP se fija aparte).",
+      ],
+      lists: [],
+      tables: [
+        {
+          caption: "Mini ejemplo: ventanas PVC, Vorónezh (fragmento)",
+          headers: ["Marcador / query", "Tipo", "Cluster", "Landing"],
+          rows: [
+            [
+              "ventanas pvc voronezh",
+              "comercial + geo",
+              "Ventanas PVC",
+              "/okna-pvh/",
+            ],
+            [
+              "comprar ventanas pvc voronezh",
+              "comercial + geo",
+              "Ventanas PVC",
+              "/okna-pvh/",
+            ],
+            ["precio ventanas pvc", "comercial", "Ventanas PVC", "/okna-pvh/"],
+            [
+              "instalación ventanas voronezh",
+              "comercial + geo",
+              "Instalación",
+              "/ustanovka-okon/",
+            ],
+            [
+              "cómo elegir ventanas pvc",
+              "informativa",
+              "Guía",
+              "/blog/kak-vybrat-okna/",
+            ],
+            [
+              "reparación ventanas voronezh",
+              "comercial + geo",
+              "Reparación",
+              "/remont-okon/",
+            ],
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Tirar todo el núcleo a una sola URL «home» o clonar páginas casi idénticas por cada forma de palabra. Cluster = una intención → una landing.",
+        },
+      ],
+    },
+    {
+      title: "Paso 4. Mapear keys a la estructura. Afinar el núcleo.",
+      level: 3,
+      paras: [
+        "El paso anterior te dejó clusters de keywords listos. Varios grupos pueden seguir compartiendo una URL. Entonces afina la estructura del sitio, crea páginas extra y mueve parte de las keys allí.",
+        "Al clusterizar, mapea queries a páginas para que las URLs no se dupliquen entre sí por sentido.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Qué hacer después del núcleo",
+      level: 2,
+      paras: [
+        "El núcleo no es el final — es la entrada al trabajo del sitio. Luego suele venir: Title y H1 por cluster, copy y bloques de confianza en landings, enlaces internos entre secciones, técnica e indexación.",
+      ],
+      lists: [],
+      links: [
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "Errores al trabajar con keywords",
+      level: 2,
+      paras: [
+        "Estos huecos crecen en problemas mayores: set de competidores equivocado, rankings flojos, meta tags irrelevantes, métricas bajas.",
+      ],
+      lists: [
+        {
+          intro: "Los principiantes suelen cometer estos errores con un núcleo semántico:",
+          items: [
+            "solo alta frecuencia y las queries más obvias",
+            "sin keywords geo",
+            "demasiadas keys distintas apuntando a una URL",
+            "profesionalismos y jerga ignorados",
+            "las mismas queries apuntando a páginas distintas",
+            "núcleo montado sin las especificidades del cliente",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Herramientas para trabajar con un núcleo semántico",
+      level: 2,
+      paras: [
+        "Herramientas que los equipos suelen usar para recolectar y agrupar un núcleo. No es un ranking — elige por tarea y presupuesto. Paneles estrechos o desfasados no entran.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Yandex Wordstat",
+      level: 3,
+      paras: [
+        "Fuente básica gratuita de frecuencia y formulación para búsqueda en ruso. Región, estacionalidad y dinámica viven aquí. La expansión de marcadores suele empezar aquí.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Google Keyword Planner",
+      level: 3,
+      paras: [
+        "Planificador de keywords de Google Ads: ideas de queries, estimaciones de frecuencia y previsiones de Google. Útil como segundo ángulo junto a Wordstat, sobre todo si también miras Google.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Key Collector",
+      level: 3,
+      paras: [
+        "Suite de escritorio para parsear sugerencias, recolectar y limpiar un núcleo, negativos y quitar soft-duplicates. Ahorra tiempo en listas medianas y grandes.",
+      ],
+      lists: [],
+    },
+    {
+      title: "SlovoEB",
+      level: 3,
+      paras: [
+        "Pariente gratuito y simplificado de Key Collector. No lo hace todo; el acceso a Wordstat necesita cuenta Yandex — con límites y riesgo de bloques bajo parsing agresivo.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Titlo",
+      level: 3,
+      paras: [
+        "Plataforma con módulos: recolección y clustering de queries, comparación de listas, relevancia, rankings, meta tags y monitoreo. Los módulos se pueden usar aparte o en una cuenta.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Rush Analytics",
+      level: 3,
+      paras: [
+        "Clustering en la nube y tareas SEO afines. Útil cuando el núcleo ya es grande y el agrupado manual por solapamiento de URLs del SERP tarda demasiado.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Keys.so / Serpstat",
+      level: 3,
+      paras: [
+        "Sistemas de pago con datos de keys, competidores y páginas del SERP. Ayudan a expandir keywords de media y baja frecuencia y a ver quién ya posee el nicho. La elección depende del stack habitual del equipo.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Just Magic",
+      level: 3,
+      paras: [
+        "Herramienta para semántica y entorno LSI del texto (incluidos escenarios tipo «Aquarelle»). Útil cuando el núcleo ya existe y hay que reforzar el copy de un cluster.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Ahrefs",
+      level: 3,
+      paras: [
+        "Más fuerte en backlinks y mercados EN/globales, pero también muestra keys orgánicas de competidores. Para un núcleo puramente «Yandex» suele complementar Wordstat y suites locales más que sustituirlos.",
+        "Cualquier set de herramientas solo acelera el trabajo. Cómo eliges formulaciones y evitas mezclar intenciones en una página — eso baja a práctica y sentido común.",
+      ],
+      lists: [],
+    },
+  ],
+};

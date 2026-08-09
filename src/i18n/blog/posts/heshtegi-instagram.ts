@@ -146,3 +146,150 @@ export const heshtegiInstagramEn: BlogPost = {
     "vovlechennost-instagram",
   ],
 };
+
+/** ES overlay for heshtegi-instagram — same structure as RU JSON. */
+export const heshtegiInstagramEs: BlogPost = {
+  slug: "heshtegi-instagram",
+  title: "Hashtags y geotags en Instagram: ayudan al reach sin spam",
+  date: "2018-10-05",
+  category: "SMM",
+  cover: "/images/blog/heshtegi-instagram/cover.webp",
+  excerpt:
+    "Cómo elegir hashtags y etiquetas de ubicación para un perfil de negocio en Instagram: nicho, tag de marca, punto en el mapa — sin el mito de que 30 tags ganan discovery ni fórmulas obsoletas de 2018.",
+  lead: [
+    "Un hashtag es una etiqueta clicable en el caption o en un comentario; un geotag es el lugar del disparo o un punto de negocio en el mapa. Ambos ayudan a que la gente encuentre contenido fuera del feed de followers, pero no sustituyen un frame fuerte y una oferta clara.",
+    "Abajo: cómo elegir tags, cuántos usar, por qué ayuda un tag de marca y cuándo el geo sirve al negocio local. El papel de los hashtags en el algoritmo ha cambiado: mide tus propias stats, no garantías ajenas de discovery. El aviso de Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Hacen falta 30 hashtags?",
+      a: "No. El límite de la plataforma es un máximo, no un objetivo. Un set corto y relevante suele bastar; un muro de los mismos tags en cada post parece spam.",
+    },
+    {
+      q: "¿Los hashtags garantizan Explore o discovery?",
+      a: "No. Retention, saves, replies y calidad creativa pesan más. Los tags son un canal secundario de discovery.",
+    },
+    {
+      q: "¿Van en el caption o en el primer comentario?",
+      a: "Ambos funcionan. En el caption, 1–3 tags clave son cómodos; una lista larga a menudo va al primer comentario para no ensuciar el copy.",
+    },
+    {
+      q: "¿Siempre hace falta geotag?",
+      a: "No. Ayuda a negocio local, eventos, puntos de venta y travel. Para una oferta 100% online sin vínculo de lugar — opcional.",
+    },
+    {
+      q: "¿Solo tags ultra populares?",
+      a: "Arriesgado: el post se hunde rápido. Mezcla nicho y tags moderados; evita etiquetas cuyo tono y calidad del feed no encajan con el tuyo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué importan los tags para el negocio",
+      level: 2,
+      paras: [
+        "Los hashtags agrupan posts por tema: alguien busca un tag de nicho y puede ver el tuyo. Un geotag muestra contenido en el feed de ubicación y en el mapa — útil para cafés, salones, showrooms, hoteles.",
+        "Esto no es publicidad gratis con clientes garantizados. Sin oferta clara y contenido regular, los tags traen likes al azar, no leads.",
+        "En Insights mira de dónde vienen las views: si los tags aportan poco, no hinches la lista por costumbre de 2018.",
+      ],
+      links: [
+        {
+          label: "Negocio en Instagram",
+          href: "/es/blog/biznes-v-instagram/",
+        },
+        {
+          label: "Reach en Instagram",
+          href: "/es/blog/ohvat-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Qué hashtags elegir",
+      level: 2,
+      paras: [
+        "Arma un pool para la marca y los tipos de post: producto, servicio, ciudad, formato (before/after, receta, caso). Brainstorm del equipo + revisar posts fuertes del nicho es un buen inicio.",
+        "En la búsqueda de Instagram, mira volumen de posts y el feed del tag: si es basura, bots o un estilo ajeno — salta el tag aunque sea «popular».",
+        "Lo específico gana a tags genéricos de love/selfie: un tag estrecho acerca a gente a tu oferta. Un tag de marca (nombre, campaña UGC) ayuda a reunir contenido de usuarios — solo si la audiencia lo usa de verdad.",
+        "Guarda una lista de trabajo en notas y actualízala: tests con stats ganan a la fórmula ganadora 5+7+3 de otro.",
+      ],
+      lists: [
+        {
+          intro: "Mix práctico por post:",
+          items: [
+            "unos tags de nicho/locales",
+            "un par de tags de tema moderadamente populares",
+            "1–2 tags de marca o campaña",
+            "sin copy-paste del mismo bloque en cada post",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Prometer «discovery por hashtag = flujo de clientes» y perseguir tags con cientos de miles de posts. Un clic sin relevancia ni confianza no convierte.",
+        },
+      ],
+    },
+    {
+      title: "Cuántos usar y cómo formatearlos",
+      level: 2,
+      paras: [
+        "La plataforma limita tags por post — mira la Help actual para el tope exacto. Para mover tu propia base, una lista corta suele bastar; llenar hasta el máximo no es obligatorio.",
+        "Mantén el copy principal legible: sentido y CTA ganan a un muro de #. Mete un set largo en el primer comentario justo tras publicar si ese es tu proceso.",
+        "No cambies el set solo por «frescura del algoritmo»: cámbialo cuando los tags dejen de traer gente relevante o estropeen el look del caption.",
+      ],
+      links: [
+        {
+          label: "Post en Instagram",
+          href: "/es/blog/post-instagram/",
+        },
+        {
+          label: "Diseño del perfil",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Geotags: cuándo funcionan",
+      level: 2,
+      paras: [
+        "Una etiqueta de ubicación ata el post a un lugar: página de location, mapa, búsqueda cercana. Negocio local y travel ganan un canal extra de «encontrar cerca».",
+        "Usa un lugar real o con sentido (sucursal, evento, barrio), no el spot viral de otro por reach — confunde a clientes y se ve manipulativo.",
+        "Geos vecinos pueden sumar visibilidad cruzada, pero es más limpio apoyarse en tus puntos y ubicaciones de partner con acuerdo — no montarte en el tráfico ajeno.",
+      ],
+    },
+    {
+      title: "Cómo añadir un lugar al post",
+      level: 2,
+      paras: [
+        "Al crear el post, busca Add location (el wording en la app cambia), elige de las sugerencias o busca el punto.",
+        "En Stories la mecánica es similar: sticker de ubicación si está en tu UI. Comprueba que el mapa abre tu negocio, no un homónimo ajeno.",
+        "Alinea la dirección con bio y sitio — el desajuste daña la confianza más que no poner geo.",
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Hashtags y geo son discovery secundario — no un sustituto de contenido/oferta.",
+        "Relevancia y nicho ganan al conteo máximo de tags y a las «garantías» de discovery.",
+        "Para negocio local un geotag suele ganar a una docena de hashtags genéricos; para online — un tag de marca fuerte y etiquetas temáticas.",
+      ],
+    },
+  ],
+  closing: [
+    "Arma un pool corto de 15–25 tags que funcionen por tipo de post, añade geo a los próximos posts con punto de venta y en dos semanas mira la contribución en Insights — más justo que copiar la fórmula de 20 tags de otro.",
+  ],
+  related: [
+    "biznes-v-instagram",
+    "ohvat-instagram",
+    "post-instagram",
+    "oformlenie-stranicy-instagram",
+    "kontent-plan-instagram",
+    "vovlechennost-instagram",
+  ],
+};

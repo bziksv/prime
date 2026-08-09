@@ -1,0 +1,482 @@
+---
+import "../../../styles/concept-v6.css";
+import "../../../styles/concept-v6-media.css";
+import "../../../styles/blog.css";
+import PortalShell from "../../../components/PortalShell.astro";
+import CookieConsent from "../../../components/CookieConsent.astro";
+import CookieFooterNotice from "../../../components/CookieFooterNotice.astro";
+import SiteSeo from "../../../components/SiteSeo.astro";
+import BlogChecklist from "../../../components/blog/BlogChecklist.astro";
+import BlogQuiz from "../../../components/blog/BlogQuiz.astro";
+import { v6Icons } from "../../../data/v6-media";
+import {
+  blogPosts,
+  getArticleCta,
+  getBaseViews,
+  getBlogPost,
+  getReadingMinutes,
+  getSectionId,
+} from "../../../data/blog";
+import { blogNewFormatSlugs } from "../../../data/blog-migration";
+import { getBlogInteract } from "../../../data/blog-interact";
+import { breadcrumbJsonLd } from "../../../lib/breadcrumb-jsonld";
+import { jsonForScript } from "../../../lib/json-for-script";
+import { contactsPath } from "../../../i18n/contacts-content";
+import {
+  ES_BLOG_SLUGS,
+  blogIndexPath,
+  blogPostPath,
+  blogUi,
+  formatReadingTimeLocale,
+  getArticleCtaLocale,
+  localizeBlogInteract,
+  localizeBlogPost,
+} from "../../../i18n/blog";
+import { existsSync, statSync } from "node:fs";
+import { join } from "node:path";
+
+const locale = "es" as const;
+
+export function getStaticPaths() {
+  return ES_BLOG_SLUGS.map((slug) => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params;
+const base = getBlogPost(slug!);
+if (!base) {
+  return Astro.redirect("/es/");
+}
+
+const post = localizeBlogPost(base, locale);
+const ui = blogUi(locale);
+const reading = getReadingMinutes(base);
+const baseViews = getBaseViews(base);
+const postPath = blogPostPath(post.slug, locale);
+const pageUrl = new URL(postPath, Astro.site ?? "https://prime-ltd.su").href;
+const cta = getArticleCtaLocale(post, locale, getArticleCta(base));
+const contactsHref = contactsPath(locale);
+
+const translated = blogPosts
+  .filter((p) => (ES_BLOG_SLUGS as readonly string[]).includes(p.slug))
+  .map((p) => localizeBlogPost(p, locale));
+const idx = translated.findIndex((p) => p.slug === post.slug);
+const prev = idx >= 0 ? translated[idx + 1] ?? null : null;
+const next = idx >= 0 ? translated[idx - 1] ?? null : null;
+const related = translated
+  .filter((p) => p.slug !== post.slug && p.category === post.category)
+  .slice(0, 3);
+
+const isNewFormat = blogNewFormatSlugs.includes(post.slug);
+const interact =
+  localizeBlogInteract(post.slug, locale) ?? getBlogInteract(post.slug);
+
+const toc = post.sections
+  .map((section, index) => ({
+    id: getSectionId(section.title, index),
+    title: section.title,
+    level: section.level,
+    index,
+  }))
+  .filter((s) => s.level <= 2);
+
+if (post.faq?.length) {
+  toc.push({
+    id: "faq",
+    title: ui.faq,
+    level: 2,
+    index: post.sections.length,
+  });
+}
+
+const pageTitle = `${post.title} — ${ui.pageTitleSuffix}`;
+const coverPath = post.cover.split("?")[0] || post.cover;
+
+const postJsonPath = join(process.cwd(), "src/data/blog-posts", `${post.slug}.json`);
+const fileMtime = existsSync(postJsonPath)
+  ? statSync(postJsonPath).mtime.toISOString().slice(0, 10)
+  : post.date;
+const dateModified = fileMtime > post.date ? fileMtime : post.date;
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: post.title,
+  description: post.excerpt,
+  image: new URL(coverPath, Astro.site ?? "https://prime-ltd.su").href,
+  datePublished: post.date,
+  dateModified,
+  mainEntityOfPage: pageUrl,
+  inLanguage: "en",
+  author: {
+    "@type": "Organization",
+    name: "PRIME",
+    url: "https://prime-ltd.su/es/",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "PRIME",
+    logo: {
+      "@type": "ImageObject",
+      url: new URL(v6Icons.logoMark, Astro.site ?? "https://prime-ltd.su").href,
+    },
+  },
+};
+
+const faqJsonLd =
+  post.faq && post.faq.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: post.faq.map((item) => ({
+          "@type": "Question",
+          name: item.q,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: item.a,
+          },
+        })),
+      }
+    : null;
+
+const crumbsLd = breadcrumbJsonLd(
+  [
+    { label: ui.home, href: "/es/" },
+    { label: ui.blog, href: blogIndexPath(locale) },
+    { label: post.title },
+  ],
+  {
+    origin: Astro.site?.origin ?? "https://prime-ltd.su",
+    currentPath: postPath,
+  },
+);
+---
+
+<!doctype html>
+<html lang="es" data-concept="v6" data-page="blog">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={post.excerpt} />
+    <title>{pageTitle}</title>
+    <SiteSeo
+      title={pageTitle}
+      description={post.excerpt}
+      path={postPath}
+      image={coverPath}
+      type="article"
+      publishedTime={post.date}
+      modifiedTime={dateModified}
+      locale="es"
+    />
+    <link rel="alternate" hreflang="ru" href={new URL(`/blog/${post.slug}/`, Astro.site ?? "https://prime-ltd.su").href} />
+    <link rel="alternate" hreflang="es" href={pageUrl} />
+    <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
+    <link rel="icon" href={v6Icons.logoMark} type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json" set:html={jsonForScript(articleJsonLd)} />
+    <script type="application/ld+json" set:html={jsonForScript(crumbsLd)} />
+    {
+      faqJsonLd ? (
+        <script type="application/ld+json" set:html={jsonForScript(faqJsonLd)} />
+      ) : null
+    }
+  </head>
+  <body>
+    <div class="v6-app">
+      <PortalShell active="blog" locale="es" />
+
+      <main id="main" class="v6-main">
+        <header class="v6-topbar">
+          <button id="v6-burger" type="button" class="v6-burger" aria-label={ui.menu} aria-controls="v6-sidebar" aria-expanded="false">☰</button>
+          <p class="v6-breadcrumb">
+            <a href="/es/">{ui.home}</a> · <a href={blogIndexPath(locale)}>{ui.blog}</a> ·{" "}
+            <strong title={post.title}>
+              {post.title.length > 52 ? `${post.title.slice(0, 52)}…` : post.title}
+            </strong>
+          </p>
+          <a href={contactsHref} class="v6-btn">{ui.leaveRequest}</a>
+        </header>
+
+        <div
+          class="v6-content"
+          data-blog-article
+          data-slug={post.slug}
+          data-base-views={baseViews}
+          data-title={post.title}
+          data-url={pageUrl}
+          data-reading-minutes={reading}
+        >
+          <div class="b-read-progress" data-read-progress hidden>
+            <div class="b-read-progress__track" aria-hidden="true">
+              <span data-read-bar></span>
+            </div>
+            <p class="b-read-progress__meta" data-read-left></p>
+          </div>
+
+          <article class:list={["b-post", isNewFormat && "b-post--new"]}>
+            <header class="b-post__hero">
+              <div class="b-post__cover">
+                <img src={`${coverPath}?v=1`} alt="" />
+              </div>
+
+              <div class="b-post__intro">
+                {
+                  isNewFormat ? (
+                    <p class="b-post__badge">{ui.newFormat}</p>
+                  ) : (
+                    <p class="b-post__badge b-post__badge--migrated">{ui.migrated}</p>
+                  )
+                }
+                <div class="b-post__meta">
+                  <span class="b-post__cat">{post.category}</span>
+                  <span>{formatReadingTimeLocale(reading, locale)}</span>
+                  <span data-blog-views-wrap hidden>
+                    <span data-blog-views></span> {ui.views}
+                  </span>
+                </div>
+                <h1>{post.title}</h1>
+                {post.lead.map((p) => <p class="b-post__lead">{p}</p>)}
+                {
+                  post.legalNotice ? (
+                    <aside class="b-post__legal" role="note">
+                      <p class="b-post__legal-kicker">{ui.legalKicker}</p>
+                      {post.legalNotice.title ? (
+                        <p class="b-post__legal-title">{post.legalNotice.title}</p>
+                      ) : null}
+                      <p class="b-post__legal-text">{post.legalNotice.text}</p>
+                    </aside>
+                  ) : null
+                }
+
+                <div class="b-share">
+                  <span class="b-share__label">{ui.share}</span>
+                  <div class="b-share__actions">
+                    <button type="button" class="b-share__btn" data-share-native>
+                      {ui.copyLink}
+                    </button>
+                    <a
+                      class="b-share__btn"
+                      data-share="tg"
+                      target="_blank"
+                      rel="noopener noreferrer">Telegram</a
+                    >
+                  </div>
+                  <p class="b-share__status" data-share-status hidden></p>
+                </div>
+              </div>
+            </header>
+
+            <div class="b-post__layout">
+              {
+                toc.length > 2 ? (
+                  <nav class="b-toc" aria-label={ui.toc}>
+                    <p class="b-toc__title">{ui.toc}</p>
+                    <ol>
+                      {toc.map((item) => (
+                        <li>
+                          <a href={`#${item.id}`}>{item.title}</a>
+                        </li>
+                      ))}
+                    </ol>
+                  </nav>
+                ) : null
+              }
+
+              <div class="b-post__body">
+                {
+                  post.sections.map((section, index) => {
+                    const id = getSectionId(section.title, index);
+                    const quizzes =
+                      interact?.quizzes?.filter((q) =>
+                        section.title.includes(q.afterTitleIncludes),
+                      ) ?? [];
+                    const showChecklist =
+                      Boolean(interact?.checklist) &&
+                      section.title.includes(interact!.checklist.afterTitleIncludes);
+                    return (
+                      <>
+                        <section class="b-post__section" id={id}>
+                          {section.level <= 2 ? (
+                            <h2>{section.title}</h2>
+                          ) : (
+                            <h3>{section.title}</h3>
+                          )}
+                          {(section.paras ?? []).map((p) => (
+                            <p>{p}</p>
+                          ))}
+                          {(section.lists ?? []).map((list) => (
+                            <div class="b-post__list">
+                              {list.intro ? (
+                                <p class="b-post__list-intro">{list.intro}</p>
+                              ) : null}
+                              <ul>
+                                {(list.items ?? []).map((item) => (
+                                  <li>{item}</li>
+                                ))}
+                              </ul>
+                            </div>
+                          ))}
+                          {(section.tables ?? []).map((table) => (
+                            <div class="b-post__table-wrap">
+                              {table.caption ? (
+                                <p class="b-post__table-caption">{table.caption}</p>
+                              ) : null}
+                              <div class="b-post__table-scroll">
+                                <table class="b-post__table">
+                                  <thead>
+                                    <tr>
+                                      {table.headers.map((h) => (
+                                        <th scope="col">{h}</th>
+                                      ))}
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    {table.rows.map((row) => (
+                                      <tr>
+                                        {row.map((cell) => (
+                                          <td>{cell}</td>
+                                        ))}
+                                      </tr>
+                                    ))}
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          ))}
+                          {(section.notes ?? []).map((note) => (
+                            <aside
+                              class:list={[
+                                "b-post__note",
+                                note.kind === "legal" && "b-post__note--legal",
+                              ]}
+                              role={note.kind === "legal" ? "note" : undefined}
+                            >
+                              <p class="b-post__note-title">{note.title}</p>
+                              <p>{note.text}</p>
+                            </aside>
+                          ))}
+                          {(section.links ?? []).length ? (
+                            <p class="b-post__links">
+                              {section.links!.map((link) => (
+                                <a href={link.href} download={link.href.endsWith(".csv") || undefined}>
+                                  {link.label}
+                                </a>
+                              ))}
+                            </p>
+                          ) : null}
+                        </section>
+
+                        {quizzes.map((quiz) => (
+                          <BlogQuiz
+                            title={quiz.title}
+                            lead={quiz.lead}
+                            questions={quiz.questions}
+                            locale="es"
+                          />
+                        ))}
+
+                        {showChecklist ? (
+                          <BlogChecklist
+                            title={interact.checklist.title}
+                            lead={interact.checklist.lead}
+                            items={interact.checklist.items}
+                            storageKey={`prime-blog-checklist-en-${post.slug}`}
+                            locale="es"
+                          />
+                        ) : null}
+                      </>
+                    );
+                  })
+                }
+
+                {
+                  post.faq?.length ? (
+                    <section class="b-post__section b-post__faq" id="faq">
+                      <h2>{ui.faq}</h2>
+                      <div class="b-faq">
+                        {post.faq.map((item) => (
+                          <details class="b-faq__item">
+                            <summary>{item.q}</summary>
+                            <p>{item.a}</p>
+                          </details>
+                        ))}
+                      </div>
+                    </section>
+                  ) : null
+                }
+
+                <div class="b-post__cta">
+                  <h2>{cta.title}</h2>
+                  <p>{cta.text}</p>
+                  <a href={contactsHref} class="v6-btn">{ui.discuss}</a>
+                </div>
+              </div>
+            </div>
+
+            <nav class="b-post__pager" aria-label={ui.pagerLabel}>
+              {
+                prev ? (
+                  <a href={blogPostPath(prev.slug, locale)} class="b-post__pager-link">
+                    <span>{ui.earlier}</span>
+                    <strong>{prev.title}</strong>
+                  </a>
+                ) : (
+                  <span class="b-post__pager-link is-empty"></span>
+                )
+              }
+              {
+                next ? (
+                  <a href={blogPostPath(next.slug, locale)} class="b-post__pager-link b-post__pager-link--next">
+                    <span>{ui.later}</span>
+                    <strong>{next.title}</strong>
+                  </a>
+                ) : (
+                  <span class="b-post__pager-link is-empty"></span>
+                )
+              }
+            </nav>
+
+            {
+              related.length ? (
+                <section class="b-related">
+                  <h2>{ui.related}</h2>
+                  <div class="b-related__grid">
+                    {related.map((r) => (
+                      <a href={blogPostPath(r.slug, locale)} class="b-related__card">
+                        <img src={r.cover} alt="" loading="lazy" />
+                        <div>
+                          <span>{r.category}</span>
+                          <strong>{r.title}</strong>
+                        </div>
+                      </a>
+                    ))}
+                  </div>
+                </section>
+              ) : null
+            }
+          </article>
+        </div>
+
+        <footer class="v6-footer">
+          <div class="v6-footer__brand">
+            <strong>{ui.brand}</strong>
+            <p>{ui.footerTagline}</p>
+          </div>
+          <p>© 2015–{new Date().getFullYear()} {ui.brand}</p>
+          <CookieFooterNotice locale="es" />
+        </footer>
+      </main>
+    </div>
+
+    <CookieConsent locale="es" />
+    <script>
+      import "../../../scripts/concept-v6.ts";
+      import "../../../scripts/blog-ui.ts";
+    </script>
+  </body>
+</html>

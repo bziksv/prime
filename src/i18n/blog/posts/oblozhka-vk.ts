@@ -186,3 +186,190 @@ export const oblozhkaVkEn: BlogPost = {
     "aydentika-brenda",
   ],
 };
+
+/** ES overlay for oblozhka-vk — same structure as RU JSON / EN. */
+export const oblozhkaVkEs: BlogPost = {
+  slug: "oblozhka-vk",
+  title: "Cover de comunidad VK: idea, mockup y subida",
+  date: "2021-07-16",
+  category: "SMM",
+  cover: "/images/blog/oblozhka-vk/cover.webp",
+  excerpt:
+    "Cómo diseñar el cover de un público o grupo de VK: sentido y oferta, safe zone, derechos de imagen, Canva/Figma y subida en ajustes — sin grids de píxeles obsoletos.",
+  lead: [
+    "El cover de una comunidad de VK es lo primero que ve un invitado junto al nombre y el avatar. Decide si se quedan a leer el muro o se van en un segundo.",
+    "Abajo: qué poner en el mockup, cómo manejar el recorte en distintas pantallas y cómo subir el archivo. Tamaños exactos y widgets del header cambian — revisa la Help de VK, no cifras de guías de 2021.",
+  ],
+  faq: [
+    {
+      q: "¿Un cover sube el alcance?",
+      a: "De forma indirecta: aclara marca y confianza. El crecimiento viene del contenido, las respuestas y los ads cuando hacen falta — no de una sola imagen.",
+    },
+    {
+      q: "¿Qué tamaño preparar?",
+      a: "La guía de VK es un banner ancho de header de comunidad; las recomendaciones de píxeles han cambiado. Toma las cifras actuales de la Help de VK y deja márgenes en los bordes.",
+    },
+    {
+      q: "¿Hace falta texto en el cover?",
+      a: "Una oferta corta o el nicho — sí. Precios diminutos, dirección y diez promos no se leen en el móvil.",
+    },
+    {
+      q: "¿Se puede usar una foto al azar de búsqueda?",
+      a: "Solo con derechos propios o licencia. Un frame al azar de búsqueda de imágenes arriesga quejas y reclamaciones.",
+    },
+    {
+      q: "¿En qué se diferencia un cover de un avatar?",
+      a: "El avatar es la marca redonda en el feed y los chats. El cover es el header ancho de la página de la comunidad.",
+    },
+    {
+      q: "¿Merece la pena un header animado?",
+      a: "Si tu tipo de comunidad lo soporta y no distrae de la oferta. Empieza con un mockup estático claro, luego experimenta.",
+    },
+    {
+      q: "¿Con qué frecuencia cambiarlo?",
+      a: "Cuando cambian el posicionamiento, la temporada o una promo grande. Cambios semanales sin motivo rompen el reconocimiento.",
+    },
+    {
+      q: "¿Dónde montar el mockup?",
+      a: "Figma, Canva, Photoshop y herramientas similares con tamaño fijado y safe zone. Guarda el archivo fuente para ediciones.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué hace falta un cover",
+      level: 2,
+      paras: [
+        "En segundos un invitado decide: «¿son mi gente?». El cover con el nombre y el avatar responde: nicho, tono, nivel de seriedad.",
+        "Para una tienda — producto y beneficio; para media — tema y carácter; para un servicio local — geo y un CTA claro («reserva», «precio en el menú»).",
+        "Una imagen vacía o al azar daña más la confianza que un fondo de marca modesto pero coherente.",
+      ],
+      links: [
+        {
+          label: "Comunidades VK: formatos",
+          href: "/blog/soobshhestva-vk/",
+        },
+        {
+          label: "Crecer un grupo de VK",
+          href: "/es/blog/raskrutka-gruppy-vk/",
+        },
+      ],
+    },
+    {
+      title: "Tamaños y safe zone",
+      level: 2,
+      paras: [
+        "El header se recorta distinto en escritorio y en la app. Prepara un mockup ancho y mantén logo, eslogan y caras en el área «segura» central — los bordes a menudo salen de pantalla.",
+        "No te apoyes en grids de píxeles de artículos viejos: VK ha cambiado resoluciones y zonas recomendadas. Antes de cerrar, abre la Help de VK y el preview en ajustes de la comunidad.",
+        "Revisa la vista en el móvil: si el texto principal solo se lee en un monitor de 27\", el mockup falló.",
+      ],
+      lists: [
+        {
+          intro: "Mini-reglas del frame:",
+          items: [
+            "contenido importante en el centro, no en los bordes extremos",
+            "contraste suficiente entre texto y fondo",
+            "no más de un acento principal",
+            "fuente guardada en un archivo editable",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Error habitual",
+          text: "Llenar el header con teléfono, dirección, lista de precios y tres promos en tipografía diminuta. El menú, la descripción y los posts ya hacen eso — el cover necesita una idea.",
+        },
+      ],
+    },
+    {
+      title: "Idea y visuales",
+      level: 2,
+      paras: [
+        "Ata la imagen al tema de la comunidad: producto, proceso, atmósfera del nicho, un patrón de marca reconocible. Un «apretón de manos» abstracto de relleno sin enlace al contenido no pega.",
+        "Alinea el cover con el avatar: una paleta y un tono. El caos de «banner chillón + logo distinto» parece plantilla ajena.",
+        "Texto en la imagen — grande y corto. Deja los párrafos largos para la descripción de la comunidad y el post fijado.",
+      ],
+      lists: [
+        {
+          intro: "Suele bastar:",
+          items: [
+            "nicho u oferta en 3–7 palabras",
+            "logo o cara de marca",
+            "un ancla visual (producto / lugar / estilo)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Derechos de imagen",
+      level: 2,
+      paras: [
+        "Usa tus fotos, shoots de producto, ilustraciones con licencia o generación con derechos claros. Copy-paste de búsqueda de imágenes arriesga quejas y bloqueos de contenido.",
+        "Si hay personas en el frame — asegúrate de poder publicarlas en un contexto comercial de comunidad.",
+        "Logos de partners — solo con permiso; si no, pareces un escaparate en el que nadie debería confiar.",
+      ],
+    },
+    {
+      title: "Montaje en un editor",
+      level: 2,
+      paras: [
+        "Fija el canvas al tamaño actual de la Help de VK, activa guías de safe zone, apila capas: fondo → foto/ilustración → texto/logo.",
+        "Export: JPG/PNG sin peso de más; un archivo demasiado pesado puede fallar la subida o ralentizar la página.",
+        "Los widgets del header (menú, timers, botones), si están disponibles para tu comunidad, no sustituyen un banner claro: primero el sentido de la imagen, luego los módulos.",
+      ],
+      links: [
+        {
+          label: "Canva para marketing",
+          href: "/blog/canva/",
+        },
+      ],
+    },
+    {
+      title: "Cómo subir en VK",
+      level: 2,
+      paras: [
+        "En la gestión de la comunidad abre diseño / ajustes de cover (las etiquetas del menú cambian) y sube el archivo. Ajusta el recorte en preview si el editor lo permite.",
+        "Guarda y revisa la página con otra cuenta y en un móvil. Asegúrate de que avatar y cover no chocan por color.",
+        "Tras un cambio de posicionamiento, actualiza también la descripción, el menú y el pin — si no, el header promete una cosa y el muro muestra otra.",
+      ],
+      lists: [
+        {
+          intro: "Checklist antes de publicar:",
+          items: [
+            "tamaño alineado con la Help de VK",
+            "el texto se lee en el móvil",
+            "los derechos de la foto están cubiertos",
+            "avatar en el mismo estilo",
+            "la descripción de la comunidad no contradice la oferta del banner",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Saludo de comunidad VK",
+          href: "/blog/privetstvie-vk/",
+        },
+      ],
+    },
+    {
+      title: "Ideas clave",
+      level: 2,
+      paras: [
+        "El cover es una tarjeta de nicho y oferta — no un vertedero de contactos.",
+        "Safe zone y tamaños actuales ganan a copiar píxeles de una guía antigua.",
+        "Derechos de imagen propios y un estilo unificado con el avatar sostienen la confianza hasta el primer post.",
+      ],
+    },
+  ],
+  closing: [
+    "Monta un mockup claro con la oferta en el centro, súbelo en ajustes de la comunidad y revisa en el móvil — más rápido que encajar un grid de píxeles obsoleto.",
+  ],
+  related: [
+    "soobshhestva-vk",
+    "raskrutka-gruppy-vk",
+    "privetstvie-vk",
+    "shapka-youtube",
+    "canva",
+    "aydentika-brenda",
+  ],
+};

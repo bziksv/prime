@@ -147,3 +147,151 @@ export const sredniyChekEn: BlogPost = {
     "istochniki-trafika",
   ],
 };
+
+/** ES overlay for sredniy-chek — same structure as RU JSON / EN. */
+export const sredniyChekEs: BlogPost = {
+  slug: "sredniy-chek",
+  title: "Ticket medio de la tienda online: cómo calcularlo y hacerlo crecer",
+  date: "2019-12-21",
+  category: "Digital marketing",
+  cover: "/images/blog/sredniy-chek/cover.webp",
+  excerpt:
+    "Qué es el average order value (AOV), qué dice su dinámica y qué palancas suben de verdad el tamaño del pedido: cross-sell, upsell, bundles, umbrales de envío y loyalty.",
+  lead: [
+    "El average order value (AOV) es cuánto paga de media un comprador por pedido. Los ingresos pueden crecer sin solo tráfico nuevo: a veces es más inteligente subir el tamaño del carrito entre quien ya compra.",
+    "Abajo: cómo calcular la métrica, qué leer de la tendencia y qué tácticas funcionan en una tienda online. No hay un «+30% AOV en una semana» universal — eliges un mix para surtido y márgenes.",
+  ],
+  faq: [
+    {
+      q: "¿Cómo calculo el AOV?",
+      a: "Ingresos del periodo ÷ número de pedidos (facturas). Usa el mismo periodo para comparar: semana a semana, mes a mes.",
+    },
+    {
+      q: "¿En qué se diferencia el AOV de los ingresos?",
+      a: "Ingresos ≈ AOV × número de pedidos (simplificado). Puedes crecer vía frecuencia de compra con el mismo AOV — mira ambas palancas.",
+    },
+    {
+      q: "¿Cuál es la diferencia entre cross-sell y upsell?",
+      a: "Cross-sell es un add-on al ítem elegido (una funda para el teléfono). Upsell es una versión más cara o más completa de la misma solución.",
+    },
+    {
+      q: "¿El envío gratis desde un umbral siempre funciona?",
+      a: "A menudo sí si el umbral es realista frente al AOV actual. Demasiado alto molesta; demasiado bajo se come el margen.",
+    },
+    {
+      q: "¿Está bien usar timers y «solo quedan 2»?",
+      a: "Solo si es verdad. La urgencia falsa daña la confianza más de lo que da un bump puntual de AOV.",
+    },
+    {
+      q: "¿Necesito analytics para subir el AOV?",
+      a: "Sí: AOV antes y después del test, margen y tasa de cancelación. Si no, el «crecimiento de AOV» puede ser un descuento que mató el beneficio.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es el ticket medio",
+      level: 2,
+      paras: [
+        "El AOV muestra la suma típica del pedido en un periodo elegido. Fórmula: ingresos ÷ número de pedidos. En una tienda es útil en analytics ecommerce o en el sistema de contabilidad — solo mantén una lógica en numerador y denominador (con devoluciones o sin ellas — fija la regla).",
+        "Compara periodos y segmentos comparables: mayorista vs retail, primera compra vs repetida mueven mucho el número.",
+      ],
+      lists: [
+        {
+          intro: "Qué puede señalar la dinámica:",
+          items: [
+            "disposición a pagar y readiness de upsell",
+            "efectos de promo (AOV arriba mientras el margen baja — una señal)",
+            "calidad del script de manager o chat",
+            "el umbral donde tiene sentido un bonus de «llenar el carrito»",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cross-sell y upsell",
+      level: 2,
+      paras: [
+        "Cross-sell — add-ons relevantes en la ficha, el carrito y el thank-you: accesorios, consumibles, servicios de instalación. El add-on debe ser lógico y no muchas veces más caro que el pedido principal — o se siente pushy.",
+        "Upsell — ofrecer una mejor versión: más volumen, garantía, un kit más completo. Describe con honestidad la diferencia de beneficio; «solo más caro» sin sentido falla.",
+      ],
+      lists: [
+        {
+          intro: "Dónde mostrarlo:",
+          items: [
+            "«compraron con esto» en la ficha",
+            "recomendaciones en el carrito antes del pago",
+            "script del manager al confirmar el pedido",
+            "una oferta personal tras la compra",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Bundles y lógica mayorista",
+      level: 2,
+      paras: [
+        "Sets «más barato que por separado» suben el AOV cuando el ahorro es claro y el comprador necesita el contenido. Puedes incluir con cuidado slow movers — sin sensación de «basura metida».",
+        "Descuentos en la segunda o tercera unidad y mayorista ligero funcionan para consumibles y bienes de repetición. Calcula el margen del bundle de antemano.",
+      ],
+    },
+    {
+      title: "Umbrales: envío, bonuses, tiers",
+      level: 2,
+      paras: [
+        "Envío gratis desde una suma es un nudge clásico para llenar el carrito. Fija el umbral un poco por encima del AOV actual — no sacado de la nada.",
+        "Programas de loyalty y tiers de descuento (5% desde X, 10% desde Y) motivan el siguiente paso si los peldaños son alcanzables. La thank-you page es para upsell y suscripción — no spam agresivo.",
+      ],
+      lists: [
+        {
+          intro: "Qué revisar:",
+          items: [
+            "umbral vs AOV actual",
+            "impacto en el margen de envío",
+            "claridad de términos en móvil",
+            "sin presión de un timer falso",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "La variedad de pago (tarjetas, pago bancario instantáneo, etc.) más a menudo corta el drop-off del checkout de lo que sube el AOV por sí sola — pero los fallos de pago golpean AOV y conversión.",
+        },
+      ],
+    },
+    {
+      title: "Cómo desplegar sin dañar el margen",
+      level: 2,
+      paras: [
+        "Prueba una palanca a la vez: un bloque de cross-sell, un umbral nuevo de envío, un bundle. Compara AOV, conversión a pedido y margen — AOV arriba con carrito-a-pago abajo puede ser cero o negativo.",
+        "No toda táctica encaja en toda tienda: B2B, suscripción y premium puntual viven con otras reglas. Trata los métodos como hipótesis, no como un checklist de «activar todo».",
+      ],
+      links: [
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+        {
+          label: "Promoción de tienda online",
+          href: "/es/blog/prodvizhenie-internet-magazina/",
+        },
+        {
+          label: "Arrancar una tienda online",
+          href: "/es/blog/start-internet-magazina/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "El AOV es una palanca de ingresos junto al tráfico y la frecuencia de compra. Cuéntalo con honestidad, sube el tamaño del pedido con add-ons y umbrales relevantes — y siempre cruza el crecimiento con el margen, no solo con un número bonito del reporte.",
+  ],
+  related: [
+    "optimizatsiya-konversii",
+    "prodvizhenie-internet-magazina",
+    "start-internet-magazina",
+    "kategorii-internet-magazina",
+    "menedzher-internet-magazina",
+    "istochniki-trafika",
+  ],
+};

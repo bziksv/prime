@@ -183,3 +183,187 @@ export const ssylkiNaForumahEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for ssylki-na-forumah — same structure as RU JSON / EN. */
+export const ssylkiNaForumahEs: BlogPost = {
+  slug: "ssylki-na-forumah",
+  title: "Enlaces en foros: cuándo aún tienen sentido",
+  date: "2021-05-24",
+  category: "SEO",
+  cover: "/images/blog/ssylki-na-forumah/cover.webp",
+  excerpt:
+    "Cómo participar en debates de foros sin spam: elegir el tablero, respuestas útiles, enlaces naturales y riesgos del posting masivo.",
+  lead: [
+    "Los enlaces en foros ya no son una etapa obligatoria donde bastaba cualquier URL en la firma. Hoy encajan en crowd marketing cuidadoso: una respuesta experta en un hilo vivo, y un enlace solo donde ayuda a resolver la pregunta.",
+    "Un post en un foro puede traer un visitante cualificado, dar visibilidad a la marca y sumar a un perfil de enlaces natural. El spam masivo por hilos no se queda — los posts se borran, y la reputación del autor y del sitio se resiente.",
+  ],
+  faq: [
+    {
+      q: "¿Los enlaces en foros siguen funcionando?",
+      a: "De forma puntual — sí, como menciones y tráfico desde debates. Como sustituto de una estrategia de enlaces normal — no.",
+    },
+    {
+      q: "¿Se pueden comprar packs de posts en foros?",
+      a: "Riesgoso: el spam de plantilla y los tableros muertos perjudican. Mejor participación viva — o no hacerlo.",
+    },
+    {
+      q: "¿Hace falta nofollow?",
+      a: "Los foros a menudo ponen nofollow ellos mismos. El valor es tráfico y marca — no «peso» a cualquier coste.",
+    },
+    {
+      q: "¿Por dónde empezar?",
+      a: "Elige dos o tres foros temáticos vivos, construye karma con respuestas sin enlaces y luego comparte una página útil donde encaje.",
+    },
+    {
+      q: "¿En qué se diferencia de los guest posts?",
+      a: "Los artículos son piezas largas en medios. Una respuesta en foro es una contestación corta en un hilo. Ver también colocación gratuita de artículos.",
+    },
+    {
+      q: "¿Qué ancla usar?",
+      a: "Natural y clara para un humano: título del artículo, marca o un enlace neutro en contexto. No repitas una keyword comercial en cada mensaje.",
+    },
+    {
+      q: "¿Hay que responder a comentarios?",
+      a: "Sí, si la pregunta encaja. El diálogo muestra a un especialista detrás de la cuenta — no a alguien que solo vino a dejar una URL.",
+    },
+    {
+      q: "¿Cómo medir resultados?",
+      a: "Añade etiquetas UTM si el tablero lo permite y juzga clics, calidad de visita, consultas y si los posts se mantienen — no solo el conteo de enlaces colocados.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué dan de verdad los enlaces en foros",
+      level: 2,
+      paras: [
+        "El valor principal de una buena mención en foro no es un «peso» abstracto, sino llegar a alguien que ya tiene una pregunta. Si el hilo trata de elegir un servicio, una reparación, un proveedor o configurar una herramienta, una respuesta detallada puede traer un visitante interesado.",
+        "Los enlaces de foro a menudo van marcados nofollow — y está bien. No construyas SEO saltándote ese atributo: importan más la naturalidad, el contexto temático, los clics y la ausencia de patrones de spam.",
+      ],
+      lists: [
+        {
+          intro: "Trabajos que encajan para participar:",
+          items: [
+            "explicar una pregunta difícil de tu campo profesional",
+            "compartir una guía detallada como complemento a la respuesta",
+            "ayudar a elegir una solución o corregir un error",
+            "recoger feedback sobre un producto o necesidad de audiencia",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué foros elegir",
+      level: 2,
+      paras: [
+        "No persigas una «base de mil tableros» — encuentra comunidades donde tu audiencia discute trabajos de verdad. Foros de industria, comunidades locales, secciones profesionales de servicios grandes o hilos temáticos. Un diálogo de calidad gana a docenas de posts en tableros abandonados.",
+        "Antes de registrarte, lee unos hilos frescos. Nota frecuencia de respuestas, tono de moderación, mezcla de participantes y actitud hacia tips comerciales. Si la sección está llena de anuncios idénticos, un post normal se pierde con facilidad.",
+      ],
+      lists: [
+        {
+          intro: "Señales de selección:",
+          items: [
+            "los hilos tienen respuestas sustanciales recientes",
+            "la región o industria encaja con tu oferta",
+            "las reglas del tablero describen con claridad los enlaces permitidos",
+            "no hay inundación de anuncios plantilla en búsqueda o dentro del foro",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo preparar perfil y tema",
+      level: 2,
+      paras: [
+        "No empieces publicando un enlace comercial. Rellena el perfil con honestidad, aprende las reglas de la sección y ayuda a miembros unas cuantas veces sin mencionar tu sitio. Aprenderás el lenguaje de la comunidad y no parecerás una cuenta desechable.",
+        "Elige temas donde puedas dar una respuesta verificable. «Recomendad una empresa» no es una señal para una plantilla de anuncio; mejor desglosar criterios de selección, señalar límites y solo entonces, si encaja, compartir un recurso detallado.",
+      ],
+      lists: [
+        {
+          intro: "Antes de la primera mención:",
+          items: [
+            "leer reglas del foro y de la sección",
+            "comprobar si la pregunta ya se respondió",
+            "responder con sustancia sin enlace en varios hilos",
+            "preparar una página que de verdad continúe el tema",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo escribir una respuesta útil",
+      level: 2,
+      paras: [
+        "Primero da valor autónomo en el mensaje: un takeaway corto, pasos, criterios o un aviso de riesgo. El enlace debe ser una fuente extra — por ejemplo una guía detallada, una calculadora o un set de ejemplos. No disfraces un anuncio como consejo independiente.",
+        "Usa un ancla natural. Un título de artículo, la marca o un «desglose completo» neutro se lee mejor que repetir una keyword comercial. No copies la misma respuesta en temas distintos: aunque el wording parezca universal, el contexto y la pregunta casi siempre difieren.",
+      ],
+      lists: [
+        {
+          intro: "Señales de un post de calidad:",
+          items: [
+            "responde a la pregunta original sin necesitar el clic",
+            "el enlace va a material del mismo tema",
+            "el tono no promete lo imposible ni empuja una compra",
+            "el autor está listo para aclarar en comentarios",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Colocación gratuita de artículos",
+          href: "/es/blog/besplatnoe-razmeshchenie-statey/",
+        },
+      ],
+    },
+    {
+      title: "Cómo controlar calidad y resultados",
+      level: 2,
+      paras: [
+        "Mantén un log simple: tablero, URL del hilo, fecha, esencia de la respuesta, tipo de enlace y clics. Si usas UTM, que sean legibles y no rompan las reglas de la comunidad. Así juzgas el retorno real — no el conteo de URLs.",
+        "Revisa periódicamente si el post se borró y si cambiaron las reglas. El borrado no es señal para discutir con el moderador o republicar el enlace: primero entiende el porqué. A veces lo correcto es simplemente no usar ese tablero para este trabajo.",
+      ],
+      lists: [
+        {
+          intro: "Vigila:",
+          items: [
+            "clics y engagement del visitante",
+            "preguntas y consultas tras el post",
+            "si el post se mantiene y cómo reacciona la audiencia",
+            "cuota de anclas y temas que se repiten",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Riesgo de placements plantilla",
+          text: "Un servicio de «100 foros a la semana» suele significar textos idénticos en tableros muertos. Revisa mensajes de muestra, reglas del foro y calidad de la respuesta — no solo un informe con URLs.",
+        },
+      ],
+    },
+    {
+      title: "Dónde encajan los foros en una estrategia SEO",
+      level: 2,
+      paras: [
+        "Los foros complementan un sitio útil, contenido experto, partnerships y PR. Si la landing no responde a la pregunta del usuario, ni una mención cuidadosa dará resultados de calidad. Primero desarrolla tus materiales y el servicio.",
+        "No intentes acelerar rankings con enlaces masivos. Tras la preparación técnica y de contenidos, la visibilidad suele construirse poco a poco: crecer una cuota sólida del núcleo hacia resultados de primera página se planifica a 2–6 meses — no con una ola de posts en foros.",
+      ],
+      lists: [
+        {
+          intro: "Más fuerte que el spam:",
+          items: [
+            "artículos y landings útiles en tu propio sitio",
+            "piezas guest en medios relevantes",
+            "reseñas reales y directorios de industria donde encajen",
+            "digital PR, partnerships y comentarios de experto",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Filtros de buscadores",
+          href: "/es/blog/filtry-poiskovikov/",
+        },
+      ],
+    },
+  ],
+};

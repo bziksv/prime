@@ -156,3 +156,160 @@ export const spamVkEn: BlogPost = {
     "instagram-direct",
   ],
 };
+
+/** ES overlay for spam-vk — same structure as RU JSON / EN. */
+export const spamVkEs: BlogPost = {
+  slug: "spam-vk",
+  title:
+    "Spam en VK: qué es, cómo reportarlo y qué hacer tras un hack",
+  date: "2020-11-24",
+  category: "SMM",
+  cover: "/images/blog/spam-vk/cover.webp",
+  excerpt:
+    "Qué cuenta como spam en mensajes y comunidades de VK, por qué los blasts masivos son arriesgados, cómo reportar y qué hacer si tu página escribe a gente sin ti — sin un catálogo de herramientas grises de bulk-mail.",
+  lead: [
+    "El spam en VK son mensajes masivos no deseados y pitches insistentes sin consentimiento: en DMs, en el muro, en comentarios de comunidad. A menudo son ads, friend requests o enlaces con riesgo de phishing.",
+    "Abajo: cómo detectarlo, reportarlo y proteger la cuenta. Los botones de UI de VK cambian; busca «This is spam» o «Report» en el menú del mensaje, post o perfil. La mensajería legal de comunidad se cubre aparte; no catalogamos bots grises ni herramientas de bulk.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia el spam de los ads en el feed?",
+      a: "Los ads que corren por la cuenta de ads de VK siguen las reglas de la plataforma. El spam es un blast insistente sin consentimiento, a menudo desde fakes o páginas hackeadas.",
+    },
+    {
+      q: "¿Puedo crecer un grupo con mensajes masivos?",
+      a: "Arriesgas bloqueos y reports. Mejores opciones: contenido, targeting y herramientas legales de comunidad.",
+    },
+    {
+      q: "¿Qué hago con un friend request de un spammer?",
+      a: "No aceptes. Puedes dejarlos como follower o reportar vía el request o el menú del perfil.",
+    },
+    {
+      q: "¿Por qué los amigos reciben mensajes de mi página?",
+      a: "A menudo un hack o una app maliciosa con acceso. Cambia contraseñas, cierra sesiones y revisa apps conectadas.",
+    },
+    {
+      q: "¿El antivirus ayuda tras un hack?",
+      a: "Sí, como parte del arreglo — más contraseñas de email y VK, cerrar sesión en todos los dispositivos y rechazar enlaces sospechosos.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué trata VK como spam",
+      level: 2,
+      paras: [
+        "Mensajes masivos del mismo tipo sin solicitud: «suscríbete», «compra», «haz clic en el enlace», pedir que envíes un SMS o código. El mismo patrón en comentarios y en el muro de la comunidad.",
+        "Señales sospechosas: lotes de friend requests, floods de comentarios idénticos y enlaces a sitios de terceros que te piden «iniciar sesión con VK» fuera del dominio oficial.",
+      ],
+      lists: [
+        {
+          intro: "Metas típicas del spam:",
+          items: [
+            "inflar followers hacia un público",
+            "vender un producto o servicio fuera de las reglas",
+            "phish login y contraseña",
+            "enviar gente a sitios scam",
+            "blast desde una cuenta hackeada",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Usar spam para «crecimiento rápido» lleva a límites de cuenta y pérdida de confianza. No es un canal de promoción.",
+        },
+      ],
+    },
+    {
+      title: "Cómo aparece el spam",
+      level: 2,
+      paras: [
+        "Algunos blasts vienen de cuentas fake y automatización. Los nombres de tools y marketplaces de 2020 no importan: el patrón es el mismo — outreach masivo sin consentimiento.",
+        "Otro camino es un hack: el usuario hace clic en un enlace, introduce datos en un formulario falso o concede derechos a una app dudosa. Luego la página escribe a los amigos.",
+      ],
+      links: [
+        {
+          label: "Mensajería legal de VK",
+          href: "/es/blog/rassylka-vk/",
+        },
+        {
+          label: "Comentarios en un público VK",
+          href: "/es/blog/kommentarii-v-pablike-vk/",
+        },
+      ],
+    },
+    {
+      title: "Cómo reportar",
+      level: 2,
+      paras: [
+        "En DMs abre el menú del mensaje (⋯ o similar) y elige report o «This is spam». El botón exacto depende de la app y la versión.",
+        "En un friend request — menú del request o de la página de la persona → «Report» → motivo spam o scam.",
+        "En una comunidad: menú del post o comentario → report. A los admins les ayudan filtros y moderación para no revisar todo a mano.",
+      ],
+      lists: [
+        {
+          intro: "Prevención en settings:",
+          items: [
+            "limita quién puede escribirte (privacy / «Contact me»)",
+            "no aceptes requests desconocidos a ciegas",
+            "no abras short links raros desde DMs",
+            "no introduzcas una contraseña de VK fuera del sitio o app oficial",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Si tu página ya está tirando spam",
+      level: 2,
+      paras: [
+        "Cambia la contraseña del email ligada a la cuenta, luego la de VK. En seguridad, cierra todas las sesiones activas. Revisa y revoca apps sospechosas con acceso.",
+        "Avisa a los amigos en breve: «si se envió algo raro — no fui yo». Corre antivirus en el dispositivo, sobre todo si abriste adjuntos o introdujiste una contraseña en un sitio de terceros.",
+      ],
+      notes: [
+        {
+          title: "Tras recuperar",
+          kind: "tip",
+          text: "Activa la confirmación de login si está disponible y revisa el historial de actividad — así detectas un login repetido más rápido.",
+        },
+      ],
+    },
+    {
+      title: "Para comunidades y negocio",
+      level: 2,
+      paras: [
+        "No respondas a ofertas spam de «inflar followers» y no compres blasts a listas ajenas. Reporta y bloquea.",
+        "Tus propios mensajes a followers — solo dentro de las reglas de VK y el consentimiento. Si no, los reports caen sobre ti.",
+      ],
+      links: [
+        {
+          label: "Mensaje de saludo de comunidad",
+          href: "/es/blog/privetstvie-vk/",
+        },
+        {
+          label: "Cómo promover un grupo de VK",
+          href: "/es/blog/raskrutka-gruppy-vk/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "El spam es insistencia sin consentimiento y a menudo riesgo de robo de acceso. Reports y settings de privacy cortan el flujo; tras un hack, importan contraseñas y sesiones.",
+        "El crecimiento de comunidad se construye con contenido y herramientas legales, no con blasts de bots.",
+      ],
+    },
+  ],
+  closing: [
+    "Viste un mensaje insistente — márcalo como spam y no abras el enlace. Lleva a tu audiencia por las reglas de la plataforma, no por mensajería masiva gris.",
+  ],
+  related: [
+    "rassylka-vk",
+    "kommentarii-v-pablike-vk",
+    "privetstvie-vk",
+    "raskrutka-gruppy-vk",
+    "aktivnost-vk",
+    "instagram-direct",
+  ],
+};

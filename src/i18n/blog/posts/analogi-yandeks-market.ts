@@ -142,3 +142,146 @@ export const analogiYandeksMarketEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for analogi-yandeks-market — same structure as RU JSON / EN. */
+export const analogiYandeksMarketEs: BlogPost = {
+  slug: "analogi-yandeks-market",
+  title: "Alternativas a Yandex Market: por qué diversificar y cómo elegir",
+  date: "2021-06-24",
+  category: "E-commerce",
+  cover: "/images/blog/analogi-yandeks-market/cover.webp",
+  excerpt:
+    "Por qué una tienda online no debería apoyarse solo en Yandex Market, qué tipos de plataformas cercanas existen y cómo elegir canales de venta — sin un catálogo 2021 de servicios muertos.",
+  lead: [
+    "Yandex Market es un canal mayor para comparar y vender bienes. El catálogo es competitivo, términos y visibilidad cambian, y los compradores también compran en marketplaces y otros agregadores de precios.",
+    "Abajo: por qué diversificar la colocación, qué tipos de plataforma hay cerca y qué revisar en el contrato y el feed. No copies listas de marcas ni tarifas de 2021 — el mercado se movió.",
+  ],
+  faq: [
+    {
+      q: "¿Hay que dejar Yandex Market por completo?",
+      a: "No necesariamente. Más a menudo se añaden canales: tu sitio + Market + marketplaces / agregadores de precios — según la economía del SKU.",
+    },
+    {
+      q: "¿En qué se diferencia un agregador de precios de un marketplace?",
+      a: "Un agregador suele mandar a la gente a una tarjeta de comparación y luego a la tienda del vendedor. Un marketplace puede tomar el pedido él mismo (FBO/FBS y sus propias reglas).",
+    },
+    {
+      q: "¿Basta un feed YML para todas las plataformas?",
+      a: "Una base de producto, pero las plataformas tienen campos, categorías y moderación propias. Planifica adaptación del feed y monitoreo de errores.",
+    },
+    {
+      q: "¿Por qué están obsoletas las listas antiguas de «Goods@Mail / Wikimart»?",
+      a: "Muchos servicios cerraron o cambiaron de modelo. Usa el estado actual de la plataforma y un test piloto.",
+    },
+    {
+      q: "¿Por dónde debería empezar un principiante?",
+      a: "Cuenta el margen tras comisiones, revisa la demanda del nicho, exporta un feed limpio y mide CPA/ROI por canal.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué mirar más allá de Market",
+      level: 2,
+      paras: [
+        "En un catálogo grande es fácil perderse: guerras de precio, dependencia de algoritmos y de la ficha de producto, peleas por stock y entrega. Un canal extra amortigua la demanda y baja el riesgo de «todos los huevos en una cesta».",
+        "Los compradores no comparan solo en Market: marketplaces, búsqueda, agregadores de precios y tu propio sitio cubren caminos de elección distintos.",
+      ],
+      lists: [
+        {
+          intro: "Triggers típicos para diversificar:",
+          items: [
+            "alta competencia y dumping en el nicho",
+            "límites de visibilidad o moderación",
+            "necesidad de alcance en la audiencia de otra plataforma",
+            "probar FBO/FBS vs tu propia tienda",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tipos de plataforma junto a Market",
+      level: 2,
+      paras: [
+        "No toda «alternativa» es un clon de Market. Unas son marketplaces con logística, otras comparación de precios que sale al sitio del vendedor, otras redes de ads de producto.",
+        "No trates listas de nombres de guías 2021 (agregadores muertos, proyectos cerrados) como plan de lanzamiento. Revisa si la plataforma está viva, qué feeds acepta y la unit economics.",
+      ],
+      lists: [
+        {
+          intro: "Mapa de tipos:",
+          items: [
+            "agregadores de precios / comparación",
+            "marketplaces con escaparate y fulfillment",
+            "ads de producto / redes de afiliados",
+            "tu propia tienda online como canal controlado",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Promoción de tienda online",
+          href: "/es/blog/prodvizhenie-internet-magazina/",
+        },
+        {
+          label: "Categorías de tienda online",
+          href: "/es/blog/kategorii-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "Cómo elegir un canal",
+      level: 2,
+      paras: [
+        "No persigas «millones de usuarios en los ads». Mira tu unit economics: comisiones, CPC/CPA, devoluciones, requisitos de foto y copy, velocidad de moderación, soporte de entrega regional.",
+        "Técnicamente importa: formato del feed (a menudo YML y análogos), updates estables de precio/stock, informes de clics y pedidos.",
+      ],
+      lists: [
+        {
+          intro: "Checklist antes de conectar:",
+          items: [
+            "margen tras comisiones y logística",
+            "compatibilidad de categoría y atributos",
+            "reglas de contenido y penalizaciones",
+            "piloto en parte del surtido",
+            "analítica de pedidos de extremo a extremo",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Un catálogo «muerto» con precios viejos es peor que dos canales con un feed limpio y ROI medido.",
+        },
+      ],
+    },
+    {
+      title: "Cómo encajarlo en el sistema de ventas",
+      level: 2,
+      paras: [
+        "Mantén una fuente de verdad para precios y stock (ERP/CRM/contabilidad) y construye feeds por plataforma desde ahí. Si no, el desajuste mata rating y presupuesto.",
+        "Compara canales con las mismas métricas: coste de adquisición, margen, tasa de devolución, carga de soporte. Apaga lo que no se paga tras el test.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de proceso:",
+          items: [
+            "feed fresco y alertas de error",
+            "un dueño de fichas y reseñas",
+            "informe semanal por canal",
+            "reglas de pricing sin correr descuentos a números rojos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Pago online en el sitio",
+          href: "/es/blog/onlayn-oplata/",
+        },
+        {
+          label: "Reporting al cliente",
+          href: "/es/blog/otchet-klientu/",
+        },
+      ],
+    },
+  ],
+};

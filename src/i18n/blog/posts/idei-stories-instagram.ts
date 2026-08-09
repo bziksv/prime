@@ -140,3 +140,144 @@ export const ideiStoriesInstagramEn: BlogPost = {
     "geymifikatsiya-socseti",
   ],
 };
+
+/** ES overlay for idei-stories-instagram — same structure as RU JSON. */
+export const ideiStoriesInstagramEs: BlogPost = {
+  slug: "idei-stories-instagram",
+  title: "Ideas para Stories de Instagram: formatos que sostienen la atención",
+  date: "2018-11-07",
+  category: "SMM",
+  cover: "/images/blog/idei-stories-instagram/cover.webp",
+  excerpt:
+    "Ideas para Stories de Instagram: intro, equipo, detrás de cámaras, producto, encuestas, educación, reviews y teasers — sin «garantías de reach ×3» ajenas ni catálogos de plantillas obsoletas.",
+  lead: [
+    "Las Stories funcionan bien para el «aquí y ahora»: calentamiento, diálogo, detrás de cámaras, oferta rápida. La idea y el gancho ganan a una plantilla bonita de un marketplace de 2018.",
+    "Abajo: un banco de formatos para negocio y creadores. Cómo crecer views va aparte; la técnica multi-frame está en el artículo de varias Stories. El aviso de Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia de las ideas para Stories de VK?",
+      a: "La mecánica es similar; cambia la plataforma: stickers, Highlights, enlaces y la audiencia de Instagram. Este banco es para IG.",
+    },
+    {
+      q: "¿Las Stories siempre triplican el reach de los posts?",
+      a: "No como ley. Depende de la base, el ritmo y el contenido. Compara tus stats — no las cifras de roundups ajenos.",
+    },
+    {
+      q: "¿Hacen falta plantillas de pago?",
+      a: "No es obligatorio. Basta una paleta compartida y texto legible. Las plantillas aceleran, pero no sustituyen el sentido.",
+    },
+    {
+      q: "¿Cuántas ideas por semana?",
+      a: "Planifica 5–10 huecos para trabajos distintos: valor, diálogo, prueba social, CTA.",
+    },
+    {
+      q: "¿Sigue siendo relevante IGTV?",
+      a: "El vídeo vertical largo en la plataforma evolucionó hacia Reels/clips más largos. Teasea lo que publicas de verdad hoy.",
+    },
+  ],
+  sections: [
+    {
+      title: "Empieza por el objetivo de la serie",
+      level: 2,
+      paras: [
+        "Antes de grabar, fija el objetivo: dar a conocer la marca, calentar hacia un post, reunir opiniones, empujar a Direct, recordar una promo.",
+        "Gancho en el primer frame, valor en el medio, CTA al final (reply, enlace, guardar en Highlights).",
+      ],
+      links: [
+        {
+          label: "Views de Stories",
+          href: "/es/blog/prosmotry-stories-instagram/",
+        },
+        {
+          label: "Varias Stories",
+          href: "/es/blog/neskolko-stories-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Intro, equipo, detrás de cámaras",
+      level: 2,
+      paras: [
+        "«Quiénes somos»: qué ofreces, para quién, qué dolor resuelves, en qué te diferencias — corto y humano.",
+        "Equipo: caras, roles, un día en la vida. La gente confía más fácil en personas que en un logo.",
+        "Detrás de cámaras: preparación de pedidos, brainstorm, packaging. Una serie «día en la cocina de la marca» mantiene el hábito de abrir Stories.",
+      ],
+    },
+    {
+      title: "Producto sin gritar «compra»",
+      level: 2,
+      paras: [
+        "Muestra el producto en uso, hechos, before/after, una respuesta a una objeción típica.",
+        "CTA suave: «escribe en Direct», «enlace en bio», sticker de enlace — donde esté disponible.",
+      ],
+      links: [
+        {
+          label: "Enlace en Stories",
+          href: "/es/blog/ssylka-stories-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Diálogo: encuestas, preguntas, prompts",
+      level: 2,
+      paras: [
+        "Stickers de encuesta y pregunta — una vía rápida para aprender preferencias y subir replies.",
+        "Prompts de «cuéntanos de ti»: un ejemplo relleno + un frame vacío para screenshot — funciona cuando el tema encaja con la audiencia y no es un challenge tóxico.",
+        "Responde a las replies — si no, el engagement muere.",
+      ],
+      links: [
+        {
+          label: "Gamificación en redes",
+          href: "/es/blog/geymifikatsiya-socseti/",
+        },
+      ],
+    },
+    {
+      title: "Educación, reviews, collabs, teasers",
+      level: 2,
+      paras: [
+        "FAQ en Stories → guardar en Highlights: entrega, ingredientes, cómo pedir.",
+        "Prueba social: capturas de reviews, UGC de clientes (con permiso), reposts de tags.",
+        "Collab / storytelling mutuo con una cuenta relevante — solo cuando las audiencias encajan.",
+        "Teasea un clip largo o un Live: trailer de 5–10 segundos + cuándo y dónde ver (Reels/Live/sitio).",
+      ],
+      lists: [
+        {
+          intro: "Set semanal rápido:",
+          items: [
+            "1× intro/expertise",
+            "2× valor/FAQ",
+            "2× encuesta o pregunta",
+            "1× review/caso",
+            "1× oferta con CTA",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Las ideas funcionan cuando van atadas a un objetivo y al nicho — no a la plantilla de otro.",
+        "Diálogo y detrás de cámaras suelen ganar a un escaparate puro.",
+        "Mide replies y clics, no lo bonito del frame.",
+      ],
+    },
+  ],
+  closing: [
+    "Elige tres ideas de la lista para esta semana y fija el FAQ en Highlights — más rápido que coleccionar plantillas «para después».",
+  ],
+  related: [
+    "prosmotry-stories-instagram",
+    "idei-storis-vk",
+    "neskolko-stories-instagram",
+    "ssylka-stories-instagram",
+    "shablon-instagram",
+    "geymifikatsiya-socseti",
+  ],
+};

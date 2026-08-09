@@ -18,7 +18,8 @@ import { caseTranslationsEnBatch15 as batch15 } from "./en-batch15";
 import { caseTranslationsEnBatch16 as batch16 } from "./en-batch16";
 import { caseTranslationsEnBatch17 as batch17 } from "./en-batch17";
 import { caseTranslationsEnBatch18 as batch18 } from "./en-batch18";
-import { isEnCaseSlug } from "./slugs";
+import { caseTranslationsEs as esBatch1 } from "./es-batch1";
+import { isEnCaseSlug, isEsCaseSlug } from "./slugs";
 
 export const caseTranslationsEn: Record<string, Partial<CaseStudy>> = {
   ...batch1,
@@ -41,9 +42,14 @@ export const caseTranslationsEn: Record<string, Partial<CaseStudy>> = {
   ...batch18,
 };
 
+export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
+  ...esBatch1,
+};
+
 export function isCaseTranslated(slug: string, locale: Locale): boolean {
   if (locale === "ru") return true;
   if (locale === "en") return isEnCaseSlug(slug);
+  if (locale === "es") return isEsCaseSlug(slug);
   return false;
 }
 
@@ -56,11 +62,16 @@ function mergeOverlay<T extends Record<string, unknown>>(base: T, overlay: Parti
   return out as T;
 }
 
-/** Merge EN (or future) text overlay onto the RU base case; keep image paths from base. */
+/** Merge locale text overlay onto the RU base case; keep image paths from base. */
 export function localizeCase(c: CaseStudy, locale: Locale): CaseStudy {
   if (locale === "ru" || !isCaseTranslated(c.slug, locale)) return c;
   if (locale === "en") {
     const overlay = caseTranslationsEn[c.slug];
+    if (!overlay) return c;
+    return mergeOverlay(c, overlay);
+  }
+  if (locale === "es") {
+    const overlay = caseTranslationsEs[c.slug];
     if (!overlay) return c;
     return mergeOverlay(c, overlay);
   }
@@ -93,8 +104,39 @@ const categoryEn: Record<
   },
 };
 
+const categoryEs: Record<
+  CaseCategory["id"],
+  Pick<CaseCategory, "title" | "short" | "lead">
+> = {
+  seo: {
+    title: "SEO",
+    short: "SEO",
+    lead: "Crecimiento en Google, tráfico y leads — pagas por frases posicionadas.",
+  },
+  ads: {
+    title: "Google Ads",
+    short: "Ads",
+    lead: "Google Ads y redes de display: menos CPL, más llamadas, integración con CRM.",
+  },
+  web: {
+    title: "Sitios web",
+    short: "Web",
+    lead: "Sitios comerciales y tiendas online pensados para leads y ventas.",
+  },
+  bots: {
+    title: "Chatbots",
+    short: "Bots",
+    lead: "Chatbots de Telegram: acceso, avisos, reservas y atención sin una app aparte.",
+  },
+};
+
 export function localizeCategory(cat: CaseCategory, locale: Locale): CaseCategory {
   if (locale === "ru") return cat;
+  if (locale === "es") {
+    const es = categoryEs[cat.id];
+    if (!es) return cat;
+    return { ...cat, ...es };
+  }
   const en = categoryEn[cat.id];
   if (!en) return cat;
   return { ...cat, ...en };

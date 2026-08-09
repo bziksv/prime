@@ -171,3 +171,175 @@ export const hostingEn: BlogPost = {
     "cms-internet-magazina",
   ],
 };
+
+/** ES overlay for hosting — same structure as RU JSON / EN. */
+export const hostingEs: BlogPost = {
+  slug: "hosting",
+  title: "Qué es el hosting y cómo elegir proveedor",
+  date: "2017-08-30",
+  category: "Digital marketing",
+  cover: "/images/blog/hosting/cover.webp",
+  excerpt:
+    "Hosting en lenguaje claro: por qué un sitio necesita servidor, en qué se diferencian shared, VPS, dedicado y cloud, y qué comprobar al elegir — sin mitos de «uptime = rankings» ni tablas de ligas de pago.",
+  lead: [
+    "Hosting es poner los archivos y bases de datos del sitio en un servidor que responde a visitantes las 24 horas. Sin él un dominio es solo un nombre — no hay desde dónde servir el contenido.",
+    "Abajo: tipos de hosting y cómo elegir según el trabajo. Planes, paneles y SLAs cambian; confía en el contrato y el soporte actuales, no en capturas de 2017.",
+  ],
+  faq: [
+    {
+      q: "¿Hosting y dominio son lo mismo?",
+      a: "No. Un dominio es un nombre en DNS. El hosting es donde viven el sitio y la BD. Puedes comprarlos en empresas distintas si quieres — enlázalos vía NS.",
+    },
+    {
+      q: "¿Vale el hosting gratis para un negocio?",
+      a: "Para una tarjeta de «probar» de usar y tirar, a veces. Para comercio — ads del proveedor, límites duros, poca responsabilidad y soporte fino.",
+    },
+    {
+      q: "¿Shared o VPS para un principiante?",
+      a: "Un sitio brochure y un blog pequeño suelen vivir en shared. Una tienda, CRM o picos de tráfico — más cerca de VPS o cloud con recursos claros.",
+    },
+    {
+      q: "¿El uptime del 99,9% garantiza rankings?",
+      a: "No. La disponibilidad ayuda a usuarios y crawl, pero los rankings son otra historia: contenido, demanda, competencia. Prep ≠ primera página en un mes — el trabajo de rankings se planifica en 2–6 meses.",
+    },
+    {
+      q: "¿Dónde deben vivir los datos personales?",
+      a: "Si procesas datos personales de residentes, ten en cuenta las reglas de localización y el contrato del proveedor. Es territorio legal/seguridad — no un «checkbox obvio del plan».",
+    },
+  ],
+  sections: [
+    {
+      title: "Para qué hace falta hosting",
+      level: 2,
+      paras: [
+        "Cuando alguien abre una página, el navegador pide datos a un servidor. El hosting toma la petición y devuelve HTML, imágenes, respuestas API. Los servidores suelen estar en data centers: energía, ancho de banda, refrigeración, seguridad física.",
+        "Analogía: el sitio es el arte; el hosting es una galería 24/7. Un PC de casa para un sitio público casi siempre es peor — enlace inestable, IP, ruido, seguridad.",
+      ],
+      links: [
+        {
+          label: "Registro de dominio",
+          href: "/blog/registratsiya-domena/",
+        },
+        {
+          label: "Velocidad del sitio",
+          href: "/blog/skorost-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Gratis vs de pago",
+      level: 2,
+      paras: [
+        "Las plataformas gratis a menudo recortan CPU y disco, muestran sus propios ads y apenas responden por downtime o borrado. Vale para una landing de práctica; para leads y pagos — riesgo de reputación y caídas.",
+        "El hosting de pago se vende en packs: espacio, tráfico, PHP/BD, correo, backups, SSL. El precio sube con garantías de recursos y nivel de soporte.",
+      ],
+      lists: [
+        {
+          intro: "Desventajas típicas de lo gratis:",
+          items: [
+            "cuotas pequeñas y colas de recursos",
+            "ads o redirects del proveedor",
+            "poca responsabilidad sobre los datos",
+            "límites de CMS y cron",
+            "migración dolorosa cuando el proyecto crece",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tipos de hosting de pago",
+      level: 2,
+      paras: [
+        "Shared: muchos sitios en una máquina, recursos repartidos. Barato y simple — un vecino con un script pesado aún puede comerse el rendimiento.",
+        "VPS — una porción dedicada de CPU/RAM/disco en una máquina virtual. Más control (a menudo root), más responsabilidad sobre el SO y las updates.",
+        "Dedicated — una máquina física entera. Colocation — tu servidor en el rack del proveedor: pagas espacio, energía y ancho de banda. Cloud — un pool de máquinas con escalado; la facturación suele ser por uso, no «un disco para siempre».",
+      ],
+      lists: [
+        {
+          intro: "A ojo, por trabajo:",
+          items: [
+            "brochure / blog — shared",
+            "tienda, Bitrix, picos — VPS o cloud gestionado",
+            "alta carga y stack propio — dedicated / cloud",
+            "hardware propio — colocation",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          text: "Comprar el «VPS más barato» sin backups ni monitoreo — y luego sorprenderse de que la BD desapareció tras un fallo de disco.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Qué comprobar al elegir",
+      level: 2,
+      paras: [
+        "Empieza por tipo de sitio y crecimiento: brochure, catálogo, tienda, cuenta de cliente. Luego stack (PHP/Node, versión de BD), si necesitas root, quién administra.",
+        "Edad y reputación del proveedor ayudan, pero las tablas de ligas pueden ser de pago — lee reviews frescas de soporte e incidentes, no solo «puesto en un chart».",
+      ],
+      lists: [
+        {
+          intro: "Checklist práctico:",
+          items: [
+            "uptime y SLA en el contrato, no solo en los ads",
+            "latencia y geografía del data center vs tu audiencia",
+            "backups: frecuencia, retención, prueba de restore",
+            "panel, SSH, correo, SSL, límites de inodes/CPU",
+            "soporte 24/7 e idioma",
+            "precio de renovación, no solo el primer mes",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Velocidad, uptime y búsqueda",
+      level: 2,
+      paras: [
+        "TTFB lento y 5xx frecuentes perjudican conversión y crawl. «Respuesta del servidor bajo 200 ms» es un objetivo de ingeniería útil — no una fórmula mágica de rankings.",
+        "A los buscadores les importa la disponibilidad y la experiencia de página, pero el hosting solo no te posiciona. Primero respuesta estable del servidor y HTTPS correcto, luego contenido y demanda. El trabajo de rankings se planifica en meses, no con un flip de un mes.",
+      ],
+      links: [
+        {
+          label: "Acelerar WordPress",
+          href: "/blog/uskorenie-wordpress/",
+        },
+      ],
+    },
+    {
+      title: "Matices legales y de ops",
+      level: 2,
+      paras: [
+        "Si el sitio recoge datos personales, importan política, consentimiento y dónde se procesan. Las reglas cambian — comprueba normas actuales y un abogado, no un párrafo de una guía vieja.",
+        "Por separado cierra el acceso: quién es dueño de la cuenta de hosting, dónde van las facturas, si hay 2FA y un gestor de contraseñas. Un cambio de personal no debería dejar el sitio sin dueño.",
+      ],
+      links: [
+        {
+          label: "Gestor de contraseñas",
+          href: "/blog/menedzher-paroley/",
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "El hosting es infraestructura bajo el sitio: de shared a cloud. Elige por carga, stack y quién administre.",
+        "Dominio, DNS y hosting se pueden separar. Backups y soporte ganan a un precio bonito del primer mes.",
+      ],
+    },
+  ],
+  closing: [
+    "Define el tipo de proyecto, compara shared / VPS / cloud en recursos y SLA, revisa backups y renovación — luego paga. Un hosting estable no sustituye el SEO, pero sin él el sitio simplemente no abre.",
+  ],
+  related: [
+    "registratsiya-domena",
+    "skorost-sayta",
+    "uskorenie-wordpress",
+    "domen-pervogo-urovnya",
+    "menedzher-paroley",
+    "cms-internet-magazina",
+  ],
+};

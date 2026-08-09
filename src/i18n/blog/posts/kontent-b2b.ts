@@ -143,3 +143,147 @@ export const kontentB2bEn: BlogPost = {
     "matritsa-kontenta",
   ],
 };
+
+/** ES overlay for kontent-b2b — same structure as RU JSON. */
+export const kontentB2bEs: BlogPost = {
+  slug: "kontent-b2b",
+  title: "5 tipos de contenido que funcionan para marcas B2B",
+  date: "2018-05-14",
+  category: "Content marketing",
+  cover: "/images/blog/kontent-b2b/cover.webp",
+  excerpt:
+    "Qué funciona en contenido B2B: reviews y UGC, contacto rápido, interactivos, case studies y una voz viva — sin stats obsoletas de «% de confianza» ni promesas de +800% en un mes.",
+  lead: [
+    "En B2B suele decidir un grupo, el ciclo es más largo y la confianza se construye con prueba — no con un párrafo corto «de venta». El contenido debe ayudar a elegir y alinear la compra.",
+    "Abajo: cinco formatos que cubren estos trabajos con constancia. Las cifras de roundups de 2018 no son universales — ve por tu funnel y tus propias mediciones.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia el contenido B2B del B2C?",
+      a: "Pesan más casos, términos, integraciones, riesgos y alineación. La emoción ayuda, pero sin hechos rara vez cierra el deal.",
+    },
+    {
+      q: "¿Hacen falta reviews en el sitio?",
+      a: "Ayudan mucho. Mejor reales con consentimiento y contexto (industria, tarea) que un bloque vacío de «nuestros clientes están felices».",
+    },
+    {
+      q: "¿Todo sitio B2B necesita live chat?",
+      a: "Si el equipo responde en horario laboral — sí. Un widget insistente sin operadores molesta.",
+    },
+    {
+      q: "¿Los quizzes funcionan en B2B?",
+      a: "Sí: selector de plan, check de madurez, checklist de riesgos. No un quiz de entretenimiento por viralidad.",
+    },
+    {
+      q: "¿Qué cuenta como un buen case study?",
+      a: "Problema de partida, qué hiciste, resultado medible, timeline y límites. No copiamos «+800% en un mes» sin contexto.",
+    },
+    {
+      q: "¿Puede el tono ser «no aburrido»?",
+      a: "Sí, si no sacrificas claridad. Jerga densa sin desempaquetar ahuyenta a compradores y a los que llegan nuevos.",
+    },
+    {
+      q: "¿Por dónde empezar con recursos limitados?",
+      a: "Junta 3–5 reviews/casos honestos y una página de servicio clara con FAQ — a menudo más importante que un blog diario.",
+    },
+  ],
+  sections: [
+    {
+      title: "1. Reviews y UGC",
+      level: 2,
+      paras: [
+        "El user-generated content y los reviews bajan el riesgo de «vendor desconocido». Antes del deal, los compradores B2B buscan prueba online y en tu sitio.",
+        "Pide a clientes recientes un desglose corto: problema → por qué te eligieron → resultado. Ponlo en el sitio y (con consentimiento) ofrece un canal para un review externo.",
+        "Los brand advocates de clientes leales funcionan cuando es voluntario — sin ratings falsos.",
+      ],
+      notes: [
+        {
+          title: "Sin stats ajenas como dogma",
+          text: "Shares tipo «el 75% confía en reviews» de roundups viejos no son ley. Mira la conversión en páginas con reviews por ti mismo.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "2. Contacto rápido: chat y mensajeros",
+      level: 2,
+      paras: [
+        "Live chat o un canal rápido en horario laboral cierra aclaraciones de precio, integración y plazos — lo que manda a la gente a un competidor mientras esperas el «email de mañana».",
+        "Si no hay operadores — un estado honesto «respondemos en horario laboral» y un formulario de lead ganan a un chat popup vacío.",
+      ],
+    },
+    {
+      title: "3. Tests, quizzes y diagnósticos",
+      level: 2,
+      paras: [
+        "Lo interactivo en B2B es una tool de cualificación: «qué plan encaja», «listo para implementar», un checklist de riesgos.",
+        "El objetivo es utilidad y un lead con consentimiento de contacto — no un récord de shares. Las cifras medias de casos ajenos («10k leads») no son promesa para tu nicho.",
+      ],
+      links: [
+        {
+          label: "Sitio quiz",
+          href: "/es/blog/kviz-sayt/",
+        },
+      ],
+    },
+    {
+      title: "4. Casos con resultados medibles",
+      level: 2,
+      paras: [
+        "Un caso muestra el camino del trabajo y un resultado en números verificables: timeline, métrica, baseline «antes». La hipérbole sin metodología daña la confianza.",
+        "Formato: contexto del cliente → problema → solución → resultado → qué vigilar. Un artículo long-form encaja en un desglose profundo.",
+      ],
+      links: [
+        {
+          label: "E-A-T en copywriting",
+          href: "/es/blog/eat-kopirayting/",
+        },
+        {
+          label: "Artículos long-form (longreads)",
+          href: "/es/blog/longrid/",
+        },
+      ],
+    },
+    {
+      title: "5. Una voz viva sin fluff",
+      level: 2,
+      paras: [
+        "Detrás de una marca B2B hay personas: puedes hablar con claridad, ejemplos y carácter — sin legalese de «ofrecemos un enfoque integral».",
+        "Estudia intereses de decision-makers y usuarios del producto — y escribe para ambos niveles: comprador y usuario final a menudo leen cosas distintas.",
+      ],
+      lists: [
+        {
+          intro: "Recuerda:",
+          items: [
+            "la prueba gana a los eslóganes",
+            "contacto en el momento de la pregunta",
+            "interactivo = cualificación",
+            "casos con números honestos",
+            "tono claro sin jerga vacía",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Ideas de promoción por contenido",
+          href: "/es/blog/idei-kontent-prodvizheniya/",
+        },
+        {
+          label: "Promoción basada en contenido",
+          href: "/es/blog/kontentnoe-prodvizhenie/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Esta semana, junta un caso corto y dos reviews con un número o timeline — a menudo basta para revivir páginas comerciales más que un nuevo «post por el post».",
+  ],
+  related: [
+    "kontentnoe-prodvizhenie",
+    "idei-kontent-prodvizheniya",
+    "eat-kopirayting",
+    "kviz-sayt",
+    "prodayushchiy-kontent",
+    "matritsa-kontenta",
+  ],
+};

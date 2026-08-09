@@ -105,3 +105,109 @@ export const favikonEn: BlogPost = {
     "tendentsii-veb-dizayna",
   ],
 };
+
+/** ES overlay for favikon — same structure as RU JSON / EN. */
+export const favikonEs: BlogPost = {
+  slug: "favikon",
+  title: "Qué es un favicon y para qué sirve",
+  date: "2018-05-10",
+  category: "Websites",
+  cover: "/images/blog/favikon/cover.webp",
+  excerpt:
+    "El favicon es el icono del sitio en la pestaña, favoritos y a menudo en el SERP. Por qué hace falta, qué tamaños y formatos publicar, cómo conectarlo y cómo no estropear la marca con una imagen de galería ajena.",
+  lead: [
+    "Un favicon (favorite icon) es el icono pequeño junto al nombre del sitio en la pestaña del navegador, favoritos, en el escritorio y a menudo en el snippet de búsqueda. No es una palanca de rankings — es reconocimiento y una UI ordenada.",
+    "Abajo: por qué conviene ponerlo, cómo hacerlo y conectarlo, y qué mirar en el diseño. Afirmaciones tipo «un favicon hace que el tráfico gane a los competidores» hablan de reconocimiento cotidiano — no de un interruptor de tráfico probado.",
+  ],
+  faq: [
+    {
+      q: "¿Es obligatorio el favicon?",
+      a: "Técnicamente el sitio funciona sin él. En la práctica, un cuadrado vacío o el default de otro se ve incompleto y cuesta más recordarlo.",
+    },
+    {
+      q: "¿Qué tamaño necesito?",
+      a: "La base es 16×16 y 32×32. Sets más grandes ayudan para accesos directos y dispositivos (48, 180 para apple-touch y similares). A menudo se parten de un solo origen PNG/SVG.",
+    },
+    {
+      q: "¿Qué formato usar?",
+      a: "Mínimo moderno: PNG y/o SVG + ICO si hace falta para clientes viejos. GIF/animación casi nunca hace falta y se soporta mal.",
+    },
+    {
+      q: "¿Afecta a los rankings?",
+      a: "No hay peso directo de ranking. De forma indirecta ayuda al reconocimiento en el SERP y favoritos si el icono se lee en tamaño pequeño.",
+    },
+    {
+      q: "¿Qué tan rápido se actualiza en búsqueda y en el navegador?",
+      a: "Navegadores y CDNs suelen cachear fuerte. En el SERP pueden pasar días o semanas tras el cambio. No hay regla dura de «exactamente una semana».",
+    },
+    {
+      q: "¿Puedo coger un icono de una galería gratis?",
+      a: "Arriesgas coincidir con otro sitio y problemas de derechos. Mejor simplificar tu logo o una marca de la identidad.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué hace falta y qué diseño funciona",
+      level: 2,
+      paras: [
+        "El favicon ayuda a distinguir pestañas entre docenas abiertas y a reconocer la marca en favoritos. En búsqueda (donde se muestra el icono) refuerza el ancla visual junto al title.",
+        "Mantén el diseño simple. Los detalles diminutos desaparecen a 16×16. Funciona mejor una silueta de logo, monograma o marca simple en colores de marca — en un mismo sistema con el sitio.",
+        "Para una tienda de electrodomésticos no hace falta «dibujar una nevera»: basta un símbolo de marca reconocible. El trabajo es asociación con el sitio — no un catálogo de producto en un puñado de píxeles.",
+      ],
+      lists: [
+        {
+          intro: "Checklist visual:",
+          items: [
+            "se lee en pestañas oscuras y claras",
+            "no sobrecargado de texto",
+            "encaja con la identidad — no una marca random de galería",
+            "existe un fallback sin detalle fino",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Identidad de marca",
+          href: "/es/blog/aydentika-brenda/",
+        },
+      ],
+    },
+    {
+      title: "Cómo instalarlo y con qué generarlo",
+      level: 2,
+      paras: [
+        "El enfoque clásico: un archivo en la raíz del sitio (`/favicon.ico`) y/o links explícitos en `<head>`: `rel=\"icon\"` a PNG/SVG, `apple-touch-icon` si hace falta. La sintaxis exacta depende del CMS y del build — mira la docs del theme o el generador de manifest.",
+        "Los generadores online (Favicon Generator y herramientas similares) sirven para partir un PNG en un pack de tamaños. Las listas de servicios concretos de 2018 se quedan viejas pronto: elige una herramienta actual y revisa la licencia del origen.",
+        "Las «galerías de favicons» listas son mala idea para un sitio comercial: arriesgas duplicados y derechos. ¿Sin diseñador? Simplifica el logo a un cuadrado o pide una marca con la identidad.",
+        "Tras el cambio, limpia la caché del navegador/CDN y espera las actualizaciones de búsqueda. Mientras vive la caché, puede verse el icono viejo.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo para el release:",
+          items: [
+            "icono 32×32 (PNG) + SVG cuando se pueda",
+            "apple-touch-icon para acceso directo en iOS",
+            "check en pestañas Chrome/Safari/Firefox",
+            "unicidad frente a competidores del nicho",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Antes de lanzar un sitio",
+          href: "/es/blog/pered-zapuskom-sayta/",
+        },
+        {
+          label: "Checklist del sitio",
+          href: "/es/blog/cheklist-sayta/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "aydentika-brenda",
+    "pered-zapuskom-sayta",
+    "cheklist-sayta",
+    "tendentsii-veb-dizayna",
+  ],
+};

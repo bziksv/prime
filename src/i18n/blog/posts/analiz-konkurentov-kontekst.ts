@@ -1,6 +1,169 @@
 import type { BlogPost } from "../../../data/blog";
 
 /** EN overlay for analiz-konkurentov-kontekst — same structure as RU JSON. */
+/** ES overlay for analiz-konkurentov-kontekst — same structure as RU JSON. */
+export const analizKonkurentovKontekstEs: BlogPost = {
+  slug: "analiz-konkurentov-kontekst",
+  title: "Análisis de competidores antes de lanzar búsqueda de pago",
+  date: "2019-10-30",
+  category: "Paid search",
+  cover: "/images/blog/analiz-konkurentov-kontekst/cover.webp",
+  excerpt:
+    "Cómo desmontar a los competidores antes de Yandex Direct y Google Ads: quién cuenta, keywords de anuncios, creatividades, landings, USP, redes y estimaciones de tráfico — sin copiar la cuenta de otro.",
+  lead: [
+    "Antes de lanzar búsqueda de pago conviene ver quién anuncia de verdad en tu SERP, qué keywords y ofertas usa y adónde aterrizan los clics. Esto no es una auditoría SEO de tráfico: el foco es la capa de pago.",
+    "Abajo: lista de competidores, set de keywords y anuncios, landings, USP, redes y estimaciones gruesas de tráfico. Herramientas como Serpstat / SpyWords / SimilarWeb dan estimaciones — no un export de la cuenta ajena. No puedes copiar el presupuesto del competidor uno a uno.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia del análisis de competidores SEO?",
+      a: "El SEO mira visibilidad y orgánico. Aquí: quién está en el bloque de pago, qué keywords/anuncios/landings y qué oferta.",
+    },
+    {
+      q: "¿Por qué un competidor no se ve en Direct o Google Ads?",
+      a: "Puede no hacer Search, usar otras keywords o geo, ser estacional o solo redes/social. Revisa varias consultas y dispositivos.",
+    },
+    {
+      q: "¿Se puede saber el presupuesto exacto del competidor?",
+      a: "No. Hay estimaciones de subasta y señales indirectas. Arma el media plan con tus objetivos de CPA — no con el mínimo de otro.",
+    },
+    {
+      q: "¿Qué herramientas usar?",
+      a: "Cualquier spy/keyword con datos de SERP de pago más revisión manual del SERP. Cambian de marca: importa el método más que el logo.",
+    },
+    {
+      q: "¿Cuántos competidores tomar?",
+      a: "Tres a siete fuertes en tus consultas prioritarias bastan para empezar. Decenas de nombres diluyen el foco.",
+    },
+    {
+      q: "¿Hay que mirar Display y redes?",
+      a: "Sí si planeas redes: creatividades y densidad difieren de Search.",
+    },
+    {
+      q: "¿Basta analizar una vez antes del lanzamiento?",
+      a: "No. Antes de temporada, promos y cuando caen los KPI, refresca el snapshot.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué analizar antes del lanzamiento",
+      level: 2,
+      paras: [
+        "Un corte de competidores ayuda a medir densidad de subasta, orden de pujas/ofertas, canales y adónde se manda el tráfico. Así decides mejor: búsqueda de pago como canal principal o apoyo a SEO/social.",
+        "El objetivo son hipótesis para tu campaña: qué clusters cubrir primero, qué USP destacar, qué negativos fijar pronto. No robarle todo el set de keywords.",
+        "Planifica: lista de dominios → keywords → anuncios → landings → USP → redes/otro tráfico → conclusiones en tabla.",
+      ],
+      links: [
+        {
+          label: "Análisis de competidores (SEO/tráfico)",
+          href: "/es/blog/analiz-konkurentov/",
+        },
+        {
+          label: "Media plan",
+          href: "/es/blog/mediaplan/",
+        },
+      ],
+    },
+    {
+      title: "Quién cuenta como competidor",
+      level: 2,
+      paras: [
+        "Los vecinos offline del mercado no siempre están en la misma subasta de pago. Y al revés: en «entrega de flores [ciudad]» puedes ver agregadores y marketplaces que no contabas como competencia.",
+        "Método manual: tabla de jugadores + revisión del SERP en consultas prioritarias en desktop y móvil, en incógnito y desde distintas cuentas si hace falta.",
+        "Las herramientas de dominio muestran solapes de keywords de pago y sitios que anuncian cerca. Quédate con un core comercial similar — no con todos del informe.",
+      ],
+    },
+    {
+      title: "Keywords y calidad del anuncio",
+      level: 2,
+      paras: [
+        "Exporta/recoge keywords donde el competidor aparece en Search: qué productos/servicios prioriza, qué tan amplio es el set frente al número de anuncios.",
+        "Miles de keywords y una docena de anuncios suelen significar grupos amplios y poca relevancia; una estructura densa enseña a agrupar — no copies filas.",
+        "En anuncios mira titulares, descripciones, extensiones (sitelinks, callouts), encaje keyword–URL. Compara SERP desktop y móvil: los acentos suelen diferir.",
+      ],
+      lists: [
+        {
+          intro: "Qué fijar en la tabla:",
+          items: [
+            "clusters de keywords prioritarios",
+            "ejemplo de titular y USP",
+            "URL de landing",
+            "si hay extensiones",
+            "geo/marca en el copy",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Núcleo semántico",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+      ],
+    },
+    {
+      title: "Landings y USP",
+      level: 2,
+      paras: [
+        "Recorre el camino del clic: velocidad, primer pantallazo, oferta, formulario/carrito, envío y contactos, móvil. Un competidor puede ganar por conversión en landing — no por puja.",
+        "Recoge USP: precio, plazo, garantía, entrega, horario del call center, promos. Di tu diferencia con honestidad — no clones su promesa.",
+        "Si el mercado es plano en precio, ganan servicio, velocidad de respuesta y claridad de oferta en el anuncio + en la página.",
+      ],
+      links: [
+        {
+          label: "El sitio antes de la publicidad",
+          href: "/es/blog/sayt-pered-reklamoy/",
+        },
+      ],
+    },
+    {
+      title: "Redes, social ads y tráfico",
+      level: 2,
+      paras: [
+        "YAN y Display: por toques de keyword y remarketing puedes ver banners y densidad. Las creatividades ahí son más libres que en Search — útil para hipótesis, no para copy-paste.",
+        "Social (VK y pares) es otra capa; anota presencia sin meterte en el Ads Manager ajeno.",
+        "SimilarWeb y similares dan orden de canales y dispositivos. Las cifras son estimaciones: mira la cuota paid search / display / social — no visitantes exactos a la persona.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          text: "El análisis no promete conversiones perfectas para siempre. Son hipótesis de entrada; después — tu test y tu CPA.",
+        },
+      ],
+    },
+    {
+      title: "Briefing corto",
+      level: 2,
+      paras: [
+        "Resume: dónde la subasta está sobrecalentada, qué USP está poco cubierta, qué clusters están más libres, si tu landing está lista. De ahí — set de keywords de arranque, negativos y presupuesto de test.",
+        "Repite el snapshot antes de temporada y promos grandes: los competidores también mueven pujas y ofertas.",
+      ],
+      lists: [
+        {
+          intro: "Salida mínima:",
+          items: [
+            "lista de 3–7 competidores de pago",
+            "clusters de keywords y ejemplos de anuncios",
+            "capturas/notas de landings",
+            "tabla de USP",
+            "decisión Search vs redes para el arranque",
+          ],
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Arma una tabla para cinco consultas prioritarias en una tarde: quién está en el bloque de pago, qué oferta, adónde va el clic — basta para no empezar la búsqueda de pago a ciegas.",
+  ],
+  related: [
+    "analiz-konkurentov",
+    "semanticheskoe-yadro",
+    "mediaplan",
+    "sayt-pered-reklamoy",
+    "klyuchi-yandeks-direkt",
+    "tipy-kampaniy-google-ads",
+  ],
+};
+
 export const analizKonkurentovKontekstEn: BlogPost = {
   slug: "analiz-konkurentov-kontekst",
   title: "Competitor analysis before launching paid search ads",

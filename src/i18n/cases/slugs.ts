@@ -60,3 +60,66 @@ export type EnCaseSlug = (typeof EN_CASE_SLUGS)[number];
 export function isEnCaseSlug(slug: string): slug is EnCaseSlug {
   return (EN_CASE_SLUGS as readonly string[]).includes(slug);
 }
+
+/** Case slugs with a Spanish translation overlay. */
+export const ES_CASE_SLUGS = [
+  "polimer-seo",
+  "vilmed",
+  "titlo",
+  "lagerplus",
+  "billiard-guru",
+  "billiard-guru-bot",
+  "fortuna-avto",
+  "insortex",
+  "metallinvest",
+  "almamed",
+  "polimer",
+  "torgmag",
+  "argument",
+  "hobbi36",
+  "nissan-landing",
+  "kawe",
+  "kargo24",
+  "datagon",
+  "lormag",
+  "medplakaty",
+  "doskivrn",
+  "kosmamed",
+  "oftalmag",
+  "metprof",
+  "kabelmontazh",
+  "vtorma",
+  "rc-revolt",
+  "det-zentr",
+  "bel-kuzov",
+  "himopttorg",
+  "argument-seo",
+  "skazka",
+  "barokko",
+  "respect",
+  "hobby36",
+  "volvo-belgorod",
+  "mychery",
+  "greenstroy36",
+  "remont",
+  "klyaksa",
+  "samsungvrn",
+  "ticiana",
+  "metallinvest-seo",
+  "derevyannyie-izdeliya",
+  "uc-vrn",
+  "volvo-chernozeme",
+  "ofisy",
+  "milk-for",
+  "pilomaterialov",
+  "ehk-kovanyie",
+  "jeep",
+  "motor-lend-nissan",
+  "motorland-kuzov",
+] as const;
+
+export type EsCaseSlug = (typeof ES_CASE_SLUGS)[number];
+
+export function isEsCaseSlug(slug: string): slug is EsCaseSlug {
+  return (ES_CASE_SLUGS as readonly string[]).includes(slug);
+}

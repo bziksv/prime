@@ -119,3 +119,123 @@ export const kommercheskoePredlozhenieEn: BlogPost = {
     "potrebitelskiy-insayt",
   ],
 };
+
+/** ES overlay for kommercheskoe-predlozhenie — same structure as RU JSON / EN. */
+export const kommercheskoePredlozhenieEs: BlogPost = {
+  slug: "kommercheskoe-predlozhenie",
+  title: "Cómo escribir una propuesta comercial: tipos, estructura, oferta",
+  date: "2019-03-26",
+  category: "Digital marketing",
+  cover: "/images/blog/kommercheskoe-predlozhenie/cover.webp",
+  excerpt:
+    "Una propuesta comercial (sales pitch): fría, tibia y caliente; estructura básica de la carta; titular, beneficio, precio, objeciones y CTA — sin clichés de spam ni presión.",
+  lead: [
+    "Una propuesta comercial es un texto donde ofreces un servicio o producto e invitas al siguiente paso: una llamada, una reunión, una factura. Casi siempre va por email; menos por messengers y social.",
+    "Abajo: tipos por «temperatura» de audiencia, estructuras que funcionan y cómo escribir titular, oferta, beneficios y precio. Los blasts a listas compradas y el spam agresivo quedan fuera — escribe con claridad y solo donde te pidieron o tienes base legal para contactar.",
+  ],
+  faq: [
+    {
+      q: "¿Una propuesta comercial es cualquier email promo?",
+      a: "En esencia sí si hay una oferta. Pero una propuesta fuerte responde al trabajo del destinatario y lleva a una acción clara — no «solo calentar».",
+    },
+    {
+      q: "¿En qué se diferencia fría de caliente?",
+      a: "Fría — poco contexto, más corta, beneficio al frente. Caliente — tras charlas: plazos, alcance, precio, siguiente paso personalizado.",
+    },
+    {
+      q: "¿Hace falta precio en una propuesta fría?",
+      a: "A menudo sí — al menos un rango o paquetes. Ocultar el precio para forzar un formulario de lead filtra peor y molesta más.",
+    },
+    {
+      q: "¿Puedo escribir «el mejor» o «el más barato de todos»?",
+      a: "Mejor hechos y diferencias medibles. Las afirmaciones vagas convencen mal y las palabras cercanas al spam dañan la deliverability.",
+    },
+    {
+      q: "¿Cuánto debe durar la carta?",
+      a: "Fría — corta. Tibia/caliente puede ser más larga si importan detalles del deal. El punto es que lean hasta el CTA.",
+    },
+    {
+      q: "¿Es obligatorio un USP?",
+      a: "Útil enunciar en qué te diferencias para esta audiencia. Un USP sin vínculo al dolor del cliente es solo un eslogan.",
+    },
+  ],
+  sections: [
+    {
+      title: "Tres tipos de propuesta",
+      level: 2,
+      paras: [
+        "Fría — audiencia sin contacto previo. A menudo una plantilla; meta — respuesta y calificar. Tibia — ya hubo un touch (lead, reunión, descarga): más personalización; trabajo — mantener el hilo y pasar a un deal.",
+        "Caliente — tras discutir términos: plazos, alcance, precio, responsabilidades. Siempre personal. Meta — fijar acuerdos y cerrar.",
+      ],
+      lists: [
+        {
+          intro: "Ajusta el tono a la temperatura:",
+          items: [
+            "fría — problema + beneficio + CTA corto",
+            "tibia — referencia al último touch",
+            "caliente — detalles del deal y el siguiente paso",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Una estructura que funciona",
+      level: 2,
+      paras: [
+        "Marco que funciona: titular → oferta/atención → sustancia → argumentos y precio → objeciones → call to action → contactos. En mail frío puedes fusionar beneficio y titular en las primeras líneas.",
+        "Las alternativas difieren en detalles (footer, P.S., bloque de fortalezas de la empresa), pero la lógica es la misma: por qué leer → qué obtienen → por qué tú → cuánto → qué hacer después.",
+        "Los muros largos de texto frío van más a menudo a la basura. Hechos, números y párrafos cortos suben las odds de respuesta.",
+      ],
+      lists: [
+        {
+          intro: "Bloques por propósito:",
+          items: [
+            "titular con un hecho o problema de la audiencia",
+            "lead: problema → solución en 1–2 frases",
+            "alcance del servicio / specs del producto sin relleno",
+            "diferencias y oferta (plazos, paquete, bonus) para el dolor del cliente",
+            "precio con razonamiento",
+            "CTA y contactos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "USP (propuesta única de venta)",
+          href: "/es/blog/utp/",
+        },
+        {
+          label: "Copywriting",
+          href: "/es/blog/kopirayting/",
+        },
+      ],
+    },
+    {
+      title: "Cómo escribir para que terminen de leer",
+      level: 2,
+      paras: [
+        "En el titular y el lead — el beneficio del lector, con números si puedes. Evita clichés de spam como «gratis / solo hoy / victoria garantizada» — cortan trust y deliverability.",
+        "No presiones ni decidas por el cliente. El trabajo es información clara; la decisión es suya. Menos juicios («mejor», «más barato»), más diferencias comprobables.",
+        "El precio debe explicarse: qué paga el dinero. Cuanto más caro — más detalle del alcance. Cierra con un CTA positivo y concreto (llamar, responder, elegir un paquete), no un vago «esperamos colaborar».",
+      ],
+      notes: [
+        {
+          title: "Nota legal para outreach",
+          text: "Los blasts fríos masivos a listas compradas arriesgan quejas y bloqueos. Usa canales lícitos y una firma clara con contactos de la empresa.",
+          kind: "tip",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Una propuesta fuerte encaja con la temperatura de la audiencia, responde «por qué yo» rápido y nombra con honestidad el precio y el siguiente paso. Arma la estructura una vez — luego adapta bloques para clientes fríos, tibios y calientes.",
+  ],
+  related: [
+    "utp",
+    "kopirayting",
+    "kpi-menedzhera-prodazh",
+    "nayti-marketologa",
+    "akkaunt-menedzher",
+    "potrebitelskiy-insayt",
+  ],
+};

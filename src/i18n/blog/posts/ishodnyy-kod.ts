@@ -153,3 +153,157 @@ export const ishodnyyKodEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for ishodnyy-kod — same structure as RU JSON / EN. */
+export const ishodnyyKodEs: BlogPost = {
+  slug: "ishodnyy-kod",
+  title: "Código fuente de la página: por qué abrirlo y qué revisar",
+  date: "2021-07-09",
+  category: "SEO",
+  cover: "/images/blog/ishodnyy-kod/cover.webp",
+  excerpt:
+    "Qué es el código fuente de una página, en qué se diferencia View Source de DevTools, y cómo revisar meta, estilos y scripts — sin un curso completo de front-end.",
+  lead: [
+    "El código fuente de la página es el HTML (y el CSS/JS relacionado) que el navegador recibe del servidor y convierte en lo que ves. Para SEO y depuración ayuda abrirlo y encontrar title, meta, markup y errores de consola.",
+    "Abajo: por qué marketers y dueños de sitio miran el código, cómo abrirlo en el navegador y qué revisar primero. Un curso completo de layout es un artículo aparte; esto es un recorrido práctico.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia View Source de DevTools?",
+      a: "«Ver código fuente de la página» muestra el HTML de la respuesta (a menudo antes de cambios pesados de scripts). Las herramientas de desarrollador muestran el árbol en vivo tras correr el JS, más estilos, red y la consola.",
+    },
+    {
+      q: "¿Hace falta saber front-end para leer el código?",
+      a: "Tags básicas (title, h1, a, img, meta) bastan para higiene SEO. Montar layouts desde cero es trabajo de desarrollador.",
+    },
+    {
+      q: "¿El contenido oculto con CSS sigue en el código?",
+      a: "A menudo sí — el texto puede estar en el HTML y ocultarse con estilos. Crawlers y personas ven cosas distintas; no uses el ocultamiento como truco SEO.",
+    },
+    {
+      q: "¿Dónde encuentro meta description y robots?",
+      a: "En `<head>`: `meta name=\"description\"`, `meta name=\"robots\"` y `link rel=\"canonical\"`. Busca con Ctrl+F / Cmd+F.",
+    },
+    {
+      q: "¿Puedo editar el sitio de otro vía Inspect?",
+      a: "Los cambios de DevTools se quedan en local. Nada llega al servidor hasta que tú despliegues ediciones en el CMS o el repo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es el código fuente de la página",
+      level: 2,
+      paras: [
+        "Ante una petición de URL el servidor devuelve un documento: markup HTML, enlaces CSS y scripts. El navegador parsea las tags y dibuja la UI. Los usuarios ven el resultado; el código es la partitura.",
+        "Incluso sitios en PHP, Python o builders envían HTML al navegador. Así que inspeccionas una página igual — vía source y DevTools.",
+      ],
+      lists: [
+        {
+          intro: "El código suele incluir:",
+          items: [
+            "estructura HTML",
+            "CSS enlazado",
+            "JavaScript",
+            "meta tags y canonical",
+            "tags de analytics y pixels",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Maquetación de sitios",
+          href: "/es/blog/verstka-saytov/",
+        },
+        {
+          label: "Hipertexto",
+          href: "/es/blog/gipertekst/",
+        },
+      ],
+    },
+    {
+      title: "Por qué mirar el código",
+      level: 2,
+      paras: [
+        "Para ver qué reciben de verdad buscadores y navegadores: title, description, h1, noindex, markup de enlaces, peso de scripts, paths de imagen rotos.",
+        "También es útil ver cómo un competidor estilizó un bloque (color, fuente, clase) — para un brief de diseño, no para copiar su contenido.",
+      ],
+      lists: [
+        {
+          intro: "Trabajos típicos:",
+          items: [
+            "auditar meta y headings",
+            "encontrar tags de analytics y pixels",
+            "comprobar canonical / robots",
+            "depurar errores JS en Console",
+            "guardar CSS o fuentes para análisis",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de página para una query",
+          href: "/es/blog/optimizatsiya-stranitsy/",
+        },
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "Cómo abrir el código en el navegador",
+      level: 2,
+      paras: [
+        "Chrome / Edge / Firefox: clic derecho en la página → «Ver código fuente de la página» — una pestaña aparte con el texto. O clic derecho en un elemento → Inspeccionar — DevTools con ese bloque resaltado.",
+        "Menú → Más herramientas → Herramientas para desarrolladores. Pestañas: Elements/Inspector, Sources, Console, Network, Security (certificado). Mueve el panel si estorba.",
+      ],
+      lists: [
+        {
+          intro: "Trucos rápidos:",
+          items: [
+            "Ctrl+F / Cmd+F para `title`, `canonical`, `noindex`",
+            "clic en un nodo en Elements — resaltado en la página",
+            "Sources — archivos de script y estilo, Guardar como",
+            "Console — errores JS",
+            "clic derecho en un bloque del sitio → Inspeccionar — saltar al nodo",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          text: "Las etiquetas del menú dependen del idioma y la versión del navegador. Busca el sentido: Source, Inspect, DevTools.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Qué revisar en el HTML",
+      level: 2,
+      paras: [
+        "`<head>` lleva la capa utilitaria: title, meta, enlaces CSS y canonical. `<body>` es lo que ven los usuarios: headings h1–h6, párrafos, listas, enlaces, imágenes.",
+        "Las tags semánticas (`article`, `section`, `nav`) ayudan a la estructura. `div`/`span` son bloques genéricos con poco sentido. Para SEO importan un h1 claro, anclas con sentido y alt de imagen.",
+      ],
+      tables: [
+        {
+          caption: "Tags habituales al inspeccionar",
+          headers: ["Tag", "Por qué revisar"],
+          rows: [
+            ["`title`", "Título de pestaña y señal de tema"],
+            ["`meta description`", "Borrador del snippet"],
+            ["`link rel=canonical`", "URL canónica"],
+            ["`h1`", "Heading principal on-page"],
+            ["`a href`", "A dónde van los enlaces"],
+            ["`img alt`", "Texto de la imagen"],
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Certificado SSL",
+          href: "/es/blog/ssl-sertifikat/",
+        },
+      ],
+    },
+  ],
+};

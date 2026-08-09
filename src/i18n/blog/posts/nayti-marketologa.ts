@@ -111,3 +111,115 @@ export const naytiMarketologaEn: BlogPost = {
     "uchastie-v-tenderah",
   ],
 };
+
+/** ES overlay for nayti-marketologa — same structure as RU JSON / EN. */
+export const naytiMarketologaEs: BlogPost = {
+  slug: "nayti-marketologa",
+  title: "Cómo encontrar un marketer: agencia, in-house y qué revisar",
+  date: "2019-07-29",
+  category: "Digital marketing",
+  cover: "/images/blog/nayti-marketologa/cover.webp",
+  excerpt:
+    "Dónde buscar un marketer digital: agencia o contratar in-house, pros y contras, qué skills revisar y cómo acordar KPIs — sin el mito de las «10.000 horas».",
+  lead: [
+    "Necesitas un marketer no de escaparate, sino para ligar canales a ventas: tráfico, oferta, analytics, experimentos. Sin un brief claro cualquier candidato o agencia trabajará al vacío.",
+    "Abajo: dónde mirar, en qué se diferencia una agencia de in-house/freelance, qué revisar en entrevistas y cómo hablar de dinero y KPIs. Qué cubre una agencia digital está en otra pieza.",
+  ],
+  faq: [
+    {
+      q: "¿Contratar una agencia o tu propio marketer?",
+      a: "Una agencia cubre el stack y los picos de carga más rápido. In-house conoce el producto más a fondo. A menudo un híbrido: estrategia/canales fuera, producto y aprobaciones dentro.",
+    },
+    {
+      q: "¿Basta «sabe paid search» como criterio de hiring?",
+      a: "Para un trabajo estrecho — sí. Para crecimiento del negocio también hacen falta landings, analytics, oferta y entendimiento del embudo. Aclara ownership en el brief.",
+    },
+    {
+      q: "¿Cómo verificas la experiencia?",
+      a: "Casos con números y el rol de la persona, preguntas «qué se rompió y cómo lo arreglaste», un test de pago sobre tus datos. «10.000 horas» es una metáfora, no un filtro.",
+    },
+    {
+      q: "¿Pagar por lead o fee fijo?",
+      a: "Depende de la madurez del tracking. Fijo más KPI/bonus es más claro que «solo leads» sin control de calidad. En el contrato — definiciones de lead y exclusiones.",
+    },
+    {
+      q: "¿Cuánta libertad creativa necesitan?",
+      a: "Sí en experimentos, pero dentro de presupuesto, marca y KPIs. «Gasta lo que quieras» no es libertad — es riesgo.",
+    },
+    {
+      q: "¿Por dónde debe empezar la búsqueda un cliente?",
+      a: "Describe la meta, el presupuesto, los canales actuales y qué ya probaste. Cuanto más claro el brief, más fácil hallar al especialista correcto.",
+    },
+  ],
+  sections: [
+    {
+      title: "Agencia: pros y contras",
+      level: 2,
+      paras: [
+        "Pros: más rápido hallar un ejecutor, un equipo con roles distintos, una mirada externa fresca. Contras: inmersión más larga en el lenguaje de la marca, riesgo de una relación formal sin KPIs y calls regulares.",
+        "Mira no solo un nombre famoso, sino quién llevará la cuenta, cómo cuentan resultados y cómo entregan conocimiento a in-house.",
+      ],
+      links: [
+        {
+          label: "Agencia digital",
+          href: "/es/blog/didzhital-agentstvo/",
+        },
+      ],
+    },
+    {
+      title: "Buscar por tu cuenta",
+      level: 2,
+      paras: [
+        "Job boards, referidos, comunidades, excolegas — selección más larga, pero puedes conocer a la persona más a fondo antes del contrato. Las decisiones de hiring y onboarding recaen del todo en ti.",
+        "Busca a alguien que pueda crear y medir tráfico comercial para tu meta — no solo «llevar redes por mood».",
+      ],
+      lists: [
+        {
+          intro: "Qué debe mostrar un candidato:",
+          items: [
+            "bases en el canal necesario (paid search, SEO, SMM — según la tarea)",
+            "casos con rol y números",
+            "entendimiento del mercado y límites",
+            "disposición a trabajar con analytics y reporting",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Dinero, KPIs y el equipo",
+      level: 2,
+      paras: [
+        "La tarifa crece con el nivel y el área de ownership. Primero fija tareas y efecto esperado — luego halla gente para ese vector. En el presupuesto mete no solo salario/retainer, sino media spend y vendors estrechos (diseño, build, call tracking).",
+        "Un buen marketer a menudo trae una red de especialistas. Acuerda de antemano: de quién son los contactos, quién paga, quién aprueba presupuestos. Los KPIs (bonus sobre la base) suelen motivar mejor que pagar «por cualquier lead» sin calidad.",
+      ],
+      notes: [
+        {
+          title: "Presupuesto para experimentos",
+          kind: "tip",
+          text: "Un marketer gasta dinero de la empresa. Da un marco y el derecho a testar — con techo y stop-rules, no «libertad de caja ilimitada».",
+        },
+      ],
+      links: [
+        {
+          label: "Performance marketing",
+          href: "/es/blog/performance-marketing/",
+        },
+        {
+          label: "Informe al cliente",
+          href: "/es/blog/otchet-klientu/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Encontrar un marketer es más fácil cuando meta, presupuesto y KPIs están claros. Elige el formato (agencia / in-house / híbrido) según el trabajo y revisa casos y reporting — no promesas ruidosas ni horas míticas de experiencia.",
+  ],
+  related: [
+    "didzhital-agentstvo",
+    "performance-marketing",
+    "otchet-klientu",
+    "marketingovaya-strategiya",
+    "metriki-reklamy",
+    "uchastie-v-tenderah",
+  ],
+};

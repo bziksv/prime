@@ -2,7 +2,7 @@
  * Soft locale offer based on navigator.languages (not IP).
  * Cookie prime_locale_pref remembers choice / dismiss.
  *
- * RU/EN topbar switcher markup is build-gated with `import.meta.env.DEV`
+ * RU/EN/ES topbar switcher markup is build-gated with `import.meta.env.DEV`
  * (astro dev only) — it must not ship on production.
  */
 const COOKIE = "prime_locale_pref";
@@ -25,32 +25,34 @@ document.querySelectorAll<HTMLElement>("[data-locale-set]").forEach((el) => {
   });
 });
 
-const offer = document.querySelector<HTMLElement>("[data-locale-offer]");
-if (offer) {
-  const target = offer.dataset.offerTarget || "en";
+const offers = Array.from(document.querySelectorAll<HTMLElement>("[data-locale-offer]"));
+if (offers.length) {
   const pref = readCookie(COOKIE);
   const dismissed = sessionStorage.getItem(OFFER_KEY) === "1";
-
   const langs = (navigator.languages?.length ? navigator.languages : [navigator.language]).map((l) =>
     l.toLowerCase(),
   );
-  const prefersTarget = langs.some((l) => l === target || l.startsWith(`${target}-`));
   const pageLocale = document.documentElement.getAttribute("data-locale") || "ru";
-
-  // Soft offer when browser prefers another locale and user has no saved choice.
-  // Skip when the DEV-only topbar switcher is present (manual QA on localhost).
   const hasDevSwitcher = Boolean(document.querySelector("[data-lang-switch]"));
-  if (!hasDevSwitcher && !dismissed && !pref && prefersTarget && pageLocale !== target) {
-    offer.hidden = false;
+
+  // Prefer first matching offer (RU page lists es before en).
+  const match = offers.find((offer) => {
+    const target = offer.dataset.offerTarget || "en";
+    return langs.some((l) => l === target || l.startsWith(`${target}-`)) && pageLocale !== target;
+  });
+
+  if (!hasDevSwitcher && !dismissed && !pref && match) {
+    match.hidden = false;
+    const target = match.dataset.offerTarget || "en";
+
+    match.querySelector("[data-locale-offer-dismiss]")?.addEventListener("click", () => {
+      sessionStorage.setItem(OFFER_KEY, "1");
+      writeCookie(COOKIE, pageLocale);
+      match.hidden = true;
+    });
+
+    match.querySelector("[data-locale-offer-accept]")?.addEventListener("click", () => {
+      writeCookie(COOKIE, target);
+    });
   }
-
-  offer.querySelector("[data-locale-offer-dismiss]")?.addEventListener("click", () => {
-    sessionStorage.setItem(OFFER_KEY, "1");
-    writeCookie(COOKIE, pageLocale);
-    offer.hidden = true;
-  });
-
-  offer.querySelector("[data-locale-offer-accept]")?.addEventListener("click", () => {
-    writeCookie(COOKIE, target);
-  });
 }

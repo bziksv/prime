@@ -180,3 +180,184 @@ export const abTestyReklamyEn: BlogPost = {
     "skvoznaya-analitika",
   ],
 };
+
+/** ES overlay for ab-testy-reklamy — same structure as RU JSON / EN. */
+export const abTestyReklamyEs: BlogPost = {
+  slug: "ab-testy-reklamy",
+  title: "Tests A/B de ads en Yandex Direct y Google Ads",
+  date: "2019-02-07",
+  category: "Paid search",
+  cover: "/images/blog/ab-testy-reklamy/cover.webp",
+  excerpt:
+    "Cómo correr tests justos de anuncios en Yandex Direct y Google Ads: rotación, informes, experimentos de campaña y qué hacer cuando el volumen es bajo — sin aferrarte a rutas de menú de 2019.",
+  lead: [
+    "Un split test en paid search pone dos (o unos pocos) creativos o ajustes en tráfico comparable para elegir un ganador por métricas de dinero — no por quién ganó la carrera de CTR.",
+    "Tanto Direct como Google Ads pueden rotar ads y correr experimentos de campaña. Las etiquetas de la UI cambian con el tiempo; el bucle no: oportunidad igual → datos suficientes → decidir por CPA o ROI. Los tests de landing viven en la pieza de optimización de conversión.",
+  ],
+  faq: [
+    {
+      q: "¿Puedo solo correr dos ads en un grupo?",
+      a: "Sí para titulares y cuerpo. Para pujas, estrategias o cambios de estructura, usa un experimento de campaña si tu cuenta lo tiene.",
+    },
+    {
+      q: "¿Siempre gana el anuncio con mejor CTR?",
+      a: "No. Un imán de clics que quema presupuesto en tráfico basura pierde frente a un anuncio más callado con un CPA sensato. Puntúa el resultado de negocio.",
+    },
+    {
+      q: "¿Cuánto debe durar un test?",
+      a: "Hasta que las conversiones (o clics suficientes) sostengan una decisión — no un fijo «siete días del manual». Si el tráfico es minúsculo, aún no vale la pena testear.",
+    },
+    {
+      q: "¿Puedo cambiar varias cosas a la vez?",
+      a: "Una hipótesis a la vez: titular, u oferta, o landing. Cambia todo y nunca sabrás qué movió.",
+    },
+    {
+      q: "¿Hacen falta UTMs?",
+      a: "Para comparar lado a lado en Metrica/GA4 — sí, más IDs de anuncio en plantillas de URL cuando la plataforma los rellena.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué molestarse en testear ads",
+      level: 2,
+      paras: [
+        "Misma consulta, copy distinto — y puedes obtener CTR, bounce y coste por lead distintos. Sin test te guias por intuición o por una semana de suerte.",
+        "La rotación de la plataforma ayuda a repartir impresiones con justicia. Informes y experimentos van más lejos: estrategias, negativos, incluso lógica de pujas.",
+      ],
+      lists: [
+        {
+          intro: "Superficies habituales de test:",
+          items: [
+            "titulares y descripciones",
+            "sitelinks y callouts",
+            "oferta y USP",
+            "landing pages (un cambio a la vez)",
+            "pujas y estrategias vía experimento",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+    },
+    {
+      title: "Qué hace Direct ya por ti",
+      level: 2,
+      paras: [
+        "Varios ads en un grupo: cuando se acumulan stats, el sistema a menudo inclina las impresiones hacia los más clicables — de forma gradual. Los nombres exactos de los toggles viven en la UI actual de la cuenta.",
+        "Al principio, las variantes suelen compartir tráfico. No mates al «perdedor» tras diez clics.",
+      ],
+      lists: [
+        {
+          intro: "Hábitos de trabajo:",
+          items: [
+            "dos o tres variantes, no una docena",
+            "una variable por test",
+            "esperar volumen real",
+            "juzgar por goals, no solo por CTR",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Estrategias de Yandex Direct",
+          href: "/es/blog/strategii-yandeks-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Google Ads: rotación y experimentos",
+      level: 2,
+      paras: [
+        "Google ofreció durante mucho tiempo modos de rotación — empujar ganadores, o repartir más parejo. Los nombres cambian; la elección sigue siendo «dar a todos una oportunidad» vs «favorecer lo que ya funciona».",
+        "Los experimentos de campaña (la vieja ruta de drafts-and-experiments) parten el tráfico para comparar pujas, keywords, negativos y estrategias. Úsalos cuando un segundo anuncio no basta.",
+      ],
+      notes: [
+        {
+          title: "Error frecuente",
+          text: "Seguir una ruta de captura de 2019 tipo «Additional settings → ad rotation». Mira qué hace el ajuste en la UI de hoy o en la Ayuda de Google.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Leer los informes",
+      level: 2,
+      paras: [
+        "Direct: Report Wizard — corta por grupo e ID o texto del anuncio; saca clics, conversiones, CPA. Google Ads: informes de ads e informes de experimentos.",
+        "El dinero gana a la vanidad: CPA, ROAS/ROI, leads cualificados, tratos cerrados. Cuida la atribución — el last click puede infravalorar ads del inicio del funnel.",
+      ],
+      lists: [
+        {
+          intro: "Columnas mínimas:",
+          items: [
+            "impresiones, clics, CTR",
+            "conversiones y CPA",
+            "gasto",
+            "bounce / profundidad en analytics cuando puedas",
+            "búsqueda y display vistos por separado",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Aún no hay datos suficientes",
+      level: 2,
+      paras: [
+        "Si un solo anuncio es demasiado fino, agrega con cuidado: compara copy solo donde la variable realmente difiere. No mezcles temas de grupos no relacionados en un «mejor texto para siempre».",
+        "UTMs rotas e IDs de anuncio que faltan destrozan las tablas resumen. Las plantillas están en el artículo de UTM.",
+      ],
+      lists: [
+        {
+          intro: "Para el test pronto si:",
+          items: [
+            "las conversiones siguen en un dígito",
+            "la semana tuvo demanda rara",
+            "también cambiaste pujas y keywords",
+            "búsqueda y display están mezclados en una vista",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Etiquetas UTM",
+          href: "/es/blog/utm-metki/",
+        },
+        {
+          label: "Coste del clic en Yandex",
+          href: "/es/blog/tsena-klika-yandeks/",
+        },
+      ],
+    },
+    {
+      title: "Cómo comparar sin engañarte",
+      level: 2,
+      paras: [
+        "Mismo titular y keywords, solo cambia el cuerpo — agrupar por texto es justo. Titular más temas distintos de grupos vecinos — el «mejor texto en global» te mentirá.",
+        "Mantén búsqueda y display separados: CTR y calidad del tráfico no son el mismo juego. Cierra cada test con una acción: pausa lo flojo, escala lo fuerte, o arranca una hipótesis nueva.",
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "A/B en Direct y Google Ads = rotación o experimentos + informes de dinero. Una hipótesis, datos suficientes, decidir por CPA o ROI.",
+        "Volumen bajo — agrega con cuidado o sigue acumulando. No corones un campeón de CTR de un día.",
+      ],
+    },
+  ],
+  closing: [
+    "Lanza dos o tres variantes, cambia una cosa, espera stats, elige el ganador por goals de negocio — ahí es cuando los split tests de paid search ahorran presupuesto en lugar de llenar de ruido cada grupo de anuncios.",
+  ],
+  related: [
+    "optimizatsiya-konversii",
+    "strategii-yandeks-direkt",
+    "utm-metki",
+    "tsena-klika-yandeks",
+    "retargeting-direkt",
+    "skvoznaya-analitika",
+  ],
+};

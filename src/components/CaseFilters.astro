@@ -16,8 +16,10 @@ interface Props {
 const { active = "all", locale = "ru" } = Astro.props;
 const allHref = casesIndexPath(locale);
 const cats = caseCategories.map((c) => localizeCategory(c, locale));
-const ariaLabel = locale === "en" ? "Case categories" : "Категории кейсов";
-const allLabel = locale === "en" ? "All work" : "Все кейсы";
+const ariaLabel =
+  locale === "es" ? "Categorías de casos" : locale === "en" ? "Case categories" : "Категории кейсов";
+const allLabel =
+  locale === "es" ? "Todos los casos" : locale === "en" ? "All work" : "Все кейсы";
 ---
 
 <nav class="k-filters" aria-label={ariaLabel}>

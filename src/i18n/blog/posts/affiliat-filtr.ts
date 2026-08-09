@@ -97,3 +97,101 @@ export const affiliatFiltrEn: BlogPost = {
     "serm",
   ],
 };
+
+/** ES overlay for affiliat-filtr — same structure as RU JSON / EN. */
+export const affiliatFiltrEs: BlogPost = {
+  slug: "affiliat-filtr",
+  title: "Sitios afiliados y el filtro de afiliados: cómo detectarlo y mantenerse fuera",
+  date: "2018-01-24",
+  category: "SEO",
+  cover: "/images/blog/affiliat-filtr/cover.webp",
+  excerpt:
+    "Qué significan los sitios afiliados en SEO, por qué los buscadores usan un filtro de afiliados, qué señales vinculan dominios y cómo llevar varios proyectos con seguridad sin clones para las mismas queries.",
+  lead: [
+    "En términos de búsqueda, los afiliados son varios sitios de un mismo dueño (o muy ligados) que pelean las mismas queries y parecen ofertas duplicadas. La búsqueda puede dejar uno en la SERP y cortar o degradar al resto del grupo.",
+    "Abajo: señales de vínculo, cómo revisar competidores y cómo no disparar el filtro. La meta no es «engañar a la búsqueda con nombres distintos» sino no generar clones: o un sitio fuerte, o marcas y ofertas de verdad distintas.",
+  ],
+  faq: [
+    {
+      q: "¿Un sitio afiliado es lo mismo que un satélite?",
+      a: "Relacionados, no sinónimos. Los satélites suelen empujar enlaces o tráfico a un sitio principal. Los afiliados son tus propios dominios compitiendo en una misma SERP.",
+    },
+    {
+      q: "¿Las tiendas partner siempre se tratan como afiliados?",
+      a: "No siempre. El riesgo sube con contactos compartidos, plantilla y las mismas queries comerciales. Una red partner honesta con entidades legales y surtidos distintos es otro caso.",
+    },
+    {
+      q: "¿Cómo se nota el filtro de afiliados?",
+      a: "A menudo un sitio del grupo se queda en resultados para queries objetivo; otros caen o salen de la primera página. La lógica exacta difiere entre Yandex y Google y cambia con el tiempo.",
+    },
+    {
+      q: "¿Cambiar el hosting arregla un filtro de afiliados?",
+      a: "Una IP sola no basta. Los motores miran contactos, contenido, plantillas, cuentas de webmaster, comportamiento. Arregla el paquete de señales — no un solo rasgo.",
+    },
+    {
+      q: "¿Y si un competidor copió el sitio?",
+      a: "Documenta la copia, presenta quejas en webmaster/plataforma, refuerza tu original. No respondas con una red de clones propia.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué son los afiliados y por qué existe el filtro",
+      level: 2,
+      paras: [
+        "Esquema clásico: varios dominios para una empresa y las mismas keywords para llenar varios slots de primera página. Para el usuario es la misma oferta — la búsqueda limita ese monopolio.",
+        "Señales de vínculo (lista incompleta): mismos teléfonos, direcciones y datos; copy-paste o rewrite débil; hosting/IP/NS compartidos; una plantilla de diseño; cuentas de webmaster compartidas. Algunos chequeos son automáticos, otros siguen quejas.",
+        "Yandex históricamente ha cortado más duro los duplicados de grupo en la SERP; Google también pelea grids parecidas, con síntomas distintos. Cifras y excepciones de 2007–2010 no son la política actual.",
+        "El filtro de afiliados difiere de «eres spam» o sanciones de enlaces: pega a la competencia entre tus propios sitios en resultados — no siempre mata un dominio por completo.",
+      ],
+      links: [
+        {
+          label: "Sitios satélite",
+          href: "/es/blog/sayty-satellity/",
+        },
+        {
+          label: "Análisis de competidores",
+          href: "/es/blog/analiz-konkurentov/",
+        },
+      ],
+    },
+    {
+      title: "Cómo mantenerse fuera y cómo comprobar",
+      level: 2,
+      paras: [
+        "La mejor defensa — no montar una grid de clones. Crece un sitio principal. Si el negocio necesita varios dominios (marcas, regiones, líneas distintas) — hazlos distintos en oferta, contenido, contactos y keywords — no el mismo texto en otra URL.",
+        "«Registrar dominios a nombre de distintas personas» como truco principal es un mal foco: parece ocultar el vínculo, no un producto útil. La separación legal de entidades y marcas debe ser real — no una máscara de papel.",
+        "Si ya te pega: quita duplicados (contactos, textos, plantillas), separa el targeting de keywords y luego puedes contactar al soporte de búsqueda con hechos del arreglo. Sin garantía de retirada; la recuperación a menudo lleva de semanas a meses.",
+        "Revisar competidores/clones: busca fragmentos únicos de texto (`intext`), teléfonos y direcciones coincidentes, whois/NS donde sea público, revisión manual de plantilla. Las tools SEO ayudan pero no sustituyen los ojos. No tomes «la búsqueda tiene acceso a cualquier dato privado» como instrucción.",
+      ],
+      lists: [
+        {
+          intro: "Checklist antes de un segundo sitio:",
+          items: [
+            "oferta/audiencia distinta — no un clon",
+            "textos y visuales únicos",
+            "contactos y datos legales no son copy-paste",
+            "las keywords no coinciden del todo con el sitio principal",
+            "sin meta de ocupar cinco slots en una SERP",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Colocar una landing",
+          href: "/es/blog/razmeshchenie-lendinga/",
+        },
+        {
+          label: "Operadores de búsqueda",
+          href: "/es/blog/operatory-poiska/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "sayty-satellity",
+    "analiz-konkurentov",
+    "razmeshchenie-lendinga",
+    "operatory-poiska",
+    "serm",
+  ],
+};

@@ -131,3 +131,135 @@ export const rssEn: BlogPost = {
     "obnovlenie-kontenta",
   ],
 };
+
+/** ES overlay for rss — same structure as RU JSON / EN. */
+export const rssEs: BlogPost = {
+  slug: "rss",
+  title: "RSS del sitio: por qué lo necesitas y cómo activarlo",
+  date: "2020-06-30",
+  category: "Content marketing",
+  cover: "/images/blog/rss/cover.webp",
+  excerpt:
+    "Qué es un feed RSS, a quién sigue beneficiando, ventajas y riesgos para un sitio, cómo activar un feed en un CMS — sin culto a Feedburner ni promesas de «masa de enlaces».",
+  lead: [
+    "RSS es un feed XML de teasers de artículos y enlaces a páginas completas. Los lectores reúnen varios sitios en un reader; el sitio publica posts nuevos sin forzar una visita a la homepage cada vez.",
+    "El formato es menos visible que en los 2010 — redes y push se llevaron la atención. Para blogs, media y docs, el feed sigue siendo útil. Abajo: por qué mantener RSS, qué riesgos vigilar y cómo activarlo en un CMS típico. Las listas de readers y generadores cambian — revisa servicios actuales.",
+  ],
+  faq: [
+    {
+      q: "¿El RSS sigue vivo?",
+      a: "Sí, pero la audiencia es menor. Útil para suscriptores de reader, agregadores, integraciones y como feed técnico para tus propios canales.",
+    },
+    {
+      q: "¿Es un factor de ranking SEO?",
+      a: "De forma directa — casi nunca. De forma indirecta — visitas repetidas de lectores leales y distribución. No lo confundas con «inflar masa de enlaces».",
+    },
+    {
+      q: "¿Publico el texto completo en el feed o un teaser?",
+      a: "Más a menudo un teaser/lead: motiva una visita al sitio y baja el riesgo de que agregadores copien toda la pieza.",
+    },
+    {
+      q: "¿Cuál es la diferencia entre Atom y RSS 2.0?",
+      a: "Ambos son formatos de feed. En la práctica basta con lo que el CMS emite; importan más una URL estable e items correctos.",
+    },
+    {
+      q: "¿Hace falta Feedburner?",
+      a: "No es obligatorio. Muchas apps CMS ya exponen `/feed/` o `/rss.xml`. Los «burners» de terceros son opcionales, no un estándar.",
+    },
+    {
+      q: "¿Pueden otros sitios robar desde el RSS?",
+      a: "Sí — a los parsers les encanta el XML. La protección absoluta es difícil; teasers en lugar de texto completo más monitoreo de copias reducen el daño.",
+    },
+    {
+      q: "¿Esto se conecta con el auto-relleno de un sitio?",
+      a: "El RSS ajeno como combustible de grabber para «uniquificar» es mala práctica SEO. Tu RSS es para suscriptores — no para farms de doorways.",
+    },
+    {
+      q: "¿Cómo compruebo el feed?",
+      a: "Abre la URL del feed en un navegador/validador, suscríbete en un reader y confirma que aparecen los posts nuevos.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué el RSS ayuda al sitio y al lector",
+      level: 2,
+      paras: [
+        "Para el lector: un feed en lugar de diez favoritos, marcadores de lectura, a veces caché offline en una app.",
+        "Para el sitio: un canal de retorno para audiencias de blog/noticias, un feed práctico para partners e integraciones internas, un botón familiar de «suscribirse» para quien no está en redes.",
+      ],
+      lists: [
+        {
+          intro: "Especialmente útil cuando:",
+          items: [
+            "publicas con regularidad (blog, media)",
+            "la documentación publica un changelog",
+            "necesitas una lista de updates legible por máquina",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Estructura y formatos",
+      level: 2,
+      paras: [
+        "Un feed suele tener un canal (título, descripción, enlace al sitio) e items: título, texto corto, URL, fecha, a veces categoría e imagen.",
+        "Te encontrarás RSS 2.0 y Atom. Para un publisher, la validez y una dirección estable importan más que debates de versión.",
+      ],
+    },
+    {
+      title: "Ventajas y riesgos",
+      level: 2,
+      paras: [
+        "Ventajas: comodidad del suscriptor, señales rápidas de «post nuevo», menos visitas vacías de «¿hay post?».",
+        "Riesgos: sobrecarga del feed para el usuario; agregadores que copian teasers/texto; lío si el feed vuelca HTML completo con bloques de utilidad.",
+        "No esperes que el RSS «suba la masa de enlaces solo»: es un canal de distribución, no un sustituto de SEO y contenido.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Teaser vs texto completo",
+          text: "Para un blog comercial una descripción corta + enlace al artículo suele ganar a volcar toda la pieza en XML.",
+        },
+      ],
+      links: [
+        {
+          label: "Auto-relleno de un sitio",
+          href: "/es/blog/avtonapolnenie-sayta/",
+        },
+        {
+          label: "Sitio de noticias y SEO",
+          href: "/es/blog/novostnoy-sayt/",
+        },
+      ],
+    },
+    {
+      title: "Cómo añadir RSS",
+      level: 2,
+      paras: [
+        "En WordPress y muchas apps CMS el feed ya existe (a menudo `/feed/`). Tema/ajustes activan el icono y autodiscovery.",
+        "También puedes publicar XML a mano o vía plugin/servicio. Tras activarlo, comprueba la URL en un reader.",
+        "Las listas de apps de 2020 envejecen rápido: elige un reader actual para tu SO — no copies catálogos antiguos a ciegas.",
+      ],
+    },
+    {
+      title: "Ideas clave",
+      level: 2,
+      paras: [
+        "RSS es un feed de updates práctico — no magia de ranking.",
+        "Para un sitio suelen bastar el feed integrado del CMS y los teasers.",
+        "El RSS ajeno como combustible de grabber es mala idea.",
+      ],
+    },
+  ],
+  closing: [
+    "Abre `/feed/` o el equivalente de tu CMS en el navegador: si hay XML con posts frescos — el RSS básico ya funciona.",
+  ],
+  related: [
+    "avtonapolnenie-sayta",
+    "novostnoy-sayt",
+    "kak-napisat-statyu",
+    "proverka-unikalnosti",
+    "obnovlenie-kontenta",
+    "kontent-plan",
+  ],
+};

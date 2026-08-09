@@ -105,3 +105,109 @@ export const karuselInstagramEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for karusel-instagram — same structure as RU JSON / EN. */
+export const karuselInstagramEs: BlogPost = {
+  slug: "karusel-instagram",
+  title: "Carrusel de Instagram: varias fotos en un post",
+  date: "2021-06-18",
+  category: "SMM",
+  cover: "/images/blog/karusel-instagram/cover.webp",
+  excerpt:
+    "Cómo montar un post de Instagram con varias fotos o vídeos, por qué un carrusel gana a un collage, el orden de slides y un estilo unificado — sin rutas de clics obsoletas ni herramientas que descarguen contenido ajeno.",
+  lead: [
+    "Un carrusel es un post con varios slides: la gente desliza los puntos bajo el preview. Úsalo para ángulos de producto, una guía paso a paso o before/after sin un collage diminuto.",
+    "Abajo: por qué funciona el formato, cómo armarlo y errores habituales. Los botones in-app cambian; el orden de slides y un estilo unificado importan más que capturas de menú.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Cuántos slides se pueden añadir?",
+      a: "Los límites de la plataforma han cambiado. Sigue el selector de media actual; no llenes el carrusel al máximo sin un storyline.",
+    },
+    {
+      q: "¿Se pueden mezclar fotos y vídeo?",
+      a: "Suele sí. Mantén un tono y un orden claro: gancho → sustancia → CTA.",
+    },
+    {
+      q: "¿Varias fotos en una sola Story como un archivo?",
+      a: "Las Stories clásicas son frames separados en fila. Para una serie durable en el feed, usa un post carrusel.",
+    },
+    {
+      q: "¿En qué se diferencia un carrusel de una plantilla?",
+      a: "Carrusel es el formato de publicación. Una plantilla es el layout del slide. Ver los posts sobre plantillas y posts de venta.",
+    },
+    {
+      q: "¿Hacen falta sitios de terceros «descargar de Instagram»?",
+      a: "Para llevar tu propia cuenta — no. Contenido ajeno sin derechos es un riesgo; para tu archivo usa métodos oficiales de export.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué un carrusel, no un collage",
+      level: 2,
+      paras: [
+        "Un slide a pantalla completa se lee mejor que una grilla diminuta en un frame. Un carrusel sostiene la atención más tiempo y encaja con instrucciones, catálogos y comparaciones.",
+        "El primer slide decide si la gente desliza: un frame fuerte o una tesis de cover.",
+      ],
+      links: [
+        {
+          label: "Fotos para Instagram",
+          href: "/es/blog/foto-instagram/",
+        },
+        {
+          label: "Post de venta",
+          href: "/es/blog/post-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Cómo montar un post multi-media",
+      level: 2,
+      paras: [
+        "Al crear un post, elige varios archivos de la galería. El orden de selección suele fijar el orden de slides — pon el gancho primero.",
+        "Recorta y edita ligero por slide; un preset en todo el carrusel se ve cohesivo. Caption y ubicación vienen tras el montaje.",
+      ],
+      lists: [
+        {
+          intro: "Antes de compartir:",
+          items: [
+            "un escenario de slides de 1→N",
+            "el primer frame se entiende sin deslizar",
+            "estilo unificado de color y tipografía",
+            "último slide con un CTA u oferta",
+            "app actualizada si falta multi-select",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          text: "Para un producto: vista general → detalles → talla/materiales → en uso → pedir mensaje en Direct.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Stories y series",
+      level: 2,
+      paras: [
+        "Varias Stories se publican en fila y duran un día; eso no sustituye un carrusel del feed. Para una guía evergreen, preferible un post carrusel más un pin en Highlights si hace falta.",
+        "Borrar en masa un montón de posts viejos de un toque a menudo no está disponible — limpia uno a uno o vía herramientas de contenido si las tienes.",
+      ],
+      links: [
+        {
+          label: "Plantillas de Instagram",
+          href: "/es/blog/shablon-instagram/",
+        },
+        {
+          label: "Diseño de la página",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+      ],
+    },
+  ],
+};

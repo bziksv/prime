@@ -1,5 +1,148 @@
 import type { BlogPost } from "../../../data/blog";
 
+/** ES overlay for oshibki-nastroyki-konteksta — same structure as RU JSON. */
+export const oshibkiNastroykiKontekstaEs: BlogPost = {
+  slug: "oshibki-nastroyki-konteksta",
+  title: "Errores al configurar anuncios de búsqueda de pago",
+  date: "2018-07-02",
+  category: "Paid search",
+  cover: "/images/blog/oshibki-nastroyki-konteksta/cover.webp",
+  excerpt:
+    "Fallos típicos de setup en Direct y Ads: anuncios sin contactos ni extensiones, Search vs redes, geo y estructura de grupos, landing muerta, negativos, horario y remarketing — checklist antes de escalar presupuesto.",
+  lead: [
+    "La búsqueda de pago no es «echar keywords y esperar clientes». En el setup puedes perder clics y dinero rápido: sin extensiones, superficies mezcladas, estructura caótica, un sitio que no abre desde el anuncio.",
+    "Abajo: errores habituales de auditorías de setup (no una estrategia desde cero ni una auditoría completa de KPI). Cerca — errores de gestión de campaña y el proceso de auditoría. Los interfaces cambian; la higiene sigue importando.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia de «10 errores de gestión»?",
+      a: "Ese texto cubre demanda, presupuesto, keywords y optimización continua. Aquí — higiene de setup: extensiones, estructura, geo, landing, negativos.",
+    },
+    {
+      q: "¿Hacen falta contactos en el anuncio?",
+      a: "Donde hay extensiones (teléfono, sitelinks, dirección) — sí. Amplían el real estate del anuncio y la confianza.",
+    },
+    {
+      q: "¿Search y Display/redes juntos?",
+      a: "Normalmente sepáralos: creatividades, pujas y KPI distintos. Redes necesitan banners/imágenes; Search, texto y relevancia.",
+    },
+    {
+      q: "¿Por qué separar geo?",
+      a: "Para ver dónde el CPA es mejor y no mezclar ciudades con márgenes y logística distintas en una campaña sin necesidad.",
+    },
+    {
+      q: "¿Vale una landing que «casi» carga?",
+      a: "No. Una landing lenta o que cae quema el clic. Revisa la URL del anuncio en móvil antes del lanzamiento.",
+    },
+    {
+      q: "¿Negativos una vez y listo?",
+      a: "No. La lista está viva: mira search terms y limpia con regularidad.",
+    },
+    {
+      q: "¿Cuándo pedir una auditoría?",
+      a: "Si el checklist de setup está cerrado y los KPI siguen fallando — mira una auditoría completa y los errores de gestión.",
+    },
+  ],
+  sections: [
+    {
+      title: "El anuncio y la confianza en el SERP",
+      level: 2,
+      paras: [
+        "Un anuncio pelado sin sitelinks, callouts, teléfono o una ruta de display limpia pierde visibilidad frente a vecinos aunque el slot sea fuerte.",
+        "Un favicon y una URL de display correcta refuerzan el reconocimiento de marca en el SERP; un icono roto o un path de subdominio sin sentido hieren el CTR.",
+        "La landing del anuncio debe encajar con la promesa: no mandes «ventanas de PVC» a una home con una docena de servicios.",
+      ],
+      links: [
+        {
+          label: "Anuncios adaptativos en Direct",
+          href: "/es/blog/adaptivnyy-shablon-direkt/",
+        },
+        {
+          label: "El sitio antes de la publicidad",
+          href: "/es/blog/sayt-pered-reklamoy/",
+        },
+      ],
+    },
+    {
+      title: "Search vs redes y estructura geo",
+      level: 2,
+      paras: [
+        "Search no tiene las mismas imágenes que las redes; creatividad y copy difieren. Copiar «como en Search» uno a uno a Display/redes es un error típico de setup.",
+        "Regiones con rendimiento distinto van mejor como campañas separadas — o al menos claramente segmentadas: si no, la optimización promedia geo bueno y malo.",
+        "Estructura de grupos por industria (marca, modelos, servicios, promos, competidores — donde encaje) da stats legibles; un vertedero de keywords dificulta ver qué funciona.",
+      ],
+      links: [
+        {
+          label: "Errores de gestión de campaña",
+          href: "/es/blog/oshibki-reklamnoy-kampanii/",
+        },
+        {
+          label: "Tipos de campaña en Google Ads",
+          href: "/es/blog/tipy-kampaniy-google-ads/",
+        },
+      ],
+    },
+    {
+      title: "Landing, tags y analítica",
+      level: 2,
+      paras: [
+        "Clics a ningún sitio: la página no abre, 500/timeout, bucle de redirect. Revisa la URL final antes del presupuesto.",
+        "UTM y objetivos en Métrica/Analytics deberían estar listos antes del lanzamiento — si no, luego no sabes «qué funcionó».",
+        "Sin objetivos, la optimización de pujas se vuelve una discusión sobre clics.",
+      ],
+      links: [
+        {
+          label: "Análisis de campaña publicitaria",
+          href: "/es/blog/analiz-reklamnoy-kampanii/",
+        },
+      ],
+    },
+    {
+      title: "Checklist de setup antes de escalar",
+      level: 2,
+      paras: [
+        "Negativos y cross-negatives entre grupos — para no competir contigo mismo. Horario de anuncios — según capacidad real de atender leads, no «24/7 porque se puede».",
+        "Remarketing en acciones abandonadas cuando hay audiencia y creatividad decente; no en lugar del setup básico de Search.",
+        "Usa este checklist para controlar a un contratista: si lo básico no está cerrado, es pronto para discutir «poco presupuesto».",
+      ],
+      lists: [
+        {
+          intro: "Mínimo antes de escalar:",
+          items: [
+            "extensiones y URL relevantes",
+            "Search y redes separados",
+            "geo y grupos con sentido",
+            "landing abre en móvil",
+            "objetivos y UTM miden",
+            "negativos y horario fijados",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría de campaña publicitaria",
+          href: "/es/blog/audit-reklamnoy-kampanii/",
+        },
+        {
+          label: "Contratista de búsqueda de pago",
+          href: "/es/blog/podryadchik-kontekst/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Recorre el checklist en tu cuenta en media hora: si extensiones, estructura, geo y landing están sólidos — después mira economía y gestión, no «más keywords al mismo vertedero».",
+  ],
+  related: [
+    "oshibki-reklamnoy-kampanii",
+    "audit-reklamnoy-kampanii",
+    "sayt-pered-reklamoy",
+    "analiz-reklamnoy-kampanii",
+    "podryadchik-kontekst",
+    "zabluzhdeniya-konteksta",
+  ],
+};
+
 /** EN overlay for oshibki-nastroyki-konteksta — same structure as RU JSON. */
 export const oshibkiNastroykiKontekstaEn: BlogPost = {
   slug: "oshibki-nastroyki-konteksta",

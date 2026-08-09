@@ -1,5 +1,139 @@
 import type { BlogPost } from "../../../data/blog";
 
+/** ES overlay for tekst-email-rassylki — same structure as RU JSON. */
+export const tekstEmailRassylkiEs: BlogPost = {
+  slug: "tekst-email-rassylki",
+  title: "Copy persuasivo de newsletter: 5 pasos",
+  date: "2019-09-24",
+  category: "Email marketing",
+  cover: "/images/blog/tekst-email-rassylki/cover.webp",
+  excerpt:
+    "Cómo escribir copy de email: objetivos y segmentos, lenguaje de la audiencia, tipos de mensaje (welcome, ventas, pedido), técnicas de persuasión y chequeo previo al envío — sin el mito de que «el email está muerto».",
+  lead: [
+    "El diseño y la personalización no salvan un copy vacío: si el email no tiene valor ni un siguiente paso claro, el suscriptor lo cierra en segundos.",
+    "Abajo: un plan de cinco pasos — objetivo → lector → contenido → persuasión → chequeo. No trates cifras de «ROI por encima del 28%» de roundups viejos como garantía — mide tu propia economía.",
+  ],
+  faq: [
+    {
+      q: "¿Un email debe tener un solo objetivo?",
+      a: "Sí, preferible. Mezclar educación, ventas y servicio en un texto confunde el CTA.",
+    },
+    {
+      q: "¿Escribo el mismo email a nuevos y a fieles?",
+      a: "No. Welcome y nurture difieren de los emails a clientes habituales.",
+    },
+    {
+      q: "¿De dónde saco el lenguaje de la audiencia?",
+      a: "Encuestas, soporte, reseñas, foros del nicho. Recoge wording habitual y miedos.",
+    },
+    {
+      q: "¿Qué formatos de email necesito?",
+      a: "Mínimo: welcome/onboarding, ventas/oferta, servicio de pedido. Más triggers.",
+    },
+    {
+      q: "¿El copy largo es peor que el corto?",
+      a: "La longitud encaja con el trabajo. Importa: párrafos, subtítulos, un CTA por encima de la «sábana».",
+    },
+    {
+      q: "¿Qué revisar antes de enviar?",
+      a: "Asunto, preheader, enlaces, baja, vista móvil, un email de prueba a ti mismo.",
+    },
+    {
+      q: "¿El email está obsoleto por los messengers?",
+      a: "No como canal opt-in. El spam y los emails sin valor sí se quedan viejos.",
+    },
+  ],
+  sections: [
+    {
+      title: "Pasos 1–2. Objetivo y lector",
+      level: 2,
+      paras: [
+        "Separa trabajos del email: informar, retener, vender. Para el objetivo fija: métricas actuales (OR, CTR, bajas), respuesta deseada, segmento.",
+        "Estudia al lector: qué preguntas ya están cerradas, qué emociones aparecen en la elección. Escribe simple, engancha con asunto y lead, muestra cómo el producto cierra la necesidad.",
+      ],
+      lists: [
+        {
+          intro: "Antes del borrador:",
+          items: [
+            "un objetivo del email",
+            "segmento (nuevo / fiel / «dormido»)",
+            "acción deseada",
+            "2–3 objeciones de la audiencia",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Estrategia de email",
+          href: "/es/blog/email-strategiya/",
+        },
+      ],
+    },
+    {
+      title: "Paso 3. Contenido y tipos de email",
+      level: 2,
+      paras: [
+        "Convierte el research en una tabla: wording habitual, expectativas, miedos. Construye el copy desde ahí: wording fuerte, valor, estilo distinto por segmento.",
+        "Welcome — instrucciones, FAQ, beneficios, onboarding suave. Ventas — vida tras la compra, reseñas, promos, fidelidad. Servicio de pedido — estado, detalles, siguiente paso; esos emails suelen abrirse con más ganas que las promos.",
+      ],
+      links: [
+        {
+          label: "Emails disparados",
+          href: "/es/blog/triggernye-rassylki/",
+        },
+        {
+          label: "Ejemplos de emails fuertes",
+          href: "/es/blog/primery-email-rassylok/",
+        },
+      ],
+    },
+    {
+      title: "Pasos 4–5. Persuasión y chequeo",
+      level: 2,
+      paras: [
+        "Persuasión = beneficio claro, prueba, quitar riesgo, un CTA. No empujes escasez falsa en cada email.",
+        "Chequeo: asunto sin clickbait engañoso, enlaces vivos, imágenes con alt, baja visible, prueba en smartphone y en varios clientes.",
+      ],
+      lists: [
+        {
+          intro: "Checklist antes de Send:",
+          items: [
+            "objetivo y CTA encajan",
+            "el copy se lee en voz alta",
+            "no «uno para todos» sin segmento",
+            "email de prueba a ti/a un colega",
+            "lista con consentimiento",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Importante",
+          text: "Claims como «28% de ROI» y «los emails de pedido se abren 8× más» son guías de roundups viejos, no tu garantía. Cuenta conversiones y quejas en tu propia lista.",
+        },
+      ],
+      links: [
+        {
+          label: "Email para negocio",
+          href: "/es/blog/email-dlya-biznesa/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Fija el objetivo y el segmento, recoge el lenguaje de la audiencia, elige el tipo de email y pasa el checklist antes de enviar — para que el copy del newsletter empiece a vender y ayudar, no solo a «ocupar sitio en la bandeja».",
+  ],
+  related: [
+    "email-strategiya",
+    "email-dlya-biznesa",
+    "triggernye-rassylki",
+    "primery-email-rassylok",
+    "email-marketing-2020",
+    "baza-email-socseti",
+  ],
+};
+
 /** EN overlay for tekst-email-rassylki — same structure as RU JSON. */
 export const tekstEmailRassylkiEn: BlogPost = {
   slug: "tekst-email-rassylki",

@@ -176,3 +176,180 @@ export const ohvatInstagramEn: BlogPost = {
     "rozygrysh-instagram",
   ],
 };
+
+/** ES overlay for ohvat-instagram — same structure as RU JSON / EN. */
+export const ohvatInstagramEs: BlogPost = {
+  slug: "ohvat-instagram",
+  title: "Alcance en Instagram: qué es y en qué se diferencia de las impresiones",
+  date: "2021-01-26",
+  category: "SMM",
+  cover: "/images/blog/ohvat-instagram/cover.webp",
+  excerpt:
+    "Qué es el alcance de Instagram: cuentas únicas vs impresiones, por qué cae el alcance y cómo crecer con métodos legítimos — sin bots ni un catálogo de servicios gray-hat.",
+  lead: [
+    "El alcance es cuántas cuentas únicas vieron un post o perfil en un periodo. Las impresiones cuentan cada vista, incluidos los repeats de la misma persona.",
+    "Abajo: por qué mirar el alcance, por qué salta y qué hacer de forma legal. No recomendamos likes comprados ni bots: riesgo de límites y audiencia muerta. El disclaimer del producto Meta está en la página. Walkthrough completo de Insights — en el artículo de stats.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Alcance e impresiones son lo mismo?",
+      a: "No. El alcance son viewers únicos. Las impresiones son todas las vistas. Una persona puede sumar 1 al alcance y 10 a las impresiones.",
+    },
+    {
+      q: "¿El alcance es lo mismo que el número de followers?",
+      a: "No. Los no-followers también ven contenido (recomendaciones, hashtags, shares de story). Algunos followers nunca ven el post.",
+    },
+    {
+      q: "¿Por qué cayó el alcance?",
+      a: "Cambio de formato, gancho flojo, frecuencia de posting, competencia en el feed, límites de cuenta, estacionalidad. Mira la dinámica de varios posts, no un solo fallo.",
+    },
+    {
+      q: "¿Ayuda el alcance comprado?",
+      a: "No para ventas. Los bots y las acciones compradas dañan la confianza del algoritmo y arriesgan bans. No los uses.",
+    },
+    {
+      q: "¿Dónde se ve el número?",
+      a: "En Insights de la cuenta profesional y en insights de post/story. Hace falta modo business/creator.",
+    },
+  ],
+  sections: [
+    {
+      title: "En palabras simples",
+      level: 2,
+      paras: [
+        "Piensa en un cartel en la calle: el alcance es cuántas personas distintas lo notaron; las impresiones son cuántas miradas, incluidos los repeats; los clientes son una historia de conversión aparte.",
+        "En Instagram el alcance ayuda a estimar a cuántas personas llegó el contenido — no cuántas veces se scrolleó el mismo reel.",
+      ],
+      links: [
+        {
+          label: "Instagram Insights",
+          href: "/es/blog/statistika-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Alcance vs impresiones vs actividad",
+      level: 2,
+      paras: [
+        "Muchas impresiones con poco alcance — muchas vistas repetidas de un grupo estrecho. Mucho alcance con cero saves y DMs — un escaparate sin demanda.",
+        "Para negocio importa la cadena: alcance → acciones (perfil, sitio, mensajes) → leads. Los likes son fáciles de falsificar; el alcance es más difícil, pero perseguir solo alcance sin oferta no tiene sentido.",
+      ],
+      lists: [
+        {
+          intro: "Mira junto al alcance:",
+          items: [
+            "saves y respuestas",
+            "visitas al perfil",
+            "clics en link/sticker",
+            "mensajes y leads",
+            "cuota de alcance desde followers",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué cambia el alcance",
+      level: 2,
+      paras: [
+        "El algoritmo rankea el feed y las recomendaciones: ¿el reel retiene atención?, ¿la gente guarda y responde?, ¿el tema es relevante? La hora de publicar solo importa relativa a cuándo está online tu audiencia.",
+        "Una caída brusca tras bots, spam de DM o límites shadow es una vía aparte. Ver los artículos de shadowban y bloqueo.",
+      ],
+      links: [
+        {
+          label: "Shadowban",
+          href: "/es/blog/tenevoy-ban-instagram/",
+        },
+        {
+          label: "Bloqueo de cuenta",
+          href: "/es/blog/blokirovka-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Cómo crecer sin tácticas gray-hat",
+      level: 2,
+      paras: [
+        "Un primer frame y gancho de caption fuertes, series de Reels/vídeo donde encajen, giveaways honestos según las reglas, Stories con encuestas, collabs con creators relevantes, ads con audiencia clara.",
+        "Noticias y tendencias — solo si van atadas al nicho. Un plan de contenido gana a un estallido «viral» suelto.",
+      ],
+      lists: [
+        {
+          intro: "Checklist blanco:",
+          items: [
+            "timing desde tus propias stats de «cuándo online»",
+            "formatos que ya obtienen saves",
+            "CTA a perfil/DM/sitio",
+            "responder comentarios en las primeras horas",
+            "ads o un collab en vez de bots",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Error habitual",
+          text: "Comprar «alcance y likes» en un pack. El número crece, los leads no, el riesgo de sanción sí.",
+        },
+      ],
+      links: [
+        {
+          label: "Ads de Instagram",
+          href: "/es/blog/reklama-instagram/",
+        },
+        {
+          label: "Giveaway",
+          href: "/es/blog/rozygrysh-instagram/",
+        },
+        {
+          label: "Plan de contenido",
+          href: "/es/blog/kontent-plan-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Por qué no tratamos los bots como método",
+      level: 2,
+      paras: [
+        "Los servicios de intercambio y las tiendas de bots prometen crecimiento rápido. La plataforma corta esas señales; la audiencia no compra. No repetimos catálogos «Nakrutka / Socgain» de artículos viejos.",
+        "Si las métricas ya están estropeadas por bots — párarlos, reforzar contenido vivo y no mezclar a ciegas con presupuesto de ads.",
+      ],
+    },
+    {
+      title: "Dónde mirar en la cuenta",
+      level: 2,
+      paras: [
+        "Cuenta profesional → Insights del perfil y de un post/story suelto. Las etiquetas del menú cambiaron; busca Insights / «View insights».",
+        "Screenshot semanas clave — más fácil comparar lanzamientos de series y ads.",
+      ],
+      links: [
+        {
+          label: "Cuenta business",
+          href: "/es/blog/biznes-akkaunt-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "El alcance son viewers únicos; las impresiones son todas las vistas. Crece con contenido blanco y ads, mide acciones — no solo el alcance.",
+        "Los bots no sustituyen una oferta y la confianza.",
+      ],
+    },
+  ],
+  closing: [
+    "Cruza el alcance con impresiones y leads en Insights, refuerza formatos con saves y respuestas — y no gastes presupuesto en bots. El alcance vivo es más lento, pero alimenta ventas.",
+  ],
+  related: [
+    "statistika-instagram",
+    "tenevoy-ban-instagram",
+    "reklama-instagram",
+    "kontent-plan-instagram",
+    "biznes-akkaunt-instagram",
+    "rozygrysh-instagram",
+  ],
+};

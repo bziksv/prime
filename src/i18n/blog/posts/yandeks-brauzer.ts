@@ -171,3 +171,175 @@ export const yandeksBrauzerEn: BlogPost = {
     "https-seo",
   ],
 };
+
+/** ES overlay for yandeks-brauzer — same structure as RU JSON / EN. */
+export const yandeksBrauzerEs: BlogPost = {
+  slug: "yandeks-brauzer",
+  title: "Cómo instalar Yandex Browser con seguridad",
+  date: "2018-03-19",
+  category: "Digital marketing",
+  cover: "/images/blog/yandeks-brauzer/cover.webp",
+  excerpt:
+    "Instala Yandex Browser desde el sitio oficial, mueve favoritos y contraseñas, y arregla errores habituales de Windows — sin «descargadores gratis» de terceros ni rutas de wizard obsoletas.",
+  lead: [
+    "Yandex Browser es un navegador Chromium con servicios Yandex: búsqueda, traducción, sync y protección. Para instalar solo necesitas el build oficial para tu SO.",
+    "Abajo: cómo descargar sin sitios grises, qué hacer tras instalar y qué errores de Windows aparecen más. Los botones del wizard y las URLs de descarga cambian — usa la página oficial de Yandex, no capturas de 2018.",
+  ],
+  faq: [
+    {
+      q: "¿Dónde es seguro descargarlo?",
+      a: "Solo desde el sitio oficial de Yandex o la página de descarga del navegador. Repacks de terceros y sitios con SMS arriesgan malware.",
+    },
+    {
+      q: "¿Qué motor usa?",
+      a: "Chromium, como varios otros navegadores. Las extensiones de Chrome Web Store a menudo funcionan, pero no siempre.",
+    },
+    {
+      q: "¿Tengo que hacerlo el navegador predeterminado?",
+      a: "No. Es comodidad para enlaces del correo y documentos. Puedes mantener tu navegador actual como principal.",
+    },
+    {
+      q: "¿Necesito Yandex Disk durante la instalación?",
+      a: "No. El almacenamiento en la nube es un producto aparte; el wizard puede ofrecerlo — puedes saltarlo.",
+    },
+    {
+      q: "¿Se transferirán las contraseñas desde Chrome?",
+      a: "A menudo sí, por el wizard de importación. Tras transferir, revisa el gestor de contraseñas y el 2FA en cuentas importantes.",
+    },
+  ],
+  sections: [
+    {
+      title: "Descarga solo el instalador oficial",
+      level: 2,
+      paras: [
+        "Abre la página oficial de descarga de Yandex Browser y coge el build para Windows, macOS o Linux — el sitio suele detectar tu SO. Evita catálogos de «software gratis» e instaladores empaquetados con basura.",
+        "Antes de ejecutar el archivo, confirma que la descarga terminó completa (el tamaño no está truncado), sobre todo con conexión inestable.",
+      ],
+      lists: [
+        {
+          intro: "Por qué solo la fuente oficial:",
+          items: [
+            "menos riesgo de un archivo cambiado",
+            "versión actual y actualizaciones",
+            "sin «optimizadores» forzados",
+            "licencia y política de datos claras",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Sobre estadísticas y acuerdos",
+          text: "El wizard de instalación puede incluir opciones sobre estadísticas de uso y servicios Yandex. Lee el texto y desmarca extras que no necesites — higiene normal al instalar cualquier software.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Instalación y primer arranque",
+      level: 2,
+      paras: [
+        "Ejecuta el instalador y confirma los pasos del wizard. En un PC corporativo puede hacer falta Ejecutar como administrador. Tras instalar, el navegador puede ofrecerse como predeterminado — decide a propósito.",
+        "Luego suele ofrecer importar desde Chrome, Firefox, Edge y otros: favoritos, historial, contraseñas guardadas. Importar ayuda al cambiar de navegador principal; si no estás seguro, sáltarlo y mueve datos después punto por punto.",
+      ],
+      lists: [
+        {
+          intro: "Orden típico:",
+          items: [
+            "descargar desde la página oficial",
+            "instalar con tu cuenta del SO",
+            "decidir el navegador predeterminado",
+            "importar datos o saltar",
+            "entrar en una cuenta Yandex si necesitas sync",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Sync y servicios",
+      level: 2,
+      paras: [
+        "Entrar en una cuenta Yandex activa sync de pestañas, contraseñas y ajustes entre dispositivos. Cómodo — pero mantén una master password fuerte / 2FA en el correo y cuentas críticas.",
+        "Ofertas de instalar Disk, poner una start page con widget Yandex y extras similares son opcionales. Puedes usar el navegador sin el paquete completo de servicios.",
+      ],
+      links: [
+        {
+          label: "Yandex Disk",
+          href: "/blog/yandeks-disk/",
+        },
+        {
+          label: "Gestor de contraseñas",
+          href: "/es/blog/menedzher-paroley/",
+        },
+      ],
+    },
+    {
+      title: "Errores típicos de instalación en Windows",
+      level: 2,
+      paras: [
+        "Los mensajes del instalador dependen de la versión de Windows y de los permisos. Abajo: clases de problemas que más salían en guías viejas y siguen importando por significado hoy.",
+      ],
+      tables: [
+        {
+          caption: "Qué revisar si falla",
+          headers: ["Situación", "Qué hacer"],
+          rows: [
+            [
+              "Sin derechos de admin",
+              "Ejecutar el instalador como administrador",
+            ],
+            [
+              "Not a valid Win32 application",
+              "Volver a descargar y comprobar la integridad del archivo",
+            ],
+            [
+              "Poco espacio en disco",
+              "Liberar espacio o usar otra unidad",
+            ],
+            [
+              "Bloqueado por antivirus o política",
+              "Permitir el instalador oficial en excepciones",
+            ],
+            [
+              "PC corporativo",
+              "Pedir derechos vía IT — no un repack crackeado",
+            ],
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Códigos de error",
+          text: "Códigos concretos como 0x80072ee7 / 0x80070070 en guías de 2018 son hitos, no las únicas causas. Lee el texto del error y el log del instalador; si dudas, reinstala desde el archivo oficial.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Tras instalar: un mínimo de ajustes",
+      level: 2,
+      paras: [
+        "Revisa actualizaciones, importa favoritos si hace falta y activa sync solo si confías en la cuenta. Para cuentas de cliente, un perfil de navegador aparte o un gestor de contraseñas es más limpio.",
+        "Cuál es el «mejor» navegador es otro tema; aquí el trabajo es instalar el Yandex Browser oficial sin riesgo extra.",
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Build oficial, elección deliberada del navegador predeterminado, importación opcional de datos y arreglo de errores por permisos / espacio en disco / descarga fresca.",
+        "No pagues ni envíes SMS por una «instalación gratis del navegador» en sitios de terceros.",
+      ],
+    },
+  ],
+  closing: [
+    "Descarga Yandex Browser desde la página oficial, instálalo con tu cuenta del SO y mueve favoritos solo si los necesitas — así tienes un navegador que funciona sin instaladores grises.",
+  ],
+  related: [
+    "yandeks-disk",
+    "menedzher-paroley",
+    "cookies",
+    "chrome-rasshireniya-marketing",
+    "chrome-rasshireniya-seo",
+    "https-seo",
+  ],
+};

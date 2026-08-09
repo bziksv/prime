@@ -175,3 +175,187 @@ export const blogInstagramEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for blog-instagram — same structure as RU JSON / EN. */
+export const blogInstagramEs: BlogPost = {
+  slug: "blog-instagram",
+  title: "Llevar un blog en Instagram: temas y primeros pasos",
+  date: "2021-06-04",
+  category: "SMM",
+  cover: "/images/blog/blog-instagram/cover.webp",
+  excerpt:
+    "Cómo empezar un blog personal en Instagram: elegir tema, armar la bio, construir un plan de contenidos y series de fotos — sin promesas de «primera página al instante sin gasto» ni catálogo de apps obsoletas.",
+  lead: [
+    "Un blog de autor en Instagram no empieza con una plantilla de diseño — empieza con dos respuestas: qué estás dispuesto a compartir con regularidad, y qué beneficio o emoción se lleva el follower. Sin ese ancla el feed se vuelve un montón de posts al azar.",
+    "Abajo: un sistema práctico de arranque — posicionamiento, setup, rúbricas, producción de contenido y lectura de la respuesta. El mismo enfoque vale para un experto personal, un proyecto hobby y una marca pequeña.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia de «negocio en Instagram»?",
+      a: "Aquí el foco es un blog personal/de autor y cómo empezar. El artículo de negocio cubre un proyecto comercial y un sistema de ventas.",
+    },
+    {
+      q: "¿Se puede llevar un blog sin presupuesto de ads?",
+      a: "Sí al inicio. El crecimiento es más lento; calidad y constancia ganan a esquemas de engagement falso al instante.",
+    },
+    {
+      q: "¿Qué tema elegir?",
+      a: "Uno donde tengas expertise o experiencia vivida. Los nichos populares son competitivos — hace falta tu propio ángulo.",
+    },
+    {
+      q: "¿Hace falta una cuenta business?",
+      a: "Para insights — suele sí, es más cómodo. Ver el artículo del perfil business.",
+    },
+    {
+      q: "¿Hay que publicar cada día?",
+      a: "El ritmo ayuda al inicio, pero el burnout es peor. Unos 3–5 posts sólidos a la semana ganan a posts diarios vacíos.",
+    },
+    {
+      q: "¿Se puede cambiar el tema del blog después?",
+      a: "Sí si explicas el nuevo foco y haces la transición poco a poco. Un salto de nicho brusco y sin explicación suele bajar la respuesta.",
+    },
+    {
+      q: "¿Debo comprar followers para la primera impresión?",
+      a: "No. Una audiencia no objetivo destroza las métricas y no crea diálogo. Crece el alcance con contenido útil y promoción legítima.",
+    },
+  ],
+  sections: [
+    {
+      title: "Objetivo, audiencia y nicho",
+      level: 2,
+      paras: [
+        "Fija un objetivo: un diario con mirada reconocible, expertise profesional, un hobby o una marca personal. Eso marca tono, héroes del encuadre, profundidad y la acción esperada del follower.",
+        "Describe no un «todo el mundo» abstracto, sino unas cuantas situaciones vivas: un principiante quiere un tip claro, un colega quiere un desglose de práctica, un cliente comprueba tu expertise. Así es más fácil elegir tema y dejar de escribir para todos a la vez.",
+        "Un tema amplio con varias rúbricas estables gana a saltar de nicho cada semana. La vida personal puede ser parte del blog si refuerza la imagen del autor en lugar de ahogar la idea central.",
+      ],
+      lists: [
+        {
+          intro: "Direcciones que funcionan (si son tuyas):",
+          items: [
+            "lifestyle con un giro claro",
+            "enseñanza y how-tos",
+            "libros / cine / reseñas",
+            "la profesión desde dentro",
+            "hobbies útiles (jardín, mascotas, deporte)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Enuncia la promesa del blog",
+      level: 2,
+      paras: [
+        "Todo follower debería entender por qué se queda tras la primera vista. Escribe una promesa corta: qué tema cubres, para quién y desde qué ángulo. No prometas «todo sobre todo» — eso no ayuda a elegirte entre cientos de cuentas parecidas.",
+        "Prueba la promesa en la práctica: ¿puedes nombrar al menos diez posts futuros sin repetirte? Si no, el tema aún es demasiado estrecho, poco claro o elegido solo porque parece tendencia.",
+      ],
+      lists: [
+        {
+          intro: "Un buen posicionamiento responde:",
+          items: [
+            "qué tema cubre el autor",
+            "qué experiencia o necesidad entiende",
+            "qué formato aparecerá con regularidad",
+            "cómo se diferencia la mirada del autor de tips genéricos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Arma el perfil para la primera visita",
+      level: 2,
+      paras: [
+        "Elige un handle corto y pronunciable cerca de tu nombre o proyecto. El avatar debe leerse en un círculo pequeño: un retrato, una marca o un símbolo simple de alto contraste gana a una imagen abarrotada.",
+        "En la bio, explica el tema, el rol del autor y el siguiente paso en unas líneas. Los contactos importan cuando estás listo a responder por ellos; enlaces y CTAs no deben convertir el perfil en una valla publicitaria.",
+        "Si importan los insights, elige un modo profesional adecuado y mira qué datos muestra. Los ajustes no crean contenido, pero ayudan a ver a qué formatos responde la audiencia.",
+      ],
+      links: [
+        {
+          label: "Diseño de perfil en Instagram",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+        {
+          label: "Cuenta business en Instagram",
+          href: "/es/blog/biznes-akkaunt-instagram/",
+        },
+        {
+          label: "Plan de contenidos en Instagram",
+          href: "/es/blog/kontent-plan-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Construye rúbricas y un plan de contenidos",
+      level: 2,
+      paras: [
+        "Un plan de contenidos no es una tabla por sí misma — es un backlog de ideas con sentido. Reúne rúbricas que sostengan el tema principal: how-tos, notas personales, desglose de errores, respuestas a FAQ, bastidores del proceso y diálogo con la audiencia.",
+        "Deja margen para eventos del momento, pero no armes todo el plan sobre ellos. Un ritmo estable gana a la frecuencia máxima: elige un volumen que puedas publicar sin bajar calidad ni quemarte.",
+        "Prepara no solo temas sino fuentes: fotos, hechos, enlaces, ejemplos, tesis. Así publicar no se vuelve una carrera a medianoche por «cualquier cosa para el feed».",
+      ],
+      lists: [
+        {
+          intro: "Ejemplo de set de rúbricas:",
+          items: [
+            "posts explicativos para principiantes",
+            "un caso o experiencia de práctica",
+            "contexto personal ligado al tema",
+            "una pregunta a followers y cosecha de temas",
+            "una ronda de fuentes útiles con tu comentario",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Fotos para Instagram",
+          href: "/es/blog/foto-instagram/",
+        },
+        {
+          label: "Negocio en Instagram",
+          href: "/es/blog/biznes-v-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Escribe y muestra con constancia",
+      level: 2,
+      paras: [
+        "Empieza el texto con una observación, pregunta o resultado que tu audiencia entienda. Luego amplía con ejemplos y cierra con una acción natural: guardar la pieza, responder una pregunta, pasar al siguiente tema. No todo post tiene que vender.",
+        "El estilo visual no es un filtro único en cada foto. Importan principios repetibles: luz, paleta, composición, tipografía y covers claras. Ayudan a reconocer posts en el feed sin ahogar el contenido.",
+        "Vídeo corto, Stories y posts del feed pueden cumplir trabajos distintos. Elige el formato por la sustancia de la idea — no copies una tendencia que no encaja con tu voz.",
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Prueba dos o tres rúbricas durante un par de semanas. Quédate con las que puedas contar con sustancia y que saquen respuestas con sentido — no solo views al azar.",
+        },
+      ],
+    },
+    {
+      title: "Crece el diálogo y mide la respuesta",
+      level: 2,
+      paras: [
+        "El crecimiento del blog no es solo el conteo de followers. Mira si la gente guarda materiales, termina clips, responde preguntas y pasa a otros posts. Para un experto, diez diálogos de calidad pueden ganar a un alcance amplio pero aleatorio.",
+        "Revisa resultados semanal o mensualmente, no tras cada post. Compara formatos parecidos, anota temas con buenas preguntas y actualiza el plan. No compres reacciones ni followers: distorsionan la analítica y no construyen confianza.",
+        "Responde comentarios con sustancia, fija reglas de conversación y modera insultos. La comunidad se forma no solo con posts, sino con cómo el autor lleva la charla.",
+      ],
+      links: [
+        {
+          label: "Cómo armar un plan de contenidos en Instagram",
+          href: "/es/blog/kontent-plan-instagram/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "kontent-plan-instagram",
+    "biznes-v-instagram",
+    "foto-instagram",
+    "oformlenie-stranicy-instagram",
+    "biznes-akkaunt-instagram",
+    "post-instagram",
+  ],
+};

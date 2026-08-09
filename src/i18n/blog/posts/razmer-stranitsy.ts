@@ -206,3 +206,210 @@ export const razmerStranitsyEn: BlogPost = {
     "kod-statusa-http",
   ],
 };
+
+/** ES overlay for razmer-stranitsy — same structure as RU JSON / EN. */
+export const razmerStranitsyEs: BlogPost = {
+  slug: "razmer-stranitsy",
+  title: "Tamaño de página web: cómo comprobar el peso y acelerar la carga",
+  date: "2020-10-12",
+  category: "SEO",
+  cover: "/images/blog/razmer-stranitsy/cover.webp",
+  excerpt:
+    "Qué significa el «peso» de una página, cómo ver el transfer size en DevTools y herramientas, por qué las páginas pesadas duelen a la UX y al SEO, y qué comprimir primero.",
+  lead: [
+    "El peso de página es cuántos bytes descarga el navegador para mostrar el documento: HTML, CSS, JS, imágenes, fuentes, widgets de terceros. Cuanto mayor el volumen y peor la compresión, más espera la gente en una conexión floja.",
+    "Abajo: por qué medir el peso, cómo verlo en un minuto y qué suele dar la victoria más rápida. Es higiene de velocidad — no «primera página gracias a menos KB».",
+  ],
+  faq: [
+    {
+      q: "¿El peso de página es el tamaño del archivo HTML?",
+      a: "No. Mira el transfer size total de todos los recursos del documento (y caché vs red). El HTML suele ser minúsculo junto a imágenes y JS.",
+    },
+    {
+      q: "¿Qué peso de página es normal?",
+      a: "Depende del tipo. En un landing sobre 3G, apunta a cientos de KB–un par de MB razonables — no decenas de megabytes sin necesidad real. LCP/INP y datos de field pesan más que un solo número.",
+    },
+    {
+      q: "¿Dónde mirar en el navegador?",
+      a: "DevTools → Network: columna Size, total abajo. Desactiva caché para una carga en frío. Performance/Lighthouse — diagnóstico extra.",
+    },
+    {
+      q: "¿El peso afecta al SEO de forma directa?",
+      a: "A través de velocidad y comportamiento: una página pesada duele a Core Web Vitals y al bounce. La búsqueda no rankea por KB, pero una UX lenta pega a la visibilidad de forma indirecta.",
+    },
+    {
+      q: "¿Basta con comprimir imágenes?",
+      a: "A menudo sí como primer paso, pero también importan JS/CSS pesados y widgets de más. Corta por contribución en Network.",
+    },
+    {
+      q: "¿Gzip/Brotli son obligatorios?",
+      a: "Sí para recursos de texto en producción. Sin compresión HTML/CSS/JS se hinchan varias veces.",
+    },
+    {
+      q: "¿Un CDN reduce el peso?",
+      a: "No el peso del archivo — la latencia de entrega. El peso se corta optimizando assets; el CDN es proximidad y caché.",
+    },
+    {
+      q: "¿Móvil y desktop son iguales?",
+      a: "A menudo no: imágenes distintas, menú, scripts. Mide ambos perfiles y dispositivos reales/throttling.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué saber el tamaño de página",
+      level: 2,
+      paras: [
+        "Mucho volumen en LTE/3G lento = LCP largo, pantalla en blanco, se van antes del contenido. En hosting y CDN el tráfico extra cuesta dinero. Para SEO importan las métricas de velocidad de field y si la gente termina la página.",
+        "El peso es una señal simple de «dónde está la grasa»: compara la URL de un competidor con la tuya, detecta un pico tras un widget, controla un release.",
+      ],
+      lists: [
+        {
+          intro: "Cuando medir es obligatorio:",
+          items: [
+            "tras un rediseño / plantilla nueva",
+            "antes de gastar ads en un landing",
+            "si crece el bounce móvil",
+            "cuando alguien dice «el sitio va lento»",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo ver el peso en DevTools",
+      level: 2,
+      paras: [
+        "Abre la página → F12 / DevTools → pestaña Network. Activa Disable cache, recarga. Abajo verás conteo de requests y bytes transferidos. Ordenar por Size muestra a los que más comen.",
+        "Mira aparte transferred (por la red) y resource size. La caché tuerce el cuadro — para una auditoría importa más una carga en frío.",
+      ],
+      lists: [
+        {
+          intro: "Mini ritual:",
+          items: [
+            "incógnito + disable cache",
+            "user-agent móvil / throttling",
+            "anota los 10 recursos más pesados por Size",
+            "repite en un landing clave y una ficha de producto",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Mirar solo el HTML con «Guardar como». El peso real es toda la carga del waterfall.",
+        },
+      ],
+      links: [
+        {
+          label: "Código fuente de la página",
+          href: "/es/blog/ishodnyy-kod/",
+        },
+      ],
+    },
+    {
+      title: "Herramientas online y qué muestran",
+      level: 2,
+      paras: [
+        "PageSpeed Insights, WebPageTest, GTmetrix y similares dan estimaciones de peso, cadenas de requests y recomendaciones. Los números divergen por ubicación y caché — compara relativo before/after en una sola herramienta.",
+        "No persigas un «score 100» para un screenshot. El objetivo es cortar megabytes de más y mejorar la velocidad percibida.",
+      ],
+      lists: [
+        {
+          intro: "En el informe busca:",
+          items: [
+            "peso total de la página",
+            "imágenes sin compresión/formatos modernos",
+            "CSS/JS sin usar",
+            "scripts bloqueantes en head",
+            "redirects de más",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué suele hinchar una página",
+      level: 2,
+      paras: [
+        "Fotos y fondos sin optimizar, vídeo autoplay, demasiadas fuentes, sliders pesados, analytics y chats «por si acaso», librerías duplicadas, un mapa de toda la home sin lazy load.",
+        "En un CMS — plugins, cada uno con su CSS/JS. Una auditoría de plugins a menudo ahorra más que retocar la calidad JPEG un 5%.",
+      ],
+      lists: [
+        {
+          intro: "Culpables habituales:",
+          items: [
+            "imágenes > 200–300 KB sin necesidad real",
+            "hero en PNG en lugar de WebP/AVIF",
+            "todo jQuery UI por un botón",
+            "widgets sociales y live chat",
+            "bundles sin minificar",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo acelerar: orden de trabajo",
+      level: 2,
+      paras: [
+        "Primero corta la contribución más pesada en Network. Imágenes: compresión, formatos modernos, srcset, lazy-load below the fold. Texto: Brotli/Gzip. JS/CSS: quita lo no usado, defer/async, code-split.",
+        "Caché del navegador y CDN — después de que los archivos estén ligeros. Si no, solo entregas la misma grasa más rápido.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de sprint:",
+          items: [
+            "comprimir hero y fichas de producto",
+            "activar compresión del servidor",
+            "diferir JS no crítico",
+            "quitar 1–2 widgets de más",
+            "volver a medir DevTools before/after",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "Control en producción",
+      level: 2,
+      paras: [
+        "Fija un presupuesto de peso por plantilla (home, categoría, artículo). En CI o el checklist de release — un snapshot de Network. Mira CWV de field en paneles de webmaster.",
+        "Tras releases grandes compara no solo scores de Lighthouse sino el transfer size real de URLs clave.",
+      ],
+      lists: [
+        {
+          intro: "Playbook:",
+          items: [
+            "URLs de referencia y sus límites",
+            "un dueño de los assets",
+            "prohibir subir una foto de 5MB al contenido sin compresión",
+            "re-auditoría trimestral",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Un widget de chat pesado a menudo pesa más que todo tu CSS. Cuenta contribución, no intuición.",
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de página",
+          href: "/es/blog/optimizatsiya-stranitsy/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "tehnicheskiy-seo-audit",
+    "optimizatsiya-stranitsy",
+    "ishodnyy-kod",
+    "protokol-http",
+    "kod-statusa-http",
+  ],
+};

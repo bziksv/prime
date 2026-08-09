@@ -215,3 +215,219 @@ export const utmMetkiEn: BlogPost = {
     "veb-analitik",
   ],
 };
+
+/** ES overlay for utm-metki — same structure as RU JSON / EN. */
+export const utmMetkiEs: BlogPost = {
+  slug: "utm-metki",
+  title: "Etiquetas UTM: qué son y por qué marcar los enlaces",
+  date: "2018-04-20",
+  category: "Digital marketing",
+  cover: "/images/blog/utm-metki/cover.webp",
+  excerpt:
+    "Por qué importan las UTM, qué parámetros son obligatorios (source, medium, campaign), cómo nombrar valores sin caos en informes y cómo leerlos en Metrica y Google Analytics.",
+  lead: [
+    "Las etiquetas UTM son parámetros en la URL que pasan fuente, canal y campaña a analytics. Sin ellas cuesta ver qué anuncio, email o post trajo el lead — no solo un genérico «/cpc».",
+    "Abajo: estructura de la etiqueta, campos obligatorios y opcionales, reglas de naming y errores típicos. Los generadores de enlaces aceleran el tipeo; la convención de valores la decides tú.",
+  ],
+  faq: [
+    {
+      q: "¿Qué es UTM?",
+      a: "Parámetros como utm_source, utm_medium, utm_campaign en la query string del enlace. El contador los lee y parte la visita por fuentes y campañas.",
+    },
+    {
+      q: "¿Qué etiquetas son obligatorias?",
+      a: "Suele bastar source, medium y campaign. Sin el set requerido el resto a menudo no se atribuye bien.",
+    },
+    {
+      q: "¿Hace falta UTM en el tráfico orgánico?",
+      a: "No: la búsqueda ya pasa el canal. UTM es para ads, emails, posts, partners — donde la fuente se difuminaría.",
+    },
+    {
+      q: "¿Metrica y GA leen UTM igual?",
+      a: "Ambos entienden el estándar. Informes y agrupaciones difieren — compara tendencias dentro de un mismo sistema.",
+    },
+    {
+      q: "¿Se puede usar cirílico en los valores UTM?",
+      a: "Mejor latín y transliteración: menos sorpresas de encoding y menos duplicados tipo «Yandex» vs «yandex».",
+    },
+    {
+      q: "¿En qué se diferencia medium=cpc de cpm?",
+      a: "cpc es pago por clic (búsqueda/contexto); cpm es pago por impresiones (display). email, social, referral son otros tipos de canal.",
+    },
+    {
+      q: "¿Las UTM perjudican el SEO?",
+      a: "Mantén URL limpia en el índice en landings canónicas; UTM va en enlaces de ads y email. Canonical y consistencia importan.",
+    },
+    {
+      q: "¿Necesito mi propio generador de UTM?",
+      a: "Útil a volumen. Lo clave es un diccionario de valores en la tabla de campañas — no que cada manager invente de nuevo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué etiquetar enlaces",
+      level: 2,
+      paras: [
+        "Presupuesto en Yandex Direct, Google Ads, social y email sin etiquetar acaba en un informe de «tráfico de pago» sin detalle: qué anuncio, keyword, banner o carta trajo el lead.",
+        "UTM ayuda a comparar búsqueda vs red, campañas, creatividades y landings — y a apagar lo que quema dinero sin leads.",
+      ],
+      lists: [
+        {
+          intro: "Preguntas típicas que responden las etiquetas:",
+          items: [
+            "qué campaña tiene mejor CR",
+            "si el emplazamiento premium se paga",
+            "qué banner del email trajo una venta",
+            "qué post social impulsó clics",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Herramientas de web analytics",
+          href: "/es/blog/instrumenty-veb-analitiki/",
+        },
+      ],
+    },
+    {
+      title: "Cómo se ve UTM en una URL",
+      level: 2,
+      paras: [
+        "Añades una query a la URL de la landing: `?utm_source=yandex&utm_medium=cpc&utm_campaign=windows-voronezh`. Los parámetros son pares `nombre=valor` unidos por `&`. Sin espacios en el enlace final.",
+        "Las plantillas de ads suelen usar sustituciones de la cuenta (parámetros dinámicos) que insertan IDs de campaña/anuncio al clic. Aun así, mantén la parte estática (source/medium/nombres) en un solo estilo.",
+      ],
+      lists: [
+        {
+          intro: "Mini reglas de cadena:",
+          items: [
+            "latín, minúsculas",
+            "palabras con `-` o `_`",
+            "sin espacios ni mayúsculas «de adorno»",
+            "un diccionario para todo el equipo",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error frecuente",
+          kind: "warning",
+          text: "Escribir `Yandex_Direct` en un anuncio y `yandex` en otro — el informe muestra dos «fuentes» para el mismo sistema.",
+        },
+      ],
+    },
+    {
+      title: "Parámetros obligatorios",
+      level: 2,
+      paras: [
+        "**utm_source** — fuente: yandex, google, vk, newsletter, partner_x.",
+        "**utm_medium** — tipo de canal: cpc, cpm, email, social, banner, referral.",
+        "**utm_campaign** — nombre de campaña/oferta: `windows-spring-2026`, `brand-search`. Modular, pero corto y legible en informes.",
+      ],
+      tables: [
+        {
+          caption: "Ejemplos de UTM obligatorias",
+          headers: ["Parámetro", "Valor de ejemplo", "Significado"],
+          rows: [
+            ["utm_source", "yandex", "Sistema de ads / emplazamiento"],
+            ["utm_medium", "cpc", "Pago por clic"],
+            ["utm_campaign", "plastic-windows", "Campaña / tema"],
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Emplazamiento premium en Direct",
+          href: "/es/blog/spetsrazmeshchenie-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Parámetros opcionales",
+      level: 2,
+      paras: [
+        "**utm_term** — suele ser la keyword o la audiencia de targeting. Útil en búsqueda si la cuenta de ads no pasa la keyword de otro modo.",
+        "**utm_content** — distinguir anuncios, banners, botones del email (`banner-a`, `cta-green`). Los A/B de creatividades aparecen en analytics, no solo en la cuenta de ads.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo ayudan los secundarios:",
+          items: [
+            "muchos anuncios en una campaña",
+            "varios botones en un mismo email",
+            "necesitas cruzar keyword ↔ consulta en informes",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Metrica, GA y auto-tagging",
+      level: 2,
+      paras: [
+        "Yandex Metrica arma informes por etiquetas (árbol de fuentes). Google Analytics parte UTM por Source/Medium/Campaign. Ambos esperan el set obligatorio completo — si no, la visita puede perder el etiquetado.",
+        "Direct y Google Ads tienen auto-tagging / plantillas de tracking. Puedes combinarlos con UTM, pero no inventes esquemas en conflicto: fija un estándar en el playbook.",
+      ],
+      lists: [
+        {
+          intro: "Práctica de rollout:",
+          items: [
+            "tabla de convención source/medium",
+            "plantilla de enlace en el generador",
+            "comprobar el clic en ventana limpia",
+            "comprobar la visita en Metrica/GA el día del lanzamiento",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Google Analytics",
+          href: "/es/blog/google-analytics/",
+        },
+        {
+          label: "Goals en Google Analytics",
+          href: "/es/blog/google-analytics-tseli/",
+        },
+      ],
+    },
+    {
+      title: "Cómo crear etiquetas sin caos",
+      level: 2,
+      paras: [
+        "Generadores online y hojas aceleran el montaje: pegas la URL de la landing y los valores — obtienes el enlace listo. Con cientos de anuncios hace falta plantilla con auto-sustituciones de la cuenta de ads.",
+        "No etiquetes con UTM los enlaces internos del sitio «por lucir»: ensucias rutas y atribución. UTM va en puntos de entrada externos de campaña.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de calidad:",
+          items: [
+            "source + medium + campaign presentes",
+            "valores del diccionario del equipo",
+            "la landing abre con etiquetas",
+            "la visita se ve en analytics",
+            "sin UTM en menús internos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Enlace con SEO",
+          kind: "tip",
+          text: "Las UTM solas no empujan rankings orgánicos. Ayudan a evaluar tráfico de pago y referral. La visibilidad orgánica sigue sus propias reglas: prep y subida de rankings son plazos distintos — la cuota del núcleo en primera página suele planificarse a dos–seis meses tras arrancar el trabajo.",
+        },
+      ],
+      links: [
+        {
+          label: "Paid search y SEO",
+          href: "/es/blog/kontekst-i-seo/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "instrumenty-veb-analitiki",
+    "google-analytics",
+    "google-analytics-tseli",
+    "kontekst-i-seo",
+    "spetsrazmeshchenie-direkt",
+    "veb-analitik",
+  ],
+};

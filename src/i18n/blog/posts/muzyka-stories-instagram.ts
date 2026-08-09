@@ -144,3 +144,148 @@ export const muzykaStoriesInstagramEn: BlogPost = {
     "emodzi",
   ],
 };
+
+/** ES overlay for muzyka-stories-instagram — same structure as RU JSON / EN. */
+export const muzykaStoriesInstagramEs: BlogPost = {
+  slug: "muzyka-stories-instagram",
+  title: "Música en Instagram Stories: sticker, licencias y editores",
+  date: "2020-07-09",
+  category: "SMM",
+  cover: "/images/blog/muzyka-stories-instagram/cover.webp",
+  excerpt:
+    "Cómo añadir música a Instagram Stories con el sticker built-in, por qué el acceso al catálogo depende de región y tipo de cuenta, y cómo trabajar en editores sin «workarounds» dudosos.",
+  lead: [
+    "El sticker de música en Stories hace el frame más vivo: un track del catálogo de Meta, cover art y una timeline del clip. La disponibilidad del catálogo depende del país, el tipo de cuenta y las licencias — la afirmación vieja de «nunca disponible en Rusia» ya no es universal.",
+    "Abajo: el camino built-in, límites de las reglas de comunidad, trabajo en un editor de vídeo con sonido propio o con licencia, y por qué grabar en pantalla el player de otro es un movimiento flojo y arriesgado. El disclaimer de Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Dónde está el botón de música en Stories?",
+      a: "Suele estar en stickers al crear una story (Music / icono «Music»). Si falta — revisa región, edad, límites de cuenta o versión de la app.",
+    },
+    {
+      q: "¿Puedo usar cualquier track del teléfono?",
+      a: "En el sticker built-in — solo del catálogo de Instagram. Tu propio archivo suele irse en capas en un editor antes del upload; respeta el copyright.",
+    },
+    {
+      q: "¿Por qué el track se corta corto?",
+      a: "Stories son cortas: eliges un fragmento. Una licencia también puede limitar la duración o el uso comercial.",
+    },
+    {
+      q: "¿Son seguras las apps «music for Stories»?",
+      a: "Las apps de edición de vídeo están bien si no piden tu contraseña de Instagram. Evita herramientas de «bypass region» que quieren login de la cuenta.",
+    },
+    {
+      q: "¿Está bien grabar en pantalla un music player?",
+      a: "Técnicamente posible, pero el ruido, los derechos del track y la calidad suelen ser peores que el sticker built-in o un archivo limpio en un editor.",
+    },
+  ],
+  sections: [
+    {
+      title: "Sticker de música built-in",
+      level: 2,
+      paras: [
+        "Crea Stories → stickers → Music → busca un track → elige un segmento → coloca el widget en el frame → publica.",
+        "El volumen y la posición del sticker se fijan en el editor de story. Fondo alto más voz se convierte en barro — equilíbralos.",
+        "Si falta el sticker: actualiza la app, comprueba que la cuenta no esté restringida y revisa Help Center sobre Music in Stories en tu región.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Mantente al día",
+          text: "El catálogo y el acceso geo han cambiado muchas veces. No trates capturas de 2020 como verdad — mira lo que muestra tu app hoy.",
+        },
+      ],
+    },
+    {
+      title: "Reglas y comercio",
+      level: 2,
+      paras: [
+        "Un track del catálogo no es «vale en cualquier ad». Marcas y promos a veces enfrentan límites de licencia aparte — presta atención a avisos in-app.",
+        "El texto y el tema de la story no deben romper las reglas de comunidad: extremismo, odio o «solo una banda sonora» no salvan una violación de policy.",
+        "Para Stories promovidas de pago, confirma si el sonido elegido está permitido en ads.",
+      ],
+    },
+    {
+      title: "Editor de vídeo antes del upload",
+      level: 2,
+      paras: [
+        "Si necesitas tu voz, un jingle o un track con licencia: arma el clip en un editor (InShot, CapCut y similares — a tu elección), exporta 9:16 y súbelo a Stories desde la galería.",
+        "Controlas mejor el volumen de voz y música que haciendo malabares con dos apps a la vez.",
+        "No introduzcas el login de Instagram en utilidades dudosas de «bypass region» — exportar un archivo basta.",
+      ],
+      lists: [
+        {
+          intro: "Antes del export:",
+          items: [
+            "vertical 9:16",
+            "duración del segmento para un clip de Stories",
+            "voz audible sobre el track",
+            "derechos para usar el sonido",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Vídeo en Instagram Stories",
+          href: "/es/blog/video-stories-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Qué evitar",
+      level: 2,
+      paras: [
+        "Grabar en pantalla el player de otra red «para saltarse el catálogo» trae ruido, notificaciones en el frame y legalidad dudosa del track.",
+        "Los servicios «Unlock Music sticker» que piden contraseña son phishing.",
+        "Repostear en masa tracks ajenos sin revisar licencia en Stories comerciales arriesga reports y límites.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Importante",
+          text: "No reciclamos guías viejas con catálogos de apps grises «para Rusia». El objetivo es sonido que funcione sin comprometer la cuenta.",
+        },
+      ],
+    },
+    {
+      title: "Práctica para negocio",
+      level: 2,
+      paras: [
+        "Un motivo reconocible a lo largo de una serie de Stories refuerza la marca — un jingle corto a medida gana a un hit al azar de la semana.",
+        "Para promos y precios, a menudo basta voz más un fondo ligero del catálogo o una biblioteca de música con licencia.",
+        "Testea retention: música por música sin oferta no salva un frame débil.",
+      ],
+      links: [
+        {
+          label: "Views de Stories en Instagram",
+          href: "/es/blog/prosmotry-stories-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Primero busca el sticker Music built-in en Stories.",
+        "Sin sticker o necesitas sonido propio — editor más licencia, no workarounds de phishing.",
+        "Para una marca, planifica el sonido igual que el visual y el CTA.",
+      ],
+    },
+  ],
+  closing: [
+    "Abre stickers en Stories y revisa el catálogo en tu cuenta. Si falta música o necesitas un track de marca — arma el clip en un editor con sonido legal y publícalo desde la galería.",
+  ],
+  related: [
+    "video-stories-instagram",
+    "prosmotry-stories-instagram",
+    "neskolko-stories-instagram",
+    "ssylka-stories-instagram",
+    "skachat-stories-instagram",
+    "emodzi",
+  ],
+};

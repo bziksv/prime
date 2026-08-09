@@ -153,3 +153,157 @@ export const glavnayaStranitsaEn: BlogPost = {
     "formy-zahvata",
   ],
 };
+
+/** ES overlay for glavnaya-stranitsa — same structure as RU JSON / EN. */
+export const glavnayaStranitsaEs: BlogPost = {
+  slug: "glavnaya-stranitsa",
+  title: "Homepage del sitio: captar atención sin confundir",
+  date: "2020-12-01",
+  category: "Sitios web",
+  cover: "/images/blog/glavnaya-stranitsa/cover.webp",
+  excerpt:
+    "Qué necesita una homepage: quién eres, qué ofreces, en qué te diferencias; header, bloques, CTA y footer — sin un muro de texto ni diseño bonito obsoleto por el diseño mismo.",
+  lead: [
+    "La homepage es el punto de entrada: en segundos la gente debería saber dónde aterrizó, qué valor obtiene y qué clic dar después. La belleza sin claridad molesta tanto como un look anticuado.",
+    "Abajo: un marco para un sitio corporativo/de servicios. Un desglose aparte de escaparate está en la pieza de homepage de e‑commerce; qué frases no poner en la homepage — en el artículo de copy de homepage.",
+  ],
+  faq: [
+    {
+      q: "¿La homepage es todo el sitio?",
+      a: "No. Presenta y dirige. Servicios, casos, precios, blog — en sus propias URLs, o te queda un muro de texto.",
+    },
+    {
+      q: "¿Cuánto copy necesita la homepage?",
+      a: "Córtalo: oferta, 3–5 beneficios, confianza, CTA. El detalle va en páginas internas.",
+    },
+    {
+      q: "¿Hace falta un slider?",
+      a: "No. A menudo hace daño. Una primera pantalla fuerte con oferta y botón gana a un carrusel de diez banners.",
+    },
+    {
+      q: "¿Dónde van el teléfono y el CTA?",
+      a: "En el header y/o la primera pantalla — visibles en móvil. Un duplicado en el footer está bien.",
+    },
+    {
+      q: "¿Importa el SEO en la homepage?",
+      a: "Marca, navegación, enlaces internos. No vuelques aquí todo el núcleo comercial de keywords — para muchas queries importan más los landings.",
+    },
+    {
+      q: "¿Cada cuánto actualizarla?",
+      a: "Cuando cambian la oferta, la temporada o las promos. Una homepage «viva» gana a un stub eterno de 2015.",
+    },
+    {
+      q: "¿En qué se diferencia de la homepage de una tienda?",
+      a: "Una tienda se apoya más en escaparate, búsqueda, categorías y carrito. Servicios/B2B — oferta, prueba, camino al lead.",
+    },
+    {
+      q: "¿La «historia de la empresa» pertenece a la primera pantalla?",
+      a: "Suele no. Un sentido corto — sí; la biografía del fundador — en About.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué debe pillar la gente al instante",
+      level: 2,
+      paras: [
+        "Quién eres y para quién. Qué vendes o qué problema resuelves. En qué te diferencias de los parecidos. Qué hacer después (llamada, formulario, catálogo).",
+        "Venga de donde venga el tráfico, algunos hacen clic en el logo y aterrizan en la homepage — debe armar el sentido del sitio.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo en la primera pantalla:",
+          items: [
+            "la oferta en palabras claras",
+            "un CTA visible",
+            "navegación a secciones clave",
+            "un contacto o messenger",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Marco de bloques",
+      level: 2,
+      paras: [
+        "Header: logo (a home), menú, teléfono/contacto. No inventes navegación exótica sin etiquetas.",
+        "Bloques de contenido: servicios/direcciones, prueba (cifras, casos, reseñas — sin fakes), beneficios.",
+        "CTA: un objetivo primario por pantalla; los enlaces secundarios se quedan más quietos.",
+        "Footer: mapa del sitio, bloque legal, contactos, a veces un formulario — ver una pieza aparte.",
+      ],
+      links: [
+        {
+          label: "Footer del sitio",
+          href: "/blog/futer-sayta/",
+        },
+        {
+          label: "Homepage de tienda online",
+          href: "/blog/glavnaya-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "Qué tener en cuenta al diseñar",
+      level: 2,
+      paras: [
+        "Los muros de «sobre todo» matan el escaneo. Corta.",
+        "Ofertas y promos deben verse — sin caos parpadeante.",
+        "Imágenes — propias o con licencia; el filler decorativo no es obligatorio.",
+        "Beneficios con moderación: tres fuertes ganan a diez clichés.",
+        "Actualiza temporada y oferta; una homepage muerta erosiona la confianza.",
+      ],
+      notes: [
+        {
+          title: "Diseño ≠ usabilidad",
+          kind: "tip",
+          text: "Un look moderno ayuda, pero sin botones claros y jerarquía la gente se va. Ver usabilidad.",
+        },
+      ],
+      links: [
+        {
+          label: "Usabilidad",
+          href: "/blog/yuzabiliti/",
+        },
+      ],
+    },
+    {
+      title: "SEO en la homepage sin sobrecarga",
+      level: 2,
+      paras: [
+        "Title y description únicos para la marca/intención principal.",
+        "Un H1 con el sentido de la empresa — no un dump de keywords.",
+        "Enlaces internos a secciones de dinero.",
+        "No conviertas la homepage en un vertedero de todo el núcleo de keywords.",
+      ],
+      links: [
+        {
+          label: "Meta tags",
+          href: "/es/blog/metategi/",
+        },
+        {
+          label: "H1",
+          href: "/es/blog/teg-h1/",
+        },
+      ],
+    },
+    {
+      title: "Ideas clave",
+      level: 2,
+      paras: [
+        "La homepage explica y conduce — no cuenta toda la biografía.",
+        "Header, oferta, prueba, CTA, footer — un marco suficiente.",
+        "Para una tienda, ver la guía de escaparate aparte.",
+      ],
+    },
+  ],
+  closing: [
+    "Abre la homepage en el teléfono cinco segundos: si la oferta y el botón no se leen — arregla eso primero, no un slider nuevo.",
+  ],
+  related: [
+    "metategi",
+    "formy-zahvata",
+    "teg-h1",
+    "lending",
+    "forma-obratnoy-svyazi",
+    "glavnaya-internet-magazina",
+  ],
+};

@@ -135,3 +135,139 @@ export const oshibkiSmmEn: BlogPost = {
     "geymifikatsiya-socseti",
   ],
 };
+
+/** ES overlay for oshibki-smm — same structure as RU JSON / EN. */
+export const oshibkiSmmEs: BlogPost = {
+  slug: "oshibki-smm",
+  title: "Errores de promoción en redes: qué mata los resultados con más frecuencia",
+  date: "2020-03-13",
+  category: "SMM",
+  cover: "/images/blog/oshibki-smm/cover.webp",
+  excerpt:
+    "Errores típicos de SMM: sin estrategia ni audiencia, contenido aburrido, spam y insistencia, ahorrar en todo, ignorar ads y moderación tóxica — sin el mito de que «las señales sociales = posiciones».",
+  lead: [
+    "El marketing en redes se atasca no por «el botón equivocado», sino por los mismos fallos: sin objetivo, sin audiencia en la plataforma, un feed solo de anuncios del sitio, o spam y silencio por turnos.",
+    "Abajo: un checklist de errores y qué poner en su lugar. Los canales sociales no sustituyen al SEO vía «señales sociales» por sí solos — leads y awareness se cuentan aparte de las posiciones en búsqueda.",
+  ],
+  faq: [
+    {
+      q: "¿Subir en la búsqueda vía redes es el objetivo principal del SMM?",
+      a: "No. Las redes traen tráfico, confianza y warm-up. Un «boost a la primera página por likes» es un mito antiguo; el SEO sigue sus propias reglas.",
+    },
+    {
+      q: "¿Cuántos posts al día es normal?",
+      a: "Depende de la plataforma y la audiencia. Apunta a consistencia y lectura completa, no a un rígido «siempre dos o tres». Mira las stats de alcance.",
+    },
+    {
+      q: "¿Debo borrar todos los comentarios negativos?",
+      a: "No. Spam y toxicidad — sí. Responde a la crítica constructiva con sustancia: un escaparate vacío de cinco estrellas baja la confianza.",
+    },
+    {
+      q: "¿Puede una sola persona llevar todo el SMM?",
+      a: "Al inicio — sí. A escala, contenido, respuestas y ads suelen necesitar roles o un contratista con KPIs.",
+    },
+    {
+      q: "¿Se puede crecer sin presupuesto de ads?",
+      a: "Lo orgánico es posible, pero más lento. Hace falta tiempo, calidad y paciencia; «gratis y rápido» suele significar esquemas grises.",
+    },
+  ],
+  sections: [
+    {
+      title: "Sin estrategia y sin perfil de audiencia",
+      level: 2,
+      paras: [
+        "Una comunidad sin trabajos («solo estar online») deriva: posts de nada, vanity metrics.",
+        "Primero: objetivo (leads, warm-up, HR, soporte), audiencia y la plataforma donde realmente están. Jubilados en un canal y teens en otro necesitan formatos distintos.",
+        "Un plan de contenido de dos a cuatro semanas quita el caos mejor que el «qué publicamos» diario.",
+      ],
+      links: [
+        {
+          label: "Audiencia objetivo",
+          href: "/es/blog/tselevaya-auditoriya/",
+        },
+        {
+          label: "Plan de contenido",
+          href: "/es/blog/kontent-plan/",
+        },
+      ],
+    },
+    {
+      title: "Un feed aburrido y solo anuncios del sitio",
+      level: 2,
+      paras: [
+        "Un feed de «otro artículo del blog» sin valor en el post mismo mata el alcance rápido.",
+        "Rota formatos: tips cortos, desgloses, behind the scenes, preguntas a la audiencia, CTAs nativos — no solo un enlace «lee completo».",
+        "El entretenimiento encaja cuando coincide con el tono de marca, no un chiste por el chiste.",
+      ],
+    },
+    {
+      title: "Moderación: silencio vs censura",
+      level: 2,
+      paras: [
+        "Borrar toda la negatividad es un error: la comunidad parece falsa. Responder con sustancia y limitar trolls es normal.",
+        "Quita spam, fraude e insultos sin debate.",
+        "Las reglas de la comunidad en la descripción bajan el volumen de conflictos.",
+      ],
+    },
+    {
+      title: "Ritmo: picos raros o spam",
+      level: 2,
+      paras: [
+        "Una semana de silencio y luego diez posts seguidos rompe el hábito de la audiencia.",
+        "El otro extremo es la insistencia: el feed se llena de una sola marca y la gente deja de seguir.",
+        "Mantén un ritmo predecible y mira tras qué volumen cae el alcance o el engagement rate.",
+      ],
+      links: [
+        {
+          label: "Engagement en redes",
+          href: "/blog/vovlechennost-socseti/",
+        },
+      ],
+    },
+    {
+      title: "Presupuesto, equipo, ads",
+      level: 2,
+      paras: [
+        "«Ahorrar en todo» suele significar creative flojo, sin respuestas en DM y cero toque de pago — el crecimiento es accidental.",
+        "Presupuesta tiempo o dinero para contenido, moderación y al menos un test de ads o una colocación de pago.",
+        "Una persona en todo se quema: delega la rutina o reduce el número de plataformas.",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Los intercambios de enlaces y el mass-liking no sustituyen una oferta y un targeting legítimo. Los esquemas grises dañan la cuenta más que la austeridad.",
+        },
+      ],
+    },
+    {
+      title: "Una plataforma sin tu audiencia",
+      level: 2,
+      paras: [
+        "Una estrategia perfecta en la red equivocada da informes bonitos y leads vacíos.",
+        "Comprueba dónde ya hablan los clientes: reseñas, chats, competidores. Una plataforma fuerte gana a cinco vacías.",
+        "El interés de la audiencia se sostiene con un ángulo único — una columna, expertise, servicio — no solo un concurso de premios.",
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Objetivo, audiencia y ritmo son la base; el resto es complemento.",
+        "No confundas SMM con un botón mágico de SEO.",
+        "Spam y engagement falso son un camino rápido a una base muerta.",
+      ],
+    },
+  ],
+  closing: [
+    "Elige una plataforma, un objetivo para el mes y corta del plan los anuncios de checkbox — eso encoge la lista de errores más rápido que contratar otro SMM para todo.",
+  ],
+  related: [
+    "kontent-plan",
+    "tselevaya-auditoriya",
+    "reklama-instagram",
+    "telegram-kanal",
+    "vovlechennost-socseti",
+    "geymifikatsiya-socseti",
+  ],
+};

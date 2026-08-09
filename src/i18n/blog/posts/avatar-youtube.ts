@@ -141,3 +141,145 @@ export const avatarYoutubeEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for avatar-youtube — same structure as RU JSON / EN. */
+export const avatarYoutubeEs: BlogPost = {
+  slug: "avatar-youtube",
+  title: "Avatar del canal de YouTube: requisitos, ideas y cómo configurarlo",
+  date: "2022-01-12",
+  category: "SMM",
+  cover: "/images/blog/avatar-youtube/cover.webp",
+  excerpt:
+    "Por qué un canal de YouTube necesita un avatar, requisitos de imagen, qué mostrar y cómo cambiar el icono desde el ordenador o el teléfono.",
+  lead: [
+    "Un avatar de YouTube es el icono redondo del canal bajo los vídeos, en la búsqueda y en los comentarios. La gente reconoce la marca por él más rápido que por un nombre largo.",
+    "Abajo: para qué sirve la marca, criterios de calidad y cómo actualizar la imagen. Los ítems del menú de Studio se mueven — busca la personalización del canal.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia el avatar del banner del canal?",
+      a: "El avatar es una marca pequeña permanente. El banner es una cover ancha de cabecera. Ambos deberían compartir un sistema visual.",
+    },
+    {
+      q: "¿Qué tamaño preparar?",
+      a: "Guía — un cuadrado en alta resolución (a menudo 800×800 px o más). Revisa los límites exactos en la Help de YouTube Studio.",
+    },
+    {
+      q: "¿Foto de cara o logo?",
+      a: "Una cara — para un canal personal. Un logo/marca — para una marca y un estudio. Lo que importa es la legibilidad en un círculo pequeño.",
+    },
+    {
+      q: "¿Se pueden usar imágenes al azar de la web?",
+      a: "Solo si tienes derechos. Stock/personaje ajeno sin licencia — riesgo de quejas y bans.",
+    },
+    {
+      q: "¿Qué pasa sin avatar propio?",
+      a: "Se rellena la foto de la cuenta de Google o las iniciales — más débil para el reconocimiento del canal.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué necesitas un avatar",
+      level: 2,
+      paras: [
+        "El icono ayuda a la gente a reconocer el canal en recomendaciones, bajo los vídeos y en comentarios. Un clic en el avatar abre la página del canal.",
+        "Una marca fuerte funciona como un mini-logo: los viewers recuerdan forma y color más rápido que el texto del nombre.",
+      ],
+    },
+    {
+      title: "Requisitos de la imagen",
+      level: 2,
+      paras: [
+        "Prepara un cuadrado con margen: los bordes pueden recortarse bajo la máscara. Pon lo que importa en el centro del frame.",
+      ],
+      lists: [
+        {
+          intro: "Criterios de calidad:",
+          items: [
+            "unicidad — no un clon de otro canal",
+            "legibilidad a tamaño pequeño",
+            "un vínculo claro con el nicho (animales, coches, aprendizaje…)",
+            "contraste entre fondo y sujeto",
+            "tus derechos sobre la imagen",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Revisa un preview: reduce la imagen a ~40–60 px. Si desaparece el sentido — simplifica.",
+        },
+      ],
+    },
+    {
+      title: "Qué representar",
+      level: 2,
+      paras: [
+        "Tres tipos workable: foto del host, logo/letter mark, ilustración. El estilo debería encajar con el tono de los vídeos.",
+      ],
+      lists: [
+        {
+          intro: "Tips por nicho:",
+          items: [
+            "canal personal de experto — retrato",
+            "marca / media — logo",
+            "niños / entretenimiento — personaje brillante (con tus derechos)",
+            "viajes / naturaleza — un símbolo reconocible del nicho, no un relleno con licencia al azar",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Usar la cara de otro o un meme sin derechos «porque queda bien». Eso es riesgo ético y legal.",
+        },
+      ],
+    },
+    {
+      title: "Cómo hacer tu avatar",
+      level: 2,
+      paras: [
+        "La mejor fuente — tu propio rodaje o el logo de marca. Los editores (Canva, Figma, Photoshop y análogos) son para crop y contraste, no para robar trabajo ajeno.",
+      ],
+      lists: [
+        {
+          intro: "Pipeline corto:",
+          items: [
+            "elegir el sujeto (cara / marca)",
+            "recortar a un cuadrado con safe zone",
+            "subir contraste, quitar texto diminuto",
+            "exportar PNG/JPG de alta calidad",
+            "revisar en temas de UI oscuros y claros",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo configurarlo en YouTube",
+      level: 2,
+      paras: [
+        "En YouTube Studio abre personalización del canal / foto de perfil y sube el archivo. En el teléfono el camino es el mismo vía la app Studio o los ajustes del canal — busca el bloque de foto de perfil del canal.",
+        "Tras subir, espera el refresh de cache: el icono en el feed puede no cambiar al instante.",
+      ],
+      lists: [
+        {
+          intro: "Tras el cambio, revisa:",
+          items: [
+            "avatar en la página del canal",
+            "bajo un vídeo fresco",
+            "en un comentario",
+            "coherencia con el banner",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Avatar de Instagram",
+          href: "/es/blog/avatar-instagram/",
+        },
+      ],
+    },
+  ],
+};

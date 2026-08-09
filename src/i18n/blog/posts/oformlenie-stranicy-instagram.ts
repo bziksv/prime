@@ -180,3 +180,184 @@ export const oformlenieStranicyInstagramEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for oformlenie-stranicy-instagram — same structure as RU JSON / EN. */
+export const oformlenieStranicyInstagramEs: BlogPost = {
+  slug: "oformlenie-stranicy-instagram",
+  title: "Diseño del perfil de Instagram: visuales, cabecera y un look cohesivo",
+  date: "2022-03-10",
+  category: "SMM",
+  cover: "/images/blog/oformlenie-stranicy-instagram/cover.webp",
+  excerpt:
+    "Cómo planificar los visuales del perfil: bio, avatar, un estilo de feed consistente, posts y vídeo corto — sin aferrarte a etiquetas de UI obsoletas.",
+  lead: [
+    "Los visuales del perfil deciden si alguien se queda tras la primera pantalla. Abajo: cómo armar la bio, el avatar, un estilo de feed consistente y el diseño de posts. Ver la nota Meta en esta página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Por dónde empezar con el diseño del perfil?",
+      a: "Con el posicionamiento: blog personal o comercio. Eso impulsa la bio, el avatar y el estilo del feed.",
+    },
+    {
+      q: "¿Qué escribir en la bio?",
+      a: "Quién eres / qué vendes, el beneficio para un follower, ubicación o horario, un CTA claro y un enlace si hace falta.",
+    },
+    {
+      q: "¿Por qué mantener un estilo de feed consistente?",
+      a: "La cuadrícula se ve cohesiva, la marca es reconocible y es más fácil planificar sesiones y ediciones.",
+    },
+    {
+      q: "¿Hace falta una cuenta business?",
+      a: "Para comercio suele ser mejor: insights, contactos en la cabecera, herramientas de ads. Las etiquetas exactas del menú cambian — consulta la help de la app.",
+    },
+    {
+      q: "¿Stories y Reels son lo mismo?",
+      a: "No. Stories son de corta vida y sirven para updates a tiempo; Reels son clips verticales cortos pensados para alcance en recomendaciones.",
+    },
+  ],
+  sections: [
+    {
+      title: "Perfil personal o de negocio",
+      level: 2,
+      paras: [
+        "En un par de segundos debe quedar claro: esto va de una persona o de un producto. Una cuenta de comercio responde «qué comprar o pedir — y por qué elegirte».",
+        "Luego haz que cada visual sirva a esa posición: avatar, covers de highlights, tono de foto y copy.",
+      ],
+    },
+    {
+      title: "La bio",
+      level: 2,
+      paras: [
+        "Es un pitch corto. Empieza por beneficios y hechos, no por una novela. Usa dos o tres emoji del tema — no una ristra.",
+      ],
+      lists: [
+        {
+          intro: "Los perfiles de comercio a menudo incluyen:",
+          items: [
+            "qué ofreces y para quién",
+            "ciudad / horario",
+            "términos u oferta",
+            "una promo o USP",
+            "una llamada a la acción (DM, llamada o seguir el enlace)",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Tip",
+          text: "Haz un borrador de la bio en Notas, revisa los saltos de línea y luego pégala en el perfil — más fácil controlar cómo se cortan las líneas.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Cabecera y modo business",
+      level: 2,
+      paras: [
+        "En modo business o profesional, contactos e insights suelen estar más a mano, y la cabecera se ve más utilitaria. Las rutas de ajustes cambian — busca el cambio a cuenta business/profesional en el menú del perfil.",
+        "Fija la categoría y los botones de contacto para que encajen con la oferta de tu bio.",
+      ],
+    },
+    {
+      title: "Avatar",
+      level: 2,
+      paras: [
+        "El avatar aparece en todos lados: feed, comentarios, recomendaciones. En un círculo minúsculo, una cara, un logo o una marca simple tiene que leerse con claridad.",
+      ],
+      lists: [
+        {
+          intro: "Checklist:",
+          items: [
+            "nítido, no borroso",
+            "contraste suficiente contra el fondo",
+            "reconocible sin texto diminuto",
+            "coherente con las covers de highlights",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Rodaje y un buffer de contenido",
+      level: 2,
+      paras: [
+        "Rodar «fresco» cada día te quema. Mantén un pequeño archivo de frames y planifica stories con antelación.",
+        "Buena luz, horizonte nivelado, fondo tranquilo y unos cuantos ángulos te ahorran tiempo en la edición.",
+      ],
+      lists: [
+        {
+          intro: "Hábitos prácticos:",
+          items: [
+            "rodar con buffer",
+            "revisar la luz antes de publicar",
+            "quitar el desorden del encuadre",
+            "hacer 3–5 tomas de una escena",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Un estilo de feed consistente",
+      level: 2,
+      paras: [
+        "El estilo es un recurso que se repite: color grade, sujetos, encuadre, tipografía en covers. Elige una constante y mantenla 10–20 posts antes de un cambio mayor.",
+      ],
+      lists: [
+        {
+          intro: "Enfoques que funcionan:",
+          items: [
+            "un solo color grade",
+            "plantillas de grid (alternancia foto / tarjeta de texto)",
+            "un elemento o composición que se repite",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Diseño del post",
+      level: 2,
+      paras: [
+        "El copy puede ser corto o largo — importa más la estructura: un gancho en las primeras líneas, párrafos, listas y un CTA al final. Los carruseles ayudan a repartir valor entre slides.",
+      ],
+      lists: [
+        {
+          intro: null,
+          items: [
+            "primera línea — un gancho antes de «más»",
+            "párrafos y listas en lugar de un muro de texto",
+            "hashtags y geo por sentido, no spam",
+            "un tono de voz que encaje con la cabecera del perfil",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Stories y vídeo corto",
+      level: 2,
+      paras: [
+        "Stories son para updates a tiempo y calentamiento. Clips cortos (Reels y formatos similares) son para alcance con un plot claro. En ambos casos, planifica el primer frame, captions y una idea por clip antes de rodar.",
+        "Stories desaparecen rápido; los clips siguen trabajando el alcance. No mezcles trabajos: la noticia del día va en Stories; mostrar valor, en un clip.",
+      ],
+      lists: [
+        {
+          intro: "Antes de rodar:",
+          items: [
+            "un objetivo para el clip",
+            "un plot claro de 15–45 segundos",
+            "texto en pantalla para ver sin sonido",
+            "audio limpio e imagen estable",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Directo en Instagram",
+          href: "/es/blog/pryamoy-efir-instagram/",
+        },
+      ],
+    },
+  ],
+};

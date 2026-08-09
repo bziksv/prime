@@ -177,3 +177,185 @@ export const wordpressAdminEn: BlogPost = {
     "bezopasnost-sayta",
   ],
 };
+
+/** ES overlay for wordpress-admin — same structure as RU JSON / EN. */
+export const wordpressAdminEs: BlogPost = {
+  slug: "wordpress-admin",
+  title: "Cómo abrir el admin de WordPress y recuperar el acceso",
+  date: "2018-03-23",
+  category: "Digital marketing",
+  cover: "/images/blog/wordpress-admin/cover.webp",
+  excerpt:
+    "Entrar a wp-admin y wp-login.php, recuperación de contraseña por email, reset vía hosting y fallos típicos de caché — sin consejo de quedarte con el login admin.",
+  lead: [
+    "El admin de WordPress es el panel donde publicas posts, editas páginas e instalas plugins. Entrada habitual: `https://tu-sitio.example/wp-admin/` o `/wp-login.php`.",
+    "Abajo: cómo abrir el formulario de login, qué hacer con una contraseña olvidada, cuándo tocar la base de datos en el hosting y por qué cookies o caché estorban. Esto no es una guía para hackear sitios ajenos ni una llamada a vivir con el login `admin`.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia wp-admin de wp-login.php?",
+      a: "Ambos llevan a la auth. `/wp-admin/` abre el dashboard tras el login; `/wp-login.php` es el formulario. En algunos sitios un plugin de seguridad cambia la URL de login.",
+    },
+    {
+      q: "¿Por qué no abre /wp-admin/?",
+      a: "URL de login distinta, redirect HTTPS, plugin de protección, caché, dominio equivocado (www/non-www) o el sitio caído. Comprueba la dirección del email del host o del desarrollador.",
+    },
+    {
+      q: "¿Es seguro quedarse con el login admin?",
+      a: "No — es un objetivo habitual de brute-force. Pon un username de admin único y una contraseña fuerte; activa 2FA donde puedas.",
+    },
+    {
+      q: "¿En qué se diferencia del artículo de admin del sitio?",
+      a: "Aquel cubre por qué existe un CMS y los roles. Aquí — en concreto el login de WordPress y la recuperación de acceso.",
+    },
+    {
+      q: "¿La contraseña en phpMyAdmin sigue siendo MD5?",
+      a: "Las guías viejas decían MD5. WordPress moderno usa hashing más fuerte; los paneles del host a menudo tienen una herramienta «reset WP password» sin MD5 a mano. Mira la docs actual.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo abrir el login del admin",
+      level: 2,
+      paras: [
+        "En la barra de dirección abre `https://tu-dominio.example/wp-admin/`. Si no aparece el formulario, prueba `https://tu-dominio.example/wp-login.php`. Usa tu dominio; preferir HTTPS.",
+        "Tras instalar WordPress, login y contraseña se fijan en el paso de instalación (o vienen del desarrollador o del host). «Remember me» vale en un dispositivo personal y es arriesgado en uno compartido.",
+      ],
+      lists: [
+        {
+          intro: "Antes de teclear la contraseña comprueba:",
+          items: [
+            "layout del teclado y Caps Lock",
+            "dominio correcto (www / non-www, subdominio staging)",
+            "que sea tu sitio, no una copia phishing",
+            "si un plugin de seguridad cambió la URL de login",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Panel de admin del sitio",
+          href: "/blog/adminka-sayta/",
+        },
+        {
+          label: "Seguridad en WordPress",
+          href: "/es/blog/wordpress-bezopasnost/",
+        },
+      ],
+      notes: [
+        {
+          title: "No te quedes con admin",
+          text: "Instrucciones viejas sugerían el login `admin` «si no cambiaste nada». Hoy es un mal hábito: cambia username y contraseña de administrador, limita intentos de login.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Si olvidaste la contraseña",
+      level: 2,
+      paras: [
+        "En el formulario de login haz clic en «¿Perdiste tu contraseña?» (el wording puede variar). Introduce el username o email de admin — WordPress envía un enlace al email del usuario.",
+        "El correo a veces cae en spam o no se envía por ajustes de mail del host. Entonces revisa el buzón de `wp-config` o del perfil de usuario, o pide al hosting o al desarrollador un reset con su herramienta.",
+      ],
+      lists: [
+        {
+          intro: "Prueba este orden:",
+          items: [
+            "enlace de recuperación en el formulario de login",
+            "email más carpeta Spam",
+            "login desde un dispositivo con sesión viva → cambia la contraseña en el perfil",
+            "herramienta de reset en el panel del host",
+            "solo entonces — editar users en la BD",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Reset vía hosting y la base de datos",
+      level: 2,
+      paras: [
+        "Muchos hosts pueden resetear la contraseña de WordPress desde su panel — prefieres eso a ediciones a mano. Si entras en phpMyAdmin: haz backup de la BD, encuentra la tabla de users (a menudo `wp_users`; el prefijo puede diferir), actualiza la contraseña como recomiendan la docs actuales de WordPress o del host.",
+        "No copies a ciegas capturas de 2018 que digan «escribe la contraseña y elige MD5»: el algoritmo de hash cambió. Un error en la tabla de users puede cerrar a todos.",
+      ],
+      links: [
+        {
+          label: "Seguridad del sitio",
+          href: "/blog/bezopasnost-sayta/",
+        },
+        {
+          label: "Instalar WordPress",
+          href: "/es/blog/wordpress-ustanovka/",
+        },
+      ],
+    },
+    {
+      title: "Caché, cookies y otros fallos",
+      level: 2,
+      paras: [
+        "Si la contraseña es correcta pero el login «rompe», limpia cookies del sitio y caché del navegador; desactiva temporalmente bloqueadores agresivos. Del lado del sitio, plugins de caché, firewalls y límites de intentos de login tras brute force estorban.",
+        "Comprueba que abres el mismo protocolo y host en el que instalaste WP. Mezclar `http`/`https` o mirrors a veces hace bucles de redirect en el formulario de login.",
+      ],
+      tables: [
+        {
+          caption: "Qué revisar cuando falla el login",
+          headers: ["Síntoma", "Dónde mirar"],
+          rows: [
+            [
+              "Credenciales incorrectas",
+              "Layout, otro usuario, reset por email",
+            ],
+            ["Pantalla blanca / redirect", "Plugins, HTTPS, caché"],
+            ["Sin email", "Spam, mail del host, SMTP"],
+            ["404 en wp-login", "URL de login cambiada, traslado del sitio"],
+            ["Bloqueo de IP", "Límites de protección, firewall del host"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tras el login: higiene mínima",
+      level: 2,
+      paras: [
+        "Cambia una contraseña floja, revisa la lista de usuarios y cuentas extra, actualiza WordPress, temas y plugins. Para el trabajo continuo ayudan un gestor de contraseñas y 2FA.",
+        "La lógica general de CMS y roles — en el artículo de admin del sitio; hardening de WP — en la pieza de seguridad.",
+      ],
+      lists: [
+        {
+          intro: "Justo después de recuperar el acceso:",
+          items: [
+            "nueva contraseña única",
+            "revisar usuarios con rol Administrator",
+            "updates de core y plugins",
+            "backup",
+            "2FA / límites de intentos de login",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Gestor de contraseñas",
+          href: "/blog/menedzher-paroley/",
+        },
+      ],
+    },
+    {
+      title: "Ideas clave",
+      level: 2,
+      paras: [
+        "Camino estándar — `/wp-admin/` o `/wp-login.php`, luego recuperación por email. Toca la BD solo con backup y un método actual de reset de hash.",
+        "No publiques logins ajenos ni intentes adivinar el acceso a sitios que no gestionas.",
+      ],
+    },
+  ],
+  closing: [
+    "Abre el formulario de login en tu dominio, resetea la contraseña por email o el panel del host y endurece ya la cuenta de administrador — para que el admin de WordPress vuelva a ser una herramienta de trabajo, no una quest.",
+  ],
+  related: [
+    "adminka-sayta",
+    "wordpress-bezopasnost",
+    "menedzher-paroley",
+    "uskorenie-wordpress",
+    "tema-wordpress",
+    "bezopasnost-sayta",
+  ],
+};

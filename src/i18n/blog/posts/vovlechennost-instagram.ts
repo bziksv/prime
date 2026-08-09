@@ -165,3 +165,169 @@ export const vovlechennostInstagramEn: BlogPost = {
     "instagram-direct",
   ],
 };
+
+/** ES overlay for vovlechennost-instagram — same structure as RU JSON / EN. */
+export const vovlechennostInstagramEs: BlogPost = {
+  slug: "vovlechennost-instagram",
+  title: "Engagement en Instagram: ER y análisis del perfil",
+  date: "2020-11-17",
+  category: "SMM",
+  cover: "/images/blog/vovlechennost-instagram/cover.webp",
+  excerpt:
+    "Qué significa Engagement Rate en Instagram, qué fórmulas existen y cómo leer el ER con stats del perfil — sin el mito del «3% obligatorio» y sin engagement falso.",
+  lead: [
+    "El engagement (ER) muestra qué parte de la audiencia reacciona al contenido: likes, comentarios, saves, replies. No es el conteo de followers ni una garantía de ventas, pero sí una señal fuerte de interés y calidad de la audiencia.",
+    "Abajo: términos, de dónde sacar los números y cómo crecer en blanco. Benchmarks como «3% a 10k» de roundups viejos pertenecen a otra era, no a tu KPI. Los menús de Insights cambian; hace falta una cuenta profesional. El disclaimer de Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿ER y reach son lo mismo?",
+      a: "No. Reach es cuántas personas únicas lo vieron. ER es la cuota de reacción frente a followers, reach o post — según la fórmula.",
+    },
+    {
+      q: "¿Qué ER es «bueno»?",
+      a: "Compárate contigo y con tu nicho, no con un porcentaje universal de un artículo de 2020. Las cuentas más pequeñas a menudo tienen porcentajes más altos.",
+    },
+    {
+      q: "¿Ayuda el mass-following?",
+      a: "A menudo infla una base de followers muertos y baja el ER. Crecimiento relevante y contenido funcionan mejor.",
+    },
+    {
+      q: "¿Dónde veo los datos?",
+      a: "En las stats de cuenta profesional: reach, interactions, saves, replies en Direct y Stories.",
+    },
+    {
+      q: "¿Comprar likes sube el ER?",
+      a: "Distorsiona el número un rato y arriesga límites de calidad. No compres engagement.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué cuenta como engagement",
+      level: 2,
+      paras: [
+        "ER es un índice de interés por el contenido. En el feed, miles pueden pasar de largo; unos pocos reaccionan. Los algoritmos suelen entregar más lo que la gente responde: comentarios, saves, shares, replies de Stories.",
+        "ER bajo con una base grande de followers a menudo significa audiencia ruidosa, contenido débil o pocas razones para actuar — no «Instagram se rompió».",
+      ],
+      links: [
+        {
+          label: "Stats de Instagram",
+          href: "/es/blog/statistika-instagram/",
+        },
+        {
+          label: "Reach en Instagram",
+          href: "/es/blog/ohvat-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Fórmulas: DER, ER por reach, por post",
+      level: 2,
+      paras: [
+        "El ER diario mira reacciones por día — útil para el ritmo, pero sensible a la frecuencia de posts y a comentaristas repetidos.",
+        "ER por reach está más cerca de la calidad de entrega: cuántos de los que lo vieron reaccionaron. El reach oscila con recomendaciones — compara periodos con honestidad.",
+        "ER por post — reacciones a una publicación concreta divididas por followers o por el reach de ese post. Ayuda a encontrar formatos fuertes. ER por views y «por 100 followers» son cortes de apoyo, no la verdad final.",
+      ],
+      lists: [
+        {
+          intro: "Práctico para un informe:",
+          items: [
+            "fija una fórmula primaria",
+            "cuenta el ER del post y el promedio del periodo",
+            "mira saves y replies aparte — a menudo valen más que un like",
+            "no mezcles reach de ads y orgánico sin etiqueta",
+            "no inventes métricas «a ojo» sin método",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Perseguir el «porcentaje normal» de otro. Compara tus posts más fuertes y más débiles — más útil que una tabla de benchmarks.",
+        },
+      ],
+    },
+    {
+      title: "De dónde sacar números en el perfil",
+      level: 2,
+      paras: [
+        "Pasa a una cuenta profesional y abre las stats del post: reach, impressions, interactions. En Stories — replies y taps.",
+        "Sin modo business o creator, algunas métricas no se muestran. La UI de iconos ha cambiado — busca «Insights» o stats en el perfil o en el post.",
+      ],
+      links: [
+        {
+          label: "Cuenta business de Instagram",
+          href: "/es/blog/biznes-akkaunt-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Cómo subir el ER sin tácticas grises",
+      level: 2,
+      paras: [
+        "Reconstruye la audiencia: quién reacciona de verdad, qué temas generan saves. Ajusta el content plan: valor más emoción más una pregunta, no solo escaparate.",
+        "Un lenguaje visual unificado ayuda, pero las «fotos bonitas» sin sentido ya no sostienen. Mezcla ventas con behind-the-scenes y case studies. Hashtags — relevantes, no un montón basura.",
+      ],
+      lists: [
+        {
+          intro: "Palancas:",
+          items: [
+            "hook en la primera línea del caption",
+            "un CTA claro (pregunta / save / message)",
+            "responde comentarios en las primeras horas",
+            "Stories y polls como diálogo",
+            "sin engagement falso ni mass-follow por el número",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Caption de foto",
+          href: "/es/blog/podpis-foto-instagram/",
+        },
+        {
+          label: "Content plan de Instagram",
+          href: "/es/blog/kontent-plan-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Interacción con la audiencia",
+      level: 2,
+      paras: [
+        "El ER crece donde hay conversación: replies, mentions, series «preguntaste — respondemos». Ignorar comentarios mata la entrega de posts posteriores.",
+        "Mira más allá de likes: mensajes, clics en enlaces, saves — más cerca de resultados de negocio.",
+      ],
+      links: [
+        {
+          label: "Instagram Direct",
+          href: "/es/blog/instagram-direct/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Engagement es sobre reacción, no sobre el conteo de followers. Elige una fórmula, cuéntala con regularidad, crece con contenido honesto y diálogo.",
+        "Los porcentajes universales de artículos viejos no son ley. Tu tendencia y la comparación entre posts importan más.",
+      ],
+    },
+  ],
+  closing: [
+    "Abre las stats de posts recientes, cuenta el ER con una fórmula y refuerza formatos con saves y replies — para que el engagement sea una métrica manejable, no un cuento de miedo.",
+  ],
+  related: [
+    "statistika-instagram",
+    "ohvat-instagram",
+    "biznes-akkaunt-instagram",
+    "podpis-foto-instagram",
+    "kontent-plan-instagram",
+    "instagram-direct",
+  ],
+};

@@ -130,3 +130,134 @@ export const sohranennayaKopiyaYandexEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for sohranennaya-kopiya-yandex — same structure as RU JSON / EN. */
+export const sohranennayaKopiyaYandexEs: BlogPost = {
+  slug: "sohranennaya-kopiya-yandex",
+  title: "Copia en caché de Yandex: qué es y cómo abrirla",
+  date: "2022-01-11",
+  category: "SEO",
+  cover: "/images/blog/sohranennaya-kopiya-yandex/cover.webp",
+  excerpt:
+    "Qué es la caché de Yandex, cómo abrir una copia guardada, por qué puede faltar y si eso importa para el SEO.",
+  lead: [
+    "Una copia en caché es un snapshot de una página que el buscador crawló y guardó. Puedes abrirla incluso cuando el sitio en vivo está temporalmente caído.",
+    "Abajo: cómo el snapshot ayuda a un webmaster, cómo abrirlo en Yandex y Google, por qué el ítem de menú puede desaparecer de los resultados y cuándo no entrar en pánico.",
+  ],
+  faq: [
+    {
+      q: "¿Qué es una copia en caché?",
+      a: "Una versión en caché de una URL en el buscador: texto y marcado en el momento del crawl, disponible como snapshot desde los resultados o vía una consulta especial.",
+    },
+    {
+      q: "¿Tener caché afecta a los rankings?",
+      a: "No hay un factor de ranking directo del tipo «existe caché → rankea más alto». Importan más la indexación, la disponibilidad y la calidad de la página.",
+    },
+    {
+      q: "¿Por qué no hay copia en caché en los resultados?",
+      a: "A menudo por meta robots noarchive, retrasos o glitches de caché, o rarezas de UI. A veces la página simplemente se crawléa rara vez.",
+    },
+    {
+      q: "¿Qué tan rápido se actualiza la caché tras ediciones?",
+      a: "No al instante — días o más. Para revisar frescura, mira la fecha del snapshot y el estado en Yandex Webmaster / Search Console.",
+    },
+    {
+      q: "¿Por qué la caché no es un backup?",
+      a: "La caché no es una copia completa del sitio (plantillas, base de datos, ajustes). Es una red de seguridad de contenido y una herramienta de diagnóstico — no una estrategia de backup.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo ayuda una copia en caché",
+      level: 2,
+      paras: [
+        "Antes se juzgaba a grosso modo la indexación por el tamaño de la caché. Ahora importan más los escenarios prácticos:",
+      ],
+      lists: [
+        {
+          intro: null,
+          items: [
+            "ver qué texto y bloques vio el bot antes de las ediciones",
+            "abrir contenido si el sitio está temporalmente caído",
+            "comparar si los cambios llegaron al índice (por fecha del snapshot)",
+            "un snapshot rápido como complemento al backup del hosting — no en su lugar",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Vida útil",
+          text: "La caché no es para siempre: en días a semanas el snapshot puede reemplazarse o quitarse. No la trates como un archivo eterno.",
+        },
+      ],
+    },
+    {
+      title: "Cómo ver una copia en caché en Yandex",
+      level: 2,
+      paras: [
+        "La UI de resultados cambia, pero la idea se mantiene: abre el menú de acciones de la URL y elige copia en caché / cache. Google tiene un flujo parecido.",
+        "Extensiones como RDS Bar también ayudan: abrir caché y diagnóstico de URL rápido. Si falta el menú de resultados, revisa si el navegador o un ad blocker lo ocultan.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Desde los resultados",
+      level: 3,
+      paras: [
+        "Encuentra la página en Yandex o Google → menú del snippet → Cached / copia guardada. A veces hay vista de texto y fecha del snapshot — muestran cuán fresca está la caché.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Vía extensiones y herramientas",
+      level: 3,
+      paras: [
+        "Barras SEO y plugins del navegador pueden abrir la caché en un clic y mostrar métricas relacionadas. Útil para checks a granel, pero la fuente de verdad sobre indexación es Webmaster y Search Console.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Por qué no aparece la copia",
+      level: 2,
+      paras: ["Causas típicas:"],
+      lists: [
+        {
+          intro: null,
+          items: [
+            "el caching está bloqueado en el código (por ejemplo, meta robots con noarchive)",
+            "la página indexa mal o está cerrada al crawl",
+            "glitches temporales o retrasos del lado del buscador",
+            "cambió la UI de resultados — el ítem se movió o está oculto",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Revisa primero",
+          text: "robots.txt, meta robots / X-Robots-Tag, código de respuesta de la URL y estado en Yandex Webmaster. A menudo «sin caché» es un síntoma, no una enfermedad aparte.",
+        },
+      ],
+    },
+    {
+      title: "¿Hay que preocuparse si no hay caché?",
+      level: 2,
+      paras: [
+        "Que falte solo el ítem «copia en caché» rara vez rompe la promoción. Importa más que las URLs necesarias abran, devuelvan 200 y se indexen.",
+        "Históricamente algunos exchanges y servicios miraban señales de caché al moderar sitios — para el SEO comercial del día a día eso es secundario. Si necesitas caché para diagnóstico de contenido, quita noarchive y espera un recrawl.",
+      ],
+      lists: [],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+      ],
+    },
+  ],
+};

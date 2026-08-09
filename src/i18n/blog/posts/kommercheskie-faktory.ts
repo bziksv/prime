@@ -233,3 +233,237 @@ export const kommercheskieFaktoryEn: BlogPost = {
     "vnutrennie-faktory",
   ],
 };
+
+/** ES overlay for kommercheskie-faktory — same structure as RU JSON / EN. */
+export const kommercheskieFaktoryEs: BlogPost = {
+  slug: "kommercheskie-faktory",
+  title: "Factores comerciales en SEO: qué construye confianza",
+  date: "2019-06-20",
+  category: "SEO",
+  cover: "/images/blog/kommercheskie-faktory/cover.webp",
+  excerpt:
+    "Contactos, surtido, condiciones de compra, «sobre la empresa» y servicios de mapas/directorios — un checklist práctico de factores comerciales sin el mito de que un checkbox equivale a primera página.",
+  lead: [
+    "Los factores comerciales son señales on-site que ayudan a una persona a confiar y comprar: contactos claros, selección y precios, condiciones de envío y pago, transparencia de la empresa, reseñas y servicios útiles.",
+    "Los buscadores no publican una lista completa de botones de ranking, pero en la práctica un setup comercial fuerte encaja más a menudo con mejor conversión y sostiene con más estabilidad las posiciones comerciales en la SERP. Abajo — grupos de factores y un orden de trabajo; esto es parte de la preparación, no una promesa de primera página en una semana.",
+  ],
+  faq: [
+    {
+      q: "¿Los factores comerciales son solo para tiendas?",
+      a: "Más fuertes en e-commerce y servicios lead-gen, pero landings y B2B también los necesitan: contactos, oferta, casos, condiciones, datos legales.",
+    },
+    {
+      q: "¿Hay un checklist oficial de Yandex?",
+      a: "No hay una lista pública completa. Apunta a lo que quita dudas del comprador y encaja con las páginas más fuertes de la SERP de tu nicho.",
+    },
+    {
+      q: "¿Qué importa más: más copy, o contactos y precios?",
+      a: "En consultas comerciales, a menudo deciden la completitud de la oferta y la confianza. El copy sin precios, envío y vías de contacto pierde frente a un «cómo comprar» claro.",
+    },
+    {
+      q: "¿Hace falta un email corporativo?",
+      a: "Preferible: `@domain.com` parece más fiable que un buzón gratuito. Un teléfono con prefijo de zona y dirección/mapa también son señales fuertes.",
+    },
+    {
+      q: "¿Hace falta un chat en vivo?",
+      a: "Si de verdad respondes. Un widget muerto es peor que ninguno. Alternativas: formulario, callback, messengers.",
+    },
+    {
+      q: "¿Marketplaces y directorios son factores comerciales?",
+      a: "Una vía adyacente de confianza y tráfico: perfiles en directorios y mapas, escaparates de marketplace — según el nicho. No sustituyen la calidad del sitio.",
+    },
+    {
+      q: "¿Son obligatorias las turbo pages?",
+      a: "No. Revisa los formatos actuales de la SERP y la utilidad para tu nicho; la prioridad es un sitio principal rápido y honesto.",
+    },
+    {
+      q: "¿Cuándo esperar un efecto en rankings?",
+      a: "Mejorar señales comerciales es parte de la preparación. El buildup de rankings del núcleo comercial se planifica a 2–6 meses tras el arranque del trabajo sistemático.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es y por qué importa",
+      level: 2,
+      paras: [
+        "Los factores comerciales son todo lo que responde a las preguntas del comprador antes del pago: quiénes sois, cómo contactaros, qué vendéis, a qué precio, cómo recibirlo y devolverlo, por qué se puede confiar.",
+        "Se solapan con UX y conversión: lo que ayuda a las personas a menudo encaja con lo que distingue documentos comerciales fuertes en la SERP. No lo confundas con engagement falso o cloaking.",
+      ],
+      lists: [
+        {
+          intro: "Quién lo necesita más:",
+          items: [
+            "tiendas online",
+            "servicios con lead o visita al sitio",
+            "negocio local con visita",
+            "B2B con un ciclo de ventas largo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de la conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+        {
+          label: "Factores on-page",
+          href: "/blog/vnutrennie-faktory/",
+        },
+      ],
+    },
+    {
+      title: "Contactos y canales de comunicación",
+      level: 2,
+      paras: [
+        "La gente debe encontrar fácil teléfono, email, dirección o zona de servicio, messengers y un formulario. Para una cadena — contactos de sucursales; para envío — geografía clara.",
+        "Lista números actuales con prefijo de zona, email corporativo en el dominio, un mapa si hay ubicación. Registro y cuenta — solo si el flujo de compra de verdad los necesita.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de contacto:",
+          items: [
+            "teléfono y/o callback",
+            "email en el dominio",
+            "un formulario o chat con respuestas",
+            "dirección/mapa o una zona de servicio honesta",
+            "enlaces a perfiles sociales y messengers actuales",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Audiencia objetivo",
+          href: "/es/blog/tselevaya-auditoriya/",
+        },
+        {
+          label: "SEO regional",
+          href: "/es/blog/regionalnoe-seo/",
+        },
+      ],
+    },
+    {
+      title: "Surtido y elección",
+      level: 2,
+      paras: [
+        "Para una tienda, la amplitud y profundidad del catálogo señalan escala y utilidad. Secciones vacías y «próximamente» pierden frente a un surtido estrecho honesto con fichas sólidas.",
+        "En las fichas: nombre, precio o una guía clara, stock, fotos, specs, envío. Compara con líderes del nicho: qué te falta en selección y filtros.",
+      ],
+      lists: [
+        {
+          intro: "Revisa:",
+          items: [
+            "sin categorías vacías en el índice",
+            "existen filtros y búsqueda del catálogo",
+            "las fichas responden objeciones",
+            "hits y promos no rompen la estructura de URLs",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Promoción de tienda online",
+          href: "/es/blog/prodvizhenie-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "Condiciones de venta y «sobre la empresa»",
+      level: 2,
+      paras: [
+        "Envío, pago, garantía, devoluciones, plazos — bloques sin los cuales una consulta comercial a menudo no convierte. Colócalos a la vista, no solo en un PDF del footer.",
+        "Presentación de la empresa: datos legales, equipo o cara de marca, licencias cuando hacen falta, casos y reseñas. Para servicios — etapas de trabajo y qué entra en el precio.",
+      ],
+      lists: [
+        {
+          intro: "Bloques de confianza:",
+          items: [
+            "precios / calculadora / «desde …» con condiciones honestas",
+            "pago y envío",
+            "garantía y devoluciones",
+            "datos legales y políticas",
+            "reseñas y ejemplos de trabajo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Reseñas para ventas",
+          href: "/es/blog/otzyvy-dlya-prodazh/",
+        },
+        {
+          label: "Copy de landing",
+          href: "/es/blog/tekst-lendinga/",
+        },
+      ],
+    },
+    {
+      title: "Datos, media y servicios del ecosistema",
+      level: 2,
+      paras: [
+        "Fotos de calidad, diagramas, vídeo-reseñas y descripciones claras refuerzan la ficha y bajan rebotes. Vigila el peso de los archivos — la velocidad también es parte del UX comercial.",
+        "Servicios de Yandex y Google (mapas/directorios, escaparates, feeds cuando hace falta) complementan el sitio pero no tapan agujeros en contactos y condiciones. Conecta lo que de verdad mantienes al día.",
+      ],
+      lists: [
+        {
+          intro: "Por nicho a menudo tiene sentido:",
+          items: [
+            "un perfil en mapa/directorio",
+            "NAP coherente",
+            "un feed/escaparate para e-commerce",
+            "horarios actuales y fotos de la ubicación",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Google Business Profile",
+          href: "/es/blog/google-biznes/",
+        },
+      ],
+    },
+    {
+      title: "Cómo implementar y medir",
+      level: 2,
+      paras: [
+        "Saca un benchmark de 3–5 URLs de consultas de dinero cerca del inicio de la SERP: qué bloques tienen que tú no. Despliega por paquetes (contactos → condiciones → fichas → reseñas); tras los releases mira conversión y ranks por cluster.",
+        "Los arreglos comerciales son parte de la preparación del sitio. La cuota de primera página del núcleo comercial se planifica a lo largo de meses tras el arranque del trabajo (típicamente 2–6 meses) — no «añadí un chat, #3 mañana».",
+      ],
+      lists: [
+        {
+          intro: "Ritmo:",
+          items: [
+            "checklist vs líderes del nicho",
+            "backlog por impacto de negocio",
+            "A/B o before/after de conversion rate en URLs clave",
+            "revisión mensual junto con los KPIs de SEO",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Eficacia del SEO",
+          href: "/es/blog/effektivnost-seo/",
+        },
+        {
+          label: "Análisis de competidores",
+          href: "/es/blog/analiz-konkurentov/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Reforzar señales comerciales puede llevar semanas. El buildup de rankings del núcleo se planifica a 2–6 meses tras el arranque de la promoción sistemática.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "prodvizhenie-internet-magazina",
+    "optimizatsiya-konversii",
+    "otzyvy-dlya-prodazh",
+    "regionalnoe-seo",
+    "effektivnost-seo",
+    "vnutrennie-faktory",
+  ],
+};

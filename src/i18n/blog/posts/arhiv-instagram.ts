@@ -128,3 +128,132 @@ export const arhivInstagramEn: BlogPost = {
     "video-stories-instagram",
   ],
 };
+
+/** ES overlay for arhiv-instagram — same structure as RU JSON / EN. */
+export const arhivInstagramEs: BlogPost = {
+  slug: "arhiv-instagram",
+  title: "Archivo de Instagram: ocultar un post y volver a ponerlo en el perfil",
+  date: "2020-09-28",
+  category: "SMM",
+  cover: "/images/blog/arhiv-instagram/cover.webp",
+  excerpt:
+    "Para qué existe el archivo de posts de Instagram, en qué se diferencia del borrado y del archive de Stories, cómo ocultar un post y mostrarlo otra vez — sin capturas obsoletas.",
+  lead: [
+    "El archivo de posts de Instagram oculta una foto o vídeo de la grid del perfil pero conserva likes, comentarios y el caption. No es una papelera eterna ni lo mismo que el archive de Stories de 24 horas.",
+    "Abajo: por qué archivar, cómo ocultar un post y cómo traerlo de vuelta. Las etiquetas de menú se mueven — revisa la redacción en la app actual. El disclaimer de Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Archivar es lo mismo que borrar?",
+      a: "No. Borrar elimina el post. Archivar lo oculta del perfil; stats y comentarios suelen quedarse hasta que borres desde el archive.",
+    },
+    {
+      q: "¿Pueden los followers ver tu archive?",
+      a: "No — nadie más puede abrir tu archive de posts. Es tu estantería privada de posts ocultos.",
+    },
+    {
+      q: "¿El post vuelve a su lugar antiguo en la grid?",
+      a: "Suele ser que sí: la fecha del post se mantiene, así que encaja de nuevo en la cronología del perfil. Revisa el comportamiento exacto en la versión actual.",
+    },
+    {
+      q: "¿El archive de posts es lo mismo que el de Stories?",
+      a: "No. Tras 24 horas las Stories van a su propio story archive (si el guardado está activo). Este es el archive de posts del feed/grid.",
+    },
+    {
+      q: "¿Se puede compartir un post desde el archive?",
+      a: "A menudo puedes enviártelo a ti o a Direct desde el menú de la entrada archivada — sin mostrarlo en el perfil. Depende de la versión de la app.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué archivar posts",
+      level: 2,
+      paras: [
+        "Mantener un look limpio del perfil: quitar frames que rompen el estilo sin destruirlos.",
+        "Cambio de nicho u oferta: fotos «personales» viejas chocan con un escaparate business — archiva, no borres.",
+        "Ofertas con plazo e integraciones de pago: oculta el post tras la ventana pero conserva likes/comentarios como prueba de resultado.",
+        "Plantillas de promo y maratón: vuelve al copy y a la estructura sin reescribir desde cero.",
+        "No lo confundas con posting programado: el archive es para lo que ya está live. Planificar posts nuevos es otro toolkit — ver el artículo de scheduling.",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "La intriga de «un celebrity ocultó un post» es un efecto secundario, no una estrategia. Para negocio importan más una grid clara y una oferta actual.",
+        },
+      ],
+    },
+    {
+      title: "Cómo ocultar un post",
+      level: 2,
+      paras: [
+        "Abre el post completo (no solo el preview de la grid) → menú «⋯» → «Archive». Suele no hacer falta confirmación — el post sale del perfil al momento.",
+        "Carruseles y vídeo se archivan igual que las fotos sueltas.",
+      ],
+      lists: [
+        {
+          intro: "Antes de archivar, conviene:",
+          items: [
+            "guardar la fuente si la necesitas fuera de Instagram",
+            "copiar texto/enlaces del caption si estás editando la oferta",
+            "en posts de ads — fijar métricas en un informe; no te fíes solo del archive",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Dónde encontrar el archive",
+      level: 2,
+      paras: [
+        "La entrada suele estar en tu perfil: un icono de archive (a menudo un reloj con flecha) o un ítem del menú de perfil. La sección es privada — los demás no la ven.",
+        "No hay «caducidad» del post mientras esté en el archive — mientras la cuenta y la política de Meta lo permitan. No sustituye un backup en tu propio disco.",
+      ],
+    },
+    {
+      title: "Cómo devolver un post al perfil",
+      level: 2,
+      paras: [
+        "Abre la entrada en el archive → «⋯» → «Show on profile». El post vuelve a aparecer en la grid.",
+        "«Delete» desde el archive es permanente (como un borrado normal). Si dudas — restaura al perfil primero o guarda el archivo tú.",
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "No puedes archivar el contenido de otro — solo tus posts. Guardar la foto de otro en el dispositivo es otro tema.",
+        },
+      ],
+    },
+    {
+      title: "El archive de Stories es aparte",
+      level: 2,
+      paras: [
+        "Para que las Stories no desaparezcan para siempre tras 24 horas, los settings de Stories pueden guardarlas en el story archive. Es una sección distinta del archive de posts del feed.",
+        "Más sobre guardar tus Stories y riesgos de «downloaders» de terceros — en un artículo aparte.",
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Archive de posts = ocultar del perfil conservando reacciones; borrado = perder el post.",
+        "Mantén la grid actual y aparca frames valiosos en el archive o en tu propio backup de archivos.",
+      ],
+    },
+  ],
+  closing: [
+    "Oculta un post de más en el archive y mira cómo queda la grid — más fácil mantener el escaparate del perfil sin quemar contenido.",
+  ],
+  related: [
+    "skachat-stories-instagram",
+    "sohranit-foto-instagram",
+    "post-instagram",
+    "oformlenie-stranicy-instagram",
+    "otlozhennyy-posting-instagram",
+    "video-stories-instagram",
+  ],
+};

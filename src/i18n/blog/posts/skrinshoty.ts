@@ -126,3 +126,130 @@ export const skrinshotyEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for skrinshoty — same structure as RU JSON / EN. */
+export const skrinshotyEs: BlogPost = {
+  slug: "skrinshoty",
+  title: "Capturas de pantalla: para qué sirven y cómo hacerlas en PC y móvil",
+  date: "2021-09-03",
+  category: "Content marketing",
+  cover: "/images/blog/skrinshoty/cover.webp",
+  excerpt:
+    "Qué es un screenshot, dónde se usa en soporte y formación, cómo capturar la pantalla en Windows, macOS, iOS y Android, y cómo ayudan los editores.",
+  lead: [
+    "Un screenshot es una captura de toda la pantalla o de un área seleccionada. En guías, tickets de soporte e informes ahorra párrafos de explicación: «aquí es donde se rompió».",
+    "Abajo: por qué la gente hace capturas, opciones integradas en ordenador y móvil, y reglas básicas: qué ocultar, cómo anotar y cuándo conviene un screen recording corto.",
+  ],
+  faq: [
+    {
+      q: "¿Por qué un screenshot es mejor que una descripción larga?",
+      a: "Muestra la UI tal cual: ítems del menú, el error, la URL. Menos confusión en soporte y guías.",
+    },
+    {
+      q: "¿Cómo hago un screenshot rápido en Windows?",
+      a: "Win + Shift + S — región/ventana/pantalla al portapapeles. Print Screen — pantalla completa; Alt + Print Screen — ventana activa. Luego pega en Paint/un messenger o usa Snipping Tool / Snip & Sketch.",
+    },
+    {
+      q: "¿Cómo hago un screenshot en un Mac?",
+      a: "Cmd + Shift + 3 — pantalla completa; Cmd + Shift + 4 — región; Cmd + Shift + 4 y luego Space — una ventana. Los archivos suelen ir al escritorio.",
+    },
+    {
+      q: "¿Hacen falta apps de terceros?",
+      a: "Para capturas puntuales — no. Los editores (flechas, blur, scroll-shots largos) ayudan a equipos de documentación; elígelos a propósito, sin dar derechos de más a herramientas en la nube.",
+    },
+    {
+      q: "¿Qué debo ocultar?",
+      a: "Contraseñas, tokens, datos personales de clientes, números de tarjeta, URLs internas con secretos. Difumina o recorta antes de enviar.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué importan los screenshots",
+      level: 2,
+      paras: [
+        "Una captura congela la UI en el momento de un problema o de un paso de la guía. Es un lenguaje compartido entre usuario, soporte y el autor de la guía.",
+      ],
+      lists: [
+        {
+          intro: "Trabajos típicos:",
+          items: [
+            "soporte: error, código, versión",
+            "formación: «haz clic aquí» sin un muro de texto",
+            "informes y bug reports",
+            "revisión de diseño/layout",
+            "prueba del estado de una cuenta (cuidado con datos personales)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo hacer una en el ordenador",
+      level: 2,
+      paras: [
+        "Windows: Win + Shift + S abre el snip moderno. El Print Screen clásico copia la pantalla al portapapeles — pega en un editor y guarda. Snipping Tool / Snip & Sketch añade leyendas y formas simples.",
+        "macOS: Cmd + Shift + 3/4 como arriba; manteniendo Control la captura va al portapapeles en lugar de a un archivo.",
+      ],
+      lists: [
+        {
+          intro: "Un mini ritual para una buena captura:",
+          items: [
+            "cerrar pestañas y notificaciones de más",
+            "hacer zoom si importan etiquetas pequeñas",
+            "capturar solo el área necesaria",
+            "añadir una flecha/marco en el punto de acción",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Para páginas largas conviene un scroll-shot del navegador (DevTools / extensiones) o un Loom/screen recording corto — un solo frame no siempre encaja con el escenario.",
+        },
+      ],
+    },
+    {
+      title: "Móvil: iOS y Android",
+      level: 2,
+      paras: [
+        "iPhone con Face ID: botón lateral + subir volumen. Con Touch ID: botón lateral o Sleep/Wake + Home. La captura va a Fotos; luego márcala.",
+        "Android: suele ser power + bajar volumen; algunas marcas usan un gesto con el borde de la palma o un ítem del Control Center. Los gestos exactos dependen de la skin — revisa la ayuda del dispositivo.",
+      ],
+      lists: [
+        {
+          intro: "Tras la captura:",
+          items: [
+            "recortar el exceso",
+            "difuminar chats y datos personales",
+            "no publicar mensajes ajenos sin consentimiento",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Editores y herramientas en la nube",
+      level: 2,
+      paras: [
+        "Las herramientas de terceros añaden nube, plantillas de flechas, captura de vídeo. Nombres y planes cambian; lo que importa son las funciones: región, anotaciones, blur, acceso de equipo.",
+        "Para docs internas a menudo bastan las integradas del SO. Si subes una captura a la nube — revísala por secretos.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo merece la pena el software:",
+          items: [
+            "guías diarias con un estilo compartido de flechas",
+            "screen recording + frames en una sola herramienta",
+            "una librería compartida de screenshots para el equipo",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cierre",
+      level: 2,
+      paras: [
+        "Un screenshot es una forma rápida de mostrar la UI. Empieza con atajos integrados, recorta y anota lo que importa, oculta datos personales. Para flujos complejos un vídeo corto de pantalla gana a diez frames ilegibles.",
+      ],
+    },
+  ],
+};

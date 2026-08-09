@@ -203,3 +203,207 @@ export const skriptSaytaEn: BlogPost = {
     "A script is an automation tool on the client or server. Understanding the code’s role helps install counters and widgets with measure — from a trusted source and without hurting speed.",
   ],
 };
+
+/** ES overlay for skript-sayta — same structure as RU JSON / EN. */
+export const skriptSaytaEs: BlogPost = {
+  slug: "skript-sayta",
+  title: "Script del sitio: qué es y por qué lo necesitas",
+  date: "2020-07-16",
+  category: "Digital marketing",
+  cover: "/images/blog/skript-sayta/cover.webp",
+  excerpt:
+    "Qué se llama script de un sitio: código cliente y servidor, lenguajes, trabajos típicos y cómo insertar snippets sin dañar velocidad y seguridad.",
+  lead: [
+    "Un script de sitio es un programa o fragmento de código que corre por reglas: al abrir la página, al clic, al enviar un formulario o en un schedule del servidor. No es «magia SEO» — es una forma de automatizar el comportamiento de UI y backend.",
+    "Abajo: cómo difieren los scripts client-side de los server-side, dónde aplica cada uno y qué vigilar al instalar. La práctica de instalar contadores y widgets está en un artículo aparte.",
+  ],
+  faq: [
+    {
+      q: "¿Script y programa son lo mismo?",
+      a: "En la web «script» suele significar código ejecutable en la página o el servidor (JS, PHP, etc.). Una app completa puede ser muchos scripts y módulos.",
+    },
+    {
+      q: "¿Un script es siempre JavaScript?",
+      a: "En el navegador dominan JavaScript (y WebAssembly). En el servidor — PHP, Python, Node.js, Go y más. Listas viejas de «JScript / AngelScript» para un sitio típico están obsoletas.",
+    },
+    {
+      q: "¿Todo sitio necesita scripts?",
+      a: "Casi sí en forma mínima: analytics, formularios, menús. Pero «más es mejor» rompe velocidad y seguridad. La medida gana a un montón de widgets.",
+    },
+    {
+      q: "¿En qué se diferencia un script de un plugin CMS?",
+      a: "Un plugin es una extensión empaquetada del admin. Dentro hay scripts y plantillas. Por separado hay snippets crudos en head/body.",
+    },
+    {
+      q: "¿Son peligrosos los scripts de terceros?",
+      a: "Sí si la fuente es desconocida: malware, redirects ocultos, robo de sesión. Toma código solo de la cuenta del servicio o de tu desarrollador.",
+    },
+    {
+      q: "¿Los scripts afectan al SEO?",
+      a: "De forma indirecta: bloqueo de render, JS pesado, contenido solo tras un script. El texto y los enlaces clave deben estar disponibles sin magia extra.",
+    },
+    {
+      q: "¿Dónde pego un contador de analytics?",
+      a: "Ver el artículo de inserción de JavaScript: head/body, Tag Manager, campos del theme — sin duplicados ni caché stale.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es un script en palabras simples",
+      level: 2,
+      paras: [
+        "Es un set de instrucciones: «si el usuario hizo clic en un botón — muestra un formulario», «si llegó una request — escribe un lead en la base de datos». El navegador o el servidor lee el código y ejecuta pasos en orden y por condiciones.",
+        "Encaja una analogía de máquina de garra: monedas y botones son el input; la mecánica es el script; premio o vacío es el resultado. En un sitio el input es un evento o una request HTTP; el resultado es una respuesta, una escritura en DB, un cambio en el DOM.",
+      ],
+      lists: [
+        {
+          intro: "Un script suele:",
+          items: [
+            "reaccionar a un evento o request",
+            "cambiar la página, los datos o la respuesta del servidor",
+            "vivir en un archivo, bundle o insert de plantilla",
+            "depender del entorno (navegador, PHP, Node)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Scripts de cliente y de servidor",
+      level: 2,
+      paras: [
+        "El código cliente corre en el navegador del usuario: animación, validación del formulario antes del submit, bloques lazy, widgets de chat. Los usuarios pueden desactivar JS — no escondas features críticas solo detrás de un script.",
+        "El código servidor corre en el hosting: auth, carrito, generación de HTML, API, email. El navegador ve el resultado (página o JSON), no necesariamente el source de la lógica de negocio.",
+      ],
+      lists: [
+        {
+          intro: "Versión corta:",
+          items: [
+            "cliente — UX e interacción en el navegador",
+            "servidor — datos, permisos, cálculos, integraciones",
+            "a menudo un par: JS envía una request → el servidor responde",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Aplicación web",
+          href: "/es/blog/veb-prilozhenie/",
+        },
+        {
+          label: "Servicios web",
+          href: "/es/blog/veb-servisy/",
+        },
+      ],
+    },
+    {
+      title: "Qué lenguajes se usan",
+      level: 2,
+      paras: [
+        "Para la UI es casi siempre JavaScript (a menudo con TypeScript y un build). En sitios CMS PHP es habitual en el servidor; en trabajo custom — Node.js, Python, otros stacks según el job y el equipo.",
+        "La elección de lenguaje es por ecosistema, carga y soporte — no un «concurso de lo cool». Listas obsoletas con JScript y exótica para un sitio marketing típico se pueden ignorar.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo práctico hoy:",
+          items: [
+            "JavaScript en el navegador",
+            "PHP / Node / Python en el backend — según el proyecto",
+            "SQL y drivers de DB junto a la lógica de servidor",
+            "HTML/CSS — markup y estilo, no un «script», pero sin ellos la página no se arma",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Código fuente de la página",
+          href: "/es/blog/ishodnyy-kod/",
+        },
+      ],
+    },
+    {
+      title: "Dónde se usan en un sitio",
+      level: 2,
+      paras: [
+        "Los scripts automatizan la rutina y amplían la página: sliders, filtros de catálogo, chat online, mapas, A/B, píxeles de ads, objetivos de analytics.",
+        "En propiedades grandes no puedes evitar la automatización. Pero cada widget de terceros significa requests, riesgo de outage e impacto en Core Web Vitals. Antes de instalar pregunta: ¿cuál es el trabajo, y se puede más ligero?",
+      ],
+      lists: [
+        {
+          intro: "Trabajos típicos:",
+          items: [
+            "stats y objetivos",
+            "formularios y calculadoras",
+            "búsqueda y filtros sin reload",
+            "cuentas y carrito",
+            "integraciones CRM y pago (más a menudo servidor + un cliente seguro)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo se conectan y se montan",
+      level: 2,
+      paras: [
+        "Un snippet de servicio listo va a la plantilla, a campos «scripts» del theme, a Tag Manager o a un plugin. Un módulo custom se despliega al servidor (CI/CD, SSH, rara vez FTP a pelo), con permisos y config fijados.",
+        "Los instaladores one-click de catálogos dudosos arriesgan malware. Para CMS, repos oficiales y código de contractor con review son más seguros.",
+      ],
+      lists: [
+        {
+          intro: "Orden básico para un snippet:",
+          items: [
+            "toma el código de la cuenta del servicio",
+            "pega en un solo lugar sin duplicado",
+            "prueba en staging",
+            "limpia caché",
+            "confirma que el evento/contador dispara",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Insertar JavaScript",
+          href: "/es/blog/vstavka-javascript/",
+        },
+        {
+          label: "Google Tag Manager",
+          href: "/es/blog/google-tag-manager/",
+        },
+      ],
+      notes: [
+        {
+          title: "Error común",
+          kind: "tip",
+          text: "No copies «scripts SEO» de foros. Para seguridad es la misma clase de riesgo que un plugin desconocido.",
+        },
+      ],
+    },
+    {
+      title: "Velocidad, SEO y medida",
+      level: 2,
+      paras: [
+        "Scripts pesados y bloqueantes en head ralentizan el first paint. El contenido que aparece solo tras JS es peor para algunos bots y para usuarios en redes lentas.",
+        "Regla simple: escenarios necesarios — sí; una docena de widgets «por si acaso» — no. Audita con regularidad tags en Tag Manager y plugins del CMS.",
+      ],
+      lists: [
+        {
+          intro: "Higiene:",
+          items: [
+            "desactiva tags sin uso",
+            "carga código pesado diferido (defer/async según encaje)",
+            "no dupliques Métrica/Analytics",
+            "mira errores en la consola del navegador",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Tamaño de página",
+          href: "/es/blog/razmer-stranitsy/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Un script es una tool de automatización en el cliente o el servidor. Entender el rol del código ayuda a instalar contadores y widgets con medida — desde una fuente de confianza y sin dañar la velocidad.",
+  ],
+};

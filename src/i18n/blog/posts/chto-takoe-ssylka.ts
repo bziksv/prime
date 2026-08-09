@@ -157,3 +157,161 @@ export const chtoTakoeSsylkaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for chto-takoe-ssylka — same structure as RU JSON / EN. */
+export const chtoTakoeSsylkaEs: BlogPost = {
+  slug: "chto-takoe-ssylka",
+  title: "Qué es un enlace: tipos, anclas y el papel en SEO",
+  date: "2021-09-21",
+  category: "SEO",
+  cover: "/images/blog/chto-takoe-ssylka/cover.webp",
+  excerpt:
+    "Hiperenlaces en HTML: internos y externos, absolutos y relativos, anclas y URLs peladas, nofollow. Cómo los enlaces ayudan a la navegación y al crawl del sitio.",
+  lead: [
+    "Un enlace (hiperenlace) es un elemento de página que lleva a otra URL: un artículo, un archivo, un ancla en la página o un sitio externo. En HTML es la etiqueta `<a href=\"…\">`.",
+    "Abajo: cómo se ve un enlace, qué tipos hay, por qué importan las anclas y cómo los enlaces se atan al crawl y al SEO. Cómo hacer texto clicable es una pieza aparte; aquí es un mapa de conceptos.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia un enlace de una URL?",
+      a: "Una URL es una dirección. Un enlace es cómo vas a esa dirección (suele ser una etiqueta `<a>` con texto o una imagen).",
+    },
+    {
+      q: "¿Qué es un ancla?",
+      a: "El texto (o sustituto de texto) entre `<a>` y `</a>` en el que la gente hace clic. «Comprar una bomba» es un ancla; un `https://…` pelado a menudo se llama enlace bare o sin ancla.",
+    },
+    {
+      q: "¿Hace falta nofollow en cada enlace externo?",
+      a: "No. Usa `nofollow` / `sponsored` / `ugc` según el sentido (ads, UGC, URLs poco fiables). Los enlaces editoriales útiles a fuentes son práctica normal.",
+    },
+    {
+      q: "¿Por qué importa el enlazado interno?",
+      a: "Navegación para usuarios y pistas para robots sobre qué URLs importan. Sin enlaces internos, las páginas profundas cuestan más de encontrar.",
+    },
+    {
+      q: "¿Qué es un enlace roto?",
+      a: "Apunta a una dirección que falta o está mal (a menudo 404). Duele a la UX y al crawl — encuéntralos con un crawler y arréglalos.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo funciona un enlace en HTML",
+      level: 2,
+      paras: [
+        "Forma básica: `<a href=\"https://example.com/page/\">Texto del enlace</a>`. El atributo `href` hace falta para el salto; entre las etiquetas va el ancla. Dentro puede ir una imagen en lugar de texto.",
+        "Los robots siguen enlaces como un mapa: descubren URLs, encolan crawl, indexan si va bien. Sin enlaces (y un sitemap) las páginas nuevas se encuentran más despacio.",
+      ],
+      lists: [
+        {
+          intro: "Un enlace puede llevar a:",
+          items: [
+            "una página del sitio",
+            "un archivo (PDF, imagen)",
+            "un ancla `#section` en la misma página",
+            "`mailto:` / `tel:` (ojo al spam)",
+            "un recurso externo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Enlace clicable: cómo hacerlo",
+          href: "/es/blog/klikabelnaya-ssylka/",
+        },
+        {
+          label: "Hipertexto",
+          href: "/es/blog/gipertekst/",
+        },
+      ],
+    },
+    {
+      title: "Clasificación de enlaces",
+      level: 2,
+      paras: [
+        "Una URL se describe desde varios ángulos a la vez: a dónde va, cómo se escribe el path, si hay ancla, si el destino está vivo.",
+      ],
+      tables: [
+        {
+          caption: "Tipos principales",
+          headers: ["Corte", "Variantes", "Nota"],
+          rows: [
+            ["Dirección", "Interno / externo", "Dentro del sitio vs otro dominio"],
+            ["Forma de URL", "Absoluta / relativa", "`https://…` vs `/page/`"],
+            ["Perfil del sitio", "Entrante / saliente", "Hacia ti / desde ti"],
+            ["Cobertura", "Normal / sitewide", "Sitewide — header, menú, footer"],
+            ["Estado", "Vivo / roto", "Roto → 404 y pérdida de confianza"],
+            ["Params", "Estática / con query `?`", "Filtros y sesiones a menudo generan duplicados"],
+          ],
+        },
+      ],
+      lists: [
+        {
+          intro: "Más jerga SEO:",
+          items: [
+            "entrante «natural» — sin pagar por la colocación",
+            "comprado / gris — zona de riesgo de filtros",
+            "redirect — el servidor o un script mueve a otra URL (equity y sentido dependen de 301/302)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Anclas y enlaces bare",
+      level: 2,
+      paras: [
+        "El ancla ayuda a la gente a ver a dónde va el clic y da contexto a los robots. Meter la keyword exacta en cada ancla se ve antinatural.",
+        "Enlaces bare — «aquí», «más», una URL desnuda, un logo. Ayudan a la navegación y a un perfil natural; no subes una página solo con anclas de keyword.",
+      ],
+      lists: [
+        {
+          intro: "Reglas de ancla:",
+          items: [
+            "lenguaje legible, sin «comprar comprar barato»",
+            "que coincida con la página destino",
+            "dilución: marca, URL, redacción conversacional",
+            "no enmascares ads como enlaces ordinarios sin el etiquetado obligatorio",
+          ],
+        },
+      ],
+    },
+    {
+      title: "nofollow y colocación",
+      level: 2,
+      paras: [
+        "`rel=\"nofollow\"` (y `sponsored`, `ugc`) dicen a la búsqueda que no trate el enlace como un respaldo editorial. No es un interruptor eterno de PageRank, pero sí una señal importante para ads y contenido de usuarios.",
+        "El enlazado interno suele quedarse follow: tú defines la estructura. Salientes a fuentes y partners — por sentido; el «nofollow a todo» masivo no hace falta.",
+      ],
+      lists: [
+        {
+          intro: "Higiene de trabajo:",
+          items: [
+            "enlaces internos a servicios y artículos importantes",
+            "salientes — a propósito, sin spam de enlaces",
+            "entrantes — calidad del donante por encima de cantidad",
+            "revisa enlaces rotos tras migraciones",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Perseguir enlaces comprados con ancla e ignorar un enlazado interno usable en tu propio sitio. Primero el mapa de URLs internas — luego la capa externa.",
+        },
+      ],
+      links: [
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Resumen corto",
+      level: 2,
+      paras: [
+        "Un enlace es un elemento básico de la web y del crawl. Distingue interno/externo, absoluto/relativo, con ancla/bare. Para SEO hace falta enlazado interno vivo, anclas sensatas y cautela con enlaces comprados. Cómo hacer una URL clicable — en el artículo de enlace clicable.",
+      ],
+    },
+  ],
+};

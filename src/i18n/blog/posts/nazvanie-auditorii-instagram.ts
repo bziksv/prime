@@ -142,3 +142,146 @@ export const nazvanieAuditoriiInstagramEn: BlogPost = {
     "retargeting-meta",
   ],
 };
+
+/** ES overlay for nazvanie-auditorii-instagram — same structure as RU JSON / EN. */
+export const nazvanieAuditoriiInstagramEs: BlogPost = {
+  slug: "nazvanie-auditorii-instagram",
+  title: "Nombre de audiencia en Instagram Ads: cómo etiquetar segmentos",
+  date: "2020-04-27",
+  category: "SMM",
+  cover: "/images/blog/nazvanie-auditorii-instagram/cover.webp",
+  excerpt:
+    "Por qué importa el nombre interno de audiencia en la promoción de Instagram/Meta, cómo nombrar segmentos para tests y en qué se diferencia del nombre público del perfil.",
+  lead: [
+    "El campo Audience name en Promote o Ads Manager solo lo ve el equipo de la cuenta: es una etiqueta para un segmento guardado (geo, edad, intereses, listas custom), no el nombre de página que ven los followers.",
+    "Abajo: por qué nombrar audiencias con sistema, qué parámetros van junto al nombre y qué no esperar de etiquetas «creativas» tipo slogan. Los ítems de menú cambian; consulta Meta Help. El disclaimer está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de las plataformas. Instagram* y Facebook* son productos de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso de los servicios puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Quién puede ver el nombre de la audiencia?",
+      a: "Suele ser solo tú y colegas con acceso a la cuenta de ads. Los followers no lo ven en el feed.",
+    },
+    {
+      q: "¿Se puede nombrar una audiencia con un slogan de marca?",
+      a: "Se puede, pero no sirve para tracking: mejor un esquema tipo «geo · interés · objetivo · fecha» para saber un mes después qué testeaste.",
+    },
+    {
+      q: "¿Es lo mismo que el nombre del perfil de Instagram?",
+      a: "No. Name/@handle son públicos. Audience name es una etiqueta interna de ads.",
+    },
+    {
+      q: "¿Hace falta una cuenta business aparte?",
+      a: "Para ads estables — un perfil profesional y acceso a ads / Accounts Center. La ruta exacta — en Meta Help.",
+    },
+    {
+      q: "¿El mass-liking crecerá una audiencia real?",
+      a: "No como estrategia: riesgo de límites. Las audiencias de ads se construyen con intereses, retargeting y listas custom bajo las reglas de la cuenta.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es este campo",
+      level: 2,
+      paras: [
+        "Al configurar la promoción de un post o un ad, guardas un set de filtros: geografía, edad, género, intereses, a veces un radio alrededor de una dirección o un sitio para retargeting.",
+        "«Audience name» etiqueta ese set para no mezclar «Madrid 25–34 interés A» con «lookalike de clientes NYC».",
+        "Slogans tipo «Let’s connect» para una tienda de móviles son simpáticos, pero los informes un mes después no dirán en qué se diferenciaba el segmento.",
+      ],
+      links: [
+        {
+          label: "Promote / boost en Instagram",
+          href: "/es/blog/promo-instagram/",
+        },
+        {
+          label: "Ads en Instagram",
+          href: "/es/blog/reklama-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Cómo nombrar: un esquema que funciona",
+      level: 2,
+      paras: [
+        "Mantén una plantilla corta: producto u oferta · geo · edad · interés/fuente · objetivo de campaña · fecha o número de test.",
+        "Ejemplo: `Zapatillas · Madrid+BCN · 25-40 · running · traffic · 2026-04`. En la lista de saved audiences ves la hipótesis de un vistazo.",
+        "Un segmento — un nombre. No reutilices una etiqueta tras cambiar intereses: la analytics mentirá.",
+      ],
+      lists: [
+        {
+          intro: "Tags útiles en el nombre:",
+          items: [
+            "cold / warm / retarget",
+            "intereses vs lookalike vs clientes CRM",
+            "variante creativa A/B si la audiencia es compartida",
+            "exclusiones (minus buyers) — corto al final",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué rellenas junto al nombre",
+      level: 2,
+      paras: [
+        "Locations: ciudades y regiones de entrega. Para offline, a veces un radio alrededor de un punto — si la opción existe.",
+        "Intereses y comportamiento: elige cerca de la oferta, no «todo por reach».",
+        "Edad y género — según la audiencia real, no «18–65 por si acaso» si el producto es estrecho.",
+        "El botón de acción (call, directions, website) pertenece al ad/promo, no al nombre de audiencia — pero debería coincidir con el objetivo del segmento.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "UI",
+          text: "En la app el camino suele ser más corto (Promote); en Ads Manager hay más campos y saved audiences. La lógica de naming es la misma.",
+        },
+      ],
+    },
+    {
+      title: "Vínculo con el objetivo de campaña",
+      level: 2,
+      paras: [
+        "El nombre debería reflejar el trabajo: mensajes, visitas, ventas, reach. Si no, el equipo optimiza la audiencia equivocada.",
+        "Para un test mantén presupuesto y duración aparte; en el nombre basta un número de hipótesis (`H1`, `H2`).",
+        "Tras el test archiva o marca `paused` / `winner` en el nombre — más fácil que recordar «esa azul».",
+      ],
+    },
+    {
+      title: "Qué evitar",
+      level: 2,
+      paras: [
+        "Automatización mass-like / mass-follow «para la cuenta de ads» no es una forma de construir audiencia y arriesga la cuenta.",
+        "Listas compradas de «audiencia del competidor» en lugar de listas oficiales con consentimiento — territorio de ToS y privacy; ver la pieza de parsing de audiencia.",
+        "Límites obsoletos de «likes por hora» de guías viejas no sustituyen la policy de ads de Meta — sigue las reglas publicitarias actuales.",
+      ],
+      links: [
+        {
+          label: "Parsing de audiencia: riesgos",
+          href: "/es/blog/parsing-auditorii/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Audience name es una etiqueta interna de segmento, no una marca de escaparate.",
+        "Nombra para que un mes después sean obvios geo, fuente y objetivo.",
+        "La calidad del segmento y de la oferta gana a un slogan creativo en el campo Name.",
+      ],
+    },
+  ],
+  closing: [
+    "Antes del próximo Promote, escribe la plantilla de naming en las notas del equipo y guarda 2–3 segmentos limpios para hipótesis distintas — los informes se leen entonces sin descifrar.",
+  ],
+  related: [
+    "promo-instagram",
+    "reklama-instagram",
+    "biznes-akkaunt-instagram",
+    "parsing-auditorii",
+    "tselevaya-auditoriya",
+    "retargeting-meta",
+  ],
+};

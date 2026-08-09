@@ -245,3 +245,249 @@ export const autrichEn: BlogPost = {
     "samostoyatelnoe-seo",
   ],
 };
+
+/** ES overlay for autrich — same structure as RU JSON / EN. */
+export const autrichEs: BlogPost = {
+  slug: "autrich",
+  title: "Outreach: cómo encontrar sitios para artículos y menciones",
+  date: "2020-03-06",
+  category: "SEO",
+  cover: "/images/blog/autrich/cover.webp",
+  excerpt:
+    "Qué significa outreach en SEO: encontrar a mano sitios temáticos, criterios de donor, pitch a editores y comprobar el post — sin spam de exchanges de enlaces ni esquemas para saltar reglas de Wikipedia.",
+  lead: [
+    "Outreach es trabajo manual con publishers: encontrar medios o blogs de tu tema, ofrecer material útil o expertise y conseguir un post con mención o enlace. Es alternativa y complemento a los marketplaces de enlaces — no un perfil mágico de miles de links.",
+    "Abajo: cuándo encaja el outreach, cómo elegir donors, de dónde salen las listas, cómo escribir a editores y qué revisar tras publicar. Relacionado: guest posts, riesgos de comprar enlaces, análisis del perfil de backlinks. Un lote de emails no pone un núcleo de consultas en primera página — la visibilidad se construye en meses de trabajo sistemático.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia el outreach de un marketplace de enlaces?",
+      a: "Un marketplace es un catálogo de slots de pago. Outreach es contacto directo con el editor o el dueño. Calidad y precio a menudo mejoran; velocidad y volumen bajan.",
+    },
+    {
+      q: "¿Hacen falta «enlaces malos» para un perfil natural?",
+      a: "No. No diluyas el perfil con basura a propósito. Menos menciones temáticas fuertes ganan a una mezcla de spam de marketplace.",
+    },
+    {
+      q: "¿Se pueden parsear las SERPs de competidores para outreach?",
+      a: "Revisar menciones públicas e informes de herramientas de backlinks está bien. No hagas scraping agresivo de sitios ajenos ni saltes bloqueos.",
+    },
+    {
+      q: "¿Tratar Wikipedia como fuente de enlaces?",
+      a: "No es un objetivo de outreach. Edits por un enlace rompen las reglas y se limpian. Usa Wikipedia como lector o fuente de hechos — no como donor.",
+    },
+    {
+      q: "¿Cuántos emails de outreach por semana?",
+      a: "Tantos como puedas personalizar bien. El spam masivo de plantillas mata respuestas y reputación.",
+    },
+    {
+      q: "¿Hace falta un enlace dofollow?",
+      a: "Importan más la audiencia y el tráfico de marca. El enlace es un bonus bajo las reglas del sitio; a veces basta una mención y UTM.",
+    },
+    {
+      q: "¿Los placements de pago deben etiquetarse como anuncios?",
+      a: "Sí si es placement de pago según la ley y las reglas del sitio. No disfraces el pago como una «reseña neutra».",
+    },
+    {
+      q: "¿Outreach significa primera página en un mes?",
+      a: "No. Es un canal de menciones. Preparación y piezas publicadas llevan semanas; crecer un núcleo de consultas se planifica a 2–6 meses tras el inicio del trabajo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cuándo tiene sentido el outreach",
+      level: 2,
+      paras: [
+        "Encaja cuando el nicho es competitivo, los marketplaces dan donors parecidos o quieres audiencia viva — no solo una «fila en Ahrefs». Hace falta tiempo, contenido experto fuerte y tolerancia a rechazos.",
+        "No empieces outreach mientras el sitio esté crudo: páginas finas y técnica rota no sostienen visitas. Primero base, luego menciones externas.",
+      ],
+      lists: [
+        {
+          intro: "El outreach ayuda si:",
+          items: [
+            "tienes expertise y casos",
+            "el tema interesa a editores",
+            "estás listo para personalizar emails",
+            "tienes presupuesto para copy de calidad (tuyo o guest)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Colocación gratuita de artículos",
+          href: "/es/blog/besplatnoe-razmeshchenie-statey/",
+        },
+        {
+          label: "Comprar enlaces: riesgos",
+          href: "/es/blog/pokupka-ssylok/",
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Empujar volumen de email con una plantilla «por favor publicad nuestro artículo con un enlace» y sin valor para los lectores del sitio.",
+        },
+      ],
+    },
+    {
+      title: "Criterios del sitio",
+      level: 2,
+      paras: [
+        "Filtro principal — encaje temático y audiencia viva, no un «trust 30» abstracto. Comprueba si la gente lee posts, si comentarios o shares parecen reales y si el sitio parece una granja de enlaces.",
+        "Herramientas como Semrush, Ahrefs o Serpstat ayudan a cortar spam obvio y revisar backlinks, pero umbrales de DR/trust son guía, no ley. Caídas bruscas de métricas y un escaparate de artículos de marketplace son banderas rojas.",
+      ],
+      lists: [
+        {
+          intro: "Qué revisar en un donor:",
+          items: [
+            "tema cercano al tuyo",
+            "visitas reales o engagement",
+            "calidad de placements recientes",
+            "sin feed de «artículos con un enlace»",
+            "contactos claros de editorial",
+            "términos y etiquetado publicitario",
+          ],
+        },
+      ],
+      tables: [
+        {
+          caption: "Señales de calidad",
+          headers: ["Bien", "Mal"],
+          rows: [
+            ["Longreads temáticos", "Copy-paste y muros de texto finos"],
+            ["Respuestas del editor con sustancia", "Solo una lista de precios de «enlace en footer»"],
+            ["Audiencia en tu nicho", "Tráfico falso o teasers"],
+            ["Reglas transparentes", "Ventas ocultas sin etiquetado"],
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Perfil de backlinks",
+          href: "/es/blog/ssylochnyy-profil/",
+        },
+      ],
+    },
+    {
+      title: "De dónde sacar listas de sitios",
+      level: 2,
+      paras: [
+        "Cuatro fuentes prácticas: medios e industria destacados, catálogos o rankings con cautela, backlinks de competidores fuertes (informes públicos), búsqueda manual en consultas informativas del nicho.",
+        "Los catálogos viejos de «mejores sitios» son starters de ideas, no verdad. Los donors vivos suelen salir de «mejores blogs + tema», roundups de expertos y sitios que ya citan bien a competidores.",
+      ],
+      lists: [
+        {
+          intro: "Práctica de recogida:",
+          items: [
+            "tabla: URL, tema, contacto, estado",
+            "dedupe de dominios",
+            "filtro de spam",
+            "prioridad: alto encaje + audiencia viva",
+            "no copies sitios donde ya está cada competidor",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Directorios de sitios",
+          href: "/es/blog/katalogi-saytov/",
+        },
+        {
+          label: "Análisis de competidores",
+          href: "/es/blog/analiz-konkurentov/",
+        },
+      ],
+    },
+    {
+      title: "Pitch, acuerdos, contenido",
+      level: 2,
+      paras: [
+        "Escribe corto: quién eres, por qué ayuda al sitio, 2–3 opciones de tema, samples de escritura. No pegues un dump SEO listo con anclas. Ofrece exclusividad o una adaptación al estilo editorial.",
+        "Si el placement es de pago — fija volumen, enlaces, periodo en vivo, etiquetado publicitario, edits. Tras publicar, revisa la URL, estado de indexación, que la mención o enlace esté y que la página no sea «noindex de escaparate».",
+      ],
+      lists: [
+        {
+          intro: "Ritmo sin spam:",
+          items: [
+            "personalizar por sitio",
+            "un follow-up, no pings diarios",
+            "calidad del copy por encima de la frecuencia",
+            "registrar respuestas en CRM o una hoja",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "El mejor gancho son datos, un caso o una guía que el sitio aún no tiene — no «un artículo con un enlace a nosotros».",
+        },
+      ],
+    },
+    {
+      title: "Las herramientas ayudan, no son piloto automático",
+      level: 2,
+      paras: [
+        "Crawlers de SERP, herramientas tipo Ahrefs/Semrush, hojas y email aceleran la rutina. La automatización no debe convertir el outreach en blasts de spam: la personalización sigue siendo manual.",
+        "No uses esquemas «mágicos» de enlaces ocultos, engagement falso o saltar reglas del sitio. Eso quema donors y sube el riesgo de filtros.",
+      ],
+      lists: [
+        {
+          intro: "Stack mínimo:",
+          items: [
+            "tabla de donors",
+            "herramienta de backlinks o visibilidad",
+            "check de índice tras publicar",
+            "plantillas de email con campos de personalización",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo encajarlo en el plan SEO",
+      level: 2,
+      paras: [
+        "Outreach es un canal junto a contenido on-site, PR y placements de pago cuidadosos. Fija KPIs: respuestas, placements, visitas, leads — no solo «conteo de enlaces».",
+        "La preparación de materiales y la primera ola de contactos llevan semanas. El efecto en la visibilidad del núcleo crece mes a mes; el horizonte planificado de rankings suele ser 2–6 meses tras el inicio del trabajo completo.",
+      ],
+      lists: [
+        {
+          intro: "Checklist del ciclo:",
+          items: [
+            "shortlist de donors",
+            "temas para la audiencia del sitio",
+            "enviar y seguir estados",
+            "publicar y verificar",
+            "informe: tráfico, leads, menciones",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+        {
+          label: "Perfil de backlinks",
+          href: "/es/blog/ssylochnyy-profil/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Outreach no es primera página al instante. Primero menciones de calidad, luego el efecto se acumula — típicamente a 2–6 meses junto a un trabajo SEO más amplio.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "besplatnoe-razmeshchenie-statey",
+    "pokupka-ssylok",
+    "ssylochnyy-profil",
+    "katalogi-saytov",
+    "analiz-konkurentov",
+    "samostoyatelnoe-seo",
+  ],
+};

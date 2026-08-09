@@ -168,3 +168,172 @@ export const obratnyyZvonokEn: BlogPost = {
     "virtualnyy-nomer",
   ],
 };
+
+/** ES overlay for obratnyy-zvonok — same structure as RU JSON / EN. */
+export const obratnyyZvonokEs: BlogPost = {
+  slug: "obratnyy-zvonok",
+  title: "Widget de callback en el sitio: por qué hace falta y cómo elegirlo",
+  date: "2016-10-24",
+  category: "Digital marketing",
+  cover: "/images/blog/obratnyy-zvonok/cover.webp",
+  excerpt:
+    "Formularios de «llámame» y widgets de callback: en qué se diferencian, cuándo ayudan a las ventas y qué revisar al elegir — sin popups agresivos ni ads de un solo vendor.",
+  lead: [
+    "Un callback desde el sitio es una forma de conectar rápido a un visitante con un manager: la persona deja un teléfono y recibe una llamada de vuelta. Hay un formulario simple a CRM/email y servicios que puentean llamadas casi al instante.",
+    "Abajo: cuándo encaja, en qué se diferencia un formulario de «te llamamos en N segundos» y cómo no destrozar la UX con popups agresivos. Planes y marcas concretas de widget cambian — compara términos actuales tú mismo.",
+  ],
+  faq: [
+    {
+      q: "¿Un formulario y un widget son lo mismo?",
+      a: "Ambos recogen un teléfono. Un formulario suele ir a CRM/email con respuesta diferida. Un widget de callback puede conectar manager y cliente al momento vía la telefonía del servicio.",
+    },
+    {
+      q: "¿Hace falta un widget para todos?",
+      a: "No. En servicios caros y complejos una charla en vivo a menudo ayuda. Para un pedido simple a veces bastan un formulario, messenger o un teléfono clicable.",
+    },
+    {
+      q: "¿Subirá la conversión «un orden de magnitud»?",
+      a: "No te lo prometas. Una respuesta rápida ayuda a retener un lead cálido, pero el resultado depende de la oferta, la velocidad del manager y el nicho.",
+    },
+    {
+      q: "¿Qué pasa con los iconos flotantes de teléfono?",
+      a: "Si bloquean la lectura y cerrar la pestaña — molestan y suben el bounce. Un widget debe ayudar, no perseguir.",
+    },
+    {
+      q: "¿Cómo mides el efecto?",
+      a: "Metas de analytics en envío/llamada exitosa, grabaciones de llamadas, cuota de leads que se convierten en ventas. Sin analytics un widget es decoración.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué una llamada desde el sitio en absoluto",
+      level: 2,
+      paras: [
+        "Un formulario de pedido captura intención. Una llamada deja al manager manejar objeciones, aclarar el kit y a veces hacer upsell. En bienes caros y complejos el contacto personal a menudo decide.",
+        "Si el sitio solo tiene «hacer pedido» sin consult, algunos visitantes se van a sitios donde pueden preguntar rápido.",
+      ],
+      links: [
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+        {
+          label: "Factores comerciales",
+          href: "/es/blog/kommercheskie-faktory/",
+        },
+      ],
+    },
+    {
+      title: "El formulario «llámame»",
+      level: 2,
+      paras: [
+        "Clásico: un botón junto al teléfono del header o uno fijo — nombre, teléfono, hora preferida, pregunta. El lead va a email o CRM.",
+        "Plus — una llamada diferida a la hora del cliente y tracking simple en la base. Minus — retraso: mientras llega el mail y un manager lo recoge, el lead puede enfriar.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo basta un formulario:",
+          items: [
+            "los managers responden dentro de un SLA claro",
+            "el cliente necesita elegir hora de llamada",
+            "el presupuesto no cubre telefonía aparte de widget",
+            "ya existen CRM y routing de leads",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Widget de callback rápido",
+      level: 2,
+      paras: [
+        "Un servicio toma la solicitud y arranca un puente: primero una llamada al manager, luego al cliente (o al revés, según el provider). Para el visitante se siente como un callback rápido.",
+        "Suele ser de pago (suscripción y/o por minuto). No todos soportan «llamar a una hora fijada» — revisa antes de pagar. Una marca de artículos viejos no es obligatoria: compara features y precio.",
+      ],
+      lists: [
+        {
+          intro: "Pros cuando está bien montado:",
+          items: [
+            "menos leads perdidos por olvido",
+            "grabación de llamadas e informes en muchos servicios",
+            "se pueden enganchar metas de analytics",
+            "útil en páginas «calientes» (precios, servicios)",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Error habitual",
+          text: "Encender el widget sin nadie que responda en horario laboral. Un ring rápido al vacío es peor que un manejo lento pero vivo.",
+        },
+      ],
+    },
+    {
+      title: "UX: ayudar, no cazar",
+      level: 2,
+      paras: [
+        "Auriculares animados, exit-intent «descuento solo para ti» y popups repetidos a menudo dañan la confianza — sobre todo en móvil con pantalla pequeña.",
+        "Mejor: un botón calmado, copy claro, elección de hora, sin timers falsos. Un widget muerto es peor que ninguno.",
+      ],
+      links: [
+        {
+          label: "Saludo del sitio",
+          href: "/es/blog/privetstvie-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Qué revisar al elegir",
+      level: 2,
+      paras: [
+        "Compara: precio por minuto/mes, grabación de llamadas, integraciones CRM, horarios y festivos, geo y calidad de llamada, reporting, política de datos personales.",
+        "Prueba en tu sitio: velocidad de conexión, peso del script, conflictos con el banner de cookies y la velocidad de página.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de rollout:",
+          items: [
+            "quién responde y en qué horas",
+            "meta de analytics en solicitud/éxito",
+            "el script no pega de forma crítica a Page Speed",
+            "existe escenario fuera de horario",
+            "el consentimiento de procesamiento de teléfono está en su sitio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Metas en Metrica",
+          href: "/es/blog/metrika-tseli/",
+        },
+      ],
+    },
+    {
+      title: "Formulario, widget o messenger",
+      level: 2,
+      paras: [
+        "A menudo funciona una mezcla: teléfono clicable + formulario/widget + messenger. Personas distintas prefieren canales distintos.",
+        "En B2B un calendario de reunión o el email a veces ganan a «30 segundos». Mira el comportamiento de la audiencia en analytics.",
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "El callback va de velocidad de consult, no de decoración del sitio. Un formulario es más simple y barato; un widget es conexión instantánea al coste del servicio.",
+        "Sin SLA de manager y medición de metas cualquier widget es inútil.",
+      ],
+    },
+  ],
+  closing: [
+    "Da a los visitantes una vía rápida y honesta de alcanzarte: un formulario con hora de llamada o un widget con managers en vivo — y mide el alza en leads. El riesgo principal es entregar un lead cálido a un competidor porque nadie respondió.",
+  ],
+  related: [
+    "optimizatsiya-konversii",
+    "kommercheskie-faktory",
+    "privetstvie-sayta",
+    "metrika-tseli",
+    "ip-telefoniya",
+    "virtualnyy-nomer",
+  ],
+};

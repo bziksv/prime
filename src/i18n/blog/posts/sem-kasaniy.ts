@@ -178,3 +178,182 @@ export const semKasaniyEn: BlogPost = {
     "retargeting",
   ],
 };
+
+/** ES overlay for sem-kasaniy — same structure as RU JSON / EN. */
+export const semKasaniyEs: BlogPost = {
+  slug: "sem-kasaniy",
+  title: "La teoría de los 7 toques: dónde y cómo alcanzar a la audiencia",
+  date: "2019-12-17",
+  category: "Digital marketing",
+  cover: "/images/blog/sem-kasaniy/cover.webp",
+  excerpt:
+    "Por qué un canal no basta: el día digital del usuario, la hipótesis de los 7 toques y cómo armar una cadena de display, búsqueda, social y retarget hacia un lead — sin un mágico «exactamente siete».",
+  lead: [
+    "En un día una persona toca docenas de pantallas: mensajeros, email, búsqueda, vídeo, redes, sitios de nicho. La búsqueda pura se lleva una cuota pequeña del tiempo online — un ad «perfecto» a menudo no basta para que una marca desconocida se compre al primer clic.",
+    "La hipótesis de los 7 toques dice que hacen falta varias interacciones con sentido antes de la acción objetivo. Es una guía, no una ley de la física. Abajo: dónde captar atención a lo largo del día y cómo ligar canales. Quién es tu audiencia pertenece a un artículo aparte; aquí nos centramos en cómo alcanzarla.",
+  ],
+  faq: [
+    {
+      q: "¿Hacen falta exactamente 7 toques?",
+      a: "No. El número depende del ticket, el nicho y la familiaridad de marca. Lo que importa son varios toques en contextos distintos — no un ritual de «siete banners».",
+    },
+    {
+      q: "¿En qué se diferencia de los touchpoints?",
+      a: "Los touchpoints mapean cada contacto de marca. La teoría de los 7 toques es la idea de que un trato necesita contacto repetido. Trabajan juntas.",
+    },
+    {
+      q: "¿La búsqueda es un canal débil?",
+      a: "No. La cuota de tiempo en búsqueda es pequeña, pero la intención es alta. La búsqueda a menudo cierra el trato tras el calentamiento en otros canales.",
+    },
+    {
+      q: "¿Por dónde empezar el mix de canales?",
+      a: "Por oferta y tracking: UTMs, objetivos, segmentos de retarget. Luego 2–3 canales para la audiencia — no «todas las plataformas a la vez».",
+    },
+    {
+      q: "¿Funcionan los lookalikes?",
+      a: "Como expansión de una audiencia fuente cálida — sí. Como único canal sin oferta y landing — rara vez.",
+    },
+    {
+      q: "¿Cómo medir la sinergia?",
+      a: "Mira conversiones asistidas, paths y CPA antes/después del mix de canales — no solo last click en una cuenta.",
+    },
+  ],
+  sections: [
+    {
+      title: "Día digital: dónde está la gente de verdad",
+      level: 2,
+      paras: [
+        "Mañana — mensajeros, noticias, el tiempo de camino. Día — email, tabs de trabajo, buscar respuestas. Tarde — redes, vídeo, entretenimiento, sitios de nicho. El cuadro está promediado: tu audiencia puede vivir distinto, pero el principio se mantiene — la atención está muy repartida.",
+        "Si la marca «vive» solo en un canal, compites por una ventana minúscula. Tiene sentido aparecer donde la audiencia de verdad pasa tiempo — con un mensaje distinto por contexto, no un banner copy-pasteado en todas partes.",
+      ],
+      lists: [
+        {
+          intro: "Slices del día (una guía):",
+          items: [
+            "mañana — toques cortos, recordatorio, utilidad",
+            "día — búsqueda, email, resolver una tarea",
+            "tarde — contenido, vídeo, social, comparar opciones",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Audiencia target",
+          href: "/es/blog/tselevaya-auditoriya/",
+        },
+        {
+          label: "Fuentes de tráfico",
+          href: "/es/blog/istochniki-trafika/",
+        },
+      ],
+    },
+    {
+      title: "Por qué un toque no basta",
+      level: 2,
+      paras: [
+        "En un sitio desconocido desde un ad frío, la conversión suele ser baja: la gente necesita conocer la marca, comparar, volver. Excepciones — bienes impulsivos baratos y demanda ya formada.",
+        "Display y contenido suben awareness; búsqueda y retarget más a menudo «cierran». Cortar el gasto early-funnel por un last click débil es un error habitual — ver conversiones asistidas.",
+      ],
+      links: [
+        {
+          label: "Conversiones asistidas",
+          href: "/es/blog/assotsiirovannye-konversii/",
+        },
+      ],
+    },
+    {
+      title: "La hipótesis de los 7 toques",
+      level: 2,
+      paras: [
+        "La idea es simple: recuerda de ti varias veces en entornos distintos para que, a la hora de elegir, la marca ya se sienta familiar. La cultura suele ilustrarlo con escenas de influencia en películas — en marketing, la repetición del mensaje importa más que la teatralidad.",
+        "Un toque no es cualquier impresión de banner en stats — es un momento en que la persona notó la oferta o la marca: clic, view de vídeo, save, visita, email. Siete impresiones «vacías» sin atención ≠ siete pasos de funnel.",
+      ],
+      lists: [
+        {
+          intro: "Qué cuenta como toque:",
+          items: [
+            "impresión o clic de display/vídeo",
+            "un post o ad social",
+            "email o push con consentimiento",
+            "una visita desde búsqueda / al sitio",
+            "retarget con un mensaje nuevo",
+            "offline: señalética, llamada, visita a tienda",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Touchpoints",
+          href: "/es/blog/tochki-kontakta/",
+        },
+        {
+          label: "Jerarquía de Hunt",
+          href: "/es/blog/lestnitsa-hanta/",
+        },
+      ],
+    },
+    {
+      title: "Cómo armar la cadena en la práctica",
+      level: 2,
+      paras: [
+        "Lógica de ejemplo (no una plantilla de «copia el presupuesto»): display/sitios de nicho introducen → social y contenido profundizan el interés → búsqueda near-topic y de marca captan demanda → retarget trae de vuelta a quien se fue sin lead.",
+        "La sinergia de canales a menudo corta el CPA más que «más dinero en una cuenta»: crecen las queries, el display se abarata con audiencia más cálida, la gente empieza a buscar la marca sola. Cuenta el mix, no los canales aislados.",
+      ],
+      lists: [
+        {
+          intro: "Orden de lanzamiento:",
+          items: [
+            "retrato de audiencia y una promesa clara",
+            "una landing alineada a la temperatura del tráfico",
+            "2–3 canales + retarget",
+            "UTMs y objetivos consistentes",
+            "duración del test ≥ ciclo de decisión",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Nota",
+          kind: "tip",
+          text: "Mencionamos redes y mensajeros como tipos de canal. Elegir una plataforma concreta depende de reglas y límites legales en tu jurisdicción; este material es informativo.",
+        },
+      ],
+      links: [
+        {
+          label: "Retargeting",
+          href: "/es/blog/retargeting/",
+        },
+      ],
+    },
+    {
+      title: "Errores habituales",
+      level: 2,
+      paras: [
+        "El mismo creative en cada paso: el tráfico frío ve «compra ya», el cálido ve lo mismo otra vez. Sin exclusiones de compradores. Sin puente al producto tras un reach viral.",
+        "Otro error — contar cualquier cookie en un segmento como toque. Mira engagement y siguientes pasos: visita, lead, búsqueda repetida de marca.",
+      ],
+      lists: [
+        {
+          intro: "Revisa:",
+          items: [
+            "el mensaje cambia por etapa",
+            "el retarget no molesta con la frecuencia",
+            "la gente busca la marca tras las campañas",
+            "no cortas canales early-funnel solo por last click",
+          ],
+        },
+      ],
+    },
+  ],
+  closing: [
+    "7 toques es un marco útil, no un dogma. Encuentra dónde tu audiencia pasa el día, arma una cadena corta de canales con mensajes distintos y mide la sinergia — o te quedas esperando un solo clic «mágico».",
+  ],
+  related: [
+    "tselevaya-auditoriya",
+    "tochki-kontakta",
+    "lestnitsa-hanta",
+    "assotsiirovannye-konversii",
+    "istochniki-trafika",
+    "retargeting",
+  ],
+};

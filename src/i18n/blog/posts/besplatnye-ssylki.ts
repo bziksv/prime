@@ -149,3 +149,153 @@ export const besplatnyeSsylkiEn: BlogPost = {
     "idei-kontent-prodvizheniya",
   ],
 };
+
+/** ES overlay for besplatnye-ssylki — same structure as RU JSON / EN. */
+export const besplatnyeSsylkiEs: BlogPost = {
+  slug: "besplatnye-ssylki",
+  title: "Enlaces gratis a tu sitio: de dónde sacarlos sin esquemas grises",
+  date: "2019-03-21",
+  category: "Content marketing",
+  cover: "/images/blog/besplatnye-ssylki/cover.webp",
+  excerpt:
+    "De dónde salen de verdad las menciones y enlaces gratis: contenido, directorios, crowd, guest posts, reseñas — y qué tácticas es mejor dejar quietas.",
+  lead: [
+    "«Enlaces gratis» suele significar sin presupuesto de media: tiempo en contenido, partnerships y menciones con cuidado. El off-site SEO apunta a un perfil natural — no a un montón de enlaces a cualquier precio, ni a una promesa de primera página en una semana.",
+    "Abajo: fuentes viables y límites claros. No cubrimos esquemas de enlaces, blasts masivos a directorios, cuentas falsas en foros ni engañar a moderadores — eso arriesga filtros y reputación.",
+  ],
+  faq: [
+    {
+      q: "¿Hay backlinks con coste realmente cero?",
+      a: "El dinero puede ser cero; el tiempo y la calidad del material siempre cuestan algo. Un artículo fuerte a menudo gana a una docena de registros flojos.",
+    },
+    {
+      q: "¿Hace falta un calendario de «N enlaces al día»?",
+      a: "No. Menciones relevantes raras ganan al spam constante. Los picos masivos bruscos son un riesgo.",
+    },
+    {
+      q: "¿Los directorios siguen funcionando?",
+      a: "Los de industria estrecha y locales — a veces para navegación y NAP. Los «blasts» masivos y el auto-submit — casi siempre perjudican.",
+    },
+    {
+      q: "¿Se puede publicar una pregunta y responder desde dos cuentas de foro?",
+      a: "No — eso engaña a la comunidad. Escribe una respuesta honesta y útil con tu propio nombre.",
+    },
+    {
+      q: "¿Y los exchanges «tú me enlazas, yo te enlazo»?",
+      a: "El intercambio mutuo masivo es débil y fácil de detectar. Prefiere menciones naturales unidireccionales ganadas por utilidad.",
+    },
+    {
+      q: "¿Por dónde empezar?",
+      a: "Con contenido fuerte en tu sitio, luego placements guest o en medios, crowd en hilos vivos, directorios y reseñas honestas.",
+    },
+    {
+      q: "¿En qué se diferencia del análisis del perfil de enlaces?",
+      a: "Esa pieza cubre cómo leer los backlinks que ya tienes. Esta cubre de dónde ganar nuevos sin esquemas grises.",
+    },
+  ],
+  sections: [
+    {
+      title: "Primero contenido, luego link building",
+      level: 2,
+      paras: [
+        "Materiales útiles que la gente guarda y cita son la fuente más natural de enlaces gratis. Sin eso, directorios y comentarios dan poco efecto duradero.",
+        "El análisis de competidores (Ahrefs, Semrush y pares) ayuda a ver tipos de donors en el nicho — como hipótesis, no una lista «copia 1:1» que incluya su spam.",
+      ],
+      links: [
+        {
+          label: "Perfil de enlaces",
+          href: "/es/blog/ssylochnyy-profil/",
+        },
+        {
+          label: "Ideas de promoción de contenido",
+          href: "/blog/idei-kontent-prodvizheniya/",
+        },
+      ],
+    },
+    {
+      title: "Directorios y agregadores — con selectividad",
+      level: 2,
+      paras: [
+        "Los directorios de empresa de industria y regionales encajan cuando la plataforma está viva y las reglas son claras. Regístrate con honestidad: NAP actual, una descripción normal.",
+        "Pesa la condición de «enlace recíproco obligatorio al directorio»: no regales equity a todo el mundo. No quites un enlace prometido tras la aprobación — eso es engaño.",
+        "Los blasts automáticos por cientos de directorios son casi garantizado tóxicos.",
+      ],
+    },
+    {
+      title: "Foros, redes, comentarios",
+      level: 2,
+      paras: [
+        "En foros y en Q&A se valora una respuesta con sustancia. Añade un enlace solo si de verdad ayuda; una cuenta — sin «por favor aconsejad / aquí mi sitio» montado.",
+        "En redes y comunidades — un post útil y shares según las reglas de la plataforma, no spam masivo de «sitio muy útil».",
+        "Comentarios en artículos ajenos: aporta valor, no un bloque de anuncio. Los moderadores pueden cortar el enlace — eso es normal.",
+      ],
+      links: [
+        {
+          label: "Crowd marketing",
+          href: "/es/blog/kraud-marketing/",
+        },
+        {
+          label: "Enlaces en foros",
+          href: "/es/blog/ssylki-na-forumah/",
+        },
+      ],
+      notes: [
+        {
+          title: "Tácticas prohibidas de guías viejas",
+          kind: "tip",
+          text: "Dos cuentas para «pregunta–respuesta», quitar un enlace recíproco de directorio tras la aprobación, spam diario de hilos — déjalas quietas.",
+        },
+      ],
+    },
+    {
+      title: "Reseñas, roundups, guest posts, partners",
+      level: 2,
+      paras: [
+        "Sitios de reseñas y listings de negocio — según las reglas de la plataforma y con experiencia real. Las fakes compradas golpean la reputación.",
+        "Reseñas de producto para un blogger o editor necesitan un acuerdo claro y etiquetado si es publicidad — no un «regalo por un enlace oculto».",
+        "Artículos guest y posts con amigos o partners que tengan sitios vivos ganan a los mercados de intercambio mutuo. Más en las piezas de guest post y colocación gratis de artículos.",
+      ],
+      links: [
+        {
+          label: "Guest post",
+          href: "/es/blog/gostevoy-post/",
+        },
+        {
+          label: "Colocación gratis de artículos",
+          href: "/es/blog/besplatnoe-razmeshchenie-statey/",
+        },
+      ],
+    },
+    {
+      title: "Ritmo y perfil",
+      level: 2,
+      paras: [
+        "Crece las menciones de forma gradual — sin picos «para el informe». Mantén diversidad de tipos de donor.",
+        "Crecer un núcleo comercial de consultas en los resultados se planifica a lo largo de meses de trabajo (técnica, contenido y enlaces juntos) — típicamente 2–6 meses tras el arranque del trabajo — no una semana de enlaces gratis.",
+      ],
+      lists: [
+        {
+          intro: "Recuerda:",
+          items: [
+            "contenido y audiencia ganan al conteo de URLs",
+            "directorios — selectivos, sin blasts",
+            "crowd — respuestas honestas",
+            "sin cuentas falsas ni spam mutuo",
+            "ritmo sin picos bruscos",
+          ],
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Elige un canal para un mes (guest post, directorio de industria o crowd en dos hilos vivos) y ciérralo — más claro que rociar «10 enlaces al día».",
+  ],
+  related: [
+    "gostevoy-post",
+    "besplatnoe-razmeshchenie-statey",
+    "kraud-marketing",
+    "ssylki-na-forumah",
+    "ssylochnyy-profil",
+    "idei-kontent-prodvizheniya",
+  ],
+};

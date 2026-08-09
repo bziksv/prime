@@ -217,3 +217,221 @@ export const analitikaKontentMarketingaEn: BlogPost = {
     "optimizatsiya-konversii",
   ],
 };
+
+/** ES overlay for analitika-kontent-marketinga — same structure as RU JSON / EN. */
+export const analitikaKontentMarketingaEs: BlogPost = {
+  slug: "analitika-kontent-marketinga",
+  title: "Analytics de content marketing: métricas y cómo leerlas",
+  date: "2021-01-15",
+  category: "Digital marketing",
+  cover: "/images/blog/analitika-kontent-marketinga/cover.webp",
+  excerpt:
+    "Cómo evaluar el content marketing: reach, retención, shares, leads y métricas de ops editorial — sin obsesionarte con likes ni confundir esto con instalar un contador.",
+  lead: [
+    "El contenido sin números se vuelve «publicamos porque toca». La analytics responde otra pregunta: qué formato y tema mueven hacia el objetivo — suscripción, lead, venta o retención — y qué solo hace ruido.",
+    "Abajo: un marco de métricas — consumo, engagement y sharing, lead gen y ops editorial. Instalar analytics y armar un dashboard son temas hermanos; aquí el foco es qué medir y cómo no dejarte engañar por stats bonitas.",
+  ],
+  faq: [
+    {
+      q: "¿Con qué métricas debería empezar un proyecto pequeño?",
+      a: "Cinco a siete indicadores bajo un objetivo: reach/visitas a URLs objetivo, finish rate o tiempo, CTR del CTA, leads, coste por unidad de contenido. El resto después.",
+    },
+    {
+      q: "¿Likes y views son buenos KPIs?",
+      a: "Suelen ser señales auxiliares. Los KPIs son el porqué escribes: leads, ventas, retención, crecimiento de lista. Views sin objetivo se inflan fácil con piezas virales pero inútiles.",
+    },
+    {
+      q: "¿En qué se diferencia de instalar analytics?",
+      a: "El contador es la herramienta de recolección. Este artículo va del set de indicadores y cómo juzgar el contenido. Sin objetivos y tagging, el contador solo no explica nada.",
+    },
+    {
+      q: "¿Hace falta un dashboard aparte?",
+      a: "Cuando hay más de dos fuentes y un reporte semanal — sí. Al inicio basta una tabla más reportes de analytics. Ver el artículo de dashboard.",
+    },
+    {
+      q: "¿Cómo comparo un post del blog y uno de social?",
+      a: "No mezcles views crudas entre plataformas. Compara la contribución a un objetivo (lead, suscripción) y el coste de producción por unidad de resultado.",
+    },
+    {
+      q: "¿Qué es el ROI de contenido?",
+      a: "Efecto (revenue/leads en dinero) frente al coste de crear y distribuir. Aproximado — pero mejor que «parecía que funcionaba».",
+    },
+    {
+      q: "¿Con qué frecuencia sacar métricas?",
+      a: "Ops editorial — semanal; funnel y ROI — mensual/trimestral. Un pico puntual tras publicar ≠ efecto duradero.",
+    },
+    {
+      q: "¿Puedo juzgar artículos SEO solo por tráfico?",
+      a: "El tráfico es la entrada. Mira también comportamiento, conversión al objetivo y calidad del lead. El crecimiento de rankings se planifica a 2–6 meses — no confundas publicar una pieza con «primera página en una semana».",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué medir el contenido",
+      level: 2,
+      paras: [
+        "Sin métricas el equipo editorial optimiza por gusto: «bonito», «largo», «como el competidor». Con métricas llega la prioridad: qué amplificar, qué cortar, dónde poner presupuesto de autor y diseño.",
+        "Fija primero el objetivo del canal: tráfico del blog, leads, nurture, soporte de marca, demanda SEO. Un artículo rara vez cubre todo — y el set de KPIs debería reflejarlo.",
+      ],
+      lists: [
+        {
+          intro: "Trampas típicas:",
+          items: [
+            "medir todo y no decidir nada",
+            "comparar plataformas distintas por views crudas",
+            "tomar reach viral por un resultado de negocio",
+            "ignorar el coste de producción",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Plan de contenido",
+          href: "/es/blog/kontent-plan/",
+        },
+      ],
+    },
+    {
+      title: "Métricas de consumo: ¿llegó a la gente?",
+      level: 2,
+      paras: [
+        "La capa base — cuántas personas vieron y abrieron la pieza. En el sitio: visitas y views únicas de URL; en email: opens/CTR; en social: reach y clics al enlace (con matices por algoritmos y límites de plataforma).",
+        "Mira no solo absolutos sino la cuota de tráfico objetivo: búsqueda, email, ads. Un pico de bots o un share al azar sin clics al sitio es una señal débil.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo del sitio:",
+          items: [
+            "views y usuarios por URL",
+            "fuentes (búsqueda / directo / referral / campañas)",
+            "bounce y profundidad — con cuidado, en contexto del tipo de página",
+            "visitas de retorno a piezas clave",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Instalar Yandex Metrika",
+          href: "/es/blog/metrika-ustanovka/",
+        },
+      ],
+    },
+    {
+      title: "Retención, engagement y sharing",
+      level: 2,
+      paras: [
+        "«Llegó» ≠ «leyó y reaccionó». Para copy largo: finish rate, tiempo en página, scroll (si está configurado), clics en TOC y enlaces internos. Para vídeo: % de completion, no solo starts.",
+        "Shares y saves muestran disposición a recomendar. No son un KPI solos, pero son una buena señal de «pase» — sobre todo si después crece el tráfico referral.",
+      ],
+      lists: [
+        {
+          intro: "Qué registrar:",
+          items: [
+            "finish rate / tiempo / eventos de scroll",
+            "clics en CTA y anchors",
+            "comentarios y respuestas con sentido (calidad sobre cantidad)",
+            "shares/saves y tráfico referral tras publicar",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Mucho reach con cero clics al sitio y cero leads significa replantear formato u oferta — no «éxito por likes».",
+        },
+      ],
+    },
+    {
+      title: "Leads, ventas y contribución al funnel",
+      level: 2,
+      paras: [
+        "Capa de negocio: leads, altas, demos, compras atribuidas al contenido. Necesitas objetivos de analytics y un modelo de atribución acordado (al menos last click más sentido común en assisted).",
+        "Separa «el contenido trajo» de «el contenido ayudó». Un artículo mid-funnel puede no dar un lead directo pero bajar el CAC de ads o acelerar un deal — eso es un resultado si lo ves en el CRM.",
+      ],
+      lists: [
+        {
+          intro: "Set práctico:",
+          items: [
+            "objetivos: formulario, clic a teléfono, visita al catálogo",
+            "conversión URL → objetivo",
+            "calidad del lead (si hay estados en CRM)",
+            "revenue/deals con un touch de contenido en el periodo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+    },
+    {
+      title: "Métricas de ops editorial",
+      level: 2,
+      paras: [
+        "Throughput del equipo: cuántas piezas a tiempo, ciclo medio brief-a-publicar, cuota de revisiones, coste de hora de autor/editor/diseño. Sin eso, un post «barato» de cero efecto parece mejor que una guía cara que cierra deals.",
+        "El ROI es aproximado: (valor de resultados − coste) / coste, o coste por lead de contenido frente a otros canales. Números imperfectos — pero cortan la ilusión de un blog «gratis».",
+      ],
+      lists: [
+        {
+          intro: "Ops:",
+          items: [
+            "plan vs publicado",
+            "tiempo de producción",
+            "costes (gente + freelancers + distribución)",
+            "coste por unidad de resultado (lead / lead cualificado)",
+            "cuota de actualizar URLs viejas vs nuevas (a menudo sale más barato mejorar que escribir de cero)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Actualizar contenido",
+          href: "/es/blog/obnovlenie-kontenta/",
+        },
+        {
+          label: "Content manager",
+          href: "/es/blog/kontent-menedzher/",
+        },
+      ],
+    },
+    {
+      title: "Cómo convertir números en decisiones",
+      level: 2,
+      paras: [
+        "Arma una tabla o un dashboard simple: URL / tema / formato / objetivo / visitas / engagement / conversión / coste / conclusión. Semanal: qué amplificar, parar o actualizar.",
+        "Para piezas SEO fija un horizonte: prep y publicar — semanas; construir rankings y tráfico estable — meses planificados (a menudo 2–6 tras el arranque del trabajo), no «artículo en vivo — primera página al instante».",
+      ],
+      lists: [
+        {
+          intro: "Ritual de reporte:",
+          items: [
+            "un objetivo para el periodo",
+            "mejores y peores piezas",
+            "hipótesis para el siguiente sprint",
+            "qué reutilizar (series, updates, email)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Dashboard de negocio",
+          href: "/es/blog/dashboard/",
+        },
+        {
+          label: "Reporte al cliente",
+          href: "/es/blog/otchet-klientu/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "kontent-plan",
+    "metrika-ustanovka",
+    "dashboard",
+    "obnovlenie-kontenta",
+    "optimizatsiya-konversii",
+  ],
+};

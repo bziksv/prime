@@ -185,3 +185,189 @@ export const biznesAkkauntInstagramEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for biznes-akkaunt-instagram — same structure as RU JSON / EN. */
+export const biznesAkkauntInstagramEs: BlogPost = {
+  slug: "biznes-akkaunt-instagram",
+  title: "Cuenta business de Instagram: por qué la necesitas y cómo configurarla",
+  date: "2022-01-19",
+  category: "SMM",
+  cover: "/images/blog/biznes-akkaunt-instagram/cover.webp",
+  excerpt:
+    "En qué se diferencia un perfil business o professional de Instagram de uno personal: insights, contactos, ads. Cómo cambiar el tipo de cuenta y qué evitar.",
+  lead: [
+    "Para comercio en Instagram suele hacer falta un perfil business o professional: insights, botones de contacto, acceso a herramientas de ads. Un blog personal sin ventas puede quedarse regular.",
+    "Los nombres de los ítems del menú cambian (a veces «cuenta profesional»). Abajo: qué significan los ajustes y un checklist — no clickbait basado en screenshots de 2020.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Cuenta business y professional de Instagram son lo mismo?",
+      a: "En esencia es un modo para creators y empresas con insights y herramientas ampliados. Revisa las etiquetas exactas en los ajustes de la cuenta.",
+    },
+    {
+      q: "¿Hace falta un enlace a una Facebook Page?",
+      a: "Antes a menudo era obligatorio. Ahora depende de la región y de los objetivos (sobre todo ads). Si el paso existe — sigue el wizard in-app; si no — configura lo disponible.",
+    },
+    {
+      q: "¿Qué añade el modo business frente a una cuenta personal?",
+      a: "Insights, contactos en la cabecera, una categoría y formas más fáciles de correr y analizar la promoción.",
+    },
+    {
+      q: "¿Se puede volver a una cuenta personal?",
+      a: "Por lo general sí, vía ajustes del tipo de cuenta. Algunos datos de insights pueden dejar de estar disponibles.",
+    },
+    {
+      q: "¿Basta una cuenta business sin diseño de perfil?",
+      a: "No. El tipo de cuenta es la base; la oferta, el avatar y el estilo del feed siguen decidiendo si alguien se queda. Ver el artículo de diseño de perfil.",
+    },
+  ],
+  sections: [
+    {
+      title: "Perfil personal o business",
+      level: 2,
+      paras: [
+        "Lo personal funciona para un diario y un círculo estrecho. Business/professional — cuando necesitas leads, ventas, ads y contactos claros.",
+        "Un creator con integraciones también gana con el modo professional: ves qué funciona en el contenido.",
+      ],
+      lists: [
+        {
+          intro: "Señales de que toca cambiar:",
+          items: [
+            "necesitas teléfono, email o dirección en la cabecera",
+            "revisas insights de posts y audiencia",
+            "planificas ads",
+            "respondes a clientes como empresa, no solo como blog",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Diseño del perfil de Instagram",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Qué te da el modo business",
+      level: 2,
+      paras: [
+        "Lo principal son datos y botones de servicio — no crecimiento mágico. El crecimiento viene del contenido, la oferta y el tráfico.",
+      ],
+      lists: [
+        {
+          intro: "Capacidades típicas:",
+          items: [
+            "insights de alcance, visitas al perfil, saves, dinámica de followers",
+            "mejores horarios de actividad de la audiencia — una guía, no dogma",
+            "botones de contacto y categoría en la cabecera",
+            "acceso más fácil a cuentas de ads y herramientas partner",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Los insights muestran interés, pero no sustituyen el tracking de leads. Ata views a leads (código promo, UTM, CRM).",
+        },
+      ],
+    },
+    {
+      title: "Cómo cambiar el tipo de cuenta",
+      level: 2,
+      paras: [
+        "En los ajustes del perfil busca el cambio a cuenta professional/business. El wizard ofrecerá una categoría y, si hace falta, el enlace a herramientas Meta.",
+        "Si el enlace a Facebook no está disponible o no hace falta para las tareas actuales — configura lo que la app permite ahora: categoría, contactos, insights.",
+      ],
+      lists: [
+        {
+          intro: "Tras el cambio, rellena:",
+          items: [
+            "una categoría cercana a la oferta",
+            "botones de contacto (llamada, email, DM, dirección)",
+            "un sitio o landing actuales",
+            "un solo tono con la bio",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cabecera, categoría y contactos",
+      level: 2,
+      paras: [
+        "Categoría y botones deben encajar con lo escrito en la bio. Un desajuste («café» en categoría y «construcción» en bio) confunde a la gente y a los ads.",
+      ],
+      lists: [
+        {
+          intro: "Cabecera comercial mínima:",
+          items: [
+            "quién eres y qué beneficio das",
+            "geo o formato de trabajo",
+            "un CTA principal",
+            "un canal de contacto que funcione",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Insights: qué mirar",
+      level: 2,
+      paras: [
+        "No mires solo likes: alcance, saves, replies, visitas al perfil, de dónde llegaron los followers. Compara formatos — post, carrusel, Stories, vídeo corto.",
+      ],
+      lists: [
+        {
+          intro: "Revisión semanal:",
+          items: [
+            "tres posts más fuertes por saves/replies",
+            "temas que fallan — qué soltar",
+            "dinámica de follows vs unfollows",
+            "qué CTAs trajeron consultas",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Errores con una cuenta business",
+      level: 2,
+      paras: [
+        "Cambiaste el tipo de cuenta y olvidaste el contenido; encendiste ads sin oferta; no respondes en DMs; categoría de escaparate.",
+      ],
+      lists: [
+        {
+          intro: "Evita:",
+          items: [
+            "insights vacíos sin acción",
+            "enlaces rotos en la cabecera",
+            "teléfonos distintos en bio y en el sitio",
+            "volver a personal «para esconder» en lugar de una moderación adecuada",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Esperar que el modo business suba el alcance solo. Es un dashboard de herramientas. El crecimiento viene del contenido, la cadencia y el tráfico.",
+        },
+      ],
+    },
+    {
+      title: "Volver a personal",
+      level: 2,
+      paras: [
+        "Si el comercio se cierra y solo necesitas un diario personal — puedes volver a cambiar el tipo de cuenta en ajustes. Guarda antes los informes que necesites: algunos insights saldrán de la interfaz.",
+      ],
+      links: [
+        {
+          label: "SMM manager: responsabilidades",
+          href: "/es/blog/menedzher-smm/",
+        },
+      ],
+    },
+  ],
+};

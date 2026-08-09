@@ -1,5 +1,125 @@
 import type { BlogPost } from "../../../data/blog";
 
+/** ES overlay for malo-pokazov — same structure as RU JSON. */
+export const maloPokazovEs: BlogPost = {
+  slug: "malo-pokazov",
+  title: "Estado «Pocas impresiones» en Yandex Direct",
+  date: "2017-05-17",
+  category: "Paid search",
+  cover: "/images/blog/malo-pokazov/cover.webp",
+  excerpt:
+    "Por qué Direct marca grupos de baja frecuencia como «Pocas impresiones», qué afecta al estado y cómo recuperar impresiones: fusionar keywords LF, plantillas, negativos — sin el dogma obsoleto de «exactamente 10 en 30 días».",
+  lead: [
+    "«Pocas impresiones» apaga o limita grupos y frases con un pronóstico de demanda demasiado débil: Yandex no quiere servir anuncios que casi nadie verá.",
+    "Abajo: por qué aparece el estado, cómo encontrar frases problemáticas y vías prácticas para restaurar impresiones. Umbrales y nombres de UI pueden haber cambiado desde 2017 — mira la Help de Direct; la idea sigue: acumular bastante frecuencia en el grupo o cortar la cola muerta.",
+  ],
+  faq: [
+    {
+      q: "¿Es un ban de la cuenta?",
+      a: "No. Un estado local en frases/grupos con baja frecuencia esperada de impresiones.",
+    },
+    {
+      q: "¿El estado es permanente?",
+      a: "No. Se recalcula periódicamente. Tras editar estructura y keywords puede levantarse.",
+    },
+    {
+      q: "¿Las keywords raras son la única causa?",
+      a: "A menudo sí, pero negativos, operadores de coincidencia estrictos, geo estrecho y límites de dispositivo/audiencia lo empeoran.",
+    },
+    {
+      q: "¿Debo borrar todas las keywords de baja frecuencia?",
+      a: "Puedes, pero pierdes el long tail. Mejor agrupa términos LF relacionados para que sumen impresiones suficientes.",
+    },
+    {
+      q: "¿Son obligatorias las plantillas de titular?",
+      a: "No obligatorias, pero ayudan a mantener relevancia al fusionar frases. La sintaxis actual está en Help.",
+    },
+    {
+      q: "¿Ayudan Commander o un export XLSX?",
+      a: "Sí: fácil ver frases con el estado y puja a cero. La ruta UI a la columna puede haber cambiado.",
+    },
+    {
+      q: "¿Qué relación tiene con la calidad del anuncio?",
+      a: "Demanda débil ≠ CTR bajo. Arregla primero la frecuencia del grupo; mejora la calidad en paralelo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué significa el estado",
+      level: 2,
+      paras: [
+        "Direct acumula stats de demanda y para pares cuya expectativa de impresiones es demasiado pequeña. Así limpia cuentas de miles de términos LF «muertos».",
+        "El recálculo va por lotes (del orden de unos días — guía, no temporizador). Mientras cuelga el estado, esas frases no reciben tráfico.",
+      ],
+      links: [
+        {
+          label: "Keywords en Yandex Direct",
+          href: "/es/blog/klyuchi-yandeks-direkt/",
+        },
+        {
+          label: "Negativos en Direct",
+          href: "/es/blog/minus-slova-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Qué corta las impresiones",
+      level: 2,
+      paras: [
+        "Negativos agresivos y cross-negatives recortan audiencia — a veces hasta «pocas impresiones» en grupos enteros.",
+        "Operadores de coincidencia y comillas estrechan la audiencia: útiles para precisión, dañinos mezclados con términos ultra-LF.",
+        "Geo estrecho, pocos dispositivos, audiencias muy cerradas — recortan aún más una demanda ya rara.",
+      ],
+      lists: [
+        {
+          intro: "Antes de entrar en pánico, revisa:",
+          items: [
+            "negativos en frase/grupo/campaña",
+            "operadores de coincidencia",
+            "geo y horario",
+            "si hay demanda en Wordstat/pronóstico",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo restaurar impresiones",
+      level: 2,
+      paras: [
+        "Fusiona términos LF temáticamente cercanos en menos grupos para que la frecuencia total cruce el umbral. Añade máscaras de media/alta frecuencia si el intent lo permite.",
+        "Con una «máscara» y colas distintas — packs de varias frases por grupo con un anuncio donde la keyword se lea en el titular (plantillas de Direct — según Help actual).",
+        "El atajo perezoso es borrar LF. Vale para basura; para una cola valiosa reagrupa primero y revisa cross-negatives.",
+        "En una tienda, mira inserts dinámicos de URL/parámetros solo si las landings existen de verdad.",
+      ],
+      links: [
+        {
+          label: "Anuncios adaptativos en Direct",
+          href: "/es/blog/adaptivnyy-shablon-direkt/",
+        },
+        {
+          label: "Pujas en Direct",
+          href: "/es/blog/stavki-direkt/",
+        },
+      ],
+    },
+  ],
+  notes: {
+    title: "Importante",
+    text: "Cifras como «hasta 10 impresiones en 30 días» de materiales de 2017 son una guía histórica. Comprueba el umbral actual y los nombres del estado en la Help de Yandex Direct.",
+  },
+  closing: [
+    "Exporta frases con el estado, agrupa colas LF relacionadas y corta negativos de más — a menudo basta para levantar el estado sin borrar todo el set de keywords.",
+  ],
+  related: [
+    "klyuchi-yandeks-direkt",
+    "minus-slova-direkt",
+    "adaptivnyy-shablon-direkt",
+    "stavki-direkt",
+    "oshibki-nastroyki-konteksta",
+    "chastotnost-zaprosov",
+  ],
+};
+
 /** EN overlay for malo-pokazov — same structure as RU JSON. */
 export const maloPokazovEn: BlogPost = {
   slug: "malo-pokazov",

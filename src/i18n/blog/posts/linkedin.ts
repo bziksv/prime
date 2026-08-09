@@ -125,3 +125,129 @@ export const linkedinEn: BlogPost = {
     "LinkedIn works as a professional showcase and a hiring/contacts channel — not a meme feed. A strong profile, a clear company page, and on-point messages beat any Premium subscription.",
   ],
 };
+
+/** ES overlay for linkedin — same structure as RU JSON / EN. */
+export const linkedinEs: BlogPost = {
+  slug: "linkedin",
+  title: "LinkedIn para negocio: perfil, hiring y presencia de empresa",
+  date: "2020-12-17",
+  category: "SMM",
+  cover: "/images/blog/linkedin/cover.webp",
+  excerpt:
+    "Cómo difiere LinkedIn de las redes de entretenimiento, cómo montar perfil y página de empresa, por qué la plataforma ayuda al hiring y a contactos B2B — sin precios Premium obsoletos ni capturas de botones.",
+  lead: [
+    "LinkedIn es una red profesional: perfiles de especialistas, páginas de empresa, empleos y contenido profesional. Aquí se busca entretenimiento con menos frecuencia — y más trabajo, contractors y expertise.",
+    "Abajo: por qué la plataforma importa para personas y negocio, qué cuenta en el perfil y la página de empresa, dónde encaja Premium, y cómo no tratar LinkedIn como «otro Instagram». UI y planes cambian — revisa los términos actuales en el sitio del servicio.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de las plataformas. Instagram* y Facebook* son productos de Meta Platforms Inc.; en la Federación de Rusia la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿LinkedIn es solo para buscar trabajo?",
+      a: "No. También networking, contenido experto, hiring, partnerships y awareness de marca B2B. Los empleos son un escenario habitual, no el único.",
+    },
+    {
+      q: "¿En qué se diferencia de VK o Facebook?",
+      a: "Foco en carrera y competencia, menos contenido cotidiano. El tono es más seco y de negocio; los «memes para discovery» funcionan peor que la utilidad y los cases.",
+    },
+    {
+      q: "¿Necesito Premium?",
+      a: "No para todos. Ayuda con búsqueda activa de candidatos/empleo y analytics más ricos. Un perfil básico a menudo basta para presencia y contactos.",
+    },
+    {
+      q: "¿Qué escribir en el perfil?",
+      a: "Quién eres, en qué eres útil, experiencia, skills, resultados. Foto y headline sin clickbait. Las recomendaciones de colegas refuerzan la confianza.",
+    },
+    {
+      q: "¿Para qué sirve una página de empresa?",
+      a: "Un lugar para marca, empleos y noticias; los empleados pueden enlazar a la organización. No sustituye al sitio — es un canal de confianza y hiring.",
+    },
+    {
+      q: "¿Está bien el spam frío en mensajes?",
+      a: "Mala idea: reportes, límites y golpes a la reputación. Escribe con claridad, contexto y respeto al tiempo de la otra persona.",
+    },
+    {
+      q: "¿LinkedIn es relevante para negocio RU?",
+      a: "Depende del nicho y de la geografía de clientes/hiring. Para B2B internacional y hiring IT a menudo útil; para retail local suelen importar más otros canales.",
+    },
+  ],
+  sections: [
+    {
+      title: "Para qué se construyó LinkedIn",
+      level: 2,
+      paras: [
+        "La plataforma está afinada para un contexto profesional: un perfil tipo CV, discusión de industria, empleos y páginas de empleador.",
+        "Escenario típico: un especialista completa experiencia y skills, crece contactos relevantes, publica notas útiles — y recibe respuestas de recruiters o clientes. Las empresas en paralelo muestran cultura y roles abiertos.",
+      ],
+      lists: [
+        {
+          intro: "Roles principales:",
+          items: [
+            "búsqueda de empleo y roles remotos/internacionales",
+            "hiring y marca empleadora",
+            "networking B2B y expertise",
+            "noticias de empresa para staff y el mercado",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Perfil: el mínimo sin señal débil",
+      level: 2,
+      paras: [
+        "Un perfil vacío apenas funciona. Completa headline (en qué eres útil), about, experiencia con resultados, educación y skills. Añade contactos que estés listo a compartir en público.",
+        "Después — actividad: comentarios al punto, posts útiles cortos, discusiones profesionales. Ráfagas plantilla de «colaboremos» sin contexto hacen más daño que bien.",
+      ],
+      lists: [
+        {
+          intro: "Checklist del perfil:",
+          items: [
+            "foto y un headline claro",
+            "experiencia con números/resultados donde encajen",
+            "skills y (si es posible) recomendaciones",
+            "enlace a sitio/portfolio",
+            "ajustes de privacidad según tu objetivo",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Uso corporativo",
+      level: 2,
+      paras: [
+        "Una página de empresa reúne descripción, noticias, empleos y enlaces a empleados. El hiring a menudo usa filtros de búsqueda de candidatos y listas guardadas — las features dependen del tipo de cuenta y la región.",
+        "Fuerza para HR — contexto profesional y trayectorias de carrera comprobables. Debilidad — esperar discovery viral como en redes de entretenimiento: aquí el ritmo y la métrica de éxito son distintos.",
+      ],
+      lists: [
+        {
+          intro: "Por qué el negocio necesita LinkedIn:",
+          items: [
+            "mostrar qué haces y a quién contratas",
+            "reforzar confianza vía perfiles del equipo",
+            "cubrir roles en nichos competitivos",
+            "mantener contacto con partners y expertos del mercado",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Manager SMM",
+          href: "/es/blog/menedzher-smm/",
+        },
+      ],
+    },
+    {
+      title: "Premium y expectativas",
+      level: 2,
+      paras: [
+        "Los planes de pago suelen añadir búsqueda más rica, más detalle de quién ve el perfil y tools de recruiting/ventas. Precios y nombres de paquetes cambian — no te apoyes en cifras de guías viejas.",
+        "A la mayoría le basta un perfil free cuidado y actividad con sentido. Compra Premium para un trabajo concreto (hiring activo o búsqueda de empleo), no «por si acaso».",
+      ],
+    },
+  ],
+  closing: [
+    "LinkedIn funciona como escaparate profesional y canal de hiring/contactos — no como feed de memes. Un perfil fuerte, una página de empresa clara y mensajes al punto ganan a cualquier suscripción Premium.",
+  ],
+};

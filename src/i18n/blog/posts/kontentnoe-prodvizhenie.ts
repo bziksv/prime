@@ -148,3 +148,152 @@ export const kontentnoeProdvizhenieEn: BlogPost = {
     "kontent-plan",
   ],
 };
+
+/** ES overlay for kontentnoe-prodvizhenie — same structure as RU JSON. */
+export const kontentnoeProdvizhenieEs: BlogPost = {
+  slug: "kontentnoe-prodvizhenie",
+  title: "8 consejos para promoción del sitio basada en contenido",
+  date: "2018-08-17",
+  category: "Content marketing",
+  cover: "/images/blog/kontentnoe-prodvizhenie/cover.webp",
+  excerpt:
+    "Promociona un sitio con contenido: originalidad sin fetichismo del % de unicidad, tema y audiencia reales, keywords sin stuffing, utilidad, updates, un blog y qué significa LSI de verdad — sin promesas de «primera página con un solo artículo».",
+  lead: [
+    "La promoción basada en contenido son respuestas sistemáticas a la demanda: copy para personas y señales claras para la búsqueda. Engañar resultados con un muro de keywords es una jugada floja. Importan más utilidad, claridad y consistencia.",
+    "Ocho bases abajo. Formatos de ideas y cómo encontrar temas viven en artículos relacionados; esta pieza va de calidad y disciplina.",
+  ],
+  faq: [
+    {
+      q: "¿Hace falta unicidad al 100%?",
+      a: "Hace falta tu propio texto sin copy-paste. La puntuación del checker es una brújula, no una religión — citas, nombres y términos se solapan para todos.",
+    },
+    {
+      q: "¿Ayudan los synonymizers?",
+      a: "Poco — y a menudo destrozan el sentido. Mejor reescribir la idea con tus palabras y hechos.",
+    },
+    {
+      q: "¿Cuántas keywords insertar?",
+      a: "Las que se lean con naturalidad. Primero el borrador por sentido, luego encaja el intent con suavidad.",
+    },
+    {
+      q: "¿Qué es LSI en la práctica?",
+      a: "Cobertura completa del tema: términos, aclaraciones, preguntas relacionadas — no una «lista mágica» aparte.",
+    },
+    {
+      q: "¿Cada cuánto actualizar el contenido?",
+      a: "Cuando hechos y ofertas envejecen. Un blog vacío es peor que una sección de «noticias» de 2009.",
+    },
+    {
+      q: "¿El contenido solo me pone en la primera página?",
+      a: "Rara vez. También hacen falta tech, estructura y marca/enlaces. Las posiciones del set de keywords crecen a lo largo de meses (a menudo 2–6 tras empezar el trabajo) — no con una sola publicación.",
+    },
+    {
+      q: "¿En qué se diferencia del artículo de ideas de contenido?",
+      a: "Esa pieza cubre formatos (how-tos, guías). Esta cubre principios de calidad e higiene SEO del copy.",
+    },
+  ],
+  sections: [
+    {
+      title: "1. Originalidad sin fetichismo del porcentaje",
+      level: 2,
+      paras: [
+        "El copy-paste lo pillan personas y sistemas. Escríbelo tú o brief a un escritor; usa checkers de plagio como filtro, no como único KPI.",
+        "«Menos del 20% de coincidencias» y perseguir el 100% vía synonymizer a menudo producen texto ilegible. Importan más sentido y hechos. Las tools de originalidad en paneles de webmaster ayudan cuando hace falta — no sustituyen la calidad.",
+      ],
+    },
+    {
+      title: "2. Tema y ángulo — no otro rewrite",
+      level: 2,
+      paras: [
+        "Material técnicamente único pero vacío y cansado apenas se sostiene. Hace falta un ángulo fresco, datos o experiencia.",
+        "La sobreoptimización y el fluff pegan a la confianza y a los filtros de calidad. La utilidad para el lector es el primer criterio.",
+      ],
+      links: [
+        {
+          label: "Temas para artículos",
+          href: "/es/blog/temy-dlya-statey/",
+        },
+      ],
+    },
+    {
+      title: "3–4. Keywords sin stuffing",
+      level: 2,
+      paras: [
+        "Reúne demanda (Wordstat, Google Keyword Planner, tu set de keywords), mezcla head y long-tail según el intent de la página y descarta companions basura.",
+        "Escribe el copy y luego teje el phrasing con naturalidad. Las tools de densidad son control extra — no el objetivo. No fuerces una keyword.",
+        "AdWords pasó a Google Keyword Planner; cambió el nombre del producto, la lógica de selección es la misma.",
+      ],
+      links: [
+        {
+          label: "Investigación de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Copywriting SEO",
+          href: "/es/blog/seo-kopirayting/",
+        },
+      ],
+    },
+    {
+      title: "5. Valor para el cliente — no eslóganes vacíos",
+      level: 2,
+      paras: [
+        "Tráfico sin una oferta relevante no convierte. La página debe responder la pregunta de la audiencia: términos, diferencias, límites — con honestidad.",
+        "Sellos de «mejores profesionales» sin prueba son más débiles que hechos concretos. No spamees cada pantalla con pop-ups de «llámame».",
+      ],
+    },
+    {
+      title: "6–7. Updates y un blog de apoyo",
+      level: 2,
+      paras: [
+        "Precios viejos, fechas y noticias de hace una década minan la confianza. Revisitar landings y un blog/sección de noticias vivos muestran que la empresa está activa.",
+        "Artículos útiles extra traen tráfico informativo y oportunidades de mención. Directorios y medios — selectivos y según las reglas, no como un blast.",
+        "Indexación y visibilidad llevan tiempo: un plan y consistencia ganan a una andanada puntual.",
+      ],
+      links: [
+        {
+          label: "Plan de contenido",
+          href: "/es/blog/kontent-plan/",
+        },
+        {
+          label: "Enlaces ganados / gratis",
+          href: "/es/blog/besplatnye-ssylki/",
+        },
+      ],
+    },
+    {
+      title: "8. LSI — cobertura completa del tema",
+      level: 2,
+      paras: [
+        "LSI en la práctica no es un culto aparte — es completitud de la respuesta: definiciones, preguntas relacionadas, lenguaje claro para principiantes y detalle para expertos.",
+        "Apóyate en páginas fuertes del intent y en tu propia experiencia — no en una «lista LSI de un generador».",
+      ],
+      lists: [
+        {
+          intro: "Ocho pilares en breve:",
+          items: [
+            "tu propio texto sin copy-paste",
+            "un tema o ángulo fresco",
+            "keywords por intent",
+            "sin stuffing",
+            "utilidad y hechos para la audiencia",
+            "mantener páginas al día",
+            "un blog útil con regularidad",
+            "cobertura completa del tema (sentido LSI)",
+          ],
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Toma un landing flojo: corta fluff y sellos, suma hechos y un bloque FAQ de objeciones — a menudo más rápido que un nuevo «artículo por el artículo».",
+  ],
+  related: [
+    "idei-kontent-prodvizheniya",
+    "temy-dlya-statey",
+    "seo-kopirayting",
+    "eat-kopirayting",
+    "semanticheskoe-yadro",
+    "kontent-plan",
+  ],
+};

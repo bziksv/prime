@@ -1,5 +1,121 @@
 import type { BlogPost } from "../../../data/blog";
 
+/** ES overlay for instrumenty-marketologa — same structure as RU JSON. */
+export const instrumentyMarketologaEs: BlogPost = {
+  slug: "instrumenty-marketologa",
+  title: "Herramientas gratis para marketers: por dónde empezar",
+  date: "2019-12-19",
+  category: "Digital marketing",
+  cover: "/images/blog/instrumenty-marketologa/cover.webp",
+  excerpt:
+    "Qué servicios gratis (o freemium) cubren el trabajo del marketer: research de competidores, planificación de posts, encuestas, email, monitorización de menciones y tareas — sin prometer gratis para siempre.",
+  lead: [
+    "El «stack gratis» de un marketer suele ser freemium: límites, watermarks e informes recortados. Basta para arrancar una auditoría, un plan de contenido, encuestas y el primer newsletter.",
+    "Abajo: clases de tareas y servicios de ejemplo de un roundup de 2019 (SimilarWeb, Buffer, Mailchimp y otros). Precios y nombres han cambiado — mira el sitio actual de cada producto antes de adoptar nada.",
+  ],
+  faq: [
+    {
+      q: "¿Los planes gratis bastan para trabajo real?",
+      a: "Para un piloto — a menudo sí. Para un equipo y volumen real de datos chocas con los límites rápido.",
+    },
+    {
+      q: "¿Es preciso el SimilarWeb gratis?",
+      a: "Las estimaciones de tráfico son aproximadas. Cruza tendencias con Métrica o GA en tu propio sitio.",
+    },
+    {
+      q: "¿Hace falta Mailchimp para email?",
+      a: "No. Es un ejemplo de ESP. Mira límites, deliverability e integraciones para tu región.",
+    },
+    {
+      q: "¿Hace falta un task tracker aparte?",
+      a: "Sí, o el contenido y las campañas se ahogan en chats. Todoist y similares son un inicio; equipos mayores suelen usar Asana, Jira o Notion.",
+    },
+    {
+      q: "¿Son seguras las automatizaciones IFTTT?",
+      a: "Revisa el acceso a cuentas y no empujes datos personales por cadenas dudosas.",
+    },
+    {
+      q: "¿Qué sustituye a una suite all-in-one?",
+      a: "Arma un set mínimo: analítica del sitio, ESP, planificador de tareas, una herramienta de research.",
+    },
+    {
+      q: "¿Comprar reseñas o engagement falso vía herramientas?",
+      a: "No. Las herramientas sirven para medir y organizar — no para trucos gray-hat.",
+    },
+  ],
+  sections: [
+    {
+      title: "Research de competidores y analítica",
+      level: 2,
+      paras: [
+        "Herramientas tipo SimilarWeb estiman fuentes de tráfico, solape de audiencia y benchmarks de competidores. La capa gratis es fina; las cifras son órdenes de magnitud, no contabilidad.",
+        "Suma tus propios datos: Métrica o GA, Search Console / Webmaster y exports de cuentas de ads. Si no, las decisiones descansan en la estimación de otro.",
+      ],
+      links: [
+        {
+          label: "Herramientas de web analytics",
+          href: "/es/blog/instrumenty-veb-analitiki/",
+        },
+      ],
+    },
+    {
+      title: "Contenido, social y encuestas",
+      level: 2,
+      paras: [
+        "Schedulers como Buffer ayudan a mantener una cola de posts entre canales. Las reglas de plataforma y la disponibilidad del servicio por región cambian — elige lo que puedas usar de forma legal.",
+        "Las encuestas (SurveyMonkey y similares) testean hipótesis antes de una campaña grande. Formularios cortos con un objetivo ganan a cuestionarios largos.",
+        "La monitorización de menciones de marca (clase Brand24) ayuda a la reputación; las cuotas gratis se agotan rápido.",
+      ],
+    },
+    {
+      title: "Email, automatizaciones y tareas",
+      level: 2,
+      paras: [
+        "ESP como Mailchimp cubren plantillas, segmentos y stats básicas. Para direcciones corporativas mira también el correo del dominio y la deliverability (SPF/DKIM).",
+        "Enlaces tipo IFTTT ahorran rutina (guardaste un link → cayó en una hoja), pero no sustituyen un CRM.",
+        "Un gestor de tareas (Todoist y similares) sostiene plazos de newsletter y creatividades. Sin él las «herramientas gratis» se vuelven caos de pestañas.",
+      ],
+      lists: [
+        {
+          intro: "Set mínimo de arranque:",
+          items: [
+            "tag de analítica en el sitio",
+            "ESP con lista opt-in",
+            "una herramienta de research de competidores",
+            "encuestas/formularios",
+            "lista de tareas del equipo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Estrategia de email",
+          href: "/es/blog/email-strategiya/",
+        },
+        {
+          label: "Correo del dominio",
+          href: "/es/blog/pochta-dlya-domena/",
+        },
+      ],
+    },
+  ],
+  notes: {
+    title: "Importante",
+    text: "Roundup de 2019: precios ($199 etc.), límites y nombres de producto están desfasados. El artículo es informativo; no es una llamada a usar plataformas extranjeras concretas contra la ley o las reglas del servicio.",
+  },
+  closing: [
+    "Arma un stack estrecho para tus KPI, prueba los límites gratis en un piloto de una semana y solo entonces paga para ampliar — así las herramientas gratis ahorran presupuesto en lugar de criar suscripciones.",
+  ],
+  related: [
+    "email-strategiya",
+    "instrumenty-veb-analitiki",
+    "pochta-dlya-domena",
+    "triggernye-rassylki",
+    "email-marketing-2020",
+    "primery-email-rassylok",
+  ],
+};
+
 /** EN overlay for instrumenty-marketologa — same structure as RU JSON. */
 export const instrumentyMarketologaEn: BlogPost = {
   slug: "instrumenty-marketologa",

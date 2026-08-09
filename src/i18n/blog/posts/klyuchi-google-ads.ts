@@ -251,3 +251,255 @@ export const klyuchiGoogleAdsEn: BlogPost = {
     "optimizatsiya-konversii",
   ],
 };
+
+/** ES overlay for klyuchi-google-ads — same structure as RU JSON / EN. */
+export const klyuchiGoogleAdsEs: BlogPost = {
+  slug: "klyuchi-google-ads",
+  title: "Investigación de keywords en Google Ads",
+  date: "2021-03-09",
+  category: "Paid search",
+  cover: "/images/blog/klyuchi-google-ads/cover.webp",
+  excerpt:
+    "Cómo elegir keywords para Google Ads (antes AdWords): tipos de coincidencia, stats del planner y checks de intención — sin mezclarlos con un set SEO.",
+  lead: [
+    "En Google Ads, las keywords deciden cuándo se muestra un anuncio. El Planner y los informes ayudan a estimar demanda, pero la lista final se arma alrededor de la oferta, la economía del clic y los negativos.",
+    "Abajo: lógica de research, tipos de coincidencia, landings y limpieza post-lanzamiento. La UI de Google Ads cambia; revisa los nombres de menú actuales en la cuenta. En algunos mercados, también revisa disponibilidad del producto y alternativas de medición viables.",
+  ],
+  faq: [
+    {
+      q: "¿AdWords y Google Ads son lo mismo?",
+      a: "Sí — el producto se renombró. Los artículos antiguos de «AdWords» hablan de la misma cuenta de anuncios de Google.",
+    },
+    {
+      q: "¿Las keywords de Ads son lo mismo que un set SEO?",
+      a: "Se solapan, pero no son iguales. Ads cuida puja, negativos e intención comercial; SEO cuida landings, contenido y rankings en el tiempo.",
+    },
+    {
+      q: "¿De dónde salen las stats?",
+      a: "Keyword Planner e informes de campaña. Las cifras del Planner son estimaciones — no una garantía de impresiones o CPA.",
+    },
+    {
+      q: "¿Hace falta coincidencia amplia?",
+      a: "Con cuidado: más alcance y más basura. Exacta y de frase suelen ser más fáciles de controlar al inicio hasta que la analítica y los negativos estén fuertes.",
+    },
+    {
+      q: "¿Y las keywords negativas?",
+      a: "Obligatorias — sin ellas el presupuesto se filtra a impresiones y clics irrelevantes. Crece la lista desde el informe de términos de búsqueda.",
+    },
+    {
+      q: "¿Cómo se lee la intención de la consulta?",
+      a: "Mira la SERP y el wording. «Cómo elegir» suele pedir una página y un anuncio distintos a «pedir con entrega».",
+    },
+    {
+      q: "¿Cuántas keywords por grupo de anuncios?",
+      a: "Las que compartan de verdad una intención y un anuncio. Decenas de frases mezcladas en un grupo debilitan el Quality Score y difuminan el copy.",
+    },
+    {
+      q: "¿Se puede copiar el set de un competidor?",
+      a: "Como borrador — sí; como lista final — no. Sus keywords no conocen tu margen, geo ni landings; sin limpieza quemarás presupuesto.",
+    },
+  ],
+  sections: [
+    {
+      title: "Concepto de la lista de keywords",
+      level: 2,
+      paras: [
+        "Empieza por servicios, productos y lenguaje del cliente — cómo buscan, no cómo nombráis el producto por dentro. Añade sinónimos y modificadores comerciales: «precio», «pedir», «con entrega», «barato» — y siembra negativos para demanda informativa y fuera de oferta.",
+        "No tires keywords a un grupo solo porque comparten una palabra. Agrupa frases con la misma intención y un landing que encaje. Si no, el anuncio no dice nada y la página no cuadra con el clic.",
+      ],
+      lists: [
+        {
+          intro: "Capas de keywords:",
+          items: [
+            "núcleo de la oferta",
+            "sinónimos y jerga del nicho",
+            "geo, si hace falta",
+            "colas de modificadores (plazo, material, segmento)",
+            "negativos desde términos de búsqueda",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Bases de la cuenta de Ads",
+          href: "/es/blog/reklamnyy-kabinet/",
+        },
+        {
+          label: "Núcleo semántico (SEO)",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+      ],
+    },
+    {
+      title: "Tipos de coincidencia y estructura de grupos",
+      level: 2,
+      paras: [
+        "El tipo de coincidencia controla cuán amplio puede mapear el sistema una consulta a una keyword. Más alcance implica un control más estricto de términos de búsqueda y negativos — o pagas por «casi» en vez de «la cosa».",
+        "Al inicio ayuda una estructura clara: un grupo — una necesidad, un set de keywords apretado, un anuncio relevante y un landing que encaje. Cuando hay datos, amplía con cuidado donde la economía ya funciona.",
+      ],
+      lists: [
+        {
+          intro: "Para cada grupo deja fijo:",
+          items: [
+            "intención del usuario",
+            "geografía",
+            "negativos",
+            "página de destino",
+            "objetivo de conversión y CPA objetivo",
+          ],
+        },
+      ],
+      tables: [
+        {
+          caption: "Alcance vs control (simplificado)",
+          headers: ["Enfoque", "Ventaja", "Riesgo"],
+          rows: [
+            ["Exacta / frase", "Calidad de clic más fácil", "Puedes quedarte corto de alcance"],
+            ["Amplia sin negativos", "Volumen rápido", "Basura y CPA caro"],
+            ["Amplia + revisión estricta de consultas", "Escala con control", "Pide disciplina con informes"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Stats del Planner y checks de intención",
+      level: 2,
+      paras: [
+        "La frecuencia y la competencia del Planner son una brújula de borrador, no un veredicto. Tras el lanzamiento, la fuente principal de decisión es el informe de términos de búsqueda: wording real, impresiones tiradas y candidatos a negativo.",
+        "Las stats no garantizan ventas. Cruza con margen, geo, estacionalidad y si el landing puede responder la consulta con honestidad. Alto volumen a margen cero no es una keyword de oro.",
+      ],
+      lists: [
+        {
+          intro: "Práctica antes de escalar:",
+          items: [
+            "probar con un presupuesto pequeño",
+            "revisión semanal de términos de búsqueda",
+            "cadena keyword → anuncio → landing",
+            "no inflar grupos sin estructura",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Frecuencia de consultas",
+          href: "/es/blog/chastotnost-zaprosov/",
+        },
+      ],
+    },
+    {
+      title: "Negativos y el informe de términos de búsqueda",
+      level: 2,
+      paras: [
+        "Los negativos son el filtro sin el cual las keywords amplias — e incluso las «medias» — queman gasto. Mantén listas a nivel de campaña y de grupo: compartidas (empleos, gratis, DIY — si eso no es tu oferta) y específicas del nicho.",
+        "Semanal (o más a menudo con gasto alto), revisa términos de búsqueda: qué añadir como keywords, qué negar, qué anuncios y URLs fallaron el clic. Eso es rutina de rendimiento — no un ajuste de lanzamiento de una sola vez.",
+      ],
+      lists: [
+        {
+          intro: "Basura típica para negativos (ajusta al nicho):",
+          items: [
+            "informativo «qué es / DIY»",
+            "marcas de competidores si no quieres interceptar",
+            "empleos y formación si vendes un servicio",
+            "gratis / descargar — si no tienes freemium",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Negativos demasiado agresivos cortan long-tail útil. Reúne datos primero y luego aprieta — sobre todo en frases que ya convierten.",
+        },
+      ],
+    },
+    {
+      title: "Encaje con anuncio y landing",
+      level: 2,
+      paras: [
+        "Una keyword sin un anuncio y una página relevantes es gasto tirado. El titular y el copy deben prometer lo que la persona buscó; el landing debe cerrar esa oferta — no soltarlos en la home del catálogo.",
+        "Intenciones distintas piden URLs distintas o al menos bloques/anclas distintos. Mandar toda la demanda a una hoja «de todo» suele ser peor que varios landings estrechos.",
+      ],
+      lists: [
+        {
+          intro: "Revisa antes de aprobar un grupo:",
+          items: [
+            "la keyword se oye en el anuncio",
+            "la URL carga y es rápida en móvil",
+            "CTA y formulario se ven sin una quest",
+            "no hay choque con precio/condiciones del anuncio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Copy de landing",
+          href: "/es/blog/tekst-lendinga/",
+        },
+        {
+          label: "Optimización de la tasa de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+    },
+    {
+      title: "Errores habituales",
+      level: 2,
+      paras: [
+        "Clásicos: una lista gigante sin agrupar; ignorar negativos; keywords de «todo» en un solo landing; copiar un set SEO sin limpieza para ads; pujas sin tracking de conversiones.",
+        "No gires pujas y keywords cada día sin datos. Primero asegúrate de que los goals de analítica disparan y que ventas vee calidad de leads — o optimizarás un CTR bonito.",
+      ],
+      lists: [
+        {
+          intro: "Evita:",
+          items: [
+            "pujas sin analítica de conversiones",
+            "coincidencia amplia sin control de consultas",
+            "anuncios que no encajan con la keyword",
+            "mezclar demanda de marca y genérica sin campañas aparte",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Pujas en Yandex Direct",
+          href: "/es/blog/stavki-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Optimización tras el lanzamiento",
+      level: 2,
+      paras: [
+        "Lanza un test con un presupuesto que pueda reunir stats, y revisa informes con calendario. Añade negativos, afina grupos y mejora la página por motivos observados — no «todo a la vez tras un mal día».",
+        "Juzga la campaña por conversiones y su calidad — no por clics o posición media. Si los leads no encajan con ventas, el problema puede ser la consulta, la oferta o el recorrido — las keywords son solo una palanca.",
+      ],
+      lists: [
+        {
+          intro: "Control semanal:",
+          items: [
+            "términos de búsqueda",
+            "gasto, CPA y conteo de conversiones",
+            "cuota de irrelevante",
+            "encaje anuncio–landing",
+            "qué escalar, qué cortar",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "SEO vs Ads",
+          kind: "tip",
+          text: "Ads dan un test rápido de demanda. Lo orgánico de un núcleo crece aparte: preparación del sitio — a grandes rasgos semanas a un mes; la cuota de primera página del núcleo se planifica típicamente a dos a seis meses de trabajo tras el arranque.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "reklamnyy-kabinet",
+    "chastotnost-zaprosov",
+    "semanticheskoe-yadro",
+    "tekst-lendinga",
+    "stavki-direkt",
+    "optimizatsiya-konversii",
+  ],
+};

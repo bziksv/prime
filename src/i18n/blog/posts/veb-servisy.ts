@@ -121,3 +121,125 @@ export const vebServisyEn: BlogPost = {
     "A web service is machines agreeing over the network: who sends data and under which rules. For business that’s payments, logistics, CRM, and aggregators; design integrations from the scenario and reliability — not from a trendy acronym.",
   ],
 };
+
+/** ES overlay for veb-servisy — same structure as RU JSON / EN. */
+export const vebServisyEs: BlogPost = {
+  slug: "veb-servisy",
+  title: "Servicios web: qué son y por qué los necesitan los sitios",
+  date: "2020-09-08",
+  category: "Digital marketing",
+  cover: "/images/blog/veb-servisy/cover.webp",
+  excerpt:
+    "Qué es un servicio web (API): cómo los sistemas intercambian datos por la red, dónde lo necesita el negocio, y cómo REST/JSON moderno difiere de los roundups viejos de SOAP/UDDI.",
+  lead: [
+    "Un servicio web es una interfaz programática por la red: un recurso envía o recibe datos bajo reglas claras; otro lo consume. Para el usuario es la «magia» de un agregador de tours o el checkout en un sitio; para ingeniería — un contrato entre sistemas.",
+    "Abajo: la idea de arquitectura, dónde se usan los servicios y qué debe vigilar el negocio. No inflamos acentos obsoletos de UDDI/SOAP de guías de los 2000: hoy es más a menudo REST, JSON y APIs listas para pagos, delivery y CRM.",
+  ],
+  faq: [
+    {
+      q: "¿Un servicio web es lo mismo que un sitio?",
+      a: "No. Un sitio es una interfaz para personas. Un servicio es una interfaz para programas (a menudo JSON/XML sobre HTTP). A veces el servicio también tiene docs en el navegador.",
+    },
+    {
+      q: "¿Qué es una API?",
+      a: "Un set de métodos y formatos de intercambio. En el habla cotidiana «servicio web» suele significar una API HTTP.",
+    },
+    {
+      q: "¿Para qué lo necesita una tienda online?",
+      a: "Pagos, delivery, inventario, Market/feeds, CRM, telefonía — casi todo se conecta vía servicios, no con copy-paste manual.",
+    },
+    {
+      q: "¿SOAP sigue vivo?",
+      a: "Aún aparece en stacks enterprise. Para integraciones nuevas REST/JSON es más habitual. La elección depende de la contraparte, no de la moda del artículo.",
+    },
+    {
+      q: "¿Qué es arriesgado en las integraciones?",
+      a: "Caídas de APIs de terceros, cambios de formato, keys en código público, drift de inventario/precios. Hacen falta monitoring, derechos de acceso y ownership claro de los datos.",
+    },
+    {
+      q: "¿Un agregador es un servicio web?",
+      a: "Un agregador es un producto. Suele llamar servicios de proveedores, reunir datos y mostrar un escaparate al usuario.",
+    },
+    {
+      q: "¿Hace falta tu propio servicio desde cero?",
+      a: "No siempre. A menudo bastan APIs listas (pagos, email, mapas). Construye el tuyo cuando la lógica es única o no hay proveedor que encaje.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué hace un servicio web",
+      level: 2,
+      paras: [
+        "Un servicio tiene una dirección (endpoint), reglas de request/response y suele tener identidad (key, OAuth). Un cliente (tu sitio, app móvil, otro servidor) llama un método y recibe una respuesta estructurada.",
+        "Ejemplo clásico: un agregador de vuelos o tours pide a proveedores disponibilidad y precios vía sus APIs y muestra un listing combinado — sin copiar a mano cada sitio.",
+      ],
+      lists: [
+        {
+          intro: "Jugadores, simplificado:",
+          items: [
+            "proveedor de datos/operaciones (executor)",
+            "consumidor (tu sitio, app, partner)",
+            "contrato: formato, errores, límites, autorización",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Arquitectura sin nostalgia de UDDI",
+      level: 2,
+      paras: [
+        "Por debajo siempre hay red y protocolos (TCP/IP, HTTP/HTTPS). Los datos se empaquetan más a menudo como JSON; XML/SOAP se quedan donde la contraparte los exige.",
+        "Los roundups viejos hablaban mucho de catálogos UDDI y WSDL. Para digital pequeño y mediano importa más docs de API claras, sandbox, versiones estables y monitoring de errores — no la teoría de registros de los 2000.",
+      ],
+      lists: [
+        {
+          intro: "Qué revisar al elegir/pedir una integración:",
+          items: [
+            "existen documentación actual y ejemplos",
+            "límites de request y SLA",
+            "cómo se refrescan precios e inventario",
+            "seguridad de keys y logging",
+            "qué pasa cuando el proveedor cae",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Protocolo HTTP",
+          href: "/es/blog/protokol-http/",
+        },
+      ],
+    },
+    {
+      title: "Dónde se usan",
+      level: 2,
+      paras: [
+        "Pagos y fiscalización, delivery y tracking, CRM y email, telefonía, mapas y geocoding, marketplaces y feeds de producto, intercambio con 1C/ERP — un stack típico de sitio moderno.",
+      ],
+      lists: [
+        {
+          intro: "Beneficios de negocio:",
+          items: [
+            "menos mover datos a mano",
+            "una fuente de verdad para inventario y estados",
+            "más rápido conectar nuevos canales de venta",
+            "puedes cambiar el front sin romper contabilidad si el contrato de API se mantiene estable",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Pago online en el sitio",
+          href: "/es/blog/onlayn-oplata/",
+        },
+        {
+          label: "Archivo YML para Market",
+          href: "/es/blog/yml-fayl/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Un servicio web es máquinas que se ponen de acuerdo por la red: quién envía datos y bajo qué reglas. Para el negocio eso son pagos, logística, CRM y agregadores; diseña integraciones desde el escenario y la fiabilidad — no desde un acrónimo de moda.",
+  ],
+};

@@ -223,3 +223,227 @@ export const dlinaSeoTekstaEn: BlogPost = {
     "zaspamlennost-teksta",
   ],
 };
+
+/** ES overlay for dlina-seo-teksta — same structure as RU JSON / EN. */
+export const dlinaSeoTekstaEs: BlogPost = {
+  slug: "dlina-seo-teksta",
+  title: "Longitud del copy SEO: cuánto texto necesita una página",
+  date: "2020-01-09",
+  category: "SEO",
+  cover: "/images/blog/dlina-seo-teksta/cover.webp",
+  excerpt:
+    "Cuánto debe medir el copy SEO: una pista de longitud desde competidores de primera página, cuándo ayuda un long-read, por qué el conteo de palabras sin valor no mueve rankings y cómo dejar de escribir «por la cuota de caracteres».",
+  lead: [
+    "No hay una longitud SEO universal tipo «2.000 caracteres para cada página». Una ficha de producto necesita una descripción corta; una página de servicio y una guía necesitan distinta profundidad. Encaja con la intención de búsqueda y no pierdas en completitud de respuesta frente a resultados fuertes que ya rankean.",
+    "Abajo: por qué importa la longitud en absoluto, cómo fijar un brief desde la primera página de resultados, cuándo encaja un long-read y qué cualidades ganan a un contador de caracteres. El volumen sin unicidad, estructura y utilidad no arregla rankings.",
+  ],
+  faq: [
+    {
+      q: "¿Hay una «norma» oficial de caracteres de Yandex o Google?",
+      a: "No hay un número único. Les importa la utilidad y el encaje con la query. Usa competidores que ya rankean — más sentido común — como pista.",
+    },
+    {
+      q: "Si mi copy es más corto que el de los competidores, ¿puedo rankear igual?",
+      a: "A menudo sí. Más corto, claro y fácil de usar puede ganar a 15.000 caracteres de fluff. Una pista de longitud del SERP es una hipótesis, no una ley.",
+    },
+    {
+      q: "¿Cuánto escribir en una ficha de producto?",
+      a: "Lo suficiente para specs, diferencias, envío/garantía y preguntas del comprador. Miles de caracteres «sobre la historia del sector» rara vez hacen falta.",
+    },
+    {
+      q: "¿Un long-read siempre es mejor?",
+      a: "Solo cuando la información es útil y está estructurada. Si no, suben el bounce rate y el fluff.",
+    },
+    {
+      q: "¿Contar longitud con o sin espacios?",
+      a: "Elige un método en el brief (a menudo sin espacios) y mide a los competidores igual.",
+    },
+    {
+      q: "¿Debo superar la media de primera página en 500 caracteres?",
+      a: "No como regla. Añade hechos, bloques de confianza y respuestas reales — no rellenes filler para cumplir una cuota.",
+    },
+    {
+      q: "¿Hay que borrar páginas vacías?",
+      a: "Sí, si no tienes nada útil que publicar. Las URLs thin hacen más daño que omitirlas.",
+    },
+    {
+      q: "¿Más volumen significa rankings rápidos?",
+      a: "No. El copy es una capa del trabajo. La prep del sitio suele ser del orden de un mes; la visibilidad del set de keywords suele construirse a 2–6 meses tras el arranque del trabajo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué importa más que la longitud",
+      level: 2,
+      paras: [
+        "Un buen copy SEO suele ser único, útil, relevante a la query, sin keyword stuffing, estructurado (H2/H3, listas, tablas, visuales) y dimensionado al trabajo de la página. La longitud es un parámetro de ese set — no el principal.",
+        "Escritura clara, poco fluff, densidad de keywords sensata y hechos de experto reales a menudo ganan a la carrera «ellos tienen 4.500 — escribiremos 5.000». No multipliques páginas plantilla vacías: bórralas o noindex si no hay nada que merezca publicar.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de calidad antes de abrir un contador de caracteres:",
+          items: [
+            "la intención de la query está cubierta",
+            "estructura y escaneabilidad están en su sitio",
+            "keywords sin stuffing",
+            "unicidad y fact-check",
+            "CTA y bloques de confianza donde ayuden",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Contenido del sitio",
+          href: "/es/blog/napolnenie-sayta/",
+        },
+        {
+          label: "Copywriting",
+          href: "/es/blog/kopirayting/",
+        },
+        {
+          label: "Ratio de fluff del texto",
+          href: "/es/blog/toshnota-teksta/",
+        },
+      ],
+    },
+    {
+      title: "Cómo fijar una pista de longitud desde la primera página",
+      level: 2,
+      paras: [
+        "Elige la página objetivo y su cluster de queries. En una ventana privada, recoge los primeros ~10 resultados orgánicos de la keyword principal (Yandex y Google pueden diferir — anota ambos si los necesitas). Abre URLs relevantes de competidores y mide la longitud del contenido principal de una forma coherente (contador o export).",
+        "Calcula media y mediana. La media se mueve con un long-read gigante; la mediana suele ser más justa. Trata el número como pista de brief, no como sentencia. Encaja el tipo de página: comparar una ficha de producto con una guía no tiene sentido.",
+      ],
+      lists: [
+        {
+          intro: "Proceso simple:",
+          items: [
+            "query y tipo de landing",
+            "primera página de resultados en ventana privada",
+            "longitud del texto principal en 5–10 URLs relevantes",
+            "media/mediana más el rango",
+            "brief: mín / objetivo / máx — sin fluff obligatorio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Análisis de competidores",
+          href: "/es/blog/analiz-konkurentov/",
+        },
+        {
+          label: "Páginas de entrada",
+          href: "/es/blog/tochki-vhoda/",
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Copiar la longitud de un agregador o marketplace con miles de bloques. Mide competidores de tu clase e intención.",
+        },
+      ],
+    },
+    {
+      title: "Cuándo ayuda un texto largo",
+      level: 2,
+      paras: [
+        "Un long-read encaja cuando el tema es amplio: una guía, comparación, how-to o desglose de experto. Entonces tablas, diagramas e ilustraciones llevan sentido; la gente comparte y vuelve; los updates mantienen la página útil más tiempo.",
+        "Un copy largo escrito solo por el conteo de caracteres hace daño: crece el fluff, baja la legibilidad, suben los bounces. Regla simple — cada bloque responde a una pregunta real; si no, corta.",
+      ],
+      lists: [
+        {
+          intro: "Un long-read tiene sentido si:",
+          items: [
+            "tienes expertise y hechos",
+            "la estructura deja escanear",
+            "la intención es informativa o mixta",
+            "páginas fuertes que ya rankean también van profundo — y puedes igualar o superar esa profundidad",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Spamminess del texto",
+          href: "/es/blog/zaspamlennost-teksta/",
+        },
+        {
+          label: "Bounce rate del sitio",
+          href: "/es/blog/otkazy-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Distintos tipos de página necesitan distinta longitud",
+      level: 2,
+      paras: [
+        "Homes y categorías suelen ser más cortas que los artículos: oferta, prueba, navegación. Las páginas de servicio van en el medio — beneficios, proceso, FAQ. Blog y help van de una respuesta corta a una guía completa. No arrastres «normas de blog» a una ficha de producto.",
+        "Tras publicar, mira comportamiento y rankings más de un día: refuerza bloques débiles, refresca lo desactualizado. La longitud puede crecer por utilidad — no por párrafos de relleno.",
+      ],
+      lists: [
+        {
+          intro: "Rangos prácticos (pistas, no dogma):",
+          items: [
+            "ficha de producto: brief + specs",
+            "servicio/categoría: longitud útil media + FAQ",
+            "artículo de respuesta: lo que cierre la pregunta",
+            "guía: más largo, con TOC y updates",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Descripción de producto",
+          href: "/es/blog/opisanie-tovara/",
+        },
+        {
+          label: "Actualizaciones de contenido",
+          href: "/es/blog/obnovlenie-kontenta/",
+        },
+      ],
+    },
+    {
+      title: "La longitud como estrategia, no como culto",
+      level: 2,
+      paras: [
+        "Toma una pista del SERP, escribe al menos tan útil en sentido, luego mide. No esperes rankings solo porque creció el conteo de caracteres. La prep de contenido y tech lleva semanas o cerca de un mes; la visibilidad del set núcleo se construye a meses (a menudo 2–6 tras el arranque del trabajo).",
+        "En resumen: la longitud sigue el trabajo de la página y la competencia — no es un objetivo SEO por sí sola.",
+      ],
+      lists: [
+        {
+          intro: "Takeaway corto:",
+          items: [
+            "no hay una longitud «correcta» única",
+            "los competidores de primera página son una pista",
+            "utilidad y estructura ganan al contador",
+            "long-read solo cuando hay sustancia real",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Copy nuevo ≠ primera página al instante. Mira el movimiento tras la indexación durante semanas y meses.",
+        },
+      ],
+      links: [
+        {
+          label: "SEO DIY",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+        {
+          label: "Por qué el sitio no rankea",
+          href: "/es/blog/sayt-ne-v-top/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "napolnenie-sayta",
+    "kopirayting",
+    "toshnota-teksta",
+    "analiz-konkurentov",
+    "opisanie-tovara",
+    "zaspamlennost-teksta",
+  ],
+};

@@ -126,3 +126,130 @@ export const snippetEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for snippet — same structure as RU JSON / EN. */
+export const snippetEs: BlogPost = {
+  slug: "snippet",
+  title: "Snippets de búsqueda: Title, description y rich results",
+  date: "2021-07-05",
+  category: "SEO",
+  cover: "/images/blog/snippet/cover.webp",
+  excerpt:
+    "Cómo se arma un snippet de la SERP: title, description, breadcrumbs y rich results. Qué te da schema.org / JSON-LD — y por qué va de CTR, no de magia de rankings.",
+  lead: [
+    "Un snippet es el bloque de la página en los resultados de búsqueda: title, URL/breadcrumbs, description y a veces extensiones (rating, precio, FAQ). Decide si la gente hace clic en tu posición.",
+    "Abajo: la anatomía básica, rich results y markup schema.org. Un snippet fuerte sube el CTR; los rankings crecen con contenido, técnica y enlaces — no con un solo bloque de datos estructurados.",
+  ],
+  faq: [
+    {
+      q: "¿La meta description garantiza el texto del snippet?",
+      a: "No. El buscador puede tomar otro fragmento de la página si responde mejor a la query. La description es una pista fuerte, no una orden.",
+    },
+    {
+      q: "¿El snippet afecta a los rankings?",
+      a: "No hay un factor directo de «puntos» por un snippet bonito. De forma indirecta — vía CTR y comportamiento. Lo principal es una página relevante.",
+    },
+    {
+      q: "¿Qué son los rich results?",
+      a: "Extensiones de la SERP: estrellas, precio, FAQ, receta, etc. Aparecen con markup estructurado válido y cuando se cumplen las reglas del tipo de resultado.",
+    },
+    {
+      q: "¿JSON-LD o microdata en HTML?",
+      a: 'Ambos se entienden. JSON-LD en `<script type="application/ld+json">` suele ser más fácil de mantener. Comprueba con un validador de rich results.',
+    },
+    {
+      q: "¿Hacen falta breadcrumbs?",
+      a: "Sí para la navegación on-site; en la SERP un camino también ayuda a mostrar la sección. Añade markup BreadcrumbList si quieres, siguiendo la spec.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué incluye un snippet habitual",
+      level: 2,
+      paras: [
+        "Clásicos: Title (a menudo de `<title>`), URL o breadcrumbs, description de la meta description o del texto de la página. Las longitudes de display se mueven — pon el sentido pronto.",
+        "Escribe title y description para humanos: beneficio, diferencia, sin hoja de keywords. Atiborrar la description mata el clic.",
+      ],
+      lists: [
+        {
+          intro: "Checklist básico:",
+          items: [
+            "Title único para el intent",
+            "description con valor y un CTA",
+            "URL / breadcrumbs legibles",
+            "la promesa del snippet cuadra con el contenido de la página",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de página para una query",
+          href: "/es/blog/optimizatsiya-stranitsy/",
+        },
+        {
+          label: "URL del sitio",
+          href: "/es/blog/url-adres/",
+        },
+      ],
+    },
+    {
+      title: "Rich results (snippets ampliados)",
+      level: 2,
+      paras: [
+        "Las extensiones dependen del tipo: producto (precio, disponibilidad), reviews, FAQ, how-to, organización. No todo sitio recibe todo tipo — hay requisitos de contenido y de política.",
+        "Una extensión ayuda a destacar y a responder antes del clic. No prometas en el markup lo que no está en la página: eso lleva a acciones manuales y a perder rich results.",
+      ],
+      lists: [
+        {
+          intro: "Por qué molestarse:",
+          items: [
+            "más visibilidad en la misma posición",
+            "oferta más clara (precio, rating)",
+            "menos clics vacíos fuera del intent",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Breadcrumbs y el camino en resultados",
+      level: 2,
+      paras: [
+        "En el sitio, los breadcrumbs son navegación «Inicio → Sección → Página». En resultados el buscador puede mostrar un camino similar.",
+        "El markup BreadcrumbList (JSON-LD o microdata) ayuda a las máquinas a entender la jerarquía. Primero pon breadcrumbs reales en HTML, luego markup — no al revés.",
+      ],
+      links: [
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Schema.org y JSON-LD",
+      level: 2,
+      paras: [
+        "Schema.org define tipos de entidad: Product, Article, Organization, FAQPage y otros. Marcas campos (name, price, author); el buscador decide si muestra una extensión.",
+        "JSON-LD es cómodo: un bloque de script, menos lío en el layout. Microdata va en las etiquetas — también válido, más duro de mantener. Tras el rollout, pasa la URL por el test oficial de rich results y los informes de Search Console / webmaster.",
+      ],
+      lists: [
+        {
+          intro: "Práctica de despliegue:",
+          items: [
+            "elige un tipo que cuadre con el contenido real",
+            "no marques reviews/precios inventados",
+            "alinea con el texto visible de la página",
+            "valida",
+            "mira si el tipo aparece en los informes (puede llevar tiempo)",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "El markup forma parte de la prep técnica del snippet. Rankear por queries comerciales es un proceso aparte de meses — a menudo 2–6 meses de trabajo tras la prep — no el resultado de un solo bloque JSON-LD.",
+        },
+      ],
+    },
+  ],
+};

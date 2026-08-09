@@ -196,3 +196,200 @@ export const lidEn: BlogPost = {
     "kviz-sayt",
   ],
 };
+
+/** ES overlay for lid — same structure as RU JSON / EN. */
+export const lidEs: BlogPost = {
+  slug: "lid",
+  title: "Qué es un lead: contacto, calidad y el embudo",
+  date: "2021-08-30",
+  category: "Digital marketing",
+  cover: "/images/blog/lid/cover.webp",
+  excerpt:
+    "Un lead en marketing es un cliente potencial con contacto e interés: en qué se diferencia de audiencia y tráfico, frío/tibio/caliente, canales de captación, CPL y por qué comprar listas ajenas es un error.",
+  lead: [
+    "Un lead es una persona o empresa que mostró interés en la oferta y dejó una forma de contactar: un formulario, una llamada, un chat, un alta con consentimiento. Aún no es un pago — pero sí un motivo para el siguiente paso comercial.",
+    "Abajo: definición, qué tan tibio está el lead, canales y métricas. No cubrimos comprar contactos ajenos sin consentimiento: es riesgo legal, de reputación y de calidad de deals.",
+  ],
+  faq: [
+    {
+      q: "¿Un lead y una audiencia objetivo son lo mismo?",
+      a: "No. La audiencia es quién podría encajar. Un lead es quien ya respondió y dio un contacto (u otra acción objetivo según tus reglas).",
+    },
+    {
+      q: "¿En qué se diferencia un lead del tráfico?",
+      a: "Tráfico son visitas. Un lead es una solicitud/contacto de esas visitas (o offline). Puedes tener muchos clics y cero leads.",
+    },
+    {
+      q: "¿Hace falta un teléfono?",
+      a: "No. Tú fijas el criterio: teléfono, email, cuenta de messenger, reserva de demo. Lo que importa es poder continuar el diálogo de forma legal.",
+    },
+    {
+      q: "¿Qué son MQL y SQL?",
+      a: "Etiquetas habituales: marketing qualified (MQL) — interés confirmado por marketing; sales qualified (SQL) — ventas lo aceptó. Los umbrales difieren por empresa.",
+    },
+    {
+      q: "¿Qué es el CPL?",
+      a: "Cost per lead: coste de adquirir un lead. Míralo con la calidad (cuota de cualificados, conversión a deal), o la basura barata gana a un pedido caro.",
+    },
+    {
+      q: "¿Puedo comprar una lista de leads?",
+      a: "Comprar contactos ajenos sin consentimiento es riesgo legal y de reputación, más baja conversión. Construye tu propia lista vía formularios opt-in y canales acordados.",
+    },
+    {
+      q: "¿Un lead frío no sirve?",
+      a: "No siempre: necesita más toques y contenido. Tratarlo igual que una solicitud caliente con presupuesto es un error de planning.",
+    },
+    {
+      q: "¿Dónde deben registrarse los leads?",
+      a: "En un CRM o al menos una hoja con dueño y estado. Un formulario sin manejo = solicitudes perdidas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Definición: qué no es un lead",
+      level: 2,
+      paras: [
+        "En marketing un lead es un cliente potencial con interés registrado y un contacto. Un transeúnte que cogió un flyer y se fue en silencio aún no es lead: no hay datos para seguir la conversación.",
+        "Un lead ≠ un cliente que paga. El deal puede caer; marketing y ventas deben cualificarlo y moverlo por las etapas del embudo.",
+        "Un lead ≠ un suscriptor cazapremios salvo que acordasteis que eso cuenta como acción objetivo. Si no, los informes muestran «leads» y el CRM tiene números vacíos.",
+      ],
+      notes: [
+        {
+          title: "Definición de tu empresa",
+          text: "Escríbela: qué acción cuenta como lead (formulario, llamada de 30+ s, chat preguntando por precio). Si no, marketing y ventas pelean por los números.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Temperatura: frío, tibio, caliente",
+      level: 2,
+      paras: [
+        "Frío: hay contacto, la intención es débil o poco clara — hace falta calentar, educar, aclarar la necesidad.",
+        "Tibio: compara opciones, hace preguntas concretas, aún no ha elegido. Ayudan casos, estimaciones, demos.",
+        "Caliente: listo para avanzar hacia la compra — términos, plazos, pago. Aquí la velocidad de respuesta del manager es crítica.",
+      ],
+      lists: [
+        {
+          intro: "No mezcles en un solo KPI:",
+          items: [
+            "un alta a un checklist",
+            "una solicitud «llámame por el proyecto»",
+            "un pedido repetido de un cliente habitual",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Hay tráfico, no hay leads",
+          href: "/es/blog/trafik-bez-lidov/",
+        },
+      ],
+    },
+    {
+      title: "Canales de captación (legales)",
+      level: 2,
+      paras: [
+        "Sitio y landing: formularios de captura, callback, chat, quiz. El consentimiento de datos personales es parte del proceso, no decoración.",
+        "Ads y contenido: ads de búsqueda, ads sociales, SEO, email a quien optó in. El boca a boca y las partnerships traen consultas más tibias cuando el producto ya resuena.",
+        "Offline: feria con formulario, QR a un form, una llamada tras una visita — misma lógica de contacto + consentimiento.",
+      ],
+      lists: [
+        {
+          intro: "Qué no usar como estrategia:",
+          items: [
+            "scraping de emails/teléfonos ajenos",
+            "comprar «listas de leads» sin origen de consentimiento",
+            "fingir interés con solicitudes falsas impulsadas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Formularios de captura",
+          href: "/es/blog/formy-zahvata/",
+        },
+        {
+          label: "Callback",
+          href: "/blog/obratnyy-zvonok/",
+        },
+      ],
+    },
+    {
+      title: "Cualificación y camino al deal",
+      level: 2,
+      paras: [
+        "Tras aterrizar en el CRM se revisa el lead: presupuesto, plazos, decision-maker, encaje de producto. Algunos caen como no cualificados — es normal, no un «fallo de marketing».",
+        "Marketing puede pasar MQLs; ventas aceptan SQLs. Sin un diccionario compartido los informes mienten.",
+        "La velocidad de primera respuesta en un lead caliente a menudo gana a un script perfecto: el interés tibio se enfría.",
+      ],
+      notes: [
+        {
+          title: "Calidad por encima del volumen",
+          text: "100 leads a CPL 50 con cero deals es peor que 15 leads a CPL 800 con cinco pagos. Cuenta el embudo hasta el revenue.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Métricas: CPL, conversión, ROMI",
+      level: 2,
+      paras: [
+        "CPL = gasto del canal / leads según tu definición. Compara canales solo con la misma definición de lead.",
+        "La conversión lead → deal y el ticket medio muestran calidad. Sin CRM es adivinanza.",
+        "El ROI / ROMI de marketing mira el dinero, no solicitudes «bonitas». Los KPIs de proceso (leads, velocidad de respuesta) y el payback en cash son niveles distintos.",
+      ],
+      links: [
+        {
+          label: "ROI de marketing",
+          href: "/es/blog/roi-marketinga/",
+        },
+        {
+          label: "Analítica de extremo a extremo",
+          href: "/es/blog/skvoznaya-analitika/",
+        },
+      ],
+    },
+    {
+      title: "Cómo encontrar leads en la práctica",
+      level: 2,
+      paras: [
+        "Primero oferta y landing: si hay visitas pero no solicitudes — arregla sentido y CTA, no solo el presupuesto.",
+        "Elige 1–2 canales para unit economics, monta el handoff al CRM, asigna un dueño de la velocidad de respuesta.",
+        "Mejora la cualificación con campos del formulario y un script — no con volumen de spam. Escala lo que produce deals cualificados.",
+      ],
+      lists: [
+        {
+          intro: "Orden mini de lanzamiento:",
+          items: [
+            "definición de lead en una página",
+            "formulario/llamada con consentimiento",
+            "CRM + dueño",
+            "CPL y cuota cualificada en el informe",
+            "sin comprar listas ajenas",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "Un lead es interés + contacto (u otra acción objetivo), no una «audiencia» abstracta ni un pago.",
+        "Temperatura, canal y calidad ganan a la carrera por un CPL barato.",
+        "Construyes tu propia lista vía consentimiento; contactos ajenos «a granel» es mala estrategia.",
+      ],
+    },
+  ],
+  closing: [
+    "Escribe la definición de lead de tu empresa, comprueba que las solicitudes aterrizan en el CRM con dueño y compara dos canales no por «cantidad» sino por deals — entonces el término deja de ser buzzword de slide.",
+  ],
+  related: [
+    "trafik-bez-lidov",
+    "formy-zahvata",
+    "obratnyy-zvonok",
+    "roi-marketinga",
+    "skvoznaya-analitika",
+    "kviz-sayt",
+  ],
+};

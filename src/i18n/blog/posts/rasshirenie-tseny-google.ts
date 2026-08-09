@@ -1,5 +1,128 @@
 import type { BlogPost } from "../../../data/blog";
 
+/** ES overlay for rasshirenie-tseny-google — same structure as RU JSON. */
+export const rasshirenieTsenyGoogleEs: BlogPost = {
+  slug: "rasshirenie-tseny-google",
+  title: "Extensiones de precio en Google Ads",
+  date: "2017-05-27",
+  category: "Paid search",
+  cover: "/images/blog/rasshirenie-tseny-google/cover.webp",
+  excerpt:
+    "Por qué los anuncios de Google Ads muestran un bloque de precio: tipos (productos, servicios, eventos, marcas), cuándo activarlo y qué vigilar — un clic en un precio se factura, y la UI puede haber cambiado desde 2017.",
+  lead: [
+    "Las extensiones de precio muestran el coste de servicios o productos en el propio anuncio: el usuario ve una guía antes del clic, y el anuncio ocupa más espacio en los resultados.",
+    "Abajo: por qué importa, a qué tipos de trabajo encaja y qué comprobar al configurarlo. Nombres y pasos en la cuenta han cambiado desde 2017 — verifica la Help actual de Google Ads. Un clic en una fila de precio suele contar como clic de anuncio.",
+  ],
+  faq: [
+    {
+      q: "¿Los precios en el anuncio son gratis?",
+      a: "Mostrar la extensión en sí no es una tarifa aparte, pero un clic en un precio/enlace suele facturarse como un clic normal.",
+    },
+    {
+      q: "¿Cuándo tiene sentido una extensión de precio?",
+      a: "Cuando los precios son claros y competitivos: un catálogo, servicios con lista de precios clara, eventos con entradas. El «precio bajo consulta» oculto funciona mal en este formato.",
+    },
+    {
+      q: "¿Es obligatoria la extensión de precio en cada campaña?",
+      a: "No. Es una extensión junto a sitelinks y callouts. Prueba donde el precio decide el clic.",
+    },
+    {
+      q: "¿Se puede escribir «desde …» en el precio?",
+      a: "A menudo sí en categorías con rango de precio — pero no engañes: las reglas del anuncio y las políticas de Ads prohíben el engaño.",
+    },
+    {
+      q: "¿En qué se diferencia de Shopping?",
+      a: "Shopping tira de un feed. Las extensiones de precio son un añadido de texto a anuncios de Search (y relacionados). No sustituyen el feed.",
+    },
+    {
+      q: "¿La UI sigue como en el artículo de 2017?",
+      a: "Probablemente no. La lógica de «mostrar precio en el anuncio» sigue viva; botones y tipos en la cuenta — mira Help.",
+    },
+    {
+      q: "¿Siguen haciendo falta otras extensiones?",
+      a: "Sí: sitelinks, callouts, teléfono — juntas suben la visibilidad. No te apoyes solo en los precios.",
+    },
+  ],
+  sections: [
+    {
+      title: "Para qué un bloque de precio",
+      level: 2,
+      paras: [
+        "La extensión responde «¿cuánto cuesta?» antes de la visita. Filtra parte de los clics no objetivo y sube el CTR de quienes aceptan el precio.",
+        "El anuncio se ve más grande que vecinos sin extensiones — pero ganan relevancia y oferta, no solo el «real estate».",
+      ],
+      links: [
+        {
+          label: "Tipos de campaña en Google Ads",
+          href: "/es/blog/tipy-kampaniy-google-ads/",
+        },
+        {
+          label: "Errores de setup en búsqueda de pago",
+          href: "/es/blog/oshibki-nastroyki-konteksta/",
+        },
+      ],
+    },
+    {
+      title: "Tipos de trabajo",
+      level: 2,
+      paras: [
+        "Categorías de producto — líneas con un precio mínimo «desde»: útil para tiendas con surtido claro.",
+        "Servicios y clases de servicio — un precio por trabajos típicos si puedes nombrar una suma con honestidad.",
+        "Eventos — nombre, fecha y coste de entrada/participación.",
+        "Lugares / viajes y marcas — destinos o fabricantes con guía de precio; elige el tipo para el negocio, no «todo a la vez».",
+      ],
+      lists: [
+        {
+          intro: "Antes de rellenarlo:",
+          items: [
+            "los precios están al día y son legales",
+            "la landing encaja con la promesa",
+            "tienes capacidad para actualizar la lista de precios",
+            "no prometes lo que no hay en stock",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Práctica de setup",
+      level: 2,
+      paras: [
+        "Añade la extensión a nivel de cuenta/campaña según las reglas de la cuenta y vincúlala a grupos relevantes.",
+        "Compara CTR y CPA before/after en un cluster. Si el precio asusta la demanda caliente — arregla primero la oferta y la landing, no solo la extensión.",
+        "Mantén los precios sincronizados con el sitio: desajuste = quejas y clics tirados.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Importante",
+          text: "El artículo de 2017 describía una extensión «nueva». Comprueba nombres de tipos y pasos de UI actuales en la Help de Google Ads; el punto es mostrar un precio honesto en el anuncio.",
+        },
+      ],
+      links: [
+        {
+          label: "El sitio antes de la publicidad",
+          href: "/es/blog/sayt-pered-reklamoy/",
+        },
+        {
+          label: "Análisis de campaña publicitaria",
+          href: "/es/blog/analiz-reklamnoy-kampanii/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Si el precio es el filtro principal del nicho, activa la extensión en 1–2 campañas prioritarias y mira CTR/CPA un par de semanas — más rápido que discutir «si hace falta o no».",
+  ],
+  related: [
+    "tipy-kampaniy-google-ads",
+    "oshibki-nastroyki-konteksta",
+    "sayt-pered-reklamoy",
+    "analiz-reklamnoy-kampanii",
+    "strategii-google-ads",
+    "adaptivnyy-shablon-direkt",
+  ],
+} as BlogPost;
+
 /** EN overlay for rasshirenie-tseny-google — same structure as RU JSON. */
 export const rasshirenieTsenyGoogleEn: BlogPost = {
   slug: "rasshirenie-tseny-google",

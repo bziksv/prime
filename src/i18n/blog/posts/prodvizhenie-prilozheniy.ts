@@ -165,3 +165,169 @@ export const prodvizheniePrilozheniyEn: BlogPost = {
     "veb-prilozhenie",
   ],
 };
+
+/** ES overlay for prodvizhenie-prilozheniy — same structure as RU JSON / EN. */
+export const prodvizheniePrilozheniyEs: BlogPost = {
+  slug: "prodvizhenie-prilozheniy",
+  title: "Cómo promocionar apps móviles y juegos",
+  date: "2019-10-24",
+  category: "Digital marketing",
+  cover: "/images/blog/prodvizhenie-prilozheniy/cover.webp",
+  excerpt:
+    "Promoción de apps y juegos: creatives y playables, targeting por interés de categoría, remarketing por eventos, deep links y métricas de retention — sin correr solo por installs.",
+  lead: [
+    "Las stores están saturadas: un install solo no es un negocio. Necesitas usuarios que se queden y paguen — o completen la acción objetivo dentro de la app.",
+    "Abajo: palancas que funcionan — creatives interactivos, targeting preciso, retention vía remarketing, deep links a la pantalla correcta y un stack de métricas. Las cifras de cases ajenos de 2010s son pistas de orden de magnitud, no tu plan.",
+  ],
+  faq: [
+    {
+      q: "¿Por dónde debe empezar la promoción de una app?",
+      a: "Por el producto y un evento de éxito (signup, nivel, compra), luego la página de la store, un tracker y un presupuesto de test en 1–2 canales — no «todas las redes» a la vez.",
+    },
+    {
+      q: "¿Los playable ads siempre son mejores que el vídeo?",
+      a: "A menudo suben el engagement en juegos, pero cuestan más de producir y no son universales. Compara CPI/CPA y calidad de usuario, no solo CTR.",
+    },
+    {
+      q: "¿Importan más los installs o la retention?",
+      a: "Para el negocio — retention y valor. Installs baratos que hacen churn el día 1 queman el presupuesto.",
+    },
+    {
+      q: "¿Por qué importan los deep links?",
+      a: "Para que los ads aterricen en la pantalla correcta (promo, producto), no en un hub pelado. Sin la app — un deferred deep link vía la store.",
+    },
+    {
+      q: "¿Debo correr remarketing tras borrar la app?",
+      a: "Algunos MMPs/redes pueden trabajar con audiencias de eventos e IDs dentro de las reglas de la plataforma. Sigue políticas y consentimiento.",
+    },
+    {
+      q: "¿Basta una red social para promocionar la app?",
+      a: "A veces para un test. Escalar suele pedir varias fuentes y una comparación dura de unit economics.",
+    },
+  ],
+  sections: [
+    {
+      title: "Creative: vídeo, vertical, playable",
+      level: 2,
+      paras: [
+        "En el teléfono gana el vertical full-screen: un trailer o gameplay sin «carta» en pantalla. Para juegos, los playable ads son fuertes — una demo corta con «jugar» y camino al install: la persona ya probó la mecánica.",
+        "Cases ajenos (incluido playable vs vídeo cuadrado) muestran el orden de magnitud de conversión, pero importan más tu género y oferta. Prueba 2–3 hipótesis de creative en un segmento.",
+      ],
+      lists: [
+        {
+          intro: "Qué revisar en el creative:",
+          items: [
+            "un gancho claro en los primeros segundos",
+            "vertical para el feed móvil",
+            "una oferta / una acción",
+            "un enlace a la pantalla post-install",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Targeting: encuentra «tu» categoría",
+      level: 2,
+      paras: [
+        "Mostrar a «todos 18–45» quema presupuesto. Funcionan demografía, geo, intereses — y para apps, de forma crítica, gente que ya instaló apps de tu categoría (estrategia, utilidades, shopping).",
+        "Los followers de competidores en redes a veces dan reach barato, pero no siempre installs. En lanzamientos prácticos un segmento «tiene un juego del género en el dispositivo» a menudo gana a «le gustó la page del competidor». Segmenta por frescura de interés: 90 / 180 / 360 días — y compara CPI y retention, no solo volumen.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Nota",
+          text: "Plataformas y señales cambian (privacy, iOS, políticas). Revisa audiencias disponibles en la cuenta de ads actual; no copies a ciegas guías obsoletas de «intereses de 2018».",
+        },
+      ],
+      links: [
+        {
+          label: "Ads móviles de Google",
+          href: "/es/blog/mobilnaya-reklama-google/",
+        },
+        {
+          label: "Audiencia target",
+          href: "/es/blog/tselevaya-auditoriya/",
+        },
+      ],
+    },
+    {
+      title: "Retention: remarketing por eventos",
+      level: 2,
+      paras: [
+        "Installs nuevos sin retorno son un agujero de presupuesto. El remarketing trabaja con gente que ya conoce la app: usuarios inactivos cálidos, traerlos de vuelta a la compra, terminar un flow abandonado.",
+        "Una palanca fuerte son los eventos in-app (nivel, carrito, view de producto). Distintos segmentos reciben creatives distintos: un descuento de «hace tiempo que no entras», un recordatorio de ítem abandonado, una oferta a quien vio pero no añadió al carrito. Los formatos dinámicos ayudan cuando el catálogo es grande.",
+      ],
+      lists: [
+        {
+          intro: "Trabajos del remarketing:",
+          items: [
+            "traer de vuelta a los «dormidos»",
+            "terminar una acción incompleta",
+            "subir el LTV de los pagadores",
+            "no martillar a quien compró hace poco",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Retargeting",
+          href: "/es/blog/retargeting/",
+        },
+      ],
+    },
+    {
+      title: "Deep links: un camino corto a la acción",
+      level: 2,
+      paras: [
+        "Un enlace plano a la store sin contexto deja al usuario en el escaparate. Un deep link va directo a una promo, producto o nivel. Si la app no está instalada — deferred deep link: install, luego la pantalla correcta.",
+        "Sin deep links el funnel es más largo y más gente cae. Para campañas de apps esto es ingeniería básica, no una «feature después».",
+      ],
+      links: [
+        {
+          label: "Deep links",
+          href: "/es/blog/diplinking/",
+        },
+      ],
+    },
+    {
+      title: "De la teoría a la práctica y las métricas",
+      level: 2,
+      paras: [
+        "Esquema de lanzamiento: fija el evento de éxito → tracker/MMP → creatives y segmentos → deep links → review semanal de CPI, CR al evento, retention D1/D7. Escala solo segmentos con retention sólida.",
+        "En cases como remarketing + deep links para apps e-com, el crecimiento no es «magia de la red» — es segmentación: carrito abandonado ≠ mera view. CTRs ajenos y miles de installs ilustran el enfoque; cuenta tus propios números en la cuenta.",
+      ],
+      lists: [
+        {
+          intro: "Métricas mínimas:",
+          items: [
+            "CPI / coste del evento objetivo",
+            "retention D1 y D7",
+            "CR a pago o acción clave",
+            "cuota orgánica tras un pico de pago",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Fuentes de tráfico",
+          href: "/es/blog/istochniki-trafika/",
+        },
+        {
+          label: "Ticket medio",
+          href: "/es/blog/sredniy-chek/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "La promoción de apps es creative y targeting preciso a la entrada, eventos y deep links en el medio, retention y LTV a la salida. Cuenta más que installs: tráfico barato sin retention es el más caro.",
+  ],
+  related: [
+    "diplinking",
+    "mobilnaya-reklama-google",
+    "retargeting",
+    "tselevaya-auditoriya",
+    "istochniki-trafika",
+    "veb-prilozhenie",
+  ],
+};

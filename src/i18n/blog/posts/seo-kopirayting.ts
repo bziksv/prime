@@ -215,3 +215,219 @@ export const seoKopiraytingEn: BlogPost = {
     "prodayushchie-teksty",
   ],
 };
+
+/** ES overlay for seo-kopirayting — same structure as RU JSON / EN. */
+export const seoKopiraytingEs: BlogPost = {
+  slug: "seo-kopirayting",
+  title: "Copywriting SEO: reglas, LSI y checklist práctico",
+  date: "2019-12-07",
+  category: "SEO",
+  cover: "/images/blog/seo-kopirayting/cover.webp",
+  excerpt:
+    "Qué es el copywriting SEO, en qué se diferencia de «solo texto», un glosario corto para briefs, LSI, un checklist de creación y errores habituales — sin culto a la densidad de keywords.",
+  lead: [
+    "El copywriting SEO es copy que responde a la búsqueda de una persona y se mantiene claro para los motores: estructura, sentido y phrasing natural de tu investigación de keywords. No es una keyword en negrita en cada párrafo ni filler «para el bot».",
+    "Abajo: una definición, un glosario corto, quién debería escribir estas páginas, el rol del LSI, un checklist y errores habituales. Los tipos de copywriting y elegir autor viven en el artículo general de copywriting; aquí el foco son páginas orientadas a búsqueda.",
+  ],
+  faq: [
+    {
+      q: "¿El copy SEO tiene que ser aburrido?",
+      a: "No. El texto aburrido sube los bounces. Escribe para personas y teje las keywords de forma natural.",
+    },
+    {
+      q: "¿Debo poner las keywords en negrita?",
+      a: "No. Es un truco obsoleto y un riesgo de sobreoptimización. Destaca el sentido para el lector, no «marcadores para el bot».",
+    },
+    {
+      q: "¿Qué es LSI en claro?",
+      a: "Palabras y phrasing relacionados alrededor del tema — no solo la keyword exacta — que ayudan a cubrir la intención con más plenitud.",
+    },
+    {
+      q: "¿Es obligatorio el meta keywords?",
+      a: "Para Yandex y Google, prácticamente no. Enfócate en title, description y el copy de la página.",
+    },
+    {
+      q: "¿Un marketplace de contenido es buena fuente?",
+      a: "A veces para trabajos simples. Para páginas expertas y comerciales, un autor con portfolio de nicho y un brief claro es más fiable.",
+    },
+    {
+      q: "¿Cuántas keywords debo insertar?",
+      a: "Las que hagan falta para que el tema quede claro — sin stuffing. Mira scores de densidad/spam y legibilidad, no «densidad por la densidad».",
+    },
+    {
+      q: "¿Un artículo SEO me pone en primera página?",
+      a: "Rara vez. También hacen falta estructura del sitio, tech, relevancia y tiempo: prep de cerca de un mes; crecimiento de rankings del set planificado a 2–6 meses.",
+    },
+    {
+      q: "¿En qué se diferencia el copywriting SEO del copy de venta?",
+      a: "Hay bastante solape. El SEO añade trabajo con un cluster de queries y una landing alineada a la intención; el copy de venta empuja más en oferta y CTA.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es el copywriting SEO",
+      level: 2,
+      paras: [
+        "Es escribir para que la página responda a la demanda de búsqueda: el tema queda claro, la estructura se escanea y el phrasing encaja con cómo habla la audiencia. La búsqueda también pesa tech, enlaces y comportamiento — el copy es una capa.",
+        "El objetivo es relevancia a la query y valor para el visitante. El crawler indexa la página; en resultados compite con otras respuestas a la misma intención. Meter keywords sin sentido hoy suele hacer daño.",
+      ],
+      lists: [
+        {
+          intro: "En qué se diferencia de «solo un artículo»:",
+          items: [
+            "existe un cluster e intención antes de escribir",
+            "H1 y subtítulos se alinean con las queries",
+            "title y description pensados para el snippet",
+            "chequeos de unicidad y stuffing antes de publicar",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Copywriting",
+          href: "/es/blog/kopirayting/",
+        },
+        {
+          label: "Investigación de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+      ],
+    },
+    {
+      title: "Glosario para el brief",
+      level: 2,
+      paras: [
+        "Keywords — términos de búsqueda que usa la gente. Un cluster — queries con una intención para una landing. Densidad y scores de spam miden la sobrecarga por repetición; el «fluff» es filler de poco sentido. H1 es el heading principal de la página (suele ser uno); H2–H3 estructuran los bloques.",
+        "Title y description son meta para el snippet (la búsqueda aún puede elegir otro fragmento). El conteo de palabras es una guía por tarea y páginas competitivas — no un número sagrado. Unicidad significa sin copy-paste; hechos y expertise ganan a un porcentaje de tool.",
+      ],
+      lists: [
+        {
+          intro: "En el brief al autor, especifica:",
+          items: [
+            "objetivo de la página y audiencia",
+            "keyword principal más LSI / phrasing extra",
+            "hechos obligatorios y CTA",
+            "guía de conteo de palabras y outline",
+            "ejemplos de competidores (de referencia, no para copy-paste)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "«Náusea» / densidad del texto",
+          href: "/es/blog/toshnota-teksta/",
+        },
+        {
+          label: "Keyword stuffing",
+          href: "/es/blog/zaspamlennost-teksta/",
+        },
+        {
+          label: "Longitud del texto SEO",
+          href: "/es/blog/dlina-seo-teksta/",
+        },
+      ],
+    },
+    {
+      title: "Quién lo escribe — y dónde encargarlo",
+      level: 2,
+      paras: [
+        "Los buenos writers SEO son más raros que «escribimos por cada 1.000 caracteres». Busca un portfolio alineado al tipo de página, capacidad de trabajar desde un brief y disposición a revisar. Los marketplaces de contenido valen para trabajos simples; para servicios, medicina, finanzas y B2B complejo, la expertise gana al precio por carácter.",
+        "El especialista SEO prepara el set de keywords y los criterios; el copywriter arma el texto. Una propiedad borrosa («busca las keywords tú y adivina la oferta») casi siempre da un resultado débil.",
+      ],
+      lists: [
+        {
+          intro: "Banderas rojas del vendor:",
+          items: [
+            "rankings de primera página prometidos solo con texto",
+            "negativa a revisar",
+            "copy-paste de competidores",
+            "keywords en negrita y «densidad 5%» como método",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Chequeo de unicidad",
+          href: "/es/blog/proverka-unikalnosti/",
+        },
+        {
+          label: "Copy de venta",
+          href: "/es/blog/prodayushchie-teksty/",
+        },
+      ],
+    },
+    {
+      title: "LSI y sentido en lugar de stuffing",
+      level: 2,
+      paras: [
+        "En la práctica, el copywriting LSI significa cubrir el tema con conceptos relacionados, preguntas y phrasing de sugerencias y del SERP — no solo coincidencias exactas de keyword. El texto responde la intención con más plenitud y se ve menos spam.",
+        "Saca ideas de Wordstat, sugerencias de búsqueda, queries relacionadas y páginas fuertes que ya rankean — luego escribe con tu voz y hechos de marca.",
+      ],
+      lists: [
+        {
+          intro: "Práctica LSI:",
+          items: [
+            "recoger phrasing cercano",
+            "responder preguntas frecuentes en un bloque FAQ",
+            "no repetir una keyword de forma mecánica",
+            "chequear legibilidad en voz alta",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Contenido del sitio",
+          href: "/es/blog/napolnenie-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Checklist y errores habituales",
+      level: 2,
+      paras: [
+        "Antes del handoff: intención cubierta, un H1 con propósito, subtítulos lógicos, keywords naturales, sin fluff por volumen, unicidad y hechos chequeados, title/description alineados con la página, CTA en su sitio.",
+        "Errores: copy-paste, stuffing, keywords en negrita, ignorar la estructura, texto fuera de cluster, prometer «primera página con un artículo». El contenido SEO trabaja dentro de un sistema con tech y tiempo — no como un hechizo puntual.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de handoff:",
+          items: [
+            "encaje con el brief y el cluster",
+            "estructura H1–H3",
+            "meta del snippet sin clickbait",
+            "chequeo de densidad / fluff",
+            "corrección y verificación de hechos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          text: "Publicar copy no es lo mismo que rankear en primera página. La indexación lleva de días a semanas; el crecimiento de rankings del set de keywords se planifica a meses tras el arranque del trabajo.",
+        },
+      ],
+      links: [
+        {
+          label: "Snippets",
+          href: "/es/blog/snippet/",
+        },
+        {
+          label: "Tag H1",
+          href: "/es/blog/teg-h1/",
+        },
+        {
+          label: "Por qué el sitio no rankea",
+          href: "/es/blog/sayt-ne-v-top/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "kopirayting",
+    "semanticheskoe-yadro",
+    "dlina-seo-teksta",
+    "toshnota-teksta",
+    "napolnenie-sayta",
+    "prodayushchie-teksty",
+  ],
+};

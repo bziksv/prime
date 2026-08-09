@@ -133,3 +133,137 @@ export const telegramEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for telegram — same structure as RU JSON / EN. */
+export const telegramEs: BlogPost = {
+  slug: "telegram",
+  title: "Telegram: funciones, pros y cómo se compara con otros messengers",
+  date: "2021-07-27",
+  category: "SMM",
+  cover: "/images/blog/telegram/cover.webp",
+  excerpt:
+    "Qué puede hacer Telegram: chats, canales, bots, nube y seguridad. Pros y contras, comparación con otros messengers y por qué un canal de negocio ayuda — sin stats «para siempre» obsoletas.",
+  lead: [
+    "Telegram es un messenger multiplataforma: chats personales y de grupo, canales, bots, archivos grandes y sync entre móvil y escritorio. Para marketing también es una superficie media con entrega directa a notificaciones.",
+    "Abajo: propósito, fortalezas y debilidades, cómo se compara con otros messengers y escenarios de negocio. Límites y funciones se actualizan — revisa cifras actuales en la Help de Telegram. Cómo llevar un canal desde cero está en un artículo aparte.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. WhatsApp* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia un canal de un grupo?",
+      a: "Un canal es un feed del autor a suscriptores. Un grupo es chat entre participantes. A menudo se lleva canal + chat de discusión.",
+    },
+    {
+      q: "¿Un negocio necesita Telegram si ya tiene sitio?",
+      a: "Como canal extra: noticias, soporte, calentamiento, mensajes a quien optó in. No sustituye el sitio ni el SEO — añade comunicación.",
+    },
+    {
+      q: "¿Los secret chats son el default de cada diálogo?",
+      a: "No. Los chats cloud normales se sincronizan entre dispositivos. Los secret chats son un modo aparte centrado en cifrado local y auto-borrado; los detalles están en la Help del cliente.",
+    },
+    {
+      q: "¿Telegram es gratis?",
+      a: "El uso básico es gratis. Aparecen y cambian opciones de pago (incluido Premium) y formatos de ads — no trates las guías 2017–2021 como lista de precios.",
+    },
+    {
+      q: "¿Por dónde debe empezar un canal?",
+      a: "Setup, rúbricas, posts de arranque y un plan de tráfico. Un recorrido más profundo está en el artículo de lanzamiento del canal.",
+    },
+  ],
+  sections: [
+    {
+      title: "Propósito y funciones centrales",
+      level: 2,
+      paras: [
+        "Registro con número de teléfono; clientes para SO móviles, escritorio y web. Comunicación: texto, voz, videollamadas, grupos y supergroups, username sin mostrar el número en cada chat.",
+        "Fortalezas de contenido: canales, bots, reenvíos, hashtags en búsqueda, almacenamiento cloud de media dentro del servicio. Los límites de tamaño de archivo y de miembros de grupo han cambiado — revisa los actuales.",
+      ],
+      lists: [
+        {
+          intro: "Set típico:",
+          items: [
+            "chats personales y de grupo",
+            "canales como media",
+            "bots y mini apps",
+            "stickers, notas de voz, adjuntos grandes",
+            "sync del historial entre dispositivos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Pros y contras",
+      level: 2,
+      paras: [
+        "Pros: velocidad, escritorio sólido, flexibilidad para media y automatización, desarrollo activo de funciones.",
+        "Contras: la búsqueda de canales in-app es más débil que en redes sociales; la moderación de contenido público queda en autores y plataforma; el soporte y la UI históricamente fueron English-first (mejor ahora, quedan matices); el número de registro es un punto sensible de seguridad de la cuenta.",
+      ],
+      lists: [
+        {
+          intro: "Conviene recordar:",
+          items: [
+            "auth en dos factores y la lista de sesiones",
+            "cuidado con bots y archivos desconocidos",
+            "un canal público ≠ anonimato total",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Comparación con otros messengers",
+      level: 2,
+      paras: [
+        "WhatsApp* y messengers similares suelen ser más fuertes en red de contactos: más chance de que la otra persona ya esté ahí. Telegram se elige más a menudo por escritorio, canales, bots y trabajo con archivos. Viber y otros tienen sus nichos en llamadas y comunidades.",
+        "La comparación de abajo es una guía de escenarios, no un ranking eterno. Interfaces y límites cambian; el estatus legal de algunos productos está en la nota al inicio del artículo.",
+      ],
+      tables: [
+        {
+          caption: "Comparación aproximada por escenario",
+          headers: ["Escenario", "Telegram", "WhatsApp* / pares"],
+          rows: [
+            ["Canal / media", "Lado fuerte", "Más statuses, menos a menudo un canal completo"],
+            ["Bots y automatización", "Ecosistema amplio", "Depende de la plataforma"],
+            ["Escritorio sin el teléfono cerca", "Cliente completo", "A menudo atado al teléfono"],
+            ["Alcance «ya lo tiene todo el mundo»", "Más bajo en algunas audiencias", "A menudo más alto"],
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Nota",
+          kind: "tip",
+          text: "Este material describe funciones de la plataforma. Elegir un messenger para negocio es una decisión que tiene en cuenta audiencia, política y ley en tu jurisdicción.",
+        },
+      ],
+    },
+    {
+      title: "Canales, bots y negocio",
+      level: 2,
+      paras: [
+        "Un canal es un escaparate de noticias y ofertas con push. Los bots — leads, FAQ, estado del pedido, embudos simples. Crecer en suscriptores casi siempre necesita fuentes externas y ads en canales afines.",
+        "No confundas «tenemos un messenger» con una estrategia de marketing: hacen falta rúbricas, tono, medición y soporte del diálogo.",
+      ],
+      lists: [
+        {
+          intro: "Escenarios de negocio:",
+          items: [
+            "noticias de empresa y producto",
+            "soporte y estado del pedido",
+            "calentamiento antes de un lanzamiento",
+            "contenido cerrado para clientes",
+            "placements de pago y partnerships con otros canales",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Canal de Telegram desde cero",
+          href: "/es/blog/telegram-kanal/",
+        },
+      ],
+    },
+  ],
+};

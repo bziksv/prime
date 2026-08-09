@@ -129,3 +129,133 @@ export const prosmotryVkEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for prosmotry-vk — same structure as RU JSON / EN. */
+export const prosmotryVkEs: BlogPost = {
+  slug: "prosmotry-vk",
+  title: "Contador de vistas en VK: cómo leer las señales de alcance",
+  date: "2021-06-22",
+  category: "SMM",
+  cover: "/images/blog/prosmotry-vk/cover.webp",
+  excerpt:
+    "Cómo funciona el contador de vistas bajo los posts de VKontakte, qué cuenta como vista, en qué se diferencia de las stats completas de la comunidad y por qué las vistas falsas dañan.",
+  lead: [
+    "Bajo los posts de VKontakte ves un contador de vistas — una sensación rápida de cuántas veces un post «atrapó» atención de verdad, no solo likes.",
+    "Abajo: qué se cuenta, límites del contador público y cómo usar los números en un plan de contenido. VK puede cambiar detalles del algoritmo — revisa la help de la plataforma.",
+  ],
+  faq: [
+    {
+      q: "¿Una vista significa aparecer en el feed?",
+      a: "No. Suele hacer falta una muestra con una pausa/parada en el post, no un scroll instantáneo de paso.",
+    },
+    {
+      q: "¿Puedo ocultar el contador de vistas?",
+      a: "El indicador público bajo un post suele ser visible para todos. Stats más profundas viven en la estadística de la comunidad para admins.",
+    },
+    {
+      q: "¿Puede una persona generar varias vistas?",
+      a: "Para un post suele contar una vista por cuenta. Si una nueva muestra con sentido se vuelve a contar depende de las reglas de la plataforma.",
+    },
+    {
+      q: "¿Las vistas falsas ayudan de verdad?",
+      a: "No: distorsionan la analítica, estropean decisiones de ads y pueden romper las reglas. Mira engagement y objetivos, no vanidad de «ojos».",
+    },
+    {
+      q: "¿En qué se diferencia del alcance en stats?",
+      a: "El contador bajo un post es una señal pública rápida. Las stats de la comunidad van más hondo: alcance, demografía, fuentes — usa ambas capas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué existe el contador",
+      level: 2,
+      paras: [
+        "Likes y comentarios no muestran el interés completo: la gente puede leer en silencio. El contador da un orden de magnitud de atención a un post en el feed, en el muro y en recomendaciones.",
+        "No es un reemplazo de A/B ni una garantía de ventas — una guía para comparar formatos dentro de tu comunidad.",
+      ],
+      lists: [
+        {
+          intro: "Dónde puede contar una vista:",
+          items: [
+            "feed de noticias",
+            "muro de la comunidad / perfil",
+            "bloque de recomendaciones (si el post llegó ahí)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Crecer un grupo de VK",
+          href: "/es/blog/raskrutka-gruppy-vk/",
+        },
+        {
+          label: "Plan de contenido",
+          href: "/es/blog/kontent-plan/",
+        },
+      ],
+    },
+    {
+      title: "Cómo se cuenta una vista",
+      level: 2,
+      paras: [
+        "Según declaraciones de la plataforma y la práctica, lo que importa no es un scroll instantáneo sino una muestra real del post al usuario. La duración exacta de «dwell» no se publica como un SLA duro.",
+        "El contador funciona para distintos tipos de adjuntos (texto, foto, clips/vídeo — con matices de contabilización). Los posts más antiguos pueden haberse comportado distinto cuando se lanzó la función.",
+      ],
+      lists: [
+        {
+          intro: "Rasgos prácticos:",
+          items: [
+            "el número bajo el post es público",
+            "no se revela la identidad del viewer",
+            "útil para comparar posts entre sí",
+            "la inflación con bots distorsiona la imagen",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo usarlo en el trabajo",
+      level: 2,
+      paras: [
+        "Compara vistas con ER (likes, comentarios, shares, clics a enlaces). Muchos «ojos» con cero acciones señalan una oferta débil o clickbait.",
+        "Para ads e informes a clientes apóyate en stats de cuenta/comunidad y objetivos (leads), no solo en el contador público.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Práctica",
+          text: "Mantén una tabla: tema × formato × vistas × acciones objetivo. Tras 10–20 posts verás qué funciona de verdad para tu audiencia.",
+        },
+      ],
+      links: [
+        {
+          label: "Artículo en VK",
+          href: "/es/blog/statya-vk/",
+        },
+        {
+          label: "Alcance viral en VK",
+          href: "/es/blog/viralnyy-ohvat-vk/",
+        },
+      ],
+    },
+    {
+      title: "Media y límites",
+      level: 2,
+      paras: [
+        "Fotos y vídeo también tienen contador; en vídeo importan las reglas de acceso (también para usuarios sin login). No confundas vistas de clips con el alcance de una campaña de ads.",
+        "Las herramientas de terceros «quién vio» a menudo muestran solo a quien dejó una reacción — no las trates como una lista exacta de viewers.",
+      ],
+      lists: [
+        {
+          intro: "No hagas:",
+          items: [
+            "comprar vistas falsas",
+            "juzgar la calidad por un solo post",
+            "ignorar las stats completas de la comunidad",
+            "prometer a clientes «alcance garantizado» por conteos de ojos",
+          ],
+        },
+      ],
+    },
+  ],
+};

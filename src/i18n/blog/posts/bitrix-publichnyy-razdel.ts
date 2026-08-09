@@ -143,3 +143,147 @@ export const bitrixPublichnyyRazdelEn: BlogPost = {
     "uznat-cms",
   ],
 };
+
+/** ES overlay for bitrix-publichnyy-razdel — same structure as RU JSON / EN. */
+export const bitrixPublichnyyRazdelEs: BlogPost = {
+  slug: "bitrix-publichnyy-razdel",
+  title: "Sección pública de 1C-Bitrix: barra de herramientas y modo edición",
+  date: "2017-12-13",
+  category: "Websites",
+  cover: "/images/blog/bitrix-publichnyy-razdel/cover.webp",
+  excerpt:
+    "Cómo funciona la barra de control del área pública de Bitrix: botones, modo edición, áreas include y componentes — sin aferrarse a screenshots de ediciones viejas ni al culto de meta keywords.",
+  lead: [
+    "En 1C-Bitrix, tras iniciar sesión, a menudo aparece una barra de sección pública encima de la página: crear página, editar el menú, limpiar caché, abrir propiedades SEO, activar modo edición.",
+    "Abajo: qué significan los controles principales y cómo editar contenido en el sitio sin perderse en el admin. El set de botones depende de derechos y edición; los nombres de ítems cambiaron — sigue docs actuales de Bitrix, no screenshots de 2017.",
+  ],
+  faq: [
+    {
+      q: "¿Por qué no hay barra de sección pública tras el login?",
+      a: "Sin derechos a la barra pública, otro sitio/dominio o modo de display. Pide a un administrador un rol.",
+    },
+    {
+      q: "¿En qué se diferencia la sección pública de Administration?",
+      a: "Pública — editar con ojos de visitante. Administration — backend completo: infoblocks, módulos, usuarios, settings.",
+    },
+    {
+      q: "¿Es peligroso el modo edición de la sección pública?",
+      a: "En producción con cuidado: un guardado equivocado pega al sitio en vivo. Para ediciones importantes usa derechos, borradores/workflow y backups según las reglas de la empresa.",
+    },
+    {
+      q: "¿El botón SEO sustituye la promoción real?",
+      a: "No. Son campos title/description y pistas. No uses keywords como factor. Los rankings son trabajo aparte.",
+    },
+    {
+      q: "¿Esto está relacionado con el artículo SEO de Bitrix?",
+      a: "Sí, adyacente: aquel cubre robots/meta/módulo; aquí es la barra y las ediciones visuales en el área pública.",
+    },
+  ],
+  sections: [
+    {
+      title: "La barra del área pública",
+      level: 2,
+      paras: [
+        "Tras el login con los permisos adecuados ves un switch tipo Site / Administration a lo largo del header de la página, menús de sección, avisos y acciones para la página actual.",
+        "El set de botones difiere para un editor y un administrador. Si falta algo, a menudo es política de acceso — no está roto.",
+      ],
+      lists: [
+        {
+          intro: "Acciones típicas de la barra:",
+          items: [
+            "crear una página o sección",
+            "editar página / sección",
+            "menú y estructura",
+            "propiedades SEO de la página",
+            "limpiar caché",
+            "modo edición, plantilla, debug (para quienes tienen permiso)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO en 1C-Bitrix",
+          href: "/es/blog/seo-bitrix/",
+        },
+        {
+          label: "Panel de administración del sitio",
+          href: "/es/blog/adminka-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Crear y editar páginas",
+      level: 2,
+      paras: [
+        "Crear página/sección arranca un wizard o un formulario con plantilla. Editar abre el editor visual o propiedades de la entidad — depende del tipo de página y de los settings del sitio.",
+        "La estructura ayuda a mover y borrar nodos del árbol. Antes de borrar, asegúrate de que no haya enlaces necesarios y de que tengas derechos para restaurar desde backup.",
+      ],
+    },
+    {
+      title: "Modo edición",
+      level: 2,
+      paras: [
+        "El modo edición resalta áreas: pasa el cursor por un bloque — aparecen acciones para cambiar área / página / elemento. Así editas un teléfono del header, texto del body o una ficha de producto del catálogo sin cazar la entidad en el admin.",
+        "Tres objetos habituales: área include (chunk compartido en muchas páginas), área de trabajo de la página, área de componente (elemento de infoblock). Un error en un área include se ve en cada página que lo incluye.",
+      ],
+      tables: [
+        {
+          caption: "Qué estás editando",
+          headers: ["Objeto", "Ejemplo"],
+          rows: [
+            ["Área include", "Teléfono, oferta del footer"],
+            ["Área de trabajo", "Texto de una página ordinaria"],
+            ["Componente / elemento", "Nombre y precio del producto"],
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Los derechos ganan a los botones",
+          kind: "tip",
+          text: "Un editor de catálogo no necesita debug de plantilla ni cambiar la plantilla del sitio. Separa roles — menos roturas accidentales de layout.",
+        },
+      ],
+    },
+    {
+      title: "Caché, campos SEO y más",
+      level: 2,
+      paras: [
+        "Limpiar caché ayuda a ver ediciones frescas si una página se queda atascada. No abuses en prod de alta carga sin entender el impacto.",
+        "El bloque SEO de la barra va de propiedades de la página actual (title, description). No rellenes keywords por suerte. Las stats integradas de Bitrix no sustituyen Yandex Metrica/analytics para marketing — comprueba qué está conectado de verdad en el proyecto.",
+      ],
+      links: [
+        {
+          label: "Instalar Yandex Metrica",
+          href: "/es/blog/metrika-ustanovka/",
+        },
+      ],
+    },
+    {
+      title: "Atajos de teclado",
+      level: 2,
+      paras: [
+        "En settings puedes asignar shortcuts a acciones frecuentes. Vale la pena solo si el equipo los usa de verdad; si no, el ratón y el modo edición bastan.",
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "La barra pública de Bitrix es un flujo rápido de contenido: crear/editar, modo edición de áreas, caché y campos SEO de página. Los settings completos de módulos viven en Administration.",
+        "Las UIs de edición difieren: aprende la lógica de rol y área, no memorices la colocación de iconos de un screenshot de 2017. El login de admin se cubrirá aparte en la cola de migración.",
+      ],
+    },
+  ],
+  closing: [
+    "Inicia sesión con los permisos adecuados, encuentra la barra de sección pública y edita vía modo de área — el contenido de Bitrix cambia más rápido así que cazando formularios en lo profundo del admin.",
+  ],
+  related: [
+    "seo-bitrix",
+    "adminka-sayta",
+    "wordpress-admin",
+    "metrika-ustanovka",
+    "cms-internet-magazina",
+    "uznat-cms",
+  ],
+};

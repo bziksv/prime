@@ -257,3 +257,261 @@ export const regionalnoeSeoEn: BlogPost = {
     "yandeks-vebmaster",
   ],
 };
+
+/** ES overlay for regionalnoe-seo — same structure as RU JSON / EN. */
+export const regionalnoeSeoEs: BlogPost = {
+  slug: "regionalnoe-seo",
+  title: "SEO regional: cómo promover un sitio en mercados locales",
+  date: "2021-03-18",
+  category: "SEO",
+  cover: "/images/blog/regionalnoe-seo/cover.webp",
+  excerpt:
+    "En qué se diferencia el SEO regional del trabajo a escala nacional, cómo fijar señales de región en Webmaster y en el sitio, y cómo llevar dos o tres ciudades sin confusión.",
+  lead: [
+    "El SEO regional apunta a la búsqueda en ciudades y zonas concretas: consultas locales, mapas, contactos y landings de sucursales o zonas de servicio.",
+    "Abajo: en qué se diferencia de la promoción nacional, setup, páginas de ciudad, mapas y errores típicos. La cuota de núcleo en primera página se planifica en meses de trabajo — no con un checkbox de región en un panel.",
+  ],
+  faq: [
+    {
+      q: "¿Basta con fijar la región en Webmaster?",
+      a: "No. Hacen falta contenido, contactos, factores comerciales y a menudo landings aparte. El panel es una señal entre muchas.",
+    },
+    {
+      q: "¿Cómo promover dos o tres ciudades?",
+      a: "Páginas separadas (u otro esquema acordado), copy único y NAP — no copy-paste con buscar/reemplazar el nombre de la ciudad.",
+    },
+    {
+      q: "¿Google también es regional?",
+      a: "Sí — importan la ubicación y las señales locales. Herramientas y mapas difieren; la lógica de localidad + relevancia es la misma.",
+    },
+    {
+      q: "¿Hacen falta reseñas y fichas en mapas?",
+      a: "Para negocio local — a menudo crítico: mapas, directorios, NAP consistente, respuestas a reseñas.",
+    },
+    {
+      q: "¿Un solo texto puede cubrir todas las ciudades?",
+      a: "Mala idea. Refleja servicios reales, casos, direcciones, plazos y condiciones de entrega — no solo cambies el nombre de la ciudad.",
+    },
+    {
+      q: "¿Subdominios (ciudad.sitio.com) o carpetas (/ciudad/)?",
+      a: "Existen ambos. Importan más la unicidad, el vínculo con el sitio principal y evitar plantillas finas que un esquema mágico de URL.",
+    },
+    {
+      q: "¿Y los servicios sin oficina (desplazamiento o delivery)?",
+      a: "Declara la zona de servicio con honestidad; páginas de ciudad solo donde trabajas de verdad. Una dirección falsa duele más que una zona honesta.",
+    },
+    {
+      q: "¿Cuándo esperar resultados?",
+      a: "Preparación de páginas — alrededor de un mes como guía. La cuota de núcleo local en primera página se planifica a 2–6 meses tras el inicio del trabajo — sin garantía de fecha.",
+    },
+  ],
+  sections: [
+    {
+      title: "Región vs escala nacional",
+      level: 2,
+      paras: [
+        "Una consulta nacional es más amplia y competitiva. Una regional trae audiencia cercana, así que a menudo convierte en visita o llamada — y pide keywords distintas: «servicio + ciudad», distritos, metro, delivery en la zona.",
+        "La localidad no es una palabra en el title; es un paquete de señales: presencia real o zona de servicio, página de sucursal, contactos, mapas, reseñas y condiciones claras para esa ciudad.",
+      ],
+      lists: [
+        {
+          intro: "Qué refuerza la región:",
+          items: [
+            "dirección y teléfono en el sitio",
+            "página de contactos / sucursal",
+            "casos locales y condiciones de entrega",
+            "presencia en mapas y directorios",
+            "reseñas con respuesta del dueño",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Google Business Profile",
+          href: "/es/blog/google-biznes/",
+        },
+      ],
+    },
+    {
+      title: "Keywords y factores comerciales",
+      level: 2,
+      paras: [
+        "Arma un set de keywords por ubicación: no solo «servicio + ciudad», también distritos, «cerca de mí» y wording de marca local. Agrupa para que una landing mapee a una intención principal ciudad/servicio — sin canibalización entre sucursales.",
+        "En SERPs locales, los factores comerciales a menudo ganan a un párrafo más: señales de precio, opciones de pago, garantías, fotos del local, horario y quién toma el pedido.",
+      ],
+      lists: [
+        {
+          intro: "Al núcleo y a la página:",
+          items: [
+            "servicio + ciudad / distrito",
+            "entrega y plazos por zona",
+            "diferencias entre sucursales (si las hay)",
+            "nada de «atendemos todas las ciudades del país» falso en una página",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Investigación de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Canibalización de keywords",
+          href: "/es/blog/kannibalizatsiya-zaprosov/",
+        },
+      ],
+    },
+    {
+      title: "Cómo fijar región y sitio",
+      level: 2,
+      paras: [
+        "Fija la región en Yandex Webmaster donde aplique y alíneala con el negocio real — no «Moscú» si solo sirves la región. Construye landings, revisa bloques comerciales y separa la analítica por ciudad cuando haga falta.",
+        "La preparación — técnica, estructura, contactos, copy y CTAs — suele llevar alrededor de un mes. Eso es arrancar el trabajo, no una promesa de rankings al instante.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de setup:",
+          items: [
+            "NAP idéntico en sitio, mapas y directorios",
+            "región en Webmaster alineada con la realidad",
+            "copy de ciudad único",
+            "snippets locales sin keyword stuffing",
+            "goals / llamadas separables por ciudad",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Yandex Webmaster",
+          href: "/es/blog/yandeks-vebmaster/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Preparación de páginas regionales — semanas. La cuota de núcleo de ciudad en primera página se planifica a 2–6 meses tras el inicio de la promoción.",
+        },
+      ],
+    },
+    {
+      title: "Páginas de ciudad y sucursal",
+      level: 2,
+      paras: [
+        "Una página aparte tiene sentido cuando la ciudad tiene una diferencia real: oficina, equipo, zona de entrega, surtido, casos o precios. El usuario debería encontrar más que un topónimo auto-reemplazado.",
+        "Pon NAP en forma consistente, cómo llegar, horario y un CTA claro. Esos detalles deben coincidir con los mapas. No crees docenas de URLs finas para cada pueblo que nunca visitas.",
+      ],
+      lists: [
+        {
+          intro: "Qué va en la landing:",
+          items: [
+            "contactos reales",
+            "servicios y condiciones para la ciudad",
+            "casos o reseñas locales",
+            "foto / mapa",
+            "formulario o teléfono clicable",
+          ],
+        },
+      ],
+      tables: [
+        {
+          caption: "Cuándo hace falta una página aparte",
+          headers: ["Situación", "Decisión"],
+          rows: [
+            ["Oficina / almacén en la ciudad", "Página aparte + mapa"],
+            ["Entrega / visitas in situ regulares", "Página de zona con condiciones"],
+            [
+              "Pedido puntual desde una zona cercana",
+              "No crees una URL por la keyword",
+            ],
+            ["Red de 2–3 sucursales", "Una página cada una + control NAP compartido"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Mapas, directorios y reseñas",
+      level: 2,
+      paras: [
+        "En muchos nichos, los clics del local pack y las fichas de mapa importan tanto como los resultados orgánicos clásicos. Crea y verifica perfiles; mantén horario, fotos y respuestas a reseñas al día.",
+        "Un NAP consistente gana a un directorio más. Desajustes de dirección y teléfono entre sitio y mapa erosionan confianza y dañan la visibilidad local.",
+      ],
+      lists: [
+        {
+          intro: "Esenciales locales:",
+          items: [
+            "Yandex Maps / Google Business Profile (según audiencia)",
+            "2GIS y directorios de nicho — por vertical",
+            "pide una reseña tras un trato exitoso",
+            "responde a negativos sin escalar",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Reseñas para ventas",
+          href: "/es/blog/otzyvy-dlya-prodazh/",
+        },
+      ],
+    },
+    {
+      title: "Qué evitar",
+      level: 2,
+      paras: [
+        "Evita direcciones falsas, páginas doorway «ciudad1…ciudad50», texto oculto con listas de ciudades y plantillas finas. Las SERPs locales premian utilidad — no una oficina simulada.",
+        "No prometas primera página en cada región tras un toggle del panel. Los rankings crecen mes a mes; el horizonte planificado para un núcleo es 2–6 meses tras el inicio de la promoción.",
+      ],
+      lists: [
+        {
+          intro: "Banderas rojas:",
+          items: [
+            "dirección de checkbox sin oficina",
+            "copy-paste con cambio de ciudad",
+            "promesas de primera página en todas las regiones a la vez",
+            "indexar miles de URLs de filtro como «distritos»",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+      ],
+    },
+    {
+      title: "Medir la demanda local",
+      level: 2,
+      paras: [
+        "Sigue no solo rankings sino llamadas, leads, indicaciones en el mapa y calidad del lead. Asigna goals y tagging por ciudad para que la demanda no sea un blob de «orgánico».",
+        "Revisa SERPs con ubicación y dispositivo en mente. Compara clusters e inquiries en el tiempo — no una frase en un día.",
+      ],
+      lists: [
+        {
+          intro: "Métricas del informe por ciudad:",
+          items: [
+            "visibilidad del núcleo",
+            "tráfico de la landing",
+            "leads y llamadas",
+            "conversión de la página",
+            "dinámica de la ficha en mapas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Goals en Yandex Metrica",
+          href: "/es/blog/metrika-tseli/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "semanticheskoe-yadro",
+    "google-biznes",
+    "otzyvy-dlya-prodazh",
+    "samostoyatelnoe-seo",
+    "kannibalizatsiya-zaprosov",
+    "yandeks-vebmaster",
+  ],
+};

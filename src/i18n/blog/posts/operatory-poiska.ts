@@ -241,3 +241,245 @@ export const operatoryPoiskaEn: BlogPost = {
     "analiz-konkurentov",
   ],
 };
+
+/** ES overlay for operatory-poiska — same structure as RU JSON / EN. */
+export const operatoryPoiskaEs: BlogPost = {
+  slug: "operatory-poiska",
+  title: "Operadores de búsqueda en SEO",
+  date: "2020-03-03",
+  category: "SEO",
+  cover: "/images/blog/operatory-poiska/cover.webp",
+  excerpt:
+    "Cómo usar operadores de Google y Yandex en SEO: site:, intitle:, inurl:, filetype: y combos — para índice, duplicados e investigación, sin comandos «mágicos» obsoletos.",
+  lead: [
+    "Los operadores (lenguaje de consulta) afinan resultados: páginas de un sitio, una palabra en el title, un PDF, una frase exacta. Para SEO es un corte manual rápido del índice y de competidores — más lento que un API/crawler, pero sin suscripción.",
+    "Abajo: sintaxis, operadores que funcionan y escenarios — checks de índice, duplicados, archivos, linking. Algunos comandos viejos de Google se debilitaron o desaparecieron (`related:`, el comportamiento de `cache:`) — verifica siempre en la SERP en vivo. Esto no sustituye una auditoría y no es un botón de primera página.",
+  ],
+  faq: [
+    {
+      q: "¿site: muestra cada página indexada?",
+      a: "No — es una muestra. El número en la cabecera de la SERP es una estimación. Para completitud usa Webmaster / Search Console y un crawler.",
+    },
+    {
+      q: "¿cache: sigue funcionando?",
+      a: "El comportamiento ha cambiado; más fiable es la fecha de crawl en paneles de webmaster y copias guardadas donde existan.",
+    },
+    {
+      q: "¿En qué se diferencia Yandex de Google?",
+      a: "El set de operadores es más estrecho y la sintaxis difiere. Las ideas básicas (site, frase exacta, filetype) son parecidas — revisa la Ayuda de Yandex.",
+    },
+    {
+      q: "¿Se pueden combinar operadores?",
+      a: "Sí: `site:example.com intitle:\"delivery\" -cart`. Cuida espacios/comillas; prueba consultas cortas.",
+    },
+    {
+      q: "¿related: sirve para encontrar donors de enlaces?",
+      a: "El operador es inestable/debilitado. Para sitios, prefiere búsqueda temática, outreach y herramientas de backlinks.",
+    },
+    {
+      q: "¿Usar operadores de búsqueda es legal?",
+      a: "Sí para investigar SERPs públicas de tu sitio y de otros. No uses operadores como tapadera de hacking, scraping contra reglas o spam.",
+    },
+    {
+      q: "¿Para qué operadores si tienes Screaming Frog?",
+      a: "Un crawler ve tu HTML. Los operadores muestran lo que ya está en el índice de búsqueda — un corte distinto.",
+    },
+    {
+      q: "¿Los operadores de búsqueda suben rankings?",
+      a: "No. Son diagnóstico. Los arreglos y el contenido van aparte; la cuota de primera página del núcleo se planifica a 2–6 meses tras el arranque del trabajo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo funciona la sintaxis",
+      level: 2,
+      paras: [
+        "Forma típica: `operator:value` sin espacio tras los dos puntos. Frase exacta — entre comillas. El menos `-word` excluye un término. Paréntesis y `OR` agrupan alternativas (en Google importa mayúsculas/minúsculas de `OR`).",
+        "Combina con cuidado: primero una consulta simple, luego afina. Si no hay resultados — quita un operador extra y revisa typos.",
+      ],
+      lists: [
+        {
+          intro: "Movimientos básicos:",
+          items: [
+            "`\"frase exacta\"`",
+            "`-minusword`",
+            "`OR` / `|` para alternativas",
+            "`*` como comodín (donde aún funciona)",
+            "paréntesis para agrupar",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Un espacio tras `site:` o comillas tipográficas en vez de rectas — la consulta se rompe.",
+        },
+      ],
+    },
+    {
+      title: "Operadores clave de Google para SEO",
+      level: 2,
+      paras: [
+        "`site:` — páginas de dominio/ruta en resultados. `intitle:` / `allintitle:` — palabra o frase en el title. `inurl:` / `allinurl:` — en la URL. `intext:` / `allintext:` — en el cuerpo (más ruidoso).",
+        "`filetype:pdf` (y otros) — búsqueda de archivos. `before:` / `after:` — límites de fecha del documento (donde se soporta). Precios vía `$` — un caso estrecho e inestable, casi sin uso para tiendas RU.",
+      ],
+      tables: [
+        {
+          caption: "Set habitual",
+          headers: ["Operador", "Para qué en SEO"],
+          rows: [
+            ["site:", "Corte de índice de un dominio/sección"],
+            ["intitle:", "Páginas con una clave en el title"],
+            ["inurl:", "URLs bonitas, filtros, parámetros"],
+            ["filetype:", "PDF/DOC en el índice"],
+            ["\"…\"", "Exact match / duplicados de texto"],
+            ["-word", "Quitar ruido en resultados"],
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Actualidad",
+          kind: "tip",
+          text: "La lista de comandos de Google se ha reducido durante años. No copies «42 operadores» de guías viejas sin comprobar.",
+        },
+      ],
+    },
+    {
+      title: "Yandex: qué usar",
+      level: 2,
+      paras: [
+        "Yandex también tiene refinadores de consulta (site, filetype, frase exacta y más), pero el set y los detalles difieren. Para un proyecto RU revisa ambas vías: `site:` en Google ≠ el cuadro completo de Yandex.",
+        "Los conteos de índice son más fiables en Yandex Webmaster. Los operadores son un check manual rápido tras releases.",
+      ],
+      lists: [
+        {
+          intro: "Práctica para RU:",
+          items: [
+            "corte site: en ambos buscadores",
+            "Webmaster + GSC como fuentes de verdad",
+            "Ayuda de Yandex sobre lenguaje de consulta — antes de operadores raros",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Soporte de Yandex",
+          href: "/es/blog/podderzhka-yandeks/",
+        },
+        {
+          label: "Google Search Console",
+          href: "/es/blog/google-search-console/",
+        },
+      ],
+    },
+    {
+      title: "Escenarios: índice, duplicados, archivos",
+      level: 2,
+      paras: [
+        "Tras lanzar una sección: `site:example.com/catalog/` — ¿están las URLs en resultados? Sospecha de titles duplicados: `site:example.com intitle:\"mismo heading\"`. Una cita exacta entre comillas ayuda a encontrar copias de texto.",
+        "PDFs/listas de precios de más: `site:example.com filetype:pdf`. Rutas de utilidad en el índice: `site:example.com inurl:session` o `inurl:sort=` — motivo para cerrar/pegar filtros.",
+      ],
+      lists: [
+        {
+          intro: "Checks prácticos:",
+          items: [
+            "la sección nueva aparece en resultados",
+            "no hay un montón de titles duplicados",
+            "carrito/cuenta no indexados",
+            "archivos de más no se quedan en la búsqueda",
+            "www y non-www no duplican (tras pegar)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Páginas duplicadas",
+          href: "/es/blog/dubli-stranits/",
+        },
+        {
+          label: "Cerrar a la indexación",
+          href: "/es/blog/zakrytie-ot-indeksatsii/",
+        },
+      ],
+    },
+    {
+      title: "Escenarios: competidores y contenido",
+      level: 2,
+      paras: [
+        "`site:competitor.com intitle:review` — qué formatos de contenido tienen indexados. Ideas de estructura, no copy-paste. Para enlazado interno en tu sitio, encuentra URLs fuertes con `site:` + una clave y enlaza a propósito.",
+        "Cazar sitios guest vía `inurl:guest-post` es ruidoso y a menudo lleva a spam de enlaces. Prefiere outreach temático y medios vivos.",
+      ],
+      lists: [
+        {
+          intro: "Límites éticos:",
+          items: [
+            "investigar la SERP pública",
+            "no scrapear de forma agresiva contra las reglas",
+            "no cazar «agujeros» para hacking",
+            "no armar estrategia sobre operadores muertos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Análisis de competidores",
+          href: "/es/blog/analiz-konkurentov/",
+        },
+        {
+          label: "Outreach",
+          href: "/es/blog/autrich/",
+        },
+      ],
+    },
+    {
+      title: "Límites y lugar en el proceso",
+      level: 2,
+      paras: [
+        "Los resultados están personalizados y topeados. Los operadores no sustituyen un crawler, logs y paneles de webmaster. Úsalos como chuleta en auditorías y tras releases.",
+        "Encontraste un problema con un operador — arréglalo con canonical, 301, robots/meta, contenido. La preparación del fix — días/semanas; el crecimiento de visibilidad del núcleo — de mes a mes.",
+      ],
+      lists: [
+        {
+          intro: "Checklist tras un check:",
+          items: [
+            "anota la consulta y un screenshot",
+            "cruza con Webmaster/GSC",
+            "abre un ticket de fix",
+            "vuelve a correr site:/intitle: tras el arreglo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Screaming Frog",
+          href: "/es/blog/screaming-frog/",
+        },
+        {
+          label: "Tag canonical",
+          href: "/es/blog/kanonicheskiy-teg/",
+        },
+        {
+          label: "Software SEO",
+          href: "/es/blog/programmy-seo/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Diagnóstico con operadores ≠ primera página. La cuota de primera página del núcleo es un horizonte aparte tras el trabajo.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "dubli-stranits",
+    "kanonicheskiy-teg",
+    "zakrytie-ot-indeksatsii",
+    "screaming-frog",
+    "google-search-console",
+    "analiz-konkurentov",
+  ],
+};

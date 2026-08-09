@@ -199,3 +199,203 @@ export const reklamaVPablikahVkEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for reklama-v-pablikah-vk — same structure as RU JSON / EN. */
+export const reklamaVPablikahVkEs: BlogPost = {
+  slug: "reklama-v-pablikah-vk",
+  title: "Ads en comunidades de VKontakte: cómo elegir la página y colocar un post",
+  date: "2022-01-25",
+  category: "SMM",
+  cover: "/images/blog/reklama-v-pablikah-vk/cover.webp",
+  excerpt:
+    "Cómo hacer ads vía comunidades de VK: encaje de audiencia, elegir páginas, chequeos de bots y engagement rate, el post en sí, comentarios y medir resultados.",
+  lead: [
+    "Ads en comunidades de VKontakte significa colocar un post en comunidades ajenas (o propias). Funciona cuando das con la audiencia correcta y eliges una comunidad viva — no un cementerio de bots.",
+    "Los dashboards y marketplaces de VK se actualizan a menudo. Abajo: el orden de acciones y criterios de selección, sin atarte a botones de UI obsoletos.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia una colocación en comunidad del targeting de pago?",
+      a: "Una colocación pone el post ante la audiencia de una comunidad concreta. El targeting corre ads por segmentos en la cuenta de ads. A menudo se usan juntos.",
+    },
+    {
+      q: "¿Cómo saber que una comunidad tiene muchos bots?",
+      a: "Perfiles muertos o abandonados, engagement rate anormal, picos bruscos de unfollow, comentarios idénticos. Las herramientas ayudan, pero también lee el feed tú mismo.",
+    },
+    {
+      q: "¿Qué importa más — el conteo de followers o el alcance del post?",
+      a: "Alcance y reacción en posts recientes. Una base grande y muerta no sirve.",
+    },
+    {
+      q: "¿Con quién contacto para la colocación?",
+      a: "El admin de la comunidad o vía un marketplace/plataforma de ads de VK — lo que use esa página.",
+    },
+    {
+      q: "¿Cómo mido resultados?",
+      a: "UTM o código promo, leads, coste por consulta, calidad de comentarios. No solo likes bajo el post del ad.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cuándo tienen sentido los ads en comunidades",
+      level: 2,
+      paras: [
+        "El formato encaja cuando tu audiencia está en comunidades temáticas: negocio local, hobbies, servicios B2C, eventos.",
+        "Si la audiencia está dispersa o necesitas control estrecho de pujas — planifica targeting en paralelo. Las colocaciones en comunidades calientan bien y añaden contexto social.",
+      ],
+    },
+    {
+      title: "Audiencia objetivo",
+      level: 2,
+      paras: [
+        "Arma un retrato: género, edad, geo, intereses, dolor, qué han probado ya. Un segmento claro gana a «todo el mundo».",
+        "Encuestas, reseñas, investigación en foros y herramientas de audiencia (el set cambia) ayudan a afinar intereses.",
+      ],
+      lists: [
+        {
+          intro: "Antes de elegir comunidades, responde:",
+          items: [
+            "quién debería ver el post",
+            "qué acción quieres",
+            "qué presupuesto de test tienes",
+            "qué temas de comunidad solapan la oferta",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo armar el shortlist de comunidades",
+      level: 2,
+      paras: [
+        "Arma una lista larga: búsqueda de VK por tema, recomendaciones, listas de la cuenta o del marketplace, herramientas de búsqueda de comunidades.",
+        "Luego shortlist con cinco chequeos: encaje de audiencia, actividad, bots, alcance, otros ads.",
+      ],
+      lists: [
+        {
+          intro: "Revisión rápida de la comunidad:",
+          items: [
+            "stats: género/edad/ciudad encajan con el segmento",
+            "engagement rate: likes, comentarios, shares en posts regulares",
+            "cuota de bots moderada (no una base muerta inflada)",
+            "alcance de posts recientes encaja con el tamaño",
+            "el feed no está saturado de ads de competidores en cada post",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Tomar la página más grande de la ciudad sin revisar el engagement rate. El alcance del post ahí puede ser más bajo que en una comunidad compacta y viva.",
+        },
+      ],
+      tables: [
+        {
+          caption: "Filtro de comunidad antes del pago",
+          headers: ["Criterio", "Mira", "Señal de stop"],
+          rows: [
+            [
+              "Audiencia",
+              "Género/edad/geo en stats",
+              "Ciudad/edad equivocadas sin solape",
+            ],
+            [
+              "Actividad",
+              "Comentarios bajo posts regulares",
+              "Silencio pese a un alcance «ruidoso»",
+            ],
+            ["Bots", "Chequeo de base + feed", "Cuentas muertas en masa"],
+            ["Ads", "Densidad de posts de ads", "Cada post es una colocación de pago"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo colocar el ad",
+      level: 2,
+      paras: [
+        "Dos caminos: directo al admin o vía marketplace/herramientas de VK para ads en comunidades. Confirma formato (post / reshare / pin), fecha, moderación de comentarios y qué incluye el precio.",
+      ],
+      lists: [
+        {
+          intro: "Fija por escrito con el admin:",
+          items: [
+            "copy y creative (o brief)",
+            "fecha y hora",
+            "si hace falta un comentario de la comunidad",
+            "si puedes responder bajo el post",
+            "cómo recibirás stats de alcance",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Comentarios en una comunidad de VKontakte",
+          href: "/es/blog/kommentarii-v-pablike-vk/",
+        },
+      ],
+    },
+    {
+      title: "Cómo escribir el post",
+      level: 2,
+      paras: [
+        "En una comunidad ajena la gente hojea: primera línea — beneficio, luego hechos, luego la petición. Visual limpio, sin texto diminuto en la imagen.",
+      ],
+      lists: [
+        {
+          intro: "Marco del post de ad:",
+          items: [
+            "gancho bajo el dolor o deseo de la audiencia",
+            "qué ofreces y para quién",
+            "prueba (cifra, deadline, términos)",
+            "CTA: mensaje / clic / visita",
+            "contactos o un enlace corto",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Comentarios y follow-up",
+      level: 2,
+      paras: [
+        "Tras publicar el post, mira comentarios: responde preguntas, mata spam, no discutas con toxicidad. Acuerda con el admin quién modera la basura.",
+      ],
+      lists: [
+        {
+          intro: "En las primeras horas:",
+          items: [
+            "responder aclaraciones de precio o entrega",
+            "fijar una reply útil si es posible",
+            "guardar screenshots de stats",
+            "etiquetar leads en CRM o una hoja",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Resultados y presupuesto",
+      level: 2,
+      paras: [
+        "Cuenta el coste por la acción deseada, no los likes. Compara comunidades con la misma oferta y creative.",
+        "Los precios de colocación dependen del alcance, nicho y ciudad — pide tarifas y un presupuesto de test en dos o tres colocaciones antes de escalar.",
+      ],
+      lists: [
+        {
+          intro: "Mini informe tras una colocación:",
+          items: [
+            "alcance y engagement rate del post",
+            "clics / leads / coste",
+            "calidad del diálogo en comentarios",
+            "decisión: repetir, cambiar creative o cambiar de comunidad",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SMM manager: responsabilidades",
+          href: "/es/blog/menedzher-smm/",
+        },
+      ],
+    },
+  ],
+};

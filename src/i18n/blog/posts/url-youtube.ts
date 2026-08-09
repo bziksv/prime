@@ -138,3 +138,142 @@ export const urlYoutubeEn: BlogPost = {
     "strayk-youtube",
   ],
 };
+
+/** ES overlay for url-youtube — same structure as RU JSON / EN. */
+export const urlYoutubeEs: BlogPost = {
+  slug: "url-youtube",
+  title: "URL del canal de YouTube: cómo hacer un enlace legible",
+  date: "2020-11-18",
+  category: "SMM",
+  cover: "/images/blog/url-youtube/cover.webp",
+  excerpt:
+    "En qué se diferencia una dirección corta del canal de un ID, qué condiciones suele poner YouTube y cómo cambiar el enlace sin capturas obsoletas — con una nota sobre @handles y límites de cambio.",
+  lead: [
+    "En lugar de un ID largo de canal, un enlace corto y legible es más fácil: más simple de dictar, poner en una tarjeta y en headers de redes. En YouTube esto fue históricamente una «custom URL»; hoy es más habitual el formato @handle.",
+    "Abajo: por qué ayuda un enlace corto, condiciones típicas de acceso y la lógica de cambiarlo. Los menús de Studio y los umbrales (subscribers, antigüedad del canal) han cambiado — consulta YouTube Help. No copiamos capturas viejas de «gear → Advanced» como guía 1:1.",
+  ],
+  faq: [
+    {
+      q: "¿Es lo mismo que un @handle en la sección about?",
+      a: "Relacionado: la dirección corta del canal y el handle público forman parte de la identidad. Los nombres exactos de campos viven en el Studio actual.",
+    },
+    {
+      q: "¿Cuántas veces se puede cambiar?",
+      a: "Hubo y hay límites: a menudo se hablaba de unos pocos cambios por periodo. No planifiques un rebrand mensual de URL.",
+    },
+    {
+      q: "¿Se romperá el enlace antiguo?",
+      a: "Suele ser que las URLs anteriores del canal siguen abriendo el canal. Aun así conviene actualizar las superficies clave a la nueva dirección.",
+    },
+    {
+      q: "¿Por qué no aparece el ítem de cambiar URL?",
+      a: "No se cumplen las condiciones, la UI se movió o la función está en otro sitio (profile / channel settings). Revisa Studio y Help.",
+    },
+    {
+      q: "¿Puedes elegir cualquier handle?",
+      a: "No: disponibilidad, reglas de marca y caracteres permitidos. A veces el sistema sugiere opciones a partir de datos del perfil.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué una URL corta",
+      level: 2,
+      paras: [
+        "Una dirección legible refuerza la marca: `youtube.com/@brand` es más fácil que una cadena `channel/UC…`. No sustituye el contenido ni el SEO de vídeo, pero baja la fricción al compartir.",
+        "Para negocio mantén una dirección canónica en todas partes: sitio, tarjeta, firma de email, ads.",
+      ],
+      links: [
+        {
+          label: "Descripción del canal de YouTube",
+          href: "/es/blog/opisanie-youtube-kanala/",
+        },
+        {
+          label: "Promoción en YouTube",
+          href: "/es/blog/raskrutka-youtube/",
+        },
+      ],
+    },
+    {
+      title: "Condiciones típicas de acceso",
+      level: 2,
+      paras: [
+        "Históricamente YouTube abría una custom URL tras una «madurez» básica del canal: número de subscribers, antigüedad de la cuenta, avatar/banner y descripción puestos. Los umbrales exactos cambiaron — la guía vieja de «100 subscribers / 30 days» puede ya no aplicar.",
+        "Si el ítem falta, termina primero el branding y la actividad del canal, luego revisa los requisitos actuales en Help.",
+      ],
+      lists: [
+        {
+          intro: "Antes de cambiar, revisa:",
+          items: [
+            "avatar y banner siguen las reglas",
+            "existe descripción del canal",
+            "la cuenta está en buen estado (sin hard strikes ni límites duros)",
+            "el handle deseado está libre y es pronunciable",
+            "has planificado los límites de cambios repetidos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          text: "No te prometas «cualquier handle en un minuto». A menudo te dan opciones sugeridas o un handle con restricciones.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Cómo cambiar: lógica, no una captura de 2020",
+      level: 2,
+      paras: [
+        "Abre YouTube Studio → channel settings / profile y busca el bloque de URL, custom name o @handle. Elige una opción disponible y confirma las reglas.",
+        "Difundir la nueva dirección puede tardar desde unos minutos hasta una pausa notable. Mientras actualizas enlaces externos, la dirección antigua suele seguir funcionando.",
+      ],
+      links: [
+        {
+          label: "Avatar de YouTube",
+          href: "/es/blog/avatar-youtube/",
+        },
+      ],
+    },
+    {
+      title: "Si las opciones son pocas o raras",
+      level: 2,
+      paras: [
+        "A veces el sistema sugiere combos de nombre, marca o sufijos. Actualizar el nombre del canal, el sitio en el perfil y datos clave puede más tarde desbloquear otras opciones — sin timeline garantizado de día o semana.",
+        "No tires enlaces externos que funcionan hasta que el nuevo canon esté fijado. Si la función no está disponible pese a cumplir condiciones — contactar a support es razonable.",
+      ],
+    },
+    {
+      title: "Matices tras el cambio",
+      level: 2,
+      paras: [
+        "Las URLs antiguas a menudo siguen válidas — bien para el historial de enlaces, mal si quieres olvidar el nombre viejo. Cierra el rebrand actualizando sitio, tarjetas y creatividades de ads.",
+        "Una dirección corta no sube algoritmos por sí sola. El crecimiento viene de vídeos, retention y encaje de tema/keywords — ver piezas relacionadas.",
+      ],
+      links: [
+        {
+          label: "Keywords para YouTube",
+          href: "/es/blog/kluchi-youtube/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Una URL corta o @handle es sobre comodidad y marca. Condiciones y menús cambian; los límites de cambio son reales.",
+        "Consulta YouTube Help, elige una opción pronunciable y sincronízala en todas partes donde viva el enlace del canal.",
+      ],
+    },
+  ],
+  closing: [
+    "Revisa los requisitos actuales en Studio, elige una dirección legible y actualízala en el sitio y perfiles sociales — para que el enlace deje de ser un cifrado de ID.",
+  ],
+  related: [
+    "opisanie-youtube-kanala",
+    "raskrutka-youtube",
+    "kluchi-youtube",
+    "avatar-youtube",
+    "montazh-youtube",
+    "strayk-youtube",
+  ],
+};

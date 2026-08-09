@@ -1,5 +1,123 @@
 import type { BlogPost } from "../../../data/blog";
 
+/** ES overlay for vybor-domena — same structure as RU JSON. */
+export const vyborDomenaEs: BlogPost = {
+  slug: "vybor-domena",
+  title: "Cómo elegir el nombre de dominio para tu sitio",
+  date: "2017-01-25",
+  category: "Digital marketing",
+  cover: "/images/blog/vybor-domena/cover.webp",
+  excerpt:
+    "Cómo elegir un dominio: zona (.ru y otras), unicidad, región en el nombre, brevedad y claridad al dictarlo, qué palabras usar y por qué conviene dejar el dominio en el registrador — no solo en el host.",
+  lead: [
+    "El dominio se elige pocas veces — y se convive con él años. Un buen nombre se dice, se recuerda y se escribe fácil; uno malo se confunde con competidores o se olvida tras un anuncio outdoor.",
+    "Abajo: criterios prácticos — zona, unicidad, región, longitud y cómo sobrevive a una llamada. Los niveles de TLD y el SEO de zona van aparte; los pasos de pago en el registrador están en la guía de registro.",
+  ],
+  faq: [
+    {
+      q: "¿Qué zona para audiencia rusa?",
+      a: "Lo más habitual es `.ru` o `.рф` para tráfico local. Los gTLD exóticos encajan mejor en promos que como única dirección principal.",
+    },
+    {
+      q: "¿Registrar en el host?",
+      a: "Se puede, pero un registrador aparte es más fácil: cambias de hosting después sin perder el control del nombre.",
+    },
+    {
+      q: "¿Debe el dominio incluir una región?",
+      a: "Ayuda si trabajas en una ciudad o zona. El contras — con crecimiento nacional el nombre puede quedar estrecho.",
+    },
+    {
+      q: "¿Hace falta una keyword en el dominio?",
+      a: "No. Una marca clara gana a un exact-match largo con guiones.",
+    },
+    {
+      q: "¿Los guiones valen?",
+      a: "Mejor sin ellos — la gente a menudo se salta el guion al escribir. Si la versión sin guion está cogida, sopesa el riesgo de confusión.",
+    },
+    {
+      q: "¿Varios dominios para un sitio?",
+      a: "Sí: uno corto para ads más un nombre corporativo de marca, con 301 al canónico.",
+    },
+    {
+      q: "¿Mezclar ruso e inglés en el nombre?",
+      a: "Elige una transliteración o lógica de idioma para que la gente no adivine al escribir.",
+    },
+  ],
+  sections: [
+    {
+      title: "Zona y hábito de la audiencia",
+      level: 2,
+      paras: [
+        "Para negocio en Rusia, `.ru` y `.рф` son familiares. Los gTLD temáticos nuevos encajan en campañas, pero como dirección principal a menudo cuestan más de recordar.",
+        "Si la audiencia es más amplia que la CEI — mira `.com` o ccTLD locales a propósito, no «porque está gratis».",
+      ],
+      links: [
+        {
+          label: "Dominio de primer nivel",
+          href: "/es/blog/domen-pervogo-urovnya/",
+        },
+        {
+          label: "Dominio .рф",
+          href: "/es/blog/domen-rf/",
+        },
+      ],
+    },
+    {
+      title: "Unicidad y confusiones con competidores",
+      level: 2,
+      paras: [
+        "Un nombre como el de los vecinos del nicho — una letra cambiada, o «tech/mech/service» intercambiado — manda leads al sitio equivocado y te cuesta los tuyos.",
+        "Lista los dominios de competidores antes de registrar. Evita espejos con guion de un nombre sin guion ya cogido.",
+      ],
+    },
+    {
+      title: "Nombres cortos que sobreviven a una llamada",
+      level: 2,
+      paras: [
+        "Regla práctica: corto (a menudo hasta ~12 caracteres de segundo nivel), una o dos raíces claras, sin letras raras que se deletreen distinto de oído (w/v, j/y, etc.).",
+        "Test: dicta el nombre a colegas por teléfono. Si discuten la ortografía — simplifica.",
+      ],
+      lists: [
+        {
+          intro: "Checklist del nombre:",
+          items: [
+            "la zona es clara para la audiencia",
+            "no se confunde con competidores",
+            "fácil de dictar",
+            "sin guiones de más",
+            "historial del dominio revisado antes de comprar",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Historial de dominio",
+          href: "/es/blog/istoriya-domena/",
+        },
+        {
+          label: "Registro de dominio",
+          href: "/es/blog/registratsiya-domena/",
+        },
+      ],
+    },
+  ],
+  notes: {
+    title: "Importante",
+    text: "Los ejemplos de tráfico por «zona equivocada» y las UI de registradores son ilustraciones, no cifras garantizadas. Antes de comprar un nombre cogido o secundario, revisa historial y riesgos legales.",
+  },
+  closing: [
+    "Elige un nombre corto y único en una zona familiar, regístralo en un registrador fiable y fija el canónico — para que el dominio ayude al marketing en lugar de convertirse en un acertijo hablado para el cliente.",
+  ],
+  related: [
+    "domen-pervogo-urovnya",
+    "domen-rf",
+    "registratsiya-domena",
+    "istoriya-domena",
+    "redirekt",
+    "pochta-dlya-domena",
+  ],
+};
+
 /** EN overlay for vybor-domena — same structure as RU JSON. */
 export const vyborDomenaEn: BlogPost = {
   slug: "vybor-domena",

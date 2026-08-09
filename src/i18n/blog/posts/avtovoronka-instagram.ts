@@ -152,3 +152,156 @@ export const avtovoronkaInstagramEn: BlogPost = {
     "formy-zahvata",
   ],
 };
+
+/** ES overlay for avtovoronka-instagram — same structure as RU JSON / EN. */
+export const avtovoronkaInstagramEs: BlogPost = {
+  slug: "avtovoronka-instagram",
+  title: "Autofunnel en Instagram: escenario, Direct y límites de política",
+  date: "2020-04-15",
+  category: "Content marketing",
+  cover: "/images/blog/avtovoronka-instagram/cover.webp",
+  excerpt:
+    "Cómo armar un autofunnel en Instagram: perfil, lead magnet, cadena de toques y Direct — sin spam frío, bots grises ni «la conversión crecerá sola».",
+  lead: [
+    "Un autofunnel en Instagram es un camino mapeado: alguien vio contenido o un ad → mostró interés → recibió valor → llegó a un lead o compra. Algunos pasos se pueden automatizar (saludo, recordatorio); las preguntas duras se quedan humanas.",
+    "La lógica básica del embudo está en la pieza general. Aquí: especificidades de la plataforma — perfil, contenido, Direct y qué no hacer. La UI y las auto-respuestas cambian; confía en el escenario y las reglas, no en capturas de 2020.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia de un autofunnel general?",
+      a: "El mismo esquema (toque → calentamiento → oferta). En Instagram importan más el perfil, Stories/Reels y el diálogo en Direct; una cadena de email es opcional.",
+    },
+    {
+      q: "¿Se puede disparar una oferta a todos los followers en Direct?",
+      a: "El spam masivo en frío rompe las reglas y molesta. Escribe a quienes iniciaron el chat o optaron con claridad bajo el ToS.",
+    },
+    {
+      q: "¿Hacen falta «autofunnels» de terceros con mass liking?",
+      a: "No los recomendamos. El riesgo de límites y restricciones supera el upside. Usa solo herramientas dentro de las reglas de la plataforma.",
+    },
+    {
+      q: "¿A qué negocios encaja?",
+      a: "Más a menudo servicios, productos de info y ciclos medios/largos. El e-com de impulso con un catálogo enorme es más difícil de forzar en una sola cadena.",
+    },
+    {
+      q: "¿Son obligatorios lead magnet y tripwire?",
+      a: "No siempre. La demanda caliente puede funcionar con una oferta corta. Una matriz de producto es una herramienta, no un dogma.",
+    },
+    {
+      q: "¿Cuándo hace falta un manager?",
+      a: "Cuanto más caro y complejo el deal — más temprano. La automatización no sustituye una consultoría.",
+    },
+    {
+      q: "¿Por dónde empezar?",
+      a: "Mapa del camino y medición de drop-off → perfil y CTA claros → escenario de Direct/contenido → test con poco tráfico.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué un embudo en Instagram",
+      level: 2,
+      paras: [
+        "Corta la pérdida de leads entre «dio like» y «escribió». Compra tiempo de calentamiento cuando la decisión no es impulso.",
+        "No «ads ocultos que el cliente no nota» — un camino útil y honesto hacia la oferta. La manipulación sin valor mata la confianza.",
+      ],
+      links: [
+        {
+          label: "Autofunnel: básicos",
+          href: "/blog/avtovoronka/",
+        },
+      ],
+    },
+    {
+      title: "Prep del perfil",
+      level: 2,
+      paras: [
+        "Cuenta profesional, avatar y nombre claros, bio «quién / para quién / qué hacer después», contactos y un enlace.",
+        "Un estilo de feed coherente y contenido regular ganan a un «header perfecto». Sin tráfico y toques el embudo está vacío.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo antes del lanzamiento:",
+          items: [
+            "un CTA claro en la bio o un post fijado",
+            "un post/Story con términos de entrega/pago si aplica",
+            "un escenario de primera respuesta en Direct",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Cuenta business en Instagram",
+          href: "/es/blog/biznes-akkaunt-instagram/",
+        },
+        {
+          label: "Diseño de página",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Etapas y matriz de producto",
+      level: 2,
+      paras: [
+        "Clásico: lead magnet (valor a cambio de contacto / opt-in al chat) → oferta de entrada asequible → producto núcleo → upsell. Entre pasos — contenido útil, no solo «compra».",
+        "Plazos tipo «producto principal exactamente a las dos semanas» son guías de esquemas antiguos, no ley. Mira el comportamiento del segmento y los tests.",
+      ],
+      notes: [
+        {
+          title: "Si el cliente se atasca",
+          kind: "tip",
+          text: "Una cadena extra encaja con motivación honesta (descuento, demo, pieza de contenido) — no con presión. Frecuencia y tono siguen a unsubscribes y quejas.",
+        },
+      ],
+    },
+    {
+      title: "Direct y automatización",
+      level: 2,
+      paras: [
+        "Escenarios que funcionan: responder a inbound, aclarar un lead tras un ad/Story, entregar material con una keyword — dentro de las reglas.",
+        "No confundas una auto-respuesta de servicio con un blast frío a desconocidos. Más en la pieza de Direct.",
+      ],
+      links: [
+        {
+          label: "Direct sin spam",
+          href: "/blog/instagram-direct/",
+        },
+      ],
+    },
+    {
+      title: "Errores frecuentes",
+      level: 2,
+      paras: [
+        "Una oferta núcleo débil o vaga con un montón de «satélites».",
+        "Contenido por el contenido sin vínculo a la etapa del embudo.",
+        "Apostar por software gris en lugar de escenario y ads.",
+        "Sacar a los humanos del todo en un deal caro.",
+        "Lanzamiento a toda la empresa sin piloto ni métricas por paso.",
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "Mapa del camino y oferta primero, automatización después.",
+        "Direct es servicio para inbound y opt-ins — no un cañón de spam.",
+        "La UI de la plataforma envejece más rápido que el escenario — actualiza pasos; no copies capturas antiguas.",
+      ],
+    },
+  ],
+  closing: [
+    "Esboza 4–5 pasos de tu embudo de Instagram y marca dónde está ahora el drop-off: suele arreglarse el perfil, la primera respuesta en Direct y la claridad de la oferta — no «un bot más».",
+  ],
+  related: [
+    "biznes-akkaunt-instagram",
+    "oformlenie-stranicy-instagram",
+    "reklama-instagram",
+    "formy-zahvata",
+    "biznes-v-instagram",
+    "blog-instagram",
+  ],
+};

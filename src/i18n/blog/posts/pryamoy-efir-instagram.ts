@@ -184,3 +184,188 @@ export const pryamoyEfirInstagramEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for pryamoy-efir-instagram — same structure as RU JSON / EN. */
+export const pryamoyEfirInstagramEs: BlogPost = {
+  slug: "pryamoy-efir-instagram",
+  title: "Directo en Instagram: preparación, emisión y revisión",
+  date: "2022-03-04",
+  category: "SMM",
+  cover: "/images/blog/pryamoy-efir-instagram/cover.webp",
+  excerpt:
+    "Cómo preparar un directo: objetivo, guion, técnica, anuncio, gestión de comentarios y revisión de stats tras el stream.",
+  lead: [
+    "Un directo es cómo muestras el producto, respondes preguntas y das vida a la audiencia en tiempo real. Abajo: preparación, emisión y revisión tras el stream. Los ítems del menú de la app cambian — sigue la Help actual. Ver la nota Meta en esta página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Por dónde empezar con un directo?",
+      a: "Con un objetivo y un guion: qué debe entender o hacer el espectador en 20–40 minutos.",
+    },
+    {
+      q: "¿Hace falta un anuncio?",
+      a: "Sí: tema, hora, beneficio. Sin anuncio llegan espectadores al azar y cae la retención.",
+    },
+    {
+      q: "¿Qué importa más — técnica o guion?",
+      a: "Ambos. Un mal audio mata un stream más rápido que una luz floja; sin guion el stream se desvía.",
+    },
+    {
+      q: "¿Cómo gestiono los comentarios?",
+      a: "Decide de antemano si respondes en vivo; si hace falta, restringe perfiles tóxicos y modera el flujo.",
+    },
+    {
+      q: "¿Qué revisar tras el stream?",
+      a: "Pico de viewers, retención, preguntas del chat, saves/respuestas — y qué mejorar la próxima vez.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué hacer un directo",
+      level: 2,
+      paras: [
+        "El directo cubre lo que un post estático hace mal: una demo en vivo, manejo de objeciones, Q&A, behind the scenes.",
+        "Empieza por el objetivo: ventas, calentamiento, expertise, hiring, soporte al cliente. El objetivo impulsa duración, invitados y CTA.",
+      ],
+      lists: [
+        {
+          intro: "Ejemplos de objetivos:",
+          items: [
+            "mostrar un producto o servicio y responder preguntas",
+            "anunciar un lanzamiento o promo",
+            "entrevistar a un experto",
+            "recorrer un caso o errores de principiante",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Preparación: guion y técnica",
+      level: 2,
+      paras: [
+        "El guion es el timing por bloques: saludo, 2–3 temas, Q&A, CTA final. Ten un plan B si el invitado llega tarde.",
+        "Revisa luz, sonido, fondo, batería e internet. Haz una grabación de prueba en un segundo teléfono.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo antes de salir en vivo:",
+          items: [
+            "objetivo y CTA",
+            "puntos de habla minuto a minuto",
+            "agua, cargador, canal de contacto de respaldo",
+            "quién modera el chat",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "UI de la app",
+          text: "Salir en vivo suele estar cerca de Stories/cámara, pero los iconos se mueven. No entrenes al equipo en «toca el tercer botón a la izquierda» — entrena el checklist de preparación.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Anuncio y audiencia",
+      level: 2,
+      paras: [
+        "Anuncia con antelación: Stories, un post, email, un pin en highlights. Di tema, hora y beneficio.",
+        "Elige la hora según la actividad de tu audiencia (mira insights del perfil), no «cuando el host esté libre».",
+      ],
+    },
+    {
+      title: "Conducir el stream",
+      level: 2,
+      paras: [
+        "Al inicio saluda, reafirma el tema y las reglas del chat. Mira el conteo de viewers y las preguntas, pero no te pases minutos scrolleando el feed en silencio.",
+        "Activa comentarios según el trabajo del stream. En sesiones de negocio ayuda un moderador; restringe perfiles tóxicos de antemano.",
+      ],
+      lists: [
+        {
+          intro: "Cómo sostener la atención:",
+          items: [
+            "ritmo calmado y lenguaje natural",
+            "cambia el plan: mostrar → explicar → preguntar al chat",
+            "bloques cortos en lugar de una charla de 40 minutos",
+            "repite el CTA clave dos o tres veces",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cierre y guardado",
+      level: 2,
+      paras: [
+        "Al final resume takeaways y repite la acción (DM, registro, clic). Los límites de duración y las opciones de guardar dependen de la versión actual de la app — decide de antemano si necesitas un repost o una grabación con cámara externa.",
+      ],
+    },
+    {
+      title: "Directos con co-host",
+      level: 2,
+      paras: [
+        "Un invitado sube el interés cuando trae su propia audiencia y un guion acordado. Alinea roles: quién conduce, quién responde el chat, quién cierra la venta.",
+      ],
+      lists: [
+        {
+          intro: "Antes de un directo compartido:",
+          items: [
+            "objetivo y timing compartidos",
+            "quién modera comentarios",
+            "cómo os presentáis",
+            "CTA compartido al final",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Ideas de temas",
+      level: 2,
+      paras: [
+        "Saca temas de preguntas de clientes y señales de demanda — no del aire.",
+      ],
+      lists: [
+        {
+          intro: null,
+          items: [
+            "respuestas a preguntas frecuentes",
+            "recorrido en vivo del producto",
+            "un día en la oficina / producción",
+            "mini-formación sobre un tema estrecho",
+            "entrevista con un cliente o experto",
+          ],
+        },
+      ],
+      tables: [
+        {
+          caption: "Outline de un directo de 30 minutos",
+          headers: ["Minutos", "Bloque"],
+          rows: [
+            ["0–3", "Saludo y tema"],
+            ["3–12", "Bloque 1 + ejemplo"],
+            ["12–20", "Bloque 2 + demo"],
+            ["20–27", "Preguntas del chat"],
+            ["27–30", "Cierre y CTA"],
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Diseño del perfil de Instagram",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Revisión tras el stream",
+      level: 2,
+      paras: [
+        "Guarda los números: pico de viewers, tiempo medio de visionado, conteo de comentarios, respuesta al CTA. Anota en qué minutos se fueron — ahí hay un agujero en el guion.",
+        "Planifica el siguiente directo como iteración: una hipótesis de mejora (luz, invitado, duración, tema).",
+      ],
+    },
+  ],
+};

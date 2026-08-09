@@ -217,3 +217,221 @@ export const googleSearchConsoleEn: BlogPost = {
     "kanonicheskiy-teg",
   ],
 };
+
+/** ES overlay for google-search-console — same structure as RU JSON / EN. */
+export const googleSearchConsoleEs: BlogPost = {
+  slug: "google-search-console",
+  title: "Google Search Console: qué es y por qué lo necesitas",
+  date: "2020-08-17",
+  category: "SEO",
+  cover: "/images/blog/google-search-console/cover.webp",
+  excerpt:
+    "Qué hace Google Search Console (antes Webmaster Tools): verificar el sitio, enviar un sitemap, leer informes de índice y errores, y revisar queries — sin tratarlo como un interruptor de rankings.",
+  lead: [
+    "Google Search Console (antes Google Webmaster Tools) es un panel gratis que conecta tu sitio con Google Search: indexación, errores de crawl, queries de búsqueda, sitemaps y chequeos de URL.",
+    "Abajo: por qué importa, cómo verificar una property, qué mirar tras el setup y cómo no confundir informes con una garantía de ranking. La UI se mueve; el sentido del informe pesa más que dónde están los botones.",
+  ],
+  faq: [
+    {
+      q: "¿Webmaster Tools y Search Console son lo mismo?",
+      a: "En esencia sí — el nombre viejo pasó a Search Console. Artículos antiguos aún dicen Webmaster.",
+    },
+    {
+      q: "¿Hace falta una cuenta de Google?",
+      a: "Sí. La verificación usa un archivo HTML, meta tag, DNS o un enlace vía Analytics / Tag Manager cuando están conectados.",
+    },
+    {
+      q: "¿Es obligatorio un sitemap?",
+      a: "No es la única vía por la que Google encuentra URLs, pero ayuda mucho en sitios medianos y grandes. Lístalo en robots.txt y en GSC.",
+    },
+    {
+      q: "¿GSC sustituye a Yandex Webmaster?",
+      a: "No. Para una audiencia rusa suele correr ambos paneles.",
+    },
+    {
+      q: "¿Impresiones y clics son lo mismo que rankings?",
+      a: "Son datos de Google Search para tus URLs. La posición media es una guía — no un «nº 1 cada día» exacto.",
+    },
+    {
+      q: "¿Cada cuánto lo reviso?",
+      a: "Tras releases — al momento. En plan, semanal: errores, coverage, queries. No cada hora.",
+    },
+    {
+      q: "¿Qué hace URL Inspection?",
+      a: "Muestra cómo Google ve la página; puedes pedir indexación. No te pone en primera página de la noche a la mañana.",
+    },
+    {
+      q: "¿Avisos de seguridad y malware?",
+      a: "GSC puede marcar hacks e incidencias. Es una pista para investigar — no un ban eterno automático sin revisión.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué importa Search Console",
+      level: 2,
+      paras: [
+        "Ves qué queries traen impresiones y clics, qué URLs están indexadas, dónde aparecen 404s y errores de servidor, cómo se ven la usabilidad móvil y Core Web Vitals (en los informes actuales), y dónde se rompe el markup.",
+        "Sin el panel vuelas a ciegas: el sitio cambió, pero Google no lo ha recogido — o los errores se apilan en silencio.",
+      ],
+      lists: [
+        {
+          intro: "Trabajos típicos:",
+          items: [
+            "verificar ownership de dominio o URL-prefix",
+            "seguir índice y errores",
+            "enviar un sitemap",
+            "revisar queries y páginas",
+            "inspeccionar una URL concreta",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Setup y verificación",
+      level: 2,
+      paras: [
+        "Añade una property. Prefiere domain property vía DNS — cubre todos los subdominios y protocolos. Alternativa: un URL prefix (`https://www.example.com/`).",
+        "Métodos de verificación: registro DNS, archivo HTML en la raíz, meta en `<head>`, o un enlace con GA4/GTM. Usa a lo que tengas acceso. No dejes meta de test en la plantilla de otro.",
+      ],
+      lists: [
+        {
+          intro: "Tras la verificación:",
+          items: [
+            "usuarios y permisos del equipo",
+            "host preferido ya vía 301, no solo en el panel",
+            "vincular Analytics si hace falta",
+            "añadir un sitemap",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Verificar solo `http://` o solo non-www mientras el canon es otro. Pega los mirrors con 301 primero.",
+        },
+      ],
+      links: [
+        {
+          label: "Redirects",
+          href: "/es/blog/redirekt/",
+        },
+      ],
+    },
+    {
+      title: "Sitemaps y crawl",
+      level: 2,
+      paras: [
+        "En Sitemaps, añade la URL de `sitemap.xml` o un índice de sitemaps. Mira estado de procesamiento y errores. Un mapa no mete basura a la fuerza en el índice — envía solo canons.",
+        "Los informes de Coverage / pages muestran URLs excluidas y por qué. Arregla problemas sistémicos (duplicados, noindex, 404s), no cada URL a mano.",
+      ],
+      lists: [
+        {
+          intro: "Cruza:",
+          items: [
+            "sitemap en GSC y en robots.txt",
+            "conteos discovered vs expected",
+            "errores de servidor y redirects en el mapa",
+            "issues móviles en plantillas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Sitemap XML",
+          href: "/es/blog/karta-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Queries, páginas y URL Inspection",
+      level: 2,
+      paras: [
+        "Search performance: queries, páginas, países, dispositivos. Caza páginas con impresiones pero sin clics (snippet flojo) y clics que aterrizan en las URLs equivocadas.",
+        "URL Inspection (guías viejas decían «Fetch as Google») chequea una dirección y te deja pedir indexación tras cambios importantes.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo semanal:",
+          items: [
+            "errores nuevos de coverage",
+            "caídas de clics en URLs clave",
+            "manual actions (si hay)",
+            "CWV / usabilidad por prioridad de plantilla",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Snippets",
+          href: "/es/blog/snippet/",
+        },
+      ],
+    },
+    {
+      title: "Issues de HTML y lo que el panel no hace",
+      level: 2,
+      paras: [
+        "Históricamente Webmaster marcaba problemas de title/description. La misma idea hoy: titles duplicados, demasiado largos o cortos, ausentes. Arregla en el CMS, luego espera al recrawl.",
+        "No esperes que el panel escriba SEO por ti. Diagnostica; contenido y estructura son tu trabajo.",
+      ],
+      lists: [
+        {
+          intro: "Atado de vuelta al sitio:",
+          items: [
+            "Title y H1 únicos",
+            "canonicals",
+            "velocidad de plantilla",
+            "indexación limpia de filtros",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización on-page",
+          href: "/es/blog/optimizatsiya-stranitsy/",
+        },
+      ],
+    },
+    {
+      title: "Práctica y límites",
+      level: 2,
+      paras: [
+        "GSC es la fuente de verdad para Google, no para Yandex. Los datos van con lag y pueden estar sampled en sitios grandes. Cruza con logs y analytics.",
+        "La prep puede llevar semanas; el crecimiento de rankings y tráfico se planifica a 2–6 meses tras ese trabajo — el panel muestra progreso y problemas; no enciende un «modo rankings».",
+      ],
+      lists: [
+        {
+          intro: "Checklist de rollout:",
+          items: [
+            "dominio verificado",
+            "sitemap añadido",
+            "equipo con los permisos correctos",
+            "playbook de revisión de errores",
+            "setup espejo en Yandex Webmaster",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Arregla primero los errores masivos de coverage — luego pide indexación puntual de URLs clave.",
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "karta-sayta",
+    "tehnicheskiy-seo-audit",
+    "metrika-ustanovka",
+    "snippet",
+    "kanonicheskiy-teg",
+  ],
+};

@@ -148,3 +148,152 @@ export const videoStoriesInstagramEn: BlogPost = {
     "idei-storis-vk",
   ],
 };
+
+/** ES overlay for video-stories-instagram — same structure as RU JSON / EN. */
+export const videoStoriesInstagramEs: BlogPost = {
+  slug: "video-stories-instagram",
+  title: "Vídeo en Instagram Stories: publicar sin matar la calidad",
+  date: "2020-10-08",
+  category: "SMM",
+  cover: "/images/blog/video-stories-instagram/cover.webp",
+  excerpt:
+    "Cómo añadir vídeo a Instagram Stories, guardar tus propios clips, preparar un archivo 9:16 y qué falla con downloaders de terceros de Stories ajenas.",
+  lead: [
+    "Stories es un formato vertical de ~24 horas con fotos y vídeo corto. Para negocio son anuncios rápidos, behind-the-scenes, polls y warm-up sin un post del feed «para siempre».",
+    "Abajo: publicar, borrar, guardar tus propios clips y preparar el archivo para que Instagram comprima menos. La duración del clip y los modos de grabación cambian — usa Meta Help. No listamos savers dudosos de Stories ajenas. Ver la nota de Meta en esta página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Cuántos segundos por segmento de Stories?",
+      a: "Históricamente unos 15 segundos por trozo; los clips más largos se parten en varios. Revisa el límite actual en la app.",
+    },
+    {
+      q: "¿Cómo guardas tus propias Stories?",
+      a: "Archive y/o guardar en la galería en settings o en el menú de la story. Las ajenas — solo con derechos y ética; ver un artículo aparte.",
+    },
+    {
+      q: "¿Por qué el vídeo se ve suave tras subir?",
+      a: "A menudo aspecto, resolución o bitrate incorrectos: la red recomprime. Prepara 9:16 y un H.264 decente de antemano.",
+    },
+    {
+      q: "¿Hacen falta editores de terceros?",
+      a: "Para cortes y color — sí, si te gustan. Los efectos built-in suelen bastar para Stories simples.",
+    },
+    {
+      q: "¿En qué se diferencia de «descargar Stories»?",
+      a: "Esa pieza se centra en guardar. Esta va de grabar y publicar vídeo en Stories.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo añadir vídeo a Stories",
+      level: 2,
+      paras: [
+        "Crea una story desde el avatar o el plus del feed: graba o elige de la galería. Puedes seleccionar varios archivos en un lote. En destinatarios elige Stories, no DMs.",
+        "Tras compartir, la story es visible ~24 horas y luego va al archive (si está activo).",
+      ],
+      links: [
+        {
+          label: "Guardar Stories",
+          href: "/es/blog/skachat-stories-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Borrar y guardar las tuyas",
+      level: 2,
+      paras: [
+        "Mientras ves tu story, abre el menú «⋯» → delete. Lo borrado normalmente no se queda en el archive.",
+        "Para conservar contenido: activa guardar en archive y, si hace falta, «save to gallery». Para stories ajenas, sitios y extensiones de terceros traen riesgo de cuenta y de derechos.",
+      ],
+      notes: [
+        {
+          title: "No hagas",
+          text: "No des tu login de Instagram a servicios dudosos de «descargar Stories ajenas».",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "Stories «incógnito»: riesgos",
+          href: "/es/blog/stories-instagram-inkognito/",
+        },
+      ],
+    },
+    {
+      title: "Por qué cae la calidad",
+      level: 2,
+      paras: [
+        "Instagram recomprime clips para su pipeline. Si la fuente no es 9:16 o el codec es pesado o raro, se ven más artefactos.",
+        "Pistas de Meta Help: vertical, resolución razonable (a menudo alrededor de 720p+), H.264. Revisa números exactos en la guía actual.",
+      ],
+    },
+    {
+      title: "Grabación y modos",
+      level: 2,
+      paras: [
+        "Graba directo a Stories o prepara el clip antes. Modos como boomerang, zoom y texto aparecen y desaparecen — no armes estrategia sobre un solo efecto.",
+        "Live sin el límite de «15 segundos» es un formato aparte; ver el artículo de Live.",
+      ],
+      lists: [
+        {
+          intro: "Checklist antes de publicar:",
+          items: [
+            "frame vertical",
+            "cara/producto legible en pantalla pequeña",
+            "texto grande y corto",
+            "sonido OK sin auriculares",
+            "CTA: reply / swipe / poll",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Instagram Live",
+          href: "/es/blog/pryamoy-efir-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Cómo Stories ayudan al reach",
+      level: 2,
+      paras: [
+        "Consistencia, replies a reacciones y stickers interactivos (poll, question) mantienen el diálogo. Challenges vacíos por views queman a la audiencia.",
+        "Revisa stats de cuenta profesional: reach, replies, exits. Compara formatos; no persigas los «miles» de otro.",
+      ],
+      links: [
+        {
+          label: "Reach en Instagram",
+          href: "/es/blog/ohvat-instagram/",
+        },
+        {
+          label: "Engagement en Instagram",
+          href: "/es/blog/vovlechennost-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Publica vídeo vertical en Stories, guarda lo tuyo en el archive y salta savers dudosos de Stories ajenas.",
+        "La calidad empieza con la preparación del archivo y un frame claro, no con una docena de apps de edición.",
+      ],
+    },
+  ],
+  closing: [
+    "Graba o prepara un clip 9:16, publícalo en Stories con un CTA simple y guárdalo en archive — para que el formato sea una herramienta de trabajo, no una lotería de calidad.",
+  ],
+  related: [
+    "skachat-stories-instagram",
+    "stories-instagram-inkognito",
+    "pryamoy-efir-instagram",
+    "ohvat-instagram",
+    "vovlechennost-instagram",
+    "idei-storis-vk",
+  ],
+};

@@ -117,3 +117,121 @@ export const crelloEn: BlogPost = {
     "menedzher-smm",
   ],
 };
+
+/** ES overlay for crello — same structure as RU JSON / EN. */
+export const crelloEs: BlogPost = {
+  slug: "crello",
+  title: "Crello (VistaCreate): un editor online para visuales de redes",
+  date: "2020-01-16",
+  category: "SMM",
+  cover: "/images/blog/crello/cover.webp",
+  excerpt:
+    "Qué es Crello y por qué ahora es VistaCreate: plantillas para posts y banners, animación, flujos de equipo — cuándo basta un editor de plantillas y cuándo sigue haciendo falta un diseñador.",
+  lead: [
+    "Crello es un editor online de gráficos y vídeo corto — posts de redes, banners, posters simples. El producto luego se rebrandizó como VistaCreate (ecosistema VistaPrint): la misma idea — plantillas y ediciones sin Photoshop.",
+    "Abajo: para quién es esta clase de editores, qué fortalezas importan día a día y dónde la herramienta toca su límite. No congelamos conteos de plantillas ni precios de 2020 — revisa el sitio vivo del producto.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta se reconoce como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Crello y VistaCreate son lo mismo?",
+      a: "En esencia sí: un rebrand del mismo producto. La UI y los precios pueden tener nombres y límites nuevos — sigue lo que hay en tu cuenta actual.",
+    },
+    {
+      q: "¿En qué se diferencia de Canva?",
+      a: "Misma clase de herramienta: plantillas, librerías de media, export para tamaños de redes. Elige por hábito, librería, precio de equipo y soporte de tu idioma y brand kit. Cubrimos Canva en un post aparte.",
+    },
+    {
+      q: "¿Basta el plan gratis?",
+      a: "Para tests y posts simples — a menudo sí. Animación, media premium y features de equipo suelen estar en planes de pago — revisa los términos actuales.",
+    },
+    {
+      q: "¿Sustituirá a un diseñador?",
+      a: "Para contenido habitual de redes en un estilo consistente — a menudo sí. Sistemas de marca complejos, packaging y layouts no estándar siguen necesitando diseño profesional.",
+    },
+    {
+      q: "¿Garantiza likes?",
+      a: "No. El editor acelera la producción de creative. Alcance y reacciones siguen dependiendo de la oferta, la audiencia y cómo distribuyes el post.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué los marketers usan herramientas así",
+      level: 2,
+      paras: [
+        "Necesitas posts, Stories, covers y banners en tamaños consistentes sin contratar un estudio por cada frame. Un editor de plantillas te da un layout a tamaño → cambias texto y fotos → exportas.",
+        "Es cómodo cuando el presupuesto no aguanta un diseñador a tiempo completo y el calendario de contenido sigue necesitando visuales regulares. La clave es la marca: colores, fuentes, tono — no una plantilla de moda nueva cada día.",
+      ],
+      lists: [
+        {
+          intro: "Trabajos típicos:",
+          items: [
+            "posts y Stories para redes",
+            "banners y posters simples",
+            "covers para vídeo o artículos",
+            "animación ligera de texto y bloques",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué importa en la clase Crello / VistaCreate",
+      level: 2,
+      paras: [
+        "Plantillas por formato y nicho, búsqueda por keywords, subir tus propias fotos, sets de fuentes (incluidas escrituras no latinas), una librería de media y export a la resolución correcta.",
+        "Los equipos eligen esta clase por animación sin After Effects, acceso compartido y UI localizada en algunos productos. Las afirmaciones exactas de «N mil plantillas» cambian — no decidas desde una reseña vieja.",
+      ],
+      lists: [
+        {
+          intro: "Antes de elegir un plan, comprueba:",
+          items: [
+            "tamaños que necesitas para tus plataformas",
+            "licencia de media para uso comercial",
+            "fuentes y brand kit",
+            "export sin watermark extra",
+            "asientos para el equipo si trabajan dos o más personas",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Arma 3–5 plantillas base con tu logo y paleta — más rápido que empezar cada vez desde el layout de moda de otro.",
+        },
+      ],
+      links: [
+        {
+          label: "Plantillas de Instagram",
+          href: "/es/blog/shablon-instagram/",
+        },
+        {
+          label: "Identidad de marca",
+          href: "/es/blog/aydentika-brenda/",
+        },
+      ],
+    },
+    {
+      title: "Cómo trabajar sin caos en el feed",
+      level: 2,
+      paras: [
+        "Elige un formato → mete la oferta y el visual → comprueba legibilidad en el teléfono → exporta a un tamaño de archivo sensato. No prometas a la audiencia «likes garantizados»: un layout limpio ayuda, pero no sustituye un post con un punto.",
+        "Si la marca ya tiene guidelines estrictas, pasa layouts clave a un diseñador y usa el editor para variantes simples de seguimiento.",
+      ],
+    },
+  ],
+  closing: [
+    "Crello hoy es VistaCreate: un editor online rápido para visuales cotidianos de redes. Trátalo como un acelerador de plantillas dentro de la marca; deja el trabajo de identidad compleja y las campañas puntuales al diseño.",
+  ],
+  related: [
+    "shablon-instagram",
+    "aydentika-brenda",
+    "foto-instagram",
+    "post-instagram",
+    "kontent-plan-instagram",
+    "menedzher-smm",
+  ],
+};

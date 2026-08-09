@@ -97,3 +97,101 @@ export const kluchiYoutubeEn: BlogPost = {
     "videoreklama-youtube",
   ],
 };
+
+/** ES overlay for kluchi-youtube — same structure as RU JSON / EN. */
+export const kluchiYoutubeEs: BlogPost = {
+  slug: "kluchi-youtube",
+  title: "Keywords de YouTube: cómo armar el set de búsqueda de un vídeo",
+  date: "2020-11-10",
+  category: "SMM",
+  cover: "/images/blog/kluchi-youtube/cover.webp",
+  excerpt:
+    "Cómo elegir keywords para título, descripción y tags de YouTube: la retención gana a un set «perfecto», sugerencias de búsqueda y tools de demanda, review de competidores y queries long-tail — sin promesas de ranking en una semana.",
+  lead: [
+    "Las keywords en YouTube ayudan a que un vídeo se encuentre en búsqueda, pero no sustituyen el contenido. El algoritmo reacciona más a tiempo de visionado, retención y vistas de retorno que a un pack de keywords de un playbook web de 2015.",
+    "Abajo: cómo armar un set que funcione para cada vídeo — de dónde sale la fraseología, dónde colocarla y cuándo ganan las queries estrechas. Lo básico del lanzamiento de canal está en la pieza de promoción en YouTube; aquí el foco son las keywords.",
+  ],
+  faq: [
+    {
+      q: "¿Las keywords importan más que el thumbnail?",
+      a: "No. Thumbnail y título impulsan el clic; las keywords ayudan al discovery. Sin watch-through, ni tags perfectos sostienen la colocación en búsqueda.",
+    },
+    {
+      q: "¿Hace falta Wordstat o Keyword Planner para YouTube?",
+      a: "Útiles como fuente de fraseología de demanda de la búsqueda web. No es volumen de YouTube uno a uno, pero dan ideas de título y tema.",
+    },
+    {
+      q: "¿Debes copiar todos los tags de un competidor?",
+      a: "No. Quédate con lo relevante. Si los gigantes poseen los head terms — busca long-tail y tu ángulo, no un dump completo de tags.",
+    },
+    {
+      q: "¿Ayudan palabras como «ver» y «vídeo»?",
+      a: "A veces en la búsqueda web. En YouTube mismo importan más la query natural del espectador y que coincida con la promesa.",
+    },
+    {
+      q: "¿Pueden las keywords ganar a un vídeo viral?",
+      a: "Suele no. Un watch-through fuerte gana a contenido débil con un set perfecto. Compite donde puedas dar una mejor respuesta.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué las keywords solas no bastan",
+      level: 2,
+      paras: [
+        "YouTube rankea con el comportamiento en mente: cuánto mira la gente, si termina, si vuelve. Dos vídeos con keywords parecidas se separan en colocación si uno retiene claramente mejor.",
+        "Comparar solo el porcentaje de retención es ciego — también importa el tiempo absoluto de visionado. Un vídeo corto con alto porcentaje y uno largo con mucho watch time se comportan distinto. Usa Studio, no una cifra de un caso ajeno.",
+        "Optimizar título y descripción no supera a un viral o simplemente a un vídeo más útil. Estrategia: contenido fuerte, keywords claras, trabajo con recomendaciones y playlists. «Primera página para cada head term mañana» no es una meta workable. El crecimiento va vídeo a vídeo.",
+      ],
+      links: [
+        {
+          label: "Promoción en YouTube",
+          href: "/es/blog/raskrutka-youtube/",
+        },
+        {
+          label: "Descripción del canal de YouTube",
+          href: "/es/blog/opisanie-youtube-kanala/",
+        },
+      ],
+    },
+    {
+      title: "Cómo armar el set y dónde colocarlo",
+      level: 2,
+      paras: [
+        "Fuentes de frases: sugerencias de búsqueda de YouTube y Google/Yandex, Wordstat y pares de Keyword Planner (hace falta cuenta de ads; las cifras son una guía), títulos y temas de competidores en resultados para tu query.",
+        "En nichos how-to, construcciones como «cómo», DIY, reviews, listas y eventos a tiempo a menudo funcionan — si reflejan el vídeo con honestidad. Clips de gatos y ángulos de entretenimiento funcionan en su tema; no los arrastres a B2B por un clic.",
+        "Práctica: escribe una o dos queries principales por vídeo, luego 5–15 refinamientos y long-tails. Pon la frase principal al inicio del título (legible para humanos), amplía en las primeras líneas de descripción y trata los tags como suplemento — no un dump. No rellenes basura irrelevante.",
+        "Si los head terms los poseen canales grandes, toma fraseología estrecha y series de vídeo bajo un cluster. «Ver fuente → todos los tags del competidor» es un ritual anticuado; bastan título, descripción y temas abiertos. Las menciones externas y playlists ayudan, pero no sustituyen el watch-through.",
+        "En resumen: las keywords fijan el lenguaje de la demanda; el contenido decide si te quedas en resultados. Arma el set → responde más fuerte que el competidor → mide retención y afina los siguientes temas.",
+      ],
+      lists: [
+        {
+          intro: "Mini-checklist por vídeo:",
+          items: [
+            "título con la query principal, sin mentiras clickbait",
+            "descripción: esencia, keywords, timestamps",
+            "tags on-topic, sin spam",
+            "thumbnail que coincida con la promesa",
+            "tras publicar — mira retención en Studio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Set de keywords del sitio",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Frecuencia de queries",
+          href: "/es/blog/chastotnost-zaprosov/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "raskrutka-youtube",
+    "opisanie-youtube-kanala",
+    "semanticheskoe-yadro",
+    "chastotnost-zaprosov",
+    "videoreklama-youtube",
+  ],
+};

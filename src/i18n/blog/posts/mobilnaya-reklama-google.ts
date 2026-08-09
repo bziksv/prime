@@ -188,3 +188,192 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
     "reklamnyy-kabinet",
   ],
 };
+
+/** ES overlay for mobilnaya-reklama-google — same structure as RU JSON / EN. */
+export const mobilnayaReklamaGoogleEs: BlogPost = {
+  slug: "mobilnaya-reklama-google",
+  title: "Ads móviles en Google: cómo leer los números",
+  date: "2018-10-23",
+  category: "Paid search",
+  cover: "/images/blog/mobilnaya-reklama-google/cover.webp",
+  excerpt:
+    "Cómo difieren CTR, CVR, CPC y CPA en Search vs Display móvil, por qué los benchmarks de industria envejecen rápido y cómo medir la eficiencia en tu propia cuenta.",
+  lead: [
+    "Los ads móviles en Google no son una tarifa media del mercado — Search y Display tienen economías distintas, más una horquilla amplia por nicho. Estudios públicos (incluidos reviews viejos estilo WordStream entre verticales) dan rangos aproximados, no tu CPA.",
+    "Abajo: cómo leer esos benchmarks, cómo difiere Search de Display en móvil y el mínimo de métricas que debes trackear tú. No pegues cifras en dólares de roundups de 2010 en un media plan de 2020s sin recalcular.",
+  ],
+  faq: [
+    {
+      q: "¿Por qué el CTR de Search suele ser más alto que el de Display?",
+      a: "Search tiene una query e intención. Display se muestra en contenido o apps — menos clics, reach más barato y trabajos distintos.",
+    },
+    {
+      q: "¿Puedo tratar el CPC medio de otro como norma?",
+      a: "No como dogma. Mira tu nicho, región, calidad del ad y landing. Un benchmark es aproximado, no un SLA.",
+    },
+    {
+      q: "¿La tasa de conversión móvil siempre es peor que desktop?",
+      a: "A menudo más baja en formularios complejos, pero no es ley. Simplifica checkout y llamada; compara slices de dispositivo en la cuenta.",
+    },
+    {
+      q: "¿Debo mezclar Search y Display en una campaña?",
+      a: "Mejor separar: objetivos, pujas y creatives distintos. Si no, la optimización se come un canal con el otro.",
+    },
+    {
+      q: "¿Qué importa más — CTR o CPA?",
+      a: "Para el negocio — CPA, retorno de la inversión en marketing y calidad del lead. Un CTR alto con clics vacíos caros no sirve.",
+    },
+    {
+      q: "¿Hacen falta ads aparte para móvil?",
+      a: "A menudo sí: oferta más corta, énfasis en llamada o mensajero, landing rápida. Valida en experimentos.",
+    },
+    {
+      q: "¿Con qué frecuencia refrescar benchmarks?",
+      a: "Los tuyos — de continuo en la cuenta. Estudios externos — solo de fondo; el mercado y la subasta se mueven.",
+    },
+    {
+      q: "¿Esto se liga al SEO?",
+      a: "No de forma directa. De forma indirecta: las mismas landings y el UX móvil afectan orgánico y ads.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué suele llamarse «eficiencia»",
+      level: 2,
+      paras: [
+        "Set base: CTR (click-through), CVR (clic-a-conversión), CPC (coste por clic), CPA (coste por objetivo). A veces cuota de tráfico móvil y calidad del lead.",
+        "Estudios multi-industria a menudo muestran: Search entrega CTR y CVR claramente más altos a un clic más caro; Display — CTR bajo, clic barato y otro perfil de trabajo (reach, retarget, parte alta del funnel).",
+      ],
+      lists: [
+        {
+          intro: "No mezcles:",
+          items: [
+            "campañas Search y Display",
+            "queries de marca y no marca",
+            "móvil y desktop sin slice",
+            "la cifra media en dólares de otro y tu región o moneda",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Pujas en Yandex Direct",
+          href: "/es/blog/stavki-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Search vs Display en móvil",
+      level: 2,
+      paras: [
+        "En Search la persona ya declaró una necesidad — clic más cálido, puja más alta, suele haber mejor conversión con una landing decente. En Display compites por atención en un feed o en un sitio — un CTR de fracciones de porcentaje es normal; la economía funciona distinto.",
+        "Resúmenes históricos de agencias sobre cuentas de Google (por ejemplo reviews estilo WordStream en ~18 verticales) ilustraron la brecha: CTR de Search de unos pocos puntos frente a fracciones en Display, con CPC y CPA muy distintos. Las cifras exactas de vintage se quedan viejas — la lógica de la brecha entre canales se mantiene.",
+      ],
+      lists: [
+        {
+          intro: "Práctica en la cuenta:",
+          items: [
+            "campañas y presupuestos separados",
+            "objetivos propios (lead vs reach)",
+            "frecuencia y placements en Display",
+            "landing mobile-friendly para ambos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Retargeting de fiestas",
+          href: "/es/blog/prazdnichnyy-retargeting/",
+        },
+      ],
+    },
+    {
+      title: "Industrias y horquilla de números",
+      level: 2,
+      paras: [
+        "Legal, finanzas, construcción y salud suelen costar más por clic que retail masivo o entretenimiento. Dentro de una «industria» la horquilla es enorme: marca, región, oferta y calidad del sitio ganan a la tabla media.",
+        "Usa reportes de industria solo para no fijar un CTR irreal «como todos». Arma el plan de presupuesto desde tu margen y CPA objetivo.",
+      ],
+      lists: [
+        {
+          intro: "Antes del lanzamiento fija:",
+          items: [
+            "acción objetivo y su valor",
+            "CPA máximo",
+            "cuota móvil en tu nicho",
+            "hipótesis Search vs Display",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo medirte tú, no por el PDF de otro",
+      level: 2,
+      paras: [
+        "En Google Ads mira dispositivo = móvil, red Search/Display, conversiones por objetivo. Cruza analytics del sitio: bounces, velocidad, formularios en un teléfono.",
+        "Cada mes compara CPA móvil vs desktop y cuota de presupuesto. Si el móvil es más caro a la misma conversión — arregla ads y landing, no copies el «CTR medio 4%» de otro.",
+      ],
+      lists: [
+        {
+          intro: "Mini reporte:",
+          items: [
+            "spend / clics / CTR móvil",
+            "conversiones y CPA",
+            "mejores ads y landings",
+            "decisiones: puja, negatives, creative, UX",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Tools de web analytics",
+          href: "/es/blog/instrumenty-veb-analitiki/",
+        },
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+    },
+    {
+      title: "Enlace con el sitio y expectativas de plazo",
+      level: 2,
+      paras: [
+        "Los ads móviles no arreglan un sitio lento o incómodo. Primero quita fricción en la primera pantalla y el formulario — si no, cualquier benchmark de CPA se verá inflado.",
+        "Los ads responden en días. La visibilidad orgánica en primera página de un set de keywords es una vía aparte: prep y construcción de rankings planificadas a meses tras el arranque SEO — a menudo 2–6 meses — no «después de que mejoramos el CTR del ad».",
+      ],
+      lists: [
+        {
+          intro: "Orden:",
+          items: [
+            "landing móvil",
+            "objetivos en analytics",
+            "probar Search, luego Display o retarget",
+            "no confundas CPA de ads con una promesa de ranking orgánico",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Paid search y SEO",
+          href: "/es/blog/kontekst-i-seo/",
+        },
+      ],
+      notes: [
+        {
+          title: "Sobre estudios",
+          kind: "tip",
+          text: "Los resúmenes de CTR/CPC/CPA de reportes ingleses viejos ilustran rangos aproximados. Para planificar usa datos frescos de tu cuenta y región.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "stavki-direkt",
+    "prazdnichnyy-retargeting",
+    "optimizatsiya-konversii",
+    "kontekst-i-seo",
+    "instrumenty-veb-analitiki",
+    "reklamnyy-kabinet",
+  ],
+};

@@ -11,10 +11,46 @@ interface Props {
 
 const { title, description, path, locale = "en" } = Astro.props;
 const year = new Date().getFullYear();
+const htmlLang = locale === "ru" ? "ru" : locale === "es" ? "es" : "en";
+const ogLocale = locale === "ru" ? "ru_RU" : locale === "es" ? "es_ES" : "en_US";
+const homeHref = locale === "ru" ? "/" : `/${locale}/`;
+const nav =
+  locale === "es"
+    ? {
+        back: "← Inicio en español",
+        aria: "Documentos legales",
+        privacy: "Política de privacidad",
+        cookies: "Política de cookies",
+        recommendations: "Tecnologías de recomendación",
+        privacyHref: "/es/legal/privacy/",
+        cookiesHref: "/es/legal/cookies/",
+        recommendationsHref: "/es/legal/recommendations/",
+      }
+    : locale === "ru"
+      ? {
+          back: "← На главную",
+          aria: "Правовые документы",
+          privacy: "Политика конфиденциальности",
+          cookies: "Cookies",
+          recommendations: "Рекомендательные технологии",
+          privacyHref: "/docs/politics-prime-ltd.webp",
+          cookiesHref: "/docs/cookies-prime-ltd.webp",
+          recommendationsHref: "/docs/rules-recommendation-prime-ltd.webp",
+        }
+      : {
+          back: "← English homepage",
+          aria: "Legal documents",
+          privacy: "Privacy policy",
+          cookies: "Cookie policy",
+          recommendations: "Recommendation technologies",
+          privacyHref: "/en/legal/privacy/",
+          cookiesHref: "/en/legal/cookies/",
+          recommendationsHref: "/en/legal/recommendations/",
+        };
 ---
 
 <!doctype html>
-<html lang={locale === "ru" ? "ru" : "en"}>
+<html lang={htmlLang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,7 +60,7 @@ const year = new Date().getFullYear();
       title={title}
       description={description}
       path={path}
-      locale={locale === "ru" ? "ru_RU" : "en_US"}
+      locale={ogLocale}
       siteName={locale === "ru" ? "ПРАЙМ" : "PRIME"}
     />
     <link rel="icon" href="/images/v6/favicon.ico" sizes="any" />
@@ -167,15 +203,15 @@ const year = new Date().getFullYear();
   <body class="legal-page">
     <div class="legal-shell">
       <div class="legal-top">
-        <a class="legal-brand" href="/en/">PRIM<em>E</em></a>
-        <a class="legal-back" href="/en/">← English homepage</a>
+        <a class="legal-brand" href={homeHref}>{locale === "ru" ? "ПРАЙ" : "PRIM"}<em>{locale === "ru" ? "М" : "E"}</em></a>
+        <a class="legal-back" href={homeHref}>{nav.back}</a>
       </div>
       <article class="legal-card">
         <slot />
-        <nav class="legal-nav" aria-label="Legal documents">
-          <a href="/en/legal/privacy/">Privacy policy</a>
-          <a href="/en/legal/cookies/">Cookie policy</a>
-          <a href="/en/legal/recommendations/">Recommendation technologies</a>
+        <nav class="legal-nav" aria-label={nav.aria}>
+          <a href={nav.privacyHref}>{nav.privacy}</a>
+          <a href={nav.cookiesHref}>{nav.cookies}</a>
+          <a href={nav.recommendationsHref}>{nav.recommendations}</a>
         </nav>
         <p class="legal-meta">
           Operator: PRIME LLC (ООО «ПРАЙМ») · Voronezh, Russia ·

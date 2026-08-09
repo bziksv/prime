@@ -165,3 +165,169 @@ export const linkbilderEn: BlogPost = {
     "samostoyatelnoe-seo",
   ],
 };
+
+/** ES overlay for linkbilder — same structure as RU JSON / EN. */
+export const linkbilderEs: BlogPost = {
+  slug: "linkbilder",
+  title: "Link builder: quiénes son y qué hacen en SEO",
+  date: "2019-12-13",
+  category: "Digital marketing",
+  cover: "/images/blog/linkbilder/cover.webp",
+  excerpt:
+    "Qué hace un link builder: tareas, skills, en qué se diferencia el rol de comprar enlaces por packs, calidad del donor y el vínculo con outreach — sin how-tos de spam ni promos de cursos.",
+  lead: [
+    "Un link builder se ocupa de menciones y enlaces externos: encuentra publishers, negocia placements y vigila la calidad del perfil. Tras filtros más estrictos, el «enlaces al por mayor» masivo perdió ventaja — el foco es relevancia y una audiencia viva.",
+    "Abajo: qué hace el especialista, qué skills importan y en qué se diferencia el rol de «compra 100 enlaces en un exchange». Los riesgos de placements de pago están en una pieza aparte; la búsqueda manual de publishers, en el artículo de outreach. Este material no enseña a saltar las reglas de los buscadores.",
+  ],
+  faq: [
+    {
+      q: "¿Un link builder es lo mismo que un especialista SEO?",
+      a: "A menudo se solapan. El SEO es más amplio (técnica, contenido, keywords). Un link builder profundiza en placements externos y negociación; en equipos pequeños es un solo rol.",
+    },
+    {
+      q: "¿Va de comprar enlaces?",
+      a: "No necesariamente. El foco moderno son menciones, piezas guest, partnerships, PR. Los slots de pago son una decisión aparte con riesgos.",
+    },
+    {
+      q: "¿Hacen falta exchanges de enlaces?",
+      a: "Como una herramienta — a veces. Como única estrategia de «pack» — riesgoso. Los criterios de calidad del donor ganan al nombre de marca del exchange.",
+    },
+    {
+      q: "¿Cuántos enlaces al mes es normal?",
+      a: "No hay una cuota universal. Importan más el encaje temático, anclas naturales y que no haya una explosión. Un pico masivo brusco es una bandera roja.",
+    },
+    {
+      q: "¿El link building garantiza rankings de primera página?",
+      a: "No. Los enlaces son un factor. La preparación del sitio y crecer un núcleo de consultas son horizontes aparte — típicamente planificados a 2–6 meses de trabajo sistemático tras el inicio de la promoción.",
+    },
+    {
+      q: "¿Por dónde empezar un principiante?",
+      a: "Bases de SEO, análisis de donors, escritura de negocio, hojas de tracking. Practica en tu propio proyecto o de entrenamiento, y revisa perfiles ajenos sin copiar spam.",
+    },
+  ],
+  sections: [
+    {
+      title: "De dónde viene el rol",
+      level: 2,
+      paras: [
+        "Antes, parte del SEO era crecer la masa de enlaces a cualquier coste. Los filtros y los cambios de algoritmo movieron la apuesta a la calidad: un sitio con audiencia y contenido real gana a cientos de desechables.",
+        "Así se formó la especialidad: no un «comprador de packs», sino alguien que construye un perfil a propósito — elige donors a mano, escribe a editores, mide el efecto.",
+      ],
+    },
+    {
+      title: "Qué hace un link builder",
+      level: 2,
+      paras: [
+        "La responsabilidad cubre estrategia de menciones externas, selección de publishers, negociación, control de publicación, un plan de anclas sin sobre-spam, reporting y vínculos con contenido y PR.",
+        "Un buen especialista sabe qué donors evitar para no dañar la visibilidad. Puede explicar al negocio por qué un placement importa aunque el enlace no sea dofollow — o si la victoria es tráfico, no solo «peso».",
+      ],
+      lists: [
+        {
+          intro: "Trabajos típicos:",
+          items: [
+            "auditar el perfil de backlinks actual",
+            "encontrar sitios y medios temáticos",
+            "briefs y emails a editores o partners",
+            "seguir placements e indexación",
+            "informe: clics, menciones, riesgos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Outreach",
+          href: "/es/blog/autrich/",
+        },
+        {
+          label: "Comprar enlaces",
+          href: "/es/blog/pokupka-ssylok/",
+        },
+      ],
+    },
+    {
+      title: "Skills y herramientas",
+      level: 2,
+      paras: [
+        "Hacen falta bases de SEO, ojo crítico con donors (tráfico, tema, spamminess), escritura de negocio, hojas (Sheets/Excel) y cuidado con deadlines. Más sentido de contenido: un enlace en copy flojo casi no sirve.",
+        "Las herramientas de backlinks y las tablas de tracking ayudan; el trabajo real es selección y negociación — no un botón de compra a granel.",
+      ],
+      lists: [
+        {
+          intro: "Cómo crecer la competencia:",
+          items: [
+            "aprender bases de SEO por tu cuenta",
+            "trabajar con un SEO experimentado en un equipo",
+            "correr un mini proyecto y casos",
+            "aprender de postmortems de filtros — sin comprar «esquemas secretos»",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Códigos promo de cursos y «packs de enlaces en una semana» son una bandera roja en este rol. Mira la práctica de placements y un portfolio — no promesas de primera página.",
+        },
+      ],
+    },
+    {
+      title: "Estrategia: calidad en vez de una explosión",
+      level: 2,
+      paras: [
+        "Un plan por periodo: qué tipos de mención necesitas (artículo, reseña, partnership), presupuesto, criterios de donor, ritmo. Un pico masivo brusco parece antinatural.",
+        "Anclas — una mezcla de marca, URL y exact matches raros. El enlace debe encajar en la pieza; un «muro de anclas» perjudica.",
+      ],
+      lists: [
+        {
+          intro: "Qué revisar en un publisher:",
+          items: [
+            "tema cercano al tuyo",
+            "una audiencia viva, no un almacén de enlaces",
+            "antigüedad e indexación",
+            "moderación y reputación",
+          ],
+        },
+      ],
+    },
+    {
+      title: "De dónde salen los placements",
+      level: 2,
+      paras: [
+        "Los enfoques white-hat y gray-hat difieren mucho. Lo que suele tener sentido: medios y blogs de nicho, piezas partner, menciones con sentido en vídeo o podcasts, listings de empresa. Spam de firmas en foros y directorios de un día — ruido y riesgo.",
+        "Existen exchanges de pago y advertorials directos; decide vía calidad y etiquetado publicitario — no «cómo comprar peso más barato». Más sobre riesgos de compra — en el artículo de comprar enlaces.",
+      ],
+      links: [
+        {
+          label: "Sitio joven",
+          href: "/es/blog/molodoy-sayt/",
+        },
+      ],
+    },
+    {
+      title: "Cómo saber que el trabajo avanza",
+      level: 2,
+      paras: [
+        "No mires solo el «conteo de enlaces nuevos»: clics con UTM, consultas de marca, calidad de menciones, sin crecimiento tóxico. Una pieza fuerte con audiencia a menudo gana a una docena de slots de exchange.",
+        "Los plazos de visibilidad en búsqueda son aparte de la fecha de publicación: la preparación del sitio y crecer un núcleo de consultas llevan meses de trabajo sistemático — los enlaces solos no «encienden la primera página mañana».",
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Los enlaces apoyan la promoción; no sustituyen la preparación. El trabajo de rankings de un núcleo se planifica típicamente a 2–6 meses tras el inicio del trabajo.",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Un link builder construye menciones externas a propósito: publisher, audiencia, acuerdo, tracking. No es un trabajo de «comprar un pack de enlaces» — es trabajo en la unión SEO–contenido–negociación, con respeto a los riesgos de filtros.",
+  ],
+  related: [
+    "autrich",
+    "pokupka-ssylok",
+    "molodoy-sayt",
+    "veb-analitik",
+    "kontent-menedzher",
+    "samostoyatelnoe-seo",
+  ],
+};

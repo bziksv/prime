@@ -130,3 +130,134 @@ export const googleOtzyvyKlientovEn: BlogPost = {
     "yml-fayl",
   ],
 };
+
+/** ES overlay for google-otzyvy-klientov — same structure as RU JSON / EN. */
+export const googleOtzyvyKlientovEs: BlogPost = {
+  slug: "google-otzyvy-klientov",
+  title: "Google Customer Reviews: cómo funciona el programa para tiendas",
+  date: "2019-08-09",
+  category: "E-commerce",
+  cover: "/images/blog/google-otzyvy-klientov/cover.webp",
+  excerpt:
+    "Qué es Google Customer Reviews: una encuesta post-compra, rating del vendedor en ads y reviews de producto. Cómo conectar vía Merchant Center y qué evitar — sin umbrales caducados ni garantías de CTR.",
+  lead: [
+    "Google Customer Reviews es un programa para tiendas online: tras la compra se ofrece al comprador una encuesta, las reviews se acumulan y pueden afectar ratings de vendedor/producto en el ecosistema Google Shopping y superficies relacionadas.",
+    "No es lo mismo que las reviews de una ficha de Google Business Profile en Maps. Abajo: cómo funciona el programa y un camino básico de setup. Umbrales de display, botones de UI y disponibilidad por país cambian — mira la Help actual de Merchant Center.",
+  ],
+  faq: [
+    {
+      q: "¿Son lo mismo que las reviews de Google Maps?",
+      a: "No. Maps/Business Profile es una ficha local. Customer Reviews son encuestas post-pedido en la tienda y ratings en las superficies de shopping de Google.",
+    },
+    {
+      q: "¿Hace falta Merchant Center?",
+      a: "Suele sí: la participación y el módulo de encuesta van ligados a la cuenta de vendedor. No se enciende solo con un botón del sitio.",
+    },
+    {
+      q: "¿Garantiza un CTR de ads más alto?",
+      a: "Sin garantía. Un rating puede ayudar a la trust en ads cuando se cumplen las condiciones de display. No repetimos cifras viejas de «+10% CTR».",
+    },
+    {
+      q: "¿Se pueden falsificar reviews?",
+      a: "No. Rompe las reglas de Google y pega a la cuenta. Recoge solo consentimiento y respuestas reales.",
+    },
+    {
+      q: "¿Por qué la encuesta necesita GTIN?",
+      a: "Para vincular una review a un producto concreto y emparejar catálogos entre vendedores. Sin IDs correctos, los ratings de producto no se construyen.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo funciona la encuesta post-compra",
+      level: 2,
+      paras: [
+        "El comprador hace un pedido → en la thank-you page se le ofrece consentimiento a la encuesta → si acepta, Google puede enviar un cuestionario por email → algunos responden, otros ignoran. El funnel se estrecha en cada paso — es normal.",
+        "Las reviews se acumulan sobre el vendedor y, con datos de producto correctos, sobre productos. El display del rating en ads depende de volumen, calidad y reglas del país — verifica en Help afirmaciones fijas de «exactamente 100 reviews» de guías viejas.",
+      ],
+      lists: [
+        {
+          intro: "Cómo difiere de otras reviews:",
+          items: [
+            "ligada a una compra completada",
+            "vive en Merchant / Shopping",
+            "no sustituye reviews de Maps",
+            "no sustituye la recogida en tu propio sitio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Reviews para ventas",
+          href: "/es/blog/otzyvy-dlya-prodazh/",
+        },
+        {
+          label: "Google Business Profile",
+          href: "/es/blog/google-biznes/",
+        },
+      ],
+    },
+    {
+      title: "Conexión: sentido de los pasos",
+      level: 2,
+      paras: [
+        "En Merchant Center activas Customer Reviews, aceptas términos, colocas el módulo/código de encuesta en la página de pedido exitoso y pasas los parámetros de pedido requeridos (y productos con GTIN si necesitas ratings de producto).",
+        "Idioma de encuesta, estilo de opt-in y lista de productos se fijan en la integración de código/CMS. No copiamos nombres exactos de menú de 2019 — la guía es Google Help y el wizard de la cuenta.",
+      ],
+      lists: [
+        {
+          intro: "Antes del lanzamiento, comprueba:",
+          items: [
+            "la tienda cumple las guidelines del programa",
+            "la thank-you page es estable y tiene el código",
+            "email/datos de pedido pasan bien",
+            "los GTIN del catálogo son válidos",
+            "no hay un setup «storefront en un dominio, checkout en otro» si las reglas lo prohíben",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "No cuelgues un badge de «rating del vendedor» antes de cumplir las condiciones de display: un badge vacío o «no disponible» es peor que ningún badge. Mira umbrales actuales en Help.",
+        },
+      ],
+    },
+    {
+      title: "Rating del vendedor, productos y errores habituales",
+      level: 2,
+      paras: [
+        "Un rating de vendedor puede aparecer en ads tras suficientes reviews y una puntuación mínima — actualiza las cifras de umbral desde Google. El rating de producto se construye sobre reviews con IDs de producto.",
+        "Errores habituales: código no en cada thank-you page, pedidos duplicados, GTIN incorrectos, esperar estrellas al instante, confundir con reviews de Google Maps, intentar empujar solo respuestas de cinco estrellas contra las reglas.",
+      ],
+      lists: [
+        {
+          intro: "Un stack de reviews que funciona en la tienda:",
+          items: [
+            "Customer Reviews — si entras en Shopping",
+            "maps/local — aparte",
+            "tu sitio — para quien ya compró",
+            "respuestas a negativos — por proceso, sin falsificar",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Review negativa",
+          href: "/es/blog/negativnyy-otzyv/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Google Customer Reviews es una tool de trust para tiendas en el ecosistema de Google — no un botón universal de CTR. Conecta la encuesta bien, sigue las guidelines y no confundas el programa con reviews de Maps.",
+  ],
+  related: [
+    "otzyvy-dlya-prodazh",
+    "google-biznes",
+    "negativnyy-otzyv",
+    "kartochka-tovara",
+    "google-analytics",
+    "yml-fayl",
+  ],
+};

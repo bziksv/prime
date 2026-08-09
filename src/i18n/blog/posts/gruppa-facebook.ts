@@ -119,3 +119,123 @@ export const gruppaFacebookEn: BlogPost = {
     "A successful Facebook Page is a clear brand role, regular useful content, and moderation — not one-off contests. This material is informational; decide on platform use with the law and business goals in mind.",
   ],
 };
+
+/** ES overlay for gruppa-facebook — same structure as RU JSON / EN. */
+export const gruppaFacebookEs: BlogPost = {
+  slug: "gruppa-facebook",
+  title: "Página y grupo de Facebook para negocio: por dónde empezar",
+  date: "2020-12-03",
+  category: "SMM",
+  cover: "/images/blog/gruppa-facebook/cover.webp",
+  excerpt:
+    "Cómo abordar la presencia de empresa en Facebook: Page vs comunidad, contenido, moderación y promoción — un desglose informativo sin empujar al uso de la plataforma.",
+  lead: [
+    "Facebook se ha usado históricamente como escaparate de empresa, canal para audiencias internacionales y enlace a las tools de ads de Meta. En algunos nichos importan más el engagement y el contexto B2B que el reach masivo tipo VK.",
+    "Abajo: setup de Page vs Group, contenido, mantener la actividad viva y cómo difiere la promoción de pago de lo orgánico. La UI cambia; este material es informativo. La nota sobre productos Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de las plataformas. Facebook* es un producto de Meta Platforms Inc.; en la Federación de Rusia la actividad de Meta está reconocida como extremista, y el uso de los servicios puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Usar una Page o un Group?",
+      a: "Una Page es el perfil oficial de marca y la base de ads. Un Group es una comunidad con discusiones. Los equipos suelen llevar una Page; añaden un Group cuando hace falta diálogo entre participantes.",
+    },
+    {
+      q: "¿Quién debería considerar Facebook?",
+      a: "Depende del geo y el nicho: B2B internacional, partners, export, segmentos concretos de audiencia. Para retail local RU suelen ser más fuertes otras plataformas.",
+    },
+    {
+      q: "¿Hace falta un post diario?",
+      a: "Hace falta cadence y utilidad, no spam. Mejor 2–4 posts pensados a la semana que un stream diario vacío.",
+    },
+    {
+      q: "¿Ayuda enlazar Instagram?",
+      a: "Para ads de Meta y tools profesionales — a menudo sí. Cross-postear el mismo texto a todas partes no es una estrategia por sí solo. Ver el artículo sobre la vinculación.",
+    },
+    {
+      q: "¿Cómo medir el éxito?",
+      a: "No solo likes: saves, comentarios al tema, clics, leads, calidad del diálogo. Para ads — CPA y ROMI.",
+    },
+    {
+      q: "¿Hacen falta ads de pago de inmediato?",
+      a: "Primero monta la Page, la oferta y la landing. Los ads amplifican una cadena que funciona — no rescatan un perfil vacío.",
+    },
+    {
+      q: "¿Cómo moderar?",
+      a: "Limpia spam, responde preguntas, fija reglas de comunidad. Una Page abandonada daña más la confianza que no tener ninguna.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué una presencia de negocio en Facebook",
+      level: 2,
+      paras: [
+        "La plataforma encaja donde la audiencia ya está: contactos internacionales, discusión profesional, la cuenta de Meta Ads. La geografía amplia ayuda a export y servicios remotos.",
+        "No confundas «muchos usuarios en el mundo» con «tu audiencia está aquí». Primero revisa dónde viven tus clientes y partners, y qué límites de acceso aplican a tu equipo.",
+      ],
+      lists: [
+        {
+          intro: "Trabajos típicos:",
+          items: [
+            "escaparate de marca y noticias de empresa",
+            "soporte y Q&A",
+            "leads al sitio / mensajero",
+            "hiring y marca empleadora en algunos nichos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Inicio: setup y contenido",
+      level: 2,
+      paras: [
+        "Crea una Page con nombre claro, avatar, cover, descripción y contactos. Añade el sitio y una forma de contactarte. Un perfil vacío con un solo post de ad parece una tienda de un día.",
+        "Mix de contenido: utilidad, cases, oferta, behind the scenes, respuestas a objeciones. Tono — de negocio y claro; el clickbait sin sustancia quema reach y confianza rápido.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo al lanzar:",
+          items: [
+            "About y categoría completos",
+            "enlace a sitio / landing",
+            "3–5 posts útiles de arranque",
+            "alguien responsable de responder comentarios",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Vincular Instagram y Facebook",
+          href: "/es/blog/svyazka-instagram-facebook/",
+        },
+      ],
+    },
+    {
+      title: "Actividad, moderación y limpieza",
+      level: 2,
+      paras: [
+        "La cadence gana a los picos raros. Responde comentarios, fija lo importante, quita spam e insultos. En Groups, escribe las reglas de participación de antemano.",
+        "Revisa periódicamente el pin, promos caducadas y tabs muertos. Una Page al día es parte de la marca.",
+      ],
+    },
+    {
+      title: "Promoción: orgánica y de pago",
+      level: 2,
+      paras: [
+        "Orgánico: contenido útil, menciones de empleados, shares de partners, unirse a discusiones relevantes sin spam. Inflar reacciones falsas no sustituye la demanda.",
+        "La promoción de pago tiene sentido cuando oferta, audiencia y landing están claros. Cuenta coste del lead y calidad del lead — no solo reach. La UI de Ads Manager y la disponibilidad del servicio dependen de la región — sigue la Help actual.",
+      ],
+      links: [
+        {
+          label: "Redes sociales para negocio",
+          href: "/es/blog/sotsseti-dlya-biznesa/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Una Page de Facebook que funciona es un rol de marca claro, contenido útil regular y moderación — no concursos puntuales. Este material es informativo; decide el uso de la plataforma con la ley y los objetivos de negocio en mente.",
+  ],
+};

@@ -151,3 +151,155 @@ export const parsingPythonEn: BlogPost = {
     "json",
   ],
 };
+
+/** ES overlay for parsing-python — same structure as RU JSON / EN. */
+export const parsingPythonEs: BlogPost = {
+  slug: "parsing-python",
+  title: "Scraping de sitios con Python: arranque para principiantes",
+  date: "2020-03-27",
+  category: "Marketing digital",
+  cover: "/images/blog/parsing-python/cover.webp",
+  excerpt:
+    "Por qué se elige a menudo Python para scraping, en qué se diferencian Scrapy, Beautiful Soup y Selenium, cómo montar el entorno y dónde termina la recogida legal de datos.",
+  lead: [
+    "Python es cómodo para aprender y escribir scrapers: sintaxis clara, paquetes y librerías para HTTP y parseo de HTML. Pero «fácil de escribir» ≠ «puedes descargar cualquier sitio».",
+    "Abajo: ventajas del lenguaje, clases de herramientas y un arranque seguro. Sin guías para saltar anti-bot, falsificar un User-Agent «como un navegador» o scrapear secciones cerradas — ToS, robots.txt y APIs oficiales van primero.",
+  ],
+  faq: [
+    {
+      q: "¿Por qué Python y no PHP?",
+      a: "Ambos pueden hacer peticiones de red. Python tiene un stack fuerte de datos/scripts (requests, BS4, Scrapy) y un listón más bajo para aprender código. La elección sigue dependiendo del equipo y la infraestructura.",
+    },
+    {
+      q: "¿Qué librería probar primero?",
+      a: "Para aprender: requests + Beautiful Soup sobre HTML estático. Para crawls grandes: Scrapy. Si la página se renderiza con JavaScript, mira una API o un driver de navegador con cuidado, no «romper la protección».",
+    },
+    {
+      q: "¿Puedo scrapear si el sitio «no me deja»?",
+      a: "Un rechazo, captcha o rate limit es señal de parar o buscar un canal oficial de datos. Saltar la protección y suplantar a un usuario para cosechar la base de otro es territorio de reclamaciones y bloqueos.",
+    },
+    {
+      q: "¿En qué se diferencia del artículo general de scraping?",
+      a: "Esa pieza cubre significado, escenarios y límites. Esta es un stack Python para principiantes. Las bases legales son las mismas.",
+    },
+    {
+      q: "¿Necesito Selenium para todo?",
+      a: "No. Es más pesado y lento. Primero comprueba una API o respuesta JSON; usa un driver de navegador solo cuando haga falta el render JS y los datos estén disponibles legalmente.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué Python para scrapers",
+      level: 2,
+      paras: [
+        "Es un lenguaje de propósito general: scripts, datos, OOP sencilla. Para scraping importan el código legible, los paquetes pip y una comunidad con ejemplos.",
+        "Pipeline típico: petición HTTP → HTML/JSON → extracción de campos → CSV/DB. El análisis después es otro trabajo.",
+      ],
+      lists: [
+        {
+          intro: "Pros para principiantes:",
+          items: [
+            "sintaxis clara",
+            "librerías para red y parseo de markup",
+            "debug cómodo en REPL o IDE",
+            "fácil conectar a tablas e informes",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Scraping de datos: significado y límites",
+          href: "/es/blog/parsing/",
+        },
+      ],
+    },
+    {
+      title: "Entorno: instalación y el primer .py",
+      level: 2,
+      paras: [
+        "Descarga Python actual desde python.org; en Windows marca «Add to PATH». Comprueba: en una terminal `python --version` y `print(\"Hello\")`.",
+        "Escribe el código en un archivo `.py` y ejecútalo desde terminal o IDE — no dejes scripts largos solo en una sesión interactiva. Los sandboxes online valen para ejercicios cortos, no para un crawler de producción.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo antes de scrapear:",
+          items: [
+            "Python 3 instalado",
+            "entorno virtual (venv)",
+            "pip y paquetes base para la tarea",
+            "una fuente objetivo clara y derechos sobre los datos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Scrapy, Beautiful Soup, Selenium",
+      level: 2,
+      paras: [
+        "Scrapy es un framework de spiders: colas de URL, pipelines, alto rendimiento a volumen. Encaja un crawl estable de páginas abiertas con límites y respeto a las reglas del sitio.",
+        "Beautiful Soup parsea HTML/XML ya descargado. No fetch por sí solo: suele ir junto a `requests` (u otro cliente HTTP). Útil para scripts de aprendizaje y muestras puntuales.",
+        "Selenium y similares son automatización de navegador. Su trabajo principal son tests de UI; para recogida de datos es un camino pesado. No uses un driver para saltar captcha y anti-bot.",
+      ],
+      lists: [
+        {
+          intro: "Guía aproximada:",
+          items: [
+            "aprender / una página → requests + Beautiful Soup",
+            "muchas URLs y un pipeline → Scrapy",
+            "hace falta render JS → API primero; si no, un stack de navegador deliberado sin saltar la protección",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Importante",
+          text: "No damos ejemplos de «pon el User-Agent como Firefox y pasa el bloqueo». Si el sitio bloquea robots, baja la carga, lee las reglas o usa un export/API oficial.",
+        },
+      ],
+      links: [
+        {
+          label: "Proteger un sitio del scraping",
+          href: "/blog/zashchita-ot-parsinga/",
+        },
+      ],
+    },
+    {
+      title: "Legalidad y ética de la recogida",
+      level: 2,
+      paras: [
+        "Un escaparate abierto en el navegador no es licencia para una base de datos. Revisa ToS, robots.txt, copyright y normas de datos personales.",
+        "Arriesgado: ignorar límites en masa, saltar bloqueos, scrapear contenido cerrado, revender bases ajenas, auto-rellenar un sitio con copias.",
+      ],
+      lists: [
+        {
+          intro: "Caminos más seguros:",
+          items: [
+            "APIs oficiales y feeds de partners",
+            "pausas y límites de peticiones",
+            "no tomar datos personales sin base legal",
+            "no publicar contenido único ajeno como tuyo",
+            "documentar la fuente de datos para el negocio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auto-relleno de un sitio",
+          href: "/es/blog/avtonapolnenie-sayta/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Python es un buen arranque de scraper: monta el entorno, elige la clase de librería para el trabajo y mantén la ética de la recogida. Para significado y límites ve el overview de scraping; para proteger tu propio sitio — una pieza aparte.",
+  ],
+  related: [
+    "parsing",
+    "avtonapolnenie-sayta",
+    "analiz-konkurentov",
+    "zashchita-ot-parsinga",
+    "yml-fayl",
+    "json",
+  ],
+};

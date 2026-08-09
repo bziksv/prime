@@ -119,3 +119,123 @@ export const zagolovkiH1H6En: BlogPost = {
     "http-zagolovki",
   ],
 };
+
+/** ES overlay for zagolovki-h1-h6 — same structure as RU JSON / EN. */
+export const zagolovkiH1H6Es: BlogPost = {
+  slug: "zagolovki-h1-h6",
+  title: "Encabezados H1–H6: estructura y sentido para SEO",
+  date: "2018-08-03",
+  category: "SEO",
+  cover: "/images/blog/zagolovki-h1-h6/cover.webp",
+  excerpt:
+    "Cómo usar H1–H6 en una página: un encabezado principal, jerarquía clara, keywords sin stuffing y estructura legible — no copy publicitario 4U ni cabeceras HTTP.",
+  lead: [
+    "Los encabezados HTML son el marco de sentido de la página — para personas y para la búsqueda. Esto no es una línea publicitaria catchy 4U ni cabeceras HTTP del servidor; son H1–H6 en el markup.",
+    "Abajo: cómo atar keywords a los niveles, cuántos niveles hacen falta de verdad y errores típicos como meter todas las keywords en un solo H1. El peso del encabezado es una señal on-page, no una garantía de ranking.",
+  ],
+  faq: [
+    {
+      q: "¿Esto va de titulares 4U?",
+      a: "No. 4U es una fórmula de copy de venta. Esta pieza cubre la jerarquía HTML H1–H6 para SEO y legibilidad.",
+    },
+    {
+      q: "¿Cuántos H1 por página?",
+      a: "Por lo general un encabezado principal. Varios H1 son formalmente posibles en HTML5, pero para claridad y el snippet es mejor un H1 fuerte.",
+    },
+    {
+      q: "¿El H1 importa más que el title?",
+      a: "El title pesa más en el snippet de resultados. El H1 es el encabezado visible principal en la página. Ambos deben coincidir en sentido.",
+    },
+    {
+      q: "¿Hace falta llegar a H6?",
+      a: "No. Un artículo típico necesita H1 + H2, a veces H3. Anidar profundo solo por keywords no aporta.",
+    },
+    {
+      q: "¿Puedo meter keywords en cada H?",
+      a: "No: stuffing y mala legibilidad. Pon la keyword donde encaje; el resto, lenguaje claro.",
+    },
+    {
+      q: "¿Deben ir estilos y colores dentro de las etiquetas H?",
+      a: "Estiliza con clases CSS — no infles el markup de encabezados con ruido inline. Una estructura limpia es más fácil de mantener.",
+    },
+    {
+      q: "¿Los encabezados solos suben la conversión?",
+      a: "Mejoran el escaneo y la relevancia. La conversión sigue dependiendo de la oferta, la UX y la confianza.",
+    },
+  ],
+  sections: [
+    {
+      title: "Keywords y expectativa del usuario",
+      level: 2,
+      paras: [
+        "La semántica de la página fija de qué van el H1 y los subtítulos. En la homepage — temas más amplios; en una página de producto o servicio — un modelo u oferta concreta, no todo el catálogo en una línea.",
+        "Evita spam telegráfico tipo «comprar X ciudad» sin lenguaje normal. Los buscadores entienden formas de palabra; las personas también — y abandonan páginas con wording torpe.",
+        "No vuelques todas las keywords de la página en un solo encabezado. Parte del sentido pertenece a H2/H3 y al cuerpo.",
+      ],
+      links: [
+        {
+          label: "Optimización de página",
+          href: "/es/blog/optimizatsiya-stranitsy/",
+        },
+        {
+          label: "Núcleo semántico de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+      ],
+    },
+    {
+      title: "Jerarquía H1–H6",
+      level: 2,
+      paras: [
+        "H1 es el tema de la página en conjunto. Los H2 son bloques mayores. Los H3 son subsecciones dentro de un bloque. Saltar niveles «por estética» confunde la estructura; saltar dos niveles sin necesidad no vale la pena.",
+        "Lógica de ejemplo: H1 «Registro temporal en Moscú» → H2 «Documentos» → H3 «Solicitud». Los detalles van en párrafos, no en un H1 interminable.",
+        "Un H1 largo que lista todo («coches, motos, camiones, tractores…») se lee peor y enfoca la intención con menos fuerza que un H1 corto más aclaración en el texto.",
+      ],
+      lists: [
+        {
+          intro: "Reglas básicas:",
+          items: [
+            "un H1 claro por URL",
+            "los H2 se leen como el outline de la página",
+            "keywords con naturalidad, sin hoja de keywords",
+            "los niveles encajan con el sentido — no «por SEO»",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Encaje con title, CTA y errores",
+      level: 2,
+      paras: [
+        "Title y H1 deben hablar de la misma oferta — con otras palabras cuando haga falta — sin copy-paste completo si perjudica el snippet.",
+        "Los CTA y el énfasis (strong) ayudan a las personas; no sustituyen la jerarquía de encabezados. No escondas toda la oferta solo en negrita sin H1.",
+        "Fallos habituales: varios H1 en competencia por la plantilla, H2 antes del H1, encabezados tipo botón sin cuerpo debajo, keywords en los seis niveles «por si acaso».",
+      ],
+      links: [
+        {
+          label: "Titulares 4U (copywriting)",
+          href: "/blog/zagolovki-4u/",
+        },
+        {
+          label: "Factores on-page",
+          href: "/blog/vnutrennie-faktory/",
+        },
+        {
+          label: "Cabeceras HTTP",
+          href: "/es/blog/http-zagolovki/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Abre una página comercial: ¿hay un solo H1, encaja con la intención y el title, y el outline se lee vía H2s? En diez minutos a menudo ves qué arreglar antes de «más keywords».",
+  ],
+  related: [
+    "optimizatsiya-stranitsy",
+    "zagolovki-4u",
+    "vnutrennie-faktory",
+    "snippet",
+    "semanticheskoe-yadro",
+    "http-zagolovki",
+  ],
+};

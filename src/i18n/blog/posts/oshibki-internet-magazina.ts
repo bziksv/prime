@@ -125,3 +125,129 @@ export const oshibkiInternetMagazinaEn: BlogPost = {
     "seo-oshibki",
   ],
 };
+
+/** ES overlay for oshibki-internet-magazina — same structure as RU JSON / EN. */
+export const oshibkiInternetMagazinaEs: BlogPost = {
+  slug: "oshibki-internet-magazina",
+  title: "7 errores de optimización ecommerce que las auditorías suelen pasar por alto",
+  date: "2019-05-16",
+  category: "E-commerce",
+  cover: "/images/blog/oshibki-internet-magazina/cover.webp",
+  excerpt:
+    "Errores ocultos de ecommerce: duplicados en paginación y filtros, un catálogo caótico, un slider de precio inútil, fotos débiles, un pop-up de región, modales extra y filtros ilógicos.",
+  lead: [
+    "Los checklists de auditoría SEO pillan velocidad, 404s y robots. Las tiendas a menudo pierden ventas e índice en cosas que «técnicamente funcionan»: sort de categoría roto, un slider de precio de cero a infinito, un gate de región antes del contenido y tres pop-ups seguidos.",
+    "Aquí van siete de esos misses — qué rompen y cómo arreglarlos. El outline más amplio de promoción del catálogo está en un artículo relacionado; esta pieza es lo que los informes automáticos suelen saltarse.",
+  ],
+  faq: [
+    {
+      q: "¿Esto sustituye el SEO técnico?",
+      a: "No. Tech y keywords siguen siendo la base. Estos errores van encima: UX del catálogo y plantillas que estropean el comportamiento y generan URLs débiles.",
+    },
+    {
+      q: "¿Los duplicados solo vienen de fichas copy-paste?",
+      a: "A menudo también de paginación (texto de categoría en cada página), filtros con la misma descripción y blurbs de marca de plantilla en decenas de SKUs.",
+    },
+    {
+      q: "¿Hace falta un selector de región justo al entrar?",
+      a: "Solo si la región cambia de verdad precio, stock, puntos de pickup o entrega. Si no, no bloquees la primera pantalla.",
+    },
+    {
+      q: "¿Cuántos pop-ups están bien?",
+      a: "Cuantos menos antes de la primera acción útil, mejor. Una pila de región + suscribirse + cupón al entrar casi siempre pega al rebote.",
+    },
+    {
+      q: "¿Los filtros deben quedarse siempre fuera del índice?",
+      a: "Depende del valor del combo. Slices basura y casi vacíos — noindex/canonical; landings útiles — planea aparte.",
+    },
+    {
+      q: "¿Cuándo esperar crecimiento tras los fixes?",
+      a: "Los fixes de UX mueven el comportamiento antes. Los rankings del conjunto de keywords se planean a 2–6 meses tras un índice estable — no «una semana después de arreglar el slider».",
+    },
+  ],
+  sections: [
+    {
+      title: "Duplicados y caos del catálogo",
+      level: 2,
+      paras: [
+        "El contenido duplicado en una tienda a menudo viene del CMS: el mismo texto SEO de categoría en cada página de paginación; descripciones de filtro copiadas en cada slice; fichas de la misma marca clonando specs del fabricante.",
+        "Segundo clásico — una categoría cajón de sastre. En «cuadricópteros», la página uno muestra tornillos y baterías porque el sort por precio empuja consumibles baratos arriba. Relevancia y trust caen: la gente busca aeronaves y ve recambios.",
+      ],
+      lists: [
+        {
+          intro: "Qué revisar:",
+          items: [
+            "texto único solo en la página canónica de categoría (no page=2…n)",
+            "los filtros no clonan un párrafo en cientos de URLs",
+            "la primera pantalla de la categoría muestra productos del nombre de la sección",
+            "accesorios y consumibles en sus propias secciones — no mezclados con SKUs core",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Promoción de tienda online",
+          href: "/es/blog/prodvizhenie-internet-magazina/",
+        },
+        {
+          label: "Categorías de tienda online",
+          href: "/es/blog/kategorii-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "Filtros, fotos y la primera pantalla",
+      level: 2,
+      paras: [
+        "Un slider de precio con un máximo «cósmico» es inútil: deslizar a mitad casi no corta nada. Mejor rangos escalonados («hasta…», «de… a…») y mover SKUs caros outliers a un slice premium.",
+        "Fotos malas (escaneos, blur, un solo ángulo) matan el comercio más que un title imperfecto: no se distingue el modelo, así que la gente se va a la búsqueda de imágenes del competidor. Hacen falta claridad, varios ángulos, un formato sensato y alt con sentido.",
+        "Un pop-up de región y una cola de modales rompen el primer contacto. Pide ciudad cuando precio, entrega o puntos offline dependan de ello — y deja cerrar sin un quest. Menos modales antes de elegir producto.",
+      ],
+      lists: [
+        {
+          intro: "Filtros checkbox que hacen daño:",
+          items: [
+            "combos de parámetros ilógicos",
+            "slices casi siempre vacíos",
+            "indexar combinaciones basura como duplicados",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Autotest rápido",
+          text: "Recorre «encontré categoría → filtré → abrí una ficha» en móvil como cliente nuevo. Todo en lo que tropieces mata la conversión para los demás.",
+        },
+      ],
+      links: [
+        {
+          label: "Ficha de producto",
+          href: "/es/blog/kartochka-tovara/",
+        },
+        {
+          label: "Paginación",
+          href: "/es/blog/paginatsiya/",
+        },
+      ],
+    },
+    {
+      title: "Cómo priorizar los fixes",
+      level: 2,
+      paras: [
+        "Haz benchmark de competidores líderes en estructura de catálogo y filtros — toma el sentido útil, no el layout. Halla los peores ejemplos del nicho y quita los mismos patrones en casa.",
+        "Luego mide: rebote y profundidad en categorías antes/después, cuota de filtros vacíos, tiempo hasta el primer producto en móvil. Los rankings de keywords crecen aparte, planificados en meses tras una base estable.",
+      ],
+    },
+  ],
+  closing: [
+    "Estos siete errores rara vez se encienden en rojo en una auditoría automática — pero pegan al comportamiento y al índice. Arregla catálogo, filtros, fotos y la primera pantalla — luego vuelve a keywords y enlaces.",
+  ],
+  related: [
+    "prodvizhenie-internet-magazina",
+    "kategorii-internet-magazina",
+    "kartochka-tovara",
+    "paginatsiya",
+    "glavnaya-internet-magazina",
+    "seo-oshibki",
+  ],
+};

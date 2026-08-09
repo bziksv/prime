@@ -153,3 +153,167 @@ export const registratsiyaDomenaEn: BlogPost = {
     "menedzher-paroley",
   ],
 };
+
+/** ES overlay for registratsiya-domena — same structure as RU JSON / EN. */
+export const registratsiyaDomenaEs: BlogPost = {
+  slug: "registratsiya-domena",
+  title: "Cómo registrar un dominio con un registrador",
+  date: "2017-11-13",
+  category: "Digital marketing",
+  cover: "/images/blog/registratsiya-domena/cover.webp",
+  excerpt:
+    "Registro de dominio paso a paso: cuenta en el registrador, comprobación de disponibilidad, datos del titular, name servers y pago — con un flujo tipo REG.ru de ejemplo, sin capturas de cuenta desfasadas.",
+  lead: [
+    "Registras un dominio con un registrador acreditado: confirmas que el nombre está libre, introduces datos del titular, fijas nameservers del hosting si hace falta y pagas un plazo (suele ser al menos un año).",
+    "Abajo: el camino habitual. REG.ru y otros registradores han rediseñado sus UIs; las opciones de pago de guías de 2017 también están desfasadas. Sigue el checkout en vivo del registrador. La elección de zona y nombre se cubre en los artículos de dominio de primer nivel y `.рф`.",
+  ],
+  faq: [
+    {
+      q: "¿Debo registrar el dominio en el mismo host?",
+      a: "Puedes, pero a menudo es más fácil mantenerlos separados: más simple cambiar de hosting sin migrar el dominio bajo un solo contrato de vendor en pánico.",
+    },
+    {
+      q: "¿Por qué los registradores piden datos de pasaporte?",
+      a: "Requisitos de registro/legales en zonas como .ru/.рф. Los datos del titular no tienen por qué aparecer como listado WHOIS público — revisa la política de privacidad del registrador.",
+    },
+    {
+      q: "¿Qué son los name servers?",
+      a: "Punteros a dónde vive el DNS del dominio. Los da el hosting o un servicio DNS. Sin nameservers correctos el sitio no abrirá por nombre aunque el dominio esté pagado.",
+    },
+    {
+      q: "¿Es obligatorio REG.ru?",
+      a: "No. Es un ejemplo de registrador popular. Criterios: acreditación, soporte, precio de renovación, 2FA, comodidad de DNS.",
+    },
+    {
+      q: "¿Debo activar la auto-renovación?",
+      a: "Útil si la tarjeta está al día y controlas los cargos. Si no, un calendario de recordatorios + renovación manual con antelación.",
+    },
+  ],
+  sections: [
+    {
+      title: "Elige el nombre, luego crea una cuenta",
+      level: 2,
+      paras: [
+        "El dominio debe ser corto, pronunciable y disponible en la zona que necesitas. Comprueba varias opciones: disponibilidad, historial (no un dominio quemado de spam) y marcas.",
+        "Elegir la zona (.ru, .com, .рф…) es una decisión aparte; el registro solo fija el nombre que ya elegiste.",
+      ],
+      links: [
+        {
+          label: "Dominio de primer nivel",
+          href: "/es/blog/domen-pervogo-urovnya/",
+        },
+        {
+          label: "Dominio .рф",
+          href: "/es/blog/domen-rf/",
+        },
+        {
+          label: "Historial del dominio",
+          href: "/es/blog/istoriya-domena/",
+        },
+      ],
+    },
+    {
+      title: "Cuenta en el registrador",
+      level: 2,
+      paras: [
+        "Crea una cuenta con un email real — ahí van confirmaciones y recordatorios de renovación. Guarda el login en un gestor de contraseñas y activa 2FA si está disponible.",
+        "El login social es cómodo, pero sigue haciendo falta un login email/contraseña de respaldo para años adelante.",
+      ],
+      links: [
+        {
+          label: "Gestor de contraseñas",
+          href: "/es/blog/menedzher-paroley/",
+        },
+      ],
+    },
+    {
+      title: "Búsqueda y checkout",
+      level: 2,
+      paras: [
+        "En el registro de dominio introduce el nombre: la cuenta muestra zonas disponibles y precio. Quita nombres extra del carrito de upsell para no pagar un pack accidental.",
+        "En el paso de add-ons a menudo ofrecen hosting, email, SSL, auto-renovación y «DNS premium». Toma solo lo que necesitas: el hosting se puede pedir aparte; los nameservers se pueden fijar después a mano.",
+      ],
+      lists: [
+        {
+          intro: "Antes de pagar, comprueba:",
+          items: [
+            "ortografía exacta del dominio",
+            "zona y plazo",
+            "sin servicios extra en la factura",
+            "datos del titular sin typos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "UI de la cuenta",
+          kind: "tip",
+          text: "Los botones «Registrar / Express / Continuar» y las rutas de menú en REG.ru y competidores cambiaron. El sentido del paso es el mismo: elige nombre → datos → DNS/NS → pagar.",
+        },
+      ],
+    },
+    {
+      title: "Datos del titular y nameservers",
+      level: 2,
+      paras: [
+        "Muchas zonas necesitan datos de registrante precisos (persona u organización). Eso es quien responde del dominio — no publicar tu pasaporte online.",
+        "Los nameservers enlazan el nombre con el hosting. Toma valores del host (a menudo dos a cuatro registros tipo `ns1…` / `ns2…`) o mantén el DNS en el registrador y crea registros A/CNAME hacia la IP o el host.",
+      ],
+      tables: [
+        {
+          caption: "Tras el pago",
+          headers: ["Qué comprobar", "Por qué"],
+          rows: [
+            ["Estado en la cuenta", "Dominio listado, plazo de renovación"],
+            ["NS", "Apuntan a tu DNS/hosting"],
+            ["WHOIS / ficha", "Titular y fechas correctos"],
+            ["Email del registrador", "Correo de renovación no en spam"],
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Hosting",
+          href: "/es/blog/hosting/",
+        },
+        {
+          label: "Servidor web",
+          href: "/es/blog/veb-server/",
+        },
+      ],
+    },
+    {
+      title: "Pago y renovación",
+      level: 2,
+      paras: [
+        "Paga con un método disponible en la cuenta (tarjeta, factura de empresa, etc.). Artículos viejos listaban wallets concretas — el set cambia; mira el checkout actual del registrador.",
+        "Renueva con antelación: tras el vencimiento arriesgas perder el nombre. Un calendario más auto-renovación con control de saldo gana a «me acordaré el día antes».",
+      ],
+    },
+    {
+      title: "Ideas clave",
+      level: 2,
+      paras: [
+        "Registro = nombre disponible + datos del titular + DNS/nameservers + pago del plazo. Elige el registrador a propósito; REG.ru en guías viejas es un ejemplo, no la única opción.",
+        "Elección de zona y chequeos de historial están en artículos relacionados; el email del dominio se monta aparte.",
+      ],
+      links: [
+        {
+          label: "Email para tu dominio",
+          href: "/es/blog/pochta-dlya-domena/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Comprueba disponibilidad del nombre, regístralo con datos y nameservers correctos, paga el plazo y pon ya la fecha de renovación en el calendario — para que el dominio sea tu dirección de trabajo, no una línea olvidada del carrito.",
+  ],
+  related: [
+    "domen-pervogo-urovnya",
+    "domen-rf",
+    "istoriya-domena",
+    "pochta-dlya-domena",
+    "veb-server",
+    "menedzher-paroley",
+  ],
+};

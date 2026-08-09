@@ -182,3 +182,186 @@ export const zabluzhdeniyaKontekstaEn: BlogPost = {
     "analiz-reklamnoy-kampanii",
   ],
 };
+
+/** ES overlay for zabluzhdeniya-konteksta — same structure as RU JSON. */
+export const zabluzhdeniyaKontekstaEs: BlogPost = {
+  slug: "zabluzhdeniya-konteksta",
+  title: "Publicidad contextual: 15 mitos que ya toca soltar",
+  date: "2020-01-13",
+  category: "Paid search",
+  cover: "/images/blog/zabluzhdeniya-konteksta/cover.webp",
+  excerpt:
+    "Mitos persistentes de PPC: solo búsqueda, solo posición 1, «display siempre quema», recomendaciones de Google a ciegas, ventas al instante y «triplica el presupuesto — triplicas leads» — qué falla en cada uno.",
+  lead: [
+    "Algunas peleas cliente–agencia sobre paid search siguen apoyadas en estereotipos de la era «solo keywords en Búsqueda». Mercados, subastas y tools cambiaron — el wording de los mitos a menudo no.",
+    "Abajo: quince ideas erróneas típicas y por qué dañan la economía. No copies cifras de presupuesto de «200 $ al mes» ni historias ajenas de ranking: mira tu nicho, CPA y landings.",
+  ],
+  faq: [
+    {
+      q: "¿La publicidad contextual es lo mismo que solo Búsqueda?",
+      a: "No. Búsqueda es parte del PPC. Hay redes, formatos shopping y smart, remarketing y display con KPIs distintos.",
+    },
+    {
+      q: "¿Siempre hace falta la posición 1?",
+      a: "No siempre. Las posiciones 2–4 a veces entregan mejor ROI con un CPC más bajo. Cuenta conversiones y ROAS — no la altura.",
+    },
+    {
+      q: "¿Hay que aplicar cada recomendación de Google?",
+      a: "No. Son pistas del sistema para los objetivos de la plataforma. Fíltralas con tu economía y la estructura de la cuenta.",
+    },
+    {
+      q: "¿No veo mi anuncio — está roto?",
+      a: "No necesariamente. Importan subasta, frecuencia, historial de clics, geo y dispositivo. Usa el preview de la cuenta — no «lo busqué en el móvil».",
+    },
+    {
+      q: "¿Si triplico el presupuesto, triplico los leads?",
+      a: "Rara vez es lineal. La competencia por la demanda restante sube y el CPA se mueve. Escala por pasos.",
+    },
+    {
+      q: "¿Correr ads solo en horario del call center?",
+      a: "Depende del funnel. Los leads de noche pueden encolar; las llamadas sin respuesta son gasto tirado. Encaja el schedule al tipo de toque.",
+    },
+    {
+      q: "¿La estructura del sitio es solo para SEO?",
+      a: "No. En formatos dinámicos y shopping, la calidad de página y feed pega directo a los ads y al learning.",
+    },
+  ],
+  sections: [
+    {
+      title: "Búsqueda, posiciones y display",
+      level: 2,
+      paras: [
+        "El mito «contextual = solo keywords de Búsqueda» está obsoleto: redes, campañas shopping, remarketing y lookalikes cubren otras etapas del funnel. Búsqueda es fuerte en demanda caliente, pero es cara y no lo cubre todo.",
+        "El mito «todas las conversiones solo de posiciones 1–3» empuja a pagar de más por visibilidad. Posiciones medias a menudo rinden mejor en ROI: menos clics, contacto más barato. Mira acciones target y share del gasto publicitario — no la primera línea bonita.",
+        "El mito «display siempre quema» confunde un banner amplio sin objetivo con reach con sentido, remarketing y personalización. Display tiene KPIs distintos — awareness, retorno, calentamiento — no un lead desde la primera impresión como Búsqueda.",
+      ],
+      lists: [
+        {
+          intro: "En vez del estereotipo:",
+          items: [
+            "mezcla Búsqueda y redes según el trabajo",
+            "juzga la posición vía CPA / ROMI",
+            "dale a display un objetivo y un segmento — no solo un banner",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Ads contextuales y SEO",
+          href: "/es/blog/kontekst-i-seo/",
+        },
+        {
+          label: "Errores de campaña publicitaria",
+          href: "/es/blog/oshibki-reklamnoy-kampanii/",
+        },
+      ],
+    },
+    {
+      title: "Automatización de Google, Smart y estructura del sitio",
+      level: 2,
+      paras: [
+        "El mito «aplica cada recomendación de Google de golpe» convierte la cuenta en una lista de checkboxes. Algunas tips ayudan; otras optimizan el volumen de subasta de la plataforma. Decide con tu margen y un test.",
+        "El mito «primero Búsqueda, Smart/shopping después» retrasa formatos fuertes de e-commerce. Las campañas shopping y smart (históricamente Smart Shopping; luego el ecosistema se movió hacia Performance Max y pares — mira tipos actuales) se apoyan en feed y learning: plánealas pronto si el catálogo está listo.",
+        "El mito «la estructura del sitio es solo para SEO» rompe DSA y shopping ads: titles, descriptions y categorías flojas → auto-ads flojos. Preparar landings y el feed es parte del PPC — no «algún día» para orgánico. No confundas timelines de ranking orgánico con el lanzamiento de paid search: prep del sitio y crecimiento orgánico van en relojes distintos.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          text: "Los nombres de campañas de Google han cambiado. Mira la lista actual en Ads y Help — no te aferres a una etiqueta de 2019.",
+        },
+      ],
+      links: [
+        {
+          label: "Google Merchant Center",
+          href: "/es/blog/google-merchant-center/",
+        },
+        {
+          label: "Sitio antes de la publicidad",
+          href: "/es/blog/sayt-pered-reklamoy/",
+        },
+      ],
+    },
+    {
+      title: "«No veo el anuncio» y esperar ventas en un día",
+      level: 2,
+      paras: [
+        "El mito «si yo o mi familia no vemos el anuncio — está roto» ignora la subasta, la frecuencia, la calidad del anuncio y que el sistema corta repeticiones vacías. Usa el preview de la cuenta — no estropea las stats como clics propios sin fin.",
+        "El mito «lancé hoy — ventas hoy» solo pasa en goods de impulso con un funnel perfecto. Ciclos de deal largos, un sitio crudo, poca data de learning y una marca desconocida empujan resultados a días y semanas — eso no es automáticamente «la agencia es mala».",
+        "El mito «un producto nuevo no necesita display» deja un nicho sin demanda de Búsqueda a dieta. A veces display crea las queries que Búsqueda atrapa después.",
+      ],
+    },
+    {
+      title: "Copy de ads, presupuestos y tests",
+      level: 2,
+      paras: [
+        "El mito «el copy sabroso lo es todo» infravalora la estructura de cuenta, keywords, landings y el mix de tools. El copy importa — no sustituye el sistema.",
+        "Mitos tipo «200 $/mes cubre todo» y «40 $ bastan para testear una tool nueva un mes» casi siempre mienten en nichos competitivos: un test debe reunir stats, o afinas settings sobre ruido.",
+        "El mito «experimento = cambiar cada banner, target, presupuesto y estrategia a la vez» mata las conclusiones. Cambia uno o dos levers por iteración.",
+        "El mito «×3 presupuesto = ×3 conversiones» no es lineal: la demanda restante se encarece, el CPA sube. Escala por pasos y mira la curva de retorno.",
+        "El mito «corre solo mientras el call center trabaja» encaja con llamadas sin respuesta, pero hace daño si los leads encolan en CRM. Encaja el schedule al tipo de conversión.",
+      ],
+      lists: [
+        {
+          intro: "Antídotos prácticos:",
+          items: [
+            "presupuesto de test desde un conteo target de conversiones — no una suma redonda",
+            "un lever de hipótesis a la vez",
+            "escala tras un CPA estable",
+            "schedule = tipo de lead (llamada vs formulario)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Presupuesto de Yandex Direct",
+          href: "/es/blog/byudzhet-yandeks-direkt/",
+        },
+        {
+          label: "Google Performance Planner",
+          href: "/es/blog/planirovshchik-rezultatov-google/",
+        },
+      ],
+    },
+    {
+      title: "Una lista corta en vez de una discusión",
+      level: 2,
+      paras: [
+        "Fija con el cliente: objetivo y KPI, CPA aceptable, horizonte de learning, qué cuenta como un test exitoso. Así los mitos sustituyen menos al informe.",
+        "Relee las afirmaciones en disputa a través de la economía: si no puedes chequear la frase con un número en un periodo — es gusto, no ley de PPC.",
+      ],
+      lists: [
+        {
+          intro: "15 mitos en una línea cada uno:",
+          items: [
+            "contextual ≠ solo Búsqueda",
+            "no solo posición 1",
+            "display no siempre quema",
+            "no cada tip de Google es una orden",
+            "formatos smart/shopping no son «para después»",
+            "el sitio también importa para PPC",
+            "«no lo veo» ≠ roto",
+            "no esperes ventas el día X",
+            "demanda nueva puede necesitar display",
+            "el copy no es todo el sistema",
+            "presupuesto diminuto ≠ un test",
+            "micro-presupuesto en una tool ≠ una conclusión",
+            "no lo cambies todo a la vez",
+            "el presupuesto no escala de forma lineal",
+            "schedule según tipo de lead",
+          ],
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Suelta dos o tres de los mitos más dañinos del brief antes del lanzamiento — acordaréis KPIs más rápido que discutir tras la primera factura de clics.",
+  ],
+  related: [
+    "oshibki-reklamnoy-kampanii",
+    "kontekst-i-seo",
+    "sayt-pered-reklamoy",
+    "byudzhet-yandeks-direkt",
+    "metriki-reklamy",
+    "analiz-reklamnoy-kampanii",
+  ],
+};

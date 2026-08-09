@@ -210,3 +210,214 @@ export const vnutrennyayaPerelinkovkaEn: BlogPost = {
     "semanticheskoe-yadro",
   ],
 };
+
+/** ES overlay for vnutrennyaya-perelinkovka — same structure as RU JSON / EN. */
+export const vnutrennyayaPerelinkovkaEs: BlogPost = {
+  slug: "vnutrennyaya-perelinkovka",
+  title: "Enlazado interno: anclas, patrones y práctica",
+  date: "2020-01-15",
+  category: "SEO",
+  cover: "/images/blog/vnutrennyaya-perelinkovka/cover.webp",
+  excerpt:
+    "Por qué importa el enlazado interno, cómo se diferencian las anclas de keyword de las genéricas, automatización vs. trabajo manual, patrones típicos para head/mid/long-tail y errores que restan más de lo que suman.",
+  lead: [
+    "El enlazado interno son los enlaces entre páginas de un mismo sitio. Para la gente, es un camino a la sección correcta y a materiales relacionados; para la búsqueda, señala qué URLs importan y cómo se conectan los temas.",
+    "Abajo: beneficios, anclas, auto vs manual, patrones por frecuencia de keyword y un orden de trabajo práctico — sin culto al «equity mágico de enlaces». Primero va una estructura clara de secciones; el enlazado la refuerza, no la sustituye.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia el enlazado de la estructura del sitio?",
+      a: "La estructura es la jerarquía de secciones y URLs. El enlazado son enlaces concretos en menú, breadcrumbs, cuerpo del texto y bloques «relacionados». Ver el artículo de estructura SEO.",
+    },
+    {
+      q: "¿Cuántos enlaces internos son normales en una página?",
+      a: "Los que ayuden a navegar. Decenas de anclas parecidas en un párrafo son riesgo de spam. Menú + breadcrumbs + dos a cinco enlaces contextuales suelen bastar.",
+    },
+    {
+      q: "¿Hacen falta anclas exactas de keyword?",
+      a: "No. Una mezcla de marca, URL, «leer más» y matches exactos de vez en cuando se ve más natural que la misma ancla comercial en todas partes.",
+    },
+    {
+      q: "¿Bastan los plugins automáticos?",
+      a: "Para bloques «relacionados» y breadcrumbs — sí como base. Las URLs comerciales clave mejor enlazarlas a mano, por sentido.",
+    },
+    {
+      q: "¿Hay que bloquear de la indexación todo enlace saliente?",
+      a: "No como dogma. Los salientes útiles están bien; los spammy y puramente utilitarios — nofollow/ugc según el caso. No lo confundas con la higiene interna.",
+    },
+    {
+      q: "¿Cuentan varios enlaces desde una página a la misma URL?",
+      a: "Para pasar señales, suele importar más el primer enlace en código/contexto. Duplicar la misma ancla en un paquete aporta poco.",
+    },
+    {
+      q: "¿El enlazado me pone en primera página en un mes?",
+      a: "No. Es una capa de optimización. La prep del sitio lleva unas semanas a un mes; una cuota relevante del núcleo en primera página se planifica típicamente a 2–6 meses tras arrancar el trabajo.",
+    },
+    {
+      q: "¿Por dónde empiezo en un sitio viejo?",
+      a: "Escanea enlaces internos (crawler), mapea URLs importantes, arregla rotos e irrelevantes, refuerza entradas a páginas comerciales desde contenido afín.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué importa el enlazado interno",
+      level: 2,
+      paras: [
+        "Acelera el crawl: el bot encuentra URLs por enlaces, no solo por el sitemap. Los usuarios llegan antes a un servicio, ficha de producto o artículo y chocan con menos callejones sin salida — eso sostiene señales de comportamiento sin engagement falso.",
+        "Los enlaces ayudan a repartir atención entre landings importantes: categorías, páginas comerciales, guías fuertes. En sitios jóvenes es una de las palancas más a mano: las menciones externas salen caras, y los internos los controlas tú.",
+      ],
+      lists: [
+        {
+          intro: "Efectos con un enfoque sensato:",
+          items: [
+            "navegación más clara",
+            "descubrimiento más rápido de URLs nuevas",
+            "clusters temáticos más legibles",
+            "menos páginas «huérfanas» sin enlaces entrantes",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+        {
+          label: "Navegación del sitio",
+          href: "/es/blog/navigatsiya-sayta/",
+        },
+        {
+          label: "Qué es un enlace",
+          href: "/es/blog/chto-takoe-ssylka/",
+        },
+      ],
+    },
+    {
+      title: "Anclas de keyword y enlaces genéricos",
+      level: 2,
+      paras: [
+        "El ancla es el texto del enlace. Una buena ancla promete lo que hay en la página destino y encaja en el párrafo. En una tienda puede ser el nombre de categoría o modelo; en un artículo — un tema relacionado. Los bloques «relacionados» y «te puede gustar» funcionan si la lista es relevante — no al azar.",
+        "Las anclas genéricas («aquí», «leer más», nombre de marca, URL cruda) bajan la sobreoptimización de la lista de anclas. Mantén el equilibrio: no conviertas todo el menú en la misma keyword comercial.",
+      ],
+      lists: [
+        {
+          intro: "Práctica de anclas:",
+          items: [
+            "redacción única hacia URLs importantes",
+            "relevancia respecto al texto alrededor",
+            "sin spam de matches exactos en cada párrafo",
+            "enlaces de texto en el menú ganan a botones imagen sin etiqueta",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Hipertexto",
+          href: "/es/blog/gipertekst/",
+        },
+      ],
+    },
+    {
+      title: "Enlazado automático y manual",
+      level: 2,
+      paras: [
+        "La automatización cubre elementos de todo el sitio: menú, breadcrumbs, sitemap HTML, bloques related por tags o categorías. Monta rápido un marco de navegación en un CMS (incluidos plugins de related/breadcrumb). El lado flojo — poco control semántico: lo «relacionado» puede llevar fuera del intent.",
+        "El enlazado manual (contextual) — enlaces en el cuerpo a servicios, categorías y desgloses afines. Más lento, pero más preciso. En un sitio nuevo, conecta materiales nuevos con los viejos tras la indexación; en uno viejo, refuerza URLs comerciales desde documentos del match más cercano.",
+      ],
+      lists: [
+        {
+          intro: "Un híbrido que funciona:",
+          items: [
+            "menú + breadcrumbs + sitemap como base",
+            "bloques related con filtros de categoría",
+            "enlaces manuales a páginas comerciales prioritarias",
+            "un crawler para URLs rotas y huérfanas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Sitemap XML",
+          href: "/es/blog/karta-sayta/",
+        },
+        {
+          label: "Screaming Frog",
+          href: "/es/blog/screaming-frog/",
+        },
+      ],
+    },
+    {
+      title: "Patrones por tipo de keyword",
+      level: 2,
+      paras: [
+        "Los patrones son modelos simplificados, no dogma. Para términos head, a menudo se refuerzan la homepage y secciones altas: las páginas de abajo enlazan hacia arriba en la jerarquía. Para mid-tail (tienda típica), peso en categorías de segundo nivel: home → categorías ← fichas/subsecciones. Para long-tail, importan más landings profundas — enlazadas desde arriba y desde contenido vecino.",
+        "Primero mapa de keywords y jerarquía de URLs, luego el patrón de enlaces. Conectar intents distintos «por equity» duele: gente y bots esperan lógica. Mira clics y bounce — un mapa de clics muestra qué caminos están vivos.",
+      ],
+      lists: [
+        {
+          intro: "Límites del patrón:",
+          items: [
+            "no hay magia universal de «anillo»",
+            "el spam de enlaces en una página resta confianza",
+            "un enlace contextual fuerte gana a cinco idénticos",
+            "la estructura pesa más que la geometría ingeniosa de flechas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Núcleo semántico",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Promoción de ecommerce",
+          href: "/es/blog/prodvizhenie-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "Un orden de trabajo práctico",
+      level: 2,
+      paras: [
+        "1) Lista URLs prioritarias desde tu mapa de keywords. 2) Escanea enlaces internos actuales y los rotos. 3) Comprueba: ancla y página destino coinciden en sentido. 4) Añade lazos contextuales y arregla el menú. 5) Recrawl y monitoriza índice/tráfico.",
+        "Guarda una tabla simple: URL → keywords objetivo → conteo entrante → notas. Así se ven páginas «ligeras» con uno o dos inbounds y candidatas a reforzar.",
+      ],
+      lists: [
+        {
+          intro: "Errores habituales:",
+          items: [
+            "la misma ancla en cada enlace",
+            "enlaces a URLs irrelevantes",
+            "ignorar enlaces rotos y cadenas de redirects",
+            "esperar primera página solo reordenando enlaces",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "El enlazado es una capa de trabajo — no sustituye contenido ni técnica. La primera página para una cuota relevante del núcleo suele construirse en 2–6 meses tras arrancar la promoción — no de reordenar enlaces en la semana uno.",
+        },
+      ],
+      links: [
+        {
+          label: "Enlaces rotos",
+          href: "/es/blog/bitye-ssylki/",
+        },
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "seo-struktura-sayta",
+    "navigatsiya-sayta",
+    "karta-sayta",
+    "chto-takoe-ssylka",
+    "screaming-frog",
+    "semanticheskoe-yadro",
+  ],
+};

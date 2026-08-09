@@ -158,3 +158,162 @@ export const dashboardEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for dashboard — same structure as RU JSON / EN. */
+export const dashboardEs: BlogPost = {
+  slug: "dashboard",
+  title: "Dashboards: qué son y por qué los necesita el negocio",
+  date: "2021-11-13",
+  category: "Digital marketing",
+  cover: "/images/blog/dashboard/cover.webp",
+  excerpt:
+    "Qué es un dashboard: por qué juntar métricas en un solo panel, quién lo usa, qué tipos existen y por dónde empezar — de hojas de cálculo a BI.",
+  lead: [
+    "Un dashboard es un panel donde viven las métricas clave en un solo sitio: gráficos, tablas, estados. En lugar de una docena de exports, ves la foto ahora mismo y decides más rápido.",
+    "Abajo: quién necesita un dashboard, qué tipos hay, cómo armar uno y qué herramientas encajan. Los precios de los servicios cambian — la lógica de métricas importa más que el nombre de marca del BI.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia un dashboard de un informe en Excel?",
+      a: "Un informe a menudo es puntual. Un dashboard es una vista viva: los datos se refrescan, los filtros son interactivos y el foco son KPIs — no un muro de números.",
+    },
+    {
+      q: "¿Por dónde debería empezar un principiante?",
+      a: "Con 5–7 métricas atadas a un goal y una hoja simple o Looker Studio. No vuelques todos los datos del mundo en la primera pantalla.",
+    },
+    {
+      q: "¿Quién necesita herramientas BI como Tableau?",
+      a: "Cuando hay muchas fuentes, datasets grandes y viz o permisos de acceso complejos. Un proyecto pequeño a menudo se apaña con hojas.",
+    },
+    {
+      q: "¿Cada cuánto debería refrescarse?",
+      a: "Depende de la decisión: los ads a menudo necesitan updates diarios o por hora; la estrategia puede vivir en un ritmo semanal o mensual. Las definiciones compartidas de métricas importan más que la tasa de refresh sola.",
+    },
+    {
+      q: "¿Puede un dashboard pulido engañarte?",
+      a: "Sí. Revisa fuentes, el periodo y anomalías — y mantén escepticismo ante tendencias «perfectas» que no se han reconciliado con datos en bruto.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es un dashboard",
+      level: 2,
+      paras: [
+        "Es una UI de monitorización: datos en bruto de ads, CRM, sitio y warehouse se juntan y se muestran con claridad — gráficos, tarjetas KPI, tablas.",
+        "El objetivo es acortar el camino de «¿qué pasa?» a una decisión. No sustituye a un analista — da al equipo un lenguaje compartido de números.",
+      ],
+      lists: [
+        {
+          intro: "Qué suele entregar un buen panel:",
+          items: [
+            "un sitio para métricas clave",
+            "comparación de periodos y segmentos",
+            "menos montaje manual de informes",
+            "detectar más rápido una caída o un pico",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Quién lo usa",
+      level: 2,
+      paras: [
+        "Marketing mira tráfico, CAC, conversiones y alcance. Ventas mira el funnel, tratos y velocidad de respuesta. Dirección mira ingresos, margen y cumplimiento del plan. Producto y SaaS miran activación, retention y errores.",
+      ],
+      lists: [
+        {
+          intro: "Roles y foco:",
+          items: [
+            "marketer — canales y coste por lead",
+            "ventas — plan vs. real y stages del CRM",
+            "ejecutivo — un resumen sin exceso de detalle",
+            "producto — uso y calidad del servicio",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tipos de dashboard",
+      level: 2,
+      paras: [
+        "Elige el tipo según el trabajo: operativo (hoy / ahora mismo), analítico (por qué) o estratégico (trimestre / año).",
+      ],
+      lists: [
+        {
+          intro: "Ejemplos:",
+          items: [
+            "marketing — ads, sitio, leads",
+            "ventas — funnel y reps",
+            "finanzas — ingresos, gasto, cash",
+            "producto — DAU/MAU y el funnel de producto",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo armar uno",
+      level: 2,
+      paras: [
+        "Primero preguntas y KPIs, luego fuentes, luego la herramienta. Si no, obtienes caos bonito.",
+      ],
+      lists: [
+        {
+          intro: "Paso a paso:",
+          items: [
+            "por qué existe el panel y qué decisiones apoya",
+            "qué fuentes (Metrica, cuentas de ads, CRM, hojas)",
+            "nombres y fórmulas compartidos de métricas",
+            "layout de pantalla: KPIs arriba, detalle abajo",
+            "permisos de acceso para colegas",
+            "chequeo de números en una muestra de control",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error frecuente",
+          kind: "warning",
+          text: "Volcar 40 widgets por si acaso. Una pantalla, un rol. Todo lo demás va en pestañas o informes aparte.",
+        },
+      ],
+    },
+    {
+      title: "Herramientas",
+      level: 2,
+      paras: [
+        "Empieza con Google Sheets o Excel más pivots. Siguiente nivel: Looker Studio (antes Data Studio), Power BI, Tableau y constructores cloud como Klipfolio. La elección depende del volumen de datos, presupuesto y ancho de banda de IT.",
+        "Precios y nombres de producto cambian — revisa términos actuales. Importan más connectors estables y un modelo de datos claro.",
+      ],
+      lists: [
+        {
+          intro: "Guía de complejidad:",
+          items: [
+            "hojas — volumen pequeño, arranque rápido",
+            "Looker Studio y herramientas similares — marketing con entrada gratuita",
+            "Power BI / Tableau — modelos complejos y permisos a escala empresa",
+            "BI custom o builds de producto — cuando los connectors de stock no bastan",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Reglas de higiene de datos",
+      level: 2,
+      paras: [
+        "Un dashboard miente si mienten las fuentes o los periodos. Reconcilia anomalías y nombra quién posee la calidad de los datos.",
+      ],
+      lists: [
+        {
+          intro: "Higiene mínima:",
+          items: [
+            "una definición de verdad para cada métrica",
+            "periodo y zona horaria claros",
+            "filtros por defecto que no oculten fallos",
+            "docs de de dónde sale cada número",
+            "escepticismo ante gráficos «perfectos» que no se han comprobado",
+          ],
+        },
+      ],
+    },
+  ],
+};

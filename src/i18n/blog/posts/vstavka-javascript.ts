@@ -208,3 +208,212 @@ export const vstavkaJavascriptEn: BlogPost = {
     "verstka-saytov",
   ],
 };
+
+/** ES overlay for vstavka-javascript — same structure as RU JSON / EN. */
+export const vstavkaJavascriptEs: BlogPost = {
+  slug: "vstavka-javascript",
+  title: "Cómo añadir JavaScript a un sitio: CMS y constructores",
+  date: "2020-11-13",
+  category: "SEO",
+  cover: "/images/blog/vstavka-javascript/cover.webp",
+  excerpt:
+    "Dónde colocar snippets JS: head y body, WordPress, sitios sin panel de admin y builders. Cómo no romper el layout ni instalar el mismo script dos veces — con contadores y widgets como ejemplos.",
+  lead: [
+    "Contadores, chats, píxeles y widgets casi siempre llegan como un snippet de JavaScript. Tu trabajo es poner el código donde cargue en las páginas correctas, evitar duplicados y asegurar que el HTML cacheado siga incluyendo el script.",
+    "Abajo: cómo se ve el snippet, dónde ponerlo en WordPress y builders, cómo editar una plantilla sin panel y qué verificar tras la inserción. La instalación de Yandex Metrica está aparte; este artículo cubre el principio general.",
+  ],
+  faq: [
+    {
+      q: "¿El script va en el head o antes de </body>?",
+      a: "Sigue la recomendación del vendor. La analítica a menudo va lo antes posible en el head; widgets pesados a veces cargan más abajo. No adivines contra la docs del servicio.",
+    },
+    {
+      q: "¿Puedo pegar JS en el texto de la página por el editor visual?",
+      a: "Mala idea: el editor puede strippear tags. Usa un campo de scripts, un plugin, un tag manager o una edición de plantilla.",
+    },
+    {
+      q: "¿Qué es un tag manager?",
+      a: "Un contenedor (por ejemplo GTM) donde viven tags de marketing sin editar el tema a cada rato. Práctico cuando hay muchos contadores y un dueño claro de publicación.",
+    },
+    {
+      q: "¿Por qué no funciona nada tras añadir el script?",
+      a: "Caché, código ausente en algunas plantillas, un typo, un blocker, CSP, un script solo en un tema draft o una instalación doble.",
+    },
+    {
+      q: "¿Es seguro copiar cualquier snippet de internet?",
+      a: "No. Toma código solo de la cuenta del servicio (analítica, ads, chat). Los «aceleradores» y «scripts SEO» al azar son riesgo de malware.",
+    },
+    {
+      q: "¿Necesito acceso FTP?",
+      a: "Para editar header.php o el tema — a menudo sí, o vía el file manager del host. En builders — solo su panel.",
+    },
+    {
+      q: "¿WordPress.com y WordPress.org son lo mismo?",
+      a: "No. En .com, los límites de JS custom dependen del plan. En .org self-hosted eres más libre vía tema y plugins.",
+    },
+    {
+      q: "Añadí un script — ¿eso sube el SEO?",
+      a: "Añadir JS solo no mueve la visibilidad en búsqueda. Un contador es para analítica; el crecimiento viene de contenido, trabajo técnico y demanda — a menudo un horizonte de 2–6 meses de progreso hacia primera página tras la prep.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué código suele añadirse",
+      level: 2,
+      paras: [
+        "Casi siempre es un fragmento de una cuenta de servicio: analítica, píxel de ads, chat, test A/B, widget de reservas. Se ve como `<script>…</script>` o un include de archivo externo.",
+        "No lo confundas con un bloque HTML de contenido o CSS. JS ejecuta lógica en el navegador; un bug puede romper un botón o un formulario en la página.",
+      ],
+      lists: [
+        {
+          intro: "Toma código solo de:",
+          items: [
+            "la cuenta oficial del servicio",
+            "documentación de la plataforma",
+            "un brief de tu developer o agencia",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "No pegues un «script SEO al azar» de un foro. Para la seguridad del sitio, es la misma clase de riesgo que un plugin desconocido.",
+        },
+      ],
+      links: [
+        {
+          label: "Seguridad del sitio",
+          href: "/es/blog/bezopasnost-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Principio general: dónde debe vivir el script",
+      level: 2,
+      paras: [
+        "El código tiene que aterrizar en el HTML de todas o de plantillas seleccionadas: home, categorías, productos, thank-you. Idealmente en un solo sitio: header o footer del tema, un campo «scripts in head» o un contenedor de tag manager.",
+        "Tras insertar, revisa el source de la página y Network: ¿cargó el script? ¿Hay duplicado? ¿CSP lo bloquea?",
+      ],
+      lists: [
+        {
+          intro: "Revisa:",
+          items: [
+            "Ctrl+U / View Source — ¿está el fragmento?",
+            "incógnito sin blocker",
+            "vaciar caché CMS/CDN",
+            "móvil y desktop",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Código fuente de la página",
+          href: "/es/blog/ishodnyy-kod/",
+        },
+      ],
+    },
+    {
+      title: "WordPress (self-hosted)",
+      level: 2,
+      paras: [
+        "Caminos típicos: un plugin de scripts en header/footer, ajustes del tema («código en head»), un child theme editando `header.php`/`footer.php`, o un tag manager. No edites el tema padre sin child — los updates borran los cambios.",
+        "El editor visual del post no es para JS. En WordPress.com, el JS custom puede no estar disponible en planes bajos — revisa los límites actuales de la plataforma.",
+      ],
+      lists: [
+        {
+          intro: "Orden de operaciones:",
+          items: [
+            "backup",
+            "pega el código en un solo lugar oficial",
+            "vacía la caché",
+            "revisa 3–4 tipos de página",
+            "no dupliques el mismo código en GTM y el tema a la vez",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Instalar Yandex Metrica",
+          href: "/es/blog/metrika-ustanovka/",
+        },
+      ],
+    },
+    {
+      title: "Sitio sin admin práctico: editar la plantilla",
+      level: 2,
+      paras: [
+        "Si solo tienes FTP o un file manager, busca la plantilla compartida de header/footer (a menudo `header.php`, `index.html` o un layout del engine). Inserta el fragmento según la docs del servicio, mantén UTF-8 y no rompas tags vecinos.",
+        "Un typo en `header` puede tumbar todo el sitio. Guarda una copia del archivo antes de editar y revisa la homepage justo tras subir.",
+      ],
+      lists: [
+        {
+          intro: "Mini checklist de seguridad:",
+          items: [
+            "descarga archivo → edita en local → sube",
+            "no borres tags de cierre",
+            "no dejes backups `.php.bak` expuestos en el webroot",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Builders: Wix, Squarespace, Shopify y similares",
+      level: 2,
+      paras: [
+        "Los builders tienen sus propios campos: «Custom code», «Header scripts», ajustes del tema, scripts de checkout. Los nombres de menú cambian — busca «code», «scripts», «pixel» o «head».",
+        "Los límites del plan son reales: en planes gratis, el JS custom a menudo está bloqueado. Shopify: código del tema / scripts adicionales — con cuidado y con backup del tema. No tomes screenshots de 2018 como evangelio.",
+      ],
+      lists: [
+        {
+          intro: "Flujo general en builders:",
+          items: [
+            "encuentra el campo de custom code en ajustes del sitio o del tema",
+            "pega el fragmento de la cuenta del servicio",
+            "publica",
+            "revisa en la página live (no solo preview)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Errores típicos tras la inserción",
+      level: 2,
+      paras: [
+        "Dos contadores idénticos, código solo en la homepage, caché sirviendo HTML sin el script, un minifier rompiendo JS, Content-Security-Policy cortando el dominio del servicio, pegar instrucciones HTML junto con boilerplate de email.",
+        "Si «ayer funcionaba», revisa el deploy del tema, el plugin de caché y el update del builder. El diagnóstico de Metrica está en un artículo aparte.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de aceptación:",
+          items: [
+            "una sola instancia del código",
+            "URLs necesarias cubiertas",
+            "sin errores de consola de tu fragmento",
+            "evento o visita visible en la cuenta del servicio",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error frecuente",
+          kind: "tip",
+          text: "Pegar el código a mano en cada página. Tras un rediseño olvidarás la mitad — centraliza en la plantilla o un tag manager.",
+        },
+      ],
+      links: [
+        {
+          label: "Metrica no funciona",
+          href: "/es/blog/metrika-ne-rabotaet/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "metrika-ustanovka",
+    "metrika-ne-rabotaet",
+    "ishodnyy-kod",
+    "bezopasnost-sayta",
+    "verstka-saytov",
+  ],
+};

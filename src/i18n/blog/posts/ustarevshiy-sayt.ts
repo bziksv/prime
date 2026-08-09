@@ -107,3 +107,111 @@ export const ustarevshiySaytEn: BlogPost = {
     "trafik-bez-lidov",
   ],
 };
+
+/** ES overlay for ustarevshiy-sayt — same structure as RU JSON / EN. */
+export const ustarevshiySaytEs: BlogPost = {
+  slug: "ustarevshiy-sayt",
+  title: "Señales de un sitio desactualizado: checklist antes del rediseño",
+  date: "2019-02-25",
+  category: "Digital marketing",
+  cover: "/images/blog/ustarevshiy-sayt/cover.webp",
+  excerpt:
+    "Cuándo un sitio se siente viejo: estructura hinchada, sin layout responsive, funciones pobres, copy atiborrado, desajuste diseño/marca, legado Flash y carga lenta — sin garantías de rankings tras un rediseño.",
+  lead: [
+    "Caer en leads y rankings no siempre significa un diseño nuevo desde cero. A menudo el sitio simplemente dejó de cuadrar con las expectativas: estructura incómoda, sin UX móvil decente, páginas pesadas, copy escrito para robots.",
+    "Abajo: señales de envejecimiento y qué hacer. Las tendencias de flat design de guías viejas no son dogma — importan más claridad, velocidad y encaje de marca. La visibilidad en primera página tras los arreglos se planifica en meses de trabajo, no «repinta y rankeas al instante».",
+  ],
+  faq: [
+    {
+      q: "¿Un rediseño siempre sube el SEO?",
+      a: "No. Si rompes URLs, velocidad o contenido, puedes caer. Planifica redirects y conserva páginas útiles.",
+    },
+    {
+      q: "¿Es obligatorio el layout responsive?",
+      a: "Para comercio — prácticamente sí. Un m-site aparte rara vez hace falta; más a menudo un dominio responsive.",
+    },
+    {
+      q: "¿Flash sigue siendo relevante?",
+      a: "No. La tech está en end-of-life. Haz vídeo y animación con estándares web modernos (HTML/CSS/JS).",
+    },
+    {
+      q: "¿El copy sobreoptimizado es señal de vejez?",
+      a: "Sí si son muros de texto por densidad de keywords. Hoy importan más utilidad, estructura y sentido para las personas.",
+    },
+    {
+      q: "¿Por dónde empiezo si todo está mal?",
+      a: "UX móvil y velocidad, luego estructura y nav, luego visuales y marca. No empieces por una imagen hero nueva.",
+    },
+    {
+      q: "¿Hace falta un relanzamiento completo?",
+      a: "No siempre. A veces bastan IA, plantillas y aceleraciones. Rediseño completo — cuando marca, UX y técnica se han separado sin remedio.",
+    },
+  ],
+  sections: [
+    {
+      title: "Estructura, móvil y funciones",
+      level: 2,
+      paras: [
+        "El negocio creció — el sitio acumuló páginas sin secciones. Los clientes no cazan un muro de enlaces; se van. Arreglo: IA temática, nav coherente, menos ruido visual. Prueba un camino «encuentra X» con gente nueva o session replay.",
+        "Sin una vista móvil usable — pierdes una gran parte de las visitas. Hace falta responsive: texto legible, targets táctiles grandes, bloques reordenados — no un desktop encogido.",
+        "Funciones pobres frente a competidores (sin calculadora, comparar, búsqueda decente, consulta) también se ven como un sitio del pasado. Añade lo que de verdad ayuda al trato; prueba A/B — no copies todo.",
+      ],
+      links: [
+        {
+          label: "Sitio responsive",
+          href: "/es/blog/adaptivnyy-sayt/",
+        },
+        {
+          label: "Errores de tienda online",
+          href: "/blog/oshibki-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "Contenido, diseño y marca",
+      level: 2,
+      paras: [
+        "Keyword stuffing y muros SEO sin valor marcan un enfoque desfasado. Subheads, ejemplos, visuales y una respuesta clara a la consulta ganan a la densidad.",
+        "El diseño construye confianza. Trucos datados (skeuomorphism pesado, texturas ruidosas, tipografía caótica) bajan la sensación de que el negocio está al día. Moderno no es perseguir la moda del año — es legibilidad y jerarquía limpia.",
+        "Si el sitio no encaja con la identidad (colores, fuentes, logo), la marca se ve fragmentada. Sincroniza con el brand book.",
+      ],
+      links: [
+        {
+          label: "Identidad de marca",
+          href: "/es/blog/aydentika-brenda/",
+        },
+        {
+          label: "Actualización de contenido",
+          href: "/es/blog/obnovlenie-kontenta/",
+        },
+      ],
+    },
+    {
+      title: "Deuda técnica: Flash y velocidad",
+      level: 2,
+      paras: [
+        "Flash en un sitio es una bandera roja: no funciona en navegadores modernos ni en móvil. Pasa clips y banners a HTML5/vídeo.",
+        "La carga lenta sube el bounce. Comprime imágenes, cachea, corta JS/CSS pesado, revisa PageSpeed y dispositivos reales. Las cifras de «se van a los 3 segundos» de encuestas viejas son guía — mide tu TTFB/LCP.",
+        "Vivir en un sitio desactualizado duele a leads y a confianza. El checklist de arriba es un orden de diagnóstico antes de presupuestar una imagen bonita.",
+      ],
+      notes: [
+        {
+          title: "Rediseño ≠ magia",
+          kind: "tip",
+          text: "Tras el lanzamiento mira indexación, 404s y conversión. Los rankings del set de keywords crecen a lo largo de meses si la base técnica y de contenido es sólida — prep y rediseño no son lo mismo que visibilidad en primera página.",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Un sitio desactualizado se nota como fricción: difícil de encontrar, incómodo en el teléfono, lento, fuera de marca y con deuda técnica tipo Flash. Recorre el checklist, prioriza móvil y velocidad — y solo entonces discute tendencias de botones.",
+  ],
+  related: [
+    "adaptivnyy-sayt",
+    "aydentika-brenda",
+    "obnovlenie-kontenta",
+    "oshibki-internet-magazina",
+    "seo-oshibki",
+    "trafik-bez-lidov",
+  ],
+};

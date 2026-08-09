@@ -1,5 +1,143 @@
 import type { BlogPost } from "../../../data/blog";
 
+/** ES overlay for bidder — same structure as RU JSON. */
+export const bidderEs: BlogPost = {
+  slug: "bidder",
+  title: "Bidder (gestor de pujas): para qué sirve y cómo elegirlo",
+  date: "2018-03-14",
+  category: "Paid search",
+  cover: "/images/blog/bidder/cover.webp",
+  excerpt:
+    "Qué es un bidder para Direct y Google Ads: gestión automatizada de pujas vía API, pros y contras, cuándo encaja una herramienta externa y cómo comprobar el efecto — junto a las estrategias nativas de la cuenta.",
+  lead: [
+    "Un bidder (gestor de pujas) es un servicio que, por reglas y API, mueve las pujas en búsqueda de pago sin retocar a mano cada anuncio. La idea es reaccionar a la subasta más rápido que una persona.",
+    "Abajo: por qué los equipos conectan uno, fortalezas y debilidades, y cómo elegir. Las listas de marcas de 2018 están desfasadas — mira las funciones actuales de Direct/Ads y de cuentas de agencia. Puja más alta ≠ primera posición para siempre: la calidad del anuncio y de la landing también entran en la subasta.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia un bidder de las pujas en Direct?",
+      a: "En la cuenta — estrategias nativas manuales y automáticas. Un bidder es una capa externa de reglas sobre la API. A menudo bastan las estrategias integradas.",
+    },
+    {
+      q: "¿Un principiante necesita bidder?",
+      a: "Primero estructura, negativos, anuncios y objetivos. El auto-bidding sin base solo acelera el desperdicio.",
+    },
+    {
+      q: "Si el bidder corre 24/7, ¿se pueden olvidar las campañas?",
+      a: "No. Hacen falta límites, monitorización de CPA/gasto y edición de reglas. Autopilot sin informes es peligroso.",
+    },
+    {
+      q: "¿Una puja más alta siempre da mejor posición?",
+      a: "No siempre. Cuentan la puja y la calidad. Perseguir solo la primera posición es caro y no siempre más rentable.",
+    },
+    {
+      q: "¿Qué servicio de bidder elegir?",
+      a: "Uno que soporte tus cuentas, ofrezca reglas/límites claros y un log de cambios. No compres por anuncios de «garantizamos la posición 1».",
+    },
+    {
+      q: "¿Cómo saber que el bidder ayuda?",
+      a: "Compara before/after a igualdad de condiciones: gasto, CPA/CPL, cuota de clics objetivo. Sin baseline, las conclusiones son conjeturas.",
+    },
+    {
+      q: "¿Acceso API y permisos del bidder son un riesgo?",
+      a: "Sí: concede los derechos mínimos necesarios, guarda el acceso de forma centralizada, revócalo al cambiar de contratista.",
+    },
+  ],
+  sections: [
+    {
+      title: "Para qué un gestor de pujas",
+      level: 2,
+      paras: [
+        "En keywords competitivas las pujas se mueven sin parar. A mano no das abasto con cientos de grupos: el bidder sube/baja pujas por reglas, mantiene una posición o un CPC objetivo dentro de límites.",
+        "Tiene sentido con muchas keywords/grupos y economía clara. En un test corto con una docena de keywords, suelen bastar las estrategias de la cuenta.",
+      ],
+      links: [
+        {
+          label: "Pujas en Yandex Direct",
+          href: "/es/blog/stavki-direkt/",
+        },
+        {
+          label: "Precio del clic en Yandex",
+          href: "/es/blog/tsena-klika-yandeks/",
+        },
+      ],
+    },
+    {
+      title: "Pros",
+      level: 2,
+      paras: [
+        "Velocidad de reacción a la subasta y reglas compartidas en lugar de caos manual en miles de filas.",
+        "Límites de gasto y corredores de puja objetivo ayudan a no explotar en un pico nocturno sin control.",
+        "Algunas herramientas dan resúmenes de cambios e informes — útiles para una agencia con muchas cuentas.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo suelen conectar uno:",
+          items: [
+            "muchos grupos y keywords",
+            "reglas compartidas en un portfolio",
+            "objetivos en analítica ya midiendo",
+            "un límite y KPI para el test",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Contras y riesgos",
+      level: 2,
+      paras: [
+        "Reglas malas escalan el error: un bidder quema presupuesto rápido en irrelevancia.",
+        "Dependencia de un servicio de terceros, precios y estabilidad de la API. Cambiar de herramienta es un proyecto aparte.",
+        "La ilusión de que todo va solo: sin negativos, anuncios sólidos y landing, las auto-pujas no te salvan.",
+      ],
+      links: [
+        {
+          label: "Estrategias de Google Ads",
+          href: "/es/blog/strategii-google-ads/",
+        },
+        {
+          label: "Errores de setup en búsqueda de pago",
+          href: "/es/blog/oshibki-nastroyki-konteksta/",
+        },
+      ],
+    },
+    {
+      title: "Cómo elegir y verificar",
+      level: 2,
+      paras: [
+        "Comprueba soporte de Direct/Ads, tipos de reglas (posición, CPA, límite diario), transparencia del log y revocación de acceso.",
+        "No te apoyes en scorecards viejos de Elama / Aori de artículos de 2018 — el mercado de herramientas se movió; mira ofertas actuales y el contrato.",
+        "Antes de activar, fija una o dos semanas de baseline. Después — compara KPI. Sin mejora con reglas correctas — simplifica o vuelve a las estrategias de la cuenta.",
+      ],
+      links: [
+        {
+          label: "Análisis de campaña publicitaria",
+          href: "/es/blog/analiz-reklamnoy-kampanii/",
+        },
+        {
+          label: "Presupuesto en Direct",
+          href: "/es/blog/byudzhet-yandeks-direkt/",
+        },
+      ],
+    },
+  ],
+  notes: {
+    title: "Importante",
+    text: "Los nombres de bidders de terceros en roundups viejos pueden estar desfasados o renombrados. Elige herramienta por capacidades API actuales y tu proceso — no por una lista de 2018.",
+  },
+  closing: [
+    "Si la estructura y los objetivos ya están sólidos y las pujas manuales no dan abasto con la subasta — prueba un bidder en parte de las campañas con un límite duro; si no, cierra primero la higiene de setup.",
+  ],
+  related: [
+    "stavki-direkt",
+    "tsena-klika-yandeks",
+    "strategii-google-ads",
+    "byudzhet-yandeks-direkt",
+    "analiz-reklamnoy-kampanii",
+    "oshibki-nastroyki-konteksta",
+  ],
+};
+
 /** EN overlay for bidder — same structure as RU JSON. */
 export const bidderEn: BlogPost = {
   slug: "bidder",

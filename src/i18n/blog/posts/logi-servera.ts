@@ -154,3 +154,158 @@ export const logiServeraEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for logi-servera — same structure as RU JSON / EN. */
+export const logiServeraEs: BlogPost = {
+  slug: "logi-servera",
+  title: "Logs del servidor y comportamiento de los crawlers",
+  date: "2021-07-19",
+  category: "SEO",
+  cover: "/images/blog/logi-servera/cover.webp",
+  excerpt:
+    "Cómo leer access logs del sitio: User-Agents de crawlers, códigos de estado, crawl budget, duplicados y errores de escaneo — junto a tools de Webmaster y Search Console.",
+  lead: [
+    "Los logs del servidor registran quién pidió qué: personas, CDN, monitoring y bots de búsqueda. Muestran la actividad real de crawl — no solo lo que resumen los paneles de Search Console y Webmaster.",
+    "Abajo: qué mirar en access logs, cómo estimar crawl budget, encontrar URLs que desperdician y pillar errores de escaneo. Cerrar páginas del índice y una auditoría técnica completa son temas relacionados en artículos aparte.",
+  ],
+  faq: [
+    {
+      q: "¿Para qué logs si ya tengo Webmaster / Search Console?",
+      a: "Los paneles dan resúmenes y muestras. Los logs son el stream completo de peticiones al servidor: bots raros, media, URLs raras y códigos de estado exactos.",
+    },
+    {
+      q: "¿Dónde saco access.log?",
+      a: "En hosting / VPS: el directorio de logs del web server (a menudo `/var/log/nginx/` o el panel del hosting). El formato depende de Apache/Nginx y los ajustes.",
+    },
+    {
+      q: "¿Qué es crawl budget?",
+      a: "Un límite aproximado de atención del crawler al sitio en un periodo. Duplicados, parámetros, secciones pesadas y 4xx/5xx lo comen. El goal — que el bot visite URLs importantes con más frecuencia.",
+    },
+    {
+      q: "¿Puedo arreglar SEO solo con logs?",
+      a: "No. Los logs diagnostican el crawl. Luego — arreglos de robots/canonical/estructura, contenido y técnica. Ver los artículos de auditoría técnica y cierre de indexación.",
+    },
+    {
+      q: "¿Necesito un Log File Analyzer de pago?",
+      a: "Al empezar basta un export + Excel/Google Sheets o un script. Los analyzers aceleran volúmenes grandes; nombres y planes cambian.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué son los logs del servidor",
+      level: 2,
+      paras: [
+        "Un access log es una cronología de peticiones HTTP: IP, hora, método, URL, código de estado, User-Agent, a veces referrer y tamaño de respuesta. Un error log son fallos de app/servidor; para SEO suele importar más el access.",
+        "Los crawlers dejan User-Agents característicos (Googlebot, YandexBot y otros). No toda cadena «tipo bot» es un crawler oficial: verifica IP/docs del buscador cuando haya duda.",
+      ],
+      lists: [
+        {
+          intro: "Campos típicos:",
+          items: [
+            "fecha y hora",
+            "URL pedida",
+            "código HTTP (200, 301, 404, 500…)",
+            "User-Agent",
+            "método GET/POST",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Bases del web server",
+          href: "/es/blog/veb-server/",
+        },
+      ],
+    },
+    {
+      title: "Cómo abrir y parsear un log",
+      level: 2,
+      paras: [
+        "Los archivos `.log` se ven fácil en un editor o se importan a una hoja (a menudo CSV / separados por espacios). Varios archivos diarios se unen (`cat` / merge del panel) antes de analizar un periodo.",
+        "Filtra líneas del User-Agent necesario, ordena por URL y código de estado. Tablas dinámicas: hits por URL, cuota de 404 para el bot, paths que queman más crawl budget.",
+      ],
+      lists: [
+        {
+          intro: "Orden rápido:",
+          items: [
+            "toma un corte de semana–mes",
+            "filtra Googlebot / YandexBot",
+            "URLs con más conteo de peticiones",
+            "cuota de respuestas no-200",
+            "URLs con `?` y duplicados claros",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "No guardes ni publiques logs crudos con IPs de usuarios sin necesidad — son datos personales y carga de disco. Para análisis SEO bastan agregados anonimizados.",
+        },
+      ],
+    },
+    {
+      title: "Crawl budget y prioridades",
+      level: 2,
+      paras: [
+        "Si el bot pega sin parar a filtros, sesiones, favicons y paginación vacía, las páginas de servicio importantes se actualizan menos. En logs eso se ve como hits frecuentes a paths «basura» y visitas raras a money pages.",
+        "Corta ruido: canonicals y URLs unificadas, cierra paths de utilidad del crawl/índice según haga falta, respuestas más rápidas, menos cadenas de redirect, linking interno sólido a prioridades.",
+      ],
+      lists: [
+        {
+          intro: "Qué suele comer presupuesto:",
+          items: [
+            "duplicados por parámetros",
+            "filtros y sorts sin fin",
+            "enlaces rotos (404 masivos)",
+            "media pesada que no necesita indexarse",
+            "áreas admin dejadas abiertas al crawl",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Excluir páginas del índice",
+          href: "/es/blog/zakrytie-ot-indeksatsii/",
+        },
+        {
+          label: "Redirects",
+          href: "/es/blog/redirekt/",
+        },
+      ],
+    },
+    {
+      title: "Errores de crawl y qué arreglar",
+      level: 2,
+      paras: [
+        "Mira 4xx/5xx para bots: enlaces internos rotos, redirects obsoletos, timeouts. Cruza con informes de crawl en Google Search Console y otras tools de webmaster — CDN y sampling pueden dejar huecos.",
+        "Crawl pesado de un catálogo con contenido vacío es señal de simplificar estructura o cerrar la sección. URLs importantes raras — refuerza linking interno y el sitemap.",
+      ],
+      lists: [
+        {
+          intro: "Checklist tras revisar el log:",
+          items: [
+            "arreglar los 404 más frecuentes que tienen enlaces internos",
+            "quitar/fusionar duplicados por parámetros",
+            "alinear robots.txt y noindex con el goal",
+            "actualizar el sitemap de URLs prioritarias",
+            "volver a chequear un corte de log en 2–4 semanas",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Limpiar el crawl es parte de la prep técnica. El crecimiento de ranking del set de keywords se planifica a 2–6 meses tras empezar el trabajo sistemático — no el resultado de una sola limpieza de log.",
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+  ],
+};

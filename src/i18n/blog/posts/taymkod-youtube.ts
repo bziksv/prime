@@ -164,3 +164,168 @@ export const taymkodYoutubeEn: BlogPost = {
     "youtube-monetizaciya",
   ],
 };
+
+/** ES overlay for taymkod-youtube — same structure as RU JSON / EN. */
+export const taymkodYoutubeEs: BlogPost = {
+  slug: "taymkod-youtube",
+  title: "Timecodes en YouTube: capítulos, enlaces con tiempo y navegación",
+  date: "2021-05-25",
+  category: "SMM",
+  cover: "/images/blog/taymkod-youtube/cover.webp",
+  excerpt:
+    "Qué es un timecode de YouTube: capítulos en la descripción, marcadores clicables, una URL con parámetro de tiempo — y por qué ayudan a espectadores y canales, sin capturas antiguas de Studio.",
+  lead: [
+    "Un timecode de YouTube es un marcador de tiempo en un vídeo: `1:23` en la descripción o un enlace que abre en ese segundo. En uploads largos es una tabla de contenidos — no un «secreto del algoritmo».",
+    "Abajo: por qué ayudan los capítulos, cómo formatear la descripción, cómo copiar una URL con tiempo y qué efecto esperar. Los menús de Studio cambian; usa la Help actual de YouTube como fuente de verdad.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia un timecode de los capítulos?",
+      a: "Los capítulos son un set de timecodes en la descripción (a menudo empezando en `0:00`) que YouTube dibuja como segmentos en la barra. Un solo enlace con tiempo salta a un momento sin un TOC completo.",
+    },
+    {
+      q: "¿Hace falta empezar en 0:00?",
+      a: "Para capítulos automáticos suele hacer falta un primer marcador en cero y varios ítems. Revisa la Help actual de YouTube — los límites se actualizan.",
+    },
+    {
+      q: "¿Qué formato de tiempo uso?",
+      a: "A menudo `M:SS` o `H:MM:SS` al inicio de una línea de descripción, luego el título del bloque. Ejemplo: `0:00 Intro` / `2:15 Desglose del caso`.",
+    },
+    {
+      q: "¿Los timecodes ayudan a la promoción?",
+      a: "De forma indirecta: más fácil completar y compartir un clip. No son garantía de recomendaciones; tema, miniatura y retención importan más.",
+    },
+    {
+      q: "¿Cómo abro un vídeo en el minuto 5?",
+      a: "Copia una URL con tiempo desde el player (escritorio: clic derecho → copiar URL en el tiempo actual) o añade un parámetro tipo `?t=5m` / `&t=300` — los formatos varían según el cliente.",
+    },
+    {
+      q: "¿Por qué el vídeo no arranca desde el principio?",
+      a: "YouTube a menudo reanuda donde lo dejaste. Incógnito u otra cuenta muestran el comportamiento «desde cero» si el enlace no tiene `t=`.",
+    },
+    {
+      q: "¿Los Shorts necesitan capítulos?",
+      a: "Para clips verticales cortos un TOC suele sobrar. Los timecodes ayudan más en guías largas, streams y podcasts.",
+    },
+    {
+      q: "¿Puedo guardar timecodes solo privados?",
+      a: "No hay un TOC privado aparte. Guarda un enlace con tiempo en favoritos o notas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué los timecodes ayudan a espectadores y creadores",
+      level: 2,
+      paras: [
+        "Un vídeo largo sin TOC hace que la gente haga scrub al azar. Los capítulos bajan la fricción: el espectador salta directo al bloque que necesita.",
+        "Los creadores responden comentarios con más facilidad («empieza en 7:40»), comparten clips en redes y fijan la estructura del guion ya en el montaje.",
+        "Para webinars, desgloses, entrevistas y vídeos tipo álbum, los timecodes casi son obligatorios; para un Short de 30 segundos — no.",
+      ],
+      lists: [
+        {
+          intro: "Especialmente útiles para:",
+          items: [
+            "guías how-to y tutoriales",
+            "grabaciones de streams y conferencias",
+            "podcasts con timeline temático",
+            "reseñas que cubren varios productos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Descripción del canal y del vídeo en YouTube",
+          href: "/es/blog/opisanie-youtube-kanala/",
+        },
+        {
+          label: "Crecer un canal de YouTube",
+          href: "/es/blog/raskrutka-youtube/",
+        },
+      ],
+    },
+    {
+      title: "Capítulos en la descripción",
+      level: 2,
+      paras: [
+        "Lista marcadores en la descripción del vídeo: tiempo al inicio de la línea + un título corto de sección. YouTube reconoce la lista y arma capítulos clicables en la barra de progreso cuando se cumplen las reglas actuales del servicio.",
+        "Nombra secciones para el espectador («Instala el plugin»), no notas internas de montaje («corte 3»).",
+        "No conviertas la descripción en 40 marcadores cada 20 segundos — un TOC debe ayudar, no hacer ruido.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Studio cambia",
+          text: "Rutas antiguas pasaban por «Creator Studio» y otros nombres de menú. Edita la descripción en YouTube Studio en el vídeo; busca el camino actual en Help, no en capturas de 2021.",
+        },
+      ],
+    },
+    {
+      title: "Enlace con marca de tiempo",
+      level: 2,
+      paras: [
+        "Para dejar a alguien en un fragmento, envía una URL con marcador de tiempo. En escritorio el player suele tener «copiar enlace en el tiempo actual».",
+        "A mano puedes añadir un parámetro de tiempo a la URL del vídeo (segundos o `1m30s` — depende de cómo YouTube acepte enlaces en tu cliente). Prueba el enlace en incógnito.",
+        "Útil para comentarios, messengers y posts del blog: «el fix del bug empieza en 4:12».",
+      ],
+      lists: [
+        {
+          intro: "Mini checklist del enlace con tiempo:",
+          items: [
+            "ve al segundo correcto",
+            "copia la URL con tiempo",
+            "verifica en otro navegador/modo",
+            "di cerca qué verán ahí",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo integrarlo en el guion y la descripción",
+      level: 2,
+      paras: [
+        "Esboza bloques en el guion o en la timeline de montaje primero — luego pasa los tiempos a la descripción.",
+        "Pon la esencia del vídeo y el CTA en las primeras líneas de la descripción; el TOC debajo. Así las previews al compartir se leen bien.",
+        "Alinea capítulos con tarjetas/end screens si los usas: no prometas una «sección de precios» que no está.",
+      ],
+      links: [
+        {
+          label: "Montaje de vídeo en YouTube",
+          href: "/blog/montazh-youtube/",
+        },
+        {
+          label: "Botones y elementos del vídeo",
+          href: "/es/blog/knopki-youtube/",
+        },
+      ],
+    },
+    {
+      title: "Errores y mitos",
+      level: 2,
+      paras: [
+        "Mito: «solo con timecodes entras en recomendaciones». No — mejoran la UX. El crecimiento del canal es tema, retención, constancia.",
+        "Error: formato de tiempo incorrecto o sin cero en el primer capítulo — el TOC no se arma.",
+        "Error: copiar timecodes ajenos sin comprobar — los tiempos no cuadrarán tras un re-edit.",
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "Un timecode es navegación por tiempo: capítulos en la descripción y/o un enlace con `t=`.",
+        "Añade un TOC en vídeos largos; tras publicar, revisa clics en la barra.",
+        "Es un servicio al espectador — no un sustituto de contenido fuerte y miniaturas.",
+      ],
+    },
+  ],
+  closing: [
+    "En tu próximo vídeo largo, añade un TOC que empiece en `0:00` con 4–7 bloques, publica y revisa los clics en la barra — más rápido que discutir «secretos del algoritmo».",
+  ],
+  related: [
+    "opisanie-youtube-kanala",
+    "raskrutka-youtube",
+    "knopki-youtube",
+    "shapka-youtube",
+    "strayk-youtube",
+    "montazh-youtube",
+  ],
+};

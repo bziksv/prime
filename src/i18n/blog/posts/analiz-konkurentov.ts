@@ -134,3 +134,138 @@ export const analizKonkurentovEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for analiz-konkurentov — same structure as RU JSON / EN. */
+export const analizKonkurentovEs: BlogPost = {
+  slug: "analiz-konkurentov",
+  title: "Análisis del sitio de la competencia: tráfico, visibilidad y reputación",
+  date: "2021-10-19",
+  category: "SEO",
+  cover: "/images/blog/analiz-konkurentov/cover.webp",
+  excerpt:
+    "Cómo estimar el tráfico y la visibilidad de la competencia: SimilarWeb, Ahrefs, Semrush y otras fuentes. Por qué divergen las cifras — y cómo no engañarte.",
+  lead: [
+    "El análisis de competidores va de orden de magnitud de tráfico, canales y páginas fuertes — no de copiar el sitio de otro. Las cifras de las herramientas son siempre estimaciones: cruza unas cuantas fuentes y mira la magnitud, no una precisión falsa.",
+    "Abajo: por qué mirar el tráfico ajeno, qué herramientas dan un corte útil y cómo leer los desacuerdos. Alexa como herramienta masiva ya no existe; usa servicios actuales y sentido común.",
+  ],
+  faq: [
+    {
+      q: "¿Por qué Ahrefs y Semrush muestran tráfico distinto?",
+      a: "Índices, geos y modelos de clic distintos. Mira el orden de magnitud y la tendencia — no un headcount «exacto».",
+    },
+    {
+      q: "¿Puedo saber el tráfico exacto de un competidor?",
+      a: "Sin acceso a su analytics — no. Obtienes estimaciones y señales indirectas: visibilidad, ads, prueba social.",
+    },
+    {
+      q: "¿Basta SimilarWeb solo?",
+      a: "Como corte rápido de canales — sí. Para el núcleo SEO y enlaces, suma Keys.so / Ahrefs / Semrush y una revisión manual del SERP.",
+    },
+    {
+      q: "¿Debo fiarme del bloque «para anunciantes» en un sitio?",
+      a: "Como afirmación del dueño — sí, con matices. Cruza con estimaciones de herramientas y la fecha de actualización del mediakit.",
+    },
+    {
+      q: "¿En qué se diferencia el análisis de tráfico del parsing?",
+      a: "Aquí — estimaciones de visitas y canales. El parsing va más de recoger precios, catálogos, URLs. Ver el artículo aparte.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué mirar a los competidores",
+      level: 2,
+      paras: [
+        "Para sentir el tamaño del nicho, quién se lleva la demanda, qué canales funcionan (búsqueda, directo, social, referral) y dónde cavar en tu propia estrategia.",
+        "Objetivos típicos: fijar un benchmark de tráfico, encontrar ideas de páginas, estimar el potencial publicitario de un sitio antes de comprar placement.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Herramientas de estimación de tráfico",
+      level: 2,
+      paras: [
+        "SimilarWeb estima visitas, canales, geo y engagement a partir de paneles y señales abiertas. Útil para comparar sitios a ojo.",
+        "Ahrefs, Semrush, SpyFu y pares locales son más fuertes en orgánico: keywords, páginas que traen tráfico, tendencias de visibilidad. Los modelos difieren — las cifras no coincidirán.",
+        "El Alexa Ranking histórico ya no es un pilar diario: el producto salió del mercado. Las guías viejas de Alexa son lectura de archivo.",
+      ],
+      lists: [
+        {
+          intro: "Qué se suele revisar:",
+          items: [
+            "estimación de visitas y tendencia",
+            "cuota de búsqueda / directo / social / referral",
+            "principales países",
+            "keywords y landings aproximados",
+            "bounce y profundidad — solo como señal gruesa",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Si una herramienta muestra 20k y otra 80k — no discutas por miles. Fija el orden de magnitud (decenas de miles) y calibra contra tu propia analytics en tu sitio.",
+        },
+      ],
+    },
+    {
+      title: "Páginas de ads y preguntar directamente",
+      level: 2,
+      paras: [
+        "Medios y blogs a veces publican un mediakit: reach, precio de placement, audiencia. Útil, pero las cifras pueden estar desfasadas o maquilladas.",
+        "Una pregunta directa al dueño con una oferta justa a veces da un orden de magnitud honesto. Cruza la respuesta con SimilarWeb y herramientas SEO: un gran hueco es motivo para dudar.",
+      ],
+      lists: [
+        {
+          intro: "Banderas rojas del mediakit:",
+          items: [
+            "sin fecha de actualización",
+            "solo «likes» sin visitas",
+            "tráfico muchas veces por encima de las estimaciones de herramientas sin explicación",
+            "negativa a mostrar siquiera capturas anonimizadas de la cuenta",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Reputación y señales blandas",
+      level: 2,
+      paras: [
+        "Además de las visitas, revisa reseñas, menciones, actividad social, calidad de contenido y velocidad del sitio. Tráfico «estimado» alto con un feed muerto y reseñas tóxicas es un benchmark flojo.",
+      ],
+      lists: [
+        {
+          intro: "Checklist rápido de reputación:",
+          items: [
+            "reseñas y menciones en búsqueda",
+            "comentarios vivos vs bots",
+            "frescura del contenido",
+            "contactos y políticas claros",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo decidir",
+      level: 2,
+      paras: [
+        "Reúne dos o tres fuentes, fija el orden de magnitud del tráfico y las URLs fuertes, escribe hipótesis para tu propio sitio. No copies copy y diseño uno a uno.",
+      ],
+      lists: [],
+      links: [
+        {
+          label: "Parsing de datos",
+          href: "/es/blog/parsing/",
+        },
+        {
+          label: "Núcleo semántico",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+  ],
+};

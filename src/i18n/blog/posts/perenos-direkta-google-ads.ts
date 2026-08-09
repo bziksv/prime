@@ -163,3 +163,167 @@ export const perenosDirektaGoogleAdsEn: BlogPost = {
     "oshibki-reklamnoy-kampanii",
   ],
 };
+
+/** ES overlay for perenos-direkta-google-ads — same structure as RU JSON / EN. */
+export const perenosDirektaGoogleAdsEs: BlogPost = {
+  slug: "perenos-direkta-google-ads",
+  title: "Pasar campañas de Yandex Direct a Google Ads",
+  date: "2018-09-12",
+  category: "Paid search",
+  cover: "/images/blog/perenos-direkta-google-ads/cover.webp",
+  excerpt:
+    "Cómo pasar campañas de búsqueda de Yandex Direct a Google Ads: match types, negativos, límites de anuncios y geo — sin volcados ciegos de Excel ni herramientas «teleporter» obsoletas de 2018.",
+  lead: [
+    "Pasar de Yandex Direct a Google Ads no es copiar un archivo uno a uno. Match types, negativos, geo, límites de caracteres y políticas de anuncios difieren. Un volcado ciego crea impresiones amplias, «Low search volume» y gasto tirado.",
+    "Abajo: cuándo tiene sentido el traslado, la vía manual o por hoja de cálculo, y qué revisar tras el import. Las herramientas convertidoras de reviews de 2018 pueden haber desaparecido o cambiado de nombre — confirma que la herramienta esté actual. La disponibilidad de Google Ads en tu región depende de los hechos al momento del lanzamiento.",
+  ],
+  faq: [
+    {
+      q: "¿Puedo exportar Direct y subir directo a Ads?",
+      a: "Casi nunca sin procesar: columnas, match types y negativos no alinean. Hace falta una hoja puente o un editor.",
+    },
+    {
+      q: "¿Los anuncios de la Red de Yandex pasan solos a Display?",
+      a: "Un camino fiable de un clic suele no existir. Redes y creatividades se reconstruyen aparte para la lógica de Google.",
+    },
+    {
+      q: "¿Y los negativos a nivel de frase?",
+      a: "En Google Ads los negativos viven en la campaña o el ad group (y en listas compartidas), no en cada keyword como a menudo en Direct. Lleva la intención al nivel correcto.",
+    },
+    {
+      q: "¿Por qué tocar los match types?",
+      a: "Broad match en Google sin modificadores se comporta distinto de los operadores familiares de Direct. Si saltas el mapeo, metes demanda irrelevante.",
+    },
+    {
+      q: "¿Hace falta Editor?",
+      a: "Para estructuras medianas y grandes, Google Ads Editor o un CSV cuidadoso ayudan. Las campañas pequeñas suelen quedar más limpias si las montas a mano.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cuándo ayuda el traslado — y cuándo conviene reconstruir",
+      level: 2,
+      paras: [
+        "El traslado tiene sentido si Direct ya tiene sets de keywords, anuncios y estructura de ad groups que funcionan, y abres un segundo canal. No lo confundas con mover entre cuentas de Yandex o exportar a un bidder — son trabajos distintos.",
+        "Si la estructura está obsoleta, llena de long-tails basura y los anuncios son flojos, es más rápido montar Google Ads desde cero por cluster y llevar de Direct solo keywords vivas y copy ganador.",
+      ],
+      lists: [
+        {
+          intro: "Tres escenarios de «traslado»:",
+          items: [
+            "dentro de Yandex (otro login) — herramientas nativas de Direct",
+            "a un bidder o cuenta de agencia — sigue las reglas de ese servicio",
+            "Direct → Google Ads — el tema de este artículo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Estrategias de Google Ads",
+          href: "/es/blog/strategii-google-ads/",
+        },
+        {
+          label: "Estrategias de Yandex Direct",
+          href: "/es/blog/strategii-yandeks-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Por qué Excel «tal cual» se rompe",
+      level: 2,
+      paras: [
+        "Los exports de Direct y Google Ads usan esquemas distintos: nombres de campaña y ad group, tipos de anuncio, presupuestos, estados. Sin mapeo de columnas, el import falla o crea basura.",
+        "En estructuras pequeñas, un traslado a mano en la UI o Editor es más fácil. En medianas, usa una tabla puente: keywords, negativos, titulares, URLs, guías de puja. Las tablas viejas de comparación «35 vs 30 caracteres» se quedan obsoletas — mira los límites en el editor actual de Ads.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Sobre los «teleporters»",
+          text: "Los convertidores elogiados en 2018 ahorran tiempo pero no quitan responsabilidad: tras el import, siempre revisa a mano match types, negativos y políticas.",
+        },
+      ],
+    },
+    {
+      title: "Keywords y match types",
+      level: 2,
+      paras: [
+        "En Google Ads, broad, phrase y exact match — más smart matching — difieren de los operadores de Direct. El truco viejo de «plus en vez de espacios» de guías tempranas puede referirse al broad match modifier retirado — mira la sintaxis actual en Google Help.",
+        "En la práctica, no arrastres cada long-tail: en Ads es fácil chocar con limited delivery en frases raras. Quédate con el núcleo y mid-tails fuertes; crece las colas desde search terms ya dentro de Google.",
+      ],
+      lists: [
+        {
+          intro: "Antes de importar keywords:",
+          items: [
+            "limpia basura obvia y duplicados",
+            "fija match types a propósito — no «todo broad»",
+            "revisa URLs de landing",
+            "presupuesto para el learning de la subasta de Google",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Keywords en Google Ads",
+          href: "/es/blog/klyuchi-google-ads/",
+        },
+      ],
+    },
+    {
+      title: "Negativos, geo y copy de anuncios",
+      level: 2,
+      paras: [
+        "Lleva los negativos a nivel de keyword de Direct al ad group, la campaña o una lista compartida de negativos. Ten en cuenta formas de palabra donde Google no las cubre como estás acostumbrado en Yandex. Los cross-negatives entre grupos siguen siendo útiles.",
+        "El geo en Ads se fija más a menudo a nivel de campaña; en Direct suele ser más flexible por grupo — reconstruye la estructura para eso. En copy, las políticas de Google son más estrictas con CTAs de «haz clic aquí» y «!» en titulares — edita antes de la revisión.",
+      ],
+      links: [
+        {
+          label: "Negativos en Direct",
+          href: "/es/blog/minus-slova-direkt/",
+        },
+        {
+          label: "Auditoría de campaña publicitaria",
+          href: "/es/blog/audit-reklamnoy-kampanii/",
+        },
+      ],
+    },
+    {
+      title: "Tras el import: revisiones obligatorias",
+      level: 2,
+      paras: [
+        "Abre las campañas en la UI o Editor: estados de anuncios, errores de política, match types de keywords, listas de negativos, geo, idioma, presupuesto, estrategia de puja, UTM o tracking template, y el enlace a analytics.",
+        "No mezcles redes a ciegas (Search vs Display). Pasar una estructura de la Red de Yandex a Display o Performance Max suele ser una reconstrucción: creatividades y señales distintas.",
+      ],
+      lists: [
+        {
+          intro: "Checklist del día de lanzamiento:",
+          items: [
+            "sin broad match accidental en todas las keywords",
+            "negativos en su sitio",
+            "anuncios que pasaron la revisión de política",
+            "import de conversiones funcionando",
+            "presupuesto diario y techos encajan con un test",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Un traslado significa adaptar la estructura a las reglas de Google, no «archivo → upload». Keywords, negativos, geo y copy siempre necesitan pulido a mano.",
+        "Un auto-convertidor acelera, pero la responsabilidad final es la revisión en Ads. Reconstruye las campañas de red aparte de Search.",
+      ],
+    },
+  ],
+  closing: [
+    "Exporta grupos que funcionan desde Direct, alinea match types y negativos a la lógica de Google Ads, corta long-tails flojos y solo entonces importa — un día de revisión en Editor cuesta menos que una semana de desperdicio en impresiones amplias.",
+  ],
+  related: [
+    "strategii-google-ads",
+    "strategii-yandeks-direkt",
+    "klyuchi-google-ads",
+    "minus-slova-direkt",
+    "audit-reklamnoy-kampanii",
+    "oshibki-reklamnoy-kampanii",
+  ],
+};

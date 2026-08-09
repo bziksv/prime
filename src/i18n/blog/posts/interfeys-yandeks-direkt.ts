@@ -158,3 +158,162 @@ export const interfeysYandeksDirektEn: BlogPost = {
     "stavki-direkt",
   ],
 };
+
+/** ES overlay for interfeys-yandeks-direkt — same structure as RU JSON / EN. */
+export const interfeysYandeksDirektEs: BlogPost = {
+  slug: "interfeys-yandeks-direkt",
+  title: "Interfaz de Yandex Direct: de la beta de 2018 al trabajo guiado por stats",
+  date: "2018-08-08",
+  category: "Paid search",
+  cover: "/images/blog/interfeys-yandeks-direkt/cover.webp",
+  excerpt:
+    "Qué cambió de verdad el rediseño de Direct de 2018 — y qué sigue importando: tablas, filtros, ediciones masivas, decisiones por informes — sin el pitch de «entra a la beta».",
+  lead: [
+    "En agosto de 2018 Yandex lanzó una beta de una UI de Direct reconstruida: tablas, filtros, velocidad y decisiones desde números en vez de pantallas dispersas. La interfaz vieja se apagó después — ya no queda un toggle de «entrar a la beta».",
+    "Lo que sigue es la idea detrás de ese rediseño y cómo usar la cuenta de hoy del mismo modo. Las etiquetas del menú y los nombres del wizard se movieron otra vez; confía en el propósito de la sección y en Direct Help, no en screenshots de 2018.",
+  ],
+  faq: [
+    {
+      q: "¿Sigue corriendo la beta del nuevo Direct?",
+      a: "No como el signup abierto de 2018. Estás en la UI actual; el switch viejo/nuevo de esa era ya no existe.",
+    },
+    {
+      q: "¿Por qué molestarse con un rediseño de 2018?",
+      a: "Para que las guías viejas no te manden a una cacería de clics — y para que mantengas el hábito real: arreglar campañas desde informes, filtros y acciones masivas.",
+    },
+    {
+      q: "¿Sigo necesitando Commander?",
+      a: "Para ediciones estructurales grandes, editores y exports siguen ayudando — mira qué envía Yandex ahora. Los tweaks del día a día se quedan en la UI web.",
+    },
+    {
+      q: "¿El Report Wizard es obligatorio?",
+      a: "Si necesitas cortes más allá de las columnas por defecto — sí. Sin informes estás adivinando.",
+    },
+    {
+      q: "¿Por dónde debería empezar un principiante?",
+      a: "Estructura de campaña → keywords y anuncios → metas de analytics → un informe semanal de gasto y conversiones.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué vendía la beta de 2018",
+      level: 2,
+      paras: [
+        "Yandex vendió formatos unificados en una plataforma y una UI donde decides desde números: rendimiento en una pantalla, filtros, ops masivas por rincones de la cuenta.",
+        "El acceso llegó por oleadas (un teaser en el cabinet). Luego la UI nueva pasó a ser default y la vieja se fue retirando. Las líneas de «corre a la beta» de posts viejos están muertas.",
+      ],
+      notes: [
+        {
+          title: "Nota histórica",
+          text: "No trates screenshots de «Mis campañas» de 2018 y editores popup como un how-to. Revisa los nombres actuales en Help.",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "Estrategias de Yandex Direct",
+          href: "/es/blog/strategii-yandeks-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Decide desde la tabla — el hábito que se quedó",
+      level: 2,
+      paras: [
+        "El núcleo del rediseño: menos pantallas de vanidad, más tablas de campaña / grupo / keyword con métricas, filtros rápidos y un camino a los informes. Más fácil matar slices perdedores y escalar lo que funciona.",
+        "En el Direct de hoy mantén a la vista gasto, clics, conversiones y CPA o ingresos (si hay metas). Configura columnas para el trabajo de esta semana — no todas las métricas a la vez.",
+      ],
+      lists: [
+        {
+          intro: "Checklist semanal de la tabla:",
+          items: [
+            "campañas que gastan con cero conversiones",
+            "keywords con CPC alto y sin leads",
+            "anuncios con un CTR sospechosamente bajo",
+            "corte por dispositivo y placement (búsqueda vs redes)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría de campaña publicitaria",
+          href: "/es/blog/audit-reklamnoy-kampanii/",
+        },
+        {
+          label: "Métricas de publicidad",
+          href: "/es/blog/metriki-reklamy/",
+        },
+      ],
+    },
+    {
+      title: "Filtros, jerarquía y ediciones masivas",
+      level: 2,
+      paras: [
+        "Filtrar la lista de campañas y bajar (campaña → grupo → keywords/anuncios) ahorra horas. Pausar, pujar y copiar en masa es normal cuando tienes docenas de grupos.",
+        "Velocidad no es calidad: para basura obvia en masa; corre tests de creativo a propósito.",
+      ],
+      links: [
+        {
+          label: "Tests A/B de anuncios",
+          href: "/es/blog/ab-testy-reklamy/",
+        },
+      ],
+    },
+    {
+      title: "Keywords, Wordstat y negativos en un solo lugar",
+      level: 2,
+      paras: [
+        "La beta empujó el trabajo de keywords al mismo flujo: pujas, ediciones de anuncios, find/replace y expansión con Wordstat. Eso sigue: semántica y negativos viven junto al rendimiento, no en un mundo aparte.",
+        "Exporta search terms con regularidad, corta con negativos, crece las frases que convierten. Las listas universales de negativos son un borrador, no un set terminado.",
+      ],
+      links: [
+        {
+          label: "Negativos en Direct",
+          href: "/es/blog/minus-slova-direkt/",
+        },
+        {
+          label: "Investigación de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+      ],
+    },
+    {
+      title: "Aprender la cuenta de hoy",
+      level: 2,
+      paras: [
+        "Sáltate guías que digan «haz clic en el enlace de abajo para la UI vieja». Abre Help y fija cuatro o cinco pantallas: campañas, anuncios/keywords, Report Wizard, bibliotecas (negativos, audiencias), settings de metas.",
+        "Los principiantes aprenden más rápido con un presupuesto de test pequeño y un embudo que recorriendo cada feature a la vez. Abre tickets de soporte por bugs reales — no por nostalgia del chrome de 2017.",
+      ],
+      lists: [
+        {
+          intro: "Orden de rollout en el equipo:",
+          items: [
+            "un estándar compartido de columnas de informe",
+            "un dueño de la limpieza semanal",
+            "UTMs y metas documentados",
+            "nada de ediciones a ojo sin un corte de stats",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "La beta del «nuevo Direct» de 2018 es historia. Decidir desde la tabla y el informe sigue siendo el hábito correcto.",
+        "Ignora click-paths de screenshots; afina la UI actual para CPA y calidad de leads.",
+      ],
+    },
+  ],
+  closing: [
+    "Abre la lista de campañas, configura columnas alrededor de conversiones y una vez a la semana filtra keywords y anuncios perdedores — esa es la lógica del rediseño, sin cazar una beta que ya no existe.",
+  ],
+  related: [
+    "strategii-yandeks-direkt",
+    "audit-reklamnoy-kampanii",
+    "minus-slova-direkt",
+    "metriki-reklamy",
+    "ab-testy-reklamy",
+    "stavki-direkt",
+  ],
+};

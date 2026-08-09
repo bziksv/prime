@@ -163,3 +163,167 @@ export const yandeksKatalogEn: BlogPost = {
     "yandeks-iks",
   ],
 };
+
+/** ES overlay for yandeks-katalog — same structure as RU JSON / EN. */
+export const yandeksKatalogEs: BlogPost = {
+  slug: "yandeks-katalog",
+  title: "Cierre de Yandex.Catalog: qué era y qué lo sustituye",
+  date: "2018-03-13",
+  category: "SEO",
+  cover: "/images/blog/yandeks-katalog/cover.webp",
+  excerpt:
+    "Por qué cerró Yandex.Catalog, qué pasó con el TIC y las regiones, y dónde vive ahora la presencia local: Webmaster, Business/Maps y directorios vivos.",
+  lead: [
+    "Yandex.Catalog (YACA) dejó de aceptar sitios: las solicitudes se cerraron el 20 de diciembre de 2017 y el servicio se desvaneció de la práctica de webmasters. Para muchos era un paso de promoción «de pago obligatorio» — atado a esperanzas de TIC y presencia multi-región «vía el catálogo».",
+    "La nostalgia por YACA importa menos que el setup actual: regiones y calidad del sitio en Webmaster, fichas en Yandex Business / Maps y directorios vivos selectivos. Abajo: qué se cerró, qué mitos persisten y qué sustituye al viejo ritual de registro.",
+  ],
+  faq: [
+    {
+      q: "¿Sigue funcionando Yandex.Catalog?",
+      a: "Como plataforma de envío de sitios — no. El proyecto histórico está cerrado; el registro como antes no está disponible.",
+    },
+    {
+      q: "¿Volverá el TIC?",
+      a: "El TIC como métrica pública de la era Catalog, en la práctica, se fue. Importan otras señales: calidad del sitio, demanda, comportamiento, enlaces y menciones, fichas locales. Para peso, usa métricas actuales de Webmaster y analítica — no el TIC de archivo.",
+    },
+    {
+      q: "¿Adónde fueron las regiones del Catalog?",
+      a: "La localidad se fija vía negocio real, contenido, contactos, Yandex Business/Directory y herramientas de Webmaster — no comprando una línea en el catálogo.",
+    },
+    {
+      q: "¿Se reembolsa el registro de pago?",
+      a: "La postura de Yandex fue que el pago aceleraba el procesamiento de la solicitud, no la colocación eterna. Las disputas de 2018 no cambian la práctica SEO de hoy.",
+    },
+    {
+      q: "¿Los directorios de sitios siguen importando en los 2020?",
+      a: "Las granjas masivas — no. Mapas vivos, registros de industria y directorios locales — sí, de forma selectiva. Más en la pieza de directorios de sitios.",
+    },
+    {
+      q: "¿Basta una ficha de Yandex Business?",
+      a: "Para demanda local es una capa base, no un sustituto del sitio y el SEO. A menudo también hacen falta 2GIS y Google Business Profile para audiencias distintas.",
+    },
+    {
+      q: "¿Puedo registrarme en otra región con una dirección falsa?",
+      a: "No — y la aplicación se endureció antes. Hacen falta motivos reales y un NAP coherente.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué era Yandex.Catalog y por qué importaba",
+      level: 2,
+      paras: [
+        "Yandex.Catalog era un directorio de sitios: solicitud, moderación, descripción, categoría. Estar listado daba visibilidad en resultados del catálogo y se sentía como una señal de revisión pasada. El comercio a menudo pagaba por un procesamiento más rápido.",
+        "Por separado, el Catalog se ataba a localidad y TIC: los dueños creían que una línea en YACA era casi obligatoria para crecer. En 2017 el hábito sobrevivió al valor real para los usuarios de búsqueda.",
+      ],
+      lists: [
+        {
+          intro: "Por qué se pagaba históricamente la aceleración:",
+          items: [
+            "aceptar y procesar la solicitud",
+            "clasificación",
+            "descripción",
+            "publicación en la base del Catalog",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Por qué cerró el Catalog",
+      level: 2,
+      paras: [
+        "Lógica oficial: caída del interés en un catálogo como producto aparte — la búsqueda responde «encontrar por tema» mejor que un rubricador. Las solicitudes se detuvieron el 20 de diciembre de 2017; Yandex luego apuntó a los webmasters hacia las herramientas actuales.",
+        "Para el mercado eliminó el ritual «primero el Catalog, luego la vida». Quien apoyaba el perfil de enlaces y local solo en YACA aprendió: un servicio cerrado no debe ser el único pilar.",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Yandex y Google retiran productos obsoletos con rutina. La estrategia SEO debe apoyarse en el sitio, la demanda y varios canales vivos — no en un solo servicio de marca.",
+        },
+      ],
+    },
+    {
+      title: "TIC, dinero y expectativas de webmasters",
+      level: 2,
+      paras: [
+        "Tras la noticia del cierre dominaron tres dolores: adónde fueron las regiones, qué pasa con el registro de pago y si morirá el TIC. Sobre el dinero, Yandex explicó: pagabas por el procesamiento, no por un estante eterno. El TIC salió de la práctica diaria — como el PageRank público en su día en Google.",
+        "Perseguir el TIC de archivo no tiene sentido. Importan más indexación, contenido útil, calidad técnica, fichas locales y tráfico y leads medibles.",
+      ],
+    },
+    {
+      title: "Regiones después del Catalog",
+      level: 2,
+      paras: [
+        "La multi-región vía catálogo sin huella real se acabó. Hoy la región para búsqueda y mapas se apoya en la dirección o área de servicio real, páginas de contacto, sucursales, contenido de ciudad y una ficha de organización.",
+        "Varias ciudades necesitan un setup honesto: landings o sucursales separadas con presencia real, NAP coherente, listados en directorios. Una dirección falsa para rankings en otra ciudad lleva a filtros y pérdida de confianza.",
+      ],
+      lists: [
+        {
+          intro: "Dónde mirar en lugar de YACA:",
+          items: [
+            "Yandex Webmaster — calidad de crawl, ajustes regionales según la help actual",
+            "Yandex Business / Maps — ficha de organización",
+            "el sitio: contactos, cómo llegar, contenido local",
+            "cuando haga falta — 2GIS y Google Business Profile",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué sustituye hoy al registro en el Catalog",
+      level: 2,
+      paras: [
+        "«La gente nos encuentra cerca y confía» es un paquete: un sitio sólido más perfil en mapas/negocio más plataformas de industria selectivas. El registro masivo en directorios de sitios muertos no sustituye a YACA y a menudo perjudica.",
+        "Una whitelist tiene sentido: mapas, directorios grandes, registros de nicho con audiencia. Un desglose más completo está en el artículo de directorios y listados.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo para negocio local:",
+          items: [
+            "un sitio al día con NAP",
+            "una ficha de Yandex Business",
+            "una ficha en 2GIS (si el geo importa)",
+            "Google Business Profile cuando la demanda está en Google",
+            "un directorio de industria solo si ahí buscan los clientes",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Canon relacionado",
+          kind: "tip",
+          text: "Práctica de registro selectivo: /es/blog/katalogi-saytov/. Ficha Yandex: /es/blog/yandeks-spravochnik/. Google Maps: /es/blog/google-biznes/.",
+        },
+      ],
+    },
+    {
+      title: "Conclusión práctica para SEO",
+      level: 2,
+      paras: [
+        "Yandex.Catalog es un capítulo cerrado. No caces cómo registrarte otra vez en YACA y no compres servicios que lo prometan.",
+        "Invierte en lo que aún controlas: velocidad e índice del sitio, contenido guiado por demanda, fichas locales, reseñas, analítica. El ritual de catálogo de los 2010 ya no es el ticket de entrada a la búsqueda.",
+      ],
+      tables: [
+        {
+          caption: "Lógica YACA entonces → ahora",
+          headers: ["Entonces", "Ahora"],
+          rows: [
+            ["Solicitud al Catalog", "Fichas en mapas / Yandex Business"],
+            ["TIC como fetiche", "Métricas de Webmaster y de negocio"],
+            ["Región desde el catálogo", "Dirección real, sucursales, contenido local"],
+            [
+              "Aceleración de pago de la solicitud",
+              "Calidad del sitio y presencia en plataformas vivas",
+            ],
+          ],
+        },
+      ],
+    },
+  ],
+  related: [
+    "katalogi-saytov",
+    "yandeks-spravochnik",
+    "google-biznes",
+    "yandeks-iks",
+  ],
+};

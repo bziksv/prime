@@ -201,3 +201,205 @@ export const avtorskiePravaInstagramEn: BlogPost = {
     "menedzher-smm",
   ],
 };
+
+/** ES overlay for avtorskie-prava-instagram — same structure as RU JSON / EN. */
+export const avtorskiePravaInstagramEs: BlogPost = {
+  slug: "avtorskie-prava-instagram",
+  title: "Copyright en Instagram: música, fotos y reclamaciones",
+  date: "2020-08-07",
+  category: "SMM",
+  cover: "/images/blog/avtorskie-prava-instagram/cover.webp",
+  excerpt:
+    "Cómo mantenerse lejos de problemas de copyright en Instagram*: música y fotos, qué hacer tras una claim, cómo proteger tu propio trabajo — sin guías de bypass de DRM.",
+  lead: [
+    "En Instagram*, los posts con música, fotos o vídeo ajenos a menudo reciben claims del titular: sonido muteado, post retirado, cuenta restringida. El camino fiable es contenido propio o con licencia — no «saltar» la protección.",
+    "Abajo: cómo se detectan las violaciones, cómo usar música y fotos de forma legal, qué hacer tras una claim errónea y cómo proteger tus materiales. No cubrimos bypass de DRM ni esquemas pirate.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta se reconoce como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Se puede usar un track de la biblioteca de Reels?",
+      a: "Si el track está disponible en la biblioteca oficial para tu región y tipo de cuenta — suele sí según sus reglas. «Descargar y overlay» de terceros — riesgo.",
+    },
+    {
+      q: "¿Tu propia foto siempre es segura?",
+      a: "Tu toma — sí. Pero caras ajenas, marcas o el diseño de otro en el frame aún pueden atraer claims. Comercio — cuidado con model releases.",
+    },
+    {
+      q: "¿Qué pasa tras violaciones repetidas?",
+      a: "Límites de publicación, retirada de contenido, hasta bloqueos de cuenta. Depende de la política de la plataforma y de la gravedad de la claim.",
+    },
+    {
+      q: "¿Cómo disputas una claim errónea?",
+      a: "Por el flujo oficial de counter-notice/appeal en Instagram*/Meta Help. Prepara prueba de derechos sobre el material.",
+    },
+    {
+      q: "¿Las fotos de stock son gratis para Reels?",
+      a: "Solo bajo la licencia de esa biblioteca. «Encontrado en Google» no es una licencia.",
+    },
+    {
+      q: "¿Un meme ajeno con música está bien?",
+      a: "A menudo no: tanto la imagen como el track pueden estar protegidos. Prefiere tu frame y un sonido permitido.",
+    },
+    {
+      q: "¿Cómo proteges tus fotos?",
+      a: "Publica originales, vigila copias, presenta claims vía formularios oficiales cuando haga falta. Las watermarks son opcionales — no una bala de plata.",
+    },
+    {
+      q: "¿Es legal saltarse un bloqueo de sonido?",
+      a: "Eludir restricciones del titular es una idea mala y arriesgada. Cambia a un track permitido o quita la parte en disputa.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo se detectan las violaciones",
+      level: 2,
+      paras: [
+        "La plataforma y partners cruzan fingerprints de audio, reciben claims del titular y moderan reportes de usuarios. La automatización no es perfecta: hay falsos positivos — entonces usa el appeal oficial, no un workaround gris.",
+        "Las cuentas comerciales y los ads se revisan más duro: lo que «funcionó para un creator» puede cortarse para una marca.",
+      ],
+      lists: [
+        {
+          intro: "Triggers típicos:",
+          items: [
+            "un track conocido completo",
+            "un clip/fragmento de TV ajeno",
+            "stock sin licencia",
+            "claims en masa sobre una cuenta",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Música",
+      level: 2,
+      paras: [
+        "Usa sonidos de la biblioteca oficial, tracks con licencia social explícita o tu propio original. Cortar un hit de radio «a 14 segundos» a menudo sigue cayendo en sistemas tipo Content ID.",
+        "Para marcas, limpia la música con legal/agencia pronto: los derechos de sync y la región difieren.",
+      ],
+      lists: [
+        {
+          intro: "Práctica:",
+          items: [
+            "revisa disponibilidad del track antes de rodar una serie",
+            "guarda prueba de licencia",
+            "ten un track permitido de respaldo",
+            "no descargues «stems» de sitios pirate",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Asumir que «cualquier hit vale para Stories». Las reglas y bibliotecas difieren por formato y región.",
+        },
+      ],
+    },
+    {
+      title: "Fotos y vídeo",
+      level: 2,
+      paras: [
+        "Tus tomas, stock con licencia, UGC con permiso del autor. Un screenshot del post de otro con logo «para reseña» es zona gris; para comercio prefiere consentimiento o tu propio frame.",
+        "Fotos ajenas de búsqueda de imágenes sin licencia — una violación clásica. Imágenes IA: lee los términos del generador y vigila lookalikes de marca.",
+      ],
+      lists: [
+        {
+          intro: "Checklist pre-post:",
+          items: [
+            "quién es autor del frame",
+            "hay licencia/permiso",
+            "sin logo de terceros innecesario en foco",
+            "texto y fuentes no copiados del creative de otro",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Si llega una claim o el sonido se mutea",
+      level: 2,
+      paras: [
+        "Lee el aviso: qué se marcó exactamente. Sustituye por material legal o quita la parte en disputa. Si estás seguro de tus derechos — presenta una disputa oficial con prueba (contrato, fuentes, fecha de toma).",
+        "No busques guías de «cómo saltar un bloqueo de track»: eso rompe reglas e intereses del titular. El camino legal es otro sonido o una licencia.",
+      ],
+      lists: [
+        {
+          intro: "Orden de acciones:",
+          items: [
+            "guarda prueba de derechos",
+            "sigue el formulario de appeal en Help",
+            "no spawnees mirrors de la misma violación",
+            "actualiza el playbook del equipo",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Proteger tu propio contenido",
+      level: 2,
+      paras: [
+        "Publica originales, monitoriza copias (búsqueda inversa de imágenes, menciones). Presenta claims por tus derechos vía canales oficiales de la plataforma. Guarda fechas y archivos fuente.",
+        "Contrato con fotógrafo/editor: quién es dueño del resultado — antes de que empiece el rodaje.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de marca:",
+          items: [
+            "registro de licencias de música/stock",
+            "plantilla de permiso UGC",
+            "owner para revisar claims",
+            "prohibición editorial de «descargar de Google»",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Plan de contenido de Instagram",
+          href: "/es/blog/kontent-plan-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Responsabilidad y límites del artículo",
+      level: 2,
+      paras: [
+        "Las violaciones de derechos pueden traer claims civiles y sanciones de la plataforma. Este artículo es informativo: Instagram* es un producto de Meta; en la Federación Rusa la actividad de Meta se reconoce como extremista. No fomentamos el uso de la plataforma; si publicas — respeta los derechos.",
+        "Matices de jurisdicción — pregunta a un abogado: esto no es consejo legal.",
+      ],
+      lists: [
+        {
+          intro: "Banderas rojas:",
+          items: [
+            "tracks pirate «para Reels»",
+            "bypass de Content ID",
+            "fotos ajenas sin licencia",
+            "ignorar strikes repetidos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Comprar una licencia o rodar lo tuyo sale más barato que limpiar un ban y claims.",
+        },
+      ],
+      links: [
+        {
+          label: "Strike de YouTube",
+          href: "/es/blog/strayk-youtube/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "kontent-plan-instagram",
+    "strayk-youtube",
+    "foto-instagram",
+    "blog-instagram",
+    "menedzher-smm",
+  ],
+};

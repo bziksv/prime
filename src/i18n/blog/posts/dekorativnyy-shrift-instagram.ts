@@ -190,3 +190,194 @@ export const dekorativnyyShriftInstagramEn: BlogPost = {
     "post-instagram",
   ],
 };
+
+/** ES overlay for dekorativnyy-shrift-instagram — same structure as RU JSON / EN. */
+export const dekorativnyyShriftInstagramEs: BlogPost = {
+  slug: "dekorativnyy-shrift-instagram",
+  title: "Fuentes decorativas en Instagram*: bio, posts y sentido común",
+  date: "2021-11-22",
+  category: "SMM",
+  cover: "/images/blog/dekorativnyy-shrift-instagram/cover.webp",
+  excerpt:
+    "Cómo lograr texto «bonito» en la bio de Instagram* y en imágenes: estilos Unicode, editores, escrituras no latinas, legibilidad y riesgos — sin un catálogo de apps obsoletas.",
+  lead: [
+    "Instagram* en sí no tiene selector de tipografía en la bio ni en los captions: el look bold, italic y «manuscrito» suele venir de caracteres Unicode o de texto horneado en una imagen.",
+    "Abajo: dónde encaja, cómo pegar un estilo sin entregar la contraseña a tools de terceros «Font for Instagram*», por qué las escrituras no latinas a menudo se rompen y cuándo el décor daña el alcance y la confianza. Ver la nota Meta en esta página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta se reconoce como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Hay fuentes integradas en la bio?",
+      a: "No hay un menú aparte de «fuente». Lo que parece otra tipografía en el texto del perfil suele ser caracteres Unicode especiales copiados de un generador.",
+    },
+    {
+      q: "¿Por qué el texto no latino se vuelve «cuadrados»?",
+      a: "Muchos generadores son solo latinos. Algunos estilos no incluyen cirílico u otras escrituras — en otro dispositivo el carácter simplemente no se renderiza.",
+    },
+    {
+      q: "¿Una fuente decorativa afecta el alcance?",
+      a: "No como un secreto del algoritmo. Puede hacer el header un poco más notable — o puede cortar legibilidad y confianza. Deciden el contenido y la audiencia.",
+    },
+    {
+      q: "¿Son seguras las apps Fonts for Instagram*?",
+      a: "Los generadores que solo copian texto suelen estar bien. Las tools que piden login y contraseña de Instagram* arriesgan el robo de la cuenta. No metas una contraseña solo por una fuente.",
+    },
+    {
+      q: "¿En qué se diferencia el texto de la bio del texto en una foto?",
+      a: "En la bio usas Unicode o letras planas. En un post o Story usas una tipografía real en un editor (Canva, Snapseed y similares): eso es una imagen, no un campo del perfil.",
+    },
+    {
+      q: "¿Cuántos estilos son normales en el header?",
+      a: "Un acento en un titular o CTA basta. Cada palabra en una «fuente» distinta se lee peor y parece spam.",
+    },
+    {
+      q: "¿Hacen falta caracteres invisibles para «centrar»?",
+      a: "A veces se usan Unicode invisibles o de espacio para desplazar líneas. El comportamiento varía por cliente — no trates el truco como estándar de marca.",
+    },
+    {
+      q: "¿El décor ayuda a las ventas?",
+      a: "Solo si refuerza una oferta clara. Un mush bonito sin «quién eres / qué ofreces / dónde escribir» no convierte.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué puedes vestir de verdad",
+      level: 2,
+      paras: [
+        "Nombre y bio: la gente suele pegar estilos Unicode — 𝖇𝖔𝖑𝖉, 𝓬𝓾𝓻𝓼𝓲𝓿𝓮 y sets similares. La longitud de la bio es limitada; el décor quema el presupuesto de caracteres más rápido que el texto plano.",
+        "Captions de posts y comentarios: el mismo truco, pero un párrafo decorativo largo cansa. Mejor acentuar el titular o el CTA.",
+        "Imágenes, carruseles, covers de highlights y Stories: aquí funcionan fuentes reales de editor. Más fiable para cirílico y trabajo de marca que Unicode en la bio.",
+      ],
+      notes: [
+        {
+          title: "No lo confundas con el diseño del feed",
+          kind: "tip",
+          text: "Un estilo de grid unificado, avatar y estructura del header son otro tema. Una fuente decorativa es solo un truco dentro del texto o del layout.",
+        },
+      ],
+    },
+    {
+      title: "Estilos Unicode: cómo funciona",
+      level: 2,
+      paras: [
+        "Un generador cambia letras ordinarias por otros code points Unicode que muchos dispositivos dibujan como «bold» o «script». Instagram* no aplica una fuente CSS — solo muestra los caracteres.",
+        "Camino típico: abrir un generador web o móvil → escribir una frase → copiar → pegar en Edit profile o en un caption. Los nombres de apps cambian cada año; importa más el patrón de «texto copiado» que la marca de la utilidad.",
+        "Antes de publicar, abre el perfil en otro dispositivo (iOS y Android): estilos raros se ven distintos en un OS o caen en «tofu» (□).",
+      ],
+      lists: [
+        {
+          intro: "Cuándo encaja Unicode:",
+          items: [
+            "un acento corto en el nombre o la primera línea de la bio",
+            "destacar un CTA («reserva», «lista de precios»)",
+            "un blog ligero donde el tono permite algo de juego",
+          ],
+        },
+        {
+          intro: "Cuándo mejor saltártelo:",
+          items: [
+            "direcciones largas, precios, wording legal",
+            "B2B con audiencia conservadora",
+            "toda la bio en un solo estilo script",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Escrituras, accesibilidad y discovery",
+      level: 2,
+      paras: [
+        "Muchos sets de «fancy font» están incompletos para cirílico y otros alfabetos no latinos. Revisa cada letra — o parte de la palabra desaparece para un follower.",
+        "Los lectores de pantalla y algunos clientes pronuncian mal los caracteres decorativos. Duplica el significado crítico (nicho, ciudad, teléfono) en tipografía plana.",
+        "La búsqueda in-app y el OCR en imágenes no sustituyen una oferta clara en letras planas en la bio. El décor es una cáscara — no un hack SEO de la plataforma.",
+      ],
+      notes: [
+        {
+          title: "Error frecuente",
+          kind: "tip",
+          text: "Toda la bio en un solo estilo script. En una pantalla pequeña es mush: la gente no entiende quién eres en tres segundos y se va.",
+        },
+      ],
+    },
+    {
+      title: "Texto en imágenes",
+      level: 2,
+      paras: [
+        "Para posts y Stories es más seguro superponer texto en un editor: Canva, Figma, Snapseed, stickers de texto integrados de Story y similares. Elige una tipografía con tu escritura, tamaño y contraste.",
+        "Mantén uno o dos pares de fuentes en el brand kit — la misma idea que las plantillas del feed. Un set tipográfico que salta cada semana rompe el reconocimiento más que un estilo unificado aburrido.",
+        "Deja márgenes: los previews del grid y la UI de la plataforma recortan los bordes. Un titular grande más un subhead corto se lee mejor que un muro diminuto de texto.",
+      ],
+      lists: [
+        {
+          intro: "Mini reglas de layout:",
+          items: [
+            "contraste suficiente texto-fondo",
+            "no más de dos acentos por frame",
+            "caras y logo no tapados por letras",
+            "legible en el teléfono sin zoom",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Seguridad y catálogos de apps obsoletos",
+      level: 2,
+      paras: [
+        "Los roundups viejos empujaban docenas de utilidades con ratings de store y precios locales. La lista envejece rápido: las apps se renombran, cambian política y monetización.",
+        "No descargues tools de «font unlock» que pidan contraseña o sesión de Instagram*. Un portapapeles basta para generar texto.",
+        "Los editores de pago con buen soporte de escritura tienen sentido si haces covers con regularidad. Un post puntual suele encajar en Canva o en el texto integrado de Story.",
+      ],
+      notes: [
+        {
+          title: "Promesas grises",
+          kind: "tip",
+          text: "«Esta fuente multiplicará el alcance N veces» es marketing de la utilidad, no un hecho. Prueba la notabilidad del header en tu audiencia — no en screenshots ajenos.",
+        },
+      ],
+    },
+    {
+      title: "Cómo encajarlo en el perfil sin daño",
+      level: 2,
+      paras: [
+        "Primero redacta la bio en texto plano: quién eres, el beneficio, geo/horario, CTA y enlace (si tienes). Luego suma un acento decorativo.",
+        "El nombre de perfil y el username deben seguir siendo reconocibles: un display name demasiado «roto» te hace difícil de encontrar en chats y menciones.",
+        "Combina con emoji con moderación: décor y pictogramas compiten por la atención. Una estructura clara gana a un carnaval de estilos.",
+      ],
+      lists: [
+        {
+          intro: "Orden rápido de operaciones:",
+          items: [
+            "escribe el significado sin décor",
+            "elige un estilo Unicode o deja la bio plana",
+            "comprueba iOS y Android",
+            "alinea avatar y covers de highlights",
+            "en una semana, mira si se lee el CTA (clics al enlace, DMs)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Claves a recordar",
+      level: 2,
+      paras: [
+        "Una «fuente bonita» en Instagram* es Unicode en campos de texto o una tipografía real en una imagen. La plataforma no ofrece un menú de fuente en la bio.",
+        "Cobertura de escritura, legibilidad y seguridad ganan a un catálogo de apps. Un acento gana a un muro de décor.",
+        "El significado de la bio y un visual unificado del feed venden mejor que una letra exótica en cada palabra.",
+      ],
+    },
+  ],
+  closing: [
+    "Reescribe la bio en texto plano, luego suma un acento decorativo en el CTA y comprueba la visualización en dos dispositivos — más rápido que apilar diez estilos por suerte.",
+  ],
+  related: [
+    "oformlenie-stranicy-instagram",
+    "shablon-instagram",
+    "avatar-instagram",
+    "post-instagram",
+    "emodzi",
+    "podpis-foto-instagram",
+  ],
+};

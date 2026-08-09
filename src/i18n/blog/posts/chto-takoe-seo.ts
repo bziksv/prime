@@ -156,3 +156,160 @@ export const chtoTakoeSeoEn: BlogPost = {
     "effektivnost-seo",
   ],
 };
+
+/** ES overlay for chto-takoe-seo — same structure as RU JSON / EN. */
+export const chtoTakoeSeoEs: BlogPost = {
+  slug: "chto-takoe-seo",
+  title: "Qué es el SEO: explicación clara, sin magia de rankings",
+  date: "2016-05-31",
+  category: "SEO",
+  cover: "/images/blog/chto-takoe-seo/cover.webp",
+  excerpt:
+    "Qué es el SEO en español claro: por qué el negocio necesita la búsqueda, en qué se diferencia de la publicidad offline, qué incluye el trabajo y por qué la prep del sitio no es lo mismo que llegar a primera página.",
+  lead: [
+    "SEO (Search Engine Optimization) es el trabajo que ayuda a que las personas adecuadas encuentren tu sitio en Google y Yandex — y conviertan ese tráfico en consultas. No es un botón de rankings en una semana, ni engañar a un algoritmo.",
+    "Abajo: definición clara, comparación con ads offline, qué incluye el trabajo y qué debe entender un cliente. La prep del sitio suele llevar semanas; el crecimiento estable sobre un set de keywords competitivo se planifica en dos a seis meses tras arrancar. Prep no son rankings en primera página.",
+  ],
+  faq: [
+    {
+      q: "¿Qué es el SEO en palabras simples?",
+      a: "Acciones en y alrededor del sitio para que las queries de búsqueda objetivo traigan más a menudo gente a tus páginas — y esa gente pueda comprar o enviar un lead.",
+    },
+    {
+      q: "¿El SEO garantiza primera página?",
+      a: "No. Los rankings dependen de competencia, demanda, calidad del sitio y tiempo. Prometer «primera página para todos en un mes» es una red flag.",
+    },
+    {
+      q: "¿En qué es mejor el SEO que una valla en la calle?",
+      a: "En la búsqueda la persona ya busca un producto o servicio. La audiencia está más caliente que los peatones al azar. Pero el sitio, el servicio y los precios siguen teniendo que aguantar el flujo.",
+    },
+    {
+      q: "¿Qué se hace en SEO en la práctica?",
+      a: "Investigación de keywords y estructura, técnica e indexación, contenido orientado a intención, enlazado interno, snippets, analítica; luego señales externas y soporte continuo. Detalles en las guías relacionadas.",
+    },
+    {
+      q: "¿Funciona el SEO sin función de ventas?",
+      a: "Débilmente. Si nadie contesta el teléfono y la oferta es peor que el mercado, los rankings no salvan el beneficio.",
+    },
+    {
+      q: "¿Cuánto hay que esperar resultados?",
+      a: "Prep para promover — a menudo de semanas a alrededor de un mes. Un trozo notable del set de keywords suele verse hacia los dos o tres meses; las keywords competitivas se completan hacia los cuatro a seis meses, según vaya — no es garantía de fecha.",
+    },
+    {
+      q: "¿En qué se diferencia el SEO de la búsqueda de pago?",
+      a: "La búsqueda de pago paga por clic al momento. El SEO construye visibilidad orgánica más lento, pero un clic de búsqueda no se factura como en Yandex Direct o Google Ads. Los canales suelen complementarse.",
+    },
+    {
+      q: "¿Por dónde debe empezar un dueño de negocio?",
+      a: "Comprobar si el servicio se busca en la región, poner el sitio en orden (móvil, contactos, páginas clave), montar analítica — luego un plan de keywords. Ver SEO para pequeño negocio.",
+    },
+  ],
+  sections: [
+    {
+      title: "Una definición sin mística",
+      level: 2,
+      paras: [
+        "El SEO no es hackear el SERP — es trabajo para alinear el sitio con la demanda: páginas claras para las queries, técnica usable por robots y personas, contenido útil y construcción de confianza.",
+        "El objetivo del negocio no son rankings abstractos por sí mismos, sino visibilidad en queries que traen leads y ventas. Por eso miras rankings, tráfico orgánico y conversiones.",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Frases como «manipular algoritmos» son un tono anticuado y dañino. La práctica moderna es mejorar el sitio y la respuesta al usuario dentro de las reglas de los buscadores.",
+        },
+      ],
+    },
+    {
+      title: "Por qué la búsqueda está más caliente que una valla offline",
+      level: 2,
+      paras: [
+        "Una valla en la calle la ve todo el mundo: unos no son tu audiencia, otros no la notan, otros no la recuerdan. En la búsqueda la persona escribió «comprar… / pedir… / precio…» — la necesidad ya está dicha.",
+        "De ahí la fuerza del canal: compites por la atención de quien ya busca. Debilidad: la competencia también está, y un mal sitio o servicio convierte clics en rebotes.",
+      ],
+      lists: [
+        {
+          intro: "El SEO tiene sentido si:",
+          items: [
+            "hay demanda de búsqueda estable",
+            "el sitio puede tomar leads",
+            "estás listo para atender clientes tras el clic",
+            "tienes horizonte de meses, no «resultado para el viernes»",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué incluye el trabajo",
+      level: 2,
+      paras: [
+        "Suele empezar por la preparación del sitio: indexación, móvil, velocidad, contactos, landings base. En paralelo — investigación de keywords y estructura: qué queries importan y qué URLs las responden.",
+        "Luego — contenido y on-page, analítica de objetivos, después señales externas y soporte regular. Filtros y métodos spam se cortan de la estrategia: arriesgas perder lo ya construido.",
+      ],
+      lists: [
+        {
+          intro: "Etapas típicas:",
+          items: [
+            "auditoría y técnica",
+            "set de keywords y estructura",
+            "contenido orientado a intención",
+            "snippets y enlazado interno",
+            "medición de leads",
+            "señales externas y soporte",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Factores on-page",
+          href: "/blog/vnutrennie-faktory/",
+        },
+        {
+          label: "Set semántico de keywords",
+          href: "/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+      ],
+    },
+    {
+      title: "Qué debe entender un cliente",
+      level: 2,
+      paras: [
+        "Un contractor no es un mago: el SEO refuerza el flujo, pero las ventas las hace el negocio. Precios, velocidad de respuesta, stock — parte del resultado.",
+        "Juzga a un contractor por claridad de plan, informes y casos — no por una promesa de «100% primera página a tarifa fija sin plazo». Un retainer plano sin KPIs a menudo da cosmética; habla de pago por el trabajo, pero los plazos de rankings siguen viviendo en meses.",
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Los contratos viejos a menudo mezclaban «lanzamiento en 2–3 meses» con resultados de primera página. Hoy sepáralos: prep del sitio — semanas; cuota del núcleo en primera página — planificada en dos a seis meses de trabajo sistémico tras el arranque.",
+        },
+      ],
+      links: [
+        {
+          label: "SEO para pequeño negocio",
+          href: "/blog/seo-malyy-biznes/",
+        },
+        {
+          label: "Eficacia del SEO",
+          href: "/es/blog/effektivnost-seo/",
+        },
+        {
+          label: "SEO desde cero",
+          href: "/es/blog/seo-s-nulya/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "seo-malyy-biznes",
+    "seo-s-nulya",
+    "samostoyatelnoe-seo",
+    "semanticheskoe-yadro",
+    "vnutrennie-faktory",
+    "effektivnost-seo",
+  ],
+};

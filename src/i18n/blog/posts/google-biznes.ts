@@ -198,3 +198,202 @@ export const googleBiznesEn: BlogPost = {
     "prodvizhenie-internet-magazina",
   ],
 };
+
+/** ES overlay for google-biznes — same structure as RU JSON / EN. */
+export const googleBiznesEs: BlogPost = {
+  slug: "google-biznes",
+  title: "Ficha de negocio en Google Maps: cómo añadir tu empresa",
+  date: "2020-12-24",
+  category: "SEO",
+  cover: "/images/blog/google-biznes/cover.webp",
+  excerpt:
+    "Cómo aparecer en Google Maps y en el local pack: Google Business Profile, verificación, datos, fotos y reseñas — sin capturas obsoletas de «Google My Business 2020».",
+  lead: [
+    "La búsqueda local de Google a menudo muestra un mapa y fichas de negocio junto a los resultados normales. Para aparecer en «servicio + ciudad» y en el mapa, hace falta un perfil de empresa correcto — hoy eso es Google Business Profile (las UIs más antiguas se llamaban Google My Business).",
+    "Abajo: el flujo de lanzamiento — cuenta, crear perfil, verificar, rellenar y mantener la ficha. Los nombres de menú cambian — sigue la Ayuda de Google y el panel del perfil, no capturas de artículos viejos.",
+  ],
+  faq: [
+    {
+      q: "¿Google My Business y Business Profile son lo mismo?",
+      a: "En esencia sí: el nombre y la UI evolucionaron para la ficha de Maps / local pack. Misma idea — un perfil de negocio gestionado.",
+    },
+    {
+      q: "¿Hace falta un sitio web para la ficha?",
+      a: "Preferible: un enlace al sitio genera confianza y un camino al lead. A veces se puede crear un perfil sin sitio, pero en muchos nichos sitio + mapa funcionan más fuertes juntos.",
+    },
+    {
+      q: "¿Cómo se verifica el perfil?",
+      a: "Los métodos dependen del tipo de negocio y la región: postal, teléfono, vídeo, solicitud in-product y otros. La lista actual aparece al crear el perfil.",
+    },
+    {
+      q: "¿Un perfil puede cubrir varias direcciones?",
+      a: "Normalmente cada ubicación física necesita su propio perfil (o un grupo de ubicaciones según las reglas de Google). No añadas direcciones que no sean tuyas.",
+    },
+    {
+      q: "¿El perfil afecta al SEO normal del sitio?",
+      a: "Es una capa local aparte: mapa, reseñas, NAP. Ayuda de forma indirecta a awareness y tráfico; no sustituye el SEO del sitio.",
+    },
+    {
+      q: "¿Qué es NAP?",
+      a: "Name, Address, Phone — nombre, dirección y teléfono coherentes en el sitio, en el perfil y en directorios. Los desajustes dañan la confianza.",
+    },
+    {
+      q: "¿Debo pedir reseñas a los clientes?",
+      a: "Sí — reseñas honestas y respuestas importan en el local pack. Comprar valoraciones rompe las reglas y es arriesgado.",
+    },
+    {
+      q: "¿Debo usar directorios de Yandex en vez de Google?",
+      a: "En Rusia a menudo hacen falta ambas capas para audiencias distintas. Son paneles distintos; un «export» no sustituye la coherencia de NAP.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué un negocio necesita ficha en el mapa",
+      level: 2,
+      paras: [
+        "Para consultas con intent local Google muestra un map pack: pines, valoración, horario, cómo llegar. Sin perfil solo compites como sitios web — y pierdes a quien elige «cerca / en el mapa».",
+        "La ficha también ayuda tras el clic: llamada, indicaciones, visita al sitio, messenger — si esas acciones están activas y los datos al día.",
+      ],
+      lists: [
+        {
+          intro: "Especialmente útil para:",
+          items: [
+            "ubicaciones offline (cafés, clínicas, servicios)",
+            "servicios a domicilio o in situ con zona de servicio",
+            "B2C con consultas «cerca de mí»",
+            "cadenas con varias sucursales (según las reglas de Google)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cuenta y creación del perfil",
+      level: 2,
+      paras: [
+        "Hace falta una cuenta de Google — preferible una de empresa compartida con varios owners vía roles de manager, no el login personal de alguien que se irá.",
+        "Al crear el perfil: usa el nombre como en la vitrina, elige una categoría, añade dirección o zona de servicio y contactos. No metas keywords en el nombre («Mejor reparación iPhone barata») — rompe las reglas y puede llevar a límites.",
+      ],
+      lists: [
+        {
+          intro: "Antes de la verificación:",
+          items: [
+            "comprobar si ya existe una ficha de tu lugar (reclámala)",
+            "alinear NAP con el sitio",
+            "elegir categorías primaria y secundaria con honestidad",
+            "guardar el acceso en el gestor de contraseñas de la empresa",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "La UI de creación y los ítems de menú se actualizan. Si el camino no coincide con un artículo de 2020 — empieza desde Maps / búsqueda de «Business Profile» / Ayuda de Google.",
+        },
+      ],
+    },
+    {
+      title: "Verificar el negocio",
+      level: 2,
+      paras: [
+        "Hasta que el perfil esté verificado, la gestión completa y la visualización están limitadas. Google ofrece un método de verificación disponible para tu caso — sigue los pasos de la cuenta y no compres «verificación gris» a intermediarios.",
+        "Tras la verificación mantén la ficha «abierta» con horario correcto: un desajuste con la realidad golpea reseñas y confianza más rápido que una descripción SEO imperfecta.",
+      ],
+      lists: [
+        {
+          intro: "Práctica:",
+          items: [
+            "no ignores emails/notificaciones de verificación",
+            "registra fecha de verificación y owner",
+            "si cambia la entidad legal/dirección, actualiza según las reglas — no generes una ficha duplicada sin necesidad",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué rellenar tras la verificación",
+      level: 2,
+      paras: [
+        "Descripción sin stuffing, servicios/productos, atributos (accesibilidad, pago), horario, teléfono, sitio web, botón de acción. Fotos: fachada, interior, equipo, trabajo — tuyas, no relleno de una media library.",
+        "Alinea con el sitio: mismo nombre, dirección y teléfono que en el footer y contactos. UTM en el enlace al sitio es opcional, para analítica de clics desde el mapa.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo para una ficha fuerte:",
+          items: [
+            "NAP sin typos",
+            "horario y festivos actuales",
+            "categorías que coincidan con la realidad",
+            "sitio / messenger / llamada",
+            "10+ fotos decentes",
+            "respuestas a reseñas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Sitio joven y confianza",
+          href: "/es/blog/molodoy-sayt/",
+        },
+      ],
+    },
+    {
+      title: "Reseñas, posts y mantenimiento",
+      level: 2,
+      paras: [
+        "Pide reseñas a clientes reales por canales honestos. Responde a negativos con calma y hechos. El fraude de valoraciones lleva a filtros y a perder la ficha.",
+        "Si hay updates/posts disponibles en el perfil — úsalos para promos y noticias sin spam. Lo principal son datos frescos: un traslado, nuevo horario o cambio de teléfono debería llegar a la ficha el mismo día.",
+      ],
+      lists: [
+        {
+          intro: "Con regularidad:",
+          items: [
+            "monitorizar reseñas nuevas",
+            "revisar NAP cada trimestre",
+            "fotos frescas cada pocos meses",
+            "auditar derechos de acceso de empleados",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Errores frecuentes y el vínculo con el sitio",
+      level: 2,
+      paras: [
+        "Fichas duplicadas para una dirección, keywords en el nombre, categoría incorrecta, horario cerrado mientras la tienda está abierta, teléfonos distintos en sitio y Maps — clásicos de caídas en el local pack.",
+        "En el sitio haz una página de contactos con el mismo NAP, un mapa (si encaja) y markup de organización cuando sea posible. El SEO local del sitio y la ficha se refuerzan — no se sustituyen.",
+      ],
+      lists: [
+        {
+          intro: "No hagas:",
+          items: [
+            "comprar «100 reseñas mañana»",
+            "crear una segunda ficha «para SEO»",
+            "poner la dirección de un coworking si no estás ahí",
+            "olvidar revocar el acceso a contratistas antiguos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "En Rusia, planifica Yandex Business / Directory en paralelo — las audiencias del mapa difieren. La coherencia de NAP entre capas gana a correr por una sola plataforma.",
+        },
+      ],
+      links: [
+        {
+          label: "Promoción de una tienda online",
+          href: "/es/blog/prodvizhenie-internet-magazina/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "molodoy-sayt",
+    "optimizatsiya-stranitsy",
+    "regionalnoe-seo",
+    "forma-obratnoy-svyazi",
+    "prodvizhenie-internet-magazina",
+  ],
+};

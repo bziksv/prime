@@ -180,3 +180,184 @@ export const chastotnostZaprosovEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for chastotnost-zaprosov — same structure as RU JSON / EN. */
+export const chastotnostZaprosovEs: BlogPost = {
+  slug: "chastotnost-zaprosov",
+  title: "Frecuencia de consultas de búsqueda: tipos y cómo medirla",
+  date: "2022-01-21",
+  category: "SEO",
+  cover: "/images/blog/chastotnost-zaprosov/cover.webp",
+  excerpt:
+    "Consultas de alta, media y baja frecuencia; frecuencia base vs exacta en Yandex Wordstat; checks de demanda en Google — cómo leer los números sin engañarte.",
+  lead: [
+    "La frecuencia de consulta es cuántas veces la gente escribe una redacción en búsqueda en un periodo dado. Si la saltas, el set de keywords se infla con head terms vistosos que no convierten — o te pierdes las frases long-tail que de verdad traen tráfico.",
+    "Abajo: tipos de frecuencia, cómo sacar cifras en Yandex Wordstat y Google, y qué operadores dan números en los que puedes confiar.",
+  ],
+  faq: [
+    {
+      q: "¿Qué es la frecuencia de consulta?",
+      a: "Una estimación de cuántas veces se buscó una redacción (y sus variantes — según el operador) en un periodo elegido, casi siempre un mes.",
+    },
+    {
+      q: "¿En qué se diferencian los términos de alta frecuencia del long-tail?",
+      a: "Los head terms son más cortos y competitivos, con demanda más amplia; el long-tail es más largo y específico — suele ser más fácil para tráfico dirigido al inicio.",
+    },
+    {
+      q: "¿Por qué engaña un número «crudo» de Wordstat?",
+      a: "Una entrada básica sin operadores suma muchas colas y formas de palabra. Para un set de keywords, usa frecuencia exacta y refinada.",
+    },
+    {
+      q: "¿Basta Google Keyword Planner en vez de Wordstat?",
+      a: "Para trabajo centrado en Rusia, Wordstat suele ser la fuente principal de demanda Yandex; Planner y Trends dan una segunda mirada a Google y estacionalidad — no un reemplazo completo.",
+    },
+    {
+      q: "¿Cómo se ata la frecuencia a un set de keywords?",
+      a: "La frecuencia ayuda a priorizar clusters, pero no sustituye intención y landings. Armar el set está en una pieza aparte.",
+    },
+  ],
+  sections: [
+    {
+      title: "Tipos de frecuencia",
+      level: 2,
+      paras: [
+        "Cuán popular es una redacción depende del nicho: algunas consultas tienen un puñado de búsquedas al mes, otras decenas de miles. Cuanto más a menudo se escribe una palabra o grupo, más alta la frecuencia.",
+        "En la práctica las consultas se parten en alta, media y baja frecuencia. Los umbrales son relativos y dependen del nicho; importan más la competencia y la intención que un corte mágico.",
+      ],
+      notes: [
+        {
+          title: "Vínculo con el set de keywords",
+          kind: "tip",
+          text: "La frecuencia es un filtro al armar un set semántico — no el goal en sí. Cómo recolectar y clusterizar está en el artículo del set semántico.",
+        },
+      ],
+      links: [
+        {
+          label: "Set semántico de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+      ],
+    },
+    {
+      title: "Consultas de alta frecuencia (HF)",
+      level: 3,
+      paras: [
+        "Redacciones cortas y amplias: una marca en sentido general, una categoría de producto, un tema «en conjunto». A menudo una o dos palabras; demanda de miles a decenas de miles de búsquedas al mes (el orden depende del nicho y la región).",
+        "En un sitio nuevo, HF rara vez da resultados rápidos: la competencia es alta y dominios fuertes poseen el SERP. Cúbrelas con landings y trabajo de enlaces o comportamiento más tarde — no centres el mes uno solo en head terms. El ranking del set suele construirse en un horizonte planificado de 2–6 meses tras empezar el trabajo.",
+      ],
+      lists: [
+        {
+          intro: "Señales típicas de HF:",
+          items: [
+            "redacción corta con poco detalle",
+            "intención amplia (muchas necesidades en una frase)",
+            "alta competencia en el SERP",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Consultas de media frecuencia (MF)",
+      level: 3,
+      paras: [
+        "Varias palabras, más específicas: servicio más un calificador, producto más un atributo. A menudo miles de búsquedas al mes. Encajan bien en la estructura de secciones y ayudan en distintas etapas de la promoción.",
+      ],
+    },
+    {
+      title: "Consultas de baja frecuencia (LF)",
+      level: 3,
+      paras: [
+        "Tres o más palabras, intención estrecha: modelo, ciudad, «precio», «con entrega». Ejemplo: «precio smartphone Samsung en Vorónezh».",
+        "La demanda es menor, pero la chance de un SERP relevante y tráfico dirigido es mayor. LF encaja en proyectos nuevos y maduros — sobre todo con landings sólidas.",
+      ],
+    },
+    {
+      title: "Stats generales en Yandex Wordstat",
+      level: 2,
+      paras: [
+        "Wordstat es la tool gratuita básica para demanda Yandex: ideas de frase, región, dispositivos y dinámica.",
+        "Tras iniciar sesión, abre selección de palabras, introduce una frase marcador y revisa la columna izquierda (variantes y colas) más frecuencias. Por defecto son todas las regiones; para negocio local, estrecha el geo primero.",
+        "Un número sin operadores no es «búsquedas exactas de esta frase», sino una estimación broad-match. Para un set de keywords casi siempre necesitas operadores.",
+      ],
+    },
+    {
+      title: "Modos de frecuencia en Wordstat",
+      level: 2,
+      paras: [
+        "Estos son los modos de trabajo que usan los equipos al limpiar y priorizar un set de keywords.",
+      ],
+    },
+    {
+      title: "Frecuencia base",
+      level: 3,
+      paras: [
+        "Una frase sin comillas ni caracteres especiales. Wordstat devuelve stats amplias de colas y matches. Bien para medir interés en un campo («smartphones» como categoría); arriesgado como presupuesto de tráfico para una sola landing.",
+      ],
+    },
+    {
+      title: "Frecuencia exacta",
+      level: 3,
+      paras: [
+        "Una frase entre comillas: «ventanas de plástico». Cuentan las mismas palabras en distinto orden y formas. Más cerca de la realidad que la base, y a menudo se usa como estimación de trabajo para un cluster.",
+      ],
+    },
+    {
+      title: "Frecuencia refinada",
+      level: 3,
+      paras: [
+        "Fijar formas de palabra con el operador «!» (y combinaciones de comillas) — revisa la Ayuda actual de Wordstat: la UI y los matices de operadores cambian. El punto es la estimación más estrecha de una ortografía concreta sin colas extra.",
+        "Probando variantes («comprar ventanas» / «ventanas comprar» / con ciudad) eliges la redacción que la gente de verdad escribe — no la que suena bien en un brief.",
+      ],
+      notes: [
+        {
+          title: "Error frecuente",
+          kind: "tip",
+          text: "Armar briefs y forecasts solo con frecuencia base. Entonces el set se llena de números inflados y las landings no entregan el tráfico esperado.",
+        },
+      ],
+      tables: [
+        {
+          caption: "Cómo leer los modos (esquema)",
+          headers: ["Modo", "Qué muestra a grosso modo", "Cuándo usarlo"],
+          rows: [
+            ["Base", "Todo el campo + colas", "Dimensionar el campo, brainstorm"],
+            ['Exacta "…"', "Palabras de la frase, formas/orden", "Estimación de trabajo para un cluster"],
+            ["Refinada (!)", "Ortografía estrecha", "Chequear redacciones de Title/H1"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Medir frecuencia en Google",
+      level: 2,
+      paras: [
+        "Google Keyword Planner (dentro de una cuenta Google Ads) da ideas de keywords, rangos de frecuencia y forecasts — con la salvedad de que las cifras suelen ser gruesas y orientadas a ads.",
+        "Google Trends sirve para dinámica y comparar redacciones por región, pero son índices relativos, no volúmenes absolutos de búsqueda.",
+        "En proyectos centrados en Rusia, un corte habitual es: Wordstat → set de keywords para Yandex; Planner/Trends → checks de Google y estacionalidad.",
+      ],
+    },
+    {
+      title: "Otras tools",
+      level: 2,
+      paras: [
+        "Junto a Wordstat y Google, los equipos usan combinadores y suites en la nube: Key Collector, Rush Analytics, Keys.so / Serpstat y módulos de plataforma como Titlo. Aceleran recolección y rollups, pero la verdad de suelo Yandex se sigue chequeando contra Wordstat.",
+      ],
+      lists: [
+        {
+          intro: "Qué se usa a menudo junto:",
+          items: [
+            "Key Collector — recolección y limpieza en lote",
+            "Rush Analytics y pares — clustering y harvest",
+            "Titlo — módulos de semántica y comparación de listas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Set semántico — recolección y clusters",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+      ],
+    },
+  ],
+};

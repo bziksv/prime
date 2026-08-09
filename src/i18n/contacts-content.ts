@@ -149,8 +149,70 @@ const contactsEn: ContactsContent = {
   footerTagline: "Digital marketing · contact",
 };
 
+const contactsEs: ContactsContent = {
+  path: "/es/contacts/",
+  metaTitle: "Contacto — PRIME",
+  metaDescription:
+    "Contacta con PRIME: email o un formulario breve. Trabajamos con clientes en todo el mundo — la ubicación y el idioma no son un obstáculo.",
+  breadcrumbHome: "Inicio",
+  breadcrumbCurrent: "Contacto",
+  menuLabel: "Menú",
+  ctaTop: "Escríbenos",
+  heroKicker: "Hablemos",
+  heroTitle: "Escríbenos",
+  heroLead:
+    "Trabajamos en todo el mundo. Estés donde estés y hables el idioma que hables, cuéntanos tu proyecto y te respondemos.",
+  infoTitle: "Cómo contactarnos",
+  infoLead: "Email, Telegram o el formulario — sin necesidad de visitar una oficina",
+  showAddress: false,
+  showPhone: false,
+  showMap: false,
+  addressLabel: "Dirección",
+  address: "",
+  phoneLabel: "Teléfono",
+  emailLabel: "Email",
+  socialsLabel: "Redes",
+  coverageLabel: "Cobertura",
+  coverageText:
+    "Trabajamos con clientes en todo el mundo. Ni la ciudad, ni el país, ni el idioma frenan la conversación — escríbenos y te respondemos.",
+  points: [
+    "Respuesta en un día laboral",
+    "Revisión de tu nicho en 30 minutos — sin compromiso",
+    "Puedes empezar con una auditoría o una consulta",
+  ],
+  formTitle: "¿Tienes una pregunta o un proyecto?",
+  formLead: "Cuéntanos brevemente qué necesitas — te respondemos en un día laboral",
+  formName: "Tu nombre",
+  formPhone: "Teléfono",
+  formEmail: "Email (opcional)",
+  formService: "Elige un servicio",
+  formServiceOptions: [
+    "SEO",
+    "Google Ads",
+    "Sitios web",
+    "Chatbots",
+    "Reputación online",
+    "Auditoría web",
+    "Soporte web",
+    "Analítica de marketing",
+    "SEO por resultados",
+    "Otro / consulta",
+  ],
+  formMessage: "Mensaje (opcional)",
+  formAgreeBefore: "Acepto el tratamiento de datos personales según nuestra",
+  formAgreePolicy: "política de privacidad",
+  formSubmit: "Enviar",
+  formSuccess: "Gracias — recibimos tu mensaje. Te contactaremos en breve.",
+  formSource: "es-contacts",
+  mapTitle: "",
+  mapSubtitle: "",
+  footerBrand: "PRIME",
+  footerTagline: "Marketing digital · contacto",
+};
+
 export function getContactsContent(locale: Locale): ContactsContent {
   if (locale === "en") return contactsEn;
+  if (locale === "es") return contactsEs;
   return contactsRu;
 }
 

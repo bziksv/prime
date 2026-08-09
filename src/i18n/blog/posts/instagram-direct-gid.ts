@@ -172,3 +172,176 @@ export const instagramDirectGidEn: BlogPost = {
     "biznes-v-instagram",
   ],
 };
+
+/** ES overlay for instagram-direct-gid — same structure as RU JSON / EN. */
+export const instagramDirectGidEs: BlogPost = {
+  slug: "instagram-direct-gid",
+  title: "Instagram Direct: cómo usar el messenger",
+  date: "2021-12-21",
+  category: "SMM",
+  cover: "/images/blog/instagram-direct-gid/cover.webp",
+  excerpt:
+    "Cómo abrir Direct, enviar un mensaje, adjuntos, quick replies y chats en Instagram — una guía del messenger sin broadcasts grises ni screenshots obsoletos del «avión de papel».",
+  lead: [
+    "Direct es el messenger integrado de Instagram: texto, foto, vídeo, notas de voz, reenvío de posts y Stories, chats de grupo. Para negocio son leads y soporte; para cuentas personales — chat habitual.",
+    "Abajo: acciones básicas en la app. Iconos e ítems de menú han cambiado; sigue el cliente actual. Auto-saludos, SLA y por qué no debes hacer spam frío — en una pieza aparte. La nota de producto Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta se reconoce como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia de la pieza de saludos y broadcasts?",
+      a: "Aquí — cómo usar el messenger (enviar, adjuntar, chatear). Allí — servicio de negocio y riesgos de DMs masivos fríos.",
+    },
+    {
+      q: "¿Hay un límite de caracteres?",
+      a: "Las guías antiguas a menudo decían ~500 caracteres. Revisa los límites actuales en la app: los textos largos a veces van en varios mensajes o como enlace/archivo.",
+    },
+    {
+      q: "¿Puedes montar un broadcast masivo dentro de la app?",
+      a: "No hay un «spam a todos» completo en el cliente oficial — y no deberías cazar bots de terceros. Escribe a quien inició el chat o aceptó bajo las reglas.",
+    },
+    {
+      q: "¿Se ven los read receipts?",
+      a: "Depende de la privacidad y del tipo de chat. No concluyas a la fuerza «leído e ignorando» sin contar con estados desactivados.",
+    },
+    {
+      q: "¿Hace falta una cuenta business para Direct?",
+      a: "El chat también funciona en un perfil personal. Para comercio un modo profesional es más cómodo: Insights, contactos, flujos de respuesta.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué existe Direct",
+      level: 2,
+      paras: [
+        "Mensajería sin salir a otro messenger: aclarar un pedido, enviar una lista de precios, responder una pregunta tras un ad o Story.",
+        "Los chats de grupo encajan con un equipo o soporte de comunidad pequeña. Encuestas y reacciones rápidas son para engagement — no para spam.",
+      ],
+      lists: [
+        {
+          intro: "Qué suele enviar la gente:",
+          items: [
+            "texto y emoji",
+            "foto y vídeo",
+            "notas de voz",
+            "posts, Reels y Stories",
+            "enlaces a perfiles y sitios (donde estén disponibles)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Saludos y mensajes sin spam",
+          href: "/es/blog/instagram-direct/",
+        },
+        {
+          label: "Cuenta business",
+          href: "/es/blog/biznes-akkaunt-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Cómo abrir y escribir",
+      level: 2,
+      paras: [
+        "En la app abre la sección de mensajes (el icono ha cambiado: avión de papel, pestaña de chats, etc.). La lista de diálogos — inbox y solicitudes de gente a la que no sigues.",
+        "Chat nuevo: crear mensaje → buscar usuario → texto → enviar. Alternativa — Message en el otro perfil, si está disponible.",
+      ],
+      notes: [
+        {
+          title: "Error frecuente",
+          kind: "tip",
+          text: "Cazar un broadcast masivo en los settings de Direct y enchufar programas dudosos. Eso golpea la cuenta — ver la pieza de riesgos.",
+        },
+      ],
+    },
+    {
+      title: "Adjuntos y formatos especiales",
+      level: 2,
+      paras: [
+        "Puedes adjuntar media de la galería o la cámara, reenviar un post, a veces ubicación o stickers. Foto/vídeo que desaparecen viven un tiempo limitado: para contratos y archivos fuente usa cloud o email.",
+        "Las encuestas en el chat ayudan a elegir rápido (fecha, opción de servicio). No las confundas con formularios oficiales de pedido en el sitio.",
+      ],
+      links: [
+        {
+          label: "Guardar una foto de Instagram",
+          href: "/blog/sohranit-foto-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Quick replies y chat de negocio",
+      level: 2,
+      paras: [
+        "Las respuestas guardadas aceleran preguntas frecuentes: precios, horario, entrega. Una plantilla es el arranque; hace falta una pregunta aclaratoria y follow-up en vivo.",
+        "Asigna quién responde en horario laboral. Un flujo grande necesita una persona dedicada o una cola CRM — no «SMM entre Reels».",
+      ],
+      lists: [
+        {
+          intro: "Higiene del chat:",
+          items: [
+            "responder sin silencio largo",
+            "con sustancia, sin arrogancia",
+            "correctamente, en el idioma del cliente",
+            "no enviar diez mensajes en lugar de uno claro",
+            "registrar leads fuera del chat",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Solicitudes, reports, borrado",
+      level: 2,
+      paras: [
+        "Los mensajes de desconocidos pueden caer en Requests. Fija una política: aceptar leads / ignorar spam. Usa report y block contra fraude y acoso — según las reglas de la app.",
+        "Borrar para ti y «unsend» para el otro son acciones distintas; las opciones dependen de la versión del cliente. No asumas que un archivo disputado desaparece para todos para siempre.",
+      ],
+      links: [
+        {
+          label: "Bloqueo en Instagram",
+          href: "/es/blog/blokirovka-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Promoción vía Direct — vista sobria",
+      level: 2,
+      paras: [
+        "Patrón que funciona: la persona escribió tras un CTA en Story/post/ad → respondes rápido. No repetimos lotes fríos ni catálogos viejos Instaplus / Tooligram / Zengram.",
+        "Stats de «mil millones de usuarios» ≠ tu alcance en Direct. Mira respuestas, leads y ventas.",
+      ],
+      links: [
+        {
+          label: "Ads en Instagram",
+          href: "/es/blog/reklama-instagram/",
+        },
+        {
+          label: "Shadowban",
+          href: "/es/blog/tenevoy-ban-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Claves a recordar",
+      level: 2,
+      paras: [
+        "Direct es el messenger dentro de Instagram. Aprende a escribir, adjuntar y responder con plantillas más follow-up en vivo.",
+        "Para crecer en ventas, la velocidad de servicio gana a cazar un botón de «enviar a todos».",
+      ],
+    },
+  ],
+  closing: [
+    "Abre chats, monta quick replies y una cola inbound — para que Direct trabaje para leads. Cubre automatización sin spam y lotes fríos en la pieza de saludos.",
+  ],
+  related: [
+    "instagram-direct",
+    "biznes-akkaunt-instagram",
+    "reklama-instagram",
+    "tenevoy-ban-instagram",
+    "blokirovka-instagram",
+    "biznes-v-instagram",
+  ],
+};

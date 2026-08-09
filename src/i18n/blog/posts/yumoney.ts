@@ -152,3 +152,156 @@ export const yumoneyEn: BlogPost = {
     "roi-marketinga",
   ],
 };
+
+/** ES overlay for yumoney — same structure as RU JSON / EN. */
+export const yumoneyEs: BlogPost = {
+  slug: "yumoney",
+  title: "YooMoney (Yandex.Wallet): qué es y cómo usarlo",
+  date: "2021-04-30",
+  category: "Marketing digital",
+  cover: "/images/blog/yumoney/cover.webp",
+  excerpt:
+    "YooMoney (antes Yandex.Money / Yandex.Wallet): monedero electrónico para pagos y transferencias, niveles de identificación, ingreso y retiros — sin capturas obsoletas ni confundirlo con YooKassa.",
+  lead: [
+    "YooMoney es un monedero electrónico para pagos online y transferencias (históricamente Yandex.Money o Yandex.Wallet). Es la cuenta de un usuario — no un agregador de pagos para una tienda online.",
+    "Abajo: para qué sirve el monedero, en qué se diferencia de YooKassa, niveles de ID y la lógica de ingreso y retiros. Comisiones, límites y menús cambian — revisa el panel y la Help de YooMoney.",
+  ],
+  faq: [
+    {
+      q: "¿YooMoney y Yandex.Wallet son lo mismo?",
+      a: "En esencia sí: el producto se renombró. Textos antiguos y hábitos de clientes siguen diciendo Yandex.Money o wallet.",
+    },
+    {
+      q: "¿En qué se diferencia YooMoney de YooKassa?",
+      a: "YooKassa cobra pagos en el sitio de un negocio. YooMoney es un monedero personal o de cliente para pagar y enviar dinero. Una tienda suele necesitar Checkout (Kassa), no el monedero personal del dueño.",
+    },
+    {
+      q: "¿Por qué identificarse?",
+      a: "Los límites de saldo, transferencia y retiro dependen del nivel de ID. Sin ID, las funciones son más finas. El detalle de estados vive en la Help actual de YooMoney.",
+    },
+    {
+      q: "¿Hace falta una cuenta Yandex?",
+      a: "El login suele ir ligado a una cuenta Yandex o a un perfil vinculado. No uses el login de otro para dinero.",
+    },
+    {
+      q: "¿Puedo pagar en tiendas con YooMoney?",
+      a: "Sí, donde acepten YooMoney o métodos vinculados. Puntos y límites — en la app y con el comercio.",
+    },
+    {
+      q: "¿Cómo retiro a una tarjeta?",
+      a: "Tras el nivel de ID requerido — transferencia a tarjeta bancaria u otros métodos del panel. Comisión y plazos dependen del método.",
+    },
+    {
+      q: "¿Es seguro guardar sumas grandes?",
+      a: "Un monedero electrónico no es un depósito bancario. Mantén saldos de trabajo, activa protección de login, no guardes la contraseña en messengers.",
+    },
+    {
+      q: "¿Basta para cobrar en un sitio web?",
+      a: "Para una tienda online completa suele conectarse un agregador de pagos (p. ej. YooKassa) bajo contrato de autónomo o empresa. Un monedero personal es otro escenario con otros límites.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es",
+      level: 2,
+      paras: [
+        "El monedero guarda dinero electrónico y permite pagar servicios, enviar a personas y negocios y a veces sacar a tarjeta — dentro de las reglas del servicio y la ley.",
+        "Históricamente la marca era Yandex.Money; la comunicación ahora suele decir YooMoney. Para el usuario es la misma idea: una cuenta digital con app y web.",
+        "No lo confundas con acquiring: cobrar como persona jurídica desde un sitio y pagar desde tu propio monedero son productos distintos.",
+      ],
+      links: [
+        {
+          label: "YooKassa para una tienda",
+          href: "/es/blog/yukassa/",
+        },
+        {
+          label: "Pagos online en un sitio",
+          href: "/es/blog/onlayn-oplata/",
+        },
+      ],
+    },
+    {
+      title: "Registro e inicio de sesión",
+      level: 2,
+      paras: [
+        "La apertura va por una cuenta Yandex o el formulario en el sitio o app de YooMoney: teléfono para confirmaciones, contraseña, aceptación de términos.",
+        "Tras crearlo, busca el número de cuenta o monedero en el panel — algunos canales de ingreso lo necesitan. Las rutas exactas de UI cambian.",
+        "Activa de inmediato las protecciones disponibles: confirmación por SMS o app, control de dispositivos, una contraseña fuerte de la cuenta Yandex.",
+      ],
+      notes: [
+        {
+          title: "No memorices capturas antiguas",
+          kind: "tip",
+          text: "Las guías de 2021 con un checkbox junto al saldo suelen estar obsoletas. Busca el número de cuenta y las opciones de ingreso en el menú actual o en la Help de YooMoney.",
+        },
+      ],
+    },
+    {
+      title: "Ingreso, transferencia, retiro",
+      level: 2,
+      paras: [
+        "Ingreso: tarjeta bancaria, transferencia, a veces terminales y otros monederos — lista y comisiones en la sección Añadir dinero.",
+        "Transferencia: elige el destinatario (teléfono, cuenta, tarjeta — lo disponible), importe, confirma. Revisa la comisión antes de enviar.",
+        "Retiro a tarjeta y cash-out suelen pedir un estatus de ID más alto. Los niveles anónimos o mínimos recortan los límites con fuerza.",
+      ],
+      lists: [
+        {
+          intro: "Antes de una transferencia grande:",
+          items: [
+            "datos del destinatario verificados",
+            "la comisión está clara",
+            "el estatus de ID basta",
+            "sin presión de «hoy o nunca» de un desconocido",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Identificación y límites",
+      level: 2,
+      paras: [
+        "El servicio parte niveles de verificación de identidad (confirma los nombres de estado en Help). Nivel más alto — operaciones y límites más amplios.",
+        "Para negocio y freelance, planifica con antelación: retirar honorarios puede pedir datos de pasaporte y tiempo de verificación.",
+        "No copies cifras de límites de artículos de 2021 — usa las cifras actuales del panel.",
+      ],
+    },
+    {
+      title: "Seguridad",
+      level: 2,
+      paras: [
+        "No introduzcas contraseña y códigos en sitios de recuperación del monedero llegados por email. Login oficial — solo por un dominio de confianza o la app.",
+        "No dictes códigos SMS al «soporte» en un messenger. El personal del banco y del monedero nunca pide la contraseña completa.",
+        "En un ordenador compartido, cierra sesión; en el teléfono — bloqueo de pantalla y un perfil aparte si otros usan el dispositivo.",
+      ],
+    },
+    {
+      title: "Cuándo monedero vs Checkout",
+      level: 2,
+      paras: [
+        "Para un cliente que paga un pedido — YooMoney encaja si el vendedor lo acepta.",
+        "Para una tienda que cobra cientos de pagos con recibos — mira un agregador como YooKassa y las reglas de recibos (p. ej. 54-FZ en Rusia), no el monedero personal del fundador.",
+        "Mezclar «envía dinero al monedero de un autónomo» sin contrato crea riesgo contable y legal — no es solo un botón práctico.",
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "YooMoney es monedero de usuario; YooKassa es aceptación de pagos para negocio.",
+        "El ID desbloquea retiros y límites; los términos viven solo en la Help actual.",
+        "La seguridad del login gana a life hacks de ingreso vía redes de terminales obsoletas.",
+      ],
+    },
+  ],
+  closing: [
+    "Si necesitas un monedero personal — regístrate en YooMoney, activa la protección y completa el nivel de ID para tus límites; si necesitas cobros en un sitio — mira YooKassa y el checkout online, y no mezcles los productos.",
+  ],
+  related: [
+    "yukassa",
+    "onlayn-oplata",
+    "yandeks-toloka",
+    "pochtovyy-servis",
+    "formy-zahvata",
+    "roi-marketinga",
+  ],
+};

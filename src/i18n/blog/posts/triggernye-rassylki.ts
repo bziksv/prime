@@ -161,3 +161,165 @@ export const triggernyeRassylkiEn: BlogPost = {
     "pochtovyy-servis",
   ],
 };
+
+/** ES overlay for triggernye-rassylki — same structure as RU JSON. */
+export const triggernyeRassylkiEs: BlogPost = {
+  slug: "triggernye-rassylki",
+  title: "Emails trigger: qué son y cómo usarlos",
+  date: "2019-02-05",
+  category: "Email marketing",
+  cover: "/images/blog/triggernye-rassylki/cover.webp",
+  excerpt:
+    "En qué se diferencian los mensajes trigger de un newsletter habitual: welcome, carrito abandonado, pedido, review, back-in-stock y win-back de lista — con consentimiento y sin spam.",
+  lead: [
+    "Un email trigger sale en automático tras una acción o evento: suscripción, pedido, carrito abandonado, cumpleaños, una pausa larga. No es el digest de «cada lunes» — es una respuesta al comportamiento de alguien.",
+    "Abajo: por qué los triggers ayudan al negocio, qué escenarios funcionan más a menudo y cómo no deslizarse al spam. La lista se arma con consentimiento; no usamos scraping de direcciones ajenas.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia un trigger de un envío normal?",
+      a: "Un envío normal va por calendario a todos o a un segmento. Un trigger dispara por un evento para una persona concreta (o un grupo estrecho con el mismo evento).",
+    },
+    {
+      q: "¿Un trigger es lo mismo que un email transaccional?",
+      a: "Se solapan en parte. Los transaccionales (recibo, estado del pedido) suelen ser de servicio; los triggers de marketing (carrito, recomendaciones) son opcionales y necesitan frecuencia cuidadosa.",
+    },
+    {
+      q: "¿Por dónde empieza un principiante?",
+      a: "Welcome tras suscribirse y un recordatorio de carrito/lead abandonado — si tienes tienda o formulario. Luego post-compra y win-back para dormidos.",
+    },
+    {
+      q: "¿Hace falta un ESP?",
+      a: "Sí — un servicio de email o CRM con automatizaciones es más fácil. Revisa integraciones con sitio/CMS y reglas anti-spam.",
+    },
+    {
+      q: "¿Puedo enviar sin consentimiento?",
+      a: "No para marketing. Necesitas lista opt-in y unsubscribe claro. Si no: quejas, bloqueos y riesgo de reputación.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué triggers",
+      level: 2,
+      paras: [
+        "El mensaje llega cuando es relevante: acaba de suscribirse, dejó ítems en el carrito, recibió un pedido. Opens y conversión suelen ser más altos que el mismo blast para todos.",
+        "Tiempo ahorrado: defines el escenario una vez y el sistema nutre al cliente. Juzga resultados por opens, clics y reorder — no por lo bonita que se vea la plantilla.",
+      ],
+      lists: [
+        {
+          intro: "Pros:",
+          items: [
+            "personalización por acción",
+            "respuesta rápida sin blast manual",
+            "stats claras del escenario",
+            "menos emails masivos ruidosos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Escenarios simples",
+      level: 2,
+      paras: [
+        "Welcome: confirma la suscripción, fija expectativas, primera pieza útil o promo — sin escaparate agresivo en el email uno.",
+        "Por fecha: cumpleaños, aniversario de compra, recordatorio de evento/webinar. Tono — ayuda, no presión.",
+        "Hizo la acción — recibió el bonus: tras un paso target (alta, plan de pago) envía un código personal o instrucciones. Ata la cadena a la activación de la promo para no prometer ofertas vacías.",
+      ],
+      links: [
+        {
+          label: "Lista de email desde redes",
+          href: "/es/blog/baza-email-socseti/",
+        },
+        {
+          label: "Felicitaciones al cliente",
+          href: "/es/blog/pozdravlenie-klienta/",
+        },
+      ],
+    },
+    {
+      title: "Carrito abandonado y pedido",
+      level: 2,
+      paras: [
+        "Un recordatorio tras unas horas (y un follow-up suave en 1–2 días si hace falta) con el contenido del carrito y un CTA claro. No bombardees cada hora.",
+        "Tras el pedido — estado, gracias, sugerencias relacionadas relevantes. El bloque de recomendaciones debe encajar, no un catálogo al azar.",
+        "Más sobre por qué la gente abandona el checkout — en el artículo de carrito abandonado.",
+      ],
+      lists: [
+        {
+          intro: "Cómo se arma técnicamente:",
+          items: [
+            "evento del sitio/CRM al ESP",
+            "plantilla transaccional con datos del pedido",
+            "segmento «carrito no vacío N horas» para un pase regular — más débil, pero a veces es un inicio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Carrito abandonado",
+          href: "/es/blog/broshennaya-korzina/",
+        },
+      ],
+    },
+    {
+      title: "Review, precio, stock, win-back",
+      level: 2,
+      paras: [
+        "Pide review cuando el cliente ya recibió y usó el producto (el timing depende del nicho: comida más rápido, muebles más largo).",
+        "Baja de precio / back in stock — a quien mostró interés. No generes un email por SKU el mismo día sin necesidad; a veces un digest de cambios basta.",
+        "Win-back: para quien no visita hace tiempo — una razón suave para volver (novedades, no leído, valor), no «te echamos de menos» sin oferta.",
+      ],
+    },
+    {
+      title: "Reglas para no quemar la lista",
+      level: 2,
+      paras: [
+        "Consentimiento, unsubscribe a un clic, subjects honestos. Tope de frecuencia por persona: varios triggers al día arriesgan irritación.",
+        "Sincroniza estados: compró — no envíes carrito; se dio de baja — no envíes marketing. Prueba subject y timing en un segmento pequeño.",
+        "SMS y mensajeros son canales aparte con sus propias reglas; no copies a ciegas los triggers de email allí.",
+      ],
+      lists: [
+        {
+          intro: "Mini checklist de lanzamiento:",
+          items: [
+            "evento y delay definidos",
+            "plantilla con personalización y CTA",
+            "exclusiones (compró / se dio de baja)",
+            "métricas del escenario en el informe",
+            "lista limpia legalmente",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SMS marketing",
+          href: "/es/blog/sms-rassylka/",
+        },
+        {
+          label: "Ventas en tienda online",
+          href: "/es/blog/prodazhi-internet-magazin/",
+        },
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Un trigger es una respuesta automática a una acción — no un sustituto de newsletters de contenido.",
+        "Empieza con welcome y carrito/lead, luego crece las cadenas.",
+        "Sin consentimiento ni control de frecuencia, cualquier escenario «inteligente» se vuelve spam.",
+      ],
+    },
+  ],
+  closing: [
+    "Monta un welcome para nuevos suscriptores esta semana y mide opens — más rápido que diseñar diez cadenas complejas de golpe.",
+  ],
+  related: [
+    "broshennaya-korzina",
+    "baza-email-socseti",
+    "pozdravlenie-klienta",
+    "sms-rassylka",
+    "prodazhi-internet-magazin",
+    "pochtovyy-servis",
+  ],
+};

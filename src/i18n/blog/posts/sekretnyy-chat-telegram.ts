@@ -140,3 +140,144 @@ export const sekretnyyChatTelegramEn: BlogPost = {
     "parol-instagram",
   ],
 };
+
+/** ES overlay for sekretnyy-chat-telegram — same structure as RU JSON / EN. */
+export const sekretnyyChatTelegramEs: BlogPost = {
+  slug: "sekretnyy-chat-telegram",
+  title: "Chat secreto de Telegram: en qué se diferencia y cómo activarlo",
+  date: "2020-08-05",
+  category: "SMM",
+  cover: "/images/blog/sekretnyy-chat-telegram/cover.webp",
+  excerpt:
+    "Qué es un chat secreto de Telegram: end-to-end, timer de borrado, límites de forwarding y capturas — sin el mito de la «invulnerabilidad absoluta».",
+  lead: [
+    "Un chat secreto de Telegram es un modo aparte de mensajería uno a uno centrado en cifrado end-to-end, auto-borrado y forwarding limitado. No es lo mismo que un diálogo cloud habitual.",
+    "Abajo: en qué se diferencia el modo, cómo crearlo, por qué importa el timer y qué expectativas son realistas. Los menús cambian; consulta Telegram Help. No hay protección absoluta frente a todo: el acceso al dispositivo, la ingeniería social y una segunda cámara siguen existiendo.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de las plataformas. WhatsApp* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Un chat secreto es lo mismo que todos los chats de Telegram?",
+      a: "No. Los chats habituales van por la nube y se sincronizan entre dispositivos. El secreto es una sesión aparte, suele ir ligada a dispositivos concretos.",
+    },
+    {
+      q: "¿Puedo abrir un chat secreto en un PC?",
+      a: "Históricamente el foco estaba en clientes móviles. Revisa el soporte actual de plataformas en Telegram Help — no capturas de 2020.",
+    },
+    {
+      q: "¿Las capturas están totalmente prohibidas?",
+      a: "El cliente puede bloquear/avisar sobre screenshots en algunos SO. Aun así puedes fotografiar la pantalla con otro dispositivo — no es un «escudo invisible».",
+    },
+    {
+      q: "¿Hace falta un chat secreto para negocio?",
+      a: "Para archivos sensibles y datos personales — a veces sí. Para soporte al cliente suele ser mejor un chat/bot habitual con política de retention.",
+    },
+    {
+      q: "¿En qué se diferencia del self-destruct en un chat habitual?",
+      a: "Los chats habituales también pueden tener timers y borrado. El modo secreto es un tipo de diálogo aparte con otro set de límites (forwarding, vínculo al dispositivo, etc.).",
+    },
+  ],
+  sections: [
+    {
+      title: "En qué se diferencia un chat secreto de uno habitual",
+      level: 2,
+      paras: [
+        "Un diálogo habitual se sincroniza entre tus clientes por la infraestructura de Telegram. Un chat secreto se crea como una sesión protegida aparte con la otra persona.",
+        "Diferencias típicas del modo: foco E2E, límites al reenviar mensajes a otros chats, timer de auto-borrado, UX distinta (a menudo marcada con un candado).",
+        "No confundas el marketing de «el messenger más secreto» con el trabajo: elige el modo según el riesgo. Para un canal público o soporte no necesitas un chat secreto.",
+      ],
+      links: [
+        {
+          label: "Telegram: overview",
+          href: "/es/blog/telegram/",
+        },
+      ],
+    },
+    {
+      title: "Capacidades y límites",
+      level: 2,
+      paras: [
+        "Timer de borrado: los mensajes desaparecen tras un intervalo elegido (de segundos a días — el set depende de la versión).",
+        "Borrar para ambos: útil para texto sensible, pero no sustituye la política de «no envíes lo que no debería mostrarse».",
+        "El forwarding desde un chat secreto suele estar limitado — menos fugas accidentales a grupos.",
+        "Los avisos de intento de screenshot son una señal, no una garantía. Una cámara física y malware en el dispositivo quedan fuera del threat model del «candado de UI».",
+      ],
+      notes: [
+        {
+          title: "Realismo",
+          kind: "tip",
+          text: "No copiamos ratings de EFF, bounties y comparaciones WhatsApp/Viber de roundups viejos como verdad eterna. Revisa informes actuales y Help del cliente.",
+        },
+      ],
+    },
+    {
+      title: "Cómo crear un chat secreto",
+      level: 2,
+      paras: [
+        "En la app abre nuevo chat / menú del lápiz → «Secret chat» (la redacción puede diferir) → elige un contacto.",
+        "La otra persona debe aceptar/abrir la invitación. Hasta que la sesión esté montada, no hay correspondencia protegida.",
+        "Crea un chat secreto aparte por tarea; puedes tener varios con personas distintas.",
+      ],
+      lists: [
+        {
+          intro: "Antes de empezar:",
+          items: [
+            "confirma que escribes al contacto correcto",
+            "acuerda el timer y qué se puede enviar",
+            "un cliente oficial actualizado",
+            "entiende que cambiar de teléfono puede romper una sesión antigua",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Timer de auto-borrado",
+      level: 2,
+      paras: [
+        "En un chat secreto abierto abre el menú (⋯) → timed delete / self-destruct → elige un intervalo.",
+        "El timer suele ser visible para ambos. Cámbialo a propósito: demasiado corto perjudica trabajar con archivos; demasiado largo debilita el sentido del modo.",
+      ],
+    },
+    {
+      title: "Cuándo encaja",
+      level: 2,
+      paras: [
+        "Compartir borradores sensibles, detalles de acceso (mejor aún vía un gestor de contraseñas), chat personal con riesgo elevado.",
+        "No sustituye DLP corporativo ni NDAs legales. No lo uses como tapadera de actividad ilegal — este artículo va de una herramienta, no de saltarse la ley.",
+        "Para marketing y comunidades públicas bastan canales, chats habituales y bots.",
+      ],
+      links: [
+        {
+          label: "Enlaces en Telegram",
+          href: "/es/blog/ssylki-telegram/",
+        },
+        {
+          label: "Bots de Telegram",
+          href: "/es/blog/telegram-boty/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Un chat secreto es un modo para mensajería sensible uno a uno, no el «default de todo Telegram».",
+        "Timers y límites de forwarding ayudan, pero la seguridad empieza en el dispositivo y la disciplina.",
+      ],
+    },
+  ],
+  closing: [
+    "Si necesitas chat sensible — crea un chat secreto con timer y acuerda las reglas primero; para soporte ordinario mantén un diálogo cloud o un bot.",
+  ],
+  related: [
+    "telegram",
+    "ssylki-telegram",
+    "telegram-kanal",
+    "telegram-boty",
+    "instagram-direct",
+    "parol-instagram",
+  ],
+};

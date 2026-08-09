@@ -158,3 +158,162 @@ export const strategiiGoogleAdsEn: BlogPost = {
     "skvoznaya-analitika",
   ],
 };
+
+/** ES overlay for strategii-google-ads — same structure as RU JSON / EN. */
+export const strategiiGoogleAdsEs: BlogPost = {
+  slug: "strategii-google-ads",
+  title: "Pujas automatizadas de Google Ads: elige la estrategia por meta",
+  date: "2018-12-25",
+  category: "Paid search",
+  cover: "/images/blog/strategii-google-ads/cover.webp",
+  excerpt:
+    "Cómo elegir Smart Bidding en Google Ads — clics, conversiones, CPA, ROAS — sin un catálogo de botones de 2018 ni el mito de que la automatización siempre gasta mejor.",
+  lead: [
+    "Las pujas automatizadas en Google Ads fijan pujas hacia una meta de campaña: más clics, más conversiones, un techo de CPA o un suelo de ROAS. Manual CPC sigue aquí — pero sin datos de conversión, los modos auto vuelan a ciegas.",
+    "Lo que sigue es cómo elegir por el trabajo del negocio. Las etiquetas de UI se movieron (eCPC, target impression share y el resto): quédate con la clase — clics / conversiones / valor / visibilidad — y confirma nombres en Google Ads Help. El paralelo de Direct vive en un artículo aparte.",
+  ],
+  faq: [
+    {
+      q: "¿La automatización siempre es mejor que pujas manuales?",
+      a: "No. Conversiones escasas, metas sucias o tests de oferta — manual o un modo limitado suele ser más calmado. Auto gana con volumen y economics estables.",
+    },
+    {
+      q: "¿Cuántas conversiones necesito?",
+      a: "Cuanto más estables las conversiones en la ventana de learning, más seguro va Smart Bidding. No fijamos reglas viejas de «exactamente 30» — usa la guidance de la cuenta y tus propias stats.",
+    },
+    {
+      q: "¿Puedo cambiar de estrategia cada día?",
+      a: "Da una ventana de learning (a menudo unas 1–3 semanas) y no reescribas la meta a diario. Si no, el algoritmo no se asienta.",
+    },
+    {
+      q: "¿En qué se diferencia de las estrategias de Direct?",
+      a: "Misma idea: meta → datos → automatización. Cabinets y etiquetas difieren — no copies settings uno a uno.",
+    },
+    {
+      q: "¿Qué importa más que la estrategia?",
+      a: "Conversiones limpias, la oferta, negativos y la landing. Ningún modo de puja arregla un píxel de meta vacío.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué existen las pujas automatizadas",
+      level: 2,
+      paras: [
+        "El algoritmo lee el contexto de la subasta más duro de lo que una persona puede pujar cada keyword a mano: dispositivo, hora, probabilidad de conversión. Pagas más cerca de clics que parecen valiosos — no cualquier clic que aparezca.",
+        "Las metas malas salen caras: si «tap de teléfono» sin lead cuenta como conversión, la optimización persigue basura barata.",
+      ],
+      lists: [
+        {
+          intro: "Antes de elegir una estrategia:",
+          items: [
+            "una meta de negocio clara (lead, compra, tráfico)",
+            "tracking de conversión sin duplicados",
+            "un CPA o ROAS aceptable",
+            "presupuesto para el periodo de learning",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Estrategias de Yandex Direct",
+          href: "/es/blog/strategii-yandeks-direkt/",
+        },
+        {
+          label: "Metas en Google Analytics",
+          href: "/es/blog/google-analytics-tseli/",
+        },
+      ],
+    },
+    {
+      title: "Clics y visibilidad",
+      level: 2,
+      paras: [
+        "Maximize clicks (o clics dentro de presupuesto) encaja cuando importan más visitas y awareness que conversiones trackeadas — o cuando aún estás cableando metas. Topa el presupuesto y mira la calidad del tráfico.",
+        "Los modos de visibilidad (impression share / presencia en SERP — los nombres se mueven) encajan en trabajos de marca: aparecer en tu nombre o queries de competidor. Para performance de CPA duro a menudo salen caros.",
+      ],
+      notes: [
+        {
+          title: "Cuidado",
+          text: "«Maximize clicks porque no sé precios de keywords» es una trampa. Sin negativos y monitoreo, el presupuesto se filtra a queries amplias.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Conversiones y valor",
+      level: 2,
+      paras: [
+        "Maximize conversions cuando necesitas más acciones de meta dentro del presupuesto. Target CPA cuando conoces un coste aceptable de lead u pedido y puedes alimentar el algoritmo con volumen.",
+        "Target ROAS / conversion value encaja en tiendas y modelos de margen mixto: el sistema tira hacia rentabilidad. Sin valor en los datos (value tracking), la idea se debilita.",
+      ],
+      lists: [
+        {
+          intro: "Las estrategias de conversión encajan cuando:",
+          items: [
+            "las metas disparan con fiabilidad",
+            "hay historial de conversiones",
+            "oferta y sitio no se reescriben cada semana",
+            "el techo de CPA o el suelo de ROAS está claro",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Auto limitado y CPC manual",
+      level: 2,
+      paras: [
+        "Enhanced CPC / híbridos (históricamente eCPC y pares) suben la puja cuando un clic parece convertible y topan el crecimiento descontrolado. Útiles como puente.",
+        "Manual CPC encaja en lanzamientos, tests de hipótesis, campañas de marca estrechas y conversiones raras. Empezar manual hasta que haya datos está bien — no es un fracaso.",
+      ],
+    },
+    {
+      title: "Elegir sin romper la ventana de learning",
+      level: 2,
+      paras: [
+        "Encaja el trabajo de campaña con el KPI: marca → visibilidad/clics; leads → conversiones/CPA; tienda sensible al margen → valor/ROAS. Tras un cambio de estrategia, planifica una ventana de observación — no esperes milagros overnight.",
+        "Un salto brusco de presupuesto con el mismo Target CPA puede pegar a la eficiencia un tiempo — escala por pasos. Sigue limpiando search terms y creatividades en paralelo.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de selección:",
+          items: [
+            "KPI escrito",
+            "conversiones verificadas",
+            "la estrategia encaja con el KPI",
+            "presupuesto reservado para learning",
+            "sin churn diario de settings",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Tests A/B en paid search",
+          href: "/es/blog/ab-testy-reklamy/",
+        },
+        {
+          label: "Keywords de Google Ads",
+          href: "/es/blog/klyuchi-google-ads/",
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "Las estrategias auto de Google Ads van de meta y datos — no de un botón mágico de clic más barato. El catálogo de nombres de 2018 envejeció; las clases de estrategia no.",
+        "Primero metas y economics, luego automatización. Si no, el algoritmo optimiza lo equivocado.",
+      ],
+    },
+  ],
+  closing: [
+    "Elige una clase de estrategia para el KPI, confirma que las conversiones están limpias, da una ventana de learning y escala con cuidado — ahí Smart Bidding ayuda al presupuesto más a menudo de lo que amplifica tráfico al azar.",
+  ],
+  related: [
+    "strategii-yandeks-direkt",
+    "klyuchi-google-ads",
+    "ab-testy-reklamy",
+    "google-analytics-tseli",
+    "stavki-direkt",
+    "skvoznaya-analitika",
+  ],
+};

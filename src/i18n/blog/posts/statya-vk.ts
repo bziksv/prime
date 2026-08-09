@@ -123,3 +123,127 @@ export const statyaVkEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for statya-vk — same structure as RU JSON / EN. */
+export const statyaVkEs: BlogPost = {
+  slug: "statya-vk",
+  title: "Artículo en VK: cómo prepararlo y publicarlo",
+  date: "2021-07-20",
+  category: "SMM",
+  cover: "/images/blog/statya-vk/cover.webp",
+  excerpt:
+    "Cómo usar el editor de artículos de VK: título, formato, cover, borradores, stats y publicación en el muro o en una comunidad.",
+  lead: [
+    "Un artículo de VK es una pieza long-form con título, párrafos, listas y cover — no un post de un solo muro. Encaja mejor para desgloses, guías y textos expert en una comunidad.",
+    "Abajo: prep en el editor, layout de texto y media, publicación y stats. Las etiquetas del menú de VK cambian — apóyate en el sentido de «Artículos» / los bloques del editor, no en capturas obsoletas.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia un artículo de un post en el muro?",
+      a: "Un post es una entrada corta con adjuntos. Un artículo es un documento aparte con layout, cover y lectura más fácil; el muro muestra un teaser.",
+    },
+    {
+      q: "¿Dónde escribir: comunidad o página personal?",
+      a: "Para negocio — en una comunidad: alcance de suscriptores y stats públicas. Una página personal — para un blog de autor.",
+    },
+    {
+      q: "¿Hace falta un cover?",
+      a: "Preferible: sube los clics del teaser. Si lo omites, VK puede elegir una imagen del cuerpo. Apunta a unos 16:9; revisa el tamaño exacto en las pistas del editor.",
+    },
+    {
+      q: "¿Se guardan los borradores?",
+      a: "Sí, el editor suele hacer autosave. La sección de borradores deja volver tras cerrar la pestaña.",
+    },
+    {
+      q: "¿Un artículo sustituye un plan de contenido?",
+      a: "No. Es un formato. Ritmo y temas van aparte; ver materiales de crecimiento y gestión de comunidad.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cuándo hace falta un artículo, no un post",
+      level: 2,
+      paras: [
+        "Un artículo encaja cuando la pieza es más larga que unos párrafos: una guía, un caso, un roundup o un how-to. Un teaser promo corto va mejor como post con enlace al artículo o al producto.",
+        "Un título de teaser fuerte decide si la gente abre el texto. Sin valor en las primeras pantallas, el long-form no lo salva.",
+      ],
+      links: [
+        {
+          label: "Crecer un grupo de VK",
+          href: "/es/blog/raskrutka-gruppy-vk/",
+        },
+      ],
+    },
+    {
+      title: "Editor: texto y media",
+      level: 2,
+      paras: [
+        "Abre crear post y pasa a modo artículo (icono de texto / «Artículo» — la etiqueta puede diferir). Rellena el título y el cuerpo.",
+        "Formato al seleccionar: negrita, cursiva, tachado, enlace, encabezados, cita. Las listas a menudo empiezan en una línea nueva con `1.` o `-` y Enter — si el gesto cambió, usa los botones de la toolbar.",
+      ],
+      lists: [
+        {
+          intro: "Media dentro del artículo:",
+          items: [
+            "fotos de un álbum, del dispositivo o drag-and-drop",
+            "vídeo en formatos soportados",
+            "ilustraciones con una escena legible — no relleno por rellenar",
+            "un cover aparte de las imágenes del cuerpo",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Atajos",
+          text: "El set habitual tipo Ctrl+B / Ctrl+I y deshacer Ctrl+Z suele funcionar en el editor web; la lista exacta depende del navegador. No te apoyes solo en ellos — los botones de la toolbar son más fiables.",
+        },
+      ],
+    },
+    {
+      title: "Cover, borradores y stats",
+      level: 2,
+      paras: [
+        "El cover es el banner teaser del muro. Fíjalo de forma explícita si importan el CTR y la marca. El tema de lectura (claro/oscuro) es comodidad del lector, no SEO.",
+        "Borradores y autosave protegen contra perder el texto. Tras publicar, mira vistas, reacciones, shares y clics a enlaces en las stats del material/comunidad.",
+      ],
+      lists: [
+        {
+          intro: "Antes de publicar:",
+          items: [
+            "el título se entiende sin contexto",
+            "hay un cover o una primera ilustración fuerte",
+            "los enlaces abren",
+            "no hay muro de texto sin subtítulos",
+            "preview del teaser en el muro revisado",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Publicar en el muro y en una comunidad",
+      level: 2,
+      paras: [
+        "En el menú de publicación elige el cover, ajusta el slug de la URL si hace falta, byline del autor y ubicación (muro / comunidad). Tras guardar, el artículo aparece en el feed con un teaser.",
+        "Quitar de publicados a menudo deja una copia en borrador — puedes republicar. Para engagement ayudan «compartir» y los bookmarks de lectores.",
+      ],
+      lists: [
+        {
+          intro: "Tras salir en vivo:",
+          items: [
+            "fijar un artículo fuerte si hace falta",
+            "anunciar en Stories/newsletter de la comunidad",
+            "responder a los primeros comentarios",
+            "un día después revisar stats e hipótesis",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Newsletter de VK",
+          href: "/es/blog/rassylka-vk/",
+        },
+      ],
+    },
+  ],
+};

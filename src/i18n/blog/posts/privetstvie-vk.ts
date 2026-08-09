@@ -156,3 +156,160 @@ export const privetstvieVkEn: BlogPost = {
     "privetstvie-sayta",
   ],
 };
+
+/** ES overlay for privetstvie-vk — same structure as RU JSON / EN. */
+export const privetstvieVkEs: BlogPost = {
+  slug: "privetstvie-vk",
+  title: "Saludo de comunidad VK: cómo dar la bienvenida a invitados y nuevos followers",
+  date: "2020-12-30",
+  category: "SMM",
+  cover: "/images/blog/privetstvie-vk/cover.webp",
+  excerpt:
+    "Un saludo de grupo VK: por qué usar un widget o un mensaje a newcomers, qué escribir y cómo no molestar — sin hype por una app ni promesas de «crecimiento instantáneo».",
+  lead: [
+    "Un saludo de comunidad VK recibe a un invitado o nuevo follower: breve quién eres, qué hacer después, dónde viven las reglas y la oferta. Es un punto de entrada al embudo, no un banner decorativo.",
+    "Abajo: el sentido del saludo, la estructura del texto y cautela con widgets. Las apps concretas del catálogo VK (guías viejas a menudo nombraban SpyCat) cambian: usa apps de comunidad actuales y VK Help, no screenshots de 2020.",
+  ],
+  faq: [
+    {
+      q: "¿Hace falta un widget de terceros?",
+      a: "No. A veces bastan un pin, el menú de comunidad, un saludo por mensaje de comunidad o un bot. Un widget es una opción.",
+    },
+    {
+      q: "¿El botón del widget puede enviar a un sitio externo?",
+      a: "Depende de las reglas de la app y de VK. Algunos widgets viejos solo permitían enlaces dentro de la comunidad. Revisa los límites actuales.",
+    },
+    {
+      q: "¿Un saludo crecerá el grupo solo?",
+      a: "No. Baja la fricción de entrada. El crecimiento viene de contenido, oferta y adquisición — ver promoción de grupo.",
+    },
+    {
+      q: "¿La personalización con nombre siempre es un plus?",
+      a: "Úsala con moderación. Un hard sell con nombre y apellido puede sentirse spam.",
+    },
+    {
+      q: "¿Mostrarlo a todos o solo a followers?",
+      a: "Invitados — camino a suscribirse y reglas. Followers — catálogo, bonus, chat. No un texto para cada status si puedes segmentar.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué saludar",
+      level: 2,
+      paras: [
+        "Un newcomer no sabe qué tocar. Un saludo da el siguiente paso: suscribirse, abrir el menú, escribir a un manager, leer el FAQ, pillar términos de entrega.",
+        "Para commerce es un CTA suave. Para un público temático — reglas y tono.",
+      ],
+      lists: [
+        {
+          intro: "Trabajos típicos:",
+          items: [
+            "explicar el valor de la comunidad",
+            "dirigir a catálogo/servicios",
+            "recoger un mensaje/lead",
+            "enviar a las reglas",
+            "anunciar un bonus de suscripción (con honestidad)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Promoción de grupo VK",
+          href: "/es/blog/raskrutka-gruppy-vk/",
+        },
+        {
+          label: "Comentarios en un público VK",
+          href: "/es/blog/kommentarii-v-pablike-vk/",
+        },
+      ],
+    },
+    {
+      title: "Estructura del texto",
+      level: 2,
+      paras: [
+        "Titular corto, 1–2 líneas de beneficio, un botón/enlace con una acción clara. Nada de caps lock y cinco ofertas a la vez.",
+        "Lógica de ejemplo: «Estás en la comunidad X — aquí viven reseñas y precios. Escribe «PRECIO» o abre el menú».",
+      ],
+      lists: [
+        {
+          intro: "Checklist de copy:",
+          items: [
+            "quién eres queda claro",
+            "un CTA principal",
+            "nada de falso «solo hoy −90%»",
+            "el tono encaja con el feed",
+            "un camino para quien aún no se ha suscrito",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Error habitual",
+          text: "El saludo tapa la cover y molesta: copy largo, autoplay, pop-up agresivo. Mejor corto y útil.",
+        },
+      ],
+    },
+    {
+      title: "Dónde colocarlo: widget, menú, mensajes",
+      level: 2,
+      paras: [
+        "Un widget de app en el bloque de comunidad es clásico en guías viejas. Alternativas: un ítem de menú, post fijado, saludo/teclado en mensajes de comunidad, bot de chat.",
+        "Elige lo que los roles de admins soporten de verdad y lo que no rompa el layout móvil.",
+      ],
+    },
+    {
+      title: "Si instalas un widget de saludo",
+      level: 2,
+      paras: [
+        "Camino habitual: Manage → Apps → busca un widget de saludo → añade → fija texto, visibilidad, botón. Nombres de apps y límites (un widget, solo enlaces internos) han cambiado — lee la ficha de la app.",
+        "No te prometas «conversión del caso SpyCat»: mide tus propios clics y mensajes.",
+      ],
+      lists: [
+        {
+          intro: "Antes de publicar el widget:",
+          items: [
+            "quién ve el bloque (invitados / miembros)",
+            "el botón va donde debe",
+            "el copy no tiene typos",
+            "vista móvil revisada",
+            "un plan de reemplazo si la app se retira",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Segmentos y ofertas",
+      level: 2,
+      paras: [
+        "Si la herramienta puede variar el copy por género, ciudad o status de suscripción — úsalo por utilidad, no por hiper-personalización creepy. Invitados — suscribirse y oferta de entrada; clientes — soporte y catálogo.",
+        "Describe los bonuses de acción con honestidad: términos del descuento, deadline, cómo reclamarlo.",
+      ],
+      links: [
+        {
+          label: "Mensajería / broadcasts de VK",
+          href: "/es/blog/rassylka-vk/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Un saludo es un primer paso claro para invitados y newcomers. El copy y el CTA importan más que la marca del widget.",
+        "Revisa las apps actuales de VK y no confundas un saludo con tu único canal de crecimiento de audiencia.",
+      ],
+    },
+  ],
+  closing: [
+    "Escribe un siguiente paso para un newcomer, elige un pin, menú o widget, y compruébalo en un teléfono — así una comunidad da la bienvenida en vez de perder gente entre la cover y el muro.",
+  ],
+  related: [
+    "raskrutka-gruppy-vk",
+    "kommentarii-v-pablike-vk",
+    "rassylka-vk",
+    "idei-storis-vk",
+    "aktivnost-vk",
+    "privetstvie-sayta",
+  ],
+};

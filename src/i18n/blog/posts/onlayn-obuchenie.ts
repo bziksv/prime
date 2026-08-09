@@ -134,3 +134,138 @@ export const onlaynObuchenieEn: BlogPost = {
     "aydentika-brenda",
   ],
 };
+
+/** ES overlay for onlayn-obuchenie — same structure as RU JSON / EN. */
+export const onlaynObuchenieEs: BlogPost = {
+  slug: "onlayn-obuchenie",
+  title: "Cómo organizar la formación online de empleados",
+  date: "2019-10-10",
+  category: "Digital marketing",
+  cover: "/images/blog/onlayn-obuchenie/cover.webp",
+  excerpt:
+    "Cómo pasar la formación corporativa a online: adaptar materiales, preparar al ponente, engagement, feedback e híbrido con sesiones presenciales — sin una serie de webinars aburridos.",
+  lead: [
+    "La formación online ahorra logística y quita geografía: un ponente fuerte puede liderar un grupo grande, y la grabación atrapa a quien se perdió el live. Pero «meter un deck en una call» casi siempre falla en engagement.",
+    "Abajo: reglas prácticas — cómo adaptar el contenido, preparar al host, involucrar a la gente en la práctica, recoger feedback y no tirar del todo lo presencial. Los vendors concretos de plataforma son secundarios — importan más el proceso y el ritmo.",
+  ],
+  faq: [
+    {
+      q: "¿Online siempre es más barato que presencial?",
+      a: "A menudo sí en logística y escala del grupo. Pero hacen falta horas para adaptar materiales, coordinar y manejar la tech — mételo en el plan.",
+    },
+    {
+      q: "¿Qué plataforma es la mejor?",
+      a: "La que la empresa ya tiene y donde grabaciones, chat y acceso son fáciles. Cambiar de herramienta rara vez salva un guion débil.",
+    },
+    {
+      q: "¿Cuánto debe durar un buen bloque de webinar?",
+      a: "Cambia de actividad cada pocos minutos: slide → pregunta → encuesta → clip corto. Un monólogo de 40 minutos mata la atención.",
+    },
+    {
+      q: "¿Hacen falta deberes?",
+      a: "Sí si el objetivo es una habilidad, no «escucharon». Mini-investigación, cálculo de KPI, defensa de proyecto mantienen el engagement.",
+    },
+    {
+      q: "¿Se pueden saltar del todo las reuniones presenciales?",
+      a: "Para energía de equipo y vínculo, el híbrido suele ser más fuerte. Del todo remoto pone más difícil la cultura y los lazos informales.",
+    },
+    {
+      q: "¿Cómo mides el efecto?",
+      a: "No solo «vieron el live»: completion de módulos, scores, aplicación en el puesto, calidad de las defensas de proyecto.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué pasar la formación a online",
+      level: 2,
+      paras: [
+        "El formato remoto reduce la dependencia de la ciudad del ponente y de los participantes, acelera la escala del grupo y simplifica el acceso repetido vía grabación. Un equipo pequeño puede mover un piloto a online en decenas de horas de trabajo — si hay guion, no solo un link de call.",
+        "Formatos típicos: un club de aprendizaje corto bajo tareas actuales del negocio, y un «maratón» más largo con webinars, tests, práctica y defensa de proyecto. La plataforma (Teams, Zoom y similares) es la cáscara; el contenido y el ritmo crean el valor.",
+      ],
+      lists: [
+        {
+          intro: "Pluses con organización sólida:",
+          items: [
+            "un ponente — un grupo grande",
+            "grabación para quien no está en live",
+            "menos viajes de negocio",
+            "un hub para materiales",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Trabajo remoto",
+          href: "/es/blog/udalennaya-rabota/",
+        },
+      ],
+    },
+    {
+      title: "Adaptar materiales a la pantalla",
+      level: 2,
+      paras: [
+        "Online se apoya en el canal visual. Slides y clips deben sentirse vivos — sin burocratés y «handshakes» de relleno. Cambia de formato cada 3–5 minutos: bloque nuevo, pregunta, mini-encuesta, clip corto — o la atención se va aunque el ponente sea fuerte.",
+        "Los handouts presenciales no se transfieren «tal cual» a un webinar. Acorta, refuerza titulares, corta muros de texto.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Práctica",
+          text: "Si un bloque dura más de 15–20 minutos sin cambio de actividad — parte del grupo casi seguro está en el email. Pon puntos de cambio en el guion de antemano.",
+        },
+      ],
+    },
+    {
+      title: "Preparar al ponente para el live",
+      level: 2,
+      paras: [
+        "Un monólogo online necesita más dinámica que una clase presencial: voz, cambios de encuadre, titulares que enganchen, inserts de vídeo. Dirígete a los participantes por nombre desde la lista de asistencia, pide una respuesta corta en el chat — eso devuelve la atención.",
+        "Puedes contratar un ponente externo, pero un experto interno con prep suele ser más útil: conoce el contexto de la empresa. Ensayo y timing son obligatorios.",
+      ],
+    },
+    {
+      title: "Involucrar en creación y práctica",
+      level: 2,
+      paras: [
+        "Los oyentes pasivos se caen rápido. Da encargos: mini-investigación de una región/proceso, cálculo de KPI, defensa de proyecto, incluso actividades informales con nominaciones — la gente valora lo que hizo ella misma.",
+        "Deja que los participantes propongan temas para las siguientes sesiones. Eso sube la sensación de «nuestra formación», no un broadcast desde arriba.",
+      ],
+      lists: [
+        {
+          intro: "Qué impulsa el engagement:",
+          items: [
+            "casos prácticos entre lives",
+            "encuestas y preguntas en el chat",
+            "defensa de proyecto",
+            "contenido peer de empleados",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Feedback e híbrido con presencial",
+      level: 2,
+      paras: [
+        "Sin feedback el programa va a ciegas. Recoge scores de módulos, mantén un chat/comunidad para preguntas, nombra un coordinador que responda de verdad — no un «bot de escaparate». Los canales internos de la empresa ganan a tools externas al azar con riesgos de acceso a datos.",
+        "No canceles del todo lo presencial: sesiones offline cortas dan energía y lazos que la pantalla cuesta reemplazar. El híbrido suele ahorrar días de viaje pero mantiene el contacto. Las redes como «escaparate» de participantes son opcionales bajo las reglas de la empresa; para aprender importan más los chats de trabajo y un LMS.",
+      ],
+      links: [
+        {
+          label: "Puntos de contacto",
+          href: "/es/blog/tochki-kontakta/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "La formación online de empleados funciona cuando hay ritmo de contenido, un ponente preparado, práctica y feedback — no cuando compraste «otra tool de webinar más». Combina live con puntos de contacto presenciales y mide el uso del conocimiento, no solo la asistencia.",
+  ],
+  related: [
+    "udalennaya-rabota",
+    "project-manager",
+    "tochki-kontakta",
+    "interaktivnyy-kontent",
+    "sem-kasaniy",
+    "aydentika-brenda",
+  ],
+};

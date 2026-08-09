@@ -171,3 +171,175 @@ export const googleAlertsEn: BlogPost = {
     "prodvizhenie-brenda",
   ],
 };
+
+/** ES overlay for google-alerts — same structure as RU JSON / EN. */
+export const googleAlertsEs: BlogPost = {
+  slug: "google-alerts",
+  title: "Google Alerts: cómo rastrear menciones y temas",
+  date: "2019-06-03",
+  category: "Digital marketing",
+  cover: "/images/blog/google-alerts/cover.webp",
+  excerpt:
+    "Qué es Google Alerts: avisos por email para queries de búsqueda de Google. Cómo configurarlo, qué tareas de marca y contenido cubre y dónde están los límites — sin promesas de «acelerar SEO» ni redes sociales muertas.",
+  lead: [
+    "Google Alerts es un servicio gratis de notificaciones: fijas una query, Google envía por email un digest de resultados nuevos que encontró sobre ese tema.",
+    "Abajo: a quién le sirve, cómo crear un alert y qué escenarios de negocio tienen sentido. Es monitoreo de la SERP de Google, no un suite completo de social listening ni un sustituto de analytics del sitio. Las etiquetas de UI pueden diferir — usa alerts.google.com y el sentido de cada ajuste.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Google Alerts es un producto de pago?",
+      a: "El servicio básico es gratis. Los límites de cantidad de alerts y frecuencia están en la Help actual de Google.",
+    },
+    {
+      q: "¿Pilla posts de social?",
+      a: "Débil e impredecible: no todo está indexado. Para social, usa la búsqueda de la plataforma y tools dedicadas de menciones.",
+    },
+    {
+      q: "¿Sustituye una auditoría SEO?",
+      a: "No. Alerts ayuda a notar menciones y noticias del tema; no arregla la técnica ni mueve tus rankings.",
+    },
+    {
+      q: "¿Hace falta una cuenta Google?",
+      a: "Más fácil desde una cuenta: más simple editar la lista de alerts. El email sigue recibiendo confirmación/digests.",
+    },
+    {
+      q: "¿Por qué tan pocos emails?",
+      a: "Query estrecha, tema raro, filtro «solo mejores resultados» o indexación débil. Amplía el wording o cambia región/idioma.",
+    },
+  ],
+  sections: [
+    {
+      title: "Quién necesita Google Alerts y por qué",
+      level: 2,
+      paras: [
+        "El servicio ahorra la búsqueda manual de «qué se escribe de nosotros / el nicho». Una vez al día o cuando aparecen resultados recibes enlaces — y decides si reaccionar.",
+        "Es un complemento de otras tools: Search Console / Webmaster, analytics, monitoreo de reviews. No esperes que Alerts dé dashboards ni «cobertura del 100% de cada artículo».",
+      ],
+      lists: [
+        {
+          intro: "Tareas típicas:",
+          items: [
+            "menciones de marca y dominio",
+            "reviews y write-ups por nombre de empresa",
+            "noticias de nicho y competidores (mira el volumen)",
+            "materiales nuevos sobre un tema clave",
+            "vigilar copycats / menciones de URL",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo crear un alert",
+      level: 2,
+      paras: [
+        "Abre Google Alerts, introduce una query, previsualiza resultados y guarda el alert. Fija frecuencia (al momento / diario / semanal — las opciones cambian), fuentes, idioma, región y tipo de resultado («mejores» o un stream más amplio).",
+        "Confirma el email si te lo piden. Luego puedes editar y borrar alerts — no generes cientos de queries casi idénticas.",
+      ],
+      lists: [
+        {
+          intro: "Ajustes prácticos:",
+          items: [
+            "empieza con 3–7 queries importantes, no «mil keys»",
+            "para marca — nombre exacto y variantes de escritura",
+            "excluye tu sitio con `-site:` cuando haga falta",
+            "idioma y región para tu audiencia",
+            "frecuencia según volumen del tema (temas ruidosos — digest)",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Queries demasiado amplias («marketing», «SEO») ahogan el inbox. Estrecha el wording o añade marca/nicho.",
+        },
+      ],
+    },
+    {
+      title: "Escenarios para una empresa",
+      level: 2,
+      paras: [
+        "Marca: queries con nombre de empresa y producto; opcionalmente excluye tu dominio para pillar menciones externas. Responde a negativos según reglas de plataforma — sin reviews falsas.",
+        "Contenido y PR: temas sobre los que escribes piezas expertas — un alert saca ángulos frescos. No conviertas «sitios de guest-post vía Alerts» en spam masivo: calidad del sitio y reglas de placement ganan a la velocidad.",
+      ],
+      lists: [
+        {
+          intro: "Wordings de ejemplo (idea):",
+          items: [
+            "nombre exacto de marca entre comillas",
+            "marca + «review» / «overview»",
+            "tema de nicho + límite de idioma",
+            "`site:example.com` — si miras la sección de otro",
+            "`-site:your-domain` — menciones externas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Reviews para ventas",
+          href: "/es/blog/otzyvy-dlya-prodazh/",
+        },
+        {
+          label: "Review negativa",
+          href: "/es/blog/negativnyy-otzyv/",
+        },
+      ],
+    },
+    {
+      title: "Operadores y social",
+      level: 2,
+      paras: [
+        "Los trucos familiares de búsqueda de Google funcionan en las queries: comillas, `-site:`, a veces `OR` para variantes de escritura. No te apoyes en dominios muertos como Google+ de guías viejas.",
+        "Monitorear VK/Telegram/Instagram* vía Alerts es poco fiable: mucho contenido nunca llega a la búsqueda web. Para social, usa la búsqueda integrada y servicios dedicados de menciones.",
+      ],
+      lists: [
+        {
+          intro: "Lo que Alerts no sustituye:",
+          items: [
+            "social listening en tiempo real",
+            "reports de GA4/Metrika",
+            "chequeos de índice en Webmaster / Search Console",
+            "monitoreo de media enterprise completo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Operadores de búsqueda de Google",
+          href: "/es/blog/operatory-poiska/",
+        },
+      ],
+    },
+    {
+      title: "Límites e higiene de la lista",
+      level: 2,
+      paras: [
+        "El servicio tiene un techo de cantidad de alerts y es sensible a queries demasiado amplias. No fijamos cifras de guías de 2019 («exactamente 1000») — mira los límites actuales de Google.",
+        "Una vez al trimestre, limpia alerts muertos, aprieta wordings y apaga lo que ya no lees. Si no, el mail importante se ahoga en ruido.",
+      ],
+    },
+    {
+      title: "Takeaways",
+      level: 2,
+      paras: [
+        "Google Alerts es un radar simple sobre resultados web de Google. Fuerte para marca y tema, débil como único canal de monitoreo y como «acelerador de rankings».",
+        "Fija un set estrecho de queries, confirma el email y reacciona a las señales — no esperes que el servicio mejore posiciones solo.",
+      ],
+    },
+  ],
+  closing: [
+    "Crea unos alerts precisos para marca y temas clave, excluye tu sitio donde haga falta y mantén la lista corta — así Google Alerts ahorra tiempo en la caza manual de menciones.",
+  ],
+  related: [
+    "otzyvy-dlya-prodazh",
+    "negativnyy-otzyv",
+    "operatory-poiska",
+    "kontent-plan",
+    "analiz-konkurentov",
+    "prodvizhenie-brenda",
+  ],
+};

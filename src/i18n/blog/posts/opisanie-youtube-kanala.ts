@@ -174,3 +174,178 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for opisanie-youtube-kanala — same structure as RU JSON / EN. */
+export const opisanieYoutubeKanalaEs: BlogPost = {
+  slug: "opisanie-youtube-kanala",
+  title: "Descripción del canal de YouTube: cómo escribirla y dónde ponerla",
+  date: "2021-12-10",
+  category: "SMM",
+  cover: "/images/blog/opisanie-youtube-kanala/cover.webp",
+  excerpt:
+    "Cómo escribir la descripción de un canal de YouTube: primeras líneas, keywords, enlaces, errores habituales y cómo actualizar el texto en Studio.",
+  lead: [
+    "La descripción del canal es un «de qué va este proyecto» corto. La gente la lee en la página del canal y a veces la ve en la búsqueda. Las primeras frases deciden si alguien se queda.",
+    "Abajo: estructura, keywords sin spam, enlaces y errores típicos. Los ítems del menú de YouTube Studio cambian — busca Customization / About.",
+  ],
+  faq: [
+    {
+      q: "¿Cuántos caracteres se permiten?",
+      a: "El límite de la plataforma ronda los mil caracteres; el preview a menudo muestra solo los primeros ~100–200. Revisa los límites exactos en Studio — pueden cambiar.",
+    },
+    {
+      q: "¿Hacen falta keywords en la descripción?",
+      a: "Sí, pero con mesura: tema, nicho, marca, nombre del creator — de forma natural en el texto. El overstuffing perjudica a personas y a la búsqueda.",
+    },
+    {
+      q: "¿En qué se diferencia la descripción del canal de la del vídeo?",
+      a: "La del canal es la tarjeta de visita del proyecto. La del vídeo va de ese clip, timestamps y un CTA de ese episodio.",
+    },
+    {
+      q: "¿Cómo hacer los enlaces clicables?",
+      a: "Vía el campo de enlaces en ajustes / personalización del canal, no una URL suelta en un párrafo. Las etiquetas de enlace deberían encajar con el sitio y redes del proyecto.",
+    },
+    {
+      q: "¿Se puede omitir la descripción?",
+      a: "Solo si la gente ya te conoce por nombre. Para canales nuevos y de nicho, un About vacío es una oportunidad perdida de explicar la oferta.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué necesitas una descripción",
+      level: 2,
+      paras: [
+        "El texto responde tres preguntas: de qué va el canal, para quién es y qué esperar después. Sin ella los viewers adivinan solo por thumbnails.",
+        "La descripción ayuda a la búsqueda y a la confianza: un copy coherente y limpio se ve como un proyecto real, no un borrador.",
+      ],
+    },
+    {
+      title: "Primeras líneas y límites",
+      level: 2,
+      paras: [
+        "La vista colapsada muestra solo los primeros caracteres. Nombra el tema y el formato de inmediato: reseñas, aprendizaje, entretenimiento, producto.",
+      ],
+      lists: [
+        {
+          intro: "Marco workable:",
+          items: [
+            "1–2 frases — esencia y para quién",
+            "qué sale con regularidad (pilares de contenido, cadencia)",
+            "en qué te diferencias de canales similares",
+            "adónde ir después (sitio, redes — vía el campo de enlaces)",
+            "un CTA suave: suscribirse, ver una playlist, escribir",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Práctica",
+          text: "Escribe un borrador de 600–800 caracteres y luego corta el relleno. Comprueba que el sentido queda claro si el texto se corta tras la segunda frase.",
+        },
+      ],
+    },
+    {
+      title: "Keywords y tags sin spam",
+      level: 2,
+      paras: [
+        "Términos de nicho, nombre de marca y nombre del host encajan de forma natural en el texto. Puedes revisar demanda en herramientas de keywords — pero no conviertas la descripción en una lista de consultas.",
+        "Los tags del canal y hashtags son una capa de apoyo. La claridad para humanos importa más que la densidad de keywords.",
+      ],
+      lists: [
+        {
+          intro: "Colocación:",
+          items: [
+            "al inicio — tema principal y marca",
+            "en el medio — detalles de nicho y formato",
+            "al final — wording extra y CTA",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Núcleo de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+      ],
+    },
+    {
+      title: "Reglas de la plataforma y audiencia",
+      level: 2,
+      paras: [
+        "El copy y los enlaces deben seguir las reglas de YouTube: sin contenido prohibido, materiales ajenos sin derechos, engaño o enlaces dañinos.",
+        "Escribe en el lenguaje de la audiencia: viewers de viajes tienen un tono, aprendizaje B2B otro. El desajuste con los temas de los vídeos se lee como bait-and-switch.",
+      ],
+      lists: [
+        {
+          intro: "Di el formato con claridad:",
+          items: [
+            "reseñas de producto / servicio",
+            "aprendizaje y desgloses",
+            "entretenimiento, vlogs, juegos",
+            "nicho (coches, cine, niños, negocio…)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Errores habituales",
+      level: 2,
+      paras: [
+        "Un texto corto parece simple — pero fallos típicos perjudican búsqueda y confianza.",
+      ],
+      lists: [
+        {
+          intro: "Evita:",
+          items: [
+            "keyword stuffing",
+            "copiar y pegar la descripción de otro",
+            "una descripción que no encaja con el canal",
+            "problemas de ortografía y un tono descentrado",
+            "enlaces a recursos ajenos / sospechosos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Error habitual",
+          text: "Escribir «el mejor canal de todo un poco». Mejor un nicho concreto y un formato claro — así llegan los suscriptores correctos.",
+        },
+      ],
+    },
+    {
+      title: "Cómo añadir y actualizar en Studio",
+      level: 2,
+      paras: [
+        "En YouTube Studio abre personalización del canal / about y el campo de descripción. Pega el texto, guarda.",
+        "Añade enlaces en el bloque aparte de enlaces del canal: sitio, redes, tienda. Tras un cambio de tema o rebrand, actualiza juntos la descripción, el avatar y el banner.",
+      ],
+      links: [
+        {
+          label: "Avatar del canal de YouTube",
+          href: "/es/blog/avatar-youtube/",
+        },
+      ],
+    },
+    {
+      title: "Ejemplos de enfoque",
+      level: 2,
+      paras: [
+        "Las descripciones fuertes nombran tema y método desde las primeras líneas (p. ej. expertise de producto) y dan un siguiente paso claro.",
+        "Textos cortos e intrigantes también funcionan — si la marca ya se conoce. Las celebridades a veces necesitan solo un nombre y enlaces; un recién llegado sin copy lo tiene más duro.",
+      ],
+      lists: [
+        {
+          intro: "Antes de publicar:",
+          items: [
+            "leer 3–5 canales de tu nicho",
+            "anotar qué engancha en las primeras líneas",
+            "escribir tu versión sin copy-paste",
+            "revisar unicidad y ortografía",
+          ],
+        },
+      ],
+    },
+  ],
+};

@@ -145,3 +145,149 @@ export const indeksatsiyaSaytaEn: BlogPost = {
     "poiskovye-sistemy",
   ],
 };
+
+/** ES overlay for indeksatsiya-sayta — same structure as RU JSON / EN. */
+export const indeksatsiyaSaytaEs: BlogPost = {
+  slug: "indeksatsiya-sayta",
+  title: "Qué significa la indexación de un sitio",
+  date: "2018-03-16",
+  category: "SEO",
+  cover: "/images/blog/indeksatsiya-sayta/cover.webp",
+  excerpt:
+    "Cómo los buscadores rastrean y meten páginas en el índice: qué afecta a entrar en la base, robots y sitemap, Webmaster / Search Console, checks de cobertura — sin social bookmarks de los 2010 ni compra de enlaces «para indexar».",
+  lead: [
+    "La indexación es cuando un bot rastrea URLs abiertas, parsea el contenido y mete (o actualiza) documentos en la base de búsqueda. Sin índice, una página casi nunca aparece en resultados orgánicos por queries.",
+    "Abajo: cómo funciona el proceso, qué necesita un sitio para que lo encuentren y cómo comprobar el status. El bloqueo al índice y el análisis de logs de robots están en artículos relacionados. No recomendamos social bookmarks desfasados ni compra masiva de enlaces solo para que te rastreen.",
+  ],
+  faq: [
+    {
+      q: "¿Indexación es lo mismo que rankings en primera página?",
+      a: "No. El índice es la entrada a la base. Las posiciones dependen de relevancia y competencia.",
+    },
+    {
+      q: "¿robots.txt «permite indexar»?",
+      a: "User-agent: * sin Disallow no bloquea el crawl. Para indexar importan más la disponibilidad de la URL, enlaces, sitemap y que no haya noindex accidental.",
+    },
+    {
+      q: "¿Debo comprar enlaces para que me indexen?",
+      a: "No como paso obligatorio. Añadir el sitio a Webmaster/GSC, enviar un sitemap y un enlazado interno sólido bastan. Comprar por «velocidad» es riesgo y ruido.",
+    },
+    {
+      q: "¿Cómo compruebo que una página está indexada?",
+      a: "El operador site: e informes de cobertura en Yandex Webmaster / Google Search Console — más fiables que toolbars de terceros.",
+    },
+    {
+      q: "¿Por qué parte del sitio no está indexada?",
+      a: "noindex, Disallow, duplicados, contenido fino, códigos de respuesta malos, poca discoverability o límites de crawl budget.",
+    },
+    {
+      q: "¿Las redes sociales aceleran la indexación?",
+      a: "Pueden traer visitas y menciones, pero no sustituyen Search Console ni el enlazado interno. Enlaces cortos de redirect son una señal floja para el bot.",
+    },
+    {
+      q: "¿En qué se diferencia de bloquear la indexación?",
+      a: "Aquí — cómo las páginas entran a la base. Allí — cuándo y cómo mantenerlas fuera a propósito.",
+    },
+  ],
+  sections: [
+    {
+      title: "Índice y crawl en palabras claras",
+      level: 2,
+      paras: [
+        "La base de búsqueda es un catálogo enorme de documentos con direcciones. Una query no busca en el internet en vivo — busca en este índice.",
+        "Los bots (crawlers) siguen enlaces, traen HTML y recursos relacionados y pasan datos al procesamiento. URLs nuevas y actualizadas entran a la cola de recrawl.",
+        "La profundidad y frecuencia de crawl dependen de la calidad del sitio, errores, crawl budget y de cómo apuntas tú mismo a las URLs importantes.",
+      ],
+      links: [
+        {
+          label: "Logs del servidor y bots",
+          href: "/es/blog/logi-servera/",
+        },
+        {
+          label: "Buscadores",
+          href: "/blog/poiskovye-sistemy/",
+        },
+      ],
+    },
+    {
+      title: "Qué necesitas para que el sitio se indexe",
+      level: 2,
+      paras: [
+        "Las páginas deben devolver 200 (o un redirect deliberado), estar disponibles sin login obligatorio y no cerrarse con noindex si la meta es orgánico.",
+        "robots.txt no debe bloquear por accidente secciones necesarias. Un sitemap ayuda a descubrir URLs pero no fuerza basura al índice.",
+        "Enlaces internos y una estructura normal ganan a corridas externas de «submission». Añade el sitio a Yandex Webmaster y Google Search Console y envía el sitemap.",
+      ],
+      lists: [
+        {
+          intro: "Un set básico:",
+          items: [
+            "hosting alcanzable y respuestas correctas",
+            "un robots.txt con sentido",
+            "sitemap en paneles de webmaster",
+            "enlaces internos a URLs importantes",
+            "contenido útil sin duplicados masivos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Bloqueo a la indexación",
+          href: "/es/blog/zakrytie-ot-indeksatsii/",
+        },
+        {
+          label: "Yandex Webmaster",
+          href: "/es/blog/yandeks-vebmaster/",
+        },
+      ],
+    },
+    {
+      title: "Qué está desfasado y qué evitar",
+      level: 2,
+      paras: [
+        "Social bookmarks, corridas por directorios y comprar enlaces «para que el spider venga más rápido» son hábitos ruidosos de los 2010. Para indexar no sustituyen los paneles de webmaster.",
+        "No confundas indexación con manipulación de comportamiento y spam de enlaces — riesgos distintos y artículos distintos.",
+        "Si una página está indexada pero no crece — mira relevancia, técnica y competencia, no «añadir otra vez a bookmarks».",
+      ],
+      links: [
+        {
+          label: "Tipos de enlaces",
+          href: "/es/blog/tipy-ssylok/",
+        },
+      ],
+    },
+    {
+      title: "Cómo comprobar la indexación",
+      level: 2,
+      paras: [
+        "En Webmaster y Search Console mira cobertura/páginas: cuántas descubiertas, excluidas y por qué.",
+        "Una query tipo site:example.com/page da un corte rápido, pero los paneles son más precisos en motivos de exclusión.",
+        "Crawlers como Screaming Frog / Netpeak Spider ayudan a encontrar noindex, respuestas rotas y huecos de enlazado interno de tu lado — antes de culpar a «la búsqueda no lo toma».",
+      ],
+      links: [
+        {
+          label: "Screaming Frog",
+          href: "/es/blog/screaming-frog/",
+        },
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+  ],
+  notes: {
+    title: "Importante",
+    text: "El tiempo hasta indexar no está garantizado. Sitios nuevos y URLs flojas esperan más. No prometas a un cliente «indexación en N horas» sin matices.",
+  },
+  closing: [
+    "Conecta Webmaster y Search Console, envía un sitemap y abre una página importante en el informe de cobertura — así la indexación deja de ser abstracta y pasa a ser un status de URL de trabajo.",
+  ],
+  related: [
+    "zakrytie-ot-indeksatsii",
+    "logi-servera",
+    "yandeks-vebmaster",
+    "tehnicheskiy-seo-audit",
+    "screaming-frog",
+    "poiskovye-sistemy",
+  ],
+};

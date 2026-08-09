@@ -137,3 +137,149 @@ export const uskorenieWordpressEn: BlogPost = {
     "pered-zapuskom-sayta",
   ],
 };
+
+/** ES overlay for uskorenie-wordpress — same structure as RU JSON / EN. */
+export const uskorenieWordpressEs: BlogPost = {
+  slug: "uskorenie-wordpress",
+  title: "Cómo acelerar un sitio WordPress: hosting, tema, plugins",
+  date: "2019-09-27",
+  category: "Digital marketing",
+  cover: "/images/blog/uskorenie-wordpress/cover.webp",
+  excerpt:
+    "Qué ralentiza de verdad WordPress: TTFB y hosting, un tema pesado, plugins duplicados, imágenes y JS/CSS. Un orden de trabajo práctico — sin adorar una nota de PageSpeed ni copiar casos extranjeros de 2019.",
+  lead: [
+    "Un WordPress lento suele ser la suma de hosting, un tema que lo hace todo, una docena de plugins e imágenes sin optimizar. Cambiar de plan sin limpiar el sitio ayuda poco; limpiar sin un TTFB decente también.",
+    "Abajo: diagnóstico y orden de aceleración. No copiamos casos ajenos de Kinsta/Flywheel ni «+N puntos PageSpeed» como receta. Mide tu URL en herramientas actuales (PageSpeed Insights, Web Vitals) y arregla los cuellos de botella reales.",
+  ],
+  faq: [
+    {
+      q: "¿Por dónde empiezo si todo va lento?",
+      a: "Mide TTFB y LCP en móvil. Si el TTFB es alto — mira hosting y caché de servidor. Si el TTFB está bien pero el LCP es malo — tema, imágenes, JS.",
+    },
+    {
+      q: "¿Basta con un plugin de caché?",
+      a: "La caché ayuda, pero no salva un tema pesado y 40 plugins. Primero quita el exceso, luego caché y CDN.",
+    },
+    {
+      q: "¿Elementor acelera el sitio?",
+      a: "Los builders son cómodos, pero no son una aceleración por sí solos. Un tema ligero con menos widgets suele ser más rápido que un builder pesado con montones de add-ons.",
+    },
+    {
+      q: "¿Hace falta hosting especializado en WordPress?",
+      a: "A menudo sí: HTTP/2 o HTTP/3, SSL, caché de servidor, PHP decente. Shared barato sin caché mata el TTFB.",
+    },
+    {
+      q: "¿Velocidad significa mejores rankings?",
+      a: "La velocidad afecta UX y SEO de forma indirecta. Los rankings del núcleo son otro trabajo: prep alrededor de un mes; la cuota en primera página del núcleo suele planificarse en dos a seis meses tras arrancar.",
+    },
+  ],
+  sections: [
+    {
+      title: "Diagnóstico: dónde se atasca de verdad",
+      level: 2,
+      paras: [
+        "Saca un informe PageSpeed / Lighthouse de la versión móvil de las URLs clave. Mira TTFB, LCP, INP/CLS y la lista de «cargar menos».",
+        "Por separado comprueba: cuántos plugins, qué tema, peso de la imagen hero, si el servidor envía compresión y caché. Sin medición, los fixes son a ciegas.",
+      ],
+      lists: [
+        {
+          intro: "Cuellos de botella típicos de WordPress:",
+          items: [
+            "respuesta lenta del servidor (TTFB)",
+            "un tema pesado con scripts de más",
+            "duplicados y plugins muertos",
+            "JPG/PNG grandes sin WebP",
+            "JS/CSS bloqueantes y fuentes de más",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Tamaño de la página web",
+          href: "/es/blog/razmer-stranitsy/",
+        },
+        {
+          label: "Hosting",
+          href: "/es/blog/hosting/",
+        },
+      ],
+    },
+    {
+      title: "Hosting y la capa de servidor",
+      level: 2,
+      paras: [
+        "Si el TTFB es de 1–2+ segundos, empieza por el hosting: PHP actual, caché de servidor, SSD, geolocalización sensata. Los planes orientados a WordPress a menudo incluyen caché y CDN de serie — mira términos actuales, no una lista de precios de 2019.",
+        "Un CDN corta la latencia de estáticos para usuarios lejanos. SSL y HTTP moderno son baseline, no opcionales. Cambiar de host sin optimizar el tema da un efecto parcial — es normal.",
+      ],
+      lists: [
+        {
+          intro: "Qué preguntar al host:",
+          items: [
+            "si hay page cache / object cache",
+            "versión de PHP y límites",
+            "CDN y HTTP/2–3",
+            "backups y staging para pruebas",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tema, plugins y media",
+      level: 2,
+      paras: [
+        "Un tema premium para todos los casos arrastra sliders, fuentes y builders que no usas. Toma una plantilla más ligera o desactiva módulos a fondo.",
+        "Plugins: quita los que no uses; no mantengas dos cachés, dos plugins SEO o dos sliders. Actualiza lo que quede. Imágenes — compresión, tamaños sensatos, lazy-load, WebP/AVIF donde se pueda.",
+        "JS/CSS: aplaza lo no crítico, no cargues Google Fonts en pack «por si acaso», preferir fuentes del sistema o locales cuando sea posible. Plugins de «combinar todo» — prueba en staging: a veces rompen el sitio.",
+      ],
+      lists: [
+        {
+          intro: "Orden de trabajo:",
+          items: [
+            "backup y staging",
+            "medir antes de los cambios",
+            "limpiar plugins y tema",
+            "optimizar imágenes",
+            "caché + CDN",
+            "volver a medir las mismas URLs",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "No persigas 100/100 a cualquier coste. Importan más un LCP móvil estable y un carrito/formularios intactos tras la «optimización».",
+        },
+      ],
+      links: [
+        {
+          label: "Tema de WordPress",
+          href: "/es/blog/tema-wordpress/",
+        },
+        {
+          label: "Plugins SEO de WordPress",
+          href: "/es/blog/wordpress-seo-plaginy/",
+        },
+        {
+          label: "Seguridad en WordPress",
+          href: "/es/blog/wordpress-bezopasnost/",
+        },
+        {
+          label: "Plugins de WordPress",
+          href: "/es/blog/wordpress-plaginy/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Acelerar WordPress es medición, hosting con TTFB decente, un tema ligero, menos plugins y media comprimida. Cambia cosas en staging y revisa escenarios de negocio; las notas de PageSpeed son un indicador — no el objetivo en sí.",
+  ],
+  related: [
+    "tema-wordpress",
+    "wordpress-seo-plaginy",
+    "wordpress-bezopasnost",
+    "razmer-stranitsy",
+    "amp",
+    "pered-zapuskom-sayta",
+  ],
+};

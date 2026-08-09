@@ -228,3 +228,232 @@ export const metrikaTseliEn: BlogPost = {
     "vstavka-javascript",
   ],
 };
+
+/** ES overlay for metrika-tseli — same structure as RU JSON / EN. */
+export const metrikaTseliEs: BlogPost = {
+  slug: "metrika-tseli",
+  title: "Goals en Yandex Metrica: tipos y configuración",
+  date: "2020-07-15",
+  category: "SEO",
+  cover: "/images/blog/metrika-tseli/cover.webp",
+  excerpt:
+    "Cómo configurar goals en Yandex Metrica: pageviews, visita a página, eventos JavaScript y un goal multi-paso — con verificación y la forma actual de reachGoal.",
+  lead: [
+    "Los goals en Metrica muestran si los visitantes llegan a las acciones que importan: página de gracias, clic «Comprar», envío de formulario, profundidad de sesión. Sin goals, los informes de ads y SEO se quedan en conteos vanidosos de visitas.",
+    "Abajo: tipos de goal, cuándo elegir cuál, cómo fijar una condición de URL y un evento vía `reachGoal`, cómo armar un funnel multi-paso y cómo verificar el disparo. La instalación del contador es otra pieza; la UI de la cuenta cambia — apóyate en el significado de Goals / condiciones.",
+  ],
+  faq: [
+    {
+      q: "¿Primero el contador o los goals?",
+      a: "Primero un contador que funcione en todas las plantillas, luego goals. Si no, configuras al vacío.",
+    },
+    {
+      q: "¿Cuándo es mejor un goal de «visita a página» que un evento?",
+      a: "Un goal de URL es más simple: sin código en el botón. Un evento es más preciso para clics, formularios y pasos sin cambio de URL.",
+    },
+    {
+      q: "¿Qué código reachGoal es el actual?",
+      a: "Forma moderna: `ym(XXXXXX,'reachGoal','TARGET_NAME')`, donde XXXXXX es el ID del contador. El legado `yaCounter….reachGoal` aún aparece — mejor migrar a `ym`.",
+    },
+    {
+      q: "¿Cuántos pasos van en un goal multi-paso?",
+      a: "Tantos stages con sentido del funnel como necesites (a menudo 2–5). No partas cada clic — obtienes ruido y sesiones rotas.",
+    },
+    {
+      q: "¿Por qué no cuenta mi goal?",
+      a: "Condición de URL incorrecta, evento que no dispara, «No contar mis visitas», bloqueador, goal no guardado, JS viejo en caché.",
+    },
+    {
+      q: "¿Hacen falta goals para Yandex Direct?",
+      a: "Sí si optimizas y juzgas campañas por conversiones. Enlazar contador y cuenta de ads sigue las reglas actuales de Yandex.",
+    },
+    {
+      q: "¿Los goals sustituyen el informe de ecommerce?",
+      a: "No. Ecommerce/compras son una pista de datos aparte. Los goals son conversiones universales y microconversiones.",
+    },
+    {
+      q: "¿Puede una tienda usar «conteo de pageviews» como goal?",
+      a: "Como interés suave — sí. Para dinero importan más carrito, checkout y leads. No confundas engagement con revenue.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué tipos de goal existen",
+      level: 2,
+      paras: [
+        "El set base: conteo de pageviews (profundidad de sesión), visita a página (condición de URL), evento JavaScript (clic/envío/custom), goal multi-paso (cadena de pasos). Elige el tipo para la acción que de verdad significa negocio.",
+        "Primero formula el goal del sitio: lead, compra, llamada, alta. Luego tradúcelo a una condición medible de Metrica. Configura antes de escalar ads — si no, optimizas a ciegas.",
+      ],
+      lists: [
+        {
+          intro: "Cuatro tipos prácticos:",
+          items: [
+            "pageviews — engagement",
+            "URL — gracias, carrito, contactos",
+            "evento JS — botones y formularios",
+            "multi-paso — stages del funnel",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Instalar Yandex Metrica",
+          href: "/es/blog/metrika-ustanovka/",
+        },
+      ],
+    },
+    {
+      title: "Goal «conteo de pageviews»",
+      level: 2,
+      paras: [
+        "Cuenta sesiones donde la persona abrió al menos N páginas. Útil en media, series de aprendizaje y blogs de marca: ¿la navegación es clara, se queda el contenido?",
+        "Para ecommerce puro es un KPI de dinero flojo. Úsalo como señal extra de calidad — no como conversión principal de la tienda.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo encaja:",
+          items: [
+            "portal de contenido",
+            "curso de series de artículos",
+            "blog B2B de calentamiento",
+            "comprobar «¿leen más allá de la homepage?»",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Setup (sentido del paso)",
+          kind: "tip",
+          text: "Settings → Goals → Add → nombre y umbral de pageviews → guardar. Las etiquetas de la UI pueden diferir un poco.",
+        },
+      ],
+    },
+    {
+      title: "Goal «visita a página»",
+      level: 2,
+      paras: [
+        "Dispara cuando la URL de la visita cumple una condición: coincidencia exacta, «empieza por», «contiene» o una expresión regular. Clásicos — `/thanks/`, `/cart/`, `/order/success/`, página de envío.",
+        "Ves si la gente llega a la URL clave, si funcionan los enlaces internos y la conversión de caminos al checkout. Para grupos de fichas ayudan «empieza por» / «contiene» — pero no hagas la condición demasiado ancha o metes ruido.",
+      ],
+      lists: [
+        {
+          intro: "Condiciones de URL:",
+          items: [
+            "equals — una dirección exacta",
+            "starts with — rama de catálogo/checkout",
+            "contains — fragmento compartido en URLs bonitas",
+            "regexp — máscaras complejas (cuidado con errores)",
+          ],
+        },
+      ],
+      tables: [
+        {
+          caption: "Ejemplos de goal de URL",
+          headers: ["Trabajo", "Condición", "Ejemplo"],
+          rows: [
+            ["Gracias", "equals / contains", "/order/success/"],
+            ["Carrito", "contains", "/cart"],
+            ["Categoría", "starts with", "/catalog/pumps/"],
+            ["Contactos", "equals", "/contacts/"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Evento JavaScript y reachGoal",
+      level: 2,
+      paras: [
+        "Necesitas un evento cuando la URL no cambia: clic «Comprar», envío de formulario, abrir popup, «mostrar teléfono». En la cuenta crea un goal JavaScript y fija un identificador (letras latinas, dígitos, `_`).",
+        "En el sitio llama la finalización del goal. Llamada actual: `ym(12345678, 'reachGoal', 'ORDER_CLICK');` — mete tu ID de contador e identificador. En formularios, dispara al envío/callback exitoso — no en cada focus de campo.",
+      ],
+      lists: [
+        {
+          intro: "Eventos típicos:",
+          items: [
+            "clic CTA «Pedir» / «Añadir al carrito»",
+            "envío exitoso del formulario",
+            "inicio de chat / revelar teléfono",
+            "elección de configuración",
+            "share (si importa para los KPIs)",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error frecuente",
+          kind: "tip",
+          text: "El identificador en la cuenta y en el código difieren por mayúsculas/typo — el goal se queda en silencio. Hazlos coincidir uno a uno.",
+        },
+      ],
+    },
+    {
+      title: "Goal multi-paso y funnel",
+      level: 2,
+      paras: [
+        "Un goal multi-paso es una cadena de pasos (URL y/o eventos). Muestra dónde cae la gente: catálogo → producto → carrito → checkout. Los pasos deben ser obligatorios y en orden lógico.",
+        "Cuida el timeout de sesión: un idle largo puede romper la cadena. No armes diez micro-pasos «por si acaso» — quédate con stages sobre los que de verdad decides.",
+      ],
+      lists: [
+        {
+          intro: "Funnel ecommerce de muestra:",
+          items: [
+            "vista de categoría",
+            "ficha de producto",
+            "carrito",
+            "inicio de checkout",
+            "pedido exitoso (URL o evento)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Verificación y fallos habituales",
+      level: 2,
+      paras: [
+        "Tras guardar espera un par de minutos, apaga «No contar mis visitas» para el test, recorre el escenario tú mismo y mira el informe de goals. Para eventos abre la consola: ¿errores de JS, dispara `ym`?",
+        "Si no hay datos — mira también «Metrica no funciona»: bloqueadores, caché, contador ausente en algunas plantillas, ID incorrecto. Chats online y widgets envían sus propios eventos — empareja nombres actuales en la docs del widget; no copies listas obsoletas a ciegas.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de verificación:",
+          items: [
+            "goal guardado en la cuenta",
+            "la condición de URL coincide con la dirección en vivo",
+            "reachGoal con el id y número de contador correctos",
+            "visita de test no filtrada",
+            "sin errores de consola al clic/envío",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Metrica no funciona",
+          href: "/es/blog/metrika-ne-rabotaet/",
+        },
+        {
+          label: "Formulario de contacto",
+          href: "/es/blog/forma-obratnoy-svyazi/",
+        },
+        {
+          label: "Insertar JavaScript",
+          href: "/es/blog/vstavka-javascript/",
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Mantén una tabla: nombre del goal → tipo → dónde en código/URL → quién posee los edits.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "metrika-ustanovka",
+    "metrika-ne-rabotaet",
+    "google-analytics",
+    "dashboard",
+    "forma-obratnoy-svyazi",
+    "vstavka-javascript",
+  ],
+};

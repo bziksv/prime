@@ -202,3 +202,206 @@ export const sohranitFotoInstagramEn: BlogPost = {
     "karusel-instagram",
   ],
 };
+
+/** ES overlay for sohranit-foto-instagram — same structure as RU JSON / EN. */
+export const sohranitFotoInstagramEs: BlogPost = {
+  slug: "sohranit-foto-instagram",
+  title: "Cómo guardar una foto de Instagram en el teléfono o el ordenador",
+  date: "2020-11-17",
+  category: "SMM",
+  cover: "/images/blog/sohranit-foto-instagram/cover.webp",
+  excerpt:
+    "Cómo descargar fotos propias o permitidas de Instagram: guardar en la app, navegador, rarezas de iPhone y Android, y Direct — más básicos de copyright y por qué los «downloaders» dudosos son arriesgados.",
+  lead: [
+    "Sueles guardar un frame de Instagram para tu archivo, aprobación del cliente u otro canal. La UI de la app cambia sin parar, así que esta guía cubre los métodos — no screenshots de botones de 2020 obsoletos.",
+    "Las fotos ajenas están protegidas por copyright. Descargarlas «para repostear sin pedir» es mala práctica. Abajo: caminos legales para tu propio contenido y límites cuidadosos con el de los demás. Esta pieza es solo informativa.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta se reconoce como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Puedo guardar cualquier foto que no sea mía?",
+      a: "Técnicamente hay métodos — pero legal y éticamente solo deberías guardar tu trabajo, assets con licencia o contenido con permiso claro del autor. Para uso comercial, pide consentimiento por escrito.",
+    },
+    {
+      q: "¿Hay un botón Guardar en la app?",
+      a: "Para tus propios posts y dentro de las features actuales de la app, revisa el menú del post (⋯). Las etiquetas cambian; busca guardar en galería o descargar.",
+    },
+    {
+      q: "¿Por qué es difícil guardar el post de otro en iPhone?",
+      a: "La plataforma limita el guardado directo del contenido ajeno. Un screenshot no es un archivo a calidad completa; para el trabajo de otro, pide al autor.",
+    },
+    {
+      q: "¿Son seguros los downloaders de Instagram de terceros?",
+      a: "Muchos son phishing: piden tu login o instalan malware. Nunca introduzcas tu contraseña de Instagram en sitios dudosos.",
+    },
+    {
+      q: "¿Cómo guardo una foto de Direct?",
+      a: "Depende de los ajustes del remitente (incluidas fotos view-once) y de tu OS. Los adjuntos que desaparecen a menudo no se pueden guardar de forma oficial — es por diseño.",
+    },
+    {
+      q: "¿Necesito un ordenador para guardar fotos?",
+      a: "Para tus propios posts, un navegador o Meta Business Suite (si está disponible para tu tipo de cuenta) es práctico. En el teléfono, usa la app y un gestor de archivos.",
+    },
+    {
+      q: "¿Se conserva la calidad de imagen al guardar?",
+      a: "La plataforma puede servir una versión comprimida. Para impresión, guarda originales tú — no dependas solo de una descarga del feed.",
+    },
+    {
+      q: "¿Esto es una guía para robar fotos?",
+      a: "No. El foco es tu propio contenido y escenarios legales. No uses contenido comercial ajeno sin derechos.",
+    },
+  ],
+  sections: [
+    {
+      title: "Primero: tus fotos vs. las de otros",
+      level: 2,
+      paras: [
+        "Tus posts y Stories (cuando la feature está disponible) se pueden exportar bien para un archivo. El trabajo ajeno — solo con permiso o dentro del uso legítimo y la ley local; para ads y el sitio, acuerda primero con el autor.",
+        "Un screenshot del post de otro no te convierte en titular de derechos. Para contenido de marca, prefiere el archivo original del fotógrafo.",
+      ],
+      lists: [
+        {
+          intro: "Escenarios legales:",
+          items: [
+            "archivo de tus propios posts",
+            "exportar para un cliente según brief",
+            "contenido con permiso por escrito",
+            "assets con licencia o tus propias tomas en lugar de «descargado del feed»",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "No introduzcas login y contraseña de Instagram en sitios de «descarga» de terceros — riesgo de toma de cuenta.",
+        },
+      ],
+    },
+    {
+      title: "Guardar desde la app (principio general)",
+      level: 2,
+      paras: [
+        "Abre el post → menú de acciones (⋯ o similar) → guardar o descargar si existe para ese tipo de contenido y autor. En tus propios posts la opción suele estar más disponible que en los ajenos.",
+        "Si no hay opción, es un límite de la plataforma — no un «teléfono roto». Entonces toma el original de la nube o del carrete, o pide al autor.",
+      ],
+      lists: [
+        {
+          intro: "Antes de guardar:",
+          items: [
+            "actualiza la app",
+            "confirma que el post es tuyo o que tienes derechos",
+            "en carruseles, guarda el frame que necesitas aparte si la UI lo ofrece",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Fotos para Instagram: tips de disparo",
+          href: "/es/blog/foto-instagram/",
+        },
+      ],
+    },
+    {
+      title: "iPhone: opciones prácticas",
+      level: 2,
+      paras: [
+        "Para tu media: guarda vía el menú del post a la galería, o exporta con tools de business enlazadas si las usas. Un screenshot es un fallback para aprobar un borrador — no para impresión.",
+        "Utilidades IPA o jailbreak de terceros no se recomiendan: son inestables e inseguras. Guarda originales en Photos o en la nube justo después de disparar.",
+      ],
+      lists: [
+        {
+          intro: "Hábito para creators:",
+          items: [
+            "disparar → backup al álbum o la nube al momento",
+            "el feed recibe una copia, no el único archivo",
+            "envía al cliente el original, no un crop de Instagram",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Android: opciones prácticas",
+      level: 2,
+      paras: [
+        "Misma idea: guarda oficialmente tus posts vía el menú, luego usa un gestor de archivos para la carpeta de la app (las rutas dependen de la versión de Android y el OEM). No instales «mods de Instagram» desde APKs desconocidos — un vector habitual de robo de cuenta.",
+        "Si guardas para trabajo de SMM, mantén una carpeta de proyecto en disco o en la nube con fechas y derechos de uso.",
+      ],
+      lists: [
+        {
+          intro: "Seguridad:",
+          items: [
+            "solo cliente oficial o app store",
+            "sin clientes «cracked»",
+            "2FA en la cuenta",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Básicos de la contraseña de Instagram",
+          href: "/es/blog/parol-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Navegador y ordenador",
+      level: 2,
+      paras: [
+        "En un navegador de escritorio, Instagram a menudo desactiva «Guardar imagen como…» en posts ajenos. Para tu propio contenido, una cuenta business o una descarga oficial del archivo de datos de la cuenta es mejor cuando necesitas un lote.",
+        "Un archivo de cuenta es una vía legal para sacar tu media en bloque; el tiempo de prep y el formato dependen de la ayuda actual de Meta.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo ayuda un PC:",
+          items: [
+            "archivo masivo de tus datos",
+            "aprobación del cliente por email",
+            "mover archivos al drive del equipo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Usar Instagram desde el ordenador",
+          href: "/es/blog/instagram-s-kompyutera/",
+        },
+      ],
+    },
+    {
+      title: "Direct y adjuntos que desaparecen",
+      level: 2,
+      paras: [
+        "Las fotos normales de Direct a veces se pueden guardar si el remitente no lo restringió. Los ítems view-once están diseñados sin opción de guardar — los workarounds vía apps de terceros rompen las reglas y suben riesgos de seguridad.",
+        "Para aprobaciones de trabajo, envía archivos por nube o email con el original — no dejes la única copia en Direct.",
+      ],
+      lists: [
+        {
+          intro: "Para el equipo:",
+          items: [
+            "brief y originales en un drive compartido",
+            "Direct — para comentarios rápidos",
+            "no guardes la única versión solo en el mensajero",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Si el contenido importa al negocio, la fuente de verdad vive siempre fuera del feed de Instagram: RAW o JPEG en tu disco.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "foto-instagram",
+    "instagram-s-kompyutera",
+    "parol-instagram",
+    "pinterest-skachat",
+    "karusel-instagram",
+  ],
+};

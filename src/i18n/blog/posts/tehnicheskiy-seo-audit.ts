@@ -254,3 +254,258 @@ export const tehnicheskiySeoAuditEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for tehnicheskiy-seo-audit — same structure as RU JSON / EN. */
+export const tehnicheskiySeoAuditEs: BlogPost = {
+  slug: "tehnicheskiy-seo-audit",
+  title: "Auditoría SEO técnica: objetivos, alcance y un arranque DIY",
+  date: "2021-07-22",
+  category: "SEO",
+  cover: "/images/blog/tehnicheskiy-seo-audit/cover.webp",
+  excerpt:
+    "Por qué importa una auditoría SEO técnica, qué revisar y si puedes hacer un pase básico tú mismo.",
+  lead: [
+    "Si el sitio se estanca pese a contenido y gasto en ads, a menudo no es «magia del SERP» sino técnica: indexación, velocidad, duplicados, códigos de estado, layout móvil.",
+    "Abajo: en qué se diferencia una auditoría técnica de otros checks, qué puedes inspeccionar tú y cuándo conviene pasar el trabajo a especialistas.",
+  ],
+  faq: [
+    {
+      q: "¿Qué es una auditoría SEO técnica?",
+      a: "Una revisión de cómo se sirve el sitio a crawlers y usuarios: crawl, indexación, códigos de estado, velocidad, readiness móvil, archivos de utilidad y errores críticos de layout/servidor.",
+    },
+    {
+      q: "¿En qué se diferencia de una auditoría SEO completa?",
+      a: "La técnica es la base. Por separado revisas keywords, copy, enlaces y usabilidad. Sin técnica, ni un set fuerte de keywords suele volverse rankings estables.",
+    },
+    {
+      q: "¿Puedo auditarlo yo?",
+      a: "Un loop básico — sí: paneles de webmaster, un crawler, PageSpeed/CWV, checks de robots y sitemap. El trabajo profundo de nicho y la priorización suele ir más rápido con un especialista experimentado.",
+    },
+    {
+      q: "¿Por dónde empezar si el tiempo es corto?",
+      a: "Indexación y duplicados, 4xx/5xx, redirects, versión móvil, LCP/INP, HTTPS y acceso a landings clave.",
+    },
+    {
+      q: "¿Cuándo es mejor posponer una auditoría?",
+      a: "Si no hay presupuesto para arreglos, el sitio está obsoleto y es más fácil reconstruirlo, o la prioridad es un ciclo paid corto sin apoyarte en orgánico.",
+    },
+  ],
+  sections: [
+    {
+      title: "Para qué sirve una auditoría del sitio",
+      level: 2,
+      paras: [
+        "Una auditoría es una revisión sistemática: técnica, estructura, contenido, usabilidad y visibilidad en búsqueda. La meta — ver si el recurso está listo para promoción o necesita arreglos primero.",
+        "El loop técnico responde: ¿puede un crawler rastrear e indexar de forma estable las URLs correctas, y puede un usuario obtener la página rápido sin fallos?",
+      ],
+      lists: [],
+    },
+    {
+      title: "Qué debe entregar una auditoría SEO",
+      level: 2,
+      paras: [
+        "El trabajo principal es reunir hechos sobre el estado del sitio y los puntos débiles — no «buscar a quién culpar».",
+        "Después priorizas arreglos: qué bloquea ahora la indexación y la conversión, qué puede esperar. Demanda, competencia y UX también se valoran — pero van al lado de la técnica pura.",
+      ],
+      lists: [
+        {
+          intro: "Una auditoría suele entregar:",
+          items: [
+            "una lista de errores críticos con prioridad",
+            "un mapa de qué bloquea el crecimiento de tráfico y leads",
+            "un plan de trabajo claro para las siguientes iteraciones",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tipos de auditoría",
+      level: 2,
+      paras: [
+        "En la práctica hay varios tipos. Usabilidad y marketing son cortes estrechos. La técnica mira hosting, código, crawl y entrega de páginas. La de búsqueda (on-page / SEO) — meta, headings, enlaces internos, duplicados de contenido — más a menudo cuando la técnica no estorba.",
+        "Un check express antes de promover cubre solo lo crítico. Una revisión completa necesita crawler y paneles de webmaster. Tools: Screaming Frog, Netpeak Spider, Titlo, más Google Search Console y Yandex Webmaster.",
+      ],
+      lists: [
+        {
+          intro: "Clasificación básica:",
+          items: [
+            "técnica",
+            "búsqueda (on-page / SEO)",
+            "usabilidad",
+            "marketing / competitiva",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Técnica (bajo el capó)",
+      level: 3,
+      paras: [
+        "Una auditoría técnica revisa cómo funciona el sitio bajo el capó. Errores de servidor, un robots roto, duplicados y una versión móvil lenta duelen a la visibilidad más que un párrafo de copy que falta.",
+      ],
+      lists: [
+        {
+          intro: "Qué se suele revisar:",
+          items: [
+            "códigos de estado 2xx / 3xx / 4xx / 5xx y cadenas de redirects",
+            "robots.txt y sitemap XML",
+            "indexación de URLs clave (webmaster / Search Console)",
+            "canónicos y duplicados (WWW, HTTP/HTTPS, parámetros)",
+            "velocidad y Core Web Vitals (LCP, INP, CLS)",
+            "layout móvil y viewport",
+            "HTTPS y mixed content",
+            "disponibilidad de recursos importantes (JS/CSS), errores críticos de layout",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Meter de golpe métricas de marca, perfil de enlaces y «factores de ranking» en «técnica». Son bloques de informe relacionados; primero quita lo que rompe crawl e indexación.",
+        },
+      ],
+      tables: [
+        {
+          caption: "Mini-checklist de auditoría express",
+          headers: ["Check", "Dónde mirar", "Severidad"],
+          rows: [
+            ["Homepage y servicios indexados", "Webmaster / GSC", "alta"],
+            ["404 en URLs importantes", "Crawler", "alta"],
+            ["robots bloquea URLs necesarias", "robots.txt", "alta"],
+            ["LCP móvil lento", "PageSpeed / CWV", "media/alta"],
+            ["Duplicados sin canonical", "Crawler", "alta"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Auditoría de búsqueda (on-page)",
+      level: 3,
+      paras: [
+        "Tras la técnica, revisa qué tan listas están las páginas para rankear: meta, headings, enlazado interno, duplicados de contenido, optimización de imágenes.",
+      ],
+      lists: [
+        {
+          intro: "Alcance típico:",
+          items: [
+            "ajustes de indexación y caza de duplicados",
+            "meta tags Title / Description",
+            "jerarquía H1–H3",
+            "enlazado interno",
+            "alt en imágenes con sentido",
+            "filtros y caídas bruscas — aparte, con evidencia",
+            "posiciones y tráfico vs competidores — como contexto, no como «técnica»",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Usabilidad",
+      level: 3,
+      paras: [
+        "Usabilidad es comodidad para personas: velocidad, readiness móvil, navegación clara, sin secciones vacías. Algunas métricas se solapan con técnica (velocidad, SSL), otras con el producto (flujo de leads).",
+      ],
+      lists: [
+        {
+          intro: "Qué mirar:",
+          items: [
+            "velocidad de carga y estabilidad de UI",
+            "visualización en teléfono y tablet",
+            "HTTPS",
+            "jerarquía lógica y sin placeholders",
+            "bounces, profundidad, dispositivos y navegadores — en analytics",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Contenido y relleno del sitio",
+      level: 3,
+      paras: [
+        "Un corte aparte: unicidad y frescura del copy, huecos de información, efectividad de keywords en landings, páginas desfasadas a borrar o actualizar.",
+        "Un contenido fuerte no cancela la técnica: si una página no se indexa o devuelve 500, el texto no la salva.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Auditoría básica vs completa",
+      level: 2,
+      paras: [
+        "Un pase básico (express) cubre lo crítico: errores de servidor, 404/redirects, meta en URLs clave, indexación. No pretende una revisión completa de competencia o diseño.",
+        "Una auditoría completa — técnica + on-page + keywords/estructura + usabilidad y contexto competitivo. Eso es un plan de trabajo llave en mano, no un solo checklist.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo una auditoría es especialmente útil:",
+          items: [
+            "lanzamiento o relanzamiento del sitio",
+            "el sitio lleva mucho sin mantenimiento",
+            "la promoción se paró y las métricas cayeron",
+            "necesitas oversight del vendor",
+            "tráfico bajo, bounce alto, 404s al alza",
+          ],
+        },
+        {
+          intro: "Cuándo una auditoría SEO puede esperar:",
+          items: [
+            "sin presupuesto para arreglos después",
+            "el recurso está obsoleto y es mejor reemplazarlo",
+            "la prioridad es un ciclo paid corto sin orgánico",
+          ],
+        },
+      ],
+    },
+    {
+      title: "DIY o con un vendor",
+      level: 2,
+      paras: [
+        "Tu propio loop ayuda: aprender a leer tools de webmaster, crawlear el sitio, arreglar robots y meta. Lleva tiempo y alguien que termine los arreglos.",
+        "Un vendor ve errores sistémicos más rápido, separa lo crítico del ruido y ata la técnica a keywords y estructura. Tiene sentido cuando el downtime cuesta más que la auditoría.",
+      ],
+      lists: [
+        {
+          intro: "Argumentos para una auditoría externa:",
+          items: [
+            "una mirada independiente sin ceguera de hábito",
+            "prioridades de trabajo, no una lista infinita de minucias",
+            "alineación práctica con requisitos de buscadores",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Compromiso práctico",
+          kind: "tip",
+          text: "Haz un pase express tú y anota lo crítico. Encarga un informe profundo y roadmap si el crecimiento sigue chocando con un techo tras los arreglos básicos.",
+        },
+      ],
+    },
+    {
+      title: "Qué hacer tras la auditoría",
+      level: 2,
+      paras: [
+        "Una auditoría sin implementación es solo un PDF. Siguiente: arreglar lo crítico, luego estructura y keywords de landings, luego contenido y trabajo de crecimiento.",
+      ],
+      lists: [],
+      links: [
+        {
+          label: "Research de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Una auditoría técnica es una forma rápida de ver si el sitio rompe su propia promoción. Empieza por indexación, códigos de estado y velocidad; profundiza según recursos. Si necesitas un segundo par de ojos — revisa el informe con un especialista y presupuesta arreglos ya.",
+      ],
+      lists: [],
+    },
+  ],
+};

@@ -129,3 +129,133 @@ export const ampEn: BlogPost = {
     "ishodnyy-kod",
   ],
 };
+
+/** ES overlay for amp — same structure as RU JSON / EN. */
+export const ampEs: BlogPost = {
+  slug: "amp",
+  title: "Páginas Google AMP: qué eran y si las necesitas ahora",
+  date: "2020-03-13",
+  category: "SEO",
+  cover: "/images/blog/amp/cover.webp",
+  excerpt:
+    "Qué es AMP: HTML reducido para entrega rápida en la SERP móvil, pros y contras de la caché de Google, por qué el formato dejó de ser obligatorio y dónde poner el esfuerzo — tu propio sitio responsive.",
+  lead: [
+    "AMP (Accelerated Mobile Pages) es un formato abierto de páginas ligeras que Google impulsó desde 2015: HTML/JS limitado, paint rápido y a menudo entrega desde la caché de búsqueda.",
+    "A mediados de los 2020 AMP ya no es una capa obligatoria de SEO móvil: el carrusel y los privilegios en la SERP se fueron, y la velocidad la deciden los Core Web Vitals en tu propio sitio. Abajo: cómo funcionaba el formato, qué ayudaba y qué hacía daño, y cuándo aún tiene sentido. Las guías paso a paso de «instala un plugin y sube posiciones» están obsoletas.",
+  ],
+  faq: [
+    {
+      q: "¿AMP sigue siendo obligatorio para SEO móvil?",
+      a: "No. Primero un sitio responsive rápido. AMP es un caso estrecho/histórico — no un sustituto de la UX móvil real.",
+    },
+    {
+      q: "¿En qué se diferenciaba AMP de una página normal?",
+      a: "Un set estricto de tags y componentes, poco JS arbitrario, layout reducido. Google podía servir una copia desde su caché — más rápido en conexión débil, pero parte de la sesión no estaba en tu host.",
+    },
+    {
+      q: "¿AMP es lo mismo que Yandex Turbo?",
+      a: "La idea es similar (una copia móvil ligera), los ecosistemas difieren. Turbo en la búsqueda también se fue apagando — la apuesta es tu propio sitio.",
+    },
+    {
+      q: "¿Debo borrar ya las URLs /amp antiguas?",
+      a: "No siempre. Comprueba que canonical y analytics apunten a la versión principal, que no haya confusión de índice ni redirects muertos. Lo que importa es la calidad móvil de la principal.",
+    },
+    {
+      q: "¿AMP da un boost de posiciones?",
+      a: "No hay «puntos AMP» directos como factor obligatorio. Importan velocidad y comportamiento — los cubres en URLs normales.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo funcionaba AMP",
+      level: 2,
+      paras: [
+        "La página se construía bajo reglas AMP HTML: componentes permitidos en lugar de scripts arbitrarios, validación del markup. El objetivo — carga rápida predecible en el teléfono.",
+        "Los usuarios podían abrir AMP en tu dominio (a menudo un sufijo `/amp` o `?amp`) o ver una copia en caché en la infraestructura de Google. En el segundo caso algunas métricas y la sensación del sitio diferían de una visita completa a tu host.",
+      ],
+      lists: [
+        {
+          intro: "Qué se solía recortar:",
+          items: [
+            "JavaScript arbitrario pesado",
+            "widgets complejos y algunos formularios",
+            "gráficos y efectos pesados",
+            "algunos bloques de ads y sociales sin componentes especiales",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Páginas Yandex Turbo",
+          href: "/es/blog/turbo-stranitsy/",
+        },
+      ],
+    },
+    {
+      title: "Pros y contras de la era AMP",
+      level: 2,
+      paras: [
+        "La ventaja era velocidad en redes móviles débiles y una plantilla ligera compartida para medios. Los inconvenientes: UX más pobre, analytics y conversiones más difíciles, riesgo de confusión canónica, dependencia de reglas de plataforma y caché.",
+        "No reutilizamos benchmarks viejos de PageSpeed «era 61 — pasó a 87» de casos 2019–2020: cambiaron las herramientas y los pesos de las métricas. Mira informes actuales en tus URLs.",
+      ],
+      lists: [
+        {
+          intro: "Problemas típicos de rollout:",
+          items: [
+            "baja conversión en la página reducida",
+            "goals y eventos más difíciles en analytics",
+            "duplicados/problemas de canonical por un setup malo",
+            "mantener dos plantillas en lugar de un buen móvil",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Si el «AMP rápido» convierte peor que el sitio completo, la victoria de velocidad se la come la pérdida de leads. Cuenta métricas de negocio, no solo el tiempo de carga en una URL demo.",
+        },
+      ],
+    },
+    {
+      title: "¿Necesitas AMP ahora?",
+      level: 2,
+      paras: [
+        "Para la mayoría de sitios comerciales en 2026 la respuesta sensata es no como capa obligatoria. Invierte en diseño responsive, compresión, fuentes, imágenes, caché/CDN y Core Web Vitals en las URLs canónicas.",
+        "AMP solo tiene sentido si tienes un caso de contenido estrecho, soporte del formato ya en el stack y analytics claros. No arrancamos proyectos nuevos por un checkbox AMP.",
+      ],
+      lists: [
+        {
+          intro: "Dónde poner el esfuerzo:",
+          items: [
+            "layout móvil y legibilidad",
+            "velocidad LCP/INP/CLS",
+            "CTAs claros en el sitio completo",
+            "una plantilla sin un universo ligero paralelo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Sitio responsive",
+          href: "/es/blog/adaptivnyy-sayt/",
+        },
+        {
+          label: "Búsqueda móvil",
+          href: "/blog/mobilnyy-poisk/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "AMP aceleró el contenido móvil en la era de redes lentas y privilegios en la SERP. Hoy la apuesta es un sitio rápido propio, no un segundo formato obligatorio. Si AMP ya existe — ordena canonical y métricas; si no — empieza por responsive.",
+  ],
+  related: [
+    "turbo-stranitsy",
+    "adaptivnyy-sayt",
+    "pered-zapuskom-sayta",
+    "verstka-saytov",
+    "ishodnyy-kod",
+    "mobilnyy-poisk",
+  ],
+};

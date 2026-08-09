@@ -157,3 +157,161 @@ export const yandeksIksEn: BlogPost = {
     "molodoy-sayt",
   ],
 };
+
+/** ES overlay for yandeks-iks — same structure as RU JSON / EN. */
+export const yandeksIksEs: BlogPost = {
+  slug: "yandeks-iks",
+  title: "Yandex SQI (ИКС): qué era el índice de calidad — y qué mirar ahora",
+  date: "2018-09-19",
+  category: "SEO",
+  cover: "/images/blog/yandeks-iks/cover.webp",
+  excerpt:
+    "Qué era el SQI (ИКС) de Yandex, en qué se diferenciaba del TIC y por qué perseguir una puntuación obsoleta no tiene sentido — más qué informes de Webmaster usar en lugar de un «índice de calidad».",
+  lead: [
+    "El SQI (índice de calidad del sitio, en ruso ИКС) fue la puntuación pública de Yandex que sustituyó al TIC en 2018. Reflejaba demanda y calidad para audiencias — no solo peso de enlaces. La escala iba a saltos (10, 20, 40…), como el TIC viejo.",
+    "La insignia pública luego salió de la UI familiar de Webmaster, así que perseguir un número de guías de 2018–2019 no tiene sentido. Abajo: por qué apareció la métrica, en qué se diferenciaba del TIC y qué usar ahora. Webmaster no coloca sitios a mano; la cuota de un set comercial en primera página suele crecer a lo largo de meses tras el arranque del trabajo.",
+  ],
+  faq: [
+    {
+      q: "¿Sigue mostrándose el SQI en Webmaster?",
+      a: "No como la insignia pública familiar. Céntrate en diagnósticos, índice, consultas, seguridad y comportamiento en analítica.",
+    },
+    {
+      q: "¿El SQI es lo mismo que una posición en búsqueda?",
+      a: "No. Incluso cuando el SQI estaba vivo, una puntuación alta no garantizaba rankings en primera página. Relevancia, calidad de página y competencia siguen decidiendo.",
+    },
+    {
+      q: "¿En qué se diferenciaba el SQI del TIC?",
+      a: "El TIC se inclinaba a la citación por enlaces. El SQI se desplazó hacia audiencia, satisfacción y confianza. La fórmula exacta nunca se divulgó.",
+    },
+    {
+      q: "¿Se puede inflar el SQI?",
+      a: "Jugar con señales de comportamiento y enlaces es arriesgado — e inútil para una insignia desaparecida. Mejora el sitio y el negocio.",
+    },
+    {
+      q: "¿Qué mirar en competidores en lugar del SQI?",
+      a: "Visibilidad en el set compartido de keywords, estimaciones de tráfico de herramientas, snippets, contenido y factores comerciales — no la puntuación archivada de alguien.",
+    },
+  ],
+  sections: [
+    {
+      title: "Del TIC al SQI: por qué cambió la métrica",
+      level: 2,
+      paras: [
+        "El TIC (índice temático de citación) midió el peso de enlaces desde finales de los 90. En los 2010 se construyeron PBNs e intercambios de enlaces sobre él, mientras que en la búsqueda general sitios con TIC cero a menudo ganaban a los muy enlazados. La métrica dejó de explicar la calidad para los usuarios.",
+        "En agosto de 2018 Yandex anunció el cambio: TIC fuera, SQI dentro. La idea era mostrar cuán útil es el sitio para audiencias y el negocio alrededor — no solo cuántos enlaces compraste.",
+      ],
+      tables: [
+        {
+          caption: "Comparación aproximada de sentido",
+          headers: ["Métrica", "Foco", "Límite"],
+          rows: [
+            ["TIC", "Citación por enlaces", "Fácil de despegar del valor humano"],
+            [
+              "SQI",
+              "Audiencia, confianza, satisfacción",
+              "Fórmula cerrada; puntuación ≠ rankings",
+            ],
+            ["Ahora", "Informes de Webmaster + analítica", "Sin un único número principal"],
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Yandex Webmaster",
+          href: "/es/blog/yandeks-vebmaster/",
+        },
+      ],
+    },
+    {
+      title: "Cómo se calculaba el SQI (hasta donde se sabe)",
+      level: 2,
+      paras: [
+        "Oficialmente nombraron direcciones: tamaño de audiencia, satisfacción, confianza. Los expertos ligaron el crecimiento al ecosistema (Búsqueda, Maps, superficies de contenido) y al comportamiento — fuentes, profundidad, bounce, tiempo — sin pesos exactos prometidos.",
+        "Yandex se reservó el derecho a cambiar el método y poner a cero puntuaciones por manipulación. El SQI pico de screenshots ajenos de 2018 es trivia de museo, no un objetivo de optimización.",
+      ],
+      notes: [
+        {
+          title: "No es un dial de ranking uno a uno",
+          kind: "tip",
+          text: "Incluso cuando se mostraba el SQI, era un indicador de calidad y demanda — no un mando que giras para comprar visibilidad en primera página.",
+        },
+      ],
+    },
+    {
+      title: "Cómo se solía consultar el SQI",
+      level: 2,
+      paras: [
+        "Históricamente la puntuación vivía en el resumen de Webmaster, emails de notificación y URLs de chequeo directo. Para sitios ajenos usaban checkers públicos y herramientas de terceros — muchas están obsoletas ahora.",
+        "Si un informe viejo decía que faltaba el SQI, el sitio podía ser nuevo, estar débil en búsqueda o fuera de la muestra. Hoy un número ausente es normal: la métrica-insignia se retiró.",
+      ],
+    },
+    {
+      title: "Por qué «subir el SQI» es un mal objetivo hoy",
+      level: 2,
+      paras: [
+        "Optimizar por un indicador desaparecido distrae de indexación, contenido, factores comerciales y velocidad. Enlaces por «calidad» sin valor de página arriesgan filtros — no un camino a mejores rankings.",
+        "Tras la preparación, la cuota de un set comercial en primera página suele llevar meses de trabajo constante — a menudo en el rango de 2–6 meses — no «empujamos el SQI en una semana».",
+      ],
+      lists: [
+        {
+          intro: "Qué hacer en lugar de perseguir la puntuación:",
+          items: [
+            "arreglar errores críticos en Webmaster",
+            "reforzar URLs útiles para la demanda",
+            "mejorar UX y conversión",
+            "mirar clics y consultas",
+            "medir goals de negocio en Metrica o CRM",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+        {
+          label: "Chequeos de indexación",
+          href: "/es/blog/proverka-indeksatsii/",
+        },
+      ],
+    },
+    {
+      title: "Qué mirar en lugar del SQI",
+      level: 2,
+      paras: [
+        "En Webmaster: diagnósticos y seguridad, páginas en búsqueda, consultas y clics, sitemap, crawl. En analítica — tráfico a goals y conversiones. En competidores — visibilidad en el set solapado de keywords, no el SQI archivado.",
+        "Tendencias y otros cortes de calidad en el dashboard (si tu versión aún los muestra) ganan a un número histórico: se atan al estado actual del sitio.",
+      ],
+      links: [
+        {
+          label: "Yandex Webmaster",
+          href: "/es/blog/yandeks-vebmaster/",
+        },
+        {
+          label: "Soporte de Yandex",
+          href: "/es/blog/podderzhka-yandeks/",
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "El SQI intentó sustituir el TIC basado en enlaces por un indicador de demanda. Como brújula pública está obsoleto.",
+        "Construye calidad para personas y negocio, lee los informes actuales de Webmaster — y no planifiques SEO alrededor de una puntuación de artículos de 2018.",
+      ],
+    },
+  ],
+  closing: [
+    "Si una auditoría vieja aún dice «sube el SQI», reescribe la tarea a diagnósticos de Webmaster, indexación de URLs importantes y conversiones — ese es el reemplazo operativo de la insignia desaparecida.",
+  ],
+  related: [
+    "yandeks-vebmaster",
+    "tehnicheskiy-seo-audit",
+    "proverka-indeksatsii",
+    "podderzhka-yandeks",
+    "ssylochnyy-profil",
+    "molodoy-sayt",
+  ],
+};

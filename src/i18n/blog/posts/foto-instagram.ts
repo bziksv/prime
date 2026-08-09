@@ -150,3 +150,154 @@ export const fotoInstagramEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for foto-instagram — same structure as RU JSON / EN. */
+export const fotoInstagramEs: BlogPost = {
+  slug: "foto-instagram",
+  title: "Fotos para Instagram: idea, composición y disparo",
+  date: "2021-06-29",
+  category: "SMM",
+  cover: "/images/blog/foto-instagram/cover.webp",
+  excerpt:
+    "Cómo elegir un nicho visual, disparar con composición y luz, y preparar fotos para un blog o tienda en Instagram — sin clichés de «solo chicas» ni copiar feeds ajenos.",
+  lead: [
+    "En Instagram la imagen engancha primero; el texto es la segunda capa. Un frame fuerte tiene una idea clara, luz, composición y un enlace a la oferta del perfil.",
+    "Abajo: tipos de contenido, técnicas básicas de disparo, matices de negocio y ritmo de publicación. La UI de la app cambia; la skill del frame gana a una lista de filtros obsoletos.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Hace falta una DSLR para un blog?",
+      a: "No necesariamente. Un móvil moderno más luz y composición suele bastar. Para catálogos de producto, estudio/luz ayudan más que los megapíxeles.",
+    },
+    {
+      q: "¿Cuántos filtros son normales?",
+      a: "Un preset reconocible para el feed gana a un caleidoscopio. El retoque pesado de piel y el «plástico» matan la confianza rápido.",
+    },
+    {
+      q: "¿En qué se diferencia de una plantilla de post?",
+      a: "Aquí — disparo y composición del frame. Una plantilla es marco, fuentes y grilla de layout. Ver posts sobre plantillas y diseño del perfil.",
+    },
+    {
+      q: "¿Puedo copiar frames de competidores uno a uno?",
+      a: "Ideas — sí; fotos ajenas y estilo pixel-perfect — no: riesgo de reclamaciones y un feed vacío sin tu voz.",
+    },
+    {
+      q: "¿Cuándo publicar?",
+      a: "Cuando tu audiencia está online — revisa las stats de la cuenta. No hay una «mejor hora para todos» universal.",
+    },
+  ],
+  sections: [
+    {
+      title: "Idea y nicho visual",
+      level: 2,
+      paras: [
+        "Primero fija de qué va el perfil: diario, viajes, expertise, producto, comunidad. El nicho marca locations, props y tono de edición.",
+        "Experimenta, pero mantén un núcleo: un seguidor debería entender en tres segundos por qué quedarse.",
+      ],
+      lists: [
+        {
+          intro: "Formatos habituales:",
+          items: [
+            "lifestyle y detrás de cámaras",
+            "viajes y lugares",
+            "utilidad / proceso / before-after",
+            "producto y flat lays",
+            "mascotas y hobbies — si eso es de verdad tu contenido",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Diseño de la página de Instagram",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+        {
+          label: "Plan de contenido de Instagram",
+          href: "/es/blog/kontent-plan-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Reglas de la plataforma y líneas rojas",
+      level: 2,
+      paras: [
+        "Sigue las reglas de comunidad: sin plagio, contenido prohibido ni provocación por alcance. Un ban cuesta más que cualquier frame «viral».",
+        "La provocación como única estrategia acorta la vida de la cuenta. Mejor un visual estable y una oferta.",
+      ],
+      links: [
+        {
+          label: "Bloqueos en Instagram",
+          href: "/es/blog/blokirovka-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Composición y luz",
+      level: 2,
+      paras: [
+        "Una grilla 3×3 (regla de tercios), espacio negativo, líneas guía, simetría, patrones, detalles cerrados — herramientas, no dogma. Un dispositivo fuerte por frame gana a mezclarlo todo.",
+        "Luz: luz de día cuando puedas; el flash de la cámara a menudo mata el color. Mueve los pies por el ángulo — no te apoyes solo en el zoom; el zoom digital añade ruido.",
+      ],
+      lists: [
+        {
+          intro: "Antes de pulsar el obturador:",
+          items: [
+            "cuál es el sujeto principal",
+            "si el borde recorta algo importante",
+            "si el fondo está ordenado",
+            "si hay luz suficiente sin ruido",
+            "cómo se sentará el frame en la grilla del perfil",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Fotos de negocio y de producto",
+      level: 2,
+      paras: [
+        "Para una tienda hace falta color honesto, fondo limpio o escena intencional, nitidez y un set de ángulos. Un trípode y luz suave ahorran horas de retoque.",
+        "Estudia a competidores por ideas de ángulo, no por copias de archivos. Watermarks solo si hacen falta; un estilo reconocible gana a un logo que tapa medio frame.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo para una tarjeta del feed:",
+          items: [
+            "ángulo hero + detalle",
+            "disparo de uso en contexto",
+            "un preset para la serie",
+            "caption con valor y CTA",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Plantillas de Instagram",
+          href: "/es/blog/shablon-instagram/",
+        },
+        {
+          label: "Post de venta",
+          href: "/es/blog/post-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Edición y ritmo de publicación",
+      level: 2,
+      paras: [
+        "Primero el frame, luego Lightroom/editor móvil: exposición, balance de blancos, afilado ligero. Un preset de serie gana a un «filtro wow» en un solo post.",
+        "La regularidad sostiene el alcance: planifica slots desde las stats. El caption bajo la foto es gancho y sentido, no un muro de keywords.",
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Las ideas de «qué disparar» son infinitas; el límite es luz y tiempo. Mantén una lista de locations y props bajo las rúbricas del plan de contenido.",
+        },
+      ],
+    },
+  ],
+};

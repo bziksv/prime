@@ -221,3 +221,225 @@ export const seoStrukturaSaytaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for seo-struktura-sayta — same structure as RU JSON / EN. */
+export const seoStrukturaSaytaEs: BlogPost = {
+  slug: "seo-struktura-sayta",
+  title: "Estructura SEO del sitio: cómo diseñar la jerarquía que rankea",
+  date: "2021-12-27",
+  category: "SEO",
+  cover: "/images/blog/seo-struktura-sayta/cover.webp",
+  excerpt:
+    "Cómo diseñar la estructura de un sitio para SEO: jerarquía de páginas, clusters de keywords y enlazado interno — antes de inundar el CMS con páginas al azar.",
+  lead: [
+    "La estructura del sitio no es un diagrama bonito para un pitch. Es el sistema de páginas y enlaces que ayuda a personas y buscadores a encontrar servicios, catálogo y artículos sin perderse.",
+    "Abajo: patrones de jerarquía, qué miran Yandex y Google, ejemplos para distintos tipos de proyecto y un orden práctico — primero la lógica de secciones, después el contenido.",
+  ],
+  faq: [
+    {
+      q: "¿Qué es la estructura SEO del sitio?",
+      a: "Una jerarquía de secciones y URLs más los enlaces internos entre ellas, alineada con clusters de keywords y journeys reales de usuario.",
+    },
+    {
+      q: "¿Qué modelo es mejor — lineal o árbol?",
+      a: "Para la mayoría de sitios comerciales, un árbol. Lo lineal encaja en landings cortas. Una rejilla plana sin jerarquía rara vez funciona para un negocio de servicios.",
+    },
+    {
+      q: "¿Debo diseñar la estructura antes de escribir el copy?",
+      a: "Sí. Si no, el contenido se reparte en URLs al azar, las secciones se duplican y el enlazado interno se queda flojo.",
+    },
+    {
+      q: "¿Cómo se conectan estructura y research de keywords?",
+      a: "Los clusters de queries te dicen qué landings necesitas. La estructura es el mapa de esas landings y los caminos entre ellas.",
+    },
+    {
+      q: "¿Qué revisar tras aprobar el esquema?",
+      a: "URLs limpias, breadcrumbs, sitemap XML, robots.txt, profundidad de clics a secciones clave y sin intents solapados en una URL.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué significa de verdad «estructura para SEO»",
+      level: 2,
+      paras: [
+        "En SEO, estructura es un sistema concreto para colocar páginas, secciones y posts. Sigue una jerarquía que puedes dibujar como diagrama de bloques y validar con ojo de usuario.",
+        "Una jerarquía clara ayuda a la gente a encontrar un servicio o producto más rápido y a los buscadores a ver relaciones temáticas. También es más fácil montar un set de keywords: los clusters se mapean a landings reales, no al aire.",
+      ],
+      lists: [
+        {
+          intro: "Dos capas que suele querer decir la gente:",
+          items: [
+            "estructura interna — cómo se conectan las secciones, navegación, el camino del usuario",
+            "enlazado interno — enlaces entre páginas que refuerzan URLs importantes y ayudan a los crawlers",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          text: "Tirar textos «donde quepan» e inventar la estructura después. Casi siempre crea secciones duplicadas y páginas sin intent claro.",
+        },
+      ],
+    },
+    {
+      title: "Jerarquía de páginas en diagramas simples",
+      level: 2,
+      paras: [
+        "La estructura implica jerarquía: unos elementos cuelgan de otros. Estos son los modelos base que usan la mayoría de sitios.",
+      ],
+    },
+    {
+      title: "Lineal",
+      level: 3,
+      paras: [
+        "Las páginas van en secuencia — enlaces a vecinos y a la home. Malo para un catálogo complejo; bien para una landing corta o un brochure simple.",
+        "La indexación es más débil que un árbol: el peso suele quedarse en la homepage. Solo tiene sentido si toda la oferta vive de verdad en una pantalla.",
+      ],
+    },
+    {
+      title: "Bloque / red",
+      level: 3,
+      paras: [
+        "Los elementos son casi iguales; no hay pirámide rígida. Habitual en páginas compactas de un solo producto o personales donde los bloques (descripción, precios, reviews, pedido) se enlazan entre sí.",
+        "Como único modelo para un sitio comercial grande suele no bastar: sin niveles de sección cuesta escalar surtido y artículos.",
+      ],
+    },
+    {
+      title: "Árbol",
+      level: 3,
+      paras: [
+        "El default para proyectos comerciales: varios niveles; cada sección tiene subsecciones y páginas de servicio, producto o artículo. Mantén la profundidad razonable — no entierres URLs comerciales clave a cinco clics.",
+      ],
+    },
+    {
+      title: "Cómo trabajar con la jerarquía",
+      level: 2,
+      paras: [
+        "Regla simple: primero el esquema, después el contenido. Si no, limpiarás un montón de páginas sin enlazar que indexan mal y confunden a los visitantes.",
+        "Fija la estructura en papel o en Miro/FigJam. Mira el sitio futuro con ojos de cliente — dónde va por precio, servicio, contactos.",
+        "Para agrupar queries bajo secciones, los equipos usan tools de clustering — Rush Analytics, Key Collector, Titlo y similares. Elige lo que encaje con el tamaño de tu set de keywords y el workflow.",
+      ],
+      tables: [
+        {
+          caption: "Mini ejemplo: servicios → secciones (fragmento)",
+          headers: ["Cluster de query", "Sección", "URL", "Profundidad"],
+          rows: [
+            ["ventanas pvc, comprar ventanas", "Ventanas PVC", "/okna-pvh/", "2"],
+            ["instalación de ventanas", "Instalación", "/ustanovka-okon/", "2"],
+            ["reparación de ventanas", "Reparación", "/remont-okon/", "2"],
+            [
+              "cómo elegir ventanas",
+              "Blog / guía",
+              "/blog/kak-vybrat-okna/",
+              "3",
+            ],
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Qué vigilar",
+          text: "Un intent comercial — una landing. Los clusters informativos van a un blog o base de conocimiento, no mezclados en una página de «comprar».",
+        },
+      ],
+    },
+    {
+      title: "Qué necesitan los buscadores para una indexación limpia",
+      level: 2,
+      paras: [
+        "Una jerarquía clara es la base. Luego vienen señales técnicas: sitemap, reglas de crawl, URLs legibles y sin caos de duplicados.",
+      ],
+    },
+    {
+      title: "Yandex",
+      level: 3,
+      paras: [
+        "Para muchos proyectos enfocados a Rusia, Yandex es el motor prioritario. Quiere jerarquía clara, secciones temáticas, un sitemap XML y un robots.txt correcto para que áreas de utilidad no entren al índice.",
+        "Breadcrumbs y navegación lógica ayudan a los usuarios y hacen más fácil entender el nesting de secciones.",
+      ],
+    },
+    {
+      title: "Google",
+      level: 3,
+      paras: [
+        "Los requisitos se acercan a los de Yandex, con énfasis en jerarquía simple, URLs legibles basadas en palabras (no IDs), longitud de path cuidadosa y enlazado interno predecible.",
+        "El contenido de calidad en las landings sigue decidiendo. La estructura sin sustancia en las páginas no lleva rankings sola.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo práctico:",
+          items: [
+            "jerarquía de secciones estricta pero simple",
+            "URLs cortas y legibles",
+            "sitemap.xml y un robots.txt al día",
+            "enlazado interno sin callejones sin salida",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Montar la estructura: ejemplos",
+      level: 2,
+      paras: [
+        "No hay un esquema universal para cada sitio. Aquí van marcos base que luego adaptas a nicho y keywords.",
+      ],
+    },
+    {
+      title: "Sitio de servicios comerciales",
+      level: 3,
+      paras: [
+        "Desde la home — secciones de servicio y about; desde servicios — landings y artículos si hace falta. Profundidad media, breadcrumbs y un bloque que enlace servicios afines.",
+      ],
+    },
+    {
+      title: "Sitio brochure",
+      level: 3,
+      paras: [
+        "Dos niveles: home con oferta y contactos, más unas pocas páginas de apoyo (servicios en breve, casos, detalles legales). Lineal o un árbol muy poco profundo.",
+      ],
+    },
+    {
+      title: "Proyecto informativo",
+      level: 3,
+      paras: [
+        "Rúbricas y materiales. Incluso artículos «iguales» pertenecen a secciones temáticas — más fácil crecer enlaces internos y evitar huérfanos.",
+      ],
+    },
+    {
+      title: "Tienda online",
+      level: 3,
+      paras: [
+        "Categorías → subcategorías → fichas de producto, más filtros sin duplicados infinitos de URL. Parte el catálogo como busca la gente (tipo de producto, job to be done) — no solo como está organizado el almacén.",
+        "Antes de rellenarlo: trabajo de nicho y keywords, un mapa de enlaces internos, un sitemap y un esquema de secciones bajo los clusters.",
+      ],
+      lists: [
+        {
+          intro: "Antes de arrancar el contenido:",
+          items: [
+            "analizar nicho y demanda",
+            "planificar el enlazado interno",
+            "montar un sitemap",
+            "aprobar el esquema de secciones contra el set de keywords",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué hacer cuando la estructura está fijada",
+      level: 2,
+      paras: [
+        "Siguiente: keywords por landing, copy y meta, luego técnica (indexación, velocidad, códigos de estado). La estructura sin set de keywords y auditorías envejece rápido. Preparar el marco puede llevar semanas; el crecimiento de ranking del set se planifica en 2–6 meses tras arrancar el trabajo — la jerarquía sola no te pone en primera página.",
+      ],
+      links: [
+        {
+          label: "Research de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+  ],
+};

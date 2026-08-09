@@ -156,3 +156,161 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for optimizatsiya-konversii — same structure as RU JSON / EN. */
+export const optimizatsiyaKonversiiEs: BlogPost = {
+  slug: "optimizatsiya-konversii",
+  title: "Optimización de la tasa de conversión: cómo medirla y qué probar",
+  date: "2021-09-13",
+  category: "Digital marketing",
+  cover: "/images/blog/optimizatsiya-konversii/cover.webp",
+  excerpt:
+    "Qué es la tasa de conversión, cómo calcularla, cómo trabajar el funnel y qué hipótesis probar — formularios, CTAs, velocidad, confianza — sin mitos sobre la «conversión media de internet».",
+  lead: [
+    "La conversión es la cuota de visitantes que completan una acción objetivo: lead, compra, llamada, alta. Se mide en porcentaje y se mejora con edits enfocados — no con «más presupuesto de ads».",
+    "Abajo: la fórmula, el funnel, hipótesis de UX y contenido, y tests A/B. Las cifras de «conversión media del nicho» de roundups viejos son pistas brutas — no tu KPI.",
+  ],
+  faq: [
+    {
+      q: "¿Cómo se calcula la conversión?",
+      a: "Acciones objetivo ÷ visitas (o sesiones) × 100%. Fija qué cuenta como goal y mide en una sola herramienta (analytics / GA4 / CRM).",
+    },
+    {
+      q: "¿Qué tasa de conversión es «normal»?",
+      a: "Depende del nicho, el tráfico y la complejidad del trato. Compárate contigo: semana a semana, canal a canal — no con el «9% en social» de otro.",
+    },
+    {
+      q: "¿Arreglo primero el tráfico o la conversión?",
+      a: "Con tráfico caro y un funnel con fugas, arregla primero la conversión. Con tráfico mínimo el A/B no tiene sentido — crece volumen y quita barreras obvias en paralelo.",
+    },
+    {
+      q: "¿Siempre hace falta un test A/B?",
+      a: "Para edits pequeños con poco tráfico, a menudo bastan before/after y sentido común. Lanza A/B cuando tengas volumen y una hipótesis clara.",
+    },
+    {
+      q: "¿Los formularios con muchos campos cortan la conversión?",
+      a: "Sí — campos obligatorios de más. Captura el mínimo para el primer contacto; los detalles tras la respuesta del manager.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es la conversión",
+      level: 2,
+      paras: [
+        "La tasa de conversión (CR) son las acciones objetivo divididas por las visitas en un periodo. Tú defines el goal: pedido, lead, demo, suscripción.",
+        "Mira también microconversiones: toque de teléfono, terminar un bloque clave, añadir al carrito — muestran dónde se rompe el camino.",
+      ],
+      lists: [
+        {
+          intro: "Ejemplo:",
+          items: [
+            "3.000 visitas al landing",
+            "150 altas",
+            "CR = 150 ÷ 3.000 × 100% = 5%",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Estrategia antes de tests de botones",
+      level: 2,
+      paras: [
+        "Sin conocer la audiencia y la oferta, un cambio de color del CTA rara vez te salva. Primero: quién llega, qué promete el anuncio o la búsqueda, si el landing encaja.",
+        "En analytics (GA4, Yandex Metrika y similares) mira fuentes, dispositivos, páginas de salida, goals. El contenido pegajoso debe llevar a un paso comercial sin bait-and-switch.",
+      ],
+      lists: [
+        {
+          intro: "Si las páginas no aguantan:",
+          items: [
+            "refrescar sentido y prueba",
+            "arreglar enlaces y formularios rotos",
+            "aclarar el CTA",
+            "cortar ruido visual",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Textos de venta",
+          href: "/es/blog/prodayushchie-teksty/",
+        },
+      ],
+    },
+    {
+      title: "Funnel y producto",
+      level: 2,
+      paras: [
+        "Camino clásico: awareness → interés → comparación → acción. En un sitio es la ruta del primer pantallazo al lead o al pago. Un eslabón flojo mata todo lo de abajo.",
+        "Un descuento del 5% hace tiempo que no es una palanca universal. Más fuerte: valor claro, demo o presupuesto, garantías, prueba social, respuesta rápida.",
+      ],
+      lists: [
+        {
+          intro: "Alinea producto y audiencia:",
+          items: [
+            "oferta = dolor de la audiencia",
+            "precio y plazo claros antes del formulario",
+            "un siguiente paso sin «rellena 12 campos»",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Hipótesis: formularios, CTAs, velocidad, confianza",
+      level: 2,
+      paras: [
+        "Los heatmaps y las grabaciones de sesión muestran dónde se hace clic y dónde se cae. Luego — una hipótesis y una medición.",
+      ],
+      tables: [
+        {
+          caption: "Palancas típicas de CR",
+          headers: ["Zona", "Qué probar", "Riesgo"],
+          rows: [
+            ["Formulario", "Menos campos, ventana de respuesta clara", "Cualificación de leads más floja"],
+            ["CTA", "Copy de beneficio, contraste, repetir junto a la oferta", "Ruido si hay demasiados botones"],
+            ["Velocidad", "Compresión, caché, layout móvil", "Hace falta un developer"],
+            ["Confianza", "Reseñas, casos, garantía, contactos", "Reseñas falsas peor que ninguna"],
+            ["Contenido", "Listas, hechos, menos banners basura", "Cortar valor solo por «ser más corto»"],
+          ],
+        },
+      ],
+      lists: [
+        {
+          intro: "Práctica del formulario:",
+          items: [
+            "nombre + contacto + esencia",
+            "pistas y errores de validación",
+            "gracias con un SLA real",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Formulario de contacto",
+          href: "/es/blog/forma-obratnoy-svyazi/",
+        },
+      ],
+      notes: [
+        {
+          title: "Tip práctico",
+          kind: "tip",
+          text: "Retrasos de carga de unos segundos pegan fuerte al CR. Móvil no es un desktop encogido — es un camino aparte del dedo hasta el botón.",
+        },
+      ],
+    },
+    {
+      title: "Tests A/B — y cuándo saltártelos",
+      level: 2,
+      paras: [
+        "Split: dos variantes de un cambio, tráfico partido, mide el goal. Cambia una cosa a la vez. Una semana «a ojo» sin volumen no es un test.",
+        "Con poco tráfico, primero quita barreras obvias (formulario roto, LCP de cinco segundos, sin teléfono). Luego escala experimentos.",
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "La optimización de conversión es un bucle: goal → datos → hipótesis → edit → medir. Cuenta el CR con honestidad, arregla funnel y confianza, no copies porcentajes ajenos. Ads sin un landing que convierte solo encarecen el clic.",
+      ],
+    },
+  ],
+};

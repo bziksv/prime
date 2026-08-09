@@ -150,3 +150,154 @@ export const ideiKontentProdvizheniyaEn: BlogPost = {
     "prodayushchiy-kontent",
   ],
 };
+
+/** ES overlay for idei-kontent-prodvizheniya — same structure as RU JSON. */
+export const ideiKontentProdvizheniyaEs: BlogPost = {
+  slug: "idei-kontent-prodvizheniya",
+  title: "Ideas para promoción del sitio basada en contenido",
+  date: "2019-08-13",
+  category: "Content marketing",
+  cover: "/images/blog/idei-kontent-prodvizheniya/cover.webp",
+  excerpt:
+    "Formatos de contenido para tráfico orgánico y confianza: how-tos, guías para principiantes, research, experiencia, reviews y desmontar mitos — sin promesas de «primera línea de Google».",
+  lead: [
+    "La promoción basada en contenido significa responder preguntas de la audiencia en un blog y base de conocimiento: eso crece el tráfico orgánico y la confianza en la expertise. No es tráfico gratis a golpe de botón — es trabajo sistemático de temas y calidad.",
+    "Abajo: formatos de ideas que funcionan. Matriz y calendario van aparte; aquí — qué escribir para cubrir demanda y reforzar la marca.",
+  ],
+  faq: [
+    {
+      q: "¿Por dónde empezar si aún no hay blog?",
+      a: "Con FAQ y 5–10 how-tos sobre preguntas frecuentes de clientes. Luego guías y reviews.",
+    },
+    {
+      q: "¿Una guía garantiza rankings?",
+      a: "No. Un material fuerte sube las probabilidades cuando encajan tech, enlaces e intent — pero no promete el primer puesto.",
+    },
+    {
+      q: "¿Hacen falta infografías?",
+      a: "Como vía para explicar un proceso — sí. No son obligatorias en cada artículo; importan más claridad y hechos.",
+    },
+    {
+      q: "¿Las historias personales son SEO?",
+      a: "Rara vez vía keywords en directo. Sí sostienen atención, apoyan E-E-A-T y crean motivos de share.",
+    },
+    {
+      q: "¿Se pueden monetizar los reviews?",
+      a: "Sí, con etiquetado honesto de ads/afiliados y experiencia real. El engaño nativo se pilla rápido.",
+    },
+    {
+      q: "¿De dónde salen los temas?",
+      a: "Consultas de clientes, búsqueda/suggest, competidores, tus managers. No solo lo que brilló en trends.",
+    },
+    {
+      q: "¿En qué se diferencia de una matriz de contenido?",
+      a: "La matriz es un sistema de etapa/objetivo/canal. Aquí — un set de formatos de ideas para rellenarla.",
+    },
+  ],
+  sections: [
+    {
+      title: "Instrucciones how-to",
+      level: 2,
+      paras: [
+        "La gente rara vez lee el manual de papel — busca una respuesta. Cubre problemas típicos en el sitio: FAQ y artículos how-to con un headline de pregunta clara.",
+        "Mira queries reales de la audiencia y suma tips de uso de tu producto. Ejemplo: «Cómo conseguir una garantía bancaria» para una firma de nicho — si la pieza es honesta y completa.",
+      ],
+      notes: [
+        {
+          title: "Sin magia de ranking",
+          kind: "tip",
+          text: "Entrar en un knowledge panel o en resultados de la primera página depende de calidad, competencia y el sitio en conjunto — no de un wording de suerte.",
+        },
+      ],
+      links: [
+        {
+          label: "Cómo escribir un artículo",
+          href: "/es/blog/kak-napisat-statyu/",
+        },
+      ],
+    },
+    {
+      title: "Guías para principiantes",
+      level: 2,
+      paras: [
+        "Un formato «desde cero» a menudo captura demanda informativa amplia. Desglosa pasos, términos y errores de principiante.",
+        "Una infografía o diagrama de proceso ayuda al scan. Editores online (Canva y similares) aceleran lo visual — sentido y hechos ganan a la plantilla.",
+      ],
+    },
+    {
+      title: "Guías profundas",
+      level: 2,
+      paras: [
+        "Los expertos quieren «todo sobre el tema»: instrucciones, guías, «todo lo que hay que saber». Respalda las afirmaciones con números y fuentes; chequea frescura.",
+        "Research original o un resumen con datos permitidos puede ganar enlaces y confianza. Indica periodo y método — o es solo marketing.",
+      ],
+      lists: [
+        {
+          intro: "Patrones de headline:",
+          items: [
+            "Cómo…",
+            "Guía completa de…",
+            "Guía: …",
+            "Qué saber de… antes de elegir",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Longread",
+          href: "/es/blog/longrid/",
+        },
+        {
+          label: "E-A-T en copywriting",
+          href: "/es/blog/eat-kopirayting/",
+        },
+      ],
+    },
+    {
+      title: "Experiencia personal y casos",
+      level: 2,
+      paras: [
+        "Las historias de práctica no sustituyen la estructura de keywords, pero refuerzan el vínculo de marca y la retención. Muestra un día ordinario de trabajo, un desglose de tarea, límites honestos.",
+        "La intriga encaja cuando lleva a utilidad — no clickbait sin respuesta.",
+      ],
+    },
+    {
+      title: "Reviews y desmontar mitos",
+      level: 2,
+      paras: [
+        "Review de producto/servicio: qué es, para quién, pros/contras, precio, dónde comprar. Una lista honesta de contras construye confianza.",
+        "Desmontar mitos del nicho es un gancho fuerte: reúne ideas erróneas de clientes y respóndelas con hechos. La utilidad práctica gana a un show.",
+      ],
+      links: [
+        {
+          label: "Review en vídeo de producto",
+          href: "/es/blog/video-obzor-tovara/",
+        },
+        {
+          label: "Matriz de contenido",
+          href: "/es/blog/matritsa-kontenta/",
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "Las ideas sin sistema se queman rápido — ata formatos a audiencia y etapas del journey.",
+        "Apertura y utilidad construyen confianza mejor que promesas vacías de «hazte experto en una semana».",
+        "Lo orgánico crece de respuestas regulares a la demanda — no de un post viral.",
+      ],
+    },
+  ],
+  closing: [
+    "Lista diez preguntas de clientes del último mes y cubre tres con un how-to o FAQ — más rápido que un «necesitamos un blog» abstracto.",
+  ],
+  related: [
+    "matritsa-kontenta",
+    "kontent-plan",
+    "kak-napisat-statyu",
+    "longrid",
+    "eat-kopirayting",
+    "prodayushchiy-kontent",
+  ],
+};

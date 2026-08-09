@@ -177,3 +177,181 @@ export const pozdravlenieKlientaEn: BlogPost = {
     "A good greeting is on time, by name, and without fakeness. Scale comes from template blocks and CRM; warmth comes from specifics and living language — not poetry and an aggressive promo code.",
   ],
 };
+
+/** ES overlay for pozdravlenie-klienta — same structure as RU JSON / EN. */
+export const pozdravlenieKlientaEs: BlogPost = {
+  slug: "pozdravlenie-klienta",
+  title: "Cómo felicitar el cumpleaños a un cliente: email, SMS y B2B",
+  date: "2020-06-29",
+  category: "Email marketing",
+  cover: "/images/blog/pozdravlenie-klienta/cover.webp",
+  excerpt:
+    "Cómo escribir felicitaciones de cumpleaños a clientes: tono, personalización, plantillas de email y SMS, nota personal del manager y B2B — sin ads agresivos.",
+  lead: [
+    "El cumpleaños de un cliente es una oportunidad de mantener el contacto sin una venta dura. Líneas plantilla «¡Estimado cliente!» y poesía de generador molestan más a menudo de lo que construyen lealtad.",
+    "Abajo: cuatro escenarios que funcionan — un email de la empresa, un mensaje personal del manager, un SMS corto y una felicitación a empresa partner. Foco en tono y personalización, no en un descuento de checkbox.",
+  ],
+  faq: [
+    {
+      q: "¿Hace falta un descuento en cada felicitación?",
+      a: "No. A veces basta un texto cálido. Un código promo encaja cuando no ahoga la felicitación ni se lee como spam.",
+    },
+    {
+      q: "¿Es obligatorio el nombre en el subject y el body?",
+      a: "Sí si los datos son correctos. Un nombre equivocado es peor que una felicitación genérica. Revisa el CRM antes de un auto-envío.",
+    },
+    {
+      q: "¿Cuándo enviar la felicitación?",
+      a: "El día del cumpleaños en la zona horaria cómoda del cliente, preferible por la mañana. Llegar una semana tarde mata el sentido.",
+    },
+    {
+      q: "¿Email o SMS?",
+      a: "Email para copy más largo. SMS/mensajero para notas cortas si el cliente ya habla contigo ahí y tienes consentimiento de mensajes.",
+    },
+    {
+      q: "¿Puedo enviar el mismo texto en masa?",
+      a: "Técnicamente sí; por efecto — débil. Arma bloques (intro / deseo / cierre) para que las combinaciones no se repitan.",
+    },
+    {
+      q: "¿Y los datos personales en las felicitaciones?",
+      a: "La fecha de nacimiento es dato personal. Guárdala y úsala bajo consentimiento y política de la empresa; no compres «bases de cumpleaños».",
+    },
+    {
+      q: "¿Un generador de poesía vale para felicitaciones de negocio?",
+      a: "Para mail de negocio suele no: suena falso. Un lenguaje vivo y simple funciona mejor.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué felicitar — y dónde está la línea",
+      level: 2,
+      paras: [
+        "El objetivo es mostrar que el cliente no es «una fila del CRM» y mantener el contacto con suavidad. Una felicitación no sustituye el servicio ni arregla un producto débil.",
+        "La línea: no te pongas excesivamente familiar con una lista fría, no empujes una compra en cada párrafo, no escribas a quien no consintió mailings.",
+      ],
+      lists: [
+        {
+          intro: "Antes de un auto-envío revisa:",
+          items: [
+            "existen consentimiento y un contacto actual",
+            "nombre y fecha son correctos",
+            "el tono encaja con el nicho (B2B ≠ tienda infantil)",
+            "el email tiene camino de baja",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Una carta de la empresa",
+      level: 2,
+      paras: [
+        "Una felicitación corporativa escala bien. Para no sonar a copy-paste, reúne 8–12 variantes por parte y combina: intro, deseo, cierre.",
+        "Usa el nombre. «Estimado cliente» se lee al instante como bot. Mantén el lenguaje simple; el «estilo alto» se siente falso. Humor — con cuidado y on-brand.",
+      ],
+      lists: [
+        {
+          intro: "Estructura del email:",
+          items: [
+            "nombre y saludo en la primera línea",
+            "1–2 deseos cálidos y al punto (éxito, descanso, equipo)",
+            "un cierre corto del equipo / headcount",
+            "opcional — una oferta suave sin presión",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Ejemplo de tono",
+          text: "«¡Feliz cumpleaños, Ana! De nuestro equipo — éxito en el trabajo y más fines de semana tranquilos. Que el día sea con personas que te valoran. El equipo de «…», 12 personas.»",
+        },
+      ],
+    },
+    {
+      title: "Una felicitación personal del manager",
+      level: 2,
+      paras: [
+        "Una nota personal gana a una plantilla cuando hay concretos: una fortaleza del cliente, un momento compartido de trabajo, un deseo sincero. Sin eso vuelve a ser un stub.",
+        "Algoritmo simple: escribe por qué valoras a la persona → recuerda un momento vivo de colaboración → añade un deseo con tus palabras y una firma.",
+      ],
+      lists: [
+        {
+          intro: "Qué añadir en una carta personal:",
+          items: [
+            "un agradecimiento concreto (no «por la cooperación en general»)",
+            "un detalle del proyecto o de una conversación",
+            "un deseo sin fluff burocrático",
+            "nombre y rol del remitente",
+          ],
+        },
+      ],
+    },
+    {
+      title: "SMS y mensajes cortos",
+      level: 2,
+      paras: [
+        "El espacio del SMS es estrecho: nombre, saludo, un deseo, firma de marca. Líneas largas de «que se cumplan todos los sueños» y poesía casi siempre se ven plantilla.",
+        "Escribe sobre este día, no sobre un «futuro brillante» abstracto. Si el canal es un mensajero, valen las mismas reglas de brevedad; no adjuntas un deck pesado «como regalo».",
+      ],
+      lists: [
+        {
+          intro: "Mejor no:",
+          items: [
+            "poesía y rimas de generador",
+            "un muro de deseos para cada caso de la vida",
+            "un descuento agresivo sin contexto",
+            "enviar sin consentimiento de SMS",
+          ],
+        },
+      ],
+    },
+    {
+      title: "B2B: aniversario de empresa o cumpleaños del decision-maker",
+      level: 2,
+      paras: [
+        "Para una persona jurídica encajan dos vías: una felicitación personal al decision-maker y una nota de aniversario de la empresa. En la segunda, muestra que conoces su producto y servicio — no un genérico «éxito y prosperidad».",
+        "Menciona colaboración real: eventos, calidad, plazos. Los dueños prefieren concretos a clichés corporativos.",
+      ],
+      lists: [
+        {
+          intro: "En una carta B2B funcionan bien:",
+          items: [
+            "nombre (y forma de trato local si aplica)",
+            "un hecho sobre su negocio (no inventado)",
+            "gracias por proyectos compartidos",
+            "un deseo de desarrollo sin sermones",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Proceso en CRM y tools de email",
+      level: 2,
+      paras: [
+        "La automatización ayuda a no olvidar fechas. La automatización sin limpiar la base crea nombres equivocados y «felicitaciones» a clientes churned.",
+        "Monta un segmento «tiene fecha + consentimiento + cliente activo», varias variantes de texto y un spot-check humano. Para VIP — una tarea al manager para un mensaje personal, no solo un trigger de email.",
+      ],
+      lists: [
+        {
+          intro: "Mini proceso:",
+          items: [
+            "campo de fecha de nacimiento en CRM",
+            "consentimiento del canal",
+            "trigger N horas antes de la fecha",
+            "A/B o rotación de plantillas",
+            "reporte: open/click sin empujar un KPI de «vender en el cumpleaños»",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Reporting al cliente",
+          href: "/es/blog/otchet-klientu/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Una buena felicitación llega a tiempo, por nombre y sin falsedad. La escala viene de bloques de plantilla y CRM; el calor, de concretos y lenguaje vivo — no de poesía y un código promo agresivo.",
+  ],
+};

@@ -147,3 +147,151 @@ export const redirektEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for redirekt — same structure as RU JSON / EN. */
+export const redirektEs: BlogPost = {
+  slug: "redirekt",
+  title: "Redirects del sitio: 301, 302 y cuándo usar cada uno",
+  date: "2021-08-24",
+  category: "SEO",
+  cover: "/images/blog/redirekt/cover.webp",
+  excerpt:
+    "Qué son los redirects, en qué se diferencia 301 de 302/307, cuándo unificar www y HTTPS, cómo evitar cadenas y cuándo canonical gana a un redirect.",
+  lead: [
+    "Un redirect es una respuesta 3xx del servidor que manda al navegador o crawler a otra URL. Así se pegan espejos, se mudan secciones y se arreglan enlaces viejos.",
+    "Abajo: los códigos que importan para SEO, trabajos cotidianos con 301, en qué se diferencian los redirects de rel=canonical y errores como cadenas o aterrizar en la página equivocada. Tras cada cambio, vuelve a revisar códigos de estado en `.htaccess` o nginx.",
+  ],
+  faq: [
+    {
+      q: "¿Qué redirect importa más para el SEO?",
+      a: "301 Moved Permanently — mudanza permanente. Los buscadores pasan señales poco a poco a la URL nueva.",
+    },
+    {
+      q: "¿Cuándo usar 302 o 307?",
+      a: "Cuando la mudanza es temporal (promo, test, mantenimiento). Para un cambio permanente de dominio o slug — 301.",
+    },
+    {
+      q: "¿Redirect o canonical?",
+      a: "Canonical dice «prefiere esta URL», pero la vieja puede seguir abierta. Un 301 mueve al usuario y señala la mudanza con más fuerza. URLs muertas tras una migración → 301.",
+    },
+    {
+      q: "¿Las cadenas de redirects son malas?",
+      a: "Sí: A→B→C→D cuesta velocidad y a veces señal. Apunta a un solo salto: A→C.",
+    },
+    {
+      q: "¿Sigue haciendo falta Host en robots.txt?",
+      a: "Espejos y host principal se fijan ahora en las tools de webmaster. No te apoyes en guías desfasadas que aún empujan Host en robots.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es un redirect",
+      level: 2,
+      paras: [
+        "El cliente pide la URL A; el servidor responde «mira B» con un código 3xx. El navegador abre B; los crawlers tienen en cuenta el tipo de redirect para crawl y consolidación de URLs.",
+      ],
+      lists: [
+        {
+          intro: "Por qué los usan los sitios:",
+          items: [
+            "unificar http/https y www/sin-www",
+            "mudar una sección o todo el dominio",
+            "cambiar extensiones o slugs",
+            "limpiar barras extra y URLs basura",
+          ],
+        },
+      ],
+    },
+    {
+      title: "301, 302, 307 — cuál elegir",
+      level: 2,
+      paras: [
+        "301 significa «moved permanently» — la herramienta principal para unificaciones y migraciones. 302 Found y 307 Temporary Redirect son temporales; el peso de ranking suele quedarse más en la URL origen.",
+        "Otros códigos 3xx (300, 303, 304, 305…) rara vez piden ajuste a mano en el SEO del día a día — cache, proxies, negociación de contenido. No los confundas con 301.",
+      ],
+      tables: [
+        {
+          caption: "Vista rápida",
+          headers: ["Código", "Significado", "Caso típico"],
+          rows: [
+            ["301", "Permanente", "Slug nuevo, dominio nuevo, https"],
+            ["302 / 307", "Temporal", "Promo, A/B, mantenimiento"],
+            ["canonical", "No es redirect", "Duplicados que deben seguir abiertos"],
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Las afirmaciones viejas de que «el link juice se transfiere solo» son folklore. Mira indexación en Search Console / webmaster tools y el tráfico a la URL nueva.",
+        },
+      ],
+    },
+    {
+      title: "Cuándo usar 301",
+      level: 2,
+      paras: [
+        "Unifica espejos a un host canónico (HTTPS más la variante www elegida). Si no, la búsqueda ve URLs distintas con el mismo contenido.",
+        "Para mudanza de sitio o sección: mapea viejo→nuevo y evita cadenas largas. Una migración de CMS que conserve el sentido de las URLs también debe hacer 301 desde las direcciones viejas.",
+      ],
+      lists: [
+        {
+          intro: "Checklist tras configurar:",
+          items: [
+            "homepage y 5–10 URLs clave resuelven en un salto",
+            "sin redirects hacia un 404",
+            "sitemap actualizado a URLs finales",
+            "en Search Console / webmaster tools, marca la mudanza o el espejo principal tras un cambio de dominio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SSL y HTTPS",
+          href: "/es/blog/ssl-sertifikat/",
+        },
+        {
+          label: "Sacar páginas del índice",
+          href: "/es/blog/zakrytie-ot-indeksatsii/",
+        },
+      ],
+    },
+    {
+      title: "Cómo configurar y verificar",
+      level: 2,
+      paras: [
+        "En Apache, las reglas suelen vivir en `.htaccess` (RewriteRule). En nginx, usa `return 301` / `rewrite`. Los generadores ayudan a principiantes — siempre verifica el resultado tú.",
+        "Tras editar, recorre homepage, páginas clave de servicio, bookmarks viejos y enlaces externos. Revisa el código de estado en DevTools o con `curl -I`.",
+      ],
+      lists: [
+        {
+          intro: "Qué evitar:",
+          items: [
+            "cadenas de varios redirects",
+            "301s entre páginas con intent distinto (variantes talla/color en un catálogo)",
+            "redirects a una página irrelevante o vacía",
+            "302s temporales donde la mudanza ya es permanente",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Redirect vs canonical",
+      level: 2,
+      paras: [
+        '`rel="canonical"` marca la URL preferida entre copias disponibles. Un usuario aún puede abrir la dirección no canónica.',
+        "Si la URL vieja no debería existir ya — 301. Si hace falta duplicados por UX (filtros, params) pero solo uno debe indexar — preferible canonical más controles de indexación cuidadosos.",
+      ],
+      lists: [],
+    },
+    {
+      title: "En resumen",
+      level: 2,
+      paras: [
+        "Los redirects ordenan URLs: mudanzas permanentes → 301, temporales → 302/307, sin cadenas, sin cambiar el intent de página. Alinea espejos HTTPS/www y revisa respuestas tras cada deploy.",
+      ],
+      lists: [],
+    },
+  ],
+};

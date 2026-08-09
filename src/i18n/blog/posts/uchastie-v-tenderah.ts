@@ -142,3 +142,146 @@ export const uchastieVTenderahEn: BlogPost = {
     "prodvizhenie-brenda",
   ],
 };
+
+/** ES overlay for uchastie-v-tenderah — same structure as RU JSON / EN. */
+export const uchastieVTenderahEs: BlogPost = {
+  slug: "uchastie-v-tenderah",
+  title: "Participar en licitaciones: por qué una agencia debería, formatos y cuándo parar",
+  date: "2019-08-22",
+  category: "Digital marketing",
+  cover: "/images/blog/uchastie-v-tenderah/cover.webp",
+  excerpt:
+    "Por qué una agencia de marketing debería sumarse a compras, qué formatos existen, qué revisar en la documentación y señales de una licitación «de escaparate» — sin prometer una victoria fácil.",
+  lead: [
+    "Un comprador grande rara vez elige proveedor solo por un sitio bonito: a menudo hace falta un concurso o una compra. Para una agencia es un canal de crecimiento — y el riesgo de gastar semanas en una licitación ya decidida.",
+    "Abajo: por qué participar, qué formatos aparecen, qué revisar en los docs y cuándo retirarse. Es un overview de práctica B2B de servicios (incluidos ads), no asesoría legal — comprueba las reglas actuales de la plataforma y la ley local de contratación pública.",
+  ],
+  faq: [
+    {
+      q: "¿Las licitaciones son obligatorias para una agencia?",
+      a: "No. Pero sin ellas es más difícil llegar a compradores grandes y del sector público. Puedes crecer con referidos y charlas directas — las licitaciones amplían el embudo; no sustituyen las ventas.",
+    },
+    {
+      q: "¿Por dónde debe empezar un principiante?",
+      a: "Acreditación en una o dos plataformas, un set de documentos de la empresa, casos y contabilidad en calma. No tomes una compra con brief de cien páginas en la primera semana.",
+    },
+    {
+      q: "¿Las licitaciones públicas y comerciales son lo mismo?",
+      a: "No. Las públicas son más estrictas en procedimiento y docs. Las plataformas comerciales y los RFP del cliente son más flexibles, pero las reglas siguen en el contrato y el reglamento de la plataforma.",
+    },
+    {
+      q: "¿Una victoria está garantizada al precio más bajo?",
+      a: "No. Los compradores miran experiencia, equipo, garantía de oferta y calidad de la propuesta. Dumping sin margen a menudo lleva a un contrato a pérdida.",
+    },
+    {
+      q: "¿Cómo detectar una compra falsa?",
+      a: "Plazo demasiado corto, agujeros en el brief, métricas clave ocultas con KPIs duros, sin contacto para preguntas. Si hay duda — no gastes el recurso.",
+    },
+    {
+      q: "¿Hace falta firma electrónica?",
+      a: "Para compras públicas electrónicas y muchas plataformas de e-trading — sí. Comprueba el tipo de firma y la acreditación en la plataforma elegida.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué participar",
+      level: 2,
+      paras: [
+        "Una licitación abre compradores que una llamada en frío no cierra: gran empresa, sector público, cadenas. Incluso una pérdida a veces da entendimiento del mercado y briefs de competidores.",
+        "La contraparte es trabajo: docs, garantía de oferta, economía. Súmate donde puedas entregar el contrato sin romper el cash-flow.",
+      ],
+      lists: [
+        {
+          intro: "Beneficios para una agencia:",
+          items: [
+            "visibilidad ante compradores grandes",
+            "un camino formal hacia una shortlist",
+            "práctica empaquetando casos y procesos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Documentos y términos",
+      level: 2,
+      paras: [
+        "Base: documentos de constitución, IDs fiscales, a menudo reporting y prueba de experiencia. Nichos estrechos pueden pedir licencias y certificados del staff. Algunos compradores miran cuánto lleva existiendo la empresa (por ejemplo, 3+ años) — revisa el aviso.",
+        "Antes de ofertar, lee el borrador de contrato: plazos de pago, penalizaciones, KPIs, alcance. El importe del brief y del contrato a veces divergen — mételo en tu pricing.",
+      ],
+    },
+    {
+      title: "Qué formatos existen",
+      level: 2,
+      paras: [
+        "En la práctica encuentras compras públicas en e-plataformas, subastas electrónicas inversas (precio a la baja), plataformas comerciales de licitaciones con suscripción o fee de acceso, y mailings directos del cliente que dicen «envía una propuesta».",
+        "Licitaciones abiertas — casi cualquiera puede aplicar; cerradas — por invitación. Los nombres y reglas de las plataformas cambian: usa la lista actual de e-plataformas y filtros por región, presupuesto y tema.",
+      ],
+      lists: [
+        {
+          intro: "Antes de enviar:",
+          items: [
+            "acreditación y firma electrónica si hace falta",
+            "estimación de trabajo para la oferta",
+            "economía del contrato con buffer",
+            "preparación para cumplir el SLA del contrato",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "No es asesoría legal",
+          text: "Los procedimientos de compra pública y comercial difieren y se actualizan. Antes de sumarte, revisa el aviso, la documentación y, si hace falta, consulta a un abogado o especialista en licitaciones.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Cuándo es mejor no sumarse",
+      level: 2,
+      paras: [
+        "Hay concursos «de escaparate» con ganador conocido. Señales de riesgo: tiempo de prep de la oferta medido en días con brief pesado; faltan datos clave con KPIs duros; métricas básicas ocultas; sin canal para preguntar; «hazlo como veas» en vez de criterios.",
+        "También para si tras ganar no puedes sobrevivir al hueco de caja (trabaja ahora — cobra después) o las penalizaciones del contrato no encajan con el margen.",
+      ],
+      lists: [
+        {
+          intro: "Red flags:",
+          items: [
+            "plazo de selección de proveedor demasiado corto",
+            "agujeros en el brief con KPIs duros",
+            "sin loop de feedback para aclaraciones",
+            "economía del contrato en break-even o por debajo",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo mejorar tus odds",
+      level: 2,
+      paras: [
+        "No hay garantía de victoria. Lo que refuerza tu oferta: reputación y casos, set completo de docs, envío cuidadoso, precio justo con margen para calidad, acreditación en las plataformas correctas.",
+        "Tras ganar, entregar el contrato es crítico: faltar a plazos duele en la siguiente licitación más que una pérdida.",
+      ],
+      links: [
+        {
+          label: "Estrategia de marketing",
+          href: "/es/blog/marketingovaya-strategiya/",
+        },
+        {
+          label: "Métricas de publicidad",
+          href: "/es/blog/metriki-reklamy/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Las licitaciones son un canal hacia compradores grandes, no una lotería con garantía. Prepara docs y economía pronto, lee el contrato antes de ofertar y salta concursos con red flags claros.",
+  ],
+  related: [
+    "marketingovaya-strategiya",
+    "metriki-reklamy",
+    "skvoznaya-analitika",
+    "tochki-kontakta",
+    "omnikanalnyy-kontent-marketing",
+    "prodvizhenie-brenda",
+  ],
+};

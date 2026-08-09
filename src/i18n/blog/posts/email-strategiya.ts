@@ -1,5 +1,133 @@
 import type { BlogPost } from "../../../data/blog";
 
+/** ES overlay for email-strategiya — same structure as RU JSON. */
+export const emailStrategiyaEs: BlogPost = {
+  slug: "email-strategiya",
+  title: "Estrategia de email: del research a los lanzamientos",
+  date: "2019-12-13",
+  category: "Email marketing",
+  cover: "/images/blog/email-strategiya/cover.webp",
+  excerpt:
+    "Cómo armar una estrategia de email: auditoría de lista y métricas, producto y audiencia, competidores, plan de emails y segmentos, plantillas, tests y crecimiento de volumen — sin el mito de que el newsletter se vende solo.",
+  lead: [
+    "Una estrategia de email no es una plantilla bonita una vez a la semana — es una cadena: a quién escuchas, de qué escribes, con qué frecuencia, qué escenarios y cómo mides resultados.",
+    "Abajo: un marco de research → diseño → lanzamiento → tests. Solo listas opt-in; no usamos scraping ni listas compradas.",
+  ],
+  faq: [
+    {
+      q: "¿Por dónde empezar si aún no había emails?",
+      a: "Describe el producto y la audiencia, conecta un ESP, arma el opt-in, haz un welcome y 1–2 triggers.",
+    },
+    {
+      q: "¿Qué métricas mirar?",
+      a: "Deliverability, open rate, CTR, bajas, quejas, conversiones/ingresos. El open rate sin ventas no basta.",
+    },
+    {
+      q: "¿Cuántos emails por semana es razonable?",
+      a: "Tantos como el segmento aguante sin que suban las bajas. Mejor más relevancia que más de lo mismo a todos.",
+    },
+    {
+      q: "¿Hace falta un CRM?",
+      a: "Para crecer — sí. Al inicio un ESP y una hoja pueden servir, pero el techo de segmentación es más bajo.",
+    },
+    {
+      q: "¿Externalizar o hacerlo in-house?",
+      a: "Mantén estrategia y oferta in-house; layout y rutina pueden ir a un contratista.",
+    },
+    {
+      q: "Mito: ¿el email está muerto?",
+      a: "El canal vive con opt-in y valor. El spam a listas compradas muere.",
+    },
+    {
+      q: "¿Cuándo escalar la frecuencia?",
+      a: "Tras métricas estables en un volumen pequeño y segmentos claros — no diario a todos a la vez.",
+    },
+  ],
+  sections: [
+    {
+      title: "Etapa 1. Research",
+      level: 2,
+      paras: [
+        "Desmonta el marketing actual: cómo se armó la lista, qué datos de suscriptores tienes, cómo cambió el tamaño, qué enviaste ya y con qué open rate y CTR.",
+        "Describe el producto: rasgos, objeciones, cuándo compran y cuándo rechazan. Sin eso, los emails se quedan genéricos.",
+        "Segmentos de audiencia y competidores: qué emails reciben tus clientes de otros (suscríbete de forma legal), dónde están tus diferencias fuertes.",
+      ],
+      lists: [
+        {
+          intro: "Datos mínimos antes de una estrategia:",
+          items: [
+            "fuente de la lista y consentimiento",
+            "open rate, CTR, quejas de spam",
+            "oferta y USP",
+            "1–3 segmentos",
+            "enlace a CRM / leads (si hay)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Emails disparados",
+          href: "/es/blog/triggernye-rassylki/",
+        },
+      ],
+    },
+    {
+      title: "Etapa 2. Diseño de la estrategia",
+      level: 2,
+      paras: [
+        "Tira mitos («un email a todos», «más a menudo siempre es mejor», «basta el nombre en el asunto»). Fija objetivos: reactivación, ventas, lead nurture, servicio.",
+        "Describe la empresa en breve para el equipo: tono, temas prohibidos, CTA, quién aprueba layouts.",
+        "Dibuja un mapa de emails: digest regular, triggers, promos. Separa avisos de servicio y de marketing.",
+        "Arma plantillas y un estilo compartido: header, preheader, botón, footer con baja.",
+      ],
+      links: [
+        {
+          label: "Ejemplos de emails fuertes",
+          href: "/es/blog/primery-email-rassylok/",
+        },
+        {
+          label: "Lecciones de email de 2020",
+          href: "/es/blog/email-marketing-2020/",
+        },
+      ],
+    },
+    {
+      title: "Etapas 3–4. Lanzamiento, tests, crecimiento",
+      level: 2,
+      paras: [
+        "Lanza en un segmento estrecho. Mira deliverability y quejas antes de pulir creatividades.",
+        "A/B de asuntos y CTA, analiza bajas, limpia inactivos. Sube frecuencia y volumen solo tras una base estable de métricas.",
+        "Las herramientas (ESP, tareas, analítica) sirven al plan — no al revés.",
+      ],
+      links: [
+        {
+          label: "Herramientas del marketer",
+          href: "/es/blog/instrumenty-marketologa/",
+        },
+        {
+          label: "Lista de email con consentimiento",
+          href: "/es/blog/baza-email-socseti/",
+        },
+      ],
+    },
+  ],
+  notes: {
+    title: "Importante",
+    text: "Open rate y CTR sin ingresos no prueban el éxito de la estrategia. Trata el CRM como sistema de registro de segmentos y deals — no una hoja para siempre.",
+  },
+  closing: [
+    "Arma research → mapa de emails → piloto por segmento → tests — para que la estrategia de email sea un sistema, no otra promo caótica en el newsletter.",
+  ],
+  related: [
+    "instrumenty-marketologa",
+    "triggernye-rassylki",
+    "primery-email-rassylok",
+    "email-marketing-2020",
+    "baza-email-socseti",
+    "pochta-dlya-domena",
+  ],
+};
+
 /** EN overlay for email-strategiya — same structure as RU JSON. */
 export const emailStrategiyaEn: BlogPost = {
   slug: "email-strategiya",

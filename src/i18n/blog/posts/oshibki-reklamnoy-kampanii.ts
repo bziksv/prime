@@ -118,3 +118,122 @@ export const oshibkiReklamnoyKampaniiEn: BlogPost = {
     "trafik-bez-lidov",
   ],
 };
+
+/** ES overlay for oshibki-reklamnoy-kampanii — same structure as RU JSON / EN. */
+export const oshibkiReklamnoyKampaniiEs: BlogPost = {
+  slug: "oshibki-reklamnoy-kampanii",
+  title: "10 errores al correr una campaña de paid search",
+  date: "2018-08-06",
+  category: "Digital marketing",
+  cover: "/images/blog/oshibki-reklamnoy-kampanii/cover.webp",
+  excerpt:
+    "Paid search sin demanda, sin revisión de competidores, un presupuesto irrealista, límites débiles, keywords finas, ads irrelevantes, geo malo, extensiones sin usar, sin gestión continua y mezclar Search con Display.",
+  lead: [
+    "Los errores típicos de paid search queman presupuesto antes de que lleguen stats limpias: anunciar lo que nadie busca, keywords a ojo, un solo setup para Search y Display a la vez.",
+    "Abajo: diez misses de la práctica de auditoría y cómo evitarlos. Las UIs de Direct y Google Ads cambian; la lógica del checklist se mantiene. Las cifras de presupuesto y la duración «normal» del test dependen del nicho — una guía, no dogma.",
+  ],
+  faq: [
+    {
+      q: "Sin demanda de búsqueda — ¿entonces qué?",
+      a: "No quemes ads de búsqueda en consultas de volumen cero. Mira display, social, contenido y redes de interés si el producto es nuevo o de nicho.",
+    },
+    {
+      q: "¿Cuánto hace falta para un test?",
+      a: "A menudo semanas a un par de meses con un tope diario sensato para que se formen las stats. «Máximos leads por céntimos desde el día uno» es irrealista en un nicho competitivo.",
+    },
+    {
+      q: "¿Una keyword — un ad?",
+      a: "Apunta a alta relevancia entre cluster y ad. La fórmula rígida «exactamente una keyword» está desfasada en campañas smart, pero el sentido es el mismo: no tires todo en un montón.",
+    },
+    {
+      q: "¿Search y Display juntos?",
+      a: "Suele partirse: semántica, creativos, pujas y KPIs distintos. Mezclar rompe la optimización.",
+    },
+    {
+      q: "¿Hacen falta extensiones de ad?",
+      a: "Sí donde estén disponibles: suben visibilidad y añaden detalle. Comprueba los tipos actuales en la cuenta.",
+    },
+    {
+      q: "¿Se pueden montar ads y olvidarlos?",
+      a: "No. Hacen falta negatives, limpieza off-target, tests de creativo y control de límites — o el presupuesto se filtra.",
+    },
+  ],
+  sections: [
+    {
+      title: "Demanda, competidores y presupuesto",
+      level: 2,
+      paras: [
+        "Lanzar un producto sin demanda de búsqueda es un desperdicio: no hay conjunto de keywords que comprar. Para productos nuevos, los formatos de reach y las redes a menudo funcionan mejor que solo búsqueda caliente.",
+        "Sin revisar ads y ofertas de competidores es fácil perder en CPC y promesa. Mira resultados, USP y landing — no solo la puja.",
+        "Expectativas infladas con un presupuesto minúsculo («muchos leads de golpe en un nicho competitivo») matan el test. Paid search necesita gasto regular y de una a varias semanas o meses para aprender — no un pago único. Los caps diarios de campaña evitan quemar todo el presupuesto en un día.",
+      ],
+      lists: [
+        {
+          intro: "Antes de empezar:",
+          items: [
+            "¿hay consultas reales?",
+            "qué prometen los competidores",
+            "qué tope diario y KPI de test",
+            "la landing aguanta tráfico móvil",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría de campaña de ads",
+          href: "/es/blog/audit-reklamnoy-kampanii/",
+        },
+        {
+          label: "Pronóstico de tráfico Google Ads",
+          href: "/es/blog/prognoz-trafika-google-ads/",
+        },
+      ],
+    },
+    {
+      title: "Keywords, ads y geo",
+      level: 2,
+      paras: [
+        "Semántica débil: saltar directo a head terms y near-topics sin negatives. Empieza con clusters más estrechos, reúne stats, expande a propósito.",
+        "Un ad irrelevante para la consulta baja la calidad y sube el coste. Mantén la cadena consulta → ad → landing.",
+        "Geografía rota: impresiones donde no entregas ni atiendes, o una ciudad estrecha cuando el envío nacional tiene sentido. Fija el geo según logística y margen.",
+      ],
+      links: [
+        {
+          label: "Métricas de publicidad",
+          href: "/es/blog/metriki-reklamy/",
+        },
+        {
+          label: "ROAS",
+          href: "/es/blog/roas/",
+        },
+      ],
+    },
+    {
+      title: "Gestión, extensiones y estrategias",
+      level: 2,
+      paras: [
+        "Extensiones y formatos extra sin usar son visibilidad perdida. Activa lo vigente en la cuenta — sitelinks, callouts, imágenes y similares.",
+        "«Montar y olvidar» es un error: sin trabajo continuo crecen los clics off-target y los ads se quedan viejos.",
+        "Estrategias distintas para Search y Display: no copies un setup a ambos canales. Parte campañas y KPIs.",
+      ],
+      notes: [
+        {
+          title: "Vínculo con una auditoría",
+          kind: "tip",
+          text: "Si el caos ya se ha acumulado, es más fácil auditar estructura y economía que retocar un mal lanzamiento.",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "La mayoría de los fallos de paid search no son «clics caros» — son un inicio sin demanda, presupuesto y relevancia, más la falta de gestión continua. Cierra estos diez puntos antes de escalar pujas.",
+  ],
+  related: [
+    "audit-reklamnoy-kampanii",
+    "metriki-reklamy",
+    "roas",
+    "prognoz-trafika-google-ads",
+    "performance-marketing",
+    "trafik-bez-lidov",
+  ],
+};

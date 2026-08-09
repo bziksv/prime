@@ -183,3 +183,187 @@ export const samostoyatelnoeSeoEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for samostoyatelnoe-seo — same structure as RU JSON / EN. */
+export const samostoyatelnoeSeoEs: BlogPost = {
+  slug: "samostoyatelnoe-seo",
+  title: "SEO del sitio por tu cuenta: por dónde empezar",
+  date: "2021-04-30",
+  category: "SEO",
+  cover: "/images/blog/samostoyatelnoe-seo/cover.webp",
+  excerpt:
+    "Plan SEO DIY paso a paso para el dueño del sitio: prep, técnica, keywords, contenido y factores off-site — sin promesas de «primera página en una semana» ni compra de enlaces spam.",
+  lead: [
+    "Puedes promover un sitio tú mismo: es trabajo y disciplina, no un botón secreto. Los principiantes a menudo se lanzan a enlaces y olvidan la técnica, el set de keywords y las páginas.",
+    "Abajo: un orden de trabajo práctico más enlaces a guías más profundas. Llevar un set comercial a primera página se planifica en meses, no en días.",
+  ],
+  faq: [
+    {
+      q: "¿Es realista el SEO DIY?",
+      a: "Para un sitio simple y un nicho local — sí, si tienes tiempo para aprender. Temas muy competitivos suelen necesitar un especialista.",
+    },
+    {
+      q: "¿Con qué empiezo en el mes uno?",
+      a: "Indexación, Webmaster/Search Console, analítica, técnica, un borrador del set de keywords y landings prioritarias. No comprar enlaces.",
+    },
+    {
+      q: "¿Cuándo esperar posiciones en primera página?",
+      a: "La prep del sitio toma semanas. Construir posiciones en el set se planifica a dos a seis meses de trabajo. La prep no es una fecha de ranking.",
+    },
+    {
+      q: "¿Necesito comprar enlaces?",
+      a: "La compra masiva es un riesgo. Primero contenido y menciones naturales; enlaces — con criterio y calidad.",
+    },
+    {
+      q: "¿En qué se diferencia de «SEO desde cero»?",
+      a: "Ese artículo es un camino hacia la profesión. Este es un checklist del dueño con pasos de trabajo.",
+    },
+    {
+      q: "¿Con qué frecuencia revisar resultados?",
+      a: "Técnica y errores críticos — con regularidad; posiciones y tráfico — normalmente al mes. Juzga la dinámica por clusters de consultas e inquiries, no por una sola frase.",
+    },
+  ],
+  sections: [
+    {
+      title: "Prep y diagnóstico",
+      level: 2,
+      paras: [
+        "Fija goals (leads, llamadas, ventas), región y una lista de servicios prioritarios. Comprueba si el sitio está abierto a indexación y libre de errores críticos.",
+      ],
+      lists: [
+        {
+          intro: "Arranque:",
+          items: [
+            "Webmaster y Search Console",
+            "Yandex Metrika / analítica",
+            "señales regionales y contactos",
+            "mirada técnica: velocidad, móvil, 404, redirects",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "Optimización on-page",
+      level: 2,
+      paras: [
+        "Arma el set de keywords, la estructura de secciones y el contenido para las consultas. Title, description, headings, linking interno — tras un mapa claro de páginas.",
+      ],
+      lists: [
+        {
+          intro: "Orden:",
+          items: [
+            "set de keywords y clusters",
+            "estructura de URL y menú",
+            "copy y media en landings",
+            "snippets sin stuffing",
+            "linking interno",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Set semántico de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "SEO desde cero",
+          href: "/es/blog/seo-s-nulya/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "La prep (técnica, keywords, copy) a menudo toma cerca de un mes. La cuota del núcleo en primera página es una etapa aparte — típicamente dos a seis meses de crecimiento de posiciones tras empezar el trabajo.",
+        },
+      ],
+    },
+    {
+      title: "Off-site y analítica",
+      level: 2,
+      paras: [
+        "Menciones, partnerships y publicaciones de calidad ganan a packs de enlaces de exchange. Una vez al mes revisa posiciones del núcleo, tráfico, conversiones y errores de Webmaster.",
+      ],
+      lists: [
+        {
+          intro: "No hagas al principio:",
+          items: [
+            "compra masiva automática de enlaces",
+            "clonar el copy de otro",
+            "esperar primera página una semana tras editar Title",
+            "ignorar la versión móvil",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Caída de tráfico",
+          href: "/es/blog/snizhenie-trafika/",
+        },
+      ],
+    },
+    {
+      title: "Revisa la base técnica",
+      level: 2,
+      paras: [
+        "Los buscadores deben rastrear e indexar páginas útiles sin bloqueos. Revisa robots.txt, sitemap, códigos de estado, duplicados por parámetros, móvil, velocidad y URLs canónicas correctas. No arregles todo a la vez sin prioridades: primero quita errores que bloquean el acceso a páginas importantes.",
+        "Reúne lo básico en Yandex Webmaster y Google Search Console si el servicio encaja con tu audiencia. Muestran problemas de crawl, páginas excluidas y consultas donde el sitio ya es visible.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo crítico:",
+          items: [
+            "las páginas devuelven códigos 200, 301, 404 correctos",
+            "sin bloqueo accidental de indexación",
+            "el sitio es usable y carga en móvil",
+            "HTTPS y el espejo principal están alineados",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Arma keywords y un mapa de páginas",
+      level: 2,
+      paras: [
+        "Un set de keywords no es una lista de palabras por frecuencia — es un mapa de intención del usuario. Separa consultas informativas, comerciales y de navegación; no intentes empujar cada variante de demanda con una sola página de servicio sin intención compartida.",
+        "Tras el clustering, mapea cada grupo a una página existente o a una tarea de crear una nueva. Entonces ves dónde falta landing, dónde hace falta una pieza útil y dónde basta mejorar una URL que ya funciona.",
+      ],
+      lists: [
+        {
+          intro: "Para cada grupo fija:",
+          items: [
+            "intención y región de la consulta",
+            "página objetivo",
+            "preguntas clave del usuario",
+            "prioridad por demanda y valor de negocio",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Ejecuta el trabajo y los plazos con realismo",
+      level: 2,
+      paras: [
+        "Arma un backlog: tareas técnicas, updates de landings, contenido, linking interno y analítica. Anota fechas de cambio y efecto esperado — más fácil ver qué movió el tráfico en vez de repetir acciones al azar.",
+        "La prep del sitio — técnica, keywords, copy y CTAs — a menudo toma cerca de un mes. Los rankings crecen después y de forma desigual: un trozo notable del set puede empezar a moverse hacia los meses dos o tres, y el horizonte planificado de primera página es de dos a seis meses, sin fecha garantizada.",
+      ],
+      lists: [
+        {
+          intro: "Un informe mensual sano incluye:",
+          items: [
+            "tráfico orgánico y conversiones",
+            "visibilidad por cluster, no una frase «principal»",
+            "errores corregidos y tareas nuevas",
+            "calidad de leads y feedback de ventas",
+          ],
+        },
+      ],
+    },
+  ],
+};

@@ -117,3 +117,121 @@ export const monitoringPozitsiyEn: BlogPost = {
     "tochki-vhoda",
   ],
 };
+
+/** ES overlay for monitoring-pozitsiy — same structure as RU JSON / EN. */
+export const monitoringPozitsiyEs: BlogPost = {
+  slug: "monitoring-pozitsiy",
+  title: "¿Hace falta monitorear los rankings de búsqueda?",
+  date: "2018-10-30",
+  category: "Digital marketing",
+  cover: "/images/blog/monitoring-pozitsiy/cover.webp",
+  excerpt:
+    "Cuándo los rankings de primera página son un KPI real — y cuándo importan más tráfico, conversión y ROMI: mitos viejos de SEO, tipos de proyecto y un scorecard completo sin fecha garantizada de primera página.",
+  lead: [
+    "«¿Cuánto cuesta llegar a la primera página?» es una pregunta habitual. El SEO moderno son páginas útiles, técnica, KPIs medibles, tráfico por cluster y conversión — no comprar un slot en la SERP.",
+    "Abajo: cuándo el monitoreo de ranks hace falta de verdad, qué tipos de proyecto hacen crítica la plaza en la SERP, y por qué un rank verde no basta. La preparación del sitio y la cuota del núcleo en primera página son etapas distintas: los rankings suelen subir a lo largo de meses (a menudo 2–6) tras el arranque del trabajo — no «una semana después del contrato».",
+  ],
+  faq: [
+    {
+      q: "¿Los rankings equivalen al éxito del SEO?",
+      a: "No. El éxito son leads, ventas, ROMI / calidad del lead. Los rankings son una señal secundaria de tendencia sobre el núcleo.",
+    },
+    {
+      q: "¿Quién debe monitorear rankings?",
+      a: "Donde la visibilidad en la SERP golpea el modelo directamente: clasificados, marca fuerte vs competidores, SaaS compitiendo por alcance, proyectos con alto valor de conversión y comportamiento de «elegir entre líderes».",
+    },
+    {
+      q: "¿Métodos obsoletos pueden comprar la primera página?",
+      a: "A veces hay un pico corto, luego a menudo sanciones y un rollback. Limpiar enlaces y contenido cuesta más que construir bien desde el inicio.",
+    },
+    {
+      q: "¿Qué más mirar además de rankings?",
+      a: "Tráfico por cluster, conversión, ROMI, demanda de marca, técnica e indexación. En noticias — también alcance desde agregadores y redes.",
+    },
+    {
+      q: "¿Hace falta paid search mientras crece el SEO?",
+      a: "A menudo sí: cubre cash flow y tests de oferta mientras sube lo orgánico. Cuenta los canales por separado.",
+    },
+    {
+      q: "¿Con qué frecuencia sacar rankings?",
+      a: "Sobre el núcleo comercial — con regularidad (semana/mes), preferible con un corte móvil. No juzgues desde un día y una ciudad.",
+    },
+  ],
+  sections: [
+    {
+      title: "El estereotipo de «solo rankings»",
+      level: 2,
+      paras: [
+        "El SEO antiguo prometía empujar un par de páginas de head terms. Los algoritmos llevan tiempo cortando spam y ruido de enlaces: un pico corto de tráfico no es un negocio estable.",
+        "Tras métodos grises a menudo hay que limpiar enlaces, reescribir contenido y mirar la reacción del buscador durante un año — el presupuesto encaja con desarrollo normal. La reputación con los buscadores se recupera despacio.",
+        "Esquema de trabajo: landings útiles, KPIs de tiempo y dinero, crecimiento mid/long-tail, conversión, técnica. Los rankings suman al informe — no sustituyen la caja.",
+      ],
+      links: [
+        {
+          label: "Estrategia de promoción",
+          href: "/es/blog/strategiya-prodvizheniya/",
+        },
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "Cuándo los rankings encajan como KPI",
+      level: 2,
+      paras: [
+        "Algunos proyectos tratan la plaza en la SERP como parte del producto: tablones de clasificados, marca fuerte vs competidores, plataformas dominantes, modelos con precio desde el volumen de tráfico, SaaS compitiendo por usuarios, innovaciones sin demanda formada (hace falta visibilidad de líder).",
+        "Rasgo compartido: alto valor de conversión y una audiencia que elige entre líderes para ahorrar tiempo de comparación. Entonces monitorear el núcleo y a los competidores tiene sentido.",
+        "Para el resto el éxito se acerca más a conversión, ROMI y tráfico cualificado. El crecimiento de ranks es un resultado del trabajo — no el único objetivo. Excepciones como media cuentan alcance más allá de lo orgánico.",
+      ],
+      lists: [
+        {
+          intro: "Señales secundarias (no el objetivo principal):",
+          items: [
+            "dinámica de consultas de marca",
+            "calidad del perfil de backlinks",
+            "cuota del núcleo en los primeros 10 / primeros 3",
+            "comparación con líderes del nicho",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Preparación (técnica, copy, estructura) — semanas a alrededor de un mes. La cuota del núcleo en primera página se planifica a 2–6 meses tras el arranque del trabajo — sin garantía de fecha.",
+        },
+      ],
+      links: [
+        {
+          label: "Paid search y SEO",
+          href: "/es/blog/kontekst-i-seo/",
+        },
+        {
+          label: "ROAS",
+          href: "/blog/roas/",
+        },
+      ],
+    },
+    {
+      title: "Cómo juzgar resultados",
+      level: 2,
+      paras: [
+        "Una foto objetiva es un paquete de métricas — no un screenshot de la SERP. Lo subjetivo — «somos #3 así que todo va bien» con un funnel vacío.",
+        "El e-com grande se inclina a ROMI y conversión con tráfico con sentido. Las marcas también miran el impacto de consultas de marca. En todos lados ayuda un solo informe: rankings + tráfico + dinero.",
+      ],
+    },
+  ],
+  closing: [
+    "El monitoreo de ranks es un sensor de tendencia y competencia — sobre todo donde visibilidad = cuota de mercado. Para la mayoría de negocios, cuenta primero ventas y ROMI, y crece la presencia en primera página con constancia a lo largo de meses — sin adorar una sola posición.",
+  ],
+  related: [
+    "strategiya-prodvizheniya",
+    "tehnicheskiy-seo-audit",
+    "kontekst-i-seo",
+    "roas",
+    "snizhenie-trafika",
+    "tochki-vhoda",
+  ],
+};

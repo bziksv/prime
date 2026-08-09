@@ -174,3 +174,178 @@ export const istoriiVkontakteEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for istorii-vkontakte — same structure as RU JSON / EN. */
+export const istoriiVkontakteEs: BlogPost = {
+  slug: "istorii-vkontakte",
+  title: "Stories de VKontakte: cómo publicar y con qué llenarlas",
+  date: "2022-02-18",
+  category: "SMM",
+  cover: "/images/blog/istorii-vkontakte/cover.webp",
+  excerpt:
+    "Cómo trabajar con Stories de VK: por qué importan, encuadre del shot, publicar desde el teléfono y desde una comunidad, ideas de negocio y límites de la plataforma.",
+  lead: [
+    "Las Stories de VKontakte son un formato vertical corto en la franja sobre el feed: fotos y clips viven alrededor de un día y funcionan bien para «aquí y ahora».",
+    "Abajo: el sentido de los pasos y un marco de contenido — no una ruta de clics sobre iconos viejos. La UI de la app cambia; revisa límites actuales y acceso de la comunidad en la Help de VK.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencian las Stories de un post en el muro?",
+      a: "Vida corta, formato vertical, énfasis en urgencia y behind-the-scenes. Un post del muro vive más y encaja mejor con temas evergreen.",
+    },
+    {
+      q: "¿Puedo publicar Stories como comunidad?",
+      a: "Sí, si la comunidad tiene la función bajo las reglas actuales de VK. En el editor eliges a nombre de quién publicas — página personal o grupo.",
+    },
+    {
+      q: "¿Cuánto duran las Stories?",
+      a: "Por lo general hasta 24 horas; puedes borrar antes. Parte del material se puede guardar en highlights si la plataforma lo permite.",
+    },
+    {
+      q: "¿Hay guidelines técnicas para Stories?",
+      a: "Vertical alrededor de 1080×1920, clips cortos, tamaño de archivo moderado. Los límites exactos de VK cambian — revisa los requisitos actuales antes de una serie de vídeo.",
+    },
+    {
+      q: "¿Qué debería publicar un negocio?",
+      a: "Behind the scenes, anuncios, Q&A, mini-tips, polls, producto en uso — una idea por frame, un CTA claro.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué importan las Stories",
+      level: 2,
+      paras: [
+        "Las Stories mantienen el contacto entre posts grandes: recuerdan la marca, calientan para una promo, muestran un proceso en vivo.",
+        "El formato perdona un borrador más que el feed, pero el trabajo sigue: por qué alguien debería ver hasta el final, y qué debería hacer después.",
+      ],
+      lists: [
+        {
+          intro: "Buenos trabajos para Stories:",
+          items: [
+            "anunciar un post / live / promo",
+            "responder una pregunta frecuente",
+            "behind-the-scenes de producción o de la oficina",
+            "recoger reacciones con un poll / sticker",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Encuadrar el shot",
+      level: 2,
+      paras: [
+        "Rueda en vertical, cuida las safe zones: avatares y timer en el borde superior, botones en el inferior. Tipografía grande, una idea por pantalla.",
+        "Mantén los clips cortos: mejor una serie de 3–5 frames que un minuto sin estructura.",
+      ],
+      lists: [
+        {
+          intro: "Antes de publicar:",
+          items: [
+            "luz y audio legible (o captions)",
+            "primer frame con un gancho",
+            "CTA al final de la serie",
+            "comprueba que no rompes las reglas de VK",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "UI de la app",
+          kind: "tip",
+          text: "La entrada suele estar cerca del bloque de Stories en el feed o en la página de perfil (cámara / «añadir»). Los iconos se mueven — enseña al equipo un checklist de sentido, no «toca el botón rosa».",
+        },
+      ],
+    },
+    {
+      title: "Publicar desde el teléfono",
+      level: 2,
+      paras: [
+        "Abre el editor de Stories: rueda una foto/vídeo corto o sube desde la galería. Añade texto, stickers, un poll — con propósito, no todos los stickers a la vez.",
+        "Antes de enviar, elige la audiencia (si hay listas) y publica. Puedes borrar antes de las 24 horas vía el menú propio de la Story.",
+      ],
+      lists: [
+        {
+          intro: "Flujo básico:",
+          items: [
+            "abrir el editor de Story",
+            "rodar o elegir un archivo",
+            "añadir texto / sticker / poll",
+            "publicar y revisar el preview del feed",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Stories de la comunidad",
+      level: 2,
+      paras: [
+        "Para una página pública el flujo es el mismo, pero al final eliges publicar como la comunidad. El acceso depende del tipo de grupo y de las reglas actuales de la plataforma — si falta la opción, la función aún no está abierta o necesitas otro rol de admin.",
+        "Acordad en el equipo: un tono, una cadencia, quién responde a las reacciones.",
+      ],
+      lists: [
+        {
+          intro: "Roles:",
+          items: [
+            "quién rueda",
+            "quién aprueba ofertas y precios",
+            "quién responde por DM tras el CTA",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Ideas para el negocio",
+      level: 2,
+      paras: [
+        "No persigas lo bonito solo por las Stories. Una serie debe llevar a una acción: mensaje, responder un poll, terminar un post, visitar el local.",
+      ],
+      lists: [
+        {
+          intro: "Formatos que funcionan:",
+          items: [
+            "parte del día / del turno",
+            "producto nuevo y stock",
+            "mini tip en 3 slides",
+            "antes/después",
+            "poll «qué elegir»",
+            "recorrido de un error de cliente sin toxicidad",
+            "recordatorio de promo con deadline",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Volcar el mismo texto del post del muro en Stories sin adaptar. Las Stories necesitan frases grandes, cara/producto más grandes y un siguiente paso claro.",
+        },
+      ],
+    },
+    {
+      title: "Límites y calidad",
+      level: 2,
+      paras: [
+        "La plataforma limita la duración del clip, el peso del archivo y las publicaciones diarias. Guías tipo 1080×1920 vertical ayudan a preparar en un editor, pero revisa los límites antes de una serie grande.",
+        "El contenido no debe romper las reglas de VK: spam, temas prohibidos, contenido ajeno sin derechos — riesgo no solo para la Story, sino para la comunidad.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de calidad de la serie:",
+          items: [
+            "un tema por release",
+            "3–7 frames como máximo",
+            "texto legible sin clutter",
+            "CTA y un camino de contacto",
+            "tras 24 horas — takeaway: qué se vio / dónde hicieron clic",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Comentarios en comunidad VK",
+          href: "/es/blog/kommentarii-v-pablike-vk/",
+        },
+      ],
+    },
+  ],
+};

@@ -140,3 +140,144 @@ export const cheklistSaytaEn: BlogPost = {
     "aydentika-brenda",
   ],
 };
+
+/** ES overlay for cheklist-sayta — same structure as RU JSON / EN. */
+export const cheklistSaytaEs: BlogPost = {
+  slug: "cheklist-sayta",
+  title: "Checklist del sitio: lo imprescindible antes del lanzamiento y la auditoría",
+  date: "2018-09-24",
+  category: "Websites",
+  cover: "/images/blog/cheklist-sayta/cover.webp",
+  excerpt:
+    "Velocidad, HTTPS, URLs limpias, páginas 404, layout responsive, contactos, oferta, formularios, reseñas, política de privacidad y otros bloques — un checklist práctico sin pánico de «50 ítems o fracaso».",
+  lead: [
+    "Los sitios de pequeños negocios difieren, pero se repite una base: el sitio debe cargar rápido, tener sentido en el móvil, generar confianza y llevar a la acción.",
+    "Abajo: un checklist agrupado (técnica, marca, confianza, contenido, conversión). No todo de las listas largas de 2018 es crítico hoy (widgets sociales — solo si los necesitas), y «condenado sin el ítem #37» es hipérbole: prioriza lo que rompe leads y SEO.",
+  ],
+  faq: [
+    {
+      q: "¿Necesito los 50 ítems de golpe?",
+      a: "No. Primero cubre velocidad, móvil, contactos, oferta y formularios. El resto depende del modelo de negocio.",
+    },
+    {
+      q: "¿Es obligatorio el SSL?",
+      a: "Sí para formularios, pago y confianza. Sin HTTPS, navegadores modernos y búsqueda tratan peor el sitio.",
+    },
+    {
+      q: "¿Hace falta una política de privacidad?",
+      a: "Si recoges datos personales — sí. Más un consentimiento claro en los formularios.",
+    },
+    {
+      q: "¿Hacen falta botones Share y widgets sociales?",
+      a: "Opcional. Messenger, teléfono y un CTA que funcione importan más que una fila de iconos de escaparate.",
+    },
+    {
+      q: "¿Hace falta un banner de cookies para cada visitante?",
+      a: "Depende de tu audiencia y de las métricas o ads que uses. Para audiencias UE/UK y algunos escenarios — sí; confirma con asesoría legal.",
+    },
+    {
+      q: "¿Por dónde empiezo a auditar un sitio viejo?",
+      a: "UX móvil, velocidad, enlaces rotos y 404s, contactos, y si las landings siguen cuadrando con tus ads.",
+    },
+  ],
+  sections: [
+    {
+      title: "Técnica y navegación",
+      level: 2,
+      paras: [
+        "La velocidad y un hosting estable afectan al bounce y a la indexación. HTTPS protege el intercambio de datos. Las URLs limpias se leen y se comparten mejor.",
+        "Sitemaps XML y HTML más una 404 pensada devuelven a la gente a la estructura. Layout responsive es obligatorio: el sitio debe funcionar en el smartphone — no como un desktop comprimido.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo técnico:",
+          items: [
+            "velocidad aceptable en móvil",
+            "HTTPS",
+            "URLs legibles",
+            "sitemap y robots en orden",
+            "una 404 útil",
+            "layout responsive",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Sitio responsive",
+          href: "/es/blog/adaptivnyy-sayt/",
+        },
+        {
+          label: "Sitio desactualizado",
+          href: "/es/blog/ustarevshiy-sayt/",
+        },
+      ],
+    },
+    {
+      title: "Marca, confianza y contactos",
+      level: 2,
+      paras: [
+        "Un sistema visual, logo, paleta ordenada e imágenes propias de calidad (sin watermarks ajenos) sostienen el reconocimiento.",
+        "Confianza: Sobre nosotros, dirección, mapa, foto de entrada, horario, teléfono, email, formulario de contacto, política de privacidad y términos. Para offline — cómo encontrar la puerta; para online — cómo contactarte rápido.",
+        "Bloques legales (términos, copyright, disclosures de afiliados) — según necesidad e industria, no todo el checklist de golpe.",
+      ],
+      lists: [
+        {
+          intro: "Contactos a la vista:",
+          items: [
+            "teléfono y messenger",
+            "email o formulario",
+            "dirección y mapa si hay local offline",
+            "horario de atención",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Identidad de marca",
+          href: "/es/blog/aydentika-brenda/",
+        },
+        {
+          label: "Formularios de captación",
+          href: "/es/blog/formy-zahvata/",
+        },
+      ],
+    },
+    {
+      title: "Contenido y conversión",
+      level: 2,
+      paras: [
+        "Home con oferta clara, menú entendible, landings para ads y demanda, página de servicios o catálogo, USP y búsqueda en el sitio si el surtido es grande.",
+        "Prueba social: reseñas, premios, «prensa sobre nosotros» — solo reales. FAQ, guías, blog y vídeo — si responden preguntas de la audiencia.",
+        "CTA: un botón de acción claro gana a la dispersión. Chat y suscripción — si alguien responde y el email aporta valor. No sustituyas un lead con una docena de widgets.",
+      ],
+      notes: [
+        {
+          title: "Prioridad",
+          kind: "tip",
+          text: "Primero el camino «entendió la oferta → contactó». Luego blog, empleos y un calendario de eventos.",
+        },
+      ],
+      links: [
+        {
+          label: "Tráfico sin leads",
+          href: "/es/blog/trafik-bez-lidov/",
+        },
+        {
+          label: "USP",
+          href: "/es/blog/utp/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Un checklist es una herramienta de priorización, no un veredicto. Cubre técnica, confianza y el camino al lead; crece el resto según necesidad del negocio — y no copies al pie de la letra el «50 imprescindibles» de otro.",
+  ],
+  related: [
+    "ustarevshiy-sayt",
+    "adaptivnyy-sayt",
+    "formy-zahvata",
+    "trafik-bez-lidov",
+    "tehnicheskiy-seo-audit",
+    "aydentika-brenda",
+  ],
+};

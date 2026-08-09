@@ -126,3 +126,130 @@ export const oKompaniiEn: BlogPost = {
     "korporativnyy-blog",
   ],
 };
+
+/** ES overlay for o-kompanii — same structure as RU JSON / EN. */
+export const oKompaniiEs: BlogPost = {
+  slug: "o-kompanii",
+  title: "Sobre la empresa: qué escribir y qué evitar",
+  date: "2020-06-23",
+  category: "Content marketing",
+  cover: "/images/blog/o-kompanii/cover.webp",
+  excerpt:
+    "Cómo escribir una página About sin novela del fundador y «somos los mejores» vacío: hechos, prueba, tono para la audiencia — y cuándo casi nadie lee el texto.",
+  lead: [
+    "Las páginas About a menudo reciben una plantilla: años en el mercado, un equipo de profesionales, crecimiento rápido. A los clientes les importa más para quién eres y qué prueba las afirmaciones.",
+    "Abajo: qué cortar, qué conservar y por qué existe la página. El copy de homepage es aparte; aquí el foco es la sección de marca.",
+  ],
+  faq: [
+    {
+      q: "¿La gente de verdad lee la página About?",
+      a: "Menos que servicios y reseñas. Aun así es útil para confianza, detalles legales, B2B y quien comprueba al proveedor antes de un deal.",
+    },
+    {
+      q: "¿Hace falta una larga historia de fundación?",
+      a: "Suele no. Contexto corto — desde cuándo y por qué — sí; kilómetros de «tres amigos se conocieron…» — rara vez.",
+    },
+    {
+      q: "¿Debo publicar las fotos de todo el equipo?",
+      a: "Opcional, depende de la cultura de marca. En e-com suelen importar más producto y servicio; en una agencia o clínica, caras y expertise encajan.",
+    },
+    {
+      q: "¿Puedo afirmar «mejores precios / entrega en una hora»?",
+      a: "Solo si lo cumples. Las promesas falsas dañan reseñas y el cumplimiento de ads.",
+    },
+    {
+      q: "¿About es una página objetivo de keywords?",
+      a: "No es el objetivo. Cubre keywords con servicios y artículos; About es confianza y hechos — no una hoja de keywords.",
+    },
+    {
+      q: "¿En qué se diferencia de la homepage?",
+      a: "Homepage — oferta y siguientes pasos. About — quién eres, prueba, valores, contactos y detalles legales.",
+    },
+    {
+      q: "¿Los casos deberían vivir en About?",
+      a: "En breve sí, o enlaza a una sección de casos. Números sin contexto («+150% de conversión») se leen como fluff.",
+    },
+    {
+      q: "¿De qué longitud debería ser?",
+      a: "La necesaria para responder las dudas de la audiencia. A menudo una a tres pantallas ganan a una novela.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué no hacer",
+      level: 2,
+      paras: [
+        "Una hoja de historia de fundación sin ayuda para elegirte.",
+        "Promesas imposibles y pathos barato de «regalo» en lugar de una posición de marca.",
+        "Plantilla de «por qué nosotros»: profesionales, innovación, enfoque personalizado — sin hechos.",
+        "Un CTA tipo «escribe artículos para nosotros / sé partner» en lugar de responder al cliente.",
+      ],
+    },
+    {
+      title: "Qué es útil escribir",
+      level: 2,
+      paras: [
+        "A quién sirves y qué trabajo resuelves — en el lenguaje del cliente.",
+        "Prueba: años o geo si hace falta, certificados, casos con enlaces, números reales con explicación.",
+        "Cómo funciona el servicio: etapas, garantías, zonas de responsabilidad — lo que baja el miedo al deal.",
+        "Detalles legales y contactos para B2B: entidad, dirección, cómo contactarte.",
+      ],
+      lists: [
+        {
+          intro: "Cuadra el tono con la audiencia:",
+          items: [
+            "B2B — fiabilidad, procesos, casos",
+            "servicio masivo — claridad, precios o términos, reseñas",
+            "negocio local — geo, atmósfera, especificidades del barrio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Copy de homepage",
+          href: "/es/blog/tekst-glavnoy-stranitsy/",
+        },
+        {
+          label: "Homepage",
+          href: "/es/blog/glavnaya-stranitsa/",
+        },
+      ],
+    },
+    {
+      title: "Cuándo la página es necesaria",
+      level: 2,
+      paras: [
+        "Antes de un deal caro el cliente comprueba al proveedor.",
+        "Se espera transparencia (salud, finanzas, licitaciones B2B).",
+        "Necesitas un ancla de confianza junto a reseñas y casos — no «para no estar peor que los competidores».",
+      ],
+      notes: [
+        {
+          title: "Prioridad de confianza",
+          kind: "tip",
+          text: "Reseñas, casos y términos claros de servicio a menudo convierten mejor que un About lírico. La página los complementa — no los sustituye.",
+        },
+      ],
+    },
+    {
+      title: "Ideas clave",
+      level: 2,
+      paras: [
+        "Hechos y ayuda para elegir ganan a la biografía.",
+        "Promesas = obligaciones.",
+        "Tono y longitud siguen a la audiencia — no una plantilla de «mejores About» de 2015.",
+      ],
+    },
+  ],
+  closing: [
+    "Abre About y corta todo lo que no ayude a responder «¿puedo confiarte este pedido?» — el texto suele quedar más corto y fuerte al instante.",
+  ],
+  related: [
+    "tekst-glavnoy-stranitsy",
+    "glavnaya-stranitsa",
+    "tz-kopiraytera",
+    "kopirayting",
+    "otzyvy-dlya-prodazh",
+    "formy-zahvata",
+  ],
+};

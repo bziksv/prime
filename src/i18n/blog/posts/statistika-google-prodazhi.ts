@@ -244,3 +244,248 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
     "prodvizhenie-internet-magazina",
   ],
 };
+
+/** ES overlay for statistika-google-prodazhi — same structure as RU JSON / EN. */
+export const statistikaGoogleProdazhiEs: BlogPost = {
+  slug: "statistika-google-prodazhi",
+  title: "Stats de Google para ventas: Keyword Planner, Trends y Analytics",
+  date: "2020-07-30",
+  category: "Digital marketing",
+  cover: "/images/blog/statistika-google-prodazhi/cover.webp",
+  excerpt:
+    "Cómo usar Keyword Planner, Google Trends y Analytics para medir demanda, estacionalidad y rendimiento de canal — para SEO, ads y previsión de ventas.",
+  lead: [
+    "Los números de búsqueda y analytics no venden solos, pero ayudan con tres trabajos: qué empujar en el sitio, cuándo subir ads y qué queries llevan de verdad a dinero. En el stack de Google eso suele ser Keyword Planner, Trends y Analytics (la lógica actual de GA4).",
+    "Abajo: por qué importan las stats de búsqueda en marketing, cómo leer Planner y Trends sin tratar los conteos «exactos» de impresiones como evangelio, dónde encaja Analytics y cuándo ayudan los collectors de terceros. Para audiencia RU, Yandex Wordstat sigue siendo una vía paralela obligatoria junto a Google — ver también los artículos de set de keywords y frecuencia.",
+  ],
+  faq: [
+    {
+      q: "¿Keyword Planner sustituye a Wordstat?",
+      a: "No. Planner ayuda para Google Ads y estimaciones de demanda de Google. Para Yandex, usa Wordstat. Un proyecto RU suele necesitar ambos.",
+    },
+    {
+      q: "¿Hace falta un presupuesto de ads activo?",
+      a: "Las features completas de Planner son más fáciles con una cuenta de Google Ads. Sin campañas algunas estimaciones son más gruesas — deja margen de error y cruza otras fuentes.",
+    },
+    {
+      q: "¿Trends muestra frecuencia absoluta?",
+      a: "No. Es interés relativo (índice hasta 100) en el tiempo y por regiones. Para volúmenes usa Planner/Wordstat y tus propios datos.",
+    },
+    {
+      q: "¿Puedo lanzar un producto nuevo solo con Trends?",
+      a: "Trends muestra interés creciente en un tema o categoría. Para un SKU nuevo sin queries, revisa categorías adyacentes, luego tus ventas y búsqueda de marca.",
+    },
+    {
+      q: "¿En qué se diferencia de un deep-dive de GA para tienda?",
+      a: "Aquí el foco es demanda y planificación (Planner + Trends + el rol de Analytics). El comportamiento del funnel ecommerce está en el artículo aparte de Google Analytics.",
+    },
+    {
+      q: "¿Qué tan precisos son los números de Planner?",
+      a: "Estimaciones y rangos, a menudo broad match. No armes un modelo financiero sobre una celda — cruza reportes de ads y orgánico.",
+    },
+    {
+      q: "¿Son obligatorias las tools de terceros?",
+      a: "No. Útiles para export y clustering. Las licencias de pago compensan con trabajo regular del set de keywords — no para una sola hoja.",
+    },
+    {
+      q: "¿Cómo se liga esto a las ventas?",
+      a: "Demanda de búsqueda → temas de sitio y ads → tráfico → conversiones en Analytics/CRM. Sin «query → landing → objetivo», las stats se quedan en una foto.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué el marketing necesita stats de búsqueda",
+      level: 2,
+      paras: [
+        "Tres usos prácticos: reunir y priorizar keywords del sitio, preparar un arranque de Google Ads, medir estacionalidad y demanda regional antes de comprar o hacer promos. Sin números es fácil gastar en un tema bonito sin demanda.",
+        "Ejemplo: una tienda de accesorios de bici. Planner sugiere volúmenes y wording relacionado, Trends muestra en qué meses sube el interés, Analytics muestra qué queries y canales ya llenan el carrito. Las decisiones alimentan el plan de contenido, las pujas y el surtido.",
+      ],
+      lists: [
+        {
+          intro: "Tres vías de datos:",
+          items: [
+            "Keyword Planner — ideas de keys y estimaciones de demanda/competencia de Ads",
+            "Trends — interés en el tiempo y por región",
+            "Analytics — qué llegó de verdad al sitio y convirtió",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Núcleo semántico",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Frecuencia de queries",
+          href: "/es/blog/chastotnost-zaprosov/",
+        },
+      ],
+    },
+    {
+      title: "Google Keyword Planner: demanda y el set de keywords",
+      level: 2,
+      paras: [
+        "En Google Ads abre Keyword Planner: ideas por producto/sitio y forecasts para una lista de keywords. Mira impresiones medias, competencia, guías de puja y variantes de wording. Los números son estimaciones de planificación — no evangelio hasta el último dígito.",
+        "Fija geo e idioma. Negatives y filtros cortan basura («usado», marcas de competidor). Recuerda los match types: las estimaciones broad incluyen variaciones — para un set preciso, clusteriza a mano o en un collector.",
+      ],
+      lists: [
+        {
+          intro: "Qué sacar de Planner:",
+          items: [
+            "lista candidata para el set de keywords",
+            "competencia y CPC aproximados",
+            "pistas estacionales del gráfico (si está disponible)",
+            "ideas de landing para mid/long-tail",
+            "hipótesis para creatives de Ads",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Agarrar términos head «comprar …» sin landing ni oferta. Primero intención y página, después presupuesto.",
+        },
+      ],
+      tables: [
+        {
+          caption: "Cómo leer los campos de Planner",
+          headers: ["Campo", "Por qué importa"],
+          rows: [
+            ["Impresiones / mes", "Guía de demanda, a menudo un rango"],
+            ["Competencia", "Densidad de ads — no dificultad SEO"],
+            ["Puja", "Forecast de subasta — no coste orgánico"],
+            ["Variantes de keyword", "Ideas de cluster y negatives"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Google Trends: estacionalidad y regiones",
+      level: 2,
+      paras: [
+        "Trends muestra interés relativo en un tema: útil para comparar estaciones, regiones y categorías cercanas. El pico «100» es el máximo del periodo elegido — no visitas absolutas. En bicis, el interés puede subir antes de la primavera «lógica» — planifica stock y creatives con lead time.",
+        "Para productos nuevos sin query directa, mira la categoría padre y temas adyacentes. Un pico brusco sin base de ventas es motivo para chequear hype y durabilidad — no para escalar la compra al momento.",
+      ],
+      lists: [
+        {
+          intro: "Escenarios prácticos de Trends:",
+          items: [
+            "cuándo subir ads y contenido",
+            "qué regiones se ven más fuertes",
+            "comparar dos categorías de producto",
+            "chequear una temporada muerta",
+            "monitorizar interés tras un lanzamiento",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Cruza Trends con tus ventas y stock: la búsqueda a menudo adelanta o atrasa las compras reales — depende del nicho.",
+        },
+      ],
+    },
+    {
+      title: "El rol de Google Analytics",
+      level: 2,
+      paras: [
+        "Planner y Trends hablan de la demanda fuera. Analytics muestra qué pasó en el sitio: qué fuentes y landings pegaron objetivos, dónde está el drop-off. En GA4 apóyate en eventos y conversiones — no en screenshots de Universal Analytics de guías viejas.",
+        "La cadena «query → ad/orgánico → página → compra/lead» importa más que un gráfico bonito. Para un funnel profundo de tienda, ver el artículo aparte de Google Analytics.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de enlace a stats de demanda:",
+          items: [
+            "objetivos/eventos clave configurados",
+            "UTMs de ads coherentes",
+            "landings alineadas con la intención clave",
+            "revisión semanal de canal y conversión",
+            "hipótesis de contenido para URLs débiles",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Google Analytics para ecommerce",
+          href: "/es/blog/google-analytics/",
+        },
+        {
+          label: "Dashboards y reportes",
+          href: "/es/blog/dashboard/",
+        },
+      ],
+    },
+    {
+      title: "Collectors de terceros y Wordstat",
+      level: 2,
+      paras: [
+        "Key Collector y pares ayudan con export, agrupación y varias fuentes a la vez. El coste de licencia compensa con trabajo regular del set de keywords. Un proyecto puntual a menudo solo necesita Wordstat + Planner + una hoja.",
+        "No persigas «conteos exactos de queries de Google» de scrapers SERP dudosos — frágiles y arriesgados. Prefiere APIs/consolas oficiales y tus propios datos de ads.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo basta la vía gratis:",
+          items: [
+            "set de keywords pequeño y una región",
+            "kickoff de hipótesis de nicho",
+            "chequeo de estacionalidad en Trends",
+            "cruce con Wordstat para Yandex",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Análisis de competidores",
+          href: "/es/blog/analiz-konkurentov/",
+        },
+      ],
+    },
+    {
+      title: "De números a ventas: un loop que funciona",
+      level: 2,
+      paras: [
+        "Reúne candidatos en Planner/Wordstat → filtra intención → chequea estación en Trends → asigna landings y ofertas → publica contenido y corre Ads → mide en Analytics y CRM. La iteración gana a una hoja perfecta de una sola vez.",
+        "La prep de landings SEO lleva semanas. El crecimiento orgánico del set de keywords se construye mes a mes — planificado 2–6 meses hasta visibilidad notable en primera página. Los ads dan una muestra de aprendizaje más rápida sobre keywords, pero no sustituyen la calidad de página.",
+      ],
+      lists: [
+        {
+          intro: "Checklist del loop:",
+          items: [
+            "set de keywords y negatives",
+            "estación y región",
+            "landing por cluster",
+            "objetivo en analytics",
+            "revisión en una o dos semanas y ajuste",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Las stats ayudan a elegir un tema. La visibilidad orgánica en primera página es un horizonte aparte tras la prep — los números de Planner no son rankings.",
+        },
+      ],
+      links: [
+        {
+          label: "Promoción ecommerce",
+          href: "/es/blog/prodvizhenie-internet-magazina/",
+        },
+        {
+          label: "Keywords para una tienda online",
+          href: "/es/blog/klyuchi-internet-magazin/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "google-analytics",
+    "semanticheskoe-yadro",
+    "chastotnost-zaprosov",
+    "klyuchi-internet-magazin",
+    "dashboard",
+    "prodvizhenie-internet-magazina",
+  ],
+};

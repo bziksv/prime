@@ -189,3 +189,193 @@ export const tekstLendingaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for tekst-lendinga — same structure as RU JSON / EN. */
+export const tekstLendingaEs: BlogPost = {
+  slug: "tekst-lendinga",
+  title: "Copy de landing: estructura, oferta y CTA",
+  date: "2021-06-07",
+  category: "Content marketing",
+  cover: "/images/blog/tekst-lendinga/cover.webp",
+  excerpt:
+    "Cómo escribir copy de landing: oferta, bloques de beneficio, prueba, formulario y CTA — sin keyword stuffing en cada alt ni el mito de las «keywords en el dominio».",
+  lead: [
+    "Un landing funciona cuando tiene un trabajo claro: conseguir un lead, reservar una consulta, comprar un producto o programar un servicio. El copy debe llevar al visitante de reconocer su situación a un siguiente paso seguro.",
+    "Abajo: estructura del landing, argumentación, formulario e higiene SEO. No importan fórmulas mágicas, sino una oferta clara, prueba y comodidad en móvil.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia un landing de un artículo de venta?",
+      a: "Un artículo puede enseñar. Un landing se centra en una oferta y un camino corto al CTA.",
+    },
+    {
+      q: "¿Cuántas pantallas de copy hacen falta?",
+      a: "Las que haga falta para despejar objeciones. Oferta barata y simple — más corto; cara/compleja — más prueba.",
+    },
+    {
+      q: "¿Hacen falta keywords en cada alt y en el dominio?",
+      a: "No. El alt va de accesibilidad y sentido de la imagen. El dominio es marca y comodidad, no una hoja de keywords.",
+    },
+    {
+      q: "¿Cuántos campos en el formulario?",
+      a: "El mínimo para un lead: suele ser nombre + teléfono/email. Campos de más cortan la conversión.",
+    },
+    {
+      q: "¿Hacen falta reseñas?",
+      a: "Sí si son reales: casos, cifras, logos de clientes, historias más completas. Las falsas matan la confianza.",
+    },
+    {
+      q: "¿Puede todo el tráfico de ads ir a un solo landing?",
+      a: "Solo si las campañas comparten la misma demanda y oferta. Segmentos y servicios distintos suelen necesitar landings aparte con un mensaje que encaje.",
+    },
+    {
+      q: "¿Cómo sé que el copy duele a la conversión?",
+      a: "Mira grabaciones de sesión, profundidad de scroll, clics en CTA y calidad de leads. Prueba una hipótesis a la vez — no reescribas toda la pantalla de golpe.",
+    },
+  ],
+  sections: [
+    {
+      title: "Oferta y primer pantallazo",
+      level: 2,
+      paras: [
+        "El primer pantallazo responde cuatro preguntas: qué se ofrece, a quién encaja, qué resultado obtiene el visitante y qué hacer después. El H1 no tiene que ser un montón de keywords: nombra el servicio y un beneficio concreto en lenguaje claro.",
+        "El subhead añade condiciones, geografía, formato o un límite que filtra demanda no objetivo. Cerca hace falta un CTA claro con acción: «Pedir presupuesto», «Pedir el programa», «Reservar visita» — no un vago «Saber más».",
+        "No escondas el beneficio clave detrás de la historia de la empresa o de una animación. En el teléfono el visitante debe pillar la oferta y abrir el formulario sin un scroll largo.",
+      ],
+      lists: [
+        {
+          intro: "El primer pantallazo cubre:",
+          items: [
+            "quiénes sois y para quién",
+            "el beneficio principal",
+            "diferencia frente a alternativas",
+            "el siguiente paso (botón/formulario)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Textos de venta",
+          href: "/es/blog/prodayushchie-teksty/",
+        },
+        {
+          label: "Formulario de contacto",
+          href: "/es/blog/forma-obratnoy-svyazi/",
+        },
+      ],
+    },
+    {
+      title: "Construir un camino de persuasión",
+      level: 2,
+      paras: [
+        "Después el visitante necesita respuestas a dudas naturales: qué incluye, cómo corre el trabajo, cuánto cuesta, a quién encaja y por qué confiar en vosotros. Ordena los bloques por lógica de decisión, no por cómo el equipo suele contar la historia de la empresa.",
+        "Para una compra simple basta una estructura corta. Para un servicio caro, obra, B2B o medicina el camino es más largo: etapas, límites, documentos, casos y un FAQ más completo ayudan. La longitud sola no vende — cada bloque debe reducir una duda concreta.",
+        "Párrafos cortos, pies de imagen y listas con viñetas ayudan al escaneo. Un teléfono en el header importa, pero no sustituye un botón o formulario claro para quien no va a llamar.",
+      ],
+      lists: [
+        {
+          intro: "Orden típico de bloques:",
+          items: [
+            "oferta y CTA principal",
+            "resultado y beneficios del cliente",
+            "alcance del servicio o specs del producto",
+            "etapas, plazos y condiciones",
+            "casos, reseñas, garantías y documentos",
+            "FAQ y una llamada a la acción repetida",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Escribir beneficios sin promesas vacías",
+      level: 2,
+      paras: [
+        "«Calidad y asequible» casi no explica nada — eso lo escribe todo el mundo. Funcionan mejor detalles verificables: alcance del trabajo, tiempo de respuesta del manager, formato de informe, experiencia de sector, un rango de precio con qué lo mueve.",
+        "Separa feature de beneficio. Ejemplo: «visita del ingeniero» es una feature; «comprueba medidas antes del contrato para que no rehagas el proyecto» es un beneficio. No prometas un resultado garantizado donde depende de factores externos o de las acciones del cliente.",
+        "El tono debe encajar con la audiencia. Para un servicio complejo — expertise calmada y explicación de términos; para un producto claro — más concreción en elección y entrega.",
+      ],
+      notes: [
+        {
+          title: "Check",
+          kind: "tip",
+          text: "Lee cada bloque y pregunta: «¿Qué preocupación del visitante desaparece tras esto?». Si no hay respuesta, reescribe, acorta o sustituye por prueba.",
+        },
+      ],
+    },
+    {
+      title: "Prueba y objeciones",
+      level: 2,
+      paras: [
+        "La confianza viene de detalles coherentes: casos reales, datos legales claros, fotos de proceso, reseñas con contexto, certificados y condiciones transparentes. Un logo sin permiso o una reseña anónima de cinco estrellas no suman confianza.",
+        "No tapes las objeciones. Si el precio es a medida, explica los inputs de pricing y ofrece un rango. Si hay límites de región, plazo o stock, dilo antes del formulario — tendrás menos leads vacíos.",
+        "Coloca la prueba junto a la afirmación. Tras prometer entrega rápida, muestra las condiciones; tras la experiencia — un caso relevante; junto al formulario — qué pasa tras enviar.",
+      ],
+    },
+    {
+      title: "Formulario y CTA: quita fricción",
+      level: 2,
+      paras: [
+        "El formulario arranca una conversación, no un dossier completo del visitante. Quédate con los campos que un manager necesita para responder: suele ser nombre y un canal de contacto. La pregunta de tarea puede ser opcional o pasar al siguiente paso.",
+        "Bajo el botón di en breve cuándo y cómo responderéis. Si recoges datos personales, enlaza la política de privacidad y añade un checkbox cuando toque. No sustituyas el consentimiento con una casilla premarcada.",
+        "Los CTA se repiten en una página larga, pero cada uno encaja con el contexto: tras el precio — «Pedir presupuesto», tras el programa — «Pedir consulta». Varias acciones distintas en una pantalla diluyen el foco.",
+      ],
+      lists: [
+        {
+          intro: "Revisa antes del lanzamiento:",
+          items: [
+            "el formulario envía y muestra un resultado claro",
+            "teléfono y email son tocables en móvil",
+            "la persona correcta recibe la notificación",
+            "los goals de analytics rastrean envíos y llamadas",
+            "la página se lee sin scroll horizontal",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Formulario de contacto",
+          href: "/es/blog/forma-obratnoy-svyazi/",
+        },
+      ],
+    },
+    {
+      title: "SEO sin stuffing",
+      level: 2,
+      paras: [
+        "Antes de escribir, junta consultas con un solo intent: pedir, comparar, calcular o aprender términos. Un landing no tiene que cubrir cada formulación del mercado — páginas aparte encajan mejor con servicios y segmentos distintos.",
+        "Usa el lenguaje de la audiencia en Title, H1, subheads y cuerpo de forma natural. No repitas la keyword exacta en cada párrafo ni sustituyas copy útil por una lista de ciudades. El alt describe la imagen para accesibilidad — no es un vertedero de keywords.",
+        "Para un servicio local indica la región real, contactos, dirección y condiciones de visita. Conecta goals de analytics para medir no solo visitas sino envíos de formulario, llamadas y calidad de leads.",
+      ],
+      lists: [
+        {
+          intro: "Higiene:",
+          items: [
+            "un intent principal por URL",
+            "Title/Description según la oferta",
+            "una página móvil rápida",
+            "reseñas honestas y datos legales cuando haga falta",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Núcleo semántico",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+    },
+    {
+      title: "Validar la página tras el lanzamiento",
+      level: 2,
+      paras: [
+        "El lanzamiento arranca la comprobación, no es la meta. Primero confirma que funcionan formulario, telefonía, goals, política de privacidad y versión móvil. Luego recoge las primeras preguntas de los managers — a menudo muestran qué explicación falta en la página.",
+        "Prueba una hipótesis a la vez: claridad del primer pantallazo, orden de bloques, texto del botón, prueba o número de campos. Compara cambios con tráfico suficiente y mira no solo conversión sino la cuota de leads cualificados.",
+        "Revisa el landing cuando cambien producto, precios, temporada o audiencia. Actualizaciones honestas y regulares ganan a un rediseño cosmético anual sin análisis de comportamiento.",
+      ],
+    },
+  ],
+};

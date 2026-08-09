@@ -222,3 +222,226 @@ export const otzyvyDlyaProdazhEn: BlogPost = {
     "otchet-klientu",
   ],
 };
+
+/** ES overlay for otzyvy-dlya-prodazh — same structure as RU JSON / EN. */
+export const otzyvyDlyaProdazhEs: BlogPost = {
+  slug: "otzyvy-dlya-prodazh",
+  title: "Cuántas reseñas necesita una empresa para vender con más confianza",
+  date: "2019-09-26",
+  category: "SEO",
+  cover: "/images/blog/otzyvy-dlya-prodazh/cover.webp",
+  excerpt:
+    "El umbral de confianza de las reseñas, cómo se atan a la búsqueda local y los mapas, cómo pedir reseñas y gestionar negativos — sin valoraciones falsas ni cinco estrellas compradas.",
+  lead: [
+    "Antes de elegir una clínica, un café o un servicio, la gente lee reseñas en mapas, directorios y el sitio. Un perfil vacío con precio justo y dirección cómoda a menudo pierde frente a un competidor con historial de reseñas reales.",
+    "Abajo: guías de cantidad de estudios de industria, por qué importan las respuestas y la diversidad de plataformas, y cómo gestionar reseñas de forma legal. Las cifras son umbral de confianza, no fórmula de ranking — las reglas de mapas y agregadores cambian.",
+  ],
+  faq: [
+    {
+      q: "¿Hay un número mágico de reseñas?",
+      a: "No uno universal. Estudios de mercados locales a menudo citan un umbral de ~40 reseñas para confianza notable, y docenas de media para el local pack. En nichos con compras raras, menos puede bastar; en restaurantes y hospitality la «norma» es más alta.",
+    },
+    {
+      q: "¿Importa más la cantidad o la valoración?",
+      a: "Ambas. Una valoración fuerte con tres reseñas es más débil que 4,6 con un centenar. Pero «todo 5,0» sin ninguna crítica también parece sospechoso.",
+    },
+    {
+      q: "¿Se pueden comprar reseñas?",
+      a: "No. Rompe las reglas de la plataforma, arriesga sanciones y mata la confianza. Pide a clientes reales y responde a los negativos.",
+    },
+    {
+      q: "¿Reseñas en el sitio o en mapas?",
+      a: "Mapas y agregadores influyen más en la elección local. El sitio es para quien ya llegó y revisa detalles. Lleva ambas vías.",
+    },
+    {
+      q: "¿Cada sucursal necesita su propio perfil?",
+      a: "Sí — normalmente cada ubicación física tiene su propio perfil con NAP y reseñas solo de ese punto.",
+    },
+    {
+      q: "¿Las reseñas ayudan al SEO normal del sitio?",
+      a: "No sustituyen directamente los rankings comerciales. De forma indirecta ayudan a awareness, enlaces desde perfiles y directorios, confianza y conversión. La preparación del sitio y el crecimiento de rankings son horizontes aparte.",
+    },
+    {
+      q: "¿Cómo responder a una reseña negativa?",
+      a: "Con calma, con hechos, sin pelear. Disculpa, aclaración, un canal offline para resolver. Eso a menudo suaviza la impresión para lectores posteriores.",
+    },
+    {
+      q: "¿Son legales los incentivos por una reseña?",
+      a: "Un descuento o bonus «por una reseña honesta» a veces lo permite la política de la plataforma — revisa las reglas. No se puede pagar solo por cinco estrellas ni dictar el texto.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué los negocios necesitan reseñas",
+      level: 2,
+      paras: [
+        "Las reseñas son prueba social: alguien ya comprobó. En servicios (medicina, belleza, reparación, finanzas) un negativo fuerte golpea más que en un producto masivo con cientos de SKUs.",
+        "Yandex Maps y Google, 2GIS, sitios de reseñas de nicho y redes sociales crean un camino de encontrado → leído → llamado o visitado. Sin reseñas pareces una ficha fantasma aunque el producto sea fuerte.",
+      ],
+      lists: [
+        {
+          intro: "Qué mejoran las reseñas:",
+          items: [
+            "confianza y disposición a dejar un lead",
+            "clics en el local pack / en el mapa",
+            "una señal de calidad de servicio para clientes nuevos",
+            "un motivo para mejorar procesos (quejas = diagnóstico)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Perfil de negocio en Google Maps",
+          href: "/es/blog/google-biznes/",
+        },
+      ],
+    },
+    {
+      title: "Cuántas reseñas son «suficientes»",
+      level: 2,
+      paras: [
+        "Estudios de industria (incluidas reviews de búsqueda local de BrightLocal) llevan años mostrando: los usuarios confían más en un negocio tras docenas de reseñas que tras dos o tres. Una guía citada a menudo es unas 40 reseñas como umbral de confianza notable — no ley de la naturaleza, una foto promediada de muestras.",
+        "Para entrar y sostenerse en el local pack de mapas, las mismas reviews citan docenas de reseñas de media en perfiles visibles. La brecha entre «aparecer» y «estar entre los tres primeros del mapa» puede ser pequeña en conteo pero crítica en clics. Las cifras cambian por año y país — revisa informes frescos y competidores cerca de ti.",
+      ],
+      lists: [
+        {
+          intro: "Guía práctica:",
+          items: [
+            "0–5 — casi sin historial, alto riesgo de que la gente salte",
+            "docenas — umbral de confianza para muchos nichos",
+            "cientos — normal en cafés y cadenas donde la gente reseña a menudo",
+            "mira la mediana de competidores cercanos, no un récord mundial",
+          ],
+        },
+      ],
+      tables: [
+        {
+          caption: "Guías aproximadas (no garantía de ranking)",
+          headers: ["Situación", "Qué mirar"],
+          rows: [
+            ["Servicios con compra rara", "Calidad de respuesta + 20–50 reseñas honestas"],
+            ["Restaurantes y hospitality / retail de barrio", "Flujo constante; vigila la valoración"],
+            ["Varias sucursales", "Reseñas por ubicación por separado"],
+            ["Solo sitio, sin mapas", "Bloque de reseñas on-site + plataformas externas"],
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Perseguir «+100 cinco estrellas en una semana». Plataformas y usuarios detectan reseñas falsas; importa más el ritmo de clientes reales y las respuestas.",
+        },
+      ],
+    },
+    {
+      title: "Valoración, local pack y clics",
+      level: 2,
+      paras: [
+        "En búsqueda local, la gente a menudo clica más fuerte el bloque del mapa que la «cola» orgánica. La brecha de valoración media entre los puestos 1–3 y 8–10 puede ser décimas de punto, pero clics y llamadas van a la cabeza del local pack.",
+        "La investigación vincula el crecimiento de valoración con ingresos de negocios locales — el tamaño del efecto depende del nicho. Para ti importa más: arreglar causas sistémicas de una estrella (servicio, plazos, comunicación), no discutir en comentarios.",
+      ],
+      lists: [
+        {
+          intro: "Qué más pesan los mapas:",
+          items: [
+            "NAP y horario frescos",
+            "categorías y fotos",
+            "respuestas del negocio",
+            "señales de otros directorios (no la única fuente)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo montar un flujo de reseñas",
+      level: 2,
+      paras: [
+        "Primero reclama y verifica perfiles en Yandex Maps / Google Business Profile (y 2GIS si aplica): un perfil por sucursal. Luego facilita dejar una reseña en el sitio (bloque por servicio o producto, o una página dedicada) y monta monitoreo de menciones.",
+        "Pide tras un resultado exitoso: SMS o email con enlace al mapa, un QR en el local, una petición suave del account manager. Incentivos — solo si la plataforma los permite y no compran la valoración.",
+      ],
+      lists: [
+        {
+          intro: "Mini proceso:",
+          items: [
+            "perfiles de mapa creados y verificados",
+            "un owner mira reseñas nuevas a diario o cada dos días",
+            "plantillas de respuesta para negativos típicos + escalado",
+            "una petición de reseña en el script «el cliente está contento»",
+            "una vez al trimestre, revisar temas de quejas para el producto",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Marca personal",
+          href: "/es/blog/lichnyy-brend/",
+        },
+      ],
+    },
+    {
+      title: "Negativos, redes y un feed «demasiado perfecto»",
+      level: 2,
+      paras: [
+        "Un feed solo de cinco estrellas sin quejas baja la confianza: parece falseado. Una mezcla honesta y trabajo visible sobre quejas se ve más fuerte.",
+        "En redes, las reseñas a menudo se sienten más vivas. Que un representante de la empresa entre en el diálogo sube la lealtad — sin agresividad ni borrar hechos incómodos (salvo spam o abuso según las reglas de la plataforma).",
+      ],
+      lists: [
+        {
+          intro: "Cómo responder a negativos:",
+          items: [
+            "agradecer el feedback",
+            "reconocer el problema sin excusas de «todo es perfecto»",
+            "ofrecer un canal para resolver (teléfono, DM)",
+            "tras la resolución — anotar brevemente el resultado en el hilo si encaja",
+            "no pelear en público por minucias y quemar reputación",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos SEO",
+          kind: "tip",
+          text: "Las reseñas aceleran la elección en mapas. La preparación del sitio para la promoción lleva alrededor de un mes. La visibilidad en primera página del set de keywords se planifica a 2–6 meses tras el inicio del trabajo — una vía aparte.",
+        },
+      ],
+    },
+    {
+      title: "Plataformas, enlaces y qué no hacer",
+      level: 2,
+      paras: [
+        "Sitios de reseñas y directorios a veces rankean por «reseñas + marca/servicio» — tráfico extra al perfil. Perfiles correctos dan NAP coherente y a veces un enlace al sitio; eso no es motivo para spamear directorios por volumen de enlaces.",
+        "No compres packs de «100 reseñas», no metas keywords en el nombre del negocio, no clones sucursales. Enfócate en clientes reales, respuestas y servicio.",
+      ],
+      lists: [
+        {
+          intro: "Banderas rojas:",
+          items: [
+            "textos plantilla idénticos de «personas distintas»",
+            "un pico de reseñas en un día sin promo ni evento",
+            "prohibir negativos en las reglas de la promo",
+            "agencias que prometen «map pack en una semana vía reseñas»",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Directorios de sitios",
+          href: "/es/blog/katalogi-saytov/",
+        },
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "google-biznes",
+    "lichnyy-brend",
+    "samostoyatelnoe-seo",
+    "katalogi-saytov",
+    "didzhital-agentstvo",
+    "otchet-klientu",
+  ],
+};

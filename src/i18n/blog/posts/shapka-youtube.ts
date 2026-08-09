@@ -178,3 +178,188 @@ export const shapkaYoutubeEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for shapka-youtube — same structure as RU JSON / EN. */
+export const shapkaYoutubeEs: BlogPost = {
+  slug: "shapka-youtube",
+  title: "Banner del canal de YouTube: tamaño, estilo y cómo cambiarlo",
+  date: "2021-05-31",
+  category: "SMM",
+  cover: "/images/blog/shapka-youtube/cover.webp",
+  excerpt:
+    "Por qué un canal necesita un banner, qué zonas seguras importan en TV y móvil, cómo elegir estilo y cómo actualizar el branding en YouTube Studio.",
+  lead: [
+    "Un banner de YouTube es la portada ancha encima de los vídeos en la página del canal. No te mete solo en recomendaciones, pero ayuda a reconocer la marca y a pillar el tema en segundos.",
+    "Abajo: el rol del banner, criterios de imagen y cómo cambiar el look. Avatar y descripción del canal están en posts relacionados.",
+  ],
+  faq: [
+    {
+      q: "¿El banner sube las views por sí solo?",
+      a: "De forma indirecta: construye confianza y reconocimiento cuando alguien llega al canal. El crecimiento viene del contenido, títulos y retención — no de una sola imagen.",
+    },
+    {
+      q: "¿Qué tamaño preparo?",
+      a: "La guía de YouTube es un banner ancho (a menudo 2560×1440 px) con una «zona segura» centrada. Revisa los límites actuales en Help de Studio — se actualizan.",
+    },
+    {
+      q: "¿En qué se diferencia el banner del avatar?",
+      a: "El avatar es el icono redondo en todas partes. El banner es solo la portada ancha en la página del canal.",
+    },
+    {
+      q: "¿Puedo usar fotos al azar de la web?",
+      a: "Solo con derechos propios. Un fotograma ajeno sin licencia arriesga reclamaciones.",
+    },
+    {
+      q: "¿Hace falta texto en el banner?",
+      a: "Un eslogan corto o el nicho — sí. Listas de precios minúsculas y párrafos largos no se leen en móvil.",
+    },
+    {
+      q: "¿Cada cuánto cambiar el banner?",
+      a: "Cuando cambian el posicionamiento, el programa del canal o una campaña estacional grande. Cambios frecuentes sin motivo dañan el reconocimiento.",
+    },
+    {
+      q: "¿Puedo hacerlo en un editor online?",
+      a: "Sí si permite fijar el tamaño correcto, trabajar la zona segura y usar imágenes con derechos.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué importa el banner",
+      level: 2,
+      paras: [
+        "El banner marca la primera impresión: tema, tono y confianza. Para negocio, los enlaces al sitio y redes en el bloque de links del canal ayudan — pero primero el espectador debe saber de qué van los vídeos y quién los hace.",
+        "El banner no afecta las recomendaciones de forma directa y no sustituye temas fuertes, miniaturas y retención. Su trabajo es más pequeño pero importante: ayudar a quien ya abrió el canal a orientarse y recordarlo.",
+        "Es especialmente útil cuando el nombre del canal no explica el nicho. Una línea corta de tema o de programa recurrente responde antes del primer visionado.",
+      ],
+      lists: [
+        {
+          intro: "En 2–3 segundos el banner debería responder:",
+          items: [
+            "de qué va el canal",
+            "quién es el creador / la marca",
+            "cómo te diferencias de vecinos del nicho",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Avatar de YouTube",
+          href: "/es/blog/avatar-youtube/",
+        },
+      ],
+    },
+    {
+      title: "Planifica el contenido del banner",
+      level: 2,
+      paras: [
+        "Empieza no por un fondo decorativo, sino por la jerarquía: nombre o logo principal, luego el tema del canal y, si hace falta, un eslogan corto. El espectador escanea en segundos — no metas lista de precios, horario y todos los servicios en el banner.",
+        "Elige un visual ligado a los vídeos: la cara del host, herramientas del oficio, un producto o un abstracto en colores de marca. Una imagen bonita al azar sin vínculo con el contenido daña el reconocimiento.",
+        "Prepara fuentes de calidad y guarda un archivo editable. Meses después puedes actualizar una fecha, rúbrica o foto sin reconstruir desde cero.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo útil:",
+          items: [
+            "nombre del creador o la marca",
+            "tema claro del canal",
+            "una imagen de acento",
+            "colores que se repiten en las miniaturas",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tamaños y zona segura",
+      level: 2,
+      paras: [
+        "YouTube muestra el banner distinto en TV, ordenador y teléfono: los bordes anchos pueden recortarse, mientras el centro suele quedarse visible. Pon texto, cara y logo dentro de la zona segura central; estira el fondo por todo el lienzo.",
+        "Un tamaño fuente habitual es un banner ancho 2560×1440 px, pero los requisitos se actualizan. Antes de subir el final, revisa Help de YouTube Studio y previsualiza en distintos dispositivos.",
+        "No hagas los elementos clave demasiado pequeños. Tipografía de alto contraste y aire ganan a un collage complejo que solo se ve bien en un monitor grande.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Comprueba",
+          text: "Juzga el banner primero en el teléfono: si la idea principal no se lee ahí, los detalles decorativos de TV no salvan la composición.",
+        },
+      ],
+    },
+    {
+      title: "Cómo cambiarlo en Studio",
+      level: 2,
+      paras: [
+        "En YouTube Studio abre personalización o branding del canal y sube el banner. Tras subir, revisa siempre las previews de TV, ordenador y teléfono — los bordes se recortan distinto.",
+        "Guarda los cambios y abre la página pública del canal en otra ventana. Verás la composición real sin el chrome del editor y notarás si el texto se funde con el fondo o un objeto clave queda en el borde.",
+      ],
+      lists: [
+        {
+          intro: "Antes de subir:",
+          items: [
+            "lo esencial en la zona segura central",
+            "alto contraste, sin texto minúsculo en los bordes",
+            "un estilo con el avatar y las miniaturas",
+            "tus derechos sobre la imagen y las fuentes",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Menús",
+          text: "Las etiquetas de Studio cambian. Busca la sección de banner / imagen del canal — no la confundas con la miniatura de un solo vídeo.",
+        },
+      ],
+    },
+    {
+      title: "Estilo: calidad, utilidad, contención",
+      level: 2,
+      paras: [
+        "Calidad es imagen nítida, tipografía legible y derechos propios sobre gráficos y fuentes. Utilidad es que el espectador pille el nicho al instante. Contención es no pegar diez promos, QR y texto minúsculo.",
+        "El tema debe cuadrar con los vídeos. Un fondo «espacial» bonito sin sentido de nicho solo confunde. Puedes refrescar el lenguaje visual, pero mantén al menos un elemento reconocible: paleta, tipografía o principio de layout.",
+        "No uses fotos e ilustraciones ajenas sin permiso. Haz tu propio fotograma, usa assets con derechos confirmados o crea gráficos originales — más seguro para el canal y la marca.",
+      ],
+      lists: [
+        {
+          intro: "Enfoques que funcionan:",
+          items: [
+            "cara del host + eslogan corto",
+            "logo y 1–2 temas clave",
+            "una paleta con las miniaturas",
+            "banner estacional — rara vez, no un caos cada semana",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Descripción del canal de YouTube",
+          href: "/es/blog/opisanie-youtube-kanala/",
+        },
+      ],
+    },
+    {
+      title: "Ata el banner al resto del branding",
+      level: 2,
+      paras: [
+        "El banner funciona mejor con el avatar, la descripción, el trailer y las miniaturas. Usa nombres de rúbricas y colores compartidos, pero no copies la misma imagen en todas partes — cada elemento tiene su trabajo.",
+        "Tras una actualización, mira el canal como un espectador nuevo. ¿Queda claro qué ver primero, a dónde va el enlace y por qué suscribirse? Si no, mejora no solo el banner sino también descripción y navegación.",
+        "Aislar la aportación del branding es difícil, así que usa señales cualitativas: comentarios de nuevos espectadores, clics en playlists, claridad de marca para partners. No juzgues por un día de views.",
+      ],
+      links: [
+        {
+          label: "Descripción del canal de YouTube",
+          href: "/es/blog/opisanie-youtube-kanala/",
+        },
+        {
+          label: "Avatar de YouTube",
+          href: "/es/blog/avatar-youtube/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "avatar-youtube",
+    "opisanie-youtube-kanala",
+    "raskrutka-youtube",
+    "strayk-youtube",
+  ],
+};

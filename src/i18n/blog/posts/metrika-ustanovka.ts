@@ -166,3 +166,170 @@ export const metrikaUstanovkaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for metrika-ustanovka — same structure as RU JSON / EN. */
+export const metrikaUstanovkaEs: BlogPost = {
+  slug: "metrika-ustanovka",
+  title: "Instalar Yandex Metrica en un sitio web",
+  date: "2021-04-27",
+  category: "SEO",
+  cover: "/images/blog/metrika-ustanovka/cover.webp",
+  excerpt:
+    "Dónde pegar el código de Yandex Metrica en WordPress, Bitrix, Joomla y constructores: contador en head / vía plugin, comprobar visitas y errores frecuentes.",
+  lead: [
+    "Yandex Metrica cuenta visitas, goals y comportamiento. Sin contador vas a ciegas en informes de ads y SEO.",
+    "Abajo: dónde colocar el código en CMS populares y cómo confirmar que fluyen los datos. Las UIs del panel cambian — busca «contadores» / «Analytics».",
+  ],
+  faq: [
+    {
+      q: "¿Dónde pego el código?",
+      a: "Suele ir en `<head>` en todas las páginas o vía un tag manager. En un CMS — plugin / campo «scripts in head».",
+    },
+    {
+      q: "¿Basta ponerlo solo en el footer?",
+      a: "Mejor sigue la recomendación de Yandex — lo antes posible en head, para no perder visitas cortas.",
+    },
+    {
+      q: "¿Los subdominios necesitan un contador aparte?",
+      a: "Depende del trabajo. A menudo un contador con filtro de host; a veces aparte para proyectos distintos.",
+    },
+    {
+      q: "¿Por qué no hay visitas tras instalar?",
+      a: "Caché, un bloqueador, código ausente en algunas plantillas, typo en el ID, o el sitio solo abierto en local para ti.",
+    },
+    {
+      q: "¿Metrica sustituye a Yandex Webmaster?",
+      a: "No. Metrica es comportamiento del usuario. Webmaster es indexación y mensajes de búsqueda.",
+    },
+    {
+      q: "¿Debo instalar vía tag manager?",
+      a: "Cómodo cuando el sitio tiene muchos tags de marketing y alguien posee el contenedor. En un sitio simple basta pegar bien el código oficial del contador en la plantilla.",
+    },
+  ],
+  sections: [
+    {
+      title: "Principio general",
+      level: 2,
+      paras: [
+        "Crea un contador en la cuenta de Metrica, copia el código y despliégalo en cada plantilla del sitio. Activa click map / Session Replay según necesites y configura goals.",
+      ],
+      lists: [
+        {
+          intro: "Tras pegar:",
+          items: [
+            "abre el sitio en incógnito",
+            "comprueba «online» / visitas en la cuenta",
+            "limpia caché de CMS y CDN",
+            "revisa versiones móvil y desktop",
+          ],
+        },
+      ],
+    },
+    {
+      title: "WordPress, Bitrix y otros",
+      level: 2,
+      paras: [
+        "WordPress: plugin de Metrica o pega en el tema/tema hijo / «scripts in head». Bitrix: ajustes de soporte / Metrica o plantilla del header. Joomla y constructores (Wix y similares) — código personalizado / campo de marketing.",
+      ],
+      lists: [
+        {
+          intro: "Reglas de seguridad:",
+          items: [
+            "no edites un tema padre sin hijo",
+            "un contador principal, sin duplicados",
+            "acceso a la cuenta de Metrica — solo para quien haga falta",
+            "consentimiento de cookies/analytics — según tu jurisdicción",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plugins",
+          kind: "tip",
+          text: "Los nombres de plugins y menús cambian. Lo que importa es que el ID del contador coincida con la cuenta y que el código esté en las páginas en vivo.",
+        },
+      ],
+    },
+    {
+      title: "Errores frecuentes",
+      level: 2,
+      paras: [
+        "Dos códigos distintos a la vez, contador solo en la home, caché sirviendo HTML viejo sin el script, goals sin configurar — «hay visitas, no hay leads en el informe».",
+      ],
+      lists: [
+        {
+          intro: "Checklist de debug:",
+          items: [
+            "ver el código fuente — ¿está `mc.yandex` / el tag de Metrica?",
+            "sin Adblock bloqueando durante el test",
+            "ID de contador correcto",
+            "goals y UTM para ads",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO en Bitrix",
+          href: "/es/blog/seo-bitrix/",
+        },
+      ],
+    },
+    {
+      title: "Crear un contador y ajustes base",
+      level: 2,
+      paras: [
+        "En la cuenta de Metrica crea un contador para el dominio exacto del sitio, fija la zona horaria y revisa permisos. Toma el código de la UI de ese contador: no copies un fragmento de un proyecto viejo, aunque ambos sitios sean de la misma empresa.",
+        "Activa herramientas extra a propósito. Session Replay y mapas ayudan a estudiar comportamiento, pero antes de usarlos revisa reglas de datos personales, enmascarado de campos y requisitos de aviso al visitante en tu jurisdicción.",
+      ],
+      lists: [
+        {
+          intro: "Antes del deploy prepara:",
+          items: [
+            "acceso de propietario a la cuenta",
+            "lista de dominios y subdominios a trackear",
+            "contacto de desarrollador o acceso al CMS",
+            "reglas de tratamiento de datos de analytics",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Los goals importan más que el total de visitas",
+      level: 2,
+      paras: [
+        "Un contador sin goals muestra tráfico pero no si el sitio trae consultas. Configura eventos para envío de formulario, llamada, pedido, alta u otra acción con sentido. Los nombres de goals deben ser claros para quien lea el informe.",
+        "Dispara un goal solo tras una acción exitosa del usuario — no al clic en un botón. Si no, el informe se llena de «leads» de gente que abrió un formulario y cambió de idea, y las decisiones de ads se apoyan en datos malos.",
+      ],
+      lists: [
+        {
+          intro: "Goals útiles:",
+          items: [
+            "envío exitoso del formulario",
+            "pedido completado o página de gracias",
+            "clic en teléfono o messenger",
+            "descarga de un archivo importante si forma parte del funnel",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo verificar la instalación",
+      level: 2,
+      paras: [
+        "Abre varias páginas clave en incógnito y mira si aparece una visita en los informes. Luego revisa el source o DevTools: la página debe tener un solo tag correcto con el ID de contador necesario.",
+        "No testes solo la home. Las plantillas de catálogo, blog, carrito y menú móvil pueden construirse distinto, así que el código aterriza fácil solo en parte del sitio. Tras limpiar caché, vuelve a comprobar.",
+      ],
+      lists: [
+        {
+          intro: "Si no hay datos, revisa en orden:",
+          items: [
+            "corrección del ID del contador",
+            "presencia del tag en la página problemática",
+            "caché del CMS, CDN y optimizadores de scripts",
+            "bloqueador de anuncios en el navegador del tester",
+          ],
+        },
+      ],
+    },
+  ],
+};

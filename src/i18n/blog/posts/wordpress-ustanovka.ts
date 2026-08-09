@@ -178,3 +178,190 @@ export const wordpressUstanovkaEn: BlogPost = {
     "uskorenie-wordpress",
   ],
 };
+
+/** ES overlay for wordpress-ustanovka — same structure as RU JSON / EN. */
+export const wordpressUstanovkaEs: BlogPost = {
+  slug: "wordpress-ustanovka",
+  title: "Cómo instalar WordPress en hosting",
+  date: "2017-04-20",
+  category: "Digital marketing",
+  cover: "/images/blog/wordpress-ustanovka/cover.webp",
+  excerpt:
+    "Instalar WordPress: requisitos de hosting, base de datos, subida de archivos, el wizard install.php y primeros ajustes — sin PHP 4.3 de guías de 2017 ni culto a Total Commander.",
+  lead: [
+    "WordPress corre en hosting con PHP y MySQL o MariaDB: crea una base de datos, pon los archivos en la raíz del sitio y ejecuta el wizard de instalación. Luego — login al admin, permalinks, updates.",
+    "Abajo: el orden actual. Los instaladores de un clic del panel del host (Softaculous y similares) a menudo hacen lo mismo en minutos; el camino clásico importa cuando el auto-install no está o necesitas control total. Los requisitos de versión de PHP y BD están en wordpress.org — cifras como PHP 4.3 de artículos viejos están hace tiempo obsoletas.",
+  ],
+  faq: [
+    {
+      q: "¿Hay que editar wp-config a mano?",
+      a: "No. El wizard de instalación a menudo crea el config si el directorio es escribible. Copiar a mano desde el sample es un fallback.",
+    },
+    {
+      q: "¿Dónde van los archivos?",
+      a: "Al document root del dominio: suele ser `public_html`, `www` o la carpeta del dominio en el panel. No una carpeta anidada al azar si el sitio debe abrir desde la raíz.",
+    },
+    {
+      q: "¿En qué se diferencia instalar del login al admin?",
+      a: "La instalación crea tablas y el primer usuario. Luego el login es `/wp-admin/`. Login y reset de contraseña son un artículo aparte.",
+    },
+    {
+      q: "¿Hace falta hosting de pago?",
+      a: "Para un blog de práctica a veces basta gratis o local. Para comercio — un plan de pago con backups, SSL y una versión normal de PHP.",
+    },
+    {
+      q: "¿Instalar te pone en primera página de búsqueda?",
+      a: "No. El CMS es solo una plataforma. El SEO es contenido, técnica y meses de trabajo; la prep del sitio no son rankings en primera página. La cuota del núcleo suele planificarse en dos a seis meses tras arrancar el trabajo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué necesitarás",
+      level: 2,
+      paras: [
+        "Un dominio con DNS apuntando al hosting, acceso al panel (o FTP/SFTP), un archivo fresco de WordPress del sitio oficial. Editor de código y cliente FTP — opcionales; el gestor de archivos del host suele bastar.",
+        "Antes de empezar pregunta al host: versión de PHP, MySQL/MariaDB, límites, cómo crear una BD. Si no tienes claro el tipo de plan — ordena el hosting primero.",
+      ],
+      lists: [
+        {
+          intro: "Set mínimo:",
+          items: [
+            "hosting con PHP actual",
+            "base de datos MySQL/MariaDB y un usuario con derechos",
+            "SFTP/FTP o un gestor de archivos",
+            "archivo oficial de WordPress",
+            "una contraseña fuerte para el admin de WP",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Qué es el hosting",
+          href: "/es/blog/hosting/",
+        },
+        {
+          label: "Registro de dominio",
+          href: "/blog/registratsiya-domena/",
+        },
+        {
+          label: "FTP",
+          href: "/es/blog/ftp/",
+        },
+      ],
+    },
+    {
+      title: "Base de datos",
+      level: 2,
+      paras: [
+        "En el panel del host crea una base de datos y un usuario, adjunta el usuario a la BD con derechos completos. Guarda: nombre de BD, login, contraseña, host (a menudo `localhost`, a veces un host aparte).",
+        "Charset y collation — utf8mb4 si el panel ofrece elección. El soporte del host ayuda si faltan campos de libro de texto.",
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "warning",
+          text: "Confundir el nombre de la BD y el del usuario o poner mal el DB_HOST — el wizard de instalación reporta error de conexión a la BD.",
+        },
+      ],
+    },
+    {
+      title: "Archivos de WordPress en el servidor",
+      level: 2,
+      paras: [
+        "Descomprime el archivo en local y sube el contenido de la carpeta `wordpress` a la raíz del sitio — para que `wp-admin`, `wp-content`, `wp-includes` e `index.php` queden lado a lado. O sube el zip y descomprime en el servidor si el panel puede.",
+        "SFTP gana al FTP plano sin cifrar y desfasado. El nombre del cliente (FileZilla, panel, cualquier gestor) no importa — host, login, puerto y directorio sí.",
+      ],
+    },
+    {
+      title: "Wizard de instalación",
+      level: 2,
+      paras: [
+        "Abre `https://tu-dominio.example/wp-admin/install.php` (o la raíz del sitio — redirect a install). Elige idioma, datos de BD si te los pide, luego título del sitio, login de admin, contraseña y email.",
+        "No uses login `admin` y contraseña `123456`. Tras el éxito entra en `/wp-admin/`. Si creas el config a mano desde `wp-config-sample.php` — rellena datos de BD y claves de seguridad únicas (generador en wordpress.org), guarda como `wp-config.php`.",
+      ],
+      lists: [
+        {
+          intro: "Orden clásico:",
+          items: [
+            "BD creada",
+            "archivos en la raíz",
+            "install.php completado",
+            "login al admin",
+            "permalinks y updates",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Login al admin de WordPress",
+          href: "/blog/wordpress-admin/",
+        },
+      ],
+    },
+    {
+      title: "Instalación de un clic en el panel del host",
+      level: 2,
+      paras: [
+        "Muchos hosts ofrecen «instalar WordPress en un clic». Elige el dominio, login y contraseña de admin — el script crea la BD y los archivos. Después abre igual el admin, cambia la contraseña si hace falta y revisa updates.",
+        "El auto-install ahorra tiempo pero no quita la responsabilidad de backups, SSL y updates de core, tema y plugins.",
+      ],
+    },
+    {
+      title: "Justo después de instalar",
+      level: 2,
+      paras: [
+        "Activa HTTPS, configura permalinks, quita contenido demo, instala solo los plugins necesarios del catálogo oficial. Elige un tema para el trabajo, no «la imagen más descargada».",
+        "Desanima la indexación de búsqueda mientras el sitio sea un borrador. Seguridad y velocidad son vías aparte.",
+      ],
+      lists: [
+        {
+          intro: "Checklist del día uno:",
+          items: [
+            "contraseña fuerte y email de admin",
+            "updates del core",
+            "SSL y redirect a HTTPS",
+            "permalinks",
+            "backup antes de experimentar con plugins",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Plugins de WordPress",
+          href: "/blog/wordpress-plaginy/",
+        },
+        {
+          label: "Seguridad en WordPress",
+          href: "/blog/wordpress-bezopasnost/",
+        },
+        {
+          label: "Elegir un tema",
+          href: "/blog/tema-wordpress/",
+        },
+        {
+          label: "Certificado SSL",
+          href: "/es/blog/ssl-sertifikat/",
+        },
+      ],
+    },
+    {
+      title: "Ideas clave",
+      level: 2,
+      paras: [
+        "Instalar WordPress es BD + archivos + wizard. Después importa más la higiene: contraseñas, updates, backups, plugins sensatos.",
+        "El paquete oficial y PHP actual en el hosting ganan a una «guía de PHP 4» de artículos viejos.",
+      ],
+    },
+  ],
+  closing: [
+    "Crea la base de datos, pon WordPress oficial en la raíz, ejecuta install.php o el instalador del panel — y cierra ya la higiene básica de seguridad. El CMS está listo; contenido y promoción son lo siguiente.",
+  ],
+  related: [
+    "wordpress-admin",
+    "wordpress-plaginy",
+    "wordpress-bezopasnost",
+    "hosting",
+    "tema-wordpress",
+    "uskorenie-wordpress",
+  ],
+};

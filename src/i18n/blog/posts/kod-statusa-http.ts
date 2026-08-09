@@ -195,3 +195,199 @@ export const kodStatusaHttpEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for kod-statusa-http — same structure as RU JSON / EN. */
+export const kodStatusaHttpEs: BlogPost = {
+  slug: "kod-statusa-http",
+  title: "Códigos de estado HTTP: clases, significado y cómo comprobarlos",
+  date: "2021-02-01",
+  category: "SEO",
+  cover: "/images/blog/kod-statusa-http/cover.webp",
+  excerpt:
+    "Qué es un status de respuesta HTTP, cómo leer las clases 1xx–5xx, qué códigos importan para el SEO y cómo comprobar una URL o todo el sitio.",
+  lead: [
+    "Un código de estado HTTP es un número de tres dígitos en la respuesta del servidor: si se sirvió la página, hace falta un redirect o algo falló. Navegadores y bots de búsqueda lo leen antes de tocar el HTML.",
+    "Abajo: clases de códigos, qué debe vigilar un webmaster y cómo comprobar URLs una a una o en lote. Deep-dives aparte sobre 200 y 502 están en artículos relacionados.",
+    "Statuses equivocados (soft 200 en una página quitada, cadenas de redirects, 5xx masivos) duelen al crawl y a la indexación más que un typo en el footer.",
+  ],
+  faq: [
+    {
+      q: "¿Dónde veo el código de estado?",
+      a: "DevTools → Network, `curl -I`, checkers online, crawlers (Screaming Frog y similares) e informes de hosting o CDN.",
+    },
+    {
+      q: "¿Qué status es «normal» para una página indexada?",
+      a: "Suele ser 200. Mudanza permanente — 301. Temporal — 302/307. Quitada sin reemplazo — 404 o 410.",
+    },
+    {
+      q: "¿En qué se diferencia un 404 de un 410?",
+      a: "404 significa «no encontrado» (puede volver). 410 significa «fuera a propósito». Para URLs quitadas de forma permanente, 410 es más claro para los bots.",
+    },
+    {
+      q: "¿Por qué importan los códigos de estado para el SEO?",
+      a: "El bot decide si indexar una URL, si pasar señales en un redirect y cuánto crawl budget gastar en errores.",
+    },
+    {
+      q: "¿Qué es un soft 404?",
+      a: "La página devuelve 200 pero en esencia dice «aquí no hay nada». Para la búsqueda es peor que un 404 honesto: basura entra al índice.",
+    },
+    {
+      q: "¿Debo comprobar todo el sitio?",
+      a: "Sí tras una mudanza, cambio de CMS o ediciones masivas de URL. En ritmo habitual — muestra de plantillas clave más un crawl.",
+    },
+    {
+      q: "¿Los errores 5xx matan rankings al instante?",
+      a: "Un blip breve normalmente no. Un downtime largo y 5xx masivos sí duelen al crawl y a la confianza en disponibilidad.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo funciona una respuesta del servidor",
+      level: 2,
+      paras: [
+        "El cliente pide una URL. El servidor responde con una línea tipo `HTTP/1.1 200 OK`, headers y un body. El código es una señal rápida de qué pasó.",
+        "La búsqueda se apoya en el status al rastrear: 200 se puede parsear como documento, 301 significa seguir la dirección nueva, 404 significa no esperar contenido.",
+      ],
+      lists: [
+        {
+          intro: "En la línea de status:",
+          items: [
+            "versión del protocolo",
+            "código de tres dígitos",
+            "frase corta de texto (OK, Not Found…)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Bases del servidor web",
+          href: "/es/blog/veb-server/",
+        },
+      ],
+    },
+    {
+      title: "Clases 1xx–5xx",
+      level: 2,
+      paras: [
+        "Los códigos se agrupan por el primer dígito. En la práctica SEO sueles encontrar sobre todo 2xx, 3xx, 4xx y 5xx.",
+      ],
+      lists: [
+        {
+          intro: "En corto:",
+          items: [
+            "1xx — intermedios (raros en sitios típicos)",
+            "2xx — éxito (200 — página servida)",
+            "3xx — redirect (301/302/307…)",
+            "4xx — error de cliente (404, 403, 410…)",
+            "5xx — error de servidor (500, 502, 503, 504…)",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "No memorices todos los códigos. Guarda una chuleta de los habituales y sabe cómo comprobar la respuesta real — no «lo que debería mostrar el panel de admin».",
+        },
+      ],
+      links: [
+        {
+          label: "Redirects 301 y 302",
+          href: "/es/blog/redirekt/",
+        },
+        {
+          label: "502 Bad Gateway",
+          href: "/es/blog/oshibka-502/",
+        },
+      ],
+    },
+    {
+      title: "Qué importa a webmasters y SEO",
+      level: 2,
+      paras: [
+        "Las landings clave deberían devolver 200 de forma estable. Tras una mudanza — 301s directos sin cadenas largas. URLs quitadas — no las enmascares con un 200 de homepage.",
+        "Vigila picos de 404 en Webmaster y logs: enlaces internos rotos, backlinks desfasados, errores de export.",
+      ],
+      lists: [
+        {
+          intro: "Banderas rojas:",
+          items: [
+            "producto o servicio quitado pero aún 200 con plantilla vacía",
+            "cadenas de redirects A→B→C→D",
+            "homepage devolviendo 302 «a algún sitio»",
+            "5xx masivos de noche en picos de bots",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Enlaces rotos",
+          href: "/es/blog/bitye-ssylki/",
+        },
+      ],
+    },
+    {
+      title: "Cómo comprobar una URL",
+      level: 2,
+      paras: [
+        "La forma más honesta es el header de respuesta: `curl -I https://example.com/page/` o la pestaña Network del navegador. Revisa el código final tras redirects y la cadena Location.",
+        "Las tools online son cómodas, pero en casos dudosos comprueba desde un servidor o CI y cuenta con CDN y geo.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de una URL:",
+          items: [
+            "código de respuesta final",
+            "número de saltos de redirect",
+            "www/https coinciden con el canónico",
+            "sin soft 404 por contenido",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Comprobar todo el sitio",
+      level: 2,
+      paras: [
+        "Un crawler sigue enlaces internos y arma una tabla de status. Tras un cambio de estructura, compara la lista con el sitemap y URLs prioritarias de Webmaster.",
+        "Comprobar en lote backlinks externos es aparte: no todo debería redirigir a la homepage.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo lanzar un crawl completo:",
+          items: [
+            "mudanza de dominio o HTTPS",
+            "cambio de CMS o esquema de URLs",
+            "rediseño mayor de plantillas",
+            "picos de errores en paneles de webmaster",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Logs del servidor",
+          href: "/es/blog/logi-servera/",
+        },
+      ],
+    },
+    {
+      title: "Cómo meterlo en la rutina",
+      level: 2,
+      paras: [
+        "Alertas de 5xx en hosts principales, un vistazo mensual a 404s, un check tras cada release. Los statuses son higiene — no magia SEO de un solo golpe.",
+        "Arreglar la técnica forma parte de la prep del sitio. El crecimiento de ranking de un set de keywords tras estabilizar es un proceso aparte, de meses.",
+      ],
+      lists: [
+        {
+          intro: "Mini ritual:",
+          items: [
+            "monitor de uptime",
+            "crawl de plantillas clave",
+            "revisión de los 404 más frecuentes en logs",
+            "mapa de 301 cuando se quitan URLs",
+          ],
+        },
+      ],
+    },
+  ],
+};

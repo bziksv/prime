@@ -130,3 +130,134 @@ export const prodvizhenieBrendaEn: BlogPost = {
     "Starting brand promotion means locking a goal, breaking it into SMART tasks, and checking reality with SWOT. Channels and budget connect after that — not instead.",
   ],
 };
+
+/** ES overlay for prodvizhenie-brenda — same structure as RU JSON / EN. */
+export const prodvizhenieBrendaEs: BlogPost = {
+  slug: "prodvizhenie-brenda",
+  title: "Cómo empezar a promocionar una marca: objetivos, SMART y SWOT",
+  date: "2020-12-04",
+  category: "Digital marketing",
+  cover: "/images/blog/prodvizhenie-brenda/cover.webp",
+  excerpt:
+    "Por dónde empezar la promoción de marca online: cómo difiere un objetivo de una tarea, cómo fijar metas SMART, qué errores evitar y por qué el SWOT va antes del presupuesto de canales.",
+  lead: [
+    "La promoción de marca sin estrategia se vuelve rápido un montón de actividad: posts solo para parecer ocupado, artículos sin objetivo, ads sin economía. Online sigue las mismas reglas que offline: primero el resultado, luego la lista de tareas.",
+    "Abajo: objetivo vs tarea, encuadre SMART, errores habituales y SWOT como forma de no ignorar el mercado. La marca personal de un experto y el tráfico de búsqueda de marca son temas relacionados pero aparte.",
+  ],
+  faq: [
+    {
+      q: "¿En qué difiere un objetivo de una tarea?",
+      a: "Un objetivo es el resultado final (awareness, leads, cuota de mercado). Las tareas son pasos de estrategia: contenido, SEO, ads, PR. Sin objetivo, las tareas se vuelven busywork.",
+    },
+    {
+      q: "¿Qué es SMART?",
+      a: "Specific, Measurable, Achievable, Relevant, Time-bound: el objetivo es concreto, medible, realista, ligado al negocio y tiene plazo.",
+    },
+    {
+      q: "¿Por qué hacer un SWOT de marca?",
+      a: "Para ver fortalezas/debilidades, oportunidades y amenazas antes de elegir canales. Si no, el presupuesto va a tools familiares, no a las que necesitas.",
+    },
+    {
+      q: "¿Es lo mismo que marca personal?",
+      a: "No. La marca personal habla del experto como persona. Aquí — de la marca de la empresa. A menudo se refuerzan, pero objetivos y KPIs difieren.",
+    },
+    {
+      q: "¿Cuánto esperar el efecto SEO en un plan de marca?",
+      a: "Prep del sitio y del set de keywords — ~un mes. El crecimiento notable de posiciones no-marca se planifica a 2–6 meses. La marca en búsqueda también crece con PR/ads, no solo con SEO.",
+    },
+    {
+      q: "¿Puedo entrar en todos los canales a la vez?",
+      a: "Mejor uno o dos canales prioritarios según objetivo y recursos. Escala tras los primeros resultados medibles.",
+    },
+    {
+      q: "¿Qué errores son más habituales?",
+      a: "Objetivo vago, KPIs sin plazo, copiar competidores sin posición propia, confundir actividad con resultados, ignorar economía (CPA/ROMI).",
+    },
+  ],
+  sections: [
+    {
+      title: "Objetivo y tareas: no los mezcles",
+      level: 2,
+      paras: [
+        "Un objetivo es el punto hacia el que se mueve el negocio: por ejemplo un flujo estable de leads bajo un nombre reconocible, o crecimiento de la cuota de queries de marca. Una tarea es un elemento del camino: una serie de contenido, un lanzamiento de ads, trabajo de reseñas.",
+        "El orden es simple: fija el resultado → elige estrategia → parte en tareas. Si empiezas con «necesitamos más artículos SEO» sin «por qué y para cuándo» — la estrategia no ha arrancado.",
+      ],
+      lists: [
+        {
+          intro: "Cadena de ejemplo:",
+          items: [
+            "objetivo — crecimiento de tráfico cualificado y engagement en un trimestre",
+            "tareas — clusters de landings, plan de contenido, presencia social bajo la oferta",
+            "métricas — visitas, objetivos, cuota de marca, CPA/ROMI donde encaje",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Objetivos SMART para la promoción",
+      level: 2,
+      paras: [
+        "SMART no es magia — es un filtro contra deseos borrosos tipo «ser más conocidos». Cada objetivo debe responder: qué exactamente, cómo lo mediremos, si los recursos lo permiten, por qué lo necesita el negocio, para qué fecha.",
+        "Ejemplo de vía SEO: «en seis meses llegar a N visitas/día en clusters target» — solo si una auditoría muestra que es alcanzable. La prep lleva semanas o ~un mes. Construir visibilidad del set de keywords se planifica a 2–6 meses, no «primera página en una semana».",
+      ],
+      lists: [
+        {
+          intro: "Check SMART:",
+          items: [
+            "Specific — el resultado está claro",
+            "Measurable — hay un número y una fuente de datos",
+            "Achievable — recursos y mercado lo permiten",
+            "Relevant — ligado a dinero/estrategia",
+            "Time-bound — hay plazo y puntos de control",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "ROI de marketing",
+          href: "/es/blog/roi-marketinga/",
+        },
+      ],
+    },
+    {
+      title: "Errores que conviene evitar",
+      level: 2,
+      paras: [
+        "Una trampa habitual es optimizar actividad en lugar de resultados: crece el número de posts, los leads no. Segunda — fijar los objetivos del competidor, no los tuyos (otro presupuesto, otro producto).",
+        "Tercera — ignorar tiempo y atribución: marca y SEO no se miden por un día tras publicar. Cuarta — lanzar todo a la vez sin prioridad y sin dueño de las métricas.",
+      ],
+      lists: [
+        {
+          intro: "Red flags:",
+          items: [
+            "un objetivo sin número ni plazo",
+            "KPIs solo de «reach» cuando el objetivo son ventas",
+            "presupuesto sin vínculo al CPA permitido",
+            "copy-paste del tone of voice de otro",
+          ],
+        },
+      ],
+    },
+    {
+      title: "SWOT antes de elegir canales",
+      level: 2,
+      paras: [
+        "El SWOT ayuda a armar el cuadro: fortalezas (producto, servicio, expertise), debilidades (awareness, sitio, reseñas), oportunidades y amenazas del mercado (competidores, temporada, regulación).",
+        "El punto del review es amplificar ventajas y cortar riesgos antes de gastar presupuesto. El mismo marco ayuda para un solo tool — SEO, ads o social — una vez que el objetivo y el plazo ya son SMART.",
+      ],
+      links: [
+        {
+          label: "Marca personal en redes",
+          href: "/es/blog/lichnyy-brend/",
+        },
+        {
+          label: "Tráfico de marca",
+          href: "/es/blog/brendovyy-trafik/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Empezar la promoción de marca significa fijar un objetivo, partirlo en tareas SMART y chequear la realidad con SWOT. Canales y presupuesto se conectan después — no en su lugar.",
+  ],
+};

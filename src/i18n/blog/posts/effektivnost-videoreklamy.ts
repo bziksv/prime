@@ -128,3 +128,132 @@ export const effektivnostVideoreklamyEn: BlogPost = {
     "aydentika-brenda",
   ],
 };
+
+/** ES overlay for effektivnost-videoreklamy — same structure as RU JSON / EN. */
+export const effektivnostVideoreklamyEs: BlogPost = {
+  slug: "effektivnost-videoreklamy",
+  title: "Cómo medir la eficacia de la publicidad en vídeo: métricas de media, marca y negocio",
+  date: "2019-05-06",
+  category: "Digital marketing",
+  cover: "/images/blog/effektivnost-videoreklamy/cover.webp",
+  excerpt:
+    "Métricas de ads en vídeo por capa: impresiones y viewability, VTR/CPV, reach y frequency; Brand Lift y encuestas; conversiones, códigos promo y caminos asistidos — sin adorar un solo CTR.",
+  lead: [
+    "No se puede juzgar con honestidad una campaña de vídeo solo por CTR: una impresión ≠ una view, una view ≠ interés de marca, el interés ≠ una venta. El trabajo del creativo (awareness o performance) fija qué métricas importan.",
+    "Tres capas abajo: media (entrega y atención), marketing (percepción de marca), negocio (conversiones y aportación a ventas). Las cifras de CPM, umbrales de Brand Lift y precios de encuestas de guías viejas se quedan obsoletas — comprueba términos actuales de la plataforma; en Rusia también cuenta qué cuentas de ads están disponibles al lanzar.",
+  ],
+  faq: [
+    {
+      q: "¿Basta el CPV solo?",
+      a: "No. El CPV dice cuánto cuesta un contacto — no si el viewer recordó la marca o compró.",
+    },
+    {
+      q: "¿Qué es viewability en vídeo?",
+      a: "A grosso modo: el ad en una pestaña activa, una cuota significativa del player a la vista y un tiempo mínimo de play. Los umbrales exactos vienen de la plataforma — mira la ayuda de la cuenta.",
+    },
+    {
+      q: "¿Es obligatorio Brand Lift?",
+      a: "Útil en compras grandes de marca. En presupuestos pequeños a menudo no está disponible o no tiene sentido — entonces mira búsqueda de marca, visitas directas, encuestas y conversiones downstream.",
+    },
+    {
+      q: "¿Cómo ligo el vídeo a las ventas?",
+      a: "Tracking de conversión en la cuenta de ads, UTM + analytics, códigos promo en el creativo, conversiones asistidas y (donde exista) un modelo de extremo a extremo. Solo last-click a menudo infravalora el vídeo.",
+    },
+    {
+      q: "¿Un VTR alto significa una buena campaña?",
+      a: "El completion importa, pero el viewer pudo quedarse distraído sin saltar. Lígala a la marca y a la meta de negocio.",
+    },
+    {
+      q: "¿Puedo comparar YouTube y la red de vídeo de Yandex cara a cara?",
+      a: "Con cuidado: subastas, formatos y atribución distintas. Compara la aportación a tu embudo — no «qué plataforma es mejor en abstracto».",
+    },
+  ],
+  sections: [
+    {
+      title: "Métricas de media: entrega y atención",
+      level: 2,
+      paras: [
+        "Las impresiones son la base de facturación y escala — no prueba de que el ad se vio. La viewability separa una «impresión contada» de un contacto real a la vista.",
+        "VTR (views como cuota de impresiones) y CPV (coste por view) son métricas operativas sólidas. No sustituyen juzgar el impacto en el comportamiento.",
+        "Reach y frequency (incluido unique reach) muestran cuántos usuarios únicos vieron el mensaje y con qué frecuencia. Sin volumen suficiente, los modelos de reach son poco fiables; cookies y cross-device son aproximaciones, no la verdad final.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo al inicio:",
+          items: [
+            "meta de campaña: marca / tráfico / conversión",
+            "caps de frequency para no quemar la audiencia",
+            "reporting de viewability y completions, no solo clics",
+            "creativo con aparición temprana de marca",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Ads en vídeo en YouTube",
+          href: "/es/blog/videoreklama-youtube/",
+        },
+        {
+          label: "Métricas de publicidad",
+          href: "/es/blog/metriki-reklamy/",
+        },
+      ],
+    },
+    {
+      title: "Métricas de marketing: marca y percepción",
+      level: 2,
+      paras: [
+        "Brand Lift y estudios similares comparan awareness, preferencia e intent entre expuestos vs no expuestos. Útil en presupuestos grandes; umbrales de lanzamiento y ventanas de stats los fija la plataforma — confirma qué está vigente.",
+        "«Sin Lift» a menudo significa creativo débil: marca tarde o invisible, poca identidad, mucho ruido de TV u otros canales. Fix — logo y mensaje más tempranos, luego tweaks de frequency y targeting.",
+        "Encuestas DIY (tools tipo panel y pares) cuestan menos que estudios de lift pero separan peor a los «expuestos». Útiles antes del lanzamiento o para hipótesis — no como único KPI de la campaña.",
+      ],
+      notes: [
+        {
+          title: "Disponibilidad de tools",
+          kind: "tip",
+          text: "Nombres de servicios, umbrales de presupuesto y precios de encuestas cambian. No copies cifras de artículos de 2019 — mira la ayuda de la cuenta y al manager de la plataforma.",
+        },
+      ],
+    },
+    {
+      title: "Métricas de negocio: aportación a ventas",
+      level: 2,
+      paras: [
+        "El tracking de conversión en la cuenta de ads (click / view / view-through — según reglas de la plataforma) liga el vídeo a leads y compras. Fija metas de forma coherente y cuenta los límites cross-device.",
+        "Un código promo en el creativo es una forma simple de ver ventas directas del spot. Las conversiones asistidas y los caminos en analytics muestran dónde el vídeo fue un touch — no last-click.",
+        "En resumen: eficacia = ayuda a la meta. Para marca, mira lift y búsqueda de marca; para performance — CPA/ROAS y calidad de leads, no un VTR bonito en el vacío.",
+      ],
+      lists: [
+        {
+          intro: "Pon en una tabla:",
+          items: [
+            "media: reach, frequency, viewability, VTR, CPV",
+            "marca: lift / encuestas / búsqueda de marca (si hay)",
+            "negocio: conversiones, códigos promo, caminos asistidos, ROAS/CPA",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Conversiones asistidas",
+          href: "/es/blog/assotsiirovannye-konversii/",
+        },
+        {
+          label: "ROAS",
+          href: "/es/blog/roas/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Juzga los ads en vídeo por capas: primero entrega y atención, luego marca, luego dinero. Una sola métrica no cuenta la historia de la campaña — arma un panel para el trabajo del creativo y mantén al día las métricas de la plataforma.",
+  ],
+  related: [
+    "videoreklama-youtube",
+    "metriki-reklamy",
+    "assotsiirovannye-konversii",
+    "roas",
+    "audit-reklamnoy-kampanii",
+    "aydentika-brenda",
+  ],
+};

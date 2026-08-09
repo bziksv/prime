@@ -225,3 +225,229 @@ export const nazvanieInternetMagazinaEn: BlogPost = {
     "molodoy-sayt",
   ],
 };
+
+/** ES overlay for nazvanie-internet-magazina — same structure as RU JSON / EN. */
+export const nazvanieInternetMagazinaEs: BlogPost = {
+  slug: "nazvanie-internet-magazina",
+  title: "Cómo nombrar una tienda online",
+  date: "2020-03-27",
+  category: "Marketing digital",
+  cover: "/images/blog/nazvanie-internet-magazina/cover.webp",
+  excerpt:
+    "Cómo elegir un nombre para una tienda online: audiencia y surtido, dominio, sonido, unicidad y chequeos de conflicto — sin prometer que «el nombre = rankings».",
+  lead: [
+    "El nombre es lo primero que la gente ve en la búsqueda, los ads y el header del sitio. Un nombre débil los aparta antes del catálogo: difícil de decir, poco claro qué vendes, parece la marca de otro.",
+    "Abajo: por qué el nombre afecta al marketing, diez reglas prácticas de selección y cómo vetar candidatos. Nicho y surtido viven en guías relacionadas; aquí el foco es el naming del escaparate. Un nombre fuerte no sustituye el SEO — la visibilidad del set de keywords se construye a lo largo de meses tras la prep.",
+  ],
+  faq: [
+    {
+      q: "¿Debo meter una keyword en el nombre?",
+      a: "Sí si suena natural («Pump World»). Meter «compra barato ciudad» en una marca daña la confianza — y a menudo el dominio.",
+    },
+    {
+      q: "¿Cuántas palabras es óptimo?",
+      a: "Suele 1–3. Las construcciones largas son difíciles de recordar y no caben en un logo o dominio.",
+    },
+    {
+      q: "¿Latín o escritura local?",
+      a: "Depende de la audiencia. Los dominios suelen ser latinos; la marca puede estar en el idioma local con un translit limpio para la URL.",
+    },
+    {
+      q: "¿Puedo usar el apellido del fundador?",
+      a: "Sí si construye confianza y no choca con marcas ajenas. Solo el nombre de pila es más difícil de recordar por los homónimos.",
+    },
+    {
+      q: "¿Qué comprobar más allá de «nos gusta»?",
+      a: "Dominio libre, handles en redes, búsqueda de marca, marcas registradas y competidores, decirlo en voz alta y una encuesta corta a la audiencia.",
+    },
+    {
+      q: "¿Hace falta geografía en el nombre de la tienda?",
+      a: "Solo si es una ventaja (servicio local, origen). Si no, limita la escala.",
+    },
+    {
+      q: "¿El nombre solo te lleva a la primera página?",
+      a: "No. Es marca y CTR. La prep del escaparate toma semanas. La visibilidad en primera página del set de keywords se planifica a 2–6 meses tras el inicio de trabajos.",
+    },
+    {
+      q: "¿Y si el nombre ya está cogido?",
+      a: "No copies. Busca un sinónimo, neologismo u otro ángulo. La confusión y el riesgo de reclamación ganan a «ahorrar en creative».",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué el nombre importa para una tienda",
+      level: 2,
+      paras: [
+        "En la búsqueda y los ads el usuario decide en una fracción de segundo: «¿esto va de mi producto?». Un nombre torpe o ambiguo corta el CTR antes del landing. Offline, la gente lo dice por teléfono y lo recomienda a amigos — una cadena de letras difícil se cae.",
+        "Un nombre fuerte no sustituye surtido, precio y envío. Pero un nombre débil desgasta constantemente la comunicación: la gente pregunta otra vez, te confunde con un competidor, no te encuentra en la búsqueda de marca.",
+      ],
+      lists: [
+        {
+          intro: "Qué da un buen nombre:",
+          items: [
+            "una señal clara de nicho",
+            "más fácil de recordar y dictar",
+            "alineación con dominio y logo",
+            "menos confusión con otras marcas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Promoción de e-commerce",
+          href: "/es/blog/prodvizhenie-internet-magazina/",
+        },
+        {
+          label: "Elegir el nicho del sitio",
+          href: "/es/blog/nisha-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Audiencia, surtido y tono",
+      level: 2,
+      paras: [
+        "El nombre debe pegar al lenguaje de la audiencia: premium suena distinto del mass-market; B2B difiere del merch adolescente. La plantilla «hombres = lacónico / mujeres = romance» es demasiado cruda — mira segmentos reales de tu nicho.",
+        "Relevancia del surtido: del nombre debería quedar claro qué vendes, o al menos qué feeling o categoría. Lo creativo sin ancla de producto hace adivinar — algunos se van a un competidor más claro.",
+      ],
+      lists: [
+        {
+          intro: "Preguntas antes del brainstorm:",
+          items: [
+            "quién es el comprador principal",
+            "qué tres palabras describen el surtido",
+            "tono: estricto, cálido, juguetón",
+            "¿ampliarás categorías en un año?",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Dominio, sonido, longitud",
+      level: 2,
+      paras: [
+        "Idealmente marca y dominio coinciden o están cercanos: más fácil buscar y dictar. Revisa TLDs habituales y typos típicos. Una URL muy larga con guiones es torpe en ads.",
+        "Sonido: dilo en voz alta, por teléfono, a velocidad. Evita uniones que creen dobles sentidos. Una o dos palabras ganan a cuatro. Un neologismo vale si se lee fácil y no rompe la transliteración.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de sonido:",
+          items: [
+            "fácil de dictar",
+            "sin homófonos embarazosos",
+            "translit corto para el dominio",
+            "encaja en logo y favicon",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Dominio de primer nivel",
+          href: "/es/blog/domen-pervogo-urovnya/",
+        },
+        {
+          label: "Dominio .рф",
+          href: "/es/blog/domen-rf/",
+        },
+      ],
+    },
+    {
+      title: "Unicidad e higiene legal",
+      level: 2,
+      paras: [
+        "No copies la marca de otro «casi como el líder». Revisa búsqueda, marketplaces, redes y registros abiertos de marcas. No es una consultoría legal, pero corta conflictos obvios.",
+        "Un apellido en el nombre suma «cara detrás de la tienda» si estás listo a construir marca personal. Si no, un nombre de tienda neutro es más seguro.",
+      ],
+      lists: [
+        {
+          intro: "Chequeos mínimos:",
+          items: [
+            "búsqueda del nombre exacto",
+            "handles libres en redes",
+            "dominio libre",
+            "sin confusión con un gran jugador del nicho",
+            "encuesta a 5–10 personas de la audiencia",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error frecuente",
+          kind: "tip",
+          text: "Enamorarse de un nombre antes de comprobar el dominio y los homónimos en la búsqueda.",
+        },
+      ],
+      links: [
+        {
+          label: "Marca personal",
+          href: "/es/blog/lichnyy-brend/",
+        },
+      ],
+    },
+    {
+      title: "Emoción, geografía, asociaciones",
+      level: 2,
+      paras: [
+        "La emoción positiva encaja si no abarata el producto — una broma en joyería puede fallar. La ambigüedad y las asociaciones cortantes bajan la confianza.",
+        "Añade geografía cuando sea un plus: entrega local, región de producción. Para un catálogo global «CityN-Shop» a menudo bloquea la escala.",
+      ],
+      lists: [
+        {
+          intro: "Test rápido de asociación:",
+          items: [
+            "qué piensa alguien sin el sitio",
+            "qué productos espera",
+            "alguna negatividad o ambigüedad",
+            "si haría clic en la búsqueda",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo elegir de una shortlist",
+      level: 2,
+      paras: [
+        "Reúne 10–15 opciones → filtra por dominio y conflictos → quédate con tres → muéstralo a la audiencia y al equipo sin spoilear «nuestro favorito». Mira qué nombre la gente repite sin que se lo digas.",
+        "Fija ortografía, translit, reglas de flexión. Después — logo, header, consistencia en ads. Haz SEO del catálogo y contenido según el plan de promoción — no confíes en magia del naming.",
+      ],
+      lists: [
+        {
+          intro: "Checklist final:",
+          items: [
+            "claro para la audiencia",
+            "ligado al surtido",
+            "dominio y redes OK",
+            "único y sin conflictos",
+            "fácil de pronunciar",
+            "validado por una encuesta",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Descripción del producto en la ficha",
+          href: "/blog/opisanie-tovara/",
+        },
+        {
+          label: "SEO de un sitio joven",
+          href: "/es/blog/molodoy-sayt/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "El naming toma días o semanas en el lanzamiento. La visibilidad en primera página para queries es un horizonte aparte — planificado a 2–6 meses tras el inicio de trabajos en el sitio.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "nisha-sayta",
+    "prodvizhenie-internet-magazina",
+    "lichnyy-brend",
+    "domen-pervogo-urovnya",
+    "molodoy-sayt",
+    "domen-rf",
+  ],
+};

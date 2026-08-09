@@ -136,3 +136,140 @@ export const potrebitelskiyInsaytEn: BlogPost = {
     "nayti-marketologa",
   ],
 };
+
+/** ES overlay for potrebitelskiy-insayt — same structure as RU JSON / EN. */
+export const potrebitelskiyInsaytEs: BlogPost = {
+  slug: "potrebitelskiy-insayt",
+  title: "Insight del consumidor: qué es y cómo encontrarlo",
+  date: "2019-07-11",
+  category: "Digital marketing",
+  cover: "/images/blog/potrebitelskiy-insayt/cover.webp",
+  excerpt:
+    "Un insight del consumidor es un motivo oculto en la fórmula «quiero…, pero…». Por qué lo necesita el marketing y dónde buscarlo: datos, encuestas, contradicciones, foros, redes y competidores.",
+  lead: [
+    "Un insight en marketing no es inspiración de la nada, sino un motivo no obvio de la audiencia que explica el comportamiento mejor que la demografía. Una fórmula útil: «quiero…, pero…» — un conflicto de deseo y barrera.",
+    "Abajo: por qué hace falta un insight, señales de una redacción fuerte y lugares prácticos donde mirar.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia un insight de un segmento «mujeres 25–45»?",
+      a: "Un segmento describe quién. Un insight es por qué compran o no — qué conflicto interno resuelve el producto.",
+    },
+    {
+      q: "¿Basta una encuesta para encontrar un insight?",
+      a: "Una encuesta da hipótesis, pero la gente a menudo responde «como toca». Combínala con comportamiento, reseñas y observación.",
+    },
+    {
+      q: "¿Es obligatorio el conflicto en la redacción?",
+      a: "Un insight fuerte casi siempre sostiene tensión: quiero A, B lo impide. Sin conflicto, el creative se desliza a palabras genéricas.",
+    },
+    {
+      q: "¿Por dónde empiezo con un producto ya existente?",
+      a: "Con CRM, analytics, reseñas y soporte: qué ya se vende, dónde se quejan, qué abandonan en el carrito.",
+    },
+    {
+      q: "¿Puedo tomar un insight de los competidores?",
+      a: "Mirar su comunicación ayuda; copiar eslóganes no. Busca un hueco: qué elogia o critica la audiencia de ellos y de ti.",
+    },
+    {
+      q: "¿Un insight es lo mismo que un creative?",
+      a: "Un insight es conocimiento sobre una persona. El creative es cómo lo empaquetas en un anuncio, producto u oferta.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es un insight del consumidor",
+      level: 2,
+      paras: [
+        "En psicología «insight» es un agarre súbito de una solución. En marketing — una necesidad o motivo oculto que la gente no siempre dice en voz alta.",
+        "Ejemplo: «quiero comer bien, pero no tengo tiempo de cocinar». El producto o la comunicación deben quitar la barrera (tiempo, miedo, vergüenza, precio) — no repetir «somos sanos».",
+      ],
+    },
+    {
+      title: "Por qué buscarlo",
+      level: 2,
+      paras: [
+        "Un insight alimenta producto, creative y oferta: más claro a quién hablar y de qué. Sin él es fácil derivar a demografía y beneficios genéricos.",
+        "Un buen insight: hay conflicto, enlace a un valor humano, originalidad frente a «todo el mundo está cansado», más factibilidad en el formato de la plataforma.",
+      ],
+      lists: [
+        {
+          intro: "En qué apoyarte:",
+          items: [
+            "un conflicto «quiero / pero»",
+            "una necesidad básica (seguridad, estatus, comodidad…)",
+            "comportamiento observado, no solo un cuestionario",
+            "un check: el producto quita de verdad la barrera",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Formas de buscar",
+      level: 2,
+      paras: [
+        "Datos: CRM, analytics end-to-end, qué se vende y dónde hay drop-off. Diálogo: encuestas y entrevistas — cuidado con respuestas «socialmente deseables».",
+        "Lentes emocionales: contradicciones palabra–hecho, nostalgia, tensión de estándares (belleza, éxito), investigación de sector como fondo. Menos obvio: memes y humor (cuidado con lujo y caducidad del chiste), citas y contexto cultural, foros y comentarios bajo creators del nicho, referencias de cultura de masas — solo si se ligan con honestidad al producto.",
+      ],
+      lists: [
+        {
+          intro: "Un set de fuentes que funciona:",
+          items: [
+            "informes y CRM",
+            "encuestas y entrevistas en profundidad",
+            "reseñas y tickets de soporte",
+            "comentarios y discusiones de nicho",
+            "páginas de marca y competidores en redes",
+            "investigación de sector",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Redes y privacidad",
+          text: "Analizar reseñas y reacciones públicas está bien. No metas en el plan scraping gris de audiencia ni saltarte las reglas de la plataforma.",
+        },
+      ],
+      links: [
+        {
+          label: "Analytics end-to-end",
+          href: "/es/blog/skvoznaya-analitika/",
+        },
+        {
+          label: "Audiencia objetivo",
+          href: "/es/blog/tselevaya-auditoriya/",
+        },
+      ],
+    },
+    {
+      title: "Competidores y tu marca",
+      level: 2,
+      paras: [
+        "Mira fans activos y críticos: qué elogian y qué machacan. El tono emocional de los comentarios suele ser más preciso que un «like» medio.",
+        "En competidores, anota qué barreras resuelven en ads — y dónde la audiencia sigue insatisfecha. De ahí crecen hipótesis de insight, no copias de banner.",
+      ],
+      links: [
+        {
+          label: "Análisis de competidores",
+          href: "/es/blog/analiz-konkurentov/",
+        },
+        {
+          label: "Estrategia de marketing",
+          href: "/es/blog/marketingovaya-strategiya/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Un insight del consumidor mezcla datos e inmersión en la vida de la audiencia, redactado como un conflicto «quiero…, pero…». Reúne fuentes, prueba la hipótesis en el comportamiento y solo entonces empaquétala en creative.",
+  ],
+  related: [
+    "tselevaya-auditoriya",
+    "marketingovaya-strategiya",
+    "analiz-konkurentov",
+    "skvoznaya-analitika",
+    "performance-marketing",
+    "nayti-marketologa",
+  ],
+};

@@ -240,3 +240,243 @@ export const tochkiVhodaEn: BlogPost = {
     "samostoyatelnoe-seo",
   ],
 };
+/** ES overlay for tochki-vhoda — same structure as RU JSON / EN. */
+export const tochkiVhodaEs: BlogPost = {
+  slug: "tochki-vhoda",
+  title: "Puntos de entrada del competidor: cómo encontrarlos y por qué importan",
+  date: "2020-01-20",
+  category: "SEO",
+  cover: "/images/blog/tochki-vhoda/cover.webp",
+  excerpt:
+    "Qué es un punto de entrada, por qué estudiar las landings de búsqueda de los competidores, cómo exportar consultas y ampliar el núcleo de keywords — sin copiar el sitio ajeno.",
+  lead: [
+    "Un punto de entrada es la página donde una persona suele empezar la visita: desde búsqueda, anuncios, un favorito o un enlace externo. Las URLs de los competidores muestran qué temas y formatos capturan demanda de verdad.",
+    "Abajo: por qué sacar puntos de entrada, qué reunir antes del análisis, cómo exportar consultas relevantes y una forma simple de encontrar sitios competidores. El objetivo son ideas para tus landings y el núcleo de keywords — no copiar a ciegas.",
+  ],
+  faq: [
+    {
+      q: "¿El punto de entrada es siempre la homepage?",
+      a: "A menudo sí para marca y visitas directas. Desde búsqueda orgánica suelen liderar categorías, artículos y fichas de producto para un intent concreto.",
+    },
+    {
+      q: "¿En qué se diferencia del análisis general de competidores?",
+      a: "El análisis general cubre tráfico, canales y visibilidad. Aquí el foco son URLs de landing concretas y las consultas que las alimentan. Ver también el artículo de análisis de competidores.",
+    },
+    {
+      q: "¿Se pueden saber puntos de entrada exactos sin su analítica?",
+      a: "Exactos — no. Las estimaciones vienen de herramientas de visibilidad, exports de keywords por URL y revisión manual de resultados de primera página.",
+    },
+    {
+      q: "¿Por qué exportar keywords de páginas ajenas?",
+      a: "Para ampliar semántica y ver qué intent cierra una landing fuerte. Luego escribes tu propia página mejor — con tu oferta y prueba.",
+    },
+    {
+      q: "¿Debes copiar la estructura del competidor uno a uno?",
+      a: "No. Toma hipótesis: tema, formato, bloques de confianza. Copiar contenido y plantillas es un riesgo y un resultado flojo.",
+    },
+    {
+      q: "¿Ayudan los operadores de búsqueda?",
+      a: "Sí como corte rápido: site:, intitle:, revisar secciones. A escala — un crawler y herramientas SEO de visibilidad.",
+    },
+    {
+      q: "¿Esto acelera resultados de primera página?",
+      a: "Acelera entender dónde poner esfuerzo. Los rankings en sí llegan tras trabajo y tiempo: preparación alrededor de un mes; la cuota del núcleo en visibilidad de primera página se planifica a 2–6 meses.",
+    },
+    {
+      q: "¿Y tus propios puntos de entrada?",
+      a: "En Metrica / Analytics mira landing pages orgánicas: refuerza las más fuertes, arregla rebote, no generes duplicados para el mismo intent.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es un punto de entrada",
+      level: 2,
+      paras: [
+        "Un punto de entrada (EP) es la página HTML a la que llega primero el usuario en una sesión. Las fuentes difieren: resultados de búsqueda, anuncios, redes, email, enlace externo, visita directa. Para SEO importan más las landings orgánicas: muestran qué URLs trata la búsqueda como respuesta a la demanda.",
+        "En tu sitio, los EP aparecen en analítica (entry / landing pages). Para un competidor — vía estimaciones de visibilidad, URLs líderes en herramientas SEO y revisión manual de resultados sobre el núcleo del nicho.",
+      ],
+      lists: [
+        {
+          intro: "EP típicos:",
+          items: [
+            "homepage",
+            "categoría / servicio",
+            "ficha de producto",
+            "artículo o guía para un intent informativo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Análisis de competidores",
+          href: "/es/blog/analiz-konkurentov/",
+        },
+        {
+          label: "Goals en Yandex Metrica",
+          href: "/es/blog/metrika-tseli/",
+        },
+      ],
+    },
+    {
+      title: "Por qué estudiar los EP del competidor",
+      level: 2,
+      paras: [
+        "Las páginas de entrada fuertes insinúan qué contenido y oferta retienen a la gente desde los resultados: estructura, prueba, velocidad, encaje con la consulta. Trasladas principios a tus URLs — no el copy ajeno.",
+        "Segundo objetivo — prioridades: los competidores invierten en páginas con mejor retorno. Tercero — semántica: de cada landing fuerte puedes sacar un cluster de consultas y cerrar huecos en tu núcleo. Aparte, los EP muestran dónde el outreach o los anuncios tienen más sentido (páginas con tráfico vivo).",
+      ],
+      lists: [
+        {
+          intro: "Qué registrar por EP:",
+          items: [
+            "URL y tipo de página",
+            "muestra de consultas / intent",
+            "bloques fuertes (precios, casos, FAQ, calculadora)",
+            "debilidades (relleno, carga lenta, copy fino)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Set semántico de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Outreach",
+          href: "/es/blog/autrich/",
+        },
+      ],
+    },
+    {
+      title: "Qué reunir antes de la búsqueda",
+      level: 2,
+      paras: [
+        "Necesitas un borrador de tu propio núcleo (al menos head y mid terms del nicho) y un corte de resultados sobre ellos: quién está en primera página, qué URLs se repiten. Sin lista de consultas, «encontrar competidores» se vuelve un set aleatorio de dominios.",
+        "Las herramientas de visibilidad automatizan exports de páginas y keywords; una cuota gratis a menudo cubre un piloto. Suma revisión manual de resultados y operadores — menos fe ciega en un número de una sola herramienta.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de datos:",
+          items: [
+            "20–100 consultas prioritarias",
+            "screenshot o export de resultados de primera página para ellas",
+            "una lista de dominios candidatos",
+            "por cada uno — 3–10 URLs fuertes",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Operadores de búsqueda",
+          href: "/es/blog/operatory-poiska/",
+        },
+        {
+          label: "Software SEO",
+          href: "/es/blog/programmy-seo/",
+        },
+      ],
+    },
+    {
+      title: "Exportar keywords desde landings",
+      level: 2,
+      paras: [
+        "Las páginas que sostienen visibilidad estable en primera página suelen guardar un set coherente de phrasing para un intent. Un export de «consultas → URL» muestra qué alimenta el punto de entrada: demanda comercial, informativa o mixta.",
+        "Añade keywords al núcleo solo tras clustering: una landing — un intent principal. Si no, tendrás canibalización y significados duplicados en tu sitio.",
+      ],
+      lists: [
+        {
+          intro: "Cómo usar el export:",
+          items: [
+            "filtrar basura e irrelevancia",
+            "agrupar por intent",
+            "comparar con las URLs actuales",
+            "asignar tareas para páginas nuevas o más fuertes",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Páginas duplicadas",
+          href: "/es/blog/dubli-stranits/",
+        },
+        {
+          label: "Contenido del sitio",
+          href: "/es/blog/napolnenie-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Un algoritmo para encontrar competidores por visibilidad",
+      level: 2,
+      paras: [
+        "Esquema práctico: toma un líder en head terms importantes → exporta keywords donde rankean en primera página → recoge dominios que más a menudo se solapan con ellos en los resultados → puntúa la cuota de solape y rankea competidores de búsqueda «reales» — no «un sitio de aspecto parecido».",
+        "Luego, para los tres a cinco dominios líderes, saca una lista de EP fuertes y revisa el contenido. En paralelo marca tus propios puntos de entrada orgánicos en analítica — compara caídas y huecos.",
+      ],
+      lists: [
+        {
+          intro: "Pasos:",
+          items: [
+            "líder del núcleo del nicho",
+            "export de su visibilidad",
+            "registro de dominios por solapes",
+            "scoring por % de solape de consultas",
+            "revisión de EP y plan de tus landings",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Plazos",
+          text: "Un mapa de EP es una etapa de research. La preparación de páginas lleva de semanas a un mes; crecer la visibilidad del núcleo se planifica a 2–6 meses tras el inicio del trabajo.",
+        },
+      ],
+      links: [
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+        {
+          label: "Náusea del texto",
+          href: "/es/blog/toshnota-teksta/",
+        },
+      ],
+    },
+    {
+      title: "Cómo no convertir el análisis en copia",
+      level: 2,
+      paras: [
+        "Una buena revisión de EP da hipótesis: qué formato cierra el intent, qué bloques bajan el rebote, qué consultas te faltan. Una mala revisión — copy-paste de H1s y párrafos ajenos.",
+        "Fija el resultado en tareas: URLs nuevas, fixes de title, oferta más fuerte, enlaces internos. Durante semanas mira tus landing pages y leads — no screenshots bonitos de rankings ajenos.",
+      ],
+      lists: [
+        {
+          intro: "Checklist tras el análisis:",
+          items: [
+            "tabla: competidor → EP → intent",
+            "huecos de tu núcleo convertidos en tareas",
+            "sin duplicados nuevos para la misma demanda",
+            "KPIs: tráfico y leads desde landings reforzadas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+        {
+          label: "Por qué las páginas no rankean",
+          href: "/es/blog/sayt-ne-v-top/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "analiz-konkurentov",
+    "semanticheskoe-yadro",
+    "operatory-poiska",
+    "programmy-seo",
+    "seo-struktura-sayta",
+    "samostoyatelnoe-seo",
+  ],
+};

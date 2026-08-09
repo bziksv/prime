@@ -97,3 +97,101 @@ export const denVPrimeEn: BlogPost = {
     "skvoznaya-analitika",
   ],
 };
+
+/** ES overlay for den-v-prime — same structure as RU JSON / EN. */
+export const denVPrimeEs: BlogPost = {
+  slug: "den-v-prime",
+  title: "A quién le va bien el SEO: un día en PRIME",
+  date: "2016-11-25",
+  category: "Digital marketing",
+  cover: "/images/blog/den-v-prime/cover.webp",
+  excerpt:
+    "Una mirada ligera desde dentro: cómo es un día ordinario en una agencia digital — el trayecto, tareas de SEO y paid search, proyectos «nuevos» y un equipo vivo. Un snapshot de atmósfera, no la plantilla de hoy.",
+  lead: [
+    "Los clientes a menudo piensan que SEO y paid search son «alguien cambió una línea en la cuenta». Desde dentro es una cola de tareas, CRM, testear hipótesis y desempaquetar llamadas cuando algo salió mal.",
+    "Abajo: un boceto con humor de una mañana en PRIME hacia 2016 — el camino a la oficina, triage de proyectos y caracteres del equipo. La plantilla y los procesos han cambiado desde entonces; el punto no — gente que carga proyectos, no botones mágicos.",
+  ],
+  faq: [
+    {
+      q: "¿Es el organigrama oficial de la empresa?",
+      a: "No. Es una columna de «vida de oficina» con humor. Nombres y roles son un snapshot del pasado — no la lista de staff actual.",
+    },
+    {
+      q: "¿Las mismas personas hacen SEO y paid search?",
+      a: "En equipos pequeños a menudo se solapan. Paid search es pujas, negativos y presupuestos; SEO es el sitio, contenido y crecimiento largo de rankings. Ambos necesitan atención.",
+    },
+    {
+      q: "¿Por qué comparar un «proyecto nuevo» con un niño?",
+      a: "Es una metáfora de crecimiento: primero técnica vacía y poco tráfico, luego estructura, copy y trabajo constante. La prep lleva semanas; una cuota notable del set de keywords en primera página se planifica a 2–6 meses — no el día del lanzamiento.",
+    },
+    {
+      q: "¿El cliente solo ve un cambio de puja?",
+      a: "A menudo sí — desde fuera se ve el resultado en la cuenta. Entre bastidores: estrategias, límites, analytics, aprobaciones y arreglar la conexión sitio–ads.",
+    },
+    {
+      q: "¿Por qué poner esto en el blog?",
+      a: "Para mostrar el lado humano de una agencia: sin hype de «somos los mejores», y con la idea de que la promoción es el trabajo diario del equipo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Mañana antes del monitor",
+      level: 2,
+      paras: [
+        "La jornada empieza en el camino: andando contra el viento, en autobús o en un taxi con sorpresas de ruta. Llegas a la oficina ya «cargado» — en el buen o irónico sentido.",
+        "El café en el trayecto es un ritual, no un KPI. Dentro espera el boot habitual: CRM, navegadores, messengers, triage de tareas. Quien llega antes tiene un respiro antes de la primera ola de preguntas.",
+        "La charla del equipo salta fácil de lo cotidiano a lo absurdo — así baja la tensión antes de un día lleno. Luego vuelven los proyectos: qué va, qué arde, qué espera aprobación.",
+      ],
+      links: [
+        {
+          label: "Agencia digital",
+          href: "/es/blog/didzhital-agentstvo/",
+        },
+        {
+          label: "Trabajo remoto",
+          href: "/es/blog/udalennaya-rabota/",
+        },
+      ],
+    },
+    {
+      title: "SEO, paid search y feedback «fresco»",
+      level: 2,
+      paras: [
+        "Si el foco es SEO, el día va de estructura, contenido, índices y ciclos largos. Si hay mucho paid search, el cerebro se llena rápido de subastas de pujas, estrategias, negativos y tope de presupuesto. Desde fuera es «tocó un campo»; desde dentro es control constante para que el dinero no se escape.",
+        "Un proyecto SEO nuevo a menudo llega vacío: pocos visitantes, metadata débil, sin set claro de keywords. El trabajo del equipo es hacerlo crecer — técnica, copy, analytics. El impacto en la SERP se acumula; una cuota notable del set en primera página se planifica a 2–6 meses tras el inicio del trabajo — no «encendido y listo».",
+        "El feedback del manager tras una llamada con el cliente es parte del trabajo. El folklore de oficina lo llamó de otra forma; el punto es simple: desempaquetar, arreglar, seguir. Sin histeria — y sin la ilusión de que todo siempre es perfecto.",
+        "En notas como esta el equipo siempre se ve más brillante que el organigrama: quién trae snacks, quién está siempre upbeat con el tiempo, quién edita copy duro, quién cierra ventas. La gente cambia; el vínculo entre especialistas, managers y ownership del proyecto sigue siendo el núcleo de la agencia.",
+        "El takeaway de la columna es el mismo que un buen día en PRIME: promovemos sitios, sostenemos canales, a veces bromemos — y recordamos que detrás de las cifras del report hay tareas vivas y clientes vivos.",
+      ],
+      lists: [
+        {
+          intro: "Lo que el cliente suele no ver:",
+          items: [
+            "SEO y ads en paralelo en un mismo día",
+            "reviews de incidentes tras llamadas",
+            "hacer crecer un proyecto vacío desde cero",
+            "coordinación interna de roles",
+            "tiempo de prep — aparte del crecimiento de rankings",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Por qué el sitio no está en primera página",
+          href: "/es/blog/sayt-ne-v-top/",
+        },
+        {
+          label: "SEO para pequeño negocio",
+          href: "/es/blog/seo-malyy-biznes/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "didzhital-agentstvo",
+    "seo-malyy-biznes",
+    "sayt-ne-v-top",
+    "udalennaya-rabota",
+    "skvoznaya-analitika",
+  ],
+};

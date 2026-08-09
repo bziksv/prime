@@ -154,3 +154,162 @@ export const wordpressPlaginyEn: BlogPost = {
     "adminka-sayta",
   ],
 };
+
+/** ES overlay for wordpress-plaginy — same structure as RU JSON / EN. */
+export const wordpressPlaginyEs: BlogPost = {
+  slug: "wordpress-plaginy",
+  title: "Cómo instalar un plugin de WordPress: catálogo, ZIP y FTP",
+  date: "2017-12-14",
+  category: "Digital marketing",
+  cover: "/images/blog/wordpress-plaginy/cover.webp",
+  excerpt:
+    "Tres formas de instalar un plugin en WordPress: búsqueda en el admin, subida ZIP y copia a wp-content/plugins — sin culto a «más installs = mejor» ni un montón de extensiones sin soporte.",
+  lead: [
+    "Los plugins amplían WordPress: SEO, formularios, caché, tienda. Se instalan desde el catálogo del admin, subiendo un ZIP o vía FTP a `wp-content/plugins`, y luego se activan.",
+    "Abajo: orden de instalación y fallos típicos (archivo anidado, bans de subida del host). Qué plugins SEO elegir vive en una pieza aparte; aquí es instalar e higiene básica de seguridad.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia del artículo de plugins SEO?",
+      a: "Aquel cubre qué grupos de herramientas necesitas. Aquí — cómo instalar y activar técnicamente cualquier plugin.",
+    },
+    {
+      q: "¿Hace falta FTP?",
+      a: "No. Suele bastar «Plugins → Añadir nuevo» o una subida ZIP. FTP es un fallback si el hosting bloquea instalaciones desde el admin.",
+    },
+    {
+      q: "¿Muchas installs significan que puedes confiar?",
+      a: "Una brújula, no una garantía. Mira updates, compatibilidad con tu versión de WP, reviews de soporte y los permisos que pide el plugin.",
+    },
+    {
+      q: "¿Qué hacer tras instalar?",
+      a: "Activar, configurar, revisar el sitio y hacer backup si hace falta. Quita plugins sin uso — no solo desactives.",
+    },
+    {
+      q: "¿Se puede instalar todo lo popular?",
+      a: "No. Cada plugin es código y riesgo. Tómalo por una tarea, no «por si acaso».",
+    },
+  ],
+  sections: [
+    {
+      title: "Antes de instalar",
+      level: 2,
+      paras: [
+        "Haz backup de archivos y BD, sobre todo en producción. Comprueba versión de PHP y WordPress y la compatibilidad del plugin. Staging hace más fácil pillar conflictos.",
+        "Instala extensiones solo del catálogo oficial de WordPress.org o de un vendor claro. Packs «nulled» y piratas son un camino habitual al backdoor.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo antes de clicar Instalar:",
+          items: [
+            "backup",
+            "trabajo claro del plugin",
+            "sin duplicar una herramienta que ya tienes",
+            "updates en los últimos meses",
+            "derechos de acceso bajo control",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Plugins SEO de WordPress",
+          href: "/es/blog/wordpress-seo-plaginy/",
+        },
+        {
+          label: "Seguridad en WordPress",
+          href: "/es/blog/wordpress-bezopasnost/",
+        },
+      ],
+    },
+    {
+      title: "Instalar desde el catálogo del admin",
+      level: 2,
+      paras: [
+        "En el dashboard: Plugins → Añadir nuevo. Busca el nombre, abre la ficha, clic en Instalar y luego Activar. Las etiquetas del menú pueden variar un poco según traducción y versión.",
+        "Si el archivo es «doble» (ZIP dentro de ZIP con docs), el instalador se queja — descomprime hasta la carpeta del plugin con archivos PHP y sube un ZIP correcto.",
+      ],
+      notes: [
+        {
+          title: "Popularidad ≠ seguridad",
+          text: "El contador de installs ayuda a filtrar proyectos abandonados, pero no sustituye revisar al autor, el changelog y las notas de compatibilidad con tu tema.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Subida ZIP vía el admin",
+      level: 2,
+      paras: [
+        "En la misma página Añadir nuevo puedes subir un plugin desde tu ordenador: elige el ZIP, instala, activa. Útil para plugins premium del sitio del desarrollador.",
+        "Si el hosting bloqueó instalaciones desde el admin (permisos, open_basedir, políticas), pasa a FTP o pide al soporte que habilite lo necesario.",
+      ],
+    },
+    {
+      title: "Instalar vía FTP o gestor de archivos",
+      level: 2,
+      paras: [
+        "Conecta por FTP o SFTP (FileZilla, WinSCP, etc.) o el gestor de archivos del host. Descomprime el plugin en local en una carpeta con el nombre del plugin y súbela a `wp-content/plugins/`.",
+        "En el admin el plugin aparece en la lista — actívalo. No tires archivos a la raíz de plugins sin carpeta: más difícil de quitar y actualizar.",
+      ],
+      tables: [
+        {
+          caption: "Dónde poner los archivos",
+          headers: ["Ruta", "Qué debe haber"],
+          rows: [
+            ["wp-content/plugins/nombre-del-plugin/", "Archivos del plugin"],
+            ["No la raíz del sitio", "Si no, lo mezclas con el core"],
+            ["No dentro del tema", "Una update del tema borrará el plugin"],
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Admin de WordPress",
+          href: "/es/blog/wordpress-admin/",
+        },
+        {
+          label: "FTP",
+          href: "/es/blog/ftp/",
+        },
+      ],
+    },
+    {
+      title: "Tras la activación",
+      level: 2,
+      paras: [
+        "Abre los ajustes del plugin, corre el wizard, revisa páginas clave del sitio. En pantalla blanca desactiva vía FTP (renombra la carpeta) y desentraña el conflicto.",
+        "Mantén los plugins actualizados. Quita los que no uses: el código desactivado sigue en disco.",
+      ],
+      lists: [
+        {
+          intro: "Higiene continua:",
+          items: [
+            "una herramienta por trabajo",
+            "no acumules «para después»",
+            "prueba caché y formularios tras instalar",
+            "backup antes de updates masivas",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Ideas clave",
+      level: 2,
+      paras: [
+        "Camino principal — catálogo o ZIP en el admin; FTP es fallback. Activación y setup son obligatorios; la seguridad gana a «instalar todo lo popular».",
+        "Elección del stack SEO — en un artículo aparte; login del dashboard — en la pieza del admin de WordPress.",
+      ],
+    },
+  ],
+  closing: [
+    "Elige un plugin para el trabajo, instálalo desde el catálogo o ZIP, activa y revisa el sitio — luego quita extras de `wp-content/plugins` para no acumular riesgo.",
+  ],
+  related: [
+    "wordpress-seo-plaginy",
+    "wordpress-bezopasnost",
+    "wordpress-admin",
+    "uskorenie-wordpress",
+    "tema-wordpress",
+    "adminka-sayta",
+  ],
+};

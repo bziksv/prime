@@ -101,3 +101,105 @@ export const problemnyeKlientyEn: BlogPost = {
     "otchet-klientu",
   ],
 };
+
+/** ES overlay for problemnye-klienty — same structure as RU JSON / EN. */
+export const problemnyeKlientyEs: BlogPost = {
+  slug: "problemnye-klienty",
+  title: "11 tipos de clientes difíciles — y cómo trabajar con ellos",
+  date: "2018-07-19",
+  category: "Digital marketing",
+  cover: "/images/blog/problemnye-klienty/cover.webp",
+  excerpt:
+    "Inseguro, sabelotodo, agresivo, impulsivo, cauteloso, hablador, insatisfecho, sin tacto, ahorrador, exigente y pesimista — retratos y respuestas que funcionan sin escalar.",
+  lead: [
+    "Un cliente difícil no siempre es «malo»: a menudo es estrés, miedo a equivocarse o el hábito de controlar el precio. El error de servicio es responder emoción con emoción — y llevarse una reseña que cuesta más que un deal.",
+    "Abajo: once tipos de la práctica de ventas y soporte (retail, e-com, servicios) con patrones cortos de respuesta. No son diagnósticos de personalidad — son guías para scripts y formación de managers.",
+  ],
+  faq: [
+    {
+      q: "¿Hay que tolerar cualquier comportamiento?",
+      a: "No. Calma y ayuda — sí; insultos y amenazas — una línea de stop según las reglas de la empresa, con registro y escalado.",
+    },
+    {
+      q: "¿Esto es solo para retail offline?",
+      a: "No. Los mismos tipos aparecen en chats, messengers y al teléfono — cambia el canal, no la lógica.",
+    },
+    {
+      q: "¿Qué tan rápido puedo «adivinar» el tipo?",
+      a: "Desde las primeras líneas: preguntas sin decisión, referencias de «lo sé todo», presión de deadline, regateo, quejas. No pegues una etiqueta para siempre — ajusta según va el diálogo.",
+    },
+    {
+      q: "¿Qué importa más que un script?",
+      a: "El tono, los hechos sobre el producto/pedido y el derecho a decir «eso no lo podemos — aquí hay una alternativa». Un script es un marco, no leer de una hoja.",
+    },
+    {
+      q: "¿Cómo se relaciona esto con gestionar una tienda online?",
+      a: "Directamente: parte del rol es cerrar objeciones y escenarios de conflicto sin perder margen ni reputación.",
+    },
+  ],
+  sections: [
+    {
+      title: "Inseguro, sabelotodo, agresivo, impulsivo",
+      level: 2,
+      paras: [
+        "El inseguro («lo pensaré») hace muchas preguntas y retrasa. Halla el stop-factor, no empujes, reconoce la elección difícil y ofrece una opción clara para el trabajo — no «llévalo ya».",
+        "El sabelotodo cita «lo leí online» y reacciona con dureza a la crítica. Mantén tono profesional, quédate en el punto y suma hechos que no tiene (garantía, kit, plazos) sin una pelea de «quién es más listo».",
+        "El agresivo presiona con queja y emoción. No discutas, mantén la calma, muestra atención a su caso, ofrece alternativas y reconoce sentimientos («entiendo la frustración») sin admitir afirmaciones falsas sin comprobar.",
+        "El impulsivo quiere «este, ahora». Acorta el camino: sustancia breve, una opción obvia, checkout rápido — sin una clase larga de specs.",
+      ],
+      lists: [
+        {
+          intro: "Marco compartido para un diálogo estresante:",
+          items: [
+            "escuchar y reformular el problema con tus palabras",
+            "dar un hecho/marco (plazos, precio, stock)",
+            "ofrecer 1–2 siguientes pasos claros",
+            "fijar el acuerdo en chat/CRM",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Manager de tienda online",
+          href: "/es/blog/menedzher-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "Cauteloso, hablador, insatisfecho, sin tacto",
+      level: 2,
+      paras: [
+        "El cauteloso teme equivocarse y acumula preguntas. Responde corto y claro, sin detalle «nivel espacial»; muestra que oyes su riesgo y dirige a resolver el trabajo.",
+        "El hablador es amable pero come tiempo. Escucha, parafrasea el punto, haz preguntas cerradas (sí/no) y vuelve con suavidad a la elección de producto/servicio.",
+        "El insatisfecho llega ya con «todo está mal». No te justifiques de golpe ni tomes el tono como personal: muestra atención, aclara el hecho, discúlpate por un fallo de servicio si hace falta y ofrece una salida.",
+        "El sin tacto («centro del mundo») no respeta el tiempo ajeno. Aclara con calma el pedido, responde por prioridad, anticipa preguntas típicas — sin grosería de vuelta.",
+      ],
+    },
+    {
+      title: "Ahorrador, exigente, pesimista",
+      level: 2,
+      paras: [
+        "El ahorrador compara precios y espera un descuento. Aclara el marco de presupuesto, muestra opciones disponibles y valor (garantía, kit, entrega) — no solo «otro por ciento menos».",
+        "El exigente quiere lo que no está en surtido. Diálogo: entender la necesidad → máximo del stock o una alternativa honesta / plazo a medida — sin promesas de «haremos lo imposible mañana».",
+        "El pesimista encuentra «nada bien». No discutas con el humor: halla la causa de la negatividad y ofrece un fix concreto (cambio, devolución según reglas, otro SKU).",
+        "En resumen: una mala reseña pega más que un deal retenido. Un proceso calmado y acuerdos fijados convierten un contacto duro en servicio normal — y a veces en una compra repetida.",
+      ],
+      links: [
+        {
+          label: "Ventas de tienda online",
+          href: "/es/blog/prodazhi-internet-magazin/",
+        },
+        {
+          label: "Usabilidad de tienda online",
+          href: "/es/blog/yuzabiliti-internet-magazina/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "menedzher-internet-magazina",
+    "prodazhi-internet-magazin",
+    "yuzabiliti-internet-magazina",
+    "otchet-klientu",
+  ],
+};

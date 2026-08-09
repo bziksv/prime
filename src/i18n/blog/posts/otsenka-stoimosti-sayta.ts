@@ -111,3 +111,115 @@ export const otsenkaStoimostiSaytaEn: BlogPost = {
     "An online site valuation is a draft order of magnitude, not a deal price. Count income, traffic stability, and risks; leave the calculator as a supporting trend indicator.",
   ],
 };
+
+/** ES overlay for otsenka-stoimosti-sayta — same structure as RU JSON / EN. */
+export const otsenkaStoimostiSaytaEs: BlogPost = {
+  slug: "otsenka-stoimosti-sayta",
+  title: "Valoración de un sitio: qué revisar y por qué mienten las calculadoras online",
+  date: "2021-02-25",
+  category: "Digital marketing",
+  cover: "/images/blog/otsenka-stoimosti-sayta/cover.webp",
+  excerpt:
+    "Por qué se valoran sitios, por qué las cifras estilo pr-cy divergen de un trato real, y qué factores ganan a un «precio mágico» en un clic.",
+  lead: [
+    "Los valuadores online prometen un «precio del sitio» por dominio en segundos. En la práctica es un orden de magnitud aproximado con una horquilla enorme: el mismo proyecto puede sacar cifras muy distintas entre servicios — y aun así fallar el precio de mercado.",
+    "Abajo: por qué la gente mira esas cifras, qué mueve de verdad el precio en una venta, y cómo no confundir valoración con una auditoría de crecimiento. Nos saltamos métricas obsoletas como TIC/PageRank.",
+  ],
+  faq: [
+    {
+      q: "¿Se puede confiar en pr-cy y tools similares?",
+      a: "Como orden de magnitud aproximado — a veces. Como precio de trato — no. Los algoritmos están cerrados, los inputs incompletos, y el valor estratégico para el comprador se ignora.",
+    },
+    {
+      q: "¿Qué afecta más al precio del sitio?",
+      a: "Beneficio limpio y su estabilidad, calidad del tráfico, riesgos (filtros, dependencia de un solo canal), activos (marca, lista de email, contenido, código) y demanda del nicho.",
+    },
+    {
+      q: "¿Para qué sirve entonces una estimación online?",
+      a: "Para ver cómo un servicio «ve» el proyecto en el tiempo y comparar con borradores de mercado. Para una venta, prepara P&L, tráfico y docs — no una captura de la calculadora.",
+    },
+    {
+      q: "¿Un marketplace de sitios es más preciso que una calculadora?",
+      a: "A menudo sí: ves tratos reales y múltiplos de ingresos. Pero la liquidez y la «media del mercado» no son el precio de tu activo único.",
+    },
+    {
+      q: "¿Por qué divergen tanto los servicios?",
+      a: "Pesos distintos para edad, enlaces, tráfico y «ingresos previstos». Sin tus libros y riesgos, el modelo adivina.",
+    },
+    {
+      q: "Si la estimación online subió, ¿el sitio es mejor?",
+      a: "No necesariamente. Puede haber cambiado el método del servicio o el ruido de datos externos. Mira tus métricas: ingresos, margen, fuentes de tráfico, conversión.",
+    },
+    {
+      q: "¿Hay que valorar el sitio corporativo de una empresa?",
+      a: "Como activo de venta — rara vez. Mejor cuenta la contribución a leads y marca. Las calculadoras están afinadas para proyectos monetizados y media, no para el brochure de una fábrica.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué se valoran sitios",
+      level: 2,
+      paras: [
+        "Algunos proyectos se construyen para reventa; otros corren como media con ads y afiliados. La valoración importa para una venta, hablar con inversores, partir activos, o simplemente ver: ¿el proyecto crece como negocio, o solo se ve fuerte en búsqueda?",
+        "Una cifra online es útil como check rápido, pero un trato casi siempre se apoya en ingresos, riesgos y negociación — no en un widget.",
+      ],
+    },
+    {
+      title: "Por qué las calculadoras discrepan tanto",
+      level: 2,
+      paras: [
+        "Un valuador online típico toma señales abiertas: edad del dominio, estimaciones de tráfico, perfil de backlinks, a veces un «forecast» desde paid search. Modelos cerrados y fuentes de datos distintas crean horquillas de varias veces.",
+        "Un clásico de reviews viejos: el mismo portal grande sacaba estimaciones de unos pocos millones de rublos a decenas de millones — mientras un trato estratégico podía ser otro orden del todo. El takeaway no es «todos mienten igual»; es «no confundas el modelo con el mercado».",
+      ],
+      lists: [
+        {
+          intro: "Puntos débiles típicos de la valoración en un clic:",
+          items: [
+            "sin acceso al beneficio y costes reales",
+            "tráfico del panel ≠ tu analytics",
+            "riesgos legales y de reputación invisibles",
+            "valor de marca para un comprador concreto ignorado",
+            "señales obsoletas en los métodos (métricas SEO viejas)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué mirar en lugar de un número mágico",
+      level: 2,
+      paras: [
+        "Para una venta o una valoración interna, arma un pack que un comprador o socio entienda.",
+      ],
+      lists: [
+        {
+          intro: "Base para una conversación de precio:",
+          items: [
+            "ingresos y beneficio de 6–12 meses, estacionalidad",
+            "cuota de canales (búsqueda, directo, ads, social) y dependencia de una sola fuente",
+            "calidad de audiencia y conversión a dinero",
+            "estado técnico, contenido, equipo de soporte",
+            "riesgos: filtros, reclamaciones, licencias, datos personales",
+            "compara con múltiplos de tratos del nicho (exchanges/brokers), no solo un widget",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo usar servicios online sin ilusiones",
+      level: 2,
+      paras: [
+        "Puedes sacar periódicamente estimaciones de 2–3 servicios y mirar la tendencia, no el absoluto. Un salto brusco sin cambio de negocio es motivo para revisar el método, no para celebrar.",
+        "Los marketplaces de compra/venta son más útiles como guía de mercado: ves listings, ingresos del vendedor y rangos reales. Nombres y términos cambian — verifica moneda y contrato antes de un trato.",
+      ],
+      links: [
+        {
+          label: "Qué es un sitio web",
+          href: "/es/blog/chto-takoe-veb-sayt/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Una valoración online del sitio es un borrador de orden de magnitud, no el precio del trato. Cuenta ingresos, estabilidad del tráfico y riesgos; deja la calculadora como indicador de tendencia de apoyo.",
+  ],
+};

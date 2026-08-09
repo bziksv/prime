@@ -158,3 +158,162 @@ export const prodvizhenieInternetMagazinaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for prodvizhenie-internet-magazina — same structure as RU JSON / EN. */
+export const prodvizhenieInternetMagazinaEs: BlogPost = {
+  slug: "prodvizhenie-internet-magazina",
+  title: "Cómo promover una tienda online: técnica, estructura de catálogo, SEO",
+  date: "2021-11-08",
+  category: "SEO",
+  cover: "/images/blog/prodvizhenie-internet-magazina/cover.webp",
+  excerpt:
+    "SEO de tienda online: auditoría técnica, estructura de catálogo, linking interno, keywords, title tags, copy de producto y señales comerciales de confianza.",
+  lead: [
+    "Un constructor de sitios y fichas de producto rellenadas son solo el inicio. Una tienda crece en búsqueda cuando la técnica es sólida, el catálogo es claro, las keywords mapean a páginas reales y las señales comerciales de confianza se ven.",
+    "Aquí va un esquema SEO básico para e-commerce. Preparar el sitio y rankear el set de keywords son etapas distintas: las posiciones suelen construirse en meses tras empezar el trabajo — no una semana después de unos cuantos arreglos.",
+  ],
+  faq: [
+    {
+      q: "¿Por dónde empiezo si la tienda ya está en vivo?",
+      a: "Con una auditoría técnica y el set de keywords: velocidad, indexación, duplicados — luego estructura de categorías y plantillas de title/description.",
+    },
+    {
+      q: "¿Cuánto hasta rankear en primera página?",
+      a: "La prep (técnica, copy, estructura) a menudo toma semanas. El ranking del set se planifica a 2–6 meses de trabajo — sin fecha garantizada.",
+    },
+    {
+      q: "¿Las categorías necesitan textos SEO largos?",
+      a: "Un bloque útil y único está bien, sobre todo cerca del inicio de la sección. El stuffing y un muro de texto por sí mismo duelen más de lo que ayudan.",
+    },
+    {
+      q: "¿Qué importa más — ficha de producto o categoría?",
+      a: "Ambas capas. Las categorías recolectan demanda por grupos; las fichas por modelos y marcas. Sin linking interno entre ellas, el sitio queda más flojo.",
+    },
+    {
+      q: "¿Basta el SEO solo?",
+      a: "Para crecer en ventas suele hacer falta también ads, servicio, precio y stock. El SEO es un canal de demanda — no un sustituto de la oferta.",
+    },
+  ],
+  sections: [
+    {
+      title: "Auditoría técnica",
+      level: 2,
+      paras: [
+        "Empieza por lo que rompe indexación y UX: velocidad, layout móvil, códigos de estado, redirects, HTTPS, sitemap, robots, duplicados de filtros y paginación.",
+      ],
+      lists: [
+        {
+          intro: "Chequeo mínimo:",
+          items: [
+            "las plantillas principales cargan rápido en móvil",
+            "sin 404 masivos ni cadenas de redirect",
+            "los filtros no generan miles de URLs basura en el índice",
+            "carrito y checkout son estables",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+        {
+          label: "Certificado SSL",
+          href: "/es/blog/ssl-sertifikat/",
+        },
+      ],
+    },
+    {
+      title: "Estructura del catálogo",
+      level: 2,
+      paras: [
+        "Camino clásico: home → categorías → subcategorías → fichas de producto, más páginas de utilidad (envío, pago, contactos, sobre nosotros). La navegación debe ser directa: carrito y catálogo en uno o dos clics.",
+        "Mira competidores del mismo nicho — no marketplaces globales como único benchmark: cómo se nombran las secciones, marcas, filtros, stock.",
+      ],
+      links: [
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Linking interno",
+      level: 2,
+      paras: [
+        "Los enlaces internos ayudan a usuarios y búsqueda: de una categoría a productos fuertes, entre ítems relacionados, a marcas y colecciones.",
+        "Mantén los outbound con sentido. No empujes basura de utilidad al índice.",
+      ],
+      lists: [
+        {
+          intro: "Bloques útiles:",
+          items: [
+            "productos relacionados (3–5)",
+            "recomendados / bestsellers",
+            "breadcrumbs y menús de categoría",
+            "páginas de marca y filtro — bajo reglas claras de indexación",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Keywords, titles y copy",
+      level: 2,
+      paras: [
+        "El set de keywords de una tienda son clusters para categorías, filtros (donde encajan), marcas y redacciones comerciales como «comprar / precio / en stock».",
+        "Los titles son únicos por plantilla: producto + tipo + marca o atributo — sin copy-paste. En fichas: fotos, vídeo, specs, keywords con cuidado. En categorías: un texto útil corto, no un muro de relleno.",
+      ],
+      lists: [
+        {
+          intro: "Práctica para productos y secciones:",
+          items: [
+            "title único por página",
+            "marca y atributos clave en el área visible",
+            "copy de categoría cerca del inicio — no un «footer SEO»",
+            "keywords sin stuffing",
+            "media que ayude a elegir el producto",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Investigación de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          text: "Puedes armar el set de keywords y las plantillas en semanas. La cuota de frases cerca de primera página y el tráfico orgánico estable tardan más — planifica 2–6 meses de trabajo activo, no «lanzamiento = rankings».",
+        },
+      ],
+    },
+    {
+      title: "Señales comerciales y de comportamiento",
+      level: 2,
+      paras: [
+        "La búsqueda mira más allá del copy: contactos, opciones de pago y envío, stock, precio, reseñas y facilidad de checkout afectan confianza y conversión — y la conversión alimenta señales de comportamiento.",
+      ],
+      lists: [
+        {
+          intro: "Qué reforzar en el sitio:",
+          items: [
+            "contactos claros y datos de la empresa",
+            "envío, pago y devoluciones sin letra pequeña",
+            "FAQ / Q&A en productos",
+            "snippets: title y description con beneficio y keyword",
+            "mapa / geo si importan pickup y demanda local",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Extras",
+      level: 2,
+      paras: [
+        "Junto al SEO, feeds para ads, email/CRM y servicios de comparación pueden ayudar — pero la base sigue siendo técnica + catálogo + fichas de producto.",
+        "No copies descripciones de marketplaces: unicidad y ayuda para elegir el producto ganan a la densidad de keywords.",
+      ],
+    },
+  ],
+};

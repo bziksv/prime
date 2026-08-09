@@ -150,3 +150,154 @@ export const ideiStorisVkEn: BlogPost = {
     "statya-vk",
   ],
 };
+
+/** ES overlay for idei-storis-vk — same structure as RU JSON / EN. */
+export const ideiStorisVkEs: BlogPost = {
+  slug: "idei-storis-vk",
+  title: "Ideas para Stories de VK: engagement sin challenges vacíos",
+  date: "2021-01-28",
+  category: "SMM",
+  cover: "/images/blog/idei-storis-vk/cover.webp",
+  excerpt:
+    "Ideas para stories de VK: encuestas, mini tips, behind the scenes, prompts de relay y quizzes para negocio y blogs — sin prometer miles de views ni formatos tóxicos de 2020.",
+  lead: [
+    "Las Stories de VK aguantan bien el «aquí y ahora»: un anuncio, una encuesta, behind the scenes, una respuesta rápida a la audiencia. La idea gana al filtro — un pensamiento por frame y un siguiente paso claro.",
+    "Abajo: formatos para página personal y comunidad. Cómo publicar en técnico — en la guía de Stories de VK. Los challenges virales del feed de 2020 envejecen rápido; toma la mecánica, no copies el hype ajeno uno a uno.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia de «cómo usar Stories»?",
+      a: "Aquella pieza es publicar y límites de formato. Aquí — un banco de ideas y escenarios de engagement.",
+    },
+    {
+      q: "¿Un challenge garantiza miles de views?",
+      a: "No. El alcance depende de la audiencia, el tema y el algoritmo. La tendencia de otro sin vínculo con el nicho a menudo falla.",
+    },
+    {
+      q: "¿Los prompts de relay encajan en negocio?",
+      a: "Con cuidado: el «envía un emoji — recibe un hecho» lúdico encaja mejor en blogs. El negocio está más cerca de encuestas de producto, mini tips y behind the scenes.",
+    },
+    {
+      q: "¿Solo se pueden publicar Stories desde el teléfono?",
+      a: "A menudo sí; las opciones de cuenta cambian. Mira la ayuda actual de VK y evita clientes de posting dudosos.",
+    },
+    {
+      q: "¿Cuántas Stories al día?",
+      a: "Las que puedas hacer con sentido. Mejor 3–7 frames fuertes que 30 repeticiones vacías.",
+    },
+  ],
+  sections: [
+    {
+      title: "Primero el trabajo, luego la idea",
+      level: 2,
+      paras: [
+        "Stories por Stories cansan. Fija la meta de la serie: calentar un post, recoger opiniones, llevar a mensajes, recordar una promo, mostrar expertise.",
+        "Primer frame — gancho, medio — valor, final — CTA (responder, abrir un post, escribir a la comunidad).",
+      ],
+      links: [
+        {
+          label: "Stories de VK",
+          href: "/es/blog/istorii-vkontakte/",
+        },
+        {
+          label: "Crecer un grupo de VK",
+          href: "/es/blog/raskrutka-gruppy-vk/",
+        },
+      ],
+    },
+    {
+      title: "Formatos básicos para negocio",
+      level: 2,
+      paras: [
+        "Behind the scenes del turno o la producción, un ítem nuevo y disponibilidad, before/after, un mini tip de tres slides, una reseña de cliente (con consentimiento), un recordatorio de deadline de promo.",
+        "Una oferta por serie. Precios y términos — sin texto diminuto ilegible.",
+      ],
+      lists: [
+        {
+          intro: "Una serie del día:",
+          items: [
+            "gancho / pregunta",
+            "valor o show de producto",
+            "prueba (reseña, proceso)",
+            "CTA a mensajes o a un post",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Encuestas y preguntas",
+      level: 2,
+      paras: [
+        "Una encuesta es una vía rápida de aprender preferencias: color, tamaño de pack, tema del siguiente post, hora cómoda de entrega. Sticker de encuesta o una pregunta en texto + pedir respuesta en mensajes.",
+        "«Respondiendo a vuestras preguntas» una vez a la semana maneja objeciones habituales y alimenta el muro con temas.",
+      ],
+    },
+    {
+      title: "Relays y «responde — recibe»",
+      level: 2,
+      paras: [
+        "Mecánica: alguien reacciona (emoji, número, mención) — tú respondes en personal. Calienta diálogos pero come tiempo de admin.",
+        "Para negocio es más seguro prometer un archivo útil, checklist o hueco de consult — no publicar el selfie o screenshot de chat de alguien «como castigo». Esos formatos dañan la confianza.",
+      ],
+      lists: [
+        {
+          intro: "Opciones que encajan:",
+          items: [
+            "emoji → un tip corto de nicho",
+            "número 1–3 → elección de plan/paquete con una nota",
+            "keyword en mensajes → lista de precios o reserva",
+            "mención en story → un giveaway solo bajo reglas de concurso",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Prometer responder a todos y desaparecer. Fija un límite («los primeros 20») o una plantilla más follow-up en vivo.",
+        },
+      ],
+      links: [
+        {
+          label: "Comentarios en una página pública",
+          href: "/es/blog/kommentarii-v-pablike-vk/",
+        },
+      ],
+    },
+    {
+      title: "Quizzes y mini-juegos",
+      level: 2,
+      paras: [
+        "Una pregunta de nicho, adivina el producto, «qué está mal en la foto», verdadero/mito. La respuesta correcta — en el siguiente frame o en un comentario de post fijado.",
+        "Un premio útil (descuento, guía) gana a forzar a la gente a «publicar mi pregunta por una respuesta incorrecta» — eso es mecánica de spam.",
+      ],
+    },
+    {
+      title: "Challenges: tómalos con cuidado",
+      level: 2,
+      paras: [
+        "Los flashmobs ajenos del feed se queman rápido y a menudo fallan en B2B. Si te unes — adapta al producto y a la seguridad (nada de hype de «come a velocidad»).",
+        "Tu propio challenge: una acción simple + hashtag/mención de comunidad + un deadline claro. Anuncia en el muro con antelación.",
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Las ideas de Stories funcionan cuando van atadas al nicho y a un trabajo. Encuestas, tips y behind the scenes ganan a un baile viral al azar.",
+        "Cuenta respuestas y clics, no solo views del primer frame.",
+      ],
+    },
+  ],
+  closing: [
+    "Arma una semana con encuestas, mini tips y un interactivo con un SLA de respuesta factible — así las Stories de VK ayudan a la comunidad en vez de convertirse en un feed de challenges ajenos.",
+  ],
+  related: [
+    "istorii-vkontakte",
+    "raskrutka-gruppy-vk",
+    "kommentarii-v-pablike-vk",
+    "viralnyy-ohvat-vk",
+    "prosmotry-vk",
+    "statya-vk",
+  ],
+};

@@ -188,3 +188,192 @@ export const obzorCmsEn: BlogPost = {
     "modx-local",
   ],
 };
+
+/** ES overlay for obzor-cms — same structure as RU JSON / EN. */
+export const obzorCmsEs: BlogPost = {
+  slug: "obzor-cms",
+  title: "Overview de CMS: WordPress, Joomla, Bitrix, Drupal, MODX y DLE",
+  date: "2017-01-10",
+  category: "Digital marketing",
+  cover: "/images/blog/obzor-cms/cover.webp",
+  excerpt:
+    "Un repaso a opciones populares de CMS: WordPress, Joomla, 1C-Bitrix, Drupal, MODX y DLE — pros, contras y a qué trabajos encajan, sin charts de cuota de mercado de 2017 ni el mito de que «el motor te posiciona».",
+  lead: [
+    "Un CMS es cómo editas páginas, catálogos y media sin reescribir todo el sitio en un editor de texto. La elección depende del trabajo, presupuesto, hosting y quién soportará el proyecto.",
+    "Abajo va un tour corto de seis motores por los que más preguntan — no un ranking eterno de «número uno». La cuota de mercado y la moda cambian. Para tiendas, hay una comparación de plataformas aparte; Bitrix tiene una pieza más profunda propia.",
+  ],
+  faq: [
+    {
+      q: "¿Qué CMS es el mejor?",
+      a: "El que cubre el trabajo a un TCO aceptable. No hay un ganador universal.",
+    },
+    {
+      q: "¿Un CMS gratis siempre es más barato?",
+      a: "La entrada es más barata; la propiedad no: plugins, seguridad, un desarrollador, hosting. Cuenta un año de ownership.",
+    },
+    {
+      q: "¿El CMS te pone en la primera página?",
+      a: "No. El motor no debería bloquear el SEO. Los rankings vienen de contenido, técnica y meses de trabajo — prep ≠ primera página. El crecimiento del núcleo se planifica en 2–6 meses tras empezar el trabajo.",
+    },
+    {
+      q: "¿Cómo detectas el CMS de otro sitio?",
+      a: "Desde pistas abiertas de HTML y rutas — en un artículo aparte. No es hacking.",
+    },
+    {
+      q: "¿Debería usar un site builder en su lugar?",
+      a: "Para un landing y un sitio simple — a menudo sí. Para un catálogo complejo e integraciones custom — más a menudo un CMS clásico o un build a medida.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es un CMS en palabras simples",
+      level: 2,
+      paras: [
+        "Un CMS te da un admin: páginas, menús, usuarios, media, a veces una tienda y formularios. Por debajo — plantillas, una base de datos y código que sirve HTML a los visitantes.",
+        "Antes de elegir, fija: brochure, blog, portal, tienda; si necesitas root en el servidor; quién edita contenido a diario.",
+      ],
+      links: [
+        {
+          label: "Cómo detectar un CMS",
+          href: "/es/blog/uznat-cms/",
+        },
+        {
+          label: "Hosting",
+          href: "/es/blog/hosting/",
+        },
+      ],
+    },
+    {
+      title: "WordPress",
+      level: 2,
+      paras: [
+        "Open source, un ecosistema enorme de temas y plugins, entrada fácil para editores. Blogs, sitios corporativos, landings; una tienda — vía WooCommerce y hosting sólido.",
+        "Contras: la popularidad atrae atacantes (se arregla con updates e higiene); en hosting débil con una pila de plugins es fácil chocar con límites de velocidad. Sin soporte personal del vendor como un CMS de pago — comunidad y contratistas.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo encaja:",
+          items: [
+            "sitios de contenido y marketing",
+            "necesitas un admin rápido para editores",
+            "presupuesto para cuidado de plugins",
+            "tienda Woo de tamaño medio — a propósito",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Instalar WordPress",
+          href: "/es/blog/wordpress-ustanovka/",
+        },
+        {
+          label: "Seguridad de WordPress",
+          href: "/es/blog/wordpress-bezopasnost/",
+        },
+      ],
+    },
+    {
+      title: "Joomla",
+      level: 2,
+      paras: [
+        "Un CMS open-source universal: sitios brochure, corporativos, catálogos pequeños. Más flexible «de fábrica» en estructura que un blog simple, pero con una barra de entrada más alta que WordPress.",
+        "El ecosistema de extensiones está vivo pero ya no en el centro del hype: planifica un especialista y updates de seguridad.",
+      ],
+    },
+    {
+      title: "1C-Bitrix",
+      level: 2,
+      paras: [
+        "Una plataforma comercial con ecosistema fuerte en Rusia: roles, módulos, escenarios corporativos y de tienda, integraciones 1C. Las necesidades de hosting y presupuesto son más altas que un «blog en shared».",
+        "La UI y el custom necesitan disciplina: cambios caóticos hacen el proyecto pesado. Un desglose completo de pros/contras es aparte; los contras en contexto de tienda viven en el overview de motores de tienda.",
+      ],
+      links: [
+        {
+          label: "Pros y contras de Bitrix",
+          href: "/es/blog/bitrix-plyusy-minusy/",
+        },
+        {
+          label: "CMS para una tienda online",
+          href: "/es/blog/cms-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "Drupal",
+      level: 2,
+      paras: [
+        "Más cerca de un CMF: desde módulos armas portales, roles complejos, a veces tiendas y sistemas internos. Potente y flexible, pero más caro de implementar y soportar que «instala un tema y escribe posts».",
+        "La carga de BD y las necesidades de hosting están por encima de la media — hace falta un admin capaz o un entorno managed.",
+      ],
+    },
+    {
+      title: "MODX",
+      level: 2,
+      paras: [
+        "Un CMS gratis con fuerte control del markup: útil cuando layout y estructura importan más que una «tienda de temas de un clic». Para principiantes el contra es menos plantillas listas «instala y olvida» que WordPress.",
+        "Encaja en sitios donde importan HTML limpio y lógica custom con un core relativamente ligero.",
+      ],
+      links: [
+        {
+          label: "MODX en localhost",
+          href: "/es/blog/modx-local/",
+        },
+      ],
+    },
+    {
+      title: "DLE (DataLife Engine)",
+      level: 2,
+      paras: [
+        "Históricamente popular para portales de noticias y media: feeds, categorías, carga. Revisa el modelo de licencia y los términos con el vendor; no te fíes de builds «nulled gratis».",
+        "Para principiantes el admin y las plantillas suelen ser menos amigables que WordPress: parte del trabajo va por plantillas y campos extra. Tómalo si el equipo ya conoce DLE y el trabajo es un feed media.",
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          text: "Elegir un CMS desde un artículo de «ranking de popularidad de 2017» sin pesar el equipo y el TCO.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Cómo elegir en un pase",
+      level: 2,
+      paras: [
+        "Arma una matriz: tipo de sitio × integraciones × quién administra × presupuesto anual × necesidades de velocidad y SEO. Corta plataformas demasiado pesadas para un landing y demasiado ligeras para un catálogo B2B complejo.",
+        "Una demo y un piloto en staging ganan a discusiones sobre qué motor es «más cool».",
+      ],
+      lists: [
+        {
+          intro: "Brújula aproximada:",
+          items: [
+            "blog / sitio de marketing — WordPress",
+            "corporativo con roles en RU — a menudo Bitrix",
+            "portal complejo — Drupal o Bitrix",
+            "layout custom — MODX / un framework",
+            "feed media — DLE si el equipo lo conoce",
+            "tienda — una comparación aparte de plataformas de tienda",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "Un CMS es una herramienta para el trabajo y el equipo. La popularidad facilita contratar, pero no cancela seguridad, backups y velocidad.",
+        "El motor no sustituye contenido y promoción. Primero requisitos, luego licencia y tema.",
+      ],
+    },
+  ],
+  closing: [
+    "Describe el trabajo y el TCO, compara WordPress, Bitrix y el resto contra el equipo de soporte real — y solo entonces compra una licencia o instala el motor «más popular» del ranking de otro.",
+  ],
+  related: [
+    "uznat-cms",
+    "cms-internet-magazina",
+    "bitrix-plyusy-minusy",
+    "wordpress-ustanovka",
+    "hosting",
+    "modx-local",
+  ],
+};

@@ -26,15 +26,25 @@ const copy =
         privacy: "политике конфиденциальности",
         after: ". Вы можете отключить cookies в настройках браузера.",
       }
-    : {
-        beforeCookies: "We use",
-        cookies: "cookies",
-        and: "and",
-        recommendations: "recommendation technologies",
-        mid: " to improve the site, tailor ads and collect visit stats. By continuing, you agree to personal data processing under our",
-        privacy: "privacy policy",
-        after: ". You can disable cookies in your browser settings.",
-      };
+    : locale === "es"
+      ? {
+          beforeCookies: "En este sitio usamos",
+          cookies: "cookies",
+          and: "y",
+          recommendations: "tecnologías de recomendación",
+          mid: " para mejorar el sitio, adaptar la publicidad y recopilar estadísticas de visita. Al continuar, aceptas el tratamiento de datos personales según nuestra",
+          privacy: "política de privacidad",
+          after: ". Puedes desactivar las cookies en los ajustes del navegador.",
+        }
+      : {
+          beforeCookies: "We use",
+          cookies: "cookies",
+          and: "and",
+          recommendations: "recommendation technologies",
+          mid: " to improve the site, tailor ads and collect visit stats. By continuing, you agree to personal data processing under our",
+          privacy: "privacy policy",
+          after: ". You can disable cookies in your browser settings.",
+        };
 ---
 
 <div class="cookie-notice">

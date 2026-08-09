@@ -162,3 +162,166 @@ export const tildaEn: BlogPost = {
     "ssl-sertifikat",
   ],
 };
+
+/** ES overlay for tilda — same structure as RU JSON / EN. */
+export const tildaEs: BlogPost = {
+  slug: "tilda",
+  title: "Cómo montar un sitio en Tilda: estructura, contenido y publicar",
+  date: "2018-12-28",
+  category: "Digital marketing",
+  cover: "/images/blog/tilda/cover.webp",
+  excerpt:
+    "Cómo armar una landing en Tilda: estructura de bloques, copy y visuales, Zero Block vs bloques listos, SEO básico, dominio y chequeos — sin prometer un «sitio listo en dos días» para cada proyecto.",
+  lead: [
+    "Tilda es un website builder por bloques: bueno para landings, sitios multipágina simples y prototipos rápidos. Un catálogo grande o lógica pesada tipo 1C a menudo choca con los límites de la plataforma.",
+    "Abajo: un orden de trabajo para una landing — estructura → contenido → diseño → build → SEO y QA. La UI de Tilda cambia; sigue el sentido de los pasos, no screenshots de 2018. «Dos días» es una guía para una landing simple con copy lista — no una garantía.",
+  ],
+  faq: [
+    {
+      q: "¿Tilda encaja para una tienda online?",
+      a: "Para un surtido pequeño y pagos simples — a menudo sí. Para un catálogo grande e integraciones complejas, mira CMS especializadas.",
+    },
+    {
+      q: "¿Hace falta un diseñador?",
+      a: "Plantillas y contenido cuidadoso bastan para arrancar. Un grid único necesita Zero Block o un diseñador si la marca lo exige.",
+    },
+    {
+      q: "¿Puedo usar fotos de stock?",
+      a: "Solo con una licencia comercial adecuada. Fotos de tu producto y equipo son más fuertes. No publiques tomas ajenas sin derechos.",
+    },
+    {
+      q: "¿Tilda se rankea sola?",
+      a: "No. Hace falta sentido de página, title/description, velocidad, indexación y demanda. Los rankings llevan meses planificados de trabajo — no el día de publicar.",
+    },
+    {
+      q: "¿Es obligatorio un dominio propio?",
+      a: "Para el negocio — sí: trust y URLs normales. Conecta el dominio en los ajustes del proyecto.",
+    },
+  ],
+  sections: [
+    {
+      title: "Primero la estructura, luego los bloques",
+      level: 2,
+      paras: [
+        "El tipo de sitio fija el marco. Una landing de curso ≠ un portfolio de diseñador ≠ un sitio multipágina de servicios. Para una landing clásica: oferta above the fold → producto → beneficios → trust → CTA → contactos.",
+        "En Tilda una pantalla ≈ un bloque (o grupo). Esboza una lista de bloques para el trabajo y corta extras: un club de paintball necesita un funnel corto; equipo B2B necesita más prueba.",
+      ],
+      lists: [
+        {
+          intro: "Set de ejemplo para un curso:",
+          items: [
+            "cover con oferta",
+            "números / resultados",
+            "programa",
+            "autor / equipo",
+            "precio y planes",
+            "FAQ",
+            "formulario y contactos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Landing page",
+          href: "/es/blog/lending/",
+        },
+        {
+          label: "Copy de landing",
+          href: "/es/blog/tekst-lendinga/",
+        },
+      ],
+    },
+    {
+      title: "Contenido: copy y visuales",
+      level: 2,
+      paras: [
+        "Escribe simple, como a un cliente en chat: beneficio, prueba, respuestas a objeciones. No vuelques «todo lo que sabes» en una pantalla.",
+        "Visuales: tus fotos y screens ganan a imágenes genéricas. Imágenes externas solo con licencia comercial. Comprime archivos — las fotos pesadas matan la velocidad móvil.",
+      ],
+      lists: [
+        {
+          intro: "Prepara antes de construir:",
+          items: [
+            "oferta y titulares",
+            "copy de bloques",
+            "fotos / iconos",
+            "precios y términos",
+            "política de privacidad si hay formularios",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          text: "Primero «clic bonito», luego cazar el sentido. Sin copy y oferta una plantilla no vende.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Prototipo, fuentes y color",
+      level: 2,
+      paras: [
+        "Los principiantes pueden bocetar en papel, en Docs o Figma: orden de bloques y CTAs. En Tilda el diseño a menudo arranca desde la biblioteca de bloques — un prototipo aún ahorra retrabajo.",
+        "Mantén color y tipografía en un sistema: 1–2 fuentes, botones contrastados, tamaño móvil legible. Inspírate en competidores y galerías de landings — no copies la marca de otro.",
+      ],
+    },
+    {
+      title: "Construir en Tilda",
+      level: 2,
+      paras: [
+        "Crea un proyecto, arma la página con bloques, mete el contenido, fija menú y formularios. Para un grid no estándar — Zero Block; para velocidad — bloques listos.",
+        "Comprueba responsive: el teléfono gana a «belleza en un monitor de 27″». Los formularios deben llegar a email o CRM, no a la nada.",
+      ],
+      lists: [
+        {
+          intro: "Antes de publicar:",
+          items: [
+            "todos los CTAs van donde deben",
+            "formularios testeados",
+            "sin imágenes rotas",
+            "layout móvil sin solapes",
+            "favicon y preview social",
+          ],
+        },
+      ],
+    },
+    {
+      title: "SEO básico, dominio y tests",
+      level: 2,
+      paras: [
+        "Fija H1/H2, title y description (aparte para búsqueda y sharing si los ajustes del proyecto lo permiten). Activa indexación, conecta el dominio, añade analytics.",
+        "Si recoges datos personales — documento y consentimiento. Corre un checklist de velocidad/display y envía un lead de prueba. El panel de hints SEO de Tilda es un helper, no una estrategia de promoción.",
+      ],
+      links: [
+        {
+          label: "Crear una tienda online",
+          href: "/es/blog/sozdanie-internet-magazina/",
+        },
+        {
+          label: "CMS para una tienda",
+          href: "/es/blog/cms-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "Tilda acelera el montaje cuando ya existen estructura y contenido. Orden: sentido → bloques → dominio y chequeos.",
+        "Juzga el trabajo con honestidad: una landing de servicio — sí; e-commerce pesado — a menudo otro stack.",
+      ],
+    },
+  ],
+  closing: [
+    "Reúne oferta y copy, monta bloques, conecta dominio y formularios, comprueba móvil — así aparece una landing Tilda más rápido que un «sitio sin brief», sin la ilusión de que el builder hace SEO solo.",
+  ],
+  related: [
+    "lending",
+    "tekst-lendinga",
+    "cms-internet-magazina",
+    "sozdanie-internet-magazina",
+    "formy-zahvata",
+    "ssl-sertifikat",
+  ],
+};

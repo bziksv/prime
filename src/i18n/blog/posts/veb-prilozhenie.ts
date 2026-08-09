@@ -115,3 +115,119 @@ export const vebPrilozhenieEn: BlogPost = {
     "A web application is a site where the user works, not only reads. The difference from a brochure is state, roles, and operations; pick the stack after scenarios — not before.",
   ],
 };
+
+/** ES overlay for veb-prilozhenie — same structure as RU JSON / EN. */
+export const vebPrilozhenieEs: BlogPost = {
+  slug: "veb-prilozhenie",
+  title: "Aplicación web: en qué se diferencia de un sitio y por qué la necesita el negocio",
+  date: "2020-09-22",
+  category: "Digital marketing",
+  cover: "/images/blog/veb-prilozhenie/cover.webp",
+  excerpt:
+    "Qué es una web app, en qué se diferencia de un sitio escaparate, cómo funciona la cadena browser–servidor, y cuándo el negocio necesita cuenta, carrito o SPA — no solo una landing.",
+  lead: [
+    "Una aplicación web es un programa en el navegador: el usuario no solo lee páginas — actúa: busca, rellena formularios, compra, trabaja en una cuenta. Los datos viven en el servidor; la UI se abre por URL.",
+    "Abajo: en qué se diferencia de un sitio simple, estático vs dinámico, tipos de interfaz y escenarios típicos de negocio. Esto no es una guía para elegir framework ni un sustituto del brief de desarrollo.",
+  ],
+  faq: [
+    {
+      q: "¿Sitio y web app son lo mismo?",
+      a: "Se solapan. Un sitio brochure es casi estático. Una tienda, un CRM en el navegador o una cuenta personal ya es una app: estado, roles, operaciones.",
+    },
+    {
+      q: "¿Hace falta software de escritorio?",
+      a: "Suele no: basta el navegador. Instala una app nativa cuando necesites offline, push o integración profunda con el dispositivo.",
+    },
+    {
+      q: "¿Qué es una SPA?",
+      a: "Single Page Application: la UI se actualiza sin un reload completo. Útil para cuentas; para SEO y analytics aún hacen falta URLs correctas y hits.",
+    },
+    {
+      q: "¿Es obligatorio Ajax?",
+      a: "No como marca de los 2010, sino como idea: cargar datos sin redibujar toda la página. Hoy lo mismo se hace con fetch/API y frameworks modernos.",
+    },
+    {
+      q: "¿Cuándo basta una landing?",
+      a: "Cuando el trabajo es explicar una oferta y recoger un lead. Si necesitas pedidos, roles, cálculos, integraciones — diséñalo como aplicación.",
+    },
+    {
+      q: "¿Esto afecta al SEO?",
+      a: "Sí: importan URLs indexables, velocidad, SSR/prerender cuando hace falta. Una cuenta bonita sin landings públicas no entrega sola la visibilidad en primera página.",
+    },
+    {
+      q: "¿Por dónde empezar al comprar desarrollo?",
+      a: "Por escenarios de usuario y roles — no por el stack. Luego datos, integraciones, derechos de acceso y criterios de aceptación.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué hace una aplicación web",
+      level: 2,
+      paras: [
+        "La lógica se parte entre servidor y navegador: el servidor guarda y calcula; el cliente muestra la UI y recibe input. El usuario trabaja por el navegador — sin instalar un cliente grueso en la mayoría de casos.",
+        "Una página estática se sirve casi igual a todos. Una dinámica se construye para la request, sesión, carrito o rol: tras el login una persona ve sus datos, no un escaparate compartido.",
+      ],
+      lists: [
+        {
+          intro: "Señales de app:",
+          items: [
+            "acciones con resultado (pedido, guardar, calcular)",
+            "estado de usuario (sesión, carrito, permisos)",
+            "habla con el servidor y a menudo APIs externas",
+            "la UI reacciona al input, no solo muestra texto",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Qué es un sitio web",
+          href: "/es/blog/chto-takoe-veb-sayt/",
+        },
+      ],
+    },
+    {
+      title: "La parte técnica sin dogma de framework",
+      level: 2,
+      paras: [
+        "Navegador y servidor pueden correr en distintos SO y lenguajes — un plus de la web. Lo que importa no es qué framework esté de moda, sino contratos: API, seguridad, velocidad de respuesta, errores claros.",
+        "Las actualizaciones parciales de UI (antes a menudo llamadas Ajax) cortan reloads innecesarios. En SPAs vigila analytics y URLs alcanzables: si no, contadores/objetivos y SEO se rompen en la navegación client-side.",
+      ],
+      links: [
+        {
+          label: "Servidor web",
+          href: "/es/blog/veb-server/",
+        },
+      ],
+    },
+    {
+      title: "Tipos por trabajo de negocio",
+      level: 2,
+      paras: [
+        "A grosso modo: escaparates con catálogo y carrito, cuentas (cliente/staff), editores y builders, tools de colaboración, widgets embebidos. Los bordes se difuminan: un producto puede mezclar varios roles.",
+      ],
+      lists: [
+        {
+          intro: "Ejemplos:",
+          items: [
+            "tienda online con pago y estados de pedido",
+            "cuenta personal de servicio o portal B2B",
+            "CRM/contabilidad en el navegador",
+            "reservas online, calculadoras, builders de presupuestos",
+            "admin del sitio como aplicación aparte",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cuándo planificar una app, no «solo un sitio»",
+      level: 2,
+      paras: [
+        "Si el valor está en el proceso (pedido, estado, documentos, roles), presupuesta y calendariza como producto: escenarios, datos, integraciones, derechos, tests. Las landings de marketing se quedan — su estructura y SEO se diseñan aparte de una cuenta cerrada.",
+        "Para la parte pública importan velocidad y URLs claras; para la cuenta — seguridad, auditoría de acciones y usabilidad del día a día.",
+      ],
+    },
+  ],
+  closing: [
+    "Una aplicación web es un sitio donde el usuario trabaja, no solo lee. La diferencia con un brochure es estado, roles y operaciones; elige el stack después de los escenarios — no antes.",
+  ],
+};

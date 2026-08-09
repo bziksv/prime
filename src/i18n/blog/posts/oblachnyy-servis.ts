@@ -152,3 +152,156 @@ export const oblachnyyServisEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for oblachnyy-servis — same structure as RU JSON / EN. */
+export const oblachnyyServisEs: BlogPost = {
+  slug: "oblachnyy-servis",
+  title: "Servicio en la nube: tipos, beneficios y seguridad",
+  date: "2021-04-09",
+  category: "Hosting",
+  cover: "/images/blog/oblachnyy-servis/cover.webp",
+  excerpt:
+    "Qué son el almacenamiento y los servicios en la nube, cómo difieren IaaS/PaaS/SaaS, beneficios para el negocio y riesgos de datos.",
+  lead: [
+    "«La nube» significa acceso a almacenamiento o software por internet, sin el stack de hardware visible del cliente. Archivos y cómputo viven en el proveedor.",
+    "Abajo: cómo funciona, tipos de servicio y preguntas de seguridad. No es un roundup de marcas concretas.",
+  ],
+  faq: [
+    {
+      q: "¿La nube es solo un Drive para archivos?",
+      a: "No. También email, CRM, hosting de apps, servidores virtuales y docenas de tools SaaS.",
+    },
+    {
+      q: "¿Es seguro?",
+      a: "Depende del proveedor, de los ajustes de acceso y de tus procesos. 2FA, permisos y backups son obligatorios.",
+    },
+    {
+      q: "¿En qué se diferencia de un servidor propio?",
+      a: "Menos trabajo de hardware, pago por uso / suscripción, dependencia de internet y de la política del proveedor.",
+    },
+    {
+      q: "¿Siempre hace falta conexión a internet?",
+      a: "Para acceso online — sí. Algunos clientes tienen cache offline, pero la sync sigue yendo por la red.",
+    },
+    {
+      q: "¿Qué debe elegir un negocio?",
+      a: "Parte del trabajo: archivos de equipo, email, CRM, infraestructura del sitio o analytics. Compara coste total, soporte y requisitos de datos.",
+    },
+    {
+      q: "¿Hace falta backup si los datos ya están en la nube?",
+      a: "Sí. La sync no te salva de un borrado accidental, ransomware o permisos mal puestos. Prueba la recuperación con antelación.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo funciona",
+      level: 2,
+      paras: [
+        "Entras en una UI web o app y ves un «drive», buzón o panel del servicio. Físicamente, datos y cómputo corren en los data centers del proveedor — el cliente recibe una abstracción.",
+        "El proveedor posee parte de la infraestructura, pero la línea de responsabilidad depende del modelo. Ajustes de usuario, permisos, contenido y backups suelen quedarse en la empresa.",
+      ],
+      lists: [
+        {
+          intro: "Acciones típicas:",
+          items: [
+            "subir y compartir archivos",
+            "edición colaborativa",
+            "correr apps por suscripción",
+            "escalar recursos de servidor",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tipos y beneficios",
+      level: 2,
+      paras: [
+        "Los servicios suelen partirse en IaaS — infraestructura virtual, PaaS — plataforma para construir, y SaaS — software listo por suscripción. El marketing suele encontrarse más con SaaS: CRM, analytics, email y drives en la nube.",
+        "Una nube pública comparte infraestructura entre clientes; una privada está dedicada a una organización; la híbrida mezcla ambas. La elección depende de la criticidad de los datos, el equipo y las integraciones.",
+      ],
+      lists: [
+        {
+          intro: "Beneficios:",
+          items: [
+            "arranque rápido",
+            "acceso desde distintos dispositivos",
+            "menos admin propio",
+            "escalado con la carga",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Servidor web",
+          href: "/es/blog/veb-server/",
+        },
+      ],
+    },
+    {
+      title: "Seguridad y riesgos",
+      level: 2,
+      paras: [
+        "Las fugas suelen venir más de contraseñas débiles, permisos de más y phishing — no de «magia de la nube». Cifrado, 2FA, auditorías de acceso y una política clara de retención son la base.",
+        "Revisa el contrato: dónde se guardan los datos, cómo se reportan incidentes, si hay log de actividad y cómo exportas al cambiar de proveedor. Con datos personales, revisa los requisitos legales.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo del equipo:",
+          items: [
+            "autenticación de dos factores",
+            "cuentas separadas, no una contraseña compartida",
+            "backup de datos críticos",
+            "saber qué jurisdicción guarda los datos",
+            "revocar acceso al offboarding",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Importante",
+          text: "Con datos personales, revisa requisitos legales y el contrato del proveedor — no solo un «tarifa cómoda».",
+        },
+      ],
+    },
+    {
+      title: "Cómo evaluar un servicio antes del rollout",
+      level: 2,
+      paras: [
+        "Escribe escenarios: colaboración en archivos, acceso de oficina, un sitio de respaldo o lanzar una app. Luego tarifa y features se juzgan por el trabajo — no por una promesa de ads.",
+        "Haz un piloto corto con roles reales: empleado, manager, contractor, admin. Sacan a la luz problemas de acceso, integración y velocidad antes de un traslado masivo.",
+      ],
+      lists: [
+        {
+          intro: "Compara antes de comprar:",
+          items: [
+            "coste a plazo completo, no solo el mes uno",
+            "SLA y canales de soporte",
+            "exportación de datos y compatibilidad",
+            "permisos y auditoría de actividad",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Plan de migración y backup",
+      level: 2,
+      paras: [
+        "No muevas todo el storage en un día sin inventario. Parte los datos por dueños y criticidad, fija retención y borra copias viejas según las reglas de la empresa.",
+        "Un plan de recuperación gana a un checkbox bonito de «hay backup». Asigna un owner, elige frecuencia de copias y prueba restaurar un archivo y una carpeta de trabajo entera.",
+      ],
+      lists: [
+        {
+          intro: "Plan mínimo:",
+          items: [
+            "inventario de datos",
+            "grupo piloto",
+            "formación del staff",
+            "prueba de recuperación",
+            "revisión regular de permisos",
+          ],
+        },
+      ],
+    },
+  ],
+};

@@ -156,3 +156,160 @@ export const stranitsaKontaktovEn: BlogPost = {
     "tekst-lendinga",
   ],
 };
+
+/** ES overlay for stranitsa-kontaktov — same structure as RU JSON. */
+export const stranitsaKontaktovEs: BlogPost = {
+  slug: "stranitsa-kontaktov",
+  title: "Cómo diseñar la página de contacto de un sitio",
+  date: "2019-11-07",
+  category: "Content marketing",
+  cover: "/images/blog/stranitsa-kontaktov/cover.webp",
+  excerpt:
+    "Una página de Contactos dedicada: qué listar, cómo no sobrecargar el header, teléfonos clicables, mapa y formulario — sin convertir el bloque en un vertedero de datos legales.",
+  lead: [
+    "La página de contacto es un punto de confianza y alcance rápido: dirección, teléfonos, email, mapa, horarios y una vía para escribir. Los errores y los campos vacíos ahuyentan aquí más que en Sobre nosotros.",
+    "Abajo: por qué una página dedicada, qué mínimo mostrar, utilidad para el visitante, comodidad móvil y un sistema visual. Los formularios de leads van aparte; el copy de Sobre nosotros tiene su propio artículo.",
+  ],
+  faq: [
+    {
+      q: "¿Bastan los teléfonos en el header?",
+      a: "En el header — 1–2 números principales y un enlace a Contactos. Direcciones completas, sucursales y datos legales van en una página dedicada.",
+    },
+    {
+      q: "¿Hacen falta datos legales / de empresa?",
+      a: "Para e-commerce y B2B — sí: razón social, dirección, IDs de registro/fiscales según corresponda. La precisión gana a un layout bonito.",
+    },
+    {
+      q: "¿Hace falta un mapa?",
+      a: "Si hay pickup o visita a oficina — sí; interactivo gana a un croquis estático. Para un servicio 100% online sin dirección — no es obligatorio.",
+    },
+    {
+      q: "¿Hay que optimizar la página para SEO?",
+      a: "No para «meter keywords». Bastan un title/H1 normal de Contactos más marca/ciudad y un NAP preciso. El tráfico suele llegar por marca y el menú.",
+    },
+    {
+      q: "¿El teléfono como imagen o como texto?",
+      a: "Como texto y clicable (`tel:` / `mailto:`). Una imagen dificulta copiar y la accesibilidad.",
+    },
+    {
+      q: "¿Dónde van los mensajeros?",
+      a: "A canales de soporte vivos con una expectativa clara de respuesta. No dupliques una docena de iconos muertos.",
+    },
+    {
+      q: "¿En qué se diferencia de un formulario de contacto?",
+      a: "Contactos — todos los puntos de alcance y el NAP. El formulario es un canal en esta página o en páginas de servicio.",
+    },
+  ],
+  sections: [
+    {
+      title: "Una página dedicada — no un muro en el header",
+      level: 2,
+      paras: [
+        "El header ya lleva logo, menú, carrito, login. Meter ahí cada sucursal, línea legal y horario dispersa la atención e hincha la barra.",
+        "Una página de Contactos aparte aligera el header: en la barra — uno o dos teléfonos y una pista corta de horarios; en el menú y el footer — enlace a la página completa.",
+        "En un solo sitio el cliente encuentra teléfonos de servicio, direcciones, mapa, email y condiciones de contacto — sin scavenger hunt. Un NAP abierto reduce la sensación de «empresa fantasma».",
+      ],
+      notes: [
+        {
+          title: "No es sitio para «meter más ads»",
+          kind: "tip",
+          text: "El espacio liberado en el header es mejor para navegación y oferta — no otro banner.",
+        },
+      ],
+      links: [
+        {
+          label: "Sobre la empresa",
+          href: "/es/blog/o-kompanii/",
+        },
+      ],
+    },
+    {
+      title: "Datos completos y verdaderos",
+      level: 2,
+      paras: [
+        "En la página incluye: teléfonos etiquetados por quién responde (oficina, delivery, soporte); emails de servicio; perfiles sociales y mensajeros activos; direcciones de oficina/almacén/pickup; horarios y ventanas de respuesta del operador.",
+        "Para confianza — razón social, domicilio registrado cuando haga falta, datos bancarios para transferencias. Cerca — un formulario o chat si el equipo responde de verdad.",
+        "Actualiza cualquier cambio al momento: un número viejo o una dirección «fantasma» pega a la confianza más que una página vacía.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo comercial:",
+          items: [
+            "teléfono y/o mensajero con expectativa de respuesta",
+            "email o formulario",
+            "NAP (nombre, dirección, teléfono) alineado con mapas y footer",
+            "horario comercial",
+            "mapa o un «cómo llegar» claro si hay visitas",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Utilidad — no un vertedero de campos",
+      level: 2,
+      paras: [
+        "Destaca lo que más gente necesita: pago, entrega, pickup, devoluciones — en breve o vía enlaces a páginas dedicadas. Fotos de fachada y un croquis de ruta ayudan a una ubicación offline.",
+        "No conviertas Contactos en un muro SEO de «compra X barato». El trabajo de la página es conectar y verificar la empresa — no competir con una ficha de producto.",
+      ],
+      links: [
+        {
+          label: "Formulario de contacto",
+          href: "/es/blog/forma-obratnoy-svyazi/",
+        },
+      ],
+    },
+    {
+      title: "Comodidad en cualquier dispositivo",
+      level: 2,
+      paras: [
+        "La página debe leerse bien en el móvil: teléfonos y email grandes y clicables, datos copiables como texto (no una captura).",
+        "Un mapa interactivo gana a una imagen: rutas en transporte y coche. Vigila que el widget no mate la velocidad ni tape botones en móvil.",
+      ],
+      notes: [
+        {
+          title: "Consistencia del NAP",
+          kind: "tip",
+          text: "Mismo nombre, dirección y teléfono — en el footer, en Contactos y en el perfil de negocio. Los desajustes confunden a la gente y al SEO local.",
+        },
+      ],
+      links: [
+        {
+          label: "Google Business Profile",
+          href: "/es/blog/google-biznes/",
+        },
+      ],
+    },
+    {
+      title: "Estilo y jerarquía",
+      level: 2,
+      paras: [
+        "Encaja con el estilo del sitio: tipografías, color, spacing, logo. Datos en bloques: Contáctanos, Direcciones, Datos legales, Escríbenos.",
+        "Copy sin errores, corto. Enlaces a Sobre nosotros, reviews, entrega están bien si la página no se vuelve una segunda homepage.",
+        "Contactos no son una «utilidad menor»: un alcance claro empuja leads y la sensación de fiabilidad.",
+      ],
+      lists: [
+        {
+          intro: "Recuerda:",
+          items: [
+            "página dedicada + header compacto",
+            "NAP al día y datos legales según haga falta",
+            "texto clicable — no imágenes",
+            "mapa y formulario — cuando ayudan de verdad",
+            "un estilo y bloques claros",
+          ],
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Abre Contactos en el móvil: llamada a un toque, el email se copia, el mapa abre, el formulario envía limpio — si algo de eso falla, arréglalo primero.",
+  ],
+  related: [
+    "forma-obratnoy-svyazi",
+    "o-kompanii",
+    "google-biznes",
+    "molodoy-sayt",
+    "regionalnoe-seo",
+    "tekst-lendinga",
+  ],
+};

@@ -229,3 +229,233 @@ export const adaptivnyySaytEn: BlogPost = {
     "forma-obratnoy-svyazi",
   ],
 };
+
+/** ES overlay for adaptivnyy-sayt — same structure as RU JSON / EN. */
+export const adaptivnyySaytEs: BlogPost = {
+  slug: "adaptivnyy-sayt",
+  title: "Hacer que el sitio funcione en todos los tamaños de pantalla: por qué y cómo",
+  date: "2020-12-08",
+  category: "SEO",
+  cover: "/images/blog/adaptivnyy-sayt/cover.webp",
+  excerpt:
+    "Qué es un sitio responsive, en qué se diferencia de una versión móvil aparte, por qué importa para SEO y UX, las etapas de construcción y cómo probarlo en distintas pantallas.",
+  lead: [
+    "La mayoría de las visitas llegan desde smartphones: la gente mira el catálogo en el teléfono y a menudo envía el lead desde ahí. Un sitio que «flota» o pide scroll horizontal pierde usuarios y señales de calidad para la búsqueda.",
+    "Abajo: qué significa encajar en el tamaño de pantalla, en qué se diferencia responsive de un m-site aparte, objetivos para negocio y SEO, el proceso y los checks. El layout como oficio es un artículo hermano; aquí el foco es la UX móvil.",
+  ],
+  faq: [
+    {
+      q: "¿Diseño responsive y versión móvil son lo mismo?",
+      a: "No siempre. Responsive es una URL y un markup que se ajusta al ancho. Una «versión móvil» a menudo es un subdominio o plantilla aparte (m.) — hoy menos a menudo la estrategia por defecto.",
+    },
+    {
+      q: "¿Es obligatorio el meta viewport?",
+      a: "Sí para un escalado normal en el teléfono: meta viewport en `<head>`. Sin él la página suele renderizarse como una miniatura de desktop.",
+    },
+    {
+      q: "¿El diseño responsive afecta al SEO?",
+      a: "Sí — de forma indirecta y fuerte: usabilidad, velocidad, bounce, indexación mobile-first. Una vista móvil rota arriesga visibilidad y conversión.",
+    },
+    {
+      q: "¿Basta encoger el layout de desktop en CSS?",
+      a: "No. Hace falta prioridad de contenido, targets táctiles grandes, tipografía legible, formularios usables y a veces otro orden de bloques.",
+    },
+    {
+      q: "¿Necesito AMP?",
+      a: "No es obligatorio para la mayoría de sitios comerciales. Primero deja bien responsive y velocidad; AMP es una elección aparte para casos estrechos.",
+    },
+    {
+      q: "¿Cómo compruebo el responsive rápido?",
+      a: "Modo dispositivo de DevTools más teléfonos reales, PageSpeed/Lighthouse mobile y un pase por plantillas clave (home, categoría, producto, formulario).",
+    },
+    {
+      q: "¿Todavía se construye un m.site aparte?",
+      a: "A veces en setups legacy. Inconvenientes: URLs duplicadas, redirects, deriva de contenido. Prefiere responsive en un canónico.",
+    },
+    {
+      q: "¿Responsive significa un sitio rápido?",
+      a: "No automáticamente. Imágenes y scripts pesados matan la UX móvil aunque la grid esté limpia. Comprime media y corta el exceso.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué significa que el sitio funcione en móvil",
+      level: 2,
+      paras: [
+        "Encajar en el tamaño de pantalla significa que layout y UI siguen legibles y usables en teléfono, tablet y desktop. Suele ser responsive: una URL, media queries CSS o una grid moderna, imágenes flexibles.",
+        "El objetivo no es «meterlo todo pequeñito» — es mantener el viaje: encontrar un servicio o producto → entender la oferta → llamar o enviar la solicitud sin pelear con el menú y el formulario.",
+      ],
+      lists: [
+        {
+          intro: "Señales de un responsive sólido:",
+          items: [
+            "sin scroll horizontal inútil",
+            "texto legible sin zoom",
+            "botones y enlaces fáciles de tocar",
+            "menús y filtros que abren de forma predecible",
+            "el mismo sentido de contenido que en desktop",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Maquetación de sitios",
+          href: "/es/blog/verstka-saytov/",
+        },
+      ],
+    },
+    {
+      title: "Por qué importa para el negocio y el SEO",
+      level: 2,
+      paras: [
+        "Comercio: parte del camino de compra empieza en móvil. Si la ficha de producto o el formulario son incómodos, el lead se va al competidor con UX decente.",
+        "La búsqueda lleva tiempo juzgando la experiencia móvil (mobile-first). Una página móvil lenta o rota duele más al crawl y al comportamiento que «una keyword más en el H1».",
+      ],
+      lists: [
+        {
+          intro: "Objetivos del diseño responsive:",
+          items: [
+            "no perder tráfico de teléfono",
+            "mantener la conversión en pantalla pequeña",
+            "simplificar el mantenimiento de una plantilla",
+            "cumplir expectativas de indexación mobile-first",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+    },
+    {
+      title: "Responsive o una versión móvil aparte",
+      level: 2,
+      paras: [
+        "Sitio responsive: una dirección; contenido y señales SEO no se multiplican. Una versión móvil aparte (a menudo `m.`) implica segunda plantilla y riesgo de deriva — copy distinto, noindex olvidado, cadenas de redirect.",
+        "Un m. aparte rara vez tiene sentido (legacy pesado, apps especiales). Para un proyecto nuevo y la mayoría de CMS, usa responsive más bloques más ligeros si hace falta — no un segundo sitio.",
+      ],
+      lists: [
+        {
+          intro: "Responsive:",
+          items: [
+            "una URL canónica",
+            "analytics y goals más simples",
+            "menos duplicados",
+            "un solo ciclo de edición de contenido",
+          ],
+        },
+        {
+          intro: "m. aparte:",
+          items: [
+            "hace falta unificar y redirects cuidadosos",
+            "fácil deriva de contenido",
+            "doble mantenimiento de plantillas",
+            "más riesgo de errores SEO técnicos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Si ya tienes m. — audita primero: mismo sentido, redirects y canonical correctos. A menudo conviene colapsar a un dominio responsive.",
+        },
+      ],
+      links: [
+        {
+          label: "Páginas duplicadas",
+          href: "/es/blog/dubli-stranits/",
+        },
+      ],
+    },
+    {
+      title: "Cómo construyen responsive los equipos en la práctica",
+      level: 2,
+      paras: [
+        "Empieza por plantillas prioritarias: home, landings clave, catálogo, producto, carrito/formulario, blog. Fija breakpoints, rehace grid, tipografía, spacing, nav (un burger no es un vertedero de todo el menú desktop).",
+        "Imágenes — srcset/sizes, compresión, no cargues 4K de desktop en 360px. Tablas y bloques anchos — scroll del contenedor o una vista simplificada sin romper todo el layout.",
+      ],
+      lists: [
+        {
+          intro: "Proceso típico:",
+          items: [
+            "viewport y grid base",
+            "menú móvil y header",
+            "bloques de contenido y CTAs",
+            "formularios y teléfono clicable",
+            "media y fuentes",
+            "regresión desktop tras los cambios",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Formulario de contacto",
+          href: "/es/blog/forma-obratnoy-svyazi/",
+        },
+      ],
+    },
+    {
+      title: "Beneficios de un responsive sólido",
+      level: 2,
+      paras: [
+        "Un solo sitio es más fácil para marketing e ingeniería. Ads y SEO apuntan a las mismas URLs. Los usuarios no saltan entre una versión «completa» y una «lite» con precios distintos.",
+        "Para el equipo, menos sorpresas: editas la oferta una vez, revisas dos o tres anchos — no sincronizas dos instancias de CMS.",
+      ],
+      lists: [
+        {
+          intro: "Qué ganas:",
+          items: [
+            "conversión del tráfico móvil",
+            "indexación predecible de un canónico",
+            "menor coste de mantenimiento",
+            "mejores Core Web Vitals cuando se optimiza el peso",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo probar en distintas pantallas",
+      level: 2,
+      paras: [
+        "No te quedes en un iPhone del emulador. Revisa anchos de Android de gama media, landscape, redes reales (3G/LTE). Prueba toques, máscaras de input, CTAs sticky y si el chat tapa el botón de enviar.",
+        "Automatización: Lighthouse mobile, un crawler con user-agent móvil si hace falta, revisión de screenshots de URLs clave tras el release. Tras cambiar el theme del CMS — otra pasada completa de plantillas.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de aceptación:",
+          items: [
+            "home / categoría / producto / formulario",
+            "menú y búsqueda",
+            "sin texto cortado ni solapamientos",
+            "velocidad móvil aceptable",
+            "enlaces legales y consentimientos tocables",
+            "retargeting/chat no rompen la UX",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Dar por hecho el responsive porque «DevTools se ve como un teléfono». Un dedo real y un teclado real del formulario son un segundo pase obligatorio.",
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "verstka-saytov",
+    "optimizatsiya-konversii",
+    "tehnicheskiy-seo-audit",
+    "lending",
+    "forma-obratnoy-svyazi",
+  ],
+};

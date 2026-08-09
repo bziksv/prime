@@ -396,8 +396,255 @@ const partnerEn: PartnerContent = {
   footerTagline: "Partner program · digital marketing",
 };
 
+const partnerEs: PartnerContent = {
+  path: "/es/partnership/",
+  metaTitle: "Programa de partners — PRIME",
+  metaDescription:
+    "Hazte partner de PRIME: recomienda clientes de marketing digital y gana una comisión. Informes mensuales claros, contrato real y pagos sobre lo facturado — en todo el mundo.",
+  breadcrumbHome: "Inicio",
+  breadcrumbCurrent: "Partners",
+  menuLabel: "Menú",
+  ctaTop: "Hazte partner",
+  heroKicker: "Programa de partners",
+  heroTitleBefore: "Recomienda PRIME — ",
+  heroTitleAccent: "gana",
+  heroTitleAfter: " cuando el cliente paga",
+  heroLead:
+    "Envíanos clientes para SEO, Google Ads y desarrollo web. Nosotros llevamos el proyecto, reportamos cada mes y pagamos sobre lo facturado — con contrato, sin letra pequeña.",
+  heroCtaPrimary: "Hazte partner",
+  heroCtaSecondary: "Por qué con nosotros",
+  benefitsTitle: "Por qué asociarte con nosotros",
+  benefitsLead: "Los mismos estándares con los que vendemos — empaquetados para que recomendarnos te dé orgullo.",
+  benefits: [
+    {
+      title: "Nos apasiona el oficio",
+      text: "No somos “una agencia más” — un equipo que vive el marketing digital y lo respalda con números.",
+      tone: "p",
+    },
+    {
+      title: "Nos hacemos cargo del proyecto",
+      text: "Llevamos al cliente de punta a punta: desde la primera llamada hasta los informes mensuales y tu pago.",
+      tone: "r",
+    },
+    {
+      title: "Resultados que puedes mostrar",
+      text: "Los casos de éxito son públicos. Crecimiento en Google, leads, CPL — fáciles de mostrar al recomendar.",
+      tone: "m",
+    },
+    {
+      title: "Compartimos lo que sabemos",
+      text: "SEO, Google Ads y analítica — práctica y novedades para que estés al día en cualquier mercado.",
+      tone: "e",
+    },
+    {
+      title: "Pagos transparentes",
+      text: "Se paga sobre resultados. Cada mes recibes un informe detallado: ves lo que paga el cliente y lo que ganas.",
+      tone: "e",
+    },
+  ],
+  whyTitle: "Qué obtienes como partner",
+  whyLead: "Claro y sin sorpresas en la letra pequeña.",
+  why: [
+    "Recomienda PRIME — gana un porcentaje de lo que paga el cliente",
+    "Nosotros llevamos el proyecto: no necesitas ser especialista en SEO",
+    "Informes mensuales transparentes — fáciles de seguir",
+    "Contrato por escrito y pagos regulares",
+  ],
+  showCases: true,
+  casesTitle: "Trabajos que nos enorgullece mostrar",
+  casesLead: "Proyectos activos que llevamos — y mostramos a los partners sin reservas.",
+  cases: [
+    {
+      name: "Motorland Body",
+      tag: "Taller de chapa y pintura",
+      image: "/images/v6/partner-cases/kuzovnoy.webp",
+      href: "/es/keysy/seo/motorland-kuzov/",
+    },
+    {
+      name: "Vtorma",
+      tag: "Reciclaje",
+      image: "/images/v6/partner-cases/vtorma.webp",
+      href: "/es/keysy/seo/vtorma/",
+    },
+    {
+      name: "Kabelmontazh",
+      tag: "Instalaciones eléctricas",
+      image: "/images/v6/partner-cases/kabelmontazh.webp",
+      href: "/es/keysy/seo/kabelmontazh/",
+    },
+    {
+      name: "Fortuna",
+      tag: "Taller mecánico",
+      image: "/images/v6/partner-cases/fortuna.webp",
+      href: "/es/keysy/ads/fortuna-avto/",
+    },
+    {
+      name: "Svetlyachok",
+      tag: "Centro infantil",
+      image: "/images/v6/partner-cases/svetlyachok.webp",
+      href: "/es/keysy/seo/det-zentr/",
+    },
+    {
+      name: "Himopttorg",
+      tag: "Química industrial",
+      image: "/images/v6/partner-cases/himopttorg.webp",
+      href: "/es/keysy/seo/himopttorg/",
+    },
+    {
+      name: "Argument",
+      tag: "Servicios legales",
+      image: "/images/v6/partner-cases/argument.webp",
+      href: "/es/keysy/web/argument/",
+    },
+    {
+      name: "Skazka",
+      tag: "Repostería",
+      image: "/images/v6/partner-cases/skazka.webp",
+      href: "/es/keysy/seo/skazka/",
+    },
+    {
+      name: "Barokko",
+      tag: "Cortinas",
+      image: "/images/v6/partner-cases/barokko.webp",
+      href: "/es/keysy/seo/barokko/",
+    },
+    {
+      name: "Motorland",
+      tag: "Concesionario",
+      image: "/images/v6/partner-cases/motorland.webp",
+      href: "/es/keysy/seo/motor-lend-nissan/",
+    },
+  ],
+  casesViewAll: "Ver todos los trabajos",
+  casesViewAllHref: "/es/keysy/",
+  stepsTitle: "Cómo empezar",
+  stepsLead: "Cuatro pasos — del email al primer cliente derivado.",
+  steps: [
+    {
+      n: "01",
+      title: "Postúlate",
+      text: "Escribe a info@prime-ltd.su — cuéntanos tu audiencia y cómo quieres trabajar con nosotros.",
+    },
+    {
+      n: "02",
+      title: "Conversación",
+      text: "Hablamos de tu nicho, el formato de colaboración y cualquier duda sobre el proceso.",
+    },
+    {
+      n: "03",
+      title: "Contrato",
+      text: "Todo por escrito y en regla. Funciona para empresas y autónomos. Pagos mensuales.",
+    },
+    {
+      n: "04",
+      title: "En marcha",
+      text: "Nos pasas el contacto (el cliente ya sabe que le llamaremos) — y arrancamos.",
+    },
+  ],
+  statsTitle: "Algunos números",
+  statsLead: "Referencias del programa de partners — plazos y pagos.",
+  stats: [
+    {
+      value: 36,
+      suffix: "+",
+      label: "meses",
+      desc: "Horizonte mínimo habitual de colaboración con un cliente",
+    },
+    {
+      value: 13,
+      suffix: "k $",
+      label: "pagados",
+      desc: "Lo que pagamos a nuestro mejor partner en un año",
+    },
+    {
+      value: 40,
+      suffix: "+",
+      label: "partners",
+      desc: "Cuánto ha crecido la red de partners en los años activos",
+    },
+  ],
+  outcomesTitle: "Qué ganas como partner",
+  outcomesLead: "Ingresos por recomendación — sin ejecutar el trabajo ni esquemas turbios.",
+  outcomes: [
+    {
+      title: "Ingresos sin ejecución",
+      text: "Tú recomiendas — nosotros nos encargamos del cliente: SEO, Google Ads, sitios web. Tú no eres el proveedor.",
+    },
+    {
+      title: "Números claros",
+      text: "Un porcentaje de lo que paga el cliente, un informe mensual detallado y pagos con contrato — sin esquemas turbios.",
+    },
+    {
+      title: "Fácil de recomendar",
+      text: "Casos de éxito y cifras publicadas en el sitio — muestran en qué se diferencia PRIME de una agencia efímera.",
+    },
+  ],
+  nosTitle: "Lo que esto NO es",
+  nosLead: "Para que nadie lo confunda con MLM ni con “se paga desde la primera llamada”.",
+  nos: [
+    {
+      title: "No es multinivel ni una pirámide",
+      text: "Recomiendas clientes y cobras un porcentaje de sus pagos. Sin reclutar una “red” debajo de ti.",
+    },
+    {
+      title: "Sin promesa de “se paga desde la primera llamada”",
+      text: "La comisión depende de pagos reales del cliente por servicios. Los términos y el porcentaje están en el contrato.",
+    },
+    {
+      title: "No te dejamos la ejecución a ti",
+      text: "Tú pasas el contacto (el cliente lo sabe) — nosotros nos encargamos de la estrategia, los informes y los resultados.",
+    },
+  ],
+  faqTitle: "Preguntas frecuentes",
+  faqLead: "Quién puede unirse, cómo pagamos y si tienes que ejecutar el trabajo tú mismo.",
+  faq: [
+    {
+      q: "¿Quién puede ser partner?",
+      a: "Agencias, proveedores, freelancers, consultores — cualquiera que recomiende clientes. Funciona para empresas y autónomos; acordamos el formato desde el inicio.",
+    },
+    {
+      q: "¿Cómo se calcula la comisión?",
+      a: "Un porcentaje de los pagos del cliente por servicios de PRIME. El contrato recoge la base, los plazos y el orden de pago (normalmente mensual).",
+    },
+    {
+      q: "¿Tengo que llevar el SEO o los anuncios yo mismo?",
+      a: "No. Tú recomiendas y pasas el contacto. La ejecución, los informes y la comunicación con el cliente son responsabilidad nuestra.",
+    },
+    {
+      q: "¿El cliente debe saber que soy partner?",
+      a: "Sí. Antes de la llamada ya sabe que PRIME va a contactarle. Es un inicio más limpio y con menos sorpresas.",
+    },
+    {
+      q: "¿Qué servicios cubre el programa?",
+      a: "Normalmente SEO, Google Ads, desarrollo web y trabajos relacionados de agencia. En la conversación inicial confirmamos qué se ajusta mejor a tu audiencia en cualquier mercado.",
+    },
+  ],
+  ctaTitle: "¿Listo para ser partner?",
+  ctaLead:
+    "Llevamos desde 2015 en esto — muchas agencias no han durado tanto. Cuéntanos cómo quieres trabajar: te respondemos, revisamos condiciones y enviamos el contrato.",
+  formName: "Tu nombre",
+  formPhone: "Teléfono",
+  formEmail: "Email",
+  formType: "Tipo de colaboración",
+  formTypeOptions: [
+    "Recomendación de clientes",
+    "Agencia / proveedor",
+    "Freelance / consultor",
+    "Otro",
+  ],
+  formMessage: "Cuéntanos brevemente sobre ti y tu audiencia",
+  formAgreeBefore: "Acepto el tratamiento de datos personales según nuestra",
+  formAgreePolicy: "política de privacidad",
+  formSubmit: "Enviar",
+  formSuccess: "Gracias — recibimos tu solicitud de partnership.",
+  formSource: "es-partnership",
+  footerBrand: "PRIME",
+  footerTagline: "Programa de partners · marketing digital",
+};
+
 export function getPartnerContent(locale: Locale): PartnerContent {
   if (locale === "en") return partnerEn;
+  if (locale === "es") return partnerEs;
   return partnerRu;
 }
 

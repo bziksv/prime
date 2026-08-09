@@ -242,3 +242,246 @@ export const spetsrazmeshchenieDirektEn: BlogPost = {
     "tekst-lendinga",
   ],
 };
+
+/** ES overlay for spetsrazmeshchenie-direkt — same structure as RU JSON / EN. */
+export const spetsrazmeshchenieDirektEs: BlogPost = {
+  slug: "spetsrazmeshchenie-direkt",
+  title:
+    "Emplazamiento especial en Yandex Direct: qué era y qué mirar ahora",
+  date: "2021-02-19",
+  category: "Paid search",
+  cover: "/images/blog/spetsrazmeshchenie-direkt/cover.webp",
+  excerpt:
+    "Qué significaba el «emplazamiento especial» en el Direct antiguo, por qué el término está desfasado y cómo pensar hoy en bloques de ads, pujas y calidad del anuncio.",
+  lead: [
+    "«Emplazamiento especial» era el nombre histórico de los bloques premium de ads encima de los resultados de búsqueda de Yandex. La UI y la subasta han cambiado mucho desde entonces.",
+    "Abajo: qué significaba el término viejo y cómo funciona ahora. La posición depende de puja, calidad y CTR previsto — no de un checkbox mágico. Apunta a CPA e ingresos, no al nombre legendario de un bloque.",
+  ],
+  faq: [
+    {
+      q: "¿Sigue existiendo el emplazamiento especial como tarifa?",
+      a: "Como producto aparte «comprar emplazamiento especial» en el sentido antiguo — no. Revisa formatos y estrategias actuales en la ayuda de Direct.",
+    },
+    {
+      q: "¿Cómo entro en el bloque alto?",
+      a: "Compites en la subasta: keywords relevantes, ads fuertes, una puja o estrategia sensata y una buena landing.",
+    },
+    {
+      q: "¿Una puja más alta siempre me pone arriba?",
+      a: "No siempre. La calidad y la clicabilidad afectan al coste y al acceso a impresiones.",
+    },
+    {
+      q: "¿Cómo se relaciona esto con las pujas?",
+      a: "La puja es una palanca. Ver el artículo aparte sobre pujas en Direct.",
+    },
+    {
+      q: "¿Necesito un presupuesto aparte «para emplazamiento especial»?",
+      a: "Planifica presupuesto por objetivos y CPA — no por un nombre de bloque obsoleto.",
+    },
+    {
+      q: "¿Puedo garantizar una impresión en el bloque alto?",
+      a: "No. Los resultados de la subasta cambian con la consulta, competidores, calidad del anuncio y límites de campaña.",
+    },
+    {
+      q: "¿Qué le muestro al cliente en lugar de la posición?",
+      a: "Gasto, conversiones, CPA, calidad del lead e ingresos — resultados de negocio, no «estamos en emplazamiento especial».",
+    },
+    {
+      q: "¿Más abajo en la página siempre es peor?",
+      a: "No necesariamente. A veces el clic es más barato y los leads mejores. Cuenta economía, no solo la altura del bloque.",
+    },
+  ],
+  sections: [
+    {
+      title: "Lo que la gente recuerda como «emplazamiento especial»",
+      level: 2,
+      paras: [
+        "Antes significaba ads notables encima del orgánico. De ahí el hábito «quiero emplazamiento especial» = «quiero estar arriba».",
+        "Las guías viejas a menudo describen una UI y una matemática que ya no existen. El término sirve al hablar con un cliente de los 2010, pero las campañas se configuran con informes actuales y la ayuda de Yandex.",
+      ],
+      lists: [
+        {
+          intro: "Importante entender:",
+          items: [
+            "los nombres de bloques cambiaron",
+            "la subasta se volvió más compleja",
+            "no hay garantía eterna del puesto nº 1",
+            "capturas viejas de la cuenta no son instrucciones",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo funcionan las impresiones ahora",
+      level: 2,
+      paras: [
+        "Posición y slots premium son resultados de subasta: puja o estrategia, CTR previsto, calidad del anuncio y relevancia. El sistema elige un set de ads para la consulta — no vende un paquete especial como afirmaban las guías antiguas.",
+        "Los informes de posición media y cuota de impresión ayudan como diagnóstico, no como KPIs por sí solos. Una bajada de altura puede ser tope de presupuesto, moderación o un cambio de demanda — no solo «pujamos poco».",
+      ],
+      lists: [
+        {
+          intro: "Lo que de verdad ajustas:",
+          items: [
+            "keywords y negativos",
+            "copy del anuncio y extensiones",
+            "landing page",
+            "puja o estrategia automática",
+            "geo, horario, dispositivos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Pujas en Yandex Direct",
+          href: "/es/blog/stavki-direkt/",
+        },
+        {
+          label: "Cuenta de ads",
+          href: "/es/blog/reklamnyy-kabinet/",
+        },
+      ],
+    },
+    {
+      title: "Palancas en lugar de perseguir un nombre",
+      level: 2,
+      paras: [
+        "Trata las stats de impresión como consecuencia de los ajustes. Mejora ads y negativos; cuenta la economía del clic. Una puja no vale para cada frase: marca, demanda caliente e investigación se comportan distinto.",
+        "Antes de subir la puja por el bloque alto, asegúrate de que la landing cumple la expectativa de la consulta: oferta, precio o siguiente paso, formulario que funciona. Si no, un premium caro solo acelera la quema.",
+      ],
+      lists: [
+        {
+          intro: "Palancas:",
+          items: [
+            "puja / estrategia automática",
+            "calidad del anuncio y extensiones",
+            "landing relevante",
+            "geo y horario",
+            "presupuesto sin fuga a irrelevancia",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Keywords en Google Ads (lógica de listas)",
+          href: "/es/blog/klyuchi-google-ads/",
+        },
+      ],
+    },
+    {
+      title: "Estrategia: goals → estructura → economía",
+      level: 2,
+      paras: [
+        "Goals → keywords → ads → landing → analytics. El bloque alto tiene sentido si se paga solo. A veces una impresión más baja y barata da mejor ROI.",
+        "Separa campañas por sentido de la demanda para ver qué trae leads. Copiar a ciegas las pujas del competidor es el camino a su economía — no a tu margen.",
+      ],
+      lists: [
+        {
+          intro: "Errores de las guías antiguas:",
+          items: [
+            "perseguir «especial» a cualquier coste",
+            "ignorar conversiones",
+            "copiar pujas del competidor",
+            "medir el éxito solo por la posición media",
+          ],
+        },
+      ],
+      tables: [
+        {
+          caption: "Qué medir en lugar de «estamos en emplazamiento especial»",
+          headers: ["Métrica", "Por qué"],
+          rows: [
+            ["CPA / CPO", "Coste de la acción objetivo"],
+            ["Calidad del lead", "No todos los leads son iguales"],
+            ["Cuota marca vs genérico", "Economía distinta"],
+            ["Conversión de landing", "El premium no sirve con una landing que pierde"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo valorar la visibilidad en búsqueda",
+      level: 2,
+      paras: [
+        "Mira cortes por dispositivo, hora, consultas y cuota de impresión (si está en la cuenta). Una caída brusca de visibilidad a menudo liga con límites de presupuesto, moderación, edits de geo o tracking de conversión roto — no solo la puja.",
+        "Compara periodos con estacionalidad y promos en mente. Una semana buena no prueba un óptimo; un bajón no es motivo para reescribir todas las campañas en un día.",
+      ],
+      lists: [
+        {
+          intro: "Antes de concluir, revisa:",
+          items: [
+            "estado del anuncio y extensiones",
+            "presupuesto restante y caps diarios",
+            "geo y horario",
+            "corrección de goals en Metrika y Direct",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Goals en Yandex Metrika",
+          href: "/es/blog/metrika-tseli/",
+        },
+      ],
+    },
+    {
+      title: "Plan de optimización de campaña",
+      level: 2,
+      paras: [
+        "Primero goals y estructura, luego términos de búsqueda y negativos, luego copy y landings, y solo entonces pujas agresivas. Registra cada cambio.",
+        "Tras datos suficientes, quédate con decisiones que mejoren CPA o ingresos — no las que solo restauran la sensación familiar de «otra vez estamos arriba».",
+      ],
+      lists: [
+        {
+          intro: "Secuencia:",
+          items: [
+            "fijar goals y un CPA aceptable",
+            "revisar términos de búsqueda",
+            "arreglar ads y landings",
+            "ajustar la estrategia con datos",
+            "revisitar el bloque alto solo a través de la economía",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo hablar con el cliente",
+      level: 2,
+      paras: [
+        "Un cliente de la era del emplazamiento especial a menudo quiere garantía del primer puesto. Respuesta honesta: la subasta, los competidores y la calidad cambian cada día; vendemos resultados (leads, ventas), no la etiqueta de un bloque.",
+        "Muestra un informe: gasto, conversiones, CPA, ejemplos de leads. Si el premium es caro y no se paga — argumenta una puja más baja o una oferta mejor, no «hay que estar en especial».",
+      ],
+      lists: [
+        {
+          intro: "En el informe al cliente:",
+          items: [
+            "goals del periodo",
+            "números y calidad del lead",
+            "qué cambiaste y por qué",
+            "qué revisarás la semana que viene",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Informe al cliente",
+          href: "/es/blog/otchet-klientu/",
+        },
+      ],
+      notes: [
+        {
+          title: "SEO en paralelo",
+          kind: "tip",
+          text: "El paid search cubre demanda rápido. El orgánico de un núcleo es un horizonte aparte: prep alrededor de un mes; la cuota del núcleo en primera página suele planificarse a dos–seis meses de trabajo tras el arranque.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "stavki-direkt",
+    "reklamnyy-kabinet",
+    "klyuchi-google-ads",
+    "metrika-tseli",
+    "otchet-klientu",
+    "tekst-lendinga",
+  ],
+};

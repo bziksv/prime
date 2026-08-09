@@ -176,3 +176,180 @@ export const robotsTxtJoomlaEn: BlogPost = {
     "veb-server",
   ],
 };
+
+/** ES overlay for robots-txt-joomla — same structure as RU JSON / EN. */
+export const robotsTxtJoomlaEs: BlogPost = {
+  slug: "robots-txt-joomla",
+  title: "Robots.txt para Joomla: reglas y una plantilla cuidadosa",
+  date: "2018-02-26",
+  category: "SEO",
+  cover: "/images/blog/robots-txt-joomla/cover.webp",
+  excerpt:
+    "Cómo funciona robots.txt en Joomla: User-agent, Allow/Disallow, Sitemap y rutas del sistema — sin tratar un paste de Joomla 3.3 como evangelio ni apoyarte solo en una línea Host desfasada como espejo.",
+  lead: [
+    "`robots.txt` vive en la raíz del sitio (`https://example.com/robots.txt`) e indica a los crawlers qué rutas saltar. En Joomla sueles bloquear `/administrator/`, carpetas del sistema del core y parámetros ruidosos de URL.",
+    "Abajo: qué significan las directivas y puntos de partida sensatos para Joomla. No pegues una lista «perfecta» de Joomla 3.x en Joomla 4/5 — cambian rutas, SEF y componentes. El archivo no sustituye noindex y no pondrá un núcleo de queries en primera página en una semana.",
+  ],
+  faq: [
+    {
+      q: "¿Disallow significa «no indexar»?",
+      a: "No. Disallow pide a los bots no rastrear una URL. Para mantener una página fuera del índice, meta robots o X-Robots-Tag noindex es más fiable (y seguible). Ver el artículo de desindexación.",
+    },
+    {
+      q: "¿Dónde vive el archivo en Joomla?",
+      a: "En la raíz del servidor web junto a `index.php`, no bajo `/administrator/`. Tras editar, abre `/robots.txt` en el navegador y en Webmaster Tools / Search Console.",
+    },
+    {
+      q: "¿Sigue haciendo falta Host?",
+      a: "Host apuntaba a Yandex un host preferido. Hoy importan 301s correctos, HTTPS y el host preferido en los paneles. No te apoyes solo en una línea Host de una plantilla de 2018.",
+    },
+    {
+      q: "¿Debo bloquear /media/ y /templates/?",
+      a: "Depende. Esas carpetas a veces tienen assets usados en snippets. Prueba; un ban a ciegas «como en el artículo» puede doler.",
+    },
+    {
+      q: "¿Una plantilla de robots.txt mejora rankings?",
+      a: "No de forma directa. Es higiene de crawl. Crecer un núcleo competitivo de queries es trabajo aparte — normalmente planificado en 2–6 meses tras una base técnica sana.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué robots.txt en Joomla",
+      level: 2,
+      paras: [
+        "Joomla expone muchas URLs de sistema: admin, componentes, parámetros de impresión, votos, colas de idioma. Sin reglas, los bots queman crawl budget en basura y a veces meten duplicados en resultados.",
+        "El archivo no «rankea» el sitio solo. Corta ruido. Un Disallow malo puede ocultar secciones que necesitas — así que tras editar, revisa las tools de webmaster.",
+      ],
+      lists: [
+        {
+          intro: "Suele bloquearse:",
+          items: [
+            "admin `/administrator/`",
+            "directorios del sistema del core",
+            "parámetros tech (print, mailto, vote y similares)",
+            "duplicados obvios como `index2.php` — caso a caso",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Cerrar páginas a la indexación",
+          href: "/es/blog/zakrytie-ot-indeksatsii/",
+        },
+        {
+          label: "Páginas duplicadas",
+          href: "/es/blog/dubli-stranits/",
+        },
+      ],
+    },
+    {
+      title: "Directivas principales",
+      level: 2,
+      paras: [
+        "`User-agent: *` fija reglas para todos los bots; usa bloques aparte para Yandex o Googlebot cuando haga falta. `Disallow` bloquea una ruta al crawl; `Allow` abre excepciones. `Sitemap:` apunta al sitemap XML.",
+        "`Crawl-delay` se usaba en hosting flojo; soporte y sentido difieren por bot — no lo trates como obligatorio. `Clean-param` (Yandex) ayuda con parámetros GET ruidosos cuando de verdad generan duplicados.",
+      ],
+      tables: [
+        {
+          caption: "Qué recordar",
+          headers: ["Directiva", "Significado"],
+          rows: [
+            ["User-agent", "Para quién es el bloque de reglas"],
+            ["Disallow / Allow", "Bloquear o permitir rastrear rutas"],
+            ["Sitemap", "URL del sitemap XML"],
+            ["Crawl-delay", "Pausa entre requests (no siempre útil)"],
+            ["Clean-param", "Ignorar «ruido» de query (Yandex)"],
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Sintaxis",
+          kind: "tip",
+          text: "En el archivo real escribe `User-agent: *` — sin ángulos de posts viejos. Los comentarios empiezan con `#`. Tras editar, confirma que el archivo es alcanzable y que no dejaste un `Disallow: /` accidental que bloquee todo el sitio.",
+        },
+      ],
+    },
+    {
+      title: "Hitos de rutas para Joomla",
+      level: 2,
+      paras: [
+        "Un set de partida habitual: bloquear `/administrator/`, `/cache/`, `/cli/` (si existe), `/includes/`, `/language/`, `/libraries/`, `/logs/`, `/tmp/` y parámetros tech típicos (`print`, `mailto`, votos). Ajusta la lista exacta a tu versión de Joomla y al SEF.",
+        "Reglas agresivas tipo «todo con `?`» o todo `/media/` ayudan en unos sitios y rompen URLs necesarias en otros. Mejor iterar: cerrar basura de sistema → revisar cobertura en paneles → afinar.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo antes de publicar:",
+          items: [
+            "el admin está cerrado al crawl",
+            "el sitemap figura en `Sitemap:`",
+            "secciones importantes no están bloqueadas por accidente",
+            "el espejo principal está fijado con redirects HTTPS/www",
+            "el archivo se sirve como `text/plain` desde la raíz",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Marco de ejemplo (no dogma)",
+      level: 2,
+      paras: [
+        "Abajo un esqueleto didáctico — no «copiar y olvidar». Pon el dominio de tu sitemap y adapta las líneas a tu versión de Joomla y a los duplicados reales.",
+      ],
+      lists: [
+        {
+          intro: "Ideas de líneas:",
+          items: [
+            "`User-agent: *`",
+            "`Disallow: /administrator/`",
+            "`Disallow: /cache/`",
+            "`Disallow: /tmp/`",
+            "`Disallow: /*format=`",
+            "`Disallow: /*print=`",
+            "`Sitemap: https://example.com/sitemap.xml`",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Sobre Host y http://",
+          kind: "tip",
+          text: "Las plantillas viejas escribían `Host: example.com` y `Sitemap: http://…`. Prefiere URLs de sitemap HTTPS y 301s al host canónico. Host no sustituye un certificado ni redirects.",
+        },
+      ],
+    },
+    {
+      title: "Comprobaciones tras publicar",
+      level: 2,
+      paras: [
+        "Abre `/robots.txt` en una ventana privada. Valida la sintaxis en Yandex Webmaster y en los informes de Google Search Console. Confirma que landings importantes no están bajo Disallow.",
+        "Si una página debe quedarse fuera del índice pero aún tiene enlaces entrantes, añade noindex — no te apoyes solo en robots.txt.",
+      ],
+      links: [
+        {
+          label: "Cerrar páginas a la indexación",
+          href: "/es/blog/zakrytie-ot-indeksatsii/",
+        },
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "En Joomla, `robots.txt` es higiene de crawl para rutas y parámetros de sistema — no una palanca de ranking. Adapta cualquier plantilla a tu versión de CMS y verifícala en paneles de webmaster.",
+        "Principios generales de desindexación y Disallow vs noindex viven en una guía aparte; las plantillas orientadas a WordPress están en el artículo relacionado de robots.txt.",
+      ],
+    },
+  ],
+  closing: [
+    "Monta `robots.txt` para tu Joomla: bloquea admin y basura tech clara, apunta Sitemap por HTTPS, revisa el archivo en los paneles — y no copies a ciegas un muro de Disallow de un post de Joomla 3.3.",
+  ],
+  related: [
+    "zakrytie-ot-indeksatsii",
+    "dubli-stranits",
+    "seo-bitrix",
+    "tehnicheskiy-seo-audit",
+    "https-seo",
+    "veb-server",
+  ],
+};

@@ -187,3 +187,191 @@ export const istoriyaDomenaEn: BlogPost = {
     "affiliat-filtr",
   ],
 };
+
+/** ES overlay for istoriya-domena — same structure as RU JSON / EN. */
+export const istoriyaDomenaEs: BlogPost = {
+  slug: "istoriya-domena",
+  title: "Cómo revisar el historial de un dominio antes de comprarlo",
+  date: "2019-05-27",
+  category: "SEO",
+  cover: "/images/blog/istoriya-domena/cover.webp",
+  excerpt:
+    "Cómo vetar un drop o dominio usado antes de comprar: Wayback Machine, temas pasados, perfil de backlinks, filtros y visibilidad en búsqueda — sin el mito de que un dominio viejo = subida rápida en resultados.",
+  lead: [
+    "Cuando compras el dominio de otro o un drop, heredas más que un nombre bonito: temas pasados, enlaces, posibles sanciones y una cola de reputación.",
+    "Abajo: qué revisar antes de pagar. El archivo web (Wayback) se cubre aparte; aquí es un checklist de compra. La edad sola no te pone en primera página — rankings y tráfico vienen del trabajo en el sitio, normalmente planificado en meses, no «compré un drop y ya estoy arriba».",
+  ],
+  faq: [
+    {
+      q: "¿Un dominio nuevo es siempre más seguro?",
+      a: "A menudo más simple: sin el equipaje de otro. Un drop sólido y revisado aún puede ayudar. Decide por verificación — no por miedo ni avaricia.",
+    },
+    {
+      q: "¿Wayback muestra todo?",
+      a: "No. Hay huecos, borrados por denuncias, sitios sin snapshots. Sin archivo ≠ dominio limpio.",
+    },
+    {
+      q: "¿Y si el tema pasado era otro?",
+      a: "Más riesgo: la búsqueda puede tardar más en reaprender qué significa el dominio. Con un cambio fuerte de tema, un nombre nuevo suele ser más tranquilo.",
+    },
+    {
+      q: "¿Muchos anclas tipo «compra barato» son malos?",
+      a: "Parece un perfil spammy. Toma esos nombres solo si aceptas el riesgo y una limpieza larga — más a menudo, pasa de largo.",
+    },
+    {
+      q: "¿Un `site:` en resultados significa que todo va bien?",
+      a: "Solo que algo sigue indexado o lo estuvo. No cancela filtros, enlaces tóxicos ni un cambio de tema.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué revisar antes de comprar",
+      level: 2,
+      paras: [
+        "La edad y un string pegadizo no cancelan un ban, enlaces spam ni contenido adult/pharma pasado. Los problemas suelen salir cuando ya invertiste en sitio y contenido.",
+        "Qué verificar: historial de contenido, perfil de backlinks, señales de sanción o desindexación, visibilidad y reputación de marca en búsqueda.",
+      ],
+      lists: [
+        {
+          intro: "Banderas rojas:",
+          items: [
+            "giros bruscos de tema en el archivo",
+            "snapshots spammy o doorway",
+            "donantes y anclas tóxicos",
+            "caídas largas de visibilidad sin explicación",
+            "conflictos legales o de marca en el nombre",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Historial en Wayback Machine",
+      level: 2,
+      paras: [
+        "Abre web.archive.org, mete el dominio y revisa el calendario de snapshots: cuándo apareció el sitio, qué era, cómo cambió. Juzga qué tan cerca está el tema pasado del tuyo.",
+        "No te quedes en un fotograma — mira a lo largo de años. Tramos vacíos, placeholders y escaparates repentinos son motivo para indagar o marcharte.",
+      ],
+      lists: [
+        {
+          intro: "Qué anotar:",
+          items: [
+            "fecha de los primeros snapshots",
+            "tema principal por año",
+            "si hubo escaparates o doorways",
+            "idioma y geo",
+            "si la marca encaja con tu plan",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Archivo web",
+          href: "/blog/veb-arhiv/",
+        },
+      ],
+    },
+    {
+      title: "Perfil de backlinks",
+      level: 2,
+      paras: [
+        "La cantidad de enlaces sola no dice nada. Mira calidad de donantes, cuota de spam, dinámica de crecimiento y anclas. Picos repentinos de enlaces-de-la-nada son un riesgo típico.",
+        "Herramientas SEO de pago (Ahrefs y similares) ayudan a revisar backlinks; señales gratuitas bastan para un filtro grosero. Ninguna herramienta es «la verdad para siempre» — cruza fuentes.",
+      ],
+      lists: [
+        {
+          intro: "Qué vigilar:",
+          items: [
+            "cuota de anclas de marca o naked vs comerciales",
+            "donantes con temas dudosos",
+            "redes rotas y masivas",
+            "historial de picos de masa de enlaces",
+            "match de idioma del donante con tu nicho",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Comprar un dominio por los enlaces de otro sin contenido ni estrategia suele decepcionar. Los enlaces son un factor — no un billete a la primera página.",
+        },
+      ],
+    },
+    {
+      title: "Visibilidad e índice",
+      level: 2,
+      paras: [
+        "Revisa `site:dominio` en Yandex y Google, una query de marca sobre el nombre, espejos y subdominios raros. Un SERP vacío con un pasado vivo en el archivo es sospechoso.",
+        "La visibilidad histórica en herramientas tipo Serpstat/Similarweb (nombres y ventanas de datos cambian) ayuda a ver caídas de tráfico. Interpreta con cuidado: cambio de dueño, estacionalidad, un filtro o simplemente un proyecto muerto.",
+      ],
+      lists: [
+        {
+          intro: "Checks rápidos:",
+          items: [
+            "`site:` en ambos buscadores",
+            "query de marca",
+            "caché o copias guardadas cuando haya",
+            "menciones del dominio en noticias o reviews",
+            "WHOIS / historial del registrador donde exista",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Filtros de buscadores",
+          href: "/es/blog/filtry-poiskovikov/",
+        },
+        {
+          label: "Sitio joven",
+          href: "/es/blog/molodoy-sayt/",
+        },
+      ],
+    },
+    {
+      title: "Drops y expectativas SEO",
+      level: 2,
+      paras: [
+        "Un drop fresco a veces conserva parte de las señales — a veces no. El tiempo en idle y mitos tipo «60 días sin dueño = rankings como antes» no son ley: algoritmos y limpieza del índice han cambiado.",
+        "Aunque un dominio aged limpio no cancela la prep del sitio ni el trabajo de ranking planificado en meses. Recortar el presupuesto de promoción porque el dominio es viejo es una apuesta arriesgada.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo un drop tiene sentido:",
+          items: [
+            "el tema pasado está cerca",
+            "enlaces y menciones se ven sanos",
+            "sin sanciones ni spam claros",
+            "el nombre refuerza la marca, no confunde",
+            "el presupuesto cubre contenido y técnica — no solo el dominio",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Un dominio aged y vetado puede ayudar. Sigue sin ser un atajo: tras la prep, crecer un núcleo de queries en resultados suele planificarse en 2–6 meses de trabajo.",
+        },
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Antes de comprar: archivo → enlaces → visibilidad. Si dudas, elige un nombre nuevo — más barato que un año deshaciendo el spam de otro.",
+        "Una buena reputación de dominio ayuda, pero no sustituye el trabajo en el sitio.",
+      ],
+    },
+  ],
+  closing: [
+    "Revisa Wayback, backlinks e índice antes de pagar — menos chances de comprar un ban y spam con un nombre bonito. Un dominio viejo es una opción tras verificación, no un botón mágico de ranking.",
+  ],
+  related: [
+    "veb-arhiv",
+    "domen-rf",
+    "domen-pervogo-urovnya",
+    "filtry-poiskovikov",
+    "molodoy-sayt",
+    "affiliat-filtr",
+  ],
+};

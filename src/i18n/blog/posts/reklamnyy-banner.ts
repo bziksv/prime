@@ -180,3 +180,184 @@ export const reklamnyyBannerEn: BlogPost = {
     "A strong banner is a clear offer, readable hierarchy, and an honest path to the landing. Size and trends are secondary; blindness is beaten by relevance and tests — not endless flashing.",
   ],
 };
+
+/** ES overlay for reklamnyy-banner — same structure as RU JSON / EN. */
+export const reklamnyyBannerEs: BlogPost = {
+  slug: "reklamnyy-banner",
+  title: "Banner publicitario: principios de un creative efectivo",
+  date: "2020-02-28",
+  category: "Digital marketing",
+  cover: "/images/blog/reklamnyy-banner/cover.webp",
+  excerpt:
+    "Cómo hacer un banner publicitario que la gente note: oferta, jerarquía, CTA, tamaños, combatir la ceguera de banner y pop-ups con cuidado — sin «tendencias por las tendencias» obsoletas.",
+  lead: [
+    "Un banner es uno de los formatos de ads online más antiguos: una imagen o bloque HTML5 que enlaza a una oferta. Sigue usándose en redes, sitios y medios — pero la atención es más corta y los blockers son más habituales.",
+    "Abajo: principios de creative que impulsan clics sin molestar. Medir el tamaño del banner de un competidor es otro artículo; aquí el foco es mensaje, composición y UX.",
+  ],
+  faq: [
+    {
+      q: "¿Qué importa más: diseño u oferta?",
+      a: "Oferta y claridad. Un banner bonito sin beneficio claro pierde frente a uno simple con una propuesta fuerte.",
+    },
+    {
+      q: "¿Qué tamaño elijo?",
+      a: "El que exija la plataforma o el slot del sitio. En redes de ads revisa las specs actuales de la cuenta; los «estándares IAB» son guía, no dogma. Cómo leer un tamaño en el sitio de otro — en el artículo de tamaños de banner.",
+    },
+    {
+      q: "¿Qué es la ceguera de banner?",
+      a: "El hábito de ignorar zonas que parecen ads. Se arregla con relevancia, contraste con sentido (no solo parpadeo) y tests de creative.",
+    },
+    {
+      q: "¿Un pop-up en lugar de banner es la respuesta?",
+      a: "A veces para un mensaje importante o un lead, pero las ventanas agresivas duelen a la UX y a la confianza. Úsalo poco, con cierre fácil y sin trucos.",
+    },
+    {
+      q: "¿Hace falta animación?",
+      a: "Una corta puede ayudar a la notoriedad. El parpadeo infinito y un GIF «que grita» suelen dañar la marca y el peso de la página.",
+    },
+    {
+      q: "¿Cuánto texto cabe en un banner?",
+      a: "Una oferta, un beneficio, un botón/petición. La gente no lee una hoja diminuta en una fracción de segundo.",
+    },
+    {
+      q: "¿Un banner en mi sitio es lo mismo que en una red de ads?",
+      a: "Los principios se parecen; tamaño, moderación y reglas de archivo difieren. Revisa siempre las reglas de la cuenta.",
+    },
+  ],
+  sections: [
+    {
+      title: "El trabajo del banner en un segundo",
+      level: 2,
+      paras: [
+        "Los usuarios apenas «estudian» los ads: el ojo se desliza. En una fracción de segundo el banner debe responder: qué se ofrece, a quién le hace falta, qué hacer después.",
+        "La efectividad no es «belleza de portfolio» — es CTR, coste de clic/lead y si el creative rompe la confianza de marca.",
+      ],
+      lists: [
+        {
+          intro: "En el banner la gente debería leer:",
+          items: [
+            "la esencia de la oferta o promo",
+            "la marca o un producto reconocible",
+            "una llamada a la acción",
+            "adónde va el clic (encaje con el landing)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Principios de diseño que funcionan",
+      level: 2,
+      paras: [
+        "Jerarquía: el sentido principal más grande que lo secundario. Contraste texto/fondo — la legibilidad gana a un degradado de moda. Un ancla visual (producto, cara, icono de beneficio) gana a un collage de diez elementos.",
+        "CTA — un acento aparte: un botón o una frase clara («Pedir presupuesto», «Ver catálogo»). Evita clickbait que no encaja con el landing: la decepción mata la conversión.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de layout:",
+          items: [
+            "poco texto, palabras clave grandes",
+            "marca no escondida en una esquina de 5 px",
+            "botón/petición notables",
+            "archivo ligero, tipografía que no se vea pasta",
+            "márgenes seguros: texto no al borde del recorte",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Copiar el banner de otro píxel a píxel sin derechos no está permitido. Puedes espejar tamaño de slot y lógica de oferta — no sus assets.",
+        },
+      ],
+      links: [
+        {
+          label: "Tamaños de banner",
+          href: "/es/blog/razmery-bannera/",
+        },
+        {
+          label: "Imagen-enlace",
+          href: "/es/blog/kartinka-ssylka/",
+        },
+      ],
+    },
+    {
+      title: "Tamaños y contexto de placement",
+      level: 2,
+      paras: [
+        "En las cuentas de ads el set de formatos lo define la plataforma: «leaderboards» horizontales, rectángulos, cuadrados de feed. Revisa píxeles y peso de archivo actuales en la ayuda de la red — las guías de 2015–2020 a menudo quedan viejas.",
+        "En tu propio sitio el layout fija el tamaño. El banner debe notarse pero no ahogar el contenido ni inflar el LCP. Bajo el fold encaja lazy-loading.",
+      ],
+      lists: [
+        {
+          intro: "Antes del lanzamiento confirma:",
+          items: [
+            "tamaños y peso permitidos",
+            "estático / HTML5 / vídeo",
+            "reglas de texto y branding",
+            "adónde va el UTM y qué landing",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Etiquetas UTM",
+          href: "/es/blog/utm-metki/",
+        },
+        {
+          label: "Setup de cuenta de ads",
+          href: "/es/blog/reklamnyy-kabinet/",
+        },
+      ],
+    },
+    {
+      title: "Ceguera de banner",
+      level: 2,
+      paras: [
+        "La gente aprendió a no ver zonas «tipo anuncio». El parpadeo y los colores ácidos rara vez curan la ceguera — más a menudo molestan. Más fuerte: relevancia (el banner encaja con lo que la persona está viendo), creative fresco y encaje con las expectativas del sitio.",
+        "Prueba 2–3 variantes de oferta y visual. No cambies «todo a la vez» — cambia una hipótesis: beneficio, titular, producto en el frame.",
+      ],
+    },
+    {
+      title: "Pop-up: cuándo encaja y cuándo no",
+      level: 2,
+      paras: [
+        "Un modal garantiza atención pero rompe fácil la experiencia — sobre todo a la entrada o en cada clic. Encajan escenarios raros: una promo importante, captación de email con valor claro, un aviso.",
+        "Haz el cierre obvio, no bloquees el contenido para siempre, cuida las pantallas móviles. Para lead gen un widget o un bloque in-content suele ganar a un overlay agresivo.",
+      ],
+      lists: [
+        {
+          intro: "Si aún usas un pop-up:",
+          items: [
+            "trigger por tiempo/scroll, no al instante",
+            "una oferta",
+            "fácil de cerrar",
+            "no más a menudo que un límite sensato por sesión",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Enlace al landing y medición",
+      level: 2,
+      paras: [
+        "Un clic no es el objetivo. Banner y página deben decir lo mismo: misma promo, mismo producto, mismo tono. Si no, sube el bounce y baja la calidad del tráfico.",
+        "Etiqueta campañas con UTM; mira no solo CTR sino conversión y coste del lead. CTR alto con cero leads — candidato a pausar.",
+      ],
+      lists: [
+        {
+          intro: "Antes de escalar:",
+          items: [
+            "el landing encaja con la oferta",
+            "existe un goal de analytics",
+            "los creatives rotan",
+            "peso y velocidad de la página están bien",
+          ],
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Un banner fuerte es una oferta clara, jerarquía legible y un camino honesto al landing. Tamaño y tendencias son secundarios; la ceguera se vence con relevancia y tests — no con parpadeo infinito.",
+  ],
+};

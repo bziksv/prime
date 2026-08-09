@@ -195,3 +195,199 @@ export const vebStranitsaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for veb-stranitsa — same structure as RU JSON / EN. */
+export const vebStranitsaEs: BlogPost = {
+  slug: "veb-stranitsa",
+  title: "Página web: qué es y mensajes habituales del navegador",
+  date: "2021-01-26",
+  category: "SEO",
+  cover: "/images/blog/veb-stranitsa/cover.webp",
+  excerpt:
+    "Qué es una página web, por qué necesita su propia URL, cómo guardar una copia local y qué suelen significar «desactualizada», «ralentiza el navegador», «no disponible» y «se ha movido».",
+  lead: [
+    "Una página web es un documento con su propia dirección (URL): HTML más assets relacionados — imágenes, estilos, scripts — que el navegador ensambla en lo que ves.",
+    "Abajo: por qué importan las páginas para un sitio, cómo guardar una copia en tu máquina y cómo leer mensajes típicos del navegador. Útil tanto para navegar a diario como para quien vigila SEO y disponibilidad.",
+    "Un sitio es un conjunto de páginas enlazadas. Status, velocidad y claridad en cada URL suman experiencia de usuario — y cómo los crawlers se mueven por el proyecto.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia una página de un sitio?",
+      a: "Una página es un documento y una URL. Un sitio es la colección de páginas, plantillas y navegación bajo un proyecto.",
+    },
+    {
+      q: "¿Toda página necesita su propia URL?",
+      a: "Sí para contenido indexable. Duplicados sin control y variantes de parámetros multiplican copias.",
+    },
+    {
+      q: "¿Cómo se guarda una página en el ordenador?",
+      a: "En el navegador: Guardar como… (HTML completo o solo HTML). Es un snapshot offline — no un backup del sitio.",
+    },
+    {
+      q: "¿Qué significa «la página está desactualizada»?",
+      a: "Suele ser caché de formulario tras ir atrás/adelante. Actualiza, o reenvía con cuidado — sobre todo en pagos.",
+    },
+    {
+      q: "¿Por qué el navegador dice que la página lo ralentiza?",
+      a: "Scripts pesados, memory leaks, demasiadas pestañas, extensiones. Del lado del sitio: aprieta JS y media.",
+    },
+    {
+      q: "¿«Página no disponible» es siempre un 404?",
+      a: "No siempre. Puede ser DNS, red, 5xx o un bloqueo. Lee el mensaje exacto y el código de estado.",
+    },
+    {
+      q: "Si la página se movió, ¿qué pasa con el SEO?",
+      a: "Usa un 301 correcto a la URL nueva, o pierdes enlaces y continuidad de crawl.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué importan las páginas web",
+      level: 2,
+      paras: [
+        "Una página lleva sentido: un servicio, producto, artículo o formulario. El navegador pide la URL, recibe HTML y carga recursos.",
+        "Para el negocio, una página es una entrada desde búsqueda, ads y redes. Sin oferta clara y respuesta 200 no funciona como canal.",
+        "Para SEO, cada página indexable debería responder a un intent claro y evitar solapamiento innecesario con URLs vecinas.",
+      ],
+      lists: [
+        {
+          intro: "Qué suele incluir:",
+          items: [
+            "markup HTML",
+            "estilos CSS",
+            "scripts",
+            "archivos media",
+            "metadata (title, description y similares)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Dirección URL",
+          href: "/es/blog/url-adres/",
+        },
+        {
+          label: "HTTP 200",
+          href: "/es/blog/kod-200/",
+        },
+      ],
+    },
+    {
+      title: "Cómo guardar una página",
+      level: 2,
+      paras: [
+        "Desde el menú del navegador obtienes un archivo HTML y una carpeta de recursos. Cómodo para un borrador o archivo, pero scripts y auth a menudo se rompen offline.",
+        "Para un equipo, backups del servidor y git importan más que Guardar como desde un portátil.",
+        "Imprimir a PDF congela el aspecto — sigue sin ser backup del CMS y la base de datos.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo ayuda una copia local:",
+          items: [
+            "comparar layout antes y después",
+            "pasar un ejemplo a un contratista",
+            "leer texto de referencia offline",
+          ],
+        },
+      ],
+    },
+    {
+      title: "«La página web está desactualizada»",
+      level: 2,
+      paras: [
+        "Habitual al volver al resultado de un formulario POST: el navegador no reenviará en silencio.",
+        "Actualiza la página. En flujos de pago o pedido, no pulses reintentar a ciegas — puedes duplicar la acción.",
+      ],
+      lists: [
+        {
+          intro: "Para developers:",
+          items: [
+            "patrón PRG (redirect after post)",
+            "acciones críticas idempotentes",
+            "mensajes claros para el usuario",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Por qué una página «ralentiza el navegador»",
+      level: 2,
+      paras: [
+        "JS pesado, timers eternos, DOMs enormes, media en autoplay, conflictos de extensiones. Las máquinas flojas lo muestran primero.",
+        "En DevTools Performance/Memory, busca long tasks. En el sitio: code-split, carga diferida, comprime imágenes.",
+      ],
+      lists: [
+        {
+          intro: "Checks rápidos:",
+          items: [
+            "incógnito sin extensiones",
+            "otro navegador",
+            "desactivar widgets pesados",
+            "revisar la vista móvil",
+          ],
+        },
+      ],
+    },
+    {
+      title: "«Página no disponible» y la red",
+      level: 2,
+      paras: [
+        "Las causas incluyen sin internet, fallo DNS, servidor caído (5xx), firewall o una URL incorrecta. Chrome y Firefox lo redactan distinto — revisa el código de respuesta si algo vuelve.",
+        "Para el dueño: monitor de uptime, logs, DNS y SSL correctos.",
+      ],
+      lists: [
+        {
+          intro: "Checklist del usuario:",
+          items: [
+            "revisar la red",
+            "actualizar o probar otra red",
+            "verificar la dirección",
+            "esperar y avisar al dueño si es tu sitio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Error 502",
+          href: "/es/blog/oshibka-502/",
+        },
+        {
+          label: "Códigos de estado HTTP",
+          href: "/es/blog/kod-statusa-http/",
+        },
+      ],
+    },
+    {
+      title: "«La página se ha movido»",
+      level: 2,
+      paras: [
+        "El navegador sigue un redirect o muestra que la dirección cambió. Para SEO importa el tipo: un 301 permanente pasa equity; un 302 temporal se comporta distinto.",
+        "No dejes un «move» como JS del cliente mientras la URL vieja sigue devolviendo 200 — más débil para crawlers que un 301 explícito.",
+      ],
+      lists: [
+        {
+          intro: "Tras un cambio de URL:",
+          items: [
+            "301 desde las direcciones viejas",
+            "actualizar enlaces internos",
+            "sitemap y tools de Webmaster",
+            "revisar cadenas de redirects",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Redirects",
+          href: "/es/blog/redirekt/",
+        },
+      ],
+      notes: [
+        {
+          title: "Vínculo con el SEO",
+          kind: "tip",
+          text: "Páginas estables y útiles con URLs claras son la base. Los avances en un set comercial de keywords son un proceso aparte — a menudo meses tras la prep técnica, no de la noche a la mañana.",
+        },
+      ],
+    },
+  ],
+};

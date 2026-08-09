@@ -11,6 +11,7 @@ import { serviceJsonLd } from "../../lib/service-jsonld";
 import { getOrmContent } from "../../i18n/orm-content";
 import { getHomeContent, homePath } from "../../i18n/home-content";
 import { localeMeta, type Locale } from "../../i18n/locales";
+import DevLangSwitch from "../DevLangSwitch.astro";
 
 interface Props {
   locale: Locale;
@@ -21,7 +22,7 @@ const t = getOrmContent(locale);
 const home = getHomeContent(locale);
 const docs = getLegalDocs(locale);
 const htmlLang = localeMeta[locale].hreflang;
-const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+const ogLocale = locale === "en" ? "en_US" : locale === "es" ? "es_ES" : "ru_RU";
 const showPhone = locale === "ru";
 const year = new Date().getFullYear();
 const homeHref = homePath(locale);
@@ -57,7 +58,7 @@ const serviceLd = serviceJsonLd({
   serviceType: t.serviceType,
   origin,
   providerName: t.footerBrand,
-  areaServed: locale === "en" ? "Worldwide" : "RU",
+  areaServed: locale === "ru" ? "RU" : "Worldwide",
 });
 ---
 
@@ -77,6 +78,7 @@ const serviceLd = serviceJsonLd({
       alternates={[
         { hreflang: "ru", path: "/upravlenie-reputaciej/" },
         { hreflang: "en", path: "/en/reputation/" },
+        { hreflang: "es", path: "/es/reputation/" },
         { hreflang: "x-default", path: "/upravlenie-reputaciej/" },
       ]}
     />
@@ -111,24 +113,11 @@ const serviceLd = serviceJsonLd({
             <a href={homeHref}>{t.breadcrumbHome}</a> · <strong>{t.breadcrumbCurrent}</strong>
           </p>
           <div class="home-topbar-actions">
-            {import.meta.env.DEV && (
-            <div class="home-lang" aria-label={home.langSwitchAria} data-lang-switch>
-              <a
-                class:list={["home-lang__btn", locale === "ru" && "is-active"]}
-                href="/upravlenie-reputaciej/"
-                hreflang="ru"
-                lang="ru"
-                data-locale-set="ru">RU</a
-              >
-              <a
-                class:list={["home-lang__btn", locale === "en" && "is-active"]}
-                href="/en/reputation/"
-                hreflang="en"
-                lang="en"
-                data-locale-set="en">EN</a
-              >
-            </div>
-            )}
+            <DevLangSwitch
+              locale={locale}
+              ariaLabel={home.langSwitchAria}
+              hrefs={{ ru: "/upravlenie-reputaciej/", en: "/en/reputation/", es: "/es/reputation/" }}
+            />
             <a href="#orm-cta" class="v6-btn">{t.ctaTop}</a>
           </div>
         </header>

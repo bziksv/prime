@@ -184,3 +184,188 @@ export const verstkaSaytovEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for verstka-saytov — same structure as RU JSON / EN. */
+export const verstkaSaytovEs: BlogPost = {
+  slug: "verstka-saytov",
+  title: "Maquetación front-end de sitios: qué es, etapas y barras de calidad",
+  date: "2022-01-17",
+  category: "SEO",
+  cover: "/images/blog/verstka-saytov/cover.webp",
+  excerpt:
+    "Qué hace un ingeniero de maquetación front-end: del mockup a la página viva. Etapas, HTML/CSS, diseño responsive, QA y el vínculo con el SEO.",
+  lead: [
+    "La maquetación convierte un mockup de diseño en una página web que funciona: HTML fija la estructura, CSS la apariencia y JS añade comportamiento cuando hace falta.",
+    "Abajo: el rol del maquetador en la cadena copy → diseño → código, un proceso moderno y un checklist de aceptación. Los layouts de página enteros en tablas como default son historia.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia la maquetación del diseño?",
+      a: "El diseño es cómo debe verse y sentirse. La maquetación es cómo se abre con fiabilidad en navegadores, en móviles y para crawlers.",
+    },
+    {
+      q: "¿JavaScript siempre es obligatorio?",
+      a: "No. Empieza con semántica y CSS. Añade JS cuando no puedas prescindir (comportamiento complejo) — y mantén el contenido disponible sin él cuando puedas.",
+    },
+    {
+      q: "¿Debes usar tablas o bloques CSS para el layout de página?",
+      a: "Para layouts de página hoy — CSS (flex/grid) y bloques semánticos. Las tablas son para datos tabulares, no para la grilla entera del sitio.",
+    },
+    {
+      q: "¿Cómo afecta la maquetación al SEO?",
+      a: "Vía headings, listas, accesibilidad del texto, velocidad, usabilidad móvil y evitar errores críticos de markup.",
+    },
+    {
+      q: "¿Qué revisar antes del handoff?",
+      a: "Render cross-browser, comportamiento responsive, validez/consola, imágenes y fuentes, clicabilidad y accesibilidad básica.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es la maquetación",
+      level: 2,
+      paras: [
+        "En simple: el diseñador arma un mockup; el maquetador arma la página que abre el navegador. Piensa en una revista: copy → maquetación de página → impresión; en la web, la impresión se vuelve una página HTML.",
+        "En la práctica necesitas: trabajar gráficos del mockup, HTML, CSS, JS básico y un sentido de los límites del navegador y de las pantallas móviles.",
+      ],
+      lists: [
+        {
+          intro: "Qué obtiene el negocio:",
+          items: [
+            "páginas que coinciden con el diseño aprobado",
+            "comportamiento responsive en teléfono y desktop",
+            "código que se puede mantener",
+            "una base para CMS y estructura SEO",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Hipertexto: estructura y enlaces",
+          href: "/es/blog/gipertekst/",
+        },
+      ],
+    },
+    {
+      title: "Etapas del trabajo",
+      level: 2,
+      paras: [
+        "Empieza estudiando el mockup: grilla, fuentes, estados de botones, pantallas móviles. Luego corta gráficos, arma markup base, estilos, comportamiento y tests.",
+      ],
+      lists: [
+        {
+          intro: "Orden típico:",
+          items: [
+            "desglosar el mockup y la guideline",
+            "exportar imágenes e iconos",
+            "armar estructura HTML (semántica)",
+            "añadir CSS de lo general a lo específico",
+            "añadir el JS necesario",
+            "revisar en navegadores y dispositivos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error frecuente",
+          kind: "tip",
+          text: "Maquetar «sobre la marcha» sin mockup móvil. La mayor parte del tráfico es teléfono; mete responsive desde el inicio.",
+        },
+      ],
+    },
+    {
+      title: "HTML y CSS hoy",
+      level: 2,
+      paras: [
+        "HTML describe qué significan los bloques: headings, listas, navegación, formularios. CSS maneja look y layout. Flexbox y Grid cubren grillas sin hacks de tablas.",
+        "Mantén estilos separados del markup. Los valores que se repiten son más fáciles como variables y un design system compartido.",
+      ],
+      lists: [
+        {
+          intro: "Buenos hábitos:",
+          items: [
+            "un H1 por página por significado",
+            "listas vía ul/ol, no «párrafos con imágenes de viñeta»",
+            "alt text de imagen con sentido",
+            "botones y enlaces fáciles de distinguir",
+            "no duplicar estilos inline enormes",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Criterios de calidad",
+      level: 2,
+      paras: [
+        "Verse bien en un navegador no basta. Necesitas estabilidad y mantenibilidad.",
+      ],
+      lists: [
+        {
+          intro: "Aceptación:",
+          items: [
+            "match con el mockup dentro de la tolerancia",
+            "look correcto en navegadores actuales",
+            "versión móvil sin scroll horizontal inútil",
+            "sin errores críticos en consola",
+            "texto indexable, no atrapado en una imagen",
+            "imágenes con tamaños y optimización",
+            "estructura de código clara para el siguiente developer",
+          ],
+        },
+      ],
+      tables: [
+        {
+          caption: "Filtro rápido de calidad de maquetación",
+          headers: ["Área", "OK", "Riesgo"],
+          rows: [
+            ["Semántica", "H1–H3 por significado", "Todo vía divs, sin headings"],
+            ["Responsive", "Breakpoints clave", "Solo desktop"],
+            ["Velocidad", "Assets comprimidos", "PNGs de varios megas"],
+            ["Accesibilidad", "Focus, contraste, alt", "Clics solo con ratón"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tools",
+      level: 2,
+      paras: [
+        "Editor de código, DevTools del navegador, editor gráfico o Figma para mockups, validadores y servicios de check cross-browser — elige por tarea. Los nombres de tools cambian; la skill importa más que un culto a un IDE de 2015.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo para empezar:",
+          items: [
+            "un editor sólido con highlighting",
+            "DevTools de Chrome/Firefox",
+            "checks en un teléfono real",
+            "control del peso de las imágenes",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Vínculo con SEO y soporte",
+      level: 2,
+      paras: [
+        "Una mala maquetación ralentiza la indexación y frustra a los usuarios aunque el copy sea fuerte. Una buena maquetación acelera los arreglos y baja el coste de poseer el sitio.",
+      ],
+      lists: [
+        {
+          intro: "Útil que un maquetador entienda:",
+          items: [
+            "adónde llevan los CTAs clave",
+            "cómo funcionan la estructura de URL y las plantillas",
+            "qué no romper en header/footer para analítica",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+  ],
+};

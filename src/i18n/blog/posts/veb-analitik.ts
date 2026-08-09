@@ -204,3 +204,208 @@ export const vebAnalitikEn: BlogPost = {
     "optimizatsiya-konversii",
   ],
 };
+
+/** ES overlay for veb-analitik — same structure as RU JSON / EN. */
+export const vebAnalitikEs: BlogPost = {
+  slug: "veb-analitik",
+  title: "Web analyst: rol, skills y camino de carrera",
+  date: "2019-12-04",
+  category: "SEO",
+  cover: "/images/blog/veb-analitik/cover.webp",
+  excerpt:
+    "Qué hace un web analyst, qué skills importan, dónde aprender, cómo suele crecer la carrera y por qué el trabajo es más que exportar un informe de Metrica.",
+  lead: [
+    "Un web analyst estudia cómo se mueve la gente por el sitio y los canales de pago, y lo convierte en decisiones: qué arreglar, qué testear, a dónde debe ir el presupuesto. Sacar un dashboard no es el entregable.",
+    "Abajo: deberes, skills, caminos de aprendizaje, dónde se sientan los analysts, pasos de carrera y los trade-offs del rol. Las bandas salariales se mueven rápido — revisa ofertas en vivo. Aquí importa la forma del trabajo.",
+  ],
+  faq: [
+    {
+      q: "¿Un web analyst es lo mismo que un especialista SEO?",
+      a: "No. El SEO se inclina a búsqueda, contenido y tech. Un analyst abarca el funnel, canales, experimentos e informes. Los skill sets se solapan, pero los trabajos no son idénticos.",
+    },
+    {
+      q: "¿Basta Yandex Metrica?",
+      a: "Basta para empezar. Luego vienen goals, segmentos, GA o pares, bases de marketing, A/B testing y explicar hallazgos a no-analysts.",
+    },
+    {
+      q: "¿Hace falta inglés?",
+      a: "El inglés técnico ayuda mucho: docs de herramientas, cursos e investigación.",
+    },
+    {
+      q: "¿Por dónde debería empezar un principiante?",
+      a: "Pon contadores en un proyecto de entrenamiento o personal, configura goals, desglosa fuentes y bounce, y entrega dos o tres mini-casos con recomendaciones.",
+    },
+    {
+      q: "¿Dónde trabajan los analysts?",
+      a: "In-house (sobre todo empresas más grandes), en agencias y estudios, o freelance por proyecto. Los pequeños negocios más a menudo contratan un engagement corto cuando se caen las ventas.",
+    },
+    {
+      q: "¿El analyst es responsable de los rankings de búsqueda?",
+      a: "No como un KPI de un botón. Muestran qué bloquea conversión y crecimiento; SEO, contenido e ingeniería entregan los fixes. La visibilidad orgánica sigue su propio plazo — a menudo meses de trabajo constante tras arrancar la promoción.",
+    },
+    {
+      q: "¿Hace falta un título técnico?",
+      a: "No es obligatorio. Importan más el pensamiento de sistemas y la comodidad con números. Los empleadores pesan la práctica y un portfolio de casos.",
+    },
+    {
+      q: "¿Qué hace duro el rol?",
+      a: "Briefs vagos, debates de «ya lo hicimos todo bien», reporting repetitivo y trabajo volcado fuera de analytics.",
+    },
+  ],
+  sections: [
+    {
+      title: "Quién es un web analyst",
+      level: 2,
+      paras: [
+        "Alguien que recoge e interpreta datos de visitantes y canales para mejorar resultados del sitio: calidad del tráfico, conversión, UX. El rol no es «la persona con acceso a Metrica».",
+        "El output real son conclusiones claras y prioridades para marketing, producto e ingeniería: qué mediste, qué cambiaste, qué testear después.",
+      ],
+      lists: [
+        {
+          intro: "En corto:",
+          items: [
+            "datos → hipótesis → recomendaciones → validación",
+            "no un informe por el informe",
+            "atado a goals de negocio, no solo a conteos de sesión",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Yandex Metrica: instalar",
+          href: "/es/blog/metrika-ustanovka/",
+        },
+        {
+          label: "Google Analytics",
+          href: "/es/blog/google-analytics/",
+        },
+      ],
+    },
+    {
+      title: "Deberes",
+      level: 2,
+      paras: [
+        "Elegir y cablear herramientas de datos, goals y eventos, análisis de comportamiento (bounce, caminos, formularios), auditorías de funnel, tests A/B, KPIs del sitio, informes para roles distintos, propuestas de mejora, chequeos frente a research de mercado e input a la estrategia.",
+        "El mix del día a día depende de la empresa: más cerca de performance en unos sitios, más cerca de producto en otros. Traducir números al lenguaje del stakeholder sin perder precisión es parte del trabajo.",
+      ],
+      lists: [
+        {
+          intro: "Set típico de tareas:",
+          items: [
+            "contadores, goals, call tracking",
+            "segmentos y fuentes",
+            "hipótesis de UX y oferta",
+            "tests A/B y medición de impacto",
+            "reporting regular y ad-hoc",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Goals en Metrica",
+          href: "/es/blog/metrika-tseli/",
+        },
+        {
+          label: "Goals en Google Analytics",
+          href: "/es/blog/google-analytics-tseli/",
+        },
+        {
+          label: "Tasa de rechazo del sitio",
+          href: "/es/blog/otkazy-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Skills y aprendizaje",
+      level: 2,
+      paras: [
+        "Stack núcleo: Metrica y Google Analytics (o lo que use la empresa), bases de internet marketing, A/B testing, reporting, idealmente call tracking, y SEO/paid search suficiente para hablar el mismo idioma. El inglés técnico es un plus.",
+        "Los caminos incluyen cursos universitarios o de escuela, webinars y trabajo hands-on. Prefiere un currículum actual con al menos la mitad de práctica. Libros y reviews de casos ayudan, pero no sustituyen tus propios proyectos before/after.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de principiante:",
+          items: [
+            "instalar un contador y goals",
+            "desglosar fuentes y landings",
+            "encontrar tres problemas con evidencia",
+            "proponer fixes y una forma de verificarlos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Analytics de content marketing",
+          href: "/blog/analitika-kontent-marketinga/",
+        },
+        {
+          label: "Metrica no funciona",
+          href: "/es/blog/metrika-ne-rabotaet/",
+        },
+      ],
+    },
+    {
+      title: "Carrera y el mercado",
+      level: 2,
+      paras: [
+        "Las empresas más grandes mantienen analysts in-house o como equipos; el pequeño negocio más a menudo contrata por proyecto. En agencias y estudios la escalera suele ser junior → middle → senior → lead → head of practice.",
+        "El sueldo sigue experiencia, escala del proyecto, skills adyacentes (SEO, paid media, SQL/BI) y región. Las cifras de artículos viejos envejecen rápido — revisa ofertas actuales y rangos de mercado.",
+      ],
+      lists: [
+        {
+          intro: "Qué sube el valor de un candidato:",
+          items: [
+            "casos con impacto medible",
+            "skills adyacentes (SEO / ads)",
+            "comunicación clara con no-analysts",
+            "experiencia priorizando un backlog",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Pros y costes del rol",
+      level: 2,
+      paras: [
+        "Ventajas: impacto de negocio visible, espacio para crecer, remote y horarios flexibles en muchos setups, un perfil sólido de rol digital, y caminos hacia producto, performance o SEO.",
+        "Contras: resistencia al cambio («siempre lo hemos hecho así»), briefs difusos del cliente, fronteras de deberes borrosas y monotonía en algo de reporting. Un brief claro y KPIs acordados cortan mucha fricción.",
+      ],
+      lists: [
+        {
+          intro: "Conclusión:",
+          items: [
+            "el rol va de decisiones desde datos",
+            "importan la práctica y la comunicación",
+            "la demanda de openings se mantiene",
+            "un informe no es lo mismo que un resultado",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos del efecto",
+          kind: "tip",
+          text: "La analytics acelera las decisiones correctas. La visibilidad en búsqueda tras los fixes sigue necesitando su propia pista — a menudo meses de trabajo sistemático tras arrancar la promoción.",
+        },
+      ],
+      links: [
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "metrika-ustanovka",
+    "google-analytics",
+    "metrika-tseli",
+    "analitika-kontent-marketinga",
+    "otkazy-sayta",
+    "optimizatsiya-konversii",
+  ],
+};

@@ -132,3 +132,136 @@ export const razmeryBanneraEn: BlogPost = {
     "Banner size takes a minute via Inspect: check display and the file source separately. Then — your creative, compression, and a correct link, not a copy-paste of someone else’s asset.",
   ],
 };
+
+/** ES overlay for razmery-bannera — same structure as RU JSON / EN. */
+export const razmeryBanneraEs: BlogPost = {
+  slug: "razmery-bannera",
+  title: "Tamaños de banner en píxeles: cómo mirarlos en el sitio de otro",
+  date: "2021-03-01",
+  category: "Digital marketing",
+  cover: "/images/blog/razmery-bannera/cover.webp",
+  excerpt:
+    "Qué aspecto tienen los banners web, por qué los tamaños suelen ser arbitrarios y cómo saber en un minuto el ancho/alto de un creativo de la competencia con las herramientas de desarrollador.",
+  lead: [
+    "Un banner es una imagen o un bloque interactivo que promociona una oferta, una sección o un partner. Antes de hacer «lo mismo que el competidor», conviene saber el tamaño real en píxeles — si no, el creativo rompe el layout o hincha el peso de la página.",
+    "Abajo: tipos de banner, por qué los estándares IAB no siempre se siguen y cómo comprobar tamaños con DevTools. Las imágenes clicables viven en un artículo vecino.",
+  ],
+  faq: [
+    {
+      q: "¿Dónde en DevTools veo el tamaño?",
+      a: "Clic derecho en el banner → Inspeccionar. En el nodo seleccionado mira width/height en img o el tamaño computed en Styles/Computed y el tooltip al pasar el ratón sobre el nodo.",
+    },
+    {
+      q: "¿El width HTML es igual al archivo real?",
+      a: "No siempre. Atributos y CSS pueden escalar la imagen. Para el origen, mira Network → tamaño del recurso o abre la URL de la imagen en una pestaña nueva.",
+    },
+    {
+      q: "¿Hay tamaños de banner obligatorios?",
+      a: "Las redes de ads y las plataformas social tienen sus propias specs. En sitios normales los webmasters a menudo usan formatos arbitrarios para el layout.",
+    },
+    {
+      q: "¿En qué se diferencian banners estáticos, GIF y HTML5?",
+      a: "JPEG/PNG son más ligeros y simples. GIF es animación pero pesa. HTML5/JS es interactivo, más carga, más difícil de medir como «una sola imagen».",
+    },
+    {
+      q: "¿Por qué copiar el tamaño del competidor?",
+      a: "Para que el creativo quepa en un hueco parecido sin recortes. La idea y la oferta deben ser tuyas; no copies assets ajenos sin derechos.",
+    },
+    {
+      q: "¿Cómo no matar la velocidad de la página?",
+      a: "No hinches píxeles «por si acaso»: tamaño de display necesario + compresión (WebP/AVIF), width/height en el markup, lazy bajo el fold.",
+    },
+    {
+      q: "¿Un banner es un enlace-imagen?",
+      a: "A menudo sí: img dentro de a. Mismas reglas — alt claro, archivo propio, peso sensato. Ver el post de imagen-enlace.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué tipos de banners hay",
+      level: 2,
+      paras: [
+        "Por forma de entrega suelen verse tres tipos: archivos estáticos, animación e interactivos.",
+        "La elección depende del trabajo y del presupuesto de velocidad: cuanto más complejo el creativo, mayor el riesgo de retrasar el LCP y molestar al usuario.",
+      ],
+      lists: [
+        {
+          intro: "Tipos:",
+          items: [
+            "estático JPEG/PNG/WebP — más simple y ligero",
+            "animación (GIF o preview de vídeo) — más claro, más pesado",
+            "interactivo (HTML/JS) — clics, formularios, motion; más duro de mantener",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tamaños: estándares y realidad",
+      level: 2,
+      paras: [
+        "Asociaciones y redes de ads publican formatos típicos (p. ej. rangos IAB), y las plataformas social fijan sus propios píxeles para feed y stories.",
+        "En sitios normales los tamaños suelen ser arbitrarios: para la rejilla del layout, un breakpoint móvil o un «hueco» en la sidebar. No hay una clasificación web universal «en centímetros» — cuentas píxeles CSS y el archivo origen.",
+      ],
+      lists: [
+        {
+          intro: "Qué vigilar en tu propio creativo:",
+          items: [
+            "hueco en el layout (ancho de columna / max-width)",
+            "retina: a veces preparas 2× pero sirves un archivo comprimido",
+            "móvil — tamaño aparte o responsive",
+            "specs de emplazamiento si son ads externos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Imagen-enlace",
+          href: "/es/blog/kartinka-ssylka/",
+        },
+      ],
+    },
+    {
+      title: "Cómo saber el tamaño de un banner en el sitio de otro",
+      level: 2,
+      paras: [
+        "Si necesitas igualar las dimensiones del hueco (no copiar el archivo ajeno), abre la página en Chrome/Firefox/Safari y usa las herramientas de desarrollador.",
+      ],
+      lists: [
+        {
+          intro: "Algoritmo corto:",
+          items: [
+            "clic derecho en el banner → Inspeccionar",
+            "en el DOM encuentra el `img` o el contenedor del banner",
+            "mira width/height en atributos o el tamaño computed",
+            "si dudas, abre la URL de la imagen y verifica el tamaño natural del archivo",
+          ],
+        },
+        {
+          intro: "Matices:",
+          items: [
+            "CSS puede encoger la imagen — display ≠ intrínseco",
+            "fondo vía `background-image` — mira en Styles, no en atributos de img",
+            "iframe/red de ads — el tamaño puede estar en el contenedor, no en el archivo",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Por qué los tamaños arbitrarios son normales",
+      level: 2,
+      paras: [
+        "Los sitios adaptan bloques a pantallas y rejillas distintas. Un rígido «728×90 en todas partes» hace tiempo que no es la única opción.",
+        "Lo que importa es que el banner no rompa la lectura, no tape CTAs y no pese como una página aparte. Si el creativo es útil (oferta clara, un diagrama), la gente lo tolera más que un GIF vacío que grita.",
+      ],
+      links: [
+        {
+          label: "Venta de tráfico y emplazamientos",
+          href: "/es/blog/prodazha-trafika/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "El tamaño del banner se resuelve en un minuto con Inspect: mira display y el archivo origen por separado. Luego — tu creativo, compresión y un enlace correcto, no un copy-paste del asset ajeno.",
+  ],
+};

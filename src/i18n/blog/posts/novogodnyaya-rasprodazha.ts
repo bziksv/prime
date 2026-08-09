@@ -164,3 +164,168 @@ export const novogodnyayaRasprodazhaEn: BlogPost = {
     "retargeting-direkt",
   ],
 };
+
+/** ES overlay for novogodnyaya-rasprodazha — same structure as RU JSON / EN. */
+export const novogodnyayaRasprodazhaEs: BlogPost = {
+  slug: "novogodnyaya-rasprodazha",
+  title: "Campañas de rebajas de Año Nuevo en Yandex Direct y Google Ads",
+  date: "2019-01-10",
+  category: "Paid search",
+  cover: "/images/blog/novogodnyaya-rasprodazha/cover.webp",
+  excerpt:
+    "Cómo preparar paid search para una rebaja de Año Nuevo: demanda y forecast, tipos de comprador, creatividades, campañas aparte y qué hacer tras las fiestas — sin copiar a ciegas stats de EE. UU. de 2017.",
+  lead: [
+    "La temporada de Año Nuevo en paid search no es solo «−30% en diciembre». Hace falta un forecast de demanda, mensajes distintos para compradores tempranos y tardíos, creatividades aparte y una salida cuidadosa tras las fiestas.",
+    "Abajo: un marco que funciona para Yandex Direct y Google Ads. Las cifras NRF/Trends de reviews viejas son ejemplos toscos de forma de curva — no ley para tu nicho en Rusia. El retargeting de fiestas en el pico se cubre aparte.",
+  ],
+  faq: [
+    {
+      q: "¿Cuándo empezar ads de regalos?",
+      a: "Mira tus años pasados y Wordstat/Trends del nicho. Para muchos, la demanda sube semanas antes del pico — no solo el 31 de diciembre.",
+    },
+    {
+      q: "¿Debes correr una campaña aparte para la rebaja?",
+      a: "Sí, es más limpio: ads propios, negativos, presupuesto y fecha de fin. No mezcles la campaña principal con una oferta de temporada.",
+    },
+    {
+      q: "¿El retargeting es obligatorio para una rebaja de fiestas?",
+      a: "Ayuda mucho en el pico, pero no sustituye campañas de búsqueda y shopping. Las tácticas de retargeting de fiestas se cubren aparte.",
+    },
+    {
+      q: "¿Qué hacer tras las fiestas?",
+      a: "Cambia creatividades, baja pujas cuando cae la competencia, comunica horario laboral y apaga ads de rebaja según plan.",
+    },
+    {
+      q: "¿El crecimiento de ventas está garantizado con ads de fiestas?",
+      a: "No. Paid search amplifica demanda y oferta; sin stock, logística y una landing de rebaja, el presupuesto se quema.",
+    },
+  ],
+  sections: [
+    {
+      title: "Análisis de demanda y forecast",
+      level: 2,
+      paras: [
+        "Apóyate en stats de la temporada del año pasado: clics, CPA, categorías de producto, rebote. Quita picos puntuales que no se repetirán.",
+        "Añade contexto de industria: cómo se comportó la demanda este año antes de la temporada. Los forecasts de clics guían el presupuesto — no una promesa de ingresos. Los charts Trends ajenos ayudan con la forma de la curva, no para copiar «porcentajes de EE. UU.».",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de forecast:",
+          items: [
+            "la temporada del año pasado en Direct/Ads y Metrika",
+            "categorías y queries de regalos líderes",
+            "capacidad de almacén y SLAs de entrega",
+            "tope de presupuesto para días pico",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Forecast de tráfico",
+          href: "/es/blog/prognoz-trafika/",
+        },
+      ],
+    },
+    {
+      title: "Tipos de comprador en la temporada",
+      level: 2,
+      paras: [
+        "A grosso modo parte la audiencia: planificadores tempranos, cazadores de descuento (picos de rebaja), racionales (comparan más), last-minute (sin tiempo).",
+        "Tipos distintos necesitan mensajes y timing distintos: tempranos — surtido y sets; buscadores de descuento — un USP claro en el ruido; last-minute — entrega rápida y «en stock hoy».",
+      ],
+      lists: [
+        {
+          intro: "Movimiento práctico:",
+          items: [
+            "grupos/campañas aparte por etapa de temporada",
+            "horarios de ads para picos",
+            "«para mí» vs «como regalo» — creatividades distintas",
+            "no prometas una entrega que el almacén no puede cumplir",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Creatividades y landings para la rebaja",
+      level: 2,
+      paras: [
+        "En el ad — fechas de rebaja, beneficio, límites. En la landing — los mismos términos, stock, entrega antes de la fiesta. Desajuste promesa vs página mata conversión y calidad de tráfico.",
+        "Prepara 2–3 sets de creatividades pronto: pre-pico, pico, post-fiestas. Testa titulares con cuidado — ver la pieza de A/B de paid search.",
+      ],
+      links: [
+        {
+          label: "Tests A/B de ads",
+          href: "/es/blog/ab-testy-reklamy/",
+        },
+        {
+          label: "Copy de landing",
+          href: "/es/blog/tekst-lendinga/",
+        },
+      ],
+    },
+    {
+      title: "Setup de campañas en Direct y Google Ads",
+      level: 2,
+      paras: [
+        "Mueve la rebaja a una campaña aparte con fecha de fin. Pausa o estrecha la línea principal para que el presupuesto no se filtre a ads ordinarios sin la oferta de temporada.",
+        "Google Ads a menudo tiene rules/schedules de auto-stop; en Direct planifica la fecha a mano o vía una campaña temporizada aparte — mira opciones actuales de la cuenta. Las pujas en el pico suelen ser más altas: fija expectativas de CPA de antemano.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de lanzamiento:",
+          items: [
+            "semántica de regalos/rebaja + negativos",
+            "presupuesto de temporada aparte",
+            "UTM y metas en analytics",
+            "retargeting cálido",
+            "alertas de stock y SLAs de entrega",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Retargeting de fiestas",
+          href: "/es/blog/prazdnichnyy-retargeting/",
+        },
+        {
+          label: "Estrategias de Yandex Direct",
+          href: "/es/blog/strategii-yandeks-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Tras las fiestas",
+      level: 2,
+      paras: [
+        "La demanda no llega a cero en un día: algunas compras y pedidos de catch-up llegan después. Cambia temas creativos, comunica el horario, baja pujas al enfriarse la subasta.",
+        "Apaga ads de rebaja según plan y restaura la campaña principal. Si no, la gente hace clic en «−50% hasta el 31 de dic.» mientras el sitio ya muestra precios normales.",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Términos de rebaja legalmente correctos (fechas, límites, disponibilidad) ganan a un banner bonito. No prometas lo que no puedes entregar.",
+        },
+      ],
+    },
+    {
+      title: "Takeaways",
+      level: 2,
+      paras: [
+        "Una rebaja de temporada en paid search = forecast + segmentos de comprador + campañas aparte + una oferta honesta. Los porcentajes ajenos de «cuándo compran los americanos» no sustituyen tus cifras.",
+        "Tras el pico, la disciplina también importa: cambio creativo y parar la rebaja en fecha.",
+      ],
+    },
+  ],
+  closing: [
+    "Arma un forecast con tus datos, separa compradores tempranos y tardíos, pon la rebaja en su propia campaña y planifica la salida post-fiestas — así el paid search de Año Nuevo malgasta menos presupuesto.",
+  ],
+  related: [
+    "prazdnichnyy-retargeting",
+    "prognoz-trafika",
+    "ab-testy-reklamy",
+    "strategii-yandeks-direkt",
+    "promoaktsii",
+    "retargeting-direkt",
+  ],
+};

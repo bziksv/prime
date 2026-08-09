@@ -1,0 +1,117 @@
+---
+import "../../../styles/concept-v6.css";
+import "../../../styles/concept-v6-media.css";
+import "../../../styles/cases.css";
+import CasesLayout from "../../../layouts/CasesLayout.astro";
+import CaseFilters from "../../../components/CaseFilters.astro";
+import CaseGrid from "../../../components/CaseGrid.astro";
+import { caseStudies, caseCategories } from "../../../data/cases";
+import {
+  ES_CASE_SLUGS,
+  casesIndexPath,
+  localizeCase,
+} from "../../../i18n/cases";
+import { contactsPath } from "../../../i18n/contacts-content";
+
+const locale = "es" as const;
+const translated = caseStudies
+  .filter((c) => (ES_CASE_SLUGS as readonly string[]).includes(c.slug))
+  .map((c) => localizeCase(c, locale));
+
+const featured = translated
+  .filter((c) => c.featured)
+  .sort((a, b) => {
+    const rank = (slug: string) => {
+      if (slug === "insortex") return 0;
+      if (slug === "almamed") return 1;
+      return 2;
+    };
+    return rank(a.slug) - rank(b.slug);
+  });
+
+const rest = translated.filter((c) => !c.featured);
+const path = casesIndexPath(locale);
+const contactsHref = contactsPath(locale);
+---
+
+<CasesLayout
+  title="Casos — PRIME"
+  description="Casos actuales de PRIME: SEO, Google Ads, webs y chatbots. Crecimiento hacia la primera página, leads, CPL y ROI — no un archivo de hace diez años."
+  path={path}
+  locale={locale}
+  alternatePath="/keysy/"
+  breadcrumb={[{ label: "Inicio", href: "/es/" }, { label: "Casos" }]}
+>
+  <section class="k-hero" data-k-hero>
+    <div class="k-hero__grid" data-k-grid aria-hidden="true"></div>
+    <div class="k-hero__glow" data-k-glow aria-hidden="true"></div>
+    <div class="k-hero__orb k-hero__orb--1" data-k-depth="0.55" aria-hidden="true"></div>
+    <div class="k-hero__orb k-hero__orb--2" data-k-depth="0.9" aria-hidden="true"></div>
+    <div class="k-hero__inner">
+      <p class="k-kicker">Trabajo actual · no un archivo</p>
+      <h1>Mostramos <em>lo que está vivo</em> — números, no decks viejos</h1>
+      <p class="k-hero__lead">
+        SEO, Google Ads, webs y chatbots: proyectos activos con economía clara —
+        crecimiento hacia la primera página, leads, CPL y ROI. Sin relleno de
+        portafolio de hace una década. Solo lo que importa ahora.
+      </p>
+    </div>
+    <div class="k-hero__stats">
+      <div class="k-hero__stat">
+        <strong>{translated.length}+</strong>
+        <span>fichas actuales</span>
+      </div>
+      <div class="k-hero__stat">
+        <strong>{caseCategories.length}</strong>
+        <span>líneas de servicio</span>
+      </div>
+      <div class="k-hero__stat">
+        <strong>70+</strong>
+        <span>clientes en juego</span>
+      </div>
+    </div>
+    <div class="k-hero__stripe" aria-hidden="true"></div>
+  </section>
+
+  <CaseFilters active="all" locale={locale} />
+
+  {
+    featured.length > 0 && (
+      <section class="k-panel k-reveal">
+        <div class="k-panel__head">
+          <h2>Destacados recientes</h2>
+          <p>Casos actuales con una métrica en portada — solo lo fresco</p>
+        </div>
+        <CaseGrid cases={featured} featuredFirst locale={locale} />
+      </section>
+    )
+  }
+
+  <section class="k-panel k-reveal">
+    <div class="k-panel__head">
+      <h2>Todo el trabajo actual</h2>
+      <p>Filtra por SEO, Google Ads, webs o chatbots — solo fichas frescas</p>
+    </div>
+    {
+      rest.length > 0 ? (
+        <CaseGrid cases={rest} initialVisible={9} step={9} locale={locale} />
+      ) : (
+        <p class="k-hero__lead" style="max-width:40rem">
+          Estamos publicando los casos en español. Mientras tanto, escribe y te
+          contamos resultados con números de proyectos vivos.
+        </p>
+      )
+    }
+  </section>
+
+  <section class="k-cta k-reveal">
+    <h2>¿Quieres resultados así?</h2>
+    <p>
+      En el mercado desde 2015. En 30 minutos mapeamos tu nicho y recomendamos un
+      encaje: SEO, Google Ads, una web o un chatbot.
+    </p>
+    <div class="k-cta__actions">
+      <a class="k-btn k-btn--primary" href={contactsHref}>Háblanos</a>
+    </div>
+  </section>
+</CasesLayout>

@@ -241,3 +241,245 @@ export const dubliStranitsEn: BlogPost = {
     "url-adres",
   ],
 };
+
+/** ES overlay for dubli-stranits — same structure as RU JSON / EN. */
+export const dubliStranitsEs: BlogPost = {
+  slug: "dubli-stranits",
+  title: "Páginas duplicadas: por qué duelen y cómo arreglarlas",
+  date: "2021-01-11",
+  category: "SEO",
+  cover: "/images/blog/dubli-stranits/cover.webp",
+  excerpt:
+    "Qué cuenta como duplicado de página, exactos vs near-duplicates, de dónde salen en CMS y tiendas, qué hacen en la búsqueda y cómo encontrar y unificar URLs.",
+  lead: [
+    "Los duplicados son cuando el mismo sentido — o casi — está disponible en direcciones distintas. La búsqueda gasta crawl en copias, diluye señales y puede mostrar una versión que no consideras primaria.",
+    "Abajo: qué cuenta como duplicado, tipos y causas habituales, riesgos SEO y un orden práctico: encontrar → elegir canónico → unificar o sacar del índice. Redirects y tools de desindexación están en artículos hermanos.",
+  ],
+  faq: [
+    {
+      q: "¿Un duplicado es siempre copy-paste completo de HTML?",
+      a: "No. Un duplicado exacto es un documento casi idéntico. Un near-duplicate es un solapamiento fuerte de sentido/bloques en URLs distintas (a menudo filtros, paginación, fichas «parecidas»).",
+    },
+    {
+      q: "¿En qué se diferencian los duplicados del plagio de otro sitio?",
+      a: "Los duplicados internos son problema de tu dominio. El copy-paste externo es otra historia (unicidad, denuncias). Aquí va de higiene interna de URLs.",
+    },
+    {
+      q: "¿Debo usar redirect o canonical?",
+      a: "Si la URL vieja no debería abrirse — 301. Si ambas versiones hacen falta para usuarios pero solo una en el índice — suele ser `rel=\"canonical\"` más indexación cuidadosa. Ver el artículo de redirects.",
+    },
+    {
+      q: "¿robots.txt arregla los duplicados?",
+      a: "No como método principal. Disallow corta crawl pero no sustituye unificar y canonical. Para sacar del índice — noindex mientras el documento sea alcanzable, o 301.",
+    },
+    {
+      q: "¿Las etiquetas UTM son peligrosas?",
+      a: "Como URLs indexadas aparte — sí, si el bot las rastrea e indexa. Suele bastar canonical a la URL limpia + ajustes de parámetros en paneles de webmaster.",
+    },
+    {
+      q: "¿Cómo estimar la escala rápido?",
+      a: "Un crawler (lista title/H1/canonical), export de «páginas en búsqueda» en Webmaster/Search Console, búsqueda `site:` de titles repetidos. En catálogos grandes — prioriza por sección.",
+    },
+    {
+      q: "¿Los duplicados significan un «filtro de duplicados» para siempre?",
+      a: "Más a menudo es eficiencia perdida: crawl budget, canibalización, snippets flojos. Sanciones duras son otro tema; primero quita causas sistémicas de duplicados.",
+    },
+    {
+      q: "¿Cuánto esperar tras unificar?",
+      a: "El recrawl y los cambios de canónico en el SERP no son instantáneos: días–semanas, más en sitios grandes. Mira informes de indexación — no rankings de la noche a la mañana.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué son las páginas duplicadas",
+      level: 2,
+      paras: [
+        "En SEO un duplicado es varias URLs que a la búsqueda les parecen un documento o compiten por un intent sin valor claro en partirlas. Los usuarios pueden abrir ambas; el bot elige cuál es primaria.",
+        "No lo confundas con estructura intencionada: productos, servicios y artículos distintos no son duplicados aunque la plantilla se parezca. El problema empieza cuando sentido y valor casi coinciden — y hay muchas direcciones.",
+      ],
+      lists: [
+        {
+          intro: "Señales:",
+          items: [
+            "un title/H1 en varias URLs",
+            "el mismo copy principal con parámetros distintos",
+            "www y sin-www / http y https ambos devuelven 200 sin unificar",
+            "filtros y sorts generan combinaciones infinitas en el índice",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Dirección URL",
+          href: "/es/blog/url-adres/",
+        },
+      ],
+    },
+    {
+      title: "Exactos y near-duplicates",
+      level: 2,
+      paras: [
+        "Exactos (o casi exactos) — el mismo documento en direcciones distintas: cambio de mayúsculas, trailing slash, session id, espejos. Near-duplicates — solapamiento de contenido: categoría «tal cual» y la misma con sorting, una ficha y una versión de impresión, intersecciones finas de filtros.",
+        "Los near-duplicates son más taimados: el crawler ve páginas «distintas» mientras el valor para el usuario es casi cero. Esos inflan índices de tiendas online.",
+      ],
+      lists: [
+        {
+          intro: "Ejemplos exactos:",
+          items: [
+            "`example.com` y `www.example.com` sin 301",
+            "http y https ambos en el índice",
+            "URLs con `?utm_…` junto a la limpia",
+            "una copia en `/index.php` y la URL bonita",
+          ],
+        },
+        {
+          intro: "Ejemplos near-duplicate:",
+          items: [
+            "sort y paginación como documentos «completos» aparte",
+            "filtro color+talla vs color en el mismo listing",
+            "una página de impresión con el mismo texto",
+            "duplicados de tag/categoría de blog con las mismas colecciones",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Paginación",
+          href: "/es/blog/paginatsiya/",
+        },
+      ],
+    },
+    {
+      title: "De dónde salen los duplicados",
+      level: 2,
+      paras: [
+        "Lo más habitual no es un «copywriter malvado» sino ajustes de CMS, tienda y marketing: parámetros de sesión, varios caminos a una ficha, generación de landings de ads, copias de test en subdominios, exports de catálogo con parámetros.",
+        "Los near-duplicates de contenido aparecen cuando se estampa texto casi idéntico bajo cada keyword o cuando el autofill genera páginas finas. Entonces arreglas técnica de URL y política editorial.",
+      ],
+      lists: [
+        {
+          intro: "Fuentes típicas:",
+          items: [
+            "espejos y protocolos sin una sola unificación",
+            "parámetros GET (sort, filtro, tags, sesión)",
+            "varias plantillas para una entidad",
+            "copias de sección tras un redesign sin 301",
+            "enlaces externos a URLs «sucias» que se indexaron",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Arregla primero la causa sistémica (regla de canónico, redirects de espejo), o la limpieza manual de URLs no termina nunca.",
+        },
+      ],
+      links: [
+        {
+          label: "Autofill del sitio",
+          href: "/es/blog/avtonapolnenie-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Por qué los duplicados duelen al SEO",
+      level: 2,
+      paras: [
+        "El crawl budget va a copias en lugar de URLs nuevas e importantes. Señales de enlaces y comportamiento se reparten entre versiones. Una dirección incómoda o desfasada puede quedarse pegada en el SERP.",
+        "Dentro del sitio aparece canibalización: varias URLs pelean por una query y ninguna gana estabilidad. En una tienda también es ruido de analytics: goals y conversiones asistidas se emborronan.",
+      ],
+      lists: [
+        {
+          intro: "Qué notarás:",
+          items: [
+            "miles de URLs en el índice para cientos útiles",
+            "giros de canónico en los paneles",
+            "titles duplicados en el crawl",
+            "indexación floja de secciones nuevas mientras los filtros pesan",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Logs del servidor y crawl",
+          href: "/es/blog/logi-servera/",
+        },
+      ],
+    },
+    {
+      title: "Cómo encontrar duplicados",
+      level: 2,
+      paras: [
+        "Empieza por espejos y protocolo: ¿todas las variantes hacen 301 a un canónico? Luego crawl del sitio: agrupa por title, H1, hash de contenido; revisa canonical y códigos de estado.",
+        "En Yandex Webmaster y Google Search Console revisa ejemplos de URLs indexadas, duplicados y el canónico elegido. Búsqueda `site:domain.com` y checks puntuales de plantillas sospechosas completan el cuadro.",
+      ],
+      lists: [
+        {
+          intro: "Orden de mini-auditoría:",
+          items: [
+            "unificar www / https / slash",
+            "muestra de parámetros (?sort, ?utm, sesión)",
+            "paginación y filtros del catálogo",
+            "title/H1 repetidos",
+            "subdominios y staging en el índice",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "Cómo arreglar: canónico, 301, noindex",
+      level: 2,
+      paras: [
+        "Elige una URL preferida por entidad. Enlaces internos, sitemap y ads deben apuntar a ella. El resto — 301 (si no hace falta) o canonical / noindex acordado (si hace falta por UX).",
+        "No hagas Disallow en robots.txt de lo que quieres limpiar con noindex sin crawl — el bot puede no ver nunca la directiva. No apiles cadenas de redirects. Tras los arreglos, recrawl y monitor de índice forman parte del trabajo — no «un clic y a olvidar».",
+      ],
+      lists: [
+        {
+          intro: "Herramientas de unificación:",
+          items: [
+            "301 entre espejos y paths desfasados",
+            "`rel=\"canonical\"` al documento preferido",
+            "meta robots / X-Robots-Tag para utilidad y algunas URLs paramétricas",
+            "ajustes de parámetros de URL en paneles de webmaster",
+            "arreglos de plantilla del CMS para que no nazcan duplicados nuevos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Unificar todo a la homepage «por si acaso». Pierdes el sentido de la landing y diluyes la home. El canónico es la URL más cercana con sentido de la misma entidad.",
+        },
+      ],
+      links: [
+        {
+          label: "Redirects",
+          href: "/es/blog/redirekt/",
+        },
+        {
+          label: "Desindexación / noindex",
+          href: "/es/blog/zakrytie-ot-indeksatsii/",
+        },
+        {
+          label: "HTTPS y unificación",
+          href: "/es/blog/https-seo/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "zakrytie-ot-indeksatsii",
+    "redirekt",
+    "paginatsiya",
+    "tehnicheskiy-seo-audit",
+    "url-adres",
+  ],
+};

@@ -116,3 +116,120 @@ export const adultTrafikEn: BlogPost = {
     "roi-marketinga",
   ],
 };
+
+/** ES overlay for adult-trafik — same structure as RU JSON / EN. */
+export const adultTrafikEs: BlogPost = {
+  slug: "adult-trafik",
+  title: "Tráfico adult: qué significa y dónde están los riesgos",
+  date: "2020-09-24",
+  category: "Marketing digital",
+  cover: "/images/blog/adult-trafik/cover.webp",
+  excerpt:
+    "Tráfico adult son visitas en el nicho 18+ / erótica y pornografía. Qué significa el término en marketing, en qué se diferencia el nicho del SEO ordinario y por qué saltamos esquemas grises y apaños alrededor de la ley.",
+  lead: [
+    "En la jerga de afiliados y webmasters, tráfico adult son visitas a propiedades 18+: erótica, pornografía y ofertas relacionadas. La demanda de búsqueda puede parecer enorme, pero las reglas legales y publicitarias son mucho más estrictas que el e‑commerce ordinario.",
+    "Abajo: qué significa la etiqueta, en qué se diferencia el nicho para marketers y los riesgos habituales. No explicamos cómo saltar bloqueos, montar catálogos grises ni traficar tráfico basura: muchas jurisdicciones restringen la distribución de pornografía, y las plataformas y proveedores de pago tienen sus propios bans. Esto es informativo — no una guía de lanzamiento de un sitio adult.",
+  ],
+  faq: [
+    {
+      q: "¿«Adult» solo significa sitios porno?",
+      a: "En sentido estricto — sí, media 18+. En sentido más amplio el nicho también incluye bienes y servicios íntimos; las reglas de plataforma y legales para eso son aparte también.",
+    },
+    {
+      q: "¿Se puede llevar como SEO ordinario?",
+      a: "A menudo no: moderación de ads más dura, límites de búsqueda y hosting, mayor riesgo legal. Los playbooks de SEO informativo no se transfieren uno a uno.",
+    },
+    {
+      q: "¿Por qué saltar TGP / intercambio de tráfico?",
+      a: "Son mecánicas grises y spammy que buscadores y antifraud cortan. No ayudamos a nadie a saltarse reglas ni la ley.",
+    },
+    {
+      q: "¿Es legal un negocio adult?",
+      a: "Depende de la jurisdicción. En Rusia, distribuir pornografía está prohibido. Un hosting en el extranjero no borra el riesgo. Para una lectura legal de un modelo concreto — pregunta a un abogado, no a un blog de SEO.",
+    },
+    {
+      q: "¿Los volúmenes tipo Wordstat de «porn» cuentan como oportunidad?",
+      a: "Las cifras de demanda de artículos antiguos envejecen rápido y no son «dinero fácil». No las tratamos como una invitación al nicho.",
+    },
+    {
+      q: "¿En qué se diferencian los programas de afiliados 18+?",
+      a: "Como clase — CPA/RevShare por una acción objetivo. En la práctica se acumulan límites de GEO, creatividades y payouts. Sin due diligence es fácil perder tráfico y dinero.",
+    },
+    {
+      q: "¿Funcionarán ads de búsqueda o redes?",
+      a: "Las redes grandes tienen una política adult dura o un ban. No discutimos cómo saltarse las políticas de la cuenta de anuncios.",
+    },
+    {
+      q: "¿Qué hacer en su lugar para ingresos por tráfico?",
+      a: "Nichos legales con oferta clara, canales white y un contrato. El marketing fuera de la zona gris suele durar más.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué entiende la gente por tráfico adult",
+      level: 2,
+      paras: [
+        "No es un «protocolo» aparte — es un segmento de audiencia y contenido 18+: sitios, landings, apps y ofertas de ads con material erótico o pornográfico.",
+        "En reportes de afiliados adult a menudo se separa: creatividades, fuentes y tasas de rechazo de pago/hosting distintas.",
+        "No lo confundas con B2B «adult» (audiencia 35+): aquí significa contenido para adultos en concreto.",
+      ],
+    },
+    {
+      title: "Por qué el nicho es especial para marketing",
+      level: 2,
+      paras: [
+        "Un alto interés de búsqueda no es puerta abierta: ley, reglas de plataforma, reputación de marca y bancos/acquiring cortan modelos más duro que en el info-business ordinario.",
+        "Los movimientos clásicos de SEO (landings limpios, directorios, ads de búsqueda) para contenido porno a menudo no están disponibles o funcionan distinto. Las promesas de «saltar bloqueos de búsqueda» son una bandera roja.",
+        "Incluso ofertas adyacentes (productos 18+) necesitan etiquetado claro de edad, creatividades cuidadosas y comprobar que el canal permite el nicho.",
+      ],
+      notes: [
+        {
+          title: "Sin esquemas grises",
+          kind: "tip",
+          text: "Catálogos tipo galería, intercambio mutuo de tráfico falso, cloaking y saltar bloqueos no se describen ni se recomiendan aquí.",
+        },
+      ],
+    },
+    {
+      title: "Riesgos",
+      level: 2,
+      paras: [
+        "Legal: algunas jurisdicciones, incluida Rusia, prohíben o restringen el contenido pornográfico. Un «servidor en el extranjero» no te deja a salvo.",
+        "Plataforma: rechazos de ads, desindexación, bans de cuenta, problemas de dominio y hosting.",
+        "Financiero: payouts difíciles, chargebacks, congelaciones en partners de pago, alta competencia y coste de infraestructura.",
+        "Reputacional: para agencias y marcas «white», la proximidad a adult es tóxica aunque el esquema gris esté del lado del cliente.",
+      ],
+      lists: [
+        {
+          intro: "Antes de cualquier idea 18+:",
+          items: [
+            "una lectura legal del modelo",
+            "políticas de partners de ads y pago",
+            "límites de edad y moderación",
+            "un no firme a saltar bloqueos y redes de spam",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "Tráfico adult son visitas en el segmento 18+/erótica — una etiqueta de nicho, no un truco de tráfico gratis.",
+        "La demanda no anula la ley ni las políticas de plataforma.",
+        "Aquí no cubrimos mecánicas grises ni esquivar límites; el marketing duradero se queda en el campo legal.",
+      ],
+    },
+  ],
+  closing: [
+    "Si el trabajo es crecer con tráfico, elige un nicho con reglas de plataforma claras y un contrato; adult sin claridad legal termina más a menudo en bloqueos que en «ingresos pasivos».",
+  ],
+  related: [
+    "istochniki-trafika",
+    "prodazha-trafika",
+    "trafik-bez-lidov",
+    "istoriya-domena",
+    "roi-marketinga",
+    "performance-marketing",
+  ],
+};

@@ -194,3 +194,198 @@ export const cmsInternetMagazinaEn: BlogPost = {
     "oshibki-internet-magazina",
   ],
 };
+
+/** ES overlay for cms-internet-magazina — same structure as RU JSON / EN. */
+export const cmsInternetMagazinaEs: BlogPost = {
+  slug: "cms-internet-magazina",
+  title:
+    "CMS para tienda online: contras de Bitrix, Magento, OpenCart, WooCommerce y CS-Cart",
+  date: "2019-03-15",
+  category: "Digital marketing",
+  cover: "/images/blog/cms-internet-magazina/cover.webp",
+  excerpt:
+    "Cómo elegir una CMS para tienda online con contras típicos en mente: 1C-Bitrix, Magento, OpenCart, WooCommerce y CS-Cart — sin listas de precios de 2019 ni el mito de que el motor solo te rankea.",
+  lead: [
+    "Una CMS de tienda es el admin de catálogo, pedidos, pagos y contenido. Cada plataforma popular tiene fortalezas y un trade-off de coste: licencia, hosting, higiene SEO, customización, equipo.",
+    "Abajo: contras típicas de las cinco plataformas que más preguntan los equipos en proyectos RU. No copiamos cifras de licencia de 2019 ni «módulo por $N» — mira precios actuales del vendor. El motor no sustituye SEO y UX; la cuota en primera página del core se planifica a lo largo de meses de trabajo, no «instalé OpenCart = rankings».",
+  ],
+  faq: [
+    {
+      q: "¿Hay una CMS sin inconvenientes?",
+      a: "No. Elige por catálogo, integraciones (1C, pagos, envío), presupuesto de build y quién la mantendrá.",
+    },
+    {
+      q: "¿Una CMS gratis siempre sale más barata?",
+      a: "La entrada suele ser más barata; el acabado cuesta más: módulos, hosting, seguridad, un desarrollador. Cuenta TCO a uno o dos años.",
+    },
+    {
+      q: "¿Qué importa más para SEO — CMS o contenido?",
+      a: "Contenido, técnica y enlaces ganan a la marca del motor. La CMS no debe estorbar: URLs limpias, velocidad, indexación, datos estructurados.",
+    },
+    {
+      q: "¿Cómo detectar la CMS de un competidor?",
+      a: "Por pistas abiertas de HTML y paths — cubierto en un artículo aparte. No hackeando el admin.",
+    },
+    {
+      q: "¿Debo cambiar de CMS tras el lanzamiento?",
+      a: "Caro y arriesgado para SEO y URLs. Mejor elegir más cerca de los requisitos al inicio que migrar en un año.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo leer las contras de una CMS",
+      level: 2,
+      paras: [
+        "El menos de una plataforma es el plus de otra. Bitrix es pesada para un storefront de 30 SKU; OpenCart puede no cubrir lógica B2B compleja out of the box.",
+        "Juzga: tamaño de catálogo, necesidad de 1C, multilingüe, equipo (in-house vs agencia), necesidades de velocidad y seguridad. Una demo y un piloto sobre una copia de datos ganan a listas de marketing de «mejores cinco».",
+      ],
+      lists: [
+        {
+          intro: "Checklist de selección:",
+          items: [
+            "conteo de SKU y filtros",
+            "integraciones de pago / envío / 1C",
+            "quién edita el catálogo a diario",
+            "presupuesto de licencias, build y hosting",
+            "plan SEO: URLs limpias, canonicals, velocidad",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Arrancar una tienda online",
+          href: "/es/blog/start-internet-magazina/",
+        },
+        {
+          label: "Cómo detectar una CMS",
+          href: "/es/blog/uznat-cms/",
+        },
+      ],
+    },
+    {
+      title: "1C-Bitrix: dónde suele doler",
+      level: 2,
+      paras: [
+        "Fortaleza — ecosistema para negocio RU y vínculo con 1C. Contras: coste de una edición adecuada, necesidades de hosting, customización dura de soluciones «listas» y una curva de aprendizaje de admin empinada para principiantes.",
+        "Módulos y tweaks a menudo necesitan un desarrollador: un cambio «pequeño» de plantilla puede costar más de lo que parece. Para un storefront diminuto, el TCO a veces supera el beneficio.",
+      ],
+      lists: [
+        {
+          intro: "Riesgos típicos:",
+          items: [
+            "licencia y updates",
+            "hosting pesado sin optimización",
+            "dependencia de un integrador",
+            "pagar features que nunca usas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO en Bitrix",
+          href: "/es/blog/seo-bitrix/",
+        },
+      ],
+    },
+    {
+      title: "Magento / Adobe Commerce",
+      level: 2,
+      paras: [
+        "Una clase potente para catálogos grandes y commerce complejo. Contras: build y soporte caros, altas necesidades de servidor, admin y docs complejos para principiantes.",
+        "La línea evolucionó (open source / ediciones comerciales bajo Adobe) — verifica nombres y licencias actuales. La integración 1C out-of-the-box suele no ser un regalo sorpresa: presupuesta módulos aparte.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo muerden las contras:",
+          items: [
+            "catálogo pequeño y presupuesto pequeño",
+            "sin equipo fuerte de desarrollo",
+            "necesitas un MVP rápido sin arquitectura enterprise",
+          ],
+        },
+      ],
+    },
+    {
+      title: "OpenCart",
+      level: 2,
+      paras: [
+        "Pluses de entrada: arranque fácil y una comunidad grande. Contras: la higiene SEO (duplicados, canonicals, URLs limpias) a menudo necesita módulos y setup cuidadoso; los themes gratis varían en calidad; en catálogos grandes el rendimiento choca con límites de hosting y código.",
+        "«No funciona con la búsqueda» como absoluto está sobredimensionado. Funciona si cuidas la técnica; sin eso obtienes fácil URLs basura y duplicados.",
+      ],
+      lists: [
+        {
+          intro: "Dónde presupuestar esfuerzo:",
+          items: [
+            "canonicals y duplicados",
+            "URLs limpias y redirects tras módulos",
+            "updates de seguridad",
+            "límites de tamaño de catálogo y carga",
+          ],
+        },
+      ],
+    },
+    {
+      title: "WooCommerce",
+      level: 2,
+      paras: [
+        "Una tienda como plugin de WordPress: ecosistema familiar y muchas extensiones. Contras: lo «gratis» brota rápido en módulos de pago; conflictos de plugins; carga de hosting con un theme pesado y cache montado a ad hoc.",
+        "Pagos y flujos locales RU necesitan un chequeo aparte — no copies una caja occidental sin testar. Una cuota vieja de «un tercio del mercado» no es un argumento para tu caso.",
+      ],
+      lists: [
+        {
+          intro: "Dolores típicos:",
+          items: [
+            "zoo de plugins",
+            "velocidad en shared hosting",
+            "seguridad de WP más plugins",
+            "customización dura del checkout",
+          ],
+        },
+      ],
+    },
+    {
+      title: "CS-Cart",
+      level: 2,
+      paras: [
+        "Una CMS comercial con features fuertes de tienda en el paquete base. Contras: precio de licencia y opciones, modelo de soporte y update (los términos cambian — lee el contrato), algunos módulos de pago.",
+        "El UX de checkout y los campos obligatorios del pedido afectan la conversión más que la marca de la CMS: presupuesta testing del funnel, no solo comparación de precios.",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "No uses «$375 / $550 / créditos de soporte» fijos de un artículo de 2019 como lista de precios. Mira las ediciones actuales en el sitio del vendor.",
+        },
+      ],
+    },
+    {
+      title: "Cómo elegir sin fanatismo",
+      level: 2,
+      paras: [
+        "Recoge requisitos → corta plataformas que claramente no hacen las integraciones → compara TCO y disponibilidad de desarrolladores → prototipa catálogo y checkout.",
+        "Para SEO, URLs limpias, velocidad, índice y contenido ganan a «qué CMS está de moda». Cambiar el motor después casi siempre sale más caro que elegir bien ahora.",
+      ],
+      links: [
+        {
+          label: "Crear una tienda online",
+          href: "/es/blog/sozdanie-internet-magazina/",
+        },
+        {
+          label: "Promover una tienda online",
+          href: "/es/blog/prodvizhenie-internet-magazina/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Bitrix, Magento, OpenCart, WooCommerce y CS-Cart tienen costes de entrada distintos y trampas distintas. Elige por catálogo, 1C y el equipo de soporte — y presupuesta SEO y velocidad en el proyecto en vez de esperar que el «motor correcto» solo traiga rankings.",
+  ],
+  related: [
+    "start-internet-magazina",
+    "sozdanie-internet-magazina",
+    "seo-bitrix",
+    "uznat-cms",
+    "prodvizhenie-internet-magazina",
+    "oshibki-internet-magazina",
+  ],
+};

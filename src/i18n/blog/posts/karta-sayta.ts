@@ -218,3 +218,222 @@ export const kartaSaytaEn: BlogPost = {
     "dubli-stranits",
   ],
 };
+
+/** ES overlay for karta-sayta — same structure as RU JSON / EN. */
+export const kartaSaytaEs: BlogPost = {
+  slug: "karta-sayta",
+  title: "Sitemap: XML y HTML — por qué hacen falta y cómo hacer uno",
+  date: "2020-10-29",
+  category: "SEO",
+  cover: "/images/blog/karta-sayta/cover.webp",
+  excerpt:
+    "En qué se diferencia un sitemap XML de un mapa HTML, cómo crear y enviar el archivo a los buscadores, qué URLs incluir y qué errores duelen a la indexación.",
+  lead: [
+    "Un sitemap ayuda a los buscadores a conocer URLs importantes más rápido. Lo más habitual es `sitemap.xml` para bots; un mapa HTML es ayuda de orientación para personas. No es un interruptor de ranking — higiene de crawl junto a estructura sólida y enlaces internos.",
+    "Abajo: la diferencia entre formatos, cómo montar XML, cómo avisar a Yandex y Google, y qué evitar. Trátalo como la toma principal sobre sitemaps entre posts relacionados.",
+  ],
+  faq: [
+    {
+      q: "¿Son lo mismo sitemap XML y HTML?",
+      a: "No. XML es para bots (una lista de URLs). HTML es una página de enlaces para personas. Para SEO importan más un XML correcto más el enlazado interno.",
+    },
+    {
+      q: "¿Es obligatorio un sitemap?",
+      a: "No es la única forma de descubrir URLs, pero en sitios medianos y grandes ayuda mucho a rastrear páginas nuevas y profundas.",
+    },
+    {
+      q: "¿Dónde debo poner el archivo?",
+      a: "Suele ser `/sitemap.xml` en la raíz o un índice `/sitemap_index.xml`. Apúntalo en robots.txt y en Search Console / paneles de webmaster.",
+    },
+    {
+      q: "¿Hacen falta priority y changefreq?",
+      a: "Los motores llevan tiempo apoyándose poco en ellos. Importa más una lista al día de URLs canónicas sin basura.",
+    },
+    {
+      q: "¿Qué no incluir?",
+      a: "Páginas de utilidad, carrito, duplicados de filtros, páginas noindex, URLs de test, cadenas de redirects — solo canónicos finales con 200.",
+    },
+    {
+      q: "¿Cómo lo actualizo?",
+      a: "Autogeneración del CMS/plugin o un script cuando aparecen URLs. Tras secciones grandes — reenvía en los paneles.",
+    },
+    {
+      q: "¿Cuántas URLs por archivo?",
+      a: "Límites del protocolo: unas 50k URLs o ~50 MB por archivo; más — usa un sitemap index. En la práctica parte por sección por comodidad.",
+    },
+    {
+      q: "¿Un sitemap sustituye al menú?",
+      a: "No. La navegación y los enlaces internos importan más para personas y a menudo para el crawl. XML es un complemento.",
+    },
+  ],
+  sections: [
+    {
+      title: "XML y HTML: dos mapas distintos",
+      level: 2,
+      paras: [
+        "Un sitemap XML es una lista de URLs legible por máquinas (a menudo con lastmod). El bot la usa como pista de qué rastrear. Un mapa HTML es una página normal que enlaza secciones; útil para personas y como enlaces internos extra, pero no sustituye XML en un sitio grande.",
+        "No lo confundas con un «mapa en el footer» de diez enlaces o un diagrama visual de IA para diseño.",
+      ],
+      lists: [
+        {
+          intro: "Quién necesita qué:",
+          items: [
+            "XML — índice y crawl",
+            "HTML — orientación humana",
+            "ninguno arregla duplicados ni contenido fino",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Navegación del sitio",
+          href: "/es/blog/navigatsiya-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Por qué hace falta sitemap.xml",
+      level: 2,
+      paras: [
+        "Secciones nuevas, nesting profundo, enlazado interno flojo — el bot puede tardar en llegar a una URL. Un sitemap acelera el discovery. En un brochure de cinco páginas el efecto es menor que en un catálogo de miles.",
+        "Un sitemap no garantiza indexación: lo bloqueado por robots, noindex, soft 404s y duplicados sigue filtrándose.",
+      ],
+      lists: [
+        {
+          intro: "Especialmente útil si:",
+          items: [
+            "hay muchas landings y fichas de producto",
+            "publicas URLs nuevas a menudo",
+            "media/docs viven en URLs aparte",
+            "algunas páginas están poco enlazadas desde el menú",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo crear un sitemap XML",
+      level: 2,
+      paras: [
+        "En un CMS — módulo o plugin integrado (generar + auto-update). En estático/custom — genera en el deploy o un script sobre URLs canónicas. Confirma que el archivo tenga direcciones https sin cadenas de redirects.",
+        "Sitemap index: productos, blog, categorías aparte — más fácil diagnosticar errores por tipo.",
+      ],
+      lists: [
+        {
+          intro: "Mini requisitos para URLs en el mapa:",
+          items: [
+            "canónica (una variante www/https)",
+            "respuesta 200",
+            "permitida para indexar",
+            "sin sesiones ni UTM",
+            "actual, no borrada",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Tirar todos los filtros del catálogo al sitemap. Obtienes crawl hinchado y ruido en el índice.",
+        },
+      ],
+      links: [
+        {
+          label: "Páginas duplicadas",
+          href: "/es/blog/dubli-stranits/",
+        },
+      ],
+    },
+    {
+      title: "Cómo avisar a los buscadores",
+      level: 2,
+      paras: [
+        "En `robots.txt`: una línea `Sitemap: https://example.com/sitemap.xml`. Además añade el archivo en Yandex Webmaster y Google Search Console. Tras un cambio de dominio/HTTPS, actualiza los paths.",
+        "El recrawl no es instantáneo: un sitemap es una cola, no un comando de «indexa todo mañana».",
+      ],
+      lists: [
+        {
+          intro: "Tras publicar:",
+          items: [
+            "abre el sitemap en el navegador — XML válido",
+            "revisa informes de errores en los paneles",
+            "cruza el conteo de URLs con lo esperado",
+            "quita del mapa lo que cerraste al índice",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Cerrar páginas al índice",
+          href: "/es/blog/zakrytie-ot-indeksatsii/",
+        },
+      ],
+    },
+    {
+      title: "Mapa HTML: cuándo tiene sentido",
+      level: 2,
+      paras: [
+        "Para personas: un portal grande, servicios públicos, un catálogo con estructura poco clara. Haz una jerarquía legible — no una hoja de 5.000 enlaces en una página; usa secciones.",
+        "Para SEO un mapa HTML es un sustituto flojo de un menú normal y breadcrumbs. No generes un «seo-sitemap.html» aparte con anclas spam.",
+      ],
+      lists: [
+        {
+          intro: "Práctica:",
+          items: [
+            "un enlace «Sitemap» en el footer",
+            "agrupación por sección",
+            "solo URLs públicas importantes",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Footer del sitio",
+          href: "/blog/futer-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Errores típicos y control",
+      level: 2,
+      paras: [
+        "XML roto, http en un sitio https, redirects dentro del mapa, archivo obsoleto tras migración, mezclar URLs indexables y cerradas, un archivo gigante sin índice.",
+        "Trimestralmente cruza: crawler vs sitemap vs páginas en búsqueda. Un hueco es motivo para limpiar el generador.",
+      ],
+      lists: [
+        {
+          intro: "Control:",
+          items: [
+            "errores de sitemap en Search Console / tools de webmaster",
+            "cuota de 404/301 entre URLs del mapa",
+            "hora de la última actualización del archivo",
+            "sin subdominio de test en producción",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Primero canónicos y estructura, luego el mapa. Si no, automatizas el caos.",
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "navigatsiya-sayta",
+    "zakrytie-ot-indeksatsii",
+    "seo-struktura-sayta",
+    "tehnicheskiy-seo-audit",
+    "dubli-stranits",
+  ],
+};

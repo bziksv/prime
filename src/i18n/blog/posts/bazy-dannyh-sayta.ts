@@ -203,3 +203,207 @@ export const bazyDannyhSaytaEn: BlogPost = {
     "ssl-sertifikat",
   ],
 };
+
+/** ES overlay for bazy-dannyh-sayta — same structure as RU JSON / EN. */
+export const bazyDannyhSaytaEs: BlogPost = {
+  slug: "bazy-dannyh-sayta",
+  title: "Bases de datos del sitio: organización y backup",
+  date: "2021-01-15",
+  category: "SEO",
+  cover: "/images/blog/bazy-dannyh-sayta/cover.webp",
+  excerpt:
+    "Qué guarda la base de datos de un sitio, cómo se diferencia de los archivos en disco, por qué importan los backups y cómo no perder pedidos, usuarios y contenido tras un fallo o un hack.",
+  lead: [
+    "Un sitio no es solo HTML e imágenes. La mayor parte de los datos vivos — productos, pedidos, usuarios, ajustes del CMS — vive en una base de datos. Perder archivos del theme duele; perder la DB sin backup suele significar perder la historia del negocio.",
+    "Abajo: cómo se relaciona la DB con los archivos del sitio, por qué existe, qué puede fallar y cómo abordar los backups sin el hábito de «una vez al año en un USB».",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia una base de datos de los archivos en el hosting?",
+      a: "Los archivos son código, plantillas, media. La DB son registros estructurados: posts, SKUs, pedidos, opciones. La recuperación necesita ambas capas.",
+    },
+    {
+      q: "¿Qué sistemas de base de datos usan más los sitios?",
+      a: "CMS clásicos — a menudo MySQL/MariaDB. Aparecen PostgreSQL y otros; sigue la docs del CMS y del hosting.",
+    },
+    {
+      q: "¿Basta un backup solo de archivos?",
+      a: "No. Sin un dump de la DB restauras un shell vacío o viejo sin pedidos ni contenido.",
+    },
+    {
+      q: "¿Con qué frecuencia hacer backup?",
+      a: "Depende del ritmo de cambios: una tienda con pedidos — más a menudo (diario/horario); un sitio folleto — menos. Crítico: una copia fresca antes de updates del CMS y migraciones.",
+    },
+    {
+      q: "¿Dónde guardar las copias?",
+      a: "No solo en el mismo disco del servidor. Hace falta una segunda capa: otro host, object storage, política de la empresa — con una prueba de restore.",
+    },
+    {
+      q: "Si el host hace backup, ¿puedo dejar de pensarlo?",
+      a: "Útil como seguro, pero revisa retención, qué incluye (archivos+DB) y si puedes restaurar tú. No confíes a ciegas.",
+    },
+    {
+      q: "¿La base de datos afecta al SEO de forma directa?",
+      a: "De forma indirecta: queries lentas y caídas cortan UX y crawl. Los duplicados de contenido van más de URLs y plantillas que de nombres de tablas. Audit técnico y logs son temas hermanos.",
+    },
+    {
+      q: "¿Se puede editar la base a mano en phpMyAdmin?",
+      a: "Solo si entiendes el schema y tienes un backup fresco. Un typo en la tabla de pedidos cuesta más que una edición vía el admin del CMS.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es la base de datos de un sitio",
+      level: 2,
+      paras: [
+        "Una base de datos (DB) es almacenamiento estructurado: tablas, filas, relaciones. El CMS lee y escribe ahí contenido y datos de servicio; el servidor web devuelve páginas ensambladas al usuario.",
+        "Analogía: un catálogo de coches en tablas (modelo, potencia, color) con filtros y enlaces. Igual una tienda guarda productos y pedidos, un blog — posts y metafields, un portal — usuarios y permisos.",
+      ],
+      lists: [
+        {
+          intro: "Suele guardar la DB:",
+          items: [
+            "registros de contenido (páginas, posts, fichas)",
+            "usuarios y roles",
+            "ajustes del CMS y plugins",
+            "pedidos, carritos, formularios (si no se movieron a servicios externos)",
+            "colas de servicio, logs de la app (depende del stack)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Servidor web",
+          href: "/es/blog/veb-server/",
+        },
+      ],
+    },
+    {
+      title: "Archivos y DB: dos capas de un mismo sitio",
+      level: 2,
+      paras: [
+        "Código del theme, plugins, `uploads` con imágenes — filesystem. Textos de producto, precios, estado del pedido — suele ser la DB. La media a menudo también tiene metadata en la DB (attachments de WordPress y pares).",
+        "Al cambiar de host copias ambas capas y fijas el acceso (login de DB, prefijo de tablas, URLs en options). Una capa sin la otra da pantalla blanca o un sitio sin contenido.",
+      ],
+      lists: [
+        {
+          intro: "Antes de migrar:",
+          items: [
+            "dump de DB + archivo de files",
+            "versiones PHP/MySQL compatibles",
+            "secrets y `.env` fuera de un archivo público",
+            "un plan para revisar formularios, pago y cuenta tras el move",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Por qué un sitio necesita una DB en la práctica",
+      level: 2,
+      paras: [
+        "Sin DB un sitio dinámico se vuelve archivos estáticos: difícil editar mil fichas, filtrar, seguir stock, gestionar usuarios. La DB da queries, relaciones y updates puntuales.",
+        "El precio de la comodidad es responsabilidad: errores de schema, discos llenos, SQL injection en código vulnerable pegan en los datos. Actualiza código y plugins; limita el acceso a la DB; verifica backups restaurando.",
+      ],
+      lists: [
+        {
+          intro: "Riesgos:",
+          items: [
+            "tablas borradas/corruptas en un update malo",
+            "hacks y ransomware",
+            "fallo de disco del host",
+            "error humano en phpMyAdmin",
+            "hinchazón de revisiones y tablas basura → ralentizaciones",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Organización: prefijos, permisos, rendimiento",
+      level: 2,
+      paras: [
+        "En hosting compartido a menudo una base MySQL por sitio; el prefijo de tablas se fija al instalar el CMS. No des a la app acceso root: un usuario de DB aparte con derechos solo sobre la base necesaria.",
+        "Rendimiento: índices, cache de objeto/página, limpiar revisiones y transients, límites sensatos. Una DB pesada se ve como timeouts y un admin lento — eso es ingeniería y hosting, no «un plugin SEO más».",
+      ],
+      lists: [
+        {
+          intro: "Higiene:",
+          items: [
+            "contraseñas fuertes de DB, distintas del admin",
+            "limitar acceso MySQL remoto",
+            "monitorizar tamaño de DB y queries lentas",
+            "no guardar dumps de producción en `public_html`",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Backup: qué y cómo",
+      level: 2,
+      paras: [
+        "Un backup de DB suele ser un dump SQL (o un snapshot de volumen del proveedor cloud). Un backup de archivos es un archivo de código + uploads. Restore completo = ambos + secrets del entorno.",
+        "Haz copias antes de updates de CMS/plugins y cambios grandes de catálogo. Guarda varios puntos de restore (p. ej. día / semana), no un único «latest» que se sobrescribe.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de backup:",
+          items: [
+            "qué incluye: DB + files + quién es dueño",
+            "calendario y retención",
+            "almacenamiento fuera del mismo disco",
+            "prueba de restore en staging al menos trimestral",
+            "cifrar dumps sensibles en tránsito",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Un backup sin probar es falsa seguridad. Hasta que no hayas restaurado el sitio desde una copia, no sabes que el dump está intacto.",
+        },
+      ],
+      links: [
+        {
+          label: "Servicio en la nube (almacenamiento cercano)",
+          href: "/es/blog/oblachnyy-servis/",
+        },
+      ],
+    },
+    {
+      title: "Encaje con SEO y estabilidad",
+      level: 2,
+      paras: [
+        "La búsqueda necesita disponibilidad y respuestas de servidor predecibles. Caídas por la DB, errores 5xx y generación infinita de páginas dañan crawl y conversión más que un meta tag pequeño.",
+        "Duplicados, paginación y canonicals van de URLs y plantillas; la DB solo guarda contenido. Si el sitio cae o responde en minutos — primero estabilidad y backups, luego la semántica fina.",
+      ],
+      lists: [
+        {
+          intro: "Orden práctico:",
+          items: [
+            "monitoreo de disponibilidad en vivo",
+            "backups actuales con una prueba",
+            "updates del CMS y control de accesos",
+            "luego la capa SEO más fina",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Logs del servidor",
+          href: "/es/blog/logi-servera/",
+        },
+        {
+          label: "Audit SEO técnico",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "veb-server",
+    "logi-servera",
+    "oblachnyy-servis",
+    "tehnicheskiy-seo-audit",
+    "ssl-sertifikat",
+  ],
+};

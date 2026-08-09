@@ -197,3 +197,201 @@ export const retargetingEn: BlogPost = {
     "mobilnaya-reklama-google",
   ],
 };
+
+/** ES overlay for retargeting — same structure as RU JSON / EN. */
+export const retargetingEs: BlogPost = {
+  slug: "retargeting",
+  title: "Retargeting: qué es y en qué se diferencia del targeting",
+  date: "2018-03-28",
+  category: "Paid search",
+  cover: "/images/blog/retargeting/cover.webp",
+  excerpt:
+    "El retargeting trae de vuelta a quien ya visitó: carrito, vista de producto, visita sin acción. En qué se diferencia del targeting, qué tipos existen y cómo no molestar a la audiencia.",
+  lead: [
+    "El retargeting (remarketing) muestra ads a gente que ya tocó el sitio o la app pero no terminó el goal. El targeting encuentra audiencia nueva por género, geo, intereses; el retargeting trabaja con una base caliente.",
+    "Abajo: cómo funciona en la práctica, tipos de campaña, dónde configurarlo y riesgos típicos. Las tácticas de fiestas son otro post; esto es la base.",
+  ],
+  faq: [
+    {
+      q: "¿Retargeting y remarketing son lo mismo?",
+      a: "En esencia sí: devolver una audiencia conocida. «Retarget» es más común en el habla de Yandex, «remarketing» en Google — el significado se comparte.",
+    },
+    {
+      q: "¿En qué se diferencia del targeting?",
+      a: "El targeting selecciona una audiencia en la red. El retargeting alcanza a quien ya estuvo contigo (sitio, app, lista). A menudo van en pareja: atraer primero, luego traer de vuelta.",
+    },
+    {
+      q: "¿Hace falta un contador de analytics?",
+      a: "Sí: Metrica, pixel/tag del sistema de ads, eventos (carrito, vista). Sin datos, los segmentos están vacíos.",
+    },
+    {
+      q: "¿Qué es el retargeting dinámico?",
+      a: "Mostrar productos/servicios concretos que la persona vio, no un banner genérico de la tienda. Suele ser más fuerte que «solo el logo».",
+    },
+    {
+      q: "¿Por qué molestan los ads?",
+      a: "Muchas impresiones de un mismo creativo y sin excluir compradores. Cap de frecuencia, refresca la oferta, excluye conversiones.",
+    },
+    {
+      q: "¿Cuánto tarda en verse el efecto?",
+      a: "Depende del tamaño de la audiencia y la oferta. Espera semanas para reunir stats; no esperes magia en tres días.",
+    },
+    {
+      q: "¿El retargeting es solo para tiendas?",
+      a: "No. Servicios, B2B, contenido — segmentos por visitas a URLs clave y leads a medias.",
+    },
+    {
+      q: "¿Se conecta con el SEO?",
+      a: "No de forma directa. Indirectamente: las mismas landings y la oferta afectan al orgánico y a la tasa de conversión del retargeting.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo se ve en la práctica",
+      level: 2,
+      paras: [
+        "Un visitante vio un producto, lo añadió al carrito y se fue. El segmento «carrito sin compra» recibe ads con ese producto o un descuento — en sitios de la Red Publicitaria de Yandex, búsqueda, social o display, según la cuenta.",
+        "El punto no es perseguir a todo el mundo, sino un recordatorio relevante en la etapa del funnel donde ya se vio interés.",
+      ],
+      lists: [
+        {
+          intro: "Bucle típico:",
+          items: [
+            "el contador registra la acción",
+            "segmento en audiencias/cuenta",
+            "campaña de retarget aparte",
+            "oferta por etapa (vista / carrito / formulario abandonado)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Por qué encaja en ads",
+      level: 2,
+      paras: [
+        "El tráfico frío es más caro de llevar a compra. Parte de las visitas se rompe en la elección, el envío, una distracción — el retarget más barato recupera a quien ya estaba caliente.",
+        "Cada etapa del funnel tiene su creativo: una promo para quien se va rápido, valor de categoría para quien mira fichas, recordatorio de carrito para casi-compradores.",
+      ],
+      lists: [
+        {
+          intro: "Etapas de toque:",
+          items: [
+            "visita sin profundidad",
+            "vista de producto/servicio",
+            "carrito / formulario no enviado",
+            "compra (excluir o upsell)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+    },
+    {
+      title: "Retargeting vs targeting",
+      level: 2,
+      paras: [
+        "El targeting fija a quién encontrar online: demografía, intereses, geo, look-alike. El retargeting trabaja con quien ya dejó rastro digital contigo.",
+        "Goal compartido — ventas y leads; entrada distinta: «encontrar a la gente adecuada» vs «traer de vuelta a los conocidos». Un targeting flojo da poca base para retarget; sin retarget pagas otra vez por la misma gente vía campañas frías.",
+      ],
+      tables: [
+        {
+          caption: "En corto",
+          headers: ["", "Targeting", "Retargeting"],
+          rows: [
+            ["Audiencia", "Nueva por condiciones", "Ya en el sitio/en el CRM"],
+            ["Trabajo", "Atraer", "Devolver / convertir"],
+            ["Datos", "Intereses, geo, look-alike", "Eventos, listas, pixel"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tipos de retargeting",
+      level: 2,
+      paras: [
+        "**Clásico** — ads generales de sitio/marca a quien se fue sin acción goal.",
+        "**Dinámico** — fichas de producto/servicio desde un feed por vista. **Search** — alcance por consultas/audiencias con paid search. **Email** — cartas a quien dejó un contacto. **In-app** — traer de vuelta a usuarios de la app.",
+      ],
+      lists: [
+        {
+          intro: "Qué elegir al empezar:",
+          items: [
+            "segmentos de Metrica/pixel por URL",
+            "excluir compradores",
+            "feed dinámico si el catálogo es grande",
+            "presupuesto aparte y cap de frecuencia",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Retargeting de fiestas",
+          href: "/blog/prazdnichnyy-retargeting/",
+        },
+      ],
+    },
+    {
+      title: "Dónde lo configuras",
+      level: 2,
+      paras: [
+        "Yandex Direct + Metrica/Audiences, Google Ads + tag, cuentas de ads social con su pixel. Una base: código del sitio, goals, segmentos, una campaña no mezclada con búsqueda fría.",
+        "Primero reúne volumen de visitas y eventos correctos — si no, las audiencias son demasiado pequeñas para aprender.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de lanzamiento:",
+          items: [
+            "contador y goals verificados",
+            "segmento estuvo aquí / no compró",
+            "cap de frecuencia",
+            "UTM en los ads",
+            "oferta no más vieja que lo que hay en el sitio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Etiquetas UTM",
+          href: "/es/blog/utm-metki/",
+        },
+        {
+          label: "Paid search y SEO",
+          href: "/es/blog/kontekst-i-seo/",
+        },
+      ],
+    },
+    {
+      title: "Riesgos y sentido común",
+      level: 2,
+      paras: [
+        "Un banner idéntico y insistente daña la marca. El retarget no ve una compra offline — la persona ya compró a un competidor mientras el anuncio sigue persiguiendo.",
+        "Excluye compradores, rota creativos, limita la vida del segmento. Mide por CPA/ROMI del segmento, no por «siento que vemos mucho nuestro banner».",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "El retarget refuerza el funnel pero no sustituye producto, precios y usabilidad del sitio. Un checkout que pierde no se salva con un segmento perfecto.",
+        },
+      ],
+      links: [
+        {
+          label: "Audiencia objetivo",
+          href: "/es/blog/tselevaya-auditoriya/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "prazdnichnyy-retargeting",
+    "optimizatsiya-konversii",
+    "kontekst-i-seo",
+    "utm-metki",
+    "tselevaya-auditoriya",
+    "mobilnaya-reklama-google",
+  ],
+};

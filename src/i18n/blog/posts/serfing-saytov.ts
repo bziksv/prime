@@ -172,3 +172,176 @@ export const serfingSaytovEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for serfing-saytov — same structure as RU JSON / EN. */
+export const serfingSaytovEs: BlogPost = {
+  slug: "serfing-saytov",
+  title: "Surfing de sitios: qué es y por qué paga poco",
+  date: "2021-09-24",
+  category: "Digital marketing",
+  cover: "/images/blog/serfing-saytov/cover.webp",
+  excerpt:
+    "Qué es el surfing de pago de sitios, cuánto paga de verdad, por qué el auto-surfing es malo para SEO y cómo las visitas falsas dañan la analítica y la promoción.",
+  lead: [
+    "El surfing de pago es un trabajo extra del tipo «quédate N segundos en un sitio / resuelve un captcha / haz clic» por fracciones de céntimo. Para un principiante parece fácil; para el dueño del sitio es una forma de comprar visitas vacías.",
+    "Abajo: cómo funciona el surfing, cómo se ven las tareas, qué se gana de verdad y por qué el auto-surfing y el tráfico falso dañan el SEO y los informes. Esto es un desglose — no un directorio de exchanges ni un how-to para comprar visitas.",
+  ],
+  faq: [
+    {
+      q: "¿Cuánto se puede ganar con surfing?",
+      a: "Suele ser céntimos por visita: con trabajo manual una hora da una suma modesta (pista de guías antiguas — decenas hasta unos cien rublos al día con clic activo). No es ingreso estable.",
+    },
+    {
+      q: "¿Cómo daña el surfing a un sitio?",
+      a: "Las visitas artificiales estropean métricas de comportamiento, distorsionan la analítica de ads y SEO y pueden disparar el antifraude. Los buscadores no premian tráfico basura comprado.",
+    },
+    {
+      q: "¿Qué es el auto-surfing?",
+      a: "Bots o programas abren enlaces sin un humano. Para el worker — riesgo de ban en el exchange; para el comprador — tráfico aún más inútil y tóxico.",
+    },
+    {
+      q: "¿El surfing ayuda a las posiciones?",
+      a: "No como estrategia. La preparación del sitio y el crecimiento de posiciones son procesos distintos — semanas a meses de trabajo. Las vistas compradas no los sustituyen.",
+    },
+    {
+      q: "¿Merece la pena empezar con surfing?",
+      a: "Como intro a exchanges de microtareas — débil: el tiempo del cliente casi no cuesta, el tuyo sí. Mejor skills con tarifa más alta (contenido, labeling con instrucciones, trabajo remoto normal).",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo se ve el surfing",
+      level: 2,
+      paras: [
+        "El comprador aporta enlaces. El worker abre una página, la deja abierta un tiempo fijado (segundos–minutos), a veces resuelve un captcha, vota o hace clic en enlaces internos. El timer del exchange cuenta la visita.",
+        "Motivo del comprador — bombear actividad, calentar un sitio nuevo o fingir tráfico. Motivo del worker — micropago sin skills.",
+      ],
+      lists: [
+        {
+          intro: "Acciones típicas del worker:",
+          items: [
+            "abrir una URL y no cerrar hasta la señal",
+            "resolver un captcha",
+            "hacer uno o dos clics internos",
+            "a veces — un like o un voto (más cerca de impulsos de señales sociales)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Por qué parece rentable",
+      level: 2,
+      paras: [
+        "Sin inversión, sin filtro de edad en muchos anuncios de exchanges, sin formación, se puede combinar con estudios. En la práctica el pago por visita es mínimo: de fracciones de céntimo a unos céntimos por clics «más duros».",
+      ],
+      lists: [
+        {
+          intro: "Pros desde la vista de un principiante:",
+          items: [
+            "baja barrera de entrada",
+            "horario flexible",
+            "arranque rápido sin portfolio",
+          ],
+        },
+        {
+          intro: "Contras:",
+          items: [
+            "una hora de trabajo ≈ una hora de clic vacío",
+            "ojos y atención por céntimos",
+            "riesgo de exchanges falsos y problemas de payout",
+            "los referidos te meten en pirámides de invites, no en skills",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Ejemplos antiguos como «700 rublos al mes por las tardes» muestran el techo: calderilla, no un sustituto de trabajo extra con tarifa normal.",
+        },
+      ],
+    },
+    {
+      title: "Surfing manual y automático",
+      level: 2,
+      paras: [
+        "Manual — una persona abre enlaces. Automático — un bot finge visitas. El auto-surfing casi siempre rompe las reglas del exchange y ensucia aún más las stats del sitio.",
+      ],
+      lists: [
+        {
+          intro: "Subtipos de tareas manuales:",
+          items: [
+            "mantener la página abierta",
+            "captcha",
+            "votos",
+            "cadenas de clics por el sitio",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Confundir «tráfico de un exchange de surfing» con marketing. Eso no es audiencia ni leads — es ruido en la analítica.",
+        },
+      ],
+    },
+    {
+      title: "Por qué es dañino para el dueño del sitio",
+      level: 2,
+      paras: [
+        "Visitas compradas sin interés en el producto significan alto bounce, tiempo corto, geo y dispositivos raros. Las cuentas de ads y el antifraude lo detectan.",
+        "En SEO, las señales de comportamiento artificiales son una apuesta arriesgada y obsoleta. Crece la demanda con contenido, técnica y ads según las reglas — no con timers en exchanges.",
+      ],
+      lists: [
+        {
+          intro: "Qué se rompe:",
+          items: [
+            "analítica y conclusiones por canal",
+            "algoritmos de ads que aprenden con visitas basura",
+            "confianza en informes para el cliente",
+            "riesgo de sanciones o filtros cuando el impulso es obvio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Tráfico sospechoso de Google",
+          href: "/es/blog/podozritelnyy-trafik-google/",
+        },
+      ],
+    },
+    {
+      title: "Exchanges y payouts",
+      level: 2,
+      paras: [
+        "Las tareas de surfing históricamente estaban en micro-exchanges junto a copywriting y tareas sociales. Nombres de plataformas y términos de payout cambian; algunos recursos se deslizan a zona gris.",
+        "No listamos «mejores exchanges para comprar visitas»: es mala práctica para sitios y pago débil para personas. Si estudias microtareas — mira plataformas legales de crowdsourcing con instrucciones claras y rating de calidad.",
+      ],
+      lists: [
+        {
+          intro: "Qué revisar si aun así pruebas microtareas:",
+          items: [
+            "reglas y payouts transparentes",
+            "sin exigir invertir dinero para empezar",
+            "tareas que no rompan reglas de plataformas ni leyes",
+            "tarifa horaria al menos comparable a alternativas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Toloka: crowdsourcing de tareas",
+          href: "/es/blog/yandeks-toloka/",
+        },
+      ],
+    },
+    {
+      title: "Cierre",
+      level: 2,
+      paras: [
+        "El surfing de sitios es entrada fácil y casi cero valor por hora. Para el worker es más intro a tareas de clic que ganancias; para el sitio — tráfico tóxico. El auto-surfing empeora el daño. El crecimiento real es producto, contenido, ads y SEO sin visitas compradas.",
+      ],
+    },
+  ],
+};

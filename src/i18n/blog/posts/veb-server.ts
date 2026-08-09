@@ -167,3 +167,179 @@ export const vebServerEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for veb-server — same structure as RU JSON / EN. */
+export const vebServerEs: BlogPost = {
+  slug: "veb-server",
+  title: "Servidor web: qué es, cómo funciona y Apache vs Nginx vs IIS",
+  date: "2021-12-30",
+  category: "Hosting",
+  cover: "/images/blog/veb-server/cover.webp",
+  excerpt:
+    "Qué es un servidor web en palabras claras: petición del navegador, respuesta de página, rol del hosting, HTTPS, Apache/Nginx/IIS y stacks locales para desarrollo.",
+  lead: [
+    "Un servidor web toma una petición del navegador y devuelve una página, un archivo o un error. Es tanto software (Apache, Nginx, IIS) como la máquina o cloud donde corre.",
+    "Abajo: cómo funciona, qué forma la cadena «dominio → servidor → sitio» y qué mirar al elegir stack — sin nostalgia por packs locales desfasados.",
+  ],
+  faq: [
+    {
+      q: "¿Un servidor web es un ordenador o un programa?",
+      a: "Ambos sentidos viven: el software que responde peticiones HTTP(S) y el entorno de servidor (VPS/dedicated/cloud) donde corre ese software.",
+    },
+    {
+      q: "¿En qué se diferencia Apache de Nginx?",
+      a: "Ambos sirven sitios. Nginx suele ser un front rápido (estáticos, proxy); Apache es flexible y familiar en muchos shared hosts. En la práctica a menudo se combinan.",
+    },
+    {
+      q: "¿Por qué HTTPS?",
+      a: "Cifra el tráfico entre navegador y servidor. Hoy es un estándar base, más un requisito de muchos navegadores y buscadores.",
+    },
+    {
+      q: "¿Un sitio pequeño necesita servidor propio?",
+      a: "Normalmente no: basta hosting/VPS de un proveedor. Hardware propio tiene sentido con cargas especiales y competencia de admin.",
+    },
+    {
+      q: "¿Qué es un servidor local para desarrollo?",
+      a: "Un entorno en tu PC (Docker, OpenServer, XAMPP y análogos) para correr el sitio sin desplegar a producción.",
+    },
+  ],
+  sections: [
+    {
+      title: "En palabras claras",
+      level: 2,
+      paras: [
+        "Analogía de biblioteca: el lector (navegador) pide un libro (URL); el bibliotecario (servidor web) encuentra el material en el depósito y lo entrega. A diferencia de un libro prestado, un sitio puede «leerse» por miles a la vez.",
+        "Un sysadmin dirá «hardware y red»; un desarrollador — «software que sirve HTTP». Ambos tienen razón.",
+      ],
+    },
+    {
+      title: "Trabajos y funciones",
+      level: 2,
+      paras: [
+        "El servidor acepta peticiones, puede ejecutar un backend (PHP, Node, Python…), devuelve HTML/archivos, escribe logs, puede restringir acceso y servir roles afines (entrega de estáticos, proxy).",
+      ],
+      lists: [
+        {
+          intro: "Bucle típico:",
+          items: [
+            "aceptar la petición",
+            "encontrar el recurso o construir una respuesta vía la app",
+            "devolver status y cuerpo de respuesta",
+            "registrar el hit",
+            "con HTTPS — mantener un canal cifrado",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo fluye una petición",
+      level: 2,
+      paras: [
+        "El usuario escribe una dirección o hace clic en un enlace. DNS convierte el nombre en IP. El navegador envía una petición HTTPS. El servidor la gestiona y devuelve una página o un código de error (404, 500…).",
+      ],
+      lists: [
+        {
+          intro: "Para que un sitio abra hace falta:",
+          items: [
+            "hosting o un servidor con recursos suficientes",
+            "software de servidor web",
+            "un dominio y registro DNS",
+            "archivos del sitio / una aplicación",
+            "un certificado HTTPS (suele ser vía Let’s Encrypt o el panel de hosting)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Hipertexto",
+          href: "/blog/gipertekst/",
+        },
+        {
+          label: "Hosting",
+          href: "/es/blog/hosting/",
+        },
+      ],
+    },
+    {
+      title: "Apache, Nginx, IIS",
+      level: 2,
+      paras: [
+        "Apache — clásico de shared hosting, modularidad, .htaccess familiar. Nginx — fuerte en estáticos y como reverse proxy. IIS — ecosistema Windows Server.",
+      ],
+      lists: [
+        {
+          intro: "En la práctica:",
+          items: [
+            "sitio pequeño en hosting — a menudo Apache o Nginx de serie del panel",
+            "alta carga / microservicios — Nginx (o análogo) delante de la app",
+            "stack corporativo Windows — IIS",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "La elección de shell es secundaria frente a seguridad de updates, backups y monitoreo. Un servidor de moda con PHP agujereado es peor que uno aburrido pero cuidado.",
+        },
+      ],
+      tables: [
+        {
+          caption: "Chuleta orientativa",
+          headers: ["Software", "Fortalezas", "Dónde se ve a menudo"],
+          rows: [
+            ["Apache", "Flexibilidad, .htaccess", "Shared hosting, CMS"],
+            ["Nginx", "Estáticos, proxy, carga", "Prod, setups CDN"],
+            ["IIS", "Integración Windows", "Entornos corporativos .NET"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Stacks locales para desarrollo",
+      level: 2,
+      paras: [
+        "OpenServer, XAMPP y packs similares sirven a principiantes. Denver lleva tiempo desfasado — no apuntes a él en los 2020. Los equipos usan más Docker o entornos integrados del framework.",
+        "Lo local es para romper y arreglar el sitio con seguridad — no para sustituir el hosting de producción.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo para arrancar:",
+          items: [
+            "PHP/Node + BD según necesidades del proyecto",
+            "HTTPS en prod (en local — según haga falta)",
+            "coincidir versiones mayores con prod cuando sea posible",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Vínculo con SEO y disponibilidad del sitio",
+      level: 2,
+      paras: [
+        "Si el servidor devuelve 5xx, bloquea bots o ralentiza el TTFB, sufren personas e indexación. Tras un cambio de host comprueba códigos de respuesta, redirects y HTTPS.",
+      ],
+      lists: [
+        {
+          intro: "Tras un traslado:",
+          items: [
+            "home y URLs clave devuelven 200",
+            "www/non-www y http→https son coherentes",
+            "sitemap y robots son alcanzables",
+            "no hay 404 masivos en rutas viejas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+        {
+          label: "Certificado SSL",
+          href: "/es/blog/ssl-sertifikat/",
+        },
+      ],
+    },
+  ],
+};

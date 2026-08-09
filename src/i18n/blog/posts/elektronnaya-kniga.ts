@@ -118,3 +118,122 @@ export const elektronnayaKnigaEn: BlogPost = {
     "kopirayting",
   ],
 };
+
+/** ES overlay for elektronnaya-kniga — same structure as RU JSON / EN. */
+export const elektronnayaKnigaEs: BlogPost = {
+  slug: "elektronnaya-kniga",
+  title: "Un ebook para tu audiencia: cómo hacerlo rápido sin diseñador",
+  date: "2019-03-07",
+  category: "Digital marketing",
+  cover: "/images/blog/elektronnaya-kniga/cover.webp",
+  excerpt:
+    "Un ebook como lead magnet y prueba de expertise: PDF vs ePub, armarlo en Word o un builder, cómo distribuirlo — sin prometer «coste cero y una obra maestra en una hora».",
+  lead: [
+    "Un ebook empaqueta experiencia en un archivo: enseña a la audiencia, recuerda con suavidad la marca y recoge contactos a cambio de material útil. El camino de presupuesto es armarlo tú; el de pago es entregarlo a un diseñador y un especialista de layout.",
+    "Abajo: por qué un ebook, en qué se diferencia PDF de ePub, dos caminos de construcción (rápido desde un editor de texto y más limpio en un builder) y cómo compartirlo. Tarifas de servicios y reglas de storefronts cambian — comprueba términos actuales; para un lead magnet, sigue las reglas de datos personales.",
+  ],
+  faq: [
+    {
+      q: "¿Debo usar PDF o ePub?",
+      a: "PDF es más fácil de hacer y más estable para tablas y diagramas; en el teléfono, la escala de página puede ser incómoda. ePub reflujo mejor en readers, pero fórmulas y layouts complejos sufren.",
+    },
+    {
+      q: "¿Cuánto tiempo hace falta?",
+      a: "El layout de copy listo — desde un par de horas en un editor hasta notablemente más en un builder. Escribir el contenido es aparte y suele llevar más.",
+    },
+    {
+      q: "¿Se puede sin diseñador del todo?",
+      a: "Sí para una guía PDF que funciona. Para ventas en storefront y una portada pulida, un builder o especialista aún ayuda.",
+    },
+    {
+      q: "¿Debo dar el libro a cambio de un email?",
+      a: "No es obligatorio, pero como lead magnet es un patrón habitual. Hace falta consentimiento para tratar datos y valor claro en el archivo.",
+    },
+    {
+      q: "¿Y si alguien roba el texto?",
+      a: "El riesgo es real. Si la meta es reach y un estándar del nicho, la copia parcial aún puede ayudar al awareness; guarda partes críticas en formatos cerrados o acorta la versión pública.",
+    },
+    {
+      q: "¿Basta pegar artículos viejos?",
+      a: "Hace falta un tema y una historia, o te queda un vertedero de posts. Selecciona con cuidado, reescribe transiciones y actualiza lo obsoleto.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué un ebook y qué formato",
+      level: 2,
+      paras: [
+        "Un libro cubre volumen que no cabe en un artículo: una guía, checklist o deep-dive de método. Para la marca está más cerca de contenido útil que de un banner: el lector obtiene valor, la empresa un touch y un motivo para suscribirse.",
+        "Pluses del formato digital: coste de «tirada» relativamente bajo, updates fáciles, distribución por link simple y — si hace falta — una base para un giveaway impreso.",
+        "PDF es la elección familiar para manuals con tablas. ePub es más flexible en móvil pero aguanta peor la geometría compleja. Para un primer libro, PDF suele bastar.",
+      ],
+      lists: [
+        {
+          intro: "Antes de empezar:",
+          items: [
+            "un tema y una promesa al lector",
+            "una tabla de contenidos de 5–12 capítulos",
+            "hechos actuales (no un paste de 2017)",
+            "meta: descargas, leads o estatus experto",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Dos formas de hacer el libro",
+      level: 2,
+      paras: [
+        "Rápido: editor de texto (portada, headers/footers, ilustraciones) → export a PDF. Encaja un manual «desde la experiencia». Minus — diseño modesto y a veces pickiness de store o reader ante un PDF simple de Word.",
+        "Más limpio: un builder online con plantillas de portada y página (estilo Canva y tools similares). Más largo por página, pero se ve cohesivo. Límites free y packs de pago bastan para empezar; precios y nombres de plan cambian.",
+        "Imágenes — tus propios screens, diagramas o materiales con licencia clara. No uses assets de media library ajenos sin derechos; para la marca, ilustraciones propias e IA/gráficos bajo las reglas del proyecto funcionan mejor.",
+      ],
+      notes: [
+        {
+          title: "El contenido gana a lo «bonito»",
+          kind: "tip",
+          text: "Un libro débil en una portada bonita no recoge leads. Primero valor y estructura, luego diseño.",
+        },
+      ],
+      links: [
+        {
+          label: "Blog corporativo",
+          href: "/es/blog/korporativnyy-blog/",
+        },
+        {
+          label: "Formularios de captura",
+          href: "/es/blog/formy-zahvata/",
+        },
+      ],
+    },
+    {
+      title: "Cómo distribuir",
+      level: 2,
+      paras: [
+        "Anuncia en el blog, escribe a tus suscriptores, publica en comunidades y canales del nicho, pitch a blogs partner. Como lead magnet — una página con formulario: el libro a cambio de un contacto con consentimiento claro.",
+        "No prometas «se vuelve viral solo». La distribución es trabajo aparte: dónde vive la audiencia, qué hook hay en el anuncio, qué obtiene alguien en 15 minutos de lectura.",
+      ],
+      lists: [
+        {
+          intro: "Mini plan de lanzamiento:",
+          items: [
+            "landing con contenidos y un formulario",
+            "email/post con un beneficio principal",
+            "UTM y un objetivo de analytics en la descarga",
+            "un plan de serie de follow-up tras la descarga",
+          ],
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Un ebook sin diseñador es factible: arma copy fuerte, elige PDF, diseña en un editor o builder y compártelo donde ya está tu audiencia. Lo bonito amplifica — no sustituye el valor.",
+  ],
+  related: [
+    "korporativnyy-blog",
+    "formy-zahvata",
+    "omnikanalnyy-kontent-marketing",
+    "analitika-kontent-marketinga",
+    "avtovoronka",
+    "kopirayting",
+  ],
+};

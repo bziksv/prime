@@ -154,3 +154,158 @@ export const udalennayaRabotaEn: BlogPost = {
     "didzhital-agentstvo",
   ],
 };
+
+/** ES overlay for udalennaya-rabota — same structure as RU JSON / EN. */
+export const udalennayaRabotaEs: BlogPost = {
+  slug: "udalennaya-rabota",
+  title: "Trabajo remoto para empleados: cómo organizarlo sin caos",
+  date: "2019-12-09",
+  category: "Digital marketing",
+  cover: "/images/blog/udalennaya-rabota/cover.webp",
+  excerpt:
+    "Cómo llevar un equipo remoto: hiring fuera de la oficina, gestión por outcomes, tools de comunicación y tareas, motivación y feeling de equipo — sin vigilancia total.",
+  lead: [
+    "El trabajo remoto dejó de ser un backup para quien no conseguía plaza en la oficina. Para muchos roles el resultado no depende de un escritorio en un open space: hacen falta tareas claras, comunicación y acuerdos de plazos.",
+    "Abajo: por qué las empresas usan un modelo distribuido, cómo gestionar sin micromanagement, qué clases de tools sostienen el proceso y cómo no perder el feeling de equipo. Las stats de cuota remota por año flotan; importan más los principios de organización.",
+  ],
+  faq: [
+    {
+      q: "¿Lo remoto siempre es más barato que la oficina?",
+      a: "A menudo ahorras en alquiler y sueldos ligados a la ubicación. Pero hacen falta procesos fuertes, onboarding y a veces hardware o software — si no, lo «barato» se lo come el caos.",
+    },
+    {
+      q: "¿Cómo gestionas a gente que no ves?",
+      a: "Por outcomes y statuses transparentes: plan, métricas, reportes regulares. Vigilar minutos en la silla desmotiva y predice mal el valor.",
+    },
+    {
+      q: "¿Hace falta todo el staff en una ciudad?",
+      a: "No para toda función. Buscar en el país o en un mercado de lengua compartida amplía el pool de candidatos fuertes.",
+    },
+    {
+      q: "¿Qué roles encajan peor con lo remoto?",
+      a: "Roles que necesitan acceso físico constante a equipos, almacén o piso de ventas. Los roles digitales de oficina suelen adaptarse mejor.",
+    },
+    {
+      q: "¿Son obligatorias las sync calls diarias?",
+      a: "No siempre. A menudo bastan statuses async más syncs cortos sobre blockers. Las meetings de más matan el foco.",
+    },
+    {
+      q: "¿Cómo formas a newcomers remotos?",
+      a: "Base de conocimiento, guías grabadas, un mentor, 1:1 regulares. Vídeo y mensajeros son un canal — no un sustituto de la estructura de onboarding.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué las empresas van a remoto",
+      level: 2,
+      paras: [
+        "Un funnel de hiring más amplio: no solo «una hora a la oficina», sino especialistas fuertes en regiones y en el extranjero cuando hay lengua compartida. Algunos roles nunca necesitaron un open space capitalino.",
+        "Ahorrar metros cuadrados ayuda, pero la ganancia principal es acceso a gente y flexibilidad. El mito de que remoto = poco serio está obsoleto: un remoto durable suele pedir disciplina por encima de la media.",
+      ],
+      lists: [
+        {
+          intro: "A quién suele gustarle el modelo:",
+          items: [
+            "gente que se queda en su ciudad o con la familia",
+            "gente que combina trabajo con mudanzas",
+            "empresas con producto digital y KPIs claros",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Gestiona por outcomes, no por «estar sentado»",
+      level: 2,
+      paras: [
+        "En una oficina es fácil confundir presencia con valor. A distancia eso falla — y está bien: hay que acordar números y fechas.",
+        "Cada uno necesita una métrica de performance clara, un plan de trabajo y un status regular. El manager ve blockers y progreso; en qué silla se sienta alguien es secundario.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de transparencia:",
+          items: [
+            "objetivos y criterios de «hecho»",
+            "un board o lista de tareas con owners",
+            "un ritmo corto de status",
+            "escalado de riesgos sin drama",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          text: "El monitoring total de pantalla y la desconfianza por defecto rompen la lealtad. Si no hay resultado — decide con hechos y proceso, no subiendo la vigilancia.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Tools: clases, no cultos de marca",
+      level: 2,
+      paras: [
+        "Hacen falta cuatro capas: tareas (tracker), documentos (co-edición), comunicación (chat + vídeo), base de conocimiento (guías y decisiones). Los productos concretos cambian — lo que importa es que todo el equipo viva en un solo loop.",
+        "Staff de oficina y remoto deberían ver las mismas tareas y reglas. Si no, lo «remoto» se vuelve trabajo de segunda con tratos laterales en DMs.",
+      ],
+      lists: [
+        {
+          intro: "Stack básico de proceso:",
+          items: [
+            "tracker de tareas y plazos",
+            "docs compartidos y plantillas",
+            "video meetings que se ganan su tiempo",
+            "wiki / base de instrucciones",
+            "canales compartidos de escalado",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Dashboard",
+          href: "/es/blog/dashboard/",
+        },
+        {
+          label: "Project manager",
+          href: "/es/blog/project-manager/",
+        },
+      ],
+    },
+    {
+      title: "Motivación y feeling de equipo",
+      level: 2,
+      paras: [
+        "Una persona remota puede sentirse más fácil como contractor fuera de la cultura. Ayudan rituales compartidos: demos de resultado, wins visibles, onboarding, meetups offline ocasionales si el presupuesto lo permite.",
+        "El team-building por sí mismo sin trabajo claro no te salva. Primero proceso y respeto por los outcomes — formatos sociales después.",
+      ],
+    },
+    {
+      title: "Hiring y expectativas",
+      level: 2,
+      paras: [
+        "Un rol remoto atractivo recibe muchas applications: la competencia es mayor, pero puedes elegir más fuerte. Describe con honestidad zonas horarias, ventanas de sync, tools y KPIs.",
+        "No todo el mundo trabaja bien sin control externo — es justo filtrar eso en probation por resultados, no por «estuvo online de 9 a 6».",
+      ],
+      lists: [
+        {
+          intro: "Fija en la oferta:",
+          items: [
+            "horas de overlap con el equipo",
+            "cómo se entregan los resultados",
+            "qué calls son obligatorias",
+            "cómo funciona el periodo de probation",
+          ],
+        },
+      ],
+    },
+  ],
+  closing: [
+    "El trabajo remoto funciona cuando la empresa gestiona outcomes, no presencia. Arma un solo loop para tareas y comunicación, contrata por skill sin filtro geo — y no sustituyas la confianza por vigilancia total.",
+  ],
+  related: [
+    "project-manager",
+    "dashboard",
+    "menedzher-smm",
+    "veb-analitik",
+    "tz-na-sayt",
+    "didzhital-agentstvo",
+  ],
+};

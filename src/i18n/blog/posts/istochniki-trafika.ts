@@ -215,3 +215,219 @@ export const istochnikiTrafikaEn: BlogPost = {
     "utm-metki",
   ],
 };
+
+/** ES overlay for istochniki-trafika — same structure as RU JSON / EN. */
+export const istochnikiTrafikaEs: BlogPost = {
+  slug: "istochniki-trafika",
+  title: "Principales fuentes de tráfico web: qué probar",
+  date: "2019-12-26",
+  category: "Digital marketing",
+  cover: "/images/blog/istochniki-trafika/cover.webp",
+  excerpt:
+    "Panorama de canales: orgánico, paid search, directorios y agregadores, clasificados, social, email, display y redes de ads — pros, contras y un orden sensato de test.",
+  lead: [
+    "No hay una fuente mágica de tráfico: los canales difieren en velocidad, coste y control. Los principiantes a menudo agarran un tip fresco sin landing ni tracking de leads — y concluyen «el canal no funciona».",
+    "Abajo: las familias principales de fuentes, con fortalezas y debilidades. El mix depende del nicho, ticket medio y ciclo de venta — no hay un «mejor canal» universal.",
+  ],
+  faq: [
+    {
+      q: "¿Con qué canal empiezo?",
+      a: "Donde puedas validar demanda más rápido con tu presupuesto: a menudo paid search o clasificados/agregadores de nicho. Prepara el orgánico en paralelo — escala más lento.",
+    },
+    {
+      q: "¿El orgánico es gratis?",
+      a: "Sin pago por clic — sí, pero pagas con trabajo y tiempo. La prep del sitio lleva cerca de un mes; los rankings del núcleo suelen construirse en 2–6 meses — no «mañana tras publicar».",
+    },
+    {
+      q: "¿El paid search siempre quema presupuesto?",
+      a: "Con keywords, landing y analytics rotos — sí. Con una cadena normal da un test rápido de hipótesis y volumen controlable.",
+    },
+    {
+      q: "¿Las redes social son tráfico gratis?",
+      a: "Los posts orgánicos rara vez alimentan comercio solos. Una comunidad necesita contenido; los ads, presupuesto. No confundas «crear un grupo» con «conseguir leads».",
+    },
+    {
+      q: "¿Para qué email si ya tengo ads?",
+      a: "Tu propia lista es más barata para toques repetidos: contenido, triggers, carrito abandonado. Construir la lista lleva meses; lanzar mail a una lista lista es rápido.",
+    },
+    {
+      q: "¿Cómo sé que un canal es mío?",
+      a: "No por «todo el mundo lo hace», sino por CPA/ROMI y calidad del lead tras un test honesto con un goal y UTMs.",
+    },
+  ],
+  sections: [
+    {
+      title: "Búsqueda orgánica",
+      level: 2,
+      paras: [
+        "Búsqueda sobre un set de keywords: las páginas responden a consultas, el sitio está sano en técnica, el contenido se mantiene. Es juego largo: arranque lento, luego inercia si la calidad no se cae.",
+        "No esperes primera página de un día para otro tras edits. Primero prep (técnica, copy, estructura — cerca de un mes), luego crecimiento de rankings planificado a 2–6 meses. Sin materiales nuevos y fixes, las posiciones se debilitan con el tiempo.",
+      ],
+      lists: [
+        {
+          intro: "Pros / contras:",
+          items: [
+            "+ sin pago por clic; el efecto puede durar años",
+            "− arranque lento; más difícil abrir el grifo de volumen",
+            "− necesita trabajo continuo y competencia en el SERP",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+        {
+          label: "Tráfico de marca",
+          href: "/es/blog/brendovyy-trafik/",
+        },
+      ],
+    },
+    {
+      title: "Paid search",
+      level: 2,
+      paras: [
+        "Ads en búsqueda y redes por consultas y audiencias. Hace falta set de keywords, copy, landings, goals de analytics. El precio del clic es una subasta: competidores y calidad del anuncio mueven la puja.",
+        "Fuerza — velocidad para chequear demanda. Debilidad — sin negativos, geo y control de conversión, el presupuesto se va a nada.",
+      ],
+      lists: [
+        {
+          intro: "Pros / contras:",
+          items: [
+            "+ lanzamiento rápido y feedback en dinero",
+            "+ volumen controlable con una oferta que funciona",
+            "− gasto continuo; los errores de setup salen caros",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Paid search y SEO",
+          href: "/es/blog/kontekst-i-seo/",
+        },
+      ],
+    },
+    {
+      title: "Directorios, listings y agregadores",
+      level: 2,
+      paras: [
+        "Directorios de negocio, catálogos de industria, agregadores de tickets/hoteles/servicios. En B2B a menudo útiles como base de contactos y superficie de presencia; en B2C — medicina, viajes, servicios «cerca de mí».",
+        "Los agregadores entregan leads a comisión o paquete — el tráfico «barato» es relativo: pagas con cuota de margen y compites en la ficha. El listing básico a veces es gratis; la promoción, de pago.",
+      ],
+      lists: [
+        {
+          intro: "Pros / contras:",
+          items: [
+            "+ la demanda ya está en la plataforma",
+            "+ en algunos nichos es el canal principal",
+            "− competencia y dependencia de las reglas del agregador",
+            "− poco control del funnel fuera de tu ficha",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tablones de clasificados",
+      level: 2,
+      paras: [
+        "Clasificados — demanda de bienes y servicios aquí y ahora. En nichos con ticket alto y paid search caro a veces entregan un lead más barato con un anuncio sólido y respuesta del manager.",
+        "Un formato básico gratis choca con la competencia rápido; la promoción dentro de la plataforma es presupuesto aparte. Los resultados son menos predecibles que una cuenta de search-ads.",
+      ],
+    },
+    {
+      title: "Social: comunidad y ads",
+      level: 2,
+      paras: [
+        "Dos pistas distintas. Comunidad — contenido largo y confianza; crear un grupo solo no es tráfico. Ads social — alcance rápido por intereses y lógica lookalike, pero no para toda compra B2B con un decision-maker estrecho.",
+        "Cuenta el coste del lead y la calidad del diálogo, no solo followers. El orgánico sin posts regulares se duerme aunque haya base leal.",
+      ],
+      lists: [
+        {
+          intro: "Pros / contras:",
+          items: [
+            "+ comunidad: barrera de entrada en efectivo baja",
+            "+ ads: tests rápidos de creativo y oferta",
+            "− contenido y moderación llevan tiempo",
+            "− no todo producto se encuentra vía intereses",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Publicidad gratuita",
+          href: "/blog/besplatnaya-reklama/",
+        },
+      ],
+    },
+    {
+      title: "Listas de email y newsletters",
+      level: 2,
+      paras: [
+        "Email con consentimiento: contenido (noticias, utilidad) y triggers (carrito abandonado, post-compra, reactivación). Es un canal de toques repetidos, no una fuente mágica de gente nueva de la calle.",
+        "Las listas tardan meses en construirse (lead magnet, formularios, quiz); lanzar una serie a una lista lista lleva días. Las bajas son normales: la entrada debe superar la salida.",
+      ],
+      lists: [
+        {
+          intro: "Pros / contras:",
+          items: [
+            "+ toques repetidos baratos",
+            "+ escenarios flexibles por etapa del funnel",
+            "− construcción lenta de la lista",
+            "− necesita disciplina y cumplimiento de reglas de mailing",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Display y redes de ads",
+      level: 2,
+      paras: [
+        "Banners y artículos en sitios de terceros, redes teaser y display, remarketing de red. Los emplazamientos directos son más duros de medir; las redes dan cuenta y stats, pero menos control sobre el sitio publisher concreto.",
+        "El retargeting de red persigue a quien ya visitó — refuerza el funnel, no sustituye el primer contacto. Compara con búsqueda por CPA, no por «alcance bonito».",
+      ],
+      links: [
+        {
+          label: "Retargeting",
+          href: "/es/blog/retargeting/",
+        },
+        {
+          label: "Banner publicitario",
+          href: "/es/blog/reklamnyy-banner/",
+        },
+      ],
+    },
+    {
+      title: "Cómo elegir y probar",
+      level: 2,
+      paras: [
+        "Primero landing, oferta y tracking de leads — luego presupuesto de canal. Prueba en secuencia o con hipótesis paralelas estrechas; fija UTMs y duración del test de antemano.",
+        "Un canal rara vez lo cubre todo: el orgánico y la lista construyen activos; los canales de pago dan velocidad. El resultado es un mix bajo margen — no todos los canales a la vez con cuatro duros.",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          text: "Una caída en un canal es motivo para diagnosticar la causa — no para apagarlo todo de golpe. Ver el artículo sobre bajada de tráfico.",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "Bajada de tráfico",
+          href: "/es/blog/snizhenie-trafika/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Las fuentes de tráfico difieren en velocidad y coste del error. Prepara medición, prueba uno o dos canales que encajen con el nicho y escala lo que entrega leads de calidad — sin perseguir «gratis para siempre».",
+  ],
+  related: [
+    "brendovyy-trafik",
+    "snizhenie-trafika",
+    "kontekst-i-seo",
+    "besplatnaya-reklama",
+    "retargeting",
+    "utm-metki",
+  ],
+};

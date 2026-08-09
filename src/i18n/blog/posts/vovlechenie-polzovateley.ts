@@ -100,3 +100,104 @@ export const vovlecheniePolzovateleyEn: BlogPost = {
     "analitika-kontent-marketinga",
   ],
 };
+
+/** ES overlay for vovlechenie-polzovateley — same structure as RU JSON / EN. */
+export const vovlecheniePolzovateleyEs: BlogPost = {
+  slug: "vovlechenie-polzovateley",
+  title: "Engagement efectivo de usuarios en 5 pasos",
+  date: "2018-05-07",
+  category: "Digital marketing",
+  cover: "/images/blog/vovlechenie-polzovateley/cover.webp",
+  excerpt:
+    "Cinco pasos de engagement: fuente de tráfico y motivación, reacción a la pasividad, canales sociales, feedback y adopción del producto — sin prometer «retener un 80% más en una semana».",
+  lead: [
+    "Engagement no es «likes por likes» — es un siguiente paso claro: la persona se queda en el producto, responde, vuelve. No hay un botón universal; los segmentos llegan con distinta motivación.",
+    "Abajo: cinco pasos de estrategia en la intersección de analytics, servicio y producto. Cifras como «los mejores retienen un 80% más» de reviews viejas son investigación ajena — no una garantía de tu KPI.",
+  ],
+  faq: [
+    {
+      q: "¿Es lo mismo que las señales de comportamiento SEO?",
+      a: "Relacionado, pero no igual. Aquí — trabajo con audiencia y producto. Las señales de comportamiento en búsqueda son un tema aparte de UX y señales lícitas.",
+    },
+    {
+      q: "¿Por dónde empiezo con poco tráfico?",
+      a: "Con fuentes de visita y un punto de fricción (formulario, onboarding, respuesta de soporte). No montes «cinco dashboards» sobre cien sesiones.",
+    },
+    {
+      q: "¿Son obligatorios los canales sociales?",
+      a: "Solo si tus clientes hablan de verdad ahí. Si no, importan más sitio, email y soporte. Cuenta con límites de plataforma y regulación local.",
+    },
+    {
+      q: "¿Cómo saber que el engagement crece?",
+      a: "Mira activación, visitas y compras repetidas, respuestas de email, CSAT/NPS, tiempo hasta el primer valor — no solo el reach del post.",
+    },
+    {
+      q: "¿Es normal la pasividad después de una demo?",
+      a: "A menudo sí. Necesitas el motivo: UX duro, sin valor, contraseña olvidada. Un email con pregunta y ayuda gana a otro banner.",
+    },
+  ],
+  sections: [
+    {
+      title: "Fuente de visita y reacción a la pasividad",
+      level: 2,
+      paras: [
+        "Paso 1. Aprende de dónde viene la gente: búsqueda, ads, enlaces, referidos, email, social. La motivación difiere — la oferta y el «siguiente paso» en la landing deben cuadrar con la expectativa. Pregunta «cómo nos encontraste» en el formulario o una encuesta corta — complementa las etiquetas UTM.",
+        "La personalización por fuente funciona en puntos: quien llega de búsqueda necesita una respuesta clara a la query; quien viene de nurturing progresivo necesita un CTA distinto a «descarga la demo» para todos.",
+        "Paso 2. Mira la pasividad: descargó una demo y desapareció, abandonó el carrito, abrió un email y no hizo clic. Es una señal para hallar el motivo — un email o llamada con pregunta y ayuda, no solo un descuento al azar.",
+        "Una causa habitual de caída es UX débil o valor de producto poco claro. Arregla la fricción primero, luego escala el tráfico.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de analytics:",
+          items: [
+            "fuente / canal / campaña",
+            "landing y meta",
+            "eventos de activación (signup, demo, primer pedido)",
+            "dónde se rompe el camino",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Señales de comportamiento",
+          href: "/es/blog/povedencheskie-faktory/",
+        },
+        {
+          label: "Fuentes de tráfico",
+          href: "/es/blog/istochniki-trafika/",
+        },
+      ],
+    },
+    {
+      title: "Canales sociales, feedback y adopción del producto",
+      level: 2,
+      paras: [
+        "Paso 3. Monitoriza menciones y conversaciones en social y messengers donde la gente te busca de verdad: preguntas en comentarios, quejas, gracias. Responde — el silencio mata el engagement más rápido que un mal post. Canales y ads siguen la ley y las políticas de la plataforma.",
+        "Paso 4. Estudia el feedback: email, chat, teléfono, reviews. Mira no solo «escribieron» sino la reacción: donde baja la satisfacción tras una llamada — arregla el script; donde el email no se abre — segmenta y mensaje, no «empuja más» la frecuencia.",
+        "Paso 5. Mapa de adopción del producto: del primer contacto al uso habitual. Recoge puntos de parada típicos de newcomers y ciérralos con onboarding, tips, knowledge base — así mantienes la lealtad sin «porcentajes mágicos» de reports ajenos.",
+        "En resumen: el engagement crece en la intersección de datos, servicio y producto. El análisis de comportamiento ayuda a ver agujeros antes — pero «dinámica en unos días» no es cierto en cada nicho; mira tus propios ciclos de deal y activación.",
+      ],
+      links: [
+        {
+          label: "Métricas de ads",
+          href: "/es/blog/metriki-reklamy/",
+        },
+        {
+          label: "Clientes difíciles",
+          href: "/es/blog/problemnye-klienty/",
+        },
+        {
+          label: "Analytics de content marketing",
+          href: "/es/blog/analitika-kontent-marketinga/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "povedencheskie-faktory",
+    "istochniki-trafika",
+    "metriki-reklamy",
+    "problemnye-klienty",
+    "analitika-kontent-marketinga",
+  ],
+};

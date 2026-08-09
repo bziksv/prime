@@ -166,3 +166,170 @@ export const inflyuenserMarketingEn: BlogPost = {
     "naym-smm",
   ],
 };
+
+/** ES overlay for inflyuenser-marketing — same structure as RU JSON. */
+export const inflyuenserMarketingEs: BlogPost = {
+  slug: "inflyuenser-marketing",
+  title: "Influencer marketing: moda o canal publicitario que funciona",
+  date: "2019-06-11",
+  category: "SMM",
+  cover: "/images/blog/inflyuenser-marketing/cover.webp",
+  excerpt:
+    "Cuándo funcionan los anuncios con creadores, en qué se diferencia micro de mega, cómo medir resultados y por qué «solo porque está de moda» sin chequear audiencia quema presupuesto.",
+  lead: [
+    "Un influencer es un creador con confianza de audiencia que puede entregar una oferta con más suavidad que un banner. No es magia ni tendencia obligatoria del año: el canal funciona cuando encajan el fit de audiencia, reacciones vivas y una integración honesta.",
+    "Abajo: por qué el negocio usa creadores, tramos de reach, riesgos y cómo separar moda de herramienta medible. Cómo encontrar un blogger de Instagram en la práctica va en un artículo relacionado. El aviso de Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de las plataformas. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Un influencer es solo una cuenta millonaria?",
+      a: "No. Micro y mid con alto engagement y nicho preciso suelen rendir mejor.",
+    },
+    {
+      q: "¿Un creador sustituye al paid social?",
+      a: "Casi nunca. Una integración construye confianza y calentamiento; el targeting aporta escala y control. A menudo se refuerzan.",
+    },
+    {
+      q: "¿Por qué hay escepticismo hacia influencers?",
+      a: "La gente está cansada de ads ocultos y entusiasmo falso. Etiquetado claro y experiencia real del producto bajan el rechazo.",
+    },
+    {
+      q: "¿Cómo saber que no es moda por moda?",
+      a: "Hay hipótesis, audiencia, oferta, medición (código promo/UTM/CRM) y criterios de selección del creador — no «todo el mundo lo hace».",
+    },
+    {
+      q: "¿Dónde buscar talento?",
+      a: "Por nicho a mano, vía agencias y plataformas — con chequeo de ER y comentarios. Una checklist detallada está en el artículo de búsqueda de blogger.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué alguien confía en el canal",
+      level: 2,
+      paras: [
+        "La publicidad clásica satura el feed. Una recomendación de alguien a quien ya siguen se siente más cercana a un tip de amigo — si no suena a guion de «vendí y me fui».",
+        "El influencer mantiene diálogo: comentarios, Stories, replies. Sin eso es solo un slot media con tarifa.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo encaja el formato:",
+          items: [
+            "producto complejo o emocional",
+            "necesitas calentamiento y confianza",
+            "hay CTA claro y medición",
+            "el creador está de verdad cerca del nicho",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Micro, macro, mega — sin culto al número",
+      level: 2,
+      paras: [
+        "Los tramos de tamaño orientan, pero los límites se mueven. El fit de interés y la calidad de los comentarios importan más que un millón a cualquier precio.",
+        "Los grandes tienen más reach y conversación más fina. El micro suele tener ER más alto y un test de hipótesis más barato.",
+      ],
+      lists: [
+        {
+          intro: "Lógica práctica de selección:",
+          items: [
+            "test de oferta — varios micros",
+            "escala de awareness — mid/macro con base viva",
+            "celebrity — trabajos de marca y presupuesto grande",
+            "siempre — chequeos anti-fake y relevancia",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Cómo encontrar un blogger para ads",
+          href: "/es/blog/bloger-dlya-reklamy-instagram/",
+        },
+      ],
+      notes: [
+        {
+          title: "Cifras de roundups",
+          kind: "tip",
+          text: "Share-of-mention y «tendencias 2019» de estudios viejos no son hechos de mercado hoy. Mira tarifas actuales, ER y tu nicho.",
+        },
+      ],
+    },
+    {
+      title: "Plataformas y formatos",
+      level: 2,
+      paras: [
+        "Instagram, YouTube, VK, Telegram, Twitch y otros — escenarios distintos: review, integración en Stories, stream, nativo en un episodio.",
+        "Elegir plataforma = dónde vive tu audiencia, no dónde está de moda hablar de influencers ahora.",
+      ],
+      links: [
+        {
+          label: "Publicidad en Instagram",
+          href: "/es/blog/reklama-instagram/",
+        },
+        {
+          label: "Publicidad nativa",
+          href: "/es/blog/nativnaya-reklama/",
+        },
+      ],
+    },
+    {
+      title: "Riesgos: fakes, crecimiento falso, ética",
+      level: 2,
+      paras: [
+        "Ads ocultos e hype forzado dañan marca y creador. Etiqueta las integraciones según reglas de la plataforma y la ley.",
+        "Followers comprados dan reach vacío. Antes de pagar, mira dinámica de crecimiento, comentarios, geo y ER.",
+        "Aparte — responsabilidad con audiencias vulnerables (niños, productos dañinos): oferta y tono deben ser éticos, no solo virales.",
+      ],
+      lists: [
+        {
+          intro: "Red flags:",
+          items: [
+            "rechazo a código promo/UTM",
+            "solo garantía de reach sin método",
+            "bots idénticos en comentarios",
+            "el creador nunca usó el producto",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo hacer del canal una herramienta, no una moda",
+      level: 2,
+      paras: [
+        "Define el trabajo: awareness, tráfico, leads, ventas repetidas.",
+        "Shortlist de 3–5 creadores para la audiencia, acuerda brief y medición, corre un test, compara CPA/calidad de lead con otros canales.",
+        "Escala solo lo que se repite en una segunda corrida — no un clip de suerte.",
+      ],
+      links: [
+        {
+          label: "Ingresos de bloggers en Instagram",
+          href: "/es/blog/zarabotok-blogerov-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "El influencer marketing funciona como canal de confianza con audiencia viva e integración honesta.",
+        "Tamaño de base ≠ efectividad; el micro suele ganar en tests.",
+        "Sin medición ni chequeo del creador es una línea de moda en el presupuesto, no una herramienta.",
+      ],
+    },
+  ],
+  closing: [
+    "Elige un micro de tu nicho, acuerda un código promo y compara leads con una semana normal — más justo que discutir si es moda o no.",
+  ],
+  related: [
+    "bloger-dlya-reklamy-instagram",
+    "reklama-instagram",
+    "zarabotok-blogerov-instagram",
+    "nativnaya-reklama",
+    "vovlechennost-socseti",
+    "naym-smm",
+  ],
+};

@@ -169,3 +169,173 @@ export const yandeksMarketEn: BlogPost = {
     "start-internet-magazina",
   ],
 };
+
+/** ES overlay for yandeks-market — same structure as RU JSON / EN. */
+export const yandeksMarketEs: BlogPost = {
+  slug: "yandeks-market",
+  title: "Yandex Market: cómo listar una tienda online",
+  date: "2018-06-13",
+  category: "Digital marketing",
+  cover: "/images/blog/yandeks-market/cover.webp",
+  excerpt:
+    "Cómo conectar una tienda a Yandex Market: requisitos del sitio, feed YML, entrega y moderación — sin claims obsoletos de «audiencia de 20 millones» ni promesas de ventas fáciles.",
+  lead: [
+    "Yandex Market es una superficie donde los compradores comparan productos y ofertas de tiendas. Para un vendedor es un canal de demanda junto a tu propio sitio: comparaciones de fichas, búsqueda y superficies relacionadas de Yandex.",
+    "Abajo: requisitos de la tienda, preparación del feed, pasos de conexión y ops tras la moderación. Los modelos de placement (CPA, CPC, lógica marketplace) y los cabinets han cambiado desde 2018 — mira Help actual de partner de Market. Las plataformas pares viven en un artículo aparte.",
+  ],
+  faq: [
+    {
+      q: "¿Hace falta un sitio propio?",
+      a: "Para el modelo clásico de escaparate / click-out — sí: una tienda estable con fichas, carrito y políticas. Esquemas FBY/FBS y otros — mira Help actual.",
+    },
+    {
+      q: "¿Qué formato de feed?",
+      a: "YML la mayoría de las veces; también se aceptaban formatos tabulares. Lista actual — en Help. La clave son actualizaciones regulares de precio y disponibilidad.",
+    },
+    {
+      q: "¿En qué se diferencia de Google Merchant?",
+      a: "Ecosistema y reglas distintos. La idea es similar: feed más encaje con políticas más ads/display. Ver el artículo de Merchant Center.",
+    },
+    {
+      q: "¿Market garantiza ventas?",
+      a: "No. Hace falta precio competitivo, disponibilidad, reseñas, velocidad de manejo de pedidos y margen tras fees.",
+    },
+    {
+      q: "¿Se pueden vender bienes usados?",
+      a: "Históricamente se exigían bienes nuevos originales. Surtido prohibido y excepciones — según las reglas actuales de la plataforma.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué una tienda necesita Market",
+      level: 2,
+      paras: [
+        "Los compradores a menudo comparan precios y entrega en un solo catálogo. Aparecer en resultados de Market y superficies de búsqueda relacionadas trae demanda que de otro modo comprarías por completo con ads.",
+        "Contras: competencia de precio, dependencia de reglas y de la ficha de producto, fees / coste de clic según el modelo. No metas cifras de audiencia de 2018 en el plan — usa tu piloto y unit economics.",
+      ],
+      lists: [
+        {
+          intro: "Cuando el canal encaja:",
+          items: [
+            "retail B2C, surtido legal",
+            "margen que queda tras fees",
+            "catálogo con fotos y descripciones decentes",
+            "listo para confirmar pedidos rápido",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Alternativas a Yandex Market",
+          href: "/es/blog/analogi-yandeks-market/",
+        },
+        {
+          label: "Google Merchant Center",
+          href: "/es/blog/google-merchant-center/",
+        },
+      ],
+    },
+    {
+      title: "Requisitos del sitio y del negocio",
+      level: 2,
+      paras: [
+        "Mínimo típico: autónomo o persona jurídica, retail de bienes nuevos originales, cumplimiento legal, sitio HTTPS que funcione sin malware, carrito y checkout, una ficha por SKU con foto y descripción.",
+        "En el sitio a la vista: datos legales y contactos, precios y disponibilidad actuales, pago, entrega y devoluciones. Los pedidos en horario laboral se manejan rápido — históricamente alrededor de una hora; mira el SLA actual en las reglas.",
+      ],
+      lists: [
+        {
+          intro: "Checklist antes de solicitar:",
+          items: [
+            "datos legales en el sitio",
+            "política de devoluciones y entrega",
+            "precios que coinciden con el feed",
+            "disponibilidad sincronizada",
+            "compra de prueba como comprador",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Errores de la tienda online",
+          href: "/es/blog/oshibki-internet-magazina/",
+        },
+        {
+          label: "Ficha de producto",
+          href: "/es/blog/kartochka-tovara/",
+        },
+      ],
+    },
+    {
+      title: "Feed de productos: YML y actualizaciones",
+      level: 2,
+      paras: [
+        "Los precios van como archivo o URL: YML se prefiere para catálogos grandes (módulo CMS o export 1C). Para un surtido pequeño a veces sirve una tabla — si el formato sigue aceptado.",
+        "Actualiza el feed con regularidad: un precio viejo o «disponible» con inventario a cero pega al rating de la tienda y a la moderación. Tras subir, revisa el informe de errores en el cabinet partner.",
+      ],
+      notes: [
+        {
+          title: "Un feed no sirve para todas las plataformas",
+          text: "Las bases de atributos se solapan, pero Market, Merchant y marketplaces necesitan sus propios campos y categorías. Planifica la adaptación.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Conexión y moderación",
+      level: 2,
+      paras: [
+        "Crea o inicia sesión en el cabinet partner de Market, rellena datos de la tienda, sube el feed, configura regiones de entrega, almacenes y métodos de pickup. La tienda pasa a revisión: staff o automatización comprueban el encaje con reglas; a veces corren escenarios de compra de control.",
+        "Plazos y checklists cambiaron — aclara la guía vieja de «unos pocos días hábiles». Tras un rechazo, lee el motivo, arregla sitio o feed y solicita de nuevo.",
+      ],
+      lists: [
+        {
+          intro: "Causas habituales de rechazo:",
+          items: [
+            "sin devoluciones ni contactos",
+            "carrito roto",
+            "desajuste de precios",
+            "surtido prohibido o gris",
+            "sitio inestable",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tras el lanzamiento: precio, disponibilidad, reseñas",
+      level: 2,
+      paras: [
+        "Mantén el feed vivo, mira la cuota de errores, la velocidad de confirmación de pedidos y las reseñas. Mala disciplina de servicio duele a la visibilidad más que un banner más.",
+        "Cuenta CPA y margen por SKU: dumping por impresiones sin beneficio es un callejón sin salida. En paralelo refuerza tu sitio y otros canales.",
+      ],
+      links: [
+        {
+          label: "Promoción de la tienda online",
+          href: "/es/blog/prodvizhenie-internet-magazina/",
+        },
+        {
+          label: "Arrancar una tienda online",
+          href: "/es/blog/start-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Market es un canal con requisitos estrictos de sitio y feed — no un botón de «lista y olvida».",
+        "Revisa el modelo de placement y las reglas contra Help actual; no copies cifras de audiencia de 2018 al plan de negocio.",
+      ],
+    },
+  ],
+  closing: [
+    "Prepara el sitio y el YML para las reglas de Market, sube el feed, cierra entrega y datos legales — y pasa la moderación antes de escalar presupuesto al canal.",
+  ],
+  related: [
+    "analogi-yandeks-market",
+    "google-merchant-center",
+    "kartochka-tovara",
+    "oshibki-internet-magazina",
+    "prodvizhenie-internet-magazina",
+    "start-internet-magazina",
+  ],
+};

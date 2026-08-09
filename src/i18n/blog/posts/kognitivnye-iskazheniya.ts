@@ -137,3 +137,141 @@ export const kognitivnyeIskazheniyaEn: BlogPost = {
     "trafik-bez-lidov",
   ],
 };
+
+/** ES overlay for kognitivnye-iskazheniya — same structure as RU JSON / EN. */
+export const kognitivnyeIskazheniyaEs: BlogPost = {
+  slug: "kognitivnye-iskazheniya",
+  title: "6 sesgos cognitivos que moldean la elección del comprador",
+  date: "2019-01-30",
+  category: "Digital marketing",
+  cover: "/images/blog/kognitivnye-iskazheniya/cover.webp",
+  excerpt:
+    "Mere exposure, aversión a la pérdida, compromiso, framing, efecto IKEA y señales de trust — cómo usar la psicología de la elección en ofertas y UX sin dark patterns.",
+  lead: [
+    "Los compradores rara vez eligen de forma perfectamente racional. La familiaridad de marca, el miedo a perderse algo, el set de precios en el estante y cómo se formula la promesa moldean la decisión.",
+    "Abajo: seis efectos conocidos y cómo aplicarlos con ética — explicar el valor con más claridad, quitar riesgo con honestidad, ayudar a comparar paquetes. No trates CTR o cifras de reach de reseñas viejas como norma; corre tus propios tests. La urgencia falsa y los términos ocultos siguen destrozando trust y reputación.",
+  ],
+  faq: [
+    {
+      q: "¿Esto va de engañar al cliente?",
+      a: "No. La meta es entender cómo la gente percibe la oferta y cortar ruido. Timers de presión sin promo real son un dark pattern.",
+    },
+    {
+      q: "¿Qué es el efecto mere-exposure?",
+      a: "Los productos y marcas familiares reciben más trust. Los touches repetidos (contenido, retargeting) funcionan si no hacen spam.",
+    },
+    {
+      q: "¿Por qué el miedo a la pérdida es más fuerte que una ganancia?",
+      a: "Investigación de Kahneman y Tversky: las pérdidas se sienten más afiladas. Un trial honesto y un plazo real de promo ayudan; un countdown falso no.",
+    },
+    {
+      q: "¿Por qué ofrecer tres planes en vez de dos?",
+      a: "Efecto compromiso: la opción del medio a menudo se siente «sensata». No infles los extremos hasta el absurdo — la gente lo nota.",
+    },
+    {
+      q: "¿Qué es framing?",
+      a: "La misma sustancia con distintas palabras se percibe de forma distinta. Di la verdad, eligiendo un ángulo de ganancia o de riesgo — sin distorsionar los hechos.",
+    },
+    {
+      q: "¿Cómo aparece el efecto IKEA online?",
+      a: "La gente valora más lo en lo que invirtió: configurador, quiz, picks de opciones. Involúcralos en el setup — no un quest sin sentido.",
+    },
+  ],
+  sections: [
+    {
+      title: "Familiaridad y aversión a la pérdida",
+      level: 2,
+      paras: [
+        "Mere exposure: lo que ya se ha visto recibe una actitud más suave. En marketing eso es retargeting, un producto en formatos distintos (artículo → vídeo → deck) y presencia donde vive la audiencia. Frequency sin valor se vuelve irritación.",
+        "Aversión a la pérdida: la gente reacciona más a «perderse» que a un «obtener» simétrico. Tácticas que funcionan — un periodo de trial, una promo limitada real, un bonus claro antes del deadline. Un countdown solo encaja si la promo termina de verdad.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo ético:",
+          items: [
+            "retargeting con frequency cap",
+            "trial sin suscripción oculta",
+            "deadlines solo cuando son reales",
+            "términos de promo legibles antes del pago",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Retargeting",
+          href: "/es/blog/retargeting/",
+        },
+        {
+          label: "Promociones y ofertas",
+          href: "/es/blog/promoaktsii/",
+        },
+      ],
+    },
+    {
+      title: "Compromiso, framing e involucración",
+      level: 2,
+      paras: [
+        "Efecto compromiso: con tres opciones la gente suele elegir la del medio. Clásico — «básico / recomendado / premium». Precifica los extremos con honestidad por coste y valor — no como decoración.",
+        "Framing: la redacción cambia la elección con la misma matemática («ahorra 200» vs «pierde 400»). En ads: acentúa el beneficio de comprar o el coste de no actuar — sin distorsionar hechos ni asustar por clics.",
+        "Efecto IKEA: participar en el build o setup sube el valor percibido. Configuradores, picks de paquete, personalizar una carta o informe — formatos que encajan.",
+      ],
+      notes: [
+        {
+          title: "Sobre «penalizaciones por pago tarde»",
+          text: "Un frame de «descuento por pago anticipado» suele aterrizar mejor que una «cuota por retraso», a la misma economía. No presentes un markup como «penalización» si es solo otro precio.",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "USP (propuesta única de venta)",
+          href: "/es/blog/utp/",
+        },
+        {
+          label: "Consumer insight",
+          href: "/es/blog/potrebitelskiy-insayt/",
+        },
+      ],
+    },
+    {
+      title: "Trust y una compra «segura»",
+      level: 2,
+      paras: [
+        "Un bloque aparte — señales que hacen a alguien listo para arriesgar dinero: un sitio ordenado, velocidad, contactos claros, condiciones de devolución, marcas de pago y seguridad. Sin eso incluso una oferta fuerte se atasca.",
+        "La psicología de la elección no cancela la unit economics ni la calidad del producto. Usa los efectos para cortar ruido y explicar valor — no para empujar a un dudoso con engaño.",
+      ],
+      lists: [
+        {
+          intro: "Puntos de trust en el sitio:",
+          items: [
+            "contactos e info legal",
+            "reseñas y casos relevantes",
+            "condiciones de devolución y garantía",
+            "HTTPS y métodos de pago familiares",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Carrito abandonado",
+          href: "/es/blog/broshennaya-korzina/",
+        },
+        {
+          label: "Tráfico sin leads",
+          href: "/es/blog/trafik-bez-lidov/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Los sesgos cognitivos son un mapa de cómo decide la gente — no una licencia para presionar. Refuerza la familiaridad, quita con honestidad el miedo a la pérdida, ayuda a comparar paquetes y muestra trust — el producto hace el resto.",
+  ],
+  related: [
+    "potrebitelskiy-insayt",
+    "utp",
+    "promoaktsii",
+    "retargeting",
+    "broshennaya-korzina",
+    "trafik-bez-lidov",
+  ],
+};

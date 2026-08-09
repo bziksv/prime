@@ -190,3 +190,194 @@ export const shautInstagramEn: BlogPost = {
     "bloger-dlya-reklamy-instagram",
   ],
 };
+
+/** ES overlay for shaut-instagram — same structure as RU JSON / EN. */
+export const shautInstagramEs: BlogPost = {
+  slug: "shaut-instagram",
+  title: "Shoutouts (SFS) en Instagram*: cómo hacerlos, pros y contras",
+  date: "2021-04-08",
+  category: "SMM",
+  cover: "/images/blog/shaut-instagram/cover.webp",
+  excerpt:
+    "Qué es un shoutout (shout for shout, SFS) en Instagram*: menciones mutuas, formato concurso, pros y contras — sin el mito de que es «gratis y siempre efectivo».",
+  lead: [
+    "Un shoutout (SFS, shout for shout) es una mención mutua: tú muestras el contenido o perfil de un partner, ellos el tuyo. El objetivo es presentar audiencias y conseguir nuevos followers o leads.",
+    "Abajo: cómo organizar un intercambio de shoutouts y dónde se rompe el método. No es tráfico gratis mágico — deciden la calidad del partner y con qué frecuencia promocionas. El disclaimer del producto Meta* está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta se reconoce como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Shoutout y PR mutuo son lo mismo?",
+      a: "Cercanos: ambos van de reach mutuo. Shoutout/SFS suele ser un post o Story «el uno por el otro»; el PR mutuo es más amplio — series de collabs y acuerdos más largos.",
+    },
+    {
+      q: "¿Un shoutout siempre es gratis?",
+      a: "El intercambio de menciones no tiene fee de plataforma. El tiempo para elegir partners, el diseño y el riesgo de una audiencia «muerta» siguen costando recursos. A veces un partner pide pago aparte — eso son ads.",
+    },
+    {
+      q: "¿Ayuda un shoutout si tu audiencia son bots?",
+      a: "No. Los swaps con cuentas infladas suman ruido y dañan las stats. Corta perfiles vacíos.",
+    },
+    {
+      q: "¿Con qué frecuencia debería hacer un concurso SFS?",
+      a: "Menos que «cada semana». Guías viejas decían «no más de dos veces al mes» — una pista, no ley. Mira la fatiga del feed.",
+    },
+    {
+      q: "¿Qué usar en lugar de un shoutout?",
+      a: "Colaboraciones, Stories invitadas con creators relevantes, ads de pago con oferta clara, tu propio contenido. No un solo canal solo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es el método",
+      level: 2,
+      paras: [
+        "Acordáis: «yo te publico — tú me publicas» en un post, carrusel o Story. El hashtag clásico #SFS marca entradas de concurso, pero el tag en sí no garantiza nada.",
+        "Funciona cuando las audiencias se solapan por interés — no cuando alguien solo «tiene muchos followers».",
+      ],
+      links: [
+        {
+          label: "Negocio en Instagram*",
+          href: "/es/blog/biznes-v-instagram/",
+        },
+        {
+          label: "Diseño del perfil",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Cómo organizar: un acuerdo directo",
+      level: 2,
+      paras: [
+        "Encuentra 1–3 perfiles relevantes, escribe breve en Direct: tema, formato (post/Story), fechas, qué publicas exactamente, tags mutuos. Fija quién hace el creative.",
+        "Tras publicar, verifica que salió en vivo y guarda un screenshot del acuerdo. Si el partner «se olvidó» — no sigas la serie a ciegas.",
+      ],
+      lists: [
+        {
+          intro: "En el mensaje al partner incluye:",
+          items: [
+            "formato y fecha",
+            "copy/layout o quién lo hace",
+            "tags @ y enlaces",
+            "qué cuenta como hecho",
+            "qué pasa si se pospone",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Direct sin spam",
+          href: "/es/blog/instagram-direct/",
+        },
+      ],
+    },
+    {
+      title: "Formato concurso SFS",
+      level: 2,
+      paras: [
+        "Anuncia reglas: plazos, requisitos de contenido, criterios de selección, premios. Los participantes envían solicitudes (screenshot, descripción, #SFS, perfil abierto).",
+        "Tras el deadline publica resultados y el criterio, coloca los mejores materiales según las reglas. Sorteos de premios — con transparencia (grabación/Story) si se prometieron premios.",
+      ],
+      lists: [
+        {
+          intro: "En el anuncio del concurso:",
+          items: [
+            "fechas de inicio y de resultado",
+            "qué aceptas (collage, Reel, Story)",
+            "criterios de selección",
+            "premios y consolación",
+            "prohibición de bots y perfiles privados",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Sorteo en Instagram*",
+          href: "/blog/rozygrysh-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Beneficios",
+      level: 2,
+      paras: [
+        "Acceso rápido a otra audiencia sin media buying. Puedes encontrar partners e ideas de contenido.",
+        "Con una audiencia cercana, algunas personas sí siguen o escriben en Direct — si la oferta y el perfil se ven sólidos.",
+      ],
+      lists: [
+        {
+          intro: "Cuando se ven los beneficios:",
+          items: [
+            "el nicho encaja",
+            "ambos lados tienen actividad viva",
+            "el creative no parece un collage de spam",
+            "hay un siguiente paso (oferta, sitio, Direct)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Contras y riesgos",
+      level: 2,
+      paras: [
+        "El feed se llena de «ads mutuos» idénticos — los followers se cansan. Los concursos atraen entradas débiles por el premio.",
+        "Un swap con una cuenta irrelevante o inflada da reach vacío. El SFS frecuente corta la confianza en ti como creator.",
+      ],
+      lists: [
+        {
+          intro: "Corta al momento:",
+          items: [
+            "perfiles sin posts y con cero actividad",
+            "crecimiento fake obvio",
+            "el nicho de otro «por el número»",
+            "quien saltó acuerdos anteriores",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Perseguir el conteo de shoutouts al mes en lugar de un swap de calidad con un creator relevante.",
+        },
+      ],
+    },
+    {
+      title: "Cómo subir el retorno",
+      level: 2,
+      paras: [
+        "Revisa solicitudes y perfiles a mano. En el post/Story explica por qué recomiendas al partner — no un collage seco.",
+        "Alterna SFS con contenido normal. Tras un pico de followers, mira retención: si suben los unfollows — el partner falló.",
+      ],
+      links: [
+        {
+          label: "Insights de Instagram*",
+          href: "/es/blog/statistika-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Ideas clave",
+      level: 2,
+      paras: [
+        "Un shoutout es un intercambio de atención de audiencia. Funciona con relevancia y moderación; se rompe con bots y frecuencia de spam.",
+        "Fija los acuerdos y mide el resultado por follows y leads — no solo por «publicamos».",
+      ],
+    },
+  ],
+  closing: [
+    "Elige un partner relevante o un concurso SFS honesto, corre el swap según las reglas y revisa la calidad de quien llegó. Un shoutout complementa contenido y ads — no los sustituye.",
+  ],
+  related: [
+    "vzaimopiar",
+    "instagram-direct",
+    "rozygrysh-instagram",
+    "biznes-v-instagram",
+    "statistika-instagram",
+    "bloger-dlya-reklamy-instagram",
+  ],
+};

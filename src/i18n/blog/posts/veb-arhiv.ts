@@ -108,3 +108,112 @@ export const vebArhivEn: BlogPost = {
     "avtorskie-prava-instagram",
   ],
 };
+
+/** ES overlay for veb-arhiv — same structure as RU JSON / EN. */
+export const vebArhivEs: BlogPost = {
+  slug: "veb-arhiv",
+  title: "Qué es un archivo web: Wayback Machine y por qué lo necesitas",
+  date: "2020-09-17",
+  category: "Digital marketing",
+  cover: "/images/blog/veb-arhiv/cover.webp",
+  excerpt:
+    "Cómo funciona Internet Archive / Wayback Machine: hallar una versión vieja de página, entender huecos de snapshot, recuperar tu contenido con legalidad y limitar el archivado vía robots — sin esquemas para «robar textos de otros dominios».",
+  lead: [
+    "Un archivo web guarda snapshots históricos de páginas. El servicio público más conocido es Wayback Machine en archive.org: un bot guarda periódicamente copias de URL que puedes abrir «como era» en una fecha elegida.",
+    "Abajo: cómo ver la historia de un sitio, por qué a veces falta un snapshot y qué hacer cuando necesitas recuperar tu propio contenido viejo. No puedes simplemente mover materiales ajenos del archivo a un dominio nuevo «para no pagar autores» — eso es una cuestión de copyright.",
+  ],
+  faq: [
+    {
+      q: "¿Es lo mismo que la cache de Yandex o Google?",
+      a: "Relacionado en idea, servicio distinto. La cache de búsqueda es un snapshot fresco para el índice; Wayback es una historia larga de snapshots, a menudo con huecos.",
+    },
+    {
+      q: "¿Por qué el sitio no está en el archivo?",
+      a: "Aún no lo crawlearon, bloqueado por robots o exclusiones, retirado tras una reclamación de derechos, o el dueño pidió borrado. No toda URL se archiva.",
+    },
+    {
+      q: "¿Se puede restaurar un sitio entero con un clic?",
+      a: "Rara vez perfecto: algunos assets, formularios y scripts no se guardaron. Para tu proyecto — transferencia manual de páginas clave o exports especializados; evalúa el riesgo de «restauradores» de terceros.",
+    },
+    {
+      q: "¿Cómo se prohíbe el archivado?",
+      a: "Vía reglas de archive-bot en robots.txt y/o tools de exclusión de Internet Archive. No hay garantía absoluta de «nunca», pero en muchos casos basta.",
+    },
+    {
+      q: "¿Es legal copiar el texto de otro desde el archivo?",
+      a: "Para tu propio contenido borrado — suele sí como recuperación. Para el de otro — necesitas derechos o una excepción lícita; «copy-paste gratis de un dominio caducado» es mala idea.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo usar Wayback Machine",
+      level: 2,
+      paras: [
+        "Internet Archive (desde 1996; Wayback Machine público desde principios de los 2000) guarda snapshots web como biblioteca digital. Volúmenes y data centers crecen; no copiamos «miles de millones de páginas» concretas de press releases viejos como cifra eterna.",
+        "Abre archive.org, pega la URL de un sitio o página. El calendario muestra fechas de snapshot: puntos más densos significan crawls más frecuentes. Elige una fecha — verás HTML y algunas imágenes/archivos que se guardaron.",
+        "Save Page Now permite capturar a mano una URL actual — útil antes de un rediseño grande o de borrar una página importante. No sustituye backups de hosting y base de datos.",
+        "Hay huecos: un sitio nuevo aún no crawleado, robots agresivos, takedown legal, glitches del crawler. Entonces prueba fechas cercanas u otras URLs de la misma sección.",
+      ],
+      lists: [
+        {
+          intro: "Trabajos típicos de marketing y SEO:",
+          items: [
+            "ver la oferta vieja de un competidor",
+            "recuperar tu texto borrado",
+            "revisar la historia del dominio antes de comprar",
+            "documentar prueba de publicación en una fecha",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Copia cacheada de Yandex",
+          href: "/es/blog/sohranennaya-kopiya-yandex/",
+        },
+        {
+          label: "Análisis de competidores",
+          href: "/es/blog/analiz-konkurentov/",
+        },
+      ],
+    },
+    {
+      title: "Recuperación, derechos y bloquear el archivado",
+      level: 2,
+      paras: [
+        "Si tu sitio cayó y no hay backup: abre URLs clave en el archivo, guarda texto y media, arregla enlaces internos a mano. Un clon completo con todos los scripts desde Wayback no siempre funciona — el archivo no está obligado a guardar todo.",
+        "Los «restauradores de un clic» de terceros aparecen y desaparecen; antes de usarlos, evalúa seguridad y licencia. No cuentes con magia: legal y técnicamente es más simple mantener tus propios backups.",
+        "El contenido de dominios ajenos abandonados en el archivo no se vuelve «dominio público» solo porque el sitio cerró. Mover artículos ajenos para ahorrar en copywriting arriesga reclamaciones. Usa el archivo para research y recuperar lo tuyo.",
+        "Para reducir el archivado: reglas en robots.txt para el user-agent del archive y las tools actuales de exclusión de Internet Archive (wording en su help). Tras un bloqueo, los snapshots viejos pueden quedar hasta que se procese la petición.",
+        "En resumen: un archivo web es una tool potente de historia de la web. Mira, recupera lo tuyo, captura lo que importa — y no armes una estrategia de contenido sobre copias ajenas sin derechos.",
+      ],
+      lists: [
+        {
+          intro: "Antes de borrar una página importante:",
+          items: [
+            "backup de archivos y DB",
+            "Save Page Now en URLs clave",
+            "exportar texto a tu propio repositorio",
+            "301 a un reemplazo actual si la URL sale del índice",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Enlaces rotos",
+          href: "/es/blog/bitye-ssylki/",
+        },
+        {
+          label: "Bases de datos del sitio",
+          href: "/es/blog/bazy-dannyh-sayta/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "sohranennaya-kopiya-yandex",
+    "analiz-konkurentov",
+    "bitye-ssylki",
+    "bazy-dannyh-sayta",
+    "avtorskie-prava-instagram",
+  ],
+};

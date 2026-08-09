@@ -242,3 +242,246 @@ export const menedzherSmmEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for menedzher-smm — same structure as RU JSON / EN. */
+export const menedzherSmmEs: BlogPost = {
+  slug: "menedzher-smm",
+  title: "SMM manager: funciones, skills, pros y contras",
+  date: "2022-02-09",
+  category: "SMM",
+  cover: "/images/blog/menedzher-smm/cover.webp",
+  excerpt:
+    "Qué hace un SMM manager: estrategia, contenido, crecimiento de audiencia, comunicación, analítica. Skills que necesitas y cómo entrar en la profesión.",
+  lead: [
+    "Un SMM manager no es solo «posts en un calendario». Es una mezcla de estrategia, contenido, ads, comunicación con la audiencia e informes — atada a objetivos de negocio, no a likes vanidosos.",
+    "Abajo: un set típico de tareas, rasgos útiles, pros y contras, y caminos prácticos hacia el rol. Las UI de las plataformas cambian — aprende el proceso, no qué botón está dónde.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia un SMM manager de un content creator?",
+      a: "Un content creator produce copy y visuales. Un SMM manager también posee estrategia, crecimiento, ads, moderación, métricas y el vínculo con leads y ventas.",
+    },
+    {
+      q: "¿Un SMM manager necesita skills de paid social?",
+      a: "En la práctica — sí, al menos para briefear campañas y leer informes. En equipos pequeños a menudo llevan ellos mismos las cuentas de ads.",
+    },
+    {
+      q: "¿Se puede trabajar en remoto?",
+      a: "Sí, el remoto es habitual. El reverso es la competencia y tener que vender tus servicios tú mismo si eres freelance.",
+    },
+    {
+      q: "¿Por dónde debería empezar un principiante?",
+      a: "Elige 1–2 plataformas, arma un caso de aprendizaje en tu proyecto o el de un amigo, aprende a leer stats y escribe un informe sencillo.",
+    },
+    {
+      q: "¿Qué métricas importan primero?",
+      a: "No solo impresiones y followers: saves, replies, clics, leads/solicitudes, coste por consulta, calidad de la conversación.",
+    },
+  ],
+  sections: [
+    {
+      title: "Quién es un SMM manager",
+      level: 2,
+      paras: [
+        "Un especialista en marketing en redes sociales: construye la presencia de marca para que la audiencia entienda la oferta, confíe y tome acciones objetivo — clic, solicitud, compra, visita.",
+        "En una agencia el rol es más estrecho; del lado del cliente a menudo se combinan contenido, paid social y community. Deja clara la zona de responsabilidad en el brief pronto.",
+      ],
+    },
+    {
+      title: "Funciones centrales",
+      level: 2,
+      paras: [
+        "El set de tareas depende del nicho y del equipo, pero el marco suele ser el mismo.",
+      ],
+      lists: [
+        {
+          intro: "Alcance de trabajo típico:",
+          items: [
+            "estrategia y plan de contenido atados a objetivos",
+            "crear / encargar / adaptar copy y visuales",
+            "crecimiento de audiencia (orgánico + ads + collabs)",
+            "comunicación, moderación, manejo de negatividad",
+            "analítica, hipótesis, informes al cliente",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Estrategia y planificación",
+      level: 2,
+      paras: [
+        "Empieza por el objetivo: awareness, tráfico al sitio, leads, ventas repetidas, marca empleadora. El objetivo impulsa plataformas, pilares de contenido, cadencia y KPIs.",
+        "En paralelo — perfil de audiencia y revisión de competidores: tono, formatos, ofertas, puntos débiles. Un plan de publicación no es decoración — mantiene el ritmo y prueba hipótesis.",
+      ],
+      lists: [
+        {
+          intro: "Una estrategia suele fijar:",
+          items: [
+            "objetivos y KPIs del periodo",
+            "pilares y mix de contenido",
+            "puntos de contacto con el sitio/messenger",
+            "presupuesto de promoción",
+            "qué significa el éxito en 30/90 días",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          text: "Empezar por el diseño del avatar antes de un objetivo y una oferta. Una cuadrícula bonita sin un «por qué seguirme» claro rara vez se convierte en leads.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Contenido",
+      level: 2,
+      paras: [
+        "Los posts resuelven la necesidad del usuario y llevan con suavidad a la acción. Hace falta copywriting y edición básica de foto/vídeo — o la capacidad de briefear a contratistas.",
+        "Sigue las reglas de la plataforma y el sentido común: contenido tóxico o prohibido arriesga la cuenta. Unicidad y cadencia ganan a un pico «viral» suelto.",
+      ],
+      lists: [
+        {
+          intro: "Calidad mínima del post:",
+          items: [
+            "un gancho en las primeras líneas",
+            "valor o emoción on-brand",
+            "visuales legibles",
+            "una llamada o siguiente paso",
+            "tono que encaje con la cabecera del perfil",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Crecimiento de audiencia",
+      level: 2,
+      paras: [
+        "El crecimiento orgánico sin impulso es lento. La caja de herramientas — paid social, placements, collabs, partnerships y actividades (con cuidado, sin engagement falso).",
+      ],
+      lists: [
+        {
+          intro: "Direcciones que funcionan:",
+          items: [
+            "paid social por segmentos",
+            "menciones de creators afines",
+            "cross-promotion con proyectos de audiencia cercana",
+            "concursos y actividades con reglas claras",
+            "pedir un share donde encaje",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          text: "Comprar followers y reacciones daña el discovery y la confianza. Mejor una audiencia más pequeña pero viva.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Trabajo con suscriptores",
+      level: 2,
+      paras: [
+        "Las respuestas en comentarios y mensajes son parte de ventas y reputación. La moderación quita spam y toxicidad; cierra la negatividad rápido y al grano — sin wars de flame.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo diario:",
+          items: [
+            "responder preguntas de producto",
+            "limpiar spam",
+            "loguear objeciones que se repiten en FAQ/contenido",
+            "pasar casos duros a soporte/ventas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Comentarios en comunidad VK",
+          href: "/es/blog/kommentarii-v-pablike-vk/",
+        },
+      ],
+    },
+    {
+      title: "Analítica e informes",
+      level: 2,
+      paras: [
+        "Las stats de la plataforma muestran qué funcionó y qué no. El trabajo del manager es atar números a acciones: cambiar pilar, oferta, creative, audiencia de ads.",
+        "El cliente necesita un informe: qué hiciste, qué métricas, takeaways, plan del siguiente periodo. Sin eso, el SMM parece busywork que no mueve el negocio.",
+      ],
+      lists: [
+        {
+          intro: "Un informe suele incluir:",
+          items: [
+            "tendencias de impresiones y engagement",
+            "resultados de campañas de ads",
+            "leads/clics si hay tracking",
+            "hipótesis para el siguiente sprint",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Skills y rasgos",
+      level: 2,
+      paras: [
+        "Útil: marketing, bases de ventas, copywriting, visuales, analítica básica, entender cómo lo social se ata al sitio y al SEO. Soft skills — disciplina, comunicación, calma en el chat.",
+      ],
+      lists: [
+        {
+          intro: "Un perfil fuerte de principiante:",
+          items: [
+            "1–2 plataformas a nivel confiado",
+            "portfolio con 1 caso de aprendizaje y 1 caso vivo",
+            "capacidad de armar un plan de contenido sencillo",
+            "capacidad de explicar números con claridad",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Pros y contras",
+      level: 2,
+      paras: [
+        "Pros: trabajo remoto, trabajo creativo, vínculo claro con el negocio, demanda de especialistas fuertes. Contras: dependencia estrecha de los algoritmos de las plataformas, burnout por el contenido diario, y en freelance — encontrar clientes.",
+      ],
+      lists: [
+        {
+          intro: "A quién le encaja:",
+          items: [
+            "gente a la que le gustan el copy y los números",
+            "gente lista para la cadencia, no solo «inspiración» puntual",
+            "gente que responde con calma en los chats",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo aprender la profesión",
+      level: 2,
+      paras: [
+        "Los cursos dan un marco, pero un portfolio gana a un diploma. Lleva tu propio proyecto o uno de pareja 6–8 semanas: plan → posts → presupuesto de test pequeño → informe.",
+        "Luego — internship, junior en una agencia, o primeros briefs con scope y KPIs claros. En paralelo, sube paid social y edición.",
+      ],
+      lists: [
+        {
+          intro: "Un arranque práctico de 30 días:",
+          items: [
+            "elegir nicho y plataforma",
+            "montar el perfil y 12–15 piezas de contenido",
+            "correr 1–2 tests de ads",
+            "empaquetar un caso de 1–2 páginas",
+            "aplicar a 10–15 jobs/briefs",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Stories de VKontakte",
+          href: "/es/blog/istorii-vkontakte/",
+        },
+      ],
+    },
+  ],
+};

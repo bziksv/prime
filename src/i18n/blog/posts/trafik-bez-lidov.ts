@@ -116,3 +116,120 @@ export const trafikBezLidovEn: BlogPost = {
     "potrebitelskiy-insayt",
   ],
 };
+
+/** ES overlay for trafik-bez-lidov — same structure as RU JSON / EN. */
+export const trafikBezLidovEs: BlogPost = {
+  slug: "trafik-bez-lidov",
+  title: "Tráfico sin leads: oferta, beneficio y CTA",
+  date: "2019-03-25",
+  category: "Digital marketing",
+  cover: "/images/blog/trafik-bez-lidov/cover.webp",
+  excerpt:
+    "El tráfico crece pero los leads no: oferta débil, vender el taladro en lugar del agujero, sin CTA, audiencia equivocada — un checklist de copy de landing sin palabras mágicas.",
+  lead: [
+    "Cuando suben las visitas y los leads no, a menudo no es «falta de ads» — la gente no ve por qué dejar un contacto: sin oferta clara, sin beneficio visible, sin llamada a la acción ni formulario.",
+    "Abajo: en qué se diferencia tráfico de leads, errores típicos de oferta, el movimiento «¿y eso qué me importa?», el papel del CTA y un checklist de copy. Revisa también técnica y velocidad, pero con tráfico vivo más a menudo arreglas el sentido del pitch. No hay «conversión media» universal — mira tu funnel.",
+  ],
+  faq: [
+    {
+      q: "¿Tráfico y leads son lo mismo?",
+      a: "No. Tráfico son visitas. Un lead es un contacto o solicitud con intención. Puedes comprar muchos clics y cero solicitudes.",
+    },
+    {
+      q: "¿Arreglo primero el copy o los ads?",
+      a: "Si el anuncio promete una cosa y la página otra — arregla ambos. Con tráfico relevante y funnel vacío, empieza por oferta y CTA.",
+    },
+    {
+      q: "¿Basta una imagen bonita en el primer pantallazo?",
+      a: "No. Hace falta producto + beneficio en lenguaje claro. Una imagen sin oferta es un escaparate misterioso.",
+    },
+    {
+      q: "¿Qué es el «resultado del resultado»?",
+      a: "No una feature («papel vinílico»), sino el beneficio vital al final de una cadena de «¿y eso qué me importa?».",
+    },
+    {
+      q: "¿Hace falta un CTA en cada página?",
+      a: "En páginas comerciales — sí: formulario, llamada, messenger. «Apáñatelo tú» casi nunca convierte.",
+    },
+    {
+      q: "¿Puede el producto simplemente no encajar con la audiencia?",
+      a: "Sí. Entonces ningún copywriting te salva sin cambiar oferta, precio o audiencia. Revisa la demanda con honestidad.",
+    },
+  ],
+  sections: [
+    {
+      title: "Oferta: mantenla simple",
+      level: 2,
+      paras: [
+        "El primer pantallazo debe responder: qué ofreces y qué beneficio obtiene la persona. Texto SEO complejo sin pitch no crea leads.",
+        "Patrones que funcionan: producto → beneficio; producto → beneficio + plazo/cifra; producto → beneficio + quitar riesgo (sin cortes, con garantía, etc.). Los números ayudan cuando son verdaderos y comprobables.",
+        "Fallo típico: ventajas bonitas y un listado de precios sin oferta principal — o una página donde ni se entiende qué se vende.",
+      ],
+      lists: [
+        {
+          intro: "Antes de editar pregunta:",
+          items: [
+            "qué compran exactamente en cinco segundos de lectura",
+            "cuál es el beneficio principal — no una lista de features",
+            "si la promesa encaja con el anuncio o la consulta",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "USP",
+          href: "/es/blog/utp/",
+        },
+        {
+          label: "Copy de landing",
+          href: "/es/blog/tekst-lendinga/",
+        },
+      ],
+    },
+    {
+      title: "Beneficio, audiencia y llamada a la acción",
+      level: 2,
+      paras: [
+        "Vende el agujero en la pared, no el taladro: pasa las features por «¿y eso qué me importa?» unas cuantas veces hasta aterrizar en un beneficio vital claro.",
+        "Si el producto no cubre un dolor real de la audiencia elegida (o fallan precio/formato), más tráfico solo muestra el fallo más caro. A veces hace falta cambiar posicionamiento — no «un párrafo más».",
+        "Sin CTA y una vía de contacto, no aparecen leads: formulario, botón, varios canales. Una petición concreta gana a una fila de «suscríbete» idénticos.",
+      ],
+      notes: [
+        {
+          title: "La técnica también puede ser culpable",
+          text: "Formulario roto, sin layout móvil, carga lenta — revisa. Pero con tráfico estable y cero leads, el sentido del pitch suele ser débil.",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+        {
+          label: "Formularios de captación",
+          href: "/es/blog/formy-zahvata/",
+        },
+      ],
+    },
+    {
+      title: "Checklist de copy para sitio y landing",
+      level: 2,
+      paras: [
+        "Construye la página como respuestas a preguntas de la audiencia: oferta (producto + beneficio), dolores, diferencias, «resultado del resultado», prueba (cifras, casos, hechos), alcance del servicio, CTA.",
+        "Apóyate en cómo formula las consultas la audiencia — di con claridad que encontrarán lo que buscaron. Luego mide la conversión en analytics — no la sensación de «copy bonito».",
+      ],
+    },
+  ],
+  closing: [
+    "Tráfico sin leads señala que la promesa de la página no engancha o no invita a actuar. Refuerza la oferta, convierte features en beneficios, añade un CTA y revisa la audiencia — las palabras mágicas no existen.",
+  ],
+  related: [
+    "utp",
+    "tekst-lendinga",
+    "optimizatsiya-konversii",
+    "formy-zahvata",
+    "lending",
+    "potrebitelskiy-insayt",
+  ],
+};

@@ -114,3 +114,118 @@ export const magnetSsylkaEn: BlogPost = {
     "veb-arhiv",
   ],
 };
+
+/** ES overlay for magnet-ssylka — same structure as RU JSON / EN. */
+export const magnetSsylkaEs: BlogPost = {
+  slug: "magnet-ssylka",
+  title: "Enlaces magnet: qué son y cómo funcionan",
+  date: "2020-08-06",
+  category: "Websites",
+  cover: "/images/blog/magnet-ssylka/cover.webp",
+  excerpt:
+    "Qué es una magnet URI: un hash de archivo en vez de una URL normal, parámetros xt/dn/tr, cómo difiere de un .torrent y riesgos de descarga. Sin catálogos de trackers piratas.",
+  lead: [
+    "Un enlace magnet (magnet URI) no es una dirección de sitio — es una cadena con un identificador de contenido (suele ser un hash de archivo en la red BitTorrent). El cliente usa el hash para hallar peers que tienen los datos y descargar peer-to-peer.",
+    "Abajo: estructura del enlace, escenarios legítimos y riesgos. No cubrimos buscar contenido pirateado ni saltar bloques de trackers: descargar material protegido ajeno es ilegal; tú respondes del malware en «shares».",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia un magnet de un archivo .torrent?",
+      a: "En un .torrent, los metadata a menudo viven en el archivo. Un magnet lleva el hash (y opcionalmente nombre/trackers) en el propio enlace — fácil de copiar como texto. La descarga es la misma clase P2P.",
+    },
+    {
+      q: "¿Un magnet es más seguro que un enlace de descarga normal?",
+      a: "No automáticamente. Un hash no garantiza legalidad ni ausencia de malware. Comprueba la fuente y los derechos sobre el contenido.",
+    },
+    {
+      q: "¿Se puede «bloquear» un magnet?",
+      a: "La cadena como texto es difícil de «banear globalmente», pero ISPs, plataformas y tribunales limitan el acceso a recursos piratas. «Imbloqueable = puedes descargar cualquier cosa» es una conclusión falsa.",
+    },
+    {
+      q: "¿Cuáles son usos legítimos?",
+      a: "Compartir tus propios archivos con derechos, open data, distros Linux y otro contenido bajo licencia permitida — cuando el titular de derechos lo permite.",
+    },
+    {
+      q: "¿Hace falta un cliente aparte?",
+      a: "Sí, un cliente BitTorrent que entienda magnets. El navegador suele pasar el enlace al programa instalado.",
+    },
+  ],
+  sections: [
+    {
+      title: "Estructura y cómo difiere de una URL",
+      level: 2,
+      paras: [
+        "Una URL normal apunta a un host y path (https://example.com/file.zip). Un magnet empieza con `magnet:?` y describe el contenido vía parámetros separados por `&`.",
+        "El parámetro clave es `xt` (exact topic): a menudo `urn:btih:` más un BitTorrent Info Hash. El cliente halla peers por él. Opcional: `dn` (nombre), `xl` (tamaño), `tr` (announce de tracker), otros campos.",
+        "El orden de parámetros no es rígido. Lo que importa es un hash correcto. Sin clientes y peers que tengan el archivo, el enlace está «vacío»: es un puntero, no storage en un servidor.",
+        "El navegador puede ofrecer abrir el magnet en uTorrent, qBittorrent, Transmission y apps similares. O pegas la cadena en el cliente a mano.",
+      ],
+      lists: [
+        {
+          intro: "Qué suele contener la cadena:",
+          items: [
+            "`magnet:?` — el scheme",
+            "`xt` — hash/URN del contenido",
+            "`dn` — nombre visible",
+            "`tr` — trackers (no siempre)",
+            "otros campos opcionales",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Qué es una URL",
+          href: "/es/blog/url-adres/",
+        },
+        {
+          label: "Qué es un enlace",
+          href: "/es/blog/chto-takoe-ssylka/",
+        },
+      ],
+    },
+    {
+      title: "Práctica, riesgos y la ley",
+      level: 2,
+      paras: [
+        "Beneficios del formato para sharing lícito: fácil de enviar como texto, no hace falta un .torrent aparte, se puede combinar con DHT y trackers. Eso es comodidad de protocolo — no una indulgencia para la piratería.",
+        "Riesgos: malware disfrazado de película/software, exposición de IP en P2P, reclamaciones de titulares de derechos. No abras magnets dudosos «de un foro».",
+        "No recomendamos catálogos y trackers con contenido claramente pirateado ni los listamos como «dónde descargar». Si necesitas una distro legal — tómalo del sitio oficial del proyecto.",
+        "Puedes crear un magnet para tu archivo en un cliente BitTorrent: añade un share → obtén una Magnet URI. Comparte solo lo que tienes derechos a compartir.",
+        "En resumen: un enlace magnet direcciona un archivo por hash en P2P. Entiende la tech y los límites legales; no confundas la comodidad del formato con un derecho sobre el contenido ajeno.",
+      ],
+      lists: [
+        {
+          intro: "Antes de descargar vía magnet:",
+          items: [
+            "el titular/licencia está claro",
+            "la fuente es de confianza",
+            "el cliente está actualizado",
+            "no esperas «anonimato por defecto»",
+            "antivirus y sentido común están en su sitio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Seguridad del sitio",
+          href: "/es/blog/bezopasnost-sayta/",
+        },
+        {
+          label: "Copyright en Instagram",
+          href: "/es/blog/avtorskie-prava-instagram/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "url-adres",
+    "chto-takoe-ssylka",
+    "bezopasnost-sayta",
+    "avtorskie-prava-instagram",
+    "veb-arhiv",
+  ],
+};

@@ -161,3 +161,165 @@ export const tochkiRostaSaytaEn: BlogPost = {
     "tochki-vhoda",
   ],
 };
+
+/** ES overlay for tochki-rosta-sayta — same structure as RU JSON / EN. */
+export const tochkiRostaSaytaEs: BlogPost = {
+  slug: "tochki-rosta-sayta",
+  title: "Puntos de crecimiento del sitio: dónde mirar cuando el tráfico y los leads se estancan",
+  date: "2019-09-20",
+  category: "Digital marketing",
+  cover: "/images/blog/tochki-rosta-sayta/cover.webp",
+  excerpt:
+    "Qué hacer cuando el crecimiento del sitio llega a una meseta: ampliar el conjunto de keywords, reforzar CRO y landings, corregir comportamiento y velocidad, sumar contenido y canales — sin el mito de que ya está todo exprimido.",
+  lead: [
+    "Incluso con buen impulso, un proyecto a veces choca con una meseta: parece que se alcanzó el techo. Más a menudo es un conjunto de keywords estrecho, landings débiles o uno o dos canales de tráfico — no un límite físico del nicho.",
+    "Abajo: palancas de crecimiento que funcionan. No ocho botones para cualquier sitio, sino un checklist de prioridades. La preparación SEO no es lo mismo que rankings en primera página; reunir posiciones del conjunto se planea a 2–6 meses tras empezar el trabajo.",
+  ],
+  faq: [
+    {
+      q: "¿Una meseta significa que ya no queda nada por mejorar?",
+      a: "Rara vez. Más a menudo faltan clusters, CRO o canales extra. Una región o nicho estrecho tapa el techo, pero no borra los puntos de crecimiento.",
+    },
+    {
+      q: "¿Por dónde empezar a buscar crecimiento?",
+      a: "Con el diagnóstico: dónde pierdes — demanda, posiciones, conversión o volumen de tráfico. Luego una o dos palancas, no todo a la vez.",
+    },
+    {
+      q: "¿Las páginas nuevas siempre traen crecimiento?",
+      a: "Solo si cubren demanda real y no generan thin content. Si no — ruido en el índice.",
+    },
+    {
+      q: "¿Se pueden mejorar métricas de comportamiento con tráfico falso?",
+      a: "No. Corrige velocidad, relevancia y UX. El engagement falso arriesga sanciones.",
+    },
+    {
+      q: "¿Basta el SEO solo?",
+      a: "En algunos nichos — de forma temporal. Más durable es un stack: búsqueda + paid + email/contenido alineado al ciclo de la venta.",
+    },
+    {
+      q: "¿Cuánto tardan las landings nuevas en mostrar efecto?",
+      a: "La preparación de páginas lleva semanas; una aportación orgánica notable de clusters nuevos se planea en meses — no primera página mañana.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cuando parece que el crecimiento se acabó",
+      level: 2,
+      paras: [
+        "El estancamiento casi siempre significa: el conjunto de keywords está recogido, las landings son débiles, un canal alimenta todo, o la tech/velocidad corta la conversión. Un tema estrecho y una región pequeña complican el cuadro, pero casi siempre quedan intents sin cubrir y temas relacionados.",
+        "Primero fija métricas base: tráfico, visibilidad, CR, CPA. Si no, no distinguirás una palanca real del ruido.",
+      ],
+      links: [
+        {
+          label: "Caída de tráfico",
+          href: "/es/blog/snizhenie-trafika/",
+        },
+        {
+          label: "Pronóstico de tráfico",
+          href: "/es/blog/prognoz-trafika/",
+        },
+      ],
+    },
+    {
+      title: "Keywords y landings nuevas",
+      level: 2,
+      paras: [
+        "La palanca más directa en búsqueda es cubrir la demanda con páginas por clusters: tendencias del nicho, refinamientos, partir secciones amplias en estrechas. Amplía la audiencia con temas relacionados (p. ej. construcción → diseño y parcela) si eso es tu embudo.",
+        "No generes muros por keywords. Una página fuerte por cluster gana a diez finas.",
+      ],
+      links: [
+        {
+          label: "Núcleo semántico",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Puntos de entrada de competidores",
+          href: "/es/blog/tochki-vhoda/",
+        },
+      ],
+    },
+    {
+      title: "Conversión y landings",
+      level: 2,
+      paras: [
+        "En comercio, el crecimiento de tráfico sin CRO a menudo es inútil. Revisa a los competidores líderes en tus keywords, halla bloques que te faltan, recoge objeciones del cliente y ciérralas en la página: precio, plazos, garantías, casos, formulario.",
+        "Alinea la oferta del anuncio o snippet con la primera pantalla — o suben los rebotes en vez de los leads.",
+      ],
+      links: [
+        {
+          label: "Optimización de la conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+        {
+          label: "Tasa de rebote del sitio",
+          href: "/es/blog/otkazy-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Comportamiento, contenido y velocidad",
+      level: 2,
+      paras: [
+        "Tiempo en el sitio, profundidad, rebote, retornos — síntomas de calidad, no un objetivo de inflar minutos. Mejora estructura, respuestas a la consulta y caminos internos.",
+        "Una sección informativa (blog/guías) sube awareness y lealtad; la conversión comercial desde info es menor, pero marca y enlaces a menudo pagan la aportación. Velocidad y usabilidad móvil son fondo obligatorio: una página lenta mata SEO y ads. Los interactivos (calculadora, cuenta, builder) impulsan el engagement si resuelven un trabajo del usuario — no de escaparate.",
+      ],
+      lists: [
+        {
+          intro: "Chequeo técnico rápido:",
+          items: [
+            "velocidad en móvil",
+            "plantillas clave responsive",
+            "sin scripts pesados que bloqueen",
+            "objetivos de analytics en acciones clave",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Plan de contenido",
+          href: "/es/blog/kontent-plan/",
+        },
+        {
+          label: "Contenido interactivo",
+          href: "/es/blog/interaktivnyy-kontent/",
+        },
+      ],
+    },
+    {
+      title: "Canales de tráfico adicionales",
+      level: 2,
+      paras: [
+        "Muchos sitios viven de una o dos fuentes. Tiene sentido sumar, con puntería, lo cercano a la audiencia: paid search junto al SEO, ads en social, email, YouTube, plataformas del sector, piezas invitadas, agregadores de precios para e-com — no los diez a la vez.",
+        "Antes de presupuesto en un creator o un ad set, comprueba el encaje de audiencia con tu nicho. Si no, los clics baratos no se vuelven leads.",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Un canal nuevo sin landing y tracking UTM solo ensucia los informes. Primero objetivo y medición, luego escala.",
+        },
+      ],
+      links: [
+        {
+          label: "Fuentes de tráfico",
+          href: "/es/blog/istochniki-trafika/",
+        },
+        {
+          label: "Estrategia de marketing",
+          href: "/es/blog/marketingovaya-strategiya/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Los puntos de crecimiento viven en la demanda, la conversión, la calidad de la experiencia y los canales — casi nunca en otra tool milagro. Elige una o dos palancas desde el diagnóstico, mide el efecto y solo entonces amplía la lista.",
+  ],
+  related: [
+    "semanticheskoe-yadro",
+    "optimizatsiya-konversii",
+    "otkazy-sayta",
+    "istochniki-trafika",
+    "prognoz-trafika",
+    "tochki-vhoda",
+  ],
+};

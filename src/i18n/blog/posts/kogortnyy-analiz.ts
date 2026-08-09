@@ -145,3 +145,149 @@ export const kogortnyyAnalizEn: BlogPost = {
     "mediaplan",
   ],
 };
+
+/** ES overlay for kogortnyy-analiz — same structure as RU JSON / EN. */
+export const kogortnyyAnalizEs: BlogPost = {
+  slug: "kogortnyy-analiz",
+  title: "Análisis de cohortes en marketing: qué es y por qué importa",
+  date: "2019-12-23",
+  category: "Analytics",
+  cover: "/images/blog/kogortnyy-analiz/cover.webp",
+  excerpt:
+    "Qué es una cohorte y en qué se diferencia de un segmento: retención, LTV, ROI por canal y lectura de A/B en el tiempo — en Analytics/GA4 y hojas, sin prometer «magia automática».",
+  lead: [
+    "El análisis de cohortes compara grupos de personas que hicieron la misma acción en el mismo periodo — primera sesión, primera compra, install — y observa cómo cambia una métrica con el tiempo.",
+    "Abajo: definiciones, en qué se diferencia una cohorte de un segmento y por qué las cohortes importan para canales, LTV/ROI y tests. Google Analytics Universal tenía un informe dedicado; en GA4 las cohortes viven en Explorations e informes relacionados — revisa los nombres de pestaña en la UI actual.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia una cohorte de un segmento?",
+      a: "Una cohorte es un rasgo unificador más un momento de inicio (todos los que compraron en enero). Un segmento puede combinar muchos rasgos a la vez (gastó >$100 y vive en Londres).",
+    },
+    {
+      q: "¿Qué acción debe iniciar la cohorte?",
+      a: "La que importe al negocio: primera visita, signup, primera compra, install. Esa elección define qué significa retención.",
+    },
+    {
+      q: "¿Por qué usarlo para ads?",
+      a: "Para ver qué canal trae gente que vuelve y paga después — no solo un primer clic barato.",
+    },
+    {
+      q: "¿Puedo hacerlo en GA4?",
+      a: "Sí, vía Explorations e informes relacionados. No esperes una pantalla uno a uno de Universal Analytics de las guías de 2019.",
+    },
+    {
+      q: "¿Las cohortes sustituyen los tests A/B?",
+      a: "No. El A/B compara variantes ahora; las cohortes muestran cómo se estira el comportamiento de un grupo elegido a lo largo de semanas.",
+    },
+    {
+      q: "¿Qué periodo de cohorte elijo?",
+      a: "Día, semana o mes — según la frecuencia de compra. Poco dato — más amplio; mucho dato — puedes ir más fino.",
+    },
+    {
+      q: "¿El LTV de cohortes es 100% exacto?",
+      a: "Es una estimación desde la historia. Productos nuevos y temporada cambian la foto — refresca el cálculo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cohorte vs segmento",
+      level: 2,
+      paras: [
+        "Una cohorte son personas con un evento de inicio en una ventana de tiempo. Luego sigues una métrica (retención, ingresos, sesiones) por «edad» de cohorte: semana 0, 1, 2…",
+        "Un segmento responde «quiénes son ahora por un conjunto de propiedades». Una cohorte responde «cómo se comportan quienes empezaron entonces». Ambos importan; mezclarlos es un error frecuente del brief.",
+        "Parámetros del analista: evento de inicio, tamaño de ventana de cohorte, horizonte de observación, métrica de comparación.",
+      ],
+      lists: [
+        {
+          intro: "Ejemplo:",
+          items: [
+            "segmento: gastó >$100 en enero y vive en Londres",
+            "cohorte: todos con primera compra en enero (luego miras compras repetidas por mes)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Canales de adquisición y retención",
+      level: 2,
+      paras: [
+        "Arma una cohorte de «primeras visitas en un mes», córtala por canal (paid search, social, organic, email). Compara la cuota que volvió y compró en 1–4 semanas.",
+        "Un canal con clic barato pero retención cero a menudo sale más caro que uno un poco más caro con compras repetidas. Las cohortes lo muestran mejor que el informe de ayer.",
+        "Los canales flojos se arreglan o se cortan; los fuertes se escalan con cuidado — sin olvidar la calidad del lead.",
+      ],
+      links: [
+        {
+          label: "Métricas de ads",
+          href: "/es/blog/metriki-reklamy/",
+        },
+        {
+          label: "Análisis de campaña publicitaria",
+          href: "/es/blog/analiz-reklamnoy-kampanii/",
+        },
+      ],
+    },
+    {
+      title: "LTV, ROI y payback en el tiempo",
+      level: 2,
+      paras: [
+        "Desde cohortes de primeros compradores calculas ingreso acumulado y ARPU del grupo. Comparar cohortes de distintos meses de inicio estima el LTV mediano y el margen para coste de adquisición.",
+        "El ROI del canal en el mes uno a menudo se queda corto: el cliente aún está en el funnel. Una vista mensual de cohorte muestra cuándo alcanza el payback — importante en ciclos de venta largos.",
+        "Las fórmulas siguen igual — (ingresos − coste) / coste; el valor está en el corte por tiempo y canal — no en una celda «lanzamiento = éxito».",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          text: "Sin analítica de funnel completo y CRM, las cohortes de ingresos quedarán incompletas — al menos une leads y pagos.",
+        },
+      ],
+    },
+    {
+      title: "Apps, A/B y estacionalidad",
+      level: 2,
+      paras: [
+        "En apps, una cohorte de installs más un corte por fuente ayuda a no confundir «muchos installs» con retención viva.",
+        "El A/B da conversión instantánea de variante; las cohortes de usuarios A y B muestran si el efecto se sostiene semanas después. Si no, puedes elegir un diseño que brilló y se apagó.",
+        "Compara cohortes «llegaron en Año Nuevo» vs «llegaron en primavera»: la estacionalidad y las promesas de promo cambian el comportamiento.",
+      ],
+    },
+    {
+      title: "Dónde mirar y cómo no complicarlo de más",
+      level: 2,
+      paras: [
+        "En GA4 — Explorations (plantilla de cohortes, funnels, path), más exports a Sheets o BI cuando haga falta. No esperes que «Google Sheets lo calcule todo» sin tu modelo.",
+        "Empieza con una métrica de retención y un corte por canal. Cuando el equipo sepa leer la tabla — añade LTV y tests.",
+        "Las cohortes no sustituyen el control diario de CPA: son una vista de medio y largo horizonte junto al paid search operativo.",
+      ],
+      lists: [
+        {
+          intro: "Recuerda:",
+          items: [
+            "un evento de inicio más tiempo",
+            "una métrica en el tiempo — no solo «ayer»",
+            "compara canales por retención y LTV",
+            "GA4 no es un screenshot de Universal Analytics 2019",
+            "A/B más cohortes gana a cualquiera solo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "GA4 (Google Analytics 4)",
+          href: "/es/blog/ga4/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Arma una cohorte de primera visita del mes pasado, córtala por canal y mira retención a 2–4 semanas — la forma más rápida de separar tráfico barato del que vuelve a pagar.",
+  ],
+  related: [
+    "metriki-reklamy",
+    "analiz-reklamnoy-kampanii",
+    "ga4",
+    "utm-metki",
+    "zabluzhdeniya-konteksta",
+    "mediaplan",
+  ],
+};

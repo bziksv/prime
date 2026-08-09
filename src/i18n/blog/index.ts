@@ -1,6 +1,8 @@
 export {
   EN_BLOG_SLUGS,
+  ES_BLOG_SLUGS,
   isEnBlogSlug,
+  isEsBlogSlug,
   isBlogTranslated,
   localizeBlogPost,
   localizeBlogInteract,

@@ -150,3 +150,154 @@ export const soobshhestvaVkEn: BlogPost = {
     "aktivnost-vk",
   ],
 };
+
+/** ES overlay for soobshhestva-vk — same structure as RU JSON / EN. */
+export const soobshhestvaVkEs: BlogPost = {
+  slug: "soobshhestva-vk",
+  title: "Comunidades VK: página pública, grupo y evento",
+  date: "2020-11-06",
+  category: "SMM",
+  cover: "/images/blog/soobshhestva-vk/cover.webp",
+  excerpt:
+    "En qué se diferencia una página pública de VK de un grupo y un evento, cuándo elegir cada formato y cómo empezar — sin capturas obsoletas ni un catálogo de bots.",
+  lead: [
+    "Una comunidad VK es un espacio alrededor de un tema o marca: noticias, chat, productos, eventos. Hay varios formatos, y las herramientas y tácticas de crecimiento dependen del que elijas.",
+    "Abajo: página pública, grupo y evento, cambios de tipo, branding y contenido. La UI de VK cambia a menudo; no tomes cifras viejas de reach de la plataforma como hecho. El crecimiento de audiencia está en el artículo de promoción de grupo; los placements de pago, en ads de comunidad.",
+  ],
+  faq: [
+    {
+      q: "¿Un negocio debería elegir página pública o grupo?",
+      a: "Los negocios a menudo empiezan con una página pública para presencia de marca o media. Un grupo encaja mejor cuando necesitas privacy, join requests y un feeling más de «club». Revisa las diferencias actuales en VK Help.",
+    },
+    {
+      q: "¿Puedo cambiar el tipo de comunidad después?",
+      a: "Sí, suele haber límites de frecuencia y de tamaño de base. Las comunidades grandes a veces necesitan support.",
+    },
+    {
+      q: "¿Necesito un bot desde el día uno?",
+      a: "No. Primero afina la oferta, el contenido y las respuestas humanas. Añade bots para la rutina solo cuando los escenarios estén claros y dentro de las reglas.",
+    },
+    {
+      q: "¿En qué se diferencia un evento de un grupo?",
+      a: "Un evento tiene fecha, estado de asistencia y recordatorios. Encaja mejor para eventos puntuales y recurrentes que un feed plano.",
+    },
+    {
+      q: "¿Una comunidad garantiza ventas?",
+      a: "No. Es un canal. Sigue haciendo falta oferta, contenido, respuestas y ads cuando haga falta.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué el negocio necesita una comunidad",
+      level: 2,
+      paras: [
+        "Una comunidad mantiene el contacto con la audiencia: noticias, FAQ, reviews, promos y nurture hacia leads. No es un checkbox social, sino un canal de trabajo junto al sitio.",
+        "Antes de correr ads, fija tema, audiencia y objetivo: leads, expertise, servicio o un club de interés.",
+      ],
+      links: [
+        {
+          label: "Cómo promover un grupo de VK",
+          href: "/es/blog/raskrutka-gruppy-vk/",
+        },
+      ],
+    },
+    {
+      title: "Página pública",
+      level: 2,
+      paras: [
+        "Una página pública se construye para contenido abierto de marca: los followers ven posts y a menudo también una audiencia más amplia. Históricamente es más fácil seguir de forma pasiva que unirse a un grupo cerrado.",
+        "Los posts suelen llevarlos el equipo; sugerencias de post y comentarios son configurables. Descripción y contactos quedan a la vista. Revisa las diferencias exactas de UI en el VK actual.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo encaja una página pública:",
+          items: [
+            "canal de marca, media o experto",
+            "un feed regular sin club solo por invitación",
+            "foco en reach y contenido",
+            "tienda o servicios vía productos y mensajes",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Grupo",
+      level: 2,
+      paras: [
+        "Un grupo es más flexible en acceso: abierto, cerrado o privado. Es útil cuando importan la discusión, los join requests y la moderación de miembros.",
+        "Puedes apoyarte más en UGC (si permites el muro), FAQs en discusiones e invitaciones. Para ventas, conecta productos y mensajes — el mismo toolkit que una página pública, aplicado por nicho.",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Afirmaciones viejas como «un grupo nunca aparece en el home feed» envejecen con el feed. Usa la entrega actual y tus propias stats, no un mito de 2018.",
+        },
+      ],
+    },
+    {
+      title: "Evento",
+      level: 2,
+      paras: [
+        "Un formato para fecha y lugar (online u offline): estados «going / maybe», recordatorios, invitaciones. El organizador puede ser una persona o una comunidad.",
+        "Para una serie de eventos, actualiza la fecha en la misma página en lugar de crear cáscaras vacías. Revisa límites de invitaciones en Help — los números de guías viejas pueden estar mal.",
+      ],
+    },
+    {
+      title: "Cambiar formato y empezar el branding",
+      level: 2,
+      paras: [
+        "A veces puedes cambiar el tipo de comunidad si elegiste mal al inicio. Con bases más grandes es más difícil. Tras el cambio, vuelve a revisar secciones, roles y el menú.",
+        "En manage, activa las secciones que necesitas (fotos, vídeo, productos, discusiones). Mantén la descripción corta: quién eres, qué obtiene un follower, contacto y CTA. Usa el menú para enlaces rápidos a precios, un formulario de lead y FAQ.",
+      ],
+      links: [
+        {
+          label: "Mensaje de saludo de comunidad",
+          href: "/es/blog/privetstvie-vk/",
+        },
+        {
+          label: "Comentarios en un público VK",
+          href: "/es/blog/kommentarii-v-pablike-vk/",
+        },
+      ],
+    },
+    {
+      title: "Contenido, bots y ads sin magia",
+      level: 2,
+      paras: [
+        "Mezcla valor, noticias, social proof y ventas suaves. El muro es el escenario principal: texto, visuales, polls, clips — según el nicho.",
+        "Los bots cubren la rutina (FAQ, estados de lead) pero no sustituyen una oferta clara ni respuestas en vivo a preguntas difíciles. No catalogamos builders de bots de 2020 — elige una herramienta actual dentro de las reglas de VK.",
+        "Promoción: cuenta de ads de VK, placements de pago en públicos temáticos, reposts de partners. El «crecimiento garantizado de ventas» solo por crear una comunidad es un mito de marketing.",
+      ],
+      links: [
+        {
+          label: "Ads en públicos de VK",
+          href: "/es/blog/reklama-v-pablikah-vk/",
+        },
+        {
+          label: "Reach de followers en VK",
+          href: "/es/blog/ohvat-podpischikov-vk/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Primero objetivo y formato, luego branding y ritmo de posting. Páginas públicas, grupos y eventos resuelven trabajos distintos.",
+        "El crecimiento llega con valor y ads legítimos — no con followers falsos ni bots de spam.",
+      ],
+    },
+  ],
+  closing: [
+    "Elige el tipo según el trabajo, rellena la descripción y 10–15 posts de arranque, configura las respuestas — y solo entonces escala con ads. Así una comunidad se convierte en canal, no en una cáscara vacía.",
+  ],
+  related: [
+    "raskrutka-gruppy-vk",
+    "privetstvie-vk",
+    "kommentarii-v-pablike-vk",
+    "reklama-v-pablikah-vk",
+    "ohvat-podpischikov-vk",
+    "aktivnost-vk",
+  ],
+};

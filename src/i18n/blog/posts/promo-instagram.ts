@@ -148,3 +148,152 @@ export const promoInstagramEn: BlogPost = {
     "statistika-instagram",
   ],
 };
+
+/** ES overlay for promo-instagram — same structure as RU JSON / EN. */
+export const promoInstagramEs: BlogPost = {
+  slug: "promo-instagram",
+  title: "Instagram Promote: cómo boostear un post y qué vigilar",
+  date: "2020-07-22",
+  category: "SMM",
+  cover: "/images/blog/promo-instagram/cover.webp",
+  excerpt:
+    "Qué es Instagram Promote: cuándo boostear un post, cómo fijar objetivo y presupuesto y en qué se diferencia del Ads Manager completo — sin capturas obsoletas de pago.",
+  lead: [
+    "«Promote» en Instagram es un lanzamiento simplificado de ads desde un post o Stories ya listo: eliges objetivo, audiencia y presupuesto en la app. No es lo mismo que un «descuento promo» de retail.",
+    "Abajo: qué hace la herramienta, lógica de setup, pago y fallos típicos. Los ítems de menú y métodos de pago cambian; consulta Meta Business Help. El Ads Manager completo vive en el artículo de Instagram ads. La nota de Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia Promote del Ads Manager?",
+      a: "Promote es un boost rápido desde la app. Ads Manager da más objetivos, placements y optimizaciones. Para tests Promote puede bastar; para un sistema — la cuenta.",
+    },
+    {
+      q: "¿Necesito una cuenta business?",
+      a: "Suele ser que sí: un perfil professional/business y permisos de ads. En un personal «solo blog» el botón a menudo no aparece.",
+    },
+    {
+      q: "¿Puedo editar el creativo tras el lanzamiento?",
+      a: "A menudo no puedes cambiar el creativo del post «sobre la marcha» en el mismo ad. Presupuesto, duración y audiencia a veces se editan en Ads — revisa las opciones actuales.",
+    },
+    {
+      q: "¿Es lo mismo que el artículo de «promociones» del sitio?",
+      a: "No. Ese cubre descuentos y mecánicas de retail. Este — promoción de pago de un post de Instagram.",
+    },
+    {
+      q: "¿Por qué no arranca mi promo de Instagram?",
+      a: "Sin derechos de admin, tipo de perfil equivocado, el post falló la review, un problema de pago o región. Revisa notificaciones y Help.",
+    },
+  ],
+  sections: [
+    {
+      title: "Idea central: boostear un post, no un «descuento de tienda»",
+      level: 2,
+      paras: [
+        "Tomas contenido ya publicado y pagas impresiones/clics/mensajes a una audiencia nueva bajo parámetros elegidos.",
+        "El objetivo — leads, tráfico, awareness o crecimiento de audiencia — lo fijas antes del lanzamiento. Sin objetivo el presupuesto va a «solo reach».",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Importante",
+          text: "Los ads no salvan un post débil con una oferta borrosa. Primero frame y CTA claros, luego el boost.",
+        },
+      ],
+    },
+    {
+      title: "Antes del lanzamiento",
+      level: 2,
+      paras: [
+        "Perfil profesional y acceso a ads.",
+        "Audiencia: geo, edad, intereses — o lookalike/retarget donde esté disponible.",
+        "Formato: post del feed y/o Stories — vertical para stories, oferta legible sin sonido.",
+        "Presupuesto y duración: tope diario/total y un test claro (no «todo el dinero el día uno»).",
+      ],
+      lists: [
+        {
+          intro: "Mini plan:",
+          items: [
+            "un objetivo para el test",
+            "un creativo fuerte",
+            "UTM o código promo para medir",
+            "un umbral de stop si el CPL es malo",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo lanzar en la app",
+      level: 2,
+      paras: [
+        "Abre el post → «Promote» (o desde insights / el centro de ads del perfil).",
+        "Elige un objetivo (mensajes, visitas, llamadas, audiencia — el set depende de la versión).",
+        "Fija audiencia y presupuesto → preview → envía a review.",
+        "Los clics exactos del menú cambian; si no hay botón — revisa tipo de cuenta y permisos.",
+      ],
+      links: [
+        {
+          label: "Ads en Instagram",
+          href: "/es/blog/reklama-instagram/",
+        },
+        {
+          label: "Cuenta business",
+          href: "/es/blog/biznes-akkaunt-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Pago y review",
+      level: 2,
+      paras: [
+        "El pago va por un perfil de billing de Meta: tarjeta y otros métodos disponibles en la región. No actualizamos catálogos viejos de «QIWI/Sber como único camino».",
+        "La review puede tardar. Un post rechazado — corrige según las reglas de ads (copy, producto, promesas).",
+        "Los cargos suelen seguir impresiones/resultados dentro del presupuesto; si paras antes — por lo que se entregó de verdad.",
+      ],
+    },
+    {
+      title: "Editar, pausar, evaluar",
+      level: 2,
+      paras: [
+        "En Ads / el centro de ads puedes bajar presupuesto, cambiar audiencia o pausar — en la medida que lo permita la UI.",
+        "Mira más allá de likes del ad: coste por resultado, calidad del diálogo, leads con UTM.",
+        "Un buen Promote = oferta clara + audiencia relevante + landing rápido — no «días mágicos de la semana» de roundups ajenos.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Confusión habitual",
+          text: "Casos de descuentos retail «Magnet × joyería» son promos de tienda, no necesariamente el botón Promote de Instagram. Mecánicas de descuento — en un artículo aparte.",
+        },
+      ],
+      links: [
+        {
+          label: "Promociones (retail)",
+          href: "/es/blog/promoaktsii/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Instagram Promote = un boost rápido de contenido cuando tienes permisos y pago.",
+        "Para sistemas de campaña usa la cuenta completa; para un test de post — Promote tras un creativo fuerte.",
+      ],
+    },
+  ],
+  closing: [
+    "Elige un post fuerte con un CTA claro, fija un objetivo y un presupuesto de test pequeño — más rápido saber si te basta Promote simplificado o ya necesitas Ads Manager.",
+  ],
+  related: [
+    "reklama-instagram",
+    "biznes-akkaunt-instagram",
+    "promoaktsii",
+    "keisy-facebook-ads",
+    "facebook-ads",
+    "statistika-instagram",
+  ],
+};

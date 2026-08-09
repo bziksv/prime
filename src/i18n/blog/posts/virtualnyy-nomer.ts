@@ -111,3 +111,115 @@ export const virtualnyyNomerEn: BlogPost = {
     "metriki-reklamy",
   ],
 };
+
+/** ES overlay for virtualnyy-nomer — same structure as RU JSON / EN. */
+export const virtualnyyNomerEs: BlogPost = {
+  slug: "virtualnyy-nomer",
+  title: "Números de teléfono virtuales: por qué los necesita el negocio y dónde están los límites",
+  date: "2020-07-21",
+  category: "Digital marketing",
+  cover: "/images/blog/virtualnyy-nomer/cover.webp",
+  excerpt:
+    "Qué es un número virtual: recibir SMS y llamadas por internet, casos de uso de negocio (call tracking, toll-free, IVR) y riesgos de «números gratis para registros». Sin guías para saltar reglas de plataforma.",
+  lead: [
+    "Un número virtual es un teléfono en la nube de un operador o servicio: llamadas y SMS llegan a una app o vía desvío, sin una línea física en la oficina.",
+    "Abajo: trabajos de negocio legítimos y cautela con «números SMS» masivos. No copiamos precios de reviews de 2020 ni listas de marcas; elige el setup por el trabajo y el contrato, no «el receptor de códigos más barato».",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia de una SIM habitual?",
+      a: "No hay tarjeta física en el bolsillo: el número vive con el proveedor y lo gestionas por cuenta o API. Para el negocio, escalar líneas suele ser más fácil.",
+    },
+    {
+      q: "¿Se puede usar para call tracking?",
+      a: "Sí — un escenario clásico: números distintos en ads muestran de dónde vino la llamada. Hace falta vínculo con analytics y CRM.",
+    },
+    {
+      q: "¿Se pueden crear cuentas social con él?",
+      a: "Saltar reglas de plataforma y correr multi-cuentas vía números desechables arriesga bans y reclamaciones legales. No lo cubrimos como how-to.",
+    },
+    {
+      q: "¿Son seguros los números SMS públicos gratis?",
+      a: "A menudo no: el número lo ve todo el mundo, terceros pueden leer códigos y la cuenta es fácil de hijackear. Mala elección para servicios importantes.",
+    },
+    {
+      q: "¿Hace falta internet todo el tiempo?",
+      a: "Para apps y cuentas web — sí. El desvío a un móvil puede funcionar distinto; comprueba con el proveedor.",
+    },
+  ],
+  sections: [
+    {
+      title: "Quién lo necesita y qué trabajos cubre",
+      level: 2,
+      paras: [
+        "Uso de negocio: una línea aparte para ads, números toll-free, IVR («pulse 1…»), alertas de voz, SMS a clientes con consentimiento, varios staff en una PBX en la nube.",
+        "El código de área de un número (p. ej. un código de ciudad) no hace legalmente a la empresa «de esa ciudad». No uses un número para fingir ubicación — siguen riesgo de reputación y legal. Una oferta y un servicio honestos ganan a un «código de área bonito».",
+        "Un caso privado de «no mostrar mi número personal en un formulario puntual» a veces se resuelve con una SIM de trabajo o una línea corporativa. Los números web públicos donde cualquiera ve SMS son peligrosos para banca y email.",
+        "Broadcasts y notificaciones — solo bajo reglas de telecom y con consentimiento de lista. Un número virtual no te exime de la ley de publicidad y datos personales.",
+      ],
+      lists: [
+        {
+          intro: "Casos de uso sólidos:",
+          items: [
+            "call tracking de ads",
+            "un número con desvío a móviles",
+            "IVR y colas de llamada",
+            "códigos SMS a staff o clientes dentro de un servicio",
+            "una línea de soporte aparte",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Marketing por SMS",
+          href: "/es/blog/sms-rassylka/",
+        },
+        {
+          label: "Analytics de extremo a extremo",
+          href: "/es/blog/skvoznaya-analitika/",
+        },
+      ],
+    },
+    {
+      title: "Cómo elegir y qué comprobar",
+      level: 2,
+      paras: [
+        "Para el negocio, comprueba: contrato, jurisdicción, calidad de llamada, API, grabación de llamadas (con aviso), integración CRM, códigos toll-free y locales. Los grandes proveedores de telefonía en la nube y CPaaS (Twilio y similares) son infraestructura — no «una cuenta social más».",
+        "Los showcases gratis de «recibir SMS online» y activadores de un solo uso valen para experimentos pero son débiles para dinero y datos: los números se reutilizan, los códigos se filtran, el soporte es cero. No armes sobre ellos el acceso a email, banco o cuenta de ads.",
+        "Setup típico: registrarte con un proveedor → elegir número y plan → app o SIP/desvío → probar una llamada y un SMS. No hace falta hardware de oficina; hace falta internet estable para un softphone.",
+        "Precios como «céntimos por número» de artículos viejos no son una guía. Cuenta por minuto, SMS, coste mensual del número y términos del contrato.",
+        "En resumen: un número virtual es una tool de telefonía y analytics. Úsalo para un proceso de negocio bajo contrato — no lo confundas con esquemas grises de multi-cuenta.",
+      ],
+      lists: [
+        {
+          intro: "Checklist del proveedor:",
+          items: [
+            "contrato y facturas claros",
+            "códigos de país y ciudad necesarios",
+            "desvío y/o SIP",
+            "logs y grabación dentro de las reglas",
+            "integración CRM y analytics",
+            "sin números SMS «compartidos» públicos para nada importante",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Cuenta de ads",
+          href: "/es/blog/reklamnyy-kabinet/",
+        },
+        {
+          label: "Agencia digital",
+          href: "/es/blog/didzhital-agentstvo/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "sms-rassylka",
+    "skvoznaya-analitika",
+    "reklamnyy-kabinet",
+    "didzhital-agentstvo",
+    "metriki-reklamy",
+  ],
+};

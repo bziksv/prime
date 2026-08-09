@@ -1,5 +1,159 @@
 import type { BlogPost } from "../../../data/blog";
 
+/** ES overlay for moderatsiya-meditsina — same structure as RU JSON. */
+export const moderatsiyaMeditsinaEs: BlogPost = {
+  slug: "moderatsiya-meditsina",
+  title: "Moderación de anuncios de salud en Yandex Direct y Google Ads",
+  date: "2019-09-13",
+  category: "Paid search",
+  cover: "/images/blog/moderatsiya-meditsina/cover.webp",
+  excerpt:
+    "Cómo pasar la revisión de Yandex Direct y Google Ads en salud: qué suele prohibirse y permitirse, matices de redes vs Search, copy sin banderas rojas y qué hacer si te rechazan — según las políticas actuales de las plataformas.",
+  lead: [
+    "Salud y pharma en búsqueda de pago se revisan más duro que nichos normales: anuncios y landings se contrastan con las políticas de Yandex y Google y con la ley del país donde muestras. Un error de redacción o del sitio significa rechazo o entrega limitada.",
+    "Abajo: cómo funcionan prohibiciones y permisos, matices típicos de Direct y Ads, tips prácticos de copy y qué hacer tras un rechazo. Las listas concretas cambian — antes de lanzar, mira las reglas oficiales y un abogado, no la memoria de 2019.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de las plataformas. Facebook* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Por qué la salud se modera con más rigor?",
+      a: "Riesgos para la salud y exigencias legales. Las plataformas limitan fármacos con receta, diagnóstico online, ciertos procedimientos y temas «sensibles».",
+    },
+    {
+      q: "¿Se puede anunciar una clínica en Direct?",
+      a: "Normalmente sí — con redacción correcta, licencias en el sitio y cumplimiento de políticas. Cortan servicios prohibidos y promesas del tipo «curamos al 100%».",
+    },
+    {
+      q: "¿En qué se diferencia Search de las redes?",
+      a: "En redes y remarketing, temas íntimos/sensibles y creatividades suelen ser más estrictos. Lo que pasa en Search puede fallar en YAN/Display.",
+    },
+    {
+      q: "¿Ayuda suavizar el wording sin palabras prohibidas?",
+      a: "Arriesgado: la revisión mira el anuncio y la landing. Un phrasing gris puede pasar una vez y caer en una re-revisión.",
+    },
+    {
+      q: "¿Qué hacer si te rechazan?",
+      a: "Lee el motivo, corrige copy/sitio, adjunta documentos vía soporte de la plataforma. «Un competidor lo tiene» no es garantía.",
+    },
+    {
+      q: "¿Hacen falta documentos en el sitio?",
+      a: "Sí: licencias, datos legales, avisos de edad/receta — lo que exijan la ley y la política publicitaria.",
+    },
+    {
+      q: "¿Es lo mismo que la revisión de Facebook Ads?",
+      a: "No. Meta es otra capa de políticas. Aquí — Yandex y Google Ads.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué la salud necesita su propio playbook",
+      level: 2,
+      paras: [
+        "En e-commerce normal la revisión suele pillar clickbait y productos prohibidos. En salud además entran recetas, servicios médicos a distancia, promesas de resultado y diagnósticos «sensibles».",
+        "Plan: entender el marco legal y de políticas → revisar el sitio → escribir anuncios en tono neutro → elegir la superficie (Search vs redes) → si rechazan — corregir y escalar con documentos.",
+      ],
+      links: [
+        {
+          label: "Moderación de Facebook Ads",
+          href: "/es/blog/moderatsiya-facebook-ads/",
+        },
+        {
+          label: "El sitio antes de la publicidad",
+          href: "/es/blog/sayt-pered-reklamoy/",
+        },
+      ],
+    },
+    {
+      title: "Marco de prohibiciones y permisos",
+      level: 2,
+      paras: [
+        "Apóyate en las políticas publicitarias de Yandex y Google más la ley local sobre anuncios de fármacos y servicios médicos. Las listas «permitido/prohibido» de guías viejas se quedan obsoletas: mira la Help actual y el estatus legal de la oferta.",
+        "Suele estar en riesgo: venta online de fármacos con receta, diagnóstico/tratamiento a distancia sin autorización, sustancias psicoactivas, aborto como oferta, promesas agresivas de cura.",
+        "Más a menudo permitido (si se cumplen las reglas): clínicas y hospitales, veterinaria, farmacias como organizaciones, OTC y dispositivos médicos — si el copy y el sitio no rompen la ley ni la política de la plataforma.",
+      ],
+      lists: [
+        {
+          intro: "Antes de enviar un anuncio:",
+          items: [
+            "la oferta es legal en la región de impresión",
+            "el sitio tiene licencias, contactos, disclaimers",
+            "el copy no garantiza resultados ni lleva visuales «scary»",
+            "la landing encaja con el anuncio",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Matices de Yandex Direct",
+      level: 2,
+      paras: [
+        "Direct revisa salud y pharma con especial dureza, sobre todo en formatos smart y redes. Temas íntimos/sensibles y ciertos diagnósticos pueden limitarse en YAN y remarketing aunque Search vaya bien.",
+        "«Solo adultos» y categorías sensibles suelen ir mejor en Search con targeting temático, donde el usuario escribió la consulta. No muevas la misma creatividad a redes sin comprobar.",
+        "Un wording indirecto sin nombrar el servicio prohibido no legaliza la oferta: revisión y re-checks miran el sentido y la landing.",
+      ],
+      links: [
+        {
+          label: "Anuncios adaptativos en Direct",
+          href: "/es/blog/adaptivnyy-shablon-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Matices de Google Ads",
+      level: 2,
+      paras: [
+        "Ads aplica políticas de Healthcare y productos/servicios restringidos. Frases como «te curamos», «garantía», «sin efectos secundarios» y creatividades de shock son motivos habituales de rechazo.",
+        "Nombres neutros de clínica y servicio sin clickbait pasan más estables que promesas de tratamiento «barato». Los titulares dinámicos y DSA no saltan la política: el sistema saca keywords del sitio — limpia también las landings.",
+        "Prepara documentos y certificaciones para categorías que los exigen — o la cuenta choca con límites de entrega.",
+      ],
+      links: [
+        {
+          label: "Tipos de campaña en Google Ads",
+          href: "/es/blog/tipy-kampaniy-google-ads/",
+        },
+      ],
+    },
+    {
+      title: "Copy, sitio y soporte",
+      level: 2,
+      paras: [
+        "Escribe en positivo/neutro: servicio, clínica, cita — sin describir operaciones, lesiones ni before/after de shock. Fotos — sin sangre ni sintomatología fuerte.",
+        "Si te rechazan: corrige el motivo del email de revisión, adjunta licencias vía soporte, no copies anuncios polémicos de competidores como prueba de que «está permitido».",
+        "La re-revisión manual lleva tiempo: hasta tener respuesta, no lances el mismo texto en docenas de anuncios — multiplicas el rechazo.",
+      ],
+      lists: [
+        {
+          intro: "Checklist antes de reenviar:",
+          items: [
+            "motivo de rechazo desglosado punto a punto",
+            "sitio y anuncio alineados",
+            "documentos adjuntos",
+            "test separado en Search antes de escalar a redes",
+          ],
+        },
+      ],
+    },
+  ],
+  notes: {
+    title: "Importante",
+    text: "Las reglas de salud en Direct y Google Ads se actualizan. Este texto es un marco de método — no consejo legal ni una lista vigente de prohibiciones. Antes del presupuesto, mira la Help de la plataforma y un especialista en derecho publicitario.",
+  },
+  closing: [
+    "Primero alinea el sitio y la redacción de la oferta con la ley y las políticas; después arma la campaña: la revisión en salud es más previsible así que parchear tras una racha de rechazos.",
+  ],
+  related: [
+    "moderatsiya-facebook-ads",
+    "sayt-pered-reklamoy",
+    "tipy-kampaniy-google-ads",
+    "adaptivnyy-shablon-direkt",
+    "zabluzhdeniya-konteksta",
+    "analiz-reklamnoy-kampanii",
+  ],
+};
+
 /** EN overlay for moderatsiya-meditsina — same structure as RU JSON. */
 export const moderatsiyaMeditsinaEn: BlogPost = {
   slug: "moderatsiya-meditsina",

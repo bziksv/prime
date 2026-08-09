@@ -126,3 +126,130 @@ export const yuzabilitiInternetMagazinaEn: BlogPost = {
     "adaptivnyy-sayt",
   ],
 };
+
+/** ES overlay for yuzabiliti-internet-magazina — same structure as RU JSON / EN. */
+export const yuzabilitiInternetMagazinaEs: BlogPost = {
+  slug: "yuzabiliti-internet-magazina",
+  title: "18 errores de usabilidad ecommerce que matan la conversión",
+  date: "2018-08-31",
+  category: "E-commerce",
+  cover: "/images/blog/yuzabiliti-internet-magazina/cover.webp",
+  excerpt:
+    "Formularios largos, sin búsqueda o layout móvil, términos ocultos, registro forzado, fichas débiles, fricción en carrito y checkout — un checklist UX de ecommerce sin promesas de «arréglalo y al instante ×2».",
+  lead: [
+    "La baja conversión de una tienda a menudo no es «falta de tráfico» — es fricción: no encuentran el producto, el envío no está claro, el carrito se vacía, el formulario pide una biografía.",
+    "Aquí van errores UX típicos y qué arreglar. Una pieza vecina cubre misses ocultos de SEO y catálogo; esta se centra en el camino a la compra. «18 errores» es una guía-lista — no un número mágico.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia del artículo de 7 errores de optimización?",
+      a: "Aquel cubre duplicados, filtros y pop-ups del catálogo. Este cubre búsqueda, ficha, carrito, checkout y trust en el camino del pedido.",
+    },
+    {
+      q: "¿Los compradores tienen que registrarse?",
+      a: "Guest checkout o un mínimo de campos es mejor. Login social es una opción — no el único camino.",
+    },
+    {
+      q: "¿Hace falta una app móvil?",
+      a: "No es obligatorio. Primero un sitio responsive decente; una app solo si tienes compras repetidas y recursos para sostenerla.",
+    },
+    {
+      q: "¿Por qué importa la persistencia del carrito?",
+      a: "Una pestaña cerrada o un blip de red sin guardar mata el pedido. Mantén el contenido del carrito entre sesiones donde encaje.",
+    },
+    {
+      q: "¿Cuándo mostrar el precio con envío?",
+      a: "Lo antes posible — antes de una sorpresa final. El total debe recalcularse a la vista.",
+    },
+    {
+      q: "¿Basta una foto del producto?",
+      a: "Rara vez. Hacen falta ángulos, calidad legible y stock en la página antes del checkout.",
+    },
+  ],
+  sections: [
+    {
+      title: "Entrar al catálogo: formularios, búsqueda, móvil",
+      level: 2,
+      paras: [
+        "Los formularios largos asustan: recoge un mínimo, usa hints y autofill (CP, ciudad). La búsqueda del sitio es obligatoria si el surtido es más que un par de escaparates — y mira qué busca la gente de verdad.",
+        "Sin un layout mobile-friendly pierdes una gran cuota de visitas. Responsive gana a una app obligatoria.",
+        "Términos de pago, envío y garantía — visibles y en checkout. Contactos y horario suben trust incluso sin local offline.",
+      ],
+      lists: [
+        {
+          intro: "Registro sin dolor:",
+          items: [
+            "comprar sin cuenta",
+            "un formulario corto",
+            "un bonus tras el signup — opcional",
+            "no bloquees el pedido detrás del login social",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Carrito abandonado",
+          href: "/es/blog/broshennaya-korzina/",
+        },
+        {
+          label: "Sitio web responsive",
+          href: "/es/blog/adaptivnyy-sayt/",
+        },
+      ],
+    },
+    {
+      title: "Ficha de producto y carrito",
+      level: 2,
+      paras: [
+        "Un producto sin descripción real y fotos borrosas no compite. Hacen falta specs en lenguaje claro, stock o plazo, varios ángulos o vídeo.",
+        "Los cross-sells encajan como similares o relacionados, no un muro de pop-ups. El carrito no debería vaciarse al refrescar; las líneas necesitan una descripción corta y precio.",
+        "Tras el pedido — un siguiente paso claro: número de pedido, cuándo os pondréis en contacto, plazos y pago. Ofrece un pedido rápido (nombre más teléfono) para quien no quiere un checkout largo.",
+      ],
+      links: [
+        {
+          label: "Ficha de producto",
+          href: "/es/blog/kartochka-tovara/",
+        },
+        {
+          label: "Errores de tienda online",
+          href: "/es/blog/oshibki-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "Pago y cierre del pedido",
+      level: 2,
+      paras: [
+        "Cuando falla el pago, explica por qué y qué hacer después — no un error silencioso. Hints de campos y auto-guardado del input bajan la rabia cuando un formulario se resetea.",
+        "El total debe actualizarse cuando cambian envío o pago; fees ocultos en el último paso son drop-off clásico. Envía al comprador una copia del pedido por email.",
+      ],
+      notes: [
+        {
+          title: "Prioridad de fixes",
+          text: "Primero checkout móvil, precio y envío transparentes, y persistencia del carrito. Los widgets de ticket medio vienen cuando el camino de compra ya está estable.",
+        },
+      ],
+      links: [
+        {
+          label: "Pago online",
+          href: "/es/blog/onlayn-oplata/",
+        },
+        {
+          label: "Checklist del sitio web",
+          href: "/es/blog/cheklist-sayta/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "La usabilidad de una tienda es menos fricción desde encontrar un producto hasta el email de «pedido recibido». Recorre el checklist en formularios, ficha, carrito y pago — y mide la conversión de checkout, no cuántas casillas marcaste.",
+  ],
+  related: [
+    "oshibki-internet-magazina",
+    "broshennaya-korzina",
+    "kartochka-tovara",
+    "onlayn-oplata",
+    "cheklist-sayta",
+    "adaptivnyy-sayt",
+  ],
+};

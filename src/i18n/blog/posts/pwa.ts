@@ -130,3 +130,134 @@ export const pwaEn: BlogPost = {
     "bezopasnost-sayta",
   ],
 };
+
+/** ES overlay for pwa — same structure as RU JSON / EN. */
+export const pwaEs: BlogPost = {
+  slug: "pwa",
+  title: "PWA: qué son las Progressive Web Apps y cuándo las necesitas",
+  date: "2019-09-10",
+  category: "Digital marketing",
+  cover: "/images/blog/pwa/cover.webp",
+  excerpt:
+    "Qué es una PWA: un sitio con manifest y Service Worker, instalación en la pantalla de inicio, cache offline y push. Pros para tiendas y los límites — sin prometer un boost automático de rankings en Google.",
+  lead: [
+    "Una PWA (Progressive Web App) es un sitio web que se comporta más cerca de una app: puedes añadirla a la pantalla de inicio, trabajar en parte offline y enviar notificaciones donde el navegador y el OS lo permiten.",
+    "Abajo: de qué está hecha una PWA, por qué la necesita el negocio y requisitos del sitio. No sustituye una app nativa de store ni es un botón para subir SEO — empieza con un sitio responsive rápido en HTTPS.",
+  ],
+  faq: [
+    {
+      q: "¿Una PWA se instala desde App Store / Google Play?",
+      a: "Suele no: el usuario añade el sitio desde el navegador a la pantalla de inicio. Existen escenarios de publicación en stores, pero la PWA clásica es web + instalable.",
+    },
+    {
+      q: "¿Una PWA sube los rankings de búsqueda?",
+      a: "No hay un «bonus PWA» directo. De forma indirecta ayudan HTTPS, velocidad y un UX móvil sólido — y eso se puede mejorar sin una PWA completa.",
+    },
+    {
+      q: "¿Qué se requiere técnicamente?",
+      a: "HTTPS, un web manifest (nombre, iconos, start_url) y un Service Worker para cache/offline. Sin eso, Install no funcionará como toca.",
+    },
+    {
+      q: "¿El modo offline funciona del todo?",
+      a: "Solo lo que cacheaste y diseñaste. Carrito y pedido sin red necesitan un diseño aparte — no magia de checkbox PWA.",
+    },
+    {
+      q: "¿Todos los sitios necesitan una PWA?",
+      a: "No. Encaja en visitas repetidas, catálogos, servicios tipo app. Una landing de servicio puntual a menudo solo necesita un layout móvil rápido.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué puede hacer una PWA",
+      level: 2,
+      paras: [
+        "Un icono en la pantalla de inicio, lanzamiento casi sin chrome del navegador, cache de datos estáticos y parciales vía Service Worker, push notifications donde la plataforma lo permite.",
+        "Ejemplos de la web grande (mapas, media, retail) muestran un escenario «sitio = hábito» — no un stack obligatorio para cada tarjeta de visita.",
+      ],
+      lists: [
+        {
+          intro: "Fortalezas:",
+          items: [
+            "un codebase en dispositivos vía el navegador",
+            "camino más rápido a instalar que el desarrollo nativo",
+            "menos espacio que un APK pesado",
+            "updates de servidor sin moderación de store",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Sitio responsive",
+          href: "/es/blog/adaptivnyy-sayt/",
+        },
+      ],
+    },
+    {
+      title: "Pros y contras para el negocio",
+      level: 2,
+      paras: [
+        "Para una tienda y un servicio con visitas repetidas, una PWA puede cortar fricción: entrada de vuelta más rápida, vista offline de secciones cacheadas, recordatorios con consentimiento.",
+        "Contras: el soporte de features depende del navegador y de iOS/Android; push y jobs en background están limitados; construir y mantener el Service Worker es ingeniería aparte. «Instalar un plugin y olvidar» en una tienda compleja es arriesgado.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo mirar PWA:",
+          items: [
+            "tráfico de retorno alto",
+            "necesitas un atajo ligero sin app nativa",
+            "el sitio ya es rápido y está en HTTPS",
+            "tienes capacidad para mantener cache y updates",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "No te prometas «PWA = más alto en la SERP». Primero Core Web Vitals y un UX móvil claro; la PWA es la siguiente capa de comodidad.",
+        },
+      ],
+      links: [
+        {
+          label: "Acelerar WordPress",
+          href: "/es/blog/uskorenie-wordpress/",
+        },
+        {
+          label: "Páginas AMP",
+          href: "/es/blog/amp/",
+        },
+      ],
+    },
+    {
+      title: "Requisitos básicos del sitio",
+      level: 2,
+      paras: [
+        "HTTPS es obligatorio. Hace falta responsive o una versión móvil sólida. El manifest describe nombre, iconos y URL de inicio. El Service Worker se registra y cachea recursos con cuidado sin romper carrito y áreas de cuenta.",
+        "Cada página importante necesita una URL estable. Prueba install y offline en dispositivos reales — no solo en Lighthouse.",
+      ],
+      lists: [
+        {
+          intro: "Checklist antes del rollout:",
+          items: [
+            "SSL funciona en todas las URLs",
+            "el UX móvil es aceptable sin PWA",
+            "manifest e iconos están listos",
+            "la estrategia de cache está acordada con ingeniería",
+            "hay un plan para actualizar el SW sin quedarse en una versión vieja",
+          ],
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Una PWA convierte un sitio en una experiencia web instalable con cache y (donde se permite) notificaciones. Ármala cuando las visitas repetidas y el UX pagan el mantenimiento; no dejes que sustituya la velocidad del sitio y un SEO honesto.",
+  ],
+  related: [
+    "adaptivnyy-sayt",
+    "uskorenie-wordpress",
+    "amp",
+    "mobilnyy-poisk",
+    "pered-zapuskom-sayta",
+    "bezopasnost-sayta",
+  ],
+};

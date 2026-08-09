@@ -154,3 +154,158 @@ export const didzhitalAgentstvoEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for didzhital-agentstvo — same structure as RU JSON / EN. */
+export const didzhitalAgentstvoEs: BlogPost = {
+  slug: "didzhital-agentstvo",
+  title: "Agencias digitales: qué hacen y en qué se diferencian del marketing clásico",
+  date: "2021-12-29",
+  category: "Digital marketing",
+  cover: "/images/blog/didzhital-agentstvo/cover.webp",
+  excerpt:
+    "Qué es una agencia digital: servicios, equipo, en qué se diferencia del marketing offline, cómo medir resultados y cómo elegir contratista.",
+  lead: [
+    "Una agencia digital ayuda a un negocio a crecer por canales digitales: el sitio, la búsqueda, ads, contenido, analítica — y a veces diseño y marca.",
+    "Abajo: cómo se ven los servicios, en qué se diferencia lo digital de una agencia de marketing clásica y qué mirar en el contrato y los informes.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia digital de una agencia de marketing?",
+      a: "Las shops clásicas a menudo se apoyan en offline (TV, exterior, print). Lo digital se apoya en canales online medibles. En la práctica muchas agencias son híbridas.",
+    },
+    {
+      q: "¿Necesito un contratista full-service?",
+      a: "Es cómodo cubrir sitio + SEO + ads con un solo equipo. Una shop especializada es más fuerte en una disciplina. La elección depende de lo maduro que esté el marketing in-house.",
+    },
+    {
+      q: "¿Por dónde empieza el trabajo?",
+      a: "Con objetivos, audiencia, una auditoría del sitio o ads actuales y un plan del periodo — no con «haznos un vídeo viral».",
+    },
+    {
+      q: "¿Cómo se miden los resultados?",
+      a: "No solo alcance: leads, ventas, CPA/CPL, cuota de búsqueda, calidad del lead. Acuerda las métricas de antemano.",
+    },
+    {
+      q: "¿Puedo quedarme solo con SEO o solo con paid search?",
+      a: "Sí. Muchas agencias toman tracks separados. Los canales no deberían pelearse sin analítica compartida.",
+    },
+  ],
+  sections: [
+    {
+      title: "El rol de una agencia digital",
+      level: 2,
+      paras: [
+        "El trabajo es traer y retener clientes por touchpoints digitales: búsqueda, sitio, ads, redes, email, messengers. A veces se suma offline, pero el núcleo son canales medibles.",
+        "Un buen equipo no dibuja banners por los banners — ata la actividad a resultados de negocio.",
+      ],
+    },
+    {
+      title: "Cómo se ven los servicios",
+      level: 2,
+      paras: [
+        "El mix depende de la agencia: unas son full-service, otras solo performance o solo desarrollo.",
+      ],
+      lists: [
+        {
+          intro: "Un rango habitual:",
+          items: [
+            "sitio y mejoras (UX, velocidad, integraciones)",
+            "marca e identidad visual",
+            "contenido y redes",
+            "ads de pago en búsqueda y redes",
+            "SEO",
+            "analítica e informes de embudo completo",
+            "estrategia a un trimestre o un año",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Sitio, marca, diseño",
+      level: 2,
+      paras: [
+        "El sitio es un sistema de landings bajo el tráfico. Sin estructura sólida y CTAs, incluso un SEO fuerte da leads flojos.",
+        "Marca y diseño hacen reconocible el producto: logo, color, tono, un estilo en sitio y redes. Rebrand cuando la imagen vieja bloquea las ventas.",
+      ],
+      lists: [
+        {
+          intro: "Al arrancar un sitio una agencia suele:",
+          items: [
+            "aclarar objetivos y audiencia",
+            "diseñar la estructura",
+            "armar un prototipo",
+            "alinear diseño y funciones al tipo de proyecto (brochure ≠ tienda)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Maquetación de sitios",
+          href: "/es/blog/verstka-saytov/",
+        },
+      ],
+    },
+    {
+      title: "SEO y performance",
+      level: 2,
+      paras: [
+        "SEO es crecimiento orgánico: técnica, contenido, estructura, enlaces. Performance es tráfico de pago con control del coste por lead.",
+        "Los plazos difieren: los ads dan tests rápidos de hipótesis; la búsqueda necesita preparación y meses de crecimiento de rankings — no confundas «arrancó el trabajo» con visibilidad en primera página (planificada a 2–6 meses tras el arranque).",
+      ],
+      lists: [
+        {
+          intro: "Útil ver en los informes:",
+          items: [
+            "qué se hizo en el periodo",
+            "qué métricas se movieron",
+            "coste por consulta",
+            "plan del siguiente sprint",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+        {
+          label: "Núcleo de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+      ],
+    },
+    {
+      title: "Digital vs. marketing clásico",
+      level: 2,
+      paras: [
+        "El marketing en internet es promoción en la web. Digital es más amplio en canales y a menudo incluye producto y UX, pero en el habla cotidiana las palabras se difuminan.",
+        "Una agencia clásica es más fuerte en media de alcance offline. Digital es más fuerte en atribución e iteración. Los negocios a menudo necesitan ambos: offline para awareness de marca, online para leads.",
+      ],
+    },
+    {
+      title: "Cómo elegir contratista",
+      level: 2,
+      paras: [
+        "Mira casos de tu nicho o uno afín, transparencia de informes, composición del equipo y un contrato con KPIs y zonas de responsabilidad claras.",
+      ],
+      lists: [
+        {
+          intro: "Red flags:",
+          items: [
+            "garantía del primer puesto «en un mes» sin matices",
+            "informes que son solo screenshots de rankings sin leads",
+            "sin acceso a cuentas de ads o analítica",
+            "un solo manager que «lo hace todo» sin especialistas",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Acuerda objetivos numéricos antes de empezar — p. ej. CPL, conteo de leads, cuota de tráfico de marca — si no, en un trimestre discutiréis por el alcance.",
+        },
+      ],
+    },
+  ],
+};

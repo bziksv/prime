@@ -175,3 +175,179 @@ export const storiesInstagramInkognitoEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for stories-instagram-inkognito — same structure as RU JSON / EN. */
+export const storiesInstagramInkognitoEs: BlogPost = {
+  slug: "stories-instagram-inkognito",
+  title: "Stories de Instagram «incógnito»: riesgos de terceros y privacidad",
+  date: "2021-10-05",
+  category: "SMM",
+  cover: "/images/blog/stories-instagram-inkognito/cover.webp",
+  excerpt:
+    "Por qué la gente busca ver Stories de Instagram en anónimo, qué hay de peligroso en bots y apps de terceros, cómo proteger tus Stories y qué escenarios legítimos hay para negocio.",
+  lead: [
+    "La lista de viewers de Stories es visible para el autor — por eso buscan «incógnito»: sitios, bots y apps prometen una vista sin rastro. Algunas guías antiguas lo anunciaban abiertamente.",
+    "Abajo: por qué aparece esa demanda, qué riesgos traen las herramientas de terceros y cómo pensar la privacidad de tus propias Stories. Solo overview informativo — no una guía para saltarse las reglas de la plataforma ni un catálogo de servicios de espionaje.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Puedo ver Stories ajenas en anónimo de forma oficial?",
+      a: "No hay un modo «invisible» integrado. Ver desde una cuenta suele entrar en la lista de viewers (si el perfil está abierto y la Story está disponible).",
+    },
+    {
+      q: "¿Qué hay de peligroso en sitios y bots de «vista anónima»?",
+      a: "Phishing y malware, robo de sesión/contraseña, fugas de datos, violaciones del ToS. Muchas herramientas de 2020–2021 ya no existen o son falsas.",
+    },
+    {
+      q: "¿Cómo oculto Stories a algunas personas?",
+      a: "Listas Close Friends, ocultar a cuentas concretas, pasar el perfil a privado temporalmente — ajustes de privacidad integrados, sin software de terceros.",
+    },
+    {
+      q: "¿Hace falta una cuenta aparte para intel competitiva?",
+      a: "Para negocio suelen bastar datos abiertos, capturas acordadas y cortes legales. Cuentas falsas y parsers son zona de riesgo para reglas de la plataforma y ética.",
+    },
+    {
+      q: "¿Ver a competidores afecta sus stats?",
+      a: "Sí: tu cuenta puede aparecer en la lista de viewers. Es una señal normal de interés; «esconderse» para acechar es un flujo débil.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué buscan la vista anónima",
+      level: 2,
+      paras: [
+        "Las Stories duran alrededor de un día y dan al autor una lista de viewers. A la gente le molesta que un competidor, conocido o cliente vea la vista. De ahí la demanda de «invisibilidad».",
+        "En negocio hay otro motivo: ver Stories de competidores sin «delatar» la cuenta de marca. Eso no justifica servicios dudosos — abajo van opciones más seguras y honestas.",
+      ],
+      lists: [
+        {
+          intro: "Motivos típicos:",
+          items: [
+            "no salir en la lista de viewers",
+            "descargar contenido ajeno sin reaccionar",
+            "seguir varios perfiles «en segundo plano»",
+            "saltar un perfil privado (a menudo ya imposible e ilícito como acceso)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Estadísticas de Instagram",
+          href: "/es/blog/statistika-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Qué prometen los servicios de terceros",
+      level: 2,
+      paras: [
+        "Históricamente: vista web por username, bots de Telegram, apps «Story Saver / Stalker» y extensiones de navegador con modo de «ojo tachado». Nombres y disponibilidad cambian cada mes.",
+        "No listamos enlaces que funcionen ni bypasses paso a paso: se quedan obsoletos y empujan acciones arriesgadas. Basta entender la clase de herramienta y el coste de un error.",
+      ],
+      lists: [
+        {
+          intro: "Promesas habituales de esos productos:",
+          items: [
+            "ver sin marca en la lista",
+            "descargar foto/vídeo",
+            "a veces — acceso a Stories ya desaparecidas (a menudo marketing o fraude)",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Meter login y contraseña de Instagram en una app «espía» de terceros. Es camino directo a perder la cuenta — aunque «solo quisieras ver Stories».",
+        },
+      ],
+    },
+    {
+      title: "Riesgos: seguridad, reglas, ética",
+      level: 2,
+      paras: [
+        "El acceso de terceros a contenido y sesiones a menudo rompe las reglas de la plataforma. El antifraude y los reportes de usuarios se refuerzan: la cuenta puede quedar limitada.",
+        "Técnicamente peor: sitios falsos, APKs con malware fuera de stores oficiales, bots que piden teléfono o código SMS.",
+      ],
+      lists: [
+        {
+          intro: "Qué puede pasar de verdad:",
+          items: [
+            "robo de contraseña o de sesión por cookies",
+            "spam y mensajes en tu nombre",
+            "fuga de chats y media",
+            "bloqueo o pérdida de una cuenta business",
+            "riesgos legales y de reputación al recopilar datos ajenos sin base",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Contraseña y acceso en Instagram",
+          href: "/es/blog/parol-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Privacidad de tus propias Stories",
+      level: 2,
+      paras: [
+        "Si el tema es «que no me vean», es mejor configurar tus Stories que enseñar a la audiencia a espiar.",
+      ],
+      lists: [
+        {
+          intro: "Palancas integradas:",
+          items: [
+            "Close Friends — un círculo cerrado",
+            "ocultar una Story a cuentas concretas",
+            "no publicar en público lo que no estás listo para mostrar a todos",
+            "para updates internos del equipo — un canal privado o messenger, no Stories públicas",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Consejo",
+          kind: "tip",
+          text: "Capturas y reenvíos siguen siendo posibles. El «incógnito» de viewers no sustituye el sentido común: no pongas contraseñas, contratos ni datos personales de clientes en Stories.",
+        },
+      ],
+    },
+    {
+      title: "Escenarios legítimos para negocio",
+      level: 2,
+      paras: [
+        "Ver Stories abiertas de competidores desde una cuenta de trabajo es investigación de mercado normal. La vista en sí rara vez es crítica; importan más ofertas y cadencia de publicación.",
+        "Si la cuenta de marca no puede «mostrarse», es más sabio anotar hipótesis a mano (notas, capturas de CRM) o encargar analítica a un contratista bajo contrato — sin parsers dudosos.",
+      ],
+      lists: [
+        {
+          intro: "Qué hacer en lugar de «viewers stealth»:",
+          items: [
+            "revisar formatos y CTAs ajenos, no listas de viewers",
+            "llevar tu plan de contenido y medir tus propios Insights",
+            "para tests de ideas — Close Friends y A/B en Stories",
+            "no descargar contenido ajeno para repost sin permiso",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Plan de contenido para Instagram",
+          href: "/es/blog/kontent-plan-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Cierre breve",
+      level: 2,
+      paras: [
+        "Ver Stories en anónimo vía servicios de terceros es mucho riesgo y poca recompensa. Para privacidad, configura tus propias Stories; para competidores, mira contenido abierto con conciencia — sin catálogo de bots ni bypasses.",
+      ],
+    },
+  ],
+};

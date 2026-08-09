@@ -135,3 +135,139 @@ export const korporativnyyBlogEn: BlogPost = {
     "korporativnoe-obuchenie",
   ],
 };
+
+/** ES overlay for korporativnyy-blog — same structure as RU JSON / EN. */
+export const korporativnyyBlogEs: BlogPost = {
+  slug: "korporativnyy-blog",
+  title: "Por qué las empresas necesitan un blog corporativo — y por dónde empezar",
+  date: "2019-08-14",
+  category: "Content marketing",
+  cover: "/images/blog/korporativnyy-blog/cover.webp",
+  excerpt:
+    "Un blog corporativo como herramienta de negocio: metas en vez de «como todo el mundo», un plan, presupuesto, valor para la audiencia y elegir in-house vs agencia.",
+  lead: [
+    "El blog del sitio de la empresa no es decoración ni el diario personal del CEO. Es un canal de content marketing: tráfico, expertise, calentamiento hacia un servicio. Sin meta el proyecto se vuelve rápido un vertedero de posts al azar.",
+    "Abajo: por qué hace falta un blog (y cuándo no), cómo fijar metas y presupuesto, qué mirar en competidores y quién lo llevará. El calendario editorial también está en el artículo del plan de contenido.",
+  ],
+  faq: [
+    {
+      q: "¿Toda empresa necesita un blog?",
+      a: "No. Si al cliente solo le importa precio y volumen «aquí y ahora» y no hay una elección compleja, mete el recurso en catálogo, servicio y ads. Un blog compensa donde hay preguntas y comparación.",
+    },
+    {
+      q: "¿Vale una meta «como esa revista de marca famosa»?",
+      a: "Como listón de calidad — sí. Como copiar un formato sin tu audiencia y economía — no. Primero tu meta en leads, tráfico o imagen.",
+    },
+    {
+      q: "¿Cuánto cuesta llevar un blog?",
+      a: "Desde un setup in-house modesto hasta una redacción de cientos de miles al mes en grandes marcas media. Cuenta estrategia, producción, tech, distribución y analytics — no solo el fee del escritor.",
+    },
+    {
+      q: "¿Debo priorizar SEO o expertise?",
+      a: "Ambos. Tráfico sin valor no convierte; expertise sin distribución y búsqueda lo lee poca gente. Casos y guías suelen ganar a tips genéricos.",
+    },
+    {
+      q: "¿In-house o agencia?",
+      a: "Volumen pequeño — vosotros o un freelancer. Frecuencia y SEO/ads en crecimiento — híbrido o agencia. La clave es un dueño de la meta dentro de la empresa.",
+    },
+    {
+      q: "¿Cómo sé que la estrategia va mal?",
+      a: "Poco tráfico y leads target con gasto estable. Entonces estrecha la audiencia, refuerza práctica (guías, casos) y revisa categorías.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué un blog — y qué metas son falsas",
+      level: 2,
+      paras: [
+        "Metas que funcionan: leads y calentamiento, tráfico orgánico, hiring, soporte de producto, reputación experta. Falsas: «desahogo», «hazlo como una marca media famosa», «todo el mundo tiene uno — así que nosotros también» sin vínculo con el negocio.",
+        "Algunos nichos apenas necesitan blog: ciclo corto, producto commodity, el cliente no lee long form. Ahí pesan más precio, disponibilidad y servicio.",
+      ],
+    },
+    {
+      title: "Plan, metas y tareas",
+      level: 2,
+      paras: [
+        "Fija la audiencia, el tono y las necesidades de información — pero apóyate en la meta de negocio. La meta es medible: tráfico, conversiones a servicios, leads de pago. Las tareas son acciones hacia esa meta (categorías, frecuencia, CTA).",
+        "La estructura importa: categorías y navegación. Un feed caótico de cien titulares pierde ante un competidor con un árbol de temas claro.",
+      ],
+      lists: [
+        {
+          intro: "Antes del lanzamiento:",
+          items: [
+            "una meta principal de negocio",
+            "retrato del lector",
+            "categorías y frecuencia",
+            "KPIs a 3–6 meses",
+            "quién es dueño del resultado",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Plan de contenido",
+          href: "/es/blog/kontent-plan/",
+        },
+        {
+          label: "Analytics de content marketing",
+          href: "/es/blog/analitika-kontent-marketinga/",
+        },
+      ],
+    },
+    {
+      title: "Presupuesto y propósito del contenido",
+      level: 2,
+      paras: [
+        "Prep del presupuesto (estrategia, competidores, plan editorial), tech y diseño, producción regular, distribución y analytics. Los números «como el media de un banco grande» son una pista de escala — no tu presupuesto obligatorio.",
+        "Las piezas deben resolver trabajos del lector. Cuando los números son débiles, refuerza práctica: guías, checklists, casos — no tips genéricos «de internet».",
+      ],
+      notes: [
+        {
+          title: "Competidores",
+          text: "Mira categorías, tono y formatos — adopta ideas, no copies textos. Un ángulo único gana a «otra reseña más de los mismos temas».",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Quién lo llevará",
+      level: 2,
+      paras: [
+        "Opciones: vosotros / redacción in-house / agencia / híbrido. Con un volumen inicial pequeño a menudo basta un dueño más un generalista. Al crecer — roles estrechos (copy, SEO, diseño, analytics) y un manager de la meta.",
+        "El DIY no despega sin tiempo, metas y noticias del negocio. Una agencia acelera, pero sin brief y feedback del cliente el contenido se aleja del producto.",
+      ],
+      lists: [
+        {
+          intro: "Un blog efectivo se apoya en:",
+          items: [
+            "una plataforma clara sin roturas infinitas",
+            "publicidad empujona mínima",
+            "expertise y apertura",
+            "revisiones regulares de métricas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Contenido omnicanal",
+          href: "/es/blog/omnikanalnyy-kontent-marketing/",
+        },
+        {
+          label: "Content manager",
+          href: "/es/blog/kontent-menedzher/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Un blog corporativo compensa cuando hay meta de negocio, valor para el lector y un dueño del proceso. Empieza con plan y KPIs; un formato «como un media gigante» sin economía es camino a un hobby caro.",
+  ],
+  related: [
+    "kontent-plan",
+    "analitika-kontent-marketinga",
+    "omnikanalnyy-kontent-marketing",
+    "kontent-menedzher",
+    "marketingovaya-strategiya",
+    "korporativnoe-obuchenie",
+  ],
+};

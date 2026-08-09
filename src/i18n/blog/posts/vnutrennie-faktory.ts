@@ -282,3 +282,286 @@ export const vnutrennieFaktoryEn: BlogPost = {
     "samostoyatelnoe-seo",
   ],
 };
+
+/** ES overlay for vnutrennie-faktory — same structure as RU JSON / EN. */
+export const vnutrennieFaktoryEs: BlogPost = {
+  slug: "vnutrennie-faktory",
+  title: "Factores internos de ranking: qué arreglar en el sitio",
+  date: "2019-07-17",
+  category: "SEO",
+  cover: "/images/blog/vnutrennie-faktory/cover.webp",
+  excerpt:
+    "SEO on-page sin mística: contenido, estructura, enlaces internos, HTTPS, velocidad y móvil — qué controlas de tu lado y en qué orden.",
+  lead: [
+    "Los factores internos de ranking son todo lo que puedes mejorar en el propio sitio: copy y media, estructura de URLs, headings y snippets, enlaces internos, HTTPS, velocidad, móvil y usabilidad.",
+    "Las señales externas (enlaces, menciones, algunos efectos de comportamiento) tardan más y son más difíciles de controlar de forma directa. Abajo: un mapa on-page práctico — qué revisar, dónde profundizar y cómo no confundir la prep con prometer primera página «la semana que viene».",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencian los factores internos de los externos?",
+      a: "Internos — en tu dominio: contenido, tech, estructura, UX. Externos — enlaces y señales off-site. Ambos importan; sin base on-page, el esfuerzo externo a menudo se estanca.",
+    },
+    {
+      q: "¿Por dónde empiezo si el sitio está crudo?",
+      a: "Indexación y códigos de estado, HTTPS, móvil, title/H1 únicos en URLs comerciales, estructura básica y velocidad. Luego profundidad de contenido y enlaces internos.",
+    },
+    {
+      q: "¿Es lo mismo que un audit SEO técnico?",
+      a: "Se solapan. Un audit es un método de chequeo; los factores internos son un mapa de influencia. El audit responde «qué está roto»; este artículo cubre «qué cuenta como on-page».",
+    },
+    {
+      q: "¿Debe cada ítem estar perfecto?",
+      a: "No. Prioriza por impacto de negocio: primero landings comerciales y caminos de crawl. Cosméticos de snippet sin indexación no sirven.",
+    },
+    {
+      q: "¿Importan imágenes y vídeo?",
+      a: "Sí: sentido (alt text, contexto), peso del archivo (velocidad) y tiempo en página. Media pesada sin comprimir daña Core Web Vitals y UX.",
+    },
+    {
+      q: "¿El enlazado interno es un factor interno?",
+      a: "Sí. Pasa equity y ayuda a bots y personas a encontrar URLs importantes. Sin él, los clusters viven aislados.",
+    },
+    {
+      q: "¿La usabilidad es SEO?",
+      a: "No hay un «score de botón» directo, pero la comodidad afecta comportamiento y conversión. Un UX malo se come el beneficio incluso con buenos rankings.",
+    },
+    {
+      q: "¿Cuándo esperar crecimiento de ranking tras los fixes?",
+      a: "Prep on-page y limpieza — típicamente de unas semanas a cerca de un mes. Una cuota significativa del set núcleo en primera página se planifica normalmente a 2–6 meses tras el arranque del trabajo sistemático — no «mañana tras el HTTPS».",
+    },
+  ],
+  sections: [
+    {
+      title: "Mapa: interno vs. externo",
+      level: 2,
+      paras: [
+        "La búsqueda evalúa la página y el sitio en conjunto. En simple: los factores internos son lo que editas en el CMS, las plantillas y el servidor; externos — enlaces, menciones, señales alrededor del dominio.",
+        "Un error clásico es perseguir enlaces sobre un sitio crudo: lento, sin HTTPS, con duplicados y landings vacías. Primero haz el recurso legible para bots y personas, luego refuerza señales off-site.",
+      ],
+      lists: [
+        {
+          intro: "Los factores internos suelen incluir:",
+          items: [
+            "contenido: copy, media, unicidad y encaje de intención",
+            "meta y headings: title, description, H1–H3",
+            "estructura de URLs y navegación",
+            "enlazado interno",
+            "HTTPS, velocidad, mobile-friendly",
+            "UX básico: formularios, legibilidad, clicabilidad",
+          ],
+        },
+        {
+          intro: "Externos — guía aproximada:",
+          items: [
+            "calidad y diversidad de enlaces entrantes",
+            "menciones de marca",
+            "algunos efectos de comportamiento fuera de tu control directo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Análisis del perfil de backlinks",
+          href: "/es/blog/ssylochnyy-profil/",
+        },
+        {
+          label: "Audit SEO técnico",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "Contenido, headings y snippets",
+      level: 2,
+      paras: [
+        "La página debe responder a la query — no «meter la keyword», sino cerrar el trabajo del usuario. Un H1 claro, una jerarquía lógica H2–H3, title y description que no sean copias el uno del otro.",
+        "La media debe apoyar el sentido: nombres de archivo claros, alt text sensato, peso razonable. El filler vacío y los duplicados de plantilla son más débiles que materiales únicos para el cluster.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de landing:",
+          items: [
+            "title y description únicos",
+            "un H1, sin copias que compitan",
+            "copy y media alineados a la intención del cluster",
+            "sin canibalización con URLs vecinas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Longitud del title",
+          href: "/es/blog/dlina-title/",
+        },
+        {
+          label: "Canibalización de queries",
+          href: "/es/blog/kannibalizatsiya-zaprosov/",
+        },
+        {
+          label: "Copywriting SEO",
+          href: "/es/blog/seo-kopirayting/",
+        },
+      ],
+    },
+    {
+      title: "Estructura del sitio, URLs y enlazado interno",
+      level: 2,
+      paras: [
+        "URLs limpias y paths cortos legibles ayudan a personas y al snippet. Breadcrumbs y navegación clara reducen «perderse» en el sitio.",
+        "Los enlaces internos construyen clusters: de overviews al detalle, de páginas relacionadas al ancla de intención. Menú y footer no deberían spawnear miles de enlaces débiles a URLs basura.",
+      ],
+      lists: [
+        {
+          intro: "En la práctica:",
+          items: [
+            "mapa de secciones alrededor de keywords, no «lo que hizo el CMS»",
+            "URLs en latín, sin params basura en el canonical",
+            "enlazar a páginas comerciales y respuestas, no solo a home",
+            "duplicados y paginación bajo control (canonical / noindex según escenario)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+        {
+          label: "Duplicados de página",
+          href: "/es/blog/dubli-stranits/",
+        },
+        {
+          label: "Paginación",
+          href: "/es/blog/paginatsiya/",
+        },
+      ],
+    },
+    {
+      title: "Tech: HTTPS, velocidad, móvil",
+      level: 2,
+      paras: [
+        "HTTPS es una expectativa base para navegadores y usuarios: sin mixed content, certificado válido y redirect http→https. La velocidad (Core Web Vitals y carga percibida) afecta bounces y crawl.",
+        "Mobile-first: las plantillas deben funcionar en un teléfono — toques, formularios, legibilidad. Una «versión móvil 2012» aparte con contenido recortado es un riesgo.",
+      ],
+      lists: [
+        {
+          intro: "Lista de control:",
+          items: [
+            "SSL válido y cadena",
+            "sin mixed content en plantillas clave",
+            "compresión de imágenes, cache, JS sensato",
+            "layout responsive sin scroll horizontal ni micro-botones",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "HTTPS y SEO",
+          href: "/es/blog/https-seo/",
+        },
+        {
+          label: "Certificado SSL",
+          href: "/es/blog/ssl-sertifikat/",
+        },
+        {
+          label: "Errores SEO habituales",
+          href: "/es/blog/seo-oshibki/",
+        },
+      ],
+    },
+    {
+      title: "Usabilidad y comportamiento on-site",
+      level: 2,
+      paras: [
+        "La usabilidad no se «compra» con engagement falso. Copy legible, CTA claro, formularios que funcionan y sin trampas de pop-up cortan irritación y ayudan a la conversión.",
+        "Si el usuario no encuentra una respuesta o choca con un error 500 — rankings y ads no te salvan. UX es parte de los factores internos en sentido amplio: controlas la plantilla y el contenido.",
+      ],
+      lists: [
+        {
+          intro: "Qué revisar a mano:",
+          items: [
+            "la primera pantalla explica la oferta",
+            "contactos y formularios funcionan en móvil",
+            "sin overlays agresivos que tapen el contenido",
+            "404s y secciones vacías no son callejones sin navegación",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Enlaces rotos",
+          href: "/es/blog/bitye-ssylki/",
+        },
+      ],
+      notes: [
+        {
+          title: "Nota",
+          kind: "tip",
+          text: "No confundas mejorar UX con esquemas que falsifican señales de comportamiento — cosas distintas y riesgos distintos.",
+        },
+      ],
+    },
+    {
+      title: "Ajustes a nivel de sitio",
+      level: 2,
+      paras: [
+        "Algunos factores pegan a todo el dominio: robots.txt, sitemap, canonicals de plantilla, idioma/región en Search Console, un estilo de title coherente, política de indexación de filtros y búsqueda del sitio.",
+        "Un error de plantilla (p. ej. noindex en toda una sección o canonical «todo a home») pega a miles de URLs a la vez. Los edits de plantilla sitewide necesitan backup y un smoke check tras el deploy.",
+      ],
+      lists: [
+        {
+          intro: "Checklist global:",
+          items: [
+            "robots.txt no bloquea lo necesario",
+            "sitemap actual y en Search Console",
+            "canonical y paginación alineados",
+            "URLs de utilidad y filtros bajo control",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Screaming Frog",
+          href: "/es/blog/screaming-frog/",
+        },
+        {
+          label: "Yandex Webmaster",
+          href: "/es/blog/yandeks-vebmaster/",
+        },
+      ],
+    },
+    {
+      title: "Orden de trabajo y expectativas de plazo",
+      level: 2,
+      paras: [
+        "Primero quita bloqueadores de crawl y confianza, luego refuerza contenido y estructura de clusters comerciales de keywords, y monitoriza Search Console en paralelo. Empieza el link building cuando la base on-page no se esté derrumbando.",
+        "Los fixes on-page son parte de la prep. La construcción de rankings del núcleo tras el arranque del trabajo sistemático lleva meses: primera página para una cuota significativa del set se planifica normalmente a 2–6 meses — no «encendí HTTPS — n.º 1–3 mañana».",
+      ],
+      lists: [
+        {
+          intro: "Ritmo:",
+          items: [
+            "un backlog priorizado por impacto de negocio",
+            "un crawl tras releases mayores",
+            "una vez al mes — revisión de errores en Search Console",
+            "seguir prep y dinámica de rankings por separado",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO DIY",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "tehnicheskiy-seo-audit",
+    "seo-oshibki",
+    "seo-struktura-sayta",
+    "https-seo",
+    "ssylochnyy-profil",
+    "samostoyatelnoe-seo",
+  ],
+};

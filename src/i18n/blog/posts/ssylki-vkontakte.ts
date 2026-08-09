@@ -145,3 +145,149 @@ export const ssylkiVkontakteEn: BlogPost = {
     "chto-takoe-ssylka",
   ],
 };
+
+/** ES overlay for ssylki-vkontakte — same structure as RU JSON / EN. */
+export const ssylkiVkontakteEs: BlogPost = {
+  slug: "ssylki-vkontakte",
+  title: "Enlaces en VK: menciones, previews y URLs de posts",
+  date: "2021-06-16",
+  category: "SMM",
+  cover: "/images/blog/ssylki-vkontakte/cover.webp",
+  excerpt:
+    "Cómo hacer una mención clicable de una persona o comunidad en VKontakte, adjuntar un enlace al sitio con preview y copiar la URL de un post — sin confundirlas con la dirección desnuda del navegador.",
+  lead: [
+    "En VK, un «enlace con estilo» no es solo la dirección cruda de la barra del navegador. Más a menudo significa una mención clicable de perfil o grupo con una etiqueta, o una tarjeta de sitio externo con preview.",
+    "Abajo: por qué importa ese formato, cómo etiquetar a un usuario o comunidad, cómo adjuntar una URL externa y cómo copiar el enlace a un post concreto. La UI de VK cambia — enfócate en la sintaxis y el sentido, no en capturas de botones.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia una mención de una URL plana?",
+      a: "Una mención es una etiqueta azul clicable a un perfil o comunidad, más una notificación al destinatario (si los ajustes lo permiten). Una URL desnuda es solo texto de dirección.",
+    },
+    {
+      q: "¿Puedo etiquetar un sitio externo igual?",
+      a: "La sintaxis `@id… (etiqueta)` funciona para perfiles y comunidades de VK. Un sitio externo suele pegarse como URL — la plataforma construye el preview.",
+    },
+    {
+      q: "¿Una mención envía una notificación?",
+      a: "Suele sí si la página no está cerrada y el usuario no está en una lista de bloqueo. En setups totalmente privados el aviso puede no salir.",
+    },
+    {
+      q: "¿Cómo etiqueto a alguien que no es amigo?",
+      a: "Vía ID: un formato tipo `@id123456 (Nombre)` o el análogo actual de la Help de VK. Para amigos, `*` y las sugerencias a menudo bastan.",
+    },
+    {
+      q: "¿Por qué usar un preview de enlace externo?",
+      a: "Los lectores ven título e imagen antes de hacer clic. El sitio obtiene un handoff más claro desde el feed.",
+    },
+    {
+      q: "¿Cómo copio el enlace a un post concreto?",
+      a: "Abre el post (a menudo vía la fecha/hora) y copia la URL de la barra de dirección — o usa Compartir.",
+    },
+    {
+      q: "¿Hace falta un acortador de enlaces?",
+      a: "No es obligatorio. Útil para direcciones UTM largas o cuando la plataforma ofrece su propia forma corta.",
+    },
+    {
+      q: "¿Cómo se relaciona esto con enlaces HTML en un sitio?",
+      a: "Entorno distinto. En un sitio usas un tag `<a href>`. En VK usas markup de mención y previews. Ver el artículo de enlace clicable.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué formatear enlaces en VK",
+      level: 2,
+      paras: [
+        "Las menciones ayudan a etiquetar ganadores, autores, partners y colegas sin pegar IDs torpes. Los lectores hacen clic con más facilidad; los destinatarios tienen más chance de recibir una señal.",
+        "Los enlaces externos con preview mandan tráfico al sitio y hacen un post más claro que un muro de texto plano. Para una comunidad eso es comodidad y clics medibles.",
+      ],
+      lists: [
+        {
+          intro: "Trabajos típicos:",
+          items: [
+            "etiquetar a una persona en un post o comentario",
+            "acreditar autoría",
+            "anunciar un artículo del sitio",
+            "enviar a colegas la URL exacta del post",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Mencionar a un usuario o comunidad",
+      level: 2,
+      paras: [
+        "Si alguien es amigo, teclear `*` y empezar el nombre suele funcionar — VK sugiere un match e inserta un constructo clicable con etiqueta entre paréntesis. Puedes editar la etiqueta: el feed muestra tu texto; el clic va al perfil correcto.",
+        "Si no es amigo, toma el ID de la URL de la página y construye la mención a mano, p. ej. `@id123456789 (Nombre Apellido)`. Para comunidades, igual vía dirección corta o ID de comunidad. Revisa la sintaxis actual en la Help de VK: los detalles de UI cambian.",
+      ],
+      lists: [
+        {
+          intro: "Tips prácticos:",
+          items: [
+            "verificar que el clic abre el perfil correcto",
+            "no spamear menciones — molesta y mata la confianza",
+            "en comunidades, etiquetar ganadores y speakers funciona bien",
+            "respetar privacidad y listas de bloqueo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Comentarios en un público de VK",
+          href: "/es/blog/kommentarii-v-pablike-vk/",
+        },
+        {
+          label: "Crecer un grupo de VK",
+          href: "/es/blog/raskrutka-gruppy-vk/",
+        },
+      ],
+    },
+    {
+      title: "Enlace a un sitio externo",
+      level: 2,
+      paras: [
+        "Copia la dirección HTTPS de la página y pégala en el post con espacios alrededor. VK suele armar un preview: título, descripción, imagen. Puedes refrescar o quitar el preview en el editor del post si hace falta.",
+        "Para analítica, añade UTMs del lado del sitio. No pegues artículos ajenos enteros — mejor un teaser corto y un enlace a la fuente.",
+      ],
+      links: [
+        {
+          label: "UTM tags explicados",
+          href: "/es/blog/utm-metki/",
+        },
+        {
+          label: "Qué es un enlace clicable",
+          href: "/es/blog/klikabelnaya-ssylka/",
+        },
+      ],
+    },
+    {
+      title: "Enlace a un post de VK",
+      level: 2,
+      paras: [
+        "Abre el post como página propia (a menudo vía la fecha de publicación) y copia la URL. Envíala en mensajes, pégala en otro post o úsala en concursos e informes.",
+        "Como alternativa, usa Compartir: repost al muro o a la comunidad sin copiar a mano. Para un equipo, una URL corta y exacta del post corta la confusión de «¿cuál del feed?».",
+      ],
+      notes: [
+        {
+          title: "Consejo",
+          kind: "tip",
+          text: "Antes de compartir un enlace en masa, comprueba que el post esté abierto a la audiencia (muro o comunidad no cerrados para los destinatarios).",
+        },
+      ],
+      links: [
+        {
+          label: "Artículos en VK",
+          href: "/es/blog/statya-vk/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "klikabelnaya-ssylka",
+    "kommentarii-v-pablike-vk",
+    "raskrutka-gruppy-vk",
+    "utm-metki",
+    "statya-vk",
+    "chto-takoe-ssylka",
+  ],
+};

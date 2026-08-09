@@ -157,3 +157,161 @@ export const gaiqEn: BlogPost = {
     "utm-metki",
   ],
 };
+
+/** ES overlay for gaiq — same structure as RU JSON / EN. */
+export const gaiqEs: BlogPost = {
+  slug: "gaiq",
+  title: "GAIQ y la certificación de Google Analytics: qué fue y qué lo sustituyó",
+  date: "2021-04-08",
+  category: "Marketing digital",
+  cover: "/images/blog/gaiq/cover.webp",
+  excerpt:
+    "Qué era GAIQ (Google Analytics Individual Qualification), por qué las guías antiguas de «70 preguntas» están obsoletas y dónde buscar cursos y certificados actuales de analítica de Google.",
+  lead: [
+    "GAIQ (Google Analytics Individual Qualification) era el examen online individual de Google sobre Analytics. Artículos de 2010–2021 a menudo lo describían como «70 preguntas / 80% / 90 minutos».",
+    "Los programas de certificación de Google cambiaron varias veces: Universal Analytics ya no está, GA4 es el centro, y el aprendizaje/exámenes viven en Skillshop y cursos relacionados. Abajo: GAIQ como hito histórico y cómo prepararte hoy para una comprobación de conocimiento — sin memorizar capturas obsoletas.",
+  ],
+  faq: [
+    {
+      q: "¿Todavía se puede hacer GAIQ?",
+      a: "El GAIQ clásico de las guías de 2021 no está vigente. Busca cursos y evaluaciones de hoy en Google Skillshop / materiales oficiales de GA4.",
+    },
+    {
+      q: "¿Por qué leer sobre GAIQ entonces?",
+      a: "Para interpretar ofertas de empleo y CVs antiguos («tiene GAIQ»), no confundirlo con un «certificado de agencia» y no practicar reglas muertas de UA.",
+    },
+    {
+      q: "¿Qué sustituyó a GAIQ?",
+      a: "La línea de cursos y certificados de Analytics/Ads de Google en Skillshop y academias relacionadas. Nombres y formatos se actualizan — revisa el catálogo oficial.",
+    },
+    {
+      q: "¿Un certificado significa que sabes configurar GA?",
+      a: "No. El examen comprueba conceptos. La habilidad real es trabajar properties, eventos, consent e informes en un sitio vivo.",
+    },
+    {
+      q: "¿Los empleadores necesitan el certificado?",
+      a: "A veces como plus en el CV. Más a menudo quieren casos: embudo, ecommerce, vínculo con ads. El papel sin práctica pesa poco.",
+    },
+    {
+      q: "¿Cuánto duraba el GAIQ antiguo?",
+      a: "Textos viejos mencionaban unos 18 meses — eso es archivo. Revisa la validez en el certificado actual de Skillshop.",
+    },
+    {
+      q: "¿Puedo prepararme con dumps de respuestas?",
+      a: "Mala idea: las preguntas cambian, UA≠GA4, y las «filtraciones» a menudo mienten. Prefiere cursos oficiales + práctica en una cuenta demo.",
+    },
+    {
+      q: "¿Por dónde empezar la práctica junto al curso?",
+      a: "Instala GA4, marca eventos/conversiones clave, aprende a leer fuentes y el embudo — ver materiales relacionados de Analytics.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué era GAIQ",
+      level: 2,
+      paras: [
+        "Históricamente GAIQ era el test de texto de Google sobre comprensión de Analytics: instalación e informes, goals/filtros, segmentos, vínculo con ads, conceptos de ecommerce.",
+        "Era un hito para especialistas que necesitaban demostrar lo básico. No lo confundas con el estatus de agencia partner de Google ni con un diploma universitario.",
+        "Cifras como «70 preguntas, 80%, 90 minutos, reintento en una semana» de artículos antiguos son una foto de las reglas de entonces. No las uses como instrucciones del examen de hoy.",
+      ],
+      notes: [
+        {
+          title: "UA está archivada",
+          kind: "tip",
+          text: "La mayoría de las preguntas clásicas de GAIQ vivían en la lógica de Universal Analytics. Prepararse para «ese mismo examen» con capturas de UA no tiene sentido: el stack de trabajo es GA4.",
+        },
+      ],
+      links: [
+        {
+          label: "Google Analytics para una tienda",
+          href: "/es/blog/google-analytics/",
+        },
+        {
+          label: "Configuración de GA4",
+          href: "/es/blog/google-analytics-nastroyka/",
+        },
+      ],
+    },
+    {
+      title: "Cómo se preparaban entonces — y qué tomar ahora",
+      level: 2,
+      paras: [
+        "Google publicaba materiales de referencia junto al botón de inicio y cursos de Analytics Academy: básicos, avanzados, Tag Manager, apps móviles.",
+        "El camino sensato hoy: el curso oficial de GA4 en Skillshop (o el equivalente del catálogo actual), luego práctica en tu propia property o de entrenamiento.",
+        "También fija: eventos y parámetros, consent/cookies, vínculo con Google Ads, depuración vía Tag Assistant / debug mode — sin aferrarte a nombres de menú de 2021.",
+      ],
+      lists: [
+        {
+          intro: "Mini plan de preparación:",
+          items: [
+            "haz el curso oficial de la versión actual de Analytics",
+            "arma una property GA4 de prueba",
+            "marca 3–5 eventos clave",
+            "lee informes de fuentes y embudo",
+            "solo entonces siéntate a la evaluación/examen de Skillshop",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Objetivos en Google Analytics",
+          href: "/es/blog/google-analytics-tseli/",
+        },
+        {
+          label: "Google Tag Manager",
+          href: "/es/blog/google-tag-manager/",
+        },
+      ],
+    },
+    {
+      title: "Qué preguntaban (temas, no un dump)",
+      level: 2,
+      paras: [
+        "El test antiguo se partía a grosso modo en bloques: básicos (código, informes), ajustes de cuenta e integraciones, goals y filtros, análisis de fuentes y contenido, segmentos y eventos.",
+        "Aprende el sentido de esos bloques en GA4 — no memorices «respuestas GAIQ» ajenas.",
+        "El wording tramposo era normal: lee la pregunta entera y separa «cómo configurar» de «cómo interpretar».",
+      ],
+      lists: [
+        {
+          intro: "Temas de autoevaluación:",
+          items: [
+            "en qué se diferencia una property de un data stream",
+            "qué es un evento y un parámetro",
+            "cómo no mezclar fuentes sin UTM",
+            "por qué filtros/exclusiones del tráfico interno",
+            "cómo un segmento cambia una conclusión de conversión",
+          ],
+        },
+      ],
+    },
+    {
+      title: "El certificado en el CV",
+      level: 2,
+      paras: [
+        "Un certificado muestra que pasaste la evaluación de Google en la fecha de emisión. No sustituye un portfolio de informes y desgloses.",
+        "En el CV lista el nombre actual del curso/certificado y el año. «GAIQ 2019» sin práctica GA4 se ve de archivo.",
+        "Para agencias, analítica de proyecto estable y dashboards claros ganan a una colección de PDFs.",
+      ],
+    },
+    {
+      title: "Ideas clave",
+      level: 2,
+      paras: [
+        "GAIQ fue un examen histórico de Analytics; no copies reglas de posts antiguos ni el contexto UA como instrucciones.",
+        "Prepárate con cursos oficiales de GA4 y fíjalo en una property real.",
+        "Un certificado es un plus en el CV — no un sustituto de leer un embudo y arreglar el tagging.",
+      ],
+    },
+  ],
+  closing: [
+    "Abre el curso actual de GA4 en Skillshop y, en paralelo, marca eventos en un sitio de entrenamiento — más útil que memorizar «70 preguntas GAIQ» de artículos de 2021.",
+  ],
+  related: [
+    "google-analytics",
+    "google-analytics-nastroyka",
+    "google-analytics-tseli",
+    "google-tag-manager",
+    "looker-studio",
+    "utm-metki",
+  ],
+};

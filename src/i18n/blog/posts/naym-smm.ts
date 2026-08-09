@@ -155,3 +155,160 @@ export const naymSmmEn: BlogPost = {
     "biznes-akkaunt-instagram",
   ],
 };
+
+/** ES overlay for naym-smm — same structure as RU JSON / EN. */
+export const naymSmmEs: BlogPost = {
+  slug: "naym-smm",
+  title:
+    "Cómo contratar a un especialista SMM: portfolio, preguntas de entrevista y una prueba",
+  date: "2019-07-18",
+  category: "SMM",
+  cover: "/images/blog/naym-smm/cover.webp",
+  excerpt:
+    "Cómo contratar a un SMM manager o a una agencia: qué revisar en el portfolio, qué preguntas hacer en la entrevista y cómo plantear una prueba corta sin una «estrategia completa» gratis.",
+  lead: [
+    "Contratar SMM por capturas bonitas es arriesgado: el reach puede esconder casos ajenos, engagement falso o «posts por posts». Los empleadores necesitan KPIs claros, ejemplos vivos y un chequeo de pensamiento — no una lista de tools de 2019.",
+    "Abajo: cómo cribear a un candidato o agencia — portfolio, preguntas, tarea de prueba. Qué hace el SMM día a día está en un artículo de profesión aparte. El disclaimer de productos Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de las plataformas. Las menciones de Instagram* y productos Meta similares son ilustrativas. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia del artículo del SMM manager?",
+      a: "Ese cubre deberes y entrar a la profesión. Este es la vista del empleador: cómo vetar a alguien antes de un contrato.",
+    },
+    {
+      q: "¿Hace falta mucha antigüedad?",
+      a: "No siempre. Importan más casos relevantes, analytics honestas y entender el nicho. Un junior fuerte con un proyecto de aprendizaje puede ganar a un «veterano» sin números.",
+    },
+    {
+      q: "¿Hace falta una prueba de estrategia completa?",
+      a: "No. Un brief largo y no pagado filtra a la gente fuerte. Un audit de cuenta más un texto corto de post o una idea basta.",
+    },
+    {
+      q: "¿Qué KPIs fijar para SMM?",
+      a: "No solo followers: clics, leads, coste por consulta, calidad del diálogo, saves/replies. Fíjalos en el contrato.",
+    },
+    {
+      q: "¿Agencia o freelancer?",
+      a: "Depende del volumen y los canales. Lo que importa es una persona accountable, un informe transparente y las cuentas de ads de tu lado.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué revisar antes de la entrevista",
+      level: 2,
+      paras: [
+        "Los perfiles del candidato en las redes que van a llevar: tono, corrección, calidad de replies, si crean contenido o solo repostean.",
+        "Portfolio: no «fotos bonitas», sino tarea → acciones → resultado (reach, engagement rate, leads, revenue — lo que encaje). Si no hay números — pregunta por qué.",
+        "Donde sea posible, habla con clientes pasados: si las promesas coincidieron con la realidad.",
+      ],
+      lists: [
+        {
+          intro: "Red flags:",
+          items: [
+            "garantías de «reach enorme y 10k followers en un mes» sin matices",
+            "negativa a mostrar el método de reporting",
+            "contraseñas en la cuenta personal del especialista",
+            "casos construidos solo con métricas falseadas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SMM manager: deberes",
+          href: "/es/blog/menedzher-smm/",
+        },
+      ],
+    },
+    {
+      title: "Preguntas de entrevista",
+      level: 2,
+      paras: [
+        "Cuántos proyectos llevan en paralelo y qué equipo hay detrás — si no, tu marca se vuelve ruido de fondo.",
+        "Cómo eligen plataformas para la audiencia: «solo donde soy fuerte» es más débil que un desglose de audiencia y oferta.",
+        "Qué puntos flojos ven en tus cuentas y qué probarían en 30–60 días — busca especificidad, no charla vaga de «engagement».",
+        "Cómo definen el éxito: leads y ventas vs likes. Cómo manejan comentarios negativos.",
+      ],
+      lists: [
+        {
+          intro: "Aclaraciones útiles:",
+          items: [
+            "experiencia en tu nicho o adyacente",
+            "quién escribe copy y quién graba",
+            "quién corre ads de pago y el reporting",
+            "cómo entregan accesos y archivos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Tools",
+          text: "Las listas de marcas de analytics y schedulers se quedan viejas. Lo que importa es leer las stats built-in de la plataforma y enrollar un informe a tus objetivos — no «conocer cada marca de planner».",
+        },
+      ],
+    },
+    {
+      title: "Una prueba sin explotación",
+      level: 2,
+      paras: [
+        "Un audit corto: 5–10 notas sobre visuales, contenido, CTA y huecos del funnel.",
+        "Un texto o idea de post/Stories para tu oferta — para chequear tono y corrección.",
+        "No pidas un media plan completo «de regalo»: eso es trabajo — págalo o inclúyelo en el primer sprint tras el contrato.",
+      ],
+      lists: [
+        {
+          intro: "En el brief de prueba indica:",
+          items: [
+            "enlaces de cuentas",
+            "quién es la audiencia y qué vendes",
+            "plazo de respuesta (1–3 días)",
+            "formato: un documento de 1–2 páginas",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Contrato, accesos y onboarding",
+      level: 2,
+      paras: [
+        "Fija KPIs, frecuencia de informe y zonas de responsabilidad (contenido / community / ads).",
+        "Las cuentas de ads y los perfiles business se quedan con la empresa. El especialista recibe roles — no «se lleva» la página para siempre.",
+        "Las primeras 2–4 semanas son diagnóstico e hipótesis, no una promesa de explosión de reach.",
+      ],
+      links: [
+        {
+          label: "Errores de SMM",
+          href: "/es/blog/oshibki-smm/",
+        },
+        {
+          label: "Engagement en redes",
+          href: "/es/blog/vovlechennost-socseti/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Contrata a quien explique cómo el contenido se ata a leads y muestre casos verificables.",
+        "Una prueba corta más KPIs claros gana a una entrevista «sobre trends».",
+        "Agencia y freelance funcionan ambos cuando accesos, reporting y ownership son transparentes.",
+      ],
+    },
+  ],
+  closing: [
+    "Antes de la llamada, escribe cinco preguntas de este artículo y pide un mini-audit de tu perfil — en una hora aprenderás más que con cien capturas before/after.",
+  ],
+  related: [
+    "menedzher-smm",
+    "oshibki-smm",
+    "vovlechennost-socseti",
+    "kontent-menedzher",
+    "akkaunt-menedzher",
+    "biznes-akkaunt-instagram",
+  ],
+};

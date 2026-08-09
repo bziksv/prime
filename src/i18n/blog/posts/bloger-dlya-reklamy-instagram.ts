@@ -183,3 +183,187 @@ export const blogerDlyaReklamyInstagramEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for bloger-dlya-reklamy-instagram — same structure as RU JSON / EN. */
+export const blogerDlyaReklamyInstagramEs: BlogPost = {
+  slug: "bloger-dlya-reklamy-instagram",
+  title: "Cómo encontrar un blogger para ads en Instagram: búsqueda y vetting",
+  date: "2022-02-01",
+  category: "SMM",
+  cover: "/images/blog/bloger-dlya-reklamy-instagram/cover.webp",
+  excerpt:
+    "Cómo elegir un creator para ads: por qué las integraciones, dónde buscar, cómo revisar la audiencia y qué evitar. Un checklist para el cliente.",
+  lead: [
+    "Los ads con creators funcionan cuando la audiencia encaja con la oferta y el perfil está vivo. Abajo: cómo encontrar autores y vetearlos antes de pagar.",
+    "Interfaces y marketplaces cambian: apóyate en criterios de calidad, no en «toca la flecha abajo en una versión vieja de la app».",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Contratas a un blogger o solo corres paid ads?",
+      a: "A menudo se refuerzan: un creator construye confianza y calentamiento; los paid ads traen escala y control. La elección depende del presupuesto y del objetivo.",
+    },
+    {
+      q: "¿Importa más el conteo de followers o el engagement?",
+      a: "Engagement y relevancia. Mejor 15 mil followers vivos que 200 mil vacíos.",
+    },
+    {
+      q: "¿Contratas creators desde un marketplace?",
+      a: "Puedes, si vetas a mano. En los marketplaces hay muchos perfiles inflados — revisa ER, comentarios y dinámica de crecimiento.",
+    },
+    {
+      q: "¿Cómo detectar engagement falso?",
+      a: "Picos de followers, likes sin views/comentarios, bots idénticos en comentarios, geografía rara para el nicho.",
+    },
+    {
+      q: "¿Qué fijar en el acuerdo?",
+      a: "Formato, plazos, palabras prohibidas, derechos sobre el asset, cómo mides resultados (código promo, UTM, DMs), revisiones y cancelación.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué anunciar con creators",
+      level: 2,
+      paras: [
+        "Los paid ads escalan el alcance. Un creator añade social proof: una recomendación de alguien en quien la gente ya confía.",
+        "Las plataformas cortan engagement falso y tácticas masivas — apostar por influencia viva e intereses compartidos gana a bots comprados.",
+      ],
+      lists: [
+        {
+          intro: "Qué suele entregar una integración sólida:",
+          items: [
+            "acceso a una audiencia de nicho ya reunida",
+            "awareness de marca y crecimiento de clics",
+            "contexto experto («recomiendo porque…»)",
+            "ventas — si la oferta y el CTA están claros",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Por dónde empezar la búsqueda",
+      level: 2,
+      paras: [
+        "Empieza con un brief: producto, geo, presupuesto, acción deseada (seguir, lead, compra). Sin brief es fácil comprar alcance bonito pero equivocado.",
+      ],
+      lists: [
+        {
+          intro: "Formas que funcionan para encontrar candidatos:",
+          items: [
+            "hashtags de nicho y búsqueda",
+            "perfiles similares junto a creators que ya conoces",
+            "comunidades/roundups de nicho donde creators ofrecen ads",
+            "recomendaciones de peers y contratistas pasados",
+            "herramientas de analytics y marketplaces (con chequeos manuales)",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Vínculo con la monetización",
+          kind: "tip",
+          text: "Cómo cotizan los creators y qué modelos de ingreso existen — en el artículo de ingresos de creators. Aquí el foco es el lado del cliente.",
+        },
+      ],
+      links: [
+        {
+          label: "Cuánto ganan los bloggers de Instagram",
+          href: "/es/blog/zarabotok-blogerov-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Marketplaces y herramientas",
+      level: 2,
+      paras: [
+        "Los marketplaces son útiles como escaparate, pero no sustituyen el vetting. Nombres de plataformas y precios de analytics cambian — lee reseñas y términos antes de pagar.",
+        "La analytics de perfil de terceros (crecimiento, ER, anomalías) ahorra presupuesto: corta engagement falso antes de escribir a nadie.",
+      ],
+      lists: [
+        {
+          intro: "En un marketplace, revisa al momento:",
+          items: [
+            "si los posts regulares tienen comentarios vivos",
+            "si el feed parece ads de pared a pared",
+            "si el tono del creator encaja con la marca",
+            "si pueden reportar alcance/clics",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo vetear un perfil",
+      level: 2,
+      paras: [
+        "Abre los últimos 15–20 posts y el archivo de Stories (si hay): de qué habla el creator, quién comenta, cómo responde.",
+      ],
+      lists: [
+        {
+          intro: "Criterios de calidad:",
+          items: [
+            "audiencia viva, sin engagement falso obvio",
+            "views de vídeo/Stories alineados con likes",
+            "contenido ordenado, no caos",
+            "creator y audiencia encajan con el producto",
+            "ads no más a menudo de lo que permite la confianza del feed",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Contratar una cuenta «estrella» con audiencia irrelevante. Un blog de fitness rara vez ayuda a un abogado sin intereses solapados — aunque el alcance sea grande.",
+        },
+      ],
+      tables: [
+        {
+          caption: "Filtro rápido de candidatos",
+          headers: ["Señal", "Sano", "Red flag"],
+          rows: [
+            ["Followers vs reacciones", "ER estable para el nicho", "Hay likes, no hay diálogo"],
+            ["Comentarios", "Gente distinta, replies relevantes", "Bots idénticos / spam de emoji"],
+            ["Crecimiento", "Suave o explicable", "Saltos bruscos sin motivo"],
+            ["Ads en el feed", "Raros, con disclosure", "Uno de cada dos posts es un ad"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Con quién no trabajar",
+      level: 2,
+      paras: [
+        "Salta perfiles con engagement falso obvio, tono tóxico, reputación de escándalo o cero replies a la audiencia.",
+        "Ten cuidado con creators que no comparten un brief de integración, no nombran plazos y no aceptan un resultado medible.",
+      ],
+    },
+    {
+      title: "Acuerdos y riesgos",
+      level: 2,
+      paras: [
+        "Planifica plazos fallidos, revisiones, borrado del post, conflicto en comentarios. Fija formato (post / Stories / serie), fecha, copy/palabras prohibidas y etiquetado del ad según la ley si hace falta.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo por escrito antes del pago:",
+          items: [
+            "marca, oferta, CTA",
+            "formato y número de unidades",
+            "plazos de borrador y de publicación",
+            "cómo mides el efecto",
+            "qué pasa en un force majeure",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Diseño del perfil de Instagram",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+      ],
+    },
+  ],
+};

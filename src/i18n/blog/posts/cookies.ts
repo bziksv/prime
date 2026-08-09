@@ -204,3 +204,208 @@ export const cookiesEn: BlogPost = {
     "razmer-stranitsy",
   ],
 };
+
+/** ES overlay for cookies — same structure as RU JSON / EN. */
+export const cookiesEs: BlogPost = {
+  slug: "cookies",
+  title: "Cookies del navegador: para qué sirven, cómo funcionan y seguridad",
+  date: "2020-08-31",
+  category: "SEO",
+  cover: "/images/blog/cookies/cover.webp",
+  excerpt:
+    "Qué es una cookie, en qué se diferencian sesión, persistentes y de terceros, por qué el sitio necesita analytics y auth, riesgos de privacidad y cómo gestionar el consentimiento.",
+  lead: [
+    "Una cookie es un dato pequeño que el sitio guarda en el navegador para reconocerte en peticiones posteriores: sesión de login, idioma, carrito, IDs de analytics. No es un virus, pero tampoco polvo inocuo — con cookies se construyen perfiles y se mantiene la sesión iniciada.",
+    "Abajo: propósito, tipos, escenarios de tracking, seguridad y qué debe planear el dueño del sitio (consentimiento, HTTPS, caducidad). Importante: las cookies casi nunca guardan la contraseña en texto claro — solo tokens o IDs.",
+  ],
+  faq: [
+    {
+      q: "¿Las cookies guardan mi contraseña?",
+      a: "En sitios bien hechos — no. Guardan un ID de sesión o un token. Si un servicio mete la contraseña en una cookie, es mala práctica y un riesgo.",
+    },
+    {
+      q: "¿Cuál es la diferencia entre session y persistent?",
+      a: "Las de sesión viven hasta cerrar el navegador (a grosso modo). Las persistentes hasta Expires / Max-Age.",
+    },
+    {
+      q: "¿Qué es una cookie de terceros?",
+      a: "La pone un dominio distinto al del sitio que abriste (a menudo ads o widgets). Los navegadores las van cerrando cada vez más.",
+    },
+    {
+      q: "¿Para qué necesita cookies un sitio?",
+      a: "Login, carrito, tests A/B, analytics, personalización, antifraude. Sin ellas muchos servicios «olvidan» al usuario.",
+    },
+    {
+      q: "¿Son peligrosas las cookies?",
+      a: "Riesgos: robo de sesión (XSS), manipulación (sin Secure/HttpOnly) y tracking. Se mitigan con higiene técnica y hábitos del usuario.",
+    },
+    {
+      q: "¿Hace falta un banner de consentimiento?",
+      a: "Depende de la jurisdicción y de qué tags pongas. En Rusia — ley de datos personales y tu política; en la UE — GDPR/ePrivacy. Abogado más cookies estrictamente necesarias.",
+    },
+    {
+      q: "¿Cómo veo las cookies?",
+      a: "DevTools → Application/Storage → Cookies. O ajustes del navegador: lista de sitios y borrar.",
+    },
+    {
+      q: "¿Bloquear cookies rompe el sitio?",
+      a: "A menudo sí para carrito y cuenta. En una web de brochure — menos. Ofrece un fallback y un mensaje honesto.",
+    },
+  ],
+  sections: [
+    {
+      title: "Para qué sirven las cookies",
+      level: 2,
+      paras: [
+        "El servidor (o un script) envía el header `Set-Cookie`; el navegador guarda un par nombre=valor y lo reenvía en peticiones posteriores a ese dominio. Así el sitio reconoce la sesión sin pedir login en cada página.",
+        "Tareas típicas: auth, carrito, idioma/moneda, «ya viste el banner», IDs de analytics (con consentimiento cuando toque).",
+      ],
+      lists: [
+        {
+          intro: "En corto:",
+          items: [
+            "datos en el navegador, no un programa",
+            "ligadas a dominio y path",
+            "tienen caducidad y flags de seguridad",
+            "no sustituyen del todo la sesión en servidor",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cookies de tracking y marketing",
+      level: 2,
+      paras: [
+        "Redes de ads y widgets ponen IDs para unir visitas entre sitios (mientras vivan las third-party) o con otras técnicas. Para el usuario es personalización y retargeting; para el negocio — atribución, pero también deber de transparencia.",
+        "La analytics first-party en tu propio dominio suele ser más predecible en la era de límites a terceros.",
+      ],
+      lists: [
+        {
+          intro: "Para el dueño del sitio:",
+          items: [
+            "inventario de cada tag",
+            "política de cookies en lenguaje claro",
+            "no cargar marketing antes del consentimiento si el régimen lo exige",
+            "minimizar scripts de terceros",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Instalar Yandex Metrika",
+          href: "/es/blog/metrika-ustanovka/",
+        },
+      ],
+    },
+    {
+      title: "Seguridad y flags",
+      level: 2,
+      paras: [
+        "HttpOnly — JS no puede leer la cookie (protege del robo de sesión vía XSS). Secure — solo HTTPS. SameSite — limita el envío desde otros sitios (CSRF). Una sesión corta reduce el daño si hay fuga.",
+        "Para usuarios: no quedarte logueado en PCs compartidos, actualiza el navegador, cuidado con las extensiones, no metas contraseñas en páginas HTTP.",
+      ],
+      lists: [
+        {
+          intro: "Riesgos:",
+          items: [
+            "XSS → cookie de sesión robada",
+            "MITM en HTTP sin Secure",
+            "phishing más reutilizar la sesión",
+            "terceros de más con acceso amplio",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Escribir que las cookies «guardan login y contraseña». La práctica normal es un token de sesión; el servidor guarda la contraseña (hasheada).",
+        },
+      ],
+      links: [
+        {
+          label: "HTTPS y SEO",
+          href: "/es/blog/https-seo/",
+        },
+      ],
+    },
+    {
+      title: "Privacidad y ley",
+      level: 2,
+      paras: [
+        "Las cookies pueden relacionarse con datos personales si identifican al usuario. Hace falta política, base de tratamiento e interfaz de control donde la ley y el sentido común lo pidan.",
+        "No copies un banner «Accept all» ajeno sin bloquear de verdad los tags opcionales — solo molesta y no quita el riesgo.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo del sitio:",
+          items: [
+            "página de política de cookies/privacidad",
+            "separación necesarias vs opcionales",
+            "forma de retirar el consentimiento",
+            "registro de qué tags se ponen de verdad",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo gestionarlas en el navegador",
+      level: 2,
+      paras: [
+        "En ajustes: ver, borrar por sitio, bloquear de terceros. DevTools muestra nombre, dominio, caducidad, tamaño. Borrar cookies te desloguea y vacía carritos — es normal.",
+        "Las extensiones bloqueadoras cortan trackers pero pueden romper checkout y chats — prueba los flujos críticos.",
+      ],
+      lists: [
+        {
+          intro: "Checklist del usuario:",
+          items: [
+            "revisar cookies en sitios dudosos",
+            "cerrar sesión en dispositivos ajenos",
+            "no desactivar todo en bancos o servicios oficiales sin necesidad",
+            "mantener OS y navegador al día",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Práctica para el webmaster",
+      level: 2,
+      paras: [
+        "Documenta la lista de cookies (nombre, propósito, caducidad, quién las pone). Cookies de sesión — HttpOnly + Secure + SameSite según haga falta. No hinches la vida a «10 años» sin motivo.",
+        "Tras lanzar un CMP/banner, verifica que analytics y ads esperan de verdad al consentimiento. Revisa Metrika/GA por pérdida de datos.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de release:",
+          items: [
+            "tabla de cookies en la política",
+            "flags en cookies de auth",
+            "test de login/carrito",
+            "test «rechazar opcionales»",
+            "monitor de errores de tags",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Menos scripts de terceros — menos cookies, política más simple, sitio más rápido.",
+        },
+      ],
+      links: [
+        {
+          label: "Seguridad del sitio",
+          href: "/es/blog/bezopasnost-sayta/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "bezopasnost-sayta",
+    "https-seo",
+    "metrika-ustanovka",
+    "google-analytics",
+    "razmer-stranitsy",
+  ],
+};

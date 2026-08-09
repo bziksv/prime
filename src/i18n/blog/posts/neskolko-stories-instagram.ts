@@ -145,3 +145,149 @@ export const neskolkoStoriesInstagramEn: BlogPost = {
     "idei-storis-vk",
   ],
 };
+
+/** ES overlay for neskolko-stories-instagram — same structure as RU JSON / EN. */
+export const neskolkoStoriesInstagramEs: BlogPost = {
+  slug: "neskolko-stories-instagram",
+  title: "Varias Stories seguidas: cómo publicar una serie sin caos",
+  date: "2020-09-02",
+  category: "SMM",
+  cover: "/images/blog/neskolko-stories-instagram/cover.webp",
+  excerpt:
+    "Cómo añadir varias Instagram Stories a la vez: elegir de la galería, partir un vídeo largo, orden de frames y fallos típicos de upload — sin un catálogo de emuladores grises.",
+  lead: [
+    "Una serie de Stories son varios frames seguidos en un solo toque de audiencia: anuncio, detalles, CTA. Puedes grabarlas una a una o elegir un lote de la galería; un vídeo largo a menudo lo corta la plataforma en segmentos.",
+    "Abajo: límites prácticos, cómo armar una serie, qué hacer cuando se atasca el upload y por qué Stories ganan a un post del feed para noticias de «hoy». Las etiquetas de botones cambian; revisa la app. El disclaimer de Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Cuántas Stories puedes publicar al día?",
+      a: "No copiamos un número «mágico» duro de guías viejas. En la práctica, no canses a la audiencia: 3–7 frames fuertes ganan a docenas vacíos. Los límites técnicos actuales — en Meta Help.",
+    },
+    {
+      q: "¿Por qué no todos llegan a la última?",
+      a: "La gente hace swipe. El primer frame decide si se quedan. Pon la oferta/hook al inicio de la serie.",
+    },
+    {
+      q: "¿Un vídeo largo se parte solo en Stories?",
+      a: "A menudo sí: más largo que el límite de segmento → varias Stories. El límite de segundos ha cambiado; usa lo que la app muestra en el preview.",
+    },
+    {
+      q: "¿Hace falta un emulador Android en el PC?",
+      a: "Para negocio, mejor cuentas Meta oficiales / schedulers de API donde estén disponibles. Emuladores y extensiones random de Chrome son riesgo extra de cuenta.",
+    },
+    {
+      q: "¿En qué se diferencia de un collage de una sola Stories?",
+      a: "Un collage es un frame. Una serie son varias pantallas con texto, poll o enlace propios en cada una.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué una serie, no un solo frame",
+      level: 2,
+      paras: [
+        "Despliega la idea: problema → prueba → oferta → CTA.",
+        "Mantén la atención más que una sola pantalla sin llenar la grid del perfil con un post.",
+        "Usa mecánicas distintas: un poll en el frame dos, un enlace en el tres, una review en el cuatro.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Importante",
+          text: "Una serie sin sentido cansa. Cada siguiente frame debería añadir información, no duplicar la primera foto.",
+        },
+      ],
+    },
+    {
+      title: "Cómo publicar varias a la vez",
+      level: 2,
+      paras: [
+        "Abre crear Stories desde el avatar → galería → selecciona varias fotos/vídeos (dentro de lo que permite la UI actual) → viste cada frame → share.",
+        "O graba/añade una a una: tras la primera story activa, lanza la siguiente — en el feed se alinean como cadena.",
+        "En cada frame tienes texto, stickers, polls, menciones, un enlace — según las reglas de tu tipo de cuenta.",
+      ],
+      lists: [
+        {
+          intro: "Antes de compartir:",
+          items: [
+            "revisa el orden: hook primero",
+            "quita duplicados de más",
+            "previsualiza toda la serie",
+            "para las importantes — activa archive / guardar en Highlights",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Vídeo largo → varias Stories",
+      level: 2,
+      paras: [
+        "Si el clip es más largo que el límite de segmento, Instagram a menudo ofrece partirlo solo. Luego editas cada parte por separado.",
+        "Si cortas antes en un editor — prepara vertical 9:16 y un bitrate decente, o toda la serie se ve suave.",
+        "No hace falta un catálogo de apps con watermark: basta el split built-in o un editor normal sin acceso gris a la cuenta.",
+      ],
+      links: [
+        {
+          label: "Vídeo en Instagram Stories",
+          href: "/es/blog/video-stories-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Orden y retention",
+      level: 2,
+      paras: [
+        "Los viewers se caen hacia el final de la cadena. Asume que cada siguiente frame llega a menos gente — y pon el punto principal antes.",
+        "Mantén un tema por serie. Saltar «producto → vacaciones → meme» sube el swipe-forward/cierre.",
+        "Publica cuando tu audiencia suele estar online (mira stats), no «porque hay que cada hora».",
+      ],
+    },
+    {
+      title: "Si carga eternamente o no añade",
+      level: 2,
+      paras: [
+        "Causas habituales: red débil, archivo pesado, glitch temporal del servidor, contenedor de vídeo no soportado.",
+        "Qué probar: otro Wi‑Fi/LTE, reducir peso/duración, convertir a mp4/H.264 familiar, actualizar la app, reiniciar el teléfono.",
+        "«Compra un teléfono nuevo» de guías viejas no es el paso uno. Primero red, archivo y update.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "No recomendamos",
+          text: "Emuladores de terceros y extensiones «Android in Chrome» para correr la cuenta — riesgo de phishing y ban. En PC usa herramientas oficiales de Meta si están disponibles para tu perfil.",
+        },
+      ],
+    },
+    {
+      title: "Stories vs un post del feed",
+      level: 2,
+      paras: [
+        "Stories encajan para lo urgente y «hoy»: una promo, behind the scenes, un poll — desaparecen en ~24 horas (o se quedan en Highlights).",
+        "Un post de la grid es escaparate y ancla larga. Una serie de Stories no sustituye un post fuerte; complementa el warm-up.",
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Un lote de galería o partir un clip largo — dos caminos que funcionan hacia una serie.",
+        "La potencia no es el conteo de frames; es el orden, el tema y el first screen.",
+      ],
+    },
+  ],
+  closing: [
+    "Arma una serie corta de 3–5 frames con la oferta al frente y revisa completion en stats — más fácil saber si necesitas esa longitud.",
+  ],
+  related: [
+    "video-stories-instagram",
+    "ssylka-stories-instagram",
+    "skachat-stories-instagram",
+    "arhiv-instagram",
+    "ohvat-instagram",
+    "idei-storis-vk",
+  ],
+};

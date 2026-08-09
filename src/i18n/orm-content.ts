@@ -393,8 +393,221 @@ const ormEn: OrmContent = {
   footerTagline: "Online reputation · reviews · trust",
 };
 
+const ormEs: OrmContent = {
+  path: "/es/reputation/",
+  metaTitle: "Reputación online — PRIME",
+  metaDescription:
+    "Reputación online: auditoría, estrategia, monitorización de reseñas negativas y prueba social positiva genuina en Google Maps, Business Profile y sitios de reseñas. Sin reseñas falsas.",
+  serviceName: "Reputación online",
+  serviceType: "Gestión de reputación online",
+  breadcrumbHome: "Inicio",
+  breadcrumbCurrent: "Reputación online",
+  menuLabel: "Menú",
+  ctaTop: "Hablemos",
+  brandBefore: "PRIM",
+  brandAccent: "E",
+  heroTitleBefore: "Reputación online — recupera la ",
+  heroTitleAccent: "confianza",
+  heroTitleAfter: " en tus manos",
+  heroLead:
+    "Los clientes contentos se quedan callados. Los enfadados, no. Construimos monitorización, guiones de respuesta y hábitos de reseñas para que tu reputación online refleje cómo trabajas de verdad.",
+  heroCtaPrimary: "Reservar consulta",
+  heroCtaSecondary: "Qué hacemos",
+  scoreLabel: "Balance de confianza",
+  scoreValue: "4.8",
+  scoreHint: "no es una nota que «maquillamos» — es un sistema que se sostiene",
+  reviews: [
+    {
+      title: "Cliente satisfecho",
+      text: "Suele quedarse callado — hasta que alguien le pide que lo cuente.",
+    },
+    {
+      title: "Voz negativa",
+      text: "Escribe primero y en voz alta — y marca el tono en Google Search.",
+    },
+    {
+      title: "Nuestro trabajo",
+      text: "Devolver una imagen justa en internet — y los procesos que la sostienen.",
+    },
+  ],
+  storyTitle: "El círculo vicioso de lo negativo",
+  storyLead: "Por qué «por aquí todo va bien» no es lo que ve quien te busca en internet.",
+  problemLead:
+    "Cuando todo va bien, los clientes se quedan callados. En cuanto algo se rompe, lo primero suele ser una reseña enfadada.",
+  problemDistort:
+    "Internet dibuja una imagen sesgada: en vez de una visión equilibrada, los posibles clientes ven un montón de quejas y frustración.",
+  problemCycle:
+    "Los clientes nuevos llegan ya con desconfianza, las expectativas bajan y cada pequeño fallo refuerza el tono negativo. Cientos de clientes contentos guardan silencio — unos pocos incidentes ruidosos escriben la historia.",
+  trustTitle: "La confianza queda en manos equivocadas",
+  trustText:
+    "Tu activo más valioso — la confianza — lo está definiendo una minoría insatisfecha. No hay ningún sistema que devuelva el equilibrio.",
+  mechanismTitle: "Hace falta un sistema",
+  mechanismText:
+    "No se trata de «inundar de cinco estrellas», sino de estrategia, formación del equipo y trabajo diario en las plataformas que importan.",
+  pillarsTitle: "Asesoría directa — y un sistema que tu equipo puede llevar",
+  pillarsLead:
+    "Cuatro pilares de gestión interna de la reputación — desde la auditoría hasta una imagen de marca más sana.",
+  pillars: [
+    {
+      n: "01",
+      title: "Auditoría y estrategia de reputación",
+      text: "Descubre cómo te perciben hoy en Google Maps, sitios de reseñas y búsquedas. Construimos un plan que tu equipo pueda ejecutar de verdad.",
+    },
+    {
+      n: "02",
+      title: "Formación y puesta en marcha de procesos",
+      text: "Acompañamiento uno a uno sobre gestión de reputación — para que el equipo responda y recoja opiniones sin caos.",
+    },
+    {
+      n: "03",
+      title: "Monitorización y gestión de lo negativo",
+      text: "Seguimos las reseñas, te ayudamos a responder con fondo y enfriamos los conflictos antes de que se conviertan en la cara de la marca.",
+    },
+    {
+      n: "04",
+      title: "Prueba social positiva",
+      text: "Construimos un flujo constante de reseñas positivas genuinas de clientes reales — para que la imagen online encaje con la realidad.",
+    },
+  ],
+  platformsTitle: "Dónde la reputación cierra la venta",
+  platformsLead:
+    "Google Maps, sitios de reseñas y búsquedas — los lugares donde el cliente decide antes de llamar.",
+  platforms: [
+    {
+      title: "Google Maps / Business Profile",
+      text: "La puntuación y las reseñas — a menudo lo primero que ve un cliente local antes de contactar.",
+    },
+    {
+      title: "Sitios de reseñas",
+      text: "Plataformas externas y directorios del sector — donde la gente compara opciones y decide.",
+    },
+    {
+      title: "Google Search",
+      text: "Lo que aparece al buscar tu marca marca las expectativas antes de que nadie entre en tu web.",
+    },
+    {
+      title: "Menciones en redes sociales",
+      text: "Hilos y comentarios públicos que pueden convertir un incidente en una historia que corre por toda la red.",
+    },
+  ],
+  stepsTitle: "Cómo trabajamos",
+  stepsLead: "De una foto clara del punto de partida a procesos que funcionan sin caos.",
+  stepPrefix: "Paso",
+  steps: [
+    {
+      n: "01",
+      title: "Mapear la situación actual",
+      text: "Dónde se habla de ti, qué tono predomina y qué incidentes se quedan más tiempo dando vueltas.",
+    },
+    {
+      n: "02",
+      title: "Estrategia y prioridades",
+      text: "Qué resolver primero: respuestas, proceso interno y cómo pedir opinión a los clientes contentos.",
+    },
+    {
+      n: "03",
+      title: "Implantación interna",
+      text: "Formamos al equipo: quién responde, en qué plazo, con qué tono — se acaba el «ya lo verá alguien».",
+    },
+    {
+      n: "04",
+      title: "Monitorizar y crecer",
+      text: "Seguimiento constante: gestionar lo negativo y reforzar lo positivo de forma sistemática.",
+    },
+  ],
+  outcomesTitle: "Qué cambia de verdad",
+  outcomesLead: "No son estrellas para una presentación — es un sistema que ven tus clientes y tu equipo.",
+  outcomes: [
+    {
+      title: "Un retrato más justo",
+      text: "Google Search y Maps muestran la imagen real: no solo los fallos, también a los clientes contentos.",
+    },
+    {
+      title: "Respuestas sin caos",
+      text: "Responsables, plazos y tono claros — lo negativo no se queda semanas sin respuesta.",
+    },
+    {
+      title: "Un proceso, no algo puntual",
+      text: "Recoger opiniones queda integrado en cómo atiendes a tus clientes — tu nota no depende de la suerte.",
+    },
+  ],
+  nosTitle: "Qué no hacemos",
+  nosLead: "Para que la gestión de reputación nunca se confunda con atajos poco claros.",
+  nos: [
+    {
+      title: "No fabricamos cinco estrellas",
+      text: "Las reseñas falsas queman la confianza y arriesgan penalizaciones de la plataforma. Trabajamos con clientes reales y procesos reales.",
+    },
+    {
+      title: "No prometemos «un 5.0 en una semana»",
+      text: "El ritmo depende de tu punto de partida, el nicho y cuánto esté dispuesto el equipo a cambiar respuestas y servicio.",
+    },
+    {
+      title: "No tapamos un mal servicio",
+      text: "Si los mismos fallos se repiten por dentro, primero corregimos la raíz. De lo contrario, la nota vuelve a caer.",
+    },
+  ],
+  pricingTitle: "Presupuesto a medida",
+  pricingText:
+    "Cotizamos una vez entendemos tu nicho, el volumen de plataformas, el tono actual de las reseñas y qué quieres resolver internamente.",
+  pricingMark: "Tras revisar el nicho y las plataformas",
+  faqTitle: "FAQ",
+  faqLead: "Plazos, plataformas y por dónde empezar — respuestas breves.",
+  faq: [
+    {
+      q: "¿Esto es comprar reseñas?",
+      a: "No. Construimos auditoría, respuestas, monitorización y recogida honesta de opiniones de clientes contentos. Las reseñas falsas y las tácticas turbias quedan fuera.",
+    },
+    {
+      q: "¿Cuánto tarda en estabilizarse el tono?",
+      a: "Depende de dónde partas: a veces organizar las respuestas lleva unas semanas; otras, un trimestre de trabajo constante. Lo estimamos tras auditar las plataformas.",
+    },
+    {
+      q: "¿Tiene que implicarse toda la empresa?",
+      a: "Al menos alguien debe encargarse de las reseñas y el contacto con clientes. Sin un proceso interno, la ayuda externa se diluye rápido.",
+    },
+    {
+      q: "¿Qué plataformas cubren?",
+      a: "Google Maps / Business Profile, los principales sitios de reseñas del sector y lo que aparece de tu marca en Google Search. Ajustamos la mezcla a tu nicho.",
+    },
+    {
+      q: "¿Podemos empezar solo con la auditoría?",
+      a: "Sí. A menudo empezamos con una revisión del tono actual y las prioridades — luego eliges: llevar los procesos dentro de casa o seguir con nuestro apoyo.",
+    },
+  ],
+  ctaTitle: "¿Listo para reequilibrar las reseñas?",
+  ctaLead:
+    "Contáctanos — revisaremos el tono actual y proponemos un plan: auditoría, procesos o acompañamiento continuo.",
+  ctaPoints: [
+    "Auditoría de Google Maps y sitios de reseñas — sin notas falsas",
+    "Gestión de lo negativo y crecimiento de lo positivo",
+    "Guiones para el equipo — respuestas y responsables",
+    "Revisión de nicho de 30 minutos · sin compromiso",
+  ],
+  formName: "Tu nombre",
+  formPhone: "Teléfono",
+  formBrand: "Nombre de la empresa / marca",
+  formFocus: "¿Cuál es la prioridad?",
+  formFocusOptions: [
+    "Auditoría y estrategia",
+    "Gestión de lo negativo",
+    "Crecer en reseñas positivas",
+    "Formación del equipo",
+    "Paquete completo",
+  ],
+  formMessage: "¿Dónde duele más — Maps, sitios de reseñas, búsquedas?",
+  formAgreeBefore: "Acepto el tratamiento de datos personales conforme a nuestra",
+  formAgreePolicy: "política de privacidad",
+  formSubmit: "Enviar solicitud",
+  formSuccess: "¡Gracias! Hemos recibido tu solicitud sobre reputación — te contactaremos.",
+  formSource: "es-reputation",
+  footerBrand: "PRIME",
+  footerTagline: "Reputación online · reseñas · confianza",
+};
+
 export function getOrmContent(locale: Locale): OrmContent {
   if (locale === "en") return ormEn;
+  if (locale === "es") return ormEs;
   return ormRu;
 }
 

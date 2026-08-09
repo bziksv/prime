@@ -440,8 +440,240 @@ const trafficEn: TrafficContent = {
   footerTagline: "Pay-per-visit SEO · Google Search",
 };
 
+const trafficEs: TrafficContent = {
+  path: "/es/traffic/",
+  metaTitle: "SEO por tráfico — PRIME",
+  metaDescription:
+    "SEO por tráfico: pagas por las visitas desde Google Search según una lista de palabras clave acordada. Mercados locales desde ~$0.09/visita, metrópolis competitivas desde ~$0.18. El tráfico base antes de empezar no se factura.",
+  serviceName: "SEO por tráfico",
+  serviceType: "SEO por tráfico",
+  breadcrumbHome: "Inicio",
+  breadcrumbCurrent: "SEO por tráfico",
+  menuLabel: "Menú",
+  ctaTop: "Escríbenos",
+  brandBefore: "PRIM",
+  brandAccent: "E",
+  heroKicker: "Pago por visita · solo crecimiento facturable de búsqueda",
+  heroTitleBefore: "Paga por ",
+  heroTitleAccent: "visitas",
+  heroTitleAfter: " — no por métricas de vanidad",
+  heroLead:
+    "Hacemos crecer las visitas desde Google Search en una lista de palabras clave acordada. El tráfico que ya tenías antes de empezar no cuenta — solo pagas por el crecimiento adicional.",
+  heroCtaPrimary: "Quiero crecer",
+  heroCtaSecondary: "Ver precios",
+  meterAria: "Demo: pago por tráfico adicional",
+  meterLive: "crecimiento en vivo",
+  meterProto: "PRIME · TRAFFIC",
+  meterBaseline: "base",
+  meterVisitsLabel: "visitas / mes",
+  meterDeltaLabel: "Δ facturable",
+  meterPayLabel: "a pagar",
+  meterNoteStart: "Base antes de empezar = $0 · pagas solo por el crecimiento",
+  meterNotePay: "Facturable solo Δ {delta} visitas · base {base} = $0",
+  meterRate: 0.18,
+  meterCurrency: "$",
+  demoKeys: [
+    "comprar · cerca de mí",
+    "envío · hoy",
+    "servicios · locales",
+    "catálogo · long-tail",
+    "presupuesto · solicitar",
+  ],
+  stats: [
+    { value: 0.09, suffix: "", label: "desde · mercados locales por visita", display: "$0.09" },
+    { value: 0.18, suffix: "", label: "desde · metrópolis competitivas", display: "$0.18" },
+    { value: 4, suffix: " meses", label: "tarifa fija antes del pago por crecimiento" },
+    { value: 0, suffix: "", label: "visitas base sin facturar", display: "$0" },
+  ],
+  marquee: [
+    "comprar online",
+    "servicios cerca de mí",
+    "envío el mismo día",
+    "precio llave en mano",
+    "catálogo 2026",
+    "solicitar presupuesto",
+    "comparar modelos",
+    "opiniones de clientes",
+    "disponible ahora",
+    "reservar visita",
+  ],
+  fitKicker: "Encaje",
+  fitTitle: "Para quién es",
+  fitLead:
+    "Cuando necesitas volumen de visitas cualificadas más que un puñado de frases en primera página.",
+  fit: [
+    {
+      title: "E-commerce grande",
+      text: "Cientos o miles de búsquedas de cola larga entre marcas y modelos — el modelo de tráfico cubre una cola de palabras clave amplia.",
+    },
+    {
+      title: "Catálogos de servicios extensos",
+      text: "Muchos servicios y páginas: el alcance en varias búsquedas gana más que perseguir dos frases en primera página.",
+    },
+    {
+      title: "Sitios de contenido y medios",
+      text: "Noticias, medios, referencia — donde el valor está en el volumen de visitas relevantes desde Google Search.",
+    },
+  ],
+  stepsKicker: "Proceso",
+  stepsTitle: "Cómo trabajamos",
+  stepsLead: "Desde los objetivos y la auditoría hasta el SEO on-page y off-page.",
+  steps: [
+    {
+      n: "01",
+      title: "Descubrimiento",
+      text: "Objetivos, competencia, lista de palabras clave y una estimación de costos clara.",
+    },
+    {
+      n: "02",
+      title: "Auditoría",
+      text: "Salud técnica, brechas on-page y off-page, UX que retiene a los visitantes.",
+    },
+    {
+      n: "03",
+      title: "SEO on-page",
+      text: "Palabras clave, contenido, enlaces internos, diseño enfocado en conversión, Google Analytics.",
+    },
+    {
+      n: "04",
+      title: "SEO off-page",
+      text: "Perfil de enlaces, contenido de invitado y Google Business Profile donde la búsqueda local importa.",
+    },
+  ],
+  outcomesKicker: "Resultado",
+  outcomesTitle: "Qué obtienes",
+  outcomesLead: "Alcance, conversión y un modelo de facturación que puedes explicarle a finanzas.",
+  outcomes: [
+    {
+      title: "Más alcance",
+      text: "Más visitas a las páginas que importan, en una lista amplia de palabras clave.",
+      metric: "alcance",
+    },
+    {
+      title: "Mejor conversión",
+      text: "Más ventas nuevas y recurrentes a medida que crece el tráfico cualificado.",
+      metric: "leads",
+    },
+    {
+      title: "Pagas por crecimiento",
+      text: "Pagas por visitantes de búsqueda desde una lista de palabras clave acordada. La base previa al lanzamiento no se factura.",
+      metric: "facturable",
+    },
+    {
+      title: "Señal más rápida",
+      text: "Optimizamos por volumen de visitas — verás movimiento antes que si solo «esperas la primera página».",
+      metric: "visitas",
+    },
+  ],
+  includesKicker: "Alcance",
+  includesTitle: "Qué incluye",
+  includesLead: "Investigación de palabras clave, términos excluidos, contenido, trabajo técnico y apoyo off-page.",
+  includes: [
+    "Construir y ampliar la lista de palabras clave",
+    "Términos excluidos fuera de la factura (gratis, DIY, cómo hacer…)",
+    "Ajustes técnicos de un especialista SEO",
+    "Publicación de contenido optimizado",
+    "Recomendaciones de conversión",
+    "Monitoreo de disponibilidad del sitio",
+    "Renovación del dominio cuando vence",
+    "SEO on-page (enlaces internos, sitemaps…)",
+    "SEO off-page (autoridad, señales sociales)",
+  ],
+  pricingKicker: "Precios",
+  pricingTitle: "Precios",
+  pricingLead: "Las tarifas dependen del mercado y de qué tan competido está el SERP.",
+  plans: [
+    {
+      id: "region",
+      title: "Mercados locales",
+      price: "desde $0.09",
+      unit: "por visita",
+      min: "$165 — $330",
+      minLabel: "pago mínimo",
+      featured: false,
+    },
+    {
+      id: "capital",
+      title: "Metrópolis competitivas",
+      price: "desde $0.18",
+      unit: "por visita",
+      min: "$330 — $510",
+      minLabel: "pago mínimo",
+      featured: true,
+    },
+  ],
+  planBadge: "Metrópolis",
+  planCtaPrefix: "Elegir ·",
+  pricingNote:
+    "El precio depende del mercado y la competencia. Primeros 4 meses: tarifa fija del contrato. Después: pagas por el crecimiento real de tráfico.",
+  nosKicker: "Sin rodeos",
+  nosTitle: "Qué no confundimos ni prometemos de más",
+  nosLead: "El pago por visita no es lo mismo que el pago por primera página — y lo dejamos claro.",
+  nos: [
+    {
+      title: "No es pago por primera página",
+      text: "Aquí pagas por visitas adicionales desde una lista de frases acordada. Las tarifas por posiciones en primera página son un producto de SEO distinto.",
+    },
+    {
+      title: "La base no se factura",
+      text: "El tráfico que el sitio ya tenía antes del lanzamiento no se cobra. Pagas por el crecimiento de Google Search en la lista de palabras clave acordada.",
+    },
+    {
+      title: "Nada de crecimiento repentino de la noche a la mañana",
+      text: "Los primeros meses son de preparación y arranque — suele ser ~1 mes de trabajo previo, y luego el crecimiento se planea a lo largo de varios meses. Primeros 4 meses: tarifa fija del contrato, después pagas por el crecimiento real.",
+    },
+  ],
+  faqKicker: "Preguntas",
+  faqTitle: "Preguntas frecuentes",
+  faqLead: "Comparado con el pago por primera página, tráfico base, primeros meses y precio por visita.",
+  faq: [
+    {
+      q: "¿En qué se diferencia del SEO con pago por primera página?",
+      a: "El SEO por tráfico factura las visitas desde Google Search en una lista de palabras clave. El SEO clásico por resultados factura posiciones en primera página. La elección depende de la amplitud de las palabras clave y el objetivo: alcance frente a términos precisos.",
+    },
+    {
+      q: "¿Qué significa que «la base no se factura»?",
+      a: "Fijamos el número de visitas antes del lanzamiento. Solo cuentan las visitas de búsqueda cualificadas adicionales en los términos acordados — no cada visita al sitio.",
+    },
+    {
+      q: "¿Por qué una tarifa fija los primeros 4 meses?",
+      a: "Necesitamos tiempo para el trabajo de palabras clave, ajustes técnicos, contenido y arranque. Después pasamos al pago por crecimiento — tal como queda en el contrato.",
+    },
+    {
+      q: "¿Para quién es mejor este modelo?",
+      a: "Catálogos grandes, e-commerce con demanda de cola larga, sitios de servicios amplios y portales de contenido — donde el volumen de visitas importa más que un par de frases en primera página.",
+    },
+    {
+      q: "¿Qué determina el precio por visita?",
+      a: "El mercado y la competencia. Como referencia: mercados locales desde ~$0.09, metrópolis competitivas desde ~$0.18 por visita; el pago mínimo depende del plan.",
+    },
+  ],
+  ctaTitle: "¿Quieres un SEO por tráfico que factura por crecimiento?",
+  ctaLead: "Cuéntanos tu sector — revisamos los detalles y enviamos una propuesta clara.",
+  ctaPickPrefix: "Plan seleccionado:",
+  ctaPickDefault: "Metrópolis competitivas · desde $0.18",
+  formName: "Tu nombre",
+  formPhone: "Teléfono",
+  formSite: "URL de tu web",
+  formRegion: "Mercado objetivo",
+  formRegionOptions: [
+    { value: "region", label: "Mercados locales · desde $0.09" },
+    { value: "capital", label: "Metrópolis competitivas · desde $0.18", selected: true },
+    { value: "multi", label: "Varios mercados" },
+  ],
+  formMessage: "Sector y el tráfico que buscas",
+  formAgreeBefore: "Acepto el tratamiento de datos personales según nuestra",
+  formAgreePolicy: "política de privacidad",
+  formSubmit: "Enviar",
+  formSuccess: "Gracias — recibimos tu mensaje. Te contactaremos en breve.",
+  formSource: "es-traffic",
+  footerBrand: "PRIME",
+  footerTagline: "SEO por tráfico · Google Search",
+};
+
 export function getTrafficContent(locale: Locale): TrafficContent {
   if (locale === "en") return trafficEn;
+  if (locale === "es") return trafficEs;
   return trafficRu;
 }
 

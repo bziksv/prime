@@ -188,3 +188,192 @@ export const kontentMarketingMetrikaEn: BlogPost = {
     "skvoznaya-analitika",
   ],
 };
+
+/** ES overlay for kontent-marketing-metrika — same structure as RU JSON / EN. */
+export const kontentMarketingMetrikaEs: BlogPost = {
+  slug: "kontent-marketing-metrika",
+  title: "Content marketing en Yandex Metrica: qué informes mirar",
+  date: "2018-10-15",
+  category: "Content marketing",
+  cover: "/images/blog/kontent-marketing-metrika/cover.webp",
+  excerpt:
+    "Cómo analizar content marketing en Yandex Metrica: visitas y engagement, mapas, fuentes, metas y conversiones — sin culto al bounce ni picos sueltos tras publicar.",
+  lead: [
+    "Una estrategia de contenido sin números se convierte rápido en «publicamos porque todos lo hacen». Metrica no sustituye el criterio editorial, pero muestra qué piezas se leen, de dónde vienen y si llegan a una meta.",
+    "Abajo: un loop práctico de reporting — tráfico y engagement, juzgar una pieza, fuentes, conversiones. Qué KPIs elegir en principio está en el artículo de analítica de content marketing; aquí el foco es qué mirar en el dashboard de Metrica. Las etiquetas del menú cambian — ve por lo que significa cada informe.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia del artículo de métricas de contenido?",
+      a: "Aquel cubre sets de KPI y lógica de evaluación. Este cubre cómo sacar esas señales vía informes y metas de Metrica.",
+    },
+    {
+      q: "¿Un bounce alto significa un artículo malo?",
+      a: "No siempre. Una respuesta corta a una query informativa puede cerrar el trabajo en un minuto. Lee el paquete: bounce + tiempo + scroll + meta.",
+    },
+    {
+      q: "¿Un mapa de scroll significa que terminaron de leer?",
+      a: "Aprox. Alguien puede hacer scroll sin leer. Añade una meta en un ancla final / tiempo en página o un evento de lectura completa.",
+    },
+    {
+      q: "¿Qué periodo de reporting usar?",
+      a: "Para tendencias del blog — varios meses para que un pico no tuerza la foto. Ops editorial — semanal.",
+    },
+    {
+      q: "¿Bastan las visitas sin metas?",
+      a: "Para «escribir y olvidar» — no. Sin metas y UTM no distingues tráfico útil de ruido.",
+    },
+  ],
+  sections: [
+    {
+      title: "Primero la meta del contenido — luego los informes",
+      level: 2,
+      paras: [
+        "Antes del dashboard, fija por qué existe la pieza: lead, registro, soporte de cluster SEO, calentamiento a compra. La meta decide el éxito — visita a URL, terminar de leer, clic en CTA o microconversión.",
+        "Sin meta, Metrica muestra gráficos bonitos sin decisión. Cadena: meta de negocio → meta de Metrica → informe que la explica.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo antes del análisis:",
+          items: [
+            "contador funcionando en las plantillas",
+            "1–3 metas para contenido",
+            "UTM en newsletters y tráfico de pago",
+            "lista de URLs clave del blog / guías",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Analítica de content marketing",
+          href: "/es/blog/analitika-kontent-marketinga/",
+        },
+        {
+          label: "Metas en Yandex Metrica",
+          href: "/es/blog/metrika-tseli/",
+        },
+      ],
+    },
+    {
+      title: "Tráfico y engagement",
+      level: 2,
+      paras: [
+        "Los informes de tráfico muestran la dinámica de visitas por día y fuente. Compara periodos (semana a semana, mes a mes) y mira caídas junto a publicaciones, estacionalidad y caídas del sitio.",
+        "Engagement: bounce, tiempo en el sitio, profundidad. En Metrica el bounce es una visita corta con pocas pageviews (el umbral puede afinarse en Help). Un bounce al alza en un artículo puede ser UX mala o una «respuesta rápida» — léelo en contexto del tipo de query.",
+      ],
+      lists: [
+        {
+          intro: "Qué mirar por artículo:",
+          items: [
+            "visitas a la URL y dinámica post-publicación",
+            "tiempo y profundidad",
+            "cuota de bounce vs piezas similares",
+            "visitas de retorno / lealtad cuando esté disponible",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "No fijes estrategia en un día",
+          kind: "tip",
+          text: "Un pico suelto tras un reshare en redes no es un efecto duradero. Mira la tendencia en semanas y meses.",
+        },
+      ],
+    },
+    {
+      title: "Mapas, scroll y «¿terminaron?»",
+      level: 2,
+      paras: [
+        "Los mapas de scroll y clics insinúan hasta dónde llegan y dónde pulsan. Zonas de CTA, TOC y tablas son buenos candidatos a revisar. Los datos son gruesos: scroll ≠ lectura atenta.",
+        "Más preciso — una meta en un ancla al final del artículo, un evento «leyó N%» o tiempo en página. Eso separa «pasó de largo» de «llegó al takeaway».",
+      ],
+      links: [
+        {
+          label: "Instalar Yandex Metrica",
+          href: "/es/blog/metrika-ustanovka/",
+        },
+      ],
+    },
+    {
+      title: "Shares, likes y comentarios",
+      level: 2,
+      paras: [
+        "Botones de share, contadores sociales y comentarios son señales de interés — no KPIs por sí solos. En Metrica mira informes de parámetros/eventos de share si los clics están etiquetados; si no, usa stats de plataforma como complemento.",
+        "Los comentarios ayudan en cualitativo: tono, preguntas, objeciones. Responde — lealtad y combustible para las siguientes piezas. El «like/dislike» on-site es una encuesta gruesa, no un sustituto de conversión.",
+      ],
+    },
+    {
+      title: "De dónde viene el lector",
+      level: 2,
+      paras: [
+        "Las fuentes de tráfico muestran qué crecer: búsqueda, directo, social, email, referral. El crecimiento orgánico en URLs útiles señala el trabajo de cluster y contenido; una caída con el mismo volumen de publicación es motivo para revisar indexación y canibalización.",
+        "Compara fuentes no solo por visitas sino por metas: tráfico barato sin leads pierde frente a un volumen menor pero más dirigido.",
+      ],
+      lists: [
+        {
+          intro: "Revisión mensual práctica:",
+          items: [
+            "URLs líderes por visitas y por conversiones",
+            "fuentes → meta",
+            "piezas de alto tráfico con CTA débil",
+            "qué amplificar en distribución, qué reescribir",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Plan de contenido",
+          href: "/es/blog/kontent-plan/",
+        },
+        {
+          label: "Comprobar indexación",
+          href: "/es/blog/proverka-indeksatsii/",
+        },
+      ],
+    },
+    {
+      title: "Conversiones y éxito de la estrategia",
+      level: 2,
+      paras: [
+        "El éxito del contenido es la tasa de cumplimiento de meta en URLs clave y la contribución a conversiones asistidas. ROI aproximado: efecto (leads/ingresos) vs coste de producción y distribución.",
+        "Cambia la estrategia por pasos: hipótesis → arreglo de titular/CTA/estructura → mide otra vez. Un rediseño editorial global sin datos a menudo rompe lo que ya funcionaba.",
+      ],
+      lists: [
+        {
+          intro: "Diez anclas de análisis (checklist de sentido):",
+          items: [
+            "dinámica de visitas",
+            "engagement",
+            "scroll / terminar de leer",
+            "shares y respuesta",
+            "comentarios",
+            "fuentes",
+            "piezas más exitosas",
+            "conversiones por metas",
+            "comparación de periodos",
+            "decisiones: amplificar / reescribir / sacar del plan",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "Metrica para contenido es un paquete de informes de tráfico, mapa, fuente y meta bajo un KPI elegido de antemano. Bounce y likes solos no responden «¿funciona la estrategia?».",
+        "Un horizonte largo de tendencia + ops editorial semanal + arreglos puntuales guiados por datos ganan a picos sueltos tras un reshare.",
+      ],
+    },
+  ],
+  closing: [
+    "Define metas de contenido en Metrica, saca un informe de URLs clave y fuentes a lo largo de varios meses — y edita el plan por conversiones y lectura completa, no por un día con pico de visitas.",
+  ],
+  related: [
+    "analitika-kontent-marketinga",
+    "metrika-tseli",
+    "metrika-ustanovka",
+    "kontent-plan",
+    "proverka-indeksatsii",
+    "skvoznaya-analitika",
+  ],
+};

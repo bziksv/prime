@@ -173,3 +173,177 @@ export const kopiraytingEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for kopirayting — same structure as RU JSON / EN. */
+export const kopiraytingEs: BlogPost = {
+  slug: "kopirayting",
+  title: "Copywriting: tipos de texto, trabajos y cómo elegir un redactor",
+  date: "2021-11-30",
+  category: "Content marketing",
+  cover: "/images/blog/kopirayting/cover.webp",
+  excerpt:
+    "Qué es el copywriting: textos informativos y de venta, LSI, landings, SMM, requisitos del redactor, pago y tips para clientes.",
+  lead: [
+    "El copywriting es escribir para un trabajo: explicar, calentar, traer un lead o ayudar a que la búsqueda encuentre la página. No es «rellenar caracteres» — es resolver un objetivo de negocio con palabras.",
+    "Abajo: direcciones, formatos, qué revisar en un contratista y cómo briefar. Las tarifas del mercado se mueven — esto son guías, no una lista de precios de agencia.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no incentiva el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta se reconoce como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia el copywriting del rewriting?",
+      a: "El rewriting retoma el texto de otro. El copywriting construye material para un trabajo, audiencia y a menudo keywords — con hechos y estructura.",
+    },
+    {
+      q: "¿Todo texto necesita SEO?",
+      a: "No todos. Landings y artículos de demanda — sí (keywords, LSI, estructura). En posts sociales importan más el tono y el CTA.",
+    },
+    {
+      q: "¿Cuánto cuesta un buen copy?",
+      a: "Depende del nicho, longitud, profundidad de research y formato (ficha de producto vs artículo experto). El barato «por 1000 caracteres» a menudo significa sin expertise.",
+    },
+    {
+      q: "¿Qué meter en el brief del redactor?",
+      a: "Objetivo, audiencia, oferta, hechos necesarios, keywords/cluster, longitud, tono, ejemplos de competidores, deadline y criterios de aceptación.",
+    },
+    {
+      q: "¿Un redactor universal puede cubrir todo el sitio?",
+      a: "A veces. Pero landings de venta, copy legal y expertise estrecha a menudo piden skills distintas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Dos grandes direcciones",
+      level: 2,
+      paras: [
+        "Los textos informativos responden preguntas y construyen confianza y expertise. Los comerciales llevan a una acción: lead, compra, llamada.",
+        "En la práctica un sitio necesita ambos: artículos y ayuda alimentan demanda; fichas y landings convierten.",
+      ],
+    },
+    {
+      title: "Cómo se entra en el oficio",
+      level: 2,
+      paras: [
+        "«Escribir fluido» no basta. Hacen falta corrección ortográfica, rango de géneros, recogida de hechos, trabajo con keywords y edits sensatos a partir del feedback.",
+      ],
+      lists: [
+        {
+          intro: "Skills centrales:",
+          items: [
+            "distinguir info, ventas y entretenimiento",
+            "ortografía y revisión",
+            "unicidad e interés por el tema",
+            "encontrar fuentes y comprobar hechos",
+            "formato y deadlines",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tipos de copywriting",
+      level: 2,
+      paras: [
+        "El formato fija el trabajo del texto. Un redactor rara vez es igual de fuerte en todo — revisa el portfolio del tipo que necesitas.",
+      ],
+      lists: [
+        {
+          intro: "Formatos habituales:",
+          items: [
+            "copy de secciones del sitio (Nosotros, servicios)",
+            "artículos LSI / SEO para un cluster de consultas",
+            "copy de venta y ofertas",
+            "noticias, anuncios, notas de prensa",
+            "eslóganes publicitarios y promo",
+            "posts SMM y guiones de Stories",
+            "promo impresa y offline",
+            "landings (bloques pensados para conversión)",
+            "fichas y categorías de e-commerce",
+            "reseñas y casos — solo honestos, sin fabricar",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "LSI en breve",
+          text: "Los buscadores miran no solo la «densidad de keywords», sino sentido, términos relacionados, estructura. Escribe para humanos dentro del tema — no una lista de consultas.",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "Investigación de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Post de venta en Instagram",
+          href: "/es/blog/post-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Pago y cómo encontrar un redactor",
+      level: 2,
+      paras: [
+        "Se paga por volumen, por proyecto, por resultado (más raro) o con un retainer editorial. Copy barato sin brief casi siempre cuesta más en rewrites.",
+        "Busca en marketplaces, por referidos, en agencias y con editores in-house. Para el cliente, un portfolio de nicho gana a una valoración estrella.",
+      ],
+      lists: [
+        {
+          intro: "Qué revisar en un redactor:",
+          items: [
+            "ejemplos de trabajos similares",
+            "cómo aclaran el brief",
+            "disposición a revisar dentro del brief",
+            "deadlines y comunicación",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Requisitos de calidad",
+      level: 2,
+      paras: [
+        "Un buen copy resuelve el trabajo, se lee sin relleno, encaja con hechos y tono de marca. La unicidad es la base — no el único KPI.",
+      ],
+      lists: [
+        {
+          intro: "Criterios de aceptación:",
+          items: [
+            "corrección ortográfica",
+            "estructura (titulares, párrafos, listas)",
+            "hechos y oferta sin filler",
+            "keywords usadas con sentido, sin stuffing",
+            "deadline y revisiones según el brief",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tips para clientes",
+      level: 2,
+      paras: [
+        "Un brief vago da un resultado vago. Cuanto más claros el objetivo y la audiencia, menos iteraciones.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo en el brief:",
+          items: [
+            "parámetros claros y objetivo del texto",
+            "portfolio antes de pagar un bloque grande",
+            "términos y número de revisiones acordados",
+            "feedback en proceso, no «reescribe todo el último día»",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          text: "Pedir un «texto SEO de 10.000 caracteres con 20 keywords» sin cluster ni estructura de página. Primero sentido y lógica de landing — la longitud después.",
+          kind: "tip",
+        },
+      ],
+    },
+  ],
+};

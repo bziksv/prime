@@ -117,3 +117,121 @@ export const emailMarketing2020En: BlogPost = {
     "parsing-email",
   ],
 };
+
+/** ES overlay for email-marketing-2020 — same structure as RU JSON / EN. */
+export const emailMarketing2020Es: BlogPost = {
+  slug: "email-marketing-2020",
+  title: "Email marketing: qué funciona en la práctica",
+  date: "2020-03-04",
+  category: "Email marketing",
+  cover: "/images/blog/email-marketing-2020/cover.webp",
+  excerpt:
+    "Qué tira de verdad de las newsletters: layout móvil, triggers, segmentos y un vínculo con CRM — sin culto a la interactividad experimental ni «tendencias del año» obsoletas.",
+  lead: [
+    "Los roundups de «qué viene en email» a menudo mezclan prácticas duraderas con experimentos de corta vida. La legibilidad móvil, los triggers y los datos de cliente siguen siendo la base. La interactividad fancy en la bandeja es una opción, no una estrategia.",
+    "Abajo: un marco práctico — qué revisar en cada envío y cómo montar el sistema si la lista aún es pequeña. No copies cifras de «cuota de tráfico» de roundups ajenos como tu benchmark.",
+  ],
+  faq: [
+    {
+      q: "¿Necesito interactividad compleja en los emails?",
+      a: "No como capa obligatoria. Primero HTML fiable, un CTA claro y un fallback si el cliente no muestra el widget.",
+    },
+    {
+      q: "¿El layout móvil sigue siendo importante?",
+      a: "Sí. Asunto corto, botones grandes, alt de imágenes, prueba en el teléfono — el mínimo básico.",
+    },
+    {
+      q: "¿La personalización es solo un nombre en el asunto?",
+      a: "El nombre es el suelo. Más fuerte: segmento, comportamiento y triggers (carrito, welcome, win-back).",
+    },
+    {
+      q: "¿Necesito un CRM?",
+      a: "Para crecer — sí: un perfil de cliente y escenarios. Un ESP sin CRM puede arrancar, pero el techo es más bajo.",
+    },
+    {
+      q: "¿Debo usar UGC y encuestas en emails?",
+      a: "Útil para el diálogo y el contenido si no conviertes cada envío en un cuestionario.",
+    },
+    {
+      q: "¿Qué longitud debe tener un asunto móvil?",
+      a: "Encaja el significado al inicio de la línea (a menudo unos 25–40 caracteres visibles). Empieza por el punto.",
+    },
+    {
+      q: "¿Por dónde empiezo si la lista es pequeña?",
+      a: "Formularios con opt-in, welcome y uno o dos triggers. Sin scraping ni comprar listas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Emails móviles sin fanatismo",
+      level: 2,
+      paras: [
+        "Una gran parte de las aperturas ocurre en el teléfono. De ahí: asunto conciso, párrafos cortos, CTA cerca de arriba, zonas táctiles, alt de imágenes, tests en varios clientes.",
+        "El revenue en desktop a menudo sigue siendo significativo — la comodidad de compra en pantalla grande no ha desaparecido. Haz el email legible en todas partes, no «solo para una estadística».",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de chequeo móvil:",
+          items: [
+            "el asunto se lee aunque se trunque",
+            "el botón no es un micro-botón",
+            "las imágenes no rompen el significado si no cargan",
+            "un CTA primario",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Interactividad, diálogo y canales",
+      level: 2,
+      paras: [
+        "Carruseles, formularios y otros widgets dentro del email suenan impresionantes. En la práctica, apostar a un stack experimental es arriesgado: el soporte de clientes es desigual. Un fallback HTML plano es obligatorio.",
+        "Más simple y estable: encuestas cortas post-compra, valoraciones de servicio, rúbricas de Q&A. El email recuerda la marca y alimenta datos de mejora.",
+        "Enlazar email con CRM y otros canales no es «iconos sociales en el footer» — es un funnel: lead → segmento → email → deal.",
+      ],
+      links: [
+        {
+          label: "Emails disparados (triggered)",
+          href: "/blog/triggernye-rassylki/",
+        },
+        {
+          label: "Correo para tu dominio",
+          href: "/es/blog/pochta-dlya-domena/",
+        },
+      ],
+    },
+    {
+      title: "Personalización y segmentos",
+      level: 2,
+      paras: [
+        "La personalización fuerte se reduce a lo obvio: partir la lista por interés y comportamiento, enviar triggers, afinar preferencias con encuestas — no un blast de «queridos amigos» a todos.",
+        "Técnicamente eso es ESP + datos del sitio/CRM. Legalmente — consentimiento y una baja fácil.",
+      ],
+      links: [
+        {
+          label: "Ejemplos fuertes de email",
+          href: "/es/blog/primery-email-rassylok/",
+        },
+        {
+          label: "Lista de email con consentimiento",
+          href: "/blog/baza-email-socseti/",
+        },
+      ],
+    },
+  ],
+  notes: {
+    title: "Importante",
+    text: "Revisa las capacidades actuales de los clientes de email y los planes del ESP. Las menciones a messengers y redes van de enlace de canales — no de saltar reglas de plataforma. Sin consentimiento y una baja honesta el canal se quema rápido.",
+  },
+  closing: [
+    "Mantén la base: legibilidad móvil, triggers y un vínculo con CRM. La interactividad experimental solo encima de HTML fiable — no en su lugar.",
+  ],
+  related: [
+    "primery-email-rassylok",
+    "pochta-dlya-domena",
+    "formy-zahvata",
+    "triggernye-rassylki",
+    "baza-email-socseti",
+    "parsing-email",
+  ],
+};

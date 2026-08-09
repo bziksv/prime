@@ -129,3 +129,133 @@ export const akkauntMenedzherEn: BlogPost = {
     "korporativnoe-obuchenie",
   ],
 };
+
+/** ES overlay for akkaunt-menedzher — same structure as RU JSON / EN. */
+export const akkauntMenedzherEs: BlogPost = {
+  slug: "akkaunt-menedzher",
+  title: "Qué es un account manager — y cómo es el trabajo de verdad",
+  date: "2019-05-30",
+  category: "Digital marketing",
+  cover: "/images/blog/akkaunt-menedzher/cover.webp",
+  excerpt:
+    "Un account manager de agencia: en qué se diferencia de sales y de un PM, el día a día del proyecto, comunicación con el cliente, upsell y estrés — sin el mito del «trabajo fácil con MacBook».",
+  lead: [
+    "Un account manager es el vínculo entre el cliente y el equipo de la agencia: metas, plazos, informes, quejas y crecer la relación tras el primer deal. En digital los contratan sobre todo estudios web, agencias de ads y branding, y escuelas online.",
+    "Abajo: en qué se diferencia el rol de sales y de project management, qué hay en un proyecto vivo, qué se infravalora y a quién encaja. Sueldos y títulos de grade flotan — mira vacantes actuales; aquí es la sustancia del trabajo.",
+  ],
+  faq: [
+    {
+      q: "¿Un account manager es lo mismo que sales?",
+      a: "No. Sales cierra más a menudo una audiencia fría y el primer deal. Account lleva un cliente existente: lealtad, trabajo repetido, procesos fluidos y crecimiento del ticket medio.",
+    },
+    {
+      q: "¿En qué se diferencia account de un project manager?",
+      a: "El PM posee plazos, equipo y entregar el scope. Account posee la relación con el cliente, expectativas, dinero y crecer la cuenta. En agencias pequeñas los roles a menudo se mezclan.",
+    },
+    {
+      q: "¿Hace falta conocimiento de marketing y SEO?",
+      a: "Sí a nivel de sentido: entender tools, leer informes, briefear especialistas y explicar el «por qué» al cliente. Hands-on profundo no es obligatorio; un puro «solo reenvío emails» no basta.",
+    },
+    {
+      q: "¿Cuántos proyectos se pueden llevar de forma realista?",
+      a: "Depende de la complejidad y la madurez del proceso. Textos viejos citaban hasta ~20 — riesgo de burnout sin playbooks y soporte. Menos cuentas con profundidad ganan a una cola sin control.",
+    },
+    {
+      q: "¿Cuál es la skill central?",
+      a: "Comunicación y calma bajo presión: calls, aprobaciones, quejas, traducir el lenguaje del cliente al del equipo y al revés. Si no puedes vivir al teléfono y en hilos, el rol es duro.",
+    },
+    {
+      q: "¿El upsell es obligatorio?",
+      a: "A menudo en KPIs: ofrecer servicios adyacentes cuando de verdad ayudan al negocio del cliente. Empujar «vende todo» sin valor mata la confianza — upsell desde la necesidad, no cuota a cualquier coste.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué una agencia necesita un account manager",
+      level: 2,
+      paras: [
+        "Digital corre muchos proyectos en paralelo: sitio, ads, contenido, analytics. Sin alguien que sostenga el contexto del cliente y cosa departamentos, sufren plazos, expectativas y pagos.",
+        "Los líderes a menudo llaman al account «la cara de la empresa»; los escépticos reducen el rol a «aceptar trabajo y perseguir la factura». La realidad está en el medio: el control del dinero importa, pero sin engagement del cliente y metas claras el proyecto se deshace.",
+      ],
+      notes: [
+        {
+          title: "No confundir con la primera venta",
+          kind: "tip",
+          text: "Sales trae al cliente. Account hace que la colaboración continúe y entregue para ambos lados.",
+        },
+      ],
+    },
+    {
+      title: "Responsabilidades centrales",
+      level: 2,
+      paras: [
+        "Foco — mantener al cliente en las decisiones, metas claras, informes honestos. El account sabe adónde va cada proyecto activo, alinea pedidos del cliente con la capacidad del equipo y maneja quejas sin una guerra de «nosotros vs ellos».",
+        "En dinero: vigilar pagos, no dejar que la deuda se «olvide», correr meetings y proponer add-ons cuando encajan.",
+      ],
+      lists: [
+        {
+          intro: "Ciclo típico de proyecto (p. ej. tráfico a un sitio):",
+          items: [
+            "brief y ayudar a enmarcar metas de marketing",
+            "plan de trabajo con el equipo",
+            "elegir tools relevantes",
+            "controlar y ajustar el plan",
+            "manejar objeciones y quejas",
+            "hacer follow-up tras el handoff de una etapa",
+            "upsell de soluciones adyacentes para la necesidad del negocio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Informe al cliente",
+          href: "/es/blog/otchet-klientu/",
+        },
+        {
+          label: "Project manager en IT",
+          href: "/es/blog/project-manager/",
+        },
+      ],
+    },
+    {
+      title: "Qué suele infravalorarse",
+      level: 2,
+      paras: [
+        "Más allá de la lista oficial — decenas de contrapartes: el cliente, su staff, colegas de departamentos de la agencia. Hace falta contexto de industria (desde talleres de neumáticos a construcción) y calma en peleas por detalles como un pop-up extra.",
+        "Standups, calls e hilos se comen el calendario. Sin time management y un task tracker el rol se vuelve apagar fuegos sin fin. Regla práctica: si llevas tiempo sin hablar con el cliente, sube el riesgo de sorpresa.",
+      ],
+      lists: [
+        {
+          intro: "A quién encaja el rol:",
+          items: [
+            "cómodo hablando mucho por voz y por escrito",
+            "puede convertir expectativas en tareas",
+            "manejar estrés y cambios de humor del cliente",
+            "dispuesto a aprender la sustancia de los servicios — no solo pasar statuses",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Burnout de empleados",
+          href: "/es/blog/vygoranie-sotrudnikov/",
+        },
+        {
+          label: "Cómo encontrar un marketer",
+          href: "/es/blog/nayti-marketologa/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Un account manager no es «solo perseguir facturas» — son relaciones a largo plazo, metas claras y coser al cliente con el equipo. Si tu empresa mezcla PM y sales en un solo asiento — escribe las zonas de ownership, o sufren plazos y confianza.",
+  ],
+  related: [
+    "project-manager",
+    "otchet-klientu",
+    "nayti-marketologa",
+    "vygoranie-sotrudnikov",
+    "kpi-menedzhera-prodazh",
+    "korporativnoe-obuchenie",
+  ],
+};

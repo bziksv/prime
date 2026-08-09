@@ -153,3 +153,157 @@ export const smmStrategiyaEn: BlogPost = {
     "vovlechennost-socseti",
   ],
 };
+
+/** ES overlay for smm-strategiya — same structure as RU JSON. */
+export const smmStrategiyaEs: BlogPost = {
+  slug: "smm-strategiya",
+  title:
+    "Estrategia SMM: objetivos, prioridades y cómo no dispersarse en posts al azar",
+  date: "2018-06-01",
+  category: "SMM",
+  cover: "/images/blog/smm-strategiya/cover.webp",
+  excerpt:
+    "Cómo armar una estrategia SMM: atar los objetivos de redes al negocio, partirlos en tareas, priorizar, asignar owners y plazos, y ajustar por métricas — sin un «algoritmo de oro».",
+  lead: [
+    "Una estrategia SMM es un acuerdo sobre por qué la marca está en redes y qué hacer primero. Sin ella el feed se vuelve posts por obligación, y el presupuesto va a toques bonitos pero inútiles.",
+    "Abajo: un marco de cinco pasos — objetivos → tareas → prioridades → owners y plazos → review. El plan de marketing más amplio va por encima; el calendario de contenido es la capa siguiente tras la estrategia.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia de una estrategia de marketing?",
+      a: "El marketing marca el rumbo entre canales. Una estrategia SMM es un corte: qué plataformas, qué objetivos en feed/ads/servicio y cómo encaja en los KPIs del negocio.",
+    },
+    {
+      q: "¿Hace falta una estrategia aparte por red?",
+      a: "Un marco compartido; formatos y tono se adaptan por plataforma. No copies un post a todos los canales sin adaptar.",
+    },
+    {
+      q: "¿Cuántos objetivos fijar?",
+      a: "Uno principal para el periodo (leads, nurture, HR, servicio) y dos o tres de apoyo. «Todo a la vez» estira los recursos.",
+    },
+    {
+      q: "¿La estrategia sustituye al plan de contenido?",
+      a: "No. La estrategia responde «por qué y qué importa más»; el plan responde «qué se publica cuándo».",
+    },
+    {
+      q: "¿Hay un algoritmo SMM universal?",
+      a: "No. Hay un marco y tests. Los «secretos del año» ajenos envejecen más rápido de lo que puedes publicarlos.",
+    },
+  ],
+  sections: [
+    {
+      title: "Ata los objetivos SMM al negocio",
+      level: 2,
+      paras: [
+        "Escribe de uno a tres objetivos corporativos del periodo (nuevo mercado, lanzamiento de producto, compras repetidas, hiring). Por cada uno pregunta: ¿cómo pueden ayudar de verdad las redes — tráfico, confianza, leads, soporte, partnerships?",
+        "Si «estar en redes» no toca ningún objetivo de negocio, estás llevando un canal por el canal. Entonces estrecha el canal o revisa las expectativas.",
+        "Objetivos SMM típicos: awareness, tráfico al sitio, leads/ventas, comunidad, research de audiencia. Elige uno principal — subordina el resto.",
+      ],
+      links: [
+        {
+          label: "Redes para negocio",
+          href: "/es/blog/sotsseti-dlya-biznesa/",
+        },
+        {
+          label: "Estrategia de marketing",
+          href: "/es/blog/marketingovaya-strategiya/",
+        },
+      ],
+    },
+    {
+      title: "Parte los objetivos en tareas concretas",
+      level: 2,
+      paras: [
+        "«Entrar a un mercado nuevo vía influencers» sin pasos es un eslogan. Traduce a acciones: lista de candidatos, criterios de selección, oferta de colaboración, frecuencia de collabs, formato de reporting.",
+        "Las tareas deben ser chequeables: no «subir engagement», sino «correr cuatro encuestas en Stories y procesar replies para el viernes» o «conseguir 30 diálogos cualificados al mes».",
+        "Las condiciones cambian — cambia la táctica; no escondas el fallo detrás de un wording bonito.",
+      ],
+      lists: [
+        {
+          intro: "Mini plantilla de tarea:",
+          items: [
+            "resultado (qué obtenemos)",
+            "acción (qué hacemos)",
+            "plataforma y formato",
+            "métrica de éxito",
+            "plazo y owner",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Prioridades: valor frente a esfuerzo",
+      level: 2,
+      paras: [
+        "Presupuesto y tiempo son limitados. Puntúa cada iniciativa por valor de negocio y dificultad de implementación. Primero — alto valor con esfuerzo moderado («fruta baja»).",
+        "Aparca o corta ideas caras con retorno dudoso hasta un piloto. No persigas un «algoritmo de oro» — prueba hipótesis con tope de presupuesto y tiempo.",
+        "Una matriz valor/esfuerzo es una tool de product planning; en SMM también sobria el «hagamos también Reels, un podcast y un Live diario».",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Error habitual",
+          text: "Hacerlo todo a la vez: contenido + ads + creadores + concursos sin ranking. Entonces ninguna línea llega a un resultado medible.",
+        },
+      ],
+    },
+    {
+      title: "Owners y plazos",
+      level: 2,
+      paras: [
+        "Cada tarea necesita un nombre y un plazo. «El equipo SMM» sin owner significa nadie. En collabs, fija quién escribe, quién aprueba, quién publica y quién responde en comentarios.",
+        "Ata los plazos a calendarios de campaña y estacionalidad — no a un «este trimestre» abstracto. Un sprint corto con retro gana a un plan anual sin puntos de control.",
+        "Si usas un contractor — los mismos KPIs y ritmo de reporting van al contrato y al brief como dentro del equipo.",
+      ],
+      links: [
+        {
+          label: "Contratar SMM",
+          href: "/es/blog/naym-smm/",
+        },
+        {
+          label: "Errores de SMM",
+          href: "/es/blog/oshibki-smm/",
+        },
+      ],
+    },
+    {
+      title: "Review y ajuste",
+      level: 2,
+      paras: [
+        "La estrategia es una ruta, no dogma. Cada dos a cuatro semanas chequea: ¿vamos hacia el objetivo, qué tareas señalaron, qué apagar?",
+        "Mira métricas atadas al objetivo elegido: leads, diálogos, clics al sitio, saves, share de replies — no solo likes. Compara periodos con honestidad: cambios creativos y estacionalidad ganan a la «magia del algoritmo».",
+        "Fija takeaways en una retro corta y refresca prioridades. Encaja el plan de contenido a la nueva hipótesis — no al revés.",
+      ],
+      links: [
+        {
+          label: "Plan de contenido",
+          href: "/es/blog/kontent-plan/",
+        },
+        {
+          label: "Engagement en redes",
+          href: "/es/blog/vovlechennost-socseti/",
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "SMM sin vínculo a un objetivo de negocio es actividad para el informe.",
+        "Prioridades y owners ganan a una wishlist larga de ideas.",
+        "Ajusta con tus números, no con las tendencias del año de otro.",
+      ],
+    },
+  ],
+  closing: [
+    "Escribe un objetivo de negocio para el mes, tres tareas SMM debajo con owners, y en dos semanas apaga todo lo que no mueva la métrica — la estrategia aparece más rápido que un «deck de 40 slides».",
+  ],
+  related: [
+    "sotsseti-dlya-biznesa",
+    "oshibki-smm",
+    "marketingovaya-strategiya",
+    "kontent-plan",
+    "naym-smm",
+    "vovlechennost-socseti",
+  ],
+};

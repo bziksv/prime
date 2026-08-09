@@ -284,3 +284,287 @@ export const saytNeVTopEn: BlogPost = {
     "bezopasnost-sayta",
   ],
 };
+/** ES overlay for sayt-ne-v-top — same structure as RU JSON / EN. */
+export const saytNeVTopEs: BlogPost = {
+  slug: "sayt-ne-v-top",
+  title: "Por qué tus páginas no rankean: 10 motivos habituales",
+  date: "2020-01-31",
+  category: "SEO",
+  cover: "/images/blog/sayt-ne-v-top/cover.webp",
+  excerpt:
+    "Diez motivos por los que las páginas no llegan a la primera página: antigüedad, filtros, contenido, técnica, UX, seguridad, hosting, dominio, código y el mito de resultados instantáneos — con plazos de preparación separados del crecimiento de rankings.",
+  lead: [
+    "Un copy fuerte y un menú claro ayudan, pero no bastan. Las páginas pueden quedarse lejos en los resultados porque el dominio es joven, está bajo un filtro, flojea en técnica, es difícil de usar — o porque alguien esperaba milagros en una semana.",
+    "Abajo: diez causas frecuentes y qué revisar. La preparación para la promoción (técnica, keywords, copy) suele llevar semanas o alrededor de un mes. Crecer una cuota sólida del núcleo comercial hacia visibilidad en primera página es otro horizonte — típicamente 2–6 meses tras el inicio del trabajo, mejorando mes a mes, sin fecha de calendario garantizada.",
+  ],
+  faq: [
+    {
+      q: "¿Se puede llegar a la primera página en un mes?",
+      a: "En alrededor de un mes es realista preparar el sitio y arrancar el trabajo. Rankear un núcleo comercial en primera página suele llevar 2–6 meses de construcción. «Lanzamiento igual a primera página» es un mito dañino.",
+    },
+    {
+      q: "¿Existe oficialmente la sandbox?",
+      a: "Los buscadores no prometen un «modo sandbox» aparte para cada sitio nuevo. En la práctica los dominios nuevos acumulan confianza y señales más tiempo — es normal, no un bug del CMS.",
+    },
+    {
+      q: "Si el contenido es único, ¿hay garantía de primera página?",
+      a: "No. Siguen haciendo falta encaje de intent, estructura, técnica, competencia y tiempo. La unicidad es la base — no un ticket a los diez primeros resultados.",
+    },
+    {
+      q: "¿Cómo saber si un filtro tiene la culpa?",
+      a: "Una caída brusca en un grupo de consultas, mensajes en Webmaster o Search Console, anomalías en el perfil de backlinks. No diagnostiques desde una frase — mira tendencias e informes.",
+    },
+    {
+      q: "¿El malware en el sitio afecta a los rankings?",
+      a: "Sí: avisos del navegador, retirada de resultados, pérdida de confianza. Primero limpia y asegura; las expectativas SEO después.",
+    },
+    {
+      q: "¿Un hosting malo puede dañar de verdad los rankings?",
+      a: "Caídas frecuentes, TTFB lento y un servidor lejos de la audiencia dañan crawl y UX. No es una «sanción por la marca del host» — es disponibilidad y velocidad.",
+    },
+    {
+      q: "¿Dominios con guion, IDN o dígitos son un callejón sin salida?",
+      a: "No siempre. Importan más historial, marca, encaje con la consulta y confianza. Renombrar por estética sin 301 correctos es un riesgo aparte.",
+    },
+    {
+      q: "¿Por dónde empezar el diagnóstico?",
+      a: "Indexación y errores de panel → técnica (velocidad, móvil, códigos de estado) → contenido y keywords → enlaces y filtros → UX y conversión. En paralelo, fija el timeline: preparación no es lo mismo que crecimiento de rankings.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo leer «no rankeamos»",
+      level: 2,
+      paras: [
+        "Primero aclara qué consultas: marca, informativas o head terms comerciales. Una URL no tiene que estar en primera página por cada frase del nicho. Mira la cuota del núcleo, tráfico y leads — no una posición bonita en un screenshot.",
+        "Separa las etapas: el sitio está listo para la promoción (prep) versus el sitio está construyendo rankings (trabajo más tiempo). Mezclarlas es la principal fuente de decepción — y de «aceleradores» peligrosos como spam de enlaces y redes de satélites.",
+      ],
+      lists: [
+        {
+          intro: "Mini-checklist antes del pánico:",
+          items: [
+            "la página está indexada y responde 200",
+            "la consulta y el intent encajan con la landing",
+            "hay competencia real y un horizonte realista",
+            "el trabajo ya lleva más de un par de semanas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Set semántico de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+      ],
+    },
+    {
+      title: "1–2. Sitio joven y filtros",
+      level: 2,
+      paras: [
+        "Un dominio nuevo necesita tiempo para el crawl y para que se acumulen señales de comportamiento y de enlaces. Una pieza que «despegó» en un sitio antiguo con autoridad a menudo crece más lento en un nombre fresco — es de esperar. Refuerza el núcleo (head, mid y long-tail), estructura, unicidad y técnica; reclama la propiedad en Webmaster y Search Console.",
+        "Filtros y sanciones son otra historia: un colapso brusco, avisos, un perfil de backlinks tóxico, sobreoptimización. Primero quita la causa (spam, cloaking, engagement falso) — no compres más enlaces. Ver las piezas de filtros y compra de enlaces.",
+      ],
+      lists: [
+        {
+          intro: "Útil al inicio:",
+          items: [
+            "montar el núcleo y un mapa de relevancia",
+            "limpiar errores técnicos críticos",
+            "no esperar primera página dos semanas tras el lanzamiento",
+            "no montar «aceleradores» tipo redes de satélites",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Sitio joven",
+          href: "/es/blog/molodoy-sayt/",
+        },
+        {
+          label: "Filtros de buscadores",
+          href: "/es/blog/filtry-poiskovikov/",
+        },
+        {
+          label: "Sitios satélite",
+          href: "/es/blog/sayty-satellity/",
+        },
+      ],
+    },
+    {
+      title: "3–4. Contenido y optimización de cara al crawler",
+      level: 2,
+      paras: [
+        "Copy flojo, no único o aguado falla el intent. El copy-paste y las fichas plantilla finas pierden frente a páginas con hechos, estructura y una respuesta real. Escribe para personas; compara competidores por sentido — no solo por una puntuación de unicidad en una herramienta.",
+        "«Falta de optimización» no significa meter una keyword en cada párrafo. Significa title y H1 claros, URLs sensatas, enlaces internos, indexar las secciones correctas y dejar fuera la basura. El crawler debería ver las páginas principales y no ahogarse en duplicados por parámetros.",
+      ],
+      lists: [
+        {
+          intro: "Revisa:",
+          items: [
+            "unicidad y una respuesta completa a la consulta",
+            "title, H1 y snippet sin stuffing",
+            "sitemap, robots, canonicals",
+            "duplicados y páginas finas en el índice",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Contenido del sitio",
+          href: "/es/blog/napolnenie-sayta/",
+        },
+        {
+          label: "Páginas duplicadas",
+          href: "/es/blog/dubli-stranits/",
+        },
+        {
+          label: "Longitud del title",
+          href: "/es/blog/dlina-title/",
+        },
+      ],
+    },
+    {
+      title: "5–6. Comportamiento del usuario y seguridad",
+      level: 2,
+      paras: [
+        "Ignorar la UX es un motivo habitual de «tráfico, sin resultados» y señales de engagement flojas: carga lenta, popups agresivos, navegación confusa, un layout móvil que apenas funciona. Mira rebote, profundidad y goals en analítica — luego arregla el camino al lead.",
+        "Malware, phishing y hacks matan la confianza más rápido que cualquier auditoría SEO. Navegadores y búsqueda pueden mostrar avisos o limpiar páginas. Primero limpieza, reset de contraseñas, updates de CMS y plugins, HTTPS y backups — rankings después.",
+      ],
+      lists: [
+        {
+          intro: "Señales de acción:",
+          items: [
+            "rebote alto en landings clave",
+            "quejas de virus o Safe Browsing",
+            "redirects y scripts desconocidos",
+            "goals de Metrica / Analytics que no cuadran",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Seguridad del sitio",
+          href: "/es/blog/bezopasnost-sayta/",
+        },
+        {
+          label: "Navegación del sitio",
+          href: "/es/blog/navigatsiya-sayta/",
+        },
+        {
+          label: "Goals en Metrica",
+          href: "/es/blog/metrika-tseli/",
+        },
+      ],
+    },
+    {
+      title: "7–9. Hosting, dominio y errores de código",
+      level: 2,
+      paras: [
+        "Hosting poco fiable significa downtime, límites y respuesta lenta del servidor. El bot crawlea con éxito con menos frecuencia; los usuarios se van. Elige una plataforma estable más cerca de la audiencia; vigila uptime y caching.",
+        "Un nombre «raro» rara vez banea un sitio por sí solo, pero un dominio con mal historial, redirects interminables o un desajuste total de marca complica la vida. Antes de comprar un nombre usado, revisa archivos y sanciones. HTML roto, assets que faltan, mixed content, redirects incorrectos y malos códigos de estado dañan la indexación — píllalos con un crawler y paneles de webmaster.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo técnico:",
+          items: [
+            "uptime y velocidad (incluido móvil)",
+            "historial del dominio al cambiar o comprar",
+            "301 válidos entre espejos",
+            "crawl de 4xx/5xx, CSS/JS rotos, duplicados",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Screaming Frog",
+          href: "/es/blog/screaming-frog/",
+        },
+        {
+          label: "Códigos de estado HTTP",
+          href: "/es/blog/kod-statusa-http/",
+        },
+        {
+          label: "Tamaño de página",
+          href: "/es/blog/razmer-stranitsy/",
+        },
+      ],
+    },
+    {
+      title: "10. Esperar resultados de primera página al instante",
+      level: 2,
+      paras: [
+        "El «motivo» más habitual son expectativas equivocadas. La preparación — keywords, copy, técnica, analítica — ronda un mes (a veces 2–6 semanas). La construcción de rankings se planifica a 2–6 meses tras el inicio del trabajo; un trozo notable del núcleo suele aparecer cerca de 2–3 meses, el resto después — «como vaya», no una garantía de calendario.",
+        "Si un vendor promete primera página llave en mano «en 30 días» sin matices sobre competencia y etapas — trátalo como bandera roja. Un informe honesto muestra crecimiento de cuota del núcleo y/o leads mes a mes — no una fecha mágica.",
+      ],
+      lists: [
+        {
+          intro: "Cómo formular plazos:",
+          items: [
+            "Preparación: ~1 mes (a veces 2–6 semanas)",
+            "Cuota del núcleo en primera página: planificada 2–6 meses tras el inicio del trabajo",
+            "KPIs: cuota del núcleo, tráfico, leads — no «el nº 1 mañana»",
+            "nada de «aceleración» vía redes y ráfagas de enlaces",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Plazos",
+          text: "Arrancar el trabajo no es lo mismo que llegar a la primera página. Confundir preparación con construcción de rankings es el principal error del brief.",
+        },
+      ],
+      links: [
+        {
+          label: "SEO para pequeños negocios",
+          href: "/blog/seo-malyy-biznes/",
+        },
+        {
+          label: "Comprar enlaces",
+          href: "/es/blog/pokupka-ssylok/",
+        },
+      ],
+    },
+    {
+      title: "Un orden práctico de diagnóstico",
+      level: 2,
+      paras: [
+        "Pasa de hechos a hipótesis: paneles de indexación → disponibilidad y velocidad → encaje página–consulta → calidad de contenido → enlaces y filtros → UX y conversión. Registra cambios y mira tendencias en semanas, no de un día para otro.",
+        "En paralelo, quita «aceleradores» tóxicos. El crecimiento duradero viene de contenido, técnica y menciones normales — más tiempo. Los diez motivos de arriba suelen apilarse: rara vez culpa a una sola línea del checklist.",
+      ],
+      lists: [
+        {
+          intro: "En una línea:",
+          items: [
+            "primero haz que el sitio merezca indexarse y clicar",
+            "luego trabaja de forma sistemática durante meses",
+            "no confundas preparación con crecimiento de rankings",
+            "mide leads, no solo posiciones",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Yandex Webmaster / soporte",
+          href: "/es/blog/podderzhka-yandeks/",
+        },
+        {
+          label: "Google Search Console",
+          href: "/es/blog/google-search-console/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "molodoy-sayt",
+    "filtry-poiskovikov",
+    "samostoyatelnoe-seo",
+    "sayty-satellity",
+    "napolnenie-sayta",
+    "bezopasnost-sayta",
+  ],
+};

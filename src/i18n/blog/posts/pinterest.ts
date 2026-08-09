@@ -127,3 +127,131 @@ export const pinterestEn: BlogPost = {
     "oformlenie-stranicy-instagram",
   ],
 };
+
+/** ES overlay for pinterest — same structure as RU JSON / EN. */
+export const pinterestEs: BlogPost = {
+  slug: "pinterest",
+  title: "Pinterest: qué es y por qué lo usan negocio y boards personales",
+  date: "2020-08-04",
+  category: "SMM",
+  cover: "/images/blog/pinterest/cover.webp",
+  excerpt:
+    "Qué es Pinterest: pins, boards, repins, en qué se diferencia de Instagram y cómo usarlo para ideas y tráfico — sin stats demo obsoletas ni garantías de ventas.",
+  lead: [
+    "Pinterest es búsqueda visual y boards de ideas: guardas pins (imágenes con enlace y descripción) en boards, encuentras referencias y envías tráfico a un sitio.",
+    "Abajo: vocabulario de la plataforma, uso personal vs business y expectativas realistas. No trates como hecho las stats de «millones en EE. UU.» o «mujeres 20–45» de roundups de 2020. Las imágenes ajenas siguen trayendo copyright.",
+  ],
+  faq: [
+    {
+      q: "¿Pinterest es una red social o un buscador?",
+      a: "Las dos en feeling: un feed de intereses más búsqueda por visual y tema. Más fuerte en «encontrar una idea o producto», más débil en «charlar en comentarios».",
+    },
+    {
+      q: "¿En qué se diferencia de Instagram?",
+      a: "Instagram es más fuerte en personalidad y Stories/Reels. Pinterest es más fuerte en la vida larga del pin, repins y clics salientes a una página externa.",
+    },
+    {
+      q: "¿pinterest.ru y .com son servicios distintos?",
+      a: "Suele ser un solo producto con settings de idioma y región. Inicia sesión vía el sitio o la app oficial; no lo confundas con clones.",
+    },
+    {
+      q: "¿Puedo usar pins ajenos en ads?",
+      a: "Para comercio necesitas materiales propios, una licencia o permiso. Guardar una referencia en un board ≠ derecho a usarla en ads.",
+    },
+    {
+      q: "¿Cómo descargo una imagen para mí?",
+      a: "Con herramientas built-in — cubierto en un artículo aparte. No vía scrapers dudosos.",
+    },
+  ],
+  sections: [
+    {
+      title: "Glosario: pin, board, repin",
+      level: 2,
+      paras: [
+        "Pin — una tarjeta: imagen, descripción, a menudo un enlace a la fuente o al sitio.",
+        "Board — una carpeta temática de pins (interior, recetas, moodboard de producto).",
+        "Repin — guardar el pin de otro en tu board. Las ideas se difunden sin reescribir un post desde cero como en el feed de Instagram.",
+      ],
+    },
+    {
+      title: "Cómo funciona la atención en Pinterest",
+      level: 2,
+      paras: [
+        "La plataforma está hecha para ver imágenes y guardar. Tocar un pin abre una vista mayor y un camino al sitio fuente — de ahí el interés de e-commerce y content marketing.",
+        "«Imagen bonita = ventas automáticas» es un mito. Hace falta oferta, página y analítica de clics.",
+        "Un pin fuerte vive más que un post del feed: la gente lo encuentra vía search y recomendaciones durante meses.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Importante",
+          text: "No prometas que los ads «poseerán» la atención solos. Cuenta clics, saves y leads con UTM.",
+        },
+      ],
+    },
+    {
+      title: "Para uso personal",
+      level: 2,
+      paras: [
+        "Recoger ideas: reforma, recetas, estilo, viajes, aprendizaje.",
+        "Los boards ahorran espacio en el teléfono frente a mil capturas de galería.",
+        "Búsqueda visual útil para «cómo hacer / cómo se ve», no solo feeds de amigos.",
+      ],
+    },
+    {
+      title: "Para negocio",
+      level: 2,
+      paras: [
+        "Escaparate de producto e inspiración: un pin lleva a una ficha de producto, artículo o landing.",
+        "Referencias de equipo: moodboards de campaña y packaging (sin robar fotos ajenas a producción).",
+        "Audiencia y nichos dependen del mercado; usa la analítica de tu cuenta, no los retratos demo ajenos de artículos viejos.",
+        "Conecta el sitio correctamente (dominio, Rich Pins / el equivalente actual de Pinterest Help) y etiqueta campañas con UTM.",
+      ],
+      lists: [
+        {
+          intro: "Mini reglas:",
+          items: [
+            "imágenes propias o con licencia",
+            "texto claro en el pin / en la descripción",
+            "un enlace móvil que funcione",
+            "boards por tema, no un vertedero",
+            "medir tráfico y conversiones",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Lectura relacionada",
+      level: 2,
+      paras: [
+        "Guardar archivos en el dispositivo es una guía aparte. Aquí nos centramos en para qué es la plataforma y escenarios habituales.",
+        "Pinterest no sustituye SEO ni paid search; añade una entrada visual al funnel.",
+      ],
+      links: [
+        {
+          label: "Descargar de Pinterest",
+          href: "/es/blog/pinterest-skachat/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Pinterest = boards de ideas + búsqueda visual con enlace de salida.",
+        "Para negocio importan un pin longevo y el tráfico; para uso personal — referencias ordenadas sin caos de galería.",
+      ],
+    },
+  ],
+  closing: [
+    "Arma un board temático para el trabajo (producto o moodboard) y pinnea 5–10 imágenes propias con enlaces — más rápido saber si el formato funciona que leer la historia ajena de «éxito en la plataforma».",
+  ],
+  related: [
+    "pinterest-skachat",
+    "kontent-plan-instagram",
+    "foto-instagram",
+    "nativnaya-reklama",
+    "shablon-instagram",
+    "oformlenie-stranicy-instagram",
+  ],
+};

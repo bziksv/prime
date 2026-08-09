@@ -148,3 +148,152 @@ export const chatBotVkEn: BlogPost = {
     "instagram-direct",
   ],
 };
+
+/** ES overlay for chat-bot-vk — same structure as RU JSON. */
+export const chatBotVkEs: BlogPost = {
+  slug: "chat-bot-vk",
+  title: "Chat bot de VK: para qué sirve y cómo lanzarlo",
+  date: "2018-12-19",
+  category: "SMM",
+  cover: "/images/blog/chat-bot-vk/cover.webp",
+  excerpt:
+    "Cómo ayuda un chat bot en los mensajes de una comunidad VK: FAQ, leads, catálogo — cuándo basta un builder, cuándo hace falta un developer y por qué un bot sin salida a un operador humano ahuyenta a la gente.",
+  lead: [
+    "Un chat bot de VK responde mensajes de la comunidad por script: saludo, FAQ, captura de leads, matching de servicio. No es un manager en vivo — es automatización de diálogos repetitivos.",
+    "Abajo: a quién le sirve, escenarios simples y complejos, y cómo lanzar sin aferrarse a capturas de builders de 2018. No recomendamos blasts de spam desde un bot.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia un bot de VK de uno de Telegram?",
+      a: "La lógica es similar (comandos, botones, leads); cambian la plataforma y la API. En VK el bot vive en mensajes de la comunidad; en Telegram es una cuenta @bot aparte.",
+    },
+    {
+      q: "¿Un pequeño negocio necesita un bot?",
+      a: "Si las preguntas son pocas y variadas, a menudo basta un humano. El bot se paga con un flujo de asks repetitivos: entrega, reserva, estado del pedido.",
+    },
+    {
+      q: "¿Usar un builder o contratar un developer?",
+      a: "FAQ y un funnel simple — builder. CRM, pagos o lógica compleja — desarrollo a medida o una integración sólida.",
+    },
+    {
+      q: "¿Puedo bombardear ads a todos los followers vía bot?",
+      a: "Solo bajo las reglas de VK y con consentimiento. El spam masivo trae reports y límites.",
+    },
+    {
+      q: "¿Hace falta el botón de «operador en vivo»?",
+      a: "Casi siempre. Si no, una pregunta dura choca con un muro de menú y el cliente se va.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué puede hacer un bot de VK",
+      level: 2,
+      paras: [
+        "Los bots simples van por keywords y botones: matchea una frase — devuelve una reply preparada. Los complejos conectan AI, bases externas y CRM — pero suben coste y soporte.",
+        "Trabajos típicos: respuestas FAQ, intake de pedidos y leads, navegación de servicios, notificaciones de estado.",
+      ],
+      lists: [
+        {
+          intro: "Especialmente útil para:",
+          items: [
+            "delivery y reserva de servicios",
+            "tiendas con preguntas recurrentes",
+            "soporte con un FAQ grande",
+            "no un micro-negocio con charlas únicas puntuales",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Por qué el negocio automatiza",
+      level: 2,
+      paras: [
+        "Quita carga repetitiva a los operadores y acelera la primera reply de noche y en picos. Un manager entra cuando el script no puede con el caso.",
+        "No tratamos las cifras de ahorro de casos 2018–2019 como garantía. Mira tu share de FAQ y el tiempo de respuesta antes y después del bot.",
+      ],
+      links: [
+        {
+          label: "Mensajería y mailings en VK",
+          href: "/es/blog/rassylka-vk/",
+        },
+        {
+          label: "Bots de Telegram",
+          href: "/es/blog/telegram-boty/",
+        },
+      ],
+    },
+    {
+      title: "Escenarios para empezar",
+      level: 2,
+      paras: [
+        "Saludo + menú: Precio / Entrega / Lead / Operador.",
+        "FAQ: dirección, timing, pago, devoluciones — respuestas cortas y enlace a un post o al sitio.",
+        "Lead: nombre, contacto, necesidad → a un chat de manager o CRM.",
+        "Catálogo / match: dos o tres preguntas aclaratorias y una ficha de servicio.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Importante",
+          text: "No prometas en el bot lo que no hay en stock o en el sitio. El desajuste mata la confianza más rápido que una reply humana lenta.",
+        },
+      ],
+    },
+    {
+      title: "Cómo plantear la construcción",
+      level: 2,
+      paras: [
+        "Lista unos 20 mensajes frecuentes del historial del chat — ese es el núcleo del script. Dibuja un árbol: inicio → ramas → salida a un operador.",
+        "Conecta el bot a la comunidad con la cuenta actual de VK y el builder o API que elijas. Las UIs de los servicios han cambiado: sigue la ayuda de la plataforma, no capturas de 2018.",
+        "Escribe variantes de keywords («precio», «cuánto», «tarifas»). Añade reacción a desconocidos: «No lo pillé — habla con un operador» más un botón.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de lanzamiento:",
+          items: [
+            "objetivos y KPIs (share de auto-reply, leads)",
+            "menú y FAQ alineados con la oferta",
+            "handoff a un humano",
+            "test con 10–20 frases reales",
+            "revisar semanalmente las frases malentendidas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Saludo de comunidad VK",
+          href: "/es/blog/privetstvie-vk/",
+        },
+      ],
+    },
+    {
+      title: "Límites y riesgos",
+      level: 2,
+      paras: [
+        "Un bot lleva mal los casos complejos y emocionales. Un menú rígido sin salida irrita.",
+        "No guardes datos personales innecesarios. No uses el bot como canal de mailings grises «a todos».",
+        "Builders y precios cambian — presupuesta mantenimiento, no set-and-forget por años.",
+      ],
+    },
+    {
+      title: "Conclusiones clave",
+      level: 2,
+      paras: [
+        "Un chat bot de VK automatiza diálogos típicos de la comunidad — no sustituye el servicio.",
+        "Empieza con FAQ y leads, y da siempre salida a un humano.",
+        "Mide el valor por leads y carga de soporte — no por lo trendy que se vea el bot.",
+      ],
+    },
+  ],
+  closing: [
+    "Junta las diez preguntas más frecuentes de los mensajes de la comunidad y cúbrelas con un menú de bot más botón de operador — más rápido que debatir AI avanzada.",
+  ],
+  related: [
+    "telegram-boty",
+    "rassylka-vk",
+    "privetstvie-vk",
+    "soobshhestva-vk",
+    "raskrutka-gruppy-vk",
+    "instagram-direct",
+  ],
+};

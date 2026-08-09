@@ -4,35 +4,45 @@ import type { Locale } from "../locales";
 import { localePathPrefix } from "../locales";
 import { blogInteractEn } from "./en-interact";
 import { blogTranslationsEn } from "./en-posts";
-import { isEnBlogSlug } from "./slugs";
+import { blogTranslationsEs } from "./es-posts";
+import { isEnBlogSlug, isEsBlogSlug } from "./slugs";
 
-export { EN_BLOG_SLUGS, isEnBlogSlug } from "./slugs";
+export { EN_BLOG_SLUGS, ES_BLOG_SLUGS, isEnBlogSlug, isEsBlogSlug } from "./slugs";
 
 export function isBlogTranslated(slug: string, locale: Locale): boolean {
   if (locale === "ru") return true;
   if (locale === "en") return isEnBlogSlug(slug);
+  if (locale === "es") return isEsBlogSlug(slug);
   return false;
 }
 
-/** Full EN post replaces RU base (cover points at cover-en.webp). */
+function applyBlogOverlay(overlay: BlogPost, base: BlogPost): BlogPost {
+  return {
+    ...overlay,
+    lead: overlay.lead ?? [],
+    faq: overlay.faq ?? [],
+    closing: overlay.closing ?? [],
+    related: overlay.related ?? base.related ?? [],
+    sections: (overlay.sections ?? []).map((s) => ({
+      ...s,
+      paras: s.paras ?? [],
+      lists: s.lists ?? [],
+    })),
+  };
+}
+
+/** Full EN/ES post replaces RU base (EN cover often cover-en.webp). */
 export function localizeBlogPost(post: BlogPost, locale: Locale): BlogPost {
   if (locale === "ru" || !isBlogTranslated(post.slug, locale)) return post;
   if (locale === "en") {
     const en = blogTranslationsEn[post.slug];
     if (!en) return post;
-    // EN overlays may omit empty `lists` — keep the same shape as sanitizePost(RU).
-    return {
-      ...en,
-      lead: en.lead ?? [],
-      faq: en.faq ?? [],
-      closing: en.closing ?? [],
-      related: en.related ?? post.related ?? [],
-      sections: (en.sections ?? []).map((s) => ({
-        ...s,
-        paras: s.paras ?? [],
-        lists: s.lists ?? [],
-      })),
-    };
+    return applyBlogOverlay(en, post);
+  }
+  if (locale === "es") {
+    const es = blogTranslationsEs[post.slug];
+    if (!es) return post;
+    return applyBlogOverlay(es, post);
   }
   return post;
 }
@@ -101,6 +111,30 @@ const uiEn: BlogUiChrome = {
   rssTitle: "PRIME Blog",
 };
 
+const uiEs: BlogUiChrome = {
+  pageTitleSuffix: "Blog de PRIME",
+  home: "Inicio",
+  blog: "Blog",
+  leaveRequest: "Enviar solicitud",
+  menu: "Menú",
+  newFormat: "Formato nuevo",
+  migrated: "Migrado",
+  views: "visitas",
+  legalKicker: "Aviso legal",
+  share: "Compartir",
+  copyLink: "Copiar enlace",
+  toc: "Contenido",
+  faq: "FAQ",
+  discuss: "Hablar del proyecto",
+  earlier: "Anterior",
+  later: "Siguiente",
+  related: "Más sobre el tema",
+  pagerLabel: "Otros artículos",
+  footerTagline: "Blog · SEO · marketing",
+  brand: "PRIME",
+  rssTitle: "Blog de PRIME",
+};
+
 const uiRu: BlogUiChrome = {
   pageTitleSuffix: "Блог ПРАЙМ",
   home: "Главная",
@@ -126,12 +160,15 @@ const uiRu: BlogUiChrome = {
 };
 
 export function blogUi(locale: Locale): BlogUiChrome {
-  return locale === "en" ? uiEn : uiRu;
+  if (locale === "en") return uiEn;
+  if (locale === "es") return uiEs;
+  return uiRu;
 }
 
 export function formatReadingTimeLocale(minutes: number, locale: Locale): string {
   const n = Math.max(1, minutes);
   if (locale === "en") return `${n} min read`;
+  if (locale === "es") return `${n} min de lectura`;
   return `${n} мин чтения`;
 }
 
@@ -141,6 +178,12 @@ export function formatViewsLocale(n: number, locale: Locale): string {
     if (n >= 10_000) return `${Math.round(n / 1000)}k`;
     if (n >= 1000) return `${(n / 1000).toFixed(1).replace(".0", "")}k`;
     return new Intl.NumberFormat("en-US").format(n);
+  }
+  if (locale === "es") {
+    if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1).replace(".0", "")} M`;
+    if (n >= 10_000) return `${Math.round(n / 1000)} mil`;
+    if (n >= 1000) return `${(n / 1000).toFixed(1).replace(".0", "")} mil`;
+    return new Intl.NumberFormat("es-ES").format(n);
   }
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1).replace(".0", "")} млн`;
   if (n >= 10_000) return `${Math.round(n / 1000)} тыс.`;
@@ -2449,11 +2492,2312 @@ const articleCtaEn: Record<string, { title: string; text: string }> = {
   },
 };
 
+const articleCtaEs: Record<string, { title: string; text: string }> = {
+  ftp: {
+    title: "¿Necesitas hosting y acceso al sitio sin dolores?",
+    text: "Te ayudamos a montar SFTP, permisos y un flujo seguro — sin editar prod a ciegas.",
+  },
+  "start-internet-magazina": {
+    title: "¿Vas a lanzar una tienda online?",
+    text: "Te ayudamos a ordenar catálogo, pago y canales de demanda — sin promesas de millón pasivo.",
+  },
+  "chto-takoe-seo": {
+    title: "¿Necesitas SEO sin magia de rankings?",
+    text: "Te ayudamos a separar prep y primera página — con un plan claro y horizonte de meses.",
+  },
+  "semanticheskoe-yadro": {
+    title: "¿Necesitas un núcleo semántico limpio?",
+    text: "Montamos marcadores, clusters y landings — sin hinchar una hoja inútil.",
+  },
+  "kontent-plan": {
+    title: "¿Necesitas un plan de contenidos que se cumpla?",
+    text: "Ordenamos formatos, temas y calendario — sin el «¿qué publicamos hoy?» diario.",
+  },
+  "ssl-sertifikat": {
+    title: "¿Necesitas HTTPS sin errores de certificado?",
+    text: "Te ayudamos a montar TLS, redirects y mixed content — sin capturas de 2019.",
+  },
+  hosting: {
+    title: "¿Necesitas hosting estable para el proyecto?",
+    text: "Te ayudamos a elegir shared, VPS o cloud — con backups y SLA, no solo el precio del primer mes.",
+  },
+  "veb-server": {
+    title: "¿Necesitas un stack de servidor claro?",
+    text: "Te ayudamos a ordenar Apache/Nginx, HTTPS y el traslado — sin sorpresas de 5xx.",
+  },
+  "wordpress-ustanovka": {
+    title: "¿Necesitas WordPress bien instalado?",
+    text: "Te ayudamos con BD, archivos, HTTPS y la higiene del día uno — sin guías de PHP 4.",
+  },
+  "wordpress-bezopasnost": {
+    title: "¿Necesitas endurecer WordPress sin drama?",
+    text: "Te ayudamos con updates, 2FA, backups y HTTPS — sin how-tos de ataque.",
+  },
+  "wordpress-admin": {
+    title: "¿Perdiste el acceso al admin de WordPress?",
+    text: "Te ayudamos a recuperar el login y endurecer la cuenta — sin MD5 de capturas de 2018.",
+  },
+  "wordpress-plaginy": {
+    title: "¿Necesitas instalar plugins sin acumular riesgo?",
+    text: "Te ayudamos a elegir e instalar solo lo necesario — sin «todo lo popular por si acaso».",
+  },
+  "tema-wordpress": {
+    title: "¿Necesitas un tema de WordPress sin lastre?",
+    text: "Te ayudamos a elegir por velocidad, updates y plantillas reales — no por el demo más bonito.",
+  },
+  "uskorenie-wordpress": {
+    title: "¿Necesitas acelerar WordPress sin romper formularios?",
+    text: "Medimos TTFB y LCP, limpiamos tema y plugins — sin perseguir 100/100 a cualquier coste.",
+  },
+  "registratsiya-domena": {
+    title: "¿Necesitas registrar un dominio sin líos?",
+    text: "Te ayudamos con titular, NS y renovación — sin capturas de checkout de 2017.",
+  },
+  "skorost-sayta": {
+    title: "¿Necesitas medir la velocidad sin culto al 100?",
+    text: "Miramos lab y field, LCP y TTFB — y cerramos un freno real, no una lista de diez tools.",
+  },
+  "bezopasnost-sayta": {
+    title: "¿Necesitas endurecer el sitio sin how-tos de ataque?",
+    text: "Te ayudamos con higiene, backups y respuesta a incidentes — defensa y recuperación, no payloads.",
+  },
+  "https-seo": {
+    title: "¿Vas a pasar a HTTPS sin perder el índice?",
+    text: "Montamos 301s, canonicals y sitemap — sin mitos de «barra verde» ni vuelta a HTTP.",
+  },
+  gipertekst: {
+    title: "¿Necesitas estructura y enlazado interno claros?",
+    text: "Ordenamos rutas, anclas y menús — para que el hipertexto lleve a leads, no a callejones sin salida.",
+  },
+  "domen-pervogo-urovnya": {
+    title: "¿Eligiendo zona y nombre de dominio?",
+    text: "Te ayudamos a fijar TLD, DNS y HTTPS — sin magia de zona ni promesas de ranking solo por el `.com`.",
+  },
+  "domen-rf": {
+    title: "¿Montas marca en `.рф` o un espejo `.ru`?",
+    text: "Dejamos canónica, SSL e IDN en orden — sin mitos de que «.рф no rankea».",
+  },
+  "istoriya-domena": {
+    title: "¿Vas a comprar un drop o dominio usado?",
+    text: "Revisamos archivo, backlinks e índice — para no heredar ban y spam con un nombre bonito.",
+  },
+  "pochta-dlya-domena": {
+    title: "¿Necesitas correo en tu dominio?",
+    text: "Montamos MX, SPF/DKIM y buzones — sin capturas de «mil buzones gratis» de 2018.",
+  },
+  "menedzher-paroley": {
+    title: "¿Contraseñas de clientes aún en el chat?",
+    text: "Montamos un gestor de equipo con roles y revoke — sin `admin123` compartido ni listicles de 2018.",
+  },
+  "zerkalo-sayta": {
+    title: "¿www, http y dominios sinónimo sin unificar?",
+    text: "Pegamos espejos con 301 al canónico — sin cadenas largas ni «dos sitios» en el índice.",
+  },
+  "protokol-http": {
+    title: "¿Quieres leer status, redirects y logs sin adivinar?",
+    text: "Te ayudamos a sanar HTTP(S) del sitio — espejo canónico, 301 y respuestas claras para bots.",
+  },
+  "http-zagolovki": {
+    title: "¿Headers de seguridad aún en cero?",
+    text: "Montamos HSTS, CSP en Report-Only y el mínimo anti-clickjacking — sin romper widgets en prod.",
+  },
+  "mixed-content": {
+    title: "¿HTTPS con avisos Mixed Content en Console?",
+    text: "Cazamos http:// en plantillas y widgets — para que el candado no sea solo cosmética.",
+  },
+  "robots-txt-wordpress": {
+    title: "¿Robots.txt de WordPress copiado de 2018?",
+    text: "Ajustamos Disallow sin cerrar CSS/JS ni categorías útiles — Sitemap HTTPS y checks en Webmaster.",
+  },
+  "robots-txt-joomla": {
+    title: "¿Robots.txt de Joomla pegado de un post 3.3?",
+    text: "Adaptamos Disallow a tu versión y SEF — Sitemap HTTPS, sin muro a ciegas ni Host como único espejo.",
+  },
+  redirekt: {
+    title: "¿301, 302 o cadenas de redirects?",
+    text: "Ordenamos espejos y mudanzas — un salto al canónico, sin 302 eternos ni aterrizaje en 404.",
+  },
+  "htaccess-301": {
+    title: "¿.htaccess con reglas 301 a ciegas?",
+    text: "Montamos https/www y mudanzas con backup y un salto — sin loops ni todo a la home.",
+  },
+  "dubli-stranits": {
+    title: "¿Filtros y espejos inflando el índice?",
+    text: "Elegimos canónico, 301 y noindex donde toca — sin mandar todo a la home «por si acaso».",
+  },
+  "zakrytie-ot-indeksatsii": {
+    title: "¿Staging o filtros aún en el índice?",
+    text: "Separamos crawl y noindex con claridad — sin cloaking ni Disallow eterno en producción.",
+  },
+  "kanonicheskiy-teg": {
+    title: "¿rel=canonical en conflicto o a la home?",
+    text: "Fijamos un canónico por entidad y alineamos sitemap — sin cadenas 301 ni «todo a la homepage».",
+  },
+  "kod-statusa-http": {
+    title: "¿Soft 404, cadenas 301 o 5xx en picos?",
+    text: "Revisamos statuses clave y el mapa de mudanzas — higiene de crawl, no magia de un solo código.",
+  },
+  "kod-200": {
+    title: "¿200 en fichas vacías o soft 404?",
+    text: "Dejamos statuses honestos — 200 solo donde hay página útil, 404/410 o 301 donde toca.",
+  },
+  "url-adres": {
+    title: "¿URLs ilegibles o espejos sin unificar?",
+    text: "Ordenamos slugs, HTTPS y canónico — sin mitos de keyword en el path como atajo de ranking.",
+  },
+  "veb-stranitsa": {
+    title: "¿Páginas lentas, soft 404 o mudanzas sin 301?",
+    text: "Revisamos status, URLs y mensajes del navegador — cada página como canal, no como stub.",
+  },
+  "tehnicheskiy-seo-audit": {
+    title: "¿El sitio se estanca pese a contenido y ads?",
+    text: "Hacemos un pase técnico con prioridades — indexación, status y CWV primero, sin PDF sin arreglos.",
+  },
+  "seo-struktura-sayta": {
+    title: "¿Secciones al azar y landings que se pisan?",
+    text: "Diseñamos jerarquía y clusters antes del CMS — un intent comercial, una URL, sin profundidad absurda.",
+  },
+  metategi: {
+    title: "¿Titles repetidos o meta keywords «por si acaso»?",
+    text: "Afinamos title, description y robots por URL — sin secretos de 2010 ni límites mágicos de caracteres.",
+  },
+  paginatsiya: {
+    title: "¿page=N vacías inflando el índice?",
+    text: "Ordenamos canonical, facets y colas — sin 200 vacíos ni texto SEO clonado en cada página.",
+  },
+  "indeksatsiya-sayta": {
+    title: "¿URLs abiertas pero fuera del índice?",
+    text: "Revisamos cobertura en Webmaster/GSC, sitemap y noindex — sin bookmarks ni compra de enlaces «para indexar».",
+  },
+  "proverka-indeksatsii": {
+    title: "¿site: vacío o caídas bruscas de cobertura?",
+    text: "Cruzamos Webmaster/GSC con robots y status — crawl ≠ índice, sin pánico de toolbar.",
+  },
+  "karta-sayta": {
+    title: "¿Sitemap con filtros y redirects dentro?",
+    text: "Dejamos XML canónico y limpio — sin priority mágico ni mapa HTML spam de 5.000 enlaces.",
+  },
+  "bitye-ssylki": {
+    title: "¿404s en menú o soft-404 en fichas?",
+    text: "Priorizamos plantillas y 301 con sentido — sin mandar todos los 404 a la home.",
+  },
+  "vnutrennyaya-perelinkovka": {
+    title: "¿Enlazado interno sin mapa de prioridades?",
+    text: "Montamos híbrido menú + contextual a URLs comerciales — sin spam de la misma ancla en cada párrafo.",
+  },
+  "seo-oshibki": {
+    title: "¿Titles duplicados, 404s y mixed content a la vez?",
+    text: "Priorizamos crawl, HTTPS y snippets de páginas de dinero — sin checklist verde como meta final.",
+  },
+  "klikabelnaya-ssylka": {
+    title: "¿Enlaces «muertos» en texto o anclas que no dicen nada?",
+    text: "Revisamos markup, CMS y plantillas — URLs activas con anclas con sentido, no «clic aquí».",
+  },
+  "chto-takoe-ssylka": {
+    title: "¿Enlazado interno flojo y anclas idénticas en todo el sitio?",
+    text: "Ordenamos mapa de URLs, follow/nofollow con sentido y anclas legibles — sin comprar «paquetes» a ciegas.",
+  },
+  sklikivanie: {
+    title: "¿Sospechas fraude de clics que quema el presupuesto de ads?",
+    text: "Cortamos la hemorragia, leemos el combo de anomalías y apretamos la campaña — sin conjeturas de pánico.",
+  },
+  "kartinka-ssylka": {
+    title: "¿Banners pesados o imágenes sin alt que no llevan a ningún sitio?",
+    text: "Revisamos markup a+img, peso WebP y alt con sentido — sin hotlink ni lazy en el LCP.",
+  },
+  "tipy-ssylok": {
+    title: "¿Otra vez paquetes de enlaces — o un mapa de canales white-hat?",
+    text: "Auditamos el perfil, elegimos 2–3 canales para tu nicho y cortamos ruido de farms antes de gastar en colocaciones.",
+  },
+  "navigatsiya-sayta": {
+    title: "¿Veinte ítems iguales en el menú — y aún preguntan «dónde está el contacto»?",
+    text: "Rehacemos etiquetas claras y caminos cortos — navegación por trabajos del usuario, no keyword stuffing.",
+  },
+  "hlebnye-kroshki": {
+    title: "¿Fichas profundas desde búsqueda — y no hay camino de vuelta a la categoría?",
+    text: "Montamos un rastro limpio y BreadcrumbList — UX y enlazado, no un atajo mágico a rankings.",
+  },
+  "dlina-title": {
+    title: "¿Titles cortados a mitad de oferta — y H1 clonado en cada meta?",
+    text: "Fijamos Titles únicos con el sentido primero — píxeles y CTR, no el dogma de los 70 caracteres.",
+  },
+  "alt-img": {
+    title: "¿Alts de galería que dicen «comprar barato» — e iconos decorativos leídos como ruido?",
+    text: "Fijamos alt con sentido (o vacío para decor) — accesibilidad primero, no vertederos de keywords en title.",
+  },
+  snippet: {
+    title: "¿Líneas de SERP flojas y CTR por detrás de la posición?",
+    text: "Afinamos Title/description, breadcrumbs y schema válido para rich results — sin mitos de ranking mágico.",
+  },
+  "open-graph": {
+    title: "¿Al compartir sale un recorte al azar — y el preview no se actualiza?",
+    text: "Fijamos og:title/image/url al canon y limpiamos caché de preview — CTR del share, no magia de rankings.",
+  },
+  "google-analytics": {
+    title: "¿Gráficos bonitos en GA — y aún no sabes dónde muere el checkout?",
+    text: "Leemos funnel y 2–3 segmentos con sentido — hipótesis y tareas, no el culto a la media del sitio.",
+  },
+  "google-search-console": {
+    title: "¿Sin vista clara del índice de Google — y errores de coverage que se acumulan?",
+    text: "Conectamos Search Console, sitemap y un playbook de errores de coverage — informes, no un interruptor mágico.",
+  },
+  "razmer-stranitsy": {
+    title: "¿Landing lenta — y Network enseña un hero de 4MB más widgets de chat?",
+    text: "Cortamos transfer size por contribución — imágenes y JS primero, luego caché y CDN.",
+  },
+  "otkazy-sayta": {
+    title: "¿Bounce «bien» en todo el sitio — y los landings clave siguen tirando el tráfico de pago?",
+    text: "Arreglamos velocidad, match de oferta y primera pantalla por URL — KPI de acción, no bounce medio.",
+  },
+  "kartinki-vnimanie": {
+    title: "¿Hero de café y portátil de stock — y la oferta vive solo dentro del JPEG?",
+    text: "Fijamos contraste, sentido y copy duplicado en HTML — visuals que paran la mirada sin clichés.",
+  },
+  "ishodnyy-kod": {
+    title: "¿Necesitas un chequeo rápido de source: title, canonical y errores de consola?",
+    text: "Recorremos la página en DevTools y arreglamos lo que bloquea la higiene SEO — sin un rediseño completo.",
+  },
+  "optimizatsiya-stranitsy": {
+    title: "¿Landings que no cuadran con la query y Title atiborrado?",
+    text: "Alineamos intent, Title/H1, copy y enlaces internos — sin mitos de spam de keywords.",
+  },
+  "teg-h1": {
+    title: "¿Logo como H1 en cada URL — y titles clonados en todo el sitio?",
+    text: "Fijamos un H1 con sentido por plantilla y una jerarquía H2–H3 sensata — legible, no atiborrada.",
+  },
+  "screaming-frog": {
+    title: "¿Release en vivo — y nadie crawleó 404s, titles duplicados o imágenes pesadas?",
+    text: "Lanzamos Screaming Frog, exportamos prioridades y abrimos tickets — crawl técnico, no un interruptor mágico.",
+  },
+  cookies: {
+    title: "¿El banner dice Accept all — y los tags opcionales disparan antes de elegir?",
+    text: "Inventariamos cookies, ponemos flags Secure/HttpOnly y hacemos que los scripts opcionales esperen al consentimiento.",
+  },
+  "chrome-rasshireniya-seo": {
+    title: "¿El navegador lleno de add-ons SEO al azar — y las auditorías siguen eternas?",
+    text: "Recortamos un stack seguro de Chrome para snapshots, UTM y semántica — herramientas para velocidad, no un interruptor mágico.",
+  },
+  "obzor-brauzerov": {
+    title: "¿Eliges navegador por un «campeón» de 2018 — mientras Edge y las extensiones ya cambiaron?",
+    text: "Emparejamos candidatos con tus escenarios, privacidad y descargas oficiales — y dejamos un segundo motor para checks.",
+  },
+  "yandeks-brauzer": {
+    title: "¿Vas a instalar Yandex Browser desde un sitio de «software gratis + SMS»?",
+    text: "Nos quedamos con el instalador oficial, saltamos ofertas basura e importamos favoritos solo cuando de verdad los necesitas.",
+  },
+  "uznat-cms": {
+    title: "¿Necesitas el stack para una propuesta — y los detectores no coinciden con el generator borrado?",
+    text: "Cruzamos solo marcadores HTML públicos — recon para scoping, no ataques al admin.",
+  },
+  favikon: {
+    title: "¿Pestaña con cuadrado vacío — o un icono de galería que también usa el competidor?",
+    text: "Preparamos un favicon legible a 16×16 desde tu identidad — PNG/SVG, sin galerías ajenas.",
+  },
+  "cheklist-sayta": {
+    title: "¿Lanzamiento cerca — y al sitio aún le faltan velocidad, móvil o un CTA claro?",
+    text: "Priorizamos técnica, confianza y el camino al lead — sin copiar al pie una lista de «50 imprescindibles».",
+  },
+  "adaptivnyy-sayt": {
+    title: "¿Desktop se ve bien — y el formulario del teléfono pide scroll horizontal?",
+    text: "Arreglamos viewport, targets táctiles y plantillas clave — una URL responsive, no un segundo m.site.",
+  },
+  "ustarevshiy-sayt": {
+    title: "¿Caen los leads — y el sitio sigue siendo un desktop encogido de 2012?",
+    text: "Diagnosticamos IA, móvil, velocidad y deuda técnica antes de gastar solo en un rediseño bonito.",
+  },
+  "pered-zapuskom-sayta": {
+    title: "¿Lanzamiento mañana — y robots, HTTPS o analytics aún sin probar?",
+    text: "Pillamos blockers de indexación, velocidad, móvil y tracking antes de que el tráfico de ads llegue al sitio.",
+  },
+  "formy-zahvata": {
+    title: "¿Popups por todas partes — y sigue el «lo pensaré» sin dejar contacto?",
+    text: "Fijamos un objetivo de formulario, campos mínimos, consentimiento y enrutado a CRM — valor sin spam de exit-popup.",
+  },
+  "trafik-bez-lidov": {
+    title: "¿Crecen las visitas — y el formulario sigue vacío?",
+    text: "Apretamos la oferta, pasamos features a beneficios, arreglamos CTA/formulario y revisamos el encaje de audiencia antes de gastar más.",
+  },
+  "aydentika-brenda": {
+    title: "¿Logo bonito en el sitio — y tarjeta, ads y packaging parecen tres marcas?",
+    text: "Fijamos paleta, tipografía, reglas de marca y un extracto corto de brand book que los contratistas puedan seguir de verdad.",
+  },
+  utp: {
+    title: "¿Landing y ads siguen diciendo «calidad y mejores precios»?",
+    text: "Fijamos una USP concreta y cumplible para tu segmento — prueba en el primer pantallazo, no sopa de adjetivos.",
+  },
+  "tekst-lendinga": {
+    title: "¿El landing se ve bonito, pero la oferta y el formulario no convierten?",
+    text: "Rehacemos el primer pantallazo, el camino de prueba y el CTA — sin keyword stuffing como estrategia.",
+  },
+  "tselevaya-auditoriya": {
+    title: "¿Ads y el núcleo persiguen «todos 25–45» — y los leads siguen aleatorios?",
+    text: "Fijamos jobs, anti-persona y 2–5 segmentos — audiencia como brief, no quemar presupuesto a ojo.",
+  },
+  lending: {
+    title: "¿Plantilla bonita en línea — y cinco CTAs sin oferta clara?",
+    text: "Fijamos una conversión, un primer pantallazo legible y prueba corta — luego enviamos tráfico.",
+  },
+  "optimizatsiya-konversii": {
+    title: "¿El tráfico va bien pero los leads son escasos?",
+    text: "Arreglamos el funnel: formulario, CTA, velocidad y confianza — medido como CR, no por vibes.",
+  },
+  "lestnitsa-hanta": {
+    title: "¿Hard-sell de Premium a quien aún no ve el problema?",
+    text: "Mapeamos la temperatura del tráfico a peldaños de awareness — mensaje correcto, CTA correcto, menos gritos al vacío.",
+  },
+  "reklamnyy-banner": {
+    title: "¿Banners bonitos sin oferta — y un CTR que no convierte?",
+    text: "Fijamos oferta, jerarquía, CTA y encaje con el landing — luego testeamos creatives sin teatro de ceguera de banner.",
+  },
+  "potrebitelskiy-insayt": {
+    title: "¿Audiencia como «mujeres 25–45» — y los ads siguen hablando al lado de la barrera real?",
+    text: "Cavamos en «quiero…, pero…» desde datos y reseñas — luego empaquetamos el conflicto en la oferta.",
+  },
+  "analiz-konkurentov": {
+    title: "¿Necesitas una lectura clara de la competencia — no conjeturas copiadas?",
+    text: "Comparamos orden de magnitud de tráfico, canales y páginas fuertes — luego lo convertimos en hipótesis para tu sitio.",
+  },
+  "prodayushchie-teksty": {
+    title: "¿Necesitas copy de venta que lleve a un siguiente paso claro?",
+    text: "Enmarcamos audiencia, beneficios, prueba y CTA — sin relleno ni descuentos falsos.",
+  },
+  "marketingovaya-strategiya": {
+    title: "¿Posts y promos sueltas por todas partes — y aún sin un KPI compartido?",
+    text: "Fijamos un objetivo principal, 1–2 canales, landing que encaje y un calendario de medición — antes de más creatives.",
+  },
+  "skvoznaya-analitika": {
+    title: "¿Dashboard bonito — y aún sin claro qué gasto en ads se pagó solo?",
+    text: "Unimos gasto, UTM, llamadas y tratos del CRM en ROMI — tras disciplina de CRM, no antes.",
+  },
+  "brendovyy-trafik": {
+    title: "¿El orgánico no de marca salta en cada update — y la cuota de marca ni se mide?",
+    text: "Fijamos naming, NAP en mapas y segmentos de consultas de marca — awareness como activo, no un mito de rankings.",
+  },
+  "utm-metki": {
+    title: "¿El gasto en ads crece — y analytics solo muestra «/cpc» sin campañas?",
+    text: "Fijamos diccionario UTM y plantillas: source, medium, campaign legibles en un informe, no el caos de cada manager.",
+  },
+  "razmery-bannera": {
+    title: "¿El creativo del banner se recorta porque el hueco era a ojo?",
+    text: "Sacamos display vs tamaño de archivo con Inspect y montamos tu creativo comprimido — no una copia del asset ajeno.",
+  },
+  "reklamnyy-kabinet": {
+    title: "¿Los ads ya corren — y aún no distingues clics de leads?",
+    text: "Fijamos objetivo, landing, etiquetado y un árbol de campañas legible antes de escalar el gasto.",
+  },
+  "metrika-ustanovka": {
+    title: "¿El contador «instalado» — y el informe sigue en cero visitas?",
+    text: "Ponemos un solo tag de Metrica en cada plantilla, limpiamos caché y cableamos goals — no solo el conteo de visitas.",
+  },
+  "google-analytics-tseli": {
+    title: "¿Sigues pensando en «Goals» de Universal — y GA4 solo muestra tráfico sin key events?",
+    text: "Mapeamos thank-you, leads y CTAs como conversiones clave — DebugView primero, luego Ads.",
+  },
+  "kontekst-i-seo": {
+    title: "¿El equipo cree que Direct compra la primera página orgánica — o que los ads «calientan» señales?",
+    text: "Unimos pago y orgánico con goals compartidos — tests y datos de demanda, no el mito de pagar por rankings.",
+  },
+  "spetsrazmeshchenie-direkt": {
+    title: "¿El cliente sigue pidiendo «emplazamiento especial» como si fuera 2015?",
+    text: "Retocamos pujas y creativos alrededor del CPA — no perseguimos un nombre de bloque obsoleto.",
+  },
+  "cpm-ili-cpc": {
+    title: "¿Pagas por impresiones o por clics — y aún no sabes cuál gana?",
+    text: "Emparejamos el modelo con el objetivo, la landing y el CPA — sin un «CTR bonito» como único KPI.",
+  },
+  "istochniki-trafika": {
+    title: "¿Todos los canales a la vez con cuatro duros — y aún sin CPA claro?",
+    text: "Preparamos landing y tracking, luego testeamos 1–2 fuentes del nicho — orgánico en paralelo con horizonte de rankings a 2–6 meses.",
+  },
+  "analiz-reklamnoy-kampanii": {
+    title: "¿Muchos clics, pocos leads — y las pujas aún se tuercen por el CTR global?",
+    text: "Enlazamos analytics, recorremos keywords/emplazamientos/audiencia/landings y dejamos una semana de fixes concretos.",
+  },
+  "strategii-yandeks-direkt": {
+    title: "¿Estrategias de Direct sin CPA claro — y el botón del gabinete no para de cambiar?",
+    text: "Fijamos goals, coste del lead y feedback primero — luego elegimos modo manual o auto con datos, no con miedo a la subasta.",
+  },
+  retargeting: {
+    title: "¿La búsqueda fría sigue pagando por quien ya miró el carrito?",
+    text: "Partimos segmentos calientes, capamos frecuencia y excluimos compradores — retarget como etapa del funnel, no un banner eterno.",
+  },
+  "ab-testy-reklamy": {
+    title: "¿Dos ads pelean por CTR — y aún coronas ganador sin CPA?",
+    text: "Montamos rotación/experimentos de una hipótesis en Direct y Google Ads y leemos informes por dinero, no por el CTR de un día.",
+  },
+  "metrika-tseli": {
+    title: "¿Ads y SEO informan visitas — pero no hay goal para gracias, formulario o clic Comprar?",
+    text: "Montamos goals de URL, eventos reachGoal y un funnel limpio — y verificamos el disparo antes de escalar.",
+  },
+  "metriki-reklamy": {
+    title: "¿La campaña «funciona» porque el CTR se ve bonito — y aún sin margen?",
+    text: "Leemos el funnel de CTR/CPC a CPA y LTV — arreglamos la landing antes de escalar el gasto.",
+  },
+  "stavki-direkt": {
+    title: "¿Las pujas de Direct persiguen el primer puesto mientras el CPA se va de lado?",
+    text: "Fijamos estrategias y control de consultas alrededor de conversiones y margen — no de posiciones de ego.",
+  },
+  "minus-slova-direkt": {
+    title: "¿Los search terms queman presupuesto — y las negativas siguen siendo una lista random de la web?",
+    text: "Armamos negativas desde tu informe de consultas, las colocamos por nivel y cruzamos clusters sin matar tus propias keywords.",
+  },
+  "byudzhet-yandeks-direkt": {
+    title: "¿Quemas gasto de Direct antes de saber si el CPA encaja?",
+    text: "Fijamos techo de CPC desde tu economía, cap diario/semanal y una ventana de test tranquila — sin un «mínimo» copiado.",
+  },
+  "audit-reklamnoy-kampanii": {
+    title: "¿El gasto en ads crece — y aún no está claro por qué fallan los KPIs?",
+    text: "Auditamos tech, economía y ritmo de optimización — estrategia corta para el cliente, no solo una lista de bugs.",
+  },
+  "google-tag-manager": {
+    title: "¿Los tags viven en el tema — y cada pixel necesita un deploy?",
+    text: "Ponemos un contenedor GTM en el sitio, mapeamos tags y triggers y publicamos solo tras Preview — sin contadores dobles.",
+  },
+  ga4: {
+    title: "¿Sigues leyendo bounce de UA junto a engagement de GA4 en un solo gráfico?",
+    text: "Montamos el modelo de eventos, key events y DebugView para que los informes sean herramienta de hipótesis — no un museo de widgets.",
+  },
+  "looker-studio": {
+    title: "¿Gráficos bonitos en Looker — pero ads, sitio y CRM aún no se unen?",
+    text: "Fijamos KPIs y claves de fuente primero — luego un dashboard solo de vista que visualiza datos end-to-end, no clics de vanidad.",
+  },
+  dashboard: {
+    title: "¿Necesitas un resumen de métricas para el equipo?",
+    text: "Armamos un dashboard alrededor de tus KPIs — ads, sitio, CRM — sin widgets de más.",
+  },
+  "instrumenty-veb-analitiki": {
+    title: "¿Los contadores están — y los informes semanales siguen siendo capturas sin goals?",
+    text: "Cableamos goals, UTMs y un set corto de KPIs — decisiones desde números, no solo desde gráficos bonitos.",
+  },
+  "veb-analitik": {
+    title: "¿Se acumulan informes — y nadie posee la siguiente hipótesis desde los números?",
+    text: "Fijamos goals, segmentos y un bucle de decisión — analytics para actuar, no un archivo para la estantería.",
+  },
+  "assotsiirovannye-konversii": {
+    title: "¿El presupuesto sigue solo last click — y se cortan los canales helpers?",
+    text: "Comparamos roles en el camino y 2–3 modelos de atribución — para no matar el inicio del funnel que alimenta a los closers de marca.",
+  },
+  "roi-marketinga": {
+    title: "¿El CTR se ve genial — y nadie sabe si el marketing se paga?",
+    text: "Fijamos una fórmula ROMI con CR y CPA — luego movemos presupuesto a canales con retorno durable.",
+  },
+  "kogortnyy-analiz": {
+    title: "¿Clics baratos que no vuelven — y solo miras «ayer»?",
+    text: "Armamos una cohorte de primera visita por canal y leemos retención/LTV en semanas — no solo el CPC.",
+  },
+  "excel-google-tablitsy": {
+    title: "¿Dumps de Wordstat aún llenos de enlaces, duplicados y negativas sin etiquetar?",
+    text: "Dejamos una plantilla de limpieza en Sheets/Excel — higiene del core en horas, no un atajo de fórmula a posiciones.",
+  },
+  "vizualizatsiya-dannyih": {
+    title: "¿Informes atrapados en hojas — o dashboards en los que nadie confía?",
+    text: "Elegimos el stack según tus fuentes y armamos un informe con métricas claras antes de pagar por BI.",
+  },
+  "metrika-karty": {
+    title: "¿Los mapas de Metrica no dan hipótesis?",
+    text: "Desglosamos clics, formularios y el vínculo con Session Replay — sin screenshots obsoletos del panel.",
+  },
+  vebvizor: {
+    title: "¿Cae la conversión — y solo ves % de bounce, no dónde se atascaron?",
+    text: "Activamos Webvisor bien, revisamos la técnica y muestreamos URLs dolorosas para hipótesis UX — no sesiones al azar sin fin.",
+  },
+  "google-analytics-nastroyka": {
+    title: "¿Sigues instalando vistas UA — y Realtime no muestra nada en GA4?",
+    text: "Creamos property GA4 y stream web, cableamos gtag o GTM una vez y verificamos en DebugView antes de perseguir ecommerce.",
+  },
+  "samostoyatelnoe-seo": {
+    title: "¿Empezaste SEO DIY con packs de enlaces — y aún no hay base?",
+    text: "Fijamos técnica, analítica y mapa de keywords del mes uno — las posiciones del núcleo se planifican a 2–6 meses, no a una semana.",
+  },
+  "forma-obratnoy-svyazi": {
+    title: "¿Necesitas un formulario del sitio que de verdad entregue leads?",
+    text: "Dejamos campos cortos, antispam y entrega a CRM/email — con una ventana de respuesta que el equipo pueda cumplir.",
+  },
+  "yandeks-vebmaster": {
+    title: "¿A ciegas en Yandex Search — o tratas el recrawl como botón mágico?",
+    text: "Verificamos la property, limpiamos diagnostics y leemos informes de índice/consultas — prep y ranking quedan separados.",
+  },
+  "metrika-ne-rabotaet": {
+    title: "¿Contador en el tema — y Network no muestra hits a mc.yandex?",
+    text: "Chequeamos por capas código, caché, blockers y goals — antes de reinstalar desde cero.",
+  },
+  "effektivnost-seo": {
+    title: "¿El cliente quiere primera página mañana — y el informe son solo checks verdes de crawl?",
+    text: "Acordamos KPIs de orgánico, brand/non-brand y leads — matemáticas del canal a 2–6 meses, no pánico de la semana uno.",
+  },
+  "otchet-klientu": {
+    title: "¿Informes de ads llenos de CTR y el cliente sigue preguntando «y qué»?",
+    text: "Rehacemos el informe en torno a goals, dinero, resumen de una página y próximos pasos claros.",
+  },
+  "tsena-klika-yandeks": {
+    title: "¿Las pujas de Direct persiguen posición — y la matemática del CPA aún no está hecha?",
+    text: "Fijamos primero CPA objetivo y conversión clic→goal — luego el techo de CPC antes de que la subasta queme presupuesto.",
+  },
+  "povedencheskie-faktory": {
+    title: "¿Bounce y CTR flojo del snippet — y alguien sugiere «comprar» comportamiento?",
+    text: "Arreglamos UX móvil, velocidad, estructura y titles honestos — solo mejoras lícitas, sin gaming.",
+  },
+  "programmy-seo": {
+    title: "¿Pagas cinco suites SEO mientras las tareas y KPIs siguen borrosos?",
+    text: "Mapeamos tools a trabajos — semántica, crawl, analítica, copy — y cortamos suscripciones que no mueven el trabajo.",
+  },
+  "chastotnost-zaprosov": {
+    title: "¿Set de keywords inflado con head terms «bonitos» que nunca convierten?",
+    text: "Sacamos modos exactos de Wordstat y priorizamos clusters para landings reales — los números base no engañan el forecast.",
+  },
+  "logi-servera": {
+    title: "¿Los crawlers gastan budget en URLs basura mientras las money pages reciben hits raros?",
+    text: "Parseamos access logs, limpiamos ruido de crawl y alineamos robots/sitemap con prioridades.",
+  },
+  "oshibka-502": {
+    title: "¿El sitio devuelve 502 y el soporte solo dice «vacía la caché»?",
+    text: "Localizamos gateway vs backend, leemos logs y restauramos respuestas estables — sin tapar con redirects.",
+  },
+  "prodvizhenie-internet-magazina": {
+    title: "¿Necesitas SEO para tu tienda online?",
+    text: "Mapeamos técnica, estructura de catálogo y el núcleo — prep y plazos de posiciones quedan separados, sin el mito «lanzar = primera página».",
+  },
+  "verstka-saytov": {
+    title: "¿Necesitas maquetación o pulido front-end?",
+    text: "Armamos páginas responsive desde el mockup — con foco en velocidad, semántica y handoff sin sorpresas.",
+  },
+  "podozritelnyy-trafik-google": {
+    title: "¿Captcha de Google en cada búsqueda — y no está claro si eres tú o la red?",
+    text: "Recorremos dispositivo → router → scrapers con calma — y separamos ruido de red de un issue del sitio.",
+  },
+  "snizhenie-trafika": {
+    title: "¿El tráfico se desplomó y el equipo adivina «filtro o temporada»?",
+    text: "Separamos fallos de analítica de caídas reales y arreglamos técnica/contenido — sin promesas de «primera página mañana».",
+  },
+  "ssylochnyy-profil": {
+    title: "¿Miles de backlinks en el papel — y los anchors gritan «comprar barato»?",
+    text: "Cribamos donors y anchors en menos de una hora — calidad y acciones, no una métrica vanity.",
+  },
+  "molodoy-sayt": {
+    title: "¿Dominio nuevo — y alguien prometió primera página la semana que viene con «trucos de comportamiento»?",
+    text: "Fijamos el plan del mes uno: técnica, núcleo, landings — primero prep; posiciones planificadas a 2–6 meses.",
+  },
+  "wordpress-seo-plaginy": {
+    title: "¿Dos suites SEO pelean por el meta — y las luces verdes se tratan como nota de ranking?",
+    text: "Elegimos una suite más un stack lean de velocidad/redirects — comodidad de setup, no un botón mágico.",
+  },
+  "vstavka-javascript": {
+    title: "¿Píxel pegado en el editor visual — y la caché del tema sigue sirviendo HTML viejo?",
+    text: "Ponemos un solo snippet de confianza en la plantilla o GTM — y verificamos source + Network.",
+  },
+  "zaspamlennost-teksta": {
+    title: "¿Necesitas copy SEO sin keyword stuffing?",
+    text: "Revisamos briefs y textos para que la densidad se mantenga legible — primero para personas, luego para búsqueda.",
+  },
+  "nakrutka-pf": {
+    title: "¿Un vendor promete posiciones vía «boost de comportamiento» — y la analítica muestra visitas sin leads?",
+    text: "Auditamos UX, páginas de intención y goals — engagement real, no esquemas de clics falsos.",
+  },
+  "onlayn-oplata": {
+    title: "¿Necesitas tarjetas y SBP en el sitio sin guardar el CVV tú mismo?",
+    text: "Elegimos agregador vs acquiring, conectamos el módulo CMS y alineamos el esquema de caja registradora.",
+  },
+  "parsing": {
+    title: "¿Necesitas datos de competidores y catálogo sin scraping gris?",
+    text: "Montamos un monitoreo limpio — APIs, muestras y reglas — no un volcado del sitio ajeno.",
+  },
+  "regionalnoe-seo": {
+    title: "¿Quieres visibilidad en tu ciudad — y las páginas de ciudad son copy-paste con cambio de nombre?",
+    text: "Montamos landings regionales reales, NAP y señales en mapas — primero preparación, luego primera página planificada a 2–6 meses.",
+  },
+  "napolnenie-sayta": {
+    title: "¿Cincuenta posts finos en el plan — y aún sin landings de servicio?",
+    text: "Encolamos primero las páginas que dan dinero, luego briefs y un ritmo sostenible — sentido por encima del volumen.",
+  },
+  "prodazha-trafika": {
+    title: "¿Necesitas tráfico que convierta — no solo pageviews?",
+    text: "Mapeamos canales, calidad y monetización sin matar la UX ni vender tráfico basura.",
+  },
+  "ssylki-na-forumah": {
+    title: "¿Compraste «100 posts en foros a la semana» — y te borraron en vez de tráfico?",
+    text: "Elegimos tableros vivos y respuestas útiles primero — un enlace solo donde ayude al hilo.",
+  },
+  "pokupka-ssylok": {
+    title: "¿Te vendieron un pack de «100 enlaces / primera página en una semana»?",
+    text: "Juzgamos donors y placements por audiencia y riesgo — primero contenido y técnica, sin spam por paquete.",
+  },
+  "obnovlenie-kontenta": {
+    title: "¿Posts antiguos aún tienen impresiones pero pierden frente a competidores más frescos?",
+    text: "Priorizamos el archivo, refrescamos los que ganan y volvemos a promover con tracking antes/después.",
+  },
+  "filtry-poiskovikov": {
+    title: "¿Se hundieron los rankings y el equipo busca «esquemas de bypass»?",
+    text: "Diagnosticamos la caída y arreglamos técnica, contenido y enlaces — solo white-hat, sin mitos de fechas mágicas.",
+  },
+  "avtonapolnenie-sayta": {
+    title: "¿Necesitas contenido SEO sin basura automática?",
+    text: "Montamos clusters y un plan editorial — copy para landings, no un grabber por volumen.",
+  },
+  "proverka-unikalnosti": {
+    title: "¿El copy parece original hasta que el informe de coincidencias muestra párrafos enteros?",
+    text: "Montamos una comprobación editorial de unicidad — sin synonymizers ni perseguir un 100% vacío.",
+  },
+  "kannibalizatsiya-zaprosov": {
+    title: "¿Dos URLs se intercambian en la SERP por una frase — y el equity de enlaces se parte entre ellas?",
+    text: "Elegimos el canónico del cluster, fusionamos o separamos intents — una landing fuerte por intent.",
+  },
+  "google-biznes": {
+    title: "¿Local pack vacío — y el NAP del sitio no coincide con Maps?",
+    text: "Reclamamos el perfil, verificamos y mantenemos horario y reseñas honestos — sin keyword stuffing en el nombre del negocio.",
+  },
+  "otzyvy-dlya-prodazh": {
+    title: "¿Perfiles de mapa vacíos — y los competidores ganan en confianza antes de la llamada?",
+    text: "Montamos un circuito real de pedir y responder reseñas — valoraciones honestas, sin cinco estrellas compradas.",
+  },
+  "besplatnoe-razmeshchenie-statey": {
+    title: "¿Necesitas guest posts y un plan de contenidos?",
+    text: "Elegimos temas, medios y copy para tráfico y crecimiento cuidadoso de enlaces.",
+  },
+  "autrich": {
+    title: "¿Spam de marketplace llenando el perfil mientras los editores ignoran pitches plantilla?",
+    text: "Armamos una shortlist de donors temáticos, personalizamos el outreach y seguimos menciones — sin promesas mágicas por un blast de mail.",
+  },
+  "yukassa": {
+    title: "¿Necesitas pagos online sin montar acquiring tú mismo?",
+    text: "Ayudamos a elegir el stack para la tienda — módulos, recibos y un checkout limpio.",
+  },
+  "nisha-sayta": {
+    title: "¿Eligiendo nicho desde una lista vieja de «nichos rentables»?",
+    text: "Cruzamos demanda, margen y tu ventaja — un nicho claro y un canal de test antes de un build grande.",
+  },
+  "kopirayting": {
+    title: "¿Necesitas copy para trabajos del sitio?",
+    text: "Escribimos o editamos landings, artículos y bloques comerciales — con brief y criterios de aceptación.",
+  },
+  "katalogi-saytov": {
+    title: "¿Compraste «1000 directorios» — y el perfil de backlinks parece una granja?",
+    text: "Armamos una whitelist de mapas vivos y listings de nicho — primero NAP, sin spam de auto-submit.",
+  },
+  "sayt-ne-v-top": {
+    title: "¿Esperabas los 10 primeros un mes tras el lanzamiento — y persigues «aceleradores»?",
+    text: "Diagnosticamos preparación vs crecimiento de rankings: técnica, contenido, UX — con un horizonte real de 2–6 meses para el núcleo.",
+  },
+  "lichnyy-brend": {
+    title: "¿Necesitas una marca personal que traiga leads — no followers vacíos?",
+    text: "Acotamos el nicho, elegimos un canal insignia y montamos un mix personal/experto/venta.",
+  },
+  "tochki-vhoda": {
+    title: "¿Adivinando las landings del competidor — o copiando sus H1?",
+    text: "Mapeamos puntos de entrada y clusters de consultas a tus propias páginas — hipótesis y tareas, no copy-paste.",
+  },
+  "seo-s-nulya": {
+    title: "¿Empiezas SEO y no quieres el mito de «primera página en 30 días»?",
+    text: "Trazamos un camino de práctica: semántica, técnica, contenido — con plazos reales de preparación vs rankings.",
+  },
+  "gostevoy-post": {
+    title: "¿Guest posts atascados en listas write-for-us basura?",
+    text: "Armamos una shortlist de sitios de nicho vivos, pitchamos un tema de content gap y escribimos para sus lectores — no spam de anclas.",
+  },
+  "linkbilder": {
+    title: "¿«Packs de enlaces por una semana» — y una promesa de primera página solo con backlinks?",
+    text: "Auditamos el perfil y construimos menciones vía donors de calidad y outreach — ritmo sin explosión de spam, sin mitos de mañana mágico.",
+  },
+  "seo-vkontakte": {
+    title: "¿Keyword metido en el nombre de VK — y sigues esperando rankings de «comprar»?",
+    text: "Empaquetamos el público para búsqueda junto al SMM — visibilidad de la comunidad, no un reemplazo del sitio.",
+  },
+  "klyuchi-google-ads": {
+    title: "¿Keywords de Google Ads quemando presupuesto en consultas basura?",
+    text: "Estructuramos grupos, tipos de coincidencia y negativos alrededor de la oferta y el CPA — no un volcado del núcleo SEO.",
+  },
+  "algoritmy-google": {
+    title: "¿Tras una update de Google — persiguiendo nombres o arreglando señales?",
+    text: "Revisamos contenido, enlaces e higiene móvil frente a principios del core para que el crecimiento no dependa de mitos de unicidad.",
+  },
+  "algoritm-korolyov": {
+    title: "¿Sigues escribiendo por náusea de keywords por un nombre de update de 2017?",
+    text: "Movemos los briefs a intención y estructura útil — el match de sentido sobrevive a las etiquetas de marketing de algoritmos.",
+  },
+  "baden-baden": {
+    title: "¿Hojas de keywords «para el bot» — aún esperando un día de filtro?",
+    text: "Cortamos stuffing, restauramos estructura y valor para el lector, y revisamos riesgo sin comprar un mítico «quitar Baden-Baden».",
+  },
+  "minusinsk": {
+    title: "¿Compraste packs de enlaces — y los rankings comerciales cayeron de golpe?",
+    text: "Separamos temporada de un golpe de enlaces, limpiamos basura controlable y reconstruimos un perfil natural sin «quitar Minusinsk en una semana».",
+  },
+  "meta-description": {
+    title: "¿Escribes meta descriptions como un botón mágico — o las dejas vacías?",
+    text: "Redactamos snippets únicos y honestos atados al title y a la página — para CTR, no hojas de keywords.",
+  },
+  "html-seo": {
+    title: "¿Layout bonito pero H1, title y texto rotos o ausentes del DOM?",
+    text: "Alineamos el marcado con la intención SEO — estructura para personas y bots, no teatro de validador.",
+  },
+  "monitoring-pozitsiy": {
+    title: "¿Rankings verdes en el informe — y el funnel sigue vacío?",
+    text: "Dejamos los ranks como sensor de tendencia, fijamos primero KPIs de dinero y planificamos el crecimiento en primera página a meses — no una promesa de fecha.",
+  },
+  "kommercheskie-faktory": {
+    title: "¿Páginas de dinero con copy pero sin precios, envío ni un teléfono alcanzable?",
+    text: "Hacemos benchmark de bloques de confianza frente a líderes del nicho — preparación comercial, no el mito del widget de chat mágico.",
+  },
+  "region-sayta": {
+    title: "¿Checkbox de región marcado — y las consultas locales aún te ignoran?",
+    text: "Alineamos señales de NAP, Webmaster y Business/Maps para que la localidad encaje con donde trabajáis de verdad.",
+  },
+  "relevantnost-sayta": {
+    title: "¿La página «tiene la keyword» — y la SERP sigue prefiriendo otro tipo de respuesta?",
+    text: "Casamos la intención del cluster con el tipo de página de la SERP y cortamos cultos de densidad — la relevancia es la base, no primera página de la noche a la mañana.",
+  },
+  "bystrye-otvety-google": {
+    title: "¿Persiguiendo «posición cero en una semana» — y la página aún sin respuesta clara?",
+    text: "Reunimos long-tails de pregunta y ponemos respuestas cortas bajo H2 — sin garantías de featured snippet.",
+  },
+  "poiskovye-podskazki": {
+    title: "¿Núcleo armado — y las colas reales del suggest nunca llegaron a la tabla?",
+    text: "Sacamos autocomplete de Yandex y Google a clusters — ideas de wording, no un botón mágico ni esquemas de inflación.",
+  },
+  "operatory-poiska": {
+    title: "¿Adivinando qué está indexado — y tratando viejos «operadores mágicos» como estrategia?",
+    text: "Usamos site:/intitle:/filetype: para diagnóstico y luego arreglamos vía GSC/Webmaster — no como atajo a primera página.",
+  },
+  "besplatnye-ssylki": {
+    title: "¿Persiguiendo enlaces gratis con blasts a directorios y fakes en foros?",
+    text: "Construimos menciones desde contenido útil, directorios selectivos y crowd honesto — a un ritmo que no dispare picos.",
+  },
+  "kraud-marketing": {
+    title: "¿Hilos de foro bien elegidos — pero los comentarios se leen como spam de enlaces?",
+    text: "Elegimos plataformas vivas, respondemos con sustancia y colocamos menciones con cuidado — sin granjas de reseñas ni mitos de primera página en un mes.",
+  },
+  "kloaking": {
+    title: "¿La promesa del snippet no encaja con el landing — y una agencia insinúa una «SERP solo para bots»?",
+    text: "Comparamos HTML de bot vs navegador y endurecemos el CMS — diagnóstico de riesgo, no un playbook de cloaking.",
+  },
+  "baidu": {
+    title: "¿Registrado en Baidu «por si acaso» — y el sitio aún no carga desde China?",
+    text: "Primero decidimos si el mercado de la RPC es real — luego Webmaster oficial, contenido en chino, sin cuentas grises.",
+  },
+  "podderzhka-yandeks": {
+    title: "¿Quieres «pedir a Yandex la primera página» — y el ticket no tiene URL, fechas ni pantallas de Webmaster?",
+    text: "Primero hacemos self-check, luego abrimos un ticket claro — diagnóstico, no ranking manual.",
+  },
+  "kategorii-internet-magazina": {
+    title: "¿Secciones del catálogo pelean entre sí y categorías finas gastan crawl?",
+    text: "Rehacemos el árbol de categorías bajo demanda, surtido y reglas de indexación limpias.",
+  },
+  "klyuchi-internet-magazin": {
+    title: "¿Volcado de keywords de tienda spawneando URLs de filtro vacías en el índice?",
+    text: "Clusterizamos la demanda en categoría / filtro / ficha — primero preparación; rankings a 2–6 meses.",
+  },
+  "novostnoy-sayt": {
+    title: "¿Portal de noticias ahogado en URLs duplicadas y móvil lento?",
+    text: "Limpiamos plantillas técnicas y distribución — sin prometer audiencia ×2 la próxima semana.",
+  },
+  "sayty-satellity": {
+    title: "¿Vendors pitchando una «granja secreta de satélites» para subir más rápido?",
+    text: "Reforzamos el dominio principal con contenido, técnica y menciones honestas — sin redes de enlaces controladas.",
+  },
+  "socseti-i-seo": {
+    title: "¿Sigues apostando el SEO a likes y «señales sociales»?",
+    text: "Conectamos tráfico social, marca y landings con UTM — sin engagement falso por rankings.",
+  },
+  "sohranennaya-kopiya-yandex": {
+    title: "¿Sin caché de Yandex — y pánico de que los rankings estén rotos?",
+    text: "Primero revisamos noarchive, indexación y 200s — la caché es un diagnóstico, no un botón mágico.",
+  },
+  "top-instagram": {
+    title: "¿Necesitas alcance más allá de los followers — sin comprar likes?",
+    text: "Armamos un plan de contenido y ads alrededor de guardados reales, comentarios y recomendaciones.",
+  },
+  "toshnota-teksta": {
+    title: "¿El brief exige un % mágico de densidad — y el borrador se lee como un volcado de keywords?",
+    text: "Fijamos un corredor de herramienta y ediciones naturales — métricas de náusea para el brief, no una ley de ranking.",
+  },
+  "trendy-seo": {
+    title: "¿Persigues nombres de algoritmos mientras el zero-click y las páginas finas se comen el CTR?",
+    text: "Afinamos snippets, páginas por intención y rituales de panel — tendencias como acentos, no un mito de primera página en una semana.",
+  },
+  "turbo-stranitsy": {
+    title: "¿El plan sigue colgando de Turbo — y el formato en búsqueda ya no existe?",
+    text: "Movemos profundidad y monetización a tus URLs responsive — sin estrategia sobre un formato de SERP retirado.",
+  },
+  turgenev: {
+    title: "¿Persigues un cero en Turgenev mientras la página sigue leyéndose como sopa de keywords?",
+    text: "Usamos el informe como filtro editorial: cortamos overspam claro, mantenemos términos útiles y escribimos primero para personas.",
+  },
+  "user-intent": {
+    title: "¿La keyword está en el title — y la SERP sigue premiando otro tipo de página?",
+    text: "Mapeamos la intención del cluster desde los formatos dominantes y fijamos una intención por URL — la densidad no es la estrategia.",
+  },
+  wordstat: {
+    title: "¿Planificas SEO con un número bruto de Wordstat — y lo llamas «demanda exacta»?",
+    text: "Fijamos región, operadores y temporadas para que la frecuencia guíe el núcleo — sin prometer primera página con una cifra grande.",
+  },
+  "yandeks-iks": {
+    title: "¿Sigues optimizando por una insignia SQI desaparecida de guías de 2018?",
+    text: "Movemos el brief a diagnósticos de Webmaster, indexación y conversiones — el reemplazo operativo de la vieja puntuación de calidad.",
+  },
+  "yandeks-katalog": {
+    title: "¿Sigues cazando el registro en Yandex.Catalog con cotizaciones de los 2020?",
+    text: "Reconstruimos la presencia local en torno al sitio, Webmaster y fichas vivas en mapas — sin el ritual de un catálogo muerto.",
+  },
+  "yandeks-spravochnik": {
+    title: "¿Las consultas locales van a Maps — y la ficha de Yandex está vacía o sin verificar?",
+    text: "Verificamos ownership, alineamos NAP, rellenamos fotos y horario y gestionamos reseñas — sin ratings falsos ni la dirección de otro.",
+  },
+  "yandeks-xml": {
+    title: "¿El scraper XML viejo sigue en el cron — y la factura de Cloud sube por endpoints muertos?",
+    text: "Migramos a Search API (o lo quitamos) — canal oficial, cuotas, sin hacks del HTML de la SERP.",
+  },
+  "zagolovki-h1-h6": {
+    title: "¿Keywords metidas en cada encabezado — o un H1 claro?",
+    text: "Alineamos H1–H2 con la intención y el title para que el outline ayude a personas y a la búsqueda — sin una hoja de keywords en una sola etiqueta.",
+  },
+  "oformlenie-stranicy-instagram": {
+    title: "¿Necesitas SMM para tu marca?",
+    text: "Armamos un concepto visual y un marco de contenido — sin caos en el feed, con una oferta clara en la cabecera.",
+  },
+  "pryamoy-efir-instagram": {
+    title: "¿Necesitas una estrategia de contenido y directos?",
+    text: "Mapeamos objetivos, guiones y cadencia — qué rodar para que los lives se conviertan en leads.",
+  },
+  "kommentarii-v-pablike-vk": {
+    title: "¿Necesitas moderación y SMM para VK?",
+    text: "Fijamos reglas de comunidad, respuestas y contenido para que los comentarios traigan leads — no caos.",
+  },
+  "istorii-vkontakte": {
+    title: "¿Necesitas un plan de contenido para VK?",
+    text: "Armamos rúbricas de muro y Stories — con cadencia y CTAs para tu negocio.",
+  },
+  "menedzher-smm": {
+    title: "¿Necesitas SMM en plantilla o externalizado?",
+    text: "Mapeamos tareas, KPIs y formato de trabajo — in-house, contractor o apoyo de agencia.",
+  },
+  "zarabotok-blogerov-instagram": {
+    title: "¿Necesitas publicidad con creators llave en mano?",
+    text: "Elegimos plataformas y formatos para tu oferta — con foco en audiencia y resultados medibles.",
+  },
+  "bloger-dlya-reklamy-instagram": {
+    title: "¿Necesitas creators alineados con tu brief?",
+    text: "Armamos un short-list, vetamos la audiencia y alineamos integraciones con medición clara.",
+  },
+  "reklama-v-pablikah-vk": {
+    title: "¿Necesitas ads en comunidades VK y SMM?",
+    text: "Elegimos comunidades, creative y medición — sin pagar por bases muertas.",
+  },
+  "biznes-akkaunt-instagram": {
+    title: "¿Necesitas SMM con analítica real?",
+    text: "Montamos el perfil, el contenido y el reporting — para que los insights lleven a leads, no a likes por los likes.",
+  },
+  "kontent-plan-instagram": {
+    title: "¿Necesitas un plan de contenido que traiga leads?",
+    text: "Fijamos rúbricas, mix y un calendario mensual — sin caos ni posts de venta de pared a pared.",
+  },
+  "avatar-youtube": {
+    title: "¿Necesitas visuales para un canal de YouTube?",
+    text: "Armamos avatar, banner y un estilo unificado de thumbnails — para que el canal se reconozca desde el primer frame.",
+  },
+  "avatar-instagram": {
+    title: "¿Necesitas packaging del perfil de Instagram?",
+    text: "Armamos el avatar, la cabecera y una constante visual del feed alrededor de tu oferta.",
+  },
+  "didzhital-agentstvo": {
+    title: "¿Necesitas un contratista digital?",
+    text: "Mapeamos tareas, KPIs y formato de trabajo — SEO, ads, sitio o un stack completo.",
+  },
+  "opisanie-youtube-kanala": {
+    title: "¿Necesitas copy y packaging del canal de YouTube?",
+    text: "Redactamos la descripción, los enlaces y un look unificado con el avatar — para que el viewer entienda la oferta al momento.",
+  },
+  "post-instagram": {
+    title: "¿Necesitas posts de venta que traigan leads?",
+    text: "Armamos ofertas, estructura y CTAs — atados al plan de contenido y al diseño del perfil.",
+  },
+  "raskrutka-youtube": {
+    title: "¿Necesitas crecimiento del canal de YouTube?",
+    text: "Fijamos nicho, plan de contenido y packaging del canal — sin promesas de «viral en una semana».",
+  },
+  "nakrutka-laykov-instagram": {
+    title: "¿Necesitas crecimiento honesto en Instagram?",
+    text: "Armamos contenido y promoción sin bots — con métricas que importan al negocio.",
+  },
+  "reklama-instagram": {
+    title: "¿Necesitas ads en Instagram que traigan leads?",
+    text: "Mapeamos targeting + creators, presupuesto y métricas — sin mass-liking ni alcance vacío.",
+  },
+  "parol-instagram": {
+    title: "¿Necesitas packaging social de marca y seguridad?",
+    text: "Ayudamos con procesos de acceso, contenido y promoción — sin entregar contraseñas a terceros.",
+  },
+  "raskrutka-gruppy-vk": {
+    title: "¿Necesitas crecer una comunidad de VK sin seguidores falsos?",
+    text: "Montamos naming, cadencia de contenido y captación — audiencia viva, no números vacíos.",
+  },
+  "statistika-instagram": {
+    title: "¿Necesitas Insights de Instagram ligados a leads — no a likes vanidosos?",
+    text: "Montamos un ritual semanal de métricas: saves, respuestas, toques al enlace y objetivos en números.",
+  },
+  "stories-instagram-inkognito": {
+    title: "¿Te preocupa la privacidad de Stories sin apps espía dudosas?",
+    text: "Ayudamos a configurar Close Friends y listas de ocultar — y una forma limpia de ver contenido abierto de competidores.",
+  },
+  "yandeks-toloka": {
+    title: "¿Evalúas labeling crowdsourced para datos o IA?",
+    text: "Ayudamos a enmarcar el brief y los chequeos de calidad — sin promesas obsoletas de «$ al día» de guías antiguas.",
+  },
+  "serfing-saytov": {
+    title: "¿Tentado a comprar visitas vacías por «métricas»?",
+    text: "Montamos canales reales — SEO, ads, contenido — sin ruido de auto-surfing en la analítica.",
+  },
+  "skrinshoty": {
+    title: "¿Necesitas capturas claras para guías y soporte?",
+    text: "Ayudamos con documentación, anotaciones y un ritual de equipo — sin filtrar secretos en la nube.",
+  },
+  "infografika": {
+    title: "¿Necesitas infografías que se lean en el móvil?",
+    text: "Montamos jerarquía, datos y export — sin ruido de «wow» que mate la comprensión.",
+  },
+  "lid": {
+    title: "¿Necesitas leads cualificados, no listas ajenas?",
+    text: "Definimos el lead, montamos captación legal y el handoff al CRM — con CPL atado a deals.",
+  },
+  "strayk-youtube": {
+    title: "¿Tienes un strike en YouTube y no sabes de qué tipo es?",
+    text: "Ayudamos a leer el estado en Studio, separar Guidelines vs copyright y planear la vía de appeal.",
+  },
+  "menedzher-internet-magazina": {
+    title: "¿Necesitas ops de tienda que no pierdan pedidos entre chat y entrega?",
+    text: "Apretamos disciplina de CRM, SLA y el camino de la solicitud al envío.",
+  },
+  "rassylka-vk": {
+    title: "¿Necesitas un broadcast legal en VK — no un ban por senders grises?",
+    text: "Montamos opt-in de comunidad, widgets oficiales y una cadencia de envío calmada.",
+  },
+  "viralnyy-ohvat-vk": {
+    title: "¿Quieres posts que salgan de la burbuja de seguidores?",
+    text: "Elegimos temas y formatos dignos de compartir — sin contenido shock que mate la reputación.",
+  },
+  "privetstvie-sayta": {
+    title: "¿La home saluda con ruido en lugar de una oferta clara?",
+    text: "Reformamos la primera pantalla, calmamos popups/chat y dejamos un CTA visible.",
+  },
+  "telegram-kanal": {
+    title: "¿Quieres un canal de Telegram que crezca sin suscriptores falsos?",
+    text: "Montamos el canal, el ritmo de contenido y tráfico desde sitio, redes y placements honestos.",
+  },
+  "telegram": {
+    title: "¿Evalúas Telegram como canal de negocio?",
+    text: "Ayudamos a encajar messenger, canal y bots con el sitio y la medición — sin crecimiento falso.",
+  },
+  "shablon-instagram": {
+    title: "¿El feed se ve caótico y cada post empieza de cero?",
+    text: "Fijamos un brand kit y plantillas de post para que la grilla se mantenga coherente.",
+  },
+  "statya-vk": {
+    title: "¿Necesitas guías long-form en VK en lugar de muros de texto?",
+    text: "Montamos formato artículo, covers y un ritmo de publicación para la comunidad.",
+  },
+  "svyazka-instagram-facebook": {
+    title: "¿Necesitas Instagram y Facebook vinculados para ads — sin Pages rotas?",
+    text: "Montamos Accounts Center bien, elegimos la Page correcta y documentamos cómo desvincular con seguridad.",
+  },
+  "oblozhka-vk": {
+    title: "¿El header de la comunidad se ve al azar y la oferta no se lee en el móvil?",
+    text: "Diseñamos un cover con oferta clara, safe zone y visuales con derechos en regla.",
+  },
+  "blokirovka-instagram": {
+    title: "¿Cuenta restringida y vendedores de «desbloqueo garantizado» rodeando?",
+    text: "Mapeamos la vía oficial de appeal, higiene tras la recuperación y cómo evitar «ayudantes» grises.",
+  },
+  "istoriya-poiska-instagram": {
+    title: "¿No quieres búsquedas recientes visibles en un teléfono compartido?",
+    text: "Mostramos la vía oficial de clear y la higiene que de verdad importa — sesiones y 2FA.",
+  },
+  "pochtovyy-servis": {
+    title: "¿Necesitas una bandeja de trabajo fiable — no una trampa de spam desechable?",
+    text: "Elegimos un servicio permanente, montamos 2FA/recuperación y planificamos correo corporativo en tu dominio.",
+  },
+  "yandeks-dzen": {
+    title: "¿Quieres alcance en Zen sin copy-paste ni plazos falsos de monetización?",
+    text: "Fijamos nicho, ritmo de publicación y términos actuales de partners — calidad por encima del volumen.",
+  },
+  "chto-takoe-veb-sayt": {
+    title: "¿Necesitas un sitio que encaje con el trabajo — no una plantilla al azar?",
+    text: "Elegimos el tipo, la vía de construcción y la estructura para leads y crecimiento — sin «el sitio se venderá solo».",
+  },
+  "foto-instagram": {
+    title: "¿El feed se ve al azar y las fotos de producto no convierten?",
+    text: "Fijamos un nicho visual, un checklist de disparo y un preset de serie — con captions que sostienen la oferta.",
+  },
+  "otmetki-instagram": {
+    title: "¿Las etiquetas se sienten al azar y los collabs no mueven el perfil?",
+    text: "Fijamos reglas de mención, consentimiento y medición — para que los tags sirvan a la navegación, no al spam.",
+  },
+  "analogi-yandeks-market": {
+    title: "¿Todas las ventas cuelgan de un marketplace y el margen se derrite?",
+    text: "Mapeamos canales, higiene del feed y unit economics — con un piloto antes del surtido completo.",
+  },
+  "tenevoy-ban-instagram": {
+    title: "¿El alcance se derrumbó y los «detectores de shadowban» quieren tu contraseña?",
+    text: "Separamos mitos de límites, limpiamos apps grises y reconstruimos visibilidad con higiene de contenido — sin acciones masivas.",
+  },
+  "seo-bitrix": {
+    title: "¿Los campos SEO de Bitrix están puestos, pero siguen filtrando duplicados y filtros finos?",
+    text: "Fijamos robots, plantillas meta y URLs limpias — sin un montón de plugins del Marketplace como estrategia.",
+  },
+  "prosmotry-vk": {
+    title: "¿Muchas vistas pero ninguna acción — y el cliente sigue pidiendo «ojos»?",
+    text: "Leemos el contador con ER y stats de la comunidad — sin vistas falsas ni KPIs de vanidad.",
+  },
+  "karusel-instagram": {
+    title: "¿Los detalles de producto se ahogan en un collage y nadie desliza el post?",
+    text: "Montamos un escenario de slides, cover de gancho y CTA — con un estilo en todo el carrusel.",
+  },
+  "biznes-v-instagram": {
+    title: "¿Grilla bonita, pero la oferta y las respuestas no convierten?",
+    text: "Fijamos bio, rúbricas y un bucle semanal de insights — antes de echar presupuesto a ads.",
+  },
+  "ssylki-vkontakte": {
+    title: "¿Las menciones no hacen clic y los previews del sitio se ven rotos?",
+    text: "Montamos sintaxis de mención, previews HTTPS y URLs exactas de posts — sin tags de spam.",
+  },
+  "piksel-vk": {
+    title: "¿El retargeting quema presupuesto en compradores y visitas frías por igual?",
+    text: "Instalamos el píxel, partimos segmentos del embudo y fijamos exclusiones — con una ventana de membresía real.",
+  },
+  "pinterest-skachat": {
+    title: "¿Los mood boards se convierten en reclamaciones de copyright en ads?",
+    text: "Organizamos las referencias — y planificamos shootings propios o assets con licencia para uso comercial.",
+  },
+  "razblokirovka-instagram": {
+    title: "¿Hay que desbloquear sin herramientas phishing de «perfil oculto»?",
+    text: "Recorremos la lista oficial de bloqueados y la privacidad — sin clientes de Instagram de terceros.",
+  },
+  "blog-instagram": {
+    title: "¿Quieres un blog de autor que no se queme en dos semanas?",
+    text: "Fijamos nicho, promesa y un ritmo realista de publicación — sin comprar followers.",
+  },
+  "shapka-youtube": {
+    title: "¿El canal se ve genérico y el banner se recorta mal en el móvil?",
+    text: "Diseñamos un banner con zona segura que diga el nicho en segundos — sin listas de precios minúsculas.",
+  },
+  "instagram-s-kompyutera": {
+    title: "¿Publicas desde el PC con herramientas random de «Instagram para Windows»?",
+    text: "Montamos el flujo oficial web / Business Suite y roles de equipo — sin clientes que roban contraseñas.",
+  },
+  "kommentarii-instagram": {
+    title: "¿Las preguntas se acumulan bajo los posts y la negatividad queda sin respuesta?",
+    text: "Fijamos SLA de respuesta, filtros de moderación y plantillas — sin esquemas de spam en comentarios.",
+  },
+  "knopki-youtube": {
+    title: "¿Las tarjetas y end screens saturan el visionado en lugar de guiarlo?",
+    text: "Mapeamos un camino simple: vídeo relacionado, playlist, suscripción — sin el clutter de la era de anotaciones.",
+  },
+  "taymkod-youtube": {
+    title: "¿Vídeos largos sin TOC y espectadores haciendo scrub al azar?",
+    text: "Estructuramos capítulos y enlaces con tiempo — navegación UX, no «secretos del algoritmo».",
+  },
+  "yumoney": {
+    title: "¿Necesitas monedero para pagar — o Checkout para la tienda?",
+    text: "Separamos escenarios YooMoney vs YooKassa y el nivel de ID para tus límites.",
+  },
+  "gaiq": {
+    title: "¿Guías viejas de GAIQ y dumps de UA en lugar de skill real en GA4?",
+    text: "Mapeamos un camino Skillshop más eventos en una property viva — el certificado como plus, no como meta.",
+  },
+  "veb-interfeys": {
+    title: "¿Panel de hosting, webmail o UX de cuenta confunden a los usuarios?",
+    text: "Aclaramos roles, flujos y acceso seguro — UI de navegador que la gente pueda usar de verdad.",
+  },
+  "messendzher": {
+    title: "¿Cinco canales de chat y nadie posee el SLA de respuesta?",
+    text: "Elegimos 1–2 messengers donde ya está tu audiencia y conectamos leads al CRM — sin spam de números.",
+  },
+  "runet": {
+    title: "¿Entras en un mercado de habla rusa con una plantilla SEO global?",
+    text: "Mapeamos audiencia, idioma y canales locales de búsqueda/ads — sin mitos de «retrato de Runet» de 2020.",
+  },
+  "adult-trafik": {
+    title: "¿Mirando tráfico 18+ sin mapa legal y de plataformas?",
+    text: "Ayudamos a elegir nichos legales duraderos y canales white — sin esquemas grises ni saltarse políticas.",
+  },
+  "negativnoe-seo": {
+    title: "¿Sospechas enlaces tóxicos, copias o un hack — y no un «botón de ban» del rival?",
+    text: "Montamos monitoreo, backups y un camino de defensa — crece tu sitio, no guerras de SERP.",
+  },
+  "poiskovye-sistemy": {
+    title: "¿Repartes presupuesto SEO en motores exóticos sin datos?",
+    text: "Fijamos Yandex/Google (y Bing cuando importa) desde tu analítica — no desde un mito de cuota de 2020.",
+  },
+  "rsya-metrika": {
+    title: "¿Ads de YAN activos, pero el ingreso no cuadra con las visitas de Metrica?",
+    text: "Alineamos contadores e informes de publisher — ingreso junto a audiencia, sin matar la UX.",
+  },
+  "posmotret-avatar-instagram": {
+    title: "¿Necesitas la foto de perfil más grande sin apps «viewer» dudosas?",
+    text: "Nos quedamos en rutas oficiales de web/feed — y ayudamos a armar un avatar legible propio.",
+  },
+  "glavnaya-stranitsa": {
+    title: "¿Homepage bonita, pero la oferta y el CTA no se leen en cinco segundos?",
+    text: "Rehacemos la primera pantalla y el marco de bloques — claridad primero, slider al final.",
+  },
+  "zapusk-internet-magazina": {
+    title: "¿Lanzas una tienda sin unit economics, suministro ni un checkout real?",
+    text: "Mapeamos etapas del plan a la demanda — prep vs posiciones del núcleo con plazos honestos (2–6 meses).",
+  },
+  "napominanie-klientu": {
+    title: "¿Emails de win-back que suenan a spam de «hace tiempo que no nos visitas»?",
+    text: "Fijamos ocasiones con consentimiento primero: carrito, pausa, fiestas — utilidad por encima de insistir.",
+  },
+  "kontent-i-nativnaya": {
+    title: "¿El brief mezcla «nuestro post del blog» con native de pago como si fueran lo mismo?",
+    text: "Separamos contenido propio vs integraciones de pago — KPIs, etiquetado y a dónde debe aterrizar el tráfico.",
+  },
+  "tekst-glavnoy-stranitsy": {
+    title: "¿Homepage llena de «mejor / personalizado / innovador» sin prueba?",
+    text: "Cortamos los clichés y dejamos una oferta corta, hechos y un CTA claro.",
+  },
+  "kak-napisat-statyu": {
+    title: "¿Los borradores se atascan y las keywords SEO destrozan la legibilidad?",
+    text: "Fijamos objetivo, esquema y pase de edición — SEO encima de texto útil, no en su lugar.",
+  },
+  "rss": {
+    title: "¿Necesitas un feed de updates limpio sin scrapers de texto completo vaciando el blog?",
+    text: "Activamos un feed CMS estable con teasers — distribución para lectores, no mitos de «masa de enlaces».",
+  },
+  "tz-kopiraytera": {
+    title: "¿Briefs vagos de «hazlo bonito con keywords» quemando presupuesto en rewrites?",
+    text: "Fijamos objetivo, audiencia, hechos y aceptación — para que el copy aterrice más cerca en el primer pase.",
+  },
+  "zagolovki-4u": {
+    title: "¿Titulares llenos de «nº 1 / único» vacío sin prueba ni subida de CTR?",
+    text: "Rehacemos H1 y asuntos con beneficio, especificidad y urgencia honesta — luego probamos variantes.",
+  },
+  "o-kompanii": {
+    title: "¿Página About llena de «profesionales / innovación» sin nada que lo pruebe?",
+    text: "Cortamos el fluff y dejamos para quién eres, prueba y siguientes pasos claros para B2B y compradores.",
+  },
+  "avtovoronka-instagram": {
+    title: "¿Embudo de Instagram atascado entre likes y Direct vacío — o peor, bots grises?",
+    text: "Mapeamos el camino, el CTA del perfil y auto-respuestas conformes — escenario primero, automatización después.",
+  },
+  "avtovoronka-vk": {
+    title: "¿Mensajes de comunidad VK sin opt-in — o un bot sin camino a un humano?",
+    text: "Montamos suscripción a mensajes, una cadena de 3–5 pasos y métricas por etapa — consentimiento primero, automatización después.",
+  },
+  "prodayushchiy-kontent": {
+    title: "¿Feed lleno de «compra ya» mientras leads y confianza se quedan planos?",
+    text: "Mezclamos oferta, valor y prueba para B2C/B2B — con CTAs honestos y medición más allá de los likes.",
+  },
+  "nazvanie-internet-magazina": {
+    title: "¿Nombre de tienda atrapado entre «nos gusta» y un dominio cogido?",
+    text: "Armamos una shortlist que encaje con la audiencia, comprobamos dominios y conflictos, y mantenemos plazos SEO realistas.",
+  },
+  "parsing-python": {
+    title: "¿Necesitas un parser en Python sin recetas grises anti-bot?",
+    text: "Elegimos el stack adecuado (requests/BS4/Scrapy), fijamos límites y nos quedamos en ToS y APIs oficiales.",
+  },
+  json: {
+    title: "¿Payloads de API que fallan por comas, comillas o parse con eval?",
+    text: "Fijamos sintaxis JSON estricta, rutas de parse seguras y configs limpias para front e integraciones.",
+  },
+  "primery-email-rassylok": {
+    title: "¿Copias emails bonitos de marcas mientras open rate y confianza se quedan planos?",
+    text: "Adaptamos una técnica clara — elección, tono de welcome, progreso o feedback — a tu lista con opt-in.",
+  },
+  "nativnaya-reklama": {
+    title: "¿Posts nativos que gritan «anuncio» desde la primera línea?",
+    text: "Encajamos la experiencia de producto en la voz de la plataforma — con etiquetado honesto, no con emoción falsa.",
+  },
+  "sayt-pered-reklamoy": {
+    title: "¿Ads en marcha, clics entrando — y sigue habiendo cero leads?",
+    text: "Auditamos goals, formularios, primera pantalla y móvil antes de escalar el spend — landing primero, pujas después.",
+  },
+  "besplatnaya-reklama": {
+    title: "¿Cazando «ads gratis» y acabando en bots grises o listas de spam?",
+    text: "Elegimos canales honestos sin media para tu nicho — contenido, partnerships, plataformas de demanda — y luego un test de pago pequeño.",
+  },
+  amp: {
+    title: "¿Sigues manteniendo AMP «por SEO» mientras los Core Web Vitals del sitio principal van atrasados?",
+    text: "Centramos velocidad y UX móvil en las URLs canónicas — AMP solo si ya tienes un caso de contenido claro.",
+  },
+  "oshibki-smm": {
+    title: "¿Posts en redes por checkbox — sin objetivo, sin audiencia, sin respuestas?",
+    text: "Fijamos una plataforma, un objetivo del mes y un ritmo sin spam ni moderación falsa de «solo cinco estrellas».",
+  },
+  infopovod: {
+    title: "¿Necesitas una razón para hablar de la marca sin hype vacío ni newsjacking tóxico?",
+    text: "Empaquetamos un gancho planificado — investigación, lanzamiento, collab — con pack para editores y métricas más allá del ruido.",
+  },
+  "email-marketing-2020": {
+    title: "¿Persiguiendo widgets interactivos de email mientras asuntos móviles y triggers van atrasados?",
+    text: "Fijamos HTML legible, welcome/triggers y segmentos CRM — experimentos solo sobre una base sólida.",
+  },
+  "parsing-email": {
+    title: "¿Tentado por una «lista scrapeada lista» que mata la reputación del dominio?",
+    text: "Crecemos una lista CRM con opt-in, consentimiento y baja fácil — sin cosechar emails en masa.",
+  },
+  crm: {
+    title: "¿Eliges CRM por una lista de 2020 mientras los deals siguen en chats?",
+    text: "Mapeamos tu funnel, comparamos sistemas en tus escenarios y desplegamos con disciplina — no por logos en un ranking.",
+  },
+  "parsing-auditorii": {
+    title: "¿Tentado por un «dump de audiencia del competidor» que arriesga bans?",
+    text: "Construimos segmentos desde tu CRM, pixel y lookalikes — sin scrapear perfiles ajenos.",
+  },
+  "antitrendy-marketinga": {
+    title: "¿Sigues apostando a spam, un solo canal y hard-sell en el primer toque?",
+    text: "Recortamos anti-tendencias y reconstruimos toques medibles alrededor de oferta, consentimiento y funnel.",
+  },
+  "analitika-telegram": {
+    title: "¿Confundes views de «ojos» en Telegram con engagement — y compras alcance falso?",
+    text: "Montamos un dashboard semanal de mediana de views con Insights y UTM — números honestos, sin bots de views.",
+  },
+  "google-partner": {
+    title: "¿Persiguiendo un badge Partner con un umbral de spend de 2018?",
+    text: "Alineamos certs Skillshop, calidad del MCC y criterios actuales del programa — el badge como prueba, no como promesa de CPA.",
+  },
+  "udalenie-botov-instagram": {
+    title: "¿Conteo bonito de followers — y ER matado por bots?",
+    text: "Limpiamos basura por lotes con seguridad, saltamos «auto-cleaners» con contraseña y reconstruimos engagement vivo sin crecimiento fake.",
+  },
+  "planirovshchik-rezultatov-google": {
+    title: "¿Discutiendo el presupuesto estacional «a ojo» mientras Performance Planner está sin usar?",
+    text: "Armamos escenarios con CPA desde campañas vivas — el forecast como orden de magnitud, no como promesa de Google.",
+  },
+  "eat-kopirayting": {
+    title: "¿Publicas consejos YMYL bajo «Admin» sin fuentes?",
+    text: "Montamos bylines expertos, hechos verificables y señales de confianza del sitio — E-E-A-T como calidad, no como atajo mágico de posiciones.",
+  },
+  "tochki-kontakta": {
+    title: "¿Ads bonitos — y deals que mueren en chat, teléfono o recepción?",
+    text: "Mapeamos cadenas de toques online y offline, arreglamos juntas débiles y medimos la conversión en cada paso.",
+  },
+  "ssylki-v-instagram": {
+    title: "¿Publicas URLs en captions que nadie puede tocar?",
+    text: "Montamos bio / link-in-bio, stickers de Stories y UTMs — salidas medibles sin un zoo de herramientas grises.",
+  },
+  "sarafannoe-radio": {
+    title: "¿Esperas que los clientes te recomienden — sin pedir, medir ni arreglar el servicio?",
+    text: "Montamos asks post-compra, reseñas honestas y tracking de referidos — experiencia real, sin estrellas falsas.",
+  },
+  slogan: {
+    title: "¿Atascado en «calidad e innovación» — o una línea de generador que falla la marca?",
+    text: "Creamos un slogan corto, fácil de decir y cumplible que encaje con nombre y logo — verdad antes que palabras bonitas.",
+  },
+  crello: {
+    title: "¿Plantilla nueva cada día — y un feed sin marca?",
+    text: "Fijamos un set pequeño de starters con marca en VistaCreate/Crello — visuales SMM rápidos sin caos de diseñador.",
+  },
+  "adaptivnyy-shablon-direkt": {
+    title: "¿Dibujando diez tamaños de banner a mano por cada test de Direct?",
+    text: "Montamos creatives adaptativos con smart center y campos legales — previews primero, luego escala.",
+  },
+  "rassylka-whatsapp": {
+    title: "¿Compraste una «base de números WhatsApp» — y te llegaron bloqueos en lugar de leads?",
+    text: "Montamos un camino opt-in y plantillas oficiales de Business API — consentimiento primero, sin remitentes grises.",
+  },
+  "sotsialnye-seti": {
+    title: "¿Cinco perfiles sociales vacíos — y aún sin un canal claro?",
+    text: "Elegimos 1–2 plataformas para tu audiencia y trabajo — con vínculo sitio/CRM, no copiando una lista mundial de diez.",
+  },
+  "instagram-direct": {
+    title: "¿Blasts fríos de Direct — y límites en lugar de leads?",
+    text: "Montamos saludos, SLA y CTAs cálidos — automatización de servicio sin tools grises de spam.",
+  },
+  "instagram-direct-gid": {
+    title: "¿El equipo no encuentra dónde viven los chats — y los leads mueren en silencio?",
+    text: "Mapeamos lo básico del messenger, quick replies y una cola inbound — sin cazar un botón de «enviar a todos».",
+  },
+  "dekorativnyy-shrift-instagram": {
+    title: "¿Bio fancy — y nadie lee la oferta en tres segundos?",
+    text: "Dejamos un acento Unicode y un CTA plano — sin apps de contraseña, comprobado en iOS y Android.",
+  },
+  "whatsapp-v-instagram": {
+    title: "¿Los clientes piden WhatsApp en Stories — y buscan dígitos en la bio a mano?",
+    text: "Ponemos un wa.me probado en el header con un stub corto text= — inbound al clic, sin spam frío.",
+  },
+  "youtube-monetizaciya": {
+    title: "¿Planificando el ingreso del canal desde el screenshot de revenue de otro?",
+    text: "Fijamos nicho, retención y modelos legales de ingreso — umbrales del Partner Program del Help oficial, no de guías viejas.",
+  },
+  "futer-sayta": {
+    title: "¿Footer lleno de anchors SEO — y sin contactos claros?",
+    text: "Dejamos un footer corto y de confianza: contactos, legal, nav clave — sin muro de keywords.",
+  },
+  "oblachnyy-servis": {
+    title: "¿Pasaste al equipo a «la nube» — y nadie es dueño de backups ni accesos?",
+    text: "Elegimos SaaS/IaaS por el trabajo, fijamos 2FA y pruebas de recuperación — antes de mover datos en masa.",
+  },
+  "shaut-instagram": {
+    title: "¿SFS semanal con cuentas al azar — y unfollows en lugar de leads?",
+    text: "Elegimos un partner relevante, fijamos el acuerdo y medimos follows/consultas — no el conteo de shoutouts.",
+  },
+  "ssylka-instagram": {
+    title: "¿Enlace del perfil en ads — y abre Explore en lugar de tu cuenta?",
+    text: "Copiamos la URL correcta del perfil, la probamos y la colocamos junto a una oferta clara en el header.",
+  },
+  "kontent-menedzher": {
+    title: "¿Los posts salen «como llegaron» — y cada semana se rompen móvil y enlaces?",
+    text: "Fijamos brief, checklist de CMS y flujo de publicación — plan y calidad en la página en vivo, no solo conteo de palabras.",
+  },
+  "telegram-boty": {
+    title: "¿Necesitas un bot de Telegram para leads — sin un laberinto de botones sin salida?",
+    text: "Diseñamos un flow corto, handoff a un humano y manejo seguro del token — sin hacks dudosos de crecimiento.",
+  },
+  "feyk-stranitsa": {
+    title: "¿Encontraste un clon de tu marca — y clientes casi pagaron en el sitio equivocado?",
+    text: "Fijamos URLs oficiales, monitoreo y un playbook de incidente — sin «escaparates falsos» para SEO.",
+  },
+  "lichnyy-kabinet": {
+    title: "¿Necesitas una cuenta personal — sin un laberinto de alta con 20 campos?",
+    text: "Acotamos roles, auth y los primeros flows de autoservicio — seguridad y UX móvil desde el brief.",
+  },
+  "viralnyy-kontent": {
+    title: "¿Esperando que cada post se vuelva viral — y comprando packs de shares?",
+    text: "Metemos formatos dignos de share en un sistema de contenido — sin KPIs de viralidad falsa.",
+  },
+  "internet-portal": {
+    title: "¿Llamas «portal» a un folleto de 5 páginas — y presupuestas como un gigante?",
+    text: "Separamos portal vs sitio, fijamos un MVP de 1–3 flows y planificamos soporte — no un zoológico vacío de secciones.",
+  },
+  "videoreklama-youtube": {
+    title: "¿Crees que YouTube Ads venderá sin landing ni objetivos de conversión?",
+    text: "Montamos un test de creatives medido alrededor del CPA — las views no son la meta final.",
+  },
+  "analitika-kontent-marketinga": {
+    title: "¿Publicas por likes — y no sabes qué pieza trae leads?",
+    text: "Fijamos 5–7 KPIs a un objetivo y un ritual semanal — coste y conversión, no views de vanidad.",
+  },
+  "bazy-dannyh-sayta": {
+    title: "¿Update del CMS mañana — y el único backup son «archivos en el mismo disco»?",
+    text: "Montamos backups de DB+files offsite y una prueba de restore — antes de la siguiente migración.",
+  },
+  "sohranit-foto-instagram": {
+    title: "¿Necesitas un archivo listo para el cliente — y solo queda un screenshot del feed?",
+    text: "Dejamos el hábito de archivar fuera del feed — derechos primero, sin downloaders de phishing.",
+  },
+  "seo-malyy-biznes": {
+    title: "¿Te prometieron «primera página en una semana» — y aún no hay landings ni ficha de mapa?",
+    text: "Montamos un plan SMB realista: prep en semanas, crecimiento de rankings a meses — primero páginas locales.",
+  },
+  "ssylki-telegram": {
+    title: "¿Los ads mandan a un invite caducado — y el soporte cae en el chat equivocado?",
+    text: "Fijamos un t.me canónico en el brand kit — público vs invite etiquetados con claridad.",
+  },
+  "rozygrysh-instagram": {
+    title: "¿El ganador parece un insider — y nadie grabó cómo se sacó el número?",
+    text: "Fijamos reglas, lista numerada y RNG público en vídeo — sorteos justos, sin tools de contraseña.",
+  },
+  "avtorskie-prava-instagram": {
+    title: "¿Claims de música y fotos en el feed — y el equipo sigue sacando archivos de Google Images?",
+    text: "Fijamos música/stock con licencia y un camino oficial de appeal — sin esquemas de bypass de DRM.",
+  },
+  "golosovoy-poisk": {
+    title: "¿El sitio no responde a queries habladas de «cerca / cómo» — y el FAQ es un dump de keywords?",
+    text: "Reforzamos velocidad, respuestas cortas y clusters conversacionales — SEO clásico, no un culto a la voz.",
+  },
+  "statistika-google-prodazhi": {
+    title: "¿Hay demanda en Google — pero no hay loop de keys a landings y objetivos de venta?",
+    text: "Conectamos Planner, Trends y Analytics en un ciclo: keys → estación → landings → objetivos.",
+  },
+  "opisanie-tovara": {
+    title: "¿Foto bonita, ficha vacía — y los compradores preguntan talla y material en el chat?",
+    text: "Escribimos lead, specs y «por qué nosotros» para que las dudas se cierren antes de que responda el manager.",
+  },
+  "dlina-seo-teksta": {
+    title: "¿Los briefs persiguen cuotas de caracteres — y las páginas siguen perdiendo frente a respuestas más claras?",
+    text: "Fijamos el volumen por intención y guías del SERP — sustancia sobre relleno, plazos sin mitos de primera página al instante.",
+  },
+  "seo-kopirayting": {
+    title: "¿Los briefs persiguen densidad de keywords — y las páginas siguen leyéndose como cebo para bots?",
+    text: "Fijamos intención, LSI y estructura en el brief — copy humano primero, plazos sin mitos de primera página al instante.",
+  },
+  "diplinking": {
+    title: "¿Los ads prometen una pantalla de promo — y el clic aterriza en home o en un onboarding roto?",
+    text: "Cableamos deeplink + deferred + fallback — camino más corto a la oferta, no un botón mágico de ROAS.",
+  },
+  "vnutrennie-faktory": {
+    title: "¿El link building arranca en un sitio crudo — lento, mixed content, landings vacías?",
+    text: "Ordenamos primero el on-page: contenido, estructura, HTTPS, velocidad — prep antes de la vía externa.",
+  },
+  "seo-yandex-google": {
+    title: "¿Solo se mira un panel de webmaster — y el otro motor se come en silencio la mitad de la demanda?",
+    text: "Corremos un sitio con ambos paneles y clusters compartidos — los acentos difieren; prep y horizontes de primera página se mantienen honestos.",
+  },
+  "prazdnichnyy-retargeting": {
+    title: "¿Sube el tráfico de fiestas — y los mismos ads fríos de search persiguen a quien ya navegó?",
+    text: "Partimos el retargeting en segmentos y una cascada — control de CPA de la base cálida, no un banner para todos.",
+  },
+  "seo-posle-topa": {
+    title: "¿El sitio llegó a primera página — y el plan es apagar el SEO para «ahorrar presupuesto»?",
+    text: "Mantenemos una vía de hold-and-grow: snippets, CR, clusters nuevos — mantenimiento, no un retainer eterno de checkbox.",
+  },
+  "mobilnaya-reklama-google": {
+    title: "¿El media plan copia el «CTR medio 4%» de otro — y el CPA móvil sigue derivando?",
+    text: "Separamos Search/Display, fijamos tu CPA y leemos slices móviles en la cuenta — no benchmarks PDF vintage.",
+  },
+  "strategiya-prodvizheniya": {
+    title: "¿El plan SEO «como todos» no encaja con la edad e historial de tu sitio?",
+    text: "Elegimos escenario desde el diagnóstico — sitio nuevo, long tail o rehab — sin copiar el checklist del competidor.",
+  },
+  "mobilnyy-poisk": {
+    title: "¿Los rankings se ven bien en desktop — y la SERP móvil más el bounce cuentan otra historia?",
+    text: "Revisamos rankings móviles, arreglamos plantillas en teléfonos reales y tratamos la velocidad como trabajo del sitio — no Turbo/AMP por defecto.",
+  },
+  "sotsseti-dlya-biznesa": {
+    title: "¿Hay perfiles — y los clientes siguen eligiendo al competidor que responde en el chat?",
+    text: "Elegimos 1–2 canales vivos, un ritmo de respuesta y un enlace al sitio/lead — confianza y servicio, no presencia vacía en todas partes.",
+  },
+  "ctr-faktor-google": {
+    title: "¿El plan sigue colgado de comprar clics en la SERP porque «el CTR es un factor»?",
+    text: "Leemos el CTR de GSC como diagnóstico del snippet y arreglamos title/intención — sin esquemas de inflación de clics.",
+  },
+  "otsenka-stoimosti-sayta": {
+    title: "¿El precio de venta cuelga de una captura de la calculadora de dominio en un clic?",
+    text: "Armamos P&L, mix de tráfico y riesgos — estimaciones online como borrador de tendencia, no el número del trato.",
+  },
+  "linkedin": {
+    title: "¿El perfil de LinkedIn está vacío — y hiring o B2B aún espera «presencia»?",
+    text: "Completamos headline, experiencia y página de empresa con un objetivo claro — Premium solo cuando la tarea lo pide.",
+  },
+  "reklama-odnoklassniki": {
+    title: "¿Los ads de OK copian creatives de VK — y la respuesta sigue ruidosa?",
+    text: "Fijamos oferta concreta, creative legible y objetivos de CPA — formatos revisados en la cuenta actual, no en guías viejas.",
+  },
+  "prodvizhenie-brenda": {
+    title: "¿La «promoción» de marca es un montón de posts — y aún no hay objetivo SMART?",
+    text: "Fijamos el resultado, métricas SMART y un SWOT corto — luego elegimos 1–2 canales en lugar de hacerlo todo a la vez.",
+  },
+  "gruppa-facebook": {
+    title: "¿La Page de Facebook está vacía — y los ads deberían «rescatarla»?",
+    text: "Primero fijamos rol de la Page, oferta y contenido de arranque — luego moderación y pago solo cuando la cadena funciona.",
+  },
+  "yml-fayl": {
+    title: "¿El feed de Market es un XLS editado a mano — y el stock ya está mal?",
+    text: "Conectamos YML desde una sola fuente de inventario con auto-refresh HTTPS — y arreglamos errores de moderación en los datos, no solo en el archivo.",
+  },
+  "veb-prilozhenie": {
+    title: "¿El brief dice «solo un sitio» — pero necesitas roles, carrito y estados?",
+    text: "Separamos landings públicas de los escenarios de producto — stack después de datos, integraciones y criterios de aceptación.",
+  },
+  "veb-servisy": {
+    title: "¿Las integraciones son «solo pegamento» — hasta que la API de pago se apaga?",
+    text: "Mapeamos escenario de negocio, contrato y plan de fallo — docs y monitoring antes que acrónimos de moda.",
+  },
+  "adminka-sayta": {
+    title: "¿El contenido espera a un desarrollador — y una sola contraseña de admin compartida?",
+    text: "Fijamos roles, cuentas únicas e higiene de updates/backups — para que el CMS acelere la publicación sin volverse una puerta de breach.",
+  },
+  "oshibka-500": {
+    title: "¿Las URLs clave devuelven 500 — y alguien quiere un «plugin de fix»?",
+    text: "Confirmamos desde fuera, leemos logs de app/servidor y hacemos rollback del último cambio — sin redirects que enmascaren el síntoma.",
+  },
+  "skript-sayta": {
+    title: "¿Una docena de widgets en el head — y nadie es dueño de los snippets?",
+    text: "Mantenemos fuentes de confianza, un solo lugar de insert y un check de velocidad — roles cliente vs servidor sin «scripts SEO» de foros.",
+  },
+  "pozdravlenie-klienta": {
+    title: "¿Los emails de cumpleaños dicen «¡Estimado cliente!» — y suenan a spam?",
+    text: "Fijamos fechas en CRM, consentimiento y rotación de plantillas — cálido por nombre, con notas personales VIP en lugar de poesía de generador.",
+  },
+  "kviz-sayt": {
+    title: "¿El quiz pide el teléfono en el paso uno — y el drop-off mata el funnel?",
+    text: "Mapeamos 4–8 preguntas al punto, un outcome útil y handoff a CRM — progreso sin trucos falsos de «has ganado».",
+  },
+  "retargeting-meta": {
+    title: "¿El retarget cálido muestra un solo creative a carrito y visitas peladas por igual?",
+    text: "Separamos segmentos de sitio, lista y engagement, excluimos compradores y limitamos frecuencia — CPA por encima del teatro de reach.",
+  },
+  "interaktivnyy-kontent": {
+    title: "¿«Wow» interactivo en cada página — y aún sin leads?",
+    text: "Elegimos un formato para el trabajo del usuario — test, calculadora o configurador — y medimos pasos más el siguiente CTA.",
+  },
+  "virusnyy-marketing": {
+    title: "¿Esperas que un pack de views compre un «virus» — y las ventas siguen vacías?",
+    text: "Fijamos idea, primer push y un puente al producto — shares y leads por encima de garantías falsas de views.",
+  },
+  "sredniy-chek": {
+    title: "¿El AOV sube — y el margen se muere en silencio con el envío gratis?",
+    text: "Fijamos una palanca a la vez — cross-sell relevante, un umbral justo por encima del AOV actual — y miramos CR de pedido junto al margen.",
+  },
+  "sem-kasaniy": {
+    title: "¿Un solo canal «mágico» — y la marca sigue desconocida en el checkout?",
+    text: "Mapeamos una cadena corta multi-toque con mensajes distintos — 2–3 canales más retarget, medidos más allá del last click.",
+  },
+  "prodazhi-internet-magazin": {
+    title: "¿Veinte growth hacks a la vez — y aún sin claridad de qué movió las ventas?",
+    text: "Elegimos 1–2 palancas para el cuello real — tráfico, conversión o AOV — y medimos ingresos con margen.",
+  },
+  "tz-na-sayt": {
+    title: "¿El brief dice «hazlo bonito» — y el build se vuelve ediciones eternas de gusto?",
+    text: "Fijamos objetivos, estructura, referencias y plazos por etapa — prototipo antes del pulido, el acceso se queda contigo.",
+  },
+  "project-manager": {
+    title: "¿Especialistas fuertes — y el proyecto aún se esparce por los chats?",
+    text: "Fijamos scope, criterios de «hecho» y un ritmo de status — coordinación sin cultura de guardián de statuses.",
+  },
+  "udalennaya-rabota": {
+    title: "¿Equipo remoto online todo el día — y aún sin claridad de qué se entregó?",
+    text: "Alineamos KPIs, un solo loop de tareas y ventanas de sync — gestión por outcomes, no por mirar pantallas.",
+  },
+  "negativnyy-otzyv": {
+    title: "¿Reseña negativa online — y la respuesta pelea o dice «disculpas por las molestias»?",
+    text: "Fijamos un marco de respuesta calmado: hechos, un siguiente paso y un arreglo real — sin agresión ni plantillas vacías.",
+  },
+  "sms-rassylka": {
+    title: "¿Blast SMS a una lista comprada — y más quejas que pedidos?",
+    text: "Armamos segmentos con consentimiento, copy corto y medición — toques raros, opt-out claro, sin spam frío.",
+  },
+  "prodvizhenie-prilozheniy": {
+    title: "¿Installs baratos — y el churn del día 1 se come todo el presupuesto?",
+    text: "Fijamos evento de éxito, segmentos, deep links y KPIs de retention — escalamos solo lo que se queda.",
+  },
+  "glavnaya-internet-magazina": {
+    title: "¿Homepage llena de banners — y aún sin claridad de dónde clic para comprar?",
+    text: "Armamos header, escaparate, copy corto de trust y un footer útil — primero el camino al catálogo.",
+  },
+  "razmeshchenie-lendinga": {
+    title: "¿Dominio nuevo «por la keyword» — y el SEO vuelve a empezar desde cero?",
+    text: "Elegimos dominio, subdominio o URL interna según oferta y canal — aislamiento solo cuando compensa.",
+  },
+  "prognoz-trafika": {
+    title: "¿Un número SEO «garantizado» de visitas — y un plan de primera página en un mes encima?",
+    text: "Modelamos demanda, posiciones y CTR como rango — el potencial aparte del horizonte planificado de 2–6 meses hacia la primera página.",
+  },
+  "onlayn-obuchenie": {
+    title: "¿Otra tool de webinar — y el equipo sigue en el email?",
+    text: "Montamos ritmo de contenido, práctica entre sesiones y feedback — el híbrido gana al monólogo de slides.",
+  },
+  "tochki-rosta-sayta": {
+    title: "¿Meseta de tráfico — y parece que el nicho ya está exprimido?",
+    text: "Diagnosticamos primero demanda, CRO o canales — luego 1–2 palancas; el SEO hacia primera página se planea a 2–6 meses.",
+  },
+  "giperlokalnyy-targeting": {
+    title: "¿Ads a toda la ciudad — y mesas vacías al lado?",
+    text: "Montamos geopolígono, oferta de «por qué venir aquí» y medición — sin esquemas de radar MAC de espionaje.",
+  },
+  "omnikanalnyy-kontent-marketing": {
+    title: "¿Sitio, chat y ads prometen cosas distintas — y el cliente cuenta su historia cada vez?",
+    text: "Auditamos el journey, sincronizamos oferta y tono en 2–3 canales — omni antes que «otra red más».",
+  },
+  "prodvizhenie-offlayn-biznesa": {
+    title: "¿El escaparate está bien — y el teléfono aún no te encuentra cerca?",
+    text: "Arreglamos NAP, reseñas e hiperlocal con medición de visitas — primero mapas, no radar MAC.",
+  },
+  "uchastie-v-tenderah": {
+    title: "¿Semanas en una oferta — y la licitación ya parece «decidida»?",
+    text: "Revisamos contrato, buffer de margen y red flags antes de gastar al equipo — sin dumping para ganar.",
+  },
+  "korporativnoe-obuchenie": {
+    title: "¿«Desde el lunes todos estudian» — y aún no pega ninguna skill?",
+    text: "Montamos plan por rol, metas medibles por módulo y un mentor — práctica voluntaria por encima de órdenes.",
+  },
+  "korporativnyy-blog": {
+    title: "¿Blog «como un media gigante» — y aún sin leads, solo un hobby caro?",
+    text: "Fijamos meta de negocio, rúbricas, KPI y un dueño dentro de la empresa — valor antes que posts de vanidad.",
+  },
+  "performance-marketing": {
+    title: "¿Los clics baratos se ven genial — y las ventas aún no aparecen en el CRM?",
+    text: "Fijamos KPIs de acción, tracking y encaje landing–oferta — optimizamos por dinero, no solo por CTR.",
+  },
+  "avtovoronka": {
+    title: "¿Bot en cada paso — y las preguntas complejas aún mueren en el chat?",
+    text: "Mapeamos pasos, corregimos caídas y escalamos a un humano — automatizamos la rutina, no toda la venta.",
+  },
+  "nayti-marketologa": {
+    title: "¿Contratar a «alguien que sabe de ads» — y aún sin KPI ni ownership?",
+    text: "Fijamos brief, formato (agencia/in-house/híbrido) y KPIs medibles — casos por encima de mitos de horas.",
+  },
+  "zashchita-ot-parsinga": {
+    title: "¿Captcha en cada página — y los scrapers siguen machacando el catálogo?",
+    text: "Montamos rate limits, challenges por riesgo y allowlist de crawlers — subimos el coste del scrape sin matar el SEO.",
+  },
+  "prognoz-trafika-google-ads": {
+    title: "¿Un número del Keyword Planner — y el presupuesto aún falla el CPA?",
+    text: "Limpiamos semántica, agrupamos por economía y fijamos CTR/CPC como rango — supuestos antes de la subasta.",
+  },
+  "vrednye-sovety-rukovoditelyam": {
+    title: "¿Reuniones de «siempre tengo razón» — y la gente fuerte se va en silencio?",
+    text: "Damos la vuelta a los antipatrones: agenda, promesas cumplidas y retener a quien ya entrega.",
+  },
+  "promoaktsii": {
+    title: "¿Corren promos — y el margen se derrite mientras la gente espera −50%?",
+    text: "Elegimos mecánica bajo una meta, contamos la economía post-descuento y fijamos medición con códigos y UTM.",
+  },
+  "kartochka-tovara": {
+    title: "¿Ficha abierta — y el comprador rebota sin ver precio ni Comprar?",
+    text: "Armamos media, specs, precio junto al CTA y bloques de trust para que la decisión se cierre en la página.",
+  },
+  "vygoranie-sotrudnikov": {
+    title: "¿Equipo agotado — y otro team-building no lo arregla?",
+    text: "Aclaramos carga y metas, protegemos límites de recuperación y mantenemos feedback sin «positividad» tóxica.",
+  },
+  "kpi-menedzhera-prodazh": {
+    title: "¿Se apilan KPIs de ventas — y aún no está claro quién vende con margen?",
+    text: "Fijamos pocas métricas ligadas a deals y economía, cerramos huecos de gaming y las controlamos en el CRM.",
+  },
+  "akkaunt-menedzher": {
+    title: "¿Los clientes se quedan — pero nadie posee metas, informes y renovaciones?",
+    text: "Aclaramos el rol de account frente a sales/PM, fijamos cadencia y reporting, y crecemos la cuenta desde necesidades reales.",
+  },
+  "oshibki-internet-magazina": {
+    title: "¿La tienda «funciona» — y aún catálogo, filtros y pop-ups matan la conversión?",
+    text: "Pillamos duplicados, categorías caóticas, media débil y bloqueos de primera pantalla que las auditorías suelen pasar.",
+  },
+  "effektivnost-videoreklamy": {
+    title: "¿El vídeo se ve «visto» — y aún no está claro si movió marca o ventas?",
+    text: "Armamos un panel media → marca → negocio: viewability, señales de lift y caminos más allá del last-click.",
+  },
+  "broshennaya-korzina": {
+    title: "¿El carrito se llena — y el checkout aún pierde compradores por sorpresas de envío?",
+    text: "Cortamos fricción: guest checkout, trust, total claro antes, bugs del carrito y luego recuperación honesta.",
+  },
+  "kommercheskoe-predlozhenie": {
+    title: "¿Salen propuestas — y las respuestas se traban en precio vago y CTA blando?",
+    text: "Ajustamos tono frío/tibio/caliente, ponemos beneficio y precio al frente y cerramos con un siguiente paso claro.",
+  },
+  "elektronnaya-kniga": {
+    title: "¿Necesitas un ebook lead magnet — sin presupuesto de diseñador?",
+    text: "Estructuramos un tema, sacamos un PDF sólido y montamos distribución con consentimiento y tracking de descarga.",
+  },
+  "roas": {
+    title: "¿El ROAS se ve bien — y el margen aún no deja beneficio?",
+    text: "Fijamos gasto honesto (media + producción), ligamos revenue a la atribución y leemos ROAS junto a la unit economics.",
+  },
+  "kognitivnye-iskazheniya": {
+    title: "¿La oferta está clara — y aún la elección se atasca en miedo, framing y trust débil?",
+    text: "Aplicamos exposure, aversión a la pérdida y tramos con ética — con plazos reales y señales de trust, no dark patterns.",
+  },
+  "intent-sotsialnye-prodazhi": {
+    title: "¿Los compradores preguntan en social — y las respuestas se vuelven spam o leads perdidos?",
+    text: "Puntuamos niveles de intent, fijamos handoff a CRM y SLA, y respondemos con ética en canales lícitos.",
+  },
+  "yuzabiliti-internet-magazina": {
+    title: "¿El tráfico llega a la tienda — y el checkout aún pierde en formularios y sorpresas?",
+    text: "Arreglamos búsqueda, móvil, persistencia del carrito y totales transparentes antes de verter más gasto en ads.",
+  },
+  "google-assessory": {
+    title: "¿Persigues «scores de rater» — y aún no está claro qué piden E-E-A-T e YMYL?",
+    text: "Alineamos propósito de página, autoría y señales de trust — sin mitos de que un rater te regala la primera página.",
+  },
+  "oshibki-reklamnoy-kampanii": {
+    title: "¿El presupuesto de ads se quema — y nunca se revisó demanda de búsqueda ni relevancia?",
+    text: "Separamos Search vs Display, fijamos límites realistas de test y limpiamos la cadena consulta → ad → landing.",
+  },
+  "problemnye-klienty": {
+    title: "¿Los chats de soporte escalan — y los scripts solo alimentan el conflicto?",
+    text: "Mapeamos tipos de cliente, fijamos un marco de respuesta calmado y mantenemos líneas de stop sin perder margen ni reputación.",
+  },
+  "sozdanie-internet-magazina": {
+    title: "¿El mockup de la tienda se ve bien — y checkout, stock o móvil siguen rotos?",
+    text: "Cerramos lo básico del storefront antes de ads: pago, catálogo, búsqueda, velocidad y soporte real.",
+  },
+  "tendentsii-veb-dizayna": {
+    title: "¿UI de moda enviada — y velocidad móvil o claridad del CTA empeoraron?",
+    text: "Filtramos tendencias por camino, Core Web Vitals y encaje de marca — antes que animación por la animación.",
+  },
+  "tsvet-internet-magazina": {
+    title: "¿La paleta pelea con el logo — y el CTA sigue desapareciendo en móvil?",
+    text: "Fijamos 2–3 colores de marca, contraste legible y acento de CTA como test — no un mito de conversión.",
+  },
+  "vovlechenie-polzovateley": {
+    title: "¿Llega tráfico — y las demos se apagan sin un siguiente paso claro?",
+    text: "Mapeamos fuentes, reaccionamos a la pasividad y cerramos fricción de onboarding antes de escalar más gasto.",
+  },
+  "poseshhaemost-sayta": {
+    title: "¿Quieres más visitas — pero el sitio es lento y los canales están dispersos?",
+    text: "Primero auditamos velocidad, navegación y contenido; luego elegimos 1–2 canales white-hat sin mitos de «primera página en un mes».",
+  },
+  serm: {
+    title: "¿SERP de marca llena de negatividad — y nadie responde?",
+    text: "Mapeamos resultados de marca, reforzamos URLs propias y tratamos reviews con ética — sin granjas de positividad falsa.",
+  },
+  "affiliat-filtr": {
+    title: "¿Varios dominios casi iguales peleando las mismas queries?",
+    text: "Separamos marcas/ofertas reales o consolidamos en un sitio fuerte — antes de que el filtro de afiliados corte el grupo.",
+  },
+  "agregatory-kontenta": {
+    title: "¿Montas un agregador — pero fuentes y páginas vacías son un riesgo legal?",
+    text: "Fijamos derechos, filtros y plantillas de página para que el producto sirva intent real — no un almacén de enlaces.",
+  },
+  yuzabiliti: {
+    title: "¿Llega tráfico — y la gente rebota antes del lead o la compra?",
+    text: "Recorremos escenarios clave en móvil y desktop, cortamos fricción y apretamos el camino a la acción objetivo.",
+  },
+  "den-v-prime": {
+    title: "¿La promoción parece «una línea en la cuenta» — y el equipo es invisible?",
+    text: "Mostramos cómo SEO, paid search y la prep del proyecto se reparte un día — sin mitos de primera página al lanzar.",
+  },
+  "vidy-reklamy": {
+    title: "¿Eliges tipos de ads por tendencia — y los teasers comen la marca?",
+    text: "Elegimos el mix de canales por demanda y unit economics: SEO + paid search como marco, targeting y banners donde encajan.",
+  },
+  "kluchi-youtube": {
+    title: "¿Los tags se ven perfectos — y la retención sigue matando el vídeo en búsqueda?",
+    text: "Armamos un core de keywords que funcione para título y descripción, y luego medimos watch-through — no spam de tags contra gigantes.",
+  },
+  adblock: {
+    title: "¿El sitio se ve roto — y Metrica/GA «muertas» con AdBlock encendido?",
+    text: "Separamos efectos colaterales del blocker de fallos reales del contador y mantenemos analytics legibles cuando parte del tráfico es invisible.",
+  },
+  "nakrutka-zriteley-youtube": {
+    title: "¿El concurrent se ve enorme — y el chat está vacío sin retornos?",
+    text: "Crecemos audiencias en vivo con anuncios, schedule y retención — sin bots, tools de proxy ni espectadores falsos de marketplace.",
+  },
+  "veb-arhiv": {
+    title: "¿Necesitas una versión vieja de página — y no hay backup de hosting?",
+    text: "Usamos Wayback para historia y recuperación lícita de tu contenido — sin armar estrategia sobre copias ajenas archivadas.",
+  },
+  "vodyanoy-znak": {
+    title: "¿Copian las fotos — y un logo gordo mata el frame y los shares?",
+    text: "Colocamos una watermark cuidadosa o pasamos a previews y licencias — sin tratar una marca en la esquina como armadura legal.",
+  },
+  "yandeks-disk": {
+    title: "¿Los archivos viven en USBs — y Disk es un dump compartido sin 2FA?",
+    text: "Montamos estructura de carpetas, derechos de enlaces y sync — y dejamos Disk como complemento de backups del sitio, no como sustituto.",
+  },
+  "montazh-youtube": {
+    title: "¿Se acumulan efectos — y los espectadores se van por mal audio y pausas muertas?",
+    text: "Fijamos un pipeline simple y un editor a tu nivel — ritmo y sonido primero, no un catálogo de tools de 2020.",
+  },
+  "magnet-ssylka": {
+    title: "¿Necesitas compartir un archivo grande por hash — sin confundir formato con piratería?",
+    text: "Explicamos la estructura de la magnet URI y el uso lícito — con riesgos y derechos claros, sin guías de trackers piratas.",
+  },
+  "virtualnyy-nomer": {
+    title: "¿Necesitas call tracking — y los números SMS públicos gratis parecen tentadores?",
+    text: "Elegimos una línea virtual bajo contrato para ads y CRM — sin multi-cuenta gris ni códigos de bandeja compartida.",
+  },
+  "chrome-rasshireniya-marketing": {
+    title: "¿El navegador lleno de «mejores 25» extensiones de 2020 — y la mitad muertas?",
+    text: "Armamos un stack corto por tarea: screenshots, UTM, contraseñas, un tracker — solo desde la tienda oficial.",
+  },
+  canva: {
+    title: "¿Necesitas posts cada semana — y cada plantilla grita otra marca?",
+    text: "Fijamos un Brand Kit y un sistema de layouts repetible en Canva — y llamamos a un diseñador cuando la identidad se complica.",
+  },
+  pwa: {
+    title: "¿Quieres un «atajo de app» — y esperas que la PWA sola suba rankings?",
+    text: "Enviamos HTTPS, manifest y Service Worker donde las visitas repetidas lo pagan — después de Core Web Vitals, no en su lugar.",
+  },
+  logotip: {
+    title: "¿Necesitas un logo — y solo tienes un PNG bonito que falla como favicon?",
+    text: "Elegimos mark vs wordmark, fijamos archivos vectoriales y derechos, y encajamos el signo en la identidad — no un borrador Canva al azar.",
+  },
+  "google-otzyvy-klientov": {
+    title: "¿Quieres estrellas de vendedor en Shopping — y las confundes con reviews de Maps?",
+    text: "Conectamos Customer Reviews vía Merchant Center bien — con GTIN, opt-in en thank-you y sin ratings falsos.",
+  },
+  "ip-telefoniya": {
+    title: "¿El call center crece — y sigues en una línea de mesa sin CRM?",
+    text: "Elegimos telefonía IP para colas, grabación y CRM — tras un test de calidad de voz, no una promesa de «−15% para todos».",
+  },
+  "voronka-prodazh-gtm": {
+    title: "¿Las compras son raras — y solo ves visitas, no dónde se rompe el checkout?",
+    text: "Mapeamos pasos reales de checkout, enviamos eventos GA4 por un solo contenedor GTM y leemos drop-offs del Funnel antes de más píxeles.",
+  },
+  "retargeting-direkt": {
+    title: "¿Vuelve tráfico cálido — y un ad de retargeting quema frecuencia sin control de CPA?",
+    text: "Partimos el retargeting de Direct por segmentos de Metrika, excluimos compradores y optimizamos placements por tu economics — no mitos de CTR de 2019.",
+  },
+  "google-kalendar": {
+    title: "¿Se acumulan reuniones — y un calendario mezcla clientes, deep work y lo personal?",
+    text: "Montamos capas de calendario, horario laboral, Meet y sharing para que los invites dejen de comerse el día.",
+  },
+  "google-alerts": {
+    title: "¿Aparecen menciones de marca — y aún las buscas a mano en search?",
+    text: "Montamos un set estrecho de Google Alerts para marca y temas para que los digests sean útiles, no ruidosos.",
+  },
+  "cms-internet-magazina": {
+    title: "¿Eliges CMS de tienda — y el pitch del «mejor motor» ignoró TCO y 1C?",
+    text: "Mapeamos catálogo, integraciones y equipo, y acotamos Bitrix / Magento / OpenCart / Woo / CS-Cart sin mitos de precios de 2019.",
+  },
+  "facebook-ads": {
+    title: "¿Testas ads Meta — y aún no hay píxel, solo esperanza de CTR?",
+    text: "Montamos eventos, contornos frío/look-alike/retarget y creatividades para juzgar el test por CPA/ROI — no FOMO de reach de 2018.",
+  },
+  "novogodnyaya-rasprodazha": {
+    title: "¿Rebaja de fiestas en ads — y Trends de EE. UU. del año pasado es tu único plan?",
+    text: "Forecast desde tu temporada, separamos etapas de comprador y corremos una campaña fechada con una salida limpia post-fiestas.",
+  },
+  tilda: {
+    title: "¿Landing en una semana — y empezaste por bloques bonitos antes que la oferta?",
+    text: "Fijamos estructura y copy primero; luego armamos bloques Tilda, dominio y formularios sin mitos de «primera página el día de publicar».",
+  },
+  "strategii-google-ads": {
+    title: "¿Smart Bidding encendido — y las metas están vacías o cambias de estrategia a diario?",
+    text: "Encajamos la clase de estrategia con el KPI, verificamos conversiones y protegemos la ventana de learning — no folklore de nombres de botón de 2018.",
+  },
+  "adaptivnye-mediynye-obyavleniya": {
+    title: "¿RDA en marcha — y un solo banner landscape aún se recorta en absurdo?",
+    text: "Preparamos assets multi-ratio, logos y copy, y revisamos previews antes de escalar el gasto Display.",
+  },
+  "videoset-yandeksa": {
+    title: "¿Red de vídeo encendida — y el plan aún cita el CPV medio de 2018?",
+    text: "Encajamos formato y duración con el KPI, probamos 1–2 audiencias y juzgamos la contribución al embudo — no la tabla de VTR de otro.",
+  },
+  "kontent-marketing-metrika": {
+    title: "¿Publicas cada semana — y Metrica solo dice «subieron las visitas tras un repost»?",
+    text: "Definimos metas de contenido, leemos engagement y fuentes a lo largo de meses y editamos el plan por conversiones — no por picos de un día.",
+  },
+  "google-merchant-center": {
+    title: "¿Quieres anuncios Shopping — y el feed aún desajusta precio y stock?",
+    text: "Preparamos GMC, verificamos el sitio, limpiamos diagnósticos y enlazamos Google Ads para que Shopping arranque con datos de producto honestos.",
+  },
+  "mobile-first-indeks": {
+    title: "¿Googlebot smartphone ve un móvil recortado — mientras desktop parece «completo»?",
+    text: "Revisamos paridad de contenido, markup y Search Console para que el documento móvil sea en lo que el ranking debería confiar.",
+  },
+  "perenos-direkta-google-ads": {
+    title: "¿Volcando Excel de Direct a Google Ads — y broad match quema el presupuesto?",
+    text: "Mapeamos match types, negativos y geo, y revisamos Editor antes del lanzamiento para que el segundo canal no se convierta en una fuga.",
+  },
+  "yandeks-dialogi": {
+    title: "¿Quieres un botón de chat en la búsqueda de Yandex — sin nadie que responda ni CRM?",
+    text: "Verificamos el estado del producto, fijamos un SLA de operador y cableamos leads para que el canal ayude en vez de dañar la confianza.",
+  },
+  "interfeys-yandeks-direkt": {
+    title: "¿Sigues optimizando Direct con screenshots de UI de 2018 y guías de «beta»?",
+    text: "Montamos el cabinet actual alrededor de tablas, filtros e informes semanales de conversión — la lógica del rediseño que sigue funcionando.",
+  },
+  "metrika-posetiteli": {
+    title: "¿Mirando solo las visitas de ayer — y perdiendo el camino multi-touch al lead?",
+    text: "Usamos perfiles de visitantes, segmentos y fichas de primera fuente para que Metrica muestre el ciclo de vida, no solo el tráfico diario.",
+  },
+  "vzveshennyy-ctr-direkt": {
+    title: "¿Coronando creativos por CTR crudo mientras las posiciones altas inflan la puntuación?",
+    text: "Añadimos CTR ponderado junto a conversiones para comparar anuncios con justicia — y decidir por CPA, no solo por clics.",
+  },
+  "yandeks-market": {
+    title: "¿Solicitando Yandex Market con un feed viejo y sin política de devoluciones?",
+    text: "Alineamos sitio, YML y reglas de entrega para que la moderación sea por encaje — no un bucle de rechazos.",
+  },
+  "proksi-server": {
+    title: "¿Eligiendo una «lista de proxies gratis» para logins — o mezclando reverse proxy con saltar bans?",
+    text: "Separamos infraestructura (gateway / reverse / CDN) de trucos grises de IP y elegimos un provider en el que se pueda confiar de verdad.",
+  },
+  "modx-local": {
+    title: "¿Instalando MODX desde un «pack de CMS» al azar — o dejando /setup en el host local?",
+    text: "Usamos el paquete oficial, cableamos BD + virtual host, terminamos el setup y quitamos setup antes de montar plantillas.",
+  },
+  "bitrix-publichnyy-razdel": {
+    title: "¿Cazando formularios de Bitrix en lo profundo de Administration — mientras el modo edición arreglaría el área include?",
+    text: "Usamos la barra pública y el modo edición de áreas con los roles adecuados para que las actualizaciones de contenido no rompan el layout.",
+  },
+  "bitrix-svoystva-infoblokov": {
+    title: "¿Pegando un snippet de propiedades Bitrix de 2017 — y la ficha sigue mostrando campos vacíos?",
+    text: "Cableamos DISPLAY_PROPERTIES en una copia de plantilla, alineamos código y tipo de propiedad, y limpiamos caché para que las specs se rendericen de verdad.",
+  },
+  "bitrix-admin": {
+    title: "¿No entras en Bitrix?",
+    text: "Ordenamos `/bitrix/admin` y el reset de contraseña — sin confundirlo con la barra on-site.",
+  },
+  "bitrix-plyusy-minusy": {
+    title: "¿Eligiendo Bitrix — o con dudas?",
+    text: "Desglosamos pros, contras y TCO — sin rankings de 2017 ni el mito de «CMS = primera página».",
+  },
+  "yandeks-auditorii": {
+    title: "¿Perdido en las audiencias de Direct?",
+    text: "Ordenamos segmentos, Crypta y remarketing — sin el «+35% de conversión» de otros.",
+  },
+  "obzor-cms": {
+    title: "¿Eligiendo un CMS para un sitio?",
+    text: "Encajamos el trabajo y el TCO entre motores populares — sin un ranking eterno de «número uno».",
+  },
+  "obratnyy-zvonok": {
+    title: "¿Necesitas un callback desde el sitio?",
+    text: "Proponemos formulario o widget y medición en Metrica — sin popups agresivos.",
+  },
+  "skachat-stories-instagram": {
+    title: "¿Guardando Stories?",
+    text: "Cubrimos archivo y Highlights para las tuyas — sin un catálogo de downloaders dudosos.",
+  },
+  "idei-storis-vk": {
+    title: "¿Necesitas ideas para Stories de VK?",
+    text: "Armamos formatos de nicho — sin challenges vacíos «para miles de views».",
+  },
+  "aktivnost-vk": {
+    title: "¿Revisando logins o el ER del grupo en VK?",
+    text: "Separamos sesiones de seguridad de stats de comunidad — sin pánico por la IP.",
+  },
+  "ohvat-instagram": {
+    title: "¿No sabes dónde se fue el alcance?",
+    text: "Desglosamos alcance vs impresiones y crecimiento white-hat — sin bots ni garantías falsas.",
+  },
+  vzaimopiar: {
+    title: "¿Negociando promo mutua?",
+    text: "Ayudamos con formato y partners — sin exchanges grises de fake engagement.",
+  },
+  "otlozhennyy-posting-instagram": {
+    title: "¿Necesitas una cola de posts en Instagram?",
+    text: "Montamos el plan y los huecos — sin auto-posters grises ni robar contenido ajeno.",
+  },
+  "privetstvie-vk": {
+    title: "¿El saludo de la comunidad VK se siente plano?",
+    text: "Redactamos el primer paso para invitados — sin pop-ups spam ni promesas de que un widget solo hace crecer el grupo.",
+  },
+  "generator-nikov": {
+    title: "¿Atascado eligiendo un username libre?",
+    text: "Ayudamos a elegir un handle de marca legible — sin compras a resellers ni mitos de «libre en todas partes».",
+  },
+  "ohvat-podpischikov-vk": {
+    title: "¿Alcance de followers atascado mientras la base es grande?",
+    text: "Desglosamos la entrega a tu audiencia — sin likes falsos ni trucos de «compra 50k».",
+  },
+  "podpis-foto-instagram": {
+    title: "¿Los captions bajo las fotos se sienten vacíos?",
+    text: "Atamos el copy al frame y al tono — sin 30 hashtags al azar ni clichés de género.",
+  },
+  "spam-vk": {
+    title: "¿Spam inundando los mensajes de VK?",
+    text: "Ayudamos a cerrar privacy y recuperar el acceso — sin herramientas grises de bulk-mail «para crecer».",
+  },
+  "url-youtube": {
+    title: "¿El enlace del canal sigue pareciendo un cifrado de ID?",
+    text: "Dejamos un @handle legible y lo sincronizamos en todas partes — sin capturas obsoletas de Studio.",
+  },
+  "vovlechennost-instagram": {
+    title: "¿El ER se ve bajo y el feed en silencio?",
+    text: "Elegimos una fórmula y crecemos reacciones — sin likes falsos ni el mito del «3% obligatorio».",
+  },
+  "soobshhestva-vk": {
+    title: "¿No sabes qué formato de comunidad VK elegir?",
+    text: "Emparejamos público, grupo o evento con el objetivo — sin bots el día uno ni garantías de crecimiento.",
+  },
+  "keisy-facebook-ads": {
+    title: "¿Los casos de Meta Ads impresionan pero no aclaran?",
+    text: "Convertimos la mecánica en tu checklist — sin copiar el ROI de otro como promesa.",
+  },
+  "zakazchiki-kopiraytera": {
+    title: "¿Buscas clientes de copywriting sin dumping?",
+    text: "Afinamos portfolio y pitches — sin blasts de spam ni catálogos obsoletos de grupos freelance.",
+  },
+  "nayti-cheloveka-instagram": {
+    title: "¿No encuentras a alguien en Instagram?",
+    text: "Mapeamos username, búsqueda y contactos — sin servicios dudosos de «deanonymizer».",
+  },
+  "post-facebook": {
+    title: "¿Publicar en Facebook se siente un lío?",
+    text: "Elegimos la superficie y el formato — sin capturas obsoletas de botones ni boostear posts vacíos.",
+  },
+  "video-stories-instagram": {
+    title: "¿El vídeo de Stories se ve suave tras subir?",
+    text: "Preparamos 9:16 y un CTA claro — sin downloaders grises de Stories ajenas.",
+  },
+  "udalenie-akkaunta-instagram": {
+    title: "¿Cierras Instagram y no sabes qué camino?",
+    text: "Separamos pausa, pasar a personal y borrado completo — antes de confirmar algo irreversible.",
+  },
+  "geymifikatsiya-socseti": {
+    title: "¿Quieres engagement sin cazadores de premios?",
+    text: "Elegimos una mecánica nativa para tu audiencia — sin spam de «repost and win» ni bots grises.",
+  },
+  "arhiv-instagram": {
+    title: "¿Necesitas ordenar la grid sin borrar?",
+    text: "Mostramos archive vs delete vs archive de Stories — para que los posts valiosos sigan recuperables.",
+  },
+  "ssylka-stories-instagram": {
+    title: "¿Sigues buscando el swipe-up en Stories?",
+    text: "Configuramos el sticker Link y fallbacks — sin apps grises de «desbloqueo a 10k».",
+  },
+  "zarabotok-gruppy-vk": {
+    title: "¿Quieres vender ads en tu grupo de VK?",
+    text: "Armamos un media kit honesto y un precio — sin bots ni «100k garantizados por post».",
+  },
+  "neskolko-stories-instagram": {
+    title: "¿La serie de Stories se siente un lío o a medias?",
+    text: "Fijamos el orden de frames y un hook en el first screen — sin emuladores grises ni frames vacíos de spam.",
+  },
+  emodzi: {
+    title: "¿Los emoji ayudan o solo ensucian la oferta?",
+    text: "Ajustamos el tono a la audiencia — sin mitos de ranking ni spam de Title por un clic.",
+  },
+  "vovlechennost-socseti": {
+    title: "¿Audiencia en silencio en las redes?",
+    text: "Crecemos el diálogo con palancas blancas — sin likes falsos ni un culto al «ER normal».",
+  },
+  "sekretnyy-chat-telegram": {
+    title: "¿Necesitas un chat secreto de Telegram sin mitos?",
+    text: "Separamos el modo E2E de los chats cloud — sin ilusiones de «escudo absoluto».",
+  },
+  pinterest: {
+    title: "¿No sabes si Pinterest encaja en el funnel?",
+    text: "Montamos boards y enlaces de pins para tráfico — sin imágenes robadas ni mitos de «pin bonito = ventas».",
+  },
+  "vtoroy-akkaunt-instagram": {
+    title: "¿Necesitas un segundo Instagram sin mezclar feeds?",
+    text: "Separamos roles personal y marca — sin multi-clients grises ni páginas extra vacías.",
+  },
+  "prosmotry-stories-instagram": {
+    title: "¿Las views de Stories atascadas pese a una base grande?",
+    text: "Arreglamos el primer frame y el diálogo — sin comprar views ni «diez stories al día» vacías.",
+  },
+  "promo-instagram": {
+    title: "¿Confundes Promote con un descuento de tienda?",
+    text: "Montamos un boost de test con un objetivo — tras una oferta clara, no en lugar de Ads Manager.",
+  },
+  "zakrytyy-akkaunt-instagram": {
+    title: "¿Cuenta privada vs borrar — mezclado?",
+    text: "Mapeamos settings de privacy para perfiles personal o marca — sin «hacks» falsos.",
+  },
+  "prosmotr-zakrytogo-akkaunta": {
+    title: "¿Necesitas contenido de un perfil privado?",
+    text: "Planificamos un camino de request y diálogo — sin viewers dudosos ni cuentas falsas.",
+  },
+  "sohranenie-efira-instagram": {
+    title: "¿Terminó el Live y desapareció la grabación?",
+    text: "Montamos un flujo de guardar y reutilizar — sin herramientas dudosas de «download any Live».",
+  },
+  "muzyka-stories-instagram": {
+    title: "¿Falta el sticker de música o no están claros los derechos?",
+    text: "Elegimos un camino legal de sonido para Stories — sticker o editor, sin phishing de contraseña.",
+  },
+  "rekomendatsii-tiktok": {
+    title: "¿For You no crece más allá de un pool de test diminuto?",
+    text: "Afinamos el hook y el watch-through — sin likes falsos ni listas de hashtags de 2020.",
+  },
+  "nazvanie-auditorii-instagram": {
+    title: "¿Saved audiences un lío de nombres-slogan?",
+    text: "Fijamos una plantilla de naming para segmentos — geo, fuente, objetivo — legible un mes después.",
+  },
+  "nastroika-reklamy-instagram": {
+    title: "¿Promote no basta para un sistema completo de campaña?",
+    text: "Cableamos Meta Ads con placements de Instagram, un objetivo y un presupuesto de test claro.",
+  },
+  "reklama-tiktok": {
+    title: "¿Listo para testear TikTok Ads sin mitos de presupuesto de 2020?",
+    text: "Montamos un creativo vertical, un objetivo y límites desde Ads Manager — no desde artículos viejos.",
+  },
+  "baza-email-socseti": {
+    title: "¿Los followers crecen pero la lista de email sigue vacía?",
+    text: "Montamos un landing de subscribe con consentimiento y UTM en todas las redes — sin scraping.",
+  },
+  "verifikatsiya-instagram": {
+    title: "¿Persigues el check azul por reach — o por protección del nombre?",
+    text: "Mapeamos verificación oficial vs Meta Verified — sin intermediarios que vendan «badges llave en mano».",
+  },
+  "naym-smm": {
+    title: "¿Contratas SMM por capturas bonitas?",
+    text: "Montamos una prueba de audit corta y KPIs ligados a leads — sin garantías de primera página ni entrega de contraseñas.",
+  },
+  "vremya-posta-instagram": {
+    title: "¿Sigues publicando con una tabla de «mejor hora» de 2019?",
+    text: "Elegimos huecos con tus insights y un test de dos semanas — primero el contenido, después el timing.",
+  },
+  "inflyuenser-marketing": {
+    title: "¿Pagas a creadores porque «todo el mundo hace influencers»?",
+    text: "Armamos shortlist de micros del nicho con ER vivo y un test con código promo — antes de escalar el gasto.",
+  },
+  "vidy-kontenta-socseti": {
+    title: "¿Feed atrapado entre ventas sin fin y memes vacíos?",
+    text: "Mapeamos cinco tipos de contenido en un mix de dos semanas — adaptado por plataforma, medido por replies.",
+  },
+  "triggernye-rassylki": {
+    title: "¿Sigues mandando el mismo digest mientras los carritos se enfrían?",
+    text: "Montamos triggers de welcome y carrito abandonado con consentimiento — antes de diez cadenas complejas.",
+  },
+  "chat-bot-vk": {
+    title: "¿Comunidad VK ahogada en el mismo FAQ cada día?",
+    text: "Scriptamos un bot de FAQ + leads con salida a operador — sin blasts de spam.",
+  },
+  "idei-stories-instagram": {
+    title: "¿Las Stories se sienten vacías sin plantillas de pago?",
+    text: "Armamos un mix semanal — intro, FAQ, encuestas, CTA suave — medido por replies, no por frames bonitos.",
+  },
+  "heshtegi-instagram": {
+    title: "¿Sigues metiendo 30 hashtags por una promesa de «descubrimiento»?",
+    text: "Elegimos un mix corto de nicho más geo donde ayuda — y revisamos Insights en dos semanas.",
+  },
+  "smm-strategiya": {
+    title: "¿Actividad en redes sin objetivo de negocio?",
+    text: "Fijamos un objetivo mensual, tres tareas con owner y un corte a las dos semanas de lo que no mueve la métrica.",
+  },
+  "teksty-uzkaya-tematika": {
+    title: "¿Copy de nicho que suena genérico — o desactualizado en los hechos?",
+    text: "Reescribimos para principiantes con fuentes fechadas y expertise real — sin «experiencia personal» inventada.",
+  },
+  "video-obzor-tovara": {
+    title: "¿Fichas solo con fotos — y las devoluciones no paran?",
+    text: "Guionamos reviews cortos para los SKUs más vendidos y los colocamos junto a añadir al carrito — medido por conversión, no por «cine».",
+  },
+  "zashchita-kontenta": {
+    title: "¿Copias de tus artículos aparecen en otros dominios?",
+    text: "Montamos monitoreo, prueba de publicación y un playbook de retirada — no solo desactivar el clic derecho.",
+  },
+  "matritsa-kontenta": {
+    title: "¿Calendario de publicación lleno — y huecos del journey aún vacíos?",
+    text: "Mapeamos persona × etapa × objetivo × canal y cerramos los huecos antes de las fechas del mes siguiente.",
+  },
+  "videokontent": {
+    title: "¿Necesitas vídeo pero no sabes qué formato ayuda de verdad?",
+    text: "Elegimos un trabajo del funnel, guionamos un clip corto con CTA y decidimos in-house vs vendor según el resultado.",
+  },
+  "bystree-pisat-stati": {
+    title: "¿Los artículos tardan una eternidad — y la calidad sigue cayendo?",
+    text: "Fijamos brief, outline de H2 y un ritmo borrador-luego-edición para subir el ritmo sin más rework.",
+  },
+  "longrid": {
+    title: "¿Necesitas profundidad que la gente termine de verdad — no un muro de texto?",
+    text: "Damos forma a una historia investigada con estructura, layout y un CTA que no rompe la lectura.",
+  },
+  "struktura-stati": {
+    title: "¿Artículos que se escanean mal — o H2s solo por «SEO»?",
+    text: "Reconstruimos el outline alrededor de las preguntas del lector para que los headings encajen con los bloques — no keyword stuffing.",
+  },
+  "stranitsa-kontaktov": {
+    title: "¿Contactos enterrados en el header — o NAP desincronizado?",
+    text: "Limpiamos una página de Contactos dedicada: alcance clicable, horarios, mapa y NAP alineado en todo el sitio.",
+  },
+  "prizyv-k-deystviyu": {
+    title: "¿Página fuerte — pero la petición es vaga o agresiva?",
+    text: "Escribimos un CTA primario con un beneficio real, lo colocamos en el momento de decisión y medimos clics.",
+  },
+  "idei-kontent-prodvizheniya": {
+    title: "¿Necesitas temas de blog que encajen con demanda real — no con trends?",
+    text: "Convertimos preguntas de clientes en how-tos, guías y reviews honestos atados a tu matriz de contenido.",
+  },
+  "temy-dlya-statey": {
+    title: "¿Página en blanco cada semana — y los temas de la nada?",
+    text: "Cosechamos preguntas de clientes y demanda de búsqueda en un backlog con intent — sin copy-paste de competidores.",
+  },
+  "kontentnoe-prodvizhenie": {
+    title: "¿Publicas mucho — y aún flojo en utilidad e intent?",
+    text: "Apretamos landings y una cadencia de contenido: hechos, keywords naturales, updates — sin culto al % de unicidad.",
+  },
+  "kontent-b2b": {
+    title: "¿Páginas B2B llenas de eslóganes — y flojas de prueba?",
+    text: "Sumamos reviews reales, un caso medible y un path de contacto que responde en horario laboral.",
+  },
+  "kartinki-seo": {
+    title: "¿Banners de stock frenan la página — y el alt lleno de keywords?",
+    text: "Cambiamos a visuals propios/IA, comprimimos para CWV y fijamos alt, captions y og:image alineados a la oferta.",
+  },
+  "klyuchi-yandeks-direkt": {
+    title: "¿La lista de keywords de Direct crece — y aún sin objetivo ni KPI claros?",
+    text: "Dimensionamos sets de Búsqueda vs YAN a un landing y CPA/ROAS — no un conteo mágico de frases.",
+  },
+  "mediaplan": {
+    title: "¿Ads en cinco plataformas — y sin tabla compartida de objetivos?",
+    text: "Armamos un media plan ligero: 1–2 canales de test, presupuesto, KPI y fecha de review antes de escalar.",
+  },
+  "zabluzhdeniya-konteksta": {
+    title: "¿Brief de PPC lleno de mitos de «posición 1 o nada»?",
+    text: "Fijamos KPI y CPA, soltamos estereotipos dañinos y escalamos solo tras un test estable — no sueños de presupuesto lineal.",
+  },
+  "moderatsiya-facebook-ads": {
+    title: "¿Ads de Meta rechazados — o aprobados con delivery cero?",
+    text: "Corregimos hits de policy en la creatividad y luego chequeamos puja y overlap de audiencia antes de gastar otro appeal.",
+  },
+  "target-vk": {
+    title: "¿Test de VK Ads repartido en todos los intereses y formatos?",
+    text: "Fijamos un formato, una audiencia estrecha, pixel si hace falta y un tope diario — expandimos solo cuando el CPA aguanta.",
+  },
+  "tipy-kampaniy-google-ads": {
+    title: "¿Encendiendo todos los tipos de Google Ads a la vez?",
+    text: "Elegimos 1–2 tipos de campaña por rol en el funnel, separamos marca del core y testeamos antes de repartir el gasto.",
+  },
+  "analiz-konkurentov-kontekst": {
+    title: "¿Lanzar búsqueda de pago sin saber quién está en la subasta?",
+    text: "Mapeamos 3–7 competidores de pago: keywords, anuncios, landings y huecos de USP — y dimensionamos el test con tu CPA.",
+  },
+  "moderatsiya-meditsina": {
+    title: "¿Anuncios de salud rechazados — y el sitio sigue con claims de bandera roja?",
+    text: "Alineamos licencias, copy neutro y Search vs redes antes de gastar en otro ciclo de reenvío.",
+  },
+  "podryadchik-kontekst": {
+    title: "¿Muchos clics de la agencia — y aún sin una historia clara de CPA?",
+    text: "Fijamos acceso, definición de lead e informe mensual de hipótesis para que controles resultados — no capturas bonitas.",
+  },
+  "oshibki-nastroyki-konteksta": {
+    title: "¿Escalando presupuesto — y Search y redes siguen en el mismo lío?",
+    text: "Cerramos primero extensiones, geo, landing y objetivos para que no discutas «más keywords» sobre un setup roto.",
+  },
+  "bidder": {
+    title: "¿Auto-pujas 24/7 — y aún sin control de CPA?",
+    text: "Decidimos si un bidder supera las estrategias nativas, fijamos límites y derechos API, y comparamos KPI before/after en un test duro.",
+  },
+  "klassifikatsiya-zaprosov": {
+    title: "¿Persiguiendo keywords de alta frecuencia — sin etiquetar intent?",
+    text: "Marcamos info vs comercial vs navegacional en tu núcleo para que cada cluster tenga la página correcta — no una URL fina para todo.",
+  },
+  "rasshirenie-tseny-google": {
+    title: "¿Anuncios sin precio — mientras los competidores lo muestran en el SERP?",
+    text: "Sincronizamos precios honestos con la landing, elegimos el tipo correcto de extensión de precio y testeamos CTR/CPA antes de escalar.",
+  },
+  "brif-kontekst": {
+    title: "¿Lanzar anuncios — con «crecer ventas» como único KPI?",
+    text: "Fijamos objetivo, presupuesto de test, geo, USP y definición de lead en una página para que los informes no se conviertan en echar culpas.",
+  },
+  "malo-pokazov": {
+    title: "¿«Pocas impresiones» en la mitad de los grupos — borrando todo el long tail?",
+    text: "Exportamos el estado, fusionamos keywords LF relacionadas y limpiamos negativos de más para que la demanda vuelva a acumularse.",
+  },
+  "formaty-izobrazheniy-rsya": {
+    title: "¿Una creatividad cuadrada para cada hueco de YAN?",
+    text: "Encajamos la Help de tamaños actual, añadimos los ratios que faltan a la campaña de redes activa y etiquetamos formatos para que el alcance no muera.",
+  },
+  "auktsion-direkt": {
+    title: "¿Subiendo pujas otra vez — mientras anuncio y landing siguen perdiendo en calidad?",
+    text: "Arreglamos primero negativos, creatividades y la matemática de CPA para que compitas en la subasta sin un «prop» de guerra de precios.",
+  },
+  "vybor-domena": {
+    title: "¿Eligiendo un dominio que dictarás años — y aún adivinando la ortografía?",
+    text: "Revisamos zona, unicidad, claridad al dictarlo e historial para que el nombre ayude al marketing en lugar de confundir a los clientes.",
+  },
+  "instrumenty-marketologa": {
+    title: "¿Diez herramientas freemium — y aún sin un stack claro para tus KPI?",
+    text: "Elegimos un set mínimo: analítica, ESP, research, encuestas, tareas — piloto de límites gratis antes de pagar para ampliar.",
+  },
+  "email-strategiya": {
+    title: "¿Enviando plantillas bonitas — sin un mapa de objetivos y segmentos?",
+    text: "Auditamos la lista, fijamos oferta y segmentos, y pilotoamos un welcome más triggers antes de escalar la frecuencia.",
+  },
+  "tekst-email-rassylki": {
+    title: "¿Diseño pulido — pero el email sigue sin un siguiente paso claro?",
+    text: "Fijamos un objetivo, el lenguaje de la audiencia y un checklist previo al envío para que el copy persuada en lugar de llenar la bandeja.",
+  },
+  "email-dlya-biznesa": {
+    title: "¿No sabes si el email encaja con tu servicio, producto o ciclo B2B?",
+    text: "Mapeamos toques repetidos, opt-in y personas para que no lances un blast donde el canal no puede ayudar.",
+  },
+  "verstka-email": {
+    title: "¿Se ve perfecto en Chrome — y roto en Outlook y en móvil?",
+    text: "Rehacemos un marco de tablas, CSS crítico inline y pruebas en clientes para que el envío no sea una lotería de layout.",
+  },
+  "oformlenie-email": {
+    title: "¿Email bonito — pero la oferta y el CTA siguen perdiéndose?",
+    text: "Arreglamos jerarquía, estilo de serie y oferta above-the-fold para que el diseño ayude al CTR en lugar de pelear con la bandeja.",
+  },
+  "push-uvedomleniya": {
+    title: "¿Push cada hora — y los suscriptores pulsan Block?",
+    text: "Fijamos el momento del permiso, copy corto y límites de frecuencia para que el push empuje en lugar de molestar.",
+  },
+  "uderzhanie-podpischikov": {
+    title: "¿Suben las bajas — y la lista se siente muerta?",
+    text: "Arreglamos calidad del toque, frecuencia y una página de opt-out honesta para que la base se quede más pequeña pero más fuerte.",
+  },
+  "otzyv-2gis": {
+    title: "¿Reseña negativa en 2GIS — y «borrarlo todo» no funciona?",
+    text: "Mapeamos respuesta, diálogo con el autor y reportes basados en reglas para que no cargues el listing en pánico.",
+  },
+  "geotargeting-direkt": {
+    title: "¿Geo de Direct demasiado amplio — presupuesto filtrándose a otras ciudades?",
+    text: "Ajustamos regiones de search vs redes y el geotargeting avanzado para que pagues por gente a la que realmente puedes servir.",
+  },
+  "chat-telegram": {
+    title: "¿Necesitas un grupo de Telegram — sin convertirlo en caos de spam?",
+    text: "Fijamos privacidad, derechos de admin y reglas fijadas para que el chat sirva al equipo o a los clientes, no al ruido.",
+  },
+};
+
+const articleCtaEsFallback = {
+  title: "¿Hablamos de tu proyecto?",
+  text: "Cuéntanos la tarea — te decimos qué tiene sentido hacer primero.",
+};
+
 export function getArticleCtaLocale(
   post: BlogPost,
   locale: Locale,
   fallback: { title: string; text: string },
 ): { title: string; text: string } {
   if (locale === "en") return articleCtaEn[post.slug] ?? fallback;
+  if (locale === "es") return articleCtaEs[post.slug] ?? articleCtaEsFallback;
   return fallback;
 }

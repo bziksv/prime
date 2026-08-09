@@ -109,3 +109,113 @@ export const agregatoryKontentaEn: BlogPost = {
     "viralnyy-kontent",
   ],
 };
+
+/** ES overlay for agregatory-kontenta — same structure as RU JSON / EN. */
+export const agregatoryKontentaEs: BlogPost = {
+  slug: "agregatory-kontenta",
+  title: "Agregadores de contenido: qué son, por qué importan y cómo funcionan",
+  date: "2017-12-29",
+  category: "Digital marketing",
+  cover: "/images/blog/agregatory-kontenta/cover.webp",
+  excerpt:
+    "Qué son los agregadores de contenido, por qué se usan, qué tipos hay y qué vigilar en el lanzamiento: arquitectura, fuentes, SEO y valor para el usuario — sin promesas de «primera página en un mes».",
+  lead: [
+    "Un agregador de contenido reúne información de distintos sitios y plataformas (a veces también fuentes offline) y la sirve en forma cómoda: feed, comparación, filtros, personalización.",
+    "Abajo: por qué estos servicios son populares, qué nichos son típicos y qué importa al lanzar el tuyo. Recoge materiales ajenos solo dentro de la ley y acuerdos con fuentes — «scrapearlo todo» arriesga reclamaciones y sanciones de plataforma.",
+  ],
+  faq: [
+    {
+      q: "¿Un agregador es solo copy-paste de artículos ajenos?",
+      a: "No. Un modelo maduro usa snippets con enlace a la fuente, feeds partner, licencias o tu propio procesamiento de datos. Republicar completo sin derechos es riesgo legal y de reputación.",
+    },
+    {
+      q: "¿En qué se diferencia un agregador de un portal habitual?",
+      a: "Un portal crea más a menudo su propio contenido. Un agregador principalmente junta muchas fuentes en una interfaz — noticias, precios, servicios, billetes.",
+    },
+    {
+      q: "¿Se puede promover un agregador en búsqueda?",
+      a: "Sí, pero la lógica difiere: cobertura amplia de respuestas, filtros, arquitectura limpia y plantillas de página útiles. Las ganancias en queries competitivas suelen llevar meses de trabajo constante tras la prep de lanzamiento — no «enviar = rankings».",
+    },
+    {
+      q: "¿La auto-generación de páginas es mala para SEO?",
+      a: "La generación vacía sin valor hace daño. Si las plantillas cubren intent real (comparar, filtrar, disponibilidad) y no generan duplicados — es una tool útil para catálogos grandes.",
+    },
+    {
+      q: "¿Debe un negocio entrar en agregadores de producto o servicio?",
+      a: "Como canal de leads — a menudo sí si la unit economics funciona. Como única estrategia de marca — débil: la dependencia de plataforma y las fees son altas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué importan y cómo funcionan",
+      level: 2,
+      paras: [
+        "El volumen de información crece más rápido que el tiempo de lectura. Los agregadores ahorran búsqueda: una interfaz en vez de una docena de pestañas. Afirmaciones como «un quinto del tiempo se va en buscar» de reviews viejas son guías de orden de magnitud — no una norma para tu audiencia.",
+        "Mecánica típica: un crawler/parser o feed partner recorre fuentes, normaliza datos y publica una ficha con enlace. A veces el contenido llega por acuerdo — la fuente necesita tráfico, el agregador cobertura.",
+        "Para el usuario, el valor es velocidad, comparación y personalización. Para el dueño — audiencia y monetización (ads, CPA, suscripción, comisión). Sin UX de filtros y comparación, un «almacén de enlaces» rara vez retiene gente.",
+        "Un marco legal es obligatorio: derechos sobre textos y fotos, reglas de cita, contratos con proveedores de datos. Ignorar copyright rompe el producto y la reputación SEO.",
+      ],
+      lists: [
+        {
+          intro: "Valor para la audiencia:",
+          items: [
+            "menos tiempo buscando en el nicho",
+            "estructura y filtros",
+            "comparación de ofertas",
+            "feeds personales — donde encajan",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Llenar un sitio de contenido",
+          href: "/es/blog/napolnenie-sayta/",
+        },
+        {
+          label: "Contenido interactivo",
+          href: "/es/blog/interaktivnyy-kontent/",
+        },
+      ],
+    },
+    {
+      title: "Tipos de agregador y lanzamiento",
+      level: 2,
+      paras: [
+        "Noticias — feeds y pilares de contenido, monetización más a menudo vía ads; el valor es velocidad y navegación fácil, no «shock a cualquier precio».",
+        "Agregadores de producto y precio — comparan precios y disponibilidad; para tiendas es un canal, para la plataforma — calidad del feed y términos justos. Agregadores de descuentos/cupones, billetes y servicios siguen la misma lógica: juntar ofertas y simplificar la elección.",
+        "Promover un agregador difiere de un blog: cubres un rango de opciones, no un artículo profundo. Hace falta arquitectura fuerte de secciones, filtros para escenarios long-tail, plantillas de auto-páginas con cuidado y enlazado interno sin agujeros para bots y gente.",
+        "Modela el riesgo financiero: los proveedores quieren leads al momento, mientras la plataforma aún necesita construir tráfico. Presupuesta tiempo para producto y marketing; la visibilidad en búsqueda crece de mes a mes — a menudo en el rango de 2–6 meses tras el inicio del trabajo, no el día del release.",
+        "En resumen: un agregador gana por valor — filtros, comparación, fuentes honestas y arquitectura para queries reales. Recolectar por volumen sin UX ni derechos es un camino corto a páginas vacías y reclamaciones.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de lanzamiento:",
+          items: [
+            "derechos/acuerdos para fuentes",
+            "filtros y comparación — no solo una lista",
+            "plantillas de página con SEO básico",
+            "enlaces internos y mapa de secciones",
+            "métricas: retención, clic a la fuente, conversión a lead",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Análisis de competidores",
+          href: "/es/blog/analiz-konkurentov/",
+        },
+        {
+          label: "Usabilidad web",
+          href: "/es/blog/yuzabiliti/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "napolnenie-sayta",
+    "interaktivnyy-kontent",
+    "analiz-konkurentov",
+    "yuzabiliti",
+    "viralnyy-kontent",
+  ],
+};

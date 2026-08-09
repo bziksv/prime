@@ -160,3 +160,164 @@ export const bitrixAdminEn: BlogPost = {
     "adminka-sayta",
   ],
 };
+
+/** ES overlay for bitrix-admin — same structure as RU JSON / EN. */
+export const bitrixAdminEs: BlogPost = {
+  slug: "bitrix-admin",
+  title: "Cómo abrir el admin de 1C-Bitrix y recuperar el acceso",
+  date: "2017-11-09",
+  category: "Digital marketing",
+  cover: "/images/blog/bitrix-admin/cover.webp",
+  excerpt:
+    "Entrar en `/bitrix/admin`, restablecer la contraseña por email y fallos de caché/cookies — sin mantener una contraseña débil y sin confundirlo con la barra del sitio público.",
+  lead: [
+    "El admin de 1C-Bitrix suele abrirse en `https://tu-sitio.ejemplo/bitrix/admin/`. Tras el login tienes infoblocks, módulos, usuarios y settings — eso no es lo mismo que la barra sobre las páginas públicas.",
+    "Abajo: cómo abrir el formulario de login, qué hacer si olvidaste la contraseña y por qué la caché y las cookies estorban. Esto no es una guía para entrar en sitios ajenos. Las etiquetas de UI cambian — sigue el formulario de auth actual.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia /bitrix/admin de la barra on-site?",
+      a: "`/bitrix/admin` es el backend completo. La barra de sección pública es edición en página tras iniciar sesión con derechos. Ver la pieza aparte sobre la sección pública.",
+    },
+    {
+      q: "¿Por qué un 404 en /bitrix/admin?",
+      a: "Otra ruta de login, el sitio no está en Bitrix, redirects HTTPS/www, un bloqueo a nivel de servidor, o el sitio está caído. Confirma la URL con el desarrollador o el host.",
+    },
+    {
+      q: "¿Se puede entrar vía Bitrix24?",
+      a: "Algunas instalaciones ofrecen login con cuenta enlazada. Si no hay botón o el enlace no está montado — usa el login y contraseña normales del usuario del sitio.",
+    },
+    {
+      q: "¿Y si el email de reset de contraseña nunca llega?",
+      a: "Revisa spam, que el email del usuario sea correcto y que el sitio pueda enviar correo (SMTP/hosting). Si no — reset vía hosting/desarrollador con backup.",
+    },
+    {
+      q: "¿Es como el login de WordPress?",
+      a: "En espíritu sí (formulario → contraseña → consola), ruta distinta: `/bitrix/admin`, no `/wp-admin/`.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo abrir el login",
+      level: 2,
+      paras: [
+        "En la barra de direcciones abre `https://tu-dominio.ejemplo/bitrix/admin/` (usa tu dominio, preferiblemente HTTPS). Deberías ver un formulario de login y contraseña.",
+        "Introduce credenciales de admin o de un usuario con acceso al admin. «Recuérdame» está bien en un dispositivo personal y es arriesgado en uno compartido.",
+      ],
+      lists: [
+        {
+          intro: "Antes de escribir la contraseña:",
+          items: [
+            "dominio correcto (www / bare, live vs staging)",
+            "layout del teclado y Caps Lock",
+            "este es tu sitio, no una copia de phishing",
+            "tu rol tiene acceso de verdad",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Sección pública de Bitrix",
+          href: "/es/blog/bitrix-publichnyy-razdel/",
+        },
+        {
+          label: "Admin de WordPress",
+          href: "/es/blog/wordpress-admin/",
+        },
+      ],
+      notes: [
+        {
+          title: "Permisos",
+          kind: "tip",
+          text: "Aunque la contraseña sea correcta, el acceso al admin puede estar cerrado por política de grupo. Entonces necesitas un rol del admin del proyecto — no adivinar contraseñas.",
+        },
+      ],
+    },
+    {
+      title: "Si olvidaste la contraseña",
+      level: 2,
+      paras: [
+        "En el formulario de login busca un enlace tipo «¿Olvidaste la contraseña?». Introduce el login o email del usuario — el sistema envía un enlace de reset al buzón del perfil.",
+        "El correo a veces cae en spam o nunca sale por los settings de mail del sitio. Entonces revisa la dirección en la ficha de usuario (si existe otro admin) o resetea el acceso vía hosting/desarrollador por proceso con backup.",
+      ],
+      lists: [
+        {
+          intro: "Orden:",
+          items: [
+            "enlace de recuperación en el formulario",
+            "bandeja de entrada + Spam",
+            "una sesión en otro dispositivo donde sigues logueado → cambiar contraseña",
+            "ayuda de hosting/desarrollador",
+            "tras el login — una contraseña fuerte nueva y revisión de admins extra",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Caché, cookies y otros fallos",
+      level: 2,
+      paras: [
+        "Si la contraseña es correcta pero el formulario se rompe o hace bucles de redirect, limpia cookies y caché del navegador o prueba una ventana de incógnito. Del lado del sitio estorban la caché de Bitrix, CDN y reglas duras de firewall.",
+        "Mezclar espejos `http`/`https` y www a veces rompe la sesión de auth — mantén un espejo canónico con 301s.",
+      ],
+      tables: [
+        {
+          caption: "Qué revisar",
+          headers: ["Síntoma", "Dónde mirar"],
+          rows: [
+            ["Credenciales incorrectas", "Layout, otro usuario, reset por email"],
+            ["Formulario vacío/viejo", "Caché del navegador, cookies, incógnito"],
+            ["Sin email", "Spam, SMTP del sitio, email en el perfil"],
+            ["404 en /bitrix/admin", "Ruta de login, CMS, acceso al servidor"],
+            ["Logueado pero sin secciones", "Permisos del grupo de usuario"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tras el login: higiene básica",
+      level: 2,
+      paras: [
+        "Cambia una contraseña débil, revisa usuarios con derechos plenos, actualiza el producto según el proceso del proyecto. Las ediciones de contenido del día a día a menudo solo necesitan la barra pública — no repartas el admin a todo el mundo.",
+        "Guarda la contraseña en un gestor de contraseñas y activa 2FA donde tu esquema de login lo permita.",
+      ],
+      links: [
+        {
+          label: "Gestor de contraseñas",
+          href: "/es/blog/menedzher-paroley/",
+        },
+        {
+          label: "SEO en 1C-Bitrix",
+          href: "/es/blog/seo-bitrix/",
+        },
+      ],
+    },
+    {
+      title: "Qué no hacer",
+      level: 2,
+      paras: [
+        "No publiques logins de clientes en chats. No dejes una contraseña compartida de «departamento». No intentes adivinar el acceso a sitios ajenos.",
+        "Resetear editando la BD a ojo sin backup es camino a downtime. Empieza por el flujo normal de recuperación y el soporte.",
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "La entrada estándar es `/bitrix/admin/`, la recuperación va por el email del usuario, los fallos a menudo vienen de caché/cookies y permisos. La barra pública es una superficie relacionada pero distinta.",
+        "Tras recuperar, endurece la cuenta enseguida y no confundas el admin con la barra on-site.",
+      ],
+    },
+  ],
+  closing: [
+    "Abre `/bitrix/admin/` en tu dominio, resetea la contraseña por email si hace falta y revisa de inmediato los derechos de usuario — entonces el admin de Bitrix vuelve a ser una herramienta de trabajo, no una quest de caché del navegador.",
+  ],
+  related: [
+    "bitrix-publichnyy-razdel",
+    "wordpress-admin",
+    "seo-bitrix",
+    "bitrix-svoystva-infoblokov",
+    "menedzher-paroley",
+    "adminka-sayta",
+  ],
+};

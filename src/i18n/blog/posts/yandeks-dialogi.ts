@@ -153,3 +153,157 @@ export const yandeksDialogiEn: BlogPost = {
     "trafik-bez-lidov",
   ],
 };
+
+/** ES overlay for yandeks-dialogi — same structure as RU JSON / EN. */
+export const yandeksDialogiEs: BlogPost = {
+  slug: "yandeks-dialogi",
+  title: "Chat con una empresa en Yandex: Dialogs y contacto desde la búsqueda",
+  date: "2018-08-15",
+  category: "Digital marketing",
+  cover: "/images/blog/yandeks-dialogi/cover.webp",
+  excerpt:
+    "Cómo funciona el chat de negocio en el ecosistema Yandex: contacto desde la búsqueda y el snippet, el rol del operador y la API — sin prometer un eterno «botón de Alice para siempre».",
+  lead: [
+    "«Chat con una empresa» en el stack de Yandex es una forma de empezar un diálogo con un negocio no solo desde el sitio, sino desde superficies de búsqueda: el snippet, escenarios relacionados del asistente de voz donde el producto sigue disponible.",
+    "Abajo: por qué ayuda a un negocio, qué hace falta para conectar y cómo no confundirlo con un widget on-site habitual. Los nombres de cabinet (históricamente Dialogs), las opciones de CMS partner y los puntos de display han cambiado desde 2018 — mira Yandex Help actual y el estado del producto en el momento de implementar.",
+  ],
+  faq: [
+    {
+      q: "¿Esto sustituye el formulario del sitio?",
+      a: "No. El chat desde la búsqueda complementa el sitio: una pregunta rápida aquí y ahora. Formularios y CRM siguen manejando leads estructurados.",
+    },
+    {
+      q: "¿Hace falta un operador de chat propio?",
+      a: "Sí — alguien debe responder en horario laboral, o montas un bot y routing. Un chat muerto duele más que no tener botón.",
+    },
+    {
+      q: "¿Solo funciona en Bitrix?",
+      a: "Históricamente había integraciones listas con varias plataformas; otras se conectaban vía API. Revisa la lista actual de partners en Help.",
+    },
+    {
+      q: "¿El chat se muestra para cada sitio en los resultados?",
+      a: "No. Hace falta conexión, moderación / encaje con reglas y condiciones de display. No toda URL recibe un botón automáticamente.",
+    },
+    {
+      q: "¿En qué se diferencia de Jivo o Carrot?",
+      a: "Un widget de terceros vive en tu dominio. Yandex Dialogs es también un canal del ecosistema de búsqueda; Yandex fija las reglas y los puntos de entrada.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué un negocio quiere chat desde la búsqueda",
+      level: 2,
+      paras: [
+        "Parte de la demanda se cierra antes de visitar el sitio: «¿hay stock?», «¿cuánto cuesta el envío?», «¿abren hoy?». Si puedes responder desde los resultados, acortas el camino al contacto.",
+        "El canal ayuda especialmente a servicios y negocios locales con ciclo de venta corto. En B2B complejo con propuesta larga, el chat es una entrada — no un sustituto del manager y un formulario de brief.",
+      ],
+      lists: [
+        {
+          intro: "Cuando el canal merece la atención:",
+          items: [
+            "alguien responde en horas pico",
+            "las preguntas típicas se cierran en una a tres respuestas",
+            "los leads van al CRM, no se pierden en DMs",
+            "el sitio ya tiene política de privacidad y oferta",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Formularios de captura de leads",
+          href: "/es/blog/formy-zahvata/",
+        },
+        {
+          label: "Formulario de contacto",
+          href: "/es/blog/forma-obratnoy-svyazi/",
+        },
+      ],
+    },
+    {
+      title: "Dónde puede aparecer el botón",
+      level: 2,
+      paras: [
+        "Los anuncios de 2018 mencionaban el snippet de búsqueda y escenarios del asistente (Alice). Las superficies se han reducido y ampliado desde entonces — no trates un screenshot viejo como garantía de display.",
+        "Señal práctica: conecta el canal → comprueba si aparece una opción de contacto en tus queries comerciales y en la ficha de organización si está ligada al sitio.",
+      ],
+      notes: [
+        {
+          title: "Estado del producto",
+          text: "La línea Dialogs / chat-with-company ha evolucionado. Antes de desarrollar, confirma en Yandex Help qué puntos de entrada y APIs están vivos ahora mismo.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Cómo se conectaba — y qué revisar ahora",
+      level: 2,
+      paras: [
+        "Camino clásico: cuenta Yandex → cabinet Dialogs o de chat de negocio → chat ID único → embed en CMS o pasar a un integrador. Algunas plataformas tenían módulos listos; otras usaban la API.",
+        "Si tu proveedor de chat aún no habla el canal de Yandex, pregunta por un hookup listo o webhooks. No prometas a un cliente un «botón en los resultados mañana» sin comprobar elegibilidad.",
+      ],
+      lists: [
+        {
+          intro: "Checklist antes de activarlo:",
+          items: [
+            "operador con nombre y horario",
+            "scripts para respuestas típicas",
+            "paso de leads a CRM o email",
+            "consentimiento de datos personales en el flujo",
+            "test desde un smartphone y un PC reales",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Yandex Webmaster",
+          href: "/es/blog/yandeks-vebmaster/",
+        },
+        {
+          label: "Directorio de negocios de Yandex",
+          href: "/es/blog/yandeks-spravochnik/",
+        },
+      ],
+    },
+    {
+      title: "Operador, bot y calidad del diálogo",
+      level: 2,
+      paras: [
+        "Un botón sin SLA de respuesta daña la confianza más que su ausencia. Fija tiempo de primera respuesta, escalado a humano y una prohibición de copy-paste «te llamamos» sin siguiente paso.",
+        "Los bots cubren FAQ; los pedidos complejos van a una persona de inmediato. Los logs de diálogo alimentan el FAQ del sitio e ideas de keywords para ads.",
+      ],
+    },
+    {
+      title: "Chat de búsqueda vs widget on-site",
+      level: 2,
+      paras: [
+        "Tú controlas el widget on-site: diseño, flujos, A/B. El canal de Yandex añade un punto de entrada pero depende de reglas de plataforma y moderación.",
+        "Mejor base: formulario más messenger o widget en el sitio; chat de búsqueda solo si el producto está disponible y el equipo puede responder. No spawnes cinco chats con colas distintas y sin CRM compartido.",
+      ],
+      links: [
+        {
+          label: "CRM",
+          href: "/es/blog/crm/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Chat con una empresa en Yandex es un canal de diálogo del ecosistema de búsqueda — no un icono más por moda.",
+        "Conecta solo con un proceso de respuesta y una revisión del estado actual del producto; un anuncio fino de 2018 solo no es un setup.",
+      ],
+    },
+  ],
+  closing: [
+    "Revisa Yandex Help actual para ver si el chat con una empresa está disponible para tu tipo de sitio, asigna operador y CRM — y solo entonces embebe el chat ID en tu CMS o vía API.",
+  ],
+  related: [
+    "formy-zahvata",
+    "forma-obratnoy-svyazi",
+    "yandeks-vebmaster",
+    "yandeks-spravochnik",
+    "crm",
+    "trafik-bez-lidov",
+  ],
+};

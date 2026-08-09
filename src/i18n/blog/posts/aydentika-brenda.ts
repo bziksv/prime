@@ -170,3 +170,174 @@ export const aydentikaBrendaEn: BlogPost = {
     "brendovyy-trafik",
   ],
 };
+
+/** ES overlay for aydentika-brenda — same structure as RU JSON / EN. */
+export const aydentikaBrendaEs: BlogPost = {
+  slug: "aydentika-brenda",
+  title: "Identidad de marca: color, tipografía, forma y brand book",
+  date: "2019-12-06",
+  category: "Digital marketing",
+  cover: "/images/blog/aydentika-brenda/cover.webp",
+  excerpt:
+    "Qué es la identidad de marca, en qué se diferencia del branding y del estilo corporativo, cuál es la base (color, tipografía, forma) y cómo construirla sin caos en los soportes.",
+  lead: [
+    "La identidad de marca es el sistema de señales visuales y de sentido que hacen reconocible una marca sin pista: nombre, logo, colores, tipografías, formas y reglas en un brand book. No es «una imagen para el sitio», sino un set de elementos en soportes — del rótulo al avatar.",
+    "Abajo: de qué está hecha la base, en qué se diferencia la identidad del branding y del estilo corporativo, y cómo suele desarrollarse por etapas. Promocionar la marca en canales es un tema vecino; aquí es el look reconocible.",
+  ],
+  faq: [
+    {
+      q: "¿La identidad de marca es solo el logo?",
+      a: "El logo es parte. También hacen falta paleta, tipografía, formas, tono y reglas de aplicación en soportes.",
+    },
+    {
+      q: "¿En qué se diferencia la identidad del estilo corporativo?",
+      a: "El estilo corporativo suele ser el set visual. La identidad es más amplia: naming, valores expresados en soportes y un sistema para gestionar el look (brand book).",
+    },
+    {
+      q: "¿Y el branding?",
+      a: "El branding trabaja la percepción y el posicionamiento en conjunto. La identidad es la herramienta que hace esa percepción reconocible visualmente y por sensación.",
+    },
+    {
+      q: "¿Un negocio pequeño necesita identidad completa?",
+      a: "No siempre «a escala corporativa». Un mínimo es nombre, logo, 2–3 colores, tipografías y reglas de «cómo no romperlo». La escala crece con los canales.",
+    },
+    {
+      q: "¿Para qué sirve un brand book?",
+      a: "Para que contratistas y equipo no dibujen cada uno «su propia marca». Dentro — misión/tono (si hace falta), visuales e instrucciones de aplicación.",
+    },
+    {
+      q: "¿Se pueden copiar los colores de otra marca?",
+      a: "Mala idea: confusión y riesgo legal. Toma referencias de mood y sentido — no la marca y paleta ajenas uno a uno.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué incluye la identidad",
+      level: 2,
+      paras: [
+        "El set clásico: naming, logo, estilo corporativo (sistema visual), brand book con reglas. De ahí salen soportes: sitio, packaging, rótulos, decks, merch, avatares — todo lo que un cliente ve o toca.",
+        "Una identidad fuerte funciona incluso sin texto: silueta, color y carácter de forma ya nombran la marca. A los negocios pequeños a menudo les basta un set magro pero coherente.",
+      ],
+      lists: [
+        {
+          intro: "Por qué lo necesita el negocio:",
+          items: [
+            "reconocimiento cuando cambian canales y ofertas",
+            "diferenciación frente a competidores",
+            "un ancla emocional",
+            "sensación de empresa «seria»",
+            "transmitir valores sin una conferencia larga",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Promoción de marca",
+          href: "/blog/prodvizhenie-brenda/",
+        },
+      ],
+    },
+    {
+      title: "Base: color, tipografía, forma",
+      level: 2,
+      paras: [
+        "La mayoría de soportes se apoyan en tres pilares. El color afecta a la atención y a las asociaciones — pero los significados dependen de la cultura; no copies el «rojo = apetito» de otro sin revisar tu nicho y mercado.",
+        "La tipografía marca el carácter: estricto, juguetón, «autor» manuscrito. Una mala elección aleja a la gente más rápido de lo que parece. La forma geométrica en el logo y los patrones (círculo, ángulo, suavidad) fija el reconocimiento de silueta.",
+      ],
+      lists: [
+        {
+          intro: "Práctica de selección:",
+          items: [
+            "2–3 colores principales + neutros",
+            "1–2 familias tipográficas con pesos de fallback",
+            "una marca que se lea en tamaño pequeño",
+            "prohibiciones: distorsiones, efectos al azar, degradados accidentales",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Identidad, branding y estilo corporativo",
+      level: 2,
+      paras: [
+        "El branding responde «quiénes somos» y «en qué nos diferenciamos» en la percepción del mercado. La identidad empaqueta la respuesta en un sistema de signos. El estilo corporativo es la capa visual (membretes, decks, diseño del local) — a menudo parte de la identidad, pero no toda la historia con naming y brand book.",
+        "La confusión de términos no es fatal si el equipo acuerda: qué aprobamos, quién guarda los fuentes y cómo no se debe usar el logo.",
+      ],
+      tables: [
+        {
+          caption: "Términos en corto",
+          headers: ["Concepto", "Foco"],
+          rows: [
+            ["Branding", "Posicionamiento y percepción"],
+            ["Identidad", "Sistema de elementos reconocibles"],
+            ["Estilo corporativo", "Soportes visuales y styling"],
+            ["Brand book", "Reglas de aplicación"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo se crea habitualmente",
+      level: 2,
+      paras: [
+        "Empieza con un brief: nicho, audiencia, competidores, tono, restricciones. Luego conceptos (varias direcciones), elige y afina marca/paleta/tipografía, arma el brand book, entrega fuentes y forma al equipo.",
+        "Sin brief obtienes «bonito, pero no somos nosotros». Sin reglas de aplicación, en un mes el sitio, la tarjeta y los ads parecen tres empresas distintas.",
+      ],
+      lists: [
+        {
+          intro: "Etapas (aprox.):",
+          items: [
+            "investigación y brief",
+            "naming (si hace falta)",
+            "conceptos de logo y estilo",
+            "paleta y tipografía",
+            "brand book y plantillas",
+            "rollout a soportes",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Especificación del sitio",
+          href: "/blog/tz-na-sayt/",
+        },
+        {
+          label: "Audiencia objetivo",
+          href: "/es/blog/tselevaya-auditoriya/",
+        },
+      ],
+    },
+    {
+      title: "Cómo no romper el sistema",
+      level: 2,
+      paras: [
+        "Guarda fuentes (logo vectorial, colores en HEX/CMYK/RGB, archivos/licencias de fuentes). Da a los contratistas un extracto corto del brand book — no «hazlo como el sitio a ojo».",
+        "El rebranding es un proyecto aparte: cambiar un color «porque nos aburrimos» sin estrategia cuesta más de lo que parece. Planifica updates pequeños (refinar la marca, accesibilidad de contraste) a propósito.",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Revisa licencias de fuentes e imágenes para soportes antes de un lanzamiento masivo. «Descargado gratis» a menudo equivale a riesgo de reclamación.",
+        },
+      ],
+      links: [
+        {
+          label: "Marca personal",
+          href: "/es/blog/lichnyy-brend/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "La identidad hace reconocible una marca en cualquier soporte: color, tipografía, forma y reglas del brand book ganan a un «logo bonito» suelto. Monta un sistema mínimo y protégelo del freestyle de los contratistas.",
+  ],
+  related: [
+    "prodvizhenie-brenda",
+    "lichnyy-brend",
+    "tz-na-sayt",
+    "tselevaya-auditoriya",
+    "utp",
+    "brendovyy-trafik",
+  ],
+};

@@ -163,3 +163,167 @@ export const menedzherParoleyEn: BlogPost = {
     "pochta-dlya-domena",
   ],
 };
+
+/** ES overlay for menedzher-paroley — same structure as RU JSON / EN. */
+export const menedzherParoleyEs: BlogPost = {
+  slug: "menedzher-paroley",
+  title: "Gestor de contraseñas: por qué lo necesitas y cómo elegir",
+  date: "2018-04-06",
+  category: "Digital marketing",
+  cover: "/images/blog/menedzher-paroley/cover.webp",
+  excerpt:
+    "Por qué importa un gestor de contraseñas en lo personal y en el equipo: contraseñas únicas, 2FA, criterios de selección — sin un listicle desfasado de «los tres mejores» ni precios de 2018.",
+  lead: [
+    "Docenas de cuentas no caben en la cabeza ni en un passwords.txt. Un gestor guarda contraseñas únicas y fuertes en una bóveda cifrada, rellena formularios y ayuda a compartir acceso con reglas — en lugar de mandar la contraseña por el chat.",
+    "Abajo: por qué lo necesitas, en qué se diferencia el modo personal del de equipo y qué mirar al elegir. Precios concretos, listas de «los tres mejores» y un roundup de una docena de tools de 2018 están muertos: algunos productos salieron del mercado; otros cambiaron pricing y reputación tras incidentes. Revisa el sitio actual del vendor.",
+  ],
+  faq: [
+    {
+      q: "¿No es más seguro una contraseña memorizada que un gestor?",
+      a: "Reutilizar la misma en muchos sitios es peor: una filtración en un servicio abre el resto. Gestor, contraseñas únicas y 2FA es la línea base.",
+    },
+    {
+      q: "¿Y si el propio gestor de contraseñas es vulnerado?",
+      a: "El riesgo existe en cualquier software. Redúcelo: master password fuerte, 2FA en la cuenta del gestor, updates, política clara de empresa. No guardes la master password en la misma nube al lado.",
+    },
+    {
+      q: "¿Basta el gestor integrado del navegador?",
+      a: "Para un mínimo personal, a menudo sí. Para uso multi-navegador, equipos y auditoría, un gestor dedicado es más cómodo.",
+    },
+    {
+      q: "¿Puedo pasar la contraseña de un cliente en el chat de la agencia?",
+      a: "Mejor vía gestor con derechos de acceso y revoke. Chat y email dejan copias y dificultan revocar.",
+    },
+    {
+      q: "¿Hace falta un gestor si todo tiene 2FA?",
+      a: "Sí. El 2FA no sustituye contraseñas únicas; juntos son más fuertes.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué un gestor de contraseñas",
+      level: 2,
+      paras: [
+        "El trabajo no es «acordarse de todo» — es dejar de repetir contraseñas débiles y guardarlas en notas. El gestor genera passwords largas y aleatorias, las guarda en la bóveda y rellena los campos de login.",
+        "Para marketers y SEO se ve especialmente: cuentas de ads, analytics, CMS de clientes, email. Una contraseña reutilizada es una cadena de riesgo entre varios proyectos.",
+      ],
+      lists: [
+        {
+          intro: "Qué suele dar esta clase de tools:",
+          items: [
+            "generación de contraseñas fuertes",
+            "autofill en navegadores y apps",
+            "sync entre dispositivos",
+            "bóveda de tarjetas o notas (según producto)",
+            "sharing seguro (personal o equipo)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Uso personal y de equipo",
+      level: 2,
+      paras: [
+        "Un gestor personal es tu caja fuerte: sitios, bancos, redes, cuentas de trabajo. Uno de equipo añade roles, grupos, auditoría de quién tuvo acceso a qué, y revoke al offboarding.",
+        "En una agencia o equipo de producto sin bóveda compartida, las contraseñas se desparraman por los chats. Eso es peor que cualquier gestor corporativo «incómodo».",
+      ],
+      tables: [
+        {
+          caption: "Personal vs equipo",
+          headers: ["Modo", "Foco"],
+          rows: [
+            ["Personal", "Contraseñas únicas, 2FA, tus dispositivos"],
+            ["Familia/pareja", "Carpetas compartidas con extras mínimos"],
+            ["Equipo", "Roles, auditoría, revoke, SSO cuando madure"],
+            ["Cuentas de cliente", "Registros separados, sin «admin123» compartido"],
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Trabajo remoto",
+          href: "/blog/udalennaya-rabota/",
+        },
+        {
+          label: "Extensiones de Chrome para marketing",
+          href: "/blog/chrome-rasshireniya-marketing/",
+        },
+      ],
+    },
+    {
+      title: "Qué mirar al elegir",
+      level: 2,
+      paras: [
+        "No persigas un ranking de «los tres mejores» de 2018. Revisa plataformas (Windows, macOS, iOS, Android, Linux), extensiones para tus navegadores, modelo de cifrado, 2FA, export/import para migrar, política de la empresa e historial de incidentes.",
+        "No copies precios de reviews viejas a un contrato: planes y límites free cambiaron. Importan el coste por persona/año y quién lo administra.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de selección:",
+          items: [
+            "SO y navegadores necesarios",
+            "master password + 2FA",
+            "sharing cómodo sin revelar la contraseña en el chat",
+            "export si cambias de vendor",
+            "empresa transparente y updates",
+            "para equipos — roles y auditoría",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Sobre «estrellas viejas» de la lista",
+          kind: "tip",
+          text: "El roundup original incluía productos como Splikity y utilidades de nicho — algunos ya no son relevantes. LastPass, 1Password, Bitwarden, KeePass/KeePassXC, keychains de SO/navegador y bóvedas de equipo (clase Passwork y similares) son hitos de categoría, no anuncios. Verifica tú el estado del producto.",
+        },
+      ],
+    },
+    {
+      title: "Clases de solución, no culto a la marca",
+      level: 2,
+      paras: [
+        "Los gestores cloud son cómodos para sync. Tools locales o self-hosted (KeePass y similares) dan control del archivo pero piden disciplina de backup. Los gestores integrados de navegador y SO son un buen arranque si vives en un ecosistema.",
+        "Para el negocio importa más el proceso: quién da acceso, cómo se revoca, si están prohibidas las contraseñas compartidas de «departamento».",
+      ],
+    },
+    {
+      title: "Los hábitos ganan a la app",
+      level: 2,
+      paras: [
+        "Una vez instalado el gestor, deja el `qwerty` y una sola contraseña para todo. Activa 2FA en email y cuentas críticas. No guardes la master password en la misma bóveda del navegador sin protección.",
+        "El phishing salta el gestor si tú mismo escribes la contraseña en un sitio falso. Revisa la dirección; no corras con emails de «bloqueo urgente».",
+      ],
+      lists: [
+        {
+          intro: "Disciplina mínima:",
+          items: [
+            "contraseña única por servicio importante",
+            "2FA donde exista",
+            "revoke de acceso cuando un empleado se va",
+            "no enviar contraseñas en chat abierto",
+            "mantener actualizada la app del gestor",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Un gestor de contraseñas es higiene básica para redes de cuentas personales y de trabajo. Elige por plataformas, 2FA y modelo de equipo — no por un listicle desfasado con precios en dólares de 2018.",
+        "Tras instalarlo, confía en el generador y deja de repetir contraseñas débiles.",
+      ],
+    },
+  ],
+  closing: [
+    "Elige un gestor para tus dispositivos y modo (personal o equipo), mueve las cuentas críticas, activa 2FA en la bóveda y el email — y deja de guardar contraseñas de clientes en el historial del chat.",
+  ],
+  related: [
+    "chrome-rasshireniya-marketing",
+    "chrome-rasshireniya-seo",
+    "udalennaya-rabota",
+    "parol-instagram",
+    "pochtovyy-servis",
+    "pochta-dlya-domena",
+  ],
+};

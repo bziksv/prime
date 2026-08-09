@@ -166,3 +166,170 @@ export const infopovodEn: BlogPost = {
     "A news hook is a bridge between audience interest and your message. Plan your own hooks, handle others’ news carefully, and measure not only noise but business value.",
   ],
 };
+
+/** ES overlay for infopovod — same structure as RU JSON / EN. */
+export const infopovodEs: BlogPost = {
+  slug: "infopovod",
+  title: "Gancho de noticia: qué es y cómo usarlo en marketing",
+  date: "2020-03-12",
+  category: "Marketing digital",
+  cover: "/images/blog/infopovod/cover.webp",
+  excerpt:
+    "Qué es un gancho de noticia: planificado e improvisado, newsjacking, investigación, colaboraciones, aniversarios y concursos — cómo crear ganchos sin hype vacío.",
+  lead: [
+    "Un gancho de noticia es un evento o hecho que importa a la audiencia ahora mismo — y alrededor del cual puedes construir una historia, un post o una campaña. Para los medios es combustible del feed; para una marca — una vía a la conversación sin un «compra» directo.",
+    "Abajo: tipos de ganchos, formatos que funcionan y un flujo de lanzamiento. El hype por el hype y el escándalo con riesgo de reputación no cuentan como estrategia.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia un gancho de noticia de la publicidad?",
+      a: "Los ads venden de forma directa. Un gancho da una razón para hablar de un tema; la marca aparece como participante o experto. Las colocaciones de pago siguen necesitando etiquetado legal.",
+    },
+    {
+      q: "Planificado vs improvisado — ¿cuál es la diferencia?",
+      a: "Lo improvisado surge solo (una ley, un apagón, una tendencia). Lo planificado lo preparas: investigación, un lanzamiento, un aniversario, una colaboración.",
+    },
+    {
+      q: "¿Qué es el newsjacking?",
+      a: "Atar tu mensaje a una noticia ajena caliente. Funciona con velocidad y gusto; con cinismo y un encaje forzado golpea la reputación.",
+    },
+    {
+      q: "¿Una pyme necesita ganchos de noticia?",
+      a: "Sí a escala local: una apertura, un caso, una temporada, un partnership con una marca vecina. No tienes que apuntar a medios nacionales.",
+    },
+    {
+      q: "¿Funcionan sorteos y concursos?",
+      a: "Como formato — sí, si las reglas son justas y el premio se liga al producto. Un «sorteo de iPhone» vacío sin vínculo de nicho convierte poco en lealtad.",
+    },
+    {
+      q: "¿Cuánto hasta ver resultados?",
+      a: "El alcance puede ser rápido; ventas y awareness se acumulan. Un pico no sustituye el marketing sistemático y el SEO.",
+    },
+    {
+      q: "¿Esto va ligado a la publicidad gratis?",
+      a: "Sí: un gancho fuerte ayuda a ganar menciones sin presupuesto de media. Ver también la pieza sobre canales gratis al inicio.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es un gancho de noticia",
+      level: 2,
+      paras: [
+        "Es un evento o hecho que importa a la audiencia «aquí y ahora»: de la ciudad a la escala mundial. Periodistas y editores cazan esos temas a diario; las empresas los usan para sentarse junto al interés de la gente.",
+        "Un buen gancho responde: a quién le importa, por qué ahora y qué rol de marca encaja — experto, participante, organizador — no un salto al azar a la tendencia.",
+      ],
+      lists: [
+        {
+          intro: "Un gancho de noticia te ayuda a:",
+          items: [
+            "ganar publicaciones y shares",
+            "explicar un lanzamiento de producto",
+            "reforzar la expertise",
+            "crecer una lista vía concurso/evento",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Ganchos planificados e improvisados",
+      level: 2,
+      paras: [
+        "Lo improvisado surge sin tu guion: un cambio de ley, un apagón del sector, una tendencia viral. El trabajo — reaccionar rápido y con ética, o callar a propósito si el tema es tóxico.",
+        "Lo planificado lo creas: un release, investigación, aniversario, colaboración, jornada de puertas abiertas. Es más fácil de empaquetar: plazos, speakers, materiales de prensa por adelantado.",
+      ],
+      lists: [
+        {
+          intro: "Quién suele «hacer» un gancho planificado:",
+          items: [
+            "marketing y PR",
+            "fundadores como speakers",
+            "partners de colaboración",
+            "el sector vía asociaciones y scoreboards",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Newsjacking: rápido, pero con cuidado",
+      level: 2,
+      paras: [
+        "Newsjacking — enganchar tu mensaje a una noticia ajena mientras el tema está caliente. Un ejemplo clásico es la reacción de una marca a un incidente súbito en un gran evento: corta, ingeniosa, al punto.",
+        "Riesgos: llegar tarde, humor sin gusto, aprovechar el dolor ajeno. Regla: si dudas — no jackees. Un gancho propio planificado gana a un meme tóxico.",
+      ],
+      notes: [
+        {
+          title: "La línea",
+          kind: "tip",
+          text: "El newsjacking alrededor de tragedias, discriminación y política casi siempre daña la marca. Deja esos temas a comentaristas especializados.",
+        },
+      ],
+    },
+    {
+      title: "Formatos: investigación, colaboraciones, fechas",
+      level: 2,
+      paras: [
+        "Investigaciones, encuestas y previsiones dan un número fácil de citar. Incluso un tema estrecho se ve experto si el método es honesto y la conclusión se liga a tu producto.",
+        "Las colaboraciones abren la audiencia de otro. Aniversarios, nombramientos, fechas interesantes del calendario — motivo para entrevistas, promos y backstage. Concursos y sorteos funcionan con reglas claras y un premio relevante.",
+      ],
+      lists: [
+        {
+          intro: "Formatos que funcionan:",
+          items: [
+            "encuesta / mini-investigación del sector",
+            "un lanzamiento conjunto con un partner",
+            "aniversario y resumen del año",
+            "tour / jornada de puertas abiertas",
+            "entrevista con un experto o caso de cliente",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Publicidad gratis al inicio",
+          href: "/es/blog/besplatnaya-reklama/",
+        },
+        {
+          label: "Publicidad nativa",
+          href: "/es/blog/nativnaya-reklama/",
+        },
+      ],
+    },
+    {
+      title: "Polémica y temas afilados",
+      level: 2,
+      paras: [
+        "Una postura controvertida impulsa el alcance pero parte a la audiencia. Tiene sentido si la marca tiene expertise y está lista a responder a la crítica. Provocar por views sin posición gasta reputación.",
+        "Antes de publicar, pregunta: qué dirás en una semana cuando baje el ruido, y si la declaración contradice los valores de la empresa.",
+      ],
+    },
+    {
+      title: "Mecanismo: de la idea a la ola",
+      level: 2,
+      paras: [
+        "El flujo es simple: idea → comprobar interés de la audiencia → packaging (copy, visual, speaker) → canales (sitio, email, medios, partners) → medir (alcance, clics, leads) → fijar (FAQ, artículo, caso).",
+        "Prepara un pack para editores: hecho, cita, foto, contactos. Sin él incluso un buen gancho se hunde en la bandeja de entrada.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de lanzamiento:",
+          items: [
+            "una línea de noticia clara en una frase",
+            "por qué importa al lector ahora",
+            "rol de marca sin estirar",
+            "materiales para publicación",
+            "métrica de éxito fijada de antemano",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Colocaciones gratuitas de artículos",
+          href: "/es/blog/besplatnoe-razmeshchenie-statey/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Un gancho de noticia es un puente entre el interés de la audiencia y tu mensaje. Planifica tus propios ganchos, maneja con cuidado las noticias ajenas y mide no solo el ruido sino el valor de negocio.",
+  ],
+};

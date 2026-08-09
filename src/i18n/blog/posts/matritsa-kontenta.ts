@@ -139,3 +139,143 @@ export const matritsaKontentaEn: BlogPost = {
     "avtovoronka",
   ],
 };
+
+/** ES overlay for matritsa-kontenta — same structure as RU JSON. */
+export const matritsaKontentaEs: BlogPost = {
+  slug: "matritsa-kontenta",
+  title: "Matriz de contenido: cómo planificar la publicación regular",
+  date: "2019-12-20",
+  category: "Content marketing",
+  cover: "/images/blog/matritsa-kontenta/cover.webp",
+  excerpt:
+    "Una matriz de contenido: audiencia y etapa del journey, objetivo de conversión, canal de entrega y formato — cómo armar la tabla y encontrar huecos, junto a un calendario de contenido habitual.",
+  lead: [
+    "Una matriz de contenido es una tabla donde filas y columnas enlazan etapa del buyer journey, objetivo de acción, canal y tipo de material. No sustituye el calendario de publicación — es la capa de estrategia antes.",
+    "Abajo: los cuatro bloques de la matriz, cómo rellenarlos y cómo encontrar agujeros. El schedule de «qué se publica qué día» vive en el artículo del plan de contenido.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia de un plan de contenido?",
+      a: "El plan es la cola y las fechas. La matriz es la lógica: quién, en qué etapa, para qué y por qué canal. Primero matriz, después calendario.",
+    },
+    {
+      q: "¿Es obligatoria para un pequeño negocio?",
+      a: "Una versión simplificada ayuda: incluso 1 segmento × 3 etapas × objetivos ya corta los «posts por postear».",
+    },
+    {
+      q: "¿Una matriz para todos?",
+      a: "Mejor por persona/segmento clave. Si no, objetivos y tono se mezclan.",
+    },
+    {
+      q: "¿Qué significa «conversión» aquí?",
+      a: "No solo compra: suscribirse, visitar, demo, descargar, terminar de leer — el siguiente paso en el camino.",
+    },
+    {
+      q: "¿Cuántas piezas por etapa?",
+      a: "Suelen ser varias: formatos y objeciones distintos. Un post para todo el funnel rara vez cubre el journey.",
+    },
+    {
+      q: "¿Hace falta un audit del contenido viejo?",
+      a: "Sí: qué celdas de la matriz ya están llenas, dónde está vacío — prioridad de producción.",
+    },
+    {
+      q: "¿Cómo se enlaza con USP y oferta?",
+      a: "Los mensajes clave de las celdas deben encajar con la USP, o contenido y ventas dicen cosas distintas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cuatro ejes de la matriz",
+      level: 2,
+      paras: [
+        "Contexto de audiencia: quién es el comprador, job to be done, barreras, etapa (aware → comparing → deciding).",
+        "Objetivo de conversión del material: qué acción esperas tras el consumo.",
+        "Táctica de entrega: contacto outbound, inbound (búsqueda/sitio), a través de otros (referrals).",
+        "El contenido en sí: formato y tema para la etapa y el canal.",
+      ],
+      links: [
+        {
+          label: "Plan de contenido",
+          href: "/es/blog/kontent-plan/",
+        },
+      ],
+    },
+    {
+      title: "Audiencia y journey",
+      level: 2,
+      paras: [
+        "Una persona es una tool, no un «PDF bonito para el pitch». B2B y B2C difieren en campos: roles del deal, ciclo, criterios de selección.",
+        "Cada etapa tiene sus propias preguntas. El contenido desbloquea puntos atascados: info que falta, miedo a elegir mal, comparación con alternativas.",
+      ],
+    },
+    {
+      title: "Objetivos y canales",
+      level: 2,
+      paras: [
+        "No reduzcas todo a «compra ya». En etapas tempranas encajan artículo, guía, vídeo corto; en las posteriores — demo, propuesta, review, ficha de producto.",
+        "Elige el canal donde vive el segmento. Un canal barato gana a uno caro si trae a la gente adecuada. Varios toques son normales.",
+      ],
+      lists: [
+        {
+          intro: "Ejemplo de objetivos a lo largo del camino:",
+          items: [
+            "terminar de leer y suscribirse",
+            "ir a un landing",
+            "dejar un lead / tomar una demo",
+            "comparar y elegirte",
+            "dejar un review tras la compra",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "CTAs y landings",
+          text: "Los objetivos importantes merecen un landing dedicado y una petición clara. El color del botón se puede testear, pero importan más oferta y relevancia.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Cómo armar la tabla",
+      level: 2,
+      paras: [
+        "Rellena celdas: segmento × etapa → objetivo → canal → formato/tema. Audit: qué ya existe, dónde están los huecos.",
+        "Pasa los huecos prioritarios al plan de contenido con fechas y owners. Luego el siguiente segmento.",
+      ],
+      links: [
+        {
+          label: "Contenido de venta",
+          href: "/es/blog/prodayushchiy-kontent/",
+        },
+        {
+          label: "USP (propuesta única de venta)",
+          href: "/es/blog/utp/",
+        },
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Matriz = lógica, plan = calendario.",
+        "Cada pieza necesita un objetivo — no solo «views».",
+        "Cierra huecos del journey primero, después el volumen de publicación.",
+      ],
+    },
+  ],
+  closing: [
+    "Boceta una persona y tres etapas del journey — si la tabla tiene celdas vacías, ya sabes qué escribir el mes que viene.",
+  ],
+  related: [
+    "kontent-plan",
+    "kontent-plan-instagram",
+    "prodayushchiy-kontent",
+    "vidy-kontenta-socseti",
+    "utp",
+    "avtovoronka",
+  ],
+};

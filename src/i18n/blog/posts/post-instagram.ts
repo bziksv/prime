@@ -170,3 +170,174 @@ export const postInstagramEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for post-instagram — same structure as RU JSON / EN. */
+export const postInstagramEs: BlogPost = {
+  slug: "post-instagram",
+  title: "Un post de venta en Instagram: estructura y titular",
+  date: "2021-12-07",
+  category: "SMM",
+  cover: "/images/blog/post-instagram/cover.webp",
+  excerpt:
+    "Cómo armar un post de venta en Instagram: oferta, USP, estructura del copy, titular, CTA y gestión de comentarios.",
+  lead: [
+    "Un post de venta es copy más visuales sobre un producto o servicio concreto con un beneficio claro y una llamada a la acción. No es un «párrafo bonito» — es un paso en el diálogo con el comprador.",
+    "Abajo: audiencia, posicionamiento, marco de copy y manejo de negatividad. La UI de Instagram cambia — la lógica del copy importa más que screenshots de botones.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia un post de venta de uno de valor?",
+      a: "Un post de valor enseña o entretiene. Uno de venta lleva a una acción: lead, compra, clic, reserva. En el feed las ventas suelen ser minoría — ver el plan de contenido.",
+    },
+    {
+      q: "¿Hacen falta keywords en la primera línea?",
+      a: "Sentido y beneficio ganan a la densidad de consultas. Una keyword está bien si suena humana; si no, la primera línea aleja a la gente.",
+    },
+    {
+      q: "¿Cuánto texto de caption es normal?",
+      a: "El suficiente para manejar una objeción y dar un CTA. Los posts largos funcionan si hay aire, listas y un gancho fuerte en el preview.",
+    },
+    {
+      q: "¿Debo borrar comentarios negativos?",
+      a: "Borrar críticas en masa mata la confianza. Lleva la discusión a DMs; spam e insultos — según reglas de moderación.",
+    },
+    {
+      q: "¿Basta un post fuerte?",
+      a: "No. Hacen falta ritmo, calentamiento y packaging del perfil. Un post es un test de hipótesis, no todo el embudo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es un post de venta",
+      level: 2,
+      paras: [
+        "Es una publicación que captura atención, describe con claridad la oferta y empuja un paso: mensaje, clic, comprar, reservar.",
+        "Un post fuerte destaca en el feed, da en una necesidad de la audiencia y no esconde el siguiente paso.",
+      ],
+      lists: [
+        {
+          intro: "Señales de un post que funciona:",
+          items: [
+            "visual y primera línea notables",
+            "un producto / servicio / oferta concretos",
+            "beneficios, no solo «specs»",
+            "un CTA claro",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Objetivo y qué escribir",
+      level: 2,
+      paras: [
+        "El objetivo son leads y ventas, no «likes por los likes». El copy es una herramienta precisa: features, beneficios, diferencia frente a análogos.",
+      ],
+      lists: [
+        {
+          intro: "El texto suele incluir:",
+          items: [
+            "features clave",
+            "beneficios para el cliente",
+            "opciones / formatos de oferta",
+            "prueba (cifras, caso, garantía) — cuando sea posible",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Práctica",
+          text: "Pregúntate: «¿Por qué comprar con nosotros y no con el vecino?» Esa respuesta es el núcleo del post.",
+        },
+      ],
+    },
+    {
+      title: "Audiencia y competidores",
+      level: 2,
+      paras: [
+        "Sin un retrato de audiencia el post se escribe «para todos» y no engancha a nadie. Género, edad, ciudad, ingresos, actividades, dolores — el marco básico.",
+        "Mira a competidores: temas, tono, qué obtiene respuesta. Copiar sus textos está fuera — la plataforma y la audiencia lo notan. Toma sentidos y reempaqueta para tu oferta.",
+      ],
+    },
+    {
+      title: "Posicionamiento y USP",
+      level: 2,
+      paras: [
+        "El mismo producto vende mejor cuando la diferencia es clara: entrega, plazos, servicio, expertise, garantía, formato.",
+        "Ejemplo: dos confiteros en una ciudad — no ganas con «más rico en palabras», sino con una ventaja clara (entrega, sorteo, lead time).",
+      ],
+      lists: [
+        {
+          intro: "Trabajos de posicionamiento en el post:",
+          items: [
+            "mostrar el beneficio",
+            "diferenciarse de análogos",
+            "calentar el interés en el siguiente paso",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Titular y estructura del copy",
+      level: 2,
+      paras: [
+        "La primera línea es el titular del feed. Sin gancho el post no se expande.",
+      ],
+      lists: [
+        {
+          intro: "Requisitos de la primera línea:",
+          items: [
+            "concisa y no banal",
+            "oferta o dolor claros de inmediato",
+            "una keyword — solo si suena natural",
+          ],
+        },
+        {
+          intro: "Marco del post:",
+          items: [
+            "intro — 2–3 frases, preguntas gancho",
+            "cuerpo — features, beneficios, casos de uso, prueba suave",
+            "cierre — un CTA claro (qué hacer y dónde)",
+          ],
+        },
+        {
+          intro: "Ejemplos de CTA:",
+          items: [
+            "«Escríbenos por DM la palabra … — te llamamos»",
+            "«Reserva — enlace en bio / responde al operador»",
+            "«Contactos en el perfil — di una hora conveniente»",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Error habitual",
+          text: "Volcar todo el punto en el intro y repetirlo en el medio. El intro es un lead-in; el valor vive en el cuerpo.",
+        },
+      ],
+      links: [
+        {
+          label: "Plan de contenido de Instagram",
+          href: "/es/blog/kontent-plan-instagram/",
+        },
+        {
+          label: "Diseño de la página",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Comentarios y negatividad",
+      level: 2,
+      paras: [
+        "La velocidad de respuesta importa: un lead caliente se va al competidor. Las cuentas activas necesitan a alguien dueño de DMs y comentarios.",
+        "La negatividad se mueve mejor a mensajes privados y se maneja con calma. Spam y toxicidad — según reglas de moderación; limpiar críticas en masa «por imagen» no vale la pena.",
+      ],
+    },
+  ],
+};

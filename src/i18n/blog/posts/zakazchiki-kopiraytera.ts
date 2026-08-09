@@ -153,3 +153,157 @@ export const zakazchikiKopirayteraEn: BlogPost = {
     "autrich",
   ],
 };
+
+/** ES overlay for zakazchiki-kopiraytera — same structure as RU JSON / EN. */
+export const zakazchikiKopirayteraEs: BlogPost = {
+  slug: "zakazchiki-kopiraytera",
+  title: "Encontrar clientes para un copywriter: por dónde empezar",
+  date: "2020-10-30",
+  category: "Content marketing",
+  cover: "/images/blog/zakazchiki-kopiraytera/cover.webp",
+  excerpt:
+    "Cómo un copywriter encuentra clientes: portfolio, canales de búsqueda, un pitch fuerte y condiciones de trabajo — sin un catálogo de grupos obsoletos ni dumping «desde céntimos por 1.000 caracteres».",
+  lead: [
+    "Los principiantes a menudo cobran céntimos; los writers con experiencia pierden clientes — la demanda de copy existe, pero hay que saber encontrarla y cerrarla. Un flujo estable de pedidos empieza con preparación, no con applications caóticas.",
+    "Abajo: portfolio, dónde buscar, qué saltar y cómo escribir un pitch. No catalogamos grupos y marketplaces de Facebook/VK de 2020: las plataformas van y vienen. Tipos de textos y briefs desde el lado del cliente viven en el artículo de copywriting.",
+  ],
+  faq: [
+    {
+      q: "¿Por dónde empezar sin experiencia?",
+      a: "Haz 3–5 piezas demo fuertes en el nicho objetivo, arma un portfolio con enlaces y tarifas, luego aplica de forma selectiva.",
+    },
+    {
+      q: "¿Los marketplaces freelance son el mal?",
+      a: "No necesariamente. Son un canal con competencia y a menudo un check bajo. Bien como arranque o side hustle, débiles como única estrategia durante años.",
+    },
+    {
+      q: "¿Necesito un currículum?",
+      a: "A veces para roles de plantilla o agencia. Para trabajos puntuales importan más el portfolio y una oferta clara.",
+    },
+    {
+      q: "¿Cómo evitar quedarme sin cobrar?",
+      a: "Fija alcance, deadline, revisiones y método de pago antes de empezar. Para sumas mayores — depósito, milestones y un contrato.",
+    },
+    {
+      q: "¿En qué se diferencia de «Copywriting»?",
+      a: "Ese cubre tipos de texto y cómo elegir un writer para el negocio. Este es encontrar clientes desde la vista del freelancer.",
+    },
+  ],
+  sections: [
+    {
+      title: "Primero preparación, después la caza",
+      level: 2,
+      paras: [
+        "Los clientes eligen por resultados, no por años de currículum. Muestra 2–4 piezas relevantes con un caso corto: tarea → qué hiciste → efecto (si lo hay).",
+        "Ordena ejemplos por formato (landing, artículo SEO, email). Da enlaces o Docs, no «descarga un rar». Di un rango de precio de entrada — filtrarás el fit equivocado.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo antes de buscar:",
+          items: [
+            "portfolio con enlaces vivos",
+            "rate card clara o fórmula de precio",
+            "2–3 canales de contacto",
+            "una forma de cobrar",
+            "una plantilla de pitch fuerte",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Copywriting: tipos y briefs",
+          href: "/es/blog/kopirayting/",
+        },
+      ],
+    },
+    {
+      title: "Dónde encontrar clientes",
+      level: 2,
+      paras: [
+        "Comunidades de copywriters y jobs en redes — canal rápido, pero ruidoso. Sigue las reglas: replies spam bajo cada post dañan la reputación.",
+        "Los marketplaces freelance traen volumen pero comen tiempo en contests. Agencias y equipos editoriales — checks más estables con un portfolio fuerte. Outreach directo: emails a dueños de sitios con un pitch concreto de mejora de copy — funciona si no es spam frío.",
+        "Los nombres viejos de grupos y servicios no importan: importan el nicho, la actividad de la plataforma y tu pitch.",
+      ],
+      lists: [
+        {
+          intro: "Canales que funcionan:",
+          items: [
+            "comunidades pro y posts de jobs",
+            "marketplaces / talent directories",
+            "referrals de clientes contentos",
+            "contenido sobre tu expertise (blog, Telegram, estilo LinkedIn)",
+            "pitches dirigidos a empresas de tu tema",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          text: "Enviar el mismo «Hola, soy copywriter» a cientos de personas. Eso es spam y conversión baja.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "En qué no perder tiempo",
+      level: 2,
+      paras: [
+        "Jobs sin brief, pago «si nos gusta» sin criterios, contests con 50 writers por céntimos — normalmente mala economía.",
+        "No persigas cada job fuera de nicho: la dispersión mata portfolio y tarifas. Rechaza tareas grises (reviews falsas, native ads sin marcar, copiar el trabajo de otro).",
+      ],
+    },
+    {
+      title: "Qué engancha en un pitch",
+      level: 2,
+      paras: [
+        "Sé breve: entendiste la tarea, mostraste un ejemplo relevante, propusiste siguiente paso y timeline o rango. Sin relleno de «perfeccionista creativo».",
+        "Si el brief es fino — haz 2–3 preguntas aclaratorias. Eso ya es una demo de expertise.",
+      ],
+      lists: [
+        {
+          intro: "Esquema del pitch:",
+          items: [
+            "saludo + el job con tus palabras",
+            "1 caso relevante con enlace",
+            "qué harás y para cuándo",
+            "precio o cómo se calcula",
+            "una pregunta si al brief le falta algo",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Condiciones de trabajo y pago",
+      level: 2,
+      paras: [
+        "Antes de empezar fija alcance, deadline, número de revisiones, formato de entrega y pago. Con clientes nuevos un depósito o pago por milestones es razonable.",
+        "Mantén varias formas de recibir dinero (tarjeta, factura de autónomo o similar). Las listas de wallets de 2015 no son la guía — usa lo legal y cómodo para ti y el cliente.",
+      ],
+      links: [
+        {
+          label: "Copywriting SEO",
+          href: "/es/blog/seo-kopirayting/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Portfolio y nicho ganan a «enviar 100 applications». Combina canales, escribe al punto, fija condiciones.",
+        "Los clientes a largo plazo vienen de calidad y referrals, no de dumping.",
+      ],
+    },
+  ],
+  closing: [
+    "Arma un portfolio corto con tarifas, elige 2 canales de búsqueda y envía 5 pitches personalizados a jobs relevantes — aprenderás qué canal alimenta más rápido que con cien emails de plantilla.",
+  ],
+  related: [
+    "kopirayting",
+    "seo-kopirayting",
+    "prodayushchie-teksty",
+    "kontent-plan",
+    "tz-na-sayt",
+    "autrich",
+  ],
+};

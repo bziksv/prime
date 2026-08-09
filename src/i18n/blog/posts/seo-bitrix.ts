@@ -139,3 +139,143 @@ export const seoBitrixEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for seo-bitrix — same structure as RU JSON / EN. */
+export const seoBitrixEs: BlogPost = {
+  slug: "seo-bitrix",
+  title: "SEO en 1C-Bitrix: robots, meta y setup base",
+  date: "2021-06-22",
+  category: "SEO",
+  cover: "/images/blog/seo-bitrix/cover.webp",
+  excerpt:
+    "Qué da el módulo SEO integrado de 1C-Bitrix, cómo manejar robots.txt, plantillas meta y contadores con cuidado — sin tratar los módulos de pago del Marketplace como el único camino.",
+  lead: [
+    "1C-Bitrix cubre muchos trabajos de fábrica, pero el SEO no se configura solo: hacen falta robots/sitemap, plantillas de title/description, URLs limpias, contadores y control de duplicados.",
+    "Abajo hay una base para un portal Bitrix. Las etiquetas del menú y los nombres de módulos cambian entre ediciones — sigue la UI de admin y la docs actuales.",
+  ],
+  faq: [
+    {
+      q: "¿Basta el módulo SEO integrado sin Marketplace?",
+      a: "Para empezar, a menudo sí: meta, propiedades, algunos informes. Coge módulos de pago solo por un hueco concreto — no «un pack para SEO».",
+    },
+    {
+      q: "¿Debo editar robots.txt en Bitrix a mano?",
+      a: "Sí, si la plantilla o el módulo sirve un archivo equivocado. Tras editar, revisa en herramientas de Webmaster. Ver también el artículo sobre cerrar páginas del índice.",
+    },
+    {
+      q: "¿Siguen haciendo falta meta keywords?",
+      a: "Como factor de ranking en los buscadores mayores — no. Enfócate en Title, Description, H1 y texto útil.",
+    },
+    {
+      q: "¿En qué se diferencia de un audit técnico?",
+      a: "Aquí — ajustes del CMS. Un audit técnico mira respuestas del servidor, velocidad y el índice de forma más amplia, no solo el panel de Bitrix.",
+    },
+    {
+      q: "¿Se puede promover un sitio solo con módulos?",
+      a: "No. Los módulos ayudan a gestionar campos; las posiciones vienen de contenido, enlaces, técnica y demanda.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué configurar primero",
+      level: 2,
+      paras: [
+        "Activa y revisa URLs limpias, sitemap, robots.txt y un setup de home/secciones sin duplicados (www/HTTPS, trailing slash, params de filtro). Luego — plantillas meta para secciones e ítems de infoblock.",
+        "Pon los contadores de Yandex Metrica / Analytics una sola vez en la plantilla o vía el mecanismo de stock — sin inserts dobles.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de lanzamiento:",
+          items: [
+            "HTTPS y consolidación de espejos",
+            "robots.txt y XML sitemap actuales",
+            "plantillas Title/Description sin basura",
+            "canonical donde haya duplicados",
+            "Yandex Webmaster y Search Console",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Cerrar páginas del índice",
+          href: "/es/blog/zakrytie-ot-indeksatsii/",
+        },
+        {
+          label: "Audit técnico de SEO",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "robots.txt y crawling",
+      level: 2,
+      paras: [
+        "Bitrix sirve robots desde un archivo o ajustes; tras updates y ediciones custom, verifica que no se bloqueen secciones necesarias y que las rutas de servicio no queden abiertas (`/bitrix/`, admin, scripts de servicio — según política del proyecto).",
+        "Disallow ≠ «sacar del índice». Para bajar de resultados hace falta noindex o retirada de URL, y el bot aún debe poder fetch del documento.",
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Un chequeo en herramientas de Webmaster y un crawl de prueba ganan a un robots «bonito» copiado de la guía de otro.",
+        },
+      ],
+    },
+    {
+      title: "Meta, infoblocks y URLs limpias",
+      level: 2,
+      paras: [
+        "Una vía sólida son plantillas de propiedades SEO a nivel de sección o tipo de infoblock con herencia — no editar a mano cientos de fichas. Construye Title y Description desde campos con sentido, no desde una hoja de keywords.",
+        "Fija códigos simbólicos (URLs limpias) para que sean legibles y estables. Un cambio brusco de URL sin 301s rompe posiciones.",
+      ],
+      lists: [
+        {
+          intro: "Lista de control meta:",
+          items: [
+            "unicidad de Title dentro de una sección",
+            "Description sin pegar plantilla «compra compra»",
+            "H1 alineado con Title",
+            "sin indexar filtros vacíos/finos sin necesidad",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de página",
+          href: "/es/blog/optimizatsiya-stranitsy/",
+        },
+        {
+          label: "Redirects",
+          href: "/es/blog/redirekt/",
+        },
+      ],
+    },
+    {
+      title: "Módulos del Marketplace: con cuidado",
+      level: 2,
+      paras: [
+        "Marketplace tiene muchas extensiones SEO (meta, redirects, bloques de texto). Cógelas por un hueco concreto del módulo integrado; revisa soporte de la edición de Bitrix y carga del catálogo.",
+        "No sustituyas una estrategia de promoción instalando «un plugin SEO más». Primero contenido, estructura y técnica.",
+      ],
+    },
+    {
+      title: "Analítica y herramientas de Webmaster",
+      level: 2,
+      paras: [
+        "Metrica y Search Console / Webmaster muestran qué está indexado de verdad y cómo se comportan los usuarios. Los informes internos del módulo SEO son una capa extra, no un reemplazo.",
+        "Bitrix no «se posiciona solo»: el setup de campos es más rápido que en un CMS custom, pero los resultados dependen del especialista y del proceso.",
+      ],
+      lists: [
+        {
+          intro: "Tras el setup base:",
+          items: [
+            "reconciliar sitemap con el índice",
+            "cerrar duplicados de servicio",
+            "smoke-test de plantillas clave de ficha",
+            "fijar un checklist de update de Bitrix",
+          ],
+        },
+      ],
+    },
+  ],
+};

@@ -185,3 +185,189 @@ export const metrikaKartyEn: BlogPost = {
     "navigatsiya-sayta",
   ],
 };
+
+/** ES overlay for metrika-karty — same structure as RU JSON / EN. */
+export const metrikaKartyEs: BlogPost = {
+  slug: "metrika-karty",
+  title: "Mapas de calor y mapas en Yandex Metrica",
+  date: "2017-05-10",
+  category: "Analytics",
+  cover: "/images/blog/metrika-karty/cover.webp",
+  excerpt:
+    "Mapas de clics, enlaces y scroll más analítica de formularios en Yandex Metrica: por qué mirar, cómo leer la densidad y qué no confundir con Session Replay — sin modos y límites de UI obsoletos de 2017.",
+  lead: [
+    "En Yandex Metrica la sección de mapas muestra dónde hacen clic las personas, cómo hacen scroll y dónde abandonan formularios. Es una foto agregada de muchas visitas, no la grabación de una sesión.",
+    "Abajo: para qué sirven heatmaps, mapas de enlaces y analítica de formularios. Las UIs de modo y los nombres de pestaña cambian — usa la Ayuda actual de Metrica. La grabación de sesión del visitante vive en un artículo aparte de Session Replay.",
+  ],
+  faq: [
+    {
+      q: "¿El mapa de clics y Session Replay son lo mismo?",
+      a: "No. Un mapa agrega clics y scroll. Session Replay graba una sesión concreta. Usa ambos según la tarea.",
+    },
+    {
+      q: "¿Los mapas necesitan un snippet de código aparte?",
+      a: "Suele bastar el contador con opciones de mapas/formularios activadas en ajustes. Si las encendiste después — actualiza el código o el contenedor GTM.",
+    },
+    {
+      q: "¿Por qué el mapa está vacío?",
+      a: "Poco dato para el periodo, otra URL (tags, www, hash), contador ausente en la plantilla, blocker/CSP, o el layout de la página cambió mucho frente al periodo de recolección.",
+    },
+    {
+      q: "¿Un mapa sube la conversión solo?",
+      a: "No. Sugiere hipótesis: mover el CTA, simplificar el formulario, quitar clics falsos. La prueba es medir goals.",
+    },
+    {
+      q: "¿Puedo ver mapas sin Metrica?",
+      a: "Existen otros servicios de heatmap. En el stack RU Metrica a menudo ya está instalada — empieza ahí si el contador es correcto.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué te dan los mapas de Metrica",
+      level: 2,
+      paras: [
+        "Los números dicen «pocos leads». Un mapa muestra dónde tocan de verdad: el logo en vez del botón, una imagen no clicable, más allá de un enlace móvil fino.",
+        "Útil en landings de ads, fichas de producto, carrito y páginas largas. En media — en páginas con bounce o profundidad raros.",
+      ],
+      lists: [
+        {
+          intro: "Set básico:",
+          items: [
+            "mapa de clics (calor / densidad)",
+            "mapa de enlaces",
+            "mapa de scroll",
+            "analítica de formularios",
+            "junto a ello — Session Replay en segmentos problemáticos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Session Replay",
+          href: "/es/blog/vebvizor/",
+        },
+        {
+          label: "Herramientas de web analytics",
+          href: "/es/blog/instrumenty-veb-analitiki/",
+        },
+      ],
+    },
+    {
+      title: "Mapa de clics",
+      level: 2,
+      paras: [
+        "Un heatmap resalta zonas de clic frecuentes. Las áreas frías significan poca interacción. Los modos de visualización (monocromo, «niebla», énfasis en enlaces) dependen de la UI de la cuenta — el punto es densidad y clics falsos.",
+        "No persigas una foto bonita — persigue el desajuste con la intención: CTA principal sin clics, bloque decorativo con muchos.",
+      ],
+      lists: [
+        {
+          intro: "Qué mirar:",
+          items: [
+            "menú y logo vs botón de acción",
+            "banners que la gente clic como enlaces pero no lo son",
+            "layout móvil aparte del desktop",
+            "páginas tras un rediseño — periodos antes/después",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error frecuente",
+          kind: "tip",
+          text: "Sacar conclusiones de un día con diez visitas. Un mapa necesita muestra; si no, es ruido.",
+        },
+      ],
+    },
+    {
+      title: "Mapa de enlaces",
+      level: 2,
+      paras: [
+        "Muestra transiciones vía enlaces y botones: conteo de clics y cuota frente a otros. Práctico para ver si la gente va al carrito, al catálogo o a «ningún lado» — footer y redes.",
+        "Si una URL importante casi no recibe clics, revisa visibilidad, texto ancla y competencia de vecinos.",
+      ],
+      links: [
+        {
+          label: "Navegación del sitio",
+          href: "/es/blog/navigatsiya-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Analítica de formularios",
+      level: 2,
+      paras: [
+        "Los formularios son donde se rompe la conversión: campos de más, máscaras de teléfono, captcha, errores de validación sin copy claro. La analítica de formularios muestra hasta dónde llegan y dónde se caen.",
+        "Simplifica paso a paso y mide el goal «enviar». Los placeholders ayudan pero no sustituyen labels y mensajes de error adecuados.",
+      ],
+      links: [
+        {
+          label: "Goals en Metrica",
+          href: "/es/blog/metrika-tseli/",
+        },
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+    },
+    {
+      title: "Condiciones y límites",
+      level: 2,
+      paras: [
+        "Los mapas se arman con datos del contador. Necesitas código correcto, periodo suficiente y entender cómo Metrica normaliza URLs (tags de campaña, www, fragmento #).",
+        "Las guías viejas sobre Internet Explorer 8 y límites duros de píxeles de página son historia. Si el mapa dibuja mal, revisa primero la Ayuda de Yandex y la frescura del código — no copies ajustes de 2017.",
+      ],
+      lists: [
+        {
+          intro: "Antes de entrar en pánico revisa:",
+          items: [
+            "contador en todas las plantillas necesarias",
+            "mapas/formularios activados en ajustes",
+            "sin conflicto «nativo + GTM»",
+            "URL y periodo correctos seleccionados",
+            "CSP/blocker no cortando el script",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Si Metrica no funciona",
+          href: "/es/blog/metrika-ne-rabotaet/",
+        },
+      ],
+    },
+    {
+      title: "Session Replay al lado, no en su lugar",
+      level: 2,
+      paras: [
+        "El mapa dijo «pocos clics en el botón» — Session Replay muestra cómo la gente hace scroll de largo o falla con el dedo. Para bounce de ads y formularios abandonados, una grabación de sesión gana a una sola foto de calor.",
+        "Los límites de almacenamiento y volumen cambiaron; no te fíes de «120k al día» de anuncios viejos. Las cuotas actuales están en la cuenta y la Ayuda.",
+      ],
+      links: [
+        {
+          label: "Cómo usar Session Replay",
+          href: "/es/blog/vebvizor/",
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "Los mapas de Metrica hablan de densidad de acción en la página. Session Replay habla de una sesión concreta. Con goals cierran el ciclo número → hipótesis → arreglo → medida.",
+        "No esperes que un heatmap suba la conversión solo: es una herramienta de observación.",
+      ],
+    },
+  ],
+  closing: [
+    "Activa mapas en el contador, reúne muestra en URLs clave, encuentra clics falsos y abandonos de formulario — luego verifica los arreglos con goals. Para revisar sesiones abre Session Replay.",
+  ],
+  related: [
+    "vebvizor",
+    "metrika-tseli",
+    "metrika-ne-rabotaet",
+    "instrumenty-veb-analitiki",
+    "optimizatsiya-konversii",
+    "navigatsiya-sayta",
+  ],
+};

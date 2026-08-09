@@ -112,3 +112,116 @@ export const primeryEmailRassylokEn: BlogPost = {
     "formy-zahvata",
   ],
 } as BlogPost;
+
+/** ES overlay for primery-email-rassylok — same structure as RU JSON / EN. */
+export const primeryEmailRassylokEs: BlogPost = {
+  slug: "primery-email-rassylok",
+  title: "Ejemplos de newsletters: técnicas de marcas globales",
+  date: "2020-03-20",
+  category: "Email marketing",
+  cover: "/images/blog/primery-email-rassylok/cover.webp",
+  excerpt:
+    "Qué aprender de emails fuertes: dos ofertas en una carta, un welcome cálido, una barra de progreso, una encuesta, un recordatorio y un tono honesto — sin copiar layouts ajenos uno a uno.",
+  lead: [
+    "Los suscriptores ven docenas de emails a la semana. Lo que destaca no son «las plantillas más bonitas», sino ofertas claras, el tono adecuado y un siguiente paso claro.",
+    "Abajo: técnicas de campañas globales conocidas (Adobe, 1Password, Carnival y otras) como ideas para tu lista. Copiar el layout de otra marca no tiene sentido; traslada la lógica a tu producto y al consentimiento del suscriptor.",
+  ],
+  faq: [
+    {
+      q: "¿Debo repetir emails ajenos?",
+      a: "No. Quédate con el principio: estructura, tono, CTA. Visuales y oferta — tuyos.",
+    },
+    {
+      q: "¿Dos ofertas en un email están bien?",
+      a: "Sí si el segmento aún no está definido: compara planes/opciones y da a elegir. No conviertas el email en un escaparate de diez botones.",
+    },
+    {
+      q: "¿Puede un welcome usar humor?",
+      a: "Si el tono de marca lo permite. El trabajo principal es explicar el estado de la cuenta y qué hacer después.",
+    },
+    {
+      q: "¿Funciona una barra de progreso en el email?",
+      a: "Para donaciones y metas de fundraising — sí: muestra «cuánto falta». Para una tienda habitual, el estado del pedido suele encajar mejor.",
+    },
+    {
+      q: "¿Hace falta una encuesta post-compra?",
+      a: "No es obligatoria, pero útil: feedback corto + recordatorio de marca. No spamees encuestas cada semana.",
+    },
+    {
+      q: "¿Dónde sacar ideas de forma legal?",
+      a: "Tus propios A/B, emails de competidores vía opt-ins públicos, roundups de ESP — sin scrapear listas ajenas.",
+    },
+    {
+      q: "¿Esto va ligado a emails disparados?",
+      a: "Muchos emails fuertes son triggered: welcome, recordatorio, encuesta tras un evento. Ver la pieza aparte.",
+    },
+  ],
+  sections: [
+    {
+      title: "Elección y comparación en un email",
+      level: 2,
+      paras: [
+        "En un email Adobe puso dos planes lado a lado para que el usuario eligiera. La técnica ayuda cuando el segmento aún es tosco o la oferta es ambigua.",
+        "Práctica: dos cards claras, diferencias breves, un CTA primario por opción. Sin muro de texto diminuto.",
+      ],
+    },
+    {
+      title: "Tono de bienvenida y espera",
+      level: 2,
+      paras: [
+        "El welcome de 1Password marcó un tono «de casa» y explicó la pausa por la confirmación de cuenta. El email baja la ansiedad de «por qué aún no puedo entrar».",
+        "Ajusta el tono a la marca: la ironía suena distinto en un banco que en una cafetería. Di siempre cuánto esperar y dónde escribir a soporte.",
+      ],
+      links: [
+        {
+          label: "Emails disparados (triggered)",
+          href: "/blog/triggernye-rassylki/",
+        },
+      ],
+    },
+    {
+      title: "Creatividad de oferta, progreso y feedback",
+      level: 2,
+      paras: [
+        "Los emails fuertes juegan con una metáfora de oferta (como «precios por los suelos» en cruceros), muestran un medidor de meta (fundraising) o piden una reseña corta tras la experiencia con el producto.",
+        "Los recordatorios «abre más tarde» y los mini-quizzes funcionan si no bloquean el trabajo principal del email y no parecen juegos de spam.",
+        "Traslada la técnica: un gancho claro + valor + botón. No pegues capturas ajenas en tu lista como «email listo».",
+      ],
+      lists: [
+        {
+          intro: "Qué poner en el checklist del email:",
+          items: [
+            "una idea principal en el asunto",
+            "un CTA claro above the fold",
+            "tono = marca",
+            "legibilidad en móvil",
+            "baja y consentimiento en orden",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Importante",
+          text: "Los ejemplos de marca ilustran técnicas a fecha de la publicación 2020. Las campañas envejecen; no prometas las mismas métricas. Construye la lista solo con opt-in.",
+        },
+      ],
+      links: [
+        {
+          label: "Emails desde redes con consentimiento",
+          href: "/blog/baza-email-socseti/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Descompón 2–3 emails ajenos fuertes en una técnica (elección, tono, progreso, feedback) y lanza un A/B en tu lista segmentada — así la inspiración se vuelve resultado, no copia de layout.",
+  ],
+  related: [
+    "pochta-dlya-domena",
+    "formy-zahvata",
+    "triggernye-rassylki",
+    "baza-email-socseti",
+    "email-marketing-2020",
+  ],
+} as BlogPost;

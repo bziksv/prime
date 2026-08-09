@@ -140,3 +140,145 @@ export const udalenieAkkauntaInstagramEn: BlogPost = {
     "tenevoy-ban-instagram",
   ],
 };
+
+/** ES overlay for udalenie-akkaunta-instagram — same structure as RU JSON / EN. */
+export const udalenieAkkauntaInstagramEs: BlogPost = {
+  slug: "udalenie-akkaunta-instagram",
+  title:
+    "Borrar una cuenta de Instagram: personal, business y una pausa temporal",
+  date: "2020-10-06",
+  category: "SMM",
+  cover: "/images/blog/udalenie-akkaunta-instagram/cover.webp",
+  excerpt:
+    "En qué se diferencian la desactivación temporal, pasar un perfil business a personal y borrar para siempre una cuenta de Instagram — y qué normalmente no se puede deshacer.",
+  lead: [
+    "Puedes dejar Instagram de distintas formas: ocultar el perfil un tiempo, pasar una cuenta business a personal o borrar el perfil para siempre. Son escenarios distintos con efectos distintos sobre contenido, stats y el handle.",
+    "Las etiquetas de menú de Meta cambian; revisa la ruta exacta en Accounts Center o Instagram Help. Abajo: la lógica de la elección y los riesgos — no capturas obsoletas de botones. Ver la nota de Meta en esta página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Se puede borrar una cuenta solo desde la app?",
+      a: "La eliminación completa a menudo exigía un navegador. Ahora la ruta puede estar in-app vía Accounts Center — revisa los pasos actuales en Meta Help.",
+    },
+    {
+      q: "¿En qué se diferencia la desactivación del borrado?",
+      a: "Una pausa temporal suele ocultar el perfil y permite volver iniciando sesión. El borrado completo elimina contenido y followers; restaurar la misma cuenta en general es imposible.",
+    },
+    {
+      q: "¿Pasar a cuenta personal es lo mismo que borrar?",
+      a: "No. Es un cambio de tipo de perfil. Las stats business o professional pueden dejar de estar disponibles, pero el feed suele quedarse.",
+    },
+    {
+      q: "¿Se libera el username tras el borrado?",
+      a: "No cuentes con recuperar rápido el mismo username. La política de Meta ha cambiado; el nombre a menudo sigue no disponible o se toma de otra forma.",
+    },
+    {
+      q: "¿Qué debería hacer antes de borrar una cuenta business?",
+      a: "Exporta media importante, apaga ads y pagos, y revisa Facebook/WhatsApp vinculados más el acceso del staff en Accounts Center.",
+    },
+  ],
+  sections: [
+    {
+      title: "Tres escenarios: pausa, cambio de tipo, borrado",
+      level: 2,
+      paras: [
+        "La desactivación temporal (o una «pausa») es para cuando necesitas un break sin perder historial: el perfil se oculta; iniciar sesión suele restaurar el acceso.",
+        "Pasar de business o professional a personal es para cuando ya no hacen falta stats ni botones de contacto. Eso no es cerrar la cuenta.",
+        "El borrado completo es irreversible: posts, Stories archivadas, followers y chats de la cuenta se van con ella.",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          text: "Antes de cualquier escenario, guarda los archivos que necesitas y revisa cuentas Meta vinculadas — o puedes perder acceso a ads o mensajería.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Desactivación temporal",
+      level: 2,
+      paras: [
+        "Funciona cuando estás cansado del feed o quieres ocultarte un tiempo pero no estás listo para perder contenido. Suele pedirse un motivo, confirmar con contraseña y ocultar el perfil.",
+        "Volver suele ser solo iniciar sesión otra vez. La redacción exacta («temporarily disable», «deactivate») depende de la versión de UI.",
+      ],
+      lists: [
+        {
+          intro: "Antes de una pausa:",
+          items: [
+            "avisa al equipo si es una cuenta de trabajo",
+            "apaga o pausa ads",
+            "asegúrate de conocer la contraseña y el email/teléfono de backup",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Perfil business → personal",
+      level: 2,
+      paras: [
+        "El modo business o professional da insights, contactos en el header y un enlace a ads más fácil. Volver a personal suele apagar eso.",
+        "Cerrar un perfil business «para gente selecta» como una cuenta personal privada a menudo no es posible en el mismo sentido: un escaparate comercial se construye para la apertura. Puedes limitar Stories y partes de la audiencia con otros settings de privacy — no lo confundas con el borrado.",
+        "El setup de tipo de cuenta en detalle vive en el artículo del perfil business.",
+      ],
+    },
+    {
+      title: "Borrado completo de la cuenta",
+      level: 2,
+      paras: [
+        "El borrado suele ir por Accounts Center o la página de eliminación de Instagram en el navegador: elige la cuenta, un motivo y confirma.",
+        "Tras confirmar, aplica la política de Meta sobre plazos y una ventana corta de cancelación (si tu versión la tiene) — no te fíes de rumores de guías viejas de 2020.",
+        "Volver a registrarte con el mismo email a veces es posible, pero el mismo handle y el mismo feed no. No puedes traer de vuelta a los followers con un botón.",
+      ],
+      lists: [
+        {
+          intro: "Checklist antes del borrado:",
+          items: [
+            "exporta o guarda a mano fotos y vídeos clave",
+            "desvincula cuentas de ads y pagos",
+            "revoca acceso del staff",
+            "confirma que borras el perfil correcto, no un vecino en Accounts Center",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          text: "Confundir «pasar a personal» con «borrar para siempre». Lo primero mantiene la cuenta; lo segundo no.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Recuperación y alternativas",
+      level: 2,
+      paras: [
+        "Tras el borrado completo en general no puedes restaurar la misma cuenta. Un perfil nuevo significa nombre nuevo, audiencia nueva y warm-up.",
+        "Si el objetivo es silencio, no quemar puentes, prueba la desactivación temporal o simplemente quedarte en silencio sin borrar.",
+        "Si la cuenta fue hackeada o bloqueada — es otro proceso (report, recuperación de acceso), no «borrar y recrear» como único camino. Ver artículos sobre bloqueos y contraseñas.",
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Una pausa conserva el contenido; un cambio de tipo quita herramientas business; el borrado es irreversible para el feed y los followers.",
+        "La ruta actual de botones vive solo en Meta Help; el sentido de los escenarios es más estable que las etiquetas de menú.",
+      ],
+    },
+  ],
+  closing: [
+    "Decide el objetivo (pausa, soltar stats o cierre completo), guarda lo que importa y solo entonces confirma el borrado — menos sorpresas con el handle y los ads.",
+  ],
+  related: [
+    "biznes-akkaunt-instagram",
+    "blokirovka-instagram",
+    "razblokirovka-instagram",
+    "parol-instagram",
+    "svyazka-instagram-facebook",
+    "tenevoy-ban-instagram",
+  ],
+};

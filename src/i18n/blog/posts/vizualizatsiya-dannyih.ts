@@ -134,3 +134,138 @@ export const vizualizatsiyaDannyihEn: BlogPost = {
     "metrika-ustanovka",
   ],
 };
+
+/** ES overlay for vizualizatsiya-dannyih — same structure as RU JSON / EN. */
+export const vizualizatsiyaDannyihEs: BlogPost = {
+  slug: "vizualizatsiya-dannyih",
+  title: "Herramientas de visualización de datos: panorama para marketing",
+  date: "2019-06-17",
+  category: "Content marketing",
+  cover: "/images/blog/vizualizatsiya-dannyih/cover.webp",
+  excerpt:
+    "Looker Studio, Power BI, Tableau y otras herramientas para informes y dashboards — cómo elegir sin precios obsoletos de 2019 y sin confundirlas con infografías de artículo.",
+  lead: [
+    "La visualización de datos en marketing significa convertir exports de analítica, ads y CRM en informes y dashboards legibles. No es lo mismo que una infografía para un artículo — aquí importan conectores, calendarios de refresh y filtros.",
+    "Abajo: orientación sobre plataformas populares. Precios y nombres de producto cambian (Google Data Studio → Looker Studio); revisa las condiciones actuales en los sitios de los vendors. Las menciones de Instagram* y Facebook* Ads son informativas. Ver la nota Meta en esta página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* y Facebook* son productos de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia de las infografías?",
+      a: "Las infografías son diagramas estáticos o editoriales para una historia. Las herramientas de visualización aquí son informes y dashboards, a menudo con datos en vivo y acceso por enlace.",
+    },
+    {
+      q: "¿Por dónde empieza un principiante?",
+      a: "Con Looker Studio (antes Data Studio) o una herramienta similar con conectores listos a Yandex Metrika/Analytics — punto de entrada gratis sin código.",
+    },
+    {
+      q: "¿Necesito Power BI o Tableau ya?",
+      a: "Si tienes muchas fuentes, controles de acceso corporativos y modelos complejos — sí. Para un informe de marketing simple suelen ser excesivos.",
+    },
+    {
+      q: "¿Siguen valiendo los precios de resúmenes viejos?",
+      a: "No. Usa la lista de precios actual del vendor; lo que sigue es solo lógica de selección — sin cifras en dólares fijadas de 2019.",
+    },
+    {
+      q: "¿Se puede sin developer?",
+      a: "Dashboards básicos — sí. Modelos complejos, ETL y conectores custom a menudo necesitan un analista.",
+    },
+    {
+      q: "¿Cómo entregas un informe al cliente?",
+      a: "Enlace solo lectura, export PDF o iframe embebido — sigue la política de datos de la empresa.",
+    },
+    {
+      q: "¿Qué importa más que gráficos bonitos?",
+      a: "Métricas correctas, periodo, filtros y una etiqueta de «qué estamos contando». La basura bonita es más peligrosa que la verdad aburrida.",
+    },
+  ],
+  sections: [
+    {
+      title: "El trabajo y los criterios de selección",
+      level: 2,
+      paras: [
+        "Primero fija: qué fuentes (Yandex Metrika, cuentas de ads, CRM, hojas), quién lee el informe, con qué frecuencia refrescar y si hace falta acceso compartido.",
+        "Revisa: conectores out-of-the-box, límites del plan gratis, opciones de export y sharing, soporte de cirílico y fuentes locales (Yandex).",
+      ],
+      links: [
+        {
+          label: "Infografías",
+          href: "/es/blog/infografika/",
+        },
+      ],
+    },
+    {
+      title: "Looker Studio (Google Data Studio)",
+      level: 2,
+      paras: [
+        "Un constructor de informes gratis con conectores a productos Google y muchas fuentes partner (incluidas cuentas de ads y hojas). Fácil de compartir por enlace y programar por email.",
+        "Pros: arranque rápido sin código, plantillas, encaje con el ecosistema Google. Contras: límites en cálculos pesados; algunos conectores partner son de pago o con cuota.",
+      ],
+      notes: [
+        {
+          title: "Cambio de nombre",
+          kind: "tip",
+          text: "En la UI y la docs busca Looker Studio — misma lógica que las guías viejas de Data Studio.",
+        },
+      ],
+    },
+    {
+      title: "Power BI y Tableau",
+      level: 2,
+      paras: [
+        "Power BI (Microsoft) es fuerte si el equipo ya vive en Excel, Azure o SQL Server: visuals ricos, hosting en la nube, comparación de fuentes. Existe un plan gratis; las features corporativas van en SKUs de pago. Contras: volúmenes pesados y algunos conectores Yandex/Google necesitan setup extra.",
+        "Tableau ofrece analítica visual fuerte y trabajo multi-fuente, más acceso de equipo y publicación. La potencia completa está en ediciones de pago; para un PDF de marketing ligero a menudo es más de lo que necesitas.",
+      ],
+    },
+    {
+      title: "Constructores ligeros de gráficos",
+      level: 2,
+      paras: [
+        "ChartBlocks, Plotly, Infogram y similares encajan cuando necesitas un gráfico embebible o interactivo para un sitio o presentación — no un stack BI completo.",
+        "Revisa: límites del plan gratis, watermarks, fuentes cirílicas, formatos de export (PNG, SVG, HTML) y derechos de publicación. Precios y límites envejecen rápido — verifica antes de elegir.",
+      ],
+      lists: [
+        {
+          intro: "Escenarios típicos:",
+          items: [
+            "un gráfico en un artículo — constructor ligero o Excel/Sheets",
+            "informe de marketing semanal — Looker Studio o Power BI",
+            "analítica corporativa con roles — Power BI o Tableau",
+            "gráficos científicos o custom — Plotly y código",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Dashboards todo-en-uno",
+      level: 2,
+      paras: [
+        "Herramientas como DataDeck y pares reúnen widgets de ads, analítica y hojas en un panel casi en tiempo real. Práctico para control operativo; revisa cobertura de conectores y si existen tus métricas.",
+        "No confundas un montón de widgets bonitos con insight de gestión: primero KPIs y las preguntas del manager, los gráficos después.",
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Elegir herramienta = fuentes + audiencia del informe + presupuesto de licencia.",
+        "El significado de la métrica gana a una galería de tipos de gráfico.",
+        "Infografía de contenido y dashboard BI son trabajos distintos.",
+      ],
+    },
+  ],
+  closing: [
+    "Arma un informe con dos fuentes que ya uses (p. ej. Yandex Metrika más una hoja de plan), y luego decide si necesitas BI de pago.",
+  ],
+  related: [
+    "infografika",
+    "kontent-marketing-metrika",
+    "idei-kontent-prodvizheniya",
+    "matritsa-kontenta",
+    "google-analytics",
+    "metrika-ustanovka",
+  ],
+};

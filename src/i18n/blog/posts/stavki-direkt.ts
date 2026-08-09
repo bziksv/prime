@@ -154,3 +154,158 @@ export const stavkiDirektEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for stavki-direkt — same structure as RU JSON / EN. */
+export const stavkiDirektEs: BlogPost = {
+  slug: "stavki-direkt",
+  title: "Pujas en Yandex Direct: configuración y gestión",
+  date: "2021-03-05",
+  category: "Paid search",
+  cover: "/images/blog/stavki-direkt/cover.webp",
+  excerpt:
+    "Cómo funcionan las pujas en Yandex Direct: control manual y automático, impresiones, precio del clic y qué mirar más allá de «puja más alto».",
+  lead: [
+    "Una puja en Direct afecta la chance de mostrar y el precio del clic, pero no fija una posición para siempre. Subasta, calidad del anuncio y relevancia de la landing deciden juntos.",
+    "Abajo: la lógica de gestionar pujas e impresiones. La UI de Direct cambia — revisa los nombres actuales de estrategias en la Ayuda de Yandex.",
+  ],
+  faq: [
+    {
+      q: "¿Una puja más alta siempre significa una posición más alta?",
+      a: "No siempre. Cuentan puja, calidad y CTR previsto. A veces gana un competidor más relevante.",
+    },
+    {
+      q: "¿Debo usar estrategias manuales o automáticas?",
+      a: "Al inicio, a menudo control manual o autos simples con caps. Cuando hay conversiones — puedes inclinarte más a la auto-optimización.",
+    },
+    {
+      q: "¿Qué importa más que la puja?",
+      a: "Oferta, negativos, anuncio y landing. Una puja cara en una landing floja quema presupuesto.",
+    },
+    {
+      q: "¿Hacen falta ajustes de puja?",
+      a: "Sí: dispositivo, región, hora — si tienes datos. Sin datos, no cambies todo a la vez.",
+    },
+    {
+      q: "¿Cómo elijo el CPC?",
+      a: "Desde la economía: margen, conversión del sitio, CPA objetivo — no desde un vago «promedio del mercado».",
+    },
+    {
+      q: "¿Cada cuánto revisitar las pujas?",
+      a: "Tras datos suficientes: suele ser cada pocos días en campañas activas y semanal en las más tranquilas. No cambies docenas de parámetros a la vez.",
+    },
+    {
+      q: "¿Puedo juzgar una campaña solo por CTR?",
+      a: "No. Un CTR alto sin leads no paga los ads. Cruza clics con conversiones, coste por lead y calidad de la consulta.",
+    },
+  ],
+  sections: [
+    {
+      title: "Fijar pujas",
+      level: 2,
+      paras: [
+        "Fija la estrategia a nivel campaña o grupo, limita el presupuesto diario, revisa geo y horario. Mantén keywords, ads y landing alineados en significado.",
+        "Antes del lanzamiento, define qué cuenta como resultado: lead, llamada, pedido o alta. Entonces la puja no es un número de visibilidad — es parte de un cálculo de coste de adquisición aceptable.",
+      ],
+      lists: [
+        {
+          intro: "Antes de subir una puja:",
+          items: [
+            "¿hay conversiones de esta keyword?",
+            "¿el presupuesto se fuga a irrelevancia?",
+            "¿la landing carga rápido?",
+            "¿el anuncio está aprobado y es clicable?",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Bases de la cuenta de ads",
+          href: "/es/blog/reklamnyy-kabinet/",
+        },
+      ],
+    },
+    {
+      title: "Gestionar impresiones",
+      level: 2,
+      paras: [
+        "Las impresiones dependen de puja, competencia y estado de la keyword. Revisa motivos de pocas impresiones en stats: presupuesto, puja, negativos, moderación.",
+        "No intentes recuperar alcance con una subida brusca. Primero separa consultas comerciales de investigación, revisa el encaje anuncio–consulta y excluye formulaciones fuera de target.",
+      ],
+      lists: [
+        {
+          intro: "Palancas:",
+          items: [
+            "puja / estrategia",
+            "presupuesto",
+            "ajustes",
+            "calidad del anuncio",
+            "negativos y exclusiones de emplazamiento (para redes)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Herramientas y sentido común",
+      level: 2,
+      paras: [
+        "Los wizards y recomendaciones de Direct son pistas, no órdenes. Crúzalos con unit economics. No persigas el bloque alto a cualquier coste.",
+        "Compara no la posición media, sino gasto → conversiones → ingresos. A veces una impresión menos visible trae leads más baratos, mientras el tráfico más caro solo arma stats bonitas.",
+      ],
+      lists: [
+        {
+          intro: "Errores:",
+          items: [
+            "pujar por pujar sin goals",
+            "una sola puja para todas las keywords de distinto valor",
+            "ignorar el tráfico móvil",
+            "sin enlace a Yandex Metrika",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Instalar Yandex Metrika",
+          href: "/es/blog/metrika-ustanovka/",
+        },
+      ],
+    },
+    {
+      title: "Control manual y auto-estrategias",
+      level: 2,
+      paras: [
+        "El control manual ayuda cuando las campañas son nuevas, las conversiones escasean o el valor de las keywords difiere mucho. Puedes ver qué consultas queman presupuesto y fijar prioridades con cuidado.",
+        "Las auto-estrategias brillan cuando analytics envía goals correctos y hay un volumen de datos estable. Fija un objetivo claro de coste de conversión o presupuesto — y no cambies el goal cada día.",
+      ],
+      lists: [
+        {
+          intro: "Antes de activar una auto-estrategia, revisa:",
+          items: [
+            "los goals de Metrika coinciden con consultas reales",
+            "goals duplicados y leads de test están excluidos",
+            "la campaña tiene presupuesto suficiente para aprender",
+            "los tipos de tráfico no se mezclan sin motivo",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo controlar resultados",
+      level: 2,
+      paras: [
+        "Mantén un informe corto regular: gasto, clics, conversiones, CPA, cuota de consultas cualificadas e ingresos si puedes pasarlos. Prefiere desgloses por campaña, dispositivo, región y grupos de demanda.",
+        "Cambia por hipótesis: pausa una keyword no rentable, mejora la landing móvil o retoca el horario. Tras un cambio, deja que la campaña reúna stats y anota la conclusión.",
+      ],
+      lists: [
+        {
+          intro: "Chequeos semanales que ayudan:",
+          items: [
+            "términos de búsqueda y nuevos negativos",
+            "brecha entre gasto y CPA objetivo",
+            "formularios, call tracking y goals",
+            "cambios de competencia y estacionalidad",
+          ],
+        },
+      ],
+    },
+  ],
+};

@@ -136,3 +136,140 @@ export const prosmotrZakrytogoAkkauntaEn: BlogPost = {
     "nayti-cheloveka-instagram",
   ],
 };
+
+/** ES overlay for prosmotr-zakrytogo-akkaunta — same structure as RU JSON / EN. */
+export const prosmotrZakrytogoAkkauntaEs: BlogPost = {
+  slug: "prosmotr-zakrytogo-akkaunta",
+  title: "Cómo ver una cuenta privada de Instagram: solo opciones legales",
+  date: "2020-07-13",
+  category: "SMM",
+  cover: "/images/blog/prosmotr-zakrytogo-akkaunta/cover.webp",
+  excerpt:
+    "Qué ves de verdad en un perfil privado de Instagram, por qué los «hacks» y apps de terceros son una trampa, y por qué el único camino built-in al feed es un follow request.",
+  lead: [
+    "Un perfil privado de Instagram oculta a propósito posts y Stories a los no-followers. Guías viejas prometían «workarounds», fakes y apps — eso es territorio de fraude y de romper las reglas de la plataforma.",
+    "Abajo: cómo funciona la privacy, qué puedes hacer legalmente y qué evitar. Es un desglose informativo, no una guía de hacking ni de saltarse el ToS. La nota de Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Hay una forma oficial de ver el feed privado de alguien sin seguir?",
+      a: "No. El camino built-in es enviar un request y esperar a que el dueño acepte.",
+    },
+    {
+      q: "¿Funcionan los sitios «view private Instagram»?",
+      a: "Casi siempre son scam, phishing o malware. Pagar «por acceso» no abre el feed de otro.",
+    },
+    {
+      q: "¿Puedo hackear una cuenta privada?",
+      a: "Las ofertas de «hack por dinero» son fraude. Los intentos de acceso no autorizado son ilegales e inútiles para una tarea normal.",
+    },
+    {
+      q: "¿Qué puedo ver sin seguir?",
+      a: "Suele ser avatar, nombre, bio, contadores y un botón de request — sin la grid de publicaciones.",
+    },
+    {
+      q: "¿Una cuenta falsa me ayudará a entrar?",
+      a: "Eso es engañar al dueño y un riesgo de reglas de Meta. No recomendamos ese escenario.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo funciona un perfil privado",
+      level: 2,
+      paras: [
+        "El dueño activa privacy: los nuevos followers pasan por Accept / Decline manual.",
+        "Hasta la aceptación, el feed, Highlights y Stories no están disponibles para un invitado. Tras un decline, el acceso no aparece «solo».",
+        "Los followers ya aceptados ven contenido hasta que los quiten o restrinjan.",
+      ],
+      links: [
+        {
+          label: "Cómo hacer privada una cuenta",
+          href: "/es/blog/zakrytyy-akkaunt-instagram/",
+        },
+      ],
+    },
+    {
+      title: "El único camino built-in: un request",
+      level: 2,
+      paras: [
+        "Abre el perfil → «Follow» / «Request» y espera la decisión del dueño.",
+        "Si ver el contenido importa — escribe a la persona fuera de Instagram (cuando encaje) y explica el interés. A menudo más rápido que cualquier «servicio».",
+        "Dejar de seguir después es tu derecho; forzar el acceso con presión o engaño no.",
+      ],
+      lists: [
+        {
+          intro: "Antes de pedir:",
+          items: [
+            "avatar y nombre claros — menos declines de «extraño»",
+            "sin historial de spam de requests masivos",
+            "disposición a aceptar un «no» sin escalar",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Por qué los «workarounds» son mala idea",
+      level: 2,
+      paras: [
+        "Apps de terceros y sitios «private viewer» prometen un feed sin seguir. En la práctica: dinero cobrado, login/sesión robados, malware en el teléfono.",
+        "Cazar «agujeros» en la app, tiendas falsas para que te acepten, ver desde la cuenta de otro sin consentimiento — violaciones de confianza y de reglas del servicio.",
+        "No desglosamos ni catalogamos esos esquemas: envejecen, son peligrosos y éticamente inaceptables.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Importante",
+          text: "Si alguien ofrece «hackear Instagram por una tarifa» — es un scam. No compartas contraseñas ni códigos de confirmación.",
+        },
+      ],
+    },
+    {
+      title: "Enlaces a otras redes",
+      level: 2,
+      paras: [
+        "A veces una persona cerró Instagram pero dejó un perfil abierto en otro sitio — es su elección de publicación, no un «agujero» de Instagram.",
+        "Copiar materiales privados ajenos sin permiso es un riesgo aparte (copyright, ética, confianza).",
+        "Para negocio, el monitoreo competitivo se construye con datos abiertos, capturas acordadas y analítica legal — no con utilidades de espionaje.",
+      ],
+      links: [
+        {
+          label: "Stories «incógnito» y riesgos del servicio",
+          href: "/es/blog/stories-instagram-inkognito/",
+        },
+      ],
+    },
+    {
+      title: "Si eres dueño de un perfil privado",
+      level: 2,
+      paras: [
+        "Revisa requests con regularidad: acepta a la gente correcta, rechaza a los dudosos.",
+        "Comprueba si el mismo contenido se filtra a canales más abiertos (cross-post, sitio, otras redes).",
+        "Para parte de la audiencia Close Friends es más fácil que pasar a totalmente privado — depende del objetivo.",
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Sin un request aceptado el feed privado no está disponible oficialmente.",
+        "Las apps «view private» casi siempre te perjudican a ti, no abren la cuenta de otro.",
+        "El camino normal — un request, una conversación y respeto a una negativa.",
+      ],
+    },
+  ],
+  closing: [
+    "Necesitas acceso a un perfil privado — envía un request o habla con el dueño. Todo lo demás de guías viejas de «workarounds» es mejor dejarlo en el pasado.",
+  ],
+  related: [
+    "zakrytyy-akkaunt-instagram",
+    "stories-instagram-inkognito",
+    "udalenie-akkaunta-instagram",
+    "feyk-stranitsa",
+    "razblokirovka-instagram",
+    "nayti-cheloveka-instagram",
+  ],
+};

@@ -202,3 +202,206 @@ export const tselevayaAuditoriyaEn: BlogPost = {
     "optimizatsiya-konversii",
   ],
 };
+
+/** ES overlay for tselevaya-auditoriya — same structure as RU JSON / EN. */
+export const tselevayaAuditoriyaEs: BlogPost = {
+  slug: "tselevaya-auditoriya",
+  title: "Cómo definir tu audiencia objetivo: preguntas y segmentos",
+  date: "2019-07-12",
+  category: "SEO",
+  cover: "/images/blog/tselevaya-auditoriya/cover.webp",
+  excerpt:
+    "Un desglose práctico de audiencia: demografía, jobs, anti-persona, segmentos y fuentes de datos — para que ads y contenido no disparen al vacío.",
+  lead: [
+    "La audiencia objetivo son personas cuyo problema tu producto resuelve de verdad. Sin ella, el keyword research, los ads y el copy viven de «intuición»: el presupuesto se va en clics y los leads son aleatorios.",
+    "Abajo: un set de preguntas y pasos para armar un retrato en un tiempo razonable, cortar no-targets y dividir la audiencia en segmentos. Es base tanto para el núcleo SEO como para creatividades — no sustituye un estudio de mercado completo.",
+  ],
+  faq: [
+    {
+      q: "¿Por dónde empiezo si aún tengo pocos clientes?",
+      a: "Hipótesis más datos de competidores y del nicho: quién compra a los líderes, qué formulaciones aparecen en reseñas y consultas. Luego afina con encuestas y analytics de las primeras ventas.",
+    },
+    {
+      q: "¿La audiencia para SEO y ads es la misma?",
+      a: "El núcleo es el mismo; los cortes pueden diferir: la búsqueda cuida intents y formulación de consultas, los ads sociales — intereses y lookalikes. Un retrato, canales distintos.",
+    },
+    {
+      q: "¿Hace falta una persona detallada?",
+      a: "Una persona ayuda al equipo a hablar el mismo idioma. Para empezar bastan 2–4 segmentos con job, barrera y canal; «nombre y hobby» es opcional.",
+    },
+    {
+      q: "¿Qué es una anti-persona?",
+      a: "Quién definitivamente no es tu cliente: otra ciudad o presupuesto, una marca rival, cazadores de gangas, B2C cuando vendes B2B. Las exclusiones ahorran presupuesto y ruido en analytics.",
+    },
+    {
+      q: "¿De dónde saco datos de audiencia?",
+      a: "CRM y leads, Yandex Metrika/Analytics, Webmaster/GSC, Wordstat y el núcleo de keywords, encuestas, reseñas, stats sociales, entrevistas a managers de ventas.",
+    },
+    {
+      q: "¿Es obligatoria la demografía?",
+      a: "A menudo sí como filtro, pero importan más el job y el contexto de compra. «Mujeres 25–45» sin dolor ni triggers es un brief flojo.",
+    },
+    {
+      q: "¿Cómo se liga la audiencia al keyword research?",
+      a: "Los segmentos sugieren clusters de consultas y tono de landing. Un núcleo de keywords sin audiencia se llena fácil de formulaciones no objetivo.",
+    },
+    {
+      q: "¿Cuántos segmentos es normal?",
+      a: "Suele ser 2–5 que funcionen. Docenas de «micro-personas» sin ofertas y creatividades distintas es burocracia.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué describir la audiencia con claridad",
+      level: 2,
+      paras: [
+        "Un buen producto vendido a la persona equivocada rinde mal: oferta incorrecta, tono descentrado, keywords inútiles en ads. Una descripción de audiencia es un lenguaje compartido para SEO, contenido, paid search y ventas.",
+        "El objetivo no es «adivinar a todo el mundo» — es fijar a quién prometes un resultado y a quién dejas conscientemente fuera de foco.",
+      ],
+      lists: [
+        {
+          intro: "Sin audiencia, suelen sufrir:",
+          items: [
+            "keywords y copy — ruido y canibalización",
+            "ads — clics caros no objetivo",
+            "landings — respuesta floja en el primer pantallazo",
+            "analytics — poco claro qué cuenta como éxito",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Núcleo semántico",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Copy de landing",
+          href: "/es/blog/tekst-lendinga/",
+        },
+      ],
+    },
+    {
+      title: "Preguntas básicas: quién y dónde",
+      level: 2,
+      paras: [
+        "Empieza por demografía y geografía — como marco, no como toda la verdad. Género, edad, ciudad/región, dispositivo (móvil/desktop) cortan basura obvia y ayudan a fijar targeting.",
+        "Si tus propias stats son flojas — mira competidores con el mismo producto: audiencias de comunidad, reseñas, formulaciones del sitio. En nichos con comprador no obvio (regalos, B2B) apóyate en encuestas y entrevistas, no solo en «parece que».",
+      ],
+      lists: [
+        {
+          intro: "Fuentes al inicio:",
+          items: [
+            "encuestas a clientes y leads",
+            "hipótesis del dueño más chequeo con datos",
+            "stats sociales y lookalikes de líderes del nicho",
+            "geo y dispositivos en Yandex Metrika/Analytics",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Jobs, demanda adyacente y anti-persona",
+      level: 2,
+      paras: [
+        "Pregunta: qué servicio o producto buscan y qué más cubre la misma necesidad. El delivery de sushi compite no solo con otro sushi sino con pizza «para cenar en casa» — competidores indirectos por atención.",
+        "Por separado fija quién se irá de largo: vegetarianos en una carnicería, otra región de delivery, cazadores de gangas, personal de competidores. Una anti-persona ahorra negativos y presupuesto.",
+      ],
+      lists: [
+        {
+          intro: "Útil añadir al brief:",
+          items: [
+            "competidores directos (mismo producto)",
+            "indirectos (mismo job, otra vía)",
+            "qué más interesa al comprador junto a ti",
+            "a quién excluimos del targeting y del núcleo de keywords",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Análisis de competidores",
+          href: "/es/blog/analiz-konkurentov/",
+        },
+      ],
+    },
+    {
+      title: "Perfil y segmentos",
+      level: 2,
+      paras: [
+        "Arma un perfil de segmento: rol (quién paga / quién usa), job, barrera, canal de contacto, consulta típica. En redes mira qué siguen y escriben — como pista de interés, no verdad absoluta.",
+        "La segmentación importa cuando la oferta o la creatividad cambian de verdad: principiante vs experto, B2B vs B2C, «urgente» vs «comparar». Un retrato promedio para todo el catálogo suele ser más débil que dos o tres claros.",
+      ],
+      lists: [
+        {
+          intro: "Campos del segmento:",
+          items: [
+            "quién y en qué rol",
+            "job / JTBD",
+            "barrera y objeción",
+            "cuándo aparece la necesidad",
+            "dónde piden consejo (búsqueda, chats, creators)",
+            "keyword o cluster principal para SEO",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Triggers: cuándo y por qué compran",
+      level: 2,
+      paras: [
+        "La compra se liga a un momento: temporada, avería, lanzamiento de proyecto, regalo, deadline. En B2B a menudo hace falta un negocio o flota de equipos ya existentes — sin eso, el reach frío no sirve.",
+        "Mapea qué jobs cierra el producto (adelgazar / ganar masa / mantener forma en fitness) — eso da landings, ads y clusters de consultas distintos.",
+      ],
+      lists: [
+        {
+          intro: "Preguntas de chequeo:",
+          items: [
+            "qué debe pasar para que alguien empiece a buscarte",
+            "para qué «job» contratan tu producto",
+            "qué ejemplo o experto influye en la elección",
+            "qué debe haber en el primer pantallazo para el segmento",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Landing page",
+          href: "/es/blog/lending/",
+        },
+      ],
+    },
+    {
+      title: "Cómo fijarlo y no perderlo",
+      level: 2,
+      paras: [
+        "El resultado es una tabla corta de segmentos en un solo sitio (Notion/hoja), ligada a negativos, clusters de keywords y creatividades. Una vez al trimestre, contrasta con leads reales: la audiencia deriva si el producto o el mercado se movieron.",
+        "No mezcles reach con calidad: crecimiento de tráfico sin encaje de segmento es ruido. Mejor menos visitas con un job claro y conversión.",
+      ],
+      lists: [
+        {
+          intro: "Ritmo:",
+          items: [
+            "borrador de audiencia en una sesión de preguntas",
+            "chequeo contra 20–50 leads/pedidos reales",
+            "fijar negativos y landings",
+            "repetir tras un cambio de oferta o región",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "semanticheskoe-yadro",
+    "analiz-konkurentov",
+    "lending",
+    "tekst-lendinga",
+    "brendovyy-trafik",
+    "optimizatsiya-konversii",
+  ],
+};

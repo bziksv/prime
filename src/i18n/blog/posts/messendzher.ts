@@ -157,3 +157,169 @@ export const messendzherEn: BlogPost = {
     "obratnyy-zvonok",
   ],
 };
+
+/** ES overlay for messendzher — same structure as RU JSON / EN. */
+export const messendzherEs: BlogPost = {
+  slug: "messendzher",
+  title: "Qué es un messenger: tipos, funciones y uso en negocio",
+  date: "2021-01-15",
+  category: "SMM",
+  cover: "/images/blog/messendzher/cover.webp",
+  excerpt:
+    "Un messenger es una app o cliente web para mensajes instantáneos, llamadas y archivos. En qué se diferencian WhatsApp*, Telegram y los chats de trabajo — y cómo desplegarlos sin spam.",
+  lead: [
+    "Un messenger es un programa o cliente web para mensajería instantánea por internet: texto, media, archivos, a menudo llamadas y grupos. Ambas personas necesitan el mismo servicio y conexión de red.",
+    "Abajo: qué significa el formato, un vistazo a apps populares sin tomar por dogma «miles de millones de usuarios de un artículo de 2021», y cómo las adoptan las empresas. Cifras de audiencia y UI cambian — revisa datos actuales. Los productos de Meta* se mencionan solo a título informativo.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar las plataformas. WhatsApp*, Facebook Messenger* e Instagram* son productos de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia un messenger del SMS?",
+      a: "Va por datos/Wi‑Fi, suele ser más barato y más rico en media. El SMS queda como fallback y para códigos de servicio.",
+    },
+    {
+      q: "¿Puedo escribir desde WhatsApp* a Telegram?",
+      a: "No: los chats no cruzan messengers. Ambas personas necesitan el mismo servicio.",
+    },
+    {
+      q: "¿Una versión de navegador cuenta como messenger?",
+      a: "Sí, si es el cliente web oficial del mismo servicio. A menudo necesita vínculo con el teléfono o un login aparte.",
+    },
+    {
+      q: "¿Qué debería elegir un negocio en Rusia?",
+      a: "Donde ya estén clientes y equipo: a menudo Telegram, MAX y otros según el nicho; WhatsApp* si la audiencia está ahí. No abras cinco canales sin un playbook de respuesta.",
+    },
+    {
+      q: "¿Un chat de trabajo es lo mismo que un messenger personal?",
+      a: "UX parecida, pero una empresa necesita políticas: qué se puede enviar, dónde viven los archivos, quién administra, qué pasa cuando sale personal.",
+    },
+    {
+      q: "¿Son legales las broadcasts por messenger?",
+      a: "Solo con consentimiento y bajo las reglas de la plataforma/ley. Spamear una lista de números arriesga bloqueos y quejas.",
+    },
+    {
+      q: "¿Un messenger sustituye al CRM?",
+      a: "No. Los chats son un canal. Deals, estados y ownership van en CRM o un tracker compartido.",
+    },
+    {
+      q: "¿Hace falta un Facebook Messenger* aparte?",
+      a: "Si la audiencia está ahí y puedes responder. Atiende a las reglas de la plataforma y la jurisdicción; este artículo es informativo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo funciona un messenger",
+      level: 2,
+      paras: [
+        "Tras instalar o iniciar sesión ves una lista de chats. Los mensajes van a los servidores del servicio (u otra arquitectura) y llegan a la otra persona cuando está online.",
+        "Kit típico: texto, foto/vídeo, documentos, confirmaciones de lectura, grupos, a veces canales, bots, llamadas. Las funciones exactas dependen del producto y la versión.",
+        "Una clase aparte son los widgets de live-chat en el sitio: sigue siendo chat, pero dentro de tu dominio y flujo de soporte — no un messenger «mundial» de consumo.",
+      ],
+    },
+    {
+      title: "Servicios de consumo populares",
+      level: 2,
+      paras: [
+        "WhatsApp* — un messenger masivo ligado a un número de teléfono, con chats, llamadas y una pista business. Los límites de multi-cuenta y dispositivos cambian — revisa la Help actual, no una guía de 2021.",
+        "Telegram — chats, canales, bots, fuerte para contenido y soporte; políticas y disponibilidad por región son otra historia.",
+        "Viber — chats y llamadas; a algunos usuarios les molesta el ruido de ads — júzgalo tú.",
+        "Signal — privacy-first; menos «escaparate de negocio», más mensajería privada.",
+        "Skype — históricamente fuerte en llamadas; muchos equipos pasaron a otros stacks.",
+        "Facebook Messenger* — chats en el ecosistema Meta*; atiende al estatus legal y a las reglas de la plataforma en tu jurisdicción. Este material no invita a saltarse restricciones.",
+      ],
+      notes: [
+        {
+          title: "Cifras de «mil millones de usuarios»",
+          text: "Las estadísticas de roundups de 2021 envejecen rápido. Para elegir canal importa más dónde está tu audiencia que el marcador global de otro.",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "WhatsApp en Instagram*",
+          href: "/blog/whatsapp-v-instagram/",
+        },
+        {
+          label: "Broadcasts por WhatsApp*",
+          href: "/blog/rassylka-whatsapp/",
+        },
+        {
+          label: "Bots de Telegram",
+          href: "/blog/telegram-boty/",
+        },
+        {
+          label: "Telegram",
+          href: "/es/blog/telegram/",
+        },
+      ],
+    },
+    {
+      title: "Uso corporativo",
+      level: 2,
+      paras: [
+        "Dentro de una empresa un messenger acelera aprobaciones y archivos — si hay reglas: chats de trabajo ≠ off-topic infinito, secretos no en los DMs de un contratista sin contrato.",
+        "Para clientes — enlaces de canal en el sitio y un solo SLA de respuesta. Si no, «escribieron en tres sitios — nadie contestó».",
+        "Despliegue: comprueba si la audiencia usa el canal → elige 1–2 servicios → escribe escenarios → forma → vincula a CRM cuando puedas.",
+      ],
+      lists: [
+        {
+          intro: "Mini playbook:",
+          items: [
+            "horario y velocidad de respuesta",
+            "qué puedes prometer en el chat",
+            "dónde van los leads",
+            "quién posee el número/bot corporativo",
+            "sin broadcasts de spam sin consentimiento",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "CRM",
+          href: "/blog/crm/",
+        },
+        {
+          label: "Callback y canales de contacto",
+          href: "/blog/obratnyy-zvonok/",
+        },
+        {
+          label: "Formulario de contacto",
+          href: "/es/blog/forma-obratnoy-svyazi/",
+        },
+      ],
+    },
+    {
+      title: "Errores frecuentes",
+      level: 2,
+      paras: [
+        "Spamear números de desconocidos «porque el messenger es gratis».",
+        "Cinco canales sin dueño y sin CRM — caos, no omnichannel.",
+        "Guardar contraseñas y datos de la ficha del cliente en el chat.",
+        "Esperar «añadimos WhatsApp* — las ventas crecieron solas» sin oferta ni velocidad de respuesta.",
+      ],
+    },
+    {
+      title: "Ideas clave",
+      level: 2,
+      paras: [
+        "Un messenger es chat instantáneo por internet dentro de un mismo servicio.",
+        "Para negocio importa el canal de la audiencia, el playbook y el tracking de leads — no una colección de iconos.",
+        "Sigue las reglas de la plataforma y el consentimiento para los mensajes.",
+      ],
+    },
+  ],
+  closing: [
+    "Elige un messenger principal donde ya estén los clientes, ponlo en el sitio con un CTA claro y fija una regla de respuesta hacia el CRM — más útil que discutir de quién es más grande el «mil millones de usuarios».",
+  ],
+  related: [
+    "telegram",
+    "telegram-kanal",
+    "forma-obratnoy-svyazi",
+    "rassylka-whatsapp",
+    "telegram-boty",
+    "crm",
+  ],
+};

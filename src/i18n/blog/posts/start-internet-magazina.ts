@@ -156,3 +156,160 @@ export const startInternetMagazinaEn: BlogPost = {
     "Opening an online store means assembling economics, storefront, and a demand channel — not finding “one great book.” Learn by blocks and test ideas with orders, not with passive-million promises.",
   ],
 };
+
+/** ES overlay for start-internet-magazina — same structure as RU JSON / EN gold. */
+export const startInternetMagazinaEs: BlogPost = {
+  slug: "start-internet-magazina",
+  title: "Cómo arrancar una tienda online: qué aprender antes del lanzamiento",
+  date: "2020-11-10",
+  category: "E-commerce",
+  cover: "/images/blog/start-internet-magazina/cover.webp",
+  excerpt:
+    "Checklist de conocimientos antes de lanzar una tienda online: producto y unit economics, escaparate, pago y logística, marketing y SEO — sin promesas de «millón pasivo sin esfuerzo».",
+  lead: [
+    "Ideas del tipo «abre una tienda y pon las ventas en piloto automático» suelen venir de libros y cursos con títulos gritones. En la práctica una tienda es surtido, compras, escaparate, pago, entrega, servicio y marketing — no un «esquema secreto».",
+    "Recorre el checklist de abajo antes y justo después del lanzamiento, elige lecturas que enseñen operaciones y usa nuestros materiales prácticos. Nos saltamos a propósito las listas de «10 libros sobre un millón al día»: muchas están desfasadas o venden motivación en lugar de operaciones.",
+  ],
+  faq: [
+    {
+      q: "¿Por dónde empiezo sin experiencia?",
+      a: "Por el nicho y la unit economics: margen, compras, devoluciones, logística. Luego escaparate y pago, después tráfico. Los ads no salvan un sitio sin economía.",
+    },
+    {
+      q: "¿Basta con tu propio sitio o hace falta un marketplace?",
+      a: "Depende del modelo. Los marketplaces dan arranque más rápido y audiencia; tu sitio da marca y control del margen. Los equipos suelen combinar ambos.",
+    },
+    {
+      q: "¿Qué libros conviene leer?",
+      a: "Elige práctica: surtido, servicio, marketing a tu escala, finanzas. Desconfía de promesas de un millón pasivo «casi sin esfuerzo».",
+    },
+    {
+      q: "¿Sirven Rework y similares?",
+      a: "Como mentalidad de «hazlo más simple y más honesto» — sí. Como guía paso a paso de una tienda local con checkout y entrega — no; suma reglas locales y tu propia analítica.",
+    },
+    {
+      q: "¿Cuándo conectar SEO?",
+      a: "Tras la técnica básica, la estructura del catálogo y las fichas de producto. La prep lleva de semanas a alrededor de un mes; el crecimiento del núcleo a primera página se planifica en 2–6 meses, no «una semana tras los textos».",
+    },
+    {
+      q: "¿Qué importa más que el diseño al empezar?",
+      a: "Stock, precio, fichas, pago, entrega y velocidad de respuesta. Un escaparate bonito sin esas capas no convierte.",
+    },
+    {
+      q: "¿Hace falta un marketer de inmediato?",
+      a: "Al arrancar, el fundador más un contractor para sitio/ads suele bastar. Cuando los pedidos se estabilizan, crece el equipo o entra una agencia bajo KPIs.",
+    },
+  ],
+  sections: [
+    {
+      title: "Primero el negocio, luego un «sitio bonito»",
+      level: 2,
+      paras: [
+        "Antes del dominio, responde: qué vendes, a quién, de dónde salen los bienes, qué margen queda tras ads y devoluciones, cómo entregas y quién responde al cliente. Sin eso, listas de libros y plantillas de CMS no ayudan.",
+        "Leer ayuda cuando da proceso y casos a tu escala. Copiar a ciegas tácticas de grandes marcas es un error habitual de recopilatorios viejos de marketing.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo antes del lanzamiento:",
+          items: [
+            "nicho y USP",
+            "unit economics y colchón de capital de trabajo",
+            "proveedor y plazos de entrega",
+            "setup de pago y recibos",
+            "logística y devoluciones",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué estudiar por bloques",
+      level: 2,
+      paras: [
+        "Parte el aprendizaje en operaciones, escaparate y demanda. Así no te ahogas en bestsellers motivacionales.",
+      ],
+      lists: [
+        {
+          intro: "Operaciones:",
+          items: [
+            "compras, almacén, defectos, devoluciones",
+            "quién gestiona los pedidos",
+            "servicio y velocidad de respuesta",
+          ],
+        },
+        {
+          intro: "Escaparate:",
+          items: [
+            "nombre y confianza",
+            "categorías y fichas de producto",
+            "descripciones, fotos, stock, precio",
+            "pago online y entrega",
+          ],
+        },
+        {
+          intro: "Demanda:",
+          items: [
+            "búsqueda de pago y agregadores de precios",
+            "SEO de catálogo (horizonte de meses)",
+            "marketplaces si hace falta",
+            "ROMI del canal (retorno de la inversión en marketing), no «todo a la vez»",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Nombre de la tienda online",
+          href: "/blog/nazvanie-internet-magazina/",
+        },
+        {
+          label: "Promoción de tienda online",
+          href: "/es/blog/prodvizhenie-internet-magazina/",
+        },
+        {
+          label: "Pago online en el sitio",
+          href: "/es/blog/onlayn-oplata/",
+        },
+      ],
+    },
+    {
+      title: "Cómo leer libros y cursos sin ilusiones",
+      level: 2,
+      paras: [
+        "Los titulares de «un millón al día» e «ingresos pasivos sin esfuerzo» casi siempre son marketing del propio libro. Busca autores con operaciones verificables, números y límites del nicho.",
+        "Filtro útil: tras un capítulo puedes dar un paso concreto (calcular margen, montar una ficha, configurar el pago) — o solo «inspirarte». Lo segundo va después de los primeros pedidos, no en su lugar.",
+        "Clásicos como Rework enseñan a simplificar procesos; libros prácticos de «cómo abrir una tienda» dan checklists de lanzamiento. Ninguno sustituye la ley, el checkout, un contrato con el proveedor o tu analítica.",
+      ],
+      lists: [
+        {
+          intro: "Red flags en la lectura:",
+          items: [
+            "ingresos y plazos garantizados",
+            "«sin inversión» cuando hace falta stock y ads",
+            "servicios y esquemas de los 2010 desfasados y sin matices",
+            "sin hablar de devoluciones, logística y servicio",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Orden de lanzamiento sin romance",
+      level: 2,
+      paras: [
+        "Empieza con un catálogo MVP pequeño → escaparate y pago → test de demanda (ads/marketplace) → refuerza lo que trae pedidos → SEO y marca sobre una oferta estable.",
+        "Manager de la tienda, categorías, keywords y factores comerciales se conectan según creces — ver posts relacionados del blog.",
+      ],
+      links: [
+        {
+          label: "Manager de tienda online",
+          href: "/es/blog/menedzher-internet-magazina/",
+        },
+        {
+          label: "ROI de marketing",
+          href: "/es/blog/roi-marketinga/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Abrir una tienda online es montar economía, escaparate y un canal de demanda — no encontrar «el gran libro». Aprende por bloques y prueba ideas con pedidos, no con promesas de millón pasivo.",
+  ],
+};

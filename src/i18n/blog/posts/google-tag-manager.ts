@@ -134,3 +134,138 @@ export const googleTagManagerEn: BlogPost = {
     "GTM is a panel for tags: one code on the site, then tags and triggers in the account. Publish only after Preview — and without duplicate counters in the theme.",
   ],
 };
+
+/** ES overlay for google-tag-manager — same structure as RU JSON / EN. */
+export const googleTagManagerEs: BlogPost = {
+  slug: "google-tag-manager",
+  title: "Google Tag Manager: cómo funciona y por dónde empezar",
+  date: "2020-10-01",
+  category: "Digital marketing",
+  cover: "/images/blog/google-tag-manager/cover.webp",
+  excerpt:
+    "Qué es GTM: contenedor, tags, triggers y variables — instala el código una vez y luego publica contadores y eventos sin editar el tema por cada pixel.",
+  lead: [
+    "Google Tag Manager (GTM) es un contenedor de tags de marketing y analytics. Un snippet de código va al sitio; contadores, pixels y eventos se añaden y actualizan en la cuenta — no en cada release del layout.",
+    "Abajo: cuenta y contenedor, la cadena tag → trigger → variable, trabajo con GA4 y Metrica, y Preview antes de publicar. La UI cambia; esto no es un walkthrough de capturas de Universal Analytics de 2020.",
+  ],
+  faq: [
+    {
+      q: "¿Es obligatorio GTM?",
+      a: "No. Puedes poner gtag/Metrica en la plantilla. GTM ayuda cuando hay muchos tags y necesitas flexibilidad sin edits constantes de código.",
+    },
+    {
+      q: "¿En qué se diferencia un tag de un trigger?",
+      a: "Un tag es lo que corre (GA4, Metrica, un pixel). Un trigger es cuándo (vista de página, clic, envío). Las variables suministran datos (URL, ID, texto del botón).",
+    },
+    {
+      q: "¿Dónde pego el código del contenedor?",
+      a: "Según las instrucciones de Google: parte en `<head>`, parte justo después de abrir `<body>` (o el snippet actual de la cuenta). En cada plantilla del sitio — y nunca un duplicado «nativo + GTM» del mismo contador.",
+    },
+    {
+      q: "¿Puedo instalar Metrica vía GTM?",
+      a: "Sí: un tag con el ID del contador y los goals/eventos que necesites. No dejes un draft sin publicar y no hard-codees también Metrica en el tema.",
+    },
+    {
+      q: "¿Para qué sirve Preview?",
+      a: "Para ver qué tags dispararon en la página antes de publicar a todos. Sin Preview es fácil publicar tracking vacío o doble.",
+    },
+    {
+      q: "¿GTM sustituye a GA4?",
+      a: "No. GTM entrega tags; GA4/Metrica cuentan datos. Patrón habitual: GTM → tags de config/evento GA4.",
+    },
+    {
+      q: "¿Y el consentimiento de cookies?",
+      a: "Si necesitas bloquear hasta el consentimiento — configura Consent Mode / condiciones de disparo según la política de tu sitio. No ignores requisitos de datos personales.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cuenta, contenedor y código del sitio",
+      level: 2,
+      paras: [
+        "En Tag Manager creas una cuenta (a menudo por empresa) y un contenedor Web para el sitio. Nombra el contenedor con claridad: dominio o proyecto.",
+        "La cuenta muestra el snippet de instalación. Ponlo en cada plantilla necesaria (home, producto, carrito, landings). Un contenedor es una puerta para tags; un segundo hard-code paralelo del mismo contador en el tema duplica hits.",
+      ],
+      lists: [
+        {
+          intro: "Antes del go-live:",
+          items: [
+            "código en producción, no solo localhost",
+            "caché/minificación no rompen el script",
+            "permisos de acceso del equipo fijados",
+            "sin duplicado del mismo contador fuera de GTM",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tags, triggers, variables",
+      level: 2,
+      paras: [
+        "Modelo de trabajo: un evento en el sitio → un trigger lo captura → un tag envía datos a analytics o ads. Las variables leen URL, clic, dataLayer y alimentan el tag.",
+        "Empieza pequeño: config GA4 / contador Metrica en All Pages, luego clics de teléfono, envío de formulario, compra. No inventes docenas de tags sin una convención de naming.",
+      ],
+      lists: [
+        {
+          intro: "Vocabulario básico:",
+          items: [
+            "tag — acción (enviar evento, cargar pixel)",
+            "trigger — condición de disparo",
+            "variable — valor de la página o dataLayer",
+            "publish — versión del contenedor en vivo en el sitio",
+            "Preview / Tag Assistant — comprobar antes del release",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Insertar JavaScript en un sitio",
+          href: "/es/blog/vstavka-javascript/",
+        },
+      ],
+    },
+    {
+      title: "GA4 y goals vía GTM",
+      level: 2,
+      paras: [
+        "Para Google Analytics 4 sueles añadir un tag de config (Measurement ID) y tags/eventos para acciones clave. En el admin de GA4, marca los eventos necesarios como key events.",
+        "No te apoyes en guías viejas de Universal Analytics: el modelo de eventos y la UI difieren. Revisa DebugView e informes realtime tras publicar.",
+      ],
+      links: [
+        {
+          label: "Goals en Google Analytics",
+          href: "/es/blog/google-analytics-tseli/",
+        },
+      ],
+    },
+    {
+      title: "Metrica y pixels en un solo contenedor",
+      level: 2,
+      paras: [
+        "Yandex Metrica y pixels de ads también encajan bien en GTM: un publish y rollback de versión. Vigila que un evento de formulario no dispare dos veces — desde el tema y desde el contenedor.",
+        "Tras edits siempre Preview → comprobar en una página en vivo → Publish. Un draft en producción significa «el contador calla» aunque el código «parezca instalado».",
+      ],
+      lists: [
+        {
+          intro: "Errores frecuentes:",
+          items: [
+            "olvidaste publicar el contenedor",
+            "instalación doble de Metrica/GA",
+            "trigger solo en una página de gracias que no existe",
+            "tag en todas las páginas en lugar del evento correcto",
+            "sin owner de versiones y accesos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Metrica no funciona",
+          href: "/es/blog/metrika-ne-rabotaet/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "GTM es un panel de tags: un código en el sitio, luego tags y triggers en la cuenta. Publica solo tras Preview — y sin contadores duplicados en el tema.",
+  ],
+};

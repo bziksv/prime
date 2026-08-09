@@ -137,3 +137,141 @@ export const yandeksSpravochnikEn: BlogPost = {
     "kommercheskie-faktory",
   ],
 };
+
+/** ES overlay for yandeks-spravochnik — same structure as RU JSON / EN. */
+export const yandeksSpravochnikEs: BlogPost = {
+  slug: "yandeks-spravochnik",
+  title: "Ficha de organización en Yandex: la tarjeta de negocio y por qué la necesitas",
+  date: "2019-08-27",
+  category: "SEO",
+  cover: "/images/blog/yandeks-spravochnik/cover.webp",
+  excerpt:
+    "Qué es una ficha de organización en el ecosistema Yandex (Directory / Organizations / Yandex Business): por qué importa, cómo reclamarla, qué rellenar y cómo gestionar reseñas — sin screenshots obsoletos del dashboard.",
+  lead: [
+    "Yandex.Directory es el nombre histórico de la base de organizaciones que se muestra en búsqueda, Maps y servicios relacionados. La gestión de la ficha hoy suele vivir en Yandex Business u Organizations: cambian las etiquetas del menú, pero el trabajo sigue igual — un perfil de empresa verificado.",
+    "Abajo: por qué importa la ficha, cómo crearla y qué mantener al día. No copiamos rutas de clic de 2019 — consulta la Help actual de Yandex — y no tratamos la inflación de reseñas como estrategia.",
+  ],
+  faq: [
+    {
+      q: "¿Directory y Yandex Business son lo mismo?",
+      a: "Evolución de producto y dashboard. Para el dueño lo que importa: existe una ficha de organización, los derechos están verificados, los datos están al día. El nombre de la sección del menú es secundario.",
+    },
+    {
+      q: "¿Hace falta un sitio web?",
+      a: "Preferible: un enlace refuerza el camino al lead. Sin sitio la ficha puede funcionar como tarjeta de visita, pero en muchos nichos sitio más mapas trabajan más fuertes juntos.",
+    },
+    {
+      q: "¿En qué se diferencia de Google Business Profile?",
+      a: "Trabajo similar — resultados locales y mapas, ecosistemas distintos. Un negocio local en Rusia a menudo necesita ambas fichas con NAP coherente.",
+    },
+    {
+      q: "¿Quién puede editar la ficha?",
+      a: "El dueño tras verificar derechos. Los usuarios pueden sugerir ediciones — vigílalas para que dirección o teléfono no se desvíen.",
+    },
+    {
+      q: "¿La ficha afecta al SEO del sitio?",
+      a: "Es una capa local: mapas, reseñas, NAP. Ayuda al reconocimiento de forma indirecta; no sustituye el SEO del sitio. Las ganancias en un set comercial de keywords siguen llevando meses de trabajo tras el arranque de la promoción — añadir una ficha no es un atajo de ranking.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué el negocio necesita una ficha en Yandex",
+      level: 2,
+      paras: [
+        "En consultas de servicio más ciudad y en Maps, los usuarios ven dirección, teléfono, horario, ruta, fotos y reseñas — a menudo antes de abrir el sitio.",
+        "Para una ubicación offline es un camino corto a una llamada y una visita. Para online — confianza y contactos coherentes. La ficha no sustituye el sitio; complementa la búsqueda local.",
+      ],
+      lists: [
+        {
+          intro: "Qué da un perfil rellenado:",
+          items: [
+            "visibilidad en Maps y resultados locales",
+            "ruta y horario de apertura",
+            "fotos y descripción",
+            "reseñas y respuestas del dueño",
+            "enlace al sitio y messengers (donde esté disponible)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Google Business Profile",
+          href: "/es/blog/google-biznes/",
+        },
+        {
+          label: "SEO regional",
+          href: "/es/blog/regionalnoe-seo/",
+        },
+      ],
+    },
+    {
+      title: "Cómo crear y verificar la organización",
+      level: 2,
+      paras: [
+        "En el dashboard actual de Yandex creas o encuentras la organización, luego rellenas dirección, categoría, teléfono, sitio y horario. Si la ficha ya existe en la base — reclama los derechos de dueño como ofrezca el servicio.",
+        "Tras la moderación, edita el perfil: nombre como en el letrero, dirección exacta con puntos de referencia, fotos de exterior e interior, características (pago, accesibilidad) y detalles según las reglas del servicio.",
+      ],
+      lists: [
+        {
+          intro: "NAP y datos:",
+          items: [
+            "el nombre coincide con el letrero y el sitio",
+            "dirección y teléfono coinciden en todos lados",
+            "la categoría encaja con la actividad real",
+            "el horario está al día, incluidos festivos",
+            "las fotos son tuyas — no stock",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "No listes la dirección de otro para quedar bien en los resultados. Desajustes de NAP y una ubicación falsa dañan la confianza y pueden llevar a rechazos.",
+        },
+      ],
+    },
+    {
+      title: "Posts, precios, reseñas",
+      level: 2,
+      paras: [
+        "Los perfiles a menudo admiten posts (promos, noticias), listas de precios o productos, o un menú — el set depende de la categoría y de las funciones actuales del dashboard. Rellena lo que de verdad ayude a los clientes a elegirte.",
+        "Reseñas: responde con calma y al fondo, también a las negativas. Reseñas falsas y ratings inflados arriesgan sanciones y daño reputacional.",
+        "Las stats de impresiones y clics viven en el dashboard; la analítica profunda de consultas puede ser limitada — para el sitio usa también Metrica y Webmaster.",
+      ],
+      lists: [
+        {
+          intro: "Mantenimiento continuo:",
+          items: [
+            "revisar horario y teléfono",
+            "fotos nuevas cada temporada o tras una reforma",
+            "respuestas a reseñas",
+            "promos actuales en posts",
+            "monitorear ediciones de terceros a la ficha",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Reseña negativa",
+          href: "/blog/negativnyy-otzyv/",
+        },
+        {
+          label: "Reseñas para ventas",
+          href: "/es/blog/otzyvy-dlya-prodazh/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Una ficha de organización en Yandex es una capa obligatoria de presencia local junto al sitio. Verifica derechos, alinea el NAP, rellena fotos y horario, responde a reseñas — y comprueba la UI contra el dashboard actual de Yandex Business, no screenshots de guías viejas.",
+  ],
+  related: [
+    "google-biznes",
+    "regionalnoe-seo",
+    "negativnyy-otzyv",
+    "otzyvy-dlya-prodazh",
+    "seo-malyy-biznes",
+    "kommercheskie-faktory",
+  ],
+};

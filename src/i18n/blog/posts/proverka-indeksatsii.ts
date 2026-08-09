@@ -172,3 +172,176 @@ export const proverkaIndeksatsiiEn: BlogPost = {
     "chrome-rasshireniya-seo",
   ],
 };
+
+/** ES overlay for proverka-indeksatsii — same structure as RU JSON / EN. */
+export const proverkaIndeksatsiiEs: BlogPost = {
+  slug: "proverka-indeksatsii",
+  title: "Cómo comprobar la indexación del sitio en Google y Yandex",
+  date: "2018-11-30",
+  category: "SEO",
+  cover: "/images/blog/proverka-indeksatsii/cover.webp",
+  excerpt:
+    "Cómo comprobar si las páginas están en el índice de Google y Yandex: Webmaster y Search Console, el operador site:, extensiones y motivos típicos de que una URL no indexe — sin confundir crawl con índice.",
+  lead: [
+    "Indexar significa que una URL entra en la base de búsqueda que alimenta resultados. Un crawl es más rápido y no garantiza que la página se quede en el índice.",
+    "Abajo: cómo comprobar el status en paneles de webmaster, vía `site:` y tools afines — y qué arreglar cuando falla. No toda URL debe indexarse: las de utilidad se cierran aparte. La UI de Webmaster/GSC cambia; importa más el sentido del informe.",
+  ],
+  faq: [
+    {
+      q: "¿Crawl e indexación son lo mismo?",
+      a: "No. Un robot puede visitar y aun así no meter la URL en el índice (calidad, duplicado, noindex, indisponibilidad).",
+    },
+    {
+      q: "¿site: muestra un conteo exacto de páginas?",
+      a: "Una guía de orden de magnitud, no contabilidad. Más preciso — informes de Webmaster y Search Console.",
+    },
+    {
+      q: "¿Debo entrar en pánico si un sitio nuevo aún no indexa?",
+      a: "Primero revisa disponibilidad, sitemap, robots y peticiones de recrawl. Los plazos difieren por proyecto; «exactamente dos semanas» no es ley.",
+    },
+    {
+      q: "¿Y si todo está indexado pero no hay tráfico?",
+      a: "Índice ≠ rankings y clics. Mira demanda, snippets, competencia y contenido. La cuota del núcleo en primera página se planifica en meses de trabajo — típicamente de dos a seis tras arrancar.",
+    },
+    {
+      q: "¿Debe indexarse todo el sitio?",
+      a: "No. Filtros, carritos y áreas de cuenta a menudo se cierran. Ver la pieza sobre cerrar páginas al índice.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cuentas de webmaster",
+      level: 2,
+      paras: [
+        "Yandex Webmaster y Google Search Console son la fuente principal de verdad del dueño: páginas en búsqueda / cobertura de índice, exclusiones, errores de crawl, tendencias.",
+        "Verifica la propiedad del sitio, revisa listas de URLs indexadas y excluidas y los motivos (noindex, soft 404, duplicado, discovered — not indexed y similares — el wording deriva). El historial de índice ayuda a pillar caídas bruscas.",
+      ],
+      lists: [
+        {
+          intro: "Revisa primero:",
+          items: [
+            "home y landings clave en el índice",
+            "errores de crawl 4xx/5xx",
+            "sitemap aceptado",
+            "sin noindex masivo",
+            "dinámica era → es en el periodo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Yandex Webmaster",
+          href: "/es/blog/yandeks-vebmaster/",
+        },
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "El operador site: y checks puntuales de URL",
+      level: 2,
+      paras: [
+        "En el cuadro de búsqueda: `site:example.com` — un cuadro aproximado de URLs indexadas. Un hueco enorme Yandex vs Google es motivo para indagar en técnica y calidad.",
+        "Comprueba una página concreta pegando la URL completa o `site:` más path. Resultados vacíos no siempre significan «fuera del índice para siempre»: delays, regionalidad, reset de caché. Para decidir — URL inspection en GSC / chequeo de página en Webmaster.",
+      ],
+      lists: [
+        {
+          intro: "Checks rápidos:",
+          items: [
+            "`site:domain` en ambos motores",
+            "URL exacta de la página",
+            "query de marca para la home",
+            "cruce con la cuenta de webmaster",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Operadores de búsqueda",
+          href: "/es/blog/operatory-poiska/",
+        },
+      ],
+    },
+    {
+      title: "Extensiones y tools de monitorización",
+      level: 2,
+      paras: [
+        "Las extensiones SEO del navegador aceleran vistazos a title, meta robots, canonical y un `site:` rápido. No sustituyen el panel de webmaster ni dan datos «secretos» del motor.",
+        "Crawlers y plataformas SEO ayudan a checks masivos: robots, sitemap, códigos de estado, duplicados. Lo gratis «todo a la vez» casi no existe — elige según el tamaño del sitio.",
+      ],
+      links: [
+        {
+          label: "Extensiones de Chrome para SEO",
+          href: "/blog/chrome-rasshireniya-seo/",
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "No trates un badge de toolbar o un plugin de terceros como verdad del índice. La cuenta del buscador gana a un add-on del navegador.",
+        },
+      ],
+    },
+    {
+      title: "Por qué las páginas indexan mal",
+      level: 2,
+      paras: [
+        "Un sitio o sección nueva — delay normal. Aceleradores: enlaces internos, sitemap, contenido de calidad, peticiones de recrawl. Sin garantías de «en N días».",
+        "Bloqueadores típicos: Disallow en robots.txt, meta robots noindex, «cerrar el sitio» del CMS, duplicados y contenido fino, 4xx/5xx, respuesta lenta del servidor, canónicos rotos.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de causas:",
+          items: [
+            "robots.txt y meta robots",
+            "sitemap y enlaces internos",
+            "códigos de estado de URLs clave",
+            "duplicados y canonical",
+            "calidad y unicidad del contenido",
+            "errores de Webmaster/GSC",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Cerrar páginas al índice",
+          href: "/es/blog/zakrytie-ot-indeksatsii/",
+        },
+        {
+          label: "Sitio joven",
+          href: "/es/blog/molodoy-sayt/",
+        },
+      ],
+    },
+    {
+      title: "Indexado — pero sin tráfico",
+      level: 2,
+      paras: [
+        "Una página indexada puede quedar muy abajo o fallar la demanda. Entonces arregla contenido, snippets, estructura y enlaces — no «pide recrawl otra vez» para siempre.",
+        "Vigila la dinámica: una caída brusca del conteo de URLs indexadas es señal de incidente (noindex, ban de espejo, 404s masivos), no motivo para celebrar una «limpieza» sin análisis.",
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Check de indexación = webmaster + `site:` selectivo + entender motivos de exclusión. Crawl ≠ garantía de índice.",
+        "Arregla disponibilidad y directivas de robots, luego contenido y demanda. El índice es la base — no la meta final del SEO.",
+      ],
+    },
+  ],
+  closing: [
+    "Cruza URLs clave en Webmaster y Search Console, haz spot-check de `site:`, arregla robots/noindex y errores de crawl — así el control del índice pasa a higiene habitual, no a un pánico puntual.",
+  ],
+  related: [
+    "zakrytie-ot-indeksatsii",
+    "yandeks-vebmaster",
+    "tehnicheskiy-seo-audit",
+    "operatory-poiska",
+    "molodoy-sayt",
+    "chrome-rasshireniya-seo",
+  ],
+};

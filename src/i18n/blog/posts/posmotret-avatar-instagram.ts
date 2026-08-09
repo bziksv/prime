@@ -141,3 +141,145 @@ export const posmotretAvatarInstagramEn: BlogPost = {
     "skachat-stories-instagram",
   ],
 };
+
+/** ES overlay for posmotret-avatar-instagram — same structure as RU JSON / EN. */
+export const posmotretAvatarInstagramEs: BlogPost = {
+  slug: "posmotret-avatar-instagram",
+  title: "Cómo ver un avatar de Instagram a tamaño completo",
+  date: "2020-12-10",
+  category: "SMM",
+  cover: "/images/blog/posmotret-avatar-instagram/cover.webp",
+  excerpt:
+    "Cómo ver un avatar de Instagram más grande: el feed, el cliente web y métodos sensatos — sin un catálogo de servicios y apps «viewer» dudosas que piden tu contraseña.",
+  lead: [
+    "En la app el avatar va en un círculo minúsculo: a menudo no hay un tap para ampliar. La gente suele encontrar la foto en el feed o Stories, o abrir el perfil en el navegador y ver la imagen aparte.",
+    "Abajo: métodos prácticos sin «lupas» grises. Sitios y apps de terceros que piden un username y traen archivos de Instagram* a menudo rompen las reglas y pueden ser arriesgados para la cuenta. Este material es informativo.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Por qué no puedo simplemente hacer zoom en la app?",
+      a: "La UI está pensada alrededor del círculo del encabezado. La vista a tamaño completo depende de la versión del cliente; la web o un post donde el avatar se publicó aparte es más fiable.",
+    },
+    {
+      q: "¿Puedo descargar el avatar de otro?",
+      a: "Técnicamente el archivo a veces se puede guardar desde el navegador. Atiende al copyright y la privacidad: no uses la foto de otro como tuya.",
+    },
+    {
+      q: "¿Valen Gramotool y «Profile Picture Viewer»?",
+      a: "No los recomendamos: parsers de terceros, riesgos de ToS y seguridad. Empieza por la web oficial y una búsqueda en el feed.",
+    },
+    {
+      q: "¿Hay que iniciar sesión en una app de terceros?",
+      a: "No. No introduzcas tu contraseña de Instagram* en «lupas» desconocidas.",
+    },
+    {
+      q: "¿Puedo ver el avatar de una cuenta privada?",
+      a: "Sin acceso al perfil no lo verás bien. No cubrimos cómo saltarse cuentas privadas.",
+    },
+    {
+      q: "¿La calidad se mantiene al hacer zoom en el navegador?",
+      a: "El navegador no hace upscale mágico: si la fuente es pequeña, el zoom se ve blando. Eso no es un bug del servicio.",
+    },
+    {
+      q: "¿Dónde leo sobre hacer mi propio avatar?",
+      a: "Otro trabajo: cómo armar una imagen de perfil reconocible — en un artículo aparte.",
+    },
+    {
+      q: "¿Funciona también desde un PC?",
+      a: "Sí, la web de Instagram* es más fácil para «abrir imagen» y guardar. Ver también la pieza sobre Instagram desde el ordenador.",
+    },
+  ],
+  sections: [
+    {
+      title: "Revisa primero el feed y Stories",
+      level: 2,
+      paras: [
+        "Mucha gente pone un avatar desde un post o lo republica. Recorre la grilla y Highlights — a veces el archivo a tamaño completo ya es público.",
+        "Plus: sin herramientas de terceros. Minus: la foto puede faltar, y buscar lleva tiempo.",
+      ],
+    },
+    {
+      title: "La versión web en el navegador",
+      level: 2,
+      paras: [
+        "Abre el perfil en el sitio de Instagram* desde un ordenador (hace falta estar conectado). La imagen de perfil a menudo se alcanza más fácil vía el menú contextual del navegador.",
+        "Ruta típica: clic derecho en el avatar → abrir imagen / guardar como. Las etiquetas del menú dependen del navegador. Zoom con la escala de la página (p. ej. Ctrl/Cmd + «+»).",
+        "Esto no mejora la resolución de origen: solo hace más cómodo ver lo que el servicio ya sirve.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "La UI cambia",
+          text: "Los botones del cliente web se actualizan. Si no está «abrir imagen» — refresca la página o usa las herramientas de desarrollador con cuidado y solo en tu propia sesión.",
+        },
+      ],
+      links: [
+        {
+          label: "Instagram desde el ordenador",
+          href: "/es/blog/instagram-s-kompyutera/",
+        },
+      ],
+    },
+    {
+      title: "Qué evitar",
+      level: 2,
+      paras: [
+        "«Viewers» online por username: a menudo scraping gris, ads, phishing.",
+        "Apps móviles que «descargan cualquier avatar» y piden contraseña o permisos sospechosos.",
+        "Servicios para ver perfiles privados — fuera de las reglas y la ética; no los describimos.",
+      ],
+      lists: [
+        {
+          intro: "Banderas rojas:",
+          items: [
+            "pedir la contraseña de Instagram*",
+            "prometer «upscale HD 4K» del avatar ajeno",
+            "saltar una cuenta privada",
+            "desarrollador desconocido sin política de datos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Si necesitas un avatar fuerte propio",
+      level: 2,
+      paras: [
+        "Para negocio importa más hacer una marca legible en el círculo que inspeccionar la de otros. Una guía aparte cubre cómo crear un avatar.",
+      ],
+      links: [
+        {
+          label: "Avatar para Instagram*",
+          href: "/es/blog/avatar-instagram/",
+        },
+        {
+          label: "Diseño de perfil",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "Feed/Stories primero, luego la web oficial.",
+        "Viewers y apps de terceros que piden contraseña son riesgo extra.",
+        "No tomes la foto de otro sin derechos.",
+      ],
+    },
+  ],
+  closing: [
+    "Abre el perfil en el navegador en un PC y guarda la imagen con las herramientas integradas — más calmado que pegar un username en una «lupa» al azar.",
+  ],
+  related: [
+    "avatar-instagram",
+    "instagram-s-kompyutera",
+    "oformlenie-stranicy-instagram",
+    "sohranit-foto-instagram",
+    "foto-instagram",
+    "blog-instagram",
+  ],
+};

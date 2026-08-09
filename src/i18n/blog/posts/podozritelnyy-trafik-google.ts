@@ -124,3 +124,128 @@ export const podozritelnyyTrafikGoogleEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for podozritelnyy-trafik-google — same structure as RU JSON / EN. */
+export const podozritelnyyTrafikGoogleEs: BlogPost = {
+  slug: "podozritelnyy-trafik-google",
+  title: "Tráfico sospechoso en Google: causas y qué hacer",
+  date: "2022-01-28",
+  category: "SEO",
+  cover: "/images/blog/podozritelnyy-trafik-google/cover.webp",
+  excerpt:
+    "Captcha y el aviso de Google de tráfico inusual desde tu red: causas típicas y un chequeo paso a paso en calma — sin pánico.",
+  lead: [
+    "Un mensaje del tipo «hemos detectado tráfico inusual desde tu red» y un captcha antes de buscar significa que Google temporalmente no confía en las peticiones desde tu IP o red.",
+    "Más a menudo habla de seguridad de red y software que de una «penalización del sitio». Abajo: qué hacer primero y de dónde suele venir la señal.",
+  ],
+  faq: [
+    {
+      q: "¿Es un ban de mi sitio en búsqueda?",
+      a: "Normalmente no. Se bloquea o se dificulta el acceso a Google desde una IP o red concreta. Tu sitio no se quita del índice solo por este mensaje.",
+    },
+    {
+      q: "¿Por qué aparece un captcha?",
+      a: "Demasiadas peticiones parecidas desde una dirección: bots, malware, Wi‑Fi compartido, un fallo del ISP o scraping agresivo.",
+    },
+    {
+      q: "¿Qué hago primero?",
+      a: "Escanea dispositivos con antivirus, reinicia el router, completa el captcha y avisa al admin de la red corporativa.",
+    },
+    {
+      q: "¿Está relacionado con scrapers SEO?",
+      a: "Puede: cosechas masivas de SERP sin límites se ven como bots. Baja la frecuencia, cambia IP o proxy según las reglas del servicio y no machaques la búsqueda con scripts caseros.",
+    },
+    {
+      q: "¿Cuándo llamar al ISP?",
+      a: "Si el captcha pega a todos los dispositivos de una red y sigue apareciendo tras limpiar el PC — puede ser el ISP o vecinos en la misma IP.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué hacer primero",
+      level: 2,
+      paras: [
+        "Google corta streams no naturales: consultas idénticas, actividad de malware, manipulación. Tras el aviso:",
+      ],
+      lists: [
+        {
+          intro: null,
+          items: [
+            "escanea PCs y teléfonos con antivirus al día",
+            "reinicia el router/módem (muchos ISP rotan la IP)",
+            "completa el captcha y comprueba si se levantó el bloqueo",
+            "en una oficina — avisa al administrador de sistemas",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Nota",
+          text: "Captcha en sitios desconocidos más SMS raros es motivo para revisar el dispositivo con urgencia por malware — no solo para «googlear el error».",
+        },
+      ],
+      tables: [
+        {
+          caption: "Orden rápido",
+          headers: ["Paso", "Por qué"],
+          rows: [
+            ["Antivirus + limpieza", "Quitar bots del dispositivo"],
+            ["Reinicio del router", "Nueva IP / reset de sesión"],
+            ["Captcha en Google", "Confirmar que eres humano"],
+            ["Revisar otros dispositivos", "Un PC o toda la red"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "De dónde viene el tráfico sospechoso",
+      level: 2,
+      paras: [
+        "La señal puede venir no de tu sitio, sino de la dirección con la que sales a internet.",
+      ],
+      lists: [
+        {
+          intro: "Causas típicas:",
+          items: [
+            "fallos del ISP o NAT — captcha para muchos clientes en una red",
+            "Wi‑Fi compartido / IP de oficina: el PC infectado de un vecino duele a todos",
+            "virus y stealers que envían peticiones solos",
+            "SO/cracks piratas con «activadores» que llaman a casa",
+            "scrapers y bots agresivos sin límites anti-abuse",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo arreglarlo",
+      level: 2,
+      paras: ["Trabaja por capas: dispositivo → red → hábitos de automatización."],
+      lists: [
+        {
+          intro: null,
+          items: [
+            "quita amenazas encontradas, actualiza la protección",
+            "limpia cookies/caché, cambia contraseñas de cuentas importantes",
+            "revisa ajustes del router; resetea si hace falta",
+            "usa SO y software oficiales",
+            "para recolección de datos — solo tools con límites y APIs oficiales, sin machacar el SERP",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Si no ayuda",
+          text: "Escribe al ISP o cambia de red (datos móviles como chequeo). En paralelo asegúrate de que el servidor del sitio no está hackeado y no envía spam — eso es otra pista; ver auditoría SEO técnica.",
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+  ],
+};

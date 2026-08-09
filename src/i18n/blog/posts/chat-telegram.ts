@@ -1,5 +1,205 @@
 import type { BlogPost } from "../../../data/blog";
 
+/** ES overlay for chat-telegram — same structure as RU JSON. */
+export const chatTelegramEs: BlogPost = {
+  slug: "chat-telegram",
+  title: "Cómo crear un chat (grupo) en Telegram",
+  date: "2020-11-16",
+  category: "SMM",
+  cover: "/images/blog/chat-telegram/cover.webp",
+  excerpt:
+    "Cómo crear un grupo de Telegram: en qué se diferencia de un canal y un bot, enlaces públicos vs privados, fijar chats, encuestas y setups de negocio — sin mitos obsoletos de límites de miembros.",
+  lead: [
+    "Un chat (grupo) de Telegram es donde escriben varias personas: un equipo, clientes, padres de clase, una comunidad. No es un canal (feed unidireccional) ni un bot (un programa), aunque puedes añadir un bot al grupo para trabajo rutinario.",
+    "Abajo: por qué importan los grupos, qué tipos hay, cómo crear uno, fijar chats importantes y lanzar una encuesta. Los límites de miembros y las etiquetas de menú cambian — mira la Help de Telegram. Un chat secreto es un modo one-to-one aparte, no un «supergrupo secreto».",
+  ],
+  faq: [
+    {
+      q: "¿Chat, grupo y canal son lo mismo?",
+      a: "Un canal son posts de admins a suscriptores. Un grupo (chat) es discusión entre miembros. Las marcas a menudo llevan un canal más un grupo de discusión.",
+    },
+    {
+      q: "¿En qué se diferencia un grupo de un bot?",
+      a: "En un grupo habla la gente. Un bot es automatización (FAQ, leads, moderación). Puedes añadir un bot al grupo, pero no sustituye una conversación viva.",
+    },
+    {
+      q: "¿Un chat secreto puede ser un grupo?",
+      a: "No. El modo secreto es one-to-one. Para equipos, usa un grupo normal con permisos y una política de retención.",
+    },
+    {
+      q: "¿Cuánta gente cabe en un grupo?",
+      a: "Los límites han crecido años: sigue la help actual de Telegram, no «200 / 10.000» de guías viejas.",
+    },
+    {
+      q: "¿Hace falta @PollBot para una encuesta?",
+      a: "Para encuestas simples suele bastar el Poll integrado en el menú de adjuntos. Los bots de terceros son para flujos más complejos.",
+    },
+    {
+      q: "¿Es obligatorio un grupo público para negocio?",
+      a: "No. Los chats de clientes suelen ser solo por invitación; un username público ayuda al discovery de la comunidad.",
+    },
+    {
+      q: "¿Dónde leer sobre canales y chats secretos?",
+      a: "Arrancar un canal y el modo secreto se cubren en textos aparte.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué importan los grupos de Telegram",
+      level: 2,
+      paras: [
+        "Los grupos cubren trabajos donde importa el diálogo bidireccional: hobbies y comunidades, equipos de trabajo, chats de colegio o padres, compartir archivos y aprobaciones rápidas.",
+        "En un chat grande es difícil hablar a todos a la vez — aparecen hilos, topics, reglas y moderadores. Para un stream de noticias de marca, la gente suele tomar un canal y pasar la discusión a un grupo aparte.",
+      ],
+      lists: [
+        {
+          intro: "Escenarios típicos:",
+          items: [
+            "equipo interno y contratistas",
+            "soporte a clientes o comunidad",
+            "chat de discusión ligado a un canal",
+            "salas de proyecto con archivos y enlaces",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué tipos de chats hay",
+      level: 2,
+      paras: [
+        "Un diálogo privado es mensajería one-to-one. Un grupo tiene muchos miembros, derechos de admin e historial en la nube (dentro de chats normales).",
+        "Un chat secreto es un modo protegido aparte solo para dos personas; no lo confundas con un grupo cerrado. Un grupo público se encuentra por username o búsqueda; uno privado es solo por invitación.",
+      ],
+      lists: [
+        {
+          intro: "En corto:",
+          items: [
+            "one-to-one normal — mensajería cotidiana",
+            "grupo / supergrupo — charla de equipo y clientes",
+            "secreto — temas sensibles one-to-one",
+            "canal — no es un chat, es un feed",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Chat secreto de Telegram",
+          href: "/es/blog/sekretnyy-chat-telegram/",
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Claims del tipo «un chat secreto de grupo no se puede hackear» son marketing. Expectativas realistas y límites están en el artículo de chat secreto.",
+        },
+      ],
+    },
+    {
+      title: "Cómo crear un grupo",
+      level: 2,
+      paras: [
+        "En el cliente móvil: crea un grupo nuevo (New Group), elige miembros de contactos o añádelos después, pon nombre y opcionalmente una foto.",
+        "En ajustes del grupo elige: enlace de invitación privado o username público; quién puede escribir, añadir miembros y editar info. Para crecer sin spam, empieza con enlace privado y moderación.",
+        "Los límites de miembros y pasar de un «grupo normal» a un supergrupo grande han evolucionado — no copies cifras de 2020. Usa las pistas actuales del cliente y la help.",
+      ],
+      lists: [
+        {
+          intro: "Tras crear:",
+          items: [
+            "describe las reglas en un mensaje fijado",
+            "nombra admins con los derechos mínimos que necesitan",
+            "guarda el enlace de invitación en un sitio seguro",
+            "apaga «todos pueden escribir» si es una discusión moderada para un canal",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Fijar chats",
+      level: 2,
+      paras: [
+        "Con muchos diálogos, los grupos importantes se pierden en el feed. Fija un chat: long-press o clic derecho → Pin. Los chats fijados se quedan arriba del resto de la lista.",
+        "El número de pins depende del cliente y del plan (incluido Premium) — sigue lo que muestra tu Telegram ahora, no «exactamente cinco» de instrucciones viejas.",
+      ],
+    },
+    {
+      title: "Encuestas en un chat",
+      level: 2,
+      paras: [
+        "Para una votación rápida, abre el menú de adjuntos del chat y crea una encuesta: pregunta, opciones, anonimato y multi-select si hace falta. Basta para la mayoría de decisiones de equipo y clientes.",
+        "Los bots de encuestas de terceros importaban antes o para quizzes complejos. No compliques de más: otro bot es otro punto de acceso al chat.",
+      ],
+      lists: [
+        {
+          intro: "Práctica de encuesta:",
+          items: [
+            "una pregunta — un tema",
+            "opciones de respuesta cortas",
+            "un plazo en el texto («vota hasta el viernes»)",
+            "fija el resultado en un mensaje de seguimiento",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Chats para negocio",
+      level: 2,
+      paras: [
+        "Los grupos dan al negocio feedback rápido, coordinación interna y comunidad. Pero un chat público sin moderación se vuelve spam y conflicto con facilidad.",
+        "Setups habituales: un chat cerrado de clientes por invitación; un canal de noticias más grupo de discusión; un bot para FAQ, con casos duros pasados a un manager en vivo. Catálogos de producto y pagos funcionan mejor en un sitio o en un bot con reglas claras que en el caos del chat solo.",
+      ],
+      lists: [
+        {
+          intro: "Decide de antemano:",
+          items: [
+            "quién es admin y quién responde a clientes",
+            "qué no se puede publicar (insultos, datos personales)",
+            "cómo escalar a un ticket o CRM",
+            "si hace falta un bot o basta un FAQ fijado",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Bots de Telegram",
+          href: "/es/blog/telegram-boty/",
+        },
+        {
+          label: "Canal de Telegram",
+          href: "/es/blog/telegram-kanal/",
+        },
+      ],
+    },
+    {
+      title: "Fortalezas y expectativas realistas",
+      level: 2,
+      paras: [
+        "Fortalezas: velocidad, uso multiplataforma, archivos, llamadas de voz y vídeo, clientes desktop y móvil sólidos. La confidencialidad depende del tipo de chat y de la disciplina de los miembros — los grupos no prometen protección absoluta.",
+        "En resumen: crea un grupo para el trabajo, fija derechos y el enlace, fija las reglas. Para noticias unidireccionales — un canal; para charla sensible entre dos — un chat secreto.",
+      ],
+      tables: [
+        {
+          caption: "Formato → trabajo",
+          headers: ["Formato", "Cuándo usarlo"],
+          rows: [
+            ["Grupo", "Discusión, equipo, comunidad"],
+            ["Canal", "Noticias y ofertas sin ruido"],
+            ["Bot", "FAQ, leads, automatización"],
+            ["Chat secreto", "Diálogo sensible one-to-one"],
+          ],
+        },
+      ],
+    },
+  ],
+  related: [
+    "telegram",
+    "telegram-kanal",
+    "sekretnyy-chat-telegram",
+    "telegram-boty",
+  ],
+};
+
 /** EN overlay for chat-telegram — same structure as RU JSON. */
 export const chatTelegramEn: BlogPost = {
   slug: "chat-telegram",

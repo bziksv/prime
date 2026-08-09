@@ -119,3 +119,123 @@ export const prodazhaTrafikaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for prodazha-trafika — same structure as RU JSON / EN. */
+export const prodazhaTrafikaEs: BlogPost = {
+  slug: "prodazha-trafika",
+  title: "Vender tráfico: cómo monetizar las visitas del sitio",
+  date: "2021-11-06",
+  category: "Digital marketing",
+  cover: "/images/blog/prodazha-trafika/cover.webp",
+  excerpt:
+    "Qué significa vender tráfico: CPC, CPM, CPA, anuncios de búsqueda/display, teasers, banners y anunciantes directos. Cómo encontrar compradores sin matar la UX.",
+  lead: [
+    "Vender tráfico significa ceder a anunciantes una parte de la atención de tu audiencia a cambio de pago: por impresión, clic o conversión. Es un canal de ingresos para media y sitios con visitas reales — no un botón de «millón pasivo».",
+    "Abajo: modelos de pago, formatos, búsqueda de compradores y riesgos. Redes e exchanges cambian — revisa reglas actuales y calidad del tráfico.",
+  ],
+  faq: [
+    {
+      q: "¿Necesito un sitio propio para vender tráfico?",
+      a: "Normalmente sí: vendes la audiencia de tu propiedad. Sin sitio te quedan modelos de afiliados/arbitraje — otros riesgos.",
+    },
+    {
+      q: "¿Cuál es la diferencia entre CPC, CPM y CPA?",
+      a: "CPC — pago por clic; CPM — por impresiones (suele ser por 1.000); CPA — por acción (lead, compra, registro).",
+    },
+    {
+      q: "¿Cuánto se puede ganar vendiendo tráfico?",
+      a: "Depende del nicho, geo, calidad de audiencia y formato. Los viejos «céntimos por clic» no son una lista de precios — haz tus propios tests y mira el eCPM.",
+    },
+    {
+      q: "¿Por qué un anunciante rechazaría?",
+      a: "Poco tráfico, fuera de tema, UX floja, tráfico falso, infracciones de política o conversión débil del lado del vendedor.",
+    },
+    {
+      q: "¿Son peligrosos los clickunders y teasers agresivos?",
+      a: "Para el eCPM a corto plazo a veces sí; para retención y marca — a menudo no. Los formatos duros suben el riesgo de quejas y abandono.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo funciona el modelo",
+      level: 2,
+      paras: [
+        "El sitio A tiene visitantes. El anunciante B paga para que parte de ellos vean una oferta y hagan clic/compren. Tú vendes atención; un exchange o red a menudo se lleva una comisión.",
+        "Cuanto mejor la calidad de audiencia y el encaje temático, más alto el precio del clic o la acción. El «volumen a cualquier coste» suele matar ingresos y confianza.",
+      ],
+    },
+    {
+      title: "Encontrar un comprador",
+      level: 2,
+      paras: [
+        "Vía redes publicitarias y plataformas de afiliados: registra el sitio, pasa moderación, coloca el código. O directo: un anunciante contacta a media con alcance.",
+      ],
+      lists: [
+        {
+          intro: "Qué revisar en un trato:",
+          items: [
+            "tema y geo de la audiencia",
+            "modelo de pago y pago mínimo",
+            "reglas de contenido prohibido",
+            "velocidad del sitio y UX tras colocar bloques",
+            "reporting: impresiones, clics, acciones",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Formatos de monetización",
+      level: 2,
+      paras: [
+        "Búsqueda y display a través de redes grandes (p. ej. programas de Yandex y Google — bajo las reglas de cada propiedad). Teasers y banners se ven más, pero es fácil sobrecargar la página.",
+        "Enlaces outbound y placements nativos quedan más cerca de lo editorial. CPA/afiliados pagan por lead o venta: payout más alto con una oferta fuerte, más estrictos con la calidad del tráfico.",
+        "YouTube y otros media son una vía aparte: los viewers monetizan vía la red de la plataforma o integraciones cuando las reglas lo permiten.",
+      ],
+      lists: [
+        {
+          intro: "Esquemas de pago:",
+          items: [
+            "CPC — fácil de contar, depende del CTR",
+            "CPM — ingreso por volumen y viewability",
+            "CPA — más cerca del resultado del anunciante",
+            "flat / paquete — tratos directos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Práctica",
+          text: "Los directorios viejos de exchanges (AdLabs, Rotaban y similares) en parte envejecen. Elige una red viva con stats claros y moderación sensata.",
+        },
+      ],
+    },
+    {
+      title: "Anunciantes directos y sin sitio «tuyo»",
+      level: 2,
+      paras: [
+        "Blogs y canales grandes venden paquetes en directo: tarifa más alta, más trabajo manual. Sin propiedad propia te quedas en afiliados/arbitraje — necesitas skill de tráfico y cumplimiento de políticas de oferta.",
+        "No prometas «ingresos pasivos sin esfuerzo»: tanto sitios como arbitraje necesitan mantenimiento de calidad y encaje con las políticas.",
+      ],
+    },
+    {
+      title: "Cómo no matar la propiedad",
+      level: 2,
+      paras: [
+        "Los formatos agresivos suben el ingreso a corto plazo y bajan las visitas de retorno. Mantén el equilibrio: el lector debería terminar la pieza.",
+      ],
+      lists: [
+        {
+          intro: "Reglas de higiene:",
+          items: [
+            "no cubras el contenido entero con anuncios",
+            "no uses teasers engañosos",
+            "no vendas tráfico falso",
+            "sigue las reglas de la red — o arriesgas ban del sitio",
+            "mide no solo ingreso sino rebote y profundidad",
+          ],
+        },
+      ],
+    },
+  ],
+};

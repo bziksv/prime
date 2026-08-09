@@ -166,3 +166,170 @@ export const vzaimopiarEn: BlogPost = {
     "statistika-instagram",
   ],
 };
+
+/** ES overlay for vzaimopiar — same structure as RU JSON / EN. */
+export const vzaimopiarEs: BlogPost = {
+  slug: "vzaimopiar",
+  title: "Cross-promotion: cómo intercambiar menciones sin exchanges dudosos",
+  date: "2021-01-21",
+  category: "SMM",
+  cover: "/images/blog/vzaimopiar/cover.webp",
+  excerpt:
+    "Cómo funciona el cross-promotion: elegir partner, formatos de intercambio, acuerdos y riesgos — sin un catálogo de «PR exchanges» de fake engagement ni el mito de que «gratis = crecimiento».",
+  lead: [
+    "El cross-promotion es una recomendación recíproca: tú cuentas a tu audiencia de un partner, ellos cuentan a la suya de ti. Funciona cuando los nichos se solapan y ambos perfiles están listos para el tráfico ajeno.",
+    "Abajo: cómo valorar assets, fijar términos y en qué se diferencia de un shoutout suelto. No recomendamos granjas de likes/followers ni blasts spam de «mutual PR». Ver la nota Meta en esta página cuando salgan Instagram* o Facebook*.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de las plataformas. Instagram* y Facebook* son productos de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia de un shoutout (SFS)?",
+      a: "Un shoutout es más a menudo un swap puntual de story o post. El cross-promotion es más amplio: series de menciones, piezas guest, cross-posts en VK o un blog, deals más largos.",
+    },
+    {
+      q: "¿El cross-promotion siempre es gratis?",
+      a: "Sin fee de plataforma — sí. Tiempo, creativo y riesgo de reputación quedan. A veces una parte paga por un gap de alcance — eso ya es un híbrido con ads.",
+    },
+    {
+      q: "¿Debería una cuenta pequeña acercarse a un gigante?",
+      a: "Rara vez. Busca tamaño comparable y audiencia cercana. Si no, recibirás un no o un mal trade.",
+    },
+    {
+      q: "¿Ayudan los servicios de intercambio like-for-like?",
+      a: "A menudo es fake engagement, no promo. Riesgo de sanción y actividad vacía. Negocia directo con creators relevantes.",
+    },
+    {
+      q: "¿Hace falta un contrato?",
+      a: "Para negocio — al menos un hilo de chat con fecha, formato, copy y responsabilidad de reagendar. Presupuestos mayores — un contrato real.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es el método",
+      level: 2,
+      paras: [
+        "Dos o más canales se recomiendan: un post, Story, email a una lista, live, artículo. El follower recibe un recurso vecino útil; tú recibes tráfico cálido.",
+        "Ejemplo clásico: fotógrafo de bodas ↔ venue o decor en una ciudad; dos expertos en servicios adyacentes. Cuanto más natural la recomendación, mejor la respuesta.",
+      ],
+      links: [
+        {
+          label: "Shoutout de Instagram",
+          href: "/es/blog/shaut-instagram/",
+        },
+        {
+          label: "Ads con creators",
+          href: "/es/blog/bloger-dlya-reklamy-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Valórate a ti y al partner",
+      level: 2,
+      paras: [
+        "Antes del outreach, prepara el perfil: oferta, contactos, muestras de trabajo, un bio claro. El tráfico externo no convierte en un escaparate vacío.",
+        "Del partner, mira nicho, calidad de audiencia (no solo conteo), tono, cadencia de posting y bagaje de escándalos.",
+      ],
+      lists: [
+        {
+          intro: "Red flags del partner:",
+          items: [
+            "fake engagement obvio",
+            "tema off-nicho o tóxico",
+            "sin respuestas de la audiencia",
+            "historial de «no-shows» en reseñas",
+            "pide tu contraseña o acceso a la cuenta",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Formatos de intercambio",
+      level: 2,
+      paras: [
+        "Stories el uno del otro, posts de recomendación mutua, un live guest, un artículo «cómo trabajamos con…», swaps de email con consentimiento de suscriptores, cross-posts en comunidades VK de nicho cercano.",
+        "Elige el canal para la audiencia: los fans de coches pueden vivir en foros; un servicio local puede vivir en grupos de ciudad. No arrastres a todos a una sola plataforma «porque está de moda».",
+      ],
+      lists: [
+        {
+          intro: "En el brief del intercambio:",
+          items: [
+            "formato y fecha de publicación",
+            "copy o layout, y quién lo hace",
+            "enlaces y UTM",
+            "qué cuenta como hecho",
+            "qué pasa con un retraso o una queja",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo acordar",
+      level: 2,
+      paras: [
+        "Envía un mensaje personal corto: quién eres, por qué es mutuamente útil, qué ofreces, una muestra de alcance o ER pasado si encaja. Nada de copy-paste de «blast a todos».",
+        "Hashtags como #mutualpromo o #sfs crean ruido — filtra a mano. Los chats temáticos de admins a veces ganan a canales masivos de «exchange».",
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          text: "Juzgar el éxito solo por nuevos followers. Mira leads, ventas y retención tras la ola.",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "Direct sin spam",
+          href: "/es/blog/instagram-direct/",
+        },
+      ],
+    },
+    {
+      title: "Qué evitar",
+      level: 2,
+      paras: [
+        "Los servicios donde «promo» significa likes, shares y bots comprados no traen audiencia viva. No reimprimimos catálogos de intercambio por puntos de 2020–2021.",
+        "Un cross-promotion demasiado frecuente convierte el feed en un muro de ads — tu propia audiencia se cansa.",
+      ],
+    },
+    {
+      title: "Tras publicar",
+      level: 2,
+      paras: [
+        "Confirma que salió en vivo, guarda screenshots, responde mensajes nuevos rápido. Si el partner falló la fecha — recuerda en el chat, no escalees en público de inmediato.",
+        "Revisa stats: alcance, clics, leads. Decide si repetir la serie.",
+      ],
+      links: [
+        {
+          label: "Alcance de Instagram",
+          href: "/es/blog/ohvat-instagram/",
+        },
+        {
+          label: "Instagram Insights",
+          href: "/es/blog/statistika-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "El cross-promotion es un intercambio honesto de atención entre audiencias relevantes. Prepara el perfil, fija términos, mide leads.",
+        "No sustituye el producto y no es motivo para enchufar exchanges de fake engagement.",
+      ],
+    },
+  ],
+  closing: [
+    "Encuentra 1–2 partners con overlap de audiencia, acuerda formato y fecha, prepara ambos perfiles — y revisa el resultado por acciones, no por «publicamos». Así el cross-promotion te hace crecer en vez de hacer ruido.",
+  ],
+  related: [
+    "shaut-instagram",
+    "ohvat-instagram",
+    "bloger-dlya-reklamy-instagram",
+    "instagram-direct",
+    "raskrutka-gruppy-vk",
+    "statistika-instagram",
+  ],
+};

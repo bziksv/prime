@@ -197,3 +197,201 @@ export const videoreklamaYoutubeEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for videoreklama-youtube — same structure as RU JSON / EN. */
+export const videoreklamaYoutubeEs: BlogPost = {
+  slug: "videoreklama-youtube",
+  title: "Ads de vídeo en YouTube: cuándo merece la pena",
+  date: "2021-01-28",
+  category: "Paid search",
+  cover: "/images/blog/videoreklama-youtube/cover.webp",
+  excerpt:
+    "Cuándo compensan los ads de vídeo en YouTube, qué formatos existen y cómo juzgar encaje de audiencia y presupuesto — sin hype de «lo más efectivo de internet» ni cotizaciones de precio obsoletas.",
+  lead: [
+    "Los ads pre-roll e in-stream molestan a parte de los viewers, pero pueden dar reach, awareness y a veces leads — si la oferta, el creative y la landing funcionan como un funnel.",
+    "Abajo: pros del formato, trabajo de audiencia, el camino a ventas y cómo pensar el presupuesto. Las cifras de CPM y CPC de guías viejas se quedan obsoletas — corre tu propio test y revisa el Google Ads Help actual.",
+    "En Rusia, ten en cuenta la disponibilidad de la cuenta de ads y la política de la plataforma al lanzar.",
+  ],
+  faq: [
+    {
+      q: "¿YouTube Ads es lo mismo que la monetización del canal?",
+      a: "No. Monetización es lo que ganan los creators por ads en sus vídeos. YouTube Ads es lo que pagas tú por mostrar tus propios ads.",
+    },
+    {
+      q: "¿Los viewers tienen que ver 30 segundos?",
+      a: "Depende del formato. Los ads in-stream saltables se pueden saltar tras unos segundos; otros tipos funcionan distinto. Revisa los formatos actuales en tu cuenta.",
+    },
+    {
+      q: "¿Los ads impulsan ventas?",
+      a: "Sí — si tienes oferta fuerte y landing. Un clip delante del vídeo de otro no vende nada solo.",
+    },
+    {
+      q: "¿Hay bonus SEO por YouTube Ads?",
+      a: "No hay un «Ads = primera página orgánica» directo. De forma indirecta, los ads pueden subir demanda de marca y tráfico al sitio. El crecimiento orgánico sigue viniendo de contenido y trabajo SEO.",
+    },
+    {
+      q: "¿Con qué presupuesto empiezo?",
+      a: "El suficiente para reunir stats significativas en un test de una a dos semanas, con tope diario — no un vago «promedio del sector».",
+    },
+    {
+      q: "¿Necesito un canal propio?",
+      a: "Idealmente sí: confianza, retargeting y contenido ayudan. Para un test de ads, un canal showcase también vale.",
+    },
+    {
+      q: "¿Y si YouTube Ads no está disponible en mi mercado?",
+      a: "Mira otras plataformas de vídeo y performance, contenido orgánico en tu canal y campañas de pago en cuentas a las que sí tengas acceso.",
+    },
+  ],
+  sections: [
+    {
+      title: "Pros y contras del formato",
+      level: 2,
+      paras: [
+        "El vídeo lleva emoción, muestra el producto en acción y pone cara a la marca. El reach es grande; el targeting es flexible — intereses, keywords, audiencias.",
+        "Los contras: el creative cuesta más que un banner, parte de los viewers saltan, y sin tracking de conversión es fácil quemar presupuesto solo en views.",
+        "No compares «YouTube vs. todo internet». Compara YouTube con otros canales de tu funnel — ¿dónde puedes conseguir una acción objetivo con calidad de lead comparable?",
+      ],
+      lists: [
+        {
+          intro: "Cuando brillan los ads de vídeo:",
+          items: [
+            "un producto complejo necesita verse",
+            "importan marca y confianza",
+            "tienes una landing lista para la acción",
+            "estás dispuesto a probar dos o tres creatives",
+            "tienes ancho de banda para edición e iteración",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Audiencia y mensaje",
+      level: 2,
+      paras: [
+        "Targeting sin oferta es gasto tirado. Define a quién llegas, qué dolor resuelves y qué quieres que hagan — luego monta la cuenta.",
+        "Los primeros segundos lo deciden todo: gancho, producto en frame, subtítulos (mucha gente ve sin sonido).",
+        "Parte segmentos por intención: audiencia fría, retargeting de visitantes del sitio, lookalikes de leads — cada uno necesita su creative y su objetivo de CPA.",
+      ],
+      lists: [
+        {
+          intro: "Antes de rodar:",
+          items: [
+            "un CTA principal",
+            "prueba (números, caso, demo)",
+            "lenguaje del cliente, no jerga de agencia",
+            "una versión de 15–30s y un corte de gancho más corto",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Básicos de la cuenta de ads",
+          href: "/es/blog/reklamnyy-kabinet/",
+        },
+      ],
+    },
+    {
+      title: "Ventas y el funnel",
+      level: 2,
+      paras: [
+        "Clip → clic o visita → lead o compra. Sin pixel y objetivos de conversión, optimizas views, no revenue.",
+        "Para audiencias frías, reach más retargeting de quien terminó el vídeo o visitó el sitio suele ganar a un solo blast.",
+      ],
+      lists: [
+        {
+          intro: "La cadena que necesitas:",
+          items: [
+            "UTM o tagging de campaña",
+            "una landing que encaje con la oferta del clip",
+            "un objetivo: lead, compra o llamada",
+            "placements irrelevantes excluidos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Landing page",
+          href: "/es/blog/lending/",
+        },
+        {
+          label: "Instalar Yandex Metrica",
+          href: "/es/blog/metrika-ustanovka/",
+        },
+      ],
+    },
+    {
+      title: "Presupuesto y expectativas de precio",
+      level: 2,
+      paras: [
+        "Los costes de clic y view oscilan por nicho, calidad del ad y competencia. No trates cifras viejas de «desde $N» en artículos de 2021 como hecho actual.",
+        "Planifica un test: hipótesis → tope diario → revisión en 7–14 días → escalar o parar.",
+      ],
+      lists: [
+        {
+          intro: "Qué mirar en el reporte:",
+          items: [
+            "frecuencia y completion rate",
+            "CTR y coste por acción objetivo",
+            "calidad del tráfico al sitio (bounce rate, páginas por sesión)",
+            "qué creatives impulsan conversiones",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Nota",
+          kind: "tip",
+          text: "«La publicidad más efectiva de internet» es un slogan. Lo efectivo es lo que encaja con tu unit economics.",
+        },
+      ],
+    },
+    {
+      title: "Cómo se liga al SEO y a tu canal",
+      level: 2,
+      paras: [
+        "Los ads no sustituyen el SEO ni compran rankings orgánicos de forma directa. Pueden subir demanda de marca y mostrar qué ofertas resonan.",
+        "Tu propio canal con vídeos útiles juega a largo plazo: discovery orgánico, retargeting y confianza.",
+      ],
+      lists: [
+        {
+          intro: "Corre ads junto a:",
+          items: [
+            "branding del canal",
+            "vídeos que responden preguntas de la audiencia",
+            "landings para clusters de demanda",
+            "plazos SEO realistas (meses, no días)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Crecer un canal de YouTube",
+          href: "/es/blog/raskrutka-youtube/",
+        },
+        {
+          label: "Monetización de YouTube",
+          href: "/es/blog/youtube-monetizaciya/",
+        },
+      ],
+    },
+    {
+      title: "¿Deberías lanzar?",
+      level: 2,
+      paras: [
+        "Sí — si el producto es visual, tienes presupuesto para un test medido y la landing está lista. Espera — si no hay oferta, sitio o analytics. Primero la base.",
+        "En resumen: los ads de vídeo son una herramienta de performance y marca, no un botón mágico.",
+      ],
+      lists: [
+        {
+          intro: "Checklist rápido de decisión:",
+          items: [
+            "objetivo y targets de CPA/ROAS fijados",
+            "al menos dos creatives listos para probar",
+            "tope diario y fecha de revisión definidos",
+            "un plan de parar o escalar por escrito",
+          ],
+        },
+      ],
+    },
+  ],
+};

@@ -15,6 +15,12 @@ const legalDocsEn = {
   privacy: "/en/legal/privacy/",
 } as const;
 
+const legalDocsEs = {
+  cookies: "/es/legal/cookies/",
+  recommendations: "/es/legal/recommendations/",
+  privacy: "/es/legal/privacy/",
+} as const;
+
 export type LegalDocs = {
   cookies: string;
   recommendations: string;
@@ -25,5 +31,7 @@ export type LegalDocs = {
 export const legalDocs: LegalDocs = legalDocsRu;
 
 export function getLegalDocs(locale: Locale = "ru"): LegalDocs {
-  return locale === "ru" ? legalDocsRu : legalDocsEn;
+  if (locale === "ru") return legalDocsRu;
+  if (locale === "es") return legalDocsEs;
+  return legalDocsEn;
 }

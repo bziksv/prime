@@ -147,3 +147,151 @@ export const lichnyyKabinetEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for lichnyy-kabinet — same structure as RU JSON / EN. */
+export const lichnyyKabinetEs: BlogPost = {
+  slug: "lichnyy-kabinet",
+  title: "Cuenta personal en un sitio: por qué importa y qué hay dentro",
+  date: "2021-02-26",
+  category: "Digital marketing",
+  cover: "/images/blog/lichnyy-kabinet/cover.webp",
+  excerpt:
+    "Por qué un sitio necesita una cuenta personal, qué features aparecen tras el login, cuándo es obligatoria y qué vigilar en el desarrollo — de seguridad a UX.",
+  lead: [
+    "Una cuenta personal es el área tras el login: pedidos, documentos, ajustes de perfil, suscripciones. En servicios y tiendas suele ser el hub de retención.",
+    "Abajo: para qué sirve un portal de cliente, features típicas y preguntas de desarrollo. No va de «un registro más» como checkbox.",
+  ],
+  faq: [
+    {
+      q: "¿Siempre hace falta un portal de cliente?",
+      a: "No. Para un landing simple de un lead a menudo sobra. Para compras repetidas, B2B y SaaS — casi obligatorio.",
+    },
+    {
+      q: "¿En qué se diferencia del CRM?",
+      a: "El portal es la UI del cliente. El CRM es la herramienta de la empresa. Pueden estar enlazados.",
+    },
+    {
+      q: "¿Hace falta login social?",
+      a: "Opcional. Contraseña más email o teléfono y 2FA importan más que un zoológico de botones.",
+    },
+    {
+      q: "¿Y la seguridad?",
+      a: "HTTPS, contraseñas hasheadas, límites de intentos de login, recuperación de cuenta, permisos por rol, logging.",
+    },
+    {
+      q: "¿Un portal de cliente afecta al SEO?",
+      a: "Las secciones cerradas no son para el índice. Escaparates públicos y el blog van aparte. No bloquees contenido útil sin motivo.",
+    },
+    {
+      q: "¿Qué datos pedir en el alta?",
+      a: "Solo lo necesario para el flow. Campos de más cortan conversión y suben la responsabilidad sobre datos personales.",
+    },
+    {
+      q: "¿Cómo sé que la cuenta es usable?",
+      a: "Prueba flujos clave con usuarios reales: alta, recuperación, encontrar un pedido, pagar, contactar soporte.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué necesitas un portal de cliente",
+      level: 2,
+      paras: [
+        "Autoservicio: estado del pedido, facturas, historial, cambios de plan. Baja la carga de soporte y sube las odds de ventas repetidas.",
+        "Un portal de cliente compensa cuando el visitante vuelve a datos o a un servicio. Si solo necesita una llamada, un alta pesada antes del formulario es más barrera que beneficio.",
+      ],
+      lists: [
+        {
+          intro: "Especialmente útil para:",
+          items: [
+            "tienda online",
+            "servicio online / SaaS",
+            "formación y cursos privados",
+            "B2B con documentos y envíos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Features tras el login",
+      level: 2,
+      paras: [
+        "Perfil, pedidos o suscripciones, notificaciones, archivos, tickets de soporte, a veces varios empleados de una empresa — la mezcla depende del producto.",
+        "Empieza por las acciones por las que más vienen los clientes. Features admin raras pueden quedarse en soporte o salir después cuando la demanda esté probada — no compliques el primer release.",
+      ],
+      lists: [
+        {
+          intro: "Una base sólida de portal de cliente:",
+          items: [
+            "alta clara y recuperación de contraseña",
+            "historial de acciones",
+            "layout móvil",
+            "logout y cambio de contraseña sin un quest",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Formulario de contacto",
+          href: "/es/blog/forma-obratnoy-svyazi/",
+        },
+      ],
+    },
+    {
+      title: "Desarrollo: qué vigilar",
+      level: 2,
+      paras: [
+        "Piensa roles y permisos, integración de pago y CRM, velocidad, accesibilidad y tratamiento de datos personales. No clones la UI de cuenta de otro uno a uno — la interfaz debe encajar con tu flow.",
+        "Describe el camino del cliente antes de los mockups: del invite o alta a resolver el trabajo. Eso ayuda a no perder estados de pedido, errores de pago, cancelaciones y actuar en nombre de una organización.",
+      ],
+      lists: [
+        {
+          intro: "Errores habituales:",
+          items: [
+            "alta con 20 campos",
+            "sin emails de confirmación",
+            "portal lento en móvil",
+            "secrets en URLs y APIs abiertas",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Seguridad y datos personales",
+      level: 2,
+      paras: [
+        "La seguridad de la cuenta descansa en lo básico: HTTPS, almacenamiento seguro de contraseñas, límites de intentos de login, confirmación de recuperación y separación de permisos. Acciones críticas — cambiar contacto, datos de pago o rol — merecen confirmación extra.",
+        "Recoge y muestra solo los datos que el cliente y el proceso necesitan. Explica propósitos de tratamiento, retención y cómo contactarte sobre datos personales.",
+      ],
+      lists: [
+        {
+          intro: "Antes del lanzamiento revisa:",
+          items: [
+            "si cambiar una URL puede mostrar el pedido de otro",
+            "si las sesiones caducan y el logout funciona",
+            "si tokens y documentos se filtran a logs",
+            "si el usuario recibe avisos de cambios importantes",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Lanzamiento y crecimiento sin complejidad de más",
+      level: 2,
+      paras: [
+        "Entrega una versión mínima con uno o dos flows valiosos, luego estudia tickets de soporte y analytics. Si los usuarios piden siempre factura, estado o reordenar, simplifica esas acciones primero.",
+        "Separa las métricas del portal de las de vanidad. Importa más: cuota de clientes que se autosirven, velocidad de cierre del flow, menos tickets y compra repetida.",
+      ],
+      lists: [
+        {
+          intro: "Pasos útiles tras el release:",
+          items: [
+            "recoger feedback con una pregunta corta",
+            "revisar logs de error y flows a medias",
+            "probar la cuenta en teléfonos populares",
+            "planificar features nuevas por impacto en el cliente",
+          ],
+        },
+      ],
+    },
+  ],
+};

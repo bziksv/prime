@@ -273,3 +273,277 @@ export const golosovoyPoiskEn: BlogPost = {
     "razmer-stranitsy",
   ],
 };
+
+/** ES overlay for golosovoy-poisk — same structure as RU JSON / EN. */
+export const golosovoyPoiskEs: BlogPost = {
+  slug: "golosovoy-poisk",
+  title: "Optimizar un sitio para búsqueda por voz",
+  date: "2020-08-01",
+  category: "SEO",
+  cover: "/images/blog/golosovoy-poisk/cover.webp",
+  excerpt:
+    "Cómo preparar un sitio para queries de voz: long-tail conversacional, FAQ y respuestas cortas, velocidad móvil, HTTPS, búsqueda local — sin culto al «SEO aparte» ni garantías de primera página.",
+  lead: [
+    "La búsqueda por voz sigue corriendo en los mismos motores, pero la query suele ser más larga, más conversacional y más a menudo desde un teléfono: «farmacia abierta cerca», «cómo arreglar un grifo de cocina». Los assistants y las respuestas rápidas favorecen fragmentos claros, FAQs y páginas que ya funcionan bien en resultados normales.",
+    "Abajo: qué afecta de verdad a la visibilidad en escenarios de voz, qué tipos de query cubrir y cómo reunir keywords y estructurar respuestas. Las cifras de cuota de tráfico de voz en roundups viejos divergen — sigue a tu audiencia y Search Console, no un porcentaje mágico de un artículo de 2018. La visibilidad en primera página del set de keywords se planifica a meses tras la prep — no un botón de «SEO de voz».",
+  ],
+  faq: [
+    {
+      q: "¿Hace falta un «SEO de voz» aparte?",
+      a: "No hay una disciplina mágica aparte. Es SEO clásico más fuerte: móvil, velocidad, long-tail conversacional, FAQ, perfiles locales. Sin base en resultados de texto, las respuestas de voz casi no aparecen.",
+    },
+    {
+      q: "¿Una query de voz siempre coincide con el title?",
+      a: "Rara vez. El sentido a menudo está en el cuerpo, un H2 o el FAQ. No spawnees duplicados thin por cada variante de pronunciación — mejor una página fuerte por cluster.",
+    },
+    {
+      q: "¿Basta una respuesta corta de 30 palabras?",
+      a: "Una respuesta directa corta cerca del inicio ayuda a snippets/assistants, pero la página debe ir más profundo. Un párrafo sin contexto rara vez construye confianza.",
+    },
+    {
+      q: "¿Es obligatorio el markup Schema.org para voz?",
+      a: "No garantiza una respuesta de voz, pero FAQ/HowTo/LocalBusiness y un markup correcto ayudan a los sistemas a leer la estructura. Añádelo donde la página lo justifique — no «todos los tipos a la vez».",
+    },
+    {
+      q: "¿Qué importa más — enlaces o velocidad?",
+      a: "En escenarios de voz, velocidad y una respuesta relevante son críticos. El perfil de enlaces sigue construyendo autoridad del sitio en general, pero una «respuesta exacta» puede ganar a una URL más enlazada.",
+    },
+    {
+      q: "¿Cómo se conectan búsqueda por voz y negocio local?",
+      a: "«Cerca de mí», «abierto ahora», «dirección» tiran de mapas y perfiles. Mantén Google Business Profile / Yandex Business, coherencia NAP y landings de ciudad al día.",
+    },
+    {
+      q: "¿Entraré en una respuesta de voz en una semana?",
+      a: "No como promesa. Primero prep de páginas y tech; rankings y featured answers crecen mes a mes. El horizonte planificado para el set de keywords suele ser 2–6 meses tras el arranque del trabajo.",
+    },
+    {
+      q: "¿En qué se diferencia de un FAQ normal del sitio?",
+      a: "Mismo formato, pero con redacción más cercana al habla y una pregunta por bloque. El FAQ ayuda a personas y assistants; no lo conviertas en un dump de keywords.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué cambia en las queries de voz",
+      level: 2,
+      paras: [
+        "La gente dicta frases completas: palabras interrogativas, lugar, contexto. La frecuencia de esas colas es menor; la competencia difiere de los head cortos. Algunos escenarios terminan con una respuesta del assistant y sin clic — así que el valor de la página es precisión y confianza, no solo perseguir una sesión.",
+        "Estudios tipo desglose de muestras de voz (estilo Backlinko) sirven como guía de factores (velocidad, HTTPS, solape con rankings clásicos fuertes), no como checklist de «haz esto → entras». Las UIs de assistants cambian; revisa tus URLs en Search Console y en dispositivos reales.",
+      ],
+      lists: [
+        {
+          intro: "Rasgos típicos de una query de voz:",
+          items: [
+            "más larga que el análogo escrito",
+            "más a menudo una pregunta o cómo/dónde/cuándo",
+            "más contexto local",
+            "expectativa de una respuesta corta y clara",
+            "arranque desde un dispositivo móvil",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Escribir artículos thin por cada variante hablada de un mismo sentido. Prefiere un cluster y una página fuerte.",
+        },
+      ],
+    },
+    {
+      title: "Base: velocidad, HTTPS, móvil",
+      level: 2,
+      paras: [
+        "Los escenarios de voz no perdonan páginas pesadas: el usuario ya preguntó y quiere respuesta ahora. Comprime imágenes, corta JS bloqueante, fija cache y servidor. En comercio, HTTPS es la norma, no opcional.",
+        "Mobile-first es el estándar de crawl. Layout responsive, áreas de toque grandes, texto legible sin scroll horizontal. Revisa plantillas clave (artículo, categoría, producto, contactos) — no solo la home.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo técnico para escenarios de voz:",
+          items: [
+            "LCP/TTFB rápidos en redes móviles",
+            "HTTPS en todo el sitio",
+            "responsive y legible",
+            "URLs estables sin redirects de más",
+            "navegación clara hacia la respuesta",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Tamaño y peso de página",
+          href: "/es/blog/razmer-stranitsy/",
+        },
+        {
+          label: "HTTPS y SEO",
+          href: "/es/blog/https-seo/",
+        },
+        {
+          label: "Sitio responsive",
+          href: "/es/blog/adaptivnyy-sayt/",
+        },
+      ],
+    },
+    {
+      title: "Contenido: página larga y respuesta corta",
+      level: 2,
+      paras: [
+        "Una combo fuerte: primeros párrafos — respuesta directa a la pregunta principal (corta, al punto), luego profundidad, matices, listas, tablas. Útil para personas y para sistemas que extraen un fragmento.",
+        "Escribe en claro: menos burocracia, más phrasing natural. Triggers como cómo/dónde/cuánto/mejor encajan cuando de verdad respondes — no cuando rellenas H2s de keywords.",
+      ],
+      lists: [
+        {
+          intro: "Estructura que ayuda a los assistants:",
+          items: [
+            "H2/H3 como preguntas o temas claros",
+            "listas y tablas donde esa sea la respuesta",
+            "FAQ con preguntas naturales de la audiencia",
+            "un cluster — una URL fuerte",
+            "sin copy-paste de sinónimos en URLs vecinas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización on-page",
+          href: "/es/blog/optimizatsiya-stranitsy/",
+        },
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+      ],
+    },
+    {
+      title: "FAQ, snippets y markup",
+      level: 2,
+      paras: [
+        "El FAQ en landings y artículos sube la chance de encajar con una query hablada. Para una tienda — envío, pago, garantía, elección de producto — no un genérico «qué es SEO».",
+        "Featured snippets y respuestas de assistant no están garantizados. El markup FAQPage/HowTo/Product/LocalBusiness ayuda a las máquinas — no es un ticket a posición cero. No marques lo que no está en la página.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo práctico:",
+          items: [
+            "6–10 preguntas reales de la audiencia",
+            "respuesta corta + «más detalle» en el cuerpo",
+            "JSON-LD válido sin spam",
+            "texto y markup alineados",
+            "chequeos de rich results en paneles de webmaster",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Reúne preguntas de soporte y analytics/formularios primero, luego escribe el FAQ — no al revés.",
+        },
+      ],
+    },
+    {
+      title: "Semántica: long-tail y clusters",
+      level: 2,
+      paras: [
+        "Recoge phrasing conversacional de baja frecuencia: Keyword Planner/Wordstat, suggest, «preguntas relacionadas», logs de soporte. Agrupa en clusters y mapea a URLs fuertes existentes o crea una página nueva por cluster — ver el playbook del set de keywords.",
+        "No esperes title exacto = query de voz. Cubre el sentido y da una respuesta clara. Separa marcadores comerciales (comprar/precio/pedir) e informativos (cómo/qué significa) por intención.",
+      ],
+      lists: [
+        {
+          intro: "Fuentes de ideas para colas de voz:",
+          items: [
+            "suggest de búsqueda y People Also Ask",
+            "preguntas de chats y llamadas",
+            "refinamientos locales de ciudad/distrito",
+            "comparaciones y «qué es mejor»",
+            "how-tos paso a paso",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Set de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Frecuencia de queries",
+          href: "/es/blog/chastotnost-zaprosov/",
+        },
+      ],
+    },
+    {
+      title: "Búsqueda local y perfiles de negocio",
+      level: 2,
+      paras: [
+        "«Cerca de mí», «dirección», «horario» a menudo van a mapas. Un Google Business Profile y una ficha Yandex Business, NAP coherente en el sitio, teléfonos y fotos actuales — obligatorios para servicios offline y locales.",
+        "Las landings de ciudad deben responder a la pregunta local, no ser clones thin de la home. Enlaza el perfil a la URL canónica del sitio.",
+      ],
+      lists: [
+        {
+          intro: "Checklist local:",
+          items: [
+            "perfil de mapa al día",
+            "nombre/dirección/teléfono coincidentes",
+            "horario sin sorpresas",
+            "reseñas y respuestas sin fake engagement",
+            "landings locales con valor real, no spam",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO regional",
+          href: "/es/blog/regionalnoe-seo/",
+        },
+        {
+          label: "Google Business Profile",
+          href: "/es/blog/google-biznes/",
+        },
+      ],
+    },
+    {
+      title: "Un enfoque unido y plazos",
+      level: 2,
+      paras: [
+        "La visibilidad de voz casi siempre hereda rankings clásicos fuertes: primero tech y contenido para personas, luego FAQ y refuerzo local. Señales sociales y «viralidad» son un lever débil e inestable — no armes estrategia sobre reposts.",
+        "Prep de páginas y fixes — semanas. La visibilidad del set de keywords crece mes a mes; un horizonte planificado para presencia notable en primera página de un cluster suele ser 2–6 meses tras el arranque del trabajo. No puedes prometer «rankings de voz en una semana».",
+      ],
+      lists: [
+        {
+          intro: "Orden de trabajo:",
+          items: [
+            "arreglar velocidad y móvil",
+            "reunir clusters conversacionales",
+            "reforzar respuestas y FAQ en URLs fuertes",
+            "añadir cobertura local cuando haga falta",
+            "monitorizar queries y CTR en Search Console / Webmaster",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Google Search Console",
+          href: "/es/blog/google-search-console/",
+        },
+        {
+          label: "SEO DIY",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Prep ≠ primera página. La visibilidad del set de keywords se construye a meses tras el arranque del trabajo.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "semanticheskoe-yadro",
+    "optimizatsiya-stranitsy",
+    "regionalnoe-seo",
+    "google-search-console",
+    "adaptivnyy-sayt",
+    "razmer-stranitsy",
+  ],
+};

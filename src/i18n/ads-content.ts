@@ -436,8 +436,256 @@ const adsEn: AdsContent = {
   footerTagline: "Google Ads · campaign management",
 };
 
+const adsEs: AdsContent = {
+  path: "/es/ads/",
+  metaTitle: "Google Ads — PRIME",
+  metaDescription:
+    "Gestión de Google Ads: estrategia, negativas, seguimiento UTM y pujas. Tarifa fija de gestión desde $70/mes según presupuesto — no un porcentaje del gasto. Honorarios de agencia y gasto en anuncios, en facturas separadas.",
+  serviceName: "Google Ads",
+  serviceType: "Gestión de Google Ads",
+  breadcrumbHome: "Inicio",
+  breadcrumbCurrent: "Google Ads",
+  menuLabel: "Menú",
+  ctaTop: "Escríbenos",
+  brandBefore: "PRIM",
+  brandAccent: "E",
+  heroTitleBefore: "Google Ads: clientes desde la búsqueda ",
+  heroTitleAccent: "cuando la intención está caliente",
+  heroLead:
+    "Google Ads: estrategia, creativos, negativas y pujas. La gestión es una tarifa fija según presupuesto — desde $70 al mes. El gasto en anuncios y el trabajo de agencia van en facturas separadas.",
+  heroCtaPrimary: "Reservar consulta",
+  heroCtaSecondary: "Ver tarifas de gestión",
+  heroPoints: [
+    "Hasta $1,100 de presupuesto — gestión desde $70",
+    "$1,100–$3,300 — $130",
+    "Más de $3,300 — $220",
+  ],
+  heroBids: [
+    { title: "Google", label: "Búsqueda", width: "78%" },
+    { title: "Display", label: "Red", width: "62%" },
+    { title: "Puja ↓", label: "optimizar", width: "48%" },
+  ],
+  notFitTitle: "Cuándo Google Ads no va a ayudar",
+  notFitLead:
+    "Primero, franqueza: si te reconoces aquí, arregla la oferta y la operación antes de anunciarte.",
+  notFitMark: "alto",
+  notFit: [
+    {
+      title: "Producto o servicio débil",
+      text: "Si la oferta o la entrega tiene fallas, los anuncios solo aceleran la decepción del cliente.",
+    },
+    {
+      title: "Sin analítica ni retroalimentación",
+      text: "No conectas el gasto en anuncios con la rentabilidad ni compartes datos con la agencia.",
+    },
+    {
+      title: "Margen menor a $25",
+      text: "Margen neto por venta por debajo de ~$25. Excepción: suscripciones con LTV claro.",
+    },
+  ],
+  processTitle: "¿Todo listo? Así trabajamos",
+  processLead:
+    "Desde la primera llamada hasta un canal de ventas en marcha — nada de «lanzar y desaparecer».",
+  steps: [
+    {
+      n: "01",
+      title: "Escríbenos",
+      text: "Completa el formulario — empezamos hablando del objetivo y el presupuesto.",
+    },
+    {
+      n: "02",
+      title: "Descubrimiento",
+      text: "Definimos prioridades, por qué el CPC varía en tu sector y cómo reducirlo desde el inicio. El contrato llega cuando el alcance está claro.",
+    },
+    {
+      n: "03",
+      title: "Auditoría de la web",
+      text: "Revisamos si el sitio está listo para convertir. Si necesita ajustes, te lo decimos. Algunos hallazgos aparecen tras el primer análisis de datos.",
+    },
+    {
+      n: "04",
+      title: "Estrategia de campaña",
+      text: "Palabras clave, anuncios, negativas, objetivos de CPC, presupuesto diario, formatos y canales de Google.",
+    },
+    {
+      n: "05",
+      title: "Acuerdo y facturación",
+      text: "Cerramos la propuesta de valor y los formatos. Dos facturas: gestión de agencia y gasto en Google — cada dólar queda visible.",
+    },
+    {
+      n: "06",
+      title: "Lanzamiento en Google Ads",
+      text: "Anuncios en marcha, exclusión de emplazamientos, UTM en cada anuncio, ajuste de pujas vía API, informes y seguimiento de llamadas cuando haga falta.",
+    },
+    {
+      n: "07",
+      title: "Analítica y pruebas A/B",
+      text: "Tras unas dos semanas revisamos formatos, textos, negativas, exclusiones y Analytics — ajustamos y repetimos.",
+    },
+  ],
+  edgesTitle: "Qué nos diferencia",
+  edgesLead: "No solo «configuramos Ads» — infraestructura pensada para resultados.",
+  edges: [
+    {
+      title: "Dos facturas, todo claro",
+      text: "La gestión de PRIME y el presupuesto de medios en Google se mantienen separados. Nada se mezcla en un total opaco.",
+    },
+    {
+      title: "Lista negra de emplazamientos",
+      text: "Años construyendo una lista de sitios que generan clics pero no cierran ventas.",
+    },
+    {
+      title: "UTM en cada anuncio",
+      text: "Vemos el recorrido dentro del sitio — qué funcionó y qué solo quemó presupuesto.",
+    },
+    {
+      title: "Pujas vía API",
+      text: "Nuestro módulo ajusta las pujas según la estrategia — no «configurar y olvidar».",
+    },
+    {
+      title: "Seguimiento de llamadas cuando hace falta",
+      text: "Añadimos atribución de llamadas cuando el canal cierra por teléfono, no solo por formularios.",
+    },
+    {
+      title: "Canal rápido",
+      text: "Más rápido que el SEO: demanda de búsqueda desde hoy, con informes transparentes.",
+    },
+  ],
+  balanceTitle: "Ventajas y desventajas, sin adornos",
+  balanceLead: "Google Ads es rápido y transparente — no un botón mágico.",
+  prosTitle: "Ventajas",
+  consTitle: "Desventajas",
+  pros: [
+    "Lanzamiento rápido",
+    "Estadísticas transparentes que puedes verificar tú mismo",
+    "Visitas cualificadas con intención ya formada",
+  ],
+  cons: [
+    "El CPC varía con la competencia",
+    "La gente suele comparar varios sitios — tu oferta tiene que sostenerse",
+  ],
+  pricingEyebrow: "Tarifas de gestión",
+  pricingTitle: "Cuánto cuesta la gestión",
+  pricingNote:
+    "El presupuesto de medios se paga aparte, directo a Google. El trabajo de agencia va en otra factura. La tarifa de gestión depende del presupuesto mensual — no es un porcentaje del gasto.",
+  invoiceAgency: { label: "Factura 1 · servicios PRIME", value: "gestión de campañas" },
+  invoiceMedia: { label: "Factura 2 · Google", value: "presupuesto de medios" },
+  tiers: [
+    {
+      id: "s",
+      budget: "hasta $1,100",
+      budgetHint: "presupuesto de medios / mes",
+      forWhom: "Equipos pequeños y negocios locales",
+      fee: "desde $70",
+      feeNote: "gestión / mes",
+      accent: true,
+    },
+    {
+      id: "m",
+      budget: "$1,100–$3,300",
+      budgetHint: "presupuesto de medios / mes",
+      forWhom: "Negocios en crecimiento con varias líneas",
+      fee: "$130",
+      feeNote: "gestión / mes",
+      accent: false,
+    },
+    {
+      id: "l",
+      budget: "más de $3,300",
+      budgetHint: "presupuesto de medios / mes",
+      forWhom: "Campañas grandes y sectores competitivos",
+      fee: "$220",
+      feeNote: "gestión / mes",
+      accent: false,
+    },
+  ],
+  tierCta: "Reservar gestión",
+  includeTitle: "Qué incluye",
+  include: [
+    "Estrategia y estructura de campañas en Google Ads",
+    "Anuncios, negativas y lista negra de emplazamientos",
+    "Etiquetado UTM y control de informes",
+    "Ajuste de pujas y optimización según resultados",
+    "Informes y cambios tras las pruebas A/B",
+  ],
+  showCases: false,
+  casesTitle: "Casos de éxito en Google Ads",
+  casesLead: "Júzganos por proyectos reales, no por cartas de agradecimiento.",
+  casesAll: "Ver todos los casos de Google Ads",
+  outcomesTitle: "Qué obtienes en la práctica",
+  outcomesLead: "No impresiones para un informe — un canal de leads gestionado desde la búsqueda.",
+  outcomes: [
+    {
+      title: "Leads con demanda caliente",
+      text: "La gente ya busca el producto — la campaña capta intención real, no alcance vacío.",
+    },
+    {
+      title: "Números claros",
+      text: "Dos facturas, UTM e informes: ves el gasto en medios, la tarifa de gestión y qué genera clics y leads de verdad.",
+    },
+    {
+      title: "Mejora constante",
+      text: "Negativas, lista negra, pujas y pruebas A/B — no «lanzar y olvidar», sino optimización continua.",
+    },
+  ],
+  faqTitle: "Preguntas frecuentes",
+  faqLead: "Tarifas, plataformas, plazos y qué tan lista debe estar tu web.",
+  faq: [
+    {
+      q: "¿Por qué la gestión no es un porcentaje del gasto?",
+      a: "Una tarifa fija según presupuesto es más justa: no tenemos incentivo para inflar el gasto por nuestra comisión. Servicios y medios quedan en facturas separadas.",
+    },
+    {
+      q: "¿Google Ads es la única opción?",
+      a: "Para mercados globales priorizamos Google Ads (Búsqueda y Display). Otras redes entran en juego si se ajustan al sector y al presupuesto.",
+    },
+    {
+      q: "¿Cuánto presupuesto de medios necesito para empezar?",
+      a: "Depende del sector y la competencia. En la consulta estimamos un mínimo razonable; la gestión arranca desde $70 con presupuestos de hasta $1,100 al mes.",
+    },
+    {
+      q: "¿Cuándo aparecen los primeros leads?",
+      a: "Google Ads es más rápido que el SEO: con demanda real y una web que funciona, los leads pueden llegar en los primeros días tras la aprobación. La economía se estabiliza después de los primeros datos y ajustes.",
+    },
+    {
+      q: "¿Y si la web convierte poco?",
+      a: "Auditamos la conversión antes de lanzar. Si el sitio tiene fugas, te decimos qué corregir — de lo contrario, los anuncios solo queman presupuesto para el beneficio de otro.",
+    },
+  ],
+  ctaTitle: "¿Quieres leads desde Google ahora mismo?",
+  ctaLead:
+    "Cuéntanos tu sector y el rango de presupuesto de medios — te recomendamos un nivel de gestión y un plan de lanzamiento realista en Google Ads.",
+  ctaPoints: [
+    "Tarifa de gestión según presupuesto — sin porcentaje del gasto",
+    "Dos facturas: servicios PRIME y gasto en medios",
+    "Lanzamiento en Google Ads",
+    "Negativas, UTM y optimización de pujas",
+  ],
+  formName: "Tu nombre",
+  formPhone: "Teléfono",
+  formSite: "URL de tu web",
+  formSystem: "Te interesa",
+  formSystemOptions: ["Google Ads Búsqueda", "Google Ads + Display", "Aún no lo sé"],
+  formBudget: "Presupuesto de medios mensual",
+  formBudgetOptions: [
+    "hasta $1,100",
+    "$1,100–$3,300",
+    "más de $3,300",
+    "Todavía sin decidir",
+  ],
+  formMessage: "Sector y objetivo — brevemente",
+  formAgreeBefore: "Acepto el tratamiento de datos personales según nuestra",
+  formAgreePolicy: "política de privacidad",
+  formSubmit: "Reservar consulta",
+  formSuccess: "¡Gracias! Recibimos tu solicitud — te contactaremos pronto.",
+  formSource: "es-ads",
+  footerBrand: "PRIME",
+  footerTagline: "Google Ads · gestión de campañas",
+};
+
 export function getAdsContent(locale: Locale): AdsContent {
   if (locale === "en") return adsEn;
+  if (locale === "es") return adsEs;
   return adsRu;
 }
 

@@ -1,5 +1,124 @@
 import type { BlogPost } from "../../../data/blog";
 
+/** ES overlay for oformlenie-email — same structure as RU JSON. */
+export const oformlenieEmailEs: BlogPost = {
+  slug: "oformlenie-email",
+  title: "Diseño de email: jerarquía y estilo",
+  date: "2019-07-30",
+  category: "Email marketing",
+  cover: "/images/blog/oformlenie-email/cover.webp",
+  excerpt:
+    "Cómo diseñar un email: errores habituales, ancho y módulos, jerarquía visual, imágenes, estilo de marca y checklist previo al envío — junto a la maquetación HTML técnica.",
+  lead: [
+    "El diseño de email no es «hacerlo bonito» — es dejar claro en segundos: quién escribe, para qué existe el email y qué pulsar.",
+    "Abajo: errores habituales, estructura, jerarquía, trabajo con imágenes y un estilo unificado de serie. Cómo se renderiza en clientes de correo está en el texto de maquetación HTML.",
+  ],
+  faq: [
+    {
+      q: "¿Qué ancho de email usar?",
+      a: "Una guía habitual de columna desktop es unos 600px. En móvil importan más una columna y botones grandes que «meter tres».",
+    },
+    {
+      q: "¿Cuántas columnas debe tener un email?",
+      a: "En móvil una es más segura. Dos — solo con un stack responsive.",
+    },
+    {
+      q: "¿Por qué un estilo unificado de serie?",
+      a: "Reconocimiento de marca y confianza. Cada email «de otro planeta» baja el reconocimiento del remitente.",
+    },
+    {
+      q: "¿Dónde poner la oferta principal?",
+      a: "Arriba en el email: preheader, primer pantallazo, CTA antes de un scroll largo.",
+    },
+    {
+      q: "¿Mucha decoración es buena en email?",
+      a: "No. Líneas de más, fotos de relleno y texto minúsculo hieren la jerarquía.",
+    },
+    {
+      q: "¿Usar fuentes de marca en email?",
+      a: "Sí con web fonts y un fallback de sistema. La legibilidad gana a la tipografía exótica.",
+    },
+    {
+      q: "¿En qué se diferencia el diseño de la maquetación?",
+      a: "Diseño es composición y sentido. Maquetación es HTML/CSS para que no se caiga en Outlook.",
+    },
+  ],
+  sections: [
+    {
+      title: "Errores típicos",
+      level: 2,
+      paras: [
+        "El email «repela» pero no se entiende por qué; la intención del diseñador no se lee; no hay estilo de serie; el remitente es invisible; ritmo caótico de bloques; texto minúsculo; sin CTA claro.",
+        "Primero corta ruido y restaura jerarquía — a menudo no hace falta «magia».",
+      ],
+    },
+    {
+      title: "Estructura, jerarquía, imágenes",
+      level: 2,
+      paras: [
+        "Grid modular: header de marca → oferta/lead → prueba → CTA → footer con baja. Pon lo importante pronto, antes de un scroll largo.",
+        "Jerarquía visual: tamaño, contraste, spacing. Agrupa elementos relacionados (proximidad), separa secciones con aire.",
+        "Imágenes en una misma clave: luz, crop, pies. No pongas todo el sentido solo en la imagen — algunos clientes no la mostrarán.",
+      ],
+      lists: [
+        {
+          intro: "Checklist visual rápido:",
+          items: [
+            "remitente/logo reconocible",
+            "una idea principal",
+            "un botón principal",
+            "contraste de texto suficiente",
+            "el estilo encaja con emails anteriores",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Maquetación HTML de email",
+          href: "/es/blog/verstka-email/",
+        },
+        {
+          label: "Ejemplos de emails fuertes",
+          href: "/es/blog/primery-email-rassylok/",
+        },
+      ],
+    },
+    {
+      title: "Estilo de serie y chequeo final",
+      level: 2,
+      paras: [
+        "Fija tokens: colores, botones, fuentes, spacing de módulos. Arma emails nuevos con los mismos bloques — más rápido, y la marca se sostiene.",
+        "Antes de enviar: preheader, vista móvil, alt, enlaces, baja, encaje con el copy de la oferta.",
+      ],
+      links: [
+        {
+          label: "Copy de newsletter",
+          href: "/es/blog/tekst-email-rassylki/",
+        },
+        {
+          label: "Estrategia de email",
+          href: "/es/blog/email-strategiya/",
+        },
+      ],
+    },
+  ],
+  notes: {
+    title: "Importante",
+    text: "El ancho «600px» y las grids modulares son guías de trabajo, no dogma. Las plantillas responsive del ESP pueden diferir; revisa previews en tus segmentos de dispositivo.",
+  },
+  closing: [
+    "Arma módulos con jerarquía clara y un estilo unificado de serie, y deja la estabilidad técnica a las reglas de maquetación HTML — para que el diseño ayude al CTR en lugar de pelear con el cliente de correo.",
+  ],
+  related: [
+    "verstka-email",
+    "tekst-email-rassylki",
+    "primery-email-rassylok",
+    "email-strategiya",
+    "email-marketing-2020",
+    "email-dlya-biznesa",
+  ],
+};
+
 /** EN overlay for oformlenie-email — same structure as RU JSON. */
 export const oformlenieEmailEn: BlogPost = {
   slug: "oformlenie-email",

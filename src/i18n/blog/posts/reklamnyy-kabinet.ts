@@ -170,3 +170,174 @@ export const reklamnyyKabinetEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for reklamnyy-kabinet — same structure as RU JSON / EN. */
+export const reklamnyyKabinetEs: BlogPost = {
+  slug: "reklamnyy-kabinet",
+  title: "Cuenta de ads: qué es y por dónde empezar",
+  date: "2021-04-16",
+  category: "Paid search",
+  cover: "/images/blog/reklamnyy-kabinet/cover.webp",
+  excerpt:
+    "Qué es una cuenta de ads, qué entidades casi siempre existen (campaña, presupuesto, audiencia, stats) y cómo plantear un lanzamiento en Yandex Direct y cuentas de ads social.",
+  lead: [
+    "Una cuenta de ads es la interfaz donde creas campañas, fijas presupuesto y audiencia y lees stats. Cada plataforma tiene su UI, pero la lógica se parece.",
+    "Abajo: vocabulario compartido y un orden sensato de lanzamiento. Los menús cambian; para plataformas Meta este artículo es informativo y no te empuja a usar el servicio.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de las plataformas. Facebook* e Instagram* son productos de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso de los servicios puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Por dónde debería empezar un principiante en Rusia?",
+      a: "A menudo con Yandex Direct y/o ads de VK — revisa accesos actuales y documentos de la plataforma. En otros sitios, elige las cuentas que tu audiencia y el contexto legal permitan de verdad.",
+    },
+    {
+      q: "¿En qué se diferencia una cuenta de ads de un sitio?",
+      a: "La cuenta gestiona la entrega de anuncios. El sitio/landing recibe el tráfico y convierte.",
+    },
+    {
+      q: "¿Hace falta Yandex Metrica?",
+      a: "Sí para juzgar leads y ROI del tráfico de Yandex. Píxeles/contadores de plataforma — según la tarea.",
+    },
+    {
+      q: "¿Qué son una campaña y un anuncio?",
+      a: "La campaña es el nivel de presupuesto y estrategia. Los grupos/ad sets fijan el targeting. Los ads son los creativos.",
+    },
+    {
+      q: "¿Puedo llevarlo todo a ojo?",
+      a: "No. Sin goals y etiquetado no distingues clics de leads.",
+    },
+    {
+      q: "¿Qué presupuesto hace falta para un test?",
+      a: "Depende del nicho, el CPC y el objetivo. Fija un importe suficiente para reunir datos y decide de antemano cuándo parar o escalar.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo se estructura una cuenta de ads",
+      level: 2,
+      paras: [
+        "Casi en todas partes: cuenta → campañas → grupos → ads → stats. Más billing, moderación y ajustes de audiencia.",
+      ],
+      lists: [
+        {
+          intro: "Antes del primer lanzamiento:",
+          items: [
+            "objetivo (lead, compra, tráfico)",
+            "landing page",
+            "presupuesto y periodo de test",
+            "contador de analytics",
+            "creativos y oferta",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Plataformas: Direct, VK y otras",
+      level: 2,
+      paras: [
+        "Yandex Direct — búsqueda y redes de Yandex. VK — su propia cuenta de ads. Otras plataformas tienen cuentas y reglas de acceso aparte.",
+        "Los ads de Facebook e Instagram históricamente iban por Meta Ads Manager; si operas desde Rusia, ten en cuenta el estatus legal de los productos Meta.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de trabajo en cualquier cuenta:",
+          items: [
+            "estructura de campaña clara",
+            "UTM o etiquetado",
+            "presupuesto diario/total",
+            "negativos / exclusiones de audiencia",
+            "revisión regular de stats",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Instalar Yandex Metrica",
+          href: "/es/blog/metrika-ustanovka/",
+        },
+        {
+          label: "Landing page",
+          href: "/es/blog/lending/",
+        },
+      ],
+    },
+    {
+      title: "Errores típicos al empezar",
+      level: 2,
+      paras: [
+        "Mandar tráfico a la home sin oferta, mezclar goals en una campaña, ignorar bounce y leads, esperar milagros sin tests de creativos.",
+      ],
+      lists: [
+        {
+          intro: "Checklist tras la moderación:",
+          items: [
+            "los ads se están sirviendo de verdad",
+            "la landing abre en móvil",
+            "los goals de analytics disparan",
+            "el presupuesto no se quema en irrelevancia",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Prepara la medición antes del lanzamiento",
+      level: 2,
+      paras: [
+        "Una cuenta de ads no crea demanda ni arregla una landing floja. Antes de recargar, comprueba que el formulario funciona, se responden las llamadas, precios y condiciones están al día y la acción objetivo se ve en analytics.",
+        "Ata los ads a resultados con goals y etiquetas UTM. Así puedes partir campañas, creativos y audiencias en informes — no discutir la calidad del anuncio solo con clics totales.",
+      ],
+      lists: [
+        {
+          intro: "Prep mínimo:",
+          items: [
+            "objetivo de campaña y coste aceptable por consulta",
+            "analytics montada y una conversión de prueba",
+            "landing con oferta clara",
+            "alguien responsable del manejo de leads",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Arma una estructura de campaña legible",
+      level: 2,
+      paras: [
+        "No mezcles productos, regiones y goals distintos en una campaña si quieres stats legibles. La estructura debe mostrar qué funcionó: consulta, audiencia, creativo, emplazamiento o landing.",
+        "Empieza con pocos grupos lógicos. Fragmentar de más deja cada grupo sin datos; un grupo enorme oculta diferencias de demanda. Nombra campañas y ads para que el equipo los lea.",
+      ],
+      lists: [
+        {
+          intro: "Separa campañas por:",
+          items: [
+            "productos u ofertas distintas",
+            "geografía e idioma de la audiencia",
+            "búsqueda, redes o formatos de emplazamiento",
+            "etapa del funnel y objetivo de comunicación",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Testea y optimiza sin conclusiones precipitadas",
+      level: 2,
+      paras: [
+        "Tras el lanzamiento, confirma que impresiones, clics y goals se registran bien. Luego deja que la campaña reúna datos suficientes dentro del presupuesto acordado. Editar pronto cada parámetro oculta qué movió el resultado.",
+        "Corta irrelevancia clara, afina consultas y audiencias, refresca creativos flojos. No persigas solo el clic barato: el valor son leads, ventas y calidad del lead.",
+      ],
+      lists: [
+        {
+          intro: "En una revisión regular incluye:",
+          items: [
+            "gasto, impresiones, clics y conversiones",
+            "consultas de búsqueda o sitios de emplazamiento",
+            "coste y calidad de las consultas",
+            "estado de la landing y velocidad de respuesta del manager",
+          ],
+        },
+      ],
+    },
+  ],
+};

@@ -163,3 +163,167 @@ export const retargetingMetaEn: BlogPost = {
     "optimizatsiya-konversii",
   ],
 };
+
+/** ES overlay for retargeting-meta — same structure as RU JSON / EN. */
+export const retargetingMetaEs: BlogPost = {
+  slug: "retargeting-meta",
+  title: "Retargeting en Instagram y Facebook: tipos de audiencia",
+  date: "2020-01-13",
+  category: "Digital marketing",
+  cover: "/images/blog/retargeting-meta/cover.webp",
+  excerpt:
+    "Custom audiences para retargeting: visitantes del sitio, listas de clientes y engagement en Instagram / Facebook — cómo funcionan los segmentos, sin un click-path obsoleto de Ads Manager.",
+  lead: [
+    "El retargeting en redes se apoya en segmentos cálidos: gente que ya visitó el sitio, está en tu CRM o interactuó con el contenido. En el ecosistema de Instagram y Facebook esos grupos se llamaron históricamente custom audiences.",
+    "Las UIs de las cuentas de ads cambian. Abajo: lógica de tipos de audiencia y un setup sensato — no clics en capturas obsoletas. La base general del retargeting está en un artículo aparte. Esta pieza es informativa y no empuja al uso de plataformas Meta.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de las plataformas. Instagram* y Facebook* son productos de Meta Platforms Inc.; en la Federación de Rusia la actividad de Meta está reconocida como extremista, y el uso de los servicios puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia del retargeting ordinario?",
+      a: "La misma idea: traer de vuelta a gente que ya conoces. La diferencia es la fuente de la señal — píxel/tag del sitio, upload de lista, eventos de engagement en la cuenta — no solo Métrica o redes display.",
+    },
+    {
+      q: "¿Hace falta un píxel en el sitio?",
+      a: "Para un segmento «visitó el sitio» — sí: sin evento de visita o carrito la audiencia está vacía. Para una lista de clientes o engagement en la cuenta un píxel no es obligatorio.",
+    },
+    {
+      q: "¿Puedo subir una lista de clientes?",
+      a: "En la lógica de la cuenta — sí, con base legal y consentimiento. En la práctica importan la calidad de los datos, las reglas de hashing de la plataforma y excluir compradores de campañas de persecución.",
+    },
+    {
+      q: "¿Qué es más fuerte: 3 segundos de vídeo o 95% visto?",
+      a: "Más profundidad de visionado = segmento más estrecho y cálido. Un umbral amplio da volumen; uno estrecho da calidad. Prueba ambos y mira CPA — no la intuición.",
+    },
+    {
+      q: "¿Por qué no copiar capturas viejas de Ads Manager?",
+      a: "Los menús y nombres de tabs se actualizan. Fócate en el tipo de fuente de audiencia y los eventos — no en «botón a la izquierda → tercer icono».",
+    },
+    {
+      q: "¿Esto se conecta a ads de búsqueda y SEO?",
+      a: "De forma directa — no. De forma indirecta: las mismas landings, oferta y exclusiones de conversión afectan cualquier retarget. La teoría general está en el artículo de retargeting.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué custom audiences",
+      level: 2,
+      paras: [
+        "El reach frío es más caro de convertir. Los segmentos «ya tocados» permiten recordar un carrito, una promo o un formulario a medias — con creative alineado a la etapa del funnel.",
+        "Señales típicas: visita y acciones en el sitio, formulario de lead sin enviar, view de vídeo, reacciones a posts. El retarget no sustituye la calidad del producto ni la comodidad del checkout.",
+      ],
+      lists: [
+        {
+          intro: "Tres familias de segmento que funcionan:",
+          items: [
+            "visitantes del sitio (y eventos: view, carrito, lead)",
+            "tus clientes y lookalikes (listas / lógica lookalike)",
+            "engagement en cuentas de Instagram y Facebook",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Retargeting: la base",
+          href: "/es/blog/retargeting/",
+        },
+      ],
+    },
+    {
+      title: "Visitantes del sitio",
+      level: 2,
+      paras: [
+        "El segmento se arma con eventos del contador: todas las visitas en N días, views de URL concretas, add to cart, inicio de checkout. Cuanto más estrecho el evento, más relevante la oferta.",
+        "Tiene sentido recordar un carrito abandonado, el plazo de una promo o envío gratis — si eso es verdad para el segmento. Excluye compradores y rechazos duros, o la marca persigue por nada.",
+      ],
+      lists: [
+        {
+          intro: "Qué vigilar al armar:",
+          items: [
+            "ventana de lookback (a menudo 7–30 días, rara vez más)",
+            "topes de frecuencia — para no molestar",
+            "creatives aparte por etapa",
+            "excluir conversiones y staff",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Sin un install correcto del tag y consentimiento para el tratamiento de datos el segmento está vacío o es legalmente arriesgado. Primero medición y política — luego la campaña.",
+        },
+      ],
+    },
+    {
+      title: "Clientes y audiencias lookalike",
+      level: 2,
+      paras: [
+        "Una lista CRM (email, teléfono — en el formato que acepta la cuenta) da un segmento «ya compró / dejó un contacto». Úsala para upsell, reactivación o como semilla para lookalikes.",
+        "Los lookalikes no son magia — son una expansión estadística a partir de rasgos de la semilla. La calidad de la semilla gana al tamaño: una lista basura da ruido caro.",
+      ],
+      lists: [
+        {
+          intro: "En la práctica:",
+          items: [
+            "separa pagadores de meros leads",
+            "refresca los exports",
+            "no mezcles productos distintos en una semilla",
+            "cuenta CPA del segmento, no solo reach",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Engagement en Instagram y Facebook",
+      level: 2,
+      paras: [
+        "Una clase aparte — gente que vio vídeo, abrió un perfil, reaccionó a posts, empezó un lead form o marcó interés en un evento. Una señal de interés sin visita al sitio.",
+        "Para vídeo, compara views cortas vs profundas (50%+ / visionado completo): volumen vs temperatura. Para formularios — abierto vs completado; para eventos — view de página vs «voy».",
+      ],
+      lists: [
+        {
+          intro: "Fuentes típicas de engagement:",
+          items: [
+            "views de vídeo por tiempo o umbral de porcentaje",
+            "interacciones con perfil y contenido",
+            "lead forms (empezado / completado)",
+            "interés en un evento / ticket",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo no romper la campaña",
+      level: 2,
+      paras: [
+        "Un solo creative para toda la gente cálida es un error habitual. Carrito, visita pelada y completion de vídeo necesitan mensajes distintos. La frecuencia y la vida del segmento limitan el burnout.",
+        "No confundas el setup de audiencia con el objetivo de campaña: el segmento responde «quién», el creative y la oferta responden «por qué volver». Los límites legales de plataformas en Rusia van aparte de la lógica de marketing.",
+      ],
+      links: [
+        {
+          label: "Retargeting de fiestas",
+          href: "/es/blog/prazdnichnyy-retargeting/",
+        },
+        {
+          label: "Audiencia target",
+          href: "/es/blog/tselevaya-auditoriya/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "El retarget en Instagram y Facebook se apoya en tres pilares: eventos del sitio, listas de calidad y engagement en la cuenta. Arma segmentos estrechos, excluye conversiones, refresca creatives — sin perseguir clics obsoletos de Ads Manager.",
+  ],
+  related: [
+    "retargeting",
+    "prazdnichnyy-retargeting",
+    "tselevaya-auditoriya",
+    "reklama-instagram",
+    "utm-metki",
+    "optimizatsiya-konversii",
+  ],
+};

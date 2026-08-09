@@ -235,3 +235,239 @@ export const mobilnyyPoiskEn: BlogPost = {
     "otkazy-sayta",
   ],
 };
+
+/** ES overlay for mobilnyy-poisk — same structure as RU JSON / EN. */
+export const mobilnyyPoiskEs: BlogPost = {
+  slug: "mobilnyy-poisk",
+  title: "Búsqueda móvil en SEO: SERP, responsive y velocidad",
+  date: "2018-08-14",
+  category: "SEO",
+  cover: "/images/blog/mobilnyy-poisk/cover.webp",
+  excerpt:
+    "Cómo difiere la SERP móvil de la desktop, por qué revisar rankings y UX en el teléfono, responsive vs m-site, y qué hacer con la velocidad tras el hype de Turbo/AMP.",
+  lead: [
+    "Una parte grande del tráfico de búsqueda llega desde smartphones. El mobile-first indexing y los bloques propios de la SERP móvil convierten las «checks solo desktop» en un punto ciego: rankings, snippets y usabilidad en el teléfono pueden divergir del desktop.",
+    "Abajo: cómo difieren las SERP, cómo revisar y adaptar el sitio, cuándo basta responsive y cuándo hay que centrarse en velocidad, y cómo no armar estrategia sobre aceleradores obsoletos como Turbo.",
+  ],
+  faq: [
+    {
+      q: "¿Las SERP móvil y desktop son iguales?",
+      a: "No siempre. Distintos dispositivos, comportamiento y bloques (incluidas respuestas rápidas, mapas). Los rankings de una query pueden diferir.",
+    },
+    {
+      q: "¿El Mobile-First Index es obligatorio?",
+      a: "Para Google la versión móvil lleva tiempo siendo la base de indexación. En Yandex la movilidad también entra en la fórmula. UX rota en smartphone = riesgo.",
+    },
+    {
+      q: "¿Responsive o un m-site aparte?",
+      a: "Por defecto: responsive en una URL. Un m. aparte es legado con riesgos de duplicados y drift.",
+    },
+    {
+      q: "¿Necesito páginas Turbo?",
+      a: "No: el formato está fuera de la búsqueda. Invierte en velocidad y responsive en tu propio sitio.",
+    },
+    {
+      q: "¿Todo sitio necesita AMP?",
+      a: "No. Primero móvil correcto y Core Web Vitals; AMP solo en casos estrechos.",
+    },
+    {
+      q: "¿Con qué frecuencia revisar rankings móviles?",
+      a: "En el núcleo prioritario — con regularidad (semanal / tras updates). Mira dinámica de clusters, no una sola frase.",
+    },
+    {
+      q: "¿Basta un test Mobile-Friendly?",
+      a: "Esa es la base. Suma velocidad, teléfonos reales, formularios y plantillas clave en analytics móvil.",
+    },
+    {
+      q: "¿Cuándo esperar crecimiento por fixes móviles?",
+      a: "UX y conversión pueden mejorar rápido. Los rankings del núcleo competitivo se planifican a meses de trabajo — no primera página la semana que viene. La cuota del núcleo suele construirse en dos a seis meses tras el arranque.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué no puedes ignorar la búsqueda móvil",
+      level: 2,
+      paras: [
+        "La cuota móvil en orgánico para la mayoría de nichos domina o ronda la mitad+. Algoritmos como el histórico Mobilegeddon y la fórmula «Vladivostok» de Yandex fijaron: la usabilidad en smartphone es factor de ranking y de supervivencia del tráfico.",
+        "Google lleva tiempo apoyándose en un índice mobile-first: para el bot el documento móvil es la referencia. Si solo queda bonito en el monitor, pierdes UX y visibilidad.",
+      ],
+      lists: [
+        {
+          intro: "Riesgos de solo-desktop:",
+          items: [
+            "rankings y snippets distintos",
+            "bounce alto en smartphone",
+            "queries locales y «en movimiento» perdidas",
+            "conversión débil desde el teléfono",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO para Yandex y Google",
+          href: "/es/blog/seo-yandex-google/",
+        },
+      ],
+    },
+    {
+      title: "Cómo difiere la SERP móvil",
+      level: 2,
+      paras: [
+        "La SERP móvil se construye con estadísticas de smartphone y tablet: clics distintos, bloques distintos (mapas, respuestas rápidas, packs locales). No copies las posiciones desktop uno a uno a un reporte de «estamos rankeando».",
+        "Monitoriza rankings en el slice móvil de Yandex y Google sobre el núcleo comercial. Si no, optimizas una foto bonita de PC mientras los leads llegan del teléfono.",
+      ],
+      lists: [
+        {
+          intro: "Mira por separado:",
+          items: [
+            "rankings móvil vs desktop",
+            "CTR del snippet en smartphone",
+            "queries locales y «cerca de mí»",
+            "featured/respuestas rápidas en clusters info",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Snippet",
+          href: "/es/blog/snippet/",
+        },
+      ],
+    },
+    {
+      title: "Cómo adaptar el sitio a smartphones",
+      level: 2,
+      paras: [
+        "Empieza por analytics: cuota móvil, dispositivos, landings principales por visitas y objetivos. Revisa mobile-friendly y velocidad (PageSpeed/Lighthouse en modo móvil).",
+        "En DevTools emula modelos clave, pero también revisa dos o tres teléfonos reales. Quita scroll horizontal, tipografía diminuta, scripts pesados, popups agresivos y basura tipo Flash obsoleta.",
+      ],
+      lists: [
+        {
+          intro: "Práctica:",
+          items: [
+            "slice móvil en Métrica/GA",
+            "auditoría de plantillas principales",
+            "HTTPS y un viewport correcto",
+            "Search Console / Webmaster — errores móviles",
+            "revisiones regulares de rankings móviles en el núcleo",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error común",
+          kind: "warning",
+          text: "Apretar el CSS desktop sin cambiar contenido ni prioridad del formulario. En el teléfono la primera pantalla debe encajar con el trabajo, con targets táctiles grandes.",
+        },
+      ],
+      links: [
+        {
+          label: "Sitio responsive",
+          href: "/es/blog/adaptivnyy-sayt/",
+        },
+        {
+          label: "Yandex Webmaster",
+          href: "/es/blog/yandeks-vebmaster/",
+        },
+      ],
+    },
+    {
+      title: "Responsive o una versión móvil aparte",
+      level: 2,
+      paras: [
+        "Responsive: una URL, layout por ancho de pantalla. Más fácil de mantener, menos duplicados, el camino habitual en CMS.",
+        "M-site aparte: plantilla/subdominio propio, a veces más flexible para UX, pero más caro de soportar y más arriesgado para SEO (redirects, drift de contenido). Los proyectos nuevos suelen elegir responsive.",
+      ],
+      lists: [
+        {
+          intro: "Por qué responsive más a menudo:",
+          items: [
+            "una URL canónica",
+            "menos drift de contenido",
+            "más rápido de desplegar en un CMS existente",
+            "analytics y enlaces más simples",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Maquetación del sitio",
+          href: "/es/blog/verstka-saytov/",
+        },
+      ],
+    },
+    {
+      title: "Velocidad: tras el hype de Turbo y AMP",
+      level: 2,
+      paras: [
+        "Consejos viejos a menudo empujaban AMP y páginas Turbo de Yandex. Turbo está fuera de la búsqueda; AMP no es obligatorio para la mayoría de sitios comerciales. La base son páginas rápidas propias.",
+        "Corta peso de CSS/JS, optimiza imágenes, caché, fuentes. Media grande con tráfico extremo a veces necesita plantillas ligeras aparte — eso es ingeniería del sitio, no «activar Turbo».",
+      ],
+      lists: [
+        {
+          intro: "Foco de velocidad:",
+          items: [
+            "LCP/INP en móvil",
+            "peso del hero y above-the-fold",
+            "diferir lo extra",
+            "CDN para geografía/picos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Páginas Turbo (historia y takeaway)",
+          href: "/es/blog/turbo-stranitsy/",
+        },
+        {
+          label: "Tamaño de página",
+          href: "/es/blog/razmer-stranitsy/",
+        },
+      ],
+    },
+    {
+      title: "Cómo meter lo móvil en el proceso SEO",
+      level: 2,
+      paras: [
+        "Mantén rankings móviles y conversión móvil en el loop mensual junto a técnica y contenido. Revisa ediciones de plantilla en un teléfono antes de publicar para todos.",
+        "Diseña landings nuevas mobile-first desde el inicio: oferta, teléfono tappable, formulario corto. Si no, luego arreglas lo que ya ganó malas señales de comportamiento.",
+      ],
+      lists: [
+        {
+          intro: "Ritmo:",
+          items: [
+            "semanal: errores móviles en cuentas",
+            "por release: smoke de URLs clave en un teléfono",
+            "mensual: rankings móviles del núcleo + CR",
+            "trimestral: velocidad de las landings principales",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Prep de la base móvil — semanas. La construcción de visibilidad del núcleo se planifica a dos a seis meses. Móvil es condición de entrada, no un atajo de ranking.",
+        },
+      ],
+      links: [
+        {
+          label: "SEO DIY",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+        {
+          label: "Tasa de rebote del sitio",
+          href: "/es/blog/otkazy-sayta/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "adaptivnyy-sayt",
+    "turbo-stranitsy",
+    "razmer-stranitsy",
+    "snippet",
+    "seo-yandex-google",
+    "otkazy-sayta",
+  ],
+};

@@ -1,5 +1,123 @@
 import type { BlogPost } from "../../../data/blog";
 
+/** ES overlay for auktsion-direkt — same structure as RU JSON. */
+export const auktsionDirektEs: BlogPost = {
+  slug: "auktsion-direkt",
+  title: "Subasta de Yandex Direct: pujas, CTR y competencia",
+  date: "2017-04-10",
+  category: "Paid search",
+  cover: "/images/blog/auktsion-direkt/cover.webp",
+  excerpt:
+    "Cómo funciona la subasta de Yandex Direct: puja y calidad del anuncio, lógica de second-price, por qué el «premium placement» de guías de 2017 es un término histórico y por qué los «props» de puja de competidores son mala idea.",
+  lead: [
+    "En Direct, quién se muestra y cuánto cuesta el clic salen de una subasta: cuentan la puja, la clickability prevista y la calidad del anuncio más la landing. Una puja mayor no siempre es mejor valor — ni siempre un mejor hueco.",
+    "Abajo: la lógica básica de pujas y por qué las guerras de precio («props») hacen daño a todos. La etiqueta «premium placement» y las cifras de paso de materiales de 2017 están desfasadas — mira la subasta actual en la Help de Yandex.",
+  ],
+  faq: [
+    {
+      q: "¿Qué decide la subasta de Direct?",
+      a: "Quién se muestra y cuánto paga por clic para una consulta, dispositivo y audiencia dados — ponderando puja y calidad.",
+    },
+    {
+      q: "¿Yandex Direct es una subasta de second-price?",
+      a: "La idea de «pagar no tu puja máxima, sino lo suficiente para ganar» está cerca del modelo clásico. Fórmulas y pasos exactos han cambiado — ver Help de Direct.",
+    },
+    {
+      q: "¿El CTR importa más que la puja?",
+      a: "Importan ambos. Un anuncio débil con puja alta a menudo pierde frente a un competidor relevante.",
+    },
+    {
+      q: "¿Qué es un «prop» de puja en Direct?",
+      a: "Una táctica gris histórica: fijar la puja en el límite de un bloque para inflar el CPC de los vecinos. No la recomendamos: cara, arriesgada e invita a contraguerras.",
+    },
+    {
+      q: "¿El premium placement sigue comprándose como tarifa aparte?",
+      a: "Como tarifa antigua — no. Hay posiciones en el SERP y estrategias; los detalles están en el texto de premium placement.",
+    },
+    {
+      q: "¿Cómo competir de forma justa?",
+      a: "Oferta, negativos, copy, landing, economía de CPA. No una carrera por el hueco a cualquier precio.",
+    },
+    {
+      q: "¿Dónde mirar en lugar de guerras de puja?",
+      a: "El texto de pujas en Direct y las conversiones en Yandex Métrica/CRM.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo se puntúa al ganador",
+      level: 2,
+      paras: [
+        "En corto: el sistema compara más que la puja en rublos — pondera la respuesta esperada. Un anuncio con mejor CTR y relevancia puede vencer a una puja más cara pero débil.",
+        "La puntuación vive en la consulta y las condiciones de impresión. Por eso las mismas keywords se comportan distinto por la mañana y por la noche, en móvil y en desktop.",
+      ],
+      links: [
+        {
+          label: "Pujas en Direct",
+          href: "/es/blog/stavki-direkt/",
+        },
+        {
+          label: "Premium placement: qué era",
+          href: "/es/blog/spetsrazmeshchenie-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Precio del clic y «second price»",
+      level: 2,
+      paras: [
+        "El ganador a menudo no paga el techo de su puja, sino lo suficiente para superar al siguiente participante (más el paso mínimo de la plataforma — ha cambiado con el tiempo).",
+        "Conclusión práctica: inflar la puja «con colchón» sin economía de CPA quema presupuesto. Mejora el anuncio y la landing antes de perseguir para siempre a un competidor con dinero.",
+      ],
+      lists: [
+        {
+          intro: "Qué revisar antes de subir la puja:",
+          items: [
+            "negativos y demanda basura",
+            "titulares y sitelinks",
+            "velocidad de landing y oferta",
+            "CPA objetivo y margen",
+          ],
+        },
+      ],
+    },
+    {
+      title: "«Props» y guerras de precio",
+      level: 2,
+      paras: [
+        "Guías viejas describían una táctica: clavar la puja en el límite del bloque premium para subir el CPC de los vecinos. Formalmente es manipulación de subasta para dañar a un competidor.",
+        "Los contras son obvios: contragolpe en tus keywords, presupuesto tirado cuando se mueve el umbral de entrada, escalada de guerra de marca. Direct y el soporte no tienen por qué proteger esos esquemas.",
+        "La competencia justa es calidad de campaña y producto — no «castigar a un novato con una puja inflada».",
+      ],
+      links: [
+        {
+          label: "Presupuesto en Direct",
+          href: "/es/blog/byudzhet-yandeks-direkt/",
+        },
+        {
+          label: "Estrategias de Direct",
+          href: "/es/blog/strategii-yandeks-direkt/",
+        },
+      ],
+    },
+  ],
+  notes: {
+    title: "Importante",
+    text: "Los ejemplos con «premium placement», «garantías» y un paso de 0,30 ₽ son un corte de 2017. Subasta, bloques y estrategias se han actualizado. No uses este texto como guía para dañar a competidores.",
+  },
+  closing: [
+    "Si los clics se encarecen y los leads no llegan — primero desmonta la calidad del anuncio y de la landing, no busques un «prop»: la subasta de Direct premia la relevancia más que una guerra de pujas.",
+  ],
+  related: [
+    "stavki-direkt",
+    "spetsrazmeshchenie-direkt",
+    "byudzhet-yandeks-direkt",
+    "strategii-yandeks-direkt",
+    "minus-slova-direkt",
+    "klyuchi-yandeks-direkt",
+  ],
+};
+
 /** EN overlay for auktsion-direkt — same structure as RU JSON. */
 export const auktsionDirektEn: BlogPost = {
   slug: "auktsion-direkt",

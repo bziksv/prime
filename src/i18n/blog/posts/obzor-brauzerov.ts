@@ -163,3 +163,167 @@ export const obzorBrauzerovEn: BlogPost = {
     "https-seo",
   ],
 };
+
+/** ES overlay for obzor-brauzerov — same structure as RU JSON / EN. */
+export const obzorBrauzerovEs: BlogPost = {
+  slug: "obzor-brauzerov",
+  title: "Panorama de navegadores: cómo elegir según tus tareas",
+  date: "2018-02-14",
+  category: "Digital marketing",
+  cover: "/images/blog/obzor-brauzerov/cover.webp",
+  excerpt:
+    "Chrome, Firefox, Edge, Opera, Vivaldi y Yandex Browser: qué mirar al elegir — extensiones, privacidad, ecosistema — sin tablas de 2018 ni un «campeón» único.",
+  lead: [
+    "El navegador es el entorno donde abres sitios, cuentas de ads y el correo. No hay «el mejor para todos»: pesan ecosistema, extensiones, privacidad, hábito y dispositivos.",
+    "Abajo: criterios de selección y fortalezas por clase de producto. Cuotas de mercado, «arranque en 2 segundos» y el estado de Edge/Opera de reviews de 2018 están obsoletos — Edge pasó a Chromium, los catálogos de extensiones crecieron. La instalación de Yandex Browser va en otro artículo.",
+  ],
+  faq: [
+    {
+      q: "¿Cuál es el navegador más rápido?",
+      a: "Depende del PC, la red y la versión. Mira actualizaciones y tus escenarios — no cifras de un artículo de 2018.",
+    },
+    {
+      q: "¿Hace falta Chrome para trabajar SEO?",
+      a: "No. DevTools y las extensiones son cómodos; muchos navegadores Chromium se acercan. Firefox también se usa en el trabajo.",
+    },
+    {
+      q: "¿En qué se diferencia del artículo de instalar Yandex Browser?",
+      a: "Aquel es cómo instalar Yandex con seguridad. Aquí — comparar clases y criterios de elección.",
+    },
+    {
+      q: "¿El modo privado/incógnito es seguro?",
+      a: "Deja menos huellas en el dispositivo, pero no te hace anónimo frente al sitio, la red y las extensiones. Para tracking, revisa ajustes de privacidad y herramientas aparte.",
+    },
+    {
+      q: "¿Hacen falta varios navegadores?",
+      a: "A menudo sí: uno principal más un segundo para layout o checks de cuentas. Lo clave es actualizar ambos.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué mirar al elegir",
+      level: 2,
+      paras: [
+        "Empieza por el escenario: surf diario, desarrollo, cuentas Google, servicios Yandex, privacidad estricta, muchas pestañas. Luego — sync móvil/PC, catálogo de extensiones, política de actualizaciones.",
+        "El uso de RAM en la línea Chromium suele ser más alto; se nota más en hardware flojo, menos en máquinas modernas.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de selección:",
+          items: [
+            "SO y clientes móviles necesarios",
+            "extensiones para tus tareas",
+            "sync y gestor de contraseñas",
+            "ajustes de privacidad / tracking",
+            "integración con los servicios que usas",
+            "disposición a actualizar con regularidad",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Clase Chromium: Chrome, Edge, Opera, Yandex, Vivaldi",
+      level: 2,
+      paras: [
+        "La mayoría de navegadores populares hoy van sobre Chromium. De ahí un render parecido y a menudo compatibilidad con extensiones de Chrome Web Store — con matices por vendor.",
+        "Google Chrome es fuerte en el ecosistema Google y DevTools. Microsoft Edge está metido en Windows y también es Chromium — lo de «pocas extensiones» de 2017–2018 ya no encaja. Opera y Yandex Browser suman modos de ahorro de tráfico, servicios y features de UI propias. Vivaldi es para quien gusta afinar pestañas y paneles.",
+      ],
+      tables: [
+        {
+          caption: "Clases (simplificado)",
+          headers: ["Navegador", "Foco habitual"],
+          rows: [
+            ["Chrome", "Ecosistema Google, extensiones, DevTools"],
+            ["Edge", "Windows, Chromium, escenarios corporativos"],
+            ["Firefox", "Privacidad, independencia, Linux"],
+            ["Opera", "Features propias encima de Chromium"],
+            ["Yandex Browser", "Servicios Yandex, Turbo/traducción"],
+            ["Vivaldi", "UI flexible y pestañas"],
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Instalar Yandex Browser",
+          href: "/es/blog/yandeks-brauzer/",
+        },
+        {
+          label: "Extensiones de Chrome para SEO",
+          href: "/es/blog/chrome-rasshireniya-seo/",
+        },
+      ],
+      notes: [
+        {
+          title: "No confundas motor y marca",
+          kind: "tip",
+          text: "Mismo motor ≠ misma política de datos ni el mismo set de servicios por defecto. Lee qué se activa al instalar y al sincronizar.",
+        },
+      ],
+    },
+    {
+      title: "Firefox: el otro polo",
+      level: 2,
+      paras: [
+        "Firefox de Mozilla sigue siendo una opción sólida cuando importan ajustes de privacidad, bloqueo de trackers e independencia de Google/Microsoft. El catálogo de add-ons difiere del de Chrome, pero cubre muchas tareas.",
+        "En Linux Firefox suele ser nativo y familiar. La curva es un poco más empinada que un Chromium «mínimo» — pero la flexibilidad de ajustes es mayor.",
+      ],
+    },
+    {
+      title: "Privacidad, datos y ads",
+      level: 2,
+      paras: [
+        "Casi cualquier navegador grande se engancha al ecosistema del vendor: sugerencias, cuenta, telemetría. No es un veto automático, pero sí motivo para afinar sync, apagar extras y no dejar contraseñas críticas solo en la nube sin 2FA.",
+        "Los prompts agresivos de «hacer predeterminado» son motivo para rechazar el checkbox — no el producto en sí si te encaja.",
+      ],
+      links: [
+        {
+          label: "Cookies en el navegador",
+          href: "/es/blog/cookies/",
+        },
+        {
+          label: "Gestor de contraseñas",
+          href: "/es/blog/menedzher-paroley/",
+        },
+      ],
+    },
+    {
+      title: "Cómo elegir en la práctica",
+      level: 2,
+      paras: [
+        "Para Gmail/Drive/Ads, Chrome o Edge suelen ser cómodos. Para Yandex Direct, Metrika y Mail — Yandex Browser o cualquier navegador más extensiones. Si el foco son trackers — Firefox con protección afinada. Para checks de layout, guarda un segundo motor.",
+        "No copies «Chrome es ideal para todos» de textos viejos: hardware, hábitos y amenazas cambiaron. Instala un candidato de forma oficial, úsalo una semana, quédate con el de menos fricción.",
+      ],
+      lists: [
+        {
+          intro: "Algoritmo corto:",
+          items: [
+            "formula dos o tres escenarios principales",
+            "elige dos candidatos",
+            "importa favoritos de forma temporal",
+            "comprueba las extensiones que necesitas",
+            "mantén uno principal más uno de reserva para tests",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Elegir navegador es cosa de tareas y ecosistema, no de un ranking eterno. Actualiza el software, descarga de sitios oficiales y no confundas instalar un producto con revisar todo el mercado.",
+        "Instalar Yandex Browser — en una guía aparte; extensiones de marketing y SEO — en piezas relacionadas.",
+      ],
+    },
+  ],
+  closing: [
+    "Define escenarios, compara dos candidatos oficiales en tus tareas y mantén un navegador principal más un segundo para checks — así la elección es por el trabajo, no por un roundup ajeno de 2018.",
+  ],
+  related: [
+    "yandeks-brauzer",
+    "chrome-rasshireniya-seo",
+    "chrome-rasshireniya-marketing",
+    "cookies",
+    "menedzher-paroley",
+    "https-seo",
+  ],
+};

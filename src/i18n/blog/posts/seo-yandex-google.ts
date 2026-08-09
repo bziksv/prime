@@ -237,3 +237,241 @@ export const seoYandexGoogleEn: BlogPost = {
     "effektivnost-seo",
   ],
 };
+
+/** ES overlay for seo-yandex-google — same structure as RU JSON / EN. */
+export const seoYandexGoogleEs: BlogPost = {
+  slug: "seo-yandex-google",
+  title: "SEO Yandex vs Google: qué difiere de verdad",
+  date: "2019-01-14",
+  category: "SEO",
+  cover: "/images/blog/seo-yandex-google/cover.webp",
+  excerpt:
+    "Qué se comparte y dónde divergen Yandex y Google: keywords, señales comerciales, SEO local, tools de webmaster, enlaces y contenido — un mapa práctico para Rusia, sin el mito de «un algoritmo para ambos».",
+  lead: [
+    "En la web de habla rusa a menudo hacen falta ambos motores. La cuota Yandex vs Google depende del nicho y la región. La base es la misma — páginas útiles, tech sólida, intención clara. Los acentos difieren: Yandex a menudo pesa más localidad y señales comerciales; Google trae prácticas globales y su propio stack de tools.",
+    "Aquí una comparación útil para un sitio enfocado en Rusia. En mercados donde Google va solo, la estrategia se inclina al SEO «occidental». La prep lleva semanas; el crecimiento de rankings del set de keywords se planifica a 2–6 meses tras el arranque del trabajo — en ambos motores, sin fecha prometida.",
+  ],
+  faq: [
+    {
+      q: "¿Puedo correr SEO «solo Google» en Rusia?",
+      a: "Puedes si ahí está la audiencia. A menudo dejas en la mesa un trozo real de demanda de Yandex. Revisa analytics y cuota de canal por nicho.",
+    },
+    {
+      q: "¿El mismo set de keywords para ambos motores?",
+      a: "Sí — un set compartido. Cruza frecuencias y phrasing en Wordstat y tools de Google / Search Console. Clusters y landings suelen ser un solo mapa.",
+    },
+    {
+      q: "¿Los factores comerciales importan más en Yandex?",
+      a: "En queries comerciales en Rusia, Yandex suele ser sensible a contactos, precios, surtido y confianza. A Google también le importa la calidad de página, pero los equipos RU más a menudo corren el checklist de «escaparate» contra Yandex.",
+    },
+    {
+      q: "¿Un ajuste de región en Webmaster es lo mismo que las señales locales de Google?",
+      a: "Cuentas distintas, señales distintas. Prueba localidad con contenido, NAP y mapas — no con un checkbox.",
+    },
+    {
+      q: "¿Los backlinks funcionan igual?",
+      a: "La calidad del donor importa en todos lados. La historia de filtros y el peso del anchor han diferido por motor — no pegues a ciegas playbooks occidentales de compra de enlaces en Rusia.",
+    },
+    {
+      q: "¿Necesito dos sitios distintos?",
+      a: "Normalmente no: un sitio, dos paneles, un mapa de keywords. Dominios separados son para países o idiomas — no para «Yandex vs Google».",
+    },
+    {
+      q: "¿Penalties y filtros coinciden entre motores?",
+      a: "No. Cada uno tiene sus reglas e historia. Mira ambas cuentas y no copies un «fix» de un motor al otro.",
+    },
+    {
+      q: "¿Y la búsqueda por voz y el móvil?",
+      a: "Mobile-first y velocidad importan en ambos. La voz se apoya en long-tail conversacional, FAQs y perfiles locales — ver el artículo aparte.",
+    },
+  ],
+  sections: [
+    {
+      title: "Base compartida, acentos distintos",
+      level: 2,
+      paras: [
+        "Tanto Yandex como Google quieren responder a la query con un documento útil. Tech (HTTPS, velocidad, indexación), estructura, contenido único y snippets claros importan en ambos.",
+        "La brecha es el peso de las señales, las tools de investigación de demanda y los ecosistemas locales. Arma un sitio fuerte para personas, luego afina paneles y especificidades del SERP.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo compartido:",
+          items: [
+            "indexación y códigos de estado",
+            "móvil y velocidad",
+            "clusters mapeados a landings",
+            "Yandex Webmaster + Google Search Console",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Factores on-page / internos",
+          href: "/es/blog/vnutrennie-faktory/",
+        },
+        {
+          label: "Audit SEO técnico",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "Keywords y señales comerciales",
+      level: 2,
+      paras: [
+        "En Rusia, frecuencia y phrasing son cómodos vía Wordstat, complementados con Search Console y datos de ads. Los mercados Google-first se apoyan más en Search Console, planners y suites en inglés.",
+        "Los factores comerciales — contactos, precios, envío, surtido, reseñas — a menudo deciden queries de dinero en Yandex tanto como «un párrafo más» de copy. Para Google importan la completitud de la respuesta y la confianza estilo E-E-A-T — sin pegar checklists solo para parecer ocupado.",
+      ],
+      lists: [
+        {
+          intro: "Práctica:",
+          items: [
+            "un set de keywords, dos chequeos de frecuencia / impresiones",
+            "bloques comerciales en URLs de dinero",
+            "sin duplicados thin «uno por motor»",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Investigación de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Factores comerciales",
+          href: "/es/blog/kommercheskie-faktory/",
+        },
+      ],
+    },
+    {
+      title: "SEO local, mapas y regiones",
+      level: 2,
+      paras: [
+        "Yandex lleva tiempo fuerte en resultados geo-dependientes y directorios. La vía de Google es Maps / Business Profile. Los negocios offline en Rusia suelen correr ambos con NAP coherente.",
+        "Un ajuste de región en la cuenta es una señal — no sustituye páginas de ciudad, contactos y términos reales de entrega.",
+      ],
+      lists: [
+        {
+          intro: "Vía local:",
+          items: [
+            "Yandex Business / Directory",
+            "Google Business Profile",
+            "nombre, dirección y teléfono coherentes",
+            "reseñas sin fake",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO regional",
+          href: "/es/blog/regionalnoe-seo/",
+        },
+        {
+          label: "Google Business Profile",
+          href: "/es/blog/google-biznes/",
+        },
+      ],
+    },
+    {
+      title: "Paneles, tech y enlaces",
+      level: 2,
+      paras: [
+        "Yandex Webmaster y Google Search Console son un dúo obligatorio para Rusia: errores de crawl, cobertura, queries, seguridad. No arregles solo una cuenta.",
+        "Juzga el perfil de backlinks con cuidado: calidad sobre volumen. Los esquemas ligados a un mercado se transfieren mal sin análisis de riesgo de filtros.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de control:",
+          items: [
+            "ambas cuentas conectadas",
+            "sitemap y canonical alineados",
+            "enlaces sin spam «por si acaso»",
+            "chequeos manuales tras releases",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Yandex Webmaster",
+          href: "/es/blog/yandeks-vebmaster/",
+        },
+        {
+          label: "Google Search Console",
+          href: "/es/blog/google-search-console/",
+        },
+        {
+          label: "Perfil de backlinks",
+          href: "/es/blog/ssylochnyy-profil/",
+        },
+      ],
+    },
+    {
+      title: "Cuándo «solo Google» y cómo cambia la estrategia de contenido",
+      level: 2,
+      paras: [
+        "En mercados donde Google domina, pesan más el contenido informativo, el idioma nativo y los matices del país: menos head comerciales, el blog a menudo impulsa el orgánico. En Rusia los clusters comerciales e informativos se sientan distinto — no pegues un plan de contenido occidental línea a línea.",
+        "Búsqueda por voz, rich results y UX móvil importan en todos lados, pero cuota y formatos difieren. Refuerza FAQs y velocidad sin aferrarte a stats obsoletas de «el 50% de las queries serán de voz en 2020».",
+      ],
+      lists: [
+        {
+          intro: "Vía internacional — aparte:",
+          items: [
+            "locale de idioma y país",
+            "hreflang para sitios multilingües",
+            "contenido nativo, no un calco",
+            "diferencias legales y de pago del mercado",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Búsqueda por voz",
+          href: "/es/blog/golosovoy-poisk/",
+        },
+      ],
+    },
+    {
+      title: "Cómo correr ambos sin partir el sitio",
+      level: 2,
+      paras: [
+        "Un sitio canónico, estructura compartida, visibilidad reportada en ambos motores. Prioriza fixes por tráfico y dinero — no por el buscador favorito del equipo.",
+        "No esperes que un snippet perfecto de Google gane automáticamente en Yandex. Un horizonte para ambos: prep, luego crecimiento de rankings a meses.",
+      ],
+      lists: [
+        {
+          intro: "Cadencia:",
+          items: [
+            "mensual — ambas cuentas",
+            "set de keywords y rankings en clusters prioritarios",
+            "trabajo comercial y local que encaje con el negocio real",
+            "sin promesas de «primera página en una semana en ambos»",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Efectividad SEO",
+          href: "/es/blog/effektivnost-seo/",
+        },
+        {
+          label: "SEO DIY",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          text: "Prep — a menudo semanas hasta cerca de un mes. Rankear el set de keywords en Yandex y Google se planifica a 2–6 meses tras el arranque del trabajo sistemático.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "regionalnoe-seo",
+    "google-biznes",
+    "yandeks-vebmaster",
+    "google-search-console",
+    "kommercheskie-faktory",
+    "effektivnost-seo",
+  ],
+};

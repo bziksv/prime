@@ -147,3 +147,151 @@ export const turgenevEn: BlogPost = {
     "zaspamlennost-teksta",
   ],
 };
+
+/** ES overlay for turgenev — same structure as RU JSON / EN. */
+export const turgenevEs: BlogPost = {
+  slug: "turgenev",
+  title: "Turgenev: comprobar el copy por riesgo de sobreoptimización",
+  date: "2018-04-27",
+  category: "SEO",
+  cover: "/images/blog/turgenev/cover.webp",
+  excerpt:
+    "Qué revisa el Turgenev de Ashmanov & Partners: riesgo de text-spam, náusea, agua y estilo — cómo leer las puntuaciones, y por qué no es un «botón Baden-Baden» ni una garantía de ranking.",
+  lead: [
+    "Turgenev es un checker online de texto pensado en torno a riesgos parecidos al text-spam — incluido el cluster de riesgo que la gente asociaba al algoritmo Baden-Baden de Yandex. Puntúa overstuffing, agua, estilo y una puntuación total de riesgo.",
+    "Abajo: a quién ayuda, cómo funciona la lógica de scoring y cómo editar a partir del informe. Las escalas de puntuación y la UI han cambiado desde 2018 — céntrate en el sentido de las recomendaciones y en la Help actual del servicio. Una puntuación alta no es un filtro automático; un cero no es relevancia ni visibilidad en primera página.",
+  ],
+  faq: [
+    {
+      q: "¿Turgenev es lo mismo que Baden-Baden?",
+      a: "No. Es una estimación de riesgo de terceros. La decisión de Yandex es más amplia: sentido, comportamiento, calidad del sitio. El servicio es un ayudante del editor.",
+    },
+    {
+      q: "¿Todos los textos necesitan riesgo cero?",
+      a: "No. Catálogos y fichas repiten términos de forma natural. Persigue legibilidad y utilidad, no «0 a cualquier precio».",
+    },
+    {
+      q: "¿En qué se diferencia de Advego / text.ru?",
+      a: "Fórmulas y foco distintos. Turgenev se inclina al riesgo de sobreoptimización y al estilo; Advego — náusea; text.ru — unicidad / spamminess.",
+    },
+    {
+      q: "Si arreglaste la puntuación, ¿subirán los rankings?",
+      a: "No está garantizado. Limpiar overstuffing claro ayuda a la UX y baja el riesgo. La visibilidad del núcleo lleva meses de trabajo planificados — no un solo chequeo.",
+    },
+    {
+      q: "¿Se puede confiar solo en Turgenev?",
+      a: "Mejor en paquete: sentido de la página + otra herramienta de densidad / unicidad + sentido común del editor.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué usar Turgenev",
+      level: 2,
+      paras: [
+        "Tras olas de filtros de texto, los equipos necesitaban un checklist rápido: ¿el copy suena a volcado de keywords, hay agua y burocratés, está inflado el riesgo de «spamminess»?",
+        "La herramienta ayuda a SEO, autores y clientes como lenguaje compartido de brief: «baja el riesgo / corta agua», no un eterno «siento que faltan keywords».",
+      ],
+      lists: [
+        {
+          intro: "Quién suele leer el informe:",
+          items: [
+            "editores — al aceptar copy",
+            "SEO — auditando landings viejas",
+            "autores — autocontrol antes de entregar",
+            "dueños de sitio — cuando caen páginas informativas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Náusea del texto",
+          href: "/es/blog/toshnota-teksta/",
+        },
+        {
+          label: "Chequeos de unicidad",
+          href: "/es/blog/proverka-unikalnosti/",
+        },
+      ],
+    },
+    {
+      title: "Cómo funciona el scoring (hasta donde se sabe)",
+      level: 2,
+      paras: [
+        "En el núcleo — heurísticas sobre rasgos de texto asociados a sanciones por sobreoptimización, más comparación con muestras «humanas». El servicio no mira solo la frecuencia de keywords, sino estilo, agua y wording antinatural.",
+        "El resultado es una suma de puntos de penalización por bloques. Rangos históricos (bajo / medio / alto / crítico) guiaban las ediciones; comprueba umbrales exactos en la UI actual — pueden haber cambiado.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "No lo confundas con un veredicto de búsqueda",
+          text: "Un sitio con puntuación «alta» a veces se ve en los resultados, y un copy «verde» sin sentido no. La puntuación es una señal de edición, no un diagnóstico de filtro automático.",
+        },
+      ],
+    },
+    {
+      title: "Cómo comprobar el texto",
+      level: 2,
+      paras: [
+        "Abre el sitio actual del servicio (históricamente turgenev.ashmanov.com), regístrate si hace falta, pega el texto o una URL según las reglas del servicio y lanza el análisis.",
+        "No mires solo el total: abre las notas sobre agua, stop words, keywords y estilo. Edita con cirugía — cortar cada repetición de término en una ficha de producto a menudo perjudica.",
+      ],
+      lists: [
+        {
+          intro: "Orden práctico:",
+          items: [
+            "revisar el borrador antes de publicar",
+            "arreglar notas críticas",
+            "releer en voz alta / en móvil",
+            "verificar unicidad con otra herramienta",
+            "no perseguir el cero a costa del tema",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué hacer con riesgo alto",
+      level: 2,
+      paras: [
+        "Quita cadenas antinaturales de keywords, diluye el agua con hechos y ejemplos, reescribe el burocratés. Rompe un muro de texto con subtítulos. En páginas comerciales mantén los términos necesarios — corta el «compra compra compra» insistente.",
+        "Si un grupo de URLs cayó tras una update — primero confirma técnica e indexación, luego pasa textos en masa por el servicio. Una homepage reescrita no cura todo el sitio.",
+      ],
+      links: [
+        {
+          label: "Filtros de buscadores",
+          href: "/es/blog/filtry-poiskovikov/",
+        },
+        {
+          label: "Copywriting",
+          href: "/es/blog/kopirayting/",
+        },
+      ],
+    },
+    {
+      title: "Límites del servicio",
+      level: 2,
+      paras: [
+        "No todos los tipos de página puntúan igual: listas, menús, specs de SKU repiten palabras de forma natural. Un «baja el riesgo» a ciegas puede matar la relevancia.",
+        "El servicio no sustituye a expertos de nicho ni ve el sitio entero (enlaces, velocidad, factores comerciales). Úsalo como capa editorial junto a analítica y Webmaster.",
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Turgenev ayuda a pillar overstuffing y estilo pesado antes de publicar. Las puntuaciones son una brújula de brief, no una ley de ranking.",
+        "Edita para personas y claridad del tema; riesgo cero a cualquier precio y promesas de «levantará Baden-Baden» son malos objetivos.",
+      ],
+    },
+  ],
+  closing: [
+    "Pasa por Turgenev los textos SEO disputados, cierra notas claras de agua y keywords, y relee con ojos humanos — así el servicio funciona como filtro editorial, no como sustituto de una estrategia de promoción.",
+  ],
+  related: [
+    "toshnota-teksta",
+    "proverka-unikalnosti",
+    "filtry-poiskovikov",
+    "kopirayting",
+    "dlina-seo-teksta",
+    "zaspamlennost-teksta",
+  ],
+};

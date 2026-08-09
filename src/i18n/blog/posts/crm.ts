@@ -138,3 +138,142 @@ export const crmEn: BlogPost = {
     "virtualnyy-nomer",
   ],
 };
+
+/** ES overlay for crm — same structure as RU JSON / EN. */
+export const crmEs: BlogPost = {
+  slug: "crm",
+  title: "Sistemas CRM: cómo elegir sin perseguir un ranking ajeno",
+  date: "2020-02-26",
+  category: "Marketing digital",
+  cover: "/images/blog/crm/cover.webp",
+  excerpt:
+    "Qué es un CRM, en qué se diferencian self-hosted, cloud y «portal con CRM», y cómo comparar Bitrix24, amoCRM y herramientas similares — sin tomar una lista de 2020 o un magic quadrant como evangelio.",
+  lead: [
+    "CRM (Customer Relationship Management) sigue a clientes, deals y touchpoints: quién es el lead, en qué etapa del funnel, qué se prometió y cómo terminó. Sin uno, las ventas viven en chats y en la cabeza de los managers.",
+    "Los scorecards de «mejor CRM» envejecen rápido: precios, módulos y líderes del mercado cambian. Abajo: tipos de solución y criterios de selección para tu proceso. No tratamos colocaciones Gartner de 2019 ni listas de precios viejas como verdad eterna.",
+  ],
+  faq: [
+    {
+      q: "¿Una pyme necesita un CRM?",
+      a: "Si hay más de un manager o canal de leads — casi siempre sí. Si no, se pierden solicitudes y ventas repetidas. Al inicio basta un funnel cloud simple.",
+    },
+    {
+      q: "¿Debo elegir Bitrix24 o amoCRM?",
+      a: "Depende del trabajo. amoCRM se elige a menudo por foco en ventas y funnel. Bitrix24 tiene sentido cuando también necesitas un portal: tareas, chat, drive, a veces 1C. Compara contra tu proceso, no contra slogans de ads.",
+    },
+    {
+      q: "¿Self-hosted o cloud?",
+      a: "Cloud significa arranque más rápido y menos infraestructura propia. On-prem / self-hosted significa más control de datos y custom, pero es más caro de operar. El SaaS por asientos es el camino más habitual para pymes.",
+    },
+    {
+      q: "¿Basta Excel en lugar de un CRM?",
+      a: "Para una persona y unas docenas de deals — a veces. Cuando llegan leads duplicados, etapas e informes, Excel se rompe.",
+    },
+    {
+      q: "¿Por dónde debe empezar la implementación?",
+      a: "Mapea el funnel y los campos obligatorios, conecta sitio, teléfono y email, y entrena a los managers a llevar deals solo en el CRM. Sin esa disciplina, el software no sirve.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué un negocio necesita un CRM",
+      level: 2,
+      paras: [
+        "Una ficha de cliente reúne historial de llamadas, emails, facturas y el siguiente paso. La dirección ve el funnel y los cuellos de botella; marketing ve la calidad de leads por canal.",
+        "Ligado al sitio y a los ads, obtienes una foto full-funnel: qué canal cerró el deal — no solo cuál ganó el clic. Sin entrada de datos consistente, los informes mienten.",
+      ],
+      lists: [
+        {
+          intro: "Valor mínimo de un rollout:",
+          items: [
+            "los leads no se pierden entre managers",
+            "las etapas del deal se ven",
+            "tareas y recordatorios no quedan atrapados en chats privados",
+            "puedes informar sobre revenue y deals perdidos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Analítica full-funnel",
+          href: "/es/blog/skvoznaya-analitika/",
+        },
+        {
+          label: "KPIs del manager de ventas",
+          href: "/blog/kpi-menedzhera-prodazh/",
+        },
+      ],
+    },
+    {
+      title: "Tipos de solución: no confundas un portal con un funnel",
+      level: 2,
+      paras: [
+        "Las plataformas modulares y a medida se construyen para grandes holdings — caras y lentas. Las opciones boxed o listas van al aire más rápido, pero un proceso no estándar sigue necesitando setup extra.",
+        "SaaS («CRM as a service») significa que pagas por features y asientos: amoCRM, Pipedrive y similares. Aparte están los portales corporativos como Bitrix24, donde el CRM es un bloque junto a tareas y mensajería.",
+        "Los stacks internacionales pesados (Salesforce y otras suites enterprise) escalan bien y tienen ecosistemas profundos, pero necesitan presupuesto de rollout y admins. Para pymes suelen ser overkill al inicio.",
+      ],
+      lists: [
+        {
+          intro: "Qué comparar:",
+          items: [
+            "un funnel y una ficha de deal que encajen con tu ciclo",
+            "integraciones: sitio, telefonía, email, messengers, 1C/almacén",
+            "una app móvil para equipos de campo",
+            "derechos de acceso y auditoría de acciones",
+            "informes y una API que no exijan «solo vía un integrador»",
+            "coste conforme crece el número de usuarios",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Las listas de marcas de reseñas de 2020 (Creatio/bpm’online, Megaplan y demás) marcan una clase de producto — no un scorecard eterno. Antes de comprar, revisa precios actuales, localización de datos y reseñas del nicho.",
+        },
+      ],
+    },
+    {
+      title: "Cómo elegir sin un scorecard mágico",
+      level: 2,
+      paras: [
+        "Pon el proceso en papel primero: etapas, campos obligatorios, quién asigna tareas, qué cuenta como deal ganado. Luego demo dos o tres sistemas en tus escenarios — no en el screenshot de otro.",
+        "Cuenta el coste total de propiedad: licencias + rollout + integraciones + formación. Un plan barato con custom caro a menudo cuesta más que un producto mid-tier que funciona de serie.",
+        "Un piloto con un equipo gana a un gran «lanzarlo todo mañana». El éxito significa que los deals viven en el sistema cada día — no un dashboard pulido una vez al mes.",
+      ],
+      lists: [
+        {
+          intro: "Checklist antes de pagar:",
+          items: [
+            "funnel descrito y acordado con ventas",
+            "alguien es dueño del playbook del CRM",
+            "integraciones clave verificadas",
+            "un camino claro para migrar contactos viejos",
+            "un plan de formación y control de entrada de datos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Dashboard",
+          href: "/es/blog/dashboard/",
+        },
+        {
+          label: "Project manager",
+          href: "/blog/project-manager/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Un CRM gana no por el primer puesto en el scorecard de otro, sino por encajar con tu ciclo de deal y la disciplina del equipo. Elige la clase de sistema para tu escala, haz demos en tus escenarios y despliega el proceso — el software solo lo registra.",
+  ],
+  related: [
+    "skvoznaya-analitika",
+    "dashboard",
+    "formy-zahvata",
+    "kpi-menedzhera-prodazh",
+    "project-manager",
+    "virtualnyy-nomer",
+  ],
+};

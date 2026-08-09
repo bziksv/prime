@@ -597,8 +597,343 @@ const seoEn: SeoContent = {
   ],
 };
 
+const featureLabelsEs = [
+  "Ajustes técnicos de un especialista SEO",
+  "Publicación de contenido optimizado",
+  "Recomendaciones de conversión",
+  "Diseño adaptable si no lo tiene",
+  "Monitoreo de disponibilidad",
+  "Renovación del dominio cuando vence",
+  "Optimización on-page",
+  "Optimización off-page",
+] as const;
+
+function esTariff(
+  base: (typeof seoTariffs)[number],
+  prices: Record<SeoRegion, number>,
+  ads: string,
+): SeoTariff {
+  return {
+    ...base,
+    ads,
+    backup: base.backup.includes("2") ? "Cada 2 meses" : "Mensual",
+    contentHours: base.contentHours.replace("ч", "h"),
+    techHours: base.techHours.replace("ч", "h"),
+    features: base.features.map((f, i) => ({
+      label: featureLabelsEs[i] ?? f.label,
+      ok: f.ok,
+    })),
+    prices,
+  };
+}
+
+const seoEs: SeoContent = {
+  path: "/es/seo/",
+  metaTitle: "SEO — PRIME",
+  metaDescription:
+    "SEO con pago por primera página: auditoría, investigación de palabras clave, optimización on-page y off-page. Preparación ~1 mes; el crecimiento a primera página se planea en 2–6 meses. Paquetes para mercados locales y competitivos en todo el mundo.",
+  serviceName: "SEO",
+  serviceType: "SEO por resultados",
+  breadcrumbHome: "Inicio",
+  breadcrumbCurrent: "SEO",
+  menuLabel: "Menú",
+  ctaTop: "Escríbenos",
+  brandBefore: "PRIM",
+  brandAccent: "E",
+  kicker: "Pagas cuando posicionas · sin cuota fija de relleno",
+  heroTitleBefore: "SEO para tu web: paga ",
+  heroTitleAccent: "cuando tus palabras clave llegan a primera página",
+  heroLead:
+    "Hacemos crecer tu visibilidad en Google para los términos que mueven tu negocio. Pagas solo por las frases que se mantienen en primera página.",
+  heroCtaPrimary: "Pedir presupuesto",
+  heroCtaSecondary: "Ver paquetes",
+  heroScroll: "Desliza",
+  rankAria: "Demo: pago por primera página",
+  rankLive: "posiciones en vivo",
+  rankProto: "PRIME · SERP",
+  rankInLabel: "en primera página",
+  rankBillLabel: "facturable",
+  rankBillEmpty: "0 frases",
+  rankNote: "Fuera de primera página = $0 · pagas solo por las frases consolidadas",
+  rankNoteDone: "{n} frases en primera página · el resto no se factura",
+  phrasesWord: "frases",
+  currency: "$",
+  numberLocale: "es-MX",
+  marquee: [
+    { t: "Primera página", e: "pago por resultado" },
+    { t: "Google", e: "primero en búsqueda" },
+    { t: "Palabras clave", e: "sin relleno" },
+    { t: "Auditoría", e: "antes de empezar" },
+    { t: "Informes", e: "transparentes" },
+    { t: "Desde 2015", e: "en el mercado" },
+  ],
+  chapters: [
+    { id: "about", label: "Enfoque" },
+    { id: "work", label: "Trabajo" },
+    { id: "result", label: "Resultados" },
+    { id: "start", label: "Inicio" },
+    { id: "pricing", label: "Precios" },
+    { id: "advantages", label: "Por qué nosotros" },
+    { id: "faq", label: "Preguntas" },
+    { id: "seo-cta", label: "Contacto" },
+  ],
+  modelTitle: "No es magia — es un método de trabajo",
+  modelLead:
+    "El SEO es parte del marketing digital: con un proceso claro consigues mejores posiciones, más tráfico y más ventas. Cuanto más grande el sitio, más trabajo hay detrás. Así lo organizamos.",
+  modelMetrics: [
+    { value: "Página 1", label: "pagas por frases posicionadas" },
+    { value: "4 meses", label: "periodo inicial del paquete" },
+    { value: "desde 2015", label: "modelo probado en la práctica" },
+  ],
+  aboutTitle: "Cómo trabajamos el SEO",
+  aboutLead:
+    "Optimización dentro y fuera de la web enfocada en la primera página de Google — más visitas, leads y llamadas. Para mayor alcance, suele combinarse con Google Ads.",
+  aboutCopy: [
+    "Muchos equipos ven el SEO como algo mágico: pagas, alguien «toca cosas» y las posiciones suben y bajan sin explicación. En realidad es un método: auditoría, investigación de palabras clave, ajustes en el sitio, autoridad externa y seguimiento constante de posiciones.",
+    "No perseguimos palabras que nadie busca. El foco está en la demanda real que trae clientes — no en términos vanidosos que solo maquillan un informe.",
+  ],
+  workTitle: "Qué incluye el trabajo",
+  workLead: "Cuatro etapas, desde los objetivos y la auditoría hasta la optimización dentro y fuera de la web.",
+  pillarsAria: "Etapas del SEO",
+  pillars: [
+    {
+      id: "analytics",
+      title: "Analítica",
+      lead: "Objetivos, competencia, presupuesto y palabras clave — todo definido antes de tocar la primera página.",
+      items: [
+        "Definir objetivos y qué los impulsa realmente",
+        "Análisis de competencia: enlaces, términos de búsqueda, tráfico",
+        "Estimación del presupuesto de la campaña",
+        "Investigación de palabras clave con demanda y competencia",
+        "Análisis del posicionamiento en Google para tu sector",
+      ],
+    },
+    {
+      id: "audit",
+      title: "Auditoría",
+      lead: "Primero identificamos qué frena las posiciones — después arrancamos el trabajo de SEO.",
+      items: [
+        "Revisión SEO de factores dentro y fuera de la web",
+        "Auditoría técnica: indexación y velocidad",
+        "Revisión de usabilidad — fricciones que frenan la conversión",
+      ],
+    },
+    {
+      id: "internal",
+      title: "Optimización on-page",
+      lead: "Páginas, contenido, código y analítica — para que Google y las personas entiendan la web igual.",
+      items: [
+        "Agrupación de palabras clave y mapeo de páginas",
+        "Contenido optimizado para los términos objetivo",
+        "Enlazado interno entre páginas relevantes",
+        "Mejoras de código y velocidad",
+        "robots.txt, diseño adaptable, Google Analytics",
+      ],
+    },
+    {
+      id: "external",
+      title: "Optimización off-page",
+      lead: "Crecimiento de autoridad con cuidado: enlaces, artículos, directorios y mapas.",
+      items: [
+        "Auditoría del perfil de enlaces de la competencia",
+        "Estrategia de construcción de enlaces natural",
+        "Publicaciones en sitios relevantes del sector",
+        "Registro en directorios",
+        "Perfil de empresa en Google Business Profile",
+      ],
+    },
+  ],
+  resultTitle: "Qué obtienes con el SEO",
+  resultLead: "Tres resultados claros — no visibilidad por visibilidad.",
+  outcomes: [
+    {
+      title: "Más ventas",
+      text: "Una web que se mantiene en primera página para las frases correctas atrae más compradores desde la búsqueda.",
+    },
+    {
+      title: "Crecimiento del tráfico",
+      text: "Más presencia de marca y clientes nuevos que ya estaban buscando lo que ofreces.",
+    },
+    {
+      title: "Público más enfocado",
+      text: "Llegan visitantes con interés real — no tráfico al azar que solo infla un informe.",
+    },
+  ],
+  startTitle: "Cómo empezamos",
+  startLead: "Cuatro pasos, desde la primera conversación hasta una propuesta clara.",
+  steps: [
+    {
+      n: "01",
+      title: "Escríbenos",
+      text: "Completa el formulario — empezamos con una conversación sobre tu objetivo.",
+    },
+    {
+      n: "02",
+      title: "Revisión de la web y la demanda",
+      text: "Comprobamos si el sitio está listo técnicamente y qué se busca realmente. No todo vale la pena posicionar — te lo diremos con franqueza.",
+    },
+    {
+      n: "03",
+      title: "Prioridades y alcance",
+      text: "Definimos objetivos, focos de trabajo y el orden de las tareas.",
+    },
+    {
+      n: "04",
+      title: "Propuesta",
+      text: "Cerramos un plan que resuelve la necesidad — con números claros.",
+    },
+  ],
+  pricingTitle: "Precios",
+  pricingLead:
+    "El presupuesto es a medida: depende del sector y la competencia en tu mercado. Un negocio local y una empresa B2B industrial necesitan presupuestos distintos. Abajo, los rangos de los paquetes iniciales.",
+  priceNote:
+    "* Los primeros 4 meses se pagan por paquete. Después, pagas por los días que las frases se mantienen en primera página de Google.",
+  regionsAria: "Nivel de mercado",
+  regions: [
+    { id: "region", label: "Mercados locales" },
+    { id: "msk", label: "Metrópolis muy competitivas" },
+    { id: "spb", label: "Metrópolis de competencia media" },
+  ],
+  tariffs: [
+    esTariff(seoTariffs[0], { region: 480, msk: 840, spb: 660 }, "Por paquete de anuncios"),
+    esTariff(seoTariffs[1], { region: 630, msk: 1170, spb: 990 }, "Por paquete de anuncios"),
+    esTariff(seoTariffs[2], { region: 840, msk: 1500, spb: 1350 }, "Por paquete de anuncios"),
+    esTariff(seoTariffs[3], { region: 1200, msk: 2400, spb: 1800 }, "1 sistema de anuncios incluido"),
+    esTariff(seoTariffs[4], { region: 1620, msk: 3210, spb: 2400 }, "2 sistemas de anuncios incluidos"),
+    esTariff(seoTariffs[5], { region: 2010, msk: 3990, spb: 3000 }, "3 sistemas de anuncios incluidos"),
+  ],
+  tariffFeatured: "Más elegido",
+  tariffPhrasesSuffix: "frases",
+  tariffPeriod: "al mes · primeros 4 meses",
+  tariffBackup: "Respaldo",
+  tariffContent: "Contenido",
+  tariffTech: "Soporte",
+  tariffAds: "Anuncios",
+  tariffCta: "Solicitar este paquete",
+  plainSpeak: [
+    {
+      jargon: "Lista de palabras clave",
+      plain:
+        "Los términos que la gente realmente escribe en el buscador. La armamos midiendo demanda real — sin palabras de relleno «para el informe».",
+    },
+    {
+      jargon: "Optimización on-page",
+      plain:
+        "Ajustamos páginas, contenido, velocidad y estructura para que Google entienda de qué trata tu web.",
+    },
+    {
+      jargon: "Pago por primera página",
+      plain:
+        "Tras el periodo inicial, pagas por los días que una frase se mantiene en primera página. Sin posición, no hay cobro.",
+    },
+  ],
+  advantagesTitle: "Por qué nos eligen",
+  advantagesLead:
+    "El objetivo es el máximo retorno de tu presupuesto. La experiencia en distintos sectores nos ayuda a lograrlo sin sobrecostos.",
+  advantages: [
+    {
+      title: "Pagas por resultados",
+      text: "Pagas por los términos que realmente se mantienen en primera página — por día, sin redondeos ni cuota fija vacía.",
+    },
+    {
+      title: "Tu sitio, protegido",
+      text: "Copias de seguridad en la nube: si hace falta, restauramos la web en otro hosting.",
+    },
+    {
+      title: "Comunicación honesta",
+      text: "Contratos simples, informes claros y un interés real en tu crecimiento a largo plazo — no en una factura puntual.",
+    },
+    {
+      title: "Solo palabras clave con demanda real",
+      text: "No vendemos frases que nadie busca. El trabajo de posicionamiento va a los términos que traen clientes.",
+    },
+    {
+      title: "Acompañamiento del proyecto",
+      text: "Soporte de contenido y técnico: ajustes, textos y pequeñas mejoras de funcionalidad dentro del paquete.",
+    },
+  ],
+  showCases: false,
+  casesTitle: "Casos de éxito en SEO",
+  casesLead: "Proyectos reales con facturación por posiciones y cifras claras.",
+  casesAll: "Ver todos los casos de SEO",
+  honestTitle: "Qué no prometemos",
+  honestLead: "Para que «arrancar» nunca se lea como una garantía de primera página en un mes.",
+  nos: [
+    {
+      title: "No mezclamos preparación con resultados en primera página",
+      text: "En aproximadamente un mes suele estar lista la preparación del sitio y arranca el trabajo de SEO. Que las frases principales lleguen a primera página está planeado entre 2 y 6 meses después de empezar, con avances mes a mes.",
+    },
+    {
+      title: "No vendemos palabras clave sin demanda",
+      text: "La lista de palabras clave incluye términos con demanda real y sentido para el negocio — no relleno de informe que nadie busca.",
+    },
+    {
+      title: "Nada de cuota fija «por el proceso»",
+      text: "Tras el periodo inicial, pagas por los días en que una frase está realmente en primera página. Sin posición, no hay cobro.",
+    },
+  ],
+  faqTitle: "Preguntas frecuentes",
+  faqLead: "Facturación por resultados, plazos, SEO por tráfico y paquetes.",
+  faq: [
+    {
+      q: "¿Qué significa pagar por primera página?",
+      a: "Después del periodo inicial del paquete, pagas por los días en que una frase acordada se mantiene en primera página. Sin esa posición, no hay cobro por esa frase. Sin promedios que oculten los fallos.",
+    },
+    {
+      q: "¿Cuánto tarda en llegar a primera página?",
+      a: "La preparación del sitio suele tomar alrededor de un mes (a veces 2–6 semanas). Que las frases principales lleguen a primera página está planeado entre 2 y 6 meses tras empezar: una parte notable suele verse hacia los meses 2–3, el resto hacia los meses 4–6 — según cómo evolucione, no es una fecha garantizada.",
+    },
+    {
+      q: "¿En qué se diferencia del SEO por tráfico?",
+      a: "Aquí pagas por posiciones en primera página para frases acordadas. En el modelo por tráfico pagas por el crecimiento de visitas de búsqueda en una lista de palabras clave. La elección depende del objetivo: términos precisos o alcance más amplio.",
+    },
+    {
+      q: "¿Qué incluye el periodo inicial del paquete?",
+      a: "Analítica, auditoría, investigación de palabras clave y optimización on-page y off-page según el plan. Es la fase de preparación y primeros avances — no la promesa de «toda la primera página en el primer mes».",
+    },
+    {
+      q: "¿De qué depende el precio?",
+      a: "Del nivel de competencia del mercado y del tamaño de la lista de palabras clave (paquetes T-50…T-500). Los paquetes incluyen soporte, copias de seguridad y trabajo on-page/off-page dentro del plan.",
+    },
+  ],
+  ctaTitle: "¿Necesitas clientes desde Google?",
+  ctaLead:
+    "Tienes una web y necesitas leads. Cuéntanos los detalles: revisamos tu sector, te decimos qué vale la pena posicionar y enviamos un presupuesto.",
+  ctaPoints: [
+    "Revisión de tu sector y la competencia en tu mercado",
+    "Preparación ~1 mes · primera página planeada entre 2 y 6 meses",
+    "Presupuesto por paquete — sin «combos» ocultos",
+    "Pagas por posiciones, no «por proceso»",
+  ],
+  formName: "Tu nombre",
+  formPhone: "Teléfono",
+  formSite: "URL de tu web",
+  formRegion: "Mercado objetivo",
+  formRegionOptions: [
+    "Mercados locales / regionales",
+    "Metrópolis muy competitivas",
+    "Metrópolis de competencia media",
+  ],
+  formMessage: "Sector y objetivo — brevemente",
+  formAgreeBefore: "Acepto el tratamiento de datos personales según nuestra",
+  formAgreePolicy: "política de privacidad",
+  formSubmit: "Pedir presupuesto",
+  formSuccess: "¡Gracias! Recibimos tu solicitud de SEO — te contactaremos pronto.",
+  formSource: "es-seo",
+  footerBrand: "PRIME",
+  footerTagline: "SEO para tu web · pagas cuando tus frases llegan a primera página",
+  demoRanks: [
+    { q: "comprar con envío", from: 47, to: 3 },
+    { q: "servicio llave en mano", from: 28, to: 6 },
+    { q: "precio cerca de mí", from: 19, to: 4 },
+    { q: "pedir presupuesto", from: 35, to: 8 },
+    { q: "cerca de mí · opiniones", from: 22, to: 5 },
+  ],
+};
+
 export function getSeoContent(locale: Locale): SeoContent {
   if (locale === "en") return seoEn;
+  if (locale === "es") return seoEs;
   return seoRu;
 }
 

@@ -204,3 +204,208 @@ export const uznatCmsEn: BlogPost = {
     "zakrytie-ot-indeksatsii",
   ],
 };
+
+/** ES overlay for uznat-cms — same structure as RU JSON / EN. */
+export const uznatCmsEs: BlogPost = {
+  slug: "uznat-cms",
+  title: "Cómo saber el CMS de un sitio: código, pistas y herramientas",
+  date: "2020-08-24",
+  category: "SEO",
+  cover: "/images/blog/uznat-cms/cover.webp",
+  excerpt:
+    "Cómo identificar el motor de un sitio por el HTML, meta generator, rutas, cookies y detectores online — y qué hacer si el CMS está oculto o es a medida.",
+  lead: [
+    "Saber el CMS de un competidor o de otro proyecto ayuda a estimar el stack, plugins y límites SEO típicos. Es reconocimiento por señales públicas — no hacking.",
+    "Abajo: revisión manual del código, qué mirar en robots y URLs, detectores online y por qué «nada encontrado» suele ser código custom o un generator bien oculto. Para un artículo WP cercano sin el sufijo `-2`, trata este como el canónico.",
+  ],
+  faq: [
+    {
+      q: "¿Para qué saber el CMS?",
+      a: "Para entender plantillas de URL, módulos SEO típicos, qué tan rápido salen los cambios y riesgos (plugins desactualizados). Para una propuesta — estimar la complejidad del trabajo.",
+    },
+    {
+      q: "¿Es legal?",
+      a: "Leer HTML público y headers es práctica normal. Entrar al admin, fuerza bruta y exploits — no.",
+    },
+    {
+      q: "¿Meta generator está siempre?",
+      a: "No. WordPress y otros a menudo lo desactivan. Que falte el generator no significa «no es un CMS».",
+    },
+    {
+      q: "¿Qué CMS se detectan más?",
+      a: "WordPress, Bitrix, OpenCart, Joomla, MODX, Tilda/builders — por rutas de assets y marcadores típicos.",
+    },
+    {
+      q: "¿Las herramientas se equivocan?",
+      a: "Sí. Cruza dos fuentes y el código a ojo. Laravel/Next a medida pueden salir como «unknown».",
+    },
+    {
+      q: "¿Ayuda robots.txt?",
+      a: "A veces: rutas `/wp-admin`, `/bitrix/`, `/catalog/` delatan el ecosistema. No siempre.",
+    },
+    {
+      q: "¿Qué muestran las cookies?",
+      a: "Nombres como `PHPSESSID`, `BITRIX_SM_…`, `wp-settings-` son pistas, no un veredicto.",
+    },
+    {
+      q: "¿Y si no se ve nada?",
+      a: "Probable custom, headless o marcadores muy limpios. Entonces mira el stack por bundles JS y headers del servidor — con cuidado, sin escaneo de vulnerabilidades.",
+    },
+  ],
+  sections: [
+    {
+      title: "Revisión manual del HTML",
+      level: 2,
+      paras: [
+        "Abre el código fuente (Ver código / Ctrl+U). Busca `meta name=\"generator\"`, rutas `/wp-content/`, `/bitrix/`, `/skin/frontend/`, comentarios de plantilla, clases típicas del body.",
+        "En DevTools → Network revisa URLs estáticas: `wp-includes`, `catalog/view/theme`, `tildacdn` y similares. Un marcador no basta — junta coincidencias.",
+      ],
+      lists: [
+        {
+          intro: "Ctrl+F rápido:",
+          items: [
+            "`generator`",
+            "`wp-content` / `wp-includes`",
+            "`bitrix`",
+            "`opencart` / `catalog/view`",
+            "`tilda`, `wix`, `shopify`",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Ver jQuery y decidir que es un «motor jQuery». Una librería ≠ un CMS.",
+        },
+      ],
+      links: [
+        {
+          label: "Código fuente de la página",
+          href: "/es/blog/ishodnyy-kod/",
+        },
+      ],
+    },
+    {
+      title: "URL, robots y headers",
+      level: 2,
+      paras: [
+        "`/robots.txt` y el sitemap a veces llevan rutas de admin o directorios de sistema. URLs tipo `/index.php?route=` apuntan a OpenCart; `/blog/2020/05/post/` a menudo WP — pero no siempre.",
+        "`X-Powered-By`, nombres de cookies, redirects de login — pistas extra. No mezcles el servidor web (nginx) con el CMS.",
+      ],
+      lists: [
+        {
+          intro: "Qué anotar:",
+          items: [
+            "rutas públicas de robots",
+            "patrón de URL de producto/artículo",
+            "nombres de cookies en Application",
+            "respuesta de login/admin sin adivinar contraseñas — solo que existe una URL pública si está abierta",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Herramientas online y extensiones",
+      level: 2,
+      paras: [
+        "Los detectores (WhatCMS, BuiltWith, Wappalyzer y similares) aceleran el screening: CMS, CDN, analytics, frameworks JS. Los resultados divergen — cruza.",
+        "Las extensiones del navegador ayudan en una serie de sitios. No te fíes de un solo veredicto para un contrato con el cliente.",
+      ],
+      lists: [
+        {
+          intro: "Consejos prácticos:",
+          items: [
+            "pasa la URL por 1–2 herramientas",
+            "confirma con marcadores del código",
+            "anota versión solo si es explícita",
+            "no escanees el admin con scanners de vulnerabilidades «de paso»",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Si el CMS está oculto o es a medida",
+      level: 2,
+      paras: [
+        "Sitios en frameworks (Laravel, Django, Next.js) a menudo no tienen CMS clásico. Los builders pueden enmascarar rastros. Entonces el stack front/back y el hosting importan más que la etiqueta «WordPress».",
+        "Para una auditoría SEO basta saber los límites: plantillas normales de Title, filtros, velocidad, acceso al código.",
+      ],
+      lists: [
+        {
+          intro: "Para el trabajo:",
+          items: [
+            "¿tiene el cliente acceso a código/admin?",
+            "¿hace falta un CMS o un developer a medida?",
+            "módulos SEO típicos sí/no",
+            "estimación de horas según el stack",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "Marcadores típicos de sistemas populares",
+      level: 2,
+      paras: [
+        "WordPress: `/wp-content/`, `/wp-json/`, a veces generator. 1C-Bitrix: `/bitrix/`, cookies `BITRIX_*`. OpenCart: `route=product/`, themes en `catalog/view`. Joomla: `/components/`, `/media/jui/`. Tilda: `tildacdn.com`, clases `t-`.",
+      ],
+      lists: [
+        {
+          intro: "Recuerda:",
+          items: [
+            "los marcadores se falsifican y se quitan",
+            "multisite y headless confunden la detección",
+            "la versión del CMS en meta generator puede estar obsoleta",
+            "plugins ≠ prueba del core, pero refuerzan la hipótesis",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Ética y límites",
+      level: 2,
+      paras: [
+        "El objetivo es entender la plataforma para análisis y scoping. No uses el conocimiento del CMS para cazar huecos, adivinar contraseñas o atacar. En tu propio sitio, revisa el admin y la documentación del hosting — más fiable que cualquier detector.",
+        "En un informe al cliente escribe: «los marcadores X parecen Y; confirmar con acceso».",
+      ],
+      lists: [
+        {
+          intro: "Checklist de recon:",
+          items: [
+            "View Source + Network",
+            "robots/sitemap",
+            "1–2 detectores externos",
+            "hipótesis de CMS + confianza",
+            "sin escaneos de vulnerabilidades",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "En la práctica",
+          kind: "tip",
+          text: "«Detectar CMS» ≠ obtener acceso. Los marcadores públicos son el techo del recon legal.",
+        },
+      ],
+      links: [
+        {
+          label: "Seguridad del sitio",
+          href: "/es/blog/bezopasnost-sayta/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "ishodnyy-kod",
+    "tehnicheskiy-seo-audit",
+    "bezopasnost-sayta",
+    "seo-bitrix",
+    "zakrytie-ot-indeksatsii",
+  ],
+};

@@ -169,3 +169,173 @@ export const urlAdresEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for url-adres — same structure as RU JSON / EN. */
+export const urlAdresEs: BlogPost = {
+  slug: "url-adres",
+  title: "URL del sitio: estructura e impacto SEO",
+  date: "2021-08-13",
+  category: "SEO",
+  cover: "/images/blog/url-adres/cover.webp",
+  excerpt:
+    "Qué es una URL, de qué partes se compone la dirección de una página, cómo escribir slugs legibles y cuánto afecta de verdad el path al SEO — sin el mito «keyword en la URL = primera página».",
+  lead: [
+    "Una URL (Uniform Resource Locator) es la dirección de un recurso en la web: una página, imagen o archivo. En la barra de dirección el navegador muestra scheme, host y path; personas y robots los usan para ver dónde aterrizaron.",
+    "Abajo: anatomía de la URL, cómo escribir direcciones claras y qué obtiene realmente el SEO de ellas. Un path legible ayuda a clics y navegación, pero no sustituye contenido, estructura del sitio ni técnica.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia una URL de un dominio?",
+      a: "Un dominio es el nombre del host (`example.com`). Una URL es la dirección completa de la página: protocolo + host + path + a veces params (`https://example.com/services/seo/`). Ver también el artículo de dominio de primer nivel.",
+    },
+    {
+      q: "¿Qué es una URL legible (pretty)?",
+      a: "Un slug que la gente puede leer: palabras en lugar de `?id=123`. Más fácil de leer en un snippet y de compartir el enlace.",
+    },
+    {
+      q: "¿Hacen falta keywords en la URL?",
+      a: "Un path corto y con sentido ayuda. Meter keywords a lo loco en la URL duele a la UX y puede verse manipulativo. El exact-match en dominio o path ya no es un atajo.",
+    },
+    {
+      q: "¿Es obligatorio HTTPS?",
+      a: "Sí para un sitio normal: confianza, cookies, requisitos de navegador y búsqueda. HTTP plano está desfasado y es arriesgado.",
+    },
+    {
+      q: "¿Una URL sola te pone en primera página?",
+      a: "No. Es una señal técnica y de UX. La prep del sitio y el crecimiento de rankings son plazos distintos — ver la regla prep versus visibilidad.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es una URL y por qué importa",
+      level: 2,
+      paras: [
+        "Una URL apunta de forma única a un recurso. Como un número de llamada en una biblioteca: un código exacto encuentra el libro más rápido. El navegador pide la dirección; el servidor devuelve un documento o archivo.",
+        "La dirección aparece en la barra del navegador, snippets de búsqueda, email y messengers. La gente la copia desde la página (clic derecho → «Copiar enlace») y desde media.",
+      ],
+      lists: [
+        {
+          intro: "Dónde aparecen las URLs:",
+          items: [
+            "páginas del sitio",
+            "imágenes, PDFs, vídeo",
+            "endpoints de API y utilidad",
+            "redirects y espejos (www / sin-www)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Qué es un enlace",
+          href: "/es/blog/chto-takoe-ssylka/",
+        },
+        {
+          label: "Dominio de primer nivel",
+          href: "/es/blog/domen-pervogo-urovnya/",
+        },
+      ],
+    },
+    {
+      title: "Estructura de la URL",
+      level: 2,
+      paras: [
+        "Una dirección típica: `https://www.example.com:443/catalog/product/?utm_source=ads#reviews`. No todas las partes son obligatorias; puerto y fragmento a menudo quedan ocultos.",
+      ],
+      lists: [
+        {
+          intro: "Partes principales:",
+          items: [
+            "scheme (protocolo): `https://` — conexión segura; `http://` está desfasado para sitios",
+            "host (dominio): `example.com` o `www.example.com`",
+            "puerto: suele ser 443 para HTTPS, no se escribe en la URL",
+            "path: `/catalog/product/` — secciones y página",
+            "params de query: `?utm_…`, filtros, sesiones",
+            "fragmento: `#reviews` — ancla en página (a menudo no se envía al servidor)",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Confusión habitual",
+          text: "La «auth» en schemes viejos de URL (user:pass@host) casi no se usa en la web y es insegura. El login a una cuenta es una página o formulario aparte — no parte de una dirección pública «bonita».",
+        },
+      ],
+      links: [
+        {
+          label: "Certificado SSL",
+          href: "/es/blog/ssl-sertifikat/",
+        },
+      ],
+    },
+    {
+      title: "Cómo escribir una dirección clara",
+      level: 2,
+      paras: [
+        "La gente recuerda paths cortos y legibles. IDs aleatorios y queries innecesariamente largas duelen al compartir y al snippet.",
+      ],
+      lists: [
+        {
+          intro: "Reglas prácticas:",
+          items: [
+            "latín o un esquema limpio de transliteración, sin caos de mayúsculas mezcladas",
+            "guiones en lugar de espacios y guiones bajos",
+            "path corto: sección → página, sin nesting extra",
+            "sentido de la página en el path (`/services/seo/`), no una ristra de keywords",
+            "una URL canónica por documento (unifica www/HTTPS vía redirect)",
+            "no generes duplicados de índice desde filtros y UTM",
+          ],
+        },
+      ],
+      tables: [
+        {
+          caption: "Ejemplos",
+          headers: ["Peor", "Mejor"],
+          rows: [
+            ["`/page.php?id=8841`", "`/blog/url-adres/`"],
+            ["`/SEO_SERVICES_CHEAP`", "`/services/seo/`"],
+            ["`/a/b/c/d/e/f/g/`", "`/catalog/category/product/`"],
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+        {
+          label: "Redirect",
+          href: "/es/blog/redirekt/",
+        },
+      ],
+    },
+    {
+      title: "Cómo afecta la URL al SEO",
+      level: 2,
+      paras: [
+        "Los buscadores leen el path como una señal débil de tema y usabilidad. Contenido, enlaces internos, acceso técnico y comportamiento pesan más.",
+        "Una keyword en la URL o el dominio no garantiza un ranking. La zona (`.ru` / `.com`) y el geo son señales aparte — ver el artículo de TLD.",
+        "Una URL legible sube el CTR en resultados y la confianza al compartir — eso ayuda de forma indirecta si la página responde de verdad a la query.",
+      ],
+      lists: [
+        {
+          intro: "Qué revisar técnicamente:",
+          items: [
+            "espejo principal: HTTPS + www elegido",
+            "URLs legibles activadas en el CMS",
+            "canonical y 301 sin cadenas",
+            "params de filtro no inflan el índice",
+            "cambios de URL solo con redirect desde la dirección vieja",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Plazos",
+          text: "Limpiar URLs forma parte de la prep del sitio. Crecer un núcleo comercial hacia visibilidad en primera página se planifica en meses de trabajo tras arrancar la promoción — no es el resultado de editar una dirección.",
+        },
+      ],
+    },
+  ],
+};

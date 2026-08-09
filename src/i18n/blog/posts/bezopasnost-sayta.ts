@@ -222,3 +222,234 @@ export const bezopasnostSaytaEn: BlogPost = {
     "veb-server",
   ],
 };
+
+/** ES overlay for bezopasnost-sayta — same structure as RU JSON / EN. */
+export const bezopasnostSaytaEs: BlogPost = {
+  slug: "bezopasnost-sayta",
+  title: "Cómo se hackean los sitios y cómo defenderse: SQL injection y otras amenazas",
+  date: "2020-11-26",
+  category: "SEO",
+  cover: "/images/blog/bezopasnost-sayta/cover.webp",
+  excerpt:
+    "Amenazas típicas de sitios y tiendas: SQL injection, XSS, brute force, plugins vulnerables. Cómo pensar la defensa y qué hacer tras un compromise — sin how-tos de ataque.",
+  lead: [
+    "Los sitios no se hackean por deporte — va de datos, spam, redirects de malware o ransomware. Para un dueño en claro: alguien explota un agujero de código, una contraseña floja o un plugin olvidado.",
+    "Abajo: un overview de amenazas típicas (incluida SQL injection) y defensa práctica. El material es de protección y recuperación, no de cómo lanzar ataques. Backups de BD y HTTPS se cubren en artículos relacionados.",
+  ],
+  faq: [
+    {
+      q: "¿Qué es SQL injection en palabras simples?",
+      a: "Un atacante mete un fragmento en un campo de formulario o URL para que la base de datos ejecute una query no deseada. Defensa — queries parametrizadas, validación de input, updates del CMS.",
+    },
+    {
+      q: "¿HTTPS detiene SQL injection?",
+      a: "No. HTTPS cifra el canal. Las inyecciones y los agujeros de la app son otra capa: código, ORM, permisos de BD.",
+    },
+    {
+      q: "¿Por qué un hack del sitio es malo para el SEO?",
+      a: "Páginas spam, redirects maliciosos, robo de contenido, listas de sitios inseguros, caída de confianza y tráfico.",
+    },
+    {
+      q: "¿Basta el antivirus del hosting?",
+      a: "Útil como parte de un stack, no como única medida. Hacen falta updates, contraseñas fuertes, least privilege, backups y monitoreo.",
+    },
+    {
+      q: "¿Qué hacer justo tras sospechar un breach?",
+      a: "Rota accesos, pon el sitio en mantenimiento si hace falta, restaura desde un backup limpio, actualiza CMS/plugins, revisa email y herramientas de webmaster por avisos de malware.",
+    },
+    {
+      q: "¿Hace falta un WAF?",
+      a: "Para tiendas y formularios públicos a menudo sí (nivel hosting/CDN). No sustituye arreglar código vulnerable.",
+    },
+    {
+      q: "¿Se puede «chequear un sitio por SQL» con un scanner online?",
+      a: "Los checkers superficiales dan pistas, no una garantía. Una auditoría seria necesita un especialista; el scanning agresivo de sitios ajenos sin permiso es inaceptable.",
+    },
+    {
+      q: "¿Los plugins de WordPress son el riesgo principal?",
+      a: "A menudo sí: extensiones olvidadas y sin revisar. Instala menos, actualiza, quita lo que no uses, toma de fuentes de confianza.",
+    },
+  ],
+  sections: [
+    {
+      title: "A qué amenazas se enfrenta un sitio",
+      level: 2,
+      paras: [
+        "Los ataques web no son un solo «truco de hacker» — un set de escenarios: explotar fallos de código, adivinar contraseñas, phishing al admin, infección vía la máquina de un editor, agujeros en el servidor y paneles.",
+        "Objetivos del atacante: datos de clientes, spam desde tu dominio, spam SEO en páginas ocultas, miners, ransomware. Para el negocio es igual de malo — downtime, daño de reputación y coste de recuperación.",
+      ],
+      lists: [
+        {
+          intro: "Set típico de amenazas:",
+          items: [
+            "inyecciones a la base de datos (SQL y afines)",
+            "XSS y robo de sesión",
+            "CSRF en acciones de admin",
+            "brute force y contraseñas filtradas",
+            "plugins/temas vulnerables",
+            "RCE vía subida de archivos",
+            "hosting/FTP comprometido",
+          ],
+        },
+      ],
+    },
+    {
+      title: "SQL injection: la idea sin «cómo atacar»",
+      level: 2,
+      paras: [
+        "Un sitio habla con la base de datos con queries. Si el input del usuario se pega al SQL como string, un atacante puede cambiar el sentido de la query. El código moderno usa prepared statements / ORM — los datos no se mezclan con comandos.",
+        "Las inyecciones pegan al núcleo: leer/corromper tablas, a veces llegar al filesystem (depende de la BD y los privilegios). Una tienda con pedidos y cuentas es un objetivo prioritario.",
+      ],
+      lists: [
+        {
+          intro: "Defensa en la capa de desarrollo:",
+          items: [
+            "solo queries parametrizadas",
+            "privilegios mínimos para el usuario de BD de la app",
+            "validación y normalización de input",
+            "drivers y CMS actuales",
+            "no exponer errores SQL a los usuarios",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "No caces ni ejecutes «payloads de prueba» públicos en sitios ajenos. Testing de seguridad — solo en tu staging o bajo contrato.",
+        },
+      ],
+      links: [
+        {
+          label: "Bases de datos del sitio",
+          href: "/blog/bazy-dannyh-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Otros vectores habituales",
+      level: 2,
+      paras: [
+        "XSS: un script malicioso en una página que ven otros o admins. Brute force: adivinar la contraseña de admin. Plugin desfasado: una puerta lista sin hacking avanzado. Phishing: un email «confirma el login» con un clon del panel.",
+        "Las tiendas también arriesgan fugas de datos personales y de pago — aquí importan el scope PCI, HTTPS y datos mínimos de tu lado.",
+      ],
+      lists: [
+        {
+          intro: "Agujeros de cada día:",
+          items: [
+            "admin / una contraseña para todo",
+            "FTP con una contraseña de 2019",
+            "plugins demo en producción",
+            "phpMyAdmin abierto a internet",
+            "backups `.sql` en `public_html`",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SSL y HTTPS",
+          href: "/es/blog/ssl-sertifikat/",
+        },
+        {
+          label: "Seguridad en WordPress",
+          href: "/es/blog/wordpress-bezopasnost/",
+        },
+      ],
+    },
+    {
+      title: "Si el sitio ya está comprometido",
+      level: 2,
+      paras: [
+        "No limpies un archivo a ojo y no mantengas las mismas contraseñas. Aísla, restaura desde un backup verificado anterior al incidente, actualiza todo, rota claves y accesos, revisa cron y admins desconocidos.",
+        "Avisa al host si hace falta. En Search Console / herramientas de webmaster limpia avisos de malware tras la limpieza. Notifica a clientes según la política de la empresa si hubo datos afectados.",
+      ],
+      lists: [
+        {
+          intro: "Orden de acción:",
+          items: [
+            "cambia contraseñas de panel, CMS, BD, email, SSH",
+            "revoca sesiones y claves API",
+            "restaura un snapshot limpio",
+            "actualiza CMS/plugins/temas",
+            "revisa cron jobs y usuarios desconocidos",
+            "activa monitoreo de reinfección",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Volver a un backup y saltarte el cambio de contraseñas: el atacante entra otra vez con el mismo acceso.",
+        },
+      ],
+    },
+    {
+      title: "Higiene básica de seguridad",
+      level: 2,
+      paras: [
+        "Updates, contraseñas fuertes y únicas, 2FA donde haya, least privilege, backups regulares con prueba de restore, restringir el admin por IP si se puede, WAF/antivirus del host como capa extra.",
+        "Menos superficies de ataque: quita plugins sin uso, no indexes staging, no pongas secretos en el repo.",
+      ],
+      lists: [
+        {
+          intro: "Checklist del dueño:",
+          items: [
+            "CMS y plugins actualizados",
+            "backup de BD+archivos fuera del mismo disco",
+            "contraseñas distintas y largas",
+            "permisos de archivos sensatos",
+            "uptime y correo de webmaster monitorizados",
+            "dueño del incidente asignado",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+        {
+          label: "FTP",
+          href: "/es/blog/ftp/",
+        },
+      ],
+    },
+    {
+      title: "Vínculo con SEO y confianza",
+      level: 2,
+      paras: [
+        "Los buscadores marcan sitios inseguros, cortan clics y piden confirmación. Inyecciones de spam en plantillas destrozan snippets e indexan URLs basura. Recuperar rankings tras una infección larga lleva tiempo — primero limpieza y estabilidad.",
+        "La seguridad no es un tick aparte tras el SEO — es la condición para que contenido y técnica funcionen en un dominio vivo.",
+      ],
+      lists: [
+        {
+          intro: "Tras la limpieza comprueba:",
+          items: [
+            "sin URLs spam nuevas en el índice",
+            "avisos limpios en los paneles",
+            "redirects y homepage correctos",
+            "sin scripts maliciosos residuales en el tema",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Páginas duplicadas",
+          href: "/es/blog/dubli-stranits/",
+        },
+        {
+          label: "Cerrar a la indexación",
+          href: "/es/blog/zakrytie-ot-indeksatsii/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "bazy-dannyh-sayta",
+    "ssl-sertifikat",
+    "tehnicheskiy-seo-audit",
+    "https-seo",
+    "veb-server",
+  ],
+};

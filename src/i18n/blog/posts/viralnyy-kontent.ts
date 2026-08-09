@@ -228,3 +228,232 @@ export const viralnyyKontentEn: BlogPost = {
     "prodayushchie-teksty",
   ],
 };
+
+/** ES overlay for viralnyy-kontent — same structure as RU JSON / EN. */
+export const viralnyyKontentEs: BlogPost = {
+  slug: "viralnyy-kontent",
+  title: "Contenido viral: qué es y cómo darle más opciones",
+  date: "2021-02-12",
+  category: "Content marketing",
+  cover: "/images/blog/viralnyy-kontent/cover.webp",
+  excerpt:
+    "Qué es el contenido viral, cómo se relaciona con el marketing viral, qué señales suben las odds de share y por qué no puedes garantizar un «hit».",
+  lead: [
+    "El contenido viral se extiende por la audiencia: shares, forwards, menciones. No es un formato de archivo — es reach más allá de tus followers directos.",
+    "Abajo: señales, motivos de share, cómo preparar una pieza y qué hacer con el resultado. No puedes garantizar un hit viral; puedes subir las odds con contenido útil fácil de reenviar.",
+  ],
+  faq: [
+    {
+      q: "¿Viralidad es lo mismo que marketing viral?",
+      a: "Relacionados: el marketing viral usa mecánicas de difusión. La viralidad es una propiedad de una pieza concreta de contenido.",
+    },
+    {
+      q: "¿En qué se diferencia del reach viral de VK?",
+      a: "En VK, el «reach viral» es una métrica de cuenta. Aquí hablamos de la idea general para cualquier canal.",
+    },
+    {
+      q: "¿Se puede encargar un hit viral?",
+      a: "Ninguna agencia honesta lo garantiza. Comprar shares daña el rendimiento y suele ser inútil para el negocio.",
+    },
+    {
+      q: "¿Qué formato funciona mejor?",
+      a: "El que sea fácil de compartir en tu nicho: un clip corto, una card, una lista, una historia con emoción y valor.",
+    },
+    {
+      q: "¿Hace falta un CTA de «comparte esto»?",
+      a: "A veces ayuda — si no es pesado y hay un motivo real para compartir.",
+    },
+    {
+      q: "¿Cómo se mide la viralidad?",
+      a: "No solo views: shares, forwards, reach fuera de followers, clics y calidad de reacción.",
+    },
+    {
+      q: "¿Y la viralidad negativa?",
+      a: "Responde con hechos — sin bots y sin borrar críticas a ciegas. Si no, la segunda ola pega más duro.",
+    },
+    {
+      q: "¿Un hit viral siempre significa ventas?",
+      a: "No. Reach sin audiencia relevante y landing page a menudo es ruido, no leads.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué cuenta como viral",
+      level: 2,
+      paras: [
+        "Es contenido que la gente empuja voluntariamente más allá de la primera ola de reach. Métricas: shares, engagement rate, crecimiento de followers, visitas al sitio desde el share.",
+        "Muchas views no equivalen a viralidad: un boost de pago puede haber hecho el trabajo pesado. Importa si la gente lo llevó más lejos — y si llegó la audiencia correcta.",
+      ],
+      lists: [
+        {
+          intro: "Patrones habituales:",
+          items: [
+            "emoción fuerte más una idea clara",
+            "un checklist o tip útil",
+            "una historia before/after",
+            "un conflicto o insight reconocible del nicho",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Reach viral en VK",
+          href: "/es/blog/viralnyy-ohvat-vk/",
+        },
+      ],
+    },
+    {
+      title: "Por qué la gente comparte",
+      level: 2,
+      paras: [
+        "Moneda social («estoy al día»), ayudar a amigos, risa, indignación, identidad de marca — estos son motivos de share. Sin un motivo, ni un presupuesto grande de promo lo salva.",
+        "La emoción debe ligarse a una idea clara. El shock por el shock da reach breve pero rara vez construye confianza o interés en el producto.",
+      ],
+      lists: [
+        {
+          intro: "Amplificadores:",
+          items: [
+            "un gancho en los primeros segundos",
+            "un formato fácil de reenviar",
+            "presencia de marca que no ahogue el punto",
+            "timing y encaje de plataforma con la audiencia",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo preparar contenido para compartir",
+      level: 2,
+      paras: [
+        "Enuncia una idea que alguien pueda recontar sin contexto. Corta el intro largo, usa una cover clara, añade subtítulos al vídeo, adapta por plataforma.",
+        "Revisa hechos, copyrights y tono. Un número mal o un chiste fuera de clave pueden atraer atención y dañar reputación a la vez.",
+      ],
+      lists: [
+        {
+          intro: "Antes de publicar:",
+          items: [
+            "qué gana alguien si lo reenvía",
+            "si la idea se entiende sin el nombre de la marca",
+            "si funciona en un teléfono sin sonido",
+            "si hay un siguiente paso honesto",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Dónde publicar y qué esperar",
+      level: 2,
+      paras: [
+        "Social, mensajeros y media de industria llegan a audiencias distintas. Un hit no sustituye un sistema de contenido: el negocio necesita lead gen estable más que un meme al azar.",
+        "Planifica el camino tras el clic. Para leads — una página rápida y relevante; para confianza — una pieza útil o un subscribe de baja presión.",
+      ],
+      lists: [
+        {
+          intro: "Errores habituales:",
+          items: [
+            "copiar el hit viral de otro uno a uno",
+            "comprar shares",
+            "esperar un hit viral de cada post",
+            "sin landing page cuando el objetivo son leads",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Plan de contenido",
+          href: "/es/blog/kontent-plan/",
+        },
+      ],
+    },
+    {
+      title: "Conectar contenido con marca y landing",
+      level: 2,
+      paras: [
+        "Un clip viral sin enlace a la oferta entretiene el feed de otro. Una señal ligera de marca y un siguiente paso claro ganan a un logo en cada frame.",
+        "Si el objetivo son leads, prepara una landing o artículo para la ola de tráfico: formulario, oferta, velocidad. Si no, el pico de reach choca con «no hay dónde hacer clic».",
+      ],
+      lists: [
+        {
+          intro: "Mínimo tras el share:",
+          items: [
+            "tags UTM en los enlaces",
+            "la landing carga en móvil",
+            "la oferta encaja con la promesa del contenido",
+            "el equipo puede absorber un pico de mensajes",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Copy de landing page",
+          href: "/es/blog/tekst-lendinga/",
+        },
+      ],
+    },
+    {
+      title: "Probar y trabajar el resultado",
+      level: 2,
+      paras: [
+        "No esperes un hit viral de cada post. Prueba ángulos sobre un tema: tip, historia de cliente, card, comentario de experto — y compara reacciones.",
+        "Quédate con patrones útiles, pero no copies la mecánica para siempre. El formato puede haber funcionado por el timing — prueba la siguiente pieza otra vez por valor.",
+      ],
+      lists: [
+        {
+          intro: "Tras publicar:",
+          items: [
+            "quién empezó a compartir primero",
+            "qué comentarios revelan el motivo",
+            "qué fuente trajo visitas de calidad",
+            "cómo el reach afectó follows y consultas",
+          ],
+        },
+      ],
+      tables: [
+        {
+          caption: "Reach vs. valor de negocio",
+          headers: ["Señal", "Pregunta"],
+          rows: [
+            ["Shares", "¿Tu audiencia o ruido al azar?"],
+            ["Views", "¿Pago u orgánico?"],
+            ["Clics", "¿Dónde — y con qué conversión?"],
+            ["Comentarios", "¿Interés o hype tóxico?"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Ética y riesgos",
+      level: 2,
+      paras: [
+        "Shares comprados, clickbait engañoso y contenido ajeno sin derechos traen ruido corto y problemas largos. Para una marca, la reputación cuesta más que un día viral.",
+        "La viralidad negativa viene con ser público. Prepara hechos, un portavoz designado y un tono calmado de antemano — sobre todo en nichos sensibles.",
+      ],
+      lists: [
+        {
+          intro: "No hagas:",
+          items: [
+            "comprar un «pack de shares»",
+            "robar clips ajenos",
+            "prometer a un cliente un hit viral en el KPI",
+            "ignorar una ola de quejas",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "El sistema gana al hype",
+          kind: "tip",
+          text: "La viralidad es un bonus al plan de contenido — no una estrategia en lugar de piezas útiles regulares y un sitio sólido.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "viralnyy-ohvat-vk",
+    "kontent-plan",
+    "tekst-lendinga",
+    "menedzher-smm",
+    "infografika",
+    "prodayushchie-teksty",
+  ],
+};

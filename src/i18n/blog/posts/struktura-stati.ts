@@ -167,3 +167,172 @@ export const strukturaStatiEn: BlogPost = {
     "seo-struktura-sayta",
   ],
 };
+
+/** ES overlay for struktura-stati — same structure as RU JSON. */
+export const strukturaStatiEs: BlogPost = {
+  slug: "struktura-stati",
+  title:
+    "Cómo estructurar un artículo para que la gente (y la búsqueda) lo sigan",
+  date: "2019-11-20",
+  category: "Content marketing",
+  cover: "/images/blog/struktura-stati/cover.webp",
+  excerpt:
+    "Arma la lógica del artículo con H1–H3, bloques y listas — y sabe cuándo una pieza corta puede saltarse subtítulos. Sin promesas de «keywords en H2 = rankings».",
+  lead: [
+    "La estructura de un artículo es el marco lógico: orden de bloques, headings y cómo los párrafos llevan a una conclusión. No hay plantilla universal para cada brief — encajas el marco al objetivo, la longitud y el formato de página.",
+    "Aquí: por qué importa la estructura para lectores y búsqueda, cómo funcionan los niveles de heading, cuándo puedes saltarte los H2 y cómo no clonar el mismo esqueleto en todas partes. Escribir el artículo completo es otro proceso; la arquitectura de información del sitio (secciones, URLs) vive en la guía de estructura SEO del sitio.",
+  ],
+  faq: [
+    {
+      q: "¿La estructura del artículo es lo mismo que una tabla de contenidos?",
+      a: "Casi. El outline previo a escribir se convierte en TOC al terminar. El TOC es la estructura acabada.",
+    },
+    {
+      q: "¿Hacen falta H2s en copy corto?",
+      a: "No siempre. Hasta unos 1–1,5k caracteres, párrafos, listas y énfasis suelen bastar — si la idea ya está clara.",
+    },
+    {
+      q: "¿Cuántos niveles de heading hacen falta?",
+      a: "Suele bastar H1 + H2, más H3 cuando haga falta. H4–H6 en landings y blogs rara vez se justifican — confunden la vista.",
+    },
+    {
+      q: "¿Las keywords en headings ayudan al ranking?",
+      a: "Los headings deben encajar con el sentido del bloque y el intent. Meter frases SEO sin utilidad no sustituye una buena respuesta.",
+    },
+    {
+      q: "¿Quién decide la jerarquía — SEO o el escritor?",
+      a: "Juntos. El escritor lleva la lógica de lectura; el SEO, el intent y el markup sensato. No rompas el sentido por un esquema.",
+    },
+    {
+      q: "¿En qué se diferencia de la estructura del sitio?",
+      a: "Aquí — el marco de un texto. La estructura del sitio son secciones, jerarquía de URLs y enlaces internos.",
+    },
+    {
+      q: "¿Hace falta una plantilla para todo el blog?",
+      a: "Un marco de referencia ayuda; clonar cada artículo no. El lector se cansa de bloques idénticos.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué significa estructura de texto",
+      level: 2,
+      paras: [
+        "La estructura es la base lógica de la pieza: orden interno y cómo se conectan los párrafos. Suele bocetarse antes de tipear y revisarse al escribir; al final se parece a una tabla de contenidos.",
+        "No hay un ejemplar perfecto. Un buen marco ayuda al brief, pero copiar a ciegas el outline de otro para otro trabajo hace daño. Mantén creatividad: primero lógica y utilidad — no el esquema solo.",
+      ],
+      notes: [
+        {
+          title: "TOC = estructura terminada",
+          text: "Si los headings no muestran la línea de pensamiento, el marco sigue crudo.",
+        },
+      ],
+    },
+    {
+      title: "Para quién es — y por qué importa",
+      level: 2,
+      paras: [
+        "Un muro de texto sin anclas es más duro para el lector: encontrar un fragmento y ver adónde va el artículo cuesta más. Los bloques con heading permiten escanear y leer selectivo.",
+        "La búsqueda cuida la claridad y headings que encajen con el contenido. El markup H1–H6 separa headings de párrafos. Eso no es garantía de ranking — el ranking es más amplio que «pon un H2 con una keyword».",
+      ],
+      links: [
+        {
+          label: "Cómo escribir un artículo",
+          href: "/es/blog/kak-napisat-statyu/",
+        },
+        {
+          label: "Copywriting SEO",
+          href: "/es/blog/seo-kopirayting/",
+        },
+      ],
+    },
+    {
+      title: "Niveles de heading",
+      level: 2,
+      paras: [
+        "H1 es el título de toda la pieza (suele haber uno por página). Los H2s son trozos grandes de sentido. Los H3s afinan dentro de un H2 y mantienen claras las subsecciones.",
+        "Cuántos niveles hacen falta depende de longitud y tema. Guías grandes y roundups toleran una rejilla más profunda; posts cortos no.",
+        "H4–H6 son raros en la práctica: ruido visual, confusión para el lector y a menudo exceso para SEO.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo práctico:",
+          items: [
+            "un H1 con la esencia de la página",
+            "H2s para las grandes preguntas del lector",
+            "H3 solo si un bloque se parte de verdad",
+            "heading = contenido — sin clickbait que pelee con el texto",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Headlines 4U",
+          href: "/es/blog/zagolovki-4u/",
+        },
+      ],
+    },
+    {
+      title: "Cuándo funciona una estructura más ligera",
+      level: 2,
+      paras: [
+        "No todo texto necesita una rejilla completa de H2/H3. La llamada depende de longitud, propósito y plantilla de página (el layout a veces limita el split).",
+        "Descripciones cortas, teasers, cards y mini-tips a menudo viven con párrafos, listas y énfasis sin subtítulos — si la idea principal sigue clara.",
+        "En el caos sin anclas puedes perder el punto. Entonces al menos listas y un CTA claro ganan a un muro de frases.",
+      ],
+      notes: [
+        {
+          title: "No lo mezcles con la estructura del sitio",
+          text: "La jerarquía de secciones y URLs es otro trabajo. Un artículo puede estar perfectamente marcado y aún así vivir en una sección torcida del catálogo.",
+        },
+      ],
+      links: [
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Recomendaciones",
+      level: 2,
+      paras: [
+        "Arma el marco antes del borrador — más fácil subrayar lo que importa y no salirte del tema.",
+        "No clones una plantilla en cada pieza: la monotonía cansa. Mantén la lógica; cambia la entrega según el formato (how-to, review, opinión, caso).",
+        "Atado al proceso de escritura: outline → borrador → revisa la estructura si cambió la línea de pensamiento.",
+      ],
+      lists: [
+        {
+          intro: "Recuerda:",
+          items: [
+            "la estructura es para leer y claridad — no un checkbox SEO",
+            "H1–H3 suele bastar",
+            "textos cortos pueden vivir sin H2",
+            "un heading debe encajar con su bloque",
+            "sitio y artículo son niveles distintos de estructura",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Longreads",
+          href: "/es/blog/longrid/",
+        },
+        {
+          label: "Brief para copywriter",
+          href: "/es/blog/tz-kopiraytera/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Antes del próximo artículo, boceta 4–7 H2s como preguntas del lector y comprueba que cada uno tiene respuesta — no fluff bajo una keyword. Eso a menudo gana a una plantilla universal.",
+  ],
+  related: [
+    "longrid",
+    "kak-napisat-statyu",
+    "zagolovki-4u",
+    "seo-kopirayting",
+    "tz-kopiraytera",
+    "seo-struktura-sayta",
+  ],
+};

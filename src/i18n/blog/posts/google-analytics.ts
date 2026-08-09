@@ -207,3 +207,211 @@ export const googleAnalyticsEn: BlogPost = {
     "kategorii-internet-magazina",
   ],
 };
+
+/** ES overlay for google-analytics — same structure as RU JSON / EN. */
+export const googleAnalyticsEs: BlogPost = {
+  slug: "google-analytics",
+  title: "Google Analytics para una tienda online: leer el comportamiento del cliente",
+  date: "2020-10-13",
+  category: "Digital marketing",
+  cover: "/images/blog/google-analytics/cover.webp",
+  excerpt:
+    "Cómo leer el comportamiento de la audiencia de una tienda en Google Analytics: segmentos, funnel, informes e hipótesis — en lógica GA4, sin adorar métricas «medias».",
+  lead: [
+    "Un contador solo no te dice por qué la gente no compra. Para una tienda, Google Analytics renta en segmentos y funnel: quién llega al carrito, dónde cae, cómo difieren nuevos y recurrentes.",
+    "Abajo: qué hace falta antes del análisis, cómo leer los informes base y cómo empujar la segmentación más lejos. Instalación del tag y goals son temas vecinos; aquí el foco es el comportamiento ecommerce. La UI de GA4 se mueve — confía en el sentido de la métrica, no en rutas de botones de 2020.",
+  ],
+  faq: [
+    {
+      q: "¿GA o Yandex Metrika?",
+      a: "A menudo ambas. Metrika encaja con tráfico RU y session replay; GA con el ecosistema Google Ads e informes cross-product. Sigue el trabajo, no la «religión del contador».",
+    },
+    {
+      q: "¿Bastan los informes estándar?",
+      a: "Para empezar — sí: tráfico, páginas, eventos/conversiones, ecommerce. Siguiente paso: segmentos y Explorations.",
+    },
+    {
+      q: "¿Qué es un segmento aquí?",
+      a: "Un corte de audiencia por condición: fuente, dispositivo, paso del funnel, nuevo vs recurrente, compró vs no.",
+    },
+    {
+      q: "¿Para qué molestarse con un funnel?",
+      a: "Para dejar de mirar una conversión media de todo el sitio y ver dónde se rompe de verdad el camino al pedido.",
+    },
+    {
+      q: "¿Hace falta markup de ecommerce?",
+      a: "Sí — o no verás productos, revenue y pasos de compra. Sin eso te quedas en pageviews.",
+    },
+    {
+      q: "¿Cada cuánto abro los informes?",
+      a: "Semanal para funnel y fuentes. Segmentos profundos solo bajo hipótesis — no a diario «por los números».",
+    },
+    {
+      q: "¿Y los datos personales?",
+      a: "No metas PII en GA contra la política. Sigue el consentimiento de cookies y las reglas de la plataforma.",
+    },
+    {
+      q: "¿Universal Analytics sigue bien?",
+      a: "No como base. Trabaja en GA4 (eventos, parámetros). No copies capturas viejas de Universal uno a uno.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué hace falta antes de analizar",
+      level: 2,
+      paras: [
+        "Una property GA4 en marcha, un tag correcto en cada plantilla, eventos para acciones clave (vista de producto, carrito, checkout, purchase) y parámetros de ecommerce donde puedas. Sin filtrar el tráfico de oficina, los números se ensucian.",
+        "Acuerda primero los goals: conversión, ticket medio, compras repetidas. Si no, el informe se vuelve un tour de gráficos.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de setup:",
+          items: [
+            "tag GA4 en el sitio",
+            "conversiones / key events",
+            "ecommerce o al menos purchase",
+            "excluir tu IP / oficina",
+            "vincular ads cuando haga falta",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Instalar Yandex Metrika",
+          href: "/es/blog/metrika-ustanovka/",
+        },
+      ],
+    },
+    {
+      title: "Lo básico: cómo leer el comportamiento",
+      level: 2,
+      paras: [
+        "Mira más allá de las sesiones: engagement, vistas de URLs clave del catálogo, eventos add-to-cart, cuota que llega al pago. Compara periodos y canales con tráfico comparable.",
+        "Un «bounce medio» de todo el sitio dice poco — home y fichas de producto viven distinto. Corta por tipo de página y dispositivo.",
+      ],
+      lists: [
+        {
+          intro: "Primer pase semanal:",
+          items: [
+            "tráfico por canal",
+            "landings y productos con más tráfico",
+            "eventos del funnel",
+            "conversiones y revenue",
+            "móvil vs desktop",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Segmentos en lugar de medias del sitio",
+      level: 2,
+      paras: [
+        "Los segmentos muestran que los visitantes nuevos de pago se comportan distinto de los orgánicos; que una fuente trae vistas y otra compras. Compara dos o tres segmentos en un informe — no diez a la vez.",
+        "Cortes útiles: nuevo/recurrente, paid/organic, geo, dispositivo, «añadió al carrito — no compró».",
+      ],
+      lists: [
+        {
+          intro: "Ideas de segmento:",
+          items: [
+            "sesiones con ≥3 vistas de producto",
+            "carrito sin compra",
+            "recurrentes en 30 días",
+            "tráfico de blog vs catálogo",
+            "AOV alto vs bajo",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Optimizar todo el sitio a una métrica media. Un segmento con el 5% de las sesiones puede traer el 40% del revenue.",
+        },
+      ],
+    },
+    {
+      title: "Funnel y cortes más profundos",
+      level: 2,
+      paras: [
+        "Mapea el camino: listado/búsqueda → producto → carrito → contactos/envío → pago → gracias. La caída mayor = zona de hipótesis (precio de envío, campos del formulario, velocidad, confianza).",
+        "Ve más hondo: cohortes de compra repetida, productos a menudo en carrito pero rara vez comprados, landings con mucho tráfico y poca conversión.",
+      ],
+      lists: [
+        {
+          intro: "Pregunta al funnel:",
+          items: [
+            "qué paso pierde más",
+            "¿la caída es peor en móvil?",
+            "qué fuentes llegan al pago",
+            "qué productos disparan el abandono de checkout",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Promocionar una tienda online",
+          href: "/es/blog/prodvizhenie-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "Del informe a la acción",
+      level: 2,
+      paras: [
+        "Cada conclusión es una tarea: simplificar checkout, reforzar la ficha, cambiar un creativo de canal, arreglar velocidad. Sin tareas, la analítica es un deck de slides.",
+        "Ata los números a input cualitativo: soporte, reviews, grabaciones de sesión donde las tengas. Los números muestran dónde; la gente muestra por qué.",
+      ],
+      lists: [
+        {
+          intro: "Plantilla de hipótesis:",
+          items: [
+            "segmento / paso del funnel",
+            "observación (el número)",
+            "hipótesis de causa",
+            "el cambio",
+            "cómo medirás el éxito",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Analytics de content marketing",
+          href: "/blog/analitika-kontent-marketinga/",
+        },
+      ],
+    },
+    {
+      title: "Límites e higiene de datos",
+      level: 2,
+      paras: [
+        "Ad blockers, consentimiento de cookies, markup de ecommerce incompleto, tags duplicados, bots — todo tuerce el cuadro. Cruza pedidos con CRM o admin de la tienda: un hueco de revenue significa arreglar eventos, no confiar en un gráfico bonito.",
+        "Posts vecinos de setup de GA y goals pueden solaparse con este: el comportamiento de tienda vive aquí; guías estrechas de goals se pueden fusionar luego.",
+      ],
+      lists: [
+        {
+          intro: "Control de calidad:",
+          items: [
+            "DebugView / checks de eventos",
+            "reconciliación purchase vs pedidos",
+            "sin doble disparo de tag",
+            "definiciones de conversión documentadas",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Funnel y tres segmentos primero. Custom Explorations después — o te ahogas en ellas.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "metrika-ustanovka",
+    "analitika-kontent-marketinga",
+    "prodvizhenie-internet-magazina",
+    "metrika-ne-rabotaet",
+    "kategorii-internet-magazina",
+  ],
+};

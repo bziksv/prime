@@ -222,3 +222,226 @@ export const trendySeoEn: BlogPost = {
     "samostoyatelnoe-seo",
   ],
 };
+
+/** ES overlay for trendy-seo — same structure as RU JSON / EN. */
+export const trendySeoEs: BlogPost = {
+  slug: "trendy-seo",
+  title: "Tendencias SEO: zero-click, sentido y qué hacer",
+  date: "2020-01-21",
+  category: "SEO",
+  cover: "/images/blog/trendy-seo/cover.webp",
+  excerpt:
+    "Cómo está cambiando el SEO: respuestas en los resultados sin clic, servicios propios de los buscadores, análisis de texto con sentido — y movimientos prácticos en snippets, contenido, enlaces y analítica.",
+  lead: [
+    "Las tendencias SEO hace tiempo que no van de «más keywords en un párrafo». Los buscadores cierran parte de la demanda justo en los resultados, promueven sus propios servicios y entienden mejor el sentido de la consulta. La búsqueda orgánica sigue, pero la pelea es por el clic y por la confianza en la página.",
+    "Abajo: cambios que importan para la estrategia y qué hacer en la práctica — snippets, páginas útiles, menciones white-hat, canales sociales y paneles de webmaster. Esto no es un forecast de año calendario, sino direcciones durables; los nombres de algoritmos en prensa cambian más rápido que el sentido del consejo.",
+  ],
+  faq: [
+    {
+      q: "¿El zero-click mata el SEO?",
+      a: "Algunas consultas informativas se cierran en los resultados. Las intenciones comerciales y complejas siguen mandando gente a sitios. Refuerza marca, landings útiles y canales más allá de una sola página de resultados.",
+    },
+    {
+      q: "¿Hay que perseguir cada algoritmo nuevo por nombre?",
+      a: "No. Mira el efecto: relevancia, señales E-E-A-T, técnica, UX. Los nombres de modelo en prensa cambian; trabajar con intención y calidad de página no.",
+    },
+    {
+      q: "¿Los sitios pequeños están condenados por marcas y agregadores?",
+      a: "Es más duro competir en head terms amplios, pero quedan nichos, región, expertise y mid/long-tail con una respuesta fuerte. Aún hay que preparar el sitio y el núcleo de keywords; crecer la visibilidad del núcleo se planifica a lo largo de meses de trabajo.",
+    },
+    {
+      q: "¿Las redes sociales ayudan al SEO de forma directa?",
+      a: "Como canal de tráfico y awareness — sí. Como «factor mágico de ranking» — no cuentes con ello. El contenido social complementa el sitio; no lo sustituye.",
+    },
+    {
+      q: "¿Hay que borrar páginas «zombie»?",
+      a: "Las URLs finas e inútiles a menudo perjudican. Pega con 301 a las útiles o sácalas del índice con criterio. No borres a granel sin una auditoría.",
+    },
+    {
+      q: "¿Son obligatorios un glosario y «Actualizado»?",
+      a: "Útiles si los términos son complejos y los materiales se actualizan de verdad. La formalidad por checkbox no sustituye responder a la consulta.",
+    },
+    {
+      q: "¿Se puede «adaptar a tendencias» y llegar a primera página en un mes?",
+      a: "En aproximadamente un mes es realista apretar técnica, snippets y un plan de contenido. Una cuota duradera del núcleo en visibilidad de primera página es más a menudo 2–6 meses tras el arranque del trabajo.",
+    },
+    {
+      q: "¿Por dónde empezar con estos tips?",
+      a: "Intención y páginas útiles → snippets y UX móvil → quitar basura del índice → paneles Webmaster/GSC → menciones dirigidas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Dos grandes cambios",
+      level: 2,
+      paras: [
+        "Primero — atención monopolizada en los resultados: respuestas rápidas, bloques propios del buscador (mapas, marketplaces, vídeo, noticias, Q&A). Los usuarios a menudo obtienen una respuesta sin clic — zero-click. Un enlace orgánico compite no solo con otros sitios, sino con la propia página de resultados.",
+        "Segundo — parsing de consultas y texto con sentido. Los buscadores conectan mejor el wording con la intención. Antes un sitio pequeño con optimización densa de long-tail podía robar tráfico a una gran marca con páginas «finas». Al crecer la comprensión del sentido, las propiedades grandes con surtido amplio y confianza recuperan más a menudo esas consultas — si de verdad cubren la necesidad.",
+      ],
+      lists: [
+        {
+          intro: "Qué significa eso en la práctica:",
+          items: [
+            "no toda consulta debe hacer clic a tu dominio",
+            "el fragmento de resultados debe ser honesto y útil",
+            "compites con agregadores y servicios propios de la búsqueda",
+            "una keyword por la keyword es más débil que una respuesta completa al trabajo del usuario",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Por qué las páginas no rankean",
+          href: "/es/blog/sayt-ne-v-top/",
+        },
+        {
+          label: "Búsqueda por voz",
+          href: "/blog/golosovoy-poisk/",
+        },
+      ],
+    },
+    {
+      title: "Snippets y la primera pantalla",
+      level: 2,
+      paras: [
+        "Cuando cae el CTR desde resultados, sube el valor de un snippet clicable. Ajusta title y description a la intención: cifras, beneficio claro, sin clickbait que no encaje con la página. Una URL legible ayuda a la gente y a veces al snippet.",
+        "En la propia página la primera pantalla debe confirmar rápido que la persona aterrizó bien: subtítulos, respuesta, layout móvil sólido. Eso afecta a si vuelven a los resultados en un segundo (una señal aproximada de «longitud de clic» / satisfacción).",
+      ],
+      lists: [
+        {
+          intro: "Arreglos rápidos:",
+          items: [
+            "el title encaja con la consulta y la promesa de la página",
+            "la description complementa, no duplica el title",
+            "H1 y lead cierran la intención sin relleno",
+            "layout responsive y velocidad móvil",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Snippets",
+          href: "/es/blog/snippet/",
+        },
+        {
+          label: "Longitud del title",
+          href: "/es/blog/dlina-title/",
+        },
+        {
+          label: "Sitio responsive",
+          href: "/es/blog/adaptivnyy-sayt/",
+        },
+      ],
+    },
+    {
+      title: "Páginas con tráfico y sentido",
+      level: 2,
+      paras: [
+        "El conteo de URLs solo no es fuerza. Mantén y refuerza páginas que reciben demanda y resuelven el trabajo; pega «zombies» finos con 301 o sácalos del índice con cuidado. Eso es higiene — no un «borré todo — despegué» de un tiro.",
+        "Alrededor del contenido, suma wording para resolver la intención: suggest de búsqueda, consultas relacionadas, visibilidad de URLs de competidores. Escribe para responder la siguiente pregunta del usuario — no solo un exact key match.",
+      ],
+      lists: [
+        {
+          intro: "Ritual de contenido:",
+          items: [
+            "auditar páginas sin tráfico y sin valor",
+            "refrescar materiales vivos (y una señal «actualizado» si es verdad)",
+            "Last-Modified / sitemap actual donde funcione",
+            "un glosario — si el nicho es pesado en terminología",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Contenido del sitio",
+          href: "/es/blog/napolnenie-sayta/",
+        },
+        {
+          label: "Páginas duplicadas",
+          href: "/es/blog/dubli-stranits/",
+        },
+        {
+          label: "Sitemap XML",
+          href: "/es/blog/karta-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Menciones, canales sociales y analítica",
+      level: 2,
+      paras: [
+        "Enlaces y menciones vía contenido útil y outreach cuidadoso siguen ganando al spam de marketplaces. Las redes son un canal de alcance extra: artículos, infografías, vídeo corto y podcasts pueden traer gente que los resultados «se comieron» con zero-click.",
+        "Cierra el loop en paneles: Yandex Webmaster y Google Search Console muestran consultas, CTR y errores. Tendencias sin medición son adivinanzas.",
+      ],
+      lists: [
+        {
+          intro: "Una vía de crecimiento white-hat:",
+          items: [
+            "sitios temáticos y piezas guest",
+            "monitoreo de menciones de marca",
+            "formatos de contenido para la audiencia fuera de la búsqueda",
+            "revisión semanal de GSC / Webmaster",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Outreach",
+          href: "/es/blog/autrich/",
+        },
+        {
+          label: "Yandex Webmaster",
+          href: "/es/blog/yandeks-vebmaster/",
+        },
+        {
+          label: "Google Search Console",
+          href: "/es/blog/google-search-console/",
+        },
+      ],
+    },
+    {
+      title: "Qué no cambia",
+      level: 2,
+      paras: [
+        "Técnica, estructura clara, una respuesta honesta a la consulta, medir leads — la base. Las tendencias sugieren acentos (snippet, sentido, canales), pero no cancelan la preparación del sitio ni el tiempo para construir rankings.",
+        "Preparación (núcleo de keywords, copy, técnica) — a menudo alrededor de un mes. Una cuota notable del núcleo comercial en visibilidad de primera página — planificada a 2–6 meses tras el arranque del trabajo, creciendo de mes a mes, sin garantía de fecha. «Me adapté a una tendencia en una semana — primera página» es un mito dañino.",
+      ],
+      lists: [
+        {
+          intro: "En resumen:",
+          items: [
+            "cuenta con zero-click y bloques del buscador",
+            "escribe para la intención, no para la densidad",
+            "limpia URLs débiles, refuerza las fuertes",
+            "mira CTR y paneles — no solo rankings",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Plazos",
+          text: "Reaccionar a tendencias no es primera página al instante. Primero calidad de página y medición, luego meses de buildup de visibilidad.",
+        },
+      ],
+      links: [
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+        {
+          label: "SEO para pequeño negocio",
+          href: "/blog/seo-malyy-biznes/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "sayt-ne-v-top",
+    "snippet",
+    "golosovoy-poisk",
+    "yandeks-vebmaster",
+    "autrich",
+    "samostoyatelnoe-seo",
+  ],
+};

@@ -129,3 +129,133 @@ export const eatKopiraytingEn: BlogPost = {
     "tz-kopiraytera",
   ],
 };
+
+/** ES overlay for eat-kopirayting — same structure as RU JSON / EN. */
+export const eatKopiraytingEs: BlogPost = {
+  slug: "eat-kopirayting",
+  title: "Copywriting E-E-A-T: escribir con expertise y confianza",
+  date: "2020-01-29",
+  category: "Content marketing",
+  cover: "/images/blog/eat-kopirayting/cover.webp",
+  excerpt:
+    "E-E-A-T en el copy: experiencia, expertise, autoridad y fiabilidad — cómo escribir para YMYL y temas cotidianos sin keyword stuffing ni el mito de que un rater asigna a mano la primera página.",
+  lead: [
+    "E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) es un marco de calidad de contenido de las guías de raters de Google. Para un copywriter es un checklist: quién escribe, en qué se apoyan las afirmaciones y si los hechos se pueden comprobar.",
+    "Artículos más viejos a menudo decían E-A-T sin «Experience»; la idea es la misma, más la experiencia clara del autor. Abajo: principios para artículos y páginas comerciales. Las puntuaciones de raters no son una señal directa de ranking de URL.",
+  ],
+  faq: [
+    {
+      q: "¿E-E-A-T es un botón en Search Console?",
+      a: "No. Es un marco de calidad. En la práctica eso significa autores, hechos, reseñas, contactos y una oferta honesta.",
+    },
+    {
+      q: "¿En qué se diferencia del SEO copywriting?",
+      a: "El SEO suma el cluster de keywords y la intención. E-E-A-T pide expertise y confianza; uno sin el otro es flojo para YMYL.",
+    },
+    {
+      q: "¿Qué es YMYL?",
+      a: "Temas donde un error golpea salud, dinero, seguridad o derechos. Los estándares de autor y hechos son más altos.",
+    },
+    {
+      q: "¿Siempre hace falta un médico en el byline?",
+      a: "Para consejo médico, sí: un experto y un proceso editorial. Para el escaparate de calcetines — bastan specs honestas y servicio.",
+    },
+    {
+      q: "¿Puede un borrador de experto ir a un copywriter para rewrite?",
+      a: "Sí: borrador experto → copy edit → chequeo del experto. Un byline vacío de «Admin» sin credenciales no lo sustituye.",
+    },
+    {
+      q: "¿Debo borrar reseñas negativas?",
+      a: "No para inflar la valoración. Atiende quejas; cinco estrellas falsas dañan más la confianza que un menos honesto.",
+    },
+    {
+      q: "¿E-E-A-T garantiza un crecimiento rápido de conversión?",
+      a: "No. Baja el riesgo de expectativas rotas y contenido fino. Técnica y oferta siguen importando.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué importa para un copywriter",
+      level: 2,
+      paras: [
+        "Una hoja de keywords sin valor está obsoleta. Para YMYL y nichos expertos, la búsqueda y los lectores esperan información verificable y un autor claro.",
+        "E-E-A-T no sustituye la investigación de keywords ni la estructura — suma honestidad y profundidad.",
+      ],
+      links: [
+        {
+          label: "Raters y E-E-A-T",
+          href: "/blog/google-assessory/",
+        },
+        {
+          label: "SEO copywriting",
+          href: "/blog/seo-kopirayting/",
+        },
+      ],
+    },
+    {
+      title: "Expertise y experiencia",
+      level: 2,
+      paras: [
+        "Cubre el tema con sustancia: hechos, límites, «cómo verificar». Title y H1 deben coincidir con el contenido — sin clickbait de «ladrillos baratos» a precios mid-market.",
+        "Estructura, listas y diagramas ayudan a terminar de leer. En comercio, suma compra, entrega y garantía — eso también es expertise de servicio.",
+      ],
+    },
+    {
+      title: "Autoridad del autor",
+      level: 2,
+      paras: [
+        "Di quién lo escribió y qué cualificación tiene: nombre, rol, enlace a una página de autor o política editorial.",
+        "Medicina, finanzas y derecho son territorio experto. El copywriter da forma a la prosa; el experto es dueño del significado.",
+      ],
+      lists: [
+        {
+          intro: "Señales mínimas de autor:",
+          items: [
+            "el byline no es «Admin»",
+            "un background o rol corto",
+            "contactos editoriales",
+            "fecha y actualización cuando el material cambia",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Fiabilidad del sitio y del copy",
+      level: 2,
+      paras: [
+        "Contactos, una página About, términos claros, reseñas y casos reales, FAQ, HTTPS y una política de privacidad — el marco de confianza.",
+        "En el copy mismo: hechos verificables, fuentes, cifras actuales. Más especificidad significa menos «agua SEO».",
+      ],
+      links: [
+        {
+          label: "Sobre la empresa",
+          href: "/es/blog/o-kompanii/",
+        },
+        {
+          label: "Textos de venta",
+          href: "/es/blog/prodayushchie-teksty/",
+        },
+      ],
+    },
+    {
+      title: "Claves a recordar",
+      level: 2,
+      paras: [
+        "E-E-A-T es calidad y confianza — no un sustituto técnico.",
+        "YMYL necesita un autor experto y chequeos de hechos.",
+        "La promesa del snippet = la verdad en la página.",
+      ],
+    },
+  ],
+  closing: [
+    "Antes de entregar el copy, pregunta: «¿Quién es dueño de los hechos y dónde se ve eso en el sitio?» — si no hay respuesta, E-E-A-T aún no está construido.",
+  ],
+  related: [
+    "o-kompanii",
+    "prodayushchie-teksty",
+    "kopirayting",
+    "tz-kopiraytera",
+    "google-assessory",
+    "seo-kopirayting",
+  ],
+};

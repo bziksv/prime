@@ -145,3 +145,149 @@ export const klikabelnayaSsylkaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for klikabelnaya-ssylka — same structure as RU JSON / EN. */
+export const klikabelnayaSsylkaEs: BlogPost = {
+  slug: "klikabelnaya-ssylka",
+  title: "Enlaces clicables: cómo hacer una URL activa",
+  date: "2021-11-02",
+  category: "SEO",
+  cover: "/images/blog/klikabelnaya-ssylka/cover.webp",
+  excerpt:
+    "En qué se diferencia un enlace activo del texto plano, cómo crearlo en HTML y en un editor, matices en apps sociales y Word — más texto ancla, target y errores habituales.",
+  lead: [
+    "Un enlace clicable (activo) abre otra URL al hacer clic. Uno inactivo es solo una cadena de dirección que copias a mano. En la web casi siempre quieres enlaces activos de verdad.",
+    "Abajo: markup HTML, editores visuales y una nota corta sobre apps sociales y documentos. La teoría del hipertexto es un artículo aparte; esto es el how-to práctico.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Por qué un enlace activo es mejor que una URL pelada?",
+      a: "Un clic en lugar de copiar-pegar en la barra de direcciones. Más cómodo y menos typos.",
+    },
+    {
+      q: "¿Cuál es el HTML mínimo?",
+      a: "`<a href=\"https://example.com/\">Texto del enlace</a>`. Para una pestaña nueva añade `target=\"_blank\"` y preferiblemente `rel=\"noopener\"`.",
+    },
+    {
+      q: "¿Qué debe decir el ancla?",
+      a: "El sentido del destino: «condiciones de envío», no «aquí» o «clic». Más claro para la gente y más útil para SEO.",
+    },
+    {
+      q: "¿Por qué un enlace no siempre es clicable en Instagram?",
+      a: "Límites de formato: la URL del header del perfil suele ser activa; en el caption de un post normal — a menudo no. Consulta la ayuda actual de la app.",
+    },
+    {
+      q: "¿Un enlace de Word es lo mismo que en un sitio?",
+      a: "Idea similar (clic → ir), pero es un documento, no una página HTML. Para un sitio sigues necesitando markup o un editor de CMS.",
+    },
+  ],
+  sections: [
+    {
+      title: "Enlaces activos vs inactivos",
+      level: 2,
+      paras: [
+        "Activo: clic — se abre una página, un archivo o un ancla en la página. Inactivo: una cadena `https://…` que no es un enlace — el usuario la copia él mismo.",
+        "Los enlaces activos mejoran la UX y ayudan a llevar a la gente a la sección, producto o formulario correctos.",
+      ],
+      lists: [
+        {
+          intro: "Un enlace puede verse como:",
+          items: [
+            "texto ancla",
+            "un botón",
+            "un mapa de imagen",
+            "una URL que el editor autoenlazó",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Hipertexto: la teoría",
+          href: "/es/blog/gipertekst/",
+        },
+      ],
+    },
+    {
+      title: "Crearlo en HTML",
+      level: 2,
+      paras: [
+        "Tag básico: `<a href=\"URL\">ancla</a>`. El `href` es a dónde va. El texto entre tags es lo que ve el usuario.",
+      ],
+      lists: [
+        {
+          intro: "Atributos habituales:",
+          items: [
+            "`target=\"_blank\"` — pestaña nueva",
+            "`rel=\"noopener noreferrer\"` — más seguro con `_blank`",
+            "`title` — pista al hover (opcional)",
+            "ancla `href=\"#block\"` — salto dentro de la página",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          text: "Comprueba que la URL esté completa y use https en sitios externos. Un typo en href = un enlace muerto.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Editores visuales y CMS",
+      level: 2,
+      paras: [
+        "En WordPress y la mayoría de builders: selecciona texto → Insertar enlace → pega URL → guarda. El editor escribe el HTML.",
+        "Visualmente un enlace activo suele ir subrayado o de color — el tema fija el estilo.",
+      ],
+      lists: [
+        {
+          intro: "Los pasos son casi siempre los mismos:",
+          items: [
+            "seleccionar una palabra, frase o imagen",
+            "abrir la herramienta de enlace",
+            "pegar la URL de destino",
+            "guardar y probar con un clic",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Apps sociales y mensajeros",
+      level: 2,
+      paras: [
+        "Las reglas de clicabilidad difieren. En VKontakte una URL en un post a menudo se vuelve activa sola; las comunidades usan direcciones cortas y completas de página.",
+        "En Instagram la clicabilidad está limitada por formato: un enlace en el header del perfil o campos oficiales de Stories/ads son más fiables — no un «código mágico en comentarios» de guías viejas.",
+      ],
+      notes: [
+        {
+          title: "Info",
+          text: "Las UIs sociales cambian. Sigue la ayuda actual de la plataforma, no capturas de 2020.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Enlaces en Word y documentos",
+      level: 2,
+      paras: [
+        "En Word: selecciona texto → Insertar → Enlace → fija una dirección o archivo. Tras Enter en una URL el editor a veces la autoactiva.",
+        "Para la web es una skill lateral: el sitio sigue recibiendo HTML del CMS o del layout.",
+      ],
+      lists: [
+        {
+          intro: "Errores típicos:",
+          items: [
+            "anclas tipo «aquí» / «más» sin sentido",
+            "URLs rotas o http cuando existe https",
+            "enlaces a una página utilitaria «en progreso»",
+            "demasiados enlaces salientes inútiles",
+          ],
+        },
+      ],
+    },
+  ],
+};

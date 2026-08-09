@@ -198,3 +198,202 @@ export const baiduEn: BlogPost = {
     "katalogi-saytov",
   ],
 };
+
+/** ES overlay for baidu — same structure as RU JSON / EN. Official channels only; no verification bypass. */
+export const baiduEs: BlogPost = {
+  slug: "baidu",
+  title: "Baidu y la promoción en China: registro y servicios clave",
+  date: "2020-09-03",
+  category: "SEO",
+  cover: "/images/blog/baidu/cover.webp",
+  excerpt:
+    "Cuándo hace falta Baidu, en qué se diferencia la búsqueda china de Google y Yandex, qué servicios del ecosistema importan para SEO y cómo encarar el registro sin esquemas grises.",
+  lead: [
+    "Baidu es el buscador principal en China continental. Si la audiencia está en la RPC, el stack habitual de Google/Yandex y Occidente a menudo no está disponible o es secundario: hacen falta hosting o licencias locales, contenido en chino y el ecosistema Baidu.",
+    "Abajo: especificidades del SEO local, servicios clave y una mirada realista al registro — sin how-tos de saltar la verificación ni «números de teléfono» grises.",
+  ],
+  faq: [
+    {
+      q: "¿Un sitio sin ventas en la RPC necesita Baidu?",
+      a: "Normalmente no. Tiene sentido al entrar en el mercado chino, trabajar con partners allí o llegar a una audiencia dentro del firewall.",
+    },
+    {
+      q: "¿Por qué no se puede tratar Baidu «igual que Google»?",
+      a: "SERP, idioma y requisitos de velocidad distintos desde dentro de China; a menudo hacen falta ICP e infraestructura local. Un sitio occidental «desde fuera» carga mal.",
+    },
+    {
+      q: "¿Funciona un teléfono fuera de China para una cuenta?",
+      a: "El registro y la verificación a menudo están atados a reglas locales y pueden fallar. Planifica acceso corporativo legal — no esquemas grises.",
+    },
+    {
+      q: "¿Qué es Baidu Webmaster Tools?",
+      a: "Una cuenta de webmaster: indexación, errores, sitemap — similar en espíritu a Search Console / Yandex Webmaster, pero en el ecosistema Baidu.",
+    },
+    {
+      q: "¿Son obligatorios Baike y Zhidao?",
+      a: "No siempre. Baike es una enciclopedia; Zhidao es Q&A. Útiles para marca y demanda si el contenido es de calidad y sigue las reglas de la plataforma.",
+    },
+    {
+      q: "¿Hace falta chino en el sitio?",
+      a: "Sí para lo orgánico de Baidu. La traducción automática rápida suele perder frente a edición local.",
+    },
+    {
+      q: "¿Los ads de Baidu son aparte del SEO orgánico?",
+      a: "Sí: los formatos de pago tienen cuenta y presupuesto propios. Orgánico y paid no son intercambiables.",
+    },
+    {
+      q: "¿Cuánto tarda en verse un resultado?",
+      a: "Igual que en otros lados: la preparación del sitio no es primera página. Índice y visibilidad crecen a lo largo de meses de trabajo constante — típicamente un horizonte de rankings de 2–6 meses tras el arranque del workstream.",
+    },
+  ],
+  sections: [
+    {
+      title: "Especificidades SEO para China",
+      level: 2,
+      paras: [
+        "La velocidad de carga desde China continental es crítica: CDN o hosting fuera de la región a menudo significa UX flojo. Contenido y meta — en chino simplificado para la intención. Domina el tráfico móvil.",
+        "El wrapping legal e infraestructural (dominio, ICP, empresa) es un loop aparte; sin un partner local, lanzar «desde cero desde el extranjero» rara vez es fluido.",
+      ],
+      lists: [
+        {
+          intro: "Diferencias respecto al SEO familiar:",
+          items: [
+            "otro ecosistema de enlaces y señales sociales",
+            "servicios Baidu en vez de un stack Google",
+            "requisitos de localidad más estrictos",
+            "filtros y reglas de contenido distintos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Registro: un enfoque realista",
+      level: 2,
+      paras: [
+        "Camino oficial: una cuenta vía formularios actuales de Baidu, verificación según las reglas del servicio, luego acceso a los productos necesarios (Webmaster y otros). Las UIs y requisitos cambian — sigue la ayuda de Baidu, no guías de 2018–2020.",
+        "Los métodos grises («número de otro», saltar checks) arriesgan bloqueos, pérdida de acceso y problemas legales. El negocio necesita acceso transparente y un dueño de cuenta nominado.",
+      ],
+      lists: [
+        {
+          intro: "Antes del registro fija:",
+          items: [
+            "objetivo (marca / leads / tienda)",
+            "dominio y hosting alcanzables desde China",
+            "editorial en chino",
+            "quién posee la cuenta en la empresa",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "No publicamos ni recomendamos esquemas para saltar la verificación. Solo canales oficiales.",
+        },
+      ],
+    },
+    {
+      title: "Baidu Webmaster y el índice",
+      level: 2,
+      paras: [
+        "Webmaster es el panel base: verificación del sitio, sitemap, monitoreo de crawl y errores. Sin él es difícil saber si Baidu ve tus URLs.",
+        "Baidu Index estima el interés por consultas (similar en espíritu a herramientas de keywords o trends). Útil para demanda — no como única fuente de semántica.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo tras el acceso:",
+          items: [
+            "verificar el sitio",
+            "enviar un sitemap",
+            "revisar disponibilidad móvil desde China",
+            "mantener un log de errores de indexación",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Sitemap",
+          href: "/es/blog/karta-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Plataformas de contenido en el ecosistema",
+      level: 2,
+      paras: [
+        "Baidu Baike — artículos enciclopédicos (moderación estricta). Zhidao — Q&A. Tieba — foros de interés. Feng Yun Bang y rankings son más monitoreo de tendencias que un atajo de ranking.",
+        "Usa las plataformas para expertise y marca, no spam de anclas idénticas. Las reglas de moderación son más estrictas de lo que sugieren los blogs occidentales.",
+      ],
+      lists: [
+        {
+          intro: "Práctica:",
+          items: [
+            "primero sitio y Webmaster",
+            "luego Baike/Zhidao selectivo por nicho",
+            "sin auto-relleno de traducción automática",
+            "una marca y contactos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Loop de producto y analítica",
+      level: 2,
+      paras: [
+        "Diseña el funnel dentro de China: messengers, plataformas locales de pago y soporte. El GA occidental puede no estar disponible para la audiencia — usa analítica permitida localmente y logs del servidor.",
+        "Arma la semántica para la demanda china — no una copia literal de una lista de keywords en ruso o inglés.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de lanzamiento:",
+          items: [
+            "velocidad desde provincias objetivo",
+            "layout móvil",
+            "contactos o pagos locales según el modelo de negocio",
+            "plan de contenido en chino",
+            "presupuesto para soporte continuo, no una «visita» de una sola vez",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Set semántico de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+      ],
+    },
+    {
+      title: "Cuándo Baidu no es tu canal",
+      level: 2,
+      paras: [
+        "Si los clientes están fuera de China y no hay oferta china — mejor invertir en Google/Yandex, mapas y contenido en el idioma local. «Registrarse en Baidu por si acaso» casi nunca ayuda.",
+        "Si el mercado de la RPC es real — presupuesta un contratista local o estructura legal, no solo un artículo de SEO.",
+      ],
+      lists: [
+        {
+          intro: "Banderas rojas de contratista:",
+          items: [
+            "garantía de primera página en Baidu en una semana",
+            "cuentas grises «llave en mano»",
+            "sin informe de Webmaster",
+            "solo compra de enlaces sin un sitio en China",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Primero alcanzabilidad del sitio desde China e idioma, luego cuentas Baidu — o optimizas el vacío. El crecimiento de rankings sigue llevando meses de trabajo constante tras la preparación.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "karta-sayta",
+    "semanticheskoe-yadro",
+    "tehnicheskiy-seo-audit",
+    "seo-malyy-biznes",
+    "katalogi-saytov",
+  ],
+};

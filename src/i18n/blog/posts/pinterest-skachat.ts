@@ -79,3 +79,91 @@ export const pinterestSkachatEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for pinterest-skachat — same structure as RU JSON / EN. */
+export const pinterestSkachatEs: BlogPost = {
+  slug: "pinterest-skachat",
+  title: "Cómo guardar una imagen de Pinterest en el teléfono y el ordenador",
+  date: "2021-06-14",
+  category: "SMM",
+  cover: "/images/blog/pinterest-skachat/cover.webp",
+  excerpt:
+    "Cómo guardar legalmente una imagen de Pinterest en un dispositivo: descarga integrada, la app y tableros de ideas — con un recordatorio sobre derechos de autor.",
+  lead: [
+    "Pinterest funciona bien como tablero de referencias. Puedes guardar una imagen en el dispositivo con las herramientas propias del sitio y la app — sin scrapers de terceros.",
+    "Abajo: métodos básicos para ordenador y teléfono. El trabajo ajeno está protegido por copyright: para uso comercial necesitas tus propias fotos, una licencia o el permiso del autor.",
+  ],
+  faq: [
+    {
+      q: "¿Puedo usar pins ajenos en anuncios?",
+      a: "Sin licencia o permiso — arriesgas una reclamación. Para ads y el sitio, usa tus propias fotos, assets con licencia correcta o IA bajo los términos de la licencia.",
+    },
+    {
+      q: "¿Vale una captura en lugar de Descargar?",
+      a: "Técnicamente sí, pero la calidad es peor y los derechos son los mismos. Prefiere la descarga integrada cuando esté disponible.",
+    },
+    {
+      q: "¿Para qué sirven los tableros si puedo guardar en la galería?",
+      a: "Los tableros estructuran ideas (mood, producto, competidores). La galería es solo un archivo suelto.",
+    },
+    {
+      q: "¿Hacen falta extensiones del navegador?",
+      a: "La herramienta oficial Pin It es útil para guardar en tu cuenta. Las extensiones de terceros de «descargar todo» suelen ser innecesarias y arriesgadas.",
+    },
+    {
+      q: "¿Es sobre todo un tema de SEO?",
+      a: "Más de contenido y referencias. Para búsqueda importan más las imágenes únicas en tu propio sitio.",
+    },
+  ],
+  sections: [
+    {
+      title: "En el ordenador",
+      level: 2,
+      paras: [
+        "Abre el pin → menú (⋯) → descargar imagen si el autor o la plataforma lo muestran. O usa «Guardar imagen como…» con clic derecho sobre la vista previa — la calidad puede variar.",
+        "Para trabajo de ideas, guarda el pin en tu tablero para que las referencias no se pierdan.",
+      ],
+    },
+    {
+      title: "En el teléfono",
+      level: 2,
+      paras: [
+        "En la app de Pinterest, abre la imagen → menú → guardar/descargar (el texto depende del SO y la versión). El archivo aparece en la galería.",
+        "Una captura es el plan B si no hay descarga; recorta lo sobrante.",
+      ],
+    },
+    {
+      title: "Tableros y copyright",
+      level: 2,
+      paras: [
+        "Crea tableros por tema de proyecto y ordena los pins en secciones. Eso acelera el brief de diseño y de shooting.",
+        "Descargar ≠ permiso para uso comercial. Para posts y anuncios, planifica tus propios fotogramas o fuentes legales.",
+      ],
+      links: [
+        {
+          label: "Fotos para Instagram",
+          href: "/es/blog/foto-instagram/",
+        },
+        {
+          label: "Infografías",
+          href: "/es/blog/infografika/",
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Práctica",
+          text: "Referencia de Pinterest → tu propio shooting o maquetación. Copiar el archivo de otro a los anuncios es camino corto a una queja.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "foto-instagram",
+    "infografika",
+    "aydentika-brenda",
+    "skrinshoty",
+    "kontent-plan-instagram",
+    "shablon-instagram",
+  ],
+};

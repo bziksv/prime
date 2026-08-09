@@ -137,3 +137,141 @@ export const obnovlenieKontentaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for obnovlenie-kontenta — same structure as RU JSON / EN. */
+export const obnovlenieKontentaEs: BlogPost = {
+  slug: "obnovlenie-kontenta",
+  title: "Cómo refrescar posts antiguos del blog y recuperar tráfico",
+  date: "2021-07-08",
+  category: "Content marketing",
+  cover: "/images/blog/obnovlenie-kontenta/cover.webp",
+  excerpt:
+    "Encuentra posts que aún tienen demanda de búsqueda, decide qué actualizar primero, mejora el texto y la página, y vuelve a promover — sin prometer «2× de tráfico en 90 días para cualquier sitio».",
+  lead: [
+    "Gran parte del tráfico del blog ya está en artículos que publicaste hace años. Siguen coincidiendo con búsquedas reales, pero el copy está viejo, los competidores te superan o la página bajó en los resultados. Refrescar esas URLs a menudo gana a escribirlo todo desde cero.",
+    "Abajo hay un flujo práctico: elegir las URLs correctas, priorizar, mejorar el contenido y lo técnico básico, y pedir a los buscadores que recrawleen. Cifras como «+139% en un trimestre» vienen del caso de un equipo — no son un forecast para tu sitio. Las ganancias de ranking tras trabajo de contenido se planifican en meses; la preparación sola no es un salto nocturno a la primera página.",
+  ],
+  faq: [
+    {
+      q: "¿Se puede prometer el doble de tráfico en tres meses?",
+      a: "No como regla universal. Sitios con un archivo sólido y páginas ya cerca de la primera página pueden ver un lift claro en un trimestre. Sitios nuevos sin base de keywords ni enlaces no deberían planear esos plazos.",
+    },
+    {
+      q: "¿Qué actualizar primero?",
+      a: "Páginas con impresiones o clics pero fuera de los primeros resultados; páginas que ya convierten; temas donde la intención de búsqueda no ha cambiado. URLs muertas sin demanda van a merge o noindex — no a un rewrite cosmético.",
+    },
+    {
+      q: "¿Debo cambiar la fecha de publicación a hoy?",
+      a: "Solo si la actualización es real. Subir la fecha sin sustancia parece manipulación. Prefiere una línea honesta de «última actualización», un refresh de verdad y una señal en el sitemap.",
+    },
+    {
+      q: "¿En qué se diferencia de publicar un artículo nuevo?",
+      a: "Refuerzas una URL que ya tiene historial y enlaces. Escribe algo nuevo cuando la intención es distinta o la URL antigua no se puede salvar.",
+    },
+    {
+      q: "¿Qué herramientas ayudan con las actualizaciones de contenido?",
+      a: "Search Console (o tus herramientas locales de webmaster), analítica, un export de rankings (Ahrefs, Keys.so y similares), más una mirada manual a los 10 primeros actuales. Los nombres de producto y las UIs cambian — el flujo no.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué refrescar posts antiguos en vez de solo escribir nuevos",
+      level: 2,
+      paras: [
+        "Un blog nuevo suele tardar meses antes de que el tráfico orgánico se sienta estable. Si ya tienes un archivo, las piezas fuertes con clics a la baja a menudo son más baratas de revivir que de ignorar.",
+        "En casos publicados de equipos de contenido, el crecimiento orgánico de dos o tres dígitos en un trimestre suele venir de un paquete de updates — no de un post heroico. Hasta dónde llegas depende del nicho, la competencia y lo a fondo que edites.",
+      ],
+      lists: [
+        {
+          intro: "Buenos candidatos:",
+          items: [
+            "hay impresiones, pero la posición media está fuera de los primeros resultados",
+            "la gente sigue buscando el tema",
+            "la página ya trae leads o registros",
+            "los competidores te ganan en frescura.",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          text: "Montar un paquete de updates lleva de semanas a unos meses de trabajo. El crecimiento estable de tráfico y rankings se planifica a 2–6 meses. Un contrato que «garantiza 2× en una fecha fija» no es aceptable.",
+        },
+      ],
+    },
+    {
+      title: "Cómo elegir y priorizar URLs",
+      level: 2,
+      paras: [
+        "Exporta clics, impresiones y posición media desde Search Console o tus herramientas de webmaster. Quédate con páginas a tiro de la primera página, y páginas con impresiones pero casi sin clics porque el snippet es flojo.",
+        "Por cada URL, suma la consulta principal, la demanda y una puntuación de competencia de una herramienta SEO. Regla simple: más demanda con dificultad relativamente baja va antes en la cola. Ajusta umbrales de impresiones al tamaño de tu blog.",
+      ],
+      lists: [
+        {
+          intro: "Una tabla de seguimiento útil incluye:",
+          items: [
+            "URL y title",
+            "impresiones / clics / posición",
+            "consulta objetivo",
+            "puntuaciones de demanda y dificultad",
+            "si la página importa para conversión (sí/no)",
+            "estado del update.",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo mejorar el artículo",
+      level: 2,
+      paras: [
+        "Compara la página con los 10 primeros de hoy: qué falta en profundidad, estructura, ejemplos, fechas y hechos. Refuerza el copy, cierra huecos, corta relleno y actualiza capturas y cifras.",
+        "Para lectores: subtítulos claros, listas, tabla de contenidos y aire suficiente para que terminen la pieza. Para técnica: arregla enlaces rotos, confirma HTTPS, escribe alt text, reduce imágenes pesadas, revisa longitud de title/description y asegúrate de que la página funcione en móvil.",
+      ],
+      lists: [
+        {
+          intro: "Tres capas de edición:",
+          items: [
+            "sentido y completitud frente a competidores",
+            "legibilidad y cuánto tiempo se queda la gente",
+            "higiene técnica de la URL.",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización on-page para una consulta",
+          href: "/es/blog/optimizatsiya-stranitsy/",
+        },
+        {
+          label: "Keyword stuffing en el copy",
+          href: "/es/blog/zaspamlennost-teksta/",
+        },
+      ],
+    },
+    {
+      title: "Promueve el update y mira los resultados",
+      level: 2,
+      paras: [
+        "Tras publicar el refresh, avisa: posts en redes, comunidades del tema y enlaces internos desde artículos más nuevos. Un blast masivo de «actualizamos un post» sin valor suele ser solo ruido — lidera con un beneficio corto.",
+        "Vigila rankings y clics 4–12 semanas. Si no se mueve nada, revisa intención, snippet o el set competitivo. Un pase trimestral por las mejores URLs del archivo protege el tráfico mejor que sprints puntuales.",
+      ],
+      lists: [
+        {
+          intro: "Después del update:",
+          items: [
+            "apunta más enlaces internos a esta URL",
+            "revisa el snippet de búsqueda en 1–2 semanas",
+            "registra métricas antes/después",
+            "programa el siguiente lote de URLs.",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Plan de contenidos",
+          href: "/es/blog/kontent-plan/",
+        },
+      ],
+    },
+  ],
+};

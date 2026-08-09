@@ -285,3 +285,289 @@ export const yandeksVebmasterEn: BlogPost = {
     "metrika-ustanovka",
   ],
 };
+
+/** ES overlay for yandeks-vebmaster — same structure as RU JSON / EN. */
+export const yandeksVebmasterEs: BlogPost = {
+  slug: "yandeks-vebmaster",
+  title: "Yandex Webmaster: cómo conectar y qué mirar",
+  date: "2020-01-23",
+  category: "SEO",
+  cover: "/images/blog/yandeks-vebmaster/cover.webp",
+  excerpt:
+    "Por qué importa Yandex Webmaster, cómo verificar un sitio, qué secciones mirar (overview, diagnostics, índice, consultas, enlaces, tools) y cómo no confundir informes con un interruptor de ranking.",
+  lead: [
+    "Yandex Webmaster es el panel que conecta tu sitio con Yandex Search: indexación, errores, consultas, sitemap, seguridad y ajustes del servicio. Sin él, los arreglos del sitio a menudo van a ciegas — el bot rastrea distinto de lo que crees.",
+    "Abajo: cómo añadir una property, qué bloques revisar con regularidad y cómo leer datos sin obsesionarte con posiciones. Menús y nombres de pestaña se mueven — apóyate en el significado del informe y en la Ayuda actual de Yandex. Webmaster no sube el sitio a mano en los resultados.",
+  ],
+  faq: [
+    {
+      q: "¿Webmaster sustituye a Google Search Console?",
+      a: "No. Para una audiencia RU normalmente hacen falta ambas pistas: Yandex y Google.",
+    },
+    {
+      q: "¿Necesito un email de Yandex?",
+      a: "Necesitas una cuenta Yandex. La verificación — meta tag, archivo HTML o DNS TXT (los métodos actuales aparecen en la UI al añadir el sitio).",
+    },
+    {
+      q: "¿Hace falta un sitemap?",
+      a: "No es la única fuente de URLs, pero ayuda en sitios medianos y grandes. Lístalo en robots.txt y añádelo en Webmaster.",
+    },
+    {
+      q: "¿Una solicitud de recrawl significa ranking inmediato en primera página?",
+      a: "No. Es una petición de mirar una URL antes. El ranking depende de calidad de página, competencia y tiempo; la cuota planificada del núcleo en primera página a menudo crece en dos a seis meses tras empezar el trabajo — la prep no es lo mismo que el ranking.",
+    },
+    {
+      q: "¿El IQS sigue importando?",
+      a: "La insignia pública del Índice de Calidad del Sitio de Yandex hace tiempo que desapareció de la vista familiar. Mira diagnostics, índice, clics y seguridad — no persigas badges obsoletos de guías viejas.",
+    },
+    {
+      q: "¿Las páginas Turbo son obligatorias?",
+      a: "No. Históricamente aceleraban contenido en resultados; el producto y las prioridades cambiaron. Primero haz un sitio principal rápido y usable; añade Turbo solo si la Ayuda actual aún lo hace relevante.",
+    },
+    {
+      q: "¿Dónde escribo si un estado no está claro?",
+      a: "Primero auto-chequea los informes. Luego soporte vía Ayuda de Webmaster. Un artículo aparte sobre tickets — soporte Yandex.",
+    },
+    {
+      q: "¿Con qué frecuencia revisar?",
+      a: "Tras releases — al momento. En plan, semanal: diagnostics, índice, consultas. No cada hora por un salto de posición.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué importa Webmaster",
+      level: 2,
+      paras: [
+        "Ves cómo Yandex rastrea e indexa el sitio, qué URLs están en búsqueda, dónde hay errores y violaciones, qué consultas traen impresiones y clics, y cómo se ven enlaces externos y archivos de servicio. Eso es base para técnica y contenido — no un sustituto de semántica y copy.",
+        "El panel ayuda en el lanzamiento (verificar el sitio, enviar sitemap, pillar espejos) y en el trabajo continuo (caídas de índice, malware, mudanzas, subidas y bajadas de consultas). Sin él es difícil demostrar que el problema está en búsqueda — no solo en la intuición.",
+      ],
+      lists: [
+        {
+          intro: "Trabajos típicos:",
+          items: [
+            "verificar ownership y fijar la región",
+            "mirar el índice y las exclusiones",
+            "pillar errores de diagnostics y seguridad",
+            "revisar stats de consultas",
+            "gestionar mudanzas, crawl rate, notificaciones",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Google Search Console",
+          href: "/es/blog/google-search-console/",
+        },
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "Setup y verificación de ownership",
+      level: 2,
+      paras: [
+        "Entra con una cuenta Yandex, añade la URL del sitio y verifica ownership. Suele haber: meta tag en `<head>`, archivo HTML en la raíz o DNS TXT. Tras la verificación se abren informes y tools.",
+        "Añade el host canónico (https, www o non-www — como vivirás hacia adelante) y revisa el pegado de espejos de inmediato. Los errores aquí luego duelen en mudanzas y stats.",
+      ],
+      lists: [
+        {
+          intro: "Justo después de añadir:",
+          items: [
+            "enviar un sitemap",
+            "revisar robots.txt con la tool",
+            "activar notificaciones por email",
+            "delegar acceso a un vendor si hace falta",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Sitemap XML",
+          href: "/es/blog/karta-sayta/",
+        },
+        {
+          label: "HTTPS y SEO",
+          href: "/es/blog/https-seo/",
+        },
+      ],
+    },
+    {
+      title: "Overview, calidad y diagnostics",
+      level: 2,
+      paras: [
+        "Overview es un pulso rápido: issues, updates de búsqueda, clics, crawls, enlaces. No caves todo a la vez: primero errores críticos y fatales, seguridad y violaciones; luego notas posibles.",
+        "Diagnostics marca agujeros típicos (descriptions vacías, disponibilidad, certificado y similares) y apunta a arreglos. Es un checklist de salud — no una nota de lo alto que rankeas. Algunos badges viejos de calidad e IQS de guías 2019–2020 están obsoletos — apóyate en pantallas actuales.",
+      ],
+      lists: [
+        {
+          intro: "Prioridad de triage:",
+          items: [
+            "seguridad y violaciones",
+            "errores que bloquean crawl o índice",
+            "exclusiones masivas de páginas",
+            "luego cosmética de snippet y tips",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Seguridad del sitio",
+          href: "/es/blog/bezopasnost-sayta/",
+        },
+        {
+          label: "Snippets",
+          href: "/es/blog/snippet/",
+        },
+      ],
+    },
+    {
+      title: "Indexación: crawls, sitemap, mudanzas",
+      level: 2,
+      paras: [
+        "La sección de indexación muestra lo que el bot rastreó, qué está en búsqueda, por qué una URL está excluida y cómo se ve la estructura desde la búsqueda. Exports CSV y XLS ayudan a pillar duplicados, páginas de utilidad y caídas repentinas.",
+        "Útil: pedir recrawl de URLs importantes, monitorear páginas clave, gestionar crawl rate bajo carga del servidor y el wizard de mudanza (dominio, www, https) — solo a direcciones verificadas. Vincular Metrica puede sugerir secciones populares para crawl — una señal, no una garantía de ranking.",
+      ],
+      lists: [
+        {
+          intro: "Revisa con regularidad:",
+          items: [
+            "páginas en búsqueda vs expectativa",
+            "motivos de exclusión",
+            "estado del sitemap",
+            "códigos de estado en URLs clave",
+            "el espejo tras un release o mudanza",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Páginas duplicadas",
+          href: "/es/blog/dubli-stranits/",
+        },
+        {
+          label: "Tag canónico",
+          href: "/es/blog/kanonicheskiy-teg/",
+        },
+        {
+          label: "Instalar Metrica",
+          href: "/es/blog/metrika-ustanovka/",
+        },
+      ],
+    },
+    {
+      title: "Consultas de búsqueda y enlaces",
+      level: 2,
+      paras: [
+        "Stats de consultas: impresiones, clics, CTR, posiciones medias. Los grupos de consultas ayudan a mirar el núcleo y las landings. Los tips recomendados son ideas para semántica y ads, no un autopiloto de ranking — revisa intención y competencia.",
+        "En enlaces, mira el crecimiento de donors externos y anchors; los internos ayudan a encontrar enlaces rotos. Un pico spammy brusco es motivo para auditar el perfil — no para celebrar «nos están linkeando».",
+      ],
+      lists: [
+        {
+          intro: "Cómo leer consultas:",
+          items: [
+            "impresiones arriba, clics planos — snippet o intención",
+            "clics abajo con las mismas impresiones — SERP o competidores",
+            "grupos del núcleo comercial — monitoreo aparte",
+            "no confundas posición media con un sitio eterno",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Núcleo semántico",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Perfil de backlinks",
+          href: "/es/blog/ssylochnyy-profil/",
+        },
+        {
+          label: "Enlaces rotos",
+          href: "/es/blog/bitye-ssylki/",
+        },
+      ],
+    },
+    {
+      title: "Info del sitio y tools",
+      level: 2,
+      paras: [
+        "Región, textos originales, cómo se muestra el nombre en resultados, sitelinks, productos y precios (YML) — formas de describir el sitio con más claridad a la búsqueda. Para tiendas, enlaces a Market y feeds suelen importar más que pulsar cada botón a mano.",
+        "Tools: revisar robots.txt, sitemap, respuesta del servidor, usabilidad móvil, validadores de markup y feed, eliminación de URL de búsqueda. Úsalas tras arreglos y antes de un ticket de soporte — las solicitudes salen más cortas y útiles.",
+      ],
+      lists: [
+        {
+          intro: "Mini set post-release:",
+          items: [
+            "robots y sitemap sin error",
+            "checks 200/301 en URLs clave",
+            "aptitud móvil de landings críticas",
+            "datos estructurados si reclamas rich snippets",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO regional",
+          href: "/es/blog/regionalnoe-seo/",
+        },
+        {
+          label: "Open Graph",
+          href: "/es/blog/open-graph/",
+        },
+      ],
+      notes: [
+        {
+          title: "Turbo y bloques obsoletos",
+          kind: "tip",
+          text: "Secciones como páginas Turbo y badges viejos de calidad se detallan en guías antiguas; en los 2020 las prioridades de Yandex cambiaron. Antes de implementar, revisa la Ayuda — no copies un checklist de 2019 al pie de la letra.",
+        },
+      ],
+    },
+    {
+      title: "Ajustes, soporte y lugar en el SEO",
+      level: 2,
+      paras: [
+        "En ajustes activa notificaciones de issues críticos, delega acceso a una agencia, vincula Metrica si hace falta. No des acceso completo a todos — solo a quien de verdad opera el sitio.",
+        "Webmaster es una pista de diagnóstico. La prep del sitio (técnica, semántica, copy) puede tomar cerca de un mes; el crecimiento de ranking del núcleo es otro horizonte — más a menudo dos a seis meses tras empezar el trabajo. Si un estado del panel no está claro tras el auto-chequeo — escribe a soporte con hechos, no con una exigencia de «ponednos en primera página».",
+      ],
+      lists: [
+        {
+          intro: "Ritual semanal:",
+          items: [
+            "diagnostics y seguridad",
+            "dinámica de páginas en búsqueda",
+            "consultas líderes y anomalías de CTR",
+            "tickets abiertos desde hallazgos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Soporte Yandex",
+          href: "/es/blog/podderzhka-yandeks/",
+        },
+        {
+          label: "Por qué el sitio no rankea",
+          href: "/es/blog/sayt-ne-v-top/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Los informes de Webmaster no son posiciones en primera página. Prep e índice son una cosa; el ranking duradero del núcleo se construye en meses — típicamente dos a seis tras empezar el trabajo.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "google-search-console",
+    "podderzhka-yandeks",
+    "karta-sayta",
+    "tehnicheskiy-seo-audit",
+    "dubli-stranits",
+    "metrika-ustanovka",
+  ],
+};

@@ -163,3 +163,167 @@ export const cpmIliCpcEn: BlogPost = {
     "spetsrazmeshchenie-direkt",
   ],
 };
+
+/** ES overlay for cpm-ili-cpc — same structure as RU JSON / EN. */
+export const cpmIliCpcEs: BlogPost = {
+  slug: "cpm-ili-cpc",
+  title: "CPM o CPC: cuándo pagar por impresiones vs. clics",
+  date: "2021-06-29",
+  category: "Digital marketing",
+  cover: "/images/blog/cpm-ili-cpc/cover.webp",
+  excerpt:
+    "En qué se diferencia el coste por impresión (CPM) del coste por clic (CPC), qué modelo encaja con cada objetivo, cómo el targeting moldea la economía de la campaña y por qué «cuál es mejor» siempre depende del resultado que buscas.",
+  lead: [
+    "Los ads digitales suelen reducirse a dos modelos de pago: impresiones (CPM, normalmente por 1.000) y clics (CPC). El CPM está pensado para alcance y awareness; el CPC, para tráfico al sitio y un coste por visita más claro.",
+    "Abajo: a quién sirve cada modelo, dónde importan el targeting y la landing, y por qué no puedes coronar un ganador eterno sin un objetivo y números reales. Las tarifas viejas de «clics a céntimos» no son un playbook — corre tus propios tests.",
+  ],
+  faq: [
+    {
+      q: "¿Qué es CPC?",
+      a: "Cost Per Click — pagas cuando alguien hace clic en el anuncio. Una impresión sin clic normalmente no gasta presupuesto CPC (salvo algunos matices de plataforma).",
+    },
+    {
+      q: "¿Qué es CPM?",
+      a: "Cost Per Mille — pagas por 1.000 impresiones. No hace falta un clic: pagas porque el anuncio se muestre.",
+    },
+    {
+      q: "¿Qué es más efectivo — impresiones o clics?",
+      a: "Depende del objetivo. Awareness de marca e imagen se inclinan al CPM (y formatos de alcance afines). Leads y ventas desde el sitio se inclinan a CPC/CPA más una landing sólida.",
+    },
+    {
+      q: "¿Puedo combinarlos?",
+      a: "Sí: corre alcance más arriba en el funnel y campañas de clic o por goal más abajo. Enlazarlos con remarketing es un setup habitual.",
+    },
+    {
+      q: "¿El CPC siempre es más barato para ventas?",
+      a: "No siempre. Un clic caro que convierte gana a un clic barato que nunca se vuelve lead. Trackea CPA y calidad del lead.",
+    },
+    {
+      q: "¿Dónde tiene sentido el CPM?",
+      a: "Donde importan audiencia y frecuencia: sitios de nicho, display, social para un trabajo de alcance — con un creativo que merezca mostrarse.",
+    },
+    {
+      q: "¿Cómo se liga esto a las etiquetas UTM?",
+      a: "En campañas de clic, las etiquetas ayudan a partir fuentes en analytics. En alcance, mira búsquedas de marca, visitas directas y cortes post-campaña.",
+    },
+    {
+      q: "¿Y el CPA?",
+      a: "Pagas por acción (lead, compra). Está más cerca del resultado de negocio, pero necesitas goals limpios y datos suficientes. A menudo es el siguiente paso tras el CPC.",
+    },
+  ],
+  sections: [
+    {
+      title: "Clics e impresiones en claro",
+      level: 2,
+      paras: [
+        "Una impresión significa que el anuncio se mostró delante de alguien. Un clic, que lo siguieron. El CPC paga la visita; el CPM paga un bloque de impresiones aunque los clics escaseen.",
+        "Ambos modelos son legítimos. El error es comprar alcance esperando leads al instante — o perseguir clics baratos con una oferta y landing flojas.",
+      ],
+      lists: [
+        {
+          intro: "En corto:",
+          items: [
+            "CPM — me vieron",
+            "CPC — llegaron al sitio",
+            "CPA — hicieron la acción que querías",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cuándo encaja el CPM",
+      level: 2,
+      paras: [
+        "Úsalo cuando el trabajo es poner la marca y la oferta delante de la gente adecuada: un lanzamiento, brand lift, un recordatorio o un calentamiento antes de una promo. Creativo y frecuencia importan tanto como la puja.",
+        "Emplazamientos: medios de nicho grandes, sitios relevantes, comunidades donde tu audiencia de verdad pasa el rato. Tras un vuelo de alcance, el remarketing a quien ya vio el anuncio es el siguiente paso natural.",
+      ],
+      lists: [
+        {
+          intro: "El CPM funciona bien cuando:",
+          items: [
+            "necesitas awareness, no solo clics",
+            "tienes un visual o mensaje fuerte",
+            "aceptas medir el impacto más allá de los leads de ayer",
+            "la audiencia es estrecha y bien definida",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Retargeting",
+          href: "/es/blog/retargeting/",
+        },
+      ],
+    },
+    {
+      title: "Cuándo encaja el CPC",
+      level: 2,
+      paras: [
+        "Úsalo cuando necesitas tráfico al sitio y quieres pagar más cerca del interés: hicieron clic, pagaste. Es más fácil controlar el gasto por visita y atar el coste a conversiones en analytics.",
+        "Sin targeting y una landing decente, el CPC es solo pagar curiosidad. La competencia sube el precio del clic — eso es el mercado, no un modelo roto.",
+      ],
+      lists: [
+        {
+          intro: "El CPC tiene sentido cuando:",
+          items: [
+            "tienes un sitio o landing para la oferta",
+            "necesitas leads, ventas o altas",
+            "importan las UTM y la analytics end-to-end",
+            "estás listo para rotar ads y afinar negativos o audiencias",
+          ],
+        },
+        {
+          intro: "Límites del modelo de clic:",
+          items: [
+            "el CPC sube en nichos competitivos",
+            "ofertas flojas producen clics sin compras",
+            "riesgo de tráfico de baja calidad — mira conversiones, no solo el CTR",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Etiquetas UTM",
+          href: "/es/blog/utm-metki/",
+        },
+        {
+          label: "Fraude de clics",
+          href: "/es/blog/sklikivanie/",
+        },
+        {
+          label: "Estrategias de Yandex Direct",
+          href: "/es/blog/strategii-yandeks-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Cómo elegir",
+      level: 2,
+      paras: [
+        "Empieza por el objetivo: entrar en el radar de la gente, o traer compradores ya. El alcance apunta a CPM (y estrategias de reach). Las ventas desde el sitio apuntan a CPC/CPA.",
+        "Luego revisa la economía: coste aceptable por lead, margen, duración del ciclo de venta. Prueba ambos modelos con poco presupuesto y compara leads e ingresos — no un CTR bonito.",
+      ],
+      notes: [
+        {
+          title: "Conclusión",
+          kind: "tip",
+          text: "No hay respuesta universal a «¿impresiones o clics?» sin un objetivo. Las impresiones construyen awareness; los clics traen clientes potenciales. A menudo funcionan en pareja, no como rivales.",
+        },
+      ],
+      links: [
+        {
+          label: "Venta de tráfico (lado publisher)",
+          href: "/es/blog/prodazha-trafika/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "utm-metki",
+    "retargeting",
+    "strategii-yandeks-direkt",
+    "sklikivanie",
+    "prodazha-trafika",
+    "spetsrazmeshchenie-direkt",
+  ],
+};

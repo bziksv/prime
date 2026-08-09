@@ -133,3 +133,137 @@ export const ssylkiVInstagramEn: BlogPost = {
     "promo-instagram",
   ],
 };
+
+/** ES overlay for ssylki-v-instagram — same structure as RU JSON / EN. */
+export const ssylkiVInstagramEs: BlogPost = {
+  slug: "ssylki-v-instagram",
+  title: "Enlaces en Instagram: bio, Stories, Direct y botones del perfil",
+  date: "2020-01-20",
+  category: "SMM",
+  cover: "/images/blog/ssylki-v-instagram/cover.webp",
+  excerpt:
+    "Dónde poner enlaces en Instagram: bio y link-in-bio, captions de posts, stickers de Stories, Direct y botones de contacto — sin tips obsoletos de IGTV ni un catálogo de herramientas grises.",
+  lead: [
+    "En Instagram las URLs clicables escasean: sobre todo tienes el enlace de la bio, un sticker de Stories, botones del perfil business y destinos de ads. En el caption de un post habitual, el enlace a menudo no es tappable en la app.",
+    "Abajo: un mapa de lugares donde los enlaces aún funcionan — y cómo no confundirlos con la URL del perfil mismo. Los menús cambian; revisa Meta Help. Los stickers de Stories tienen un deep dive aparte. La nota de producto está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta se reconoce como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Puedo hacer tappable un enlace del caption?",
+      a: "En la app, suele no: la gente copia el texto o va a la bio («link in bio»). En ads y en la web, una URL se comporta distinto.",
+    },
+    {
+      q: "¿En qué se diferencia link-in-bio de una sola URL en la bio?",
+      a: "Un enlace es una URL directa. Una herramienta multi-link (Linktree y similares) abre una mini-página con varios destinos. Cuenta con la dependencia de un servicio de terceros.",
+    },
+    {
+      q: "¿Necesito cuenta business para enlaces?",
+      a: "Para botones Call / Email / Website y ads en condiciones — suele sí. Un enlace en la bio también funciona en un perfil personal.",
+    },
+    {
+      q: "¿Dónde profundizar solo en Stories?",
+      a: "Ver el artículo sobre el sticker Link / CTA en Stories — se centra en el comportamiento de swipe y los límites.",
+    },
+    {
+      q: "¿IGTV sigue siendo relevante para enlaces?",
+      a: "El IGTV standalone se cerró. Vídeos largos y descripciones viven en Feed/Reels — sigue los campos de vídeo actuales.",
+    },
+  ],
+  sections: [
+    {
+      title: "Enlace en la cabecera del perfil",
+      level: 2,
+      paras: [
+        "Editar perfil → campo website/link. Esa es la salida permanente principal a un landing, tienda o formulario.",
+        "Cambia la URL para una promo y escribe «link in bio» en los posts — un patrón familiar cuando no hay sticker de Stories.",
+        "No lo mezcles con la URL de la cuenta misma (`instagram.com/handle`) — esa va al sitio y a las tarjetas de visita.",
+      ],
+      links: [
+        {
+          label: "Cómo copiar el enlace del perfil de Instagram",
+          href: "/blog/ssylka-instagram/",
+        },
+        {
+          label: "Diseño de la página de Instagram",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Multi-link (link-in-bio)",
+      level: 2,
+      paras: [
+        "Un servicio reúne varios botones: sitio, Telegram, lista de precios, reserva. Útil para tiendas que cambian ofertas a menudo.",
+        "Inconvenientes: un clic extra, dependencia del uptime del servicio y a veces ads en planes gratis.",
+        "Elige una marca (Linktree, Later, etc.) por política de datos y estabilidad — un catálogo «mejores de 2020» no envejece bien.",
+      ],
+    },
+    {
+      title: "Caption del post y URLs cortas",
+      level: 2,
+      paras: [
+        "El texto del caption a menudo no es tappable en el teléfono. Da un camino memorable («sitio → Promos») o manda a la gente a la bio.",
+        "Los enlaces cortos con UTM ayudan a medir, pero en escenarios de alta confianza a veces se lee mejor el dominio completo.",
+        "En la web copiar es más fácil — no armes la estrategia solo para desktop.",
+      ],
+    },
+    {
+      title: "Stories, Direct, botones de contacto",
+      level: 2,
+      paras: [
+        "Stories: sticker link / CTA — un salto rápido desde el frame. Detalles y el reemplazo del «swipe» están en una guía aparte.",
+        "Direct: envía una URL en el chat; útil para soporte y warm-up tras Stories.",
+        "Perfil business: botones de email, llamada, dirección y website — también son «enlaces», solo con forma de acciones. No satures el bloque.",
+      ],
+      links: [
+        {
+          label: "Enlaces en Instagram Stories",
+          href: "/blog/ssylka-stories-instagram/",
+        },
+        {
+          label: "Cuenta business de Instagram",
+          href: "/es/blog/biznes-akkaunt-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Ads y shopping",
+      level: 2,
+      paras: [
+        "En Ads / Promote, la URL de destino se fija en el creative — esa es la salida de pago principal al sitio.",
+        "Tags de producto y mecánicas de shopping dependen del catálogo y la región; revisa las reglas actuales de Commerce.",
+        "Planifica siempre UTM o un código promo para medir — o no distinguirás tráfico de bio del de Stories y social de pago.",
+      ],
+      links: [
+        {
+          label: "Setup de ads de Instagram vía Meta Ads",
+          href: "/blog/nastroika-reklamy-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "Salida permanente — bio o link-in-bio; táctica — Stories y ads.",
+        "Un caption de post rara vez sustituye una URL tappable.",
+        "Cuenta los clics — no te quedes en «pusimos un enlace en algún sitio».",
+      ],
+    },
+  ],
+  closing: [
+    "Revisa la bio, un multi-link para ofertas actuales y un sticker en las próximas Stories con UTM — ese set suele bastar sin un montón de workarounds obsoletos.",
+  ],
+  related: [
+    "oformlenie-stranicy-instagram",
+    "biznes-akkaunt-instagram",
+    "ssylka-stories-instagram",
+    "ssylka-instagram",
+    "nastroika-reklamy-instagram",
+    "promo-instagram",
+  ],
+};

@@ -162,3 +162,166 @@ export const googleKalendarEn: BlogPost = {
     "otchet-klientu",
   ],
 };
+
+/** ES overlay for google-kalendar — same structure as RU JSON / EN. */
+export const googleKalendarEs: BlogPost = {
+  slug: "google-kalendar",
+  title: "Google Calendar para el trabajo: cómo organizar reuniones y tareas",
+  date: "2019-06-19",
+  category: "Digital marketing",
+  cover: "/images/blog/google-kalendar/cover.webp",
+  excerpt:
+    "Cómo usar Google Calendar en el trabajo: varios calendarios por propósito, reuniones con invitados, vídeo, adjuntos, horario laboral y sharing — sin clics caducados ni Hangouts.",
+  lead: [
+    "Google Calendar es un planner de reuniones, recordatorios y bloques de foco en el ecosistema Google. Funciona para operadores solos y equipos: calendarios compartidos, invites, adjuntos de Drive, horario laboral.",
+    "Abajo: ajustes prácticos para un flujo de trabajo. Las etiquetas de menú y los nombres de botones cambian; sigue el sentido de las features, no un screenshot de 2019. Las videollamadas hoy suelen ir por Google Meet, no Hangouts.",
+  ],
+  faq: [
+    {
+      q: "¿Basta un solo calendario?",
+      a: "Para un día simple — sí. Cuando se mezclan clientes, calls internas y lo personal, varios calendarios de color más un filtro de visibilidad funcionan mejor.",
+    },
+    {
+      q: "¿Hace falta Google Workspace?",
+      a: "La planificación básica funciona en una cuenta habitual. Algunas opciones corporativas (appointment slots, políticas de acceso) están en planes work/school — mira la lista actual de Google.",
+    },
+    {
+      q: "¿Qué sustituye Hangouts de las guías viejas?",
+      a: "Google Meet: añade un enlace de reunión al evento del calendario.",
+    },
+    {
+      q: "¿Es lo mismo que un content plan de blog?",
+      a: "No. Calendar va de tiempo y reuniones. Un plan editorial de publicación vive en un artículo aparte de content plan.",
+    },
+    {
+      q: "¿Puedo abrir un calendario a toda la empresa?",
+      a: "Sí, vía ajustes de sharing. Da derechos de edición solo a quien deba cambiar eventos; el resto ve free/busy.",
+    },
+  ],
+  sections: [
+    {
+      title: "Varios calendarios para metas distintas",
+      level: 2,
+      paras: [
+        "Un stream de «todo en fila» se vuelve ruido rápido: lo importante se ahoga entre recordatorios. Crea calendarios aparte — p. ej. Clientes, Interno, Personal, Deadlines — y asigna colores.",
+        "En la sidebar, enciende solo las capas que necesitas para el día. Es más fácil prepararse para calls y no perder deadlines duros.",
+      ],
+      lists: [
+        {
+          intro: "Un set típico:",
+          items: [
+            "reuniones con clientes",
+            "syncs internas",
+            "deep work (bloques de foco)",
+            "recordatorios recurrentes",
+            "eventos personales (opcionalmente una capa oculta)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Content plan",
+          href: "/es/blog/kontent-plan/",
+        },
+      ],
+    },
+    {
+      title: "Agendar reuniones con participantes",
+      level: 2,
+      paras: [
+        "Crea un evento, fija la hora y añade invitados con cuentas Google. Si puedes ver sus busy times, Calendar destaca conflictos — más fácil hallar un slot compartido.",
+        "Sin acceso al schedule de otro aún puedes enviar un invite: la gente acepta, declina o propone otra hora. Con clientes externos a menudo conviene acordar el slot en chat primero y luego fijar el evento.",
+      ],
+      lists: [
+        {
+          intro: "Antes de enviar el invite:",
+          items: [
+            "asunto claro y meta de la reunión",
+            "zona horaria y duración",
+            "enlace de vídeo o dirección",
+            "agenda en la descripción",
+            "adjuntos necesarios ya en el evento",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Vídeo y materiales en el evento",
+      level: 2,
+      paras: [
+        "Añade una videollamada (Meet) al evento. Los invitados remotos reciben el enlace con el invite — sin un email aparte de «aquí va Zoom».",
+        "Adjunta archivos desde el ordenador o Google Drive: deck, brief, presupuesto. Los invitados ven los materiales en la ficha de la reunión y se preparan antes.",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "No pongas documentos con datos personales en un calendario compartido «por si acaso». El acceso a Drive y el acceso al evento son capas de permiso distintas.",
+        },
+      ],
+    },
+    {
+      title: "Horario laboral y slots de booking",
+      level: 2,
+      paras: [
+        "El horario laboral muestra a los colegas cuándo sueles estar libre para reuniones. Un invite fuera de la ventana puede mostrar un aviso — menos calls a medianoche.",
+        "Para consultorías y slots de enseñanza, las cuentas de trabajo a menudo tienen intervalos de appointment: publicas ventanas, la gente reserva. Nombres y disponibilidad dependen del tipo de cuenta — ver Google Help.",
+      ],
+      lists: [
+        {
+          intro: "Práctica de agencia / freelance:",
+          items: [
+            "fija horario laboral",
+            "deja un buffer entre reuniones",
+            "bloques de deep work sin invites",
+            "un calendario aparte para ventas / entrevistas",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Sharing y atajos",
+      level: 2,
+      paras: [
+        "En los ajustes del calendario, elige quién ve detalles, quién solo free/busy y quién puede editar. Para un equipo, un calendario de proyecto compartido con editores funciona bien; mantén la vista personal limitada.",
+        "Los atajos de teclado aceleran crear eventos y moverte por la semana. La lista está en Calendar Help — no hace falta memorizar «como en 2019».",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de sharing:",
+          items: [
+            "no hagas público un calendario personal sin necesidad",
+            "editores — de forma selectiva",
+            "para externos — un calendario aparte o invites puntuales",
+            "revoca periódicamente el acceso a quien se fue",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Trabajo remoto",
+          href: "/es/blog/udalennaya-rabota/",
+        },
+      ],
+    },
+    {
+      title: "Takeaways",
+      level: 2,
+      paras: [
+        "Calendar ahorra tiempo cuando las capas están separadas, las reuniones tienen agenda y materiales, y el sharing no es borroso. Es una tool de disciplina — no un sustituto de prioridades.",
+        "Vincular con tareas (Tasks, el tracker del equipo) y cerrar follow-ups tras una call importa más que un esquema de color perfecto.",
+      ],
+    },
+  ],
+  closing: [
+    "Separa calendarios por metas, fija horario laboral y sharing, añade Meet y archivos en el propio evento — ahí Google Calendar empieza a ahorrar coordinación en vez de crecer el caos en un stream infinito.",
+  ],
+  related: [
+    "kontent-plan",
+    "udalennaya-rabota",
+    "kpi-menedzhera-prodazh",
+    "dashboard",
+    "marketingovaya-strategiya",
+    "otchet-klientu",
+  ],
+};

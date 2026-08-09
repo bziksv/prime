@@ -200,3 +200,204 @@ export const oshibka500En: BlogPost = {
     "500 is a signal to fix the app and environment — not to mask the response with a redirect. Logs, the last change, and an outside check close most cases faster than switching host “for luck.”",
   ],
 };
+
+/** ES overlay for oshibka-500 — same structure as RU JSON / EN. */
+export const oshibka500Es: BlogPost = {
+  slug: "oshibka-500",
+  title: "HTTP 500 Internal Server Error: qué significa y cómo arreglarlo",
+  date: "2020-07-21",
+  category: "SEO",
+  cover: "/images/blog/oshibka-500/cover.webp",
+  excerpt:
+    "Qué significa HTTP 500, en qué se diferencia de 502/504, causas típicas de CMS y hosting, y un orden claro de diagnóstico — sin plugins «mágicos» de fix.",
+  lead: [
+    "500 Internal Server Error significa que la request llegó al servidor, pero la app o su config falló al manejarla. Usuarios y bots no reciben la página.",
+    "Abajo: cómo difiere el 500 de códigos 5xx cercanos, dónde mirar y en qué orden arreglar. No es una «penalización de búsqueda», pero un downtime largo igual corta tráfico y crawl.",
+  ],
+  faq: [
+    {
+      q: "¿Un 500 es un problema de SEO?",
+      a: "De forma indirecta — la página está caída. Un 5xx largo o generalizado daña UX e indexación. El código en sí habla de fallo de servidor/app, no de un filtro de ranking.",
+    },
+    {
+      q: "¿En qué se diferencia el 500 del 502 y del 504?",
+      a: "500 — falló la app o su entorno. 502 — el gateway recibió una mala respuesta del backend. 504 — el gateway agotó el tiempo de espera. Más sobre gateways en el artículo del 502.",
+    },
+    {
+      q: "¿Solo algunos visitantes pueden ver un 500?",
+      a: "Sí: una URL, un formulario, un reporte pesado, caché u otro nodo en un cluster. Revisa en ventana privada y desde fuera (`curl -I`).",
+    },
+    {
+      q: "¿Debo cambiar el theme de WordPress a ciegas?",
+      a: "A veces como test — si tienes backup y staging. Mejor empezar por logs y el último cambio (plugin, deploy, `.htaccess`).",
+    },
+    {
+      q: "¿Debo redirigir lejos de un 500?",
+      a: "No. Arregla la causa. Un redirect enmascara el síntoma y ensucia el diagnóstico.",
+    },
+    {
+      q: "¿Cuándo llamo al hosting?",
+      a: "Cuando no tienes acceso a logs o al servidor, el disco está lleno, los límites de PHP/memoria están al máximo, o el proveedor muestra un incidente. Envía hora, URL y código de estado.",
+    },
+    {
+      q: "¿Los rankings caen de inmediato?",
+      a: "Un blip corto suele pasar. Días de downtime en URLs clave arriesgan crawl y conversiones. Primero estabiliza, luego pide recrawl.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué significa 500 Internal Server Error",
+      level: 2,
+      paras: [
+        "Un código 5xx: el servidor aceptó la request pero no pudo terminarla limpia. A diferencia de 404 (recurso ausente) o 403 (prohibido), la causa casi siempre está dentro — código, config, recursos, dependencias.",
+        "El navegador muestra una página de error genérica; el detalle vive en los logs de la app y del web server. Al usuario solo le basta «el sitio está roto»; al dueño le hace falta el dónde exacto.",
+      ],
+      lists: [
+        {
+          intro: "Contexto típico:",
+          items: [
+            "tras un update de CMS o plugin",
+            "tras editar `.htaccess` o nginx",
+            "en un formulario o reporte concreto bajo carga",
+            "cuando falta memoria o PHP hace timeout",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Códigos de estado HTTP",
+          href: "/es/blog/kod-statusa-http/",
+        },
+        {
+          label: "Error 502",
+          href: "/es/blog/oshibka-502/",
+        },
+      ],
+    },
+    {
+      title: "Causas habituales",
+      level: 2,
+      paras: [
+        "La lista es larga, pero ganan con más frecuencia los cambios recientes y los límites del entorno. Pregunta qué cambió en la última hora o día: deploy, plugin, permisos de archivo, versión de PHP.",
+        "Un `.htaccess` roto, error de sintaxis en rewrite, conflicto de módulos, plugin desactualizado tras un update del core — clásicos de WordPress y CMS similares.",
+      ],
+      lists: [
+        {
+          intro: "Revisa primero:",
+          items: [
+            "logs de PHP / app y el error_log del web server",
+            "el último deploy y migraciones de DB",
+            "plugins y theme nuevos o actualizados",
+            "`.htaccess` y config de rewrite",
+            "memory_limit, max_execution_time, espacio en disco",
+            "permisos en carpetas de caché y upload",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error común",
+          kind: "tip",
+          text: "No instales un «plugin fix 500» al azar en producción. Primero backup, lee logs y desactiva el último cambio en staging o vía FTP/SSH.",
+        },
+      ],
+    },
+    {
+      title: "Cómo diagnosticar",
+      level: 2,
+      paras: [
+        "Confirma el código desde fuera: `curl -I https://example.com/problem-url/`. Fija hora, URL y si se reproduce. Sin eso, hosting y desarrolladores adivinan.",
+        "Cruza la hora del error con los logs. Fatal error, Allowed memory size, syntax error, rewrite loop apuntan a la capa. Si el 500 solo pega en un escenario — mira el código de ese formulario o el SQL pesado, no «todo el servidor».",
+      ],
+      lists: [
+        {
+          intro: "Orden de operaciones:",
+          items: [
+            "confirma 500 desde fuera y en ventana privada",
+            "abre logs de app y web server",
+            "haz rollback o desactiva el último cambio",
+            "revisa disco, inodes, límites de PHP",
+            "en un CMS — desactiva temporalmente plugins frescos vía archivos si el admin está caído",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Logs del servidor",
+          href: "/es/blog/logi-servera/",
+        },
+        {
+          label: "Servidor web",
+          href: "/es/blog/veb-server/",
+        },
+      ],
+    },
+    {
+      title: "Cómo arreglarlo",
+      level: 2,
+      paras: [
+        "Un fix quita la causa del log — no es cambiar DNS «por si acaso». Restaura un `.htaccess` roto desde backup o reconstrúyelo con las reglas stock del CMS. Un plugin con Fatal error: renombra su carpeta para desactivarlo.",
+        "Si un script supera límites — optimiza la query/código o sube límites adecuados del plan (no al infinito). Hosting barato con 500 constante en picos es un problema de recursos, no solo un «archivo que parchear».",
+      ],
+      lists: [
+        {
+          intro: "Pasos que funcionan:",
+          items: [
+            "backup antes de editar",
+            "rollback de deploy / plugin / cambio de config",
+            "arreglar sintaxis y dependencias",
+            "revisar permisos y ownership de archivos",
+            "volver a correr `curl` y el path del usuario",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Trampas del CMS",
+      level: 2,
+      paras: [
+        "En WordPress y tools similares el propio admin puede devolver 500 — entonces arregla vía FTP/SSH: renombra la carpeta del plugin fresco, cambia a un theme de repuesto, simplifica temporalmente `.htaccess`.",
+        "Tras la recuperación, restaura reglas de pretty-URL y revisa formularios, carrito y login: «abrió la home» ≠ «todo funciona».",
+      ],
+      lists: [
+        {
+          intro: "Tras el incidente:",
+          items: [
+            "actualiza core y plugins en staging",
+            "quita módulos abandonados",
+            "monitoriza URLs clave",
+            "escribe la causa en un ticket o chat del equipo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Panel de admin del sitio",
+          href: "/es/blog/adminka-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Prevención y mirada SEO",
+      level: 2,
+      paras: [
+        "Staging antes del release, backups, alertas de uptime en home y paths clave, headroom de CPU/RAM — higiene básica. Para equipos SEO, 5xx en Search Console / webmaster tools significa arreglar disponibilidad — no comprar más enlaces.",
+        "Tras un downtime largo, revisa indexación de URLs importantes y crawl. Un «recrawl de todo» masivo antes de que la respuesta sea estable solo añade carga.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de control:",
+          items: [
+            "alerta si las URLs principales devuelven 5xx",
+            "no confundas 500 con un filtro de búsqueda",
+            "releases vía staging",
+            "los logs rotan y quedan disponibles para el equipo",
+          ],
+        },
+      ],
+    },
+  ],
+  closing: [
+    "500 es una señal para arreglar la app y el entorno — no para enmascarar la respuesta con un redirect. Logs, el último cambio y un check desde fuera cierran la mayoría de casos más rápido que cambiar de host «por suerte».",
+  ],
+};

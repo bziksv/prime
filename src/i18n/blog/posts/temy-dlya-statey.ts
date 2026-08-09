@@ -131,3 +131,135 @@ export const temyDlyaStateyEn: BlogPost = {
     "korporativnyy-blog",
   ],
 };
+
+/** ES overlay for temy-dlya-statey — same structure as RU JSON. */
+export const temyDlyaStateyEs: BlogPost = {
+  slug: "temy-dlya-statey",
+  title: "Temas para artículos: cómo y dónde encontrar ideas",
+  date: "2019-06-14",
+  category: "Content marketing",
+  cover: "/images/blog/temy-dlya-statey/cover.webp",
+  excerpt:
+    "De dónde sacar temas de blog: audiencia, competidores, demanda de búsqueda, trends y espacios de discusión — sin copy-paste de textos ajenos ni perseguir «viralidad».",
+  lead: [
+    "El tema decide si la gente termina el artículo y si la búsqueda lo encuentra. Un wording único no salva una pregunta que al lector no le importa.",
+    "Abajo: fuentes de ideas a mano, cómo trabajar con queries y reservas extra. Los formatos how-to/guía viven en ideas de promoción por contenido; el calendario vive en el artículo del plan de contenido.",
+  ],
+  faq: [
+    {
+      q: "¿Por dónde empezar si las ideas están a cero?",
+      a: "Con preguntas de clientes y comentarios en posts viejos. Luego demanda de búsqueda y competidores.",
+    },
+    {
+      q: "¿Puedo reescribir artículos ajenos?",
+      a: "Como inspiración y ángulos — sí. Copy-paste y rewrites uno a uno — no. Suma tu experiencia y hechos.",
+    },
+    {
+      q: "¿Hace falta un set de keywords?",
+      a: "Para orgánico — sí, al menos un cluster de preguntas. Para opinión de experto sin intent de búsqueda puedes ir más ligero, pero chequear demanda sigue ayudando.",
+    },
+    {
+      q: "¿Bastan Google Trends / tools de keywords?",
+      a: "Como brújula de estacionalidad y picos — sí. No sustituyen analizar intent y competencia del SERP.",
+    },
+    {
+      q: "¿Funciona preguntar a los suscriptores?",
+      a: "Sí: encuesta, formulario, comentarios. Una respuesta floja es normal; combínalo con búsqueda y soporte.",
+    },
+    {
+      q: "¿En qué se diferencia de las ideas de promoción por contenido?",
+      a: "Ese artículo cubre formatos (how-to, guía, mitos). Aquí — de dónde sacar temas y preguntas concretas.",
+    },
+    {
+      q: "¿Dónde guardo los hallazgos?",
+      a: "En un backlog y plan de contenido: tema, intent, prioridad, estado.",
+    },
+  ],
+  sections: [
+    {
+      title: "Ideas cerca: audiencia y tus propios materiales",
+      level: 2,
+      paras: [
+        "Tus intereses y expertise son un inicio — fíltralos: qué es útil para la audiencia, no solo para ti.",
+        "Hits viejos: actualiza hechos, suma un ángulo nuevo o desglosa objeciones de los comentarios — a menudo más fuerte que un tema desde cero.",
+        "Pregunta a lectores en la newsletter, comentarios o una encuesta corta. Competidores: una lista de temas que les funcionaron, más tu experiencia y ejemplos — no un clon uno a uno de la estructura.",
+      ],
+      lists: [
+        {
+          intro: "Cosecha rápida:",
+          items: [
+            "preguntas de soporte y ventas",
+            "comentarios y «¿y qué pasa con…?»",
+            "URLs viejas más fuertes por tráfico/engagement",
+            "notas de calls con clientes",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Queries de búsqueda como fuente de temas",
+      level: 2,
+      paras: [
+        "La demanda de búsqueda describe cómo la gente formula una necesidad. Un cluster de keywords → temas de artículo y landing.",
+        "Pistas: informes de Search Console, Google Keyword Planner, Semrush/Ahrefs y pares. Suma operadores de pregunta («cómo», «por qué», «qué es») a la query base.",
+        "Espacios Q&A y «People also ask» en el SERP muestran wording vivo. Los trends ayudan con estacionalidad — no publiques un post «de moda» tras el pico salvo que tengas un ángulo evergreen.",
+      ],
+      links: [
+        {
+          label: "Núcleo semántico de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Ideas de promoción por contenido",
+          href: "/es/blog/idei-kontent-prodvizheniya/",
+        },
+      ],
+      notes: [
+        {
+          title: "Las UIs de las tools cambian",
+          kind: "tip",
+          text: "Los botones de «Questions» en Semrush y similares se mueven. Lo que importa es la lógica: pregunta → intent → artículo — no una captura de menú de 2019.",
+        },
+      ],
+    },
+    {
+      title: "Foros, redes, vídeo y ángulos internacionales",
+      level: 2,
+      paras: [
+        "Las discusiones vivas en foros y chats del sector sacan dolores raros que aún no saturan la primera página del SERP.",
+        "Posts y vídeos populares del nicho señalan interés; lleva el sentido a tu formato — no robes el guion.",
+        "Webinars y conferencias: buscar «tema + webinar» muestra qué preguntas plantean los speakers. Materiales de otros mercados son fuente de ángulos finos en tu locale; traducir «tal cual» sin adaptar ni fuentes es mala práctica.",
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Tema = utilidad para la audiencia + tu ángulo + (para SEO) demanda.",
+        "Artículos ajenos — inspiración, no plantilla de copy-paste.",
+        "Mete lo valioso al plan de contenido al momento, o las ideas se evaporan.",
+      ],
+      links: [
+        {
+          label: "Plan de contenido",
+          href: "/es/blog/kontent-plan/",
+        },
+        {
+          label: "Matriz de contenido",
+          href: "/es/blog/matritsa-kontenta/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "En una semana, anota 15 preguntas de soporte y búsqueda — tres bastan para las próximas publicaciones sin el dolor de la «página en blanco».",
+  ],
+  related: [
+    "idei-kontent-prodvizheniya",
+    "kontent-plan",
+    "matritsa-kontenta",
+    "semanticheskoe-yadro",
+    "kak-napisat-statyu",
+    "korporativnyy-blog",
+  ],
+};

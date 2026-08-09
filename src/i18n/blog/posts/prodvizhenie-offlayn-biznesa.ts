@@ -149,3 +149,153 @@ export const prodvizhenieOfflaynBiznesaEn: BlogPost = {
     "skvoznaya-analitika",
   ],
 };
+
+/** ES overlay for prodvizhenie-offlayn-biznesa — same structure as RU JSON / EN. */
+export const prodvizhenieOfflaynBiznesaEs: BlogPost = {
+  slug: "prodvizhenie-offlayn-biznesa",
+  title: "Promocionar un negocio offline: mapas, reseñas, hiperlocal y medición de visitas",
+  date: "2019-08-29",
+  category: "Digital marketing",
+  cover: "/images/blog/prodvizhenie-offlayn-biznesa/cover.webp",
+  excerpt:
+    "Cómo llevar gente a un local: fichas en mapas, reseñas, ads hiperlocales y SMS, outdoor/indoor y el enlace online→offline — sin apostar por el radar MAC anticuado.",
+  lead: [
+    "Un café, clínica, salón y tienda de barrio no viven solo del escaparate. Mapas, reseñas, ads «cerca» y medición clara de visitas/llamadas deciden si la gente te encuentra en el teléfono y llega a la puerta.",
+    "Abajo: un set de canales que funciona para un punto offline. Las UIs y precios de las plataformas cambian; la privacidad y la aleatorización de IDs debilitaron los viejos esquemas de recogida MAC — no armes la estrategia solo sobre ellos.",
+  ],
+  faq: [
+    {
+      q: "¿Por dónde empezar sin un presupuesto grande?",
+      a: "Fichas en Yandex/Google/2GIS con NAP completo, fotos y horario + respuestas a reseñas. Luego ads geo alrededor del punto.",
+    },
+    {
+      q: "¿Un negocio offline necesita sitio web?",
+      a: "Preferible: servicios, precios, cómo llegar, formulario/teléfono. Los mapas traen gente; el sitio quita dudas — ambos con la misma dirección y teléfono.",
+    },
+    {
+      q: "¿El radar Wi‑Fi/MAC sigue funcionando?",
+      a: "Más débil que a finales de los 2010: los SO aleatorizan el MAC, las reglas de las plataformas son más estrictas. No prometas una «lista completa de peatones» como base de crecimiento.",
+    },
+    {
+      q: "¿Cómo sé que los ads trajeron a alguien?",
+      a: "Códigos promo, call tracking, UTM a una landing, encuestas «cómo nos conociste» y, donde exista, store visit / conversiones offline en cuentas de ads. Cruza varias señales.",
+    },
+    {
+      q: "¿Se pueden usar reseñas falsas?",
+      a: "No. Las plataformas banean, los clientes detectan plantillas. Mejor pedir una reseña real tras una buena visita y manejar la negatividad con calma.",
+    },
+    {
+      q: "¿Los SMS «por distrito» son legales?",
+      a: "Solo vía operadores/vendors y bajo reglas de mailing y consentimiento. Spam sin base arriesga bloqueos y quejas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Mapas y fichas",
+      level: 2,
+      paras: [
+        "Yandex Maps / Business, Google Maps y 2GIS son la primera pantalla de «cerca de mí». Completa nombre, dirección exacta, teléfono, sitio, horario, categoría; añade fotos de fachada e interior.",
+        "Las opciones de pago (escaparate, promos, highlighting) tienen sentido tras una ficha sólida y reseñas. Vigila clics, llamadas desde la ficha y un NAP coherente en el sitio y en los ads.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de la ficha:",
+          items: [
+            "dirección exacta y pin en el mapa",
+            "teléfono actual",
+            "horario sin «sorpresas»",
+            "fotos y una descripción corta del servicio",
+            "respuestas a reseñas",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Reseñas y reputación",
+      level: 2,
+      paras: [
+        "Las reseñas afectan la elección del local no menos que los ads. Mantén perfiles en mapas y plataformas del sector, responde a la negatividad con sustancia, pide a clientes contentos una reseña sin scripts de «cinco estrellas obligatorias».",
+        "Mencionar monitorización (alertas, tools de reputación) ayuda a pillar problemas antes de que se acumulen en resultados de mapas.",
+      ],
+      links: [
+        {
+          label: "Reseñas para ventas",
+          href: "/es/blog/otzyvy-dlya-prodazh/",
+        },
+      ],
+    },
+    {
+      title: "Hiperlocal y SMS cercanos",
+      level: 2,
+      paras: [
+        "Un geopolígono/radio en Yandex Direct, Google Ads y equivalentes lleva la oferta a quien vive, trabaja o visita cerca del punto. En el creativo — «por qué venir aquí» y un motivo claro (promo, hueco, novedad).",
+        "Los SMS hiperlocales vía operadores son un canal estrecho: copy corto, oferta, link/teléfono, hora de envío sin spam nocturno. Comprueba reglas y consentimiento; el detalle de SMS está en otra pieza.",
+      ],
+      links: [
+        {
+          label: "Targeting hiperlocal",
+          href: "/es/blog/giperlokalnyy-targeting/",
+        },
+        {
+          label: "Campañas SMS",
+          href: "/es/blog/sms-rassylka/",
+        },
+      ],
+    },
+    {
+      title: "Outdoor, indoor y medición",
+      level: 2,
+      paras: [
+        "Digital out-of-home y pantallas indoor en malls/sitios concurridos sirven para reach y recordatorio. Tarifas y alcance dependen de ciudad y red — planea un test con call tracking o código promo, no un precio «mágico» de reseñas viejas.",
+        "Enlace online→offline: visita al sitio, luego al punto — se mide con códigos promo, call tracking y, donde exista, store visit / conversiones offline. Varias fuentes de verdad ganan a un solo informe.",
+      ],
+      lists: [
+        {
+          intro: "Qué medir:",
+          items: [
+            "llamadas desde mapas y ads",
+            "códigos promo/cupones por canal",
+            "UTM a una landing «cómo llegar»",
+            "encuesta en caja «cómo nos conociste»",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Métricas de publicidad",
+          href: "/es/blog/metriki-reklamy/",
+        },
+        {
+          label: "Analytics de extremo a extremo",
+          href: "/es/blog/skvoznaya-analitika/",
+        },
+      ],
+    },
+    {
+      title: "MAC y Wi‑Fi: expectativas en los 2020",
+      level: 2,
+      paras: [
+        "Antes se hablaba de recoger MAC vía hotspot o «radar» para retargeting. Hoy la aleatorización de MAC y las reglas de las plataformas estrecharon mucho el canal. Tu propio Wi‑Fi con consentimiento claro está bien como servicio; «recoger cada peatón en un competidor» — no lo metas en el plan.",
+        "Más fuerte y calmado: fichas, reseñas, geo de la cuenta, oferta clara y medición de visitas.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Privacidad",
+          text: "Cualquier recogida y subida de audiencia — solo con base legal y bajo las reglas de la cuenta de ads. No prometas a clientes «control total de MAC» como canal principal de crecimiento.",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Un punto offline se mantiene visible online con mapas, reseñas, ads locales y medición honesta. Empieza por NAP y reputación, suma hiperlocal; no hagas de esquemas anticuados de «radar MAC» la base de la estrategia.",
+  ],
+  related: [
+    "giperlokalnyy-targeting",
+    "sms-rassylka",
+    "otzyvy-dlya-prodazh",
+    "tochki-kontakta",
+    "metriki-reklamy",
+    "skvoznaya-analitika",
+  ],
+};

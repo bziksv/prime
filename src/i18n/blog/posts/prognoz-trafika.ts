@@ -157,3 +157,161 @@ export const prognozTrafikaEn: BlogPost = {
     "snizhenie-trafika",
   ],
 };
+
+/** ES overlay for prognoz-trafika — same structure as RU JSON / EN. */
+export const prognozTrafikaEs: BlogPost = {
+  slug: "prognoz-trafika",
+  title: "Pronóstico de tráfico web: cómo estimar el potencial SEO",
+  date: "2019-10-17",
+  category: "Digital marketing",
+  cover: "/images/blog/prognoz-trafika/cover.webp",
+  excerpt:
+    "Cómo estimar el tráfico orgánico potencial: conjunto de keywords, frecuencia, posiciones realistas y CTR — sin la ilusión de un pronóstico «exacto» y sin confundir la preparación con aparecer en la primera página.",
+  lead: [
+    "Los dueños quieren un número: «¿cuántas visitas traerá el SEO?». No hay respuesta exacta: estacionalidad, competencia y demanda se mueven. Pero puedes estimar un potencial aproximado — suficiente para no planear a ciegas.",
+    "Abajo: la lógica de estimación — conjunto de keywords → frecuencia → posiciones esperadas → CTR por puesto en la SERP → suma. La preparación del sitio para promocionar y la visibilidad en primera página del conjunto son horizontes distintos: las posiciones se planean a 2–6 meses tras empezar el trabajo.",
+  ],
+  faq: [
+    {
+      q: "¿Se puede pronosticar el tráfico con exactitud?",
+      a: "No. Hay un modelo con supuestos. Usa un rango y escenarios (prudente / base), no una cifra «garantizada».",
+    },
+    {
+      q: "¿En qué se diferencia un pronóstico SEO de Google Ads?",
+      a: "En Ads el planificador se apoya en subasta y pujas. En SEO — en demanda, competencia y posiciones alcanzables. Modelos distintos.",
+    },
+    {
+      q: "¿Basta sumar las frecuencias de las keywords?",
+      a: "No. Hay que contar duplicados y consultas fusionadas, la cuota de clic por posición y que no vas a llevar a primera página todo el conjunto de golpe.",
+    },
+    {
+      q: "¿Por qué no sumar «comprar coche» y «coche comprar»?",
+      a: "Los planificadores a menudo muestran el mismo pool de demanda. Sumarlos cuenta dos veces.",
+    },
+    {
+      q: "¿Cuándo pronosticar — antes del lanzamiento o en un sitio vivo?",
+      a: "En ambos. En estrategia — orden de magnitud; en un sitio vivo — contrastar con el hecho y hallar puntos de crecimiento.",
+    },
+    {
+      q: "¿Un pronóstico es lo mismo que el tiempo hasta la primera página?",
+      a: "No. Un pronóstico es potencial de visitas a ciertas posiciones. El tiempo para construir rankings del conjunto es aparte — suele planearse a 2–6 meses.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué estimar si la precisión no es perfecta",
+      level: 2,
+      paras: [
+        "Una estimación aproximada responde preguntas prácticas: qué orden de tráfico es realista, dónde poner contenido y presupuesto, qué clusters priorizar primero. Sin modelo es fácil prometer «un millón» o, al revés, infravalorar un nicho.",
+        "Quedan factores imprevisibles (updates, temporada, nuevos competidores). Así que un pronóstico es una pista para decidir — no una garantía contractual de visitas.",
+      ],
+      links: [
+        {
+          label: "Fuentes de tráfico",
+          href: "/es/blog/istochniki-trafika/",
+        },
+        {
+          label: "Caída de tráfico",
+          href: "/es/blog/snizhenie-trafika/",
+        },
+      ],
+    },
+    {
+      title: "Cuatro pilares del modelo",
+      level: 2,
+      paras: [
+        "Un esquema que funciona se reduce a cuatro bloques: consultas relevantes, volumen de demanda de cada una, posición esperada (o un corredor de posiciones) y CTR para esas posiciones. Luego — la suma de clics esperados del conjunto de keywords.",
+        "En sitios grandes puedes calcular secciones prioritarias y extrapolar — baja la precisión, el orden de magnitud suele mantenerse.",
+      ],
+      lists: [
+        {
+          intro: "Inputs:",
+          items: [
+            "conjunto de keywords / clusters",
+            "frecuencia (sin doble conteo)",
+            "estimación de posición alcanzable",
+            "CTR por puesto en la SERP",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Núcleo semántico",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Frecuencia de consultas",
+          href: "/es/blog/chastotnost-zaprosov/",
+        },
+      ],
+    },
+    {
+      title: "Cálculo paso a paso",
+      level: 2,
+      paras: [
+        "Reúne consultas desde estadísticas de demanda, no «como siente el dueño». Planificadores y herramientas de keywords dan orden de magnitud de frecuencia pero captan mal la temporada y a veces fusionan formulaciones cercanas — no sumes duplicados.",
+        "Estima la competencia: quién está en primera página ahora, qué tan pesadas son las landings. Eso decide si asumir posiciones 1–3, 1–5 o 1–10 en los escenarios. El CTR no cae de forma lineal: el hueco entre el 2.º y el 10.º es multiplicativo, no «un poco menos».",
+        "Por cada cluster: frecuencia × CTR de la posición esperada (o la media de un corredor) = visitas esperadas. Suma el conjunto. Obtienes un techo bajo el escenario de posiciones elegido — no el hecho de analytics de mañana.",
+      ],
+      lists: [
+        {
+          intro: "Orden de pasos:",
+          items: [
+            "conjunto de keywords y clusters",
+            "frecuencia limpia",
+            "escenario de posiciones",
+            "CTR y suma de clics",
+            "contraste con el hecho (si el sitio está vivo)",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "No confundas «potencial en posiciones 1–3 de todo el conjunto» con un plan trimestral. La preparación es ~1 mes. Construir rankings del conjunto se planea a 2–6 meses — la cuota en primera página crece poco a poco.",
+        },
+      ],
+      links: [
+        {
+          label: "Análisis de competidores",
+          href: "/es/blog/analiz-konkurentov/",
+        },
+        {
+          label: "Eficacia del SEO",
+          href: "/es/blog/effektivnost-seo/",
+        },
+      ],
+    },
+    {
+      title: "Cómo leer el resultado",
+      level: 2,
+      paras: [
+        "La salida del modelo son puntos de crecimiento: qué clusters mueven más volumen, dónde las posiciones ya están cerca y hace falta trabajo de CTR/snippet, dónde el conjunto es fino. A veces es mejor reforzar 20 frases cerca de las posiciones 8–10 que dispersarse en cientos de ceros.",
+        "Contrasta el pronóstico con el tráfico y la visibilidad reales. Un hueco grande es señal: posiciones mal puestas en el modelo, canibalización, problemas técnicos o frecuencia inflada. Entonces corriges el modelo y las prioridades — no «más presupuesto al azar».",
+      ],
+      lists: [
+        {
+          intro: "Tras el cálculo, fija:",
+          items: [
+            "escenarios prudente y base",
+            "clusters prioritarios",
+            "qué bloquea que el hecho alcance el modelo",
+            "horizonte de trabajo aparte de la cifra de visitas",
+          ],
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Un pronóstico de tráfico SEO es un modelo de demanda y posiciones, no una promesa de visitas. Cuenta el conjunto de keywords con honestidad, usa CTR y escenarios realistas — y separa el potencial del tiempo hasta la primera página.",
+  ],
+  related: [
+    "semanticheskoe-yadro",
+    "chastotnost-zaprosov",
+    "istochniki-trafika",
+    "analiz-konkurentov",
+    "effektivnost-seo",
+    "snizhenie-trafika",
+  ],
+};

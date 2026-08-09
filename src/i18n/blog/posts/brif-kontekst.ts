@@ -1,5 +1,135 @@
 import type { BlogPost } from "../../../data/blog";
 
+/** ES overlay for brif-kontekst — same structure as RU JSON. */
+export const brifKontekstEs: BlogPost = {
+  slug: "brif-kontekst",
+  title: "Brief de búsqueda de pago: qué incluir",
+  date: "2017-05-19",
+  category: "Paid search",
+  cover: "/images/blog/brif-kontekst/cover.webp",
+  excerpt:
+    "Cómo escribir un brief para Direct y Google Ads: objetivos, USP, dolores, presupuesto, plazos de KPI, audiencia, geo, límites creativos — para que contratista y cliente miren el mismo resultado.",
+  lead: [
+    "Sin brief, las expectativas del cliente se quedan en su cabeza y el contratista optimiza «como siempre». Luego discutís «pocos leads» sin punto de partida compartido.",
+    "Abajo: un plan simple de brief de búsqueda de pago (y SEO al lado si es un solo proyecto). No es un brief de sitio ni sustituye el contrato — es un marco de sentido antes del lanzamiento. Cuanto más concretos los hechos, menos peleas por el informe.",
+  ],
+  faq: [
+    {
+      q: "¿Hace falta un brief de búsqueda de pago?",
+      a: "Para un lanzamiento complejo — sí. Una lista corta de objetivos, presupuesto y KPI ya corta malentendidos.",
+    },
+    {
+      q: "¿En qué se diferencia de un brief de sitio?",
+      a: "El brief de sitio es producto y estructura. El de búsqueda de pago son canales, audiencia, presupuesto y criterios de éxito de los anuncios.",
+    },
+    {
+      q: "¿Hace falta copy de anuncios terminado en el brief?",
+      a: "Opcional. Importan más la oferta, prohibiciones de marca y ejemplos de «qué no hacer». El copy suele testearlo el contratista.",
+    },
+    {
+      q: "¿Qué KPI poner en el brief?",
+      a: "Los que se puedan medir: CPL/CPA, número de leads, ROAS — con definición de lead. No «primera página» como objetivo de búsqueda de pago.",
+    },
+    {
+      q: "¿Vale «presupuesto según se pueda» en un brief?",
+      a: "No. Hace falta un límite de test y una condición de cuándo estás listo para escalar.",
+    },
+    {
+      q: "¿Basta «todos los hombres 25–45» como brief de audiencia?",
+      a: "No. Hace falta el job del cliente, geo, qué habéis probado y por qué os eligen.",
+    },
+    {
+      q: "¿Hay que escuchar al contratista sobre el brief?",
+      a: "Sí si confías: el cliente conoce el producto; el especialista, la subasta y el wording del clic.",
+    },
+  ],
+  sections: [
+    {
+      title: "Para qué un brief",
+      level: 2,
+      paras: [
+        "Un brief fija qué quieres, en qué plataformas y cómo mediréis el éxito. Si no, «crecer ventas» se lee de diez maneras.",
+        "La profundidad varía: de corto (presupuesto, objeto, audiencia) a detallado (creatividades, negativos, geo). Para búsqueda de pago suele funcionar un medio estructurado — sin micromanagement de cada keyword.",
+      ],
+      links: [
+        {
+          label: "Contratista de búsqueda de pago",
+          href: "/es/blog/podryadchik-kontekst/",
+        },
+        {
+          label: "Brief de sitio",
+          href: "/es/blog/tz-na-sayt/",
+        },
+      ],
+    },
+    {
+      title: "Plan de secciones",
+      level: 2,
+      paras: [
+        "Objetivos y formato: Search/redes, Direct/Google Ads, efecto esperado (leads, ventas, awareness, promo) — medible.",
+        "USP y competidores: en qué os diferenciáis con hechos, qué dolor del cliente cerráis. No «somos los mejores», sino ventajas verificables.",
+        "El problema ahora: poco tráfico, tráfico pero pocos leads, marca débil — eso fija el foco del trabajo.",
+        "Presupuesto y reglas de escala; plazos de resultados intermedios y métricas de evaluación.",
+        "Audiencia y geo: quién compra, dónde servís, qué confirmáis con datos — no una conjetura.",
+        "Límites: wording legal, sin comparaciones de marca, disclaimers obligatorios, acceso a Métrica/cuentas.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo en un brief de una página:",
+          items: [
+            "objetivo y KPI",
+            "presupuesto de test",
+            "geo y oferta",
+            "qué habéis probado ya",
+            "cómo es un buen lead",
+            "contactos y acceso",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Media plan",
+          href: "/es/blog/mediaplan/",
+        },
+        {
+          label: "Audiencia objetivo",
+          href: "/es/blog/tselevaya-auditoriya/",
+        },
+      ],
+    },
+    {
+      title: "Alineación y sentido común",
+      level: 2,
+      paras: [
+        "Tras rellenarlo, contrastad con el contratista: qué es realista para el presupuesto y el plazo. Un brief rígido con un CPL imposible solo genera conflicto.",
+        "Los clientes suelen sobrevalorar detalles bonitos del producto y subestimar entrega, precio y velocidad de respuesta — dad al especialista margen para proponer hipótesis de anuncio.",
+        "El brief está vivo: tras el primer mes actualizad KPI y límites con los datos.",
+      ],
+      links: [
+        {
+          label: "Informe al cliente",
+          href: "/es/blog/otchet-klientu/",
+        },
+        {
+          label: "Mitos de la búsqueda de pago",
+          href: "/es/blog/zabluzhdeniya-konteksta/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Rellenad una página: objetivo, presupuesto, geo, USP y definición de lead — basta para empezar el diálogo con el contratista sin un «ponednos anuncios» al vacío.",
+  ],
+  related: [
+    "podryadchik-kontekst",
+    "mediaplan",
+    "otchet-klientu",
+    "tselevaya-auditoriya",
+    "zabluzhdeniya-konteksta",
+    "sayt-pered-reklamoy",
+  ],
+};
+
 /** EN overlay for brif-kontekst — same structure as RU JSON. */
 export const brifKontekstEn: BlogPost = {
   slug: "brif-kontekst",

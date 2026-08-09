@@ -231,3 +231,235 @@ export const telegramBotyEn: BlogPost = {
     "reklamnyy-kabinet",
   ],
 };
+
+/** ES overlay for telegram-boty — same structure as RU JSON / EN. */
+export const telegramBotyEs: BlogPost = {
+  slug: "telegram-boty",
+  title: "Bots de Telegram: por qué importan y cómo funcionan",
+  date: "2021-03-05",
+  category: "SMM",
+  cover: "/images/blog/telegram-boty/cover.webp",
+  excerpt:
+    "Qué pueden hacer los bots de Telegram para negocio y canales: respuestas, leads, broadcasts con consentimiento, encontrar bots y lógica básica de comandos — sin un catálogo de hacks dudosos de crecimiento.",
+  lead: [
+    "Un bot de Telegram es una cuenta impulsada por un programa vía la Bot API: responde a comandos, toma leads, envía notificaciones y ayuda a un canal o sitio.",
+    "Abajo: cómo funciona un bot, por qué lo usa un negocio, cómo diseñar un flow, seguridad y lanzamiento. La configuración del canal es un artículo hermano; no cubrimos bots de crecimiento dudosos.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia un bot de un canal?",
+      a: "Un canal es un feed de posts. Un bot es diálogo y automatización: botones, formularios, integraciones, notificaciones.",
+    },
+    {
+      q: "¿Hace falta un developer?",
+      a: "Para FAQ/leads simples, a menudo bastan builders. CRM complejo, pagos y lógica custom — sí, un developer.",
+    },
+    {
+      q: "¿Cómo encuentro un bot?",
+      a: "Búsqueda de Telegram, directorios, un enlace t.me/…. Revisa reseñas y los permisos que pide el bot.",
+    },
+    {
+      q: "¿Puedo hacer spam desde un bot?",
+      a: "No. Sigue las reglas de Telegram y el consentimiento del usuario. El spam masivo arriesga un ban.",
+    },
+    {
+      q: "¿Puede un bot sustituir un sitio web?",
+      a: "Puede complementar un sitio para soporte y leads. Páginas legales, SEO y un catálogo grande suelen quedarse en el website.",
+    },
+    {
+      q: "¿Cómo mido el valor?",
+      a: "Inicios y cierres de flow, leads, handoff a un manager, calidad de consultas. Suscriptores del canal ≠ resultados del bot.",
+    },
+    {
+      q: "¿Dónde debe vivir el token?",
+      a: "En secrets del servidor/builder — no en un repo público ni en código de cliente. Limita quién puede reemitir el token.",
+    },
+    {
+      q: "¿Hace falta un botón de «operador en vivo»?",
+      a: "Casi siempre sí. Si no, una pregunta dura choca con un callejón sin salida del menú y el usuario se va.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo funciona un bot",
+      level: 2,
+      paras: [
+        "Vía @BotFather creas un bot y obtienes un token. Un servidor o plataforma no-code recibe updates (mensajes, callbacks de botones) y responde con texto, menús, archivos o cards.",
+        "El token es control total del bot: no lo publiques en código abierto ni se lo des a un «contractor por una hora» sin contrato. Describe el flow antes de construir: qué elige el usuario y cuándo entra un humano.",
+      ],
+      lists: [
+        {
+          intro: "Piezas básicas:",
+          items: [
+            "`/start` — saludo y menú",
+            "botones con siguientes pasos claros",
+            "captura de contacto / lead",
+            "avisar a un manager o CRM",
+            "mensajes de error y «atrás»",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Por qué un negocio necesita un bot",
+      level: 2,
+      paras: [
+        "Un bot cubre trabajo repetible: FAQ 24/7, reservas, estado de pedido, lista de precios, cualificación de leads, moderación de chat, alertas del sitio o analytics.",
+        "Automatiza la rutina — no escondas al manager detrás de un árbol infinito de botones. Para preguntas no estándar, deja un camino visible a un humano y di la ventana de respuesta.",
+      ],
+      lists: [
+        {
+          intro: "Flows fuertes:",
+          items: [
+            "cualificar un lead en 3–5 preguntas",
+            "recordatorios de cita",
+            "FAQ en lugar de una cola de mensajes idénticos",
+            "alertas al enviar formularios del sitio",
+            "documentos / instrucciones con un botón",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Canal de Telegram",
+          href: "/es/blog/telegram-kanal/",
+        },
+        {
+          label: "Panorama de Telegram",
+          href: "/es/blog/telegram/",
+        },
+      ],
+    },
+    {
+      title: "Flow antes del desarrollo",
+      level: 2,
+      paras: [
+        "No empieces por «botones bonitos» — empieza por un trabajo de negocio: cualificar un lead, tomar una reserva, responder una pregunta frecuente o devolver un estado. Cuanto más corto el primer flow, más rápido demuestras valor.",
+        "Dibuja el camino desde `/start` hasta el resultado: ramas, campos obligatorios, errores, handoff. Ese documento es el brief para el cliente y para el developer o builder.",
+      ],
+      lists: [
+        {
+          intro: "Fija en el flow:",
+          items: [
+            "objetivo del usuario",
+            "mínimo de preguntas",
+            "momento de handoff a un humano",
+            "consentimiento para el tratamiento de datos",
+            "copy para fallo / timeout",
+          ],
+        },
+      ],
+      tables: [
+        {
+          caption: "Builder vs desarrollo custom",
+          headers: ["Tarea", "Suele bastar"],
+          rows: [
+            ["FAQ + lead al chat", "Builder"],
+            ["Enlace CRM / ERP", "Build custom o integración fuerte"],
+            ["Pagos y estado de pedido complejo", "Build custom"],
+            ["Quiz promo puntual", "Builder"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Encaje con canal y sitio",
+      level: 2,
+      paras: [
+        "El canal calienta y lleva contenido; el bot cierra la acción: lead, reserva, acceso a un material. En el sitio, «Escribir en Telegram» debe abrir el bot con un `/start` claro — no un chat vacío.",
+        "No espejees todo el catálogo del sitio en el bot sin necesidad. Los bots brillan en un camino corto; la elección profunda y el SEO se quedan en landings.",
+      ],
+      lists: [
+        {
+          intro: "Buenos emparejamientos:",
+          items: [
+            "post del canal → bot con una oferta",
+            "formulario del sitio → confirmación en el bot",
+            "bot → manager en CRM con tag de fuente",
+            "el bot no sustituye política y oferta en el sitio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Formulario de contacto",
+          href: "/es/blog/forma-obratnoy-svyazi/",
+        },
+      ],
+    },
+    {
+      title: "Seguridad y elección de servicios",
+      level: 2,
+      paras: [
+        "No compartas el token sin necesidad y lee los permisos de integración. Evita servicios de «boost de suscriptores / views»: rompen las reglas y tiran la calidad de audiencia.",
+        "Si el bot recoge teléfono, nombre o un lead — explica el propósito, limita el acceso del staff, borra lo que no necesitas. No prometas en el chat lo que el flow no puede hacer.",
+      ],
+      lists: [
+        {
+          intro: "Banderas rojas:",
+          items: [
+            "pedir permisos de más",
+            "sin política / contactos del servicio",
+            "promesas de saltar las reglas de Telegram",
+            "token en un repo Git público",
+            "guardar datos personales «para siempre» sin motivo",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Lanzamiento, métricas y mejora",
+      level: 2,
+      paras: [
+        "Antes del lanzamiento, recorre el flow en un teléfono: botones, copy, alertas al manager, cancelar y «atrás». Broadcasts — solo con consentimiento y según las reglas de la plataforma.",
+        "Tras el lanzamiento, mira dónde abandonan los usuarios, qué respuestas no se reconocen y cuántos leads se atienden de verdad. Mejora un paso estrecho a la vez, o no sabrás qué movió las métricas.",
+      ],
+      lists: [
+        {
+          intro: "Métricas útiles:",
+          items: [
+            "inicio de diálogo",
+            "cierre del flow",
+            "handoff a un manager",
+            "leads / reservas de calidad",
+            "tiempo hasta respuesta humana",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Un bot es un canal de servicio y leads — no un sustituto de la estrategia de marketing. Sin oferta y tráfico (sitio, canal, ads), un menú de botones no vende solo.",
+        },
+      ],
+    },
+    {
+      title: "Errores habituales",
+      level: 2,
+      paras: [
+        "Un menú sobrecargado de 20 ítems, sin salida a un humano, recolectar campos de más «por si acaso», un bot en silencio tras un lead, spam a una lista sin consentimiento.",
+        "Otro error — lanzar «todo a la vez»: pagos, quiz, catálogo, soporte. Primero un flow con resultado medible, luego ampliar.",
+      ],
+      lists: [
+        {
+          intro: "Evita:",
+          items: [
+            "un callejón sin salida sin operador",
+            "promesas en el copy que no están en la lógica",
+            "inflar audiencia de forma dudosa",
+            "bots con políticas de datos poco claras",
+          ],
+        },
+      ],
+    },
+  ],
+  related: [
+    "telegram-kanal",
+    "telegram",
+    "forma-obratnoy-svyazi",
+    "menedzher-smm",
+    "kontent-plan",
+    "reklamnyy-kabinet",
+  ],
+};

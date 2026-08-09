@@ -227,8 +227,96 @@ const en: CasesCategoryUi = {
   },
 };
 
+const es: CasesCategoryUi = {
+  kicker: "Línea de servicio · casos actuales",
+  casesInSection: "casos en este apartado",
+  panelTitle: (short) => `Casos · ${short}`,
+  panelLead: "Resultados recientes de proyectos en este apartado — no es un archivo",
+  ctaTitle: (short) => `Hablemos de ${short}`,
+  ctaText:
+    "Más de 10 años en marketing digital — una revisión breve de tu nicho y una previsión de plazos y economía del canal.",
+  ctaSubmit: "Escríbenos",
+  allCases: "Ver todos los casos",
+  pageTitle: (title) => `${title} — casos de éxito de PRIME`,
+  pageDescription: (lead, title) =>
+    `${lead} Casos de éxito de la agencia PRIME en ${title}.`,
+  themes: {
+    seo: {
+      query: "comprar · servicio · ciudad",
+      go: "Buscar",
+      rows: [
+        {
+          title: "Tu sitio — en Google",
+          sub: "prime-client.com · orgánico",
+          rank: "#1",
+        },
+        {
+          title: "Búsqueda comercial",
+          sub: "más visibilidad · +tráfico",
+          rank: "#3",
+        },
+        {
+          title: "Clúster informativo",
+          sub: "snippets · CTR",
+          rank: "#5",
+        },
+        {
+          title: "Paquete local",
+          sub: "Maps · reseñas",
+          rank: "P1",
+        },
+      ],
+      visibility: "Visibilidad",
+      chips: ["pago por primera página", "posiciones", "leads"],
+    },
+    ads: {
+      badge: "Google Ads",
+      live: "en directo",
+      hotLabel: "Anuncio",
+      hotTitle: "Servicio en tu ciudad — reserva hoy",
+      hotText:
+        "Precio fijo · a domicilio · garantía. Deja tu solicitud — te llamamos en 5 minutos.",
+      hotUrl: "client.com",
+      netLabel: "Display",
+      netTitle: "Oferta: −20% en el primer pedido",
+      netText: "Banner en la red de display · retargeting · miramos conversiones, no clics.",
+      netUrl: "client.com/promo",
+      metrics: [
+        { value: "−38%", label: "CPL" },
+        { value: "×2.1", label: "llamadas" },
+        { value: "CRM", label: "integrado" },
+      ],
+      chips: ["búsqueda", "display", "seguimiento de llamadas"],
+    },
+    web: {
+      url: "https://tu-sitio.com",
+      brand: "Marca",
+      launch: "meses de lanzamiento",
+      hours: "horas de desarrollo",
+      formats: "formatos de sitio",
+      chips: ["landing", "tienda", "mobile-first"],
+    },
+    bots: {
+      botName: "Tu bot",
+      online: "en línea",
+      welcome: "Bienvenido — elige una opción",
+      menu: ["Reservar", "Estado", "Soporte"],
+      out: "Reserva para mañana, 18:00",
+      ok: "Listo · aquí llegará un recordatorio",
+      metrics: [
+        { value: "24/7", label: "en el mensajero" },
+        { value: "0", label: "apps aparte" },
+        { value: "CRM", label: "integrado" },
+      ],
+      chips: ["Telegram", "avisos", "reservas"],
+    },
+  },
+};
+
 export function getCasesCategoryUi(locale: Locale): CasesCategoryUi {
-  return locale === "en" ? en : ru;
+  if (locale === "en") return en;
+  if (locale === "es") return es;
+  return ru;
 }
 
 export function isCaseCategoryId(id: string): id is CaseCategoryId {

@@ -144,3 +144,148 @@ export const optimizatsiyaStranitsyEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for optimizatsiya-stranitsy — same structure as RU JSON / EN. */
+export const optimizatsiyaStranitsyEs: BlogPost = {
+  slug: "optimizatsiya-stranitsy",
+  title: "Checklist SEO on-page: optimizar una página para una query de búsqueda",
+  date: "2021-08-02",
+  category: "SEO",
+  cover: "/images/blog/optimizatsiya-stranitsy/cover.webp",
+  excerpt:
+    "Afinar un landing para una query: copy, title y H1, meta description, enlaces internos, profundidad de clic, URL e imágenes — sin stuffing ni el mito de que cada párrafo necesita la keyword.",
+  lead: [
+    "El SEO on-page significa que una URL responde con claridad a un intent principal. La gente recibe la oferta; los buscadores leen el tema desde el title, los headings, el cuerpo y los enlaces.",
+    "Usa el checklist de abajo para contenido y técnica de página. Primero sentido y utilidad, luego teje las keywords. Tener un landing listo no es lo mismo que rankear: las posiciones suelen construirse en meses tras arrancar el trabajo.",
+  ],
+  faq: [
+    {
+      q: "¿Empiezo por keywords o por el copy?",
+      a: "Empieza por el intent y cómo lo responderás. Una keyword objetivo fija el tema; escribe para humanos y mete frases con naturalidad. Ver la guía de investigación de keywords.",
+    },
+    {
+      q: "¿El title tag y el H1 deben ser idénticos?",
+      a: "No. El title tag da forma al snippet de búsqueda; el H1 es el titular en la página. Misma idea, preferiblemente redacción distinta.",
+    },
+    {
+      q: "¿Debe aparecer la keyword en el primer y el último párrafo?",
+      a: "No hay regla dura. El tema debe ser obvio desde la primera pantalla. Meter la frase al inicio y al final «por el checklist» es cómo sale copy spammy.",
+    },
+    {
+      q: "¿Cuánto deben medir el title y la meta description?",
+      a: "Los límites de la SERP se mueven. Pon el sentido principal pronto en el title. Escribe la description como una línea útil con CTA — no un vertedero de keywords. Revisa el preview en Search Console o tus herramientas de webmaster.",
+    },
+    {
+      q: "¿En qué se diferencia del keyword stuffing?",
+      a: "Este artículo es el marco de página para una query. El stuffing es repetir frases hasta que el texto se rompe. Hay una pieza aparte sobre eso.",
+    },
+  ],
+  sections: [
+    {
+      title: "Escribe la página para un solo intent",
+      level: 2,
+      paras: [
+        "Una URL, un cluster: comercial («comprar / pedir») o informativo («cómo / qué»). Mezclar intents en la misma página es más flojo para lectores y para la búsqueda.",
+        "Haz el copy único y legible — listas y subtítulos ayudan. Usa frases clave donde encajen en la frase, no como objetivos de densidad en cada línea.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de copy:",
+          items: [
+            "responde la query en las primeras pantallas",
+            "incluye hechos, precios, plazos o términos cuando sea comercial",
+            "añade un CTA claro sin relleno",
+            "revisa el stuffing en voz alta y con una herramienta de densidad",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Investigación de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Keyword stuffing en el copy",
+          href: "/es/blog/zaspamlennost-teksta/",
+        },
+      ],
+    },
+    {
+      title: "Title tag, H1 y subtítulos",
+      level: 2,
+      paras: [
+        "El title tag es la señal on-page de tema más fuerte. Pon el sentido núcleo (y la frase principal) cerca del inicio — no una sopa de comas de «barato mayorista urgente».",
+        "Usa un solo H1, distinto del title tag, escrito para un humano. H2–H3 abren subtemas y redacción secundaria; no deben repetir la misma keyword exact-match.",
+      ],
+      lists: [
+        {
+          intro: "Pautas:",
+          items: [
+            "title: beneficio o tema claro, marca si hace falta",
+            "H1: uno, sin spam",
+            "H2s: lógica real de sección — no «keyword1 / keyword2 / keyword3»",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Snippet y meta description",
+      level: 2,
+      paras: [
+        "Los resultados de búsqueda suelen tirar del title, la meta description y a veces del cuerpo. La description no «rankea sola», pero mueve el CTR: promesa, diferencia, siguiente paso.",
+        "Escribe una o dos frases útiles. Una keyword está bien si la línea sigue sonando humana. Atiborrar la description mata el clic.",
+      ],
+    },
+    {
+      title: "Enlaces internos y profundidad de clic",
+      level: 2,
+      paras: [
+        "Los enlaces desde páginas relacionadas ayudan a la gente y al crawl. Usa anclas que describan el destino — no el mismo «clic aquí» en docenas de URLs.",
+        "Mantén las páginas comerciales importantes cerca de la homepage (más o menos a dos o tres clics). «Nadie va más allá de tres» es una simplificación, pero enterrar un servicio tras cinco menús sigue doliendo.",
+      ],
+      links: [
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+        {
+          label: "Qué es un enlace",
+          href: "/es/blog/chto-takoe-ssylka/",
+        },
+      ],
+    },
+    {
+      title: "URLs e imágenes",
+      level: 2,
+      paras: [
+        "Usa un path corto y legible que cuadre con la página, con guiones y sin basura de parámetros. Una keyword en la URL es una pequeña victoria de claridad — no un sustituto de buen contenido.",
+        "Comprime imágenes, da a los archivos nombres con sentido y escribe `alt` que describa la escena — no una hoja de keywords. Image Search es un bonus, no la apuesta principal de una página comercial.",
+      ],
+      lists: [
+        {
+          intro: "Checklist rápido antes de publicar:",
+          items: [
+            "un intent principal por URL",
+            "title, H1 y lead alineados",
+            "enlaces internos hacia y desde la página",
+            "URL legible y HTTPS",
+            "alt text en imágenes clave",
+            "sin stuffing ni copy-paste",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          text: "El trabajo on-page forma parte de la prep. Rankear por una query competitiva se planifica a 2–6 meses tras arrancar la promoción — no el resultado de un solo ajuste de title.",
+        },
+      ],
+      links: [
+        {
+          label: "URLs del sitio",
+          href: "/es/blog/url-adres/",
+        },
+      ],
+    },
+  ],
+};

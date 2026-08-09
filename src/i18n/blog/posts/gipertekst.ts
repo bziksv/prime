@@ -153,3 +153,157 @@ export const gipertekstEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for gipertekst — same structure as RU JSON / EN. */
+export const gipertekstEs: BlogPost = {
+  slug: "gipertekst",
+  title: "Hipertexto: qué es, estructura y por qué lo necesita tu sitio",
+  date: "2022-01-25",
+  category: "SEO",
+  cover: "/images/blog/gipertekst/cover.webp",
+  excerpt:
+    "Qué es el hipertexto: enlaces, markup HTML, estructura del documento. Por qué los cross-links ayudan a un sitio, una enciclopedia y una tienda online.",
+  lead: [
+    "El hipertexto es texto con enlaces: puedes saltar a otro fragmento, página o media. Toda la web se apoya en esto — de artículos a catálogos.",
+    "Abajo: cómo funciona la idea, en qué se diferencia HTML de «texto plano» y qué da un enlazado interno sólido a un sitio.",
+  ],
+  faq: [
+    {
+      q: "¿El hipertexto son solo enlaces?",
+      a: "Los enlaces son el núcleo. Más la estructura del documento (headings, listas, media) que define el markup — más fácil de leer e indexar.",
+    },
+    {
+      q: "¿Cómo se relaciona HTML con el hipertexto?",
+      a: "HTML es el lenguaje de markup de documentos hipertexto en la web: las etiquetas dicen al navegador dónde está un párrafo, un heading, una imagen y un enlace.",
+    },
+    {
+      q: "¿Por qué importa el hipertexto para el SEO?",
+      a: "Los enlaces internos ayudan al crawling y pasan peso/sentido entre páginas. Los enlaces externos guían al usuario y a veces construyen confianza cuando son relevantes.",
+    },
+    {
+      q: "¿En qué se diferencia de un PDF normal?",
+      a: "Los PDF también pueden tener enlaces, pero el hipertexto web está pensado para una red de documentos, updates y navegación entre URLs.",
+    },
+    {
+      q: "¿Un dueño de sitio necesita saber HTML?",
+      a: "A nivel básico — sí: entender headings, enlaces y anclas. El layout profundo se puede delegar, pero el sentido de la estructura deberías dominarlo tú.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es el hipertexto",
+      level: 2,
+      paras: [
+        "Un ejemplo clásico es una enciclopedia: un término lleva a otro artículo. En la web es lo mismo: menús, fichas de producto, «materiales relacionados», notas a pie hacia fuentes.",
+        "Ted Nelson acuñó el término: texto con ramificaciones, no una sola franja lineal leída de principio a fin.",
+      ],
+      lists: [
+        {
+          intro: "Dónde te lo encuentras:",
+          items: [
+            "sitios y apps web",
+            "wikis y centros de ayuda",
+            "catálogos electrónicos y tiendas",
+            "documentación de producto",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Estructura: contenido y markup",
+      level: 2,
+      paras: [
+        "Un documento hipertexto tiene dos caras. Contenido — sentidos, copy, imágenes. Markup — etiquetas y atributos que explican al navegador el rol de los bloques.",
+        "Las etiquetas suelen ir en pares: apertura y cierre. Ejemplo de párrafo: `<p>…</p>`. Algunas son simples (p. ej. una imagen). Un enlace es un elemento aparte con dirección de destino.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo que conviene saber en un sitio:",
+          items: [
+            "headings H1–H3 — jerarquía del tema",
+            "párrafos y listas — legibilidad",
+            "enlaces `<a href=\"…\">` — navegación",
+            "anclas — salto a un bloque en la misma página",
+            "alt de imagen — sentido para personas y bots",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "El texto ancla del enlace debe prometer el contenido de la página («envío y pago»), no «aquí» o «más» sin contexto.",
+        },
+      ],
+    },
+    {
+      title: "Cómo apareció y por qué ayuda",
+      level: 2,
+      paras: [
+        "La idea del enlace es anterior a internet de masas: libros y enciclopedias apuntaban a otras obras. La red hizo el salto instantáneo.",
+        "Para el usuario el beneficio es simple: menos búsqueda manual, navegación clara, profundizar solo donde hace falta.",
+      ],
+      lists: [
+        {
+          intro: "Ventajas:",
+          items: [
+            "lógica — un tema complejo partido en nodos enlazados",
+            "intuición — saltos predecibles",
+            "interactividad — texto + media + acciones",
+            "tiempo ahorrado — sin recolectar todo a mano vía búsqueda",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Hipertexto en un sitio comercial",
+      level: 2,
+      paras: [
+        "En una tienda y en un sitio corporativo, los enlaces son rutas al ingreso: de artículo a servicio, de categoría a filtro, de ficha de producto a envío y pago.",
+        "Un enlazado interno flojo deja al usuario en un callejón sin salida. Uno fuerte acorta el camino al lead y ayuda a los buscadores a entender la estructura.",
+      ],
+      lists: [
+        {
+          intro: "Reglas básicas:",
+          items: [
+            "el menú refleja secciones reales",
+            "en el copy — enlaces a servicios/productos afines",
+            "breadcrumbs y bloques relacionados",
+            "no spamees docenas de anclas idénticas a una URL",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Errores habituales",
+      level: 2,
+      paras: [
+        "Enlaces sin sentido, URLs rotas, clics solo desde una imagen sin texto, un muro de copy sin headings — todo eso rompe el hipertexto como sistema.",
+      ],
+      lists: [
+        {
+          intro: "Comprueba:",
+          items: [
+            "todas las páginas importantes alcanzables en 2–3 clics",
+            "sin 404 masivos en enlaces viejos",
+            "enlaces fáciles de tocar en móvil",
+            "PDFs y archivos externos etiquetados si enlazas a ellos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Siguiente sobre el tema",
+          kind: "tip",
+          text: "Piezas aparte del blog cubren enlaces clicables y HTML en contexto SEO con más profundidad — aquí fijamos el marco del concepto.",
+        },
+      ],
+    },
+  ],
+};

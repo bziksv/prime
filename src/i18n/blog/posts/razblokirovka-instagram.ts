@@ -146,3 +146,158 @@ export const razblokirovkaInstagramEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for razblokirovka-instagram — same structure as RU JSON / EN. */
+export const razblokirovkaInstagramEs: BlogPost = {
+  slug: "razblokirovka-instagram",
+  title: "Cómo desbloquear a una persona en Instagram",
+  date: "2021-06-08",
+  category: "SMM",
+  cover: "/images/blog/razblokirovka-instagram/cover.webp",
+  excerpt:
+    "En qué se diferencia bloquear a un usuario de un ban de cuenta, cómo quitar a alguien de la lista de bloqueados en la app y qué hacer si el perfil no aparece — sin «clientes» de Instagram de terceros.",
+  lead: [
+    "Bloquear en Instagram limita el contacto entre dos perfiles: follows, mensajes y algunas interacciones públicas dejan de funcionar. Si la decisión fue en caliente, puedes deshacerla en ajustes o en la página de esa persona.",
+    "Abajo: un orden seguro de acciones, qué pasa tras desbloquear y casos en los que el perfil no se encuentra. Este texto no trata de recuperar el acceso a una cuenta limitada por la plataforma. La nota sobre Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Sabrá la persona que la desbloqueé?",
+      a: "Suele no haber un push aparte. Puede encontrar el perfil y seguir de nuevo si los ajustes lo permiten.",
+    },
+    {
+      q: "¿En qué se diferencia de un ban de cuenta por la plataforma?",
+      a: "Aquí tú mismo pusiste a la persona en la lista de bloqueados. Un ban de Instagram es otra cosa: la plataforma corta el acceso a tu propio perfil.",
+    },
+    {
+      q: "¿Por qué no aparece el botón Desbloquear?",
+      a: "A menudo el perfil está borrado/no disponible, o miras la cuenta equivocada. Espera a que el perfil vuelva o busca vía la lista de bloqueados.",
+    },
+    {
+      q: "¿Hacen falta apps de terceros como Grids?",
+      a: "No. Basta la app oficial o la versión web. Los clientes de terceros suman riesgo de contraseña.",
+    },
+    {
+      q: "¿Bloquear y Restringir son lo mismo?",
+      a: "No. Restringir es más suave (solo tú ves sus comentarios). Bloquear es más duro: un corte mutuo de visibilidad.",
+    },
+    {
+      q: "¿El follow vuelve tras desbloquear?",
+      a: "No — el follow antiguo no se restaura solo. Cada lado vuelve a seguir si hace falta.",
+    },
+    {
+      q: "¿Puedo volver a bloquear a la persona enseguida?",
+      a: "Suele sí, pero el servicio puede limitar temporalmente repeticiones rápidas. No uses el bloqueo como forma de presión.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué cambia tras un bloqueo",
+      level: 2,
+      paras: [
+        "Tras un bloqueo, la interacción entre cuentas queda muy limitada: la persona no puede encontrar con normalidad tu perfil, ver posts, escribir en Direct ni etiquetarte. Algunos rastros del chat anterior pueden quedar en el historial — eso no significa que el contacto esté restablecido.",
+        "Es un ajuste de usuario, no una sanción de la plataforma. No lo confundas con un límite sobre tu propia cuenta: ese caso va por avisos oficiales y comprobaciones de seguridad, no por la lista de bloqueados.",
+        "El bloqueo encaja cuando necesitas cortar un contacto no deseado. Si el problema son solo comentarios insistentes, prueba primero ajustes de privacidad más suaves y Restringir.",
+      ],
+      links: [
+        {
+          label: "Bans de cuenta en Instagram",
+          href: "/es/blog/blokirovka-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Cómo encontrar la lista de bloqueados",
+      level: 2,
+      paras: [
+        "El arranque más seguro es tu perfil: abre ajustes, ve a privacidad y busca la lista de cuentas bloqueadas. Los nombres y el lugar del ítem cambian según la versión de la app — sigue el sentido, no capturas antiguas de tutoriales.",
+        "La lista muestra perfiles que bloqueaste tú. Abre la ficha correcta, confirma handle y avatar, luego elige Desbloquear y confirma. Antes de confirmar, vuelve a mirar que sea la persona adecuada.",
+      ],
+      lists: [
+        {
+          intro: "Antes de desbloquear, comprueba:",
+          items: [
+            "el handle actual — puede haber cambiado",
+            "avatar y bio si los nombres se parecen",
+            "si de verdad necesitas otra vez acceso al chat y al contenido",
+            "si Restringir encaja mejor",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Desbloquear desde la página de perfil",
+      level: 2,
+      paras: [
+        "Si el perfil aparece vía búsqueda o un chat antiguo, el desbloqueo también está en su página. Abre el menú de acciones junto al perfil, elige el comando que corresponda y confirma. Práctico cuando la lista es larga.",
+        "No confundas el perfil de la persona con clones y fan accounts. Si dudas, vuelve a la lista de bloqueados — verás la entrada guardada en lugar de fiarte de la búsqueda.",
+      ],
+      links: [
+        {
+          label: "Cómo cambiar la contraseña de Instagram",
+          href: "/es/blog/parol-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Si la cuenta no se encuentra",
+      level: 2,
+      paras: [
+        "Que un perfil no aparezca en la búsqueda no siempre tiene que ver con tu bloqueo. Puede haber cambiado el handle, desactivado temporalmente, borrado la página o limitado el acceso de otra forma. No compruebes vía sitios que prometen «mostrar un perfil oculto» y te piden iniciar sesión.",
+        "Primero abre la lista de bloqueados y busca ahí el handle antiguo. Si no hay entrada, revisa chat viejo y menciones guardadas. Cuando los datos no cuadran, es más seguro no tocar nada hasta confirmar la identidad.",
+      ],
+      lists: [
+        {
+          intro: "No introduzcas tu contraseña en servicios que prometen:",
+          items: [
+            "encontrar cualquier perfil privado o borrado",
+            "levantar el bloqueo de otro en un clic",
+            "restaurar el chat sin acceso a la cuenta",
+            "acelerar el desbloqueo a cambio de pago",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué pasa tras desbloquear",
+      level: 2,
+      paras: [
+        "Desbloquear no restaura sola la relación antigua. Follows, notificaciones y ajustes de privacidad siguen aplicando por separado: si el perfil es privado, tendrán que pedir follow; tú no estás obligado a seguir de vuelta.",
+        "Decide si quieres retomar el contacto. En cuentas de trabajo, fija reglas de comunicación: quién responde en Direct, qué mensajes se ocultan, cuándo la charla pasa a email o a un formulario del sitio.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Práctica",
+          text: "Tras desbloquear, no te apresures a escribir primero. Deja enfriar y revisa la privacidad — más calmado que volver a bloquear a los pocos minutos.",
+        },
+      ],
+    },
+    {
+      title: "Seguridad de la cuenta y límites",
+      level: 2,
+      paras: [
+        "Bloquear no sustituye la protección de la cuenta. Usa una contraseña única, autenticación en dos factores y revisa las sesiones de login activas — sobre todo si alguna vez introdujiste credenciales en un sitio de terceros o compartiste acceso con un ayudante.",
+        "Para un blog público, define pronto reglas de moderación: qué comentarios se borran, qué preguntas pasan a DMs y cuándo hace falta un bloqueo completo. Una política coherente baja el conflicto y hace predecible el trabajo con la audiencia.",
+      ],
+      links: [
+        {
+          label: "Cómo diseñar un perfil de Instagram",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "blokirovka-instagram",
+    "tenevoy-ban-instagram",
+    "parol-instagram",
+    "oformlenie-stranicy-instagram",
+    "biznes-akkaunt-instagram",
+    "otmetki-instagram",
+  ],
+};

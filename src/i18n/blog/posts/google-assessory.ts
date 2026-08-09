@@ -119,3 +119,123 @@ export const googleAssessoryEn: BlogPost = {
     "feyk-stranitsa",
   ],
 };
+
+/** ES overlay for google-assessory — same structure as RU JSON / EN. */
+export const googleAssessoryEs: BlogPost = {
+  slug: "google-assessory",
+  title: "Cómo puntúan los quality raters de Google: calidad, E-E-A-T e YMYL",
+  date: "2018-08-27",
+  category: "SEO",
+  cover: "/images/blog/google-assessory/cover.webp",
+  excerpt:
+    "Quality Rater Guidelines: por qué existen los quality raters, por qué su score no es un ranking, propósito de la página, E-E-A-T, YMYL, reputación del autor y qué rompe la trust — sin el mito de que un rater te impulsó personalmente en los resultados.",
+  lead: [
+    "Los quality raters puntúan páginas a mano según las Search Quality Rater Guidelines de Google. Sus ratings ayudan a mejorar algoritmos — no colocan tu URL en los resultados de búsqueda a mano.",
+    "Abajo: lógica de scoring — propósito de la página, experience/expertise/authoritativeness/trust (E-E-A-T), temas YMYL, reputación del autor y motivos típicos de un score bajo. La guía se actualiza — mira la versión vigente; las antiguas trivialidades de conteo de páginas no importan.",
+  ],
+  faq: [
+    {
+      q: "¿Un rater rankea mi sitio?",
+      a: "No. El score entrena sistemas de forma indirecta. No hay un «el rater dio un 5 → impulso de ranking» directo.",
+    },
+    {
+      q: "¿Qué es E-E-A-T?",
+      a: "Experience, Expertise, Authoritativeness, Trustworthiness — señales de calidad del contenido y la fuente. No un «botón de Search Console», sino un marco para materiales útiles y honestos.",
+    },
+    {
+      q: "¿Qué es YMYL?",
+      a: "Your Money or Your Life: temas donde un error pega a salud, dinero o seguridad. Ahí los requisitos de expertise son más altos.",
+    },
+    {
+      q: "¿Hace falta una página de autor?",
+      a: "Para piezas expertas y de noticias es útil: quién lo escribió, qué cualificación, cómo contactar a la redacción. Un «Admin» vacío apenas ayuda.",
+    },
+    {
+      q: "¿El clickbait daña el score?",
+      a: "Sí si el título promete una cosa y el contenido entrega otra. El desajuste de expectativas es un minus de calidad.",
+    },
+    {
+      q: "¿La publicidad siempre es mala?",
+      a: "No. Es mala cuando bloquea el contenido principal o se hace pasar por editorial.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué existen los quality raters y qué miran",
+      level: 2,
+      paras: [
+        "Un rater tiene instrucciones y un trabajo: entender por qué existe la página, si es útil, si encaja con la consulta (al puntuar relevancia) y si se puede confiar en la fuente.",
+        "El vínculo con el ranking es indirecto: los ratings acumulados ayudan a entrenar y chequear algoritmos. Conocer los criterios sirve como checklist de calidad — no como «palanca secreta de ranking».",
+        "El ancla principal es propósito y utilidad. Una página sin valor, con engaño o con daño recibe el score más bajo sin importar el conteo de palabras.",
+      ],
+      lists: [
+        {
+          intro: "Ejes base de scoring:",
+          items: [
+            "propósito y utilidad",
+            "E-E-A-T del contenido principal",
+            "cantidad y calidad de contenido para el trabajo",
+            "información sobre el sitio y los autores",
+            "reputación del sitio y de los creadores",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "User intent en SEO",
+          href: "/es/blog/user-intent/",
+        },
+        {
+          label: "Relevancia del sitio",
+          href: "/es/blog/relevantnost-sayta/",
+        },
+      ],
+    },
+    {
+      title: "E-E-A-T, YMYL y reputación",
+      level: 2,
+      paras: [
+        "En medicina, finanzas, derecho, seguridad y temas afines importan la cualificación del autor, la actualización de hechos y una política editorial clara. Solo los comentarios de usuarios no hacen experta una pieza.",
+        "La reputación del autor moldea cómo se percibe el sitio: un creador de contenido débil o tóxico baja la trust incluso en un dominio fuerte. Muestra perfiles reales y responsabilidad editorial.",
+        "Vídeo y sharing: la watchability y una opción fácil de compartir suman a la utilidad de la página — no sustituyen el sentido del clip.",
+      ],
+      notes: [
+        {
+          title: "No confundir con gaming",
+          kind: "tip",
+          text: "Comprar «scores de rater» o falsificar reseñas es camino a perder trust. Trabaja en calidad real y transparencia.",
+        },
+      ],
+    },
+    {
+      title: "Qué hunde el score",
+      level: 2,
+      paras: [
+        "Engañar al usuario: marcas/caras ajenas, contactos falsos, ads vestidos de artículos, manipulaciones. Conspiración y contenido dañino viven en la zona de peor score.",
+        "Ads que distraen y tapan el sentido de la página. Un tema poco desarrollado con baja expertise del autor — aunque «las intenciones fueran buenas».",
+        "Cuenta el intent: una ficha comercial no siempre responde a una consulta informativa. Mira qué domina la SERP para esa consulta.",
+      ],
+      links: [
+        {
+          label: "Página falsa",
+          href: "/es/blog/feyk-stranitsa/",
+        },
+        {
+          label: "Tráfico sin leads",
+          href: "/es/blog/trafik-bez-lidov/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Los quality raters de Google puntúan utilidad, trust y encaje con el propósito de la página — no «venden» rankings. Apóyate en E-E-A-T y contenido honesto, sobre todo en YMYL, y recuerda: el algoritmo aprende de los ratings, pero no rankea a mano.",
+  ],
+  related: [
+    "eat-kopirayting",
+    "user-intent",
+    "relevantnost-sayta",
+    "tehnicheskiy-seo-audit",
+    "seo-oshibki",
+    "feyk-stranitsa",
+  ],
+};

@@ -1,0 +1,43 @@
+---
+/**
+ * QA language switcher — localhost / `astro dev` only (`import.meta.env.DEV`).
+ * Never ships on production builds.
+ */
+import type { Locale } from "../i18n/locales";
+
+interface Props {
+  locale: Locale;
+  ariaLabel: string;
+  hrefs: { ru: string; en: string; es: string };
+}
+
+const { locale, ariaLabel, hrefs } = Astro.props;
+---
+
+{
+  import.meta.env.DEV && (
+    <div class="home-lang" aria-label={ariaLabel} data-lang-switch>
+      <a
+        class:list={["home-lang__btn", locale === "ru" && "is-active"]}
+        href={hrefs.ru}
+        hreflang="ru"
+        lang="ru"
+        data-locale-set="ru">RU</a
+      >
+      <a
+        class:list={["home-lang__btn", locale === "en" && "is-active"]}
+        href={hrefs.en}
+        hreflang="en"
+        lang="en"
+        data-locale-set="en">EN</a
+      >
+      <a
+        class:list={["home-lang__btn", locale === "es" && "is-active"]}
+        href={hrefs.es}
+        hreflang="es"
+        lang="es"
+        data-locale-set="es">ES</a
+      >
+    </div>
+  )
+}

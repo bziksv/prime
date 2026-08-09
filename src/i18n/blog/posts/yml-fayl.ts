@@ -128,3 +128,132 @@ export const ymlFaylEn: BlogPost = {
     "YML is the working language of a Market product price list: auto-updates, attributes, and less manual grind than spreadsheets. Build the feed from inventory, refresh often, and fix errors in the data source.",
   ],
 };
+
+/** ES overlay for yml-fayl — same structure as RU JSON / EN. */
+export const ymlFaylEs: BlogPost = {
+  slug: "yml-fayl",
+  title: "Archivo YML para Yandex Market: para qué sirve y cómo prepararlo",
+  date: "2020-10-20",
+  category: "Digital marketing",
+  cover: "/images/blog/yml-fayl/cover.webp",
+  excerpt:
+    "Qué es un feed YML de tienda online, por qué gana a CSV/XLS en un catálogo grande, qué campos importan y cómo cargar un price list en Market — sin capturas obsoletas del cabinet.",
+  lead: [
+    "YML (Yandex Market Language) es un feed XML de productos para Yandex Market y escenarios relacionados. La plataforma lo usa para nombres, precios, disponibilidad, enlaces y atributos para mostrar el escaparate y tomar pedidos bajo sus reglas.",
+    "Abajo: por qué YML gana a tablas editadas a mano, qué contiene el feed y cómo armarlo y refrescarlo. Los ítems del menú del cabinet de Market cambian — revisa la Help actual de Yandex.",
+  ],
+  faq: [
+    {
+      q: "¿YML, CSV o XLS?",
+      a: "Para un catálogo pequeño manual puede bastar una hoja. Con cientos de SKUs YML es más fácil: auto-refresh desde CMS o contabilidad y campos de atributos más ricos.",
+    },
+    {
+      q: "¿Un feed sirve para todo marketplace?",
+      a: "La base puede compartirse, pero campos y categorías difieren por plataforma. Los equipos a menudo mantienen una fuente y exports o mapping aparte. Ver alternativas a Market.",
+    },
+    {
+      q: "¿Con qué frecuencia actualizar el price list?",
+      a: "Cuanto más cambian precio e inventario — más a menudo. Disponibilidad stale daña rating y devoluciones. Apunta a updates automáticos, no una vez al mes a mano.",
+    },
+    {
+      q: "¿Hay que escribir XML a mano?",
+      a: "Rara vez. Suele ser un módulo CMS, plugin o export ERP. Ediciones a mano son para tests y fixes puntuales — no para miles de fichas.",
+    },
+    {
+      q: "¿Qué rompe la moderación con más frecuencia?",
+      a: "Campos obligatorios vacíos, enlaces o fotos rotos, categorías incorrectas, precio o disponibilidad del pasado, redacción prohibida en el title.",
+    },
+    {
+      q: "¿YML es lo mismo que un feed Turbo?",
+      a: "No. YML es un price list de productos para Market o ads. Turbo fue otra historia de páginas aceleradas — y ese formato de producto está obsoleto.",
+    },
+    {
+      q: "¿Dónde veo los errores?",
+      a: "En el cabinet de partner o Market tras subir el feed y en emails de moderación. Arregla la fuente de datos, no solo el archivo en disco.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué una tienda necesita un feed de Market",
+      level: 2,
+      paras: [
+        "Market muestra productos en catálogos de comparación y superficies relacionadas. Sin un price list correcto, las fichas no aparecen o muestran precio y disponibilidad equivocados.",
+        "El feed es el puente entre tu sistema de inventario y el escaparate de la plataforma: actualizas precio en sitio o almacén → se actualiza el archivo → se actualiza el listing.",
+      ],
+      lists: [
+        {
+          intro: "Formatos de price list:",
+          items: [
+            "CSV — texto delimitado simple",
+            "XLS u hoja — fácil de editar a mano en un set pequeño",
+            "YML — XML para Market, mejor para auto-export y atributos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo se estructura el YML",
+      level: 2,
+      paras: [
+        "El archivo suele describir la tienda, monedas, categorías y offers (`offer`): id, url, price, currencyId, categoryId, picture, name/description, availability y parameters.",
+        "Los campos obligatorios exactos y los schemas (tipo simplificado o custom) están en la docs actual de Yandex — los requisitos siguen ampliándose.",
+      ],
+      lists: [
+        {
+          intro: "Mantén cada offer en orden:",
+          items: [
+            "id de producto estable",
+            "url de ficha que funcione en tu sitio",
+            "precio y disponibilidad actuales",
+            "nombre claro (tipo más modelo, sin basura)",
+            "fotos según reglas de la plataforma",
+            "categoría y campos param clave",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo crear y subir el archivo",
+      level: 2,
+      paras: [
+        "Camino preferido: módulo de tienda o export programado desde contabilidad, archivo disponible en una URL HTTPS. Market entonces recoge las actualizaciones solo.",
+        "Alternativa — subir el archivo a mano en el cabinet. Vale para tests, malo como único proceso en un catálogo vivo.",
+      ],
+      lists: [
+        {
+          intro: "Orden sin nombres viejos de botones:",
+          items: [
+            "arma surtido y categorías en la fuente de verdad",
+            "genera YML y valida el XML",
+            "abre la URL del feed desde el servidor",
+            "conecta el price list en el cabinet de Market",
+            "lee errores de moderación y arregla la fuente",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Promoción de tienda online",
+          href: "/es/blog/prodvizhenie-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "Errores y cuidado continuo",
+      level: 2,
+      paras: [
+        "Tras subir, mira reportes: URLs inalcanzables, imágenes vacías, ids duplicados, moneda incorrecta. Los emails de moderación son señal de trabajo, no spam.",
+        "Mantén una sola fuente para precios e inventario. El desajuste sitio/feed daña más la confianza que faltar a otro marketplace.",
+      ],
+      links: [
+        {
+          label: "Alternativas a Yandex Market",
+          href: "/es/blog/analogi-yandeks-market/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "YML es el lenguaje de trabajo de un price list de productos en Market: auto-updates, atributos y menos trabajo manual que las hojas. Arma el feed desde el inventario, refresca a menudo y arregla errores en la fuente de datos.",
+  ],
+};

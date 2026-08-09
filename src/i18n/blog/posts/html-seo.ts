@@ -148,3 +148,152 @@ export const htmlSeoEn: BlogPost = {
     "snippet",
   ],
 };
+
+/** ES overlay for html-seo — same structure as RU JSON / EN. */
+export const htmlSeoEs: BlogPost = {
+  slug: "html-seo",
+  title: "HTML y SEO: por qué el marcado hipertextual sigue importando",
+  date: "2020-09-28",
+  category: "SEO",
+  cover: "/images/blog/html-seo/cover.webp",
+  excerpt:
+    "Cómo el HTML ayuda al SEO: estructura del documento, title y meta, headings, enlaces y validez del código — sin el mito de que «HTML roto = ban», más enlaces a guías relacionadas.",
+  lead: [
+    "HTML es el lenguaje de marcado de la página: los tags dicen a navegadores y bots dónde están el heading, el texto, el enlace y la imagen. CSS se ocupa de la presentación. Para SEO importa una estructura clara — no un «tag secreto de ranking».",
+    "Abajo: por qué un especialista SEO necesita HTML básico, qué nodos revisar en `<head>` y `<body>`, y cómo ayuda de verdad la validez. No copiamos la línea dura «un error de código = desindexado»: los bots son tolerantes, pero el marcado desordenado perjudica a personas y al parsing.",
+  ],
+  faq: [
+    {
+      q: "¿Debe un SEO aprender HTML desde cero?",
+      a: "Lo básico — sí: head/body, title, meta, h1–h3, a, img, listas. Frontend profundo no hace falta si tienes un developer.",
+    },
+    {
+      q: "¿El CSS afecta a los rankings?",
+      a: "Indirectamente: legibilidad, CLS, UX móvil. Gradientes bonitos solos no son un factor de ranking. No escondas texto clave solo en una imagen sin alternativa.",
+    },
+    {
+      q: "¿HTML inválido significa un filtro?",
+      a: "No es una sentencia automática. Pero un layout roto rompe snippets, accesibilidad y a veces el texto indexable. Arregla lo crítico.",
+    },
+    {
+      q: "¿En qué se diferencia HTML de los meta tags?",
+      a: "Los meta tags son parte del HTML en el head. HTML es más amplio: toda la estructura de la página, no solo la description.",
+    },
+    {
+      q: "¿Basta un builder no-code?",
+      a: "A menudo sí al inicio. Cuando chocan titles duplicados, H1 rotos o noindex — hace falta mirar el código.",
+    },
+    {
+      q: "¿Schema / JSON-LD es HTML?",
+      a: "Los datos estructurados suelen vivir como JSON-LD o microdata dentro del HTML. Tema aparte; el HTML es la página anfitriona.",
+    },
+    {
+      q: "¿Hace falta lang en html?",
+      a: "Deseable: ayuda al navegador y a la accesibilidad. No es un botón mágico de SEO, pero sí buena higiene.",
+    },
+    {
+      q: "¿Por dónde empiezo a revisar una página?",
+      a: "View source / DevTools: un H1, title, description, canonical, texto en el DOM — no solo en una imagen.",
+    },
+  ],
+  sections: [
+    {
+      title: "HTML + CSS en un contexto SEO",
+      level: 2,
+      paras: [
+        "Bots y navegadores leen el DOM. Si el heading está en `<h1>`, el enlace en `<a href>`, el copy en un párrafo — el sentido se extrae más fácil que de `<div>`s sin nombre con texto pintado en un canvas.",
+        "CSS no rankea páginas, pero afecta UX y Core Web Vitals. Esconder bloques enteros con `display:none` por keywords es una mala idea y un truco de spam obsoleto.",
+        "La validez va de predictibilidad: tags cerrados, nesting correcto, una jerarquía de headings clara.",
+      ],
+    },
+    {
+      title: "Esqueleto de la página",
+      level: 2,
+      paras: [
+        "`<html>` es la raíz del documento, a menudo con `lang`. `<head>` mira a la máquina: title, meta, link, scripts. `<body>` es lo que ve el usuario.",
+        "Trabajos SEO en head: title único, description, canonical, robots cuando hace falta. En body — H1, contenido, enlaces internos, alt de imágenes.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo para una página de dinero:",
+          items: [
+            "un H1 con sentido",
+            "un title único",
+            "description que encaje con la URL",
+            "texto en HTML, no solo en un banner",
+            "enlaces internos que funcionen",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Meta tags",
+          href: "/es/blog/metategi/",
+        },
+        {
+          label: "El tag H1",
+          href: "/es/blog/teg-h1/",
+        },
+      ],
+    },
+    {
+      title: "Nodos relevantes para SEO",
+      level: 2,
+      paras: [
+        "Title y description dan forma al snippet y a las expectativas de clic. H1–H3 ayudan a la estructura y al escaneo. `<a>` lleva el sentido del ancla. `<img alt>` cubre accesibilidad y comprensión de imágenes.",
+        "Listas, tablas, `strong`/`em` mejoran la legibilidad; no hace falta spam de negrita de keywords.",
+        "Vecinos técnicos: canonical, paginación, noindex — mira materiales aparte; no copies sets obsoletos de meta keywords «obligatorias».",
+      ],
+      links: [
+        {
+          label: "Meta description",
+          href: "/es/blog/meta-description/",
+        },
+        {
+          label: "Longitud del title",
+          href: "/es/blog/dlina-title/",
+        },
+        {
+          label: "Tag canonical",
+          href: "/es/blog/kanonicheskiy-teg/",
+        },
+      ],
+    },
+    {
+      title: "Práctica: atar SEO y HTML",
+      level: 2,
+      paras: [
+        "Antes de un brief a developers, describe la intención de la URL y los elementos requeridos en código — no solo «hazlo bonito».",
+        "Tras el layout, revisa el DOM: ¿el texto está solo en JS sin SSR/prerender cuando el bot debería verlo?",
+        "No arregles micro-typos en comentarios del código en vez de titles duplicados y filtros finos — prioriza el impacto en índice y clics.",
+      ],
+      notes: [
+        {
+          title: "Un validador ≠ rankings",
+          kind: "tip",
+          text: "Pasar un validador HTML es higiene útil. Un check verde no garantiza posiciones; los errores rojos críticos de estructura sí merecen arreglo.",
+        },
+      ],
+    },
+    {
+      title: "Takeaways clave",
+      level: 2,
+      paras: [
+        "HTML fija sentido y estructura para personas y bots.",
+        "Para SEO importa el meta del head, headings, enlaces y texto accesible — no «tags secretos».",
+        "Profundiza en guías aparte de title, H1 y canonical; esta pieza es un mapa.",
+      ],
+    },
+  ],
+  closing: [
+    "Abre tres URLs de dinero en el page source y revisa title, H1 y si el texto existe en el DOM — más rápido que discutir si «el buscador valida cada corchete».",
+  ],
+  related: [
+    "metategi",
+    "teg-h1",
+    "meta-description",
+    "dlina-title",
+    "kanonicheskiy-teg",
+    "snippet",
+  ],
+};

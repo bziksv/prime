@@ -228,3 +228,232 @@ export const googleAnalyticsTseliEn: BlogPost = {
     "vstavka-javascript",
   ],
 };
+
+/** ES overlay for google-analytics-tseli — same structure as RU JSON / EN. */
+export const googleAnalyticsTseliEs: BlogPost = {
+  slug: "google-analytics-tseli",
+  title: "Goals y conversiones en Google Analytics (GA4)",
+  date: "2020-07-09",
+  category: "Digital marketing",
+  cover: "/images/blog/google-analytics-tseli/cover.webp",
+  excerpt:
+    "Cómo configurar conversiones en Google Analytics 4: key events, URLs de gracias, engagement y clics — mapeo de los viejos «goals» de Universal y comprobación de informes.",
+  lead: [
+    "En Universal Analytics los «goals» eran un constructor aparte (página, duración, pages/session, evento). En GA4 el modelo es otro: casi todo son eventos, y los importantes se marcan como key events / conversiones. Misma idea: medir leads, compras, páginas de gracias y microconversiones.",
+    "Abajo: por qué importan las conversiones, cómo mapear tipos viejos de goals a GA4, cómo etiquetar eventos y verificar informes. El comportamiento de funnel de tienda está en el artículo de Analytics ecommerce; los goals de Yandex Metrica son otra pieza. La UI de GA4 cambia — apóyate en el significado, no en capturas de 2019.",
+  ],
+  faq: [
+    {
+      q: "¿Siguen funcionando los goals de Universal?",
+      a: "Universal Analytics está retirado. Configura y lee conversiones en GA4. Las guías viejas de «Admin → Goals» son historia.",
+    },
+    {
+      q: "¿Qué sustituye a un Destination goal?",
+      a: "Un evento de pageview de URL de gracias / éxito o un evento aparte purchase/generate_lead. Márcalo como key event.",
+    },
+    {
+      q: "¿Dónde fue «duración de visita» como goal?",
+      a: "En GA4 mira engaged sessions y eventos custom basados en tiempo. No copies un goal de UA uno a uno — fija un umbral para tu trabajo.",
+    },
+    {
+      q: "¿Cuántas conversiones puedo configurar?",
+      a: "Los límites de GA4 difieren de los «20 goals» de UA. No inventes docenas de casi-duplicados — mantén un diccionario de eventos.",
+    },
+    {
+      q: "¿Necesito gtag o GTM?",
+      a: "Cualquiera vale. GTM es más fácil para botones y formularios sin editar la plantilla cada vez. Regla principal — un evento = un nombre.",
+    },
+    {
+      q: "¿En qué se diferencia una conversión de ecommerce?",
+      a: "Ecommerce son compras y productos. Las conversiones son cualquier key event, incluidos leads y micro-pasos. Una tienda suele necesitar ambas pistas.",
+    },
+    {
+      q: "¿Debo usar GA4 en lugar de Metrica?",
+      a: "A menudo ambos: Metrica está más cerca del RU y Session Replay, GA de Ads y el stack de productos Google. Configura goals en cada contador para tus informes.",
+    },
+    {
+      q: "¿Las conversiones equivalen a rankings de búsqueda?",
+      a: "No. Miden resultados on-site. Los rankings SEO crecen aparte; la cuota del núcleo en primera página suele planificarse a dos–seis meses tras arrancar el trabajo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué marcar conversiones",
+      level: 2,
+      paras: [
+        "Sin conversiones ves tráfico pero no si la gente llega a un lead o al pago. Las conversiones alimentan informes, comparación de canales y optimización de ads.",
+        "Primero el objetivo de negocio (pedido, lead, llamada), luego el evento técnico. No empieces por una «galería de plantillas» para marcar una casilla.",
+      ],
+      lists: [
+        {
+          intro: "Qué solemos marcar:",
+          items: [
+            "gracias / pedido exitoso",
+            "envío de formulario",
+            "clic «Comprar» / «Llamar»",
+            "alta / signup",
+            "micro-pasos importantes del funnel",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Google Analytics para ecommerce",
+          href: "/es/blog/google-analytics/",
+        },
+        {
+          label: "Goals en Yandex Metrica",
+          href: "/es/blog/metrika-tseli/",
+        },
+      ],
+    },
+    {
+      title: "De goals de Universal a eventos GA4",
+      level: 2,
+      paras: [
+        "Los tipos viejos de goals sirven como mapa mental de la tarea — pero ahora los configuras en el modelo de eventos de GA4.",
+        "Destination (página) → vista de URL de éxito o evento post-pago. Duration / pages per session → señales de engagement o tus propios umbrales. Event → eventos de clic/formulario marcados como key.",
+      ],
+      tables: [
+        {
+          caption: "Idea UA → mapeo GA4",
+          headers: ["Era en UA", "Significado", "En GA4"],
+          rows: [
+            ["Destination", "Llegó a una URL", "page_view success / evento lead"],
+            ["Duration", "Mucho tiempo en el sitio", "engaged session / evento custom"],
+            ["Pages/session", "Profundidad", "views + engagement"],
+            ["Event", "Clic/vídeo/formulario", "evento + key event"],
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error frecuente",
+          kind: "tip",
+          text: "Copiar clics de la UI de Universal en GA4. El menú es distinto — empieza por un diccionario de eventos.",
+        },
+      ],
+    },
+    {
+      title: "Conversión en una URL de éxito",
+      level: 2,
+      paras: [
+        "Clásico de tienda y servicios: «gracias por tu pedido» / página de éxito. Quien no compra rara vez aterriza ahí (salvo teclear la URL — ruido raro). noindex la thank-you si no debe estar en búsqueda.",
+        "En GA4 asegúrate de que esa vista de página aparezca como evento (a menudo `page_view` con page_location) y marca el evento correcto como key — o dispara un `purchase` / `generate_lead` aparte desde backend/GTM; eso es más fiable que la URL sola.",
+      ],
+      lists: [
+        {
+          intro: "Práctica thank-you:",
+          items: [
+            "URL única tras la acción",
+            "noindex cuando haga falta",
+            "evento purchase/lead respalda la URL",
+            "valor de conversión — por pedido/lead medio si trackeas ROI",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Engagement: tiempo y profundidad",
+      level: 2,
+      paras: [
+        "Una visita larga en una landing de taxi puede significar «no encontró el botón». En un portal de aprendizaje una sesión corta puede ser «no enganchó». La interpretación depende del producto — no copies umbrales de minutos ajenos.",
+        "En GA4 mira engaged sessions y eventos de interacción. En contenido a veces sumas «leyó N pantallas» o scroll — solo si de verdad impulsa decisiones, no cosmética de informe.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo mirar engagement:",
+          items: [
+            "media y blog",
+            "evaluación de UX de landing",
+            "comparar variantes de contenido",
+            "no como único KPI de la tienda",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Eventos de botón y formulario",
+      level: 2,
+      paras: [
+        "Tipo más flexible: clic CTA, envío exitoso, play de vídeo, inicio de chat. Nombres de eventos — latín, diccionario estable (`form_submit`, `click_buy`). Parámetros donde haga falta (tipo de formulario, ID del botón), sin datos personales contra la política.",
+        "Vía GTM: trigger de clic/envío → tag de evento GA4 → marcar como key event en Admin. Vía gtag — `gtag('event', '…')` según docs de Google. Verifica en DebugView antes del go-live.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de etiquetado:",
+          items: [
+            "un nombre de evento en todo el sitio",
+            "disparar al éxito, no en cada focus",
+            "probar en DebugView",
+            "marcar key event / conversión",
+            "tabla: evento → dónde en código → owner",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Insertar JavaScript",
+          href: "/es/blog/vstavka-javascript/",
+        },
+        {
+          label: "Formulario de contacto",
+          href: "/es/blog/forma-obratnoy-svyazi/",
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "No pongas email o teléfono en parámetros. Para calidad del lead bastan el hecho del envío y el tipo de formulario.",
+        },
+      ],
+    },
+    {
+      title: "Funnels y comprobación de informes",
+      level: 2,
+      paras: [
+        "Sustituye las secuencias de UA por Explorations y funnels de eventos: vista → carrito → checkout → purchase. Mira dónde se rompe — no solo el «% medio de conversión».",
+        "Tras el setup compara canal/campaña por key events. Cruza con CRM y Metrica: los gaps son normales, pero el orden de magnitud debería alinearse.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de lanzamiento:",
+          items: [
+            "tag GA4 en todas las plantillas",
+            "diccionario de eventos acordado",
+            "key events activados",
+            "DebugView OK",
+            "informe 24–48h sin sorpresas",
+            "docs para el equipo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Dashboard",
+          href: "/es/blog/dashboard/",
+        },
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Configurar conversiones — días. Crecimiento orgánico del núcleo — meses tras la prep; no confundas analytics con rankings. La cuota en primera página suele planificarse a dos–seis meses tras arrancar el trabajo.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "google-analytics",
+    "metrika-tseli",
+    "dashboard",
+    "optimizatsiya-konversii",
+    "forma-obratnoy-svyazi",
+    "vstavka-javascript",
+  ],
+};

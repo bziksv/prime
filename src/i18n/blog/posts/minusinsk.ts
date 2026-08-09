@@ -123,3 +123,127 @@ export const minusinskEn: BlogPost = {
     "negativnoe-seo",
   ],
 };
+
+/** ES overlay for minusinsk — same structure as RU JSON / EN. */
+export const minusinskEs: BlogPost = {
+  slug: "minusinsk",
+  title: "Minusinsk de Yandex: el filtro por enlaces comprados",
+  date: "2017-04-25",
+  category: "SEO",
+  cover: "/images/blog/minusinsk/cover.webp",
+  excerpt:
+    "Qué es el algoritmo Minusinsk: sanciones por spam de enlaces de baja calidad, cómo sospechar un problema, qué hacer con backlinks basura, y en qué se diferencia de filtros de texto como Baden-Baden.",
+  lead: [
+    "Minusinsk fue una ola de Yandex contra el spam de enlaces manipulativo: submissions baratos y packs de «enlaces por rankings» dañaban más las posiciones de lo que ayudaban. El anuncio se liga a 2015; la lógica de calidad del donor no ha desaparecido desde entonces.",
+    "Abajo: qué se castigó, cómo distinguir un golpe de enlaces de la estacionalidad, y qué hacer sin «esquemas de quitar» gray-hat. El diagnóstico más amplio de caídas está en la pieza de filtros; comprar enlaces es un artículo de riesgo aparte.",
+  ],
+  faq: [
+    {
+      q: "¿Minusinsk sigue activándose por lotes?",
+      a: "El nombre es histórico. Yandex pesa el spam de enlaces de continuo. No esperes un calendario de olas como única palanca.",
+    },
+    {
+      q: "¿En qué se diferencia de Baden-Baden?",
+      a: "Minusinsk va de enlaces. Baden-Baden va de texto sobre-optimizado.",
+    },
+    {
+      q: "¿Las sanciones se basan solo en el conteo de enlaces?",
+      a: "Más por calidad y masa antinatural — no por «pocos/muchos» por sí solo.",
+    },
+    {
+      q: "¿Estoy baneado para siempre?",
+      a: "Normalmente no: tras limpiar el perfil y un recrawl, los rankings pueden volver. Plazo — meses, no días. No prometas una fecha de primera página.",
+    },
+    {
+      q: "¿Ayuda comprar aún más enlaces?",
+      a: "A menudo empeora. Primero quita la basura controlable y refuerza contenido/técnica.",
+    },
+    {
+      q: "¿Hace falta un archivo Disavow?",
+      a: "De forma selectiva y deliberada si hay spam claro fuera de tu control. Un disavow masivo «por si acaso» perjudica.",
+    },
+    {
+      q: "¿Cómo reviso el perfil de backlinks?",
+      a: "Webmaster más exports de Ahrefs/Serpstat/análogos: donors, anclas, dinámica. Mira el artículo del perfil de backlinks.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué existió Minusinsk",
+      level: 2,
+      paras: [
+        "Mientras los enlaces seguían siendo una señal fuerte, el mercado se inundó de exchanges y corridas de submissions. Yandex respondió más duro a la masa vendida e irrelevante.",
+        "No solo cayeron sitios pequeños: también proyectos grandes con compra agresiva. Un conteo de enlaces «de confianza» no salvaba la calidad floja.",
+      ],
+      links: [
+        {
+          label: "Filtros de buscadores",
+          href: "/es/blog/filtry-poiskovikov/",
+        },
+        {
+          label: "Comprar enlaces: riesgos",
+          href: "/es/blog/pokupka-ssylok/",
+        },
+      ],
+    },
+    {
+      title: "Cómo sospechar un problema",
+      level: 2,
+      paras: [
+        "Una caída brusca del set comercial de keywords con demanda estable, mensajes de Webmaster, un pico de donors tóxicos en informes — motivos para auditar enlaces.",
+        "Separa temporada, un rebuild del sitio y un fallo técnico. No toda caída de rankings es Minusinsk.",
+      ],
+      lists: [
+        {
+          intro: "Diagnóstico rápido:",
+          items: [
+            "fecha de la caída vs historial de compra/submissions",
+            "demanda en Wordstat año a año",
+            "Webmaster: seguridad y calidad",
+            "un corte de donors y anclas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Análisis del perfil de backlinks",
+          href: "/es/blog/ssylochnyy-profil/",
+        },
+      ],
+    },
+    {
+      title: "Qué hacer",
+      level: 2,
+      paras: [
+        "Deja de crecer basura. Quita lo que controlas: tus propias redes, packs de exchanges, placements contractuales en drops.",
+        "Después — un perfil natural: donors relevantes, anclas moderadas, contenido y PR en vez de «N enlaces al día».",
+        "Espera el recrawl durante meses; monitorea el set de keywords. «Quitar el filtro en una semana» es marketing de servicios grises, no un método.",
+      ],
+      links: [
+        {
+          label: "Tipos de enlaces",
+          href: "/es/blog/tipy-ssylok/",
+        },
+        {
+          label: "Baden-Baden y copy",
+          href: "/es/blog/baden-baden/",
+        },
+      ],
+    },
+  ],
+  notes: {
+    title: "Importante",
+    text: "Minusinsk 2015+ es un nombre histórico de sanciones por enlaces. Revisa las reglas actuales en la Ayuda de Yandex. No uses esta pieza como guía de manipulación ni de bypass.",
+  },
+  closing: [
+    "Si hace poco compraste packs o corriste submissions — primero limpia la basura controlable y revisa el perfil en Webmaster; eso se acerca más a la lógica de Minusinsk que otro lote barato de enlaces.",
+  ],
+  related: [
+    "filtry-poiskovikov",
+    "pokupka-ssylok",
+    "ssylochnyy-profil",
+    "tipy-ssylok",
+    "baden-baden",
+    "negativnoe-seo",
+  ],
+};

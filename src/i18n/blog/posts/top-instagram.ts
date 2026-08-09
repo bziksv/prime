@@ -143,3 +143,147 @@ export const topInstagramEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for top-instagram — same structure as RU JSON / EN. */
+export const topInstagramEs: BlogPost = {
+  slug: "top-instagram",
+  title: "Explore y recomendaciones de Instagram: qué hacen por el alcance",
+  date: "2021-08-10",
+  category: "SMM",
+  cover: "/images/blog/top-instagram/cover.webp",
+  excerpt:
+    "Qué significa aparecer en resultados de hashtags, Explore y recomendaciones de Instagram, qué señales de engagement importan y por qué comprar likes perjudica más de lo que ayuda.",
+  lead: [
+    "La gente sigue hablando de «puestos destacados» en Instagram para placements visibles: la cabecera del feed de un tag, Explore y superficies de recomendación donde el algoritmo empuja posts con fuerte respuesta de audiencia. Para el negocio eso significa alcance más allá de los followers actuales.",
+    "Abajo: qué señales cuentan, por qué ese alcance ayuda y por qué un pico brusco de likes comprados es una mala apuesta. Las etiquetas de UI cambian; la lógica de engagement importa más que screenshots de botones.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Hay un único «puesto destacado» oficial en Instagram?",
+      a: "Es más un conjunto de superficies: búsqueda por tag o lugar, recomendaciones, cuentas similares. Los nombres in-app cambian; el punto es el mismo — gente que no te sigue aún ve el post.",
+    },
+    {
+      q: "¿Cuántos likes hacen falta para entrar?",
+      a: "No hay un umbral fijo. Los resultados dependen de la competencia del tag o nicho y de la velocidad de reacciones vivas. Los temas estrechos a menudo son más alcanzables que los tags masivos.",
+    },
+    {
+      q: "¿Ayuda el engagement falso?",
+      a: "Los números pueden subir un rato, pero el anti-fraude y los perfiles muertos golpean alcance y confianza. Mira el artículo aparte sobre likes falsos.",
+    },
+    {
+      q: "¿Qué importa más que los likes?",
+      a: "Guardados, comentarios, shares o envíos, watch-through — señales de que el contenido es útil. El crecimiento constante desde tu audiencia gana a un pico de bots.",
+    },
+    {
+      q: "¿Hacen falta geotags?",
+      a: "Para negocio local (salón, café, servicio) — sí: ayudan al discovery «cerca». Para un nicho puro online, el geo es secundario.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué se entiende por puestos visibles",
+      level: 2,
+      paras: [
+        "Antes se hablaba sobre todo de la cabecera del feed de un hashtag: un post con fuerte respuesta se quedaba más alto para quienes buscaban el tag. Ahora la visibilidad está más ligada a recomendaciones e interés de una audiencia similar.",
+        "Piensa en bestsellers de una tienda: el sistema muestra lo que la gente ya reacciona. Llegar ahí es un bonus orgánico — no un sustituto de un plan de contenido y ads.",
+      ],
+      lists: [
+        {
+          intro: "Dónde puede aparecer un post:",
+          items: [
+            "resultados de un tag o lugar relevante",
+            "recomendaciones / contenido similar",
+            "compartir en Direct y Stories entre followers",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Post de Instagram que vende",
+          href: "/es/blog/post-instagram/",
+        },
+        {
+          label: "Insights de Instagram",
+          href: "/es/blog/statistika-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Señales de engagement",
+      level: 2,
+      paras: [
+        "Los algoritmos no miran solo el conteo de corazones. Importan el ritmo de reacción en las primeras horas, la calidad de la audiencia y la profundidad del interés.",
+      ],
+      lists: [
+        {
+          intro: "Qué suele subir la visibilidad:",
+          items: [
+            "crecimiento constante de views y reacciones sin «sierra» de bots",
+            "comentarios y respuestas (diálogo real, no spam de emoji)",
+            "guardados — una señal fuerte de utilidad",
+            "tags relevantes y un caption que encaja con el post",
+            "geo — para ubicaciones offline y servicios locales",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Nicho estrecho",
+          text: "En tags estrechos la competencia es menor: es más fácil ganar una ventaja relativa y quedarse más tiempo. Los tags masivos con millones de posts son una carrera de fondo.",
+        },
+      ],
+    },
+    {
+      title: "Engagement falso y por qué perjudica",
+      level: 2,
+      paras: [
+        "Un pico brusco de likes en minutos y luego silencio, likes de cuentas extranjeras vacías, likes sin guardados — banderas rojas típicas. La plataforma corta esa actividad; los anunciantes también ven rates de engagement raros.",
+        "Alternativa que funciona: visuales y oferta fuertes, calentamiento con Stories, collabs, ads legítimos o menciones en cuentas afines, respuestas en comentarios.",
+      ],
+      links: [
+        {
+          label: "Likes falsos: riesgos",
+          href: "/es/blog/nakrutka-laykov-instagram/",
+        },
+        {
+          label: "Ads en Instagram",
+          href: "/es/blog/reklama-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Qué te da la visibilidad en recomendaciones",
+      level: 2,
+      paras: [
+        "Un círculo más amplio de gente que aún no te sigue: awareness, tráfico de prueba al sitio o a Direct, crecimiento vivo de followers si el contenido encaja con la promesa del perfil.",
+        "Para un recién llegado es un test de hipótesis más rápido; para una marca — una capa orgánica junto a ads. El éxito sigue apoyándose en la calidad del material y la consistencia, no en un solo post viral.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo práctico:",
+          items: [
+            "un perfil acabado y una oferta clara",
+            "contenido para la audiencia, no «cada tag del mundo»",
+            "un motivo para guardar o responder que encaje con el tema",
+            "revisión de stats: qué posts impulsan guardados y clics",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Diseño del perfil de Instagram",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+        {
+          label: "Plan de contenido de Instagram",
+          href: "/es/blog/kontent-plan-instagram/",
+        },
+      ],
+    },
+  ],
+};

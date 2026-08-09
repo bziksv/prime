@@ -127,3 +127,131 @@ export const reklamaTiktokEn: BlogPost = {
     "kontent-plan",
   ],
 };
+
+/** ES overlay for reklama-tiktok — same structure as RU JSON / EN. */
+export const reklamaTiktokEs: BlogPost = {
+  slug: "reklama-tiktok",
+  title: "Ads de TikTok: cómo lanzar una campaña en Ads Manager",
+  date: "2020-04-27",
+  category: "SMM",
+  cover: "/images/blog/reklama-tiktok/cover.webp",
+  excerpt:
+    "Cuándo tiene sentido TikTok Ads y cómo funciona un lanzamiento en Ads Manager: objetivo, presupuesto, targeting y creativo — sin mínimos obsoletos «desde $500» ni catálogos de apps de 2018.",
+  lead: [
+    "TikTok Ads significa impresiones de pago en el feed For You y formatos relacionados a través de la cuenta oficial de ads. Las integraciones con creators y challenges viven aparte: presupuesto y acuerdos distintos.",
+    "Abajo: cuándo encaja el canal, cómo funcionan las campañas en Ads Manager y requisitos de creativo. Los menús y mínimos de presupuesto cambian — consulta TikTok for Business Help. El For You orgánico se cubre en un artículo relacionado.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencian los Ads de las recomendaciones For You?",
+      a: "For You es orgánico, impulsado por el comportamiento del viewer. Ads es una subasta de pago con objetivo, presupuesto y targeting.",
+    },
+    {
+      q: "¿Cuál es el presupuesto mínimo?",
+      a: "Depende de la región, la moneda y el tipo de campaña. No copiamos cifras «desde $500» de guías viejas — revisa los límites actuales en Ads Manager.",
+    },
+    {
+      q: "¿TikTok funciona para un nicho «más adulto»?",
+      a: "La audiencia es más amplia que los teens de 2018–2020. Un test decide: oferta + creativo vertical. Si tu audiencia no ve vídeo corto, el canal es débil.",
+    },
+    {
+      q: "¿Necesito el pixel y events?",
+      a: "Para sitios y apps — sí, según la tarea. Sin events, la optimización a conversiones es floja.",
+    },
+    {
+      q: "¿Debería usar un creator en lugar de Ads Manager?",
+      a: "Una integración trae confianza y feeling nativo. Ads Manager trae control y escala. A menudo se combinan ambos.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cuándo testear TikTok Ads",
+      level: 2,
+      paras: [
+        "Tienes un creativo vertical que engancha en los primeros segundos y una oferta clara sin un bloque largo de copy.",
+        "Estás listo para contar resultados: installs, leads, ventas — no solo views.",
+        "Entiendes que la subasta y la moderación no son un «banner barato para siempre»: los creativos se queman rápido.",
+      ],
+      links: [
+        {
+          label: "Recomendaciones de TikTok (orgánico)",
+          href: "/es/blog/rekomendatsii-tiktok/",
+        },
+      ],
+    },
+    {
+      title: "Ads Manager: objetivo y estructura",
+      level: 2,
+      paras: [
+        "Regístrate en TikTok Ads / Business Center, crea una cuenta de ads, añade un método de pago.",
+        "Campaign → ad group → ad. Elige un objetivo para el trabajo: traffic, conversions, installs, reach, leads — el set depende de la cuenta.",
+        "Nombra las entidades con una plantilla: oferta · geo · objetivo · fecha — como en cualquier canal de pago.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "UI",
+          text: "No entrenes a la gente en «haz clic en Create an Ad en el centro de una pantalla de 2020». Entrena la cadena: objetivo → audiencia → presupuesto → clip vertical → preview → moderación.",
+        },
+      ],
+    },
+    {
+      title: "Targeting, presupuesto, schedule",
+      level: 2,
+      paras: [
+        "Geo, edad, idioma, intereses, listas custom (bajo reglas de upload) — sin scraping de IDs ajenos vía servicios grises.",
+        "Presupuesto diario o lifetime, fechas y horas. Entrega standard o accelerated — elige según el test.",
+        "Placements: a menudo basta TikTok solo; apps de terceros de guías viejas pueden haber desaparecido o renombrado — no copies una lista de 2018.",
+      ],
+    },
+    {
+      title: "Creativo a especificación",
+      level: 2,
+      paras: [
+        "Vertical, hook en el primer segundo, captions, sonido como parte del formato — pero el sentido debería leerse sin él.",
+        "Revisa las Video Ads Specifications actuales: duración, tamaño de archivo y aspect ratio han cambiado.",
+        "El preview de Ads Manager es obligatorio: un logo cortado y texto diminuto matan el CTR.",
+      ],
+      lists: [
+        {
+          intro: "Antes de la moderación:",
+          items: [
+            "oferta sin claims prohibidos",
+            "el landing abre en móvil",
+            "UTM o código promo para medir",
+            "un creativo de repuesto para el burnout",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Creators y nativo junto a Ads",
+      level: 2,
+      paras: [
+        "Un clip por encargo, una mención en serie, un challenge — acuerdos y brief aparte. El precio depende de reach y engagement rate, no de una «rate card de 2019».",
+        "Formatos nativos de Ads Manager (incluido código/Spark autorizado por creator cuando esté disponible) acercan los ads a lo orgánico — confirma los productos actuales de TikTok.",
+        "No mezcles «reach de creator» y «CPA de Ads» en un solo informe sin un modelo compartido de atribución.",
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "TikTok Ads es una subasta de pago con creativo vertical — no un sustituto del For You orgánico.",
+        "Toma mínimos de presupuesto y menús de Ads Manager, no de artículos de 2020.",
+        "Cuenta la acción objetivo; views sin lead aún no son éxito.",
+      ],
+    },
+  ],
+  closing: [
+    "Arma un clip vertical con una oferta clara, fija un objetivo y un presupuesto de test en TikTok Ads — y decide en paralelo si también necesitas un placement nativo con creator.",
+  ],
+  related: [
+    "rekomendatsii-tiktok",
+    "reklama-instagram",
+    "nastroika-reklamy-instagram",
+    "facebook-ads",
+    "vovlechennost-socseti",
+    "kontent-plan",
+  ],
+};

@@ -112,3 +112,116 @@ export const vodyanoyZnakEn: BlogPost = {
     "sohranit-foto-instagram",
   ],
 };
+
+/** ES overlay for vodyanoy-znak — same structure as RU JSON / EN. */
+export const vodyanoyZnakEs: BlogPost = {
+  slug: "vodyanoy-znak",
+  title: "Marcas de agua en fotos: por qué ayudan y cuándo hacen daño",
+  date: "2020-09-16",
+  category: "Digital marketing",
+  cover: "/images/blog/vodyanoy-znak/cover.webp",
+  excerpt:
+    "Qué es una watermark en fotos digitales: protección y branding, contras para percepción y shares, cómo aplicarla con cuidado y alternativas (previews, contratos, metadata).",
+  lead: [
+    "Una watermark es una firma, logo o URL semitransparente superpuesta a una imagen. La idea viene del papel y los billetes; en la web la marca recuerda al autor y complica un poco la copia «silenciosa».",
+    "Abajo: cuándo encaja una watermark, por qué no sustituye la protección legal y cómo no arruinar la toma. Los botones de tools online y paneles de Photoshop cambian — importa el principio: opacidad, tamaño, colocación.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Una watermark es lo mismo que protección legal?",
+      a: "No. Es una señal visual y una barrera ligera. Los derechos se confirman con contrato, registros de autoría y pruebas en un litigio — no un logo en la esquina.",
+    },
+    {
+      q: "¿Se puede quitar una watermark?",
+      a: "Alguien con skill a menudo la recorta o retoca. No armes la protección solo sobre la marca.",
+    },
+    {
+      q: "¿Dónde debo colocar la marca?",
+      a: "Para que no pegue al sujeto: una esquina, un patrón ligero que se repite o una zona fuera del objeto principal. Una marca demasiado grande mata el frame.",
+    },
+    {
+      q: "¿Hace falta en cada foto del sitio?",
+      a: "No siempre. En portfolios y marketplaces de assets con licencia — más a menudo sí; para ilustraciones de UX y shares en social, a veces es mejor un preview limpio y más pequeño.",
+    },
+    {
+      q: "¿Qué puede sustituir una watermark?",
+      a: "Publicar previews más pequeños, guardar originales offline, licencias y contratos, metadata y, cuando haga falta — registros y apoyo legal.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué se añaden y a quién benefician",
+      level: 2,
+      paras: [
+        "En bibliotecas de fotos y entre fotógrafos, una watermark baja la tentación de descargar «tal cual» y también anuncia al autor si la imagen sigue viajando online.",
+        "Los dueños de sitios marcan visuales con logo o dominio: protección más reconocimiento. Una buena marca casi no se nota pero se lee al copiar.",
+        "Los marketers a veces hacen de la marca parte del brand: la imagen «vaga», el logo viaja con ella. Eso funciona solo si la marca no arruina la composición.",
+      ],
+      lists: [
+        {
+          intro: "Metas típicas:",
+          items: [
+            "reducir copias free-riding",
+            "acreditar al autor en un repost",
+            "reforzar marca en previews compartidos",
+            "distinguir un frame demo de una licencia de pago",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Copyright en Instagram",
+          href: "/es/blog/avtorskie-prava-instagram/",
+        },
+        {
+          label: "Open Graph",
+          href: "/es/blog/open-graph/",
+        },
+      ],
+    },
+    {
+      title: "Contras, tools y práctica",
+      level: 2,
+      paras: [
+        "Contras: la marca distrae de la imagen; una watermark burda se ve barata; el sharing social cae si la imagen está «untada»; legalmente, un logo en la esquina no basta.",
+        "Tools: un editor gráfico (Photoshop, Photopea, GIMP y pares), procesamiento por lotes en Lightroom o plugins, servicios online con upload. No subas fotos con datos sensibles a sitios dudosos — para originales comerciales, software local es preferible.",
+        "Práctica de aplicación: una capa aparte, opacidad 15–40%, contraste contra el fondo, un estilo en todo el sitio. En portfolios, a veces es mejor un preview pequeño sin marca más el archivo completo bajo petición o pago.",
+        "Usarla o no depende de la meta: vender licencias — más a menudo sí; ilustraciones atmosféricas de blog — caso a caso; si importan más sharing y estética — previews y contratos ganan a un logo gordo a media frame.",
+        "En resumen: una watermark es una capa útil de protección y marca, no armadura. Aplícala con cuidado o elige previews y un marco legal.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de watermark cuidadosa:",
+          items: [
+            "no tapa cara ni producto",
+            "un estilo en toda la serie",
+            "legible en un preview pero no grita",
+            "existe un archivo backup sin la marca",
+            "derechos y licencias se tratan aparte",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Fotos para Instagram",
+          href: "/es/blog/foto-instagram/",
+        },
+        {
+          label: "Favicon",
+          href: "/es/blog/favikon/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "avtorskie-prava-instagram",
+    "open-graph",
+    "foto-instagram",
+    "favikon",
+    "sohranit-foto-instagram",
+  ],
+};

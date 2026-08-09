@@ -148,3 +148,152 @@ export const parolInstagramEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for parol-instagram — same structure as RU JSON / EN. */
+export const parolInstagramEs: BlogPost = {
+  slug: "parol-instagram",
+  title: "Restablecer y cambiar la contraseña de Instagram: cómo recuperar el acceso",
+  date: "2021-11-09",
+  category: "SMM",
+  cover: "/images/blog/parol-instagram/cover.webp",
+  excerpt:
+    "Cuándo cambiar la contraseña de Instagram, cómo recuperar el login vía email, SMS y soporte, qué hacer si te hackean y cómo endurecer la seguridad de la cuenta.",
+  lead: [
+    "No puedes entrar en Instagram — lo más habitual es una contraseña olvidada, un typo en el username o un hack. El reset está disponible vía email, SMS y flujos oficiales de recuperación; las etiquetas del menú cambian con el tiempo.",
+    "Abajo: cuándo resetear, pasos típicos y qué hacer si sospechas un hack. Esto es un checklist de seguridad — no un respaldo de la plataforma.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Dónde está el botón «Forgot password»?",
+      a: "En la pantalla de login de la app o del sitio — junto al formulario de login. El wording varía: «¿Olvidaste?», «Get help» y similares.",
+    },
+    {
+      q: "¿Qué importa más — email o teléfono?",
+      a: "El contacto que esté vinculado y al que aún puedas acceder. Mantén ambos al día de antemano.",
+    },
+    {
+      q: "¿Antes ayudaba «vía Facebook»?",
+      a: "Si las cuentas estaban vinculadas, a veces funcionaba el login/reset vía Facebook. La disponibilidad depende de la región y los ajustes — sigue las pantallas de login y la help de hoy.",
+    },
+    {
+      q: "¿Qué hacer si te hackean?",
+      a: "Cambia la contraseña en cuanto puedas, cierra otras sesiones, reporta el hack al soporte, revisa el email y los servicios vinculados, activa la autenticación en dos factores.",
+    },
+    {
+      q: "¿Por qué no me llegó el email de reset?",
+      a: "Spam, email equivocado en el perfil, retraso de entrega o correo bloqueado. Revisa la dirección y la carpeta de spam, luego prueba SMS.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cuándo cambiar la contraseña",
+      level: 2,
+      paras: [
+        "Cambia la contraseña si la olvidaste, ves un error de login incluso con lo que crees que es la contraseña correcta, sospechas un hack o reutilizaste una contraseña que se filtró en otro sitio.",
+      ],
+      lists: [
+        {
+          intro: "Razones típicas de reset:",
+          items: [
+            "la olvidaste o tecleaste mal caracteres",
+            "la cuenta se comporta raro (posts, nombre, mensajes que no son tuyos)",
+            "introdujiste la contraseña en un «servicio» de terceros — cámbiala también en el email",
+            "una rotación planificada tras terminar contratistas",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Recuperación vía email o SMS",
+      level: 2,
+      paras: [
+        "En la pantalla de login elige recuperación de cuenta, introduce username, email o teléfono — el sistema ofrece los canales disponibles.",
+        "El email o SMS tendrá un código o enlace. Fija una contraseña nueva y comprueba el login al momento. No abras enlaces de reset de emails sospechosos en dominios desconocidos.",
+      ],
+      lists: [
+        {
+          intro: "Antes de resetear:",
+          items: [
+            "confirma que estás en la app o sitio oficiales",
+            "tienes acceso al email o al número",
+            "la nueva contraseña es larga y única",
+            "tras el login, revisa las sesiones activas",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Práctica",
+          text: "Una contraseña fuerte no sirve si coincide con la del email. Las contraseñas de email e Instagram deben ser distintas.",
+        },
+      ],
+    },
+    {
+      title: "Enlace a Facebook y login web",
+      level: 2,
+      paras: [
+        "Históricamente las cuentas podían vincularse a Facebook y compartir un flujo de login. Hoy los botones disponibles dependen de la región, el tipo de cuenta y las updates de Meta.",
+        "En escritorio el flujo encaja con la app: pantalla de login → ayuda de contraseña → email/SMS → código nuevo. No hace falta una app aparte de Windows — basta un navegador.",
+      ],
+    },
+    {
+      title: "Si la cuenta fue hackeada",
+      level: 2,
+      paras: [
+        "Señales de aviso: nombre o contraseña cambiados, contenido desaparecido, mensajes raros en Direct, logins desconocidos. Muévete rápido.",
+      ],
+      lists: [
+        {
+          intro: "Orden de acción:",
+          items: [
+            "probar un reset de contraseña por contactos que controlas",
+            "reportar el hack por el soporte oficial",
+            "cambiar contraseñas del email y servicios vinculados",
+            "activar autenticación en dos factores",
+            "avisar a clientes si estafadores les escribieron con tu nombre",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Error habitual",
+          text: "Entregar tu login a un «ayudante de engagement falso» o a un servicio dudoso. Después, la recuperación ya está en manos de otro.",
+        },
+      ],
+      links: [
+        {
+          label: "Likes falsos: riesgos",
+          href: "/es/blog/nakrutka-laykov-instagram/",
+        },
+        {
+          label: "Cuenta business de Instagram",
+          href: "/es/blog/biznes-akkaunt-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Cómo bajar el riesgo de perder el acceso",
+      level: 2,
+      paras: [
+        "Mantén email y teléfono al día, usa una contraseña única y 2FA, ten cuidado con apps de terceros y guarda códigos de recuperación de respaldo si la plataforma los emite.",
+      ],
+      lists: [
+        {
+          intro: "Higiene básica:",
+          items: [
+            "guardar la contraseña solo en un gestor de contraseñas",
+            "no quedarte con sesión abierta en dispositivos compartidos",
+            "no confirmar «chequeos de seguridad» sospechosos",
+            "en una cuenta de marca, limitar el acceso a un círculo pequeño",
+          ],
+        },
+      ],
+    },
+  ],
+};

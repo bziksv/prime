@@ -156,3 +156,160 @@ export const glavnayaInternetMagazinaEn: BlogPost = {
     "otzyvy-dlya-prodazh",
   ],
 };
+
+/** ES overlay for glavnaya-internet-magazina — same structure as RU JSON / EN. */
+export const glavnayaInternetMagazinaEs: BlogPost = {
+  slug: "glavnaya-internet-magazina",
+  title: "Cómo diseñar la homepage de una tienda online",
+  date: "2019-10-23",
+  category: "E-commerce",
+  cover: "/images/blog/glavnaya-internet-magazina/cover.webp",
+  excerpt:
+    "Estructura de la homepage de una tienda online: header, menú, escaparate y slider, copy corto, trust, footer — sin sobrecarga de features y sin la historia de la empresa en toda la primera pantalla.",
+  lead: [
+    "La homepage de una tienda online no es un escaparate por belleza — es una entrada: ayudar a encontrar un producto, quitar dudas y llevar a la gente al catálogo o al carrito. La sobrecarga de banners y «todo a la vez» confunde más a menudo de lo que vende.",
+    "Abajo: los bloques que funcionan — header, menú, escaparate visual, copy, trust y footer. El SEO de categorías y fichas vive en piezas aparte; aquí el foco es la composición de la primera página.",
+  ],
+  faq: [
+    {
+      q: "¿La homepage debe vender sola?",
+      a: "Debe llevar a una compra: mostrar surtido, promos y un camino al catálogo. Una «historia de marca» larga pertenece a Sobre nosotros — no a toda la primera pantalla.",
+    },
+    {
+      q: "¿Cuántos productos deben estar en el escaparate?",
+      a: "Una pista es hasta ~10 ítems/fichas en el primer bloque: hits, promos, novedades, SKUs únicos. Luego categorías y el catálogo.",
+    },
+    {
+      q: "¿Hace falta un auto-slider?",
+      a: "Sí si las slides se leen: ~3–5 s por frame, pausa al hover, sin parpadeo. Menos slides ganan a un carrusel de diez banners.",
+    },
+    {
+      q: "¿Qué es obligatorio en el header?",
+      a: "Logo, búsqueda, carrito, teléfono/mensajero, secciones clave. Horario y timing de delivery — si esa es una pregunta crítica del nicho.",
+    },
+    {
+      q: "¿Debo duplicar contactos en el footer?",
+      a: "Sí, pero no copies el header uno a uno: el footer es navegación, legal, delivery/pago, un formulario o CTA para quien aún piensa.",
+    },
+    {
+      q: "¿La homepage importa más que las categorías para SEO?",
+      a: "Para comercio, suelen importar más categorías y fichas. La homepage sostiene marca, navegación y enlaces internos — no metas ahí solo todo el núcleo de keywords.",
+    },
+  ],
+  sections: [
+    {
+      title: "Rol de la homepage y frame de bloques",
+      level: 2,
+      paras: [
+        "Un visitante debería ver rápido: qué vendes, cómo encontrarlo y por qué puede confiar. La estructura intuitiva gana al «wow» decorativo.",
+        "Frame típico: header → menú/catálogo → escaparate visual (promos/hits) → copy corto de beneficio → trust (certificados, reseñas) → bloque extra (noticias/picks) → footer.",
+      ],
+      lists: [
+        {
+          intro: "Elementos estructurales:",
+          items: [
+            "header con logo y contactos",
+            "menú de catálogo y secciones de servicio",
+            "escaparate/slider",
+            "bloque de texto corto",
+            "bloque de trust",
+            "footer con navegación y CTA",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Arrancar una tienda online",
+          href: "/es/blog/start-internet-magazina/",
+        },
+        {
+          label: "Ventas de tienda online",
+          href: "/es/blog/prodazhi-internet-magazin/",
+        },
+      ],
+    },
+    {
+      title: "Header y menú",
+      level: 2,
+      paras: [
+        "El espacio del header es limitado: no vuelques aquí toda la lista de precios y la historia. Bastan logo, una línea corta de posicionamiento (o slogan), búsqueda, carrito, teléfono/mensajero y contacto rápido. Para algunos nichos — horario y una pista de delivery.",
+        "El menú es navegación, no un escaparate de ads. Incluye un catálogo por categorías claras, pago, delivery, contactos y Sobre nosotros. Cuanto más simple el camino a una categoría, menos bounces de homepage.",
+      ],
+      links: [
+        {
+          label: "Categorías de tienda online",
+          href: "/es/blog/kategorii-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "Visuales: slider y escaparate",
+      level: 2,
+      paras: [
+        "Banners y fichas venden más rápido que un muro de texto — si no se vuelven un caleidoscopio. Un slider bajo el header muestra promos y categorías clave; la velocidad de rotación debe ser moderada (pista hasta ~5 segundos por slide) para que se lea la oferta.",
+        "Pon bestsellers, deals fuertes, novedades y lo que los competidores no tienen en el escaparate. No infles el primer bloque con docenas de SKUs: un pick fuerte más un camino claro al catálogo es mejor.",
+      ],
+      lists: [
+        {
+          intro: "Qué poner en el escaparate:",
+          items: [
+            "categorías hit",
+            "ítems en promo",
+            "novedades",
+            "ofertas únicas de la tienda",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Cada slide — una idea y un botón. «Promo + 5 categorías + suscripción» en un frame no se lee en un teléfono.",
+        },
+      ],
+    },
+    {
+      title: "Copy, trust y espacio vacío abajo",
+      level: 2,
+      paras: [
+        "El copy de homepage es corto: el beneficio de trabajar contigo, qué es útil — sin biografía del fundador. Estructura: headings, párrafos, listas; líneas de venta sin fluff; SEO con moderación, no una hoja de keywords.",
+        "Un bloque «sobre el negocio»: certificados, licencias, premios, reseñas — quita objeciones. Si hay aire bajo el escaparate, llénalo con noticias, un pick o un case — no un banner al azar «para llenar espacio».",
+      ],
+      links: [
+        {
+          label: "Reseñas para ventas",
+          href: "/es/blog/otzyvy-dlya-prodazh/",
+        },
+        {
+          label: "Promoción de tienda online",
+          href: "/es/blog/prodvizhenie-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "El footer como segunda chance",
+      level: 2,
+      paras: [
+        "El footer no copia el header. Es un cierre lógico: contactos, pago/delivery, un formulario o CTA, redes (si las llevas), política y logo. Para multi-marca — una lista de marcas limpia, no un vertedero de logos.",
+        "El trabajo del fondo de página es retener a quien scrolleó sin pedir: dar un siguiente paso, no «fin del feed».",
+      ],
+      links: [
+        {
+          label: "Footer del sitio",
+          href: "/es/blog/futer-sayta/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "La homepage de una tienda online funciona cuando lleva al catálogo y quita dudas sin ruido visual. Arma header, menú, un escaparate fuerte, copy corto, trust y un footer útil — y mide clics a categorías y add-to-carts, no solo «belleza».",
+  ],
+  related: [
+    "start-internet-magazina",
+    "kategorii-internet-magazina",
+    "prodazhi-internet-magazin",
+    "prodvizhenie-internet-magazina",
+    "futer-sayta",
+    "otzyvy-dlya-prodazh",
+  ],
+};

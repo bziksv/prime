@@ -127,3 +127,131 @@ export const reklamaOdnoklassnikiEn: BlogPost = {
     "Odnoklassniki ads work on concrete offers and a clear audience. Check formats in the current account; measure success by CPA and leads — not only by “Class” reactions.",
   ],
 };
+
+/** ES overlay for reklama-odnoklassniki — same structure as RU JSON / EN. */
+export const reklamaOdnoklassnikiEs: BlogPost = {
+  slug: "reklama-odnoklassniki",
+  title: "Ads en Odnoklassniki: audiencia, formatos y respuesta",
+  date: "2020-12-16",
+  category: "SMM",
+  cover: "/images/blog/reklama-odnoklassniki/cover.webp",
+  excerpt:
+    "A quién encajan los ads de OK, qué tono de anuncio funciona, cómo pensar formatos y audiencia, y cómo medir la respuesta — sin píxeles obsoletos ni capturas del ad account.",
+  lead: [
+    "Odnoklassniki es un entorno propio: otro ánimo del feed, otros hábitos de audiencia y otra respuesta a la oferta. Copiar creatives «como de VK» uno a uno a menudo falla.",
+    "Abajo: cuándo encaja el canal, cómo escribir ads, qué mirar en formatos y setup, y cómo leer stats. La UI de la cuenta y las reglas de creatives cambian — confirma tamaños y botones en la ayuda actual de VK Ads / ad account.",
+  ],
+  faq: [
+    {
+      q: "¿Quién debería considerar ads en OK?",
+      a: "Más a menudo ofertas locales y «claras»: servicios, delivery, ventanas, préstamos, bienes de temporada, eventos. Un producto de nicho complejo sin beneficio explicado suele rendir peor.",
+    },
+    {
+      q: "¿Cuál es la edad típica de la audiencia?",
+      a: "Los segmentos mayores son más fuertes, pero no es «solo 40+». Usa tus propias stats y tests — no mitos de memes.",
+    },
+    {
+      q: "¿Qué debe decir el ad?",
+      a: "Detalles concretos: precio, plazo, geo, promo. Lifestyle abstracto sin oferta saca menos respuestas cualificadas.",
+    },
+    {
+      q: "¿Desde qué cuenta lanzo ads?",
+      a: "Los ads de OK suelen ir por el ecosistema VK Ads (históricamente myTarget y cuentas relacionadas). Los nombres de secciones cambian — sigue la UI actual.",
+    },
+    {
+      q: "¿Funcionan los sorteos en OK?",
+      a: "Reposts y reacciones «Class» por un premio impulsan reach, pero a menudo audiencias ruidosas. Para ventas, oferta y landing importan más que la viralidad sola.",
+    },
+    {
+      q: "¿Qué métricas trackear?",
+      a: "Impresiones, clics, CTR, visitas, leads/compras, CPA. Los likes («Class») son secundarios cuando el objetivo son ventas.",
+    },
+    {
+      q: "¿Puedo enviar tráfico a un sitio?",
+      a: "Sí, si la política de la plataforma y la moderación lo permiten. Para una comunidad, objetivos de join / mensaje también son escenarios válidos.",
+    },
+  ],
+  sections: [
+    {
+      title: "Audiencia y tono de la oferta",
+      level: 2,
+      paras: [
+        "OK responde bien a ofertas cotidianas y locales claras: descuento, delivery, reserva, términos fijos. Un producto «conceptual» sin beneficio explicado suele perder.",
+        "Respeta la cultura de la plataforma: visual y copy más cerca de un beneficio claro que de performance art de moda. Los sorteos crean actividad — filtra si esa audiencia es la que necesitas.",
+      ],
+      lists: [
+        {
+          intro: "Qué mejora la respuesta:",
+          items: [
+            "un beneficio concreto y plazo de promo",
+            "geo y un siguiente paso claro",
+            "un creative legible sin texto diminuto",
+            "una landing que cumple la promesa del ad",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Formatos de ad",
+      level: 2,
+      paras: [
+        "En el feed suelen funcionar bloques con headline, texto e imagen; también hay placements desde una comunidad y otros formatos de cuenta. Los límites exactos de caracteres y píxeles cambian — toma specs actuales de la ayuda antes de diseñar.",
+        "Arma el creative contra el preview de la cuenta: cómo se ve en el feed, acortado y en móvil. No te apoyes en tamaños de guías viejas de 2020.",
+      ],
+      lists: [
+        {
+          intro: "Antes de subir un creative:",
+          items: [
+            "la oferta se lee en un teléfono",
+            "sin sobrecarga de texto diminuto en el banner",
+            "el enlace va donde promete el headline",
+            "se cumplen las reglas de la plataforma (incluidos enlaces externos y otras redes)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Tamaños de banner",
+          href: "/es/blog/razmery-bannera/",
+        },
+      ],
+    },
+    {
+      title: "Setup: audiencia y puja",
+      level: 2,
+      paras: [
+        "Tras el creative, define audiencia: geo, edad, intereses/temas donde existan. Al inicio no partas el target en docenas de intersecciones estrechas sin presupuesto para testear.",
+        "El modelo de facturación y el consejo de puja dependen del objetivo (impresiones, clics, conversiones). Mueve presupuesto tras stats suficientes — no tras las primeras horas.",
+      ],
+      lists: [
+        {
+          intro: "Orden de lanzamiento:",
+          items: [
+            "objetivo y landing",
+            "ad con oferta concreta",
+            "audiencia y exclusiones",
+            "presupuesto y tope",
+            "objetivos de píxel/analytics si envías tráfico a un sitio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Setup del ad account",
+          href: "/es/blog/reklamnyy-kabinet/",
+        },
+      ],
+    },
+    {
+      title: "Cómo leer la respuesta",
+      level: 2,
+      paras: [
+        "En las stats de la cuenta mira impresiones, clics, CTR, acciones (visita, join, comentarios) — y sobre todo leads/ventas desde analytics del sitio o CRM.",
+        "Las reacciones «Class» y los comentarios son señales útiles de interés, pero para el negocio deciden el coste de una acción cualificada y la calidad del lead.",
+      ],
+    },
+  ],
+  closing: [
+    "Los ads en Odnoklassniki funcionan con ofertas concretas y una audiencia clara. Revisa formatos en la cuenta actual; mide el éxito por CPA y leads — no solo por reacciones «Class».",
+  ],
+};

@@ -145,3 +145,149 @@ export const geymifikatsiyaSocsetiEn: BlogPost = {
     "soobshhestva-vk",
   ],
 };
+
+/** ES overlay for geymifikatsiya-socseti — same structure as RU JSON / EN. */
+export const geymifikatsiyaSocsetiEs: BlogPost = {
+  slug: "geymifikatsiya-socseti",
+  title: "Gamificación en redes: cómo enganchar sin sorteos de freebies",
+  date: "2020-10-02",
+  category: "SMM",
+  cover: "/images/blog/geymifikatsiya-socseti/cover.webp",
+  excerpt:
+    "Qué significa gamificación en SMM: por qué las mecánicas de juego ayudan a una marca, qué formatos funcionan y cómo lanzar sin una carrera de likes y una muchedumbre de cazadores de premios.",
+  lead: [
+    "La gamificación en redes son reglas de juego sobre contenido habitual: polls, puntos, quests, mini-juegos, progreso. El objetivo es engagement y recuerdo de marca — no «diversión por diversión».",
+    "Abajo: por qué el negocio lo necesita, para quién diseñar, por dónde empezar y qué formatos elegir. No catalogamos SaaS obsoleto ni prometemos «viralidad garantizada»: la mecánica debe encajar con la audiencia y la oferta. Si mencionas Instagram*/Facebook* — ver la nota de Meta en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* y Facebook* son productos de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿La gamificación es solo para adolescentes?",
+      a: "No. Distintas edades juegan; cambian el tono y la dificultad. Da en los intereses de la audiencia — no copies slang adolescente.",
+    },
+    {
+      q: "¿Un sorteo por repost es gamificación?",
+      a: "En parte. Pero los contests frecuentes de «repost and win» a menudo atraen freeloaders, no el core. Son más fuertes las mecánicas que premian el proceso en sí.",
+    },
+    {
+      q: "¿Hace falta un presupuesto grande?",
+      a: "No siempre. Un acertijo en comentarios o un «spot the difference» casi no cuestan. Una app y un quest offline ya son un proyecto con equipo y dinero.",
+    },
+    {
+      q: "¿En qué se diferencia de un quiz landing?",
+      a: "Un quiz en el sitio es lead gen en el funnel. Aquí — mecánicas dentro del feed/comunidad. Ver el artículo del quiz-site aparte.",
+    },
+    {
+      q: "¿Son obligatorios los servicios de terceros?",
+      a: "No. Polls nativos, Stories y comentarios suelen bastar. Servicios de puntos/bots — según la tarea y las reglas de la plataforma.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué cuenta como gamificación",
+      level: 2,
+      paras: [
+        "Es mover técnicas de juego (objetivo, reglas, feedback, recompensa, status) al marketing no-juego. En redes el rango es amplio: de un poll con humor a un quest urbano.",
+        "La emoción y las reglas claras suben la chance de reacción. Pero un «juego» sin vínculo al producto hace ruido, no ventas.",
+      ],
+    },
+    {
+      title: "Por qué las marcas usan mecánicas de juego",
+      level: 2,
+      paras: [
+        "Engagement: es más fácil reaccionar, responder o dar un paso que leer un post largo.",
+        "Los algoritmos de plataforma amplifican más a menudo el contenido con diálogo — no como un «hack de SEO», sino como resultado de interés real.",
+        "Lealtad: la gente recuerda una marca con la que se sintió bien interactuar. Las ventas crecen cuando el juego lleva a un siguiente paso claro (follow, visita, lead), no solo a un like.",
+      ],
+      notes: [
+        {
+          title: "Sin ilusiones",
+          kind: "tip",
+          text: "Un post con juego no sustituye la oferta, el producto y el contenido útil regular. Es un amplificador, no toda la estrategia.",
+        },
+      ],
+    },
+    {
+      title: "Audiencia y tono",
+      level: 2,
+      paras: [
+        "No te limites a la «juventud». Las audiencias adultas también juegan si las reglas son claras y el tono es respetuoso.",
+        "Ajusta la mecánica a intereses: a los teens les importa más la autoexpresión; en B2B — status/valor/un challenge corto sin cringe.",
+        "Si el negocio no está en redes como canal — la gamificación allí no lo salva. Primero canal y base de contenido.",
+      ],
+    },
+    {
+      title: "Por dónde empezar",
+      level: 2,
+      paras: [
+        "Primero una página viva: sin posts regulares el juego se ve vacío. Ajusta el ritmo de publicación a la capacidad, no a «hay que publicar 1–2 al día».",
+        "Luego crece la interacción ligera: un visual fuerte, motivos para comentar, mini-challenges bajo el post.",
+        "Reposts y shares son una capa más dura. Un contest de «solo repost» a menudo atrae cazadores de premios al azar. Primero audiencia core a la que le gusta la marca — luego un premio con reglas transparentes.",
+      ],
+      lists: [
+        {
+          intro: "Mini plan de lanzamiento:",
+          items: [
+            "objetivo claro de la mecánica (reach, UGC, leads, visitas)",
+            "una regla simple sin letra pequeña",
+            "recompensa a la medida del esfuerzo",
+            "medir: participación, saves, clics — no solo likes",
+            "deadline y anuncio del ganador de antemano",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Recursos y herramientas",
+      level: 2,
+      paras: [
+        "Hace falta tiempo para análisis de audiencia, contenido y a veces un equipo (in-house o contractor). Presupuesto — para un premio, ads de anuncio o desarrollo si la mecánica es compleja.",
+        "Herramientas nativas de la plataforma (polls, Stories, quizzes de comunidad) suelen bastar al inicio.",
+        "Builders de puntos de terceros, covers dinámicas y bots son una clase de soluciones, no un stack obligatorio. Antes de conectar, lee las reglas de la red y el acceso de comunidad: la automatización deriva fácil a gris.",
+      ],
+    },
+    {
+      title: "Formatos: de simple a complejo",
+      level: 2,
+      paras: [
+        "Simple: juegos de palabra/visual, polls, guess-the-thing, interactivos de Stories. Baratos para testear hipótesis.",
+        "Medio: contests para fans activos (no solo «repost»), sorteos justos con random transparente — ver un artículo aparte.",
+        "Complejo: tu propia mini-app, un quest largo, tareas offline en la ciudad. Hace falta presupuesto, moderación y claridad legal sobre premios.",
+        "Casos históricos como «encuentra el objeto en la imagen» o máquinas de regalos de marca muestran la idea de la mecánica; no copies el creativo de otro 1:1 — importan tus reglas y tu marca.",
+      ],
+      lists: [
+        {
+          intro: "Qué suele funcionar:",
+          items: [
+            "pocos pasos y un win/status claro",
+            "vínculo al producto (descuento, sample, experiencia)",
+            "moderación de spam y engagement falso",
+            "un formato a la vez — no tres juegos en paralelo",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "La gamificación sube el engagement cuando hay base de contenido, reglas claras y un objetivo más allá de los likes.",
+        "Empieza con mecánicas nativas simples; servicios y quests complejos — cuando ya existen el core y el presupuesto.",
+      ],
+    },
+  ],
+  closing: [
+    "Lanza un interactivo simple para el interés de tu audiencia, mide la participación y solo entonces añade complejidad — para que la gamificación sea una herramienta de crecimiento, no un generador de reposts al azar.",
+  ],
+  related: [
+    "rozygrysh-instagram",
+    "vovlechennost-instagram",
+    "kviz-sayt",
+    "viralnyy-kontent",
+    "shaut-instagram",
+    "soobshhestva-vk",
+  ],
+};

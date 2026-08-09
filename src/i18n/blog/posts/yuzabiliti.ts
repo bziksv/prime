@@ -99,3 +99,103 @@ export const yuzabilitiEn: BlogPost = {
     "oshibki-internet-magazina",
   ],
 };
+
+/** ES overlay for yuzabiliti — same structure as RU JSON / EN. */
+export const yuzabilitiEs: BlogPost = {
+  slug: "yuzabiliti",
+  title: "Qué es la usabilidad web y cómo mejorarla",
+  date: "2017-09-11",
+  category: "Digital marketing",
+  cover: "/images/blog/yuzabiliti/cover.webp",
+  excerpt:
+    "Usabilidad es lo fácil que un sitio lleva a la gente a la meta: caminos cortos, velocidad, navegación, formularios y móvil. Checklist de autoauditoría y arreglos prácticos — sin magia de «rankings en una semana».",
+  lead: [
+    "Usabilidad es lo fácil que alguien completa la acción que quieres: comprar, enviar un lead, hallar un contacto, registrarse. En un sitio comercial no es decoración — es menos fricción entre tráfico y conversión.",
+    "Abajo: reglas baseline de un sitio que vende, una autoauditoría simple y arreglos puntuales. Los errores de checkout de tiendas se cubren aparte; aquí está el marco general para cualquier sitio comercial.",
+  ],
+  faq: [
+    {
+      q: "¿Usabilidad es lo mismo que diseño?",
+      a: "El diseño es parte del cuadro. Usabilidad es claridad, velocidad hasta la meta y sin callejones sin salida: navegación, formularios, móvil, copy de botones.",
+    },
+    {
+      q: "¿La regla de «tres clics» es obligatoria?",
+      a: "Es una guía, no dogma. Lo que importa es un camino obvio sin pasos de más — a veces basta una pantalla con un CTA fuerte.",
+    },
+    {
+      q: "¿Afecta al SEO?",
+      a: "De forma indirecta — vía comportamiento y satisfacción de la query. Un UX malo sube el rebote y mata la conversión; no sustituye técnica y contenido, pero amplifica lo que entrega la promoción.",
+    },
+    {
+      q: "¿En qué se diferencia de UX?",
+      a: "En el habla cotidiana se usan como sinónimos. UX es más amplio (experiencia completa y emoción); usabilidad es eficiencia en una tarea concreta. En la práctica, los arreglos se solapan.",
+    },
+    {
+      q: "¿Por dónde empiezo una auditoría?",
+      a: "Recorre escenarios clave en teléfono y desktop: hallar contactos, enviar un lead, hacer un pedido. Anota cada punto de fricción — ese es tu backlog.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es usabilidad y reglas básicas",
+      level: 2,
+      paras: [
+        "Usabilidad es la capacidad de un producto de usarse: hallar lo necesario, entender la interfaz, terminar una acción sin ayuda. En un sitio, el éxito es la acción objetivo por la que pagas.",
+        "Camino corto: el botón de lead o compra debe verse; no entierres el siguiente paso tres niveles de menú abajo. Cuando alguien está listo para actuar, corta pantallas de más.",
+        "Velocidad: scripts pesados e imágenes sin comprimir matan el interés más rápido que un diseño imperfecto. Optimiza la carga en páginas críticas del funnel.",
+        "Navegación y breadcrumbs en sitios grandes reducen el efecto «estoy perdido». Formularios — campos al mínimo; consentimiento de datos personales y enlace a la política de privacidad son requisitos legales, no decoración.",
+        "El móvil no es negociable: la cuota móvil es alta en la mayoría de nichos. Los buscadores pesan la experiencia móvil; afirmaciones viejas sobre caer de la primera página no son política eterna — mira requisitos actuales y tus métricas.",
+      ],
+      links: [
+        {
+          label: "Sitio responsive",
+          href: "/es/blog/adaptivnyy-sayt/",
+        },
+        {
+          label: "Señales de comportamiento",
+          href: "/es/blog/povedencheskie-faktory/",
+        },
+      ],
+    },
+    {
+      title: "Autoauditoría y mejoras rápidas",
+      level: 2,
+      paras: [
+        "Empieza gratis: recorre escenarios como visitante nuevo y escribe un checklist de lo que funciona y lo que irrita. Añade heatmaps y session replay cuando haya tráfico — pero ojos y un teléfono ya pillan la mayoría de bugs obvios.",
+        "Arreglos prácticos: el logo enlaza a home; contactos en header y footer como texto copiable; el header tiene búsqueda y un camino rápido a lead si ese es tu canal; menú en árbol sin dropdowns saltarines; en 404 — caminos a secciones clave, no un callejón sin salida.",
+        "Por qué importa al negocio: un sitio usable sube la cuota de visitantes que hacen lo que vinieron a hacer. La búsqueda responde a utilidad y comportamiento; la usabilidad amplifica el ROI de SEO y ads, pero no sustituye la prep ni el crecimiento de rankings — la visibilidad en primera página del set de keywords se planifica a lo largo de meses.",
+        "Si llevas una tienda online, profundiza en checkout, fichas de producto y filtros en la guía dedicada. Un principio en todas partes: menos fricción, más acciones completadas.",
+      ],
+      lists: [
+        {
+          intro: "Mini-checklist de autoauditoría:",
+          items: [
+            "se ve correcto en navegadores populares",
+            "cómodo en un smartphone",
+            "contactos hallados en segundos",
+            "desde cualquier página — camino a secciones clave",
+            "desde 404 puedes volver a catálogo o servicios",
+            "lead, compra o llamada sin clics de más",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Usabilidad de tienda ecommerce",
+          href: "/es/blog/yuzabiliti-internet-magazina/",
+        },
+        {
+          label: "Engagement de usuarios",
+          href: "/es/blog/vovlechenie-polzovateley/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "adaptivnyy-sayt",
+    "povedencheskie-faktory",
+    "yuzabiliti-internet-magazina",
+    "vovlechenie-polzovateley",
+    "oshibki-internet-magazina",
+  ],
+};

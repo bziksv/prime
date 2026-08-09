@@ -206,3 +206,210 @@ export const kontekstISeoEn: BlogPost = {
     "semanticheskoe-yadro",
   ],
 };
+
+/** ES overlay for kontekst-i-seo — same structure as RU JSON / EN. */
+export const kontekstISeoEs: BlogPost = {
+  slug: "kontekst-i-seo",
+  title: "¿El paid search afecta al SEO?",
+  date: "2019-04-24",
+  category: "SEO",
+  cover: "/images/blog/kontekst-i-seo/cover.webp",
+  excerpt:
+    "No hay un «pago ads → primera página» directo. Mitos, efectos indirectos (marca, datos, tests de hipótesis más rápidos) y cómo unir paid search con orgánico sin fingir engagement.",
+  lead: [
+    "Respuesta corta: el paid search no compra rankings orgánicos de forma directa. Yandex y Google no suben un sitio en el SERP orgánico porque corras ads.",
+    "Indirectamente los canales se conectan: reúnes demanda y semántica más rápido, fortaleces la marca y pruebas landings. Abajo — mitos, vínculos reales y cómo usar ambos canales sin la ilusión de que ads equivalen a SEO — y sin esquemas de engagement falso.",
+  ],
+  faq: [
+    {
+      q: "Si pago ads, ¿se apaga el orgánico?",
+      a: "No. Los bloques de pago y orgánicos viven con reglas distintas. Pagar ads no penaliza ni sustituye el SEO.",
+    },
+    {
+      q: "¿Yandex Direct da ventaja de ranking?",
+      a: "No hay boost directo de ranking por el hecho de anunciar. Trata el paid search como un canal aparte de adquisición y tests.",
+    },
+    {
+      q: "¿Y las señales de comportamiento del tráfico de ads?",
+      a: "El comportamiento del usuario importa para el producto y analytics. Bombear engagement a propósito con ads por SEO es zona gris y un riesgo. El objetivo de los ads son leads y aprendizaje — no imitar orgánico.",
+    },
+    {
+      q: "¿El paid search ayuda a la indexación?",
+      a: "Indirectamente: las URLs nuevas reciben visitas y señales de interés antes, pero el camino correcto es sitemap, enlaces, Search Console / Webmaster. No sustituyas técnica con ads.",
+    },
+    {
+      q: "¿El awareness de marca de los ads afecta al SEO?",
+      a: "Sí como awareness: más consultas de marca y visitas directas. Es un efecto colateral, no un botón de primera página comercial.",
+    },
+    {
+      q: "¿Un sitio joven debería empezar con paid search?",
+      a: "A menudo sí para los primeros leads mientras crece el orgánico. En paralelo prepara técnica y el set de keywords: el SEO es más barato a distancia, pero más lento al inicio.",
+    },
+    {
+      q: "¿El mismo set de keywords en Direct y SEO?",
+      a: "Se solapan, pero no copies a ciegas. A los ads les importan negativos y economía del clic; al SEO — landings e intent. Un vocabulario compartido de demanda ayuda a ambos.",
+    },
+    {
+      q: "¿Cuándo esperar primera página orgánica si ya corremos ads?",
+      a: "Los ads no acortan el horizonte planificado del SEO. La prep lleva de semanas a cerca de un mes; la cuota del núcleo en primera página se planifica a 2–6 meses tras arrancar el trabajo sistemático.",
+    },
+  ],
+  sections: [
+    {
+      title: "Mitos: «compré ads — compré/perdí rankings»",
+      level: 2,
+      paras: [
+        "Mito 1: «Si pagas, no entras en orgánico». Falso: los bloques difieren; un presupuesto de Direct/Ads no cancela el derecho a visibilidad orgánica.",
+        "Mito 2: «Los ads dan privilegio de ranking». También falso como regla directa. No bases la estrategia SEO en el hecho de que se muestren ads.",
+      ],
+      lists: [
+        {
+          intro: "Recuerda:",
+          items: [
+            "pago ≠ ranking orgánico",
+            "parar ads ≠ caída SEO por sí sola",
+            "calidad del sitio y demanda deciden más que un checkbox de anunciante",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Sin efecto directo — sí indirecto",
+      level: 2,
+      paras: [
+        "No hay un mecanismo directo «puja → +N puestos orgánicos». Indirectamente el paid search ayuda al negocio y al marketing: tráfico rápido, tests de oferta, recoger consultas que convierten, awareness.",
+        "Si la landing es floja, el tráfico de ads trae rebotes y CPA caro — señal para arreglar el sitio, no prueba de que hay que fingir comportamiento.",
+      ],
+      lists: [
+        {
+          intro: "Efectos indirectos útiles:",
+          items: [
+            "aprender keywords y negativos que funcionan más rápido",
+            "probar titulares y la primera pantalla",
+            "fortalecer marca y cuota de consultas de marca",
+            "cubrir demanda mientras el orgánico escala",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Tráfico de marca",
+          href: "/es/blog/brendovyy-trafik/",
+        },
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "No uses ads como esquema para fingir señales de comportamiento por SEO. Es deshonesto con las reglas y arriesgado.",
+        },
+      ],
+    },
+    {
+      title: "Datos: semántica, landings, analytics",
+      level: 2,
+      paras: [
+        "De las cuentas de Direct / Google Ads saca las formulaciones que trajeron leads y los clics caros que no fueron a ningún lado — demanda viva para el set de keywords SEO y negativos. Cruza landings: lo que convierte en ads, refuerza en búsqueda orgánica.",
+        "Goals compartidos en Yandex Metrica / Google Analytics, UTM y analytics end-to-end muestran la aportación del canal sin peleas de «quién trajo el lead». Compara CPA y calidad del lead — no solo rankings.",
+      ],
+      lists: [
+        {
+          intro: "Unión de canales:",
+          items: [
+            "set de keywords compartido + acentos distintos",
+            "mismos goals y call tracking",
+            "hipótesis de ads → fixes de páginas SEO",
+            "informe: orgánico vs pago por leads",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Investigación de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Eficacia del SEO",
+          href: "/es/blog/effektivnost-seo/",
+        },
+        {
+          label: "Pujas en Yandex Direct",
+          href: "/es/blog/stavki-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Indexación y calentar URLs jóvenes",
+      level: 2,
+      paras: [
+        "Los ads pueden traer las primeras personas a una URL nueva antes que el orgánico. Eso no sustituye sitemap, enlaces internos y una solicitud de recrawl en Search Console / Webmaster.",
+        "Para un sitio joven, el paid search a menudo cubre caja al inicio. En paralelo prepara técnica y contenido: a distancia el SEO suele costar menos por lead, pero la subida de rankings es planificada y larga.",
+      ],
+      lists: [
+        {
+          intro: "Arranque en paralelo:",
+          items: [
+            "pago — leads y tests rápidos",
+            "SEO — estructura, copy, señales comerciales",
+            "no esperes primera página apagando ads «por esperanza»",
+            "no confundas gasto en clics con presupuesto de contenido",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO de sitio joven",
+          href: "/es/blog/molodoy-sayt/",
+        },
+      ],
+    },
+    {
+      title: "Cómo usarlos juntos sin ilusiones",
+      level: 2,
+      paras: [
+        "Mantén ambos canales en una sola estrategia: los ads poseen velocidad y tests, el SEO la demanda duradera. Mejora el sitio para que conviertan visitas de pago y gratis.",
+        "No te prometas que gastar presupuesto tirará del orgánico solo. El orgánico crece por páginas, demanda y confianza; los ads solo aceleran el feedback.",
+      ],
+      lists: [
+        {
+          intro: "Modelo de trabajo:",
+          items: [
+            "probar la oferta en paid search",
+            "pasar emparejamientos fuertes a SEO",
+            "defender la marca en ads",
+            "revisión mensual de CPA orgánico vs pago",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+        {
+          label: "Factores comerciales",
+          href: "/es/blog/kommercheskie-faktory/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "El paid search responde en días. SEO: la prep lleva de semanas a cerca de un mes; la cuota del núcleo en primera página se planifica a 2–6 meses tras arrancar el trabajo.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "brendovyy-trafik",
+    "effektivnost-seo",
+    "stavki-direkt",
+    "molodoy-sayt",
+    "optimizatsiya-konversii",
+    "semanticheskoe-yadro",
+  ],
+};

@@ -190,3 +190,194 @@ export const vebvizorEn: BlogPost = {
     "metrika-tseli",
   ],
 };
+
+/** ES overlay for vebvizor — same structure as RU JSON / EN. */
+export const vebvizorEs: BlogPost = {
+  slug: "vebvizor",
+  title: "Yandex Webvisor: cómo activarlo y ver grabaciones de sesión",
+  date: "2019-06-18",
+  category: "Digital marketing",
+  cover: "/images/blog/vebvizor/cover.webp",
+  excerpt:
+    "Qué es Webvisor en Yandex Metrika: cómo activar la grabación de sesión, qué revisar en el sitio, cómo filtrar visitas y por qué mirar con criterio — sin versiones 1.0/2.0 obsoletas ni límites rígidos de 2019.",
+  lead: [
+    "Webvisor registra el comportamiento del visitante en Yandex Metrika: dónde hicieron clic, cómo hicieron scroll, dónde se atascaron en un formulario o carrito. Es una herramienta para hipótesis UX — no «espiar a todos» cada día.",
+    "Abajo: para qué sirve, cómo activarlo en el contador, condiciones técnicas y cómo usar una muestra. La UI y los límites de almacenamiento/volumen cambian — revisa la Ayuda de Metrika. Los mapas de clics y scroll están relacionados; aquí el foco son las grabaciones de sesión.",
+  ],
+  faq: [
+    {
+      q: "¿Webvisor y las visitas normales son lo mismo?",
+      a: "No. El contador puede contar visitas mientras la grabación de sesión está apagada o rota por CSP/blockers. Diagnosticar «Metrika está en silencio» está en un artículo aparte.",
+    },
+    {
+      q: "¿Hay que mirar cada grabación?",
+      a: "No. Primero números y segmentos, luego una muestra: bounces de ads, carrito abandonado, visitas largas sin goal.",
+    },
+    {
+      q: "¿Es lícito respecto a datos personales?",
+      a: "La grabación de comportamiento es sensible. Necesitas política, consentimiento de cookies/analítica donde aplique y sentido común: no recojas campos de más en formularios que se graban.",
+    },
+    {
+      q: "¿Webvisor sustituye los tests A/B?",
+      a: "No. Sugiere hipótesis. La validación es medición de conversión y tests.",
+    },
+    {
+      q: "¿Siguen valiendo las guías viejas sobre Webvisor 1.0 y 2.0?",
+      a: "Historia del producto. Hoy activa el Webvisor actual en ajustes del contador según la Ayuda de Yandex — no copies el fork «1.0 vs 2.0».",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué Webvisor",
+      level: 2,
+      paras: [
+        "Los números muestran «dónde está mal»; una grabación muestra «cómo exactamente». Ves botones fallados, miedo a un formulario largo, un callejón sin salida del menú, comportamiento móvil tras un release.",
+        "Especialmente útil en URLs clave: landings de ads, ficha de producto, carrito, checkout, formularios de lead. En media y blogs — en páginas con bounce alto o profundidad rara.",
+      ],
+      lists: [
+        {
+          intro: "Qué sueles ver en una grabación:",
+          items: [
+            "clics y movimiento del cursor",
+            "scroll y navegación",
+            "relleno de formularios",
+            "dispositivo y fuente (en la ficha de visita)",
+            "abandonos antes del goal",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Herramientas de web analytics",
+          href: "/es/blog/instrumenty-veb-analitiki/",
+        },
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+    },
+    {
+      title: "Cómo activarlo en Metrika",
+      level: 2,
+      paras: [
+        "En ajustes del contador, activa Webvisor (a menudo cerca de mapas de clics/scroll y analítica de formularios — el set de opciones depende de la cuenta). Guarda y asegúrate de que el sitio tenga el código actual de este contador.",
+        "Si el contador se instaló hace tiempo y Webvisor se activó después — actualiza el código/contenedor (GTM), o las grabaciones pueden no aparecer. Primero confirma que fluyen visitas normales.",
+      ],
+      lists: [
+        {
+          intro: "Orden de lanzamiento:",
+          items: [
+            "contador creado y en todas las plantillas necesarias",
+            "Webvisor activado en ajustes",
+            "sin duplicado «nativo + GTM»",
+            "visita de prueba desde tu dispositivo",
+            "tras un rato — aparecen grabaciones en Webvisor",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Si Metrika no funciona",
+          href: "/es/blog/metrika-ne-rabotaet/",
+        },
+      ],
+      notes: [
+        {
+          title: "Error frecuente",
+          kind: "tip",
+          text: "Buscar un «fallo del sitio» cuando la opción simplemente está apagada o el script lo corta un blocker/CSP.",
+        },
+      ],
+    },
+    {
+      title: "Condiciones técnicas en el sitio",
+      level: 2,
+      paras: [
+        "La grabación es sensible a encoding, markup pesado, CSP estricto y prohibiciones de embeber en frames. Históricamente Yandex pedía UTF-8 y límites de tamaño HTML; los límites actuales y dominios de excepción están en la Ayuda de Metrika.",
+        "Si el sitio prohíbe framing, el player puede necesitar dominios de Webvisor permitidos según las instrucciones de Yandex — setup de compatibilidad, no «saltar protección de un sitio ajeno».",
+      ],
+      lists: [
+        {
+          intro: "Revisa antes de entrar en pánico:",
+          items: [
+            "HTTPS sin mixed content",
+            "CSP no corta scripts de Metrika",
+            "SPA: eventos y URLs se actualizan bien",
+            "el consentimiento de cookies no bloquea el contador para siempre sin salida",
+            "no trates sesiones de admin como comportamiento de cliente",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo usarlo: filtros y muestreo",
+      level: 2,
+      paras: [
+        "En la lista de visitas, filtra por URL, goal, fuente, dispositivo, duración. No mires clips al azar — mira segmentos con un problema: bounce alto, poco add_to_cart, errores de validación.",
+        "La retención y los límites diarios de grabación dependen del plan/ajustes y han cambiado con el tiempo — no trates «15 días y 150 mil» de artículos viejos como constante.",
+      ],
+      lists: [
+        {
+          intro: "Dónde mirar primero:",
+          items: [
+            "landings de ads",
+            "formularios y registro",
+            "ficha de producto y búsqueda del catálogo",
+            "carrito y pago",
+            "sesiones tras un rediseño",
+          ],
+        },
+      ],
+    },
+    {
+      title: "De la hipótesis al arreglo",
+      level: 2,
+      paras: [
+        "Una grabación sola no mejora la conversión. Captura la observación («botón bajo el fold en móvil», «la máscara de teléfono rompe el input»), despliega un arreglo, mide el goal/funnel.",
+        "No uses Webvisor para falsificar señales de comportamiento, y no concluyas desde la sesión de un amigo.",
+      ],
+      lists: [
+        {
+          intro: "Ciclo de trabajo:",
+          items: [
+            "las métricas señalaron un problema",
+            "3–10 grabaciones relevantes",
+            "hipótesis y tarea en el backlog",
+            "release",
+            "volver a medir",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Factores de comportamiento",
+          href: "/es/blog/povedencheskie-faktory/",
+        },
+        {
+          label: "Navegación del sitio",
+          href: "/es/blog/navigatsiya-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Webvisor es una lupa UX junto a los números de Metrika. Actívalo en el contador, revisa la técnica, mira una muestra de URLs dolorosas.",
+        "Revisión dirigida + arreglos en el sitio ganan a horas de mirar sesiones al azar.",
+      ],
+    },
+  ],
+  closing: [
+    "Activa Webvisor en el contador actual, confirma que aparecen grabaciones y revisa segmentos con abandonos — así la herramienta ayuda a mejorar el sitio en vez de volverse vídeo sin fin.",
+  ],
+  related: [
+    "metrika-karty",
+    "metrika-ne-rabotaet",
+    "instrumenty-veb-analitiki",
+    "optimizatsiya-konversii",
+    "povedencheskie-faktory",
+    "metrika-tseli",
+  ],
+};

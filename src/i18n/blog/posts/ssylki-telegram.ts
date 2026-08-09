@@ -199,3 +199,203 @@ export const ssylkiTelegramEn: BlogPost = {
     "seo-vkontakte",
   ],
 };
+
+/** ES overlay for ssylki-telegram — same structure as RU JSON / EN. */
+export const ssylkiTelegramEs: BlogPost = {
+  slug: "ssylki-telegram",
+  title: "Enlaces de Telegram: perfil, canal, chat e invite",
+  date: "2020-09-15",
+  category: "SMM",
+  cover: "/images/blog/ssylki-telegram/cover.webp",
+  excerpt:
+    "Cómo crear y compartir enlaces a un perfil, canal y chat de Telegram: t.me, usernames, invites, hiperenlaces en mensajes y abrir URLs en la app.",
+  lead: [
+    "En Telegram casi todo es un enlace: un `@username` público, una URL `t.me/…` o un invite puntual o permanente a un espacio privado. Si fallas el formato, la gente no llega al canal ni al chat de soporte.",
+    "Abajo: enlaces a perfil, canal y chat, cómo difieren los invites de las URLs públicas y cómo hipervincular texto en un mensaje. Para un panorama del mensajero y lanzar un canal, ver los posts relacionados.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia t.me de @username?",
+      a: "Dos formas de escribir la misma dirección pública. En el navegador, `https://t.me/name` es cómodo; en el chat, `@name` suele bastar.",
+    },
+    {
+      q: "¿Cómo doy acceso a un canal privado?",
+      a: "Usa un invite desde los ajustes del canal — no un username público si el canal no tiene uno.",
+    },
+    {
+      q: "¿Dónde saco el enlace del perfil?",
+      a: "Si hay username, usa `t.me/username`. Sin uno, comparte un contacto desde la app o pide que te encuentren en un chat.",
+    },
+    {
+      q: "¿Puedo convertir una palabra en enlace?",
+      a: "Sí: los clientes de escritorio y móvil permiten convertir el texto seleccionado en enlace. Útil cuando quieres una URL del sitio sin mostrar una cadena larga.",
+    },
+    {
+      q: "¿Un invite es siempre permanente?",
+      a: "No. Puedes limitar el número de joins y fijar caducidad. Para escaparates duraderos, prefiere un username público más moderación.",
+    },
+    {
+      q: "¿Puedo enlazar a un post concreto?",
+      a: "Los canales públicos usan URLs como `t.me/channel/123`. Los privados usan los flujos propios del cliente para compartir posts.",
+    },
+    {
+      q: "¿Abrirá t.me sin la app?",
+      a: "En el navegador verás la versión web o un prompt para abrir la app. En un sitio web, prefiere un enlace https completo.",
+    },
+    {
+      q: "¿En qué se diferencia del artículo del canal?",
+      a: "Ese cubre lanzamiento y contenido. Este solo va de formatos de enlace y cómo compartirlos.",
+    },
+  ],
+  sections: [
+    {
+      title: "Enlaces públicos: username y t.me",
+      level: 2,
+      paras: [
+        "Fija un username único en ajustes. La dirección pública del canal o perfil es `https://t.me/username`. En mensajes puedes escribir `@username` — el cliente lo hace clicable.",
+        "Elige un username libre y legible: la marca gana a una cadena al azar. Renombrar rompe bookmarks viejos, así que cámbialo poco.",
+      ],
+      lists: [
+        {
+          intro: "Checklist:",
+          items: [
+            "el username coincide en el sitio y la tarjeta de visita",
+            "el enlace abre en teléfono y escritorio",
+            "sin typos en impresión o QR",
+            "las mayúsculas de la URL suelen no importar, pero cópiala del cliente",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Panorama de Telegram",
+          href: "/es/blog/telegram/",
+        },
+      ],
+    },
+    {
+      title: "Enlace del perfil",
+      level: 2,
+      paras: [
+        "Un perfil personal con username se comparte igual vía `t.me/…`. Si el username está oculto o no existe, la gente te añade desde un chat, por número (si está permitido) o vía una ficha de contacto.",
+        "Para soporte de negocio, usa una cuenta aparte, un bot o un chat — no el perfil personal del founder.",
+      ],
+      lists: [
+        {
+          intro: "Tips prácticos:",
+          items: [
+            "en el footer del sitio — t.me al canal o bot",
+            "en firmas de email — un enlace https corto",
+            "no publiques un número personal más de lo necesario",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Canal: URL pública e invite",
+      level: 2,
+      paras: [
+        "Canal público: `t.me/channelname`. Privado: crea un invite en la gestión del canal. Puedes limitarlo por tiempo y número de usuarios.",
+        "Para landings y ads casi siempre quieres una dirección pública estable. Guarda los invites para comunidades cerradas y tests.",
+      ],
+      lists: [
+        {
+          intro: "Antes de anunciar:",
+          items: [
+            "descripción y avatar listos",
+            "3–5 posts listos",
+            "el enlace apunta a ese canal exacto",
+            "UTM en el sitio si trackeas clics",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Canal de Telegram desde cero",
+          href: "/es/blog/telegram-kanal/",
+        },
+      ],
+    },
+    {
+      title: "Chats y grupos",
+      level: 2,
+      paras: [
+        "Los grupos también pueden tener username o ser solo por invite. Los grupos de discusión de un canal a menudo tienen un enlace de «chat» aparte junto al canal.",
+        "No mezcles enlaces de canal y chat en ads: la gente debería aterrizar donde espera contenido o conversación.",
+      ],
+      lists: [
+        {
+          intro: "Etiqueta los creatives con claridad:",
+          items: [
+            "«canal» vs «chat de soporte»",
+            "reglas en el mensaje anclado",
+            "bot anti-spam si hace falta",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Hiperenlace en el texto y sharing",
+      level: 2,
+      paras: [
+        "En un mensaje, selecciona una palabra → Link / Create link → pega la URL. El post se ve más limpio que un muro de `https://…`.",
+        "En posts del canal, enlaza el sitio, otros posts y docs. Mantén el texto del anchor honesto — sin clickbait «aquí» apuntando a phishing.",
+      ],
+      lists: [
+        {
+          intro: "Checklist del mensaje:",
+          items: [
+            "un enlace principal",
+            "el link preview se ve bien (Open Graph del sitio)",
+            "un toque en móvil llega al destino",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Tags Open Graph",
+          href: "/es/blog/open-graph/",
+        },
+      ],
+    },
+    {
+      title: "Abrir URLs y errores típicos",
+      level: 2,
+      paras: [
+        "Desde el sitio y el email, usa `https://t.me/…`. Desde otro mensajero, el mismo formato. Los parámetros deep-link de bots (`t.me/bot?start=…`) son un tema de funnel aparte.",
+        "Errores habituales: invite caducado, cambio de username sin redirect, enlace a un draft o al chat equivocado, QR con encoding roto.",
+      ],
+      lists: [
+        {
+          intro: "Antes de una campaña:",
+          items: [
+            "haz clic en el enlace en iOS y Android",
+            "revisa límites del invite",
+            "fija la URL en una tabla compartida",
+            "no copies de canales fake lookalike",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Tip",
+          kind: "tip",
+          text: "Un enlace canónico en el brand kit ahorra una hora de soporte cada mes.",
+        },
+      ],
+      links: [
+        {
+          label: "Bots de Telegram",
+          href: "/es/blog/telegram-boty/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "telegram",
+    "telegram-kanal",
+    "telegram-boty",
+    "open-graph",
+    "seo-vkontakte",
+  ],
+};

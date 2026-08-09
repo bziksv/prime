@@ -137,3 +137,141 @@ export const googleAnalyticsNastroykaEn: BlogPost = {
     "metrika-ustanovka",
   ],
 };
+
+/** ES overlay for google-analytics-nastroyka — same structure as RU JSON / EN. */
+export const googleAnalyticsNastroykaEs: BlogPost = {
+  slug: "google-analytics-nastroyka",
+  title: "Cómo configurar Google Analytics 4: guía para principiantes",
+  date: "2019-08-15",
+  category: "Digital marketing",
+  cover: "/images/blog/google-analytics-nastroyka/cover.webp",
+  excerpt:
+    "Setup básico de GA4: cuenta, property, data stream, instalación con tag o GTM, comprobaciones en DebugView y qué activar después — sin screenshots de Universal Analytics.",
+  lead: [
+    "Para ver tráfico y eventos necesitas una cuenta Google, una property GA4, un data stream del sitio y un tag en tus páginas. Las guías viejas sobre «UA-XXXX y vistas» están obsoletas — abajo va la lógica GA4 para principiantes.",
+    "La UI de Analytics se mueve — apóyate en la Ayuda de Google y en el sentido de cada paso. Goals / key events, ecommerce y diferencias con UA viven en artículos vecinos.",
+  ],
+  faq: [
+    {
+      q: "¿Debo seguir configurando Universal Analytics?",
+      a: "No como base. Crea GA4. Salta instrucciones viejas con «vistas» y analytics.js.",
+    },
+    {
+      q: "¿Código en `<head>` o Google Tag Manager?",
+      a: "Ambos valen. GTM es más fácil cuando hay muchos tags (Ads, píxeles, eventos). Para un solo contador, gtag.js en el sitio está bien.",
+    },
+    {
+      q: "¿Cuántas properties puedo crear?",
+      a: "Los límites de cuenta y property están en la Ayuda actual de Google. Al empezar — una property GA4 por sitio (o un par sitio+app si ese es el trabajo).",
+    },
+    {
+      q: "¿Cuándo aparecen los datos?",
+      a: "Realtime / DebugView — casi al momento tras una instalación correcta. Los informes completos van con lag; no esperes «como ayer en UA» en el primer minuto.",
+    },
+    {
+      q: "¿Necesito consentimiento de cookies?",
+      a: "Sí — sigue tu política de privacidad y las reglas regionales de consentimiento. No pongas datos personales en parámetros de eventos.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cuenta, property y data stream",
+      level: 2,
+      paras: [
+        "Entra en Google Analytics → crea una cuenta (tu empresa) → una property GA4 → un data stream Web con la URL del sitio y un nombre de stream.",
+        "Define zona horaria de informes y moneda con intención — marcan los límites del día y el dinero en ecommerce. Industria y tamaño del negocio alimentan tips de Google, no precisión mágica.",
+      ],
+      lists: [
+        {
+          intro: "Jerarquía en corto:",
+          items: [
+            "cuenta — la organización",
+            "property GA4 — el contenedor de datos",
+            "stream — sitio o app",
+            "measurement ID (G-XXXX) — para el tag",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Qué cambió en GA4",
+          href: "/es/blog/ga4/",
+        },
+      ],
+    },
+    {
+      title: "Poner el tag en el sitio",
+      level: 2,
+      paras: [
+        "Opción A: pega el snippet global gtag.js (o el código del wizard) en cada página, normalmente en `<head>`. En un CMS — vía tema, plugin o GTM, no «solo en la home».",
+        "Opción B: Google Tag Manager — contenedor en el sitio, luego un GA4 Configuration / Google tag con el ID del stream. Más fácil añadir eventos sin editar código cada vez.",
+        "Confirma que HTTPS no tenga mixed content y que el tag no dispare dos veces (page_view doble destroza los informes).",
+      ],
+      lists: [
+        {
+          intro: "Comprobaciones de instalación:",
+          items: [
+            "Realtime te muestra en el sitio",
+            "DebugView ve eventos mientras depuras",
+            "sin un segundo contador idéntico",
+            "las IPs internas se pueden excluir después",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Google Tag Manager",
+          href: "/es/blog/google-tag-manager/",
+        },
+      ],
+    },
+    {
+      title: "Qué activar justo después de instalar",
+      level: 2,
+      paras: [
+        "En el stream, activa enhanced measurement a propósito (page views, scroll, clics salientes, búsqueda del sitio — según haga falta). Vincula Google Ads si haces ads; remarketing y Google signals solo dentro de consentimiento y política.",
+        "Siguiente: key events (conversiones), eventos de ecommerce para una tienda, filtros de tráfico interno. No cables User-ID y cross-domain complejo «por si acaso» sin un trabajo real.",
+      ],
+      lists: [
+        {
+          intro: "Orden para principiantes:",
+          items: [
+            "el tag funciona en Realtime",
+            "2–5 key events marcados",
+            "el equipo tiene acceso a la property",
+            "política de cookies / consentimiento cubierta",
+            "plan: ecommerce o goals — vía los enlaces de abajo",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          text: "No migres a ciegas ajustes de sesión y «vistas» de Universal Analytics. GA4 es otro modelo: eventos y parámetros — no goals UA viejos uno a uno.",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "Goals y key events",
+          href: "/es/blog/google-analytics-tseli/",
+        },
+        {
+          label: "GA para una tienda online",
+          href: "/es/blog/google-analytics/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Para un principiante basta: una property GA4, un stream web, un tag correcto (o GTM), una comprobación en Realtime y un par de key events. Luego crece ecommerce y segmentos — no copies guías de la era UA.",
+  ],
+  related: [
+    "ga4",
+    "google-analytics-tseli",
+    "google-analytics",
+    "google-tag-manager",
+    "utm-metki",
+    "metrika-ustanovka",
+  ],
+};

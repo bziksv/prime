@@ -139,3 +139,143 @@ export const sslSertifikatEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for ssl-sertifikat — same structure as RU JSON / EN. */
+export const sslSertifikatEs: BlogPost = {
+  slug: "ssl-sertifikat",
+  title: "Certificado SSL: para qué sirve, tipos y cómo elegir",
+  date: "2021-11-15",
+  category: "SEO",
+  cover: "/images/blog/ssl-sertifikat/cover.webp",
+  excerpt:
+    "Qué es un certificado SSL/TLS, en qué se diferencia HTTPS de HTTP, tipos de certificado (DV, OV, EV, wildcard), Let’s Encrypt y qué mirar al elegir.",
+  lead: [
+    "Un certificado SSL (hoy más a menudo llamado TLS) permite al navegador abrir una conexión HTTPS cifrada. Sin él, formularios, logins y pagos parecen inseguros — y los buscadores lo tienen en cuenta.",
+    "Abajo: qué significa HTTPS, tipos de certificado, mitos sobre la «invulnerabilidad» y una forma práctica de elegir. Los pasos de instalación dependen del hosting — sigue el panel de control y la docs, no capturas de 2019.",
+  ],
+  faq: [
+    {
+      q: "¿SSL y TLS son lo mismo?",
+      a: "En el habla cotidiana se quedó «SSL». En la práctica los sitios usan TLS; el certificado sigue en la clase HTTPS.",
+    },
+    {
+      q: "¿Basta con Let’s Encrypt gratis?",
+      a: "Para la mayoría de sitios y tiendas al arrancar — sí: cifrado y confianza del navegador. OV/EV de pago — cuando hace falta validación de organización.",
+    },
+    {
+      q: "¿HTTPS significa que el sitio no se puede hackear?",
+      a: "No. Cifra el canal cliente↔servidor. Agujeros del CMS, contraseñas flojas y XSS no los arregla HTTPS solo.",
+    },
+    {
+      q: "¿Afecta al SEO?",
+      a: "HTTPS es la norma esperada. HTTP a menudo se marca inseguro; mixed content y redirects rotos perjudican SEO y UX.",
+    },
+    {
+      q: "¿Hace falta EV con la «barra verde»?",
+      a: "La validación extendida de organización sigue existiendo, pero la barra de dirección verde brillante casi ha desaparecido en navegadores modernos. Para muchos trabajos basta DV más HTTPS correcto.",
+    },
+  ],
+  sections: [
+    {
+      title: "Para qué hace falta un certificado",
+      level: 2,
+      paras: [
+        "El certificado confirma que hablas con el servidor correcto y habilita el cifrado del tráfico. Logins, formularios y datos de pago no deberían viajar por HTTP abierto.",
+        "En la barra de dirección verás un candado o un indicador de conexión segura. Las advertencias del navegador cortan la conversión más que un «diseño feo».",
+      ],
+    },
+    {
+      title: "HTTP y HTTPS",
+      level: 2,
+      paras: [
+        "HTTP envía datos sin cifrado del canal. HTTPS es HTTP sobre TLS: el tráfico entre navegador y servidor queda protegido frente a una interceptación simple en la red.",
+        "Tras pasar a HTTPS, monta un redirect http→https, canonicals y www/non-www coherentes — si no, tendrás duplicados y mixed content.",
+      ],
+      links: [
+        {
+          label: "Servidor web: bases del sitio",
+          href: "/blog/veb-server/",
+        },
+      ],
+    },
+    {
+      title: "Cómo funciona, en corto",
+      level: 2,
+      paras: [
+        "Al abrir el sitio, el navegador comprueba el certificado (emisor, caducidad, coincidencia de dominio) y luego ambas partes acuerdan claves de sesión. Después el tráfico va cifrado.",
+        "Los buscadores indexan HTTP y HTTPS, pero para usuarios y bots se prefiere un HTTPS correcto sin errores de certificado.",
+      ],
+    },
+    {
+      title: "Clasificación de certificados",
+      level: 2,
+      paras: [
+        "Se parten por profundidad de validación del dueño y por cobertura de dominio.",
+      ],
+      lists: [
+        {
+          intro: "Por validación:",
+          items: [
+            "DV — comprobación de propiedad del dominio; rápido, a menudo gratis",
+            "OV — más validación de organización",
+            "EV — comprobación extendida de entidad legal (para algunas marcas y fintech)",
+          ],
+        },
+        {
+          intro: "Por cobertura:",
+          items: [
+            "un dominio",
+            "varios nombres (SAN / multi-domain)",
+            "wildcard — todos los subdominios en `*.example.com`",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Un sitio brochure y un blog suelen necesitar DV (Let’s Encrypt o un análogo del panel de hosting). Una tienda necesita HTTPS correcto en todo el sitio más checkout seguro vía el proveedor de pago.",
+        },
+      ],
+    },
+    {
+      title: "Mitos: hacking y «con el candado basta»",
+      level: 2,
+      paras: [
+        "Un certificado no parchea agujeros de plugins ni sustituye backups, updates y derechos de acceso. Va del canal y de la identidad del servidor.",
+        "Mezclar HTTP y HTTPS (imágenes o scripts en http en una página https) dispara advertencias y rompe la confianza — arregla el mixed content.",
+      ],
+      lists: [
+        {
+          intro: "Quién necesita HTTPS por diseño:",
+          items: [
+            "tiendas y pagos",
+            "logins y formularios con datos personales",
+            "cualquier sitio con cuenta",
+            "en la práctica — casi cualquier proyecto público hoy",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo elegir y dónde conseguirlo",
+      level: 2,
+      paras: [
+        "Criterios: tipo de sitio, si necesitas subdominios, dueño (persona o empresa) y comodidad de auto-renovación.",
+        "Let’s Encrypt gratis y análogos del panel de hosting cubren DV para la mayoría. Certificados de pago son para OV/EV, seguro de la CA, requisitos especiales del cliente o un wildcard de un emisor concreto.",
+      ],
+      lists: [
+        {
+          intro: "Checklist tras la instalación:",
+          items: [
+            "el sitio abre en https sin errores",
+            "el redirect http está montado",
+            "no hay mixed content",
+            "caducidad y auto-renovación están claras",
+            "en Search Console / analítica — host HTTPS principal",
+          ],
+        },
+      ],
+    },
+  ],
+};

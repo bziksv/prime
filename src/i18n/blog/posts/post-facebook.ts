@@ -136,3 +136,140 @@ export const postFacebookEn: BlogPost = {
     "nativnaya-reklama",
   ],
 };
+
+/** ES overlay for post-facebook — same structure as RU JSON / EN. */
+export const postFacebookEs: BlogPost = {
+  slug: "post-facebook",
+  title: "Cómo publicar en Facebook: formatos y settings",
+  date: "2020-10-27",
+  category: "SMM",
+  cover: "/images/blog/post-facebook/cover.webp",
+  excerpt:
+    "Cómo publicar posts de Facebook en un muro personal, en un grupo y en una Page: formatos, pinning, scheduling y boosting — sin capturas obsoletas de botones.",
+  lead: [
+    "Publicar en Facebook empieza con el campo «What’s on your mind» en un perfil, en un grupo o en una Page de negocio. Los formatos difieren: texto, foto/vídeo, poll, evento, Live — y se pueden combinar.",
+    "Abajo: cómo crear un post, settings útiles y cuándo tiene sentido un boost de pago. Los menús de Meta cambian; revisa tamaños de imagen y límites en Help. El disclaimer de Meta está en la página. Arrancar una Page o grupo se cubre en un artículo aparte.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de las plataformas. Facebook* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso de los servicios puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia un post de Page de uno de grupo?",
+      a: "Una Page tiene más herramientas de marca (notes, jobs, products — donde estén disponibles). En un grupo importan más las reglas de comunidad y la moderación de miembros.",
+    },
+    {
+      q: "¿Puedo apagar los comentarios por completo?",
+      a: "A menudo solo puedes limitar (filtros de palabras, quién puede comentar). Las opciones exactas dependen del tipo de perfil y la región.",
+    },
+    {
+      q: "¿El scheduling está disponible para todos?",
+      a: "El scheduling suele ser más fácil en Pages con roles de editor o admin. Los perfiles personales tienen un set de funciones más fino.",
+    },
+    {
+      q: "¿Puedo boostear cualquier post de Facebook?",
+      a: "No. Necesitas una Page de negocio, permisos de ads y un formato que la cuenta de ads acepte para promoción.",
+    },
+    {
+      q: "¿1200×630 es el tamaño de imagen obligatorio?",
+      a: "Es una pista habitual para previews de enlace. Revisa las recomendaciones actuales en Meta Ads/Pages Help.",
+    },
+  ],
+  sections: [
+    {
+      title: "Dónde se publica: perfil, grupo, Page",
+      level: 2,
+      paras: [
+        "Perfil personal — para contenido personal y de experto en el feed de amigos. Grupo — discusión dentro de una comunidad. Page de negocio — escaparate de marca y entrada a ads.",
+        "El campo de create-post suele estar bajo el header. Desde ahí añades media, un poll, fondo, tags y emoji.",
+      ],
+      links: [
+        {
+          label: "Grupo y Page de Facebook",
+          href: "/es/blog/gruppa-facebook/",
+        },
+      ],
+    },
+    {
+      title: "Formatos de post",
+      level: 2,
+      paras: [
+        "Texto, foto y vídeo, Live, evento, poll, lista — el set base. En una Page también puedes ver notes, products y jobs — si están habilitados en la región.",
+        "Escribe para que el punto se lea en el preview: los muros largos de texto rara vez se terminan. Estructura, párrafos y emoji bien puestos ayudan a escanear.",
+      ],
+      lists: [
+        {
+          intro: "Antes de publicar:",
+          items: [
+            "una idea principal",
+            "media de peso razonable",
+            "tags — antes de publicar si la UI lo exige",
+            "comprobar enlace y preview",
+            "auditoría de tono: no spam y no clickbait sin oferta",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Settings tras publicar",
+      level: 2,
+      paras: [
+        "Puedes editar un post vía el menú «⋯». En Pages, a menudo hay pinning y scheduling.",
+        "Los comentarios se limitan con filtros de palabras no deseadas y reglas sobre quién puede escribir. Un ban total puede no estar disponible — revisa los settings actuales de timeline y posts públicos.",
+      ],
+    },
+    {
+      title: "Posts programados y enlace a la entrada",
+      level: 2,
+      paras: [
+        "Scheduling: compón el post → elige la hora de publicación. Útil para un equipo editorial de Page.",
+        "El enlace del post suele copiarse desde la fecha de publicación o el menú share. A veces las fechas de posts de Page se pueden mover — ten cuidado con la confianza de la audiencia.",
+      ],
+    },
+    {
+      title: "Boostear un post",
+      level: 2,
+      paras: [
+        "El botón «Boost» en un post de Page abre un flujo de ads simplificado o completo: audiencia, duración, presupuesto. Necesitas derechos de admin y acceso a ads vinculado.",
+        "Lo orgánico sin oferta y engagement rara vez vuela solo con un botón. Primero contenido, luego escala. Los desgloses de errores de campaña viven en casos de Facebook Ads.",
+      ],
+      links: [
+        {
+          label: "Casos de Facebook Ads",
+          href: "/es/blog/keisy-facebook-ads/",
+        },
+        {
+          label: "Facebook Ads: cómo funciona",
+          href: "/es/blog/facebook-ads/",
+        },
+      ],
+      notes: [
+        {
+          title: "Nota",
+          kind: "tip",
+          text: "La disponibilidad de Facebook/Meta Ads depende de la cuenta de ads y la región. Este material es informativo.",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Elige la superficie (perfil / grupo / Page), arma un post claro y configura lo necesario antes o justo después de publicar.",
+        "El boost de pago amplifica un post listo; no sustituye el sentido.",
+      ],
+    },
+  ],
+  closing: [
+    "Haz un post con un first screen fuerte en la superficie correcta, revisa preview y comentarios — y solo entonces decide si hace falta un boost.",
+  ],
+  related: [
+    "gruppa-facebook",
+    "keisy-facebook-ads",
+    "facebook-ads",
+    "svyazka-instagram-facebook",
+    "reklama-instagram",
+    "nativnaya-reklama",
+  ],
+};

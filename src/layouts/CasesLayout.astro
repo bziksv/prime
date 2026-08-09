@@ -1,6 +1,7 @@
 ---
 import PortalShell from "../components/PortalShell.astro";
 import CookieConsent from "../components/CookieConsent.astro";
+import DevLangSwitch from "../components/DevLangSwitch.astro";
 import CookieFooterNotice from "../components/CookieFooterNotice.astro";
 import SiteSeo from "../components/SiteSeo.astro";
 import { v6Icons } from "../data/v6-media";
@@ -37,16 +38,31 @@ const {
 
 const ui = getCaseUi(locale);
 const htmlLang = localeMeta[locale].hreflang;
-const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+const ogLocale = locale === "en" ? "en_US" : locale === "es" ? "es_ES" : "ru_RU";
 const resolvedCtaLabel = ctaLabel ?? ui.ctaTop;
+const keysyLangTail = path.includes("/keysy")
+  ? path.replace(/^\/(en|es)/, "") || path
+  : "/keysy/";
+const langHrefs = {
+  ru: keysyLangTail,
+  en: `/en${keysyLangTail}`,
+  es: `/es${keysyLangTail}`,
+};
 
 const crumbsLd = breadcrumbJsonLd(breadcrumb, {
   origin: Astro.site?.origin ?? "https://prime-ltd.su",
   currentPath: path,
 });
 
-const alternates =
-  alternatePath != null
+const keysyTail = path.replace(/^\/(en|es)/, "") || path;
+const alternates = path.includes("/keysy")
+  ? [
+      { hreflang: "ru", path: keysyTail },
+      { hreflang: "en", path: `/en${keysyTail}` },
+      { hreflang: "es", path: `/es${keysyTail}` },
+      { hreflang: "x-default", path: keysyTail },
+    ]
+  : alternatePath != null
     ? [
         { hreflang: "ru", path: locale === "ru" ? path : alternatePath },
         { hreflang: "en", path: locale === "en" ? path : alternatePath },
@@ -107,30 +123,11 @@ const alternates =
             }
           </p>
           <div class="home-topbar-actions">
-            {
-              import.meta.env.DEV && alternatePath && (
-                <div class="home-lang" aria-label={ui.langSwitchAria} data-lang-switch>
-                  <a
-                    class:list={["home-lang__btn", locale === "ru" && "is-active"]}
-                    href={locale === "ru" ? path : alternatePath}
-                    hreflang="ru"
-                    lang="ru"
-                    data-locale-set="ru"
-                  >
-                    RU
-                  </a>
-                  <a
-                    class:list={["home-lang__btn", locale === "en" && "is-active"]}
-                    href={locale === "en" ? path : alternatePath}
-                    hreflang="en"
-                    lang="en"
-                    data-locale-set="en"
-                  >
-                    EN
-                  </a>
-                </div>
-              )
-            }
+            <DevLangSwitch
+              locale={locale}
+              ariaLabel={ui.langSwitchAria}
+              hrefs={langHrefs}
+            />
             <a href={ctaHref} class="v6-btn">{resolvedCtaLabel}</a>
           </div>
         </header>

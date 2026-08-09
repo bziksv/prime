@@ -143,3 +143,147 @@ export const videokontentEn: BlogPost = {
     "video-stories-instagram",
   ],
 };
+
+/** ES overlay for videokontent — same structure as RU JSON. */
+export const videokontentEs: BlogPost = {
+  slug: "videokontent",
+  title: "Contenido en vídeo: formatos y tipos para marketing",
+  date: "2019-12-20",
+  category: "Content marketing",
+  cover: "/images/blog/videokontent/cover.webp",
+  excerpt:
+    "Tipos de vídeo de marketing: review, how-to, testimonial, webinar, teaser y más — más guion, rodaje y colocación sin el culto a «el 80% del tráfico será vídeo» ni tarifas de 2019.",
+  lead: [
+    "El vídeo cubre lo que el texto lleva mal: proceso, emoción, escala del producto, una respuesta en vivo a una objeción. No es un sustituto obligatorio de los artículos — es un formato alineado al trabajo y a la audiencia.",
+    "Abajo: tipos de clip, cuándo grabar in-house o con un vendor, guion y colocación. Las cifras de «el vídeo será el 80% del tráfico» y las horas de visionado ajenas de roundups viejos no son universales. Las menciones de Instagram* son informativas.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Hace falta vídeo para cada producto?",
+      a: "No. Prioriza SKUs bestseller, servicios complejos, formación y etapas del funnel donde el texto se atasca.",
+    },
+    {
+      q: "¿Basta un smartphone?",
+      a: "Para muchos formatos sí: luz, estabilidad y sonido ganan a la marca de la cámara. Un estudio encaja en films de marca puestos en escena.",
+    },
+    {
+      q: "¿Cuánto cuesta un vendor?",
+      a: "Rango amplio: de un edit simple a producción completa. Ancla en brief y portfolio, no en un «precio medio de 2019».",
+    },
+    {
+      q: "¿Hace falta un guion?",
+      a: "Para piezas de venta, formación y puestas en escena — sí. Un saludo o un live corto puede ir con talking points.",
+    },
+    {
+      q: "¿Dónde publicar el vídeo?",
+      a: "En el sitio/ficha + hosting (YouTube y similares) + canales donde está la audiencia. Un solo archivo «solo en el sitio» suele ser poco.",
+    },
+    {
+      q: "¿En qué se diferencia de la publicidad en vídeo?",
+      a: "Aquí — tipos de contenido y producción. Las métricas de campaña y CPV/VTR viven en el artículo de efectividad de la videoreclama.",
+    },
+    {
+      q: "¿MP4 es obligatorio?",
+      a: "Un contenedor habitual y cómodo para la web. Revisa requisitos de la plataforma y el peso del archivo en el sitio.",
+    },
+  ],
+  sections: [
+    {
+      title: "Pros y contras",
+      level: 2,
+      paras: [
+        "Pros: claridad, emoción, más fácil mostrar producto y proceso, más chance de share con una historia fuerte.",
+        "Contras: tiempo, luz/sonido/edit, guion, actualizar clips viejos. Un vídeo malo es peor que ninguno.",
+      ],
+    },
+    {
+      title: "Tipos de vídeo de marketing",
+      level: 2,
+      paras: [
+        "Saludo e intro de la empresa.",
+        "Review y demo de producto/servicio.",
+        "Testimonials de clientes (solo con consentimiento — sin fakes puestos en escena).",
+        "Teaser, invitación a evento.",
+        "Entrevista y desglose de experto.",
+        "How-to y formación; screen-record para software.",
+        "Webinar / live; footage de proceso.",
+        "Clip corto de venta con CTA.",
+      ],
+      links: [
+        {
+          label: "Review en vídeo de producto",
+          href: "/es/blog/video-obzor-tovara/",
+        },
+      ],
+      notes: [
+        {
+          title: "Un clip — un trabajo",
+          kind: "tip",
+          text: "No mezcles un saludo con un pitch duro de catálogo. Objetivo y audiencia marcan duración y tono.",
+        },
+      ],
+    },
+    {
+      title: "Vendor o in-house",
+      level: 2,
+      paras: [
+        "Vendor: portfolio, brief claro, etapas (guion → rodaje → edit), derechos sobre los source files.",
+        "In-house: guion, luz, trípode, audio limpio, edit corto. Para fichas y FAQ suele bastar.",
+      ],
+    },
+    {
+      title: "Guion y colocación",
+      level: 2,
+      paras: [
+        "Arco de venta: gancho → necesidad → solución → prueba → objeciones → CTA. Formación — pasos sin relleno.",
+        "Título y descripción con keywords de intent útiles; thumbnail; enlace a sitio/producto; mide completion y clics.",
+      ],
+      lists: [
+        {
+          intro: "Errores típicos:",
+          items: [
+            "clip sin objetivo ni CTA",
+            "audio malo bajo una imagen bonita",
+            "demasiado largo sin estructura",
+            "publicado y nunca revisado",
+            "promesas en el vídeo que no están en el sitio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Videoreclama en YouTube",
+          href: "/es/blog/videoreklama-youtube/",
+        },
+        {
+          label: "Efectividad de la videoreclama",
+          href: "/es/blog/effektivnost-videoreklamy/",
+        },
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Formato para el trabajo — no «vídeo por el vídeo».",
+        "Guion y sonido deciden más a menudo que la cámara.",
+        "Sitio + hosting + canales de audiencia.",
+      ],
+    },
+  ],
+  closing: [
+    "Elige un trabajo del funnel (review de SKU bestseller, how-to o testimonial) y graba un clip corto con CTA claro — es la forma más fácil de saber si necesitas un vendor.",
+  ],
+  related: [
+    "video-obzor-tovara",
+    "videoreklama-youtube",
+    "effektivnost-videoreklamy",
+    "matritsa-kontenta",
+    "prodayushchiy-kontent",
+    "video-stories-instagram",
+  ],
+};

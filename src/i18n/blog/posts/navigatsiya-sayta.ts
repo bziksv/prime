@@ -219,3 +219,223 @@ export const navigatsiyaSaytaEn: BlogPost = {
     "paginatsiya",
   ],
 };
+
+/** ES overlay for navigatsiya-sayta — same structure as RU JSON / EN. */
+export const navigatsiyaSaytaEs: BlogPost = {
+  slug: "navigatsiya-sayta",
+  title: "Navegación del sitio: requisitos, tipos e impacto en la conversión",
+  date: "2020-10-30",
+  category: "SEO",
+  cover: "/images/blog/navigatsiya-sayta/cover.webp",
+  excerpt:
+    "Qué significa una navegación usable: menús, breadcrumbs, footer, filtros de catálogo. Cómo evitar que el usuario se pierda — y cómo la navegación se ata al SEO y a los leads.",
+  lead: [
+    "La navegación es el sistema de movimientos por el sitio: menú, enlaces, breadcrumbs, búsqueda, filtros. Si una persona encuentra un servicio o producto en piloto automático, la navegación funciona. Si deambula y se va — pierdes UX y parte de la señal SEO.",
+    "Abajo: requisitos de una navegación usable, los tipos principales y el vínculo con la conversión. La estructura de URLs y el sentido de las secciones para SEO están en la pieza de estructura SEO; aquí el foco es la orientación del usuario.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia la navegación de la estructura del sitio?",
+      a: "La estructura es la lógica de secciones y URLs. La navegación es cómo las recorre el usuario: menú, breadcrumbs, enlaces internos, búsqueda.",
+    },
+    {
+      q: "¿Cuántos ítems caben en el menú principal?",
+      a: "Apunta a 5–7 secciones claras. Corto y claro gana a una hoja de 20 ítems con el mismo peso.",
+    },
+    {
+      q: "¿Hacen falta breadcrumbs?",
+      a: "Sí en catálogos y secciones anidadas: orientación más enlaces internos extra. En un one-pager a menudo sobran.",
+    },
+    {
+      q: "¿El menú afecta al SEO?",
+      a: "Sí de forma indirecta: enlaces internos, crawl, claridad temática. Pero «una keyword en cada ítem del menú» es camino al spam.",
+    },
+    {
+      q: "¿Un menú hamburguesa está bien en desktop?",
+      a: "En el teléfono — sí. En una pantalla ancha esconder todo lo importante detrás de un icono a menudo corta el descubrimiento de secciones.",
+    },
+    {
+      q: "¿El footer cuenta como navegación?",
+      a: "Sí, secundaria: contactos, enlaces legales, mapa de secciones. No dupliques el menú principal como una lista gigante por SEO.",
+    },
+    {
+      q: "¿Los filtros del catálogo son navegación — o páginas duplicadas?",
+      a: "Para el usuario — navegación. Para SEO hace falta una política de indexación, o URLs sin fin. Ver duplicados y paginación.",
+    },
+    {
+      q: "¿Cómo compruebas la calidad de la navegación?",
+      a: "Corre escenarios «encuentra servicio / producto / contactos» en teléfono y desktop, revisa session replay y escucha preguntas de soporte tipo «¿dónde está vuestro…?».",
+    },
+  ],
+  sections: [
+    {
+      title: "Requisitos de una navegación usable",
+      level: 2,
+      paras: [
+        "Etiquetas claras, colocación predecible, camino corto al objetivo, contactos/carrito visibles. El usuario no debería adivinar qué hay detrás de una etiqueta creativa.",
+        "Las mismas reglas en todo el sitio: dónde está el menú, cómo se abren los submenús, a dónde va el logo. Una navegación móvil rota mata el journey más rápido que un desktop «imperfecto».",
+      ],
+      lists: [
+        {
+          intro: "Criterios de calidad:",
+          items: [
+            "el objetivo se encuentra en 1–3 clics",
+            "los ítems se leen sin explicaciones",
+            "la sección actual se ve clara",
+            "búsqueda y contactos a la vista",
+            "sin callejones sin salida ni enlaces rotos en el menú",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Sitio responsive",
+          href: "/blog/adaptivnyy-sayt/",
+        },
+      ],
+    },
+    {
+      title: "Tipos principales de navegación",
+      level: 2,
+      paras: [
+        "Menú horizontal/vertical, mega-menú para catálogos grandes, breadcrumbs, footer, categorías laterales del blog, tags, búsqueda on-site, paginación y filtros, controles de scroll-up, tabs en ficha de producto.",
+        "No hace falta todo a la vez. Elige un set según el tipo de sitio: servicios — menú claro + CTA; tienda — catálogo, búsqueda, filtros, carrito; media — categorías y búsqueda.",
+      ],
+      lists: [
+        {
+          intro: "Set habitual:",
+          items: [
+            "menú principal",
+            "breadcrumbs (catálogo)",
+            "búsqueda",
+            "footer con contactos",
+            "enlace persistente a lead/teléfono",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Estructura SEO del sitio",
+          href: "/es/blog/seo-struktura-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Menú y arquitectura de la información",
+      level: 2,
+      paras: [
+        "Los ítems del menú reflejan trabajos reales del cliente, no el organigrama de la empresa. Un vago «Productos / Soluciones / Sobre» es más flojo que «Servicios / Precios / Casos / Contactos» si así es como busca la gente.",
+        "Mantén el anidamiento poco profundo: dos–tres niveles como máximo para la mayoría de pymes. Las «sub-sub-secciones» profundas esconden páginas de bots y de personas.",
+      ],
+      lists: [
+        {
+          intro: "Anti-patrones:",
+          items: [
+            "un ítem «Más» con media web",
+            "nombres idénticos para secciones distintas",
+            "menú solo con imágenes, sin texto",
+            "enlaces a páginas vacías «próximamente»",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Catálogo: búsqueda, filtros, paginación",
+      level: 2,
+      paras: [
+        "En e-commerce la navegación también es búsqueda on-site y facetas. Deben acelerar la elección — no crear miles de copias indexadas de un mismo listado.",
+        "Alinea UX y SEO: qué combos de filtros se indexan, cuáles se cierran, cómo se comportan canonical y paginación.",
+      ],
+      lists: [
+        {
+          intro: "Alinea con el equipo:",
+          items: [
+            "qué filtros se vuelven landings",
+            "qué va en noindex / canonical",
+            "hay un control de «limpiar filtros»",
+            "el menú móvil se rompe con facetas abiertas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Páginas duplicadas",
+          href: "/es/blog/dubli-stranits/",
+        },
+        {
+          label: "Paginación",
+          href: "/es/blog/paginatsiya/",
+        },
+      ],
+    },
+    {
+      title: "Navegación y conversión",
+      level: 2,
+      paras: [
+        "Cuanto más corto el camino a un lead o una compra, menos pérdidas. La navegación no sustituye la oferta, pero quita fricción: «dónde está el precio», «cómo contactar», «entregáis a mi ciudad».",
+        "Mira session replay y mapas de clics: si la gente busca en el footer lo que falta en el header — sube lo importante más arriba en la página.",
+      ],
+      lists: [
+        {
+          intro: "Impulsores de conversión:",
+          items: [
+            "teléfono clicable en el header",
+            "botón de lead en pantallas clave",
+            "breadcrumbs y «volver al catálogo»",
+            "no tapes el menú con un chat agresivo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de la conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+        {
+          label: "Footer del sitio",
+          href: "/blog/futer-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Cómo comprobar y mejorar",
+      level: 2,
+      paras: [
+        "Recorre 5 escenarios de novato en el teléfono. Recoge preguntas de ventas «los clientes no encuentran…». Crawl de enlaces rotos en menú y footer.",
+        "Tras un rediseño, retestea: burger, anclas de landing y filtros a menudo se rompen. A veces un ajuste pequeño de etiquetas gana a un menú «creativo» nuevo.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de release:",
+          items: [
+            "secciones principales en 1 clic desde la home",
+            "el logo va a la home",
+            "el menú móvil se cierra y no rompe el scroll",
+            "sin ítems duplicados",
+            "contactos encontrados en ≤2 clics",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Diseña la navegación desde los trabajos del usuario — no desde meter cada keyword en el menú.",
+        },
+      ],
+      links: [
+        {
+          label: "Enlaces rotos",
+          href: "/es/blog/bitye-ssylki/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "seo-struktura-sayta",
+    "adaptivnyy-sayt",
+    "futer-sayta",
+    "optimizatsiya-konversii",
+    "paginatsiya",
+  ],
+};

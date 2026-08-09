@@ -161,3 +161,165 @@ export const reklamaInstagramEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for reklama-instagram — same structure as RU JSON / EN. */
+export const reklamaInstagramEs: BlogPost = {
+  slug: "reklama-instagram",
+  title: "Publicidad en Instagram: tipos, presupuesto y cómo medir resultados",
+  date: "2021-11-19",
+  category: "SMM",
+  cover: "/images/blog/reklama-instagram/cover.webp",
+  excerpt:
+    "Tipos de ads en Instagram: targeting de pago, creators y colocaciones de pago — qué impulsa el precio, qué trucos de crecimiento «gratis» son arriesgados y cómo trackear resultados reales.",
+  lead: [
+    "La publicidad en Instagram no es una sola herramienta — es un mix: el ads manager, integraciones con creators y colocaciones de pago en cuentas temáticas. Presupuesto y resultados dependen de la oferta, el creative y la calidad de la audiencia.",
+    "Abajo: tipos de placement, qué impulsa el coste, métricas y qué no confundir con promoción de pago. Las UI de ads cambian — céntrate en el sentido de los ajustes, no en screenshots viejos de botones.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es solo informativo y no es una invitación a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Usar targeting de pago o un creator?",
+      a: "El targeting da control y escala. Un creator construye confianza y calienta la audiencia. A menudo se combinan. Elegir un creator está en un artículo aparte.",
+    },
+    {
+      q: "¿Cuánto cuesta la publicidad en Instagram?",
+      a: "No hay un «precio por clic para siempre» fijo: subasta, nicho, temporada, creative. Las tarifas de creators dependen del alcance, formato y engagement rate — los benchmarks de 2021 no son una lista de precios viva.",
+    },
+    {
+      q: "¿Siguen funcionando el mass-liking y el mass-following?",
+      a: "Como estrategia de crecimiento — no: arriesgas límites y una audiencia ruidosa. Mejor: contenido sólido más ads legítimos.",
+    },
+    {
+      q: "¿Qué cuenta como éxito?",
+      a: "No solo likes: CTR, leads, coste por lead, ventas, calidad del diálogo. Fija UTM o códigos promo de antemano.",
+    },
+    {
+      q: "¿Hace falta una cuenta business?",
+      a: "Para el ads manager e insights adecuados — sí, suele hacer falta el modo professional o business.",
+    },
+  ],
+  sections: [
+    {
+      title: "Tipos de ads",
+      level: 2,
+      paras: [
+        "Tres tracks que funcionan: ads oficiales (targeting), ads con creators y colocaciones en comunidades temáticas o cuentas tipo tablón.",
+      ],
+      lists: [
+        {
+          intro: "Overview rápido:",
+          items: [
+            "targeting — impresiones en feed/Stories/Reels por segmento, puja y presupuesto en el ads manager",
+            "creator — post, Stories, Reels, serie; la fuerza es la recomendación",
+            "comunidades / colocaciones de pago — a menudo más baratas, pero la atención al ad cae si el feed se siente como un tablón de clasificados",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Cómo encontrar y vetear a un creator",
+          href: "/es/blog/bloger-dlya-reklamy-instagram/",
+        },
+        {
+          label: "Cuenta business de Instagram",
+          href: "/es/blog/biznes-akkaunt-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Qué impulsa el precio",
+      level: 2,
+      paras: [
+        "En targeting, el precio es una subasta: competencia del nicho, calidad del ad, objetivo de campaña (alcance, tráfico, leads). Fijas presupuesto diario y puja; «desde $1 a $100 al día» de guías viejas es solo una ilustración del rango.",
+        "Con creators, el precio crece con la audiencia, el formato (Stories vs integración en Reels) y la demanda. La regla «$10 = 10k followers» hace tiempo que no es universal — mira alcance y engagement rate, no solo el conteo de followers.",
+      ],
+      lists: [
+        {
+          intro: "Qué afecta la tarifa:",
+          items: [
+            "tamaño y calidad de la audiencia",
+            "geo y temporada",
+            "formato y derechos sobre el asset",
+            "urgencia y número de revisiones",
+            "engagement falso en el perfil — mejor no comprarlo en absoluto",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Compara el coste por la acción deseada (lead o venta), no el «alcance barato». Los bots baratos salen más caros al final.",
+        },
+      ],
+    },
+    {
+      title: "Métodos «gratis» — dónde está el truco",
+      level: 2,
+      paras: [
+        "Al inicio la gente busca crecimiento sin presupuesto. Algunos métodos son legítimos (trueque, collabs); otros son dañinos.",
+      ],
+      lists: [
+        {
+          intro: "Cuidado con:",
+          items: [
+            "mass-liking / mass-following — riesgo de sanción y audiencia basura",
+            "spam por DM — reports y bloqueos",
+            "concursos de «seguir a todos» — un pico de followers muertos",
+          ],
+        },
+        {
+          intro: "Lo que de verdad funciona:",
+          items: [
+            "trueque con un creator relevante (producto ↔ integración)",
+            "shoutouts mutuos con audiencia cercana, sin ser pesado",
+            "orgánico fuerte + una oferta clara en la cabecera",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Likes falsos: riesgos",
+          href: "/es/blog/nakrutka-laykov-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Por qué la plataforma funciona para ads",
+      level: 2,
+      paras: [
+        "Tráfico móvil, formato visual, segmentación flexible en el ads manager, hábito de la audiencia con integraciones nativas — si el perfil está vivo y la oferta está clara.",
+        "El reverso: sube la competencia por la atención y el coste en nichos calientes. Sin landing (sitio, messenger, formulario) el presupuesto se quema en views vanidosas.",
+      ],
+    },
+    {
+      title: "Cómo trackear la efectividad",
+      level: 2,
+      paras: [
+        "Antes del lanzamiento fija el objetivo y el método de tracking. Si no, discutiréis por el alcance, no por el dinero.",
+      ],
+      lists: [
+        {
+          intro: "Control mínimo:",
+          items: [
+            "UTMs en enlaces / códigos promo separados por creator",
+            "stats del ads manager: CTR, CPC/CPA, frecuencia",
+            "con un creator — alcance, saves, replies, clics, screenshots",
+            "calidad del lead (no solo el conteo)",
+            "comparar creatives y creators con la misma oferta",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Juzgar a un creator solo por el conteo de followers. Mira dinámica, comentarios y encaje de audiencia — ver el checklist en el artículo de cómo encontrar un creator.",
+        },
+      ],
+    },
+  ],
+};

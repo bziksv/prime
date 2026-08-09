@@ -177,3 +177,181 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for zakrytie-ot-indeksatsii — same structure as RU JSON / EN. */
+export const zakrytieOtIndeksatsiiEs: BlogPost = {
+  slug: "zakrytie-ot-indeksatsii",
+  title: "Bloquear un sitio o páginas a la indexación: robots, meta y cuándo hace falta",
+  date: "2021-09-22",
+  category: "SEO",
+  cover: "/images/blog/zakrytie-ot-indeksatsii/cover.webp",
+  excerpt:
+    "Cuándo bloquear páginas a la indexación, en qué se diferencian robots.txt, meta robots y X-Robots-Tag, cómo sacar duplicados y secciones de utilidad — sin cloaking ni trucos desfasados.",
+  lead: [
+    "No todo en un sitio debe entrar al índice: secciones de utilidad, borradores, duplicados de filtros, subdominios de test. Bloquear a la indexación es una herramienta SEO normal — no un escondite para engañar a los robots.",
+    "Abajo: por qué bloqueas URLs, qué métodos funcionan en 2026 y qué evitar (cloaking con JS, «esconder» contenido a los bots). La columna vertebral es robots.txt, meta robots / X-Robots-Tag, canonical y códigos de respuesta.",
+  ],
+  faq: [
+    {
+      q: "¿robots.txt prohíbe indexar?",
+      a: "No: Disallow pide no rastrear una URL. La página aún puede aparecer en resultados vía enlaces sin snippet. Para «no indexar», meta robots / X-Robots-Tag noindex (cuando es crawlable) o acceso restringido es más fiable.",
+    },
+    {
+      q: "¿En qué se diferencia noindex de Disallow?",
+      a: "Disallow — no rastrear. noindex — puede rastrear, pero no meter en el índice (o sacar). A menudo se combinan a propósito: URLs de utilidad cerradas al crawl y con noindex.",
+    },
+    {
+      q: "¿Sigue haciendo falta el viejo tag Yandex <noindex>?",
+      a: "Práctica obsoleta. El estándar moderno es meta name=\"robots\" content=\"noindex\" y/o el header HTTP X-Robots-Tag.",
+    },
+    {
+      q: "¿Cómo bloqueo todo el sitio durante el desarrollo?",
+      a: "Mejor contraseña / allowlist de IP / un host staging aparte. Temporary noindex en todas las páginas vale, pero es fácil olvidar quitarlo. No te apoyes solo en robots.txt.",
+    },
+    {
+      q: "¿Puedo esconder texto a los robots con JavaScript?",
+      a: "No como táctica SEO. Mostrar contenido distinto a personas y bots es cloaking — riesgo de sanción. El contenido necesario o está en el índice, o la página se bloquea con honestidad.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cuándo bloquear a la indexación",
+      level: 2,
+      paras: [
+        "La meta no es contaminar el índice ni competir contigo mismo vía duplicados. Bloquea lo que no debería responder a la demanda de búsqueda.",
+      ],
+      lists: [
+        {
+          intro: "Casos típicos:",
+          items: [
+            "carrito, área de cuenta, búsqueda del sitio, filtros con URLs infinitas",
+            "borradores, thank-you pages, landings técnicas",
+            "duplicados (www/sin-www, http/https, params UTM — mejor canonical/redirects)",
+            "subdominios staging y demo",
+            "secciones desfasadas hasta un 301 a las actuales",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "robots.txt: reglas de crawl, no magia de índice",
+      level: 2,
+      paras: [
+        "El archivo `/robots.txt` fija reglas de crawl por User-agent. Es práctico para bloquear carpetas (`/admin/`, `/cgi-bin/`), scripts de utilidad y a veces secciones pesadas de crawl extra.",
+        "Límite: un ban de crawl ≠ garantía de ausencia del índice. Si la búsqueda ya conoce la URL, Disallow puede bloquear entregar noindex.",
+      ],
+      lists: [
+        {
+          intro: "Práctica:",
+          items: [
+            "no bloquees CSS/JS necesarios para renderizar páginas clave",
+            "revisa el archivo tras el deploy (un typo en Disallow rompe el crawl)",
+            "para todo el sitio en producción casi nunca uses `Disallow: /` sin necesidad dura",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Tras editar robots, revisa informes de crawl en Yandex Webmaster y Google Search Console — verás qué se corta de verdad.",
+        },
+      ],
+    },
+    {
+      title: "meta robots y X-Robots-Tag",
+      level: 2,
+      paras: [
+        "En una página HTML: `<meta name=\"robots\" content=\"noindex, follow\">` (o `noindex, nofollow` — a propósito). Para PDF y no-HTML, el header `X-Robots-Tag: noindex` es más fácil.",
+        "Para que noindex funcione, el robot debe obtener el documento. No bloquees esas URLs en robots.txt si la meta es sacarlas del índice.",
+      ],
+      lists: [
+        {
+          intro: "Directivas habituales:",
+          items: [
+            "`noindex` — no mostrar en resultados",
+            "`nofollow` — no pasar equity de enlaces desde la página (el sentido evolucionó; no lo confundas con rel en un enlace suelto)",
+            "`noarchive` — sin copia en caché",
+            "`none` — atajo de noindex, nofollow",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Copia en caché de Yandex",
+          href: "/es/blog/sohranennaya-kopiya-yandex/",
+        },
+      ],
+    },
+    {
+      title: "Duplicados, secciones, carpetas, subdominios",
+      level: 2,
+      paras: [
+        "Los duplicados es mejor no esconderlos para siempre, sino colapsarlos a una URL: 301, `rel=\"canonical\"`, params unificados. robots/noindex es respaldo si el duplicado aún no se puede quitar.",
+        "Una sección o carpeta se bloquea con reglas robots y/o una plantilla meta en todas las URLs de la sección. Un subdominio es un host aparte para la búsqueda: fija reglas también ahí.",
+      ],
+      tables: [
+        {
+          caption: "Qué elegir",
+          headers: ["Trabajo", "Método preferido"],
+          rows: [
+            ["Carpeta de utilidad", "Disallow en robots.txt"],
+            ["Página «no en búsqueda»", "noindex (+ crawlable)"],
+            ["Duplicado de contenido", "301 o canonical"],
+            ["Staging", "Auth / IP, más noindex"],
+            ["Fuera para siempre", "410 o 301 a un reemplazo"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Enlaces, imágenes y trucos desfasados",
+      level: 2,
+      paras: [
+        "Los enlaces salientes individuales llevan `rel=\"nofollow\"` / `sponsored` / `ugc` por sentido — eso no es bloquear el sitio a la indexación. Imágenes: `noimageindex` rara vez hace falta; más importante no robar fotos y servir tamaños sensatos.",
+        "Guías viejas sugerían `<noindex>`, SEOhide y bloques codificados en Base64/JS «para que el bot no los vea». No: eso es cloaking y un esquema frágil. Muestra el contenido necesario igual a todos, o bloquea la URL con honestidad.",
+      ],
+      lists: [
+        {
+          intro: "Qué evitar:",
+          items: [
+            "HTML distinto para bots y personas",
+            "esconder texto comercial solo a los robots",
+            "Disallow eterno de todo el sitio de producción «por si acaso»",
+            "noindex olvidado tras el lanzamiento",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "warning",
+          text: "Bloquear servicios importantes en robots durante el desarrollo y no abrirlos tras el release. Síntoma — «el sitio existe, la búsqueda está vacía».",
+        },
+      ],
+    },
+    {
+      title: "Respuestas del servidor y contraseñas",
+      level: 2,
+      paras: [
+        "403/401 con auth es un bloqueo duro: el robot no obtendrá contenido. 410 — fuera para siempre. 404 — no encontrado (OK para huecos temporales; para mudanzas prefiere 301).",
+        "Una contraseña en staging gana a esperar a robots: enlaces aleatorios y scanners no arrastrarán un borrador al índice.",
+      ],
+      lists: [],
+    },
+    {
+      title: "Resumen corto",
+      level: 2,
+      paras: [
+        "Bloquear a la indexación es higiene del sitio: URLs de utilidad y duplicados no deberían responder en búsqueda. Usa robots para crawl, noindex/X-Robots-Tag para el índice, canonical/301 para duplicados. Sin cloaking ni trucos ingeniosos de escondite con JS.",
+      ],
+      lists: [],
+    },
+  ],
+};

@@ -169,3 +169,173 @@ export const kommentariiVPablikeVkEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for kommentarii-v-pablike-vk — same structure as RU JSON / EN. */
+export const kommentariiVPablikeVkEs: BlogPost = {
+  slug: "kommentarii-v-pablike-vk",
+  title: "Comentarios en una comunidad VK: configuración y moderación",
+  date: "2022-02-22",
+  category: "SMM",
+  cover: "/images/blog/kommentarii-v-pablike-vk/cover.webp",
+  excerpt:
+    "Cómo gestionar comentarios en una comunidad de VK: abrir o cerrar la discusión, tipos de muro, filtros, moderación manual y control del feed de respuestas.",
+  lead: [
+    "Los comentarios en una comunidad de VKontakte son a la vez combustible de engagement y fuente de toxicidad. Abajo: cómo elegir el modo del muro, filtros y un workflow de moderación — sin aferrarte a clics de menú obsoletos.",
+    "Los ítems en Community management se mueven: sigue el sentido de los ajustes y la help actual de VK, no «el tercer checkbox a la izquierda».",
+  ],
+  faq: [
+    {
+      q: "¿Debo apagar los comentarios por completo?",
+      a: "Puede tener sentido con un tema tóxico, anuncios puntuales o mientras no haya moderación. Para crecer la comunidad suele mantenerse la discusión y filtrar la basura.",
+    },
+    {
+      q: "¿En qué se diferencian muro abierto, limitado y cerrado?",
+      a: "Quién puede publicar y quién puede comentar. Abierto — máxima libertad y caos; cerrado — solo admins, y a menudo sin comentarios de suscriptores.",
+    },
+    {
+      q: "¿Bastan los filtros sin moderación manual?",
+      a: "No. Los filtros pillan patrones (insultos, keywords) pero fallan con typos e insinuaciones. Hacen falta auto-filtros más supervisión en vivo.",
+    },
+    {
+      q: "¿Dónde veo todos los comentarios de la comunidad?",
+      a: "En la gestión de la comunidad relacionada con comentarios y actividad: timeline de respuestas, respuestas como la comunidad e ítems borrados por filtro en el historial de operaciones.",
+    },
+    {
+      q: "¿Cómo vuelvo a activar los comentarios?",
+      a: "Restaura el permiso de feedback / discusión en los ajustes de la comunidad (el mismo bloque donde lo desmarcaste antes).",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué gestionar comentarios",
+      level: 2,
+      paras: [
+        "La discusión bajo los posts sube el engagement y da señales al algoritmo. Sin reglas el muro se vuelve un vertedero: spam, insultos, flood, provocaciones.",
+        "El trabajo del admin no es silenciar a todos — es fijar un marco: quién escribe, qué pasa automáticamente, qué revisa un humano.",
+      ],
+      lists: [
+        {
+          intro: "Razones típicas de control estricto:",
+          items: [
+            "tema provocativo o propenso al conflicto",
+            "poca lealtad de la audiencia",
+            "sin tiempo para moderar",
+            "formato «escaparate» sin diálogo",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tres modos de muro",
+      level: 2,
+      paras: [
+        "El tipo de muro decide quién publica posts y cuán libre es la discusión. Las etiquetas de UI pueden variar un poco — mira el sentido.",
+      ],
+      lists: [
+        {
+          intro: null,
+          items: [
+            "Abierto — posts y comentarios de casi todos; máxima actividad y máxima limpieza manual",
+            "Limitado — posts nuevos solo para quienes das derechos; comentar suele estar abierto a todos (aquí encajan bien los filtros)",
+            "Cerrado — posts solo de admins; los comentarios de suscriptores a menudo no están disponibles",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          text: "En una comunidad comercial lo más habitual es el muro limitado: controlas el contenido, mantienes la discusión, cortas spam con filtros y moderadores.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Activar, limitar o desactivar la discusión",
+      level: 2,
+      paras: [
+        "En la gestión de la comunidad busca el bloque de comentarios / feedback. Puedes cerrar por completo las respuestas bajo los posts o restaurarlas con el mismo interruptor.",
+        "Las comunidades nuevas suelen tener la discusión activada por defecto. Antes de tráfico fuerte (ads, sorteo) decide pronto: chat abierto o modo «solo contenido».",
+      ],
+      lists: [
+        {
+          intro: "Opciones de política:",
+          items: [
+            "totalmente abierto + filtros + un moderador de turno",
+            "comentarios abiertos, posts — solo admins",
+            "comentarios off en temas sensibles / temporalmente durante una promo",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Filtros y moderación manual",
+      level: 2,
+      paras: [
+        "Los auto-filtros suelen pillar insultos y tu lista de stop-words/frases. Los ítems borrados por filtro se pueden revisar en el historial de operaciones.",
+        "Los filtros se saltan fácil con cambios de letras, asteriscos e insinuaciones. Así que junto a la automatización hace falta moderación manual — sobre todo en horas pico tras posts de ads.",
+      ],
+      lists: [
+        {
+          intro: "Lista stop mínima:",
+          items: [
+            "insultos y ofensas",
+            "ofertas spam y enlaces de terceros",
+            "nombres de competidores / etiquetas custom — según política de marca",
+            "keywords de granjas de sorteos si estorban",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          text: "Activar un filtro y olvidarlo. Una semana después siguen apareciendo hilos tóxicos — un filtro no sustituye las reglas de la comunidad ni a un moderador responsable.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Cómo seguir los comentarios",
+      level: 2,
+      paras: [
+        "La gestión de la comunidad tiene un feed combinado de comentarios: respuestas de suscriptores, hilos, respuestas como la comunidad. Handy cuando varios admins necesitan ver quién responde qué.",
+        "El follow de hilos también sirve a usuarios normales: respondes bajo un post — recibes notificaciones de respuestas a ti. Los admins deben asignar temas responsables a personas.",
+      ],
+      lists: [
+        {
+          intro: "Un ritmo práctico de moderación:",
+          items: [
+            "mañana y noche — escanear el feed combinado",
+            "tras un post de ads — 1–2 horas de turno",
+            "semanal — revisar borrados del filtro (falsos positivos)",
+            "mensual — actualizar stop words",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué debería elegir una comunidad comercial",
+      level: 2,
+      paras: [
+        "Por defecto mantén la discusión: las preguntas en comentarios a menudo convierten mejor que «escríbenos por DM» sin diálogo visible.",
+        "Cierra comentarios de forma selectiva: temas polémicos, posts legalmente sensibles, momentos en que el equipo no puede responder.",
+      ],
+      lists: [
+        {
+          intro: "Conclusión corta:",
+          items: [
+            "muro limitado + comentarios abiertos",
+            "filtro de insultos + tu lista stop",
+            "control manual en horas pico",
+            "reglas claras en la descripción o un post fijado",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Stories en un perfil de VKontakte",
+          href: "/es/blog/istorii-vkontakte/",
+        },
+      ],
+    },
+  ],
+};

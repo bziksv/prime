@@ -108,3 +108,112 @@ export const adblockEn: BlogPost = {
     "reklamnyy-banner",
   ],
 };
+
+/** ES overlay for adblock — same structure as RU JSON / EN. */
+export const adblockEs: BlogPost = {
+  slug: "adblock",
+  title: "Qué es AdBlock y cómo usarlo sin sorpresas",
+  date: "2020-09-29",
+  category: "Digital marketing",
+  cover: "/images/blog/adblock/cover.webp",
+  excerpt:
+    "AdBlock y tools parecidas ocultan ads en el navegador. Por qué la gente las instala, cómo pausar un sitio y por qué los blockers también cortan widgets y analytics.",
+  lead: [
+    "AdBlock — y pares como AdBlock Plus, uBlock Origin y otros — son extensiones del navegador que ocultan ads, trackers y algunos pop-ups con listas de filtros.",
+    "Abajo: por qué la gente las enciende, cómo permitir ads en un sitio que te importa y qué significa eso para dueños de sitios. Las etiquetas de botones difieren por navegador y versión — confía en la idea («pausar en este sitio»), no en un screenshot viejo.",
+  ],
+  faq: [
+    {
+      q: "¿AdBlock y AdBlock Plus son lo mismo?",
+      a: "Productos distintos, misma categoría de trabajo. Hay otros blockers también. Lógica compartida: filtros más excepciones por sitio.",
+    },
+    {
+      q: "¿Por qué el sitio está vacío o el vídeo no reproduce?",
+      a: "Players, «acceptable ads», checkout y scripts de chat a menudo también se bloquean. Añade el sitio a excepciones o apaga la extensión en ese dominio.",
+    },
+    {
+      q: "¿Afecta a Yandex Metrica o Analytics?",
+      a: "Sí — algunas visitas y metas nunca llegan al contador. Al depurar, abre el sitio sin blocker. Ver también la pieza sobre Metrica en silencio.",
+    },
+    {
+      q: "¿Cómo lo desactivo solo en un sitio?",
+      a: "Usa el icono de la extensión: pausar / «no ejecutar en este sitio» (el wording varía). Desinstalar del todo rara vez hace falta — una excepción suele bastar.",
+    },
+    {
+      q: "¿Es legal usar un ad blocker?",
+      a: "Los usuarios pueden instalar extensiones. Los sitios pueden limitar el acceso cuando hay un blocker. Bypass de paywall y piratería son otra historia ética y legal — no se cubre aquí.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué se instala y cómo funciona",
+      level: 2,
+      paras: [
+        "El trabajo es simple: menos distracciones — banners, vídeo autoplay, trackers. Bastante gente activa blockers por páginas pesadas y privacidad, no solo para ser difíciles.",
+        "La extensión se suscribe a listas de filtros y oculta elementos que coinciden. Puedes añadir filtros custom y allowlists. Los productos diferencian en política de «acceptable ads» y ajustes finos.",
+        "Efecto colateral: widgets de feedback, A/B tests, píxeles de ads y contadores de analytics se cortan junto con los banners. Para el usuario es «el sitio se rompió»; para marketing es un agujero en los datos.",
+      ],
+      lists: [
+        {
+          intro: "Upsides típicos para el usuario:",
+          items: [
+            "menos ruido visual",
+            "las páginas a menudo se sienten más ligeras",
+            "algunos trackers no disparan",
+            "puedes permitir sitios favoritos uno a uno",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Yandex Metrica no funciona",
+          href: "/es/blog/metrika-ne-rabotaet/",
+        },
+        {
+          label: "Tipos de publicidad",
+          href: "/es/blog/vidy-reklamy/",
+        },
+      ],
+    },
+    {
+      title: "Pausa, excepciones y la mirada del dueño del sitio",
+      level: 2,
+      paras: [
+        "Instala desde la tienda de extensiones de tu navegador y gestiona pausa y excepciones desde el icono de la barra.",
+        "Desactiva en la página actual o en todo el dominio vía el menú del icono («no ejecutar en este sitio» / pausa). La retirada completa está en extensiones del navegador; la pausa suele bastar. Edita listas de excepciones en los ajustes de la extensión.",
+        "Si un host de vídeo o un publisher te pide apagar el blocker, es su regla de acceso. Añade el dominio a la allowlist si te vale ver ads a cambio del material.",
+        "Para dueños de sitios: ads agresivos suben la cuota de AdBlock. Aligera páginas, no entierres el contenido bajo popups apilados y recuerda que parte de la audiencia es invisible en analytics. No armes un negocio sobre bypass grey-zone del blocker — mejor valor y monetización más limpia ganan a scripts de gato y ratón.",
+        "En resumen: AdBlock es una tool de comodidad. Sabe pausarlo en sitios que necesitas; en marketing, mete blockers en cómo lees las cifras.",
+      ],
+      lists: [
+        {
+          intro: "Si un sitio que necesitas «se rompió»:",
+          items: [
+            "pausa la extensión en el dominio",
+            "recarga la página",
+            "prueba otro navegador sin blocker",
+            "no lo confundas con filtros de antivirus o VPN",
+            "para depurar contadores — incógnito con extensiones apagadas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Google Analytics (comportamiento)",
+          href: "/es/blog/google-analytics/",
+        },
+        {
+          label: "Banners publicitarios",
+          href: "/es/blog/reklamnyy-banner/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "metrika-ne-rabotaet",
+    "vidy-reklamy",
+    "google-analytics",
+    "ga4",
+    "reklamnyy-banner",
+  ],
+};

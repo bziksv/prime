@@ -152,3 +152,156 @@ export const metrikiReklamyEn: BlogPost = {
     "otkazy-sayta",
   ],
 };
+
+/** ES overlay for metriki-reklamy — same structure as RU JSON / EN. */
+export const metrikiReklamyEs: BlogPost = {
+  slug: "metriki-reklamy",
+  title: "Métricas de ads: qué mirar para saber si una campaña funciona",
+  date: "2019-10-15",
+  category: "Digital marketing",
+  cover: "/images/blog/metriki-reklamy/cover.webp",
+  excerpt:
+    "Qué métricas mirar por etapa del funnel: CTR y CPC a la entrada, comportamiento on-site, CPA/CPO/CR en la conversión, ticket medio y LTV — sin juzgar ads solo por clics.",
+  lead: [
+    "Los ads «funcionan» cuando llevan a dinero o a un goal de negocio — no cuando hay «muchas impresiones». Para verlo, lee métricas por pasos del funnel: interés → sitio → acción → compras repetidas.",
+    "Abajo: un set de trabajo — CTR/CPC, bounce y engagement, CPA/CPO/CR, ticket medio y LTV. Las fórmulas de ROMI y los joins end-to-end con CRM están en artículos relacionados; aquí — qué mirar en cada etapa.",
+  ],
+  faq: [
+    {
+      q: "¿Basta mirar solo el CTR de los ads?",
+      a: "No. Un CTR alto con clics vacíos caros y cero leads es un fracaso. El CTR es interés en el anuncio — no beneficio.",
+    },
+    {
+      q: "¿CPA y CPO son la misma métrica?",
+      a: "Cercanas, pero no siempre. CPA es coste por acción objetivo (lead, install). CPO es coste por pedido. Tú defines el goal.",
+    },
+    {
+      q: "¿Por qué un bounce alto mata ads «buenos»?",
+      a: "La gente hace clic y se va al momento: misclick, oferta irrelevante o landing floja. Arreglar el sitio a menudo sale más barato que echar más presupuesto.",
+    },
+    {
+      q: "¿Puedo comparar display y búsqueda con un solo KPI?",
+      a: "Con cuidado. Display es más a menudo alcance y awareness; búsqueda es demanda caliente. Mira el rol del canal en el funnel y los caminos asistidos.",
+    },
+    {
+      q: "¿Por qué trackear LTV si ya tengo CPA?",
+      a: "El CPA dice cuánto cuesta adquirir. El LTV dice cuánto trae un cliente a lo largo de su vida. El CPA aceptable sube cuando las compras repetidas son fuertes.",
+    },
+    {
+      q: "¿Por dónde debería empezar un principiante?",
+      a: "Fija el goal → CTR/CPC → bounces de landing → CR y CPA → cruza con el margen. Luego ticket medio y LTV.",
+    },
+  ],
+  sections: [
+    {
+      title: "El funnel como marco de métricas",
+      level: 2,
+      paras: [
+        "Es cómodo partir el camino del usuario en alcance, engagement, conversión y lealtad. Cada etapa tiene su pregunta: ¿notaron, se interesaron, hicieron la acción objetivo, volvieron?",
+        "Sin marco es fácil optimizar una métrica «bonita» en la etapa equivocada — p. ej. perseguir el CTR del banner mientras el formulario de lead está roto.",
+      ],
+      lists: [
+        {
+          intro: "Etapas y foco:",
+          items: [
+            "alcance — encuentro con la oferta",
+            "engagement — clic e interés en el sitio",
+            "conversión — lead/pedido",
+            "lealtad — repetición y LTV",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Entrada: CTR y CPC",
+      level: 2,
+      paras: [
+        "CTR = clics ÷ impresiones × 100%. Un CTR bajo a menudo significa: audiencia equivocada, creativo que no destaca, oferta floja o fuera de temporada. CPC = presupuesto ÷ clics — coste medio de una visita atraída; nicho, competencia, temporada y plataforma lo afectan.",
+        "CTR y CPC diagnostican el anuncio y la subasta. No responden si los ads se pagaron solos.",
+      ],
+      lists: [
+        {
+          intro: "Si el CTR bajó, revisa:",
+          items: [
+            "encaje de audiencia y oferta",
+            "legibilidad del creativo",
+            "estacionalidad y competidores",
+            "encaje de la landing con la promesa",
+          ],
+        },
+      ],
+    },
+    {
+      title: "En el sitio: bounce, profundidad, tiempo",
+      level: 2,
+      paras: [
+        "Tras el clic, mira si la persona se queda. Bounce alto: navegación torpe, misclick, oferta fina, descripción floja. Los heatmaps ayudan a ver dónde cliclan — pero primero quita barreras claras (botón de lead, carrito, velocidad).",
+        "Profundidad y duración de visita ayudan en sitios multi-página. En una landing de una página son KPIs más débiles: alguien puede leer rápido y convertir — o irse en 20 segundos sin lead. Mira goals y scroll hasta la oferta.",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Las métricas de comportamiento malas a menudo se echan a «los ads», mientras la landing necesita arreglo. Revisa la relevancia anuncio–página antes de escalar presupuesto.",
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+        {
+          label: "Tasa de rechazo del sitio",
+          href: "/es/blog/otkazy-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Conversión: CPA, CPO y CR",
+      level: 2,
+      paras: [
+        "CR = conversiones ÷ sesiones × 100%. CPA = presupuesto ÷ acciones objetivo. CPO = presupuesto ÷ pedidos (incluidos fallidos si así contabilizas). El goal depende del negocio: lead, llamada, install, pago.",
+        "Geo, competencia y complejidad del producto afectan al CPA. Compara display y búsqueda con el rol en mente: display más a menudo alimenta el inicio del funnel; búsqueda — demanda caliente. Si no, el display «caro» parece inútil solo por el last click.",
+      ],
+      links: [
+        {
+          label: "ROI y ROMI",
+          href: "/es/blog/roi-marketinga/",
+        },
+        {
+          label: "Conversiones asistidas",
+          href: "/es/blog/assotsiirovannye-konversii/",
+        },
+      ],
+    },
+    {
+      title: "Dinero: ticket medio y LTV",
+      level: 2,
+      paras: [
+        "El ticket medio (y ARPU/AOV cercanos) muestra cuánto dinero trae una acción objetivo. LTV es el valor del cliente a lo largo de la relación: AOV × frecuencia de recompra × vida del cliente (simplificado).",
+        "Las compras repetidas suelen costar menos que la primera. Así un canal con un CPA un poco más alto puede ser mejor si trae clientes de LTV fuerte. Para la foto completa, une ads al CRM — analytics end-to-end.",
+      ],
+      links: [
+        {
+          label: "Ticket medio",
+          href: "/blog/sredniy-chek/",
+        },
+        {
+          label: "Analytics end-to-end",
+          href: "/es/blog/skvoznaya-analitika/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Los ads funcionan cuando las métricas se alinean a lo largo del funnel: interés (CTR/CPC), calidad de la visita, coste de la acción y economía del cliente. No te quedes en los clics — lleva la vista a CPA, margen y LTV.",
+  ],
+  related: [
+    "roi-marketinga",
+    "optimizatsiya-konversii",
+    "assotsiirovannye-konversii",
+    "sredniy-chek",
+    "skvoznaya-analitika",
+    "otkazy-sayta",
+  ],
+};

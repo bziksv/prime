@@ -131,3 +131,135 @@ export const onlaynOplataEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for onlayn-oplata — same structure as RU JSON / EN. */
+export const onlaynOplataEs: BlogPost = {
+  slug: "onlayn-oplata",
+  title: "Pagos online en un sitio: acquiring, agregador y qué elegir",
+  date: "2021-07-08",
+  category: "E-commerce",
+  cover: "/images/blog/onlayn-oplata/cover.webp",
+  excerpt:
+    "Cómo aceptar pagos en un sitio: tarjeta, Faster Payments (SBP) y wallets; en qué se diferencia un gateway de un agregador y un adquirente bancario; qué mirar en comisiones, seguridad y reglas fiscales (54-FZ).",
+  lead: [
+    "Pagos online en un sitio significa cobrar con tarjeta, vía SBP y otros métodos — no «a una tarjeta personal en el chat». Para una tienda o servicios es conveniencia del comprador, comisiones, seguridad y ley de caja registradora.",
+    "Abajo: métodos de pago, en qué se diferencia un gateway de un agregador y del acquiring, y un camino típico de conexión. Marcas y tarifas cambian — revisa condiciones actuales; YooKassa se cubre aparte.",
+  ],
+  faq: [
+    {
+      q: "¿Agregador o adquirente bancario?",
+      a: "Un agregador arranca más rápido: un contrato — muchos métodos y módulos CMS. El acquiring directo del banco puede ser más barato a escala, pero tarda más en aprobación e integración.",
+    },
+    {
+      q: "¿Hace falta una caja registradora online?",
+      a: "Si tu esquema cae bajo 54-FZ — sí, necesitas un recibo (incluida una caja en la nube). Un servicio de pago ≠ fiscalización cerrada automáticamente; confirma el esquema con un contable.",
+    },
+    {
+      q: "¿Se puede usar un enlace de pago sin vitrina?",
+      a: "Sí — muchos agregadores ofrecen enlace de pago / factura — práctico para servicios y pagos puntuales.",
+    },
+    {
+      q: "¿Vale la pena el pago por SMS?",
+      a: "Para micropagos a veces es cómodo para el comprador, pero la comisión suele ser alta. Como canal principal de una tienda suele ser peor que tarjeta/SBP.",
+    },
+    {
+      q: "¿En qué se diferencia YooKassa de «pagos online en general»?",
+      a: "YooKassa es un agregador. Este artículo va de elegir un modelo de aceptación de pagos; el producto YooKassa está en una pieza aparte.",
+    },
+  ],
+  sections: [
+    {
+      title: "Métodos de pago para el comprador",
+      level: 2,
+      paras: [
+        "Tarjeta (con 3-D Secure) es la expectativa base en e-commerce. SBP y pago desde la app del banco reducen fricción. E-wallets y «pagar a plazos» dependen del nicho y la audiencia.",
+        "El conjunto de métodos depende del proveedor y la moderación de la tienda. No trates listas obsoletas de «solo Qiwi/WebMoney» como checklist de 2026.",
+      ],
+      lists: [
+        {
+          intro: "Qué mirar al elegir métodos:",
+          items: [
+            "cuota de audiencia con tarjetas / SBP",
+            "comisión por método",
+            "límites y moneda",
+            "reembolsos y retenciones",
+            "UX de pago móvil",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Gateway, sistema, agregador, adquirente",
+      level: 2,
+      paras: [
+        "Un payment gateway es el «terminal» técnico en la cadena: cifra datos y enruta el pago. Por sí solo rara vez es un «botón en el sitio» sin contrato con banco/procesamiento.",
+        "Un adquirente bancario toma el pago con tarjeta para el comercio; el emisor de la tarjeta y el procesamiento también están en el esquema. La conexión tarda más: documentos, revisión del negocio, contrato.",
+        "Un agregador une métodos bajo un panel y un contrato: tarjetas, SBP, a veces facturas y suscripciones. Ventaja — velocidad y módulos CMS; inconveniente — comisiones y reglas de la plataforma.",
+      ],
+      tables: [
+        {
+          caption: "Comparación aproximada de modelos",
+          headers: ["Modelo", "Ventaja", "Inconveniente"],
+          rows: [
+            ["Agregador", "Arranque rápido, muchos métodos", "Comisiones, dependencia del servicio"],
+            ["Acquiring bancario", "Flexibilidad a escala", "Setup más largo, integración propia"],
+            ["Solo wallet/SBP", "Escenario de nicho simple", "Cobertura estrecha de métodos"],
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "YooKassa",
+          href: "/es/blog/yukassa/",
+        },
+      ],
+    },
+    {
+      title: "Cómo conectar pagos en el sitio",
+      level: 2,
+      paras: [
+        "Bucle habitual: situación jurídica y documentos → solicitud en agregador o banco → contrato → configuración de la tienda en el panel → módulo CMS o API → pago de prueba → producción → vínculo con caja/contabilidad.",
+        "En un CMS suele ser: sección de pagos → añadir método → shop ID, secret, URL de notificación (callback), modo test. Los campos exactos dependen del módulo — sigue la guía del proveedor.",
+      ],
+      lists: [
+        {
+          intro: "Antes de pasar a producción:",
+          items: [
+            "HTTPS en todo el sitio",
+            "pagos de prueba exitosos y fallidos",
+            "emails/webhooks sobre el estado del pedido",
+            "escenario de reembolso",
+            "claridad sobre quién envía el recibo al comprador",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Seguridad",
+          text: "Los datos de tarjeta no deben guardarse en tu servidor «como sea». Usa redirect/widget de un proveedor conforme a PCI y 3-D Secure. No recojas CVV en tus propios formularios.",
+        },
+      ],
+    },
+    {
+      title: "Comisiones, caja registradora y errores frecuentes",
+      level: 2,
+      paras: [
+        "Las comisiones dependen de volumen, método y plan — no copies cifras de reviews viejos a una propuesta. Cuenta el coste completo: comisión + caja + acquiring de reembolsos.",
+        "Error — cobrar sin fiscalización cuando la ley exige recibo. Segundo — prometer «conexión instantánea en un día» sin documentos. Tercero — un solo método de pago cuando la audiencia paga de otra forma.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de selección de proveedor:",
+          items: [
+            "métodos y geo necesarios",
+            "módulo para tu CMS / API",
+            "soporte y SLA",
+            "términos de disputes y chargebacks",
+            "vínculo a una caja registradora online",
+          ],
+        },
+      ],
+    },
+  ],
+};

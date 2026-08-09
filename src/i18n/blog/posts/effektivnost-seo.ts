@@ -228,3 +228,232 @@ export const effektivnostSeoEn: BlogPost = {
     "veb-analitik",
   ],
 };
+
+/** ES overlay for effektivnost-seo — same structure as RU JSON / EN. */
+export const effektivnostSeoEs: BlogPost = {
+  slug: "effektivnost-seo",
+  title: "Cómo medir la eficacia del SEO: KPIs e informes",
+  date: "2019-07-03",
+  category: "SEO",
+  cover: "/images/blog/effektivnost-seo/cover.webp",
+  excerpt:
+    "Orgánico, brand/non-brand, ranks y economía: qué KPIs mirar, cómo comparar periodos y cómo no confundir la prep del sitio con rankings inmediatos en primera página.",
+  lead: [
+    "El SEO rara vez te da un «botón de resultados» la semana siguiente. Para saber si el canal funciona, necesitas KPIs acordados de antemano: volumen y calidad del orgánico, un corte brand/non-brand, movimiento de ranks en el set de keywords y un vínculo claro con leads e ingresos.",
+    "Abajo: un marco práctico de evaluación para cliente y vendor. Los primeros cambios notables en el set suelen aparecer hacia los 2–3 meses de trabajo constante; la visibilidad en primera página se planifica a 2–6 meses — las semanas de prep no son lo mismo que los plazos de ranking.",
+  ],
+  faq: [
+    {
+      q: "¿Por dónde empiezo un informe SEO?",
+      a: "Orgánico (visitas/usuarios), goals/conversiones de búsqueda, visibilidad o cuota del set en primera página, brand vs non-brand, gasto SEO vs CPA/ROMI. Sin goals en analítica, el informe va a ciegas.",
+    },
+    {
+      q: "¿Los ranks son el KPI principal?",
+      a: "Importantes, pero no los únicos. Mira clusters y tendencia; no entres en pánico por ±2 puestos en un día. Al negocio le importan más el tráfico y los leads orgánicos.",
+    },
+    {
+      q: "¿Qué periodo de comparación es normal?",
+      a: "Usa semana contra semana para ops, mes contra mes y año contra año para estacionalidad. Juzga el SEO en semanas y meses — no «ayer vs hoy».",
+    },
+    {
+      q: "¿Necesito Metrika y Analytics a la vez?",
+      a: "Basta un contador fiable más Search Console (o Webmaster). Dos tools están bien si el equipo ya vive en ambas; la clave es un solo método de atribución.",
+    },
+    {
+      q: "¿Qué cuota de brand es «la correcta»?",
+      a: "Depende del nicho y la madurez. La tendencia y la conversión de brand importan más que «25% de un artículo». El detalle está en la pieza de tráfico de marca.",
+    },
+    {
+      q: "¿Cuándo esperar efecto económico?",
+      a: "Tras la prep y una vez arranca el trabajo, ranks y leads se construyen en meses. Contar ROMI en la semana uno no tiene sentido; planifica un horizonte de 2–6 meses para el set de keywords.",
+    },
+    {
+      q: "¿Y si el tráfico crece pero los leads no?",
+      a: "Revisa intención de página, audiencia, UX y goals. Crecimiento de tráfico informativo sin URLs comerciales es una trampa vanity-orgánica habitual.",
+    },
+    {
+      q: "¿En qué se diferencian los KPIs de SEO del paid search?",
+      a: "El paid search responde más rápido y es más fácil de dirigir con pujas. El SEO tiene más lag, pero el coste por lead a menudo mejora con el tiempo con un set estable.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué fijar KPIs de antemano",
+      level: 2,
+      paras: [
+        "Sin métricas acordadas, el cliente espera «primera página mañana» y el vendor enseña informes de crawl — el conflicto es casi inevitable. Los KPIs dan un lenguaje compartido: qué significa el éxito a 30 / 90 / 180 días.",
+        "Conecta Metrika o Analytics con goals, Search Console (o Webmaster) y una tabla de keywords con URLs prioritarias. Si no, te quedas con la intuición.",
+      ],
+      lists: [
+        {
+          intro: "Set base:",
+          items: [
+            "orgánico: visitas, usuarios, bounce/engagement",
+            "conversiones e ingresos/leads desde orgánico",
+            "brand vs non-brand",
+            "ranks / visibilidad del set de keywords",
+            "presupuesto SEO y coste por lead",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Dashboard",
+          href: "/es/blog/dashboard/",
+        },
+        {
+          label: "Analista web",
+          href: "/es/blog/veb-analitik/",
+        },
+      ],
+    },
+    {
+      title: "Volumen de tráfico orgánico",
+      level: 2,
+      paras: [
+        "El corte más claro: Organic Search (o un segmento de «tráfico gratis») del periodo vs el mes/año pasado. Mira no solo el total sino las landings: qué URLs tiran demanda, cuáles se quedan calladas.",
+        "Crecer por crecer engaña: picos de bots, un gancho de noticias estacional o canibalización pueden inflar visitas sin leads. Mantén siempre conversiones y calidad cerca.",
+      ],
+      lists: [
+        {
+          intro: "Práctica de informe:",
+          items: [
+            "orgánico mes a mes y año a año",
+            "landings de búsqueda con más tráfico",
+            "URLs nuevas vs viejas",
+            "excluir anomalías claras (ataques, fallos del contador)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Tráfico sospechoso de Google",
+          href: "/es/blog/podozritelnyy-trafik-google/",
+        },
+      ],
+    },
+    {
+      title: "Demanda de marca y non-brand",
+      level: 2,
+      paras: [
+        "En marcas conocidas, parte el orgánico en brand y non-brand: las consultas con nombre de empresa encuentran a «los que ya son tuyos»; las frases genéricas traen demanda nueva. Crecer solo en brand con non-brand cayendo es otro diagnóstico que lo inverso.",
+        "En Metrika/Analytics — segmentos o informes de consulta/página; en GSC/Webmaster — cortes de consultas de marca. No hay una «cuota ideal» universal: mira tendencia y economía.",
+      ],
+      lists: [
+        {
+          intro: "Qué mirar:",
+          items: [
+            "cuota de brand en el orgánico",
+            "conversión de visitas de brand",
+            "dinámica del cluster comercial non-brand",
+            "defensa de brand en ads cuando haga falta",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Tráfico de marca",
+          href: "/es/blog/brendovyy-trafik/",
+        },
+      ],
+    },
+    {
+      title: "Ranks y visibilidad del núcleo",
+      level: 2,
+      paras: [
+        "Un rank tracker o exports de Webmaster/GSC muestran cómo se mueve el núcleo. Juzga la cuota de frases en los primeros 10 / primeros 3 resultados por clusters prioritarios — no una frase «en el momento».",
+        "Saltos diarios de 1–3 puestos son ruido. El pánico encaja con caídas sostenidas de cluster, desindexación o un cambio de intención en el SERP.",
+      ],
+      lists: [
+        {
+          intro: "En el informe fija:",
+          items: [
+            "lista URL prioritaria × consulta",
+            "% del set de keywords en los primeros 10 vs el periodo anterior",
+            "nuevas entradas a primera página y pérdidas",
+            "clusters informativos y comerciales por separado",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Set de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Frecuencia de consultas",
+          href: "/es/blog/chastotnost-zaprosov/",
+        },
+      ],
+    },
+    {
+      title: "Economía: leads, CPA, ROMI",
+      level: 2,
+      paras: [
+        "Para el negocio el resultado son leads, ventas y margen — no «ranks verdes». Vincula el gasto SEO (trabajo, contenido, enlaces, tools) al número y calidad de leads orgánicos.",
+        "Compara el CPA orgánico con paid search en goals comparables. El SEO es más lento al inicio, pero con un núcleo estable a menudo baja el coste de adquisición. No exijas payback en la semana uno tras una auditoría.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo financiero:",
+          items: [
+            "presupuesto del periodo",
+            "leads/pedidos desde orgánico",
+            "CPA y ROMI cuando sea posible",
+            "cuota SEO del ingreso/leads totales",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+    },
+    {
+      title: "Cómo leer la dinámica sin pánico",
+      level: 2,
+      paras: [
+        "Arma un ritmo simple: smoke check semanal (tráfico, errores de cuenta), revisión mensual de KPIs, replanteo trimestral del núcleo y prioridades. Un par de puestos abajo en una key no es motivo para romper la estrategia.",
+        "Si no hay orgánico en absoluto — primero técnica e indexación. Si hay tráfico pero no dinero — audiencia, landings y oferta. La eficacia del SEO es un paquete de métricas, no un solo gráfico.",
+      ],
+      lists: [
+        {
+          intro: "Banderas rojas:",
+          items: [
+            "crece el orgánico, caen las conversiones",
+            "solo crece brand, el comercial se estanca",
+            "hay ranks, no hay clics (snippet/intención)",
+            "colapso brusco tras un release o un breach",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Prep del sitio — normalmente semanas hasta cerca de un mes. Crecimiento de ranking del núcleo tras empezar el trabajo — planificado a 2–6 meses.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "brendovyy-trafik",
+    "dashboard",
+    "semanticheskoe-yadro",
+    "tehnicheskiy-seo-audit",
+    "optimizatsiya-konversii",
+    "veb-analitik",
+  ],
+};

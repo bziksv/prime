@@ -136,3 +136,140 @@ export const parsingEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for parsing — same structure as RU JSON / EN. */
+export const parsingEs: BlogPost = {
+  slug: "parsing",
+  title: "Scraping de datos: qué es, para qué lo usan los equipos y dónde está el límite",
+  date: "2021-11-05",
+  category: "SEO",
+  cover: "/images/blog/parsing/cover.webp",
+  excerpt:
+    "Qué es el scraping de sitios: recopilar y estructurar datos, usos legítimos en SEO/marketing y límites de robots.txt y copyright.",
+  lead: [
+    "El scraping (en jerga de marketing a menudo «parsing») es la recogida automatizada de datos de páginas en una tabla o base: precios, títulos, stock, menciones. Luego comparas y decides — la recogida sola no es análisis.",
+    "Abajo: por qué lo usan los equipos web, escenarios habituales y líneas que no conviene cruzar. Sin guías para saltar protecciones o ignorar las reglas de la plataforma.",
+  ],
+  faq: [
+    {
+      q: "¿Es legal el scraping?",
+      a: "Depende de qué, cómo y para qué. Datos abiertos más cumplimiento de ToS/robots/copyright suele ser más aceptable. Copiar el contenido ajeno a granel, saltar protecciones y datos personales son zonas de riesgo.",
+    },
+    {
+      q: "¿En qué se diferencia de la analítica end-to-end?",
+      a: "La analítica end-to-end une tus anuncios, sitio y CRM. El scraping suele ir sobre fuentes externas: competidores, catálogos, vitrinas.",
+    },
+    {
+      q: "¿Puedo ignorar robots.txt?",
+      a: "No deberías. El archivo fija reglas para bots; ignorarlo choca con el dueño del sitio y arriesga bloqueos/reclamaciones.",
+    },
+    {
+      q: "¿Por qué un SEO haría scraping?",
+      a: "Monitorizar precios y surtido, títulos/snippets de competidores, comprobar la indexación de tus propias URLs — como input para la estrategia, no para robar copy.",
+    },
+    {
+      q: "¿Qué sustituye al scraping agresivo?",
+      a: "APIs oficiales, exports, muestras manuales, herramientas de monitoreo con licencia, datos de cuentas publicitarias y tus propios logs.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es el scraping",
+      level: 2,
+      paras: [
+        "Un script o servicio abre una URL, lee HTML/JSON, extrae los campos necesarios y los guarda de forma estructurada. Luego — filtros, matching, informes.",
+        "Confusión habitual: scraping ≠ «robar el sitio». El objetivo legítimo son hechos para analizar — no republicar contenido ajeno como propio.",
+      ],
+    },
+    {
+      title: "Legalidad y ética",
+      level: 2,
+      paras: [
+        "Que una vitrina se vea libremente no anula las reglas del sitio, el copyright de textos/fotos ni las leyes de datos personales.",
+        "Riesgo: saltos masivos de bloqueos, ignorar robots.txt, scrapear zonas cerradas, revender bases ajenas, scrapear para rellenar con copias.",
+      ],
+      lists: [
+        {
+          intro: "Enfoque más seguro:",
+          items: [
+            "leer ToS y robots.txt",
+            "no saturar el servidor ajeno (límites, pausas)",
+            "no tomar datos personales sin base legal",
+            "no copiar contenido único a tu sitio",
+            "preferir APIs oficiales donde existan",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Error habitual",
+          text: "Pensar «si la página abre en el navegador, puedo automatizar y republicar todo». Ver en el navegador ≠ licencia sobre la base y el contenido.",
+        },
+      ],
+      links: [
+        {
+          label: "Autorelleno de un sitio",
+          href: "/es/blog/avtonapolnenie-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Por qué lo usan los equipos",
+      level: 2,
+      paras: [
+        "Trabajos típicos: comparar precios de competidores, ver la estructura de categorías, reunir URLs para una auditoría, seguir productos nuevos en un nicho.",
+      ],
+      lists: [
+        {
+          intro: "Resultados útiles:",
+          items: [
+            "precios frente al mercado",
+            "hipótesis de estructura de catálogo",
+            "comprobar tus páginas (status, title)",
+            "inputs para un plan de contenidos — sin copy-paste",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué se suele recopilar",
+      level: 2,
+      paras: [
+        "Campos de texto (nombre, precio, disponibilidad), URLs, a veces meta tags. Medios y fotos ajenas piden cuidado extra — caen bajo un régimen legal aparte.",
+      ],
+      lists: [
+        {
+          intro: "Flujo típico de herramientas:",
+          items: [
+            "lista inicial de URLs / mapa de secciones",
+            "reglas de extracción de campos",
+            "guardar en tabla/BD",
+            "limpiar y emparejar",
+            "análisis humano o en dashboard",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Dashboard",
+          href: "/es/blog/dashboard/",
+        },
+      ],
+    },
+    {
+      title: "Escenarios sin trucos grises",
+      level: 2,
+      paras: [
+        "Compara tus métricas con señales públicas del competidor: surtido, promos, precios visibles — y ajusta la oferta.",
+        "En SEO, una revisión selectiva de páginas fuertes y del set de keywords suele ganar a volcar todo el sitio del competidor. Las herramientas que sacan sugerencias y frecuencias de búsqueda son una vía más estrecha.",
+      ],
+      links: [
+        {
+          label: "Núcleo semántico",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+      ],
+    },
+  ],
+};

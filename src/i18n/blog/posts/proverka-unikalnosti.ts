@@ -169,3 +169,173 @@ export const proverkaUnikalnostiEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for proverka-unikalnosti — same structure as RU JSON / EN. */
+export const proverkaUnikalnostiEs: BlogPost = {
+  slug: "proverka-unikalnosti",
+  title: "Comprobar la unicidad del texto: por qué y cómo",
+  date: "2021-06-03",
+  category: "SEO",
+  cover: "/images/blog/proverka-unikalnosti/cover.webp",
+  excerpt:
+    "En qué se diferencia la unicidad del «antiplagio por porcentaje», por qué revisar textos antes de publicar y cómo usar herramientas online sin perseguir el 100% a cualquier coste.",
+  lead: [
+    "Una unicidad baja suele señalar copy-paste, compilación o rewrite flojo de materiales ajenos. Los buscadores comparan fragmentos; usuarios y clientes también notan «esto ya lo leí en algún sitio».",
+    "Abajo: por qué importa la comprobación, cómo leer los porcentajes de coincidencia y cómo trabajar con servicios online. La densidad de keywords y la «náusea» son otro tema (ver stuffing de texto).",
+  ],
+  faq: [
+    {
+      q: "¿Siempre hace falta un 100% de unicidad?",
+      a: "No. Citas, nombres de producto y frases plantilla («entrega en toda la ciudad») crean coincidencias. Lo que importa: que no haya párrafos enteros levantados de otras páginas.",
+    },
+    {
+      q: "¿En qué se diferencia la unicidad del keyword stuffing?",
+      a: "Unicidad es solapamiento con otros textos. Stuffing es la densidad de keywords dentro de tu propio texto.",
+    },
+    {
+      q: "¿Plagio y copy-paste son lo mismo?",
+      a: "Cercanos. Plagio es texto ajeno bajo tu nombre; copy-paste es copiar sin reelaborar. Compilación es coser trozos de muchas fuentes.",
+    },
+    {
+      q: "¿Qué servicio elegir?",
+      a: "Cualquier herramienta familiar con un informe de coincidencias claro. No persigas un número «perfecto» en una sola herramienta — mira las fuentes de coincidencia.",
+    },
+    {
+      q: "¿Un rewrite con synonymizer ayuda de verdad?",
+      a: "Normalmente no: el texto se vuelve ilegible y los buscadores pillan esos esquemas. Mejor reescribir desde un brief.",
+    },
+    {
+      q: "¿Debo revisar mis textos antiguos?",
+      a: "Sí, sobre todo antes de fusionar páginas o un rewrite: es más fácil encontrar duplicados internos y conservar el material fuerte.",
+    },
+    {
+      q: "¿Puedo subir el texto de un cliente a cualquier servicio?",
+      a: "No. Revisa términos de tratamiento de datos y acuerdos con el cliente: un borrador bajo NDA no debería ir a un checker público sin pensarlo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué revisar antes de publicar",
+      level: 2,
+      paras: [
+        "Una comprobación ayuda a pillar copy-paste, compilación mecánica y paráfrasis demasiado cercana antes de publicar. Baja el riesgo de reclamaciones de titulares de derechos y de duplicados flojos que no aportan valor nuevo al usuario.",
+        "Para un editor y un cliente, el informe es otro control de proceso: si el texto se armó con artículos ajenos bajo etiqueta de «original». Pero el porcentaje no sustituye edición, fact-checking ni utilidad para la audiencia.",
+        "Es especialmente útil tras un autor nuevo, reescribir una página vieja o fusionar varias fuentes. Cuanto mayor el valor comercial, más importa la autoría demostrable y las fuentes de hechos.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo hace falta especialmente una comprobación:",
+          items: [
+            "landings nuevas y páginas comerciales",
+            "posts de blog y materiales expertos",
+            "textos de exchange y copy de autores nuevos",
+            "actualizar páginas antiguas con trozos externos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Copywriting",
+          href: "/es/blog/kopirayting/",
+        },
+      ],
+    },
+    {
+      title: "Cómo leer el informe",
+      level: 2,
+      paras: [
+        "Mira no solo el porcentaje, sino URLs concretas, longitud del fragmento y tipo de coincidencia. Solapamientos con tu sitio, nombres de producto, frases de referencia, condiciones de pago obligatorias o citas bien atribuidas son normales.",
+        "Un umbral tipo «desde 95%» es guía de proceso, no ley de calidad. Una página corta con bloques estándar a menudo muestra más coincidencias que un artículo largo — eso no la hace automáticamente mala.",
+        "Peor: trozos largos uno a uno con un competidor, la misma secuencia de argumentos y un texto que tras swaps de sinónimos ya no suena natural. Entonces reescribe la idea y la estructura — no palabras sueltas.",
+      ],
+      lists: [
+        {
+          intro: "Banderas rojas:",
+          items: [
+            "párrafos largos idénticos a un competidor",
+            "coincidencias con plantillas «únicas» de exchange",
+            "texto que perdió sentido tras edits «por el porcentaje»",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Stuffing de texto",
+          href: "/es/blog/zaspamlennost-teksta/",
+        },
+      ],
+    },
+    {
+      title: "Herramientas y sentido común",
+      level: 2,
+      paras: [
+        "Las comprobaciones online valen para un borrador si muestran fuentes de coincidencia, ajustes de análisis y política de retención de datos. Las herramientas cambian; importan más la claridad del informe y poder re-chequear.",
+        "Para materiales sensibles usa un setup corporativo o local, y acuerda subidas públicas con el cliente. Texto bajo NDA, datos personales, condiciones comerciales e investigación no publicada piden cuidado extra.",
+        "Comparar unos servicios tiene sentido ante un resultado disputado — no muelas un artículo eternamente por un número bonito. Toma una decisión editorial sobre las fuentes de coincidencia y regístrala.",
+      ],
+      lists: [
+        {
+          intro: "Proceso de trabajo:",
+          items: [
+            "escribe desde un brief y hechos, no desde el artículo de otro",
+            "lanza una comprobación",
+            "reescribe los trozos problemáticos con tus palabras",
+            "alinea keywords sin stuffing",
+            "publica y observa la indexación",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Importante",
+          text: "La unicidad no sustituye utilidad ni estructura. Copy vacío pero «100% único» es peor que una página fuerte con citas honestas y enlaces a fuentes.",
+        },
+      ],
+    },
+    {
+      title: "Prepara el texto para la comprobación",
+      level: 2,
+      paras: [
+        "Revisa el borrador final, no un doc de trabajo con comentarios y notas técnicas. Excluye de la puntuación lo que debe coincidir: títulos de leyes, specs de modelo, direcciones, detalles legales, términos oficiales y citas directas con fuente.",
+        "Si el texto ya está live en tu sitio, la herramienta puede coincidir con esa misma página o un espejo. Eso no es motivo para reescribir: primero confirma que la versión primaria está bien fijada y los duplicados cerrados o redirigidos.",
+        "Guarda un enlace al informe o un export con la versión del texto. Ese rastro ayuda a explicar decisiones editoriales si más adelante se cuestiona el origen.",
+      ],
+      lists: [
+        {
+          intro: "Antes de enviar a un servicio:",
+          items: [
+            "revisar el doc por datos personales",
+            "quitar comentarios internos y notas de borrador",
+            "fijar versión y fecha de comprobación",
+            "confirmar si el servicio guarda el texto subido",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Reescribe la idea, no las palabras",
+      level: 2,
+      paras: [
+        "Si una coincidencia es de verdad problemática, vuelve al brief, a los hechos y a tu experiencia. Formula la tesis con tus palabras; suma un ejemplo, un límite, un cálculo o un comentario de especialista. Eso da material original — no rewrite cosmético.",
+        "No uses synonymizers ni swaps automáticos de palabras por un porcentaje. Rompen la terminología, crean phrasing antinatural y a menudo dejan reconocible la lógica original. Los usuarios lo notan antes que cualquier algoritmo.",
+        "Las citas están bien cuando hacen falta y son honestas: un fragmento corto, una fuente clara y tu análisis alrededor. No escondas texto ajeno detrás de reordenar frases.",
+      ],
+    },
+    {
+      title: "Integra la comprobación en el proceso editorial",
+      level: 2,
+      paras: [
+        "Comprueba la unicidad antes de la aprobación final, no después de publicar cuando los fixes ya afectan a la URL, enlaces y trabajo editorial. Acuerda con los autores de antemano qué nivel de check hace falta, dónde vive el informe y quién decide los casos disputados.",
+        "Tras la comprobación, haz edición normal: hechos, estructura, utilidad, terminología, gramática y keywords naturales. Texto único que no responde a la pregunta del usuario sigue sin ser una buena página.",
+        "Vigila también duplicados internos. Dos de tus artículos respondiendo a una consulta casi igual pueden competir — a veces conviene separar por intención o fusionarlos.",
+      ],
+      links: [
+        {
+          label: "Stuffing de texto",
+          href: "/es/blog/zaspamlennost-teksta/",
+        },
+      ],
+    },
+  ],
+};

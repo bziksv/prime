@@ -136,3 +136,140 @@ export const metaDescriptionEn: BlogPost = {
     "vnutrennie-faktory",
   ],
 };
+
+/** ES overlay for meta-description — same structure as RU JSON / EN. */
+export const metaDescriptionEs: BlogPost = {
+  slug: "meta-description",
+  title: "Meta description: por qué importa y cómo afecta al SEO",
+  date: "2020-02-26",
+  category: "SEO",
+  cover: "/images/blog/meta-description/cover.webp",
+  excerpt:
+    "Qué es una meta description, si afecta directamente a los rankings, cómo se liga al snippet y al CTR, y cómo escribirla sin stuffing de keywords ni clickbait.",
+  lead: [
+    "`<meta name=\"description\" content=\"…\">` es un resumen corto de la página para buscadores y a veces redes. No es una palanca secreta de ranking #1 — es un candidato al snippet bajo el título en resultados.",
+    "Abajo: impacto directo vs indirecto, cómo el buscador elige el texto del snippet y reglas para una buena description. No tratamos como ley viejos lab tests de micro-keywords ni un rígido «exactamente 240 caracteres».",
+  ],
+  faq: [
+    {
+      q: "¿La meta description sube rankings directamente?",
+      a: "Como factor de scoring aparte — no hay un caso sólido. Importan más contenido, enlaces, técnica y encaje con la intención. La description trabaja vía el snippet y los clics.",
+    },
+    {
+      q: "¿El buscador siempre usa mi description?",
+      a: "No. Puede sacar un fragmento de la página si eso responde mejor a la consulta. Una description precisa sube las odds — no garantiza.",
+    },
+    {
+      q: "¿Sigo necesitando meta keywords?",
+      a: "Para Google y Yandex como factor de ranking — no. Pon el esfuerzo en title, description y texto de la página.",
+    },
+    {
+      q: "¿De qué longitud debería ser?",
+      a: "Apunta a caber en un snippet típico: sentido en los primeros ~150–160 caracteres, sin muro de texto. El corte exacto varía por dispositivo y SERP.",
+    },
+    {
+      q: "¿En qué se diferencia de Open Graph?",
+      a: "OG fija previews sociales por separado. La description es sobre todo para búsqueda; algunas plataformas pueden caer a ella si faltan sus propios tags.",
+    },
+  ],
+  sections: [
+    {
+      title: "Impacto SEO directo y mitos",
+      level: 2,
+      paras: [
+        "Las fórmulas de ranking están cerradas. En la práctica una keyword metida solo en la description con una página floja no mueve posiciones. El contenido y la relevancia de la página ganan a los campos meta.",
+        "El spam histórico de descriptions (hojas de keywords, texto que no habla de la página) enseñó a los motores a no confiar ciegamente en el tag. De ahí la sensación de que «la description ya no importa» — importa de otra forma: vía el snippet.",
+      ],
+      lists: [
+        {
+          intro: "Qué no funciona:",
+          items: [
+            "keywords solo en la description sin texto en la página",
+            "una description para todo el sitio",
+            "clickbait que la página no cumple",
+            "apostar a meta keywords obsoletas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Snippet de búsqueda",
+          href: "/es/blog/snippet/",
+        },
+        {
+          label: "Errores de SEO",
+          href: "/es/blog/seo-oshibki/",
+        },
+      ],
+    },
+    {
+      title: "Snippet, CTR y una promesa honesta",
+      level: 2,
+      paras: [
+        "Bajo el título azul en resultados a menudo ves una description. Si es clara y útil, sube la chance de clic (CTR) en la misma posición. Eso es un efecto indirecto — no un botón de «sube N puestos».",
+        "Una description engañosa sube el rebote: la gente hace clic y se va. La promesa del snippet debe casar con el H1 y la primera pantalla.",
+        "Para redes, fija Open Graph / Twitter Cards; no cuentes con la description como fallback.",
+      ],
+      lists: [
+        {
+          intro: "Una buena description:",
+          items: [
+            "única por URL",
+            "refleja la intención y el valor de la página",
+            "mantiene el sentido al inicio de la línea",
+            "sin stuffing ni TODO EN MAYÚSCULAS",
+            "un CTA suave cuando encaja",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "No infles el CTR con clickbait de «resultado shock». Un clic corto más rebote alto perjudica más que una description sosa pero honesta.",
+        },
+      ],
+      links: [
+        {
+          label: "CTR como factor",
+          href: "/blog/ctr-faktor-google/",
+        },
+        {
+          label: "Open Graph",
+          href: "/es/blog/open-graph/",
+        },
+      ],
+    },
+    {
+      title: "Cómo escribirla y dónde revisar",
+      level: 2,
+      paras: [
+        "En el CMS — un campo SEO de description aparte en plantillas y landings clave. Plantillas con placeholders de producto/ciudad están bien si la línea se lee natural — no «Compra {name} {name} precio».",
+        "En Search Console / Webmaster, revisa cómo se ve de verdad el snippet para las consultas. Si el buscador sustituye su propio fragmento — refuerza el párrafo relevante en la página y aprieta la description.",
+      ],
+      lists: [
+        {
+          intro: "Mini checklist de release:",
+          items: [
+            "existe description única",
+            "no es un duplicado 1:1 del title",
+            "sin hoja de keywords",
+            "preview del snippet revisado",
+            "la página confirma la promesa del texto",
+          ],
+        },
+      ],
+    },
+  ],
+  closing: [
+    "La meta description es una herramienta de snippet y clic — no un sustituto del contenido. Escribe descriptions únicas y honestas atadas al title y a la página; para rich results y markup — mira la pieza del snippet.",
+  ],
+  related: [
+    "snippet",
+    "seo-oshibki",
+    "ctr-faktor-google",
+    "open-graph",
+    "teg-h1",
+    "vnutrennie-faktory",
+  ],
+};

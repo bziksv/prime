@@ -2,7 +2,8 @@
 import CookieConsent from "../CookieConsent.astro";
 import CookieFooterNotice from "../CookieFooterNotice.astro";
 import SiteSeo from "../SiteSeo.astro";
-  import {
+import DevLangSwitch from "../DevLangSwitch.astro";
+import {
   v6Photos,
   v6Icons,
   v6ModuleBanners,
@@ -36,7 +37,7 @@ const docs = getLegalDocs(locale);
 const year = new Date().getFullYear();
 const path = homePath(locale);
 const htmlLang = localeMeta[locale].hreflang;
-const ogLocale = locale === "en" ? "en_US" : "ru_RU";
+const ogLocale = locale === "en" ? "en_US" : locale === "es" ? "es_ES" : "ru_RU";
 
 const orgJsonLd = {
   "@context": "https://schema.org",
@@ -117,6 +118,7 @@ const hubCplInitial =
       alternates={[
         { hreflang: "ru", path: "/" },
         { hreflang: "en", path: "/en/" },
+        { hreflang: "es", path: "/es/" },
         { hreflang: "x-default", path: "/" },
       ]}
     />
@@ -204,26 +206,11 @@ const hubCplInitial =
             <strong>{t.breadcrumbHome}</strong>
           </p>
           <div class="home-topbar-actions">
-            {
-              import.meta.env.DEV && (
-                <div class="home-lang" aria-label={t.langSwitchAria} data-lang-switch>
-                  <a
-                    class:list={["home-lang__btn", locale === "ru" && "is-active"]}
-                    href="/"
-                    hreflang="ru"
-                    lang="ru"
-                    data-locale-set="ru">RU</a
-                  >
-                  <a
-                    class:list={["home-lang__btn", locale === "en" && "is-active"]}
-                    href="/en/"
-                    hreflang="en"
-                    lang="en"
-                    data-locale-set="en">EN</a
-                  >
-                </div>
-              )
-            }
+            <DevLangSwitch
+              locale={locale}
+              ariaLabel={t.langSwitchAria}
+              hrefs={{ ru: "/", en: "/en/", es: "/es/" }}
+            />
             <a href="#cta" class="v6-btn home-btn-glow">{t.ctaTop}</a>
           </div>
         </header>
@@ -661,31 +648,58 @@ const hubCplInitial =
 
     {
       locale === "ru" ? (
-        <aside
-          id="home-locale-offer"
-          class="home-locale-offer"
-          hidden
-          role="dialog"
-          aria-label={t.localeOfferTitle}
-          data-locale-offer
-          data-offer-target="en"
-          data-offer-href="/en/"
-        >
-          <div class="home-locale-offer__inner">
-            <div>
-              <strong>{t.localeOfferTitle}</strong>
-              <p>{t.localeOfferText}</p>
+        <>
+          <aside
+            id="home-locale-offer-es"
+            class="home-locale-offer"
+            hidden
+            role="dialog"
+            aria-label="¿Versión en español?"
+            data-locale-offer
+            data-offer-target="es"
+            data-offer-href="/es/"
+          >
+            <div class="home-locale-offer__inner">
+              <div>
+                <strong>¿Versión en español?</strong>
+                <p>Tu navegador parece preferir español. ¿Abrir la portada en español?</p>
+              </div>
+              <div class="home-locale-offer__actions">
+                <a class="v6-btn home-btn-glow" href="/es/" data-locale-offer-accept data-locale-set="es"
+                  >Continuar en español</a
+                >
+                <button type="button" class="v6-btn v6-btn--outline" data-locale-offer-dismiss
+                  >Seguir en ruso</button
+                >
+              </div>
             </div>
-            <div class="home-locale-offer__actions">
-              <a class="v6-btn home-btn-glow" href="/en/" data-locale-offer-accept data-locale-set="en"
-                >{t.localeOfferAccept}</a
-              >
-              <button type="button" class="v6-btn v6-btn--outline" data-locale-offer-dismiss
-                >{t.localeOfferDismiss}</button
-              >
+          </aside>
+          <aside
+            id="home-locale-offer"
+            class="home-locale-offer"
+            hidden
+            role="dialog"
+            aria-label={t.localeOfferTitle}
+            data-locale-offer
+            data-offer-target="en"
+            data-offer-href="/en/"
+          >
+            <div class="home-locale-offer__inner">
+              <div>
+                <strong>{t.localeOfferTitle}</strong>
+                <p>{t.localeOfferText}</p>
+              </div>
+              <div class="home-locale-offer__actions">
+                <a class="v6-btn home-btn-glow" href="/en/" data-locale-offer-accept data-locale-set="en"
+                  >{t.localeOfferAccept}</a
+                >
+                <button type="button" class="v6-btn v6-btn--outline" data-locale-offer-dismiss
+                  >{t.localeOfferDismiss}</button
+                >
+              </div>
             </div>
-          </div>
-        </aside>
+          </aside>
+        </>
       ) : (
         <aside
           id="home-locale-offer"

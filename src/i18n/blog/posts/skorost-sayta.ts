@@ -164,3 +164,168 @@ export const skorostSaytaEn: BlogPost = {
     "ustarevshiy-sayt",
   ],
 };
+
+/** ES overlay for skorost-sayta — same structure as RU JSON / EN. */
+export const skorostSaytaEs: BlogPost = {
+  slug: "skorost-sayta",
+  title: "Cómo comprobar la velocidad del sitio: mediciones, CWV y herramientas",
+  date: "2018-06-15",
+  category: "SEO",
+  cover: "/images/blog/skorost-sayta/cover.webp",
+  excerpt:
+    "Cómo medir la carga de página: datos de laboratorio vs de campo, Core Web Vitals, PageSpeed Insights y qué hacer con el informe — sin culto a «100 puntos» ni un ranking polvoriento de herramientas de 2018.",
+  lead: [
+    "Una página lenta pierde gente y señales de búsqueda. Comprobar velocidad no es una carrera al cien en PageSpeed — es averiguar qué bloquea (servidor, imágenes, JS) y en qué URLs duele.",
+    "Abajo: lab vs field, qué métricas importan, un set de herramientas magro y cómo leer recomendaciones. No reimprimimos una lista de precios de diez herramientas de 2018 — unas envejecieron, otras cambiaron de producto. Acelerar WordPress es un artículo aparte.",
+  ],
+  faq: [
+    {
+      q: "¿Hace falta 100 en PageSpeed?",
+      a: "No. Importa más LCP / INP / CLS en zona verde en móvil para URLs clave — y la UX real.",
+    },
+    {
+      q: "¿Lab y field son lo mismo?",
+      a: "No. Lab (Lighthouse) es una corrida controlada. Field (CrUX) son datos de usuarios reales. Mira ambos.",
+    },
+    {
+      q: "¿Basta con Webmaster?",
+      a: "Útil para disponibilidad y algo de diagnóstico — no sustituye PSI / CWV para cómo se siente la carga.",
+    },
+    {
+      q: "¿Velocidad equivale a rankings?",
+      a: "De forma indirecta, vía UX y crawl. Las posiciones del núcleo llevan meses planificados de trabajo — no «corrí PSI y entré en primera página».",
+    },
+    {
+      q: "¿Con qué URL empiezo?",
+      a: "Home, landings principales de ads u orgánico, página de producto o servicio, checkout.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué medir la velocidad",
+      level: 2,
+      paras: [
+        "Los usuarios rara vez esperan eternamente: suben los rebotes y cae la conversión. Para SEO importan señales de page-experience — y bots y personas deben obtener contenido sin dolor.",
+        "No tomes el mito «los sitios líderes cargan en 0,38 s» de posts viejos como KPI. Mide tus plantillas en redes móviles y compara competidores por sustancia, no por el número mágico de otro.",
+      ],
+      links: [
+        {
+          label: "Mobile-First Index",
+          href: "/blog/mobile-first-indeks/",
+        },
+        {
+          label: "Sitio responsive",
+          href: "/blog/adaptivnyy-sayt/",
+        },
+      ],
+    },
+    {
+      title: "Lab y field: dos capas de verdad",
+      level: 2,
+      paras: [
+        "Lab (PageSpeed Insights / Lighthouse, WebPageTest): condiciones reproducibles, waterfall, tips de «qué quitar». Útil para regresiones tras un release.",
+        "Field (Chrome UX Report, informes de Search Console): cómo carga de verdad para tu audiencia. A veces el lab es verde y el field rojo — geografía, dispositivos y caché distintos.",
+      ],
+      tables: [
+        {
+          caption: "Qué tratar como base",
+          headers: ["Capa", "Cuándo"],
+          rows: [
+            ["Lab", "Debugging, comparación antes/después del fix"],
+            ["Field", "UX real y valoración de señales SEO"],
+            ["Ambas", "Releases y debates de «ya vamos rápido»"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué métricas mirar",
+      level: 2,
+      paras: [
+        "Core Web Vitals: LCP (contenido más grande), INP (responsividad), CLS (estabilidad del layout). Cerca — TTFB como señal de servidor/backend.",
+        "No arregles todo a la vez. Primero LCP en móvil en una URL clave, luego INP/CLS, luego cosmética de la nota.",
+      ],
+      lists: [
+        {
+          intro: "Culpables habituales:",
+          items: [
+            "hero pesado sin dimensiones",
+            "JS/CSS bloqueantes",
+            "TTFB / hosting lento",
+            "widgets y tags de terceros",
+            "fuentes sin font-display",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Un set de herramientas magro",
+      level: 2,
+      paras: [
+        "PageSpeed Insights — arranque rápido de lab más un resumen de field donde haya. WebPageTest — waterfall profundo y comparación por región. Google Search Console — page experience en todo el sitio.",
+        "También: DevTools Performance/Network en local, monitoreo de uptime (Pingdom y pares — como alerta, no como único medidor SEO). Checkers extra de «sitespeed» como segunda mirada, no como verdad.",
+      ],
+      notes: [
+        {
+          title: "Sobre aquella lista de 2018",
+          text: "No copies a ciegas YSlow, planes viejos de GTMetrix/Pingdom ni una «extensión PageSpeed». Refresca el stack de medición cada año.",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "Acelerar WordPress",
+          href: "/es/blog/uskorenie-wordpress/",
+        },
+        {
+          label: "Google Search Console",
+          href: "/es/blog/google-search-console/",
+        },
+      ],
+    },
+    {
+      title: "Leer el informe — luego actuar",
+      level: 2,
+      paras: [
+        "Fija URL, dispositivo (móvil), fecha y un screenshot o export. Lista las tres recomendaciones principales con estimación de esfuerzo. Ship → vuelve a medir en un día (el field tarda más en ponerse al día).",
+        "TTFB alto — hosting, caché, backend. LCP — imágenes, SSR/critical CSS, prioridad de carga. CLS — dimensiones de media y slots de ads.",
+      ],
+      lists: [
+        {
+          intro: "Mini-ritual mensual:",
+          items: [
+            "PSI en 3–5 URLs clave",
+            "GSC: URLs con mala experiencia",
+            "comparar con el mes pasado",
+            "1–2 fixes al sprint",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "La velocidad se mide con métricas de percepción y de servidor — no con un montón de diez favoritos. Lab para debugging, field para la verdad del usuario.",
+        "Tras medir — encuentra el cuello de botella y arréglalo. Correr a 100 puntos sin mejor UX no es el trabajo.",
+      ],
+    },
+  ],
+  closing: [
+    "Corre URLs clave en PageSpeed en móvil, revisa field en Search Console y cierra un freno principal (TTFB o LCP) — eso convierte el chequeo de velocidad en trabajo, no en un ritual de «una herramienta más de la lista».",
+  ],
+  related: [
+    "uskorenie-wordpress",
+    "mobile-first-indeks",
+    "tehnicheskiy-seo-audit",
+    "google-search-console",
+    "adaptivnyy-sayt",
+    "ustarevshiy-sayt",
+  ],
+};

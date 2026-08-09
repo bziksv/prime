@@ -1,5 +1,137 @@
 import type { BlogPost } from "../../../data/blog";
 
+/** ES overlay for uderzhanie-podpischikov — same structure as RU JSON. */
+export const uderzhaniePodpischikovEs: BlogPost = {
+  slug: "uderzhanie-podpischikov",
+  title: "Cómo evitar que los suscriptores de email se vayan",
+  date: "2018-05-25",
+  category: "Email marketing",
+  cover: "/images/blog/uderzhanie-podpischikov/cover.webp",
+  excerpt:
+    "Por qué la gente deja una lista y cómo bajar las bajas: maquetación móvil, timing de envío, frecuencia, página de baja con encuesta y alternativas, ofertas de win-back — sin aferrarte a una base muerta.",
+  lead: [
+    "Una baja no siempre es un fracaso: algunos se van porque la oferta ya no encaja. Es peor cuando se van por mala UX, frecuencia spammy o emails que no se leen en el teléfono.",
+    "Abajo: motivos típicos de salida y movimientos prácticos de retención — antes de la baja y en la página de opt-out. El objetivo es una lista viva e interesada — no el archivo «para siempre» más largo.",
+  ],
+  faq: [
+    {
+      q: "¿Las bajas siempre son malas?",
+      a: "No. Limpiar a quien no está interesado mejora la deliverability. El problema real son las salidas masivas por mala calidad del email.",
+    },
+    {
+      q: "¿Qué molesta más?",
+      a: "Enviar demasiado a menudo, contenido irrelevante, layouts que se rompen en móvil y un flujo de baja de varios pasos.",
+    },
+    {
+      q: "¿Hace falta una encuesta en la baja?",
+      a: "Sí — una corta. Muestra el motivo; no les hagas volver a escribir el email.",
+    },
+    {
+      q: "¿Se puede ofrecer mail menos frecuente?",
+      a: "Sí: «menos a menudo» o «solo promos» en lugar de un opt-out completo es una alternativa habitual.",
+    },
+    {
+      q: "¿Es ético un cupón de win-back?",
+      a: "Si aún no han confirmado del todo el opt-out y la oferta encaja. No retengas con engaño.",
+    },
+    {
+      q: "¿Ayuda el A/B del horario de envío?",
+      a: "Sí en tu propia lista. Las reglas ajenas de «mañana vs tarde» son hipótesis, no ley.",
+    },
+    {
+      q: "¿Qué relación tiene con la estrategia de email?",
+      a: "La retención es parte de la estrategia de email: segmentos, valor, frecuencia. Ver el artículo aparte.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué se van",
+      level: 2,
+      paras: [
+        "Sin interés en el producto, una mudanza o cambio de contexto, emails ilegibles en el teléfono, mal horario de envío, demasiado raros (marca olvidada) o demasiado a menudo (sensación de spam).",
+        "Algunos motivos una oferta no puede arreglar. Otros están de lleno en marketing: layout, segmentación, calendario, valor.",
+      ],
+      links: [
+        {
+          label: "Maquetación HTML de email",
+          href: "/es/blog/verstka-email/",
+        },
+        {
+          label: "Diseño de email",
+          href: "/es/blog/oformlenie-email/",
+        },
+      ],
+    },
+    {
+      title: "Antes de la baja: calidad del toque",
+      level: 2,
+      paras: [
+        "Mantén una vista móvil sólida, un preheader claro y un objetivo por email. Segmenta: los nuevos y los «dormidos» reciben mail distinto.",
+        "Prueba frecuencia y timing con A/B en tu lista. Los triggers útiles retienen mejor que digests vacíos «por checklist».",
+      ],
+      lists: [
+        {
+          intro: "Mínimo contra las bajas:",
+          items: [
+            "los emails se leen bien en el smartphone",
+            "hay valor, no solo una promo",
+            "la frecuencia es previsible",
+            "baja en un clic",
+            "segmentos en lugar de «un blast para todos»",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Copy de newsletter",
+          href: "/es/blog/tekst-email-rassylki/",
+        },
+        {
+          label: "Emails disparados",
+          href: "/es/blog/triggernye-rassylki/",
+        },
+      ],
+    },
+    {
+      title: "En la página de baja y el win-back",
+      level: 2,
+      paras: [
+        "Haz el opt-out simple. Ayudan opciones suaves: humor ligero sin burla, «¿por qué te vas?», «menos a menudo / solo lo importante», una oferta exclusiva para quien aún duda.",
+        "Agradece el tiempo contigo. Guarda el opt-out al momento — sin dark patterns del tipo «confirma otra vez por tres formularios».",
+        "Usa los datos de la encuesta para corregir la estrategia y atraer gente nueva: la gestión de lista es continua.",
+      ],
+      links: [
+        {
+          label: "Estrategia de email",
+          href: "/es/blog/email-strategiya/",
+        },
+        {
+          label: "Lista de email con consentimiento",
+          href: "/es/blog/baza-email-socseti/",
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "La retención no justifica ignorar un opt-out ni esconder la baja. Cumple el consentimiento y las reglas del ESP / proveedor de buzón.",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Primero quita causas de salida dentro de los propios emails; después arma una página de baja honesta con encuesta y la alternativa «menos a menudo» — la lista se hace más pequeña en número, más fuerte en respuesta.",
+  ],
+  related: [
+    "email-strategiya",
+    "tekst-email-rassylki",
+    "triggernye-rassylki",
+    "verstka-email",
+    "oformlenie-email",
+    "baza-email-socseti",
+  ],
+};
+
 /** EN overlay for uderzhanie-podpischikov — same structure as RU JSON. */
 export const uderzhaniePodpischikovEn: BlogPost = {
   slug: "uderzhanie-podpischikov",

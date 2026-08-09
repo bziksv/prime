@@ -157,3 +157,161 @@ export const prodayushchiyKontentEn: BlogPost = {
     "lichnyy-brend",
   ],
 };
+
+/** ES overlay for prodayushchiy-kontent — same structure as RU JSON / EN. */
+export const prodayushchiyKontentEs: BlogPost = {
+  slug: "prodayushchiy-kontent",
+  title: "Contenido de venta en redes: tipos, ejemplos y un plan",
+  date: "2020-04-06",
+  category: "Content marketing",
+  cover: "/images/blog/prodayushchiy-kontent/cover.webp",
+  excerpt:
+    "Qué es el contenido de venta en redes: objetivos, B2C y B2B, tipos de post y cómo armar un plan sin un «compra ya» infinito ni % obsoletos de reviews antiguas.",
+  lead: [
+    "El contenido de venta impulsa una acción: clic, lead, compra. No es solo una «oferta −50%» — es una mezcla de oferta, valor y prueba ajustada a la audiencia.",
+    "Abajo: objetivos, diferencias B2C/B2B, tipos de post y reglas para armar el plan. La estructura del copy comercial y la taxonomía de formatos del feed viven en otros sitios. Las cifras antiguas de «70% de negocios / 80% compró por un post» no son universales. Las menciones de Instagram y Facebook son informativas.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar las plataformas. Instagram* y Facebook* son productos de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso de los servicios puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia del copy de venta en un sitio?",
+      a: "En un sitio — un landing para el deal. En redes importan más el calentamiento, el formato de la plataforma y los límites de atención; el CTA a menudo va al sitio o a Direct.",
+    },
+    {
+      q: "¿Puedo publicar solo contenido de venta?",
+      a: "Suele no: el feed se quema. Mezcla valor, marca y oferta — ratios según el nicho.",
+    },
+    {
+      q: "¿Hace falta un precio en el post?",
+      a: "Para B2C a menudo sí: menos fricción. Para B2B importan más términos, casos y proceso.",
+    },
+    {
+      q: "¿Cuántos slots de venta van en el plan?",
+      a: "Los que la audiencia tolere sin unfollows. Mira saves, respuestas y leads — no solo likes.",
+    },
+    {
+      q: "¿«Solo quedan 2» siempre funciona?",
+      a: "Solo si es verdad. La urgencia falsa daña la confianza y las reglas de ads.",
+    },
+    {
+      q: "¿Es obligatorio un estilo de marca completo?",
+      a: "Deseable: reconocimiento en el feed. Un «cyberpunk como los bancos» completo no es obligatorio — importa la consistencia.",
+    },
+    {
+      q: "¿El vídeo es obligatorio para contenido de venta?",
+      a: "Un formato fuerte, no el único. Stories, carruseles y texto con oferta clara también funcionan.",
+    },
+  ],
+  sections: [
+    {
+      title: "Objetivos del contenido de venta",
+      level: 2,
+      paras: [
+        "El crecimiento de followers es un efecto secundario. Más cerca del dinero: clic al sitio/catálogo, diálogo, lead. El sitio debe funcionar en móvil y cuadrar con la promesa del post.",
+        "El enlace en el post — inmediato y al grano. El engaño (precio, origen, plazos) mata las ventas más rápido que un «creative débil».",
+      ],
+      links: [
+        {
+          label: "Copy de venta",
+          href: "/es/blog/prodayushchie-teksty/",
+        },
+      ],
+    },
+    {
+      title: "B2C y B2B",
+      level: 2,
+      paras: [
+        "B2C: beneficio claro, precio/promo cuando aplica, camino rápido al pedido, tono más cerca del lenguaje del segmento.",
+        "B2B: confianza, proceso (facturación, volúmenes, SLA), casos y reseñas, tono formal — sin memes baratos por alcance.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de audiencia antes del plan:",
+          items: [
+            "quién compra y qué trabajo cierra",
+            "objeciones y triggers del segmento",
+            "dónde vive la audiencia (plataforma/formato)",
+            "qué cuenta como éxito del post (no solo un like)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Tipos de contenido de venta",
+      level: 2,
+      paras: [
+        "Marca: producto, promos, reseñas, bastidores ligados a la oferta.",
+        "Útil: how-tos, checklists, Q&A del producto — calentamiento sin un «compra» duro.",
+        "Entretenimiento: emoción dentro de la marca, no standup por el standup.",
+        "Situacional: reacción a un evento o fecha — rápido y que encaje, sin chistes tóxicos.",
+        "Historias y casos: estructura, sinceridad, vínculo al servicio — no cotilleo por hype.",
+      ],
+      links: [
+        {
+          label: "Tipos de contenido en redes",
+          href: "/blog/vidy-kontenta-socseti/",
+        },
+        {
+          label: "Plan de contenidos",
+          href: "/es/blog/kontent-plan/",
+        },
+      ],
+    },
+    {
+      title: "Cómo armar el plan",
+      level: 2,
+      paras: [
+        "Rúbricas por tipo → slots para 2–4 semanas → CTA y UTM/promo en posts de venta → buffer de ideas para fechas.",
+        "Planifica posts situacionales con un calendario de eventos; «viral en una hora como Oreo» es suerte rara, no un KPI.",
+      ],
+      lists: [
+        {
+          intro: "Reglas prácticas:",
+          items: [
+            "la oferta es honesta y comprobable",
+            "visuales en un solo sistema (color, tipografía, frame)",
+            "motion (vídeo/Stories) — dentro de la capacidad, no para el informe",
+            "ads y orgánico para segmentos distintos de audiencia",
+            "mide leads, no solo alcance",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Formatos relacionados",
+          text: "Un post de venta en Instagram y el marco general de copy viven en piezas aparte. Aquí — estrategia de mezcla y planificación.",
+        },
+      ],
+      links: [
+        {
+          label: "Post de venta en Instagram",
+          href: "/es/blog/post-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "Contenido de venta = un siguiente paso claro + confianza.",
+        "Una mezcla de tipos gana a un escaparate diario.",
+        "B2C y B2B necesitan tono y prueba distintos.",
+      ],
+    },
+  ],
+  closing: [
+    "Abre un mes del feed y etiqueta posts: oferta / valor / marca / vacío — suele verse qué falta para ventas que funcionen.",
+  ],
+  related: [
+    "prodayushchie-teksty",
+    "kontent-plan",
+    "post-instagram",
+    "kontent-plan-instagram",
+    "lichnyy-brend",
+    "avtovoronka-instagram",
+  ],
+};

@@ -221,3 +221,225 @@ export const kloakingEn: BlogPost = {
     "samostoyatelnoe-seo",
   ],
 };
+
+/** ES overlay for kloaking — same structure as RU JSON / EN. Risk overview, not a how-to. */
+export const kloakingEs: BlogPost = {
+  slug: "kloaking",
+  title: "Qué es el cloaking en SEO y por qué es un riesgo",
+  date: "2019-07-09",
+  category: "SEO",
+  cover: "/images/blog/kloaking/cover.webp",
+  excerpt:
+    "Cloaking es mostrar contenido distinto a bots y a personas. Por qué se usa, qué te cuesta y cómo revisar que tu sitio no esté enmascarado — también tras un breach.",
+  lead: [
+    "Cloaking (de «cloak» — enmascarar) es cuando un bot de búsqueda recibe una versión de la página y un visitante otra. SEO black-hat clásico: el bot ve copy lleno de keywords para la SERP; la persona ve una oferta, anuncios o un sitio totalmente distinto.",
+    "Abajo: qué significa en la práctica, por qué los buscadores castigan estos esquemas y cómo asegurar que tu recurso no esté cambiado (el cloaking a menudo aparece tras un hack). Esto es un overview de riesgo y diagnóstico — no una guía para manipular resultados.",
+  ],
+  faq: [
+    {
+      q: "¿El cloaking es SEO white-hat?",
+      a: "No. Servir contenido distinto al bot rompe las reglas de los buscadores principales y lleva a filtros, desindexación o acciones manuales.",
+    },
+    {
+      q: "¿En qué se diferencia de un test A/B?",
+      a: "El A/B suele partir personas entre variantes y no busca ocultar una «verdad distinta» al bot. El cloaking da deliberadamente sentido distinto a bot y humano.",
+    },
+    {
+      q: "¿La adaptación por geo y dispositivo es cloaking?",
+      a: "La personalización legítima (idioma, moneda, plantilla móvil) con el mismo sentido de página está bien. El riesgo empieza cuando el bot ve «descarga gratis» y el humano solo un paywall u otro tema.",
+    },
+    {
+      q: "¿Por qué saber esto en absoluto?",
+      a: "Para no comprar «promoción» con intercambio de contenido, y para pillar un breach a tiempo: los atacantes a menudo cuelgan cloaking en sitios ajenos.",
+    },
+    {
+      q: "¿Cómo saber que el sitio fue hackeado?",
+      a: "El HTML difiere para Googlebot o Yandexbot vs un navegador normal, snippets raros, redirects a dominios ajenos, archivos desconocidos y picos en Webmaster o Search Console.",
+    },
+    {
+      q: "¿Basta un User-Agent Switcher?",
+      a: "Como pantalla rápida — sí. Más fiable: URL Inspection / fetch as Googlebot en herramientas de webmaster, luego compara con la vista normal.",
+    },
+    {
+      q: "¿Se puede hacer «solo un poco» por el snippet?",
+      a: "No hay una táctica durable de «solo un poco». Un snippet honesto significa title, description y contenido que el humano también ve.",
+    },
+    {
+      q: "¿Qué hacer en vez de cloaking?",
+      a: "Un documento claro para la intención: técnica, contenido, estructura. Preparación y trabajo sistemático; crecer un núcleo de consultas se planifica a lo largo de meses — no enmascarando.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es el método",
+      level: 2,
+      paras: [
+        "La idea es simple: detectar quién pidió la página y servir HTML distinto. El bot recibe texto cargado de keywords para la SERP; el humano una variante cómoda o comercial, a veces otra URL del todo.",
+        "Un engaño típico: la SERP promete «descarga gratis»; tras el clic — solo una compra o un producto irrelevante. El usuario es engañado, la búsqueda ve un desajuste — el sitio arriesga sanciones.",
+      ],
+      lists: [
+        {
+          intro: "Señales de cloaking:",
+          items: [
+            "sentido de página distinto para bot y humano",
+            "ocultar spam o doorways a los visitantes",
+            "redirects solo para algunos clientes",
+            "a menudo resultado de un breach, no «estrategia» del dueño",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "No explicamos cómo montar cloaking. El tema es detectar el riesgo y proteger tu sitio.",
+        },
+      ],
+    },
+    {
+      title: "Por qué los buscadores lo prohíben",
+      level: 2,
+      paras: [
+        "El trabajo de la búsqueda es mostrar un documento que encaje con la consulta para una persona. Intercambiar contenido rompe la confianza en el snippet y en el índice.",
+        "Algoritmos y revisiones manuales pillan desajustes. Resultados: una caída, baja de URL o dominio, rehabilitación larga tras la limpieza. Las «victorias» de enmascaramiento a corto plazo rara vez cubren el downtime.",
+      ],
+      lists: [
+        {
+          intro: "Riesgos de negocio:",
+          items: [
+            "pérdida de tráfico orgánico y de marca",
+            "cuentas de ads y programas partner también cortan el engaño",
+            "golpe de reputación si los usuarios se quejan",
+            "costes de limpieza tras un breach",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Errores habituales de SEO",
+          href: "/es/blog/seo-oshibki/",
+        },
+        {
+          label: "Tráfico sospechoso de Google",
+          href: "/es/blog/podozritelnyy-trafik-google/",
+        },
+      ],
+    },
+    {
+      title: "Cloaking y hacks: un par habitual",
+      level: 2,
+      paras: [
+        "En la práctica el dueño a menudo se entera del cloaking cuando el sitio ya está filtrado o aparecen snippets «ajenos». El malware sirve spam a los bots y redirects a las personas.",
+        "Así que el diagnóstico es parte de la seguridad: updates de CMS y plugins, permisos de archivos, monitoreo de integridad y alertas en Webmaster Tools o Search Console.",
+      ],
+      lists: [
+        {
+          intro: "Si sospechas un breach:",
+          items: [
+            "compara el HTML de bot y navegador",
+            "revisa archivos frescos y cron jobs",
+            "cambia contraseñas y API keys",
+            "limpia backdoors y pide reindexación tras el arreglo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Seguridad de WordPress",
+          href: "/es/blog/wordpress-bezopasnost/",
+        },
+      ],
+    },
+    {
+      title: "Cómo revisar el sitio por intercambio",
+      level: 2,
+      paras: [
+        "Movimiento básico: compara lo que ve el bot con lo que ves tú. En Google Search Console — URL Inspection / view as Googlebot; en el ecosistema Yandex — herramientas de webmaster y checks de respuesta del servidor.",
+        "Además: cambia el User-Agent en el navegador, compara el source; los «cloaking checkers» de terceros son una pista, no el único juez. Mira también la SERP: si el snippet dice una cosa y el landing otra sin motivo claro, investiga.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de comparación:",
+          items: [
+            "HTML o texto para el bot ≈ HTML para el humano en sentido",
+            "sin bloque oculto «solo bots»",
+            "canonical y redirects llevan a la URL correcta del mismo modo",
+            "sin redirects repentinos a dominios ajenos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Screaming Frog",
+          href: "/es/blog/screaming-frog/",
+        },
+        {
+          label: "Yandex Webmaster",
+          href: "/es/blog/yandeks-vebmaster/",
+        },
+      ],
+    },
+    {
+      title: "Qué no contar como cloaking",
+      level: 2,
+      paras: [
+        "Layout responsive, CSS distinto en móvil, precios geo para el mismo producto, login de cuenta — no son cloaking por sí solos si el documento del bot refleja la sustancia de la página pública.",
+        "Las zonas grises aparecen cuando las versiones «pública» y «bot» divergen en tema y promesa. Quédate con la regla: la promesa del snippet equivale al contenido tras el clic.",
+      ],
+      lists: [
+        {
+          intro: "Alternativa segura:",
+          items: [
+            "una página fuerte para la intención",
+            "title y description honestos",
+            "velocidad y móvil decentes",
+            "contenido y enlaces sin intercambio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Factores internos de ranking",
+          href: "/blog/vnutrennie-faktory/",
+        },
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+      ],
+    },
+    {
+      title: "Takeaway: riesgos en vez de un «ascenso rápido»",
+      level: 2,
+      paras: [
+        "El cloaking promete un atajo a la SERP y casi siempre acaba en un filtro o un incidente de seguridad. El crecimiento durable se construye sobre el encaje de consulta, página y oferta.",
+        "La preparación del sitio y el trabajo sistemático dan resultados según un plan: crecer un núcleo de consultas a grandes rasgos 2–6 meses tras el arranque del trabajo — no «mañana tras un script de enmascaramiento».",
+      ],
+      lists: [
+        {
+          intro: "Si una agencia ofrece una «SERP especial para bots» — señal de stop:",
+          items: [
+            "exige transparencia del método",
+            "revisa el HTML tú mismo",
+            "no aceptes intercambio por ranks",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Páginas honestas y preparación ganan al enmascaramiento. El trabajo de rankings de un núcleo se planifica aún a 2–6 meses — el cloaking no es un atajo a primera página.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "seo-oshibki",
+    "wordpress-bezopasnost",
+    "vnutrennie-faktory",
+    "podozritelnyy-trafik-google",
+    "tehnicheskiy-seo-audit",
+    "samostoyatelnoe-seo",
+  ],
+};

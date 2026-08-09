@@ -178,3 +178,182 @@ export const regionSaytaEn: BlogPost = {
     "yandeks-katalog",
   ],
 };
+
+/** ES overlay for region-sayta — same structure as RU JSON / EN. */
+export const regionSaytaEs: BlogPost = {
+  slug: "region-sayta",
+  title: "Cómo fijar la región de un sitio en Yandex",
+  date: "2017-07-04",
+  category: "SEO",
+  cover: "/images/blog/region-sayta/cover.webp",
+  excerpt:
+    "Cómo Yandex lee la región de un sitio: señales on-site, Webmaster y un listing de Business/Maps — sin Yandex.Catalog ni direcciones falsas.",
+  lead: [
+    "La región de un sitio afecta dónde apareces en consultas con localización. Asignar una región no es un checkbox mágico de primera página — es alinear contactos, mapas, contenido y ajustes de webmaster para que cuenten una historia honesta.",
+    "Abajo: qué sigue funcionando hoy — señales del propio sitio, Yandex Webmaster y un listing de negocio. Yandex.Catalog está cerrado — no lo persigas por regiones. La estrategia multi-ciudad pertenece a la guía de SEO regional.",
+  ],
+  faq: [
+    {
+      q: "¿Basta con fijar la región en Webmaster?",
+      a: "No. Hacen falta contactos reales, NAP coherente, a menudo un listing de mapa/negocio y contenido de ciudad. El panel es una señal.",
+    },
+    {
+      q: "¿Un número gratuito me hace «nacional»?",
+      a: "Un número gratuito solo no equivale a rankear en cada ciudad. Para demanda local importan más dirección, zona de servicio y landings para ciudades reales.",
+    },
+    {
+      q: "¿Yandex.Catalog sigue ayudando con regiones?",
+      a: "No. El Catálogo está cerrado. No compres «registro YACA para regiones».",
+    },
+    {
+      q: "¿Cuánto tarda en aplicarse la región?",
+      a: "De días a unas pocas semanas — depende de checks de datos y crawl. Eso no es el timing de primera página: los rankings del núcleo de ciudad se planifican a lo largo de meses.",
+    },
+    {
+      q: "¿Y si pongo la dirección de otro?",
+      a: "Riesgo de rechazo, baja del directorio y pérdida de confianza. Hacen falta motivos reales y datos verificables.",
+    },
+    {
+      q: "¿También hay que configurar Google?",
+      a: "Sí, como vía aparte: Search Console / Business Profile. La lógica de localidad es parecida; las consolas difieren.",
+    },
+    {
+      q: "¿Dónde aprender más de SEO multi-ciudad?",
+      a: "En el artículo de SEO regional: keywords, landings, mapas y errores multi-ciudad.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué un sitio necesita una región",
+      level: 2,
+      paras: [
+        "Para consultas con intención local («servicio + ciudad», «cerca»), Yandex pesa dónde opera el negocio. Si las señales son borrosas o chocan, pierdes terreno frente a sitios con dirección, mapa y contactos alineados.",
+        "Un ajuste de región en el panel no sustituye contenido y factores comerciales. Amplifica una localidad honesta — no es un sustituto de una estrategia SEO.",
+      ],
+      lists: [
+        {
+          intro: "Señales de localidad:",
+          items: [
+            "dirección y teléfono en el sitio (NAP)",
+            "página de contactos / sucursales",
+            "listing de Yandex Business / Maps",
+            "contenido local y condiciones de operación",
+            "ajustes y datos de Webmaster",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Preparar contactos y listings — días a semanas como guía. La cuota de primera página del núcleo regional se planifica a 2–6 meses tras el arranque del trabajo, sin garantía de fecha.",
+        },
+      ],
+    },
+    {
+      title: "Detección automática",
+      level: 2,
+      paras: [
+        "Incluso sin un ajuste manual, el bot puede inferir la región desde códigos telefónicos, direcciones en Contactos, menciones de ciudad en el copy y otras huellas. Por eso un sitio vacío sin dirección se lee mal como negocio local.",
+        "Listar una docena de ciudades en una página sin presencia real no te hace líder en todas. Varias ciudades piden un setup honesto de sucursales o zona de servicio — mira SEO regional.",
+      ],
+      lists: [
+        {
+          intro: "Qué ayuda a la auto-detección:",
+          items: [
+            "una sola dirección y horarios",
+            "un teléfono de ciudad o de contacto claro",
+            "indicaciones / un mapa en el sitio",
+            "datos que casan con el listing de la organización",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Región vía Yandex Webmaster",
+      level: 2,
+      paras: [
+        "Confirma la propiedad del sitio en Yandex Webmaster. En la UI actual busca ajustes ligados a región / representación (las etiquetas cambian — revisa la ayuda y las secciones del sitio en el panel).",
+        "Fija una región que encaje con el negocio y vincula una página con contactos reales. Una dirección inventada sube el riesgo de rechazo. Tras guardar, espera checks y recrawl — esto no entrega primera página al instante.",
+      ],
+      lists: [
+        {
+          intro: "Antes de enviar:",
+          items: [
+            "propiedad del sitio confirmada",
+            "página de contactos abierta e indexable",
+            "dirección/teléfono casan con el listing",
+            "región no más amplia que la zona de servicio real sin motivos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Yandex Webmaster — overview del panel",
+          href: "/es/blog/yandeks-vebmaster/",
+        },
+      ],
+    },
+    {
+      title: "Listing en Yandex Business y Directory",
+      level: 2,
+      paras: [
+        "Los resultados locales y el bloque de contactos a menudo se apoyan en un listing de organización (lógica de Yandex Business / Maps / era Directory). La confirmación por teléfono y los checks de dirección hacen más difíciles las fakes que solo escribir una ciudad en Webmaster.",
+        "Ata sitio, teléfono y dirección en el listing a lo que hay en el sitio. Tras la aprobación, mantén horarios, fotos y reseñas — un listing muerto es más débil que uno vivo.",
+      ],
+      links: [
+        {
+          label: "Yandex Directory / listing de negocio",
+          href: "/es/blog/yandeks-spravochnik/",
+        },
+      ],
+    },
+    {
+      title: "Por qué no Yandex.Catalog",
+      level: 2,
+      paras: [
+        "Guías antiguas listaban Yandex.Catalog como una cuarta vía: alta de pago y varias regiones. El servicio está cerrado; el intake de sitios paró.",
+        "No pagues por «regiones vía YACA». El reemplazo actual es Webmaster + listings de mapa + landings honestas. La historia del cierre es aparte.",
+      ],
+      links: [
+        {
+          label: "Cierre de Yandex.Catalog",
+          href: "/es/blog/yandeks-katalog/",
+        },
+      ],
+    },
+    {
+      title: "Checklist: región alineada",
+      level: 2,
+      paras: [
+        "Mantén una historia coherente: dónde trabajáis de verdad, qué contactos mostráis y qué ve Yandex en Webmaster y en el mapa.",
+        "Si hay varias ciudades — no intentes cubrir el país con un párrafo de contactos. Parte sucursales o zonas en páginas y listings.",
+      ],
+      tables: [
+        {
+          caption: "Método → rol hoy",
+          headers: ["Método", "Rol"],
+          rows: [
+            ["Automatización desde el sitio", "Base: NAP, contactos, copy"],
+            ["Yandex Webmaster", "Señal explícita + diagnóstico"],
+            ["Listing Business/Maps", "Resultados locales y confianza"],
+            ["Yandex.Catalog", "No se usa (cerrado)"],
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Guía relacionada",
+          kind: "tip",
+          text: "Estrategia de región, keywords y multi-ciudad: /es/blog/regionalnoe-seo/.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "regionalnoe-seo",
+    "yandeks-vebmaster",
+    "yandeks-spravochnik",
+    "yandeks-katalog",
+  ],
+};

@@ -111,3 +111,119 @@ export const temaWordpressEn: BlogPost = {
     "yuzabiliti",
   ],
 };
+
+/** ES overlay for tema-wordpress — same structure as RU JSON / EN. */
+export const temaWordpressEs: BlogPost = {
+  slug: "tema-wordpress",
+  title: "Cómo elegir un tema de WordPress para un blog: 10 criterios prácticos",
+  date: "2020-09-22",
+  category: "Digital marketing",
+  cover: "/images/blog/tema-wordpress/cover.webp",
+  excerpt:
+    "Qué revisar al elegir un tema de WordPress: necesidades del blog, flexibilidad, velocidad, móvil, código, child theme, compatibilidad con plugins — sin un catálogo de «mejores temas del año».",
+  lead: [
+    "Un tema fija el marco del blog: cómo se leen los posts, cómo se ven los archivos, con qué facilidad cambias bloques sin romper el layout. Un demo bonito ≠ un tema usable con tu contenido.",
+    "Abajo: criterios de selección y comprobaciones antes de instalar en producción. Los nombres de marketplace y las listas «best of» de fin de año se quedan viejos; lo que importa son updates, código y encaje con los trabajos del blog.",
+  ],
+  faq: [
+    {
+      q: "¿Un tema gratis es peor que uno de pago?",
+      a: "No siempre. Mira updates, reviews, limpieza de código y plantillas necesarias. Un tema gratis con soporte a menudo gana a un «premium» abandonado.",
+    },
+    {
+      q: "¿Hace falta un tema a medida?",
+      a: "Si necesitas diseño único y estructura compleja — quizá. Para un blog personal/experto suele bastar un tema ready sólido + child.",
+    },
+    {
+      q: "¿Qué es un child theme?",
+      a: "Una capa aparte sobre el parent: las ediciones de estilo/plantilla no se queman cuando actualiza el parent. Útil para customizaciones seguras.",
+    },
+    {
+      q: "¿El tema afecta al SEO?",
+      a: "De forma indirecta: velocidad, móvil, markup limpio, headings sensatos y datos estructurados. «SEO» en el nombre del tema sin técnica no ayuda.",
+    },
+    {
+      q: "¿Puedo cambiar de tema en un sitio en vivo?",
+      a: "Sí, pero staging primero: menús, widgets, plantillas de post y custom fields pueden romperse. Empareja los archivos de plantilla que realmente usas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Necesidades, flexibilidad y volumen de features",
+      level: 2,
+      paras: [
+        "Primero fija los trabajos del blog: categorías, landings, formularios, una mini-tienda de producto, multilingüe, foco en imágenes o texto largo. Una lista «ahora y en un año» te salva de un tema bonito pero estrecho.",
+        "Catálogo gratis, marketplace o a medida — caminos distintos. Mira reputación del autor, frecuencia de updates, demo en tu tipo de contenido. Antes de pagar a medida, acuerda etapas y aceptación.",
+        "Flexibilidad: widgets, menús, customizer/block editor, plantillas de post (single), page y archive. Un «mockup bonito» estático sin ajustes te fuerza pronto a código a mano.",
+        "La jerarquía parent/child permite revertir experimentos. Demasiados bloques demo y sliders «para todos los casos» hinchan CSS/JS — toma lo que necesitas, no el pack máximo por un checkbox.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo antes de comprar/instalar:",
+          items: [
+            "lista de tipos de página necesarios",
+            "el demo se parece al formato de tu blog",
+            "updates en el último año",
+            "política de soporte clara",
+            "existe un camino a un child theme",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Seguridad en WordPress",
+          href: "/es/blog/wordpress-bezopasnost/",
+        },
+        {
+          label: "Plugins SEO de WordPress",
+          href: "/es/blog/wordpress-seo-plaginy/",
+        },
+        {
+          label: "Plugins de WordPress",
+          href: "/es/blog/wordpress-plaginy/",
+        },
+      ],
+    },
+    {
+      title: "Velocidad, código, SEO y pruebas",
+      level: 2,
+      paras: [
+        "Layout móvil y carga rápida son obligatorios: sliders pesados y montones de fuentes matan el bounce. PageSpeed en el demo es una guía; mide velocidad real en tu hosting con tus imágenes.",
+        "Un tema que se declara «SEO-ready» no cancela comprobaciones: markup válido, jerarquía normal de headings, sin enlaces ocultos en «dumps» gratis, compatibilidad con tu plugin SEO.",
+        "Revisa frescura de código y soporte de navegadores. Un validador W3C y Chrome/Firefox/Safari pillan issues áridas. Empareja el set de plantillas (home/front-page, single, page, archive, search, 404) con lo que realmente usas.",
+        "Antes de cambiar de tema en producción: staging, backup, revisa menús/widgets, hooks de plugins, formularios y contadores. Tras activar — recorre escenarios clave de lectura y alta.",
+        "Al final: un buen tema de blog es rápido, actualizado, flexible de verdad y no sobrecargado. Primero trabajos y pruebas — luego el «demo bonito».",
+      ],
+      lists: [
+        {
+          intro: "Checklist antes de sacar un tema a prod:",
+          items: [
+            "backup y staging",
+            "vista móvil de plantillas clave",
+            "velocidad con contenido real",
+            "sin enlaces ocultos de terceros",
+            "menús, sidebar y formularios listos",
+            "plugin SEO y contadores vivos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Sitio responsive",
+          href: "/blog/adaptivnyy-sayt/",
+        },
+        {
+          label: "Identificar el CMS de un sitio",
+          href: "/blog/uznat-cms/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "wordpress-bezopasnost",
+    "wordpress-seo-plaginy",
+    "adaptivnyy-sayt",
+    "uznat-cms",
+    "yuzabiliti",
+  ],
+};

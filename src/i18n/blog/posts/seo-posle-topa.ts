@@ -207,3 +207,211 @@ export const seoPosleTopaEn: BlogPost = {
     "kontekst-i-seo",
   ],
 };
+
+/** ES overlay for seo-posle-topa — same structure as RU JSON / EN. */
+export const seoPosleTopaEs: BlogPost = {
+  slug: "seo-posle-topa",
+  title: "¿Debes parar el SEO tras llegar a primera página?",
+  date: "2018-12-10",
+  category: "SEO",
+  cover: "/images/blog/seo-posle-topa/cover.webp",
+  excerpt:
+    "Cuando el sitio rankea bien, apagar el SEO es pronto: snippets, conversión, expansión de keywords, salud técnica y competidores. Cómo es el mantenimiento de verdad — sin el mito «ya está, podemos apagar».",
+  lead: [
+    "Dejar el sitio listo y mover el set de keywords hacia primera página se planifica a meses. Cuando aparecen rankings y tráfico, llega la pregunta: ¿seguir invirtiendo o «ya basta»? Apagar el SEO por completo entrega la siguiente ronda de crecimiento a los competidores — los resultados de búsqueda y tu sitio no se congelan.",
+    "Aquí por qué importa el soporte tras rankear y dónde enfocarse: conversión, snippets, visibilidad, comportamiento en landings, nueva demanda y frescura técnica. No es un retainer infinito solo para marcar una casilla — es un loop claro de mantener y crecer.",
+  ],
+  faq: [
+    {
+      q: "¿Puedo parar el SEO por completo?",
+      a: "Puedes congelar trabajo nuevo, pero sin monitoreo, issues tech, snippets débiles y competidores se comerán el resultado. Como mínimo mira paneles, errores y URLs de dinero.",
+    },
+    {
+      q: "¿Cuánto esperar antes de juzgar resultados?",
+      a: "La prep a menudo lleva de semanas a cerca de un mes. El crecimiento de rankings del set se planifica a 2–6 meses tras el arranque del trabajo. Juzga tendencias de clusters y leads — no una sola frase.",
+    },
+    {
+      q: "Tras primera página, ¿qué importa más — enlaces o conversión?",
+      a: "A menudo conversión y CTR del snippet: el mismo tráfico rinde más leads. Construye enlaces de forma selectiva, no spam «para el reporte».",
+    },
+    {
+      q: "¿Hace falta contenido nuevo si ya rankeo bien?",
+      a: "Sí — para clusters nuevos y para refrescar páginas desactualizadas. Los competidores siguen publicando. Quedarse quieto es quedarse atrás.",
+    },
+    {
+      q: "¿El soporte SEO es el mismo trabajo que al inicio?",
+      a: "El acento cambia: menos «desde cero», más CTR, CRO, expansión de keywords, higiene de releases y reacción a updates.",
+    },
+    {
+      q: "¿Cómo sé que el presupuesto de soporte compensa?",
+      a: "Mira leads y revenue orgánicos, cuota de queries cerca de primera página, CPA orgánico vs paid, y qué costaría una caída si te apagas.",
+    },
+    {
+      q: "¿Y si solo rankeamos en queries informativas?",
+      a: "No dejes el SEO — termina landings comerciales y el set de keywords de dinero. Si no, tienes tráfico sin revenue.",
+    },
+    {
+      q: "¿Puede el paid search sustituir el soporte SEO?",
+      a: "El paid llena el pipeline rápido pero cuesta más con el tiempo. Una mezcla de canales gana a «apagar el orgánico».",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué «apagamos el SEO» es mala idea",
+      level: 2,
+      paras: [
+        "Los rankings no son estables. Los competidores se mueven, los algoritmos cambian, los snippets mutan y tus propios releases rompen cosas. Sin monitoreo es fácil perder meses de visibilidad ganada con esfuerzo.",
+        "El SEO tras primera página es economía de mantener y crecer: más clics desde los mismos ranks, más leads desde las mismas visitas y clusters nuevos de demanda.",
+      ],
+      lists: [
+        {
+          intro: "Qué se rompe sin soporte:",
+          items: [
+            "caídas tras updates de búsqueda",
+            "titles y descriptions viejos",
+            "errores técnicos tras el deploy",
+            "competidores que adelantan en contenido y señales comerciales",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Efectividad SEO",
+          href: "/es/blog/effektivnost-seo/",
+        },
+        {
+          label: "Paid search y SEO",
+          href: "/es/blog/kontekst-i-seo/",
+        },
+      ],
+    },
+    {
+      title: "Conversión y calidad del tráfico",
+      level: 2,
+      paras: [
+        "Cuando ya existe orgánico, subir la tasa de conversión suele salir más barato que perseguir otro +10% de visitas. Mira landings: oferta, formulario, velocidad, confianza, encaje de intención.",
+        "Segmenta tráfico informativo y comercial por separado — si no, el «crecimiento de visitas» puede ocultar ventas débiles.",
+      ],
+      lists: [
+        {
+          intro: "Enfócate en:",
+          items: [
+            "objetivos y call tracking en orgánico",
+            "landings de dinero prioritarias",
+            "tests A/B en la primera pantalla y el CTA",
+            "CPA orgánico vs paid",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+        {
+          label: "Factores comerciales",
+          href: "/es/blog/kommercheskie-faktory/",
+        },
+      ],
+    },
+    {
+      title: "Snippets y visibilidad en primera página",
+      level: 2,
+      paras: [
+        "Un puesto en primera página sin clic apenas alimenta el negocio. Refuerza title, description, markup y sitelinks — el CTR puede subir incluso con el mismo rank.",
+        "Los tres a cinco primeros resultados se llevan la mayor parte de los clics. Empuja clusters prioritarios más arriba y amplía rich results donde encajen.",
+      ],
+      lists: [
+        {
+          intro: "Tareas de soporte:",
+          items: [
+            "audit de snippets en URLs de dinero",
+            "experimentos de title y description",
+            "markup FAQ / producto según las reglas",
+            "mirar rich results de competidores",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Snippets y rich results",
+          href: "/es/blog/snippet/",
+        },
+      ],
+    },
+    {
+      title: "Comportamiento en landings y UX",
+      level: 2,
+      paras: [
+        "Los clics de búsqueda tienen que convertirse en acciones. Mira bounce, profundidad y session replay de forma selectiva — no como fake engagement, sino como señal de que la expectativa no encaja con la página.",
+        "Arregla navegación, velocidad, móvil y bloques de confianza. Eso sube conversión y hace los rankings más resilientes.",
+      ],
+      lists: [
+        {
+          intro: "Revisa:",
+          items: [
+            "la promesa del snippet encaja con el H1",
+            "LCP en móvil",
+            "formularios y un teléfono clicable",
+            "sin overlays agresivos a la entrada",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Bounce rate del sitio",
+          href: "/es/blog/otkazy-sayta/",
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          text: "Mejor UX no es un esquema para falsificar señales de comportamiento. El objetivo es valor real para el visitante.",
+        },
+      ],
+    },
+    {
+      title: "Expandir demanda y mantenerse al día",
+      level: 2,
+      paras: [
+        "El set de keywords no se termina para siempre: nuevos servicios, regiones, long-tail, clusters de temporada. Tras rankear la lista principal, crece demanda adyacente y refresca páginas desactualizadas.",
+        "Mira updates de búsqueda y paneles de webmaster — móvil, HTTPS, velocidad, nuevos tipos de snippet. La calidad del sitio puede mejorar siempre; prioriza por impacto de negocio.",
+      ],
+      lists: [
+        {
+          intro: "El loop «tras primera página»:",
+          items: [
+            "revisión mensual de Webmaster / Search Console",
+            "backlog de contenido y comercial",
+            "reaccionar cuando los clusters resbalan",
+            "replanteo trimestral del set de keywords",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Investigación de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "SEO DIY",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          text: "El soporte es continuo. Los clusters nuevos viven otra vez en lógica de meses — no «primera página la semana que viene».",
+        },
+      ],
+    },
+  ],
+  related: [
+    "effektivnost-seo",
+    "snippet",
+    "optimizatsiya-konversii",
+    "kommercheskie-faktory",
+    "samostoyatelnoe-seo",
+    "kontekst-i-seo",
+  ],
+};

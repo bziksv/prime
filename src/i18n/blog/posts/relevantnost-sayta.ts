@@ -180,3 +180,184 @@ export const relevantnostSaytaEn: BlogPost = {
     "vnutrennyaya-perelinkovka",
   ],
 };
+
+/** ES overlay for relevantnost-sayta — same structure as RU JSON / EN. */
+export const relevantnostSaytaEs: BlogPost = {
+  slug: "relevantnost-sayta",
+  title:
+    "Relevancia de un sitio en palabras claras: qué es y cómo reforzarla",
+  date: "2017-05-10",
+  category: "SEO",
+  cover: "/images/blog/relevantnost-sayta/cover.webp",
+  excerpt:
+    "Qué significa la relevancia de una página a una consulta, en qué se diferencia el match formal de keywords de una respuesta útil, y cómo revisar y mejorar el encaje sin el culto a la densidad del 4–5%.",
+  lead: [
+    "La relevancia es cuánto encaja una página con lo que la persona realmente quiere de una consulta. Antes se reducía a densidad de keywords; hoy importan más el sentido, la completitud de la respuesta, el comportamiento y la adecuación comercial.",
+    "Abajo: una definición clara, tipos de relevancia, cómo revisar el encaje y qué arreglar en el sitio — sin una fórmula mágica de «4–5% de keywords» ni meta Keywords obsoletas.",
+  ],
+  faq: [
+    {
+      q: "¿Qué es la relevancia de un sitio?",
+      a: "Cuánto una página (y el sitio en conjunto) responde a la consulta del usuario: por sentido, completitud y usabilidad — no solo por match de palabras.",
+    },
+    {
+      q: "¿Cuál es la diferencia entre relevancia formal y sustantiva?",
+      a: "Formal — lo que el algoritmo puntúa a partir de señales (texto, enlaces, comportamiento, etc.). Sustantiva — si de verdad es una buena respuesta, incluido el input de assessors.",
+    },
+    {
+      q: "¿Hace falta densidad de keywords del 4–5%?",
+      a: "No como norma universal. Keywords y sinónimos deben sentirse naturales; el overspam perjudica. Guíate por intención y legibilidad.",
+    },
+    {
+      q: "¿Ayuda el tag meta Keywords?",
+      a: "Para Yandex y Google como factor de ranking — no. No gastes tiempo en ello.",
+    },
+    {
+      q: "¿Cómo reviso la relevancia?",
+      a: "A mano: site:/inurl: y compara el tipo de página con resultados fuertes de la SERP; herramientas de ranks/visibilidad como corte extra. Un «score de relevancia» de terceros no es un veredicto.",
+    },
+    {
+      q: "¿Relevancia significa primera página?",
+      a: "No. La relevancia es una condición. Competencia, enlaces, técnica, marca e historia afectan a los ranks. Preparación de la página — semanas; la cuota de primera página del núcleo se planifica a 2–6 meses.",
+    },
+    {
+      q: "¿Qué importa más: copy o comportamiento?",
+      a: "Ambos. El copy fija la respuesta; el comportamiento muestra si satisfizo. Copy vacío con engagement falseado — riesgo de filtro.",
+    },
+    {
+      q: "¿Por dónde empezar las mejoras?",
+      a: "Casa la intención del cluster con el tipo de página de la SERP, cumple el trabajo del usuario, quita overspam, arregla técnica y el snippet.",
+    },
+  ],
+  sections: [
+    {
+      title: "En palabras claras",
+      level: 2,
+      paras: [
+        "Una persona escribe una consulta. La búsqueda busca páginas con más probabilidad de resolver el trabajo. Una página relevante es donde la respuesta está completa, clara y encaja con la intención (comprar, aprender, comparar, encontrar una dirección).",
+        "En el SEO temprano a menudo bastaba «meter la keyword». Los algoritmos ahora se apoyan más en sentido, estructura, satisfacción y señales de calidad. El exact match sigue ayudando en title y headings — no como único criterio.",
+      ],
+      links: [
+        {
+          label: "Intención del usuario",
+          href: "/es/blog/user-intent/",
+        },
+      ],
+    },
+    {
+      title: "Cómo los sistemas «puntúan» el encaje",
+      level: 2,
+      paras: [
+        "En simple: las señales de texto y enlaces se combinan con calidad y comportamiento. Las fórmulas exactas están cerradas; en la práctica hace falta un foco claro de página, cobertura del tema, enlaces internos y externos, y sin spam.",
+        "Los checklists viejos con «densidad obligatoria del 4–5%» y Keywords son museo. Pregunta: ¿la página responde al trabajo tan bien o mejor que los documentos cerca del inicio de la SERP de hoy para ese cluster?",
+      ],
+      lists: [
+        {
+          intro: "Qué suele reforzar la relevancia:",
+          items: [
+            "keyword/sentido en title y H1 sin overspam",
+            "sinónimos y preguntas relacionadas en el cuerpo",
+            "estructura (subtítulos, listas, FAQ)",
+            "enlazado interno del tema",
+            "expectativas comerciales cubiertas (precio, contactos, entrega — si la intención es comercial)",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "No confundas",
+          kind: "tip",
+          text: "«La página es relevante a la consulta» ≠ «el sitio entra solo en primera página». La relevancia es la base; los ranks también dependen de la competencia y de señales acumuladas.",
+        },
+      ],
+    },
+    {
+      title: "Relevancia formal y sustantiva",
+      level: 2,
+      paras: [
+        "Formal — scoring automático a partir de señales disponibles. Sustantiva — cuán buena es de verdad la respuesta para una persona; assessors y el aprendizaje de evaluación de calidad viven en ese loop.",
+        "De ahí la práctica: una página puede «puntuar» keywords formalmente y aun así perder frente a un documento que responde mejor al trabajo y retiene al usuario.",
+      ],
+    },
+    {
+      title: "Cómo revisar",
+      level: 2,
+      paras: [
+        "Manual: abre la SERP de la consulta objetivo y compara tu tipo de URL con los ganadores (ficha, categoría, artículo, escaparate). Herramientas como Topvisor/Megaindex y pares dan ranks y cortes de auditoría — úsalas como diagnóstico, no como el único «score de relevancia».",
+        "Yandex y Google pueden divergir: algoritmos y pesos distintos. Mira el sistema por donde va la mayor parte del tráfico.",
+      ],
+      lists: [
+        {
+          intro: "Checklist manual rápido:",
+          items: [
+            "title/H1 encajan con el trabajo de la consulta",
+            "la primera pantalla deja claro de qué va la página",
+            "la pregunta principal se responde sin relleno",
+            "sin desvío a otro tema",
+            "el UX móvil no bloquea la lectura/pedido",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO copywriting",
+          href: "/blog/seo-kopirayting/",
+        },
+        {
+          label: "Investigación de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+      ],
+    },
+    {
+      title: "Qué hacer en el sitio",
+      level: 2,
+      paras: [
+        "Técnica: indexación, velocidad, enlaces rotos, robots correctos — para que el copy relevante pueda entrar en la búsqueda. Contenido: longitud y estructura para el trabajo del cluster, legibilidad, un snippet que prometa el contenido con honestidad.",
+        "Enlaces y comportamiento ayudan cuando la página ya es útil. Crecer enlaces hacia una URL vacía o sobre-optimizada no pinta relevancia. La localidad afina la precisión de la demanda — sobre todo para negocio local.",
+      ],
+      lists: [
+        {
+          intro: "Orden de trabajo:",
+          items: [
+            "cluster e intención",
+            "tipo de página como un ganador fuerte de la SERP",
+            "copy y bloques para el trabajo",
+            "técnica y snippet",
+            "enlazado interno",
+            "menciones externas — a propósito",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+        {
+          label: "Enlazado interno",
+          href: "/es/blog/vnutrennyaya-perelinkovka/",
+        },
+        {
+          label: "Algoritmo «Korolyov»",
+          href: "/es/blog/algoritm-korolyov/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Preparar una página relevante suele llevar semanas. La cuota de primera página del núcleo competitivo se planifica a 2–6 meses — no «primera página tras un retoque de title».",
+        },
+      ],
+    },
+  ],
+  related: [
+    "user-intent",
+    "seo-kopirayting",
+    "semanticheskoe-yadro",
+    "algoritm-korolyov",
+    "tehnicheskiy-seo-audit",
+    "vnutrennyaya-perelinkovka",
+  ],
+};

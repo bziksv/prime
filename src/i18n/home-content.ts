@@ -1,5 +1,5 @@
 import type { Locale } from "./locales";
-import { defaultLocale } from "./locales";
+import { defaultLocale, localePathPrefix } from "./locales";
 
 export type HomeService = {
   title: string;
@@ -119,21 +119,24 @@ const serviceHrefs: Record<string, string> = {
   traffic: "/prodvizhenie-sayta-po-trafiku/",
 };
 
-const serviceHrefsEn: Partial<Record<string, string>> = {
-  seo: "/en/seo/",
-  ads: "/en/ads/",
-  web: "/en/web/",
-  bots: "/en/bots/",
-  orm: "/en/reputation/",
-  audit: "/en/audit/",
-  support: "/en/support/",
-  analytics: "/en/analytics/",
-  traffic: "/en/traffic/",
+/** Path segment after locale prefix (en/es/…). */
+const serviceSlugs: Record<string, string> = {
+  seo: "seo",
+  ads: "ads",
+  web: "web",
+  bots: "bots",
+  orm: "reputation",
+  audit: "audit",
+  support: "support",
+  analytics: "analytics",
+  traffic: "traffic",
 };
 
 export function homeServiceHref(cat: string, locale: Locale = defaultLocale): string {
-  if (locale === "en" && serviceHrefsEn[cat]) return serviceHrefsEn[cat]!;
-  return serviceHrefs[cat] ?? "#cta";
+  if (locale === "ru") return serviceHrefs[cat] ?? "#cta";
+  const slug = serviceSlugs[cat];
+  if (!slug) return "#cta";
+  return `${localePathPrefix(locale)}/${slug}/`;
 }
 
 const industryImages = {
@@ -552,16 +555,222 @@ const homeEn: HomeContent = {
   localeOfferDismiss: "Остаться на English",
 };
 
-const byLocale: Record<"ru" | "en", HomeContent> = {
+const homeEs: HomeContent = {
+  metaTitle: "PRIME — agencia de marketing digital",
+  metaDescription:
+    "PRIME ayuda a empresas a crecer en internet: SEO que pagas cuando las keywords están en la primera página de Google, Google Ads, webs orientadas a conversión y analítica que conecta gasto con ingresos.",
+  skipToContent: "Saltar al contenido",
+  navAria: "Navegación del sitio",
+  brandName: "PRIME",
+  brandHeroBefore: "PRIM",
+  brandHeroAccent: "E",
+  brandTagline: "Marketing digital",
+  navAbout: "Nosotros",
+  navServices: "Servicios",
+  navCases: "Casos",
+  navBlog: "Blog",
+  navPartnership: "Partners",
+  navContacts: "Contacto",
+  menuLabel: "Menú",
+  breadcrumbHome: "Inicio",
+  ctaTop: "Háblanos",
+  heroTitleBefore: "Marketing digital para ",
+  heroTitleAccent: "negocios en todo el mundo",
+  heroLead:
+    "SEO que pagas cuando las frases clave se mantienen en la primera página de Google, Google Ads enfocados en leads reales, webs pensadas para convertir y analítica que une inversión e ingresos — con reportes claros.",
+  kpiYears: "Más de 10 años",
+  kpiYearsSub: "en el mercado · desde 2015",
+  kpiTop100Sub: "listados de agencias",
+  kpiTop5Sub: "ranking público",
+  heroConsult: "Consulta gratis",
+  heroAllServices: "Ver servicios",
+  hubLive: "LIVE HUB",
+  hubPipe: "seo → ads → web → leads",
+  hubSeoTitle: "SEO",
+  hubSeoSub: "primera página · pagas por resultados",
+  hubAdsTitle: "Google Ads",
+  hubAdsSub: "Search · CPL",
+  hubWebTitle: "Web",
+  hubWebSub: "leads · llamadas · CRM",
+  hubResultTitle: "Resultado",
+  hubResultSub: "leads · ventas · reporting",
+  hubLeads: "Leads",
+  hubCpl: "CPL",
+  hubCplCurrency: "$",
+  hubTop: "Pág. 1",
+  certTitles: ["Google", "CMS Magazine", "Yandex"],
+  aboutTitle: "Quiénes somos",
+  aboutText:
+    "PRIME es una agencia de marketing digital fundada en 2015. Acompañamos a empresas desde la primera auditoría hasta la estrategia, las campañas y los leads que llegan al CRM. Optimizamos rankings, tráfico, coste por lead y una atribución que puedes enseñar a finanzas.",
+  aboutBullets: [
+    "Más de 10 años en el mercado — misma marca, mismos estándares",
+    "Google Partner en productos publicitarios",
+    "Honorarios de SEO ligados a las keywords que sí se mantienen en la primera página",
+  ],
+  certYandexDesc: "Partner de búsqueda (mercados regionales)",
+  certGoogleDesc: "Partner de productos publicitarios",
+  certCmsDesc: "Entre las agencias digitales destacadas",
+  servicesTitle: "Qué hacemos",
+  servicesLead: "Embudo completo — o solo el canal que importa ahora",
+  services: [
+    {
+      title: "SEO",
+      desc: "Llevamos las keywords objetivo a la primera página de Google. Pagas por las que se mantienen — no un retainer vago.",
+      cat: "seo",
+    },
+    {
+      title: "Google Ads",
+      desc: "Búsqueda y red. Menos coste por clic, más llamadas que merecen contestarse.",
+      cat: "ads",
+    },
+    {
+      title: "Sitios web",
+      desc: "Webs comerciales para leads y ventas — páginas de servicio y catálogos incluidos.",
+      cat: "web",
+    },
+    {
+      title: "Chatbots",
+      desc: "Telegram y otros canales — menús, alertas, reservas y enlace con CRM o la web.",
+      cat: "bots",
+    },
+    {
+      title: "Reputación online",
+      desc: "Google Business Profile, Maps y sitios de reseñas — para que la marca se vea tan fuerte como rinde.",
+      cat: "orm",
+    },
+    {
+      title: "Auditoría web",
+      desc: "Una mirada dura a los requisitos de Google Search y a lo que frena el crecimiento en resultados.",
+      cat: "audit",
+    },
+    {
+      title: "Soporte web",
+      desc: "Actualizaciones, contenido, pagos, tracking — el día a día sin contratar otro desarrollador.",
+      cat: "support",
+    },
+    {
+      title: "Analítica de marketing",
+      desc: "Google Ads, la web y el CRM en una sola cadena — para ver qué canal se paga solo.",
+      cat: "analytics",
+    },
+    {
+      title: "SEO por visita",
+      desc: "Crece el tráfico de búsqueda y paga por el tráfico incremental que realmente ganas.",
+      cat: "traffic",
+    },
+  ],
+  flagshipEyebrow: "Producto estrella · desde 2015",
+  flagshipTitle: "SEO que pagas cuando posicionas",
+  flagshipText:
+    "El modelo que llevamos más de una década: las keywords objetivo en la primera página de Google. Pagas por las frases que se mantienen — no un retainer mensual difuso.",
+  flagshipCta: "Cómo funciona",
+  flagshipReportAlt: "Informe de posiciones",
+  flagshipSerpAlt: "Ejemplo de resultados de búsqueda",
+  processTitle: "Cómo trabajamos",
+  processLead: "Cuatro pasos del audit a más leads",
+  process: [
+    {
+      step: "01",
+      title: "Auditoría y KPIs",
+      desc: "Revisamos web, nicho y competencia — y fijamos keywords y metas de leads.",
+    },
+    {
+      step: "02",
+      title: "Estrategia",
+      desc: "Plan de SEO, Google Ads o desarrollo con presupuesto y plazos realistas.",
+    },
+    {
+      step: "03",
+      title: "Lanzamiento",
+      desc: "Campañas en marcha, mejoras en la web, CRM y analítica conectados.",
+    },
+    {
+      step: "04",
+      title: "Reporte y crecimiento",
+      desc: "Rankings, leads, CPL — ajustamos cada mes con datos.",
+    },
+  ],
+  achievementsTitle: "Trayectoria",
+  achievementsLead: "Listados públicos y resultados de clientes",
+  statTop5Sub: "listado de marketing digital",
+  statTop100Sub: "listados de agencias",
+  statClientsSub: "clientes en distintos sectores",
+  cmsNote:
+    "* Listados de agencias según rankings públicos. También somos Google Partner en productos publicitarios.",
+  allCases: "Ver todos los casos",
+  clientsTitle: "Clientes",
+  clientsLead: "Automotriz, salud, retail y más — algunos de los equipos con los que trabajamos",
+  partnersSearch: "Google Partner · ecosistema de búsqueda y ads",
+  industriesTitle: "Sectores que conocemos",
+  industriesLead: "Experiencia vertical profunda — pide la lista corta",
+  industries: [
+    { name: "Manufactura", image: industryImages.production },
+    { name: "Retail", image: industryImages.shops },
+    { name: "Servicios B2B", image: industryImages.b2b },
+  ],
+  faqTitle: "Preguntas frecuentes",
+  faq: [
+    {
+      q: "¿Cómo se factura el SEO?",
+      a: "Tras la preparación y el periodo inicial del plan, pagas por los días en que una keyword se mantiene en la primera página de Google. El set de keywords se cierra tras la auditoría — sin retainer de relleno.",
+    },
+    {
+      q: "¿Cuándo llegan los primeros leads?",
+      a: "Google Ads suele empezar a entregar en 1–2 semanas. SEO: alrededor de un mes de preparación; el crecimiento hacia la primera página se planifica en 2–6 meses, mes a mes — no hay fecha garantizada.",
+    },
+    {
+      q: "¿Solo trabajan en un mercado?",
+      a: "No. Llevamos proyectos en todo el mundo. Llamadas e informes online, y trabajamos con distintas zonas horarias.",
+    },
+    {
+      q: "¿Puedo contratar solo un servicio?",
+      a: "Sí — SEO, Google Ads, una web o analítica por separado. Tras la auditoría también podemos proponer el stack completo.",
+    },
+    {
+      q: "¿Qué incluye el soporte?",
+      a: "Contenido, ajustes pequeños, tracking, pagos de hosting y correcciones rutinarias — sin armar otro banco de freelancers.",
+    },
+    {
+      q: "¿Cómo empezamos?",
+      a: "Escríbenos. En 30 minutos vemos tu nicho — sin presión comercial.",
+    },
+  ],
+  ctaTitle: "Hablemos",
+  ctaLead:
+    "Muchas agencias de mediados de los 2010 ya no están. Nosotros seguimos — mismos principios, resultados que se miden en Google.",
+  ctaOfficeAlt: "Oficina PRIME",
+  ctaPoints: [
+    "En marketing digital desde 2015",
+    "Seguimos en pie mientras otras cerraron",
+    "Revisión de nicho de 30 minutos · sin compromiso",
+  ],
+  formName: "Nombre",
+  formPhone: "Teléfono",
+  formService: "Servicio",
+  formServicePlaceholder: "Elige un servicio",
+  formMessage: "¿Cuál es el encargo? (opcional)",
+  formAgreeBefore: "Acepto el tratamiento de datos personales según",
+  formAgreePolicy: "nuestra política de privacidad",
+  formSubmit: "Enviar",
+  footerTagline: "Marketing digital · SEO · Google Ads · desarrollo",
+  langSwitchAria: "Idioma del sitio",
+  localeOfferTitle: "¿Versión en ruso?",
+  localeOfferText: "Tu navegador parece preferir ruso. ¿Abrir la portada en ruso?",
+  localeOfferAccept: "Continuar en ruso",
+  localeOfferDismiss: "Seguir en español",
+};
+
+const byLocale: Partial<Record<Locale, HomeContent>> = {
   ru: homeRu,
   en: homeEn,
+  es: homeEs,
 };
 
 export function getHomeContent(locale: Locale): HomeContent {
-  if (locale === "en") return byLocale.en;
-  return byLocale[defaultLocale];
+  return byLocale[locale] ?? byLocale[defaultLocale]!;
 }
 
 export function homePath(locale: Locale): string {
-  return locale === "en" ? "/en/" : "/";
+  const prefix = localePathPrefix(locale);
+  return prefix ? `${prefix}/` : "/";
 }

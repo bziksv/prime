@@ -145,3 +145,149 @@ export const kartinkaSsylkaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for kartinka-ssylka — same structure as RU JSON / EN. */
+export const kartinkaSsylkaEs: BlogPost = {
+  slug: "kartinka-ssylka",
+  title: "Enlace de imagen: cómo hacer una imagen clicable",
+  date: "2021-09-14",
+  category: "SEO",
+  cover: "/images/blog/kartinka-ssylka/cover.webp",
+  excerpt:
+    "Cómo envolver una imagen en un enlace en HTML y en un editor, por qué importa el alt, por qué tus propios archivos ganan al hotlinking, y cómo no matar la velocidad de la página con banners.",
+  lead: [
+    "Un enlace de imagen es una foto que lleva a una URL al hacer clic: un banner, el logo del header, una preview de galería. En HTML es `<a href=\"…\"><img …></a>`.",
+    "Abajo: cuándo usarlo, cómo marcar el código, qué atributos importan y en qué se diferencia un enlace de imagen de uno de texto para SEO y UX. Lo básico de tipos de enlace está en piezas relacionadas.",
+  ],
+  faq: [
+    {
+      q: "¿Un enlace de texto es mejor que una imagen para SEO?",
+      a: "Para pasar el sentido del ancla — suele sí: el texto es inequívoco. Una imagen necesita alt claro y contexto. La navegación del menú es más a menudo texto.",
+    },
+    {
+      q: "¿El alt es obligatorio?",
+      a: "Sí para accesibilidad y claridad cuando la imagen lleva sentido. Si es puramente decorativa — alt=\"\" vacío, pero entonces no las hagas el único camino a una sección importante.",
+    },
+    {
+      q: "¿Puedo enlazar a la imagen de otro por URL?",
+      a: "Técnicamente sí (hotlink); en la práctica mal: derechos, velocidad, su CDN puede servir un stub. Aloja los archivos tú y optimízalos.",
+    },
+    {
+      q: "¿Width y height aceleran el sitio?",
+      a: "Reservan espacio en el layout (menos shifts). El archivo en sí no se aligera — hace falta compresión, formato moderno y un tamaño en píxeles sensato.",
+    },
+    {
+      q: "¿Un enlace de imagen es lo mismo que un banner?",
+      a: "Un banner es un caso especial: un creativo de ads con enlace. Las mismas reglas: peso del archivo, oferta clara, no tapar el contenido.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué se usan enlaces de imagen",
+      level: 2,
+      paras: [
+        "Lo visual atrapa la mirada más rápido que el texto: logo a la home, preview de producto a una ficha, mapa a contactos, banner promo a un landing.",
+        "Para los crawlers pesan más las anclas de texto y la estructura. Las imágenes sostienen la UX; no cuelgues de ellas todo el enlazado interno del sitio.",
+      ],
+      lists: [
+        {
+          intro: "Buenos escenarios:",
+          items: [
+            "logo → homepage",
+            "preview en un catálogo o blog",
+            "banner promo → landing",
+            "lightbox/galería (el clic abre más grande — UX, no necesariamente un ancla SEO)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Qué es un enlace",
+          href: "/es/blog/chto-takoe-ssylka/",
+        },
+        {
+          label: "Enlace clicable",
+          href: "/es/blog/klikabelnaya-ssylka/",
+        },
+      ],
+    },
+    {
+      title: "HTML: wrapper a + img",
+      level: 2,
+      paras: [
+        "Plantilla básica: `<a href=\"/catalog/\"><img src=\"/images/banner.webp\" alt=\"Catálogo de bombas\" width=\"600\" height=\"200\"></a>`.",
+        "En un CMS suele: seleccionar la imagen → «insertar enlace» → fijar la URL. Comprueba que el href esté completo y vaya donde debe (https, sin typos).",
+      ],
+      lists: [
+        {
+          intro: "Atributos útiles de img:",
+          items: [
+            "`src` — path al archivo en tu hosting",
+            "`alt` — sentido para lectores de pantalla y si el archivo falla",
+            "`width` / `height` — proporciones en el layout",
+            "`loading=\"lazy\"` — para banners below-the-fold (no para el hero LCP)",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Para el banner principal de primera pantalla no uses lazy si es el elemento LCP — ralentizarás el first paint.",
+        },
+      ],
+    },
+    {
+      title: "Tus propios archivos y el peso",
+      level: 2,
+      paras: [
+        "Sube las imágenes a tu servidor o CDN. El hotlink ajeno se rompe cuando el donante cambia la URL o bloquea peticiones externas.",
+        "Comprime: WebP/AVIF donde el pipeline lo soporte, tamaño correcto para el hueco (no 4000px en una columna de 300px). Los atributos width/height no sustituyen la optimización del archivo.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de peso:",
+          items: [
+            "creativos propios",
+            "compresión sin emborronar el texto del banner",
+            "no apiles una docena de banners pesados en una página",
+            "revisa el ancho en móvil",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Higiene de UX y SEO",
+      level: 2,
+      paras: [
+        "El pie de foto y el alt deben cuadrar con el destino del enlace. «Clic aquí» en una imagen sin alt es un patrón flojo.",
+        "Efectos hover (sombra, opacity) están bien si no estorban en touch: el tap target tiene que ser lo bastante grande.",
+      ],
+      lists: [
+        {
+          intro: "Reglas de colocación:",
+          items: [
+            "moderación: los banners no tapan texto ni formularios",
+            "que cuadre con el tema de la página",
+            "para menús y CTAs clave añade también un enlace de texto cerca",
+            "no presentes ads como «solo una foto» donde haga falta etiquetado",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Creer que un «enlace de imagen único» solo te pondrá en primera página. Es un elemento de navegación y CTR; los rankings se mueven con contenido, técnica y demanda — no con un banner.",
+        },
+      ],
+    },
+    {
+      title: "Resumen corto",
+      level: 2,
+      paras: [
+        "Un enlace de imagen viene bien para saltos visuales: envuelve img en `<a>`, pon alt y sirve un archivo ligero desde tu hosting. Para sentido y SEO, los enlaces de texto son más fuertes — combínalos; no sustituyas toda la navegación por imágenes.",
+      ],
+    },
+  ],
+};

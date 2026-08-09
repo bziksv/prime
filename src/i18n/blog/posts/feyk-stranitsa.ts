@@ -147,3 +147,151 @@ export const feykStranitsaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for feyk-stranitsa — same structure as RU JSON / EN. */
+export const feykStranitsaEs: BlogPost = {
+  slug: "feyk-stranitsa",
+  title: "Página falsa: qué es y cómo detectarla",
+  date: "2021-02-26",
+  category: "Digital marketing",
+  cover: "/images/blog/feyk-stranitsa/cover.webp",
+  excerpt:
+    "Qué cuenta como página o cuenta falsa, por qué los estafadores las montan y cómo verificar autenticidad — sin how-tos para fabricar falsificaciones.",
+  lead: [
+    "Una página falsa es un sitio, landing o perfil falsificado que se hace pasar por una marca, tienda o persona. El objetivo suele ser fraude, robo de datos o black PR.",
+    "Abajo: cómo detectar una falsificación y proteger una marca. No cubrimos cómo construir fakes para spam o estafas — y no lo recomendamos.",
+  ],
+  faq: [
+    {
+      q: "¿Un «fake» en SEO es un doorway?",
+      a: "A veces se confunden. Los doorways son spam de búsqueda. Una página falsa suele ser más bien impersonación de marca/pago. Ambos son dañinos y arriesgados.",
+    },
+    {
+      q: "¿Cómo compruebo el sitio de una tienda?",
+      a: "Dominio y edad WHOIS, contactos, reseñas fuera del sitio, datos de empresa coincidentes, HTTPS y sin redirects raros al pago.",
+    },
+    {
+      q: "¿Qué hago si encuentro un fake de la marca?",
+      a: "Guarda la URL y screenshots, denuncia a host/registro/plataforma, avisa a clientes, involucra abogados si hay daño.",
+    },
+    {
+      q: "¿Y una cuenta social falsa?",
+      a: "Revisa fecha de creación, avatar, chat que empuja a «pagar fuera de la plataforma», luego reporta al soporte de la red.",
+    },
+    {
+      q: "¿Los fakes ayudan a la promoción?",
+      a: "No como estrategia limpia. Las falsificaciones y el cloaking llevan a bans y riesgo legal.",
+    },
+    {
+      q: "¿Puedo confiar en HTTPS en un sitio desconocido?",
+      a: "HTTPS protege la conexión — no prueba que el vendedor sea honesto. Revisa dominio, datos de empresa y reseñas independientes.",
+    },
+    {
+      q: "¿Debo avisar a los clientes de un clon encontrado?",
+      a: "Sí. Un aviso corto en canales oficiales, el dominio correcto único — y no publiques detalles de más que ayuden a atacantes.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué se hacen falsificaciones",
+      level: 2,
+      paras: [
+        "Phishing y robo de login, vender nada con el nombre de otro, recolectar datos de tarjeta, manchar a un competidor — motivos habituales. Rara vez hay clones «de prueba» sin malicia, pero igual engañan a la gente.",
+        "Un fake puede verse convincente: copian logo, colores y copy. La similitud visual sola no debe decidir — sobre todo antes de un pago o una contraseña.",
+      ],
+      lists: [
+        {
+          intro: "Tipos típicos:",
+          items: [
+            "clon de tienda online",
+            "«pago» / soporte falso",
+            "perfil de marca falsificado",
+            "formulario phishing de «entrar a la cuenta»",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo detectarlo",
+      level: 2,
+      paras: [
+        "Revisa el dominio carácter a carácter — sobre todo trucos de lookalike en latín — abre la URL oficial desde un marcador, no desde un mensaje frío. Mira info legal, política y descuentos raros de «solo hoy».",
+        "Compara contactos con las superficies oficiales de la marca y no pagues vía un enlace del chat. Si la oferta huele mal, llama a un número de un sitio verificado o pregunta por un canal conocido.",
+      ],
+      lists: [
+        {
+          intro: "Banderas rojas:",
+          items: [
+            "typos en el dominio",
+            "sin teléfono/dirección — o los de otro",
+            "presión a «pagar en 5 minutos»",
+            "un formulario que pide contraseñas de email/banco fuera del banco",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Protección de marca",
+      level: 2,
+      paras: [
+        "Registra variantes sensatas de dominio, monitoriza menciones, mantén enlaces oficiales en header y footer, forma al soporte para reconocer denuncias de clones.",
+        "Asigna de antemano un owner de incidente y prepara una plantilla de mensaje a clientes. Una comunicación rápida y calmada limita el daño mejor que pelear en comentarios.",
+      ],
+      lists: [
+        {
+          intro: "Práctica:",
+          items: [
+            "NAP y datos de empresa coherentes",
+            "un email del staff para reportes de fakes",
+            "respuestas rápidas a clientes en social",
+            "sin «escaparates falsos» caseros para SEO",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Filtros de buscadores",
+          href: "/es/blog/filtry-poiskovikov/",
+        },
+      ],
+    },
+    {
+      title: "Qué debe hacer un visitante",
+      level: 2,
+      paras: [
+        "Si ya dejaste datos en un recurso sospechoso, para y no envíes códigos extra de mensajes. Cambia la contraseña en el servicio real — sobre todo si la reutilizas en otros sitios.",
+        "Si pueden estar comprometidos datos bancarios, contacta al banco solo por el número de la tarjeta o la app oficial. Guarda chat, URL y pruebas de pago para soporte y autoridades.",
+      ],
+      lists: [
+        {
+          intro: "Orden seguro de chequeo:",
+          items: [
+            "no abrir el pago desde un enlace inesperado",
+            "cruzar dominio y datos con una fuente oficial",
+            "buscar reseñas fuera de la página del vendedor",
+            "reportar la sospecha al dueño real de la marca",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo documentar y pedir la retirada",
+      level: 2,
+      paras: [
+        "Un representante de marca debe guardar evidencia antes de que la página desaparezca: URL completa, fecha y hora, screenshots, copy, contactos y detalles de pago. No hackees el clon ni montes ataques de venganza.",
+        "Siguiente: soporte de la plataforma, hosting o el registrador del dominio según su proceso. Por daño, marca o mal uso de datos personales — involucra a un abogado y presenta ante las autoridades competentes.",
+      ],
+      lists: [
+        {
+          intro: "En el reporte incluye:",
+          items: [
+            "qué objeto y derechos se impersonan",
+            "enlaces al sitio y cuentas oficiales",
+            "prueba del contenido engañoso",
+            "un contacto para respuesta del dueño de la marca",
+          ],
+        },
+      ],
+    },
+  ],
+};

@@ -172,3 +172,176 @@ export const metategiEn: BlogPost = {
     "open-graph",
   ],
 };
+
+/** ES overlay for metategi — same structure as RU JSON / EN. */
+export const metategiEs: BlogPost = {
+  slug: "metategi",
+  title: "Meta tags y SEO: title, description, robots y keywords",
+  date: "2021-03-18",
+  category: "SEO",
+  cover: "/images/blog/metategi/cover.webp",
+  excerpt:
+    "Qué son los meta tags HTML: por qué importan title y description, cómo robots controlan la indexación, por qué keywords casi no ayudan — sin «secretos» de ranking ni límites de caracteres desfasados.",
+  lead: [
+    "Los meta tags son campos orientados a máquinas en el `<head>` de la página: no dibujan un bloque en pantalla, pero ayudan al navegador y al buscador a entender el documento. En SEO la gente suele referirse a title, description y directivas robots; keywords llevan tiempo en segundo plano.",
+    "Abajo: un mapa de los tags, qué afecta de verdad a SERPs y snippets, y qué dejar en paz. No copiamos reglas duras de «exactamente N caracteres = primera página» ni capturas de CMS de 2021: la longitud de truncado flota, las UIs de plugins cambian.",
+  ],
+  faq: [
+    {
+      q: "¿Los meta tags solos ponen una página en primera página?",
+      a: "No. Title y contenido ayudan a relevancia y clics en el snippet; el ranking es más amplio — la página, enlaces, técnica, comportamiento.",
+    },
+    {
+      q: "¿En qué se diferencia title de H1?",
+      a: "Title es la pestaña y el titular del snippet. H1 es el heading en la página. Alínealos por sentido; no tienen que coincidir palabra por palabra.",
+    },
+    {
+      q: "¿Hacen falta meta keywords?",
+      a: "Como factor de ranking en Google y Yandex — no. Invierte tiempo en title, description y el cuerpo del copy.",
+    },
+    {
+      q: "¿Son lo mismo meta robots y robots.txt?",
+      a: "Relacionados pero a niveles distintos: robots.txt sugiere paths al crawler; meta robots son directivas para una página HTML concreta (y a veces X-Robots-Tag en HTTP).",
+    },
+    {
+      q: "¿La description aparece siempre en el snippet?",
+      a: "No siempre: el motor puede tirar de un fragmento de la página. Una buena description sube la chance de que se muestre tu propio texto en resultados.",
+    },
+    {
+      q: "¿Dónde edito los meta tags?",
+      a: "En la plantilla del tema, un plugin SEO o campos del CMS. Las rutas de botones dependen del sistema — mira la Help actual, no una captura de 2021.",
+    },
+    {
+      q: "¿Debe un solo title cubrir todo el sitio?",
+      a: "No: las URLs comerciales necesitan wording único para el intent de cada página.",
+    },
+    {
+      q: "¿Qué leer a continuación?",
+      a: "Piezas aparte: longitud de title, meta description, sacar páginas del índice, snippets y Open Graph.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué cuenta como meta tags",
+      level: 2,
+      paras: [
+        "En amplio — elementos del `<head>` que describen el documento: charset, viewport, title, meta name/property, link rel y más. En jerga SEO «meta tags» a menudo se estrecha a title + description + robots + keywords desfasados.",
+        "No sustituyen contenido ni estructura de URLs. Una página vacía con un title perfecto sigue sin ser una landing.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo básico de indexación:",
+          items: [
+            "un title único",
+            "una description con sentido",
+            "un H1 claro y texto de cuerpo",
+            "directivas robots correctas si la página no debe rankear",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Title",
+      level: 2,
+      paras: [
+        "Title se muestra en la pestaña del navegador y como titular azul (u otro) en resultados. Es una de las señales «meta» más fuertes de de qué va la URL.",
+        "Escribe para personas y la query: marca, esencia, a veces geo o un USP — no un dump de keywords. La vieja guía «menos de 80 caracteres» es una pista de truncado, no una ley.",
+        "Usa a los competidores en el SERP como referencia de tono, no como plantilla copy-paste.",
+      ],
+      links: [
+        {
+          label: "Longitud del title",
+          href: "/es/blog/dlina-title/",
+        },
+        {
+          label: "El tag H1",
+          href: "/es/blog/teg-h1/",
+        },
+      ],
+    },
+    {
+      title: "Description",
+      level: 2,
+      paras: [
+        "Meta description es candidata al texto bajo el titular en el snippet. Suele no ser score directo de ranking; trabaja de forma indirecta vía CTR y expectativas del clic.",
+        "Di el beneficio y encaja con la página. Un clickbait que la URL no cumple duele a la confianza.",
+      ],
+      links: [
+        {
+          label: "Meta description a fondo",
+          href: "/es/blog/meta-description/",
+        },
+        {
+          label: "Snippets en resultados de búsqueda",
+          href: "/es/blog/snippet/",
+        },
+      ],
+    },
+    {
+      title: "Robots: meta y tools vecinas",
+      level: 2,
+      paras: [
+        "Meta robots (y el header HTTP) fijan si indexar la página y seguir enlaces: `noindex`, `nofollow`, combinaciones, `all`/`none` en chuletas viejas.",
+        "No lo confundas con Disallow en robots.txt: bloquear un path en txt puede mantener al crawler lejos; poner noindex en HTML significa que la página aún puede rastrearse pero no debería entrar al índice (cuando se gestiona bien).",
+        "Páginas de utilidad, duplicados, carritos, filtros finos — candidatos típicos a noindex. No pongas noindex en landings comerciales «por si acaso».",
+      ],
+      notes: [
+        {
+          title: "Revisa en los paneles",
+          kind: "tip",
+          text: "Tras cambiar directivas, mira en Search Console / Webmaster e Inspect URL / tools de crawl-as-bot — no solo el source en tu IDE.",
+        },
+      ],
+      links: [
+        {
+          label: "Cerrar páginas a la indexación",
+          href: "/es/blog/zakrytie-ot-indeksatsii/",
+        },
+      ],
+    },
+    {
+      title: "Keywords y otros mitos",
+      level: 2,
+      paras: [
+        "Meta keywords intentaba alimentar a los motores con una lista de keywords. Hoy en sistemas grandes casi no afectan al ranking; stuffing de keywords no logra nada.",
+        "Igual con meta «secretos» que supuestamente suben PageRank: ignóralo. Pon el esfuerzo en contenido, enlaces internos, velocidad y el snippet.",
+        "Para compartir en redes, mira Open Graph / Twitter Cards aparte de la description de búsqueda.",
+      ],
+      links: [
+        {
+          label: "Open Graph",
+          href: "/es/blog/open-graph/",
+        },
+      ],
+    },
+    {
+      title: "Cómo añadirlos en un sitio",
+      level: 2,
+      paras: [
+        "A mano en la plantilla `<head>`, vía módulo SEO del CMS o campos «SEO title / description» del ítem. En site builders — el bloque de ajustes de página.",
+        "Vigila que el plugin no duplique titles ni estampe una plantilla en mil fichas sin unicidad.",
+        "Tras editar — spot-check del source de la página y del snippet en vivo a lo largo de días/semanas (no al instante).",
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Los meta tags son una capa de máquina en `<head>`; para SEO el núcleo es title, description y robots con sentido.",
+        "Keywords no salvan rankings; no copies «secretos» de posts de los 2010.",
+        "Profundiza en guías aparte de title, description y cierre al índice — esta pieza es un mapa, no un sustituto.",
+      ],
+    },
+  ],
+  closing: [
+    "Recorre cinco URLs comerciales: title único, description honesta, sin noindex accidental — más rápido que cazar un tag «secreto» de meta keywords.",
+  ],
+  related: [
+    "meta-description",
+    "dlina-title",
+    "zakrytie-ot-indeksatsii",
+    "snippet",
+    "teg-h1",
+    "open-graph",
+  ],
+};

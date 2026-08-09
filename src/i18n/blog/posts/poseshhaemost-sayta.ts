@@ -103,3 +103,107 @@ export const poseshhaemostSaytaEn: BlogPost = {
     "povedencheskie-faktory",
   ],
 };
+
+/** ES overlay for poseshhaemost-sayta — same structure as RU JSON / EN. */
+export const poseshhaemostSaytaEs: BlogPost = {
+  slug: "poseshhaemost-sayta",
+  title: "Cómo aumentar el tráfico del sitio web",
+  date: "2018-04-10",
+  category: "Digital marketing",
+  cover: "/images/blog/poseshhaemost-sayta/cover.webp",
+  excerpt:
+    "Empieza con una auditoría (velocidad, filtros, navegación, contenido) y luego canales white-hat: SEO, title, email, imágenes, social — sin esquemas black-hat ni prometer que «tráfico en un mes = primera página».",
+  lead: [
+    "No hay una respuesta universal a «cómo subir el tráfico»: hay muchos canales, y un sitio sin lo básico malgasta cualquier visita. Primero ordena el recurso, luego crece las fuentes.",
+    "Abajo: prep y métodos white-hat prácticos. El SEO es «gratis» solo sin pagar por clic — pagas con tiempo. La prep lleva semanas o cerca de un mes. La visibilidad en primera página del set de keywords se planifica a 2–6 meses — no «uno o dos meses tras un par de posts».",
+  ],
+  faq: [
+    {
+      q: "¿Por dónde empiezo casi sin presupuesto?",
+      a: "Con técnica y contenido para demanda real (a menudo long-tail), más un canal que puedas ejecutar. No disperses en todo a la vez.",
+    },
+    {
+      q: "¿En qué se diferencia de un overview de fuentes de tráfico?",
+      a: "Esa pieza mapea canales y el orden de test. Aquí — prep del sitio y un arranque práctico para crecer visitas.",
+    },
+    {
+      q: "¿Ayudan los métodos black-hat?",
+      a: "Un pico corto a costa de filtros y trust perdida. Este material cubre solo enfoques white-hat.",
+    },
+    {
+      q: "¿El social da tráfico estable?",
+      a: "Lo orgánico a menudo se apaga rápido; la calidad de audiencia aún puede ser alta. En commerce suele hacer falta ads más canales propios (email, sitio).",
+    },
+    {
+      q: "¿Hace falta un foro en el sitio?",
+      a: "No es obligatorio. FAQ, un blog y páginas de servicio al día suelen ser más útiles que un foro muerto.",
+    },
+  ],
+  sections: [
+    {
+      title: "Prepara el sitio primero",
+      level: 2,
+      paras: [
+        "Velocidad: la gente rara vez espera para siempre; un sitio lento pega al comportamiento y a los ads. Importan más segundos cómodos que perseguir un score abstracto — comprueba en móvil.",
+        "Revisa sanciones o una caída brusca tras violaciones (sobre-optimización, click fraud, malware). Filtros y algoritmos pegan a la visibilidad más que «un banner más».",
+        "Navegación y estructura: secciones por sentido, menú claro, contenido actual. Blog/noticias y FAQ — si puedes mantenerlos vivos; RSS y email — para traer lectores de vuelta.",
+        "Diseño y cross-browser: la plantilla no debería romper layouts entre pantallas. Un diseño único no es obligatorio para empezar, pero una UI obsoleta e incómoda echa a la gente.",
+      ],
+      lists: [
+        {
+          intro: "Mini-auditoría antes de la promoción:",
+          items: [
+            "velocidad de páginas clave",
+            "navegación móvil",
+            "sin 404 masivos / formularios rotos",
+            "algo que leer o comprar sin precios viejos",
+            "contadores y metas configurados",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Antes de lanzar un sitio",
+          href: "/es/blog/pered-zapuskom-sayta/",
+        },
+        {
+          label: "Señales de comportamiento",
+          href: "/es/blog/povedencheskie-faktory/",
+        },
+      ],
+    },
+    {
+      title: "Formas de atraer visitantes",
+      level: 2,
+      paras: [
+        "SEO: set de keywords, páginas útiles, enlaces internos, titles sólidos. El long-tail a menudo trae las primeras visitas cualificadas antes que pelear solo por head terms. Lo orgánico no es un botón gratis: trabajo más espera a los plazos de ranking.",
+        "Title: oferta clara y sentido de la query; longitud aproximadamente hasta ~60 caracteres en la SERP (depende de píxeles). Boosters («envío gratis») — solo si es verdad.",
+        "El email con consentimiento mantiene y devuelve gente; varias listas tienen sentido con contenido distinto, no copy-paste. Crecer la lista es un proceso, no una explosión de un día.",
+        "Optimización de imágenes: nombres/alt con sentido, compresión, tráfico de búsqueda de imágenes como canal extra — no un sustituto de landings de texto.",
+        "Social (VK y pares): útil para reach y toques; mira reglas de plataforma y regulación local. Facebook y pares — con salvedad sobre el estado del servicio. La «cola» orgánica suele ser más corta que el SEO.",
+        "El apalancamiento a largo plazo es la calidad del sitio y del contenido. Arma la estrategia de canales para el nicho; el overview completo de fuentes está en el artículo compañero.",
+      ],
+      links: [
+        {
+          label: "Fuentes de tráfico",
+          href: "/es/blog/istochniki-trafika/",
+        },
+        {
+          label: "Estrategia de promoción",
+          href: "/es/blog/strategiya-prodvizheniya/",
+        },
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "istochniki-trafika",
+    "strategiya-prodvizheniya",
+    "samostoyatelnoe-seo",
+    "pered-zapuskom-sayta",
+    "povedencheskie-faktory",
+  ],
+};

@@ -143,3 +143,147 @@ export const rassylkaWhatsappEn: BlogPost = {
     "baza-email-socseti",
   ],
 };
+
+/** ES overlay for rassylka-whatsapp — same structure as RU JSON / EN. */
+export const rassylkaWhatsappEs: BlogPost = {
+  slug: "rassylka-whatsapp",
+  title: "Broadcasts de WhatsApp: Business API, consentimiento y sin spam",
+  date: "2022-02-01",
+  category: "SMM",
+  cover: "/images/blog/rassylka-whatsapp/cover.webp",
+  excerpt:
+    "Cómo puede un negocio escribir en WhatsApp de forma legal: listas de broadcast manuales, Business API oficial, plantillas y sesiones — sin listas de números compradas ni remitentes «de agencia» grises. Nota Meta en la página.",
+  lead: [
+    "WhatsApp para negocio es un canal de mensajes de servicio y marketing a gente que aceptó oírte. El spam masivo a desconocidos rompe la confianza y golpea las reglas de la plataforma.",
+    "Abajo: cuándo basta un broadcast manual desde la app, por qué importan Business API y plantillas, y qué temas no debes promocionar. No trates «miles de millones de usuarios» ni screenshots de menú de 2022 como normas fijas: revisa las reglas actuales de WhatsApp Business. Nota Meta en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. WhatsApp* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta se reconoce como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Puedo anunciar a todos en la agenda del teléfono?",
+      a: "Solo si la gente espera mensajes tuyos y no rompe las reglas de la plataforma ni la ley de publicidad/datos personales. Spam frío a contactos ajenos lleva a bloqueos y quejas.",
+    },
+    {
+      q: "¿En qué es mejor Business API que un broadcast manual?",
+      a: "Escala, plantillas, integraciones CRM, reporting. Una lista manual encaja con volumen pequeño a tus propios contactos cálidos.",
+    },
+    {
+      q: "¿Hace falta verificación business?",
+      a: "Para trabajo API completo y confianza del perfil — sigue los requisitos actuales de WhatsApp/Meta. Sin confirmación algunas opciones quedan no disponibles.",
+    },
+    {
+      q: "¿Debo comprar una «base de números» a una agencia?",
+      a: "No como estrategia. Listas opacas sin consentimiento = spam, quejas y riesgo de marca. Trabaja con tu propia base opt-in.",
+    },
+    {
+      q: "¿En qué se diferencia WhatsApp de SMS?",
+      a: "Canal y reglas distintos. La lógica de consentimiento y utilidad es la misma; elige dónde responde de verdad el cliente. Ver también la pieza de SMS.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cuándo encaja WhatsApp",
+      level: 2,
+      paras: [
+        "El canal es fuerte para estado de pedido, recordatorios de cita, soporte y ofertas cortas a una base cálida. La gente lee mensajes rápido — y bloquea el spam insistente igual de rápido.",
+        "No sustituye un sitio, email o ads de búsqueda. Es un toque de messenger junto a otros canales.",
+      ],
+      links: [
+        {
+          label: "Broadcasts SMS",
+          href: "/blog/sms-rassylka/",
+        },
+        {
+          label: "Broadcasts de comunidad VK",
+          href: "/es/blog/rassylka-vk/",
+        },
+      ],
+    },
+    {
+      title: "Broadcast manual desde la app",
+      level: 2,
+      paras: [
+        "En WhatsApp puedes armar una lista de destinatarios desde tus contactos y enviar un mensaje al grupo (el wording de la UI de broadcast depende de la versión de la app).",
+        "Plus — control y sin capa de «agencia». Downside — trabajo manual, limitado a tu agenda, escala y analytics más difíciles.",
+        "Los límites de forward y las mecánicas anti-spam cambian: no armes un proceso sobre saltar restricciones.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo antes de enviar:",
+          items: [
+            "los destinatarios esperan mensajes de la marca",
+            "el copy es corto, con valor o un update de estado",
+            "hay forma de opt-out / no escribir otra vez tras un bloqueo",
+            "no mezcles chats personales y un stream de ads sin etiqueta clara",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Business API y plantillas",
+      level: 2,
+      paras: [
+        "El camino business oficial es WhatsApp Business Platform / API vía providers validados: plantillas de mensaje, sesiones de diálogo, catálogos, enlace a CRM.",
+        "Si el cliente escribió primero, suele abrirse una ventana de respuesta en texto libre por un tiempo limitado (revisa las reglas exactas en Help). Para iniciar el diálogo tú, suelen hacer falta plantillas aprobadas.",
+        "Registro y verificación business, un número no mezclado a la ligera con una cuenta personal — parte del acceso. Detalles de verificación y badges del perfil han cambiado: sigue el Help actual de Meta/WhatsApp, no una guía de 2022.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Importante",
+          text: "No describimos remitentes grises ni «bases de un pago de telecom». El camino legal es consentimiento, tu propia base, API oficial o trabajo manual con contactos cálidos.",
+        },
+      ],
+    },
+    {
+      title: "Qué escribir — y qué evitar",
+      level: 2,
+      paras: [
+        "Estado de pedido, recordatorios de visita, confirmación de reserva y un bot FAQ útil con handoff a humano funcionan bien.",
+        "Amenazas, engaño y ads insistentes sin contexto aterrizan mal. Algunos nichos (medicamentos con receta, alcohol, gambling y otros) están limitados por las reglas de publicidad de WhatsApp — revisa la lista prohibida actual.",
+        "Tono: respetuoso, sin «compra ya o si no». Un bot encaja en preguntas rutinarias; los casos complejos van a una persona.",
+      ],
+      links: [
+        {
+          label: "Chatbots VK",
+          href: "/blog/chat-bot-vk/",
+        },
+        {
+          label: "Campañas triggered",
+          href: "/blog/triggernye-rassylki/",
+        },
+      ],
+    },
+    {
+      title: "Agencias y vendors",
+      level: 2,
+      paras: [
+        "Un vendor puede ayudar con plantillas, integración API y reporting. Pregunta: de dónde sale la base, si hay consentimiento, qué provider de API, quién es dueño del número y las plantillas tras el contrato.",
+        "Una «base lista de millones de números» es bandera roja. Revisa reputación, contrato y un piloto en tu propia muestra opt-in.",
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "WhatsApp corre sobre consentimiento y utilidad — no spam frío.",
+        "Escala — vía Business API oficial y plantillas; volumen pequeño — broadcast manual a tus contactos.",
+        "Reglas y UI cambian: revisa el Help de la plataforma antes del lanzamiento.",
+      ],
+    },
+  ],
+  closing: [
+    "Arma una lista de clientes con opt-in, elige una plantilla de servicio (estado de pedido o recordatorio) y corre un piloto por el camino oficial — más honesto que comprar la «base WhatsApp» de otro.",
+  ],
+  related: [
+    "rassylka-vk",
+    "sms-rassylka",
+    "triggernye-rassylki",
+    "chat-bot-vk",
+    "spam-vk",
+    "baza-email-socseti",
+  ],
+};

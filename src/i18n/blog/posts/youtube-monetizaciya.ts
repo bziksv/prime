@@ -182,3 +182,186 @@ export const youtubeMonetizaciyaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for youtube-monetizaciya — same structure as RU JSON / EN. */
+export const youtubeMonetizaciyaEs: BlogPost = {
+  slug: "youtube-monetizaciya",
+  title: "YouTube: canales y monetización",
+  date: "2021-04-20",
+  category: "SMM",
+  cover: "/images/blog/youtube-monetizaciya/cover.webp",
+  excerpt:
+    "Cómo funciona YouTube para creators: el canal, monetización por ads y otros caminos de ingreso — sin promesas de «millones fáciles» ni umbrales numéricos obsoletos.",
+  lead: [
+    "YouTube es el host de vídeo de Google: publicación, búsqueda, recomendaciones y tools para creators. La monetización es posible, pero los umbrales y reglas del Partner Program cambian.",
+    "Abajo: qué significa un canal, modelos de ingreso y cómo se ligan al crecimiento de audiencia. Cómo crecer el contenido es un artículo aparte.",
+  ],
+  faq: [
+    {
+      q: "¿Desde cuándo existe YouTube?",
+      a: "Lanzamiento público — 2005; Google lo compró en 2006. Para un creator importan más las reglas actuales de Studio que la historia.",
+    },
+    {
+      q: "¿La monetización es solo ads en los vídeos?",
+      a: "No. También memberships, Super Chats, shopping, sponsorships, tus propios productos y funnels externos.",
+    },
+    {
+      q: "¿Cuál es el umbral para ads?",
+      a: "Revisa los requisitos actuales del YouTube Partner Program en Help (horas de visionado, suscriptores, Shorts, etc.). Las cifras de guías viejas a menudo están obsoletas.",
+    },
+    {
+      q: "¿Necesito suscriptores para tener ingresos?",
+      a: "Para el programa de ads — sí, más views. Para sponsorships importan más la calidad de audiencia y el nicho.",
+    },
+    {
+      q: "¿Esto es una guía para saltar reglas?",
+      a: "No. Solo modelos legales dentro de las reglas de la plataforma.",
+    },
+    {
+      q: "¿Puedo encender monetización justo al crear el canal?",
+      a: "No — las features del Partner Program tienen condiciones y revisiones. Revisa requisitos actuales, disponibilidad de features y límites por país en el YouTube Help oficial.",
+    },
+  ],
+  sections: [
+    {
+      title: "El canal como escaparate",
+      level: 2,
+      paras: [
+        "Un canal une vídeos, playlists, branding y comunidad. Los algoritmos miran retención, clics y retornos — no un botón de suerte.",
+      ],
+      lists: [
+        {
+          intro: "Básicos del creator:",
+          items: [
+            "un nicho claro",
+            "avatar, banner, descripción",
+            "un formato regular",
+            "cards y end screens para navegación",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Crecer en YouTube",
+          href: "/es/blog/raskrutka-youtube/",
+        },
+        {
+          label: "Banner del canal",
+          href: "/es/blog/shapka-youtube/",
+        },
+      ],
+    },
+    {
+      title: "Modelos de ingreso",
+      level: 2,
+      paras: [
+        "Ads en vídeos vía el Partner Program son una rama. En paralelo: integraciones de marca, tus cursos o productos, donaciones y tráfico externo a un sitio.",
+      ],
+      lists: [
+        {
+          intro: "Pistas que funcionan:",
+          items: [
+            "primero audiencia y retención",
+            "luego umbrales del programa — del Help oficial",
+            "sponsorships — con disclosure claro para el viewer",
+            "no armes un canal solo para encender monetización",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Reglas",
+          text: "Strikes, copyright y políticas de ads cortan el ingreso más duro que tener pocas cards. Ver el artículo de strikes.",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "Strike de YouTube",
+          href: "/es/blog/strayk-youtube/",
+        },
+      ],
+    },
+    {
+      title: "Crecimiento de suscriptores sin mitos",
+      level: 2,
+      paras: [
+        "Los suscriptores llegan de búsqueda, recomendaciones y fuentes externas. El crecimiento comprado o falso hace daño. Un calendario estable y previews y títulos fuertes ganan a sorteos puntuales.",
+      ],
+      lists: [
+        {
+          intro: "Práctico:",
+          items: [
+            "series y playlists",
+            "CTA de suscripción tras el valor",
+            "colaboraciones de nicho",
+            "sitio y email como assets propios",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Botones de YouTube",
+          href: "/es/blog/knopki-youtube/",
+        },
+      ],
+    },
+    {
+      title: "Define primero el modelo del canal",
+      level: 2,
+      paras: [
+        "Antes de hablar de monetización, aclara por qué existe el canal. Un experto puede usar el vídeo para clientes, una tienda para demos de producto, una marca media para ingreso por ads, un creator para marca personal. La misma métrica de views tiene distinto valor en esos modelos.",
+        "Describe audiencia, temas y formatos regulares. Eso ayuda a no dispersarte en tendencias al azar y a hacer vídeos que la gente verá como serie. Un nicho claro no significa estrecho para siempre — da al canal un arranque sólido.",
+      ],
+      lists: [
+        {
+          intro: "Vale la pena fijar:",
+          items: [
+            "a quién ayudan los vídeos y con qué trabajo",
+            "rúbricas y formatos principales",
+            "un ritmo que el equipo pueda sostener",
+            "la acción objetivo tras ver",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Ingreso y transparencia para la audiencia",
+      level: 2,
+      paras: [
+        "El ingreso por ads depende de más que el conteo de views: tema, geografía, demanda de ads, formato del vídeo y reglas de la plataforma. No planifiques la economía del canal desde screenshots de revenue ajenos — rara vez muestran el contexto completo.",
+        "Integraciones, enlaces de afiliado, memberships y productos propios también necesitan confianza. Etiqueta los ads y sigue la plataforma y la ley aplicable. Una integración oculta o una oferta engañosa puede dar un bump corto y destrozar la confianza de la audiencia.",
+      ],
+      lists: [
+        {
+          intro: "Un modelo duradero necesita:",
+          items: [
+            "separación clara de contenido editorial vs publicitario",
+            "chequeos de derechos sobre música, vídeo e imágenes",
+            "un canal de audiencia de respaldo — sitio o email",
+            "seguimiento del coste de producción, no solo del revenue",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Analítica y desarrollo de formatos",
+      level: 2,
+      paras: [
+        "Estudia retención, fuentes de tráfico, CTR del preview y viewers que vuelven juntos. Un CTR alto sin retención significa que el título o thumbnail promete más de lo que el vídeo entrega; mucho watch time sin impresiones es señal de trabajar packaging y tema.",
+        "Prueba un cambio a la vez: delivery, duración, estructura, preview o hora de publicación. Comparar varios episodios similares gana a explicar el éxito desde un solo vídeo breakout.",
+      ],
+      lists: [
+        {
+          intro: "Mira con regularidad:",
+          items: [
+            "retención al inicio y en momentos clave",
+            "movimientos entre vídeos y playlists",
+            "temas que traen viewers que vuelven",
+            "reacción de la audiencia en comentarios sin fake engagement",
+          ],
+        },
+      ],
+    },
+  ],
+};

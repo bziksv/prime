@@ -167,3 +167,171 @@ export const lestnitsaHantaEn: BlogPost = {
     "The awareness ladder reminds you: purchase is the end of a path through understanding. Speak to the person on their step — then ads and landings stop being a shout into the void.",
   ],
 };
+
+/** ES overlay for lestnitsa-hanta — same structure as RU JSON / EN. */
+export const lestnitsaHantaEs: BlogPost = {
+  slug: "lestnitsa-hanta",
+  title: "Escalera de awareness de Hunt: 5 niveles de conciencia del cliente",
+  date: "2020-01-24",
+  category: "Digital marketing",
+  cover: "/images/blog/lestnitsa-hanta/cover.webp",
+  excerpt:
+    "Cómo funciona la escalera de awareness: de «no conoce el problema» a listo para comprar — y qué decir en cada paso en ads y en el landing.",
+  lead: [
+    "La escalera de awareness es un modelo de cinco niveles: qué tan claro ve alguien el problema, las clases de solución y tu producto. En el marketing RU a menudo se llama escalera de Hunt; los niveles clásicos de conciencia de audiencia los describió Eugene Schwartz.",
+    "La idea es simple: no puedes hard-sell a quien aún no ve la necesidad. Abajo: los peldaños y qué hacer en cada uno en copy, ads y scripts.",
+  ],
+  faq: [
+    {
+      q: "¿Es la escalera de Hunt o de Schwartz?",
+      a: "Los cinco niveles de awareness vienen de la tradición de Schwartz. Los materiales RU fijaron el nombre «escalera de Hunt»; importan más los pasos que la pelea de nombres.",
+    },
+    {
+      q: "¿Cuántos pasos hay?",
+      a: "Cinco: unaware → problem-aware → solution-aware → comparar producto/vendor → listo para comprar contigo (o casi).",
+    },
+    {
+      q: "¿Puedo saltarme pasos?",
+      a: "Los saltos duros son mala idea: lleva el tráfico frío por el problema y el valor. A veces los pasos se comprimen en una pieza, pero no sueltas la lógica de «¿para qué me hace falta esto?».",
+    },
+    {
+      q: "¿Dónde la aplico?",
+      a: "Landings, ads, email, scripts, planes de contenido: entrada distinta según la temperatura del tráfico.",
+    },
+    {
+      q: "¿Solo compra el quinto paso?",
+      a: "La compra es más habitual donde ya existe confianza en ti. Pero construyes el camino al quinto con contenido y oferta desde los peldaños inferiores.",
+    },
+    {
+      q: "¿Cómo se liga a la USP (propuesta de venta única)?",
+      a: "En peldaños bajos importan más el problema y el resultado. USP y comparación con competidores pesan más en los pasos de elección de producto y marca.",
+    },
+    {
+      q: "¿Encaja con banners?",
+      a: "Sí: banners outdoor/display suelen apuntar a gente que ya busca solución — beneficios y diferencia, no una lección larga de dolor.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cinco peldaños de awareness",
+      level: 2,
+      paras: [
+        "La gente de un mismo nicho está en peldaños distintos. El cuidado anti-edad es temprano para una escolar; un segmento adulto ya conoce el tema. Los ads deben hablar el lenguaje del peldaño en el que alguien está ahora.",
+        "Para cualquier nicho, la audiencia más consciente estuvo alguna vez en el peldaño uno. El trabajo del marketing es subirla por la escalera — no exigir una compra en el primer toque.",
+      ],
+      lists: [
+        {
+          intro: "Los peldaños:",
+          items: [
+            "1 — no ve el problema",
+            "2 — conoce el problema, no las soluciones",
+            "3 — conoce tipos de solución, elige enfoque",
+            "4 — compara productos/vendors",
+            "5 — te conoce y está cerca de comprar",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Conviene recordar",
+          kind: "tip",
+          text: "Saltar de «no sé que tengo un problema» directo a «compra Premium» casi siempre recibe un no. Primero sentido, luego oferta.",
+        },
+      ],
+    },
+    {
+      title: "Cómo aplicarla en la práctica",
+      level: 2,
+      paras: [
+        "El modelo es universal: creatividades, tráfico, scripts, estructura de landing. Primero decide de dónde viene la persona y qué ya entiende.",
+        "Ejemplo: un landing para tráfico «frío» — el primer pantallazo muestra el coste de no actuar y el problema; beneficios y precios más abajo. Un banner para quien ya elige vendor — tus beneficios de entrada, sin lección de dolor.",
+      ],
+      lists: [
+        {
+          intro: "Antes de una creatividad pregunta:",
+          items: [
+            "¿de dónde viene el tráfico (búsqueda, ads, email)?",
+            "¿qué consulta/intent?",
+            "¿qué ha probado ya la persona?",
+            "¿qué siguiente acción es realista?",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Copy de landing",
+          href: "/es/blog/tekst-lendinga/",
+        },
+        {
+          label: "Banner publicitario",
+          href: "/es/blog/reklamnyy-banner/",
+        },
+      ],
+    },
+    {
+      title: "Qué hacer en cada peldaño",
+      level: 2,
+      paras: [
+        "Peldaños 1–2: convence de que el job existe y su coste sube. Contenido, casos before/after, explicaciones simples sin jerga de marca.",
+        "Peldaño 3: muestra que el problema se resuelve de distintas formas — artículos, comparaciones de enfoque, vídeo, infografías. Peldaño 4: compara opciones de solución y criterios de elección. Peldaño 5: prueba que eres la mejor opción — USP, garantías, reseñas, oferta.",
+      ],
+      lists: [
+        {
+          intro: "Foco del mensaje:",
+          items: [
+            "1–2 — problema y coste de no actuar",
+            "3 — clases de solución",
+            "4 — criterios y comparación",
+            "5 — tu marca, riesgos, CTA",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "USP (propuesta de venta única)",
+          href: "/es/blog/utp/",
+        },
+        {
+          label: "Audiencia objetivo",
+          href: "/es/blog/tselevaya-auditoriya/",
+        },
+      ],
+    },
+    {
+      title: "Una pieza — varios peldaños",
+      level: 2,
+      paras: [
+        "Una pieza long-form fuerte o un landing puede recorrer varios peldaños seguidos: dolor → opciones → por qué este enfoque → por qué tú → acción. Lo principal — no abrir con el precio para quien aún no entiende el job.",
+        "En las cuentas de ads, segmenta: creatividades distintas para lookalikes/intereses vs retargeting «ya estuvo en el sitio». Un anuncio para todos los peldaños habla al lado de parte de la audiencia.",
+      ],
+    },
+    {
+      title: "Encaje con funnel y canales",
+      level: 2,
+      paras: [
+        "Contenido y SEO suelen alimentar los peldaños bajos. Paid search en consultas comerciales — medios y altos. Retargeting y email — gente que ya te conoce.",
+        "Mide más que el clic: lectura, lead, calidad del lead. Si las consultas calientes convierten pero el reach no — revisa si estás vendiendo el peldaño cinco a una audiencia del uno.",
+      ],
+      lists: [
+        {
+          intro: "Mini auditoría:",
+          items: [
+            "el primer pantallazo encaja con la temperatura del tráfico",
+            "hay contenido para «problema» y para «elección»",
+            "la USP no aparece antes de que el contexto esté claro",
+            "el retargeting no machaca una oferta fría durante un mes seguido",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Antitendencias de marketing",
+          href: "/blog/antitrendy-marketinga/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "La escalera de awareness recuerda: la compra es el final de un camino por la comprensión. Habla a la persona en su peldaño — entonces ads y landings dejan de ser un grito al vacío.",
+  ],
+};

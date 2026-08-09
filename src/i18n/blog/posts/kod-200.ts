@@ -190,3 +190,194 @@ export const kod200En: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for kod-200 — same structure as RU JSON / EN. */
+export const kod200Es: BlogPost = {
+  slug: "kod-200",
+  title: "Código de respuesta 200 OK: qué significa para el sitio y la indexación",
+  date: "2021-01-29",
+  category: "SEO",
+  cover: "/images/blog/kod-200/cover.webp",
+  excerpt:
+    "Qué significa HTTP 200 OK, cómo se relaciona con la indexación, por qué un soft 404 detrás de un 200 es peligroso y cómo comprobar que las URLs importantes realmente devuelven éxito.",
+  lead: [
+    "200 OK significa que el servidor gestionó el request con éxito y devolvió contenido. Para una página en búsqueda es la luz verde básica: el documento se puede leer y considerar para el índice.",
+    "Abajo: cómo funciona el 200, qué implica para el crawl y trampas cuando el status dice «éxito» pero la página en la práctica no está. Otros códigos se cubren en el artículo de status HTTP.",
+    "Un 200 solo no garantiza primera página: solo dice que la respuesta tuvo éxito. Contenido, enlaces, factores comerciales y competencia hacen el resto.",
+  ],
+  faq: [
+    {
+      q: "¿Un status 200 es buena señal?",
+      a: "Para páginas útiles existentes — sí. Para quitadas o vacías — no: mejor 404/410 o un 301 a una URL relevante.",
+    },
+    {
+      q: "Si es 200, ¿la página está indexada seguro?",
+      a: "No. El 200 habilita la indexación, pero el bot puede saltar la URL por calidad, noindex, duplicados o límites de crawl.",
+    },
+    {
+      q: "¿Qué es un soft 404?",
+      a: "Una respuesta 200 con contenido de «página no encontrada» / resultados vacíos. Confunde a usuarios y a la búsqueda.",
+    },
+    {
+      q: "¿En qué se diferencia 200 de 304?",
+      a: "304 — «no modificado», usa la cache. Para checks SEO mira tanto el 200 como un caching correcto.",
+    },
+    {
+      q: "¿Hace falta 200 en un redirect?",
+      a: "No. Los redirects deben ser 3xx. Un «redirect» por meta-refresh a 200 es más débil para la búsqueda que un 301 explícito.",
+    },
+    {
+      q: "¿Por qué el crawler ve 200 pero el navegador muestra error?",
+      a: "Geo/CDN distinto, auth, un error JS tras cargar el HTML, bloqueo de bots. Compara headers y body.",
+    },
+    {
+      q: "¿Cada cuánto comprobar 200 en URLs clave?",
+      a: "De continuo vía monitor de uptime + tras cada release. Crawl completo — en eventos.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo funciona 200 OK",
+      level: 2,
+      paras: [
+        "El cliente pidió un recurso; el servidor lo encontró y lo devolvió con código 200. El body puede ser HTML, JSON de API, un archivo — según la URL.",
+        "Para un sitio es la respuesta normal de una ficha de producto, un artículo o la homepage. Anormal — cuando el «éxito» enmascara una entidad que ya no existe.",
+      ],
+      lists: [
+        {
+          intro: "Junto a los headers, revisa:",
+          items: [
+            "Content-Type",
+            "cache (Cache-Control / ETag)",
+            "encoding",
+            "Set-Cookie inesperado en assets estáticos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Código de estado HTTP",
+          href: "/es/blog/kod-statusa-http/",
+        },
+      ],
+    },
+    {
+      title: "200 e indexación",
+      level: 2,
+      paras: [
+        "Los bots prefieren rastrear documentos disponibles. Un 200 estable en URLs canónicas es condición para un crawl normal. Luego deciden robots, meta robots, calidad y duplicados.",
+        "Tras una mudanza, asegúrate de que las direcciones nuevas ellas mismas devuelven 200 y las viejas 301 — no ambas 200 con el mismo contenido.",
+      ],
+      lists: [
+        {
+          intro: "Para que el 200 «funcione» en SEO:",
+          items: [
+            "canonical apunta a esta misma URL",
+            "sin noindex en páginas importantes",
+            "el contenido es único y útil",
+            "la página está en el sitemap si debe indexarse",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Arreglar statuses forma parte de la prep técnica. La aparición y el crecimiento de rankings de un núcleo después se planifica en meses — no es el resultado de «todo está en 200».",
+        },
+      ],
+    },
+    {
+      title: "La trampa del soft 404",
+      level: 2,
+      paras: [
+        "La tienda quitó un producto, pero la plantilla dice «sin stock» o «no encontrado» con código 200. O un filtro de catálogo sin resultados devuelve éxito con una grilla vacía.",
+        "La búsqueda puede tratar el documento como inútil o dejar basura en el índice. Un 404/410 honesto o un 301 a la categoría suele ser más limpio.",
+      ],
+      lists: [
+        {
+          intro: "Dónde aparece más el soft 404:",
+          items: [
+            "fichas de producto borradas",
+            "paginación más allá del final",
+            "búsqueda on-site sin resultados",
+            "landings promo desfasadas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Paginación",
+          href: "/es/blog/paginatsiya/",
+        },
+      ],
+    },
+    {
+      title: "Cómo comprobar",
+      level: 2,
+      paras: [
+        "`curl -I`, DevTools, un crawler, monitorización. En SPAs, revisa si el servidor devuelve un stub 200 para cada ruta mientras el cliente muestra un 404 real.",
+        "Compara el status en Webmaster / URL Inspection con la respuesta real del servidor — a veces estás viendo cache de CDN.",
+      ],
+      lists: [
+        {
+          intro: "Mini check de una landing:",
+          items: [
+            "código final 200",
+            "un solo host canónico",
+            "el contenido encaja con la query",
+            "sin noindex oculto",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Encaje con otros códigos",
+      level: 2,
+      paras: [
+        "La cadena debe terminar con sentido: URL vieja → 301 → nueva con 200. No mantengas documentos importantes en un 302 eterno.",
+        "En caídas prefiere un 503 honesto con Retry-After a un 200 a medias con layout roto — pero también arregla 5xx largos rápido.",
+      ],
+      lists: [
+        {
+          intro: "Pares «cuándo qué»:",
+          items: [
+            "la página vive → 200",
+            "mudanza permanente → 301 + 200 en el destino",
+            "fuera para siempre → 404/410",
+            "mantenimiento → 503",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Redirects",
+          href: "/es/blog/redirekt/",
+        },
+        {
+          label: "Error 502",
+          href: "/es/blog/oshibka-502/",
+        },
+      ],
+    },
+    {
+      title: "Práctica para el equipo",
+      level: 2,
+      paras: [
+        "En el Definition of Done del release: las plantillas clave devuelven los statuses esperados. En el proceso de contenido: quitar una pieza = decisión 301/410, no «solo sacarla del menú».",
+        "Así el 200 sigue siendo señal de que la página existe y es útil — no un stub universal.",
+      ],
+      lists: [
+        {
+          intro: "Pon en marcha:",
+          items: [
+            "una lista de URLs para smoke checks",
+            "reglas del CMS para borrar entidades",
+            "una alerta si home/catálogo ≠ 200",
+            "una revisión de soft-404 en la auditoría trimestral",
+          ],
+        },
+      ],
+    },
+  ],
+};

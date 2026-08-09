@@ -65,6 +65,41 @@ export function blogIndexI18n(locale: Locale): BlogIndexI18n {
       featuredRead: "Read article",
     };
   }
+  if (locale === "es") {
+    return {
+      locale: "es",
+      basePath: "/es/blog",
+      searchLabel: "Buscar en el blog",
+      searchPlaceholder: "Semántica, auditoría, estructura del sitio…",
+      searchHint: "Busca en títulos, secciones y cuerpo · tolera typos y sinónimos",
+      clearSearch: "Limpiar",
+      catsLabel: "Categorías",
+      allLabel: "Todas",
+      readArticle: "Leer artículo",
+      readShort: "Leer",
+      viewsShort: "visitas",
+      showMore: "Ver más",
+      matchFallback: "coincidencia",
+      emptyQuery:
+        "Nada para «{q}». Prueba «semántica», «auditoría» o «estructura».",
+      emptyCat: "Aún no hay artículos en esta categoría.",
+      statusNone: "Sin resultados",
+      statusFound: "Encontrados {n} · búsqueda inteligente en títulos, secciones y cuerpo",
+      statusCat: "Categoría «{cat}» · {n}",
+      statusAll: "{n} {articles} · búsqueda por sentido, typos y sinónimos",
+      shownOf: "Mostrando {shown} de {total}",
+      allCount: "Todos {n} {articles}",
+      where: {
+        title: "título",
+        heading: "sección",
+        excerpt: "extracto",
+        body: "cuerpo",
+      },
+      kicker: "Materiales de la agencia",
+      lead: "Artículos prácticos de SEO y marketing — desde el trabajo de proyectos de PRIME.",
+      featuredRead: "Leer artículo",
+    };
+  }
   return {
     locale: "ru",
     basePath: "/blog",
@@ -102,6 +137,7 @@ export function blogIndexI18n(locale: Locale): BlogIndexI18n {
 
 export function pluralArticlesLocale(n: number, locale: Locale): string {
   if (locale === "en") return n === 1 ? "article" : "articles";
+  if (locale === "es") return n === 1 ? "artículo" : "artículos";
   const mod10 = n % 10;
   const mod100 = n % 100;
   if (mod10 === 1 && mod100 !== 11) return "статья";

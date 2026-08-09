@@ -128,3 +128,132 @@ export const promoaktsiiEn: BlogPost = {
     "performance-marketing",
   ],
 };
+
+/** ES overlay for promoaktsii — same structure as RU JSON / EN. */
+export const promoaktsiiEs: BlogPost = {
+  slug: "promoaktsii",
+  title: "Por qué importan las promociones — y qué mecánicas funcionan",
+  date: "2019-06-28",
+  category: "Digital marketing",
+  cover: "/images/blog/promoaktsii/cover.webp",
+  excerpt:
+    "Promociones en retail y online: descuentos, regalo con compra, loyalty y sorteos — por qué el negocio las corre, qué prefieren los compradores y dónde la privacidad y la ley ponen límites.",
+  lead: [
+    "Una promoción es un boost temporal de la oferta: un descuento, regalo, puntos o una oportunidad de premio. La meta es un desplazamiento de demanda, mover stock, adquisición o retención — no descontar para siempre por sí mismo.",
+    "Abajo: por qué el promo ayuda al negocio, mecánicas populares y qué sugieren las señales de encuestas (OMI/Sostav y pares, 2019 como guía, no verdad eterna). Sorteos solo dentro de las reglas de la plataforma y la ley.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es solo informativo. Formaliza sorteos y campañas de incentivo según las reglas de la plataforma y las normas aplicables (incluida publicidad y datos personales).",
+  },
+  faq: [
+    {
+      q: "¿El descuento es la mejor mecánica?",
+      a: "La más familiar — pero entrena a la gente a esperar «−50%». Mézclalo con regalos, loyalty y un sorteo claro, o se derrite el margen.",
+    },
+    {
+      q: "¿Para qué el promo si el producto ya vende?",
+      a: "Acelerar rotación, lanzar una línea nueva, ganar estante frente a competidores, crecer la lista. Sin meta, la campaña se vuelve un regalo de margen.",
+    },
+    {
+      q: "¿Premio garantizado o jackpot?",
+      a: "Muchos prefieren pájaro en mano. Un combo fuerte es un premio pequeño frecuente más una chance a uno grande. Testa en tu audiencia.",
+    },
+    {
+      q: "¿Qué datos debo pedir?",
+      a: "El mínimo para la mecánica. El email a menudo es más fácil de obtener que un flashmob público con la cara. El consentimiento de datos personales es obligatorio.",
+    },
+    {
+      q: "¿Es obligatorio un promo en social?",
+      a: "Un canal de distribución. Primero oferta y reglas, luego distribución. No confundas reach con beneficio.",
+    },
+    {
+      q: "¿Cómo evitar matar el precio de marca?",
+      a: "Rareza y un motivo claro (temporada, remanente, bundle). Los dumps permanentes entrenan a comprar solo en rebaja.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué el negocio necesita promo",
+      level: 2,
+      paras: [
+        "Los compradores cazan una oferta: algunas categorías FMCG llevan años con una cuota alta de promo (cifras de investigación 2017–2018 ilustran presión, no tu KPI). Sin tu propia mecánica, entregas el estante a quien da un motivo para comprar ahora.",
+        "Trabajos: volumen, tráfico a tienda o sitio, descubrimiento de línea, captura de contacto, reactivación. Decide la métrica de éxito de antemano: ventas, margen, clientes nuevos, LTV.",
+      ],
+    },
+    {
+      title: "Mecánicas populares",
+      level: 2,
+      paras: [
+        "Las más comunes: descuentos, regalo con compra, bonos y programas de loyalty. Loyalty sostiene mejor el vínculo de marca — pero es más dura de lanzar que una etiqueta «−30%».",
+        "Las encuestas muestran el mercado saturado de descuentos; mezcla mecánicas y recupera la disposición a pagar precio completo por valor, no solo por un porcentaje.",
+      ],
+      lists: [
+        {
+          intro: "Set básico:",
+          items: [
+            "descuento en SKU/categoría",
+            "regalo / 2=3",
+            "puntos y niveles de loyalty",
+            "sorteo con reglas claras",
+            "cupón para el siguiente pedido",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué elige la gente",
+      level: 2,
+      paras: [
+        "Encuestas conjuntas (guía 2019): la gente comparte email con más facilidad que unirse a flashmobs públicos; un premio tangible a menudo gana a «experiencias»; un pago a tarjeta gana a bonos abstractos; un mínimo garantizado a menudo gana a un jackpot grande diferido.",
+        "En scores de atractivo, «premio del día + chance a un superpremio» suele ganar: racionalidad más emoción. La demografía importa menos que la claridad del beneficio y la facilidad de entrada.",
+      ],
+      notes: [
+        {
+          title: "No es manipulación «secreta»",
+          kind: "tip",
+          text: "Prometer un premio grande contando con el olvido es mala ética y riesgo de quejas. Plazos honestos, odds y cómo reclamar el premio son obligatorios.",
+        },
+      ],
+      links: [
+        {
+          label: "Consumer insight",
+          href: "/es/blog/potrebitelskiy-insayt/",
+        },
+        {
+          label: "Reseñas que venden",
+          href: "/es/blog/otzyvy-dlya-prodazh/",
+        },
+      ],
+    },
+    {
+      title: "Cómo lanzar sin daño",
+      level: 2,
+      paras: [
+        "Fija la meta, la economía (margen tras descuento o regalo), reglas, canal y medición. Para sorteos — términos públicos, fechas y cómo se elige al ganador.",
+        "Distribución: sitio, email, tienda, mapas, social disponible — con UTM y un código promo aparte para ver la aportación de cada canal.",
+      ],
+      links: [
+        {
+          label: "Métricas de publicidad",
+          href: "/es/blog/metriki-reklamy/",
+        },
+        {
+          label: "Formularios de captura",
+          href: "/es/blog/formy-zahvata/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Las promociones funcionan cuando hay meta y economía — no un dump eterno de precio. Rota mecánicas, respeta privacidad y reglas de sorteos, y mide margen y clientes nuevos — no solo «cuántos compraron con descuento».",
+  ],
+  related: [
+    "potrebitelskiy-insayt",
+    "otzyvy-dlya-prodazh",
+    "formy-zahvata",
+    "metriki-reklamy",
+    "prodazhi-internet-magazin",
+    "performance-marketing",
+  ],
+};

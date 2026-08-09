@@ -162,3 +162,166 @@ export const smsRassylkaEn: BlogPost = {
     "sem-kasaniy",
   ],
 };
+
+/** ES overlay for sms-rassylka — same structure as RU JSON / EN. */
+export const smsRassylkaEs: BlogPost = {
+  slug: "sms-rassylka",
+  title: "Campañas SMS: por dónde empezar y cómo no volverte spam",
+  date: "2019-11-15",
+  category: "Digital marketing",
+  cover: "/images/blog/sms-rassylka/cover.webp",
+  excerpt:
+    "Cómo lanzar SMS: trabajos del canal, tu propia lista y consentimiento, elegir operador/agregador, copy corto, frecuencia, opt-out y medición — sin spam frío a números comprados.",
+  lead: [
+    "El SMS llega rápido: un teléfono, y los mensajes a menudo se leen casi de inmediato. Por eso el canal es fuerte para recordatorios, estados de pedido y ofertas cortas — y con la misma facilidad se vuelve spam molesto.",
+    "Abajo: por qué el SMS va junto al email, qué trabajos cubre, cómo elegir una plataforma de envío y las etapas de lanzamiento. Listas frías sin consentimiento no son una estrategia — son un camino a bloqueos, quejas y daño de reputación.",
+  ],
+  faq: [
+    {
+      q: "¿El SMS es mejor que el email?",
+      a: "No siempre. El SMS se abre más rápido; el email aguanta más significado y es más barato a volumen. A menudo trabajan en par: SMS para lo urgente, email para nurture y valor más largo.",
+    },
+    {
+      q: "¿Puedo escribir a todos desde una «lista del operador»?",
+      a: "Ads sin consentimiento son un riesgo legal y de reputación. Más seguro: tu propia lista de clientes con consentimiento claro y un opt-out fácil.",
+    },
+    {
+      q: "¿Usar un operador o un agregador?",
+      a: "Un operador es un camino de un carrier; un agregador son varios carriers desde un dashboard. Revisa el contrato, el nombre del remitente, reportes y cómo se guardan los números.",
+    },
+    {
+      q: "¿Cómo mido el efecto?",
+      a: "Códigos promo, un número dedicado / call tracking, enlaces cortos con UTM, cuota de baja y quejas — no solo «entregado».",
+    },
+    {
+      q: "¿Con qué frecuencia enviar SMS?",
+      a: "Rara vez y a propósito. Los SMS promo frecuentes molestan más que el email. Respeta zonas horarias y horas nocturnas.",
+    },
+    {
+      q: "¿Hace falta un enlace de opt-out?",
+      a: "Sí. Da una forma simple de darse de baja y hónrala de inmediato — eso es ley y sentido común.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué aún se usa el SMS",
+      level: 2,
+      paras: [
+        "El mensaje es corto, el canal es personal y la competencia por atención en SMS suele ser menor que en un inbox saturado. Mucha gente lee casi justo tras la entrega — útil para toques sensibles al tiempo.",
+        "La contraparte: poco espacio y un alto coste de errores de tono — un mensaje pushy daña el feeling de marca más que una docena de emails.",
+      ],
+      lists: [
+        {
+          intro: "Fuerzas:",
+          items: [
+            "alta chance de ser leído",
+            "reacción rápida",
+            "nombre de empresa en lugar de un número «desconocido» (cuando está montado)",
+            "fuerte para triggers de servicio",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué trabajos cubre",
+      level: 2,
+      paras: [
+        "No solo «COMPRA YA EN MAYÚSCULAS». Escenarios que funcionan: recordar de ti (promo, nueva dirección), avisos de servicio (cita, estado, fin de suscripción), una felicitación con beneficio personal, petición de feedback marcada como libre de responder.",
+        "Ads a una audiencia fría sin relación de marca funcionan peor y más a menudo se sienten spam. Primero valor y motivo, luego la oferta.",
+      ],
+      lists: [
+        {
+          intro: "Escenarios típicos:",
+          items: [
+            "reserva / pedido abandonado",
+            "recordatorio de visita",
+            "descuento personal ligado a una fecha",
+            "aviso de servicio",
+            "feedback corto tras un servicio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Felicitación al cliente",
+          href: "/es/blog/pozdravlenie-klienta/",
+        },
+      ],
+    },
+    {
+      title: "Por quién enviar",
+      level: 2,
+      paras: [
+        "Carriers y agregadores SMS ofrecen dashboards: alpha-name, segmentos, envío programado, reportes de entrega, a veces integración CRM y reenvío de respuestas a email.",
+        "Un agregador ayuda cuando necesitas reach multi-carrier. Las contrapartes pueden ser precio y contrato: quién guarda la lista, cómo se tratan los datos, seguridad. No entregues números «por el lado» sin términos claros.",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Listas compradas y «bombardear todo el país» sin consentimiento no son una estrategia de arranque. Arma la lista desde tus propios clientes y formularios con checkbox de consentimiento.",
+        },
+      ],
+    },
+    {
+      title: "Etapas de lanzamiento",
+      level: 2,
+      paras: [
+        "Primero objetivo y segmento: quién y por qué. Luego una lista solo con base legal. Copy — corto, sin imágenes y sin «todo en mayúsculas», con check de ortografía: en 70–160 caracteres un typo golpea más fuerte.",
+        "Arma la medición antes del envío: código promo, UTM en un enlace corto, un número dedicado. Después — mira entrega, clics/llamadas, bajas y quejas. Fija frecuencia y hora del día para no despertar clientes en fines de semana.",
+      ],
+      lists: [
+        {
+          intro: "Orden:",
+          items: [
+            "objetivo y KPI",
+            "segmento y consentimiento",
+            "copy + nombre del remitente",
+            "test en tus propios números",
+            "envío y revisión de métricas",
+            "botón/comando de opt-out",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Etiquetas UTM",
+          href: "/es/blog/utm-metki/",
+        },
+        {
+          label: "Fuentes de tráfico",
+          href: "/es/blog/istochniki-trafika/",
+        },
+      ],
+    },
+    {
+      title: "Recomendaciones prácticas",
+      level: 2,
+      paras: [
+        "Una oferta — un mensaje. Da un siguiente paso claro y una forma de opt-out. No mezcles un tono de estado de pedido con promo agresiva en una sola voz — la gente confunde canales de confianza.",
+        "Si email y mensajeros corren en paralelo, alinea la frecuencia de toques: el SMS es un «clavo» raro, no ruido diario.",
+      ],
+      links: [
+        {
+          label: "Touchpoints",
+          href: "/es/blog/tochki-kontakta/",
+        },
+        {
+          label: "Deeplink",
+          href: "/es/blog/diplinking/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "El SMS funciona cuando escribes con consentimiento, en breve y a propósito. Empieza con tu propia lista, un servicio de envío con contrato claro y medición — sin correr por reach en números ajenos.",
+  ],
+  related: [
+    "pozdravlenie-klienta",
+    "tochki-kontakta",
+    "utm-metki",
+    "istochniki-trafika",
+    "diplinking",
+    "sem-kasaniy",
+  ],
+};

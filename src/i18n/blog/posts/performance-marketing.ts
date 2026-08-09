@@ -141,3 +141,145 @@ export const performanceMarketingEn: BlogPost = {
     "looker-studio",
   ],
 };
+
+/** ES overlay for performance-marketing — same structure as RU JSON / EN. */
+export const performanceMarketingEs: BlogPost = {
+  slug: "performance-marketing",
+  title: "Performance marketing: qué es, en qué se diferencia del branding y cómo funciona",
+  date: "2019-08-05",
+  category: "Digital marketing",
+  cover: "/images/blog/performance-marketing/cover.webp",
+  excerpt:
+    "El performance marketing va de resultados medibles del embudo: leads, ventas, CPA y ROAS. En qué se diferencia del branding, qué canales encajan y por qué importan los datos y una agencia.",
+  lead: [
+    "El performance marketing juzga ads y canales por una acción objetivo: lead, compra, install o llamada. El punto no es un reach bonito por sí solo, sino la cadena de presupuesto a acción a economía.",
+    "Abajo: definición, contraste con branding y el rol de datos y agencias. Las cifras de mercado de 2018–2019 en reseñas viejas están desfasadas; la lógica del enfoque no.",
+  ],
+  faq: [
+    {
+      q: "¿Performance es solo paid search?",
+      a: "No. Paid search fue el núcleo, pero el loop también incluye otros canales con una acción medible: partes de social, email, SEO cuando se trackean leads, y apps — mientras exista medición de extremo a extremo.",
+    },
+    {
+      q: "¿En qué se diferencia del branding?",
+      a: "El branding está más cerca de awareness y creativo. El performance está más cerca de un resultado de usuario contable. En la práctica a menudo comparten un split de presupuesto.",
+    },
+    {
+      q: "¿Basta pulsar un botón en la cuenta de ads?",
+      a: "No. El auto-bidding ayuda, pero sin meta, analytics, landing y oferta el presupuesto se filtra. La tecnología no sustituye enmarcar el problema.",
+    },
+    {
+      q: "¿Qué KPIs son típicos?",
+      a: "CPA/CPL, CPO, conversion rate, ROAS/ROMI, coste por lead o venta. Fija el set en el brief antes del lanzamiento.",
+    },
+    {
+      q: "¿Hace falta una agencia?",
+      a: "No siempre. Hacen falta expertise, un stack de datos y tiempo. In-house funciona; una agencia ayuda en el join de canales, la auditoría y la escala.",
+    },
+    {
+      q: "¿Cómo se conecta esto con analytics de extremo a extremo?",
+      a: "Directamente. Sin unir ads, sitio y CRM, el performance se desliza fácil a optimizar clics — no beneficio.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es el performance marketing",
+      level: 2,
+      paras: [
+        "Performance digital significa gestionar tráfico de pago y adyacente para que cada touch lleve a una acción medible y a una economía contable. El canal puede ser cualquiera; el criterio es un vínculo transparente con la meta de negocio.",
+        "Históricamente el performance creció del pay-per-click en búsqueda, luego se expandió a social, display con métricas post-click, email y apps. La esencia sigue igual: el resultado del usuario, no solo impresiones.",
+      ],
+      lists: [
+        {
+          intro: "Suele estar en el loop:",
+          items: [
+            "meta y KPIs antes del lanzamiento",
+            "canales con tracking",
+            "landing page y oferta",
+            "optimización por acción o revenue",
+            "un informe que el negocio entiende",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Performance y branding",
+      level: 2,
+      paras: [
+        "El branding resuelve awareness y creativo; el performance conecta tools a un resultado tangible. Clics baratos sin calidad y una meta clara devalúan el trabajo: un CPO bajo en papel con cero ventas no es una victoria.",
+        "Un loop útil es posible cuando la agencia entiende el negocio del cliente y el anunciante enuncia la meta con claridad. Si no, las licitaciones de «quién tiene el clic más barato» hacen daño a la agencia y al resultado.",
+      ],
+      links: [
+        {
+          label: "Métricas de publicidad",
+          href: "/es/blog/metriki-reklamy/",
+        },
+        {
+          label: "ROI del marketing",
+          href: "/es/blog/roi-marketinga/",
+        },
+      ],
+    },
+    {
+      title: "Datos, tecnología, reporting",
+      level: 2,
+      paras: [
+        "Desde el primer lanzamiento hasta un informe multicanal hacen falta datos: cuentas de ads, sitio, llamadas, CRM. Fuentes heterogéneas y plataformas externas de optimización ayudan solo si convergen en un cuadro.",
+        "El mito de que «todo se automatiza con un botón» es peligroso: la automatización acelera la rutina, pero no sustituye estrategia, creativo para la oferta ni control de calidad de leads.",
+      ],
+      lists: [
+        {
+          intro: "Qué conectar:",
+          items: [
+            "gasto y clics de las cuentas de ads",
+            "comportamiento en el sitio",
+            "leads, llamadas y ventas",
+            "caminos asistidos entre canales",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Analytics de extremo a extremo",
+          href: "/es/blog/skvoznaya-analitika/",
+        },
+        {
+          label: "Reporting al cliente",
+          href: "/es/blog/otchet-klientu/",
+        },
+      ],
+    },
+    {
+      title: "Rol de la agencia y auditoría",
+      level: 2,
+      paras: [
+        "Una agencia aporta expertise entre nichos, inventario y reporting para requisitos distintos del cliente. El valor es conectar piezas que no encajan: proceso, datos, canales y SLA.",
+        "A medida que las marcas compran más inventario directo a las plataformas, crece la demanda de auditoría independiente y recomendaciones. Un «chequeo de escaparate» puntual es más débil que una revisión regular de estrategia y táctica.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Elegir un vendor",
+          text: "La palabra «performance» en el nombre no es garantía. Mira el contrato, los KPIs, la transparencia de datos y la disposición a hablar del dinero del negocio — no solo del CTR.",
+        },
+      ],
+      links: [
+        {
+          label: "Estrategia de marketing",
+          href: "/es/blog/marketingovaya-strategiya/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "El performance marketing va de una acción medible y de la economía a lo largo del embudo. Fija meta y KPIs, reúne datos, no confundas un clic barato con beneficio — y no esperes que un botón de la cuenta de ads sustituya la estrategia.",
+  ],
+  related: [
+    "metriki-reklamy",
+    "skvoznaya-analitika",
+    "roi-marketinga",
+    "otchet-klientu",
+    "marketingovaya-strategiya",
+    "looker-studio",
+  ],
+};

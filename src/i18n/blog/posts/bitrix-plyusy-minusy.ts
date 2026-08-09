@@ -194,3 +194,198 @@ export const bitrixPlyusyMinusyEn: BlogPost = {
     "uznat-cms",
   ],
 };
+
+/** ES overlay for bitrix-plyusy-minusy — same structure as RU JSON / EN. */
+export const bitrixPlyusyMinusyEs: BlogPost = {
+  slug: "bitrix-plyusy-minusy",
+  title: "Pros y contras del CMS 1C-Bitrix",
+  date: "2017-04-06",
+  category: "Digital marketing",
+  cover: "/images/blog/bitrix-plyusy-minusy/cover.webp",
+  excerpt:
+    "Pros y contras de 1C-Bitrix: ecosistema, seguridad, licencias, hosting y velocidad — a quién encaja la plataforma, sin rankings de cuota de 2017 ni el mito de que Bitrix solo te posiciona.",
+  lead: [
+    "1C-Bitrix es un CMS comercial que a menudo se elige para sitios corporativos y tiendas en Rusia: módulos, integraciones 1C, mercado de desarrolladores. Tiene fortalezas reales y un coste de propiedad: licencia, hosting, skill del equipo.",
+    "Abajo: pros y contras sin culto al «número uno para siempre» y sin citas de «build de 30–200k» de guías locales viejas. Ediciones y precios actuales — en el sitio del vendor. Comparar motores para tiendas online es una pieza aparte.",
+  ],
+  faq: [
+    {
+      q: "¿Hay una edición Bitrix gratis para siempre?",
+      a: "Hay escenarios trial/limitados y distintas ediciones. Un proyecto comercial completo suele necesitar licencia — mira los términos actuales de 1C-Bitrix.",
+    },
+    {
+      q: "¿Bitrix es solo para tiendas online?",
+      a: "No. A menudo sitios corporativos, catálogos, áreas de cuenta. Para un one-pager o un blog pequeño suele ser overkill.",
+    },
+    {
+      q: "¿La popularidad significa que es la mejor elección?",
+      a: "No. La popularidad facilita contratar, pero no cancela TCO, velocidad ni higiene SEO. Los rankings de cuota de CMS envejecen rápido — no copies cifras de 2017.",
+    },
+    {
+      q: "¿Bitrix posicionará el sitio solo?",
+      a: "No. Un CMS no sustituye semántica, contenido y trabajo técnico. Prep y lanzamiento no son rankings de primera página; la cuota del núcleo se planifica típicamente a dos a seis meses tras empezar el trabajo.",
+    },
+    {
+      q: "¿En qué se diferencia de un overview de CMS para tiendas?",
+      a: "Aquí el foco son pros/contras de Bitrix como plataforma. Allí son los contras de varios motores de tienda lado a lado.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cuándo Bitrix entra en la shortlist",
+      level: 2,
+      paras: [
+        "Vale la pena mirarlo si necesitas estructura compleja, roles de usuario, catálogo, intercambio 1C y un ecosistema de partners familiar en Rusia. Para un landing «de una semana» o un blog personal la gente suele tomar un builder o WordPress.",
+        "Decide por requisitos y quién lo soportará — no por el eslogan «todos están en Bitrix».",
+      ],
+      links: [
+        {
+          label: "CMS para una tienda online",
+          href: "/es/blog/cms-internet-magazina/",
+        },
+        {
+          label: "Cómo detectar el CMS de un sitio",
+          href: "/es/blog/uznat-cms/",
+        },
+      ],
+    },
+    {
+      title: "Pros",
+      level: 2,
+      paras: [
+        "Ecosistema: docs, marketplace de soluciones, muchos desarrolladores que conocen la plataforma. Para el negocio baja el riesgo de «montado en un framework desconocido — nadie puede mantenerlo».",
+        "Seguridad y actualizaciones son un relato fuerte del vendor y un foco práctico; el modelo de licencia y los términos de update deben encajar con el contrato actual, no con el wording de un artículo viejo.",
+        "Integraciones y escenarios boxed para catálogo, pedidos, flujos tipo CRM — un plus cuando de verdad los necesitas, no cuando se compran «para crecer sin plan».",
+      ],
+      lists: [
+        {
+          intro: "Qué suele valorarse:",
+          items: [
+            "mercado de especialistas y agencias",
+            "docs y comunidad",
+            "modularidad para corporativo/tienda",
+            "escenarios 1C y prácticas del mercado RU",
+            "roles y un admin que los editores pueden usar",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Admin de Bitrix",
+          href: "/es/blog/bitrix-admin/",
+        },
+        {
+          label: "Sección pública",
+          href: "/es/blog/bitrix-publichnyy-razdel/",
+        },
+      ],
+    },
+    {
+      title: "Contras",
+      level: 2,
+      paras: [
+        "De pago y TCO: licencia, renovaciones, trabajo custom, a veces hosting dedicado. Un «motor gratis» al inicio no siempre es más barato en un año — y Bitrix no se vuelve barato por un eslogan de soporte.",
+        "Las necesidades de entorno son más altas que para un blog ligero: PHP, BD, servidor web, caché. En shared hosting débil el sitio choca con la CPU y se siente lento — a menudo hosting + calidad de implementación, no «Bitrix siempre es lento por sí solo».",
+        "Complejidad: sin experiencia es fácil apilar componentes pesados, módulos de más y una plantilla mala. Entonces sufren velocidad y soporte.",
+      ],
+      lists: [
+        {
+          intro: "Dónde suele doler:",
+          items: [
+            "presupuesto de licencia y build",
+            "necesidad de hosting/VPS competente",
+            "la calidad custom pesa mucho en la velocidad",
+            "overkill para landings simples",
+            "dependencia del skill del contratista",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "warning",
+          text: "Elegir una edición «con margen» y no usar nunca la mitad de los módulos — pagas complejidad y soporte por aire.",
+        },
+      ],
+      links: [
+        {
+          label: "Hosting",
+          href: "/es/blog/hosting/",
+        },
+        {
+          label: "Velocidad del sitio",
+          href: "/es/blog/skorost-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Hosting y rendimiento",
+      level: 2,
+      paras: [
+        "El vendor publica recomendaciones y listas de hosts compatibles — una brújula, no una garantía de que cualquier plan listado encaje con tu catálogo. Para tiendas y picos de tráfico se mira más a menudo recursos VPS/dedicados y caché.",
+        "Un escaparate lento tras el lanzamiento se arregla más a menudo con profiling, caché, trabajo de queries y media — no con pánico a cambiar de CMS.",
+      ],
+    },
+    {
+      title: "SEO y Bitrix",
+      level: 2,
+      paras: [
+        "La plataforma puede hacer pretty URLs, meta, sitemaps y herramientas de ayuda — pero hay que configurarlas. El motor no cancela duplicados, contenido fino o TTFB lento.",
+        "Los settings SEO básicos de Bitrix son un artículo aparte. Los rankings del núcleo competitivo crecen a lo largo de meses de trabajo, no desde el día en que compras la licencia.",
+      ],
+      links: [
+        {
+          label: "SEO en Bitrix",
+          href: "/es/blog/seo-bitrix/",
+        },
+      ],
+    },
+    {
+      title: "Cómo decidir: tomarlo o no",
+      level: 2,
+      paras: [
+        "Reúne requisitos: catálogo, 1C, roles, integraciones, quién administra, presupuesto a uno-dos años. Compara alternativas (WordPress/Woo, OpenCart, custom) en TCO y riesgo de soporte.",
+        "Un piloto en una caja demo/staging gana a la fe en un ranking de cuota de CMS.",
+      ],
+      lists: [
+        {
+          intro: "Bitrix encaja si:",
+          items: [
+            "necesitas roles y estructura complejos",
+            "importa el ecosistema de desarrolladores RU",
+            "hay presupuesto para licencia e implementación",
+            "hosting y equipo pueden cargar con la plataforma",
+          ],
+        },
+        {
+          intro: "A menudo overkill si:",
+          items: [
+            "un one-pager o un blog pequeño",
+            "sin presupuesto para soporte continuo",
+            "el equipo solo conoce otro stack",
+            "la máxima simplicidad de deploy es crítica",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Bitrix es fuerte en ecosistema y escenarios de negocio en Rusia; flojo donde necesitas barato, simple y «instalado tú mismo en una tarde».",
+        "Pesa pros y contras para el trabajo. Un CMS es una herramienta, no un sustituto de marketing y SEO.",
+      ],
+    },
+  ],
+  closing: [
+    "Puntúa requisitos, TCO y equipo: si Bitrix cubre integraciones y roles sin peso de más — tómalo a propósito. Si necesitas un sitio simple — no pagues la complejidad de la plataforma por el status de «igual que todos».",
+  ],
+  related: [
+    "cms-internet-magazina",
+    "seo-bitrix",
+    "bitrix-admin",
+    "bitrix-publichnyy-razdel",
+    "hosting",
+    "uznat-cms",
+  ],
+};

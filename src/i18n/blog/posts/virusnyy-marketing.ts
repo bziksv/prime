@@ -175,3 +175,179 @@ export const virusnyyMarketingEn: BlogPost = {
     "nativnaya-reklama",
   ],
 };
+
+/** ES overlay for virusnyy-marketing — same structure as RU JSON / EN. */
+export const virusnyyMarketingEs: BlogPost = {
+  slug: "virusnyy-marketing",
+  title: "Tipos de marketing viral: vídeo, memes, texto y apps",
+  date: "2019-12-25",
+  category: "Digital marketing",
+  cover: "/images/blog/virusnyy-marketing/cover.webp",
+  excerpt:
+    "Qué es el marketing viral, qué formatos la gente reparte sola — vídeo, imágenes, texto, apps — y por qué no puedes pedir un hit viral con garantía.",
+  lead: [
+    "El marketing viral es cuando la gente pasa el mensaje sola: repost, forward, meme, challenge. La marca obtiene reach más allá del gasto directo en media — si la pieza encaja y es fácil de compartir.",
+    "Abajo: de dónde salió el término, pros y riesgos, tipos principales de formato y un workflow sensato de vídeo. No puedes garantizar un hit viral; comprar views no es una estrategia. Las propiedades del contenido viral se cubren aparte.",
+  ],
+  faq: [
+    {
+      q: "¿Marketing viral y contenido viral son lo mismo?",
+      a: "Relacionados. El marketing viral es un enfoque de distribución; la viralidad es una propiedad de una pieza concreta. Las bases del contenido están en el artículo relacionado.",
+    },
+    {
+      q: "¿En qué se diferencia del boca a boca?",
+      a: "El boca a boca son recomendaciones desde la experiencia del producto. El marketing viral es más a menudo contenido brillante que se comparte por emoción o utilidad; el producto puede ir tejido con ligereza.",
+    },
+    {
+      q: "¿Se puede comprar un hit viral?",
+      a: "Garantías honestas no existen. Un boost de pago arranca el reach; la audiencia decide qué pasa después. Servicios de «views en pack» crean ruido y riesgo de plataforma.",
+    },
+    {
+      q: "¿Qué formato elegir?",
+      a: "El que tu audiencia comparte con facilidad: un vídeo corto, meme, lista, mini-tool. No copies a ciegas el hit viral de otro en otro nicho.",
+    },
+    {
+      q: "¿Lo viral siempre impulsa ventas?",
+      a: "No. Reach sin audiencia relevante y landing a menudo equivale a ruido. Cuenta clics y leads, no solo views.",
+    },
+    {
+      q: "¿Hace falta un gran presupuesto de producción?",
+      a: "No necesariamente. A veces gana un vídeo simple con una idea fuerte. El presupuesto ayuda a calidad y distribución, pero no compra una garantía de repost.",
+    },
+  ],
+  sections: [
+    {
+      title: "De dónde salió el término y cómo funciona",
+      level: 2,
+      paras: [
+        "La idea de mediados de los 90 de un «virus en marketing» enmarcaba la transferencia del mensaje de persona a persona — como la propagación biológica. Antes de internet eso era boca a boca hablado; online, un clic de share lo hace más rápido.",
+        "Hoy la mecánica vive en redes, email, plataformas de vídeo y mensajeros. El núcleo es el mismo: el valor o la emoción tienen que ganar a la pereza de reenviar.",
+      ],
+      links: [
+        {
+          label: "Contenido viral",
+          href: "/es/blog/viralnyy-kontent/",
+        },
+        {
+          label: "Boca a boca",
+          href: "/es/blog/sarafannoe-radio/",
+        },
+      ],
+    },
+    {
+      title: "Pros y límites",
+      level: 2,
+      paras: [
+        "Fuerzas: coste de distribución relativamente bajo cuando funciona, más confianza en un tono no-ad, a veces una cola larga de views para un vídeo afortunado.",
+        "Límites: sin garantía de resultado, riesgo de viral negativo, control débil y moderación de plataforma. Contenido prohibido por hype daña la marca más de lo que compra reach — no es una estrategia.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo tiene sentido:",
+          items: [
+            "tienes una idea fuerte para la audiencia",
+            "estás listo a promover sin esperar un milagro",
+            "hay una landing para el interés",
+            "estás listo a manejar una ola de comentarios",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Vídeo",
+      level: 2,
+      paras: [
+        "El formato más visible: un plot corto, emoción, sorpresa. No siempre hace falta producción cinematográfica — a veces gana un momento simple y honesto. La duración y el gancho del primer segundo ganan a «todo bonito».",
+      ],
+      lists: [
+        {
+          intro: "Qué sube las odds:",
+          items: [
+            "un gancho desde los primeros frames",
+            "cambios de plano, sonido en vivo",
+            "una idea que la gente pueda repetir o parodiar",
+            "marca mantenida ligera",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Imágenes y memes",
+      level: 2,
+      paras: [
+        "Memes y cards se comparten más fácil que un texto largo: una pantalla, una idea. Tus propios memes sobre una plantilla a tiempo ganan a un repost ajeno sin conexión de marca.",
+        "La línea es respeto a la audiencia y copyright. Un meme ofensivo o robado da reach y un golpe a la reputación.",
+      ],
+    },
+    {
+      title: "Texto y apps",
+      level: 2,
+      paras: [
+        "El texto viral es raro pero ocurre: una lista fuerte de reglas, una historia, un desglose inesperado. Se reparte por blogs y comunidades si es fácil de citar y contar.",
+        "Apps y mini-tools («pruébate», «transforma», «calcula») se propagan cuando la gente quiere mostrar el resultado a amigos. Eso es producto más marketing, no un post puntual.",
+      ],
+      links: [
+        {
+          label: "Contenido interactivo",
+          href: "/es/blog/interaktivnyy-kontent/",
+        },
+      ],
+    },
+    {
+      title: "Cómo trabajar un vídeo viral",
+      level: 2,
+      paras: [
+        "El proceso gana a la magia: objetivo y audiencia → idea y guion → producción → distribuir → postmortem. Subir al hosting y esperar casi nunca funciona — hace falta un primer push por tus canales, partners y creators.",
+        "Un benchmark habitual: la gente a menudo llama viral a algo cuando las views orgánicas multiplican muchas veces el arranque de pago — pero para el negocio, la relevancia importa más que el multiplicador solo.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de prep:",
+          items: [
+            "un objetivo (awareness / tráfico / producto)",
+            "audiencia y plataformas donde compartir es fácil",
+            "un guion con emoción y un mensaje claro",
+            "un plan de distribución sin inflación falsa",
+            "métricas: shares, clics, leads",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Los «servicios de marketing viral» de pago que venden packs de views no sustituyen una idea. El riesgo de bots y sanciones de plataforma pesa más que el beneficio de marca.",
+        },
+      ],
+    },
+    {
+      title: "Conexión con el negocio",
+      level: 2,
+      paras: [
+        "Un hit viral sin puente al producto es un show caro. Decide de antemano adónde va el interés: landing, selección de producto, quiz, formulario de contacto. Si no, obtienes views y un equipo de ventas ocioso.",
+        "Un momento viral negativo (error, escándalo) se maneja con hechos y velocidad — no comprando positividad ni callando a la espera de que pase.",
+      ],
+      links: [
+        {
+          label: "Reach viral en VK",
+          href: "/es/blog/viralnyy-ohvat-vk/",
+        },
+        {
+          label: "Gancho de noticia",
+          href: "/es/blog/infopovod/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "El marketing viral son formatos que la gente quiere reenviar — no un pack de views compradas. Elige un tipo para tu audiencia, planifica distribución y un puente al producto, y no te prometas un hit viral garantizado.",
+  ],
+  related: [
+    "viralnyy-kontent",
+    "viralnyy-ohvat-vk",
+    "sarafannoe-radio",
+    "interaktivnyy-kontent",
+    "infopovod",
+    "nativnaya-reklama",
+  ],
+};

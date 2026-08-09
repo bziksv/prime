@@ -136,3 +136,140 @@ export const canvaEn: BlogPost = {
     "menedzher-smm",
   ],
 };
+
+/** ES overlay for canva — same structure as RU JSON / EN. */
+export const canvaEs: BlogPost = {
+  slug: "canva",
+  title: "Canva: pros y contras del editor online para marketing",
+  date: "2019-11-18",
+  category: "SMM",
+  cover: "/images/blog/canva/cover.webp",
+  excerpt:
+    "A quién encaja Canva, qué cubre el plan gratis, dónde se queda corto frente a Photoshop y cómo mantener un estilo visual en social sin prometer que nunca harás falta un diseñador.",
+  lead: [
+    "Canva es un editor online basado en plantillas para posts, Stories, decks e impresión simple. Drag-and-drop en vez de la curva de aprendizaje de Photoshop — por eso les gusta a marketers, equipos SMM y pequeños negocios.",
+    "Abajo: fortalezas, límites y cuándo aún quieres un diseñador. No fijamos límites viejos del plan gratis ni «N mil plantillas» — mira tu cuenta actual. Una alternativa cercana es VistaCreate (antes Crello).",
+  ],
+  faq: [
+    {
+      q: "¿Canva sustituye a un diseñador?",
+      a: "Para contenido regular en un estilo — a menudo sí. Trabajo de marca complejo, packaging o layouts no estándar siguen necesitando un profesional.",
+    },
+    {
+      q: "¿En qué se diferencia de Crello / VistaCreate?",
+      a: "Misma clase: plantillas y export para formatos habituales. Elige por hábito, biblioteca, precio de equipo y lo bien que funcionen tu idioma y fuentes.",
+    },
+    {
+      q: "¿Basta la versión gratis?",
+      a: "Para tests y layouts simples, a menudo sí. Brand Kit, algunas bibliotecas de media, Magic Resize y features de equipo más profundas suelen estar en planes de pago.",
+    },
+    {
+      q: "¿Puedo hacer un logo en Canva?",
+      a: "Borradores y variantes — sí. Un logo final con guidelines y usos reales conviene más de un diseñador y fijado en tu identidad.",
+    },
+    {
+      q: "¿Por qué las letras aparecen como cajas?",
+      a: "La fuente no soporta tu sistema de escritura (por ejemplo, cirílico). Elige fuentes que lo incluyan, o sube fuentes con licencia que poseas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Para quién es Canva y por qué",
+      level: 2,
+      paras: [
+        "Necesitas posts, covers, banners y decks sin un estudio por cada frame. Elige una plantilla → cambia texto y fotos → exporta PNG, JPG o PDF.",
+        "Quienes no son diseñadores a tiempo completo — bloggers, SMM, ads de pequeño negocio — ganan cuando importan más la velocidad y un ritmo visual coherente que una ilustración única desde cero.",
+      ],
+      lists: [
+        {
+          intro: "Escenarios típicos:",
+          items: [
+            "contenido social",
+            "banners y pósters simples",
+            "presentaciones y decks de ventas",
+            "borradores de impresión (flyer, tarjeta)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Overview de Crello / VistaCreate",
+          href: "/es/blog/crello/",
+        },
+      ],
+    },
+    {
+      title: "Lo que Canva hace bien",
+      level: 2,
+      paras: [
+        "Barrera baja: drag-and-drop, combos listos de color y fuente, bibliotecas de elementos y media. Guardado en la nube y colaboración de equipo.",
+        "Las apps móviles sincronizan borradores. Puedes armar un set de plantillas «tuyas» con logo y paleta — el feed se mantiene coherente sin un layout al azar cada día.",
+      ],
+      lists: [
+        {
+          intro: "Lo que la gente suele valorar:",
+          items: [
+            "arranque rápido sin Photoshop",
+            "formatos a medida de cada plataforma",
+            "acceso de equipo",
+            "export a la calidad que necesitas",
+            "reutilizar layouts",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Monta un Brand Kit (colores, logo, fuentes) — incluso en un plan mínimo, la disciplina de marca gana a una plantilla bonita que parece de otra marca.",
+        },
+      ],
+      links: [
+        {
+          label: "Identidad de marca",
+          href: "/es/blog/aydentika-brenda/",
+        },
+        {
+          label: "Plantillas de Instagram",
+          href: "/es/blog/shablon-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Límites y cuándo se queda corto",
+      level: 2,
+      paras: [
+        "Esto no es un editor «dibuja desde cero»: retouch pesado, identidad vectorial y layout no estándar tocan techo. Algunas comodidades (resize, media premium) están en planes de pago; los términos cambian.",
+        "Los scripts no latinos necesitan chequeo de fuente. Hace falta internet estable — todo vive en la nube. El auto-post a social no sustituye un content plan ni un mensaje claro en cada post.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo llamar a un diseñador:",
+          items: [
+            "logo final y guidelines",
+            "packaging e impresión compleja",
+            "una campaña con lenguaje visual único",
+            "layouts donde la plantilla sigue gritando otra marca",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Identidad de marca",
+          href: "/es/blog/aydentika-brenda/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Canva acelera el visual de marketing sobre plantillas — si mantienes disciplina de marca y expectativas honestas. Para identidad única y formatos complejos, deja sitio a un diseñador; para un editor online vecino, ver el overview de VistaCreate / Crello.",
+  ],
+  related: [
+    "crello",
+    "aydentika-brenda",
+    "shablon-instagram",
+    "foto-instagram",
+    "post-instagram",
+    "menedzher-smm",
+  ],
+};

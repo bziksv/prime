@@ -140,3 +140,144 @@ export const viralnyyOhvatVkEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for viralnyy-ohvat-vk — same structure as RU JSON / EN. */
+export const viralnyyOhvatVkEs: BlogPost = {
+  slug: "viralnyy-ohvat-vk",
+  title: "Alcance viral en VK: qué es y cómo crecerlo",
+  date: "2021-08-17",
+  category: "SMM",
+  cover: "/images/blog/viralnyy-ohvat-vk/cover.webp",
+  excerpt:
+    "Qué significa el alcance viral en las stats de VK, en qué se diferencia del alcance de seguidores, qué formatos se repostean más y cómo amplificar la distribución con cuidado.",
+  lead: [
+    "El alcance viral son vistas del post de personas que no siguen tu comunidad: vieron un repost, una recomendación o el feed de otro y aterrizaron en tu post.",
+    "Abajo: dónde encontrar la métrica, qué temas y formatos viajan más lejos y cómo pedir un repost sin cringe. El alcance viral no sustituye un plan de contenido constante ni los ads de pago.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia el alcance viral del alcance total?",
+      a: "El alcance total cuenta a todos los que vieron el post. El viral es la aportación «externa» — vistas por difusión más allá de tu base de seguidores (según las etiquetas de stats de VK).",
+    },
+    {
+      q: "¿Por qué no hay stats de alcance?",
+      a: "Algunos informes se abren solo para comunidades por encima de cierto tamaño o tipo de audiencia. Revisa las condiciones actuales en la Help de VK.",
+    },
+    {
+      q: "¿Hace falta provocación para el alcance viral?",
+      a: "El contenido controvertido enciende la discusión pero fácilmente daña la reputación de marca. La confianza gana a un pico de alcance.",
+    },
+    {
+      q: "¿Las imágenes genéricas de relleno se vuelven virales?",
+      a: "Rara vez. Un visual original reconocible y un mensaje claro ganan a otra plantilla de internet.",
+    },
+    {
+      q: "¿Ayudan las colaboraciones?",
+      a: "Sí: intercambios de posts con comunidades y creators afines amplían la audiencia primaria para reposts.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué mide el alcance viral",
+      level: 2,
+      paras: [
+        "Es una señal de que el contenido vive más allá de «tu gente». El tráfico nuevo a la comunidad y al sitio suele venir de reposts y recomendaciones.",
+        "En las stats de la comunidad abre el bloque de alcance y activa la vista viral (las etiquetas de UI cambian). Mira tendencias día a día y por dispositivo.",
+      ],
+      lists: [
+        {
+          intro: "Por qué rastrearlo:",
+          items: [
+            "qué temas se difunden",
+            "si crece la entrada de no-seguidores",
+            "si conviene impulsar el formato con ads",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Comentarios en un público de VK",
+          href: "/es/blog/kommentarii-v-pablike-vk/",
+        },
+      ],
+    },
+    {
+      title: "Temas que la gente repostea más",
+      level: 2,
+      paras: [
+        "La gente comparte lo que refuerza su imagen o emoción: utilidad, una historia, un chiste, una opinión fuerte (con cuidado), un evento oportuno.",
+      ],
+      lists: [
+        {
+          intro: "Ángulos que suelen viajar:",
+          items: [
+            "educativo — guías, checklists, desgloses",
+            "motivacional — sin eslóganes vacíos",
+            "narrativo — un caso, detrás de cámaras",
+            "emocional / entretenimiento — en el tono de marca",
+            "oportuno — una tendencia filtrada por tu expertise",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Perseguir solo el shock. Un pico corto de alcance con daño duradero a la confianza es un mal trueque.",
+        },
+      ],
+    },
+    {
+      title: "Formatos",
+      level: 2,
+      paras: [
+        "Vídeo, un visual fuerte, copy corto de gancho, una encuesta, un quiz, una infografía — elige por el tema. La calidad de la imagen y el caption deciden si la gente pulsa «compartir».",
+      ],
+      tables: [
+        {
+          caption: "Formato y trade-offs",
+          headers: ["Formato", "Fuerza", "Riesgo"],
+          rows: [
+            ["Vídeo corto", "Alta tasa de visionado completo", "Necesita gancho en los primeros segundos"],
+            ["Imagen + texto", "Rápido de producir", "Visuales genéricos y fluff no viajan"],
+            ["Encuesta / quiz", "Engagement", "Oferta de marca débil"],
+            ["Post largo", "Expertise", "Difícil de terminar en el feed"],
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Infografías",
+          href: "/es/blog/infografika/",
+        },
+      ],
+    },
+    {
+      title: "Cómo amplificar la difusión",
+      level: 2,
+      paras: [
+        "Arma el post: tema × formato × titular × CTA («qué opinas / guarda / mándalo a un colega»). Un visual original gana a una plantilla ajena.",
+        "Comparte el enlace en comunidades partner por acuerdo. Ads sobre un post orgánico fuerte a veces salen más baratos que intentar calentar uno débil.",
+      ],
+      lists: [
+        {
+          intro: "Checklist previo a publicar:",
+          items: [
+            "beneficio claro en tres segundos",
+            "un motivo para guardar o reenviar",
+            "sin fluff ni clickbait falso",
+            "un CTA suave integrado",
+            "tras un día, revisar alcance y reposts",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cierre breve",
+      level: 2,
+      paras: [
+        "El alcance viral muestra si el contenido sale del círculo de seguidores. Crécelo con temas «dignos de compartir», visuales originales y collabs — sin apostarlo todo a la provocación.",
+      ],
+    },
+  ],
+};

@@ -160,3 +160,164 @@ export const aktivnostVkEn: BlogPost = {
     "seo-vkontakte",
   ],
 };
+
+/** ES overlay for aktivnost-vk — same structure as RU JSON / EN. */
+export const aktivnostVkEs: BlogPost = {
+  slug: "aktivnost-vk",
+  title: "Historial de actividad en VK: sesiones de login y engagement de comunidad",
+  date: "2021-01-27",
+  category: "SMM",
+  cover: "/images/blog/aktivnost-vk/cover.webp",
+  excerpt:
+    "Cómo revisar el historial de login de VK, por qué cerrar otras sesiones y cómo las stats de comunidad suben el engagement — sin tratar cada cambio de IP como un hack.",
+  lead: [
+    "En VK, «actividad» significa dos cosas distintas: para un perfil personal — historial de login (dispositivos, IPs, sesiones); para una comunidad — reacciones, comentarios, alcance de posts. No mezcles seguridad de cuenta con el ER del grupo.",
+    "Abajo: ambas vías. Los ítems del menú «Settings → Security» se mueven — usa VK Help. Los conteos de sesiones recientes y los layouts de informes también cambian.",
+  ],
+  faq: [
+    {
+      q: "¿Una IP distinta siempre es un hack?",
+      a: "No. IP dinámica, datos móviles, otro Wi‑Fi o VPN cambian la dirección. Más preocupante: una ciudad o dispositivo desconocido que no autorizaste.",
+    },
+    {
+      q: "¿Qué hace «End all sessions»?",
+      a: "Limpia los logins activos; otros dispositivos deben iniciar sesión de nuevo. Útil si sospechas acceso — más un cambio de contraseña y 2FA.",
+    },
+    {
+      q: "¿Dónde ves la actividad de la comunidad?",
+      a: "En las stats de comunidad: alcance, feedback, joins/leaves, qué entra en recomendaciones. Las pestañas exactas viven en el panel de admin actual.",
+    },
+    {
+      q: "¿Bastan los likes como métrica?",
+      a: "No. Mira comentarios, shares, clics, mensajes, retención. Un like sin diálogo apenas alimenta ventas.",
+    },
+    {
+      q: "¿La actividad falsa ayuda a una comunidad?",
+      a: "No: riesgo de sanción y una audiencia muerta. Crece reacciones vivas con contenido y moderación.",
+    },
+  ],
+  sections: [
+    {
+      title: "Historial de login de la cuenta",
+      level: 2,
+      paras: [
+        "En settings de seguridad abre el historial de actividad / la lista de sesiones: cuándo iniciaste sesión, desde qué tipo de cliente, a veces geo e IP. Es una herramienta de protección, no «espiar a amigos».",
+        "En móvil la lista completa suele ser más fácil en la versión web completa. Si falta el ítem — actualiza el cliente o abre un navegador.",
+      ],
+      lists: [
+        {
+          intro: "Si sospechas otro login:",
+          items: [
+            "cierra todas las sesiones",
+            "cambia a una contraseña única",
+            "activa 2FA",
+            "revisa el teléfono y email enlazados",
+            "revoca apps dudosas con acceso a VK",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Entrar en pánico por un cambio de IP en la misma ciudad en tus dispositivos. Primero descarta una dirección dinámica y VPN.",
+        },
+      ],
+    },
+    {
+      title: "Por qué la IP «salta»",
+      level: 2,
+      paras: [
+        "Wi‑Fi de casa, LTE, redes públicas, otro navegador o emulador dejan huellas de sesión distintas. Un VPN/anonimizador puede cambiar el país en el informe.",
+        "Motivos para medidas duras: un dispositivo desconocido más acciones raras (DMs masivos, borrados de amigos, spam saliente) — no una sola línea con otra IP.",
+      ],
+    },
+    {
+      title: "Actividad de comunidad: qué mirar",
+      level: 2,
+      paras: [
+        "Los admins necesitan más que visitas — acciones: likes, comentarios, shares, «not interested», joins y leaves, votos en encuestas, aperturas de notificación — el set depende de las stats disponibles.",
+        "Compara periodos: qué tema encendió discusión, qué formato obtuvo shares, tras qué post crecieron los mensajes.",
+      ],
+      lists: [
+        {
+          intro: "Mini dashboard de la semana:",
+          items: [
+            "alcance y ER del post",
+            "comentarios y tono de la discusión",
+            "joins/leaves de la comunidad",
+            "mensajes y leads",
+            "Stories (si las usas) — completion y respuestas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Crecer un grupo de VK",
+          href: "/es/blog/raskrutka-gruppy-vk/",
+        },
+        {
+          label: "Alcance viral en VK",
+          href: "/es/blog/viralnyy-ohvat-vk/",
+        },
+      ],
+    },
+    {
+      title: "Cómo subir el engagement",
+      level: 2,
+      paras: [
+        "Activa y modera comentarios, abre hilos de discusión, corre encuestas, mezcla valor y formatos ligeros. Concursos — según las reglas de la plataforma con un outcome claro.",
+        "Dos o tres posts con sentido al día es una brújula, no dogma. Un ritmo que puedas mantener gana al spam «por el checkbox».",
+      ],
+      lists: [
+        {
+          intro: "Palancas que funcionan:",
+          items: [
+            "un post fijado con oferta y reglas",
+            "respuestas del admin en comentarios",
+            "chats/conversaciones con reglas",
+            "un álbum UGC solo con moderación",
+            "experimento de contenido → medir la semana → conclusión",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Comentarios en una página pública",
+          href: "/es/blog/kommentarii-v-pablike-vk/",
+        },
+        {
+          label: "Ideas para Stories de VK",
+          href: "/es/blog/idei-storis-vk/",
+        },
+      ],
+    },
+    {
+      title: "Seguridad y la página pública juntas",
+      level: 2,
+      paras: [
+        "Para admins con derechos de comunidad, una cuenta personal robada es un riesgo del grupo. 2FA y sesiones cortas en ordenadores compartidos son obligatorios.",
+        "Concede los roles mínimos necesarios; revoca a ex contratistas de inmediato.",
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "El historial de sesiones va de protección del login. Las stats de comunidad van de contenido y reacciones. Revisa ambos con regularidad — con conclusiones distintas.",
+        "El engagement vivo se construye con respuestas y sentido, no con actividad falsa.",
+      ],
+    },
+  ],
+  closing: [
+    "Revisa sesiones y 2FA en la cuenta personal, luego abre las stats de comunidad y refuerza los formatos que de verdad producen comentarios y mensajes. Así «actividad» deja de ser una palabra de titular y se convierte en gestión.",
+  ],
+  related: [
+    "raskrutka-gruppy-vk",
+    "idei-storis-vk",
+    "kommentarii-v-pablike-vk",
+    "viralnyy-ohvat-vk",
+    "prosmotry-vk",
+    "seo-vkontakte",
+  ],
+};

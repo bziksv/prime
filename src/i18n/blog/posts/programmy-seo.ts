@@ -257,3 +257,261 @@ export const programmySeoEn: BlogPost = {
     "dashboard",
   ],
 };
+
+/** ES overlay for programmy-seo — same structure as RU JSON / EN. */
+export const programmySeoEs: BlogPost = {
+  slug: "programmy-seo",
+  title: "Software y servicios SEO: un stack por tarea",
+  date: "2020-03-05",
+  category: "SEO",
+  cover: "/images/blog/programmy-seo/cover.webp",
+  excerpt:
+    "Qué tools necesitas para SEO: keywords, analítica, checks de copy, auditoría técnica, enlaces y extensions — un stack por tarea sin culto a un all-in-one ni promesas de ranking instantáneo.",
+  lead: [
+    "El SEO es un set de trabajos, no un botón. Cada trabajo tiene su clase de tool: armar un núcleo de keywords, comportamiento on-site, checks de copy, crawls técnicos, cortes de backlinks, paneles de webmaster.",
+    "Abajo: un stack práctico por área. Nombres de servicios y límites de trial cambian — revisa planes actuales en sus sitios. El análisis de competidores como método es un artículo aparte; aquí el foco es el tooling. El software no sustituye la estrategia: el ranking del núcleo se construye en meses tras la prep.",
+  ],
+  faq: [
+    {
+      q: "¿Necesito un all-in-one de pago desde el día uno?",
+      a: "No. Al empezar suelen bastar Wordstat, Webmaster, Metrika/GA y un crawler gratis. Añade tools de pago cuando toques límites.",
+    },
+    {
+      q: "¿En qué se diferencia Key Collector de Wordstat?",
+      a: "Wordstat es dato de frecuencia de Yandex. Key Collector y pares son una estación de trabajo: export, agrupación, negativas, trabajo en lote.",
+    },
+    {
+      q: "¿Screaming Frog o una auditoría online?",
+      a: "Un crawler de escritorio es práctico para tu sitio y exports. Tools online — para cortes rápidos y la nube. Los equipos a menudo usan ambos.",
+    },
+    {
+      q: "¿Un check de unicidad es «SEO»?",
+      a: "Es higiene de contenido. La unicidad no garantiza ranking en primera página, pero el copy-paste y el stuffing duelen.",
+    },
+    {
+      q: "¿Basta Ahrefs solo?",
+      a: "Fuerte en enlaces y orgánico, pero para un núcleo RU sigues necesitando Wordstat/tools locales y tus propios contadores.",
+    },
+    {
+      q: "¿Se puede mencionar Titlo junto a otros?",
+      a: "Como una tool en la línea — sí, con neutralidad. Sin promo destacada ni claims de «el mejor de todos».",
+    },
+    {
+      q: "¿El software me pone en primera página en una semana?",
+      a: "No. Las tools aceleran la recolección de datos. Prep — semanas; la cuota del núcleo se planifica típicamente a dos a seis meses tras empezar el trabajo.",
+    },
+    {
+      q: "¿Qué instalo en el navegador?",
+      a: "Extensions para meta, redirects y métricas rápidas de página. No sustituyen un crawl completo ni los paneles de webmaster.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo armar el stack",
+      level: 2,
+      paras: [
+        "Lista primero las tareas del proyecto, luego las tools. Si no, compras suscripciones por si acaso. Un servicio rara vez cubre keywords, logs y contenido a la vez.",
+        "Mantén una tabla: tarea → tool → quién paga → límites. Cada trimestre, corta licencias sin uso.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de arranque:",
+          items: [
+            "Wordstat + una hoja",
+            "Yandex Webmaster / Google Search Console",
+            "Metrika y/o GA4",
+            "un crawler (Screaming Frog o peer)",
+            "checks de copy contra el brief",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+      ],
+    },
+    {
+      title: "Keywords y demanda",
+      level: 2,
+      paras: [
+        "Yandex Wordstat es la base de frecuencia para RU. Google Keyword Planner y Trends — demanda Google y estacionalidad. Key Collector / Keys.so / Serpstat / Semrush — recolección en lote, clustering, estimaciones de competencia.",
+        "AnswerThePublic y las sugerencias de búsqueda alimentan FAQ y preguntas de estructura. No persigas generadores de «10.000 keys»: primero intención y landings.",
+      ],
+      lists: [
+        {
+          intro: "Set típico:",
+          items: [
+            "Wordstat",
+            "Key Collector o un peer en la nube",
+            "Serpstat / Keys.so / Semrush — según presupuesto",
+            "Trends + Planner para la pista Google",
+            "una hoja de clusters",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Núcleo semántico",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+        {
+          label: "Stats de Google para ventas",
+          href: "/blog/statistika-google-prodazhi/",
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Una sola fuente de frecuencia en el brief del autor — si no, peleas por números distintos de cada tool.",
+        },
+      ],
+    },
+    {
+      title: "Analítica de comportamiento",
+      level: 2,
+      paras: [
+        "Yandex Metrika y Google Analytics muestran qué hace la gente en el sitio: fuentes, goals, funnels. Sin goals el software no sirve — marca conversiones primero.",
+        "Session Replay y grabaciones son para hipótesis UX, no espionaje diario. Arma dashboards para KPIs — no todos los informes a la vez.",
+      ],
+      lists: [
+        {
+          intro: "El enlace:",
+          items: [
+            "Metrika / GA4",
+            "goals y eventos",
+            "Webmaster / Search Console",
+            "BI/dashboard cuando haga falta",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Goals en Metrika",
+          href: "/es/blog/metrika-tseli/",
+        },
+        {
+          label: "Conversiones GA4",
+          href: "/es/blog/google-analytics-tseli/",
+        },
+        {
+          label: "Dashboard",
+          href: "/es/blog/dashboard/",
+        },
+      ],
+    },
+    {
+      title: "Copy y stuffing",
+      level: 2,
+      paras: [
+        "Checkers de unicidad (Advego, eTXT y pares) y tools como Turgenev ayudan a pillar copy-paste y sobre-optimización. Los números son una guía del brief — no una ley de ranking.",
+        "La tool principal sigue siendo una lectura humana. El software no salva copy vacío o engañoso.",
+      ],
+      lists: [
+        {
+          intro: "Para el equipo editorial:",
+          items: [
+            "unicidad en la tool elegida",
+            "náusea/spamminess dentro del corredor del brief",
+            "leer en voz alta",
+            "alineación con la intención del cluster",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Náusea del texto",
+          href: "/es/blog/toshnota-teksta/",
+        },
+        {
+          label: "Spamminess",
+          href: "/es/blog/zaspamlennost-teksta/",
+        },
+        {
+          label: "Check de unicidad",
+          href: "/es/blog/proverka-unikalnosti/",
+        },
+      ],
+    },
+    {
+      title: "Auditoría técnica y crawl",
+      level: 2,
+      paras: [
+        "Screaming Frog, Netpeak Spider y pares rastrean el sitio: estados, title/H1 duplicados, enlaces rotos. Search Console y Yandex Webmaster — errores de índice y crawl a ojos de la búsqueda.",
+        "Extensions como Redirect Path / Link Redirect Trace ayudan a chequear cadenas al momento. Logs del servidor (cuando hay) muestran cómo camina de verdad el bot.",
+      ],
+      lists: [
+        {
+          intro: "Stack técnico:",
+          items: [
+            "crawler",
+            "Webmaster + GSC",
+            "checks de redirect",
+            "análisis de logs cuando haga falta",
+            "recrawl tras arreglos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Screaming Frog",
+          href: "/es/blog/screaming-frog/",
+        },
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+        {
+          label: "Google Search Console",
+          href: "/es/blog/google-search-console/",
+        },
+      ],
+    },
+    {
+      title: "Enlaces, visibilidad, extensions",
+      level: 2,
+      paras: [
+        "Ahrefs, Serpstat, MegaIndex, tools tipo Linkpad/PR-CY — cortes de backlinks y visibilidad. Úsalos para auditorías de perfil e ideas, no spam masivo. Rankings — Topvisor y pares con calendario.",
+        "Barras del navegador (RDS bar y pares) aceleran el ojazo a SERPs, pero fácilmente crían un culto al «IQS en un icono». Decide desde tareas e informes completos.",
+      ],
+      lists: [
+        {
+          intro: "Pista externa:",
+          items: [
+            "una tool de backlinks",
+            "seguimiento de ranks",
+            "una extension para meta/redirects",
+            "una hoja de cambios de visibilidad",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Perfil de backlinks",
+          href: "/es/blog/ssylochnyy-profil/",
+        },
+        {
+          label: "Análisis de competidores",
+          href: "/es/blog/analiz-konkurentov/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Las suscripciones aceleran el trabajo. La cuota del núcleo en primera página es un horizonte de meses tras empezar el trabajo — no un efecto de instalar un plugin. Prep no es ranking; típicamente dos a seis meses tras el arranque.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "semanticheskoe-yadro",
+    "screaming-frog",
+    "tehnicheskiy-seo-audit",
+    "analiz-konkurentov",
+    "samostoyatelnoe-seo",
+    "dashboard",
+  ],
+};

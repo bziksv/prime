@@ -696,11 +696,378 @@ const webEn: WebContent = {
   footerTagline: "Websites · landing · store",
 };
 
-const byLocale: Record<Locale, WebContent> = {
+const webEs: WebContent = {
+  path: "/es/web/",
+  metaTitle: "Sitios web — PRIME",
+  metaDescription:
+    "Sitios web que convierten: landing pages, sitios corporativos, catálogos y tiendas online. WordPress, Next.js, Astro, Laravel, Vue, Node.js — más rápido y económico que un desarrollo a medida desde cero.",
+  serviceName: "Sitios web",
+  serviceType: "Desarrollo web",
+  breadcrumbHome: "Inicio",
+  breadcrumbCurrent: "Sitios web",
+  menuLabel: "Menú",
+  ctaTop: "Hablemos",
+  heroWordmark: "PRIME",
+  heroRotateWords: "generan leads|sorprenden|convierten|se recuerdan",
+  heroRotateInitial: "generan leads",
+  heroTitleLine: "Sitios que",
+  heroLead:
+    "Movimiento cuando aporta algo, estructura cuando no. Landing pages, sitios corporativos, catálogos y tiendas — con bloques probados o código a medida según el proyecto.",
+  heroFlankStrictLabel: "Estilo corporativo",
+  heroFlankStrictTitle: "Clásico<br />y sobrio",
+  heroFlankStrictText:
+    "Un sitio corporativo sin ruido visual: tipografía cuidada, cuadrícula clara, confianza ante todo.",
+  heroFlankConceptLabel: "Con movimiento",
+  heroFlankConceptTitle: "Impacto<br />visual",
+  heroFlankConceptText:
+    "Parallax, efectos en vivo y 3D — cuando el sitio tiene que quedarse en la memoria.",
+  heroCtaPrimary: "Cuéntanos tu proyecto",
+  heroCtaSecondary: "Ver estilos",
+  heroScrollLabel: "scroll down",
+  proof: {
+    eyebrow: "En cifras",
+    title: "Esto es lo que realmente obtienes",
+    lead: "Nada de “sitio llave en mano” genérico: ahorro real de tiempo, formatos claros y una tecnología que encaja con el proyecto.",
+    hero: {
+      label: "Base de desarrollo",
+      value: 60,
+      suffix: "%",
+      prefix: "−",
+      title: "menos horas de programador",
+      text: "sobre una base ya probada: cuadrícula, diseño responsive, formularios y bloques ya están listos — pagas por el ajuste de marca, no por meses reinventando la rueda.",
+      meterBase: 60,
+      meterTune: 40,
+      meterBaseLabel: "base probada",
+      meterTuneLabel: "ajuste de marca",
+      steps: [
+        { n: "01", title: "Base", text: "Cuadrícula, responsive, formularios — ya incluidos" },
+        { n: "02", title: "Marca", text: "Colores, textos y visuales ajustados a ti" },
+        { n: "03", title: "Lanzamiento", text: "1,5–3 meses en vez de 5–6 desde cero" },
+      ],
+    },
+    items: [
+      {
+        label: "Formatos",
+        value: 4,
+        unit: "",
+        title: "tipos de sitio",
+        text: "Landing, sitio básico, corporativo o tienda — según el proyecto, no una plantilla única para todos.",
+        chips: [
+          {
+            label: "Landing",
+            what: "Una página para una oferta o campaña",
+            how: "Construida sobre multilanding: bloques de oferta, prueba social, formulario. Lista para publicidad en 1,5–3 meses.",
+          },
+          {
+            label: "Sitio básico",
+            what: "Presencia compacta de la empresa en internet",
+            how: "Servicios, quiénes somos, contacto, formulario. CMS ligero — publicas rápido y recibes consultas.",
+          },
+          {
+            label: "Corporativo",
+            what: "Servicios y catálogo sin cuenta de comprador",
+            how: "Estructura lista para SEO, secciones, formularios. Pedidos por teléfono o formulario. Preparado para Google Search.",
+          },
+          {
+            label: "Tienda",
+            what: "Catálogo, carrito, checkout, inventario",
+            how: "WordPress / Laravel / Bitrix + sincronización opcional con tu ERP. Después del lanzamiento — SEO y soporte.",
+          },
+        ],
+      },
+      {
+        label: "Tecnología",
+        value: 10,
+        unit: "",
+        title: "plataformas",
+        text: "WordPress, Next.js, Astro, Laravel, Vue, Node.js — además de Bitrix y Webasyst cuando el proyecto lo requiere. Elegimos lo que encaja con el contenido y la lógica, en cualquier mercado.",
+        chips: [
+          "WordPress",
+          "Next.js",
+          "Astro",
+          "Laravel",
+          "Vue",
+          "Node.js",
+          "Bitrix",
+          "Webasyst",
+          "Multilanding",
+          "Sincronización ERP",
+        ],
+      },
+      {
+        label: "Plazo",
+        value: null,
+        display: "1,5–3",
+        unit: "meses",
+        title: "en vez de 5–6 meses",
+        text: "La mayoría de los lanzamientos se completan en uno y medio a tres meses: la base ya está lista; quedan la marca, el contenido y las particularidades del negocio — no medio año desde cero.",
+        chips: ["Arranque más rápido", "Nada desde cero"],
+      },
+    ],
+  },
+  spectrum: {
+    title: "Del corporativo sobrio al sitio con movimiento",
+    lead: "El mismo sitio, dos estilos. Arrastra el divisor: a la izquierda, corporativo estático; a la derecha, parallax y efectos que siguen el cursor.",
+    strict: {
+      label: "Sobrio",
+      title: "Calma corporativa",
+      text: "Cuadrícula, tipografía, cero animación. Para B2B, sector legal e industrial — cuando la claridad y la confianza pesan más que el espectáculo.",
+    },
+    live: {
+      label: "Con movimiento",
+      title: "Parallax e interacción",
+      text: "Fondos en capas, interfaz flotante, gráficos que crecen. Para productos que necesitan energía — mueve el cursor.",
+    },
+    strictDemo: {
+      navAbout: "Nosotros",
+      navServices: "Servicios",
+      navContacts: "Contacto",
+      kicker: "Sitio corporativo",
+      headline: "Suministro industrial<br />sin ruido de más",
+      lead: "Estructura clara. Tipografía sobria. Sin animaciones.",
+      cta: "Hablemos",
+      steps: ["Auditoría", "Suministro", "Servicio"],
+    },
+    liveDemo: {
+      kicker: "Bloque en vivo",
+      title: "Mueve el cursor",
+      statSuffix: "leads / mes",
+      swapInitial: [
+        { value: "+46%", label: "más leads" },
+        { value: "P1", label: "primera página" },
+      ],
+    },
+  },
+  nosTitle: "Para qué reconstruir lo que el mercado ya resolvió",
+  nosLead:
+    "No perdemos meses en diseño desde cero ni en maquetado manual — partimos de una base probada y la adaptamos a tu marca.",
+  nosMarkPrefix: "sin",
+  nos: [
+    {
+      title: "Sin diseño desde cero",
+      text: "Partimos de un sistema visual ya probado y lo adaptamos a tu marca — no meses rediseñando cada pantalla.",
+    },
+    {
+      title: "Sin maquetado manual interminable",
+      text: "Los bloques son responsive de fábrica y funcionan bien en móvil, tablet y escritorio.",
+    },
+    {
+      title: "Sin backend a medida sobrecargado",
+      text: "El esfuerzo se enfoca en el contenido y en poner a vender el sitio, no en la fontanería técnica.",
+    },
+  ],
+  speed: {
+    title: "Lanza más rápido",
+    lead: "Construir sobre una base probada recorta cerca de un 60% el tiempo de programador en el proyecto.",
+    rest: "El otro 40% son los matices: pagos, reglas del negocio, ajustes tras el lanzamiento. Un buen desarrollador resuelve eso en horas, no en semanas.",
+    statValue: "−60%",
+    statLabel: "tiempo de desarrollo sobre una base probada",
+    chips: ["−60%", "más rápido", "nada desde cero"],
+    points: [
+      { title: "Menor costo", text: "Pagas horas enfocadas — no semanas reinventando lo ya resuelto." },
+      { title: "Al mercado antes", text: "Te saltas el desarrollo desde cero y lanzas antes." },
+      { title: "Presupuesto para crecer", text: "El ahorro se destina a tráfico para el sitio nuevo." },
+    ],
+  },
+  brandTitle: "Tu marca, no una plantilla genérica",
+  brandLead:
+    "Sistema de componentes: encabezados, tarjetas, formularios, pies de página. De lo sobrio a lo dinámico — según el objetivo del negocio.",
+  brandWithBookTitle: "Ya tienes manual de marca",
+  brandWithBook:
+    "Ajustamos colores, tipografía y lenguaje visual a tu manual de marca. La base se convierte en un sitio que realmente se ve como tú.",
+  brandWithoutTitle: "Todavía no tienes materiales",
+  brandWithout:
+    "¿Aún no tienes un kit de marca? Elegimos una paleta y un sistema tipográfico que encajen con tu nicho y tus objetivos.",
+  platformsTitle: "Plataformas que se pueden seguir editando",
+  platformsLead:
+    "WordPress, Next.js, Astro, Laravel, Vue, Node.js — además de Bitrix y Webasyst cuando el proyecto lo pide. Tecnología según la tarea, en cualquier país.",
+  platforms: [
+    {
+      name: "WordPress",
+      text: "Blogs, landings y sitios corporativos: panel conocido, temas y plugins que encajan con el proyecto",
+    },
+    {
+      name: "Next.js",
+      text: "Sitios en React con SSR/SSG: interfaz avanzada, cuentas de usuario y productos muy dinámicos",
+    },
+    {
+      name: "Astro",
+      text: "Sitios de marketing rápidos. Este mismo sitio de PRIME corre sobre Astro",
+    },
+    {
+      name: "Laravel",
+      text: "Lógica de servidor a medida, APIs, cuentas de usuario e integraciones cuando una plantilla se queda corta",
+    },
+    {
+      name: "Vue",
+      text: "Paneles e interfaces interactivas: formularios, tablas, tiempo real — sin un monolito de cliente pesado",
+    },
+    {
+      name: "Node.js",
+      text: "Servicios, scrapers y APIs con Express: tareas en segundo plano, integraciones y paneles de administración",
+    },
+    {
+      name: "Bitrix",
+      text: "Sitios corporativos y tiendas con un panel flexible cuando el proyecto lo requiere",
+    },
+    {
+      name: "Webasyst",
+      text: "E-commerce con catálogo, carrito y checkout",
+    },
+    {
+      name: "Multilanding",
+      text: "Publicidad y arranque rápido: una sola base — distintas ofertas y landings por campaña",
+    },
+    {
+      name: "Sincronización ERP",
+      text: "Sincronización opcional de catálogo, precios y stock con tu ERP o almacén — el sitio sigue activo, no una lista de precios manual",
+    },
+  ],
+  railHint: "Recorre la tecnología",
+  railPrev: "Atrás",
+  railNext: "Siguiente",
+  cms: [
+    {
+      title: "Publica sin depender de un programador",
+      text: "Textos, fotos y formularios viven en un panel claro. Los bloques principales vienen con la base — no hace falta ser técnico.",
+    },
+    {
+      title: "Amplía sin rehacer todo",
+      text: "Nuevas funciones, conexión contable, pagos online — más rápido y barato sobre una base probada que con una reconstrucción a medida.",
+    },
+    {
+      title: "Soporte cuando lo necesitas",
+      text: "Muchas plataformas incluyen su propio soporte — las dudas pequeñas se resuelven sin esperar a un programador.",
+    },
+  ],
+  device: {
+    eyebrow: "En el móvil",
+    title: "Lo que tu cliente realmente ve",
+    lead: "Nada de tarjetas abstractas — capturas reales de proyectos. Recorre los formatos: landing, sitio básico, corporativo, tienda.",
+    tabsAria: "Formatos de sitio",
+    dotsAria: "Formatos en móvil",
+    floats: [
+      { value: "desde $675", label: "landing inicial" },
+      { value: "1,5–3 meses", label: "en vez de 5–6" },
+      { value: "mobile-first", label: "listo para móvil" },
+    ],
+    orbit: ["Landing", "Ficha", "Corporativo", "Tienda", "Laravel", "SEO", "ERP", "Checkout"],
+  },
+  products: [
+    {
+      id: "landing",
+      title: "Landing page",
+      price: "$675–$1,005",
+      lead: "Una página, una oferta: producto nuevo, promoción o campaña de pago. Construida sobre multilanding.",
+      note: "Lanzamiento rápido para publicidad. No pensada como tu base de SEO a largo plazo.",
+      tags: ["multilanding", "publicidad", "arranque rápido"],
+      screen: "/images/web-phone/landing.webp?v=2",
+      badge: "Promoción / oferta",
+      discussCta: "Hablar de esta landing",
+    },
+    {
+      id: "card",
+      title: "Sitio básico",
+      price: "$1,005–$1,335",
+      lead: "Una presencia sencilla de la empresa cuando necesitas estar online y recibir consultas.",
+      note: "Compacto y claro — sin adornos de más.",
+      tags: ["contacto", "servicios", "confianza"],
+      screen: "/images/web-phone/card.webp?v=5",
+      badge: "Contacto y servicios",
+      discussCta: "Hablar de un sitio básico",
+    },
+    {
+      id: "corp",
+      title: "Sitio corporativo",
+      price: "$1,650–$2,505",
+      lead: "Un escaparate de servicios y catálogo sin cuenta de comprador. Pedidos por teléfono, formulario o visita.",
+      note: "Estructurado para SEO cuando estés listo para crecer en Google.",
+      tags: ["catálogo", "escaparate", "listo para SEO"],
+      screen: "/images/web-phone/corp.webp?v=2",
+      badge: "Escaparate B2B",
+      discussCta: "Hablar de un sitio corporativo",
+    },
+    {
+      id: "shop",
+      title: "Tienda online",
+      price: "$4,170–$5,835",
+      lead: "Catálogo completo, sincronización opcional con almacén, pedidos y pago online.",
+      note: "Después del lanzamiento — crecimiento en buscadores y soporte continuo.",
+      tags: ["ERP / almacén", "checkout", "catálogo"],
+      screen: "/images/web-phone/shop.webp?v=2",
+      badge: "Catálogo y carrito",
+      discussCta: "Hablar de una tienda online",
+    },
+  ],
+  showCases: false,
+  casesTitle: "Trabajos web",
+  casesLead: "De landings a tiendas — proyectos reales, no maquetas.",
+  casesAll: "Ver todos los trabajos web",
+  faqTitle: "Preguntas frecuentes",
+  faqLead: "Bases, plazos, formatos, tecnología y demos antes de empezar.",
+  faq: [
+    {
+      q: "¿Esto es solo una plantilla genérica con tu logo pegado encima?",
+      a: "No. Partimos de una base probada (cuadrícula, responsive, formularios) y la adaptamos a tu marca, contenido y lógica de negocio. Ahorras en el trabajo repetitivo — no en tus particularidades.",
+    },
+    {
+      q: "¿Cuánto tarda el lanzamiento?",
+      a: "Normalmente entre 1,5 y 3 meses en vez de 5–6 desde cero: la base ya está construida; quedan la marca, el contenido y los detalles (pagos, sincronización con ERP, integraciones).",
+    },
+    {
+      q: "¿Landing o sitio corporativo?",
+      a: "Landing — una oferta y publicidad. Sitio básico — la cara compacta de la empresa. Corporativo — escaparate de servicios/catálogo sin cuenta de comprador, listo para SEO. Tienda — catálogo, carrito, checkout y sincronización opcional con almacén.",
+    },
+    {
+      q: "¿Sobre qué tecnología trabajan?",
+      a: "WordPress, Next.js, Astro, Laravel, Vue, Node.js — además de Bitrix y Webasyst cuando hace falta. Elegimos la tecnología según el proyecto y el soporte a largo plazo.",
+    },
+    {
+      q: "¿Podemos ver una demo antes de comprometernos?",
+      a: "Sí. Revisamos la dirección y mostramos una demo del formato antes del desarrollo completo — así el estilo y las expectativas quedan alineados.",
+    },
+  ],
+  ctaTitle: "Hablemos de tu proyecto web",
+  ctaLead: "Cuéntanos el objetivo — te recomendamos un formato, mostramos una demo y esbozamos un plazo.",
+  ctaPoints: [
+    "Demo del formato antes de empezar",
+    "Estilos: de lo sobrio al movimiento",
+    "Landing, sitio básico, corporativo o tienda",
+    "Plazo — 1,5–3 meses en vez de 5–6 desde cero",
+  ],
+  formName: "Nombre",
+  formPhone: "Teléfono",
+  formSite: "Sitio web o red social (si tienes)",
+  formType: "¿Qué necesitas?",
+  formTypeOptions: [
+    "Landing page",
+    "Sitio básico",
+    "Sitio corporativo",
+    "Tienda online",
+    "Mejorar un sitio existente",
+  ],
+  formStyle: "Estilo del sitio",
+  formStyleOptions: [
+    "Sobrio / corporativo",
+    "Con movimiento y efectos",
+    "Aún no lo tengo claro",
+  ],
+  formMessage: "Nicho y objetivo — en pocas palabras",
+  formAgreeBefore: "Acepto el tratamiento de datos personales conforme a nuestra",
+  formAgreePolicy: "política de privacidad",
+  formSubmit: "Enviar",
+  formSuccess: "Gracias, lo recibimos. Nos pondremos en contacto sobre tu proyecto.",
+  formSource: "es-web",
+  footerBrand: "PRIME",
+  footerTagline: "Sitios web · landing · tienda",
+};
+
+const byLocale: Partial<Record<Locale, WebContent>> = {
   ru: webRu,
   en: webEn,
+  es: webEs,
 };
 
 export function getWebContent(locale: Locale): WebContent {
-  return byLocale[locale];
+  return byLocale[locale] ?? webRu;
 }

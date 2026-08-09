@@ -166,3 +166,170 @@ export const tipyKampaniyGoogleAdsEn: BlogPost = {
     "planirovshchik-rezultatov-google",
   ],
 };
+
+/** ES overlay for tipy-kampaniy-google-ads — same structure as RU JSON. */
+export const tipyKampaniyGoogleAdsEs: BlogPost = {
+  slug: "tipy-kampaniy-google-ads",
+  title: "Tipos de campaña en Google Ads: qué formato encaja con cada trabajo",
+  date: "2019-12-19",
+  category: "Paid search",
+  cover: "/images/blog/tipy-kampaniy-google-ads/cover.webp",
+  excerpt:
+    "Search, Display, YouTube, Shopping, remarketing, Performance Max, audiencias — cómo elegir un tipo de campaña de Google Ads por rol, no por un catálogo de botones de 2019.",
+  lead: [
+    "Un tipo de campaña en Google Ads no es solo un radio del wizard. Ata superficie, formato de anuncio y la señal que el sistema optimiza. La gente lo mezcla con la estrategia de puja: la estrategia responde «cómo pagas», el tipo responde «dónde y en qué forma muestras».",
+    "Abajo hay un mapa de formatos: Search, display, vídeo, shopping, remarketing y campañas automatizadas / mixtas. Las etiquetas se movieron (Smart Shopping → Performance Max y más) — confirma la lista viva en Ads y en Google Help.",
+  ],
+  faq: [
+    {
+      q: "¿Tipo de campaña es lo mismo que estrategia de puja?",
+      a: "No. El tipo fija canal y formato. La estrategia (clics, CPA, ROAS) fija cómo se asignan las pujas dentro de la campaña.",
+    },
+    {
+      q: "¿Por dónde empieza un principiante?",
+      a: "Search para demanda caliente, o Shopping si el feed de producto está listo. Display y vídeo esperan hasta que sepas su trabajo en el funnel.",
+    },
+    {
+      q: "¿Hace falta Search de marca si el orgánico ya rankea?",
+      a: "A menudo sí — bloquea competidores en tu nombre y captura demanda lista. Mídelo aparte del resto del set de keywords.",
+    },
+    {
+      q: "¿Pujar por nombres de competidores?",
+      a: "Se puede, pero los clics cuestan más y la calidad es irregular. Precia el CPA y el riesgo legal/reputacional en su propia línea.",
+    },
+    {
+      q: "¿Qué es Performance Max?",
+      a: "Una campaña muy automatizada en varias superficies de Google cuando aportas assets y objetivos. Creció de ideas de «smart shopping» pero corre más amplio — mira la Help actual para detalles.",
+    },
+    {
+      q: "¿El remarketing encuentra clientes nuevos?",
+      a: "Sobre todo trae de vuelta a quien ya te conoce. Usuarios nuevos necesitan formatos fríos y demanda real.",
+    },
+    {
+      q: "¿Dónde se cubren las estrategias de puja?",
+      a: "En el artículo aparte de estrategias automatizadas de Google Ads.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué los tipos van antes del lanzamiento",
+      level: 2,
+      paras: [
+        "Google Ads cubre Search, sitios partner (Display), YouTube y unidades shopping. Suele pagarse por clic u otro outcome atado al modelo de campaña — no por un slot permanente.",
+        "La subasta pondera puja y calidad/relevancia. Un clic caro en un anuncio flojo sigue perdiendo frente a un competidor más relevante. El tipo de campaña no cancela eso.",
+        "Elegir un tipo es elegir un trabajo del funnel: capturar demanda, reach, win-back o catálogo. Sin trabajo, el presupuesto se filtra por todas las superficies a la vez.",
+      ],
+      links: [
+        {
+          label: "Estrategias de Google Ads",
+          href: "/es/blog/strategii-google-ads/",
+        },
+      ],
+    },
+    {
+      title: "Search: queries de marca, genéricas y de competidor",
+      level: 2,
+      paras: [
+        "Los ads de Search son texto (más extensions) encima o debajo de los resultados; las cards shopping pueden ir cerca cuando hay feed. El usuario ya escribió una query — es demanda caliente.",
+        "Las queries de marca (gente que te busca) suelen ser más baratas y convertir mejor. Términos genéricos y de volumen medio cuestan más y necesitan una USP afilada. Las queries de competidor son una economía y una ética aparte — no las tires a la campaña de marca.",
+        "Dynamic Search Ads se apoyan en el contenido del sitio: estructura de página floja significa headlines auto flojos.",
+      ],
+      lists: [
+        {
+          intro: "Hábitos de Search que pagan:",
+          items: [
+            "marca separada del resto del set",
+            "negatives no negociables",
+            "extensions suben visibilidad",
+            "landing alineado al intent de la query",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Keywords de Google Ads",
+          href: "/es/blog/klyuchi-google-ads/",
+        },
+      ],
+    },
+    {
+      title: "Display, YouTube y shopping",
+      level: 2,
+      paras: [
+        "La Display Network coloca banners y ads responsive en sitios partner por interés, tema, placement y audiencia. Los KPIs difieren de Search — no esperes un lead del primer banner como de una query comercial.",
+        "YouTube abarca TrueView, Shorts y otros formatos de vídeo (el menú sigue cambiando): views, tráfico, leads. Los inserts no skippables no son la única ni siempre la mejor opción — encaja el tipo al objetivo en la UI actual.",
+        "Los shopping ads muestran una card con precio y foto desde Merchant Center. Trata la demanda shopping branded y non-branded como economías distintas: CPC y margen no coincidirán.",
+      ],
+      links: [
+        {
+          label: "Ads display responsive",
+          href: "/es/blog/adaptivnye-mediynye-obyavleniya/",
+        },
+        {
+          label: "Google Merchant Center",
+          href: "/es/blog/google-merchant-center/",
+        },
+        {
+          label: "Videoreclama en YouTube",
+          href: "/es/blog/videoreklama-youtube/",
+        },
+      ],
+    },
+    {
+      title: "Remarketing, audiencias y campañas automatizadas",
+      level: 2,
+      paras: [
+        "El remarketing trae de vuelta visitantes del sitio o app y listas de clientes. Audiencias similares (expansión tipo lookalike) crecen el reach desde señales calientes — la calidad sigue a la seed list.",
+        "Display basado en intent y placements elegidos a mano intercambian control: learning más amplio vs una lista manual de sitios.",
+        "«Smart Shopping» en guías viejas es el ancestro de campañas auto más amplias como Performance Max: el sistema asigna impresiones dados tus assets y objetivos. Setup fácil ≠ ROI garantizado. Sigues necesitando feed o creatividades, objetivos limpios y un check de que Search no se canibaliza.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          text: "Las listas de clientes y Customer Match siguen reglas de consentimiento y policies de Google — no subas bases de datos a la ligera.",
+        },
+      ],
+    },
+    {
+      title: "Cómo elegir sin adelgazar el presupuesto",
+      level: 2,
+      paras: [
+        "Primero objetivo y KPI, luego uno o dos tipos de campaña para un test. Un media plan y Performance Planner ayudan a dimensionar el gasto — tú sigues eligiendo el tipo.",
+        "No pegues la checklist ajena de «14 tipos» ni una guía estilo Spotify vieja. La UI del producto avanzó. Refresca el mapa cada temporada desde Ads Help.",
+      ],
+      lists: [
+        {
+          intro: "Ten en cuenta:",
+          items: [
+            "tipo ≠ estrategia de puja",
+            "Search = demanda; Display/vídeo = KPIs distintos",
+            "marca y competidores = economías separadas",
+            "PMax y formatos smart necesitan data y supervisión",
+            "los nombres vivos viven solo en la cuenta",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Google Performance Planner",
+          href: "/es/blog/planirovshchik-rezultatov-google/",
+        },
+        {
+          label: "Media plan",
+          href: "/es/blog/mediaplan/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Nombra el trabajo (Search / shopping / win-back / reach), corre un test estrecho con objetivos y luego suma superficies — más claro que encender «todo Google de golpe».",
+  ],
+  related: [
+    "strategii-google-ads",
+    "klyuchi-google-ads",
+    "prognoz-trafika-google-ads",
+    "adaptivnye-mediynye-obyavleniya",
+    "google-merchant-center",
+    "planirovshchik-rezultatov-google",
+  ],
+};

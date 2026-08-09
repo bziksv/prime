@@ -134,3 +134,138 @@ export const kontentINativnayaEn: BlogPost = {
     "viralnyy-kontent",
   ],
 };
+
+/** ES overlay for kontent-i-nativnaya — same structure as RU JSON / EN. */
+export const kontentINativnayaEs: BlogPost = {
+  slug: "kontent-i-nativnaya",
+  title: "Content marketing vs publicidad nativa: la diferencia real",
+  date: "2020-09-18",
+  category: "Content marketing",
+  cover: "/images/blog/kontent-i-nativnaya/cover.webp",
+  excerpt:
+    "En qué se diferencia el content marketing de los ads nativos: canales propios y un embudo largo vs integraciones de pago en el entorno de otro — y cómo combinarlos sin mezclar términos.",
+  lead: [
+    "Ambos formatos entregan valor y no parecen un banner que grita — por eso la gente a menudo los confunde. En la práctica tienen un «dueño» distinto de la superficie, modelo de pago y horizonte temporal.",
+    "Abajo: definiciones de trabajo y cuándo usar cada uno. Los errores de integración viven en un artículo aparte de ads nativos; planificación y omnichannel — en guías relacionadas. No copiamos cifras de CPC e impresiones de Taboola/Outbrain de roundups de 2020: revisa cuentas actuales y tu analítica.",
+  ],
+  faq: [
+    {
+      q: "¿Son lo mismo?",
+      a: "No. Content marketing es un sistema de materiales útiles en tus canales (y los vinculados a largo plazo). Native es una pieza de pago en el formato de la plataforma de otro.",
+    },
+    {
+      q: "¿«Publicidad natural» es lo mismo que native?",
+      a: "En muchos textos sí: lo mismo que publicidad nativa. No lo confundas con SEO orgánico no pagado.",
+    },
+    {
+      q: "¿Puedo saltarme la etiqueta «anuncio»?",
+      a: "No. Native sigue siendo publicidad: el etiquetado claro lo exige la ley. «Natural» va de tono y utilidad — no de disfraz.",
+    },
+    {
+      q: "¿Qué elijo al inicio?",
+      a: "Primero tu propio contenido y oferta (sitio, blog, email). Añade native cuando tengas a dónde enviar gente y algo que mostrar.",
+    },
+    {
+      q: "¿El native mata la ceguera al banner?",
+      a: "En parte: el formato está más cerca de lo editorial. Una mala integración sigue molestando — ver errores típicos.",
+    },
+    {
+      q: "¿El content marketing siempre es gratis?",
+      a: "No. Escribir y promover cuestan tiempo y dinero. «Gratis» solo significa «no pagar por placement en el sitio de otro».",
+    },
+    {
+      q: "¿Hacen falta redes como Taboola?",
+      a: "Opcional para escalar unidades de recomendación. No es obligatorio si trabajas con media y creators en directo.",
+    },
+    {
+      q: "¿Cómo mido cada uno?",
+      a: "Contenido — engagement, leads, conversiones asistidas en el horizonte de la campaña. Native — también coste de placement/clic y calidad del tráfico al landing.",
+    },
+  ],
+  sections: [
+    {
+      title: "Definiciones cortas",
+      level: 2,
+      paras: [
+        "La publicidad nativa es una pieza comercial con forma del contenido de la plataforma: artículo, post, unidad de recomendación. La superficie es de otro o de un partner; el placement suele ser de pago («pay to play»).",
+        "El content marketing es la práctica continua de assets útiles de marca: artículos, guías, vídeo, newsletters, white papers. El objetivo es más amplio que un clic: confianza, expertise, soporte del embudo.",
+      ],
+      lists: [
+        {
+          intro: "Similitudes:",
+          items: [
+            "el valor para el lector gana a un grito de «compra»",
+            "el formato está más cerca de lo editorial que de un banner",
+            "ambos pueden enviar gente al sitio y reforzar la marca",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Diferencias principales",
+      level: 2,
+      paras: [
+        "Superficie: el contenido vive contigo (blog, YouTube, email) y en tus canales sociales; el native vive en media/creator/red de recomendación.",
+        "Horizonte: el content marketing es un sistema de meses; el native suele impulsar interés y tráfico ahora (aunque una buena pieza puede vivir más).",
+        "Control: editas tu propio contenido; en native el tono y las reglas de la plataforma limitan el creative — y exigen etiquetado.",
+        "Pago: native — presupuesto por placement/impresiones; contenido — salario/agencia/tiempo más promoción opcional.",
+      ],
+      notes: [
+        {
+          title: "No lo confundas con SEO",
+          text: "Los resultados orgánicos de búsqueda no son lo mismo que ads nativos. SEO y contenido a menudo trabajan juntos, pero es una pista aparte.",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "Errores de publicidad nativa",
+          href: "/blog/nativnaya-reklama/",
+        },
+        {
+          label: "Plan de contenidos",
+          href: "/es/blog/kontent-plan/",
+        },
+      ],
+    },
+    {
+      title: "Cuándo usar cada uno",
+      level: 2,
+      paras: [
+        "Native encaja cuando quieres captar audiencia en otras plataformas y llevarla a tu material u oferta — una vez el landing y la oferta están listos.",
+        "El content marketing hace falta para que haya a dónde enviar gente y con qué retenerla: sin assets propios, el native lleva al vacío.",
+        "En combinación: native → tu pieza larga/caso → suscripción/lead. Los términos dejan de ser sinónimos y empiezan a funcionar como roles.",
+      ],
+      links: [
+        {
+          label: "Content marketing omnichannel",
+          href: "/blog/omnikanalnyy-kontent-marketing/",
+        },
+        {
+          label: "Analítica de content marketing",
+          href: "/blog/analitika-kontent-marketinga/",
+        },
+      ],
+    },
+    {
+      title: "Qué recordar",
+      level: 2,
+      paras: [
+        "Native es un formato de pago en el entorno de otro; content marketing es tu propio sistema de utilidad.",
+        "El etiquetado de ads es obligatorio.",
+        "Combínalos: audiencia ajena + tu asset para la conversión.",
+      ],
+    },
+  ],
+  closing: [
+    "Antes de un brief pregunta: «¿Es nuestro asset en nuestra superficie, o una integración de pago?» — esa respuesta fija KPI, presupuesto y tono.",
+  ],
+  related: [
+    "kontent-plan",
+    "gostevoy-post",
+    "kopirayting",
+    "prodayushchie-teksty",
+    "nativnaya-reklama",
+    "omnikanalnyy-kontent-marketing",
+  ],
+};

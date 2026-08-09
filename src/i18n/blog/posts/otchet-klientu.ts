@@ -124,3 +124,128 @@ export const otchetKlientuEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for otchet-klientu — same structure as RU JSON / EN. */
+export const otchetKlientuEs: BlogPost = {
+  slug: "otchet-klientu",
+  title: "Informe de campaña publicitaria al cliente: 9 reglas",
+  date: "2021-07-12",
+  category: "Digital marketing",
+  cover: "/images/blog/otchet-klientu/cover.webp",
+  excerpt:
+    "Cómo entregar un informe de ads para que el cliente entienda el resultado: primero goals y ROI, KPIs compartidos, un resumen en dashboard, glosario y detalles en anexo — sin jerga de «elfos».",
+  lead: [
+    "Un informe de campaña no son solo números de la cuenta de ads — es una forma de acordar la foto: qué funcionó, qué no y qué hacer después. Una mala presentación rompe la confianza aunque los resultados sean decentes.",
+    "Abajo: nueve reglas para el entendimiento mutuo — de transparencia y estructura a glosario y métricas de negocio «no-ads». Las tools de la cuenta cambian; la lógica del informe gana a la marca de BI.",
+  ],
+  faq: [
+    {
+      q: "¿Empiezas por el CTR o por el dinero?",
+      a: "Por goals de negocio y resultados en dinero (leads, ventas, ROI/ROAS — lo que fijó el brief). CTR y clics explican; no sustituyen.",
+    },
+    {
+      q: "¿Hace falta un dashboard?",
+      a: "Un resumen de una pantalla — sí: vs el periodo anterior y una respuesta a «¿vamos al goal?». Un dashboard completo — por acuerdo; ver el artículo aparte.",
+    },
+    {
+      q: "¿Con qué frecuencia informar?",
+      a: "Como diga el contrato: semanal / quincenal / mensual. Lo que importa es la misma estructura y las mismas definiciones de métrica de informe a informe.",
+    },
+    {
+      q: "¿Y si los resultados son flojos?",
+      a: "Muestra los hechos, hipótesis de causa y un plan de arreglo. Ocultar un fallo es peor que un desglose honesto.",
+    },
+    {
+      q: "¿Los ejemplos tienen que ser de Google Ads?",
+      a: "No. Las mismas reglas para Yandex Direct y otras cuentas: resumen → bloques → detalles; llamadas y offline como línea aparte si la plataforma no las ve.",
+    },
+  ],
+  sections: [
+    {
+      title: "1–3. Honestidad, estructura y goals",
+      level: 2,
+      paras: [
+        "Transparencia: los números no «pintan» el éxito. Si la campaña baja — di por qué y qué estás cambiando. Consistencia: los mismos KPIs cada periodo de informe.",
+        "Lo principal primero, luego los detalles: resumen → bloques de stats → desgloses de keywords/creatives. Empieza por goals del brief e impacto en dinero, luego impresiones, clics, CTR, CPA.",
+      ],
+      lists: [
+        {
+          intro: "En la cabecera del informe:",
+          items: [
+            "periodo y canales",
+            "goal (leads / ventas / tráfico)",
+            "real vs plan",
+            "1–3 takeaways principales",
+            "qué hacemos el próximo periodo",
+          ],
+        },
+      ],
+    },
+    {
+      title: "4–5. Resumen y el lenguaje del cliente",
+      level: 2,
+      paras: [
+        "Un dashboard o un resumen de una página ayuda al cliente a informar «hacia arriba». Responde: ¿la publicidad ayuda al goal, cuál es la estrategia, cómo va el media plan, qué cambió vs el último informe?",
+        "Explica términos en una nota al pie o un glosario corto. No sobreexpliques lo obvio, pero no dejes ROAS/atribución sin definir.",
+      ],
+      links: [
+        {
+          label: "Dashboard de negocio",
+          href: "/es/blog/dashboard/",
+        },
+      ],
+    },
+    {
+      title: "6–7. KPIs por segmento y completitud de datos",
+      level: 2,
+      paras: [
+        "Separa tipos de interacción: search / networks / retargeting, nuevos / recurrentes, etapas del funnel. La atribución afecta de «quién» es la conversión — nombra el modelo.",
+        "Fusiona datos de todas las cuentas en una sola tabla de hechos. Chequea exports al azar por anomalías. Llamadas, mensajeros, ventas offline — un bloque aparte si la plataforma no los cuenta.",
+      ],
+      lists: [
+        {
+          intro: "Clasificación útil de KPIs:",
+          items: [
+            "alcance y coste por contacto",
+            "clics y calidad del tráfico",
+            "conversiones y CPA/CPL",
+            "ingresos y ROI/ROAS",
+            "de apoyo: ER, bounce, profundidad",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Práctica",
+          text: "«AdWords» en textos viejos = Google Ads. Los nombres de informe en Direct y Google cambian — para el cliente, el significado de la columna gana a un screenshot de botón.",
+        },
+      ],
+      links: [
+        {
+          label: "Click fraud",
+          href: "/es/blog/sklikivanie/",
+        },
+      ],
+    },
+    {
+      title: "8–9. Detalles y contexto de negocio",
+      level: 2,
+      paras: [
+        "Pregunta al cliente el formato: slides, PDF, hoja. Exports completos y listas de keywords van en un anexo para que no ahoguen el resumen.",
+        "Añade contexto adyacente: crecimiento de leads del sitio, estacionalidad, promos de competidores, caídas de analítica — todo lo que cambie cómo se leen los números, aunque «no venga de la cuenta de ads».",
+      ],
+      lists: [
+        {
+          intro: "Antes de enviar:",
+          items: [
+            "léelo con los ojos del cliente",
+            "revisa periodo y moneda",
+            "confirma que las conclusiones salen de los números",
+            "hay próximos pasos, no solo «mira el Excel»",
+          ],
+        },
+      ],
+    },
+  ],
+};

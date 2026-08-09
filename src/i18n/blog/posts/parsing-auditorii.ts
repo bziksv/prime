@@ -146,3 +146,150 @@ export const parsingAuditoriiEn: BlogPost = {
     "zashchita-ot-parsinga",
   ],
 };
+
+/** ES overlay for parsing-auditorii — same structure as RU JSON / EN. */
+export const parsingAuditoriiEs: BlogPost = {
+  slug: "parsing-auditorii",
+  title: "Scraping de audiencia: qué es y qué usar en su lugar",
+  date: "2020-02-25",
+  category: "Marketing digital",
+  cover: "/images/blog/parsing-auditorii/cover.webp",
+  excerpt:
+    "Qué entienden los marketers por scraping de audiencia en redes, riesgos de cosechar perfiles en masa y cómo segmentar de forma legal — vía cuentas de ads, tu propia lista e investigación.",
+  lead: [
+    "«Parsing de audiencia» en la jerga de marketing significa recoger automáticamente listas de usuarios y comunidades por género, geo, follows y actividad — y luego usarlas para targetear ads o escribir a la gente en DMs.",
+    "Abajo: por qué la idea parece cómoda, dónde ToS y la ley dibujan la línea, y alternativas que funcionan sin catálogos de scrapers ni how-tos de «exportar la lista de un competidor». Aparte: un retrato de audiencia objetivo sin volcar perfiles ajenos — en la pieza relacionada.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de las plataformas. Las menciones a Instagram* y Facebook* son ilustrativas. Instagram* y Facebook* son productos de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta se reconoce como extremista, y el uso de los servicios puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia de definir una audiencia objetivo?",
+      a: "La audiencia objetivo es quién es tu cliente y qué trabajo tiene. El scraping de audiencia en sentido estrecho es exportar en masa perfiles o IDs ajenos. Lo primero siempre hace falta; lo segundo a menudo rompe las reglas de la plataforma.",
+    },
+    {
+      q: "¿Puedo scrapear los followers de un competidor?",
+      a: "Las herramientas prometen mucho. Bajo las reglas de la plataforma y la ley de datos personales es zona de riesgo: bans, reclamaciones, lista basura. Más seguro: ads oficiales y tu propio consentimiento.",
+    },
+    {
+      q: "¿Qué sustituye a un scraper para el targeting?",
+      a: "Audiencias de pixel/cuenta, lookalikes de tus clientes, retargeting del sitio, segmentos CRM, encuestas y tests de contenido — sin volcar contactos ajenos a Excel.",
+    },
+    {
+      q: "¿Un scraper online es mejor que uno de escritorio?",
+      a: "Para esquemas grises la pregunta es secundaria. Lo que importa es si rompes el ToS y por qué necesitas datos personales ajenos. No recomendamos herramientas pensadas para saltar protecciones.",
+    },
+    {
+      q: "¿Necesito scraping si ya tengo una lista?",
+      a: "Tu propia lista con consentimiento e historial de deals gana a cualquier dump comprado. El scraping no la sustituye.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué suelen entender los marketers por scraping de audiencia",
+      level: 2,
+      paras: [
+        "Un servicio rastrea datos sociales abiertos o semiabiertos, filtra gente por criterios y devuelve una tabla: IDs, enlaces, a veces contactos y demografía. Luego la lista va a ads, email o outreach manual.",
+        "Por separado, la gente caza comunidades donde vive una audiencia similar — para anunciar ahí o armar hipótesis de interés. La hipótesis en sí es útil; exportar perfiles en masa es otro nivel de riesgo.",
+      ],
+      lists: [
+        {
+          intro: "Promesas típicas de esas herramientas:",
+          items: [
+            "recoger los followers de una comunidad",
+            "encontrar solapes de audiencia",
+            "filtrar por ciudad/edad",
+            "exportar el resultado a un archivo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Audiencia objetivo",
+          href: "/es/blog/tselevaya-auditoriya/",
+        },
+        {
+          label: "Scraping de datos: límites",
+          href: "/es/blog/parsing/",
+        },
+      ],
+    },
+    {
+      title: "Riesgos: reglas de plataforma y datos personales",
+      level: 2,
+      paras: [
+        "Las redes prohíben la recogida automatizada que salta APIs y protecciones. Cuentas y dominios ligados a esos esquemas se bloquean. «Todo el mundo lo hace» no cancela el ToS.",
+        "Los datos personales y contactos no se pueden amontonar en una lista para ads fríos sin control. Eso golpea la reputación más que ahorrar en investigación.",
+        "No publicamos roundups de scrapers concretos ni guías paso a paso de bypass — ni para Instagram/Facebook, ni para otras plataformas.",
+      ],
+      lists: [
+        {
+          intro: "Qué se rompe en la práctica:",
+          items: [
+            "ban de cuenta de ads o personal",
+            "quejas y reclamaciones de datos personales",
+            "perfiles caducos y falsos en el dump",
+            "tiempo del equipo en una lista sucia en lugar de la oferta",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Importante",
+          text: "Si un vendor vende una «audiencia de competidor lista como archivo» — es una bandera roja, no un lanzamiento más rápido.",
+        },
+      ],
+      links: [
+        {
+          label: "Scraping de emails: riesgos",
+          href: "/es/blog/parsing-email/",
+        },
+      ],
+    },
+    {
+      title: "Formas legales de segmentar una audiencia",
+      level: 2,
+      paras: [
+        "Las cuentas oficiales de ads ofrecen intereses, geo, retargeting y lookalikes de tus clientes subidos (según reglas de la plataforma). Un pixel del sitio construye audiencias de visitantes sin scrapear perfiles ajenos.",
+        "Tu CRM, leads, email/SMS con consentimiento, encuestas y entrevistas a managers ganan a un dump de IDs. Para hipótesis de «dónde vive la audiencia», usa stats abiertas de comunidades, contenido de competidores y demanda de búsqueda — sin exportar personas.",
+        "Primero responde quién es el cliente y qué trabajo tiene (retrato de audiencia), luego elige el canal de entrega — no al revés.",
+      ],
+      lists: [
+        {
+          intro: "Un setup que funciona sin scraper:",
+          items: [
+            "retrato de audiencia y quién no encaja",
+            "eventos del sitio → audiencias de retargeting",
+            "lookalikes de clientes de calidad",
+            "tests de creative y oferta",
+            "limpieza regular de tu propia lista",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Retargeting",
+          href: "/es/blog/retargeting/",
+        },
+        {
+          label: "Formularios de captación",
+          href: "/es/blog/formy-zahvata/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "El scraping de audiencia como exportación masiva de perfiles ajenos es un camino corto a bans y a una lista tóxica. Segmenta vía herramientas oficiales de ads, tu analytics y un retrato real de audiencia — el canal dura más que una lista scrapeada de warm-up.",
+  ],
+  related: [
+    "tselevaya-auditoriya",
+    "parsing",
+    "parsing-email",
+    "retargeting",
+    "formy-zahvata",
+    "zashchita-ot-parsinga",
+  ],
+};

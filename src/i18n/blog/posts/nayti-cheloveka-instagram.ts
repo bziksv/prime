@@ -128,3 +128,132 @@ export const naytiChelovekaInstagramEn: BlogPost = {
     "stories-instagram-inkognito",
   ],
 };
+
+/** ES overlay for nayti-cheloveka-instagram — same structure as RU JSON / EN. */
+export const naytiChelovekaInstagramEs: BlogPost = {
+  slug: "nayti-cheloveka-instagram",
+  title: "Cómo encontrar a alguien en Instagram: username, búsqueda y contactos",
+  date: "2020-10-29",
+  category: "SMM",
+  cover: "/images/blog/nayti-cheloveka-instagram/cover.webp",
+  excerpt:
+    "Cómo encontrar un perfil de Instagram por username, nombre, hashtag, lugar o contactos — sin capturas obsoletas ni el mito de que cada acción funciona sin cuenta.",
+  lead: [
+    "Encontrar a alguien en Instagram es más fácil por username o nombre en la búsqueda. Si no tienes handle — ayudan amigos en común, geotags, hashtags y la sync de contactos.",
+    "Abajo: escenarios que funcionan. Los menús de la app cambian; revisa los iconos exactos en tu versión. Sin iniciar sesión, algunos perfiles no se abren o son solo de vista. El disclaimer de Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Se puede ver un perfil sin registrarse?",
+      a: "A veces la URL pública `instagram.com/username` se abre en el navegador. Las funciones completas y muchos perfiles necesitan login. Comentar sin cuenta normalmente no es posible.",
+    },
+    {
+      q: "No los encuentro por nombre — ¿qué falla?",
+      a: "El display name no es lo mismo que el username. Revisa ortografía, idioma, posibles puntos o dígitos en el handle. El perfil puede ser privado, borrado o bloqueado.",
+    },
+    {
+      q: "¿Ayuda buscar por número de teléfono?",
+      a: "Vía sync de contactos Instagram puede sugerir gente que conoces. Es opcional y ligado a privacy — actívalo a propósito.",
+    },
+    {
+      q: "¿En qué se diferencia del artículo del enlace de perfil?",
+      a: "Ese cubre copiar y construir una URL. Este es encontrar a una persona cuando aún no tienes enlace.",
+    },
+    {
+      q: "¿Se puede buscar vía VK?",
+      a: "A veces la gente pone Instagram en un perfil de VK o en un sitio. Es un workaround, no la búsqueda oficial de Instagram.",
+    },
+  ],
+  sections: [
+    {
+      title: "Si conoces el username",
+      level: 2,
+      paras: [
+        "Abre `https://www.instagram.com/username/` en el navegador o pega el handle en la búsqueda de la app. Es el camino más rápido.",
+        "Para acciones (follow, message, comentarios) necesitas tu propia cuenta. La vista pública sin login es limitada e inestable.",
+      ],
+      links: [
+        {
+          label: "Enlace de perfil de Instagram",
+          href: "/es/blog/ssylka-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Búsqueda en la app",
+      level: 2,
+      paras: [
+        "Icono de search → pestaña Accounts: busca por username o por el nombre del header. Pestañas como popular, tags y places ayudan cuando no hay handle pero se conoce el nombre o la ubicación.",
+        "Hashtags y geotags estrechan el círculo, pero los tags populares tardan más. Los nombres exactos de pestañas han cambiado — sigue el sentido.",
+      ],
+      lists: [
+        {
+          intro: "Qué probar:",
+          items: [
+            "username exacto",
+            "nombre y apellido / marca",
+            "un hashtag relacionado",
+            "geo si conoces el lugar",
+            "amigos en común / tags en fotos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Si el perfil no aparece",
+      level: 2,
+      paras: [
+        "Revisa typos y ortografías alternativas. La persona puede haber cambiado el handle, pasado a privado o borrado la cuenta — entonces la búsqueda no ayuda.",
+        "No uses servicios dudosos de «deanonymizer»: riesgo de phishing y filtrar tus propios datos.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Importante",
+          text: "Encontrar a alguien no es stalking. Respeta las cuentas privadas.",
+        },
+      ],
+    },
+    {
+      title: "Contactos del teléfono y otras redes",
+      level: 2,
+      paras: [
+        "Los settings de Instagram incluyen opciones para vincular contactos y ver gente que quizá conoces. La lista depende de quién ya está en la red y quién permite ser encontrado.",
+        "A veces Instagram aparece en VK, un sitio o una tarjeta de visita — revisa esas fuentes si la búsqueda in-app está en silencio.",
+      ],
+      links: [
+        {
+          label: "Generadores de username",
+          href: "/es/blog/generator-nikov/",
+        },
+        {
+          label: "Contraseña de Instagram",
+          href: "/es/blog/parol-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "Username y búsqueda en Accounts son la base. Sin handle, funcionan nombre, geo, hashtags y contactos — peor y más lento.",
+        "Un perfil privado o borrado no se «abre» con herramientas oficiales.",
+      ],
+    },
+  ],
+  closing: [
+    "Empieza por la URL o la búsqueda por username; si no hay handle — nombre, conexiones mutuas y contactos. Así encontrarás gente más rápido que con servicios dudosos de terceros.",
+  ],
+  related: [
+    "ssylka-instagram",
+    "generator-nikov",
+    "parol-instagram",
+    "biznes-akkaunt-instagram",
+    "oformlenie-stranicy-instagram",
+    "stories-instagram-inkognito",
+  ],
+};

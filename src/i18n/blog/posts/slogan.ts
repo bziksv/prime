@@ -130,3 +130,134 @@ export const sloganEn: BlogPost = {
     "kommercheskoe-predlozhenie",
   ],
 };
+
+/** ES overlay for slogan — same structure as RU JSON / EN. */
+export const sloganEs: BlogPost = {
+  slug: "slogan",
+  title: "Cómo crear un slogan para una empresa y para ads",
+  date: "2020-01-17",
+  category: "Content marketing",
+  cover: "/images/blog/slogan/cover.webp",
+  excerpt:
+    "Slogans de marca y de ads: por qué importan, en qué se diferencian de un USP, qué evitar y cómo armar una línea corta sin generadores «en dos clics» ni promesas vacías.",
+  lead: [
+    "Un slogan es una línea corta junto al nombre y el logo: mood, promesa o diferencia fácil de repetir. No sustituye la oferta y no es obligatorio para toda empresa.",
+    "Abajo: cuándo un slogan ayuda, tipos por significado y forma, qué evitar y una forma simple de construirlo. Un USP va de «por qué tú»; un slogan más de memoria y tono. Los generadores dan borradores, no estrategia.",
+  ],
+  faq: [
+    {
+      q: "¿Un slogan es lo mismo que un USP?",
+      a: "No siempre. Un USP es una diferencia concreta para elegir. Un slogan puede ser de imagen («mood») o más cercano a la oferta. Ver el artículo de USP.",
+    },
+    {
+      q: "¿Es obligatorio un slogan?",
+      a: "No. A veces bastan un nombre claro y un USP en la primera pantalla. Un slogan refuerza la marca si de verdad lo usas en todas partes.",
+    },
+    {
+      q: "¿Cuántas palabras es normal para un slogan?",
+      a: "Apunta a corto — a menudo hasta 5–8 palabras. Claridad y facilidad de decir importan más que el conteo de palabras.",
+    },
+    {
+      q: "¿Ayuda un generador online de slogans?",
+      a: "Como arranque de brainstorm — a veces. Un final sin brief, audiencia y chequeos de promesa casi siempre es flojo.",
+    },
+    {
+      q: "¿Puedo usar rima en un slogan?",
+      a: "Sí, si la rima lleva significado. Los slogans torpes de «rima por la rima» suenan baratos.",
+    },
+    {
+      q: "¿Quién debe escribir el slogan?",
+      a: "Un equipo con brief, una agencia o un copywriter fuerte tras conocer el negocio. Una «línea bonita que falla la marca» es peor que la verdad plana.",
+    },
+    {
+      q: "¿Hay que registrar el slogan?",
+      a: "Para uso comercial importan la unicidad y los chequeos de marca/conflicto — sobre todo en campañas grandes. Pregunta a counsel de marca si dudas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué existe un slogan",
+      level: 2,
+      paras: [
+        "Complementa nombre y logo: qué esperar de la marca, qué feeling o diferencia fijar.",
+        "Funciona en ads, packaging, sitio, headers de redes — si es una línea, no un lema nuevo cada trimestre sin motivo.",
+      ],
+      lists: [
+        {
+          intro: "Por significado la gente suele separar:",
+          items: [
+            "imagen — carácter y valores",
+            "producto — más cerca del beneficio del producto o de la campaña",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "USP",
+          href: "/es/blog/utp/",
+        },
+        {
+          label: "Logo",
+          href: "/blog/logotip/",
+        },
+      ],
+    },
+    {
+      title: "Qué evitar",
+      level: 2,
+      paras: [
+        "Niebla («calidad e innovación») sin hecho.",
+        "Sobre-promesas que no cumples.",
+        "Chistes ofensivos o tóxicos «por viralidad».",
+        "Malas rimas y juegos de palabras que bloquean el significado.",
+      ],
+    },
+    {
+      title: "Cómo construirlo",
+      level: 2,
+      paras: [
+        "Misión y rol para el cliente → ventajas reales → beneficio emocional del segmento → lista de palabras → 10–20 borradores → elige corto y verdadero → comprueba con logo y nombre.",
+        "Por forma: afirmación, pregunta, tratamiento, juego de palabras, metáfora — elige por el tono de marca, no todo a la vez.",
+      ],
+      lists: [
+        {
+          intro: "Criterios de una línea fuerte:",
+          items: [
+            "clara para la audiencia a la primera lectura",
+            "memorable y fácil de decir",
+            "no miente ni infla",
+            "te diferencia o marca el mood",
+            "sobrevive a una promo (si es slogan de marca)",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Campaña vs marca",
+          text: "Un slogan de campaña puede cambiar más a menudo. Un lema corporativo cambia poco — o se difumina el reconocimiento.",
+        },
+      ],
+    },
+    {
+      title: "Claves a recordar",
+      level: 2,
+      paras: [
+        "Primero la verdad sobre marca y audiencia — luego el wording bonito.",
+        "Un slogan ≠ un sustituto de USP y oferta en el sitio.",
+        "Un generador es un borrador, no el final.",
+      ],
+    },
+  ],
+  closing: [
+    "Escribe tres verdades del negocio en una línea cada una — un slogan honesto suele salir de ahí más rápido que de las «palabras bonitas» de un generador.",
+  ],
+  related: [
+    "utp",
+    "zagolovki-4u",
+    "prodayushchie-teksty",
+    "kopirayting",
+    "logotip",
+    "kommercheskoe-predlozhenie",
+  ],
+};

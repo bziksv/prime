@@ -174,3 +174,178 @@ export const otlozhennyyPostingInstagramEn: BlogPost = {
     "parol-instagram",
   ],
 };
+
+/** ES overlay for otlozhennyy-posting-instagram — same structure as RU JSON / EN. */
+export const otlozhennyyPostingInstagramEs: BlogPost = {
+  slug: "otlozhennyy-posting-instagram",
+  title: "Publicación programada en Instagram: por qué y cómo planificar",
+  date: "2021-01-18",
+  category: "SMM",
+  cover: "/images/blog/otlozhennyy-posting-instagram/cover.webp",
+  excerpt:
+    "Publicación programada en Instagram: por qué planificar, cómo ayuda un calendario de contenido y cómo elegir una herramienta — sin auto-posters dudosos ni robar contenido ajeno.",
+  lead: [
+    "La publicación programada encola posts (y algunas Stories/Reels, donde esté disponible) para una fecha y hora. Mantienes el ritmo del calendario de contenido sin vivir en la app en cada hueco.",
+    "Abajo: ventajas de planificar y cómo elegir herramienta. La línea vieja de 2021 «Instagram no tiene scheduling oficial» está desactualizada: Meta a menudo incluye scheduling integrado en la app y Business Suite — mira la UI de hoy. Revisa herramientas de terceros contra Terms of Service y seguridad de login. El disclaimer del producto Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de las plataformas. Instagram* y Facebook* son productos de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso de los servicios puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿En qué se diferencia el scheduling de un plan de contenido?",
+      a: "El plan es qué y por qué publicas. El scheduling pone piezas terminadas en cola. Primero el plan, luego los huecos.",
+    },
+    {
+      q: "¿Hace falta un servicio de terceros?",
+      a: "No siempre. Si el scheduling nativo de Meta te cubre, empieza ahí. Llega a una herramienta de terceros cuando necesites calendarios multicanal, roles de equipo o plantillas.",
+    },
+    {
+      q: "¿Es seguro dar a un scheduler tu contraseña?",
+      a: "Prefiere Meta/Facebook Login oficial con scopes mínimos. Nunca escribas tu contraseña en sitios dudosos.",
+    },
+    {
+      q: "¿Está bien auto-generar posts desde otras cuentas?",
+      a: "No como estrategia. Arriesgas copyright, bans y daño a la confianza. Programa tu propio contenido.",
+    },
+    {
+      q: "¿El scheduling daña el alcance?",
+      a: "No por sí solo. Importan más la calidad y el engagement tras publicar. Responde comentarios en las primeras horas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué programar posts",
+      level: 2,
+      paras: [
+        "Ahorras tiempo con un bloque de prep en vez de un scramble diario. La consistencia se facilita: los huecos de Insights «when your audience is online» de verdad se cumplen.",
+        "Los equipos alinean la cola con más limpieza: quién crea, quién aprueba, qué va a ads.",
+      ],
+      lists: [
+        {
+          intro: "Qué te da una cola:",
+          items: [
+            "ritmo desde el calendario de contenido",
+            "menos huecos durante vacaciones",
+            "slots predecibles para la audiencia",
+            "transparencia para un cliente o manager",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Plan de contenido de Instagram",
+          href: "/es/blog/kontent-plan-instagram/",
+        },
+        {
+          label: "Instagram Insights",
+          href: "/es/blog/statistika-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Opciones oficiales primero",
+      level: 2,
+      paras: [
+        "Una cuenta profesional a menudo tiene Schedule en el flujo de creación y calendarios de Meta Business Suite (o equivalentes). Qué formatos puedes programar — feed, Reels, Stories — depende de la cuenta y la región, así que revisa antes de prometer a un cliente.",
+        "Ir nativo baja el riesgo de apps de terceros con acceso pleno a la cuenta.",
+      ],
+      links: [
+        {
+          label: "Cuenta business",
+          href: "/es/blog/biznes-akkaunt-instagram/",
+        },
+        {
+          label: "Instagram desde un ordenador",
+          href: "/es/blog/instagram-s-kompyutera/",
+        },
+      ],
+    },
+    {
+      title: "Cuándo los equipos eligen un scheduler de terceros",
+      level: 2,
+      paras: [
+        "Varias redes en un calendario, roles de empleados, aprobación de posts, un archivo creativo compartido, informes de agencia — entonces compara herramientas por seguridad y soporte de API de Instagram.",
+        "Precios y nombres de roundups de 2021 (trials semanales, «desde 99 ₽») envejecen rápido. Mira el sitio actual del vendor.",
+      ],
+      lists: [
+        {
+          intro: "Qué buscar:",
+          items: [
+            "auth oficial de Meta",
+            "qué formatos publica de verdad",
+            "scopes de acceso y 2FA",
+            "cancelar/editar en la cola",
+            "soporte y un contrato de negocio",
+            "nada de «scrape and rehash» posts ajenos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Error habitual",
+          text: "Conectar un scheduler que auto-scrapea posts ajenos y les pone watermark «por unicidad». Eso no es SMM — es riesgo.",
+        },
+      ],
+    },
+    {
+      title: "Qué saltarse en catálogos viejos",
+      level: 2,
+      paras: [
+        "Los roundups viejos listaban herramientas con proxies, multi-cuentas y scraping de competidores. Algunas rompen las reglas de la plataforma. No reciclamos precios de utilidades ni charts de tools.",
+        "Si una herramienta pide una contraseña en claro o promete mass-liking junto al posting — aléjate.",
+      ],
+      links: [
+        {
+          label: "Shadowban",
+          href: "/es/blog/tenevoy-ban-instagram/",
+        },
+        {
+          label: "Contraseña de Instagram",
+          href: "/es/blog/parol-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Cómo desplegarlo con calma",
+      level: 2,
+      paras: [
+        "Arma un plan de contenido de 1–2 semanas, prepara media y captions, fija huecos desde los datos «online» de Insights y deja buffer para breaking news.",
+        "Tras publicar sigue haciendo falta un humano: comentarios, follow-ups de Story, arreglar errores de copy.",
+      ],
+      lists: [
+        {
+          intro: "Mini proceso:",
+          items: [
+            "idea y meta del hueco",
+            "creativo + caption",
+            "fact-check y CTA",
+            "encolarlo",
+            "monitorear las primeras horas",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Qué llevarte",
+      level: 2,
+      paras: [
+        "El scheduling va de ritmo y calma del equipo, no de autopilot sin sentido. Empieza con planning nativo; añade una herramienta de terceros a propósito.",
+        "Tu propio contenido y respuestas vivas ganan a cualquier cola de posts scrapeados.",
+      ],
+    },
+  ],
+  closing: [
+    "Arma el plan, elige huecos desde Insights y encola con herramientas oficiales o un scheduler vetado — así Instagram se mantiene regular sin scramble diario ni auto-posters dudosos.",
+  ],
+  related: [
+    "kontent-plan-instagram",
+    "statistika-instagram",
+    "biznes-akkaunt-instagram",
+    "instagram-s-kompyutera",
+    "ohvat-instagram",
+    "parol-instagram",
+  ],
+};

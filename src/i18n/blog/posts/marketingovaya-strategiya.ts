@@ -162,3 +162,166 @@ export const marketingovayaStrategiyaEn: BlogPost = {
     "strategiya-prodvizheniya",
   ],
 };
+
+/** ES overlay for marketingovaya-strategiya — same structure as RU JSON / EN. */
+export const marketingovayaStrategiyaEs: BlogPost = {
+  slug: "marketingovaya-strategiya",
+  title: "Cómo planificar y construir una estrategia de marketing",
+  date: "2019-10-07",
+  category: "Digital marketing",
+  cover: "/images/blog/marketingovaya-strategiya/cover.webp",
+  excerpt:
+    "Cómo armar una estrategia de marketing: objetivo y KPIs, audiencia, canales, contenido y calendario — sin campañas caóticas a ojo y sin sustituir la estrategia por un solo plan SEO.",
+  lead: [
+    "Sin un plan, el marketing suele derivar a posts situacionales y promos sueltas. Una estrategia fija el objetivo, las etapas, los canales y cómo medir — para que el equipo avance al unísono, no «donde ayer funcionó».",
+    "Abajo: el marco — por qué hace falta un plan, cómo fijar un objetivo medible, conocer la audiencia, elegir plataformas, ligar el contenido a la marca y poner plazos en el calendario. ROMI y la estrategia SEO del sitio son temas relacionados.",
+  ],
+  faq: [
+    {
+      q: "¿Estrategia y plan de marketing son lo mismo?",
+      a: "En la práctica a menudo se fusionan: la estrategia marca rumbo y prioridades; el plan fija fechas, tareas y responsables. Tener un objetivo y acciones ligadas importa más que pelear por el nombre.",
+    },
+    {
+      q: "¿En qué se diferencia de una estrategia SEO?",
+      a: "Una estrategia SEO va de búsqueda y del sitio. El marketing es más amplio: marca, contenido, ads, email, offline — con KPIs compartidos.",
+    },
+    {
+      q: "¿Cuántos objetivos fijo a la vez?",
+      a: "Un objetivo principal para el periodo de campaña más 2–3 intermedios. «Awareness + ventas + PR + encuesta» sin prioridad diluye el presupuesto.",
+    },
+    {
+      q: "¿Hacen falta objetivos SMART?",
+      a: "Sí: concreción, métrica, plazo, realismo. «Ser más conocidos» sin un número no se puede medir.",
+    },
+    {
+      q: "¿Por dónde empiezo si hay muchos canales?",
+      a: "Por audiencia y objetivo, luego 1–2 canales fuertes que ya conoces. Escala tras los primeros resultados medibles.",
+    },
+    {
+      q: "¿Cómo sé que el plan funcionó?",
+      a: "Revisa los KPIs fijados antes del lanzamiento: leads, ventas, menciones, CR. El dinero vía ROMI; el camino del cliente vía conversiones asistidas cuando el ciclo es largo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué hace falta un plan de marketing",
+      level: 2,
+      paras: [
+        "Un plan convierte «queremos crecimiento» en una cadena de acciones con KPIs. Campañas y toques en plataformas suenan como una sola propuesta de marca — así el awareness crece más rápido (a menudo varios toques antes de la decisión).",
+        "El caos cuesta más: sin plan es más difícil prever deslizamientos, alinear creative y no quemar presupuesto en actividades sin relación.",
+      ],
+      links: [
+        {
+          label: "Siete toques",
+          href: "/blog/sem-kasaniy/",
+        },
+        {
+          label: "Promoción de marca",
+          href: "/blog/prodvizhenie-brenda/",
+        },
+      ],
+    },
+    {
+      title: "Objetivo y resultado medible",
+      level: 2,
+      paras: [
+        "Primero formula el resultado final: lanzamiento de producto, awareness, crecimiento de audiencia, un evento, recoger reseñas. Luego pártelo en tareas intermedias y métricas: pre-pedidos, tratos, menciones, CR tras el clic, beneficio.",
+        "La redacción debe ser concreta y con fecha: no «subir awareness», sino «crecer la métrica X para la fecha». El realismo importa: si no tenías lista de email ni contactos de prensa, no metas miles de preventas y docenas de piezas en medios de golpe.",
+      ],
+      lists: [
+        {
+          intro: "Ejemplos de enlaces objetivo → métrica:",
+          items: [
+            "lanzamiento de producto — pre-pedidos y tratos",
+            "awareness — menciones y demanda de marca",
+            "evento — registros y asistencia",
+            "reseñas — número de valoraciones honestas en mapas/sitio",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          text: "Antes de los números objetivo, fija la línea base: conversiones actuales, presupuesto, fortalezas del equipo, qué externalizas. Si no, los KPIs flotan sin anclarse a recursos.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Audiencia y canales",
+      level: 2,
+      paras: [
+        "El contenido brillante falla si la audiencia correcta nunca lo ve. Investiga intereses y barreras del segmento — las empresas que lo hacen de forma sistemática alcanzan objetivos de ventas con más frecuencia.",
+        "Elige plataformas donde la audiencia está de verdad y donde tienes vías para hablar. Apóyate en canales que ya conoces: SMM, paid search, SEO, email. Quien empieza debería profundizar una dirección fuerte en lugar de rociar todas las redes a la vez.",
+      ],
+      links: [
+        {
+          label: "Audiencia objetivo",
+          href: "/es/blog/tselevaya-auditoriya/",
+        },
+        {
+          label: "Fuentes de tráfico",
+          href: "/es/blog/istochniki-trafika/",
+        },
+      ],
+    },
+    {
+      title: "Contenido, landing y marca",
+      level: 2,
+      paras: [
+        "Contenido y diseño deben leerse como tu marca: tono, paleta, plantillas. Cada campaña refuerza una historia, no un montón de creatives al azar. Piensa el formato (texto, vídeo, imagen), mailings y — obligatorio — una página de destino para la acción.",
+        "La estrategia fija el job; el landing cierra la acción: lead, compra, registro. Si la oferta del anuncio y la página divergen, el plan se rompe en la conversión.",
+      ],
+      links: [
+        {
+          label: "Landing page",
+          href: "/es/blog/lending/",
+        },
+        {
+          label: "Identidad de marca",
+          href: "/es/blog/aydentika-brenda/",
+        },
+      ],
+    },
+    {
+      title: "Calendario y medición",
+      level: 2,
+      paras: [
+        "Liga macro y micro objetivos a fechas: planning del equipo, producción de contenido, periodo de promoción, puntos de medición. Decide qué cambias si el plan se desliza — o la «estrategia» se queda en un archivo en la nube.",
+        "Juzga la efectividad por KPIs elegidos de antemano y, donde haga falta, en dinero (ROMI). En un ciclo de trato largo, cuenta la contribución de canales intermedios — no solo el last click.",
+      ],
+      lists: [
+        {
+          intro: "Bloques en el calendario:",
+          items: [
+            "planning y aprobaciones",
+            "producción de creative",
+            "lanzamiento y soporte de campaña",
+            "medición y corrección",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "ROI y ROMI",
+          href: "/es/blog/roi-marketinga/",
+        },
+        {
+          label: "Métricas de ads",
+          href: "/es/blog/metriki-reklamy/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Una estrategia de marketing es un objetivo, audiencia, canales, contenido coherente y un calendario con KPIs. Arma el marco antes de los creatives: es más fácil escalar lo que funciona y cortar a tiempo lo que no.",
+  ],
+  related: [
+    "prodvizhenie-brenda",
+    "roi-marketinga",
+    "metriki-reklamy",
+    "sem-kasaniy",
+    "tselevaya-auditoriya",
+    "strategiya-prodvizheniya",
+  ],
+};

@@ -157,3 +157,161 @@ export const interaktivnyyKontentEn: BlogPost = {
     "optimizatsiya-konversii",
   ],
 };
+
+/** ES overlay for interaktivnyy-kontent — same structure as RU JSON / EN. */
+export const interaktivnyyKontentEs: BlogPost = {
+  slug: "interaktivnyy-kontent",
+  title: "Contenido interactivo: quizzes, calculadoras y tools visuales",
+  date: "2019-12-26",
+  category: "Content marketing",
+  cover: "/images/blog/interaktivnyy-kontent/cover.webp",
+  excerpt:
+    "Cómo hacer útil el contenido interactivo: quizzes y encuestas, calculadoras, configuradores, timelines — y por qué la utilidad gana a un efecto «wow».",
+  lead: [
+    "El contenido interactivo retiene la atención mejor que un artículo estático: la gente responde, calcula, corre un escenario y obtiene un resultado personal. Eso puede bajar el bounce y alimentar segmentación — cuando el formato encaja con el negocio.",
+    "Abajo: los tipos principales (quizzes, calculadoras, interactivos visuales, escalas) y checks de calidad. Un walkthrough más profundo de quiz-landing vive en una pieza relacionada.",
+  ],
+  faq: [
+    {
+      q: "¿En qué es mejor lo interactivo que el texto plano?",
+      a: "Más engagement y un resultado que se siente «suyo». Sin utilidad real es un juguete: sube el tiempo en página, los leads no.",
+    },
+    {
+      q: "¿Qué formato probar primero?",
+      a: "El que cierra el trabajo del visitante: estimación de precio o plazos, match de opción, check de conocimiento. Quizzes de entretenimiento solo si marca y nicho los aguantan.",
+    },
+    {
+      q: "¿Hace falta un builder no-code?",
+      a: "Para una hipótesis — a menudo sí. Math complejo, un configurador o control estrecho de marca suelen pedir trabajo custom o un contractor. Precia el coste de una respuesta errónea, no solo el plan SaaS.",
+    },
+    {
+      q: "¿Quiz y test son lo mismo?",
+      a: "Cercanos: respuestas por pasos y un outcome. Los quizzes de landing tienden a leads y cualificación; los de media, a reach y shares.",
+    },
+    {
+      q: "¿Cómo medir el impacto?",
+      a: "No solo completions: tasas de fin de paso, leads, shares, visitas de retorno. Trackea eventos de analytics en el propio interactivo.",
+    },
+    {
+      q: "¿Se puede exagerar?",
+      a: "Sí — un widget pesado en cada página, una calculadora compleja sin trabajo, una encuesta por sí misma. La utilidad gana a la animación.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué poner interactivo en el sitio",
+      level: 2,
+      paras: [
+        "El texto estático se lee; lo interactivo hace actuar. En content marketing es una forma de retener atención y recoger señales de preferencia — si el escenario encaja con el nicho.",
+        "Te diferencias de los competidores cuando el formato de verdad ayuda a elegir, calcular o entender — no cuando «tienes un slider».",
+      ],
+      lists: [
+        {
+          intro: "Ventajas cuando está bien hecho:",
+          items: [
+            "más engagement y tiempo en el sitio",
+            "datos para segmentos y scripts de ventas",
+            "una chance de que el resultado se comparta",
+            "larga vida útil de una tool fuerte",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Quizzes, encuestas y trivia",
+      level: 2,
+      paras: [
+        "El patrón familiar: unas preguntas → un resultado o «cómo te comparas con la mayoría». Una completion fácil baja la barrera; la comparación social ayuda a terminar.",
+        "Para el negocio, atar las preguntas a la oferta importa más: qué servicio encaja, qué trabajo tienen, cuán listos están para comprar. Un vacío «qué fruta eres» sin camino al producto gana clics, no leads.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo encaja:",
+          items: [
+            "necesitas cualificar la solicitud",
+            "el producto es complejo y depende de las respuestas",
+            "la marca puede llevar un tono más ligero",
+            "puedes mostrar el resultado con honestidad",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Sitio quiz",
+          href: "/es/blog/kviz-sayt/",
+        },
+      ],
+    },
+    {
+      title: "Calculadoras",
+      level: 2,
+      paras: [
+        "Una estimación online responde «cuánto costará / cuánto tardará». Hipoteca, delivery, tirada de impresión, plazos de reforma — la gente obtiene un número sin llamar y deja contacto más a menudo para afinarlo.",
+        "Una buena calculadora deja claras las asunciones: qué entra en el total, qué campos son obligatorios, dónde hace falta una consultoría. Una caja negra compleja erosiona la confianza.",
+      ],
+      lists: [
+        {
+          intro: "Criterios:",
+          items: [
+            "la fórmula encaja con cómo vendes de verdad",
+            "pocos campos obligatorios al inicio",
+            "el resultado se entiende sin un manual",
+            "hay un siguiente paso (lead, quote, llamada)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Interactivos visuales y configuradores",
+      level: 2,
+      paras: [
+        "Sliders before/after, mapas, previews 3D, tools build-your-spec — formatos donde la gente cambia parámetros y ve el efecto. Un configurador de coche, muebles o plan convierte un catálogo abstracto en «mi opción».",
+        "El coste de build es más alto que un quiz no-code, pero la tool puede correr años si el producto y las opciones se mantienen estables.",
+      ],
+    },
+    {
+      title: "Timelines y escalas",
+      level: 2,
+      paras: [
+        "Un timeline, scrubber de historia de producto o gráfico interactivo muestra progreso o comparación sin un muro de párrafos. Un clic — una etapa, una cifra, un hito.",
+        "Encaja con historia de marca, roadmaps y comparación de periodos. No sustituyas el significado por motion decorativo: cada punto necesita un hecho claro.",
+      ],
+    },
+    {
+      title: "Qué importa más que el «wow»",
+      level: 2,
+      paras: [
+        "Diseño y motion ayudan, pero no salvan un formato fuera de tema. Alinea lo interactivo al trabajo de la audiencia; mide completions y conversión — no solo «bonito en el deck».",
+        "La contraparte es tiempo y a veces presupuesto de build. La ventaja es diferenciación y tráfico duradero a una tool fuerte. Empieza con un escenario afilado, no un zoo de widgets.",
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          text: "Primero hipótesis y métrica de éxito, luego un builder o build custom. Revisar formatos de tu nicho gana a copiar el quiz viral de otro.",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "Escalera de Hunt",
+          href: "/es/blog/lestnitsa-hanta/",
+        },
+        {
+          label: "Plan de contenido",
+          href: "/es/blog/kontent-plan/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "El contenido interactivo funciona cuando ayuda a calcular, elegir o entender — no solo cuando entretiene. Elige el tipo por el trabajo, mide los pasos y no copies a ciegas los formatos de otros.",
+  ],
+  related: [
+    "kviz-sayt",
+    "lestnitsa-hanta",
+    "kontent-plan",
+    "viralnyy-kontent",
+    "tekst-lendinga",
+    "optimizatsiya-konversii",
+  ],
+};

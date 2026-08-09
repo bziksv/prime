@@ -1,5 +1,192 @@
 import type { BlogPost } from "../../../data/blog";
 
+/** ES overlay for otzyv-2gis — same structure as RU JSON. */
+export const otzyv2gisEs: BlogPost = {
+  slug: "otzyv-2gis",
+  title: "Cómo quitar una reseña en 2GIS: qué funciona de verdad",
+  date: "2019-12-23",
+  category: "SEO",
+  cover: "/images/blog/otzyv-2gis/cover.webp",
+  excerpt:
+    "Cómo gestionar reseñas negativas en 2GIS: hablar con el autor, reportar a moderación, cuándo no cerrar el listing y por qué una crítica honesta suele quedarse.",
+  lead: [
+    "Las reseñas en 2GIS condicionan la elección: la gente mira rating, comentarios recientes y respuestas de la empresa. No se puede «borrar la negatividad a demanda» — la plataforma tiene reglas, y borrar una crítica honesta daña más la confianza que la propia reseña.",
+    "Abajo: escenarios que funcionan — hablar con el autor, reportar un incumplimiento de reglas, qué no hacer con el listing y cómo reducir el flujo de negatividad. El tono de respuesta está en el texto compañero sobre reseñas negativas.",
+  ],
+  faq: [
+    {
+      q: "¿Se puede borrar cualquier reseña negativa?",
+      a: "No. Una opinión honesta sobre la experiencia suele quedarse. La moderación quita u oculta lo que rompe las reglas: insultos, spam, datos personales ajenos, anuncios, fakes claros — según su decisión.",
+    },
+    {
+      q: "¿Ayuda quejarse de que «no me gusta el rating»?",
+      a: "Normalmente no. Hacen falta hechos de incumplimiento de reglas y pruebas (tickets, chat, vídeo en el local — según el caso), no una disputa de gusto.",
+    },
+    {
+      q: "¿Hay que cerrar la empresa en 2GIS por las reseñas?",
+      a: "Un movimiento extremo y arriesgado: pierdes el listing, el historial y la confianza; pueden quedar rastros en búsqueda. Empieza por respuestas, revisión del caso y reportes basados en reglas.",
+    },
+    {
+      q: "¿Debe el cliente borrar la reseña tras una compensación?",
+      a: "No. Puedes pedirle que actualice la reseña cuando el problema esté resuelto — sin presión, amenazas ni «retiramos el descuento si no borras».",
+    },
+    {
+      q: "¿Hay que responder en público?",
+      a: "Sí — corto y concreto: reconoce el hecho (si es cierto), ofrece un canal de contacto, muestra el siguiente paso. El silencio se lee peor que una respuesta media.",
+    },
+    {
+      q: "¿Siguen válidos los «formularios por mail» y tips de control de display?",
+      a: "La UI y los canales de 2GIS cambian. Sigue el help center de negocio y el dashboard de tu organización; no copies a ciegas direcciones o botones de 2019.",
+    },
+    {
+      q: "¿En qué se diferencia de responder a la negatividad en general?",
+      a: "Aquí el foco es la mecánica de 2GIS. Tono, disculpas y velocidad están en el texto de reseñas negativas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué puedes y no puedes esperar de 2GIS",
+      level: 2,
+      paras: [
+        "2GIS es un mapa y directorio con reseñas. La empresa gestiona el listing (datos, fotos, respuestas) pero no edita textos ajenos como un blog. La moderación sigue las reglas de la plataforma — no «esto es incómodo para el SEO».",
+        "Objetivo realista: quitar infracciones, responder a la crítica honesta, arreglar el proceso y ganar reseñas normales. Irreal — poner el rating a cero con un botón «borrar todo lo malo».",
+      ],
+      lists: [
+        {
+          intro: "Resultados típicos:",
+          items: [
+            "la reseña se queda; aparece tu respuesta",
+            "el autor actualiza o quita la reseña tras resolver el caso",
+            "la moderación elimina material por incumplimiento de reglas",
+            "el reporte se rechaza — sigues con la respuesta y el servicio",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Importante",
+          text: "Las reseñas positivas falsas y el borrado gray-market vía intermediarios rompen las reglas y son arriesgados. No uses esos esquemas.",
+        },
+      ],
+    },
+    {
+      title: "Hablar con el autor de la reseña",
+      level: 2,
+      paras: [
+        "El camino más humano: contactar al autor (si el contacto está en la reseña/hilo o el cliente se conoce por el pedido) y desmontar el caso con calma. El objetivo es resolver el problema; el borrado o una edición pueden ser un efecto secundario — no una condición del trato.",
+        "Las reacciones varían: humor, nivel de enfado, expectativas del servicio. Si no están listos para hablar — no empujes con culpa pública.",
+      ],
+      lists: [
+        {
+          intro: "Cómo llevar la conversación:",
+          items: [
+            "agradece el feedback sin fluff corporativo",
+            "aclara hechos: producto, plazo, personal, expectativa vs realidad",
+            "ofrece un siguiente paso concreto (retrabajo, sustitución, nueva visita, compensación según reglas de la empresa)",
+            "no exijas el borrado como única condición de ayuda",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Lectura relacionada",
+          text: "Tono de respuesta, disculpas y velocidad se cubren aparte: /es/blog/negativnyy-otzyv/.",
+        },
+      ],
+    },
+    {
+      title: "Reportar a moderación",
+      level: 2,
+      paras: [
+        "Si la reseña tiene insultos, amenazas, datos personales, anuncios de competidores, un fake claro u otro punto de las reglas — usa el control de reporte en la reseña en la UI de 2GIS (las etiquetas de botón cambian con el tiempo).",
+        "Prepara pruebas con el reporte: contrato, ticket, chat, foto en el local, captura del estado del pedido. «El cliente se equivoca sobre el servicio» sin incumplimiento de reglas es un argumento débil de borrado.",
+      ],
+      lists: [
+        {
+          intro: "Antes de reportar:",
+          items: [
+            "relee las reglas actuales de reseñas de 2GIS",
+            "separa emociones de hechos de incumplimiento",
+            "guarda captura y el enlace de la reseña",
+            "en paralelo, publica una respuesta calmada para los lectores",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cerrar el listing y «poner a cero» las reseñas",
+      level: 2,
+      paras: [
+        "Guías viejas sugerían cerrar la empresa o ocultar reseñas en masa. Son movimientos radicales: pierdes presencia en el mapa, historial de confianza y a menudo un efecto peor en búsqueda («sucursal eliminada», caches, espejos).",
+        "Aunque una interfaz alguna vez permitiera peticiones de servicio para ocultar reseñas, no puedes fiarte de formularios de mail de 2019: canales de soporte y planes cambian. Mira el help de 2GIS para organizaciones y el estado de tu dashboard.",
+        "Conclusión práctica: cerrar el listing no es una estrategia de reputación. Empieza por respuestas, arreglos de proceso, reportes puntuales y nuevas reseñas honestas.",
+      ],
+      lists: [
+        {
+          intro: "Contras de «cargar el listing»:",
+          items: [
+            "pierdes un canal local de leads",
+            "quedan restos de negatividad en búsqueda",
+            "hay que volver a verificar y rellenar el perfil",
+            "una señal de «esconden algo» para clientes atentos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Parar la negatividad antes de que sea pública",
+      level: 2,
+      paras: [
+        "Es más fácil no llegar al conflicto público: una encuesta corta post-visita, «¿todo bien?», una respuesta rápida a una queja antes de que alguien abra 2GIS.",
+        "Una reseña negativa es diagnóstico. Arregla el proceso (espera, comunicación, calidad) y cierra el hueco — o las quejas se repetirán con nuevos autores.",
+      ],
+      lists: [
+        {
+          intro: "Prevención:",
+          items: [
+            "fija promesas (plazo, alcance, precio) antes de entregar",
+            "da un canal simple de queja (teléfono/chat), no solo el mapa",
+            "monitoriza reseñas nuevas y responde el mismo día",
+            "pide reseñas a clientes contentos sin scripts de fake",
+            "entrena al personal a no pelear en público — escala por dentro",
+          ],
+        },
+      ],
+      tables: [
+        {
+          caption: "Escenario → primer paso",
+          headers: ["Situación", "Qué hacer primero"],
+          rows: [
+            ["Crítica honesta y al tema", "Respuesta pública + revisión interna"],
+            ["Insultos / spam / fake", "Reporte + pruebas"],
+            ["El cliente es localizable", "Diálogo y resolución del caso"],
+            [
+              "Mucha negatividad antigua",
+              "Respuestas, mejoras, reseñas nuevas — no cargar el listing",
+            ],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Checklist ante negatividad en 2GIS",
+      level: 2,
+      paras: [
+        "Mantén un orden simple: no entres en pánico → comprueba hechos → responde en público → resuelve con el cliente → reporta solo por incumplimiento de reglas → mejora el proceso.",
+        "Un listing de 2GIS complementa el sitio y otros mapas (Yandex, Google). Un NAP coherente y la misma historia de «cómo respondemos» importan más que limpiar una sola plataforma.",
+      ],
+    },
+  ],
+  related: [
+    "negativnyy-otzyv",
+    "google-biznes",
+    "yandeks-spravochnik",
+    "otzyvy-dlya-prodazh",
+  ],
+};
+
 /** EN overlay for otzyv-2gis — same structure as RU JSON. */
 export const otzyv2gisEn: BlogPost = {
   slug: "otzyv-2gis",

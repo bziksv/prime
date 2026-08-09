@@ -10,7 +10,11 @@
 - обложки / картинки → [`.cursor/rules/image-assets.mdc`](../.cursor/rules/image-assets.mdc);
 - сборка RU-статей → [`BLOG-ARTICLE-STANDARD.md`](./BLOG-ARTICLE-STANDARD.md).
 
-Очередь нативного EN блога (рабочая): `tmp/blog-en-native/` (`PLAN.md`, `progress.json`, `queue-tier-*.txt`).
+Очереди:
+- EN блог: `tmp/blog-en-native/` (`PLAN.md`, `progress.json`, `queue-tier-*.txt`);
+- EN маркетинг/кейсы: `tmp/site-en-native/` (complete);
+- ES маркетинг/кейсы: `tmp/site-es-native/` (complete);
+- ES блог: `tmp/blog-es-native/` (`PLAN.md`, `progress.json`, `queue.txt`).
 
 ---
 

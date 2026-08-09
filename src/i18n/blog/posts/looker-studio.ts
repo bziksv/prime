@@ -199,3 +199,203 @@ export const lookerStudioEn: BlogPost = {
     "Looker Studio works well as a storefront for marketing data. End-to-end analytics starts by joining ads, the site, and CRM; the report only makes that join readable for the team and the client.",
   ],
 };
+
+/** ES overlay for looker-studio — same structure as RU JSON / EN. */
+export const lookerStudioEs: BlogPost = {
+  slug: "looker-studio",
+  title: "Looker Studio (Google Data Studio): informes y analytics end-to-end",
+  date: "2020-05-13",
+  category: "Analytics",
+  cover: "/images/blog/looker-studio/cover.webp",
+  excerpt:
+    "Qué es Looker Studio (antes Google Data Studio): cómo armar dashboards, conectar fuentes y en qué se diferencia la visualización de una verdadera analytics end-to-end con CRM.",
+  lead: [
+    "Looker Studio (antes de 2022 — Google Data Studio) es un constructor gratuito de informes: tablas, gráficos y filtros sobre datos de analytics, hojas y cuentas de ads.",
+    "Abajo: cómo funciona el producto, cómo armar un dashboard de marketing y dónde está la línea — Data Studio solo no «enciende» analytics end-to-end sin unir gasto, sitio y CRM. UI y connectors cambian — apóyate en la lógica, no en capturas de 2020.",
+  ],
+  faq: [
+    {
+      q: "¿Data Studio y Looker Studio son lo mismo?",
+      a: "Sí: el producto se renombró. Los artículos viejos de Data Studio describen la misma clase de herramienta.",
+    },
+    {
+      q: "¿Sustituye a Google Analytics?",
+      a: "No. Analytics (GA4) y Yandex Metrica recogen eventos. Looker Studio dibuja informes desde datos ya recogidos y otras fuentes.",
+    },
+    {
+      q: "¿Puedo hacer analytics end-to-end solo en Looker Studio?",
+      a: "Visualización — sí. Una foto completa «ads → lead → pago» — solo si las fuentes ya tienen gasto, leads e ingresos con claves compartidas (client id, teléfono, order id).",
+    },
+    {
+      q: "¿En qué se diferencia de un dashboard en Excel?",
+      a: "Connectors en vivo, compartir por enlace, filtros de equipo. Excel sigue siendo cómodo para resúmenes puntuales y modelos hechos a mano complejos.",
+    },
+    {
+      q: "¿Hace falta BigQuery?",
+      a: "No siempre. Para empezar bastan connectors de GA4/hojas/ads. BigQuery y ETL ayudan con volúmenes grandes, historial sin sampling y joins complejos.",
+    },
+    {
+      q: "¿Por qué los números de Looker Studio no coinciden con otros informes?",
+      a: "Modelos de atribución distintos, sampling, zonas horarias, UTMs duplicadas, leads fuera del sitio (chat, teléfono). Cruza con CRM y cuentas de ads en bruto.",
+    },
+    {
+      q: "¿El servicio está disponible en Rusia?",
+      a: "El acceso a productos Google depende de la cuenta, la política y la infraestructura. Planifica reporting alrededor de las cuentas que el equipo usa de verdad; si hace falta, espeja KPIs críticos en Metrica/hojas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué puede hacer Looker Studio",
+      level: 2,
+      paras: [
+        "El producto se conecta a fuentes vía connectors, arma visuals y comparte el informe con derechos de vista o edición. Los datos se refrescan según el schedule de la fuente — el informe se siente más como un dashboard en vivo que un PDF puntual.",
+        "Es una capa de presentación. No sustituye el etiquetado correcto de goals, UTMs y tracking en CRM. No confundas Looker Studio con Urchin / la historia temprana de Analytics: productos distintos.",
+      ],
+      lists: [
+        {
+          intro: "Trabajos típicos:",
+          items: [
+            "resumen de tráfico y conversión para un cliente",
+            "comparación de canales en una pantalla",
+            "monitorizar 5–10 KPIs sin exports semanales",
+            "informes blended simples desde varias fuentes",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Dashboard de negocio",
+          href: "/es/blog/dashboard/",
+        },
+        {
+          label: "Herramientas de web analytics",
+          href: "/es/blog/instrumenty-veb-analitiki/",
+        },
+      ],
+    },
+    {
+      title: "Analytics end-to-end: el rol del informe",
+      level: 2,
+      paras: [
+        "La analytics end-to-end responde qué canal y campaña llevaron a un lead y a dinero — no solo a un clic. Hacen falta IDs de usuario/trato y unir el gasto de ads con el CRM.",
+        "Looker Studio muestra el resultado del join. Si las fuentes no tienen pagos ni estados de trato, un gráfico bonito se queda en analytics «del sitio», no end-to-end.",
+      ],
+      lists: [
+        {
+          intro: "Setup mínimo end-to-end:",
+          items: [
+            "gasto de cuentas de ads",
+            "comportamiento del sitio y goals (Metrica / GA4)",
+            "leads y pagos del CRM",
+            "UTMs consistentes y reglas de atribución",
+            "un dashboard donde esos campos ya se alinean",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Looker Studio solo no arregla UTMs rotas ni leads solo por messenger sin tracking. Primero datos y un diccionario de métricas — luego visualización.",
+        },
+      ],
+      links: [
+        {
+          label: "Etiquetas UTM",
+          href: "/es/blog/utm-metki/",
+        },
+        {
+          label: "Google Analytics",
+          href: "/es/blog/google-analytics/",
+        },
+      ],
+    },
+    {
+      title: "Cómo armar el primer informe",
+      level: 2,
+      paras: [
+        "Necesitas una cuenta Google y acceso a las fuentes. Crea un informe → conecta una fuente (p. ej. GA4 o Google Sheets) → añade 3–5 visuals para un goal: no «toda métrica del mundo», sino preguntas de negocio.",
+        "Las etiquetas de menú cambian. Oriéntate en: data source, página del informe, chart/tabla, métrica y dimensión, filtro de fechas, acceso por email.",
+      ],
+      lists: [
+        {
+          intro: "Orden de arranque:",
+          items: [
+            "fijar 5–7 KPIs",
+            "conectar una fuente fiable",
+            "armar una página overview",
+            "añadir filtros de fecha y canal",
+            "dar al equipo acceso solo de vista",
+            "reconciliar números con la cuenta fuente",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Fuentes, blending y end-to-end «pesado»",
+      level: 2,
+      paras: [
+        "Para un informe de marketing simple, a menudo bastan connectors de analytics, ads y hojas. El blending ayuda a alinear campos sobre una clave compartida — cuidado con el grain y los duplicados.",
+        "Cuando los datos son grandes o necesitas historial sin sampling y joins complejos con CRM/call tracking, los equipos suelen mover datos en bruto a un warehouse (p. ej. BigQuery) o un pipeline ETL y dejar Looker Studio como escaparate. No hace falta un vendor ETL concreto — sí un pipeline controlado.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo complicar la arquitectura:",
+          items: [
+            "presupuesto y muchos canales",
+            "un ciclo de venta largo",
+            "necesitas pagos y margen del CRM",
+            "los exports manuales se llevan horas cada semana",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Visuals y filtros",
+      level: 2,
+      paras: [
+        "Tarjetas KPI, tendencias diarias, tabla de campañas, pie de canales, filtro de periodo — el set básico. No sobrecargues la primera página: un manager debería ver «bien / mal / dónde mirar» en 30 segundos.",
+        "Los filtros interactivos (canal, región, dispositivo) hacen del informe una herramienta de trabajo, no una imagen. Etiqueta ejes y fija definiciones: qué cuenta como lead y conversión.",
+      ],
+      lists: [
+        {
+          intro: "Errores habituales de diseño:",
+          items: [
+            "diez gráficos sin pregunta",
+            "definiciones distintas de una métrica entre páginas",
+            "periodo por defecto «todo el tiempo»",
+            "acceso de edición para toda la empresa",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Acceso, calidad de datos y alternativas",
+      level: 2,
+      paras: [
+        "El sharing es por email con roles viewer/editor o por enlace bajo tu política de seguridad. Para clientes, solo vista y un set de KPIs preacordado son más habituales.",
+        "Reconcilia el informe con cuentas en bruto y CRM: gaps por atribución, bots, consentimiento de cookies y leads offline son normales — pero deben ser explicables. No te apoyes solo en un visualizador: Metrica, cuentas de ads y una hoja «fuente de verdad» de tratos protegen las decisiones.",
+      ],
+      lists: [
+        {
+          intro: "Antes de confiar en el dashboard:",
+          items: [
+            "¿los totales de gasto coinciden con las cuentas de ads?",
+            "¿los conteos de pago coinciden con el CRM?",
+            "¿la zona horaria es consistente?",
+            "¿hay UTMs y tags duplicados?",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Excel y Google Sheets",
+          href: "/es/blog/excel-google-tablitsy/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Looker Studio funciona bien como escaparate de datos de marketing. La analytics end-to-end empieza uniendo ads, sitio y CRM; el informe solo hace ese join legible para el equipo y el cliente.",
+  ],
+};

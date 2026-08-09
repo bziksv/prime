@@ -164,3 +164,168 @@ export const privetstvieSaytaEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for privetstvie-sayta — same structure as RU JSON / EN. */
+export const privetstvieSaytaEs: BlogPost = {
+  slug: "privetstvie-sayta",
+  title: "Saludo del sitio: cómo recibir visitantes sin molestarlos",
+  date: "2021-08-10",
+  category: "Digital marketing",
+  cover: "/images/blog/privetstvie-sayta/cover.webp",
+  excerpt:
+    "Cómo moldear el primer contacto en la home: copy del hero, popups con cuidado y chat. Qué construye confianza y conversión — y qué espanta en segundos.",
+  lead: [
+    "La home es la cara del sitio: en los primeros segundos la gente decide quedarse o irse. Un saludo aquí no es necesariamente «hola» — es una señal clara: quién eres, a quién ayudas y qué hacer después.",
+    "Abajo: el bloque de texto de la primera pantalla, popups y chat. Enfócate en beneficio y tono; pop-unders agresivos y un chat un segundo tras entrar dañan más a menudo de lo que ayudan.",
+  ],
+  faq: [
+    {
+      q: "¿La home debe decir literalmente «Hola»?",
+      a: "No. Importan más una oferta clara y la audiencia. Un saludo formal sin sustancia es fluff. Patrón que funciona: beneficio + quién eres + CTA.",
+    },
+    {
+      q: "¿En qué se diferencia un saludo del copy SEO?",
+      a: "El saludo / hero es para una persona aquí y ahora. Los párrafos SEO más abajo o en landings cubren queries; no vuelques una hoja de keywords en la primera pantalla.",
+    },
+    {
+      q: "¿Debe abrirse el chat al momento?",
+      a: "Suele no. Un botón de chat pasivo es más calmado. El auto-open encaja de forma selectiva (promo, carrito abandonado) con un cierre fácil.",
+    },
+    {
+      q: "¿Hacen falta keywords en el saludo?",
+      a: "Palabras con sentido — sí; spam de keywords en el hero — no. Deja el linking y el set de keywords en la estructura de la página, no en un solo párrafo de «saludo».",
+    },
+    {
+      q: "¿Cómo se ata el saludo a la conversión?",
+      a: "Una primera pantalla clara y un UX calmado son hipótesis de CRO. Ver el artículo aparte de optimización de conversión.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué saludar en la home",
+      level: 2,
+      paras: [
+        "La primera pantalla fija expectativas. Si no está claro cómo ayuda el sitio, sube el bounce — tanto en ads como en orgánico.",
+        "Un buen saludo despierta interés, diferencia de competidores y lleva a la acción: catálogo, solicitud, llamada. Uno malo alaba la empresa sin hechos o tapa el contenido con popups.",
+      ],
+      lists: [
+        {
+          intro: "Qué da un primer contacto claro:",
+          items: [
+            "interés y confianza",
+            "beneficios claros",
+            "una pista del siguiente paso",
+            "un tono que encaja con el nicho (B2B más seco, cultura más cálida, tienda hacia la compra)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+    },
+    {
+      title: "Saludo en texto en la primera pantalla",
+      level: 2,
+      paras: [
+        "Clásico — un bloque hero: titular, 1–2 frases, CTA. Estilo según la audiencia: clínica — contenido; blog creativo — más cálido OK; tienda — hacia elección y precio.",
+        "El patrón atención → interés → convicción → pedir funciona. Lo que no: fluff sobre «servicio de calidad», un eslogan sin sentido, biografía del dueño en lugar de oferta.",
+      ],
+      lists: [
+        {
+          intro: "Señales de un bloque fuerte:",
+          items: [
+            "claro de qué va el sitio al momento",
+            "un beneficio u oferta concreta",
+            "precios/plazos/hechos cuando aporten",
+            "un botón de acción principal",
+            "sin clichés ni «alto arte» por belleza",
+          ],
+        },
+        {
+          intro: "Qué evitar en el primer párrafo:",
+          items: [
+            "una misión global sin producto",
+            "hobbies del liderazgo",
+            "copy-paste y eslóganes vacíos",
+            "una hoja SEO encima del hero",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "En copy de ads y servicios, el «tú» suele ir en minúscula salvo que empiece frase. Lo que importa es beneficio y claridad — no un ritual de ortografía.",
+        },
+      ],
+    },
+    {
+      title: "Ventanas pop-up",
+      level: 2,
+      paras: [
+        "Los pop-ups y sobre todo los pop-unders a menudo molestan: tapan el contenido, interrumpen la lectura, dañan la confianza. Si los usas — poco, con un trigger (scroll, exit, carrito), con cierre claro y una idea en la ventana.",
+        "Un «¡Te esperamos!» masivo un segundo tras entrar es una mala norma. Mejor reforzar la primera pantalla y el formulario de lead en sí.",
+      ],
+      lists: [
+        {
+          intro: "Mini reglas si aun así hace falta un popup:",
+          items: [
+            "una oferta, no un carrusel de banners",
+            "cierre fácil",
+            "no más de una vez por sesión",
+            "no en cada paso del embudo seguido",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Formulario de contacto",
+          href: "/es/blog/forma-obratnoy-svyazi/",
+        },
+      ],
+    },
+    {
+      title: "Saludo en el chat",
+      level: 2,
+      paras: [
+        "El chat en vivo ayuda con preguntas rápidas. Un botón pasivo («Mensaje») suele ser más amable que el auto-open tras 1 segundo con «¿ya elegiste?».",
+        "El chat activo encaja de forma selectiva: una promo, un producto B2B complejo, vuelta a un carrito abandonado — y solo si un operador responde de verdad rápido.",
+      ],
+      lists: [
+        {
+          intro: "Tono del chat:",
+          items: [
+            "saludar y presentarte",
+            "foto/nombre de un consultor real si lo hay",
+            "pedir el nombre sin interrogatorio",
+            "ir al grano, sin presión",
+            "ofrecer seguir por email/messenger si quieren",
+            "despedirse y dejar un siguiente paso",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Reglas de buen tono",
+      level: 2,
+      paras: [
+        "Un estilo en todo el sitio: home, fichas, emails. La primera impresión no se repite — una oferta clara gana a cinco widgets que gritan.",
+      ],
+      lists: [
+        {
+          intro: "Checklist corto antes de publicar:",
+          items: [
+            "el hero se entiende sin scroll",
+            "un CTA, y se ve",
+            "los popups no ahogan el contenido",
+            "el chat no grita al momento",
+            "sin alabanzas vacías en lugar de hechos",
+          ],
+        },
+      ],
+    },
+  ],
+};

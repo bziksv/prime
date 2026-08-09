@@ -227,3 +227,231 @@ export const opisanieTovaraEn: BlogPost = {
     "alt-img",
   ],
 };
+
+/** ES overlay for opisanie-tovara — same structure as RU JSON / EN. */
+export const opisanieTovaraEs: BlogPost = {
+  slug: "opisanie-tovara",
+  title: "Descripción de producto en una ficha ecommerce",
+  date: "2020-07-27",
+  category: "Content marketing",
+  cover: "/images/blog/opisanie-tovara/cover.webp",
+  excerpt:
+    "Cómo escribir la descripción de una ficha de producto: fotos y copy, emoción sin fluff, features y specs, estructura y SEO — para que el comprador encuentre argumentos de precio y haga el pedido.",
+  lead: [
+    "La ficha de producto es donde una decisión de compra más a menudo se rompe o se cierra. Una foto fuerte atrapa la mirada; el texto debe responder dudas: por qué lo necesito, qué justifica el precio, por qué tu tienda es más fácil que la siguiente pestaña.",
+    "Abajo: el rol de imagen y copy, cómo escribir beneficios y features, qué specs van en la ficha y cómo armar el bloque sin un muro de texto. El marco general de copy de venta vive cerca; aquí el foco es la ficha SKU de ecommerce.",
+  ],
+  faq: [
+    {
+      q: "¿Basta una foto sin texto?",
+      a: "Para ítems baratos de impulso a veces sí. Con precio alto, elección de talla o configuración, y comparación con competidores — el texto es obligatorio.",
+    },
+    {
+      q: "¿Escribes con emoción o solo specs?",
+      a: "Ambas capas: un escenario de uso corto más hechos (material, talla, kit). La emoción sola sin propiedades no cierra dudas.",
+    },
+    {
+      q: "¿Se puede copiar la descripción del fabricante?",
+      a: "Riesgo de duplicado y fichas idénticas entre vendedores. Mejor uniquizar para tu audiencia y añadir lo que falta a los competidores — envío, garantía, bundles.",
+    },
+    {
+      q: "¿Hacen falta keywords en la descripción?",
+      a: "De forma natural — nombre, tipo, atributos clave. No conviertas un párrafo en una lista de queries separadas por comas.",
+    },
+    {
+      q: "¿Cuántos caracteres debería tener?",
+      a: "Los que cierren las preguntas de elección. A menudo: un lead de dos a cuatro frases, una lista de specs y un bloque «por qué nosotros». No rellenes con fluff.",
+    },
+    {
+      q: "¿Qué es obligatorio en ropa y calzado?",
+      a: "Tabla de tallas, material, cuidado, fit o ancho, altura del modelo cuando haga falta — todo lo que dispara mensajes en el chat y manda a la gente al competidor.",
+    },
+    {
+      q: "¿La descripción sola te lleva a primera página?",
+      a: "Es parte de la calidad de página y la conversión. La prep de fichas lleva semanas. El crecimiento orgánico del set de keywords se construye mes a mes — planificado 2–6 meses tras el arranque del trabajo.",
+    },
+    {
+      q: "¿En qué se diferencia una ficha de producto de una landing?",
+      a: "Una ficha es una elección compacta de SKU en un catálogo. Una landing es una oferta en una página larga. Las técnicas se solapan; volumen y estructura difieren.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué la ficha necesita copy fuerte",
+      level: 2,
+      paras: [
+        "El comprador ya enganchó con visuales o precio y quiere confirmación. El copy persuade de que el producto resuelve el trabajo, de que el precio encaja con el kit y el servicio, y de que pedir contigo es más fácil que abrir tres pestañas más.",
+        "Un copy débil tipo «regalo perfecto» sin detalle no se lee. Un copy fuerte responde objeciones típicas antes de que un manager conteste: mientras esperas en el chat, parte de la audiencia ya compró al competidor con la ficha completa.",
+      ],
+      lists: [
+        {
+          intro: "Tres trabajos de la descripción:",
+          items: [
+            "quitar la duda «¿lo necesito?»",
+            "justificar precio y contenido",
+            "empujar el pedido concretamente contigo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Copy de venta",
+          href: "/es/blog/prodayushchie-teksty/",
+        },
+      ],
+    },
+    {
+      title: "Foto y texto trabajan en pareja",
+      level: 2,
+      paras: [
+        "La imagen vende atención: color, ángulo, contexto de uso. Pero con precio alto o elección compleja la mirada va al texto — buscando material, talla, garantía, diferencias frente a un análogo barato.",
+        "Combo fuerte: fotos honestas (incluido detalle y escala) más copy que nombra sensaciones y hechos. No dependas solo de una etiqueta bonita — sin argumentos el carrito se vacía en el siguiente paso.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo visual junto al copy:",
+          items: [
+            "ángulo hero y dos o tres detalles",
+            "foto en uso si encaja",
+            "captions y alt legibles sin stuffing",
+            "estilo coherente en una serie de fichas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Texto alt de imagen",
+          href: "/es/blog/alt-img/",
+        },
+        {
+          label: "Imágenes y atención",
+          href: "/es/blog/kartinki-vnimanie/",
+        },
+      ],
+    },
+    {
+      title: "Emoción y escenario de uso",
+      level: 2,
+      paras: [
+        "Un buen lead hace sentir el resultado: no «manta suave», sino «tras el trabajo, envuélvete y exhala con un café». La emoción es familiar para la audiencia — y el producto se vuelve una respuesta, no una fila abstracta de catálogo.",
+        "No abuses del pathos publicitario ni de milagros inventados. Si prometes un efecto — debe ser plausible y encajar con las specs. Si no, las devoluciones y malas reseñas se comen la conversión.",
+      ],
+      lists: [
+        {
+          intro: "Cómo escribir el escenario:",
+          items: [
+            "quién compra y en qué situación",
+            "qué dolor o deseo cerramos",
+            "uno o dos detalles sensoriales sin fluff",
+            "pase a hechos y a la lista de features",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Un párrafo lírico sin tallas ni composición. Bonito — pero no compran.",
+        },
+      ],
+    },
+    {
+      title: "Features, beneficios y argumentos honestos",
+      level: 2,
+      paras: [
+        "La gente compra una solución: abrigarse, acelerar, regalar, ahorrar espacio. Antes de escribir, reúne preguntas de la audiencia de chats, reseñas y búsqueda. El texto las responde — no lista «innovación» sin prueba.",
+        "Liga features a beneficios: «tejido denso 300 g/m²» → «no se transparenta y mantiene la forma tras los lavados». Añade por qué comprar contigo: kit, plazos, devoluciones, consejo — lo que falta a una ficha de marketplace.",
+      ],
+      lists: [
+        {
+          intro: "Marco de argumentos:",
+          items: [
+            "para quién es el producto",
+            "qué trabajo resuelve",
+            "features clave → beneficios",
+            "diferencias frente a alternativas típicas",
+            "términos de compra contigo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Promoción ecommerce",
+          href: "/es/blog/prodvizhenie-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "Specs: todo lo que dispara mensajes en el chat",
+      level: 2,
+      paras: [
+        "Si la elección necesita longitud de plantilla, potencia, composición de aleación, compatibilidad — debe estar en la ficha al momento. Si no, el impulso se enfría mientras un manager responde.",
+        "Importa la forma: primero un lead corto, luego una lista de specs con viñetas, luego detalle y FAQ del producto. Un muro sólido de 3000 caracteres sin estructura no se lee en el teléfono.",
+      ],
+      lists: [
+        {
+          intro: "Bloque de specs obligatorio:",
+          items: [
+            "tallas / peso / volumen",
+            "materiales y cuidado",
+            "qué hay en la caja",
+            "compatibilidad y límites",
+            "garantía y términos de devolución (corto + enlace)",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Recorre 20 preguntas frecuentes de soporte — la mitad debería cerrarla el copy de la ficha.",
+        },
+      ],
+      links: [
+        {
+          label: "Categorías ecommerce",
+          href: "/es/blog/kategorii-internet-magazina/",
+        },
+      ],
+    },
+    {
+      title: "Checklist de ficha fuerte",
+      level: 2,
+      paras: [
+        "Antes de publicar revisa: emoción o escenario sin fluff, features cubiertas, lista completa de specs, motivos para comprar contigo, CTA claro (añadir al carrito / pedir / pedir presupuesto). Un gancho original encaja si ayuda a elegir — no si distrae.",
+        "Una descripción perfecta no garantiza sola rankings en primera página — sube conversión y calidad de página. Luego vienen surtido, precio, envío y la vía SEO del catálogo.",
+      ],
+      lists: [
+        {
+          intro: "Antes de ir live:",
+          items: [
+            "el lead responde «por qué yo»",
+            "las specs están completas",
+            "sin copy-paste de fábrica uno a uno (o mejorado a conciencia)",
+            "las keywords se sienten naturales",
+            "legibilidad móvil",
+            "foto y copy alineados",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Copywriting",
+          href: "/es/blog/kopirayting/",
+        },
+        {
+          label: "Optimización de conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "prodayushchie-teksty",
+    "prodvizhenie-internet-magazina",
+    "kategorii-internet-magazina",
+    "kopirayting",
+    "optimizatsiya-konversii",
+    "alt-img",
+  ],
+};

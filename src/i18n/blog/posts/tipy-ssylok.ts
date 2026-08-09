@@ -166,3 +166,170 @@ export const tipySsylokEn: BlogPost = {
     "autrich",
   ],
 };
+
+/** ES overlay for tipy-ssylok — same structure as RU JSON / EN. */
+export const tipySsylokEs: BlogPost = {
+  slug: "tipy-ssylok",
+  title: "Tipos de enlaces y dónde conseguirlos",
+  date: "2018-11-13",
+  category: "SEO",
+  cover: "/images/blog/tipy-ssylok/cover.webp",
+  excerpt:
+    "Cómo se ven los backlinks y de dónde salen: menciones naturales, medios, contenido, partnerships, comunidades, directorios, dofollow/nofollow, permanentes vs temporales — sin link farms ni spam masivo.",
+  lead: [
+    "El link building ya no es «compra un paquete en un exchange y crece en una semana» desde hace tiempo. Los buscadores pesan la calidad del donante, anclas naturales y valor para el lector — las link farms y los envíos masivos restan más de lo que suman.",
+    "Abajo: un mapa de tipos de enlaces y canales de adquisición — qué sigue teniendo sentido, dónde está la línea de riesgo y cómo se ata al análisis de perfil y a las colocaciones de pago. No reciclamos recetas viejas de «.edu por una beca» como playbook.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia de los enlaces gratis?",
+      a: "Ese artículo cubre fuentes sin presupuesto de media. Aquí — tipos de enlaces y canales en general, incluidos atributos de pago y técnicos.",
+    },
+    {
+      q: "¿Dofollow es obligatorio?",
+      a: "No. Nofollow, sponsored y ugc siguen trayendo tráfico y marca. Perseguir solo dofollow en sitios basura no tiene sentido.",
+    },
+    {
+      q: "¿Los enlaces permanentes son mejores que los alquilados?",
+      a: "A menudo sí por durabilidad si el donante está vivo. Los temporales encajan en tests y campañas. La calidad del sitio pesa más que la etiqueta «permanente».",
+    },
+    {
+      q: "¿Cuentan los enlaces internos?",
+      a: "Sí — eso es el enlazado interno de tu propio sitio. El link building externo no lo sustituye.",
+    },
+    {
+      q: "¿Los directorios siguen siendo útiles?",
+      a: "Los de nicho e industria y los locales — a veces. Los auto-envíos masivos — casi nunca.",
+    },
+    {
+      q: "¿Puedo comprar enlaces?",
+      a: "Como publicidad — bajo la ley y las reglas de la plataforma. Para SEO, los esquemas de paquetes llevan alto riesgo. Más en el artículo de compra.",
+    },
+    {
+      q: "¿Por dónde empiezo?",
+      a: "Con contenido fuerte y menciones naturales, luego partnerships y PR dirigidos. Primero limpia la basura del perfil.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué «solo comprar» ya no funciona",
+      level: 2,
+      paras: [
+        "Antes era fácil crecer en masa vía redes y exchanges. Ahora importan un donante relevante, una audiencia viva y un contexto útil — si no, el crecimiento dura poco o se filtra.",
+        "Elige canales según nicho y recursos: B2B, negocio local y medios dan menciones de formas distintas. No hay un checklist universal de «N enlaces al día».",
+      ],
+      links: [
+        {
+          label: "Análisis del perfil de backlinks",
+          href: "/es/blog/ssylochnyy-profil/",
+        },
+        {
+          label: "Comprar enlaces: riesgos",
+          href: "/es/blog/pokupka-ssylok/",
+        },
+      ],
+    },
+    {
+      title: "Enlaces naturales y de contenido",
+      level: 2,
+      paras: [
+        "Los enlaces naturales aparecen cuando la gente cita tu trabajo sin un trato de «exchange»: investigación, una herramienta, una guía fuerte, una noticia.",
+        "Funcionan los formatos que se guardan y se comparten: guías, screencasts, infografías, datos abiertos. Apunta a valor para la audiencia del donante — no a un ancla por el ancla.",
+        "El contenido experto y las piezas guest en sitios vivos se acercan más a un perfil durable que los comentarios spam.",
+      ],
+      links: [
+        {
+          label: "Enlaces gratis",
+          href: "/es/blog/besplatnye-ssylki/",
+        },
+        {
+          label: "Guest post",
+          href: "/es/blog/gostevoy-post/",
+        },
+      ],
+    },
+    {
+      title: "Medios, partners, comunidades y directorios",
+      level: 2,
+      paras: [
+        "Prensa y medios de industria dan alcance y confianza cuando hay un gancho de noticia. Los programas de partners y las menciones mutuas funcionan cuando hay valor real para ambos lados — no un esquema masivo de «enlace por enlace».",
+        "Foros y comunidades de nicho — solo respuestas honestas; los diálogos falsos con dos cuentas duelen a la reputación. Lo social suele traer tráfico y marca más que el «peso de enlace» clásico.",
+        "Los directorios de industria y locales ayudan a la navegación y al NAP. Las corridas masivas por miles de directorios son ruido.",
+      ],
+      lists: [
+        {
+          intro: "Canales para un mapa de link building:",
+          items: [
+            "contenido e investigación",
+            "medios / PR",
+            "partners y proveedores",
+            "comunidades en discusiones vivas",
+            "directorios estrechos y mapas",
+            "colocaciones de pago dirigidas como publicidad",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Enlaces en foros",
+          href: "/es/blog/ssylki-na-forumah/",
+        },
+        {
+          label: "Directorios de sitios",
+          href: "/es/blog/katalogi-saytov/",
+        },
+      ],
+    },
+    {
+      title: "Enlaces internos y atributos",
+      level: 2,
+      paras: [
+        "El enlazado interno reparte peso y ayuda a los usuarios. A menudo se infravalora mientras los equipos persiguen solo backlinks externos.",
+        "Dofollow señala «puede contarse»; nofollow, sponsored y ugc son markup normal para ads y UGC. No rompas atributos por el mito de «solo dofollow».",
+      ],
+      links: [
+        {
+          label: "Enlazado interno",
+          href: "/es/blog/vnutrennyaya-perelinkovka/",
+        },
+      ],
+    },
+    {
+      title: "Permanentes, alquilados y la zona de riesgo",
+      level: 2,
+      paras: [
+        "Un enlace «permanente» en un sitio vivo gana a uno temporal en un drop. Alquilar una colocación fuerte puede traer tráfico para una campaña — cuéntalo como media, no como un activo SEO eterno.",
+        "Paquetes de exchange, link farms, esquemas «.edu/.gov por confianza» e intercambios recíprocos en red están en zona de alto riesgo. Si pagas por colocación — trátalo como publicidad y elige el donante como un medio.",
+        "Antes de crecer en masa, revisa el perfil actual: quita lo que controles que sea spam claro.",
+      ],
+      links: [
+        {
+          label: "Link builder",
+          href: "/es/blog/linkbilder/",
+        },
+        {
+          label: "Outreach",
+          href: "/es/blog/autrich/",
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Los nombres de exchanges y las «recetas» .edu/.gov de posts de los 2010 ya no son una estrategia. Apunta a calidad del donante, ley de publicidad y link building white-hat.",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Arma un mapa corto: qué tipos de enlaces ya tienes, qué canales faltan y qué puedes dar a la audiencia del donante — así el link building pasa a plan, no a hábito de «comprar más».",
+  ],
+  related: [
+    "besplatnye-ssylki",
+    "pokupka-ssylok",
+    "ssylochnyy-profil",
+    "ssylki-na-forumah",
+    "linkbilder",
+    "autrich",
+  ],
+};

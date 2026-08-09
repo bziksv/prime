@@ -186,3 +186,190 @@ export const tendentsiiVebDizaynaEn: BlogPost = {
     "ustarevshiy-sayt",
   ],
 };
+
+/** ES overlay for tendentsii-veb-dizayna — same structure as RU JSON / EN. */
+export const tendentsiiVebDizaynaEs: BlogPost = {
+  slug: "tendentsii-veb-dizayna",
+  title: "Tendencias de web design: qué enviar — y qué estorba",
+  date: "2018-05-29",
+  category: "Digital marketing",
+  cover: "/images/blog/tendentsii-veb-dizayna/cover.webp",
+  excerpt:
+    "Cómo elegir tendencias de web design sin perseguir la moda: animación, color y tipografía, data storytelling, IA en la UI, ilustraciones, mobile-first, asimetría, tools, email y e-com — centrado en el camino del usuario y la velocidad.",
+  lead: [
+    "Las tendencias de web design funcionan mejor como una biblioteca de técnicas — no como un checklist obligatorio de «envía todo». Algunas ideas ya son baseline (mobile-first, micro-interactions); otras siguen siendo moda de temporada o ruido por el efecto.",
+    "Abajo: cómo elegir técnicas para el trabajo del negocio — animación, color y tipografía, datos en pantalla, IA en la interfaz, ilustraciones, grid y tools. Un mapa de riesgos y decisiones, no una lista de gimmicks obligatorios.",
+  ],
+  faq: [
+    {
+      q: "¿Debo perseguir tendencias cada temporada?",
+      a: "No. Primero trabajo, audiencia y velocidad. Una tendencia encaja si refuerza el camino y no rompe el UX móvil.",
+    },
+    {
+      q: "¿Es obligatoria la animación?",
+      a: "No. Es útil para jerarquía y feedback. Sin meta — y en un teléfono débil — irrita y pega a Core Web Vitals.",
+    },
+    {
+      q: "¿Está muerto el flat design?",
+      a: "El «flat sin profundidad» clásico sumó sombras suaves y gradientes. El punto es una jerarquía clara — no una prohibición del volumen.",
+    },
+    {
+      q: "¿Qué tool de diseño debo elegir?",
+      a: "Mira el equipo y el proceso. Figma es un estándar común de collab; otros editores dependen del stack. Una biblioteca de componentes compartida gana a perseguir anuncios.",
+    },
+    {
+      q: "¿Una UI de moda vende sola?",
+      a: "Rara vez. La conversión se apoya más en oferta, trust, velocidad y un CTA claro que en asimetría por sí misma.",
+    },
+    {
+      q: "¿Debo poner un chat de IA en cada página?",
+      a: "Solo si cierra un camino real (matching, FAQ, estado del pedido). Un «bot por el bot» sin operador ni knowledge base baja la trust.",
+    },
+    {
+      q: "¿Cómo comprobar una tendencia antes del release?",
+      a: "Enuncia una hipótesis, mírala en un teléfono real, mide velocidad y comportamiento (rebote, clics en CTA). Sin métrica es gusto, no una decisión.",
+    },
+    {
+      q: "¿La asimetría encaja en sitios comerciales?",
+      a: "A veces en brand y landings. En catálogos y formularios, el escaneo previsible suele importar más. Testa — no copies un portfolio 1:1.",
+    },
+  ],
+  sections: [
+    {
+      title: "Cómo elegir tendencias sin perseguir la moda",
+      level: 2,
+      paras: [
+        "La pregunta útil no es «qué está de moda ahora» — es «qué barrera del camino quita esta técnica». La animación de un botón se gana el sitio si muestra estado; una paleta neón funciona si marca y nicho la aguantan y el texto sigue legible.",
+        "Separa baseline de moda de temporada. Mobile-first y tipografía clara son la base. Grids experimentales, 3D pesado y ruido decorativo son opciones con un coste para velocidad y accesibilidad.",
+      ],
+      lists: [
+        {
+          intro: "Filtro antes de enviar:",
+          items: [
+            "hay una meta en el camino del usuario",
+            "no rompe UX móvil ni tap targets",
+            "no mata velocidad ni Core Web Vitals",
+            "encaja con la marca — no pelea con ella",
+            "hay una hipótesis y una forma de medir el efecto",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Animación y micro-interactions",
+      level: 2,
+      paras: [
+        "El motion en la web funciona cuando explica: hover, carga, cambio de paso de formulario, aparición de un tip. SVG y animación CSS suelen ser más ligeros que fondos de vídeo pesados; GIF encaja en puntos concretos.",
+        "Sin meta, la animación es ruido. En dispositivos débiles roba atención y batería. Respeta `prefers-reduced-motion`: ofrece un modo simplificado para quien el motion molesta.",
+      ],
+      lists: [
+        {
+          intro: "Antes de enviar animación, pregunta:",
+          items: [
+            "qué explica el motion",
+            "cómo se comporta en un teléfono real",
+            "si se puede apagar o simplificar vía reduced-motion",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Color, tipografía y carácter visual",
+      level: 2,
+      paras: [
+        "Las paletas audaces ayudan a destacar si marca y nicho las aguantan. Las tools de color valen para experimentos; «neón en todas partes» sin chequeos de contraste arriesga legibilidad y accesibilidad.",
+        "La tipografía fija el tono: sans y serif emparejados, faces custom, titulares grandes. En móvil, la legibilidad gana al efecto; las web fonts pesadas cortan velocidad — cárgalas a propósito y limita pesos.",
+        "Paleta de storefront y sistema de identidad son temas relacionados; aquí el foco es que una tendencia no rompa jerarquía y CTA.",
+      ],
+      links: [
+        {
+          label: "Color de tienda online",
+          href: "/es/blog/tsvet-internet-magazina/",
+        },
+        {
+          label: "Identidad de marca",
+          href: "/es/blog/aydentika-brenda/",
+        },
+      ],
+    },
+    {
+      title: "Datos en pantalla y visuales complejos",
+      level: 2,
+      paras: [
+        "Data storytelling es cuando cifras y charts guían por sentido — no solo decoran un bloque. La legibilidad gana al wow: etiquetas, escala, una versión móvil del chart.",
+        "3D y AR encajan en nichos (por ejemplo, muebles en una habitación), pero para la mayoría de sitios comerciales no son must-have. Primero oferta clara y catálogo — luego experimentos AR.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          text: "Si un chart no se entiende en un teléfono en unos segundos — simplifícalo o sustitúyelo por una tabla o un takeaway corto.",
+        },
+      ],
+    },
+    {
+      title: "IA en interfaces e ilustraciones",
+      level: 2,
+      paras: [
+        "La IA en la UI es más amplia que un chatbot: hints de búsqueda, recomendaciones, generación de borradores, filtros smart. La trust se construye con un camino honesto: la gente entiende qué hace el sistema y cómo llegar a un humano.",
+        "Las ilustraciones en vez de clichés genéricos de relleno ayudan a que la marca suene única — si el estilo es estable y no aplasta el contenido. Un set al azar de imágenes «de moda» es peor que un sistema calmado y coherente.",
+      ],
+      lists: [
+        {
+          intro: "Cuándo encaja un widget de IA:",
+          items: [
+            "cierra una pregunta frecuente o una tarea de matching",
+            "hay knowledge base y escalado a un humano",
+            "no bloquea el camino principal al lead",
+            "no promete lo que el servicio no hace",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Mobile-first, «soft flat» y asimetría",
+      level: 2,
+      paras: [
+        "Mobile-first es necesidad, no moda: diseña el camino del teléfono antes de la decoración desktop. Micro-interactions y nav simple ganan a una dispersión de iconos; comprueba animación y tipografía grande en un dispositivo real.",
+        "«Soft flat»: una base plana más sombras ligeras y gradientes para jerarquía. Funciona hasta que se vuelve efectos pesados en cada bloque.",
+        "Los grids asimétricos dan carácter pero rompen el escaneo con facilidad. En páginas comerciales, testa: lo inusual solo no equivale a más leads.",
+      ],
+      links: [
+        {
+          label: "Sitio web responsive",
+          href: "/es/blog/adaptivnyy-sayt/",
+        },
+        {
+          label: "Optimización de la conversión",
+          href: "/es/blog/optimizatsiya-konversii/",
+        },
+      ],
+    },
+    {
+      title: "Tools, email y e-com: qué importa más que la moda de UI",
+      level: 2,
+      paras: [
+        "El mercado de editores y prototipos se mueve. Los equipos necesitan un proceso, una biblioteca de componentes y handoff a front-end más que perseguir un «unificador de todas las tools». Elige el stack por gente y ciclo de release.",
+        "La interactividad de email (carruseles, acciones in-mail) depende del cliente; algunos trucos están limitados. La base es layout de email móvil, un CTA claro y consentimiento lícito al mailing.",
+        "En e-commerce importan marketplaces, entrega, disponibilidad de stock y velocidad del pedido más que una «UI de storefront de moda». El diseño apoya la compra — no sustituye surtido y servicio.",
+      ],
+      links: [
+        {
+          label: "Crear una tienda online",
+          href: "/es/blog/sozdanie-internet-magazina/",
+        },
+        {
+          label: "Señales de un sitio obsoleto",
+          href: "/es/blog/ustarevshiy-sayt/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "tsvet-internet-magazina",
+    "adaptivnyy-sayt",
+    "aydentika-brenda",
+    "sozdanie-internet-magazina",
+    "optimizatsiya-konversii",
+    "ustarevshiy-sayt",
+  ],
+};

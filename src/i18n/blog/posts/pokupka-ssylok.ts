@@ -244,3 +244,248 @@ export const pokupkaSsylokEn: BlogPost = {
     "autrich",
   ],
 };
+
+/** ES overlay for pokupka-ssylok — same structure as RU JSON / EN. */
+export const pokupkaSsylokEs: BlogPost = {
+  slug: "pokupka-ssylok",
+  title: "Comprar enlaces: riesgos y criterios de calidad",
+  date: "2021-02-05",
+  category: "SEO",
+  cover: "/images/blog/pokupka-ssylok/cover.webp",
+  excerpt:
+    "Cuándo tienen sentido los placements de pago, qué riesgos traen los «packs» de exchanges y cómo juzgar un donor — sin guías para un bombardeo de enlaces.",
+  lead: [
+    "Los enlaces y artículos de pago siguen apareciendo en SEO, pero comprar «packs» masivos en exchanges es un camino rápido a filtros y presupuesto quemado.",
+    "Abajo: cómo pensar la calidad de menciones y donors, los riesgos de esquemas por paquete y qué es más seguro al inicio. Esto no es una guía de «compra enlaces más barato que nadie».",
+  ],
+  faq: [
+    {
+      q: "¿Está permitido comprar enlaces?",
+      a: "Como publicidad o placement — según reglas de la plataforma y la ley. Para búsqueda, el riesgo depende de la calidad y el esquema. Más seguro reforzar contenido y PR.",
+    },
+    {
+      q: "¿Hacen falta anclas exact-match?",
+      a: "No. La sobreoptimización de anclas perjudica. Una mezcla natural de marca, URL y anclas exactas raras es más sana.",
+    },
+    {
+      q: "¿Qué hace buen donor?",
+      a: "Audiencia viva, tema cercano al tuyo, moderación normal — no un sitio de spam de enlaces.",
+    },
+    {
+      q: "¿En qué se diferencia de los guest posts?",
+      a: "Los guest posts son contenido para una audiencia y una mención. El spam de exchange es «peso» a cualquier coste.",
+    },
+    {
+      q: "¿Qué en vez de comprar al inicio?",
+      a: "Tus propias páginas, digital PR, partnerships, mapas y reseñas donde encaje. Ver las piezas de sitio joven y enlaces en foros.",
+    },
+    {
+      q: "¿Hay que etiquetar los anuncios?",
+      a: "Sí: requisitos legales y reglas de la plataforma. Un efecto SEO no es motivo para ocultar un placement de pago.",
+    },
+    {
+      q: "¿Cómo saber si un placement compensó?",
+      a: "Visitas, consultas, ventas, awareness y calidad de audiencia. Un enlace sin tráfico no es prueba de valor.",
+    },
+    {
+      q: "¿Los enlaces nofollow y sponsored no sirven?",
+      a: "No siempre: el tráfico y la marca pueden justificar un placement. No persigas «dofollow a cualquier coste» en sitios basura.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué hace útil un enlace",
+      level: 2,
+      paras: [
+        "Tráfico y confianza ganan al «peso mágico». Un enlace desde una página relevante que la gente realmente clica gana a mil doorways cerrados.",
+        "Trata el placement como una recomendación para una persona: debería complementar la pieza y llevar a una página que cumpla la promesa. Si no, es solo una línea en un informe de «compramos un enlace».",
+      ],
+      lists: [
+        {
+          intro: "Señales de calidad:",
+          items: [
+            "tema del donor",
+            "copy del entorno",
+            "indexación y antigüedad",
+            "audiencia viva",
+            "sin spam obvio de enlaces en la sidebar",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Qué es un enlace",
+          href: "/es/blog/chto-takoe-ssylka/",
+        },
+        {
+          label: "Perfil de enlaces",
+          href: "/es/blog/ssylochnyy-profil/",
+        },
+      ],
+    },
+    {
+      title: "Criterios del donor",
+      level: 2,
+      paras: [
+        "Mira audiencia, estándares editoriales, enlaces salientes e historial del dominio. Salta sitios que venden un «pack de 100 enlaces» sin artículo.",
+        "Pide ejemplos de publicaciones pasadas y términos claros. Si la página es un montón de enlaces publicitarios sin relación y el contenido nunca se actualiza — el valor es dudoso aunque las métricas «bonitas» sean de 2015.",
+      ],
+      lists: [
+        {
+          intro: "Banderas rojas:",
+          items: [
+            "un sitio que existe solo para vender enlaces",
+            "un exchange llenando toda la pantalla",
+            "tema irrelevante",
+            "promesas de «primera página en una semana por enlaces»",
+            "lista de sitios oculta hasta que pagues",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Filtros de buscadores",
+          href: "/es/blog/filtry-poiskovikov/",
+        },
+      ],
+    },
+    {
+      title: "Riesgos de compras masivas",
+      level: 2,
+      paras: [
+        "Las compras por paquete dejan un rastro uniforme: mismas anclas, un pico brusco y sitios sin audiencia. Esos esquemas rara vez construyen reputación y a menudo queman presupuesto.",
+        "No arregles un sitio flojo con enlaces. Duplicados, una oferta confusa o un formulario de pedido roto no se curan con «peso» externo — primero higiene de tu propio recurso.",
+      ],
+      lists: [
+        {
+          intro: "Motivos para marcharse:",
+          items: [
+            "garantía de primera página en unos días",
+            "anclas comerciales exactas obligatorias en todas partes",
+            "sin forma de revisar la pieza antes del pago",
+            "presión de «precio hoy, mañana más alto» sin ejemplos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Este artículo va de criterios y riesgos — no de esquemas para saltar filtros. No cubrimos PBNs dudosas ni bombardeos de anclas como how-to.",
+        },
+      ],
+    },
+    {
+      title: "Anclas y un perfil natural",
+      level: 2,
+      paras: [
+        "Un perfil solo de «comprar X barato» parece artificial. Una mezcla normal: marca, URL, neutros («aquí», «fuente»), una cuota moderada de keywords.",
+        "El ritmo también importa: docenas de enlaces nuevos en una semana en un sitio joven sin contenido es una bandera roja para ti — aunque el vendedor prometa «crecimiento seguro».",
+      ],
+      lists: [
+        {
+          intro: "Práctica:",
+          items: [
+            "no copies la lista de anclas del competidor 1:1",
+            "vigila la cuota de anclas comerciales",
+            "ata la mención a una página de destino real",
+            "mantén un log: dónde, cuándo, qué URL y ancla",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo encajarlo en la estrategia",
+      level: 2,
+      paras: [
+        "Primero contenido y técnica. Menciones de pago — selectivas, con contrato o informe y medición de tráfico. No construyas un perfil solo con anclas compradas.",
+        "Planifica temas que importen a la audiencia de la plataforma: un caso, una investigación, un comentario de experto. Entonces la publicación ayuda aunque el «peso» de búsqueda sea modesto.",
+      ],
+      lists: [
+        {
+          intro: "Más seguro que el spam por paquete:",
+          items: [
+            "piezas guest",
+            "reseñas de partners",
+            "digital PR",
+            "menciones naturales de marca",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Los enlaces no sustituyen la preparación del sitio. El crecimiento de rankings de un núcleo de consultas se planifica a 2–6 meses de trabajo — no es el resultado de una sola compra.",
+        },
+      ],
+      links: [
+        {
+          label: "Sitio joven",
+          href: "/es/blog/molodoy-sayt/",
+        },
+        {
+          label: "Enlaces en foros",
+          href: "/es/blog/ssylki-na-forumah/",
+        },
+      ],
+    },
+    {
+      title: "Una alternativa limpia: menciones útiles",
+      level: 2,
+      paras: [
+        "Partnerships, comentarios de experto, investigación y piezas guest exigen más trabajo, pero dan motivo para mencionar la marca. El resultado no es solo un enlace — contactos, alcance, visitas.",
+        "Elige comunidades relevantes y propone un tema para sus lectores. Respeta la política editorial, declara anuncios donde haga falta y no exijas wording artificial.",
+      ],
+      lists: [
+        {
+          intro: "Activos de la empresa:",
+          items: [
+            "datos e investigación",
+            "casos con números y contexto",
+            "plantillas y checklists",
+            "piezas conjuntas con partners",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Seguimiento y medición",
+      level: 2,
+      paras: [
+        "Mantén una tabla de placements: URL del donor, fecha, ancla, coste, UTM, estado de indexación. Sin log, en seis meses no sabrás qué funcionó.",
+        "Vigila visitas y goals en analítica, menciones de marca, calidad del lead. «El enlace apareció en Ahrefs» solo no es ROI.",
+      ],
+      lists: [
+        {
+          intro: "Mini informe por placement:",
+          items: [
+            "plataforma y pieza",
+            "coste y etiquetado publicitario",
+            "tráfico y conversiones con UTM",
+            "decisión: repetir / no repetir",
+          ],
+        },
+      ],
+      tables: [
+        {
+          caption: "Qué comparar",
+          headers: ["Enfoque", "Beneficio", "Riesgo"],
+          rows: [
+            ["Pack de exchange", "Barato y rápido sobre el papel", "Filtros, perfil basura"],
+            ["Artículo selectivo", "Audiencia y contexto", "Más caro y lento"],
+            ["PR / partnership", "Marca y confianza", "Necesita un gancho de noticia fuerte"],
+          ],
+        },
+      ],
+    },
+  ],
+  related: [
+    "chto-takoe-ssylka",
+    "ssylochnyy-profil",
+    "filtry-poiskovikov",
+    "molodoy-sayt",
+    "ssylki-na-forumah",
+    "autrich",
+  ],
+};

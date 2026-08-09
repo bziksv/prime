@@ -140,3 +140,144 @@ export const logotipEn: BlogPost = {
     "shablon-instagram",
   ],
 };
+
+/** ES overlay for logotip — same structure as RU JSON / EN. */
+export const logotipEs: BlogPost = {
+  slug: "logotip",
+  title: "Cómo hacer el logo de una empresa: tipos y criterios",
+  date: "2019-08-26",
+  category: "Digital marketing",
+  cover: "/images/blog/logotip/cover.webp",
+  excerpt:
+    "Por qué hace falta un logo, dónde vive, cómo difieren mark, wordmark y combo, y cómo elegir el camino: builder, freelance, estudio — sin afirmaciones caducadas de «porcentaje de mercado».",
+  lead: [
+    "Un logo es un ancla visual corta de marca: un mark, una palabra o ambos. No sustituye producto y servicio, pero ayuda a reconocer la empresa en el sitio, en ads y en el packaging.",
+    "Abajo: por qué importa un logo al inicio, qué tipos hay, qué «funciona / no», y cómo encargarlo o hacer un borrador. El sistema completo de color, tipografía y brand-book — en el artículo de identidad.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Un logo es lo mismo que la identidad de marca?",
+      a: "No. El logo es una parte. Aún hacen falta paleta, fuentes y reglas para soportes. Si no, el mark «flota» en cada layout.",
+    },
+    {
+      q: "¿Puedo hacer un logo en Canva?",
+      a: "Borradores y variantes — sí. Un mark final con derechos, vector y guideline conviene cerrarlo con un diseñador — sobre todo si la marca es seria.",
+    },
+    {
+      q: "¿Cuántos colores están bien?",
+      a: "Una guía es 2–3 principales. Gradientes complejos y un «arcoíris» escalan mal a impresión y favicon.",
+    },
+    {
+      q: "¿Hace falta registrar la marca?",
+      a: "Para una marca seria — sí, aparte del «archivo del logo». El registro legal ≠ encargar un layout a un diseñador.",
+    },
+    {
+      q: "¿Qué importa más — unicidad o simplicidad?",
+      a: "Ambas. Un mark complejo se lee mal a 16×16 y en un sello. Copiar el de otro arriesga reclamaciones y confusión.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué un logo y dónde vive",
+      level: 2,
+      paras: [
+        "Un mark acelera el reconocimiento: la gente ve el símbolo antes de leer un nombre largo. Al lanzar el negocio el logo fija el tono de la comunicación — aunque aún no seas Apple.",
+        "Soportes: sitio y favicon, social, tarjetas, papelería, packaging, señalética, ads, uniformes, decks. Un archivo «bonito en el monitor» no basta — hacen falta versiones para fondos claros/oscuros y tamaño pequeño.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de entrega:",
+          items: [
+            "logo primario (horizontal/mark)",
+            "monocromo / reverse",
+            "favicon y avatar",
+            "vector (SVG/PDF) + raster",
+            "reglas cortas de spacing y don’t-do",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Identidad de marca",
+          href: "/es/blog/aydentika-brenda/",
+        },
+        {
+          label: "Favicon",
+          href: "/es/blog/favikon/",
+        },
+      ],
+    },
+    {
+      title: "Tipos: mark, wordmark, combinación",
+      level: 2,
+      paras: [
+        "Un mark gráfico (símbolo sin palabras) es fuerte cuando la imagen ya se conoce o el nicho admite una metáfora. Un wordmark se construye sobre el nombre y tipografía distintiva — un camino sólido para una marca nueva.",
+        "Una opción combinada — mark + nombre — es la más habitual: da flexibilidad (solo mark en el icono, lockup completo en el sitio). No sobrecargues el mark primario con año de fundación y un slogan largo.",
+      ],
+      lists: [
+        {
+          intro: "Criterios de un logo que funciona:",
+          items: [
+            "se lee en tamaño pequeño",
+            "se diferencia de competidores del nicho",
+            "no depende de un filtro de moda",
+            "encaja con el carácter del negocio",
+            "escala a impresión y digital",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          text: "No difundimos «qué % de empresas usa qué tipo de logo» de reviews viejas — elige el tipo por nombre, nicho y soportes, no por stats ajenas.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Cómo hacerlo: builder, freelance, estudio",
+      level: 2,
+      paras: [
+        "Builders (Canva y pares) — un borrador rápido y tests de hipótesis. Freelance y plataformas crowd dan varias opciones desde un brief; revisa portfolio y derechos sobre los archivos fuente. Un estudio / diseñador de marca — cuando necesitas un sistema, no una sola imagen.",
+        "En el brief describe nicho, audiencia, anti-ejemplos («no como el competidor X»), soportes y restricciones. Tras elegir el mark, fija colores (HEX/CMYK), fuentes y don’ts — o aparece una «nueva versión» en messengers un mes después.",
+      ],
+      lists: [
+        {
+          intro: "Qué pedir al proveedor:",
+          items: [
+            "archivos vectoriales",
+            "variantes para fondos oscuros/claros",
+            "derechos de uso",
+            "fuentes tipográficas (licencias)",
+            "una guía corta de aplicación",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Canva",
+          href: "/es/blog/canva/",
+        },
+        {
+          label: "Crello / VistaCreate",
+          href: "/es/blog/crello/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Un logo funciona cuando es simple, reconocible y alineado con los soportes — no cuando es «lo más creativo del feed». Elige el tipo para la marca, cierra derechos y archivos fuente, y junta paleta y reglas en la identidad.",
+  ],
+  related: [
+    "aydentika-brenda",
+    "favikon",
+    "canva",
+    "crello",
+    "prodvizhenie-brenda",
+    "shablon-instagram",
+  ],
+};

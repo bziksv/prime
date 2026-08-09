@@ -158,3 +158,162 @@ export const ctrFaktorGoogleEn: BlogPost = {
     "teg-h1",
   ],
 };
+
+/** ES overlay for ctr-faktor-google — same structure as RU JSON / EN. */
+export const ctrFaktorGoogleEs: BlogPost = {
+  slug: "ctr-faktor-google",
+  title: "CTR como factor de ranking en Google: ¿directo, indirecto o mito?",
+  date: "2016-10-05",
+  category: "SEO",
+  cover: "/images/blog/ctr-faktor-google/cover.webp",
+  excerpt:
+    "Si Google usa el CTR en el ranking: qué han dicho los representantes, dónde los clics alimentan experimentos y personalización, y por qué inflar clics es una mala apuesta.",
+  lead: [
+    "El debate «¿es el CTR un factor de ranking en Google?» lleva años: experimentos de la industria, comentarios de ingenieros y confusión entre personalización, tests A/B de SERP y un boost directo para cada página.",
+    "Abajo: un marco práctico sin perseguir inflación de clics — dónde aparecen de verdad los clics, qué hacer con el CTR en Search Console, y por qué un mejor snippet y más relevancia ganan a comprar clics.",
+  ],
+  faq: [
+    {
+      q: "¿Es el CTR un factor de ranking directo?",
+      a: "Google ha dicho repetidas veces que el CTR crudo como palanca universal de ranking es poco fiable y fácil de manipular. Los clics aparecen en sitios más estrechos: experimentos de calidad, personalización, algunos escenarios de tendencia — no «compra clics → primera página».",
+    },
+    {
+      q: "¿Por qué mirar entonces el CTR en Search Console?",
+      a: "Como diagnóstico del snippet y la intención: un CTR bajo en una posición fuerte a menudo significa title o description débiles, o un desajuste con la query.",
+    },
+    {
+      q: "¿La inflación de CTR ayuda de verdad?",
+      a: "No como estrategia. Arriesgas filtros y datos ruidosos. Ver nuestro post sobre inflación de engagement.",
+    },
+    {
+      q: "¿En qué difiere el CTR de las señales de comportamiento on-site?",
+      a: "CTR es el click-through desde la SERP (impresiones → clics). Lo que pasa después en el sitio — bounce, profundidad, tiempo — es otra capa. Meterlos en un solo «score mágico de comportamiento» hace más daño que bien.",
+    },
+    {
+      q: "¿El CTR afecta a Yandex igual?",
+      a: "Las fórmulas están cerradas. En la práctica vale la misma regla: un snippet honesto y una página relevante ganan a esquemas de bots. No copies case studies de EE. UU. de mediados de 2010 uno a uno.",
+    },
+    {
+      q: "¿Qué mueve más los rankings: CTR o contenido?",
+      a: "Contenido, salud técnica y encaje de intención. El CTR sigue a un buen snippet y una posición fuerte — no sustituye los fundamentos SEO.",
+    },
+    {
+      q: "¿Por qué Google mencionó clics en presentaciones?",
+      a: "A menudo en el contexto de evaluar cambios de algoritmo y calidad de SERP en experimentos — no como «infla el CTR de tu sitio».",
+    },
+    {
+      q: "¿Cuándo esperar crecimiento de ranking tras arreglar el title?",
+      a: "El recrawl y la reacción pueden llevar de días a semanas. Meter términos competitivos en visibilidad de primera página sigue siendo un plan de 2–6 meses de trabajo constante — no «title nuevo = primera página mañana».",
+    },
+  ],
+  sections: [
+    {
+      title: "De dónde salió el debate",
+      level: 2,
+      paras: [
+        "A mediados de 2010 la industria estaba metida en experimentos como los cases de Rand Fishkin: ¿pueden los clics mover la SERP? La teoría sonaba lógica — la búsqueda debería tener en cuenta qué prefieren las personas.",
+        "Al mismo tiempo, representantes de Google (incluido Gary Illyes) subrayaron que apoyarse en el CTR como factor directo es arriesgado por el ruido y la manipulación. Para SEO, separa «clics en algún sitio dentro del sistema» de «clic en tu sitio y subes para siempre».",
+      ],
+      notes: [
+        {
+          title: "Contexto histórico",
+          kind: "tip",
+          text: "Citas y slides de 2015–2016 son un archivo del debate. Revisa la redacción actual en Google Help y Search Central; no armes estrategia sobre una captura vieja de una presentación.",
+        },
+      ],
+    },
+    {
+      title: "Donde el CTR no es un botón de ranking",
+      level: 2,
+      paras: [
+        "El CTR crudo por query es fácil de distorsionar: marca, posición, temporada, clickbait, bots. Una regla universal «más CTR → mejor ranking para todos» escala mal y es fácil de spamear.",
+        "La personalización es otro caso: si a menudo eliges un tipo de resultado para una query ambigua, la SERP puede adaptarse a ti. Eso no es lo mismo que un lift global del sitio de otro para todos los usuarios.",
+      ],
+      lists: [
+        {
+          intro: "Por qué «solo haz muchos clics» falla como SEO:",
+          items: [
+            "ruido y spam pueden falsificar clics con facilidad",
+            "la propia posición empuja fuerte el CTR",
+            "las queries de marca distorsionan el cuadro",
+            "la búsqueda mira calidad más allá de una métrica",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Donde los clics aún importan",
+      level: 2,
+      paras: [
+        "En explicaciones de ingeniería, los clics a menudo aparecen como métrica de calidad en experimentos: ¿un cambio de algoritmo ayuda a la gente a encontrar una mejor respuesta? Eso es un loop indirecto por evaluación del sistema — no un boost manual de URL por los clics de ayer.",
+        "En algunos escenarios de tendencia y temas calientes, señales de popularidad a corto plazo (menciones, interés, a veces comportamiento) pueden afectar temporalmente la SERP. Eso es difícil de controlar con trucos SEO y se enfría rápido.",
+      ],
+      lists: [
+        {
+          intro: "Un modelo práctico para SEOs:",
+          items: [
+            "un score directo de CTR por página no es tu apuesta",
+            "experimentos de Google / calidad de SERP — un loop interno",
+            "personalización — sobre el usuario, no los rankings de otro",
+            "tu trabajo — snippet, relevancia, UX tras el clic",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Snippet y CTR",
+          href: "/es/blog/snippet/",
+        },
+        {
+          label: "Inflación de engagement",
+          href: "/es/blog/nakrutka-pf/",
+        },
+      ],
+    },
+    {
+      title: "Qué hacer en la práctica",
+      level: 2,
+      paras: [
+        "Trata el CTR en Search Console (o Webmaster) como señal: en posiciones 3–5 con CTR bajo, reescribe title y description para la intención, y deja el clickbait que la página no cumple.",
+        "Tras el clic, la página tiene que responder a la query. Si no, un CTR alto se vuelve bounce y no ayuda al negocio. Inflación de clics y bots son un camino de riesgo, no crecimiento estable.",
+      ],
+      lists: [
+        {
+          intro: "Checklist en lugar de inflación:",
+          items: [
+            "el title refleja el trabajo detrás de la query",
+            "la description promete el contenido con honestidad",
+            "la página responde la intención above the fold",
+            "móvil y velocidad no matan la visita",
+            "en Search Console, mira CTR por cluster — no un promedio único del sitio",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "User intent",
+          href: "/es/blog/user-intent/",
+        },
+        {
+          label: "SEO para Yandex y Google",
+          href: "/es/blog/seo-yandex-google/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Un fix de snippet puede mover el CTR relativamente rápido tras el recrawl. Meter términos competitivos en visibilidad de primera página sigue llevando meses (a menudo 2–6) — no «hicieron clic, así que somos los primeros». La prep del sitio no es lo mismo que los plazos de ranking.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "snippet",
+    "nakrutka-pf",
+    "user-intent",
+    "seo-yandex-google",
+    "effektivnost-seo",
+    "teg-h1",
+  ],
+};

@@ -134,3 +134,138 @@ export const omnikanalnyyKontentMarketingEn: BlogPost = {
     "retargeting",
   ],
 };
+
+/** ES overlay for omnikanalnyy-kontent-marketing — same structure as RU JSON / EN. */
+export const omnikanalnyyKontentMarketingEs: BlogPost = {
+  slug: "omnikanalnyy-kontent-marketing",
+  title: "Content marketing omnicanal: multi vs omni y 5 pasos que funcionan",
+  date: "2019-09-06",
+  category: "Digital marketing",
+  cover: "/images/blog/omnikanalnyy-kontent-marketing/cover.webp",
+  excerpt:
+    "En qué se diferencia lo omnicanal de lo multicanal, por qué importa una experiencia unificada entre sitio, app y offline, y cinco pasos para que el contenido no se deshaga entre canales.",
+  lead: [
+    "Multicanal son varios canales uno al lado del otro. Omnicanal es un camino del cliente a través de ellos: tono, oferta y datos no se rompen cuando alguien pasa del sitio a la tienda, de la app al soporte.",
+    "Abajo: la diferencia, por qué importa para el contenido y cinco pasos prácticos. Los ejemplos de marcas gigantes ilustran la idea — no una receta para «copiar a Disney».",
+  ],
+  faq: [
+    {
+      q: "¿Multi y omni son lo mismo?",
+      a: "No. Multi: los canales existen; metas y experiencia pueden diferir. Omni: un escenario desde la vista del cliente — continúa en otro canal sin «empezar de cero».",
+    },
+    {
+      q: "¿Hay que estar en todas las plataformas?",
+      a: "No. Menos canales, pero alineados, es mejor. Un canal extra con otra oferta confunde más que su ausencia.",
+    },
+    {
+      q: "¿Esto es solo para retail?",
+      a: "Se ve más en retail, pero la lógica es la misma para servicios y B2B: sitio → manager → email → cuenta deben decir una cosa.",
+    },
+    {
+      q: "¿Por dónde debe empezar una empresa pequeña?",
+      a: "Recorre tu propio camino como cliente: búsqueda → sitio → lead → respuesta. Corrige roturas de tono y datos, luego suma canales.",
+    },
+    {
+      q: "¿Cómo ayuda la analytics de extremo a extremo?",
+      a: "Muestra dónde se rompe el camino entre canales. Sin ella, lo omnicanal se queda en eslogan.",
+    },
+    {
+      q: "¿Cómo se conectan un plan de contenido y lo omnicanal?",
+      a: "En el plan fija no solo «un post en social», sino el rol del canal en el journey: calentamiento, oferta, soporte, compra repetida.",
+    },
+  ],
+  sections: [
+    {
+      title: "Multicanal y omnicanal",
+      level: 2,
+      paras: [
+        "Una estrategia multicanal da contenido al formato de cada canal: feed, sitio, escaparate offline. Los canales pueden vivir con sus propios KPIs — reach aquí, leads allá.",
+        "Lo omnicanal mira con los ojos del cliente: empezó en un canal, continuó en otro sin perder contexto. Mensaje, estado del pedido, tono de marca y «qué ya sabemos del cliente» se mantienen alineados.",
+      ],
+      lists: [
+        {
+          intro: "En corto:",
+          items: [
+            "multi — canales desde el lado de la empresa",
+            "omni — una experiencia continua desde el lado del cliente",
+            "contenido en omni — una historia, formatos de entrega distintos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Por qué importa para el contenido",
+      level: 2,
+      paras: [
+        "Un cliente cruza sitio, reseñas, mapas, chat y el escaparate. Una oferta distinta o condiciones obsoletas en un touch mata la confianza más que un canal que falta.",
+        "El contenido aquí no son solo artículos: fichas de producto, respuestas de soporte, emails, pantallas de la app. Lo omnicanal necesita una fuente de verdad: precios, plazos, USP.",
+      ],
+      links: [
+        {
+          label: "Puntos de contacto",
+          href: "/es/blog/tochki-kontakta/",
+        },
+        {
+          label: "Plan de contenido",
+          href: "/es/blog/kontent-plan/",
+        },
+      ],
+    },
+    {
+      title: "La idea en ejemplos (no copy-paste)",
+      level: 2,
+      paras: [
+        "Casos clásicos como un parque con app y pulsera, o una cadena de café con saldo de tarjeta «en todas partes a la vez», muestran el principio: una acción en un canal se ve al instante en otro.",
+        "Un negocio pequeño no necesita una «pulsera». Necesita: una oferta, stock/reservas sincronizados, un tono en el chat y en el sitio — para que el cliente no vuelva a contar su historia.",
+      ],
+    },
+    {
+      title: "Cinco pasos hacia contenido coherente",
+      level: 2,
+      paras: [
+        "Primero recorre tú mismo el camino del comprador: búsqueda, sitio, lead, respuesta, visita de retorno — en móvil y desktop. Anota las roturas.",
+        "Luego — segmentos y contenido útil por comportamiento (incluidos recordatorios de carrito/lead abandonado), contacto regular no solo «en el momento de la venta», y un lanzamiento sin esperar infraestructura perfecta: alinear 2–3 canales clave es más fácil que «todo a la vez».",
+      ],
+      lists: [
+        {
+          intro: "Mínimo que funciona:",
+          items: [
+            "recorrer el camino como el cliente y cerrar roturas",
+            "describir segmentos y sus preguntas",
+            "armar contenido útil por etapas del embudo",
+            "ligar marketing, ventas y soporte en un escenario",
+            "empezar por canales prioritarios — no esperar una «plataforma perfecta»",
+          ],
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Equipos",
+          text: "Lo omnicanal se rompe cuando marketing, ventas y soporte escriben promesas distintas. Hace falta una matriz de mensajes compartida — no cinco planes de contenido independientes.",
+        },
+      ],
+      links: [
+        {
+          label: "Estrategia de marketing",
+          href: "/es/blog/marketingovaya-strategiya/",
+        },
+        {
+          label: "Analytics de extremo a extremo",
+          href: "/es/blog/skvoznaya-analitika/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "El contenido omnicanal es un camino y promesas alineadas — no «otra red social más». Empieza con una auditoría de puntos de contacto y sincronización de la oferta; suma canales cuando los actuales ya no se contradicen.",
+  ],
+  related: [
+    "kontent-plan",
+    "tochki-kontakta",
+    "marketingovaya-strategiya",
+    "skvoznaya-analitika",
+    "analitika-kontent-marketinga",
+    "retargeting",
+  ],
+};

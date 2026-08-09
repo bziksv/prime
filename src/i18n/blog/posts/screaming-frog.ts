@@ -240,3 +240,244 @@ export const screamingFrogEn: BlogPost = {
     "alt-img",
   ],
 };
+
+/** ES overlay for screaming-frog — same structure as RU JSON / EN. */
+export const screamingFrogEs: BlogPost = {
+  slug: "screaming-frog",
+  title: "Screaming Frog SEO Spider: un crawl técnico del sitio",
+  date: "2020-07-07",
+  category: "SEO",
+  cover: "/images/blog/screaming-frog/cover.webp",
+  excerpt:
+    "Cómo lanzar un crawl técnico en Screaming Frog: ajustes del spider, códigos de estado, title/H1, imágenes, enlaces internos, URLs rotas y export a Excel — sin culto a la «auditoría de un botón».",
+  lead: [
+    "Screaming Frog SEO Spider es un crawler de escritorio: recorre tu sitio como un bot y recoge URLs, estados, meta, headings, enlaces y peso de página. La versión gratis cubre una auditoría básica; la de pago quita el tope de URLs y añade integraciones.",
+    "Abajo: ajustes clave del Spider, cómo leer informes y qué arreglar desde los resultados. La metodología completa de auditoría vive en la guía de auditoría SEO técnica; aquí el foco es la herramienta. Crawl tus propios proyectos o sitios con permiso — no machaques servidores con la velocidad de crawl.",
+  ],
+  faq: [
+    {
+      q: "¿Basta la versión gratis?",
+      a: "En sitios pequeños — a menudo sí. En catálogos grandes chocas con el límite de URLs: entonces licencia de pago, crawls segmentados Include/Exclude o un export de lista de URLs.",
+    },
+    {
+      q: "¿Debo desactivar JS y CSS?",
+      a: "Para auditorías HTML clásicas a veces se excluyen assets pesados para acelerar el crawl. Si importan plantillas JS y render en cliente — usa el modo de rendering de tu versión actual.",
+    },
+    {
+      q: "¿Puedo ignorar robots.txt?",
+      a: "En tu staging — sí si hay secciones utilitarias cerradas. En producción primero entiende por qué están bloqueadas las URLs; no abras todo con el crawler «por suerte».",
+    },
+    {
+      q: "¿Screaming Frog sustituye una auditoría SEO?",
+      a: "No. Recoge técnica. Luego — prioridades, contenido, UX, semántica. Ver el artículo de auditoría SEO técnica.",
+    },
+    {
+      q: "¿Qué velocidad de crawl es segura?",
+      a: "La que no inunde 5xx y No Response. En hosting flojo baja threads/speed. Puedes filtrar tus propias visitas en analytics durante la auditoría.",
+    },
+    {
+      q: "¿Qué hago con titles duplicados?",
+      a: "Haz plantillas únicas o pega duplicados con 301/canonical. Titles idénticos en masa señalan páginas finas/de plantilla.",
+    },
+    {
+      q: "¿Los enlaces externos rotos son críticos?",
+      a: "Los 404 externos duelen a la UX y a la confianza. Arregla o quita. Los internos rotos van más arriba en prioridad.",
+    },
+    {
+      q: "¿Una auditoría significa rankings en primera página en una semana?",
+      a: "No. Crawl y arreglos son prep. Los rankings del núcleo crecen de mes a mes; la cuota del núcleo se planifica típicamente a dos a seis meses tras arrancar el trabajo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué un crawler y por dónde empezar",
+      level: 2,
+      paras: [
+        "Un crawler encuentra lo que el ojo no ve: 404s en el menú, titles duplicados, HTML vacío, imágenes pesadas, URLs raras. Lánzalo tras releases grandes y con calendario.",
+        "Fija la URL de inicio (preferible https canónico), espera a que la cola se estabilice. Exporta pestañas a CSV/Excel — más fácil pasar tareas a ingeniería.",
+      ],
+      lists: [
+        {
+          intro: "Antes de empezar:",
+          items: [
+            "acceso a tu sitio / permiso",
+            "host canónico claro",
+            "baja la velocidad en un servidor flojo",
+            "un plan: qué revisas primero",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+    },
+    {
+      title: "Ajustes del Spider: Basic, Limits, Advanced",
+      level: 2,
+      paras: [
+        "Configuration → Spider: excluye tipos de recurso que no necesites si auditas HTML (Flash/SWF legacy fuera seguro). Limits: Search Depth salva catálogos enormes — primero las ramas clave.",
+        "Include/Exclude — crawl solo `/blog/` o excluye `/cart/` y URLs de filtros infinitas. Preferences: umbrales de longitud de title, H1, description, URL, alt — para tus briefs, no como ley de Google.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo práctico de ajustes:",
+          items: [
+            "velocidad / conteo de threads sensato",
+            "profundidad o segmento Include",
+            "respetar/ignorar robots según la tarea",
+            "umbrales de longitud de meta para filtros",
+            "revisar No Response tras el run",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "warning",
+          text: "Poner la velocidad de crawl al máximo en shared hosting y concluir que el sitio murió por SEO.",
+        },
+      ],
+    },
+    {
+      title: "Códigos de estado, meta y duplicados",
+      level: 2,
+      paras: [
+        "Response Codes: recoge 4xx/5xx, cadenas de redirects, Unexpected. Muchos No Response — baja velocidad y vuelve a lanzar. Internal → HTML: titles, meta descriptions, H1/H2, duplicados y huecos.",
+        "URLs duplicadas — filtro Duplicate. Páginas vacías — Word Count bajo con 200 OK. No bloquees todo en robots «para esconderlo»: mejor 301/quitar/un canonical correcto. La longitud de title/description es guía de snippet, no magia de rankings.",
+      ],
+      lists: [
+        {
+          intro: "Primer pase del informe:",
+          items: [
+            "4xx / 5xx internos",
+            "title / H1 ausentes",
+            "title y description duplicados",
+            "URLs duplicadas",
+            "contenido fino/cero",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Enlaces rotos",
+          href: "/es/blog/bitye-ssylki/",
+        },
+        {
+          label: "Páginas duplicadas",
+          href: "/es/blog/dubli-stranits/",
+        },
+        {
+          label: "Etiqueta canonical",
+          href: "/es/blog/kanonicheskiy-teg/",
+        },
+      ],
+    },
+    {
+      title: "Imágenes, peso de página, enlaces internos",
+      level: 2,
+      paras: [
+        "Images: archivos pesados y Missing Alt. Comprime y pon alt con sentido — ver la guía de alt. Size / Response Time bajo Internal ayudan a encontrar ladrillos, pero umbrales absolutos tipo «HTML estrictamente 200 KB / 6 segundos» están desfasados: mira Core Web Vitals y dispositivos reales.",
+        "Inlinks / Outlinks: las URLs importantes deben alcanzarse desde la homepage en un número sensato de clics y no ser islas. Spam saliente y externos rotos — pestaña External por códigos de estado.",
+      ],
+      lists: [
+        {
+          intro: "Qué convertir en tickets:",
+          items: [
+            "imágenes por encima de un peso sensato",
+            "alt vacío en imgs informativas",
+            "páginas con TTFB/size anómalo",
+            "huérfanas sin enlaces internos",
+            "externos rotos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Alt y title en img",
+          href: "/es/blog/alt-img/",
+        },
+        {
+          label: "Tamaño de página",
+          href: "/es/blog/razmer-stranitsy/",
+        },
+      ],
+    },
+    {
+      title: "URLs: guiones, longitud, dinámicas",
+      level: 2,
+      paras: [
+        "Pestaña URL: Non-ASCII, underscores, dinámicas (`?`, `&`), direcciones demasiado largas, duplicados. Los guiones ganan a `_` en URLs bonitas; no-latín en URLs es posible, pero el latín es más fácil para el equipo — decide según el estándar del proyecto.",
+        "Cualquier cambio de URL — 301 al nuevo canon y arreglar enlaces internos. Si no, el crawler enseña los mismos 404s un mes después.",
+      ],
+      lists: [
+        {
+          intro: "Filtros de URL que conviene revisar:",
+          items: [
+            "Duplicate",
+            "Underscores",
+            "Non ASCII",
+            "Over N characters",
+            "Parameters / Dynamic",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Dirección URL",
+          href: "/es/blog/url-adres/",
+        },
+        {
+          label: "Redirects",
+          href: "/es/blog/redirekt/",
+        },
+      ],
+    },
+    {
+      title: "Cómo plegar el crawl al workflow",
+      level: 2,
+      paras: [
+        "Arma un checklist: crawl → export → prioridades (5xx/404 → duplicados → meta → peso) → tickets → recrawl. Screaming Frog cubre la capa técnica; keywords, contenido y enlaces off-site son otras etapas.",
+        "Prep y arreglos — días/semanas. El crecimiento de visibilidad del núcleo tras quitar bloqueadores — de mes a mes, planificado a dos a seis meses. No prometas rankings tras un solo run de Frog.",
+      ],
+      lists: [
+        {
+          intro: "Ritmo:",
+          items: [
+            "crawl tras un release",
+            "calendario mensual/trimestral",
+            "archivo CSV con tickets",
+            "recheck de bugs cerrados",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+        {
+          label: "Parsing: límites",
+          href: "/es/blog/parsing/",
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Un crawl técnico no son rankings en primera página. Primero quita bloqueadores, luego crece la visibilidad. Prep no es rankings; la cuota del núcleo suele llevar dos a seis meses tras arrancar el trabajo.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "tehnicheskiy-seo-audit",
+    "bitye-ssylki",
+    "dubli-stranits",
+    "kanonicheskiy-teg",
+    "razmer-stranitsy",
+    "alt-img",
+  ],
+};

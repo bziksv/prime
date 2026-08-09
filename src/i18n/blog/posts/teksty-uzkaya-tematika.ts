@@ -137,3 +137,141 @@ export const tekstyUzkayaTematikaEn: BlogPost = {
     "tz-kopiraytera",
   ],
 };
+
+/** ES overlay for teksty-uzkaya-tematika — same structure as RU JSON. */
+export const tekstyUzkayaTematikaEs: BlogPost = {
+  slug: "teksty-uzkaya-tematika",
+  title: "Cómo escribir para un nicho estrecho",
+  date: "2020-01-14",
+  category: "Content marketing",
+  cover: "/images/blog/teksty-uzkaya-tematika/cover.webp",
+  excerpt:
+    "Copy para un nicho estrecho: lenguaje amable con principiantes, hechos al día, expertise y estructura — ilustrado con travel y transferible a cualquier tema cerrado.",
+  lead: [
+    "En un nicho estrecho la competencia suele ser más alta, y los lectores detectan fakes antes: frases vagas y cifras viejas no cuelan. Hace falta claridad para principiantes, hechos frescos y experiencia real del autor.",
+    "Abajo: principios que funcionan. Los ejemplos de travel muestran la lógica; las mismas reglas valen en iluminación médica, software B2B, consultoría legal y otros nichos. El algoritmo general del artículo va aparte.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia un tema estrecho de «solo un artículo»?",
+      a: "El coste de errores de hecho y jerga es más alto. Los lectores a menudo son principiantes en el detalle, pero estrictos con la precisión.",
+    },
+    {
+      q: "¿Hay que ser un experto en práctica?",
+      a: "Preferible. Si no — entrevista a un experto y fact-check. La «experiencia personal» inventada se nota.",
+    },
+    {
+      q: "¿Cómo no ahogarse en jerga?",
+      a: "Explica conceptos en lenguaje claro o con una nota corta. Escribe como si el lector acabara de llegar al tema.",
+    },
+    {
+      q: "¿Y los precios y fechas desactualizados?",
+      a: "Indica la fecha «a fecha de…» o actualiza. En travel, finanzas y derecho, la info vieja hace daño.",
+    },
+    {
+      q: "¿Un headline pegadizo salva un copy flojo?",
+      a: "No. El headline gana una oportunidad de abrir; finish-rate y confianza vienen de hechos y valor.",
+    },
+    {
+      q: "¿Hace falta una USP en cada artículo?",
+      a: "En piezas comerciales — sí, una diferencia clara. No confundas USP con eslogan por el eslogan.",
+    },
+    {
+      q: "¿Las keywords en el título son obligatorias?",
+      a: "Para búsqueda — una formulación natural del intent. No a costa de la legibilidad ni del clickbait.",
+    },
+  ],
+  sections: [
+    {
+      title: "Escribe para el principiante del nicho",
+      level: 2,
+      paras: [
+        "Un error habitual es tratar a la audiencia como «toda nuestra gente». En travel, como en otros nichos, muchos lectores van a su primera experiencia: explica rutas, términos y riesgos sin sopa de jerga.",
+        "Listas, números y bloques paso a paso ayudan a terminar. Fotos pro y diagramas construyen confianza cuando no son stock por stock.",
+      ],
+    },
+    {
+      title: "Frescura y hechos",
+      level: 2,
+      paras: [
+        "Monitoriza el nicho y a los competidores, pero no copies sus textos. La estructura debe sentirse lógica hoy — no una plantilla de hace dos años.",
+        "Precios, fechas, coordenadas, reglas de entrada, normas legales — solo de fuentes verificables. Mejor un «a fecha de…» que dañar al lector.",
+      ],
+      lists: [
+        {
+          intro: "Antes de publicar:",
+          items: [
+            "verifica números y enlaces",
+            "fecha «a fecha de…» en el texto cuando haga falta",
+            "un plan de update para piezas estacionales",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Copywriting E-E-A-T",
+          href: "/es/blog/eat-kopirayting/",
+        },
+      ],
+    },
+    {
+      title: "Expertise y tono",
+      level: 2,
+      paras: [
+        "Escribe de lo que tienes experiencia — o acceso a un experto. Los rewrites de impresiones ajenas se pillan rápido en un nicho estrecho.",
+        "Tono — vivo, sin falso colegueo ni relleno. El humor encaja cuando no daña la precisión.",
+      ],
+      links: [
+        {
+          label: "Cómo escribir un artículo",
+          href: "/es/blog/kak-napisat-statyu/",
+        },
+      ],
+    },
+    {
+      title: "Headlines, audiencia y oferta",
+      level: 2,
+      paras: [
+        "Headline: beneficio, un número o un ángulo claro — sin engaño. Los subtítulos sostienen el scan.",
+        "La audiencia marca el nivel: mochilero low-cost y tour de lujo necesitan promesas distintas. En copy comercial refuerza una USP real, no un eslogan vacío.",
+      ],
+      links: [
+        {
+          label: "Headlines 4U",
+          href: "/es/blog/zagolovki-4u/",
+        },
+        {
+          label: "USP",
+          href: "/es/blog/utp/",
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "SEO",
+          text: "Las keywords ayudan a cubrir las preguntas de un cluster. «Keyword en el título → primera página» es un mito; deciden la completitud de la respuesta y la confianza.",
+        },
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Nicho estrecho = precisión de hechos + lenguaje amable con principiantes.",
+        "La experiencia gana a un rewrite bonito.",
+        "Actualiza piezas estacionales y sensibles al precio.",
+      ],
+    },
+  ],
+  closing: [
+    "Elige un artículo de nicho y corta todo lo que no puedas respaldar con fuente o experiencia — el texto suele quedar más corto y más fuerte al momento.",
+  ],
+  related: [
+    "kak-napisat-statyu",
+    "eat-kopirayting",
+    "seo-kopirayting",
+    "utp",
+    "zagolovki-4u",
+    "tz-kopiraytera",
+  ],
+};

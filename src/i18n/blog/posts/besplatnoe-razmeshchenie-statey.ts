@@ -164,3 +164,168 @@ export const besplatnoeRazmeshchenieStateyEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for besplatnoe-razmeshchenie-statey — same structure as RU JSON / EN. */
+export const besplatnoeRazmeshchenieStateyEs: BlogPost = {
+  slug: "besplatnoe-razmeshchenie-statey",
+  title: "Dónde colocar artículos gratis para promover un sitio",
+  date: "2021-11-23",
+  category: "SEO",
+  cover: "/images/blog/besplatnoe-razmeshchenie-statey/cover.webp",
+  excerpt:
+    "Guest posts y placements en medios para enlaces y tráfico: cómo preparar la pieza, dónde pitchar, reglas editoriales típicas y errores de unicidad.",
+  lead: [
+    "Colocar artículos gratis es sobre todo guest posts y piezas expertas en otros sitios: tráfico, mención de marca y a veces un enlace. No es un botón mágico de primera página — es content marketing y crecimiento cuidadoso de enlaces.",
+    "Abajo: cómo preparar el texto, cómo juzgar un medio y tipos típicos de outlets. Las reglas editoriales cambian — revisa las guidelines actuales en el sitio antes de enviar.",
+  ],
+  faq: [
+    {
+      q: "¿Publicar primero en tu sitio o en otro?",
+      a: "Si es el mismo texto — primero tu sitio, espera indexación y luego una versión guest adaptada. Si no, la búsqueda puede tratar tu original como una copia.",
+    },
+    {
+      q: "¿Cuántos guest articles hacen falta para crecer?",
+      a: "Calidad y encaje temático ganan a un montón de textos flojos. Una pieza fuerte en un medio de confianza gana a una docena de posts de relleno.",
+    },
+    {
+      q: "¿Se pueden meter anuncios directos en un guest post?",
+      a: "Normalmente no, o solo de forma nativa. Los editores cortan «compra con nosotros» — se quedan con expertise, un caso y un enlace cuidadoso en la bio o byline del autor.",
+    },
+    {
+      q: "¿La colocación gratis garantiza rankings de búsqueda?",
+      a: "No. Enlaces y tráfico alimentan la promoción global. Crecer un núcleo de consultas en los resultados se planifica en meses de trabajo — no con una sola publicación.",
+    },
+    {
+      q: "¿Dónde encontrar outlets?",
+      a: "Medios de industria, blogs de producto, comunidades de marketers, plataformas PR para expertos. La lista de abajo es guía, no un catálogo eterno.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué publicar artículos fuera de tu propio sitio",
+      level: 2,
+      paras: [
+        "El objetivo es aportar valor a la audiencia donde ya lee, conseguir clics y (si las reglas lo permiten) un enlace o mención natural.",
+        "Lo que funciona es una pieza fuerte más un sitio con audiencia viva en tu tema. Spamear directorios con «artículos por un enlace» lleva tiempo siendo una señal floja y arriesgada.",
+      ],
+      lists: [
+        {
+          intro: "Qué suele aportar un buen guest post:",
+          items: [
+            "clics de lectores interesados",
+            "reconocimiento de experto o marca",
+            "a veces un enlace dofollow o UGC según las reglas del sitio",
+            "un motivo para shares y menciones",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos SEO",
+          kind: "tip",
+          text: "La preparación lleva semanas. Los efectos de enlaces y tráfico se construyen poco a poco. No confundas «publicamos un artículo» con «llegamos a la primera página en un mes». Tras el inicio del trabajo, el crecimiento de rankings de un núcleo se planifica típicamente a 2–6 meses.",
+        },
+      ],
+    },
+    {
+      title: "Cómo preparar la pieza",
+      level: 2,
+      paras: [
+        "Escribe para el lector del medio, no como un muro de keywords. Unicidad, estructura, hechos y utilidad son la base de aceptación.",
+      ],
+      lists: [
+        {
+          intro: "Antes de enviar al editor:",
+          items: [
+            "texto único (no una copia 1:1 de tu sitio sin adaptación)",
+            "título y lead claros",
+            "subtítulos, listas, ejemplos o un caso",
+            "keywords del núcleo — con moderación, por sentido",
+            "media (diagramas, capturas de tu UI) según reglas editoriales",
+            "sin anuncios agresivos ni material con copyright ajeno",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Copywriting: tipos de texto",
+          href: "/es/blog/kopirayting/",
+        },
+        {
+          label: "Set semántico de keywords",
+          href: "/es/blog/semanticheskoe-yadro/",
+        },
+      ],
+    },
+    {
+      title: "Calidad por encima de cantidad",
+      level: 2,
+      paras: [
+        "Diez posts flojos en sitios basura no sustituyen una pieza fuerte en un medio relevante. Los lectores están hartos de «anuncios nativos por un enlace».",
+        "Elige outlets cercanos al tema con audiencia real. Comprueba si las piezas se indexan y si hay comentarios o señales sociales vivas.",
+      ],
+    },
+    {
+      title: "Title, description y keywords",
+      level: 2,
+      paras: [
+        "Aunque sea en el sitio de otro, el titular decide el clic. Title — conciso, con el sentido de la consulta principal; description — por qué seguir leyendo.",
+        "Guías de longitud (dependen del medio): title más o menos hasta ~60 caracteres, description ~120–160. Mete la keyword con naturalidad — sin stuffing.",
+      ],
+    },
+    {
+      title: "Tipos de outlets y ejemplos",
+      level: 2,
+      paras: [
+        "Abajo hay tipos de recursos que históricamente aceptaban copy experto de marketing y digital. Condiciones, tarifas y contactos cambian — abre «para autores» / «editorial» en la versión actual del sitio.",
+      ],
+      lists: [
+        {
+          intro: "Dónde suelen ir los materiales:",
+          items: [
+            "medios de industria (marketing, e-commerce, PR)",
+            "blogs de productos SEO e investigación",
+            "plataformas de educación / comunidad",
+            "servicios PR para expertos y citas en medios",
+            "blogs de nicho con envío abierto de guest posts",
+          ],
+        },
+        {
+          intro: "Ejemplos de nombres (revisa las reglas tú):",
+          items: [
+            "Rusability, SEOnews, Cossa, MadCats",
+            "Serpstat y blogs de producto similares",
+            "títulos executive y de negocio con autores colaboradores",
+            "Pressfeed y similares para expertos",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Email al editor: tema, por qué ayuda a la audiencia, enlace a un Google Doc o borrador, 2–3 de tus publicaciones, OK con edits. Nada de spam «publicad ya con un enlace».",
+        },
+      ],
+    },
+    {
+      title: "Requisitos editoriales típicos",
+      level: 2,
+      paras: [
+        "El set se parece casi en todas partes — cambian el rigor y los temas.",
+      ],
+      lists: [
+        {
+          intro: "A menudo esperan:",
+          items: [
+            "unicidad y expertise",
+            "estructura y lenguaje legible",
+            "casos, cifras, how-tos",
+            "sin anuncios directos ni clickbait",
+            "respeto a los copyrights de medios",
+          ],
+        },
+      ],
+    },
+  ],
+};

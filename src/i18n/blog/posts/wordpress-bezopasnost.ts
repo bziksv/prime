@@ -200,3 +200,212 @@ export const wordpressBezopasnostEn: BlogPost = {
     "cookies",
   ],
 };
+
+/** ES overlay for wordpress-bezopasnost — same structure as RU JSON / EN. */
+export const wordpressBezopasnostEs: BlogPost = {
+  slug: "wordpress-bezopasnost",
+  title: "Seguridad del sitio WordPress: checklist práctico",
+  date: "2019-12-27",
+  category: "SEO",
+  cover: "/images/blog/wordpress-bezopasnost/cover.webp",
+  excerpt:
+    "Cómo bajar el riesgo de breach en WordPress: updates, contraseñas, login, plugins y temas, backups, HTTPS, 2FA y least privilege — sin how-tos de ataque.",
+  lead: [
+    "WordPress es popular — y por eso a menudo objetivo: agujeros en core, plugins y temas, contraseñas flojas, un wp-admin abierto. Un breach pega al SEO: spam, redirects, malware en el SERP, confianza perdida.",
+    "Abajo: un checklist práctico de hardening de WP. Las amenazas generales (inyecciones, XSS, brute force) viven en el artículo de seguridad del sitio; aquí — especificidades del CMS. Solo defensa y recuperación — no escenarios de breach.",
+  ],
+  faq: [
+    {
+      q: "¿WordPress es inseguro por definición?",
+      a: "No. El riesgo crece con la popularidad y los plugins olvidados. Updates a tiempo e higiene de acceso cortan mucho la amenaza.",
+    },
+    {
+      q: "¿Basta con un plugin de seguridad?",
+      a: "Como capa — sí. No sustituye updates, contraseñas fuertes, backups y un mínimo de extensiones.",
+    },
+    {
+      q: "¿Debo cambiar el prefijo de tablas wp_?",
+      a: "Oscuridad débil. Importan más updates, privilegios de BD y backups. Cambiar el prefijo en un sitio en vivo arriesga roturas — solo con plan claro y una copia.",
+    },
+    {
+      q: "¿HTTPS es obligatorio?",
+      a: "Sí para admin, formularios y confianza. Un certificado protege el canal; no sustituye parches del CMS.",
+    },
+    {
+      q: "¿Cuántos plugins es normal?",
+      a: "Los que de verdad necesitas. Cada uno extra es superficie de ataque y conflictos. Borra los que no uses — no solo desactives.",
+    },
+    {
+      q: "¿Los temas gratis son peligrosos?",
+      a: "No todos. Sí los temas y plugins de archivos «nulled» turbios con backdoors. Tómalos del catálogo oficial o de autores de confianza.",
+    },
+    {
+      q: "¿Qué hago si sospecho un breach?",
+      a: "Cambia todas las contraseñas y claves, restaura desde un backup limpio, actualiza core, plugins y temas, revisa paneles de webmaster por malware, llama a un especialista si hace falta.",
+    },
+    {
+      q: "¿El hardening de WordPress mejora los rankings?",
+      a: "No directamente. Pero un breach tira tráfico y confianza. Primero estabilidad; expectativas de SEO en meses después — la prep no es primera página, y la cuota del núcleo suele construirse en dos a seis meses tras arrancar el trabajo.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué WordPress se ataca tanto",
+      level: 2,
+      paras: [
+        "La cuota de WP en la web es enorme: los scanners cazan CVEs conocidos en core y plugins populares. Las noticias de vulnerabilidades salen con regularidad — vigila updates y no dejes el sitio en una versión «porque funciona».",
+        "Un punto de entrada típico no es magia de hacker — es una contraseña floja, login admin, un plugin desfasado, un tema infectado de un archivo pirata o FTP con una sola contraseña para todo.",
+      ],
+      lists: [
+        {
+          intro: "Prioridades de hardening:",
+          items: [
+            "updates de core, tema y plugins",
+            "contraseñas fuertes y únicas + 2FA",
+            "mínimo de extensiones",
+            "backups y HTTPS",
+            "acceso de admin restringido",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Seguridad del sitio",
+          href: "/blog/bezopasnost-sayta/",
+        },
+        {
+          label: "Cómo identificar un CMS",
+          href: "/blog/uznat-cms/",
+        },
+      ],
+    },
+    {
+      title: "Acceso: login, contraseña, 2FA, IP",
+      level: 2,
+      paras: [
+        "No uses logins predecibles como admin. Contraseña fuerte: longitud, mayúsculas/minúsculas, dígitos, símbolos, unicidad (gestor de contraseñas). Activa autenticación de dos factores para administradores.",
+        "Cambia o protege la URL de login (no confíes solo en una dirección «secreta» — solo añade fricción). Con IP de oficina estática puedes bloquear wp-admin a nivel de servidor; con IP dinámica ese bloqueo te cierra a ti fácilmente — planifica excepciones.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo de acceso:",
+          items: [
+            "sin contraseña compartida para email, hosting y WP",
+            "2FA en admins",
+            "roles por least privilege",
+            "cierra exposición innecesaria de autor o login",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Updates, plugins y temas",
+      level: 2,
+      paras: [
+        "Aplica updates de core y extensiones tras un backup. Borra por completo plugins y temas sin uso. Quédate con productos de confianza y mantenidos; las suites «hacen-todo» a menudo arrastran código extra.",
+        "Temas — del repo oficial o autores de pago con updates. Packs piratas «premium gratis» son una fuente habitual de backdoors. Antes de instalar, mira la fecha de la última update y las reviews.",
+      ],
+      lists: [
+        {
+          intro: "Higiene de extensiones:",
+          items: [
+            "inventario una vez al trimestre",
+            "quita plugins idle",
+            "no instales todo «por si acaso»",
+            "seguridad y backup — de fuentes de confianza",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "HTTPS y SEO",
+          href: "/blog/https-seo/",
+        },
+        {
+          label: "Certificado SSL",
+          href: "/es/blog/ssl-sertifikat/",
+        },
+      ],
+    },
+    {
+      title: "Backups, HTTPS, permisos de archivos",
+      level: 2,
+      paras: [
+        "Backups de archivos y BD — automáticos (hosting o plugin) y periódicamente manuales a almacenamiento independiente. Verifica que el backup realmente restaura.",
+        "SSL/TLS es obligatorio. Desactiva la edición de archivos de tema y plugins desde el admin en prod (`DISALLOW_FILE_EDIT`) para que una sesión robada no pueda soltar un shell con facilidad. Permisos de archivos y directorios — según la guía del host, no 777 «para que funcione».",
+      ],
+      lists: [
+        {
+          intro: "Tras un incidente:",
+          items: [
+            "cambia todas las contraseñas y salts o claves",
+            "vuelve a un backup limpio",
+            "actualiza todo",
+            "revisa Webmaster / Search Console por malware",
+            "rota secretos de API y correo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Bases de datos del sitio",
+          href: "/blog/bazy-dannyh-sayta/",
+        },
+        {
+          label: "Yandex Webmaster",
+          href: "/es/blog/yandeks-vebmaster/",
+        },
+      ],
+    },
+    {
+      title: "Qué no tratar como bala de plata",
+      level: 2,
+      paras: [
+        "Cambiar el prefijo de tablas, ocultar la versión de WP y una URL de login «secreta» solos no arreglan un plugin desfasado. Ayudan updates, monitoreo, un WAF de hosting o CDN y disciplina de acceso.",
+        "El hardening es continuo. Para SEO necesitas un sitio limpio sin páginas spam ni advertencias del navegador. Tras estabilizar, vuelve a contenido y técnica: los rankings se construyen en meses — no justo después de cambiar la contraseña.",
+      ],
+      lists: [
+        {
+          intro: "Checklist final:",
+          items: [
+            "updates como ritual",
+            "contraseñas + 2FA",
+            "pocos plugins, temas limpios",
+            "backups verificados",
+            "HTTPS y edición de archivos desactivada en prod",
+            "higiene general del artículo de seguridad del sitio",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "Un incidente de seguridad se apaga primero. Expectativas de SEO — tras la limpieza y el re-crawl, en semanas a meses. Prep no es primera página; la cuota del núcleo suele llevar dos a seis meses tras arrancar el trabajo.",
+        },
+      ],
+      links: [
+        {
+          label: "Seguridad del sitio",
+          href: "/blog/bezopasnost-sayta/",
+        },
+        {
+          label: "Por qué el sitio no rankea",
+          href: "/es/blog/sayt-ne-v-top/",
+        },
+        {
+          label: "Instalar WordPress",
+          href: "/es/blog/wordpress-ustanovka/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "bezopasnost-sayta",
+    "https-seo",
+    "bazy-dannyh-sayta",
+    "uznat-cms",
+    "yandeks-vebmaster",
+    "cookies",
+  ],
+};

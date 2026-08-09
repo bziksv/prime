@@ -416,8 +416,240 @@ const analyticsEn: AnalyticsContent = {
   footerTagline: "Marketing analytics · Roistat · CRM",
 };
 
+const analyticsEs: AnalyticsContent = {
+  path: "/es/analytics/",
+  metaTitle: "Analítica de marketing — PRIME",
+  metaDescription:
+    "Analítica de marketing con Roistat: Google Ads → sitio → CRM. Seguimiento de llamadas, formularios y email. Descubre qué canal genera clientes potenciales e ingresos. Configuración e integración incluidas.",
+  serviceName: "Analítica de marketing",
+  serviceType: "Analítica de marketing",
+  breadcrumbHome: "Inicio",
+  breadcrumbCurrent: "Analítica de marketing",
+  menuLabel: "Menú",
+  ctaTop: "Hablemos",
+  brandBefore: "PRIM",
+  brandAccent: "E",
+  heroTitleBefore: "Analítica de marketing — descubre qué canal ",
+  heroTitleAccent: "realmente vende",
+  heroLead:
+    "Conecta Google Ads, tu sitio y el CRM con Roistat. Llamadas, formularios y email mantienen su origen. Invierte donde convierte — recorta lo que no funciona.",
+  heroCtaPrimary: "Configurar el seguimiento",
+  heroCtaSecondary: "Ver planes",
+  flowLive: "LIVE TRACE",
+  flowTag: "ads → sitio → CRM",
+  flowNode0Title: "Anuncios",
+  flowNode0Sub: "Google Ads · offline",
+  flowNode0Hit: "clic",
+  flowNode1Title: "Sitio",
+  flowNode1Sub: "visita · formulario · llamada",
+  flowNode1Hit: "lead",
+  flowNode2Title: "CRM · venta",
+  flowNode2Sub: "origen → resultado",
+  flowNode2Hit: "venta",
+  flowStatRoas: "ROAS",
+  flowStatDeals: "ventas / día",
+  flowStatAttr: "atribución",
+  whyTitle: "Para qué sirve la analítica de marketing",
+  why: {
+    lead: "La mayoría de los equipos manejan más canales de los que pueden explicar. En un mercado competitivo, adivinar dónde va el presupuesto sale caro.",
+    channels:
+      "Google Search, redes sociales, display, promociones, offline — hay opciones de sobra. Lo difícil es saber cómo repartir la inversión entre ellas.",
+    answer:
+      "Quieres más clientes a un coste menor. Sin un seguimiento cerrado, eso es una apuesta a ciegas. Con Roistat ves qué canal termina en una llamada, un formulario y una venta cerrada — no solo en un clic.",
+  },
+  whyStat: "hasta 300%",
+  whyStatLabel: "de margen de optimización en medios cuando la atribución por canal es clara",
+  problemTitle: "Qué falla sin un seguimiento cerrado",
+  problemLead: "Las métricas indirectas no te dicen quién trajo realmente la venta.",
+  problem: [
+    {
+      title: "Métricas indirectas",
+      text: "Los informes estándar a menudo no pueden vincular una llamada o un email con el anuncio que trajo a esa persona.",
+    },
+    {
+      title: "El salto sitio → CRM",
+      text: "Sin ese puente, los leads llegan sin origen. Ventas trabaja a ciegas; marketing no puede demostrar los ingresos.",
+    },
+    {
+      title: "Lo offline queda a oscuras",
+      text: "Radio, carteles, publicidad en la calle — sin números dedicados, son invisibles en el panorama completo.",
+    },
+  ],
+  trackTitle: "Qué canales rastreamos",
+  trackLead:
+    "Roistat capta clientes potenciales que Google Analytics por sí solo suele perder — y abre una venta en el CRM con el origen adjunto.",
+  track: [
+    {
+      title: "Seguimiento de llamadas dinámico",
+      text: "Cada visitante ve un número único. La llamada te llega y el origen queda registrado.",
+    },
+    {
+      title: "Seguimiento de llamadas estático",
+      text: "Un número por canal — uno para radio, otro para exterior. Cada llamada se convierte en un lead en el CRM.",
+    },
+    {
+      title: "Formularios y email",
+      text: "Los envíos del sitio y las consultas por email conservan su origen — en el historial del CRM.",
+    },
+    {
+      title: "Ruta hasta la venta",
+      text: "Historial completo con tu equipo comercial y el resultado final — no solo el primer clic.",
+    },
+  ],
+  featuresTitle: "Qué obtienes",
+  featuresLead: "Configuración base más herramientas avanzadas pensadas en los ingresos — no en el tráfico por vanidad.",
+  features: [
+    {
+      title: "Analítica",
+      text: "Informes sobre las métricas que mueven el negocio — no solo el recuento de sesiones.",
+    },
+    {
+      title: "Seguimiento de llamadas",
+      text: "Dinámico y estático — canales online y offline en un mismo sistema.",
+    },
+    {
+      title: "Análisis de voz",
+      text: "Detecta llamadas problemáticas con más de 20 señales para que la calidad no se resienta.",
+    },
+    {
+      title: "Eventos",
+      text: "Microconversiones: qué hace la gente antes de convertirse en lead o pagar.",
+    },
+    {
+      title: "Análisis de cohortes",
+      text: "Cómo y cuándo distintos grupos de clientes vuelven a comprar.",
+    },
+    {
+      title: "Multicanal",
+      text: "Reparte el crédito en toda la ruta de adquisición — no solo en el último clic.",
+    },
+  ],
+  extra: [
+    "Exit intent — recupera hasta ~7% de las visitas antes de que se vayan",
+    "Callback en segundos",
+    "Seguimiento de email con leads directos al CRM",
+    "Tests A/B enfocados en el beneficio, no solo en el CTR",
+    "Gestión de pujas — recorta hasta un 30% el gasto desperdiciado en Google Ads",
+    "Panel con tu marca para el equipo",
+  ],
+  plansTitle: "Precios",
+  plansLead: "Los planes escalan según el total de visitas de todos los proyectos de la cuenta.",
+  plans: [
+    {
+      id: "p50",
+      visits: "hasta 50.000",
+      projects: "1 proyecto",
+      price: "desde $3",
+      unit: "al día",
+      featured: false,
+    },
+    {
+      id: "p250",
+      visits: "hasta 250.000",
+      projects: "3 proyectos",
+      price: "desde $13",
+      unit: "al día",
+      featured: true,
+    },
+    {
+      id: "p500",
+      visits: "hasta 500.000",
+      projects: "7 proyectos",
+      price: "desde $20",
+      unit: "al día",
+      featured: false,
+    },
+    {
+      id: "p2m",
+      visits: "hasta 2.000.000",
+      projects: "15 proyectos",
+      price: "desde $36",
+      unit: "al día",
+      featured: false,
+    },
+  ],
+  planBadge: "Más elegido",
+  planVisitsSuffix: "visitas / mes",
+  planCta: "Hablemos",
+  planSitesSuffix: " · sitios ilimitados",
+  note: "El precio incluye la conexión con el CRM de la lista compatible, la integración y la configuración en el sitio. Sitios ilimitados por proyecto. Las visitas se suman en toda la cuenta.",
+  outcomesTitle: "Qué cambia una vez implementado",
+  outcomesLead: "No es otro panel más — es un sistema con el que puedes recortar y escalar presupuesto con criterio.",
+  outcomes: [
+    {
+      title: "Presupuesto contra ventas reales",
+      text: "Ve qué canal genera leads y ventas — no solo clics e impresiones.",
+    },
+    {
+      title: "Llamadas y formularios en un solo flujo",
+      text: "Seguimiento de llamadas, leads del sitio y email llegan al CRM con su origen — ventas no trabaja a ciegas.",
+    },
+    {
+      title: "Menos gasto desperdiciado",
+      text: "Los canales sin leads ni ventas se recortan a propósito; los que funcionan reciben más presupuesto.",
+    },
+  ],
+  nosTitle: "Qué no prometemos",
+  nosLead: "La analítica de marketing no es un botón mágico — esta es la línea que trazamos.",
+  nos: [
+    {
+      title: "No cambiamos el CRM por un gráfico bonito",
+      text: "El objetivo es Google Ads → sitio → venta. Sin CRM ni seguimiento comercial, el panorama sigue lleno de huecos.",
+    },
+    {
+      title: "No prometemos «+300% mañana»",
+      text: "El margen depende del volumen de tráfico, la calidad de la oferta y la disciplina con el CRM. Las cifras orientan — no garantizan.",
+    },
+    {
+      title: "No dejamos una caja negra y desaparecemos",
+      text: "Verás cómo funciona la atribución: qué cuenta como visita, como lead y como venta.",
+    },
+  ],
+  faqTitle: "FAQ",
+  faqLead: "Google Analytics, CRM, seguimiento de llamadas y cuánto tarda la implementación.",
+  faq: [
+    {
+      q: "¿En qué se diferencia de Google Analytics?",
+      a: "Google Analytics es excelente para el comportamiento en el sitio. La analítica de marketing suma llamadas, canales offline y CRM — así ves la ruta completa hacia los ingresos, no solo las sesiones.",
+    },
+    {
+      q: "¿Con qué CRM se conectan?",
+      a: "HubSpot, Salesforce, Pipedrive, Zoho y otros de la lista compatible de Roistat. Lo confirmamos al arrancar — la conexión va incluida en el precio.",
+    },
+    {
+      q: "¿El seguimiento de llamadas es obligatorio?",
+      a: "Si tus clientes te llaman, sí — de lo contrario esos leads desaparecen de los informes. ¿Solo formularios? Empieza con formularios y CRM, añade el seguimiento de llamadas más adelante.",
+    },
+    {
+      q: "¿Qué determina el plan?",
+      a: "El total de visitas de los proyectos de la cuenta. Los sitios por proyecto no tienen límite; las visitas se suman.",
+    },
+    {
+      q: "¿Cuánto tarda la implementación?",
+      a: "Normalmente de unos días hábiles a un par de semanas: accesos, números/scripts, CRM, primeros leads verificados. El plazo depende de lo listas que estén tus cuentas y tu CRM.",
+    },
+  ],
+  ctaTitle: "¿Quieres una atribución más clara?",
+  ctaLead: "Cuéntanos sobre tu tráfico y tu CRM — te proponemos un plan y te dejamos todo configurado.",
+  ctaPhoneSuffix: "",
+  formName: "Tu nombre",
+  formPhone: "Teléfono",
+  formSite: "URL del sitio",
+  formCrm: "CRM / sistema de ventas",
+  formCrmOptions: ["HubSpot", "Salesforce", "Pipedrive", "Otro / aún no tengo"],
+  formMessage: "Canales y volumen aproximado de tráfico",
+  formAgreeBefore: "Acepto el tratamiento de datos personales conforme a nuestra",
+  formAgreePolicy: "política de privacidad",
+  formSubmit: "Enviar",
+  formSuccess: "Gracias — hemos recibido tu mensaje. Te contactaremos en breve.",
+  formSource: "es-analytics",
+  footerBrand: "PRIME",
+  footerTagline: "Analítica de marketing · Roistat · CRM",
+};
+
 export function getAnalyticsContent(locale: Locale): AnalyticsContent {
   if (locale === "en") return analyticsEn;
+  if (locale === "es") return analyticsEs;
   return analyticsRu;
 }
 

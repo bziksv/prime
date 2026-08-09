@@ -192,3 +192,196 @@ export const saytPeredReklamoyEn: BlogPost = {
     "stavki-direkt",
   ],
 };
+
+/** ES overlay for sayt-pered-reklamoy — same structure as RU JSON / EN. */
+export const saytPeredReklamoyEs: BlogPost = {
+  slug: "sayt-pered-reklamoy",
+  title: "No quemes el presupuesto: revisa el sitio antes de lanzar ads",
+  date: "2020-03-18",
+  category: "Búsqueda de pago",
+  cover: "/images/blog/sayt-pered-reklamoy/cover.webp",
+  excerpt:
+    "Checklist del sitio antes de Yandex Direct y Google Ads: objetivos y KPIs, formularios y thank-you, analytics, primera pantalla, confianza, móvil y entrega de leads — para no quemar clics en un landing crudo.",
+  lead: [
+    "Si la búsqueda de pago trae «cero leads», el account de ads no siempre es el único culpable: la gente hace clic y choca con una oferta poco clara, un formulario roto o un sitio sin goals en analytics. Ajustar pujas en un landing crudo es la forma más rápida de quemar presupuesto.",
+    "Abajo: un orden práctico para revisar el sitio antes de lanzar Direct/Ads. No prometemos «conversión ×N en un par de días» de casos viejos; pasar un checklist honesto suele ser más barato que una semana de gasto a ciegas. Los errores habituales de cuenta están en artículos relacionados.",
+  ],
+  faq: [
+    {
+      q: "¿Por dónde empiezo si los ads ya están en marcha?",
+      a: "Pausa o pon un límite mínimo + una auditoría rápida de goals, formularios y primera pantalla. Si no, sigues pagando el mismo bounce.",
+    },
+    {
+      q: "¿Qué KPI usar?",
+      a: "Uno ligado al dinero: leads por coste, revenue dentro de un techo de ROAS. CTR y número de clics son secundarios.",
+    },
+    {
+      q: "¿Hace falta una thank-you page?",
+      a: "Una forma cómoda de capturar el envío del formulario como un goal. Alternativa — un evento de submit; lo que importa es un tracking inequívoco del lead.",
+    },
+    {
+      q: "¿Todo sitio necesita un quiz?",
+      a: "No. Un quiz es un formato de engagement. Importan más una oferta clara y un formulario de lead que funcione.",
+    },
+    {
+      q: "¿Un favicon baja el CPC?",
+      a: "Ayuda al reconocimiento en la pestaña; no cuentes con él en la subasta de Direct. Prioridad — oferta, formulario, móvil.",
+    },
+    {
+      q: "¿La revisión del sitio sustituye el setup de campaña?",
+      a: "No. Es un filtro: «¿ya podemos enviar tráfico?». Keywords, negativos y pujas van aparte.",
+    },
+    {
+      q: "¿Las correcciones críticas suelen hacerse en días?",
+      a: "Los agujeros críticos (formularios, goals, CTA móvil) a menudo se arreglan en días, no en meses. La cosmética sigue la prioridad del KPI.",
+    },
+  ],
+  sections: [
+    {
+      title: "Objetivo y KPI primero, cuenta después",
+      level: 2,
+      paras: [
+        "Fija el trabajo de negocio en números: cuántos leads/ventas por periodo y a qué coste. Alinea el wording con el equipo para no discutir luego «ads vs sitio».",
+        "Las acciones-objetivo on-site deben llevar a ese trabajo. Un formulario de «diseño de interiores gratis» cuando el KPI es «ventas de pisos» infla contactos sin revenue. Corta CTAs decorativos que no alimenten el funnel.",
+      ],
+      lists: [
+        {
+          intro: "Mínimo al inicio:",
+          items: [
+            "un objetivo de negocio principal",
+            "2–4 acciones-objetivo que lleven a él",
+            "KPI en dinero o coste por lead",
+            "entendimiento compartido entre marketing y ventas",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Métricas de publicidad",
+          href: "/es/blog/metriki-reklamy/",
+        },
+      ],
+    },
+    {
+      title: "Los leads deben contarse",
+      level: 2,
+      paras: [
+        "Cada formulario (o CTA clave) debe producir un evento medible: thank-you page o evento de submit. Si no, no distingues «los ads no funcionan» de «los leads se pierden».",
+        "En Métrica y Analytics ayuda mantener un goal compartido para un lead exitoso y no sumar a mano diez micro-goals con duplicados. El valor del goal (revenue estimado por lead) ayuda a leer informes en dinero, no solo visitas — toma la fórmula de tu margen y conversión de ventas, no del ejemplo de otro.",
+        "Comprueba la entrega: los emails no van a spam, los leads llegan a CRM/messenger, un submit de prueba por teléfono funciona. Clics que nunca llegan a un manager son puro desperdicio.",
+      ],
+      lists: [
+        {
+          intro: "Pasada de control:",
+          items: [
+            "enviar un lead desde desktop y móvil",
+            "ver thank-you / éxito",
+            "el goal se disparó en analytics",
+            "un manager recibió el lead",
+            "UTM/fuente visible en el informe",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Análisis de campaña publicitaria",
+          href: "/es/blog/analiz-reklamnoy-kampanii/",
+        },
+      ],
+    },
+    {
+      title: "Primera pantalla y oferta",
+      level: 2,
+      paras: [
+        "En 5 segundos debe quedar claro: qué vendes, para quién y por qué eres útil. Logo, titular, región, una imagen clara — sin «somos un equipo de profesionales» sin sujeto.",
+        "El beneficio de compra va en la primera pantalla: plazos, garantía, precio «desde», diferencia frente al mercado. Si alguien llegó de un ad «ventanas en 3 días» y el landing no dice nada de eso — el bounce es casi seguro.",
+        "Formularios de lead — visibles, cortos, con una promesa clara. Sobrecarga de campos y un «enviar» diminuto en el footer matan la conversión más que cualquier puja.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Quiz o calculadora",
+          text: "Un quiz o calculadora ayuda si simplifica la elección. No lo añadas por moda: un quiz roto es peor que un formulario simple.",
+        },
+      ],
+    },
+    {
+      title: "Confianza, navegación, precios y servicio",
+      level: 2,
+      paras: [
+        "Menús y secciones deben ser inequívocos: quien viene de un ad no debería adivinar la IA. Promos — grandes y honestas (precio nuevo/viejo, condiciones del regalo), no tipografía gris diminuta.",
+        "Apertura: sobre la empresa, producción, casos, certificados — lo que baja el miedo a «empresa fantasma». Precios actuales y en moneda clara; si «precio bajo petición» — explica por qué y ofrece un presupuesto rápido.",
+        "Fotos de producto/objeto sin blur ni rellenos genéricos. Reseñas — bloque aparte o en la ficha. Entrega y pago, FAQ, contactos (teléfono clicable en móvil), horario — la capa básica de servicio sin la cual los ads alimentan bounces.",
+      ],
+      lists: [
+        {
+          intro: "Auditoría rápida de confianza:",
+          items: [
+            "existen About / hechos / casos",
+            "precios o un camino lógico al presupuesto",
+            "reseñas o prueba de trabajo",
+            "entrega/pago/FAQ",
+            "contactos actuales en el header y en la página de contactos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Móvil y los detalles que cuestan dinero",
+      level: 2,
+      paras: [
+        "Responsive es obligatorio: los mismos CTAs, formularios y teléfonos deben funcionar desde el teléfono. La cuota de tráfico móvil lleva tiempo alta — verter búsqueda de pago en un landing solo desktop no tiene sentido.",
+        "Favicon y una pestaña ordenada son higiene de marca; no esperes milagros de subasta. Importan más la velocidad de carga y que ningún overlay bloquee el formulario.",
+        "Puntúa el sitio con honestidad (p. ej. 1–5 por bloque). Arregla los ítems «1–2» antes de escalar presupuesto; la cosmética puede ir en paralelo.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Sitio vs cuenta",
+          text: "No confundas «sitio crudo» con «cuenta rota». Tras arreglar el landing sigues necesitando negativos, ads relevantes y límites — ver piezas de errores de campaña y presupuesto de Direct.",
+        },
+      ],
+      links: [
+        {
+          label: "Errores de campaña publicitaria",
+          href: "/blog/oshibki-reklamnoy-kampanii/",
+        },
+        {
+          label: "Presupuesto de Yandex Direct",
+          href: "/es/blog/byudzhet-yandeks-direkt/",
+        },
+      ],
+    },
+    {
+      title: "Orden de lanzamiento sin quemar presupuesto",
+      level: 2,
+      paras: [
+        "Arma un checklist corto: goals → tracking de leads → primera pantalla → formularios → confianza → móvil → test de lead. Solo cuando los ítems críticos estén en verde sube el presupuesto diario.",
+        "Al inicio: un núcleo estrecho y un límite, control diario de CPA/lead los primeros días. Si hay clics pero no leads — vuelve al sitio y a la relevancia del ad, no a «+50% de pujas otra vez».",
+      ],
+      lists: [
+        {
+          intro: "Recuerda:",
+          items: [
+            "KPI en dinero, no en CTR",
+            "los leads se cuentan y llegan a personas",
+            "oferta = la promesa del ad",
+            "móvil = un canal completo",
+            "landing primero, escala de presupuesto después",
+          ],
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Pasa una vez los ítems críticos en teléfono y portátil, envía un lead de prueba y solo entonces enciende un límite normal — más barato que «averiguarlo mientras quemas spend».",
+  ],
+  related: [
+    "byudzhet-yandeks-direkt",
+    "analiz-reklamnoy-kampanii",
+    "metriki-reklamy",
+    "audit-reklamnoy-kampanii",
+    "stavki-direkt",
+    "oshibki-reklamnoy-kampanii",
+  ],
+};

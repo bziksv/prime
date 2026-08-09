@@ -206,3 +206,210 @@ export const katalogiSaytovEn: BlogPost = {
     "lending",
   ],
 };
+
+/** ES overlay for katalogi-saytov — same structure as RU JSON / EN. */
+export const katalogiSaytovEs: BlogPost = {
+  slug: "katalogi-saytov",
+  title: "Registrar un sitio en directorios: qué sigue funcionando",
+  date: "2020-10-08",
+  category: "SEO",
+  cover: "/images/blog/katalogi-saytov/cover.webp",
+  excerpt:
+    "Cuándo el registro en directorios y listings trae tráfico y menciones — y cuándo es spam; cómo rellenar un perfil, qué plataformas elegir y qué evitar.",
+  lead: [
+    "«Registrar el sitio en 500 directorios» como táctica SEO murió hace tiempo: los motores distinguen fácilmente granjas basura de listings útiles. Lo que aún tiene sentido es el registro selectivo en directorios vivos, mapas y registros de industria — para personas, coherencia de NAP y menciones raras de calidad.",
+    "Abajo: qué da de verdad el placement, cómo hacerlo tú, cuándo ayuda un contratista y cómo no envenenar el perfil de backlinks.",
+  ],
+  faq: [
+    {
+      q: "¿Los directorios siguen afectando rankings?",
+      a: "Spam masivo — no, o perjudica. Directorios y mapas vivos pueden traer tráfico, confianza y señales locales. No lo confundas con comprar miles de enlaces «eternos».",
+    },
+    {
+      q: "¿Por dónde empezar un pequeño negocio?",
+      a: "Mapas y listings principales (Google Business Profile / mapas locales, 2GIS y pares geo), registros de industria, directorios de partners. Luego amplía solo si hace falta.",
+    },
+    {
+      q: "¿Los datos NAP deben coincidir en todas partes?",
+      a: "Sí: nombre, dirección, teléfono, sitio (NAP). Los desajustes confunden a la gente y al SEO local.",
+    },
+    {
+      q: "¿Hacen falta directorios de pago?",
+      a: "No. Paga solo si la plataforma trae tráfico cualificado o es obligatoria en el nicho. Un «pack de 1000 directorios» casi siempre es basura.",
+    },
+    {
+      q: "¿Los clasificados son lo mismo?",
+      a: "Un canal relacionado: los anuncios pueden traer tráfico y leads, pero no son un directorio SEO clásico. Sigue las reglas de la plataforma y mantén los anuncios al día.",
+    },
+    {
+      q: "¿La descripción tiene que ser única?",
+      a: "Sí cuando sea posible. El mismo copy-paste en cien sitios parece antinatural y convierte mal.",
+    },
+    {
+      q: "¿Qué ancla debe usar el enlace?",
+      a: "Marca, URL o neutro. No metas una keyword comercial en cada directorio.",
+    },
+    {
+      q: "¿Se puede automatizar el registro?",
+      a: "Los submitters masivos arriesgan bans y donors basura. Trabajo manual o semimanual sobre una whitelist es más seguro.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué da el registro hoy",
+      level: 2,
+      paras: [
+        "Visitas cualificadas desde una plataforma donde la gente busca un servicio o empresa. Un perfil coherente en resultados de mapa. Una mención de marca y a veces un enlace dofollow o una mención sin enlace. Para negocio local es parte de la presencia — no un sustituto del sitio o los anuncios.",
+        "El viejo «boost de enlaces de cientos de directorios» se parece más a una cola tóxica. Si el perfil ya está contaminado de granjas — límpialo y no añadas más.",
+      ],
+      lists: [
+        {
+          intro: "Beneficios realistas:",
+          items: [
+            "leads locales desde mapas y directorios",
+            "reconocimiento de NAP",
+            "backlinks raros de calidad",
+            "un canal junto al sitio y las redes",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Perfil de backlinks",
+          href: "/es/blog/ssylochnyy-profil/",
+        },
+      ],
+    },
+    {
+      title: "DIY o un «servicio de registro»",
+      level: 2,
+      paras: [
+        "DIY: control de calidad, tu propio copy, conocer las plataformas. Más lento, pero sin pack de spam. Un contratista encaja si da una whitelist, un informe de URLs y no promete rankings «vía directorios».",
+        "Banderas rojas del contratista: garantías de ranking, mil plataformas en una semana, una plantilla de descripción, directorios con «enlaces eternos» en un exchange.",
+      ],
+      lists: [
+        {
+          intro: "Qué exigir a un contratista:",
+          items: [
+            "lista de plataformas antes del pago",
+            "screenshot o URL de cada perfil",
+            "NAP coherente",
+            "sin granjas ni auto-submit",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Comprar «SEO vía directorios» y recibir cientos de enlaces de dominios drop. Limpiar el perfil después cuesta más.",
+        },
+      ],
+    },
+    {
+      title: "Qué plataformas aún tienen sentido",
+      level: 2,
+      paras: [
+        "Prioridad: mapas y perfiles de negocio, directorios de industria con audiencia viva, listings regionales, partners y asociaciones. Baja prioridad: listas anónimas de «cien mil sitios», satélites, catálogos solo para webmasters.",
+        "DMOZ y directorios SEO «clásicos» similares están cerrados o muertos — no pierdas tiempo en guías de los 2010.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de plataforma:",
+          items: [
+            "tiene tráfico y moderación",
+            "las fichas de empresa se indexan",
+            "puedes fijar contactos actuales",
+            "sin spam obvio en sus propios resultados",
+            "el nicho o geo encaja",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo rellenar el listing",
+      level: 2,
+      paras: [
+        "Mismo nombre legal o de vitrina, dirección, teléfono, sitio. Descripción — corta: quién eres, para quién, geo, USP. Categoría — lo más precisa posible. Fotos y horario generan confianza en mapas.",
+        "Enlace a una landing relevante (local o de servicio), no siempre a una homepage vacía. UTMs son opcionales para analítica; no generes basura indexable.",
+      ],
+      lists: [
+        {
+          intro: "Antes de enviar:",
+          items: [
+            "NAP alineado con el sitio y datos legales",
+            "un párrafo de descripción único",
+            "categoría correcta",
+            "teléfono y messenger que funcionen",
+            "logo y fotos que parezcan tu negocio real",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Flujo de registro y control",
+      level: 2,
+      paras: [
+        "Mantén una tabla: plataforma → estado → URL del listing → login → fecha. Primero directorios geo obligatorios, luego de industria. Cada trimestre, comprueba que los datos sigan vigentes (mudanza, teléfono nuevo).",
+        "No te registres en todas partes el mismo día por «link velocity». Calidad y coherencia ganan a la velocidad.",
+      ],
+      lists: [
+        {
+          intro: "Orden general:",
+          items: [
+            "whitelist de 10–30 plataformas",
+            "plantilla NAP + 2–3 variantes de descripción",
+            "registrar y pasar moderación",
+            "comprobar indexación del listing",
+            "monitorizar leads vía tags o teléfonos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Análisis de competidores",
+          href: "/es/blog/analiz-konkurentov/",
+        },
+      ],
+    },
+    {
+      title: "Clasificados y precaución con el spam",
+      level: 2,
+      paras: [
+        "Clasificados y agregadores pueden traer leads si el anuncio está vivo y el nicho encaja. Es un canal de performance, no un atajo de ranking. Sigue las reglas de la plataforma, refresca anuncios y no clones cientos de posts idénticos.",
+        "Si el perfil de backlinks ya está lleno de spam de directorios — primero auditoría e higiene, luego perfiles selectivos de calidad.",
+      ],
+      lists: [
+        {
+          intro: "Qué evitar:",
+          items: [
+            "auto-submit a miles de directorios",
+            "anclas comerciales a granel",
+            "directorios que son dumps de enlaces mutuos",
+            "promesas de «garantía de primera página» por registrarse",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Un perfil en un directorio fuerte con reseñas gana a cincuenta catálogos muertos. Los directorios son higiene de presencia — no un sustituto de la preparación del sitio ni del horizonte habitual de 2–6 meses de rankings tras empezar el trabajo SEO.",
+        },
+      ],
+      links: [
+        {
+          label: "SEO para pequeños negocios",
+          href: "/blog/seo-malyy-biznes/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "ssylochnyy-profil",
+    "seo-malyy-biznes",
+    "analiz-konkurentov",
+    "prodvizhenie-internet-magazina",
+    "lending",
+  ],
+};

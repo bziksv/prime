@@ -177,3 +177,181 @@ export const sklikivanieEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for sklikivanie — same structure as RU JSON / EN. */
+export const sklikivanieEs: BlogPost = {
+  slug: "sklikivanie",
+  title: "Fraude de clics en ads: señales, protección en Yandex Direct y Google Ads",
+  date: "2021-09-17",
+  category: "Paid search",
+  cover: "/images/blog/sklikivanie/cover.webp",
+  excerpt:
+    "Qué es el fraude de clics, cómo distinguirlo de una campaña floja, qué defensas hay en Yandex Direct y Google Ads, y qué hacer si sospechas fraude.",
+  lead: [
+    "El fraude de clics son clics artificiales en anuncios que queman presupuesto sin acciones objetivo. Se hace a mano, con scripts o botnets; a veces contra un competidor, a veces para inflar a un publisher.",
+    "Abajo: señales de fraude de clics, primeros pasos, protecciones integradas de Direct y Google Ads, y cómo separar el fraude de una oferta floja. Las cifras de pérdidas de recopilatorios viejos muestran escala — no tu previsión.",
+  ],
+  faq: [
+    {
+      q: "¿Pago por clics inválidos?",
+      a: "Las plataformas filtran parte de los clics automáticamente y no los cobran. Los casos en disputa se revisan bajo petición; si se confirman, ajustan. No hay protección al 100% «antes del clic».",
+    },
+    {
+      q: "¿Una conversión baja es siempre fraude de clics?",
+      a: "No. Más a menudo fallan la oferta, el landing, la temporada, keywords amplias o tráfico irrelevante. Mira 1–3 semanas de datos y el funnel — no un solo día.",
+    },
+    {
+      q: "¿Cuál es el primer movimiento ante un pico de clics?",
+      a: "Pausa o limita a tope la campaña, cruza geo/dispositivos/placements con los ajustes, guarda capturas de informes y contacta soporte cuando las anomalías estén claras.",
+    },
+    {
+      q: "¿Ayuda una blacklist de IP contra el fraude de clics?",
+      a: "Como complemento — sí, contra repeticiones desde direcciones conocidas. Contra un botnet distribuido los bloques de IP son limitados. Pesan más los filtros de la plataforma, exclusiones de placements y la calidad de la campaña.",
+    },
+    {
+      q: "¿El session replay demuestra fraude de clics?",
+      a: "Muestra el comportamiento en el sitio tras el clic. Una visita corta también pasa con un clic accidental real. Para fraude mira el combo: anomalía en la cuenta + geo/IP raro + patrón de bounce.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué es el fraude de clics",
+      level: 2,
+      paras: [
+        "El anunciante paga por clic. Un fraudster o un bot pega al anuncio una y otra vez para quemar presupuesto y no dejar leads. Tras el clic la página a menudo se cierra al momento.",
+        "Motivos: debilitar a un competidor, inflar ingresos de publisher/partner, «devolver» a un cliente antiguo. Los ataques automatizados escalan más duro que los manuales.",
+      ],
+      lists: [
+        {
+          intro: "Tipos:",
+          items: [
+            "fraude de clics manual (lento, cambios de IP)",
+            "scripts y emuladores",
+            "botnets en dispositivos infectados — el escenario más masivo",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Señales de fraude de clics",
+      level: 2,
+      paras: [
+        "Una sola métrica no basta. Busca un cluster de anomalías sin explicación de estacionalidad, noticias o ediciones de campaña.",
+      ],
+      lists: [
+        {
+          intro: "Banderas rojas:",
+          items: [
+            "un salto brusco de clics y CTR sin cambios en el anuncio",
+            "muchos clics con tiempo casi cero en el sitio / bounces al instante",
+            "geo y dispositivos fuera del targeting",
+            "repeticiones desde las mismas IPs/redes",
+            "un pico en placements concretos de la red de display",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Práctica",
+          kind: "tip",
+          text: "Cruza la cuenta de ads con Analytics vía UTM. Un hueco «hay clics — casi no hay sesiones» es motivo para cavar, pero primero verifica el tagging y el lag de reporting.",
+        },
+      ],
+      links: [
+        {
+          label: "Tráfico sospechoso de Google",
+          href: "/es/blog/podozritelnyy-trafik-google/",
+        },
+      ],
+    },
+    {
+      title: "Primeras medidas",
+      level: 2,
+      paras: [
+        "Para la hemorragia de presupuesto, luego investiga. En paralelo reúne pruebas para soporte.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de reacción:",
+          items: [
+            "pausa o un tope diario duro",
+            "informes por placement, región, dispositivo, hora",
+            "excluir placements / IPs sospechosos (dentro de los límites de la cuenta)",
+            "contactar soporte de Direct / Google Ads con hechos",
+            "tras la revisión — reiniciar con keywords y pujas más ajustadas",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Protección en Yandex Direct y Google Ads",
+      level: 2,
+      paras: [
+        "Ambos sistemas llevan filtros automáticos de clics inválidos: repeticiones, patrones bot-like, anomalías. Parte de los clics se corta antes de cobrar; parte se ajusta después — mira los informes de clics inválidos.",
+        "Google Ads (antes AdWords) combina prevención y revisión de quejas. Direct también muestra stats filtradas y herramientas de límite de placements. Los límites exactos de blacklist y los nombres de informes cambian — sigue la ayuda de la cuenta.",
+      ],
+      lists: [
+        {
+          intro: "Qué hace la plataforma:",
+          items: [
+            "corta parte del fraude automáticamente",
+            "no trata esos clics como «vivos» para la calidad de keywords",
+            "puede ajustar cargos ante una queja confirmada",
+            "castiga a violadores del lado de la red (tú no siempre lo ves)",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Error habitual",
+          kind: "tip",
+          text: "Esperar a que soporte «devuelva todo tras tres días de bounces». Primero prueba la anomalía; en paralelo arregla la relevancia — o el tráfico honesto pero basura sigue comiendo el presupuesto.",
+        },
+      ],
+    },
+    {
+      title: "Cuando no es fraude",
+      level: 2,
+      paras: [
+        "Muchos clics sin pedidos pasan con broad match, un anuncio flojo, un landing lento o irrelevante, o una temporada de «interés sin compra».",
+        "Una conversión de tienda del 1–2% en el nicho puede ser normal. Juzga por el funnel en semanas, no por una tarde de «gasto rápido» tras subir pujas.",
+      ],
+      lists: [
+        {
+          intro: "Motivos naturales de «vacío tras el clic»:",
+          items: [
+            "oferta y precio no cuadraron con lo que prometía el anuncio",
+            "el sitio es lento o torpe en móvil",
+            "temporada / noticias calentaron interés sin disposición a comprar",
+            "geo incorrecto o negative keywords ausentes",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo bajar el riesgo otra vez",
+      level: 2,
+      paras: [
+        "Mira a diario spend, CTR, bounces y los placements más cargados. Mantén la semántica ajustada, landings honestos, UTM y goals funcionando. Tras un incidente actualiza el núcleo y las estrategias de puja — no solo «vuelve a encenderlo como antes».",
+      ],
+      lists: [
+        {
+          intro: "Prevención:",
+          items: [
+            "monitor de anomalías por hora y placement",
+            "exclusión regular de placements basura de display",
+            "consistencia anuncio → página",
+            "topes de presupuesto y alertas en la cuenta/analytics",
+          ],
+        },
+      ],
+    },
+    {
+      title: "En resumen",
+      level: 2,
+      paras: [
+        "El fraude de clics es real, pero no toda caída de ROAS es un ataque. Mira el combo de señales, usa los filtros de Direct y Google Ads, corta presupuesto rápido ante anomalías y revisa en paralelo la calidad de la campaña. Tickets a soporte — con hechos, no con emociones.",
+      ],
+    },
+  ],
+};

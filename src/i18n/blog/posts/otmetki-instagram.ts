@@ -134,3 +134,138 @@ export const otmetkiInstagramEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for otmetki-instagram — same structure as RU JSON / EN. */
+export const otmetkiInstagramEs: BlogPost = {
+  slug: "otmetki-instagram",
+  title: "Etiquetas en Instagram: reglas, errores y valor real",
+  date: "2021-06-25",
+  category: "SMM",
+  cover: "/images/blog/otmetki-instagram/cover.webp",
+  excerpt:
+    "Por qué etiquetar cuentas en Stories y posts de Instagram, qué límites y errores estorban, y cómo usar tags en colaboraciones — sin tutoriales de clics obsoletos.",
+  lead: [
+    "Una etiqueta (@handle o un tag en la foto) da un salto rápido a otro perfil y notifica a la persona etiquetada. Para negocio son colaboraciones, menciones a partners y navegación entre tus propias cuentas.",
+    "Abajo: para qué sirve la función, reglas y errores típicos, y escenarios útiles. La UI de la app cambia; revisa límites y etiquetas del menú en la versión actual de Instagram.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Una mención en Stories es lo mismo que un tag en la foto?",
+      a: "Misma idea (enlace a un perfil), mecánica distinta. En Stories suele ser @ en el texto o un sticker de mención; en un post es un tag sobre la imagen. Revisa la UI actual.",
+    },
+    {
+      q: "¿Cuántas cuentas se pueden etiquetar a la vez?",
+      a: "Los límites han cambiado (históricamente en Stories a menudo rondaban la docena). Si necesitas más — parte en varias Stories o posts.",
+    },
+    {
+      q: "¿Se puede etiquetar a quien te bloqueó?",
+      a: "Suele no: sin acceso al perfil, el tag no pega.",
+    },
+    {
+      q: "¿Hace falta un scheduler de terceros?",
+      a: "No. Los schedulers ayudan con el timing, pero los tags también funcionan en la app. No des tu contraseña a servicios dudosos.",
+    },
+    {
+      q: "¿En qué se diferencia etiquetar del diseño del perfil?",
+      a: "El diseño es el header y la grilla. Los tags son cross-links dentro del contenido. Ver también posts de Stories y cuenta business.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué etiquetar a otros",
+      level: 2,
+      paras: [
+        "Con un toque un seguidor puede saltar a un partner, sucursal, expert o cuenta de producto. La persona etiquetada ve la mención y puede responder con una Story o reshare — cuando encaja.",
+        "Para una marca no es «magia de seguidores», sino una herramienta de navegación y cross-promo cuando ambas partes están de acuerdo.",
+      ],
+      lists: [
+        {
+          intro: "Escenarios típicos:",
+          items: [
+            "colaboración con un partner",
+            "mencionar a un proveedor o expert",
+            "enlazar varios de tus propios perfiles",
+            "navegación a una cuenta de tienda o landing",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Stories de Instagram",
+          href: "/es/blog/stories-instagram-inkognito/",
+        },
+        {
+          label: "Cuenta business de Instagram",
+          href: "/es/blog/biznes-akkaunt-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Reglas y límites",
+      level: 2,
+      paras: [
+        "Etiqueta solo handles reales sin caracteres de más alrededor de @. No pases el límite de tags por post. Un perfil privado — o uno que te bloqueó — suele no estar disponible para etiquetar.",
+        "Si alguien fue etiquetado contra su voluntad, puede reportarlo o limitar menciones en ajustes de privacidad — tenlo en cuenta en colaboraciones.",
+      ],
+      lists: [
+        {
+          intro: "Antes de publicar:",
+          items: [
+            "handle copiado correctamente",
+            "perfil no en una lista de bloqueo",
+            "consentimiento para mención comercial",
+            "no spamear docenas de tags al azar",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Errores típicos",
+      level: 2,
+      paras: [
+        "Handle equivocado, un espacio tras @, pasar el límite, un tag «de escaparate» sin contexto — motivos habituales de que el enlace falle o no aporte valor.",
+        "Emuladores y dashboards SMM de terceros no son obligatorios. Si usas un scheduler, elige uno de confianza y no guardes la contraseña en formularios dudosos.",
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Práctica",
+          text: "Un tag con sentido y contexto en el frame gana a diez handles al azar «por alcance».",
+        },
+      ],
+    },
+    {
+      title: "Cómo ayudan los tags al crecimiento",
+      level: 2,
+      paras: [
+        "Los tags refuerzan colaboraciones y cross-promo y ayudan a mover a un seguidor por una cadena de cuentas (serie, quest, sucursales). No sustituyen ads ni un plan de contenido.",
+        "Mide el resultado: visitas al perfil, respuestas, saves — no solo el hecho de que «se puso un tag».",
+      ],
+      lists: [
+        {
+          intro: "Qué medir:",
+          items: [
+            "respuestas y reshares de personas etiquetadas",
+            "crecimiento de seguidores tras un collab",
+            "toques a sticker/mención (si hay stats)",
+            "calidad de audiencia, no un contador crudo",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Diseño del perfil de Instagram",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+        {
+          label: "Insights de Instagram",
+          href: "/es/blog/statistika-instagram/",
+        },
+      ],
+    },
+  ],
+};

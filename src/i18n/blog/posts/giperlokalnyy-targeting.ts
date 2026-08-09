@@ -143,3 +143,147 @@ export const giperlokalnyyTargetingEn: BlogPost = {
     "istochniki-trafika",
   ],
 };
+
+/** ES overlay for giperlokalnyy-targeting — same structure as RU JSON / EN. */
+export const giperlokalnyyTargetingEs: BlogPost = {
+  slug: "giperlokalnyy-targeting",
+  title: "Targeting hiperlocal para negocios: a quién le sirve y cómo elegir la herramienta",
+  date: "2019-09-16",
+  category: "Digital marketing",
+  cover: "/images/blog/giperlokalnyy-targeting/cover.webp",
+  excerpt:
+    "Ads hiperlocales cerca de una ubicación: a quién encaja, geopolígonos en cuentas de ads, límites de Wi‑Fi/MAC y privacidad — sin esquemas de espionaje a competidores.",
+  lead: [
+    "El targeting hiperlocal muestra anuncios a quien pasa tiempo cerca de un punto concreto: casa, oficina, centro comercial, una ruta a tu lado. Para un café, clínica, salón y servicio local a menudo es más preciso que «intereses 25–45» amplios.",
+    "Abajo: quién necesita el formato, por qué, de dónde sale la audiencia y cómo elegir entre un geopolígono en la cuenta y la recogida de señales offline. Las UIs de las cuentas cambian; la privacidad y la aleatorización de IDs recortan los viejos escenarios de «radar MAC» — mételo en las expectativas.",
+  ],
+  faq: [
+    {
+      q: "¿En qué se diferencia el hiperlocal del geotargeting habitual?",
+      a: "El geo en una cuenta suele ser ciudad/distrito. El hiperlocal es un radio o contorno alrededor de una dirección, a veces con segmentos «vive / trabaja / visita».",
+    },
+    {
+      q: "¿A quién le beneficia más el targeting hiperlocal?",
+      a: "Puntos offline con tráfico peatonal/de oficinas cerca: hostelería, servicios, retail de barrio, B2B cerca de centros de negocios.",
+    },
+    {
+      q: "¿El radar Wi‑Fi por MAC sigue funcionando?",
+      a: "Más débil que a finales de los 2010: los SO aleatorizan el MAC, las reglas de las plataformas y las leyes de datos se endurecieron. No armes la estrategia solo en «recogimos direcciones de peatones».",
+    },
+    {
+      q: "¿Un polígono en Google/Yandex lo sustituye todo?",
+      a: "Útil para empezar sin hardware. El reach depende de los datos de la plataforma y del tamaño de la zona: en un contorno minúsculo puede haber muy pocas impresiones.",
+    },
+    {
+      q: "¿Puedo «cazar» la audiencia de un competidor con un radar?",
+      a: "Legal y éticamente arriesgado, y además la tech a menudo no es fiable. Mejor: oferta y geo alrededor de tu propio punto y un mensaje competitivo honesto.",
+    },
+    {
+      q: "¿Necesito un CRM propio?",
+      a: "Para remarketing «ya te visitaron» — sí. Para atraer gente nueva cerca del punto — tools de geo de la cuenta + creativo con un motivo claro para entrar.",
+    },
+  ],
+  sections: [
+    {
+      title: "Quién y por qué",
+      level: 2,
+      paras: [
+        "Si los clientes están físicamente cerca pero entran en sitios conocidos — el hiperlocal pone la oferta en el teléfono de quien vive, trabaja o visita con regularidad cerca de tu punto: vecinos, oficinas, visitantes del mall, gente en una ruta habitual.",
+        "Trabajos: promos de «cerca ahora», ofertas para residentes de la manzana, recordatorios a habituales, testear una oferta en una zona estrecha sin tirar presupuesto a toda la ciudad.",
+      ],
+      lists: [
+        {
+          intro: "Encaja bien cuando:",
+          items: [
+            "tienes un punto offline o zona de servicio",
+            "la decisión de visita es local",
+            "puedes medir visitas/llamadas/códigos promo",
+            "el creativo responde «por qué venir aquí en concreto»",
+          ],
+        },
+      ],
+    },
+    {
+      title: "De dónde sale la audiencia",
+      level: 2,
+      paras: [
+        "En la práctica mezclas: geozonas y polígonos en cuentas de ads; tus propias listas (CRM, loyalty, hotspot Wi‑Fi con consentimiento); datos de partner/DMP — con contrato y chequeo de procedencia. Social y mapas también corren escenarios locales — verifica las opciones actuales de la cuenta.",
+        "Las «huellas digitales» de intereses ayudan, pero para «junto a la puerta» una señal geo a menudo gana a una persona abstracta.",
+      ],
+      notes: [
+        {
+          title: "Privacidad",
+          kind: "tip",
+          text: "Recoge y sube audiencias solo con base legal y bajo las reglas de la plataforma. No prometas a clientes una «lista MAC completa de peatones» — es un modelo anticuado y discutible.",
+        },
+      ],
+    },
+    {
+      title: "Geopolígono en la cuenta de ads",
+      level: 2,
+      paras: [
+        "En Google Ads, Yandex Direct y tools similares fijas un punto/contorno y condiciones (radio, «visita con regularidad», etc. — los nombres de opciones cambian). Plus: sin comprar hardware, test rápido de un distrito o centro de negocios. Minus: los datos de la plataforma no cubren a todos; a granularidad de «un edificio» el reach y la frecuencia pueden ser débiles.",
+        "Para una manzana amplia o varias calles un polígono a menudo basta para empezar. Para un evento «aquí y ahora» un pin geo histórico puede no bastar — comprueba frescura de datos y tamaño de audiencia en la cuenta.",
+      ],
+      links: [
+        {
+          label: "SEO regional",
+          href: "/es/blog/regionalnoe-seo/",
+        },
+        {
+          label: "Cuenta de anuncios",
+          href: "/es/blog/reklamnyy-kabinet/",
+        },
+      ],
+    },
+    {
+      title: "Recogida de señales offline: expectativas en los 2020",
+      level: 2,
+      paras: [
+        "Antes se hablaba de escáneres Wi‑Fi que registraban MACs cerca de un punto, con filtros por tiempo y permanencia. Hoy la aleatorización de MAC, las políticas de app stores y los requisitos de tratamiento de datos han estrechado mucho ese canal. Si usas tu propio hotspot de red — solo con consentimiento claro y una política.",
+        "No planees un «radar invisible en un competidor» como esquema que funciona: ética, acceso y calidad de datos van en tu contra. Más fuerte — tu zona, tu oferta, comparación honesta.",
+      ],
+    },
+    {
+      title: "Cómo elegir y lanzar",
+      level: 2,
+      paras: [
+        "Empieza: polígono/radio en la cuenta + una landing u oferta «cerca» + código promo/call tracking. Si la zona es minúscula y hay pocas impresiones — amplía el contorno o refuerza creativo y puja; no persigas recogida gris de IDs.",
+        "Tus clientes de CRM son un loop de remarketing aparte. Compara CPA de visita/llamada con un cartel y flyers en la misma manzana — más justo que reach por el reach.",
+      ],
+      lists: [
+        {
+          intro: "Mini-checklist de lanzamiento:",
+          items: [
+            "punto y radio en el mapa",
+            "segmento (residentes / trabajadores / visitantes)",
+            "oferta y fechas de promo",
+            "UTM y método de medición",
+            "reglas de la cuenta y cumplimiento de datos personales",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Métricas de publicidad",
+          href: "/es/blog/metriki-reklamy/",
+        },
+        {
+          label: "Retargeting",
+          href: "/es/blog/retargeting/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "El targeting hiperlocal funciona cuando la oferta está ligada a geografía real y se mide. Empieza con tools de geo de la cuenta y tu propia lista; no metas en el plan esquemas anticuados de «recoger cada MAC en la puerta del competidor».",
+  ],
+  related: [
+    "retargeting",
+    "regionalnoe-seo",
+    "reklamnyy-kabinet",
+    "metriki-reklamy",
+    "tselevaya-auditoriya",
+    "istochniki-trafika",
+  ],
+};

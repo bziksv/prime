@@ -146,3 +146,150 @@ export const httpZagolovkiEn: BlogPost = {
     "Security headers are an invisible but useful layer: HSTS, anti-frame, nosniff, careful CSP, and referrer/permissions policies. Roll out gradually, test with widgets, and don’t confuse them with full CMS security.",
   ],
 };
+
+/** ES overlay for http-zagolovki — same structure as RU JSON / EN. */
+export const httpZagolovkiEs: BlogPost = {
+  slug: "http-zagolovki",
+  title: "Headers HTTP de seguridad: qué configurar en un sitio",
+  date: "2020-01-13",
+  category: "SEO",
+  cover: "/images/blog/http-zagolovki/cover.webp",
+  excerpt:
+    "Qué headers HTTP refuerzan la seguridad del sitio: HSTS, CSP, X-Frame-Options, Referrer-Policy, Permissions-Policy — cómo comprobarlos y dónde fijarlos sin romper el layout.",
+  lead: [
+    "Los headers HTTP son campos de servicio en la respuesta del servidor: dicen al navegador cómo tratar la página (tipo de contenido, cache, redirect, reglas de seguridad). Algunos cortan de forma directa riesgos de XSS, clickjacking y fugas de datos.",
+    "Abajo: un set práctico de headers de seguridad. El panorama general request/response está en el artículo del protocolo HTTP; aquí el foco es protección. Antes de editar — backup del config y prueba en staging.",
+  ],
+  faq: [
+    {
+      q: "¿Dónde se ven los headers?",
+      a: "DevTools → Network → response del documento, `curl -I https://sitio/`, scanners online de security headers. Revisa el host HTTPS en vivo.",
+    },
+    {
+      q: "¿Dónde se configuran?",
+      a: "En el config del servidor web (nginx, Apache/`.htaccess`), a veces en la app (PHP `header()`, middleware). Mejor servidor/CDN — una vez para todo el sitio.",
+    },
+    {
+      q: "¿Sigue haciendo falta X-XSS-Protection?",
+      a: "En navegadores modernos está desfasado y puede molestar. Apóyate en CSP, no en el filtro XSS viejo. No lo trates como base de la protección.",
+    },
+    {
+      q: "¿CSP romperá el sitio?",
+      a: "Un CSP estricto que ignore scripts — sí. Empieza con Report-Only o una política suave, mira reports y luego aprieta.",
+    },
+    {
+      q: "¿Se puede usar HSTS sin HTTPS?",
+      a: "No. Primero HTTPS estable y redirect http→https; luego HSTS.",
+    },
+    {
+      q: "¿Esto afecta al SEO?",
+      a: "De forma indirecta: seguridad y confianza, menos riesgo de hacks/spam. No hay un «header para primera página». Los rankings siguen al trabajo en el sitio; meses planificados tras arrancar el SEO.",
+    },
+    {
+      q: "¿Feature-Policy o Permissions-Policy?",
+      a: "El nombre actual es Permissions-Policy (limita cámara, geolocalización, etc.). Feature-Policy viejo aún aparece en guías.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué son los headers HTTP",
+      level: 2,
+      paras: [
+        "Al abrir una URL, el navegador recibe no solo HTML sino metadata de respuesta: `Content-Type`, `Location`, `Cache-Control`, flags de cookies, directivas de seguridad. Sin ellos el protocolo no sabe cómo mostrar la página con seguridad.",
+        "Los headers de seguridad no sustituyen updates del CMS ni contraseñas. Son una capa de protección del navegador encima de la higiene normal del servidor.",
+      ],
+      lists: [
+        {
+          intro: "Antes de configurar:",
+          items: [
+            "backup de nginx/Apache/`.htaccess`",
+            "probar en una copia del sitio",
+            "listar dominios, CDN, analytics, widgets",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Protocolo HTTP",
+          href: "/es/blog/protokol-http/",
+        },
+        {
+          label: "HTTPS y SEO",
+          href: "/es/blog/https-seo/",
+        },
+      ],
+    },
+    {
+      title: "HSTS: solo HTTPS",
+      level: 2,
+      paras: [
+        "`Strict-Transport-Security` dice al navegador: para este host, usa solo HTTPS durante un tiempo fijado. Corta el riesgo de volver a HTTP abierto y parte de los ataques de downgrade.",
+        "Actívalo cuando el certificado y los redirects estén estables. `includeSubDomains` y `preload` — a propósito: un preload malo cuesta deshacer.",
+      ],
+    },
+    {
+      title: "Clickjacking y MIME: X-Frame-Options, X-Content-Type-Options",
+      level: 2,
+      paras: [
+        "`X-Frame-Options` (y CSP `frame-ancestors`) limita embeber el sitio en iframes de otras páginas — protección contra clickjacking. Valores típicos: `DENY` o `SAMEORIGIN`.",
+        "`X-Content-Type-Options: nosniff` evita que el navegador adivine el tipo de archivo más allá del `Content-Type` declarado — menos sorpresas con ejecución de scripts.",
+      ],
+    },
+    {
+      title: "CSP: política de contenido",
+      level: 2,
+      paras: [
+        "`Content-Security-Policy` fija desde dónde pueden cargarse scripts, estilos, imágenes y frames. Es la herramienta moderna principal contra muchos casos XSS cuando está bien puesta.",
+        "Empieza inventariando dominios (tu host, CDN, analytics, chat). Report-Only ayuda a ver violaciones sin roturas. Un `default-src 'none'` de golpe sin prep casi siempre rompe widgets.",
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "Los scripts inline y `eval` complican CSP. Planifica nonces/hashes o mueve scripts a archivos — o la política se queda en un `unsafe-inline` con fugas.",
+        },
+      ],
+    },
+    {
+      title: "Referrer-Policy y Permissions-Policy",
+      level: 2,
+      paras: [
+        "`Referrer-Policy` limita cuánta URL va en `Referer` en las navegaciones — menos fuga de path y query. Un equilibrio habitual: `strict-origin-when-cross-origin`.",
+        "`Permissions-Policy` (antes Feature-Policy) desactiva o limita APIs potentes del navegador (cámara, mic, geolocalización) cuando el sitio no las necesita.",
+      ],
+      lists: [
+        {
+          intro: "Set mínimo para empezar:",
+          items: [
+            "HSTS (tras HTTPS)",
+            "X-Content-Type-Options: nosniff",
+            "frame-ancestors / X-Frame-Options",
+            "Referrer-Policy",
+            "un borrador de CSP en Report-Only",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo desplegar y verificar",
+      level: 2,
+      paras: [
+        "Fija headers en nginx/`add_header`, Apache/`Header set` o el panel del hosting. PHP en la plantilla es un fallback — peor para estáticos y cache.",
+        "Tras el deploy revisa home, páginas de login, formularios y páginas con widgets. Mira la consola por errores CSP. Documenta la política para el equipo: un script nuevo de analytics no debería romper prod por sorpresa.",
+      ],
+      links: [
+        {
+          label: "Seguridad del sitio",
+          href: "/es/blog/bezopasnost-sayta/",
+        },
+        {
+          label: ".htaccess y 301",
+          href: "/es/blog/htaccess-301/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "Los headers de seguridad son una capa invisible pero útil: HSTS, anti-frame, nosniff, CSP con cuidado y políticas de referrer/permissions. Despliega poco a poco, prueba con widgets y no los confundas con la seguridad completa del CMS.",
+  ],
+};

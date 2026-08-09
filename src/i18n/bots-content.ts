@@ -441,8 +441,237 @@ const botsEn: BotsContent = {
   footerTagline: "Chatbots · Telegram · integrations",
 };
 
+const botsEs: BotsContent = {
+  path: "/es/bots/",
+  metaTitle: "Chatbots — PRIME",
+  metaDescription:
+    "Chatbots para Telegram y otras apps de mensajería: menús, avisos, reservas y acceso — conectados a tu sitio o CRM. Solo APIs oficiales. Sin spam ni trucos de zona gris.",
+  serviceName: "Chatbots",
+  serviceType: "Desarrollo de chatbots",
+  breadcrumbHome: "Inicio",
+  breadcrumbCurrent: "Chatbots",
+  menuLabel: "Menú",
+  ctaTop: "Hablemos",
+  brandBefore: "PRIM",
+  brandAccent: "E",
+  heroTitleBefore: "Bots que dan servicio ",
+  heroTitleAccent: "donde tus clientes ya están",
+  heroLead:
+    "Telegram y más allá: menús, avisos, reservas y acceso — sin una app aparte, conectado a tu sitio o CRM.",
+  heroCtaPrimary: "Cuéntanos tu bot",
+  heroCtaSecondary: "Ver cómo funciona",
+  chatName: "Tu bot",
+  chatStatus: "en línea",
+  chatSteps: [
+    "Bienvenida — elige una opción",
+    "Reservado para mañana, 18:00",
+    "Listo · el recordatorio llega aquí",
+  ],
+  chatMenu: ["Reservar", "Estado", "Soporte"],
+  rail: [
+    "Telegram",
+    "Menús",
+    "Notificaciones",
+    "Reservas",
+    "Acceso",
+    "CRM",
+    "Webhook",
+    "WhatsApp",
+    "Cuenta",
+    "Sin app",
+  ],
+  compareTitle: "Chat grupal vs. bot",
+  problemLead:
+    "Tus clientes ya viven en apps de mensajería. Los leads, los estados y los recordatorios siguen rebotando entre correos, formularios y chats grupales — y se pierden.",
+  chaosLabel: "Cómo es ahora",
+  cleanLabel: "Con un bot",
+  chaos: [
+    "¿quién está libre a las 6??",
+    "manda otra vez la lista de precios",
+    "¿estado del pedido?",
+    "pásalo para mañana",
+    "¿hay alguien ahí?",
+  ],
+  clean: [
+    { role: "bot", text: "Elige una opción" },
+    { role: "menu", items: ["Reservar", "Estado", "Soporte"] },
+    { role: "user", text: "Reservar · mañana 18:00" },
+    { role: "bot", text: "Listo. El recordatorio llegará aquí." },
+  ],
+  distort:
+    "El equipo responde tarde; el cliente escribe a quien conteste primero. Tienes un sitio web — pero no un canal en tiempo real.",
+  trust:
+    "Un bot no es un capricho ni una tanda de spam. Es una capa de producto junto a tu sitio y tu CRM: acceso, menús, avisos y reservas donde la gente ya está.",
+  cycle:
+    "Más chats manuales significa más carga y más caos: las mismas preguntas repetidas, reservas perdidas, avisos que solo llegan “si alguien se acordó”.",
+  pillarsTitle: "Qué construimos",
+  pillarsLead:
+    "Flujos, avisos, integraciones y un panel — a medida del proyecto, no un chat genérico para todo.",
+  pillars: [
+    {
+      n: "01",
+      title: "Flujos según la necesidad",
+      text: "Acceso y confirmación, reservas, estado de pedidos, FAQ, calificación de leads — ramas claras, no un único hilo interminable.",
+    },
+    {
+      n: "02",
+      title: "Menús y avisos",
+      text: "Botones en vez de comandos con barra, un catálogo de notificaciones con opt-in: reservas, estados, novedades — sin mensajes fríos.",
+    },
+    {
+      n: "03",
+      title: "Conectado al sitio y al CRM",
+      text: "Un solo backend con cuenta web o exportación a CRM — el bot no vive en una isla de datos aparte.",
+    },
+    {
+      n: "04",
+      title: "Un panel que tu equipo puede manejar",
+      text: "Quién modera, qué flujos corren, cómo se editan textos y roles — sin depender siempre del programador.",
+    },
+  ],
+  platformsTitle: "Canales y conexiones",
+  platformsLead: "De Telegram al CRM — solo APIs oficiales, sin rodeos de zona gris.",
+  platforms: [
+    {
+      title: "Telegram",
+      text: "Canal principal: webhook, menús, avisos, enlace directo a tu producto web.",
+      tag: "punto de partida habitual",
+    },
+    {
+      title: "WhatsApp Business",
+      text: "Cuando tu audiencia ya está ahí y tienes acceso a la API oficial.",
+      tag: "según el caso",
+    },
+    {
+      title: "Sitio + bot",
+      text: "Inicio de sesión en el sitio, confirmación en la app de mensajería, cuenta y avisos siempre sincronizados.",
+      tag: "un solo producto",
+    },
+    {
+      title: "CRM",
+      text: "Los leads y estados llegan a tu equipo; los clientes solo ven lo que necesitan.",
+      tag: "integración",
+    },
+  ],
+  flowTitle: "Un producto, tres puntos de contacto",
+  flow: [
+    { title: "Sitio / formulario", text: "Lead, acceso, cuenta" },
+    { title: "Bot", text: "Menús, avisos, flujos" },
+    { title: "CRM / equipo", text: "Leads y casos escalados" },
+  ],
+  stepsTitle: "Cómo trabajamos",
+  stepsLead: "Del proyecto y los canales al lanzamiento — y luego ajustamos según el uso real.",
+  stepPrefix: "Paso",
+  steps: [
+    {
+      n: "01",
+      title: "Proyecto y canales",
+      text: "Qué debe cubrir el bot: leads, reservas, estados, acceso. Dónde ya está tu audiencia.",
+    },
+    {
+      n: "02",
+      title: "Flujos e integraciones",
+      text: "Ramas, roles, conexión con sitio/CRM, catálogo de notificaciones.",
+    },
+    {
+      n: "03",
+      title: "Desarrollo y pruebas",
+      text: "Webhook, menús, avisos, flujos de administración. Rutas reales antes de salir en vivo.",
+    },
+    {
+      n: "04",
+      title: "Lanzamiento y mejora continua",
+      text: "Publicamos en producción, seguimos las métricas de respuesta y ajustamos textos y ramas con el uso real.",
+    },
+  ],
+  showCases: false,
+  casesTitle: "Trabajos con bots",
+  casesLead: "Productos reales con una capa de mensajería.",
+  casesAll: "Ver todos los trabajos con bots",
+  outcomesTitle: "Qué cambia",
+  outcomesLead: "No un bot de relleno — un canal de servicio junto al sitio.",
+  outcomes: [
+    { title: "Un canal sin app propia", text: "Los clientes escriben donde ya tienen una cuenta." },
+    { title: "Menos trabajo manual", text: "El bot resuelve las preguntas y recordatorios habituales." },
+    {
+      title: "Un solo producto con el sitio",
+      text: "La sesión y los avisos se mantienen sincronizados — no dos bases de datos separadas.",
+    },
+  ],
+  nosTitle: "Qué no vamos a hacer",
+  nosLead: "Para que un bot nunca se confunda con una tanda de spam.",
+  nos: [
+    { title: "Sin spam frío", text: "Solo flujos con opt-in y que aporten algo." },
+    {
+      title: "Sin promesas de “bot en un fin de semana”",
+      text: "El plazo depende de los flujos y las integraciones.",
+    },
+    {
+      title: "Sin saltarse las reglas de las plataformas",
+      text: "Solo APIs oficiales. Los esquemas de zona gris no están en nuestro radar.",
+    },
+  ],
+  pricingTitle: "El precio se ajusta al proyecto",
+  pricingText:
+    "Cotizamos después de entender los flujos, el canal, la conexión con sitio/CRM y si tu equipo necesita un panel de administración.",
+  pricingMark: "Después de definir los flujos",
+  faqTitle: "Preguntas frecuentes",
+  faqLead: "Canales, plazos, CRM y el papel de las personas.",
+  faq: [
+    {
+      q: "¿Con qué app de mensajería deberíamos empezar?",
+      a: "Normalmente Telegram: flujos más rápidos, webhooks y conexión con el sitio. WhatsApp y otras cuando la audiencia ya está ahí y hay acceso a la API oficial.",
+    },
+    {
+      q: "¿El bot va a reemplazar a nuestro equipo?",
+      a: "No. El bot se encarga de lo rutinario y de dirigir las conversaciones. Las preguntas complejas, las ventas y los casos delicados siguen con personas.",
+    },
+    {
+      q: "¿Pueden conectar nuestro sitio o CRM?",
+      a: "Sí. El camino habitual es un solo backend con cuenta web, o sincronización de leads/estados con el CRM. Definimos el alcance de la integración al arrancar.",
+    },
+    {
+      q: "¿Cuánto tarda el lanzamiento?",
+      a: "Un flujo simple (menú + leads + notificaciones) suele tomar unas semanas. Roles complejos, reservas y CRM a fondo llevan más tiempo. Fijamos el plazo después de la fase de descubrimiento.",
+    },
+    {
+      q: "¿Solo hacen bots para Telegram?",
+      a: "Telegram es el canal principal y más habitual. Trabajamos con otras apps de mensajería cuando el proyecto lo pide y hay acceso legal a la API.",
+    },
+  ],
+  ctaTitle: "¿Necesitas un bot para tu servicio?",
+  ctaLead:
+    "Revisamos canal, flujos y conexión con sitio/CRM — y te enviamos un plan sin compromiso.",
+  ctaPoints: [
+    "Telegram y APIs oficiales",
+    "Menús, avisos, reservas, acceso",
+    "Conectado a sitio y CRM",
+    "Llamada de descubrimiento de 30 minutos",
+  ],
+  formName: "Nombre",
+  formPhone: "Teléfono",
+  formBrand: "Empresa / producto",
+  formFocus: "¿Qué es prioritario?",
+  formFocusOptions: [
+    "Leads y calificación",
+    "Reservas / turnos",
+    "Notificaciones y estados",
+    "Acceso y cuenta vía bot",
+    "Todo junto · sitio + bot",
+  ],
+  formMessage: "Canal, flujos — ¿tienes sitio o CRM?",
+  formAgreeBefore: "Acepto el tratamiento de datos personales conforme a nuestra",
+  formAgreePolicy: "política de privacidad",
+  formSubmit: "Enviar",
+  formSuccess: "Gracias, lo recibimos. Te contactaremos sobre tu bot.",
+  formSource: "es-bots",
+  footerBrand: "PRIME",
+  footerTagline: "Chatbots · Telegram · integraciones",
+};
+
 export function getBotsContent(locale: Locale): BotsContent {
   if (locale === "en") return botsEn;
+  if (locale === "es") return botsEs;
   return botsRu;
 }
 

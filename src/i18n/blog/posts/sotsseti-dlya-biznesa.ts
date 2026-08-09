@@ -166,3 +166,170 @@ export const sotssetiDlyaBiznesaEn: BlogPost = {
     "kontent-plan",
   ],
 };
+
+/** ES overlay for sotsseti-dlya-biznesa — same structure as RU JSON / EN. */
+export const sotssetiDlyaBiznesaEs: BlogPost = {
+  slug: "sotsseti-dlya-biznesa",
+  title: "Por qué el negocio necesita redes sociales: confianza, servicio y ventas",
+  date: "2017-03-06",
+  category: "SMM",
+  cover: "/images/blog/sotsseti-dlya-biznesa/cover.webp",
+  excerpt:
+    "Por qué una empresa necesita una página social: cómo un canal vivo inclina la elección entre vendedores parecidos, cómo difiere el trabajo de ventas de la imagen de marca, y cómo empezar sin un SMM a tiempo completo.",
+  lead: [
+    "Las redes rara vez son el único criterio de compra — pero a menudo se vuelven el punto de inflexión cuando dos vendedores locales se parecen en precio y surtido. Los compradores miran respuestas en vivo, reseñas y un servicio postventa claro.",
+    "Abajo: cómo los canales moldean la percepción del negocio, cuándo el feed ayuda a vender frente a cuándo importa más la imagen de marca, y cómo empezar sin un equipo grande. Plataformas y leyes cambian — elige canales por audiencia y jurisdicción.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de las plataformas. Instagram* y Facebook* son productos de Meta Platforms Inc.; en la Federación de Rusia la actividad de Meta está reconocida como extremista, y el uso de los servicios puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Las redes son obligatorias para todo negocio?",
+      a: "No como un checkbox por sí mismo. Si los clientes comparan vendedores online y esperan respuestas rápidas, faltar un canal vivo a menudo pierde frente al competidor que lo tiene.",
+    },
+    {
+      q: "¿Con qué plataforma empiezo?",
+      a: "Donde tu audiencia ya está. En muchos nichos locales RU eso es VK y mensajeros; en B2B — a veces otros canales. No te disperses en cinco perfiles vacíos.",
+    },
+    {
+      q: "¿Las redes sustituyen al sitio?",
+      a: "No. El sitio es la base para SEO, catálogo y confianza. Lo social son puntos de contacto, servicio y tráfico. El par gana a «solo el feed».",
+    },
+    {
+      q: "¿Necesito un manager SMM a tiempo completo?",
+      a: "No de golpe. Al inicio bastan posts expertos regulares y respuestas en un tiempo razonable. Cuando crece el volumen, separa el rol.",
+    },
+    {
+      q: "¿Qué importa más: likes o leads?",
+      a: "Leads, visitas, chats y contactos repetidos. Los likes solos son un KPI débil.",
+    },
+    {
+      q: "¿Un tono de descuento duro encaja en una marca grande?",
+      a: "A menudo no. Premium y B2B suelen cuidar imagen: calidad de contenido, expertise y servicio — sin gritar descuentos.",
+    },
+    {
+      q: "¿Con qué frecuencia publicar?",
+      a: "Con regularidad y dentro de tu capacidad: mejor 2–3 touchpoints fuertes a la semana que ruido diario. Lo principal — no desaparecer meses.",
+    },
+    {
+      q: "¿Cómo mido el efecto?",
+      a: "UTM al sitio, consultas desde mensajes, contactos guardados y preguntas repetidas tras la compra — no solo el crecimiento de followers.",
+    },
+  ],
+  sections: [
+    {
+      title: "El rol de lo social al elegir vendedor",
+      level: 2,
+      paras: [
+        "Caso típico: dos vendedores regionales con precios parecidos. El comprador abre un grupo — updates, desgloses de producto, reseñas, fotos en vivo, forma de preguntar a otros clientes. El otro — silencio o un escaparate sin respuestas.",
+        "Incluso actividad simple de un salón, taller o tienda de electrónica baja el miedo a «compré y me abandonaron». Aquí lo social prueba servicio — no una «cuenta de moda».",
+      ],
+      lists: [
+        {
+          intro: "Qué suelen revisar los clientes:",
+          items: [
+            "hay posts frescos",
+            "responden preguntas",
+            "hay fotos en vivo y reseñas",
+            "el soporte postcompra es claro",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cuándo el feed trabaja para las ventas",
+      level: 2,
+      paras: [
+        "En nichos de producto visual (moda, beauty, retail local) un catálogo y el chat en el feed o mensajes a menudo aceleran el trato: la gente ve disponibilidad y precio, y puede preguntar talla o plazos.",
+        "En VK, Odnoklassniki y mensajeros la misma lógica encaja con una audiencia más local y a menudo mayor — a veces incluso para servicios caros si el contenido explica el producto, no solo «empuja emoción».",
+      ],
+      lists: [
+        {
+          intro: "Mínimo que funciona para ventas por canal:",
+          items: [
+            "oferta y contactos claros",
+            "fotos y disponibilidad actuales",
+            "respuestas en horario comercial",
+            "enlace al sitio o formulario de lead",
+            "términos honestos de entrega y garantía",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Ads en públicos de VK",
+          href: "/es/blog/reklama-v-pablikah-vk/",
+        },
+        {
+          label: "Crecer un grupo de VK",
+          href: "/es/blog/raskrutka-gruppy-vk/",
+        },
+      ],
+    },
+    {
+      title: "La imagen no siempre es «oferta del día»",
+      level: 2,
+      paras: [
+        "No todo negocio necesita tono de showroom. Para algunas empresas importa más una imagen experta calmada: materiales de calidad, desgloses de features, prueba del valor del precio — sin CTAs agresivos.",
+        "Error — copiar el tone of voice de otro. Ajusta el lenguaje a tu ticket y audiencia: servicio local ≠ marca premium ≠ B2B mayorista.",
+      ],
+      notes: [
+        {
+          title: "Sobre Instagram y Meta",
+          text: "Si el material menciona productos de Meta (incluido Instagram), ver la nota legal de la página. Elige plataformas con audiencia y ley aplicable en mente.",
+          kind: "legal",
+        },
+      ],
+      links: [
+        {
+          label: "Cuenta business de Instagram",
+          href: "/es/blog/biznes-akkaunt-instagram/",
+        },
+        {
+          label: "Qué hace un manager SMM",
+          href: "/es/blog/menedzher-smm/",
+        },
+      ],
+    },
+    {
+      title: "Cómo empezar sin un equipo grande",
+      level: 2,
+      paras: [
+        "Elige 1–2 canales donde tus clientes ya están. Monta el perfil: quién eres, qué vendes, cómo contactar. Arranca un ritmo de contenido simple: valor, casos o muestras de trabajo, respuestas FAQ y servicio detrás de cámaras.",
+        "Un SMM a tiempo completo no hace falta el mes uno. La regularidad y responder mensajes sí. Cuando crecen touchpoints y ads, mete un especialista o agencia.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de los primeros 30 días:",
+          items: [
+            "un canal principal más contactos",
+            "10–12 borradores de temas",
+            "regla de respuesta (p. ej. dentro del día laboral)",
+            "UTM o etiqueta en clics al sitio",
+            "slice mensual: consultas y calidad del chat",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Marca personal en redes",
+          href: "/es/blog/lichnyy-brend/",
+        },
+        {
+          label: "Cómo armar un plan de contenido",
+          href: "/es/blog/kontent-plan/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "menedzher-smm",
+    "reklama-v-pablikah-vk",
+    "raskrutka-gruppy-vk",
+    "biznes-akkaunt-instagram",
+    "lichnyy-brend",
+    "kontent-plan",
+  ],
+};

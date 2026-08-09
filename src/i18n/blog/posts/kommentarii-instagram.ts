@@ -153,3 +153,157 @@ export const kommentariiInstagramEn: BlogPost = {
     "menedzher-smm",
   ],
 };
+
+/** ES overlay for kommentarii-instagram — same structure as RU JSON / EN. */
+export const kommentariiInstagramEs: BlogPost = {
+  slug: "kommentarii-instagram",
+  title: "Comentarios en Instagram para negocio: responder, moderar, sonar humano",
+  date: "2021-05-28",
+  category: "SMM",
+  cover: "/images/blog/kommentarii-instagram/cover.webp",
+  excerpt:
+    "Por qué una cuenta comercial de Instagram necesita comentarios, cómo tratar preguntas y negatividad, qué fijar en moderación y por qué los esquemas de spam con hashtags en comentarios hacen daño.",
+  lead: [
+    "Los comentarios son un canal de diálogo junto al post: preguntas previas a la compra, reseñas, objeciones. Para negocio no es «ruido extra» — es servicio y una señal de engagement.",
+    "Abajo: por qué conviene responder, cómo editar o borrar, ajustes de filtro y errores típicos. Los botones de la app cambian; las reglas de conversación importan más que capturas de menú. La nota sobre Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Una cuenta business necesita comentarios?",
+      a: "Sí: respuestas a preguntas, lealtad y prueba social viva. Ignorarlos suele cortar la conversión más que un visual imperfecto.",
+    },
+    {
+      q: "¿Debo borrar comentarios negativos?",
+      a: "Insultos y spam — sí. La crítica constructiva se trata mejor en público con brevedad o se pasa a Direct. Borrar en masa reseñas honestas daña la confianza.",
+    },
+    {
+      q: "¿Ayudan los hashtags en comentarios bajo mis propios posts?",
+      a: "Como esquema de «forzar más discovery» — débil y arriesgado. Mejor: tags relevantes en el post y respuestas reales a personas.",
+    },
+    {
+      q: "¿Y si no puedo dejar un comentario?",
+      a: "A menudo un límite de acciones, ajustes del autor, un límite temporal de cuenta o un bug. Revisa notificaciones y espera; no armes bots.",
+    },
+    {
+      q: "¿Hay que responder a cada comentario?",
+      a: "A preguntas y menciones de marca — sí, en un plazo razonable. Los floods de emoji pueden ser selectivos; lo principal es no desaparecer días enteros.",
+    },
+    {
+      q: "¿Cómo modero comentarios ajenos?",
+      a: "Filtros de palabras integrados, ocultar/borrar a mano, reports de spam. Para un equipo — roles de acceso, no una contraseña compartida.",
+    },
+    {
+      q: "¿Cómo se relacionan los comentarios con un post de venta?",
+      a: "El post impulsa la acción; los comentarios despejan dudas. Ver el artículo del post de venta.",
+    },
+    {
+      q: "¿Los comentarios garantizan ventas?",
+      a: "No. Construyen confianza y aclaran preguntas. Las ventas vienen de la oferta, el stock y la velocidad de respuesta en Direct o en el sitio.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué el negocio necesita comentarios",
+      level: 2,
+      paras: [
+        "Bajo un post el cliente aclara precio, talla, envío, plazos. Una respuesta rápida y cortés sube la probabilidad de pedido y muestra que hay personas reales detrás de la cuenta.",
+        "Un hilo activo también funciona como prueba social: una franja de comentarios vacía se ve peor que un diálogo vivo (pero no fingido).",
+      ],
+      lists: [
+        {
+          intro: "Valor práctico:",
+          items: [
+            "tratar objeciones antes del Direct",
+            "recoger preguntas frecuentes para el siguiente contenido",
+            "lealtad de «me escucharon»",
+            "casos públicos y agradecimientos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo responder",
+      level: 2,
+      paras: [
+        "Responde al grano: corto, sin fluff corporativo, con un siguiente paso («escribe el SKU en Direct», «enlace en la bio»). Ante crítica — sin pelea emocional: hecho, solución, invitación a DM si hace falta.",
+        "Editar y borrar tus propios comentarios vive en el menú del comentario (gestos e ítems dependen de la versión de la app). Borra spam ajeno; deja visibles las preguntas útiles con tu respuesta.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de respuesta:",
+          items: [
+            "entendiste la pregunta",
+            "diste una respuesta o estado claros",
+            "dijiste dónde escribir después",
+            "el tono cuadra con un buen servicio offline",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Post de venta en Instagram",
+          href: "/es/blog/post-instagram/",
+        },
+        {
+          label: "Cuenta business en Instagram",
+          href: "/es/blog/biznes-akkaunt-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Moderación y límites",
+      level: 2,
+      paras: [
+        "Los ajustes de comentarios suelen incluir filtros de palabras no deseadas y quién puede comentar. Eso corta spam, pero no sustituye la revisión manual de casos límite.",
+        "Si comentar no funciona: revisa límites de cuenta, estado de action-block y ajustes del autor del post. No uses auto-comentarios ni engagement falso — el riesgo de restricción supera el beneficio.",
+      ],
+      links: [
+        {
+          label: "Bans en Instagram",
+          href: "/es/blog/blokirovka-instagram/",
+        },
+        {
+          label: "Shadowban en Instagram",
+          href: "/es/blog/tenevoy-ban-instagram/",
+        },
+        {
+          label: "Comprar likes",
+          href: "/es/blog/nakrutka-laykov-instagram/",
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          text: "No prometas que «solo con comentarios entrarás en recomendaciones». El engagement ayuda, pero la calidad del contenido y seguir las reglas ganan a los esquemas.",
+          kind: "tip",
+        },
+      ],
+    },
+    {
+      title: "Proceso para el equipo",
+      level: 2,
+      paras: [
+        "Fija un SLA de respuesta (p. ej. en horario laboral), plantillas para preguntas frecuentes y escalado ante negatividad. Acceso vía roles de cuenta — no reenviando la contraseña.",
+        "De vez en cuando pasa las preguntas frecuentes de los comentarios a un FAQ del sitio o a Highlights — menos repeticiones, más confianza.",
+      ],
+      links: [
+        {
+          label: "Manager de SMM",
+          href: "/es/blog/menedzher-smm/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "post-instagram",
+    "biznes-akkaunt-instagram",
+    "blokirovka-instagram",
+    "tenevoy-ban-instagram",
+    "nakrutka-laykov-instagram",
+    "menedzher-smm",
+  ],
+};

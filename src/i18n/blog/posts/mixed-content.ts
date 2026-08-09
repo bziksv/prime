@@ -128,3 +128,132 @@ export const mixedContentEn: BlogPost = {
     "povedencheskie-faktory",
   ],
 };
+
+/** ES overlay for mixed-content — same structure as RU JSON / EN. */
+export const mixedContentEs: BlogPost = {
+  slug: "mixed-content",
+  title: "Mixed content: HTTP en un sitio HTTPS y SEO",
+  date: "2020-03-02",
+  category: "Content marketing",
+  cover: "/images/blog/mixed-content/cover.webp",
+  excerpt:
+    "Qué es el mixed content en un sitio HTTPS: assets HTTP activos y pasivos, cómo duele, cómo encontrarlo en DevTools y cómo arreglarlo — sin tomar el candado verde como evangelio ni apoyarse en capturas viejas de Chrome.",
+  lead: [
+    "Mixed content es cuando una página abre por HTTPS pero algunos recursos (imágenes, scripts, estilos, iframes) cargan por HTTP. El navegador avisa y bloquea el contenido activo — se rompen layout y confianza.",
+    "Abajo: tipos de mixed content, impacto SEO vía UX y cómo arreglarlo. El paso a HTTPS y tipos de certificado están en artículos relacionados; aquí el foco son los agujeros tras la mudanza.",
+  ],
+  faq: [
+    {
+      q: "¿El mixed content es un factor de ranking aparte?",
+      a: "No hay un «score de mixed content» directo. Duele vía bloqueos, avisos, bounce e indexación sucia de espejos. HTTPS limpio es higiene.",
+    },
+    {
+      q: "¿En qué se diferencia activo de pasivo?",
+      a: "Pasivo — imágenes, vídeo, fonts (a menudo un aviso). Activo — scripts, CSS, iframes (más a menudo bloqueado y más riesgo).",
+    },
+    {
+      q: "¿Las URLs relativas (/img/a.jpg) son un problema?",
+      a: "Normalmente no: heredan el protocolo de la página. Los `http://` absolutos y las URLs hardcodeadas en CSS/JS rompen las cosas.",
+    },
+    {
+      q: "¿Basta un plugin de auto-reemplazo?",
+      a: "A veces como muleta. Más fiable: arreglar fuentes — CDN/hosting con HTTPS, actualizar plantillas y contenido. Backup antes de ediciones masivas.",
+    },
+    {
+      q: "¿Cloudflare Automatic HTTPS Rewrites lo arregla todo?",
+      a: "Ayuda si el recurso está de verdad disponible por HTTPS. Un rewrite simple no salva lo que no es alcanzable en https.",
+    },
+    {
+      q: "¿Cómo se relaciona con SSL y el paso a HTTPS?",
+      a: "Un certificado ≠ una página limpia. Tras el 301 a https, revisa plantillas por mixed content — ver las piezas HTTPS/SEO y SSL.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué cuenta como mixed content",
+      level: 2,
+      paras: [
+        "Una página https://… tira de un recurso http://…. Pasivo: img, picture, video/audio, subrecursos object, fonts en CSS. Activo: script, link de stylesheet, iframe, algunos usos de object.",
+        "Lo activo es más peligroso: los navegadores lo bloquean más a menudo, y es más fácil alterar el comportamiento de la página vía MitM en el trozo HTTP.",
+      ],
+    },
+    {
+      title: "Cómo duele al SEO y a la conversión",
+      level: 2,
+      paras: [
+        "Avisos y bloqueos dañan la UX: «Not secure», bloques vacíos, formularios rotos. La gente se va — sufren señales de comportamiento y leads.",
+        "No lo confundas con el mito de que arreglar mixed content solo te pone en primera página. Arregla la técnica; los rankings crecen por relevancia y demanda, no por un candado en la barra de dirección.",
+      ],
+      links: [
+        {
+          label: "HTTPS y SEO",
+          href: "/es/blog/https-seo/",
+        },
+        {
+          label: "Factores de comportamiento",
+          href: "/es/blog/povedencheskie-faktory/",
+        },
+      ],
+    },
+    {
+      title: "Cómo encontrarlo",
+      level: 2,
+      paras: [
+        "Abre la página problemática → DevTools (F12) → Console / Security: avisos Mixed Content y la lista de URLs.",
+        "Revisa plantillas clave: home, ficha de producto, carrito, contactos, blog. Widgets externos y enlaces absolutos viejos en el contenido son culpables habituales.",
+      ],
+    },
+    {
+      title: "Cómo quitarlo",
+      level: 2,
+      paras: [
+        "Sustituye http:// por https:// donde el recurso esté disponible por HTTPS, o mueve el archivo a tu hosting/CDN con TLS.",
+        "Actualiza enlaces absolutos internos en la DB y plantillas. En CSS/JS caza URLs http hardcodeadas. Si HTTPS no está disponible — quita o sustituye.",
+      ],
+      lists: [
+        {
+          intro: "Checklist tras los arreglos:",
+          items: [
+            "Console limpia de mixed content en URLs clave",
+            "formularios y scripts de analytics/pago funcionan",
+            "canonical y sitemap solo https",
+            "sin cadenas http↔https en enlaces internos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Certificado SSL",
+          href: "/es/blog/ssl-sertifikat/",
+        },
+      ],
+      notes: [
+        {
+          title: "UI del navegador",
+          kind: "tip",
+          text: "Los iconos de candado / Not secure cambian. La guía es: sin mixed content y certificado válido — no una captura de 2020.",
+        },
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "Página HTTPS + recursos HTTP = mixed content.",
+        "Primero fuentes y plantillas; después muletas de CDN.",
+        "Esto es higiene de confianza y UX — no un botón de primera página.",
+      ],
+    },
+  ],
+  closing: [
+    "Recorre cinco URLs comerciales en DevTools: si Console calla sobre Mixed Content — el paso a HTTPS está cerrado; si no — arregla URLs de recursos antes de afinar snippets.",
+  ],
+  related: [
+    "https-seo",
+    "ssl-sertifikat",
+    "tehnicheskiy-seo-audit",
+    "pered-zapuskom-sayta",
+    "seo-oshibki",
+    "povedencheskie-faktory",
+  ],
+};

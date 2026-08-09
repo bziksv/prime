@@ -222,3 +222,226 @@ export const nakrutkaPfEn: BlogPost = {
     "podozritelnyy-trafik-google",
   ],
 };
+
+/** ES overlay for nakrutka-pf — same structure as RU JSON / EN. Risk overview, not a how-to. */
+export const nakrutkaPfEs: BlogPost = {
+  slug: "nakrutka-pf",
+  title: "Señales de comportamiento falsas: riesgos y qué hacer en su lugar",
+  date: "2020-01-10",
+  category: "SEO",
+  cover: "/images/blog/nakrutka-pf/cover.webp",
+  excerpt:
+    "Qué son las señales de comportamiento, por qué falsificar engagement lleva a filtros, cómo detectar un esquema o un ataque de competidor — y cómo mejorar el comportamiento on-site de forma honesta.",
+  lead: [
+    "Las señales de comportamiento son cómo la gente interactúa con un sitio y el SERP: rebotes, tiempo en página, profundidad, vueltas a la búsqueda, clics en el snippet, conversiones. La búsqueda las usa como chequeo de utilidad — por eso siguen apareciendo servicios de «subir las stats».",
+    "Abajo: qué cuenta como señales de comportamiento, por qué falsificarlas es peligroso, qué patrones delatan un esquema (incluidos ataques de competidor) y qué hacer en su lugar. Esto es un panorama de riesgos — no un how-to de clics falsos ni exchanges de engagement.",
+  ],
+  faq: [
+    {
+      q: "¿Está permitido falsificar señales de comportamiento?",
+      a: "Manipula señales de búsqueda. Bajo las reglas de los buscadores es una violación; el resultado típico es un filtro y una caída de tráfico, a veces larga.",
+    },
+    {
+      q: "¿El engagement falso «manual» es más seguro que los bots?",
+      a: "No hay garantía fiable. Los patrones antinaturales (mismos scripts, IPs, ritmo) también se pillan con operadores «vivos».",
+    },
+    {
+      q: "¿Se puede distinguir un ataque de competidor del tráfico real?",
+      a: "Busca tráfico antinatural súbito sin conversiones, avisos de webmaster y anomalías de métricas. Escribe al soporte de búsqueda con hechos; en paralelo refuerza UX real.",
+    },
+    {
+      q: "¿Cuánto tarda la recuperación tras un filtro?",
+      a: "De meses a más — depende de la severidad y de si la manipulación paró. Dejar el esquema solo no siempre levanta sanciones de un día para otro.",
+    },
+    {
+      q: "¿Qué mejora las señales de comportamiento de forma legal?",
+      a: "Un snippet y una página relevantes, velocidad, UX móvil, oferta clara, contenido útil, linking interno fuerte y trabajo de conversión.",
+    },
+    {
+      q: "¿Es normal crecer en tráfico con cero conversiones?",
+      a: "Es motivo para revisar fuentes: bots, referral spam, engagement falso. La demanda real suele aparecer de algún modo en los goals.",
+    },
+    {
+      q: "¿Las señales de comportamiento son el único factor de ranking?",
+      a: "No. Una señal entre relevancia, técnica, confianza y enlaces. Falsificar una capa no sustituye el producto.",
+    },
+    {
+      q: "¿Un mes de engagement falso nos pone en primera página?",
+      a: "Un mito prometido habitual. Horizonte honesto: prep cerca de un mes; crecer un núcleo de consultas se planifica a 2–6 meses — sin esquemas.",
+    },
+  ],
+  sections: [
+    {
+      title: "Qué son las señales de comportamiento",
+      level: 2,
+      paras: [
+        "En lenguaje de marketing, las señales de comportamiento son métricas de engagement: duración de visita, profundidad, rebotes, visitas de retorno, click-through del SERP (CTR) e hits de goals (lead, llamada, compra). A veces se habla cerca de región y menciones de marca, pero el núcleo es si la visita fue útil y si la persona encontró una respuesta.",
+        "Los buscadores no publican fórmulas completas. En la práctica: la página debe coincidir con el snippet, responder la consulta rápido y llevar a la acción. Pintar gráficos bonitos sin valor real es una apuesta contra algoritmos anti-fraude.",
+      ],
+      lists: [
+        {
+          intro: "Qué miran los equipos en la práctica:",
+          items: [
+            "rebotes y tiempo en landings clave",
+            "CTR del snippet en Webmaster / Search Console",
+            "goals en analítica",
+            "vueltas al SERP (indirectamente vía calidad de la respuesta)",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Goals en Yandex Metrica",
+          href: "/es/blog/metrika-tseli/",
+        },
+        {
+          label: "Tasa de rebote del sitio",
+          href: "/es/blog/otkazy-sayta/",
+        },
+      ],
+    },
+    {
+      title: "Por qué el esquema se rompe",
+      level: 2,
+      paras: [
+        "Los servicios auto baratos producen tráfico parecido: mismos scripts, intervalos, redes de direcciones. Los algoritmos cazan exactamente esa antinaturalidad. Los esquemas «manuales» cuestan más pero siguen dejando rastros y no dan protección legal ni de búsqueda.",
+        "El coste del error es alto: un filtro, una caída en consultas comerciales y de marca, recuperación dura. Mientras «alcanzas a un competidor en una semana», ellos refuerzan contenido y UX — y se quedan tras tu caída.",
+      ],
+      lists: [
+        {
+          intro: "Consecuencias típicas:",
+          items: [
+            "caída de ranks y tráfico",
+            "salida larga de restricciones",
+            "presupuesto tirado más coste de recuperación",
+            "riesgo de repetición si el vendor ofrece el esquema otra vez",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Filtros de buscadores",
+          href: "/es/blog/filtry-poiskovikov/",
+        },
+        {
+          label: "Tráfico sospechoso de Google",
+          href: "/es/blog/podozritelnyy-trafik-google/",
+        },
+      ],
+      notes: [
+        {
+          title: "Importante",
+          kind: "tip",
+          text: "No describimos cómo pedir engagement falso, enmascarar IPs ni imitación de clics «más segura». Tales instrucciones dañan el negocio.",
+        },
+      ],
+    },
+    {
+      title: "Señales de esquema y ataques de competidor",
+      level: 2,
+      paras: [
+        "Picos súbitos de visitas en un sitio joven o antes callado, sesiones parecidas, tráfico sin crecimiento de leads y fuentes raras son sospechosos. Cruza analítica, logs y paneles de webmaster.",
+        "A veces un competidor intenta encuadrar el sitio imitando engagement falso. Si tu reputación está limpia y no pediste un esquema, el daño a menudo es menor — pero reacciona: registra la anomalía, limita bots donde puedas, contacta soporte de búsqueda con hechos y no empeores la UX real en paralelo.",
+      ],
+      lists: [
+        {
+          intro: "Qué revisar ante un pico:",
+          items: [
+            "fuentes y geo en analítica",
+            "conversión vs visitas",
+            "mensajes en Webmaster / Search Console",
+            "si alguien pidió «promoción de comportamiento» en tu nombre",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Soporte Yandex",
+          href: "/es/blog/podderzhka-yandeks/",
+        },
+        {
+          label: "Yandex Webmaster",
+          href: "/es/blog/yandeks-vebmaster/",
+        },
+      ],
+    },
+    {
+      title: "Qué hacer en lugar de falsificar",
+      level: 2,
+      paras: [
+        "Arma un sitio en el que la gente se quede de verdad: snippet y H1 precisos, velocidad, layout móvil, oferta clara, contenido fuerte alineado a la intención, linking interno, formularios y contactos sin fricción. Mide goals — no solo «minutos en el sitio».",
+        "El crecimiento honesto es más lento que un exchange de clics, pero más durable. La prep y la optimización base a menudo toman cerca de un mes; una cuota notable del núcleo de consultas creciendo en resultados se planifica a 2–6 meses tras empezar el trabajo, sin fecha prometida.",
+      ],
+      lists: [
+        {
+          intro: "Trabajo de comportamiento legítimo:",
+          items: [
+            "relevancia consulta → página",
+            "UX y velocidad",
+            "contenido y estructura",
+            "snippets y CTR sin clickbait",
+            "analítica de goals e iteración",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Linking interno",
+          href: "/es/blog/vnutrennyaya-perelinkovka/",
+        },
+        {
+          label: "Por qué el sitio no rankea",
+          href: "/es/blog/sayt-ne-v-top/",
+        },
+        {
+          label: "SEO de sitio joven",
+          href: "/es/blog/molodoy-sayt/",
+        },
+      ],
+    },
+    {
+      title: "Si un contractor ofrece «subir señales de comportamiento»",
+      level: 2,
+      paras: [
+        "Rechaza. Pide un plan con trabajo on-site, KPIs de tráfico y leads, acceso a Webmaster/analítica e informes sin «servicios secretos de comportamiento». Una promesa de primera página en semanas vía engagement falso es una bandera roja.",
+        "Si un esquema ya corrió en el pasado — párarlo, audita la calidad de página, arma una línea de tiempo para soporte y trabaja métricas reales. Repetir engagement falso «para recuperar más rápido» suele ahondar el hoyo.",
+      ],
+      lists: [
+        {
+          intro: "Preguntas al vendor:",
+          items: [
+            "qué trabajo ocurre en nuestro dominio",
+            "hay rechazo contractual del engagement falso",
+            "cómo miden leads, no solo ranks",
+            "qué hacen si se sospecha un filtro",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Plazos",
+          kind: "tip",
+          text: "El engagement falso no es un camino rápido a primera página. Los ranks estables se construyen con calidad del sitio y tiempo — prep cerca de un mes, crecimiento de ranking de un núcleo planificado a 2–6 meses.",
+        },
+      ],
+      links: [
+        {
+          label: "SEO por tu cuenta",
+          href: "/es/blog/samostoyatelnoe-seo/",
+        },
+        {
+          label: "Sitios satélite",
+          href: "/es/blog/sayty-satellity/",
+        },
+      ],
+    },
+  ],
+  related: [
+    "filtry-poiskovikov",
+    "molodoy-sayt",
+    "sayt-ne-v-top",
+    "otkazy-sayta",
+    "vnutrennyaya-perelinkovka",
+    "podozritelnyy-trafik-google",
+  ],
+};

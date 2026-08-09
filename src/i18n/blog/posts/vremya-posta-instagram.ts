@@ -161,3 +161,166 @@ export const vremyaPostaInstagramEn: BlogPost = {
     "ohvat-instagram",
   ],
 };
+
+/** ES overlay for vremya-posta-instagram — same structure as RU JSON. */
+export const vremyaPostaInstagramEs: BlogPost = {
+  slug: "vremya-posta-instagram",
+  title:
+    "Mejor hora para publicar en Instagram: encuentra el hueco de tu audiencia",
+  date: "2019-06-29",
+  category: "SMM",
+  cover: "/images/blog/vremya-posta-instagram/cover.webp",
+  excerpt:
+    "Cómo elegir horarios de publicación en Instagram con tus propias métricas: mañana, mediodía, noche, formatos, frecuencia y tests — sin tablas universales de 2019 ni auto-posters dudosos.",
+  lead: [
+    "El feed algorítmico bajó la urgencia de «entrar en el primer minuto», pero el timing sigue importando: las primeras horas necesitan reacciones vivas. Las franjas universales de roundups extranjeros casi nunca encajan con tu nicho o zona horaria.",
+    "Abajo: cómo leer la actividad de la audiencia, probar huecos y no confundir timing con calidad de contenido. Los schedulers van en un artículo aparte. El disclaimer de Meta está en la página.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Hay una mejor hora para todos?",
+      a: "No. Mira «cuándo están en línea tus seguidores» en Insights profesionales y crúzalo con las horas de tus posts más fuertes.",
+    },
+    {
+      q: "¿El timing importa más que el contenido?",
+      a: "No. Un post flojo en la «hora de oro» pierde frente a uno fuerte en un hueco medio. El timing amplifica buen contenido.",
+    },
+    {
+      q: "¿Hay que publicar todos los días?",
+      a: "No como regla. Importa un ritmo sostenible que la audiencia pueda seguir. Cuatro posts sólidos ganan a siete vacíos.",
+    },
+    {
+      q: "¿Ayudan los auto-posters de terceros?",
+      a: "Programar — sí, con tools legítimas. Servicios grises con contraseñas y engagement falso — no.",
+    },
+    {
+      q: "¿En qué se diferencia del posting programado?",
+      a: "Este texto trata de elegir el hueco. El artículo de posting programado cubre cómo encolar contenido en la práctica.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué el timing sigue importando",
+      level: 2,
+      paras: [
+        "El feed ordena por interés e interacciones, no solo por cronología. Aun así, las reacciones tempranas tras publicar ayudan a que la distribución llegue más lejos.",
+        "Si tu audiencia duerme o está en reuniones, el post arranca en silencio — y cuesta más ganar una señal temprana.",
+      ],
+      links: [
+        {
+          label: "Posts en Instagram",
+          href: "/es/blog/post-instagram/",
+        },
+        {
+          label: "Engagement en Instagram",
+          href: "/es/blog/vovlechennost-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Tu estadística es la base — no la tabla de otro",
+      level: 2,
+      paras: [
+        "En Insights profesionales, mira días y horas en que los followers están activos. Cruza eso con las horas de tus mejores posts en 2–4 semanas.",
+        "Cuenta las zonas horarias: si la audiencia abarca regiones, el pico se diluye — prueba 2–3 ventanas.",
+        "Benchmarks extranjeros tipo «martes a las 14:00» son solo hipótesis de test, no ley.",
+      ],
+      lists: [
+        {
+          intro: "Mini método:",
+          items: [
+            "lista tus 10 posts más fuertes por saves y replies",
+            "anota hora y día de publicación",
+            "elige 2–3 huecos candidatos",
+            "corre contenido de calidad similar durante 2 semanas",
+            "fija el ganador en el plan de contenido",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Mañana, mediodía, tarde, noche — sin mitos",
+      level: 2,
+      paras: [
+        "Mañana: scroll rápido, formatos cortos, noticias del día. Mediodía: tráfico de comida — contenido ligero y valor rápido.",
+        "Tarde/noche: a menudo ven vídeo, Lives y desgloses más largos. Madrugada: menos competencia, pero menos reacciones vivas — útil solo si tu audiencia está despierta entonces.",
+        "No fijes una hora para siempre: rota ventanas en el test o te pierdes un pico oculto.",
+      ],
+    },
+    {
+      title: "Formato y día de la semana",
+      level: 2,
+      paras: [
+        "Fotos y cards cortas toleran mejor el timing. Vídeo y Lives encajan a menudo en tardes y fines de semana, cuando hay opción de sonido — salvo que tu audiencia lleve auriculares todo el día.",
+        "Los días laborables importan menos que los hábitos del nicho. «El lunes solo entretenimiento» es plantilla; mira tus datos.",
+        "Si el hueco del Live es incómodo para parte de la audiencia, anúncialo de día en Stories con antelación.",
+      ],
+      links: [
+        {
+          label: "Live en Instagram",
+          href: "/es/blog/pryamoy-efir-instagram/",
+        },
+        {
+          label: "Plan de contenido en Instagram",
+          href: "/es/blog/kontent-plan-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Frecuencia y programación",
+      level: 2,
+      paras: [
+        "La constancia gana a la carrera de «postear cada hora». Saturar el feed con contenido flojo corta el watch-through y la confianza.",
+        "El posting programado te ayuda a clavar huecos sin pegarte al móvil. Empieza con la programación nativa de Meta; en tools de terceros, login seguro y sin features grises.",
+      ],
+      lists: [
+        {
+          intro: "En la práctica:",
+          items: [
+            "huecos de stats → al calendario",
+            "replies en las primeras horas",
+            "no copies el «7 posts al día» de otro",
+            "revisa picos cada trimestre",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Posting programado",
+          href: "/es/blog/otlozhennyy-posting-instagram/",
+        },
+      ],
+      notes: [
+        {
+          title: "No recomendamos",
+          kind: "tip",
+          text: "Catálogos grises de auto-poster con contraseñas y «auto-likes» arriesgan límites de cuenta. Programa con tools legítimas.",
+        },
+      ],
+    },
+    {
+      title: "Conclusiones",
+      level: 2,
+      paras: [
+        "La mejor hora es cuando tu audiencia está en línea y lista para reaccionar.",
+        "Prueba huecos con contenido comparable; las tablas ajenas son solo hipótesis.",
+        "El timing amplifica un post fuerte, pero no salva uno vacío.",
+      ],
+    },
+  ],
+  closing: [
+    "Abre «cuándo están en línea tus seguidores» en Insights, elige dos huecos esta semana y compara saves — es más rápido que discutir el «martes perfecto».",
+  ],
+  related: [
+    "otlozhennyy-posting-instagram",
+    "post-instagram",
+    "kontent-plan-instagram",
+    "vovlechennost-instagram",
+    "pryamoy-efir-instagram",
+    "ohvat-instagram",
+  ],
+};

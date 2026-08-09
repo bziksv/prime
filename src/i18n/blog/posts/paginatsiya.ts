@@ -238,3 +238,242 @@ export const paginatsiyaEn: BlogPost = {
     "prodvizhenie-internet-magazina",
   ],
 };
+
+/** ES overlay for paginatsiya — same structure as RU JSON / EN. */
+export const paginatsiyaEs: BlogPost = {
+  slug: "paginatsiya",
+  title: "Paginación del sitio: cómo montarla sin dañar el SEO",
+  date: "2021-03-30",
+  category: "SEO",
+  cover: "/images/blog/paginatsiya/cover.webp",
+  excerpt:
+    "Qué es la paginación de catálogo y blog, cómo funciona la numeración y cómo fijar la indexación para que las páginas 2, 3, 4… no generen duplicados.",
+  lead: [
+    "La paginación parte una lista larga en páginas: catálogo, blog, resultados de búsqueda. Útil para lectores, pero sin reglas fácilmente obtienes páginas finas duplicadas en el índice.",
+    "Abajo: por qué hace falta, cómo montarla, ajustes SEO, el vínculo con filtros y la auditoría. Atributos exactos como rel prev/next ya no son universales — apóyate en tags canónicos y en si cada página es útil.",
+  ],
+  faq: [
+    {
+      q: "¿Hace falta paginación en lugar de «mostrar más»?",
+      a: "Cualquiera de los dos enfoques vale. Infinite scroll es cómodo pero peor para compartir URLs profundas. El clásico `?page=2` es más fácil de controlar.",
+    },
+    {
+      q: "¿Deben indexarse page=2, 3…?",
+      a: "Si hay contenido o productos únicos y útiles — sí, a propósito. Si son casi copias vacías — noindex o canonicalize con criterio.",
+    },
+    {
+      q: "¿Ayuda rel=prev/next?",
+      a: "Google dejó hace tiempo de tratarlos como señal dura. Canonical, estructura y calidad pesan más.",
+    },
+    {
+      q: "¿Y los filtros y sorts?",
+      a: "No crees combos de filtro indexables que no necesitas — eso son facets, no paginación. Dales una política de parámetros aparte.",
+    },
+    {
+      q: "¿Cuántos productos por página?",
+      a: "Equilibra UX y peso de página: suelen ser docenas de fichas, no cientos de bloques pesados de golpe.",
+    },
+    {
+      q: "¿Siempre hay que canonicalizar a la página 1?",
+      a: "No siempre — depende de la unicidad del listing. No escondas fichas necesarias canonicalizando todo a page=1 a ciegas.",
+    },
+    {
+      q: "¿Una page=100 inexistente debe devolver 200?",
+      a: "Si la página no existe, devuelve 404 (o un «fin de lista» correcto), no un 200 vacío.",
+    },
+    {
+      q: "¿Todas las páginas van en el sitemap?",
+      a: "No es obligatorio. Incluye los listings que deben indexarse; una cola larga de page=N a menudo sobra.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué existe la paginación",
+      level: 2,
+      paras: [
+        "La paginación acelera la carga, simplifica la navegación de listas grandes y da URLs estables para volver y enlazar. Hace falta donde la gente compara muchos ítems parecidos.",
+        "Las páginas numeradas son rastreables y disponibles sin JavaScript. Un botón «Mostrar más» puede complementarlas, pero no debe esconder el contenido solo detrás de JS.",
+      ],
+      lists: [
+        {
+          intro: "Dónde aparece:",
+          items: [
+            "catálogos de tienda online",
+            "feeds de blog y noticias",
+            "búsqueda on-site",
+            "archivos y tags",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo montarla en un sitio",
+      level: 2,
+      paras: [
+        "El servidor o el frontend devuelve un lote de ítems y navegación: números, siguiente/atrás. Haz URLs predecibles — `/catalog/page/2/` o `?page=2` — y consistentes en toda la sección.",
+        "Cada página existente necesita un código de estado correcto y enlaces a vecinos. Paginar más allá del final no debe devolver un 200 vacío como si hubiera contenido.",
+      ],
+      lists: [
+        {
+          intro: "Práctica UX:",
+          items: [
+            "la página actual se ve",
+            "targets de toque grandes en móvil",
+            "los filtros persisten entre páginas",
+            "el sort no se resetea",
+            "existe camino a la primera y a vecinos",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Setup SEO",
+      level: 2,
+      paras: [
+        "Title y H1 en páginas de paginación no deben ser clones sin sentido. Elige canonical según estrategia de catálogo y utilidad de listings profundos — no una plantilla «todo a la primera» a manta.",
+        "En el sitemap, incluye listings que deben indexar. Controla aparte filtros, sorts y duplicados de parámetros: a menudo duelen más que la numeración misma.",
+      ],
+      lists: [
+        {
+          intro: "Errores habituales:",
+          items: [
+            "miles de page=N casi vacías en el índice",
+            "duplicados con/sin slash y parámetros distintos",
+            "200 en páginas inexistentes",
+            "el mismo texto SEO encima de la lista en cada página",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Categorías de tienda online",
+          href: "/es/blog/kategorii-internet-magazina/",
+        },
+        {
+          label: "Tag canónico",
+          href: "/es/blog/kanonicheskiy-teg/",
+        },
+      ],
+    },
+    {
+      title: "Paginación vs filtros y sorts",
+      level: 2,
+      paras: [
+        "La paginación avanza por el mismo set. Filtros y sorts crean selecciones nuevas y fácilmente hinchan el índice a cientos de miles de URLs.",
+        "Decide de antemano: qué combinaciones indexar (landings fuertes), cuáles cerrar (noindex / robots / canonical). Si no, el SEO de paginación no te salva de una explosión de facets.",
+      ],
+      lists: [
+        {
+          intro: "Separa en la política:",
+          items: [
+            "page=N dentro de una categoría limpia",
+            "filtro color + precio + marca",
+            "sort por precio o novedad",
+            "UTM y parámetros de utilidad",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Páginas duplicadas",
+          href: "/es/blog/dubli-stranits/",
+        },
+      ],
+    },
+    {
+      title: "«Mostrar más» e infinite scroll",
+      level: 2,
+      paras: [
+        "La numeración clásica es mejor para un catálogo cuando necesitas volver a un slice concreto. «Mostrar más» corta clics, pero las URLs del siguiente lote deben seguir disponibles para bots y personas.",
+        "Infinite scroll encaja en feeds de noticias, pero es peor cuando la gente necesita volver a una posición. Si usas JavaScript, ofrece salida renderizada en servidor y un camino sin script.",
+      ],
+      lists: [
+        {
+          intro: "Revisa UX:",
+          items: [
+            "se ve la página o posición actual",
+            "los filtros persisten",
+            "existe control por teclado",
+            "tras Atrás del navegador, no se pierde el lugar en la lista",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Contenido en páginas 2+",
+      level: 2,
+      paras: [
+        "El copy SEO de categoría suele quedarse en la primera página. Copiarlo a la 2, 3 y siguientes no sirve y refuerza la sensación de duplicado.",
+        "En páginas profundas bastan una lista, navegación y un title claro («Página 2» / rango de productos — según plantilla de tienda). Lo que importa es un set único de fichas y enlaces correctos.",
+      ],
+      lists: [
+        {
+          intro: "Buena práctica:",
+          items: [
+            "set único de productos/posts por página",
+            "no duplicar texto SEO largo",
+            "enlaces internos a categorías clave desde la página 1",
+            "no indexar una cola vacía",
+          ],
+        },
+      ],
+      tables: [
+        {
+          caption: "Indexar page=N (simplificado)",
+          headers: ["Situación", "Enfoque habitual"],
+          rows: [
+            ["Muchos productos, listing útil", "Indexar a propósito"],
+            ["Colas casi vacías", "No indexar / fuera del sitemap"],
+            ["Landings fuertes de filtro", "URLs aparte, no confundir con page"],
+            ["Solo sort", "Suele no ir al índice"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Auditoría tras el lanzamiento",
+      level: 2,
+      paras: [
+        "Crawl de la sección: códigos de estado, canonical, cadena de enlaces, ítems por página. Compara plantillas desktop y móvil.",
+        "En Webmaster/GSC vigila errores de índice y crawl. Cambiar filtros o la plantilla del catálogo puede crear miles de URLs — repite la auditoría tras releases.",
+      ],
+      lists: [
+        {
+          intro: "Banderas rojas:",
+          items: [
+            "páginas vacías con 200",
+            "URLs distintas para el mismo set de resultados",
+            "duplicados de parámetros",
+            "contenido solo vía JavaScript",
+            "explosión de page=N en el informe de índice",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Screaming Frog",
+          href: "/es/blog/screaming-frog/",
+        },
+        {
+          label: "Auditoría SEO técnica",
+          href: "/es/blog/tehnicheskiy-seo-audit/",
+        },
+      ],
+      notes: [
+        {
+          kind: "tip",
+          title: "Plazos",
+          text: "Montar la paginación forma parte de la prep técnica. Los rankings de un set comercial de keywords crecen en los meses planificados tras arrancar el trabajo — típicamente 2–6 meses, no solo por la paginación.",
+        },
+      ],
+    },
+  ],
+  related: [
+    "kategorii-internet-magazina",
+    "kanonicheskiy-teg",
+    "dubli-stranits",
+    "screaming-frog",
+    "tehnicheskiy-seo-audit",
+    "prodvizhenie-internet-magazina",
+  ],
+};

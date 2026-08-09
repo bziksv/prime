@@ -113,3 +113,117 @@ export const intentSotsialnyeProdazhiEn: BlogPost = {
     "trafik-bez-lidov",
   ],
 };
+
+/** ES overlay for intent-sotsialnye-prodazhi — same structure as RU JSON / EN. */
+export const intentSotsialnyeProdazhiEs: BlogPost = {
+  slug: "intent-sotsialnye-prodazhi",
+  title: "Intención de compra en social: leer las señales del comprador",
+  date: "2018-09-04",
+  category: "Digital marketing",
+  cover: "/images/blog/intent-sotsialnye-prodazhi/cover.webp",
+  excerpt:
+    "Social selling y monitorización de intent en feeds y comunidades: «solo soñando / comparando / listo para comprar», respuestas éticas, CRM y retarget — no es lo mismo que el user intent de SEO.",
+  lead: [
+    "La gente pide consejo de compra en comunidades y feeds mucho antes de aterrizar en un sitio. Intent aquí es la intención dentro de un mensaje: de «algún día quiero esto» a «dónde puedo pedir mañana».",
+    "Abajo: niveles de intent, cómo responder sin spam y en qué se diferencia del user intent de SEO (qué quiere una consulta de búsqueda). Solo informativo. Algunas plataformas extranjeras están restringidas en Rusia — quédate en canales lícitos (incluido VK) y en las reglas de cada plataforma. Trata datos personales y chats bajo la ley.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no fomenta el uso de las plataformas. Facebook* e Instagram* son productos de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta se reconoce como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Es lo mismo que el user intent de SEO?",
+      a: "No. El intent de SEO es lo que alguien quiere de una consulta de búsqueda. Aquí es la intención en un post o comentario de social.",
+    },
+    {
+      q: "¿Qué tipos de intent aparecen?",
+      a: "A grosso modo tres: deseo («solo quiero»), comparación (reunir reseñas), compra (listo para pedir). Prioridad y estilo de respuesta difieren.",
+    },
+    {
+      q: "¿Hay que responder a cada post?",
+      a: "No. Las señales calientes y relevantes merecen una respuesta rápida y útil. Los deseos fríos sin presupuesto rara vez convierten.",
+    },
+    {
+      q: "¿Se puede enviar una oferta por DM de inmediato?",
+      a: "Con cuidado — eso se desliza a spam rápido. Prefiere una respuesta útil en el hilo cuando encaje, luego un follow-up suave bajo las reglas de la plataforma.",
+    },
+    {
+      q: "¿Por qué usar un CRM?",
+      a: "Para que los leads no desaparezcan, el status sea visible y los managers no toquen dos veces a la misma persona.",
+    },
+    {
+      q: "¿Hay que hacer retarget de intents «tibios»?",
+      a: "Sí cuando tienes una audiencia lícita y consentimiento/reglas de ads. No esperes que un solo touch de ad cierre el deal.",
+    },
+  ],
+  sections: [
+    {
+      title: "Tres niveles de intent",
+      level: 2,
+      paras: [
+        "«Solo quiero» — un sueño o interés diferido sin disposición a pagar. Bajo valor: anota el tema, no hagas pitch.",
+        "«Ya comparando» — sopesa opciones y lee reseñas. Aquí encajan hechos, diferencias, casos y una conversación de ventas calmada.",
+        "«Quiero comprar / pedir» — una señal caliente. Importa la velocidad: responde directo, pasa a ventas, abre una ficha en el CRM.",
+      ],
+      lists: [
+        {
+          intro: "Cómo reaccionar a una señal:",
+          items: [
+            "una respuesta útil en el hilo",
+            "handoff a un colega con la expertise correcta",
+            "crear un lead en el CRM",
+            "nurture diferido (contenido o ads) para intents tibios",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "User intent en SEO",
+          href: "/es/blog/user-intent/",
+        },
+        {
+          label: "Retargeting",
+          href: "/es/blog/retargeting/",
+        },
+      ],
+    },
+    {
+      title: "Cómo correr el workflow",
+      level: 2,
+      paras: [
+        "Vigilar tus comunidades e hilos públicos relevantes saca demanda antes de un formulario del sitio. Trackea también la negatividad — a veces es una chance de ayudar, no de soltar una lista de precios.",
+        "Geo, categorías y temas excluidos cortan ruido. Las auto-rules cubren respuestas rutinarias; los casos complejos necesitan una persona.",
+        "La ética gana a la velocidad de cuota: sin vibe de stalking, sin spam. Escribe un playbook de social selling — quién responde, con qué SLA, qué nunca debes prometer.",
+      ],
+      notes: [
+        {
+          title: "Plataformas",
+          text: "Esta pieza puede mencionar Facebook* e Instagram* (productos de Meta*). En Rusia, la actividad de Meta se reconoce como extremista; usa canales lícitos disponibles. El disclaimer de la página es obligatorio.",
+          kind: "tip",
+        },
+      ],
+      links: [
+        {
+          label: "Account manager",
+          href: "/es/blog/akkaunt-menedzher/",
+        },
+        {
+          label: "KPIs del manager de ventas",
+          href: "/es/blog/kpi-menedzhera-prodazh/",
+        },
+      ],
+    },
+  ],
+  closing: [
+    "El intent en social es una señal temprana de demanda cuando el equipo responde rápido, al grano y sin spam. No lo confundas con el intent de consultas SEO: allí armas una página para búsqueda; aquí corres diálogo y CRM.",
+  ],
+  related: [
+    "user-intent",
+    "retargeting",
+    "kpi-menedzhera-prodazh",
+    "akkaunt-menedzher",
+    "potrebitelskiy-insayt",
+    "trafik-bez-lidov",
+  ],
+};

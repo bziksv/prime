@@ -175,3 +175,179 @@ export const avatarInstagramEn: BlogPost = {
     },
   ],
 };
+
+/** ES overlay for avatar-instagram — same structure as RU JSON / EN. */
+export const avatarInstagramEs: BlogPost = {
+  slug: "avatar-instagram",
+  title: "Avatar de Instagram: cómo hacer una foto de perfil única",
+  date: "2022-01-04",
+  category: "SMM",
+  cover: "/images/blog/avatar-instagram/cover.webp",
+  excerpt:
+    "Cómo elegir y hacer un avatar de Instagram: foto o dibujo, legibilidad en círculo, editores y cambiar la imagen sin dolores de derechos.",
+  lead: [
+    "Un avatar de Instagram es lo primero que la gente ve en el feed, Stories y comentarios. En un círculo minúsculo una cara, un logo o una marca simple tiene que leerse con claridad.",
+    "Abajo: criterios para comercio y blogs, cómo armar la imagen tú mismo y qué evitar. Esto va del avatar; el perfil completo está en el artículo de diseño.",
+  ],
+  legalNotice: {
+    title: "Nota",
+    text: "Este artículo es informativo y no invita a usar la plataforma. Instagram* es un producto de Meta Platforms Inc.; en la Federación Rusa la actividad de Meta está reconocida como extremista, y el uso del servicio puede tener consecuencias legales.",
+  },
+  faq: [
+    {
+      q: "¿Foto o logo?",
+      a: "Blog personal — por lo general una cara. Marca o tienda — un logo o marca de servicio. Lo que importa es el reconocimiento a tamaño pequeño.",
+    },
+    {
+      q: "¿Hace falta texto en el avatar?",
+      a: "Por lo general no: las letras en un círculo de 40 px se vuelven papilla. Pon el texto en el nombre y la bio.",
+    },
+    {
+      q: "¿Se pueden usar imágenes de stock?",
+      a: "Solo con una licencia que lo permita. Fotos ajenas sin derechos son un riesgo. Más seguro: tu foto, logo o generación con derechos claros.",
+    },
+    {
+      q: "¿De qué tamaño debe ser el archivo?",
+      a: "Un cuadrado en alta resolución (guía 1080×1080 y más). Los límites exactos están en la Help de la app.",
+    },
+    {
+      q: "¿Con qué frecuencia cambiarlo?",
+      a: "Poco. Los cambios frecuentes rompen el reconocimiento. Excepción — un rebrand o una oferta estacional con vuelta a la marca principal.",
+    },
+  ],
+  sections: [
+    {
+      title: "Por qué un avatar «funciona»",
+      level: 2,
+      paras: [
+        "Para comercio, la imagen debería responder en un segundo: quién eres y de qué va el perfil. Un marco bonito no basta — debe atarse a la oferta.",
+        "Para una cuenta personal «solo para que haya algo» el listón es más suave; para una marca el avatar es parte del packaging.",
+      ],
+      lists: [
+        {
+          intro: "Un buen avatar:",
+          items: [
+            "se lee en un círculo",
+            "se distingue de competidores del nicho",
+            "encaja con el tono del feed",
+            "no viola derechos ajenos",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Diseño del perfil de Instagram",
+          href: "/es/blog/oformlenie-stranicy-instagram/",
+        },
+      ],
+    },
+    {
+      title: "Avatar con foto",
+      level: 2,
+      paras: [
+        "Retrato a pecho/cara, luz pareja, fondo calmado. Expresión natural — salta la mueca. Un producto en frame solo si no pelea con la cara y aún se lee pequeño.",
+      ],
+      lists: [
+        {
+          intro: "Checklist de rodaje:",
+          items: [
+            "ojos en el tercio superior del frame",
+            "fondo sin ruido visual",
+            "sin texto diminuto de camiseta en la zona de crop",
+            "mismo tono de color que el feed",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Avatar dibujado y logo",
+      level: 2,
+      paras: [
+        "Ilustración y marca encajan a las marcas. Mantén el fondo simple y el contraste alto. Efectos con mesura: el arte complejo se vuelve una mancha en un círculo.",
+      ],
+      lists: [
+        {
+          intro: "Reglas de la marca:",
+          items: [
+            "un objeto dominante",
+            "formas grandes, pocos detalles",
+            "revisar en fondos de UI claros y oscuros",
+            "no copies el logo de otro «casi 1:1»",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Con qué armar la imagen",
+      level: 2,
+      paras: [
+        "Funcionan editores online y apps de escritorio con crop y capas. Servicios concretos van y vienen — busca análogos actuales de Canva, Photopea o editores móviles.",
+        "Una plantilla es el inicio, no el final: sustituye caras de stock por tus propios materiales.",
+      ],
+      lists: [
+        {
+          intro: "Pasos mínimos en el editor:",
+          items: [
+            "lienzo cuadrado",
+            "sujeto centrado",
+            "crop con margen para la máscara",
+            "exportar sin compresión pesada",
+          ],
+        },
+      ],
+      notes: [
+        {
+          title: "Sobre derechos",
+          kind: "tip",
+          text: "No descargues «avatars gratis» de sitios dudosos: a menudo es contenido ajeno y wrappers de malware. Tu foto, brand book o un asset con licencia es más seguro.",
+        },
+      ],
+    },
+    {
+      title: "Fuentes de imagen",
+      level: 2,
+      paras: [
+        "Prioridad: tu propio rodaje y logo. Bibliotecas con licencia — solo si la licencia cubre uso en avatar/redes, y la imagen no está ya en la mitad de los perfiles de tus competidores.",
+        "La generación con IA está bien si entiendes las reglas del servicio y no imitas otra marca.",
+      ],
+      lists: [
+        {
+          intro: "Orden de preferencia:",
+          items: [
+            "tu foto / logo",
+            "trabajo de diseñador",
+            "asset con licencia / generación",
+            "nunca — fotos ajenas de otros perfiles",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Cómo cambiar el avatar",
+      level: 2,
+      paras: [
+        "En el perfil abre la foto → editar / subir nueva. El camino en la app se mueve un poco — busca editar foto de perfil.",
+      ],
+      lists: [
+        {
+          intro: "Tras subir:",
+          items: [
+            "revisar el círculo en el preview",
+            "encajar las covers de highlights",
+            "asegurarte de que el CTA de la cabecera no pelea con la nueva marca",
+          ],
+        },
+      ],
+      links: [
+        {
+          label: "Avatar del canal de YouTube",
+          href: "/es/blog/avatar-youtube/",
+        },
+        {
+          label: "Cuenta business de Instagram",
+          href: "/es/blog/biznes-akkaunt-instagram/",
+        },
+      ],
+    },
+  ],
+};
