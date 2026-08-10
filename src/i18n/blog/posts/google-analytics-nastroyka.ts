@@ -144,7 +144,7 @@ export const googleAnalyticsNastroykaEs: BlogPost = {
   title: "Cómo configurar Google Analytics 4: guía para principiantes",
   date: "2019-08-15",
   category: "Digital marketing",
-  cover: "/images/blog/google-analytics-nastroyka/cover.webp",
+  cover: "/images/blog/google-analytics-nastroyka/cover-es.webp",
   excerpt:
     "Setup básico de GA4: cuenta, property, data stream, instalación con tag o GTM, comprobaciones en DebugView y qué activar después — sin screenshots de Universal Analytics.",
   lead: [

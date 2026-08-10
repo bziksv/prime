@@ -236,7 +236,7 @@ export const adaptivnyySaytEs: BlogPost = {
   title: "Hacer que el sitio funcione en todos los tamaños de pantalla: por qué y cómo",
   date: "2020-12-08",
   category: "SEO",
-  cover: "/images/blog/adaptivnyy-sayt/cover.webp",
+  cover: "/images/blog/adaptivnyy-sayt/cover-es.webp",
   excerpt:
     "Qué es un sitio responsive, en qué se diferencia de una versión móvil aparte, por qué importa para SEO y UX, las etapas de construcción y cómo probarlo en distintas pantallas.",
   lead: [

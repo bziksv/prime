@@ -193,7 +193,7 @@ export const oblozhkaVkEs: BlogPost = {
   title: "Cover de comunidad VK: idea, mockup y subida",
   date: "2021-07-16",
   category: "SMM",
-  cover: "/images/blog/oblozhka-vk/cover.webp",
+  cover: "/images/blog/oblozhka-vk/cover-es.webp",
   excerpt:
     "Cómo diseñar el cover de un público o grupo de VK: sentido y oferta, safe zone, derechos de imagen, Canva/Figma y subida en ajustes — sin grids de píxeles obsoletos.",
   lead: [

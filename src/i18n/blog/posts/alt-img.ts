@@ -213,7 +213,7 @@ export const altImgEs: BlogPost = {
   title: "Atributos alt y title de imagen: cómo escribirlos bien",
   date: "2020-08-27",
   category: "SEO",
-  cover: "/images/blog/alt-img/cover.webp",
+  cover: "/images/blog/alt-img/cover-es.webp",
   excerpt:
     "En qué se diferencia alt de title en una etiqueta img, por qué alt importa para accesibilidad y búsqueda de imágenes, cuándo title casi no hace falta y qué errores duelen al SEO y a la UX.",
   lead: [

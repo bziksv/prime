@@ -132,7 +132,7 @@ export const linkedinEs: BlogPost = {
   title: "LinkedIn para negocio: perfil, hiring y presencia de empresa",
   date: "2020-12-17",
   category: "SMM",
-  cover: "/images/blog/linkedin/cover.webp",
+  cover: "/images/blog/linkedin/cover-es.webp",
   excerpt:
     "Cómo difiere LinkedIn de las redes de entretenimiento, cómo montar perfil y página de empresa, por qué la plataforma ayuda al hiring y a contactos B2B — sin precios Premium obsoletos ni capturas de botones.",
   lead: [

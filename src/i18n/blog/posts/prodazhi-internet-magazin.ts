@@ -167,7 +167,7 @@ export const prodazhiInternetMagazinEs: BlogPost = {
   title: "Cómo aumentar las ventas de una tienda online: palancas que funcionan",
   date: "2019-12-16",
   category: "Digital marketing",
-  cover: "/images/blog/prodazhi-internet-magazin/cover.webp",
+  cover: "/images/blog/prodazhi-internet-magazin/cover-es.webp",
   excerpt:
     "Qué mueve de verdad las ventas de una tienda online: tráfico y escaparates, fichas y UX, reseñas y chat, contenido y vídeo, email y AOV — sin un checklist de «activar todo a la vez».",
   lead: [

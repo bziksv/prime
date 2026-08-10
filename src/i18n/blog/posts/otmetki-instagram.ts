@@ -141,7 +141,7 @@ export const otmetkiInstagramEs: BlogPost = {
   title: "Etiquetas en Instagram: reglas, errores y valor real",
   date: "2021-06-25",
   category: "SMM",
-  cover: "/images/blog/otmetki-instagram/cover.webp",
+  cover: "/images/blog/otmetki-instagram/cover-es.webp",
   excerpt:
     "Por qué etiquetar cuentas en Stories y posts de Instagram, qué límites y errores estorban, y cómo usar tags en colaboraciones — sin tutoriales de clics obsoletos.",
   lead: [

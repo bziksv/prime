@@ -261,7 +261,7 @@ export const tehnicheskiySeoAuditEs: BlogPost = {
   title: "Auditoría SEO técnica: objetivos, alcance y un arranque DIY",
   date: "2021-07-22",
   category: "SEO",
-  cover: "/images/blog/tehnicheskiy-seo-audit/cover.webp",
+  cover: "/images/blog/tehnicheskiy-seo-audit/cover-es.webp",
   excerpt:
     "Por qué importa una auditoría SEO técnica, qué revisar y si puedes hacer un pase básico tú mismo.",
   lead: [

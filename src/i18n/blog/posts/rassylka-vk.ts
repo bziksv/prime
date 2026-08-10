@@ -142,7 +142,7 @@ export const rassylkaVkEs: BlogPost = {
   title: "Broadcasts de mensajes en VK: cómo hacerlo de forma legal",
   date: "2021-08-17",
   category: "SMM",
-  cover: "/images/blog/rassylka-vk/cover.webp",
+  cover: "/images/blog/rassylka-vk/cover-es.webp",
   excerpt:
     "Por qué ayudan los broadcasts de comunidad en VK, cómo montar el opt-in con widgets oficiales, cómo escribir el copy y por qué el spam masivo a amigos y las herramientas de terceros llevan a bloques.",
   lead: [

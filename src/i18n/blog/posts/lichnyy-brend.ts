@@ -170,7 +170,7 @@ export const lichnyyBrendEs: BlogPost = {
   title: "Marca personal en redes: por qué importa y cómo construirla",
   date: "2021-08-27",
   category: "SMM",
-  cover: "/images/blog/lichnyy-brend/cover.webp",
+  cover: "/images/blog/lichnyy-brend/cover-es.webp",
   excerpt:
     "Qué es una marca personal, a quién ayuda a vender servicios y expertise, cómo elegir nicho, canal y mix de contenido — sin cross-posting a todas las redes a la vez.",
   lead: [

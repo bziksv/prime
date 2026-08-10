@@ -126,7 +126,7 @@ export const googleAssessoryEs: BlogPost = {
   title: "Cómo puntúan los quality raters de Google: calidad, E-E-A-T e YMYL",
   date: "2018-08-27",
   category: "SEO",
-  cover: "/images/blog/google-assessory/cover.webp",
+  cover: "/images/blog/google-assessory/cover-es.webp",
   excerpt:
     "Quality Rater Guidelines: por qué existen los quality raters, por qué su score no es un ranking, propósito de la página, E-E-A-T, YMYL, reputación del autor y qué rompe la trust — sin el mito de que un rater te impulsó personalmente en los resultados.",
   lead: [

@@ -182,7 +182,7 @@ export const storiesInstagramInkognitoEs: BlogPost = {
   title: "Stories de Instagram «incógnito»: riesgos de terceros y privacidad",
   date: "2021-10-05",
   category: "SMM",
-  cover: "/images/blog/stories-instagram-inkognito/cover.webp",
+  cover: "/images/blog/stories-instagram-inkognito/cover-es.webp",
   excerpt:
     "Por qué la gente busca ver Stories de Instagram en anónimo, qué hay de peligroso en bots y apps de terceros, cómo proteger tus Stories y qué escenarios legítimos hay para negocio.",
   lead: [

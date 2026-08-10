@@ -194,7 +194,7 @@ export const istoriyaDomenaEs: BlogPost = {
   title: "Cómo revisar el historial de un dominio antes de comprarlo",
   date: "2019-05-27",
   category: "SEO",
-  cover: "/images/blog/istoriya-domena/cover.webp",
+  cover: "/images/blog/istoriya-domena/cover-es.webp",
   excerpt:
     "Cómo vetar un drop o dominio usado antes de comprar: Wayback Machine, temas pasados, perfil de backlinks, filtros y visibilidad en búsqueda — sin el mito de que un dominio viejo = subida rápida en resultados.",
   lead: [

@@ -169,7 +169,7 @@ export const nativnayaReklamaEs: BlogPost = {
   title: "Por qué falla la publicidad nativa: 7 errores frecuentes",
   date: "2020-03-18",
   category: "Marketing digital",
-  cover: "/images/blog/nativnaya-reklama/cover.webp",
+  cover: "/images/blog/nativnaya-reklama/cover-es.webp",
   excerpt:
     "Por qué falla la publicidad nativa: emoción falsa, poco conocimiento del producto, posts flojos, enlaces torpes y drama sobredimensionado — y cómo hacer la integración honesta.",
   lead: [

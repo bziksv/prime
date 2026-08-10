@@ -190,7 +190,7 @@ export const blogerDlyaReklamyInstagramEs: BlogPost = {
   title: "Cómo encontrar un blogger para ads en Instagram: búsqueda y vetting",
   date: "2022-02-01",
   category: "SMM",
-  cover: "/images/blog/bloger-dlya-reklamy-instagram/cover.webp",
+  cover: "/images/blog/bloger-dlya-reklamy-instagram/cover-es.webp",
   excerpt:
     "Cómo elegir un creator para ads: por qué las integraciones, dónde buscar, cómo revisar la audiencia y qué evitar. Un checklist para el cliente.",
   lead: [

@@ -185,7 +185,7 @@ export const vidyKontentaSocsetiEs: BlogPost = {
   title: "Tipos de contenido en redes: las clases principales y cómo mezclarlas",
   date: "2019-04-01",
   category: "SMM",
-  cover: "/images/blog/vidy-kontenta-socseti/cover.webp",
+  cover: "/images/blog/vidy-kontenta-socseti/cover-es.webp",
   excerpt:
     "Contenido informativo, de venta, educativo, de engagement y de entretenimiento en redes: para qué sirve cada tipo y cómo armar un mix sin la regla rígida de «un tercio del feed son ventas».",
   legalNotice: {

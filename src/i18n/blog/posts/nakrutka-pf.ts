@@ -229,7 +229,7 @@ export const nakrutkaPfEs: BlogPost = {
   title: "Señales de comportamiento falsas: riesgos y qué hacer en su lugar",
   date: "2020-01-10",
   category: "SEO",
-  cover: "/images/blog/nakrutka-pf/cover.webp",
+  cover: "/images/blog/nakrutka-pf/cover-es.webp",
   excerpt:
     "Qué son las señales de comportamiento, por qué falsificar engagement lleva a filtros, cómo detectar un esquema o un ataque de competidor — y cómo mejorar el comportamiento on-site de forma honesta.",
   lead: [

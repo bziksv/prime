@@ -210,7 +210,7 @@ export const bazyDannyhSaytaEs: BlogPost = {
   title: "Bases de datos del sitio: organización y backup",
   date: "2021-01-15",
   category: "SEO",
-  cover: "/images/blog/bazy-dannyh-sayta/cover.webp",
+  cover: "/images/blog/bazy-dannyh-sayta/cover-es.webp",
   excerpt:
     "Qué guarda la base de datos de un sitio, cómo se diferencia de los archivos en disco, por qué importan los backups y cómo no perder pedidos, usuarios y contenido tras un fallo o un hack.",
   lead: [

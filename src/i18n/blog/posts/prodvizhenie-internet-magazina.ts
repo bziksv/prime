@@ -165,7 +165,7 @@ export const prodvizhenieInternetMagazinaEs: BlogPost = {
   title: "Cómo promover una tienda online: técnica, estructura de catálogo, SEO",
   date: "2021-11-08",
   category: "SEO",
-  cover: "/images/blog/prodvizhenie-internet-magazina/cover.webp",
+  cover: "/images/blog/prodvizhenie-internet-magazina/cover-es.webp",
   excerpt:
     "SEO de tienda online: auditoría técnica, estructura de catálogo, linking interno, keywords, title tags, copy de producto y señales comerciales de confianza.",
   lead: [

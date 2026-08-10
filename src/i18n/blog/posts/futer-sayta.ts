@@ -170,7 +170,7 @@ export const futerSaytaEs: BlogPost = {
   title: "Footer del sitio: por qué importa y qué poner",
   date: "2021-04-14",
   category: "SEO",
-  cover: "/images/blog/futer-sayta/cover.webp",
+  cover: "/images/blog/futer-sayta/cover-es.webp",
   excerpt:
     "El rol del footer en navegación y confianza: contactos, enlaces, bloque legal y diseño — sin spam de keywords en el pie.",
   lead: [

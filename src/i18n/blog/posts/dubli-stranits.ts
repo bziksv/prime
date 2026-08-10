@@ -248,7 +248,7 @@ export const dubliStranitsEs: BlogPost = {
   title: "Páginas duplicadas: por qué duelen y cómo arreglarlas",
   date: "2021-01-11",
   category: "SEO",
-  cover: "/images/blog/dubli-stranits/cover.webp",
+  cover: "/images/blog/dubli-stranits/cover-es.webp",
   excerpt:
     "Qué cuenta como duplicado de página, exactos vs near-duplicates, de dónde salen en CMS y tiendas, qué hacen en la búsqueda y cómo encontrar y unificar URLs.",
   lead: [

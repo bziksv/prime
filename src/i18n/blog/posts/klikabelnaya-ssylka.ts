@@ -152,7 +152,7 @@ export const klikabelnayaSsylkaEs: BlogPost = {
   title: "Enlaces clicables: cómo hacer una URL activa",
   date: "2021-11-02",
   category: "SEO",
-  cover: "/images/blog/klikabelnaya-ssylka/cover.webp",
+  cover: "/images/blog/klikabelnaya-ssylka/cover-es.webp",
   excerpt:
     "En qué se diferencia un enlace activo del texto plano, cómo crearlo en HTML y en un editor, matices en apps sociales y Word — más texto ancla, target y errores habituales.",
   lead: [

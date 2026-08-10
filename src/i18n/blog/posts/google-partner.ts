@@ -159,7 +159,7 @@ export const googlePartnerEs: BlogPost = {
   title: "Google Partner: cómo obtener el estatus de partner",
   date: "2020-02-07",
   category: "Búsqueda de pago",
-  cover: "/images/blog/google-partner/cover.webp",
+  cover: "/images/blog/google-partner/cover-es.webp",
   excerpt:
     "Qué dan a las agencias los estatus Google Partner y Premier Partner: certificación Skillshop, spend y rendimiento de cuentas, por qué importa el badge — sin umbrales en dólares obsoletos como ley.",
   lead: [

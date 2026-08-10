@@ -155,7 +155,7 @@ export const htmlSeoEs: BlogPost = {
   title: "HTML y SEO: por qué el marcado hipertextual sigue importando",
   date: "2020-09-28",
   category: "SEO",
-  cover: "/images/blog/html-seo/cover.webp",
+  cover: "/images/blog/html-seo/cover-es.webp",
   excerpt:
     "Cómo el HTML ayuda al SEO: estructura del documento, title y meta, headings, enlaces y validez del código — sin el mito de que «HTML roto = ban», más enlaces a guías relacionadas.",
   lead: [

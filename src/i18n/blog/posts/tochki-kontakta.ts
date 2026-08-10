@@ -180,7 +180,7 @@ export const tochkiKontaktaEs: BlogPost = {
   title: "Puntos de contacto con el cliente: cómo encontrarlos y reforzar las ventas",
   date: "2020-01-22",
   category: "Marketing digital",
-  cover: "/images/blog/tochki-kontakta/cover.webp",
+  cover: "/images/blog/tochki-kontakta/cover-es.webp",
   excerpt:
     "Qué son los puntos de contacto: online y offline, positivos y negativos, cómo mapear el customer journey y encadenar toques antes y después de la compra.",
   lead: [

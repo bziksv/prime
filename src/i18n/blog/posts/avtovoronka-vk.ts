@@ -138,7 +138,7 @@ export const avtovoronkaVkEs: BlogPost = {
   title: "Autofunnel en VKontakte: mensajes de comunidad y escenario de ventas",
   date: "2020-04-15",
   category: "Content marketing",
-  cover: "/images/blog/avtovoronka-vk/cover.webp",
+  cover: "/images/blog/avtovoronka-vk/cover-es.webp",
   excerpt:
     "Cómo armar un autofunnel en VKontakte: comunidad, mensajería con opt-in, lead magnet y cadena de toques — sin catálogos de servicios obsoletos ni spam frío.",
   lead: [

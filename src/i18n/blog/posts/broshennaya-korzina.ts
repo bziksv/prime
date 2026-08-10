@@ -135,7 +135,7 @@ export const broshennayaKorzinaEs: BlogPost = {
   title: "Por qué los compradores abandonan el carrito — y qué hacer",
   date: "2019-04-19",
   category: "E-commerce",
-  cover: "/images/blog/broshennaya-korzina/cover.webp",
+  cover: "/images/blog/broshennaya-korzina/cover-es.webp",
   excerpt:
     "Carrito abandonado: registro, trust y pago, UX y bugs, fees ocultos y plazos de entrega, soporte y recuperación vía email/retargeting — sin el culto del «cero abandono».",
   lead: [

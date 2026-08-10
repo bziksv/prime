@@ -175,7 +175,7 @@ export const strukturaStatiEs: BlogPost = {
     "Cómo estructurar un artículo para que la gente (y la búsqueda) lo sigan",
   date: "2019-11-20",
   category: "Content marketing",
-  cover: "/images/blog/struktura-stati/cover.webp",
+  cover: "/images/blog/struktura-stati/cover-es.webp",
   excerpt:
     "Arma la lógica del artículo con H1–H3, bloques y listas — y sabe cuándo una pieza corta puede saltarse subtítulos. Sin promesas de «keywords en H2 = rankings».",
   lead: [

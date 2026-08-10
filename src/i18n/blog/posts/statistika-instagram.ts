@@ -149,7 +149,7 @@ export const statistikaInstagramEs: BlogPost = {
   title: "Estadísticas de Instagram: qué métricas mirar y por qué",
   date: "2021-10-08",
   category: "SMM",
-  cover: "/images/blog/statistika-instagram/cover.webp",
+  cover: "/images/blog/statistika-instagram/cover-es.webp",
   excerpt:
     "Por qué importan las estadísticas de Instagram: alcance, impresiones, saves, audiencia y Stories. Cómo leer Insights de cuenta business y no confundir likes con resultados.",
   lead: [

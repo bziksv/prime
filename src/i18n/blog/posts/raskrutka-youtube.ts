@@ -174,7 +174,7 @@ export const raskrutkaYoutubeEs: BlogPost = {
   title: "Cómo crecer un canal de YouTube: ideas para principiantes",
   date: "2021-12-03",
   category: "SMM",
-  cover: "/images/blog/raskrutka-youtube/cover.webp",
+  cover: "/images/blog/raskrutka-youtube/cover-es.webp",
   excerpt:
     "Por dónde empezar un canal de YouTube: nicho, packaging, guion, formatos de vídeo, cadencia de publicación, ideas de contenido y crecimiento de suscriptores sin promesas vacías.",
   lead: [

@@ -179,7 +179,7 @@ export const antitrendyMarketingaEs: BlogPost = {
   title: "Anti-tendencias de marketing: qué está obsoleto y qué usar en su lugar",
   date: "2020-02-10",
   category: "Marketing digital",
-  cover: "/images/blog/antitrendy-marketinga/cover.webp",
+  cover: "/images/blog/antitrendy-marketinga/cover-es.webp",
   excerpt:
     "Qué tácticas de marketing ya rinden poco: un solo canal, SMS spam, stock «con sonrisa», llamadas frías sin consentimiento, cross-posting en todas partes — y qué usar en su lugar sin hype de «tendencias para posiciones».",
   lead: [

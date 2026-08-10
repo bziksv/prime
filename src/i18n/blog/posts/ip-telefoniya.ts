@@ -139,7 +139,7 @@ export const ipTelefoniyaEs: BlogPost = {
   title: "Telefonía IP para negocios: por qué importa y cómo lanzarla",
   date: "2019-07-23",
   category: "Digital marketing",
-  cover: "/images/blog/ip-telefoniya/cover.webp",
+  cover: "/images/blog/ip-telefoniya/cover-es.webp",
   excerpt:
     "Qué es la telefonía IP (VoIP): voz por internet, casos de oficina y call center, qué comprobar al elegir proveedor y cómo lanzar sin prometer «siempre −15%».",
   lead: [

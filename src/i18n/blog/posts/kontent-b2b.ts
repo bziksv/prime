@@ -150,7 +150,7 @@ export const kontentB2bEs: BlogPost = {
   title: "5 tipos de contenido que funcionan para marcas B2B",
   date: "2018-05-14",
   category: "Content marketing",
-  cover: "/images/blog/kontent-b2b/cover.webp",
+  cover: "/images/blog/kontent-b2b/cover-es.webp",
   excerpt:
     "Qué funciona en contenido B2B: reviews y UGC, contacto rápido, interactivos, case studies y una voz viva — sin stats obsoletas de «% de confianza» ni promesas de +800% en un mes.",
   lead: [

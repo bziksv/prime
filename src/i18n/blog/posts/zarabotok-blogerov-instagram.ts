@@ -221,7 +221,7 @@ export const zarabotokBlogerovInstagramEs: BlogPost = {
   title: "Cuánto ganan los bloggers de Instagram: modelos de ingreso y benchmarks",
   date: "2022-02-04",
   category: "SMM",
-  cover: "/images/blog/zarabotok-blogerov-instagram/cover.webp",
+  cover: "/images/blog/zarabotok-blogerov-instagram/cover-es.webp",
   excerpt:
     "Cómo funciona la monetización del blog en Instagram: ads, trueque, servicios, admin. Por qué los números «desnudos» envejecen rápido y qué mirar en lugar de mitos.",
   lead: [

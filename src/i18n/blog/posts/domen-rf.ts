@@ -167,7 +167,7 @@ export const domenRfEs: BlogPost = {
   title: "El dominio .рф: particularidades y promoción",
   date: "2021-05-31",
   category: "SEO",
-  cover: "/images/blog/domen-rf/cover.webp",
+  cover: "/images/blog/domen-rf/cover-es.webp",
   excerpt:
     "Qué es la zona .рф, por qué usar un dominio cirílico, qué matices técnicos quedan y cómo promocionar el sitio sin el mito de que «.рф no rankea».",
   lead: [

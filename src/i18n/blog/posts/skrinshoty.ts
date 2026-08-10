@@ -133,7 +133,7 @@ export const skrinshotyEs: BlogPost = {
   title: "Capturas de pantalla: para qué sirven y cómo hacerlas en PC y móvil",
   date: "2021-09-03",
   category: "Content marketing",
-  cover: "/images/blog/skrinshoty/cover.webp",
+  cover: "/images/blog/skrinshoty/cover-es.webp",
   excerpt:
     "Qué es un screenshot, dónde se usa en soporte y formación, cómo capturar la pantalla en Windows, macOS, iOS y Android, y cómo ayudan los editores.",
   lead: [

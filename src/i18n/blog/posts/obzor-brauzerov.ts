@@ -170,7 +170,7 @@ export const obzorBrauzerovEs: BlogPost = {
   title: "Panorama de navegadores: cómo elegir según tus tareas",
   date: "2018-02-14",
   category: "Digital marketing",
-  cover: "/images/blog/obzor-brauzerov/cover.webp",
+  cover: "/images/blog/obzor-brauzerov/cover-es.webp",
   excerpt:
     "Chrome, Firefox, Edge, Opera, Vivaldi y Yandex Browser: qué mirar al elegir — extensiones, privacidad, ecosistema — sin tablas de 2018 ni un «campeón» único.",
   lead: [

@@ -138,7 +138,7 @@ export const rssEs: BlogPost = {
   title: "RSS del sitio: por qué lo necesitas y cómo activarlo",
   date: "2020-06-30",
   category: "Content marketing",
-  cover: "/images/blog/rss/cover.webp",
+  cover: "/images/blog/rss/cover-es.webp",
   excerpt:
     "Qué es un feed RSS, a quién sigue beneficiando, ventajas y riesgos para un sitio, cómo activar un feed en un CMS — sin culto a Feedburner ni promesas de «masa de enlaces».",
   lead: [

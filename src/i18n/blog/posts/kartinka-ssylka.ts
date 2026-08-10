@@ -152,7 +152,7 @@ export const kartinkaSsylkaEs: BlogPost = {
   title: "Enlace de imagen: cómo hacer una imagen clicable",
   date: "2021-09-14",
   category: "SEO",
-  cover: "/images/blog/kartinka-ssylka/cover.webp",
+  cover: "/images/blog/kartinka-ssylka/cover-es.webp",
   excerpt:
     "Cómo envolver una imagen en un enlace en HTML y en un editor, por qué importa el alt, por qué tus propios archivos ganan al hotlinking, y cómo no matar la velocidad de la página con banners.",
   lead: [

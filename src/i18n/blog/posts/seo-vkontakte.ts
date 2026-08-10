@@ -210,7 +210,7 @@ export const seoVkontakteEs: BlogPost = {
   title: "SEO de comunidades VK: búsqueda y SMM en un mismo loop",
   date: "2020-10-15",
   category: "SMM",
-  cover: "/images/blog/seo-vkontakte/cover.webp",
+  cover: "/images/blog/seo-vkontakte/cover-es.webp",
   excerpt:
     "Por qué optimizar un grupo de VK para Yandex y Google, a quién le encaja, cómo trabajar nombre, descripción, contenido e indexación — y en qué se diferencia el SEO de VK de crecer suscriptores.",
   lead: [

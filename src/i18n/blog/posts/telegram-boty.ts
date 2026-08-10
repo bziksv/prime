@@ -238,7 +238,7 @@ export const telegramBotyEs: BlogPost = {
   title: "Bots de Telegram: por qué importan y cómo funcionan",
   date: "2021-03-05",
   category: "SMM",
-  cover: "/images/blog/telegram-boty/cover.webp",
+  cover: "/images/blog/telegram-boty/cover-es.webp",
   excerpt:
     "Qué pueden hacer los bots de Telegram para negocio y canales: respuestas, leads, broadcasts con consentimiento, encontrar bots y lógica básica de comandos — sin un catálogo de hacks dudosos de crecimiento.",
   lead: [

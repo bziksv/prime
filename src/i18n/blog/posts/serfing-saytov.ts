@@ -179,7 +179,7 @@ export const serfingSaytovEs: BlogPost = {
   title: "Surfing de sitios: qué es y por qué paga poco",
   date: "2021-09-24",
   category: "Digital marketing",
-  cover: "/images/blog/serfing-saytov/cover.webp",
+  cover: "/images/blog/serfing-saytov/cover-es.webp",
   excerpt:
     "Qué es el surfing de pago de sitios, cuánto paga de verdad, por qué el auto-surfing es malo para SEO y cómo las visitas falsas dañan la analítica y la promoción.",
   lead: [

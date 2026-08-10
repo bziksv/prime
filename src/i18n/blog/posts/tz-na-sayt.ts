@@ -174,7 +174,7 @@ export const tzNaSaytEs: BlogPost = {
   title: "Especificación del sitio: brief, estructura y errores habituales",
   date: "2019-12-11",
   category: "Digital marketing",
-  cover: "/images/blog/tz-na-sayt/cover.webp",
+  cover: "/images/blog/tz-na-sayt/cover-es.webp",
   excerpt:
     "Cómo escribir una especificación técnica de sitio: por qué importa el documento, en qué se diferencia un brief corto de una spec completa, qué cubrir por bloque y qué errores del cliente cuestan más.",
   lead: [

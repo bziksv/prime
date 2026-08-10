@@ -148,7 +148,7 @@ export const algoritmyGoogleEs: BlogPost = {
   title: "Algoritmos de Google: crecer sin penalizaciones",
   date: "2018-09-20",
   category: "SEO",
-  cover: "/images/blog/algoritmy-google/cover.webp",
+  cover: "/images/blog/algoritmy-google/cover-es.webp",
   excerpt:
     "Por qué Google actualiza la búsqueda y qué significaron Panda, Penguin, Hummingbird, mobile-first y RankBrain para los sitios: calidad de contenido, enlaces, sentido de la consulta y UX — sin normas de unicidad obsoletas ni trucos para saltar filtros.",
   lead: [

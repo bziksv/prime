@@ -169,7 +169,7 @@ export const vremyaPostaInstagramEs: BlogPost = {
     "Mejor hora para publicar en Instagram: encuentra el hueco de tu audiencia",
   date: "2019-06-29",
   category: "SMM",
-  cover: "/images/blog/vremya-posta-instagram/cover.webp",
+  cover: "/images/blog/vremya-posta-instagram/cover-es.webp",
   excerpt:
     "Cómo elegir horarios de publicación en Instagram con tus propias métricas: mañana, mediodía, noche, formatos, frecuencia y tests — sin tablas universales de 2019 ni auto-posters dudosos.",
   lead: [

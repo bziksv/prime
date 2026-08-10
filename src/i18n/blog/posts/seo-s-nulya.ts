@@ -154,7 +154,7 @@ export const seoSNulyaEs: BlogPost = {
   title: "SEO desde cero: por dónde empezar y cómo aprender haciendo",
   date: "2021-09-09",
   category: "SEO",
-  cover: "/images/blog/seo-s-nulya/cover.webp",
+  cover: "/images/blog/seo-s-nulya/cover-es.webp",
   excerpt:
     "Una rampa práctica al SEO: los conceptos que importan, un camino de aprendizaje para principiantes, práctica hands-on, qué leer y plazos honestos de rankings — sin fórmula mágica.",
   lead: [

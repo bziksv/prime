@@ -264,7 +264,7 @@ export const regionalnoeSeoEs: BlogPost = {
   title: "SEO regional: cómo promover un sitio en mercados locales",
   date: "2021-03-18",
   category: "SEO",
-  cover: "/images/blog/regionalnoe-seo/cover.webp",
+  cover: "/images/blog/regionalnoe-seo/cover-es.webp",
   excerpt:
     "En qué se diferencia el SEO regional del trabajo a escala nacional, cómo fijar señales de región en Webmaster y en el sitio, y cómo llevar dos o tres ciudades sin confusión.",
   lead: [

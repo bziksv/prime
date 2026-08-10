@@ -115,7 +115,7 @@ export const kraudMarketingEs: BlogPost = {
   title: "Crowd marketing: qué es y cómo afecta al SEO",
   date: "2018-03-06",
   category: "Digital marketing",
-  cover: "/images/blog/kraud-marketing/cover.webp",
+  cover: "/images/blog/kraud-marketing/cover-es.webp",
   excerpt:
     "Crowd marketing es entrar en discusiones en foros, sitios de reseñas y Q&A: respuestas útiles, menciones que encajan, riesgos de spam — cómo se liga al SEO y en qué se diferencia del outreach.",
   lead: [

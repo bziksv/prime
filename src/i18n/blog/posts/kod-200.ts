@@ -197,7 +197,7 @@ export const kod200Es: BlogPost = {
   title: "Código de respuesta 200 OK: qué significa para el sitio y la indexación",
   date: "2021-01-29",
   category: "SEO",
-  cover: "/images/blog/kod-200/cover.webp",
+  cover: "/images/blog/kod-200/cover-es.webp",
   excerpt:
     "Qué significa HTTP 200 OK, cómo se relaciona con la indexación, por qué un soft 404 detrás de un 200 es peligroso y cómo comprobar que las URLs importantes realmente devuelven éxito.",
   lead: [

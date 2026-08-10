@@ -123,7 +123,7 @@ export const trafikBezLidovEs: BlogPost = {
   title: "Tráfico sin leads: oferta, beneficio y CTA",
   date: "2019-03-25",
   category: "Digital marketing",
-  cover: "/images/blog/trafik-bez-lidov/cover.webp",
+  cover: "/images/blog/trafik-bez-lidov/cover-es.webp",
   excerpt:
     "El tráfico crece pero los leads no: oferta débil, vender el taladro en lugar del agujero, sin CTA, audiencia equivocada — un checklist de copy de landing sin palabras mágicas.",
   lead: [

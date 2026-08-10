@@ -139,7 +139,7 @@ export const badenBadenEs: BlogPost = {
   title: "Baden-Baden de Yandex y copy sin stuffing de keywords",
   date: "2017-04-27",
   category: "SEO",
-  cover: "/images/blog/baden-baden/cover.webp",
+  cover: "/images/blog/baden-baden/cover-es.webp",
   excerpt:
     "Qué hizo el algoritmo Baden-Baden: combatir texto sobre-optimizado, cómo escribir contenido útil, y en qué se diferencia el «LSI» de un culto a sinónimos — junto a filtros y Turgenev.",
   lead: [

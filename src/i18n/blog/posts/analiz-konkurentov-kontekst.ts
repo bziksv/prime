@@ -7,7 +7,7 @@ export const analizKonkurentovKontekstEs: BlogPost = {
   title: "Análisis de competidores antes de lanzar búsqueda de pago",
   date: "2019-10-30",
   category: "Paid search",
-  cover: "/images/blog/analiz-konkurentov-kontekst/cover.webp",
+  cover: "/images/blog/analiz-konkurentov-kontekst/cover-es.webp",
   excerpt:
     "Cómo desmontar a los competidores antes de Yandex Direct y Google Ads: quién cuenta, keywords de anuncios, creatividades, landings, USP, redes y estimaciones de tráfico — sin copiar la cuenta de otro.",
   lead: [

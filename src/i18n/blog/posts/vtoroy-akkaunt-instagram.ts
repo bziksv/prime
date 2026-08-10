@@ -148,7 +148,7 @@ export const vtoroyAkkauntInstagramEs: BlogPost = {
   title: "Una segunda cuenta de Instagram: por qué la necesitas y cómo añadirla",
   date: "2020-07-29",
   category: "SMM",
-  cover: "/images/blog/vtoroy-akkaunt-instagram/cover.webp",
+  cover: "/images/blog/vtoroy-akkaunt-instagram/cover-es.webp",
   excerpt:
     "Por qué crear un segundo perfil de Instagram, cómo añadir una cuenta en la app, en qué se diferencian personal y trabajo, y glitches típicos de signup — sin capturas obsoletas.",
   lead: [

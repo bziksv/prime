@@ -6,7 +6,7 @@ export const emailStrategiyaEs: BlogPost = {
   title: "Estrategia de email: del research a los lanzamientos",
   date: "2019-12-13",
   category: "Email marketing",
-  cover: "/images/blog/email-strategiya/cover.webp",
+  cover: "/images/blog/email-strategiya/cover-es.webp",
   excerpt:
     "Cómo armar una estrategia de email: auditoría de lista y métricas, producto y audiencia, competidores, plan de emails y segmentos, plantillas, tests y crecimiento de volumen — sin el mito de que el newsletter se vende solo.",
   lead: [

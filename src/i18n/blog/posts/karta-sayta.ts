@@ -225,7 +225,7 @@ export const kartaSaytaEs: BlogPost = {
   title: "Sitemap: XML y HTML — por qué hacen falta y cómo hacer uno",
   date: "2020-10-29",
   category: "SEO",
-  cover: "/images/blog/karta-sayta/cover.webp",
+  cover: "/images/blog/karta-sayta/cover-es.webp",
   excerpt:
     "En qué se diferencia un sitemap XML de un mapa HTML, cómo crear y enviar el archivo a los buscadores, qué URLs incluir y qué errores duelen a la indexación.",
   lead: [

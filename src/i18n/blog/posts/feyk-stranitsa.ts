@@ -154,7 +154,7 @@ export const feykStranitsaEs: BlogPost = {
   title: "Página falsa: qué es y cómo detectarla",
   date: "2021-02-26",
   category: "Digital marketing",
-  cover: "/images/blog/feyk-stranitsa/cover.webp",
+  cover: "/images/blog/feyk-stranitsa/cover-es.webp",
   excerpt:
     "Qué cuenta como página o cuenta falsa, por qué los estafadores las montan y cómo verificar autenticidad — sin how-tos para fabricar falsificaciones.",
   lead: [

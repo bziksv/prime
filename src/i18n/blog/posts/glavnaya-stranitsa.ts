@@ -160,7 +160,7 @@ export const glavnayaStranitsaEs: BlogPost = {
   title: "Homepage del sitio: captar atención sin confundir",
   date: "2020-12-01",
   category: "Sitios web",
-  cover: "/images/blog/glavnaya-stranitsa/cover.webp",
+  cover: "/images/blog/glavnaya-stranitsa/cover-es.webp",
   excerpt:
     "Qué necesita una homepage: quién eres, qué ofreces, en qué te diferencias; header, bloques, CTA y footer — sin un muro de texto ni diseño bonito obsoleto por el diseño mismo.",
   lead: [

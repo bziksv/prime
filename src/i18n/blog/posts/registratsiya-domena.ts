@@ -160,7 +160,7 @@ export const registratsiyaDomenaEs: BlogPost = {
   title: "Cómo registrar un dominio con un registrador",
   date: "2017-11-13",
   category: "Digital marketing",
-  cover: "/images/blog/registratsiya-domena/cover.webp",
+  cover: "/images/blog/registratsiya-domena/cover-es.webp",
   excerpt:
     "Registro de dominio paso a paso: cuenta en el registrador, comprobación de disponibilidad, datos del titular, name servers y pago — con un flujo tipo REG.ru de ejemplo, sin capturas de cuenta desfasadas.",
   lead: [

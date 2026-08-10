@@ -187,7 +187,7 @@ export const chastotnostZaprosovEs: BlogPost = {
   title: "Frecuencia de consultas de búsqueda: tipos y cómo medirla",
   date: "2022-01-21",
   category: "SEO",
-  cover: "/images/blog/chastotnost-zaprosov/cover.webp",
+  cover: "/images/blog/chastotnost-zaprosov/cover-es.webp",
   excerpt:
     "Consultas de alta, media y baja frecuencia; frecuencia base vs exacta en Yandex Wordstat; checks de demanda en Google — cómo leer los números sin engañarte.",
   lead: [

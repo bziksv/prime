@@ -152,7 +152,7 @@ export const poiskovyeSistemyEs: BlogPost = {
   title: "Buscadores: no solo Google y Yandex",
   date: "2020-06-26",
   category: "SEO",
-  cover: "/images/blog/poiskovye-sistemy/cover.webp",
+  cover: "/images/blog/poiskovye-sistemy/cover-es.webp",
   excerpt:
     "Qué buscadores existen más allá de Google y Yandex: Bing, DuckDuckGo, históricos Rambler y Mail, Baidu. Por qué importa para SEO en mercados orientados a Rusia — sin cifras de cuota de mercado obsoletas.",
   lead: [

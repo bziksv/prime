@@ -185,7 +185,7 @@ export const regionSaytaEs: BlogPost = {
   title: "Cómo fijar la región de un sitio en Yandex",
   date: "2017-07-04",
   category: "SEO",
-  cover: "/images/blog/region-sayta/cover.webp",
+  cover: "/images/blog/region-sayta/cover-es.webp",
   excerpt:
     "Cómo Yandex lee la región de un sitio: señales on-site, Webmaster y un listing de Business/Maps — sin Yandex.Catalog ni direcciones falsas.",
   lead: [

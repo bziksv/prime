@@ -229,7 +229,7 @@ export const napolnenieSaytaEs: BlogPost = {
   title: "Cómo llenar un sitio de contenido: material único y reglas de publicación",
   date: "2020-10-19",
   category: "Content marketing",
-  cover: "/images/blog/napolnenie-sayta/cover.webp",
+  cover: "/images/blog/napolnenie-sayta/cover-es.webp",
   excerpt:
     "Cómo elegir temas y formatos, estudiar competidores para ideas, montar un plan de contenidos, escribir un brief y publicar con ritmo estable — sin scrapers de autorelleno ni copy-paste.",
   lead: [

@@ -151,7 +151,7 @@ export const sohranenieEfiraInstagramEs: BlogPost = {
   title: "Cómo guardar un Instagram Live: tu grabación y los límites",
   date: "2020-07-10",
   category: "SMM",
-  cover: "/images/blog/sohranenie-efira-instagram/cover.webp",
+  cover: "/images/blog/sohranenie-efira-instagram/cover-es.webp",
   excerpt:
     "Qué pasa con el Live tras terminarlo, cómo guardar tu emisión en el dispositivo y el feed, por qué IGTV está obsoleto y por qué los «downloaders» de streams ajenos son arriesgados.",
   lead: [

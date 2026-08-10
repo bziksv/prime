@@ -115,7 +115,7 @@ export const adblockEs: BlogPost = {
   title: "Qué es AdBlock y cómo usarlo sin sorpresas",
   date: "2020-09-29",
   category: "Digital marketing",
-  cover: "/images/blog/adblock/cover.webp",
+  cover: "/images/blog/adblock/cover-es.webp",
   excerpt:
     "AdBlock y tools parecidas ocultan ads en el navegador. Por qué la gente las instala, cómo pausar un sitio y por qué los blockers también cortan widgets y analytics.",
   lead: [

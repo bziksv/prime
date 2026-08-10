@@ -179,7 +179,7 @@ export const proverkaIndeksatsiiEs: BlogPost = {
   title: "Cómo comprobar la indexación del sitio en Google y Yandex",
   date: "2018-11-30",
   category: "SEO",
-  cover: "/images/blog/proverka-indeksatsii/cover.webp",
+  cover: "/images/blog/proverka-indeksatsii/cover-es.webp",
   excerpt:
     "Cómo comprobar si las páginas están en el índice de Google y Yandex: Webmaster y Search Console, el operador site:, extensiones y motivos típicos de que una URL no indexe — sin confundir crawl con índice.",
   lead: [

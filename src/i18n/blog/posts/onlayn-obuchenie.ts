@@ -141,7 +141,7 @@ export const onlaynObuchenieEs: BlogPost = {
   title: "Cómo organizar la formación online de empleados",
   date: "2019-10-10",
   category: "Digital marketing",
-  cover: "/images/blog/onlayn-obuchenie/cover.webp",
+  cover: "/images/blog/onlayn-obuchenie/cover-es.webp",
   excerpt:
     "Cómo pasar la formación corporativa a online: adaptar materiales, preparar al ponente, engagement, feedback e híbrido con sesiones presenciales — sin una serie de webinars aburridos.",
   lead: [

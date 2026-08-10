@@ -164,7 +164,7 @@ export const spamVkEs: BlogPost = {
     "Spam en VK: qué es, cómo reportarlo y qué hacer tras un hack",
   date: "2020-11-24",
   category: "SMM",
-  cover: "/images/blog/spam-vk/cover.webp",
+  cover: "/images/blog/spam-vk/cover-es.webp",
   excerpt:
     "Qué cuenta como spam en mensajes y comunidades de VK, por qué los blasts masivos son arriesgados, cómo reportar y qué hacer si tu página escribe a gente sin ti — sin un catálogo de herramientas grises de bulk-mail.",
   lead: [

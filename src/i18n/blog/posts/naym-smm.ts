@@ -163,7 +163,7 @@ export const naymSmmEs: BlogPost = {
     "Cómo contratar a un especialista SMM: portfolio, preguntas de entrevista y una prueba",
   date: "2019-07-18",
   category: "SMM",
-  cover: "/images/blog/naym-smm/cover.webp",
+  cover: "/images/blog/naym-smm/cover-es.webp",
   excerpt:
     "Cómo contratar a un SMM manager o a una agencia: qué revisar en el portfolio, qué preguntas hacer en la entrevista y cómo plantear una prueba corta sin una «estrategia completa» gratis.",
   lead: [

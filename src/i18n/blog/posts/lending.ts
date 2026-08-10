@@ -174,7 +174,7 @@ export const lendingEs: BlogPost = {
   title: "Landing page: qué es y cómo construir una",
   date: "2021-05-06",
   category: "Digital marketing",
-  cover: "/images/blog/lending/cover.webp",
+  cover: "/images/blog/lending/cover-es.webp",
   excerpt:
     "Qué es una landing page, por qué los equipos la montan, qué bloques ensamblar y qué errores matan la conversión — aparte de escribir el copy de la oferta.",
   lead: [

@@ -167,7 +167,7 @@ export const aktivnostVkEs: BlogPost = {
   title: "Historial de actividad en VK: sesiones de login y engagement de comunidad",
   date: "2021-01-27",
   category: "SMM",
-  cover: "/images/blog/aktivnost-vk/cover.webp",
+  cover: "/images/blog/aktivnost-vk/cover-es.webp",
   excerpt:
     "Cómo revisar el historial de login de VK, por qué cerrar otras sesiones y cómo las stats de comunidad suben el engagement — sin tratar cada cambio de IP como un hack.",
   lead: [

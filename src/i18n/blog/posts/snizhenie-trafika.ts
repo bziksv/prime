@@ -123,7 +123,7 @@ export const snizhenieTrafikaEs: BlogPost = {
   title: "Por qué cae el tráfico del sitio: cómo diagnosticarlo y qué hacer",
   date: "2021-06-15",
   category: "SEO",
-  cover: "/images/blog/snizhenie-trafika/cover.webp",
+  cover: "/images/blog/snizhenie-trafika/cover-es.webp",
   excerpt:
     "Separa una caída orgánica real de un tag de analítica roto; luego revisa estacionalidad, issues técnicos, updates de algoritmo y penalizaciones — sin pánico ni promesas de «vuelve mañana».",
   lead: [

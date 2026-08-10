@@ -155,7 +155,7 @@ export const videoStoriesInstagramEs: BlogPost = {
   title: "Vídeo en Instagram Stories: publicar sin matar la calidad",
   date: "2020-10-08",
   category: "SMM",
-  cover: "/images/blog/video-stories-instagram/cover.webp",
+  cover: "/images/blog/video-stories-instagram/cover-es.webp",
   excerpt:
     "Cómo añadir vídeo a Instagram Stories, guardar tus propios clips, preparar un archivo 9:16 y qué falla con downloaders de terceros de Stories ajenas.",
   lead: [

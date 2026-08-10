@@ -134,7 +134,7 @@ export const povedencheskieFaktoryEs: BlogPost = {
   title: "Señales de comportamiento: qué mejorar sin trucos",
   date: "2018-08-23",
   category: "Digital marketing",
-  cover: "/images/blog/povedencheskie-faktory/cover.webp",
+  cover: "/images/blog/povedencheskie-faktory/cover-es.webp",
   excerpt:
     "Señales de comportamiento on-site y off-site: bounce, profundidad, tiempo, CTR del snippet; estructura, móvil, velocidad, contenido y session replay — sin esquemas de gaming ni garantías de ranking.",
   lead: [

@@ -156,7 +156,7 @@ export const besplatnyeSsylkiEs: BlogPost = {
   title: "Enlaces gratis a tu sitio: de dónde sacarlos sin esquemas grises",
   date: "2019-03-21",
   category: "Content marketing",
-  cover: "/images/blog/besplatnye-ssylki/cover.webp",
+  cover: "/images/blog/besplatnye-ssylki/cover-es.webp",
   excerpt:
     "De dónde salen de verdad las menciones y enlaces gratis: contenido, directorios, crowd, guest posts, reseñas — y qué tácticas es mejor dejar quietas.",
   lead: [

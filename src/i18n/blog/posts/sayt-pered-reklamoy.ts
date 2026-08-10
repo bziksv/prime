@@ -199,7 +199,7 @@ export const saytPeredReklamoyEs: BlogPost = {
   title: "No quemes el presupuesto: revisa el sitio antes de lanzar ads",
   date: "2020-03-18",
   category: "Búsqueda de pago",
-  cover: "/images/blog/sayt-pered-reklamoy/cover.webp",
+  cover: "/images/blog/sayt-pered-reklamoy/cover-es.webp",
   excerpt:
     "Checklist del sitio antes de Yandex Direct y Google Ads: objetivos y KPIs, formularios y thank-you, analytics, primera pantalla, confianza, móvil y entrega de leads — para no quemar clics en un landing crudo.",
   lead: [

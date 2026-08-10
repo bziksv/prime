@@ -150,7 +150,7 @@ export const videokontentEs: BlogPost = {
   title: "Contenido en vídeo: formatos y tipos para marketing",
   date: "2019-12-20",
   category: "Content marketing",
-  cover: "/images/blog/videokontent/cover.webp",
+  cover: "/images/blog/videokontent/cover-es.webp",
   excerpt:
     "Tipos de vídeo de marketing: review, how-to, testimonial, webinar, teaser y más — más guion, rodaje y colocación sin el culto a «el 80% del tráfico será vídeo» ni tarifas de 2019.",
   lead: [

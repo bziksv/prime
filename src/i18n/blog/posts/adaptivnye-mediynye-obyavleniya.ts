@@ -148,7 +148,7 @@ export const adaptivnyeMediynyeObyavleniyaEs: BlogPost = {
   title: "Responsive Display Ads en Google Ads: seis prácticas que aguantan",
   date: "2018-12-17",
   category: "Paid search",
-  cover: "/images/blog/adaptivnye-mediynye-obyavleniya/cover.webp",
+  cover: "/images/blog/adaptivnye-mediynye-obyavleniya/cover-es.webp",
   excerpt:
     "Cómo montar Responsive Display Ads (RDA) que no se desarmen: ratios de assets, crops, logos, copy, previews y brand safety — sin una tabla fósil de CTR ni «sube y olvida».",
   lead: [

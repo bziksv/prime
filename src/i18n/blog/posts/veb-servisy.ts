@@ -128,7 +128,7 @@ export const vebServisyEs: BlogPost = {
   title: "Servicios web: qué son y por qué los necesitan los sitios",
   date: "2020-09-08",
   category: "Digital marketing",
-  cover: "/images/blog/veb-servisy/cover.webp",
+  cover: "/images/blog/veb-servisy/cover-es.webp",
   excerpt:
     "Qué es un servicio web (API): cómo los sistemas intercambian datos por la red, dónde lo necesita el negocio, y cómo REST/JSON moderno difiere de los roundups viejos de SOAP/UDDI.",
   lead: [

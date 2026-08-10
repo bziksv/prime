@@ -258,7 +258,7 @@ export const seoOshibkiEs: BlogPost = {
   title: "Los errores SEO más habituales en un sitio",
   date: "2019-08-19",
   category: "SEO",
-  cover: "/images/blog/seo-oshibki/cover.webp",
+  cover: "/images/blog/seo-oshibki/cover-es.webp",
   excerpt:
     "Fallos típicos en titles y descriptions, headings, enlaces, markup y HTTPS — cómo encontrarlos y qué arreglar primero, sin la fantasía de «primera página en una semana».",
   lead: [

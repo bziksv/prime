@@ -6,7 +6,7 @@ export const verstkaEmailEs: BlogPost = {
   title: "Maquetación HTML de email: que sea previsible",
   date: "2019-08-30",
   category: "Email marketing",
-  cover: "/images/blog/verstka-email/cover.webp",
+  cover: "/images/blog/verstka-email/cover-es.webp",
   excerpt:
     "Cómo armar emails HTML: por qué las tablas ganan a los divs, límites de CSS, responsive, imágenes, Outlook y pruebas en clientes — sin el mito de que un layout roto equivale a spam al instante.",
   lead: [

@@ -165,7 +165,7 @@ export const ctrFaktorGoogleEs: BlogPost = {
   title: "CTR como factor de ranking en Google: ¿directo, indirecto o mito?",
   date: "2016-10-05",
   category: "SEO",
-  cover: "/images/blog/ctr-faktor-google/cover.webp",
+  cover: "/images/blog/ctr-faktor-google/cover-es.webp",
   excerpt:
     "Si Google usa el CTR en el ranking: qué han dicho los representantes, dónde los clics alimentan experimentos y personalización, y por qué inflar clics es una mala apuesta.",
   lead: [

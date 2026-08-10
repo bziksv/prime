@@ -141,7 +141,7 @@ export const vizualizatsiyaDannyihEs: BlogPost = {
   title: "Herramientas de visualización de datos: panorama para marketing",
   date: "2019-06-17",
   category: "Content marketing",
-  cover: "/images/blog/vizualizatsiya-dannyih/cover.webp",
+  cover: "/images/blog/vizualizatsiya-dannyih/cover-es.webp",
   excerpt:
     "Looker Studio, Power BI, Tableau y otras herramientas para informes y dashboards — cómo elegir sin precios obsoletos de 2019 y sin confundirlas con infografías de artículo.",
   lead: [

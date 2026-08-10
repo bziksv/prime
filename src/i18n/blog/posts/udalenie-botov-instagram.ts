@@ -157,7 +157,7 @@ export const udalenieBotovInstagramEs: BlogPost = {
   title: "Cómo quitar bots de Instagram de los followers sin dañar la cuenta",
   date: "2020-02-06",
   category: "SMM",
-  cover: "/images/blog/udalenie-botov-instagram/cover.webp",
+  cover: "/images/blog/udalenie-botov-instagram/cover-es.webp",
   excerpt:
     "Por qué limpiar bots en Instagram, cómo detectar una audiencia muerta, por qué una purga masiva brusca golpea el alcance y qué hay de peligroso en los «auto-cleaners» de terceros que piden tu login.",
   lead: [

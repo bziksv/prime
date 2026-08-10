@@ -242,7 +242,7 @@ export const mobilnyyPoiskEs: BlogPost = {
   title: "Búsqueda móvil en SEO: SERP, responsive y velocidad",
   date: "2018-08-14",
   category: "SEO",
-  cover: "/images/blog/mobilnyy-poisk/cover.webp",
+  cover: "/images/blog/mobilnyy-poisk/cover-es.webp",
   excerpt:
     "Cómo difiere la SERP móvil de la desktop, por qué revisar rankings y UX en el teléfono, responsive vs m-site, y qué hacer con la velocidad tras el hype de Turbo/AMP.",
   lead: [

@@ -124,7 +124,7 @@ export const peredZapuskomSaytaEs: BlogPost = {
   title: "Antes de lanzar un sitio: checklist técnico",
   date: "2018-07-20",
   category: "Hosting",
-  cover: "/images/blog/pered-zapuskom-sayta/cover.webp",
+  cover: "/images/blog/pered-zapuskom-sayta/cover-es.webp",
   excerpt:
     "Códigos de estado, velocidad, sitemap y robots, 404, mixed content, duplicados, Title/URL, móvil, analytics, imágenes, enlaces internos y datos estructurados — sin adorar AMP ni una marca de crawler.",
   lead: [

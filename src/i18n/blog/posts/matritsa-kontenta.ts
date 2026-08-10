@@ -146,7 +146,7 @@ export const matritsaKontentaEs: BlogPost = {
   title: "Matriz de contenido: cómo planificar la publicación regular",
   date: "2019-12-20",
   category: "Content marketing",
-  cover: "/images/blog/matritsa-kontenta/cover.webp",
+  cover: "/images/blog/matritsa-kontenta/cover-es.webp",
   excerpt:
     "Una matriz de contenido: audiencia y etapa del journey, objetivo de conversión, canal de entrega y formato — cómo armar la tabla y encontrar huecos, junto a un calendario de contenido habitual.",
   lead: [

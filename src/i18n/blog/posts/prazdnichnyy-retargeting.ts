@@ -211,7 +211,7 @@ export const prazdnichnyyRetargetingEs: BlogPost = {
   title: "Retargeting pre-fiestas: cuatro tácticas de campaña",
   date: "2018-12-26",
   category: "Paid search",
-  cover: "/images/blog/prazdnichnyy-retargeting/cover.webp",
+  cover: "/images/blog/prazdnichnyy-retargeting/cover-es.webp",
   excerpt:
     "Cómo traer de vuelta a los visitantes en el pico de compras de fiestas: una campaña de retargeting aparte, un segmento social, intereses de Audiences, display y una cascada — sin quemar el presupuesto.",
   lead: [

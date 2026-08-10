@@ -173,7 +173,7 @@ export const inflyuenserMarketingEs: BlogPost = {
   title: "Influencer marketing: moda o canal publicitario que funciona",
   date: "2019-06-11",
   category: "SMM",
-  cover: "/images/blog/inflyuenser-marketing/cover.webp",
+  cover: "/images/blog/inflyuenser-marketing/cover-es.webp",
   excerpt:
     "Cuándo funcionan los anuncios con creadores, en qué se diferencia micro de mega, cómo medir resultados y por qué «solo porque está de moda» sin chequear audiencia quema presupuesto.",
   lead: [

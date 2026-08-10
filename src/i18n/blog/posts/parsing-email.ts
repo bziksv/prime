@@ -143,7 +143,7 @@ export const parsingEmailEs: BlogPost = {
   title: "Scraping de emails: riesgos y alternativas legales",
   date: "2020-03-03",
   category: "Marketing digital",
-  cover: "/images/blog/parsing-email/cover.webp",
+  cover: "/images/blog/parsing-email/cover-es.webp",
   excerpt:
     "Por qué cosechar en masa emails ajenos de sitios y redes es mala estrategia: ley, filtros de spam y reputación. Cómo crecer una lista con consentimiento — y qué sustituye a los «parsers de email».",
   lead: [

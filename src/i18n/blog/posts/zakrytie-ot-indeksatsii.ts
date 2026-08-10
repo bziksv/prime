@@ -184,7 +184,7 @@ export const zakrytieOtIndeksatsiiEs: BlogPost = {
   title: "Bloquear un sitio o páginas a la indexación: robots, meta y cuándo hace falta",
   date: "2021-09-22",
   category: "SEO",
-  cover: "/images/blog/zakrytie-ot-indeksatsii/cover.webp",
+  cover: "/images/blog/zakrytie-ot-indeksatsii/cover-es.webp",
   excerpt:
     "Cuándo bloquear páginas a la indexación, en qué se diferencian robots.txt, meta robots y X-Robots-Tag, cómo sacar duplicados y secciones de utilidad — sin cloaking ni trucos desfasados.",
   lead: [

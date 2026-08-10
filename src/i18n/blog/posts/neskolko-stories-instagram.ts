@@ -152,7 +152,7 @@ export const neskolkoStoriesInstagramEs: BlogPost = {
   title: "Varias Stories seguidas: cómo publicar una serie sin caos",
   date: "2020-09-02",
   category: "SMM",
-  cover: "/images/blog/neskolko-stories-instagram/cover.webp",
+  cover: "/images/blog/neskolko-stories-instagram/cover-es.webp",
   excerpt:
     "Cómo añadir varias Instagram Stories a la vez: elegir de la galería, partir un vídeo largo, orden de frames y fallos típicos de upload — sin un catálogo de emuladores grises.",
   lead: [

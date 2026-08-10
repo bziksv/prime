@@ -150,7 +150,7 @@ export const vebInterfeysEs: BlogPost = {
   title: "Interfaz web: qué es y dónde la encuentras",
   date: "2021-03-11",
   category: "Blog",
-  cover: "/images/blog/veb-interfeys/cover.webp",
+  cover: "/images/blog/veb-interfeys/cover-es.webp",
   excerpt:
     "Qué es una interfaz web: usar un servicio en el navegador en lugar de una app local — correo, panel de hosting, router, cloud. Por qué los equipos la construyen así y por qué no es «solo un sitio web».",
   lead: [

@@ -171,7 +171,7 @@ export const skorostSaytaEs: BlogPost = {
   title: "Cómo comprobar la velocidad del sitio: mediciones, CWV y herramientas",
   date: "2018-06-15",
   category: "SEO",
-  cover: "/images/blog/skorost-sayta/cover.webp",
+  cover: "/images/blog/skorost-sayta/cover-es.webp",
   excerpt:
     "Cómo medir la carga de página: datos de laboratorio vs de campo, Core Web Vitals, PageSpeed Insights y qué hacer con el informe — sin culto a «100 puntos» ni un ranking polvoriento de herramientas de 2018.",
   lead: [

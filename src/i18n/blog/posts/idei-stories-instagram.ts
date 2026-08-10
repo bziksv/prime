@@ -147,7 +147,7 @@ export const ideiStoriesInstagramEs: BlogPost = {
   title: "Ideas para Stories de Instagram: formatos que sostienen la atención",
   date: "2018-11-07",
   category: "SMM",
-  cover: "/images/blog/idei-stories-instagram/cover.webp",
+  cover: "/images/blog/idei-stories-instagram/cover-es.webp",
   excerpt:
     "Ideas para Stories de Instagram: intro, equipo, detrás de cámaras, producto, encuestas, educación, reviews y teasers — sin «garantías de reach ×3» ajenas ni catálogos de plantillas obsoletas.",
   lead: [

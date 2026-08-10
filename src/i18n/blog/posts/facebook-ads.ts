@@ -198,7 +198,7 @@ export const facebookAdsEs: BlogPost = {
   title: "Facebook Ads: cómo funciona la publicidad en el ecosistema Meta",
   date: "2019-02-18",
   category: "Digital marketing",
-  cover: "/images/blog/facebook-ads/cover.webp",
+  cover: "/images/blog/facebook-ads/cover-es.webp",
   excerpt:
     "Cómo funcionan Facebook Ads / Meta Ads: metas, audiencias, píxel y tests. Un desglose informativo sin FOMO de «empieza ya» y sin cifras de reach de 2018.",
   lead: [

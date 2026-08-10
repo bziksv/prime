@@ -184,7 +184,7 @@ export const pozdravlenieKlientaEs: BlogPost = {
   title: "Cómo felicitar el cumpleaños a un cliente: email, SMS y B2B",
   date: "2020-06-29",
   category: "Email marketing",
-  cover: "/images/blog/pozdravlenie-klienta/cover.webp",
+  cover: "/images/blog/pozdravlenie-klienta/cover-es.webp",
   excerpt:
     "Cómo escribir felicitaciones de cumpleaños a clientes: tono, personalización, plantillas de email y SMS, nota personal del manager y B2B — sin ads agresivos.",
   lead: [

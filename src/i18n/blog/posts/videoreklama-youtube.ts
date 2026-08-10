@@ -204,7 +204,7 @@ export const videoreklamaYoutubeEs: BlogPost = {
   title: "Ads de vídeo en YouTube: cuándo merece la pena",
   date: "2021-01-28",
   category: "Paid search",
-  cover: "/images/blog/videoreklama-youtube/cover.webp",
+  cover: "/images/blog/videoreklama-youtube/cover-es.webp",
   excerpt:
     "Cuándo compensan los ads de vídeo en YouTube, qué formatos existen y cómo juzgar encaje de audiencia y presupuesto — sin hype de «lo más efectivo de internet» ni cotizaciones de precio obsoletas.",
   lead: [

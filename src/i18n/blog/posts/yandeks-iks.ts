@@ -164,7 +164,7 @@ export const yandeksIksEs: BlogPost = {
   title: "Yandex SQI (ИКС): qué era el índice de calidad — y qué mirar ahora",
   date: "2018-09-19",
   category: "SEO",
-  cover: "/images/blog/yandeks-iks/cover.webp",
+  cover: "/images/blog/yandeks-iks/cover-es.webp",
   excerpt:
     "Qué era el SQI (ИКС) de Yandex, en qué se diferenciaba del TIC y por qué perseguir una puntuación obsoleta no tiene sentido — más qué informes de Webmaster usar en lugar de un «índice de calidad».",
   lead: [

@@ -230,7 +230,7 @@ export const dlinaSeoTekstaEs: BlogPost = {
   title: "Longitud del copy SEO: cuánto texto necesita una página",
   date: "2020-01-09",
   category: "SEO",
-  cover: "/images/blog/dlina-seo-teksta/cover.webp",
+  cover: "/images/blog/dlina-seo-teksta/cover-es.webp",
   excerpt:
     "Cuánto debe medir el copy SEO: una pista de longitud desde competidores de primera página, cuándo ayuda un long-read, por qué el conteo de palabras sin valor no mueve rankings y cómo dejar de escribir «por la cuota de caracteres».",
   lead: [

@@ -143,7 +143,7 @@ export const canvaEs: BlogPost = {
   title: "Canva: pros y contras del editor online para marketing",
   date: "2019-11-18",
   category: "SMM",
-  cover: "/images/blog/canva/cover.webp",
+  cover: "/images/blog/canva/cover-es.webp",
   excerpt:
     "A quién encaja Canva, qué cubre el plan gratis, dónde se queda corto frente a Photoshop y cómo mantener un estilo visual en social sin prometer que nunca harás falta un diseñador.",
   lead: [

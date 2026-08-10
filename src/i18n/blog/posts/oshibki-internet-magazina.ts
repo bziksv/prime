@@ -132,7 +132,7 @@ export const oshibkiInternetMagazinaEs: BlogPost = {
   title: "7 errores de optimización ecommerce que las auditorías suelen pasar por alto",
   date: "2019-05-16",
   category: "E-commerce",
-  cover: "/images/blog/oshibki-internet-magazina/cover.webp",
+  cover: "/images/blog/oshibki-internet-magazina/cover-es.webp",
   excerpt:
     "Errores ocultos de ecommerce: duplicados en paginación y filtros, un catálogo caótico, un slider de precio inútil, fotos débiles, un pop-up de región, modales extra y filtros ilógicos.",
   lead: [

@@ -183,7 +183,7 @@ export const robotsTxtJoomlaEs: BlogPost = {
   title: "Robots.txt para Joomla: reglas y una plantilla cuidadosa",
   date: "2018-02-26",
   category: "SEO",
-  cover: "/images/blog/robots-txt-joomla/cover.webp",
+  cover: "/images/blog/robots-txt-joomla/cover-es.webp",
   excerpt:
     "Cómo funciona robots.txt en Joomla: User-agent, Allow/Disallow, Sitemap y rutas del sistema — sin tratar un paste de Joomla 3.3 como evangelio ni apoyarte solo en una línea Host desfasada como espejo.",
   lead: [

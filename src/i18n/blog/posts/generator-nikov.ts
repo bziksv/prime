@@ -157,7 +157,7 @@ export const generatorNikovEs: BlogPost = {
   title: "Generadores de username: cómo elegir un handle libre en redes",
   date: "2020-12-25",
   category: "SMM",
-  cover: "/images/blog/generator-nikov/cover.webp",
+  cover: "/images/blog/generator-nikov/cover-es.webp",
   excerpt:
     "Cómo elegir un username cuando el que quieres está ocupado: reglas de un buen login, comprobar dentro de la red social y el rol de los generadores online — sin un catálogo de servicios ni el mito de que la herramienta te lo reserva.",
   lead: [

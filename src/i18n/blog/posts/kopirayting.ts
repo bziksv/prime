@@ -180,7 +180,7 @@ export const kopiraytingEs: BlogPost = {
   title: "Copywriting: tipos de texto, trabajos y cómo elegir un redactor",
   date: "2021-11-30",
   category: "Content marketing",
-  cover: "/images/blog/kopirayting/cover.webp",
+  cover: "/images/blog/kopirayting/cover-es.webp",
   excerpt:
     "Qué es el copywriting: textos informativos y de venta, LSI, landings, SMM, requisitos del redactor, pago y tips para clientes.",
   lead: [

@@ -142,7 +142,7 @@ export const korporativnyyBlogEs: BlogPost = {
   title: "Por qué las empresas necesitan un blog corporativo — y por dónde empezar",
   date: "2019-08-14",
   category: "Content marketing",
-  cover: "/images/blog/korporativnyy-blog/cover.webp",
+  cover: "/images/blog/korporativnyy-blog/cover-es.webp",
   excerpt:
     "Un blog corporativo como herramienta de negocio: metas en vez de «como todo el mundo», un plan, presupuesto, valor para la audiencia y elegir in-house vs agencia.",
   lead: [

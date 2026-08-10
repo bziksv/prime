@@ -156,7 +156,7 @@ export const negativnoeSeoEs: BlogPost = {
   title: "SEO negativo: qué ataques amenazan y cómo defenderse",
   date: "2020-07-23",
   category: "SEO",
-  cover: "/images/blog/negativnoe-seo/cover.webp",
+  cover: "/images/blog/negativnoe-seo/cover-es.webp",
   excerpt:
     "SEO negativo son intentos de dañar el sitio de otro en la búsqueda. Qué señales aparecen, cómo monitorizar y defenderse — sin how-tos de ataque, DDoS ni guías de «banear a un competidor».",
   lead: [

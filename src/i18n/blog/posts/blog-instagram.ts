@@ -182,7 +182,7 @@ export const blogInstagramEs: BlogPost = {
   title: "Llevar un blog en Instagram: temas y primeros pasos",
   date: "2021-06-04",
   category: "SMM",
-  cover: "/images/blog/blog-instagram/cover.webp",
+  cover: "/images/blog/blog-instagram/cover-es.webp",
   excerpt:
     "Cómo empezar un blog personal en Instagram: elegir tema, armar la bio, construir un plan de contenidos y series de fotos — sin promesas de «primera página al instante sin gasto» ni catálogo de apps obsoletas.",
   lead: [

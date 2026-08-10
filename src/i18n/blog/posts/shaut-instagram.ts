@@ -197,7 +197,7 @@ export const shautInstagramEs: BlogPost = {
   title: "Shoutouts (SFS) en Instagram*: cómo hacerlos, pros y contras",
   date: "2021-04-08",
   category: "SMM",
-  cover: "/images/blog/shaut-instagram/cover.webp",
+  cover: "/images/blog/shaut-instagram/cover-es.webp",
   excerpt:
     "Qué es un shoutout (shout for shout, SFS) en Instagram*: menciones mutuas, formato concurso, pros y contras — sin el mito de que es «gratis y siempre efectivo».",
   lead: [

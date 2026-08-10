@@ -153,7 +153,7 @@ export const parsingAuditoriiEs: BlogPost = {
   title: "Scraping de audiencia: qué es y qué usar en su lugar",
   date: "2020-02-25",
   category: "Marketing digital",
-  cover: "/images/blog/parsing-auditorii/cover.webp",
+  cover: "/images/blog/parsing-auditorii/cover-es.webp",
   excerpt:
     "Qué entienden los marketers por scraping de audiencia en redes, riesgos de cosechar perfiles en masa y cómo segmentar de forma legal — vía cuentas de ads, tu propia lista e investigación.",
   lead: [

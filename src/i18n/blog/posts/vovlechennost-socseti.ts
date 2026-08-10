@@ -156,7 +156,7 @@ export const vovlechennostSocsetiEs: BlogPost = {
   title: "Engagement en redes: cómo despertar a la audiencia sin actividad falsa",
   date: "2020-08-14",
   category: "SMM",
-  cover: "/images/blog/vovlechennost-socseti/cover.webp",
+  cover: "/images/blog/vovlechennost-socseti/cover-es.webp",
   excerpt:
     "Cómo subir el engagement de followers en redes: calidad de contenido, timing de publicación, diálogo, Stories, contests — sin un culto al «ER normal» ni un catálogo de servicios grises.",
   lead: [

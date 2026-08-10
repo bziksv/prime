@@ -177,7 +177,7 @@ export const robotsTxtWordpressEs: BlogPost = {
   title: "Robots.txt para WordPress: reglas sin plantilla a ciegas",
   date: "2018-01-29",
   category: "SEO",
-  cover: "/images/blog/robots-txt-wordpress/cover.webp",
+  cover: "/images/blog/robots-txt-wordpress/cover-es.webp",
   excerpt:
     "Cómo configurar robots.txt en WordPress: wp-admin, rutas del sistema, Sitemap, checks en Webmaster — sin banear todo wp-content ni cerrar categorías a ciegas.",
   lead: [

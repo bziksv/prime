@@ -244,7 +244,7 @@ export const seoYandexGoogleEs: BlogPost = {
   title: "SEO Yandex vs Google: qué difiere de verdad",
   date: "2019-01-14",
   category: "SEO",
-  cover: "/images/blog/seo-yandex-google/cover.webp",
+  cover: "/images/blog/seo-yandex-google/cover-es.webp",
   excerpt:
     "Qué se comparte y dónde divergen Yandex y Google: keywords, señales comerciales, SEO local, tools de webmaster, enlaces y contenido — un mapa práctico para Rusia, sin el mito de «un algoritmo para ambos».",
   lead: [

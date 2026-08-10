@@ -193,7 +193,7 @@ export const tendentsiiVebDizaynaEs: BlogPost = {
   title: "Tendencias de web design: qué enviar — y qué estorba",
   date: "2018-05-29",
   category: "Digital marketing",
-  cover: "/images/blog/tendentsii-veb-dizayna/cover.webp",
+  cover: "/images/blog/tendentsii-veb-dizayna/cover-es.webp",
   excerpt:
     "Cómo elegir tendencias de web design sin perseguir la moda: animación, color y tipografía, data storytelling, IA en la UI, ilustraciones, mobile-first, asimetría, tools, email y e-com — centrado en el camino del usuario y la velocidad.",
   lead: [

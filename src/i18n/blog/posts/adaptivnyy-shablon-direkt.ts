@@ -157,7 +157,7 @@ export const adaptivnyyShablonDirektEs: BlogPost = {
   title: "Plantillas adaptativas en Yandex Direct: para qué existen y cómo armar una",
   date: "2020-01-16",
   category: "Búsqueda de pago",
-  cover: "/images/blog/adaptivnyy-shablon-direkt/cover.webp",
+  cover: "/images/blog/adaptivnyy-shablon-direkt/cover-es.webp",
   excerpt:
     "Qué hace una plantilla creativa adaptativa en Yandex Direct: encajar un set de assets a muchos tamaños de bloque, fijar un smart center, escribir copy corto y líneas legales — sin aferrarse a rutas de clics de 2019.",
   lead: [

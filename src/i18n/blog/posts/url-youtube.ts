@@ -145,7 +145,7 @@ export const urlYoutubeEs: BlogPost = {
   title: "URL del canal de YouTube: cómo hacer un enlace legible",
   date: "2020-11-18",
   category: "SMM",
-  cover: "/images/blog/url-youtube/cover.webp",
+  cover: "/images/blog/url-youtube/cover-es.webp",
   excerpt:
     "En qué se diferencia una dirección corta del canal de un ID, qué condiciones suele poner YouTube y cómo cambiar el enlace sin capturas obsoletas — con una nota sobre @handles y límites de cambio.",
   lead: [

@@ -141,7 +141,7 @@ export const googleTagManagerEs: BlogPost = {
   title: "Google Tag Manager: cómo funciona y por dónde empezar",
   date: "2020-10-01",
   category: "Digital marketing",
-  cover: "/images/blog/google-tag-manager/cover.webp",
+  cover: "/images/blog/google-tag-manager/cover-es.webp",
   excerpt:
     "Qué es GTM: contenedor, tags, triggers y variables — instala el código una vez y luego publica contadores y eventos sin editar el tema por cada pixel.",
   lead: [

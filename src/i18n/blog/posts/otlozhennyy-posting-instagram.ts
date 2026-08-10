@@ -181,7 +181,7 @@ export const otlozhennyyPostingInstagramEs: BlogPost = {
   title: "Publicación programada en Instagram: por qué y cómo planificar",
   date: "2021-01-18",
   category: "SMM",
-  cover: "/images/blog/otlozhennyy-posting-instagram/cover.webp",
+  cover: "/images/blog/otlozhennyy-posting-instagram/cover-es.webp",
   excerpt:
     "Publicación programada en Instagram: por qué planificar, cómo ayuda un calendario de contenido y cómo elegir una herramienta — sin auto-posters dudosos ni robar contenido ajeno.",
   lead: [

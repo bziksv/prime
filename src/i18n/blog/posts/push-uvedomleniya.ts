@@ -6,7 +6,7 @@ export const pushUvedomleniyaEs: BlogPost = {
   title: "Notificaciones push: qué son y cómo usarlas",
   date: "2019-06-05",
   category: "Email marketing",
-  cover: "/images/blog/push-uvedomleniya/cover.webp",
+  cover: "/images/blog/push-uvedomleniya/cover-es.webp",
   excerpt:
     "Push de navegador y móvil: en qué se diferencian del email y el SMS, a quién ayudan, cómo pedir permiso, qué escribir y cómo no cansar a los suscriptores — sin spam en pop-ups.",
   lead: [

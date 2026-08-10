@@ -125,7 +125,7 @@ export const sozdanieInternetMagazinaEs: BlogPost = {
   title: "10 cosas que no puedes saltarte al crear una tienda online",
   date: "2018-07-12",
   category: "E-commerce",
-  cover: "/images/blog/sozdanie-internet-magazina/cover.webp",
+  cover: "/images/blog/sozdanie-internet-magazina/cover-es.webp",
   excerpt:
     "Diseño limpio, layout móvil, fotos, navegación, pago y SSL, surtido, búsqueda, soporte, velocidad y reseñas — un checklist de storefront antes de escalar tráfico.",
   lead: [

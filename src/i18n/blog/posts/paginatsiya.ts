@@ -245,7 +245,7 @@ export const paginatsiyaEs: BlogPost = {
   title: "Paginación del sitio: cómo montarla sin dañar el SEO",
   date: "2021-03-30",
   category: "SEO",
-  cover: "/images/blog/paginatsiya/cover.webp",
+  cover: "/images/blog/paginatsiya/cover-es.webp",
   excerpt:
     "Qué es la paginación de catálogo y blog, cómo funciona la numeración y cómo fijar la indexación para que las páginas 2, 3, 4… no generen duplicados.",
   lead: [

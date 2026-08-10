@@ -120,7 +120,7 @@ export const intentSotsialnyeProdazhiEs: BlogPost = {
   title: "Intención de compra en social: leer las señales del comprador",
   date: "2018-09-04",
   category: "Digital marketing",
-  cover: "/images/blog/intent-sotsialnye-prodazhi/cover.webp",
+  cover: "/images/blog/intent-sotsialnye-prodazhi/cover-es.webp",
   excerpt:
     "Social selling y monitorización de intent en feeds y comunidades: «solo soñando / comparando / listo para comprar», respuestas éticas, CRM y retarget — no es lo mismo que el user intent de SEO.",
   lead: [

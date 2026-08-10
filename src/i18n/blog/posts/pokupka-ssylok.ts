@@ -251,7 +251,7 @@ export const pokupkaSsylokEs: BlogPost = {
   title: "Comprar enlaces: riesgos y criterios de calidad",
   date: "2021-02-05",
   category: "SEO",
-  cover: "/images/blog/pokupka-ssylok/cover.webp",
+  cover: "/images/blog/pokupka-ssylok/cover-es.webp",
   excerpt:
     "Cuándo tienen sentido los placements de pago, qué riesgos traen los «packs» de exchanges y cómo juzgar un donor — sin guías para un bombardeo de enlaces.",
   lead: [

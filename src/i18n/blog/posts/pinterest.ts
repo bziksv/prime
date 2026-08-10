@@ -134,7 +134,7 @@ export const pinterestEs: BlogPost = {
   title: "Pinterest: qué es y por qué lo usan negocio y boards personales",
   date: "2020-08-04",
   category: "SMM",
-  cover: "/images/blog/pinterest/cover.webp",
+  cover: "/images/blog/pinterest/cover-es.webp",
   excerpt:
     "Qué es Pinterest: pins, boards, repins, en qué se diferencia de Instagram y cómo usarlo para ideas y tráfico — sin stats demo obsoletas ni garantías de ventas.",
   lead: [

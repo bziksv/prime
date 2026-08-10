@@ -192,7 +192,7 @@ export const biznesAkkauntInstagramEs: BlogPost = {
   title: "Cuenta business de Instagram: por qué la necesitas y cómo configurarla",
   date: "2022-01-19",
   category: "SMM",
-  cover: "/images/blog/biznes-akkaunt-instagram/cover.webp",
+  cover: "/images/blog/biznes-akkaunt-instagram/cover-es.webp",
   excerpt:
     "En qué se diferencia un perfil business o professional de Instagram de uno personal: insights, contactos, ads. Cómo cambiar el tipo de cuenta y qué evitar.",
   lead: [

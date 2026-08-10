@@ -6,7 +6,7 @@ export const rasshirenieTsenyGoogleEs: BlogPost = {
   title: "Extensiones de precio en Google Ads",
   date: "2017-05-27",
   category: "Paid search",
-  cover: "/images/blog/rasshirenie-tseny-google/cover.webp",
+  cover: "/images/blog/rasshirenie-tseny-google/cover-es.webp",
   excerpt:
     "Por qué los anuncios de Google Ads muestran un bloque de precio: tipos (productos, servicios, eventos, marcas), cuándo activarlo y qué vigilar — un clic en un precio se factura, y la UI puede haber cambiado desde 2017.",
   lead: [

@@ -163,7 +163,7 @@ export const optimizatsiyaKonversiiEs: BlogPost = {
   title: "Optimización de la tasa de conversión: cómo medirla y qué probar",
   date: "2021-09-13",
   category: "Digital marketing",
-  cover: "/images/blog/optimizatsiya-konversii/cover.webp",
+  cover: "/images/blog/optimizatsiya-konversii/cover-es.webp",
   excerpt:
     "Qué es la tasa de conversión, cómo calcularla, cómo trabajar el funnel y qué hipótesis probar — formularios, CTAs, velocidad, confianza — sin mitos sobre la «conversión media de internet».",
   lead: [

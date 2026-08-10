@@ -126,7 +126,7 @@ export const prodazhaTrafikaEs: BlogPost = {
   title: "Vender tráfico: cómo monetizar las visitas del sitio",
   date: "2021-11-06",
   category: "Digital marketing",
-  cover: "/images/blog/prodazha-trafika/cover.webp",
+  cover: "/images/blog/prodazha-trafika/cover-es.webp",
   excerpt:
     "Qué significa vender tráfico: CPC, CPM, CPA, anuncios de búsqueda/display, teasers, banners y anunciantes directos. Cómo encontrar compradores sin matar la UX.",
   lead: [

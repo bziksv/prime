@@ -173,7 +173,7 @@ export const metrikaUstanovkaEs: BlogPost = {
   title: "Instalar Yandex Metrica en un sitio web",
   date: "2021-04-27",
   category: "SEO",
-  cover: "/images/blog/metrika-ustanovka/cover.webp",
+  cover: "/images/blog/metrika-ustanovka/cover-es.webp",
   excerpt:
     "Dónde pegar el código de Yandex Metrica en WordPress, Bitrix, Joomla y constructores: contador en head / vía plugin, comprobar visitas y errores frecuentes.",
   lead: [

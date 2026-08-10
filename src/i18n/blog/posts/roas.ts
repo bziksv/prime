@@ -116,7 +116,7 @@ export const roasEs: BlogPost = {
   title: "ROAS: retorno del gasto en publicidad",
   date: "2019-03-04",
   category: "Digital marketing",
-  cover: "/images/blog/roas/cover.webp",
+  cover: "/images/blog/roas/cover-es.webp",
   excerpt:
     "ROAS = revenue de ads / gasto en ads: en qué se diferencia de ROI/ROMI (retorno de la inversión en marketing), cómo calcularlo, por qué incluir creativo en costes y por qué en B2B sin analytics de extremo a extremo la métrica miente.",
   lead: [

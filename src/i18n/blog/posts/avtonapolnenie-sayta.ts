@@ -140,7 +140,7 @@ export const avtonapolnenieSaytaEs: BlogPost = {
   title: "Autorelleno de un sitio: qué es y cómo funciona",
   date: "2022-02-15",
   category: "SEO",
-  cover: "/images/blog/avtonapolnenie-sayta/cover.webp",
+  cover: "/images/blog/avtonapolnenie-sayta/cover-es.webp",
   excerpt:
     "Cómo funciona el autorelleno vía RSS y plugins, dónde encaja y por qué para SEO serio suele ser más dañino que útil.",
   lead: [

@@ -147,7 +147,7 @@ export const ssylkaInstagramEs: BlogPost = {
   title: "Cómo copiar el enlace del perfil de Instagram",
   date: "2021-04-08",
   category: "SMM",
-  cover: "/images/blog/ssylka-instagram/cover.webp",
+  cover: "/images/blog/ssylka-instagram/cover-es.webp",
   excerpt:
     "Cómo obtener la URL del perfil de Instagram: desde el navegador, desde la app y a mano por username — dónde pegar el enlace y qué no garantiza.",
   lead: [

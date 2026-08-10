@@ -153,7 +153,7 @@ export const razblokirovkaInstagramEs: BlogPost = {
   title: "Cómo desbloquear a una persona en Instagram",
   date: "2021-06-08",
   category: "SMM",
-  cover: "/images/blog/razblokirovka-instagram/cover.webp",
+  cover: "/images/blog/razblokirovka-instagram/cover-es.webp",
   excerpt:
     "En qué se diferencia bloquear a un usuario de un ban de cuenta, cómo quitar a alguien de la lista de bloqueados en la app y qué hacer si el perfil no aparece — sin «clientes» de Instagram de terceros.",
   lead: [

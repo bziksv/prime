@@ -176,7 +176,7 @@ export const kommentariiVPablikeVkEs: BlogPost = {
   title: "Comentarios en una comunidad VK: configuración y moderación",
   date: "2022-02-22",
   category: "SMM",
-  cover: "/images/blog/kommentarii-v-pablike-vk/cover.webp",
+  cover: "/images/blog/kommentarii-v-pablike-vk/cover-es.webp",
   excerpt:
     "Cómo gestionar comentarios en una comunidad de VK: abrir o cerrar la discusión, tipos de muro, filtros, moderación manual y control del feed de respuestas.",
   lead: [

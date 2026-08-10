@@ -164,7 +164,7 @@ export const minusSlovaDirektEs: BlogPost = {
   title: "Keywords negativas en Yandex Direct: cómo cortar demanda no objetivo",
   date: "2018-10-25",
   category: "Paid search",
-  cover: "/images/blog/minus-slova-direkt/cover.webp",
+  cover: "/images/blog/minus-slova-direkt/cover-es.webp",
   excerpt:
     "Cómo configurar keywords y frases negativas en Yandex Direct: niveles de alta, operadores de formas, cross-negatives y precaución en Display Network — sin copiar a ciegas «listas universales» de la web.",
   lead: [

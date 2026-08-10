@@ -204,7 +204,7 @@ export const retargetingEs: BlogPost = {
   title: "Retargeting: qué es y en qué se diferencia del targeting",
   date: "2018-03-28",
   category: "Paid search",
-  cover: "/images/blog/retargeting/cover.webp",
+  cover: "/images/blog/retargeting/cover-es.webp",
   excerpt:
     "El retargeting trae de vuelta a quien ya visitó: carrito, vista de producto, visita sin acción. En qué se diferencia del targeting, qué tipos existen y cómo no molestar a la audiencia.",
   lead: [

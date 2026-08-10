@@ -118,7 +118,7 @@ export const prognozTrafikaGoogleAdsEs: BlogPost = {
   title: "Pronóstico de tráfico para campañas de búsqueda en Google Ads",
   date: "2019-07-10",
   category: "Digital marketing",
-  cover: "/images/blog/prognoz-trafika-google-ads/cover.webp",
+  cover: "/images/blog/prognoz-trafika-google-ads/cover-es.webp",
   excerpt:
     "Cómo estimar demanda de búsqueda y presupuesto en Google Ads: reunir keywords en Keyword Planner, limpiar, CTR/CPC por grupos y una fórmula de presupuesto — sin la ilusión de un media plan exacto.",
   lead: [

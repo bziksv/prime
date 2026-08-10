@@ -124,7 +124,7 @@ export const monitoringPozitsiyEs: BlogPost = {
   title: "¿Hace falta monitorear los rankings de búsqueda?",
   date: "2018-10-30",
   category: "Digital marketing",
-  cover: "/images/blog/monitoring-pozitsiy/cover.webp",
+  cover: "/images/blog/monitoring-pozitsiy/cover-es.webp",
   excerpt:
     "Cuándo los rankings de primera página son un KPI real — y cuándo importan más tráfico, conversión y ROMI: mitos viejos de SEO, tipos de proyecto y un scorecard completo sin fecha garantizada de primera página.",
   lead: [

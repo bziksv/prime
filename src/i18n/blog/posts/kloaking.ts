@@ -228,7 +228,7 @@ export const kloakingEs: BlogPost = {
   title: "Qué es el cloaking en SEO y por qué es un riesgo",
   date: "2019-07-09",
   category: "SEO",
-  cover: "/images/blog/kloaking/cover.webp",
+  cover: "/images/blog/kloaking/cover-es.webp",
   excerpt:
     "Cloaking es mostrar contenido distinto a bots y a personas. Por qué se usa, qué te cuesta y cómo revisar que tu sitio no esté enmascarado — también tras un breach.",
   lead: [

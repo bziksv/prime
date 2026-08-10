@@ -160,7 +160,7 @@ export const raskrutkaGruppyVkEs: BlogPost = {
   title: "Crecer un grupo de VKontakte: preparación y crecimiento de suscriptores",
   date: "2021-11-02",
   category: "SMM",
-  cover: "/images/blog/raskrutka-gruppy-vk/cover.webp",
+  cover: "/images/blog/raskrutka-gruppy-vk/cover-es.webp",
   excerpt:
     "Cómo crecer una comunidad de VK tú mismo: nombre, contenido, diseño, métodos de crecimiento con audiencia viva y por qué los seguidores falsos son peligrosos.",
   lead: [

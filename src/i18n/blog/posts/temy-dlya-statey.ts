@@ -138,7 +138,7 @@ export const temyDlyaStateyEs: BlogPost = {
   title: "Temas para artículos: cómo y dónde encontrar ideas",
   date: "2019-06-14",
   category: "Content marketing",
-  cover: "/images/blog/temy-dlya-statey/cover.webp",
+  cover: "/images/blog/temy-dlya-statey/cover-es.webp",
   excerpt:
     "De dónde sacar temas de blog: audiencia, competidores, demanda de búsqueda, trends y espacios de discusión — sin copy-paste de textos ajenos ni perseguir «viralidad».",
   lead: [

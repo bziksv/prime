@@ -290,7 +290,7 @@ export const saytNeVTopEs: BlogPost = {
   title: "Por qué tus páginas no rankean: 10 motivos habituales",
   date: "2020-01-31",
   category: "SEO",
-  cover: "/images/blog/sayt-ne-v-top/cover.webp",
+  cover: "/images/blog/sayt-ne-v-top/cover-es.webp",
   excerpt:
     "Diez motivos por los que las páginas no llegan a la primera página: antigüedad, filtros, contenido, técnica, UX, seguridad, hosting, dominio, código y el mito de resultados instantáneos — con plazos de preparación separados del crecimiento de rankings.",
   lead: [

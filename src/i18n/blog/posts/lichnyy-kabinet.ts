@@ -154,7 +154,7 @@ export const lichnyyKabinetEs: BlogPost = {
   title: "Cuenta personal en un sitio: por qué importa y qué hay dentro",
   date: "2021-02-26",
   category: "Digital marketing",
-  cover: "/images/blog/lichnyy-kabinet/cover.webp",
+  cover: "/images/blog/lichnyy-kabinet/cover-es.webp",
   excerpt:
     "Por qué un sitio necesita una cuenta personal, qué features aparecen tras el login, cuándo es obligatoria y qué vigilar en el desarrollo — de seguridad a UX.",
   lead: [

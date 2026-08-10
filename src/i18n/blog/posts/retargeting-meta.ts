@@ -170,7 +170,7 @@ export const retargetingMetaEs: BlogPost = {
   title: "Retargeting en Instagram y Facebook: tipos de audiencia",
   date: "2020-01-13",
   category: "Digital marketing",
-  cover: "/images/blog/retargeting-meta/cover.webp",
+  cover: "/images/blog/retargeting-meta/cover-es.webp",
   excerpt:
     "Custom audiences para retargeting: visitantes del sitio, listas de clientes y engagement en Instagram / Facebook — cómo funcionan los segmentos, sin un click-path obsoleto de Ads Manager.",
   lead: [

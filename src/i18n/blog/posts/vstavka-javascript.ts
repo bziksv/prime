@@ -215,7 +215,7 @@ export const vstavkaJavascriptEs: BlogPost = {
   title: "Cómo añadir JavaScript a un sitio: CMS y constructores",
   date: "2020-11-13",
   category: "SEO",
-  cover: "/images/blog/vstavka-javascript/cover.webp",
+  cover: "/images/blog/vstavka-javascript/cover-es.webp",
   excerpt:
     "Dónde colocar snippets JS: head y body, WordPress, sitios sin panel de admin y builders. Cómo no romper el layout ni instalar el mismo script dos veces — con contadores y widgets como ejemplos.",
   lead: [

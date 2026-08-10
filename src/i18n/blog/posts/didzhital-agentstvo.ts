@@ -161,7 +161,7 @@ export const didzhitalAgentstvoEs: BlogPost = {
   title: "Agencias digitales: qué hacen y en qué se diferencian del marketing clásico",
   date: "2021-12-29",
   category: "Digital marketing",
-  cover: "/images/blog/didzhital-agentstvo/cover.webp",
+  cover: "/images/blog/didzhital-agentstvo/cover-es.webp",
   excerpt:
     "Qué es una agencia digital: servicios, equipo, en qué se diferencia del marketing offline, cómo medir resultados y cómo elegir contratista.",
   lead: [

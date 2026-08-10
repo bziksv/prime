@@ -183,7 +183,7 @@ export const ohvatInstagramEs: BlogPost = {
   title: "Alcance en Instagram: qué es y en qué se diferencia de las impresiones",
   date: "2021-01-26",
   category: "SMM",
-  cover: "/images/blog/ohvat-instagram/cover.webp",
+  cover: "/images/blog/ohvat-instagram/cover-es.webp",
   excerpt:
     "Qué es el alcance de Instagram: cuentas únicas vs impresiones, por qué cae el alcance y cómo crecer con métodos legítimos — sin bots ni un catálogo de servicios gray-hat.",
   lead: [

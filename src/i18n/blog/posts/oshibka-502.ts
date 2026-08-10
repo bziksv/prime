@@ -165,7 +165,7 @@ export const oshibka502Es: BlogPost = {
   title: "502 Bad Gateway: qué significa y qué hacer",
   date: "2021-03-02",
   category: "SEO",
-  cover: "/images/blog/oshibka-502/cover.webp",
+  cover: "/images/blog/oshibka-502/cover-es.webp",
   excerpt:
     "Qué significa HTTP 502 Bad Gateway, las causas habituales en sitio y hosting, y un orden de diagnóstico tranquilo — sin pánico ni plugins «mágicos».",
   lead: [

@@ -238,7 +238,7 @@ export const podderzhkaYandeksEs: BlogPost = {
   title: "Cómo contactar el soporte de Yandex: Mail, Webmaster y Help",
   date: "2020-06-25",
   category: "SEO",
-  cover: "/images/blog/podderzhka-yandeks/cover.webp",
+  cover: "/images/blog/podderzhka-yandeks/cover-es.webp",
   excerpt:
     "Cuándo escribir al soporte de Yandex, cómo abrir tickets de Mail y Webmaster, qué adjuntar y qué trabajos arreglar tú primero — sin esperar un botón de rankings.",
   lead: [

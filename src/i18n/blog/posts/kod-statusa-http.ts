@@ -202,7 +202,7 @@ export const kodStatusaHttpEs: BlogPost = {
   title: "Códigos de estado HTTP: clases, significado y cómo comprobarlos",
   date: "2021-02-01",
   category: "SEO",
-  cover: "/images/blog/kod-statusa-http/cover.webp",
+  cover: "/images/blog/kod-statusa-http/cover-es.webp",
   excerpt:
     "Qué es un status de respuesta HTTP, cómo leer las clases 1xx–5xx, qué códigos importan para el SEO y cómo comprobar una URL o todo el sitio.",
   lead: [

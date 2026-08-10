@@ -104,7 +104,7 @@ export const affiliatFiltrEs: BlogPost = {
   title: "Sitios afiliados y el filtro de afiliados: cómo detectarlo y mantenerse fuera",
   date: "2018-01-24",
   category: "SEO",
-  cover: "/images/blog/affiliat-filtr/cover.webp",
+  cover: "/images/blog/affiliat-filtr/cover-es.webp",
   excerpt:
     "Qué significan los sitios afiliados en SEO, por qué los buscadores usan un filtro de afiliados, qué señales vinculan dominios y cómo llevar varios proyectos con seguridad sin clones para las mismas queries.",
   lead: [

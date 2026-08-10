@@ -163,7 +163,7 @@ export const stranitsaKontaktovEs: BlogPost = {
   title: "Cómo diseñar la página de contacto de un sitio",
   date: "2019-11-07",
   category: "Content marketing",
-  cover: "/images/blog/stranitsa-kontaktov/cover.webp",
+  cover: "/images/blog/stranitsa-kontaktov/cover-es.webp",
   excerpt:
     "Una página de Contactos dedicada: qué listar, cómo no sobrecargar el header, teléfonos clicables, mapa y formulario — sin convertir el bloque en un vertedero de datos legales.",
   lead: [

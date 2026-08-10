@@ -143,7 +143,7 @@ export const potrebitelskiyInsaytEs: BlogPost = {
   title: "Insight del consumidor: qué es y cómo encontrarlo",
   date: "2019-07-11",
   category: "Digital marketing",
-  cover: "/images/blog/potrebitelskiy-insayt/cover.webp",
+  cover: "/images/blog/potrebitelskiy-insayt/cover-es.webp",
   excerpt:
     "Un insight del consumidor es un motivo oculto en la fórmula «quiero…, pero…». Por qué lo necesita el marketing y dónde buscarlo: datos, encuestas, contradicciones, foros, redes y competidores.",
   lead: [

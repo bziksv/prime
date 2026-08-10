@@ -178,7 +178,7 @@ export const hostingEs: BlogPost = {
   title: "Qué es el hosting y cómo elegir proveedor",
   date: "2017-08-30",
   category: "Digital marketing",
-  cover: "/images/blog/hosting/cover.webp",
+  cover: "/images/blog/hosting/cover-es.webp",
   excerpt:
     "Hosting en lenguaje claro: por qué un sitio necesita servidor, en qué se diferencian shared, VPS, dedicado y cloud, y qué comprobar al elegir — sin mitos de «uptime = rankings» ni tablas de ligas de pago.",
   lead: [

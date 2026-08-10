@@ -138,7 +138,7 @@ export const yandeksDzenEs: BlogPost = {
   title: "Yandex Zen: elegir tema, reglas y monetización",
   date: "2021-07-02",
   category: "Content marketing",
-  cover: "/images/blog/yandeks-dzen/cover.webp",
+  cover: "/images/blog/yandeks-dzen/cover-es.webp",
   excerpt:
     "Cómo funciona Zen para autores: el feed de recomendaciones, elección de nicho, reglas de publicación y lógica de monetización — sin umbrales obsoletos «en una semana» ni consejos de copiar textos ajenos.",
   lead: [

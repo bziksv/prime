@@ -160,7 +160,7 @@ export const gipertekstEs: BlogPost = {
   title: "Hipertexto: qué es, estructura y por qué lo necesita tu sitio",
   date: "2022-01-25",
   category: "SEO",
-  cover: "/images/blog/gipertekst/cover.webp",
+  cover: "/images/blog/gipertekst/cover-es.webp",
   excerpt:
     "Qué es el hipertexto: enlaces, markup HTML, estructura del documento. Por qué los cross-links ayudan a un sitio, una enciclopedia y una tienda online.",
   lead: [

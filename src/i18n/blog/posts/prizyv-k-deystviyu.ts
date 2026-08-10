@@ -157,7 +157,7 @@ export const prizyvKDeystviyuEs: BlogPost = {
   title: "Cómo escribir un call to action (CTA)",
   date: "2019-08-21",
   category: "Content marketing",
-  cover: "/images/blog/prizyv-k-deystviyu/cover.webp",
+  cover: "/images/blog/prizyv-k-deystviyu/cover-es.webp",
   excerpt:
     "Calls to action en un sitio: objetivo de la página, copy del botón, beneficio, colocación y A/B — sin escasez falsa ni un enjambre de popups insistentes.",
   lead: [

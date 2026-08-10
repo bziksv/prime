@@ -164,7 +164,7 @@ export const prodayushchiyKontentEs: BlogPost = {
   title: "Contenido de venta en redes: tipos, ejemplos y un plan",
   date: "2020-04-06",
   category: "Content marketing",
-  cover: "/images/blog/prodayushchiy-kontent/cover.webp",
+  cover: "/images/blog/prodayushchiy-kontent/cover-es.webp",
   excerpt:
     "Qué es el contenido de venta en redes: objetivos, B2C y B2B, tipos de post y cómo armar un plan sin un «compra ya» infinito ni % obsoletos de reviews antiguas.",
   lead: [

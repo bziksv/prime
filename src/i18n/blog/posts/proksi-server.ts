@@ -155,7 +155,7 @@ export const proksiServerEs: BlogPost = {
   title: "Servidor proxy: qué es y para qué hace falta",
   date: "2018-04-25",
   category: "Digital marketing",
-  cover: "/images/blog/proksi-server/cover.webp",
+  cover: "/images/blog/proksi-server/cover-es.webp",
   excerpt:
     "Qué es un servidor proxy en palabras simples: cómo funciona el intermediario entre cliente y sitio, forward vs reverse, caché y gateway corporativo — sin guías de saltar bans ni listas dudosas de IP.",
   lead: [

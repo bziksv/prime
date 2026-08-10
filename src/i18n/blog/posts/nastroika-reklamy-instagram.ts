@@ -162,7 +162,7 @@ export const nastroikaReklamyInstagramEs: BlogPost = {
   title: "Ads de Instagram vía Meta Ads: cómo lanzar una campaña",
   date: "2020-04-27",
   category: "SMM",
-  cover: "/images/blog/nastroika-reklamy-instagram/cover.webp",
+  cover: "/images/blog/nastroika-reklamy-instagram/cover-es.webp",
   excerpt:
     "Cómo correr ads de Instagram desde Meta Ads Manager: vínculo de cuenta, objetivo de campaña, placements solo Instagram, presupuesto y testing — sin capturas obsoletas de bids de 2020.",
   lead: [

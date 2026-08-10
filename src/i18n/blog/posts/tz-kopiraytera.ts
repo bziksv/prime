@@ -155,7 +155,7 @@ export const tzKopirayteraEs: BlogPost = {
   title: "Cómo escribir un brief para un copywriter",
   date: "2020-06-24",
   category: "Content marketing",
-  cover: "/images/blog/tz-kopiraytera/cover.webp",
+  cover: "/images/blog/tz-kopiraytera/cover-es.webp",
   excerpt:
     "Un brief de copywriter que cubre objetivo, audiencia, esquema, hechos, stop-list y criterios de aceptación — para copy de venta, SEO y homepage, sin tratar el «95% de unicidad» como único KPI.",
   lead: [

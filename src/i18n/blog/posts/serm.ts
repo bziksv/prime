@@ -105,7 +105,7 @@ export const sermEs: BlogPost = {
   title: "Qué es SERM: cuándo hace falta y cómo montar el trabajo",
   date: "2018-03-21",
   category: "Digital marketing",
-  cover: "/images/blog/serm/cover.webp",
+  cover: "/images/blog/serm/cover-es.webp",
   excerpt:
     "SERM es gestionar la reputación en búsqueda de tu marca: monitoreo de SERP, respuestas a reviews, propiedades propias y contenido — sin granjas de reviews falsas ni inundar positividad.",
   lead: [

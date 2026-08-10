@@ -121,7 +121,7 @@ export const nakrutkaZriteleyYoutubeEs: BlogPost = {
   title: "Comprar espectadores en lives de YouTube: riesgos y qué hacer en su lugar",
   date: "2020-09-29",
   category: "SMM",
-  cover: "/images/blog/nakrutka-zriteley-youtube/cover.webp",
+  cover: "/images/blog/nakrutka-zriteley-youtube/cover-es.webp",
   excerpt:
     "Por qué la gente compra espectadores en vivo, qué arriesga para el canal y los anunciantes, y cómo crecer una audiencia real sin bots ni workarounds de proxy.",
   lead: [

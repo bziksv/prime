@@ -148,7 +148,7 @@ export const prodayushchieTekstyEs: BlogPost = {
   title: "Textos de venta: principios y estructura",
   date: "2021-10-15",
   category: "SEO",
-  cover: "/images/blog/prodayushchie-teksty/cover.webp",
+  cover: "/images/blog/prodayushchie-teksty/cover-es.webp",
   excerpt:
     "Cómo escribir textos de venta: audiencia y producto, tono, titular, intro, argumentos, precio y un CTA sin clichés.",
   lead: [

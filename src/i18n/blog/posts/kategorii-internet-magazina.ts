@@ -156,7 +156,7 @@ export const kategoriiInternetMagazinaEs: BlogPost = {
   title: "Categorías de tienda online: SEO y cuándo crear nuevas",
   date: "2021-07-05",
   category: "SEO",
-  cover: "/images/blog/kategorii-internet-magazina/cover.webp",
+  cover: "/images/blog/kategorii-internet-magazina/cover-es.webp",
   excerpt:
     "Por qué las categorías capturan demanda, cuándo crear una sección nueva, cómo revisar demanda y competidores, qué contenido escribir y cómo evitar canibalización y huecos de crawl.",
   lead: [

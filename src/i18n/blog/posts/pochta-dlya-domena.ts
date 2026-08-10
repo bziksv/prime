@@ -175,7 +175,7 @@ export const pochtaDlyaDomenaEs: BlogPost = {
   title: "Correo para tu dominio: por qué lo necesita el negocio y cómo conectarlo",
   date: "2018-04-17",
   category: "Digital marketing",
-  cover: "/images/blog/pochta-dlya-domena/cover.webp",
+  cover: "/images/blog/pochta-dlya-domena/cover-es.webp",
   excerpt:
     "Email corporativo en tu propio dominio: por qué `nombre@firma.ru`, cómo funcionan los registros MX, elegir Yandex 360 / Google / Mail y seguridad básica — sin límites desfasados de «1000 buzones gratis».",
   lead: [

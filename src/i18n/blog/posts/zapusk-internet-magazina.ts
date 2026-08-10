@@ -185,7 +185,7 @@ export const zapuskInternetMagazinaEs: BlogPost = {
   title: "Lanzar una tienda online de punta a punta: las etapas reales",
   date: "2020-11-20",
   category: "E-commerce",
-  cover: "/images/blog/zapusk-internet-magazina/cover.webp",
+  cover: "/images/blog/zapusk-internet-magazina/cover-es.webp",
   excerpt:
     "Etapas del lanzamiento de una tienda online: plan de negocio, almacén o dropshipping, plataforma, escaparate, forma jurídica y recibos, pagos, equipo y ads — sin promesas de «tienda en una tarde» ni listas de precios obsoletas de 2020.",
   lead: [

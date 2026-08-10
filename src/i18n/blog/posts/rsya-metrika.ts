@@ -150,7 +150,7 @@ export const rsyaMetrikaEs: BlogPost = {
   title: "Métricas de ingresos de YAN en Yandex Metrica",
   date: "2018-07-06",
   category: "Marketing digital",
-  cover: "/images/blog/rsya-metrika/cover.webp",
+  cover: "/images/blog/rsya-metrika/cover-es.webp",
   excerpt:
     "Ingresos de la Red Publicitaria de Yandex (YAN) en Metrica: por qué los publishers miran ingresos e impresiones de ads, qué métricas importan y cómo conectar informes — sin capturas obsoletas de cuentas de 2018.",
   lead: [

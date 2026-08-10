@@ -135,7 +135,7 @@ export const promoaktsiiEs: BlogPost = {
   title: "Por qué importan las promociones — y qué mecánicas funcionan",
   date: "2019-06-28",
   category: "Digital marketing",
-  cover: "/images/blog/promoaktsii/cover.webp",
+  cover: "/images/blog/promoaktsii/cover-es.webp",
   excerpt:
     "Promociones en retail y online: descuentos, regalo con compra, loyalty y sorteos — por qué el negocio las corre, qué prefieren los compradores y dónde la privacidad y la ley ponen límites.",
   lead: [

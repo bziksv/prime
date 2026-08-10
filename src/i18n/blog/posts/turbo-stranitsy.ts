@@ -196,7 +196,7 @@ export const turboStranitsyEs: BlogPost = {
   title: "Páginas Turbo de Yandex: el feed de recomendaciones y la vida tras el apagado",
   date: "2018-08-21",
   category: "SEO",
-  cover: "/images/blog/turbo-stranitsy/cover.webp",
+  cover: "/images/blog/turbo-stranitsy/cover-es.webp",
   excerpt:
     "Qué eran las páginas Turbo y el feed automático de recomendaciones, por qué se retiró la tecnología y en qué apoyarte ahora para UX móvil y monetización — tu propio sitio responsive.",
   lead: [

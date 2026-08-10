@@ -113,7 +113,7 @@ export const vrednyeSovetyRukovoditelyamEs: BlogPost = {
   title: "Malos consejos para managers: antipatrones de liderazgo que rompen equipos",
   date: "2019-07-01",
   category: "Digital marketing",
-  cover: "/images/blog/vrednye-sovety-rukovoditelyam/cover.webp",
+  cover: "/images/blog/vrednye-sovety-rukovoditelyam/cover-es.webp",
   excerpt:
     "Una mirada irónica al liderazgo tóxico en digital: tener siempre la razón, flex de estatus, reuniones vacías, manipulación y descuido de tu mejor gente — más qué hacer en su lugar.",
   lead: [

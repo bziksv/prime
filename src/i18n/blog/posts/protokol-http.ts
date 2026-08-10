@@ -239,7 +239,7 @@ export const protokolHttpEs: BlogPost = {
   title: "Protocolo HTTP: qué es y por qué lo necesitas",
   date: "2020-12-22",
   category: "SEO",
-  cover: "/images/blog/protokol-http/cover.webp",
+  cover: "/images/blog/protokol-http/cover-es.webp",
   excerpt:
     "Qué es HTTP en la capa de aplicación: request y response, métodos, headers, vínculo con URL y HTML. En qué se diferencia HTTP de HTTPS y dónde revisar códigos de estado para SEO.",
   lead: [

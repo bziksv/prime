@@ -179,7 +179,7 @@ export const instagramDirectGidEs: BlogPost = {
   title: "Instagram Direct: cómo usar el messenger",
   date: "2021-12-21",
   category: "SMM",
-  cover: "/images/blog/instagram-direct-gid/cover.webp",
+  cover: "/images/blog/instagram-direct-gid/cover-es.webp",
   excerpt:
     "Cómo abrir Direct, enviar un mensaje, adjuntos, quick replies y chats en Instagram — una guía del messenger sin broadcasts grises ni screenshots obsoletos del «avión de papel».",
   lead: [

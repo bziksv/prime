@@ -151,7 +151,7 @@ export const shablonInstagramEs: BlogPost = {
   title: "Plantillas de Instagram: un feed unificado y estilo de post",
   date: "2021-07-23",
   category: "SMM",
-  cover: "/images/blog/shablon-instagram/cover.webp",
+  cover: "/images/blog/shablon-instagram/cover-es.webp",
   excerpt:
     "Por qué importan las plantillas de posts y de la grilla del perfil en Instagram, qué esquemas de layout funcionan, cómo montar un mockup en un editor y qué apps ayudan — sin aferrarse a botones de UI obsoletos.",
   lead: [

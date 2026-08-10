@@ -159,7 +159,7 @@ export const avtovoronkaInstagramEs: BlogPost = {
   title: "Autofunnel en Instagram: escenario, Direct y límites de política",
   date: "2020-04-15",
   category: "Content marketing",
-  cover: "/images/blog/avtovoronka-instagram/cover.webp",
+  cover: "/images/blog/avtovoronka-instagram/cover-es.webp",
   excerpt:
     "Cómo armar un autofunnel en Instagram: perfil, lead magnet, cadena de toques y Direct — sin spam frío, bots grises ni «la conversión crecerá sola».",
   lead: [

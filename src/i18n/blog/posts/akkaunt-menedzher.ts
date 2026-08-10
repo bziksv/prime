@@ -136,7 +136,7 @@ export const akkauntMenedzherEs: BlogPost = {
   title: "Qué es un account manager — y cómo es el trabajo de verdad",
   date: "2019-05-30",
   category: "Digital marketing",
-  cover: "/images/blog/akkaunt-menedzher/cover.webp",
+  cover: "/images/blog/akkaunt-menedzher/cover-es.webp",
   excerpt:
     "Un account manager de agencia: en qué se diferencia de sales y de un PM, el día a día del proyecto, comunicación con el cliente, upsell y estrés — sin el mito del «trabajo fácil con MacBook».",
   lead: [

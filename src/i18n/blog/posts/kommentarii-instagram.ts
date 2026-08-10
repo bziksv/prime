@@ -160,7 +160,7 @@ export const kommentariiInstagramEs: BlogPost = {
   title: "Comentarios en Instagram para negocio: responder, moderar, sonar humano",
   date: "2021-05-28",
   category: "SMM",
-  cover: "/images/blog/kommentarii-instagram/cover.webp",
+  cover: "/images/blog/kommentarii-instagram/cover-es.webp",
   excerpt:
     "Por qué una cuenta comercial de Instagram necesita comentarios, cómo tratar preguntas y negatividad, qué fijar en moderación y por qué los esquemas de spam con hashtags en comentarios hacen daño.",
   lead: [

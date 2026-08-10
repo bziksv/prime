@@ -152,7 +152,7 @@ export const kogortnyyAnalizEs: BlogPost = {
   title: "Análisis de cohortes en marketing: qué es y por qué importa",
   date: "2019-12-23",
   category: "Analytics",
-  cover: "/images/blog/kogortnyy-analiz/cover.webp",
+  cover: "/images/blog/kogortnyy-analiz/cover-es.webp",
   excerpt:
     "Qué es una cohorte y en qué se diferencia de un segmento: retención, LTV, ROI por canal y lectura de A/B en el tiempo — en Analytics/GA4 y hojas, sin prometer «magia automática».",
   lead: [

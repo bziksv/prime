@@ -168,7 +168,7 @@ export const triggernyeRassylkiEs: BlogPost = {
   title: "Emails trigger: qué son y cómo usarlos",
   date: "2019-02-05",
   category: "Email marketing",
-  cover: "/images/blog/triggernye-rassylki/cover.webp",
+  cover: "/images/blog/triggernye-rassylki/cover-es.webp",
   excerpt:
     "En qué se diferencian los mensajes trigger de un newsletter habitual: welcome, carrito abandonado, pedido, review, back-in-stock y win-back de lista — con consentimiento y sin spam.",
   lead: [

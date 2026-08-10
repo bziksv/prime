@@ -131,7 +131,7 @@ export const podozritelnyyTrafikGoogleEs: BlogPost = {
   title: "Tráfico sospechoso en Google: causas y qué hacer",
   date: "2022-01-28",
   category: "SEO",
-  cover: "/images/blog/podozritelnyy-trafik-google/cover.webp",
+  cover: "/images/blog/podozritelnyy-trafik-google/cover-es.webp",
   excerpt:
     "Captcha y el aviso de Google de tráfico inusual desde tu red: causas típicas y un chequeo paso a paso en calma — sin pánico.",
   lead: [

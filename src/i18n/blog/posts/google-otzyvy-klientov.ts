@@ -137,7 +137,7 @@ export const googleOtzyvyKlientovEs: BlogPost = {
   title: "Google Customer Reviews: cómo funciona el programa para tiendas",
   date: "2019-08-09",
   category: "E-commerce",
-  cover: "/images/blog/google-otzyvy-klientov/cover.webp",
+  cover: "/images/blog/google-otzyvy-klientov/cover-es.webp",
   excerpt:
     "Qué es Google Customer Reviews: una encuesta post-compra, rating del vendedor en ads y reviews de producto. Cómo conectar vía Merchant Center y qué evitar — sin umbrales caducados ni garantías de CTR.",
   lead: [

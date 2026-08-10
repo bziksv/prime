@@ -137,7 +137,7 @@ export const rekomendatsiiTiktokEs: BlogPost = {
   title: "Recomendaciones de TikTok: cómo funciona For You y qué importa de verdad",
   date: "2020-05-25",
   category: "SMM",
-  cover: "/images/blog/rekomendatsii-tiktok/cover.webp",
+  cover: "/images/blog/rekomendatsii-tiktok/cover-es.webp",
   excerpt:
     "Cómo funciona el feed For You de TikTok: retention, watch-through, shares y comentarios — sin hashtags mágicos de 2020 ni promesas de «trend garantizado».",
   lead: [

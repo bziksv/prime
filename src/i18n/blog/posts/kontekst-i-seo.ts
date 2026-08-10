@@ -213,7 +213,7 @@ export const kontekstISeoEs: BlogPost = {
   title: "¿El paid search afecta al SEO?",
   date: "2019-04-24",
   category: "SEO",
-  cover: "/images/blog/kontekst-i-seo/cover.webp",
+  cover: "/images/blog/kontekst-i-seo/cover-es.webp",
   excerpt:
     "No hay un «pago ads → primera página» directo. Mitos, efectos indirectos (marca, datos, tests de hipótesis más rápidos) y cómo unir paid search con orgánico sin fingir engagement.",
   lead: [

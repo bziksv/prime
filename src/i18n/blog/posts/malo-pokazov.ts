@@ -6,7 +6,7 @@ export const maloPokazovEs: BlogPost = {
   title: "Estado «Pocas impresiones» en Yandex Direct",
   date: "2017-05-17",
   category: "Paid search",
-  cover: "/images/blog/malo-pokazov/cover.webp",
+  cover: "/images/blog/malo-pokazov/cover-es.webp",
   excerpt:
     "Por qué Direct marca grupos de baja frecuencia como «Pocas impresiones», qué afecta al estado y cómo recuperar impresiones: fusionar keywords LF, plantillas, negativos — sin el dogma obsoleto de «exactamente 10 en 30 días».",
   lead: [

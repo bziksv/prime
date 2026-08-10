@@ -144,7 +144,7 @@ export const moderatsiyaFacebookAdsEs: BlogPost = {
   title: "Por qué Facebook rechaza un anuncio: motivos habituales",
   date: "2020-01-09",
   category: "Paid search",
-  cover: "/images/blog/moderatsiya-facebook-ads/cover.webp",
+  cover: "/images/blog/moderatsiya-facebook-ads/cover-es.webp",
   excerpt:
     "Motivos habituales de rechazo o silencio en Facebook / Meta Ads: contenido prohibido, before/after, UI clickbait, atributos personales, texto en la imagen, pujas y overlap de audiencias.",
   lead: [

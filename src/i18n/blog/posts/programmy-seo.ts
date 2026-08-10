@@ -264,7 +264,7 @@ export const programmySeoEs: BlogPost = {
   title: "Software y servicios SEO: un stack por tarea",
   date: "2020-03-05",
   category: "SEO",
-  cover: "/images/blog/programmy-seo/cover.webp",
+  cover: "/images/blog/programmy-seo/cover-es.webp",
   excerpt:
     "Qué tools necesitas para SEO: keywords, analítica, checks de copy, auditoría técnica, enlaces y extensions — un stack por tarea sin culto a un all-in-one ni promesas de ranking instantáneo.",
   lead: [

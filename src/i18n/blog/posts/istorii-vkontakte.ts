@@ -181,7 +181,7 @@ export const istoriiVkontakteEs: BlogPost = {
   title: "Stories de VKontakte: cómo publicar y con qué llenarlas",
   date: "2022-02-18",
   category: "SMM",
-  cover: "/images/blog/istorii-vkontakte/cover.webp",
+  cover: "/images/blog/istorii-vkontakte/cover-es.webp",
   excerpt:
     "Cómo trabajar con Stories de VK: por qué importan, encuadre del shot, publicar desde el teléfono y desde una comunidad, ideas de negocio y límites de la plataforma.",
   lead: [

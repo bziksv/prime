@@ -182,7 +182,7 @@ export const assotsiirovannyeKonversiiEs: BlogPost = {
   title: "Conversiones asistidas: por qué importa el camino a la compra",
   date: "2019-12-25",
   category: "Digital marketing",
-  cover: "/images/blog/assotsiirovannye-konversii/cover.webp",
+  cover: "/images/blog/assotsiirovannye-konversii/cover-es.webp",
   excerpt:
     "Qué son las conversiones asistidas, en qué se diferencian del first y last click, cómo no matar canales helpers y cómo leer atribución en analytics sin capturas de menú obsoletas.",
   lead: [

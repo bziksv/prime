@@ -164,7 +164,7 @@ export const prognozTrafikaEs: BlogPost = {
   title: "Pronóstico de tráfico web: cómo estimar el potencial SEO",
   date: "2019-10-17",
   category: "Digital marketing",
-  cover: "/images/blog/prognoz-trafika/cover.webp",
+  cover: "/images/blog/prognoz-trafika/cover-es.webp",
   excerpt:
     "Cómo estimar el tráfico orgánico potencial: conjunto de keywords, frecuencia, posiciones realistas y CTR — sin la ilusión de un pronóstico «exacto» y sin confundir la preparación con aparecer en la primera página.",
   lead: [

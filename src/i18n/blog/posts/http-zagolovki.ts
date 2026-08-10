@@ -153,7 +153,7 @@ export const httpZagolovkiEs: BlogPost = {
   title: "Headers HTTP de seguridad: qué configurar en un sitio",
   date: "2020-01-13",
   category: "SEO",
-  cover: "/images/blog/http-zagolovki/cover.webp",
+  cover: "/images/blog/http-zagolovki/cover-es.webp",
   excerpt:
     "Qué headers HTTP refuerzan la seguridad del sitio: HSTS, CSP, X-Frame-Options, Referrer-Policy, Permissions-Policy — cómo comprobarlos y dónde fijarlos sin romper el layout.",
   lead: [

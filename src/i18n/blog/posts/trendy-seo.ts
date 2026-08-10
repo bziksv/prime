@@ -229,7 +229,7 @@ export const trendySeoEs: BlogPost = {
   title: "Tendencias SEO: zero-click, sentido y qué hacer",
   date: "2020-01-21",
   category: "SEO",
-  cover: "/images/blog/trendy-seo/cover.webp",
+  cover: "/images/blog/trendy-seo/cover-es.webp",
   excerpt:
     "Cómo está cambiando el SEO: respuestas en los resultados sin clic, servicios propios de los buscadores, análisis de texto con sentido — y movimientos prácticos en snippets, contenido, enlaces y analítica.",
   lead: [

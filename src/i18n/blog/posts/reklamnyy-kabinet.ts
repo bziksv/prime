@@ -177,7 +177,7 @@ export const reklamnyyKabinetEs: BlogPost = {
   title: "Cuenta de ads: qué es y por dónde empezar",
   date: "2021-04-16",
   category: "Paid search",
-  cover: "/images/blog/reklamnyy-kabinet/cover.webp",
+  cover: "/images/blog/reklamnyy-kabinet/cover-es.webp",
   excerpt:
     "Qué es una cuenta de ads, qué entidades casi siempre existen (campaña, presupuesto, audiencia, stats) y cómo plantear un lanzamiento en Yandex Direct y cuentas de ads social.",
   lead: [

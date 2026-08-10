@@ -289,7 +289,7 @@ export const vnutrennieFaktoryEs: BlogPost = {
   title: "Factores internos de ranking: qué arreglar en el sitio",
   date: "2019-07-17",
   category: "SEO",
-  cover: "/images/blog/vnutrennie-faktory/cover.webp",
+  cover: "/images/blog/vnutrennie-faktory/cover-es.webp",
   excerpt:
     "SEO on-page sin mística: contenido, estructura, enlaces internos, HTTPS, velocidad y móvil — qué controlas de tu lado y en qué orden.",
   lead: [

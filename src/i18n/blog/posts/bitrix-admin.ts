@@ -167,7 +167,7 @@ export const bitrixAdminEs: BlogPost = {
   title: "Cómo abrir el admin de 1C-Bitrix y recuperar el acceso",
   date: "2017-11-09",
   category: "Digital marketing",
-  cover: "/images/blog/bitrix-admin/cover.webp",
+  cover: "/images/blog/bitrix-admin/cover-es.webp",
   excerpt:
     "Entrar en `/bitrix/admin`, restablecer la contraseña por email y fallos de caché/cookies — sin mantener una contraseña débil y sin confundirlo con la barra del sitio público.",
   lead: [

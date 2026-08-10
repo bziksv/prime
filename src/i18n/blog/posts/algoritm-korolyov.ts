@@ -173,7 +173,7 @@ export const algoritmKorolyovEs: BlogPost = {
   title: "Algoritmo Korolyov de Yandex: qué fue y qué sigue importando",
   date: "2017-08-30",
   category: "SEO",
-  cover: "/images/blog/algoritm-korolyov/cover.webp",
+  cover: "/images/blog/algoritm-korolyov/cover-es.webp",
   excerpt:
     "Qué anunció el algoritmo Korolyov de 2017 tras Palekh, por qué Yandex empujó redes neuronales en la búsqueda, y el takeaway SEO que dura: el sentido y la utilidad de la página ganan al stuffing de keywords.",
   lead: [

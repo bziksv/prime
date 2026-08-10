@@ -114,7 +114,7 @@ export const vidyReklamyEs: BlogPost = {
   title: "Tipos de publicidad online: qué trae clientes de verdad",
   date: "2016-08-23",
   category: "Digital marketing",
-  cover: "/images/blog/vidy-reklamy/cover.webp",
+  cover: "/images/blog/vidy-reklamy/cover-es.webp",
   excerpt:
     "Overview de canales: SEO, paid search, targeting social, teasers y banners — pros, contras y cuándo elegir qué. Sin garantías de primera página ni consejos para ofertas dudosas.",
   lead: [

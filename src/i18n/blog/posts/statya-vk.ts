@@ -130,7 +130,7 @@ export const statyaVkEs: BlogPost = {
   title: "Artículo en VK: cómo prepararlo y publicarlo",
   date: "2021-07-20",
   category: "SMM",
-  cover: "/images/blog/statya-vk/cover.webp",
+  cover: "/images/blog/statya-vk/cover-es.webp",
   excerpt:
     "Cómo usar el editor de artículos de VK: título, formato, cover, borradores, stats y publicación en el muro o en una comunidad.",
   lead: [

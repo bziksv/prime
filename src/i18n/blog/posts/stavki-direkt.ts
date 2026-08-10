@@ -161,7 +161,7 @@ export const stavkiDirektEs: BlogPost = {
   title: "Pujas en Yandex Direct: configuración y gestión",
   date: "2021-03-05",
   category: "Paid search",
-  cover: "/images/blog/stavki-direkt/cover.webp",
+  cover: "/images/blog/stavki-direkt/cover-es.webp",
   excerpt:
     "Cómo funcionan las pujas en Yandex Direct: control manual y automático, impresiones, precio del clic y qué mirar más allá de «puja más alto».",
   lead: [

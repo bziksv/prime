@@ -157,7 +157,7 @@ export const bitrixSvoystvaInfoblokovEs: BlogPost = {
   title: "Mostrar propiedades de infoblock en 1C-Bitrix",
   date: "2017-12-12",
   category: "Websites",
-  cover: "/images/blog/bitrix-svoystva-infoblokov/cover.webp",
+  cover: "/images/blog/bitrix-svoystva-infoblokov/cover-es.webp",
   excerpt:
     "Cómo mostrar las propiedades de un elemento de infoblock en una plantilla de componente Bitrix: DISPLAY_PROPERTIES, tipos string/list/file/link — sin pegar a ciegas snippets obsoletos.",
   lead: [

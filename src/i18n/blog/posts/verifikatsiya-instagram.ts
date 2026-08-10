@@ -145,7 +145,7 @@ export const verifikatsiyaInstagramEs: BlogPost = {
   title: "Verificación de Instagram: check azul, Meta Verified y a quién le hace falta",
   date: "2019-12-10",
   category: "SMM",
-  cover: "/images/blog/verifikatsiya-instagram/cover.webp",
+  cover: "/images/blog/verifikatsiya-instagram/cover-es.webp",
   excerpt:
     "Qué te da la verificación de Instagram, en qué se diferencia el badge clásico de Meta Verified, cómo se ven los requisitos y por qué comprar un «check llave en mano» es un scam.",
   lead: [

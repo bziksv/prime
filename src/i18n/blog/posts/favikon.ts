@@ -112,7 +112,7 @@ export const favikonEs: BlogPost = {
   title: "Qué es un favicon y para qué sirve",
   date: "2018-05-10",
   category: "Websites",
-  cover: "/images/blog/favikon/cover.webp",
+  cover: "/images/blog/favikon/cover-es.webp",
   excerpt:
     "El favicon es el icono del sitio en la pestaña, favoritos y a menudo en el SERP. Por qué hace falta, qué tamaños y formatos publicar, cómo conectarlo y cómo no estropear la marca con una imagen de galería ajena.",
   lead: [

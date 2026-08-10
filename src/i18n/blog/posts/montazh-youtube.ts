@@ -118,7 +118,7 @@ export const montazhYoutubeEs: BlogPost = {
   title: "Edición de vídeo en YouTube: por dónde empezar y cómo elegir una tool",
   date: "2020-08-18",
   category: "SMM",
-  cover: "/images/blog/montazh-youtube/cover.webp",
+  cover: "/images/blog/montazh-youtube/cover-es.webp",
   excerpt:
     "Cómo editar vídeos para YouTube: el trabajo del montaje, un pipeline básico, clases de editores (principiante / pro / móvil / online) y qué importa más que el software — ritmo, audio y encaje con el thumbnail.",
   lead: [

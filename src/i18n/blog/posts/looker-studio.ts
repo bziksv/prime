@@ -206,7 +206,7 @@ export const lookerStudioEs: BlogPost = {
   title: "Looker Studio (Google Data Studio): informes y analytics end-to-end",
   date: "2020-05-13",
   category: "Analytics",
-  cover: "/images/blog/looker-studio/cover.webp",
+  cover: "/images/blog/looker-studio/cover-es.webp",
   excerpt:
     "Qué es Looker Studio (antes Google Data Studio): cómo armar dashboards, conectar fuentes y en qué se diferencia la visualización de una verdadera analytics end-to-end con CRM.",
   lead: [

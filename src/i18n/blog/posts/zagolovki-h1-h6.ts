@@ -126,7 +126,7 @@ export const zagolovkiH1H6Es: BlogPost = {
   title: "Encabezados H1–H6: estructura y sentido para SEO",
   date: "2018-08-03",
   category: "SEO",
-  cover: "/images/blog/zagolovki-h1-h6/cover.webp",
+  cover: "/images/blog/zagolovki-h1-h6/cover-es.webp",
   excerpt:
     "Cómo usar H1–H6 en una página: un encabezado principal, jerarquía clara, keywords sin stuffing y estructura legible — no copy publicitario 4U ni cabeceras HTTP.",
   lead: [

@@ -174,7 +174,7 @@ export const vebServerEs: BlogPost = {
   title: "Servidor web: qué es, cómo funciona y Apache vs Nginx vs IIS",
   date: "2021-12-30",
   category: "Hosting",
-  cover: "/images/blog/veb-server/cover.webp",
+  cover: "/images/blog/veb-server/cover-es.webp",
   excerpt:
     "Qué es un servidor web en palabras claras: petición del navegador, respuesta de página, rol del hosting, HTTPS, Apache/Nginx/IIS y stacks locales para desarrollo.",
   lead: [

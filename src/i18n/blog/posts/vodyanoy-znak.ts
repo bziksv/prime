@@ -119,7 +119,7 @@ export const vodyanoyZnakEs: BlogPost = {
   title: "Marcas de agua en fotos: por qué ayudan y cuándo hacen daño",
   date: "2020-09-16",
   category: "Digital marketing",
-  cover: "/images/blog/vodyanoy-znak/cover.webp",
+  cover: "/images/blog/vodyanoy-znak/cover-es.webp",
   excerpt:
     "Qué es una watermark en fotos digitales: protección y branding, contras para percepción y shares, cómo aplicarla con cuidado y alternativas (previews, contratos, metadata).",
   lead: [

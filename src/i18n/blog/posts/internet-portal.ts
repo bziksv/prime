@@ -220,7 +220,7 @@ export const internetPortalEs: BlogPost = {
   title: "Portal de internet: estructura, tipos y cómo se diferencia de un sitio",
   date: "2021-02-02",
   category: "Digital marketing",
-  cover: "/images/blog/internet-portal/cover.webp",
+  cover: "/images/blog/internet-portal/cover-es.webp",
   excerpt:
     "Qué es un portal de internet, cómo se diferencia de un sitio normal, cómo se parten estructura y tipos — y cuándo un negocio necesita un portal frente a un sitio de servicios.",
   lead: [

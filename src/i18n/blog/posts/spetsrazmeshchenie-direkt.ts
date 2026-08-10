@@ -250,7 +250,7 @@ export const spetsrazmeshchenieDirektEs: BlogPost = {
     "Emplazamiento especial en Yandex Direct: qué era y qué mirar ahora",
   date: "2021-02-19",
   category: "Paid search",
-  cover: "/images/blog/spetsrazmeshchenie-direkt/cover.webp",
+  cover: "/images/blog/spetsrazmeshchenie-direkt/cover-es.webp",
   excerpt:
     "Qué significaba el «emplazamiento especial» en el Direct antiguo, por qué el término está desfasado y cómo pensar hoy en bloques de ads, pujas y calidad del anuncio.",
   lead: [

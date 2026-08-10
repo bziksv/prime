@@ -172,7 +172,7 @@ export const mobileFirstIndeksEs: BlogPost = {
   title: "Mobile-First Index de Google: qué es y cómo revisar tu sitio",
   date: "2018-09-18",
   category: "SEO",
-  cover: "/images/blog/mobile-first-indeks/cover.webp",
+  cover: "/images/blog/mobile-first-indeks/cover-es.webp",
   excerpt:
     "Qué significa el Mobile-First Index de Google: por qué el bot se apoya en el documento móvil, por qué un m-site recortado duele y cómo comprobar paridad de contenido — sin el pánico de la «transición» de 2018.",
   lead: [

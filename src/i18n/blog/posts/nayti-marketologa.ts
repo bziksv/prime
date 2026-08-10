@@ -118,7 +118,7 @@ export const naytiMarketologaEs: BlogPost = {
   title: "Cómo encontrar un marketer: agencia, in-house y qué revisar",
   date: "2019-07-29",
   category: "Digital marketing",
-  cover: "/images/blog/nayti-marketologa/cover.webp",
+  cover: "/images/blog/nayti-marketologa/cover-es.webp",
   excerpt:
     "Dónde buscar un marketer digital: agencia o contratar in-house, pros y contras, qué skills revisar y cómo acordar KPIs — sin el mito de las «10.000 horas».",
   lead: [

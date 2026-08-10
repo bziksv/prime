@@ -135,7 +135,7 @@ export const ymlFaylEs: BlogPost = {
   title: "Archivo YML para Yandex Market: para qué sirve y cómo prepararlo",
   date: "2020-10-20",
   category: "Digital marketing",
-  cover: "/images/blog/yml-fayl/cover.webp",
+  cover: "/images/blog/yml-fayl/cover-es.webp",
   excerpt:
     "Qué es un feed YML de tienda online, por qué gana a CSV/XLS en un catálogo grande, qué campos importan y cómo cargar un price list en Market — sin capturas obsoletas del cabinet.",
   lead: [

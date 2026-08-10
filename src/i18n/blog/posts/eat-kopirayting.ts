@@ -136,7 +136,7 @@ export const eatKopiraytingEs: BlogPost = {
   title: "Copywriting E-E-A-T: escribir con expertise y confianza",
   date: "2020-01-29",
   category: "Content marketing",
-  cover: "/images/blog/eat-kopirayting/cover.webp",
+  cover: "/images/blog/eat-kopirayting/cover-es.webp",
   excerpt:
     "E-E-A-T en el copy: experiencia, expertise, autoridad y fiabilidad — cómo escribir para YMYL y temas cotidianos sin keyword stuffing ni el mito de que un rater asigna a mano la primera página.",
   lead: [

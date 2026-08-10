@@ -107,7 +107,7 @@ export const vovlecheniePolzovateleyEs: BlogPost = {
   title: "Engagement efectivo de usuarios en 5 pasos",
   date: "2018-05-07",
   category: "Digital marketing",
-  cover: "/images/blog/vovlechenie-polzovateley/cover.webp",
+  cover: "/images/blog/vovlechenie-polzovateley/cover-es.webp",
   excerpt:
     "Cinco pasos de engagement: fuente de tráfico y motivación, reacción a la pasividad, canales sociales, feedback y adopción del producto — sin prometer «retener un 80% más en una semana».",
   lead: [

@@ -6,7 +6,7 @@ export const uderzhaniePodpischikovEs: BlogPost = {
   title: "Cómo evitar que los suscriptores de email se vayan",
   date: "2018-05-25",
   category: "Email marketing",
-  cover: "/images/blog/uderzhanie-podpischikov/cover.webp",
+  cover: "/images/blog/uderzhanie-podpischikov/cover-es.webp",
   excerpt:
     "Por qué la gente deja una lista y cómo bajar las bajas: maquetación móvil, timing de envío, frecuencia, página de baja con encuesta y alternativas, ofertas de win-back — sin aferrarte a una base muerta.",
   lead: [

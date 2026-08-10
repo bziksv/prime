@@ -124,7 +124,7 @@ export const emailMarketing2020Es: BlogPost = {
   title: "Email marketing: qué funciona en la práctica",
   date: "2020-03-04",
   category: "Email marketing",
-  cover: "/images/blog/email-marketing-2020/cover.webp",
+  cover: "/images/blog/email-marketing-2020/cover-es.webp",
   excerpt:
     "Qué tira de verdad de las newsletters: layout móvil, triggers, segmentos y un vínculo con CRM — sin culto a la interactividad experimental ni «tendencias del año» obsoletas.",
   lead: [

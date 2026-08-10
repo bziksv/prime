@@ -150,7 +150,7 @@ export const topInstagramEs: BlogPost = {
   title: "Explore y recomendaciones de Instagram: qué hacen por el alcance",
   date: "2021-08-10",
   category: "SMM",
-  cover: "/images/blog/top-instagram/cover.webp",
+  cover: "/images/blog/top-instagram/cover-es.webp",
   excerpt:
     "Qué significa aparecer en resultados de hashtags, Explore y recomendaciones de Instagram, qué señales de engagement importan y por qué comprar likes perjudica más de lo que ayuda.",
   lead: [

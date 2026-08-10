@@ -134,7 +134,7 @@ export const reklamaOdnoklassnikiEs: BlogPost = {
   title: "Ads en Odnoklassniki: audiencia, formatos y respuesta",
   date: "2020-12-16",
   category: "SMM",
-  cover: "/images/blog/reklama-odnoklassniki/cover.webp",
+  cover: "/images/blog/reklama-odnoklassniki/cover-es.webp",
   excerpt:
     "A quién encajan los ads de OK, qué tono de anuncio funciona, cómo pensar formatos y audiencia, y cómo medir la respuesta — sin píxeles obsoletos ni capturas del ad account.",
   lead: [

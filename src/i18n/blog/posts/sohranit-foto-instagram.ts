@@ -209,7 +209,7 @@ export const sohranitFotoInstagramEs: BlogPost = {
   title: "Cómo guardar una foto de Instagram en el teléfono o el ordenador",
   date: "2020-11-17",
   category: "SMM",
-  cover: "/images/blog/sohranit-foto-instagram/cover.webp",
+  cover: "/images/blog/sohranit-foto-instagram/cover-es.webp",
   excerpt:
     "Cómo descargar fotos propias o permitidas de Instagram: guardar en la app, navegador, rarezas de iPhone y Android, y Direct — más básicos de copyright y por qué los «downloaders» dudosos son arriesgados.",
   lead: [

@@ -148,7 +148,7 @@ export const avatarYoutubeEs: BlogPost = {
   title: "Avatar del canal de YouTube: requisitos, ideas y cómo configurarlo",
   date: "2022-01-12",
   category: "SMM",
-  cover: "/images/blog/avatar-youtube/cover.webp",
+  cover: "/images/blog/avatar-youtube/cover-es.webp",
   excerpt:
     "Por qué un canal de YouTube necesita un avatar, requisitos de imagen, qué mostrar y cómo cambiar el icono desde el ordenador o el teléfono.",
   lead: [

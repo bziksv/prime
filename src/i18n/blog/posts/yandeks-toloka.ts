@@ -162,7 +162,7 @@ export const yandeksTolokaEs: BlogPost = {
   title: "Toloka (antes Yandex.Toloka): tareas, roles y ganancias realistas",
   date: "2021-09-28",
   category: "Digital marketing",
-  cover: "/images/blog/yandeks-toloka/cover.webp",
+  cover: "/images/blog/yandeks-toloka/cover-es.webp",
   excerpt:
     "Qué es Toloka: etiquetado crowdsourced de datos para IA y búsqueda. Roles de requester y worker, tipos de tareas, rating y por qué las cifras de ganancias al día de guías antiguas están obsoletas.",
   lead: [

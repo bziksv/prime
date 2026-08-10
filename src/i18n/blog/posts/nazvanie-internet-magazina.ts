@@ -232,7 +232,7 @@ export const nazvanieInternetMagazinaEs: BlogPost = {
   title: "Cómo nombrar una tienda online",
   date: "2020-03-27",
   category: "Marketing digital",
-  cover: "/images/blog/nazvanie-internet-magazina/cover.webp",
+  cover: "/images/blog/nazvanie-internet-magazina/cover-es.webp",
   excerpt:
     "Cómo elegir un nombre para una tienda online: audiencia y surtido, dominio, sonido, unicidad y chequeos de conflicto — sin prometer que «el nombre = rankings».",
   lead: [

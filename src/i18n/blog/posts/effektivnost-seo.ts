@@ -235,7 +235,7 @@ export const effektivnostSeoEs: BlogPost = {
   title: "Cómo medir la eficacia del SEO: KPIs e informes",
   date: "2019-07-03",
   category: "SEO",
-  cover: "/images/blog/effektivnost-seo/cover.webp",
+  cover: "/images/blog/effektivnost-seo/cover-es.webp",
   excerpt:
     "Orgánico, brand/non-brand, ranks y economía: qué KPIs mirar, cómo comparar periodos y cómo no confundir la prep del sitio con rankings inmediatos en primera página.",
   lead: [

@@ -143,7 +143,7 @@ export const prosmotrZakrytogoAkkauntaEs: BlogPost = {
   title: "Cómo ver una cuenta privada de Instagram: solo opciones legales",
   date: "2020-07-13",
   category: "SMM",
-  cover: "/images/blog/prosmotr-zakrytogo-akkaunta/cover.webp",
+  cover: "/images/blog/prosmotr-zakrytogo-akkaunta/cover-es.webp",
   excerpt:
     "Qué ves de verdad en un perfil privado de Instagram, por qué los «hacks» y apps de terceros son una trampa, y por qué el único camino built-in al feed es un follow request.",
   lead: [

@@ -203,7 +203,7 @@ export const lidEs: BlogPost = {
   title: "Qué es un lead: contacto, calidad y el embudo",
   date: "2021-08-30",
   category: "Digital marketing",
-  cover: "/images/blog/lid/cover.webp",
+  cover: "/images/blog/lid/cover-es.webp",
   excerpt:
     "Un lead en marketing es un cliente potencial con contacto e interés: en qué se diferencia de audiencia y tráfico, frío/tibio/caliente, canales de captación, CPL y por qué comprar listas ajenas es un error.",
   lead: [

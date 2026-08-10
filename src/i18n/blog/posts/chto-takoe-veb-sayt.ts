@@ -178,7 +178,7 @@ export const chtoTakoeVebSaytEs: BlogPost = {
   title: "Qué es un sitio web: trabajos, tipos y cómo montarlo",
   date: "2021-07-02",
   category: "Websites",
-  cover: "/images/blog/chto-takoe-veb-sayt/cover.webp",
+  cover: "/images/blog/chto-takoe-veb-sayt/cover-es.webp",
   excerpt:
     "Qué es un sitio web en lenguaje claro: por qué lo necesita el negocio, tipos habituales (brochure, corporativo, tienda), cómo elegir vía de construcción y cómo funcionan las páginas a alto nivel.",
   lead: [

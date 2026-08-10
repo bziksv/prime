@@ -123,7 +123,7 @@ export const adultTrafikEs: BlogPost = {
   title: "Tráfico adult: qué significa y dónde están los riesgos",
   date: "2020-09-24",
   category: "Marketing digital",
-  cover: "/images/blog/adult-trafik/cover.webp",
+  cover: "/images/blog/adult-trafik/cover-es.webp",
   excerpt:
     "Tráfico adult son visitas en el nicho 18+ / erótica y pornografía. Qué significa el término en marketing, en qué se diferencia el nicho del SEO ordinario y por qué saltamos esquemas grises y apaños alrededor de la ley.",
   lead: [

@@ -191,7 +191,7 @@ export const verstkaSaytovEs: BlogPost = {
   title: "Maquetación front-end de sitios: qué es, etapas y barras de calidad",
   date: "2022-01-17",
   category: "SEO",
-  cover: "/images/blog/verstka-saytov/cover.webp",
+  cover: "/images/blog/verstka-saytov/cover-es.webp",
   excerpt:
     "Qué hace un ingeniero de maquetación front-end: del mockup a la página viva. Etapas, HTML/CSS, diseño responsive, QA y el vínculo con el SEO.",
   lead: [

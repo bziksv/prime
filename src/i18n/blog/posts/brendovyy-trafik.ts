@@ -234,7 +234,7 @@ export const brendovyyTrafikEs: BlogPost = {
   title: "Tráfico de marca: qué es y cómo hacerlo crecer",
   date: "2019-09-19",
   category: "SEO",
-  cover: "/images/blog/brendovyy-trafik/cover.webp",
+  cover: "/images/blog/brendovyy-trafik/cover-es.webp",
   excerpt:
     "Qué cuenta como tráfico de marca, por qué importa para el negocio y el SEO, cómo crecer el awareness del nombre y cómo medir la cuota en Metrika y Search Console.",
   lead: [

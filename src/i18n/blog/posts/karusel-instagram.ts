@@ -112,7 +112,7 @@ export const karuselInstagramEs: BlogPost = {
   title: "Carrusel de Instagram: varias fotos en un post",
   date: "2021-06-18",
   category: "SMM",
-  cover: "/images/blog/karusel-instagram/cover.webp",
+  cover: "/images/blog/karusel-instagram/cover-es.webp",
   excerpt:
     "Cómo montar un post de Instagram con varias fotos o vídeos, por qué un carrusel gana a un collage, el orden de slides y un estilo unificado — sin rutas de clics obsoletas ni herramientas que descarguen contenido ajeno.",
   lead: [

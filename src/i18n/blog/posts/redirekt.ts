@@ -154,7 +154,7 @@ export const redirektEs: BlogPost = {
   title: "Redirects del sitio: 301, 302 y cuándo usar cada uno",
   date: "2021-08-24",
   category: "SEO",
-  cover: "/images/blog/redirekt/cover.webp",
+  cover: "/images/blog/redirekt/cover-es.webp",
   excerpt:
     "Qué son los redirects, en qué se diferencia 301 de 302/307, cuándo unificar www y HTTPS, cómo evitar cadenas y cuándo canonical gana a un redirect.",
   lead: [

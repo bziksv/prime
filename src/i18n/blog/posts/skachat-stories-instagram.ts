@@ -160,7 +160,7 @@ export const skachatStoriesInstagramEs: BlogPost = {
   title: "Cómo guardar Stories de Instagram: las tuyas y las de otros",
   date: "2021-03-01",
   category: "SMM",
-  cover: "/images/blog/skachat-stories-instagram/cover.webp",
+  cover: "/images/blog/skachat-stories-instagram/cover-es.webp",
   excerpt:
     "Cómo guardar tus Stories de Instagram en el archivo y Highlights, qué pasa con las de otros, capturas de pantalla y riesgos de «downloaders» de terceros — sin un catálogo de apps ni workarounds de reglas.",
   lead: [

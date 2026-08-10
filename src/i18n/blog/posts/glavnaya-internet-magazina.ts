@@ -163,7 +163,7 @@ export const glavnayaInternetMagazinaEs: BlogPost = {
   title: "Cómo diseñar la homepage de una tienda online",
   date: "2019-10-23",
   category: "E-commerce",
-  cover: "/images/blog/glavnaya-internet-magazina/cover.webp",
+  cover: "/images/blog/glavnaya-internet-magazina/cover-es.webp",
   excerpt:
     "Estructura de la homepage de una tienda online: header, menú, escaparate y slider, copy corto, trust, footer — sin sobrecarga de features y sin la historia de la empresa en toda la primera pantalla.",
   lead: [

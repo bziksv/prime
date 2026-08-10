@@ -229,7 +229,7 @@ export const bezopasnostSaytaEs: BlogPost = {
   title: "Cómo se hackean los sitios y cómo defenderse: SQL injection y otras amenazas",
   date: "2020-11-26",
   category: "SEO",
-  cover: "/images/blog/bezopasnost-sayta/cover.webp",
+  cover: "/images/blog/bezopasnost-sayta/cover-es.webp",
   excerpt:
     "Amenazas típicas de sitios y tiendas: SQL injection, XSS, brute force, plugins vulnerables. Cómo pensar la defensa y qué hacer tras un compromise — sin how-tos de ataque.",
   lead: [

@@ -165,7 +165,7 @@ export const yandeksAuditoriiEs: BlogPost = {
   title: "Targeting de audiencias en Yandex: Crypta, segmentos y Direct",
   date: "2017-01-31",
   category: "Digital marketing",
-  cover: "/images/blog/yandeks-auditorii/cover.webp",
+  cover: "/images/blog/yandeks-auditorii/cover-es.webp",
   excerpt:
     "Cómo Yandex segmenta usuarios para ads: señales Crypta, demografía, intereses, remarketing y look-alike — sin claims obsoletos de «+35% de conversión» ni guías para subir listas de contactos ajenas.",
   lead: [

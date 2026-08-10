@@ -137,7 +137,7 @@ export const sloganEs: BlogPost = {
   title: "Cómo crear un slogan para una empresa y para ads",
   date: "2020-01-17",
   category: "Content marketing",
-  cover: "/images/blog/slogan/cover.webp",
+  cover: "/images/blog/slogan/cover-es.webp",
   excerpt:
     "Slogans de marca y de ads: por qué importan, en qué se diferencian de un USP, qué evitar y cómo armar una línea corta sin generadores «en dos clics» ni promesas vacías.",
   lead: [

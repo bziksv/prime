@@ -251,7 +251,7 @@ export const statistikaGoogleProdazhiEs: BlogPost = {
   title: "Stats de Google para ventas: Keyword Planner, Trends y Analytics",
   date: "2020-07-30",
   category: "Digital marketing",
-  cover: "/images/blog/statistika-google-prodazhi/cover.webp",
+  cover: "/images/blog/statistika-google-prodazhi/cover-es.webp",
   excerpt:
     "Cómo usar Keyword Planner, Google Trends y Analytics para medir demanda, estacionalidad y rendimiento de canal — para SEO, ads y previsión de ventas.",
   lead: [

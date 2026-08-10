@@ -164,7 +164,7 @@ export const chtoTakoeSsylkaEs: BlogPost = {
   title: "Qué es un enlace: tipos, anclas y el papel en SEO",
   date: "2021-09-21",
   category: "SEO",
-  cover: "/images/blog/chto-takoe-ssylka/cover.webp",
+  cover: "/images/blog/chto-takoe-ssylka/cover-es.webp",
   excerpt:
     "Hiperenlaces en HTML: internos y externos, absolutos y relativos, anclas y URLs peladas, nofollow. Cómo los enlaces ayudan a la navegación y al crawl del sitio.",
   lead: [

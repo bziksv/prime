@@ -131,7 +131,7 @@ export const otchetKlientuEs: BlogPost = {
   title: "Informe de campaña publicitaria al cliente: 9 reglas",
   date: "2021-07-12",
   category: "Digital marketing",
-  cover: "/images/blog/otchet-klientu/cover.webp",
+  cover: "/images/blog/otchet-klientu/cover-es.webp",
   excerpt:
     "Cómo entregar un informe de ads para que el cliente entienda el resultado: primero goals y ROI, KPIs compartidos, un resumen en dashboard, glosario y detalles en anexo — sin jerga de «elfos».",
   lead: [

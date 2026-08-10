@@ -171,7 +171,7 @@ export const privetstvieSaytaEs: BlogPost = {
   title: "Saludo del sitio: cómo recibir visitantes sin molestarlos",
   date: "2021-08-10",
   category: "Digital marketing",
-  cover: "/images/blog/privetstvie-sayta/cover.webp",
+  cover: "/images/blog/privetstvie-sayta/cover-es.webp",
   excerpt:
     "Cómo moldear el primer contacto en la home: copy del hero, popups con cuidado y chat. Qué construye confianza y conversión — y qué espanta en segundos.",
   lead: [

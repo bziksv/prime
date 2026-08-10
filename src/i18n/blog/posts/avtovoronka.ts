@@ -144,7 +144,7 @@ export const avtovoronkaEs: BlogPost = {
   title: "Embudo de ventas automatizado: qué es, tipos y cómo armarlo sin caos",
   date: "2019-08-01",
   category: "Digital marketing",
-  cover: "/images/blog/avtovoronka/cover.webp",
+  cover: "/images/blog/avtovoronka/cover-es.webp",
   excerpt:
     "Un embudo de ventas automatizado: etapas del primer touch a la compra, esquemas simple/medio/multinivel, elementos clave y por qué automatizar — sin el mito de que «un bot lo sustituye todo».",
   lead: [

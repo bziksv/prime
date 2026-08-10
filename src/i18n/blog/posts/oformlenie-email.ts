@@ -6,7 +6,7 @@ export const oformlenieEmailEs: BlogPost = {
   title: "Diseño de email: jerarquía y estilo",
   date: "2019-07-30",
   category: "Email marketing",
-  cover: "/images/blog/oformlenie-email/cover.webp",
+  cover: "/images/blog/oformlenie-email/cover-es.webp",
   excerpt:
     "Cómo diseñar un email: errores habituales, ancho y módulos, jerarquía visual, imágenes, estilo de marca y checklist previo al envío — junto a la maquetación HTML técnica.",
   lead: [

@@ -133,7 +133,7 @@ export const tsenaKlikaYandeksEs: BlogPost = {
   title: "Precio del clic en Yandex: cómo calcular una puja adecuada",
   date: "2021-02-19",
   category: "Paid search",
-  cover: "/images/blog/tsena-klika-yandeks/cover.webp",
+  cover: "/images/blog/tsena-klika-yandeks/cover-es.webp",
   excerpt:
     "Cómo derivar un CPC aceptable desde el CPA objetivo y la conversión del sitio, por qué importa Yandex Metrika y por qué un «precio medio de clic del mercado» sin economía no sirve.",
   lead: [

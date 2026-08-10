@@ -255,7 +255,7 @@ export const bityeSsylkiEs: BlogPost = {
   title: "Enlaces rotos en un sitio: cómo encontrarlos y arreglarlos",
   date: "2021-03-30",
   category: "SEO",
-  cover: "/images/blog/bitye-ssylki/cover.webp",
+  cover: "/images/blog/bitye-ssylki/cover-es.webp",
   excerpt:
     "Qué son los enlaces rotos (404 y otros errores), cómo duelen a la UX y al SEO, cómo encontrarlos con un crawler y qué hacer: editar, 301 o quitar.",
   lead: [

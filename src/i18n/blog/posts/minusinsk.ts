@@ -130,7 +130,7 @@ export const minusinskEs: BlogPost = {
   title: "Minusinsk de Yandex: el filtro por enlaces comprados",
   date: "2017-04-25",
   category: "SEO",
-  cover: "/images/blog/minusinsk/cover.webp",
+  cover: "/images/blog/minusinsk/cover-es.webp",
   excerpt:
     "Qué es el algoritmo Minusinsk: sanciones por spam de enlaces de baja calidad, cómo sospechar un problema, qué hacer con backlinks basura, y en qué se diferencia de filtros de texto como Baden-Baden.",
   lead: [

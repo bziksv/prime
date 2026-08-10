@@ -6,7 +6,7 @@ export const podryadchikKontekstEs: BlogPost = {
   title: "Cómo elegir un contratista de búsqueda de pago",
   date: "2018-12-06",
   category: "Paid search",
-  cover: "/images/blog/podryadchik-kontekst/cover.webp",
+  cover: "/images/blog/podryadchik-kontekst/cover-es.webp",
   excerpt:
     "Cómo ver que un contratista de Direct y Google Ads trabaja por resultados: tráfico y objetivos en Métrica/Analytics, economía (ROI, CPA, LTV), brief e informes — y cuándo cifras flojas aún no son motivo para cambiar de agencia.",
   lead: [

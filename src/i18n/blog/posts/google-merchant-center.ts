@@ -189,7 +189,7 @@ export const googleMerchantCenterEs: BlogPost = {
   title: "Google Merchant Center: cómo conectar una tienda a Shopping ads",
   date: "2018-09-26",
   category: "Paid search",
-  cover: "/images/blog/google-merchant-center/cover.webp",
+  cover: "/images/blog/google-merchant-center/cover-es.webp",
   excerpt:
     "Cómo configurar una tienda online en Google Merchant Center: feed, requisitos del sitio, enlace a Google Ads y campañas Shopping — sin clics obsoletos de AdWords/AdSense ni promesas de «siempre más barato que cualquier canal».",
   lead: [

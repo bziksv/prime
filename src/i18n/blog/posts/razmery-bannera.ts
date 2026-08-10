@@ -139,7 +139,7 @@ export const razmeryBanneraEs: BlogPost = {
   title: "Tamaños de banner en píxeles: cómo mirarlos en el sitio de otro",
   date: "2021-03-01",
   category: "Digital marketing",
-  cover: "/images/blog/razmery-bannera/cover.webp",
+  cover: "/images/blog/razmery-bannera/cover-es.webp",
   excerpt:
     "Qué aspecto tienen los banners web, por qué los tamaños suelen ser arbitrarios y cómo saber en un minuto el ancho/alto de un creativo de la competencia con las herramientas de desarrollador.",
   lead: [

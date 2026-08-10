@@ -125,7 +125,7 @@ export const oshibkiReklamnoyKampaniiEs: BlogPost = {
   title: "10 errores al correr una campaña de paid search",
   date: "2018-08-06",
   category: "Digital marketing",
-  cover: "/images/blog/oshibki-reklamnoy-kampanii/cover.webp",
+  cover: "/images/blog/oshibki-reklamnoy-kampanii/cover-es.webp",
   excerpt:
     "Paid search sin demanda, sin revisión de competidores, un presupuesto irrealista, límites débiles, keywords finas, ads irrelevantes, geo malo, extensiones sin usar, sin gestión continua y mezclar Search con Display.",
   lead: [

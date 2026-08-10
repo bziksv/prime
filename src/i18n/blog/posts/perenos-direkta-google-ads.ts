@@ -170,7 +170,7 @@ export const perenosDirektaGoogleAdsEs: BlogPost = {
   title: "Pasar campañas de Yandex Direct a Google Ads",
   date: "2018-09-12",
   category: "Paid search",
-  cover: "/images/blog/perenos-direkta-google-ads/cover.webp",
+  cover: "/images/blog/perenos-direkta-google-ads/cover-es.webp",
   excerpt:
     "Cómo pasar campañas de búsqueda de Yandex Direct a Google Ads: match types, negativos, límites de anuncios y geo — sin volcados ciegos de Excel ni herramientas «teleporter» obsoletas de 2018.",
   lead: [

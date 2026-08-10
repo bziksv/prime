@@ -169,7 +169,7 @@ export const tildaEs: BlogPost = {
   title: "Cómo montar un sitio en Tilda: estructura, contenido y publicar",
   date: "2018-12-28",
   category: "Digital marketing",
-  cover: "/images/blog/tilda/cover.webp",
+  cover: "/images/blog/tilda/cover-es.webp",
   excerpt:
     "Cómo armar una landing en Tilda: estructura de bloques, copy y visuales, Zero Block vs bloques listos, SEO básico, dominio y chequeos — sin prometer un «sitio listo en dos días» para cada proyecto.",
   lead: [

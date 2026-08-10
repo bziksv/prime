@@ -161,7 +161,7 @@ export const smmStrategiyaEs: BlogPost = {
     "Estrategia SMM: objetivos, prioridades y cómo no dispersarse en posts al azar",
   date: "2018-06-01",
   category: "SMM",
-  cover: "/images/blog/smm-strategiya/cover.webp",
+  cover: "/images/blog/smm-strategiya/cover-es.webp",
   excerpt:
     "Cómo armar una estrategia SMM: atar los objetivos de redes al negocio, partirlos en tareas, priorizar, asignar owners y plazos, y ajustar por métricas — sin un «algoritmo de oro».",
   lead: [

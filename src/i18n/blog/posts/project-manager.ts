@@ -153,7 +153,7 @@ export const projectManagerEs: BlogPost = {
   title: "Project manager en IT: deberes, skills y cómo se entra al rol",
   date: "2019-12-09",
   category: "Digital marketing",
-  cover: "/images/blog/project-manager/cover.webp",
+  cover: "/images/blog/project-manager/cover-es.webp",
   excerpt:
     "Quién es un project manager en IT: por qué existe el rol, deberes y skills típicos, y cómo se entra a la profesión — sin promesas de «sueldo alto justo tras un curso de fin de semana».",
   lead: [

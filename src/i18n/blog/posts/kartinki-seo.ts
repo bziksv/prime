@@ -130,7 +130,7 @@ export const kartinkiSeoEs: BlogPost = {
   title: "Imágenes para SEO: de dónde sacarlas, cómo prepararlas y colocarlas",
   date: "2017-11-21",
   category: "Content marketing",
-  cover: "/images/blog/kartinki-seo/cover.webp",
+  cover: "/images/blog/kartinki-seo/cover-es.webp",
   excerpt:
     "Imágenes del sitio para personas y búsqueda: fotos propias e IA en vez de stock, nombre de archivo, peso, alt, captions, entrega responsive y og:image — sin promesas de «imagen única = rankings».",
   lead: [

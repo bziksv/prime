@@ -149,7 +149,7 @@ export const svyazkaInstagramFacebookEs: BlogPost = {
   title: "Vincular Instagram y Facebook: cómo conectar y desconectar",
   date: "2021-07-16",
   category: "SMM",
-  cover: "/images/blog/svyazka-instagram-facebook/cover.webp",
+  cover: "/images/blog/svyazka-instagram-facebook/cover-es.webp",
   excerpt:
     "Por qué vincular Instagram a Facebook vía Accounts Center, qué da un perfil profesional, cómo desvincular y qué expectativas de cross-posting están obsoletas.",
   lead: [

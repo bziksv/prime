@@ -194,7 +194,7 @@ export const retargetingDirektEs: BlogPost = {
   title: "Retargeting en Yandex Direct: segmentos, placements y ads",
   date: "2019-07-03",
   category: "Paid search",
-  cover: "/images/blog/retargeting-direkt/cover.webp",
+  cover: "/images/blog/retargeting-direkt/cover-es.webp",
   excerpt:
     "Cómo optimizar el retargeting en Direct: metas y segmentos de Metrika, Yandex Audiences, lectura de stats por condiciones de display y creatividades — sin umbrales rígidos de CTR y rebote de guías de 2019.",
   lead: [

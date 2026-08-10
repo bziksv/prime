@@ -116,7 +116,7 @@ export const httpsSeoEs: BlogPost = {
   title: "HTTPS y SEO: higiene de rankings y una migración segura",
   date: "2021-06-17",
   category: "SEO",
-  cover: "/images/blog/https-seo/cover.webp",
+  cover: "/images/blog/https-seo/cover-es.webp",
   excerpt:
     "Cómo afecta HTTPS al SEO hoy: higiene de rankings, confianza y checklist de migración http→https sin perder el índice — sin mitos de «barra verde» ni estudios desfasados de 2014.",
   lead: [

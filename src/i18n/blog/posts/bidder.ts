@@ -6,7 +6,7 @@ export const bidderEs: BlogPost = {
   title: "Bidder (gestor de pujas): para qué sirve y cómo elegirlo",
   date: "2018-03-14",
   category: "Paid search",
-  cover: "/images/blog/bidder/cover.webp",
+  cover: "/images/blog/bidder/cover-es.webp",
   excerpt:
     "Qué es un bidder para Direct y Google Ads: gestión automatizada de pujas vía API, pros y contras, cuándo encaja una herramienta externa y cómo comprobar el efecto — junto a las estrategias nativas de la cuenta.",
   lead: [

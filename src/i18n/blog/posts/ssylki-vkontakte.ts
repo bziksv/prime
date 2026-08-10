@@ -152,7 +152,7 @@ export const ssylkiVkontakteEs: BlogPost = {
   title: "Enlaces en VK: menciones, previews y URLs de posts",
   date: "2021-06-16",
   category: "SMM",
-  cover: "/images/blog/ssylki-vkontakte/cover.webp",
+  cover: "/images/blog/ssylki-vkontakte/cover-es.webp",
   excerpt:
     "Cómo hacer una mención clicable de una persona o comunidad en VKontakte, adjuntar un enlace al sitio con preview y copiar la URL de un post — sin confundirlas con la dirección desnuda del navegador.",
   lead: [

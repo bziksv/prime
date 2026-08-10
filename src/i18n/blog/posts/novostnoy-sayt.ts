@@ -213,7 +213,7 @@ export const novostnoySaytEs: BlogPost = {
   title: "Cómo crecer un sitio de noticias: consultas, técnica y distribución",
   date: "2019-07-15",
   category: "SEO",
-  cover: "/images/blog/novostnoy-sayt/cover.webp",
+  cover: "/images/blog/novostnoy-sayt/cover-es.webp",
   excerpt:
     "Qué necesita de verdad el SEO de noticias: un flujo constante de URLs frescas, plantillas limpias sin duplicados, lectura mobile-first, enlaces internos, RSS/push y agregadores — sin «duplicar la audiencia en una semana».",
   lead: [

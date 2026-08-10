@@ -143,7 +143,7 @@ export const metaDescriptionEs: BlogPost = {
   title: "Meta description: por qué importa y cómo afecta al SEO",
   date: "2020-02-26",
   category: "SEO",
-  cover: "/images/blog/meta-description/cover.webp",
+  cover: "/images/blog/meta-description/cover-es.webp",
   excerpt:
     "Qué es una meta description, si afecta directamente a los rankings, cómo se liga al snippet y al CTR, y cómo escribirla sin stuffing de keywords ni clickbait.",
   lead: [

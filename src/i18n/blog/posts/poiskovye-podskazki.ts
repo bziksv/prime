@@ -204,7 +204,7 @@ export const poiskovyePodskazkiEs: BlogPost = {
   title: "Sugerencias de búsqueda: qué son y cómo usarlas en SEO",
   date: "2018-02-19",
   category: "SEO",
-  cover: "/images/blog/poiskovye-podskazki/cover.webp",
+  cover: "/images/blog/poiskovye-podskazki/cover-es.webp",
   excerpt:
     "Cómo se forman las sugerencias de Yandex y Google, cómo ayudan a la semántica y al contenido, por qué no se puede «entrar en suggest» falsificando consultas, y cómo reunir ideas sin spam.",
   lead: [

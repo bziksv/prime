@@ -6,7 +6,7 @@ export const moderatsiyaMeditsinaEs: BlogPost = {
   title: "Moderación de anuncios de salud en Yandex Direct y Google Ads",
   date: "2019-09-13",
   category: "Paid search",
-  cover: "/images/blog/moderatsiya-meditsina/cover.webp",
+  cover: "/images/blog/moderatsiya-meditsina/cover-es.webp",
   excerpt:
     "Cómo pasar la revisión de Yandex Direct y Google Ads en salud: qué suele prohibirse y permitirse, matices de redes vs Search, copy sin banderas rojas y qué hacer si te rechazan — según las políticas actuales de las plataformas.",
   lead: [

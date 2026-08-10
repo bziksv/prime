@@ -193,7 +193,7 @@ export const longridEs: BlogPost = {
   title: "Longread: qué es y cómo hacerlo",
   date: "2019-12-02",
   category: "Content marketing",
-  cover: "/images/blog/longrid/cover.webp",
+  cover: "/images/blog/longrid/cover-es.webp",
   excerpt:
     "Un longread no es un muro de copy por volumen — es una historia profunda con estructura y layout. Cómo escribir, diseñar y actualizar sin mitos de ranking ni viralidad.",
   lead: [

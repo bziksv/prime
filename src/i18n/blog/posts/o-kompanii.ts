@@ -133,7 +133,7 @@ export const oKompaniiEs: BlogPost = {
   title: "Sobre la empresa: qué escribir y qué evitar",
   date: "2020-06-23",
   category: "Content marketing",
-  cover: "/images/blog/o-kompanii/cover.webp",
+  cover: "/images/blog/o-kompanii/cover-es.webp",
   excerpt:
     "Cómo escribir una página About sin novela del fundador y «somos los mejores» vacío: hechos, prueba, tono para la audiencia — y cuándo casi nadie lee el texto.",
   lead: [

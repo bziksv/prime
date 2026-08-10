@@ -229,7 +229,7 @@ export const otzyvyDlyaProdazhEs: BlogPost = {
   title: "Cuántas reseñas necesita una empresa para vender con más confianza",
   date: "2019-09-26",
   category: "SEO",
-  cover: "/images/blog/otzyvy-dlya-prodazh/cover.webp",
+  cover: "/images/blog/otzyvy-dlya-prodazh/cover-es.webp",
   excerpt:
     "El umbral de confianza de las reseñas, cómo se atan a la búsqueda local y los mapas, cómo pedir reseñas y gestionar negativos — sin valoraciones falsas ni cinco estrellas compradas.",
   lead: [

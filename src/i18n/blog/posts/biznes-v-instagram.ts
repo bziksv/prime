@@ -130,7 +130,7 @@ export const biznesVInstagramEs: BlogPost = {
   title: "Negocio en Instagram: cómo llevar y crecer un proyecto",
   date: "2021-06-17",
   category: "SMM",
-  cover: "/images/blog/biznes-v-instagram/cover.webp",
+  cover: "/images/blog/biznes-v-instagram/cover-es.webp",
   excerpt:
     "En qué se diferencia promover un negocio en Instagram: foco visual, nichos, contenido y conversación — sin un catálogo de herramientas SMM obsoletas ni el mito de «30 hashtags».",
   lead: [

@@ -161,7 +161,7 @@ export const udalennayaRabotaEs: BlogPost = {
   title: "Trabajo remoto para empleados: cómo organizarlo sin caos",
   date: "2019-12-09",
   category: "Digital marketing",
-  cover: "/images/blog/udalennaya-rabota/cover.webp",
+  cover: "/images/blog/udalennaya-rabota/cover-es.webp",
   excerpt:
     "Cómo llevar un equipo remoto: hiring fuera de la oficina, gestión por outcomes, tools de comunicación y tareas, motivación y feeling de equipo — sin vigilancia total.",
   lead: [

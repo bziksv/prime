@@ -226,7 +226,7 @@ export const navigatsiyaSaytaEs: BlogPost = {
   title: "Navegación del sitio: requisitos, tipos e impacto en la conversión",
   date: "2020-10-30",
   category: "SEO",
-  cover: "/images/blog/navigatsiya-sayta/cover.webp",
+  cover: "/images/blog/navigatsiya-sayta/cover-es.webp",
   excerpt:
     "Qué significa una navegación usable: menús, breadcrumbs, footer, filtros de catálogo. Cómo evitar que el usuario se pierda — y cómo la navegación se ata al SEO y a los leads.",
   lead: [

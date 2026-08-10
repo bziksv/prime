@@ -170,7 +170,7 @@ export const sotsialnyeSetiEs: BlogPost = {
   title: "Redes sociales: historia, tipos y por qué las necesita el negocio",
   date: "2022-01-27",
   category: "SMM",
-  cover: "/images/blog/sotsialnye-seti/cover.webp",
+  cover: "/images/blog/sotsialnye-seti/cover-es.webp",
   excerpt:
     "Qué son las redes sociales: una historia corta, tipos de plataformas, beneficios y riesgos, y tendencias — sin roundups de MAU obsoletos ni Google+ muerto. Disclaimer Meta en la página.",
   lead: [

@@ -160,7 +160,7 @@ export const ishodnyyKodEs: BlogPost = {
   title: "Código fuente de la página: por qué abrirlo y qué revisar",
   date: "2021-07-09",
   category: "SEO",
-  cover: "/images/blog/ishodnyy-kod/cover.webp",
+  cover: "/images/blog/ishodnyy-kod/cover-es.webp",
   excerpt:
     "Qué es el código fuente de una página, en qué se diferencia View Source de DevTools, y cómo revisar meta, estilos y scripts — sin un curso completo de front-end.",
   lead: [

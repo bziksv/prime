@@ -224,7 +224,7 @@ export const googleSearchConsoleEs: BlogPost = {
   title: "Google Search Console: qué es y por qué lo necesitas",
   date: "2020-08-17",
   category: "SEO",
-  cover: "/images/blog/google-search-console/cover.webp",
+  cover: "/images/blog/google-search-console/cover-es.webp",
   excerpt:
     "Qué hace Google Search Console (antes Webmaster Tools): verificar el sitio, enviar un sitemap, leer informes de índice y errores, y revisar queries — sin tratarlo como un interruptor de rankings.",
   lead: [

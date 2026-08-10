@@ -191,7 +191,7 @@ export const mediaplanEs: BlogPost = {
   title: "Media plan de campaña publicitaria: para qué sirve y cómo armarlo",
   date: "2020-08-15",
   category: "Paid search",
-  cover: "/images/blog/mediaplan/cover.webp",
+  cover: "/images/blog/mediaplan/cover-es.webp",
   excerpt:
     "Qué es un media plan publicitario, en qué se diferencia de un calendario de contenido, cómo armar una tabla de canales, presupuesto y plazos, y por dónde empezar a testear paid search — sin copiar la plantilla de otro línea a línea.",
   lead: [

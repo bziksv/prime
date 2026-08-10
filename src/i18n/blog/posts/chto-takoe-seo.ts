@@ -163,7 +163,7 @@ export const chtoTakoeSeoEs: BlogPost = {
   title: "Qué es el SEO: explicación clara, sin magia de rankings",
   date: "2016-05-31",
   category: "SEO",
-  cover: "/images/blog/chto-takoe-seo/cover.webp",
+  cover: "/images/blog/chto-takoe-seo/cover-es.webp",
   excerpt:
     "Qué es el SEO en español claro: por qué el negocio necesita la búsqueda, en qué se diferencia de la publicidad offline, qué incluye el trabajo y por qué la prep del sitio no es lo mismo que llegar a primera página.",
   lead: [

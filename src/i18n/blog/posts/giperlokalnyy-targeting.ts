@@ -150,7 +150,7 @@ export const giperlokalnyyTargetingEs: BlogPost = {
   title: "Targeting hiperlocal para negocios: a quién le sirve y cómo elegir la herramienta",
   date: "2019-09-16",
   category: "Digital marketing",
-  cover: "/images/blog/giperlokalnyy-targeting/cover.webp",
+  cover: "/images/blog/giperlokalnyy-targeting/cover-es.webp",
   excerpt:
     "Ads hiperlocales cerca de una ubicación: a quién encaja, geopolígonos en cuentas de ads, límites de Wi‑Fi/MAC y privacidad — sin esquemas de espionaje a competidores.",
   lead: [

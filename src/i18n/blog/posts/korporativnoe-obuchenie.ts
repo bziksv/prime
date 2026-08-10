@@ -122,7 +122,7 @@ export const korporativnoeObuchenieEs: BlogPost = {
   title: "Formación corporativa y motivación: sistema, metas, experto",
   date: "2019-08-16",
   category: "Digital marketing",
-  cover: "/images/blog/korporativnoe-obuchenie/cover.webp",
+  cover: "/images/blog/korporativnoe-obuchenie/cover-es.webp",
   excerpt:
     "Por qué los empleados no aprenden «por su cuenta», cómo armar un sistema de desarrollo, fijar una meta y el rol del experto — y en qué se diferencia el formato online de la motivación para aprender.",
   lead: [

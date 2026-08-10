@@ -117,7 +117,7 @@ export const yandeksDiskEs: BlogPost = {
   title: "Yandex Disk: almacenamiento en la nube para archivos y colaboración",
   date: "2020-08-20",
   category: "Digital marketing",
-  cover: "/images/blog/yandeks-disk/cover.webp",
+  cover: "/images/blog/yandeks-disk/cover-es.webp",
   excerpt:
     "Qué es Yandex Disk: almacenamiento y sync de archivos, enlaces públicos y comparación con Google Drive. Salta cifras caducadas de GB gratis — mira los planes actuales del servicio.",
   lead: [

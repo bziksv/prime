@@ -230,7 +230,7 @@ export const saytySatellityEs: BlogPost = {
   title: "Sitios satélite: los riesgos, y por qué saltártelos",
   date: "2020-02-05",
   category: "SEO",
-  cover: "/images/blog/sayty-satellity/cover.webp",
+  cover: "/images/blog/sayty-satellity/cover-es.webp",
   excerpt:
     "Qué significaban los sitios satélite en SEO, por qué la gente los armaba históricamente, cómo ponen en peligro el dominio principal y qué hacer en vez de una red privada — sin how-tos de PBN.",
   lead: [

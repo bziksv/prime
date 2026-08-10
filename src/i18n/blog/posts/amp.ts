@@ -136,7 +136,7 @@ export const ampEs: BlogPost = {
   title: "Páginas Google AMP: qué eran y si las necesitas ahora",
   date: "2020-03-13",
   category: "SEO",
-  cover: "/images/blog/amp/cover.webp",
+  cover: "/images/blog/amp/cover-es.webp",
   excerpt:
     "Qué es AMP: HTML reducido para entrega rápida en la SERP móvil, pros y contras de la caché de Google, por qué el formato dejó de ser obligatorio y dónde poner el esfuerzo — tu propio sitio responsive.",
   lead: [

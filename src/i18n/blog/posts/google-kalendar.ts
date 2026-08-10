@@ -169,7 +169,7 @@ export const googleKalendarEs: BlogPost = {
   title: "Google Calendar para el trabajo: cómo organizar reuniones y tareas",
   date: "2019-06-19",
   category: "Digital marketing",
-  cover: "/images/blog/google-kalendar/cover.webp",
+  cover: "/images/blog/google-kalendar/cover-es.webp",
   excerpt:
     "Cómo usar Google Calendar en el trabajo: varios calendarios por propósito, reuniones con invitados, vídeo, adjuntos, horario laboral y sharing — sin clics caducados ni Hangouts.",
   lead: [

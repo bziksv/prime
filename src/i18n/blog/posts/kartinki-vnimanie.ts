@@ -211,7 +211,7 @@ export const kartinkiVnimanieEs: BlogPost = {
   title: "Cómo las imágenes ganan atención en un sitio y en el contenido",
   date: "2020-09-11",
   category: "Content marketing",
-  cover: "/images/blog/kartinki-vnimanie/cover.webp",
+  cover: "/images/blog/kartinki-vnimanie/cover-es.webp",
   excerpt:
     "Qué imágenes detienen de verdad la mirada: contraste, color, sentido y metáfora — sin clichés genéricos ni copy que vive solo dentro de la foto.",
   lead: [

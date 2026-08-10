@@ -191,7 +191,7 @@ export const analizReklamnoyKampaniiEs: BlogPost = {
   title: "Análisis de campaña de ads en Yandex Direct y Google Ads: checklist",
   date: "2020-03-25",
   category: "Paid search",
-  cover: "/images/blog/analiz-reklamnoy-kampanii/cover.webp",
+  cover: "/images/blog/analiz-reklamnoy-kampanii/cover-es.webp",
   excerpt:
     "Cómo desglosar una campaña de paid search en Yandex Metrica y Google Analytics: enlace de cuentas, keywords, emplazamientos, demografía, hora, dispositivos, geo, landings y audiencias — sin juzgar solo por clics.",
   lead: [

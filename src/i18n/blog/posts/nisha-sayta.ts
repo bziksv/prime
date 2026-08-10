@@ -164,7 +164,7 @@ export const nishaSaytaEs: BlogPost = {
   title: "Cómo elegir un nicho para un sitio web",
   date: "2021-02-03",
   category: "Digital marketing",
-  cover: "/images/blog/nisha-sayta/cover.webp",
+  cover: "/images/blog/nisha-sayta/cover-es.webp",
   excerpt:
     "Cómo elegir el tema de un sitio: demanda, margen, competencia y expertise — sin listas de «nichos rentables 2021» de roundups obsoletos.",
   lead: [

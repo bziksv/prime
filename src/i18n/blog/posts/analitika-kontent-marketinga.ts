@@ -224,7 +224,7 @@ export const analitikaKontentMarketingaEs: BlogPost = {
   title: "Analytics de content marketing: métricas y cómo leerlas",
   date: "2021-01-15",
   category: "Digital marketing",
-  cover: "/images/blog/analitika-kontent-marketinga/cover.webp",
+  cover: "/images/blog/analitika-kontent-marketinga/cover-es.webp",
   excerpt:
     "Cómo evaluar el content marketing: reach, retención, shares, leads y métricas de ops editorial — sin obsesionarte con likes ni confundir esto con instalar un contador.",
   lead: [

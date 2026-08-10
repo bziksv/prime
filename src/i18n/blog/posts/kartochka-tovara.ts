@@ -124,7 +124,7 @@ export const kartochkaTovaraEs: BlogPost = {
   title: "Ficha de producto: estructura, fotos, precio y Comprar",
   date: "2019-06-10",
   category: "E-commerce",
-  cover: "/images/blog/kartochka-tovara/cover.webp",
+  cover: "/images/blog/kartochka-tovara/cover-es.webp",
   excerpt:
     "Cómo armar la ficha de producto en ecommerce: bloques obligatorios, fotos y vídeo, descripción, precio con CTA, entrega y reseñas — para que la decisión de compra no se estanque.",
   lead: [

@@ -245,7 +245,7 @@ export const toshnotaTekstaEs: BlogPost = {
   title: "Náusea del texto y densidad de keywords",
   date: "2020-07-30",
   category: "SEO",
-  cover: "/images/blog/toshnota-teksta/cover.webp",
+  cover: "/images/blog/toshnota-teksta/cover-es.webp",
   excerpt:
     "Qué significan la náusea clásica y la académica, cómo se cuenta la densidad de keywords, qué herramientas la revisan y por qué un «% normal» es una guía de brief — no una ley de ranking.",
   lead: [

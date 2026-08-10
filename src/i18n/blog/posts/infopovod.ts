@@ -173,7 +173,7 @@ export const infopovodEs: BlogPost = {
   title: "Gancho de noticia: qué es y cómo usarlo en marketing",
   date: "2020-03-12",
   category: "Marketing digital",
-  cover: "/images/blog/infopovod/cover.webp",
+  cover: "/images/blog/infopovod/cover-es.webp",
   excerpt:
     "Qué es un gancho de noticia: planificado e improvisado, newsjacking, investigación, colaboraciones, aniversarios y concursos — cómo crear ganchos sin hype vacío.",
   lead: [

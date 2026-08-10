@@ -136,7 +136,7 @@ export const prosmotryVkEs: BlogPost = {
   title: "Contador de vistas en VK: cómo leer las señales de alcance",
   date: "2021-06-22",
   category: "SMM",
-  cover: "/images/blog/prosmotry-vk/cover.webp",
+  cover: "/images/blog/prosmotry-vk/cover-es.webp",
   excerpt:
     "Cómo funciona el contador de vistas bajo los posts de VKontakte, qué cuenta como vista, en qué se diferencia de las stats completas de la comunidad y por qué las vistas falsas dañan.",
   lead: [

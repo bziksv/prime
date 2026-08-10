@@ -217,7 +217,7 @@ export const vnutrennyayaPerelinkovkaEs: BlogPost = {
   title: "Enlazado interno: anclas, patrones y práctica",
   date: "2020-01-15",
   category: "SEO",
-  cover: "/images/blog/vnutrennyaya-perelinkovka/cover.webp",
+  cover: "/images/blog/vnutrennyaya-perelinkovka/cover-es.webp",
   excerpt:
     "Por qué importa el enlazado interno, cómo se diferencian las anclas de keyword de las genéricas, automatización vs. trabajo manual, patrones típicos para head/mid/long-tail y errores que restan más de lo que suman.",
   lead: [

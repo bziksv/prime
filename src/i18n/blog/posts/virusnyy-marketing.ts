@@ -182,7 +182,7 @@ export const virusnyyMarketingEs: BlogPost = {
   title: "Tipos de marketing viral: vídeo, memes, texto y apps",
   date: "2019-12-25",
   category: "Digital marketing",
-  cover: "/images/blog/virusnyy-marketing/cover.webp",
+  cover: "/images/blog/virusnyy-marketing/cover-es.webp",
   excerpt:
     "Qué es el marketing viral, qué formatos la gente reparte sola — vídeo, imágenes, texto, apps — y por qué no puedes pedir un hit viral con garantía.",
   lead: [

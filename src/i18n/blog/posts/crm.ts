@@ -145,7 +145,7 @@ export const crmEs: BlogPost = {
   title: "Sistemas CRM: cómo elegir sin perseguir un ranking ajeno",
   date: "2020-02-26",
   category: "Marketing digital",
-  cover: "/images/blog/crm/cover.webp",
+  cover: "/images/blog/crm/cover-es.webp",
   excerpt:
     "Qué es un CRM, en qué se diferencian self-hosted, cloud y «portal con CRM», y cómo comparar Bitrix24, amoCRM y herramientas similares — sin tomar una lista de 2020 o un magic quadrant como evangelio.",
   lead: [

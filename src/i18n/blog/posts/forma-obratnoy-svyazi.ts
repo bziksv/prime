@@ -197,7 +197,7 @@ export const formaObratnoySvyaziEs: BlogPost = {
   title: "Formulario de contacto del sitio: goals, campos y reglas de ubicación",
   date: "2021-10-01",
   category: "Websites",
-  cover: "/images/blog/forma-obratnoy-svyazi/cover.webp",
+  cover: "/images/blog/forma-obratnoy-svyazi/cover-es.webp",
   excerpt:
     "Para qué sirve un formulario de contacto, qué campos usar, dónde colocar el bloque, cómo combatir el spam y cómo subir la cuota de solicitudes completadas.",
   lead: [

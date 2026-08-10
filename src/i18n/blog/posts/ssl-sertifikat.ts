@@ -146,7 +146,7 @@ export const sslSertifikatEs: BlogPost = {
   title: "Certificado SSL: para qué sirve, tipos y cómo elegir",
   date: "2021-11-15",
   category: "SEO",
-  cover: "/images/blog/ssl-sertifikat/cover.webp",
+  cover: "/images/blog/ssl-sertifikat/cover-es.webp",
   excerpt:
     "Qué es un certificado SSL/TLS, en qué se diferencia HTTPS de HTTP, tipos de certificado (DV, OV, EV, wildcard), Let’s Encrypt y qué mirar al elegir.",
   lead: [

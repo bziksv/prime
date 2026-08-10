@@ -124,7 +124,7 @@ export const crelloEs: BlogPost = {
   title: "Crello (VistaCreate): un editor online para visuales de redes",
   date: "2020-01-16",
   category: "SMM",
-  cover: "/images/blog/crello/cover.webp",
+  cover: "/images/blog/crello/cover-es.webp",
   excerpt:
     "Qué es Crello y por qué ahora es VistaCreate: plantillas para posts y banners, animación, flujos de equipo — cuándo basta un editor de plantillas y cuándo sigue haciendo falta un diseñador.",
   lead: [

@@ -175,7 +175,7 @@ export const obratnyyZvonokEs: BlogPost = {
   title: "Widget de callback en el sitio: por qué hace falta y cómo elegirlo",
   date: "2016-10-24",
   category: "Digital marketing",
-  cover: "/images/blog/obratnyy-zvonok/cover.webp",
+  cover: "/images/blog/obratnyy-zvonok/cover-es.webp",
   excerpt:
     "Formularios de «llámame» y widgets de callback: en qué se diferencian, cuándo ayudan a las ventas y qué revisar al elegir — sin popups agresivos ni ads de un solo vendor.",
   lead: [

@@ -137,7 +137,7 @@ export const prodvizhenieBrendaEs: BlogPost = {
   title: "Cómo empezar a promocionar una marca: objetivos, SMART y SWOT",
   date: "2020-12-04",
   category: "Digital marketing",
-  cover: "/images/blog/prodvizhenie-brenda/cover.webp",
+  cover: "/images/blog/prodvizhenie-brenda/cover-es.webp",
   excerpt:
     "Por dónde empezar la promoción de marca online: cómo difiere un objetivo de una tarea, cómo fijar metas SMART, qué errores evitar y por qué el SWOT va antes del presupuesto de canales.",
   lead: [

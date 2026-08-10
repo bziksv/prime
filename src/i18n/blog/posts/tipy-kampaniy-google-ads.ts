@@ -173,7 +173,7 @@ export const tipyKampaniyGoogleAdsEs: BlogPost = {
   title: "Tipos de campaña en Google Ads: qué formato encaja con cada trabajo",
   date: "2019-12-19",
   category: "Paid search",
-  cover: "/images/blog/tipy-kampaniy-google-ads/cover.webp",
+  cover: "/images/blog/tipy-kampaniy-google-ads/cover-es.webp",
   excerpt:
     "Search, Display, YouTube, Shopping, remarketing, Performance Max, audiencias — cómo elegir un tipo de campaña de Google Ads por rol, no por un catálogo de botones de 2019.",
   lead: [

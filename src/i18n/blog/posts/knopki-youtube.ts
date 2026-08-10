@@ -184,7 +184,7 @@ export const knopkiYoutubeEs: BlogPost = {
   title: "Tarjetas, end screens y prompts de suscripción en YouTube",
   date: "2021-05-27",
   category: "SMM",
-  cover: "/images/blog/knopki-youtube/cover.webp",
+  cover: "/images/blog/knopki-youtube/cover-es.webp",
   excerpt:
     "Qué elementos interactivos sustituyeron las anotaciones antiguas de YouTube: suscripción, tarjetas, end screens — y cómo usarlos sin saturar el vídeo.",
   lead: [

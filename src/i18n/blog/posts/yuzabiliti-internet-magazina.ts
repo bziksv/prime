@@ -133,7 +133,7 @@ export const yuzabilitiInternetMagazinaEs: BlogPost = {
   title: "18 errores de usabilidad ecommerce que matan la conversión",
   date: "2018-08-31",
   category: "E-commerce",
-  cover: "/images/blog/yuzabiliti-internet-magazina/cover.webp",
+  cover: "/images/blog/yuzabiliti-internet-magazina/cover-es.webp",
   excerpt:
     "Formularios largos, sin búsqueda o layout móvil, términos ocultos, registro forzado, fichas débiles, fricción en carrito y checkout — un checklist UX de ecommerce sin promesas de «arréglalo y al instante ×2».",
   lead: [

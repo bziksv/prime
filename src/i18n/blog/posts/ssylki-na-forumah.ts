@@ -190,7 +190,7 @@ export const ssylkiNaForumahEs: BlogPost = {
   title: "Enlaces en foros: cuándo aún tienen sentido",
   date: "2021-05-24",
   category: "SEO",
-  cover: "/images/blog/ssylki-na-forumah/cover.webp",
+  cover: "/images/blog/ssylki-na-forumah/cover-es.webp",
   excerpt:
     "Cómo participar en debates de foros sin spam: elegir el tablero, respuestas útiles, enlaces naturales y riesgos del posting masivo.",
   lead: [

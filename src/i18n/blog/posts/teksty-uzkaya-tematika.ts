@@ -144,7 +144,7 @@ export const tekstyUzkayaTematikaEs: BlogPost = {
   title: "Cómo escribir para un nicho estrecho",
   date: "2020-01-14",
   category: "Content marketing",
-  cover: "/images/blog/teksty-uzkaya-tematika/cover.webp",
+  cover: "/images/blog/teksty-uzkaya-tematika/cover-es.webp",
   excerpt:
     "Copy para un nicho estrecho: lenguaje amable con principiantes, hechos al día, expertise y estructura — ilustrado con travel y transferible a cualquier tema cerrado.",
   lead: [

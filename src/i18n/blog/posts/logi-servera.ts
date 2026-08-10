@@ -161,7 +161,7 @@ export const logiServeraEs: BlogPost = {
   title: "Logs del servidor y comportamiento de los crawlers",
   date: "2021-07-19",
   category: "SEO",
-  cover: "/images/blog/logi-servera/cover.webp",
+  cover: "/images/blog/logi-servera/cover-es.webp",
   excerpt:
     "Cómo leer access logs del sitio: User-Agents de crawlers, códigos de estado, crawl budget, duplicados y errores de escaneo — junto a tools de Webmaster y Search Console.",
   lead: [

@@ -147,7 +147,7 @@ export const strategiiYandeksDirektEs: BlogPost = {
   title: "Estrategias de Yandex Direct: parte de la economía, no de la etiqueta del botón",
   date: "2017-07-02",
   category: "Paid search",
-  cover: "/images/blog/strategii-yandeks-direkt/cover.webp",
+  cover: "/images/blog/strategii-yandeks-direkt/cover-es.webp",
   excerpt:
     "Por qué se apagó el «modo fácil para principiantes» de Direct, por qué importan goals y CPA, y cómo elegir estrategia desde unit economics — no desde la ansiedad de la subasta.",
   lead: [

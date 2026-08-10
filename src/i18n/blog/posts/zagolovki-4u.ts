@@ -145,7 +145,7 @@ export const zagolovki4uEs: BlogPost = {
   title: "Titulares 4U: utilidad, unicidad, urgencia, especificidad",
   date: "2020-06-24",
   category: "Content marketing",
-  cover: "/images/blog/zagolovki-4u/cover.webp",
+  cover: "/images/blog/zagolovki-4u/cover-es.webp",
   excerpt:
     "La fórmula 4U para titulares y asuntos de email: utilidad, unicidad, ultra-especificidad y urgencia — con ejemplos, sin claims de «conversión ×10» ni generadores por el checkbox.",
   lead: [

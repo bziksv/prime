@@ -135,7 +135,7 @@ export const effektivnostVideoreklamyEs: BlogPost = {
   title: "Cómo medir la eficacia de la publicidad en vídeo: métricas de media, marca y negocio",
   date: "2019-05-06",
   category: "Digital marketing",
-  cover: "/images/blog/effektivnost-videoreklamy/cover.webp",
+  cover: "/images/blog/effektivnost-videoreklamy/cover-es.webp",
   excerpt:
     "Métricas de ads en vídeo por capa: impresiones y viewability, VTR/CPV, reach y frequency; Brand Lift y encuestas; conversiones, códigos promo y caminos asistidos — sin adorar un solo CTR.",
   lead: [

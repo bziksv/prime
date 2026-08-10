@@ -219,7 +219,7 @@ export const tegH1Es: BlogPost = {
   title: "La etiqueta HTML H1: estilo, jerarquía y SEO",
   date: "2020-12-28",
   category: "SEO",
-  cover: "/images/blog/teg-h1/cover.webp",
+  cover: "/images/blog/teg-h1/cover-es.webp",
   excerpt:
     "Por qué importa el H1, en qué se diferencia del title tag, cómo montar una jerarquía H1–H6, dónde encajan las keywords y cómo revisar headings sin stuffing.",
   lead: [

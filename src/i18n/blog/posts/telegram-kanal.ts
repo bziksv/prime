@@ -152,7 +152,7 @@ export const telegramKanalEs: BlogPost = {
   title: "Canal de Telegram desde cero: setup, contenido y crecimiento",
   date: "2021-08-06",
   category: "SMM",
-  cover: "/images/blog/telegram-kanal/cover.webp",
+  cover: "/images/blog/telegram-kanal/cover-es.webp",
   excerpt:
     "Cómo lanzar un canal de Telegram: avatar y descripción, mix de posts, bots de ayuda, horario, ads y tráfico desde otras plataformas — sin apostar por crecimiento falso.",
   lead: [

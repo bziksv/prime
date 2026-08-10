@@ -125,7 +125,7 @@ export const emodziEs: BlogPost = {
   title: "Emoji en marketing: cuándo ayudan y cuándo molestan",
   date: "2020-08-25",
   category: "Content marketing",
-  cover: "/images/blog/emodzi/cover.webp",
+  cover: "/images/blog/emodzi/cover-es.webp",
   excerpt:
     "Qué son los emoji y cómo usarlos en posts, chat y snippets: tono para la audiencia, medida y riesgos — sin garantías de CTR ni el mito de «solo Apple».",
   lead: [

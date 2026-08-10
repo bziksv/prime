@@ -6,7 +6,7 @@ export const chatTelegramEs: BlogPost = {
   title: "Cómo crear un chat (grupo) en Telegram",
   date: "2020-11-16",
   category: "SMM",
-  cover: "/images/blog/chat-telegram/cover.webp",
+  cover: "/images/blog/chat-telegram/cover-es.webp",
   excerpt:
     "Cómo crear un grupo de Telegram: en qué se diferencia de un canal y un bot, enlaces públicos vs privados, fijar chats, encuestas y setups de negocio — sin mitos obsoletos de límites de miembros.",
   lead: [

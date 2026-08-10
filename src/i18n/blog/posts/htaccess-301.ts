@@ -173,7 +173,7 @@ export const htaccess301Es: BlogPost = {
   title: "Redirects 301 en .htaccess: reglas habituales",
   date: "2021-04-16",
   category: "SEO",
-  cover: "/images/blog/htaccess-301/cover.webp",
+  cover: "/images/blog/htaccess-301/cover-es.webp",
   excerpt:
     "Ejemplos prácticos de 301 permanentes en Apache .htaccess: https, www, trailing slash, mudanzas de página y dominio — más cuándo no hace falta un redirect.",
   lead: [

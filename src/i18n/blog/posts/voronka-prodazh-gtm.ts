@@ -210,7 +210,7 @@ export const voronkaProdazhGtmEs: BlogPost = {
   title: "Funnel de ventas vía GTM: eventos y drop-offs de checkout",
   date: "2019-07-16",
   category: "Digital marketing",
-  cover: "/images/blog/voronka-prodazh-gtm/cover.webp",
+  cover: "/images/blog/voronka-prodazh-gtm/cover-es.webp",
   excerpt:
     "Cómo etiquetar un funnel ecommerce con Google Tag Manager y ver drop-offs en GA4: catálogo → carrito → checkout → pedido, con eventos en vez de «páginas virtuales» caducadas de Universal Analytics.",
   lead: [

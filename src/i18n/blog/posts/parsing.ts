@@ -143,7 +143,7 @@ export const parsingEs: BlogPost = {
   title: "Scraping de datos: qué es, para qué lo usan los equipos y dónde está el límite",
   date: "2021-11-05",
   category: "SEO",
-  cover: "/images/blog/parsing/cover.webp",
+  cover: "/images/blog/parsing/cover-es.webp",
   excerpt:
     "Qué es el scraping de sitios: recopilar y estructurar datos, usos legítimos en SEO/marketing y límites de robots.txt y copyright.",
   lead: [

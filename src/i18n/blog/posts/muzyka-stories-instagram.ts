@@ -151,7 +151,7 @@ export const muzykaStoriesInstagramEs: BlogPost = {
   title: "Música en Instagram Stories: sticker, licencias y editores",
   date: "2020-07-09",
   category: "SMM",
-  cover: "/images/blog/muzyka-stories-instagram/cover.webp",
+  cover: "/images/blog/muzyka-stories-instagram/cover-es.webp",
   excerpt:
     "Cómo añadir música a Instagram Stories con el sticker built-in, por qué el acceso al catálogo depende de región y tipo de cuenta, y cómo trabajar en editores sin «workarounds» dudosos.",
   lead: [

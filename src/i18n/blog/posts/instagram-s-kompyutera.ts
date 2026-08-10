@@ -194,7 +194,7 @@ export const instagramSKompyuteraEs: BlogPost = {
   title: "Publicar en Instagram desde el ordenador",
   date: "2021-05-28",
   category: "SMM",
-  cover: "/images/blog/instagram-s-kompyutera/cover.webp",
+  cover: "/images/blog/instagram-s-kompyutera/cover-es.webp",
   excerpt:
     "Cómo publicar un post o Reels en Instagram desde el PC vía la web oficial y Business Suite — sin catálogo de clientes dudosos ni emuladores.",
   lead: [

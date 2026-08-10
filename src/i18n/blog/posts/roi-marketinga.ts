@@ -142,7 +142,7 @@ export const roiMarketingaEs: BlogPost = {
     "ROI y ROMI de marketing: fórmulas y cómo juzgar la eficiencia de la estrategia",
   date: "2020-12-07",
   category: "Digital marketing",
-  cover: "/images/blog/roi-marketinga/cover.webp",
+  cover: "/images/blog/roi-marketinga/cover-es.webp",
   excerpt:
     "En qué se diferencian ROI/ROMI de KPIs y conversión, qué fórmulas usar para ads y cómo los números deciden dónde crecer presupuesto — y dónde cortar.",
   lead: [

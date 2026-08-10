@@ -155,7 +155,7 @@ export const ohvatPodpischikovVkEs: BlogPost = {
   title: "Alcance de followers en VK: cómo hacerlo crecer",
   date: "2020-12-23",
   category: "SMM",
-  cover: "/images/blog/ohvat-podpischikov-vk/cover.webp",
+  cover: "/images/blog/ohvat-podpischikov-vk/cover-es.webp",
   excerpt:
     "Qué significa el alcance de followers en las stats de VK, en qué se diferencia del total y del viral, y cómo aparecer más a menudo en el feed de tu propia base — sin fake engagement ni screenshots obsoletos.",
   lead: [

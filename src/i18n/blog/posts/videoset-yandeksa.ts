@@ -188,7 +188,7 @@ export const videosetYandeksaEs: BlogPost = {
     "Red de vídeo de Yandex: formatos, targeting y cómo evaluar una campaña",
   date: "2018-10-18",
   category: "Paid search",
-  cover: "/images/blog/videoset-yandeksa/cover.webp",
+  cover: "/images/blog/videoset-yandeksa/cover-es.webp",
   excerpt:
     "Cómo funciona la Red de vídeo de Yandex: prerolls y placements in-page, targeting, VTR y amarrar resultados a metas de negocio — sin tratar shares de industria y CPV de 2018 como la lista de precios de hoy.",
   lead: [

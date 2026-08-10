@@ -148,7 +148,7 @@ export const posmotretAvatarInstagramEs: BlogPost = {
   title: "Cómo ver un avatar de Instagram a tamaño completo",
   date: "2020-12-10",
   category: "SMM",
-  cover: "/images/blog/posmotret-avatar-instagram/cover.webp",
+  cover: "/images/blog/posmotret-avatar-instagram/cover-es.webp",
   excerpt:
     "Cómo ver un avatar de Instagram más grande: el feed, el cliente web y métodos sensatos — sin un catálogo de servicios y apps «viewer» dudosas que piden tu contraseña.",
   lead: [

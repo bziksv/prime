@@ -192,7 +192,7 @@ export const metrikaKartyEs: BlogPost = {
   title: "Mapas de calor y mapas en Yandex Metrica",
   date: "2017-05-10",
   category: "Analytics",
-  cover: "/images/blog/metrika-karty/cover.webp",
+  cover: "/images/blog/metrika-karty/cover-es.webp",
   excerpt:
     "Mapas de clics, enlaces y scroll más analítica de formularios en Yandex Metrica: por qué mirar, cómo leer la densidad y qué no confundir con Session Replay — sin modos y límites de UI obsoletos de 2017.",
   lead: [

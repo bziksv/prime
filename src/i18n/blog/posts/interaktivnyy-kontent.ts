@@ -164,7 +164,7 @@ export const interaktivnyyKontentEs: BlogPost = {
   title: "Contenido interactivo: quizzes, calculadoras y tools visuales",
   date: "2019-12-26",
   category: "Content marketing",
-  cover: "/images/blog/interaktivnyy-kontent/cover.webp",
+  cover: "/images/blog/interaktivnyy-kontent/cover-es.webp",
   excerpt:
     "Cómo hacer útil el contenido interactivo: quizzes y encuestas, calculadoras, configuradores, timelines — y por qué la utilidad gana a un efecto «wow».",
   lead: [

@@ -150,7 +150,7 @@ export const negativnyyOtzyvEs: BlogPost = {
   title: "Cómo responder a una reseña negativa: reglas y ejemplos",
   date: "2019-12-04",
   category: "Digital marketing",
-  cover: "/images/blog/negativnyy-otzyv/cover.webp",
+  cover: "/images/blog/negativnyy-otzyv/cover-es.webp",
   excerpt:
     "Cómo contestar reseñas negativas sin agresión ni adulaciones: disculpas cuando tocan, velocidad de respuesta, un arreglo real y dar a elegir — con ejemplos de taller de autos que puedes reutilizar.",
   lead: [

@@ -157,7 +157,7 @@ export const ideiStorisVkEs: BlogPost = {
   title: "Ideas para Stories de VK: engagement sin challenges vacíos",
   date: "2021-01-28",
   category: "SMM",
-  cover: "/images/blog/idei-storis-vk/cover.webp",
+  cover: "/images/blog/idei-storis-vk/cover-es.webp",
   excerpt:
     "Ideas para stories de VK: encuestas, mini tips, behind the scenes, prompts de relay y quizzes para negocio y blogs — sin prometer miles de views ni formatos tóxicos de 2020.",
   lead: [

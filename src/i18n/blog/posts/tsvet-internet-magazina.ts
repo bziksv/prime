@@ -103,7 +103,7 @@ export const tsvetInternetMagazinaEs: BlogPost = {
   title: "Cómo elegir la paleta de color de una tienda online",
   date: "2018-05-16",
   category: "Digital marketing",
-  cover: "/images/blog/tsvet-internet-magazina/cover.webp",
+  cover: "/images/blog/tsvet-internet-magazina/cover-es.webp",
   excerpt:
     "Cómo elegir la paleta del storefront: vínculo con marca y producto, audiencia, rueda de color, acento de CTA y legibilidad — sin el mito de que «el color solo sube la conversión decenas de por ciento».",
   lead: [

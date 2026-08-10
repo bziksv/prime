@@ -261,7 +261,7 @@ export const molodoySaytEs: BlogPost = {
   title: "Cómo promover un sitio joven",
   date: "2021-03-04",
   category: "SEO",
-  cover: "/images/blog/molodoy-sayt/cover.webp",
+  cover: "/images/blog/molodoy-sayt/cover-es.webp",
   excerpt:
     "Por dónde empezar el SEO de un sitio nuevo: técnica, contenido, factores comerciales y plazos realistas — sin gaming de comportamiento ni secretos para «saltarse al competidor».",
   lead: [

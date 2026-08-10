@@ -219,7 +219,7 @@ export const ssylochnyyProfilEs: BlogPost = {
   title: "Análisis del perfil de backlinks: qué revisar en media hora",
   date: "2020-10-23",
   category: "SEO",
-  cover: "/images/blog/ssylochnyy-profil/cover.webp",
+  cover: "/images/blog/ssylochnyy-profil/cover-es.webp",
   excerpt:
     "Cómo evaluar rápido backlinks de una página y un dominio: referring domains, anchors, toxicidad, tendencias y comparación con competidores — sin magia de «primera página en una semana».",
   lead: [

@@ -187,7 +187,7 @@ export const abTestyReklamyEs: BlogPost = {
   title: "Tests A/B de ads en Yandex Direct y Google Ads",
   date: "2019-02-07",
   category: "Paid search",
-  cover: "/images/blog/ab-testy-reklamy/cover.webp",
+  cover: "/images/blog/ab-testy-reklamy/cover-es.webp",
   excerpt:
     "Cómo correr tests justos de anuncios en Yandex Direct y Google Ads: rotación, informes, experimentos de campaña y qué hacer cuando el volumen es bajo — sin aferrarte a rutas de menú de 2019.",
   lead: [

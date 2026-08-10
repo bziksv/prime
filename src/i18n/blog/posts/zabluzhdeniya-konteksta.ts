@@ -189,7 +189,7 @@ export const zabluzhdeniyaKontekstaEs: BlogPost = {
   title: "Publicidad contextual: 15 mitos que ya toca soltar",
   date: "2020-01-13",
   category: "Paid search",
-  cover: "/images/blog/zabluzhdeniya-konteksta/cover.webp",
+  cover: "/images/blog/zabluzhdeniya-konteksta/cover-es.webp",
   excerpt:
     "Mitos persistentes de PPC: solo búsqueda, solo posición 1, «display siempre quema», recomendaciones de Google a ciegas, ventas al instante y «triplica el presupuesto — triplicas leads» — qué falla en cada uno.",
   lead: [

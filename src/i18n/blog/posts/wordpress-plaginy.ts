@@ -161,7 +161,7 @@ export const wordpressPlaginyEs: BlogPost = {
   title: "Cómo instalar un plugin de WordPress: catálogo, ZIP y FTP",
   date: "2017-12-14",
   category: "Digital marketing",
-  cover: "/images/blog/wordpress-plaginy/cover.webp",
+  cover: "/images/blog/wordpress-plaginy/cover-es.webp",
   excerpt:
     "Tres formas de instalar un plugin en WordPress: búsqueda en el admin, subida ZIP y copia a wp-content/plugins — sin culto a «más installs = mejor» ni un montón de extensiones sin soporte.",
   lead: [

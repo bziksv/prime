@@ -185,7 +185,7 @@ export const wordpressUstanovkaEs: BlogPost = {
   title: "Cómo instalar WordPress en hosting",
   date: "2017-04-20",
   category: "Digital marketing",
-  cover: "/images/blog/wordpress-ustanovka/cover.webp",
+  cover: "/images/blog/wordpress-ustanovka/cover-es.webp",
   excerpt:
     "Instalar WordPress: requisitos de hosting, base de datos, subida de archivos, el wizard install.php y primeros ajustes — sin PHP 4.3 de guías de 2017 ni culto a Total Commander.",
   lead: [

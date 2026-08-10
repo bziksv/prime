@@ -173,7 +173,7 @@ export const vzaimopiarEs: BlogPost = {
   title: "Cross-promotion: cómo intercambiar menciones sin exchanges dudosos",
   date: "2021-01-21",
   category: "SMM",
-  cover: "/images/blog/vzaimopiar/cover.webp",
+  cover: "/images/blog/vzaimopiar/cover-es.webp",
   excerpt:
     "Cómo funciona el cross-promotion: elegir partner, formatos de intercambio, acuerdos y riesgos — sin un catálogo de «PR exchanges» de fake engagement ni el mito de que «gratis = crecimiento».",
   lead: [

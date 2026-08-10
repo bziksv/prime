@@ -125,7 +125,7 @@ export const elektronnayaKnigaEs: BlogPost = {
   title: "Un ebook para tu audiencia: cómo hacerlo rápido sin diseñador",
   date: "2019-03-07",
   category: "Digital marketing",
-  cover: "/images/blog/elektronnaya-kniga/cover.webp",
+  cover: "/images/blog/elektronnaya-kniga/cover-es.webp",
   excerpt:
     "Un ebook como lead magnet y prueba de expertise: PDF vs ePub, armarlo en Word o un builder, cómo distribuirlo — sin prometer «coste cero y una obra maestra en una hora».",
   lead: [

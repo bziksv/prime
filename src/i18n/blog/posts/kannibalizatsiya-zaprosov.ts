@@ -246,7 +246,7 @@ export const kannibalizatsiyaZaprosovEs: BlogPost = {
   title: "Canibalización de keywords: cómo encontrarla y arreglarla",
   date: "2019-08-08",
   category: "SEO",
-  cover: "/images/blog/kannibalizatsiya-zaprosov/cover.webp",
+  cover: "/images/blog/kannibalizatsiya-zaprosov/cover-es.webp",
   excerpt:
     "Cuando varias páginas del sitio pelean por una consulta, por qué duele, cómo detectar el conflicto y qué hacer: fusionar, separar intents o reforzar una URL.",
   lead: [

@@ -179,7 +179,7 @@ export const metategiEs: BlogPost = {
   title: "Meta tags y SEO: title, description, robots y keywords",
   date: "2021-03-18",
   category: "SEO",
-  cover: "/images/blog/metategi/cover.webp",
+  cover: "/images/blog/metategi/cover-es.webp",
   excerpt:
     "Qué son los meta tags HTML: por qué importan title y description, cómo robots controlan la indexación, por qué keywords casi no ayudan — sin «secretos» de ranking ni límites de caracteres desfasados.",
   lead: [

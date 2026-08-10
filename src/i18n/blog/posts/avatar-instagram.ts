@@ -182,7 +182,7 @@ export const avatarInstagramEs: BlogPost = {
   title: "Avatar de Instagram: cómo hacer una foto de perfil única",
   date: "2022-01-04",
   category: "SMM",
-  cover: "/images/blog/avatar-instagram/cover.webp",
+  cover: "/images/blog/avatar-instagram/cover-es.webp",
   excerpt:
     "Cómo elegir y hacer un avatar de Instagram: foto o dibujo, legibilidad en círculo, editores y cambiar la imagen sin dolores de derechos.",
   lead: [

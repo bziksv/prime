@@ -172,7 +172,7 @@ export const vovlechennostInstagramEs: BlogPost = {
   title: "Engagement en Instagram: ER y análisis del perfil",
   date: "2020-11-17",
   category: "SMM",
-  cover: "/images/blog/vovlechennost-instagram/cover.webp",
+  cover: "/images/blog/vovlechennost-instagram/cover-es.webp",
   excerpt:
     "Qué significa Engagement Rate en Instagram, qué fórmulas existen y cómo leer el ER con stats del perfil — sin el mito del «3% obligatorio» y sin engagement falso.",
   lead: [

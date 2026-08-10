@@ -157,7 +157,7 @@ export const ideiKontentProdvizheniyaEs: BlogPost = {
   title: "Ideas para promoción del sitio basada en contenido",
   date: "2019-08-13",
   category: "Content marketing",
-  cover: "/images/blog/idei-kontent-prodvizheniya/cover.webp",
+  cover: "/images/blog/idei-kontent-prodvizheniya/cover-es.webp",
   excerpt:
     "Formatos de contenido para tráfico orgánico y confianza: how-tos, guías para principiantes, research, experiencia, reviews y desmontar mitos — sin promesas de «primera línea de Google».",
   lead: [

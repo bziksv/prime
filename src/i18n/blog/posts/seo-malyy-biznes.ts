@@ -230,7 +230,7 @@ export const seoMalyyBiznesEs: BlogPost = {
   title: "SEO para pequeño negocio: por dónde empezar y qué saltar",
   date: "2020-11-13",
   category: "SEO",
-  cover: "/images/blog/seo-malyy-biznes/cover.webp",
+  cover: "/images/blog/seo-malyy-biznes/cover-es.webp",
   excerpt:
     "Prioridades SEO prácticas para un pequeño negocio: demanda local, velocidad, páginas claras, keywords sin construir un imperio — sin el mito de «primera página en una semana» y sin presupuesto enterprise.",
   lead: [

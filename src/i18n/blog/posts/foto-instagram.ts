@@ -157,7 +157,7 @@ export const fotoInstagramEs: BlogPost = {
   title: "Fotos para Instagram: idea, composición y disparo",
   date: "2021-06-29",
   category: "SMM",
-  cover: "/images/blog/foto-instagram/cover.webp",
+  cover: "/images/blog/foto-instagram/cover-es.webp",
   excerpt:
     "Cómo elegir un nicho visual, disparar con composición y luz, y preparar fotos para un blog o tienda en Instagram — sin clichés de «solo chicas» ni copiar feeds ajenos.",
   lead: [

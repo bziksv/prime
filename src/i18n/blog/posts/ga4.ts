@@ -106,7 +106,7 @@ export const ga4Es: BlogPost = {
   title: "Qué cambió en Google Analytics 4: de sesiones a eventos",
   date: "2020-10-16",
   category: "Digital marketing",
-  cover: "/images/blog/ga4/cover.webp",
+  cover: "/images/blog/ga4/cover-es.webp",
   excerpt:
     "En qué se diferencia GA4 de Universal Analytics: modelo de eventos, sitio y app en una property, enhanced measurements, audiencias y explorations. Sin nostalgia de UA ni capturas de botones de 2020.",
   lead: [

@@ -134,7 +134,7 @@ export const reklamaTiktokEs: BlogPost = {
   title: "Ads de TikTok: cómo lanzar una campaña en Ads Manager",
   date: "2020-04-27",
   category: "SMM",
-  cover: "/images/blog/reklama-tiktok/cover.webp",
+  cover: "/images/blog/reklama-tiktok/cover-es.webp",
   excerpt:
     "Cuándo tiene sentido TikTok Ads y cómo funciona un lanzamiento en Ads Manager: objetivo, presupuesto, targeting y creativo — sin mínimos obsoletos «desde $500» ni catálogos de apps de 2018.",
   lead: [

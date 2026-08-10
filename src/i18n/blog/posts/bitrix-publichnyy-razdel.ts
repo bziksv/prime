@@ -150,7 +150,7 @@ export const bitrixPublichnyyRazdelEs: BlogPost = {
   title: "Sección pública de 1C-Bitrix: barra de herramientas y modo edición",
   date: "2017-12-13",
   category: "Websites",
-  cover: "/images/blog/bitrix-publichnyy-razdel/cover.webp",
+  cover: "/images/blog/bitrix-publichnyy-razdel/cover-es.webp",
   excerpt:
     "Cómo funciona la barra de control del área pública de Bitrix: botones, modo edición, áreas include y componentes — sin aferrarse a screenshots de ediciones viejas ni al culto de meta keywords.",
   lead: [

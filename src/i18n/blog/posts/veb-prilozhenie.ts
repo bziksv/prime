@@ -122,7 +122,7 @@ export const vebPrilozhenieEs: BlogPost = {
   title: "Aplicación web: en qué se diferencia de un sitio y por qué la necesita el negocio",
   date: "2020-09-22",
   category: "Digital marketing",
-  cover: "/images/blog/veb-prilozhenie/cover.webp",
+  cover: "/images/blog/veb-prilozhenie/cover-es.webp",
   excerpt:
     "Qué es una web app, en qué se diferencia de un sitio escaparate, cómo funciona la cadena browser–servidor, y cuándo el negocio necesita cuenta, carrito o SPA — no solo una landing.",
   lead: [

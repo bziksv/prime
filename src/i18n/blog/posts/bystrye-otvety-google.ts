@@ -130,7 +130,7 @@ export const bystryeOtvetyGoogleEs: BlogPost = {
   title: "Featured snippets de Google: cómo entrar y qué vigilar",
   date: "2019-07-19",
   category: "Digital marketing",
-  cover: "/images/blog/bystrye-otvety-google/cover.webp",
+  cover: "/images/blog/bystrye-otvety-google/cover-es.webp",
   excerpt:
     "Cómo funciona el bloque featured snippet de Google: formatos, el rol de las long-tails de pregunta, estructura de la respuesta en la página — sin garantía de «posición cero» y con ojo a AI Overviews.",
   lead: [

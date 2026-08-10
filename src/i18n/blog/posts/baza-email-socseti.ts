@@ -129,7 +129,7 @@ export const bazaEmailSocsetiEs: BlogPost = {
   title: "Cómo crecer una lista de email desde redes: forms, contenido y ads",
   date: "2020-01-10",
   category: "SMM",
-  cover: "/images/blog/baza-email-socseti/cover.webp",
+  cover: "/images/blog/baza-email-socseti/cover-es.webp",
   excerpt:
     "Cómo captar subscribers de newsletter desde redes de forma legal: lead forms, enlaces en bio, content magnets y ads — con consentimiento y sin annotations obsoletas de YouTube.",
   lead: [

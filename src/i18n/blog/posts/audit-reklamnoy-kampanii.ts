@@ -136,7 +136,7 @@ export const auditReklamnoyKampaniiEs: BlogPost = {
   title: "Auditoría de campaña de ads: por qué, etapas y qué revisar",
   date: "2019-07-08",
   category: "Paid search",
-  cover: "/images/blog/audit-reklamnoy-kampanii/cover.webp",
+  cover: "/images/blog/audit-reklamnoy-kampanii/cover-es.webp",
   excerpt:
     "Una auditoría de paid search: cuándo pedirla, etapas técnicas y analíticas, optimización continua y cómo entregar resultados al cliente sin «receta de médico».",
   lead: [

@@ -119,7 +119,7 @@ export const primeryEmailRassylokEs: BlogPost = {
   title: "Ejemplos de newsletters: técnicas de marcas globales",
   date: "2020-03-20",
   category: "Email marketing",
-  cover: "/images/blog/primery-email-rassylok/cover.webp",
+  cover: "/images/blog/primery-email-rassylok/cover-es.webp",
   excerpt:
     "Qué aprender de emails fuertes: dos ofertas en una carta, un welcome cálido, una barra de progreso, una encuesta, un recordatorio y un tono honesto — sin copiar layouts ajenos uno a uno.",
   lead: [

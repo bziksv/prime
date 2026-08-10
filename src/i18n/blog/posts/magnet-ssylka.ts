@@ -121,7 +121,7 @@ export const magnetSsylkaEs: BlogPost = {
   title: "Enlaces magnet: qué son y cómo funcionan",
   date: "2020-08-06",
   category: "Websites",
-  cover: "/images/blog/magnet-ssylka/cover.webp",
+  cover: "/images/blog/magnet-ssylka/cover-es.webp",
   excerpt:
     "Qué es una magnet URI: un hash de archivo en vez de una URL normal, parámetros xt/dn/tr, cómo difiere de un .torrent y riesgos de descarga. Sin catálogos de trackers piratas.",
   lead: [

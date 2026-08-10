@@ -209,7 +209,7 @@ export const tselevayaAuditoriyaEs: BlogPost = {
   title: "Cómo definir tu audiencia objetivo: preguntas y segmentos",
   date: "2019-07-12",
   category: "SEO",
-  cover: "/images/blog/tselevaya-auditoriya/cover.webp",
+  cover: "/images/blog/tselevaya-auditoriya/cover-es.webp",
   excerpt:
     "Un desglose práctico de audiencia: demografía, jobs, anti-persona, segmentos y fuentes de datos — para que ads y contenido no disparen al vacío.",
   lead: [

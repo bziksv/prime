@@ -142,7 +142,7 @@ export const ssylkaStoriesInstagramEs: BlogPost = {
     "Enlaces en Instagram Stories: sticker, CTA y qué pasó con el «swipe up»",
   date: "2020-09-11",
   category: "SMM",
-  cover: "/images/blog/ssylka-stories-instagram/cover.webp",
+  cover: "/images/blog/ssylka-stories-instagram/cover-es.webp",
   excerpt:
     "Cómo añadir un enlace tocable en Instagram Stories: el sticker Link, saltos internos, ads y límites — sin el «swipe up» obsoleto como único método.",
   lead: [

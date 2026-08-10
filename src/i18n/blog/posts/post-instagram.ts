@@ -177,7 +177,7 @@ export const postInstagramEs: BlogPost = {
   title: "Un post de venta en Instagram: estructura y titular",
   date: "2021-12-07",
   category: "SMM",
-  cover: "/images/blog/post-instagram/cover.webp",
+  cover: "/images/blog/post-instagram/cover-es.webp",
   excerpt:
     "Cómo armar un post de venta en Instagram: oferta, USP, estructura del copy, titular, CTA y gestión de comentarios.",
   lead: [

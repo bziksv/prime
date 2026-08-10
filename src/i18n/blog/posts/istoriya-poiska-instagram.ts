@@ -180,7 +180,7 @@ export const istoriyaPoiskaInstagramEs: BlogPost = {
   title: "Historial de búsqueda de Instagram: cómo verlo y borrarlo",
   date: "2021-07-07",
   category: "SMM",
-  cover: "/images/blog/istoriya-poiska-instagram/cover.webp",
+  cover: "/images/blog/istoriya-poiska-instagram/cover-es.webp",
   excerpt:
     "Qué guarda Instagram en el historial de búsqueda, por qué borrarlo, cómo quitar queries recientes y qué no borra el clear — sin capturas de botones obsoletas.",
   lead: [

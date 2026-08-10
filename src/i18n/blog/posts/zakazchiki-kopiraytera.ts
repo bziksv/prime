@@ -160,7 +160,7 @@ export const zakazchikiKopirayteraEs: BlogPost = {
   title: "Encontrar clientes para un copywriter: por dónde empezar",
   date: "2020-10-30",
   category: "Content marketing",
-  cover: "/images/blog/zakazchiki-kopiraytera/cover.webp",
+  cover: "/images/blog/zakazchiki-kopiraytera/cover-es.webp",
   excerpt:
     "Cómo un copywriter encuentra clientes: portfolio, canales de búsqueda, un pitch fuerte y condiciones de trabajo — sin un catálogo de grupos obsoletos ni dumping «desde céntimos por 1.000 caracteres».",
   lead: [

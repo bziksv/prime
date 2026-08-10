@@ -217,7 +217,7 @@ export const excelGoogleTablitsyEs: BlogPost = {
   title: "Excel y Google Sheets para SEO: limpieza de keywords y fórmulas",
   date: "2019-05-24",
   category: "SEO",
-  cover: "/images/blog/excel-google-tablitsy/cover.webp",
+  cover: "/images/blog/excel-google-tablitsy/cover-es.webp",
   excerpt:
     "Cómo procesar keywords en Excel y Google Sheets: quitar enlaces y signos más, arreglar espacios, eliminar duplicados, armar negativas, ordenar y usar fórmulas útiles — sin Key Collector.",
   lead: [

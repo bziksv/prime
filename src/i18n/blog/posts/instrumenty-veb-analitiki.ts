@@ -203,7 +203,7 @@ export const instrumentyVebAnalitikiEs: BlogPost = {
   title: "Herramientas de web analytics: tags, logs y dashboards",
   date: "2018-11-16",
   category: "SEO",
-  cover: "/images/blog/instrumenty-veb-analitiki/cover.webp",
+  cover: "/images/blog/instrumenty-veb-analitiki/cover-es.webp",
   excerpt:
     "Qué te dan los sistemas de analytics, en qué se diferencian los tags JS de los analizadores de logs, por qué importan Metrica y Google Analytics, y cómo no ahogarte en informes sin goals.",
   lead: [

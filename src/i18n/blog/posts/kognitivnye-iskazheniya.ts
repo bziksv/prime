@@ -144,7 +144,7 @@ export const kognitivnyeIskazheniyaEs: BlogPost = {
   title: "6 sesgos cognitivos que moldean la elección del comprador",
   date: "2019-01-30",
   category: "Digital marketing",
-  cover: "/images/blog/kognitivnye-iskazheniya/cover.webp",
+  cover: "/images/blog/kognitivnye-iskazheniya/cover-es.webp",
   excerpt:
     "Mere exposure, aversión a la pérdida, compromiso, framing, efecto IKEA y señales de trust — cómo usar la psicología de la elección en ofertas y UX sin dark patterns.",
   lead: [

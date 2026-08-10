@@ -176,7 +176,7 @@ export const yandeksMarketEs: BlogPost = {
   title: "Yandex Market: cómo listar una tienda online",
   date: "2018-06-13",
   category: "Digital marketing",
-  cover: "/images/blog/yandeks-market/cover.webp",
+  cover: "/images/blog/yandeks-market/cover-es.webp",
   excerpt:
     "Cómo conectar una tienda a Yandex Market: requisitos del sitio, feed YML, entrega y moderación — sin claims obsoletos de «audiencia de 20 millones» ni promesas de ventas fáciles.",
   lead: [

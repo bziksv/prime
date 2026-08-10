@@ -171,7 +171,7 @@ export const besplatnoeRazmeshchenieStateyEs: BlogPost = {
   title: "Dónde colocar artículos gratis para promover un sitio",
   date: "2021-11-23",
   category: "SEO",
-  cover: "/images/blog/besplatnoe-razmeshchenie-statey/cover.webp",
+  cover: "/images/blog/besplatnoe-razmeshchenie-statey/cover-es.webp",
   excerpt:
     "Guest posts y placements en medios para enlaces y tráfico: cómo preparar la pieza, dónde pitchar, reglas editoriales típicas y errores de unicidad.",
   lead: [

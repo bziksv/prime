@@ -86,7 +86,7 @@ export const pinterestSkachatEs: BlogPost = {
   title: "Cómo guardar una imagen de Pinterest en el teléfono y el ordenador",
   date: "2021-06-14",
   category: "SMM",
-  cover: "/images/blog/pinterest-skachat/cover.webp",
+  cover: "/images/blog/pinterest-skachat/cover-es.webp",
   excerpt:
     "Cómo guardar legalmente una imagen de Pinterest en un dispositivo: descarga integrada, la app y tableros de ideas — con un recordatorio sobre derechos de autor.",
   lead: [

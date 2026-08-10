@@ -155,7 +155,7 @@ export const kontentnoeProdvizhenieEs: BlogPost = {
   title: "8 consejos para promoción del sitio basada en contenido",
   date: "2018-08-17",
   category: "Content marketing",
-  cover: "/images/blog/kontentnoe-prodvizhenie/cover.webp",
+  cover: "/images/blog/kontentnoe-prodvizhenie/cover-es.webp",
   excerpt:
     "Promociona un sitio con contenido: originalidad sin fetichismo del % de unicidad, tema y audiencia reales, keywords sin stuffing, utilidad, updates, un blog y qué significa LSI de verdad — sin promesas de «primera página con un solo artículo».",
   lead: [

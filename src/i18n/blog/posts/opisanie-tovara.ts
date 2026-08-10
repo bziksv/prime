@@ -234,7 +234,7 @@ export const opisanieTovaraEs: BlogPost = {
   title: "Descripción de producto en una ficha ecommerce",
   date: "2020-07-27",
   category: "Content marketing",
-  cover: "/images/blog/opisanie-tovara/cover.webp",
+  cover: "/images/blog/opisanie-tovara/cover-es.webp",
   excerpt:
     "Cómo escribir la descripción de una ficha de producto: fotos y copy, emoción sin fluff, features y specs, estructura y SEO — para que el comprador encuentre argumentos de precio y haga el pedido.",
   lead: [

@@ -201,7 +201,7 @@ export const instagramDirectEs: BlogPost = {
   title: "Saludos y mensajes en Instagram Direct — sin spam",
   date: "2021-12-24",
   category: "SMM",
-  cover: "/images/blog/instagram-direct/cover.webp",
+  cover: "/images/blog/instagram-direct/cover-es.webp",
   excerpt:
     "Auto-respuestas y chat en Instagram Direct: por qué importan, qué setups funcionan y por qué los DMs masivos fríos y los bots ponen la cuenta en riesgo — sin un roundup de herramientas dudosas.",
   lead: [

@@ -155,7 +155,7 @@ export const parolInstagramEs: BlogPost = {
   title: "Restablecer y cambiar la contraseña de Instagram: cómo recuperar el acceso",
   date: "2021-11-09",
   category: "SMM",
-  cover: "/images/blog/parol-instagram/cover.webp",
+  cover: "/images/blog/parol-instagram/cover-es.webp",
   excerpt:
     "Cuándo cambiar la contraseña de Instagram, cómo recuperar el login vía email, SMS y soporte, qué hacer si te hackean y cómo endurecer la seguridad de la cuenta.",
   lead: [

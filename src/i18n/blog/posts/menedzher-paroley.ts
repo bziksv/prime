@@ -170,7 +170,7 @@ export const menedzherParoleyEs: BlogPost = {
   title: "Gestor de contraseñas: por qué lo necesitas y cómo elegir",
   date: "2018-04-06",
   category: "Digital marketing",
-  cover: "/images/blog/menedzher-paroley/cover.webp",
+  cover: "/images/blog/menedzher-paroley/cover-es.webp",
   excerpt:
     "Por qué importa un gestor de contraseñas en lo personal y en el equipo: contraseñas únicas, 2FA, criterios de selección — sin un listicle desfasado de «los tres mejores» ni precios de 2018.",
   lead: [

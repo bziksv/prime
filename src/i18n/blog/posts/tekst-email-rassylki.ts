@@ -6,7 +6,7 @@ export const tekstEmailRassylkiEs: BlogPost = {
   title: "Copy persuasivo de newsletter: 5 pasos",
   date: "2019-09-24",
   category: "Email marketing",
-  cover: "/images/blog/tekst-email-rassylki/cover.webp",
+  cover: "/images/blog/tekst-email-rassylki/cover-es.webp",
   excerpt:
     "Cómo escribir copy de email: objetivos y segmentos, lenguaje de la audiencia, tipos de mensaje (welcome, ventas, pedido), técnicas de persuasión y chequeo previo al envío — sin el mito de que «el email está muerto».",
   lead: [

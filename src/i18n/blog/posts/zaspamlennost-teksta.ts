@@ -132,7 +132,7 @@ export const zaspamlennostTekstaEs: BlogPost = {
   title: "Keyword stuffing: qué es y cómo arreglarlo",
   date: "2021-10-29",
   category: "SEO",
-  cover: "/images/blog/zaspamlennost-teksta/cover.webp",
+  cover: "/images/blog/zaspamlennost-teksta/cover-es.webp",
   excerpt:
     "Qué significan el keyword stuffing y las puntuaciones de «náusea» del texto, cómo el exceso de keywords duele a lectores y SEO, qué tools miden densidad y cómo limpiar el copy sin rellenarlo de fluff.",
   lead: [

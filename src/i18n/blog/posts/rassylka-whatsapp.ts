@@ -150,7 +150,7 @@ export const rassylkaWhatsappEs: BlogPost = {
   title: "Broadcasts de WhatsApp: Business API, consentimiento y sin spam",
   date: "2022-02-01",
   category: "SMM",
-  cover: "/images/blog/rassylka-whatsapp/cover.webp",
+  cover: "/images/blog/rassylka-whatsapp/cover-es.webp",
   excerpt:
     "Cómo puede un negocio escribir en WhatsApp de forma legal: listas de broadcast manuales, Business API oficial, plantillas y sesiones — sin listas de números compradas ni remitentes «de agencia» grises. Nota Meta en la página.",
   lead: [

@@ -145,7 +145,7 @@ export const napominanieKlientuEs: BlogPost = {
   title: "Recordar con suavidad a los clientes que estás: canales y ocasiones",
   date: "2020-11-12",
   category: "Marketing digital",
-  cover: "/images/blog/napominanie-klientu/cover.webp",
+  cover: "/images/blog/napominanie-klientu/cover-es.webp",
   excerpt:
     "Cómo recuperar la atención con suavidad: push útil, email y triggers, carrito abandonado, fiestas y pedidos de reseña — con consentimiento y sin spam de «hace tiempo que no nos visitas».",
   lead: [

@@ -205,7 +205,7 @@ export const googleBiznesEs: BlogPost = {
   title: "Ficha de negocio en Google Maps: cómo añadir tu empresa",
   date: "2020-12-24",
   category: "SEO",
-  cover: "/images/blog/google-biznes/cover.webp",
+  cover: "/images/blog/google-biznes/cover-es.webp",
   excerpt:
     "Cómo aparecer en Google Maps y en el local pack: Google Business Profile, verificación, datos, fotos y reseñas — sin capturas obsoletas de «Google My Business 2020».",
   lead: [

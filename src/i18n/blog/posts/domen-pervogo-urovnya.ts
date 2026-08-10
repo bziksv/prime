@@ -137,7 +137,7 @@ export const domenPervogoUrovnyaEs: BlogPost = {
   title: "Dominios de primer nivel: qué es un TLD y cómo influye en el SEO",
   date: "2021-10-12",
   category: "SEO",
-  cover: "/images/blog/domen-pervogo-urovnya/cover.webp",
+  cover: "/images/blog/domen-pervogo-urovnya/cover-es.webp",
   excerpt:
     "Qué es un dominio de primer nivel (TLD): .ru, .com y otras zonas. Cómo se diferencian los niveles del nombre, qué tiene que ver la zona con SEO y tráfico, y cómo elegir el nombre.",
   lead: [

@@ -177,7 +177,7 @@ export const kvizSaytEs: BlogPost = {
   title: "Sitio quiz: cuándo lo necesitas y cómo hacerlo funcionar",
   date: "2020-01-14",
   category: "Digital marketing",
-  cover: "/images/blog/kviz-sayt/cover.webp",
+  cover: "/images/blog/kviz-sayt/cover-es.webp",
   excerpt:
     "Qué son un sitio quiz y un quiz en landing: gamificación, cuándo una encuesta multi-paso gana a una página larga, algoritmo de build, y builder vs agencia.",
   lead: [

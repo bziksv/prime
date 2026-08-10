@@ -145,7 +145,7 @@ export const chromeRasshireniyaMarketingEs: BlogPost = {
   title: "Extensiones de Chrome para digital marketing: un stack por tarea",
   date: "2020-01-15",
   category: "Digital marketing",
-  cover: "/images/blog/chrome-rasshireniya-marketing/cover.webp",
+  cover: "/images/blog/chrome-rasshireniya-marketing/cover-es.webp",
   excerpt:
     "Qué clases de extensiones de Chrome ayudan a marketers: tareas y time tracking, screenshots y fuentes, UTM y short links, email y seguridad — sin un catálogo de 25 nombres caducados.",
   lead: [

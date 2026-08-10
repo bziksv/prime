@@ -168,7 +168,7 @@ export const tochkiRostaSaytaEs: BlogPost = {
   title: "Puntos de crecimiento del sitio: dónde mirar cuando el tráfico y los leads se estancan",
   date: "2019-09-20",
   category: "Digital marketing",
-  cover: "/images/blog/tochki-rosta-sayta/cover.webp",
+  cover: "/images/blog/tochki-rosta-sayta/cover-es.webp",
   excerpt:
     "Qué hacer cuando el crecimiento del sitio llega a una meseta: ampliar el conjunto de keywords, reforzar CRO y landings, corregir comportamiento y velocidad, sumar contenido y canales — sin el mito de que ya está todo exprimido.",
   lead: [

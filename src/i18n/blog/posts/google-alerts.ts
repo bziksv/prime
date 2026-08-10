@@ -178,7 +178,7 @@ export const googleAlertsEs: BlogPost = {
   title: "Google Alerts: cómo rastrear menciones y temas",
   date: "2019-06-03",
   category: "Digital marketing",
-  cover: "/images/blog/google-alerts/cover.webp",
+  cover: "/images/blog/google-alerts/cover-es.webp",
   excerpt:
     "Qué es Google Alerts: avisos por email para queries de búsqueda de Google. Cómo configurarlo, qué tareas de marca y contenido cubre y dónde están los límites — sin promesas de «acelerar SEO» ni redes sociales muertas.",
   lead: [

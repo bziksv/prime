@@ -136,7 +136,7 @@ export const formyZahvataEs: BlogPost = {
   title: "Formularios de captación en un sitio: tipos, objetivos y cómo no molestar",
   date: "2019-09-17",
   category: "Digital marketing",
-  cover: "/images/blog/formy-zahvata/cover.webp",
+  cover: "/images/blog/formy-zahvata/cover-es.webp",
   excerpt:
     "Formularios de leads en un sitio: para qué existen, layouts cerrados/abiertos/dobles, escenarios de alta, callback, calculadora y chat — con consentimiento de datos personales y sin spam de popups.",
   lead: [

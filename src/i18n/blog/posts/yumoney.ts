@@ -159,7 +159,7 @@ export const yumoneyEs: BlogPost = {
   title: "YooMoney (Yandex.Wallet): qué es y cómo usarlo",
   date: "2021-04-30",
   category: "Marketing digital",
-  cover: "/images/blog/yumoney/cover.webp",
+  cover: "/images/blog/yumoney/cover-es.webp",
   excerpt:
     "YooMoney (antes Yandex.Money / Yandex.Wallet): monedero electrónico para pagos y transferencias, niveles de identificación, ingreso y retiros — sin capturas obsoletas ni confundirlo con YooKassa.",
   lead: [

@@ -124,7 +124,7 @@ export const zashchitaKontentaEs: BlogPost = {
   title: "Cómo proteger el texto del sitio frente a la copia",
   date: "2019-12-21",
   category: "Content marketing",
-  cover: "/images/blog/zashchita-kontenta/cover.webp",
+  cover: "/images/blog/zashchita-kontenta/cover-es.webp",
   excerpt:
     "Plagio de texto: por qué hace daño, cómo monitorizar copias, qué hacer tras el robo y por qué desactivar el clic derecho apenas ayuda — sin mitos cultistas de link-score obsoletos.",
   lead: [

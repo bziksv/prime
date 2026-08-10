@@ -141,7 +141,7 @@ export const analizKonkurentovEs: BlogPost = {
   title: "Análisis del sitio de la competencia: tráfico, visibilidad y reputación",
   date: "2021-10-19",
   category: "SEO",
-  cover: "/images/blog/analiz-konkurentov/cover.webp",
+  cover: "/images/blog/analiz-konkurentov/cover-es.webp",
   excerpt:
     "Cómo estimar el tráfico y la visibilidad de la competencia: SimilarWeb, Ahrefs, Semrush y otras fuentes. Por qué divergen las cifras — y cómo no engañarte.",
   lead: [

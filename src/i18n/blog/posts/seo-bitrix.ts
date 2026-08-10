@@ -146,7 +146,7 @@ export const seoBitrixEs: BlogPost = {
   title: "SEO en 1C-Bitrix: robots, meta y setup base",
   date: "2021-06-22",
   category: "SEO",
-  cover: "/images/blog/seo-bitrix/cover.webp",
+  cover: "/images/blog/seo-bitrix/cover-es.webp",
   excerpt:
     "Qué da el módulo SEO integrado de 1C-Bitrix, cómo manejar robots.txt, plantillas meta y contadores con cuidado — sin tratar los módulos de pago del Marketplace como el único camino.",
   lead: [

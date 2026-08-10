@@ -159,7 +159,7 @@ export const jsonEs: BlogPost = {
   title: "JSON: qué es, cómo abrirlo y dónde se usa",
   date: "2020-03-26",
   category: "Sitios web",
-  cover: "/images/blog/json/cover.webp",
+  cover: "/images/blog/json/cover-es.webp",
   excerpt:
     "Qué es JSON: un formato de texto para intercambio de datos, sintaxis de objetos y arrays, Ajax, parse vs eval con seguridad, y cómo abrir un archivo .json.",
   lead: [

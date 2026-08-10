@@ -170,7 +170,7 @@ export const yandeksKatalogEs: BlogPost = {
   title: "Cierre de Yandex.Catalog: qué era y qué lo sustituye",
   date: "2018-03-13",
   category: "SEO",
-  cover: "/images/blog/yandeks-katalog/cover.webp",
+  cover: "/images/blog/yandeks-katalog/cover-es.webp",
   excerpt:
     "Por qué cerró Yandex.Catalog, qué pasó con el TIC y las regiones, y dónde vive ahora la presencia local: Webmaster, Business/Maps y directorios vivos.",
   lead: [

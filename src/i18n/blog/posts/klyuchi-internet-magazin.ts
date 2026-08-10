@@ -213,7 +213,7 @@ export const klyuchiInternetMagazinEs: BlogPost = {
   title: "Keywords para una tienda online: research y filtrado",
   date: "2021-01-26",
   category: "SEO",
-  cover: "/images/blog/klyuchi-internet-magazin/cover.webp",
+  cover: "/images/blog/klyuchi-internet-magazin/cover-es.webp",
   excerpt:
     "Cómo armar la semántica de una tienda online: productos y categorías, herramientas de keywords y filtros de basura, clusters para fichas — sin copiar el núcleo de un competidor «tal cual» ni prometer primera página en una semana.",
   lead: [

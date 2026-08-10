@@ -222,7 +222,7 @@ export const istochnikiTrafikaEs: BlogPost = {
   title: "Principales fuentes de tráfico web: qué probar",
   date: "2019-12-26",
   category: "Digital marketing",
-  cover: "/images/blog/istochniki-trafika/cover.webp",
+  cover: "/images/blog/istochniki-trafika/cover-es.webp",
   excerpt:
     "Panorama de canales: orgánico, paid search, directorios y agregadores, clasificados, social, email, display y redes de ads — pros, contras y un orden sensato de test.",
   lead: [

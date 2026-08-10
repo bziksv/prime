@@ -207,7 +207,7 @@ export const wordpressBezopasnostEs: BlogPost = {
   title: "Seguridad del sitio WordPress: checklist práctico",
   date: "2019-12-27",
   category: "SEO",
-  cover: "/images/blog/wordpress-bezopasnost/cover.webp",
+  cover: "/images/blog/wordpress-bezopasnost/cover-es.webp",
   excerpt:
     "Cómo bajar el riesgo de breach en WordPress: updates, contraseñas, login, plugins y temas, backups, HTTPS, 2FA y least privilege — sin how-tos de ataque.",
   lead: [

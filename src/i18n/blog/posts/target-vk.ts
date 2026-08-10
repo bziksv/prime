@@ -152,7 +152,7 @@ export const targetVkEs: BlogPost = {
   title: "Ads dirigidos en VK: setup paso a paso",
   date: "2019-12-24",
   category: "SMM",
-  cover: "/images/blog/target-vk/cover.webp",
+  cover: "/images/blog/target-vk/cover-es.webp",
   excerpt:
     "Cómo lanzar targeting en VK Ads: formatos, audiencia, remarketing y pixel, schedule, CPC/CPM y lectura de stats — sin click paths obsoletos de cuentas de 2019.",
   lead: [

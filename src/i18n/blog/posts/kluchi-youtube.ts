@@ -104,7 +104,7 @@ export const kluchiYoutubeEs: BlogPost = {
   title: "Keywords de YouTube: cómo armar el set de búsqueda de un vídeo",
   date: "2020-11-10",
   category: "SMM",
-  cover: "/images/blog/kluchi-youtube/cover.webp",
+  cover: "/images/blog/kluchi-youtube/cover-es.webp",
   excerpt:
     "Cómo elegir keywords para título, descripción y tags de YouTube: la retención gana a un set «perfecto», sugerencias de búsqueda y tools de demanda, review de competidores y queries long-tail — sin promesas de ranking en una semana.",
   lead: [

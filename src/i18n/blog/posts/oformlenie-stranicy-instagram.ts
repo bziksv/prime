@@ -187,7 +187,7 @@ export const oformlenieStranicyInstagramEs: BlogPost = {
   title: "Diseño del perfil de Instagram: visuales, cabecera y un look cohesivo",
   date: "2022-03-10",
   category: "SMM",
-  cover: "/images/blog/oformlenie-stranicy-instagram/cover.webp",
+  cover: "/images/blog/oformlenie-stranicy-instagram/cover-es.webp",
   excerpt:
     "Cómo planificar los visuales del perfil: bio, avatar, un estilo de feed consistente, posts y vídeo corto — sin aferrarte a etiquetas de UI obsoletas.",
   lead: [

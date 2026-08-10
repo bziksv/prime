@@ -213,7 +213,7 @@ export const katalogiSaytovEs: BlogPost = {
   title: "Registrar un sitio en directorios: qué sigue funcionando",
   date: "2020-10-08",
   category: "SEO",
-  cover: "/images/blog/katalogi-saytov/cover.webp",
+  cover: "/images/blog/katalogi-saytov/cover-es.webp",
   excerpt:
     "Cuándo el registro en directorios y listings trae tráfico y menciones — y cuándo es spam; cómo rellenar un perfil, qué plataformas elegir y qué evitar.",
   lead: [

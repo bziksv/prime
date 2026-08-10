@@ -162,7 +162,7 @@ export const filtryPoiskovikovEs: BlogPost = {
   title: "Filtros de buscadores: cómo mantenerte limpio y qué hacer",
   date: "2021-06-03",
   category: "SEO",
-  cover: "/images/blog/filtry-poiskovikov/cover.webp",
+  cover: "/images/blog/filtry-poiskovikov/cover-es.webp",
   excerpt:
     "Por qué los sitios pierden rankings por filtros y actualizaciones de algoritmo, cómo diagnosticar el problema y cómo crecer en orgánico con métodos white-hat — sin trucos de bypass ni esquemas grises.",
   lead: [

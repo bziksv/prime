@@ -6,7 +6,7 @@ export const emailDlyaBiznesaEs: BlogPost = {
   title: "Email marketing: qué negocios lo necesitan",
   date: "2019-09-12",
   category: "Email marketing",
-  cover: "/images/blog/email-dlya-biznesa/cover.webp",
+  cover: "/images/blog/email-dlya-biznesa/cover-es.webp",
   excerpt:
     "Quién necesita email: servicio vs producto, B2B y B2C, el rol en distintas etapas de crecimiento y por qué importan las buyer personas — sin una receta única para todos.",
   lead: [

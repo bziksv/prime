@@ -246,7 +246,7 @@ export const tochkiVhodaEs: BlogPost = {
   title: "Puntos de entrada del competidor: cómo encontrarlos y por qué importan",
   date: "2020-01-20",
   category: "SEO",
-  cover: "/images/blog/tochki-vhoda/cover.webp",
+  cover: "/images/blog/tochki-vhoda/cover-es.webp",
   excerpt:
     "Qué es un punto de entrada, por qué estudiar las landings de búsqueda de los competidores, cómo exportar consultas y ampliar el núcleo de keywords — sin copiar el sitio ajeno.",
   lead: [

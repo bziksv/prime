@@ -292,7 +292,7 @@ export const yandeksVebmasterEs: BlogPost = {
   title: "Yandex Webmaster: cómo conectar y qué mirar",
   date: "2020-01-23",
   category: "SEO",
-  cover: "/images/blog/yandeks-vebmaster/cover.webp",
+  cover: "/images/blog/yandeks-vebmaster/cover-es.webp",
   excerpt:
     "Por qué importa Yandex Webmaster, cómo verificar un sitio, qué secciones mirar (overview, diagnostics, índice, consultas, enlaces, tools) y cómo no confundir informes con un interruptor de ranking.",
   lead: [

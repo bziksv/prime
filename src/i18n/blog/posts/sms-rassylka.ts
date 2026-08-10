@@ -169,7 +169,7 @@ export const smsRassylkaEs: BlogPost = {
   title: "Campañas SMS: por dónde empezar y cómo no volverte spam",
   date: "2019-11-15",
   category: "Digital marketing",
-  cover: "/images/blog/sms-rassylka/cover.webp",
+  cover: "/images/blog/sms-rassylka/cover-es.webp",
   excerpt:
     "Cómo lanzar SMS: trabajos del canal, tu propia lista y consentimiento, elegir operador/agregador, copy corto, frecuencia, opt-out y medición — sin spam frío a números comprados.",
   lead: [

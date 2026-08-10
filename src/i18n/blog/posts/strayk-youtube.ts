@@ -137,7 +137,7 @@ export const straykYoutubeEs: BlogPost = {
   title: "Strike en YouTube: qué es, por qué te llega y qué hacer",
   date: "2021-08-24",
   category: "SMM",
-  cover: "/images/blog/strayk-youtube/cover.webp",
+  cover: "/images/blog/strayk-youtube/cover-es.webp",
   excerpt:
     "En qué se diferencia un strike de Community Guidelines de una reclamación de copyright, qué límites aplican, cómo revisar el estado del canal y cómo apelar o evitar sanciones.",
   lead: [

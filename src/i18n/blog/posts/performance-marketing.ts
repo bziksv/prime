@@ -148,7 +148,7 @@ export const performanceMarketingEs: BlogPost = {
   title: "Performance marketing: qué es, en qué se diferencia del branding y cómo funciona",
   date: "2019-08-05",
   category: "Digital marketing",
-  cover: "/images/blog/performance-marketing/cover.webp",
+  cover: "/images/blog/performance-marketing/cover-es.webp",
   excerpt:
     "El performance marketing va de resultados medibles del embudo: leads, ventas, CPA y ROAS. En qué se diferencia del branding, qué canales encajan y por qué importan los datos y una agencia.",
   lead: [

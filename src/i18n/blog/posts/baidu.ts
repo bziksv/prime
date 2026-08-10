@@ -205,7 +205,7 @@ export const baiduEs: BlogPost = {
   title: "Baidu y la promoción en China: registro y servicios clave",
   date: "2020-09-03",
   category: "SEO",
-  cover: "/images/blog/baidu/cover.webp",
+  cover: "/images/blog/baidu/cover-es.webp",
   excerpt:
     "Cuándo hace falta Baidu, en qué se diferencia la búsqueda china de Google y Yandex, qué servicios del ecosistema importan para SEO y cómo encarar el registro sin esquemas grises.",
   lead: [

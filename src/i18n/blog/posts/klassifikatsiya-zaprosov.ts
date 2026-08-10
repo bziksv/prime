@@ -6,7 +6,7 @@ export const klassifikatsiyaZaprosovEs: BlogPost = {
   title: "Clasificar consultas de búsqueda por objetivos",
   date: "2017-09-28",
   category: "SEO",
-  cover: "/images/blog/klassifikatsiya-zaprosov/cover.webp",
+  cover: "/images/blog/klassifikatsiya-zaprosov/cover-es.webp",
   excerpt:
     "Cómo se parten las consultas: informativas, comerciales, transaccionales, navegacionales, geo y estacionales — y por qué importa para SEO y contenido. Frecuencia y competencia son ejes relacionados, no un sustituto de la intención.",
   lead: [

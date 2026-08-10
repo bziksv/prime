@@ -149,7 +149,7 @@ export const analogiYandeksMarketEs: BlogPost = {
   title: "Alternativas a Yandex Market: por qué diversificar y cómo elegir",
   date: "2021-06-24",
   category: "E-commerce",
-  cover: "/images/blog/analogi-yandeks-market/cover.webp",
+  cover: "/images/blog/analogi-yandeks-market/cover-es.webp",
   excerpt:
     "Por qué una tienda online no debería apoyarse solo en Yandex Market, qué tipos de plataformas cercanas existen y cómo elegir canales de venta — sin un catálogo 2021 de servicios muertos.",
   lead: [

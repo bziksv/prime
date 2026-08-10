@@ -163,7 +163,7 @@ export const startInternetMagazinaEs: BlogPost = {
   title: "Cómo arrancar una tienda online: qué aprender antes del lanzamiento",
   date: "2020-11-10",
   category: "E-commerce",
-  cover: "/images/blog/start-internet-magazina/cover.webp",
+  cover: "/images/blog/start-internet-magazina/cover-es.webp",
   excerpt:
     "Checklist de conocimientos antes de lanzar una tienda online: producto y unit economics, escaparate, pago y logística, marketing y SEO — sin promesas de «millón pasivo sin esfuerzo».",
   lead: [

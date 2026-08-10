@@ -157,7 +157,7 @@ export const soobshhestvaVkEs: BlogPost = {
   title: "Comunidades VK: página pública, grupo y evento",
   date: "2020-11-06",
   category: "SMM",
-  cover: "/images/blog/soobshhestva-vk/cover.webp",
+  cover: "/images/blog/soobshhestva-vk/cover-es.webp",
   excerpt:
     "En qué se diferencia una página pública de VK de un grupo y un evento, cuándo elegir cada formato y cómo empezar — sin capturas obsoletas ni un catálogo de bots.",
   lead: [

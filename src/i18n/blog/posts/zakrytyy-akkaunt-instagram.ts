@@ -159,7 +159,7 @@ export const zakrytyyAkkauntInstagramEs: BlogPost = {
   title: "Cuenta privada de Instagram: por qué usarla y cómo activarla",
   date: "2020-07-17",
   category: "SMM",
-  cover: "/images/blog/zakrytyy-akkaunt-instagram/cover.webp",
+  cover: "/images/blog/zakrytyy-akkaunt-instagram/cover-es.webp",
   excerpt:
     "En qué se diferencia un perfil privado de Instagram del borrado y de una pausa, qué ven los no-followers, cómo activar privacy y por qué una cuenta business a menudo no se puede «hacer privada así».",
   lead: [

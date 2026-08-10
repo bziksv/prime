@@ -158,7 +158,7 @@ export const runetEs: BlogPost = {
   title: "Runet: qué es y en qué se diferencia el segmento",
   date: "2020-10-13",
   category: "Blog",
-  cover: "/images/blog/runet/cover.webp",
+  cover: "/images/blog/runet/cover-es.webp",
   excerpt:
     "Runet es el segmento de internet en ruso / orientado a Rusia: dominios .ru y .рф, contenido en cirílico, ecosistemas de búsqueda y servicios — rasgos sin estadísticas obsoletas ni estereotipos.",
   lead: [

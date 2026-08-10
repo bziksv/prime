@@ -149,7 +149,7 @@ export const menedzherInternetMagazinaEs: BlogPost = {
   title: "Manager de tienda online: funciones, skills y crecimiento",
   date: "2021-08-20",
   category: "E-commerce",
-  cover: "/images/blog/menedzher-internet-magazina/cover.webp",
+  cover: "/images/blog/menedzher-internet-magazina/cover-es.webp",
   excerpt:
     "Qué hace un manager de tienda online: pedidos, consultas, entrega, informes. Qué skills importan, de qué depende el sueldo y hacia dónde puede ir la carrera.",
   lead: [

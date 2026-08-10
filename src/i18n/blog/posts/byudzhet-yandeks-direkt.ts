@@ -202,7 +202,7 @@ export const byudzhetYandeksDirektEs: BlogPost = {
   title: "Presupuesto mínimo para Yandex Direct: cómo calcularlo",
   date: "2020-10-22",
   category: "Paid search",
-  cover: "/images/blog/byudzhet-yandeks-direkt/cover.webp",
+  cover: "/images/blog/byudzhet-yandeks-direkt/cover-es.webp",
   excerpt:
     "Cómo estimar un presupuesto de arranque en Yandex Direct: PPC y la subasta, techo de CPC desde unit economics, caps diarios y semanales, y formas de no quemar dinero — sin una suma universal para todos.",
   lead: [

@@ -206,7 +206,7 @@ export const reklamaVPablikahVkEs: BlogPost = {
   title: "Ads en comunidades de VKontakte: cómo elegir la página y colocar un post",
   date: "2022-01-25",
   category: "SMM",
-  cover: "/images/blog/reklama-v-pablikah-vk/cover.webp",
+  cover: "/images/blog/reklama-v-pablikah-vk/cover-es.webp",
   excerpt:
     "Cómo hacer ads vía comunidades de VK: encaje de audiencia, elegir páginas, chequeos de bots y engagement rate, el post en sí, comentarios y medir resultados.",
   lead: [

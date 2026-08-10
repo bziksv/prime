@@ -133,7 +133,7 @@ export const snippetEs: BlogPost = {
   title: "Snippets de búsqueda: Title, description y rich results",
   date: "2021-07-05",
   category: "SEO",
-  cover: "/images/blog/snippet/cover.webp",
+  cover: "/images/blog/snippet/cover-es.webp",
   excerpt:
     "Cómo se arma un snippet de la SERP: title, description, breadcrumbs y rich results. Qué te da schema.org / JSON-LD — y por qué va de CTR, no de magia de rankings.",
   lead: [

@@ -197,7 +197,7 @@ export const dekorativnyyShriftInstagramEs: BlogPost = {
   title: "Fuentes decorativas en Instagram*: bio, posts y sentido común",
   date: "2021-11-22",
   category: "SMM",
-  cover: "/images/blog/dekorativnyy-shrift-instagram/cover.webp",
+  cover: "/images/blog/dekorativnyy-shrift-instagram/cover-es.webp",
   excerpt:
     "Cómo lograr texto «bonito» en la bio de Instagram* y en imágenes: estilos Unicode, editores, escrituras no latinas, legibilidad y riesgos — sin un catálogo de apps obsoletas.",
   lead: [

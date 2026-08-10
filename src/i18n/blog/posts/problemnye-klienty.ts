@@ -108,7 +108,7 @@ export const problemnyeKlientyEs: BlogPost = {
   title: "11 tipos de clientes difíciles — y cómo trabajar con ellos",
   date: "2018-07-19",
   category: "Digital marketing",
-  cover: "/images/blog/problemnye-klienty/cover.webp",
+  cover: "/images/blog/problemnye-klienty/cover-es.webp",
   excerpt:
     "Inseguro, sabelotodo, agresivo, impulsivo, cauteloso, hablador, insatisfecho, sin tacto, ahorrador, exigente y pesimista — retratos y respuestas que funcionan sin escalar.",
   lead: [

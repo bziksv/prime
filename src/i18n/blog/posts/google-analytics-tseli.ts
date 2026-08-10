@@ -235,7 +235,7 @@ export const googleAnalyticsTseliEs: BlogPost = {
   title: "Goals y conversiones en Google Analytics (GA4)",
   date: "2020-07-09",
   category: "Digital marketing",
-  cover: "/images/blog/google-analytics-tseli/cover.webp",
+  cover: "/images/blog/google-analytics-tseli/cover-es.webp",
   excerpt:
     "Cómo configurar conversiones en Google Analytics 4: key events, URLs de gracias, engagement y clics — mapeo de los viejos «goals» de Universal y comprobación de informes.",
   lead: [

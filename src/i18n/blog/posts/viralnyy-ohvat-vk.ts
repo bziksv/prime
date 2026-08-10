@@ -147,7 +147,7 @@ export const viralnyyOhvatVkEs: BlogPost = {
   title: "Alcance viral en VK: qué es y cómo crecerlo",
   date: "2021-08-17",
   category: "SMM",
-  cover: "/images/blog/viralnyy-ohvat-vk/cover.webp",
+  cover: "/images/blog/viralnyy-ohvat-vk/cover-es.webp",
   excerpt:
     "Qué significa el alcance viral en las stats de VK, en qué se diferencia del alcance de seguidores, qué formatos se repostean más y cómo amplificar la distribución con cuidado.",
   lead: [

@@ -215,7 +215,7 @@ export const metrikaNeRabotaetEs: BlogPost = {
   title: "Por qué Yandex Metrica no funciona en el sitio",
   date: "2020-11-19",
   category: "SEO",
-  cover: "/images/blog/metrika-ne-rabotaet/cover.webp",
+  cover: "/images/blog/metrika-ne-rabotaet/cover-es.webp",
   excerpt:
     "Qué hacer si el contador de Metrica no cuenta visitas, Session Replay está en silencio, el informer vacío o los goals no disparan: un checklist de diagnóstico tranquilo.",
   lead: [

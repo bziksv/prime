@@ -139,7 +139,7 @@ export const videoObzorTovaraEs: BlogPost = {
     "Reviews en vídeo de producto para tiendas online: cómo grabar y dónde publicar",
   date: "2019-12-21",
   category: "Content marketing",
-  cover: "/images/blog/video-obzor-tovara/cover.webp",
+  cover: "/images/blog/video-obzor-tovara/cover-es.webp",
   excerpt:
     "Por qué un vídeo de producto debe estar en la ficha del SKU, qué tipos de review funcionan, cómo grabar sin estudio y dónde publicar — sin el mito de «la gente recuerda el 90% del vídeo» ni promesas de «ventas ×N».",
   lead: [

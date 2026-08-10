@@ -273,7 +273,7 @@ export const strategiyaProdvizheniyaEs: BlogPost = {
   title: "Estrategia SEO: alinea el plan al estado de tu sitio",
   date: "2018-10-02",
   category: "SEO",
-  cover: "/images/blog/strategiya-prodvizheniya/cover.webp",
+  cover: "/images/blog/strategiya-prodvizheniya/cover-es.webp",
   excerpt:
     "Una estrategia SEO no se copia del checklist de otro. Depende del tipo de sitio, edad, contenido, backlinks y técnica. Cómo fijar un objetivo y elegir un plan de trabajo.",
   lead: [

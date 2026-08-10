@@ -177,7 +177,7 @@ export const aydentikaBrendaEs: BlogPost = {
   title: "Identidad de marca: color, tipografía, forma y brand book",
   date: "2019-12-06",
   category: "Digital marketing",
-  cover: "/images/blog/aydentika-brenda/cover.webp",
+  cover: "/images/blog/aydentika-brenda/cover-es.webp",
   excerpt:
     "Qué es la identidad de marca, en qué se diferencia del branding y del estilo corporativo, cuál es la base (color, tipografía, forma) y cómo construirla sin caos en los soportes.",
   lead: [

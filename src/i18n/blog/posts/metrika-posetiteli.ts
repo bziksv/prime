@@ -172,7 +172,7 @@ export const metrikaPosetiteliEs: BlogPost = {
   title: "Informe «Visitantes» de Yandex Metrica: perfiles y ciclo de vida",
   date: "2018-07-17",
   category: "Analytics",
-  cover: "/images/blog/metrika-posetiteli/cover.webp",
+  cover: "/images/blog/metrika-posetiteli/cover-es.webp",
   excerpt:
     "Cómo leer el informe de visitantes en Yandex Metrica: perfiles anónimos, métricas de ciclo de vida, segmentos rápidos y salto a Session Replay — sin confundirlo con la sección Audience.",
   lead: [

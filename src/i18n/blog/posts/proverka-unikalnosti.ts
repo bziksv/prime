@@ -176,7 +176,7 @@ export const proverkaUnikalnostiEs: BlogPost = {
   title: "Comprobar la unicidad del texto: por qué y cómo",
   date: "2021-06-03",
   category: "SEO",
-  cover: "/images/blog/proverka-unikalnosti/cover.webp",
+  cover: "/images/blog/proverka-unikalnosti/cover-es.webp",
   excerpt:
     "En qué se diferencia la unicidad del «antiplagio por porcentaje», por qué revisar textos antes de publicar y cómo usar herramientas online sin perseguir el 100% a cualquier coste.",
   lead: [

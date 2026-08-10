@@ -211,7 +211,7 @@ export const cookiesEs: BlogPost = {
   title: "Cookies del navegador: para qué sirven, cómo funcionan y seguridad",
   date: "2020-08-31",
   category: "SEO",
-  cover: "/images/blog/cookies/cover.webp",
+  cover: "/images/blog/cookies/cover-es.webp",
   excerpt:
     "Qué es una cookie, en qué se diferencian sesión, persistentes y de terceros, por qué el sitio necesita analytics y auth, riesgos de privacidad y cómo gestionar el consentimiento.",
   lead: [

@@ -163,7 +163,7 @@ export const podpisFotoInstagramEs: BlogPost = {
   title: "Qué escribir bajo una foto de Instagram: un caption que se lea",
   date: "2020-12-18",
   category: "SMM",
-  cover: "/images/blog/podpis-foto-instagram/cover.webp",
+  cover: "/images/blog/podpis-foto-instagram/cover-es.webp",
   excerpt:
     "Cómo escribir un caption de foto en Instagram: enlace al frame, estructura, citas, hashtags y tono para tu audiencia — sin clichés de género ni el mito de que «30 hashtags = alcance».",
   lead: [

@@ -216,7 +216,7 @@ export const otkazySaytaEs: BlogPost = {
   title: "Rebote en un sitio: por qué la gente se va y cómo retenerla",
   date: "2020-09-17",
   category: "SEO",
-  cover: "/images/blog/otkazy-sayta/cover.webp",
+  cover: "/images/blog/otkazy-sayta/cover-es.webp",
   excerpt:
     "Qué significa el bounce rate, qué números son normales según el tipo de sitio, motivos principales de salida y qué arreglar primero — velocidad, navegación, contenido.",
   lead: [

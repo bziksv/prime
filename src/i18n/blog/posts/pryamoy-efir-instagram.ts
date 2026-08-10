@@ -191,7 +191,7 @@ export const pryamoyEfirInstagramEs: BlogPost = {
   title: "Directo en Instagram: preparación, emisión y revisión",
   date: "2022-03-04",
   category: "SMM",
-  cover: "/images/blog/pryamoy-efir-instagram/cover.webp",
+  cover: "/images/blog/pryamoy-efir-instagram/cover-es.webp",
   excerpt:
     "Cómo preparar un directo: objetivo, guion, técnica, anuncio, gestión de comentarios y revisión de stats tras el stream.",
   lead: [

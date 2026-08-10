@@ -144,7 +144,7 @@ export const yandeksSpravochnikEs: BlogPost = {
   title: "Ficha de organización en Yandex: la tarjeta de negocio y por qué la necesitas",
   date: "2019-08-27",
   category: "SEO",
-  cover: "/images/blog/yandeks-spravochnik/cover.webp",
+  cover: "/images/blog/yandeks-spravochnik/cover-es.webp",
   excerpt:
     "Qué es una ficha de organización en el ecosistema Yandex (Directory / Organizations / Yandex Business): por qué importa, cómo reclamarla, qué rellenar y cómo gestionar reseñas — sin screenshots obsoletos del dashboard.",
   lead: [

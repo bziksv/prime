@@ -190,7 +190,7 @@ export const samostoyatelnoeSeoEs: BlogPost = {
   title: "SEO del sitio por tu cuenta: por dónde empezar",
   date: "2021-04-30",
   category: "SEO",
-  cover: "/images/blog/samostoyatelnoe-seo/cover.webp",
+  cover: "/images/blog/samostoyatelnoe-seo/cover-es.webp",
   excerpt:
     "Plan SEO DIY paso a paso para el dueño del sitio: prep, técnica, keywords, contenido y factores off-site — sin promesas de «primera página en una semana» ni compra de enlaces spam.",
   lead: [

@@ -185,7 +185,7 @@ export const semKasaniyEs: BlogPost = {
   title: "La teoría de los 7 toques: dónde y cómo alcanzar a la audiencia",
   date: "2019-12-17",
   category: "Digital marketing",
-  cover: "/images/blog/sem-kasaniy/cover.webp",
+  cover: "/images/blog/sem-kasaniy/cover-es.webp",
   excerpt:
     "Por qué un canal no basta: el día digital del usuario, la hipótesis de los 7 toques y cómo armar una cadena de display, búsqueda, social y retarget hacia un lead — sin un mágico «exactamente siete».",
   lead: [

@@ -6,7 +6,7 @@ export const oshibkiNastroykiKontekstaEs: BlogPost = {
   title: "Errores al configurar anuncios de búsqueda de pago",
   date: "2018-07-02",
   category: "Paid search",
-  cover: "/images/blog/oshibki-nastroyki-konteksta/cover.webp",
+  cover: "/images/blog/oshibki-nastroyki-konteksta/cover-es.webp",
   excerpt:
     "Fallos típicos de setup en Direct y Ads: anuncios sin contactos ni extensiones, Search vs redes, geo y estructura de grupos, landing muerta, negativos, horario y remarketing — checklist antes de escalar presupuesto.",
   lead: [

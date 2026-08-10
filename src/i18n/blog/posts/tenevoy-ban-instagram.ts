@@ -176,7 +176,7 @@ export const tenevoyBanInstagramEs: BlogPost = {
   title: "Shadow ban en Instagram: mitos, síntomas y qué hacer",
   date: "2021-06-23",
   category: "SMM",
-  cover: "/images/blog/tenevoy-ban-instagram/cover.webp",
+  cover: "/images/blog/tenevoy-ban-instagram/cover-es.webp",
   excerpt:
     "Qué llama la gente shadow ban en Instagram: cuando los posts casi no aparecen bajo hashtags ni en recomendaciones, en qué se diferencia de un bloqueo completo y cómo bajar el riesgo sin esquemas dudosos.",
   lead: [

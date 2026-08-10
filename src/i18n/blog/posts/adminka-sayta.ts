@@ -131,7 +131,7 @@ export const adminkaSaytaEs: BlogPost = {
   title: "Panel de admin del sitio: por qué necesitas un CMS y un control panel",
   date: "2020-09-01",
   category: "Digital marketing",
-  cover: "/images/blog/adminka-sayta/cover.webp",
+  cover: "/images/blog/adminka-sayta/cover-es.webp",
   excerpt:
     "Qué son un panel de admin y un CMS, en qué se diferencia un sitio gestionado del HTML editado a mano, y qué vigilar con accesos, roles y seguridad.",
   lead: [

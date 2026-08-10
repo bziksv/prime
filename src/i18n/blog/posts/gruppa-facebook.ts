@@ -126,7 +126,7 @@ export const gruppaFacebookEs: BlogPost = {
   title: "Página y grupo de Facebook para negocio: por dónde empezar",
   date: "2020-12-03",
   category: "SMM",
-  cover: "/images/blog/gruppa-facebook/cover.webp",
+  cover: "/images/blog/gruppa-facebook/cover-es.webp",
   excerpt:
     "Cómo abordar la presencia de empresa en Facebook: Page vs comunidad, contenido, moderación y promoción — un desglose informativo sin empujar al uso de la plataforma.",
   lead: [

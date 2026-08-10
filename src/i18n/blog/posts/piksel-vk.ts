@@ -119,7 +119,7 @@ export const pikselVkEs: BlogPost = {
   title: "Píxel de VK: instalación y audiencias de retargeting",
   date: "2021-06-15",
   category: "SMM",
-  cover: "/images/blog/piksel-vk/cover.webp",
+  cover: "/images/blog/piksel-vk/cover-es.webp",
   excerpt:
     "Qué es el píxel de VK Ads, por qué importa para retargeting, cómo instalarlo en el sitio y cómo armar audiencias por acciones — sin rutas de clics antiguas del gabinete.",
   lead: [

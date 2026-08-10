@@ -6,7 +6,7 @@ export const formatyIzobrazheniyRsyaEs: BlogPost = {
   title: "Formatos de imagen en la Red publicitaria de Yandex",
   date: "2017-05-15",
   category: "Paid search",
-  cover: "/images/blog/formaty-izobrazheniy-rsya/cover.webp",
+  cover: "/images/blog/formaty-izobrazheniy-rsya/cover-es.webp",
   excerpt:
     "Por qué la Red publicitaria de Yandex necesita varios tamaños de imagen y anuncios gráficos: cobertura de publishers, formatos panorámicos, cómo no cortar el alcance con una campaña aparte y cómo etiquetar tamaños en UTM.",
   lead: [

@@ -128,7 +128,7 @@ export const kpiMenedzheraProdazhEs: BlogPost = {
   title: "KPIs del manager de ventas: cómo fijarlos y controlarlos",
   date: "2019-06-04",
   category: "Digital marketing",
-  cover: "/images/blog/kpi-menedzhera-prodazh/cover.webp",
+  cover: "/images/blog/kpi-menedzhera-prodazh/cover-es.webp",
   excerpt:
     "KPIs del vendedor: por qué introducirlos, qué métricas elegir, cómo pagar bonos, dónde se rompe el sistema (clientes falsos, techos de sueldo) y cómo controlar en el CRM.",
   lead: [

@@ -173,7 +173,7 @@ export const tipySsylokEs: BlogPost = {
   title: "Tipos de enlaces y dónde conseguirlos",
   date: "2018-11-13",
   category: "SEO",
-  cover: "/images/blog/tipy-ssylok/cover.webp",
+  cover: "/images/blog/tipy-ssylok/cover-es.webp",
   excerpt:
     "Cómo se ven los backlinks y de dónde salen: menciones naturales, medios, contenido, partnerships, comunidades, directorios, dofollow/nofollow, permanentes vs temporales — sin link farms ni spam masivo.",
   lead: [

@@ -115,7 +115,7 @@ export const vebArhivEs: BlogPost = {
   title: "Qué es un archivo web: Wayback Machine y por qué lo necesitas",
   date: "2020-09-17",
   category: "Digital marketing",
-  cover: "/images/blog/veb-arhiv/cover.webp",
+  cover: "/images/blog/veb-arhiv/cover-es.webp",
   excerpt:
     "Cómo funciona Internet Archive / Wayback Machine: hallar una versión vieja de página, entender huecos de snapshot, recuperar tu contenido con legalidad y limitar el archivado vía robots — sin esquemas para «robar textos de otros dominios».",
   lead: [

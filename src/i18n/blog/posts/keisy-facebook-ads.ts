@@ -158,7 +158,7 @@ export const keisyFacebookAdsEs: BlogPost = {
   title: "Casos de Facebook Ads: errores y lecciones que viajan",
   date: "2020-11-03",
   category: "SMM",
-  cover: "/images/blog/keisy-facebook-ads/cover.webp",
+  cover: "/images/blog/keisy-facebook-ads/cover-es.webp",
   excerpt:
     "Errores típicos de ads de Meta/Facebook y lecciones prácticas de campañas ajenas: objetivo, segmento, tests, landing y remarketing — sin copiar el ROI de otro como garantía.",
   lead: [

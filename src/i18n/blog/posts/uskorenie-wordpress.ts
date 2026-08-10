@@ -144,7 +144,7 @@ export const uskorenieWordpressEs: BlogPost = {
   title: "Cómo acelerar un sitio WordPress: hosting, tema, plugins",
   date: "2019-09-27",
   category: "Digital marketing",
-  cover: "/images/blog/uskorenie-wordpress/cover.webp",
+  cover: "/images/blog/uskorenie-wordpress/cover-es.webp",
   excerpt:
     "Qué ralentiza de verdad WordPress: TTFB y hosting, un tema pesado, plugins duplicados, imágenes y JS/CSS. Un orden de trabajo práctico — sin adorar una nota de PageSpeed ni copiar casos extranjeros de 2019.",
   lead: [

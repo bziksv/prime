@@ -207,7 +207,7 @@ export const kontentPlanInstagramEs: BlogPost = {
   title: "Plan de contenido de Instagram: cómo armarlo sin quemarte",
   date: "2022-01-14",
   category: "SMM",
-  cover: "/images/blog/kontent-plan-instagram/cover.webp",
+  cover: "/images/blog/kontent-plan-instagram/cover-es.webp",
   excerpt:
     "Cómo armar un plan de contenido de Instagram que funcione: objetivo, categorías, mix de posts, calendario, ideas y revisión de resultados.",
   lead: [

@@ -6,7 +6,7 @@ export const geotargetingDirektEs: BlogPost = {
   title: "Geotargeting en Yandex Direct: búsqueda, redes y opciones avanzadas",
   date: "2017-05-05",
   category: "Paid search",
-  cover: "/images/blog/geotargeting-direkt/cover.webp",
+  cover: "/images/blog/geotargeting-direkt/cover-es.webp",
   excerpt:
     "Cómo funciona el geo en Yandex Direct en búsqueda y en redes, para qué existe el geotargeting avanzado y cómo no quemar presupuesto en otras ciudades — sin capturas obsoletas de 2017.",
   lead: [

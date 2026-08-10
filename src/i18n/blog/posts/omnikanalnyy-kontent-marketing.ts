@@ -141,7 +141,7 @@ export const omnikanalnyyKontentMarketingEs: BlogPost = {
   title: "Content marketing omnicanal: multi vs omni y 5 pasos que funcionan",
   date: "2019-09-06",
   category: "Digital marketing",
-  cover: "/images/blog/omnikanalnyy-kontent-marketing/cover.webp",
+  cover: "/images/blog/omnikanalnyy-kontent-marketing/cover-es.webp",
   excerpt:
     "En qué se diferencia lo omnicanal de lo multicanal, por qué importa una experiencia unificada entre sitio, app y offline, y cinco pasos para que el contenido no se deshaga entre canales.",
   lead: [

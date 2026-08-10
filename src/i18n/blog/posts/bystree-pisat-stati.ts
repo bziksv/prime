@@ -119,7 +119,7 @@ export const bystreePisatStatiEs: BlogPost = {
   title: "Cómo escribir artículos más rápido sin perder calidad",
   date: "2019-12-18",
   category: "Content marketing",
-  cover: "/images/blog/bystree-pisat-stati/cover.webp",
+  cover: "/images/blog/bystree-pisat-stati/cover-es.webp",
   excerpt:
     "Cómo acelerar la escritura de artículos: modo de trabajo, outline, borrador sin edits a mitad, pausas y mecanografía — sin la carrera de «más pedidos a cualquier precio».",
   lead: [

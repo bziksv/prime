@@ -197,7 +197,7 @@ export const vebvizorEs: BlogPost = {
   title: "Yandex Webvisor: cómo activarlo y ver grabaciones de sesión",
   date: "2019-06-18",
   category: "Digital marketing",
-  cover: "/images/blog/vebvizor/cover.webp",
+  cover: "/images/blog/vebvizor/cover-es.webp",
   excerpt:
     "Qué es Webvisor en Yandex Metrika: cómo activar la grabación de sesión, qué revisar en el sitio, cómo filtrar visitas y por qué mirar con criterio — sin versiones 1.0/2.0 obsoletas ni límites rígidos de 2019.",
   lead: [

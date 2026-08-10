@@ -135,7 +135,7 @@ export const naytiChelovekaInstagramEs: BlogPost = {
   title: "Cómo encontrar a alguien en Instagram: username, búsqueda y contactos",
   date: "2020-10-29",
   category: "SMM",
-  cover: "/images/blog/nayti-cheloveka-instagram/cover.webp",
+  cover: "/images/blog/nayti-cheloveka-instagram/cover-es.webp",
   excerpt:
     "Cómo encontrar un perfil de Instagram por username, nombre, hashtag, lugar o contactos — sin capturas obsoletas ni el mito de que cada acción funciona sin cuenta.",
   lead: [

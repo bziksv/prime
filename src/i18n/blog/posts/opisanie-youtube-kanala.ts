@@ -181,7 +181,7 @@ export const opisanieYoutubeKanalaEs: BlogPost = {
   title: "Descripción del canal de YouTube: cómo escribirla y dónde ponerla",
   date: "2021-12-10",
   category: "SMM",
-  cover: "/images/blog/opisanie-youtube-kanala/cover.webp",
+  cover: "/images/blog/opisanie-youtube-kanala/cover-es.webp",
   excerpt:
     "Cómo escribir la descripción de un canal de YouTube: primeras líneas, keywords, enlaces, errores habituales y cómo actualizar el texto en Studio.",
   lead: [

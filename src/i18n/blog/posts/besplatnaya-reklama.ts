@@ -190,7 +190,7 @@ export const besplatnayaReklamaEs: BlogPost = {
   title: "Publicidad online gratuita: qué funciona de verdad al empezar",
   date: "2020-03-16",
   category: "Marketing digital",
-  cover: "/images/blog/besplatnaya-reklama/cover.webp",
+  cover: "/images/blog/besplatnaya-reklama/cover-es.webp",
   excerpt:
     "Qué canales de publicidad «gratis» tienen sentido: medios y un gancho de noticia, agregadores, contenido experto, partnerships, anuncios clasificados — y qué esquemas grises dejar de lado.",
   lead: [

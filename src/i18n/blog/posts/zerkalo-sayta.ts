@@ -190,7 +190,7 @@ export const zerkaloSaytaEs: BlogPost = {
   title: "Espejo del sitio: qué es, por qué unificarlo, cómo comprobarlo",
   date: "2018-02-01",
   category: "SEO",
-  cover: "/images/blog/zerkalo-sayta/cover.webp",
+  cover: "/images/blog/zerkalo-sayta/cover-es.webp",
   excerpt:
     "Qué se llama espejo del sitio: www y sin www, dominios extra y copias en otros servidores. Cómo unificar con 301, por qué importa para el SEO y cómo verificar el host principal.",
   lead: [

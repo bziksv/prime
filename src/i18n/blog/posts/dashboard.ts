@@ -165,7 +165,7 @@ export const dashboardEs: BlogPost = {
   title: "Dashboards: qué son y por qué los necesita el negocio",
   date: "2021-11-13",
   category: "Digital marketing",
-  cover: "/images/blog/dashboard/cover.webp",
+  cover: "/images/blog/dashboard/cover-es.webp",
   excerpt:
     "Qué es un dashboard: por qué juntar métricas en un solo panel, quién lo usa, qué tipos existen y por dónde empezar — de hojas de cálculo a BI.",
   lead: [

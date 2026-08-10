@@ -122,7 +122,7 @@ export const vygoranieSotrudnikovEs: BlogPost = {
   title: "Burnout de empleados: cómo bajar el riesgo",
   date: "2019-06-07",
   category: "Digital marketing",
-  cover: "/images/blog/vygoranie-sotrudnikov/cover.webp",
+  cover: "/images/blog/vygoranie-sotrudnikov/cover-es.webp",
   excerpt:
     "Prevención del burnout en un equipo: confianza y feedback, humor sano, tareas claras, pausas y límites de carga — sin el culto de «meditación en vez de sueldo».",
   lead: [

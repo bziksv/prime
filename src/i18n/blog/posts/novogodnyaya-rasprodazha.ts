@@ -171,7 +171,7 @@ export const novogodnyayaRasprodazhaEs: BlogPost = {
   title: "Campañas de rebajas de Año Nuevo en Yandex Direct y Google Ads",
   date: "2019-01-10",
   category: "Paid search",
-  cover: "/images/blog/novogodnyaya-rasprodazha/cover.webp",
+  cover: "/images/blog/novogodnyaya-rasprodazha/cover-es.webp",
   excerpt:
     "Cómo preparar paid search para una rebaja de Año Nuevo: demanda y forecast, tipos de comprador, creatividades, campañas aparte y qué hacer tras las fiestas — sin copiar a ciegas stats de EE. UU. de 2017.",
   lead: [

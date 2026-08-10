@@ -252,7 +252,7 @@ export const autrichEs: BlogPost = {
   title: "Outreach: cómo encontrar sitios para artículos y menciones",
   date: "2020-03-06",
   category: "SEO",
-  cover: "/images/blog/autrich/cover.webp",
+  cover: "/images/blog/autrich/cover-es.webp",
   excerpt:
     "Qué significa outreach en SEO: encontrar a mano sitios temáticos, criterios de donor, pitch a editores y comprobar el post — sin spam de exchanges de enlaces ni esquemas para saltar reglas de Wikipedia.",
   lead: [

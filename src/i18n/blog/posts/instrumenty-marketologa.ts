@@ -6,7 +6,7 @@ export const instrumentyMarketologaEs: BlogPost = {
   title: "Herramientas gratis para marketers: por dónde empezar",
   date: "2019-12-19",
   category: "Digital marketing",
-  cover: "/images/blog/instrumenty-marketologa/cover.webp",
+  cover: "/images/blog/instrumenty-marketologa/cover-es.webp",
   excerpt:
     "Qué servicios gratis (o freemium) cubren el trabajo del marketer: research de competidores, planificación de posts, encuestas, email, monitorización de menciones y tareas — sin prometer gratis para siempre.",
   lead: [

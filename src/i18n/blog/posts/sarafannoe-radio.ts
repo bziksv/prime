@@ -161,7 +161,7 @@ export const sarafannoeRadioEs: BlogPost = {
   title: "Boca a boca en marketing digital: cómo ganar recomendaciones",
   date: "2020-01-17",
   category: "Marketing digital",
-  cover: "/images/blog/sarafannoe-radio/cover.webp",
+  cover: "/images/blog/sarafannoe-radio/cover-es.webp",
   excerpt:
     "Cómo funciona el boca a boca online: superar expectativas, ser memorable, pedir una reseña, partnerships, influencers y cobertura — sin fake engagement ni recomendaciones falsas.",
   lead: [

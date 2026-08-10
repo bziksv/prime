@@ -225,7 +225,7 @@ export const wordpressSeoPlaginyEs: BlogPost = {
   title: "Plugins SEO para WordPress: qué necesitas de verdad",
   date: "2019-12-16",
   category: "SEO",
-  cover: "/images/blog/wordpress-seo-plaginy/cover.webp",
+  cover: "/images/blog/wordpress-seo-plaginy/cover-es.webp",
   excerpt:
     "Qué plugins SEO de WordPress merecen la pena: all-in-ones (Yoast, Rank Math, AIOSEO), sitemap, redirects, velocidad, imágenes y enlaces — sin instalar todo el catálogo de golpe.",
   lead: [

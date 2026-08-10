@@ -178,7 +178,7 @@ export const wordstatEs: BlogPost = {
   title: "Yandex Wordstat: qué es y cómo usarlo",
   date: "2018-04-06",
   category: "SEO",
-  cover: "/images/blog/wordstat/cover.webp",
+  cover: "/images/blog/wordstat/cover-es.webp",
   excerpt:
     "Wordstat es la estadística de consultas de Yandex: por qué importa para la investigación de keywords, cómo leer el volumen, operadores, regiones y estacionalidad — sin tratar un número grande como promesa de ranking.",
   lead: [

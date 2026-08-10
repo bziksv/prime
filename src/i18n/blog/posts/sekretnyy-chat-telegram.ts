@@ -147,7 +147,7 @@ export const sekretnyyChatTelegramEs: BlogPost = {
   title: "Chat secreto de Telegram: en qué se diferencia y cómo activarlo",
   date: "2020-08-05",
   category: "SMM",
-  cover: "/images/blog/sekretnyy-chat-telegram/cover.webp",
+  cover: "/images/blog/sekretnyy-chat-telegram/cover-es.webp",
   excerpt:
     "Qué es un chat secreto de Telegram: end-to-end, timer de borrado, límites de forwarding y capturas — sin el mito de la «invulnerabilidad absoluta».",
   lead: [

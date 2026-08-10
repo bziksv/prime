@@ -202,7 +202,7 @@ export const vebStranitsaEs: BlogPost = {
   title: "Página web: qué es y mensajes habituales del navegador",
   date: "2021-01-26",
   category: "SEO",
-  cover: "/images/blog/veb-stranitsa/cover.webp",
+  cover: "/images/blog/veb-stranitsa/cover-es.webp",
   excerpt:
     "Qué es una página web, por qué necesita su propia URL, cómo guardar una copia local y qué suelen significar «desactualizada», «ralentiza el navegador», «no disponible» y «se ha movido».",
   lead: [

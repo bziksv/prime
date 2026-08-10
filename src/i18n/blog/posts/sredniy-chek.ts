@@ -154,7 +154,7 @@ export const sredniyChekEs: BlogPost = {
   title: "Ticket medio de la tienda online: cómo calcularlo y hacerlo crecer",
   date: "2019-12-21",
   category: "Digital marketing",
-  cover: "/images/blog/sredniy-chek/cover.webp",
+  cover: "/images/blog/sredniy-chek/cover-es.webp",
   excerpt:
     "Qué es el average order value (AOV), qué dice su dinámica y qué palancas suben de verdad el tamaño del pedido: cross-sell, upsell, bundles, umbrales de envío y loyalty.",
   lead: [

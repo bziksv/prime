@@ -172,7 +172,7 @@ export const prodvizheniePrilozheniyEs: BlogPost = {
   title: "Cómo promocionar apps móviles y juegos",
   date: "2019-10-24",
   category: "Digital marketing",
-  cover: "/images/blog/prodvizhenie-prilozheniy/cover.webp",
+  cover: "/images/blog/prodvizhenie-prilozheniy/cover-es.webp",
   excerpt:
     "Promoción de apps y juegos: creatives y playables, targeting por interés de categoría, remarketing por eventos, deep links y métricas de retention — sin correr solo por installs.",
   lead: [

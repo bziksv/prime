@@ -188,7 +188,7 @@ export const relevantnostSaytaEs: BlogPost = {
     "Relevancia de un sitio en palabras claras: qué es y cómo reforzarla",
   date: "2017-05-10",
   category: "SEO",
-  cover: "/images/blog/relevantnost-sayta/cover.webp",
+  cover: "/images/blog/relevantnost-sayta/cover-es.webp",
   excerpt:
     "Qué significa la relevancia de una página a una consulta, en qué se diferencia el match formal de keywords de una respuesta útil, y cómo revisar y mejorar el encaje sin el culto a la densidad del 4–5%.",
   lead: [

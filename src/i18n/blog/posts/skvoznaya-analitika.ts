@@ -193,7 +193,7 @@ export const skvoznayaAnalitikaEs: BlogPost = {
   title: "Analytics end-to-end: problemas de rollout y cómo esquivarlos",
   date: "2019-11-12",
   category: "Digital marketing",
-  cover: "/images/blog/skvoznaya-analitika/cover.webp",
+  cover: "/images/blog/skvoznaya-analitika/cover-es.webp",
   excerpt:
     "Por qué importa la analytics end-to-end, cuándo renta y qué errores rompen el ROMI: CRM sin disciplina, canales incompletos, atribución prestada y setup a la carrera.",
   lead: [

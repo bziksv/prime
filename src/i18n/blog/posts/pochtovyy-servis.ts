@@ -139,7 +139,7 @@ export const pochtovyyServisEs: BlogPost = {
   title: "Cómo elegir un servicio de email: bandeja permanente y correo temporal",
   date: "2021-07-06",
   category: "Digital marketing",
-  cover: "/images/blog/pochtovyy-servis/cover.webp",
+  cover: "/images/blog/pochtovyy-servis/cover-es.webp",
   excerpt:
     "En qué se diferencia un email permanente de uno desechable, qué revisar en Gmail, Yandex, Mail y Outlook, cómo endurecer la seguridad y cuándo tiene sentido el correo temporal.",
   lead: [

@@ -155,7 +155,7 @@ export const planirovshchikRezultatovGoogleEs: BlogPost = {
   title: "Performance Planner en Google Ads: cómo usarlo",
   date: "2020-02-05",
   category: "Búsqueda de pago",
-  cover: "/images/blog/planirovshchik-rezultatov-google/cover.webp",
+  cover: "/images/blog/planirovshchik-rezultatov-google/cover-es.webp",
   excerpt:
     "Performance Planner en Google Ads: prever presupuesto y conversiones desde campañas vivas, planificar estacionalidad y reasignar spend entre campañas — y en qué se diferencia del Keyword Planner.",
   lead: [

@@ -240,7 +240,7 @@ export const kommercheskieFaktoryEs: BlogPost = {
   title: "Factores comerciales en SEO: qué construye confianza",
   date: "2019-06-20",
   category: "SEO",
-  cover: "/images/blog/kommercheskie-faktory/cover.webp",
+  cover: "/images/blog/kommercheskie-faktory/cover-es.webp",
   excerpt:
     "Contactos, surtido, condiciones de compra, «sobre la empresa» y servicios de mapas/directorios — un checklist práctico de factores comerciales sin el mito de que un checkbox equivale a primera página.",
   lead: [

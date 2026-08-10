@@ -176,7 +176,7 @@ export const urlAdresEs: BlogPost = {
   title: "URL del sitio: estructura e impacto SEO",
   date: "2021-08-13",
   category: "SEO",
-  cover: "/images/blog/url-adres/cover.webp",
+  cover: "/images/blog/url-adres/cover-es.webp",
   excerpt:
     "Qué es una URL, de qué partes se compone la dirección de una página, cómo escribir slugs legibles y cuánto afecta de verdad el path al SEO — sin el mito «keyword en la URL = primera página».",
   lead: [

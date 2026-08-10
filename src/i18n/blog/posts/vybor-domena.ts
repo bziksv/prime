@@ -6,7 +6,7 @@ export const vyborDomenaEs: BlogPost = {
   title: "Cómo elegir el nombre de dominio para tu sitio",
   date: "2017-01-25",
   category: "Digital marketing",
-  cover: "/images/blog/vybor-domena/cover.webp",
+  cover: "/images/blog/vybor-domena/cover-es.webp",
   excerpt:
     "Cómo elegir un dominio: zona (.ru y otras), unicidad, región en el nombre, brevedad y claridad al dictarlo, qué palabras usar y por qué conviene dejar el dominio en el registrador — no solo en el host.",
   lead: [

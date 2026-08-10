@@ -135,7 +135,7 @@ export const arhivInstagramEs: BlogPost = {
   title: "Archivo de Instagram: ocultar un post y volver a ponerlo en el perfil",
   date: "2020-09-28",
   category: "SMM",
-  cover: "/images/blog/arhiv-instagram/cover.webp",
+  cover: "/images/blog/arhiv-instagram/cover-es.webp",
   excerpt:
     "Para qué existe el archivo de posts de Instagram, en qué se diferencia del borrado y del archive de Stories, cómo ocultar un post y mostrarlo otra vez — sin capturas obsoletas.",
   lead: [

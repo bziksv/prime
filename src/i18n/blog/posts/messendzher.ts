@@ -164,7 +164,7 @@ export const messendzherEs: BlogPost = {
   title: "Qué es un messenger: tipos, funciones y uso en negocio",
   date: "2021-01-15",
   category: "SMM",
-  cover: "/images/blog/messendzher/cover.webp",
+  cover: "/images/blog/messendzher/cover-es.webp",
   excerpt:
     "Un messenger es una app o cliente web para mensajes instantáneos, llamadas y archivos. En qué se diferencian WhatsApp*, Telegram y los chats de trabajo — y cómo desplegarlos sin spam.",
   lead: [

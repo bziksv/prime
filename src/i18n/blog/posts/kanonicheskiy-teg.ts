@@ -229,7 +229,7 @@ export const kanonicheskiyTegEs: BlogPost = {
   title: "Tag canónico rel=canonical: cómo funciona y cómo configurarlo",
   date: "2020-10-20",
   category: "SEO",
-  cover: "/images/blog/kanonicheskiy-teg/cover.webp",
+  cover: "/images/blog/kanonicheskiy-teg/cover-es.webp",
   excerpt:
     "Qué es rel=canonical, en qué se diferencia de 301 y noindex, cómo fijar el canónico en HTML y HTTP, errores típicos y cuándo el tag no ayuda.",
   lead: [

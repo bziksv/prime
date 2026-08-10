@@ -143,7 +143,7 @@ export const postFacebookEs: BlogPost = {
   title: "Cómo publicar en Facebook: formatos y settings",
   date: "2020-10-27",
   category: "SMM",
-  cover: "/images/blog/post-facebook/cover.webp",
+  cover: "/images/blog/post-facebook/cover-es.webp",
   excerpt:
     "Cómo publicar posts de Facebook en un muro personal, en un grupo y en una Page: formatos, pinning, scheduling y boosting — sin capturas obsoletas de botones.",
   lead: [

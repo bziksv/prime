@@ -164,7 +164,7 @@ export const gaiqEs: BlogPost = {
   title: "GAIQ y la certificación de Google Analytics: qué fue y qué lo sustituyó",
   date: "2021-04-08",
   category: "Marketing digital",
-  cover: "/images/blog/gaiq/cover.webp",
+  cover: "/images/blog/gaiq/cover-es.webp",
   excerpt:
     "Qué era GAIQ (Google Analytics Individual Qualification), por qué las guías antiguas de «70 preguntas» están obsoletas y dónde buscar cursos y certificados actuales de analítica de Google.",
   lead: [

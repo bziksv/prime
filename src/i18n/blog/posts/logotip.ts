@@ -147,7 +147,7 @@ export const logotipEs: BlogPost = {
   title: "Cómo hacer el logo de una empresa: tipos y criterios",
   date: "2019-08-26",
   category: "Digital marketing",
-  cover: "/images/blog/logotip/cover.webp",
+  cover: "/images/blog/logotip/cover-es.webp",
   excerpt:
     "Por qué hace falta un logo, dónde vive, cómo difieren mark, wordmark y combo, y cómo elegir el camino: builder, freelance, estudio — sin afirmaciones caducadas de «porcentaje de mercado».",
   lead: [

@@ -195,7 +195,7 @@ export const socsetiISeoEs: BlogPost = {
   title: "Redes sociales y SEO: efectos directos, indirectos, sin mitos",
   date: "2019-11-11",
   category: "SEO",
-  cover: "/images/blog/socseti-i-seo/cover.webp",
+  cover: "/images/blog/socseti-i-seo/cover-es.webp",
   excerpt:
     "Cómo las redes ayudan de verdad a un sitio: tráfico, marca, comportamiento on-site y previews de enlaces — y por qué los likes solos no mueven rankings.",
   lead: [

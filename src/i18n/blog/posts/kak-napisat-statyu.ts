@@ -154,7 +154,7 @@ export const kakNapisatStatyuEs: BlogPost = {
   title: "Cómo escribir un artículo sólido: proceso para principiantes",
   date: "2020-07-06",
   category: "Content marketing",
-  cover: "/images/blog/kak-napisat-statyu/cover.webp",
+  cover: "/images/blog/kak-napisat-statyu/cover-es.webp",
   excerpt:
     "Paso a paso: objetivo y audiencia, estructura, borrador, edición y SEO cuidadoso — sin magia y sin escribir solo para llenar espacio.",
   lead: [

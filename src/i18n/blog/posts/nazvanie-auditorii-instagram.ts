@@ -149,7 +149,7 @@ export const nazvanieAuditoriiInstagramEs: BlogPost = {
   title: "Nombre de audiencia en Instagram Ads: cómo etiquetar segmentos",
   date: "2020-04-27",
   category: "SMM",
-  cover: "/images/blog/nazvanie-auditorii-instagram/cover.webp",
+  cover: "/images/blog/nazvanie-auditorii-instagram/cover-es.webp",
   excerpt:
     "Por qué importa el nombre interno de audiencia en la promoción de Instagram/Meta, cómo nombrar segmentos para tests y en qué se diferencia del nombre público del perfil.",
   lead: [

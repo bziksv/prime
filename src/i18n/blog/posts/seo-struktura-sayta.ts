@@ -228,7 +228,7 @@ export const seoStrukturaSaytaEs: BlogPost = {
   title: "Estructura SEO del sitio: cómo diseñar la jerarquía que rankea",
   date: "2021-12-27",
   category: "SEO",
-  cover: "/images/blog/seo-struktura-sayta/cover.webp",
+  cover: "/images/blog/seo-struktura-sayta/cover-es.webp",
   excerpt:
     "Cómo diseñar la estructura de un sitio para SEO: jerarquía de páginas, clusters de keywords y enlazado interno — antes de inundar el CMS con páginas al azar.",
   lead: [

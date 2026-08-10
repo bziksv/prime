@@ -147,7 +147,7 @@ export const cheklistSaytaEs: BlogPost = {
   title: "Checklist del sitio: lo imprescindible antes del lanzamiento y la auditoría",
   date: "2018-09-24",
   category: "Websites",
-  cover: "/images/blog/cheklist-sayta/cover.webp",
+  cover: "/images/blog/cheklist-sayta/cover-es.webp",
   excerpt:
     "Velocidad, HTTPS, URLs limpias, páginas 404, layout responsive, contactos, oferta, formularios, reseñas, política de privacidad y otros bloques — un checklist práctico sin pánico de «50 ítems o fracaso».",
   lead: [

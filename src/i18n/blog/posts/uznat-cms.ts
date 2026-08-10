@@ -211,7 +211,7 @@ export const uznatCmsEs: BlogPost = {
   title: "Cómo saber el CMS de un sitio: código, pistas y herramientas",
   date: "2020-08-24",
   category: "SEO",
-  cover: "/images/blog/uznat-cms/cover.webp",
+  cover: "/images/blog/uznat-cms/cover-es.webp",
   excerpt:
     "Cómo identificar el motor de un sitio por el HTML, meta generator, rutas, cookies y detectores online — y qué hacer si el CMS está oculto o es a medida.",
   lead: [

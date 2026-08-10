@@ -159,7 +159,7 @@ export const oblachnyyServisEs: BlogPost = {
   title: "Servicio en la nube: tipos, beneficios y seguridad",
   date: "2021-04-09",
   category: "Hosting",
-  cover: "/images/blog/oblachnyy-servis/cover.webp",
+  cover: "/images/blog/oblachnyy-servis/cover-es.webp",
   excerpt:
     "Qué son el almacenamiento y los servicios en la nube, cómo difieren IaaS/PaaS/SaaS, beneficios para el negocio y riesgos de datos.",
   lead: [

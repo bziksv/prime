@@ -185,7 +185,7 @@ export const shapkaYoutubeEs: BlogPost = {
   title: "Banner del canal de YouTube: tamaño, estilo y cómo cambiarlo",
   date: "2021-05-31",
   category: "SMM",
-  cover: "/images/blog/shapka-youtube/cover.webp",
+  cover: "/images/blog/shapka-youtube/cover-es.webp",
   excerpt:
     "Por qué un canal necesita un banner, qué zonas seguras importan en TV y móvil, cómo elegir estilo y cómo actualizar el branding en YouTube Studio.",
   lead: [

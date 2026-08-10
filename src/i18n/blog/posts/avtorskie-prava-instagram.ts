@@ -208,7 +208,7 @@ export const avtorskiePravaInstagramEs: BlogPost = {
   title: "Copyright en Instagram: música, fotos y reclamaciones",
   date: "2020-08-07",
   category: "SMM",
-  cover: "/images/blog/avtorskie-prava-instagram/cover.webp",
+  cover: "/images/blog/avtorskie-prava-instagram/cover-es.webp",
   excerpt:
     "Cómo mantenerse lejos de problemas de copyright en Instagram*: música y fotos, qué hacer tras una claim, cómo proteger tu propio trabajo — sin guías de bypass de DRM.",
   lead: [

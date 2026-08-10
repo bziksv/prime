@@ -248,7 +248,7 @@ export const operatoryPoiskaEs: BlogPost = {
   title: "Operadores de búsqueda en SEO",
   date: "2020-03-03",
   category: "SEO",
-  cover: "/images/blog/operatory-poiska/cover.webp",
+  cover: "/images/blog/operatory-poiska/cover-es.webp",
   excerpt:
     "Cómo usar operadores de Google y Yandex en SEO: site:, intitle:, inurl:, filetype: y combos — para índice, duplicados e investigación, sin comandos «mágicos» obsoletos.",
   lead: [

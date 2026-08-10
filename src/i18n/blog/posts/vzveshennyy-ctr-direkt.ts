@@ -178,7 +178,7 @@ export const vzveshennyyCtrDirektEs: BlogPost = {
   title: "CTR ponderado en Yandex Direct: por qué comparar creativos de otra forma",
   date: "2018-07-05",
   category: "Paid search",
-  cover: "/images/blog/vzveshennyy-ctr-direkt/cover.webp",
+  cover: "/images/blog/vzveshennyy-ctr-direkt/cover-es.webp",
   excerpt:
     "Qué significan CTR ponderado, impresiones ponderadas y volumen de tráfico en los informes de Direct — cómo comparar anuncios en distintas posiciones sin que el CTR crudo te engañe.",
   lead: [

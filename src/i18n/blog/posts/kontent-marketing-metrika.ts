@@ -195,7 +195,7 @@ export const kontentMarketingMetrikaEs: BlogPost = {
   title: "Content marketing en Yandex Metrica: qué informes mirar",
   date: "2018-10-15",
   category: "Content marketing",
-  cover: "/images/blog/kontent-marketing-metrika/cover.webp",
+  cover: "/images/blog/kontent-marketing-metrika/cover-es.webp",
   excerpt:
     "Cómo analizar content marketing en Yandex Metrica: visitas y engagement, mapas, fuentes, metas y conversiones — sin culto al bounce ni picos sueltos tras publicar.",
   lead: [

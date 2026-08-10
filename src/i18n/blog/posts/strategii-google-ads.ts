@@ -165,7 +165,7 @@ export const strategiiGoogleAdsEs: BlogPost = {
   title: "Pujas automatizadas de Google Ads: elige la estrategia por meta",
   date: "2018-12-25",
   category: "Paid search",
-  cover: "/images/blog/strategii-google-ads/cover.webp",
+  cover: "/images/blog/strategii-google-ads/cover-es.webp",
   excerpt:
     "Cómo elegir Smart Bidding en Google Ads — clics, conversiones, CPA, ROAS — sin un catálogo de botones de 2018 ni el mito de que la automatización siempre gasta mejor.",
   lead: [

@@ -142,7 +142,7 @@ export const oshibkiSmmEs: BlogPost = {
   title: "Errores de promoción en redes: qué mata los resultados con más frecuencia",
   date: "2020-03-13",
   category: "SMM",
-  cover: "/images/blog/oshibki-smm/cover.webp",
+  cover: "/images/blog/oshibki-smm/cover-es.webp",
   excerpt:
     "Errores típicos de SMM: sin estrategia ni audiencia, contenido aburrido, spam y insistencia, ahorrar en todo, ignorar ads y moderación tóxica — sin el mito de que «las señales sociales = posiciones».",
   lead: [

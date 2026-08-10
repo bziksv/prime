@@ -148,7 +148,7 @@ export const udalenieAkkauntaInstagramEs: BlogPost = {
     "Borrar una cuenta de Instagram: personal, business y una pausa temporal",
   date: "2020-10-06",
   category: "SMM",
-  cover: "/images/blog/udalenie-akkaunta-instagram/cover.webp",
+  cover: "/images/blog/udalenie-akkaunta-instagram/cover-es.webp",
   excerpt:
     "En qué se diferencian la desactivación temporal, pasar un perfil business a personal y borrar para siempre una cuenta de Instagram — y qué normalmente no se puede deshacer.",
   lead: [

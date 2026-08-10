@@ -189,7 +189,7 @@ export const youtubeMonetizaciyaEs: BlogPost = {
   title: "YouTube: canales y monetización",
   date: "2021-04-20",
   category: "SMM",
-  cover: "/images/blog/youtube-monetizaciya/cover.webp",
+  cover: "/images/blog/youtube-monetizaciya/cover-es.webp",
   excerpt:
     "Cómo funciona YouTube para creators: el canal, monetización por ads y otros caminos de ingreso — sin promesas de «millones fáciles» ni umbrales numéricos obsoletos.",
   lead: [

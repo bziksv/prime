@@ -158,7 +158,7 @@ export const parsingPythonEs: BlogPost = {
   title: "Scraping de sitios con Python: arranque para principiantes",
   date: "2020-03-27",
   category: "Marketing digital",
-  cover: "/images/blog/parsing-python/cover.webp",
+  cover: "/images/blog/parsing-python/cover-es.webp",
   excerpt:
     "Por qué se elige a menudo Python para scraping, en qué se diferencian Scrapy, Beautiful Soup y Selenium, cómo montar el entorno y dónde termina la recogida legal de datos.",
   lead: [

@@ -239,7 +239,7 @@ export const userIntentEs: BlogPost = {
   title: "User intent en SEO: alinear páginas con la intención de búsqueda",
   date: "2018-08-29",
   category: "SEO",
-  cover: "/images/blog/user-intent/cover.webp",
+  cover: "/images/blog/user-intent/cover-es.webp",
   excerpt:
     "User intent es lo que la persona quiere detrás de una consulta. Cómo leer los resultados, evitar mezclar intenciones en una URL y construir páginas para la intención real — no para la densidad de keywords.",
   lead: [

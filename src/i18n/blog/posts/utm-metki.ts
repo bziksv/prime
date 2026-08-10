@@ -222,7 +222,7 @@ export const utmMetkiEs: BlogPost = {
   title: "Etiquetas UTM: qué son y por qué marcar los enlaces",
   date: "2018-04-20",
   category: "Digital marketing",
-  cover: "/images/blog/utm-metki/cover.webp",
+  cover: "/images/blog/utm-metki/cover-es.webp",
   excerpt:
     "Por qué importan las UTM, qué parámetros son obligatorios (source, medium, campaign), cómo nombrar valores sin caos en informes y cómo leerlos en Metrica y Google Analytics.",
   lead: [

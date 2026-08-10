@@ -204,7 +204,7 @@ export const rozygryshInstagramEs: BlogPost = {
   title: "Generador de números aleatorios para un sorteo: elección justa del ganador",
   date: "2020-08-21",
   category: "SMM",
-  cover: "/images/blog/rozygrysh-instagram/cover.webp",
+  cover: "/images/blog/rozygrysh-instagram/cover-es.webp",
   excerpt:
     "Cómo funciona el azar justo en sorteos de redes: por qué usar un generador, cómo fijar el resultado, qué tools usar y qué evitar — sin tips de «cómo ganar».",
   lead: [

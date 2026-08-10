@@ -134,7 +134,7 @@ export const yukassaEs: BlogPost = {
   title: "YooKassa (Yandex.Checkout): qué es y por qué la necesita una tienda",
   date: "2021-10-22",
   category: "Digital marketing",
-  cover: "/images/blog/yukassa/cover.webp",
+  cover: "/images/blog/yukassa/cover-es.webp",
   excerpt:
     "Qué es YooKassa (antes Yandex.Checkout): pagos online, facturas pay-by-link, cajas registradoras en la nube. Cómo se conectan los comercios y qué revisar en las tarifas.",
   lead: [

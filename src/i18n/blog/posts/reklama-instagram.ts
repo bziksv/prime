@@ -168,7 +168,7 @@ export const reklamaInstagramEs: BlogPost = {
   title: "Publicidad en Instagram: tipos, presupuesto y cómo medir resultados",
   date: "2021-11-19",
   category: "SMM",
-  cover: "/images/blog/reklama-instagram/cover.webp",
+  cover: "/images/blog/reklama-instagram/cover-es.webp",
   excerpt:
     "Tipos de ads en Instagram: targeting de pago, creators y colocaciones de pago — qué impulsa el precio, qué trucos de crecimiento «gratis» son arriesgados y cómo trackear resultados reales.",
   lead: [

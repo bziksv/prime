@@ -165,7 +165,7 @@ export const ftpEs: BlogPost = {
   title: "FTP: qué es y cómo trabajar con los archivos del sitio",
   date: "2020-11-30",
   category: "Hosting",
-  cover: "/images/blog/ftp/cover.webp",
+  cover: "/images/blog/ftp/cover-es.webp",
   excerpt:
     "FTP es un protocolo para mover archivos al hosting: por qué hace falta un cliente, cómo conectar, por qué FileZilla ayuda y por qué SFTP/FTPS ganan al FTP plano con contraseña.",
   lead: [

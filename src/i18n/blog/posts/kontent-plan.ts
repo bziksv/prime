@@ -155,7 +155,7 @@ export const kontentPlanEs: BlogPost = {
   title: "Plan de contenidos: qué es y cómo montarlo",
   date: "2021-10-26",
   category: "Content marketing",
-  cover: "/images/blog/kontent-plan/cover.webp",
+  cover: "/images/blog/kontent-plan/cover-es.webp",
   excerpt:
     "Qué es un plan de contenidos, en qué se diferencia de un calendario editorial y un plan de medios, y un proceso claro: formatos, temas, keywords, categorías, calendario y titulares.",
   lead: [

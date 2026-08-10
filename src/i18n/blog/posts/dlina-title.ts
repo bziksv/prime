@@ -216,7 +216,7 @@ export const dlinaTitleEs: BlogPost = {
   title: "Longitud del Title: cómo encajar el titular del snippet",
   date: "2020-11-23",
   category: "SEO",
-  cover: "/images/blog/dlina-title/cover.webp",
+  cover: "/images/blog/dlina-title/cover-es.webp",
   excerpt:
     "De qué se hace el titular de la SERP, por qué los píxeles pesan más que «exactamente 70 caracteres», cómo escribir un Title sin truncar el sentido y en qué se diferencia del H1.",
   lead: [

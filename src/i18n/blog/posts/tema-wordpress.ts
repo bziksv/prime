@@ -118,7 +118,7 @@ export const temaWordpressEs: BlogPost = {
   title: "Cómo elegir un tema de WordPress para un blog: 10 criterios prácticos",
   date: "2020-09-22",
   category: "Digital marketing",
-  cover: "/images/blog/tema-wordpress/cover.webp",
+  cover: "/images/blog/tema-wordpress/cover-es.webp",
   excerpt:
     "Qué revisar al elegir un tema de WordPress: necesidades del blog, flexibilidad, velocidad, móvil, código, child theme, compatibilidad con plugins — sin un catálogo de «mejores temas del año».",
   lead: [

@@ -152,7 +152,7 @@ export const geymifikatsiyaSocsetiEs: BlogPost = {
   title: "Gamificación en redes: cómo enganchar sin sorteos de freebies",
   date: "2020-10-02",
   category: "SMM",
-  cover: "/images/blog/geymifikatsiya-socseti/cover.webp",
+  cover: "/images/blog/geymifikatsiya-socseti/cover-es.webp",
   excerpt:
     "Qué significa gamificación en SMM: por qué las mecánicas de juego ayudan a una marca, qué formatos funcionan y cómo lanzar sin una carrera de likes y una muchedumbre de cazadores de premios.",
   lead: [

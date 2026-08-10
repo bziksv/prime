@@ -129,7 +129,7 @@ export const zashchitaOtParsingaEs: BlogPost = {
   title: "Cómo proteger un sitio del scraping: captcha, límites, honeypot y sentido común",
   date: "2019-07-22",
   category: "Digital marketing",
-  cover: "/images/blog/zashchita-ot-parsinga/cover.webp",
+  cover: "/images/blog/zashchita-ot-parsinga/cover-es.webp",
   excerpt:
     "Proteger un sitio del scraping agresivo: comportamiento de bots, honeypots, análisis de IP y límites, WAF/CDN — y por qué no debes cortar crawlers de búsqueda junto con los malos actores.",
   lead: [

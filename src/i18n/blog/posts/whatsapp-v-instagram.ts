@@ -198,7 +198,7 @@ export const whatsappVInstagramEs: BlogPost = {
   title: "WhatsApp* en un perfil de Instagram*: enlace wa.me y bio",
   date: "2021-11-02",
   category: "SMM",
-  cover: "/images/blog/whatsapp-v-instagram/cover.webp",
+  cover: "/images/blog/whatsapp-v-instagram/cover-es.webp",
   excerpt:
     "Cómo pasar un cliente de Instagram* a WhatsApp*: un enlace wa.me en la bio, texto de saludo, botones del perfil business y un multi-link — sin un catálogo de tools link-in-bio obsoletas.",
   lead: [

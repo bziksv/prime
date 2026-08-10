@@ -247,7 +247,7 @@ export const screamingFrogEs: BlogPost = {
   title: "Screaming Frog SEO Spider: un crawl técnico del sitio",
   date: "2020-07-07",
   category: "SEO",
-  cover: "/images/blog/screaming-frog/cover.webp",
+  cover: "/images/blog/screaming-frog/cover-es.webp",
   excerpt:
     "Cómo lanzar un crawl técnico en Screaming Frog: ajustes del spider, códigos de estado, title/H1, imágenes, enlaces internos, URLs rotas y export a Excel — sin culto a la «auditoría de un botón».",
   lead: [

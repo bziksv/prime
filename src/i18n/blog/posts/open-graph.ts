@@ -208,7 +208,7 @@ export const openGraphEs: BlogPost = {
   title: "Open Graph: cómo vestir un enlace desde redes a tu sitio",
   date: "2020-10-15",
   category: "SEO",
-  cover: "/images/blog/open-graph/cover.webp",
+  cover: "/images/blog/open-graph/cover-es.webp",
   excerpt:
     "Qué es Open Graph, qué meta tags fijan title, description e imagen al compartir, cómo comprobar el preview y errores habituales de markup.",
   lead: [

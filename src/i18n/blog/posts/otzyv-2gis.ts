@@ -6,7 +6,7 @@ export const otzyv2gisEs: BlogPost = {
   title: "Cómo quitar una reseña en 2GIS: qué funciona de verdad",
   date: "2019-12-23",
   category: "SEO",
-  cover: "/images/blog/otzyv-2gis/cover.webp",
+  cover: "/images/blog/otzyv-2gis/cover-es.webp",
   excerpt:
     "Cómo gestionar reseñas negativas en 2GIS: hablar con el autor, reportar a moderación, cuándo no cerrar el listing y por qué una crítica honesta suele quedarse.",
   lead: [

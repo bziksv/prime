@@ -195,7 +195,7 @@ export const mobilnayaReklamaGoogleEs: BlogPost = {
   title: "Ads móviles en Google: cómo leer los números",
   date: "2018-10-23",
   category: "Paid search",
-  cover: "/images/blog/mobilnaya-reklama-google/cover.webp",
+  cover: "/images/blog/mobilnaya-reklama-google/cover-es.webp",
   excerpt:
     "Cómo difieren CTR, CVR, CPC y CPA en Search vs Display móvil, por qué los benchmarks de industria envejecen rápido y cómo medir la eficiencia en tu propia cuenta.",
   lead: [

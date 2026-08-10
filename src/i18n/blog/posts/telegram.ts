@@ -140,7 +140,7 @@ export const telegramEs: BlogPost = {
   title: "Telegram: funciones, pros y cómo se compara con otros messengers",
   date: "2021-07-27",
   category: "SMM",
-  cover: "/images/blog/telegram/cover.webp",
+  cover: "/images/blog/telegram/cover-es.webp",
   excerpt:
     "Qué puede hacer Telegram: chats, canales, bots, nube y seguridad. Pros y contras, comparación con otros messengers y por qué un canal de negocio ayuda — sin stats «para siempre» obsoletas.",
   lead: [

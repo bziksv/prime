@@ -172,7 +172,7 @@ export const linkbilderEs: BlogPost = {
   title: "Link builder: quiénes son y qué hacen en SEO",
   date: "2019-12-13",
   category: "Digital marketing",
-  cover: "/images/blog/linkbilder/cover.webp",
+  cover: "/images/blog/linkbilder/cover-es.webp",
   excerpt:
     "Qué hace un link builder: tareas, skills, en qué se diferencia el rol de comprar enlaces por packs, calidad del donor y el vínculo con outreach — sin how-tos de spam ni promos de cursos.",
   lead: [

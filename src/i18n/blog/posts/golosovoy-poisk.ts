@@ -280,7 +280,7 @@ export const golosovoyPoiskEs: BlogPost = {
   title: "Optimizar un sitio para búsqueda por voz",
   date: "2020-08-01",
   category: "SEO",
-  cover: "/images/blog/golosovoy-poisk/cover.webp",
+  cover: "/images/blog/golosovoy-poisk/cover-es.webp",
   excerpt:
     "Cómo preparar un sitio para queries de voz: long-tail conversacional, FAQ y respuestas cortas, velocidad móvil, HTTPS, búsqueda local — sin culto al «SEO aparte» ni garantías de primera página.",
   lead: [

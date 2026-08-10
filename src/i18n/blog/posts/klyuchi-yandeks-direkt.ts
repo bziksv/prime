@@ -152,7 +152,7 @@ export const klyuchiYandeksDirektEs: BlogPost = {
   title: "Cuántas keywords necesitas en Yandex Direct",
   date: "2020-12-02",
   category: "Paid search",
-  cover: "/images/blog/klyuchi-yandeks-direkt/cover.webp",
+  cover: "/images/blog/klyuchi-yandeks-direkt/cover-es.webp",
   excerpt:
     "Cómo dimensionar la cobertura de keywords para Búsqueda y la Red Publicitaria de Yandex (YAN) en Direct: objetivo de campaña, surtido, límites de grupos de anuncios y rentabilidad — sin un «conteo universal de keywords» ni mezclarlo con SEO.",
   lead: [

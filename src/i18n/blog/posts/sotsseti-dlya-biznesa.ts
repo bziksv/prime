@@ -173,7 +173,7 @@ export const sotssetiDlyaBiznesaEs: BlogPost = {
   title: "Por qué el negocio necesita redes sociales: confianza, servicio y ventas",
   date: "2017-03-06",
   category: "SMM",
-  cover: "/images/blog/sotsseti-dlya-biznesa/cover.webp",
+  cover: "/images/blog/sotsseti-dlya-biznesa/cover-es.webp",
   excerpt:
     "Por qué una empresa necesita una página social: cómo un canal vivo inclina la elección entre vendedores parecidos, cómo difiere el trabajo de ventas de la imagen de marca, y cómo empezar sin un SMM a tiempo completo.",
   lead: [

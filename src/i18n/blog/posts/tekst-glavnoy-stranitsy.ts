@@ -137,7 +137,7 @@ export const tekstGlavnoyStranitsyEs: BlogPost = {
   title: "Copy de la homepage: qué no deberías escribir",
   date: "2020-07-20",
   category: "Content marketing",
-  cover: "/images/blog/tekst-glavnoy-stranitsy/cover.webp",
+  cover: "/images/blog/tekst-glavnoy-stranitsy/cover-es.webp",
   excerpt:
     "Qué líneas estropean una homepage: superlativos vacíos, clichés de «enfoque personalizado», keywords torpes y mezclar «tú/usted» — y qué poner en lugar de una oferta clara.",
   lead: [

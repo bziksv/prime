@@ -155,7 +155,7 @@ export const promoInstagramEs: BlogPost = {
   title: "Instagram Promote: cómo boostear un post y qué vigilar",
   date: "2020-07-22",
   category: "SMM",
-  cover: "/images/blog/promo-instagram/cover.webp",
+  cover: "/images/blog/promo-instagram/cover-es.webp",
   excerpt:
     "Qué es Instagram Promote: cuándo boostear un post, cómo fijar objetivo y presupuesto y en qué se diferencia del Ads Manager completo — sin capturas obsoletas de pago.",
   lead: [

@@ -184,7 +184,7 @@ export const wordpressAdminEs: BlogPost = {
   title: "Cómo abrir el admin de WordPress y recuperar el acceso",
   date: "2018-03-23",
   category: "Digital marketing",
-  cover: "/images/blog/wordpress-admin/cover.webp",
+  cover: "/images/blog/wordpress-admin/cover-es.webp",
   excerpt:
     "Entrar a wp-admin y wp-login.php, recuperación de contraseña por email, reset vía hosting y fallos típicos de caché — sin consejo de quedarte con el login admin.",
   lead: [

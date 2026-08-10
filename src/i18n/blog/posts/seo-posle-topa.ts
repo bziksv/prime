@@ -214,7 +214,7 @@ export const seoPosleTopaEs: BlogPost = {
   title: "¿Debes parar el SEO tras llegar a primera página?",
   date: "2018-12-10",
   category: "SEO",
-  cover: "/images/blog/seo-posle-topa/cover.webp",
+  cover: "/images/blog/seo-posle-topa/cover-es.webp",
   excerpt:
     "Cuando el sitio rankea bien, apagar el SEO es pronto: snippets, conversión, expansión de keywords, salud técnica y competidores. Cómo es el mantenimiento de verdad — sin el mito «ya está, podemos apagar».",
   lead: [

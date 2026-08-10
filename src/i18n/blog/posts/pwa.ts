@@ -137,7 +137,7 @@ export const pwaEs: BlogPost = {
   title: "PWA: qué son las Progressive Web Apps y cuándo las necesitas",
   date: "2019-09-10",
   category: "Digital marketing",
-  cover: "/images/blog/pwa/cover.webp",
+  cover: "/images/blog/pwa/cover-es.webp",
   excerpt:
     "Qué es una PWA: un sitio con manifest y Service Worker, instalación en la pantalla de inicio, cache offline y push. Pros para tiendas y los límites — sin prometer un boost automático de rankings en Google.",
   lead: [

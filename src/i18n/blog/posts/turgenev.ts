@@ -154,7 +154,7 @@ export const turgenevEs: BlogPost = {
   title: "Turgenev: comprobar el copy por riesgo de sobreoptimización",
   date: "2018-04-27",
   category: "SEO",
-  cover: "/images/blog/turgenev/cover.webp",
+  cover: "/images/blog/turgenev/cover-es.webp",
   excerpt:
     "Qué revisa el Turgenev de Ashmanov & Partners: riesgo de text-spam, náusea, agua y estilo — cómo leer las puntuaciones, y por qué no es un «botón Baden-Baden» ni una garantía de ranking.",
   lead: [

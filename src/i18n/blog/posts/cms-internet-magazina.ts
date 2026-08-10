@@ -202,7 +202,7 @@ export const cmsInternetMagazinaEs: BlogPost = {
     "CMS para tienda online: contras de Bitrix, Magento, OpenCart, WooCommerce y CS-Cart",
   date: "2019-03-15",
   category: "Digital marketing",
-  cover: "/images/blog/cms-internet-magazina/cover.webp",
+  cover: "/images/blog/cms-internet-magazina/cover-es.webp",
   excerpt:
     "Cómo elegir una CMS para tienda online con contras típicos en mente: 1C-Bitrix, Magento, OpenCart, WooCommerce y CS-Cart — sin listas de precios de 2019 ni el mito de que el motor solo te rankea.",
   lead: [

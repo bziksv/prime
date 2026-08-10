@@ -220,7 +220,7 @@ export const hlebnyeKroshkiEs: BlogPost = {
   title: "Breadcrumbs en un sitio: navegación y SEO",
   date: "2017-12-19",
   category: "SEO",
-  cover: "/images/blog/hlebnye-kroshki/cover.webp",
+  cover: "/images/blog/hlebnye-kroshki/cover-es.webp",
   excerpt:
     "Qué son los breadcrumbs, por qué importan para UX y SEO, qué tipos existen y cómo montar el rastro: nada en la homepage, markup para el snippet, sin promesas de «rankings vía breadcrumbs».",
   lead: [

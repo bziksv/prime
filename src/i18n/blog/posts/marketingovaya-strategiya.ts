@@ -169,7 +169,7 @@ export const marketingovayaStrategiyaEs: BlogPost = {
   title: "Cómo planificar y construir una estrategia de marketing",
   date: "2019-10-07",
   category: "Digital marketing",
-  cover: "/images/blog/marketingovaya-strategiya/cover.webp",
+  cover: "/images/blog/marketingovaya-strategiya/cover-es.webp",
   excerpt:
     "Cómo armar una estrategia de marketing: objetivo y KPIs, audiencia, canales, contenido y calendario — sin campañas caóticas a ojo y sin sustituir la estrategia por un solo plan SEO.",
   lead: [

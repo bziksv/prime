@@ -154,7 +154,7 @@ export const zarabotokGruppyVkEs: BlogPost = {
   title: "Ganar con un grupo de VK: ads, affiliates y sin ilusiones",
   date: "2020-09-11",
   category: "SMM",
-  cover: "/images/blog/zarabotok-gruppy-vk/cover.webp",
+  cover: "/images/blog/zarabotok-gruppy-vk/cover-es.webp",
   excerpt:
     "Cómo monetizar una comunidad VK: posts comerciales, affiliates, marketplaces y anunciantes directos — qué mueve el precio y qué evitar.",
   lead: [

@@ -206,7 +206,7 @@ export const ssylkiTelegramEs: BlogPost = {
   title: "Enlaces de Telegram: perfil, canal, chat e invite",
   date: "2020-09-15",
   category: "SMM",
-  cover: "/images/blog/ssylki-telegram/cover.webp",
+  cover: "/images/blog/ssylki-telegram/cover-es.webp",
   excerpt:
     "Cómo crear y compartir enlaces a un perfil, canal y chat de Telegram: t.me, usernames, invites, hiperenlaces en mensajes y abrir URLs en la app.",
   lead: [

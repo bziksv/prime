@@ -195,7 +195,7 @@ export const obzorCmsEs: BlogPost = {
   title: "Overview de CMS: WordPress, Joomla, Bitrix, Drupal, MODX y DLE",
   date: "2017-01-10",
   category: "Digital marketing",
-  cover: "/images/blog/obzor-cms/cover.webp",
+  cover: "/images/blog/obzor-cms/cover-es.webp",
   excerpt:
     "Un repaso a opciones populares de CMS: WordPress, Joomla, 1C-Bitrix, Drupal, MODX y DLE — pros, contras y a qué trabajos encajan, sin charts de cuota de mercado de 2017 ni el mito de que «el motor te posiciona».",
   lead: [

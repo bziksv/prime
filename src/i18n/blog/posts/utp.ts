@@ -177,7 +177,7 @@ export const utpEs: BlogPost = {
   title: "USP: qué es y cómo redactar una propuesta de venta única",
   date: "2020-02-03",
   category: "Digital marketing",
-  cover: "/images/blog/utp/cover.webp",
+  cover: "/images/blog/utp/cover-es.webp",
   excerpt:
     "Qué es una USP, en qué se diferencia de una promo y un eslogan, cómo formular tu ventaja frente a competidores y cómo probar la frase en un landing y en ads.",
   lead: [

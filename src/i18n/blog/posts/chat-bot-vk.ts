@@ -155,7 +155,7 @@ export const chatBotVkEs: BlogPost = {
   title: "Chat bot de VK: para qué sirve y cómo lanzarlo",
   date: "2018-12-19",
   category: "SMM",
-  cover: "/images/blog/chat-bot-vk/cover.webp",
+  cover: "/images/blog/chat-bot-vk/cover-es.webp",
   excerpt:
     "Cómo ayuda un chat bot en los mensajes de una comunidad VK: FAQ, leads, catálogo — cuándo basta un builder, cuándo hace falta un developer y por qué un bot sin salida a un operador humano ahuyenta a la gente.",
   lead: [

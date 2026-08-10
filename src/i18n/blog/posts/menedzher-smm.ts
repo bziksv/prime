@@ -249,7 +249,7 @@ export const menedzherSmmEs: BlogPost = {
   title: "SMM manager: funciones, skills, pros y contras",
   date: "2022-02-09",
   category: "SMM",
-  cover: "/images/blog/menedzher-smm/cover.webp",
+  cover: "/images/blog/menedzher-smm/cover-es.webp",
   excerpt:
     "Qué hace un SMM manager: estrategia, contenido, crecimiento de audiencia, comunicación, analítica. Skills que necesitas y cómo entrar en la profesión.",
   lead: [

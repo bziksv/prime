@@ -138,7 +138,7 @@ export const infografikaEs: BlogPost = {
   title: "Infografías: tipos, por qué importan y cómo mantenerlas claras",
   date: "2021-08-31",
   category: "Content marketing",
-  cover: "/images/blog/infografika/cover.webp",
+  cover: "/images/blog/infografika/cover-es.webp",
   excerpt:
     "Qué es una infografía, qué tipos existen, cómo empezar un layout y qué errores matan la legibilidad. Los principios ganan a una lista de herramientas obsoletas.",
   lead: [

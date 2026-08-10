@@ -6,7 +6,7 @@ export const auktsionDirektEs: BlogPost = {
   title: "Subasta de Yandex Direct: pujas, CTR y competencia",
   date: "2017-04-10",
   category: "Paid search",
-  cover: "/images/blog/auktsion-direkt/cover.webp",
+  cover: "/images/blog/auktsion-direkt/cover-es.webp",
   excerpt:
     "Cómo funciona la subasta de Yandex Direct: puja y calidad del anuncio, lógica de second-price, por qué el «premium placement» de guías de 2017 es un término histórico y por qué los «props» de puja de competidores son mala idea.",
   lead: [

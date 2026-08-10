@@ -110,7 +110,7 @@ export const poseshhaemostSaytaEs: BlogPost = {
   title: "Cómo aumentar el tráfico del sitio web",
   date: "2018-04-10",
   category: "Digital marketing",
-  cover: "/images/blog/poseshhaemost-sayta/cover.webp",
+  cover: "/images/blog/poseshhaemost-sayta/cover-es.webp",
   excerpt:
     "Empieza con una auditoría (velocidad, filtros, navegación, contenido) y luego canales white-hat: SEO, title, email, imágenes, social — sin esquemas black-hat ni prometer que «tráfico en un mes = primera página».",
   lead: [

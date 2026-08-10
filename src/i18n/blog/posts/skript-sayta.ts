@@ -210,7 +210,7 @@ export const skriptSaytaEs: BlogPost = {
   title: "Script del sitio: qué es y por qué lo necesitas",
   date: "2020-07-16",
   category: "Digital marketing",
-  cover: "/images/blog/skript-sayta/cover.webp",
+  cover: "/images/blog/skript-sayta/cover-es.webp",
   excerpt:
     "Qué se llama script de un sitio: código cliente y servidor, lenguajes, trabajos típicos y cómo insertar snippets sin dañar velocidad y seguridad.",
   lead: [

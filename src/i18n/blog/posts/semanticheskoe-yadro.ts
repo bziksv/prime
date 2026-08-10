@@ -493,7 +493,7 @@ export const semanticheskoeYadroEs: BlogPost = {
   title: "Cómo montar un set de keywords (núcleo semántico) bien",
   date: "2022-03-01",
   category: "SEO",
-  cover: "/images/blog/semanticheskoe-yadro/cover.webp",
+  cover: "/images/blog/semanticheskoe-yadro/cover-es.webp",
   excerpt:
     "Cómo elegir keywords, clasificar queries y montar un núcleo semántico — paso a paso para SEO.",
   lead: [

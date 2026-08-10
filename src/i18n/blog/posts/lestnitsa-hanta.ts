@@ -174,7 +174,7 @@ export const lestnitsaHantaEs: BlogPost = {
   title: "Escalera de awareness de Hunt: 5 niveles de conciencia del cliente",
   date: "2020-01-24",
   category: "Digital marketing",
-  cover: "/images/blog/lestnitsa-hanta/cover.webp",
+  cover: "/images/blog/lestnitsa-hanta/cover-es.webp",
   excerpt:
     "Cómo funciona la escalera de awareness: de «no conoce el problema» a listo para comprar — y qué decir en cada paso en ads y en el landing.",
   lead: [

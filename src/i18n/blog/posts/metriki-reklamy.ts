@@ -159,7 +159,7 @@ export const metrikiReklamyEs: BlogPost = {
   title: "Métricas de ads: qué mirar para saber si una campaña funciona",
   date: "2019-10-15",
   category: "Digital marketing",
-  cover: "/images/blog/metriki-reklamy/cover.webp",
+  cover: "/images/blog/metriki-reklamy/cover-es.webp",
   excerpt:
     "Qué métricas mirar por etapa del funnel: CTR y CPC a la entrada, comportamiento on-site, CPA/CPO/CR en la conversión, ticket medio y LTV — sin juzgar ads solo por clics.",
   lead: [

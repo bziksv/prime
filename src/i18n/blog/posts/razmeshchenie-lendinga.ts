@@ -147,7 +147,7 @@ export const razmeshchenieLendingaEs: BlogPost = {
   title: "Dónde alojar una landing: dominio, subdominio o dentro del sitio",
   date: "2019-10-21",
   category: "Digital marketing",
-  cover: "/images/blog/razmeshchenie-lendinga/cover.webp",
+  cover: "/images/blog/razmeshchenie-lendinga/cover-es.webp",
   excerpt:
     "Tres formas de colocar una landing: un dominio aparte, un subdominio o una URL en el sitio principal — pros, contras, SEO y cuándo elegir cada una según oferta y audiencia.",
   lead: [

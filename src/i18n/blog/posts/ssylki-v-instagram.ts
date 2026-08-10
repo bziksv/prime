@@ -140,7 +140,7 @@ export const ssylkiVInstagramEs: BlogPost = {
   title: "Enlaces en Instagram: bio, Stories, Direct y botones del perfil",
   date: "2020-01-20",
   category: "SMM",
-  cover: "/images/blog/ssylki-v-instagram/cover.webp",
+  cover: "/images/blog/ssylki-v-instagram/cover-es.webp",
   excerpt:
     "Dónde poner enlaces en Instagram: bio y link-in-bio, captions de posts, stickers de Stories, Direct y botones de contacto — sin tips obsoletos de IGTV ni un catálogo de herramientas grises.",
   lead: [

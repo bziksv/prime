@@ -106,7 +106,7 @@ export const yuzabilitiEs: BlogPost = {
   title: "Qué es la usabilidad web y cómo mejorarla",
   date: "2017-09-11",
   category: "Digital marketing",
-  cover: "/images/blog/yuzabiliti/cover.webp",
+  cover: "/images/blog/yuzabiliti/cover-es.webp",
   excerpt:
     "Usabilidad es lo fácil que un sitio lleva a la gente a la meta: caminos cortos, velocidad, navegación, formularios y móvil. Checklist de autoauditoría y arreglos prácticos — sin magia de «rankings en una semana».",
   lead: [

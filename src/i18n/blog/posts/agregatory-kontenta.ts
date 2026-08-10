@@ -116,7 +116,7 @@ export const agregatoryKontentaEs: BlogPost = {
   title: "Agregadores de contenido: qué son, por qué importan y cómo funcionan",
   date: "2017-12-29",
   category: "Digital marketing",
-  cover: "/images/blog/agregatory-kontenta/cover.webp",
+  cover: "/images/blog/agregatory-kontenta/cover-es.webp",
   excerpt:
     "Qué son los agregadores de contenido, por qué se usan, qué tipos hay y qué vigilar en el lanzamiento: arquitectura, fuentes, SEO y valor para el usuario — sin promesas de «primera página en un mes».",
   lead: [

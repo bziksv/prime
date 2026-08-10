@@ -211,7 +211,7 @@ export const yandeksXmlEs: BlogPost = {
   title: "Yandex.XML y Search API: qué era y qué usar ahora",
   date: "2020-09-15",
   category: "SEO",
-  cover: "/images/blog/yandeks-xml/cover.webp",
+  cover: "/images/blog/yandeks-xml/cover-es.webp",
   excerpt:
     "Qué era Yandex.XML, por qué se apagó, con qué lo sustituye Yandex Search API, qué trabajos cubren las cuotas oficiales y por qué scrapear la página de resultados es el camino equivocado.",
   lead: [

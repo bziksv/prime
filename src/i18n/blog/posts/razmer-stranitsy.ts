@@ -213,7 +213,7 @@ export const razmerStranitsyEs: BlogPost = {
   title: "Tamaño de página web: cómo comprobar el peso y acelerar la carga",
   date: "2020-10-12",
   category: "SEO",
-  cover: "/images/blog/razmer-stranitsy/cover.webp",
+  cover: "/images/blog/razmer-stranitsy/cover-es.webp",
   excerpt:
     "Qué significa el «peso» de una página, cómo ver el transfer size en DevTools y herramientas, por qué las páginas pesadas duelen a la UX y al SEO, y qué comprimir primero.",
   lead: [

@@ -170,7 +170,7 @@ export const cpmIliCpcEs: BlogPost = {
   title: "CPM o CPC: cuándo pagar por impresiones vs. clics",
   date: "2021-06-29",
   category: "Digital marketing",
-  cover: "/images/blog/cpm-ili-cpc/cover.webp",
+  cover: "/images/blog/cpm-ili-cpc/cover-es.webp",
   excerpt:
     "En qué se diferencia el coste por impresión (CPM) del coste por clic (CPC), qué modelo encaja con cada objetivo, cómo el targeting moldea la economía de la campaña y por qué «cuál es mejor» siempre depende del resultado que buscas.",
   lead: [

@@ -184,7 +184,7 @@ export const sklikivanieEs: BlogPost = {
   title: "Fraude de clics en ads: señales, protección en Yandex Direct y Google Ads",
   date: "2021-09-17",
   category: "Paid search",
-  cover: "/images/blog/sklikivanie/cover.webp",
+  cover: "/images/blog/sklikivanie/cover-es.webp",
   excerpt:
     "Qué es el fraude de clics, cómo distinguirlo de una campaña floja, qué defensas hay en Yandex Direct y Google Ads, y qué hacer si sospechas fraude.",
   lead: [

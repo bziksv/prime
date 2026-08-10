@@ -126,7 +126,7 @@ export const kommercheskoePredlozhenieEs: BlogPost = {
   title: "Cómo escribir una propuesta comercial: tipos, estructura, oferta",
   date: "2019-03-26",
   category: "Digital marketing",
-  cover: "/images/blog/kommercheskoe-predlozhenie/cover.webp",
+  cover: "/images/blog/kommercheskoe-predlozhenie/cover-es.webp",
   excerpt:
     "Una propuesta comercial (sales pitch): fría, tibia y caliente; estructura básica de la carta; titular, beneficio, precio, objeciones y CTA — sin clichés de spam ni presión.",
   lead: [

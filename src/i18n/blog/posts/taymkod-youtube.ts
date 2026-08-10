@@ -171,7 +171,7 @@ export const taymkodYoutubeEs: BlogPost = {
   title: "Timecodes en YouTube: capítulos, enlaces con tiempo y navegación",
   date: "2021-05-25",
   category: "SMM",
-  cover: "/images/blog/taymkod-youtube/cover.webp",
+  cover: "/images/blog/taymkod-youtube/cover-es.webp",
   excerpt:
     "Qué es un timecode de YouTube: capítulos en la descripción, marcadores clicables, una URL con parámetro de tiempo — y por qué ayudan a espectadores y canales, sin capturas antiguas de Studio.",
   lead: [

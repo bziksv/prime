@@ -141,7 +141,7 @@ export const kontentINativnayaEs: BlogPost = {
   title: "Content marketing vs publicidad nativa: la diferencia real",
   date: "2020-09-18",
   category: "Content marketing",
-  cover: "/images/blog/kontent-i-nativnaya/cover.webp",
+  cover: "/images/blog/kontent-i-nativnaya/cover-es.webp",
   excerpt:
     "En qué se diferencia el content marketing de los ads nativos: canales propios y un embudo largo vs integraciones de pago en el entorno de otro — y cómo combinarlos sin mezclar términos.",
   lead: [

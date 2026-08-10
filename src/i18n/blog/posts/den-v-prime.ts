@@ -104,7 +104,7 @@ export const denVPrimeEs: BlogPost = {
   title: "A quién le va bien el SEO: un día en PRIME",
   date: "2016-11-25",
   category: "Digital marketing",
-  cover: "/images/blog/den-v-prime/cover.webp",
+  cover: "/images/blog/den-v-prime/cover-es.webp",
   excerpt:
     "Una mirada ligera desde dentro: cómo es un día ordinario en una agencia digital — el trayecto, tareas de SEO y paid search, proyectos «nuevos» y un equipo vivo. Un snapshot de atmósfera, no la plantilla de hoy.",
   lead: [

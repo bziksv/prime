@@ -135,7 +135,7 @@ export const mixedContentEs: BlogPost = {
   title: "Mixed content: HTTP en un sitio HTTPS y SEO",
   date: "2020-03-02",
   category: "Content marketing",
-  cover: "/images/blog/mixed-content/cover.webp",
+  cover: "/images/blog/mixed-content/cover-es.webp",
   excerpt:
     "Qué es el mixed content en un sitio HTTPS: assets HTTP activos y pasivos, cómo duele, cómo encontrarlo en DevTools y cómo arreglarlo — sin tomar el candado verde como evangelio ni apoyarse en capturas viejas de Chrome.",
   lead: [

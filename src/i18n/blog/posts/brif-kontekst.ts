@@ -6,7 +6,7 @@ export const brifKontekstEs: BlogPost = {
   title: "Brief de búsqueda de pago: qué incluir",
   date: "2017-05-19",
   category: "Paid search",
-  cover: "/images/blog/brif-kontekst/cover.webp",
+  cover: "/images/blog/brif-kontekst/cover-es.webp",
   excerpt:
     "Cómo escribir un brief para Direct y Google Ads: objetivos, USP, dolores, presupuesto, plazos de KPI, audiencia, geo, límites creativos — para que contratista y cliente miren el mismo resultado.",
   lead: [

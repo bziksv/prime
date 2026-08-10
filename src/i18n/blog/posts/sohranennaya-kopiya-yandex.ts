@@ -137,7 +137,7 @@ export const sohranennayaKopiyaYandexEs: BlogPost = {
   title: "Copia en caché de Yandex: qué es y cómo abrirla",
   date: "2022-01-11",
   category: "SEO",
-  cover: "/images/blog/sohranennaya-kopiya-yandex/cover.webp",
+  cover: "/images/blog/sohranennaya-kopiya-yandex/cover-es.webp",
   excerpt:
     "Qué es la caché de Yandex, cómo abrir una copia guardada, por qué puede faltar y si eso importa para el SEO.",
   lead: [

@@ -255,7 +255,7 @@ export const kontentMenedzherEs: BlogPost = {
   title: "Content manager: funciones, skills y cómo empezar",
   date: "2021-03-23",
   category: "Content marketing",
-  cover: "/images/blog/kontent-menedzher/cover.webp",
+  cover: "/images/blog/kontent-menedzher/cover-es.webp",
   excerpt:
     "Qué hace un content manager, cómo se diferencia del copywriter y del SMM, qué funciones y skills importan, y cómo empezar.",
   lead: [

@@ -156,7 +156,7 @@ export const prodvizhenieOfflaynBiznesaEs: BlogPost = {
   title: "Promocionar un negocio offline: mapas, reseñas, hiperlocal y medición de visitas",
   date: "2019-08-29",
   category: "Digital marketing",
-  cover: "/images/blog/prodvizhenie-offlayn-biznesa/cover.webp",
+  cover: "/images/blog/prodvizhenie-offlayn-biznesa/cover-es.webp",
   excerpt:
     "Cómo llevar gente a un local: fichas en mapas, reseñas, ads hiperlocales y SMS, outdoor/indoor y el enlace online→offline — sin apostar por el radar MAC anticuado.",
   lead: [

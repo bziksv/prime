@@ -214,7 +214,7 @@ export const googleAnalyticsEs: BlogPost = {
   title: "Google Analytics para una tienda online: leer el comportamiento del cliente",
   date: "2020-10-13",
   category: "Digital marketing",
-  cover: "/images/blog/google-analytics/cover.webp",
+  cover: "/images/blog/google-analytics/cover-es.webp",
   excerpt:
     "Cómo leer el comportamiento de la audiencia de una tienda en Google Analytics: segmentos, funnel, informes e hipótesis — en lógica GA4, sin adorar métricas «medias».",
   lead: [

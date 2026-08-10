@@ -207,7 +207,7 @@ export const oshibka500Es: BlogPost = {
   title: "HTTP 500 Internal Server Error: qué significa y cómo arreglarlo",
   date: "2020-07-21",
   category: "SEO",
-  cover: "/images/blog/oshibka-500/cover.webp",
+  cover: "/images/blog/oshibka-500/cover-es.webp",
   excerpt:
     "Qué significa HTTP 500, en qué se diferencia de 502/504, causas típicas de CMS y hosting, y un orden claro de diagnóstico — sin plugins «mágicos» de fix.",
   lead: [

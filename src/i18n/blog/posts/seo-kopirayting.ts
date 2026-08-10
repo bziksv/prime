@@ -222,7 +222,7 @@ export const seoKopiraytingEs: BlogPost = {
   title: "Copywriting SEO: reglas, LSI y checklist práctico",
   date: "2019-12-07",
   category: "SEO",
-  cover: "/images/blog/seo-kopirayting/cover.webp",
+  cover: "/images/blog/seo-kopirayting/cover-es.webp",
   excerpt:
     "Qué es el copywriting SEO, en qué se diferencia de «solo texto», un glosario corto para briefs, LSI, un checklist de creación y errores habituales — sin culto a la densidad de keywords.",
   lead: [

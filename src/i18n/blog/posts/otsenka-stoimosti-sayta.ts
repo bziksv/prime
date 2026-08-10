@@ -118,7 +118,7 @@ export const otsenkaStoimostiSaytaEs: BlogPost = {
   title: "Valoración de un sitio: qué revisar y por qué mienten las calculadoras online",
   date: "2021-02-25",
   category: "Digital marketing",
-  cover: "/images/blog/otsenka-stoimosti-sayta/cover.webp",
+  cover: "/images/blog/otsenka-stoimosti-sayta/cover-es.webp",
   excerpt:
     "Por qué se valoran sitios, por qué las cifras estilo pr-cy divergen de un trato real, y qué factores ganan a un «precio mágico» en un clic.",
   lead: [

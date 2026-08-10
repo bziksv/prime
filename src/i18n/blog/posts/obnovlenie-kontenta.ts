@@ -144,7 +144,7 @@ export const obnovlenieKontentaEs: BlogPost = {
   title: "Cómo refrescar posts antiguos del blog y recuperar tráfico",
   date: "2021-07-08",
   category: "Content marketing",
-  cover: "/images/blog/obnovlenie-kontenta/cover.webp",
+  cover: "/images/blog/obnovlenie-kontenta/cover-es.webp",
   excerpt:
     "Encuentra posts que aún tienen demanda de búsqueda, decide qué actualizar primero, mejora el texto y la página, y vuelve a promover — sin prometer «2× de tráfico en 90 días para cualquier sitio».",
   lead: [

@@ -207,7 +207,7 @@ export const chromeRasshireniyaSeoEs: BlogPost = {
   title: "Extensiones de Chrome para SEO: un mínimo útil",
   date: "2019-11-14",
   category: "SEO",
-  cover: "/images/blog/chrome-rasshireniya-seo/cover.webp",
+  cover: "/images/blog/chrome-rasshireniya-seo/cover-es.webp",
   excerpt:
     "Qué extensiones de Chrome ayudan de verdad al trabajo SEO: auditoría de página, keywords, UTM, cookies, enlaces y herramientas web — con el aviso de que el catálogo de Chrome Web Store cambia.",
   lead: [

@@ -187,7 +187,7 @@ export const reklamnyyBannerEs: BlogPost = {
   title: "Banner publicitario: principios de un creative efectivo",
   date: "2020-02-28",
   category: "Digital marketing",
-  cover: "/images/blog/reklamnyy-banner/cover.webp",
+  cover: "/images/blog/reklamnyy-banner/cover-es.webp",
   excerpt:
     "Cómo hacer un banner publicitario que la gente note: oferta, jerarquía, CTA, tamaños, combatir la ceguera de banner y pop-ups con cuidado — sin «tendencias por las tendencias» obsoletas.",
   lead: [

@@ -163,7 +163,7 @@ export const modxLocalEs: BlogPost = {
   title: "Instalar MODX Revolution en un servidor local",
   date: "2018-02-14",
   category: "Websites",
-  cover: "/images/blog/modx-local/cover.webp",
+  cover: "/images/blog/modx-local/cover-es.webp",
   excerpt:
     "Cómo instalar MODX Revolution en local: el paquete, el virtual host, la base MySQL y el asistente de setup — con OSPanel/Open Server de ejemplo, sin límites obsoletos de «no más de 5000 páginas».",
   lead: [

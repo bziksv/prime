@@ -151,7 +151,7 @@ export const optimizatsiyaStranitsyEs: BlogPost = {
   title: "Checklist SEO on-page: optimizar una página para una query de búsqueda",
   date: "2021-08-02",
   category: "SEO",
-  cover: "/images/blog/optimizatsiya-stranitsy/cover.webp",
+  cover: "/images/blog/optimizatsiya-stranitsy/cover-es.webp",
   excerpt:
     "Afinar un landing para una query: copy, title y H1, meta description, enlaces internos, profundidad de clic, URL e imágenes — sin stuffing ni el mito de que cada párrafo necesita la keyword.",
   lead: [

@@ -165,7 +165,7 @@ export const interfeysYandeksDirektEs: BlogPost = {
   title: "Interfaz de Yandex Direct: de la beta de 2018 al trabajo guiado por stats",
   date: "2018-08-08",
   category: "Paid search",
-  cover: "/images/blog/interfeys-yandeks-direkt/cover.webp",
+  cover: "/images/blog/interfeys-yandeks-direkt/cover-es.webp",
   excerpt:
     "Qué cambió de verdad el rediseño de Direct de 2018 — y qué sigue importando: tablas, filtros, ediciones masivas, decisiones por informes — sin el pitch de «entra a la beta».",
   lead: [

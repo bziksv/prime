@@ -178,7 +178,7 @@ export const yandeksBrauzerEs: BlogPost = {
   title: "Cómo instalar Yandex Browser con seguridad",
   date: "2018-03-19",
   category: "Digital marketing",
-  cover: "/images/blog/yandeks-brauzer/cover.webp",
+  cover: "/images/blog/yandeks-brauzer/cover-es.webp",
   excerpt:
     "Instala Yandex Browser desde el sitio oficial, mueve favoritos y contraseñas, y arregla errores habituales de Windows — sin «descargadores gratis» de terceros ni rutas de wizard obsoletas.",
   lead: [

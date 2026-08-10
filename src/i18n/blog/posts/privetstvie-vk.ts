@@ -163,7 +163,7 @@ export const privetstvieVkEs: BlogPost = {
   title: "Saludo de comunidad VK: cómo dar la bienvenida a invitados y nuevos followers",
   date: "2020-12-30",
   category: "SMM",
-  cover: "/images/blog/privetstvie-vk/cover.webp",
+  cover: "/images/blog/privetstvie-vk/cover-es.webp",
   excerpt:
     "Un saludo de grupo VK: por qué usar un widget o un mensaje a newcomers, qué escribir y cómo no molestar — sin hype por una app ni promesas de «crecimiento instantáneo».",
   lead: [

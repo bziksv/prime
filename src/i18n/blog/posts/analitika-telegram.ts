@@ -135,7 +135,7 @@ export const analitikaTelegramEs: BlogPost = {
   title: "Analítica de canales Telegram: views, alcance y qué mirar",
   date: "2020-02-10",
   category: "SMM",
-  cover: "/images/blog/analitika-telegram/cover.webp",
+  cover: "/images/blog/analitika-telegram/cover-es.webp",
   excerpt:
     "Cómo leer las stats de un canal Telegram: en qué se diferencian views y alcance, qué métricas mirar en Insights y herramientas de terceros — sin el «Telegram no tiene analytics» obsoleto.",
   lead: [

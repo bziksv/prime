@@ -153,7 +153,7 @@ export const heshtegiInstagramEs: BlogPost = {
   title: "Hashtags y geotags en Instagram: ayudan al reach sin spam",
   date: "2018-10-05",
   category: "SMM",
-  cover: "/images/blog/heshtegi-instagram/cover.webp",
+  cover: "/images/blog/heshtegi-instagram/cover-es.webp",
   excerpt:
     "Cómo elegir hashtags y etiquetas de ubicación para un perfil de negocio en Instagram: nicho, tag de marca, punto en el mapa — sin el mito de que 30 tags ganan discovery ni fórmulas obsoletas de 2018.",
   lead: [

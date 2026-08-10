@@ -157,7 +157,7 @@ export const nakrutkaLaykovInstagramEs: BlogPost = {
   title: "Likes falsos en Instagram: riesgos y por qué no deberías",
   date: "2021-11-26",
   category: "SMM",
-  cover: "/images/blog/nakrutka-laykov-instagram/cover.webp",
+  cover: "/images/blog/nakrutka-laykov-instagram/cover-es.webp",
   excerpt:
     "Por qué la gente persigue likes en Instagram, qué tiene de peligroso los bots y servicios de engagement falso, cómo se ven las sanciones y qué hacer en lugar de comprar actividad artificial.",
   lead: [

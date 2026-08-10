@@ -118,7 +118,7 @@ export const virtualnyyNomerEs: BlogPost = {
   title: "Números de teléfono virtuales: por qué los necesita el negocio y dónde están los límites",
   date: "2020-07-21",
   category: "Digital marketing",
-  cover: "/images/blog/virtualnyy-nomer/cover.webp",
+  cover: "/images/blog/virtualnyy-nomer/cover-es.webp",
   excerpt:
     "Qué es un número virtual: recibir SMS y llamadas por internet, casos de uso de negocio (call tracking, toll-free, IVR) y riesgos de «números gratis para registros». Sin guías para saltar reglas de plataforma.",
   lead: [

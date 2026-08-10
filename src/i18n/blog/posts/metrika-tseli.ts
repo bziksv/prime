@@ -235,7 +235,7 @@ export const metrikaTseliEs: BlogPost = {
   title: "Goals en Yandex Metrica: tipos y configuración",
   date: "2020-07-15",
   category: "SEO",
-  cover: "/images/blog/metrika-tseli/cover.webp",
+  cover: "/images/blog/metrika-tseli/cover-es.webp",
   excerpt:
     "Cómo configurar goals en Yandex Metrica: pageviews, visita a página, eventos JavaScript y un goal multi-paso — con verificación y la forma actual de reachGoal.",
   lead: [

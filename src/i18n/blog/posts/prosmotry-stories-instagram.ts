@@ -162,7 +162,7 @@ export const prosmotryStoriesInstagramEs: BlogPost = {
   title: "Cómo crecer las views de Instagram Stories: 6 pasos prácticos",
   date: "2020-07-24",
   category: "SMM",
-  cover: "/images/blog/prosmotry-stories-instagram/cover.webp",
+  cover: "/images/blog/prosmotry-stories-instagram/cover-es.webp",
   excerpt:
     "Cómo subir las views de Stories: actividad de audiencia, contenido en vivo, gamificación, Lives, Highlights y medir en conteo de frames — sin views falsas ni garantías de «explosión».",
   lead: [

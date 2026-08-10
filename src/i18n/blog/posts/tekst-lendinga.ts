@@ -196,7 +196,7 @@ export const tekstLendingaEs: BlogPost = {
   title: "Copy de landing: estructura, oferta y CTA",
   date: "2021-06-07",
   category: "Content marketing",
-  cover: "/images/blog/tekst-lendinga/cover.webp",
+  cover: "/images/blog/tekst-lendinga/cover-es.webp",
   excerpt:
     "Cómo escribir copy de landing: oferta, bloques de beneficio, prueba, formulario y CTA — sin keyword stuffing en cada alt ni el mito de las «keywords en el dominio».",
   lead: [

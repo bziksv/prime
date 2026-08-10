@@ -114,7 +114,7 @@ export const ustarevshiySaytEs: BlogPost = {
   title: "Señales de un sitio desactualizado: checklist antes del rediseño",
   date: "2019-02-25",
   category: "Digital marketing",
-  cover: "/images/blog/ustarevshiy-sayt/cover.webp",
+  cover: "/images/blog/ustarevshiy-sayt/cover-es.webp",
   excerpt:
     "Cuándo un sitio se siente viejo: estructura hinchada, sin layout responsive, funciones pobres, copy atiborrado, desajuste diseño/marca, legado Flash y carga lenta — sin garantías de rankings tras un rediseño.",
   lead: [

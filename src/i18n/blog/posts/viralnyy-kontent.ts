@@ -235,7 +235,7 @@ export const viralnyyKontentEs: BlogPost = {
   title: "Contenido viral: qué es y cómo darle más opciones",
   date: "2021-02-12",
   category: "Content marketing",
-  cover: "/images/blog/viralnyy-kontent/cover.webp",
+  cover: "/images/blog/viralnyy-kontent/cover-es.webp",
   excerpt:
     "Qué es el contenido viral, cómo se relaciona con el marketing viral, qué señales suben las odds de share y por qué no puedes garantizar un «hit».",
   lead: [

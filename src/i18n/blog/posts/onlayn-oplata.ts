@@ -138,7 +138,7 @@ export const onlaynOplataEs: BlogPost = {
   title: "Pagos online en un sitio: acquiring, agregador y qué elegir",
   date: "2021-07-08",
   category: "E-commerce",
-  cover: "/images/blog/onlayn-oplata/cover.webp",
+  cover: "/images/blog/onlayn-oplata/cover-es.webp",
   excerpt:
     "Cómo aceptar pagos en un sitio: tarjeta, Faster Payments (SBP) y wallets; en qué se diferencia un gateway de un agregador y un adquirente bancario; qué mirar en comisiones, seguridad y reglas fiscales (54-FZ).",
   lead: [

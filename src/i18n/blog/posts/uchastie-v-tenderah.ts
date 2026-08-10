@@ -149,7 +149,7 @@ export const uchastieVTenderahEs: BlogPost = {
   title: "Participar en licitaciones: por qué una agencia debería, formatos y cuándo parar",
   date: "2019-08-22",
   category: "Digital marketing",
-  cover: "/images/blog/uchastie-v-tenderah/cover.webp",
+  cover: "/images/blog/uchastie-v-tenderah/cover-es.webp",
   excerpt:
     "Por qué una agencia de marketing debería sumarse a compras, qué formatos existen, qué revisar en la documentación y señales de una licitación «de escaparate» — sin prometer una victoria fácil.",
   lead: [

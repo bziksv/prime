@@ -201,7 +201,7 @@ export const bitrixPlyusyMinusyEs: BlogPost = {
   title: "Pros y contras del CMS 1C-Bitrix",
   date: "2017-04-06",
   category: "Digital marketing",
-  cover: "/images/blog/bitrix-plyusy-minusy/cover.webp",
+  cover: "/images/blog/bitrix-plyusy-minusy/cover-es.webp",
   excerpt:
     "Pros y contras de 1C-Bitrix: ecosistema, seguridad, licencias, hosting y velocidad — a quién encaja la plataforma, sin rankings de cuota de 2017 ni el mito de que Bitrix solo te posiciona.",
   lead: [

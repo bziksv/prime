@@ -140,7 +140,7 @@ export const blokirovkaInstagramEs: BlogPost = {
   title: "Bloqueo en Instagram: cómo recuperar el acceso y qué evitar",
   date: "2021-07-13",
   category: "SMM",
-  cover: "/images/blog/blokirovka-instagram/cover.webp",
+  cover: "/images/blog/blokirovka-instagram/cover-es.webp",
   excerpt:
     "Por qué Instagram restringe cuentas, en qué se diferencia un ban completo de «action blocked», cómo apelar por formularios oficiales y cómo bajar el riesgo — sin esquemas grises.",
   lead: [

@@ -152,7 +152,7 @@ export const indeksatsiyaSaytaEs: BlogPost = {
   title: "Qué significa la indexación de un sitio",
   date: "2018-03-16",
   category: "SEO",
-  cover: "/images/blog/indeksatsiya-sayta/cover.webp",
+  cover: "/images/blog/indeksatsiya-sayta/cover-es.webp",
   excerpt:
     "Cómo los buscadores rastrean y meten páginas en el índice: qué afecta a entrar en la base, robots y sitemap, Webmaster / Search Console, checks de cobertura — sin social bookmarks de los 2010 ni compra de enlaces «para indexar».",
   lead: [

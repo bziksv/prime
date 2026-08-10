@@ -211,7 +211,7 @@ export const vebAnalitikEs: BlogPost = {
   title: "Web analyst: rol, skills y camino de carrera",
   date: "2019-12-04",
   category: "SEO",
-  cover: "/images/blog/veb-analitik/cover.webp",
+  cover: "/images/blog/veb-analitik/cover-es.webp",
   excerpt:
     "Qué hace un web analyst, qué skills importan, dónde aprender, cómo suele crecer la carrera y por qué el trabajo es más que exportar un informe de Metrica.",
   lead: [

@@ -221,7 +221,7 @@ export const diplinkingEs: BlogPost = {
   title: "Deeplinking en ads: llevar al usuario directo a la pantalla correcta",
   date: "2019-08-20",
   category: "Digital marketing",
-  cover: "/images/blog/diplinking/cover.webp",
+  cover: "/images/blog/diplinking/cover-es.webp",
   excerpt:
     "Qué son un deeplink y un deferred deeplink, por qué importan en ads de apps y mensajería, y cómo no perder conversión en el camino del banner a la pantalla correcta.",
   lead: [

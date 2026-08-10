@@ -258,7 +258,7 @@ export const klyuchiGoogleAdsEs: BlogPost = {
   title: "Investigación de keywords en Google Ads",
   date: "2021-03-09",
   category: "Paid search",
-  cover: "/images/blog/klyuchi-google-ads/cover.webp",
+  cover: "/images/blog/klyuchi-google-ads/cover-es.webp",
   excerpt:
     "Cómo elegir keywords para Google Ads (antes AdWords): tipos de coincidencia, stats del planner y checks de intención — sin mezclarlos con un set SEO.",
   lead: [

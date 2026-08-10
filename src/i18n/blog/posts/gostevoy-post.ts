@@ -133,7 +133,7 @@ export const gostevoyPostEs: BlogPost = {
   title: "Guest post: cómo elegir un sitio de publicación",
   date: "2019-04-11",
   category: "Content marketing",
-  cover: "/images/blog/gostevoy-post/cover.webp",
+  cover: "/images/blog/gostevoy-post/cover-es.webp",
   excerpt:
     "Cómo encontrar y evaluar sitios para artículos guest: audiencia, tráfico, engagement y perfil de enlaces — sin promesas gratis de primera página ni spam de links.",
   lead: [

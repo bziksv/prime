@@ -160,7 +160,7 @@ export const yandeksDialogiEs: BlogPost = {
   title: "Chat con una empresa en Yandex: Dialogs y contacto desde la búsqueda",
   date: "2018-08-15",
   category: "Digital marketing",
-  cover: "/images/blog/yandeks-dialogi/cover.webp",
+  cover: "/images/blog/yandeks-dialogi/cover-es.webp",
   excerpt:
     "Cómo funciona el chat de negocio en el ecosistema Yandex: contacto desde la búsqueda y el snippet, el rol del operador y la API — sin prometer un eterno «botón de Alice para siempre».",
   lead: [
