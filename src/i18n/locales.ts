@@ -2,6 +2,7 @@
  * i18n v1 — зафиксированные локали.
  * RU без префикса; остальные — /{code}/…
  * Язык гостя на морде: Accept-Language / navigator.languages (не IP).
+ * Прод: тихий редирект с главной + cookie prime_locale_pref; без баннера.
  */
 
 export const defaultLocale = "ru" as const;

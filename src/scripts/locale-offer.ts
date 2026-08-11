@@ -1,12 +1,18 @@
 /**
- * Soft locale offer based on navigator.languages (not IP).
- * Cookie prime_locale_pref remembers choice / dismiss.
+ * Locale by navigator.languages (not IP), cookie prime_locale_pref remembers choice.
+ * On homepage only: silent redirect to preferred locale when no cookie yet.
+ * No banner / soft offer.
  *
  * RU/EN/ES topbar switcher markup is build-gated with `import.meta.env.DEV`
  * (astro dev only) — it must not ship on production.
  */
 const COOKIE = "prime_locale_pref";
-const OFFER_KEY = "prime_locale_offer_dismissed";
+
+const HOME_BY_LOCALE: Record<string, string> = {
+  ru: "/",
+  en: "/en/",
+  es: "/es/",
+};
 
 function readCookie(name: string): string | null {
   const m = document.cookie.match(new RegExp(`(?:^|; )${name}=([^;]*)`));
@@ -18,6 +24,20 @@ function writeCookie(name: string, value: string, days = 365) {
   document.cookie = `${name}=${encodeURIComponent(value)}; path=/; max-age=${maxAge}; samesite=lax`;
 }
 
+function normalizePath(path: string): string {
+  if (path.length > 1 && path.endsWith("/")) return path;
+  if (path === "/") return "/";
+  return `${path}/`;
+}
+
+function preferredLocale(langs: string[]): keyof typeof HOME_BY_LOCALE | null {
+  for (const raw of langs) {
+    const base = raw.toLowerCase().split("-")[0];
+    if (base === "es" || base === "en" || base === "ru") return base;
+  }
+  return null;
+}
+
 document.querySelectorAll<HTMLElement>("[data-locale-set]").forEach((el) => {
   el.addEventListener("click", () => {
     const loc = el.dataset.localeSet;
@@ -25,34 +45,19 @@ document.querySelectorAll<HTMLElement>("[data-locale-set]").forEach((el) => {
   });
 });
 
-const offers = Array.from(document.querySelectorAll<HTMLElement>("[data-locale-offer]"));
-if (offers.length) {
-  const pref = readCookie(COOKIE);
-  const dismissed = sessionStorage.getItem(OFFER_KEY) === "1";
+const pref = readCookie(COOKIE);
+const pageLocale = document.documentElement.getAttribute("data-locale") || "ru";
+const hasDevSwitcher = Boolean(document.querySelector("[data-lang-switch]"));
+const path = normalizePath(location.pathname);
+const isHome = path === HOME_BY_LOCALE.ru || path === HOME_BY_LOCALE.en || path === HOME_BY_LOCALE.es;
+
+if (!hasDevSwitcher && !pref && isHome) {
   const langs = (navigator.languages?.length ? navigator.languages : [navigator.language]).map((l) =>
     l.toLowerCase(),
   );
-  const pageLocale = document.documentElement.getAttribute("data-locale") || "ru";
-  const hasDevSwitcher = Boolean(document.querySelector("[data-lang-switch]"));
-
-  // Prefer first matching offer (RU page lists es before en).
-  const match = offers.find((offer) => {
-    const target = offer.dataset.offerTarget || "en";
-    return langs.some((l) => l === target || l.startsWith(`${target}-`)) && pageLocale !== target;
-  });
-
-  if (!hasDevSwitcher && !dismissed && !pref && match) {
-    match.hidden = false;
-    const target = match.dataset.offerTarget || "en";
-
-    match.querySelector("[data-locale-offer-dismiss]")?.addEventListener("click", () => {
-      sessionStorage.setItem(OFFER_KEY, "1");
-      writeCookie(COOKIE, pageLocale);
-      match.hidden = true;
-    });
-
-    match.querySelector("[data-locale-offer-accept]")?.addEventListener("click", () => {
-      writeCookie(COOKIE, target);
-    });
+  const want = preferredLocale(langs);
+  if (want && want !== pageLocale) {
+    writeCookie(COOKIE, want);
+    location.replace(HOME_BY_LOCALE[want]);
   }
 }
