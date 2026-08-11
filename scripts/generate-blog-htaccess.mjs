@@ -99,6 +99,11 @@ for (const post of data.posts) {
   const mark = post.dup ? " # dup" : "";
   // WP permalink /%category%/%postname%/: leaf or nested (child of blog →
   // /blog/seo-poleznosti/slug/). Also bare /slug/ and single /seo-poleznosti/slug/.
+  // When wpSlug === astroSlug the pattern also matches the canonical
+  // /blog/{slug}/ and would 301-loop forever — skip that exact URI.
+  if (wp === astro) {
+    lines.push(`RewriteCond %{REQUEST_URI} !^/blog/${astro}/?$ [NC]`);
+  }
   lines.push(
     `RewriteRule ^(?:(?:${catGroup})/)*${wp}/?$ /blog/${astro}/ [R=301,L]${mark}`,
   );
