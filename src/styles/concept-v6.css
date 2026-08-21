@@ -501,6 +501,23 @@
   box-sizing: border-box;
 }
 
+.v6-form input.is-invalid:not([type="checkbox"]),
+.v6-form select.is-invalid,
+.v6-form textarea.is-invalid,
+.v6-form input[aria-invalid="true"]:not([type="checkbox"]),
+.v6-form select[aria-invalid="true"],
+.v6-form textarea[aria-invalid="true"] {
+  border-color: #c2410c;
+  box-shadow: 0 0 0 3px rgba(194, 65, 12, 0.15);
+}
+
+.v6-form__check:has(input.is-invalid),
+.v6-form__check:has(input[aria-invalid="true"]) {
+  outline: 2px solid #c2410c;
+  outline-offset: 4px;
+  border-radius: 6px;
+}
+
 .v6-form textarea {
   resize: vertical;
   min-height: 72px;

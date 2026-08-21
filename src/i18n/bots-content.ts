@@ -86,7 +86,9 @@ export type BotsContent = {
   formFocusOptions: string[];
   formMessage: string;
   formAgreeBefore: string;
-  formAgreePolicy: string;
+  formAgreeConsent: string;
+  formAgreeMid: string;
+  formAgreeData: string;
   formSubmit: string;
   formSuccess: string;
   formSource: string;
@@ -195,8 +197,10 @@ const botsRu: BotsContent = {
     "Комплекс · сайт + бот",
   ],
   formMessage: "Канал, сценарии, есть ли сайт или CRM?",
-  formAgreeBefore: "Согласен на обработку персональных данных в соответствии с нашей",
-  formAgreePolicy: "политикой",
+  formAgreeBefore: "Даю",
+  formAgreeConsent: "согласие",
+  formAgreeMid: "на обработку",
+  formAgreeData: "персональных данных",
   formSubmit: "Отправить заявку",
   formSuccess: "Спасибо! Заявка по ботам принята — свяжемся с вами.",
   formSource: "razrabotka-botov-dlya-messendzherov",
@@ -432,8 +436,10 @@ const botsEn: BotsContent = {
     "Full stack · site + bot",
   ],
   formMessage: "Channel, flows — do you have a site or CRM?",
-  formAgreeBefore: "I agree to personal data processing under our",
-  formAgreePolicy: "privacy policy",
+  formAgreeBefore: "I give",
+  formAgreeConsent: "consent",
+  formAgreeMid: "to the processing of",
+  formAgreeData: "personal data",
   formSubmit: "Send",
   formSuccess: "Thanks — we got it. We’ll follow up about your bot.",
   formSource: "en-bots",
@@ -660,8 +666,10 @@ const botsEs: BotsContent = {
     "Todo junto · sitio + bot",
   ],
   formMessage: "Canal, flujos — ¿tienes sitio o CRM?",
-  formAgreeBefore: "Acepto el tratamiento de datos personales conforme a nuestra",
-  formAgreePolicy: "política de privacidad",
+  formAgreeBefore: "Doy",
+  formAgreeConsent: "consentimiento",
+  formAgreeMid: "al tratamiento de",
+  formAgreeData: "datos personales",
   formSubmit: "Enviar",
   formSuccess: "Gracias, lo recibimos. Te contactaremos sobre tu bot.",
   formSource: "es-bots",

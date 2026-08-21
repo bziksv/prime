@@ -1,10 +1,10 @@
 ---
 import PortalShell from "../PortalShell.astro";
+import FormAgreeLabel from "../FormAgreeLabel.astro";
 import CookieConsent from "../CookieConsent.astro";
 import CookieFooterNotice from "../CookieFooterNotice.astro";
 import SiteSeo from "../SiteSeo.astro";
 import { v6Icons } from "../../data/v6-media";
-import { getLegalDocs } from "../../data/legal";
 import { getCasesByCategory } from "../../data/cases";
 import { contacts } from "../../data/contacts";
 import { breadcrumbJsonLd } from "../../lib/breadcrumb-jsonld";
@@ -21,7 +21,6 @@ interface Props {
 const { locale } = Astro.props;
 const t = getAdsContent(locale);
 const home = getHomeContent(locale);
-const docs = getLegalDocs(locale);
 const htmlLang = localeMeta[locale].hreflang;
 const ogLocale = locale === "en" ? "en_US" : locale === "es" ? "es_ES" : "ru_RU";
 const showPhone = locale === "ru";
@@ -411,13 +410,13 @@ const serviceLd = serviceJsonLd({
               <label class="a-form__check">
                 <input type="checkbox" name="agree" required />
                 <span>
-                  {t.formAgreeBefore}{" "}
-                  <a
-                    class="cookie-link"
-                    href={docs.privacy}
-                    target="_blank"
-                    rel="nofollow noopener noreferrer">{t.formAgreePolicy}</a
-                  >.
+                  <FormAgreeLabel
+                    locale={locale}
+                    before={t.formAgreeBefore}
+                    consent={t.formAgreeConsent}
+                    mid={t.formAgreeMid}
+                    data={t.formAgreeData}
+                  />
                 </span>
               </label>
               <button type="submit" class="a-btn a-btn--ink">{t.formSubmit}</button>

@@ -93,7 +93,9 @@ export type AnalyticsContent = {
   formCrmOptions: string[];
   formMessage: string;
   formAgreeBefore: string;
-  formAgreePolicy: string;
+  formAgreeConsent: string;
+  formAgreeMid: string;
+  formAgreeData: string;
   formSubmit: string;
   formSuccess: string;
   formSource: string;
@@ -176,8 +178,10 @@ const analyticsRu: AnalyticsContent = {
   formCrm: "CRM / учёт",
   formCrmOptions: ["Bitrix24", "amoCRM", "1С", "Другая / пока нет"],
   formMessage: "Каналы и объём трафика — коротко",
-  formAgreeBefore: "Согласен на обработку персональных данных в соответствии с нашей",
-  formAgreePolicy: "политикой",
+  formAgreeBefore: "Даю",
+  formAgreeConsent: "согласие",
+  formAgreeMid: "на обработку",
+  formAgreeData: "персональных данных",
   formSubmit: "Отправить заявку",
   formSuccess: "Спасибо! Заявка на сквозную аналитику принята — свяжемся с вами.",
   formSource: "skvoznaya-analitika",
@@ -407,8 +411,10 @@ const analyticsEn: AnalyticsContent = {
   formCrm: "CRM / sales system",
   formCrmOptions: ["HubSpot", "Salesforce", "Pipedrive", "Other / none yet"],
   formMessage: "Channels and rough traffic volume",
-  formAgreeBefore: "I agree to personal data processing under our",
-  formAgreePolicy: "privacy policy",
+  formAgreeBefore: "I give",
+  formAgreeConsent: "consent",
+  formAgreeMid: "to the processing of",
+  formAgreeData: "personal data",
   formSubmit: "Send",
   formSuccess: "Thanks — we got your note. We’ll follow up shortly.",
   formSource: "en-analytics",
@@ -638,8 +644,10 @@ const analyticsEs: AnalyticsContent = {
   formCrm: "CRM / sistema de ventas",
   formCrmOptions: ["HubSpot", "Salesforce", "Pipedrive", "Otro / aún no tengo"],
   formMessage: "Canales y volumen aproximado de tráfico",
-  formAgreeBefore: "Acepto el tratamiento de datos personales conforme a nuestra",
-  formAgreePolicy: "política de privacidad",
+  formAgreeBefore: "Doy",
+  formAgreeConsent: "consentimiento",
+  formAgreeMid: "al tratamiento de",
+  formAgreeData: "datos personales",
   formSubmit: "Enviar",
   formSuccess: "Gracias — hemos recibido tu mensaje. Te contactaremos en breve.",
   formSource: "es-analytics",

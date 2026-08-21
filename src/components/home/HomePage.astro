@@ -1,4 +1,5 @@
 ---
+import FormAgreeLabel from "../FormAgreeLabel.astro";
 import CookieConsent from "../CookieConsent.astro";
 import CookieFooterNotice from "../CookieFooterNotice.astro";
 import SiteSeo from "../SiteSeo.astro";
@@ -12,7 +13,6 @@ import {
   v6ClientBrands,
   v6ClientBrandsLatin,
 } from "../../data/v6-media";
-import { getLegalDocs } from "../../data/legal";
 import { casesForHome, casePath } from "../../data/cases";
 import { contacts } from "../../data/contacts";
 import { casesIndexPath } from "../../i18n/cases";
@@ -33,7 +33,6 @@ interface Props {
 
 const { locale } = Astro.props;
 const t: HomeContent = getHomeContent(locale);
-const docs = getLegalDocs(locale);
 const year = new Date().getFullYear();
 const path = homePath(locale);
 const htmlLang = localeMeta[locale].hreflang;
@@ -616,17 +615,13 @@ const hubCplInitial =
                 ></textarea>
                 <label class="v6-form__check">
                   <input type="checkbox" name="agree" required />
-                  <span>
-                    {t.formAgreeBefore}{" "}
-                    <span class="v6-form__check-link">
-                      <a
-                        class="cookie-link"
-                        href={docs.privacy}
-                        target="_blank"
-                        rel="nofollow noopener noreferrer">{t.formAgreePolicy}</a
-                      >.
-                    </span>
-                  </span>
+                  <FormAgreeLabel
+                    locale={locale}
+                    before={t.formAgreeBefore}
+                    consent={t.formAgreeConsent}
+                    mid={t.formAgreeMid}
+                    data={t.formAgreeData}
+                  />
                 </label>
                 <button type="submit" class="v6-btn home-btn-glow">{t.formSubmit}</button>
               </form>

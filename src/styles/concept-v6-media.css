@@ -28,6 +28,24 @@
   margin: 0.75rem 0 0;
 }
 
+/* Cross-page lead forms: invalid state without native browser bubbles */
+form input.is-invalid:not([type="checkbox"]):not([type="radio"]),
+form select.is-invalid,
+form textarea.is-invalid,
+form input[aria-invalid="true"]:not([type="checkbox"]):not([type="radio"]),
+form select[aria-invalid="true"],
+form textarea[aria-invalid="true"] {
+  border-color: #c2410c !important;
+  box-shadow: 0 0 0 3px rgba(194, 65, 12, 0.15);
+}
+
+form label:has(> input.is-invalid[type="checkbox"]),
+form label:has(> input[aria-invalid="true"][type="checkbox"]) {
+  outline: 2px solid #c2410c;
+  outline-offset: 4px;
+  border-radius: 6px;
+}
+
 .v6-btn--spaced {
   margin-top: 1rem;
 }

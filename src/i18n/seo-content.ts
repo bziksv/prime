@@ -108,7 +108,9 @@ export type SeoContent = {
   formRegionOptions: string[];
   formMessage: string;
   formAgreeBefore: string;
-  formAgreePolicy: string;
+  formAgreeConsent: string;
+  formAgreeMid: string;
+  formAgreeData: string;
   formSubmit: string;
   formSuccess: string;
   formSource: string;
@@ -252,8 +254,10 @@ const seoRu: SeoContent = {
     "Санкт-Петербург и Ленинградская область",
   ],
   formMessage: "Ниша и задача — коротко",
-  formAgreeBefore: "Согласен на обработку персональных данных в соответствии с нашей",
-  formAgreePolicy: "политикой",
+  formAgreeBefore: "Даю",
+  formAgreeConsent: "согласие",
+  formAgreeMid: "на обработку",
+  formAgreeData: "персональных данных",
   formSubmit: "Отправить заявку",
   formSuccess: "Спасибо! Заявка на продвижение принята — свяжемся с вами.",
   formSource: "prodvizhenie-sayta",
@@ -581,8 +585,10 @@ const seoEn: SeoContent = {
     "Mid-tier metros",
   ],
   formMessage: "Niche and goal — briefly",
-  formAgreeBefore: "I agree to personal data processing under our",
-  formAgreePolicy: "privacy policy",
+  formAgreeBefore: "I give",
+  formAgreeConsent: "consent",
+  formAgreeMid: "to the processing of",
+  formAgreeData: "personal data",
   formSubmit: "Get a quote",
   formSuccess: "Thanks! Your SEO inquiry is in — we’ll get back to you.",
   formSource: "en-seo",
@@ -915,8 +921,10 @@ const seoEs: SeoContent = {
     "Metrópolis de competencia media",
   ],
   formMessage: "Sector y objetivo — brevemente",
-  formAgreeBefore: "Acepto el tratamiento de datos personales según nuestra",
-  formAgreePolicy: "política de privacidad",
+  formAgreeBefore: "Doy",
+  formAgreeConsent: "consentimiento",
+  formAgreeMid: "al tratamiento de",
+  formAgreeData: "datos personales",
   formSubmit: "Pedir presupuesto",
   formSuccess: "¡Gracias! Recibimos tu solicitud de SEO — te contactaremos pronto.",
   formSource: "es-seo",

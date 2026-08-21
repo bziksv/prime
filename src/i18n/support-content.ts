@@ -105,7 +105,9 @@ export type SupportContent = {
   formTariffConsult: string;
   formMessage: string;
   formAgreeBefore: string;
-  formAgreePolicy: string;
+  formAgreeConsent: string;
+  formAgreeMid: string;
+  formAgreeData: string;
   formSubmit: string;
   formSuccess: string;
   formSource: string;
@@ -195,8 +197,10 @@ const supportRu: SupportContent = {
   formTariff: "Интересующий тариф",
   formTariffConsult: "Не знаю — нужна консультация",
   formMessage: "Какие задачи на сопровождении?",
-  formAgreeBefore: "Согласен на обработку персональных данных в соответствии с нашей",
-  formAgreePolicy: "политикой",
+  formAgreeBefore: "Даю",
+  formAgreeConsent: "согласие",
+  formAgreeMid: "на обработку",
+  formAgreeData: "персональных данных",
   formSubmit: "Отправить заявку",
   formSuccess: "Спасибо! Заявка на техподдержку принята — свяжемся с вами.",
   formSource: "tehpodderzhka-sayta",
@@ -447,8 +451,10 @@ const supportEn: SupportContent = {
   formTariff: "Plan of interest",
   formTariffConsult: "Not sure — need a consult",
   formMessage: "What do you need ongoing support for?",
-  formAgreeBefore: "I agree to personal data processing under our",
-  formAgreePolicy: "privacy policy",
+  formAgreeBefore: "I give",
+  formAgreeConsent: "consent",
+  formAgreeMid: "to the processing of",
+  formAgreeData: "personal data",
   formSubmit: "Send request",
   formSuccess: "Thanks! Your support request is in — we’ll be in touch.",
   formSource: "en-support",
@@ -700,8 +706,10 @@ const supportEs: SupportContent = {
   formTariff: "Plan de interés",
   formTariffConsult: "No estoy seguro — necesito una consulta",
   formMessage: "¿Para qué necesitas soporte continuo?",
-  formAgreeBefore: "Acepto el tratamiento de datos personales conforme a nuestra",
-  formAgreePolicy: "política de privacidad",
+  formAgreeBefore: "Doy",
+  formAgreeConsent: "consentimiento",
+  formAgreeMid: "al tratamiento de",
+  formAgreeData: "datos personales",
   formSubmit: "Enviar solicitud",
   formSuccess: "¡Gracias! Recibimos tu solicitud de soporte — te contactaremos.",
   formSource: "es-support",

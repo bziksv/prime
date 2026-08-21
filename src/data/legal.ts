@@ -2,32 +2,35 @@ import type { Locale } from "../i18n/locales";
 
 export const cookieConsentKey = "prime-cookie-consent";
 
-/** RU originals are scanned policy images; EN are HTML pages. */
 const legalDocsRu = {
-  cookies: "/docs/cookies-prime-ltd.webp",
-  recommendations: "/docs/rules-recommendation-prime-ltd.webp",
-  privacy: "/docs/politics-prime-ltd.webp",
+  cookies: "/legal/cookies/",
+  recommendations: "/legal/recommendations/",
+  privacy: "/legal/privacy/",
+  consent: "/legal/consent/",
 } as const;
 
 const legalDocsEn = {
   cookies: "/en/legal/cookies/",
   recommendations: "/en/legal/recommendations/",
   privacy: "/en/legal/privacy/",
+  consent: "/en/legal/consent/",
 } as const;
 
 const legalDocsEs = {
   cookies: "/es/legal/cookies/",
   recommendations: "/es/legal/recommendations/",
   privacy: "/es/legal/privacy/",
+  consent: "/es/legal/consent/",
 } as const;
 
 export type LegalDocs = {
   cookies: string;
   recommendations: string;
   privacy: string;
+  consent: string;
 };
 
-/** @deprecated Prefer getLegalDocs(locale) — RU webp paths for backward compat on RU pages. */
+/** @deprecated Prefer getLegalDocs(locale). */
 export const legalDocs: LegalDocs = legalDocsRu;
 
 export function getLegalDocs(locale: Locale = "ru"): LegalDocs {

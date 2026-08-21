@@ -158,7 +158,9 @@ export type WebContent = {
   formStyleOptions: string[];
   formMessage: string;
   formAgreeBefore: string;
-  formAgreePolicy: string;
+  formAgreeConsent: string;
+  formAgreeMid: string;
+  formAgreeData: string;
   formSubmit: string;
   formSuccess: string;
   formSource: string;
@@ -321,8 +323,10 @@ const webRu: WebContent = {
     "Пока не определились",
   ],
   formMessage: "Ниша и задача — коротко",
-  formAgreeBefore: "Согласен на обработку персональных данных в соответствии с нашей",
-  formAgreePolicy: "политикой",
+  formAgreeBefore: "Даю",
+  formAgreeConsent: "согласие",
+  formAgreeMid: "на обработку",
+  formAgreeData: "персональных данных",
   formSubmit: "Отправить заявку",
   formSuccess: "Спасибо! Заявка на разработку принята — свяжемся с вами.",
   formSource: "razrabotka-saytov",
@@ -687,8 +691,10 @@ const webEn: WebContent = {
     "Not sure yet",
   ],
   formMessage: "Niche and goal — short version",
-  formAgreeBefore: "I agree to personal data processing under our",
-  formAgreePolicy: "privacy policy",
+  formAgreeBefore: "I give",
+  formAgreeConsent: "consent",
+  formAgreeMid: "to the processing of",
+  formAgreeData: "personal data",
   formSubmit: "Send",
   formSuccess: "Thanks — we got it. We’ll be in touch about your build.",
   formSource: "en-web",
@@ -1053,8 +1059,10 @@ const webEs: WebContent = {
     "Aún no lo tengo claro",
   ],
   formMessage: "Nicho y objetivo — en pocas palabras",
-  formAgreeBefore: "Acepto el tratamiento de datos personales conforme a nuestra",
-  formAgreePolicy: "política de privacidad",
+  formAgreeBefore: "Doy",
+  formAgreeConsent: "consentimiento",
+  formAgreeMid: "al tratamiento de",
+  formAgreeData: "datos personales",
   formSubmit: "Enviar",
   formSuccess: "Gracias, lo recibimos. Nos pondremos en contacto sobre tu proyecto.",
   formSource: "es-web",

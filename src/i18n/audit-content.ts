@@ -100,7 +100,9 @@ export type AuditContent = {
   formTypeOptions: string[];
   formMessage: string;
   formAgreeBefore: string;
-  formAgreePolicy: string;
+  formAgreeConsent: string;
+  formAgreeMid: string;
+  formAgreeData: string;
   formSubmit: string;
   formSuccess: string;
   formSource: string;
@@ -207,8 +209,10 @@ const auditRu: AuditContent = {
     "Оценить SEO-подрядчика",
   ],
   formMessage: "Что беспокоит: трафик, заявки, позиции?",
-  formAgreeBefore: "Согласен на обработку персональных данных в соответствии с нашей",
-  formAgreePolicy: "политикой",
+  formAgreeBefore: "Даю",
+  formAgreeConsent: "согласие",
+  formAgreeMid: "на обработку",
+  formAgreeData: "персональных данных",
   formSubmit: "Отправить заявку",
   formSuccess: "Спасибо! Заявка на аудит принята — свяжемся с вами.",
   formSource: "audit-sayta",
@@ -570,8 +574,10 @@ const auditEn: AuditContent = {
     "Evaluate SEO contractor",
   ],
   formMessage: "What’s on your mind: traffic, leads, rankings?",
-  formAgreeBefore: "I agree to personal data processing under our",
-  formAgreePolicy: "privacy policy",
+  formAgreeBefore: "I give",
+  formAgreeConsent: "consent",
+  formAgreeMid: "to the processing of",
+  formAgreeData: "personal data",
   formSubmit: "Send request",
   formSuccess: "Thanks! Your audit request is in — we’ll be in touch.",
   formSource: "en-audit",
@@ -933,8 +939,10 @@ const auditEs: AuditContent = {
     "Evaluar a nuestro contratista SEO",
   ],
   formMessage: "Qué te preocupa: tráfico, clientes potenciales, posiciones?",
-  formAgreeBefore: "Acepto el tratamiento de datos personales conforme a nuestra",
-  formAgreePolicy: "política de privacidad",
+  formAgreeBefore: "Doy",
+  formAgreeConsent: "consentimiento",
+  formAgreeMid: "al tratamiento de",
+  formAgreeData: "datos personales",
   formSubmit: "Enviar solicitud",
   formSuccess: "¡Gracias! Hemos recibido tu solicitud de auditoría — te contactaremos.",
   formSource: "es-audit",

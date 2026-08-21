@@ -74,7 +74,9 @@ export type PartnerContent = {
   formTypeOptions: string[];
   formMessage: string;
   formAgreeBefore: string;
-  formAgreePolicy: string;
+  formAgreeConsent: string;
+  formAgreeMid: string;
+  formAgreeData: string;
   formSubmit: string;
   formSuccess: string;
   formSource: string;
@@ -141,8 +143,10 @@ const partnerRu: PartnerContent = {
     "Другое",
   ],
   formMessage: "Коротко о себе и аудитории",
-  formAgreeBefore: "Согласен на обработку персональных данных в соответствии с нашей",
-  formAgreePolicy: "политикой",
+  formAgreeBefore: "Даю",
+  formAgreeConsent: "согласие",
+  formAgreeMid: "на обработку",
+  formAgreeData: "персональных данных",
   formSubmit: "Отправить заявку",
   formSuccess: "Спасибо! Заявка на партнёрство принята.",
   formSource: "partnerstvo",
@@ -387,8 +391,10 @@ const partnerEn: PartnerContent = {
     "Other",
   ],
   formMessage: "A bit about you and your audience",
-  formAgreeBefore: "I agree to personal data processing under our",
-  formAgreePolicy: "privacy policy",
+  formAgreeBefore: "I give",
+  formAgreeConsent: "consent",
+  formAgreeMid: "to the processing of",
+  formAgreeData: "personal data",
   formSubmit: "Send",
   formSuccess: "Thanks — we got your partnership note.",
   formSource: "en-partnership",
@@ -633,8 +639,10 @@ const partnerEs: PartnerContent = {
     "Otro",
   ],
   formMessage: "Cuéntanos brevemente sobre ti y tu audiencia",
-  formAgreeBefore: "Acepto el tratamiento de datos personales según nuestra",
-  formAgreePolicy: "política de privacidad",
+  formAgreeBefore: "Doy",
+  formAgreeConsent: "consentimiento",
+  formAgreeMid: "al tratamiento de",
+  formAgreeData: "datos personales",
   formSubmit: "Enviar",
   formSuccess: "Gracias — recibimos tu solicitud de partnership.",
   formSource: "es-partnership",

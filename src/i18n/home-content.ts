@@ -97,7 +97,9 @@ export type HomeContent = {
   formServicePlaceholder: string;
   formMessage: string;
   formAgreeBefore: string;
-  formAgreePolicy: string;
+  formAgreeConsent: string;
+  formAgreeMid: string;
+  formAgreeData: string;
   formSubmit: string;
   footerTagline: string;
   langSwitchAria: string;
@@ -339,8 +341,10 @@ const homeRu: HomeContent = {
   formService: "Услуга",
   formServicePlaceholder: "Выберите услугу",
   formMessage: "Кратко о задаче (необязательно)",
-  formAgreeBefore: "Согласен на обработку персональных данных в соответствии с",
-  formAgreePolicy: "нашей политикой",
+  formAgreeBefore: "Даю",
+  formAgreeConsent: "согласие",
+  formAgreeMid: "на обработку",
+  formAgreeData: "персональных данных",
   formSubmit: "Отправить",
   footerTagline: "Интернет-маркетинг · SEO · контекст · разработка",
   langSwitchAria: "Язык сайта",
@@ -544,8 +548,10 @@ const homeEn: HomeContent = {
   formService: "Service",
   formServicePlaceholder: "Pick a service",
   formMessage: "What’s the job? (optional)",
-  formAgreeBefore: "I agree to personal data processing under",
-  formAgreePolicy: "our privacy policy",
+  formAgreeBefore: "I give",
+  formAgreeConsent: "consent",
+  formAgreeMid: "to the processing of",
+  formAgreeData: "personal data",
   formSubmit: "Send",
   footerTagline: "Digital marketing · SEO · Google Ads · development",
   langSwitchAria: "Site language",
@@ -749,8 +755,10 @@ const homeEs: HomeContent = {
   formService: "Servicio",
   formServicePlaceholder: "Elige un servicio",
   formMessage: "¿Cuál es el encargo? (opcional)",
-  formAgreeBefore: "Acepto el tratamiento de datos personales según",
-  formAgreePolicy: "nuestra política de privacidad",
+  formAgreeBefore: "Doy",
+  formAgreeConsent: "consentimiento",
+  formAgreeMid: "al tratamiento de",
+  formAgreeData: "datos personales",
   formSubmit: "Enviar",
   footerTagline: "Marketing digital · SEO · Google Ads · desarrollo",
   langSwitchAria: "Idioma del sitio",

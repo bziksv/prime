@@ -19,9 +19,11 @@ const nav =
     ? {
         back: "← Inicio en español",
         aria: "Documentos legales",
+        consent: "Consentimiento",
         privacy: "Política de privacidad",
         cookies: "Política de cookies",
         recommendations: "Tecnologías de recomendación",
+        consentHref: "/es/legal/consent/",
         privacyHref: "/es/legal/privacy/",
         cookiesHref: "/es/legal/cookies/",
         recommendationsHref: "/es/legal/recommendations/",
@@ -30,23 +32,34 @@ const nav =
       ? {
           back: "← На главную",
           aria: "Правовые документы",
-          privacy: "Политика конфиденциальности",
-          cookies: "Cookies",
-          recommendations: "Рекомендательные технологии",
-          privacyHref: "/docs/politics-prime-ltd.webp",
-          cookiesHref: "/docs/cookies-prime-ltd.webp",
-          recommendationsHref: "/docs/rules-recommendation-prime-ltd.webp",
+          consent: "Согласие на обработку ПДн / Consent to personal data processing",
+          privacy: "Политика обработки персональных данных / Privacy policy",
+          cookies: "Политика cookie / Cookie policy",
+          recommendations: "Рекомендательные технологии / Recommendation technologies",
+          consentHref: "/legal/consent/",
+          privacyHref: "/legal/privacy/",
+          cookiesHref: "/legal/cookies/",
+          recommendationsHref: "/legal/recommendations/",
         }
       : {
           back: "← English homepage",
           aria: "Legal documents",
+          consent: "Consent to personal data processing",
           privacy: "Privacy policy",
           cookies: "Cookie policy",
           recommendations: "Recommendation technologies",
+          consentHref: "/en/legal/consent/",
           privacyHref: "/en/legal/privacy/",
           cookiesHref: "/en/legal/cookies/",
           recommendationsHref: "/en/legal/recommendations/",
         };
+
+const operatorMeta =
+  locale === "ru"
+    ? "Оператор: ООО «ПРАЙМ» (PRIME LLC) · Воронеж, Россия ·"
+    : locale === "es"
+      ? "Operador: PRIME LLC (ООО «ПРАЙМ») · Vorónezh, Rusia ·"
+      : "Operator: PRIME LLC (ООО «ПРАЙМ») · Voronezh, Russia ·";
 ---
 
 <!doctype html>
@@ -93,7 +106,7 @@ const nav =
         line-height: 1.55;
       }
       .legal-shell {
-        width: min(820px, calc(100% - 2rem));
+        width: min(1120px, calc(100% - 2rem));
         margin: 0 auto;
         padding: 1.5rem 0 3rem;
       }
@@ -170,6 +183,55 @@ const nav =
       .legal-card a {
         color: var(--legal-accent);
       }
+      .legal-card h3 {
+        margin: 1.15rem 0 0.45rem;
+        font-size: 0.98rem;
+        font-family: "Space Grotesk", sans-serif;
+      }
+      .legal-card table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+        margin: 0.75rem 0 1rem;
+        font-size: 0.82rem;
+      }
+      .legal-card th,
+      .legal-card td {
+        border: 1px solid var(--legal-border);
+        padding: 0.55rem 0.65rem;
+        text-align: left;
+        vertical-align: top;
+        color: #d5dde7;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+      }
+      .legal-card th {
+        background: rgba(255, 255, 255, 0.06);
+        color: var(--legal-text);
+        font-weight: 600;
+      }
+      /* 2-col terms: term narrow, definition gets the rest */
+      .legal-card table:not(:has(th:nth-child(3))) th:first-child,
+      .legal-card table:not(:has(th:nth-child(3))) td:first-child {
+        width: 32%;
+      }
+      .legal-scroll {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin: 0.75rem 0 1.25rem;
+        padding-bottom: 0.25rem;
+        border: 1px solid var(--legal-border);
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.18);
+      }
+      .legal-scroll table {
+        margin: 0;
+        min-width: 0;
+      }
+      #prilozhenie-1 {
+        scroll-margin-top: 1.5rem;
+      }
       .legal-meta {
         margin-top: 1.75rem;
         padding-top: 1rem;
@@ -209,12 +271,13 @@ const nav =
       <article class="legal-card">
         <slot />
         <nav class="legal-nav" aria-label={nav.aria}>
+          <a href={nav.consentHref}>{nav.consent}</a>
           <a href={nav.privacyHref}>{nav.privacy}</a>
           <a href={nav.cookiesHref}>{nav.cookies}</a>
           <a href={nav.recommendationsHref}>{nav.recommendations}</a>
         </nav>
         <p class="legal-meta">
-          Operator: PRIME LLC (ООО «ПРАЙМ») · Voronezh, Russia ·
+          {operatorMeta}
           <a href="mailto:info@prime-ltd.su">info@prime-ltd.su</a>
         </p>
       </article>

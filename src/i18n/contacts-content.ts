@@ -34,7 +34,9 @@ export type ContactsContent = {
   formServiceOptions: string[];
   formMessage: string;
   formAgreeBefore: string;
-  formAgreePolicy: string;
+  formAgreeConsent: string;
+  formAgreeMid: string;
+  formAgreeData: string;
   formSubmit: string;
   formSuccess: string;
   formSource: string;
@@ -77,8 +79,10 @@ const contactsRu: ContactsContent = {
   formService: "Выберите услугу",
   formServiceOptions: [...contactServices],
   formMessage: "Сообщение (необязательно)",
-  formAgreeBefore: "Согласен на обработку персональных данных в соответствии с нашей",
-  formAgreePolicy: "политикой",
+  formAgreeBefore: "Даю",
+  formAgreeConsent: "согласие",
+  formAgreeMid: "на обработку",
+  formAgreeData: "персональных данных",
   formSubmit: "Отправить",
   formSuccess: "Спасибо! Заявка принята — свяжемся с вами.",
   formSource: "kontakty",
@@ -138,8 +142,10 @@ const contactsEn: ContactsContent = {
     "Other / consultation",
   ],
   formMessage: "Message (optional)",
-  formAgreeBefore: "I agree to personal data processing under our",
-  formAgreePolicy: "privacy policy",
+  formAgreeBefore: "I give",
+  formAgreeConsent: "consent",
+  formAgreeMid: "to the processing of",
+  formAgreeData: "personal data",
   formSubmit: "Send",
   formSuccess: "Thanks — we got your note. We’ll follow up shortly.",
   formSource: "en-contacts",
@@ -199,8 +205,10 @@ const contactsEs: ContactsContent = {
     "Otro / consulta",
   ],
   formMessage: "Mensaje (opcional)",
-  formAgreeBefore: "Acepto el tratamiento de datos personales según nuestra",
-  formAgreePolicy: "política de privacidad",
+  formAgreeBefore: "Doy",
+  formAgreeConsent: "consentimiento",
+  formAgreeMid: "al tratamiento de",
+  formAgreeData: "datos personales",
   formSubmit: "Enviar",
   formSuccess: "Gracias — recibimos tu mensaje. Te contactaremos en breve.",
   formSource: "es-contacts",

@@ -85,7 +85,9 @@ export type AdsContent = {
   formBudgetOptions: string[];
   formMessage: string;
   formAgreeBefore: string;
-  formAgreePolicy: string;
+  formAgreeConsent: string;
+  formAgreeMid: string;
+  formAgreeData: string;
   formSubmit: string;
   formSuccess: string;
   formSource: string;
@@ -180,8 +182,10 @@ const adsRu: AdsContent = {
     "Пока не определили",
   ],
   formMessage: "Ниша и задача — коротко",
-  formAgreeBefore: "Согласен на обработку персональных данных в соответствии с нашей",
-  formAgreePolicy: "политикой",
+  formAgreeBefore: "Даю",
+  formAgreeConsent: "согласие",
+  formAgreeMid: "на обработку",
+  formAgreeData: "персональных данных",
   formSubmit: "Отправить заявку",
   formSuccess: "Спасибо! Заявка на контекст принята — свяжемся с вами.",
   formSource: "kontekstnaya-reklama",
@@ -427,8 +431,10 @@ const adsEn: AdsContent = {
     "Not decided yet",
   ],
   formMessage: "Niche and goal — briefly",
-  formAgreeBefore: "I agree to personal data processing under our",
-  formAgreePolicy: "privacy policy",
+  formAgreeBefore: "I give",
+  formAgreeConsent: "consent",
+  formAgreeMid: "to the processing of",
+  formAgreeData: "personal data",
   formSubmit: "Book a consult",
   formSuccess: "Thanks! Your ads inquiry is in — we’ll get back to you.",
   formSource: "en-ads",
@@ -674,8 +680,10 @@ const adsEs: AdsContent = {
     "Todavía sin decidir",
   ],
   formMessage: "Sector y objetivo — brevemente",
-  formAgreeBefore: "Acepto el tratamiento de datos personales según nuestra",
-  formAgreePolicy: "política de privacidad",
+  formAgreeBefore: "Doy",
+  formAgreeConsent: "consentimiento",
+  formAgreeMid: "al tratamiento de",
+  formAgreeData: "datos personales",
   formSubmit: "Reservar consulta",
   formSuccess: "¡Gracias! Recibimos tu solicitud — te contactaremos pronto.",
   formSource: "es-ads",

@@ -21,10 +21,10 @@ ErrorDocument 404 /404.html
 RewriteEngine On
 RewriteBase /
 
-# --- Legal docs: PNG → lighter WebP ---
-RewriteRule ^docs/politics-prime-ltd\.png$ /docs/politics-prime-ltd.webp [R=301,L]
-RewriteRule ^docs/cookies-prime-ltd\.png$ /docs/cookies-prime-ltd.webp [R=301,L]
-RewriteRule ^docs/rules-recommendation-prime-ltd\.png$ /docs/rules-recommendation-prime-ltd.webp [R=301,L]
+# --- Legal docs: legacy PNG/WebP scans → HTML ---
+RewriteRule ^docs/politics-prime-ltd\.(png|webp)$ /legal/privacy/ [R=301,L]
+RewriteRule ^docs/cookies-prime-ltd\.(png|webp)$ /legal/cookies/ [R=301,L]
+RewriteRule ^docs/rules-recommendation-prime-ltd\.(png|webp)$ /legal/recommendations/ [R=301,L]
 
 # --- Content images: legacy jpg/png/gif → webp (if webp exists) ---
 RewriteCond %{REQUEST_FILENAME} !-f

@@ -52,11 +52,11 @@ lines.push("<IfModule mod_rewrite.c>");
 lines.push("RewriteEngine On");
 lines.push("RewriteBase /");
 lines.push("");
-lines.push("# --- Legal docs: PNG → lighter WebP ---");
-lines.push("RewriteRule ^docs/politics-prime-ltd\\.png$ /docs/politics-prime-ltd.webp [R=301,L]");
-lines.push("RewriteRule ^docs/cookies-prime-ltd\\.png$ /docs/cookies-prime-ltd.webp [R=301,L]");
+lines.push("# --- Legal docs: legacy PNG/WebP scans → HTML ---");
+lines.push("RewriteRule ^docs/politics-prime-ltd\\.(png|webp)$ /legal/privacy/ [R=301,L]");
+lines.push("RewriteRule ^docs/cookies-prime-ltd\\.(png|webp)$ /legal/cookies/ [R=301,L]");
 lines.push(
-  "RewriteRule ^docs/rules-recommendation-prime-ltd\\.png$ /docs/rules-recommendation-prime-ltd.webp [R=301,L]",
+  "RewriteRule ^docs/rules-recommendation-prime-ltd\\.(png|webp)$ /legal/recommendations/ [R=301,L]",
 );
 lines.push("");
 lines.push("# --- Content images: legacy jpg/png/gif → webp (if webp exists) ---");

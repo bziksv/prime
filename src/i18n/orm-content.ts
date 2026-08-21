@@ -73,7 +73,9 @@ export type OrmContent = {
   formFocusOptions: string[];
   formMessage: string;
   formAgreeBefore: string;
-  formAgreePolicy: string;
+  formAgreeConsent: string;
+  formAgreeMid: string;
+  formAgreeData: string;
   formSubmit: string;
   formSuccess: string;
   formSource: string;
@@ -172,8 +174,10 @@ const ormRu: OrmContent = {
     "Комплекс",
   ],
   formMessage: "Где болит сильнее — карты, отзовики, поиск?",
-  formAgreeBefore: "Согласен на обработку персональных данных в соответствии с нашей",
-  formAgreePolicy: "политикой",
+  formAgreeBefore: "Даю",
+  formAgreeConsent: "согласие",
+  formAgreeMid: "на обработку",
+  formAgreeData: "персональных данных",
   formSubmit: "Отправить заявку",
   formSuccess: "Спасибо! Заявка по репутации принята — свяжемся с вами.",
   formSource: "upravlenie-reputaciej",
@@ -384,8 +388,10 @@ const ormEn: OrmContent = {
     "Full package",
   ],
   formMessage: "Where does it hurt most — Maps, review sites, search?",
-  formAgreeBefore: "I agree to personal data processing under our",
-  formAgreePolicy: "privacy policy",
+  formAgreeBefore: "I give",
+  formAgreeConsent: "consent",
+  formAgreeMid: "to the processing of",
+  formAgreeData: "personal data",
   formSubmit: "Send request",
   formSuccess: "Thanks! Your reputation request is in — we’ll be in touch.",
   formSource: "en-reputation",
@@ -596,8 +602,10 @@ const ormEs: OrmContent = {
     "Paquete completo",
   ],
   formMessage: "¿Dónde duele más — Maps, sitios de reseñas, búsquedas?",
-  formAgreeBefore: "Acepto el tratamiento de datos personales conforme a nuestra",
-  formAgreePolicy: "política de privacidad",
+  formAgreeBefore: "Doy",
+  formAgreeConsent: "consentimiento",
+  formAgreeMid: "al tratamiento de",
+  formAgreeData: "datos personales",
   formSubmit: "Enviar solicitud",
   formSuccess: "¡Gracias! Hemos recibido tu solicitud sobre reputación — te contactaremos.",
   formSource: "es-reputation",

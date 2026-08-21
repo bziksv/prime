@@ -111,7 +111,9 @@ export type TrafficContent = {
   formRegionOptions: { value: string; label: string; selected?: boolean }[];
   formMessage: string;
   formAgreeBefore: string;
-  formAgreePolicy: string;
+  formAgreeConsent: string;
+  formAgreeMid: string;
+  formAgreeData: string;
   formSubmit: string;
   formSuccess: string;
   formSource: string;
@@ -200,8 +202,10 @@ const trafficRu: TrafficContent = {
     { value: "multi", label: "Несколько регионов" },
   ],
   formMessage: "Ниша и примерно какой трафик хотите",
-  formAgreeBefore: "Согласен на обработку персональных данных в соответствии с нашей",
-  formAgreePolicy: "политикой",
+  formAgreeBefore: "Даю",
+  formAgreeConsent: "согласие",
+  formAgreeMid: "на обработку",
+  formAgreeData: "персональных данных",
   formSubmit: "Отправить заявку",
   formSuccess: "Спасибо! Заявка на продвижение по трафику принята — свяжемся с вами.",
   formSource: "prodvizhenie-sayta-po-trafiku",
@@ -431,8 +435,10 @@ const trafficEn: TrafficContent = {
     { value: "multi", label: "Multiple markets" },
   ],
   formMessage: "Niche and the traffic you’re aiming for",
-  formAgreeBefore: "I agree to personal data processing under our",
-  formAgreePolicy: "privacy policy",
+  formAgreeBefore: "I give",
+  formAgreeConsent: "consent",
+  formAgreeMid: "to the processing of",
+  formAgreeData: "personal data",
   formSubmit: "Send",
   formSuccess: "Thanks — we got your note. We’ll follow up shortly.",
   formSource: "en-traffic",
@@ -662,8 +668,10 @@ const trafficEs: TrafficContent = {
     { value: "multi", label: "Varios mercados" },
   ],
   formMessage: "Sector y el tráfico que buscas",
-  formAgreeBefore: "Acepto el tratamiento de datos personales según nuestra",
-  formAgreePolicy: "política de privacidad",
+  formAgreeBefore: "Doy",
+  formAgreeConsent: "consentimiento",
+  formAgreeMid: "al tratamiento de",
+  formAgreeData: "datos personales",
   formSubmit: "Enviar",
   formSuccess: "Gracias — recibimos tu mensaje. Te contactaremos en breve.",
   formSource: "es-traffic",
