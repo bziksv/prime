@@ -491,22 +491,31 @@
 
 .v6-form input:not([type="checkbox"]),
 .v6-form select,
-.v6-form textarea {
+.v6-form textarea,
+.v6-form .prime-select__trigger {
   padding: 0.75rem;
   border: 1px solid var(--border);
   border-radius: 8px;
   font-size: 0.9375rem;
   font-family: inherit;
+  line-height: 1.35;
   width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
+  background: #fff;
+  color: var(--text);
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .v6-form input.is-invalid:not([type="checkbox"]),
 .v6-form select.is-invalid,
 .v6-form textarea.is-invalid,
+.v6-form .prime-select__trigger.is-invalid,
 .v6-form input[aria-invalid="true"]:not([type="checkbox"]),
 .v6-form select[aria-invalid="true"],
-.v6-form textarea[aria-invalid="true"] {
+.v6-form textarea[aria-invalid="true"],
+.v6-form .prime-select__trigger[aria-invalid="true"] {
   border-color: #c2410c;
   box-shadow: 0 0 0 3px rgba(194, 65, 12, 0.15);
 }
@@ -521,6 +530,33 @@
 .v6-form textarea {
   resize: vertical;
   min-height: 72px;
+}
+
+.v6-form select {
+  background-image: none;
+  padding-right: 2.25rem;
+}
+
+.v6-form .prime-select {
+  width: 100%;
+  min-width: 0;
+}
+
+.v6-form .prime-select__trigger {
+  min-height: 2.85rem;
+  padding-right: 2.25rem;
+  box-shadow: none;
+  text-align: left;
+}
+
+.v6-form .prime-select__trigger:focus,
+.v6-form .prime-select__trigger:focus-visible,
+.v6-form input:not([type="checkbox"]):focus,
+.v6-form select:focus,
+.v6-form textarea:focus {
+  outline: none;
+  border-color: rgba(20, 150, 173, 0.55);
+  box-shadow: 0 0 0 3px rgba(20, 150, 173, 0.15);
 }
 
 .v6-footer {
