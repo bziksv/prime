@@ -1278,6 +1278,8 @@
 
 .u-offer {
   position: relative;
+  display: flex;
+  flex-direction: column;
   padding: 1.45rem 1.4rem 1.5rem;
   border-radius: 22px;
   background: var(--u-panel);
@@ -1364,6 +1366,11 @@
   margin: 0 0 1.15rem !important;
   font-size: 0.82rem !important;
   opacity: 0.85;
+}
+
+.u-offer .u-btn {
+  margin-top: auto;
+  align-self: flex-start;
 }
 
 .u-offer .u-btn--ghost {
