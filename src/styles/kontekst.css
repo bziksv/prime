@@ -1113,7 +1113,8 @@
 
 .a-form input:not([type="checkbox"]),
 .a-form select,
-.a-form textarea {
+.a-form textarea,
+.a-form .prime-select__trigger {
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
@@ -1124,6 +1125,9 @@
   color: var(--a-ink);
   font-family: var(--font-body);
   font-size: 0.95rem;
+  line-height: 1.35;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .a-form input:not([type="checkbox"])::placeholder,
@@ -1132,6 +1136,20 @@
   opacity: 1;
 }
 
+.a-form .prime-select {
+  width: 100%;
+  min-width: 0;
+}
+
+.a-form .prime-select__trigger {
+  min-height: 3.05rem;
+  padding-right: 2.25rem;
+  box-shadow: none;
+  text-align: left;
+}
+
+.a-form .prime-select__trigger:focus,
+.a-form .prime-select__trigger:focus-visible,
 .a-form input:not([type="checkbox"]):focus,
 .a-form select:focus,
 .a-form textarea:focus {

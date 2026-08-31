@@ -76,7 +76,7 @@ const enhanceSelect = (select: HTMLSelectElement) => {
 
   /* Safari reports flaky height/bg on <select> — form CSS owns the look when present */
   const formOwned = !!select.closest(
-    ".u-form, .v6-form, .o-form, .s-form, .t-form, .a-form, .n-form, .w-form, .p-form",
+    ".u-form, .v6-form, .o-form, .s-form, .t-form, .a-form, .n-form, .w-form, .p-form, .b-form",
   );
   if (!formOwned) {
     trigger.style.padding = cs.padding;
@@ -93,7 +93,11 @@ const enhanceSelect = (select: HTMLSelectElement) => {
 
   if (light || formOwned) wrap.classList.add("prime-select--light");
   /* dark service forms keep dark menu unless bg is clearly light */
-  if (formOwned && select.closest(".n-form, .w-form") && !light) {
+  if (
+    formOwned &&
+    select.closest(".n-form, .w-form, .o-form, .t-form, .p-form, .b-form") &&
+    !light
+  ) {
     wrap.classList.remove("prime-select--light");
   }
 

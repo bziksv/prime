@@ -818,7 +818,8 @@
 
 .p-form input:not([type="checkbox"]),
 .p-form select,
-.p-form textarea {
+.p-form textarea,
+.p-form .prime-select__trigger {
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
@@ -828,6 +829,9 @@
   background: rgba(0, 0, 0, 0.25);
   color: #f8fafc;
   font: inherit;
+  line-height: 1.35;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .p-form input::placeholder,
@@ -837,6 +841,18 @@
 
 .p-form select {
   color: #cbd5e1;
+}
+
+.p-form .prime-select {
+  width: 100%;
+  min-width: 0;
+}
+
+.p-form .prime-select__trigger {
+  min-height: 2.95rem;
+  padding-right: 2.1rem;
+  box-shadow: none;
+  text-align: left;
 }
 
 .p-form__check {
