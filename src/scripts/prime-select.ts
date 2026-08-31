@@ -73,14 +73,29 @@ const enhanceSelect = (select: HTMLSelectElement) => {
   trigger.setAttribute("aria-controls", menuId);
   trigger.setAttribute("aria-label", labelTextFor(select));
   if (select.required) trigger.setAttribute("aria-required", "true");
-  trigger.style.padding = cs.padding;
-  trigger.style.borderRadius = cs.borderRadius;
-  trigger.style.border = cs.border;
-  trigger.style.background = cs.backgroundColor;
-  trigger.style.color = cs.color;
-  trigger.style.font = cs.font;
-  trigger.style.minHeight = cs.height === "auto" ? "" : cs.height;
-  trigger.style.boxShadow = cs.boxShadow;
+
+  /* Safari reports flaky height/bg on <select> — form CSS owns the look when present */
+  const formOwned = !!select.closest(
+    ".u-form, .v6-form, .o-form, .s-form, .t-form, .a-form, .n-form, .w-form, .p-form",
+  );
+  if (!formOwned) {
+    trigger.style.padding = cs.padding;
+    trigger.style.borderRadius = cs.borderRadius;
+    trigger.style.border = cs.border;
+    trigger.style.background = cs.backgroundColor;
+    trigger.style.color = cs.color;
+    trigger.style.font = cs.font;
+    if (cs.height && cs.height !== "auto" && cs.height !== "0px") {
+      trigger.style.minHeight = cs.height;
+    }
+    trigger.style.boxShadow = cs.boxShadow;
+  }
+
+  if (light || formOwned) wrap.classList.add("prime-select--light");
+  /* dark service forms keep dark menu unless bg is clearly light */
+  if (formOwned && select.closest(".n-form, .w-form") && !light) {
+    wrap.classList.remove("prime-select--light");
+  }
 
   if (select.id) {
     document.querySelectorAll(`label[for="${CSS.escape(select.id)}"]`).forEach((label) => {

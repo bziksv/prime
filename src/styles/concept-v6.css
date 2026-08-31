@@ -687,6 +687,8 @@
 .w-form select,
 .w-form textarea,
 .w-form .prime-select__trigger,
+.u-form .prime-select__trigger,
+.v6-form .prime-select__trigger,
 .p-form input:not([type="checkbox"]),
 .p-form select,
 .p-form textarea,
